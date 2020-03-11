@@ -2,7 +2,7 @@
 title: 客戶歷程分析總覽
 description: 客戶歷程分析簡介
 translation-type: tm+mt
-source-git-commit: 7afdf490d0a63b1286a1a646a487ee96d4b6ed8f
+source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 
 ---
 
@@ -11,28 +11,22 @@ source-git-commit: 7afdf490d0a63b1286a1a646a487ee96d4b6ed8f
 
 「客戶歷程分析」是一項Analytics功能，可讓您搭配Adobe Experience Platform的資料使用分析工作區的強大功能。 它可以劃分、篩選、查詢及視覺化多年的資料價值，並結合Platform掌握各種資料架構和類型的能力。 使用 **Experience Data Model(XDM)**，資料可以統一呈現和組織，並可進行組合和探索。 **Experience Query Services可讓您** 使用SQL相容的工具和架構來查詢和控制所有資料。
 
-## 比較CJA與分析工作區
+## 比較CJA與傳統Adobe Analytics
 
 客戶歷程分析提供簡單易用的跨通道功能，並移除舊版Adobe Analytics的限制，進一步擴展了Analytics的範圍。 一些值得注意的改進是：
 
 * **無限制的變數和事件**:eVar、prop和事件的概念已不再存在。 資料主要針對維度和量度。 資料集可以有不限數量的獨特維度和度量。
-* **不限數目**:Adobe Experience Platform不受任何獨特限制，例如傳統報表套裝中的500k獨特值。
+* **不限數量的唯一值**:Adobe Experience Platform不受任何獨特限制，例如傳統報表套裝中的500k獨特值。
 * **變更歷史資料**:使用Adobe Experience Platform，您可以移除或修正資料。
 * **跨報表套裝資料**:來自多個資料集的現有實施可結合在平台中。
 
 「客戶歷程分析」的初次發行包含分析工作區中的許多功能。 如需完整清單，請參閱客 [戶歷程分析功能支援](cja-aa.md)。
 
-### 術語更新
+## 比較CJA與跨裝置分析
 
-CJA中的幾項功能已更名為符合業界標準。 有些更新名稱包括：
+[跨裝置分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (Cross-Device Analytics)與Adobe Experience Platform Identity Service整合，利用Co-op Graph或Private Graph來識別數位裝置如何與人對應。 Adobe Analytics Ultimate客戶可使用它。
 
-* 區段現在稱為「篩選」
-* 虛擬報表套裝現在稱為「檢視」
-* 分類現在稱為「查閱資料集」
-* 客戶屬性現在稱為「描述檔資料集」
-* 點擊容器現在稱為「事件」容器
-* 瀏覽容器現在稱為「作業」容器
-* 訪客容器現在稱為「人員」容器
+CJA與Adobe Experience Platform資料集整合，並在Analysis Workspace中啟用跨通道分析。 雖然CJA尚未與Co-op或「私人」身分圖形整合，但您可以「攜帶您自己的ID」將資料集合在一起，而且這些資料集可超越數位資料，同時包含線上和離線觸點。 CJA必要條件將於下文詳述。
 
 ## 主要使用案例
 
@@ -47,7 +41,7 @@ CJA中的幾項功能已更名為符合業界標準。 有些更新名稱包括�
 
 ## 必備條件
 
-您必須先完成下列步驟，才能開始使用客戶歷程分析：
+您必須先符合下列先決條件，才能開始使用客戶歷程分析：
 
 * 您的組織與Adobe Analytics透過Customer Journey Analytics附加元件與Select、Prime或Ultimate簽訂有效合約。 如果您不確定您擁有的合約類型，或不確定您是否擁有CJA附加元件，請連絡您組織的帳戶管理員。
 * 您的組織已布建Adobe Experience Platform。
@@ -63,6 +57,18 @@ CJA中的幾項功能已更名為符合業界標準。 有些更新名稱包括�
    * 管理身分名稱空間
    * 檢視沙盒
 * 若要存取客戶歷程分析或建立連線，您還需要在「管理控制台」中新增至「客戶歷程分析產 [品設定檔」](https://adminconsole.adobe.com/enterprise/)。
+
+### 術語更新
+
+CJA中的幾項功能已更名為符合業界標準。 有些更新名稱包括：
+
+* 區段現在稱為「篩選」。
+* 虛擬報表套裝現在稱為「檢視」。
+* 分類現在稱為「查閱資料集」。
+* 客戶屬性現在稱為「描述檔資料集」。
+* 點擊容器現在稱為「事件」容器。
+* 瀏覽容器現在稱為「作業」容器。
+* 訪客容器現在稱為「人員」容器。
 
 ## 其他以Adobe Experience Platform為基礎的功能
 
