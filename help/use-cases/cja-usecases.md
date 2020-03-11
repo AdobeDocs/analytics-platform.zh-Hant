@@ -2,39 +2,18 @@
 title: 客戶歷程分析使用案例
 description: 客戶歷程分析的使用案例
 translation-type: tm+mt
-source-git-commit: 1cddd8624826bddb89c9b362ec91a2c0c30c7a6f
+source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
 
 ---
 
 
 # 客戶歷程分析使用案例
 
-Adobe目前正與客戶合作建立使用案例。 請定期回訪以取得更新內容。
+客戶歷程分析可啟用下列主要使用案例：
 
-<!-- ## Report on full cross-channel customer journey for customers with high customer ID (join key) coverage
-
-More detail here.
-
-## Report on and visualize any event dataset in an interactive way
-
-Details
-
-## Combine datasets keyed off of ECID such as Analytics, Triggered Journeys, Target, and AAM data
-
-Details.
-
-## Report interactively on XDM data collection or Experience Edge deployments
-
-Details
-
-## Build "manually stitched" versions of your data to analyze
-
-Details
-
-## Analyze multi-channel data in Analysis Workspace even if unstitched
-
-Details
-
-## Combine multiple report suites
-
-Details -->
+* **在歷程情境中瞭解客戶**:您可以依序檢視和分析跨越多個通道的資料。 來自客服中心、銷售點系統和線上屬性的資料可合併為單一報表檢視。
+* **讓每個人都能獲得見解**:透過資料衍生的見解，讓更多人民大眾化資料存取，並做出商業決策。 組織中任何負責客戶體驗任何方面的人員，都可以根據更完整的資料，更快地做出真正的決策。
+* **為您的分析師利用資料科學的力量**:客戶歷程分析可讓正常人使用資料科學發掘深入見解和分析。
+* **使用臨機報告視覺化資料集並與之互動**:工作區可使用Adobe Experience Platform中符合某些基本規則的任何資料集。
+* **檢視非Web資料**:工作區不再局限於「點擊」或「事件」的剛性定義。 自訂結構可完整控制資料和定義。
+* **對您的資料操控發揮更大控制力**:變更您上傳的資料、建立新的資料集，並將它們匯入工作區。 Adobe Experience Platform透過Experience Cloud查詢服務提供查詢、擷取、轉換和載入工具。
