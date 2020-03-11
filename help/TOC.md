@@ -13,7 +13,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 5f97a68f90150c6d42ce6022473004602769fef2
+source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 5f97a68f90150c6d42ce6022473004602769fef2
    + [常見問題集](getting-started/cja-faq.md)
    + [客戶歷程分析功能支援](getting-started/cja-aa.md)
    + [CJA辭彙表](getting-started/cja-glossary.md)
-+ 專案 {#cja-reporting}
++ 工作區專案 {#cja-reporting}
    + [工作區簡介](projects/workspace-basics.md)
    + [執行基本分析](projects/perform-basic-analysis.md)
    + [執行進階分析](projects/perform-adv-analysis.md)
