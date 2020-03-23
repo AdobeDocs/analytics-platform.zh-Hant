@@ -22,7 +22,7 @@ source-git-commit: eba2b60496976eb6027d58e0ce231ee046c8fc02
 1. 按一下 **[!UICONTROL Create New Project]**.
 1. In the modal popup, make sure &#39;Blank Project&#39; is selected, then click **[!UICONTROL Create]**.
 1. 左側應會顯示含有維度、量度、區段和日期範圍的清單。找到「頁面」維度 (顯示為橙色)，將該維度拖曳至畫布上顯示「將維度放置在此處」的位置。
-1. 您可以看到顯示本月最熱門頁面的報表。 Analysis Workspace 會自動在報表中填入[「發生次數」](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html)量度。
+1. 您會看到顯示本月最上層頁面的報表。Analysis Workspace 會自動在報表中填入[「發生次數」](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html)量度。
 1. 找出「造訪次數」量度 (顯示為綠色)，並將此量度拖曳到「發生次數」量度標頭&#x200B;**中**&#x200B;或&#x200B;**旁邊** (請避免放到量度上方)。如果將「造訪次數」量度拖曳到「發生次數」上，前者就會在報表中取代後者。如果將「造訪次數」量度拖曳到「發生次數」旁，兩個量度會並排顯示。
 1. If you&#39;d like to save your project, click **[!UICONTROL Project]>[!UICONTROL Save]**in the upper left menu.
 
