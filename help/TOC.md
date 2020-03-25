@@ -39,7 +39,7 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
    + [建立資料檢視](data-views/create-dataview.md)
    + [設定資料檢視和歸因](data-views/configure-dataviews.md)
 + 元件 {#cja-components}
-   + 篩選器 {#cja-filters}
+   + Filters {#cja-filters}
       + [篩選器概觀](components/filters/filters-overview.md)
       + [建立篩選](components/filters/create-filters.md)
       + [管理篩選](components/filters/manage-filters.md)
@@ -60,5 +60,5 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
 + 使用個案 {#cja-usecases}
    + [客戶歷程分析使用案例](use-cases/cja-usecases.md)
 + Privacy {#cja-privacy}
-   + [隱私權概述](privacy/privacy-overview.md)
+   + [隱私權概觀](privacy/privacy-overview.md)
 + [CJA檔案更新](doc-changes.md)
