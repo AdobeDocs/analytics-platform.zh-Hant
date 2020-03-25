@@ -32,8 +32,8 @@ source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
    | 說明 | 詳細說明並非必要，但建議使用。 |
    | 新增標籤 | 標籤可讓您將資料檢視組織成類別。 |
    | 時區 | 選擇資料檢視的時區。 |
-   | 工作階段逾時 | 選擇「會話」的定義。 作業逾時設定會定義獨特訪客在自動啟動新作業前必須閒置的量。 已預設為 30 分鐘。For example, if you set the session timeout to 45 minutes, a new session grouping is created for each sequence of hits collected, separated by 45 minutes of inactivity. <!--This setting impacts not only your visit counts, but also how visit segment containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
-   | 開始新的活動階段作業 | 不論作業階段是否已逾期，事件觸發時就會開始新的工作階段。新建立的工作階段將會包含啟動的事件。此外，您可以使用多個事件來啟動工作階段，如果資料中觀察到其中一個事件，就會觸發新的工作階段。此設定會影響您的瀏覽計數、作業階段（先前稱為瀏覽）區段容器，以及維度上的瀏覽過期邏輯。 |
+   | 工作階段逾時 | 選擇「會話」的定義。 作業逾時設定會定義獨特訪客在自動啟動新作業前必須閒置的量。 預設為30分鐘。 例如，如果您將作業逾時設為45分鐘，則會針對收集的每個點擊序列建立新的作業群組，並以45分鐘的閒置分隔。 <!--This setting impacts not only your visit counts, but also how visit segment containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
+   | 開始新的活動階段作業 | 無論作業是否逾時，新作業會在引發事件時啟動。 新建立的會話包含啟動該會話的事件。 此外，您可以使用多個事件來啟動作業，而如果資料中觀察到任何這些事件，則會觸發新作業。 此設定會影響您的瀏覽計數、作業階段（先前稱為瀏覽）區段容器，以及維度上的瀏覽過期邏輯。 |
    | 新增篩選 | 「篩選」是「客戶歷程分析」中「區段」的詞語。 如果您想要篩選資料，請從左側導軌拖曳適當的篩選。 如果您未選取篩選，資料檢視將包含您的所有資料。 |
 
 1. 按一下 **[!UICONTROL Continue]**.
