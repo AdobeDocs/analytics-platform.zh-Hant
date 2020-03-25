@@ -27,10 +27,10 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 | 日期比較 | 完整支援 |
 | 虛擬報表套裝 | 現在稱為 [資料檢視](/help/data-views/create-dataview.md)。 |
 | VRS元件組織 | 現在是資料檢視的一部分。 |
-| 報表時間處理功能 | CJA完全依賴「報表時間處理」。 |
+| 報表時間處理 | CJA完全依賴「報表時間處理」。 |
 | 刪除GDPR | 請注意，GDPR現在與Adobe Experience Platform協作處理- CJA繼承了Experience Platform對基礎資料集所做的任何資料變更。 |
 
-## 支援警告功能
+## 支援多項注意事項
 
 | 功能 | 附註 |
 | --- | --- |
@@ -47,9 +47,9 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 
 | 功能 | 附註 |
 | --- | --- |
-| 立即可用的分析工作區維度（例如瀏覽器類型、反向連結類型、行銷管道、瀏覽次數等） | CJA不會以原生方式提供這些維度。 對於使用Analytics資料連接器(ADC)的客戶，有些維度是可用的，但並非全部。 請參閱我們的文 [件，其中Analytics變數可透過ADC獲得支援](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。 |
+| 立即可用的分析工作區維度（例如瀏覽器類型、反向連結類型、行銷管道、瀏覽次數等） | CJA不以原生方式提供這些維度。 對於使用Analytics資料連接器(ADC)的客戶，有些維度是可用的，但並非全部。 請參閱我們的文 [件，其中Analytics變數可透過ADC獲得支援](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。 |
 | 面板 | 完全支援空白麵板、歸因面板和自由面板。 不支援區段比較。 |
-| 銷售 eVar | 銷售eVar只能與ADC型資料集搭配使用，除非它們嚴格符合相同的XDM架構（類似上述產品清單限制）。 |
+| 銷售eVar | 銷售eVar只能與ADC型資料集搭配使用，除非它們嚴格符合相同的XDM架構（類似上述產品清單限制）。 |
 | 機器人篩選 | 針對以Analytics Data Connector(ADC)為基礎的資料集，會套用機器人篩選。 其他資料集的一般機器人篩選邏輯不由Experience Platform或CJA執行。 |
 | 處理規則 | 對於基於ADC的資料集，仍然應用處理規則。 |
 | 跨裝置身分識別接合 | 客戶只能透過查詢服務「一次性」接線資料，或目前必須在Experience Platform資料擷取前將此邏輯套用至資料。 |
@@ -83,7 +83,7 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 | Activity Map | 尚未計畫提供支援。 |
 | 分類規則產生器 | 尚未計畫提供支援。 |
 | 摘要資料來源 | 尚未計畫提供支援。 |
-| 即時報表 | 尚未計畫提供支援。 |
+| 即時報告 | 尚未計畫提供支援。 |
 
 ## 將不受支援
 
