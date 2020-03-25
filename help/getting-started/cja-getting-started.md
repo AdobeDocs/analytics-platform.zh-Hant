@@ -11,7 +11,7 @@ source-git-commit: fb2b5868db69bfff3345abcd69b0b70112fdcf3c
 
 若要實作客戶歷程分析，您必須遵循此工作流程。 有些初始工作是在Adobe Experience Platform中執行，有些則在客戶歷程分析中執行。
 
-| 任務 | 其中 執行 | 詳細資料 |
+| 任務 | 執行位置 | 詳細資料 |
 |---|---|---|
 | **步驟1:將您的資料匯入Adobe Experience Platform** | Adobe Experience Platform | 有數種方式可擷取串流和批次使用案例的資料，包括API和資料上傳的圖形介面。 Experience Platform可以從以下方面引入資料：<ul><li>S3儲存空間</li><li>Azure Blob儲存空間</li><li>卡夫卡溪</li><li>SFTP傳輸</li><li>CSV檔案上傳</li><li>JSON檔案上傳</li></ul> |
 | **步驟2:準備您的資料結構** | Adobe Experience Platform | 使用 [Adobe Experience Data Model(XDM)](https://www.adobe.io/apis/experienceplatform/home/xdm.html) ，標準化客戶體驗資料並定義客戶體驗管理的架構。 |
