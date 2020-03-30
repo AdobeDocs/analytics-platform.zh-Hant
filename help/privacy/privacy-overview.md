@@ -1,19 +1,19 @@
 ---
-title: 客戶歷程分析隱私權概觀
-description: 說明隱私權設定在「客戶歷程分析」中的運作方式。
-translation-type: tm+mt
+title: Customer Journey Analytics 隱私權概觀
+description: 說明隱私權設定在 Customer Journey Analytics 的運作方式。
+translation-type: ht
 source-git-commit: 415a4a7f7d540a0329f973042d1c6a6a285d5b1b
 
 ---
 
 
-# 客戶歷程分析隱私權概觀
+# Customer Journey Analytics 隱私權概觀
 
-一般而言，「客戶歷程分析」中任何與隱私權相關的設定都會繼承自Adobe Experience Platform。
+一般而言，Customer Journey Analytics 中任何與隱私權相關的設定，皆繼承自 Adobe Experience Platform。
 
 ## GDPR
 
-客戶歷程分析將不直接訂閱通用資料保護規則(GDPR)中央服務，而會繼承Experience Platform中所有資料集變更。 我們依賴Platform Data Lake強制執行GDPR刪除請求，並在Pipeline上完成時通知我們。 我們會監聽Pipeline，並同步客戶歷程分析中針對事件資料集對受影響批次的所有變更。 每個刪除請求後，受GDPR刪除請求影響的描述檔和查閱資料集都會完全重新收錄。 我們可以保證刪除請求會在資料湖的刪除事件發生7天內執行。
+Customer Journey Analytics 不會直接訂閱一般資料保護規 (GDPR) 集中服務，而是繼承自 Experience Platform 中所有資料集的變更內容。我們仰賴 Platform Data Lake 強制執行 GDPR 刪除請求，並於這些請求在 Pipeline 上完成時通知我們。我們會監聽 Pipeline，並針對事件資料集，同步 Customer Journey Analytics 中對受影響批次所作的所有變更內容。在每次刪除請求後，受 GDPR 刪除請求所影響的設定檔和查詢資料集都會完全重新內嵌。我們可以保證刪除請求會在 Data Lake 中發生刪除事件後的 7 天內執行。
 
 ## CCPA
 
