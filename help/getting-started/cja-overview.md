@@ -1,5 +1,5 @@
 ---
-title: 客戶歷程分析總覽
+title: Customer Journey Analytics 概觀
 description: 客戶歷程分析簡介
 translation-type: tm+mt
 source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
@@ -7,7 +7,7 @@ source-git-commit: 336adb3762258cc657ffa5c74a50d28e6f63c7db
 ---
 
 
-# 客戶歷程分析總覽
+# Customer Journey Analytics 概觀
 
 「客戶歷程分析」是一項Analytics功能，可讓您搭配Adobe Experience Platform的資料使用分析工作區的強大功能。 它可以劃分、篩選、查詢及視覺化多年的資料價值，並結合Platform掌握各種資料架構和類型的能力。 使用 **Experience Data Model(XDM)**，資料可以統一呈現和組織，並可進行組合和探索。 **Experience Query Services可讓您** 使用SQL相容的工具和架構來查詢和控制所有資料。
 
@@ -39,7 +39,7 @@ CJA與Adobe Experience Platform資料集整合，並在Analysis Workspace中啟�
 * **檢視非Web資料**:工作區不再局限於「點擊」或「事件」的剛性定義。 自訂結構可完整控制資料和定義。
 * **對您的資料操控發揮更大控制力**:變更您上傳的資料、建立新的資料集，並將它們匯入工作區。 Adobe Experience Platform透過Experience Cloud查詢服務提供查詢、擷取、轉換和載入工具。
 
-## 必備條件
+## 必要條件
 
 您必須先符合下列先決條件，才能開始使用客戶歷程分析：
 
