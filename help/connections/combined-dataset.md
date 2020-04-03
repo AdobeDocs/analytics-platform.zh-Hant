@@ -1,5 +1,5 @@
 ---
-title: 組合的資料集
+title: 合併的資料集
 description: 瞭解CJA如何結合資料集建立連線。
 translation-type: tm+mt
 source-git-commit: f9cdcb8a6efe688d553929c3081f3239e0691cd9
@@ -7,7 +7,7 @@ source-git-commit: f9cdcb8a6efe688d553929c3081f3239e0691cd9
 ---
 
 
-# 組合的資料集
+# 合併的資料集
 
 當您建立連線時，CJA會將所有結構描述和資料集合在單一資料集中。 CJA使用這個&#39;組合資料集&#39;來報告。 在連接中包含多個方案或資料集時：
 
