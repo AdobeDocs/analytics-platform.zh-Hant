@@ -16,11 +16,11 @@ source-git-commit: fb2b5868db69bfff3345abcd69b0b70112fdcf3c
 | **步驟1:將您的資料匯入Adobe Experience Platform** | Adobe Experience Platform | 有數種方式可擷取串流和批次使用案例的資料，包括API和資料上傳的圖形介面。 Experience Platform可以從以下方面引入資料：<ul><li>S3儲存空間</li><li>Azure Blob儲存空間</li><li>卡夫卡溪</li><li>SFTP傳輸</li><li>CSV檔案上傳</li><li>JSON檔案上傳</li></ul> |
 | **步驟2:準備您的資料結構** | Adobe Experience Platform | 使用 [Adobe Experience Data Model(XDM)](https://www.adobe.io/apis/experienceplatform/home/xdm.html) ，標準化客戶體驗資料並定義客戶體驗管理的架構。 |
 | **步驟3:根據模式建立資料集** | Adobe Experience Platform | Platform中的資料由資料集組成，例如電子郵件資料集、CRM資料集、POS資料集、Adobe Analytics資料集等。 每個資料集都由模式和批資料組成。 您可以在Experience Platform中建 [立資料集](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/creating_a_dataset_tutorial/creating_a_dataset_tutorial.md)。<br>雖然可匯入客戶歷程分析的資料集架構是有彈性的，但它必須符合一些基本規則。 最好先確定您的資料符合這些要求，再將其上傳至平台。 （請注意，結構同時包含量度和維度。）<br>有三種資料類型與客戶歷程分析相容：<ul><li>**事件資料**:代表及時事件的資料（例如，網站瀏覽、互動、交易、POS資料、調查資料、廣告曝光資料等）。 這是典型的點按流資料，包含客戶ID或Cookie ID，以及時間戳記。 透過事件資料，我們允許您使用任何您想要的ID。</li><li>**查閱資料**:此資料用於查閱在「事件」或「描述檔」資料中找到的值或索引鍵。 例如，您可以上傳將事件資料中的數值ID對應至產品名稱的查閱資料。</li><li>**描述檔資料**:在「事件」資料中套用至訪客、使用者或客戶的資料。 例如，可讓您上傳有關客戶的CRM資料。</li></ul> |
-| **步驟4：建立平台資料集和客戶歷程分析之間的連線** | 客戶歷程分析 | 請參 [閱建立連接](/help/connections/create-connection.md)。 |
+| **步驟4：建立平台資料集和客戶歷程分析之間的連線** | 客戶歷程分析 | See [Create a connection](/help/connections/create-connection.md). |
 | **步驟5:建立資料檢視** | 客戶歷程分析 | See [Create a data view](/help/data-views/create-dataview.md). |
 | **步驟6:在工作區中報告跨通道資料** | 客戶歷程分析 | 請參 [閱執行基本分析](/help/projects/perform-basic-analysis.md)[和執行進階分析](/help/projects/perform-adv-analysis.md)。 |
 
-## 必備條件
+## 必要條件
 
 客戶歷程分析適用於
 
