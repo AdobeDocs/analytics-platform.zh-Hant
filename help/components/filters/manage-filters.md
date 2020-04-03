@@ -1,5 +1,5 @@
 ---
-title: 管理篩選
+title: 管理篩選條件
 description: 瞭解如何在客戶歷程分析中管理篩選
 translation-type: tm+mt
 source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
@@ -7,7 +7,7 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 ---
 
 
-# 管理篩選
+# 管理篩選條件
 
 「篩選管理員」提供許多管理區段的方式，例如共用、標籤、核准、複製、刪除和標示為我的最愛。
 
