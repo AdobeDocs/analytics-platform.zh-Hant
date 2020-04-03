@@ -9,7 +9,7 @@ source-git-commit: 71d666b89860813d4e578c2f3c786da8d471a874
 
 # 元件和歸因設定
 
-「客戶歷程分析」中不再存在傳統Adobe Analytics意義上的eVar、prop和事件。 但您有不限數量的架構元素（維度、量度、清單欄位）。 您在資料收集程式期間用來套用至eVar和prop的所有歸因設定現在都會在查詢時套用——也稱為報表時間處理。
+Customer Journey Analytics 中不再有 Adobe Analytics 傳統意義上的 eVar、prop 和事件。但您有不限數量的架構元素（維度、量度、清單欄位）。 您在資料收集程式期間用來套用至eVar和prop的所有歸因設定現在都會在查詢時套用——也稱為報表時間處理。
 
 按一 [下這裡](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/attribution-settings-in-data-views.html) ，即可檢視影片總覽。
 
