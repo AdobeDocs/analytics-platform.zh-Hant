@@ -11,7 +11,7 @@ source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
 
 使用專案經理來共用、重新命名或刪除專案。 要訪問日期管理器，請執行以下操作：
 
-1. 使用您 [的AdobeID認證登入analytics.adobe](https://analytics.adobe.com) .com。
+1. Log in to [analytics.adobe.com](https://analytics.adobe.com) using your AdobeID credentials.
 1. 導覽至 [!UICONTROL Components] > [!UICONTROL Projects]。
 
 ## 介面
