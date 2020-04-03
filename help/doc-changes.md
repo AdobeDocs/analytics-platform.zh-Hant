@@ -1,5 +1,5 @@
 ---
-title: CJA檔案更新
+title: CJA 文件更新
 description: '列出自2019年12月以來客戶歷程分析檔案集的內容更新。 '
 translation-type: tm+mt
 source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
