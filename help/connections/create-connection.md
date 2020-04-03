@@ -1,5 +1,5 @@
 ---
-title: 建立連接
+title: 建立連線
 description: 說明如何在客戶歷程分析中建立與平台資料集的連線。
 translation-type: tm+mt
 source-git-commit: 41029fb428308a247df65072af4e419a90098a15
@@ -7,7 +7,7 @@ source-git-commit: 41029fb428308a247df65072af4e419a90098a15
 ---
 
 
-# 建立連接
+# 建立連線
 
 連線可讓您將Adobe Experience Platform的資料集整合至工作區。 為了報告平台資料集，您必須首先在平台和工作區中建立資料集之間的連接。
 
