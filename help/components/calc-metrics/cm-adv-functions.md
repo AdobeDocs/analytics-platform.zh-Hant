@@ -2,7 +2,7 @@
 title: 參考——進階函式
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 ---
 
@@ -27,7 +27,7 @@ Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UIC
 
 傳回其引數的值。 使用NOT可確定值不等於一個特定值。
 
-> [!NOTE] 0 (零) 表示 False，其他值表示 True。
+>[!NOTE] 0 (零) 表示 False，其他值表示 True。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -64,7 +64,7 @@ Approximate Count Distinct (dimension)
 
 ## 超出唯一客戶數
 
-與Count()和RowCount()一樣，Approximate Count Distinct()受「超出唯一 [客戶數」限制的約束](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html)。 如果維度在特定月份內達到「超出唯一客戶數」限制，該值會計為1個維度項目。
+與Count()和RowCount()一樣，Approximate Count Distinct()受「超出唯一 [客戶數」限制的約束](https://marketing.adobe.com/resources/help/zh_TW/reference/metrics_uniques_high_numbers.html)。 如果維度在特定月份內達到「超出唯一客戶數」限制，該值會計為1個維度項目。
 
 ## 比較計數函式
 
@@ -203,7 +203,7 @@ CBRT(metric)
 
 如果N &lt;= 0，則使用所有先前的行。 由於依維度排序，因此只適用於日期或路徑長度等自然順序的維度。
 
-> [!NOTE] 如果您想使用收入/訪客之類的比率量度，則此函數不適用，因為此函數會平均比率，而非將過去 N 期的收入相加、將過去 N 期的訪客數相加，然後再將兩者相除。請改為使用
+>[!NOTE] 如果您想使用收入/訪客之類的比率量度，則此函數不適用，因為此函數會平均比率，而非將過去 N 期的收入相加、將過去 N 期的訪客數相加，然後再將兩者相除。請改為使用
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -446,7 +446,7 @@ NOT(logical)
 
 如果任何引數為 TRUE 則傳回 TRUE，若所有引數為 FALSE 則傳回 FALSE。
 
-> [!NOTE] 0 (零) 表示 False，其他值表示 True。
+>[!NOTE] 0 (零) 表示 False，其他值表示 True。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -687,7 +687,7 @@ Z 分數的方程式為：
 
 其中 [!DNL x] 是原始分數、[!DNL μ] 是族群平均值，[!DNL σ] 是族群標準差。
 
-> [!NOTE][!DNL μ]  (mu) 和 [!DNL σ] (sigma) 會自動從量度中計算得出。
+>[!NOTE][!DNL μ]  (mu) 和 [!DNL σ] (sigma) 會自動從量度中計算得出。
 
 Z 分數 (量度)
 
@@ -712,5 +712,5 @@ Z 分數 (量度)
 
 傳回在欄中偶然看到目前列的可能性。
 
-> [!NOTE] 此處假設值為常態分布。
+>[!NOTE] 此處假設值為常態分布。
 
