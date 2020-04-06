@@ -2,7 +2,7 @@
 title: 參考——基本函式
 description: '計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。 '
 translation-type: tm+mt
-source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
 以下是函數及其定義的字母順序清單。
 
-> [!NOTE] 此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[!DNL MAXV(metrics)] 也允許用於 [!DNL MAXV(PageViews + Visits).]
+>[!NOTE] 此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[!DNL MAXV(metrics)] 也允許用於 [!DNL MAXV(PageViews + Visits).]
 
 ## 表格函數和列函數
 
