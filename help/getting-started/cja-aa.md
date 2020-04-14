@@ -2,7 +2,7 @@
 title: Customer Journey Analytics 功能支援
 description: 客戶歷程分析功能與Adobe Analytics功能集的比較。
 translation-type: tm+mt
-source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 | 虛擬報表套裝 | 現在稱為 [資料檢視](/help/data-views/create-dataview.md)。 |
 | VRS元件組織 | 現在是資料檢視的一部分。 |
 | 報表時間處理 | CJA完全依賴「報表時間處理」。 |
-| 刪除GDPR | 請注意，GDPR現在與Adobe Experience Platform協作處理- CJA繼承了Experience Platform對基礎資料集所做的任何資料變更。 |
+| 刪除GDPR | 請注意，GDPR現在可與 [!UICONTROL Experience Platform] - CJA繼承對基礎資料集所做 [!UICONTROL Experience Platform] 的資料變更。 |
 
 ## 支援多項注意事項
 
@@ -36,7 +36,7 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 | --- | --- |
 | 產品變數 | 產品變數目前可用於報告符合「體驗事件」架構的資料（特別是使用productListItems物件）。 |
 | 視覺效果 | 除了地圖視覺化外，所有視覺化都受支援。 |
-| AAM觀眾 | 如果客戶使用Analytics Data Connector資料集，此資料將是ADC資料的一部分。 |
+| AAM觀眾 | 如果客戶使用 [!UICONTROL Analytics Data Connector] 資料集，此資料將是ADC資料的一部分。 |
 | 專案共用 | 專案共用僅在CJA的使用者之間受支援- CJA與傳統分析工作區之間不支援專案共用。 |
 | 自訂作業化 | 支援除行動背景點擊以外的所有自訂作業化功能。 |
 | eVar永續性設定 | eVar不再是CJA的一部分。 不過，永續性設定現在是「資料檢視」的一部分，可用於所有維度。 請記住，永續性是以報告時間處理為基礎，而非資料收集處理。 這表示所有持續性都將以報告日期範圍為基礎，而非整個資料。 |
@@ -47,12 +47,12 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 
 | 功能 | 附註 |
 | --- | --- |
-| 立即可用的分析工作區維度（例如瀏覽器類型、反向連結類型、行銷管道、瀏覽次數等） | CJA不以原生方式提供這些維度。 對於使用Analytics資料連接器(ADC)的客戶，有些維度是可用的，但並非全部。 請參閱我們的文 [件，其中Analytics變數可透過ADC獲得支援](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。 |
+| 立即可用的分析工作區維度（例如瀏覽器類型、反向連結類型、行銷管道、瀏覽次數等） | CJA不會以原生方式提供這些維度。 對於使用Analytics資料連接器(ADC)的客戶，有些維度是可用的，但並非全部。 請參閱我們的文 [件，其中Analytics變數可透過ADC獲得支援](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。 |
 | 面板 | 完全支援空白麵板、歸因面板和自由面板。 不支援區段比較。 |
 | 銷售eVar | 銷售eVar只能與ADC型資料集搭配使用，除非它們嚴格符合相同的XDM架構（類似上述產品清單限制）。 |
-| 機器人篩選 | 針對以Analytics Data Connector(ADC)為基礎的資料集，會套用機器人篩選。 其他資料集的一般機器人篩選邏輯不由Experience Platform或CJA執行。 |
+| 機器人篩選 | 針對以Analytics Data Connector(ADC)為基礎的資料集，會套用機器人篩選。 其他資料集的一般機器人篩選邏輯不由或 [!UICONTROL Experience Platform] CJA執行。 |
 | 處理規則 | 對於基於ADC的資料集，仍然應用處理規則。 |
-| 跨裝置身分識別接合 | 客戶只能透過查詢服務「一次性」接線資料，或目前必須在Experience Platform資料擷取前將此邏輯套用至資料。 |
+| 跨裝置身分識別接合 | 客戶只能透過查詢服務對資料進行「一次性」連結，或目前必須在資料擷取前將此邏輯套用至 [!UICONTROL Experience Platform] 資料。 |
 
 ## 目前不支援，但已規劃
 
@@ -95,6 +95,6 @@ source-git-commit: 1d65b22ab2323bebf42b2782b2bab2ed52869a02
 | 報告與分析目標 |  |
 | 報告與分析日曆事件 |  |
 | Ad Hoc Analysis |  |
-| Data Warehouse 報表 | Adobe Experience Platform Query Service將是CJA中這些使用案例的新介面。 |
+| Data Warehouse 報表 | [!UICONTROL Experience Platform Query Service] 將是CJA中這些使用案例的新介面。 |
 | Mobile Services |  |
 | 資料摘要 |  |
