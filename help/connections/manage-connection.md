@@ -2,7 +2,7 @@
 title: 管理連線
 description: 說明如何管理與平台資料集的連接。
 translation-type: tm+mt
-source-git-commit: fa7898d73756c33a0bae22c8758bc9f0a649626a
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: fa7898d73756c33a0bae22c8758bc9f0a649626a
 
    | 動作 | 說明 |
    |---|---|
-   | [!UICONTROL Delete] | 刪除連線並不會刪除資料集，因為資料仍在Adobe Experience Platform中。 |
+   | [!UICONTROL Delete] | 刪除連線並不會刪除資料集，因為資料仍在 [!DNL Adobe Experience Platform]。 |
    | [!UICONTROL Rename] | 您可以使用更清楚描述的名稱來重新命名連接。 |
    | [!UICONTROL Create Data View] | 此連結會將您帶往資料檢 [視產生器](/help/data-views/create-dataview.md)。 |
    | [!UICONTROL Start or stop data streaming] | 「串流」意指如果有任何新批次新增至連線中的任何資料集，此新資料將會帶入報表 [!UICONTROL Customer Journey Analytics] 中。 |
