@@ -2,7 +2,7 @@
 title: 建立資料檢視
 description: 說明如何在客戶歷程分析(CJA)中建立平台資料集的資料檢視。
 translation-type: tm+mt
-source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
+source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
 
 ## 先決條件
 
-在建立資料檢視之前，您需 [要設定一或多個Adobe Experience Platform資料集的連線](/help/connections/create-connection.md)。
+在建立資料檢視之前，您需 [要先設定一或多個Experience Platform資料集的連線] ](/help/connections/create-connection.md)。
 
 ## 設定設定
 
@@ -27,7 +27,7 @@ source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
 
    | 會話設定 | 定義 |
    |---|---|
-   | 連線 | 此欄位會將資料檢視連結至您先前建立的連線，其中包含平台資料集。 |
+   | 連線 | 此欄位會將資料檢視連結至您先前建立的連線，其中包含 [!UICONTROL Experience Platform] 資料集。 |
    | 名稱 | 必須為資料檢視指定名稱。 |
    | 說明 | 詳細說明並非必要，但建議使用。 |
    | 新增標籤 | 標籤可讓您將資料檢視組織成類別。 |
@@ -40,7 +40,7 @@ source-git-commit: c85b5d2e702a38aa6569da893a25bacd39604f8a
 
 ## 新增元件
 
-1. 現在是時候將元件（維度、量度）新增至資料檢視（類似於虛擬報表套裝中的組織體驗）了。請注意，資料集中的每個欄位現在都會轉換為維度或量度。 將維度和量度拖曳至面板或 **[!UICONTROL選取全部** ，以新增所有元件。
+1. 現在是時候將元件（維度、量度）新增至資料檢視（類似於虛擬報表套裝中的組織體驗）了。請注意，資料集中的每個欄位現在都會轉換為維度或量度。 將維度和量度拖曳至面板或 **[!UICONTROL選擇全部** ，以新增所有元件。
 
    ![](assets/add-all-components.png)
 
