@@ -2,7 +2,7 @@
 title: 建立連線
 description: 說明如何在客戶歷程分析中建立與平台資料集的連線。
 translation-type: tm+mt
-source-git-commit: 7fdda3a4171400ba018fe31b492737553c575998
+source-git-commit: 757aea2f2ef4bb7eb1e9ba7c06a5705427255208
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 7fdda3a4171400ba018fe31b492737553c575998
 
    | 資料集類型 | 說明 | 時間戳記 | 結構 | 人員 ID |
    |---|---|---|---|---|
-   | [!UICONTROL Event] | 代表及時事件的資料（例如，網站瀏覽、互動、交易、POS資料、調查資料、廣告曝光資料等）。 這是典型的點按流資料，包含客戶ID或Cookie ID，以及時間戳記。 透過事件資料，我們允許您使用任何您想要的ID。 | 將設定為時間戳。 | 此數 [!DNL Experience Platform] 據集類型所基於的模式。 | 不適用 |
-   | [!UICONTROL Lookup] | 類似於「分類」檔案。 此資料用於尋找在您的事件或描述檔資料中找到的值或索引鍵。 例如，您可以上傳將事件資料中的數值ID對應至產品名稱的查閱資料。 | 不適用 | 此數 [!DNL Experience Platform] 據集類型所基於的模式。 | 不適用 |
-   | [!UICONTROL Profile] | 類似於 [!UICONTROL Customer Attributes] -用於非更改和非臨時屬性。 資料中套用至訪客、使用者或客戶的 [!UICONTROL Event] 資料。 例如，可讓您上傳有關客戶的CRM資料。 | 不適用 | 此數 [!DNL Experience Platform] 據集類型所基於的模式。 | 您可以選擇要包含的人員ID。 定義在中的每個資 [!DNL Experience Platform] 料集都有自己定義的一或多個人員ID集，例如Cookie ID、銜接ID、使用者ID、追蹤代碼等。<br>![人](assets/person-id.png)**員&#x200B;**:如果您建立的連線包含不同ID的資料集，報表會反映這一點。 要真正合併資料集，您需要使用相同的人員ID。 |
+   | [!UICONTROL Event-Schema] | 任何基於具有「時間系列」行為的XDM類的內置或自定義模式。 例如「XDM體驗事件」或「XDM決策事件」。 <br>代表及時事件的資料（例如，網站瀏覽、互動、交易、POS資料、調查資料、廣告曝光資料等）。 例如，這可以是典型的點按流資料（客戶ID或Cookie ID）和時間戳記。 對於事件資料，您可以靈活選擇將哪個ID用作人員ID。 | 會從 [UICONCONTROL Experience Platform中的事件型結構自動設為預設時間戳記欄位]。 | 此資 [料集類型所依據的UICONTROL Experience Platform] 架構。 | 您可以選擇要包含的人員ID。 在Experience Platform中定義的每個資料集架構都可以有其自己的一組一或多個定義與身分名稱空間相關聯的身分識別。 其中任何一個都可用作人員ID。 範例包括Cookie ID、銜接ID、使用者ID、追蹤代碼等。 |
+   | [!UICONTROL Lookup-Schema] | 除「XDM個別描述檔」類別外，任何以具有「記錄」行為的XDM類別為基礎的內建或自訂架構。<br>類似於「分類」檔案。 此資料用於尋找在您的事件或描述檔資料中找到的值或索引鍵。 例如，您可以上傳將事件資料中的數值ID對應至產品名稱的查閱資料。 | 不適用 | 此數 [!DNL Experience Platform] 據集類型所基於的模式。 | 不適用 |
+   | [!UICONTROL Profile-Schema] | 任何基於「XDM個別配置檔案」類的內置或自定義模式。 <br>類似於 [!UICONTROL Customer Attributes] -用於非更改和非臨時屬性。 資料中套用至訪客、使用者或客戶的 [!UICONTROL Event] 資料。 例如，可讓您上傳有關客戶的CRM資料。 | 不適用 | 此數 [!DNL Experience Platform] 據集類型所基於的模式。 | 您可以選擇要包含的人員ID。 定義在中的每個資 [!DNL Experience Platform] 料集都有自己定義的一或多個人員ID集，例如Cookie ID、銜接ID、使用者ID、追蹤代碼等。<br>![人](assets/person-id.png)**員&#x200B;**:如果您建立的連線包含不同ID的資料集，報表會反映這一點。 若要真正合併資料集，您需要使用相同的人員ID。 |
 
 1. 按一下 **[!UICONTROL Next]** 將帶您進入對話 [!UICONTROL Create Connection] 框。
 
