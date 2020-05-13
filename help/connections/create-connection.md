@@ -2,9 +2,9 @@
 title: 建立連線
 description: 說明如何在客戶歷程分析中建立與平台資料集的連線。
 translation-type: tm+mt
-source-git-commit: b81116bba59c4b52dfe5b8b628c581e332a05c48
+source-git-commit: 674835d9c8b79850051729c875bc67f0e4052a66
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '889'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 1. 按一 **[!UICONTROL 下右上方的]** 「建立新連線」。
 
-![建立連線](assets/create-connection.png)
+   ![建立連線](assets/create-connection.png)
 
 1. 首先，在Experience Platform中選擇沙盒，其中包含您要建立連線的資料集。 Adobe Experience Platform提供 [沙盒](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) ，可將單一Platform執行個體分割為不同的虛擬環境，以協助開發和發展數位體驗應用程式。 您可以將沙盒視為包含資料集的「資料孤島」。 沙盒可用來控制資料集的存取。 您無法跨沙盒存取資料。
 
