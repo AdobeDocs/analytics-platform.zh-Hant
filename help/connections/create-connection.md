@@ -2,9 +2,9 @@
 title: 建立連線
 description: 說明如何在客戶歷程分析中建立與平台資料集的連線。
 translation-type: tm+mt
-source-git-commit: 674835d9c8b79850051729c875bc67f0e4052a66
+source-git-commit: 4b672b0decfecc5a3c607ad966ebb2ecbf178a96
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '886'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 4%
 
    ![建立連線](assets/create-connection.png)
 
-1. 首先，在Experience Platform中選擇沙盒，其中包含您要建立連線的資料集。 Adobe Experience Platform提供 [沙盒](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) ，可將單一Platform執行個體分割為不同的虛擬環境，以協助開發和發展數位體驗應用程式。 您可以將沙盒視為包含資料集的「資料孤島」。 沙盒可用來控制資料集的存取。 您無法跨沙盒存取資料。
+1. 首先，在「 **[!UICONTROL 選取資料集]**」下方，在Experience Platform中選擇一個沙箱  ，其中包含您要建立連線的資料集。
+Adobe Experience Platform提供沙 [箱](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) ，可將單一Platform實例分割為獨立的虛擬環境。 您可以將沙 [!UICONTROL 盒視為] 「資料孤島」，其中包含資料集並用來控制對資料集的存取。 請注意，您無法跨沙盒存取 [!UICONTROL 資料]。
 
 1. 選取沙盒後，左側導軌會顯示該沙盒中可從中擷取的所有資料集。 選取一或多個您要納入「客戶歷程分析」的資 [!UICONTROL 料集] ，然後按一 **[!UICONTROL 下「新增」]**。 （如果您有許多資料集可供選擇，則可使用資料集清單上方的搜尋列來搜尋正確的資料集。）
 
