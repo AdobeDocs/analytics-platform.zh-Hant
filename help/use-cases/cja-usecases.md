@@ -1,7 +1,7 @@
 ---
 title: Customer Journey Analytics 使用案例
-description: 客戶歷程分析的使用案例
-translation-type: tm+mt
+description: Customer Journey Analytics 的使用案例
+translation-type: ht
 source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
 
 ---
@@ -9,11 +9,11 @@ source-git-commit: 8aa4ee719a7e2815cab94448a359b8dcba1307ec
 
 # Customer Journey Analytics 使用案例
 
-客戶歷程分析可啟用下列主要使用案例：
+Customer Journey Analytics 可用於下列主要使用案例：
 
-* **在歷程情境中瞭解客戶**:您可以依序檢視和分析跨越多個通道的資料。 來自客服中心、銷售點系統和線上屬性的資料可合併為單一報表檢視。
-* **讓每個人都能獲得見解**:透過資料衍生的見解，讓更多人民大眾化資料存取，並做出商業決策。 組織中任何負責客戶體驗任何方面的人員，都可以根據更完整的資料，更快地做出真正的決策。
-* **為您的分析師利用資料科學的力量**:客戶歷程分析可讓正常人使用資料科學發掘深入見解和分析。
-* **使用臨機報告視覺化資料集並與之互動**:工作區可使用Adobe Experience Platform中符合某些基本規則的任何資料集。
-* **檢視非Web資料**:工作區不再局限於「點擊」或「事件」的剛性定義。 自訂結構可完整控制資料和定義。
-* **對您的資料操控發揮更大控制力**:變更您上傳的資料、建立新的資料集，並將它們匯入工作區。 Adobe Experience Platform透過Experience Cloud查詢服務提供查詢、擷取、轉換和載入工具。
+* **在歷程情境中瞭解客戶**：您可以跨多個管道依序檢視和分析資料。來自客服中心、銷售點系統和線上屬性的資料可合併至單一報表檢視中。
+* **讓每個人都能查看深入分析**：將資料存取大眾化，透過資料衍生的深入分析協助更多人進行商業決策。組織中負責任何客戶體驗相關事務的所有人，都可根據更完整的資料更快速做出真正的決策。
+* **為您的分析師運用資料科學的力量**：Customer Journey Analytics 可讓一般人使用資料科學獲得深入見解及分析。
+* **使用臨機報表將資料集視覺化並與之互動**：Workspace 可使用 Adobe Experience Platform 中符合某些基本規則的任何資料集。
+* **檢視非 Web 資料**：Workspace 不再局限於「點擊」或「事件」的硬性定義。自訂結構可完全控制資料和定義。
+* **對資料操控發揮更大控制力**：變更已上傳的資料、建立新的資料集，並將其匯入 Workspace 中。Adobe Experience Platform 透過 Experience Cloud Query Service 提供查詢、擷取、轉換和載入工具。
