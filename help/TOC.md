@@ -2,9 +2,9 @@
 git-repo: https://github.com/adobedocs/analytics-platform.en
 cloud: experience-cloud
 product: adobe analytics
-sub-product: customer journey
+sub-product: 客戶歷程
 index: true
-user-guide-title: Customer Journey Analytics Guide
+user-guide-title: Customer Journey Analytics 指南
 solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud.html
 solution-image: assets/experience-cloud-logo-24.png
@@ -12,7 +12,7 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
 
 ---
@@ -39,10 +39,10 @@ source-git-commit: 66757840b75d09727bf2ac94abb76a1b44af083b
    + [建立資料檢視](data-views/create-dataview.md)
    + [設定資料檢視和歸因](data-views/configure-dataviews.md)
 + 元件 {#cja-components}
-   + 篩選條件 {#cja-filters}
-      + [篩選條件概觀](components/filters/filters-overview.md)
-      + [建立篩選條件](components/filters/create-filters.md)
-      + [管理篩選條件](components/filters/manage-filters.md)
+   + 篩選器 {#cja-filters}
+      + [篩選器概觀](components/filters/filters-overview.md)
+      + [建立篩選器](components/filters/create-filters.md)
+      + [管理篩選器](components/filters/manage-filters.md)
    + 計算量度 {#cja-calcmetrics}
       + [計算量度概觀](components/calc-metrics/calc-metr-overview.md)
       + [建立計算量度](components/calc-metrics/create.md)
