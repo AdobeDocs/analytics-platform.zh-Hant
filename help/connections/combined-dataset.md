@@ -1,8 +1,11 @@
 ---
 title: 合併的資料集
 description: 瞭解 CJA 如何藉由合併資料集來建立連線。
-translation-type: ht
-source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
+translation-type: tm+mt
+source-git-commit: fa354af31237c4963ba0affa89652bfdeae45ea0
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 100%
 
 ---
 
@@ -58,8 +61,8 @@ source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 
 | string_color | metric_a |
 | --- | --- |
-| 藍色 | 5 |
 | 未指定 | 6 |
+| 藍色 | 3 |
 | 紅色 | 2 |
 
 不過，如果連線中同時包含兩個表格，則歸因會變更，因為這兩個資料集中都有 `user_847`。第二個資料集屬性中的一列將 `metric_a` 歸因為「黃色」，其之前為未指定：
@@ -67,5 +70,5 @@ source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
 | string_color | metric_a |
 | --- | --- |
 | 黃色 | 6 |
-| 紅色 | 2 |
 | 藍色 | 3 |
+| 紅色 | 2 |
