@@ -1,9 +1,9 @@
 ---
 title: 合併的資料集
 description: 瞭解 CJA 如何藉由合併資料集來建立連線。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa354af31237c4963ba0affa89652bfdeae45ea0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
 ht-degree: 100%
 
