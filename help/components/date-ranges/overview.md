@@ -2,12 +2,17 @@
 title: 日期範圍概觀
 description: 瞭解日期範圍，以及如何在報告中使用日期範圍。
 translation-type: tm+mt
-source-git-commit: 2452490cc2f147cfd87540a68be2d0c219d8744f
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 14%
 
 ---
 
 
 # 日期範圍概觀
+
+>[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 日期範圍是您可在Workspace專案中使用的元件類型。 它們可讓您查看隨時間變化的資料趨勢，或查看事件最常發生的時間。 日期範圍會以顏色標示為紫色。
 
