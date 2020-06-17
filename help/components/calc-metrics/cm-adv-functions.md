@@ -1,15 +1,20 @@
 ---
 title: 參考資料 - 進階函數
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
-translation-type: ht
-source-git-commit: 2dab33dca173fcc0eab657b810e85e4740e5d7e0
+translation-type: tm+mt
+source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+workflow-type: tm+mt
+source-wordcount: '2949'
+ht-degree: 99%
 
 ---
 
 
 # 參考資料 - 進階函數
 
-勾選「**[!UICONTROL Functions]**」下拉式清單中的「**[!UICONTROL Show Advanced]**」，即可存取這些函數。
+>[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+
+勾選&#x200B;**[!UICONTROL 函數]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL 顯示進階]**&#x200B;即可存取這些函數。
 
 ## 表格函數和列函數
 
