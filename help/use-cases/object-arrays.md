@@ -1,16 +1,16 @@
 ---
-title: 將CJA與物件陣列搭配使用
+title: 使用物件陣列
 description: 瞭解CJA如何報告資料階層。
 translation-type: tm+mt
-source-git-commit: b7cd74f3fe2f0222e78452f58a7c387f6e0c86d2
+source-git-commit: 52fecf03cc503fa59101f6280c671e153e2129e9
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 
-# 將CJA與物件陣列搭配使用
+# 使用物件陣列
 
 某些平台架構可以有對象陣列。 最常見的例子之一是包含多種產品的購物車。 每個產品都有名稱、SKU、類別、價格、數量，以及您要追蹤的任何其他維度。 所有這些面都有不同的需求，但必須都符合相同的點擊。
 
@@ -206,7 +206,7 @@ CJA會查看點擊的這些部分，以產生報表：
       "SKU": "1234", 
       "category": "Washing Machines", 
       "name": "LG Washing Machine 2000", 
-      "orders": 1, 
++      "orders": 1, 
       "revenue": 1600, 
       "units": 1,
       "order_id":"abc123", 
@@ -239,3 +239,30 @@ CJA會查看點擊的這些部分，以產生報表：
 +  "timestamp": 1534219229
 +}
 ```
+
+請注意沒有與訂單相關名稱的訂單。 這些是屬於「未指定」維值的訂單。
+
+### 結合量度
+
+如果CJA位於不同的物件層級，則CJA本身不會結合具有類似命名的量度。
+
+| `product : category` | `product : revenue` | `product : warranty : revenue` |
+| --- | --- | --- |
+| `Washing Machines` | `1600` | `250` |
+| `Dryers` | `500` | `0` |
+| `Total` | `2100` | `250` |
+
+不過，您可以建立結合所需度量的計算度量：
+
+計算量度「總收入」: `[product : revenue] + [product : warranty : revenue]`
+
+套用此計算量度會顯示所需的結果：
+
+| `product : warranty : name` | `Total revenue (calculated metric)` |
+| --- | --- |
+| `Washing Machines` | `1850` |
+| `Dryers` | `500` |
+| `Total` | `2350` |
+
+## 永續性範例
+
