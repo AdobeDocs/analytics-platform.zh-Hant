@@ -13,10 +13,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 17e6cc8f79c542465971162666d846e2b1e0da58
+source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 91%
+source-wordcount: '379'
+ht-degree: 90%
 
 ---
 
@@ -115,6 +115,7 @@ ht-degree: 91%
       + [Analysis Workspace 的限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理需求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [分析工作區中的協助功能](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [分析工作區中的長尾](analysis-workspace/workspace-faq/long-tail.md)
 + 元件 {#cja-components}
    + [元件概觀](components/overview.md)
    + 維度 {#dimensions}
