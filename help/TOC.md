@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 90%
 + 資料檢視 {#cja-dataviews}
    + [建立資料檢視](data-views/create-dataview.md)
    + [設定資料檢視和歸因](data-views/configure-dataviews.md)
-+ Workspace projects {#cja-workspace}
++ Workspace 專案 {#cja-workspace}
    + [Analysis Workspace 概述](analysis-workspace/home.md)
    + [執行基本分析](analysis-workspace/perform-basic-analysis.md)
    + [執行進階分析](analysis-workspace/perform-adv-analysis.md)
@@ -66,7 +66,7 @@ ht-degree: 90%
          + [流失概觀](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [設定流失視覺效果](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [維度間流失](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [在流失分析中套用篩選](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [在流失分析中套用篩選器](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 流量 {#flow}
          + [流量概觀](analysis-workspace/visualizations/c-flow/flow.md)
          + [設定流量視覺效果](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
@@ -88,11 +88,11 @@ ht-degree: 90%
       + [面板概觀](analysis-workspace/c-panels/panels.md)
       + [歸因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
-      + [快速洞察面板](analysis-workspace/c-panels/quickinsight.md)
+      + [自由表格面板](analysis-workspace/c-panels/freeform-panel.md)
+      + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
    + 組織或共用專案 {#curate-share}
-      + [組織工作區專案](analysis-workspace/curate-share/curate.md)
-      + [共用工作區專案](analysis-workspace/curate-share/share-projects.md)
+      + [組織 Workspace 專案](analysis-workspace/curate-share/curate.md)
+      + [共用 Workspace 專案](analysis-workspace/curate-share/share-projects.md)
       + [僅限檢視的工作區專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
       + [共用和排程專案檔案](analysis-workspace/curate-share/send-schedule-files.md)
@@ -100,7 +100,7 @@ ht-degree: 90%
       + [排程專案管理員](analysis-workspace/curate-share/schedule-projects.md)
    + 歸因 IQ {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
-      + [歸因模型與回顧視窗](analysis-workspace/attribution/models.md)
+      + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
       + [常見問題集](analysis-workspace/attribution/faq.md)
    + 虛擬分析人員 {#virtual-analyst}
@@ -114,7 +114,7 @@ ht-degree: 90%
       + [Analysis Workspace 效能最佳化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Analysis Workspace 的限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理需求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [分析工作區中的協助功能](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Analysis Workspace 的協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)
       + [分析工作區中的長尾](analysis-workspace/workspace-faq/long-tail.md)
 + 元件 {#cja-components}
    + [元件概觀](components/overview.md)
@@ -137,7 +137,7 @@ ht-degree: 90%
       + [日期範圍概觀](components/date-ranges/overview.md)
       + [建立日期範圍](components/date-ranges/create.md)
       + [管理日期範圍](components/date-ranges/manage.md)
-      + [日曆概觀](components/date-ranges/calendar.md)
+      + [行事曆概述](components/date-ranges/calendar.md)
       + [建立自訂日期範圍](components/date-ranges/custom-date-ranges.md)
       + [日期比較](components/date-ranges/time-comparison.md)
 + 使用個案 {#cja-usecases}
