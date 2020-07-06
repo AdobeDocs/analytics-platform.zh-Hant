@@ -2,24 +2,26 @@
 description: 'null'
 title: 面板概述
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
 
 # 面板概述
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
-面板是表格與視覺效果的集合。您可以透過 Workspace 左上方的圖示存取面板。當您要根據時段、業務單位以及地理位置等組織專案時，面板會非常實用。客戶歷程分析的分析工作區提供下列四種類型的面板：
+面板是表格與視覺效果的集合。您可以透過工作區左上方的圖示存取面板。當您要根據時段、業務單位以及地理位置等組織專案時，面板會非常實用。客戶歷程分析的分析工作區提供下列四種類型的面板：
 
 * [空白面板](blank-panel.md)
-* [快速洞察面板](quickinsight.md)
+* [快速深入分析面板](quickinsight.md)
 * [歸因面板](attribution.md)
-* [自由面板](freeform-panel.md)
+* [自由表格面板](freeform-panel.md)
 
 「快速洞察」、「空白」和「自由格式」面板是您開始分析的絕佳地方，而「歸因IQ」面板則適用於更進階的分析。 專案 `"+"` 中有一個按鈕，讓您隨時都可以新增空白麵板。
 
