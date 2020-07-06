@@ -2,7 +2,7 @@
 title: 建立篩選器
 description: 瞭解建立篩選器的使用者介面。
 translation-type: tm+mt
-source-git-commit: 0c5bd5ce0b0ba4ba758a1ef1adf5a4a519e9cf8c
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 38%
@@ -26,7 +26,9 @@ ht-degree: 38%
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE] 以此方式建立的篩選器是專案內部的。
+>[!NOTE]
+>
+>以此方式建立的篩選器是專案內部的。
 
 您可以依照下列步驟，選擇將這些篩選設為公用（全域）:
 
