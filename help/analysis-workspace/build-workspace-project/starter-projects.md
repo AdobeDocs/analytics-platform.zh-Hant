@@ -3,7 +3,7 @@ description: 工作區中的範本
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 95%
@@ -13,7 +13,9 @@ ht-degree: 95%
 
 # 範本
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 您可以選擇從以下來源建立專案：
 
@@ -53,7 +55,7 @@ ht-degree: 95%
 
 ## 標準範本
 
-第一次開啟 Workspace 時，範本位於左側欄中。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
+第一次開啟工作區時，範本位於左側欄中。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
 
 您可照原樣使用這些預先填入的範本，或是依照您的需求據以調整 (例如透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。
 
@@ -63,7 +65,7 @@ ht-degree: 95%
 
 ### 培訓
 
-這個標準範本會逐步引導您了解常用術語，以及在 Workspace 中初次建立分析的步驟。若新使用者的清單中沒有其他專案，這些範本會在「新增專案」模組中作為標準範本提供使用，取代目前現有的範例專案。
+這個標準範本會逐步引導您了解常用術語，以及在工作區中初次建立分析的步驟。若新使用者的清單中沒有其他專案，這些範本會在「新增專案」模組中作為標準範本提供使用，取代目前現有的範例專案。
 
 * **培訓教學課程 - 內部搜尋分析**：內部搜尋教學課程可協助您了解訪客想在網站或應用程式上尋找但沒有找到的內容。分析這類資料可以找出內容最佳化機會。
 
@@ -115,7 +117,9 @@ ht-degree: 95%
 
 ### 人物
 
->[!NOTE]「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/data/people.html) 的一部分使用。
+>[!NOTE]
+>
+>「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/data/people.html) 的一部分使用。
 
 此範本是根據「人物」量度建立，此量度是「不重複訪客」量度刪除重複項目後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。此範本可讓您
 
