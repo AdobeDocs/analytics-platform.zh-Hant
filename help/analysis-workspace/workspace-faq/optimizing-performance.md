@@ -3,7 +3,7 @@ description: 'null'
 title: Analysis Workspace 效能最佳化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 98%
@@ -13,7 +13,9 @@ ht-degree: 98%
 
 # Analysis Workspace 效能最佳化
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 特定因子可以影響 Analysis Workspace 中專案的效能在開始建立專案之前，請務必先了解各項貢獻因素，以便以最有效的方式規劃及建立專案。以下列出影響效能的因素，以及將專案最佳化的最佳實踐。Analysis Workspace 效能是 Adobe 主打的功能之一，也是我們持續致力改善的項目。
 
@@ -85,7 +87,7 @@ ht-degree: 98%
 
 如果需要更多專案組織方式，記住[直接連結](https://www.youtube.com/watch?v=6IOEewflG2U)到專案也是一個做法。建立內部的專案索引，讓股東更容易找到他們要找的。
 
-如果一個 Workspace 需要許多面板，請先摺疊面板再儲存和共用。載入專案時，Analysis Workspace 只會載入展開面板的內容。直到使用者展開，否則不會載入摺疊的面板。這種做法有兩個優點：
+如果一個工作區需要許多面板，請先摺疊面板再儲存和共用。載入專案時，Analysis Workspace 只會載入展開面板的內容。直到使用者展開，否則不會載入摺疊的面板。這種做法有兩個優點：
 
 * 摺疊的面板可節省專案的整體載入時間
 * 對報表消費者來說，摺疊的面板是以邏輯方式組織專案的好方法
