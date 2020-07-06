@@ -4,21 +4,25 @@ keywords: fallout and segmentation;segments in fallout analysis;compare segments
 title: 在流失分析中套用區段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
 
-# 在流失分析中套用篩選
+# 在流失分析中套用篩選器
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 您可以從觸點建立篩選器、新增區段作為觸點，以及比較分析工作區中各種篩選器的關鍵工作流程。
 
->[!IMPORTANT] 「流失」中用作查核點的篩選器，必須使用低於「流失」視覺化整體內容的容器。 使用訪客內容流失時，用作查核點的篩選必須是瀏覽或點擊型篩選。 使用瀏覽內容流失時，用作查核點的篩選器必須是點擊型區段。 如果使用無效的組合，流失率會計為 100%。我們已新增警告至「流失」視覺化，當您新增不相容的篩選器作為觸點時，將會顯示此警告。 某些無效的篩選容器組合會導致無效的流失圖，例如：
+>[!IMPORTANT]
+>
+>「流失」中用作查核點的篩選器，必須使用低於「流失」視覺化整體內容的容器。 使用訪客內容流失時，用作查核點的篩選必須是瀏覽或點擊型篩選。 使用瀏覽內容流失時，用作查核點的篩選器必須是點擊型區段。 如果使用無效的組合，流失率會計為 100%。我們已新增警告至「流失」視覺化，當您新增不相容的篩選器作為觸點時，將會顯示此警告。 某些無效的篩選容器組合會導致無效的流失圖，例如：
 
 * 在訪客內容流失視覺化內使用訪客型篩選作為觸點
 * 在瀏覽內容流失視覺化中使用訪客型篩選作為觸點
