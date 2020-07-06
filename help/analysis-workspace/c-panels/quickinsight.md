@@ -1,8 +1,8 @@
 ---
 description: 「快速洞察」是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺化
-title: 快速洞察面板
+title: 快速深入分析面板
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 6%
@@ -10,9 +10,11 @@ ht-degree: 6%
 ---
 
 
-# 快速洞察面板
+# 快速深入分析面板
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 >[!IMPORTANT]
 >
@@ -68,7 +70,6 @@ ht-degree: 6%
 1. 當您新增至少一個維度和一個量度時，將會為您建立下列項目：
 
    * 自由表格，其上方為垂直維度（此處為美國州）和水準度量（此處為瀏覽）。 查看下表：
-
    ![](assets/qibuilder3.png)
 
    * 隨附的視覺化，在此例中為長 [條圖](/help/analysis-workspace/visualizations/bar.md)。 產生的視覺化是根據您新增至表格的資料類型。 任何以時間為基礎的資料(例如 [!UICONTROL 每日] /月的瀏覽次數 [!UICONTROL )都預設為] 折線圖。 任何非時間型資料(例如每個裝 [!UICONTROL 置的][!UICONTROL 瀏覽次數])都預設為 [!UICONTROL 長條圖] 。 您可以按一下視覺化類型旁的下拉箭頭，以變更視覺化類型。
