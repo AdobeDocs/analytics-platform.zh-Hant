@@ -5,7 +5,7 @@ title: 建立專案 - 概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 96%
@@ -15,7 +15,9 @@ ht-degree: 96%
 
 # 建立專案 - 概述
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL 分析]** > **[!UICONTROL 工作區]**
 
@@ -60,7 +62,7 @@ ht-degree: 96%
 | 標記 | 列出為了方便分類而套用至專案的所有標記。您也可以在儲存專案時標記專案。在[!UICONTROL 「標記」]欄的「工作區著陸頁面」檢視專案標記。 |
 | 說明 | 說明可用於釐清專案的用途。按兩下說明即可進行編輯。 |
 | 計算專案中的重複例項 | 指定是否要將重複例項計入報表。如果相同變數具有多個循序值，則可以將其計為該變數的一個或多個執行個體。 |
-| 視覺效果色彩配置 | 您可以從其他的調色盤中選擇，或者自訂調色盤，來變更用於 Workspace 的色彩配置。此功能會影響 Workspace 許多項目，包括大部分的視覺效果。 |
+| 視覺效果色彩配置 | 您可以從其他的調色盤中選擇，或者自訂調色盤，來變更用於工作區的色彩配置。此功能會影響工作區許多項目，包括大部分的視覺效果。 |
 | 檢視密度 | 可減少左側欄、自由表格和同類群組表格的垂直邊框間距，讓您在畫面上查看更多資料。 |
 
 ## 專案功能表 {#section_850CDFCB86A64EB0A0AD5B9E0FCB7013}
@@ -71,7 +73,9 @@ ht-degree: 96%
 
 次功能表包含下列選項。
 
->[!NOTE]以星號 (*) 標示的選項只會顯示在&#x200B;**已儲存**&#x200B;的專案。
+>[!NOTE]
+>
+>以星號 (*) 標示的選項只會顯示在&#x200B;**已儲存**&#x200B;的專案。
 
 | 專案 | 編輯 | 插入 | 元件 | 共用 | 說明 |
 |---|---|---|---|---|---|
