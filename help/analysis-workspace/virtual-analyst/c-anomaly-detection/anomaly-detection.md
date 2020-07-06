@@ -3,7 +3,7 @@ description: 您可以在 Analysis Workspace 中根據內容檢視和分析資�
 title: 異常偵測概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 88%
@@ -13,7 +13,9 @@ ht-degree: 88%
 
 # 異常偵測概述
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 您可以根據 Analysis Workspace 中的內容檢視和分析資料異常。
 
@@ -34,7 +36,9 @@ ht-degree: 88%
 
 異常偵測和[貢獻分析](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)是 Analysis Workspace 的核心工作流程。您可以對任何每日異常情形執行貢獻分析，並將結果內嵌至 Analysis Workspace 專案。
 
->[!IMPORTANT] 「客戶歷程分析」尚未提供「貢獻分析」。
+>[!IMPORTANT]
+>
+>「客戶歷程分析」尚未提供「貢獻分析」。
 
 Analysis Workspace 異常偵測的演算法包含
 
