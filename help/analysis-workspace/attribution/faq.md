@@ -2,7 +2,7 @@
 title: 歸因常見問題集
 description: 取得歸因相關常見問題的解答。
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 83%
@@ -12,7 +12,9 @@ ht-degree: 83%
 
 # 歸因常見問題集
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 **使用歸因時，「無」條列項目代表什麼？**
 
@@ -85,4 +87,6 @@ Analytics 的某些維度可包含單次點擊中的多個值。常見範例包�
 
 ![僅限顯示廣告的虛擬報表套裝](assets/vrs-aiq-example.png)
 
->[!NOTE] 如果區段隱藏包含量度的點擊，這些量度例項不會歸因於任何維度。不過，類似的報表篩選器只會隱藏某些維度值，而不會對根據歸因模型處理的量度造成任何影響。因此，區段傳回的值會比具有可比定義的篩選低。
+>[!NOTE]
+>
+> 如果區段隱藏包含量度的點擊，這些量度例項不會歸因於任何維度。不過，類似的報表篩選器只會隱藏某些維度值，而不會對根據歸因模型處理的量度造成任何影響。因此，區段傳回的值會比具有可比定義的篩選低。
