@@ -2,7 +2,7 @@
 description: 了解如何調整檢視密度。
 title: 檢視密度
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 82%
@@ -12,13 +12,15 @@ ht-degree: 82%
 
 # 檢視密度
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 調整檢視密度可減少左側欄、自由表格和同類群組表格的垂直邊框間距，讓您在畫面上查看更多資料。透過選項按鈕切換檢視密度時，有 3 個選項可以選擇：
 
 - **[!UICONTROL 緊密]**：此版本提供最密集的檢視畫面。
 - **[!UICONTROL 舒適]**：此版本比「緊密」版本有更多邊框間距。
-- **[!UICONTROL 展開]** (預設)：此版本為常用的 Workspace 檢視畫面。
+- **[!UICONTROL 展開]** (預設): 此版本為常用的工作區檢視畫面。
 
 ![](assets/view-density.png)
 
