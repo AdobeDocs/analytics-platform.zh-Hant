@@ -1,18 +1,20 @@
 ---
-title: 歸因模型與回顧視窗
+title: 歸因模型與回顧期間
 description: 不同類型的歸因如何在維度值之間劃分評分。
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1542'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
 
-# 歸因模型與回顧視窗
+# 歸因模型與回顧期間
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 Adobe Analytics中歸因的概念需要兩個元件：
 
@@ -45,7 +47,9 @@ Adobe Analytics中歸因的概念需要兩個元件：
 
 * **自訂回顧視窗：** 可讓您將歸因視窗擴展至報告日期範圍以外，最多90天。 自訂回顧視窗會評估在報告時段內的每個轉換。 例如，若是在2月20日發生的轉換，10天的回顧視窗會在歸因模型中評估從2月10日到20日的所有維度觸點。
 
->[!NOTE] **[!UICONTROL 自訂回顧視窗]** ，目前正在進行有限的測試。 如需詳 [細資訊，請參閱](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) 「Adobe Analytics功能發行」。
+>[!NOTE]
+>
+>**[!UICONTROL 自訂回顧視窗]** ，目前正在進行有限的測試。 如需詳 [細資訊，請參閱](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) 「Adobe Analytics功能發行」。
 
 ## 範例
 
@@ -76,4 +80,6 @@ Adobe Analytics中歸因的概念需要兩個元件：
       * 社交媒體：18.6%，價值 $9.32 美元
       * 付費搜尋：13.8%，價值 $6.92 美元
 
->[!TIP] 如果評分屬於多個管道，其他轉換事件 (例如「訂購」或「自訂事件」) 也會經過拆分。舉例來說，如果兩個管道對某個使用線性歸因模型的自訂事件都有貢獻，則兩個管道各會從自訂事件中獲得 0.5 的評分。這些事件片段在經過所有造訪的加總後，會四捨五入為最接近的整數，顯示於於報表中。
+>[!NOTE]
+>
+> 如果評分屬於多個管道，其他轉換事件 (例如「訂購」或「自訂事件」) 也會經過拆分。舉例來說，如果兩個管道對某個使用線性歸因模型的自訂事件都有貢獻，則兩個管道各會從自訂事件中獲得 0.5 的評分。這些事件片段在經過所有造訪的加總後，會四捨五入為最接近的整數，顯示於於報表中。
