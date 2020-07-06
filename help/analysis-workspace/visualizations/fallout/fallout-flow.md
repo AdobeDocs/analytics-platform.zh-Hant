@@ -3,7 +3,7 @@ description: 'null'
 title: 流失概述
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 95%
@@ -13,7 +13,9 @@ ht-degree: 95%
 
 # 流失概述
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 「流失」視覺效果提供更多選項，供您建立流失報表。流失報表可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。
 
@@ -39,13 +41,13 @@ ht-degree: 95%
 
 ## 區段作為流量和流失的基礎 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-套用至 Workspace 面板的區段，與在 Reports &amp; Analytics 或 Ad Hoc Analysis 中套用至流失和流量報表的區段，二者的執行方式略有不同。大部分時候，它們提供的結果完全相同。主要差異在於 Reports &amp; Analytics 和 Ad Hoc Analysis 可在序列的每一個步驟套用區段。如此一來，可能造成結果稍微不同。
+套用至工作區面板的區段，與在 Reports &amp; Analytics 或 Ad Hoc Analysis 中套用至流失和流量報表的區段，二者的執行方式略有不同。大部分時候，它們提供的結果完全相同。主要差異在於 Reports &amp; Analytics 和 Ad Hoc Analysis 可在序列的每一個步驟套用區段。如此一來，可能造成結果稍微不同。
 
 以兩步驟的流失為例：
 
 ![](assets/fallout_segments1.png)
 
-如果您接著在 Workspace 面板層級套用區段，區段會像這樣與流失結合：
+如果您接著在工作區面板層級套用區段，區段會像這樣與流失結合:
 
 ![](assets/fallout_seg.png)
 
