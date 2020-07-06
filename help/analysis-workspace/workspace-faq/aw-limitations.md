@@ -2,7 +2,7 @@
 description: Adobe Analysis Workspace 及其相關元件的已知限制清單：
 title: Analysis Workspace 的已知限制
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 87%
@@ -12,7 +12,9 @@ ht-degree: 87%
 
 # Analysis Workspace 的已知限制
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 以下為 Analysis Workspace 及其相關元件的已知限制清單：
 
@@ -43,7 +45,7 @@ ht-degree: 87%
 
 * 計算量度無法使用於特定視覺效果中。請參閱上方的「視覺效果」。
 * 計算量度無法用於[!UICONTROL 「歸因」]面板，因為計算量度本身就可包含個別的歸因模型。
-* 如果從 Workspace 中建立計算量度，而非經由[!UICONTROL 「元件 > 區段」]建立，則某些元件和運算子將無法使用，例如 [!UICONTROL IP 位址]。
+* 如果從工作區中建立計算量度，而非經由[!UICONTROL 「元件 > 區段」]建立，則某些元件和運算子將無法使用，例如 [!UICONTROL IP 位址]。
 
 ## 元件 > 日期範圍
 
