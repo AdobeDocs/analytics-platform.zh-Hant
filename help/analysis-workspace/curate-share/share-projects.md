@@ -1,9 +1,9 @@
 ---
 description: 工作區中的專案共用與專案角色
 keywords: Analysis Workspace sharing
-title: 共用 Workspace 專案
+title: 共用工作區專案
 translation-type: tm+mt
-source-git-commit: 3a2cb7ad15f1491ef4fe6fdcb3135b29675c40e8
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 5%
@@ -11,9 +11,11 @@ ht-degree: 5%
 ---
 
 
-# 共用 Workspace 專案
+# 共用工作區專案
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 共用功能可讓組織中的其他分析工作區使用者使用專案。 收 [件者](curate.md) 開啟專案時，會反映您所套用的任何組織。
 
@@ -32,7 +34,7 @@ ht-degree: 5%
 
 ### 未指派任何角色（專案連結收件者）
 
-如果收件者未獲指派角色，並收到專案的連結(**[!UICONTROL Share]>[!UICONTROL Get project link]**)，則預設會將他們置於角色中。 管理員會 **[!UICONTROL 收到]** 「可以編輯」，非管理員會收到「 **[!UICONTROL 可以複製」]**。
+如果收件者未獲指派角色並收到專案連結(**[!UICONTROL Share]>[!UICONTROL Get project link]**)，則預設會將他們置於角色中。 管理員會 **[!UICONTROL 收到]** 「可以編輯」，非管理員會收到「 **[!UICONTROL 可以複製」]**。
 
 ### 指派多個角色
 
