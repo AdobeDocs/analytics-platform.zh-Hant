@@ -3,7 +3,7 @@ description: 'null'
 title: 預覽維度
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 88%
@@ -13,7 +13,9 @@ ht-degree: 88%
 
 # 預覽維度
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 將滑鼠移到維度旁的資訊 (i) 圖示上，即會顯示非時間維度的前 5 個值 (而時間維度則是前 15 個值)。我們之前會將這些值保持為靜態 (亦即，所選的 5 個值從未變更)。
 
