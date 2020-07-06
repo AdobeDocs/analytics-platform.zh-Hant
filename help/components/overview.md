@@ -2,7 +2,7 @@
 title: 元件概觀
 description: 瞭解 CJA 提供哪些元件，以及如何在報表中使用這些元件。
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 86%
@@ -38,7 +38,9 @@ See [Create a project](/help/analysis-workspace/home.md) for information about u
 
 您可以透過多種方式管理元件 (個別或選取多個元件)。以滑鼠右鍵按一下元件，或按一下元件清單頂端的&#x200B;**[!UICONTROL 「動作」]**。
 
->[!NOTE]此類動作不適用於「時間」元件。
+>[!NOTE]
+>
+>此類動作不適用於「時間」元件。
 
 | 元件動作 | 說明 |
 |--- |--- |
