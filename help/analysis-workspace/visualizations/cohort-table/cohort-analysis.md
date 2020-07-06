@@ -2,17 +2,19 @@
 title: 同類群組分析是什麼？
 description: 瞭解分析工作區中的同類群組分析
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
 
 # What is [!UICONTROL Cohort Analysis]?
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 *`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
@@ -32,7 +34,9 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同類群組分析] 不支援不可篩選的量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可用於區段的量度可用於
+>[!UICONTROL 同類群組分析]
+>
+>不支援非篩選量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可用於區段的量度可用於
 >[!UICONTROL 同類群組分析]，而且每次只能增加1。
 
 ## 同類群組分析功能
