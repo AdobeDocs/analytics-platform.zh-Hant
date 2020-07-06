@@ -3,7 +3,7 @@ description: Analysis Workspace 中的「日期比較」可讓您挑選任何含
 title: 日期比較
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 96%
@@ -13,7 +13,9 @@ ht-degree: 96%
 
 # 日期比較
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍的欄，然後建立常用的日期比較，例如：年與年、季與季、月與月等。
 
@@ -48,7 +50,7 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 
    「變化百分比」欄中的列呈紅色表示負值，綠色表示正值。
 
-1. (選用) 如同任何其他 Workspace 專案，您可以根據這些時間比較建立視覺效果。例如，這張長條圖：
+1. (選用) 如同任何其他工作區專案，您可以根據這些時間比較建立視覺效果。例如，這張長條圖：
 
    ![](assets/compare-time-barchart.png)
 
