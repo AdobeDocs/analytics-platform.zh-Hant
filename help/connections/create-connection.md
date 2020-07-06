@@ -1,9 +1,9 @@
 ---
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
-translation-type: ht
-source-git-commit: 204eb143d513b9b73fad020efabe6891a1253608
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
 
@@ -12,11 +12,13 @@ ht-degree: 100%
 
 # 建立連線
 
-連線可讓您將資料集從 [!DNL Adobe Experience Platform] 整合到 [!UICONTROL Workspace]。若要針對 [!DNL Experience Platform] 資料集製作報表，必須先為 [!DNL Experience Platform] 和 [!UICONTROL Workspace] 的資料集建立連線。
+連線可讓您將資料集從 [!DNL Adobe Experience Platform] 整合到[!UICONTROL 工作區]。若要針對 [!DNL Experience Platform] 資料集製作報表，必須先為 [!DNL Experience Platform] 和[!UICONTROL 工作區]的資料集建立連線。
 
-按一下[這裡](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html)，觀看概覽影片。
+按一下[這裡](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html)，觀看概觀影片。
 
->[!IMPORTANT] 您可以將多個 [!DNL Experience Platform] 資料集合併為單一連線。
+>[!IMPORTANT]
+>
+> 您可以將多個 [!DNL Experience Platform] 資料集合併為單一連線。
 
 1. 請前往 [https://analytics.adobe.com](https://analytics.adobe.com)。
 
@@ -55,7 +57,7 @@ ht-degree: 100%
    | [!UICONTROL 連線名稱] | 為連線提供說明名稱。無法儲存無名稱的連線。 |
    | [!UICONTROL 說明] | 新增更多詳細資訊，以便區分此連線與其他連線。 |
    | [!UICONTROL 資料集] | 此連線中包含的資料集。 |
-   | [!UICONTROL 從今天開始，自動匯入此連線的所有新資料集。] | 如果要建立持續連線，請選擇此選項，如此一來，新增到此連線中資料集的任何新資料批次，都會自動彙整至 ]Workspace[!UICONTROL 。 |
+   | [!UICONTROL 從今天開始，自動匯入此連線的所有新資料集。] | 如果要建立持續連線，請選擇此選項，如此一來，新增到此連線中資料集的任何新資料批次，都會自動彙整至]工作區[!UICONTROL 。 |
    | [!UICONTROL 匯入所有現有資料] | 選擇此選項並儲存連線時，此連線中所有資料集來自 [!DNL Experience Platform] 的所有現有 (歷史) 資料都會匯入。日後若有任何新資料集新增至這個已儲存的連線，其所有現有歷史資料也會自動匯入。<br>**請注意，一旦儲存此連線，便無法變更這項設定。** |
 
    **請記住：**
