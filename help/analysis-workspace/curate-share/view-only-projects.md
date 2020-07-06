@@ -3,7 +3,7 @@ description: 工作區中僅檢視專案
 keywords: View-only projects
 title: 僅限檢視的工作區專案
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 8%
@@ -13,7 +13,9 @@ ht-degree: 8%
 
 # 僅限檢視的工作區專案
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 您可以透過「專案共用」工作流程，將專案以「僅檢視」的形式 [共用給收件者](/help/analysis-workspace/curate-share/share-projects.md)。 被置於「Can View」（可檢視）角色的收件者將可獲得更有限的專案體驗。 如果您要將專案共用給對您組織的資料結構、分析工作區或Adobe Analytics不太熟悉的使用者，但您仍希望他們在安全的環境中使用資料和見解，則可能會有此需求。
 
