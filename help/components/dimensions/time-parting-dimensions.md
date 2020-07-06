@@ -3,7 +3,7 @@ description: 「時間分段」功能會擷取所收集的點擊的時間戳記�
 title: 時間分段維度
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: 0c5bd5ce0b0ba4ba758a1ef1adf5a4a519e9cf8c
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
@@ -22,7 +22,9 @@ ht-degree: 100%
 * 週末的銷售情形與工作日的銷售情形是否有差異？
 * 某個促銷活動是否在上午或下午產生較高的轉換率？
 
->[!NOTE]時間分段維度僅可在 Analysis Workspace 中使用。若要在其他 Analytics 解決方案中使用時間分段維度，您可以執行 [getTimeParting 外掛程式](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/plugins/gettimeparting.html)。
+>[!NOTE]
+>
+>時間分段維度僅可在 Analysis Workspace 中使用。若要在其他 Analytics 解決方案中使用時間分段維度，您可以執行 [getTimeParting 外掛程式](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/plugins/gettimeparting.html)。
 
 Analysis Workspace 中的時間分段維度包括：
 
