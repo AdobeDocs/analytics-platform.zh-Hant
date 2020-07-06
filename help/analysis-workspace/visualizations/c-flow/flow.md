@@ -3,7 +3,7 @@ description: 'null'
 title: 流量概述
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 90%
@@ -13,7 +13,9 @@ ht-degree: 90%
 
 # 流量概述
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 流量功能可顯示客戶使用您網站和應用程式的路徑。
 
@@ -23,7 +25,9 @@ ht-degree: 90%
 * 分析客戶在所指定檢查點 (例如登入、特定維度或退出) 之前和之後的前往位置
 * 指定選定路徑中的特定點，建立區段
 
->[!NOTE]如需了解對「流量」套用區段後，Analysis Workspace 與 Reports &amp; Analytics/Ad Hoc Analysis 之間會產生什麼不同結果，請參閱[區段作為流量和流失的基礎](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)。
+>[!NOTE]
+>
+>如需了解對「流量」套用區段後，Analysis Workspace 與 Reports &amp; Analytics/Ad Hoc Analysis 之間會產生什麼不同結果，請參閱[區段作為流量和流失的基礎](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
 [在 YouTube 觀看「流量視覺效果」](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
