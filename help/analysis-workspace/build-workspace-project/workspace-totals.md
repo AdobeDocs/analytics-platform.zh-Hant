@@ -1,8 +1,8 @@
 ---
-description: Workspace 總計的計算方式。
-title: Workspace 總計
+description: 工作區總計的計算方式。
+title: 工作區總計
 translation-type: tm+mt
-source-git-commit: 05bc0b378c962f4513ab292d518e32f5f70f7dfd
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 95%
@@ -10,9 +10,11 @@ ht-degree: 95%
 ---
 
 
-# Workspace 總計
+# 工作區總計
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 在自由表格中，每個劃分層級都會顯示總列數，當中會顯示兩個總計數字：
 
