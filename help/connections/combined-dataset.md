@@ -1,9 +1,9 @@
 ---
 title: 合併的資料集
 description: 瞭解 CJA 如何藉由合併資料集來建立連線。
-translation-type: ht
-source-git-commit: fa354af31237c4963ba0affa89652bfdeae45ea0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
 
@@ -22,7 +22,9 @@ ht-degree: 100%
 
 考量下列範例.您有兩個資料集，各自有包含不同資料的不同欄位。
 
->[!NOTE] Adobe Experience Platform 通常以 Unix 毫秒為單位儲存時間戳記。此範例中為了可讀性，會使用日期和時間。
+>[!NOTE]
+>
+> Adobe Experience Platform 通常以 Unix 毫秒為單位儲存時間戳記。此範例中為了可讀性，會使用日期和時間。
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
