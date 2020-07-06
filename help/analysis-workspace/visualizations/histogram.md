@@ -3,7 +3,7 @@ description: 色階分佈圖是 Analysis Workspace 中的新視覺效果類型�
 title: 色階分佈圖
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 87%
@@ -13,7 +13,9 @@ ht-degree: 87%
 
 # 色階分佈圖
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 色階分佈圖類似於長條圖，但前者將數字分組為範圍 (貯體)。Analytics 會自動將數字分組至範圍貯體，但您可以在「[進階設定](#section_09D774C584864D4CA6B5672DC2927477)」中變更設定。
 
@@ -27,7 +29,9 @@ ht-degree: 87%
 
 ![](assets/histogram.png)
 
->[!NOTE]色階分佈圖僅支援標準量度，不支援計算量度。
+>[!NOTE]
+>
+>色階分佈圖僅支援標準量度，不支援計算量度。
 
 這裡我們使用了每個獨特訪客的頁面檢視次數量度。第一個 (最左邊) 貯體對應至每個獨特訪客 1 次頁面檢視、第二個貯體對應至 2 次頁面檢視，以此類推。
 
