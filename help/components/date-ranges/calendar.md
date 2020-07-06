@@ -3,7 +3,7 @@ description: 在日曆中，您可以指定日期和日期範圍，也可以選�
 title: 日曆和日期範圍概述
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: fc5a462f3d216d8cae3ce060a45ec79a44c4c918
+source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 93%
@@ -13,17 +13,19 @@ ht-degree: 93%
 
 # 日曆和日期範圍概述
 
->[!NOTE] 您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
 
 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
 
-日曆選取範圍套用至面板層級，但您也可以選擇將其套用至所有面板。按一下 Workspace 中的日期範圍時，介面會顯示目前的日曆月份和上一個日曆月份。按一下這兩個日曆各自上方角落的向右和向左箭頭，即可進行調整。
+日曆選取範圍套用至面板層級，但您也可以選擇將其套用至所有面板。按一下工作區中的日期範圍時，介面會顯示目前的日曆月份和上一個日曆月份。按一下這兩個日曆各自上方角落的向右和向左箭頭，即可進行調整。
 
 ![日曆](assets/aw_calendar.png)
 
 在日曆上按第一下會開始進行日期範圍選取。按第二下會完成日期範圍選取，並反白顯示選取的範圍。如果按住 `Shift` 鍵 (或使用滑鼠右鍵)，則會附加至目前選取的範圍。
 
-您也可以將日期 (和時間維度) 拖曳至 Workspace 專案中。您可以選取特定的日、週、月、年或滾動日期。
+您也可以將日期 (和時間維度) 拖曳至工作區專案中。您可以選取特定的日、週、月、年或滾動日期。
 
 [在 YouTube 觀看「在 Analysis Workspace 中使用日期範圍和行事曆」](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28)(4:07)
 
