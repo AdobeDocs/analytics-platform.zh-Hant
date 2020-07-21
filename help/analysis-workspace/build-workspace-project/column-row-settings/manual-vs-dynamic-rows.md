@@ -1,43 +1,53 @@
 ---
-description: 如何與表格中的靜態列互動。
-title: 靜態與動態列
-uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
+title: 動態與靜態維度值
+description: 如何與表格中的動態和靜態維度值互動。
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 0477302df92ccab30d9f3a45cc7b22f2112a0c70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 91%
+source-wordcount: '510'
+ht-degree: 8%
 
 ---
 
 
-# 靜態與動態列
+# 自由表格中的動態與靜態維度值
 
->[!NOTE]
->
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>[!NOTE]您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
-當您將維度放至表格時，Analysis Workspace 表格會產生「動態」列 - 表示對應至維度 (指定量度) 的所有項目會提取至表格中。
+在自由表格中，行和列可以包含其中的各種元件值。 這些值可以是動態（隨時間變更）或靜態（不隨時間變更），視您要建立的分析而定。
 
-例如，當您將「瀏覽器」維度拖曳至表格內時，其所有維度項目 (例如 Android 瀏覽器、行動裝置 Safari、Firefox 等)會相應提取至表格中。
+## 動態維度值
 
-相反地，您每次手動選取特定的量度、區段、資料範圍或個別維度項目並放至表格時，結果為硬式編碼或「靜態」列或清單。您現在可利用這些方法與靜態列互動：
+動態維度值會隨時間而變更，並取決於在自由表格中依據的量度。 當您想要分析特定時段的排名最前的項目時，偏好使用動態維度值。
 
-* 按一下靜態列中的「預覽」圖示，可讓您預覽區段、量度和日期範圍。
-* 按一下「x」圖示從表格中刪除該列。
-* 限制顯示的列數並啟用分頁。
-* 新增「混合維度項目」。例如，從瀏覽器維度新增一個項目，並從產品維度新增另一個項目。
+將維度拖放至自由表格時，會傳回動態列。 它們代表對應至指定量度和時段之維度的排名最前的項目。 您也可以將維度拖放至自由表格欄，而維度會自動展開至前5個維度值。
 
-   圖例如下：
+例如，當您將「瀏覽器類型」維度拖曳至表格時，最上方的「瀏覽器類型」維度值（例如Microsoft、Apple、Google等） 動態返回表格列。 如果拖放至欄中，前5個「瀏覽器類型」維度值會動態傳回。
 
-   ![](assets/static_rows.png)
+動態維度值具有行篩選選項， **且沒** 有鎖定和X圖示。
 
-此外，您必須處在靜態列模式，才可以變更欄位總計的計算方式。只需按一下齒輪圖示並在這 2 個選項之間切換：
+## 靜態維度值
 
-![](assets/column-totals.png)
+靜態維度值不會隨時間而改變； 它們是固定元件，一律會在自由表格中傳回。 當您想要永遠分析相同項目時，最好使用靜態維度值，不論該項目是特定促銷活動或一週中的特定天數。
 
-| 選項 | 說明 |
-|---|---|
-| (預設) 總計的計算方式為加總目前在每個欄中的值。 | 這個選項只會計算目前在表格中的列。(用戶端計算) |
-| 根據每個量度的所有列來計算總計。 | 這個選項包含此維度的所有維度項目，即使是未列於表格中的項目。(伺服器端計算) |
+每當您手動選取特定元件值（維度、量度、區段、日期範圍）並放入表格時，結果就會是列或欄的靜態清單。 如果您選擇：
 
+* 從行中，按一下右鍵>只顯 [!UICONTROL 示選定行]
+* 從欄中，按一下滑鼠右鍵> [!UICONTROL 將項目設為靜態]
+
+例如，當您拖曳至特定的「瀏覽器類型」項目（例如Microsoft和Apple）時，這2個特定項目一律會拖曳到表格中。
+
+靜態維度值 **沒有** 「行篩選」選項。 而是每個項目都會顯示鎖定和X圖示。 按一下X表徵圖可從表中刪除該維值。
+
+## 混合維度值
+
+來自不同維度的維度值可以新增至相同的表格。 在這些情況下，列標題會顯示「混合維度」。 這些維度值是靜態的。 例如，從「瀏覽器類型」維添加特定維值，從「瀏覽器」維添加其他維值。
+
+## 自由格式總行數
+
+動態和靜態行在自由格式總計行中的行為不同。 依預設：
+
+* 動態列會在伺服器端加總，並去除重複度量，例如瀏覽或訪客
+* 靜態列是在用戶端加總， **不** 會去重複化量度。
+
+[進一步瞭解動態和靜態列的](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) 「工作區」總選項。
