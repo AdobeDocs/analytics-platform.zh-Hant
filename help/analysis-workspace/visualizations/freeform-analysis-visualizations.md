@@ -3,10 +3,10 @@ description: 了解 Analysis Workspace 中的視覺效果和視覺效果設定�
 keywords: Analysis Workspace
 title: 視覺效果概述
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。每個視覺效果都有各自的設定可供您管理。按一下視覺效果名稱，取得更詳細的資訊。
 
@@ -34,7 +34,7 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 | [色階分佈圖](/help/analysis-workspace/visualizations/histogram.md) | 色階分佈圖類似於長條圖，但前者將數字分組為範圍 (貯體)。 |
 | [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | 顯示代表一或多個量度多個值的橫條。 |
 | [折線圖](/help/analysis-workspace/visualizations/line.md) | 使用線條呈現量度，顯示一段時間內值的變化。僅可在使用時間當作維度時，才使用折線圖。 |
-| [散點圖](/help/analysis-workspace/visualizations/scatterplot.md) | 顯示維度值與最多三個量度之間的關係。 |
+| [散點圖](/help/analysis-workspace/visualizations/scatterplot.md) | 顯示維度項目與最多3個量度之間的關係。 |
 | [摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md) | 此視覺效果會根據選取的儲存格顯示總計和摘要。 |
 | [摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md) | 此視覺效果會根據選取的儲存格相互比較儲存格。 |
 | [文字](/help/analysis-workspace/visualizations/text.md) | 可讓您將使用者定義文字新增至「工作區」。 |
