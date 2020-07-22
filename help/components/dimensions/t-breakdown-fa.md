@@ -5,10 +5,10 @@ title: 劃分維度
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 在 Analysis Workspace 中劃分維度和維度項目。
 
@@ -28,7 +28,7 @@ ht-degree: 64%
 
    ![步驟結果](assets/fa_data_table_actions.png)
 
-   您可以跨所選時段，依維度值或讀者區段來劃分量度。您也可以更深入鑽研至更詳細的層級。
+   您可以依維度項目或對象區段劃分所選時段的量度。 您也可以更深入鑽研至更詳細的層級。
 
    >[!NOTE]表格中顯示的劃分數目上限為 200。匯出劃分時，此限制會提高。
 
