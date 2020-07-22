@@ -1,11 +1,11 @@
 ---
 title: 使用物件陣列
 description: 了解 CJA 如何針對資料階層製作報表。
-translation-type: ht
-source-git-commit: 52fecf03cc503fa59101f6280c671e153e2129e9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 ### 相同點擊範例 (報表行為)
 
-下表僅採計上述點擊，顯示具有某些維度和量度組合的 Workspace 報表。
+下表僅採計上述點擊，顯示具有某些維度和量度組合的工作區報表。
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
@@ -188,7 +188,7 @@ CJA 會查看點擊的這些部分，以產生報表：
 
 由於烘衣機不附保固，因此未列入表格中。
 
-您可以結合任何維度與量度，下表呈現未指定維度值的資料狀態：
+由於您可以將任何維度與任何度量結合，下表顯示資料與未指定維度項目的結合方式：
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ CJA 會查看點擊的這些部分，以產生報表：
 | `Unspecified` | `2` | `1` |
 | `Total` | `2` | `2` |
 
-產品訂單沒有相關聯的保固名稱，因此維度值為「未指定」。同樣的情況也適用於產品保固訂單：
+產品訂單不存在與其關聯的保修名稱，因此維度項目屬性為「未指定」。 同樣的情況也適用於產品保固訂單：
 
 ```diff
 {
@@ -240,7 +240,7 @@ CJA 會查看點擊的這些部分，以產生報表：
 +}
 ```
 
-請注意沒有關聯名稱的訂單。這些都是「未指定」維度值的訂單。
+請注意沒有關聯名稱的訂單。這些是屬於「未指定」維項目的訂單。
 
 ### 結合不同量度
 
