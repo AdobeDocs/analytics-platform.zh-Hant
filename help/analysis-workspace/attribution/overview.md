@@ -1,11 +1,11 @@
 ---
 title: 歸因概觀
-description: 將成功事件之評價歸因於多維度值的概念。
+description: 將成功事件的評分歸因於多個維度項目的概念。
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 50%
+ht-degree: 56%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
-歸因可讓分析者自訂維度值如何獲得成功事件的評價。 例如：
+歸因可讓分析者自訂維度項目如何獲得成功事件的評分。 例如：
 
 1. 您網站的訪客點按了您其中一個產品頁面的付費搜尋連結。 將產品新增至購物車，但不要購買。
 2. 第二天，您會看到其朋友的社交媒體貼文，按一下連結，然後完成購買。
