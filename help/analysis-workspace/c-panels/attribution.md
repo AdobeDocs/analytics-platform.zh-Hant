@@ -2,10 +2,10 @@
 title: 歸因面板
 description: 如何使用和解譯分析工作區中的歸因面板。
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 14%
+ht-degree: 20%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 您可以使用歸因面板輕鬆建立比較不同歸因模型的分析。這是 [Attribution IQ的一項功能](../attribution/overview.md) ，可讓您建立專屬的工作區，以使用和比較歸因模型。
 
@@ -40,7 +40,7 @@ ht-degree: 14%
 * **總量度**: 在報告時間視窗中發生的轉換總數。 這些是在您所選取的維度中歸因的轉換。
 * **量度歸因比較長條圖**: 以視覺化方式比較所選維度中每個維度項目的歸屬轉換。 每個色條顏色代表不同的歸因模型。
 * **量度歸因自由表格**: 顯示與條形圖相同的資料，以表的形式表示。 在此表格中選取不同的欄或列會篩選長條圖，以及面板中的數個其他視覺化。 此表格的運作方式類似於工作區中的任何其他自由表格——可讓您新增量度、區段或劃分等元件。
-* **維重疊圖**: 一個文氏圖，顯示前三個維度值，以及它們共同參與轉換的頻率。 例如，泡泡重疊的大小表示當訪客同時接觸兩個維度值時發生轉換的頻率。 選取相鄰自由表格中的其他列會更新視覺化，以反映您的選取範圍。
+* **維重疊圖**: 「文氏圖」顯示前三維項目，以及它們共同參與轉換的頻率。 例如，泡泡重疊的大小表示當訪客同時接觸兩個維度項目時發生轉換的頻率。 選取相鄰自由表格中的其他列會更新視覺化，以反映您的選取範圍。
 * **每個歷程的行銷觸點**: 色階分佈圖，指出訪客在回顧視窗中的接觸點數。 此圖表在查看多點接觸歸因影響資料集情形時相當實用。如果幾乎所有訪客都只有單一觸點，不同的歸因模型可能會顯示類似的資料。
 * **行銷渠道績效詳細資料**: 可讓您使用散布圖以視覺化方式比較最多3個歸因模型。
 * **行銷渠道流量**: 可讓您查看哪些頻道最常互動，以及訪客歷程中的順序。
