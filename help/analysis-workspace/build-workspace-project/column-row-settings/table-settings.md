@@ -3,10 +3,10 @@ description: 列設定依您拖放至表格中的元件而異。
 title: 列設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: df326581abbbd0dd0d29638962ccb71bb0aee837
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 89%
+source-wordcount: '425'
+ht-degree: 24%
 
 ---
 
@@ -15,19 +15,15 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
-列設定依您拖放至表格中的元件而異。
-
-您也可以使用[表格中的按右鍵動作](/help/analysis-workspace/visualizations/freeform-table.md)來管理選取的列。
-
-若要存取表格列設定，按一下維度、區段、量度、時段旁的設定圖示，或按以下各項之中的劃分：
+列設定依您拖放至表格中的元件而異。若要存取表格列設定，按一下維度、區段、量度、時段旁的設定圖示，或按以下各項之中的劃分：
 
 ![](assets/row-settings.png)
 
-| 列設定 | 說明 |
+| 設定 | 說明 |
 |--- |--- |
-| 日期比較 | 對齊各欄日期，讓所有開始日期在同一列。當您選擇對齊日期，例如，在 2016 年 10 月和 9 月的月對月比較中，左欄將從 10 月 1 日開始，右欄將從 9 月 1 日開始.<br>預設為停用。 |
-| 百分比 | 「按列計算百分比」可強制自由格式表格跨列計算儲存格百分比，而非整欄計算。此設定在計算趨勢百分比時特別實用。<br>使用「視覺化」圖示時，此功能會預設為啟用。 |
-| 欄總計 | 僅選取有限數目的項目時，這些設定只會在 [static rows](/help/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) (when you have selected a finite set of items), not with dynamic rows (i.e., when you drop in a dimension that shows all items).<ul><li>**[!UICONTROL 將目前的列數加總顯示為總計]** - 這個選項會顯示表格中的用戶端列數加總，因此總計&#x200B;**不會**&#x200B;刪除「造訪次數」或「訪客人數」等重複量度。</li><li>**[!UICONTROL 顯示總量]** - 這個選項會顯示伺服器端的加總，因此總計會刪除「造訪次數」或「訪客人數」等重複量度。</li></ul> |
-| 劃分 | **[!UICONTROL 依位置劃分]**：您可以根據自由格式表格中的固定位置執行劃分。例如，您可以指定一律劃分前七列。<br>(在舊版中，資料劃分中的值清單為「鎖定」。這樣的設定如舉例說名，在您執行依「頁面」劃分「日期」時，會得到所選日期範圍內前 50 個頁面的清單。如果儲存該報表，並在一個月後執行，前 50 頁可能會有所變更。然而，Analysis Workspace 會使用原始劃分的結果，並傳回相同的頁面，但以當前月份為日期範圍。)<br>若要依固定位置執行劃分：1.劃分表格中的一些列。2. 找到您要固定位置的表格列，按一下旁邊的設定 (齒輪) 圖示。3. 勾選「依位置劃分」旁的核取方塊。4. 變更排序順序或日期範圍，並注意劃分現在已繫結至該列的位置，而不是程式碼寫定的列。<br>預設為停用。 |
+| 對齊日期 | 這是表層設定，將每列的日期與同一行的所有開始日期對齊。 在表格的行中使用時間維度，並在欄中套用不同的日期範圍時，預設會啟用日期對齊。 例如，在套用10月和9月的每日表格中，左欄以10月1日開始，右欄以9月1日開始。 |
+| 依位置劃分 | 依預設，此設定會停用，劃分會修正為靜態列項目。 例如，假設您依行銷渠道劃分前3個頁面維度項目（首頁、搜尋結果、結帳）。 然後，您離開專案，兩週後再返回。 再次開啟專案時，前3個頁面已變更，現在首頁、搜尋結果和結帳是前4-6個頁面。 依預設，您的行銷渠道劃分仍會顯示在首頁、搜尋結果和結帳下，即使它們現在位於第4-6行中。 <br> 相反地， **依位置劃分** ，無論前3個項目是什麼，都會劃分。 參照我們的範例，當您重新開啟專案時，行銷渠道劃分將系結至表格中的前3個頁面，而非現在列4-6的首頁、搜尋結果和結帳。 |
+| 百分比 | **預設設定是** 「依欄計算百分比」; 列中可見的百分比是根據列總計來計算的。 <br>**依列計算百分比&#x200B;**，強制自由表格計算行間的儲存格百分比，而非向下計算欄，分母為總計。 此設定在計算趨勢百分比時特別實用。使用「視覺化」圖示時，預設會啟用此設定。 |
+| 欄總計 | 這些設定僅適用於靜 [態列](manual-vs-dynamic-rows.md)。 <br> **顯示為目前列的總和** ，顯示表格中行的用戶端總和，這表示總計不會 ** （如瀏覽或訪客）去重複化量度。 <br> **顯示總計** (Show grand Total)會顯示伺服器端總和，這表示總計會去重複化量度。 |
