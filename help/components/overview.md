@@ -2,10 +2,10 @@
 title: 元件概觀
 description: 瞭解 CJA 提供哪些元件，以及如何在報表中使用這些元件。
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 86%
+ht-degree: 82%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 您可以管理下列元件：
 
-* [**篩選器&#x200B;**](filters/filters-overview.md)：排除部分資料，以集中在通用維度值上
+* [**篩選&#x200B;**](filters/filters-overview.md): 排除部分資料，以集中在常用維度項目上
 * [**計算量度&#x200B;**](calc-metrics/calc-metr-overview.md)：將量度和公式作為新元件用於報告中
 * [**日期範圍&#x200B;**](date-ranges/overview.md)：自訂和調整 Analysis Workspace 提供的日期範圍
 * [**專案&#x200B;**](/help/analysis-workspace/home.md)：在 Analysis Workspace 中組織和維護專案
