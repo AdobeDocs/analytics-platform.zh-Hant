@@ -2,10 +2,10 @@
 title: 歸因常見問題集
 description: 取得歸因相關常見問題的解答。
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 **使用歸因時，「無」條列項目代表什麼？**
 
@@ -77,7 +77,7 @@ ht-degree: 83%
 
 Analytics 的某些維度可包含單次點擊中的多個值。常見範例包括清單變數和產品變數。
 
-將歸因套用至多值點擊時，同一次點擊中的所有值都會獲得相同的評分。由於有多個值可以接受該次評分，報表總計可能與每個各別條列項目的加總不同。報表總計會去除重複項目，而每個各別維度值會適當獲得評分。
+將歸因套用至多值點擊時，同一次點擊中的所有值都會獲得相同的評分。由於有多個值可以接受該次評分，報表總計可能與每個各別條列項目的加總不同。報表總計會去重複化，而每個維度項目會獲得適當的評分。
 
 **歸因如何與細分搭配運作？**
 
@@ -89,4 +89,4 @@ Analytics 的某些維度可包含單次點擊中的多個值。常見範例包�
 
 >[!NOTE]
 >
-> 如果區段隱藏包含量度的點擊，這些量度例項不會歸因於任何維度。不過，類似的報表篩選器只會隱藏某些維度值，而不會對根據歸因模型處理的量度造成任何影響。因此，區段傳回的值會比具有可比定義的篩選低。
+> 如果區段隱藏包含量度的點擊，這些量度例項不會歸因於任何維度。不過，類似的報表篩選器只會隱藏某些維度項目，而不會影響依歸因模型處理的量度。 因此，區段傳回的值會比具有可比定義的篩選低。
