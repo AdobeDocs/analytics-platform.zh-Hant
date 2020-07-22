@@ -1,8 +1,11 @@
 ---
 title: 設定資料檢視和歸因
 description: 說明如何在 Customer Journey Analytics 中為 Platform 資料集建立資料檢視
-translation-type: ht
-source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
+translation-type: tm+mt
+source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+workflow-type: tm+mt
+source-wordcount: '1523'
+ht-degree: 96%
 
 ---
 
@@ -15,9 +18,9 @@ Customer Journey Analytics 中不再有 Adobe Analytics 傳統意義上的 eVar�
 
 套用歸因設定前，請先記住以下事項：
 
-* 在資料檢視使用者介面中，您需指定預設歸因。**注意**：您之後可以在 Workspace 專案中覆寫這些設定，不過此功能目前尚未開放使用。
+* 在資料檢視使用者介面中，您需指定預設歸因。**注意**: 您之後可以在工作區專案中覆寫這些設定。不過此功能目前尚未開放使用。
 
-* Customer Journey Analytics 中的歸因設定不具破壞性且可回溯。換言之，您無法對 Customer Journey Analytics 中的資料集造成無法彌補的傷害。即使不小心刪除了某些資料，您可以隨時回到「[!UICONTROL Experience Platform]」將資料集復原。(但請記得，將資料集復原會產生額外成本。)
+* Customer Journey Analytics 中的歸因設定不具破壞性且可回溯。換言之，您無法對 Customer Journey Analytics 中的資料集造成無法彌補的傷害。Even if you accidentally delete something, you can always go back to [!UICONTROL Experience Platform] and bring the dataset back in. (但請記得，將資料集復原會產生額外成本。)
 
 * 如果您希望維度的「行為」與傳統 eVar (轉換變數) 相似，應依預設以「上次接觸造訪」歸因來設定。
 
@@ -38,7 +41,7 @@ Customer Journey Analytics 中不再有 Adobe Analytics 傳統意義上的 eVar�
 
 1. 指定維度和量度的元件和歸因設定。如需個別設定的詳細資訊，請參閱下文。
 
-1. 按一下「**[!UICONTROL Save]**」儲存資料檢視。
+1. Click **[!UICONTROL Save]** to save your data view.
 
 
 ### 元件設定
@@ -64,7 +67,7 @@ Customer Journey Analytics 中不再有 Adobe Analytics 傳統意義上的 eVar�
 
 ### 過期
 
-指定時段或事件，此時段或事件過後，維度值就會過期 (不再接收成功事件的評分)。您可以在工作階段、人員或自訂層級設定歸因過期。
+指定維度項目過期的時段或事件（不再收到成功事件的評分）。 您可以在工作階段、人員或自訂層級設定歸因過期。
 
 | 設定 | 定義 |
 |---|---|
