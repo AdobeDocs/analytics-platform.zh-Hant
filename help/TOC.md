@@ -13,7 +13,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 8f59697b2bb282a1057267131343229e12dd5111
+source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 98%
@@ -37,23 +37,23 @@ ht-degree: 98%
 + 資料檢視 {#cja-dataviews}
    + [建立資料檢視](data-views/create-dataview.md)
    + [設定資料檢視和歸因](data-views/configure-dataviews.md)
-+ Workspace 專案 {#cja-workspace}
++ 工作區專案 {#cja-workspace}
    + [Analysis Workspace 概述](analysis-workspace/home.md)
    + [執行基本分析](analysis-workspace/perform-basic-analysis.md)
    + [執行進階分析](analysis-workspace/perform-adv-analysis.md)
-   + 建立 Workspace 專案 {#build-workspace-project}
+   + 建立工作區專案 {#build-workspace-project}
       + [建立專案 - 概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
       + 欄和列的設定 {#column-row-settings}
          + [欄設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [列設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [手動與動態列](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [動態項目與靜態項目](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [還原和重做設定](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Analysis Workspace 中可用的快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [分頁、篩選及分類表格](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
-      + [Workspace 總計](analysis-workspace/build-workspace-project/workspace-totals.md)
+      + [工作區總計](analysis-workspace/build-workspace-project/workspace-totals.md)
    + 視覺效果 {#visualizations}
       + [視覺效果概觀](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理資料來源](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -91,8 +91,8 @@ ht-degree: 98%
       + [自由表格面板](analysis-workspace/c-panels/freeform-panel.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
    + 組織或共用專案 {#curate-share}
-      + [組織 Workspace 專案](analysis-workspace/curate-share/curate.md)
-      + [共用 Workspace 專案](analysis-workspace/curate-share/share-projects.md)
+      + [組織工作區專案](analysis-workspace/curate-share/curate.md)
+      + [共用工作區專案](analysis-workspace/curate-share/share-projects.md)
       + [僅限檢視的工作區專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
       + [共用和排程專案檔案](analysis-workspace/curate-share/send-schedule-files.md)
@@ -109,13 +109,13 @@ ht-degree: 98%
          + [異常偵測概觀](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [在 Analysis Workspace 中檢視異常](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [異常偵測所使用的統計技術](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-   + Workspace 常見問題集 {#workspace-faq}
+   + 工作區常見問題集 {#workspace-faq}
       + [常見問題集](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 效能最佳化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Analysis Workspace 的限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理需求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace 的協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)
-      + [分析工作區中的長尾](analysis-workspace/workspace-faq/long-tail.md)
+      + [Analysis Workspace 中的長尾](analysis-workspace/workspace-faq/long-tail.md)
 + 元件 {#cja-components}
    + [元件概觀](components/overview.md)
    + 維度 {#dimensions}
