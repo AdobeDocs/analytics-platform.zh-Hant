@@ -1,11 +1,11 @@
 ---
-title: 動態與靜態維度項目
+title: 自由表格中的動態與靜態維度項目
 description: 如何與表格中的動態和靜態維度項目互動。
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 8%
+source-wordcount: '518'
+ht-degree: 9%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 8%
 
 動態維度項目有列篩選選項，且 **沒有** 鎖定和X圖示。
 
+![](assets/dynamic-items.png)
+
 ## 靜態維度項目
 
 靜態維度項目不會隨時間而改變； 它們是固定元件，一律會在自由表格中傳回。 當您想要永遠分析相同項目時，最好使用靜態維度項目，不論該項目是特定促銷活動或一週中的特定天數。
@@ -39,15 +41,18 @@ ht-degree: 8%
 
 靜態維度項目 **沒有** 「列篩選」選項。 而是每個項目都會顯示鎖定和X圖示。 按一下X表徵圖可從表中刪除該維項。
 
+![](assets/static-items.png)
+
 ## 混合維度項目
 
 來自不同維度的維度項目可以新增至相同的表格。 在這些情況下，列標題會顯示「混合維度」。 這些維度項目是靜態的。 例如，從「瀏覽器類型」維度新增特定維度項目，從「瀏覽器」維度新增其他維度項目。
+
+![](assets/mixed-dimensions.png)
 
 ## 自由格式總行數
 
 動態和靜態行在自由格式總計行中的行為不同。 依預設：
 
 * 動態列會在伺服器端加總，並去除重複度量，例如瀏覽或訪客
-* 靜態列是在用戶端加總， **不** 會去重複化量度。
+* 靜態列是在用戶端加總， **不** 會去重複化量度。 要計算總行伺服器端，請將「行」設定更改為「顯 **示總計」**。 [深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
 
-[進一步瞭解動態和靜態列的](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) 「工作區」總選項。
