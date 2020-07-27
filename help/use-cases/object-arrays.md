@@ -1,11 +1,11 @@
 ---
 title: 使用物件陣列
 description: 了解 CJA 如何針對資料階層製作報表。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ CJA 會查看點擊的這些部分，以產生報表：
 
 由於烘衣機不附保固，因此未列入表格中。
 
-由於您可以將任何維度與任何度量結合，下表顯示資料與未指定維度項目的結合方式：
+有鑑於您可以結合任何維度與量度，下表提供未指定維度項目的資料狀態：
 
 | `product : warranty : name` | `product : orders` | `product : warranty : orders` |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ CJA 會查看點擊的這些部分，以產生報表：
 | `Unspecified` | `2` | `1` |
 | `Total` | `2` | `2` |
 
-產品訂單不存在與其關聯的保修名稱，因此維度項目屬性為「未指定」。 同樣的情況也適用於產品保固訂單：
+產品訂單沒有相關聯的保固名稱，因此維度項目為「未指定」。同樣的情況也適用於產品保固訂單：
 
 ```diff
 {
@@ -240,7 +240,7 @@ CJA 會查看點擊的這些部分，以產生報表：
 +}
 ```
 
-請注意沒有關聯名稱的訂單。這些是屬於「未指定」維項目的訂單。
+請注意沒有關聯名稱的訂單。這些都是「未指定」維度項目的訂單。
 
 ### 結合不同量度
 
