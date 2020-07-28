@@ -12,11 +12,11 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 98%
       + 欄和列的設定 {#column-row-settings}
          + [欄設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [列設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [動態項目與靜態項目](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [動態與靜態項目](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [還原和重做設定](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Analysis Workspace 中可用的快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [分頁、篩選及分類表格](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
