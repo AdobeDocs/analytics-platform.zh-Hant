@@ -2,10 +2,10 @@
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 220f164ae128c47aa89b319829336a5fc1b3d8c4
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
+source-wordcount: '923'
+ht-degree: 90%
 
 ---
 
@@ -34,9 +34,13 @@ ht-degree: 100%
 
 1. 選取一或多個要拉進 [!UICONTROL Customer Journey Analytics] 的資料集，然後按一下&#x200B;]**「新增」**[!UICONTROL 
 
-   (如果有很多資料集可選擇，可使用資料集清單上方的搜尋列，搜尋合適的資料集)。
+   (If you have a lot of datasets to choose from, you can search for the right one(s) using the **[!UICONTROL Search datasets]** search bar above the list of datasets.)
 
-1. 接著，[!UICONTROL Customer Journey Analytics] 會針對您新增至此連線的各個資料集，根據傳入的資料自動設定資料集類型。
+## 設定資料集
+
+在右側，您現在可以設定已新增的資料集。
+
+1. **[!UICONTROL 資料集類型]**: 對於您新增至此連線的每個資料集， [!UICONTROL Customer Journey Analytics] 會根據傳入的資料自動設定資料集類型。
 
    有 3 種不同的資料集類型：[!UICONTROL 事件]資料、[!UICONTROL 設定檔]資料、[!UICONTROL 查找]資料。
 
@@ -46,9 +50,19 @@ ht-degree: 100%
    | [!UICONTROL 查找] | 類似於「分類」檔案。此資料用於查找在事件或設定檔資料中找到的值或索引鍵。例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查找資料。 | 不適用 | 除「XDM 個別設定檔」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
    | [!UICONTROL 設定檔] | 類似於[!UICONTROL 「客戶屬性」] - 用於非變更和非臨時屬性。套用至[!UICONTROL 事件]資料中訪客、使用者或客戶的資料。例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以「XDM 個別設定檔」類別為基礎的內建或自訂模式。 | 您可以挑選要包含的人員 ID。在 [!DNL Experience Platform] 中定義的每個資料集，都有各自專屬的一組一或多個已定義的人員 ID，例如 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。<br>![人員 ID](assets/person-id.png)**請注意&#x200B;**：如果您建立的連線包含具有不同 ID 的資料集，報表會反映出這一點。若要確實合併資料集，您需要使用相同的人員 ID。 |
 
-1. 按&#x200B;**[!UICONTROL 「下一步」]**，前往[!UICONTROL 「建立連線」]對話框。
+1. **[!UICONTROL 資料集ID]**: 此ID會自動產生。
 
-   ![建立連線](assets/create-connection2.png)
+1. **[!UICONTROL 時間戳]**: 新增內容至此
+
+1. **[!UICONTROL 結構]**:
+
+1. **[!UICONTROL 人員 ID]**:
+
+1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Enable Connection] dialog.
+
+   ![啟用連接](assets/create-connection2.png)
+
+## 啟用連接
 
 1. 在[!UICONTROL 「建立連線」]對話方塊中，定義下列設定：
 
