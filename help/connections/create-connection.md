@@ -2,10 +2,10 @@
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 translation-type: tm+mt
-source-git-commit: 2bbfe2296d658dd38464a4a9d7810ae6d6eda306
+source-git-commit: 756c6e7c187b76636cf96d18c949908a97db51ed
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 62%
+source-wordcount: '1626'
+ht-degree: 52%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 62%
 
 「客戶歷程分析」現在支援使用Identity Map做為其人員ID的能力。 Identity Map是一種地圖資料結構，可讓某人上傳金鑰->值配對。 密鑰是標識名稱空間，值是保存標識值的結構。 Identity Map存在於每個上載的列／事件上，並會依此填入每一列。
 
-Identity Map適用於任何使用基於ExperienceEvent XDM類別之架構的資料集。 當您選取要包含在CJA連線中的此類資料集時，您可以選擇欄位作為主要ID或Identity Map:
+Identity Map適用於任何使用基於 [ExperienceEvent XDM類別之架構的資料集](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html) 。 當您選取要包含在CJA連線中的此類資料集時，您可以選擇欄位作為主要ID或Identity Map:
 
 ![](assets/idmap1.png)
 
@@ -80,6 +80,15 @@ Identity Map適用於任何使用基於ExperienceEvent XDM類別之架構的資�
 |---|---|
 | [!UICONTROL 使用主要 ID 命名空間] | 這會指示CJA在標有primary=true屬性的Identity Map中，以每列尋找識別，並將其用作該列的Person ID。 這表示這是Experience Platform中用於分區的主要關鍵。 它也是CJA訪客ID的主要候選用途（視CJA連線中資料集的設定方式而定）。 |
 | [!UICONTROL 命名空間] | （只有當您未使用「主要ID名稱空間」時，才可使用此選項。） 身分名稱空間是 [Adobe Experience Platform Identity Service的元件](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html) ，可做為識別相關內容的指標。 如果您指定命名空間，CJA會針對此命名空間索引鍵搜尋每一列的Identity Map，並將該名稱空間下的識別碼當成該列的人員ID。 請注意，由於CJA無法對所有列執行完整資料集掃描以判斷實際存在的名稱空間，所有可能的名稱空間都會列在下拉式清單中。 您需要知道在資料中指定哪些名稱空間； 無法自動偵測到此問題。 |
+
+### Identity Map邊緣案例
+
+下表顯示了當出現邊框時的兩個配置選項，以及它們的處理方式：
+
+| 選項 | Identity Map中沒有ID | 沒有ID標示為主要 | 多個ID標示為主要 | 單一ID標示為主要 | ID標示為主要ID的命名空間無效 |
+|---|---|---|---|---|---|
+| **已選中「使用主ID命名空間」** | CJA將刪除該行。 | CJA會刪除該行，因為未指定主ID。 | 所有標示為主要的ID（在所有名稱空間下）都會提取到清單中。 然後按字母順序排序； 使用此新排序時，第一個具有其第一個ID的命名空間會用作人員ID。 | 標示為主要的單一ID會用作人員ID。 | 即使命名空間可能無效（AEP中不存在）,CJA仍會使用該命名空間下的主要ID做為人員ID。 |
+| **已選擇特定Identity Map命名空間** | CJA將刪除該行。 | 選定名稱空間下的所有ID都會提取到清單中，第一個ID用作「人員ID」。 | 選定名稱空間下的所有ID都會提取到清單中，第一個ID用作「人員ID」。 | 選定名稱空間下的所有ID都會提取到清單中，第一個ID用作「人員ID」。 | 選定名稱空間下的所有ID都會提取到清單中，第一個ID用作「人員ID」。 （在連線建立時，只能選取有效的命名空間，因此無效的命名空間/ID無法用作人員ID） |
 
 ## 啟用連接
 
