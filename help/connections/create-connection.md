@@ -2,10 +2,10 @@
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 translation-type: tm+mt
-source-git-commit: 220f164ae128c47aa89b319829336a5fc1b3d8c4
+source-git-commit: 63ddde92f1ea5e5e8129888909ac03ac89096b71
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 90%
+source-wordcount: '999'
+ht-degree: 82%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 1. 按一下右上方的&#x200B;**[!UICONTROL 「建立新連結」]**。
 
-   ![建立連線](assets/create-connection.png)
+   ![建立連線](assets/create-connection0.png)
 
 1. 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。
 
@@ -39,6 +39,8 @@ ht-degree: 90%
 ## 設定資料集
 
 在右側，您現在可以設定已新增的資料集。
+
+![設定資料集](assets/create-connection.png)
 
 1. **[!UICONTROL 資料集類型]**: 對於您新增至此連線的每個資料集， [!UICONTROL Customer Journey Analytics] 會根據傳入的資料自動設定資料集類型。
 
@@ -54,17 +56,25 @@ ht-degree: 90%
 
 1. **[!UICONTROL 時間戳]**: 新增內容至此
 
-1. **[!UICONTROL 結構]**:
+1. **[!UICONTROL 架構]**: 這是在Adobe Experience Platform中建立資料集的架構。
 
-1. **[!UICONTROL 人員 ID]**:
+1. **[!UICONTROL 人員ID]**: 從「體驗平台」資料集架構中定義的可用身分中，選取人員ID。
+
+   >[!IMPORTANT]
+   >
+   >如果沒有人員ID可供選擇，表示架構中尚未定義一或多個人員ID。 觀看 [此影片](https://youtu.be/G_ttmGl_LRU) ，瞭解如何在Experience Platform中定義身分。
 
 1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Enable Connection] dialog.
 
-   ![啟用連接](assets/create-connection2.png)
+### 身分對應
+
+
 
 ## 啟用連接
 
-1. 在[!UICONTROL 「建立連線」]對話方塊中，定義下列設定：
+![啟用連接](assets/create-connection2.png)
+
+1. 要啟用連接，請定義以下設定：
 
    | 欄位 | 說明 |
    |---|---|
