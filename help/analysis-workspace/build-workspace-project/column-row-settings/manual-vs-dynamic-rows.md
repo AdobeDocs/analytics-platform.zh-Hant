@@ -2,7 +2,7 @@
 title: 自由表格中的動態與靜態維度項目
 description: 如何與表格中的動態和靜態維度項目互動。
 translation-type: tm+mt
-source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
+source-git-commit: cee89d021e9cd034246fe9367bc8910dac7ca7cf
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 9%
@@ -12,7 +12,9 @@ ht-degree: 9%
 
 # 自由表格中的動態與靜態維度項目
 
->[!NOTE]您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>[!NOTE]
+>
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 在自由表格中，行和列可以包含其中的各種元件值。 這些值可以是動態（隨時間變更）或靜態（不隨時間變更），視您要建立的分析而定。
 
@@ -24,7 +26,7 @@ ht-degree: 9%
 
 例如，當您將「瀏覽器類型」維度拖曳至表格時，頂端的「瀏覽器類型」維度項目（例如Microsoft、Apple、Google等） 動態返回表格列。 如果拖放至欄中，前5個「瀏覽器類型」維度項目會動態傳回。
 
-動態維度項目有列篩選選項，且 **沒有** 鎖定和X圖示。
+動態維度項目有列篩選選項，而且 **not** 有鎖定和X圖示。
 
 ![](assets/dynamic-items.png)
 
@@ -34,12 +36,12 @@ ht-degree: 9%
 
 每當您手動選取特定元件值（維度、量度、區段、日期範圍）並放入表格時，結果就會是列或欄的靜態清單。 如果您選擇：
 
-* 從行中，按一下右鍵>只顯 [!UICONTROL 示選定行]
+* 從列，按一下滑鼠右鍵> [!UICONTROL 僅顯示選定行]
 * 從欄中，按一下滑鼠右鍵> [!UICONTROL 將項目設為靜態]
 
 例如，當您拖曳至特定的「瀏覽器類型」項目（例如Microsoft和Apple）時，這2個特定項目一律會拖曳到表格中。
 
-靜態維度項目 **沒有** 「列篩選」選項。 而是每個項目都會顯示鎖定和X圖示。 按一下X表徵圖可從表中刪除該維項。
+靜態維度項目 **not** 具有行篩選選項。 而是每個項目都會顯示鎖定和X圖示。 按一下X表徵圖可從表中刪除該維項。
 
 ![](assets/static-items.png)
 
@@ -54,5 +56,5 @@ ht-degree: 9%
 動態和靜態行在自由格式總計行中的行為不同。 依預設：
 
 * 動態列會在伺服器端加總，並去除重複度量，例如瀏覽或訪客
-* 靜態列是在用戶端加總， **不** 會去重複化量度。 要計算總行伺服器端，請將「行」設定更改為「顯 **示總計」**。 [深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
+* 靜態列在用戶端加總並執行 **not** 去重複化量度。 若要計算總列伺服器端，請將「列」設定變更為 **顯示總計**. [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
 
