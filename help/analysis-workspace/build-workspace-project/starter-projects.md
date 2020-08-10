@@ -3,10 +3,10 @@ description: 工作區中的範本
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: c7bf87b4ff3a7d0da930a22336db762fa3d74393
 workflow-type: tm+mt
 source-wordcount: '1420'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 您可以選擇從以下來源建立專案：
 
 * **空白專案 (預設)**：如需操作說明，請參閱[建立 Analysis Workspace 專案](/help/analysis-workspace/home.md)。
 * **標準範本**：這些範本是由 Adobe 建立並隨產品提供。
-* **自訂範本**: 這些範本可由具有管理員權限的使用者或非管理員建立、共用或刪除，但必須已授與 [!UICONTROL Analysis工作區： 在管理控制台中] ，儲存為範本權限。 [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-console/permissions/product-profile.html)
+* **自訂範本**：這些範本可由具有管理員權限的使用者或非管理員建立、共用或刪除，但前提是他們已在 Admin Console 中獲得 [!UICONTROL Analysis Workspace：儲存為範本]權限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -55,7 +55,7 @@ ht-degree: 95%
 
 ## 標準範本
 
-第一次開啟工作區時，範本位於左側欄中。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
+第一次開啟工作區時，範本位於左側邊欄中。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
 
 您可照原樣使用這些預先填入的範本，或是依照您的需求據以調整 (例如透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。
 
@@ -133,7 +133,7 @@ ht-degree: 95%
 
 ### 歷程 IQ：Cross-Device Analysis 範本
 
-<!-->This content is mirrored in the CDA doc.<-->
+<!--This content is mirrored in the CDA doc.-->
 
 此範本可讓您了解重要的跨裝置效能資料。這個範本僅供可存取 [Cross-Device Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-home.html) (CDA) 的客戶使用。
 
