@@ -12,11 +12,11 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
-translation-type: ht
-source-git-commit: ee508a9186c02b4ee278a083ff0c75d2412a22e8
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 41ad1eeb2510fce0d73c7f14fe11621445e43420
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
       + [Venn](analysis-workspace/visualizations/venn.md)
       + [區域圖和堆疊區域圖](analysis-workspace/visualizations/area.md)
       + [長條圖和堆疊長條圖](analysis-workspace/visualizations/bar.md)
-      + [項目圖表](analysis-workspace/visualizations/bullet-graph.md)
+      + [項目符號圖表](analysis-workspace/visualizations/bullet-graph.md)
       + [環形圖](analysis-workspace/visualizations/donut.md)
       + [橫條圖和堆疊橫條圖](analysis-workspace/visualizations/horizontal-bar.md)
       + [折線圖](analysis-workspace/visualizations/line.md)
@@ -143,6 +143,7 @@ ht-degree: 100%
 + 使用個案 {#cja-usecases}
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [使用物件陣列](use-cases/object-arrays.md)
+   + [(B2B)新增帳戶層級資料做為查閱資料集](use-cases/b2b.md)
 + 隱私權 {#cja-privacy}
    + [隱私權概觀](privacy/privacy-overview.md)
 + [CJA 文件更新](doc-changes.md)
