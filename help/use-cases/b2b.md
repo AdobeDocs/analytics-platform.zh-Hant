@@ -2,9 +2,9 @@
 title: (B2B)新增帳戶層級資料做為查閱資料集
 description: 瞭解如何將帳戶型資料新增為CJA的查閱資料集
 translation-type: tm+mt
-source-git-commit: 721915ffdc9f196a13a360fb5ac145f750788bcf
+source-git-commit: e3d4a672c33b8c536246836a062d544e3d5b8a01
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -46,8 +46,15 @@ ht-degree: 1%
 1. 命名資料集（在我們的範例中，B2B資訊）並提供說明。
 1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
+## 3.將資料內嵌至Experience Platform
 
-## 3.將資料集合在連線中（客戶歷程分析）
+說明如何 [將CSV檔案對應至XDM架構](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/map-a-csv-file.html) 如果您使用CSV檔案，應有所幫助。
+
+[其他方法](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html) 也提供。
+
+上線資料和建立查閱需要大約2到4小時，視查閱表格的大小而定。
+
+## 4.將資料集合在連線中（客戶歷程分析）
 
 在此範例中，我們將3個資料集合為一個CJA連線：
 
@@ -61,20 +68,18 @@ ht-degree: 1%
 
 1. 在客戶歷程分析中，選取 **[!UICONTROL 連接]** 頁籤。
 1. 選取您要結合的資料集（在我們的範例中，以上三個資料集）。
-1. （不確定這是步驟所屬的位置……）對於B2B資訊資料集，請選取 `accountID` 的索引鍵。 然後選取其相符索引鍵（對應的維度）, `accountID` 在事件資料集中。
+1. 對於B2B資訊資料集，請選取 `accountID` 的索引鍵。 然後選取其相符索引鍵（對應的維度）, `accountID` 在事件資料集中。
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 命名和描述連接，並根據 [這些說明](/help/connections/create-connection.md).
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-現在資料會被收錄。 上線資料和建立查閱需要大約2到4小時，視查閱表格的大小而定。
-
-## 從此連接建立資料視圖
+## 5.從此連接建立資料視圖
 
 依照 [建立資料視圖](/help/data-views/create-dataview.md).
 
 * 新增資料集中所需的所有元件（維度和量度）。
 
-## 分析工作區中的資料
+## 6.分析工作區中的資料
 
 您現在可以根據所有3個資料集的資料來建立Workspace專案。
 
