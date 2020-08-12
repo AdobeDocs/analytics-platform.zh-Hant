@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 756c6e7c187b76636cf96d18c949908a97db51ed
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -54,47 +54,47 @@ ht-degree: 58%
 
 1. **[!UICONTROL 資料集 ID]**：此 ID 會自動產生。
 
-1. **[!UICONTROL 時間戳記]**:新增內容至此
+1. **[!UICONTROL 時間戳記]**：在此處新增內容
 
-1. **[!UICONTROL 架構]**:此為 [架構](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/schema/composition.html) 根據資料集在Adobe Experience Platform中建立的位置。
+1. **[!UICONTROL 結構]**：這是在 Adobe Experience Platform 中建立資料集時所依據的[結構](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/schema/composition.html)。
 
-1. **[!UICONTROL 人員ID]**:從可用身份的下拉式清單中選擇人員ID。 這些身分是在Experience Platform的資料集架構中定義。 如需如何將Identity Map當成人員ID的詳細資訊，請參閱以下。
+1. **[!UICONTROL 人員 ID]**：您可從可用身分識別的下拉式清單中選取人員 ID。這些身分識別是在 Experience Platform 的資料集結構中所定義。若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。
 
    >[!IMPORTANT]
    >
-   >如果沒有人員ID可供選擇，表示架構中尚未定義一或多個人員ID。 檢視 [此影片](https://youtu.be/G_ttmGl_LRU) 如何在Experience Platform中定義身分。
+   >如果沒有人員 ID 可以選擇，表示結構中尚未定義一或多個人員 ID。[這部影片](https://youtu.be/G_ttmGl_LRU)會說明如何在 Experience Platform 中定義身分識別。
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**，前往[!UICONTROL 「啟用連線」]對話框。
 
-### 將Identity Map用作人員ID
+### 以「身分對應」作為人員 ID
 
-「客戶歷程分析」現在支援使用Identity Map做為其人員ID的能力。 Identity Map是一種地圖資料結構，可讓某人上傳金鑰->值配對。 索引鍵是身分識別命名空間，值是保存身分識別值的結構。Identity Map存在於每個上載的列／事件上，並會依此填入每一列。
+Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID。「身分對應」是一種允許使用者上傳索引鍵/值組的對應資料結構。索引鍵是身分識別命名空間，值是保存身分識別值的結構。「身分對應」存在於每個上傳的列/事件，並會相應填入每一列。
 
-Identity Map適用於任何使用基於 [ExperienceEvent XDM](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html) 類別。 當您選取要包含在CJA連線中的此類資料集時，您可以選擇欄位作為主要ID或Identity Map:
+只要資料集所使用的結構屬於 [ExperienceEvent XDM](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html) 類別，一律適用「身分對應」。當您選擇要在 CJA 連線中包含這類資料集，您就可以選擇使用一個欄位作為主要 ID，也可以使用「身分對應」：
 
 ![](assets/idmap1.png)
 
-如果您選擇Identity Map，您將獲得兩個其他配置選項：
+如果您選取「身分對應」，系統會提供另外兩個設定選項：
 
 | 選項 | 說明 |
 |---|---|
-| [!UICONTROL 使用主要 ID 命名空間] | 這會指示CJA在標有primary=true屬性的Identity Map中，以每列尋找識別，並將其用作該列的Person ID。 這表示這是Experience Platform中用於分區的主要關鍵。 它也是CJA訪客ID的主要候選用途（視CJA連線中資料集的設定方式而定）。 |
-| [!UICONTROL 命名空間] | （只有當您未使用「主要ID名稱空間」時，才可使用此選項。） 身分名稱空間是 [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html) 作為身份相關背景的指標。 如果您指定命名空間，CJA會針對此命名空間索引鍵搜尋每一列的Identity Map，並將該名稱空間下的識別碼當成該列的人員ID。 請注意，由於CJA無法對所有列執行完整資料集掃描以判斷實際存在的名稱空間，所有可能的名稱空間都會列在下拉式清單中。 您需要知道在資料中指定哪些名稱空間；無法自動偵測到此問題。 |
+| [!UICONTROL 使用主要 ID 命名空間] | 這會指示 CJA 在標示 primary=true 屬性的「身分對應」中逐列尋找身分識別，作為該列的人員 ID。也就是說，這會是在 Experience Platform 中劃分資料的主要索引鍵，也是 CJA 訪客 ID 的主要候選項目 (取決於 CJA 連線的資料集設定方式)。 |
+| [!UICONTROL 命名空間] | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/zh-Hant/experience-platform/identity/namespaces.html) 的元件，用途是作為身分識別相關內容的指標。如果您指定命名空間，CJA 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。請注意，CJA 無法執行涵蓋所有列的完整資料集掃描，據以判斷哪些命名空間實際存在，下拉式清單會列出所有可能的命名空間。您需知道資料中指定的命名空間，系統無法自動偵測。 |
 
-### Identity Map邊緣案例
+### 「身分對應」邊緣案例
 
-下表顯示了當出現邊框時的兩個配置選項，以及它們的處理方式：
+下表提供邊緣案例出現時的兩個設定選項及其處理方式：
 
-| 選項 | Identity Map中沒有ID | 沒有ID標示為主要 | 多個ID標示為主要 | 單一ID標示為主要 | ID標示為主要ID的命名空間無效 |
+| 選項 | 「身分對應」中沒有 ID | 沒有 ID 標示為主要 | 多個 ID 標示為主要 | 單一 ID 標示為主要 | 標示為主要的 ID 具有無效的命名空間 |
 |---|---|---|---|---|---|
-| **已選中「使用主ID命名空間」** | CJA將刪除該行。 | CJA會刪除該行，因為未指定主ID。 | 所有標示為主要的ID（在所有名稱空間下）都會提取到清單中。 然後按字母順序排序；使用此新排序時，第一個具有其第一個ID的命名空間會用作人員ID。 | 標示為主要的單一ID會用作人員ID。 | 即使命名空間可能無效（AEP中不存在）,CJA仍會使用該命名空間下的主要ID做為人員ID。 |
-| **已選擇特定Identity Map命名空間** | CJA將刪除該行。 | 選定名稱空間下的所有ID都會提取到清單中，第一個ID用作「人員ID」。 | 選定名稱空間下的所有ID都會提取到清單中，第一個ID用作「人員ID」。 | 選定名稱空間下的所有ID都會提取到清單中，第一個ID用作「人員ID」。 | 選定名稱空間下的所有ID都會提取到清單中，第一個ID用作「人員ID」。 （在連線建立時，只能選取有效的命名空間，因此無效的命名空間/ID無法用作人員ID） |
+| **已勾選「使用主要 ID 命名空間」** | CJA 會捨棄該列。 | 未指定主要 ID，CJA 會捨棄該列。 | 系統會擷取所有命名空間下標示為主要的 ID，彙整成清單，並依字母排序；重新排序後，系統會將第一個命名空間的第一個 ID 視為人員 ID。 | 以標示為主要的單一 ID 作為人員 ID。 | 即使命名空間可能無效 (不在 AEP 中)，CJA 仍會以該命名空間下的主要 ID 作為人員 ID。 |
+| **已選取特定「身分對應」命名空間** | CJA 會捨棄該列。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。(建立連線時只能選取有效的命名空間，因此不可能使用無效的命名空間/ID 作為人員 ID)。 |
 
 ## 啟用連線
 
 ![啟用連線](assets/create-connection2.png)
 
-1. 要啟用連接，請定義以下設定：
+1. 若要啟用連線，請定義下列設定：
 
    | 選項 | 說明 |
    |---|---|
