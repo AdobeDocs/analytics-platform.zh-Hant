@@ -2,10 +2,10 @@
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 translation-type: tm+mt
-source-git-commit: 756c6e7c187b76636cf96d18c949908a97db51ed
+source-git-commit: 92702a78f4b3d3413f91d896749db10102412fba
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 100%
+source-wordcount: '1639'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 >
 >您可以將多個 [!DNL Experience Platform] 資料集合併為單一連線。
 
+## 選擇沙盒和資料集
+
 1. 請前往 [https://analytics.adobe.com](https://analytics.adobe.com)。
 
 1. 按一下&#x200B;**[!UICONTROL 「連線」]**&#x200B;索引標籤。
@@ -30,7 +32,11 @@ ht-degree: 100%
 
 1. 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。
 
-   Adobe Experience Platform 提供的[沙箱](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sandbox/home.html)可將單一 Platform 例項分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。您可將沙箱視為內含資料集的「資料獨立單位」。沙箱可用於控制資料集的存取權限，您無法一次存取多個沙箱內的資料。選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。
+   Adobe Experience Platform 提供的[沙箱](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sandbox/home.html)可將單一 Platform 例項分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。您可將沙箱視為內含資料集的「資料獨立單位」。沙箱可用於控制資料集的存取權限，選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。
+
+   >[!IMPORTANT]
+   >
+   >您無法跨沙盒存取資料，亦即您只能將資料集合在一個沙盒中。
 
 1. 選取一或多個要拉進 [!UICONTROL Customer Journey Analytics] 的資料集，然後按一下&#x200B;]**「新增」**[!UICONTROL 
 
@@ -50,7 +56,7 @@ ht-degree: 100%
    |---|---|---|---|---|
    | [!UICONTROL 事件] | 代表及時事件的資料 (例如網站造訪、互動、交易、POS 資料、調查資料、廣告曝光數資料等)。例如，這可能是典型的點按資料流資料，包含客戶 ID 或 Cookie ID 以及時間戳記。若使用事件資料，您可以靈活選擇將哪個 ID 當作人員 ID 使用。 | 系統會自動設定為 [Experience Platform] 中以事件為基礎的結構之預設時間戳記欄位。 | 任何以具有「時間系列」行為的 XDM 類別為依據的內建或自訂結構。例如「XDM 體驗事件」或「XDM 決策事件」。 | 您可以挑選要包含的人員 ID。在 Experience Platform 中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。其中任何一個都可當作人員 ID 使用。範例包括 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。 |
    | [!UICONTROL 查找] | 類似於「分類」檔案。此資料用於查找在事件或設定檔資料中找到的值或索引鍵。例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查找資料。 | 不適用 | 除「XDM 個別設定檔」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
-   | [!UICONTROL 設定檔] | 類似於[!UICONTROL 「客戶屬性」] - 用於非變更和非臨時屬性。套用至[!UICONTROL 事件]資料中訪客、使用者或客戶的資料。例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以「XDM 個別設定檔」類別為基礎的內建或自訂模式。 | 您可以挑選要包含的人員 ID。在 [!DNL Experience Platform] 中定義的每個資料集，都有各自專屬的一組一或多個已定義的人員 ID，例如 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。<br>![人員 ID](assets/person-id.png)**請注意&#x200B;**：如果您建立的連線包含具有不同 ID 的資料集，報表會反映出這一點。若要確實合併資料集，您需要使用相同的人員 ID。 |
+   | [!UICONTROL 設定檔] | 類似於[!UICONTROL 「客戶屬性」] - 用於非變更和非臨時屬性。套用至[!UICONTROL 事件]資料中訪客、使用者或客戶的資料。例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以「XDM 個別設定檔」類別為基礎的內建或自訂模式。 | 您可以挑選要包含的人員 ID。在 [!DNL Experience Platform] 中定義的每個資料集，都有各自專屬的一組一或多個已定義的人員 ID，例如 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。<br>![人員 ID ](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報表會反映出這一點。若要確實合併資料集，您需要使用相同的人員 ID。 |
 
 1. **[!UICONTROL 資料集 ID]**：此 ID 會自動產生。
 
