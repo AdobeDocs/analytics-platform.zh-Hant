@@ -12,11 +12,11 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 41ad1eeb2510fce0d73c7f14fe11621445e43420
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
    + [快速入門](getting-started/cja-getting-started.md)
    + [常見問題集](getting-started/cja-faq.md)
    + [Customer Journey Analytics 功能支援](getting-started/cja-aa.md)
-   + [CJA 詞彙](getting-started/cja-glossary.md)
+   + [CJA 術語](getting-started/cja-glossary.md)
 + 連線 {#cja-connections}
    + [建立連線](connections/create-connection.md)
    + [管理連線](connections/manage-connection.md)
@@ -59,7 +59,7 @@ ht-degree: 97%
       + [管理資料來源](analysis-workspace/visualizations/t-sync-visualization.md)
       + [自由表格](analysis-workspace/visualizations/freeform-table.md)
       + 同類群組表格 {#cohort-table}
-         + [同類群組分析分析是什麼?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [同類群組分析是什麼？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定同類群組分析報表](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [同類群組分析使用案例](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 流失 {#fallout}
@@ -143,7 +143,7 @@ ht-degree: 97%
 + 使用個案 {#cja-usecases}
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [使用物件陣列](use-cases/object-arrays.md)
-   + [(B2B)新增帳戶層級資料做為查閱資料集](use-cases/b2b.md)
+   + [(B2B) 新增帳戶層級資料作為查詢資料集](use-cases/b2b.md)
 + 隱私權 {#cja-privacy}
    + [隱私權概觀](privacy/privacy-overview.md)
 + [CJA 文件更新](doc-changes.md)
