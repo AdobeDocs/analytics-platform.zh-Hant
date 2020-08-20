@@ -1,8 +1,11 @@
 ---
 title: 建立資料檢視
 description: 說明如何在 Customer Journey Analytics (CJA) 中為 Platform 資料集建立資料檢視。
-translation-type: ht
-source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
+translation-type: tm+mt
+source-git-commit: de265170126c1a9fc1f66364a79a74ff487d0b71
+workflow-type: tm+mt
+source-wordcount: '540'
+ht-degree: 87%
 
 ---
 
@@ -11,23 +14,23 @@ source-git-commit: d6101371fc9c055a73c7b7bcd1a8d6d6fdc13322
 
 資料檢視類似於 Analytics 中的虛擬報表套裝，其概念為資料的「經篩選」檢視。您可以為相同的連線建立不同的資料檢視，並針對造訪逾時、歸因等項目使用不同設定。您可以為單一資料集建立多個資料檢視。例如，您可以有一個資料檢視的所有維度都設為「上次接觸」，同時有另一個資料檢視 (以同一個資料集為基礎) 的所有維度都設為「首次接觸」。
 
-Customer Journey Analytics 中的 Workspace 專案是以資料檢視為基礎。
+Customer Journey Analytics 中的工作區專案是以資料檢視為基礎。
 
 按一下[這裡](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/basic-configuration-for-data-views.html)，觀看概觀影片。
 
 ## 必要條件
 
-建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集的連線]](/help/connections/create-connection.md)。
+建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集的連線](/help/connections/create-connection.md).
 
 ## 設定設定
 
-1. 在 Customer Journey Analytics 中，前往「**[!UICONTROL Data Views]**」標籤。
+1. 在客戶歷程分析中，請至 **[!UICONTROL 資料檢視]** 頁籤。
 
-1. 按一下「**[!UICONTROL Add]**」，新增資料檢視並配置其設定。
+1. 按一下 **[!UICONTROL 新增]** 以新增資料檢視並設定其設定。
 
    | 工作階段設定 | 定義 |
    |---|---|
-   | 連線 | 此欄位會將資料檢視連結至您先前建立的連線，其中包含 [!UICONTROL Experience Platform] 資料集。 |
+   | 連線 | 此欄位會將資料檢視連結至您先前建立的連線，其中包含 [!UICONTROL 體驗平台] 資料集/s。 |
    | 名稱 | 必須為資料檢視命名。 |
    | 說明 | 詳細說明非必填，但建議使用。 |
    | 新增標記 | 標記可用來將資料檢視整理到不同類別中。 |
@@ -36,15 +39,15 @@ Customer Journey Analytics 中的 Workspace 專案是以資料檢視為基礎。
    | 開始事件的新工作階段 | 不論作業階段是否已逾期，事件觸發時就會開始新的工作階段。新建立的工作階段將會包含啟動的事件。此外，您可以使用多個事件來啟動工作階段，如果資料中觀察到其中一個事件，就會觸發新的工作階段。此設定將會影響您的造訪計數、「工作階段」 (先前稱為「造訪」) 區段容器以及維度的造訪過期邏輯。 |
    | 新增篩選器 | 「篩選器」是 Customer Journey Analytics 中代表「區段」的詞彙。如果您希望篩選資料，請從左側邊欄拖曳適當的篩選器。如果沒有選取篩選器，資料檢視將會包含您的所有資料。 |
 
-1. 按一下「**[!UICONTROL Continue]**」。
+1. 按一下&#x200B;**[!UICONTROL 繼續]**。
 
 ## 新增元件
 
-1. 現在可以將元件 (維度、量度) 新增至資料檢視 (類似於虛擬報表套裝中的策劃體驗)。請注意，資料集中的每個欄位現在都會轉換為維度或量度。將維度和量度拖曳至面板，或&#x200B;**全部選取**&#x200B;以新增所有元件。
+1. 現在可以將元件 (維度、量度) 新增至資料檢視 (類似於虛擬報表套裝中的策劃體驗)。請注意，資料集中的每個欄位現在都會轉換為維度或量度。將維度和量度拖曳至面板或 **[!UICONTROL 全選]** 以新增所有元件。
 
    ![](assets/add-all-components.png)
 
-1. 按一下「**[!UICONTROL Add Components]**」標籤，將維度和量度新增至資料檢視。
+1. 按一下 **[!UICONTROL 新增元件]** 標籤，將維度和量度新增至資料檢視。
 
    ![](assets/add-all-components2.png)
 
