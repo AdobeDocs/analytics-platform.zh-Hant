@@ -2,9 +2,9 @@
 title: (B2B) 新增帳戶層級資料作為查詢資料集
 description: 了解如何將以帳戶為基礎的資料，以查詢資料集的形式新增至 CJA
 translation-type: tm+mt
-source-git-commit: de5717d42fbe29554351a789cce594ac9ad47ee1
+source-git-commit: 46cb6c92d4a6a7ceddb687e7668c1588559f87a7
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '933'
 ht-degree: 89%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 89%
 | 資料集名稱 | 說明 | AEP 架構類別 | 資料集詳細資訊 |
 |---|---|---|---|
 | B2B 曝光數 | 包含點按資料流 (帳戶層級的事件層級資料)。舉例來說，其中包含刊登行銷廣告所需的電子郵件 ID、對應的帳戶 ID 及行銷名稱。此外，資料中也包含這些廣告的每位使用者曝光數。 | 以 XDM ExperienceEvent 架構類別為基礎 | `emailID` 設為主要身分識別，並獲指派 `Customer ID` 命名空間。因此，系統會以預設的&#x200B;**[!UICONTROL 人員 ID]** 形式顯示於 Customer Journey Analytics。![曝光數](assets/impressions-mixins.png) |
-| B2B 設定檔 | 此設定檔資料集能協助您深入了解帳戶中使用者的相關資訊，例如其職稱、所屬帳戶、LinkedIn 個人檔案等。 | 以 XDM 個別設定檔架構類別為基礎 | 不需在此架構中選取 `emailID` 作為主要 ID。請務必啟用&#x200B;**[!UICONTROL 設定檔]**；如未啟用，CJA 無法將 B2B 設定檔中的 `emailID` 與 B2B 曝光數資料的 `emailID` 連結(此功能稱為欄位彙整)。![設定檔](assets/profile-mixins.png) |
+| B2B 設定檔 | 此設定檔資料集能協助您深入了解帳戶中使用者的相關資訊，例如其職稱、所屬帳戶、LinkedIn 個人檔案等。 | 以 XDM 個別設定檔架構類別為基礎 | 不需在此架構中選取 `emailID` 作為主要 ID。請務必啟用&#x200B;**[!UICONTROL 設定檔]**；如未啟用，CJA 無法將 B2B 設定檔中的 `emailID` 與 B2B 曝光數資料的 `emailID` 連結![設定檔](assets/profile-mixins.png) |
 | B2B 資訊 | 請參閱上述「建立查詢資料集」。 | B2BAccount (自訂查詢結構類別) | 在 CJA 中連結 B2B 資訊資料集和 B2B 曝光數資料集後，`accountID` 和 B2B 曝光數資料集的關係就能自動建立，如以下步驟所述。![查詢](assets/lookup-mixins.png) |
 
 合併資料集的方法說明如下：
