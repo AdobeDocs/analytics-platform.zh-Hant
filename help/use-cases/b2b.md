@@ -1,11 +1,11 @@
 ---
 title: (B2B) 新增帳戶層級資料作為查詢資料集
 description: 了解如何將以帳戶為基礎的資料，以查詢資料集的形式新增至 CJA
-translation-type: ht
-source-git-commit: e3d4a672c33b8c536246836a062d544e3d5b8a01
-workflow-type: ht
-source-wordcount: '851'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: de5717d42fbe29554351a789cce594ac9ad47ee1
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 89%
 
 ---
 
@@ -37,6 +37,12 @@ ht-degree: 100%
 ## 2. 建立查詢資料集 (Experience Platform)
 
 建立架構後，就能在 Experience Platform 中使用該架構建立查詢資料集。此查詢資料集包含帳戶層級的行銷資訊，例如：公司名稱、員工總數、網域名稱、產業別、年度營收、是否為 Experience Platform 現有客戶、所處銷售階段、帳戶中正在使用 CJA 的團隊等等。
+
+>[!IMPORTANT]
+>
+>CJA不支援查閱資料集中的整數。 如果您在XDM架構中為查閱資料集新增整數欄位，將無法使用這些整數做為度量或計算度量。 例如，如果annualRevenue或totalEmployees定義為整數，則在CJA中的報表中會顯示為「0」。 不過，如果您將其指派為字串，則可將其用作查閱資訊。
+
+例如，annualRevenue或totalEmployees在下例中定義為整數，這就是原因，其在CJA中顯示「0」。
 
 1. 開啟 Adobe Experience Platform 後，前往&#x200B;**[!UICONTROL 「資料管理 > 資料集」]**。
 1. 按一下&#x200B;**[!UICONTROL 「+ 建立資料集」]**。
@@ -73,9 +79,9 @@ ht-degree: 100%
 1. 為連線命名並輸入說明，並根據此處[說明](/help/connections/create-connection.md)完成設定。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 5. 由此連線建立資料檢視
+## 5.從此連接建立資料視圖
 
-依照[建立資料檢視](/help/data-views/create-dataview.md)的說明操作。
+依照 [建立資料視圖](/help/data-views/create-dataview.md).
 
 * 從資料集中新增需要的所有元件 (維度和量度)。
 
