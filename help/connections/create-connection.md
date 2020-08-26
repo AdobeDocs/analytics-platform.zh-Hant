@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 59b949cf67c26226f4d337c566641f68e76b41ec
 workflow-type: tm+mt
 source-wordcount: '1654'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 >
 >您可以將多個 [!DNL Experience Platform] 資料集合併為單一連線。
 
-## 選擇沙盒和資料集
+## 選取沙箱和資料集
 
 1. 請前往 [https://analytics.adobe.com](https://analytics.adobe.com)。
 
@@ -38,13 +38,13 @@ ht-degree: 95%
    >
    >您無法跨沙盒存取資料，亦即，您只能結合位於相同沙盒中的資料集。
 
-1. 選取一或多個要拉進 [!UICONTROL Customer Journey Analytics] 的資料集，然後按一下&#x200B;]**「新增」**[!UICONTROL 
+1. 選取一或多個要拉進 [!UICONTROL Customer Journey Analytics] 的資料集，然後按一下&#x200B;]**「新增」**[!UICONTROL 。
 
    (如果有很多資料集可選擇，可使用資料集清單上方的&#x200B;**[!UICONTROL 「搜尋資料集」]**&#x200B;搜尋列，搜尋合適的資料集)。
 
 ## 設定資料集
 
-在右側，您現在可以設定已新增的資料集。
+現在您可以在右側設定您所新增的資料集。
 
 ![設定資料集](assets/create-connection.png)
 
@@ -55,7 +55,7 @@ ht-degree: 95%
    | 資料集類型 | 說明 | 時間戳記 | 結構 | 人員 ID |
    |---|---|---|---|---|
    | [!UICONTROL 事件] | 代表及時事件的資料 (例如網站造訪、互動、交易、POS 資料、調查資料、廣告曝光數資料等)。例如，這可能是典型的點按資料流資料，包含客戶 ID 或 Cookie ID 以及時間戳記。若使用事件資料，您可以靈活選擇將哪個 ID 當作人員 ID 使用。 | 自動從 [!UICONTROL 體驗平台]. | 任何以具有「時間系列」行為的 XDM 類別為依據的內建或自訂結構。例如「XDM 體驗事件」或「XDM 決策事件」。 | 您可以挑選要包含的人員 ID。在 Experience Platform 中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。其中任何一個都可當作人員 ID 使用。範例包括 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。 |
-   | [!UICONTROL 查找] | （類似於傳統Adobe Analytics中的「分類」檔案）。 此資料用於查找在事件或設定檔資料中找到的值或索引鍵。例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查找資料。請參閱 [此使用案例](/help/use-cases/b2b.md) 例如。 | 不適用 | 除「XDM 個別設定檔」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
+   | [!UICONTROL 查找] | (類似傳統 Adobe Analytics 中的「分類」檔案）。此資料用於查找在事件或設定檔資料中找到的值或索引鍵。例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查找資料。如需範例，請參閱[此使用案例](/help/use-cases/b2b.md)。 | 不適用 | 除「XDM 個別設定檔」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
    | [!UICONTROL 設定檔] | 類似於[!UICONTROL 「客戶屬性」] - 用於非變更和非臨時屬性。套用至[!UICONTROL 事件]資料中訪客、使用者或客戶的資料。例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以「XDM 個別設定檔」類別為基礎的內建或自訂模式。 | 您可以挑選要包含的人員 ID。在 [!DNL Experience Platform] 中定義的每個資料集，都有各自專屬的一組一或多個已定義的人員 ID，例如 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。<br>![人員 ID ](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報表會反映出這一點。若要確實合併資料集，您需要使用相同的人員 ID。 |
 
 1. **[!UICONTROL 資料集 ID]**：此 ID 會自動產生。
