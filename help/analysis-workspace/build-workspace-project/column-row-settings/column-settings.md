@@ -3,23 +3,19 @@ description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: d49e07d14d1b202d9cc12f42d60083c052a1c364
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 93%
+source-wordcount: '628'
+ht-degree: 97%
 
 ---
 
 
-# 欄設定
+# [!UICONTROL 欄設定]
 
->[!NOTE]
->
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+[!UICONTROL 欄設定] 可讓您設定欄格式，其中有些可以是條件式格式。
 
-欄設定可供設定欄的格式，部分可設為條件式。
-
-## 欄設定 {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
+## 編輯 [!UICONTROL 欄設定] {#column-settings}
 
 若要存取[!UICONTROL 「欄設定」]，請拖曳自由表格至專案，接著按一下欄標頭中的齒輪圖示。
 
@@ -28,7 +24,7 @@ ht-degree: 93%
 您可以同時編輯&#x200B;**多欄**&#x200B;的設定。只要選取多個欄，然後在任一欄中按一下設定圖示。您所做的任何變更都會套用在所有欄，以及您在其中選定的儲存格。
 
 | 元素 | 說明 |
-|--- |--- |
+| --- | --- |
 | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果量度為「頁面檢視」，則該數值為列項目的頁面檢視數量。 |
 | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。例如，如果量度為「頁面檢視」，則該百分比數值為欄頁面檢視總數除以列項目的頁面檢視次數。附註：為了比例更精確，我們可以顯示超過 100% 的數值。我們也將上限提高為 1000%，以確保欄位的寬度夠大。 |
 | 異常 | 決定是否要在該欄的數值中執行異常偵測。 |
@@ -39,33 +35,30 @@ ht-degree: 93%
 | 條件式格式 | 請參閱以下小節。 |
 | 表格儲存格預覽 | 顯示目前已套用選定格式選項之各儲存格的呈現方式預覽。 |
 
-
-## 條件式格式 {#section_3DD847151DA14914888A70FC4FD7BDFB}
+## 條件式格式 {#conditional-formatting}
 
 條件式格式會將格式套用至您可定義的上限、中點和下限。除非選取「自訂」限制，否則系統也會在資料劃分時自動在自由表格中套用顏色等條件式格式。
 
 ![](assets/conditional-formatting.png)
 
 | 元素 | 說明 |
-|--- |--- |
-| 條件式格式 | 根據資料值，套用下列顏色至儲存格： <ul><li>綠：高數值</li><li>黃：中間值</li><li>紅：低數值</li></ul><br>取代表格中的維度會重設條件式格式限制。取代量度會重新計算該欄的限制 (其中量度位在 X 軸，維度位在 Y 軸)。 |
-| 使用百分比限制 | 允許您根據各量度的百分比值使用上限、中點和下限。此設定適用於僅有百分比的量度 (例如反彈率)，以及含有計數和百分比的量度 (例如頁面檢視)。 |
-| 自動產生 | 自動產生條件式格式的限制。上限是此欄中的最大值。下限是最小值，而中點是上限和下限的平均。 |
-| 自訂 | 您可以手動指派條件式格式的「上限」、「中點」和「下限」欄位。這可提供由您決定欄的值是好、中等或壞的彈性。 |
-| 表格儲存格預覽 | 顯示目前已套用選定格式選項之各儲存格的呈現方式預覽。 |
+| --- | --- |
+| 條件式格式 | 根據資料值，套用下列顏色至儲存格： <ul><li>綠：高數值</li><li>黃：中間值</li><li>紅：低數值</li></ul> <br>取代表格中的維度會重設條件式格式限制。取代量度會重新計算該欄的限制 (其中量度位在 X 軸，維度位在 Y 軸)。 |
+| 使用百分比限制 | 變更限制範圍，從絕對值改為以百分比為基礎. 此設定適用於僅有百分比的量度 (例如反彈率)，以及含有計數和百分比的量度 (例如頁面檢視)。 |
+| 自動產生 | 根據資料自動計算上/中/下限. 上限是此欄中的最大值。下限是最小值，而中點是上限和下限的平均。 |
+| 自訂 | 手動對齊上/中/下限. 這可提供由您決定欄的值是好、中等或壞的彈性。 |
 
-## 使用非預設歸因模式
+## 使用非預設歸因模式 {#attribution}
 
-分析工作區支援 [幾乎任何](../../attribution/overview.md) 度量的歸因。
+Analysis Workspace 支援絕大多數量度的[歸因](../../attribution/overview.md)。
 
 1. 按一下自由表格欄中的「設定」(齒輪) 圖示。
 
    ![歸因核取方塊](assets/attribution-checkbox.png)
 
-2. 在&#x200B;**[!UICONTROL 「資料設定」]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 「使用非預設歸因模型」]**。For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+1. 在&#x200B;**[!UICONTROL 資料設定]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 使用非預設歸因模型]**。如需不同歸因模型的詳細資訊，請參閱[歸因模型](../../attribution/models.md)。
 
-   ![選擇歸因模型](assets/attribution-select.png)
-
+   ![選取歸因模型](assets/attribution-select.png)
 
 >[!MORELIKETHIS]
 >
