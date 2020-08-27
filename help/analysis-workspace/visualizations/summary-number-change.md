@@ -3,9 +3,9 @@ description: 使用「摘要編號」和「變更」視覺化來顯示專案中�
 title: 摘要數字和摘要變更
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 158c9da54f7d5dcdd0cca6223b5d4833df53abb7
+source-git-commit: 3e8e628ac7fe782e060fd3e0ced209853d53540e
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '403'
 ht-degree: 52%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 52%
 * 如果選取單一儲存格，則會顯示該儲存格的摘要。
 * 如果選取多個儲存格，則會顯示第一個選取的儲存格。
 * 如果選取欄，則會挑選欄中第一個儲存格的值。
+
+![摘要數字](assets/summary-number.png)
 
 按一下 **視覺化設定** 以右上角的格式設定「摘要編號」設定：
 
@@ -43,6 +45,8 @@ ht-degree: 52%
 * 如果選取超過兩個儲存格，僅會比較前兩個選取的儲存格。
 * 如果選取某個範圍中的儲存格，會比較該範圍第一個與最後一個選取的儲存格。
 * 如果選取欄，會就第一個值的本身進行比較，顯示變更為 0。
+
+![摘要變更](assets/summary-change.png)
 
 按一下 **視覺化設定** 以右上角的齒輪來配置「摘要更改」設定：
 
