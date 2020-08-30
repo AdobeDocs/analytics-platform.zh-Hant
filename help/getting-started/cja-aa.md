@@ -1,9 +1,9 @@
 ---
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7d2abfb2cd91ee7574fce10847abb89f14b5388e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 | --- | --- |
 | 貢獻分析 | 已規劃提供支援。 |
 | 區段 IQ | 已規劃提供支援。 |
-| 區段發佈 (將區段從 Workspace 傳送至 Experience Cloud) | 已規劃提供支援。 |
+| 區段發佈 (將區段從工作區傳送至 Experience Cloud) | 已規劃提供支援。 |
 | 使用者權限/資料存取控制 | CJA 中的所有使用者都有相同的存取控制項；這表示所有使用者都可存取所有連線、資料檢視等項目。基本上，所有使用者都是 CJA 中的管理員層級使用者。已規劃於 2020 年提供支援。 |
 | CSV 下載 | 已規劃提供支援。 |
 | 排程報表/專案 | 已規劃提供支援。 |
