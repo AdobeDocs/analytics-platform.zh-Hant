@@ -5,16 +5,16 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# Journey IQ
+# 歷程IQ
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 Journey IQ 是一組功能集，可提供簡單易用且可完全自訂的視覺效果和設定，以便深入了解客戶的使用體驗。它可讓您評估客戶歷程中的每個接觸點，即便不同管道也不錯過。您可以運用這些功能，深入了解應在何處與客戶重新互動、如何讓客戶保持忠誠，並進一步為客戶打造個人化體驗。
 
