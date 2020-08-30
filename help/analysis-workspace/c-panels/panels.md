@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 80%
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 面板是表格與視覺效果的集合。您可以透過工作區左上方的圖示存取面板。當您要根據時段、業務單位以及地理位置等組織專案時，面板會非常實用。客戶歷程分析的分析工作區提供下列四種類型的面板：
 
@@ -23,9 +23,9 @@ ht-degree: 80%
 * [歸因面板](attribution.md)
 * [自由表格面板](freeform-panel.md)
 
-「快速洞察」、「空白」和「自由格式」面板是您開始分析的絕佳地方，而「歸因IQ」面板則適用於更進階的分析。 專案 `"+"` 中有一個按鈕，讓您隨時都可以新增空白麵板。
+「快速洞察」、「空白」和「自由格式」面板是您開始分析的絕佳地方，而「歸因IQ」面板則適用於更進階的分析。 專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analysis-workspace/c-panels/blank-panel.md) your default as well.
+預設的開始面板為「自由格式」面板，但您也可以將[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 
 ## 面板中的下拉式濾鏡
 
@@ -41,12 +41,12 @@ The default starting panel is the Freeform panel, but you can make the [blank pa
 * 您也可以在相同面板上建立多個下拉式清單。
 * 您可以按下拉式清單的標題並加以修改來自訂標題，或按一下標題旁邊的「x」，完全刪除下拉式清單。
 * 您可以下列使用任何元件類型，建立下拉式篩選器：維度、日期範圍、區段以及量度。請注意，下拉式日期範圍一律會覆蓋面板日期範圍。
-* 我們維持左側欄的元件顏色：維度項目下拉式功能表為黃色、量度為綠色、區段為藍色，而日期範圍為紫色。
-* 拖放區域仍會為以區段形式拖入的項目，建立點擊層級的區段。如往常，您可以按一下區段旁邊的資訊圖示 (i) ，然後按一下鉛筆形狀的編輯圖示，在「區段產生器」中編輯這些區段。
+* 我們維持左側邊欄的元件顏色：維度項目下拉式功能表為黃色、量度為綠色、區段為藍色，而日期範圍為紫色。
+* 拖放區域仍會為以區段形式拖入的項目，建立點擊層級的區段。如往常，您可以按一下區段旁邊的資訊圖示 (i)，然後按一下鉛筆形狀的編輯圖示，在「區段產生器」中編輯這些區段。
 
 **若要建立和使用下拉式篩選器：**
 
-1. 從左側欄選取任何項目，並&#x200B;**在按住   鍵**&#x200B;的同時，將其拖放至面板拖放區域。
+1. 從左側邊欄選取任何項目，並&#x200B;**在按住   鍵**&#x200B;的同時，將其拖放至面板拖放區域。
 
    ![](assets/create_dropdown.png)
 
