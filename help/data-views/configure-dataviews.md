@@ -1,9 +1,9 @@
 ---
 title: 設定資料檢視和歸因
 description: 說明如何在 Customer Journey Analytics 中為 Platform 資料集建立資料檢視
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 100%
 
