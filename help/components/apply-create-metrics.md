@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 88%
 
 ![比較歸因](assets/compare-attribution.png)
 
-此捷徑可讓您快速輕鬆地比較一個歸因模型與另一個歸因模型，毋需拖曳量度並設定兩次。
+此快速鍵可讓您輕鬆快速地比較不同的歸因模型，而無須再次拖曳量度和進行設定。
