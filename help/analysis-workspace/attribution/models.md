@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
 source-wordcount: '1542'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 >
 >您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
-Adobe Analytics中歸因的概念需要兩個元件：
+Adobe Analytics 中的歸因概念需要兩個元件：
 
 * **歸因模型：**&#x200B;模型用於描述群組中點擊的轉換分佈方式。例如首次接觸或上次接觸。
 * **屬性回顧期間：**&#x200B;回顧期間則描述每個模型中點擊的分類方式。例如造訪或訪客。
@@ -43,13 +43,13 @@ Adobe Analytics中歸因的概念需要兩個元件：
 
 * **造訪回顧期間：**&#x200B;回顧至轉換發生當下該次造訪的開始。造訪回顧期間較窄，因為造訪之前的時間皆不計入。造訪回顧期間會遵照虛擬報表套裝中修改的造訪定義執行。
 
-* **訪客回顧期間：**&#x200B;回顧至目前日期範圍當月 1 日以來的所有造訪。訪客回顧期間較寬，因為可計入多次造訪。訪客回顧會考慮報表日期範圍當月開始時的所有值。 舉例來說，如果報表日期範圍為 9 月 15 日 到 9 月 30 日，則訪客回顧日期範圍將是 9 月 1 日 到 9 月 30 日。
+* **訪客回顧期間：**&#x200B;回顧至目前日期範圍當月 1 日以來的所有造訪。訪客回顧期間較寬，因為可計入多次造訪。訪客回顧會考量報表日期範圍當月 1 日以來的所有值。舉例來說，如果報表日期範圍為 9 月 15 日到 9 月 30 日，則訪客回顧日期範圍將是 9 月 1 日到 9 月 30 日。
 
-* **自訂回顧視窗：** 可讓您將歸因視窗擴展至報告日期範圍以外，最多90天。 自訂回顧視窗會評估在報告時段內的每個轉換。 例如，若是在2月20日發生的轉換，10天的回顧視窗會在歸因模型中評估從2月10日到20日的所有維度觸點。
+* **自訂回顧期間：**&#x200B;可讓您將歸因期間擴展至報告日期範圍以外，最多 90 天。系統會對報告時段內的每個轉換評估自訂回顧期間。以 2 月 20 日發生的轉換為例，10 天的回顧期間將會在歸因模型中評估 2 月 10 日到 20 日的所有維度接觸點。
 
 >[!NOTE]
 >
->**[!UICONTROL 自訂回顧視窗]** ，目前正在進行有限的測試。 如需詳 [細資訊，請參閱](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) 「Adobe Analytics功能發行」。
+>**[!UICONTROL 自訂回顧視窗]** 目前正在進行有限的測試。 請參閱 [Adobe Analytics功能發行](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) 的上界。
 
 ## 範例
 
