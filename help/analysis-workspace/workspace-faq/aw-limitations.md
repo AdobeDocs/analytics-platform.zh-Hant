@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 87%
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 以下為 Analysis Workspace 及其相關元件的已知限制清單：
 
@@ -39,7 +39,7 @@ ht-degree: 87%
 ## 元件>篩選器
 
 * [!UICONTROL 「發生次數」]、[!UICONTROL 「不重複訪客」]等特定量度和維度無法設為區段。
-* Certain components and operators are unavailable if a filter is created from Workspace (as opposed to being created from [!UICONTROL Components > Filters]). 例如 IP 位址。
+* 如果從「工作區」建立篩選器(而非從 [!UICONTROL 元件>篩選器])。 例如 IP 位址。
 
 ## 元件 > 計算量度
 
