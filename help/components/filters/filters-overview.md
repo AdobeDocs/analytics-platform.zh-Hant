@@ -1,9 +1,9 @@
 ---
 title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 09dcb36b96d95276b357e0f1308a977f5db5d711
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 篩選器可以根據屬性 (瀏覽器類型、裝置、造訪次數、國家/地區、性別)、互動 (促銷活動、關鍵字搜尋、搜尋引擎)、退出點與登入點 (來自 Facebook 的訪客、定義的登陸頁面、反向連結網域)、自訂變數 (表單欄位、定義的類別、客戶 ID) 及其他條件來進行篩選。
 
-您可以在篩選器產生器中建立和儲存篩選器，或從「流失」視覺效果 (在 Workspace 中) 產生篩選器。此外，多個篩選器可作為堆疊篩選器搭配使用。
+您可以在篩選器產生器中建立和儲存篩選器，或從「流失」視覺效果 (在工作區中) 產生篩選器。此外，多個篩選器可作為堆疊篩選器搭配使用。
 
 >[!IMPORTANT]
 >篩選器在 Adobe Analytics 中稱為「區段」。我們將區段重新命名為篩選器，因為 Adobe Experience Platform 對「區段」有不同定義。
