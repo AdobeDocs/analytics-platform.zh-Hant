@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 814e02648607b6f06e2743cd054c14c892200b44
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 7%
 
 ![](assets/download-data-viz.png)
 
-## 以CSV格式下載項目 {#download-items}
+## 將項目下載為 CSV 檔 {#download-items}
 
 如果要分析表中超過可見的400行的資料，請按一下右鍵表標題或任何行，然後選擇 **以CSV格式下載項目（維度名稱）**. 此選項最多可針對選取的維度匯出50,000個維度項目（根據表格排序），並套用篩選器和區段。 如果從表頂部選擇此選項，則將導出表中的第一個維。 雖然自由表格中不會強制限制，但建議在少於20欄的表格中使用「下載項目」選項，以確保最佳效能。
 
