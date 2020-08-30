@@ -3,9 +3,9 @@ keywords: Analysis Workspace
 title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提�
 
 ## 建立表格的兩種方式
 
-## 常見分析方法
+## 常見的分析方法
 
 ### 步驟 1：分析維度
 
@@ -49,7 +49,7 @@ Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提�
 
 ### 步驟 4：劃分維度
 
-### 步驟 5：為資料套用區段
+### 步驟 5：將區段套用至您的資料
 
 ### 步驟 6：新增基本視覺化效果
 
