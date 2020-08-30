@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 18%
+ht-degree: 51%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
-進階分析運用 [Flow](/help/analysis-workspace/visualizations/c-flow/flow.md) draims、 [Flow IQ](/help/analysis-workspace/attribution/overview.md)、Fallout [draims和維劃分](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)[](/help/components/dimensions/t-breakdown-fa.md)等功能。
+進階分析運用如 [流量](/help/analysis-workspace/visualizations/c-flow/flow.md) 圖， [歸因IQ](/help/analysis-workspace/attribution/overview.md)的 [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) 圖和 [維度劃分](/help/components/dimensions/t-breakdown-fa.md).
 
 ![工作區螢幕擷取1](assets/cja-adv-analysis1.png)
 
