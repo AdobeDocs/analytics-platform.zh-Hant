@@ -1,8 +1,11 @@
 ---
 title: 管理篩選器
 description: 瞭解如何在 Customer Journey Analytics 中管理篩選器
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
+workflow-type: tm+mt
+source-wordcount: '1109'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
 「篩選器管理器」會顯示您所擁有以及已經與您共用的篩選器。管理員層級的使用者可以查看組織中的所有篩選器。此概觀會介紹「篩選器管理器」的使用者介面和功能。
 
-前往頂端導覽中的「**[!UICONTROL Customer Journey Analysis]** > **[!UICONTROL Components]** > **[!UICONTROL Filters]**」，存取「篩選器管理器」。
+前往 **[!UICONTROL 客戶歷程分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 濾鏡]** 的上界。
 
 ## 篩選器管理器 UI
 
@@ -71,15 +74,15 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
 1. 在「篩選器管理器」中，勾選您要標記之篩選器旁的核取方塊。篩選器管理工具列隨即出現。
 
-1. 按一下「**[!UICONTROL Tag]**」並
+1. 按一下「**[!UICONTROL 標記]**」，然後
 
    * 選取現有標記或是
 
-   * 輸入新標記名稱，然後按 **[!UICONTROL Enter]** 鍵。
+   * 輸入新標籤名稱，然後按 **[!UICONTROL Enter]**.
 
-1. 再按一下「**[!UICONTROL Tag]**」來標記區段。
+1. 再按一下「**[!UICONTROL 標記]**」來標記區段。
 
-標記現在應該出現在「標記」欄中。(按一下右上方的齒輪圖示來管理您的欄。)您也可以前往 **[!UICONTROL Filters > Tags]** 來依標記篩選。
+標記現在應該出現在「標記」欄中。(按一下右上方的齒輪圖示來管理您的欄。)您也可以前往&#x200B;**[!UICONTROL 篩選 > 標記]** 來依標記篩選。
 
 ### 核准篩選器
 
@@ -89,17 +92,17 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
 1. 在「篩選器管理器」中，勾選篩選器標題左側的核取方塊。
 
-1. 按一下篩選器管理工作列中的「**[!UICONTROL Approve]**」。
+1. 按一下 **[!UICONTROL 核准]** 在篩選器管理任務欄中。
 
 1. 考慮將核准的區段共用給組織。
 
-1. 按一下「**[!UICONTROL OK]**」。
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
 
    請注意清單中該篩選器旁會出現核准圖示。
 
    ![](assets/seg_approved.png)
 
-1. 您也可以按一下「**[!UICONTROL Unapprove]**」，將已核准的區段取消核准。
+1. 您也可以按一下&#x200B;**[!UICONTROL 「取消核准」]**，將核准的區段取消核准。
 
 ### 共用篩選器
 
@@ -121,9 +124,9 @@ source-git-commit: b521079bb9b3828ec3487b635366f5442f6fc4bd
 
 1. 在「篩選器管理器」中，勾選您要共用之篩選器旁的核取方塊。
 
-1. 在篩選器管理工具列中，按一下「**[!UICONTROL Share]**」。
+1. 在篩選管理工具列中，按一下 **[!UICONTROL 分享]**.
 
-1. 如果您是管理員，可以選取「全部」或選取貴組織中的「群組」和「使用者」。身為非管理員，您只能看見個人使用者。使用「搜尋」欄位來搜尋群組或使用者。按一下「**[!UICONTROL Share]**」。「已共用」圖示會出現在該篩選器旁：![](assets/share_icon.png)
+1. 如果您是管理員，可以選取「全部」或選取貴組織中的「群組」和「使用者」。身為非管理員，您只能看見個人使用者。使用「搜尋」欄位來搜尋群組或使用者。按一下&#x200B;**[!UICONTROL 「共用」]**。「已共用」圖示會出現在該篩選器旁：![](assets/share_icon.png)
 
 1. 您可以前往「篩選 > 其他篩選器 > 已共用給我」，依已共用給您的篩選器來篩選。
 
