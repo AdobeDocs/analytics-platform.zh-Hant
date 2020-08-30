@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 流量功能可顯示客戶使用您網站和應用程式的路徑。
 
@@ -27,7 +27,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->如需了解對「流量」套用區段後，Analysis Workspace 與 Reports &amp; Analytics/Ad Hoc Analysis 之間會產生什麼不同結果，請參閱[區段作為流量和流失的基礎](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)。
+>如需瞭解對「流量」套用區段後，Analysis Workspace 與 Reports &amp; Analytics/Ad Hoc Analysis 之間會產生什麼不同結果，請參閱[區段作為流量和流失的基礎](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
 [在 YouTube 觀看「流量視覺效果」](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
