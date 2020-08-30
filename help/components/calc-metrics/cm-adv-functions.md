@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '2949'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 勾選&#x200B;**[!UICONTROL 函數]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL 顯示進階]**&#x200B;即可存取這些函數。
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
-> 0 (零) 表示 False，其他值表示 True。
+>0 (零) 表示 False，其他值表示 True。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -214,7 +214,7 @@ CBRT(metric)
 
 >[!NOTE]
 >
-> 如果您想使用收入/訪客之類的比率量度，則此函數不適用，因為此函數會平均比率，而非將過去 N 期的收入相加、將過去 N 期的訪客數相加，然後再將兩者相除。請改為使用
+>如果您想使用收入/訪客之類的比率量度，則此函數不適用，因為此函數會平均比率，而非將過去 N 期的收入相加、將過去 N 期的訪客數相加，然後再將兩者相除。請改為使用
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -459,7 +459,7 @@ NOT(logical)
 
 >[!NOTE]
 >
-> 0 (零) 表示 False，其他值表示 True。
+>0 (零) 表示 False，其他值表示 True。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -702,7 +702,7 @@ Z 分數的方程式為：
 
 >[!NOTE]
 >
->[!DNL μ]  (mu) 和 [!DNL σ] (sigma) 會自動從量度中計算得出。
+>[!DNL μ] (mu) 和 [!DNL σ] (sigma) 會自動從量度中計算得出。
 
 Z 分數 (量度)
 
@@ -729,5 +729,5 @@ Z 分數 (量度)
 
 >[!NOTE]
 >
-> 此處假設值為常態分布。
+>此處假設值為常態分布。
 
