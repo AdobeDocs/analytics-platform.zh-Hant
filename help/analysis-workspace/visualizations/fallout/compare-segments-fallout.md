@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 17%
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 您可以從觸點建立篩選器、新增區段作為觸點，以及比較分析工作區中各種篩選器的關鍵工作流程。
 
@@ -28,9 +28,9 @@ ht-degree: 17%
 * 在瀏覽內容流失視覺化中使用訪客型篩選作為觸點
 * 在瀏覽內容流失視覺化中使用瀏覽型篩選作為觸點
 
-## Create a filter from a touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
+## 從觸點建立篩選 {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. 從您特別感興趣的特定觸點建立篩選器，並套用至其他報表時可能會很有用。 You do this by right-clicking the touchpoint and selecting **[!UICONTROL Create filter from touchpoint]**.
+1. 從您特別感興趣的特定觸點建立篩選器，並套用至其他報表時可能會很有用。 若要這麼做，請以滑鼠右鍵按一下接觸點，然後選取 **[!UICONTROL 從觸點建立篩選]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -42,7 +42,7 @@ ht-degree: 17%
 
    您現在可以在任何您想要的專案中使用此篩選。
 
-## Add a filter as a touchpoint {#section_17611C1A07444BE891DC21EE8FC03EFC}
+## 新增濾鏡作為接觸點 {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
 例如，如果您想瞭解您的美國使用者如何趨勢化及影響流失，只需將美國使用者篩選拖曳至流失中：
 
@@ -50,11 +50,11 @@ ht-degree: 17%
 
 或者，您也可以將美國使用者篩選拖曳至另一個查核點，以建立AND觸點。
 
-## Compare filters in fallout {#section_E0B761A69B1545908B52E05379277B56}
+## 比較流失中的篩選 {#section_E0B761A69B1545908B52E05379277B56}
 
 您可以比較「流失」視覺化中不限數量的篩選器。
 
-1. Select the segments you want to compare from the [!UICONTROL Filter] rail on the left. 在我們的範例中，已選取 2 個區段：美國使用者和非美國使用者。
+1. 從 [!UICONTROL 篩選] 左邊有欄。 在我們的範例中，已選取 2 個區段：美國使用者和非美國使用者。
 1. 將它們拖曳至頂端的「篩選」拖放區域。
 
    ![](assets/segment-drop.png)
