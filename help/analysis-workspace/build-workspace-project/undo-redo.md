@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->您正在檢視客戶歷程分析中分析工作區的檔案。 其功能集與傳統Adobe Analytics中 [的「分析工作區」略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。 [更多詳情...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL 工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 還原/重做]**
 
@@ -67,7 +67,7 @@ ht-degree: 89%
 ## 您無法還原或重做的項目 {#section_65BB313E048F4744B692926362873230}
 
 * 專案資訊與設定變更 (「新增標記」、「描述」變更、「計算重複例項」設定)
-* 設定為著陸頁面
+* 設定為登陸頁面
 * 新增 (區段/量度/日期範圍/警報)
 * 共用專案、取得專案連結、傳送檔案 (立即或依排程)
 * 在「流量視覺效果」中建立此路徑的區段
