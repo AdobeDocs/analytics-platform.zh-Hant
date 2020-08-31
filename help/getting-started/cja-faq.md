@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 297ed03ff59cc8d719a6bf0984e82597e8d33392
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 69%
 | 問題 | 回答 |
 | --- | --- |
 | **必要條件** |  |
-| 我是否需要裝置圖表或裝置合作基金 [!UICONTROL 客戶歷程分析]? | 否，私人裝置圖表或裝置合作社區 [!UICONTROL 客戶歷程分析]. 事實上，目前尚未支援這兩項功能。 |
-| 我是否需要Experience Cloud ID(ECID) [!UICONTROL 客戶歷程分析]? | 不， [!UICONTROL 客戶歷程分析] 支援資料集中的任何ID，不論是ECID或您選擇的任何其他ID。 |
-| 如果我需要在客戶歷程分析之前對資料進行ETL（擷取、轉換、載入），該怎麼辦？ | 現在，如果您需要在將資料放入 AEP 之前先轉換資料，您必須與 ETL 合作夥伴 (Unifi 或 Informatica) 合作。如果您在資料已收錄後需要ETL,AEP查詢服務會提供一些有限的選項。 |
+| 是否需要 Device Graph 或 Device Coop 才能使用 [!UICONTROL Customer Journey Analytics]？ | 否，[!UICONTROL Customer Journey Analytics] 不需要 Private Device Graph 或 Device Coop。事實上，目前尚未支援這兩項功能。 |
+| 是否需要 Experience Cloud ID (ECID) 才能使用 [!UICONTROL Customer Journey Analytics]？ | 否，[!UICONTROL Customer Journey Analytics] 支援資料集中的任何 ID，不論是 ECID 或您選擇的任何其他 ID。 |
+| 如果我需要在使用 Customer Journey Analytics 之前對我的資料進行 ETL (擷取、轉換、載入)，該怎麼辦？ | 現在，如果您需要在將資料放入 AEP 之前先轉換資料，您必須與 ETL 合作夥伴 (Unifi 或 Informatica) 合作。如果您需要在資料已內嵌之後進行 ETL，則 AEP Query Services 會提供一些有限選項。 |
 | **拼接** |  |
-| 可 [!UICONTROL 客戶歷程分析] 跨裝置或跨資料集「拼接」? | 不可以，[!UICONTROL Customer Journey Analytics 是「自攜 ID」的分析系統。]我們正在規劃適當的拼接方法。 |
+| [!UICONTROL Customer Journey Analytics] 可以在裝置或資料集之間「拼接」嗎？ | 不可以，[!UICONTROL Customer Journey Analytics] 是「自攜 ID」的分析系統。我們正在規劃適當的拼接方法。 |
 | 是否支援拼接匿名行為與已驗證的行為？ | 否，尚未支援。 |
-| **[!UICONTROL 將資料帶入 Customer Journey Analytics]** |  |
-| 我可以將不同Experience Platform沙盒的資料合併為一個CJA連線嗎？ | 不行，您無法跨沙盒存取資料。 您只能結合位於相同沙盒中的資料集。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
-| 預期延遲的時間 [!UICONTROL 客戶歷程分析] on [!UICONTROL 體驗平台]? | <ul><li>正常負載下：&lt; 60 分鐘&#x200B;<br>**注意：**&#x200B;如果透過管道的資料流量異常高，最多可能需要 24 小時。</li><li>回填資料 (最多 100 億件事件)：&lt; 4 週</li></ul> |
-| 如何將線上資料連接至 [!UICONTROL 客戶歷程分析]? | [!UICONTROL Customer Journey Analytics 是「自攜 ID」的分析系統。]只要人員ID在資料集之間相符， [!UICONTROL 客戶歷程分析] 可以連接區段、歸因、流量、流失等。 。 |
-| 如何將離線資料帶入 Customer Journey Analytics？ | 您必須先將任何資料帶入Experience Platform，才能與客戶歷程分析搭配使用。 Experience Platform的資料入門團隊可協助您提供建議或諮詢（如有需要）。 |
-| 如何將 Analytics 資料帶入 Customer Journey Analytics？ | Analytics資料可透過 [Analytics資料連接器](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html). 大部分的 Analytics 欄位都是以 XDM 格式帶入，但其他欄位尚不可使用 (例如「行銷管道」維度)。 |
+| **將資料帶入[!UICONTROL Customer Journey Analytics]** |  |
+| 是否能在一個 CJA 連線中合併不同 Experience Platform 沙箱的資料？ | 否，您無法一次存取多個沙箱內的資料。您只能合併位於同一個沙箱中的資料集。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
+| [!UICONTROL Experience Platform] 上 [!UICONTROL Customer Journey Analytics] 的預期延遲為何？ | <ul><li>正常負載下：&lt; 60 分鐘&#x200B;<br>**注意：**&#x200B;如果透過管道的資料流量異常高，最多可能需要 24 小時。</li><li>回填資料 (最多 100 億件事件)：&lt; 4 週</li></ul> |
+| 如何在 [!UICONTROL Customer Journey Analytics] 中將線上資料連結至離線資料？ | [!UICONTROL Customer Journey Analytics] 是「自攜 ID」的分析系統。只要人員 ID 在資料集之間相符，[!UICONTROL Customer Journey Analytics] 就可以在資料集之間連結區段、歸因、流量、流失等等。 |
+| 如何將離線資料帶入 Customer Journey Analytics？ | 您必須先將資料帶入 Experience Platform，才能透過 Customer Journey Analytics 使用。如有需要，Experience Platform 的資料入門團隊可為您提供建議或諮詢。 |
+| 如何將 Analytics 資料帶入 Customer Journey Analytics？ | 可透過 [Analytics Data Connector](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sources/connectors/adobe-applications/analytics.html) 將 Analytics 資料連結至 Experience Platform。大部分的 Analytics 欄位都是以 XDM 格式帶入，但其他欄位尚不可使用 (例如「行銷管道」維度)。 |
 | 將資料集元素組合成資料檢視需要多久時間？ | 需要數小時以開始使用，並且需要數天的時間來回填過去 13 個月的資料。 |
 | 是否需要帶入 PII 資料來建立資料之間的連結？ | 否，您可以使用任何 ID，包括客戶 ID (非 PII) 的雜湊。 |
 | **傳統 Analytics 元件** |  |
