@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 46cb6c92d4a6a7ceddb687e7668c1588559f87a7
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->CJA不支援查閱資料集中的整數。 如果您在XDM架構中為查閱資料集新增整數欄位，將無法使用這些整數做為度量或計算度量。 例如，如果annualRevenue或totalEmployees定義為整數，則在CJA中的報表中會顯示為「0」。 不過，如果您將其指派為字串，則可將其用作查閱資訊。
+>CJA 不支援查詢資料集中的整數。如果您在 XDM 架構中為查詢資料集新增整數欄位，會無法將這些整數當作量度或計算量度。舉例來說，如果 annualRevenue 或 totalEmployees 定義為整數，兩者在 CJA 的報表中會顯示為「0」。不過，如果您將兩者指派為字串，則可將兩者當作查詢資訊。
 
-例如，annualRevenue或totalEmployees在下例中定義為整數，這就是原因，其在CJA中顯示「0」。
+舉例來說，annualRevenue 或 totalEmployees 在以下範例中定義為整數，因此在 CJA 中顯示「0」。
 
 1. 開啟 Adobe Experience Platform 後，前往&#x200B;**[!UICONTROL 「資料管理 > 資料集」]**。
 1. 按一下&#x200B;**[!UICONTROL 「+ 建立資料集」]**。
@@ -79,9 +79,9 @@ ht-degree: 89%
 1. 為連線命名並輸入說明，並根據此處[說明](/help/connections/create-connection.md)完成設定。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 5.從此連接建立資料視圖
+## 5. 從此連線建立資料檢視
 
-依照 [建立資料視圖](/help/data-views/create-dataview.md).
+按照[建立資料檢視](/help/data-views/create-dataview.md)的說明操作。
 
 * 從資料集中新增需要的所有元件 (維度和量度)。
 
