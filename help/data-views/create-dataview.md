@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: de265170126c1a9fc1f66364a79a74ff487d0b71
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ Customer Journey Analytics 中的工作區專案是以資料檢視為基礎。
 
 ## 必要條件
 
-建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集的連線](/help/connections/create-connection.md).
+建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集的連線](/help/connections/create-connection.md)。
 
 ## 設定設定
 
-1. 在客戶歷程分析中，請至 **[!UICONTROL 資料檢視]** 頁籤。
+1. 在 Customer Journey Analytics 中，前往&#x200B;**[!UICONTROL 「資料檢視」]**&#x200B;標籤。
 
-1. 按一下 **[!UICONTROL 新增]** 以新增資料檢視並設定其設定。
+1. 按一下&#x200B;**[!UICONTROL 「新增」]**，新增資料檢視並設定其設定。
 
    | 工作階段設定 | 定義 |
    |---|---|
-   | 連線 | 此欄位會將資料檢視連結至您先前建立的連線，其中包含 [!UICONTROL 體驗平台] 資料集/s。 |
+   | 連線 | 此欄位會將資料檢視連結至您先前建立的連線，其中包含 [!UICONTROL Experience Platform] 資料集。 |
    | 名稱 | 必須為資料檢視命名。 |
    | 說明 | 詳細說明非必填，但建議使用。 |
    | 新增標記 | 標記可用來將資料檢視整理到不同類別中。 |
@@ -39,15 +39,15 @@ Customer Journey Analytics 中的工作區專案是以資料檢視為基礎。
    | 開始事件的新工作階段 | 不論作業階段是否已逾期，事件觸發時就會開始新的工作階段。新建立的工作階段將會包含啟動的事件。此外，您可以使用多個事件來啟動工作階段，如果資料中觀察到其中一個事件，就會觸發新的工作階段。此設定將會影響您的造訪計數、「工作階段」 (先前稱為「造訪」) 區段容器以及維度的造訪過期邏輯。 |
    | 新增篩選器 | 「篩選器」是 Customer Journey Analytics 中代表「區段」的詞彙。如果您希望篩選資料，請從左側邊欄拖曳適當的篩選器。如果沒有選取篩選器，資料檢視將會包含您的所有資料。 |
 
-1. 按一下&#x200B;**[!UICONTROL 繼續]**。
+1. 按一下&#x200B;**[!UICONTROL 「繼續」]**。
 
 ## 新增元件
 
-1. 現在可以將元件 (維度、量度) 新增至資料檢視 (類似於虛擬報表套裝中的策劃體驗)。請注意，資料集中的每個欄位現在都會轉換為維度或量度。將維度和量度拖曳至面板或 **[!UICONTROL 全選]** 以新增所有元件。
+1. 現在可以將元件 (維度、量度) 新增至資料檢視 (類似於虛擬報表套裝中的策劃體驗)。請注意，資料集中的每個欄位現在都會轉換為維度或量度。將維度和量度拖曳至面板，或按一下&#x200B;**[!UICONTROL 「全部選取」]**&#x200B;以新增所有元件。
 
    ![](assets/add-all-components.png)
 
-1. 按一下 **[!UICONTROL 新增元件]** 標籤，將維度和量度新增至資料檢視。
+1. 按一下&#x200B;**[!UICONTROL 「新增元件」]**&#x200B;標籤，將維度和量度新增至資料檢視。
 
    ![](assets/add-all-components2.png)
 
