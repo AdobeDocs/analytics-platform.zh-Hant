@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 概觀
 description: Customer Journey Analytics 簡介
 translation-type: tm+mt
-source-git-commit: 6f5c3c073069ca7f428d971515342c1a636795e3
+source-git-commit: 7fb439c0796f94e79ae2b738b71cfa85b86f2e8f
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 100%
+source-wordcount: '1202'
+ht-degree: 87%
 
 ---
 
@@ -54,16 +54,20 @@ Customer Journey Analytics 可用來：
 若要進行建立連線、新增資料集等作業，您需要在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中擁有下列權限：
 
 * 若要在 Experience Platform 中管理資料集，您必須屬於 Platform 產品設定檔的一部分，此設定檔為您提供「管理資料集」權限。如需詳細資訊，請參閱 [Adobe Experience Platform 中的存取控制](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md)。
-* 若要建立與 Platform 資料集的連線，您必須是提供下列權限的 Platform 產品設定檔的一部分：
+* 若要建立與Experience Platform資料集的連線，您必須是提供下列權限的平台產品設定檔的一部分：
    * 檢視結構
    * 檢視資料集
    * 管理身分識別命名空間
    * 檢視沙箱
-* 若要存取 Customer Journey Analytics 或建立連線，您還需要在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中將自己新增至 Customer Journey Analytics 產品設定檔中。
+* 自2020年9月9日起，若要存取「客戶歷程分析」或建立連線，您也必須以管理員身分新增至 [管理控制台](https://adminconsole.adobe.com/enterprise/). 管理員具有下列權限：
+   * 建立／更新／刪除連線或資料檢視
+   * 更新／刪除其他使用者建立的專案、篩選、計算量度或區段
+   * 將工作區專案共用給所有使用者
+* 客戶歷程分析中的非管理員（使用者）無法檢視「資料檢視」或「連線」，但可以建立篩選器、專案和計算量度。
 
 ### 術語更新
 
-CJA 中的多項功能已重新命名以符合業界標準。部分更新的名稱如下：
+與傳統Adobe Analytics相比，CJA中的數項功能已更名，以符合業界標準。 一些更新的術語包括：
 
 * 區段現在稱為「篩選器」。
 * 虛擬報表套裝現在稱為「檢視」。
@@ -75,7 +79,7 @@ CJA 中的多項功能已重新命名以符合業界標準。部分更新的名�
 
 ## 以 Adobe Experience Platform 為基礎的其他功能
 
-Customer Journey Analytics 是依賴 Adobe Experience Platform 的許多功能之一。同樣以 Platform 為基礎的其他幾項功能可讓您充份運用您的資料。
+Customer Journey Analytics 是依賴 Adobe Experience Platform 的許多功能之一。其他數種功能（也以Experience Platform為基礎）可讓您充份運用您的資料。
 
 Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶資料與內容，並運用資料科學和機器學習技術來改善個人化體驗的設計和傳遞。Platform 中的客戶資料以資料集形式儲存，而資料集是由結構和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.translate.html)。
 
