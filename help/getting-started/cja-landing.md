@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 產品文件
 description: Customer Journey Analytics 登陸頁面。
 translation-type: tm+mt
-source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
+source-git-commit: 59c255d6428db7795cce507f9de7c3c67ea0c743
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 94%
 
 ---
 
@@ -23,11 +23,12 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p> 
      <ul>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#user-access-permissions"> 更新使用者權限需求（自2020年9月9日起） </a> </li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-usecases/object-arrays.html"> 使用物件陣列 </a> </li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-usecases/b2b.html"> 新增帳戶層級資料作為查詢資料集 </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 快速入門 </a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-faq.html"> 常見問題集</a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-glossary.html">Customer Journey Analytics 詞彙</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 快速入門 </a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-faq.html"> 常見問題集</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-glossary.html">Customer Journey Analytics 詞彙</a> </li> 
       <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> Adobe Analytics API 2.0</a> </li> 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>發行說明</b> </p> 
