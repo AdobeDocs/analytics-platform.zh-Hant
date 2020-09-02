@@ -3,15 +3,19 @@ description: 使用線條視覺化來描繪趨勢（以時間為基礎的）資�
 title: 折線圖
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: afe5b341ea1b442c23561299fbffce59dae45930
+source-git-commit: 4f163e32787a732526511aeda5f6c1e32becb490
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 15%
+source-wordcount: '443'
+ht-degree: 20%
 
 ---
 
 
 # 折線圖
+
+>[!NOTE]
+>
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 「行」視覺化會使用行來表示量度，以顯示值在一段時間內的變化。 僅可在使用時間當作維度時，才使用折線圖。
 
@@ -35,7 +39,7 @@ ht-degree: 15%
 
 ## 顯示最小值或最大值
 
-在 **[!UICONTROL 視覺化設定]** > **[!UICONTROL 覆蓋]** > **[!UICONTROL 顯示最小值／最大值]**，您可以覆蓋最小值和最大值標籤，以快速反白顯示量度中的尖峰和谷谷。
+在 **[!UICONTROL 視覺化設定]** > **[!UICONTROL 覆蓋]** > **[!UICONTROL 顯示最小值／最大值]**，您可以覆蓋最小值和最大值標籤，以快速反白顯示量度中的尖峰和谷谷。 注意：最小值／最大值是從視覺化中的可見資料點衍生而來，而非維度中的完整值集。
 
 ![顯示最小值／最大值](assets/min-max-labels.png)
 
@@ -48,7 +52,7 @@ ht-degree: 15%
 所有模型都使用普通最小二乘擬合：
 
 | 模型 | 說明 |
-|---|---|
+| --- | --- |
 | 線性 | 為簡單的線性資料集建立最適合的直線，當資料以穩定速率增加或減少時，該直線非常有用。 等式： `y = a + b * x` |
 | 對數 | 建立最適合的曲線，當資料的變更率快速增加或減少，然後退出等級時，就很有用。 對數趨勢線可使用負值和正值。 等式： `y = a + b * log(x)` |
 | 指數 | 建立曲線，當資料以不斷增加的速率上升或下降時，就很有用。 如果您的資料包含零值或負值，則不應使用此選項。 等式： `y = a + e^(b * x)` |
