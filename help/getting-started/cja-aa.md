@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
 translation-type: tm+mt
-source-git-commit: 7d2abfb2cd91ee7574fce10847abb89f14b5388e
+source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '879'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 | 日期範圍 | 已規劃提供自訂行事曆支援。 |
 | 計算量度 | 請注意，傳統 Analysis Workspace 中的任何現有計算量度都不會移植至 CJA。 |
 | 區段 | 現在稱為「篩選器」- 請注意，傳統 Analysis Workspace 中的任何現有區段都不會移植至 CJA。 |
-| 異常偵測 | 2020 年 6 月起全面支援 |
+| 異常偵測 | 自2020年9月起提供完整支援 |
 | 歸因 IQ | 完全支援 |
 | 專案策劃 | 完全支援 |
 | 專案連結 | 完全支援 |
@@ -80,7 +80,7 @@ ht-degree: 100%
 | 功能 | 附註 |
 | --- | --- |
 | A4T | 尚未規劃提供支援。 |
-| Video Analytics | 尚未規劃提供支援。 |
+| Media Analytics | 尚未規劃提供支援。 |
 | Advertising Cloud | 尚未規劃提供支援。 |
 | Report Builder (Excel 外掛程式) | 尚未規劃提供支援。 |
 | Activity Map | 尚未規劃提供支援。 |
@@ -90,14 +90,12 @@ ht-degree: 100%
 
 ## 永不受支援
 
-| 功能 | 附註 |
-| --- | --- |
-| 使用 Cross-Device Coop 的人員量度 |  |
-| Reports &amp; Analytics 控制面板 |  |
-| Reports &amp; Analytics 書籤 |  |
-| Reports &amp; Analytics 目標 |  |
-| Reports &amp; Analytics 行事曆事件 |  |
-| Ad Hoc Analysis |  |
-| Data Warehouse報表 | [!UICONTROL Experience Platform Query Service] 會是 CJA 中這些使用案例的新介面。 |
-| Mobile Services |  |
-| 資料饋送 |  |
+* 使用 Cross-Device Coop 的人員量度
+* Reports &amp; Analytics 控制面板
+* Reports &amp; Analytics 書籤
+* Reports &amp; Analytics 目標
+* Reports &amp; Analytics 行事曆事件
+* Ad Hoc Analysis
+* 資料倉庫報表- [!UICONTROL Experience Platform查詢服務] 將是CJA中這些使用案例的新介面。
+* Mobile Services
+* 資料饋送
