@@ -1,9 +1,9 @@
 ---
 title: 元件概觀
-description: 瞭解 CJA 提供哪些元件，以及如何在報表中使用這些元件。
-translation-type: tm+mt
+description: 了解 CJA 提供哪些元件，以及如何在報表中使用這些元件。
+translation-type: ht
 source-git-commit: e3457b3ad6c991844f83c2213a4991e1e8879e97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 元件功能可用於 Customer Journey Analytics 中報表或補充報表功能。您可以使用下列步驟管理這些元件：
 
 1. 使用您的 Adobe ID 憑證登入 [analytics.adobe.com](https://analytics.adobe.com)。
-2. 導覽至頁首功能表中的[!UICONTROL 「元件] > [!UICONTROL  元件」。]
+2. 導覽至頁首功能表中的[!UICONTROL 「元件] > [!UICONTROL  元件」]。
 
 您可以管理下列元件：
 
