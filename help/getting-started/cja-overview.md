@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 概觀
 description: Customer Journey Analytics 簡介
 translation-type: tm+mt
-source-git-commit: 7fb439c0796f94e79ae2b738b71cfa85b86f2e8f
+source-git-commit: 14b2cbfde4fd76f76addba58d9c22939a00925a9
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 87%
+source-wordcount: '1215'
+ht-degree: 82%
 
 ---
 
@@ -29,7 +29,7 @@ Customer Journey Analytics 的初始版本包含 Analysis Workspace 中的多項
 
 [Cross-Device Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-home.html) 與 Adobe Experience Platform Identity Service 整合，利用 Co-op 圖表或私密圖表來識別數位裝置與人員對應的方式。Adobe Analytics Ultimate 客戶可使用此功能。
 
-CJA 與 Adobe Experience Platform 資料集整合，並在 Analysis Workspace 中啟用跨管道分析。雖然 CJA 尚未與 Co-op 或私密身分圖表整合，但您可以「自攜 ID」將資料集合在一起，而且這些資料集可超出數位資料的範圍，同時包含線上和離線接觸點。下文將詳細說明 CJA 必要條件。
+而CJA則與Adobe Experience Platform資料集整合，並在分析工作區中啟用跨通道分析。 雖然 CJA 尚未與 Co-op 或私密身分圖表整合，但您可以「自攜 ID」將資料集合在一起，而且這些資料集可超出數位資料的範圍，同時包含線上和離線接觸點。下文將詳細說明 CJA 必要條件。
 
 ## 主要使用案例
 
@@ -49,23 +49,25 @@ Customer Journey Analytics 可用來：
 * 貴組織具備有效的 Adobe Analytics Select、Prime 或 Ultimate 合約，且已有 Customer Journey Analytics 附加元件。如果您不確定已有的合約類型，或不確定您是否有 CJA 附加元件，請洽貴組織的客戶經理。
 * 貴組織已佈建 Adobe Experience Platform。
 
-## 使用者存取權限
+## 管理員存取權限
 
 若要進行建立連線、新增資料集等作業，您需要在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中擁有下列權限：
 
-* 若要在 Experience Platform 中管理資料集，您必須屬於 Platform 產品設定檔的一部分，此設定檔為您提供「管理資料集」權限。如需詳細資訊，請參閱 [Adobe Experience Platform 中的存取控制](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md)。
-* 若要建立與Experience Platform資料集的連線，您必須是提供下列權限的平台產品設定檔的一部分：
-   * 檢視結構
-   * 檢視資料集
-   * 管理身分識別命名空間
-   * 檢視沙箱
-* 自2020年9月9日起，若要存取「客戶歷程分析」或建立連線，您也必須以管理員身分新增至 [管理控制台](https://adminconsole.adobe.com/enterprise/). 管理員具有下列權限：
+* 自2020年9月9日起，若要存取「客戶歷程分析」或建立連線，您必須以管理員身分新增至 **客戶歷程分析產品資料** 在 [管理控制台](https://adminconsole.adobe.com/enterprise/). 管理員需要下列權限：
    * 建立／更新／刪除連線或資料檢視
    * 更新／刪除其他使用者建立的專案、篩選、計算量度或區段
    * 將工作區專案共用給所有使用者
-* 客戶歷程分析中的非管理員（使用者）無法檢視「資料檢視」或「連線」，但可以建立篩選器、專案和計算量度。
+* 在「客戶歷程分析」中成為產品管理員並不足以建立、更新或刪除Connection。 若要建立與Experience Platform資料集的連線，您也需要Experience Platform權限。 具體而言，您必須是 **體驗平台產品設定檔** 可為您提供下列權限：
+   * 檢視結構
+   * 管理結構
+   * 檢視身分識別命名空間
+   * 檢視資料集如需Experience Platform權限的詳細資訊，請參閱 [Adobe Experience Platform中的存取控制](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
 
-### 術語更新
+### 使用者存取權
+
+客戶歷程分析中的非管理員（使用者）無法檢視「資料檢視」或「連線」，但可以建立篩選器、專案和計算量度。
+
+## 術語更新
 
 與傳統Adobe Analytics相比，CJA中的數項功能已更名，以符合業界標準。 一些更新的術語包括：
 
