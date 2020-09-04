@@ -2,7 +2,7 @@
 title: Customer Journey Analytics 概觀
 description: Customer Journey Analytics 簡介
 translation-type: tm+mt
-source-git-commit: 14b2cbfde4fd76f76addba58d9c22939a00925a9
+source-git-commit: 0e04957e5a89862731b0a5d2c1d880e4c90a17ed
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 82%
@@ -61,7 +61,9 @@ Customer Journey Analytics 可用來：
    * 檢視結構
    * 管理結構
    * 檢視身分識別命名空間
-   * 檢視資料集如需Experience Platform權限的詳細資訊，請參閱 [Adobe Experience Platform中的存取控制](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
+   * 檢視資料集
+
+如需Experience Platform權限的詳細資訊，請參閱 [Adobe Experience Platform中的存取控制](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
 
 ### 使用者存取權
 
