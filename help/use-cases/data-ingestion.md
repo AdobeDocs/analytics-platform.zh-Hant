@@ -2,9 +2,9 @@
 title: 客戶歷程分析的資料擷取選項
 description: 瞭解將資料收錄至客戶歷程分析的不同方式
 translation-type: tm+mt
-source-git-commit: 540b170c3429f04b7f63872b30cbb01852d30179
+source-git-commit: 32dd6194ab2777652c3fb7df5fadd42395a0697d
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '515'
 ht-degree: 27%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 27%
 
 # 客戶歷程分析的資料擷取選項
 
-在將資料吸收至客戶歷程分析時，您有許多選項。 有的假設您要移動傳統Adobe Analytics資料，有的則假設您直接從Adobe Experience Platform中收集資料。
+在將資料吸收至客戶歷程分析時，您有許多選項。 有的假設您要移動傳統Adobe Analytics資料，有的則假設您直接從Adobe Experience Platform中收集資料。 此參考提供了要遵循的高級步驟。
 
 ## 從傳統Adobe Analytics中收錄資料
 
