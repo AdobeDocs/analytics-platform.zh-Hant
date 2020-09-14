@@ -2,10 +2,10 @@
 title: 客戶歷程分析的資料擷取選項
 description: 瞭解將資料收錄至客戶歷程分析的不同方式
 translation-type: tm+mt
-source-git-commit: 32dd6194ab2777652c3fb7df5fadd42395a0697d
+source-git-commit: a48ebc2fbd4cb43de4424e9c1805504752a44fce
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 27%
+source-wordcount: '481'
+ht-degree: 28%
 
 ---
 
@@ -31,27 +31,3 @@ ht-degree: 27%
 1. 使用 [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/analytics/implementation/launch/overview.html) 若要在您的網站上實作資料收集的程式碼（如果您尚未進行）。 Launch 為標籤管理解決方案，可讓您部署 Analytics 程式碼及滿足其他標籤需求。Launch提供與其他解決方案和產品的整合，讓您部署自訂程式碼。 您可以完成上述所有工作，而不需依賴組織中的任何開發團隊來更新網站上的程式碼。
 1. 建立 [Adobe Analytics來源連接器](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) 在Adobe Experience Platform中。 此來源連接器將在稱為 [體驗資料模型(XDM)系統](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 1. 使用 [客戶歷程分析](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html) 以建立一或多個連線和資料檢視，以通知您的跨通道報告。
-
-## 從AEP Web SDK內嵌資料
-
-TBD
-
-### 透過Experience Edge
-
-待定
-
-### 透過Launch
-
-待定
-
-## 批次擷取與串流擷取
-
-待定
-
-## 收錄Google Analytics資料
-
-待定
-
-## 透過大量擷取API來擷取資料
-
-待定
