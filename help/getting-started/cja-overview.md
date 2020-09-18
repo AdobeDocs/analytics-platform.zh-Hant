@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 概觀
 description: Customer Journey Analytics 簡介
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0e04957e5a89862731b0a5d2c1d880e4c90a17ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1215'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Customer Journey Analytics 提供簡單易用的跨管道功能，並移除舊�
 * **不限數量的變數和事件**：eVar、prop 和事件的概念已不存在。資料主要聚焦於維度和量度。資料集可以有不限數量的不重複維度和量度。
 * **不限數量的不重複值**：Adobe Experience Platform 不受限於任何不重複限制，例如傳統報表套裝中的 50 萬個不重複特值。
 * **變更歷史資料**：您可以使用 Adobe Experience Platform 移除或修正資料。
-* **跨報表套裝資料**：可在 Platform 中結合來自多個資料集的現有實施。
+* **跨報表套裝資料**：可在 Platform 中結合來自多個資料集的現有實作。
 
 Customer Journey Analytics 的初始版本包含 Analysis Workspace 中的多項功能。如需完整清單，請參閱 [Customer Journey Analytics 功能支援](cja-aa.md)。
 
@@ -29,7 +29,7 @@ Customer Journey Analytics 的初始版本包含 Analysis Workspace 中的多項
 
 [Cross-Device Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-home.html) 與 Adobe Experience Platform Identity Service 整合，利用 Co-op 圖表或私密圖表來識別數位裝置與人員對應的方式。Adobe Analytics Ultimate 客戶可使用此功能。
 
-而CJA則與Adobe Experience Platform資料集整合，並在分析工作區中啟用跨通道分析。 雖然 CJA 尚未與 Co-op 或私密身分圖表整合，但您可以「自攜 ID」將資料集合在一起，而且這些資料集可超出數位資料的範圍，同時包含線上和離線接觸點。下文將詳細說明 CJA 必要條件。
+另一方面，CJA 與 Adobe Experience Platform 資料集整合，並在 Analysis Workspace 中啟用跨管道分析。雖然 CJA 尚未與 Co-op 或私密身分圖表整合，但您可以「自攜 ID」將資料集合在一起，而且這些資料集可超出數位資料的範圍，同時包含線上和離線接觸點。下文將詳細說明 CJA 必要條件。
 
 ## 主要使用案例
 
@@ -38,9 +38,9 @@ Customer Journey Analytics 可用來：
 * **在歷程情境中了解客戶**：您可以跨多個管道依序檢視和分析資料。來自您客服中心、POS 系統和線上屬性的資料可合併成單一報表檢視。
 * **讓每個人都能查看深入分析**：將資料存取大眾化，透過資料衍生的深入分析協助更多人進行商業決策。組織中負責任何客戶體驗相關事務的所有人，都可根據更完整的資料更快速做出真正的決策。
 * **為您的分析師運用資料科學的力量**：Customer Journey Analytics 可讓一般人使用資料科學獲得深入見解及分析。
-* **使用臨機報表將資料集視覺化並與之互動**: 工作區可使用 Adobe Experience Platform 中符合某些基本規則的任何資料集。
-* **檢視非 Web 資料**: 工作區不再局限於「點擊」或「事件」的硬性定義。自訂結構可完全控制資料和定義。
-* **對資料操控發揮更大控制力**: 變更已上傳的資料、建立新的資料集，並將其匯入工作區中。Adobe Experience Platform 透過 Experience Cloud Query Service 提供查詢、擷取、轉換和載入工具。
+* **使用臨機報表將資料集視覺化並與之互動**：工作區可使用 Adobe Experience Platform 中符合某些基本規則的任何資料集。
+* **檢視非 Web 資料**：工作區不再局限於「點擊」或「事件」的硬性定義。自訂結構可完全控制資料和定義。
+* **對資料操控發揮更大控制力**：變更已上傳的資料、建立新的資料集，並將其匯入工作區中。Adobe Experience Platform 透過 Experience Cloud Query Service 提供查詢、擷取、轉換和載入工具。
 
 ## 必要條件
 
@@ -51,27 +51,27 @@ Customer Journey Analytics 可用來：
 
 ## 管理員存取權限
 
-若要進行建立連線、新增資料集等作業，您需要在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中擁有下列權限：
+若要建立連線、新增資料集及執行其他作業，您需要在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中擁有下列權限：
 
-* 自2020年9月9日起，若要存取「客戶歷程分析」或建立連線，您必須以管理員身分新增至 **客戶歷程分析產品資料** 在 [管理控制台](https://adminconsole.adobe.com/enterprise/). 管理員需要下列權限：
-   * 建立／更新／刪除連線或資料檢視
-   * 更新／刪除其他使用者建立的專案、篩選、計算量度或區段
-   * 將工作區專案共用給所有使用者
-* 在「客戶歷程分析」中成為產品管理員並不足以建立、更新或刪除Connection。 若要建立與Experience Platform資料集的連線，您也需要Experience Platform權限。 具體而言，您必須是 **體驗平台產品設定檔** 可為您提供下列權限：
+* 自 2020 年 9 月 9 日起，若要存取 Customer Journey Analytics 或建立連線，您需要在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中將自己新增為 **Customer Journey Analytics 產品設定檔**&#x200B;的管理員。管理員需要下列權限：
+   * 建立/更新/刪除連線或資料檢視
+   * 更新/刪除其他使用者建立的專案、篩選器、計算量度或區段
+   * 將 Analysis Workspace 專案共用給所有使用者
+* 在 Customer Journey Analytics 中成為產品管理員後，仍無法建立、更新或刪除連線。若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
    * 檢視結構
    * 管理結構
    * 檢視身分識別命名空間
    * 檢視資料集
 
-如需Experience Platform權限的詳細資訊，請參閱 [Adobe Experience Platform中的存取控制](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md).
+如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md)。
 
 ### 使用者存取權
 
-客戶歷程分析中的非管理員（使用者）無法檢視「資料檢視」或「連線」，但可以建立篩選器、專案和計算量度。
+Customer Journey Analytics 中的非管理員 (使用者) 無法檢視資料檢視或連線，但可以建立篩選器、專案和計算量度。
 
 ## 術語更新
 
-與傳統Adobe Analytics相比，CJA中的數項功能已更名，以符合業界標準。 一些更新的術語包括：
+與傳統 Adobe Analytics 相比，CJA 中的數項功能已重新命名，以符合業界標準。一些更新的術語包括：
 
 * 區段現在稱為「篩選器」。
 * 虛擬報表套裝現在稱為「檢視」。
@@ -83,7 +83,7 @@ Customer Journey Analytics 可用來：
 
 ## 以 Adobe Experience Platform 為基礎的其他功能
 
-Customer Journey Analytics 是依賴 Adobe Experience Platform 的許多功能之一。其他數種功能（也以Experience Platform為基礎）可讓您充份運用您的資料。
+Customer Journey Analytics 是依賴 Adobe Experience Platform 的許多功能之一。同樣以 Experience Platform 為基礎的其他幾項功能可讓您充份運用您的資料。
 
 Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶資料與內容，並運用資料科學和機器學習技術來改善個人化體驗的設計和傳遞。Platform 中的客戶資料以資料集形式儲存，而資料集是由結構和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.translate.html)。
 
