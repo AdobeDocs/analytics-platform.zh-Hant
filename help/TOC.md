@@ -19,7 +19,7 @@ translation-type: tm+mt
 source-git-commit: 1c5f134fc28fd02d58117d72db9afe5ada84cd40
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -148,7 +148,7 @@ ht-degree: 98%
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [使用物件陣列](use-cases/object-arrays.md)
    + [(B2B) 新增帳戶層級資料作為查詢資料集](use-cases/b2b.md)
-   + [資料擷取使用案例](use-cases/data-ingestion.md)
+   + [資料內嵌使用案例](use-cases/data-ingestion.md)
 + 隱私權 {#cja-privacy}
    + [隱私權概觀](privacy/privacy-overview.md)
 + [CJA 文件更新](doc-changes.md)
