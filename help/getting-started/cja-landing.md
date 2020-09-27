@@ -1,16 +1,16 @@
 ---
-title: Customer Journey Analytics 產品文件
+title: Customer Journey Analytics 指南
 description: Customer Journey Analytics 登陸頁面。
-translation-type: ht
-source-git-commit: 59c255d6428db7795cce507f9de7c3c67ea0c743
-workflow-type: ht
-source-wordcount: '288'
+translation-type: tm+mt
+source-git-commit: 8cf9f257ccf2afd830a7f8e211c8e42b3f786e86
+workflow-type: tm+mt
+source-wordcount: '286'
 ht-degree: 100%
 
 ---
 
 
-# Customer Journey Analytics - 產品文件
+# Customer Journey Analytics 指南
 
 本技術文件指南提供 Customer Journey Analytics 的自助協助。Customer Journey Analytics 可將您選擇之任何管道的客戶資料 (線上及離線皆可) 整合到 Adobe Experience Platform 中，接著依您目前使用 Analysis Workspace 分析現有數位資料的方式加以分析。
 
