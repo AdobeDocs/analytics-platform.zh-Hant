@@ -16,9 +16,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 47e4d06be87ef32d63a1003f5073d75f61d6f38d
+source-git-commit: 8cf9f257ccf2afd830a7f8e211c8e42b3f786e86
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '394'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 # Customer Journey Analytics 指南 {#using}
 
-+ [Customer Journey Analytics 產品文件](getting-started/cja-landing.md)
++ [Customer Journey Analytics 指南](getting-started/cja-landing.md)
 + Customer Journey Analytics 概觀 {#cja-overview}
    + [Customer Journey Analytics 概觀](getting-started/cja-overview.md)
    + [快速入門](getting-started/cja-getting-started.md)
