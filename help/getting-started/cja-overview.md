@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 概觀
-description: Customer Journey Analytics 簡介
-translation-type: ht
-source-git-commit: 0e04957e5a89862731b0a5d2c1d880e4c90a17ed
-workflow-type: ht
-source-wordcount: '1215'
-ht-degree: 100%
+description: 瞭解客戶歷程分析如何讓您將分析工作區與Experience Platform的資料搭配使用。
+translation-type: tm+mt
+source-git-commit: 8067bb355934f8f6f1d54776f44abfd853aee231
+workflow-type: tm+mt
+source-wordcount: '1226'
+ht-degree: 98%
 
 ---
 
