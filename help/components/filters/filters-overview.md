@@ -2,10 +2,10 @@
 title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
 translation-type: tm+mt
-source-git-commit: 09dcb36b96d95276b357e0f1308a977f5db5d711
+source-git-commit: 7996f71206e2d94642c49eb0bdfd79e384dfd8a3
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '877'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 「事件」容器定義您要在篩選器中納入或排除的頁面事件。這是範圍最小的可用容器，可讓您識別令某條件成立的特定點按和頁面檢視，並讓您在此過程中檢視單一追蹤代碼或隔離出網站特定區段內的行為。您可能也想要找出動作發生時的特定值 (例如提出訂單時所用的行銷管道)。
 
-「事件」容器包含以單一頁面劃分為基礎的值：
+事件容器包含以值為基礎的單頁劃分：
 
 * 產品
 
