@@ -2,10 +2,10 @@
 title: 建立篩選器
 description: 瞭解建立篩選器的使用者介面。
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 38%
+source-wordcount: '372'
+ht-degree: 33%
 
 ---
 
@@ -46,4 +46,4 @@ ht-degree: 38%
 | 從選取範圍建立篩選 | 建立內嵌篩選。 選取行，以滑鼠右鍵按一下選取範圍，然後建立內嵌篩選。 此篩選器僅適用於已開啟的專案，不會儲存為CJA篩選器。 1. 選取所需的列。2. 以滑鼠右鍵按一下選取項目。3.按一下 *從選取範圍建立篩選*. |
 | 元件>新增篩選 | 顯示篩選產生器。 請參閱 [篩選產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-build.html) 的雙曲餘切值。 |
 | 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在 [組織與分享](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)，瞭解您套用至專案的篩選器如何在收件者的共用分析中提供。 |
-| 將篩選器用作維度 | 影片：[在 Analysis Workspace 中使用區段作為維度](https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39) |
+| 將篩選器用作維度 | 影片：在分析工作區中將篩選器用作維度<br>>[!VIDEO](https://video.tv.adobe.com/v/23974) |
