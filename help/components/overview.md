@@ -1,11 +1,11 @@
 ---
 title: 元件概觀
 description: 了解 CJA 提供哪些元件，以及如何在報表中使用這些元件。
-translation-type: ht
-source-git-commit: e3457b3ad6c991844f83c2213a4991e1e8879e97
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 97%
 
 ---
 
@@ -50,5 +50,6 @@ Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，�
 | 共用 | 僅套用至區段。 |
 | 刪除 | 僅套用至區段。 |
 
-[在 YouTube 觀看「建立量度、區段和日期」](https://www.youtube.com/watch?v=XXJuNAte8E8&amp;index=25&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(2:51)
+觀看有關建立量度、區段和日期的影片：
 
+>[!VIDEO](https://video.tv.adobe.com/v/23979)
