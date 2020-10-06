@@ -5,19 +5,15 @@ title: 建立專案 - 概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ff1a11a18de0825b6338de98865e3bddeef14f39
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 99%
+source-wordcount: '758'
+ht-degree: 84%
 
 ---
 
 
 # 建立專案 - 概述
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 **[!UICONTROL 分析]** > **[!UICONTROL 工作區]**
 
@@ -37,14 +33,18 @@ ht-degree: 99%
 
 | 元素 | 說明 |
 |---|---|
-| 專案 [範本](/help/analysis-workspace/build-workspace-project/starter-projects.md) | 您可照原樣使用這些預先填入的專案範本，或是依照您的需求進行調整 (例如，透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。 |
-| [建立新專案](/help/analysis-workspace/home.md) | 按一下此連結即可從頭開始建立新的專案。 |
+| 建立新專案 | 按一下此連結以 [從頭開始新專案](/help/analysis-workspace/home.md). |
 | 管理專案 | 按一下此連結即可將您導向「專案元件管理員」(**[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 專案]**」)，它會列出您的所有專案，並讓您標記、共用、刪除、重新命名、核准、複製，以及將專案匯出為 CSV。 |
-| 觀看教學課程 | 將您導向 [Analysis Workspace YouTube 影片](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。 |
+| 設定為登陸頁面 | 將此頁面轉換為您的工作區登陸頁面。 |
+| 觀看教學課程 | 將您帶至 [分析工作區教學課程影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
 | 名稱 | 「工作區」專案名稱。 |
-| 建立者 | 建立此專案的人 (您或與您共用專案的人)。 |
+| 擁有者 | 建立此專案的人 (您或與您共用專案的人)。 |
+| 類型 | 指出這是工作區專案還是 [Mobile Scorecard](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html). |
+| 專案角色 | 指出您是「擁有者」、是否可以編輯專案，或此專案是否為「複製」專案。 |
 | 標記 | 套用至專案的標記，位於「專案元件管理員」或&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]**」。 |
 | 上次修改 | 上次修改專案的日期和時間。 |
+| 我最愛的專案 | 若要將專案標示為我的最愛，請開啟專案，然後按一下其名稱旁的星號。 下次您開啟「工作區」時，它會顯示在此清單中。 |
+| 經常檢視的專案 | 列出您經常開啟的所有專案，以方便存取。 |
 
 ## 專案資訊和設定 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
