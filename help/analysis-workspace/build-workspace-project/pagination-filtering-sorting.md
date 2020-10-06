@@ -3,25 +3,21 @@ description: 'null'
 title: 表格分頁、篩選及分類
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 100%
+source-wordcount: '92'
+ht-degree: 81%
 
 ---
 
 
 # 表格分頁、篩選及分類
 
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+若需總覽，請觀看本教學課程影片：
 
-如需概覽，請在 YouTube 上觀看此影片：
+[Analysis Workspace 的表格分頁、篩選及分類功能](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
-[Analysis Workspace 的表格分頁、篩選及分類功能](https://www.youtube.com/watch?v=2zxpRPCGspg)
-
-## 進階篩選選項
+## 進階篩選選項 {#section_36E92E31442B4EBCB052073590C1F025}
 
 按一下篩選條件圖示，然後按一下自由表格資料表中維度旁的「顯示進階選項」，即可讓您使用下列標準加以篩選：
 
