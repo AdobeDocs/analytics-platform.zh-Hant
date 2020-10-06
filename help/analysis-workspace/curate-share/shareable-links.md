@@ -2,11 +2,11 @@
 description: 了解如何建立專案或視覺化效果的分享連結
 keywords: Analysis Workspace sharing
 title: 建立分享連結
-translation-type: ht
-source-git-commit: 814e02648607b6f06e2743cd054c14c892200b44
-workflow-type: ht
-source-wordcount: '287'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 93%
 
 ---
 
@@ -28,7 +28,7 @@ Analysis Workspace 提供許多與使用者共用專案的方式，包括取得�
 * 在面板的任一標題上按一下右鍵，並選取&#x200B;**[!UICONTROL 「取得面板連結」]**
 * 在任一表格或視覺化效果的標題上按一下右鍵，並選取&#x200B;**[!UICONTROL 「取得視覺化效果連結」]**
 
-[「觀看影片」](https://www.youtube.com/watch?v=lvmAdKNfWQw)以了解如何建立連結，並使用連結引導收件者前往專案的特定部分。
+[「觀看影片」](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html)以了解如何建立連結，並使用連結引導收件者前往專案的特定部分。
 
 ![](assets/get-viz-link.png)
 
@@ -36,6 +36,6 @@ Analysis Workspace 提供許多與使用者共用專案的方式，包括取得�
 
 運用各種連結選項的秘訣之一，就是一律在工作區專案的頂端加入目錄。您可以透過目錄連結至其他相關專案、特定面板，以及特定的視覺化效果。如此有助於專案的收件者輕鬆導覽。
 
-[「觀看影片」](https://www.youtube.com/watch?v=Xo6fTguWm-M)以了解如何使用連結和工作區功能齊全的文字編輯器，輕鬆建立目錄。
+[「觀看影片」](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html)以了解如何使用連結和工作區功能齊全的文字編輯器，輕鬆建立目錄。
 
 ![](assets/toc.png)
