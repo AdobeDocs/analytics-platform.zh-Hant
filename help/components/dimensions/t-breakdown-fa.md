@@ -5,10 +5,10 @@ title: 劃分維度
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: cee89d021e9cd034246fe9367bc8910dac7ca7cf
+source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 94%
+source-wordcount: '232'
+ht-degree: 90%
 
 ---
 
@@ -34,9 +34,13 @@ ht-degree: 94%
    >
    >表格中顯示的劃分數目上限為 200。匯出劃分時，此限制會提高。
 
-[在 YouTube 觀看「Analysis Workspace 的維度」](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:54)
+**影片：分析工作區中的維度**
 
-[在 YouTube 觀看「維度劃分」](https://www.youtube.com/watch?v=3mQ2HN7-lIc&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=13)(2:02)
+>[!VIDEO](https://video.tv.adobe.com/v/23971)
+
+**影片：維度劃分**
+
+>[!VIDEO](https://video.tv.adobe.com/v/23969)
 
 ## 將歸因模型套用到資料劃分
 
