@@ -3,30 +3,26 @@ description: 了解 Analysis Workspace 中的視覺效果和視覺效果設定�
 keywords: Analysis Workspace
 title: 視覺效果概述
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 98%
+source-wordcount: '1046'
+ht-degree: 94%
 
 ---
 
 
 # 視覺效果概述
 
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
-
 工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。每個視覺效果都有各自的設定可供您管理。按一下視覺效果名稱，取得更詳細的資訊。
 
-YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+教學影片： [分析工作區中的視覺化類型](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 | 視覺效果名稱 | 說明 |
-|---|---|
-| [區域](/help/analysis-workspace/visualizations/area.md) | 類似折線圖，但折線下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可使用區域圖。 |
+| --- | --- |
+| [區域](/help/analysis-workspace/visualizations/area.md) | 就像線條圖，但線下有彩色區域。 有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可使用區域圖。 |
 | [長條圖](/help/analysis-workspace/visualizations/bar.md) | 顯示代表一或多個量度多個值的垂直長條。 |
 | [項目圖表](/help/analysis-workspace/visualizations/bullet-graph.md) | 顯示您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。 |
-| [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | *`cohort`* 是指一段指定時間內，共享相同特徵的一組人。例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。您可輕易看出趨勢中的變化，然後據以做出回應。 |
+| [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組是指一段指定時間內，共享相同特徵的一組人。例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。您可輕易看出趨勢中的變化，然後據以做出回應。 |
 | [環形圖](/help/analysis-workspace/visualizations/donut.md) | 此視覺效果類似圓餅圖，以整體的部分或區段顯示資料。 |
 | [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失報表可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。 |
 | [流量](/help/analysis-workspace/visualizations/c-flow/flow.md) | 顯示客戶使用您網站和應用程式的路徑。 |
@@ -43,7 +39,7 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 
 ## 視覺效果面板 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-若要顯示「視覺效果」面板，請按一下側邊面板中的「**[!UICONTROL 視覺效果]**」。
+若要顯示「視覺化」面板，請按一下 **[!UICONTROL 視覺化]** 在左邊欄上。
 
 ![步驟結果](assets/visualizations.png)
 
@@ -60,7 +56,7 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 ![](assets/visualization_settings.png)
 
 | 設定 | 說明 |
-|--- |--- |
+| --- | --- |
 | 百分比 | 以百分比顯示值。 |
 | 100% 堆疊 | 針對堆疊區域圖/堆疊長條圖/堆疊橫條圖的設定可讓圖表以「100% 堆疊」的視覺效果方式呈現。範例： ![](assets/stacked_100_percent.png) |
 | 可見圖例 | 可讓您隱藏「摘要編號/摘要變更」視覺效果的篩選器詳細資料文字。 |
@@ -83,7 +79,7 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 ![](assets/right-click_menu.png)
 
 | 設定 | 說明 |
-|--- |--- |
+| --- | --- |
 | 插入複製的視覺效果/面板 | 讓您將複製的元素貼到 (「插入」) 專案內的其他位置或其他專案中。 |
 | 複製視覺效果/面板 | 讓您按一下滑鼠右鍵複製視覺效果或面板。 |
 | 複製視覺效果/面板 | 完全複製目前的視覺效果，接著可供進行修改。 |
@@ -112,4 +108,4 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 1. 輸入新的標籤文字。
 1. 按下 **[!UICONTROL Enter]** 以儲存。
 
-以下是此主題的[影片連結](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
+以下是此主題的[影片連結](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)。
