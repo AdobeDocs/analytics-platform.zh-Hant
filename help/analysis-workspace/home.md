@@ -4,60 +4,64 @@ title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: ba9629adb93358bf4a44181c880e97ae584556e4
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 6%
 
 ---
 
 
 # Analysis Workspace 概述
 
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+分析工作區是彈性的瀏覽器工具，可讓您快速建立分析並分享見解。 使用拖放介面，您可以建立分析、新增視覺化讓資料生動、組織資料集、與組織中的任何人共用及排程專案。
 
->[!IMPORTANT]
->
->本頁面正在籌建中。
+如果您只有幾分鐘的時間，請觀看此簡短的總覽，以瞭解可能性。
 
-Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提供強大、靈活的畫布供您建立自訂分析專案。您可拖放任意數目的資料表格、視覺效果和元件 (維度、量度、區段和時間粒度) 至專案。立即建立劃分和區段；建立同類群組以供分析；建立警報；比較區段；執行流量和流失分析；組織和排程報表，以便與企業中的其他人共用。
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-本頁面提供入門的基本指示。熟悉基本功能後，您便能進一步使用工作區的進階功能，包括 [Attribution IQ](/help/analysis-workspace/attribution/overview.md) 和[異常偵測](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)。
+## 登入Adobe Analytics {#login}
 
-若需 Analysis Workspace 功能的完整 YouTube 播放清單，請參閱[此處](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7)。
+若要開始使用分析工作區，請前往 [experience.adobe.com/analytics](https://experience.adobe.com/analytics). 如果您先前未為您選取特定專案，您將登入「工作區」專案清單首頁。
 
-## 建立簡單專案
+![](assets/login-analytics.png)
 
-專案可包含資料表格和任意數目的視覺化效果，以供深入探討
+## 使用訓練教學課程 {#training-tutorial}
 
+登入後，您的第一站應是「分析工作區訓練教學課程」，該教學課程會逐步帶您瞭解在工作區中建立第一個分析的常用術語和步驟。 若要開始教學課程，請按一下 **[!UICONTROL 建立新專案]** 然後選取 **訓練教學課程** 在新專案模式中。
 
-## 建立表格的兩種方式
+![](assets/training-tutorial.png)
 
-## 常見的分析方法
+## 建立新專案 {#new-project}
 
-### 步驟 1：分析維度
+教學課程完成後，您就可以開始建立您的第一個專案。 The **新專案模式** 為您提供啟動分析的不同選項。 您可以選擇從空白專案開始，或 [空白行動記分卡](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/curator.translate.html)，取決於您打算從瀏覽器或Adobe Analytics儀表板行動應用程式分享分析。
 
-使用培訓教學課程中的定義和範例 (此意見適用於其他所有步驟)
+![](assets/create-new-project.png)
 
-### 步驟 2：新增量度
+您也可以從預先建立的 **模板**、Adobe提供的標準範本或您組織建立的自訂範本。 有幾種不同的範本可供使用，視您的分析或使用案例而定。 [進一步瞭解](/help/analysis-workspace/build-workspace-project/starter-projects.md) 關於可用的不同範本選項。
 
-在此部分新增計算量度
+## 建立分析 {#analysis}
 
-### 步驟 3：變更日期範圍
+在您的工作區專案中， **面板、表格、視覺化和元件** 從左側導軌存取。 這些是您的專案構建區塊。
 
-### 步驟 4：劃分維度
+### 元件
 
-### 步驟 5：將區段套用至您的資料
+**元件** 是維度、量度、區段或日期範圍，所有這些都可合併為 **[!UICONTROL 自由表格]** 開始回答您的業務問題。 請務必熟悉每個 [元件類型](/help/components/overview.md) 才能深入分析。 當您熟悉元件術語後，可開始拖放至 [建立分析](/help/analysis-workspace/build-workspace-project/freeform-overview.md) 在 **[!UICONTROL 自由表格]**.
 
-### 步驟 6：新增基本視覺化效果
+![](assets/build-components.png)
 
-分享本節所述「快速視覺化」的相關秘訣
+### 視覺效果
 
-### 步驟 7：探索進階視覺化效果
+**視覺化**，例如長條圖或折線圖，則會加入資料上方，以視覺化方式呈現。 在最左側的導軌上，選取中間 **[!UICONTROL 視覺化]** 表徵圖，查看 [視覺化](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 可用。
 
-反白顯示流量、流失、同類群組、地圖
+![](assets/build-visualizations.png)
 
-### 步驟 8：組織與分享
+### 面板
 
+**面板** 用於組織專案中的分析，並可包含許多表格和視覺化。 「分析工作區」中提供的許多面板都會根據少數使用者輸入產生完整的分析集。 在最左邊的導軌上，選取頂端 **[!UICONTROL 面板]** 表徵圖，查看完整清單 [面板](/help/analysis-workspace/c-panels/panels.md) 可用。
+
+![](assets/build-panels.png)
+
+## 其他資源 {#resources}
+
+* Adobe提供數百種 [Analytics視訊訓練教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/overview.html).
