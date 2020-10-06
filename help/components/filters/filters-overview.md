@@ -2,10 +2,10 @@
 title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
 translation-type: tm+mt
-source-git-commit: 7996f71206e2d94642c49eb0bdfd79e384dfd8a3
+source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 99%
+source-wordcount: '885'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 您可以在篩選器產生器中建立和儲存篩選器，或從「流失」視覺效果 (在工作區中) 產生篩選器。此外，多個篩選器可作為堆疊篩選器搭配使用。
 
 >[!IMPORTANT]
->篩選器在 Adobe Analytics 中稱為「區段」。我們將區段重新命名為篩選器，因為 Adobe Experience Platform 對「區段」有不同定義。
+>篩選器在 Adobe Analytics 中稱為「區段」。我們將區段重新命名為篩選，因為Adobe Experience Platform已 [「區段」的不同定義](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html).
 
 篩選包含可建構篩選器並執行預先測試的[篩選器產生器](/help/components/filters/create-filters.md)，以及可收集、標記、核准、設定安全性及為整個組織共用篩選器的[篩選器管理器](/help/components/filters/manage-filters.md)。
 
@@ -32,7 +32,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 ![](assets/sequential_fil.png)
 
 | 瀏覽一 | 瀏覽二 | 瀏覽三 |
-|---|---|---|
+| --- | --- | --- |
 | 訪客進入主要登陸頁面 (A)，排除了促銷活動頁面 (B)，然後檢視了產品頁面 (C)。 | 訪客再次進入主要登陸頁面 (A)，排除了促銷活動頁面 (B)，再次進入產品頁面 (C)，然後抵達新頁面 (D)。 | 訪客進入並走過與第一次和第二次造訪相同的路徑，然後排除頁面 F，直接進入目標產品頁面 (G)。 |
 
 ## 篩選器容器
@@ -51,9 +51,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 「人員」容器包含訪客在指定時間範圍內的每次造訪和頁面檢視。「人員」層級的篩選器會傳回符合條件的頁面，加上訪客檢視的所有其他頁面 (且僅限於定義的日期範圍)。「人員」容器是定義範圍最廣的容器，在此層級產生的報表會傳回所有造訪中的頁面檢視，且可讓您產生多次造訪分析。因此，「人員」容器最容易隨定義的日期範圍而發生變更。「人員」容器可以包含以訪客整體歷史記錄為基礎的值：
 
 * 首次購買間隔天數
-
 * 原始登入頁面
-
 * 原始反向連結網域
 
 ### 「工作階段」容器
@@ -61,19 +59,14 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 「工作階段」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。「工作階段」容器是最常使用的容器，因為它會在符合規則時擷取整個造訪工作階段的行為，且您可定義建立和套用區段時要納入或排除的工作階段。它可協助您回答以下問題：
 
 * 同一工作階段中有多少訪客檢視了「新聞與體育」區段？
-
 * 成功的銷售轉換歸因於哪些頁面？
 
 「工作階段」容器包括以每個工作階段中出現次數為基礎的值：
 
 * 工作階段數
-
 * 登入頁面
-
 * 回訪頻度
-
 * 參與率量度
-
 * 線性配置的量度
 
 ### 事件容器
@@ -83,9 +76,6 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 事件容器包含以值為基礎的單頁劃分：
 
 * 產品
-
 * 清單 Prop
-
 * 清單維度
-
 * 促銷維度 (在事件的情境中)
