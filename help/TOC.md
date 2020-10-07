@@ -16,10 +16,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 8cf9f257ccf2afd830a7f8e211c8e42b3f786e86
+source-git-commit: 3fbeb322b21d7211363b3bfaaedbd8acf6c41fa7
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '395'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 + 連線 {#cja-connections}
    + [建立連線](connections/create-connection.md)
    + [管理連線](connections/manage-connection.md)
-   + [合併的資料集](connections/combined-dataset.md)
+   + [組合事件資料集](connections/combined-dataset.md)
 + 資料檢視 {#cja-dataviews}
    + [建立資料檢視](data-views/create-dataview.md)
    + [設定資料檢視和歸因](data-views/configure-dataviews.md)
