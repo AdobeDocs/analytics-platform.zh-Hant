@@ -5,8 +5,8 @@ product: adobe analytics
 sub-product: 客戶歷程
 index: true
 user-guide-title: Customer Journey Analytics 指南
-user-guide-description: This guide provides self-help assistance for Customer Journey Analytics, Adobe's next-generation solution for cross-channel analytics, based on Adobe Experience Platform.
-breadcrumb-title: Customer Journey Analytics Guide
+user-guide-description: 本指南針對 Adobe 用於跨通道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供自助協助資訊。
+breadcrumb-title: Customer Journey Analytics 指南
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud.html
@@ -18,7 +18,7 @@ tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
 source-git-commit: 3fbeb322b21d7211363b3bfaaedbd8acf6c41fa7
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '419'
 ht-degree: 99%
 
 ---
