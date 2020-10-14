@@ -2,10 +2,10 @@
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 translation-type: tm+mt
-source-git-commit: 59b949cf67c26226f4d337c566641f68e76b41ec
+source-git-commit: fb7b28c0525f7ac6bf8d8e346116c86952a438aa
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 100%
+source-wordcount: '1671'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL 資料集 ID]**：此 ID 會自動產生。
 
-1. **[!UICONTROL 時間戳記]**：在此處新增內容
+1. **[!UICONTROL 時間戳記]**:僅針對事件資料集，此設定會自動設為 [!UICONTROL 體驗平台].
 
 1. **[!UICONTROL 結構]**：這是在 Adobe Experience Platform 中建立資料集時所依據的[結構](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/schema/composition.html)。
 
