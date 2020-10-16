@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics 快速入門
-description: 了解實作 Customer Journey Analytics 所需的先決條件和工作流程。
+description: 了解實作 Customer Journey Analytics 所需的必要條件和工作流程。
 translation-type: tm+mt
 source-git-commit: 8067bb355934f8f6f1d54776f44abfd853aee231
 workflow-type: tm+mt
