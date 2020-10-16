@@ -1,10 +1,10 @@
 ---
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
-translation-type: ht
-source-git-commit: b0b8d62eaa7ca539b04677c308fbb33345e110fe
-workflow-type: ht
-source-wordcount: '890'
+translation-type: tm+mt
+source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
+workflow-type: tm+mt
+source-wordcount: '871'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 100%
 | --- | --- |
 | 產品變數 | 產品變數目前可用於報告符合「體驗事件」結構的資料 (具體而言是使用 productListItems 物件)。 |
 | 視覺效果 | 支援所有視覺效果，但地圖視覺效果除外。 |
-| AAM 對象 | 如果客戶使用 [!UICONTROL Analytics Data Connector] 資料集，此資料將列為 ADC 資料的一部分。 |
 | 專案共用 | 專案共用功能僅支援在 CJA 的使用者之間使用 - CJA 與傳統 Analysis Workspace 之間不支援專案共用。 |
 | 自訂工作階段化 | 支援除行動背景點擊以外的所有自訂工作階段化功能。 |
 | eVar 持續性設定 | eVar 不再是 CJA 的一部分。不過持續性設定現在是資料檢視的一部分，可用於所有維度。請記得，持續性是依據報表時間處理，而非資料收集處理。這表示所有持續性都將以報表日期範圍為基礎，而非資料整體。 |
