@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics 概觀
-description: 了解 Customer Journey Analytics 如何讓您將 Analysis Workspace 與Experience Platform 的資料搭配使用。
+description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 translation-type: tm+mt
 source-git-commit: 8067bb355934f8f6f1d54776f44abfd853aee231
 workflow-type: tm+mt
