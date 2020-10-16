@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0b8d62eaa7ca539b04677c308fbb33345e110fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 | VRS 元件策劃 | 現在是資料檢視的一部分。 |
 | 報表時間處理功能 | CJA 僅依賴「報表時間處理」功能。 |
 | 刪除 GDPR | 請注意，現在系統已與 [!UICONTROL Experience Platform] 協調處理 GDPR - CJA 會繼承 [!UICONTROL Experience Platform] 對基礎資料集所做的所有資料變更。 |
-| 使用者權限/資料存取控制 | CJA可區分Adobe Admin Console產品管理員和使用者。 只有產品管理員才能1)建立／更新／刪除連線或資料檢視，2)更新／刪除其他使用者建立的專案、篩選或計算量度，以及3)與所有使用者共用工作區專案 |
+| 使用者權限/資料存取控制 | CJA 可區分 Adobe Admin Console 產品管理員和使用者。只有產品管理員可以 1) 建立/更新/刪除連線或資料檢視；2) 更新/刪除其他使用者建立的專案、篩選器或計算量度；以及 3) 與所有使用者共用 Analysis Workspace 專案 |
 
 ## 支援警告功能
 
@@ -52,8 +52,8 @@ ht-degree: 93%
 
 | 功能 | 附註 |
 | --- | --- |
-| 現成可用的 Analysis Workspace 維度 (例如瀏覽器類型、反向連結類型、行銷管道、造訪次數等) | CJA 不會以原生方式提供這些維度。客戶若有使用 Analytics Data Connector (ADC)，部分維度可供使用，但並非全部。請參閱[相關文件，瞭解可透過 ADC 支援的 Analytics 變數](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。 |
-| 面板 | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。不支援「區段比較」、「目標分析」(A4T)和「媒體並行檢視器」面板。 |
+| 現成可用的 Analysis Workspace 維度 (例如瀏覽器類型、反向連結類型、行銷管道、造訪次數等) | CJA 不會以原生方式提供這些維度。客戶若有使用 Analytics Data Connector (ADC)，部分維度可供使用，但並非全部。請參閱[相關文件，了解可透過 ADC 支援的 Analytics 變數](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。 |
+| 面板 | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。不支援「區段比較」、「Analytics for Target」(A4T) 和「媒體同時檢閱者」面板。 |
 | 銷售 eVar | 只有當銷售 eVar 和 ADC 型資料集嚴格遵循相同的 XDM 結構時，兩者才能搭配使用 (類似上述產品清單限制)。 |
 | 機器人篩選 | 針對以 Analytics Data Connector (ADC)為基礎的資料集，系統會套用機器人篩選。[!UICONTROL Experience Platform] 或 CJA 不會針對其他資料集執行一般機器人篩選邏輯。 |
 | 處理規則 | 針對以 ADC 為基礎的資料集，仍會套用處理規則。 |
