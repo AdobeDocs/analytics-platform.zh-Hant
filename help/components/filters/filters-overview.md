@@ -1,11 +1,11 @@
 ---
 title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 您可以在篩選器產生器中建立和儲存篩選器，或從「流失」視覺效果 (在工作區中) 產生篩選器。此外，多個篩選器可作為堆疊篩選器搭配使用。
 
 >[!IMPORTANT]
->篩選器在 Adobe Analytics 中稱為「區段」。我們將區段重新命名為篩選，因為Adobe Experience Platform已 [「區段」的不同定義](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html).
+>篩選器在 Adobe Analytics 中稱為「區段」。我們將區段重新命名為篩選器，因為 Adobe Experience Platform [對「區段」有不同定義](https://docs.adobe.com/content/help/zh-Hant/experience-platform/segmentation/home.html)。
 
 篩選包含可建構篩選器並執行預先測試的[篩選器產生器](/help/components/filters/create-filters.md)，以及可收集、標記、核准、設定安全性及為整個組織共用篩選器的[篩選器管理器](/help/components/filters/manage-filters.md)。
 
@@ -73,7 +73,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 「事件」容器定義您要在篩選器中納入或排除的頁面事件。這是範圍最小的可用容器，可讓您識別令某條件成立的特定點按和頁面檢視，並讓您在此過程中檢視單一追蹤代碼或隔離出網站特定區段內的行為。您可能也想要找出動作發生時的特定值 (例如提出訂單時所用的行銷管道)。
 
-事件容器包含以值為基礎的單頁劃分：
+「事件」容器包含以單一頁面劃分為基礎的值：
 
 * 產品
 * 清單 Prop
