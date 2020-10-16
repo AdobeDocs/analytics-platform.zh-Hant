@@ -5,7 +5,7 @@ product: adobe analytics
 sub-product: 客戶歷程
 index: true
 user-guide-title: Customer Journey Analytics 指南
-user-guide-description: 本指南針對 Adobe 用於跨通道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供自助協助資訊。
+user-guide-description: 本指南針對 Adobe 跨通道分析的新一代解決方案 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供自助協助資訊。
 breadcrumb-title: Customer Journey Analytics 指南
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 solution-title: Experience Cloud
@@ -19,7 +19,7 @@ translation-type: tm+mt
 source-git-commit: 3fbeb322b21d7211363b3bfaaedbd8acf6c41fa7
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 + 連線 {#cja-connections}
    + [建立連線](connections/create-connection.md)
    + [管理連線](connections/manage-connection.md)
-   + [組合事件資料集](connections/combined-dataset.md)
+   + [合併事件資料集](connections/combined-dataset.md)
 + 資料檢視 {#cja-dataviews}
    + [建立資料檢視](data-views/create-dataview.md)
    + [設定資料檢視和歸因](data-views/configure-dataviews.md)
