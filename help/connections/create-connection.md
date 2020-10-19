@@ -2,10 +2,10 @@
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 translation-type: tm+mt
-source-git-commit: fb7b28c0525f7ac6bf8d8e346116c86952a438aa
+source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
 workflow-type: tm+mt
-source-wordcount: '1671'
-ht-degree: 98%
+source-wordcount: '1679'
+ht-degree: 97%
 
 ---
 
@@ -114,7 +114,7 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 
    * 如果連線中所有資料集的歷史資料累積大小超過 15 億列，便會出現一則錯誤訊息，說明無法匯入此數量的歷史資料。但是，如果您要新增包含 10 億列歷史資料的資料集並匯入了這些資料，一週之後再新增另一個相同大小的資料集並匯入其歷史資料，這麼做行得通。
    * 系統會為連線中新增的新資料排定優先順序，因此這些資料的延遲最低。
-   * 所有回填 (歷史) 資料的匯入速度都較慢。
+   * 任何回填（歷史）資料的匯入速率會較慢（最多13個月的資料，不論大小）。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
