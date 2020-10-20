@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
 workflow-type: tm+mt
 source-wordcount: '1679'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 97%
 
 1. **[!UICONTROL 資料集 ID]**：此 ID 會自動產生。
 
-1. **[!UICONTROL 時間戳記]**:僅針對事件資料集，此設定會自動設為 [!UICONTROL 體驗平台].
+1. **[!UICONTROL 時間戳記]**：僅適用於事件資料集，系統會自動將此設定設為 [!UICONTROL Experience Platform] 中以事件為基礎的結構之預設時間戳記欄位。
 
 1. **[!UICONTROL 結構]**：這是在 Adobe Experience Platform 中建立資料集時所依據的[結構](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/schema/composition.html)。
 
