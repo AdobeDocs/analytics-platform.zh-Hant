@@ -1,9 +1,16 @@
 ---
-source-git-commit: 1cddd8624826bddb89c9b362ec91a2c0c30c7a6f
+source-git-commit: ed44f33e545df2e52566bd922fa40d9692df6bf2
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '521'
+ht-degree: 84%
 
 ---
 # Contribute至客戶歷程分析檔案
+
+| EXL-PR | EXL | 預覽 | 啟動 | 已發佈 | 說明 |
+|--- |--- |--- |--- |--- |--- |
+| [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics-platform.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics-platform.en_pr-exl/lastBuild/) | [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics-platform.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics-platform.en_exl/lastBuild/lastBuild) | [預覽URL](https://experienceleague.corp.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [即時URL](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 我們歡迎我們社群及文件團隊以外的 Adobe 員工貢獻心力。
 
