@@ -1,11 +1,11 @@
 ---
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
-translation-type: ht
-source-git-commit: eb7d7d80ee07298f7d0fe308bdc93a3435f2c381
-workflow-type: ht
-source-wordcount: '1679'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 64c77d3080bc2a36af4e80a854f10adce2632064
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 84%
 
 ---
 
@@ -100,22 +100,26 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 
 ![啟用連線](assets/create-connection2.png)
 
-1. 若要啟用連線，請定義下列設定：
+1. 要啟用連接，請為整個連接定義以下設定，即連接中的所有資料集：
 
    | 選項 | 說明 |
-   |---|---|
+   | --- | --- |
    | [!UICONTROL 連線名稱] | 為連線提供說明名稱。無法儲存無名稱的連線。 |
    | [!UICONTROL 說明] | 新增更多詳細資訊，以便區分此連線與其他連線。 |
    | [!UICONTROL 資料集] | 此連線中包含的資料集。 |
    | [!UICONTROL 從今天開始，自動匯入此連線的所有新資料集。] | 如果要建立持續連線，請選擇此選項，如此一來，新增到此連線中資料集的任何新資料批次，都會自動彙整至]工作區[!UICONTROL 。 |
-   | [!UICONTROL 匯入所有現有資料] | 選擇此選項並儲存連線時，此連線中所有資料集來自 [!DNL Experience Platform] 的所有現有 (歷史) 資料都會匯入。日後若有任何新資料集新增至這個已儲存的連線，其所有現有歷史資料也會自動匯入。<br>**請注意，一旦儲存此連線，便無法變更這項設定。** |
+   | [!UICONTROL 匯入所有現有資料] | 當您選取此選項並儲存連線時，所有現有（歷史）資料 [!DNL Experience Platform] 將導入或回填此連接中的所有資料集。 日後若有任何新資料集新增至這個已儲存的連線，其所有現有歷史資料也會自動匯入。<br>**請注意，一旦儲存此連線，便無法變更這項設定。** |
+   | [!UICONTROL 每日事件的平均數] | 您必須指定要匯入的每日事件平均數（新資料） **和** 回填資料)。 這樣Adobe就可以為此資料分配足夠的空間。<br>如果您不知道公司要匯入的每日事件平均數，您可以在 [Adobe Experience Platform查詢服務](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) 來瞭解。<!--Rohit to provide and make sure we include multiple datasets.--> |
 
-   **請記住：**
+1. 按一下 **[!UICONTROL 儲存並建立資料檢視]**. 如需檔案，請參閱 [建立資料檢視](/help/data-views/create-dataview.md).
 
-   * 如果連線中所有資料集的歷史資料累積大小超過 15 億列，便會出現一則錯誤訊息，說明無法匯入此數量的歷史資料。但是，如果您要新增包含 10 億列歷史資料的資料集並匯入了這些資料，一週之後再新增另一個相同大小的資料集並匯入其歷史資料，這麼做行得通。
-   * 系統會為連線中新增的新資料排定優先順序，因此這些資料的延遲最低。
-   * 任何回填 (歷史) 資料的匯入速率會比較慢 (無論大小，最多可匯入 13 個月的資料)。
+### 回填歷史資料
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+**[!UICONTROL 匯入所有現有資料]** 可讓您回填歷史資料。 請記住：
 
-工作流程的下一步是[建立資料檢視](/help/data-views/create-dataview.md)。
+* 我們將連線中新增資料加入資料集的優先順序設定，因此此新資料的延遲時間最低。
+* 所有回填 (歷史) 資料的匯入速度都較慢。延遲受您擁有的歷史資料量以及 **[!UICONTROL 每日事件的平均數]** 中。 例如，如果您每天有超過10億列資料，加上3年的歷史資料，可能需要數週的時間才能匯入。 另一方面，如果您每天有少於100萬列的歷史資料和1週的歷史資料，則只需不到1小時。
+* 回填會套用至整個連線，而非個別套用至每個資料集。
+* The [Adobe Analytics資料連接器](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) 最多可匯入13個月的資料，不論其大小。
+
+<!--If you do not know the average number of daily events your company is going to import, you can do a simple SQL query in [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) to find out. Rohit to provide and make sure we include multiple datasets.-->
