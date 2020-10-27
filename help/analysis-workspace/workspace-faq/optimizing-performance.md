@@ -3,15 +3,15 @@ description: 影響工作區效能的因素及建議的最佳化
 title: 分析工作區效能因素與最佳化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
+source-git-commit: 3928307fb51d1bde628773a91d5f4e2d4e5c2a5c
 workflow-type: tm+mt
-source-wordcount: '2028'
-ht-degree: 17%
+source-wordcount: '2026'
+ht-degree: 20%
 
 ---
 
 
-# 分析工作區效能因素與最佳化
+# Analysis Workspace 效能最佳化
 
 各種因素都會影響分析工作區中專案的效能。 在您開始建立專案之前，請務必先瞭解這些貢獻者的身分，以便您能以最佳的方式規劃和建立專案。 本頁包含影響效能的因素清單，以及建議您在分析工作區中進行最佳化以確保最佳效能。
 
@@ -62,7 +62,7 @@ ht-degree: 17%
 | 自由格式儲存格數目 | 專案中自由表格儲存格的總數，依所有表格的列*欄計算。 排除隱藏的資料來源。 建議的臨界值為4000。 | 將表格中的欄數減少為最相關的資料點。 透過調整顯示的列數、套用表格篩選或套用區段，減少表格中的列數。 |
 | 可用元件 | 在專案左側導軌中，跨專案中所有報表套裝擷取的元件總數。 建議的臨界值為2000。 | 請洽詢您的產品管理員，以建立包含更量身打造之元件集的精選虛擬報表套裝。 |
 | 已使用的元件 | 項目中使用的元件總數。 建議的臨界值為100。 | 使用的元件數量並不直接影響效能。 但是，這些元件的複雜性將有助於項目的執行。 請參閱下方「其他因素」一節中的建議最佳化。 |
-| 最大日期範圍  | 此系數會顯示專案使用的最長日期範圍。 建議的臨界值為1年。 | 可能情況下，提取資料時請不要超出所需。將面板日曆縮小為分析的相關日期，或在自由表格中使用日期範圍元件（紫色元件）。 表格中使用的日期範圍會覆寫面板日期範圍。 例如，您可以將上個月、上週和昨天新增至表格欄，以請求這些特定的資料範圍。 如需在 Analysis Workspace 中使用日期範圍的相關資訊，請看[這段影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)。<br><br>此外，將專案中使用的年與年比較次數減到最低。 當計算年度比較時，會在感興趣的月份中查看整個13個月的資料。 這與將面板日期範圍變更為過去13個月的影響相同。 |
+| 最大日期範圍  | 此系數會顯示專案使用的最長日期範圍。 建議的臨界值為1年。 | 可能情況下，提取資料時請不要超出所需。將面板日曆縮小為分析的相關日期，或在自由表格中使用日期範圍元件（紫色元件）。 表格中使用的日期範圍會覆寫面板日期範圍。例如，您可以將上個月、上週和昨天新增至表格欄，以請求這些特定的資料範圍。如需在 Analysis Workspace 中使用日期範圍的相關資訊，請看[這段影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)。<br><br>此外，將專案中使用的年與年比較次數減到最低。 計算出逐年比較時，系統會在感興趣的月份間查看完整 13 個月的資料。這與將面板日期範圍變更為過去 13 個月的影響相同。 |
 
 ## 其他因素
 
