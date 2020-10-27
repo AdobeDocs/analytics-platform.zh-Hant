@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 概觀
 description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f52a6788a0a5f3aea23fc783e479c3f8a23a260d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1229'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,11 +53,11 @@ Customer Journey Analytics 可用來：
 
 若要建立連線、新增資料集及執行其他作業，您需要在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中擁有下列權限：
 
-* 自2020年9月9日起，若要存取「客戶歷程分析」或建立連線，您必須以管理員身分加入 **客戶歷程分析產品** 在 [管理控制台](https://adminconsole.adobe.com/enterprise/). 產品管理員可獲得下列權限：
+* 自 2020 年 9 月 9 日起，若要存取 Customer Journey Analytics 或建立連線，您需要在 **Admin Console** 中將自己新增為 [Customer Journey Analytics 產品](https://adminconsole.adobe.com/enterprise/)的管理員。產品管理員可獲得下列權限：
    * 建立/更新/刪除連線或資料檢視
    * 更新/刪除其他使用者建立的專案、篩選器、計算量度或區段
    * 將 Analysis Workspace 專案共用給所有使用者
-* 光是在「客戶歷程分析」中成為產品管理員還不足以建立、更新或刪除Connection。 若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
+* 光有 Customer Journey Analytics 的產品管理員權限，仍無法建立、更新或刪除連線。若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
    * 檢視結構
    * 管理結構
    * 檢視身分識別命名空間
@@ -67,7 +67,7 @@ Customer Journey Analytics 可用來：
 
 ### 使用者存取權
 
-客戶歷程分析中的非產品管理員（使用者）無法檢視「資料檢視」或「連線」，但可以建立篩選器、專案和計算量度。
+Customer Journey Analytics 中，產品管理員以外的使用者無法查看資料檢視或連線，但可以建立篩選器、專案和計算量度。
 
 ## 術語更新
 
