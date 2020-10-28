@@ -2,7 +2,7 @@
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 translation-type: tm+mt
-source-git-commit: 619eaeabfbd0fb6a7205488075c1c9cfb0fd5a26
+source-git-commit: 3f57da53a377f357109a828721e7f3b2c964a1eb
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 83%
@@ -109,7 +109,7 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
    | [!UICONTROL 資料集] | 此連線中包含的資料集。 |
    | [!UICONTROL 從今天開始，自動匯入此連線的所有新資料集。] | 如果要建立持續連線，請選擇此選項，如此一來，新增到此連線中資料集的任何新資料批次，都會自動彙整至]工作區[!UICONTROL 。 |
    | [!UICONTROL 匯入所有現有資料] | 當您選取此選項並儲存連線時，所有現有（歷史）資料 [!DNL Experience Platform] 將導入或回填此連接中的所有資料集。 日後若有任何新資料集新增至這個已儲存的連線，其所有現有歷史資料也會自動匯入。另請參閱 [回填歷史資料](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data) 下方。<br>**請注意，一旦儲存此連線，便無法變更這項設定。** |
-   | [!UICONTROL 每日事件的平均數] | 您必須指定要匯入的每日事件平均數（新資料） **和** 回填資料)。 這樣Adobe就可以為此資料分配足夠的空間。<br>如果您不知道公司要匯入的每日事件平均數，您可以在 [Adobe Experience Platform查詢服務](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) 來瞭解。 以下是此選項的選擇： ![每日事件](assets/daily_size.png) |
+   | [!UICONTROL 每日事件平均數量] | 您必須指定要匯入的每日事件平均數（新資料） **和** 回填資料)。 這樣Adobe就可以為此資料分配足夠的空間。<br>如果您不知道公司要匯入的每日事件平均數，您可以在 [Adobe Experience Platform查詢服務](https://docs.adobe.com/content/help/en/experience-platform/query/home.html) 來瞭解。 以下是此選項的選擇：<br>![每日事件](assets/daily_size.png) |
 
 1. 按一下 **[!UICONTROL 儲存並建立資料檢視]**. 如需檔案，請參閱 [建立資料檢視](/help/data-views/create-dataview.md).
 
