@@ -3,19 +3,15 @@ description: 組織可讓您在共用專案前先限制元件。
 keywords: Analysis Workspace curation
 title: 組織專案
 translation-type: tm+mt
-source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '489'
 ht-degree: 99%
 
 ---
 
 
 # 組織專案
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 組織可讓您在共用專案前先限制元件 (維度、量度、區段、日期範圍)。收件者在開啟專案時，將會看到您為其組織的限定元件集。組織是可選作業，但建議您在共用專案前先執行此步驟。
 
@@ -42,6 +38,7 @@ ht-degree: 99%
 ## 移除專案組織
 
 若要移除專案組織並還原左側邊欄中的完整元件集：
+
 1. 按一下&#x200B;**[!UICONTROL 共用]** > **[!UICONTROL 組織專案資料]**。
 1. 按一下&#x200B;**[!UICONTROL 移除組織]**。
 1. 按一下&#x200B;**[!UICONTROL 完成]**。
