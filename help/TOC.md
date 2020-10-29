@@ -16,9 +16,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
+source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '407'
 ht-degree: 98%
 
 ---
@@ -102,7 +102,6 @@ ht-degree: 98%
       + [僅供檢視的專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
       + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
-      + [排程專案管理員](analysis-workspace/curate-share/schedule-projects.md)
    + 歸因 IQ {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
