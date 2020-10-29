@@ -1,17 +1,17 @@
 ---
 description: 工作區中的專案共用和專案角色
 keywords: Analysis Workspace sharing
-title: 共用工作區專案
+title: 共用專案
 translation-type: tm+mt
-source-git-commit: afe5b341ea1b442c23561299fbffce59dae45930
+source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 94%
+source-wordcount: '1100'
+ht-degree: 99%
 
 ---
 
 
-# 共用工作區專案
+# 共用專案
 
 共用可讓您組織中的其他 Analysis Workspace 使用者也能使用相同專案。收件者開啟專案時，將會顯示您已套用的任何[組織](curate.md)。
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 ### 未指派任何角色 (專案連結收件者)
 
-如果收件者未獲指派角色，且收到 [link](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) 至專案(**[!UICONTROL 分享]>[!UICONTROL 取得專案連結]**)，則預設會將其置入角色。 管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。
+收件者若未被指派任何角色，且收到專案的[連結](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) (**[!UICONTROL 「共用] > [!UICONTROL 取得專案連結」]**)，將會獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。
 
 ### 已指派多個角色
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 ### 管理員和角色
 
-設為&#x200B;**[!UICONTROL 可複製]**&#x200B;或&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色的管理員，在開啟專案時將獲得這些有限的體驗。如有需要，管理員可隨時透過&#x200B;**[!UICONTROL 元件]>[!UICONTROL 專案]**&#x200B;將其角色增加到&#x200B;**[!UICONTROL 可編輯]**&#x200B;中。
+設為&#x200B;**[!UICONTROL 可複製]**&#x200B;或&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色的管理員，在開啟專案時將獲得這些有限的體驗。如有需要，管理員可隨時透過&#x200B;**[!UICONTROL 元件] > [!UICONTROL 專案]**&#x200B;將其角色增加到&#x200B;**[!UICONTROL 可編輯]**&#x200B;中。
 
 ## 將收件者新增至共用專案 {#Add}
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 1. (可選) 與所有收件者共用內嵌的專案元件 (區段、計算量度、日期範圍)。
 共用後，這些元件會出現在收件者工作區的「元件」下拉式清單中。請注意，系統不會沿用此設定，此為共用時的單次動作。
 1. (可選) 將此頁面設為收件者的登陸頁面。系統不會沿用此設定，此為共用時的單次動作。
-1. 按一下「共用」。您也可以按一下&#x200B;**[!UICONTROL 組織與共用]**&#x200B;自動套用專案組織。如果專案已共用，這些按鈕將會顯示&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 組織與更新]**。深入瞭解[專案組織](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)。
+1. 按一下「共用」。您也可以按一下&#x200B;**[!UICONTROL 組織與共用]**&#x200B;自動套用專案組織。如果專案已共用，這些按鈕將會顯示&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 組織與更新]**。深入瞭解[專案組織](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate.html)。
 
 ![](assets/share-proj-modal.png)
 
@@ -64,11 +64,11 @@ ht-degree: 94%
 
 ## 共用專案連結 {#Links}
 
-您可以在&#x200B;**[!UICONTROL 共用]>[!UICONTROL 取得專案連結]**&#x200B;下取得專案連結。點選後，收件者必須先登入，才能登入專案。如果收件者未設置於角色中，則將獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。[進一步瞭解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) 關於建立可分享的工作區專案連結。
+您可以在&#x200B;**[!UICONTROL 共用] > [!UICONTROL 取得專案連結]**&#x200B;下取得專案連結。點選後，收件者必須先登入，才能登入專案。如果收件者未設置於角色中，則將獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。[深入了解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)如何建立工作區專案分享連結。
 
 ## 在專案管理員中共用專案 {#Manager}
 
-您也可以從&#x200B;**[!UICONTROL 元件]>[!UICONTROL 專案]**&#x200B;來共用專案。依照上述步驟操作，可共用單一專案。如果選取了多個要共用的專案，收件者將會新增至每個專案的現有收件者清單。
+您也可以從&#x200B;**[!UICONTROL 元件] > [!UICONTROL 專案]**&#x200B;來共用專案。依照上述步驟操作，可共用單一專案。如果選取了多個要共用的專案，收件者將會新增至每個專案的現有收件者清單。
 
 例如：
 
@@ -87,6 +87,6 @@ ht-degree: 94%
 | 問題 | 回答 |
 |---|---|
 | 如果兩個編輯者同時儲存專案，會發生什麼情況？ | 不會合併變更，而會保留最後儲存的專案版本。Analysis Workspace 目前不支援即時共同作業。 |
-| 身為管理員，我會有何種專案體驗？ | 設為&#x200B;**[!UICONTROL 可複製]**&#x200B;或&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色的管理員，在開啟專案時將獲得這些有限的體驗。如有需要，管理員可隨時透過&#x200B;**[!UICONTROL 元件]>[!UICONTROL 專案]**&#x200B;將其角色增加到&#x200B;**[!UICONTROL 可編輯]**&#x200B;中。 |
+| 身為管理員，我會有何種專案體驗？ | 設為&#x200B;**[!UICONTROL 可複製]**&#x200B;或&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色的管理員，在開啟專案時將獲得這些有限的體驗。如有需要，管理員可隨時透過&#x200B;**[!UICONTROL 元件] > [!UICONTROL 專案]**&#x200B;將其角色增加到&#x200B;**[!UICONTROL 可編輯]**&#x200B;中。 |
 | 如果某個收件者以個人身分設置於某個角色，又以群組成員身分設置於另一個角色，會發生什麼情況？ | 如果收件者獲得多個角色，將一律會有較高的體驗。例如，如果收件者以個人身分獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色，則將獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;專案體驗。 |
-| 如果收件者開啟了專案連結，將有何體驗？ | 收件者會獲得您在分享模式中為其設置的角色。收件者若未被指派任何角色，且收到專案的連結 (**[!UICONTROL 共用]>[!UICONTROL 取得專案連結]**)，將會獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。 |
+| 如果收件者開啟了專案連結，將有何體驗？ | 收件者會獲得您在分享模式中為其設置的角色。收件者若未被指派任何角色，且收到專案的連結 (**[!UICONTROL 共用] > [!UICONTROL 取得專案連結]**)，將會獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。 |
