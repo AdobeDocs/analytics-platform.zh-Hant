@@ -16,10 +16,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 3fbeb322b21d7211363b3bfaaedbd8acf6c41fa7
+source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 98%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 100%
    + [執行進階分析](analysis-workspace/perform-adv-analysis.md)
    + 建立工作區專案 {#build-workspace-project}
       + [建立專案 - 概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
       + 欄和列的設定 {#column-row-settings}
          + [欄設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
@@ -94,13 +95,13 @@ ht-degree: 100%
       + [自由表格面板](analysis-workspace/c-panels/freeform-panel.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
    + 組織或共用專案 {#curate-share}
-      + [組織工作區專案](analysis-workspace/curate-share/curate.md)
-      + [共用工作區專案](analysis-workspace/curate-share/share-projects.md)
+      + [共用功能表](analysis-workspace/curate-share/send-schedule-files.md)
+      + [組織專案](analysis-workspace/curate-share/curate.md)
+      + [共用專案](analysis-workspace/curate-share/share-projects.md)
       + [建立分享連結](analysis-workspace/curate-share/shareable-links.md)
-      + [僅限檢視的工作區專案](analysis-workspace/curate-share/view-only-projects.md)
+      + [僅供檢視的專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
-      + [共用和排程專案檔案](analysis-workspace/curate-share/send-schedule-files.md)
-      + [傳送檔案 - 排程專案進行傳送](analysis-workspace/curate-share/t-schedule-report.md)
+      + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
       + [排程專案管理員](analysis-workspace/curate-share/schedule-projects.md)
    + 歸因 IQ {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
