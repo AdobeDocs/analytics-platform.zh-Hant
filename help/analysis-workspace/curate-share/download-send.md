@@ -1,17 +1,16 @@
 ---
 description: 您可以複製分析工作區或以PDF和CSV格式從其下載資料。
 title: 下載 PDF 或 CSV 檔案
-uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
+source-git-commit: b1e1548d05859f392902bb71f946fae01c5cb8c8
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 11%
+source-wordcount: '1042'
+ht-degree: 12%
 
 ---
 
 
-# 下載 PDF 或 CSV 檔案 從工作區
+# 下載 PDF 或 CSV 檔案
 
 >[!NOTE]
 >
@@ -31,7 +30,7 @@ ht-degree: 11%
 
 對於專案下載，請記住：
 
-* 當您要求下載專案時，可以儲存或儲存專案。 但是，只能儲存的專案 [計畫](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
+* 當您要求下載專案時，可以儲存或儲存專案。 但是，只能儲存的專案 [計畫](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
 * 在瀏覽器中下載的PDF匯出可能需要幾分鐘的時間，因為專案會在Adobe伺服器上重新執行，然後再以PDF格式轉譯。 建議您在 PDF 下載到瀏覽器之前不要退出專案。不過，您可以在等待時繼續變更專案。如果PDF的轉譯時間超過5分鐘，則會提示您以電子郵件傳送。
 * PDF下載會呈現為單一頁面，不會套用分頁。
 * 當專案轉譯為PDF時，我們會轉譯頁面上的內容。 如果專案有自訂視覺效果和面板，您必須將其變更為自動縮放 (右上角按鈕)，內容才不會遭截斷。
