@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
-translation-type: ht
-source-git-commit: b870cf19c05d92de33edfbc0a6142b7b146256d3
-workflow-type: ht
-source-wordcount: '871'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a4a655c5ee6aa8f72ba527baf5e841f76d9b9486
+workflow-type: tm+mt
+source-wordcount: '945'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,8 @@ ht-degree: 100%
 | eVar 持續性設定 | eVar 不再是 CJA 的一部分。不過持續性設定現在是資料檢視的一部分，可用於所有維度。請記得，持續性是依據報表時間處理，而非資料收集處理。這表示所有持續性都將以報表日期範圍為基礎，而非資料整體。 |
 | 分類 | 現在稱為「查找資料集」，系統不會自動從傳統 Analytics 匯入這類資料集，必須先上傳至 AEP，才能在 CJA 中使用。 |
 | 客戶屬性 | 現在稱為「設定檔資料集」，系統不會自動從 Experience Cloud 匯入這類資料集，但必須先上傳到 AEP，才能在 CJA 中使用。 |
+| 裝置、瀏覽器、技術維度 | 當AEP資料集包含特定XDM架構欄位並符合XDM體驗事件類別時，會自動包含這些維度。 |
+| 登入點、退出點和逗留時間維度與量度 | 支援（「登入與退出」現在稱為「作業開始」和「作業結束」），計算方式稍有不同。 |
 
 ## 部分支援
 
@@ -66,6 +68,10 @@ ht-degree: 100%
 | 區段 IQ | 已規劃提供支援。 |
 | 區段發佈 (將區段從工作區傳送至 Experience Cloud) | 已規劃提供支援。 |
 | CSV 下載 | 已規劃提供支援。 |
+| 量度重複資料刪除 | 已規劃提供支援。 |
+| 自訂行事曆 | 已規劃提供支援。 |
+| 量度重複資料刪除 | 已規劃提供支援。 |
+| 銷售變數永續性 | 已規劃提供支援。 |
 | 排程報表/專案 | 已規劃提供支援。 |
 | 警報 | 已規劃提供支援。 |
 | 自訂行事曆 | 已規劃提供支援。 |
