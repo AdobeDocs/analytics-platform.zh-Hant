@@ -1,16 +1,16 @@
 ---
-description: ' Analysis Workspace 及其相關元件的已知限制清單：'
-title: Analysis Workspace 的已知限制
+description: 分析工作區及其相關元件中的錯誤訊息清單
+title: 錯誤訊息
 translation-type: tm+mt
-source-git-commit: 3d3620ef9180688b6216be0c930769e0f836370a
+source-git-commit: 130dd81b580a8a011d24401918c9cb1d6bb545e7
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 39%
+source-wordcount: '326'
+ht-degree: 34%
 
 ---
 
 
-# 常見錯誤訊息
+# 錯誤訊息
 
 在與分析工作區互動時，您可能會遇到也會影響效能的錯誤。 以下列出最常見的錯誤類型、產生原因，以及可進行的最佳化。
 
