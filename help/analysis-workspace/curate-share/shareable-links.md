@@ -1,17 +1,21 @@
 ---
-description: 了解如何建立專案或視覺化效果的分享連結
+description: 了解如何建立專案或視覺效果的分享連結
 keywords: Analysis Workspace sharing
 title: 建立分享連結
-translation-type: ht
-source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
-workflow-type: ht
-source-wordcount: '296'
+translation-type: tm+mt
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+workflow-type: tm+mt
+source-wordcount: '331'
 ht-degree: 100%
 
 ---
 
 
 # 建立分享連結
+
+>[!NOTE]
+>
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace 提供許多與使用者共用專案的方式，包括取得專案連結或專案特定部分的功能。使用者收到連結後須先登入 Adobe Analytics，才能進入專案。
 
@@ -21,21 +25,21 @@ Analysis Workspace 提供許多與使用者共用專案的方式，包括取得�
 
 ![](assets/get-project-link.png)
 
-## 取得面板或視覺化效果連結 {#panel-link}
+## 取得面板或視覺效果連結 {#panel-link}
 
-您也可以分享專案特定部分的連結，例如面板或個別視覺化效果，有時也稱為內部連結。此功能有助於讓使用者專注於專案中重要的深入分析。
+您也可以分享專案特定部分的連結，例如面板或個別視覺效果，有時也稱為內部連結。此功能有助於讓使用者專注於專案中重要的深入分析。
 
 * 在面板的任一標題上按一下右鍵，並選取&#x200B;**[!UICONTROL 「取得面板連結」]**
-* 在任一表格或視覺化效果的標題上按一下右鍵，並選取&#x200B;**[!UICONTROL 「取得視覺化效果連結」]**
+* 在任一表格或視覺效果的標題上按一下右鍵，並選取&#x200B;**[!UICONTROL 「取得視覺效果連結」]**
 
-[「觀看影片」](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html)以了解如何建立連結，並使用連結引導收件者前往專案的特定部分。
+[觀看影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html)以了解如何建立連結，並使用連結引導收件者前往專案的特定部分。
 
 ![](assets/get-viz-link.png)
 
 ## 在目錄中使用連結 {#TOC}
 
-運用各種連結選項的秘訣之一，就是一律在工作區專案的頂端加入目錄。您可以透過目錄連結至其他相關專案、特定面板，以及特定的視覺化效果。如此有助於專案的收件者輕鬆導覽。
+運用各種連結選項的秘訣之一，就是一律在工作區專案的頂端加入目錄。您可以透過目錄連結至其他相關專案、特定面板，以及特定的視覺效果。如此有助於專案的收件者輕鬆導覽。
 
-[「觀看影片」](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html)以了解如何使用連結和工作區功能齊全的文字編輯器，輕鬆建立目錄。
+[觀看影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html)以了解如何使用連結和工作區功能齊全的文字編輯器，輕鬆建立目錄。
 
 ![](assets/toc.png)
