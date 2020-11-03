@@ -3,15 +3,19 @@ description: 工作區中僅限檢視的專案
 keywords: View-only projects
 title: 僅供檢視的專案
 translation-type: tm+mt
-source-git-commit: 9af9d7331d70fa37e1f138cb5a4b4064c34fec5e
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '281'
 ht-degree: 98%
 
 ---
 
 
 # 僅供檢視的專案
+
+>[!NOTE]
+>
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 您可以透過[專案共用工作流程](/help/analysis-workspace/curate-share/share-projects.md)，將專案以「僅限檢視」的形式與收件者共用。設置於「可檢視」角色的收件者，將獲得更為限定的專案體驗。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Adobe Analytics 的使用者共用專案，但您仍希望他們能在安全的環境中使用資料和深入分析，就可以採取此做法。
 
