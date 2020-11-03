@@ -3,15 +3,19 @@ description: 透過電子郵件傳送 Analysis Workspace 專案，或排程進�
 keywords: Analysis Workspace
 title: 排程專案
 translation-type: tm+mt
-source-git-commit: 6f8973fe6277f3b28b13a61cd65d630398fb3aaa
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '503'
 ht-degree: 99%
 
 ---
 
 
 # 排程專案
+
+>[!NOTE]
+>
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 您可以從工作區的&#x200B;**「共用」功能表**，透過電子郵件將 Analysis Workspace 專案傳送給選取的收件者。能以 CSV 或 PDF 格式傳送檔案。
 
