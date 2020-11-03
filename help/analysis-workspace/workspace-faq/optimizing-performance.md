@@ -3,15 +3,19 @@ description: 影響工作區效能和最佳化的因素
 title: 分析工作區效能因素與最佳化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: fb7738a47818e62e8f90b9dd9e4c1abe842214d8
+source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 25%
+source-wordcount: '1839'
+ht-degree: 27%
 
 ---
 
 
 # 最佳化 [!UICONTROL 分析工作區效能]
+
+>[!NOTE]
+>
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 各種因素都會影響分析工作區中專案的效能。 在您開始建立專案之前，請務必先瞭解這些貢獻者的身分，以便您能以最佳的方式規劃和建立專案。 本頁包含影響效能的因素清單，以及您可在分析工作區中最佳化以確保最佳效能的因素。
 
