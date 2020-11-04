@@ -2,10 +2,10 @@
 title: 歸因概觀
 description: 將成功事件的評分歸因於多個維度項目的概念。
 translation-type: tm+mt
-source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 >
 >您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
-歸因可讓分析者自訂維度項目如何獲得成功事件的評分。 例如：
+歸因可讓分析人員自訂維度項目獲得成功事件評分的方式。例如：
 
 1. 您的網站訪客按了一下您其中一個產品頁面的付費搜尋連結。他們將產品新增至購物車，但並未購買。
 2. 隔天，他們看到了朋友的社交媒體貼文，就按下連結，並完成購買。
@@ -45,6 +45,6 @@ Adobe Analytics 強化了歸因功能，讓您可以：
 歸因 IQ 包含下列功能:
 
 * [歸因面板](../c-panels/attribution.md)：取用任何維度和量度，並將其與不同的歸因模型快速比較。
-* [將歸因套用至量度](../build-workspace-project/column-row-settings/column-settings.md)：對專案中的任何量度使用非預設歸因。
+* [將歸因套用至量度](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)：對專案中的任何量度使用非預設歸因。
 * [將歸因套用至劃分](/help/components/dimensions/t-breakdown-fa.md)：對劃分使用非預設歸因。
 * [比較歸因模型](/help/components/apply-create-metrics.md)：快速瞭解不同歸因模型與任何量度的比較情形。
