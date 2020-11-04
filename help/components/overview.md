@@ -1,9 +1,9 @@
 ---
 title: 元件概觀
 description: 了解 CJA 提供哪些元件，以及如何在報表中使用這些元件。
-translation-type: ht
-source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，您可將它們拖放至專案上。您建立的自訂元件會加入至這些面板，例如自訂日期範圍。
 
-若要存取「元件」面板，請按一下左側邊欄中的&#x200B;**[!UICONTROL 「元件」]**&#x200B;圖示。您可以利用左欄圖示或[快捷鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，在各面板 (空白面板、[自由表格面板](/help/analysis-workspace/visualizations/freeform-table.md)、[快速深入分析面板](/help/analysis-workspace/c-panels/quickinsight.md)或[歸因 IQ](/help/analysis-workspace/c-panels/attribution.md) 面板)、[視覺化效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件之間來回切換。
+若要存取「元件」面板，請按一下左側邊欄中的&#x200B;**[!UICONTROL 「元件」]**&#x200B;圖示。您可以利用左欄圖示或[快捷鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，在各面板 (空白面板、[自由表格面板](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)、[快速深入分析面板](/help/analysis-workspace/c-panels/quickinsight.md)或[歸因 IQ](/help/analysis-workspace/c-panels/attribution.md) 面板)、[視覺化效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件之間來回切換。
 
 ![](assets/components.png)
 
@@ -52,4 +52,4 @@ Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，�
 
 觀看建立量度、區段和日期的說明影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/23979?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/23979)
