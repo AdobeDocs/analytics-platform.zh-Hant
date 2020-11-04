@@ -16,9 +16,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: a5f7a17d99d5ea7c8f944d02fb304bddf759030a
+source-git-commit: 1a1b439f4b2c8d7a03dd6431edd5271fc5af0b18
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '404'
 ht-degree: 97%
 
 ---
@@ -48,20 +48,20 @@ ht-degree: 97%
       + [建立專案 - 概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
-      + 欄和列的設定 {#column-row-settings}
-         + [欄設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
-         + [列設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [動態與靜態項目](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
-      + [還原和重做設定](analysis-workspace/build-workspace-project/undo-redo.md)
-      + [Analysis Workspace 中可用的快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [分頁、篩選及分類表格](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
+      + [快速鍵（快速鍵）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
-      + [工作區總計](analysis-workspace/build-workspace-project/workspace-totals.md)
    + 視覺效果 {#visualizations}
       + [視覺效果概觀](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理資料來源](analysis-workspace/visualizations/t-sync-visualization.md)
-      + [自由表格](analysis-workspace/visualizations/freeform-table.md)
+      + 自由表格 {#freeform-table}
+         + [自由表格](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + 欄和列的設定 {#column-row-settings}
+            + [欄設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
+            + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+            + [動態與靜態項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [分頁、篩選及分類表格](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [工作區總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [同類群組分析是什麼？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定同類群組分析報表](analysis-workspace/visualizations/cohort-table/t-cohort.md)
