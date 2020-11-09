@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 常見問題集
 description: Customer Journey Analytics - 常見問題集。
 translation-type: tm+mt
-source-git-commit: 3b3d0b0858d559e94f1bed6a31a63b018ed32a23
+source-git-commit: 830e7d71ad38539d1a73fe2df9f8886956f57acc
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 40%
+source-wordcount: '1284'
+ht-degree: 42%
 
 ---
 
@@ -57,11 +57,11 @@ ht-degree: 40%
 
 | 如果我…… | 這可能發生在下列情形... |
 | --- | --- |
-| 刪除沙盒(位於 [!UICONTROL Adobe Experience Platform]? | 刪除沙盒會中斷任何 [!UICONTROL 客戶歷程分析] 連線到沙盒中的資料集。 不過，CJA中的資料集目前不會刪除。 |
+| 刪除沙盒(位於 [!UICONTROL Adobe Experience Platform]? | 刪除沙盒會停止資料流至任何 [!UICONTROL 客戶歷程分析] 連線到沙盒中的資料集。 目前，系結至該沙盒的CJA連線不會自動刪除。 |
 | 刪除中的架構 [!UICONTROL Adobe Experience Platform]，但與此模式關聯的資料集不是嗎？ | [!UICONTROL Adobe Experience Platform] 不允許刪除具有一個或多個與其關聯資料集的方案。 不過，具有適當權限集的管理員可以先刪除資料集，然後刪除架構。 |
-| 刪除中的資料集 [!UICONTROL Adobe Experience Platform]? | 在 [!UICONTROL 客戶歷程分析];不過，如果啟用串流資料，刪除資料集後不會再有新資料傳入。<br>換言之，如果 **[!UICONTROL 從此連接中自動導入所有新資料集，從今天開始]** 在連線中，刪除資料集後不會再傳入新資料。 |
+| 刪除中的資料集 [!UICONTROL Adobe Experience Platform]? | 在AEP中刪除資料集會停止資料從該資料集流向包含該資料集的任何連線。 該資料集中的任何資料不會自動從關聯的CJA連線中刪除。 |
 | 刪除中的資料集 [!UICONTROL 客戶歷程分析]? | 目前，您無法刪除已儲存連線中的資料集。 您必須刪除整個連接，然後重頭開始。 (不過，您可以刪除 [!UICONTROL Adobe Experience Platform].) |
-| 從資料集刪除批次(在 [!UICONTROL Adobe Experience Platform])? | 如果批已被吸收到 [!UICONTROL 客戶歷程分析]的 [!UICONTROL 客戶歷程分析] 目前並不知道批已刪除。 如果批未被攝入，則當批刪除至 [!UICONTROL Adobe Experience Platform]. |
+| 從資料集刪除批次(在 [!UICONTROL Adobe Experience Platform])? | 如果從AEP資料集刪除批次，則會從包含該特定批次的任何CJA連線移除相同批次。 |
 | 刪除批 **在被吸食的同時** into [!UICONTROL 客戶歷程分析]? | 如果資料集中只有一個批次，則該批次的資料或部分資料不會出現在 [!UICONTROL 客戶歷程分析]. 將回退攝取。 例如，如果資料集中有5個批次，且刪除資料集時已收錄其中3個批次，則這3個批次的資料會出現在 [!UICONTROL 客戶歷程分析]. |
 | 刪除中的連接 [!UICONTROL 客戶歷程分析]? | 錯誤訊息會指出：<ul><li>為已刪除的連接建立的任何資料視圖將不再工作。</li><li> 同樣地，任何依賴已刪除連線中資料檢視的工作區專案都將停止運作。</li></ul> |
 | 刪除 [!UICONTROL 客戶歷程分析]? | 錯誤訊息會指出任何依賴此已刪除資料檢視的工作區專案將停止運作。 |
