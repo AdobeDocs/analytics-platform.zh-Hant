@@ -3,6 +3,8 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.zh-Hant
 cloud: experience-cloud
 product: adobe analytics
 sub-product: 客戶歷程
+solution: Customer Journey Analytics
+type: Documentation
 index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 跨通道分析的新一代解決方案 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供自助協助資訊。
@@ -16,7 +18,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 1a1b439f4b2c8d7a03dd6431edd5271fc5af0b18
+source-git-commit: 5fe2177d8e1da64304b0f9c84caa5383b6909d06
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 97%
