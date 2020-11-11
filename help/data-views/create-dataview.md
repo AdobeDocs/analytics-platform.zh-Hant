@@ -2,10 +2,10 @@
 title: 建立資料檢視
 description: 說明如何在 Customer Journey Analytics (CJA) 中為 Platform 資料集建立資料檢視。
 translation-type: tm+mt
-source-git-commit: de265170126c1a9fc1f66364a79a74ff487d0b71
+source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 94%
 
 ---
 
@@ -54,3 +54,7 @@ Customer Journey Analytics 中的工作區專案是以資料檢視為基礎。
 1. (可選) 您可以將元件重新命名為好記的名稱，或選取元件並編輯其設定來變更其歸因設定。請注意，基礎名稱會保留。如需詳細資訊，請參閱[設定資料檢視和歸因](/help/data-views/configure-dataviews.md)。
 
 1. 接下來的步驟是[指定元件和歸因設定](/help/data-views/configure-dataviews.md)。
+
+## 刪除資料檢視
+
+如果您刪除[!UICONTROL 客戶歷程分析]中的資料檢視，錯誤訊息會指出任何依賴此已刪除資料檢視的工作區專案將停止運作。
