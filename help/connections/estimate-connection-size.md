@@ -2,9 +2,9 @@
 title: 估計連接大小
 description: 報告您目前使用「客戶歷程分析」的情況（用於計費用途）
 translation-type: tm+mt
-source-git-commit: 62172cafb080e4eb4a1bba2c9d7d874fe68d14b2
+source-git-commit: 443b878d90c52ae29fe127b4b6f151c4fbc3a0e9
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,6 @@ ht-degree: 0%
 
    ![劃分](assets/data-size2.png)
 
-1. 此外，如果我們登入[!UICONTROL Adobe Experience Platform]，則沒有Id為「5f21c12b732044194bffc1d0」的資料集，因此當建立初始連線時，有人會從[!UICONTROL Adobe Experience Platform]刪除此特定資料集…… 之後，它又新增至[!UICONTROL 客戶歷程分析]，但不同的[!UICONTROL 平台資料集ID]是由[!UICONTROL Adobe Experience Platform]產生。
+1. 此外，如果我們登入[!UICONTROL Adobe Experience Platform]，則沒有Id為「5f21c12b732044194bffc1d0」的資料集，因此當建立初始連線時，有人會從[!UICONTROL Adobe Experience Platform]刪除此特定資料集…… 之後，它又新增至[!UICONTROL 客戶歷程分析]，但是由[!UICONTROL Adobe Experience Platform]產生不同的[!UICONTROL 平台資料集ID]。
 
    閱讀[!UICONTROL 客戶歷程分析]和[!UICONTROL Adobe Experience Platform]中資料集和連線刪除[的涵義。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components)
