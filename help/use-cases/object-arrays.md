@@ -2,9 +2,9 @@
 title: 使用物件陣列
 description: 了解 CJA 如何針對資料階層製作報表。
 translation-type: tm+mt
-source-git-commit: 76cedb931085e8b5b59d7c5c3929bf4b5c010d9d
+source-git-commit: 6229c5bb08f6f153c625932ed06e85030bc08c5a
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -263,6 +263,3 @@ CJA 本身不會結合名稱相似但物件層級不同的量度。
 | `Washing Machines` | `1850` |
 | `Dryers` | `500` |
 | `Total` | `2350` |
-
-## 持續性範例
-
