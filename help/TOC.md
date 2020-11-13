@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
+source-git-commit: 8eb7d3e24a941eaf882426e230561e2bf0d0145e
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 96%
+source-wordcount: '424'
+ht-degree: 93%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 96%
    + [管理連線](connections/manage-connection.md)
    + [估計連接大小](connections/estimate-connection-size.md)
    + [合併事件資料集](connections/combined-dataset.md)
+   + 跨通道分析{#cca}
+      + [跨通道分析概觀](connections/cca/overview.md)
+      + [重播的運作方式](connections/cca/replay.md)
+      + [跨通道分析常見問答集](connections/cca/faq.md)
 + 資料檢視 {#cja-dataviews}
    + [建立資料檢視](data-views/create-dataview.md)
    + [設定資料檢視和歸因](data-views/configure-dataviews.md)
@@ -152,6 +156,7 @@ ht-degree: 96%
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [使用物件陣列](use-cases/object-arrays.md)
    + [(B2B) 新增帳戶層級資料作為查詢資料集](use-cases/b2b.md)
+   + [匯入客服中心和Web資料](use-cases/call-center.md)
    + [資料內嵌使用案例](use-cases/data-ingestion.md)
 + 隱私權 {#cja-privacy}
    + [隱私權概觀](privacy/privacy-overview.md)
