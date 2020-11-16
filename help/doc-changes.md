@@ -2,10 +2,10 @@
 title: CJA 文件更新
 description: '列出自2019年12月以來客戶歷程分析檔案集的內容更新。 '
 translation-type: tm+mt
-source-git-commit: fa70d59a4c30b78c09ea9d11dfc804bf12e9b603
+source-git-commit: 06079f13a61ec9732a69c8acee0bed7356910a84
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 19%
+source-wordcount: '205'
+ht-degree: 17%
 
 ---
 
@@ -16,7 +16,9 @@ CJA檔案自成立以來進行了以下更新。
 
 | 日期 | 更新說明 |
 | --- | --- |
-| 2020 年 11 月 11 日 | 已新增[估計連線大小](/help/connections/estimate-connection-size.md)的主題，以用於帳單用途。 |
+| 2020 年 11 月 13 日 | [跨通道Analytics](/help/connections/cca/overview.md)的新主題，可讓您重新鍵入資料集的人員ID，以便順暢地組合多個資料集。 |
+| 2020 年 11 月 13 日 | 已新增[匯入呼叫中心和Web資料](/help/use-cases/call-center.md)的新使用案例。 |
+| 2020 年 11 月 11 日 | 已在[估計連接大小](/help/connections/estimate-connection-size.md)上添加主題。 |
 | 2020 年 11 月 10 日 | 已新增有關刪除資料元件之含意的章節至[常見問答](/help/getting-started/cja-faq.md)。 |
 | 2020 年 11 月 2 日 | [客戶歷程分析功能支援](/help/getting-started/cja-aa.md)頁面的更新。 |
 | 2020 年 10 月 7 日 | 在[組合事件資料集](/help/connections/combined-dataset.md)上新增主題。 |
