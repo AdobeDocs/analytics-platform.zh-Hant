@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 指南
 description: Customer Journey Analytics 登陸頁面。
-translation-type: ht
-source-git-commit: 8cf9f257ccf2afd830a7f8e211c8e42b3f786e86
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4c4463fe1c7454ede80330d8889bc4157eb99fca
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 83%
 
 ---
 
@@ -23,14 +23,12 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p> 
      <ul>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-overview.html#user-access-permissions"> 更新使用者權限要求 (自 2020 年 9 月 9 日起) </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-usecases/object-arrays.html"> 使用物件陣列 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections"> 跨通道分析的新檔案（在客戶歷程分析中拼接ID）  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions"> 更新使用者權限需求  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en#cja-usecases"> 使用物件陣列 </a> </li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-usecases/b2b.html"> 新增帳戶層級資料作為查詢資料集 </a> </li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 快速入門 </a> </li> 
       <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-faq.html"> 常見問題集</a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-glossary.html">Customer Journey Analytics 詞彙</a> </li> 
-      <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> Adobe Analytics API 2.0</a> </li> 
-     </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>發行說明</b> </p> 
     <ul> 
      <li>請參閱最新的 <a href="https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 發行說明</a>，瞭解全新功能和修正內容。 </li> 
