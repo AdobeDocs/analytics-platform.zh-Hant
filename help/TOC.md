@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 8eb7d3e24a941eaf882426e230561e2bf0d0145e
+source-git-commit: e0946d2e0490e25314367a86ed241eadd09b09e5
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 93%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
@@ -158,6 +158,7 @@ ht-degree: 93%
    + [(B2B) 新增帳戶層級資料作為查詢資料集](use-cases/b2b.md)
    + [匯入客服中心和Web資料](use-cases/call-center.md)
    + [資料內嵌使用案例](use-cases/data-ingestion.md)
+   + [使用行銷渠道維度](use-cases/marketing-channels.md)
 + 隱私權 {#cja-privacy}
    + [隱私權概觀](privacy/privacy-overview.md)
 + [CJA 文件更新](doc-changes.md)
