@@ -1,9 +1,9 @@
 ---
 title: 合併事件資料集
 description: 了解 CJA 如何透過合併資料集來建立連線。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ef05a948cb2036db24c8e308695e3615613d98d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
 
@@ -72,5 +72,5 @@ ht-degree: 100%
 | string_color | metric_a |
 | --- | --- |
 | 黃色 | 6 |
-| 藍色 | 3 |
+| 藍色 | 1 |
 | 紅色 | 2 |
