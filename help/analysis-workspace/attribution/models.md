@@ -1,6 +1,6 @@
 ---
 title: 歸因模型與回顧期間
-description: 不同類型的歸因如何劃分維度項目之間的評分。
+description: 不同類型的歸因將評分分配給維度項目的方式。
 translation-type: tm+mt
 source-git-commit: e32311ce4975107e1b7ca2cb2eaadc2c68a93c92
 workflow-type: tm+mt
@@ -49,7 +49,7 @@ Adobe Analytics 中的歸因概念需要兩個元件：
 
 >[!NOTE]
 >
->**[!UICONTROL 自訂回顧視窗]** 目前正在進行有限的測試。 請參閱 [Adobe Analytics功能發行](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) 的上界。
+>**[!UICONTROL 自訂回顧]** 視窗目前處於有限測試中。如需詳細資訊，請參閱[Adobe Analytics功能版本](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)。
 
 ## 範例
 
