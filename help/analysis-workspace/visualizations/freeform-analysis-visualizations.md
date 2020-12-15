@@ -15,7 +15,7 @@ ht-degree: 95%
 
 工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。每個視覺效果都有各自的設定可供您管理。按一下視覺效果名稱，取得更詳細的資訊。
 
-教學影片： [分析工作區中的視覺化類型](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
+教學影片：分析工作區中的[視覺化類型](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html)(2:57)
 
 | 視覺效果名稱 | 說明 |
 | --- | --- |
@@ -39,7 +39,7 @@ ht-degree: 95%
 
 ## 視覺效果面板 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-若要顯示「視覺化」面板，請按一下 **[!UICONTROL 視覺化]** 在左邊欄上。
+若要顯示「視覺化」面板，請按一下左側導軌中的「視覺化」****。
 
 ![步驟結果](assets/visualizations.png)
 
