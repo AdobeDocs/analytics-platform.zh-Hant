@@ -15,7 +15,7 @@ ht-degree: 92%
 
 您可以根據 Analysis Workspace 中的內容檢視和分析資料異常。
 
-[異常偵測教學課程影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
+[異常偵測教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。
 
