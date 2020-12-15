@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 658561ae2f84ab1de87dbb224e3e1b663f64383f
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 * 更廣泛的一般流量流程：此流量可顯示在瀏覽過首頁的人當中，有多少人接下來執行了搜尋操作，接著又有多少人最終瀏覽至某一特定項目。
 * 網站上事件之間的關聯。關聯顯示在瀏覽過隱私政策的人當中，有百分之幾的人接下來執行了購買操作。
 
-[流失視覺化教學課程影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[流失視覺化影片教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
 ## 區段作為流量和流失的基礎 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
