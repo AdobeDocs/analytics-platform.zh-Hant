@@ -20,6 +20,6 @@ Virtual Analyst 是 Adobe Analytics 中的一組功能，可運用預測演算�
 
 ## 功能 {#features}
 
-客戶歷程分析中的虛擬分析師包括 [異常偵測：](c-anomaly-detection/anomaly-detection.md)，它提供統計方法，以判斷指定量度與先前資料的變更方式。
+「客戶歷程分析」中的虛擬分析師由[異常偵測：](c-anomaly-detection/anomaly-detection.md)組成，提供統計方法，以判斷指定量度與先前資料的變更。
 
 「客戶歷程分析」尚未提供「貢獻分析」和「智慧提醒」。
