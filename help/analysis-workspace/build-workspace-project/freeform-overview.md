@@ -33,13 +33,13 @@ ht-degree: 84%
 
 | 元素 | 說明 |
 |---|---|
-| 建立新專案 | 按一下此連結以 [從頭開始新專案](/help/analysis-workspace/home.md). |
+| 建立新專案 | 按一下此連結以從頭開始建立新專案](/help/analysis-workspace/home.md)。[ |
 | 管理專案 | 按一下此連結即可將您導向「專案元件管理員」(**[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 專案]**」)，它會列出您的所有專案，並讓您標記、共用、刪除、重新命名、核准、複製，以及將專案匯出為 CSV。 |
 | 設定為登陸頁面 | 將此頁面轉換為您的工作區登陸頁面。 |
-| 觀看教學課程 | 將您帶至 [分析工作區教學課程影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
+| 觀看教學課程 | 帶您前往[分析工作區教學課程影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html)。 |
 | 名稱 | 「工作區」專案名稱。 |
 | 擁有者 | 建立此專案的人 (您或與您共用專案的人)。 |
-| 類型 | 指出這是工作區專案還是 [Mobile Scorecard](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html). |
+| 類型 | 指出這是工作區項目還是[Mobile Scorecard](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html)。 |
 | 專案角色 | 指出您是「擁有者」、是否可以編輯專案，或此專案是否為「複製」專案。 |
 | 標記 | 套用至專案的標記，位於「專案元件管理員」或&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]**」。 |
 | 上次修改 | 上次修改專案的日期和時間。 |
@@ -89,7 +89,7 @@ ht-degree: 84%
 | 下載 PDF* |  |  |  |  |  |
 | 專案資訊和設定 |  |  |  |  |  |
 
-## 左側邊欄 {#section_271295C26EC840ABB2A8E7EC0498B60E}
+## 左側邊欄  {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
 左側邊欄有 3 個圖示，您只需按一下即可存取「面板」、[「視覺效果」](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和[「元件」](/help/components/overview.md)(維度、量度、區段、資料範圍)：
 
