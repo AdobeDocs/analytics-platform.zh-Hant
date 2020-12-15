@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 快速見解]** 面板目前測試有限。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)
+>**[!UICONTROL Quick]** Insightspanel目前測試有限。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)
 
 [!UICONTROL 快速深入分析]為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。對於想要快速解答簡單的問題而無須自行建立表格的進階使用者，這也是絕佳的工具。
 
