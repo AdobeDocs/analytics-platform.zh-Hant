@@ -1,9 +1,9 @@
 ---
 title: 建立篩選器
 description: 了解建立篩選器的使用者介面。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
 
@@ -48,4 +48,4 @@ ht-degree: 100%
 | 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在[「組織與共用」](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，您可以了解套用至專案的篩選條件可如何供收件者在共用分析中使用。 |
 | 將篩選條件作為維度使用 | 影片：在 Analysis Workspace 中將篩選條件作為維度使用 |
 
->[!VIDEO](https://video.tv.adobe.com/v/23974?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/23974)
