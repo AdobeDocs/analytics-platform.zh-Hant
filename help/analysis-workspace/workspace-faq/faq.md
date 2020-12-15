@@ -20,7 +20,7 @@ ht-degree: 87%
 |--- |--- |
 | 使用 Analysis Workspace 的必要條件為何？ | 使用分析工作區需要有效的客戶歷程分析實施。 請確定您的組織在使用該工具之前，已將資料傳送至Adobe Experience Platform。 |
 | Analysis Workspace 的管理和存取需求為何？ | 請參閱[管理需求](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。 |
-| 使用 Analysis Workspace 是否會影響資料收集？ | Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到工作區專案中，瞭解哪一種組合適合自己。如果您意外將無效的元件拖曳到工作區專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。您也可以按一下左上方功能表中的&#x200B;*[!UICONTROL 「專案]>[!UICONTROL 新專案」]*，以空白顯示窗開始操作。 |
+| 使用 Analysis Workspace 是否會影響資料收集？ | Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到工作區專案中，瞭解哪一種組合適合自己。如果您意外將無效的元件拖曳到工作區專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。您也可以按一下左上方功能表中的&#x200B;*[!UICONTROL 「專案] > [!UICONTROL 新專案」]*，以空白顯示窗開始操作。 |
 | 如何實施 Analysis Workspace？ | 不需要特別實施。「分析工作區」適用於所有客戶歷程分析公司。 但是，內容（例如專案元件）的標準權限會套用，而且適用於組織和共用專案。 請參閱[管理和存取需求](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。 |
 | 如何最佳化 Analysis Workspace 的效能？ | 請參閱[效能最佳化](/help/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 
