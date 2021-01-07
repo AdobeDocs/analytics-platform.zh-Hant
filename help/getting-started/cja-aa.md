@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
 translation-type: tm+mt
-source-git-commit: a4a655c5ee6aa8f72ba527baf5e841f76d9b9486
+source-git-commit: 55b03e01494a5989ab05aa391df5155bcf9d188f
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 94%
+source-wordcount: '985'
+ht-degree: 89%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 94%
 | 功能 | 附註 |
 | --- | --- |
 | 產品變數 | 產品變數目前可用於報告符合「體驗事件」結構的資料 (具體而言是使用 productListItems 物件)。 |
+| 行銷管道 | 行銷管道資料現在會透過Analytics資料連接器流入CJA。 行銷渠道規則仍必須在傳統Adobe Analytics中設定。 不支援某些規則。 如需詳細資訊，請參閱[CJA行銷管道檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases)。 |
 | 視覺效果 | 支援所有視覺效果，但地圖視覺效果除外。 |
 | 專案共用 | 專案共用功能僅支援在 CJA 的使用者之間使用 - CJA 與傳統 Analysis Workspace 之間不支援專案共用。 |
 | 自訂工作階段化 | 支援除行動背景點擊以外的所有自訂工作階段化功能。 |
@@ -75,10 +76,11 @@ ht-degree: 94%
 | 排程報表/專案 | 已規劃提供支援。 |
 | 警報 | 已規劃提供支援。 |
 | 自訂行事曆 | 已規劃提供支援。 |
-| 行銷管道 | 已規劃提供支援。 |
 | PDF 匯出 | 已規劃提供支援。 |
 | 報表 API 存取 | 已規劃提供支援 - 僅針對 API 2.0 提供。 |
 | 透過裝置圖表進行 ID 拼接 | 已規劃提供支援。 |
+| Report Builder (Excel 外掛程式) | 已規劃提供支援。 |
+| 即時報表 | 已規劃提供支援。 |
 
 ## 尚未規劃提供支援
 
@@ -87,11 +89,9 @@ ht-degree: 94%
 | A4T | 尚未規劃提供支援。 |
 | Media Analytics | 尚未規劃提供支援。 |
 | Advertising Cloud | 尚未規劃提供支援。 |
-| Report Builder (Excel 外掛程式) | 尚未規劃提供支援。 |
 | Activity Map | 尚未規劃提供支援。 |
 | 分類規則產生器 | 尚未規劃提供支援。 |
 | 摘要資料來源 | 尚未規劃提供支援。 |
-| 即時報表 | 尚未規劃提供支援。 |
 
 ## 永不受支援
 
