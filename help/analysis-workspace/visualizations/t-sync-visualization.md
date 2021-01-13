@@ -3,9 +3,9 @@ description: 同步視覺效果可讓您控制哪些資料表或資料來源會�
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: 管理資料來源
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 100%
 
 # 管理資料來源
 
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
-
 同步視覺效果可讓您控制哪些資料表或資料來源會對應至視覺效果。
 
 **秘訣：**&#x200B;您可以藉由標題旁的點色彩得知哪些視覺效果為相關。相符色彩表示視覺效果是根據相同的資料來源。
 
 管理資料來源可讓您顯示資料來源或鎖定選取項目。這些設定會決定當新資料進入時視覺效果的變更方式 (或不變更)。
 
-1. [建立專案](/help/analysis-workspace/home.md)，內含資料表和[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
+1. [建立專案](//help/analysis-workspace/home.md)，內含資料表和[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
 1. 在資料表中，選取您想關聯至視覺效果的儲存格 (資料來源)。
 1. 在視覺效果中，按一下標題旁的點可開啟&#x200B;**[!UICONTROL 「資料來源」]**&#x200B;對話方塊。選取&#x200B;**[!UICONTROL 「顯示資料來源」]**&#x200B;或&#x200B;**[!UICONTROL 「鎖定選取項目」]**。
 
