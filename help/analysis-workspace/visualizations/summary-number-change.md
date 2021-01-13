@@ -3,19 +3,15 @@ description: 使用「摘要數字」和「摘要變更」視覺效果來呈現�
 title: 摘要數字和摘要變更
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 9733d6471e6f1c886fd27b702654349d6760870c
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
 
 
 # 摘要數字和摘要變更
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 ## 摘要數字視覺效果 {#summary-number}
 
@@ -26,7 +22,15 @@ ht-degree: 100%
 * 如果選取多個儲存格，則會顯示第一個選取的儲存格。
 * 如果選取欄，則會挑選欄中第一個儲存格的值。
 
-![摘要數字](assets/summary-number.png)
+按一下右上角的&#x200B;**「視覺效果設定」**&#x200B;齒輪，設定「摘要數字」設定：
+
+| 設定 | 定義 |
+|--- |--- |
+| 百分比 | 顯示百分比而非原始數據。 |
+| 可見圖例 | 顯示所顯示量度的相關資訊。 |
+| 縮簡值 | 選擇以縮簡值，顯示最多小數點後 3 位。 |
+| 值摘要依據: | 選擇以顯示一系列資料的最大值、最小值、平均值、中間值或總計。 |
+
 
 按一下右上角的&#x200B;**「視覺效果設定」**&#x200B;齒輪，設定「摘要數字」設定：
 
@@ -36,6 +40,7 @@ ht-degree: 100%
 | 可見圖例 | 顯示所顯示量度的相關資訊。 |
 | 縮簡值 | 選擇以縮簡值，顯示最多小數點後 3 位。 |
 | 值摘要依據: | 選擇以顯示一系列資料的最大值、最小值、平均值、中間值或總計。 |
+
 
 ## 摘要變更視覺效果 {#summary-change}
 
@@ -50,7 +55,9 @@ ht-degree: 100%
 * 如果選取某個範圍中的儲存格，會比較該範圍第一個與最後一個選取的儲存格。
 * 如果選取欄，會就第一個值的本身進行比較，顯示變更為 0。
 
-![摘要變更](assets/summary-change.png)
+
+![](assets/summary-change.png)
+
 
 按一下右上角的&#x200B;**「視覺效果設定」**&#x200B;齒輪，設定「摘要變更」設定：
 
