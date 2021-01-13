@@ -2,19 +2,15 @@
 description: Analysis Workspace 的協助工具支援功能
 title: Analysis Workspace 的協助工具
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '661'
+ht-degree: 82%
 
 ---
 
 
 # Analysis Workspace 的協助工具
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 瞭解 Adobe Analytics 的主要分析工具 [!UICONTROL Analysis Workspace] 中的協助工具支援。
 
@@ -26,11 +22,20 @@ ht-degree: 100%
 
 [!UICONTROL Analysis Workspace] 中的導覽可由上至下、由左至右運作。以下是可輔助協助工具的導覽元素：
 
-* `F6` 鍵可讓您找出快速鍵
-* `Tab` 鍵可在個別元素之間移動。
+* `Tab` 鍵可讓您找出快速鍵，在工作區中的較大區段之間移動。 在左側導軌中，`Tab`也可讓您從一個可拖曳選項移至下一個。
+* `left/right arrows`在`Tab`反白顯示後，會在個別元素之間移動。
+* `F6`會導覽至專案中的第一個面板，並在該面板中的視覺化之間移動。 然後，它會移至專案中的下一個面板並重複。
 * 我們套用了焦點指標，讓視力不佳的鍵盤使用者能夠清楚看出目前取得焦點的 UI 元素。此指標是選定元素周圍的藍色邊框。
 
    ![焦點指標](assets/focus-indicator.png)
+
+### 選單列的鍵盤導覽
+
+1. 頁籤，直到您到達菜單欄。
+1. 使用向左／向右方向鍵導覽至您想要的功能表。
+1. 按`Enter`選擇菜單並顯示其選項。
+1. 使用向上／向下鍵導覽至您想要的功能表選項。
+1. 按`Enter`選擇選項。
 
 ### 拖放互動的鍵盤導覽
 
@@ -43,7 +48,7 @@ ht-degree: 100%
 
 ### 鍵盤快速鍵 (熱鍵)
 
-[!UICONTROL Analysis Workspace] 提供了一組豐富的[鍵盤快速鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，讓工作流程更加順暢。以下列出導覽、建立分析和加速深入分析的常用捷徑。
+[!UICONTROL Analysis Workspace] 提供了一組豐富的[鍵盤快速鍵](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)，讓工作流程更加順暢。以下列出導覽、建立分析和加速深入分析的常用捷徑。
 
 #### 導覽
 
@@ -85,7 +90,7 @@ ht-degree: 100%
 
 [!UICONTROL Analysis Workspace] 致力於達到 WCAG 2.1 AA 的要求，包括色彩對比的要求。
 
-此外，使用者可在&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 專案設定]** > [專案調色盤](/help/analysis-workspace/build-workspace-project/color-palettes.md)下，針對專案設定自己偏好的調色盤。
+此外，使用者可在&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 專案設定]** > [專案調色盤](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)下，針對專案設定自己偏好的調色盤。
 
 ## 元件產生器中的必要欄位驗證
 
