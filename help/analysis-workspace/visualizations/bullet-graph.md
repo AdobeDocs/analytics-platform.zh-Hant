@@ -3,19 +3,15 @@ description: 可讓您查看您感興趣的值與其他效能範圍 (目標) 相
 title: 項目符號圖表
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '86'
 ht-degree: 100%
 
 ---
 
 
 # 項目符號圖表
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 可讓您查看您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。
 
