@@ -3,19 +3,15 @@ description: 'null'
 title: 設定流失視覺效果
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '679'
 ht-degree: 100%
 
 ---
 
 
 # 設定流失視覺效果
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 您可指定接觸點來建立多維度流失序列。通常，接觸點就是網站上的某個頁面。但接觸點不限於頁面。例如，您可以新增事件 (例如件數)，以及不重複訪客和回訪次數。您也可以新增維度，例如類別、瀏覽器類型或內部搜尋詞。
 
@@ -69,7 +65,6 @@ ht-degree: 100%
 | 設定 | 說明 |
 |--- |--- |
 | 流失容器 <ul><li>瀏覽</li><li>訪客</li></ul> | 可讓您切換瀏覽和訪客，分析訪客路徑。預設為「訪客」。這些設定可協助您了解訪客層級的訪客參與程度 (跨越造訪)，或是將分析限制在單一造訪。 |
-| 將「所有訪客」顯示為第一個接觸點 | 如果您不想將「所有訪客」顯示為第一個接觸點，您可以取消選取此項。 |
 
 **以滑鼠右鍵按一下接觸點**，下列選項就會出現：
 
