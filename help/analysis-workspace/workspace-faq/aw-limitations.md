@@ -2,19 +2,15 @@
 description: Adobe Analysis Workspace 及其相關元件的已知限制清單：
 title: Analysis Workspace 的已知限制
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 93%
+source-wordcount: '382'
+ht-degree: 85%
 
 ---
 
 
 # Analysis Workspace 的已知限制
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
 以下為 Analysis Workspace 及其相關元件的已知限制清單：
 
@@ -32,14 +28,14 @@ ht-degree: 93%
 * [!UICONTROL 流量]：「登入/退出」維度 (例如[!UICONTROL 「登入頁面」]) 無法用於「流量」。
 * [!UICONTROL 同類群組]：非整數無法當作同類群組條件使用。
 
-<!--## Panels
+## 面板
 
-* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone.<-->
+* 區段比較：如果在初始放置區中使用區段範本，系統不會建立[!UICONTROL 「其他人」]區段。
 
 ## 元件>篩選器
 
-* [!UICONTROL 「發生次數」]、[!UICONTROL 「不重複訪客」]等特定量度和維度無法設為區段。
-* 如果從「工作區」建立篩選器（與從「[!UICONTROL 元件>篩選器」>「篩選器」]建立篩選器相反），則某些元件和運算子無法使用。 例如 IP 位址。
+* 無法篩選某些度量和維度，例如[!UICONTROL 發生次數]、[!UICONTROL 獨特訪客]等。
+* 在[面板dropzone](/help/analysis-workspace/c-panels/panels.md)中建立的臨機篩選器將不會出現在「工作區」或「篩選器」元件管理員的左側欄中，除非將它們設為公開。 您可編輯篩選並選取「將此篩選設為公用」**[!UICONTROL 來完成此作業。]**
 
 ## 元件 > 計算量度
 
@@ -50,6 +46,7 @@ ht-degree: 93%
 ## 元件 > 日期範圍
 
 * 自訂日期範圍不支援[!UICONTROL 「去年的今天」]、[!UICONTROL 「上個月的今天」]等。
+
 
 ## 元件 > 報表設定
 
