@@ -3,9 +3,9 @@ description: 'null'
 title: 長條圖和堆疊長條圖
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '81'
 ht-degree: 100%
 
 ---
@@ -13,11 +13,7 @@ ht-degree: 100%
 
 # 長條圖和堆疊長條圖
 
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
-
-## 長條圖
+## 長條圖 {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
 
 此視覺效果顯示代表一或多個量度多個值的垂直長條。
 
@@ -25,7 +21,7 @@ ht-degree: 100%
 
 視覺效果設定中的粒度下拉式清單可讓您將趨勢視覺效果 (例如折線圖、長條圖) 從每日變更為每週、每月等。
 
-## 堆疊長條圖
+## 堆疊長條圖 {#section_9EA83779AE964635907EE5031A785A49}
 
 此視覺效果類似長條圖，但數列長條堆疊在彼此頂端。
 
