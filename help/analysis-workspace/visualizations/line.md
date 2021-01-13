@@ -3,27 +3,19 @@ description: 使用線條圖視覺效果來描繪資料集的趨勢 (以時間�
 title: 折線圖
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 4f163e32787a732526511aeda5f6c1e32becb490
+source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 94%
+source-wordcount: '511'
+ht-degree: 65%
 
 ---
 
 
 # 折線圖
 
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
-
 線條圖視覺效果使用線條圖表示量度，以顯示一段時間中值的變化。僅可在使用時間當作維度時，才使用折線圖。
 
 ![線條圖視覺效果](assets/line-viz.png)
-
->[!IMPORTANT]
->
->某些線條圖視覺效果設定 (例如[!UICONTROL 顯示趨勢線]) 目前正進行有限的測試。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)
 
 按一下線條圖視覺效果右上角的齒輪圖示，即可存取可用的&#x200B;[**視覺效果設定**](freeform-analysis-visualizations.md)。設定可歸類為：
 
@@ -45,11 +37,15 @@ ht-degree: 94%
 
 ## 顯示趨勢線覆蓋
 
-在&#x200B;**[!UICONTROL 「視覺效果設定]** > **[!UICONTROL 覆蓋]** > **[!UICONTROL 顯示趨勢線」]**&#x200B;下方，您可以選擇將迴歸趨勢線新增至線條圖系列。趨勢線有助於描繪出資料中更清晰的模式。
+在「視覺化設定&#x200B;**** > **[!UICONTROL 覆蓋]** > **[!UICONTROL 顯示趨勢線]**」下方，您可以選擇將回歸或移動平均趨勢線新增至行系列。 趨勢線有助於描繪出資料中更清晰的模式。
+
+>[!TIP]
+>
+>建議將趨勢線套用至不包含今天（部分資料）或未來日期的資料，因為這些資料會扭曲趨勢線。 但是，如果您需要包含未來日期，請從資料中移除零，以防止這些日期出現偏差。 若要這麼做，請前往視覺化的資料來源表格，選擇您的量度欄，然後啟用「欄設定」**[!UICONTROL >**[!UICONTROL &#x200B;將零解譯為無值&#x200B;]**。]**
 
 ![線性趨勢線](assets/show-linear-trendline.png)
 
-所有模型都使用普通最小平方法：
+所有回歸模型趨勢線都使用普通最小二乘擬合：
 
 | 模型 | 說明 |
 | --- | --- |
@@ -58,3 +54,4 @@ ht-degree: 94%
 | 指數 | 建立曲線，當資料以不斷提高的速率上升或下降時相當有用。如果您的資料包含零或負值，則不應使用此選項。方程式：`y = a + e^(b * x)` |
 | 乘冪 | 建立曲線，比較以特定速率增加的測量之資料集時相當有用。如果您的資料包含零或負值，則不應使用此選項。方程式：`y = a * x^b` |
 | 二次方 | 找出拋物線形 (向上或向下凹入) 的資料集最合適的線條。方程式：`y = a + b * x + c * x^2` |
+| 移動平均 | 根據一組平均值建立平滑趨勢線。 移動平均值也稱為滾動平均值，它使用特定數量的資料點（由您的「期間」選擇決定）、平均化資料點，並將平均值用作行中的點。 例如7天移動平均值或4週移動平均值。 |
