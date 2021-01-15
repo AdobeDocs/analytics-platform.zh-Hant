@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: 「流量」功能顯示客戶在您網站和應用程式中的路徑。
 title: 流量概述
-uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 98%
+source-wordcount: '187'
+ht-degree: 86%
 
 ---
 
@@ -19,11 +18,7 @@ ht-degree: 98%
 
 * 將客戶在您網站或應用程式中的歷程視覺化呈現
 * 分析客戶在所指定檢查點 (例如登入、特定維度或退出) 之前和之後的前往位置
-* 指定選定路徑中的特定點，建立區段
-
->[!NOTE]
->
->如需瞭解對「流量」套用區段後，Analysis Workspace 與 Reports &amp; Analytics/Ad Hoc Analysis 之間會產生什麼不同結果，請參閱[區段作為流量和流失的基礎](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)。
+* 指定所選路徑中的特定點，以建立篩選器
 
 [流量視覺化教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
 
