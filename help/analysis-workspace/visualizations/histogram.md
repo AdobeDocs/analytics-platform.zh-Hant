@@ -1,11 +1,10 @@
 ---
-description: 色階分佈圖是 Analysis Workspace 中的新視覺效果類型。
+description: 色階分佈圖類似於長條圖，但前者將數字分組為範圍 (貯體)。
 title: 色階分佈圖
-uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '429'
 ht-degree: 95%
 
 ---
