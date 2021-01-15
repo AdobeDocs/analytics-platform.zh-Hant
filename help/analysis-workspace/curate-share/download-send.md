@@ -1,9 +1,8 @@
 ---
 description: 您可以複製分析工作區或以PDF和CSV格式從其下載資料。
 title: 下載 PDF 或 CSV 檔案
-uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 12%
@@ -48,7 +47,7 @@ ht-degree: 12%
 右鍵按一下選項&#x200B;**[!UICONTROL 「以CSV格式下載資料」可讓您下載資料表格或任何視覺化的CSV格式資料來源。]**
 
 * 在任何表格或視覺化的標題中，以滑鼠右鍵按一下「以CSV格式下載資料」。 ****&#x200B;如此會下載表格或基礎資料來源中顯示的資料，以供視覺化為CSV。 注意：地圖視覺化不支援此選項。
-* 如果在表格中做出選擇，則選項會顯示「將選擇下載為CSV **[!UICONTROL 」。]**&#x200B;與顯示的完整表格相比，只有選擇內容會使用此選項下載。
+* 如果在表格中做出選擇，則選項會顯示「將選擇下載為CSV ]**」。**[!UICONTROL &#x200B;與顯示的完整表格相比，只有選擇內容會使用此選項下載。
 
 ![](assets/download-data-viz.png)
 
