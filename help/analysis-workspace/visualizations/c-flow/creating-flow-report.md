@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: 「流量」視覺化可讓您追蹤頁面或維度的路徑。
 title: 設定流量視覺效果
-uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 96%
 
 ---
 
