@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: e57d92f702445d8caac25a7cc11a6aafe6c62262
+source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 91%
+source-wordcount: '430'
+ht-degree: 90%
 
 ---
 
@@ -51,8 +51,8 @@ ht-degree: 91%
    + [Analysis Workspace 概述](analysis-workspace/home.md)
    + [執行基本分析](analysis-workspace/perform-basic-analysis.md)
    + [執行進階分析](analysis-workspace/perform-adv-analysis.md)
-   + 建立工作區專案 {#build-workspace-project}
-      + [建立專案 - 概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
+   + 專案 {#build-workspace-project}
+      + [專案概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
       + [快速鍵（快速鍵）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
