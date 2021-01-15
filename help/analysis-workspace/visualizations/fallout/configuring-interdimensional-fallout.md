@@ -1,9 +1,8 @@
 ---
 description: Analysis Workspace 中的「流失」可讓您混合搭配維度和量度，作為漏斗和工作流程中的接觸點。如此可讓您在定義想調查的使用者步驟時，擁有更多彈性。
 title: 維度間流失
-uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
