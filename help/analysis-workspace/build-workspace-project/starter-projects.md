@@ -1,11 +1,11 @@
 ---
-description: 工作區中的範本
+description: 在工作區中使用範本並建立自訂範本。
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 21bf268600c12dbf1db24dbc10028a0c29fc48a7
+source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1400'
 ht-degree: 97%
 
 ---
