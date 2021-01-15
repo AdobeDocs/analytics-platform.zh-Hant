@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 資料內嵌選項
 description: 了解您能使用哪些方式將資料內嵌至 Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: 8a3a868ff4e2fbbcdf83ff7769382c6a92f78ec2
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 61%
+source-wordcount: '968'
+ht-degree: 63%
 
 ---
 
@@ -34,15 +34,9 @@ Customer Journey Analytics 提供多種資料內嵌選項：有些選項能移�
 
 ## 透過Adobe Experience Platform Web SDK和Edge Network收錄資料
 
-[Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) SDK是用戶端的JavaScript程式庫，可讓Adobe Experience Cloud客戶透過Adobe Experience Platform Edge Network與Experience Cloud中的各種服務互動。您可以設定此擷取功能，不論是否包含Launch。
+[Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) SDK是用戶端的JavaScript程式庫，可讓Adobe Experience Cloud客戶透過Adobe Experience Platform Edge Network與Experience Cloud中的各種服務互動。
 
-### 未啟動
-
-此連結無法運作：https://docs.adobe.com/content/help/en/experience-platform/edge/get-started/quick-start-without-launch.html。 沒有Launch，還是有可能嗎？
-
-### 使用Launch
-
-1. [設定AEP Web SDK擴充](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension) 功能，透過Adobe Experience Platform Edge Network，從Web屬性將資料傳送至Adobe Experience Cloud。
+1. [在](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension) Launch中設定AEP Web SDK擴充功能，以透過Adobe Experience Platform Edge Network，從網頁屬性傳送資料至Adobe Experience Cloud。
 1. 使用 [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-getting-started.html) 建立一或多個連線和資料檢視，以利您掌握跨管道的報表內容。
 
 ## 使用批次擷取和串流擷取來擷取資料
