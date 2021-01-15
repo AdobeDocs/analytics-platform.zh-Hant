@@ -1,13 +1,12 @@
 ---
-description: 'null'
+description: 使用功能表列和設定的工作區專案概觀
 keywords: Analysis Workspace
 title: 專案概觀
-topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 09c7cf9bdbb9016e1070ea7f7fb0c89b4a027c1c
+source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1366'
 ht-degree: 21%
 
 ---
@@ -48,7 +47,7 @@ ht-degree: 21%
 
 | 功能表項目 | 說明 |
 |---|---|
-| 專案 | 包括項目管理的常見操作，包括「新建」、「開啟」、「保存」、「另存為」和「另存為」模板[。 ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)您也可以按一下「重新整理專案」，重新整理整個專案，以擷取最新的資料和定義。 [下載CSV和](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) PDF選項可讓您從工作區匯出資料。[「專案資訊與設](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) 定」提供許多管理專案的選項。 |
+| 專案 | 包括項目管理的常見操作，包括「新建」、「開啟」、「保存」、「另存為」和「另存為」模板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)。 [您也可以按一下「重新整理專案」，重新整理整個專案，以擷取最新的資料和定義。 [下載CSV和](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) PDF選項可讓您從工作區匯出資料。[「專案資訊與設](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) 定」提供許多管理專案的選項。 |
 | 編輯 | 還原或重做您的最後一個動作。 「全部清除」會將您的專案重設為空白的起點。 |
 | 插入 | 從此選單插入新面板或視覺化。 您也可以從左側導軌插入新的面板和視覺化。 |
 | [元件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) | 從專案建立新區段、計算量度、日期範圍或警報元件。 您也可以從左側導軌建立新元件。 如果您的元件定義最近已變更，「重新整理元件」會擷取最新的定義。 |
