@@ -1,17 +1,17 @@
 ---
-description: 'null'
-title: 調色盤
+description: 如何變更視覺化色盤或指定您自己的自訂色盤。
+title: 視覺化色盤
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '247'
+ht-degree: 91%
 
 ---
 
 
-# 視覺效果調色盤
+# 視覺化色盤
 
 >[!NOTE]
 >
