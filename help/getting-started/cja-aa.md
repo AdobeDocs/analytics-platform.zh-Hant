@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
 translation-type: tm+mt
-source-git-commit: 55b03e01494a5989ab05aa391df5155bcf9d188f
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 89%
+source-wordcount: '986'
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 89%
 | 虛擬報表套裝 | 現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | VRS 元件策劃 | 現在是資料檢視的一部分。 |
 | 報表時間處理功能 | CJA 僅依賴「報表時間處理」功能。 |
-| 刪除 GDPR | 請注意，現在系統已與 [!UICONTROL Experience Platform] 協調處理 GDPR - CJA 會繼承 [!UICONTROL Experience Platform] 對基礎資料集所做的所有資料變更。 |
+| 刪除 GDPR | 請注意，GDPR現在與[!UICONTROL Adobe Experience Platform]協作處理- CJA繼承[!UICONTROL Experience Platform]對基礎資料集所做的資料變更。 |
 | 使用者權限/資料存取控制 | CJA 可區分 Adobe Admin Console 產品管理員和使用者。只有產品管理員可以 1) 建立/更新/刪除連線或資料檢視；2) 更新/刪除其他使用者建立的專案、篩選器或計算量度；以及 3) 與所有使用者共用 Analysis Workspace 專案 |
 
 ## 支援警告功能
