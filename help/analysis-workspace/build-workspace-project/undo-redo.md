@@ -1,12 +1,12 @@
 ---
-description: Analysis Workspace 中「還原」選項的變更與改良功能。
+description: 瞭解分析工作區中的「復原」和「重做」選項。
 title: 還原和重做設定
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
