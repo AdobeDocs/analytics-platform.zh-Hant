@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: 此視覺效果顯示代表一或多個量度多個值的橫條。
 title: 橫條圖和堆疊橫條圖
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
