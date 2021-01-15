@@ -1,9 +1,8 @@
 ---
 description: 可讓您查看您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。
 title: 項目符號圖表
-uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
