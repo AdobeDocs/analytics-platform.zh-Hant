@@ -1,11 +1,11 @@
 ---
-description: 以視覺化方式呈現您的資料。
+description: 在分析工作區中以視覺化方式呈現您的資料。
 keywords: Analysis Workspace
 title: 視覺效果概述
 translation-type: tm+mt
-source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
+source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1058'
 ht-degree: 42%
 
 ---
