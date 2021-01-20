@@ -2,7 +2,7 @@
 title: 重播的運作方式
 description: 瞭解跨通道分析中的「重播」概念
 translation-type: tm+mt
-source-git-commit: 26486c79f6d94db1aa795bf024f581cad74c25f6
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 16%
@@ -12,7 +12,7 @@ ht-degree: 16%
 
 # 重播的運作方式
 
-跨通道Analytics會對指定連線上的資料進行兩次傳遞：
+跨通道分析對指定連線上的資料進行兩次傳遞：
 
 * **即時拼接**:CCA會嘗試在每次點擊傳入時接合。將從未登入的新裝置網路化至資料集通常不會在此層級上銜接。 已識別的裝置會立即結合。
 * **重播**:CCA會根據它所學到的獨特識別碼來「重放」資料。此階段是連接新設備的接合點。 Adobe提供兩種重播間隔：
