@@ -2,9 +2,9 @@
 title: 匯入客服中心和Web資料
 description: 瞭解如何建立連結客服中心和網站資料的資料集。
 translation-type: tm+mt
-source-git-commit: 8d2f70ad47dcf9b97808da3a04d32d3412a1f0c8
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '679'
 ht-degree: 3%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # 匯入客服中心和Web資料
 
-「客戶歷程分析」提供有價值且強穩的功能，可將不同來源的資料集合併為單一工作區專案。 使用本指南瞭解貴組織如何將您網站的資料接合到來自您呼叫中心的資料。
+「客戶歷程分析」提供有價值且強穩的功能，可將不同來源的資料集合併為單一工作區專案。 使用本指南瞭解貴組織如何結合網站資料與客服中心資料。
 
 ## 必要條件
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 ## 將網路和客服中心資料匯入平台
 
-開始將資料匯入Adobe Experience Platform。 請參閱Adobe Experience Platform檔案中的[建立架構](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/tutorials/create-schema-ui.html)和[收錄資料](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/home.html)。
+將您的資料匯入Adobe Experience Platform。 請參閱Adobe Experience Platform檔案中的[建立架構](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/tutorials/create-schema-ui.html)和[收錄資料](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/home.html)。
 
 將資料匯入平台時，遵循下列提示有助於增加產生報表的洞察力：
 
@@ -100,9 +100,19 @@ step 3: call
 another good one
 
 step 1: all sessions
-step 2: -->
+step 2: 
 
-<!--  use target (AB testing) to test new versions of these pages so they reduce calls (using an eVar to determine A/B?)
-  filter by specific call reason using workspace dropdowns
-  visualize flow of pages > call reason 
--->
+Orrr we could also use dataset ID
+
+### Site sections that result in a call within 30 minutes
+
+Slide 4
+
+Create a bunch of filters - facets to their business. Filters were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really filters)
+
+wanted to understand when someone interacts with a facet, whats the highest percentage of people that abandon that channel to call them. not from volume perspective, but percentage perspective.
+
+use sequential segmentation, but you lose the ability to use attribution IQ
+
+## What to do when you've found insight -->
+
