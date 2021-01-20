@@ -2,7 +2,7 @@
 title: 跨通道分析概觀
 description: 從多個資料集重新建立訪客ID的索引，以將訪客連結在一起。
 translation-type: tm+mt
-source-git-commit: b57895d037f8db3ffc418312b95fc43dd0280dc9
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 19%
