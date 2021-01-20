@@ -2,7 +2,7 @@
 title: 跨通道分析常見問答集
 description: 跨通道分析的常見問題
 translation-type: tm+mt
-source-git-commit: dd4e7e5cd04db6483f0e4a1f3161f23f8a5a8294
+source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 20%
@@ -43,6 +43,6 @@ ht-degree: 20%
 
 在Adobe啟用跨通道分析後，即時聯繫約需1週。 回填的可用性取決於現有資料的數量。 小資料集（每天不到100萬個事件）通常需要幾天，而大資料集（每天10億個事件）則需要一週或更多。
 
-## 跨通道分析如何處理GDPR和CCPA要求？
+## 跨通道分析如何處理GDPR和CCPA請求？
 
 Adobe根據當地及國際法律處理GDPR和CCPA要求。 Adobe提供[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)以提交資料存取和刪除要求。 這些請求會同時套用至原始和已重新命名的資料集。
