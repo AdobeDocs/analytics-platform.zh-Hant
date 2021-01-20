@@ -16,7 +16,7 @@ ht-degree: 21%
 
 工作區專案可讓您結合資料元件、表格和視覺化，以建立分析並與組織中的任何人共用。 在開始您的第一個專案之前，請先瞭解如何存取、導覽及管理您的專案。
 
-## 項目清單{#project-list}
+## 專案清單 {#project-list}
 
 當您第一次前往&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**&#x200B;時，頁面會列出您擁有或已共用給您的所有專案。 這也是Adobe Analytics的著陸頁面，除非您先前已設定自訂著陸頁面。
 
