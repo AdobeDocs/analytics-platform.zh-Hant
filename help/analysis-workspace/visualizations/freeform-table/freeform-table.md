@@ -48,7 +48,7 @@ ht-degree: 48%
 進一步瞭解分析工作區的所有資料[匯出選項](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)。
 
 * 按一下右鍵> **[!UICONTROL 將資料複製到剪貼簿]**&#x200B;導出顯示的表資料。 如果選擇了表，此選項將顯示「將選擇複製到剪貼簿」。 ******Ctrl+C**&#x200B;熱鍵還複製選定的資料。
-* 以滑鼠右鍵按一下> **[!UICONTROL 以CSV格式下載資料]**，將顯示的表格資料下載為CSV。 如果進行表選擇，此選項會顯示「將選擇下載為CSV **[!UICONTROL 」。]**
+* 以滑鼠右鍵按一下> **[!UICONTROL 以CSV格式下載資料]**，將顯示的表格資料下載為CSV。 如果進行表選擇，此選項會顯示「將選擇下載為CSV ]**」。**[!UICONTROL 
 * 以滑鼠右鍵按一下> **[!UICONTROL 「專案>下載CSV格式的項目」，最多可針對選取的維度匯出50,000個維度項目。]**
 
 進一步瞭解分析工作區的所有資料[匯出選項](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)。
