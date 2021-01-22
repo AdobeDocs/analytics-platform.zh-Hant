@@ -1,9 +1,9 @@
 ---
 description: 了解不同的儲存選項，包括自動儲存、另存新檔和另存為範本。
 title: 儲存專案
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f01585ffdc0b54d1b21b035278869e59bd4947dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
 ht-degree: 100%
 
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # 儲存專案
 
-若要儲存您對專案所做的變更，請前往 Workspace 的&#x200B;**[!UICONTROL 「專案」]**&#x200B;功能表。此外，Adobe 會在某些情況下自動儲存專案。
+若要儲存您對專案所做的變更，請前往 Analysis Workspace 的&#x200B;**[!UICONTROL 「專案」]**&#x200B;功能表。此外，Adobe 會在某些情況下自動儲存專案。
 
 ## 儲存專案選項 {#Save}
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 有些情況可能會導致您遠離未儲存的專案變更項目，進而產生不同的可用操作。
 
-### 開啟另一個工作區專案
+### 開啟另一個 Analysis Workspace 專案
 
 Adobe 提供在離開頁面前儲存的選項。離開現有專案後，自動儲存的本機副本即會刪除。
 
@@ -45,7 +45,7 @@ Adobe 提供在離開頁面前儲存的選項。離開現有專案後，自動�
 
 ### 瀏覽器當機或工作階段逾時
 
-若為&#x200B;**現有**&#x200B;專案，返回 Workspace 後，使用者會看到&#x200B;**專案復原**&#x200B;強制回應視窗。若選擇「是」，將會從自動儲存的本機副本復原項目。若選擇「否」，則會刪除自動儲存的本機副本，並開啟上次使用者儲存的專案版本。
+若為&#x200B;**現有**&#x200B;專案，返回 Analysis Workspace 後，使用者會看到&#x200B;**專案復原**&#x200B;強制回應視窗。若選擇「是」，將會從自動儲存的本機副本復原項目。若選擇「否」，則會刪除自動儲存的本機副本，並開啟上次使用者儲存的專案版本。
 
 ![](assets/project-recovery.png)
 
