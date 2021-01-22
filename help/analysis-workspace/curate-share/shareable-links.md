@@ -2,9 +2,9 @@
 description: 了解如何建立專案或視覺效果的分享連結
 keywords: Analysis Workspace sharing
 title: 建立分享連結
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
 ht-degree: 100%
 
@@ -38,8 +38,8 @@ Analysis Workspace 提供許多與使用者共用專案的方式，包括取得�
 
 ## 在目錄中使用連結 {#TOC}
 
-運用各種連結選項的秘訣之一，就是一律在工作區專案的頂端加入目錄。您可以透過目錄連結至其他相關專案、特定面板，以及特定的視覺效果。如此有助於專案的收件者輕鬆導覽。
+運用各種連結選項的秘訣之一，就是一律在 Analysis Workspace 專案的頂端加入目錄。您可以透過目錄連結至其他相關專案、特定面板，以及特定的視覺效果。如此有助於專案的收件者輕鬆導覽。
 
-[觀看影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html)以了解如何使用連結和工作區功能齊全的文字編輯器，輕鬆建立目錄。
+[觀看影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html)以了解如何使用連結和 Analysis Workspace 功能齊全的文字編輯器，輕鬆建立目錄。
 
 ![](assets/toc.png)
