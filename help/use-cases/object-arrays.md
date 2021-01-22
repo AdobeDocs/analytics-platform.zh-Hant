@@ -1,9 +1,9 @@
 ---
 title: 使用物件陣列
 description: 了解 CJA 如何針對資料階層製作報表。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6229c5bb08f6f153c625932ed06e85030bc08c5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 ### 相同點擊範例 (報表行為)
 
-下表僅採計上述點擊，顯示具有某些維度和量度組合的工作區報表。
+下表僅採計上述點擊，顯示具有某些維度和量度組合的 Analysis Workspace 報表。
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
