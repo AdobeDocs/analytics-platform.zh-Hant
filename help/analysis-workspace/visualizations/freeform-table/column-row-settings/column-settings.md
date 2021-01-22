@@ -1,9 +1,9 @@
 ---
 description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8b814137a7c5e2ca96091addb5b4430e2da65329
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
 ht-degree: 100%
 
@@ -44,10 +44,10 @@ ht-degree: 100%
 | --- | --- |
 | 條件式格式 | 根據資料值，套用下列顏色至儲存格： <ul><li>綠：高數值</li><li>黃：中間值</li><li>紅：低數值</li></ul> <br>取代表格中的維度會重設條件式格式限制。取代量度會重新計算該欄的限制 (其中量度位在 X 軸，維度位在 Y 軸)。 |
 | 使用百分比限制 | 變更限制範圍，從絕對值改為以百分比為基礎.此設定適用於僅有百分比的量度 (例如反彈率)，以及含有計數和百分比的量度 (例如頁面檢視)。 |
-| 自動產生 | 根據資料自動計算上/中/下限.上限是此欄中的最大值。下限是最小值，而中點是上限和下限的平均。 |
-| 自訂 | 手動對齊上/中/下限.這可提供由您決定欄的值是好、中等或壞的彈性。 |
+| 自動產生 | 根據資料自動計算上/中/下限。上限是此欄中的最大值。下限是最小值，而中點是上限和下限的平均。 |
+| 自訂 | 手動對齊上/中/下限。這可提供由您決定欄的值是好、中等或壞的彈性。 |
 
-## 使用非預設歸因模式 {#attribution}
+## 使用非預設歸因模型 {#attribution}
 
 Analysis Workspace 支援絕大多數量度的[歸因](/help/analysis-workspace/attribution/overview.md)。
 
