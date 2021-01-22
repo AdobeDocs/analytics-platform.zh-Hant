@@ -1,11 +1,11 @@
 ---
 title: 建立資料檢視
 description: 說明如何在 Customer Journey Analytics (CJA) 中為 Platform 資料集建立資料檢視。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 94%
 
 資料檢視類似於 Analytics 中的虛擬報表套裝，其概念為資料的「經篩選」檢視。您可以為相同的連線建立不同的資料檢視，並針對造訪逾時、歸因等項目使用不同設定。您可以為單一資料集建立多個資料檢視。例如，您可以有一個資料檢視的所有維度都設為「上次接觸」，同時有另一個資料檢視 (以同一個資料集為基礎) 的所有維度都設為「首次接觸」。
 
-Customer Journey Analytics 中的工作區專案是以資料檢視為基礎。
+Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為基礎。
 
-按一下[這裡](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/basic-configuration-for-data-views.html)，觀看概觀影片。
+按一下[這裡](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/basic-configuration-for-data-views.html)，觀看概述影片。
 
-## 必要條件
+## 先決條件
 
 建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集的連線](/help/connections/create-connection.md)。
 
@@ -57,4 +57,4 @@ Customer Journey Analytics 中的工作區專案是以資料檢視為基礎。
 
 ## 刪除資料檢視
 
-如果您刪除[!UICONTROL 客戶歷程分析]中的資料檢視，錯誤訊息會指出任何依賴此已刪除資料檢視的工作區專案將停止運作。
+如果您刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視，畫面會顯示錯誤訊息，指出任何仰賴這個已刪除資料檢視的 Analysis Workspace 專案都會停止運作。
