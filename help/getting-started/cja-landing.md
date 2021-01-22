@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 指南
 description: Customer Journey Analytics 登陸頁面。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c4463fe1c7454ede80330d8889bc4157eb99fca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections"> 跨通道分析的新檔案（在客戶歷程分析中拼接ID）  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#admin-access-permissions"> 更新使用者權限需求  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en#cja-usecases"> 使用物件陣列 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections"> 跨管道分析的新文件 (在 Customer Journey Analytics 中彙整 ID) </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant#admin-access-permissions"> 更新使用者權限必要條件 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=zh-Hant#cja-usecases"> 使用物件陣列 </a> </li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-usecases/b2b.html"> 新增帳戶層級資料作為查詢資料集 </a> </li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 快速入門 </a> </li> 
       <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-faq.html"> 常見問題集</a> </li> 
