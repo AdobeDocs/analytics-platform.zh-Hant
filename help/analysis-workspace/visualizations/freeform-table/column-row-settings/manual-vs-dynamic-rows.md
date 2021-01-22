@@ -1,11 +1,11 @@
 ---
 title: 自由表格中的動態與靜態維度項目
 description: 如何與表格中的動態和靜態維度項目互動。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 97%
 
 每當您手動選取特定元件值 (維度、量度、區段、日期範圍) 並放入表格時，結果會是列或欄的靜態清單。如果選擇以下項目，也可以建立靜態量度項目：
 
-* 從行中，按一下右鍵> [!UICONTROL 僅顯示選定的行]
-* 從欄中，按一下滑鼠右鍵> [!UICONTROL 將項目設為static]
+* 在列中按一下滑鼠右鍵 >[!UICONTROL 「僅顯示選取的列」]
+* 在欄中按一下滑鼠右鍵 >[!UICONTROL 「將項目設為靜態」]
 
 例如，拖曳至特定的「瀏覽器類型」項目 (例如 Microsoft 和 Apple) 時，這 2 個特定項目一律會被提取至表格中。
 
@@ -56,5 +56,5 @@ ht-degree: 97%
 自由表格總計列中動態和靜態列的行為不相同。根據預設：
 
 * 動態列會在伺服器端加總，並去除重複量度，例如造訪或訪客
-* 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
 
