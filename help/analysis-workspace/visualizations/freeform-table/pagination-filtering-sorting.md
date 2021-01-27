@@ -2,10 +2,10 @@
 description: Analysis Workspace 的表格分頁、篩選及分類功能
 title: 表格分頁、篩選及分類
 translation-type: tm+mt
-source-git-commit: 71401db7bf034136eb053f559962b1eb49175ec1
+source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 35%
+source-wordcount: '235'
+ht-degree: 36%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 35%
 
 如需分析工作區中表格的編頁、篩選和排序概觀，請觀看此教學影片：
 
->[!VIDEO](https://publish.tv.adobe.com/bucket/1/category/2282/video/23968/)
+>[!VIDEO](https://video.tv.adobe.com/v/23968)
 
 ## 進階篩選選項 {#section_36E92E31442B4EBCB052073590C1F025}
 
