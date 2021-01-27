@@ -1,11 +1,11 @@
 ---
 description: 顯示非時間維度的前5個值（時間維度的前15個值）。
-title: 預覽維度
+title: 如何在CJA工作區中預覽尺寸
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 95%
+source-wordcount: '230'
+ht-degree: 92%
 
 ---
 
