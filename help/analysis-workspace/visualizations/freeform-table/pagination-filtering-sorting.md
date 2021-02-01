@@ -2,7 +2,7 @@
 description: Analysis Workspace 的表格分頁、篩選及分類功能
 title: 表格分頁、篩選及分類
 translation-type: tm+mt
-source-git-commit: 7e000de9ed4c63e69a5a69ecdb3b12bb3894e0bc
+source-git-commit: 7274e44dedb3eef89119d886e72c1454d914da0f
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 36%
@@ -46,7 +46,7 @@ ht-degree: 36%
 
 1. 在專案中的任意自由表格中，按一下維度名稱旁的箭頭：
 
-在此處插入螢幕擷取。
+![](assets/sort-dimensions.png)
 
 * 向下箭頭會依遞減順序排序，而向上箭頭（預設值）則依遞增順序排序。
-* 您可以依字母順序或數值排序維度。 例如，您可能在工作流程中有編號的步驟，而且可能想要依步驟編號排序。 您可以依日期排序與日期相關的維度。 或者，您也可以依字母順序排序產品名稱維度。
+* 您可以依字母順序或數值排序維度。 例如，您可能在工作流程中有編號的步驟，而且可能想要依步驟編號排序。 您可以依日期排序與日期相關的維度。 或者，您也可以依字母順序排序資料來源，如上述螢幕擷取所示。
