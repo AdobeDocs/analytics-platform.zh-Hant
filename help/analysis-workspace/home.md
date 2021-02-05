@@ -5,8 +5,8 @@ description: 分析工作區功能概觀
 translation-type: tm+mt
 source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 97%
+source-wordcount: '517'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ## 使用培訓教學課程 {#training-tutorial}
 
-登入後，系統會先提供 Analysis Workspace 培訓教學課程，逐步引導您了解常用術語，並為您說明首次在 Workspace 建立分析的步驟。若要開始瀏覽教學課程，請按一下&#x200B;**[!UICONTROL 「建立新專案」]**，接著在新專案模式中選取&#x200B;**「培訓教學課程」**。
+登入後，系統會先提供 Analysis Workspace 培訓教學課程，逐步引導您了解常用術語，並為您說明首次在 Analysis Workspace 建立分析的步驟。若要開始瀏覽教學課程，請按一下&#x200B;**[!UICONTROL 「建立新專案」]**，接著在新專案模式中選取&#x200B;**「培訓教學課程」**。
 
 ![](assets/training-tutorial.png)
 
