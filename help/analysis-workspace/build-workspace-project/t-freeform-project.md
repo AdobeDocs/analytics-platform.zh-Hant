@@ -1,17 +1,17 @@
 ---
 description: 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 keywords: Analysis Workspace
-title: 建立工作區專案
+title: 建立 Analysis Workspace 專案
 translation-type: tm+mt
 source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 99%
+source-wordcount: '753'
+ht-degree: 100%
 
 ---
 
 
-# 建立工作區專案
+# 建立 Analysis Workspace 專案
 
 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 
@@ -72,7 +72,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 自由面板 </a> </td> 
-   <td colname="col2"> <p>您與「Analysis Workspace」互動的畫布或工作區。 </p> </td> 
+   <td colname="col2"> <p>您與「Analysis Workspace」互動的畫布或工作區域。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
