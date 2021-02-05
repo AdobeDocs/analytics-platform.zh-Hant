@@ -1,88 +1,88 @@
 ---
-title: 匯入客服中心和Web資料
-description: 瞭解如何建立連結客服中心和網站資料的資料集。
+title: 匯入客服中心和網路資料
+description: 了解如何建立連結客服中心和網站資料的資料集。
 translation-type: tm+mt
 source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 3%
+ht-degree: 91%
 
 ---
 
 
-# 匯入客服中心和Web資料
+# 匯入客服中心和網路資料
 
-「客戶歷程分析」提供有價值且強穩的功能，可將不同來源的資料集合併為單一工作區專案。 使用本指南瞭解貴組織如何結合網站資料與客服中心資料。
+Customer Journey Analytics 具有重要的強大功能，可將不同來源的資料集合併成單一 Analysis Workspace 專案。使用本指南瞭解貴組織如何結合網站資料與客服中心資料。
 
-## 必要條件
+## 先決條件
 
-* 結合這兩組資料的最重要元件是每個資料來源之間的共同識別碼。 例如客戶ID、雜湊電子郵件、登入使用者名稱或電話號碼。
-* 存取Adobe Experience Platform和客戶歷程分析
-* 如果您的資料集包含來自互動式語音回應系統的記錄檔，Adobe建議處理資料時，只要在將資料匯入平台之前加入提示互動。
-* 如果您的資料集包含呼叫記錄，Adobe建議包含下列欄：
-   * 呼叫開始的日期／時間
-   * 呼叫原因
-   * 呼叫中心ID
-   * 呼叫中心代理ID
-   * 呼叫持續時間
+* 合併這兩組資料最重要的元件，是資料來源之間必須具有共同識別碼，例如客戶 ID、雜湊電子郵件、登入使用者名稱或電話號碼。
+* 存取 Adobe Experience Platform 和 Customer Journey Analytics
+* 如果您的資料集內含有互動式語音回應系統的記錄檔，Adobe 建議您在匯入 Platform 前先處理資料，僅加入提示互動內容。
+* 如果您的資料集內含有通話記錄檔，Adobe 建議您加入下列各欄：
+   * 通話開始日期/時間
+   * 通話原因
+   * 客服中心 ID
+   * 客服中心專員 ID
+   * 通話長度
    * 通話結果
-   * 通話費用（如果有的話）
-   * 您的組織想要包含的任何其他呼叫中繼資料
+   * 通話費用 (若有)
+   * 貴組織想加入的其他任何通話中繼資料
 
-## 將網路和客服中心資料匯入平台
+## 將網路和客服中心資料匯入 Platform
 
-將您的資料匯入Adobe Experience Platform。 請參閱Adobe Experience Platform檔案中的[建立架構](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/tutorials/create-schema-ui.html)和[收錄資料](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/home.html)。
+將您的資料匯入Adobe Experience Platform。 請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/tutorials/create-schema-ui.html)和[匯入資料](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/home.html)。
 
-將資料匯入平台時，遵循下列提示有助於增加產生報表的洞察力：
+將資料匯入 Platform 時，遵循下列秘訣有助於從產生的報表中獲得更多深入見解：
 
-* 請確定用來連結呼叫中心和Web資料的識別碼格式類似。
-* 在每個資料集中包含資料來源。 例如，在每個架構中包含`data_source`欄，並將每個事件的值分別設為`"Web"`或`"Call center"`。<!--mapper-->
+* 確認連結客服中心和網路資料的識別碼採用類似的格式。
+* 在每個資料集中加入資料來源，例如在所有結構描述中加入「`data_source`」欄，並將每個事件的值分別設為「`"Web"`」或「`"Call center"`」。<!--mapper-->
 
-## 將人證縫合在一起
+## 彙整人員 ID
 
-CJA需要通用識別碼來產生[組合資料集](../connections/combined-dataset.md)。
+CJA 需有共同識別碼才能產生[合併資料集](../connections/combined-dataset.md)。
 
-* 如果您的資料集在兩個資料集上的每個事件上都有共同的識別碼，您可以略過此步驟，繼續建立連線。
+* 如果您兩個資料集的每個事件已有共同識別碼，您可以略過此步驟，繼續建立連線。
 * 如果您的其中一個資料集只有某些事件有一個通用識別碼，您可以使用跨通道分析將資料拼湊在一起。 如需為這兩個資料集啟用CCA的步驟，請參閱[跨通道分析概述](/help/connections/cca/overview.md)。
 
-## 在CJA中建立連線
+## 在 CJA 中建立連線
 
-[在CJA中](/help/connections/create-connection.md) 建立連線。
+在 CJA 中[建立連線](/help/connections/create-connection.md)。
 
-* 如果使用CCA，則有新的銜接資料集可供您使用。 使用新建立的銜接ID欄位作為人員ID。
-* 否則，您可以選擇在連接中使用的原始Web和呼叫中心資料集。
+* 如果您選擇使用跨管道分析，系統會產生新的彙整資料集供您使用。新建立的彙整 ID 欄位可視為人員 ID。
+* 或者，您也可以在連線中選取原本的網路和客服中心資料集，以便使用。
 
 ## 建立資料檢視
 
-建立連線後，您可以「建立資料檢視」[，以便用於分析工作區。<!-- page dimension last touch, session persistence -->](/help/data-views/create-dataview.md)
+建立連線後，您可以在 Analysis Workspace 中[建立資料檢視](/help/data-views/create-dataview.md)，以利後續使用。<!-- page dimension last touch, session persistence -->
 <!-- create calls metric using call center reason (requires data views 2.0). any column that triggers once per call -->
 
-## 建立視覺化
+## 建立視覺效果
 
-下列視覺化可用於從您的銜接資料集獲得見解。
+下列視覺效果可協助您從彙整的資料集中獲取深入見解。
 
 ### 資料集重疊
 
-此視覺化功能可協助您瞭解CCA將資料連結在一起的程度。
+此視覺效果可協助您了解跨管道分析功能彙整資料的成效。
 
-1. 建立兩個篩選。 這兩個篩選中使用的變數與上述反映每個事件資料來源的變數相同。 如需詳細資訊，請參閱[建立篩選器](/help/components/filters/create-filters.md)。
-   * 資料集ID等於您網頁資料的人員容器
-   * 資料集ID等於呼叫中心資料的人員容器
-2. 在分析工作區中，將[Venn](/help/analysis-workspace/visualizations/venn.md)視覺化拖曳至工作區畫布上。
-3. 將兩個新建立的篩選器拖曳至&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;區域，將人員量度拖曳至&#x200B;**[!UICONTROL 新增量度]**&#x200B;區域。
+1. 建立兩個篩選器。這兩個篩選器所使用的變數，即為上述反映每個事件資料來源的變數。如需詳細資訊，請參閱[建立篩選器](/help/components/filters/create-filters.md)。
+   * 在一個人員容器中，讓資料集 ID 等同於網路資料
+   * 在另一個人員容器中，讓資料集 ID 等同於客服中心資料
+2. 在 Analysis Workspace 中，將[「文氏圖」](/help/analysis-workspace/visualizations/venn.md)視覺效果拖放至工作區域的畫布。
+3. 將兩個新建立的篩選器拖放至&#x200B;**[!UICONTROL 「新增篩選器」]**&#x200B;區域，接著將「人員」量度拖放至&#x200B;**[!UICONTROL 「新增量度」]**&#x200B;區域。
 
-產生的Venn視覺化會顯示資料集中同時包含Web和客服中心資料的人數。 重疊越大，成功縫合的人就越多。 不重疊的區域代表僅位於一個資料集或另一個資料集的人。
+所產生的「文氏圖」視覺效果會顯示資料集 (包含網路和客服中心資料) 的人員數量。重疊範圍越大，表示成功彙整越多人員。未重疊的區域代表人員只隸屬於一個資料集。
 
-### 將呼叫中心事件歸因於網頁
+### 將客服中心事件歸因於發生事件的原始網頁
 
-此自由表格可讓您查看對呼叫中心事件有貢獻的熱門頁面。 首先，請確定所需的維度和量度具有正確的歸因模型：
+此自由表格可讓您查看客服中心事件的幾大來源頁面。首先，確認所需的維度和量度具備正確的歸因模型：
 
-1. 將包含網頁名稱的維度拖曳至自由表格視覺化。
-1. 將量度取代為您要測量轉換的所需呼叫中心量度。
-1. 按一下量度頁首附近的齒輪圖示。 按一下「使用非預設歸因模型&#x200B;]**」。**[!UICONTROL 
-1. 設定所要的[歸因模型](/help/data-views/configure-dataviews.md#Attribution-model)。
+1. 將具網頁名稱的維度拖曳至「自由表格」視覺效果上。
+1. 將該量度換成您要測量轉換情形的客服中心量度。
+1. 按一下量度標題附近的齒輪圖示。按一下&#x200B;**[!UICONTROL 「使用非預設歸因模型」]**。
+1. 設定所需的[歸因模型](/help/data-views/configure-dataviews.md#Attribution-model)。
 
-產生的報表顯示來自客服中心資料的排名最前的量度。<!-- Complement with donut visualization -->
+產生的報告會顯示客服中心資料的主要量度。<!-- Complement with donut visualization -->
 
 <!-- ### Flow between web data and call center
 
