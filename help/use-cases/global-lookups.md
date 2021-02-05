@@ -1,31 +1,30 @@
 ---
-title: 將全域查閱新增至資料集
-description: 使用全域查閱功能，在客戶歷程分析中使用有用的維度來增強報告。
+title: 將全域查詢新增至資料集
+description: 在 Customer Journey Analytics 中使用全域查詢功能，透過實用維度來增強報表。
 translation-type: tm+mt
 source-git-commit: b3c9757421537d2d84a78a4d37e9bfc362438d40
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 將全域查閱新增至資料集
+# 將全域查詢新增至資料集
 
-全域查閱可增強「客戶歷程分析」報告某些維度／屬性的能力，這些維度／屬性本身並無用處，但在與其他資料結合時非常有用。 範例包括行動裝置的屬性，以及作業系統和瀏覽器維度的屬性，例如瀏覽器版本號碼。 「全域查閱」與查閱資料集（在傳統Adobe Analytics中稱為分類）非常類似。 不過，全域查閱適用於Experience Cloud組織。 全局查找會自動應用於包含某些XDM架構欄位的所有事件資料集（有關特定欄位，請參見下面）。
-對於Adobe正在分類的每個結構位置，都存在全域查閱資料集。 您可以搭配Analytics來源連接器或其他可接受的自訂資料集使用全域查閱資料集。
+全域查詢可增強 Customer Journey Analytics 針對部分維度/屬性建立報表的能力，這些維度/屬性本身雖不實用，但與其他資料結合後效用甚大，像是結合行動裝置和作業系統的屬性以及瀏覽器維度 (例如瀏覽器版本編號)，便是很實用的應用方式。「全域查詢」與資料集查詢 (在舊版 Adobe Analytics 中稱為「分類」) 相當類似，不過全域查詢可適用於採用 Experience Cloud 的所有組織。內含特定 XDM 結構欄位的所有事件資料集 (請參閱下方的特定欄位說明) 都會自動套用全域查詢。Adobe 所分類的每個結構位置都會有全域查詢資料集。您可以搭配 Analytics Source Connector 或其他相容的自訂資料集，使用全域查詢資料集。
 
-在傳統的Adobe Analytics中，這些維度會自行顯示，而在CJA中，您必須在建立資料檢視時主動加入這些維度。 當使用者在「連線」工作流程中，選擇以索引鍵標示為資料集的資料集時，資料檢視UI會知道包含所有可用於報告的全域查閱維度。 資料檢視工作流程知道會納入這些資料檢視可用的全域查閱維度。 查閱檔案會自動保持在最新狀態，而且可供所有地區和所有帳戶使用。 它們儲存在與客戶相關的地區特定組織中。
+舊版 Adobe Analytics 中，這些維度會自行顯示，但在 CJA 中，您必須在建立資料檢視時主動加入這些維度。使用者在「連線」工作流程中選擇以索引鍵標示為全域查詢的資料集時，資料檢視 UI 就會自行納入所有建立報表可用的全域查詢維度。資料檢視工作流程會直接納入這些可供資料檢視使用的全域查詢維度。所有區域和帳戶的查詢檔案都會自動保持在最新狀態。這些檔案會儲存在與客戶相關聯區域的組織中。
 
-## 將全域查詢與Adobe Data Connector資料集搭配使用
+## 搭配使用全域查詢與 Adobe Data Connector 資料集
 
-全域查閱資料集會在報告時自動套用。 如果您使用[Analytics資料連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors)，而您引入Adobe提供全域查閱的維度，我們會自動套用此全域查閱。 如果事件資料集包含[XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en)欄位，我們可以套用全域查詢。
+全域查詢資料集會在報表時間自動套用。如果您使用 [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant#connectors)，並加入 Adobe 中提供全域查詢的維度，系統就會自動套用此全域查詢。如果事件資料集包含 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 欄位，系統就能為資料集套用全域查詢。
 
-## 使用自訂資料集的全域查閱
+## 使用自訂資料集進行全域查詢
 
-事件資料集中必須有與全域查閱資料集相容的索引鍵。 只要您新增部分標準[Adobe Experience Platform架構mixins](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=en#mixins)，以填入正確的XDM欄位，您就可以讓自訂資料集搭配全域查閱運作。
+事件資料集中需有相容於全域查詢資料集的索引鍵。只要新增部分標準 [Adobe Experience Platform 結構 Mixin](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=zh-Hant#mixins)，填入正確的 XDM 欄位，即可使用自訂資料集進行全域查詢。
 
-## 可用的全域查閱欄位
+## 可用的全域查詢欄位
 
 * `browser`
    * `browser`, `group_id`, `id`
@@ -58,13 +57,13 @@ ht-degree: 0%
 * `mobile_screen_width`
 * `mobile_video_support - multi`
 
-## 全域查閱維度報告
+## 全域查詢維度報表
 
-若要報告全域查閱維度，您必須在「客戶歷程分析」中建立資料檢視時新增這些維度：
+若要使用全域查詢維度來建立報表，請在 Customer Journey Analytics 中建立資料檢視時將其加入：
 
 ![](assets/global-lookup.png)
 
-然後，您就可以在工作區中看到查閱資料：
+接著，您就能在 Analysis Workspace 中看見查詢資料：
 
 ![](assets/gl-reporting.png)
 
