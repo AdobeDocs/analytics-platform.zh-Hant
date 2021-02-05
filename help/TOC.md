@@ -21,7 +21,7 @@ translation-type: tm+mt
 source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 + 連線 {#cja-connections}
    + [建立連線](connections/create-connection.md)
    + [管理連線](connections/manage-connection.md)
-   + [估計連接大小](connections/estimate-connection-size.md)
+   + [估算連線規模](connections/estimate-connection-size.md)
    + [合併事件資料集](connections/combined-dataset.md)
    + 跨通道分析{#cca}
       + [跨通道分析概觀](connections/cca/overview.md)
@@ -47,7 +47,7 @@ ht-degree: 93%
 + 資料檢視 {#cja-dataviews}
    + [建立資料檢視](data-views/create-dataview.md)
    + [設定資料檢視和歸因](data-views/configure-dataviews.md)
-+ 工作區專案 {#cja-workspace}
++ Analysis Workspace 專案 {#cja-workspace}
    + [Analysis Workspace 概述](analysis-workspace/home.md)
    + [執行基本分析](analysis-workspace/perform-basic-analysis.md)
    + [執行進階分析](analysis-workspace/perform-adv-analysis.md)
@@ -55,7 +55,7 @@ ht-degree: 93%
       + [專案概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [熱鍵 (快速鍵)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
    + 視覺效果 {#visualizations}
@@ -68,7 +68,7 @@ ht-degree: 93%
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [分頁、篩選及分類表格](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [工作區總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Analysis Workspace 總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [同類群組分析是什麼？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定同類群組分析報表](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -108,7 +108,7 @@ ht-degree: 93%
       + [建立分享連結](analysis-workspace/curate-share/shareable-links.md)
       + [僅供檢視的專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
-      + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
+      + [為專案排程](analysis-workspace/curate-share/t-schedule-report.md)
    + 歸因 IQ {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
@@ -120,7 +120,7 @@ ht-degree: 93%
          + [異常偵測概觀](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [在 Analysis Workspace 中檢視異常](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [異常偵測所使用的統計技術](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-   + 工作區常見問題集 {#workspace-faq}
+   + Analysis Workspace 常見問題集 {#workspace-faq}
       + [常見問題集](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 效能最佳化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [錯誤訊息](analysis-workspace/workspace-faq/error-messages.md)
@@ -156,10 +156,10 @@ ht-degree: 93%
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [使用物件陣列](use-cases/object-arrays.md)
    + [(B2B) 新增帳戶層級資料作為查詢資料集](use-cases/b2b.md)
-   + [匯入客服中心和Web資料](use-cases/call-center.md)
-   + [資料內嵌使用案例](use-cases/data-ingestion.md)
-   + [使用行銷渠道維度](use-cases/marketing-channels.md)
-   + [將全域查閱新增至資料集](use-cases/global-lookups.md)
+   + [匯入客服中心和網路資料](use-cases/call-center.md)
+   + [資料匯入使用案例](use-cases/data-ingestion.md)
+   + [使用行銷管道維度](use-cases/marketing-channels.md)
+   + [將全域查詢新增至資料集](use-cases/global-lookups.md)
 + 隱私權 {#cja-privacy}
    + [隱私權概觀](privacy/privacy-overview.md)
 + [CJA 文件更新](doc-changes.md)
