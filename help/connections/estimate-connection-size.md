@@ -1,57 +1,57 @@
 ---
-title: 估計連接大小
-description: 報告您目前對客戶歷程分析的使用狀況
+title: 估算連線規模
+description: 回報 Customer Journey Analytics 目前的使用狀況
 translation-type: tm+mt
 source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 估計連接大小
+# 估算連線規模
 
-您可能需要知道[!UICONTROL 客戶歷程分析]中目前有多少列資料。 本主題的目的，在於告訴您如何報告[!UICONTROL 客戶歷程分析]目前的使用情形。
+您可能需要知道 [!UICONTROL Customer Journey Analytics] 中有多少列資料。本主題旨在說明如何回報 [!UICONTROL Customer Journey Analytics] 目前的使用狀況。
 
-1. 在[!UICONTROL 客戶歷程分析]中，按一下&#x200B;**[!UICONTROL 連線]**&#x200B;標籤。
-1. 在[!UICONTROL 編輯連接]螢幕上，選擇要確定其使用／連接大小的連接。
+1. 在 [!UICONTROL Customer Journey Analytics] 中按一下&#x200B;**[!UICONTROL 「連線」]**&#x200B;索引標籤。
+1. 在[!UICONTROL 「編輯連線」]畫面上，選取要決定使用/連線規模的連線。
 
    ![編輯連線](assets/edit-connection.png)
 
-1. 從左側導軌中選取屬於連線一部分的資料集。 在本例中，它是「B2B印象」資料集。
+1. 在左側邊欄選取連線的資料集。在此案例中，我們需要選取「B2B Impression」資料集。
 
    ![資料集](assets/dataset.png)
 
-1. 按一下其名稱旁的藍色(i)圖示（資訊）。 您會注意到資料集有3.8k列／事件。 此外，若需確切的列數，請按一下預覽表格下方的「在Experience Platform中編輯」。 ****&#x200B;這會將您重新導向至[!UICONTROL Adobe Experience Platform]中的資料集。
+1. 按一下名稱旁邊的藍色 (i) 圖示 (即資訊的意思)，您會看到資料集有 3,800 列/個事件。此外，如需確切列數，請按一下預覽表格下方的&#x200B;**[!UICONTROL 「在 Experience Platform 中編輯」]**。這會將您重新導向 [!UICONTROL Adobe Experience Platform] 中的資料集。
 
-   ![AEP資料集資訊](assets/data-size.png)
+   ![AEP 資料集資訊](assets/data-size.png)
 
-1. 請注意，此資料集的&#x200B;**[!UICONTROL 總記錄]**&#x200B;總計為3.83k記錄，資料大小為388.59 KB。
+1. 請注意，此資料集數量的&#x200B;**[!UICONTROL 「記錄總數」]**&#x200B;為 3,830 筆記錄，資料大小為 388.59 KB。
 
-1. 對連接中的其他資料集重複步驟1-5，並添加記錄／行數。 最終的匯總數字將是您連線的使用量度。 這是您要從[!UICONTROL Adobe Experience Platform]收錄的連線資料集的列數。
+1. 對連線中的其他資料集重複執行第 1 步到第 5 步，並加總記錄數量/列數。最終的總和就是您連線的使用情形量度。這是您要從 [!UICONTROL Adobe Experience Platform] 擷取的連線資料集列數。
 
-## 確定收錄的行數
+## 決定擷取列數
 
-[!UICONTROL 客戶歷程分析]中實際收錄的事件數，視您的連線設定而定。 此外，如果您選取的人員ID錯誤，或者如果此ID無法用於資料集中的某些列，則[!UICONTROL 客戶歷程分析]將忽略這些列。 為了確定所攝入事件的實際行，請執行以下步驟：
+[!UICONTROL Customer Journey Analytics] 中實際擷取的事件數端視您的連線組態設定而定。此外，如果您選取錯誤的人員 ID，或資料集中的某些列無法使用此 ID，[!UICONTROL Customer Journey Analytics] 就會忽略這些列。若要決定實際擷取的事件列數，請執行下列步驟：
 
-1. 儲存連線後，請建立相同連線的資料檢視，不需任何篩選。
-1. 建立工作區專案並選取正確的資料檢視。 建立自由表格，並拖放具有&#x200B;**[!UICONTROL Year]**&#x200B;維度的&#x200B;**[!UICONTROL Events]**&#x200B;量度。 從日期選擇日曆中選擇足夠大的日期範圍，以封裝連接中的所有資料。 這可讓您查看收錄至[!UICONTROL 客戶歷程分析]的事件數。
+1. 儲存連線後，在不使用任何篩選器的情況下，建立相同連線的資料檢視。
+1. 建立 Analysis Workspace 專案並選取正確的資料檢視。建立自由表格，並拖放具有&#x200B;**[!UICONTROL 「年」]**&#x200B;維度的&#x200B;**[!UICONTROL 「事件數」]**&#x200B;量度。在日期選取行事曆中選擇夠大的日期範圍，以涵蓋連線中的所有資料。這可讓您查看擷取至 [!UICONTROL Customer Journey Analytics] 的事件數。
 
-   ![工作區專案](assets/event-number.png)
+   ![Analysis Workspace 專案](assets/event-number.png)
 
    >[!NOTE]
    >
-   >這可讓您查看從事件資料集擷取的事件數。 它不包含描述檔和查閱類型資料集。 請依照描述檔和查閱資料集的「估計連線大小」下的步驟1-3，並加上數字，以取得此連線的總列數。
+   >這可讓您查看從事件資料集擷取的事件數，但不包含設定檔和查詢類型資料集。如需設定檔和查詢資料集的相關數據，請按照「估算連線規模」的第 1 步至第 3 步操作，加總所有數字即可得到此連線的總列數。
 
 ## 診斷不一致
 
-在某些情況下，您可能會注意到您的連線所擷取的事件總數與[!UICONTROL Adobe Experience Platform]中資料集的列數不同。 在此範例中，資料集&quot;B2B印象&quot;有7650列，但資料集在[!UICONTROL Adobe Experience Platform]中包含3830列。 出現不一致的原因有幾點，可以採取以下步驟進行診斷：
+在部分情況下，您可能會發現連線所擷取的事件總數與 [!UICONTROL Adobe Experience Platform] 資料集中的列數不同。在此範例中，資料集「B2B Impression」有 7,650 列，但資料集在 [!UICONTROL Adobe Experience Platform] 中僅有 3,830 列。數據不一致有幾個原因，您可採取下列步驟加以診斷：
 
-1. 依&#x200B;**[!UICONTROL 平台資料集ID]**&#x200B;劃分此維度，您會發現兩個大小相同但不同&#x200B;**[!UICONTROL 平台資料集ID]**&#x200B;的資料集。 每個資料集有3825個記錄。 這表示[!UICONTROL 客戶歷程分析]因遺失人員ID或遺失時間戳記而忽略5個記錄：
+1. 依&#x200B;**[!UICONTROL 「Platform 資料集 ID」]**&#x200B;劃分此維度，您會發現兩個大小相同，但&#x200B;**[!UICONTROL 「Platform 資料集 ID」]**&#x200B;不同的資料集。每個資料集有 3,825 筆記錄，表示有 5 筆記錄缺少人員 ID 或時間戳記，導致 [!UICONTROL Customer Journey Analytics] 忽略了這些記錄：
 
    ![劃分](assets/data-size2.png)
 
-1. 此外，如果我們登入[!UICONTROL Adobe Experience Platform]，則沒有Id為「5f21c12b732044194bffc1d0」的資料集，因此當建立初始連線時，有人會從[!UICONTROL Adobe Experience Platform]刪除此特定資料集…… 之後，它又新增至[!UICONTROL 客戶歷程分析]，但是由[!UICONTROL Adobe Experience Platform]產生不同的[!UICONTROL 平台資料集ID]。
+1. 此外，如果查看 [!UICONTROL Adobe Experience Platform]，會發現沒有 ID 為「5f21c12b732044194bffc1d0」的資料集，這是因為最初建立連線時，有人從 [!UICONTROL Adobe Experience Platform] 中刪除了這個資料集。之後，雖然有人將資料集重新新增至 [!UICONTROL Customer Journey Analytics]，但 [!UICONTROL Adobe Experience Platform] 產生的 [!UICONTROL Platform 資料集 ID] 不同。
 
-閱讀[!UICONTROL 客戶歷程分析]和[!UICONTROL Adobe Experience Platform]中資料集和連線刪除[的涵義。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components)
+深入了解在 [!UICONTROL Customer Journey Analytics] 和 [!UICONTROL Adobe Experience Platform] 中[刪除資料集和連線可能造成的後果](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components)。
