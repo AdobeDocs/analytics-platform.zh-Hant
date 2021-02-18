@@ -7,7 +7,7 @@ solution: Customer Journey Analytics
 type: Documentation
 index: true
 user-guide-title: Customer Journey Analytics 指南
-user-guide-description: 本指南針對 Adobe 跨通道分析的新一代解決方案 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供自助協助資訊。
+user-guide-description: 本指南針對 Adobe 跨管道分析的新一代解決方案 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供自助協助資訊。
 breadcrumb-title: Customer Journey Analytics 指南
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 solution-title: Experience Cloud
@@ -17,11 +17,11 @@ getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,10 +40,10 @@ ht-degree: 98%
    + [管理連線](connections/manage-connection.md)
    + [估算連線規模](connections/estimate-connection-size.md)
    + [合併事件資料集](connections/combined-dataset.md)
-   + 跨通道分析{#cca}
-      + [跨通道分析概觀](connections/cca/overview.md)
+   + 跨管道分析{#cca}
+      + [跨管道分析概述](connections/cca/overview.md)
       + [重播的運作方式](connections/cca/replay.md)
-      + [跨通道分析常見問答集](connections/cca/faq.md)
+      + [跨管道分析常見問題集](connections/cca/faq.md)
 + 資料檢視 {#cja-dataviews}
    + [建立資料檢視](data-views/create-dataview.md)
    + [設定資料檢視和歸因](data-views/configure-dataviews.md)
