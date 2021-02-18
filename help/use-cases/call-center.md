@@ -1,11 +1,11 @@
 ---
 title: 匯入客服中心和網路資料
 description: 了解如何建立連結客服中心和網站資料的資料集。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '679'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Customer Journey Analytics 具有重要的強大功能，可將不同來源的�
 
 ## 將網路和客服中心資料匯入 Platform
 
-將您的資料匯入Adobe Experience Platform。 請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/tutorials/create-schema-ui.html)和[匯入資料](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/home.html)。
+將您的資料匯入 Adobe Experience Platform。請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/tutorials/create-schema-ui.html)和[匯入資料](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/home.html)。
 
 將資料匯入 Platform 時，遵循下列秘訣有助於從產生的報表中獲得更多深入見解：
 
@@ -43,7 +43,7 @@ Customer Journey Analytics 具有重要的強大功能，可將不同來源的�
 CJA 需有共同識別碼才能產生[合併資料集](../connections/combined-dataset.md)。
 
 * 如果您兩個資料集的每個事件已有共同識別碼，您可以略過此步驟，繼續建立連線。
-* 如果您的其中一個資料集只有某些事件有一個通用識別碼，您可以使用跨通道分析將資料拼湊在一起。 如需為這兩個資料集啟用CCA的步驟，請參閱[跨通道分析概述](/help/connections/cca/overview.md)。
+* 如果任一資料集中只有部分事件有共同識別碼，您可以使用跨管道分析來彙整資料。如需為這兩個資料集啟用跨管道分析的相關步驟，請參閱[跨管道分析概述](/help/connections/cca/overview.md)。
 
 ## 在 CJA 中建立連線
 
