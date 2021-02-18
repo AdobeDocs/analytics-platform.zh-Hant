@@ -1,11 +1,11 @@
 ---
-description: 瞭解如何在分析工作區中建立任何度量的視覺化地圖。
+description: 瞭解如何在 Analysis Workspace 中建立任何量度的視覺化地圖。
 title: 地圖
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
