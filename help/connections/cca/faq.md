@@ -1,11 +1,11 @@
 ---
-title: 跨通道分析常見問答集
-description: 跨通道分析的常見問題
-translation-type: tm+mt
+title: 跨管道分析常見問題集
+description: 跨管道分析常見問題集
+translation-type: ht
 source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,8 +41,8 @@ ht-degree: 93%
 
 ## 如果我連絡客戶經理，向對方索取所需資訊，需要多久才能使用金鑰已重設的資料集？
 
-在Adobe啟用跨通道分析後，即時聯繫約需1週。 能否使用回填功能取決於現有資料的數量。如果是小型資料集 (每天不到 100 萬個事件)，通常需要幾天後才能使用，大型資料集 (每天 10 億個事件) 則需等待一週或更久時間。
+Adobe 啟用跨管道分析後，需要約 1 週才能使用即時彙整功能。能否使用回填功能取決於現有資料的數量。如果是小型資料集 (每天不到 100 萬個事件)，通常需要幾天後才能使用，大型資料集 (每天 10 億個事件) 則需等待一週或更久時間。
 
-## 跨通道分析如何處理GDPR和CCPA請求？
+## 跨管道分析如何處理 GDPR 和 CCPA 要求？
 
 Adobe 會根據當地及國際法律規範處理 GDPR 和 CCPA 要求。Adobe 提供 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)，以供提交資料存取及刪除要求。這些要求會同時套用至原始資料集和已重設金鑰的資料集。
