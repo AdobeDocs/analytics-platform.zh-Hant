@@ -1,17 +1,17 @@
 ---
 description: 透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。
 keywords: Analysis Workspace
-title: 排程專案
+title: 為專案排程
 translation-type: tm+mt
 source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 99%
+source-wordcount: '505'
+ht-degree: 100%
 
 ---
 
 
-# 排程專案
+# 為專案排程
 
 >[!NOTE]
 >
