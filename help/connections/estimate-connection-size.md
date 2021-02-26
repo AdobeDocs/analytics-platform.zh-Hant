@@ -1,9 +1,9 @@
 ---
 title: 估算連線規模
 description: 回報 Customer Journey Analytics 目前的使用狀況
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 
