@@ -1,11 +1,11 @@
 ---
-description: 在分析工作區中以視覺化方式呈現您的資料。
+description: 在Analysis Workspace以視覺化方式呈現您的資料。
 keywords: Analysis Workspace
 title: 視覺效果概述
 translation-type: tm+mt
 source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1060'
 ht-degree: 42%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 42%
 
 # 視覺效果概述
 
-工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。如果您使用Adobe Analytics，大部分的視覺化類型都會讓您熟悉。 不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
+工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。如果您使用Adobe Analytics，大部分的視覺化類型都會很熟悉。 不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
 您可以從「工作區」的左上角圖示、[空白麵板](https://experienceleague.adobe.com/docs/analytics/analysis-workspace/panels/blank-panel.html)，或透過工作流程中的按滑鼠右鍵功能表，存取視覺化。
 
 ![](assets/viz-rail.png)
 
-分析工作區中提供下列視覺化類型：
+Analysis Workspace提供下列視覺化類型：
 
 | 視覺效果名稱 | 說明 |
 | --- | --- |
