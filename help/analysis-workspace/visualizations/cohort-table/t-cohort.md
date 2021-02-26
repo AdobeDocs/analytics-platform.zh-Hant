@@ -6,7 +6,7 @@ uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
 source-git-commit: 7f6afbb7c0376791c286021d9ffe4ac670ed7bd7
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '952'
 ht-degree: 95%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 95%
 
 1. 在[篩選產生器](/help/components/filters/manage-filters.md)中，進一步編輯區段，然後按一下「儲存&#x200B;**[!UICONTROL a3/>」。]**
 
-   儲存的篩選器可用於[!UICONTROL 分析工作區]的[!UICONTROL Filter]面板。
+   保存的過濾器可用於[!UICONTROL Analysis Workspace]的[!UICONTROL 過濾器]面板。
 1. 命名同類群組專案，將其儲存。
 1. (選用) [組織與共用](/help/analysis-workspace/curate-share/curate.md)專案元件。
 
