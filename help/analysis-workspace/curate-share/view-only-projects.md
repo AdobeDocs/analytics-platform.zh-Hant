@@ -1,12 +1,12 @@
 ---
 description: 工作區中僅限檢視的專案
-keywords: View-only projects
+keywords: 僅供檢視的專案
 title: 僅供檢視的專案
 translation-type: tm+mt
 source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 98%
+source-wordcount: '283'
+ht-degree: 100%
 
 ---
 
