@@ -1,9 +1,9 @@
 ---
 title: 匯入客服中心和網路資料
 description: 了解如何建立連結客服中心和網站資料的資料集。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
 
