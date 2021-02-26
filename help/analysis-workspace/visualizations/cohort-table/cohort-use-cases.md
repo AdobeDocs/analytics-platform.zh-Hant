@@ -2,12 +2,12 @@
 description: 同類群組分析的使用案例範例。
 keywords: Analysis Workspace
 title: 同類群組分析使用案例
-topic: Reports and analytics
+topic: Reports and Analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '966'
 ht-degree: 100%
 
 ---
