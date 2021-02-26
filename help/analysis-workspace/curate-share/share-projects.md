@@ -1,11 +1,11 @@
 ---
 description: 工作區中的專案共用和專案角色
-keywords: Analysis Workspace sharing
+keywords: Analysis Workspace共用
 title: 共用專案
 translation-type: tm+mt
 source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1138'
 ht-degree: 99%
 
 ---
