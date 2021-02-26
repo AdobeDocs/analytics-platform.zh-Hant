@@ -1,9 +1,9 @@
 ---
 description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8b814137a7c5e2ca96091addb5b4430e2da65329
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
 
