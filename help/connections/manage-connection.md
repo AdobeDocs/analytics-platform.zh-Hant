@@ -1,9 +1,9 @@
 ---
 title: 管理連線
 description: 說明如何管理與 Platform 資料集的連線。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%
 
