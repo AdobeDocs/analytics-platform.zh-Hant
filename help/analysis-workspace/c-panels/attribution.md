@@ -17,7 +17,7 @@ ht-degree: 66%
 ## 建立歸因面板
 
 1. 按一下左側的面板圖示。
-1. 將[!UICONTROL Attribution]面板拖曳至分析工作區專案中。
+1. 將[!UICONTROL Attribution]面板拖曳至您的Analysis Workspace專案。
 
    ![新增歸因面板](assets/Attribution_Panel_1.png)
 
