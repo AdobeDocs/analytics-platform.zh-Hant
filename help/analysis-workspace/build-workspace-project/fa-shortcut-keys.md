@@ -1,17 +1,17 @@
 ---
 description: Analysis Workspace 提供的鍵盤互動、快速鍵和指向與按下行為。
 keywords: Analysis Workspace
-title: 快速鍵（快速鍵）
+title: 快速鍵
 translation-type: tm+mt
 source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 98%
+source-wordcount: '308'
+ht-degree: 100%
 
 ---
 
 
-# 快速鍵（快速鍵）
+# 快速鍵
 
 Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，以順暢導覽、分析和加速。
 
