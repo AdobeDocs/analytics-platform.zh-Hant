@@ -2,12 +2,12 @@
 description: 在 Analysis Workspace 中建立自訂日期範圍，並將其儲存為時間元件。
 keywords: Analysis Workspace
 title: 建立自訂日期範圍
-topic: Reports and analytics
+topic: Reports and Analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '286'
 ht-degree: 100%
 
 ---
