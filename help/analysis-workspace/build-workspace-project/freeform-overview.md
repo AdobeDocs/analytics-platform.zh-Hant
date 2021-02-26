@@ -6,7 +6,7 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
 source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1368'
 ht-degree: 21%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 ## 專案清單 {#project-list}
 
-當您第一次前往&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**&#x200B;時，頁面會列出您擁有或已共用給您的所有專案。 這也是Adobe Analytics的著陸頁面，除非您先前已設定自訂著陸頁面。
+當您第一次前往&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**&#x200B;時，頁面會列出您擁有或已共用給您的所有專案。 這也是Adobe Analytics的登陸頁面，除非您先前已設定自訂登陸頁面。
 
 ![](assets/sample-project.png)
 
@@ -29,7 +29,7 @@ ht-degree: 21%
 | [建立新專案](/help/analysis-workspace/home.md) | 按一下此連結可從頭開始或從為您建立的[模板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#analysis-workspace)開始新項目。 |
 | 管理專案 | 按一下此連結即可將您導向「專案元件管理員」(**[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 專案]**」)，它會列出您的所有專案，並讓您標記、共用、刪除、重新命名、核准、複製，以及將專案匯出為 CSV。 |
 | 設定為登陸頁面 | 將此頁面轉換為您的工作區登陸頁面。 |
-| [觀看教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | 帶您前往分析工作區教學課程影片。 |
+| [觀看教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | 帶您前往Analysis Workspace的教學影片。 |
 | 名稱 | 「工作區」專案名稱。 |
 | 擁有者 | 建立此專案的人 (您或與您共用專案的人)。 |
 | 類型 | 指出這是工作區項目還是[Mobile Scorecard](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html)。 |
@@ -52,7 +52,7 @@ ht-degree: 21%
 | 插入 | 從此選單插入新面板或視覺化。 您也可以從左側導軌插入新的面板和視覺化。 |
 | [元件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) | 從專案建立新區段、計算量度、日期範圍或警報元件。 您也可以從左側導軌建立新元件。 如果您的元件定義最近已變更，「重新整理元件」會擷取最新的定義。 |
 | [共用](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) | 組織組織中的收件者，以組織、共用和排程PDF/CSV專案。 |
-| 說明 | 存取說明檔案、影片和Analytics [Experience League社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)。 管理工作區提示及[除錯程式](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)的可見性。 尋找有關工作區和影響專案[效能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html)的因素的詳細資訊。 |
+| 說明 | 存取說明檔案、視訊和Analytics [Experience League社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)。 管理工作區提示及[除錯程式](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)的可見性。 尋找有關工作區和影響專案[效能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html)的因素的詳細資訊。 |
 | 「共用」按鈕或「擁有者」 | 如果您是專案的「擁有」或「編輯」，右上方的「共用」按鈕可讓您按一下滑鼠即可存取專案收件者。 如果您是專案的「複製」或「檢視」角色，您會看到專案擁有者的名稱。 |
 
 ### 專案資訊和設定 {#info-settings}
@@ -80,7 +80,7 @@ ht-degree: 21%
 
 您也可以從[空白麵板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)存取視覺化和面板。
 
-左側導軌中的元件（維度、量度、區段、日期範圍）與作用中的面板報表套裝相關。 作用中面板周圍會有藍色邊框，而作用中報表套裝會列在元件邊欄的頂端。
+左側導軌中的元件(Dimension、量度、區段、日期範圍)與作用中的面板報表套裝相關。 作用中面板周圍會有藍色邊框，而作用中報表套裝會列在元件邊欄的頂端。
 
 ![](assets/left-rail.png)
 
@@ -96,7 +96,7 @@ ht-degree: 21%
 
 ## 專案經理 {#manager}
 
-分析工作區專案可在&#x200B;**Analytics >元件>專案**&#x200B;下管理。 「專案管理員」會顯示特定使用者已建立的項目。 專案擁有權可在「管理員> Analytics使用者與資產>轉移資產」下移轉至新使用者。
+Analysis Workspace專案可在&#x200B;**Analytics >元件>專案**&#x200B;下管理。 「專案管理員」會顯示特定使用者已建立的項目。 專案擁有權可在「管理員> Analytics使用者與資產>轉移資產」下移轉至新使用者。
 
 在「專案管理員」中，您可以新增、標籤、共用、複製／複製等。 在搜尋列中或使用左側導軌中的篩選選項來搜尋專案。 您可以依標籤、擁有者、專案類型等進行篩選。
 
