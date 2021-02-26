@@ -1,9 +1,9 @@
 ---
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b77165ee5994ec59e346cf6314a7e051ffa07524
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 100%
 
