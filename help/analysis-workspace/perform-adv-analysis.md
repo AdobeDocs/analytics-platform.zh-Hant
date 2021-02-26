@@ -1,6 +1,6 @@
 ---
-title: 在客戶歷程分析中執行進階分析
-description: 說明如何在工作區中進行進階的客戶歷程分析。
+title: 在Customer Journey Analytics中執行進階分析
+description: 說明如何在工作區中進行進階Customer Journey Analytics分析。
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
