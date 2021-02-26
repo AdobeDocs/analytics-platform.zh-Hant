@@ -5,7 +5,7 @@ title: 管理需求
 translation-type: tm+mt
 source-git-commit: 3dc9d0d0a1f65a4205120895c35aa508f080c25d
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
