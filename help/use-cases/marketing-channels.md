@@ -1,9 +1,9 @@
 ---
 title: 在 Adobe Experience Platform 中使用行銷管道維度
 description: 使用 Analytics Data Connector 將行銷管道處理規則匯入 Adobe Experience Platform。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b5ed4c65877fa8e2de83810a3c4bd1a4048f5b31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 先決條件
 
-* 須先使用 [Analytics Data Connector](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sources/connectors/adobe-applications/analytics.html) 將報表套裝資料匯入 Adobe Experience Platform。由於行銷管道需仰賴 Analytics 報表套裝中的處理規則來運作，因此不支援其他資料來源。
+* 須先使用 [Analytics Data Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) 將報表套裝資料匯入 Adobe Experience Platform。由於行銷管道需仰賴 Analytics 報表套裝中的處理規則來運作，因此不支援其他資料來源。
 * 行銷管道處理規則須完成設定。請參閱舊版 Analytics 元件指南中的[行銷管道處理規則](https://docs.adobe.com/content/help/zh-Hant/analytics/components/marketing-channels/c-rules.html)。
 
 ## 行銷管道結構元素
