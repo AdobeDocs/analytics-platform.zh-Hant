@@ -1,9 +1,9 @@
 ---
 title: Customer Journey Analytics 常見問題集
 description: Customer Journey Analytics - 常見問題集。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 100%
 
