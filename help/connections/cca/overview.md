@@ -1,9 +1,9 @@
 ---
 title: 跨管道分析概述
 description: 重新輸入多個資料集的訪客 ID，以彙整訪客。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
 
