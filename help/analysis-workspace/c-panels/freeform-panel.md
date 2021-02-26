@@ -1,5 +1,5 @@
 ---
-description: 瞭解分析工作區中的自由格式面板。
+description: 瞭解Analysis Workspace的自由面板。
 title: 自由面板
 translation-type: tm+mt
 source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
