@@ -1,12 +1,12 @@
 ---
 description: 了解如何建立專案或視覺效果的分享連結
-keywords: Analysis Workspace sharing
+keywords: Analysis Workspace共用
 title: 建立分享連結
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
-workflow-type: ht
-source-wordcount: '331'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 99%
 
 ---
 
