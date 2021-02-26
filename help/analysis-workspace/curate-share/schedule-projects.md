@@ -1,11 +1,11 @@
 ---
-description: 管理排程分析工作區專案
+description: 管理排程的Analysis Workspace專案
 keywords: Analysis Workspace
 title: 排程專案管理員
 translation-type: tm+mt
 source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '187'
 ht-degree: 97%
 
 ---
