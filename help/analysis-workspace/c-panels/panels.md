@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # 面板概述
 
-[!UICONTROL 面板]是表格和視覺化的集合。 您可以從工作區的左上角圖示或[空白麵板](/help/analysis-workspace/c-panels/blank-panel.md)存取面板。 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。 「分析工作區」中提供下列面板類型：
+[!UICONTROL 面板]是表格和視覺化的集合。 您可以從工作區的左上角圖示或[空白麵板](/help/analysis-workspace/c-panels/blank-panel.md)存取面板。 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。 Analysis Workspace提供下列面板類型：
 
 | 面板名稱 | 說明 |
 | --- | --- |
@@ -23,7 +23,7 @@ ht-degree: 8%
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights]、  Blank和  Freepanels是您開始分析的絕佳場所，而 [!UICONTROL Analytics for Target]、 [!UICONTROL Attribution IQform]    、Concurrent Viewmedia Concurrent Erermedia和Comparnaling Signment Isonlend Advanced And And And Advanced。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
+[!UICONTROL Quick Insights]、  Blank和  Freeformpanels是您開始分析的絕佳場所，而 [!UICONTROL Target]、     Attribution IQ、Concurrent Media Percomparonon Comparon Accorpont Acceron Views Isisand Segment本身則有助於進行更深入的分析。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
 
 預設的起始面板是[!UICONTROL Freeform]面板，但您也可以將[空白麵板](/help/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 
@@ -63,7 +63,7 @@ ht-degree: 8%
 
 若要建立下拉式篩選：
 
-1. 若要使用[!UICONTROL 維度項目]建立下拉式篩選，例如[!UICONTROL 行銷管道]維度中的值，請按一下左側導軌中維度旁的右箭頭圖示。 這會公開所有可用項目。 從左側導軌中選取一或多個元件項目，並在按住Shift鍵的同時將其拖放至面板拖放區域&#x200B;**。**&#x200B;這會將元件轉換為下拉式篩選，而非單一區段。
+1. 若要使用[!UICONTROL Dimension項目]建立下拉式篩選，例如[!UICONTROL 行銷管道]維度中的值，請按一下左側導軌中維度旁的右箭頭圖示。 這會公開所有可用項目。 從左側導軌中選取一或多個元件項目，並在按住Shift鍵的同時將其拖放至面板拖放區域&#x200B;**。**&#x200B;這會將元件轉換為下拉式篩選，而非單一區段。
 1. 若要使用其他元件（例如度量、區段或日期範圍）建立下拉式篩選，請從左側導軌中的一個元件類型中選取，然後拖曳至面板下拉區&#x200B;**，同時按住Shift鍵**。
 1. 從下拉式清單中選取其中一個選項，以變更面板中的資料。 您也可以選擇&#x200B;**[!UICONTROL 無篩選器]**，選擇不篩選任何面板資料。
 
