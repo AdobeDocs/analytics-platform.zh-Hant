@@ -1,6 +1,6 @@
 ---
 title: 管理日期範圍
-description: 在分析工作區中共用、重新命名或刪除日期範圍。
+description: 在Analysis Workspace共用、重新命名或刪除日期範圍。
 translation-type: tm+mt
 source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
 workflow-type: tm+mt
