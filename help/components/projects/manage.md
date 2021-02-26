@@ -1,6 +1,6 @@
 ---
 title: 管理專案
-description: 在分析工作區中共用、刪除或重新命名專案。
+description: 在Analysis Workspace共用、刪除或重新命名專案。
 translation-type: tm+mt
 source-git-commit: 542d394e9f20b10b932c8f444de096381ba25a17
 workflow-type: tm+mt
