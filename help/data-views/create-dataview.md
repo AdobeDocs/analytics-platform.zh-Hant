@@ -1,9 +1,9 @@
 ---
 title: 建立資料檢視
 description: 說明如何在 Customer Journey Analytics (CJA) 中為 Platform 資料集建立資料檢視。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 100%
 
