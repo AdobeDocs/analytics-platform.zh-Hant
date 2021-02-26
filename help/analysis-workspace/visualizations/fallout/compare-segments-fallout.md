@@ -1,12 +1,12 @@
 ---
-description: 您可以從接觸點建立區段、新增區段作為接觸點，以及在 Analysis Workspace 的各種區段間比較關鍵工作流程。
-keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
+description: 您可以從接觸點建立區段、新增區段做為接觸點，以及在 Analysis Workspace 的各種區段間比較關鍵工作流程。
+keywords: 流失和分段, 流失分析中的區段, 比較流失中的區段
 title: 在流失分析中套用篩選器
 translation-type: tm+mt
 source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 23%
+source-wordcount: '440'
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 23%
 >
 >您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
-您可以從觸點建立篩選器、新增區段作為觸點，以及比較分析工作區中各種篩選器的關鍵工作流程。
+您可以從觸點建立篩選器、新增區段作為觸點，並比較Analysis Workspace不同篩選器的關鍵工作流程。
 
 >[!IMPORTANT]
 >
