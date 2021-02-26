@@ -1,9 +1,9 @@
 ---
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 100%
 
@@ -127,7 +127,7 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 
 連線中的每個資料集都必須完成這項計算。
 
-1. 前往 [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/zh-Hant/experience-platform/query/home.html)，並建立新查詢。
+1. 前往 [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html)，並建立新查詢。
 
 1. 查詢如下所示：<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
 
