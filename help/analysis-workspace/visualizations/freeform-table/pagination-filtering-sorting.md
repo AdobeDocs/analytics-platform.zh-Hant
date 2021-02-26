@@ -1,9 +1,9 @@
 ---
 description: Analysis Workspace 的表格分頁、篩選及分類功能
 title: 表格分頁、篩選及分類
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7274e44dedb3eef89119d886e72c1454d914da0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
 
