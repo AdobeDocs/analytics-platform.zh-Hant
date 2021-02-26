@@ -1,9 +1,9 @@
 ---
 description: 了解不同的儲存選項，包括自動儲存、另存新檔和另存為範本。
 title: 儲存專案
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f01585ffdc0b54d1b21b035278869e59bd4947dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
