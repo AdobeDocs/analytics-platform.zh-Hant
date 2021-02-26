@@ -1,9 +1,9 @@
 ---
 title: 跨管道分析常見問題集
 description: 跨管道分析常見問題集
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%
 
