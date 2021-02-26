@@ -2,9 +2,9 @@
 description: 列設定會依您拖放至表格中的元件而異。
 title: 列設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8b814137a7c5e2ca96091addb5b4430e2da65329
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
 
