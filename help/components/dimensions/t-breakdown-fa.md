@@ -2,12 +2,12 @@
 description: 在 Analysis Workspace 中劃分維度和維度項目。
 keywords: Analysis Workspace
 title: 劃分維度
-topic: Reports and analytics
+topic: Reports and Analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
 source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '237'
 ht-degree: 96%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 96%
    >
    >表格中顯示的劃分數目上限為 200。匯出劃分時，此限制會提高。
 
-**影片：分析工作區中的維度**
+**影片：Analysis WorkspaceDimension**
 
 >[!VIDEO](https://video.tv.adobe.com/v/23971)
 
-**影片：維度劃分**
+**影片：Dimension劃分**
 
 >[!VIDEO](https://video.tv.adobe.com/v/23969)
 
