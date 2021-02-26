@@ -1,5 +1,5 @@
 ---
-description: 您可以複製分析工作區或以PDF和CSV格式從其下載資料。
+description: 您可以複製Analysis Workspace的資料，或以PDF和CSV格式下載資料。
 title: 下載 PDF 或 CSV 檔案
 translation-type: tm+mt
 source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
@@ -16,7 +16,7 @@ ht-degree: 12%
 >
 >您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
-您可從分析工作區匯出資料有幾種不同的方式，這取決於您要在工具外部分析的資料集，以及哪些人需要接收資訊。 匯出的資料可以是複製資料、CSV或PDF檔案的形式。 如果您想要將視覺化內容包含在檔案中，通常偏好使用PDF，而如果您只想要純文字資料，則偏好使用CSV（或複製的資料）。
+從Analysis Workspace匯出資料有幾種不同的方式，這取決於您要在工具外部分析的資料集以及需要接收資訊的人員。 匯出的資料可以是複製資料、CSV或PDF檔案的形式。 如果您想要將視覺化內容包含在檔案中，通常偏好使用PDF，而如果您只想要純文字資料，則偏好使用CSV（或複製的資料）。
 
 ## 將專案下載為CSV或PDF {#download-project}
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 對於專案下載，請記住：
 
 * 當您要求下載專案時，可以儲存或儲存專案。 但是，只有儲存的專案可以是[scheduled](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)。
-* 在瀏覽器中下載的PDF匯出可能需要幾分鐘的時間，因為專案會在Adobe伺服器上重新執行，然後再以PDF格式轉譯。 建議您在 PDF 下載到瀏覽器之前不要退出專案。不過，您可以在等待時繼續變更專案。如果PDF的轉譯時間超過5分鐘，則會提示您以電子郵件傳送。
+* 在瀏覽器中下載的PDF可能需要幾分鐘的時間才能匯出，因為專案會在Adobe伺服器上重新執行，然後再以PDF格式轉譯。 建議您在 PDF 下載到瀏覽器之前不要退出專案。不過，您可以在等待時繼續變更專案。如果PDF的轉譯時間超過5分鐘，則會提示您以電子郵件傳送。
 * PDF下載會呈現為單一頁面，不會套用分頁。
 * 當專案轉譯為PDF時，我們會轉譯頁面上的內容。 如果專案有自訂視覺效果和面板，您必須將其變更為自動縮放 (右上角按鈕)，內容才不會遭截斷。
 
@@ -53,7 +53,7 @@ ht-degree: 12%
 
 ## 將項目下載為 CSV 檔 {#download-items}
 
-如果要分析表中超過400行的可見資料，請按一下右鍵表標題或任何行，然後選擇&#x200B;**將項目下載為CSV（維名）**。 此選項最多可針對選取的維度匯出50,000個維度項目（根據表格排序），並套用篩選和區段。 如果從表頂部選擇此選項，則將導出表中的第一個維。 雖然自由表格中不會強制限制，但建議在少於20欄的表格中使用「下載項目」選項，以確保最佳效能。
+如果要分析表中超過400行的可見資料，請按一下右鍵表標題或任何行，然後選擇&#x200B;**將項目下載為CSV(Dimension名)**。 此選項最多可針對選取的維度匯出50,000個維度項目（根據表格排序），並套用篩選和區段。 如果從表頂部選擇此選項，則將導出表中的第一個維。 雖然自由表格中不會強制限制，但建議在少於20欄的表格中使用「下載項目」選項，以確保最佳效能。
 
 >[!TIP]
 >
