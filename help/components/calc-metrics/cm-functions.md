@@ -2,9 +2,9 @@
 title: 參考資料 - 基本函數
 description: '計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。 '
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1079'
 ht-degree: 100%
 
 ---
@@ -324,10 +324,4 @@ VARIANCE(metric)
 
 3
 
-欄平均值為 2。欄的變數將會是 ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3。在 Ad Hoc Analysis 中，這會看起來像這樣：
-
-1 2/3
-
-2 2/3
-
-3 2/3
+欄平均值為 2。欄的變數將會是 ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3。
