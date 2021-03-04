@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
 translation-type: tm+mt
-source-git-commit: b77165ee5994ec59e346cf6314a7e051ffa07524
+source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 100%
+source-wordcount: '1035'
+ht-degree: 93%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 ## 完全支援的功能/元件
 
-| Adobe Analytics 功能 | 附註 |
+| Adobe Analytics 功能 | 支援注意事項 |
 | --- | --- |
 | 量度 | CJA 採用 Experience Data Model (XDM) 並支援不限數量的量度，且不會與傳統 Analytics 的自訂成功事件繫結。請注意，傳統 Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
-| 維度 | CJA 採用 XDM 並支援不限數量的維度，且不會與傳統 Analytics 的自訂成功事件繫結。 |
-| 清單變數/清單 Prop | CJA 採用 XDM 並支援不限數量的清單變數 |
+| 維度 | CJA運用XDM並支援無限制的維度，且不會系結至傳統Analytics的自訂eVar或prop。 |
+| 清單變數/清單 Prop | CJA運用XDM並支援不限數量的字串陣列，其使用方式與listVars類似。 |
 | 日期範圍 | 已規劃提供自訂行事曆支援。 |
 | 計算量度 | 請注意，傳統 Analysis Workspace 中的任何現有計算量度都不會移植至 CJA。 |
 | 區段 | 現在稱為「篩選器」- 請注意，傳統 Analysis Workspace 中的任何現有區段都不會移植至 CJA。 |
@@ -80,6 +80,7 @@ ht-degree: 100%
 | 透過裝置圖表進行 ID 彙整 | 已規劃提供支援。 |
 | Report Builder (Excel 外掛程式) | 已規劃提供支援。 |
 | 即時報表 | 已規劃提供支援。 |
+| Data Warehouse報表（100%列匯出） | 計畫從Analysis Workspace介面提供支援。 [!UICONTROL Experience Platform查] 詢服務還為CJA中的這些使用案例提供了介面。 |
 
 ## 尚未規劃提供支援
 
@@ -90,6 +91,7 @@ ht-degree: 100%
 | Activity Map | 尚未規劃提供支援。 |
 | 分類規則產生器 | 尚未規劃提供支援。 |
 | 摘要資料來源 | 尚未規劃提供支援。 |
+| 資料饋送 | 尚未規劃提供支援。 |
 
 ## 永不受支援
 
@@ -98,7 +100,4 @@ ht-degree: 100%
 * Reports &amp; Analytics 書籤
 * Reports &amp; Analytics 目標
 * Reports &amp; Analytics 行事曆事件
-* Ad Hoc Analysis
-* Data Warehouse 報告 - [!UICONTROL Experience Platform Query Service] 會是 CJA 中這些使用案例的新介面。
 * Mobile Services
-* 資料饋送
