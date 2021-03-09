@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 93%
 | Adobe Analytics 功能 | 支援注意事項 |
 | --- | --- |
 | 量度 | CJA 採用 Experience Data Model (XDM) 並支援不限數量的量度，且不會與傳統 Analytics 的自訂成功事件繫結。請注意，傳統 Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
-| 維度 | CJA運用XDM並支援無限制的維度，且不會系結至傳統Analytics的自訂eVar或prop。 |
-| 清單變數/清單 Prop | CJA運用XDM並支援不限數量的字串陣列，其使用方式與listVars類似。 |
+| 維度 | CJA 運用 XDM 並支援無限制維度，並且與傳統 Analytics 的自訂 eVar 或 prop 無關。 |
+| 清單變數/清單 Prop | CJA 運用 XDM 並支援無限字串陣列 (與 listVars 的用途類似)。 |
 | 日期範圍 | 已規劃提供自訂行事曆支援。 |
 | 計算量度 | 請注意，傳統 Analysis Workspace 中的任何現有計算量度都不會移植至 CJA。 |
 | 區段 | 現在稱為「篩選器」- 請注意，傳統 Analysis Workspace 中的任何現有區段都不會移植至 CJA。 |
@@ -35,7 +35,7 @@ ht-degree: 93%
 | 刪除 GDPR | 請注意，現在系統已與 [!UICONTROL Adobe Experience Platform] 協調處理 GDPR - CJA 會繼承 [!UICONTROL Experience Platform] 對基礎資料集所做的所有資料變更。 |
 | 使用者權限/資料存取控制 | CJA 可區分 Adobe Admin Console 產品管理員和使用者。只有產品管理員可以 1) 建立/更新/刪除連線或資料檢視；2) 更新/刪除其他使用者建立的專案、篩選器或計算量度；以及 3) 與所有使用者共用 Analysis Workspace 專案 |
 | 跨裝置/跨管道彙整 | 請參閱[跨管道分析](/help/connections/cca/overview.md)。 |
-| 內建 Analysis Workspace 維度 (例如瀏覽器類型、反向連結類型、作業系統等) | 只要填入基本 XDM 欄位 (例如使用者代理程式或裝置 ID)，CJA 就會以原生方式提供這些維度。客戶若有使用 Analytics Data Connector (ADC)，部分維度可供使用，但並非全部。請參閱[相關文件，了解可透過 ADC 支援的 Analytics 變數](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/home.translate.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。 |
+| 內建 Analysis Workspace 維度 (例如瀏覽器類型、反向連結類型、作業系統等) | 只要填入基本 XDM 欄位 (例如使用者代理程式或裝置 ID)，CJA 就會以原生方式提供這些維度。客戶若有使用 Analytics Data Connector (ADC)，部分維度可供使用，但並非全部。請參閱[相關文件，了解可透過 ADC 支援的 Analytics 變數](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。 |
 | 報表 API 存取 | 使用 Analytics API 2.0 目前可提供。 |
 
 ## 支援警告功能
@@ -80,7 +80,7 @@ ht-degree: 93%
 | 透過裝置圖表進行 ID 彙整 | 已規劃提供支援。 |
 | Report Builder (Excel 外掛程式) | 已規劃提供支援。 |
 | 即時報表 | 已規劃提供支援。 |
-| Data Warehouse報表（100%列匯出） | 計畫從Analysis Workspace介面提供支援。 [!UICONTROL Experience Platform查] 詢服務還為CJA中的這些使用案例提供了介面。 |
+| Data Warehouse 報表 (100% 列匯出) | 規劃從 Analysis Workspace 介面提供支援。[!UICONTROL Experience Platform 查詢服務]還為 CJA 這些使用案例提供一個介面。 |
 
 ## 尚未規劃提供支援
 
@@ -91,7 +91,7 @@ ht-degree: 93%
 | Activity Map | 尚未規劃提供支援。 |
 | 分類規則產生器 | 尚未規劃提供支援。 |
 | 摘要資料來源 | 尚未規劃提供支援。 |
-| 資料饋送 | 尚未規劃提供支援。 |
+| 資料摘要 | 尚未規劃提供支援。 |
 
 ## 永不受支援
 
@@ -100,4 +100,4 @@ ht-degree: 93%
 * Reports &amp; Analytics 書籤
 * Reports &amp; Analytics 目標
 * Reports &amp; Analytics 行事曆事件
-* Mobile Services
+* 行動服務
