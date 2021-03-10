@@ -2,10 +2,10 @@
 title: 跨管道分析概述
 description: 重新輸入多個資料集的訪客 ID，以彙整訪客。
 translation-type: tm+mt
-source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
+source-git-commit: 23a7a52ed6fc0a39ce1466a6d7b658dbdf7c6c14
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '844'
+ht-degree: 93%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 100%
 * 僅支援事件資料集。其他資料集概不支援，例如查詢資料集。
 * 不支援您組織中使用的自訂 ID 地圖。
 * 不支援 Adobe Co-op 圖表和私密圖表。
+* 跨通道分析不會以任何方式轉換用於拼接的欄位。 基於欄位的拼接使用指定欄位中的值，因為該值存在於資料湖中的未縫合資料集中。 例如，如果有時欄位中出現「Bob」字詞，有時出現「BOB」字詞，這些字詞會被視為兩個不同的人。
+
 
 ## 啟用跨管道分析
 
