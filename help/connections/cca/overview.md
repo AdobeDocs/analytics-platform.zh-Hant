@@ -2,10 +2,10 @@
 title: 跨管道分析概述
 description: 重新輸入多個資料集的訪客 ID，以彙整訪客。
 translation-type: tm+mt
-source-git-commit: 23a7a52ed6fc0a39ce1466a6d7b658dbdf7c6c14
+source-git-commit: cc78a3941a4179be0dbf46055fea60df8e7e8b97
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 93%
+source-wordcount: '898'
+ht-degree: 84%
 
 ---
 
@@ -59,7 +59,8 @@ ht-degree: 93%
    * 所需資料集的永久 ID 欄名稱 (顯示於每列的識別碼)
    * 所需資料集的暫時 ID 欄名稱 (資料集間的人員識別碼連結)
    * 您的[重播](replay.md)頻率和回顧時間長度偏好設定，包括每週重播一次，回顧期間為 7 天，或每天重播一次，回顧期間為 1 天。
-1. Adobe 客戶經理會在收到您的申請後，為您啟用跨管道分析。啟用後，Adobe Experience Platform 中就會顯示新重設金鑰後的資料集，裡面會包含新的人員 ID 欄。您的 Adobe 客戶經理可提供新資料集 ID 和人員 ID 欄名稱。
+1. Adobe客戶經理將與Adobe工程合作，在收到您的要求時啟用跨通道分析。 啟用後，包含新人員ID欄的新重新索引資料集會出現在Adobe Experience Platform。 您的 Adobe 客戶經理可提供新資料集 ID 和人員 ID 欄名稱。
+1. 首次開啟時，Adobe會提供銜接資料的回填，可追溯至前一個月的開始（最多60天）。 若要進行此回填，暫時ID必須存在於遠在過去的未連結資料中。
 1. 使用新產生的資料集和您要加入的其他資料集，在 CJA 中[建立連線](../create-connection.md)。為每個資料集選擇正確的人員 ID。
 1. 根據連線[建立資料檢視](/help/data-views/create-dataview.md)。
 
