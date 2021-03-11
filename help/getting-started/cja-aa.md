@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 99%
 
 ## 完全支援的功能/元件
 
-| Adobe Analytics 功能 | 支援注意事項 |
+| Adobe Analytics 功能 | 支援說明事項 |
 | --- | --- |
-| 量度 | CJA 採用 Experience Data Model (XDM) 並支援不限數量的量度，且不會與傳統 Analytics 的自訂成功事件繫結。請注意，傳統 Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
-| 維度 | CJA 運用 XDM 並支援無限制維度，並且與傳統 Analytics 的自訂 eVar 或 prop 無關。 |
+| 量度 | CJA 採用 Experience Data Model (XDM) 並支援不限數量的量度，且不綁定傳統 Analytics 的自訂成功事件。請注意，傳統 Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
+| 維度 | CJA 運用 XDM 並支援無限制維度，且不綁定傳統 Analytics 的自訂 eVar 或 prop。 |
 | 清單變數/清單 Prop | CJA 運用 XDM 並支援無限字串陣列 (與 listVars 的用途類似)。 |
 | 日期範圍 | 已規劃提供自訂行事曆支援。 |
 | 計算量度 | 請注意，傳統 Analysis Workspace 中的任何現有計算量度都不會移植至 CJA。 |
@@ -43,7 +43,7 @@ ht-degree: 99%
 | 功能 | 附註 |
 | --- | --- |
 | 產品變數 | 在 Experience Platform 中，使用者可在資料集結構中使用物件類型欄位陣列，以符合此使用案例。在 CJA 中，客戶可以使用任何數量的產品變數，而且不會像 Adobe Analytics 受限於單一變數。 |
-| 行銷管道 | 行銷管道資料會透過 Analytics Data Connector 傳輸至 CJA。如果您是使用舊版 Adobe Analytics，仍需設定行銷管道規則。舊版未支援部分規則。如需詳細資訊，請參閱 [CJA 行銷管道文件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hant#cja-usecases)。 |
+| 行銷管道 | 行銷管道資料會透過 Analytics Data Connector 傳輸至 CJA。如果您是使用舊版 Adobe Analytics，仍需設定行銷管道規則。舊版未支援部分規則。如需詳細資訊，請參閱 [CJA 行銷管道文件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases)。 |
 | 視覺效果 | 支援所有視覺效果，但地圖視覺效果除外。 |
 | 專案共用 | 專案共用功能僅支援在 CJA 的使用者之間使用 - CJA 與傳統 Analysis Workspace 之間不支援專案共用。 |
 | 自訂工作階段化 | 支援除行動背景點擊以外的所有自訂工作階段化功能。 |
