@@ -2,10 +2,10 @@
 title: 元件概觀
 description: 了解 CJA 提供哪些元件，以及如何在報表中使用這些元件。
 translation-type: tm+mt
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
+source-git-commit: c1699c4319b3b840d8420f3ffa1a4bd1c1d9a4d4
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 57%
 
 ---
 
@@ -53,3 +53,15 @@ Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，�
 觀看建立量度、區段和日期的說明影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23979)
+
+## 元件存取權限
+
+管理員可以(透過[Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en#manage-users-and-products))組織哪些元件會對報告中的使用者開放。 下表顯示這些元件存取權限的行為：
+
+| 組織類型 | 管理員可以看到 | 非管理員專案擁有者（或編輯角色）可以看到 | 非管理員重複角色 |
+| --- | --- | --- | --- |
+| **從資料檢視中「隱藏」元件** | 所有資料檢視元件都可用於報告（隱藏元件需要按一下「全部顯示」） | 無法用於報告 | 無法用於報告 |
+| **從資料檢視新增或移除的元件** | 僅新增至資料檢視的元件（隱藏或未隱藏）。 管理員無法報告資料檢視未定義的欄位或元件。 | 只有新增至資料檢視的元件，或使用者擁有或共用的元件。 隱藏元件不可用（例如VRS組織）。 | 只有新增至DV的元件不會隱藏，而且已包含在專案組織中。 |
+| **專案中的組織元件** | 所有資料檢視元件都可用於報告（隱藏元件需要按一下「全部顯示」） | 所有非隱藏的資料檢視元件（需要按一下「全部顯示」） | 僅限策劃的元件，加上使用者擁有或共用的任何元件 |
+| **使用含隱藏元件的資料檢視來組織專案** | 所有可用於報告的資料元件（隱藏和未組織的元件需要按一下「全部顯示」） | 所有非組織的專案元件、所有非隱藏的資料檢視元件，以及使用者擁有或共用的任何元件 | 僅限策劃的元件，加上使用者擁有或共用的任何元件 |
+
