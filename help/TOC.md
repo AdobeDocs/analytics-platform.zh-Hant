@@ -18,9 +18,9 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: b9204d42a1a319f6fed7d3f9b1d0145464378aa8
+source-git-commit: c4338e2d53f56b97bab06a1ba862bbfd35126c2d
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '433'
 ht-degree: 100%
 
 ---
@@ -120,6 +120,7 @@ ht-degree: 100%
          + [異常偵測概觀](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [在 Analysis Workspace 中檢視異常](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [異常偵測所使用的統計技術](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
+   + [用戶偏好設定](analysis-workspace/user-preferences.md)
    + Analysis Workspace 常見問題集 {#workspace-faq}
       + [常見問題集](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 效能最佳化](analysis-workspace/workspace-faq/optimizing-performance.md)
