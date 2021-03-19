@@ -2,7 +2,7 @@
 title: 如何在Analysis Workspace設定用戶首選項
 description: 您可以為用戶設定常規首選項和項目首選項。
 translation-type: tm+mt
-source-git-commit: 90b69c13a7a63228f62c4b6291b3d66f8e3c821b
+source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 17%
@@ -36,8 +36,8 @@ ht-degree: 17%
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **顯示** |  |  |
-|  | [檢視密度](https://experienceleague.adobe.com/docs/analytics-platform//using/cja-workspace/build-workspace-project/view-density.html) | <ul><li>精簡</li><li>舒適</li><li>已擴充（預設）</li></ul> |
-|  | [調色盤](https://experienceleague.adobe.com/docs/analytics-platform//using/cja-workspace/build-workspace-project/color-palettes.html) | <ul><li>Adobe提供的浮動視窗（預設）</li><li>自訂定義的浮動視窗</li></ul> |
+|  | [檢視密度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density.html) | <ul><li>精簡</li><li>舒適</li><li>已擴充（預設）</li></ul> |
+|  | [調色盤](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/color-palettes.html) | <ul><li>Adobe提供的浮動視窗（預設）</li><li>自訂定義的浮動視窗</li></ul> |
 | **資料** |  |  |
 |  | [報表套裝](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#report-suite) | <ul><li>最近（預設）</li><li>特定——從清單中選擇</li></ul> |
 |  | [日曆](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?#calendar) | 現成可用的日期範圍清單，包括&#x200B;**[!UICONTROL 本月]**（預設值） |
