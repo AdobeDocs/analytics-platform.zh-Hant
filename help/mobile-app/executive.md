@@ -1,23 +1,23 @@
 ---
 description: 控制面板計分卡的使用說明。
-title: Adobe Analytics 控制面板執行指南
+title: Analytics 控制面板執行指南
 translation-type: tm+mt
-source-git-commit: 132aba710395c46e123b4c13d6d8ef32c86d2e15
+source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 100%
+source-wordcount: '1290'
+ht-degree: 91%
 
 ---
 
 
-# Adobe Analytics 控制面板：執行使用者快速入門手冊
+# Analytics 控制面板：執行使用者快速入門手冊
 
-下列資訊可讓執行使用者瞭解使用和檢視 Adobe Analytics 控制面板的最佳作法。若要觀看講解這項資訊的影片，請參閱 [Adobe Analytics 控制面板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
+下列資訊可讓執行使用者瞭解使用和檢視 Analytics 控制面板的最佳作法。若要觀看講解這項資訊的影片，請參閱 [ Analytics 控制面板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
 
 
 ## 簡介
 
-Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援控制面板。
+分析資料板提供來自Customer Journey Analytics的即時、隨地見解。  此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援控制面板。
 
 ## 本指南的詳細資訊
 
@@ -27,8 +27,8 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 | 詞語 | 定義 |
 |--- |--- |
-| 消費者 | 在行動裝置上檢視 Analytics 關鍵量度和深入分析的執行人員 |
-| 組織者 | 從 Analytics 尋找及分發深入分析，以及設定計分卡以供消費者檢視的資料識讀人員 |
+| 消費者 | 在行動裝置上檢視CJA關鍵指標和見解的行政人員角色 |
+| 組織者 | 從CJA尋找並分發見解並設定記分卡以供消費者檢視的資料素養角色 |
 | 組織 | 為消費者建立或編輯行動計分卡的行為，計分卡內容包含相關量度、維度和其他項目 |
 | 計分卡 | 包含一或多個圖磚的控制面板畫面 |
 | 圖磚 | 計分卡檢視畫面呈現量度的形式 |
@@ -44,22 +44,22 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 若要在控制面板上存取計分卡，請確認：
 
-* 您處於 Adobe Analytics 的有效登入狀態
+* 您有效登入Customer Journey Analytics
 * 您的組織者已正確建立行動計分卡並與您共用
 
-### 下載並安裝控制面板
+### 下載和安裝儀表板
 
 若要下載及安裝應用程式，請根據裝置的作業系統，依步驟操作。
 
 **若執行使用者使用 iOS：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 控制面板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+按一下下列連結(也可在CJA的&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 分析控制面板（行動應用程式）]**&#x200B;下方取得)，然後依照提示下載、安裝和開啟應用程式：
 
 [iOS 連結](https://apple.co/2zXq0aN)
 
 **若執行使用者使用 Android：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 控制面板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+按一下下列連結(也可在CJA的&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 分析控制面板（行動應用程式）]**&#x200B;下方取得)，然後依照提示下載、安裝和開啟應用程式：
 
 [Android 連結](https://bit.ly/2LM38Oo)
 
