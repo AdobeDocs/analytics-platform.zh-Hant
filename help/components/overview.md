@@ -1,11 +1,11 @@
 ---
 title: 元件概觀
 description: 了解 CJA 提供哪些元件，以及如何在報表中使用這些元件。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 元件功能可用於 Customer Journey Analytics 中報表或補充報表功能。您可以使用下列步驟管理這些元件：
 
 1. 使用您的 Adobe ID 憑證登入 [analytics.adobe.com](https://analytics.adobe.com)。
-2. 導覽至頁首功能表中的[!UICONTROL 「元件] > [!UICONTROL  元件」]。
+2. 導覽至頁首功能表中的[!UICONTROL 元件] > [!UICONTROL 元件]。
 
 您可以管理下列元件：
 
@@ -26,9 +26,9 @@ ht-degree: 95%
 
 ## Analysis Workspace 元件
 
-Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，您可將它們拖放至專案上。您建立的自訂元件會加入至這些面板，例如自訂日期範圍。
+Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，您可將它們拖放至專案上。您建立的自訂元件會加入這些面板，例如自訂日期範圍。
 
-若要存取「元件」面板，請按一下左側邊欄中的&#x200B;**[!UICONTROL 「元件」]**&#x200B;圖示。您可以利用左欄圖示或[快捷鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，在各面板 (空白面板、[自由表格面板](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)、[快速深入分析面板](/help/analysis-workspace/c-panels/quickinsight.md)或[歸因 IQ](/help/analysis-workspace/c-panels/attribution.md) 面板)、[視覺化效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件之間來回切換。
+若要存取「元件」面板，請按一下左側邊欄中的&#x200B;**[!UICONTROL 元件]**&#x200B;圖示。您可以利用左欄圖示或[快捷鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，在各面板 (空白面板、[自由表格面板](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)、[快速深入分析面板](/help/analysis-workspace/c-panels/quickinsight.md)或[歸因 IQ](/help/analysis-workspace/c-panels/attribution.md) 面板)、[視覺化效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件之間來回切換。
 
 ![](assets/components.png)
 
@@ -36,7 +36,7 @@ Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，�
 
 ## 元件動作
 
-您可以透過多種方式管理元件 (個別或選取多個元件)。以滑鼠右鍵按一下元件，或按一下元件清單頂端的&#x200B;**[!UICONTROL 「動作」]**。
+您可以透過多種方式管理元件 (個別或選取多個元件)。以滑鼠右鍵按一下元件，或按一下元件清單頂端的&#x200B;**[!UICONTROL 動作]**。
 
 >[!NOTE]
 >
@@ -44,11 +44,11 @@ Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，�
 
 | 元件動作 | 說明 |
 | --- | --- |
-| 標記 | 以套用標記的方式組織或管理元件。接著元件會在相關元件管理員中顯示，例如[!UICONTROL 「分析] > [!UICONTROL 元件] > [!UICONTROL 區段」]或[!UICONTROL 「分析] > [!UICONTROL 元件] > [!UICONTROL 專案」] |
-| 我的最愛 | 新增元件至我的最愛清單。接著元件會在相關元件管理員中顯示，例如[!UICONTROL 「分析] > [!UICONTROL 元件] > [!UICONTROL 區段」]或[!UICONTROL 「分析] > [!UICONTROL 元件] > [!UICONTROL 專案」]。 |
-| 核准 | 核准元件使其成為正式項目。接著元件會在相關元件管理員中顯示，例如[!UICONTROL 「分析] > [!UICONTROL 元件] > [!UICONTROL 區段」]或[!UICONTROL 「分析] > [!UICONTROL 元件] > [!UICONTROL 專案」] |
-| 共用 | 僅套用至區段。 |
-| 刪除 | 僅套用至區段。 |
+| 標記 | 以套用標記的方式組織或管理元件。接著元件會在相關元件管理員中顯示，例如[!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 區段」]或[!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 專案」] |
+| 我的最愛 | 新增元件至我的最愛清單。接著元件會在相關元件管理員中顯示，例如[!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 區段」]或[!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 專案」]。 |
+| 核准 | 核准元件使其成為正式項目。接著元件會在相關元件管理員中顯示，例如 [!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 區段」]或[!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 專案」] |
+| 共用 | 僅適用於區段。 |
+| 刪除 | 僅適用於區段。 |
 
 觀看建立量度、區段和日期的說明影片：
 
@@ -56,4 +56,4 @@ Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，�
 
 ## 元件存取權限
 
-在Analysis Workspace，管理員可以[組織](/help/analysis-workspace/curate-share/curate.md)哪些元件會對報告中的使用者開放。
+在 Analysis Workspace 中，管理員可以[管理](/help/analysis-workspace/curate-share/curate.md)在報表中向使用者公開的元件。
