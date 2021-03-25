@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 概觀
 description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 translation-type: tm+mt
-source-git-commit: f52a6788a0a5f3aea23fc783e479c3f8a23a260d
+source-git-commit: 0f5e9c117f12ef070733df032b078ad70ce7c52b
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 100%
+source-wordcount: '1226'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Customer Journey Analytics 可用來：
 
 若要建立連線、新增資料集及執行其他作業，您需要在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中擁有下列權限：
 
-* 自 2020 年 9 月 9 日起，若要存取 Customer Journey Analytics 或建立連線，您需要在 **Admin Console** 中將自己新增為 [Customer Journey Analytics 產品](https://adminconsole.adobe.com/enterprise/)的管理員。產品管理員可獲得下列權限：
+* 若要存取Customer Journey Analytics或建立連線，您必須以管理員身分加入[Admin Console](https://adminconsole.adobe.com/enterprise/)中的&#x200B;**Customer Journey Analytics產品**。 產品管理員可獲得下列權限：
    * 建立/更新/刪除連線或資料檢視
    * 更新/刪除其他使用者建立的專案、篩選器、計算量度或區段
    * 將 Analysis Workspace 專案共用給所有使用者
