@@ -1,11 +1,11 @@
 ---
 title: 什麼是Customer Journey Analytics中的資料檢視？
-description: null
+description: 資料檢視會指定您要如何解譯CJA連線中的資料元素，例如量度、維度、工作階段等。
 translation-type: tm+mt
-source-git-commit: 0f116524c0c3937ddddce6b50b3d9f8519e9157f
+source-git-commit: 3b9a740d50d99315a5609133917dfd0714afa6cc
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 6%
+source-wordcount: '1126'
+ht-degree: 7%
 
 ---
 
@@ -52,13 +52,15 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 ## 先決條件
 
 * 建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集的連線](/help/connections/create-connection.md)。
-* 若要建立或管理資料檢視，您需要下列Adobe Admin Console權限：
+* 若要建立或管理資料檢視，您需要在Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant#admin-access-permissions)中設定一組權限。[
 
 ## 檢視元件的相關資訊
 
 按一下「工作區」中的(i)資訊圖示，檢視元件所依據的架構欄位及其設定，例如說明。
 
 ## 可在工作區中覆寫的資料檢視設定
+
+有些資料檢視設定可在Analysis Workspace的專案層級覆寫，有些則無法覆寫。
 
 * 回顧期間
 * 量度歸因
@@ -70,10 +72,6 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 * 量度格式
 * 資料檢視名稱
 * Dimension分配
-
-## 沒有值
-
-您可以決定該維稱為「無／無值／未指定」，以及是否讓使用者在報表中看到。 不過，管理員和使用者（針對他們擁有的專案）可以變更工作區中的可見度設定。
 
 ## 刪除資料檢視
 
