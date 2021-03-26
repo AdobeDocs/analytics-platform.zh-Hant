@@ -2,10 +2,10 @@
 title: 什麼是Customer Journey Analytics中的資料檢視？
 description: 資料檢視會指定您要如何解譯CJA連線中的資料元素，例如量度、維度、工作階段等。
 translation-type: tm+mt
-source-git-commit: 3b9a740d50d99315a5609133917dfd0714afa6cc
+source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 7%
+source-wordcount: '1127'
+ht-degree: 4%
 
 ---
 
@@ -75,4 +75,4 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 ## 刪除資料檢視
 
-如果您刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視，畫面會顯示錯誤訊息，指出任何仰賴這個已刪除資料檢視的 Analysis Workspace 專案都會停止運作。
+如果刪除[!UICONTROL Customer Journey Analytics]中的資料視圖，則會出現一條錯誤消息，指出依賴於此刪除資料視圖的任何工作區項目將不再工作。
