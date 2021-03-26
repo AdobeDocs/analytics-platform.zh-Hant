@@ -2,10 +2,10 @@
 title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
 translation-type: tm+mt
-source-git-commit: 74b99933fb1b599c829e11117c41235754c189b9
+source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '967'
+ht-degree: 92%
 
 ---
 
@@ -79,3 +79,11 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 * 清單 Prop
 * 清單維度
 * 促銷維度 (在事件的情境中)
+
+## 現成可用的篩選範本
+
+傳統Analytics隨附許多現成可用的範本區段（篩選器）和計算量度。 其中許多不適用於CJA，或必須重新命名或重新建立。 其他人則需仰賴CJA中上下文感知變數的解決方案。
+
+| 篩選器名稱 | 說明 |
+| --- | --- |
+| 全部 資料 | 這是與傳統Adobe分析中的「所有瀏覽」區段類似的必要篩選。 當量度新增至自由表格的列時，會動態新增至報表。 |
