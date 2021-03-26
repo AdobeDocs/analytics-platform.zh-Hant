@@ -2,10 +2,10 @@
 title: 計算量度概觀
 description: '瞭解 '
 translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 82%
 
 ---
 
@@ -47,3 +47,12 @@ ht-degree: 100%
 | 計算量度管理員 | <ul><li>與他人共用量度。</li><li>核准和管理量度。</li><li>組織 (標記) 量度，讓別人找得到。</li><li>刪除量度。</li><li>重新命名量度。</li></ul> |
 | 計算量度的 API | Adobe Analytics 2.0 API 集的一部分。 |
 
+## CJA中的計算量度範本
+
+| 計算量度名稱 | 計算量度說明 |
+| --- | --- |
+| 每人的課程 | 每人平均工作階段數 |
+| 作業開始率 | 任何維度項目在作業的第一個事件上發生的時間百分比。 |
+| 會話結束速率 | 任何維度項目在作業的最後一個事件上發生的時間百分比。 |
+| 每人逗留時間 | 人員在任何指定維度項目上所花費的平均時間。 |
+| 每個作業的逗留時間 | 人員在每個工作階段中對任何指定維度項目所花費的平均時間。 |
