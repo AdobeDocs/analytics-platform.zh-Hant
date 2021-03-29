@@ -2,15 +2,19 @@
 title: Customer Journey Analytics中資料檢視的使用案例
 description: 多種使用案例，可顯示資料檢視在Customer Journey Analytics中的彈性和功能
 translation-type: tm+mt
-source-git-commit: f8dfc10b926031838d084acf3dadd9ce3f83541e
+source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '308'
 ht-degree: 1%
 
 ---
 
 
 # 資料檢視使用案例
+
+>[!IMPORTANT]
+>
+>此功能目前測試有限。
 
 這些使用案例顯示資料檢視在Customer Journey Analytics中的彈性和功能。
 
