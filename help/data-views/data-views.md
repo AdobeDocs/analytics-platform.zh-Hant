@@ -2,15 +2,19 @@
 title: 什麼是Customer Journey Analytics中的資料檢視？
 description: 資料檢視會指定您要如何解譯CJA連線中的資料元素，例如量度、維度、工作階段等。
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1134'
 ht-degree: 4%
 
 ---
 
 
 # 什麼是資料檢視？
+
+>[!IMPORTANT]
+>
+>此功能目前測試有限。
 
 資料視圖位於Customer Journey Analytics(CJA)[連接](/help/connections/create-connection.md)之上。 連接結合了來自Adobe Experience Platform的一個或多個資料集，並將其連接到CJA。 資料檢視會指定您要如何解讀連線中資料的元素，例如量度、維度、工作階段等。 資料檢視是為了在工作區中報告資料而定義的。
 
