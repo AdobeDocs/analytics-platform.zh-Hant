@@ -2,9 +2,9 @@
 title: Customer Journey Analytics中資料檢視的使用案例
 description: 多種使用案例，可顯示資料檢視在Customer Journey Analytics中的彈性和功能
 translation-type: tm+mt
-source-git-commit: 6ca345f61ccdcdf9e3befd733a30dcb3fc79ee7a
+source-git-commit: f8dfc10b926031838d084acf3dadd9ce3f83541e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 資料檢視使用案例
 
-The possibles for
+這些使用案例顯示資料檢視在Customer Journey Analytics中的彈性和功能。
 
 ## 從pageTitle（字串）結構欄位建立「訂購」量度
 
