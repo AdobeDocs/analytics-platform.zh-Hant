@@ -2,9 +2,9 @@
 title: 如何在Customer Journey Analytics中建立新的資料檢視。
 description: 說明建立新資料檢視所需的所有設定。
 translation-type: tm+mt
-source-git-commit: b260930c5ffd50a428e5502695e159538ff8cb73
+source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2609'
 ht-degree: 6%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->此功能目前測試有限。
+>此功能將於2021年4月22日正式推出。
 
-建立資料檢視需要從架構元素建立度量和維度或使用標準元件。 建立量度或維度可為您提供極大的彈性。 以前，假設您在Adobe Experience Platform有資料集，則會使用字串欄位做為維度，而數值欄位作為度量。 為了變更這些欄位，您必須在「平台」中編輯您的架構。 資料檢視UI現在允許[更自由定義量度和維度](/help/data-views/data-views.md)。
+建立資料檢視需要從架構元素建立度量和維度或使用標準元件。 建立量度或維度可為您提供極大的彈性。 以前，假設您在Adobe Experience Platform有資料集，則會使用字串欄位做為維度，而數值欄位作為度量。 為了變更這些欄位，您必須在「平台」中編輯您的架構。 資料檢視UI現在允許[更自由定義量度和維度](/help/data-views/data-views.md)。 如需更多使用案例，請參閱[資料檢視使用案例](/help/data-views/data-views-usecases.md)。
 
 ## 1.設定資料檢視設定和容器
 
@@ -40,8 +40,6 @@ ht-degree: 6%
 接下來，您可以從架構元素建立度量和維度。 您也可以使用標準元件。
 
 ## 2.從架構元素建立度量和維度
-
-
 
 1. 在[!UICONTROL Customer Journey Analytics] > [!UICONTROL 資料視圖]中，按一下[!UICONTROL 元件]頁籤。
 
@@ -112,7 +110,7 @@ ht-degree: 6%
 
 | 設定 | 說明／使用案例 |
 | --- | --- |
-| [!UICONTROL 區分大小寫] | 預設=開啟。 此設定與Dimension量度略有不同。<ul><li>**量度**:此設定僅適用於「包 [!UICONTROL 含／排除值」] 區段。它可讓您判斷您套用的篩選是否區分大小寫。</li><li>**Dimension** :此設定會決定是否應以區分大小寫或不區分大小寫的方式匯總此維度中的資料。這會變更字串欄位的報表／篩選器／歸因設定執行方式。</li></ul> |
+| [!UICONTROL 區分大小寫] | 預設=開啟。 此設定僅適用於[!UICONTROL 包含／排除值]區段。 它可讓您判斷您套用的包含／排除規則是否應區分大小寫。 |
 | [!UICONTROL 符合] | 可讓您指定在歸因和區段之前要考慮的報表值（例如，僅使用包含片語「error」的值）。 您可以指定：**[!UICONTROL 如果滿足所有標準]**&#x200B;或&#x200B;**[!UICONTROL 如果滿足任何標準]**。 |
 | [!UICONTROL 標準] | 可讓您指定應套用至特定篩選規則的符合邏輯。<ul><li>**字串**:包含片語、包含任何詞語、包含所有詞語、不包含任何詞語、不包含片語、等於、不等於、開頭為、結尾為</li><li>**雙／整數**:等於、不等於、大於、小於、大於或等於、小於或等於</li><li>**日期**:等於、不等於、晚於、等於、發生於</li></ul> |
 | [!UICONTROL 匹配操作數] | 可讓您指定應套用符合運算子的符合運算元。<ul><li>**字串**:文字欄位</li><li>**雙／整數**:文字欄位，其上／下箭頭代表數值</li><li>**日期**:日詳細程度選擇器（日曆）</li><li>**日期時間**:日期和時間粒度選擇器</li></ul> |
@@ -131,10 +129,6 @@ ht-degree: 6%
 
 [!UICONTROL 「無值選] 項」設定類似於報  告中的「未  指定」或「未評估」。在資料檢視UI中，您可以依元件來決定要在報表中如何處理這些值。 您也可以將[!UICONTROL No value]重新命名為更適合您環境的項目，例如[!UICONTROL Null]、[!UICONTROL Not set]或其他項目。
 
->[!NOTE]
->
->當您將此欄位變更為自訂值時，自訂值會被視為合法字串值。 因此，如果在此欄位中輸入&quot;Red&quot;值，資料中出現的字串&quot;Red&quot;例項也會在您所指定的相同行項目下滾動。
-
 另請注意，您在此欄位中指定的任何項目，都可用於報告中「無值[!UICONTROL 」行項目的特殊UI處理，如「無值選項]」設定所述。][!UICONTROL 
 
 ![](assets/no-value-options.png)
@@ -144,7 +138,7 @@ ht-degree: 6%
 | [!UICONTROL 如果顯示，請呼叫No value]... | 您可以在此處將&#x200B;**[!UICONTROL No value]**&#x200B;更名為其他值。 |
 | [!UICONTROL 預設不顯示「無」值] | 不會在報表中顯示此值。 |
 | [!UICONTROL 預設顯示無值] | 確實會在報表中顯示此值。 |
-| [!UICONTROL 將無值視為值] | 例如，如果您以行動裝置類型為維度，您可將&#x200B;**[!UICONTROL No value]**&#x200B;項目重新命名為「Desktop」。 |
+| [!UICONTROL 將無值視為值] | 例如，如果您以行動裝置類型為維度，您可將&#x200B;**[!UICONTROL No value]**&#x200B;項目重新命名為「Desktop」。 請注意，當您將此欄位變更為自訂值時，自訂值會被視為合法字串值。 因此，如果在此欄位中輸入&quot;Red&quot;值，資料中出現的字串&quot;Red&quot;例項也會在您所指定的相同行項目下滾動。 |
 
 ### 配置持久性設定
 
@@ -155,10 +149,12 @@ ht-degree: 6%
 | 設定 | 說明／使用案例 |
 | --- | --- |
 | [!UICONTROL 設定持續性] | 切換鍵 |
-| [!UICONTROL 配置] | 可讓您指定用於維度的永續性分配模型。 選項包括：最近，原稿，例項，全部。 如果您想要保留值（類似於傳統Analytics中的eVar），您會在這裡設定值。 唯一的關鍵區別是，您可以設定的最大持久性為90天。 此外，[!UICONTROL Never expire]不是選項。 |
+| [!UICONTROL 配置] | 可讓您指定用於維度的永續性分配模型。 選項包括：[!UICONTROL 最近]、[!UICONTROL Original]、[!UICONTROL Instance]、[!UICONTROL All]。 如果您想要保留值（類似於傳統Analytics中的eVar），您會在這裡設定值。 唯一的關鍵區別是，您可以設定的最大持久性為90天。 此外，[!UICONTROL Never expire]不是選項。 |
 | [!UICONTROL 過期] | 可讓您指定維度的永續性視窗。 選項包括：[!UICONTROL 會話]（預設）、[!UICONTROL Person]、[!UICONTROL Time]、[!UICONTROL Metric]。 您可能需要能夠使購買的維度過期（例如內部搜尋詞或其他銷售使用案例）。 [!UICONTROL 量] 度可讓您指定任何已定義量度作為此維度的有效期(例如購買  量度)。 |
 
 ### 設定值分組設定
+
+例如，「5到10之間」的時段會在「工作區」報表中顯示為「5到10」的行項目。
 
 ![](assets/value-bucketing.png)
 
@@ -173,7 +169,7 @@ ht-degree: 6%
 
 除了從結構元素建立量度和維度外，您也可以在資料檢視中使用標準元件。
 
-[!UICONTROL 標準] 元件是不是從資料集架構欄位產生，而是系統產生的元件。在任何「資料檢視」中都需要一些系統元件，以利在Analysis Workspace建立報告功能，而其他系統元件則是選用的。
+[!UICONTROL 標準] 元件是不是從資料集架構欄位產生，而是系統產生的元件。在任何資料檢視中都需要一些系統元件，以利Analysis Workspace的報告功能，而其他系統元件則是選用的。
 
 ![](assets/standard-components.png)
 
