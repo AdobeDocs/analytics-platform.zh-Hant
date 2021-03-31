@@ -2,9 +2,9 @@
 title: 如何在Customer Journey Analytics中建立新的資料檢視。
 description: 說明建立新資料檢視所需的所有設定。
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: 6d3298731ae387f626aeadc67529482e9455775f
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2566'
 ht-degree: 6%
 
 ---
@@ -122,7 +122,6 @@ ht-degree: 6%
 
 | 設定 | 說明／使用案例 |
 | --- | --- |
-| [!UICONTROL 計數值] | 這可讓您建立布林欄位設為`true`的次數；作為量度。 例如，[!UICONTROL 頁面檢視數]，其中名為`isPage`的布林欄位設為`true`。 |
 | [!UICONTROL 計數實例] | 可讓您指定用作度量的數值或日期類型欄位是否應計算其設定時間，而非值本身。<br> 如果您想要新增數值欄位的例項，而只想新增欄位比內部實際值 ** 的次數。<br>例如，這對於從「收  入」欄位建  立「訂購量度」非常有用。如果已設定收入，則我們想要計算1份單一訂單，而非數值收入金額。 |
 
 ### 配置[!UICONTROL 無值選項]設定
@@ -160,7 +159,7 @@ ht-degree: 6%
 
 | 設定 | 說明／使用案例 |
 | --- | --- |
-| [!UICONTROL 貯體值] | 可讓您建立數值維度的分區版本。 這可讓您報告收入區間或其他數值作為報告中的維度。 最多可以建立5個儲存桶。 |
+| [!UICONTROL 貯體值] | 可讓您建立數值維度的分區版本。 這可讓您報告收入區間或其他數值作為報告中的維度。 |
 | [!UICONTROL 最多] | 可讓您指定第一個數值維度儲存段的邊界。 這僅適用於數值維度。 |
 | [!UICONTROL 介於和最多] | 可讓您指定後續數值維度區間的邊界。 |
 | [!UICONTROL 新增貯體] | 可讓您新增另一個儲存貯體至數值維度分區。 |
@@ -190,7 +189,7 @@ ht-degree: 6%
 
 ### 可選標準元件
 
-在任何資料檢視中都需要一些系統元件，以方便在Analysis Workspace建立報告功能，而下列元件則為選用。
+在任何資料檢視中都需要一些系統元件，以方便在Analysis Workspace建立報告功能，而下列元件則是選用的。
 
 | 元件名稱 | Dimension或量度 | 附註 |
 | --- | --- | --- |
