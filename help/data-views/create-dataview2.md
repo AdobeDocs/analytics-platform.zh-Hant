@@ -2,9 +2,9 @@
 title: 如何在Customer Journey Analytics中建立新的資料檢視。
 description: 說明建立新資料檢視所需的所有設定。
 translation-type: tm+mt
-source-git-commit: 6d3298731ae387f626aeadc67529482e9455775f
+source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2607'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 6%
 | [!UICONTROL 說明] | 詳細說明並非必要，但建議使用。 |
 | [!UICONTROL 時區] | 選擇您要在哪個時區顯示資料。 |
 | [!UICONTROL 標記] | 標記可用來將資料檢視整理到不同類別中。 |
-| [!UICONTROL 容器] | 您可以在此處重新命名容器，這是容器在任何以此資料檢視為基礎的工作區專案中的顯示方式。 容器用於篩選和流失／流量，以定義範圍或上下文的寬度或範圍。 [深入了解](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
+| [!UICONTROL 容器] | 您可以在此處重新命名容器，這是容器在任何以此資料檢視為基礎的工作區專案中的顯示方式。 容器用於篩選和流失／流量等，以定義範圍或內容的寬度或範圍。 [深入了解](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers) |
 | [!UICONTROL 人員容器名稱是……] | [!UICONTROL 人員] （預設）。[!UICONTROL Person]容器包含指定時間範圍內訪客的每次瀏覽和頁面檢視。 您可以將它重新命名為「使用者」或您偏好的任何其他詞語。 |
 | [!UICONTROL 作業容器名稱是……] | [!UICONTROL 工作階段] （預設值）。[!UICONTROL Session]容器可讓您識別特定作業的頁面互動、促銷活動或轉換。 您可將它重新命名為「造訪」或您偏好的任何其他詞語。 |
 | [!UICONTROL 事件容器名稱是……] | [!UICONTROL Event] （預設）。[!UICONTROL Event]容器定義您要在篩選器中包含或排除哪些頁面事件。 |
@@ -45,11 +45,12 @@ ht-degree: 6%
 
 ![](assets/components-tab.png)
 
-您可以在左上角看到[!UICONTROL Connection]，其中包含資料集，以及下面的[!UICONTROL Schema欄位]。
+您可以在左上角看到[!UICONTROL Connection]，其中包含資料集，以及下面的[!UICONTROL Schema欄位]。 已存在的元件是標準必需的元件（系統生成）。
 
 1. 現在，從左側導軌拖曳架構欄位（例如[!UICONTROL pageTitle]）至「量度」或「Dimension」區段。
 
-   您可以多次將相同的架構欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。 例如，從&#x200B;**[!UICONTROL pageTitle]**&#x200B;欄位，您可以建立名為「產品頁面」的維度，以及另一個「錯誤頁面」等。 從&#x200B;**[!UICONTROL pageTitle]**;欄位中，您也可以從字串值建立量度。 例如，您可以建立一或多個具有不同歸因設定且不同包含／排除值的&#x200B;**[!UICONTROL 訂購]**&#x200B;量度。
+   您可以多次將相同的架構欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。
+例如，從**[!UICONTROL pageTitle]**&#x200B;欄位，您可以重新命名右側的&#x200B;**[!UICONTROL 元件名稱]**，以建立名為「產品頁面」的維度，以及另一個「錯誤頁面」等。 從&#x200B;**[!UICONTROL pageTitle]**;欄位中，您也可以從字串值建立量度。 例如，您可以建立一或多個具有不同歸因設定且不同包含／排除值的&#x200B;**[!UICONTROL 訂購]**&#x200B;量度。
 
    ![](assets/components-tab-3.png)
 
@@ -134,10 +135,10 @@ ht-degree: 6%
 
 | 設定 | 說明／使用案例 |
 | --- | --- |
-| [!UICONTROL 如果顯示，請呼叫No value]... | 您可以在此處將&#x200B;**[!UICONTROL No value]**&#x200B;更名為其他值。 |
+| [!UICONTROL 如果顯示，請呼叫「無值……」] | 您可以在此處將&#x200B;**[!UICONTROL No value]**&#x200B;更名為其他值。 |
 | [!UICONTROL 預設不顯示「無」值] | 不會在報表中顯示此值。 |
 | [!UICONTROL 預設顯示無值] | 確實會在報表中顯示此值。 |
-| [!UICONTROL 將無值視為值] | 例如，如果您以行動裝置類型為維度，您可將&#x200B;**[!UICONTROL No value]**&#x200B;項目重新命名為「Desktop」。 請注意，當您將此欄位變更為自訂值時，自訂值會被視為合法字串值。 因此，如果在此欄位中輸入&quot;Red&quot;值，資料中出現的字串&quot;Red&quot;例項也會在您所指定的相同行項目下滾動。 |
+| [!UICONTROL 將無值視為值] | 此設定會以您在[!UICONTROL 下指定的文字取代資料中的空白值，如果顯示，請呼叫無值……]。 例如，如果您以行動裝置類型為維度，您可將&#x200B;**[!UICONTROL No value]**&#x200B;項目重新命名為「Desktop」。 請注意，當您將此欄位變更為自訂值時，自訂值會被視為合法字串值。 因此，如果在此欄位中輸入&quot;Red&quot;值，資料中出現的字串&quot;Red&quot;例項也會在您所指定的相同行項目下滾動。 |
 
 ### 配置持久性設定
 
