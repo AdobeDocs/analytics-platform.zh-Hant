@@ -2,9 +2,9 @@
 title: 如何在Customer Journey Analytics中建立新的資料檢視。
 description: 說明建立新資料檢視所需的所有設定。
 translation-type: tm+mt
-source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
 workflow-type: tm+mt
-source-wordcount: '2607'
+source-wordcount: '2599'
 ht-degree: 6%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 6%
 
 ![](assets/persistence.png)
 
-這些設定類似於傳統Adobe Analytics的eVar設定。
+如需詳細資訊，請參閱[永續性](/help/data-views/persistence.md)主題。
 
 | 設定 | 說明／使用案例 |
 | --- | --- |
@@ -215,7 +215,7 @@ ht-degree: 6%
 
 ## 3.新增全域篩選至您的資料檢視
 
-您可以新增套用至整個資料檢視的篩選器（先前稱為區段），類似於虛擬報表套裝(傳統的Adobe Analytics)中資料的篩選檢視。
+您可以新增套用至整個資料檢視的篩選。 此篩選器將套用至您在「工作區」中執行的任何報表。
 
 1. 按一下[!UICONTROL 資料視圖]中的[!UICONTROL 設定]頁籤。
 1. 從左側導軌的清單拖曳篩選器至「新增篩選器]」欄位。[!UICONTROL 
