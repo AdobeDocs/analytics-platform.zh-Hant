@@ -18,10 +18,10 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
-source-git-commit: 5182e6c97e475296ca5ecd4014193770491b1988
+source-git-commit: 16341ab99e24d40580a1052aacc7daedb5b5f9c1
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 96%
+source-wordcount: '457'
+ht-degree: 97%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 96%
    + [建立資料檢視2](data-views/create-dataview2.md)
    + [設定資料檢視和歸因](data-views/configure-dataviews.md)
    + [資料檢視使用案例](data-views/data-views-usecases.md)
+   + [持久性](data-views/persistence.md)
 + Analysis Workspace 專案 {#cja-workspace}
    + [Analysis Workspace 概述](analysis-workspace/home.md)
    + [執行基本分析](analysis-workspace/perform-basic-analysis.md)
@@ -165,7 +166,7 @@ ht-degree: 96%
    + [使用行銷管道維度](use-cases/marketing-channels.md)
    + [將全域查詢新增至資料集](use-cases/global-lookups.md)
 + Analytics 控制面板 {#cja-dashboards}
-   + [Analytics儀表板——概述](mobile-app/home.md)
+   + [Analytics 控制面板 - 概觀](mobile-app/home.md)
    + [組織者指南](mobile-app/curator.md)
    + [執行使用者快速入門指南](mobile-app/executive.md)
 + 隱私權 {#cja-privacy}
