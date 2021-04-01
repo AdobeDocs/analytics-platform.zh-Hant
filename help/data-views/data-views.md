@@ -2,10 +2,10 @@
 title: 什麼是Customer Journey Analytics中的資料檢視？
 description: 資料檢視會指定您要如何解譯CJA連線中的資料元素，例如量度、維度、工作階段等。
 translation-type: tm+mt
-source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
+source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1087'
+ht-degree: 4%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 0%
 >
 >此功能將於2021年4月22日正式推出。
 
-資料視圖位於Customer Journey Analytics(CJA)[連接](/help/connections/create-connection.md)之上。 連接結合了來自Adobe Experience Platform的一個或多個資料集，並將其連接到CJA。 資料檢視會指定您要如何解讀連線中資料的元素，例如量度、維度、工作階段等。 資料檢視是為了在工作區中報告資料而定義的。 資料檢視具有可回溯性且不具破壞性。 換言之，它們不會永久變更您的基礎資料。
+資料視圖位於Customer Journey Analytics(CJA)[連接](/help/connections/create-connection.md)之上。 連接結合了來自Adobe Experience Platform的一個或多個資料集，並將其連接到CJA。 資料檢視會指定您要如何解讀連線中資料的元素，例如量度、維度、工作階段等。 資料檢視是為了在工作區中報告資料而定義的。
 
-如果您先前曾使用傳統的Adobe Analytics，資料檢視類似於虛擬報表套裝，因為它可以是資料的「篩選」檢視。
+>[!NOTE]
+>
+>您在資料檢視中選取或變更的任何設定都是可回溯且不具破壞性的。 換言之，它們不會永久變更您的基礎資料。
 
 您可以針對相同的連線建立不同的資料檢視，並使用非常不同的元件集（維度／量度）。 或者，使用瀏覽逾時、歸因等的不同設定來建立資料檢視。 例如，您可以有一個資料檢視，其中所有維度皆設為[!UICONTROL 上次接觸]，同時，另一個資料檢視（以相同資料集為基礎）則設為[!UICONTROL 首次接觸]。
 
@@ -28,7 +30,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 資料檢視的最新更新可讓您在處理資料檢視時有更多彈性。 這些增強功能可讓您自發地變更「資料檢視」中的「架構」元素設定，而不需變更Adobe Experience Platform的架構或重新實作CJA環境&#x200B;**。**
 
-* **您可以將元件從量度變更為Dimension，反之亦然**。您可以從字串欄位建立量度，或從數值欄位建立維度。 這樣，您不必在XDM架構中為每個所需的量度建立數值欄位，生活就更輕鬆了。 您只需在資料檢視對話方塊中自發建立它。 以下是一些範例：
+* **您可以將元件從量度變更為Dimension，反之亦然**。您可以從字串欄位建立量度，或從數值欄位建立維度。 這可讓您的生活更輕鬆，因為您不需要在XDM結構中為每個所需的量度建立數值欄位。 您只需在資料檢視對話方塊中自發建立它。 以下是一些範例：
    * **從單一結構欄位建立一或多個和／或一個維度**。這是一對多的關係。 例如，您可以從單一結構欄位建立一或多個「收入」度量及／或一或多個「收入」維度。
    * **使用字串欄位做為度量**:當您在Experience Platform中填入資料集的架構時，您可能不知道您需要什麼架構元素。例如，您可能沒有意識到您需要「頁面上的錯誤」量度。 因此，您未建立數值結構元素。 現在，只要使用字串元素做為度量，您就可以使用資料檢視設定來指定只要字串包含&#39;error&#39;，就可以將它當做度量。
    * **將數值欄位用作維度**:例如，如果您想從「收入」維度提取「收入」量度，「收入」維度會將每個值顯示為維度項目（$100、$175、$1,000等）以及每個維度項目的例項數。 收入作為量度的行為會與以往一樣。
@@ -37,7 +39,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * **您可以編輯元件的ID**  —— 此ID用於跨資料檢視的相容性。報表API使用元件ID來識別特定量度或維度。 由於您可以任意從一個XDM欄位建立許多量度或維度，因此我們將提供您定義您自己的元件ID的選項。 因此，您在一個「工作區」專案中使用的量度可以跨資料檢視（和API）相容，即使這些量度是根據不同連線、資料檢視或XDM中不同架構的完全不同欄位。
 
-* **您可以指定將出現在Analysis Workspace的友好元件名稱**。預設情況下，此名稱繼承自架構顯示名稱，但您現在可以覆蓋該特定資料視圖的名稱。 (這也是元件組織在傳統Adobe Analytics虛擬報表套裝中的運作方式)。
+* **您可以指定將出現在Analysis Workspace的友好元件名稱**。預設情況下，此名稱繼承自架構顯示名稱，但您現在可以覆蓋該特定資料視圖的名稱。
 
 * **您可以查看有關元件的更多方案相關資訊** ，例如：資料集類型（事件、描述檔、查閱）;哪個方案類型（字串、整數等）它來自：及其模式路徑（它基於的XDM欄位）。
 
@@ -58,11 +60,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 * 建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集的連線](/help/connections/create-connection.md)。
 * 若要建立或管理資料檢視，您需要在Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant#admin-access-permissions)中設定一組權限。[
 
-## 檢視元件的相關資訊
-
-按一下「工作區」中的(i)資訊圖示，檢視元件所依據的架構欄位及其設定，例如說明。
-
-## 可在工作區中覆寫的資料檢視設定
+## 您可以在工作區中覆寫資料檢視設定
 
 有些資料檢視設定可在Analysis Workspace的專案層級覆寫，有些則無法覆寫。
 
@@ -70,7 +68,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 * 量度歸因
 * 使用者是否在報表中看到「無值」行項目
 
-## 無法在工作區中覆寫的資料檢視設定
+## 您無法在工作區中覆寫資料檢視設定
 
 * 元件類型
 * 量度格式
