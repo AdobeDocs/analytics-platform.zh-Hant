@@ -2,10 +2,10 @@
 title: Customer Journey Analytics中資料檢視的使用案例
 description: 多種使用案例，可顯示資料檢視在Customer Journey Analytics中的彈性和功能
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 1. 開啟右側的[!UICONTROL 包含／排除值]對話方塊，並指定下列項目：
    ![](assets/orders2.png)
 
-   「確認」短語表示這是訂單。 在檢閱符合這些標準的所有頁面標題後，每個例項都會計為&quot;1&quot;。 結果是新量度（而非計算量度）。 它適用於Attribution IQ、篩選器，以及您可使用標準量度的其他任何地方。
+   「確認」短語表示這是訂單。 在檢閱符合這些標準的所有頁面標題後，每個例項都會計為&quot;1&quot;。 結果是新量度（而非計算量度）。 包含／排除值的量度可用於任何其他量度皆可使用。 它適用於Attribution IQ、篩選器，以及您可使用標準量度的其他任何地方。
 1. 您可以進一步指定此量度的歸因模型，例如[!UICONTROL 上次接觸]，並具有[!UICONTROL Session]的[!UICONTROL 回顧視窗]。
 您也可以從相同欄位建立另一個[!UICONTROL Orders]量度，並為其指定不同的歸因模型，例如[!UICONTROL First Touch]，以及不同的[!UICONTROL  Lookback window]，例如[!UICONTROL 30天]。
 
