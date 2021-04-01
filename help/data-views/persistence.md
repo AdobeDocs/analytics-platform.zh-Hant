@@ -1,11 +1,11 @@
 ---
-title: 什麼是永續Customer Journey Analytics?
+title: 什麼是Customer Journey Analytics中的維度持續性？
 description: Dimension永續性是分配和過期的組合。 它們共同決定維度值的存留。
 translation-type: tm+mt
-source-git-commit: 09f49cff89d69ae630e917243425967dbf56a9ed
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
