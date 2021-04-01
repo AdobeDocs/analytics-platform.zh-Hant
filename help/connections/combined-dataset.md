@@ -2,9 +2,9 @@
 title: 合併事件資料集
 description: 了解 CJA 如何透過合併資料集來建立連線。
 translation-type: tm+mt
-source-git-commit: b6bfb14b594f42efc114bbde1b047b814e1cf653
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '326'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 100%
 * 結構會合併。重複的結構欄位會合併。
 * 每個資料集的「人員 ID」欄會合併為一欄，不論其名稱為何。此欄是識別 CJA 中獨特訪客的基礎。
 * 會根據時間戳記處理列。
-
-組合資料集的概念類似於在傳統 Adobe Analytics 中結合報表套裝的概念。
 
 ## 範例
 
