@@ -2,9 +2,9 @@
 title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '957'
 ht-degree: 92%
 
 ---
@@ -86,4 +86,4 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 | 篩選器名稱 | 說明 |
 | --- | --- |
-| 全部 資料 | 這是與傳統Adobe分析中的「所有瀏覽」區段類似的必要篩選。 當量度新增至自由表格的列時，會動態新增至報表。 |
+| 全部 資料 | 這是當量度新增至自由表格列時，動態新增至報表的必要篩選。 |
