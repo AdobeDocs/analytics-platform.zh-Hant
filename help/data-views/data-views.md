@@ -2,10 +2,10 @@
 title: 什麼是Customer Journey Analytics中的資料檢視？
 description: 資料檢視會指定您要如何解譯CJA連線中的資料元素，例如量度、維度、工作階段等。
 translation-type: tm+mt
-source-git-commit: 1071ee32d0ff7fef1d3e96cb81c210dd521cedf0
+source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 4%
 >
 >此功能將於2021年4月22日正式推出。
 
-資料視圖位於Customer Journey Analytics(CJA)[連接](/help/connections/create-connection.md)之上。 連接結合了來自Adobe Experience Platform的一個或多個資料集，並將其連接到CJA。 資料檢視會指定您要如何解讀連線中資料的元素，例如量度、維度、工作階段等。 資料檢視是為了在工作區中報告資料而定義的。
+資料視圖位於Customer Journey Analytics(CJA)[連接](/help/connections/create-connection.md)之上。 連接結合了來自Adobe Experience Platform的一個或多個資料集，並將其連接到CJA。 資料檢視會指定您要如何解讀連線中資料的元素，例如量度、維度、工作階段等。 資料檢視是為了在工作區中報告資料而定義的。 資料檢視具有可回溯性且不具破壞性。 換言之，它們不會永久變更您的基礎資料。
 
-如果您先前曾使用傳統的Adobe Analytics，資料檢視類似於虛擬報表套裝，即資料的「篩選」檢視。
+如果您先前曾使用傳統的Adobe Analytics，資料檢視類似於虛擬報表套裝，因為它可以是資料的「篩選」檢視。
 
-您可以針對相同的連線建立不同的資料檢視，並針對造訪逾時、歸因等設定不同。您也可以針對單一資料集建立多個資料檢視。 例如，您可以有一個資料檢視，其中所有維度皆設為[!UICONTROL 上次接觸]，同時，另一個資料檢視（以相同資料集為基礎）則設為[!UICONTROL 首次接觸]。
+您可以針對相同的連線建立不同的資料檢視，並使用非常不同的元件集（維度／量度）。 或者，使用瀏覽逾時、歸因等的不同設定來建立資料檢視。 例如，您可以有一個資料檢視，其中所有維度皆設為[!UICONTROL 上次接觸]，同時，另一個資料檢視（以相同資料集為基礎）則設為[!UICONTROL 首次接觸]。
 
 Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為基礎。
 
