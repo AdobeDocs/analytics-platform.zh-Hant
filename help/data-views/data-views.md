@@ -1,14 +1,14 @@
 ---
 title: 什麼是Customer Journey Analytics中的資料檢視？
 description: 資料檢視會指定您要如何解譯CJA連線中的資料元素，例如量度、維度、工作階段等。
+exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 5de8faaf750dacaafe885f0c475f7240126f302f
+source-git-commit: 3c5cd2aa571d99b4c04aaf24b86d5e64fc8acec6
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 4%
 
 ---
-
 
 # 什麼是資料檢視？
 
