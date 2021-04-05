@@ -1,14 +1,14 @@
 ---
 title: 如何在Customer Journey Analytics中建立新的資料檢視。
 description: 說明建立新資料檢視所需的所有設定。
+exl-id: 35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+source-git-commit: 3c5cd2aa571d99b4c04aaf24b86d5e64fc8acec6
 workflow-type: tm+mt
-source-wordcount: '2599'
-ht-degree: 6%
+source-wordcount: '2813'
+ht-degree: 11%
 
 ---
-
 
 # 建立新的資料檢視
 
@@ -45,7 +45,10 @@ ht-degree: 6%
 
 ![](assets/components-tab.png)
 
-您可以在左上角看到[!UICONTROL Connection]，其中包含資料集，以及下面的[!UICONTROL Schema欄位]。 已存在的元件是標準必需的元件（系統生成）。
+您可以在左上角看到[!UICONTROL Connection]，其中包含資料集，以及下面的[!UICONTROL Schema欄位]。 請記住：
+
+* 已包含的元件是標準必需元件（系統生成）。
+* 我們也會依預設套用篩選&#x200B;**[!UICONTROL 包含資料]**，以便只顯示包含資料的架構欄位。 如果您要尋找不含資料的欄位，請移除篩選。
 
 1. 現在，從左側導軌拖曳架構欄位（例如[!UICONTROL pageTitle]）至「量度」或「Dimension」區段。
 
@@ -173,35 +176,35 @@ ht-degree: 6%
 
 ![](assets/standard-components.png)
 
-必要的標準元件
+依預設，必要的標準元件會新增至您的資料檢視。
 
 | 元件名稱 | Dimension或量度 | 附註 |
 | --- | --- | --- |
-| [!UICONTROL 人物] | 量度 | 在傳統Analytics中，先前稱為[!UICONTROL 獨特訪客]。 此量度以連線中指定的人員ID為基礎。 |
-| [!UICONTROL 工作階段] | 量度 | 在傳統Analytics中，先前稱為[!UICONTROL 瀏覽]。 此量度以下指定的作業化設定為基礎。 |
-| [!UICONTROL 事件] | 量度 | 在傳統Analytics中，先前稱為[!UICONTROL Occurrences]。 此度量表示Connection中所有事件資料集的行數。 |
-| [!UICONTROL 日] | 維度 |  |
-| [!UICONTROL 週] | 維度 |  |
-| [!UICONTROL 月] | 維度 |  |
-| [!UICONTROL 季度] | 維度 |  |
-| [!UICONTROL 年] | 維度 |  |
-| [!UICONTROL 小時] | 維度 |  |
-| [!UICONTROL 分鐘] | 維度 |  |
+| [!UICONTROL 人物] | 量度 | 此量度以連線中指定的人員ID為基礎。 |
+| [!UICONTROL 工作階段] | 量度 | 此量度以下指定的作業化設定為基礎。 |
+| [!UICONTROL 事件] | 量度 | 此度量表示Connection中所有事件資料集的行數。 |
+| [!UICONTROL 日] | 維度 | 「日」維度會報告指定量度發生的當天。 第一個維度項目是日期範圍中的第一天，最後一個維度項目是日期範圍中的最後一天。 |
+| [!UICONTROL 週] | 維度 | 「周」維度會報告指定量度發生的周。 第一個維度項目是日期範圍中的第一週，最後一個維度項目是日期範圍中的最後一週。 |
+| [!UICONTROL 月] | 維度 | 「月」維度會報告指定度量發生的月份。 第一個維度項目是日期範圍中的第一個月，最後一個維度項目是日期範圍中的最後一個月。 |
+| [!UICONTROL 季度] | 維度 | 「季」維度會報告指定量度發生的季。 第一個維度項目是日期範圍中的第一季，最後一個維度項目是日期範圍中的最後一季。 |
+| [!UICONTROL 年] | 維度 | 「年」維度會報告指定度量發生的年份。 第一個維度項目是日期範圍中的第一年，最後一個維度項目是日期範圍中最近的一年。 |
+| [!UICONTROL 小時] | 維度 | 「小時」維度會報告指定量度發生的小時數（四捨五入）。 第一個維度項目是日期範圍中的第一小時，最後一個維度項目是日期範圍中的最後一小時。 |
+| [!UICONTROL 分鐘] | 維度 | 「分鐘」維度會報告指定量度發生的分鐘（四捨五入）。 第一個維度項目是日期範圍中的第一分鐘，最後一個維度項目是日期範圍中的最後一分鐘。 |
 
 ### 可選標準元件
 
-在任何資料檢視中都需要一些系統元件，以方便在Analysis Workspace建立報告功能，而下列元件則是選用的。
+可選的標準元件位於&#x200B;**[!UICONTROL 標準元件]**&#x200B;頁籤下。
 
 | 元件名稱 | Dimension或量度 | 附註 |
 | --- | --- | --- |
-| [!UICONTROL 作業開始] | 量度 | 此度量會計算作業中第一個事件的事件數。 當用於篩選定義時(例如「[!UICONTROL 會話開始]存在」)，它只篩選到每個會話的第一個事件。 請注意，這與[!UICONTROL Entries]不同，因為它一律會計算作業的第一個事件——而非作業中維度的第一個值。 |
-| [!UICONTROL 作業結束] | 量度 | 此度量會計算作業的最後一個事件的數目。 與[!UICONTROL Session Starts]類似，它也可用於篩選定義中，以篩選至每個作業的最後一個事件。 請注意，這與[!UICONTROL Exits]的行為不同，因為它一律會計算作業的最後一個事件——而非作業中維度的最後一個值。 |
-| [!UICONTROL 逗留時間 (秒)] | 量度 | [!UICONTROL 逗留時間]度量的運作方式與傳統Adobe Analytics類似——將維度的兩個不同值之間的時間相加。 不過，使用「工作階段開始和工作階段結束」量度，客戶可以自行建構「每位使用者逗留時間]」和「每個工作階段逗留時間]」計算量度（請參閱下方的OOTB篩選器和計算量度）。[!UICONTROL [!UICONTROL  |
-| [!UICONTROL 每個事件逗留時間] | 維度 | 從功能上講，這其實只是上述量度的區隔。 我們提供預設時段，但允許您將時段變更為您喜歡的。 |
-| [!UICONTROL 每個作業逗留時間] | 維度 |  |
-| [!UICONTROL 每人逗留時間] | 維度 |  |
-| [!UICONTROL 批次ID] | 維度 |  |
-| [!UICONTROL 資料集 ID] | 維度 |  |
+| [!UICONTROL 作業開始] | 量度 | 此度量會計算作業中第一個事件的事件數。 當用於篩選定義時(例如「[!UICONTROL 會話開始]存在」)，它只篩選到每個會話的第一個事件。 |
+| [!UICONTROL 作業結束] | 量度 | 此度量會計算作業的最後一個事件的數目。 與[!UICONTROL Session Starts]類似，它也可用於篩選定義中，以篩選至每個作業的最後一個事件。 |
+| [!UICONTROL 逗留時間 (秒)] | 量度 | [!UICONTROL 逗留時間]量度會為維度加總兩個不同值之間的時間。 |
+| [!UICONTROL 每個事件逗留時間] | 維度 | [!UICONTROL 「每個事件逗留] 時間」會將「時 [!UICONTROL 間] 」量度儲存至「事  件」桶。 |
+| [!UICONTROL 每個作業逗留時間] | 維度 | [!UICONTROL 「每個作業的逗留] 時間」會將「時 [!UICONTROL 間] 」量度儲存至「作  業」桶。 |
+| [!UICONTROL 每人逗留時間] | 維度 | [!UICONTROL 「每個人員的逗留] 時間」會將「 [!UICONTROL 時] 間」量度儲存在「  人員」。 |
+| [!UICONTROL 批次ID] | 維度 | 表示[!UICONTROL Event]是其一部分的Experience Platform批。 |
+| [!UICONTROL 資料集 ID] | 維度 | 表示[!UICONTROL Event]屬於的Experience Platform資料集。 |
 
 ### 篩選結構欄位和維度／量度
 
@@ -209,9 +212,10 @@ ht-degree: 6%
 
 ![](assets/filter-fields.png)
 
-您也可以依資料集和模式欄位是否包含資料或是否是身分來篩選：
+您也可以依資料集以及架構欄位是否包含資料或是否為身分來篩選。 依預設，我們會將&#x200B;**[!UICONTROL 包含data]**&#x200B;篩選套用至所有資料檢視。
 
 ![](assets/filter-other.png)
+
 
 ## 3.新增全域篩選至您的資料檢視
 
