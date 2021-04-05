@@ -1,20 +1,20 @@
 ---
 title: 什麼是Customer Journey Analytics中的維度持續性？
 description: Dimension永續性是分配和過期的組合。 它們共同決定維度值的存留。
+exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 translation-type: tm+mt
-source-git-commit: efe92e25229addadf57bff3f2ba73d831a3161ea
+source-git-commit: 16e43f5d938ac25445f382e5eba8fc12e0e67161
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '598'
 ht-degree: 18%
 
 ---
-
 
 # 持久性
 
 Dimension永續性是分配和過期的組合。 它們共同決定維度值的存留。 Adobe強烈建議您在組織內討論如何處理（分配）每個維度的多個值，以及維度值停止持續資料（過期）時。
 
-* 依預設，維度值會使用？ 配置。
+* 預設情況下，維值使用[WHAT?] 配置。
 * 預設情況下，維值使用[!UICONTROL Session]的過期時間。
 
 ## 配置
@@ -61,7 +61,7 @@ Dimension永續性是分配和過期的組合。 它們共同決定維度值的�
 
 | 維度 | 點擊 1 | 點擊 2 | 點擊 3 | 點擊 4 | 點擊 5 |
 | --- | --- | --- | --- | --- | --- |
-| 時間戳記（分鐘） | 3 | 2 | 3 | 6 | 7 |
+| 時間戳記（分鐘） | 1 | 2 | 3 | 6 | 7 |
 | 原始值 | A,B | C | B,C |  | A |
 | after-persistence | A,B | A、B、C | A、B、C | B,C | A、B、C |
 
@@ -92,7 +92,6 @@ Dimension永續性是分配和過期的組合。 它們共同決定維度值的�
 
 ### 配置和歸因之間有何差異？
 
-**配置**:將配置視為維度的「資料轉換」。在篩選前進行配置。 如果您建立篩選，則篩選會關閉轉換後的維度。
+**配置**:將配置視為維度的「資料轉換」。配置會在篩選前進行。 如果您建立篩選，則篩選會關閉轉換後的維度。
 
 **歸因**:我要如何將量度的評分分配給套用至的維度？歸因會在篩選後發生。
-
