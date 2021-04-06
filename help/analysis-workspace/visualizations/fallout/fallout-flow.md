@@ -1,14 +1,14 @@
 ---
 description: 流失視覺化顯示訪客離開（掉落）並繼續（落入）預先定義的頁面順序。
 title: 流失概述
+exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 translation-type: tm+mt
-source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 81%
+source-wordcount: '245'
+ht-degree: 88%
 
 ---
-
 
 # 流失概述
 
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 「流失」視覺效果可供您
 
-* 在同一份報表中，執行兩個不同區段的並排比較。
+* 對同一份報告中的兩個不同篩選器執行並排比較。
 * 拖曳、放置和重新安排漏斗步驟 (接觸點)
 * 混合搭配來自不同維度和量度的值
 * 建立多維度流失報表
@@ -32,29 +32,5 @@ ht-degree: 81%
 * 更廣泛的一般流量流程：此流量可顯示在瀏覽過首頁的人當中，有多少人接下來執行了搜尋操作，接著又有多少人最終瀏覽至某一特定項目。
 * 網站上事件之間的關聯。關聯顯示在瀏覽過隱私政策的人當中，有百分之幾的人接下來執行了購買操作。
 
-[流失視覺化影片教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[流失視覺化教學課程影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
-## 區段作為流量和流失的基礎 {#section_654F37A398C24DDDB1552A543EE29AA9}
-
-套用至「工作區」面板的區段運作方式與套用至Adobe Analytics「報告與分析」中流失和流量報表的區段略有不同。 大部分時候，它們提供的結果完全相同。主要的差異是「報告與分析」會在序列的每個步驟套用區段。 如此一來，可能造成結果稍微不同。
-
-以兩步驟的流失為例：
-
-![](assets/fallout_segments1.png)
-
-如果您接著在工作區面板層級套用區段，區段會像這樣與流失結合:
-
-![](assets/fallout_seg.png)
-
-相反地，當「報告與分析」計算區段時，區段會以下列方式組合：
-
-![](assets/fallout_segments3.png)
-
-「報告與分析」將區段與每個步驟結合。 當容器與流失在同一層級 (例如在瀏覽或訪客層級) 時，這會導致瀏覽或訪客數量相符。
-
-然而，如果套用至面板的區段小於流失層級 (例如點擊層級)，則區段會因為報表結合區段的方式而顯示不同結果。重申，在大多數情況下，Analysis Workspace的數字與「報告與分析」中的數字相符。 只有在以下這些情況皆為真時才&#x200B;**不**&#x200B;相符：
-
-* 區段與流失不在同一層級。
-* 區段所含的變數中，訪客數/造訪次數在瀏覽/訪客期間可有多個值。
-
-在某些罕見的情況下，您必須讓 Analysis Workspace 搭配 Reports &amp; Analytics 將區段套用至流失/流量的方式，只要將區段拖曳至 Workspace 中的每個流失步驟，便會產生相同的數字。
