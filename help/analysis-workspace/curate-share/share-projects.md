@@ -2,14 +2,14 @@
 description: 工作區中的專案共用和專案角色
 keywords: Analysis Workspace共用
 title: 共用專案
+exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
-
 
 # 共用專案
 
@@ -52,7 +52,7 @@ ht-degree: 99%
 如果有未儲存的變更，系統會提示您先儲存專案。
 1. 新增收件者或收件者群組。
 請參考上方的說明圖示，取得每個角色的說明。
-1. (可選) 與所有收件者共用內嵌的專案元件 (區段、計算量度、日期範圍)。
+1. （選用）與所有收件者共用內嵌的專案元件（篩選器、計算量度和日期範圍）。
 共用後，這些元件會出現在收件者工作區的「元件」下拉式清單中。請注意，系統不會沿用此設定，此為共用時的單次動作。
 1. (可選) 將此頁面設為收件者的登陸頁面。系統不會沿用此設定，此為共用時的單次動作。
 1. 按一下「共用」。您也可以按一下&#x200B;**[!UICONTROL 組織與共用]**&#x200B;自動套用專案組織。如果專案已共用，這些按鈕將會顯示&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 組織與更新]**。深入瞭解[專案組織](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate.html)。
