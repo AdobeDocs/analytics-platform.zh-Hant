@@ -1,14 +1,14 @@
 ---
 title: 元件概觀
 description: 了解 CJA 提供哪些元件，以及如何在報表中使用這些元件。
-translation-type: ht
-source-git-commit: 1fd11bf0f34b9e4698285e5d29fd57fbab5238be
-workflow-type: ht
+exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
+translation-type: tm+mt
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 100%
+ht-degree: 75%
 
 ---
-
 
 # 元件概觀
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## Analysis Workspace 元件
 
-Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，您可將它們拖放至專案上。您建立的自訂元件會加入這些面板，例如自訂日期範圍。
+Analysis Workspace地區的元件包括量度、維度、篩選條件和時間粒度，您可以將這些粒度拖放至專案上。 您建立的自訂元件會加入這些面板，例如自訂日期範圍。
 
 若要存取「元件」面板，請按一下左側邊欄中的&#x200B;**[!UICONTROL 元件]**&#x200B;圖示。您可以利用左欄圖示或[快捷鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，在各面板 (空白面板、[自由表格面板](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)、[快速深入分析面板](/help/analysis-workspace/c-panels/quickinsight.md)或[歸因 IQ](/help/analysis-workspace/c-panels/attribution.md) 面板)、[視覺化效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件之間來回切換。
 
@@ -44,13 +44,13 @@ Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，�
 
 | 元件動作 | 說明 |
 | --- | --- |
-| 標記 | 以套用標記的方式組織或管理元件。接著元件會在相關元件管理員中顯示，例如[!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 區段」]或[!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 專案」] |
-| 我的最愛 | 新增元件至我的最愛清單。接著元件會在相關元件管理員中顯示，例如[!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 區段」]或[!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 專案」]。 |
-| 核准 | 核准元件使其成為正式項目。接著元件會在相關元件管理員中顯示，例如 [!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 區段」]或[!UICONTROL 「Analytics] > [!UICONTROL 元件] > [!UICONTROL 專案」] |
-| 共用 | 僅適用於區段。 |
-| 刪除 | 僅適用於區段。 |
+| 標記 | 以套用標記的方式組織或管理元件。然後，它會顯示在各自的元件管理器中，例如[!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 篩選器]，或[!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 專案] |
+| 我的最愛 | 新增元件至我的最愛清單。然後，它會顯示在個別的元件管理器中，例如[!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL filters]，或[!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Projects]。 |
+| 核准 | 核准元件使其成為正式項目。然後，它會顯示在各自的元件管理器中，例如[!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 篩選器]，或[!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 專案] |
+| 共用 | 僅適用於篩選器。 |
+| 刪除 | 僅適用於篩選器。 |
 
-觀看建立量度、區段和日期的說明影片：
+觀看有關建立量度、篩選器和日期的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23979)
 
