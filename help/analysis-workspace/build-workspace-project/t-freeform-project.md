@@ -1,12 +1,12 @@
 ---
-description: 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
+description: 建立專案並新增元件（維度、量度、篩選器、日期範圍）至自由面板。
 keywords: Analysis Workspace
 title: 建立 Analysis Workspace 專案
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 95%
+source-wordcount: '668'
+ht-degree: 86%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > 元件</a> </td> 
-   <td colname="col2"> <p>您可以拖曳至專案的維度、量度、區段和日期範圍。 </p> </td> 
+   <td colname="col2"> <p>Dimension、量度、篩選器和日期範圍，您可以拖曳至專案中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 視覺效果</a> </td> 
@@ -90,7 +90,7 @@ ht-degree: 95%
 
    **元件**
 
-   元件工具列會顯示您最常使用的可搜尋維度、量度、區段和日期範圍。
+   「元件」工具列會顯示您最常使用的可搜尋維度、量度、篩選器和日期範圍。
 
 <table id="table_4626163E26DE46CB86391868BBA3AD32"> 
  <thead> 
@@ -109,8 +109,8 @@ ht-degree: 95%
    <td colname="col2"> <p>在專案層級套用。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term">「發生次數」</span>是資料表的預設量度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 區段 (藍色) </td> 
-   <td colname="col2"> <p>僅可在面板層級拖曳，但您可在資料表格中建立內嵌區段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>如需詳細資訊，請參閱<a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >區段</a>。 </p> </td> 
+   <td colname="col1"> 濾鏡（藍色） </td> 
+   <td colname="col2"> <p>僅可在面板層級拖曳，但您可以在資料表格中建立內嵌篩選。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>如需詳細資訊，請參閱<a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  >篩選</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期範圍和粒度 (紫色) </td> 
@@ -187,10 +187,6 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > 從選取項目建立篩選條件</a> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="/help/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > 在區段比較中執行</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
