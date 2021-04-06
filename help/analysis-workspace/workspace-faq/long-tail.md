@@ -1,14 +1,14 @@
 ---
 title: 長尾尺寸項目
 description: 說明維度項目「長尾」，以及它出現在報表中的原因。
+exl-id: 262a219a-315a-4c9b-a400-48cff119d45d
 translation-type: tm+mt
-source-git-commit: 3dc9d0d0a1f65a4205120895c35aa508f080c25d
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
 
 ---
-
 
 # 長尾尺寸項目
 
@@ -33,4 +33,4 @@ CJA會在報表執行時處理報表，並將組合的資料集散發至多個�
 * 使用[filter](/help/components/filters/create-filters.md)。 篩選器會在每個伺服器處理資料子集時套用。 限制傳回的唯一值數目會減少「長尾」維度項目。
 * 使用查閱資料集維度。 查閱資料集維度會結合事件資料集維度項目，以限制傳回的唯一值數目。
 
-整體而言，使用包含500K以上唯一維度項目的報表相當困難。 如果您套用區段或查閱資料集維度，可以減少「長尾」的出現，同時讓報表更容易使用。 Adobe計畫在進一步發展CJA的同時改進這一經驗。
+整體而言，使用包含500K以上唯一維度項目的報表相當困難。 如果您套用篩選或查閱資料集維度，可以減少「長尾」的出現，同時讓報表更容易使用。 Adobe計畫在進一步發展CJA的同時改進這一經驗。
