@@ -2,14 +2,14 @@
 description: Analysis Workspace 提供的鍵盤互動、快速鍵和指向與按下行為。
 keywords: Analysis Workspace
 title: 快速鍵
+exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 translation-type: tm+mt
-source-git-commit: 1759bbf965e6b8d07e5a25867b73c3242dc49005
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '288'
 ht-degree: 100%
 
 ---
-
 
 # 快速鍵
 
@@ -39,7 +39,7 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，以順暢導覽、分�
 | 建立警報 | ctrl (或 cmd) + shift + a |
 | 建立計算量度 | ctrl (或 cmd) + shift + c |
 | 建立日期範圍 | ctrl (或 cmd) + shift + d |
-| 建立區段 | ctrl (或 cmd) + shift + e |
+| 建立篩選器 | ctrl (或 cmd) + shift + e |
 | 全部清除 | alt + w |
 | Copy | ctrl (或 cmd) + c |
 | 重做 | ctrl (或 cmd) + shift + z |
@@ -52,13 +52,10 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，以順暢導覽、分�
 
 | 動作 | 快速鍵 |
 |---|---|
-| 新增 Analytics for Target 面板 | alt + g |
 | 新增歸因面版 | alt + e |
 | 新增空白面板 | alt + b |
 | 新增自由格式面板 | alt + a |
-| 全新媒體同時檢閱者面板 | alt + h |
 | 新增快速深入分析面板 | alt + f |
-| 新增區段比較面板 | alt + c |
 | 新增自由表格 | alt + 1 |
 | 新增折線圖 | alt + 2 |
 | 新增長條圖 | alt + 3 |
