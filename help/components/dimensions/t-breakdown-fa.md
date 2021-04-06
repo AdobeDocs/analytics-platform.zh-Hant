@@ -4,14 +4,14 @@ keywords: Analysis Workspace
 title: 劃分維度
 topic: Reports and Analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
+exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 translation-type: tm+mt
-source-git-commit: 1c82c7c2e61c170b6eb05bfda0c7a79e5a13c4e1
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 96%
+ht-degree: 79%
 
 ---
-
 
 # 劃分維度
 
@@ -21,14 +21,14 @@ ht-degree: 96%
 
 在 Analysis Workspace 中劃分維度和維度項目。
 
-您可針對特定需求，以無限方式劃分資料；使用相關量度、維度、區段、時間表及其他分析劃分值來建立查詢。
+根據您的特定需求，以無限制的方式劃分資料；使用相關量度、維度、篩選器、時間線和其他分析劃分值建立查詢。
 
 1. [建立專案](/help/analysis-workspace/home.md)並搭配資料表格。
 1. 在資料表格中，以滑鼠右鍵按一下某個條列項目，並選取&#x200B;**[!UICONTROL 劃分]** > *`<item>`*。
 
    ![步驟結果](assets/fa_data_table_actions.png)
 
-   您可以跨所選時段，依維度項目或受眾區段來劃分量度。您也可以更深入鑽研至更詳細的層級。
+   您可以依維度項目或對象篩選來劃分量度，並跨選取的時段。 您也可以更深入鑽研至更詳細的層級。
 
    >[!NOTE]
    >
