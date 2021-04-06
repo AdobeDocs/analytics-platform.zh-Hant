@@ -3,10 +3,10 @@ title: 如何在Customer Journey Analytics中建立新的資料檢視。
 description: 說明建立新資料檢視所需的所有設定。
 exl-id: 35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: c021892119cbebccaa49e5c04fd7cc7450cce8c6
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '2814'
-ht-degree: 11%
+source-wordcount: '2805'
+ht-degree: 12%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 11%
 | [!UICONTROL 標記] | 選填。可讓您使用自訂或現成可用的標籤來標籤元件，以便在Analysis WorkspaceUI中更輕鬆地搜尋／篩選。 |
 | [!UICONTROL 欄位名稱] | 架構欄位的名稱。 |
 | [!UICONTROL 資料集類型] | 必填.不可編輯的欄位，顯示元件來自的資料集類型（事件、查閱或描述檔）。 |
-| [!UICONTROL 資料集] | 必填.不可編輯的欄位，顯示元件來自的欄位類型（例如字串、整數等）。 此欄位可包含多個資料集，例如當您要結合多個報表套裝時。 |
+| [!UICONTROL 資料集] | 必填.不可編輯的欄位，顯示元件來自的欄位類型（例如字串、整數等）。 此欄位可包含多個資料集。 |
 | [!UICONTROL 結構類型] | 指元件是否為字串、整數等。 |
 | [!UICONTROL 元件 ID] | 必填.[CJA API](https://adobe.io/cja-apis/docs)使用此欄位來參考元件。 您可以按一下編輯圖示並修改此元件ID。 不過，變更此元件ID會中斷包含此元件的所有現有工作區專案。<br>如果您曾為pageTitle維度建立其他使用不同欄位的資料檢視，則可以重新命名該檢視，並讓維度跨資料檢視相容。 |
 | [!UICONTROL 路徑] | 必填.一個不可編輯的欄位，顯示元件來自的架構路徑。 |
