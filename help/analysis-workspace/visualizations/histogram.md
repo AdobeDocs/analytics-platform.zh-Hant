@@ -1,14 +1,14 @@
 ---
 description: 色階分佈圖類似於長條圖，但前者將數字分組為範圍 (貯體)。
 title: 色階分佈圖
+exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 95%
+ht-degree: 87%
 
 ---
-
 
 # 色階分佈圖
 
@@ -60,7 +60,7 @@ ht-degree: 95%
 
 ![](assets/manage-data-source.png)
 
-此表格中顯示的預先建立區段是內部區段，不會顯示在區段選取器中。按一下區段名稱旁的「i」圖示，然後按一下&#x200B;**[!UICONTROL 「設為公用」]**，將該區段設為公用。
+顯示在表格中的預先建立篩選是內部篩選，不會顯示在篩選選取器中。 按一下篩選器名稱旁的&quot;i&quot;圖示，然後按一下「設為public ]**」，將篩選器設為public。**[!UICONTROL 
 
 ![](assets/prebuilt_segments.png)
 
