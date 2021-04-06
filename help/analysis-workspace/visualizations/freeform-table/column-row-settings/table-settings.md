@@ -2,14 +2,14 @@
 description: 列設定會依您拖放至表格中的元件而異。
 title: 列設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
+exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 translation-type: tm+mt
-source-git-commit: 8b814137a7c5e2ca96091addb5b4430e2da65329
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
-
 
 # 列設定
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 >您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
-列設定會依您拖放至表格中的元件而異。若要存取表格列設定，按一下維度、區段、量度、時段旁的設定圖示，或按以下各項之中的劃分：
+列設定會依您拖放至表格中的元件而異。若要存取表格列設定，請按一下維度、篩選、量度、時段或劃分旁的「設定」圖示：
 
 ![](assets/row-settings.png)
 
