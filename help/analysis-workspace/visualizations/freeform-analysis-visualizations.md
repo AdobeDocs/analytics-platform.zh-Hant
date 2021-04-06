@@ -2,20 +2,20 @@
 description: 在Analysis Workspace以視覺化方式呈現您的資料。
 keywords: Analysis Workspace
 title: 視覺效果概述
+exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 42%
+ht-degree: 41%
 
 ---
-
 
 # 視覺效果概述
 
 工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。如果您使用Adobe Analytics，大部分的視覺化類型都會很熟悉。 不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
-您可以從「工作區」的左上角圖示、[空白麵板](https://experienceleague.adobe.com/docs/analytics/analysis-workspace/panels/blank-panel.html)，或透過工作流程中的按滑鼠右鍵功能表，存取視覺化。
+您可以從「工作區」的左上角圖示、[空白麵板](https://experienceleague.adobe.com/docs/analytics/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，或透過工作流程中的按滑鼠右鍵功能表，存取視覺化。
 
 ![](assets/viz-rail.png)
 
@@ -27,7 +27,7 @@ Analysis Workspace提供下列視覺化類型：
 | [長條圖](/help/analysis-workspace/visualizations/bar.md) | 顯示代表一或多個量度多個值的垂直長條。 |
 | [項目圖表](/help/analysis-workspace/visualizations/bullet-graph.md) | 顯示您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。 |
 | [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | *`cohort`* 是指一段指定時間內，共享相同特徵的一組人。世代分析對保留、流失或延遲分析非常有用。 |
-| [環形圖](/help/analysis-workspace/visualizations/donut.md) | 此視覺效果類似圓餅圖，以整體的部分或區段顯示資料。 |
+| [環形圖](/help/analysis-workspace/visualizations/donut.md) | 類似圓形圖，此視覺化將資料顯示為整體的部分或篩選器。 |
 | [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失報表可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。可設為最終或精確的序列 |
 | [流量](/help/analysis-workspace/visualizations/c-flow/flow.md) | 顯示客戶透過您網站和應用程式的確切路徑。 |
 | [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由表格不僅僅是資料表格，也是互動式視覺效果。它是工作區中資料分析的基礎。 |
@@ -39,7 +39,7 @@ Analysis Workspace提供下列視覺化類型：
 | [摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md) | 將所選儲存格之間的變更顯示為1個大數／百分比。 |
 | [文字](/help/analysis-workspace/visualizations/text.md) | 可讓您將使用者定義文字新增至「工作區」。除了運用面板／視覺化說明外，還有助於新增其他內容至您的分析和見解 |
 | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md) | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
-| [Venn](/help/analysis-workspace/visualizations/venn.md) | 使用社交圈來描述最多3個區段的量度重疊。 |
+| [Venn](/help/analysis-workspace/visualizations/venn.md) | 使用社交圈來描述最多3個篩選器的量度重疊。 |
 
 ## 設定 {#settings}
 
@@ -97,6 +97,6 @@ Analysis Workspace提供下列視覺化類型：
 
 ## 「建立視覺效果」圖示{#quick-viz}
 
-如果您不確定要選擇哪個視覺化，請按一下任何表格列（暫留時可用）中的&#x200B;**[!UICONTROL 「建立視覺化]**」圖示。 這是新增視覺化的最快方式。 按一下它會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您已選取1列，則會建立趨勢線圖。 如果已選取3個區段行，則會建立文氏圖。
+如果您不確定要選擇哪個視覺化，請按一下任何表格列（暫留時可用）中的&#x200B;**[!UICONTROL 「建立視覺化]**」圖示。 這是新增視覺化的最快方式。 按一下它會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您已選取1列，則會建立趨勢線圖。 如果已選取3個篩選列，則會建立文氏圖。
 
 ![](assets/quick-viz.png)
