@@ -1,14 +1,14 @@
 ---
 title: 建立資料檢視
 description: 說明如何在 Customer Journey Analytics (CJA) 中為 Platform 資料集建立資料檢視。
+exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 translation-type: tm+mt
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 97%
 
 ---
-
 
 # 建立資料檢視
 
@@ -43,7 +43,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 ## 新增元件
 
-1. 現在可以將元件 (維度、量度) 新增至資料檢視 (類似於虛擬報表套裝中的策劃體驗)。請注意，資料集中的每個欄位現在都會轉換為維度或量度。將維度和量度拖曳至面板，或按一下&#x200B;**[!UICONTROL 「全部選取」]**&#x200B;以新增所有元件。
+1. 現在是時候將元件（維度、量度）新增至資料檢視了。 請注意，資料集中的每個欄位現在都會轉換為維度或量度。將維度和量度拖曳至面板，或按一下&#x200B;**[!UICONTROL 「全部選取」]**&#x200B;以新增所有元件。
 
    ![](assets/add-all-components.png)
 
