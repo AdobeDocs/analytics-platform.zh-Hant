@@ -2,14 +2,14 @@
 description: 工作區中僅限檢視的專案
 keywords: 僅供檢視的專案
 title: 僅供檢視的專案
+exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
-
 
 # 僅供檢視的專案
 
@@ -26,7 +26,6 @@ ht-degree: 100%
 在僅限檢視專案中停用的互動功能包括：
 
 * 隱藏左側邊欄
-* 報表套裝
 * 面板日曆日期範圍。注意：如果您想要將日曆控制授權給收件者，請[將其新增至包含日期範圍的下拉式篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
 * 自由格式篩選
 * 可見列的自由格式編號
