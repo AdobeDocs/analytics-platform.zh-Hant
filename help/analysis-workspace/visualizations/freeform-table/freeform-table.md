@@ -1,14 +1,14 @@
 ---
 title: 自由表格
 description: 自由表格是 Analysis Workspace 中資料分析的基礎
+exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
-
 
 # 自由表格
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 自由表格產生器
 
-如果您偏好先將數個元件新增至表格，然後再轉譯資料，則可啟用「自由表格產生器」。啟用產生器後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立表格以供回答更複雜的問題。資料不會即時更新，但當您按一下&#x200B;**[!UICONTROL 「建立」]**，資料就會更新。
+如果您偏好先將數個元件新增至表格，然後再轉譯資料，則可啟用「自由表格產生器」。啟用建立工具後，您可以拖放許多維度、劃分、量度和篩選器，以建立可回答更複雜問題的表格。 資料不會即時更新，但當您按一下&#x200B;**[!UICONTROL 「建立」]**，資料就會更新。
 
 ![](assets/table-builder.png)
 
@@ -39,7 +39,7 @@ ht-degree: 100%
    * 您可以[篩選](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)列，以顯示縮減的項目集。[「列設定」](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html)底下提供其他設定。
 
 * **欄**
-   * 元件可堆疊在欄內，以建立分段量度、跨標籤分析等等。
+   * 元件可堆疊在欄內，以建立篩選的量度、跨標籤分析等。
    * [欄設定](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)底下可調整每個欄的檢視方式。
    * 您可善用[滑鼠右鍵功能表](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html)執行數個動作。無論是在表格標頭、列或欄上按一下，功能表都會提供不同動作。
 
