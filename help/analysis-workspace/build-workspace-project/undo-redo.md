@@ -3,10 +3,10 @@ description: 了解 Analysis Workspace 中的「還原」和「重做」選項�
 title: 還原和重做設定
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,6 @@ ht-degree: 100%
 * 全部清除
 * 時段
 * 貢獻分析
-* 區段比較
 * 專案名稱
 * 新增/移除視覺效果
 * 摺疊/展開面板或視覺效果
@@ -45,7 +44,7 @@ ht-degree: 100%
 * 自由右鍵選項
 * 選取
 * 視覺效果圖例選取
-* 新增區段至面板
+* 新增濾鏡至面板
 * 圖表中的視覺效果設定
 * 編輯圖例標籤
 * 魔術視覺效果
@@ -63,9 +62,9 @@ ht-degree: 100%
 
 * 專案資訊與設定變更 (「新增標記」、「描述」變更、「計算重複例項」設定)
 * 設定為登陸頁面
-* 新增 (區段/量度/日期範圍/警報)
+* 新增（篩選／量度／日期範圍／警報）
 * 共用專案、取得專案連結、傳送檔案 (立即或依排程)
-* 在「流量視覺效果」中建立此路徑的區段
+* 在流量視覺化中建立此路徑的篩選
 * 建立計算量度
 * 建立日期範圍
 
