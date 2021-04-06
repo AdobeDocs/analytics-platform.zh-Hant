@@ -1,20 +1,20 @@
 ---
 title: 同類群組分析是什麼？
 description: 瞭解 Analysis Workspace 中的同類群組分析
+exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 translation-type: tm+mt
-source-git-commit: ff1a11a18de0825b6338de98865e3bddeef14f39
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 97%
+ht-degree: 85%
 
 ---
 
-
 # 什麼是[!UICONTROL 同類群組分析]？
 
-*`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis)。)
+*`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://zh.wikipedia.org/wiki/Cohort_analysis)。)
 
-建立同類群組報表後，您可以組織其元件 (特定的維度、量度和區段)，接著將同類群組報表與他人共用。請參閱[組織與共用](/help/analysis-workspace/curate-share/curate.md)。
+建立同類群組報表後，您可以組織其元件（特定維度、量度和篩選器），然後與任何人共用同類群組報表。 請參閱[組織與共用](/help/analysis-workspace/curate-share/curate.md)。
 
 [!UICONTROL 同類群組分析]的用途範例：
 
@@ -26,13 +26,13 @@ ht-degree: 97%
 
 所有具有 [!UICONTROL Analysis Workspace] 存取權限的 Analytics 客戶，皆可使用[!UICONTROL 同類群組分析]。
 
-[世代分析教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[「同類群組分析」影片教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
 >[!UICONTROL 同類群組分析]
 >
->不支援無法設為區段的量度 (包括計算量度)、非整數量度 (例如收入) 或發生次數。只有可在區段中使用的量度，才可用於
+>不支援非篩選量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有篩選條件中可使用的量度可用於
 >[!UICONTROL 同類群組分析]，且只能以 1 為單位遞增。
 
 ## 同類群組分析功能
@@ -41,13 +41,13 @@ ht-degree: 97%
 
 ### [!UICONTROL 保留率表格]
 
-[!UICONTROL 保留率]同類群組報表會回傳訪客人數：每個資料儲存格分別顯示該同類群組中，在該時段內執行了動作的原始訪客數目和百分比。您可以包含最多 3 個量度和最多 10 個區段。
+[!UICONTROL 保留率]同類群組報表會回傳訪客人數：每個資料儲存格分別顯示該同類群組中，在該時段內執行了動作的原始訪客數目和百分比。您最多可包含3個量度和10個篩選器。
 
 ![](assets/retention-report.png)
 
 ### [!UICONTROL 流失率表格]
 
-[!UICONTROL 流失率]同類群組與保留率表格相反，會顯示在一段時間內離開或從未符合同類群組回傳條件的訪客。您可以包含最多 3 個量度和最多 10 個區段。
+[!UICONTROL 流失率]同類群組與保留率表格相反，會顯示在一段時間內離開或從未符合同類群組回傳條件的訪客。您最多可包含3個量度和10個篩選器。
 
 ![](assets/churn-report.png)
 
@@ -70,4 +70,3 @@ ht-degree: 97%
 ![](assets/cohort-customizable-cohort-row.png)
 
 如需如何設定和執行同類群組報表的指示，請前往[設定同類群組分析報表](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
-
