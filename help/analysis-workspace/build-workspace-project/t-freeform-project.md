@@ -3,7 +3,7 @@ description: 建立專案並新增元件 (維度、量度、區段和日期範�
 keywords: Analysis Workspace
 title: 建立 Analysis Workspace 專案
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -124,9 +124,9 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-**[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
+**[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-「[!UICONTROL 視覺效果]」面板提供標準的 Analytics 圖形、圖表、環圈圖、資料表格、[同類群組](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)表格、Venn 圖表等等。您可以拖放多個視覺效果至專案。
+「[!UICONTROL 視覺效果]」面板提供標準的 Analytics 圖形、圖表、環圈圖、資料表格、[同類群組](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)表格、Venn 圖表等等。您可以拖放多個視覺效果至專案。
 
 ![步驟結果](assets/visualizations.png)
 
@@ -149,11 +149,11 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 新增時段欄</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 新增時段欄</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 比較時段</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 比較時段</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ ht-degree: 100%
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > 劃分</a> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > 劃分</a> 
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">維度 </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">量度 </li> 
@@ -179,23 +179,23 @@ ht-degree: 100%
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 視覺化</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 視覺化</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  > 下載為 CSV</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/curate-share/download-send.md"  > 下載為 CSV</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/home.md"  > 趨勢選取範圍</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/home.md"  > 趨勢選取範圍</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 從選取項目建立區段</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > 從選取項目建立區段</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > 在區段比較中執行</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > 在區段比較中執行</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -209,4 +209,4 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-請參閱 [Analysis Workspace 可用的鍵盤和滑鼠互動](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，以獲得複製和選取行的相關資訊。
+請參閱 [Analysis Workspace 可用的鍵盤和滑鼠互動](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，以獲得複製和選取行的相關資訊。
