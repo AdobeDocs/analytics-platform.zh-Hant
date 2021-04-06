@@ -1,23 +1,23 @@
 ---
-description: Venn 視覺效果可讓您拖曳至最多 3 個區段 (從「元件」) 及一個量度來建立 Venn 圖表。
+description: 「文氏圖」視覺化可讓您拖曳最多3個篩選器（來自元件）和一個度量，以建立文氏圖。
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
+exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 100%
+ht-degree: 48%
 
 ---
 
-
 # 文
 
-Venn 視覺效果可讓您拖曳至最多 3 個區段 (從「元件」) 及一個量度來建立 Venn 圖表。
+「文氏圖」視覺化可讓您拖曳最多3個篩選器（來自元件）和一個度量，以建立文氏圖。
 
 ![](assets/venn.png)
 
-然後您可以在區段上暫留以取得更多百分比等的前瞻分析。
+然後，您可以將滑鼠指標暫留在篩選器上，以取得更深入的百分比分析等。
 
 ![](assets/venn_hover.png)
 
@@ -26,4 +26,3 @@ Venn 視覺效果可讓您拖曳至最多 3 個區段 (從「元件」) 及一�
 若要標準化 Venn 圖表 (將大小移除)，請前往其「視覺效果設定」圖示並選取&#x200B;**[!UICONTROL 「標準化」]**。
 
 ![](assets/normalization.png)
-
