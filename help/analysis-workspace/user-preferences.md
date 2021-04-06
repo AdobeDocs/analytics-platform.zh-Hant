@@ -1,14 +1,14 @@
 ---
 title: 如何設定 Analysis Workspace 內的用戶偏好設定
 description: 您可以設定用戶的一般和專案偏好設定。
-translation-type: ht
-source-git-commit: c315339265facd7bd76f7d0c43c32ed394b53c5d
-workflow-type: ht
-source-wordcount: '216'
+exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
+translation-type: tm+mt
+source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+workflow-type: tm+mt
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
-
 
 # 用戶偏好設定
 
@@ -39,7 +39,6 @@ ht-degree: 100%
 |  | [檢視密度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density.html?lang=zh-Hant) | <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
 |  | [調色盤](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | <ul><li>Adobe 提供的調色盤 (預設)</li><li>自訂界定的調色盤</li></ul> |
 | **資料** |  |  |
-|  | [報表套裝](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=zh-Hant?#report-suite) | <ul><li>最近使用 (預設)</li><li>特定 - 已從清單中選擇</li></ul> |
 |  | [日曆](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=zh-Hant?#calendar) | 現成日期範圍清單，包含 **[!UICONTROL 本月份]** (預設) |
 |  | [面板類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=zh-Hant) | <ul><li>自由形式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
 |  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
