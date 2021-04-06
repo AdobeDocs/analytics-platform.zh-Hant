@@ -3,9 +3,9 @@ description: 了解 Analysis Workspace 中的「還原」和「重做」選項�
 title: 還原和重做設定
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 100%
 
 * **[!UICONTROL 「新增專案」]**&#x200B;或&#x200B;**[!UICONTROL 「開啟現有的專案」]**&#x200B;會清除&#x200B;**[!UICONTROL 「還原」]**&#x200B;堆疊
 
-* 您可以還原/重做對於報表套裝的變更。
 * 專案名稱附近會顯示還原/重做訊息，其中會顯示進行中的還原或重做動作時間。
 * 您可以使用以下[快捷鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)：
 
@@ -36,7 +35,6 @@ ht-degree: 100%
 * 貢獻分析
 * 區段比較
 * 專案名稱
-* 報表套裝選取
 * 新增/移除視覺效果
 * 摺疊/展開面板或視覺效果
 * 使用快捷鍵 (Ctrl [Cmd] + Z 為還原)、(Ctrl [Cmd] + Shift + Z 為重做) 插入
