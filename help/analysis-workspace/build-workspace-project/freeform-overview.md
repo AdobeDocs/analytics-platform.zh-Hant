@@ -5,10 +5,10 @@ title: 專案概觀
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: 18a76c92e37cf515dd02ebcebcc8d5e9d70a3ec0
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 94%
+source-wordcount: '1165'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 | 元素 | 說明 |
 |---|---|
-| [建立新專案](/help/analysis-workspace/home.md) | 按一下這個連結，即可從頭開始新專案，或是根據為您建立的[範本](/help/analysis-workspace/build-workspace-project/starter-projects.md)開始新專案。 |
+| [建立新專案](/help/analysis-workspace/home.md) | 按一下此連結即可從頭開始建立新的專案。 |
 | 管理專案 | 按一下此連結即可將您導向「專案元件管理員」(**[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 專案]**」)，它會列出您的所有專案，並讓您標記、共用、刪除、重新命名、核准、複製，以及將專案匯出為 CSV。 |
 | 設定為登陸頁面 | 將此頁面變成您的 Workspace 登陸頁面。 |
 | [觀看教學課程](/help/analysis-workspace/home.md) | 帶您前往 Analysis Workspace 教學影片。 |
@@ -47,12 +47,12 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 | 選單項目 | 說明 |
 |---|---|
-| 專案 | 包含專案管理的常見操作，例如新增、開啟、儲存、另存新檔和[另存範本](/help/analysis-workspace/build-workspace-project/starter-projects.md)等。您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。「[下載 CSV 和 PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant)」選項可讓您從 Workspace 匯出資料。「[專案資訊和設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=zh-Hant?#info-settings)」提供管理專案的多個選項。 |
+| 專案 | 包含專案管理的常見操作，例如新增、開啟、儲存、另存新檔和另存範本等。您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。「[下載 CSV 和 PDF](/help/analysis-workspace/curate-share/download-send.md)」選項可讓您從 Workspace 匯出資料。**「專案資訊與設定** 」（請參閱下方）提供許多管理專案的選項。 |
 | 編輯 | 還原或重做您的上一個操作。「全部清除」會將您的專案重設為空白起點。 |
 | 插入 | 從此選單插入新面板或視覺效果。您也可以從左側欄插入新面板和視覺效果。 |
-| [元件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hant) | 從您的專案建立新區段、計算量度、日期範圍或警報元件。您也可以從左側欄建立新元件。如果您的元件定義在最近有了變更，「重新整理元件」將會擷取最新的定義。 |
-| [共用](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html?lang=zh-Hant) | 策劃、共用及排程 PDF/CSV 專案給貴組織中的收件者。 |
-| 說明 | 存取線上文件、影片及 Analytics [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)。管理 Workspace 秘訣及[偵錯工具](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)的可見度。尋找有關 Workspace 及影響專案[效能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=zh-Hant)之因素的詳細資訊。 |
+| [元件](/help/components/overview.md) | 從專案建立新的篩選、計算量度、日期範圍或警報元件。 您也可以從左側欄建立新元件。如果您的元件定義在最近有了變更，「重新整理元件」將會擷取最新的定義。 |
+| [共用](/help/analysis-workspace/curate-share/send-schedule-files.md) | 組織PDF/CSV專案，並與組織中的收件者共用和排程。 |
+| 說明 | 存取線上文件、影片及 Analytics [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)。管理 Workspace 秘訣及[偵錯工具](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)的可見度。尋找有關 Workspace 及影響專案[效能](/help/analysis-workspace/workspace-faq/optimizing-performance.md)之因素的詳細資訊。 |
 | 「共用」按鈕或擁有者 | 如果您是專案的擁有者或編輯者，右上方的「共用」按鈕為您提供管理專案收件者的單鍵存取權。如果您擁有專案的複製或檢視角色，您將會看到專案擁有者的名稱。 |
 
 ### 專案資訊和設定 {#info-settings}
@@ -106,7 +106,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 | 動作 | 說明 |
 |---|---|
-| 新增 | 從頭開始建立新專案，或是從[範本](/help/analysis-workspace/build-workspace-project/starter-projects.md)開始新專案。 |
+| 新增 | 從頭開始建立新專案。 |
 | 標記或核准 | 選擇「標記」或「核准」來組織您的專案，並使其更容易搜尋。 |
 | [共用](/help/analysis-workspace/curate-share/share-projects.md) | 將專案提供給貴組織中的其他 Analysis Workspace 用戶使用。 |
 | 刪除 | 刪除您的專案。 |
