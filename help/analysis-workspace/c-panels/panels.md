@@ -1,18 +1,18 @@
 ---
 description: 面板是表格和視覺化的集合
 title: 面板概述
+exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 8%
 
 ---
 
-
 # 面板概述
 
-[!UICONTROL 面板]是表格和視覺化的集合。 您可以從工作區的左上角圖示或[空白麵板](/help/analysis-workspace/c-panels/blank-panel.md)存取面板。 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。 Analysis Workspace提供下列面板類型：
+[!UICONTROL 面板]是表格和視覺化的集合。 您可以從工作區的左上角圖示或[空白麵板](/help/analysis-workspace/c-panels/blank-panel.md)存取面板。 當您想要根據時段、資料檢視或分析使用案例來組織專案時，面板會很有幫助。 Analysis Workspace提供下列面板類型：
 
 | 面板名稱 | 說明 |
 | --- | --- |
