@@ -2,9 +2,9 @@
 description: 瞭解如何在 Analysis Workspace 中建立任何量度的視覺化地圖。
 title: 地圖
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Analysis Workspace 中的地圖視覺效果
 
 * 可讓您建立任何量度 (包括計算量度) 的視覺化地圖。
 * 相當實用，可辨識和比較不同地理區域之間的量度資料。
-* 可支援 2 項資料來源：行動裝置使用的經緯度、或網頁使用的地理維度。
+* 可支援 2 項資料來源：行動裝置使用的經緯度，或網頁使用的地理維度。
 * 支援 PDF 匯出。
 * 針對圖形顯示使用 WebGL。如果您的顯示卡驅動程式不支援 WebGL 轉譯，您可能需要更新驅動程式。
 
@@ -30,19 +30,6 @@ Analysis Workspace 中的地圖視覺效果
 
 1. 從量度清單拖曳量度 (包括計算量度)。
 1. 指定您要提取的資料來源(只有為行動應用程式資料啟用「位置追蹤」後，系統才會顯示此對話方塊)。
-
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>行動裝置緯度/經度</b> </p> </td> 
-   <td colname="col2"> <p>此選項代表行動應用程式資料。 </p> <p>唯有在<span class="ignoretag"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">&lt;選取報表套裝&gt;</span> &gt; <span class="uicontrol">編輯設定</span> &gt; <span class="uicontrol">行動管理</span> &gt; <span class="uicontrol">啟用位置追蹤」</span></span>為報表套裝啟用此選項，系統才會顯示此選項。 </p> <p>這是預設設定 (如果已啟用位置追蹤)。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>地理維度</b> </p> </td> 
-   <td colname="col2"> <p>此選項代表有關訪客位置的地域劃分資料 (根據訪客 IP 位址)。此資料可轉換為國家、地區和城市。請注意，此資料不會深入至 DMA 或郵遞區號的層級。 </p> <p>幾乎所有報表套裝都會啟用這個維度。如果您尚未啟用，請聯絡 Adobe 客戶服務，以啟用地理報表。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
 
