@@ -3,10 +3,10 @@ title: 建立資料檢視
 description: 說明如何在 Customer Journey Analytics (CJA) 中為 Platform 資料集建立資料檢視。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 97%
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
@@ -35,9 +35,9 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
    | 說明 | 詳細說明非必填，但建議使用。 |
    | 新增標記 | 標記可用來將資料檢視整理到不同類別中。 |
    | 時區 | 選擇資料檢視的時區。 |
-   | 工作階段逾時 | 選取「工作階段」的定義。工作階段逾時設定用於定義自動開始新工作階段之前，獨特訪客必須達到的閒置時間。已預設為 30 分鐘。例如，若您將工作階段逾時設為 45 分鐘，系統便會針對收集到的各點擊順序建立新的工作階段分組，並按照 45 分鐘閒置時間加以區隔。<!--This setting impacts not only your visit counts, but also how visit segment containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
-   | 開始事件的新工作階段 | 不論作業階段是否已逾期，事件觸發時就會開始新的工作階段。新建立的工作階段將會包含啟動的事件。此外，您可以使用多個事件來啟動工作階段，如果資料中觀察到其中一個事件，就會觸發新的工作階段。此設定將會影響您的造訪計數、「工作階段」 (先前稱為「造訪」) 區段容器以及維度的造訪過期邏輯。 |
-   | 新增篩選器 | 「篩選器」是 Customer Journey Analytics 中代表「區段」的詞彙。如果您希望篩選資料，請從左側邊欄拖曳適當的篩選器。如果沒有選取篩選器，資料檢視將會包含您的所有資料。 |
+   | 工作階段逾時 | 選取「工作階段」的定義。工作階段逾時設定用於定義自動開始新工作階段之前，獨特訪客必須達到的閒置時間。已預設為 30 分鐘。例如，若您將工作階段逾時設為 45 分鐘，系統便會針對收集到的各點擊順序建立新的工作階段分組，並按照 45 分鐘閒置時間加以區隔。<!--This setting impacts not only your visit counts, but also how visit filter containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the session timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. This needs to be reviewed.--> |
+   | 開始事件的新工作階段 | 不論作業階段是否已逾期，事件觸發時就會開始新的工作階段。新建立的工作階段將會包含啟動的事件。此外，您可以使用多個事件來啟動工作階段，如果資料中觀察到其中一個事件，就會觸發新的工作階段。此設定會影響您的瀏覽計數、作業階段（先前稱為瀏覽）篩選容器，以及維度的瀏覽過期邏輯。 |
+   | 新增篩選器 | 如果您希望篩選資料，請從左側邊欄拖曳適當的篩選器。如果沒有選取篩選器，資料檢視將會包含您的所有資料。 |
 
 1. 按一下&#x200B;**[!UICONTROL 「繼續」]**。
 
