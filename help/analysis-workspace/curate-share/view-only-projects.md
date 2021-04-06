@@ -4,10 +4,10 @@ keywords: 僅供檢視的專案
 title: 僅供檢視的專案
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 * 自由格式篩選
 * 可見列的自由格式編號
 * 自由格式列、欄或視覺效果設定
-* 面板區段
+* 面板濾鏡
 * 編輯、插入和元件功能表
 * 工作區提示
 
