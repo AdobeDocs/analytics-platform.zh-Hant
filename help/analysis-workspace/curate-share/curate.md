@@ -4,16 +4,16 @@ keywords: Analysis Workspace組織
 title: 組織專案
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 47%
+ht-degree: 44%
 
 ---
 
 # 組織專案
 
-組織可讓您在共用專案前先限制元件 (維度、量度、區段、日期範圍)。收件者在開啟專案時，將會看到您為其組織的限定元件集。組織是可選作業，但建議您在共用專案前先執行此步驟。
+組織可讓您在共用專案前先限制元件（維度、量度、篩選器、日期範圍）。 收件者在開啟專案時，將會看到您為其組織的限定元件集。組織是可選作業，但建議您在共用專案前先執行此步驟。
 
 >[!NOTE]
 > 產品設定檔為管理哪些元件可向使用者顯示的主要機制。它們通過[Adobe Experience CloudAdmin Console](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html)進行管理。 組織為次要的篩選器。
