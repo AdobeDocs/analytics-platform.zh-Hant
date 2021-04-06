@@ -1,14 +1,14 @@
 ---
 description: 您可以組織、共用和排程PDF/CSV專案給組織中的收件者。
 title: 共用功能表
+exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 83%
+ht-degree: 78%
 
 ---
-
 
 # 共用功能表
 
@@ -24,4 +24,4 @@ ht-degree: 83%
 | [!UICONTROL 取得專案連結] | 建立分享連結以快速存取專案。使用者必須登入。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) |
 | [!UICONTROL 立即傳送檔案] | 立即將專案以 CSV 或 PDF 格式傳送給指定的收件者。 |
 | [!UICONTROL 依排程傳送檔案] | 依排程將專案以 CSV 或 PDF 格式傳送給指定的收件者。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html) |
-| [!UICONTROL 組織專案資料] | 限制專案中可用的元件 (維度、量度、區段、日期範圍)。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate.html) |
+| [!UICONTROL 組織專案資料] | 限制專案中可用的元件（維度、量度、篩選、日期範圍）。 [深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate.html) |
