@@ -3,10 +3,10 @@ description: 工作區常見問答集和疑難排解提示。
 title: 常見問題集
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
 translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 84%
+ht-degree: 78%
 
 ---
 
@@ -34,6 +34,6 @@ ht-degree: 84%
 
 如果您成功建立了工作區報表，但當中沒有任何資料，建議您檢查以下幾個事項：
 
-* 如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。請嘗試移除區段或調整區段定義。
+* 如果您在報表中套用篩選，篩選條件可能不符合任何資料。 請嘗試移除篩選或調整篩選定義。
 * 檢查右上角的日期範圍，確認已設為您預期的值。
 * 導覽至您的網站，使用[除錯工具](https://docs.adobe.com/content/help/zh-Hant/debugger/using/experience-cloud-debugger.html)驗證資料正在收集中。
