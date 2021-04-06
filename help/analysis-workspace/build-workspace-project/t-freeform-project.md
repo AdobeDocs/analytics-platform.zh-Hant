@@ -3,17 +3,17 @@ description: 建立專案並新增元件 (維度、量度、區段和日期範�
 keywords: Analysis Workspace
 title: 建立 Analysis Workspace 專案
 translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '672'
+ht-degree: 95%
 
 ---
 
 
 # 建立 Analysis Workspace 專案
 
-建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
+建立專案並新增元件（維度、量度、篩選器、日期範圍）至自由面板。
 
 本文將帶您了解「Analysis Workspace」介面元素，並說明如何建立專案。
 
@@ -36,8 +36,7 @@ ht-degree: 100%
    您可以選擇從以下來源建立專案
 
 * 空白專案 (預設)。如需指示，請參閱以下內容。
-* 標準範本。這些範本皆由 Adobe 建立且出廠即提供。如需指示，請參閱[範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
-* 自訂範本。這些範本是由擁有管理員權限的使用者所建立。如需指示，請參閱[範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* 自訂範本。這些範本是由擁有管理員權限的使用者所建立。
 
    ![](assets/start_modal.png)
 
@@ -49,10 +48,6 @@ ht-degree: 100%
    接著會出現空白專案，其中顯示自由面板和資料表格視覺效果。
 
    ![](assets/fa_project_new.png)
-
-   >[!NOTE]
-   >
-   >有時，系統在載入專案 (或切換到報表套裝) 時會顯示「不相容的報表套裝」訊息，這是因為並非所有元件 (量度/維度) 都包含在報表套裝中。您可以看到不相容的元件清單，得知收到這類訊息的原因。
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -89,7 +84,7 @@ ht-degree: 100%
    >
    >在您複製/另存新檔後，內部連結與其所在專案為相對關係，已非原本複製的原始專案。
 
-## 新增元件與視覺效果 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
+## 新增元件和視覺化{#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
 1. 將 *`components`* 和 *`visualizations`* 拖曳到專案中，藉此建立您的專案。
 
@@ -134,7 +129,7 @@ ht-degree: 100%
 
 1. 步驟
 
-## 使用滑鼠右鍵功能表可自訂您的資料 {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
+## 使用右鍵功能表自訂資料{#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
 滑鼠右鍵功能表可讓您執行下列動作，視您在表格中按下滑鼠右鍵的儲存格而定。
 
@@ -173,7 +168,7 @@ ht-degree: 100%
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">維度 </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">量度 </li> 
-     <li id="li_0405D339CD01405DB508A7D8D1A976B4">區段 </li> 
+     <li id="li_0405D339CD01405DB508A7D8D1A976B4">篩選條件 </li> 
      <li id="li_819CE81C552F49BB9C1B83ED3B42C5F7">時間 </li> 
     </ul> </td> 
    <td colname="col2"> </td> 
@@ -191,7 +186,7 @@ ht-degree: 100%
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > 從選取項目建立區段</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > 從選取項目建立篩選條件</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
