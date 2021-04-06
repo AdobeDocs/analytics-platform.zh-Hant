@@ -1,15 +1,15 @@
 ---
-description: 您可以從接觸點建立區段、新增區段做為接觸點，以及在 Analysis Workspace 的各種區段間比較關鍵工作流程。
-keywords: 流失和分段, 流失分析中的區段, 比較流失中的區段
+description: 您可以從觸點建立篩選器、新增篩選器作為觸點，並比較Analysis Workspace各種篩選器的關鍵工作流程。
+keywords: 流失和篩選；流失分析中的篩選；流失分析中的比較篩選
 title: 在流失分析中套用篩選器
+exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 translation-type: tm+mt
-source-git-commit: ab1ea4c75c4c28f196c6793a819ce4dbe656d52c
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 25%
+ht-degree: 15%
 
 ---
-
 
 # 在流失分析中套用篩選器
 
@@ -17,11 +17,11 @@ ht-degree: 25%
 >
 >您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
-您可以從觸點建立篩選器、新增區段作為觸點，並比較Analysis Workspace不同篩選器的關鍵工作流程。
+您可以從觸點建立篩選器、新增篩選器作為觸點，並比較Analysis Workspace各種篩選器的關鍵工作流程。
 
 >[!IMPORTANT]
 >
->「流失」中用作查核點的篩選器，必須使用低於「流失」視覺化整體內容的容器。 使用訪客內容流失時，用作查核點的篩選必須是瀏覽或點擊型篩選。 使用瀏覽內容流失時，用作查核點的篩選器必須是點擊型區段。 如果使用無效的組合，流失率會計為 100%。我們已新增警告至「流失」視覺化，當您新增不相容的篩選器作為觸點時，將會顯示此警告。 某些無效的篩選容器組合會導致無效的流失圖，例如：
+>「流失」中用作查核點的篩選器，必須使用低於「流失」視覺化整體內容的容器。 使用訪客內容流失時，用作查核點的篩選必須是瀏覽或點擊型篩選。 使用瀏覽內容流失時，用作查核點的篩選器必須是點擊型篩選器。 如果使用無效的組合，流失率會計為 100%。我們已新增警告至「流失」視覺化，當您新增不相容的篩選器作為觸點時，將會顯示此警告。 某些無效的篩選容器組合會導致無效的流失圖，例如：
 
 * 在訪客內容流失視覺化內使用訪客型篩選作為觸點
 * 在瀏覽內容流失視覺化中使用訪客型篩選作為觸點
@@ -53,7 +53,7 @@ ht-degree: 25%
 
 您可以比較「流失」視覺化中不限數量的篩選器。
 
-1. 從左側的[!UICONTROL Filter]邊欄中，選取您要比較的區段。 在我們的範例中，已選取 2 個區段：美國使用者和非美國使用者。
+1. 從左側的[!UICONTROL Filter]邊欄中，選取您要比較的篩選。 在我們的範例中，我們選取了2個篩選器：美國使用者和非美國使用者。
 1. 將它們拖曳至頂端的「篩選」拖放區域。
 
    ![](assets/segment-drop.png)
