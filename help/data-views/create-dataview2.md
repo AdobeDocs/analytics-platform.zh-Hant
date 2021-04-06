@@ -3,9 +3,9 @@ title: 如何在Customer Journey Analytics中建立新的資料檢視。
 description: 說明建立新資料檢視所需的所有設定。
 exl-id: 35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: 3c5cd2aa571d99b4c04aaf24b86d5e64fc8acec6
+source-git-commit: c021892119cbebccaa49e5c04fd7cc7450cce8c6
 workflow-type: tm+mt
-source-wordcount: '2813'
+source-wordcount: '2814'
 ht-degree: 11%
 
 ---
