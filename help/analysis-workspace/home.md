@@ -2,14 +2,14 @@
 keywords: Analysis Workspace
 title: Analysis Workspace 概述
 description: Analysis Workspace 功能概述
+exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
-
 
 # Analysis Workspace 概述
 
@@ -40,8 +40,6 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 結束教學課程後，您就能開始建立第一個專案。開始建立分析時，**新專案模式**&#x200B;會提供各種選項。您可以思考是要透過瀏覽器或 Adobe Analytics 控制面板行動應用程式共用分析，據以選擇開啟空白專案或[空白行動記分卡](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/curator.translate.html)。
 
 ![](assets/create-new-project.png)
-
-此外，預先建立的&#x200B;**範本** (包括 Adobe 提供的標準範本或貴組織建立的自訂範本) 也是您開始建立分析的理想選擇。您可以依據分析類型或其用途，從多種範本中挑選合適的範本使用。[深入了解](/help/analysis-workspace/build-workspace-project/starter-projects.md)不同的範本選項。
 
 ## 建立分析 {#analysis}
 
