@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics 概觀
 description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
+exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 translation-type: tm+mt
-source-git-commit: 0f5e9c117f12ef070733df032b078ad70ce7c52b
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 97%
+source-wordcount: '1217'
+ht-degree: 95%
 
 ---
-
 
 # Customer Journey Analytics 概觀
 
@@ -19,7 +19,7 @@ Customer Journey Analytics 是 Analytics 的功能，讓您可搭配 Adobe Exper
 Customer Journey Analytics 提供簡單易用的跨管道功能，並移除舊版 Adobe Analytics 的限制，進一步擴展 Analytics 的應用範圍。幾個值得注意的改善項目如下：
 
 * **不限數量的變數和事件**：eVar、prop 和事件的概念已不存在。資料主要聚焦於維度和量度。資料集可以有不限數量的不重複維度和量度。
-* **不限數量的不重複值**：Adobe Experience Platform 不受限於任何不重複限制，例如傳統報表套裝中的 50 萬個不重複特值。
+* **不限數量的唯一值**:Adobe Experience Platform不受任何獨特限制。
 * **變更歷史資料**：您可以使用 Adobe Experience Platform 移除或修正資料。
 * **跨報表套裝資料**：可在 Platform 中結合來自多個資料集的現有實作。
 
@@ -74,7 +74,7 @@ Customer Journey Analytics 中，產品管理員以外的使用者無法查看�
 與傳統 Adobe Analytics 相比，CJA 中的數項功能已重新命名，以符合業界標準。一些更新的術語包括：
 
 * 區段現在稱為「篩選器」。
-* 虛擬報表套裝現在稱為「檢視」。
+* 虛擬報表套裝現在稱為「資料檢視」。
 * 分類現在稱為「查找資料集」。
 * 客戶屬性現在稱為「設定檔資料集」。
 * 點擊容器現在稱為「事件」容器。
