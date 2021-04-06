@@ -3,9 +3,9 @@ title: 歸因常見問題集
 description: 取得歸因相關常見問題的解答。
 exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
 translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 88%
 
 ---
@@ -53,4 +53,4 @@ ht-degree: 88%
 
 **歸因如何與篩選器搭配運作？**
 
-歸因一律會在篩選前執行，而區段會在套用任何其他報表篩選前執行。
+歸因一律會在篩選前執行，而全域篩選會在套用其他報表篩選前執行。
