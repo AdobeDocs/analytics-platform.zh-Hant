@@ -1,14 +1,14 @@
 ---
 title: 計算量度概觀
-description: '瞭解 '
+description: 瞭解
+exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 translation-type: tm+mt
-source-git-commit: c1f5048e33d52a71db9811c22f49c237ac583817
+source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 82%
+source-wordcount: '484'
+ht-degree: 81%
 
 ---
-
 
 # 計算量度概觀
 
@@ -16,12 +16,11 @@ ht-degree: 82%
 >
 >您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
 
-計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。無論您是行銷人員、產品經理或分析人員，不需變更 [!DNL Analytics] 實施就能詢問資料相關問題。
+計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。無論您是行銷人員、產品經理或分析人員，不需變更  實施就能詢問資料相關問題。
 
 您可以
 
-* [無須變更實施](https://youtu.be/CuQTm9RaUpY)，即可建立衍生自報表執行時間的篩選量度。因為這些量度的根據是篩選器，所以可查看其歷史資料。
-* 在報表套裝間共用量度。這表示所有新建立的量度都會套用至相同登入公司的所有報表套裝。
+* 無須變更實施，即可建立衍生自報表執行時間的篩選量度。因為這些量度的根據是篩選器，所以可查看其歷史資料。
 * (僅限進階計算量度) 量度上的篩選器。例如，您可以建立「新訪客」的量度，計算這是他們第一次工作階段的人員數量。
 * (僅限進階計算量度) 納入統計函數以協助您說明資料。例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
 
