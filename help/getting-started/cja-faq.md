@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics 常見問題集
 description: Customer Journey Analytics - 常見問題集。
+exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 translation-type: tm+mt
-source-git-commit: 65b51ff6a792a0407d8c73794c1bab4a6e3f0fa1
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
-
 
 # 常見問題集
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 | --- | --- |
 | 我可以合併同一個 [!UICONTROL Customer Journey Analytics] 連線中不同 [!UICONTROL Adobe Experience Platform] 沙箱的資料嗎？ | 不可以，您無法一次存取多個沙箱內的資料，只能合併同一個沙箱中的資料集。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets) |
 | [!UICONTROL Adobe Experience Platform] 上 [!UICONTROL Customer Journey Analytics] 的延遲時間預計會多久？ | <ul><li>正常負載下：小於 60 分鐘&#x200B;<br>**注意：**&#x200B;如果通過管道的資料流量特別多，則最多可能需要 24 小時。</li><li>回填資料 (無論大小，最多 13 個月的資料)：小於 4 週</li></ul> |
-| 如何在 [!UICONTROL Customer Journey Analytics] 中將線上資料連結至離線資料？ | [!UICONTROL Customer Journey Analytics] 是「自攜 ID」的分析系統。只要人員 ID 在資料集之間相符，[!UICONTROL Customer Journey Analytics] 就可以在資料集之間連結區段、歸因、流量、流失等等。 |
+| 如何在 [!UICONTROL Customer Journey Analytics] 中將線上資料連結至離線資料？ | [!UICONTROL Customer Journey Analytics] 是「自攜 ID」的分析系統。只要人員ID在資料集之間相符，[!UICONTROL Customer Journey Analytics]就可以連接篩選、歸因、流量、流失等。 。 |
 | 如何將離線資料帶入 [!UICONTROL Customer Journey Analytics]？ | 您必須先將資料帶入 Experience Platform，才能透過 [!UICONTROL Customer Journey Analytics] 使用。如有需要，Experience Platform 的資料入門團隊可為您提供建議或諮詢。 |
 | 如何將 [!UICONTROL Adobe Analytics] 資料帶入 [!UICONTROL Customer Journey Analytics]？ | 您可透過 [Adobe Analytics Source Connector](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sources/connectors/adobe-applications/analytics.html)，將 [!UICONTROL Adobe Analytics] 資料連結至 Experience Platform。大部分的 [!UICONTROL Adobe Analytics] 欄位都會以 XDM 格式帶入，但其他欄位尚未開放使用 (例如[!UICONTROL 「行銷管道」]維度)。 |
 | 將資料集元素組合成資料檢視需要多久時間？ | 需要數小時以開始使用，並且需要數天的時間來回填過去 13 個月的資料。 |
@@ -44,7 +44,7 @@ ht-degree: 100%
 | 問題 | 回答 |
 | --- | --- |
 | 這對舊版的 [!UICONTROL Adobe Analytics] 產品有何意義？ | [!UICONTROL Customer Journey Analytics 是我們新一代的分析產品。]從我們目前的產品改用 [!UICONTROL Customer Journey Analytics] 需要數年時間，且需大量的協調工作。如需詳細資訊，請參閱 [Customer Journey Analytics 功能支援](/help/getting-started/cja-aa.md)。 |
-| 我可不可以將區段從 [!UICONTROL Customer Journey Analytics] 分享至 AEP 或其他解決方案？ | 還不可以。我們正在研究新的創新方法，以便能在日後將區段從 [!UICONTROL Customer Journey Analytics] 分享至 AEP，同時縮短延遲時間。也就是說，您可以將 Query Service 的輸出分享至整合設定檔，作為可能的因應措施。 |
+| 我可以將[!UICONTROL Customer Journey Analytics]的濾鏡共用到AEP或其他解決方案嗎？ | 還不可以。我們正在尋找新的創新方式，來在未來共用從[!UICONTROL Customer Journey Analytics]到AEP的濾鏡，而不會有這麼長的延遲。 也就是說，您可以將 Query Service 的輸出分享至整合設定檔，作為可能的因應措施。 |
 | 我的舊 eVar 設定有什麼改變？ | [!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 eVar、prop 和事件。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。 |
 | 我所有的工作階段和變數持續性設定現在位於何處？ | [!UICONTROL Customer Journey Analytics 會在報告時套用這些設定，而這些設定現在會顯示於「資料檢視」。]這些設定的變更現在可回溯，使用多個「資料檢視」即可擁有多個版本！ |
 | 我們現有的區段/計算量度有何改變？ | [!UICONTROL Customer Journey Analytics 不再使用 eVar、prop 或事件，而是使用 AEP 結構。]換句話說，現有的區段或計算量度都會與 [!UICONTROL Customer Journey Analytics] 不相容。 |
