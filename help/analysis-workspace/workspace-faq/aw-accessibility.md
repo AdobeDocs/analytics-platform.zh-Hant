@@ -1,14 +1,14 @@
 ---
 description: Analysis Workspace 的協助工具支援功能
 title: Analysis Workspace 的協助工具
+exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 translation-type: tm+mt
-source-git-commit: e004a2a8ec24113ae8b62a9d30c10fe0eb763460
+source-git-commit: 76260b7362396c76942dadab599607cd038ed651
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
-
 
 # Analysis Workspace 的協助工具
 
@@ -67,9 +67,9 @@ ht-degree: 82%
 | Alt + 1 | 新增自由表格 |
 | Ctrl + Shift + C | 新增計算量度 |
 | Ctrl + Shift + D | 新增日期範圍 |
-| Ctrl + Shift + E | 新增區段 |
+| Ctrl + Shift + E | 新增篩選條件 |
 | Ctrl + Z | 還原 |
-| 按住 Shift 鍵 (在面板區段放置區中) | 建立[下拉式篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
+| 按住Shift鍵（在面板濾鏡拖放區中） | 建立[下拉式篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### 加速
 
