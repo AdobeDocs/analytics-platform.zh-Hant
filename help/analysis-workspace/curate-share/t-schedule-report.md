@@ -2,14 +2,14 @@
 description: 透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。
 keywords: Analysis Workspace
 title: 為專案排程
+exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 translation-type: tm+mt
-source-git-commit: a991dce6abaf90cbca06de75606a2517cb5b6484
+source-git-commit: 5f9dc79e666303165f07fd203e29a3daf478e980
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
-
 
 # 為專案排程
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 1. 按一下&#x200B;**立即傳送**。
 1. (選用) 按一下&#x200B;**「顯示排程選項」**，以指定傳送排程。
 
-![立即傳送檔案](assets/send-file-now.png)
+![立即傳送檔案](assets/send-file-no-scheduling-options.JPG)
 
 ## 依排程傳送檔案
 
@@ -44,15 +44,13 @@ ht-degree: 100%
 1. 指定傳送頻率。每個頻率都允許不同的自訂內容。
 1. 按一下&#x200B;**「依排程傳送」**。
 
-![](assets/send-on-schedule.png)
+![](assets/send-file.JPG)
 
 ## 排程專案管理員
 
 可在&#x200B;**「Analytics > 元件 > 已排程專案」**&#x200B;中管理已排程 Analysis Workspace 專案。
 
 在「排程專案管理員」中，您可以編輯和刪除周期性專案排程。在搜尋列中或使用左側邊欄中的篩選選項來搜尋排程。您可以依標籤、核准的排程、擁有者等篩選。
-
-![](assets/scheduled-project-manager.png)
 
 下列是「排程專案管理員」中的常見動作：
 
@@ -65,4 +63,4 @@ ht-degree: 100%
 | **檢視過期的排程** | 導覽至左側邊欄 >「其他篩選器 > 過期」，查看過期的排程。按一下排程的標題，設定新的傳送排程。 |
 | **檢視排程 ID** | 導覽至右上角的欄選項，然後將「排程 ID」欄新增至表格。排程的 ID 對除錯而言通常很實用。 |
 
-「排程專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已被停用，所有已安排的傳送將停止。可以在&#x200B;**「管理員 > Analytics 使用者和資產 > 轉移資產」**&#x200B;中，將排程的專案所有權&#x200B;**轉移**&#x200B;給新使用者。
+「排程專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已被停用，所有已安排的傳送將停止。
