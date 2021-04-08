@@ -1,23 +1,23 @@
 ---
 description: 控制面板計分卡的使用說明。
 title: Analytics 控制面板執行指南
+exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 translation-type: tm+mt
-source-git-commit: cfda4791c89a0fa1023bea6033b0244b29f45f12
+source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
 workflow-type: tm+mt
 source-wordcount: '1288'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
-
 # Analytics 控制面板：執行使用者快速入門手冊
 
-下列資訊可讓執行使用者瞭解使用和檢視 Analytics 控制面板的最佳作法。若要觀看講解這項資訊的影片，請參閱 [ Analytics 控制面板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
+下列資訊可讓執行使用者瞭解使用和檢視 Analytics 控制面板的最佳做法。若要觀看講解這項資訊的影片，請參閱 [ Analytics 控制面板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
 
 
 ## 簡介
 
-分析資料板提供來自Customer Journey Analytics的即時、隨地見解。  此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援控制面板。
+Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援控制面板。
 
 ## 本指南的詳細資訊
 
@@ -27,8 +27,8 @@ ht-degree: 89%
 
 | 詞語 | 定義 |
 |--- |--- |
-| 消費者 | 在行動裝置上檢視CJA關鍵指標和見解的行政人員角色 |
-| 組織者 | 從CJA尋找並分發見解並設定記分卡以供消費者檢視的資料素養角色 |
+| 消費者 | 在行動裝置上檢視 CJA 提供之關鍵量度和深入分析的執行角色 |
+| 組織者 | 尋找並分發 CJA 的深入分析並設定供消費者檢視之計分卡的資料讀寫人員角色 |
 | 組織 | 為消費者建立或編輯行動計分卡的行為，計分卡內容包含相關量度、維度和其他項目 |
 | 計分卡 | 包含一或多個圖磚的控制面板畫面 |
 | 圖磚 | 計分卡檢視畫面呈現量度的形式 |
@@ -44,22 +44,22 @@ ht-degree: 89%
 
 若要在控制面板上存取計分卡，請確認：
 
-* 您有效登入Customer Journey Analytics
+* 您處於 Customer Journey Analytics 的有效登入狀態
 * 您的組織者已正確建立行動計分卡並與您共用
 
-### 下載和安裝儀表板
+### 下載並安裝控制面板
 
 若要下載及安裝應用程式，請根據裝置的作業系統，依步驟操作。
 
 **若執行使用者使用 iOS：**
 
-按一下下列連結(也可在CJA的&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 分析控制面板（行動應用程式）]**&#x200B;下方取得)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結 (也可在 CJA 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 控制面板 (行動應用程式)」]**&#x200B;下方使用連結)，然後依照提示下載、安裝和開啟應用程式：
 
 [iOS 連結](https://apple.co/2zXq0aN)
 
 **若執行使用者使用 Android：**
 
-按一下下列連結(也可在CJA的&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 分析控制面板（行動應用程式）]**&#x200B;下方取得)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結 (也可在 CJA 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 控制面板 (行動應用程式)」]**&#x200B;下方取得連結)，然後依照提示下載、安裝和開啟應用程式：
 
 [Android 連結](https://bit.ly/2LM38Oo)
 
@@ -120,7 +120,7 @@ ht-degree: 89%
 
    * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**[!UICONTROL 比較對象]**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**[!UICONTROL 「完成」]**。**[!UICONTROL 「日期範圍」]**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
-7. 若要將篩選器套用至您的記分卡，請點選篩選器下拉式清單，然後選取策展人已設定的篩選器。 應用程式中的[篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)運作方式與 Analytics Workspace 中相同。
+7. 若要將篩選器套用至您的記分卡，請點選篩選器下拉式清單，然後選取策展人已設定的篩選器。 應用程式中的[篩選器](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)運作方式與 Analytics Workspace 中相同。
 
    ![篩選](assets/segment_filter.png)
 
