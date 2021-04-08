@@ -4,7 +4,7 @@ cloud: Experience Cloud
 product: adobe analytics
 sub-product: 客戶歷程
 solution: Customer Journey Analytics
-type: 文件
+type: Documentation
 index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 跨管道分析的新一代解決方案 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供自助協助資訊。
@@ -20,7 +20,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 translation-type: tm+mt
 source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 97%
 
 ---
