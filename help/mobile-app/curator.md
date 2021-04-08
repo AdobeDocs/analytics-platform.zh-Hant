@@ -1,16 +1,16 @@
 ---
 description: 控制面板計分卡的設定說明。
-title: Customer Journey Analytics資料板管理員指南
+title: Customer Journey Analytics 控制面板組織者指南
+exl-id: 892e5789-8eec-43d9-99fe-8448aa8600b2
 translation-type: tm+mt
-source-git-commit: 026771a61bcbd0eec8cb59a1d06f3dad0b96acf6
+source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
 workflow-type: tm+mt
 source-wordcount: '2403'
-ht-degree: 77%
+ht-degree: 81%
 
 ---
 
-
-#  Analytics 控制面板的組織者指南
+# Analytics 控制面板的組織者指南
 
 以下資訊可為 Adobe Analytics 資料的組織者說明如何設定控制面板並將其對執行使用者呈現。若要觀看講解這項資訊的影片，請參閱 Analytics 控制面板計分卡建立程式影片：
 
@@ -18,11 +18,11 @@ ht-degree: 77%
 
 ## 簡介
 
-Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時隨地提供深入資訊。 應用程式可讓使用者透過行動裝置存取您從Customer Journey Analytics案頭UI建立和共用的直覺式記分卡。 記分卡是關鍵量度和其他元件的集合，以並排版面顯示，您可點選這些元件以取得更詳細的劃分和趨勢資料檢視。 您可以考量哪些資料對您最為重要，量身打造專屬計分卡。iOS 和 Android 作業系統均支援 Analytics 控制面板。
+Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時隨地提供深入資訊。 應用程式可讓使用者對您建立的直覺式計分卡進行行動存取，並從 Customer Journey Analytics 桌面 UI 共用。記分卡是關鍵量度和其他元件的集合，以並排版面顯示，您可點選這些元件以取得更詳細的劃分和趨勢資料檢視。 您可以考量哪些資料對您最為重要，量身打造專屬計分卡。iOS 和 Android 作業系統均支援 Analytics 控制面板。
 
 ## 本指南的詳細資訊
 
-本指南旨在幫助Customer Journey Analytics資料的管理者在儀表板上為其管理用戶配置記分卡。 組織者可以是組織管理員，也可以是負責設定應用程式計分卡的其他角色；計分卡可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視以概要形式呈現的重要摘要資料。雖然執行使用者是 Analytics 控制面板的一般使用者，不過本指南的重點在於協助資料組織者為這些使用者有效設定應用程式。
+本指南旨在協助 Customer Journey Analytics 資料的組織者如何為其在控制面板上的執行使用者設定計分卡。組織者可以是組織管理員，也可以是負責設定應用程式計分卡的其他角色；計分卡可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視以概要形式呈現的重要摘要資料。雖然執行使用者是 Analytics 控制面板的一般使用者，不過本指南的重點在於協助資料組織者為這些使用者有效設定應用程式。
 
 ## 術語表
 
@@ -30,8 +30,8 @@ Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時
 
 | 詞語 | 定義 |
 |--- |--- |
-| 消費者 | 在行動裝置上檢視CJA關鍵指標和見解的行政人員角色 |
-| 組織者 | 從CJA尋找並分發見解並設定記分卡以供消費者檢視的資料素養角色 |
+| 消費者 | 在行動裝置上檢視 CJA 提供之關鍵量度和深入分析的執行角色 |
+| 組織者 | 尋找並分發 CJA 的深入分析並設定供消費者檢視之計分卡的資料讀寫人員角色 |
 | 組織 | 為消費者建立或編輯行動計分卡的行為，計分卡內容包含相關量度、維度和其他項目 |
 | 計分卡 | 包含一或多個圖磚的控制面板畫面 |
 | 圖磚 | 計分卡檢視畫面呈現量度的形式 |
@@ -106,7 +106,7 @@ Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時
 
    新增至圖磚的每個維度，都會顯示在應用程式詳細檢視的下拉式清單中。執行使用者可從下拉式清單中選擇選項。
 
-4. 若要將濾鏡套用至個別的圖格，請從左側面板拖曳濾鏡，並直接將其拖曳至圖格上方。 如果要將篩選器應用於記分卡中的所有表徵圖，請將表徵圖放在記分卡的頂部。 或者，您也可以在日期範圍下方的篩選功能表中選取篩選，以套用篩選。 您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
+4. 若要將濾鏡套用至個別的圖格，請從左側面板拖曳濾鏡，並直接將其拖曳至圖格上方。 如果要將篩選器應用於記分卡中的所有表徵圖，請將表徵圖放在記分卡的頂部。 或者，您也可以在日期範圍下方的篩選功能表中選取篩選，以套用篩選。 您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
 
    ![建立篩選](assets/segment_ui.png)
 
@@ -270,4 +270,4 @@ Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時
 
 >[!IMPORTANT]
 >
->從2020年10月開始，Adobe逐步推出一系列增強功能，以最佳化「Adobe Analytics儀表板」應用程式的效能。 這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。若要選擇不使用上述效能增強功能，請連絡您的 CSM。
+>自 2020 年 10 月起，Adobe 即逐步推出一系列增強功能，以最佳化「Adobe Analytics 控制面板」應用程式的效能。這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。若要選擇不使用上述效能增強功能，請連絡您的 CSM。
