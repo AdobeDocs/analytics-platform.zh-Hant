@@ -1,20 +1,30 @@
 ---
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
+exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 translation-type: tm+mt
-source-git-commit: bbf33bd751a6f66f58dc40a5efb48bd2f1c29021
+source-git-commit: 26176b446c5d825aa8893f0fe45190079d923251
 workflow-type: tm+mt
-source-wordcount: '1939'
-ht-degree: 100%
+source-wordcount: '1974'
+ht-degree: 98%
 
 ---
-
 
 # 建立連線
 
 連線可讓您將資料集從 [!DNL Adobe Experience Platform] 整合到 [!UICONTROL Analysis Workspace]。若要針對 [!DNL Experience Platform] 資料集製作報表，必須先為 [!DNL Experience Platform] 和 [!UICONTROL Analysis Workspace] 的資料集建立連線。
 
 按一下[這裡](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html)，觀看概述影片。
+
+若要建立CJA連線，您需要下列權限：
+
+Adobe Experience Platform:
+* 資料模型：查看方案，管理方案
+* 資料管理：查看資料集，管理資料集
+* 資料擷取：管理來源
+
+Customer Journey Analytics
+* 產品管理存取權
 
 >[!IMPORTANT]
 >
