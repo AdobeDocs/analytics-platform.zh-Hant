@@ -2,7 +2,7 @@
 title: 在Customer Journey Analytics中設定Google Analytics報告
 description: null
 translation-type: tm+mt
-source-git-commit: c07d32eef579432bf92f94cbbe4e99188b2de74c
+source-git-commit: 13828f484ec1edcd00a6d049ff78c7e2642d2b01
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 1%
@@ -47,7 +47,8 @@ BigQuery匯出結構(https://support.google.com/analytics/answer/3437719?hl=en&a
 
    ![](assets/ga-bigquery.png)
 您需要建立SQL查詢，將Universal Analytics資料轉換為符合Experience Platform的格式。
-   * 檢視此影片以取得指示。
+   * 檢視此影片以取得指示：
+   >[!VIDEO](https://video.tv.adobe.com/v/332634)
 
 1. 將JSON格式的Google Analytics事件匯出至Google Cloud儲存區，並儲存至儲存貯體。
 請參閱[這些說明](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)。
