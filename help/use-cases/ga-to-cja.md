@@ -3,9 +3,9 @@ title: 將Google Analytics資料收錄到Adobe Experience Platform
 description: '說明如何運用Customer Journey Analytics(CJA)將您的Google Analytics和Firebase資料收錄到Adobe Experience Platform。 '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: b6f62c1d53d023c230fbd7f8ad366ac5c6b13954
+source-git-commit: c51b9d19bfcc1066c3bb58a605485e153d87f396
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1024'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ UNNEST(hits) AS hit
 
 您也可以從Google Tag Manager直接擷取即時串流事件至Adobe Experience Platform。
 
-### 新增自訂變數
+### 1.新增自訂變數
 
 登入Google標籤管理員帳戶後，您需要新增與Adobe組織ID和資料集ID相關的自訂常數變數。 您可能已在Google標籤管理器中有變數會傳送至Google Analytics，例如客戶電子郵件、客戶名稱、語言和客戶登入狀態。 您需要定義5個新的自訂變數：
 
@@ -120,7 +120,7 @@ UNNEST(hits) AS hit
 
 在您定義這些自訂變數後，我們可以設定觸發器，將您已傳送的所有資料傳送至Google Analytics至Experience Platform。
 
-### 在Google標籤管理器中設定觸發器
+### 2.在Google標籤管理器中設定觸發器
 
 在此範例中，已定義&quot;Account Creation&quot;觸發器，其中`pageUrl equals account-creation`。 借由將一些資訊新增至此觸發器，您可以確保當使用者成功驗證並載入帳戶建立頁面時，資料會同時傳送至Google Analytics和AEP。
 
@@ -128,11 +128,12 @@ UNNEST(hits) AS hit
 
 >[!VIDEO](https://video.tv.adobe.com/v/332668)
 
-### 後續步驟
+## 在CJA中建立與Google Analytics資料集的連線
 
 一旦Adobe Experience Platform開始接收即時Google Analytics資料，並且您從BigQuery回填歷史Google Analytics資料，您就可以跳到CJA並
+[建立您的第一個連線](/help/connections/create-connection.md)。 此連線會使用通用的「客戶ID」，將GA資料與所有其他客戶資料結合。
 
-1. [建立您的第](/help/connections/create-connection.md) 一個連接，使用通用的「客戶ID」將GA資料與所有其他客戶資料結合。
-1. 在工作區中進行一些令人驚艷的分析，例如……
 
-*此主題應停止，還是我們需要詳細說明連接的位置？*
+## 在工作區中進行一些令人驚艷的分析
+
+若要追蹤
