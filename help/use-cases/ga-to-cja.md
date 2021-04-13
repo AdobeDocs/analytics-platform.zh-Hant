@@ -1,11 +1,11 @@
 ---
-title: 如何將Google Analytics資料匯入Adobe Experience Platform進行Customer Journey Analytics分析
+title: 將Google Analytics資料收錄到Adobe Experience Platform
 description: '說明如何運用Customer Journey Analytics(CJA)將您的Google Analytics和Firebase資料收錄到Adobe Experience Platform。 '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: cc212d8b1e0a229fd246f6678a8dc8e5bbadce79
+source-git-commit: b6f62c1d53d023c230fbd7f8ad366ac5c6b13954
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1033'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Adobe資料模型最強大的一個方面是，它可讓您將所有客戶互動
 
 ### 1.將您的Google Analytics資料連接至BigQuery
 
-請注意，以下說明是以通用Google Analytics為基礎。 它們適用於歷史資料。 如需即時串流資料的相關指示，請至「將即時串流資料匯入AEP」。
+請注意，以下說明是以通用Google Analytics為基礎。 它們適用於歷史資料。 如需即時串流資料的相關指示，請至「將即時串流資料匯入AEP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=en#ingest-live-streaming-google-analytics-data)」。[
 
 請參閱[這些說明](https://support.google.com/analytics/answer/3416092?hl=en)。
 
@@ -84,7 +84,7 @@ UNNEST(hits) AS hit
 
 ### 3.將JSON格式的Google Analytics事件匯出至Google雲端儲存區，並儲存至儲存貯體
 
-接著，您將以JSON格式將Google Analytics事件匯入Google雲端儲存空間。 然後你把它帶進Experience Platform。
+接著，您將以JSON格式將Google Analytics事件匯入Google雲端儲存空間。
 
 請參閱[這些說明](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)。
 
