@@ -3,9 +3,9 @@ title: 如何將Google Analytics資料匯入Adobe Experience Platform進行Custo
 description: '說明如何運用Customer Journey Analytics(CJA)將您的Google Analytics和Firebase資料收錄到Adobe Experience Platform。 '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 58842436ab3388ba10ad0df0b35c78f68b02f0a3
+source-git-commit: cc212d8b1e0a229fd246f6678a8dc8e5bbadce79
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1040'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Adobe資料模型最強大的一個方面是，它可讓您將所有客戶互動
 
 | 若您使用... | 您也需要這個授權…… | 然後…… |
 | --- | --- | --- |
-| **通用Google Analytics** | Google Analytics360 | 執行以下說明的步驟1 - 5 |
+| **通用分析** | Google Analytics360 | 執行以下說明的步驟1 - 5 |
 | **Google Analytics4** | 免費的GA版本或Google Analytics360 | 執行以下說明的步驟1和3-5。 不需要步驟2。 |
 
 ## 收錄歷史資料
@@ -53,11 +53,30 @@ Adobe資料模型最強大的一個方面是，它可讓您將所有客戶互動
 
 GA資料會將每個記錄儲存在其使用者作業階段的資料中，而非個別事件。 您需要建立SQL查詢，將Universal Analytics資料轉換為符合Experience Platform的格式。 您可將&quot;unnest&quot;函式套用至GA架構的&quot;hits&quot;欄位。 以下是您可以使用的SQL示例：
 
-`SQL sample`
+`SELECT
+*,
+timestamp_seconds(`` + hit.time) AS `` 
+FROM
+(
+SELECT
+fullVisitorId,
+visitNumber,
+visitId,
+visitStartTime,
+trafficSource,
+socialEngagementType,
+channelGrouping,
+device,
+geoNetwork,
+hit 
+FROM
+`visitStartTimetimestampyour_bq_table_2021_04_*`,
+UNNEST(hits) AS hit 
+)`
 
 查詢完成後，將完整結果保存到BigQuery表中。
 
-請參閱[這些說明](https://support.google.com/analytics/answer/3437618?hl=en)。
+請參閱[這些說明](https://support.google.com/analytics/answer/7029846?hl=en&amp;ref_topic=9359001#zippy=%2Cold-export-schema%2Cuse-this-script-to-migrate-existing-bigquery-datasets-from-the-old-export-schema-to-the-new-one%2Cscript-migration-scriptsql)。
 
 或者，觀賞此影片：
 
