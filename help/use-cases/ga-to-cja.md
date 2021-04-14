@@ -3,9 +3,9 @@ title: 將Google Analytics資料收錄到Adobe Experience Platform
 description: '說明如何運用Customer Journey Analytics(CJA)將您的Google Analytics和Firebase資料收錄到Adobe Experience Platform。 '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 7ba17dd1fc27eefdfe061eb74b4e52c575647d2c
+source-git-commit: df3b69b837fda821e1b50b0ba211ac578d856892
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,8 @@ UNNEST(hits) AS hit
 
 接著，您將以JSON格式將Google Analytics事件匯出至Google雲端儲存空間。 只要按一下「匯出>匯出至GCS **」即可。**&#x200B;一旦到達，資料就準備被拉進Adobe Experience Platform。
 
-請參閱[這些說明](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)。
+請參閱[這些通用Analytics的指示](https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089)。
+有關第4](https://support.google.com/analytics/answer/7029846?hl=en)Google Analytics，請參閱[這些說明。
 
 ### 4.從Google雲端儲存區匯入資料至Experience Platform
 
@@ -98,10 +99,11 @@ UNNEST(hits) AS hit
 * 您可以選取現有資料集，或建立新資料集（建議）。
 * 請務必為歷史Google Analytics資料和即時串流Google Analytics資料選擇相同的架構，即使它們位於不同的資料集。 您隨後可以合併[CJA連接](/help/connections/combined-dataset.md)中的資料集。
 
-
 檢視此影片以取得指示：
 
 >[!VIDEO](https://video.tv.adobe.com/v/332641)
+
+如果您想要定期排程此匯入，請參閱Google檔案。
 
 ### 5.將GCS事件匯入Adobe Experience Platform並對應至XDM架構
 
@@ -110,6 +112,10 @@ UNNEST(hits) AS hit
 ![](assets/schema-map.png)
 
 映射非常容易更改，您甚至可以從Google Analytics資料建立派生或計算欄位。 將欄位映射到XDM架構後，您可以定期安排此導入，並在提取過程中應用錯誤驗證。 這可確保您匯入的資料不會有任何問題。
+
+檢視此影片以取得指示：
+
+>[!VIDEO](https://video.tv.adobe.com/v/332641)
 
 **時間戳記計算欄位**
 
@@ -133,13 +139,13 @@ UNNEST(hits) AS hit
 
 ### 1.新增自訂變數
 
-登入Google標籤管理員帳戶後，您需要新增與Adobe組織ID和資料集ID相關的自訂常數變數。 您可能已在Google標籤管理器中有變數會傳送至Google Analytics，例如客戶電子郵件、客戶名稱、語言和客戶登入狀態。 您需要定義5個新的自訂變數：
+登入Google標籤管理員帳戶後，您需要新增一些與Adobe相關的自訂常數變數。 您可能已在Google標籤管理器中有變數會傳送至Google Analytics，例如客戶電子郵件、客戶名稱、語言和客戶登入狀態。 您需要定義5個新的自訂變數：
 
 * Adobe Experience Cloud組織ID
 * DCS串流端點
 * Experience Platform資料集ID
 * 架構參考
-* 頁面時間戳記。
+* 頁面時間戳記
 
 取得這些值可確保所有Google Analytics資料都會傳送至正確的資料集，並擁有正確的架構。 如果您不知道您的Experience Cloud組織或我們剛才提到的任何其他變數，您的Adobe客戶經理可協助您追蹤。
 
@@ -153,10 +159,16 @@ UNNEST(hits) AS hit
 
 >[!VIDEO](https://video.tv.adobe.com/v/332668)
 
+您也可以參閱[資料擷取和Google標籤管理員](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html?lang=en#module9)。
+
 ## 在CJA中建立與Google Analytics資料集的連線
 
 一旦Adobe Experience Platform開始接收即時Google Analytics資料，並且您從BigQuery回填歷史Google Analytics資料，您就可以跳到CJA並
 [建立您的第一個連線](/help/connections/create-connection.md)。 此連線會使用通用的「客戶ID」，將GA資料與所有其他客戶資料結合。
+
+如需指示，請檢視此影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/332676)
 
 ## 在工作區中進行一些令人驚艷的分析
 
