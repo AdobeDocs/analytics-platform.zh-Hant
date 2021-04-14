@@ -3,9 +3,9 @@ title: 將Google Analytics資料收錄到Adobe Experience Platform
 description: '說明如何運用Customer Journey Analytics(CJA)將您的Google Analytics和Firebase資料收錄到Adobe Experience Platform。 '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
+source-git-commit: 7ba17dd1fc27eefdfe061eb74b4e52c575647d2c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,25 @@ UNNEST(hits) AS hit
 
 接著，您可以將GA事件資料映射至先前建立的現有資料集，或使用您選擇的XDM架構建立新資料集。 在您選擇了模式後，Experience Platform將應用機器學習自動將Google Analytics資料中的每個欄位預映射到[XDM模式](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en#ui)。
 
+![](assets/schema-map.png)
+
 映射非常容易更改，您甚至可以從Google Analytics資料建立派生或計算欄位。 將欄位映射到XDM架構後，您可以定期安排此導入，並在提取過程中應用錯誤驗證。 這可確保您匯入的資料不會有任何問題。
+
+**時間戳記計算欄位**
+
+對於Google Analytics資料中的`timestamp`欄位，您必須在Experience Platform模式UI中建立一個特殊的計算欄位。 按一下「新增計算欄位&#x200B;**[!UICONTROL 」，並在`date`函式中包覆`timestamp`字串，如下所示：]**
+
+`date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
+
+然後，您需要將此計算欄位保存到方案中的時間戳資料結構：
+
+![](assets/timestamp.png)
+
+**_id XDM計算欄位**
+
+`_id`結構欄位必須有值- CJA不關心該值。 您只需新增&quot;1&quot;至欄位：
+
+![](assets/_id.png)
 
 ## 收錄即時串流Google Analytics資料
 
