@@ -3,9 +3,9 @@ title: 將Google Analytics資料收錄到Adobe Experience Platform
 description: '說明如何運用Customer Journey Analytics(CJA)將您的Google Analytics和Firebase資料收錄到Adobe Experience Platform。 '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: c51b9d19bfcc1066c3bb58a605485e153d87f396
+source-git-commit: 0f1d7e0d26eefec46edabba4d0b8709c3bad6b8f
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1025'
 ht-degree: 1%
 
 ---
@@ -133,7 +133,6 @@ UNNEST(hits) AS hit
 一旦Adobe Experience Platform開始接收即時Google Analytics資料，並且您從BigQuery回填歷史Google Analytics資料，您就可以跳到CJA並
 [建立您的第一個連線](/help/connections/create-connection.md)。 此連線會使用通用的「客戶ID」，將GA資料與所有其他客戶資料結合。
 
-
 ## 在工作區中進行一些令人驚艷的分析
 
-若要追蹤
+更多內容。
