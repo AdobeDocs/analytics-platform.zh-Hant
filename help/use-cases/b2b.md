@@ -3,7 +3,7 @@ title: (B2B) 新增帳戶層級資料作為查詢資料集
 description: 了解如何將以帳戶為基礎的資料，以查詢資料集的形式新增至 CJA
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 translation-type: tm+mt
-source-git-commit: 9bbc625aca9e0b8384b3e95d79fd695fda863f0b
+source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 您可將帳戶層級資訊帶入[lookup](/help/getting-started/cja-glossary.md)資料集，以完成這一切。
 
-首先，您要在 Adobe Experience Platform 中建立查詢結構，接著內嵌 .csv 格式的帳戶層級資料，建立查詢表格資料集。然後，您繼續在Customer Journey Analytics中建立連接(CJA0，它會結合不同的資料集，包括您建立的查閱資料集。 然後您建立資料檢視，最後可以在工作區中運用所有資料。
+首先，您要在 Adobe Experience Platform 中建立查詢結構，接著內嵌 .csv 格式的帳戶層級資料，建立查詢表格資料集。然後，您繼續在Customer Journey Analytics中建立連接(CJA0，它會結合不同的資料集，包括您建立的查閱資料集。 您隨後會建立資料檢視，最後可在工作區中運用所有資料。
 
 >[!NOTE]
 >
