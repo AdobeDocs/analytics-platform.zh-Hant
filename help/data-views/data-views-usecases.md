@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics中資料檢視的使用案例
 description: 多種使用案例，可顯示資料檢視在Customer Journey Analytics中的彈性和功能
+exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 translation-type: tm+mt
-source-git-commit: b99e108e9f6dd1c27c6ebb9b443f995beb71bdbd
+source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
-
 
 # 資料檢視使用案例
 
@@ -45,5 +45,5 @@ ht-degree: 0%
 
    ![](assets/bucketing.png)
 
-有關其他資料視圖設定的詳細資訊，請參閱[建立資料視圖](/help/data-views/create-dataview2.md)。
+有關其他資料視圖設定的詳細資訊，請參閱[建立資料視圖](/help/data-views/create-dataview.md)。
 有關資料視圖的概念性概述，請參閱[資料視圖概述](/help/data-views/data-views.md)。
