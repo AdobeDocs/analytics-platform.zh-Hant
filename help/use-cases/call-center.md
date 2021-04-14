@@ -3,7 +3,7 @@ title: 匯入客服中心和網路資料
 description: 了解如何建立連結客服中心和網站資料的資料集。
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
@@ -80,7 +80,7 @@ CJA 需有共同識別碼才能產生[合併資料集](../connections/combined-d
 1. 將具網頁名稱的維度拖曳至「自由表格」視覺效果上。
 1. 將該量度換成您要測量轉換情形的客服中心量度。
 1. 按一下量度標題附近的齒輪圖示。按一下&#x200B;**[!UICONTROL 「使用非預設歸因模型」]**。
-1. 設定所需的[歸因模型](/help/data-views/configure-dataviews.md#Attribution-model)。
+1. 設定所需的[歸因模型](/help/data-views/create-dataview.md)。
 
 產生的報告會顯示客服中心資料的主要量度。<!-- Complement with donut visualization -->
 
