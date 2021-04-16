@@ -1,19 +1,13 @@
 ---
 cloud: Experience Cloud
-solution-title: Adobe Analytics
-solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud/core-services.html
-solution-image: help/assets/experience-cloud-logo-24.png
-getting-started-title: 快速入門
-getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
-tutorials-title: 教學課程
-tutorials-url: https://helpx.adobe.com/tw/analytics/how-to/adobe-launch-publishing-process.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics-platform.zh-Hant
 description: 此檔案包括回購層級元資料，這些元資料會傳遞給回購中的使用手冊TOC.md檔案。
+feature-set: Analytics
 translation-type: tm+mt
-source-git-commit: 5182e6c97e475296ca5ecd4014193770491b1988
+source-git-commit: 3c10451d5a70e4f733634efb9648da843e4c0db1
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 86%
+source-wordcount: '127'
+ht-degree: 84%
 
 ---
 
