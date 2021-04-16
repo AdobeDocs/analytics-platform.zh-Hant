@@ -1,14 +1,14 @@
 ---
 title: Dimension在Customer Journey Analytics中基數很高
 description: 說明處理Customer Journey Analytics中高基數維度的最佳做法
+exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 translation-type: tm+mt
-source-git-commit: d35ff80b7a3a3235f13640d88b0efcfb3e7cc30b
+source-git-commit: 8ae1cb5a84b26258fb30f6e630744b2e36a48e5c
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
-
 
 # Dimension基數很高
 
@@ -49,7 +49,7 @@ Customer Journey Analytics(CJA)不會限制在單一維度中可報告的唯一�
 
 * 將篩選器新增至受影響的欄或面板。
 * 將搜尋套用至自由表格。
-* 將劃分套用至目標列，或將高度基本的維度當做劃分維度
+* 將劃分套用至目標列，或將高度基本的維度當做劃分維度。
 * 將包含／排除條件新增至維度的「資料檢視」設定，以縮小維度中存在的唯一值數目。
 
 使用這些技術通常可以消除使用高基本維度時遇到的任何不期望的估計或警告。
