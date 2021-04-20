@@ -2,7 +2,7 @@
 description: 同類群組分析的使用案例範例。
 keywords: Analysis Workspace
 title: 同類群組分析使用案例
-feature: 報告與分析基礎
+feature: Reports & Analytics Basics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: 在 Analysis Workspace 中建立自訂日期範圍，並將其儲存為時間元件。
 keywords: Analysis Workspace
 title: 建立自訂日期範圍
-feature: 報告與分析基礎
+feature: Reports & Analytics Basics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 translation-type: tm+mt
