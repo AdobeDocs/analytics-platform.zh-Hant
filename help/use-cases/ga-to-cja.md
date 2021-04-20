@@ -3,9 +3,9 @@ title: 將Google Analytics資料收錄到Adobe Experience Platform
 description: '說明如何運用Customer Journey Analytics(CJA)將您的Google Analytics和Firebase資料收錄到Adobe Experience Platform。 '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: 1dcc566f286b0399e5ebd1e06e9d42a9522a1684
+source-git-commit: de822eb00a5e205889b4fa96f729845ad4c7e356
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1217'
 ht-degree: 7%
 
 ---
@@ -99,10 +99,6 @@ UNNEST(hits) AS hit
 ![](assets/schema-map.png)
 
 映射非常容易更改，您甚至可以從Google Analytics資料建立派生或計算欄位。 將欄位映射到XDM架構後，您可以定期安排此導入，並在提取過程中應用錯誤驗證。 這可確保您匯入的資料不會有任何問題。
-
-檢視此影片以取得指示：
-
->[!VIDEO](https://video.tv.adobe.com/v/332641)
 
 **「時間戳記」計算欄位**
 
