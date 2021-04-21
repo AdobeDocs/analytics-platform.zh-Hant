@@ -11,9 +11,9 @@ user-guide-description: 本指南針對 Adobe 跨管道分析的新一代解決�
 breadcrumb-title: Customer Journey Analytics 指南
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
 translation-type: tm+mt
-source-git-commit: 3c10451d5a70e4f733634efb9648da843e4c0db1
+source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '447'
 ht-degree: 95%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 95%
    + [資料檢視概觀](data-views/data-views.md)
    + [建立資料檢視](data-views/create-dataview.md)
    + [資料檢視使用案例](data-views/data-views-usecases.md)
-   + [持久性](data-views/persistence.md)
+   + [持續性](data-views/persistence.md)
 + Analysis Workspace 專案 {#cja-workspace}
    + [Analysis Workspace 概述](analysis-workspace/home.md)
    + [執行基本分析](analysis-workspace/perform-basic-analysis.md)
@@ -157,6 +157,7 @@ ht-degree: 95%
    + [使用行銷管道維度](use-cases/marketing-channels.md)
    + [將全域查詢新增至資料集](use-cases/global-lookups.md)
    + [將Google Analytics資料收錄到Adobe Experience Platform](use-cases/ga-to-cja.md)
+   + [CJA中Google Analytics資料的報告](use-cases/ga-to-cja-reporting.md)
 + Analytics 控制面板 {#cja-dashboards}
    + [Analytics 控制面板 - 概觀](mobile-app/home.md)
    + [組織者指南](mobile-app/curator.md)
