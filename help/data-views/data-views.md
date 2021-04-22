@@ -3,10 +3,10 @@ title: 什麼是 Customer Journey Analytics 的資料檢視?
 description: 資料檢視指定您想要如何解釋 CJA 連線中的資料元素，例如量度、維度、工作階段等。
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 translation-type: tm+mt
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
+source-git-commit: 9b45873dbdc1a400b849723051d921b49bff6d65
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 99%
+source-wordcount: '1095'
+ht-degree: 96%
 
 ---
 
@@ -60,13 +60,13 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 有些資料檢視設定可在 Analysis Workspace 的專案層級覆寫，有些則無法覆寫。
 
-* 回顧視窗
+* [!UICONTROL 回顧視窗]
 * 量度歸因
-* 使用者是否在報告中看到「無值」條列項目
+* 使用者是否在報表中看到「無值]」行項目[!UICONTROL 
 
 ## 您無法在 Workspace 中覆寫資料檢視設定
 
-* 元件類型
+* [!UICONTROL 元件類型]
 * 量度格式 
 * 資料檢視名稱
 * 維度分配
@@ -74,3 +74,9 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 ## 刪除資料檢視
 
 如果刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視，則會出現一條錯誤消息，指出取決於此被刪除資料檢視的任何 Workspace 專案都將不再運行。
+
+## 後續步驟
+
+* [建立資料檢視](/help/data-views/create-dataview.md)
+* [資料檢視使用案例](/help/data-views/data-views-usecases.md)
+* 關於[persistence](/help/data-views/persistence.md)如何運作的詳細資訊
