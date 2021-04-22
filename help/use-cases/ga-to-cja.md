@@ -3,9 +3,9 @@ title: 將Google Analytics資料收錄到Adobe Experience Platform
 description: '說明如何運用Customer Journey Analytics(CJA)將您的Google Analytics資料收錄到Adobe Experience Platform。 '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 translation-type: tm+mt
-source-git-commit: a4e95424ee304869e76a0532b7240290a3f13418
+source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1183'
 ht-degree: 7%
 
 ---
@@ -150,7 +150,6 @@ UNNEST(hits) AS hit
 
 ## 後續步驟
 
-* 根據Google Analytics資料建立資料檢視
-接下來，您會根據包含Google Analytics資料的連接，在CJA中建立資料視圖[。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#cja-dataviews)
+* 根據包含Google Analytics資料的連接建立[資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#cja-dataviews)。
 
-* 在[Workspace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/home.html?lang=en#cja-workspace)中進行一些令人驚艷的分析。 稍後再檢查某些報告使用案例。
+* 在Workspace](/help/use-cases/ga-to-cja-reporting.md)中進行一些令人驚艷的[分析。
