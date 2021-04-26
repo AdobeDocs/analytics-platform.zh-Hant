@@ -1,14 +1,14 @@
 ---
 title: 跨管道分析概述
 description: 重新輸入多個資料集的訪客 ID，以彙整訪客。
-translation-type: ht
-source-git-commit: 1ac845af7255428d9df0fa7d4d733f60e014ed83
-workflow-type: ht
-source-wordcount: '1076'
-ht-degree: 100%
+exl-id: 69763313-de27-4487-8e32-8277f1f693d8
+translation-type: tm+mt
+source-git-commit: 5770817d9e72cfde4786c205ecbfb32f34fc13ab
+workflow-type: tm+mt
+source-wordcount: '1128'
+ht-degree: 95%
 
 ---
-
 
 # 跨管道分析概述
 
@@ -50,6 +50,7 @@ ht-degree: 100%
 * 以欄位為基礎的彙整不會合併或串連欄位。
 * 暫時 ID 欄位應包含單一 ID 類型 (即來自單一命名空間的 ID)。例如，暫時 ID 欄位不應包含登入 ID 和電子郵件 ID 的組合。
 * 如果針對同一永久 ID 發生了具有相同時間戳記的多個事件，但暫時 ID 欄位中的值不同，則以欄位為基礎的彙整將根據字母順序進行選擇。因此，如果永久 ID A 有兩個具有相同時間戳記的事件，且其中一個事件指定 Bob、另一個事件指定 Ann，則以欄位為基礎的彙整會選擇 Ann。
+* 跨通道分析會追蹤每個持續ID值1年（TTL = 1年）。 如果裝置超過一年沒有任何活動，接著又開始有活動，則新事件將會與匿名人員關聯，直到重新識別使用者（例如透過新登入）。
 
 
 ## 啟用跨管道分析
