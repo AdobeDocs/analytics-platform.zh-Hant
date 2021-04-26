@@ -3,10 +3,10 @@ title: 如何在 Customer Journey Analytics 中建立新的資料檢視。
 description: 說明建立新的資料檢視所需的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 translation-type: tm+mt
-source-git-commit: c6ce71788582b20f6542ff8e26a7b86d8b1b3eb3
+source-git-commit: 199219322ca5cff48c83c66d1ad7cdab04845b2b
 workflow-type: tm+mt
 source-wordcount: '2795'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -171,13 +171,13 @@ ht-degree: 99%
 
 ![](assets/standard-components.png)
 
-依預設，這些必要的標準元件會新增至您的資料檢視。
+依預設，這些必要的標準元件會新增至每個資料檢視。
 
 | 元件名稱 | 維度或量度 | 附註 |
 | --- | --- | --- |
-| [!UICONTROL 人員] | 量度 | 此量度以連線中指定的人員 ID 為基礎。 |
+| [!UICONTROL 人員] | 量度 | 此量度以[!UICONTROL Connection]中指定的人員ID為基礎。 |
 | [!UICONTROL 工作階段] | 量度 | 此量度以下指定的工作階段化設定為基礎。 |
-| [!UICONTROL 事件] | 量度 | 此度量表示「連線」中所有事件資料集的列數。 |
+| [!UICONTROL 事件] | 量度 | 此度量表示[!UICONTROL Connection]中所有事件資料集的行數。 |
 | [!UICONTROL 日] | 維度 | 「日」維度會報告指定量度發生的日子。第一個維度項目是日期範圍中的第一天，最後一個維度項目是日期範圍中的最後一天。 |
 | [!UICONTROL 週] | 維度 | 「週」維度會報告指定量度發生的週別。第一個維度項目是日期範圍中的第一週，最後一個維度項目是日期範圍中的最後一週。 |
 | [!UICONTROL 月] | 維度 | 「月」維度會報告指定量度發生的月份。第一個維度項目是日期範圍中的第一個月，最後一個維度項目是日期範圍中的最後一個月。 |
