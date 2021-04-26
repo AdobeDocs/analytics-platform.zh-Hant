@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
-translation-type: ht
-source-git-commit: fe5f2207be1042807048a77642fba70bc9a9933b
-workflow-type: ht
-source-wordcount: '1035'
-ht-degree: 100%
+exl-id: be19aa27-58aa-438d-806c-e27c9a289797
+translation-type: tm+mt
+source-git-commit: 4b543a1566580a8f3060c2387928148d55be70f2
+workflow-type: tm+mt
+source-wordcount: '1037'
+ht-degree: 99%
 
 ---
-
 
 # Customer Journey Analytics 功能支援
 
@@ -36,14 +36,16 @@ ht-degree: 100%
 | 使用者權限/資料存取控制 | CJA 可區分 Adobe Admin Console 產品管理員和使用者。只有產品管理員可以 1) 建立/更新/刪除連線或資料檢視；2) 更新/刪除其他使用者建立的專案、篩選器或計算量度；以及 3) 與所有使用者共用 Analysis Workspace 專案 |
 | 跨裝置/跨管道彙整 | 請參閱[跨管道分析](/help/connections/cca/overview.md)。 |
 | 內建 Analysis Workspace 維度 (例如瀏覽器類型、反向連結類型、作業系統等) | 只要填入基本 XDM 欄位 (例如使用者代理程式或裝置 ID)，CJA 就會以原生方式提供這些維度。客戶若有使用 Analytics Data Connector (ADC)，部分維度可供使用，但並非全部。請參閱[相關文件，了解可透過 ADC 支援的 Analytics 變數](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。 |
-| 報表 API 存取 | 使用 Analytics API 2.0 目前可提供。 |
+| 報表 API 存取 | 現在可使用[CJA API](https://www.adobe.io/cja-apis/docs/)使用。 |
+| 排程報表/專案 | 完全支援 |
+| PDF 匯出 | 完全支援 |
 
 ## 支援警告功能
 
 | 功能 | 附註 |
 | --- | --- |
 | 產品變數 | 在 Experience Platform 中，使用者可在資料集結構中使用物件類型欄位陣列，以符合此使用案例。在 CJA 中，客戶可以使用任何數量的產品變數，而且不會像 Adobe Analytics 受限於單一變數。 |
-| 行銷管道 | 行銷管道資料會透過 Analytics Data Connector 傳輸至 CJA。如果您是使用舊版 Adobe Analytics，仍需設定行銷管道規則。舊版未支援部分規則。如需詳細資訊，請參閱 [CJA 行銷管道文件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases)。 |
+| 行銷管道 | 行銷管道資料會透過 Analytics Data Connector 傳輸至 CJA。如果您是使用舊版 Adobe Analytics，仍需設定行銷管道規則。舊版未支援部分規則。如需詳細資訊，請參閱 [CJA 行銷管道文件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hant#cja-usecases)。 |
 | 視覺效果 | 支援所有視覺效果，但地圖視覺效果除外。 |
 | 專案共用 | 專案共用功能僅支援在 CJA 的使用者之間使用 - CJA 與傳統 Analysis Workspace 之間不支援專案共用。 |
 | 自訂工作階段化 | 支援除行動背景點擊以外的所有自訂工作階段化功能。 |
@@ -74,9 +76,7 @@ ht-degree: 100%
 | 自訂行事曆 | 已規劃提供支援。 |
 | 量度重複資料刪除 | 已規劃提供支援。 |
 | 銷售變數持續性 | 已規劃提供支援。 |
-| 排程報表/專案 | 已規劃提供支援。 |
 | 警報 | 已規劃提供支援。 |
-| PDF 匯出 | 已規劃提供支援。 |
 | 透過裝置圖表進行 ID 彙整 | 已規劃提供支援。 |
 | Report Builder (Excel 外掛程式) | 已規劃提供支援。 |
 | 即時報表 | 已規劃提供支援。 |
