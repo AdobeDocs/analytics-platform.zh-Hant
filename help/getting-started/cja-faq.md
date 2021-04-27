@@ -3,10 +3,10 @@ title: Customer Journey Analytics 常見問題集
 description: Customer Journey Analytics - 常見問題集。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 translation-type: tm+mt
-source-git-commit: 5667e2f43873061c5350c75fdb830a95b1c9b73f
+source-git-commit: bf8864103dc4e52734952c0c93d49f97e35b2817
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 61%
+source-wordcount: '1364'
+ht-degree: 60%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 61%
 | [!UICONTROL Adobe Experience Platform] 上 [!UICONTROL Customer Journey Analytics] 的延遲時間預計會多久？ | <ul><li>正常負載下：小於 60 分鐘&#x200B;<br>**注意：**&#x200B;如果通過管道的資料流量特別多，則最多可能需要 24 小時。</li><li>回填資料 (無論大小，最多 13 個月的資料)：小於 4 週</li></ul> |
 | 如何在 [!UICONTROL Customer Journey Analytics] 中將線上資料連結至離線資料？ | 只要資料集之間的個人 ID 相符，[!UICONTROL Customer Journey Analytics] 就可連接篩選器、歸因、流量、流失等。。 |
 | 如何將離線資料帶入 [!UICONTROL Customer Journey Analytics]？ | 您的Customer Journey Analytics權益可讓您將資料內嵌至Experience Platform。 然後，您可以在[!UICONTROL Customer Journey Analytics]中建立到該資料和資料視圖的連接，以便在Analysis Workspace報告。 如有需要，Experience Platform 的資料入門團隊可為您提供建議或諮詢。 |
-| 如何將 [!UICONTROL Adobe Analytics] 資料帶入 [!UICONTROL Customer Journey Analytics]？ | 您可透過 [Adobe Analytics Source Connector](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sources/connectors/adobe-applications/analytics.html)，將 [!UICONTROL Adobe Analytics] 資料連結至 Experience Platform。大部分的 [!UICONTROL Adobe Analytics] 欄位都會以 XDM 格式帶入，但其他欄位尚未開放使用 (例如[!UICONTROL 「行銷管道」]維度)。 |
+| 如何將 [!UICONTROL Adobe Analytics] 資料帶入 [!UICONTROL Customer Journey Analytics]？ | 您可透過 [Adobe Analytics Source Connector](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sources/connectors/adobe-applications/analytics.html)，將 [!UICONTROL Adobe Analytics] 資料連結至 Experience Platform。大多數[!UICONTROL Adobe Analytics]欄位都以XDM格式轉換，但其他欄位尚未可用。 |
 | 將資料集元素組合成資料檢視需要多久時間？ | 需要數小時以開始使用，並且需要數天的時間來回填過去 13 個月的資料。 |
 | 是否需要帶入 PII 資料來建立資料之間的連結？ | 否，您可以使用任何 ID，包括客戶 ID (非 PII) 的雜湊。 |
 
