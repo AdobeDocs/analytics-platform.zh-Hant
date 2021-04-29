@@ -3,10 +3,10 @@ title: 將全域查詢新增至資料集
 description: 在 Customer Journey Analytics 中使用全域查詢功能，透過實用維度來增強報表。
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 translation-type: tm+mt
-source-git-commit: e19e9b7d7a88232e1eeb7ddaa739389e26763c1a
+source-git-commit: 8224fd2fde787f0d3cf0cb983641efc588c316b0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 95%
 ## 搭配使用全域查詢與 Adobe Data Connector 資料集
 
 全域查詢資料集會在報表時間自動套用。如果您使用 [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant#connectors)，並加入 Adobe 中提供全域查詢的維度，系統就會自動套用此全域查詢。如果事件資料集包含 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 欄位，系統就能為資料集套用全域查詢。
-
-## 使用自訂資料集進行全域查詢
-
-索引鍵必須出現在與全域查閱資料集相容的事件資料集中。 只要新增部分標準 [Adobe Experience Platform 結構 Mixin](https://experienceleague.adobe.com/docs/experience-platform/xdm/mixins/event/environment-details.html?lang=zh-Hant#mixins)，填入正確的 XDM 欄位，即可使用自訂資料集進行全域查詢。
 
 ## 可用的全域查詢欄位
 
