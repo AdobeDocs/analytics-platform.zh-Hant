@@ -2,19 +2,14 @@
 title: 如何設定 Analysis Workspace 內的用戶偏好設定
 description: 您可以設定用戶的一般和專案偏好設定。
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
-translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: 836a99c03671b4145890c8b37f5123a841a85543
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '188'
 ht-degree: 100%
 
 ---
 
 # 用戶偏好設定
-
->[!NOTE]
->
->此功能即將推出。一般可用性為 2021 年 3 月 25 日。
 
 [!UICONTROL 元件] > [!UICONTROL 用戶偏好設定] 頁面可讓您管理用戶的 Analysis Workspace 設定及其相關元件。用戶偏好設定適用於&#x200B;*所有*&#x200B;新專案或面板。
 
