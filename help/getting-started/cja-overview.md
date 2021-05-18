@@ -2,11 +2,10 @@
 title: Customer Journey Analytics 概觀
 description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 94%
+source-wordcount: '1257'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +18,7 @@ Customer Journey Analytics 是 Analytics 的功能，讓您可搭配 Adobe Exper
 Customer Journey Analytics 提供簡單易用的跨管道功能，並移除舊版 Adobe Analytics 的限制，進一步擴展 Analytics 的應用範圍。幾個值得注意的改善項目如下：
 
 * **不限數量的變數和事件**：eVar、prop 和事件的概念已不存在。資料主要聚焦於維度和量度。資料集可以有不限數量的不重複維度和量度。
-* **不限數量的唯一值**:Adobe Experience Platform不受任何獨特限制。
+* **不限數量的唯一值**：Adobe Experience Platform 不受任何獨特限制。
 * **變更歷史資料**：您可以使用 Adobe Experience Platform 移除或修正資料。
 * **跨報表套裝資料**：可在 Platform 中結合來自多個資料集的現有實作。
 
@@ -53,10 +52,10 @@ Customer Journey Analytics 可用來：
 
 若要建立連線、新增資料集及執行其他作業，您需要在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中擁有下列權限：
 
-* 若要存取Customer Journey Analytics或建立連線，您必須以管理員身分加入[Admin Console](https://adminconsole.adobe.com/enterprise/)中的&#x200B;**Customer Journey Analytics產品**。 產品管理員可獲得下列權限：
+* 若要存取 Customer Journey Analytics 或建立連線，您需要在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中將自己新增為 **Customer Journey Analytics 產品**&#x200B;的管理員。產品管理員可獲得下列權限：
    * 建立/更新/刪除連線或資料檢視
-   * 更新／刪除其他使用者建立的專案、篩選、計算量度或篩選
-   * 將 Analysis Workspace 專案共用給所有使用者
+   * 更新/刪除其他使用者建立的專案、篩選器、計算量度或篩選
+   * 和所有使用者共用 Workspace 專案
 * 光有 Customer Journey Analytics 的產品管理員權限，仍無法建立、更新或刪除連線。若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
    * 檢視結構
    * 管理結構
@@ -64,6 +63,10 @@ Customer Journey Analytics 可用來：
    * 檢視資料集
 
 如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.translate.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md)。
+
+>[!NOTE]
+>
+>您無法像在傳統的Adobe Analytics那樣，允許Customer Journey Analytics中的個別量度或維度。 量度和維度可在資料檢視中修改，因此CJA可能會變更，而CJA也會追溯變更報表。
 
 ### 使用者存取權
 
@@ -74,7 +77,7 @@ Customer Journey Analytics 中，產品管理員以外的使用者無法查看�
 與傳統 Adobe Analytics 相比，CJA 中的數項功能已重新命名，以符合業界標準。一些更新的術語包括：
 
 * 區段現在稱為「篩選器」。
-* 虛擬報表套裝現在稱為「資料檢視」。
+* 虛擬報告套裝現在稱為「資料檢視」。
 * 分類現在稱為「查找資料集」。
 * 客戶屬性現在稱為「設定檔資料集」。
 * 點擊容器現在稱為「事件」容器。
