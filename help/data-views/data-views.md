@@ -2,11 +2,10 @@
 title: 什麼是 Customer Journey Analytics 的資料檢視?
 description: 資料檢視指定您想要如何解釋 CJA 連線中的資料元素，例如量度、維度、工作階段等。
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
-translation-type: tm+mt
-source-git-commit: 9b45873dbdc1a400b849723051d921b49bff6d65
+source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 96%
+source-wordcount: '1070'
+ht-degree: 94%
 
 ---
 
@@ -22,9 +21,9 @@ ht-degree: 96%
 
 Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為基礎。
 
-## 資料檢視有哪些新功能?
+## 資料檢視功能
 
-資料檢視的最新更新可讓您在處理資料檢視時有更多彈性。這些增強功能可讓您&#x200B;**自發地變更「資料檢視」中的「結構」元素設定，而不需變更 Adobe Experience Platform 的結構或重新實作 CJA 環境&#x200B;**。
+資料檢視可讓您自發變更架構元素設定，而不需變更Adobe Experience Platform的架構或重新實作CJA環境。
 
 * **您可以將元件從「量度」變更為「維度」，反之亦然**。您可以從字串欄位建立量度，或從數值欄位建立維度。這可讓您的生活更輕鬆，因為您不需要在 XDM 結構中為每個所需的量度建立數值欄位。您只需在資料檢視對話方塊中自發建立它。以下是一些範例：
    * **從單一結構欄位建立一或多個和/或一個維度**。這是一對多的關係。例如，您可以從單一結構欄位建立一或多個「收入」量度及/或一或多個「收入」維度。
