@@ -2,10 +2,9 @@
 title: 如何在 Customer Journey Analytics 中建立新的資料檢視。
 description: 說明建立新的資料檢視所需的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-translation-type: tm+mt
-source-git-commit: 199219322ca5cff48c83c66d1ad7cdab04845b2b
+source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2812'
 ht-degree: 98%
 
 ---
@@ -148,7 +147,7 @@ ht-degree: 98%
 | --- | --- |
 | [!UICONTROL 設定持續性] | 切換鍵 |
 | [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。如果您想要保留值 (類似於傳統 Analytics 中的 eVar)，則您會在這裡設定值。唯一的關鍵區別是，您可以設定的最大持續性為 90 天。此外，「[!UICONTROL 永不過期]」不是一個選項。 |
-| [!UICONTROL 有效期] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。[!UICONTROL 量度]可讓您指定任何已定義量度作為此維度的有效期 (例如[!UICONTROL 購買]量度)。 |
+| [!UICONTROL 有效期] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。[!UICONTROL 量度]可讓您指定任何已定義量度作為此維度的有效期 (例如[!UICONTROL 購買]量度)。<br>**注意**:選取「全部」配置時，無法設定維度的自訂 [!UICONTROL 過期]。 |
 
 ### 設置值分組設定
 
@@ -177,7 +176,7 @@ ht-degree: 98%
 | --- | --- | --- |
 | [!UICONTROL 人員] | 量度 | 此量度以[!UICONTROL Connection]中指定的人員ID為基礎。 |
 | [!UICONTROL 工作階段] | 量度 | 此量度以下指定的工作階段化設定為基礎。 |
-| [!UICONTROL 事件] | 量度 | 此度量表示[!UICONTROL Connection]中所有事件資料集的行數。 |
+| [!UICONTROL 事件] | 量度 | 此量度代表[!UICONTROL Connection]中所有事件資料集的列數。 |
 | [!UICONTROL 日] | 維度 | 「日」維度會報告指定量度發生的日子。第一個維度項目是日期範圍中的第一天，最後一個維度項目是日期範圍中的最後一天。 |
 | [!UICONTROL 週] | 維度 | 「週」維度會報告指定量度發生的週別。第一個維度項目是日期範圍中的第一週，最後一個維度項目是日期範圍中的最後一週。 |
 | [!UICONTROL 月] | 維度 | 「月」維度會報告指定量度發生的月份。第一個維度項目是日期範圍中的第一個月，最後一個維度項目是日期範圍中的最後一個月。 |
