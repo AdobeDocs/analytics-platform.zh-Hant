@@ -2,11 +2,10 @@
 title: Customer Journey Analytics 的資料檢視使用案例
 description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視的彈性和功能
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-translation-type: tm+mt
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
+source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 90%
 
 ---
 
@@ -39,5 +38,13 @@ ht-degree: 100%
 1. 您現在可以新增「[!UICONTROL 值分組]」，在報告中以分組方式呈現此維度。(若未進行分組，此維度的每個例項都會顯示為 Workspace 報告中的條列項目。)
 
    ![](assets/bucketing.png)
+
+## 在流量圖中將數值維度作為「量度」
+
+您可以使用數值維度將「量度」傳入[!UICONTROL 流量]視覺效果中。 以下範例顯示流入[!UICONTROL 訂購]的[!UICONTROL 行銷管道]:
+
+![](assets/flow.png)
+
+## 包含或排除量度值
 
 有關其他資料檢視設定的詳細資訊，請參閱「[建立資料檢視](/help/data-views/create-dataview.md)」。有關資料檢視的概念性概觀，請參閱「[資料檢視概觀](/help/data-views/data-views.md)」。
