@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 的資料檢視使用案例
 description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視的彈性和功能
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
+source-git-commit: 7386645aa63ddbf1fcc8835037c13382e117ef1e
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 90%
+source-wordcount: '549'
+ht-degree: 59%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 這些使用案例顯示 Customer Journey Analytics 中資料檢視的彈性和功能。
 
-## 從 pageTitle (字串) 結構欄位建立「訂單」量度
+## 1.從pageTitle（字串）結構欄位建立「訂購」量度
 
 例如，在建立資料檢視時，您可以從字串「[!UICONTROL pageTitle]」結構欄位建立「[!UICONTROL 訂單]」量度。步驟如下：
 
@@ -27,7 +27,7 @@ ht-degree: 90%
    「確認」短語表示這是訂單。在檢閱符合這些標準的所有頁面標題後，每個例項都會計為「1」。此結果是新量度 (而非計算量度)。具有包含/排除值的量度可用於任何其他量度也可使用的地方。它適用於 Attribution IQ、篩選器，以及您可使用標準量度的其他任何地方。
 1. 您可以進一步指定此量度的歸因模型，例如 「[!UICONTROL 上次接觸]」，並具有「[!UICONTROL 工作階段]」的 [!UICONTROL 「回顧」視窗]。您也可以從相同欄位建立另一個「[!UICONTROL 訂單]」量度，並為其指定不同的歸因模型，例如「[!UICONTROL 上次接觸]」，以及不同的[!UICONTROL 「回顧」視窗]，例如「[!UICONTROL 30天]」。
 
-## 將整數作為維度使用
+## 2.使用整數作為維
 
 先前，整數會自動被視為 CJA 中的量度。現在，數字 (包括 Adobe Analytics 的自訂事件) 可被視為維度。其範例如下：
 
@@ -39,12 +39,26 @@ ht-degree: 90%
 
    ![](assets/bucketing.png)
 
-## 在流量圖中將數值維度作為「量度」
+## 3.在流量圖中使用數值維度作為「量度」
 
-您可以使用數值維度將「量度」傳入[!UICONTROL 流量]視覺效果中。 以下範例顯示流入[!UICONTROL 訂購]的[!UICONTROL 行銷管道]:
+您可以使用數值維度將「量度」傳入[!UICONTROL 流量]視覺效果中。
+
+1. 在「資料檢視[元件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings)」標籤上，將「行銷管道」]結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。[!UICONTROL 
+2. 在工作區報表中，此流量顯示流入[!UICONTROL 訂單]的[!UICONTROL 行銷管道]:
 
 ![](assets/flow.png)
 
-## 包含或排除量度值
+## 4.進行子事件篩選
+
+您可以篩選事件，只顯示您想要查看的內容。 例如，在資料檢視中使用包含/排除功能，只將精力放在產生銷售額超過50美元的產品上。 因此，如果您的訂單包含50美元的產品購買和25美元的產品購買，我們將僅刪除25美元的產品購買，而不會刪除整個訂單。
+
+1. 在「資料檢視[元件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings)」標籤上，將[!UICONTROL Orders]結構欄位拖曳至[!UICONTROL Included components]下的[!UICONTROL Metrics]區域。
+1. 選取量度並在右側設定下列項目：
+   1. 在[!UICONTROL Format]下，選擇[!UICONTROL Currency]。
+   1. 在[!UICONTROL Currency]下，選擇USD。
+   1. 在[!UICONTROL 包含/排除值]下，選取[!UICONTROL 設定包含/排除值]旁的核取方塊。
+   1. 在[!UICONTROL Match]下，選擇[!UICONTROL 如果所有條件都滿足]。
+   1. 在[!UICONTROL 條件]下，選擇[!UICONTROL 大於或等於]。
+   1. 指定&quot;50&quot;作為值。
 
 有關其他資料檢視設定的詳細資訊，請參閱「[建立資料檢視](/help/data-views/create-dataview.md)」。有關資料檢視的概念性概觀，請參閱「[資料檢視概觀](/help/data-views/data-views.md)」。
