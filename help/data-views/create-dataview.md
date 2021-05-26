@@ -2,10 +2,10 @@
 title: 如何在 Customer Journey Analytics 中建立新的資料檢視。
 description: 說明建立新的資料檢視所需的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 3553a6a684bc2cd015d1b2ad6a3b02987d6d6bb2
+source-git-commit: 473b6679619c9e523997044eaa080025a762bb8d
 workflow-type: tm+mt
-source-wordcount: '2812'
-ht-degree: 98%
+source-wordcount: '2848'
+ht-degree: 96%
 
 ---
 
@@ -70,9 +70,9 @@ ht-degree: 98%
 | [!UICONTROL 欄位名稱] | 結構欄位的名稱。 |
 | [!UICONTROL 資料集類型] | 必填。不可編輯的欄位，顯示元件來自的資料集類型 (事件、查詢或設定檔)。 |
 | [!UICONTROL 資料集] | 必填。不可編輯的欄位，顯示元件來自的欄位類型 (例如字串、整數等)。此欄位可包含多個資料集。 |
-| [!UICONTROL 結構類型] | 指元件是否為字串、整數等。 |
+| [!UICONTROL 結構資料類型] | 指元件是否為字串、整數等。 |
 | [!UICONTROL 元件 ID] | 必填。[CJA API](https://adobe.io/cja-apis/docs) 使用此欄位來參考元件。您可以按一下編輯圖示並修改此元件 ID。然而，變更此元件 ID 會中斷包含此元件的所有現有 Workspace 專案。<br>如果您曾為 pageTitle 維度建立其他使用不同欄位的資料檢視，則可以重新命名該檢視，並讓維度與跨資料檢視相容。 |
-| [!UICONTROL 路徑] | 必填。不可編輯的欄位，顯示元件來自的結構路徑。 |
+| [!UICONTROL 架構路徑] | 必填。不可編輯的欄位，顯示元件來自的結構路徑。 |
 | [!UICONTROL 隱藏報告中的元件] | 預設= off。可讓您在報告中使用元件時，從「資料檢視」中組織出元件。這不會影響權限，只會影響元件組織。換言之，您可以在報告中隱藏元件，使非管理員無法存取。管理員仍可以按一下 Analysis Workspace 專案中的「[!UICONTROL 顯示所有元件]」來存取它。 |
 
 ### 設置格式設定
@@ -120,6 +120,7 @@ ht-degree: 98%
 
 | 設定 | 說明/使用案例 |
 | --- | --- |
+| [!UICONTROL 計數值] | 僅適用於布爾量度，此設定可讓您指定要將[!UICONTROL 計數True]、[!UICONTROL 計數False]或[!UICONTROL 計數True或False]設為量度值。 預設值為[!UICONTROL Count True]。 |
 | [!UICONTROL 計數實例] | 可讓您指定用作度量的數值或日期類型欄位是否應計算其設定時間，而非值本身。<br>如果您想要加總數值欄位的例項，並且只想加總欄位已&#x200B;*設定*&#x200B;的次數而非欄位內的實際值。<br>例如，這對於從「[!UICONTROL 收入]」欄位建立「[!UICONTROL 訂單]」量度非常有用。如果已設定「收入」 (revenue)，則我們想要計算 1 份單一訂單 (order)，而非數值形式的收入金額。 |
 
 ### 設置「[!UICONTROL 無值選項]」設定
