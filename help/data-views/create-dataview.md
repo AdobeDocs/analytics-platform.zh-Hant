@@ -2,10 +2,10 @@
 title: 如何在 Customer Journey Analytics 中建立新的資料檢視。
 description: 說明建立新的資料檢視所需的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
+source-git-commit: e62303250e1f6b8f3f666a04c2742126a4861893
 workflow-type: tm+mt
 source-wordcount: '2934'
-ht-degree: 93%
+ht-degree: 90%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 93%
 | [!UICONTROL 說明] | 詳細說明非必填，但建議使用。 |
 | [!UICONTROL 時區] | 選擇要顯示資料的時區。 |
 | [!UICONTROL 標籤] | 標籤可用來將資料檢視整理到不同類別中。 |
-| [!UICONTROL 容器] | 您可以在此處重新命名容器，這是容器在任何以此資料檢視為基礎的 Workspace 專案中的顯示方式。容器用於篩選器和流失/流量等，以定義範圍或內容的寬度或窄度。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=zh-Hant#filter-containers) |
-| [!UICONTROL 「人員」容器名稱是……] | 「[!UICONTROL 人員]」(預設)。「[!UICONTROL 人員]」容器包含指定時段內訪客的每次瀏覽和頁面檢視。您可以將它重新命名為「使用者」或您偏好的任何其他詞語。 |
-| [!UICONTROL 「工作階段」容器名稱是……] | 「[!UICONTROL 工作階段]」(預設)。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將它重新命名為「造訪」或您偏好的任何其他詞語。 |
+| [!UICONTROL 容器] | 您可以在此重新命名容器，以判斷容器在任何以此資料檢視為基礎的Workspace專案中的顯示方式。 容器用於篩選器、流失/流量等，以定義範圍或內容的範圍或範圍是否寬或範圍是否窄。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=zh-Hant#filter-containers) |
+| [!UICONTROL 「人員」容器名稱是……] | 「[!UICONTROL 人員]」(預設)。「[!UICONTROL 人員]」容器包含指定時段內訪客的每次瀏覽和頁面檢視。您可以將此容器重新命名為「使用者」或您偏好的任何其他詞語。 |
+| [!UICONTROL 「工作階段」容器名稱是……] | 「[!UICONTROL 工作階段]」(預設)。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「造訪」或您偏好的任何其他詞語。 |
 | [!UICONTROL 「事件」容器名稱是……] | 「[!UICONTROL 事件]」(預設)。「[!UICONTROL 事件]」容器定義您要在篩選器中包含或排除哪些頁面事件。 |
 
 接著，您可以從結構元素建立量度和維度。您也可以使用標準元件。
@@ -43,7 +43,7 @@ ht-degree: 93%
 您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「結構」欄位]。請記住：
 
 * 已包含的元件是標準必需元件 (系統生成)。
-* 我們也會依預設套用篩選器&#x200B;**[!UICONTROL &#x200B;包含資料]**，以便只顯示包含資料的結構欄位。如果您要尋找不含資料的欄位，請移除篩選器。
+* Adobe預設會套用篩選器&#x200B;**[!UICONTROL 包含資料]**，以便僅顯示包含資料的結構欄位。 如果您要尋找不包含資料的欄位，請移除篩選器。
 
 1. 現在，從左側邊欄拖曳結構欄位 (例如 [!UICONTROL pageTitle]) 至 Metrics 或 Dimensions 區段。
 
