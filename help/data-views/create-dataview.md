@@ -2,10 +2,10 @@
 title: 如何在 Customer Journey Analytics 中建立新的資料檢視。
 description: 說明建立新的資料檢視所需的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 473b6679619c9e523997044eaa080025a762bb8d
+source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
 workflow-type: tm+mt
-source-wordcount: '2848'
-ht-degree: 96%
+source-wordcount: '2934'
+ht-degree: 93%
 
 ---
 
@@ -116,11 +116,13 @@ ht-degree: 96%
 
 ### 設置行為設定
 
+可讓您指定量度在報表中的行為。
+
 ![](assets/behavior-settings.png)
 
 | 設定 | 說明/使用案例 |
 | --- | --- |
-| [!UICONTROL 計數值] | 僅適用於布爾量度，此設定可讓您指定要將[!UICONTROL 計數True]、[!UICONTROL 計數False]或[!UICONTROL 計數True或False]設為量度值。 預設值為[!UICONTROL Count True]。 |
+| [!UICONTROL 計數值] | 僅適用於布爾量度，此設定可讓您指定要將[!UICONTROL 計數True]、[!UICONTROL 計數False]或[!UICONTROL 計數True或False]設為量度值。 預設值為[!UICONTROL Count True]。 如果訂單值為50，則此量度會提供實際值，例如「50」。 |
 | [!UICONTROL 計數實例] | 可讓您指定用作度量的數值或日期類型欄位是否應計算其設定時間，而非值本身。<br>如果您想要加總數值欄位的例項，並且只想加總欄位已&#x200B;*設定*&#x200B;的次數而非欄位內的實際值。<br>例如，這對於從「[!UICONTROL 收入]」欄位建立「[!UICONTROL 訂單]」量度非常有用。如果已設定「收入」 (revenue)，則我們想要計算 1 份單一訂單 (order)，而非數值形式的收入金額。 |
 
 ### 設置「[!UICONTROL 無值選項]」設定
@@ -201,6 +203,12 @@ ht-degree: 96%
 | [!UICONTROL 批次 ID]  | 維度 | 表示「[!UICONTROL 事件]」所屬的 Experience Platform 批次。 |
 | [!UICONTROL 資料集 ID] | 維度 | 表示「[!UICONTROL 事件]」所屬的 Experience Platform 資料集。 |
 
+## 使用[!UICONTROL 複製]功能
+
+從單一結構欄位複製量度或維度，然後修改特定設定是建立多個量度或維度的簡單方式。 只需選取右上方量度或維度名稱下方的[!UICONTROL 複製]設定即可。 然後修改新量度或維度，並以較清楚描述的名稱儲存。
+
+![](assets/duplicate.png)
+
 ### 篩選結構欄位和維度/量度
 
 您可以依下列資料類型篩選左側邊欄中的結構欄位：
@@ -211,8 +219,7 @@ ht-degree: 96%
 
 ![](assets/filter-other.png)
 
-
-## 3. .新增全域篩選器至您的資料檢視
+## 新增全域篩選器至資料檢視
 
 您可以新增套用至整個資料檢視的篩選器。此篩選器將套用至您在 Workspace 中執行的任何報告。
 
