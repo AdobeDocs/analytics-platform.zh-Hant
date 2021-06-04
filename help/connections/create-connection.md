@@ -2,10 +2,9 @@
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-translation-type: tm+mt
-source-git-commit: 26176b446c5d825aa8893f0fe45190079d923251
+source-git-commit: 90470be09d666c0c3937670d5d5669ab668ed2c4
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1973'
 ht-degree: 98%
 
 ---
@@ -14,17 +13,17 @@ ht-degree: 98%
 
 連線可讓您將資料集從 [!DNL Adobe Experience Platform] 整合到 [!UICONTROL Analysis Workspace]。若要針對 [!DNL Experience Platform] 資料集製作報表，必須先為 [!DNL Experience Platform] 和 [!UICONTROL Analysis Workspace] 的資料集建立連線。
 
-按一下[這裡](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/connecting-customer-journey-analytics-to-data-sources-in-platform.html)，觀看概述影片。
+按一下[這裡](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=en)，觀看概述影片。
 
 若要建立CJA連線，您需要下列權限：
 
 Adobe Experience Platform:
-* 資料模型：查看方案，管理方案
-* 資料管理：查看資料集，管理資料集
+* 資料模型：查看結構，管理結構
+* 資料管理：檢視資料集、管理資料集
 * 資料擷取：管理來源
 
 Customer Journey Analytics
-* 產品管理存取權
+* 產品管理員存取
 
 >[!IMPORTANT]
 >
@@ -131,7 +130,7 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 * 系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。
 * 所有回填 (歷史) 資料的匯入速度都會比較慢。延遲會受您擁有的歷史資料數量，以及所選&#x200B;**[!UICONTROL 「每日事件平均數量」]**&#x200B;設定影響。舉例來說，如果您每天有超過 10 億列資料，還有 3 年的歷史資料，可能就需要數週的時間才能完全匯入。反過來說，如果您每天的資料量少於 100 萬列，而且只有 1 週的歷史資料，則不需 1 小時就能完成匯入作業。
 * 回填作業適用於整個連線，並非只是個別適用於各個資料集。
-* [Adobe Analytics Source Connector](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) 最多可匯入 13 個月資料 (不論資料量多寡)。
+* [Adobe Analytics Source Connector](https://docs.adobe.com/content/help/zh-Hant/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) 最多可匯入 13 個月資料 (不論資料量多寡)。
 
 ### 計算每日事件平均數量
 
