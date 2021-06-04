@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 的資料檢視使用案例
 description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視的彈性和功能
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
-source-git-commit: e40232916ee93136583d9ecf460367ecb7df5c8b
+source-git-commit: acf2728539562a2bb9be2adfbeb7ae6cc4f3dffd
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 47%
+source-wordcount: '763'
+ht-degree: 42%
 
 ---
 
@@ -52,7 +52,9 @@ ht-degree: 47%
 
 ## 4.進行子事件篩選
 
-您可以篩選事件，只顯示您想要查看的內容。 例如，在資料檢視中使用包含/排除功能，只將精力放在產生銷售額超過50美元的產品上。 因此，如果您的訂單包含50美元的產品購買和25美元的產品購買，我們將僅刪除25美元的產品購買，而不會刪除整個訂單。
+此功能特別適用於陣列欄位。 包含/排除功能可讓您在子事件層級進行篩選，而篩選器產生器中內建的篩選器（區段）只提供您在事件層級進行篩選。 因此，您可以在資料檢視中使用包含/排除來進行子事件篩選，然後在事件層級的篩選器中參考該新量度/維度。
+
+例如，在資料檢視中使用包含/排除功能，只將精力放在產生銷售額超過50美元的產品上。 因此，如果您的訂單包含50美元的產品購買和25美元的產品購買，我們將僅刪除25美元的產品購買，而不會刪除整個訂單。
 
 1. 在「資料檢視[元件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings)」標籤上，將[!UICONTROL 收入]結構欄位拖曳至[!UICONTROL 包含的元件]下的[!UICONTROL 量度]區域。
 1. 選取量度並在右側設定下列項目：
@@ -68,6 +70,8 @@ f.指定&quot;50&quot;作為值。
 ## 5.使用[!UICONTROL 無值選項]設定
 
 貴公司可能已花時間訓練使用者在報表中預期「未指定」。 資料檢視的預設值為「無值」。 您現在可以在資料檢視UI中將[「無值」重新命名為「未指定」](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings)。
+
+另一個範例是會籍方案註冊的維度。 在此情況下，您可以將「無值」重新命名為「無會員資格方案註冊」。
 
 ## 6.使用不同的[!UICONTROL 歸因]設定建立多個量度
 
