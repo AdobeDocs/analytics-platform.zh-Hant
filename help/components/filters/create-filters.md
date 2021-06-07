@@ -2,11 +2,10 @@
 title: 建立篩選器
 description: 了解建立篩選器的使用者介面。
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 91%
+source-wordcount: '368'
+ht-degree: 93%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 91%
 
 篩選器產生器提供的畫布可拖放量度、維度、篩選器和事件，以便根據容器階層邏輯、規則和運算子來篩選訪客。這個整合式開發工具可讓您建立並儲存簡單或複雜的篩選器，用於識別跨造訪及頁面點擊的訪客屬性和動作。
 
-您可以將任何元件類型（維度、維度項目、事件、量度、篩選、篩選範本、日期範圍）拖放至面板頂端的篩選拖放區，以建立立即篩選。
+您可以將任何元件類型 (維度、維度項目、事件、量度、篩選器、篩選器範本、日期範圍) 拖曳至面板頂端篩選器的拖放區域，建立即時篩選機制。
 
 元件類型會自動轉換成篩選條件。或者，您也可以按一下&#x200B;**[!UICONTROL 「新增篩選條件」]**&#x200B;拖放方塊中的「+」標誌。
 
@@ -44,8 +43,8 @@ ht-degree: 91%
 | 動作 | 說明 |
 |--- |--- |
 | 從選取項目建立篩選條件 | 建立內嵌篩選條件。選取列、以滑鼠右鍵按一下選取範圍，即可建立內嵌篩選條件。此篩選條件僅能套用至開啟的專案，不會儲存為 CJA 篩選條件。1. 選取所需的列。2. 以滑鼠右鍵按一下選取項目。3. 按一下&#x200B;*「從選取項目建立篩選條件」*。 |
-| 元件 > 新增篩選條件 | 顯示篩選條件產生器。如需篩選功能的詳細資訊，請參閱[篩選條件產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-build.html)。 |
-| 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在[「組織與共用」](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，您可以了解套用至專案的篩選條件可如何供收件者在共用分析中使用。 |
+| 元件 > 新增篩選條件 | 顯示篩選條件產生器。如需篩選功能的詳細資訊，請參閱[篩選條件產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。 |
+| 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在[「組織與共用」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，您可以了解套用至專案的篩選條件可如何供收件者在共用分析中使用。 |
 | 將篩選條件作為維度使用 | 影片：在 Analysis Workspace 中將篩選條件作為維度使用 |
 
 >[!VIDEO](https://video.tv.adobe.com/v/23974)
