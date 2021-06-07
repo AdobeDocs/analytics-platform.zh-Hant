@@ -2,10 +2,9 @@
 description: 色階分佈圖類似於長條圖，但前者將數字分組為範圍 (貯體)。
 title: 色階分佈圖
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '421'
 ht-degree: 87%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
 色階分佈圖類似於長條圖，但前者將數字分組為範圍 (貯體)。Analytics 會自動將數字分組至範圍貯體，但您可以在[進階設定](#section_09D774C584864D4CA6B5672DC2927477)中變更設定。
 
@@ -45,7 +44,7 @@ ht-degree: 87%
 | 起始貯體 | 決定色階分佈圖開始使用的貯體。「1」是預設值。您可設定從 0 開始的數字，一直到無限大 (無負數)。 |
 | 量度貯體 | 可讓您增加/減少資料範圍 (貯體) 的數目。貯體的最大數量是 50。 |
 | 量度貯體大小 | 可讓您設定每個貯體的大小。例如，您可將貯體大小從 1 次頁面檢視變更為 2 次頁面檢視。 |
-| 計算方法 | 可讓您選擇[訪客](https://docs.adobe.com/content/help/en/analytics/components/metrics/unique-visitors.html)、[造訪](https://docs.adobe.com/content/help/en/analytics/components/metrics/visits.html)或點擊類型。例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
+| 計算方法 | 可讓您選擇[訪客](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html)、[造訪](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)或點擊類型。例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -60,8 +59,8 @@ ht-degree: 87%
 
 ![](assets/manage-data-source.png)
 
-顯示在表格中的預先建立篩選是內部篩選，不會顯示在篩選選取器中。 按一下篩選器名稱旁的&quot;i&quot;圖示，然後按一下「設為public ]**」，將篩選器設為public。**[!UICONTROL 
+表格中顯示的預先建立篩選器是內部篩選器，不會顯示在篩選器選取器中。 按一下篩選器名稱旁的「i」圖示，然後按一下「**[!UICONTROL 設為公用]**」，將篩選器設為公用。
 
 ![](assets/prebuilt_segments.png)
 
-若想探索管理自由資料表及其他視覺效果的其他方法，例如進行資料劃分，請前往[此處](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)。
+若想探索管理自由資料表及其他視覺效果的其他方法，例如進行資料劃分，請前往[此處](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)。
