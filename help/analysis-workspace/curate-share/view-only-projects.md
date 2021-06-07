@@ -3,10 +3,9 @@ description: 工作區中僅限檢視的專案
 keywords: 僅供檢視的專案
 title: 僅供檢視的專案
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '277'
 ht-degree: 99%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
 您可以透過[專案共用工作流程](/help/analysis-workspace/curate-share/share-projects.md)，將專案以「僅限檢視」的形式與收件者共用。設置於「可檢視」角色的收件者，將獲得更為限定的專案體驗。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Adobe Analytics 的使用者共用專案，但您仍希望他們能在安全的環境中使用資料和深入分析，就可以採取此做法。
 
@@ -26,11 +25,11 @@ ht-degree: 99%
 在僅限檢視專案中停用的互動功能包括：
 
 * 隱藏左側邊欄
-* 面板日曆日期範圍。注意：如果您想要將日曆控制授權給收件者，請[將其新增至包含日期範圍的下拉式篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
+* 面板日曆日期範圍。注意：如果您想要將日曆控制授權給收件者，請[將其新增至包含日期範圍的下拉式篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
 * 自由格式篩選
 * 可見列的自由格式編號
 * 自由格式列、欄或視覺效果設定
-* 面板濾鏡
+* 面板篩選器
 * 編輯、插入和元件功能表
 * 工作區提示
 
