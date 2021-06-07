@@ -2,20 +2,19 @@
 description: 您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。
 title: 異常偵測概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+exl-id: f706cdb9-bc80-42b9-9450-4f68bdb3fd85
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 92%
+source-wordcount: '182'
+ht-degree: 96%
 
 ---
-
 
 # 異常偵測概述
 
 您可以根據 Analysis Workspace 中的內容檢視和分析資料異常。
 
-[異常偵測教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
+[「異常偵測」教學影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。
 
@@ -32,5 +31,5 @@ ht-degree: 92%
 
 Analysis Workspace 異常偵測的演算法包含
 
-* 除了現有的每日粒度，另支援對每小時、每週和每月的粒度。
+* 除了現有的每日詳細程度，另支援對每小時、每週和每月的詳細程度。
 * 感知季節性 (例如「黑色星期五」) 和假日。
