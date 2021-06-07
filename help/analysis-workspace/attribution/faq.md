@@ -2,10 +2,9 @@
 title: 歸因常見問題集
 description: 取得歸因相關常見問題的解答。
 exl-id: 3153d8c9-4ca8-4189-8a2f-511a87e8ac17
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 88%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
 **使用歸因時，「無」條列項目代表什麼？**
 
@@ -26,7 +25,7 @@ ht-degree: 88%
 
 **我應該在什麼時機使用「造訪」或「訪客」歸因回顧？**
 
-歸因回顧的選擇取決於您的使用情形。如果轉換需要的時間通常會高於單次造訪，建議使用訪客回顧。建立具有較長瀏覽定義的資料檢視也是潛在的解決方案。
+歸因回顧的選擇取決於您的使用情形。如果轉換需要的時間通常會高於單次造訪，建議使用訪客回顧。使用較長的造訪定義建立資料檢視，也是可能的解決方案。
 
 **使用歸因時，prop 和 eVar 有何差異？**
 
@@ -53,4 +52,4 @@ ht-degree: 88%
 
 **歸因如何與篩選器搭配運作？**
 
-歸因一律會在篩選前執行，而全域篩選會在套用其他報表篩選前執行。
+歸因一律會在篩選器之前執行，而全域篩選器則會在套用任何其他報表篩選器之前執行。
