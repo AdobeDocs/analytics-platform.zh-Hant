@@ -2,20 +2,19 @@
 description: Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍的欄，然後建立常用的日期比較，例如：逐年比較、逐季比較、逐月比較等。
 title: 日期比較
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: 08113536-658f-486b-ac56-6c531240c3c2
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 100%
 
 ---
-
 
 # 日期比較
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍的欄，然後建立常用的日期比較，例如：年與年、季與季、月與月等。
 
@@ -103,4 +102,3 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 <p>See Jonny Moon's email from November 3. </p>
 
  -->
-
