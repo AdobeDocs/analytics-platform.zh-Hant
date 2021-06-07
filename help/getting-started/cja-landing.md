@@ -2,11 +2,10 @@
 title: Customer Journey Analytics 指南
 description: Customer Journey Analytics 登陸頁面。
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
-translation-type: tm+mt
-source-git-commit: 37c667b9c3f85e781c79a6595648be63c686649b
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 80%
+source-wordcount: '330'
+ht-degree: 73%
 
 ---
 
@@ -23,18 +22,18 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en#cja-dataviews"> 有關增強資料檢視功能的新檔案  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=en#cja-usecases"> 關於將Google Analytics資料收錄到Adobe Experience Platform的新文檔  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=en#cja-usecases"> CJA中分析Google Analytics資料的新檔案  </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant#cja-connections"> 跨通道分析(在Customer Journey Analytics中拼接ID)  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en#cja-dataviews"> 關於增強資料檢視功能的新檔案  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=en#cja-usecases"> 有關將Google Analytics資料擷取至Adobe Experience Platform的新檔案  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=en#cja-usecases"> 在CJA中分析Google Analytics資料的新檔案  </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant#cja-connections"> 跨管道分析(在Customer Journey Analytics中匯整ID)  </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant#admin-access-permissions"> 更新使用者權限必要條件 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en#cja-usecases"> 使用物件陣列 </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-usecases/b2b.html"> 新增帳戶層級資料作為查詢資料集 </a> </li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 快速入門 </a> </li> 
-      <li><a href="https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-faq.html"> 常見問題集</a> </li> 
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html"> 新增帳戶層級資料作為查詢資料集 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 快速入門 </a> </li> 
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html"> 常見問題集</a> </li> 
    <td colname="col2" valign="top"> <p class="head"><b>發行說明</b> </p> 
     <ul> 
-     <li>請參閱最新的 <a href="https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 發行說明</a>，瞭解全新功能和修正內容。 </li> 
+     <li>請參閱最新的 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 發行說明</a>，瞭解全新功能和修正內容。 </li> 
     </ul> <p class="head"> <b>Adobe Experience Platform 資源</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/tw/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
