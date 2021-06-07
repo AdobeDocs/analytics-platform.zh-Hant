@@ -2,11 +2,10 @@
 title: 同類群組分析是什麼？
 description: 瞭解 Analysis Workspace 中的同類群組分析
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 85%
+source-wordcount: '466'
+ht-degree: 83%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 85%
 
 *`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://zh.wikipedia.org/wiki/Cohort_analysis)。)
 
-建立同類群組報表後，您可以組織其元件（特定維度、量度和篩選器），然後與任何人共用同類群組報表。 請參閱[組織與共用](/help/analysis-workspace/curate-share/curate.md)。
+建立同類群組報表後，您可以組織其元件（特定維度、量度和篩選器），然後與他人共用同類群組報表。 請參閱[組織與共用](/help/analysis-workspace/curate-share/curate.md)。
 
 [!UICONTROL 同類群組分析]的用途範例：
 
@@ -26,13 +25,13 @@ ht-degree: 85%
 
 所有具有 [!UICONTROL Analysis Workspace] 存取權限的 Analytics 客戶，皆可使用[!UICONTROL 同類群組分析]。
 
-[「同類群組分析」影片教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[「同類群組分析」影片教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
 >[!UICONTROL 同類群組分析]
 >
->不支援非篩選量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有篩選條件中可使用的量度可用於
+>不支援不可篩選的量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可在篩選條件中使用的量度，才能用於
 >[!UICONTROL 同類群組分析]，且只能以 1 為單位遞增。
 
 ## 同類群組分析功能
