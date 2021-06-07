@@ -3,11 +3,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace 概述
 description: Analysis Workspace 功能概述
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 94%
+source-wordcount: '466'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en#analysis-workspace)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant#analysis-workspace)。[深入了解...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析及分享見解。您可以使用拖放式操作介面建立分析、新增視覺效果以生動呈現資料、組織資料集、與組織中的任何人共用及排程專案。
 
@@ -37,7 +36,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ## 建立新專案 {#new-project}
 
-結束教學課程後，您就能開始建立第一個專案。開始建立分析時，**新專案模式**&#x200B;會提供各種選項。您可以思考是要透過瀏覽器或 Adobe Analytics 控制面板行動應用程式共用分析，據以選擇開啟空白專案或[空白行動記分卡](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/curator.translate.html)。
+結束教學課程後，您就能開始建立第一個專案。開始建立分析時，**新專案模式**&#x200B;會提供各種選項。您可以思考是要透過瀏覽器或 Adobe Analytics 儀表板行動應用程式共用分析，據以選擇開啟空白專案或[空白行動記分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)。
 
 ![](assets/create-new-project.png)
 
@@ -47,7 +46,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ### 元件
 
-**元** 件是維度、量度、篩選或日期範圍，所有這些都可結合在自由 **[!UICONTROL 格]** 式表格中，以開始回答您的業務問題。請務必熟悉各種[元件類型](/help/components/overview.md)，再開始建立分析。熟悉元件術語後，即可開始在&#x200B;**[!UICONTROL 自由表格]**&#x200B;中以拖放方式[建立分析](/help/analysis-workspace/build-workspace-project/freeform-overview.md)。
+**元件**&#x200B;包括維度、量度、篩選器或日期範圍，您可以在&#x200B;**[!UICONTROL 自由表格]**&#x200B;中結合這些元件，開始回應您的業務問題。請務必熟悉各種[元件類型](/help/components/overview.md)，再開始建立分析。熟悉元件術語後，即可開始在&#x200B;**[!UICONTROL 自由表格]**&#x200B;中以拖放方式[建立分析](/help/analysis-workspace/build-workspace-project/freeform-overview.md)。
 
 ![](assets/build-components.png)
 
@@ -65,4 +64,4 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ## 其他資源 {#resources}
 
-* Adobe 提供數百項 [Analytics 影片培訓教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)。
+* Adobe 提供數百項 [Analytics 影片培訓教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)。
