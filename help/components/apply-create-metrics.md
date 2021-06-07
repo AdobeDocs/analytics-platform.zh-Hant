@@ -2,14 +2,13 @@
 description: 在 Analysis Workspace 中使用量度有兩種方式。
 title: 量度
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-translation-type: tm+mt
-source-git-commit: 95b8022db4c173b27327469fe8c34afa1ea27796
+exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 85%
+source-wordcount: '250'
+ht-degree: 96%
 
 ---
-
 
 # 量度
 
@@ -29,11 +28,11 @@ ht-degree: 85%
 
 ![](assets/calc_metrics.png)
 
-[計算量度：無實施量度](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[計算量度：實施作業較少的量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## 比較不同歸因模型的量度
 
-如果您想要快速輕鬆地比較一個歸因模型與另一個歸因模型，請以滑鼠右鍵按一下量度，然後選取「比較歸因模型」]**:**[!UICONTROL 
+如果您想要快速輕鬆地比較一個歸因模型與另一個歸因模型，請在量度按一下右鍵，然後選取「**[!UICONTROL 比較歸因模型]**」：
 
 ![比較歸因](assets/compare-attribution.png)
 
