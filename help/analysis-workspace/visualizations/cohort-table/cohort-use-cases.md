@@ -1,15 +1,14 @@
 ---
-description: 同類群組分析的使用案例範例。
+description: 同類群組 (cohort) 分析的使用案例範例。
 keywords: Analysis Workspace
 title: 同類群組分析使用案例
-feature: Reports & Analytics Basics
+feature: Reports and Analytics 基本需知
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
-translation-type: tm+mt
-source-git-commit: 3c10451d5a70e4f733634efb9648da843e4c0db1
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 81%
+source-wordcount: '964'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
 [!UICONTROL 同類群組分析]的使用案例範例。
 
@@ -27,7 +26,7 @@ ht-degree: 81%
 
 您可以建立六個月的[!UICONTROL 同類群組分析]：
 
-**粒度**: 每月，從 2015 年 1 月到 2015 年 6 月。
+**詳細程度**: 每月，從 2015 年 1 月到 2015 年 6 月。
 
 **包含量度**：應用程式安裝。
 
@@ -39,7 +38,7 @@ ht-degree: 81%
 
 您在 Adobe.com 工作並提供免費 Creative Cloud 訂閱。您的目標是讓使用者從免費版本升級至 30 天試用版，最終升級至付費版本。
 
-**粒度**：每月
+**詳細程度**：每月
 
 **包含量度**：下載連結
 
@@ -53,7 +52,7 @@ ht-degree: 81%
 
 ## 複雜同類群組篩選器使用案例
 
-一家大型連鎖飯店針對多個客戶群組推出促銷活動，並追蹤其成效。為找出要鎖定的最佳使用者同類群組，他們希望建立非常明確的同類群組。使用[!UICONTROL Inclusion]和[!UICONTROL Coort]表格中的[!UICONTROL Return]標準，他們可以只定義具有多個度量和篩選器的適當同類群組群組，以識別表現欠佳的客戶群組，以鎖定促銷和交易來增加預訂。
+一家大型連鎖飯店針對多個客戶群組推出促銷活動，並追蹤其成效。為找出要鎖定的最佳使用者同類群組，他們希望建立非常明確的同類群組。使用[!UICONTROL 同類群組]表格中增強的[!UICONTROL 包含]和[!UICONTROL 回訪]條件，他們能以多個量度和篩選器來定義正確的同類群組，以找出表現不佳的客戶群組，進而利用促銷活動和優惠鎖定這些客戶，增加訂單量。
 
 ## 應用程式版本採用使用案例
 
@@ -65,8 +64,8 @@ ht-degree: 81%
 
 ## 產品上市使用案例
 
-大型服裝零售商有許多特定的客戶篩選條件，可為其業務帶來大部分收入。 每個篩選都有特定產品，其設計和建立時都會考量到篩選。 隨著每次產品上市，他們想知道在一段時間中，新產品如何促進各同類群組的銷售量。使用[!UICONTROL 世代分析]中新的[!UICONTROL 延遲表格]設定，他們可以分析指定客戶篩選器的啟動前和啟動後行為與收入。 他們可以透過這項資訊找出哪些產品創造新收入，以及哪些產品無法吸引客戶。
+一家大型服裝零售商有許多特定的客戶篩選條件，這些篩選條件可為其業務帶來大部分收入。 每個篩選器都有設計和建立的特定產品，並牢記篩選器。 隨著每次產品上市，他們想知道在一段時間中，新產品如何促進各同類群組的銷售量。他們可以使用[!UICONTROL 同類群組分析]中新的[!UICONTROL 延時表格]設定，分析指定客戶篩選器在產品上市前後的行為和收入。 他們可以透過這項資訊找出哪些產品創造新收入，以及哪些產品無法吸引客戶。
 
 ## 個人黏著度 - 最忠實的使用者使用案例
 
-一家大型航空公司的成功和收入大部分來自重複和忠實的客戶。在許多情況下，他們的忠實旅客佔其收入的大部分，而保留這些客戶對他們的長期成功至關重要。找出他們最忠實和一致的客戶通常很困難。不過，使用[!UICONTROL 世代分析]中新的[!UICONTROL 滾動計算]設定，他們可以分析忠誠的客戶篩選，並找出哪些旅行者是月繳型的重複購買者。 接著，他們便可用獎勵和福利來鎖定這些忠實旅客。此外，透過將同類群組類型從保留轉換為客戶流失，他們也能夠識別哪些客戶不會重複購買月繳型客戶，並以促銷鎖定這些篩選條件，以便與他們重新互動，並確保他們日後仍是忠實客戶。
+一家大型航空公司的成功和收入大部分來自重複和忠實的客戶。在許多情況下，他們的忠實旅客佔其收入的大部分，而保留這些客戶對他們的長期成功至關重要。找出他們最忠實和一致的客戶通常很困難。不過，透過[!UICONTROL 同類群組分析]中新的[!UICONTROL 滾動式計算]設定，他們能夠分析忠實客戶篩選條件，並找出哪些旅客為每月重複購買者。 接著，他們便可用獎勵和福利來鎖定這些忠實旅客。此外，將同類群組類型從保留率切換為流失率，他們也能找出哪些客戶未每月重複購買者，並透過促銷活動鎖定這些篩選條件，以便與他們重新互動，並確保他們日後仍為忠實客戶。
