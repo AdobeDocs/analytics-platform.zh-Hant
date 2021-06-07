@@ -1,23 +1,22 @@
 ---
 title: 在 Adobe Experience Platform 中使用行銷管道維度
 description: 使用 Analytics Data Connector 將行銷管道處理規則匯入 Adobe Experience Platform。
-translation-type: tm+mt
-source-git-commit: b5ed4c65877fa8e2de83810a3c4bd1a4048f5b31
+exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 100%
+source-wordcount: '920'
+ht-degree: 96%
 
 ---
 
-
 # 在 Adobe Experience Platform 中使用行銷管道維度
 
-貴組織使用 [Analytics Data Connector](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sources/connectors/adobe-applications/analytics.html) 將報表套裝資料匯入 CJA 時，可以在 CJA 中設定連線，製作行銷管道維度的相關報表。
+貴組織使用 [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 將報表套裝資料匯入 CJA 時，可以在 CJA 中設定連線，製作行銷管道維度的相關報表。
 
 ## 先決條件
 
-* 須先使用 [Analytics Data Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) 將報表套裝資料匯入 Adobe Experience Platform。由於行銷管道需仰賴 Analytics 報表套裝中的處理規則來運作，因此不支援其他資料來源。
-* 行銷管道處理規則須完成設定。請參閱舊版 Analytics 元件指南中的[行銷管道處理規則](https://docs.adobe.com/content/help/zh-Hant/analytics/components/marketing-channels/c-rules.html)。
+* 須先使用 [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 將報表套裝資料匯入 Adobe Experience Platform。由於行銷管道需仰賴 Analytics 報表套裝中的處理規則來運作，因此不支援其他資料來源。
+* 行銷管道處理規則須完成設定。請參閱舊版 Analytics 元件指南中的[行銷管道處理規則](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html)。
 
 ## 行銷管道結構元素
 
@@ -25,8 +24,8 @@ ht-degree: 100%
 
 1. [建立連線](/help/connections/create-connection.md)，納入以 Analytics Data Connector 為基礎的資料集。
 2. [建立資料檢視](/help/data-views/create-dataview.md)，其中包含下列維度：
-   * **`channel.typeAtSource`**：相當於[行銷管道](https://docs.adobe.com/content/help/zh-Hant/analytics/components/dimensions/marketing-channel.html)維度。
-   * **`channel._id`**：相當於[行銷管道詳細資訊](https://docs.adobe.com/content/help/zh-Hant/analytics/components/dimensions/marketing-detail.html)。
+   * **`channel.typeAtSource`**：相當於[行銷管道](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=zh-Hant)維度。
+   * **`channel._id`**：相當於[行銷管道詳細資訊](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html)。
 3. 為各維度提供所需的歸因模型和持續性。若您要同時使用首次接觸和最近一次接觸等維度，請分次將各行銷管道維度拖曳至元件區域。為各維度提供所需的歸因模型和持續性。Adobe 也建議針對各維度指定顯示名稱，以便在 Analysis Workspace 中使用。
 4. 建立資料檢視。
 
