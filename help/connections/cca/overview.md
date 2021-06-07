@@ -2,11 +2,10 @@
 title: 跨管道分析概述
 description: 重新輸入多個資料集的訪客 ID，以彙整訪客。
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
-translation-type: tm+mt
-source-git-commit: 5770817d9e72cfde4786c205ecbfb32f34fc13ab
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 95%
+source-wordcount: '1124'
+ht-degree: 94%
 
 ---
 
@@ -50,14 +49,14 @@ ht-degree: 95%
 * 以欄位為基礎的彙整不會合併或串連欄位。
 * 暫時 ID 欄位應包含單一 ID 類型 (即來自單一命名空間的 ID)。例如，暫時 ID 欄位不應包含登入 ID 和電子郵件 ID 的組合。
 * 如果針對同一永久 ID 發生了具有相同時間戳記的多個事件，但暫時 ID 欄位中的值不同，則以欄位為基礎的彙整將根據字母順序進行選擇。因此，如果永久 ID A 有兩個具有相同時間戳記的事件，且其中一個事件指定 Bob、另一個事件指定 Ann，則以欄位為基礎的彙整會選擇 Ann。
-* 跨通道分析會追蹤每個持續ID值1年（TTL = 1年）。 如果裝置超過一年沒有任何活動，接著又開始有活動，則新事件將會與匿名人員關聯，直到重新識別使用者（例如透過新登入）。
+* 跨管道分析可追蹤每個永久ID值1年（TTL = 1年）。 如果裝置超過一年內沒有活動，然後再次開始有活動，則新事件會與匿名人員相關聯，直到重新識別使用者為止（例如透過新登入）。
 
 
 ## 啟用跨管道分析
 
 符合所有先決條件並了解限制後，貴組織就能按照下列步驟，在 CJA 中開始使用。
 
-1. 將所需的資料匯入 Adobe Experience Platform。請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/tutorials/create-schema-ui.html)和[匯入資料](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/home.html)。
+1. 將所需的資料匯入 Adobe Experience Platform。請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html)和[匯入資料](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)。
 1. 請連絡您的 Adobe 客戶經理，並提供下列項目：
    * 跨管道分析啟用申請
    * 您要重設金鑰之資料集的資料集 ID
