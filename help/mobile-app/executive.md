@@ -2,11 +2,10 @@
 description: 控制面板計分卡的使用說明。
 title: Analytics 控制面板執行指南
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
-translation-type: tm+mt
-source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 98%
+source-wordcount: '1286'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +20,7 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 
 ## 本指南的詳細資訊
 
-本指南旨在協助執行使用者閱讀和理解 Analytics 控制面板的計分卡。此應用程式可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
+本指南旨在協助執行使用者閱讀和理解 Analytics 儀表板的計分卡。此應用程式可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
 
 ## 術語表
 
@@ -94,7 +93,7 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 
    圖磚的其他資訊：
 
-   * 走勢圖的粒度取決於日期範圍的長度：
+   * 走勢圖的詳細程度取決於日期範圍的長度：
 
       * 若長度為一天，圖表會顯示每小時趨勢
       * 若長度為一天以上、一年以下，則會顯示每日趨勢
@@ -120,9 +119,9 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 
    * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**[!UICONTROL 比較對象]**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**[!UICONTROL 「完成」]**。**[!UICONTROL 「日期範圍」]**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
-7. 若要將篩選器套用至您的記分卡，請點選篩選器下拉式清單，然後選取策展人已設定的篩選器。 應用程式中的[篩選器](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)運作方式與 Analytics Workspace 中相同。
+7. 若要將篩選器套用至您的計分卡，點選篩選器下拉式清單，然後選取組織者已設定的篩選器。應用程式中的[篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)運作方式與 Analytics Workspace 中相同。
 
-   ![篩選](assets/segment_filter.png)
+   ![篩選器](assets/segment_filter.png)
 
 8. 更新計分卡。如果計分卡中沒有您可能感興趣的所有度量或劃分，請連絡您的 Analytics 團隊以更新計分卡。更新後，您可以下拉畫面上的資訊卡，重新整理並載入最近新增的資料。
 
