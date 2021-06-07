@@ -1,21 +1,20 @@
 ---
-description: 如何變更視覺化色盤或指定您自己的自訂色盤。
-title: 視覺化色盤
+description: 如何變更視覺效果調色盤或指定您自己的自訂調色盤。
+title: 視覺效果調色盤
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
-translation-type: tm+mt
-source-git-commit: 7b9a65c865a3ae8803534a10fc1a2431247be091
+exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 91%
 
 ---
 
-
-# 視覺化色盤
+# 視覺效果調色盤
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
 您可以透過選擇不同的調色盤，或自訂符合您公司品牌顏色的調色盤，變更用於工作區的視覺效果調色盤。此功能會影響工作區大部分的視覺效果，但「摘要變更」、自由表格中的條件式格式以及地圖視覺效果&#x200B;**不**&#x200B;受影響。
 
@@ -39,4 +38,3 @@ ht-degree: 91%
 
 1. 若要自訂調色盤，請選取預先設定選項下方的&#x200B;**[!UICONTROL 「自訂調色盤」]**。
 1. 指定最多 16 個由逗號分隔的十六進位值 (例如，#00a4e4) 作為要使用的顏色。舉例來說，如果您只想使用 4 個值，則這些顏色會在包含更多顏色的視覺效果中自動重複。
-
