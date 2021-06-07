@@ -1,19 +1,18 @@
 ---
-description: 建立專案並新增元件（維度、量度、篩選器、日期範圍）至自由面板。
+description: 建立專案並新增元件 (維度、量度、篩選器和日期範圍) 至自由面板。
 keywords: Analysis Workspace
-title: 建立 Analysis Workspace 專案
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+title: 建立 Workspace 專案
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 86%
+source-wordcount: '666'
+ht-degree: 98%
 
 ---
 
 
 # 建立 Analysis Workspace 專案
 
-建立專案並新增元件（維度、量度、篩選器、日期範圍）至自由面板。
+建立專案並新增元件 (維度、量度、篩選器和日期範圍) 至自由面板。
 
 本文將帶您了解「Analysis Workspace」介面元素，並說明如何建立專案。
 
@@ -21,7 +20,7 @@ ht-degree: 86%
 
 1. 指定建立和組織專案的使用者權限。
 
-   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用「**[!UICONTROL 在 Analysis Workspace 中建立 / 組織專案]**」權限的群組，或新增至「**[!UICONTROL 完全報表存取]**」使用者群組。(**[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理]** > [群組](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html))。
+   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用「**[!UICONTROL 在 Analysis Workspace 中建立 / 組織專案]**」權限的群組，或新增至「**[!UICONTROL 完全報表存取]**」使用者群組。(**[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理]** > [群組](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html))。
 
 1. 在「[!DNL Experience Cloud]」中，按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 工作區」]**。
 
@@ -59,7 +58,7 @@ ht-degree: 86%
  <tbody> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > 元件</a> </td> 
-   <td colname="col2"> <p>Dimension、量度、篩選器和日期範圍，您可以拖曳至專案中。 </p> </td> 
+   <td colname="col2"> <p>您可以拖曳至專案的維度、量度、篩選器和日期範圍。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 視覺效果</a> </td> 
@@ -84,13 +83,13 @@ ht-degree: 86%
    >
    >在您複製/另存新檔後，內部連結與其所在專案為相對關係，已非原本複製的原始專案。
 
-## 新增元件和視覺化{#task_CDAC9B3007BE4A3790AFAD3746D669B1}
+## 新增元件與視覺效果 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
 1. 將 *`components`* 和 *`visualizations`* 拖曳到專案中，藉此建立您的專案。
 
    **元件**
 
-   「元件」工具列會顯示您最常使用的可搜尋維度、量度、篩選器和日期範圍。
+   元件工具列會顯示您最常使用的可搜尋維度、量度、篩選器和日期範圍。
 
 <table id="table_4626163E26DE46CB86391868BBA3AD32"> 
  <thead> 
@@ -109,8 +108,8 @@ ht-degree: 86%
    <td colname="col2"> <p>在專案層級套用。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term">「發生次數」</span>是資料表的預設量度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 濾鏡（藍色） </td> 
-   <td colname="col2"> <p>僅可在面板層級拖曳，但您可以在資料表格中建立內嵌篩選。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>如需詳細資訊，請參閱<a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  >篩選</a>。 </p> </td> 
+   <td colname="col1"> 篩選器 (藍色) </td> 
+   <td colname="col2"> <p>僅可在面板層級拖曳，但您可在資料表格中建立內嵌篩選器。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>如需詳細資訊，請參閱「<a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  >篩選器</a>」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期範圍和粒度 (紫色) </td> 
@@ -129,7 +128,7 @@ ht-degree: 86%
 
 1. 步驟
 
-## 使用右鍵功能表自訂資料{#concept_8117C300F21843B99F4E1B9AB7B11B6F}
+## 使用滑鼠右鍵功能表來自訂您的資料 {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
 滑鼠右鍵功能表可讓您執行下列動作，視您在表格中按下滑鼠右鍵的儲存格而定。
 
@@ -168,7 +167,7 @@ ht-degree: 86%
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">維度 </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">量度 </li> 
-     <li id="li_0405D339CD01405DB508A7D8D1A976B4">篩選條件 </li> 
+     <li id="li_0405D339CD01405DB508A7D8D1A976B4">篩選器 </li> 
      <li id="li_819CE81C552F49BB9C1B83ED3B42C5F7">時間 </li> 
     </ul> </td> 
    <td colname="col2"> </td> 
@@ -186,7 +185,7 @@ ht-degree: 86%
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  > 從選取項目建立篩選條件</a> </td> 
+   <td colname="col1"><a href="/help/analysis-workspace/components/t-freeform-project-segment.md"  >從選取項目建立篩選器</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
