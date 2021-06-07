@@ -2,11 +2,10 @@
 title: 自由表格中的動態與靜態維度項目
 description: 如何與表格中的動態和靜態維度項目互動。
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 94%
+source-wordcount: '515'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
 在自由表格中，列和欄可以包含各種元件值。這些值可以是動態 (隨時間變動) 或靜態 (不隨時間變動)，視您要建立的分析而定。
 
@@ -34,7 +33,7 @@ ht-degree: 94%
 
 靜態維度項目不會隨時間改變；它們是固定元件，一律會在自由表格中傳回。想要一律分析相同項目時，偏好使用靜態維度項目，不論該項目是特定行銷活動或一週中的特定幾天皆然。
 
-每當您手動選取特定元件值（維度、量度、篩選、日期範圍）並放入表格時，結果就會是列或欄的靜態清單。 如果選擇以下項目，也可以建立靜態量度項目：
+每當您手動選取特定元件值 (維度、量度、篩選器、日期範圍) 並放入表格時，結果會是列或欄的靜態清單。如果選擇以下項目，也可以建立靜態量度項目：
 
 * 在列中按一下滑鼠右鍵 >[!UICONTROL 「僅顯示選取的列」]
 * 在欄中按一下滑鼠右鍵 >[!UICONTROL 「將項目設為靜態」]
@@ -56,4 +55,4 @@ ht-degree: 94%
 自由表格總計列中動態和靜態列的行為不相同。根據預設：
 
 * 動態列會在伺服器端加總，並去除重複量度，例如造訪或訪客
-* 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
