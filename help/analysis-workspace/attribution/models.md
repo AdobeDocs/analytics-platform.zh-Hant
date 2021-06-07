@@ -2,11 +2,10 @@
 title: 歸因模型與回顧期間
 description: 不同類型的歸因將評分分配給維度項目的方式。
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
-translation-type: tm+mt
-source-git-commit: 93f4f65a3b321d16a37ed21339ef811e1f55f9ca
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 98%
+source-wordcount: '1537'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
 Adobe Analytics 中的歸因概念需要兩個元件：
 
@@ -41,7 +40,7 @@ Adobe Analytics 中的歸因概念需要兩個元件：
 
 回顧期間是指轉換要納入接觸點時需要回顧的時間量。會將較多評分給予第一次互動的歸因模型，會在不同回顧期間中顯示出較大的落差。
 
-* **造訪回顧期間：**&#x200B;回顧至轉換發生當下該次造訪的開始。造訪回顧期間較窄，因為造訪之前的時間皆不計入。瀏覽回顧視窗會遵循資料檢視中已修改的瀏覽定義。
+* **造訪回顧期間：**&#x200B;回顧至轉換發生當下該次造訪的開始。造訪回顧期間較窄，因為造訪之前的時間皆不計入。造訪回顧期間會遵循資料檢視中已修改的造訪定義。
 
 * **訪客回顧期間：**&#x200B;回顧至目前日期範圍當月 1 日以來的所有造訪。訪客回顧期間較寬，因為可計入多次造訪。訪客回顧會考量報表日期範圍當月 1 日以來的所有值。舉例來說，如果報表日期範圍為 9 月 15 日到 9 月 30 日，則訪客回顧日期範圍將是 9 月 1 日到 9 月 30 日。
 
@@ -49,7 +48,7 @@ Adobe Analytics 中的歸因概念需要兩個元件：
 
 >[!NOTE]
 >
->**[!UICONTROL 自訂回顧]** 視窗目前處於有限測試中。如需詳細資訊，請參閱[Adobe Analytics功能版本](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)。
+>**[!UICONTROL 自訂回顧]** 視窗目前正在進行有限的測試。如需詳細資訊，請參閱[Adobe Analytics功能發行](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html)。
 
 ## 範例
 
