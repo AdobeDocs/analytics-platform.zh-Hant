@@ -2,11 +2,10 @@
 title: 計算量度概觀
 description: 瞭解
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-translation-type: tm+mt
-source-git-commit: a0ea2be203aa2e0df7b195e259b6d98c0c027652
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 81%
+source-wordcount: '482'
+ht-degree: 100%
 
 ---
 
@@ -14,13 +13,13 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
-計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。無論您是行銷人員、產品經理或分析人員，不需變更  實施就能詢問資料相關問題。
+計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。無論您是行銷人員、產品經理或分析人員，不需變更實作就能詢問資料相關問題。
 
 您可以
 
-* 無須變更實施，即可建立衍生自報表執行時間的篩選量度。因為這些量度的根據是篩選器，所以可查看其歷史資料。
+* 無須變更實作，即可建立衍生自報告執行時間的篩選量度。由於這些量度的根據是篩選器，所以可查看其歷史資料。
 * (僅限進階計算量度) 量度上的篩選器。例如，您可以建立「新訪客」的量度，計算這是他們第一次工作階段的人員數量。
 * (僅限進階計算量度) 納入統計函數以協助您說明資料。例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
 
@@ -46,12 +45,12 @@ ht-degree: 81%
 | 計算量度管理員 | <ul><li>與他人共用量度。</li><li>核准和管理量度。</li><li>組織 (標記) 量度，讓別人找得到。</li><li>刪除量度。</li><li>重新命名量度。</li></ul> |
 | 計算量度的 API | Adobe Analytics 2.0 API 集的一部分。 |
 
-## CJA中的計算量度範本
+## CJA 中的計算量度範本
 
 | 計算量度名稱 | 計算量度說明 |
 | --- | --- |
-| 每人的課程 | 每人平均工作階段數 |
-| 作業開始率 | 任何維度項目在作業的第一個事件上發生的時間百分比。 |
-| 會話結束速率 | 任何維度項目在作業的最後一個事件上發生的時間百分比。 |
-| 每人逗留時間 | 人員在任何指定維度項目上所花費的平均時間。 |
-| 每個作業的逗留時間 | 人員在每個工作階段中對任何指定維度項目所花費的平均時間。 |
+| 每人工作階段數 | 每人平均工作階段數 |
+| 工作階段開始率 | 任何維度項目在工作階段的第一個事件發生的時間百分比。 |
+| 工作階段結束率 | 任何維度項目在工作階段的最後一個事件發生的時間百分比。 |
+| 每人逗留時間 | 一個人在任何特定維度項目上的平均逗留時間。 |
+| 每工作階段逗留時間 | 一個人每工作階段在任何特定維度項目上的平均逗留時間。 |
