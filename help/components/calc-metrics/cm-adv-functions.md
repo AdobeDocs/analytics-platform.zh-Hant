@@ -1,20 +1,19 @@
 ---
 title: 參考資料 - 進階函數
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
-translation-type: tm+mt
-source-git-commit: 1fb46acc9c7c70e64058d2c6a8fdcde119910fec
+exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '2947'
 ht-degree: 100%
 
 ---
-
 
 # 參考資料 - 進階函數
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
 勾選&#x200B;**[!UICONTROL 函數]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL 顯示進階]**&#x200B;即可存取這些函數。
 
@@ -730,4 +729,3 @@ Z 分數 (量度)
 >[!NOTE]
 >
 >此處假設值為常態分布。
-
