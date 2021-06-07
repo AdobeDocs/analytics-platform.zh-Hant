@@ -1,13 +1,12 @@
 ---
-description: 工作區中的專案共用和專案角色
-keywords: Analysis Workspace共用
+description: Workspace 中的專案共用和專案角色
+keywords: Analysis Workspace 共用
 title: 共用專案
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 98%
+source-wordcount: '1126'
+ht-degree: 96%
 
 ---
 
@@ -15,13 +14,13 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
 共用可讓您組織中的其他 Analysis Workspace 使用者也能使用相同專案。收件者開啟專案時，將會顯示您已套用的任何[組織](curate.md)。
 
 ## 專案角色 {#Roles}
 
-您可以將收件者新增至三個專案角色的其中之一。專案角色會繫結至使用者和特定專案 ID。專案角色不受 [Adobe Experience Cloud Admin Console](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html) 中管理的使用者權限影響。
+您可以將收件者新增至三個專案角色的其中之一。專案角色會繫結至使用者和特定專案 ID。專案角色不受 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 中管理的使用者權限影響。
 
 | 角色 | 專案控制 |
 |---|---|
@@ -34,7 +33,7 @@ ht-degree: 98%
 
 ### 未指派任何角色 (專案連結收件者)
 
-收件者若未被指派任何角色，且收到專案的[連結](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) (**[!UICONTROL 「共用] > [!UICONTROL 取得專案連結」]**)，將會獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。
+收件者若未被指派任何角色，且收到專案的[連結](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) (**[!UICONTROL 「共用] > [!UICONTROL 取得專案連結」]**)，將會獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。
 
 ### 已指派多個角色
 
@@ -55,20 +54,20 @@ ht-degree: 98%
 1. （選用）與所有收件者共用內嵌的專案元件（篩選器、計算量度和日期範圍）。
 共用後，這些元件會出現在收件者工作區的「元件」下拉式清單中。請注意，系統不會沿用此設定，此為共用時的單次動作。
 1. (可選) 將此頁面設為收件者的登陸頁面。系統不會沿用此設定，此為共用時的單次動作。
-1. 按一下「共用」。您也可以按一下&#x200B;**[!UICONTROL 組織與共用]**&#x200B;自動套用專案組織。如果專案已共用，這些按鈕將會顯示&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 組織與更新]**。深入瞭解[專案組織](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate.html)。
+1. 按一下「共用」。您也可以按一下&#x200B;**[!UICONTROL 組織與共用]**&#x200B;自動套用專案組織。如果專案已共用，這些按鈕將會顯示&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 組織與更新]**。深入瞭解[專案組織](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html)。
 
 ![](assets/share-proj-modal.png)
 
 ## 與收件者群組共用 {#Groups}
 
-所有使用者都可與群組共用專案；群組是收件者的集合。在 Adobe Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) 中的產品設定檔所定義。
+所有使用者都可與群組共用專案；群組是收件者的集合。在 Adobe Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 中的產品設定檔所定義。
 
 * 管理員可將任何群組當作共用對象，包括「全部」。
 * 非管理員則可與其所屬的群組共用，但「全部」除外。
 
 ## 共用專案連結 {#Links}
 
-您可以在&#x200B;**[!UICONTROL 共用] > [!UICONTROL 取得專案連結]**&#x200B;下取得專案連結。點選後，收件者必須先登入，才能登入專案。如果收件者未設置於角色中，則將獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。[深入了解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)如何建立工作區專案分享連結。
+您可以在&#x200B;**[!UICONTROL 共用] > [!UICONTROL 取得專案連結]**&#x200B;下取得專案連結。點選後，收件者必須先登入，才能登入專案。如果收件者未設置於角色中，則將獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)如何建立工作區專案分享連結。
 
 ## 在專案管理員中共用專案 {#Manager}
 
@@ -86,7 +85,7 @@ ht-degree: 98%
 
 ![](assets/mult-proj-sharing.png)
 
-## 常見問題解答 {#FAQs}
+## 常見問題集 {#FAQs}
 
 | 問題 | 回答 |
 |---|---|
