@@ -2,10 +2,10 @@
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-source-git-commit: 90470be09d666c0c3937670d5d5669ab668ed2c4
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 98%
+source-wordcount: '1968'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 按一下[這裡](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=en)，觀看概述影片。
 
-若要建立CJA連線，您需要下列權限：
+若要建立CJA連線，您需要[Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)中的下列權限：
 
 Adobe Experience Platform:
 * 資料模型：查看結構，管理結構
@@ -41,7 +41,7 @@ Customer Journey Analytics
 
 1. 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。
 
-   Adobe Experience Platform 提供的[沙箱](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sandbox/home.html)可將單一 Platform 例項分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。您可將沙箱視為內含資料集的「資料獨立單位」。沙箱可用於控制資料集的存取權限，選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。
+   Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)可將單一 Platform 例項分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。您可將沙箱視為內含資料集的「資料獨立單位」。沙箱可用於控制資料集的存取權限，選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。
 
    >[!IMPORTANT]
    >
@@ -71,7 +71,7 @@ Customer Journey Analytics
 
 1. **[!UICONTROL 時間戳記]**：僅適用於事件資料集，系統會自動將此設定設為 [!UICONTROL Experience Platform] 中以事件為基礎的結構之預設時間戳記欄位。
 
-1. **[!UICONTROL 結構]**：這是在 Adobe Experience Platform 中建立資料集時所依據的[結構](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/schema/composition.html)。
+1. **[!UICONTROL 結構]**：這是在 Adobe Experience Platform 中建立資料集時所依據的[結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)。
 
 1. **[!UICONTROL 人員 ID]**：您可從可用身分識別的下拉式清單中選取人員 ID。這些身分識別是在 Experience Platform 的資料集結構中所定義。若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。
 
@@ -85,7 +85,7 @@ Customer Journey Analytics
 
 Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID。「身分對應」是一種允許使用者上傳索引鍵/值組的對應資料結構。索引鍵是身分識別命名空間，值是保存身分識別值的結構。「身分對應」存在於每個上傳的列/事件，並會相應填入每一列。
 
-只要資料集所使用的結構屬於 [ExperienceEvent XDM](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html) 類別，一律適用「身分對應」。當您選擇要在 CJA 連線中包含這類資料集，您就可以選擇使用一個欄位作為主要 ID，也可以使用「身分對應」：
+只要資料集所使用的結構屬於 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) 類別，一律適用「身分對應」。當您選擇要在 CJA 連線中包含這類資料集，您就可以選擇使用一個欄位作為主要 ID，也可以使用「身分對應」：
 
 ![](assets/idmap1.png)
 
@@ -94,7 +94,7 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 | 選項 | 說明 |
 |---|---|
 | [!UICONTROL 使用主要 ID 命名空間] | 這會指示 CJA 在標示 primary=true 屬性的「身分對應」中逐列尋找身分識別，作為該列的人員 ID。也就是說，這會是在 Experience Platform 中劃分資料的主要索引鍵，也是 CJA 訪客 ID 的主要候選項目 (取決於 CJA 連線的資料集設定方式)。 |
-| [!UICONTROL 命名空間] | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/zh-Hant/experience-platform/identity/namespaces.html) 的元件，用途是作為身分識別相關內容的指標。如果您指定命名空間，CJA 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。請注意，CJA 無法執行涵蓋所有列的完整資料集掃描，據以判斷哪些命名空間實際存在，下拉式清單會列出所有可能的命名空間。您需知道資料中指定的命名空間，系統無法自動偵測。 |
+| [!UICONTROL 命名空間] | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) 的元件，用途是作為身分識別相關內容的指標。如果您指定命名空間，CJA 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。請注意，CJA 無法執行涵蓋所有列的完整資料集掃描，據以判斷哪些命名空間實際存在，下拉式清單會列出所有可能的命名空間。您需知道資料中指定的命名空間，系統無法自動偵測。 |
 
 ### 「身分對應」邊緣案例
 
@@ -117,8 +117,8 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
    | [!UICONTROL 說明] | 新增更多詳細資訊，以便區分此連線與其他連線。 |
    | [!UICONTROL 資料集] | 此連線中包含的資料集。 |
    | [!UICONTROL 從今天開始，自動匯入此連線的所有新資料集。] | 如果要建立持續連線，請選擇此選項，如此一來，新增到此連線中資料集的任何新資料批次，都會自動彙整至 ]Analysis Workspace[!UICONTROL 。 |
-   | [!UICONTROL 匯入所有現有資料] | 在您選擇此選項並儲存連線後，此連線中所有資料集來自 [!DNL Experience Platform] 的所有現有 (歷史) 資料都會匯入或回填。日後若有任何新資料集新增至這個已儲存的連線，其所有現有歷史資料也會自動匯入。另請參閱下方的[回填歷史資料](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data)。<br>**請注意，一旦儲存此連線，便無法變更這項設定。** |
-   | [!UICONTROL 每日事件平均數量] | 您必須為連線中的所有資料集指定要匯入的每日事件平均數量 (新資料&#x200B;**和**&#x200B;回填資料)。在下拉式選單中選取任一選項。這樣一來，Adobe 就可以為此資料分配足夠的空間。<br>如果您不清楚公司要匯入的每日事件平均數量，可以在 [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/zh-Hant/experience-platform/query/home.html) 中執行簡單的 SQL 查詢加以了解。<br>請參閱下方的「計算每日事件平均數量」。 |
+   | [!UICONTROL 匯入所有現有資料] | 在您選擇此選項並儲存連線後，此連線中所有資料集來自 [!DNL Experience Platform] 的所有現有 (歷史) 資料都會匯入或回填。日後若有任何新資料集新增至這個已儲存的連線，其所有現有歷史資料也會自動匯入。另請參閱下方的[回填歷史資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data)。<br>**請注意，一旦儲存此連線，便無法變更這項設定。** |
+   | [!UICONTROL 每日事件平均數量] | 您必須為連線中的所有資料集指定要匯入的每日事件平均數量 (新資料&#x200B;**和**&#x200B;回填資料)。在下拉式選單中選取任一選項。這樣一來，Adobe 就可以為此資料分配足夠的空間。<br>如果您不清楚公司要匯入的每日事件平均數量，可以在 [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) 中執行簡單的 SQL 查詢加以了解。<br>請參閱下方的「計算每日事件平均數量」。 |
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存及建立資料檢視」]**。如需相關文件，請參閱[建立資料檢視](/help/data-views/create-dataview.md)。
 
@@ -130,13 +130,13 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 * 系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。
 * 所有回填 (歷史) 資料的匯入速度都會比較慢。延遲會受您擁有的歷史資料數量，以及所選&#x200B;**[!UICONTROL 「每日事件平均數量」]**&#x200B;設定影響。舉例來說，如果您每天有超過 10 億列資料，還有 3 年的歷史資料，可能就需要數週的時間才能完全匯入。反過來說，如果您每天的資料量少於 100 萬列，而且只有 1 週的歷史資料，則不需 1 小時就能完成匯入作業。
 * 回填作業適用於整個連線，並非只是個別適用於各個資料集。
-* [Adobe Analytics Source Connector](https://docs.adobe.com/content/help/zh-Hant/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) 最多可匯入 13 個月資料 (不論資料量多寡)。
+* [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html?lang=zh-Hant) 最多可匯入 13 個月資料 (不論資料量多寡)。
 
 ### 計算每日事件平均數量
 
 連線中的每個資料集都必須完成這項計算。
 
-1. 前往 [Adobe Experience Platform Query Services](https://docs.adobe.com/content/help/en/experience-platform/query/home.html)，並建立新查詢。
+1. 前往 [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)，並建立新查詢。
 
 1. 查詢如下所示：<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
 
