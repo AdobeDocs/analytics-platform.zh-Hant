@@ -2,9 +2,9 @@
 title: Customer Journey Analytics 概觀
 description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
-source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1255'
 ht-degree: 96%
 
 ---
@@ -26,7 +26,7 @@ Customer Journey Analytics 的初始版本包含 Analysis Workspace 中的多項
 
 ## 比較 CJA 與 Cross-Device Analytics
 
-[Cross-Device Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-home.html) 與 Adobe Experience Platform Identity Service 整合，利用 Co-op 圖表或私密圖表來識別數位裝置與人員對應的方式。Adobe Analytics Ultimate 客戶可使用此功能。
+[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html) 與 Adobe Experience Platform Identity Service 整合，利用 Co-op 圖表或私密圖表來識別數位裝置與人員對應的方式。Adobe Analytics Ultimate 客戶可使用此功能。
 
 另一方面，CJA 與 Adobe Experience Platform 資料集整合，並在 Analysis Workspace 中啟用跨管道分析。雖然 CJA 尚未與 Co-op 或私密身分圖表整合，但您可以「自攜 ID」將資料集合在一起，而且這些資料集可超出數位資料的範圍，同時包含線上和離線接觸點。下文將詳細說明 CJA 必要條件。
 
@@ -66,7 +66,7 @@ Customer Journey Analytics 可用來：
 
 >[!NOTE]
 >
->您無法像在傳統的Adobe Analytics那樣，允許Customer Journey Analytics中的個別量度或維度。 量度和維度可在資料檢視中修改，因此CJA可能會變更，而CJA也會追溯變更報表。
+>您無法像傳統Adobe Analytics一樣，允許Customer Journey Analytics中的個別量度或維度。 量度和維度可在資料檢視中修改，因此CJA可能會有所變更，這也會回溯變更報表。
 
 ### 使用者存取權
 
