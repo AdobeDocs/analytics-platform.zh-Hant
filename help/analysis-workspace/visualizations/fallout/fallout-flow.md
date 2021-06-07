@@ -1,12 +1,11 @@
 ---
-description: 流失視覺化顯示訪客離開（掉落）並繼續（落入）預先定義的頁面順序。
+description: 流失視覺效果顯示訪客在預先定義的一系列頁面中離開（流失）和繼續通過（流過）的位置。
 title: 流失概述
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 88%
+source-wordcount: '243'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 88%
 
 「流失」視覺效果可供您
 
-* 對同一份報告中的兩個不同篩選器執行並排比較。
+* 對相同報表中的兩個不同篩選器執行並排比較。
 * 拖曳、放置和重新安排漏斗步驟 (接觸點)
 * 混合搭配來自不同維度和量度的值
 * 建立多維度流失報表
@@ -32,5 +31,5 @@ ht-degree: 88%
 * 更廣泛的一般流量流程：此流量可顯示在瀏覽過首頁的人當中，有多少人接下來執行了搜尋操作，接著又有多少人最終瀏覽至某一特定項目。
 * 網站上事件之間的關聯。關聯顯示在瀏覽過隱私政策的人當中，有百分之幾的人接下來執行了購買操作。
 
-[流失視覺化教學課程影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[流失視覺化教學課程影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
