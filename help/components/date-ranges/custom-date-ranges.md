@@ -2,14 +2,13 @@
 description: 在 Analysis Workspace 中建立自訂日期範圍，並將其儲存為時間元件。
 keywords: Analysis Workspace
 title: 建立自訂日期範圍
-feature: Reports & Analytics Basics
+feature: Reports and Analytics 基本需知
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
-translation-type: tm+mt
-source-git-commit: 3c10451d5a70e4f733634efb9648da843e4c0db1
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 98%
+source-wordcount: '284'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
 在 Analysis Workspace 中建立自訂日期範圍，並將其儲存為時間元件。
 
