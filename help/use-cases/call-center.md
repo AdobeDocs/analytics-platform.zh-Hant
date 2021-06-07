@@ -2,11 +2,10 @@
 title: 匯入客服中心和網路資料
 description: 了解如何建立連結客服中心和網站資料的資料集。
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-translation-type: tm+mt
-source-git-commit: f9fae62af3d57b2b700c26a402c7232c0255806b
+source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ Customer Journey Analytics 具有重要的強大功能，可將不同來源的�
 
 ## 將網路和客服中心資料匯入 Platform
 
-將您的資料匯入 Adobe Experience Platform。請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/tutorials/create-schema-ui.html)和[匯入資料](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/home.html)。
+將您的資料匯入 Adobe Experience Platform。請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html)和[匯入資料](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)。
 
 將資料匯入 Platform 時，遵循下列秘訣有助於從產生的報表中獲得更多深入見解：
 
