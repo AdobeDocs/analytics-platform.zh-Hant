@@ -2,10 +2,10 @@
 title: 如何在 Customer Journey Analytics 中建立新的資料檢視。
 description: 說明建立新的資料檢視所需的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: e62303250e1f6b8f3f666a04c2742126a4861893
+source-git-commit: d343ad40be6ae210f17dd547062e91df0aaf7fce
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 90%
+source-wordcount: '2988'
+ht-degree: 86%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 90%
 | [!UICONTROL 名稱] | 必須為資料檢視命名。 |
 | [!UICONTROL 說明] | 詳細說明非必填，但建議使用。 |
 | [!UICONTROL 時區] | 選擇要顯示資料的時區。 |
-| [!UICONTROL 標籤] | 標籤可用來將資料檢視整理到不同類別中。 |
-| [!UICONTROL 容器] | 您可以在此重新命名容器，以判斷容器在任何以此資料檢視為基礎的Workspace專案中的顯示方式。 容器用於篩選器、流失/流量等，以定義範圍或內容的範圍或範圍是否寬或範圍是否窄。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=zh-Hant#filter-containers) |
+| [!UICONTROL 標籤] | [!UICONTROL 標籤可用來將資料檢視整理到不同類別中。] |
+| [!UICONTROL 容器] | 您可以在此重新命名容器，以判斷容器在任何以此資料檢視為基礎的Workspace專案中的顯示方式。  容器用於篩選器及流失/流量等項目，以定義範圍或內容的範圍或範圍。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=zh-Hant#filter-containers) |
 | [!UICONTROL 「人員」容器名稱是……] | 「[!UICONTROL 人員]」(預設)。「[!UICONTROL 人員]」容器包含指定時段內訪客的每次瀏覽和頁面檢視。您可以將此容器重新命名為「使用者」或您偏好的任何其他詞語。 |
 | [!UICONTROL 「工作階段」容器名稱是……] | 「[!UICONTROL 工作階段]」(預設)。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「造訪」或您偏好的任何其他詞語。 |
 | [!UICONTROL 「事件」容器名稱是……] | 「[!UICONTROL 事件]」(預設)。「[!UICONTROL 事件]」容器定義您要在篩選器中包含或排除哪些頁面事件。 |
@@ -70,7 +70,7 @@ ht-degree: 90%
 | [!UICONTROL 欄位名稱] | 結構欄位的名稱。 |
 | [!UICONTROL 資料集類型] | 必填。不可編輯的欄位，顯示元件來自的資料集類型 (事件、查詢或設定檔)。 |
 | [!UICONTROL 資料集] | 必填。不可編輯的欄位，顯示元件來自的欄位類型 (例如字串、整數等)。此欄位可包含多個資料集。 |
-| [!UICONTROL 結構資料類型] | 指元件是否為字串、整數等。 |
+| [!UICONTROL 結構資料類型] | 指元件是否為字串、整數等。  雖然您可以在Platform中使用任何支援的結構描述欄位類型，但CJA並非支援所有欄位類型。 您可以使用字串或整數以外的結構欄位類型，將資料集新增至CJA，但CJA無法顯示該資料。 此外，目前「查詢」資料集僅允許使用字串。 |
 | [!UICONTROL 元件 ID] | 必填。[CJA API](https://adobe.io/cja-apis/docs) 使用此欄位來參考元件。您可以按一下編輯圖示並修改此元件 ID。然而，變更此元件 ID 會中斷包含此元件的所有現有 Workspace 專案。<br>如果您曾為 pageTitle 維度建立其他使用不同欄位的資料檢視，則可以重新命名該檢視，並讓維度與跨資料檢視相容。 |
 | [!UICONTROL 架構路徑] | 必填。不可編輯的欄位，顯示元件來自的結構路徑。 |
 | [!UICONTROL 隱藏報告中的元件] | 預設= off。可讓您在報告中使用元件時，從「資料檢視」中組織出元件。這不會影響權限，只會影響元件組織。換言之，您可以在報告中隱藏元件，使非管理員無法存取。管理員仍可以按一下 Analysis Workspace 專案中的「[!UICONTROL 顯示所有元件]」來存取它。 |
@@ -94,9 +94,9 @@ ht-degree: 90%
 
 | 設定 | 說明/使用案例 |
 | --- | --- |
-| [!UICONTROL 設定歸因] | 可讓您指定使用此量度時，預設要套用至此量度的歸因設定。此預設可在自由表格或計算量度中覆寫。 |
+| [!UICONTROL 設定歸因] | 可讓您指定使用此量度時，預設要套用至此量度的歸因設定。此預設值可在[!UICONTROL 自由表格]或計算量度中覆寫。 |
 | [!UICONTROL 歸因模型] | 可讓您指定預設歸因模型——僅在您開啟使用[!UICONTROL 非預設歸因模型]設定時啟用。預設為 「[!UICONTROL 上次接觸]」。選項包括：「上次接觸」、「首次接觸」、「線性」、「參與率」、「相同接觸」、「U 形」、「J 曲線」、「反 J」、「時間衰減」、「自訂」、「演算法」。有些選項會建立其他需要填寫的欄位，例如「自訂」或「時間衰減」。您可以使用相同欄位建立多個量度，這表示您可以有一個「[!UICONTROL 上次接觸]」收入量度和一個「[!UICONTROL 首次接觸]」收入量度，但是以結構中相同的收入欄位為基礎。 |
-| [!UICONTROL 回顧視窗] | 可讓您指定量度的回顧視窗，僅在您開啟使用[!UICONTROL 非預設歸因模型]設定時啟用。選項包括：「人員」 (報告視窗)、「工作階段」、「自訂」。在選取「Custom」 (自訂) 時，我們也會提供您選項以選取任何天數/週數/月數等。(最多 90 天)，如同 Attribution IQ。您可以使用相同的結構欄位來擁有多個量度，但每個量度都有個別的回顧視窗。 |
+| [!UICONTROL 回顧視窗] | 可讓您指定量度的回顧視窗，僅在您開啟使用[!UICONTROL 非預設歸因模型]設定時啟用。選項包括：[!UICONTROL Person]（報告窗口）、[!UICONTROL Session]、[!UICONTROL Custom]。 選取[!UICONTROL 自訂]時，我們也提供選項供您選取任何天數/周數/月數等。 （最多90天），就像[!UICONTROL Attribution IQ]。 您可以使用相同的結構欄位來擁有多個量度，但每個量度都有個別的回顧視窗。 |
 
 ### 「設置包含/排除值」設定
 
