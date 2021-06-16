@@ -2,10 +2,10 @@
 title: 如何在 Customer Journey Analytics 中建立新的資料檢視。
 description: 說明建立新的資料檢視所需的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: d343ad40be6ae210f17dd547062e91df0aaf7fce
+source-git-commit: 9507bdfa66775e75628426bbb6d177b9bb5a3c6a
 workflow-type: tm+mt
-source-wordcount: '2988'
-ht-degree: 86%
+source-wordcount: '2974'
+ht-degree: 87%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 86%
 | [!UICONTROL 欄位名稱] | 結構欄位的名稱。 |
 | [!UICONTROL 資料集類型] | 必填。不可編輯的欄位，顯示元件來自的資料集類型 (事件、查詢或設定檔)。 |
 | [!UICONTROL 資料集] | 必填。不可編輯的欄位，顯示元件來自的欄位類型 (例如字串、整數等)。此欄位可包含多個資料集。 |
-| [!UICONTROL 結構資料類型] | 指元件是否為字串、整數等。  雖然您可以在Platform中使用任何支援的結構描述欄位類型，但CJA並非支援所有欄位類型。 您可以使用字串或整數以外的結構欄位類型，將資料集新增至CJA，但CJA無法顯示該資料。 此外，目前「查詢」資料集僅允許使用字串。 |
+| [!UICONTROL 結構資料類型] | 指元件是否為字串、整數等。  雖然您可以在Platform中使用任何支援的結構描述欄位類型，但CJA並非支援所有欄位類型。 支援下列資料類型：`Integer`、`Int`、`Long`、`Double`、`Float`、`Number`、`Short`、`Byte`、`String`和`Boolean`。 請注意，目前「查詢」資料集僅允許使用字串。 |
 | [!UICONTROL 元件 ID] | 必填。[CJA API](https://adobe.io/cja-apis/docs) 使用此欄位來參考元件。您可以按一下編輯圖示並修改此元件 ID。然而，變更此元件 ID 會中斷包含此元件的所有現有 Workspace 專案。<br>如果您曾為 pageTitle 維度建立其他使用不同欄位的資料檢視，則可以重新命名該檢視，並讓維度與跨資料檢視相容。 |
 | [!UICONTROL 架構路徑] | 必填。不可編輯的欄位，顯示元件來自的結構路徑。 |
 | [!UICONTROL 隱藏報告中的元件] | 預設= off。可讓您在報告中使用元件時，從「資料檢視」中組織出元件。這不會影響權限，只會影響元件組織。換言之，您可以在報告中隱藏元件，使非管理員無法存取。管理員仍可以按一下 Analysis Workspace 專案中的「[!UICONTROL 顯示所有元件]」來存取它。 |
