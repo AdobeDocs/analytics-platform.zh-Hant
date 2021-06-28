@@ -1,18 +1,18 @@
 ---
 description: 在Analysis Workspace中以視覺化方式呈現您的資料。
 keywords: Analysis Workspace
-title: 視覺效果概述
+title: 視覺效果概觀
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 4f12248e196759c4c4fc494770048495c703c954
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1052'
 ht-degree: 93%
 
 ---
 
 # 視覺效果概述
 
-工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。如果您使用 Adobe Analytics，多數視覺效果都是您所熟悉的類型。不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
+Workspace 提供許多視覺效果，可產生資料的視覺化表示法，例如橫條圖、環圈圖、長條圖、折線圖、地圖、散點圖等。如果您使用Customer Journey Analytics，您會很熟悉大部分的視覺效果類型。 不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
 您可以從 Workspace 左上角圖示、[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)，或透過工作流程中的按一下右鍵選單來存取視覺效果。
 
@@ -75,9 +75,9 @@ Analysis Workspace 中有以下視覺效果類型：
 1. 輸入新的標籤文字。
 1. 按下 **[!UICONTROL Enter]** 以儲存。
 
-以下是此主題的[影片連結](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)。
+以下是此主題的[影片連結](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=zh-Hant)。
 
-## 在功能表上按一下右鍵{#right-click}
+## 在選單上按一下右鍵 {#right-click}
 
 以滑鼠右鍵按一下視覺效果標題，即可使用視覺效果的其他功能。 設定將依視覺效果而異。一些可用設定為：
 
@@ -90,11 +90,11 @@ Analysis Workspace 中有以下視覺效果類型：
 | [將項目下載為 CSV 檔](/help/analysis-workspace/curate-share/download-send.md) | 將所選維度下載為 CSV 檔，最多可下載 50,000 個維度項目。 |
 | [將資料下載為 CSV 檔](/help/analysis-workspace/curate-share/download-send.md) | 將視覺效果資料來源下載為 CSV 檔。 |
 | 複製視覺效果 | 完全複製目前的視覺效果，接著可供進行修改。 |
-| 編輯描述 | 新增 (或編輯) 視覺效果的文字說明。 |
+| 編輯說明 | 新增 (或編輯) 視覺效果的文字說明。 |
 | 取得視覺效果連結 | 允許您將他人導向專案中的特定視覺效果。收件者按一下連結後必須先登入系統，然後才會被導向所連結的正確視覺效果。 |
 | 重新開始 | (適用於流量圖、文氏圖表 Venn、長條圖) 可刪除目前視覺效果的設定，這樣您便可從頭開始再設定。 |
 
-## 「建立視覺效果」圖示{#quick-viz}
+## 「建立視覺效果」圖示 {#quick-viz}
 
 如果您不確定要挑選哪個視覺效果，請按一下任何表格列 (停留時適用) 的「**[!UICONTROL 建立視覺效果]**」圖示。這是新增視覺效果的最快方式。按一下圖示會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您選取了 1 列，即會建立一個最新式的線圖。如果您已選取3個篩選列，則會建立Venn圖表。
 
