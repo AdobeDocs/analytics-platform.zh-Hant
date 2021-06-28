@@ -2,9 +2,9 @@
 title: 在 Customer Journey Analytics 中執行基本分析
 description: 說明如何在 Customer Journey Analytics 中使用基本視覺效果來分析資料
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 85%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 85%
 
 * 建立線上與店內收入的趨勢報表，比較兩個資料來源隨時間的變化。
 
-* 依資料來源描繪對象大小，例如廣告曝光資料、Adobe Analytics資料、電子郵件資料、POS資料、客服中心資料和調查資料。
+* 依資料來源描繪對象大小，例如廣告曝光資料、Customer Journey Analytics資料、電子郵件資料、POS資料、客服中心資料和調查資料。
 
 ![](assets/cja-basic-analysis.png)
 
