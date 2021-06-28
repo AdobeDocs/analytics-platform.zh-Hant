@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 指南
 description: Customer Journey Analytics 登陸頁面。
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 73%
+source-wordcount: '331'
+ht-degree: 70%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 73%
 
 本技術文件指南提供 Customer Journey Analytics 的自助協助。Customer Journey Analytics 可將您選擇之任何管道的客戶資料 (線上及離線皆可) 整合到 Adobe Experience Platform 中，接著依您目前使用 Analysis Workspace 分析現有數位資料的方式加以分析。
 
-Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接任何常見客戶 ID 的線上和離線資料，進而允許您進行歸因、篩選器、流量與流失等分析。執行歸因、區段、流量、流失等分析。
+Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接任何常見客戶 ID 的線上和離線資料，進而允許您進行歸因、篩選器、流量與流失等分析。整個Customer Journey Analytics資料集。
 
 Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資格。如需詳細資訊，請聯絡您的 Adobe 客戶團隊。
 
@@ -33,7 +33,7 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html"> 常見問題集</a> </li> 
    <td colname="col2" valign="top"> <p class="head"><b>發行說明</b> </p> 
     <ul> 
-     <li>請參閱最新的 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 發行說明</a>，瞭解全新功能和修正內容。 </li> 
+     <li>請參閱最新的 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant" format="https" scope="external">Experience Cloud 發行說明</a>，瞭解全新功能和修正內容。 </li> 
     </ul> <p class="head"> <b>Adobe Experience Platform 資源</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/tw/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
