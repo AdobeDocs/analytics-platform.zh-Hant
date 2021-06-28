@@ -2,18 +2,18 @@
 title: 同類群組分析是什麼？
 description: 瞭解 Analysis Workspace 中的同類群組分析
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 83%
+source-wordcount: '468'
+ht-degree: 75%
 
 ---
 
 # 什麼是[!UICONTROL 同類群組分析]？
 
-*`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://zh.wikipedia.org/wiki/Cohort_analysis)。)
+*`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis)。)
 
-建立同類群組報表後，您可以組織其元件（特定維度、量度和篩選器），然後與他人共用同類群組報表。 請參閱[組織與共用](/help/analysis-workspace/curate-share/curate.md)。
+建立同類群組報表後，您可以組織其元件（特定維度、量度和篩選器），然後與他人共用同類群組報表。 請參閱[監管與共用](/help/analysis-workspace/curate-share/curate.md)。
 
 [!UICONTROL 同類群組分析]的用途範例：
 
@@ -23,9 +23,9 @@ ht-degree: 83%
 * 獲得定價、升級路徑等領域的 A/B 測試相關想法。
 * 在指導分析報表中檢視[!UICONTROL 同類群組分析]報表。
 
-所有具有 [!UICONTROL Analysis Workspace] 存取權限的 Analytics 客戶，皆可使用[!UICONTROL 同類群組分析]。
+[!UICONTROL 所有] 具有Analysis Workspace存取權限的Customer Journey Analytics客戶皆可使用同類 [!UICONTROL 群組分析]。
 
-[「同類群組分析」影片教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[「同類群組分析」影片教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=zh-Hant) (4:36)
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ ht-degree: 83%
 
 ### [!UICONTROL 自訂維度同類群組]
 
-根據選取的維度建立同類群組，而非根據以時間為主的同類群組 (預設)。使用[!UICONTROL 行銷管道]、[!UICONTROL 行銷活動]、[!UICONTROL 產品]、[!UICONTROL 頁面]、[!UICONTROL 地區]等 Adobe Analytics 維度，說明保留率在不同維度值的變化。
+根據選取的維度建立同類群組，而非根據以時間為主的同類群組 (預設)。使用[!UICONTROL 行銷管道]、[!UICONTROL 行銷活動]、[!UICONTROL product]、[!UICONTROL page]、[!UICONTROL 地區]等Customer Journey Analytics維度，顯示保留率在不同維度值的變化。
 
 ![](assets/cohort-customizable-cohort-row.png)
 
