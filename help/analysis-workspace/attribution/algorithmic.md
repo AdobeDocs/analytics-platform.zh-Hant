@@ -2,10 +2,10 @@
 title: 演算法歸因
 description: 演算法歸因模型的詳細資料。
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 34a1e7cea518e39ee665470dc3e1087d728b654d
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 80%
+source-wordcount: '290'
+ht-degree: 86%
 
 ---
 
@@ -14,10 +14,6 @@ ht-degree: 80%
 >[!NOTE]
 >
 >您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
-
->[!NOTE]
->
->**[!UICONTROL 演算]** 法歸因目前正在進行有限的測試。如需詳細資訊，請參閱[Adobe Analytics功能發行](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html)。
 
 Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同，因為此模型使用統計技術將評分分配給報表或自由表格中的各個維度項目。和Analysis Workspace中的所有其他歸因模型一樣，此模型也可用於任何維度或量度，並支援無限制的篩選和劃分，且會將100%的轉換分送給表格中的維度（也稱為「細分」歸因）。
 
