@@ -2,10 +2,10 @@
 description: 「快速深入分析」是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺效果
 title: 快速深入分析面板
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 74%
+source-wordcount: '1098'
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick]** Insightspanel目前正在進行有限測試。[了解更多](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html)
+>**[!UICONTROL Quick]** Insightspanel目前正在進行有限測試。[了解更多](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=zh-Hant)
 
 [!UICONTROL 快速深入分析]為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。對於想要快速解答簡單的問題而無須自行建立表格的進階使用者，這也是絕佳的工具。
 
@@ -49,7 +49,7 @@ ht-degree: 74%
 
 ## 開始使用快速深入分析
 
-1. 使用您已取得的憑證登入 Adobe Analytics。
+1. 使用您所獲得的憑證登入Customer Journey Analytics。
 1. 前往[!UICONTROL 工作區]，按一下&#x200B;**[!UICONTROL 建立新專案]**，然後按一下&#x200B;**[!UICONTROL 快速深入分析]**。(您也可以從左側邊欄中的&#x200B;**[!UICONTROL 面板]**&#x200B;功能表存取此面板。)
 
    ![](assets/qibuilder.png)
