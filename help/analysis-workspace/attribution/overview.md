@@ -2,10 +2,10 @@
 title: 歸因概觀
 description: 將成功事件的評分歸因於多個維度項目的概念。
 exl-id: 845b4310-e1b2-4690-b267-6f6d211845fb
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 93%
+source-wordcount: '421'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 1. 您的網站訪客按了一下您其中一個產品頁面的付費搜尋連結。他們將產品新增至購物車，但並未購買。
 2. 隔天，他們看到了朋友的社交媒體貼文，就按下連結，並完成購買。
 
-在某些報表中，您可能想要將訂單歸因於「付費」搜尋。在其他報表中，則可能會將訂單歸因至「社交」。歸因可讓您控制報表的這個方面。Adobe Analytics Ultimate、Prime、Select 和 Foundation 的所有組織都可使用。如果您不確定您與 Adobe 的合約類型，請聯絡貴組織的客戶經理。
+在某些報表中，您可能想要將訂單歸因於「付費」搜尋。在其他報表中，則可能會將訂單歸因至「社交」。歸因可讓您控制報表的這個方面。
 
 ## 歸因 IQ 的價值
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 ![歸因 IQ 問題](assets/attribution_iq_problem.png)
 
-Adobe Analytics 強化了歸因功能，讓您可以：
+Customer Journey Analytics可讓您：
 
 * 定義付費媒體以外的歸因：任何維度、量度，管道或事件都可以套用在模型上 (例如內部搜尋)，而不僅限於行銷活動。
 * 不限次數利用歸因模型比較功能：動態比較任意數量的模型。
