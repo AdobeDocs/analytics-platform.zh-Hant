@@ -2,10 +2,10 @@
 title: 歸因模型與回顧期間
 description: 不同類型的歸因將評分分配給維度項目的方式。
 exl-id: 2ab6add7-9dc8-419d-96f7-e0c12e6b4761
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 97%
+source-wordcount: '1516'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 >
 >您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
-Adobe Analytics 中的歸因概念需要兩個元件：
+Customer Journey Analytics中的歸因概念需要兩個元件：
 
 * **歸因模型：**&#x200B;模型用於描述群組中點擊的轉換分佈方式。例如首次接觸或上次接觸。
 * **屬性回顧期間：**&#x200B;回顧期間則描述每個模型中點擊的分類方式。例如造訪或訪客。
@@ -45,10 +45,6 @@ Adobe Analytics 中的歸因概念需要兩個元件：
 * **訪客回顧期間：**&#x200B;回顧至目前日期範圍當月 1 日以來的所有造訪。訪客回顧期間較寬，因為可計入多次造訪。訪客回顧會考量報表日期範圍當月 1 日以來的所有值。舉例來說，如果報表日期範圍為 9 月 15 日到 9 月 30 日，則訪客回顧日期範圍將是 9 月 1 日到 9 月 30 日。
 
 * **自訂回顧期間：**&#x200B;可讓您將歸因期間擴展至報告日期範圍以外，最多 90 天。系統會對報告時段內的每個轉換評估自訂回顧期間。以 2 月 20 日發生的轉換為例，10 天的回顧期間將會在歸因模型中評估 2 月 10 日到 20 日的所有維度接觸點。
-
->[!NOTE]
->
->**[!UICONTROL 自訂回顧]** 視窗目前正在進行有限的測試。如需詳細資訊，請參閱[Adobe Analytics功能發行](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html)。
 
 ## 範例
 
