@@ -3,10 +3,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace 概述
 description: Analysis Workspace 功能概述
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 98%
+source-wordcount: '461'
+ht-degree: 88%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 98%
 
 Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析及分享見解。您可以使用拖放式操作介面建立分析、新增視覺效果以生動呈現資料、組織資料集、與組織中的任何人共用及排程專案。
 
-如果您只有幾分鐘的時間，請觀看此簡短概述，以了解各項功能。
+如果您只有幾分鐘的時間，請觀看此簡短概觀，以了解各項功能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-## 登入 Adobe Analytics {#login}
+## 登入Customer Journey Analytics {#login}
 
-若要開始使用 Analysis Workspace，請前往 [experience.adobe.com/analytics](https://experience.adobe.com/analytics) 登入 Adobe Analytics。如果先前未選取特定專案，您的登陸頁面就會是 Analysis Workspace 專案清單首頁。
+若要開始使用Analysis Workspace，請前往[experience.adobe.com/analytics](https://experience.adobe.com/analytics)登入Customer Journey Analytics。 如果先前未選取特定專案，您的登陸頁面就會是 Analysis Workspace 專案清單首頁。
 
 ![](assets/login-analytics.png)
 
@@ -36,7 +36,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ## 建立新專案 {#new-project}
 
-結束教學課程後，您就能開始建立第一個專案。開始建立分析時，**新專案模式**&#x200B;會提供各種選項。您可以思考是要透過瀏覽器或 Adobe Analytics 儀表板行動應用程式共用分析，據以選擇開啟空白專案或[空白行動記分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)。
+結束教學課程後，您就能開始建立第一個專案。開始建立分析時，**新專案模式**&#x200B;會提供各種選項。您可以根據您打算從瀏覽器或Customer Journey Analytics控制面板行動應用程式共用分析，選擇從空白專案或[空白行動計分卡](/help/mobile-app/curator.md)開始。
 
 ![](assets/create-new-project.png)
 
@@ -64,4 +64,4 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ## 其他資源 {#resources}
 
-* Adobe 提供數百項 [Analytics 影片培訓教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)。
+* Adobe 提供數百項 [Analytics 影片培訓教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=zh-Hant)。
