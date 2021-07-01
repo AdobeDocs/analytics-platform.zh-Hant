@@ -2,10 +2,10 @@
 title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
-source-git-commit: 16533219915421ed3ff642250bb707bf5ef13ed7
+source-git-commit: 4933b0393ddb985ad0da7a572e67efb3e77381b8
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 91%
+source-wordcount: '1980'
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 91%
 
 按一下[這裡](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=en)，觀看概述影片。
 
-## 需要權限
+## 必要權限
 
-若要建立Customer Journey Analytics(CJA)連線，您需要[Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)中的下列權限：
+若要建立CJA連線，您需要[Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)中的下列權限：
 
 Adobe Experience Platform:
 * 資料模型：查看結構，管理結構
@@ -33,7 +33,9 @@ Customer Journey Analytics
 
 ## 選取沙箱和資料集
 
-1. 請前往 [https://analytics.adobe.com](https://analytics.adobe.com)。
+1. 前往[https://analytics.adobe.com](https://analytics.adobe.com)並使用您的Adobe ID登入。
+
+1. 按一下[!DNL Customer Journey Analytics]圖示。
 
 1. 按一下&#x200B;**[!UICONTROL 「連線」]**&#x200B;索引標籤。
 
@@ -53,10 +55,7 @@ Customer Journey Analytics
 
    (如果有很多資料集可選擇，可使用資料集清單上方的&#x200B;**[!UICONTROL 「搜尋資料集」]**&#x200B;搜尋列，搜尋合適的資料集)。
 
-   CJA以Experience Platform資料集為基礎。 雖然您可以在Platform中使用任何支援的結構描述欄位類型，但CJA並非支援所有欄位類型。 您可以使用字串或數字以外的結構欄位類型，將資料集新增至CJA，但CJA無法顯示該資料。 此外，目前「查詢」資料集僅允許使用字串。
-如果您在將資料集新增至連線後尋找要新增至資料檢視的欄位，資料集中的所有欄位都可使用預設標籤[!UICONTROL 包含資料]。 此標籤可讓資料檢視更容易管理，因為它只包含資料集中有資料的結構欄位。
-
-## 設定資料集
+## 2.設定資料集
 
 現在您可以在右側設定您所新增的資料集。
 
@@ -76,7 +75,7 @@ Customer Journey Analytics
 
 1. **[!UICONTROL 時間戳記]**：僅適用於事件資料集，系統會自動將此設定設為 [!UICONTROL Experience Platform] 中以事件為基礎的結構之預設時間戳記欄位。
 
-1. **[!UICONTROL 結構]**：這是在 Adobe Experience Platform 中建立資料集時所依據的[結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)。
+1. **[!UICONTROL 結構]**：這是在 Adobe Experience Platform 中建立資料集時所依據的[結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)。
 
 1. **[!UICONTROL 人員 ID]**：您可從可用身分識別的下拉式清單中選取人員 ID。這些身分識別是在 Experience Platform 的資料集結構中所定義。若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。
 
