@@ -2,7 +2,7 @@
 title: 管理連線
 description: 說明如何在Customer Journey Analytics(CJA)中管理與Experience Platform資料集的連線。
 mini-toc-levels: 3
-source-git-commit: fb0b35173d7a2b0daa17c34272b2b2b271095f4a
+source-git-commit: ec76734f270666d13db28fd60ffdf62c04e378bf
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 8%
@@ -18,7 +18,7 @@ ht-degree: 8%
 * 它可讓您&#x200B;**識別因錯誤設定而導致的任何資料差異**。 您缺少行嗎？ 如果是，會遺漏哪些列以及原因？ 您是否在CJA中設定了錯誤連線，且造成資料遺失？
 
 >[!NOTE]
-> 此功能將於2021年7月26日正式推出。
+> 2021年8月19日正式推出此功能。
 
 ## 連線管理器 {#connections-manager}
 
