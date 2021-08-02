@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: 58627fd11c4031449f156e70cbfa41dac143ac90
+source-git-commit: 423cf7d8a73c307bef42a62e91e7b64219f02670
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 93%
+source-wordcount: '1093'
+ht-degree: 90%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 93%
 
 | Adobe Analytics 功能 | 支援說明事項 |
 | --- | --- |
+| A4T | 透過[Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)中的欄位提供支援。 |
 | 異常偵測 | 完全支援 |
 | 歸因 IQ | 完全支援 |
 | 計算量度 | 請注意，傳統 Analysis Workspace 中的任何現有計算量度都不會移植至 CJA。 |
@@ -32,13 +33,12 @@ ht-degree: 93%
 | 專案策劃 | 完全支援 |
 | 專案連結 | 完全支援 |
 | 報表時間處理功能 | CJA 僅依賴「報表時間處理」功能。 |
-| 報表 API 存取 | 現已可透過[CJA API](https://www.adobe.io/cja-apis/docs/)使用。 |
+| 報表 API 存取 | 可透過[CJA API](https://www.adobe.io/cja-apis/docs/)取得。 |
 | 排程報表/專案 | 完全支援 |
 | 區段 | 現在稱為「篩選器」- 請注意，傳統 Analysis Workspace 中的任何現有區段都不會移植至 CJA。 |
-| 使用者權限/資料存取控制 | CJA 可區分 Adobe Admin Console 產品管理員和使用者。只有產品管理員可以 1) 建立/更新/刪除連線或資料檢視；2) 更新/刪除其他使用者建立的專案、篩選器或計算量度；以及 3) 與所有使用者共用 Analysis Workspace 專案 |
+| 使用者權限/資料存取控制 | CJA可區分[Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=en)產品管理員和使用者。 只有產品管理員才能 <ul><li>建立/更新/刪除連線或資料檢視</li><li>更新/刪除其他使用者建立的專案、篩選器或計算量度，以及</li><li>和所有使用者共用 Workspace 專案.</li></ul> |
 | 虛擬報表套裝 | 現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | VRS 元件策劃 | 現在是資料檢視的一部分。 |
-| A4T | 透過[Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)中的欄位提供支援。 |
 
 ## 支援警告功能
 
