@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics 隱私權概觀
 description: 說明隱私權設定在 Customer Journey Analytics 的運作方式。
-translation-type: tm+mt
-source-git-commit: 415a4a7f7d540a0329f973042d1c6a6a285d5b1b
-workflow-type: tm+mt
+exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
+translation-type: ht
+source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
+workflow-type: ht
 source-wordcount: '224'
 ht-degree: 100%
 
 ---
-
 
 # Customer Journey Analytics 隱私權概觀
 
