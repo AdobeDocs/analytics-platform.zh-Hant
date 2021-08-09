@@ -2,7 +2,6 @@
 title: 將全域查詢新增至資料集
 description: 在 Customer Journey Analytics 中使用全域查詢功能，透過實用維度來增強報表。
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
-translation-type: tm+mt
 source-git-commit: 26ee2b61fb80b55a7982d90941ec121547423cfc
 workflow-type: tm+mt
 source-wordcount: '312'
@@ -12,13 +11,13 @@ ht-degree: 63%
 
 # 將全域查詢新增至資料集
 
-全域查詢可增強 Customer Journey Analytics 針對部分維度/屬性建立報表的能力，這些維度/屬性本身雖不實用，但與其他資料結合後效用甚大，像是結合行動裝置和作業系統的屬性以及瀏覽器維度 (例如瀏覽器版本編號)，便是很實用的應用方式。「全域查閱」類似於查閱資料集。 全域代碼適用於所有Experience Cloud組織。 它們會自動套用至包含特定XDM架構欄位的所有事件資料集（請參閱以下特定欄位）。 對於Adobe正在分類的每個模式位置，都存在全局查找資料集。
+全域查詢可增強 Customer Journey Analytics 針對部分維度/屬性建立報表的能力，這些維度/屬性本身雖不實用，但與其他資料結合後效用甚大，像是結合行動裝置和作業系統的屬性以及瀏覽器維度 (例如瀏覽器版本編號)，便是很實用的應用方式。「全域查詢」類似於查詢資料集。 全域查詢適用於所有Experience Cloud組織。 這些欄位會自動套用至包含特定XDM結構欄位的所有事件資料集（請參閱下方的特定欄位相關資訊）。 Adobe所分類的每個結構位置皆會有全域查詢資料集。
 
-舊版 Adobe Analytics 中，這些維度會自行顯示，但在 CJA 中，您必須在建立資料檢視時主動加入這些維度。在「連線」工作流程中，您會選取以索引鍵標示為資料集的資料集。 「資料檢視」UI會自動知道包含所有可用於報告的全域查閱維度。 所有區域和帳戶的查詢檔案都會自動保持在最新狀態。這些檔案會儲存在與客戶相關聯區域的組織中。
+舊版 Adobe Analytics 中，這些維度會自行顯示，但在 CJA 中，您必須在建立資料檢視時主動加入這些維度。在「連線」工作流程中，您可以選取以全域查詢索引鍵標示為資料集的資料集。 資料檢視UI會自動知道要包含所有可用於報表的全域查詢維度。 所有區域和帳戶的查詢檔案都會自動保持在最新狀態。這些檔案會儲存在與客戶相關聯區域的組織中。
 
 ## 搭配使用全域查詢與 Adobe Data Connector 資料集
 
-全域查詢資料集會在報表時間自動套用。如果您使用Analytics資料連接器，並引入Adobe提供全域查閱的維度，我們會自動套用此全域查閱。 如果事件資料集包含 XDM 欄位，系統就能為資料集套用全域查詢。
+全域查詢資料集會在報表時間自動套用。如果您使用Analytics Data Connector，並加入Adobe提供全域查詢的維度，系統就會自動套用此全域查詢。 如果事件資料集包含 XDM 欄位，系統就能為資料集套用全域查詢。
 
 ## 可用的全域查詢欄位
 
@@ -27,9 +26,9 @@ ht-degree: 63%
 * `browser_group`
    * `browser_group`, `id`
 * `os`
-   * `os`,  `group_id`  `id`
+   * `os`,  `group_id`,  `id`
 * `os_group`
-   * `os_group`的  `id`
+   * `os_group`,  `id`
 * `mobile_audio_support - multi`
 * `mobile_color_depth`
 * `mobile_cookie_support`
