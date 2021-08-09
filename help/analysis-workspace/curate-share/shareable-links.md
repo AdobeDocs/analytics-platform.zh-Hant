@@ -16,17 +16,17 @@ ht-degree: 93%
 >
 >您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
 
-Analysis Workspace 提供許多與使用者共用專案的方式，包括取得專案連結或專案特定部分的功能。收到連結的使用者必須先登入Customer Journey Analytics，才能進入專案。
+Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專案連結或專案特定部分的功能。收到連結的使用者必須先登入Customer Journey Analytics，才能進入專案。
 
 ## 取得專案連結 {#project-link}
 
-若要分享完整專案的連結，請前往 **[!UICONTROL 「共用 > 取得專案連結」]**。如果連結收件者仍未獲指派[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)，管理員與非管理員使用者會分別收到&#x200B;**[!UICONTROL 「可編輯」]**&#x200B;和&#x200B;**[!UICONTROL 「可複製」]**&#x200B;的體驗。
+若要分享完整專案的連結，請前往 **[!UICONTROL 「共用 > 取得專案連結」]**。如果連結收件者仍未獲指派[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)，管理員與非管理員用戶會分別收到&#x200B;**[!UICONTROL 「可編輯」]**&#x200B;和&#x200B;**[!UICONTROL 「可複製」]**&#x200B;的體驗。
 
 ![](assets/get-project-link.png)
 
 ## 取得面板或視覺效果連結 {#panel-link}
 
-您也可以分享專案特定部分的連結，例如面板或個別視覺效果，有時也稱為內部連結。此功能有助於讓使用者專注於專案中重要的深入分析。
+您也可以分享專案特定部分的連結，例如面板或個別視覺效果，有時也稱為內部連結。此功能有助於讓用戶專注於專案中重要的深入分析。
 
 * 在面板的任一標題上按一下右鍵，並選取&#x200B;**[!UICONTROL 「取得面板連結」]**
 * 在任一表格或視覺效果的標題上按一下右鍵，並選取&#x200B;**[!UICONTROL 「取得視覺效果連結」]**
