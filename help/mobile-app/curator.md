@@ -2,11 +2,11 @@
 description: 控制面板計分卡的設定說明。
 title: Customer Journey Analytics 控制面板組織者指南
 exl-id: 892e5789-8eec-43d9-99fe-8448aa8600b2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2403'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 
 ## 簡介
 
-Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時隨地提供深入資訊。 應用程式可讓使用者對您建立的直覺式計分卡進行行動存取，並從 Customer Journey Analytics 桌面 UI 共用。記分卡是關鍵量度和其他元件的集合，以並排版面顯示，您可點選這些元件以取得更詳細的劃分和趨勢資料檢視。 您可以考量哪些資料對您最為重要，量身打造專屬計分卡。iOS 和 Android 作業系統均支援 Analytics 控制面板。
+Adobe Analytics 儀表板會根據 Customer Journey Analytics 資料提供隨時隨地的深入分析。應用程式可讓使用者對您建立的直覺式計分卡進行存取，並從 Customer Journey Analytics 桌面 UI 共用。計分卡是關鍵量度和其他元件的彙集，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢資料檢視。您可以考量哪些資料對您最為重要，量身打造專屬計分卡。iOS 和 Android 作業系統均支援 Analytics 控制面板。
 
 ## 本指南的詳細資訊
 
@@ -60,7 +60,7 @@ Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時
 
 **建立新專案**
 
-1. 開啟Customer Journey Analytics，然後按一下&#x200B;**項目**。
+1. 開啟 Customer Journey Analytics 並按一下「**專案**」。
 2. 按一下&#x200B;**[!UICONTROL 「建立新專案」]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 「空白行動計分卡」]**&#x200B;專案範本。
 3. 按一下&#x200B;**[!UICONTROL 「建立」]**&#x200B;按鈕。
 
@@ -68,21 +68,21 @@ Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時
 
 **新增專案**
 
-在&#x200B;**[!UICONTROL 專案]**&#x200B;畫面的&#x200B;**[!UICONTROL 「元件」]**&#x200B;標籤底下，按一下&#x200B;**[!UICONTROL 「新增」]**&#x200B;按鈕並選取&#x200B;**[!UICONTROL 「行動計分卡」]**。
+在&#x200B;**[!UICONTROL 專案]**&#x200B;畫面的&#x200B;**[!UICONTROL 「元件」]**&#x200B;索引標籤底下，按一下&#x200B;**[!UICONTROL 「新增」]**&#x200B;按鈕並選取&#x200B;**[!UICONTROL 「行動計分卡」]**。
 
 ![新增專案](assets/add_project.png)
 
 **或**
 
-從&#x200B;**[!UICONTROL 工具]**&#x200B;選單中，選擇&#x200B;**[!UICONTROL 分析控制面板（行動應用程式）]**。 在隨即顯示的畫面上，按一下&#x200B;**[!UICONTROL 「建立新計分卡」]**&#x200B;按鈕。
+在「**[!UICONTROL 工具]**」選單中，選取「**[!UICONTROL Analytics 儀表板 (行動應用程式)]**」。在隨即顯示的畫面上，按一下&#x200B;**[!UICONTROL 「建立新計分卡」]**&#x200B;按鈕。
 
 ### 使用資料設定計分卡並儲存
 
 實施計分卡範本：
 
-1. 在&#x200B;**[!UICONTROL Properties]**（在右側邊欄中）下，指定您要使用資料的&#x200B;**[!UICONTROL 專案資料檢視]**。
+1. 在「**[!UICONTROL 內容]**」下方 (右側邊欄中)，指定您要使用資料的「**[!UICONTROL 專案資料檢視]**」。
 
-   ![日期檢視選擇](assets/properties_save.png)
+   ![資料檢視選擇](assets/properties_save.png)
 
 2. 若要為計分卡新增圖磚，請從左側面板拖曳量度，放置到顯示&#x200B;**[!UICONTROL 「將量度拖放至此」]**&#x200B;的區域。您也可以使用類似的工作流程，跨圖磚插入量度。
 
@@ -98,7 +98,7 @@ Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時
 
    按一下計分卡建立程式中的圖磚，右側邊欄會顯示與該圖磚相關聯的屬性和特性。在此邊欄中，您可以為該圖磚提供新的&#x200B;**[!UICONTROL 標題]**，或是透過指定元件來設定圖磚，而不必從左側邊欄拖放元件。
 
-   ![屬性圖格](assets/properties_tile.png)
+   ![「內容」圖磚](assets/properties_tile.png)
 
    此外，如果按一下圖磚，動態快顯視窗會顯示應用程式向執行使用者呈現劃分檢視畫面的方式。如果沒有將任何維度套用至圖磚，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
 
@@ -106,35 +106,35 @@ Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時
 
    新增至圖磚的每個維度，都會顯示在應用程式詳細檢視的下拉式清單中。執行使用者可從下拉式清單中選擇選項。
 
-4. 若要將濾鏡套用至個別的圖格，請從左側面板拖曳濾鏡，並直接將其拖曳至圖格上方。 如果要將篩選器應用於記分卡中的所有表徵圖，請將表徵圖放在記分卡的頂部。 或者，您也可以在日期範圍下方的篩選功能表中選取篩選，以套用篩選。 您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
+4. 若要將篩選器套用至個別圖磚，請從左側面板將篩選器直接拖曳至圖磚上。若要將篩選器套用至計分卡上的所有圖磚，請從圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選器功能表中選取篩選器，以套用篩選器。您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
 
-   ![建立篩選](assets/segment_ui.png)
+   ![建立篩選器](assets/segment_ui.png)
 
-5. 同樣地，要刪除應用於整個記分卡的元件，請按一下拼貼外部記分卡上的任意位置，然後按一下將滑鼠懸停在元件上時顯示的&#x200B;**x**&#x200B;將其刪除，如&#x200B;**首次訪問**&#x200B;過濾器所示：
+5. 同樣地，若要移除套用至整個計分卡的元件，請在計分卡上按一下圖磚之外的任意位置，然後按一下將游標停留在元件上時顯示的 **x**，即可將其移除，如下方「**初次造訪**」篩選器所示：
 
-   ![Remove_components](assets/new_remove.png)
+   ![移除_元件](assets/new_remove.png)
 
-6. 通過選擇日期範圍下拉式清單，添加和刪除可以在記分卡中選擇的日期範圍組合。
+6. 新增和移除日期範圍組合，該組合可在計分卡中從日期範圍下拉式清單中選取。
 
-   ![新的分數卡](assets/new_score_card.png)
+   ![新計分卡](assets/new_score_card.png)
 
-   每個新記分卡都以6個日期範圍組合開始，以今天和昨天的資料為重點。 您可以按一下x來移除不必要的日期範圍，或按一下鉛筆來編輯每個日期範圍組合。
+   每個新計分卡都始於 6 個以今日和昨日的資料為主日期範圍組合。您可以按一下 x 來移除不必要的日期範圍，也可以按一下鉛筆來編輯每個日期範圍組合。
 
-   ![新的分數卡2](assets/new_score_card2.png)
+   ![新計分卡2](assets/new_score_card2.png)
 
-   若要建立或變更主要日期，請使用下拉式選單從可用的日期範圍中選取，或從右側導軌拖放日期元件至拖放區。
+   若要建立或變更主要日期，使用下拉式選單並選擇可用的日期範圍，或將右側邊欄的日期組合拖放至下拉區。
 
-   ![全新分數卡3](assets/new_score_card3.png)
+   ![新計分卡3](assets/new_score_card3.png)
 
-   若要建立比較日期，您可從下拉式功能表中，從方便的預先設定中選取常見時間比較。 您也可以從右側導軌拖放日期元件。
+   若要建立比較日期，可以在下拉式選單中選擇方便的預設集以便進行共同時間比較。您還可以從右側邊欄拖放一個日期元件。
 
-   ![全新分數卡4](assets/new_score_card4.png)
+   ![新計分卡4](assets/new_score_card4.png)
 
-   如果您想要的日期範圍尚未建立，您可以按一下日曆圖示來建立新的日期範圍。
+   如果您想要的日期範圍還沒有建立，可以按一下日曆圖示建立一個新的。
 
-   ![全新分數卡4](assets/new_score_card5.png)
+   ![新計分卡4](assets/new_score_card5.png)
 
-7. 這會帶您前往日期範圍產生器，您可在其中建立並儲存新的日期範圍元件。 若要為計分卡命名，請按一下畫面左上角的命名空間，並輸入新名稱。
+7. 這會帶您到日期範圍產生器，在其中可以建立和儲存新的日期範圍元件。若要為計分卡命名，請按一下畫面左上角的命名空間，並輸入新名稱。
 
    ![Naming_Scorecards](assets/new_name.png)
 
@@ -170,8 +170,8 @@ Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時
 * 使用者裝置的行動作業系統需為 iOS 10 (含) 以上版本或 Android 4.4 (KitKat) (含) 以上版本
 * 使用者處於 Adobe Analytics 的有效登入狀態
 * 您已為使用者正確建立行動計分卡，並與他們共用這些計分卡。
-* 他們可以訪問Analysis Workspace和記分卡所基於的資料視圖
-* 使用者可存取計分卡中的元件。請注意，您可以在共用計分卡時選取選項以&#x200B;**[!UICONTROL 共用內嵌元件]**。
+* 他們可以存取 Analysis Workspace 和計分表所根據的資料檢視
+* 使用者可存取計分卡包含的元件。請注意，您可以在共用計分卡時選取選項以&#x200B;**[!UICONTROL 共用內嵌元件]**。
 
 ### 協助執行使用者使用應用程式
 
@@ -213,7 +213,7 @@ Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時
    * 確認執行使用者能否登入正確的 Analytics 例項，以及是否已共用計分卡。
 
 
-3. 向執行用戶解釋拼貼在您共用的記分卡中的顯示方式(下面第一個記分卡是以暗模式設定的；如果您認為您的主管使用者偏好此檢視選項，請參閱以下的&#x200B;**[!UICONTROL 偏好設定]**:
+3. 向執行使用者解釋圖磚如何出現在您共用的計分卡 (下方第一個計分卡設定在黑暗模式；如果您認為執行用者偏好此檢視選項，請參閱下方的「**[!UICONTROL 偏好設定]**」)：
 
    ![說明圖磚](assets/newexplain.png)
 
@@ -237,7 +237,7 @@ Adobe Analytics儀表板可根據您的Customer Journey Analytics資料，隨時
 
    * 其中包含一個表格，會顯示新增至圖磚的維度資料。點選向下箭頭可選取維度。如果未將任何維度新增至圖磚，表格將會顯示圖表資料。
 
-5. 要更改記分卡的日期範圍，請點選「日期」標題，然後選擇要查看的主要和比較日期範圍組合。
+5. 若要變更計分卡的日期範圍，點選日期標題並選取想要檢視的主要和比較日期範圍組合。
 
    ![變更日期](assets/changedate.png)
 
