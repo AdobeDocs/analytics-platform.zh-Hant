@@ -5,7 +5,7 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 94%
 
 符合所有先決條件並了解限制後，貴組織就能按照下列步驟，在 CJA 中開始使用。
 
-1. 將所需的資料匯入 Adobe Experience Platform。請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html)和[匯入資料](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)。
+1. 將所需的資料匯入 Adobe Experience Platform。請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)和[匯入資料](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant)。
 1. 請連絡您的 Adobe 客戶經理，並提供下列項目：
    * 跨管道分析啟用申請
    * 您要重設金鑰之資料集的資料集 ID
