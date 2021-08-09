@@ -1,14 +1,14 @@
 ---
 title: 使用物件陣列
 description: 了解 CJA 如何針對資料階層製作報表。
-translation-type: tm+mt
-source-git-commit: 6229c5bb08f6f153c625932ed06e85030bc08c5a
-workflow-type: tm+mt
+exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
+translation-type: ht
+source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
+workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
 
 ---
-
 
 # 使用物件陣列
 
