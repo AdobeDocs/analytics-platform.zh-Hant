@@ -2,7 +2,6 @@
 title: 合併事件資料集
 description: 了解 CJA 如何透過合併資料集來建立連線。
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
-translation-type: tm+mt
 source-git-commit: 2b6ef07963d648d757f9c1baef123bff416a871a
 workflow-type: tm+mt
 source-wordcount: '326'
