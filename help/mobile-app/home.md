@@ -2,17 +2,17 @@
 title: Analytics 控制面板 - 概觀
 description: Customer Journey Analytics 控制面板的產品資訊和自助資源
 exl-id: 40e52441-e772-41a3-b2e3-51a3d00580d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Analytics [!UICONTROL 控制面板] - 概觀
 
-**分析控 ** 制面板可隨時隨地提供Adobe Analytics的深入資訊，包括Customer Journey Analytics。此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。記分卡是關鍵量度和其他元件的集合，以並排版面顯示，您可點選這些元件以取得更詳細的劃分和趨勢資料檢視。 iOS 和 Android 作業系統均支援行動應用程式。
+**Analytics[!UICONTROL  儀表板]**&#x200B;可隨時隨地提供 Customer Journey Analytics 的深入分析，包括 Customer Journey Analytics。此應用程式可讓使用者透過行動裝置存取直覺式計分卡。計分卡是關鍵量度和其他元件的彙集，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢資料檢視。iOS 和 Android 作業系統均支援行動應用程式。
 
 若要進一步瞭解 Analytics [!UICONTROL 控制面板]，請參閱下列資源：
 
