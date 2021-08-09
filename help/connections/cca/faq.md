@@ -1,14 +1,14 @@
 ---
 title: 跨管道分析常見問題集
 description: 跨管道分析常見問題集
-translation-type: tm+mt
-source-git-commit: dca995fc271b02a26568ed8d4a672b96f10b0a18
-workflow-type: tm+mt
+exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
+translation-type: ht
+source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
+workflow-type: ht
 source-wordcount: '460'
 ht-degree: 100%
 
 ---
-
 
 # 常見問題集
 
@@ -45,4 +45,4 @@ Adobe 啟用跨管道分析後，需要約 1 週才能使用即時彙整功能�
 
 ## 跨管道分析如何處理 GDPR 和 CCPA 要求？
 
-Adobe 會根據當地及國際法律規範處理 GDPR 和 CCPA 要求。Adobe 提供 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)，以供提交資料存取及刪除要求。這些要求會同時套用至原始資料集和已重設金鑰的資料集。
+Adobe 會根據當地及國際法律規範處理 GDPR 和 CCPA 要求。Adobe 提供 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)，以供提交資料存取及刪除要求。這些要求會同時套用至原始資料集和已重設金鑰的資料集。
