@@ -31,7 +31,7 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html"> 新增帳戶層級資料作為查詢資料集 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 快速入門 </a> </li> 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html"> 常見問題集</a> </li> 
-   <td colname="col2" valign="top"> <p class="head"><b>發行說明</b> </p> 
+   <td colname="col2" valign="top"> <p class="head"><b>版本注意事項</b> </p> 
     <ul> 
      <li>請參閱最新的 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant" format="https" scope="external">Experience Cloud 發行說明</a>，瞭解全新功能和修正內容。 </li> 
     </ul> <p class="head"> <b>Adobe Experience Platform 資源</b> </p> 
