@@ -5,7 +5,7 @@ exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 95%
 
 如果您是使用 CSV 檔案，這份[將 CSV 檔案對應至 XDM 架構](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html)的相關說明應該會有所幫助。
 
-您也可以參閱[其他方法](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)。
+您也可以參閱[其他方法](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant)。
 
 視查詢表格的大小而定，將資料上線及建立查詢作業約需 2 至 4 小時。
 
