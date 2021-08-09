@@ -58,7 +58,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ### 面板
 
-**面板**&#x200B;可供在專案中組織可能包含許多表格和視覺效果的分析。Analysis Workspace 中提供的許多面板皆可根據使用者輸入的少量內容，產生完整的分析集。在左側邊欄中，選取頂端的&#x200B;**[!UICONTROL 「面板」]**&#x200B;圖示，即可檢視完整的可用[面板](/help/analysis-workspace/c-panels/panels.md)清單。
+**面板**&#x200B;可供在專案中組織可能包含許多表格和視覺效果的分析。Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內容，產生完整的分析集。在左側邊欄中，選取頂端的&#x200B;**[!UICONTROL 「面板」]**&#x200B;圖示，即可檢視完整的可用[面板](/help/analysis-workspace/c-panels/panels.md)清單。
 
 ![](assets/build-panels.png)
 
