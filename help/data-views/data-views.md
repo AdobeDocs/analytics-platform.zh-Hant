@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->您在資料檢視中選取或變更的任何設定都是可回溯且不具破壞性的。換言之，它們不會永久變更您的基礎資料。
+>您在資料檢視中選取或變更的任何設定都是可回溯且不具破壞性的。換句話說，這些變數不會永久變更您的基礎資料。
 
 您可以針對相同的連線建立不同的資料檢視，並使用非常不同的元件集 (維度/量度)。或者，使用造訪逾時、歸因等的不同設定來建立資料檢視。例如，您可以有一個資料檢視，其中所有維度皆設為「[!UICONTROL 上次接觸]」，同時，另一個資料檢視 (以相同資料集為基礎) 則設為「[!UICONTROL 首次接觸]」。
 
@@ -23,7 +23,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 ## 資料檢視功能
 
-資料檢視可讓您自發變更架構元素設定，而不需變更Adobe Experience Platform的架構或重新實作CJA環境。
+資料檢視可讓您自發變更結構元素設定，而無須變更Adobe Experience Platform中的結構或重新實作CJA環境。
 
 * **您可以將元件從「量度」變更為「維度」，反之亦然**。您可以從字串欄位建立量度，或從數值欄位建立維度。這可讓您的生活更輕鬆，因為您不需要在 XDM 結構中為每個所需的量度建立數值欄位。您只需在資料檢視對話方塊中自發建立它。以下是一些範例：
    * **從單一結構欄位建立一或多個和/或一個維度**。這是一對多的關係。例如，您可以從單一結構欄位建立一或多個「收入」量度及/或一或多個「收入」維度。
@@ -50,7 +50,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * 您可以在資料檢視中&#x200B;**重新命名容器**，並使這些容器在任何以此資料檢視為基礎的 Workspace 專案中顯示。
 
-## 資料檢視先決條件
+## 資料檢視必要條件
 
 * 建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集的連線](/help/connections/create-connection.md)。
 * 若要建立或管理資料檢視，您需要在 [Adobe Admin Console 中設定一組權限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant#admin-access-permissions)。
@@ -61,7 +61,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * [!UICONTROL 回顧視窗]
 * 量度歸因
-* 使用者是否在報表中看到「無值]」行項目[!UICONTROL 
+* 使用者是否在報表中看到[!UICONTROL 無值]行項目
 
 ## 您無法在 Workspace 中覆寫資料檢視設定
 
@@ -78,4 +78,4 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * [建立資料檢視](/help/data-views/create-dataview.md)
 * [資料檢視使用案例](/help/data-views/data-views-usecases.md)
-* 關於[persistence](/help/data-views/persistence.md)如何運作的詳細資訊
+* [persistence](/help/data-views/persistence.md)如何運作的詳細資訊
