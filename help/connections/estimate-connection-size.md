@@ -1,14 +1,14 @@
 ---
 title: 估算連線規模
 description: 回報 Customer Journey Analytics 目前的使用狀況
-translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
-workflow-type: tm+mt
+exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
+translation-type: ht
+source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
+workflow-type: ht
 source-wordcount: '612'
 ht-degree: 100%
 
 ---
-
 
 # 估算連線規模
 
@@ -54,4 +54,4 @@ ht-degree: 100%
 
 1. 此外，如果查看 [!UICONTROL Adobe Experience Platform]，會發現沒有 ID 為「5f21c12b732044194bffc1d0」的資料集，這是因為最初建立連線時，有人從 [!UICONTROL Adobe Experience Platform] 中刪除了這個資料集。之後，雖然有人將資料集重新新增至 [!UICONTROL Customer Journey Analytics]，但 [!UICONTROL Adobe Experience Platform] 產生的 [!UICONTROL Platform 資料集 ID] 不同。
 
-深入了解在 [!UICONTROL Customer Journey Analytics] 和 [!UICONTROL Adobe Experience Platform] 中[刪除資料集和連線可能造成的後果](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components)。
+深入了解在 [!UICONTROL Customer Journey Analytics] 和 [!UICONTROL Adobe Experience Platform] 中[刪除資料集和連線可能造成的後果](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#implications-of-deleting-data-components)。
