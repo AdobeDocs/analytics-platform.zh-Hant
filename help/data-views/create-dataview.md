@@ -2,10 +2,10 @@
 title: 如何在 Customer Journey Analytics 中建立新的資料檢視。
 description: 說明建立新的資料檢視所需的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 9507bdfa66775e75628426bbb6d177b9bb5a3c6a
+source-git-commit: f2e13469faf540d997fcac4687aa51533b543c84
 workflow-type: tm+mt
-source-wordcount: '2974'
-ht-degree: 87%
+source-wordcount: '3024'
+ht-degree: 85%
 
 ---
 
@@ -124,6 +124,7 @@ ht-degree: 87%
 | --- | --- |
 | [!UICONTROL 計數值] | 僅適用於布爾量度，此設定可讓您指定要將[!UICONTROL 計數True]、[!UICONTROL 計數False]或[!UICONTROL 計數True或False]設為量度值。 預設值為[!UICONTROL Count True]。 如果訂單值為50，則此量度會提供實際值，例如「50」。 |
 | [!UICONTROL 計數實例] | 可讓您指定用作度量的數值或日期類型欄位是否應計算其設定時間，而非值本身。<br>如果您想要加總數值欄位的例項，並且只想加總欄位已&#x200B;*設定*&#x200B;的次數而非欄位內的實際值。<br>例如，這對於從「[!UICONTROL 收入]」欄位建立「[!UICONTROL 訂單]」量度非常有用。如果已設定「收入」 (revenue)，則我們想要計算 1 份單一訂單 (order)，而非數值形式的收入金額。 |
+| [!UICONTROL 小寫] | *新增*  — 適用於「字串」類型的維度。此設定可讓您控制Customer Journey Analytics是否將維度值視為區分大小寫。 它允許對具有相同值但大小寫不同的列執行去重複化。 此螢幕擷圖顯示工作區中區分大小寫維度的範例：<br>![區分大小寫維度](assets/case-sens-workspace.png) |
 
 ### 設置「[!UICONTROL 無值選項]」設定
 
