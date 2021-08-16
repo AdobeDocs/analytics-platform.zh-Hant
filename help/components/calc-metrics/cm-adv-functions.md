@@ -2,10 +2,10 @@
 title: 參考資料 - 進階函數
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 15312a57f0f122d22d0575f2008d547bcb8ab2ed
 workflow-type: tm+mt
-source-wordcount: '2947'
-ht-degree: 100%
+source-wordcount: '2944'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ Approximate Count Distinct (dimension)
 
 ## 超出不重複值
 
-就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://marketing.adobe.com/resources/help/zh_TW/reference/metrics_uniques_high_numbers.html)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
+就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=en)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
 
 ## 比較計數函數
 
@@ -118,7 +118,7 @@ ATAN(metric)
 
 ## 指數迴歸：預計 Y (列)
 
-已知 x 值 (metric_X)，計算預計 y 值 (metric_Y)，根據  ) 使用「最小平方」方法計算最佳配適線。
+已知 x 值 (metric_X)，計算預計 y 值 (metric_Y)，根據以下條件使用「最小平方」方法計算最佳配適線。
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
