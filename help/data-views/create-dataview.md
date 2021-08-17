@@ -2,10 +2,10 @@
 title: 如何在 Customer Journey Analytics 中建立新的資料檢視。
 description: 說明建立新的資料檢視所需的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: bf3744ce700adf29e63066c3f15a72f0b20d01b1
+source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
 workflow-type: tm+mt
-source-wordcount: '3054'
-ht-degree: 82%
+source-wordcount: '3069'
+ht-degree: 80%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 82%
 | --- | --- |
 | [!UICONTROL 計數值] | 僅適用於布爾量度，此設定可讓您指定要將[!UICONTROL 計數True]、[!UICONTROL 計數False]或[!UICONTROL 計數True或False]設為量度值。 預設值為[!UICONTROL Count True]。 如果訂單值為50，則此量度會提供實際值，例如「50」。 |
 | [!UICONTROL 計數實例] | 可讓您指定用作度量的數值或日期類型欄位是否應計算其設定時間，而非值本身。<br>如果您想要加總數值欄位的例項，並且只想加總欄位已&#x200B;*設定*&#x200B;的次數而非欄位內的實際值。<br>例如，這對於從「[!UICONTROL 收入]」欄位建立「[!UICONTROL 訂單]」量度非常有用。如果已設定「收入」 (revenue)，則我們想要計算 1 份單一訂單 (order)，而非數值形式的收入金額。 |
-| [!UICONTROL 小寫] | *新增*  — 適用於「字串」類型的維度。此設定可讓您控制Customer Journey Analytics是否將維度值視為區分大小寫。 它允許對具有相同值但大小寫不同的列執行去重複化。 如果您勾選&#x200B;**[!UICONTROL 小寫]**，則具有相同值的維度的所有例項都會報告為小寫。 此螢幕截圖顯示如果您執行&#x200B;**not**&#x200B;檢查[!UICONTROL 小寫]，會發生什麼情況。 請注意，&quot;liverpool&quot;、&quot;Liverpool&quot;及&quot;LIVERPOOL&quot;在報表中如何產生三個不同的明細項目：<br>![區分大小寫的維度](assets/case-sens-workspace.png) |
+| [!UICONTROL 小寫] | *新增*  — 適用於「字串」類型的維度。此設定可讓您控制Customer Journey Analytics是否將維度值視為區分大小寫。 它允許對具有相同值但大小寫不同的列執行去重複化。 如果您勾選&#x200B;**[!UICONTROL 小寫]**，則具有相同值的維度的所有例項都會報告為小寫。 此螢幕截圖顯示如果您執行&#x200B;**not**&#x200B;勾選[!UICONTROL 小寫]，而您執行&#x200B;**do**&#x200B;勾選方塊會發生什麼事。 在左表格中，請注意「利物浦」、「利物浦」和「利物浦」在報表中如何產生三個不同的明細項目。 在右表中，這些相同的值已經過去重複化，並歸類到一行項目下：<br>![區分大小寫的維](assets/case-sens-workspace.png) |
 
 ### 設置「[!UICONTROL 無值選項]」設定
 
@@ -150,7 +150,7 @@ ht-degree: 82%
 | 設定 | 說明/使用案例 |
 | --- | --- |
 | [!UICONTROL 設定持續性] | 切換鍵 |
-| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。如果您想要保留值 (類似於傳統 Analytics 中的 eVar)，則您會在這裡設定值。唯一的關鍵區別是，您可以設定的最大持續性為 90 天。此外，「[!UICONTROL 永不過期]」不是一個選項。 |
+| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。如果您想要保存值，請在此處設定值。 您可設定的永續性上限為90天。 此外，「[!UICONTROL 永不過期]」不是一個選項。 |
 | [!UICONTROL 有效期] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。[!UICONTROL 量度]可讓您指定任何已定義量度作為此維度的有效期 (例如[!UICONTROL 購買]量度)。<br>**注意**:選取「全部」配置時，無法設定維度的自訂 [!UICONTROL 過期]。 |
 
 ### 設置值分組設定
