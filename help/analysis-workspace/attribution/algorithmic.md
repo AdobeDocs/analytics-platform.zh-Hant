@@ -2,10 +2,10 @@
 title: 演算法歸因
 description: 演算法歸因模型的詳細資料。
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
-source-git-commit: 34a1e7cea518e39ee665470dc3e1087d728b654d
+source-git-commit: 3f893e5430eb4591939226e694f70064a90c7adb
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 86%
+source-wordcount: '298'
+ht-degree: 84%
 
 ---
 
@@ -14,6 +14,10 @@ ht-degree: 86%
 >[!NOTE]
 >
 >您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
+
+演算法歸因的影片概觀如下：
+
+>[!VIDEO](https://video.tv.adobe.com/v/36205/?quality=12)
 
 Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同，因為此模型使用統計技術將評分分配給報表或自由表格中的各個維度項目。和Analysis Workspace中的所有其他歸因模型一樣，此模型也可用於任何維度或量度，並支援無限制的篩選和劃分，且會將100%的轉換分送給表格中的維度（也稱為「細分」歸因）。
 
@@ -24,6 +28,6 @@ Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同
 * Shapley, Lloyd S. (1953)。A value for n-person games。*Contributions to the Theory of Games, 2(28)*, 307-317。
 * Harsanyi, John C. (1963)。A simplified bargaining model for the n-person cooperative game。*International Economic Review 4(2)*, 194-220。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >只有在給定回顧期間內多個接觸點存在時，演算法歸因的結果才會與其他模型不同。無論歸因模型為何，單一接觸點的轉換都會獲得 100% 的評分。
