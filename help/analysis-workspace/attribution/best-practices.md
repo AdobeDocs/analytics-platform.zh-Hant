@@ -1,10 +1,10 @@
 ---
 title: 歸因最佳實務
 description: 決定歸因模型有何最佳實務？
-source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
+source-git-commit: 0e0d77425edeceb3ede6d2d7ca81846b30179607
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 2%
+source-wordcount: '393'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 >[!NOTE]
 >您必須先進行此分析，才能挑選歸因模型。
 
-此階段最初包括了解客戶行為並定義轉換量度。 根據轉換量度，[資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en)（針對原始資料）或Analysis Workspace等工具可協助您了解
+此階段最初包括了解客戶行為並定義轉換量度。 根據轉換量度，Analysis Workspace等工具以及從多個管道提取資料來源（例如曝光數資料），可協助您了解
 
 * 轉換前，有多少客戶接觸到不同的行銷管道？
 * 這些行為的比例/分佈。
@@ -53,6 +53,3 @@ ht-degree: 2%
 ## 其他考量
 
 * 您可能需要使用資料科學家的服務，而不是只依賴Analysis Workspace。
-* 您可以依賴原始資料，例如Adobe資料摘要。
-* 例如，如果您想要考慮「曝光數」資料，請考慮使用[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)。
-
