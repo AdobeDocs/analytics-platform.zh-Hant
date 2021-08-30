@@ -3,10 +3,10 @@ description: 在Analysis Workspace中以視覺化方式呈現您的資料。
 keywords: Analysis Workspace
 title: 視覺效果概觀
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: fa0033202650f17acd275f1050565285c1464f53
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 93%
+source-wordcount: '1043'
+ht-degree: 92%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 93%
 
 Workspace 提供許多視覺效果，可產生資料的視覺化表示法，例如橫條圖、環圈圖、長條圖、折線圖、地圖、散點圖等。如果您使用Customer Journey Analytics，您會很熟悉大部分的視覺效果類型。 不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
-您可以從 Workspace 左上角圖示、[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)，或透過工作流程中的按一下右鍵選單來存取視覺效果。
+您可以從 Workspace 左上角圖示、[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)，或透過工作流程中的按一下右鍵功能表來存取視覺效果。
 
-![](assets/viz-rail.png)
+![視覺效果邊欄](assets/viz-rail.png)
 
 Analysis Workspace 中有以下視覺效果類型：
 
@@ -36,7 +36,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | [散點圖](/help/analysis-workspace/visualizations/scatterplot.md) | 顯示維度項目與最多三個量度之間的關係。 |
 | [摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md) | 以 1 個大數字來顯示選取的儲存格。 |
 | [摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md) | 以 1 個大數字/百分比來顯示選取儲存格之間的變化。 |
-| [文字](/help/analysis-workspace/visualizations/text.md) | 可讓您將使用者定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
+| [文字](/help/analysis-workspace/visualizations/text.md) | 可讓您將用戶定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
 | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md) | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
 | [Venn](/help/analysis-workspace/visualizations/venn.md) | 使用圓形來描繪最多3個篩選器的量度重疊。 |
 
@@ -44,12 +44,12 @@ Analysis Workspace 中有以下視覺效果類型：
 
 每個視覺效果都有各自的設定可供您管理。若要存取[!UICONTROL 視覺效果設定]，請按一下「[!UICONTROL 視覺效果設定]」齒輪圖示。
 
-![](assets/settings.png)
+![設定](assets/settings.png)
 
 | 設定 | 說明 |
 | --- | --- |
 | 視覺效果類型 | 變更用來描繪資料的視覺類型。 |
-| 詳細程度 | 若要取得最新式的視覺效果，您可在此下拉選單中變更時間的詳細程度 (日、週、月等)。這項變更也適用於資料來源表。 |
+| 詳細程度 | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的詳細程度 (日、週、月等)。這項變更也適用於資料來源表。 |
 | 百分比 | 以百分比顯示值。 |
 | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。例如：![堆疊 100%](assets/stacked_100_percent.png) |
 | 可見圖例 | 允許您隱藏詳細的圖例文字，以顯示累加數/累加變化的視覺效果。 |
@@ -70,18 +70,16 @@ Analysis Workspace 中有以下視覺效果類型：
 1. 以滑鼠右鍵按一下圖例標籤。
 1. 按一下&#x200B;**[!UICONTROL 「編輯標籤」]**。
 
-   ![](assets/edit-label.png)
+   ![編輯標籤](assets/edit-label.png)
 
 1. 輸入新的標籤文字。
 1. 按下 **[!UICONTROL Enter]** 以儲存。
 
-以下是此主題的[影片連結](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=zh-Hant)。
-
-## 在選單上按一下右鍵 {#right-click}
+## 在功能表上按一下右鍵 {#right-click}
 
 以滑鼠右鍵按一下視覺效果標題，即可使用視覺效果的其他功能。 設定將依視覺效果而異。一些可用設定為：
 
-![](assets/right-click.png)
+![按一下右鍵](assets/right-click.png)
 
 | 設定 | 說明 |
 | --- | --- |
@@ -98,4 +96,4 @@ Analysis Workspace 中有以下視覺效果類型：
 
 如果您不確定要挑選哪個視覺效果，請按一下任何表格列 (停留時適用) 的「**[!UICONTROL 建立視覺效果]**」圖示。這是新增視覺效果的最快方式。按一下圖示會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您選取了 1 列，即會建立一個最新式的線圖。如果您已選取3個篩選列，則會建立Venn圖表。
 
-![](assets/quick-viz.png)
+![快速視覺效果](assets/quick-viz.png)
