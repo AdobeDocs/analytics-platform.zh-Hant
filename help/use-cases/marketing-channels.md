@@ -3,20 +3,20 @@ title: 在 Adobe Experience Platform 中使用行銷管道維度
 description: 使用 Analytics Data Connector 將行銷管道處理規則匯入 Adobe Experience Platform。
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '920'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # 在 Adobe Experience Platform 中使用行銷管道維度
 
-貴組織使用 [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 將報表套裝資料匯入 CJA 時，可以在 CJA 中設定連線，製作行銷管道維度的相關報表。
+貴組織使用 [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant) 將報表套裝資料匯入 CJA 時，可以在 CJA 中設定連線，製作行銷管道維度的相關報表。
 
 ## 先決條件
 
-* 須先使用 [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 將報表套裝資料匯入 Adobe Experience Platform。由於行銷管道需仰賴 Analytics 報表套裝中的處理規則來運作，因此不支援其他資料來源。
-* 行銷管道處理規則須完成設定。請參閱舊版 Analytics 元件指南中的[行銷管道處理規則](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html)。
+* 須先使用 [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant) 將報表套裝資料匯入 Adobe Experience Platform。由於行銷管道需仰賴 Analytics 報表套裝中的處理規則來運作，因此不支援其他資料來源。
+* 行銷管道處理規則須完成設定。請參閱舊版 Analytics 元件指南中的[行銷管道處理規則](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=zh-Hant)。
 
 ## 行銷管道結構元素
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 1. [建立連線](/help/connections/create-connection.md)，納入以 Analytics Data Connector 為基礎的資料集。
 2. [建立資料檢視](/help/data-views/create-dataview.md)，其中包含下列維度：
    * **`channel.typeAtSource`**：相當於[行銷管道](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=zh-Hant)維度。
-   * **`channel._id`**：相當於[行銷管道詳細資訊](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html)。
+   * **`channel._id`**：相當於[行銷管道詳細資訊](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html?lang=zh-Hant)。
 3. 為各維度提供所需的歸因模型和持續性。若您要同時使用首次接觸和最近一次接觸等維度，請分次將各行銷管道維度拖曳至元件區域。為各維度提供所需的歸因模型和持續性。Adobe 也建議針對各維度指定顯示名稱，以便在 Analysis Workspace 中使用。
 4. 建立資料檢視。
 
@@ -60,5 +60,5 @@ ht-degree: 96%
 * 確認上方列出的架構差異不會影響比較作業，包括移除不會覆寫最近一次接觸管道的管道，以及移除第一個瀏覽點擊 (工作階段) 的規則條件。
 * 再次確認連線是否使用與舊版 Analytics 相同的報表套裝。如果您的 CJA 連線包含多個報表套裝，且套裝具有專屬的行銷管道處理規則，便無法輕易地與舊版 Analytics 並置比較。建議您為每個報表套裝建立個別連線，以便比較資料。
 * 確認您所比較的資料出自相同的日期範圍，而且資料檢視與報表套裝的時區設定相同。
-* 檢視報表套裝資料時，請使用自訂歸因模型，例如使用量度非預設歸因模型的[「行銷管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html)維度。由於[「首次接觸管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html)或[「最近一次接觸管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html)皆仰賴報表套裝所收集的歸因，因此 Adobe 不建議比較這些預設維度。CJA 不仰賴報表套裝的歸因資料，而是在執行 CJA 報表時計算。
+* 檢視報表套裝資料時，請使用自訂歸因模型，例如使用量度非預設歸因模型的[「行銷管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=zh-Hant)維度。由於[「首次接觸管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=zh-Hant)或[「最近一次接觸管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=zh-Hant)皆仰賴報表套裝所收集的歸因，因此 Adobe 不建議比較這些預設維度。CJA 不仰賴報表套裝的歸因資料，而是在執行 CJA 報表時計算。
 * 基於報表套裝資料和 Platform 資料的架構有所差異，部分量度並不適合比較，像是造訪/工作階段、訪客/人員、發生次數/事件。
