@@ -1,15 +1,15 @@
 ---
-title: (B2B) 新增帳戶層級資料作為查詢資料集
+title: (B2B) 新增帳戶層級資料當做查詢資料集
 description: 了解如何將以帳戶為基礎的資料，以查詢資料集的形式新增至 CJA
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# (B2B) 新增帳戶層級資料作為查詢資料集
+# (B2B) 新增帳戶層級資料當做查詢資料集
 
 此 B2B 使用案例顯示如何在帳戶層級、而非個人層級指定資料以進行分析。帳戶層級分析可回答以下類型的問題
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 您可以將帳戶層級資訊做為一個[查詢](/help/getting-started/cja-glossary.md)資料集，即可做到這一切。
 
-首先，您要在 Adobe Experience Platform 中建立查詢結構，接著內嵌 .csv 格式的帳戶層級資料以建立查詢表格資料集。接下來，您需要繼續建立結合不同資料集的 Customer Journey Analytics (CJA) 連線，包括您剛剛建立的查詢資料集。您隨後可以建立資料檢視，最後即可在工作區中運用這些資料。
+首先，您要在 Adobe Experience Platform 中建立查詢結構，接著內嵌 .csv 格式的帳戶層級資料以建立查詢表格資料集。接下來，您需要繼續建立結合不同資料集的 Customer Journey Analytics (CJA) 連線，包括您剛剛建立的查詢資料集。您之後會建立資料檢視，最後就能夠在 Workspace 中運用上述的所有資料。
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 ## 1. 建立查詢結構 (Experience Platform)
 
-為[查詢](/help/getting-started/cja-glossary.md)表格建立專用結構，以確保該資料集可在 CJA 中使用，且設定正確無誤 (記錄類型)。最佳作法是以「Lookup」為名稱[建立自訂架構類別](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#create-new-class) (不含任何元素)，供所有查詢表格重複使用。
+為[查詢](/help/getting-started/cja-glossary.md)表格建立專用結構，以確保該資料集可在 CJA 中使用，且設定正確無誤 (記錄類型)。最佳作法是以「Lookup」為名稱[建立自訂架構類別](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#create-new-class) (不含任何元素)，供所有查詢表格重複使用。
 
 ![](assets/create-new-class.png)
 
@@ -53,7 +53,7 @@ ht-degree: 96%
 
 ## 3. 將資料內嵌至 Experience Platform
 
-如果您是使用 CSV 檔案，這份[將 CSV 檔案對應至 XDM 架構](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html)的相關說明應該會有所幫助。
+如果您是使用 CSV 檔案，這份[將 CSV 檔案對應至 XDM 架構](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant)的相關說明應該會有所幫助。
 
 您也可以參閱[其他方法](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant)。
 
