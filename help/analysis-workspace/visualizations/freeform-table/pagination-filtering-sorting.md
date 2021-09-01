@@ -3,7 +3,7 @@ description: Analysis Workspace 的表格分頁、篩選及分類功能
 title: 表格分頁、篩選及分類
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
 如需 Analysis Workspace 中的表格分頁、篩選及分類概觀，請觀看此影片教學課程：
 
