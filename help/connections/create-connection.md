@@ -3,9 +3,9 @@ title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 source-git-commit: 4933b0393ddb985ad0da7a572e67efb3e77381b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1980'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -13,29 +13,29 @@ ht-degree: 95%
 
 連線可讓您將資料集從 [!DNL Adobe Experience Platform] 整合到 [!UICONTROL Analysis Workspace]。若要針對 [!DNL Experience Platform] 資料集製作報表，必須先為 [!DNL Experience Platform] 和 [!UICONTROL Analysis Workspace] 的資料集建立連線。
 
-按一下[這裡](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=en)，觀看概述影片。
+按一下[這裡](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/connecting-customer-journey-analytics-to-data-sources-in-platform.html?lang=zh-Hant)，觀看總覽影片。
 
 ## 必要權限
 
-若要建立CJA連線，您需要[Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)中的下列權限：
+若要建立 CJA 連線，您需要在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html) 中設定以下權限：
 
-Adobe Experience Platform:
-* 資料模型：查看結構，管理結構
+Adobe Experience Platform：
+* 資料模型製作：檢視結構描述、管理結構描述
 * 資料管理：檢視資料集、管理資料集
 * 資料擷取：管理來源
 
 Customer Journey Analytics
-* 產品管理員存取
+* 產品管理員存取權
 
 >[!IMPORTANT]
 >
->您可以將多個 [!DNL Experience Platform] 資料集合併為單一連線。
+>您可以將多個 [!DNL Experience Platform] 資料集合併到單一連線中。
 
 ## 選取沙箱和資料集
 
-1. 前往[https://analytics.adobe.com](https://analytics.adobe.com)並使用您的Adobe ID登入。
+1. 移至 [https://analytics.adobe.com](https://analytics.adobe.com) 並使用您的 Adobe ID 登入。
 
-1. 按一下[!DNL Customer Journey Analytics]圖示。
+1. 按一下 [!DNL Customer Journey Analytics] 圖示。
 
 1. 按一下&#x200B;**[!UICONTROL 「連線」]**&#x200B;索引標籤。
 
@@ -55,7 +55,7 @@ Customer Journey Analytics
 
    (如果有很多資料集可選擇，可使用資料集清單上方的&#x200B;**[!UICONTROL 「搜尋資料集」]**&#x200B;搜尋列，搜尋合適的資料集)。
 
-## 2.設定資料集
+## 2. 設定資料集
 
 現在您可以在右側設定您所新增的資料集。
 
@@ -65,7 +65,7 @@ Customer Journey Analytics
 
    有 3 種不同的資料集類型：[!UICONTROL 事件]資料、[!UICONTROL 設定檔]資料、[!UICONTROL 查詢]資料。
 
-   | 資料集類型 | 說明 | 時間戳記 | 結構 | 人員 ID |
+   | 資料集類型 | 說明 | 時間戳記 | 結構描述 | 人員 ID |
    |---|---|---|---|---|
    | [!UICONTROL 事件] | 代表及時事件的資料 (例如網站造訪、互動、交易、POS 資料、調查資料、廣告曝光數資料等)。例如，這可能是典型的點按資料流資料，包含客戶 ID 或 Cookie ID 以及時間戳記。若使用事件資料，您可以靈活選擇將哪個 ID 當作人員 ID 使用。 | 系統會自動設定為 [!UICONTROL Experience Platform] 中以事件為基礎的結構之預設時間戳記欄位。 | 任何以具有「時間系列」行為的 XDM 類別為依據的內建或自訂結構。例如「XDM 體驗事件」或「XDM 決策事件」。 | 您可以挑選要包含的人員 ID。在 Experience Platform 中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。其中任何一個都可當作人員 ID 使用。範例包括 Cookie ID、彙整 ID、使用者 ID、追蹤代碼等。 |
    | [!UICONTROL 查詢] | 在事件或設定檔資料中找到值或索引鍵後，可使用此資料進一步查詢。例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。如需範例，請參閱這個[使用案例](/help/use-cases/b2b.md)。 | 不適用 | 除「XDM 個別設定檔」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
@@ -98,7 +98,7 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 | 選項 | 說明 |
 |---|---|
 | [!UICONTROL 使用主要 ID 命名空間] | 這會指示 CJA 在標示 primary=true 屬性的「身分對應」中逐列尋找身分識別，作為該列的人員 ID。也就是說，這會是在 Experience Platform 中劃分資料的主要索引鍵，也是 CJA 訪客 ID 的主要候選項目 (取決於 CJA 連線的資料集設定方式)。 |
-| [!UICONTROL 命名空間] | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) 的元件，用途是作為身分識別相關內容的指標。如果您指定命名空間，CJA 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。請注意，CJA 無法執行涵蓋所有列的完整資料集掃描，據以判斷哪些命名空間實際存在，下拉式清單會列出所有可能的命名空間。您需知道資料中指定的命名空間，系統無法自動偵測。 |
+| [!UICONTROL 命名空間] | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant) 的元件，用途是作為身分識別相關內容的指標。如果您指定命名空間，CJA 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。請注意，CJA 無法執行涵蓋所有列的完整資料集掃描，據以判斷哪些命名空間實際存在，下拉式清單會列出所有可能的命名空間。您需知道資料中指定的命名空間，系統無法自動偵測。 |
 
 ### 「身分對應」邊緣案例
 
@@ -121,14 +121,14 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
    | [!UICONTROL 說明] | 新增更多詳細資訊，以便區分此連線與其他連線。 |
    | [!UICONTROL 資料集] | 此連線中包含的資料集。 |
    | [!UICONTROL 從今天開始，自動匯入此連線的所有新資料集。] | 如果要建立持續連線，請選擇此選項，如此一來，新增到此連線中資料集的任何新資料批次，都會自動彙整至 ]Analysis Workspace[!UICONTROL 。 |
-   | [!UICONTROL 匯入所有現有資料] | 在您選擇此選項並儲存連線後，此連線中所有資料集來自 [!DNL Experience Platform] 的所有現有 (歷史) 資料都會匯入或回填。日後若有任何新資料集新增至這個已儲存的連線，其所有現有歷史資料也會自動匯入。另請參閱下方的[回填歷史資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data)。<br>**請注意，一旦儲存此連線，便無法變更這項設定。** |
+   | [!UICONTROL 匯入所有現有資料] | 在您選擇此選項並儲存連線後，此連線中所有資料集來自 [!DNL Experience Platform] 的所有現有 (歷史) 資料都會匯入或回填。日後若有任何新資料集新增至這個已儲存的連線，其所有現有歷史資料也會自動匯入。另請參閱下方的[回填歷史資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant#backfill-historical-data)。<br>**請注意，一旦儲存此連線，便無法變更這項設定。** |
    | [!UICONTROL 每日事件平均數量] | 您必須為連線中的所有資料集指定要匯入的每日事件平均數量 (新資料&#x200B;**和**&#x200B;回填資料)。在下拉式選單中選取任一選項。這樣一來，Adobe 就可以為此資料分配足夠的空間。<br>如果您不清楚公司要匯入的每日事件平均數量，可以在 [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant) 中執行簡單的 SQL 查詢加以了解。<br>請參閱下方的「計算每日事件平均數量」。 |
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存及建立資料檢視」]**。如需相關文件，請參閱[建立資料檢視](/help/data-views/create-dataview.md)。
 
 ### 回填歷史資料
 
-**[!UICONTROL 「匯入所有現有資料」]**&#x200B;可讓您回填歷史資料。請記住：
+**[!UICONTROL 「匯入所有現有資料」]**&#x200B;可讓您回填歷史資料。請記住以下事項：
 
 * 目前已移除回填 (歷史資料匯入) 限制。過去，您可以自行回填最多 25 億列的資料，若超過這個數字便需有工程技術介入。現在，您可以自行回填資料，沒有任何限制。
 * 系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。
@@ -140,7 +140,7 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 
 連線中的每個資料集都必須完成這項計算。
 
-1. 前往 [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)，並建立新查詢。
+1. 前往 [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)，並建立新查詢。
 
 1. 查詢如下所示：<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
 
