@@ -1,9 +1,9 @@
 ---
 description: 建立專案並新增元件 (維度、量度、篩選器和日期範圍) 至自由面板。
 keywords: Analysis Workspace
-title: 建立 Workspace 專案
+title: 建立 Analysis Workspace 專案
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
 ht-degree: 100%
 
