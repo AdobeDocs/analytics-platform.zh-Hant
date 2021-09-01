@@ -1,15 +1,15 @@
 ---
-title: 匯入客服中心和網路資料
+title: 匯入客服中心和網頁的資料
 description: 了解如何建立連結客服中心和網站資料的資料集。
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '675'
 ht-degree: 100%
 
 ---
 
-# 匯入客服中心和網路資料
+# 匯入客服中心和網頁的資料
 
 Customer Journey Analytics 具有重要的強大功能，可將不同來源的資料集合併成單一 Analysis Workspace 專案。使用本指南瞭解貴組織如何結合網站資料與客服中心資料。
 
@@ -42,7 +42,7 @@ Customer Journey Analytics 具有重要的強大功能，可將不同來源的�
 CJA 需有共同識別碼才能產生[合併資料集](../connections/combined-dataset.md)。
 
 * 如果您兩個資料集的每個事件已有共同識別碼，您可以略過此步驟，繼續建立連線。
-* 如果任一資料集中只有部分事件有共同識別碼，您可以使用跨管道分析來彙整資料。如需為這兩個資料集啟用跨管道分析的相關步驟，請參閱[跨管道分析概述](/help/connections/cca/overview.md)。
+* 如果任一資料集中只有部分事件有共同識別碼，您可以使用跨管道分析來彙整資料。如需為這兩個資料集啟用跨管道分析的相關步驟，請參閱[跨管道分析總覽](/help/connections/cca/overview.md)。
 
 ## 在 CJA 中建立連線
 
