@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78
 source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
 workflow-type: tm+mt
 source-wordcount: '3069'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 80%
 | [!UICONTROL 名稱] | 必須為資料檢視命名。 |
 | [!UICONTROL 說明] | 詳細說明非必填，但建議使用。 |
 | [!UICONTROL 時區] | 選擇要顯示資料的時區。 |
-| [!UICONTROL 標籤] | [!UICONTROL 標籤可用來將資料檢視整理到不同類別中。] |
-| [!UICONTROL 容器] | 您可以在此重新命名容器，以判斷容器在任何以此資料檢視為基礎的Workspace專案中的顯示方式。  容器用於篩選器及流失/流量等項目，以定義範圍或內容的範圍或範圍。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=zh-Hant#filter-containers) |
-| [!UICONTROL 「人員」容器名稱是……] | 「[!UICONTROL 人員]」(預設)。「[!UICONTROL 人員]」容器包含指定時段內訪客的每次瀏覽和頁面檢視。您可以將此容器重新命名為「使用者」或您偏好的任何其他詞語。 |
-| [!UICONTROL 「工作階段」容器名稱是……] | 「[!UICONTROL 工作階段]」(預設)。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「造訪」或您偏好的任何其他詞語。 |
+| [!UICONTROL 標籤] | [!UICONTROL 標籤]可讓您將資料檢視整理到不同類別中。 |
+| [!UICONTROL 容器] | 您可以在此處重新命名容器，以決定容器在任何以此資料檢視為基礎的 Workspace 專案中的顯示方式。 [!UICONTROL 容器]會用於篩選和流失/流量等，以定義範圍或內容的寬度或窄度。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=zh-Hant#filter-containers) |
+| [!UICONTROL 「人員」容器名稱是……] | 「[!UICONTROL 人員]」(預設)。「[!UICONTROL 人員]」容器包含指定時段內訪客的每次瀏覽和頁面檢視。您可以將此容器重新命名為「User」或您偏好的其他任何詞語。 |
+| [!UICONTROL 「工作階段」容器名稱是……] | 「[!UICONTROL 工作階段]」(預設)。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「Visit」或您偏好的其他任何詞語。 |
 | [!UICONTROL 「事件」容器名稱是……] | 「[!UICONTROL 事件]」(預設)。「[!UICONTROL 事件]」容器定義您要在篩選器中包含或排除哪些頁面事件。 |
 
 接著，您可以從結構元素建立量度和維度。您也可以使用標準元件。
@@ -40,10 +40,10 @@ ht-degree: 80%
 
 ![](assets/components-tab.png)
 
-您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「結構」欄位]。請記住：
+您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「結構」欄位]。請記住以下事項：
 
 * 已包含的元件是標準必需元件 (系統生成)。
-* Adobe預設會套用篩選器&#x200B;**[!UICONTROL 包含資料]**，以便僅顯示包含資料的結構欄位。 如果您要尋找不包含資料的欄位，請移除篩選器。
+* Adobe 預設會套用&#x200B;**[!UICONTROL 包含資料]**&#x200B;篩選條件，以便只顯示包含資料的結構描述欄位。 如果您要尋找不含資料的欄位，請移除此篩選條件。
 
 1. 現在，從左側邊欄拖曳結構欄位 (例如 [!UICONTROL pageTitle]) 至 Metrics 或 Dimensions 區段。
 
@@ -70,9 +70,9 @@ ht-degree: 80%
 | [!UICONTROL 欄位名稱] | 結構欄位的名稱。 |
 | [!UICONTROL 資料集類型] | 必填。不可編輯的欄位，顯示元件來自的資料集類型 (事件、查詢或設定檔)。 |
 | [!UICONTROL 資料集] | 必填。不可編輯的欄位，顯示元件來自的欄位類型 (例如字串、整數等)。此欄位可包含多個資料集。 |
-| [!UICONTROL 結構資料類型] | 指元件是否為字串、整數等。  雖然您可以在Platform中使用任何支援的結構描述欄位類型，但CJA並非支援所有欄位類型。 支援下列資料類型：`Integer`、`Int`、`Long`、`Double`、`Float`、`Number`、`Short`、`Byte`、`String`和`Boolean`。 請注意，目前「查詢」資料集僅允許使用字串。 |
+| [!UICONTROL 結構描述資料類型] | 指示元件是否為字串、整數等。 雖然您可以在 Platform 中使用任何支援的結構描述欄位類型，但不是所有欄位類型都在 CJA 中受到支援。 以下是支援的資料類型：`Integer`、`Int`、`Long`、`Double`、`Float`、`Number`、`Short`、`Byte`、`String` 和 `Boolean`。 請注意，目前在查詢資料集中只允許使用字串。 |
 | [!UICONTROL 元件 ID] | 必填。[CJA API](https://adobe.io/cja-apis/docs) 使用此欄位來參考元件。您可以按一下編輯圖示並修改此元件 ID。然而，變更此元件 ID 會中斷包含此元件的所有現有 Workspace 專案。<br>如果您曾為 pageTitle 維度建立其他使用不同欄位的資料檢視，則可以重新命名該檢視，並讓維度與跨資料檢視相容。 |
-| [!UICONTROL 架構路徑] | 必填。不可編輯的欄位，顯示元件來自的結構路徑。 |
+| [!UICONTROL 結構描述路徑] | 必填。不可編輯的欄位，顯示元件來自的結構路徑。 |
 | [!UICONTROL 隱藏報告中的元件] | 預設= off。可讓您在報告中使用元件時，從「資料檢視」中組織出元件。這不會影響權限，只會影響元件組織。換言之，您可以在報告中隱藏元件，使非管理員無法存取。管理員仍可以按一下 Analysis Workspace 專案中的「[!UICONTROL 顯示所有元件]」來存取它。 |
 
 ### 設置格式設定
@@ -94,9 +94,9 @@ ht-degree: 80%
 
 | 設定 | 說明/使用案例 |
 | --- | --- |
-| [!UICONTROL 設定歸因] | 可讓您指定使用此量度時，預設要套用至此量度的歸因設定。此預設值可在[!UICONTROL 自由表格]或計算量度中覆寫。 |
+| [!UICONTROL 設定歸因] | 可讓您指定使用此量度時，預設要套用至此量度的歸因設定。可以在[!UICONTROL 自由表格]或計算量度中覆寫此預設值。 |
 | [!UICONTROL 歸因模型] | 可讓您指定預設歸因模型——僅在您開啟使用[!UICONTROL 非預設歸因模型]設定時啟用。預設為 「[!UICONTROL 上次接觸]」。選項包括：「上次接觸」、「首次接觸」、「線性」、「參與率」、「相同接觸」、「U 形」、「J 曲線」、「反 J」、「時間衰減」、「自訂」、「演算法」。有些選項會建立其他需要填寫的欄位，例如「自訂」或「時間衰減」。您可以使用相同欄位建立多個量度，這表示您可以有一個「[!UICONTROL 上次接觸]」收入量度和一個「[!UICONTROL 首次接觸]」收入量度，但是以結構中相同的收入欄位為基礎。 |
-| [!UICONTROL 回顧視窗] | 可讓您指定量度的回顧視窗，僅在您開啟使用[!UICONTROL 非預設歸因模型]設定時啟用。選項包括：[!UICONTROL Person]（報告窗口）、[!UICONTROL Session]、[!UICONTROL Custom]。 選取[!UICONTROL 自訂]時，我們也提供選項供您選取任何天數/周數/月數等。 （最多90天），就像[!UICONTROL Attribution IQ]。 您可以使用相同的結構欄位來擁有多個量度，但每個量度都有個別的回顧視窗。 |
+| [!UICONTROL 回顧視窗] | 可讓您指定量度的回顧視窗，僅在您開啟使用[!UICONTROL 非預設歸因模型]設定時啟用。選項包括：「[!UICONTROL 人員]」(報告視窗)、「[!UICONTROL 工作階段]」、「[!UICONTROL 自訂]」。 在選取「[!UICONTROL 自訂]」時，我們也會提供您選項來選取任何天數/週數/月數等 (最多 90 天)，如同 [!UICONTROL Attribution IQ]。 您可以使用相同的結構欄位來擁有多個量度，但每個量度都有個別的回顧視窗。 |
 
 ### 「設置包含/排除值」設定
 
@@ -116,13 +116,13 @@ ht-degree: 80%
 
 ### 設置行為設定
 
-可讓您指定量度在報表中的行為。
+可讓您指定量度在報告中應有的行為。
 
 ![](assets/behavior-settings.png)
 
 | 設定 | 說明/使用案例 |
 | --- | --- |
-| [!UICONTROL 計數值] | 僅適用於布爾量度，此設定可讓您指定要將[!UICONTROL 計數True]、[!UICONTROL 計數False]或[!UICONTROL 計數True或False]設為量度值。 預設值為[!UICONTROL Count True]。 如果訂單值為50，則此量度會提供實際值，例如「50」。 |
+| [!UICONTROL 計數值] | 僅適用於布林量度，這個設定可讓您指定您是想要 [!UICONTROL Count True]、[!UICONTROL Count False] 還是 [!UICONTROL Count True or False] 當做量度值。 預設值為 [!UICONTROL Count True]。 這樣可為您提供量度的實際值，如果訂單值為 50，就會提供「50」。 |
 | [!UICONTROL 計數實例] | 可讓您指定用作度量的數值或日期類型欄位是否應計算其設定時間，而非值本身。<br>如果您想要加總數值欄位的例項，並且只想加總欄位已&#x200B;*設定*&#x200B;的次數而非欄位內的實際值。<br>例如，這對於從「[!UICONTROL 收入]」欄位建立「[!UICONTROL 訂單]」量度非常有用。如果已設定「收入」 (revenue)，則我們想要計算 1 份單一訂單 (order)，而非數值形式的收入金額。 |
 | [!UICONTROL 小寫] | *新增*  — 適用於「字串」類型的維度。此設定可讓您控制Customer Journey Analytics是否將維度值視為區分大小寫。 它允許對具有相同值但大小寫不同的列執行去重複化。 如果您勾選&#x200B;**[!UICONTROL 小寫]**，則具有相同值的維度的所有例項都會報告為小寫。 此螢幕截圖顯示如果您執行&#x200B;**not**&#x200B;勾選[!UICONTROL 小寫]，而您執行&#x200B;**do**&#x200B;勾選方塊會發生什麼事。 在左表格中，請注意「利物浦」、「利物浦」和「利物浦」在報表中如何產生三個不同的明細項目。 在右表中，這些相同的值已經過去重複化，並歸類到一行項目下：<br>![區分大小寫的維](assets/case-sens-workspace.png) |
 
@@ -151,7 +151,7 @@ ht-degree: 80%
 | --- | --- |
 | [!UICONTROL 設定持續性] | 切換鍵 |
 | [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。如果您想要保存值，請在此處設定值。 您可設定的永續性上限為90天。 此外，「[!UICONTROL 永不過期]」不是一個選項。 |
-| [!UICONTROL 有效期] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。[!UICONTROL 量度]可讓您指定任何已定義量度作為此維度的有效期 (例如[!UICONTROL 購買]量度)。<br>**注意**:選取「全部」配置時，無法設定維度的自訂 [!UICONTROL 過期]。 |
+| [!UICONTROL 有效期] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。[!UICONTROL 量度]可讓您指定任何已定義量度作為此維度的有效期 (例如[!UICONTROL 購買]量度)。<br>**注意**：當您選取「[!UICONTROL 全部]」配置時，無法設定維度的自訂有效期間。 |
 
 ### 設置值分組設定
 
@@ -178,9 +178,9 @@ ht-degree: 80%
 
 | 元件名稱 | 維度或量度 | 附註 |
 | --- | --- | --- |
-| [!UICONTROL 人員] | 量度 | 此量度以[!UICONTROL Connection]中指定的人員ID為基礎。 |
+| [!UICONTROL 人員] | 量度 | 此量度是根據[!UICONTROL 連線]中所指定的人員 ID。 |
 | [!UICONTROL 工作階段] | 量度 | 此量度以下指定的工作階段化設定為基礎。 |
-| [!UICONTROL 事件] | 量度 | 此量度代表[!UICONTROL Connection]中所有事件資料集的列數。 |
+| [!UICONTROL 事件] | 量度 | 此度量表示[!UICONTROL 連線]中所有事件資料集的列數。 |
 | [!UICONTROL 日] | 維度 | 「日」維度會報告指定量度發生的日子。第一個維度項目是日期範圍中的第一天，最後一個維度項目是日期範圍中的最後一天。 |
 | [!UICONTROL 週] | 維度 | 「週」維度會報告指定量度發生的週別。第一個維度項目是日期範圍中的第一週，最後一個維度項目是日期範圍中的最後一週。 |
 | [!UICONTROL 月] | 維度 | 「月」維度會報告指定量度發生的月份。第一個維度項目是日期範圍中的第一個月，最後一個維度項目是日期範圍中的最後一個月。 |
@@ -204,9 +204,9 @@ ht-degree: 80%
 | [!UICONTROL 批次 ID]  | 維度 | 表示「[!UICONTROL 事件]」所屬的 Experience Platform 批次。 |
 | [!UICONTROL 資料集 ID] | 維度 | 表示「[!UICONTROL 事件]」所屬的 Experience Platform 資料集。 |
 
-## 使用[!UICONTROL 複製]功能
+## 使用「[!UICONTROL 複製]」功能
 
-從單一結構欄位複製量度或維度，然後修改特定設定是建立多個量度或維度的簡單方式。 只需選取右上方量度或維度名稱下方的[!UICONTROL 複製]設定即可。 然後修改新量度或維度，並以較清楚描述的名稱儲存。
+複製量度或維度然後修改特定的設定是從單一結構描述欄位建立多個量度或維度的簡易方式。 只需選取右上方的量度或維度名稱底下的「[!UICONTROL 複製]」設定。 然後修改新的量度或維度，並使用更具說明性的名稱來儲存它。
 
 ![](assets/duplicate.png)
 
@@ -220,7 +220,7 @@ ht-degree: 80%
 
 ![](assets/filter-other.png)
 
-## 新增全域篩選器至資料檢視
+## 新增全域篩選至您的資料檢視
 
 您可以新增套用至整個資料檢視的篩選器。此篩選器將套用至您在 Workspace 中執行的任何報告。
 
