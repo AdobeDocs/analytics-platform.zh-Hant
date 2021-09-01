@@ -3,17 +3,17 @@ title: Customer Journey Analytics 的資料檢視使用案例
 description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視的彈性和功能
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 source-git-commit: acf2728539562a2bb9be2adfbeb7ae6cc4f3dffd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '763'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
 # 資料檢視使用案例
 
-這些使用案例顯示 Customer Journey Analytics 中資料檢視的彈性和功能。
+這些使用案例顯示了 Customer Journey Analytics 中資料檢視的靈活性和強大威力。
 
-## 1.從字串結構欄位建立量度
+## 1. 從字串結構描述欄位建立量度
 
 例如，在建立資料檢視時，您可以從字串「[!UICONTROL pageTitle]」結構欄位建立「[!UICONTROL 訂單]」量度。步驟如下：
 
@@ -27,9 +27,9 @@ ht-degree: 42%
    「確認」短語表示這是訂單。在檢閱符合這些標準的所有頁面標題後，每個例項都會計為「1」。此結果是新量度 (而非計算量度)。具有包含/排除值的量度可用於任何其他量度也可使用的地方。它適用於 Attribution IQ、篩選器，以及您可使用標準量度的其他任何地方。
 1. 您可以進一步指定此量度的歸因模型，例如 「[!UICONTROL 上次接觸]」，並具有「[!UICONTROL 工作階段]」的 [!UICONTROL 「回顧」視窗]。您也可以從相同欄位建立另一個「[!UICONTROL 訂單]」量度，並為其指定不同的歸因模型，例如「[!UICONTROL 上次接觸]」，以及不同的[!UICONTROL 「回顧」視窗]，例如「[!UICONTROL 30天]」。
 
-另一個範例是使用訪客ID（維度）做為量度，以判斷貴公司有多少訪客ID。
+另一個範例為使用訪客 ID 維度當做量度，以判斷貴公司有多少訪客 ID。
 
-## 2.使用整數作為維
+## 2. 將整數當做維度使用
 
 先前，整數會自動被視為 CJA 中的量度。現在，數字 (包括 Adobe Analytics 的自訂事件) 可被視為維度。其範例如下：
 
@@ -41,43 +41,43 @@ ht-degree: 42%
 
    ![](assets/bucketing.png)
 
-## 3.在流量圖中使用數值維度作為「量度」
+## 3. 在流程圖表中使用數值維度當做「量度」
 
-您可以使用數值維度將「量度」傳入[!UICONTROL 流量]視覺效果中。
+您可以使用數值維度，將您的「量度」放入[!UICONTROL 流程]視覺效果中。
 
-1. 在「資料檢視[元件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings)」標籤上，將「行銷管道」]結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。[!UICONTROL 
+1. 在「資料檢視[元件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant#configure-component-settings)」標籤上，將「行銷管道」]結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。[!UICONTROL 
 2. 在工作區報表中，此流量顯示流入[!UICONTROL 訂單]的[!UICONTROL 行銷管道]:
 
 ![](assets/flow.png)
 
-## 4.進行子事件篩選
+## 4. 執行子事件篩選
 
-此功能特別適用於陣列欄位。 包含/排除功能可讓您在子事件層級進行篩選，而篩選器產生器中內建的篩選器（區段）只提供您在事件層級進行篩選。 因此，您可以在資料檢視中使用包含/排除來進行子事件篩選，然後在事件層級的篩選器中參考該新量度/維度。
+此功能特別適用於以陣列為基礎的欄位。 包含/排除功能可讓您在子事件層級執行篩選，而內建在篩選產生器中的篩選 (區段) 只會提供您事件層級的篩選。 因此，您可以在資料檢視中使用包含/排除來執行子事件篩選，然後在事件層級參照篩選中的新量度/維度。
 
-例如，在資料檢視中使用包含/排除功能，只將精力放在產生銷售額超過50美元的產品上。 因此，如果您的訂單包含50美元的產品購買和25美元的產品購買，我們將僅刪除25美元的產品購買，而不會刪除整個訂單。
+例如，在資料檢視中使用包含/排除功能，僅聚焦於產生的銷售額超過 50 美元的商品。 所以，如果您的訂單包含價值 50 美元的商品及價值 25 美元的商品，我們只會移除 25 美元的商品，而不是整筆訂單。
 
-1. 在「資料檢視[元件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-component-settings)」標籤上，將[!UICONTROL 收入]結構欄位拖曳至[!UICONTROL 包含的元件]下的[!UICONTROL 量度]區域。
+1. 在「資料檢視[元件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant#configure-component-settings)」標籤上，將[!UICONTROL 收入]結構欄位拖曳至[!UICONTROL 包含的元件]下的[!UICONTROL 量度]區域。
 1. 選取量度並在右側設定下列項目：
 a.在[!UICONTROL Format]下，選擇[!UICONTROL Currency]。
 b.在[!UICONTROL Currency]下，選擇USD。
 c.在[!UICONTROL 包含/排除值]下，選取[!UICONTROL 設定包含/排除值]旁的核取方塊。
 d.在[!UICONTROL Match]下，選擇[!UICONTROL 如果所有條件都滿足]。
 e.在[!UICONTROL 條件]下，選擇[!UICONTROL 大於或等於]。
-f.指定&quot;50&quot;作為值。
+f. 指定「50」當做值。
 
-這些新設定可讓您僅檢視高價值收入，並篩選掉低於$50的任何項目。
+這些新設定可讓您檢視僅限高收入的資料，並篩選掉低於 $50 美元的所有資料。
 
-## 5.使用[!UICONTROL 無值選項]設定
+## 5. 利用「[!UICONTROL 無值選項]」設定
 
-貴公司可能已花時間訓練使用者在報表中預期「未指定」。 資料檢視的預設值為「無值」。 您現在可以在資料檢視UI中將[「無值」重新命名為「未指定」](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-no-value-options-settings)。
+貴公司可能已花了一些時間來訓練您的使用者，以期望報表中出現「未指定」。 資料檢視中的預設值為「沒有值」。 您現在可以在資料檢視 UI 中[將「沒有值」重新命名為「未指定」](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant#configure-no-value-options-settings)。
 
-另一個範例是會籍方案註冊的維度。 在此情況下，您可以將「無值」重新命名為「無會員資格方案註冊」。
+另一個範例為會籍計劃註冊的維度。 在此情況下，您可以將「沒有值」重新命名為「沒有會籍計劃註冊」。
 
-## 6.使用不同的[!UICONTROL 歸因]設定建立多個量度
+## 6. 使用不同[!UICONTROL 歸因]設定建立多個量度
 
-使用右上角的[!UICONTROL 複製]功能，建立許多具有不同歸因設定的收入量度，例如[!UICONTROL 首次接觸]、[!UICONTROL 上次接觸]和[!UICONTROL 演算法]。
+使用右上方的「[!UICONTROL 複製]」功能時，可建立具有不同歸因設定的許多收入量度，像是[!UICONTROL 首次接觸]、[!UICONTROL 上次接觸]和[!UICONTROL 演算法]。
 
-請別忘了重新命名每個量度以反映差異，例如「演算法收入」：
+別忘了重新命名每個量度來反映差異，例如「演算法收入」：
 
 ![](assets/algo-revenue.png)
 
