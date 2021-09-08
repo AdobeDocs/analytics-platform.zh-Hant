@@ -2,10 +2,11 @@
 title: 管理連線
 description: 說明如何在 Customer Journey Analytics (CJA) 中管理與 Experience Platform 資料集的連線。
 mini-toc-levels: 3
-source-git-commit: 1daac64168e656ed1145dac4c34d3df52d155e35
-workflow-type: ht
+exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
+source-git-commit: b0e07ca9533a2d53c916c6db31acaccbd78a41a3
+workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 100%
 * 它可讓您&#x200B;**識別因設定錯誤所導致的任何資料差異**。 您是否有遺漏任何資料列？如果有的話，遺漏了哪些資料列以及為什麼遺漏？您是否將連線設定錯誤並導致 CJA 中有資料遺漏？
 
 >[!NOTE]
-> 此功能將於 2021 年 8 月 10 日正式推出。
+> 此功能將於2021年9月20日正式推出。
 
 ## 連線管理員 {#connections-manager}
 
@@ -102,11 +103,11 @@ ht-degree: 100%
 | **連線層級的右側邊欄** |  |
 | [!UICONTROL 重新整理] | 重新整理連線，以反映最近新增的記錄。 |
 | [!UICONTROL 刪除] | 刪除此連線。 |
-| [!UICONTROL 建立資料檢視] | 根據此連線建立新的資料檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant) |
+| [!UICONTROL 建立資料檢視] | 根據此連線建立新的資料檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
 | [!UICONTROL 連線名稱] | 顯示連線的易記名稱。 |
 | [!UICONTROL 連線說明] | 顯示更詳細的說明，在理想情況下可描述此連線的用途。 |
 | [!UICONTROL 人員 ID] | 顯示在 Experience Platform 的最新結構描述中所定義的身分識別。 這是您在建立連線時所選擇的[!UICONTROL 人員 ID]。 如果您建立的連線包含有不同 ID 的資料集，則報告將會反映這個情況。 如果真的要合併資料集，您需要使用相同[!UICONTROL 人員 ID]。 |
-| [!UICONTROL 沙箱] | 此連線從中提取其資料集的 [Adobe Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。當您初次建立連線時會選取這個沙箱。 此沙箱無法變更。 |
+| [!UICONTROL 沙箱] | 此連線從中提取其資料集的 [Adobe Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)。當您初次建立連線時會選取這個沙箱。 此沙箱無法變更。 |
 | [!UICONTROL 連線 ID] | 系統會在 Adobe Experience Platform 中產生這個 ID。 |
 | [!UICONTROL IMS 組織 ID] | 與您佈建的 Experience Cloud 公司相關聯的[組織 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)。 先前稱為「登入公司」。 |
 | [!UICONTROL 使用連線的資料檢視] | 列出所有使用此連線的資料檢視。 |
@@ -119,7 +120,7 @@ ht-degree: 100%
 | [!UICONTROL 「略過的記錄」錯誤] | 這裡會指示略過記錄的原因。 其中可能包括遺漏時間戳記、遺漏個人 ID 等。 |
 | [!UICONTROL 擷取的批次] | 已將多少資料批次新增到這個資料集內。 |
 | [!UICONTROL 上次新增時間] | 上次新增批次的時間。 |
-| [!UICONTROL 資料集類型] | 可能是[!UICONTROL 事件]、[!UICONTROL 查詢]或[!UICONTROL 描述檔]。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant#configure-dataset) |
+| [!UICONTROL 資料集類型] | 可能是[!UICONTROL 事件]、[!UICONTROL 查詢]或[!UICONTROL 描述檔]。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
 | [!UICONTROL 結構描述] | 此資料集所根據的 Adobe Experience Platform 結構描述。 |
 | [!UICONTROL 資料集 ID] | 系統會在 Adobe Experience Platform 中產生這個 ID。 |
 | [!UICONTROL 回填資料] | 追蹤 3 種狀態下的回填 (歷史) 資料：[!UICONTROL 佇列中]、[!UICONTROL 處理中] (有指示進度百分比) 及[!UICONTROL 完成]。 |
