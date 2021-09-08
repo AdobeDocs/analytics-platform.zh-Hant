@@ -3,9 +3,9 @@ title: 如何在 Customer Journey Analytics 中建立新的資料檢視。
 description: 說明建立新的資料檢視所需的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3069'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 93%
 | --- | --- |
 | [!UICONTROL 計數值] | 僅適用於布林量度，這個設定可讓您指定您是想要 [!UICONTROL Count True]、[!UICONTROL Count False] 還是 [!UICONTROL Count True or False] 當做量度值。 預設值為 [!UICONTROL Count True]。 這樣可為您提供量度的實際值，如果訂單值為 50，就會提供「50」。 |
 | [!UICONTROL 計數實例] | 可讓您指定用作度量的數值或日期類型欄位是否應計算其設定時間，而非值本身。<br>如果您想要加總數值欄位的例項，並且只想加總欄位已&#x200B;*設定*&#x200B;的次數而非欄位內的實際值。<br>例如，這對於從「[!UICONTROL 收入]」欄位建立「[!UICONTROL 訂單]」量度非常有用。如果已設定「收入」 (revenue)，則我們想要計算 1 份單一訂單 (order)，而非數值形式的收入金額。 |
-| [!UICONTROL 小寫] | *新增*  — 適用於「字串」類型的維度。此設定可讓您控制Customer Journey Analytics是否將維度值視為區分大小寫。 它允許對具有相同值但大小寫不同的列執行去重複化。 如果您勾選&#x200B;**[!UICONTROL 小寫]**，則具有相同值的維度的所有例項都會報告為小寫。 此螢幕截圖顯示如果您執行&#x200B;**not**&#x200B;勾選[!UICONTROL 小寫]，而您執行&#x200B;**do**&#x200B;勾選方塊會發生什麼事。 在左表格中，請注意「利物浦」、「利物浦」和「利物浦」在報表中如何產生三個不同的明細項目。 在右表中，這些相同的值已經過去重複化，並歸類到一行項目下：<br>![區分大小寫的維](assets/case-sens-workspace.png) |
+| [!UICONTROL 小寫] | *新的* - 適用於「字串」類型的維度。此設定可讓您控制 Customer Journey Analytics 是否要將維度值設為區分大小寫。它允許擁有相同值但大小寫不同的列刪除重複資料。如果您檢查&#x200B;**[!UICONTROL 小寫]**，一個維度具有相同值的所有執行個體皆會回報為小寫。此螢幕截圖指出如果&#x200B;**未**&#x200B;檢查[!UICONTROL 小寫]與如果您&#x200B;**確實**&#x200B;勾選方塊時，會發生什麼事情。在左表中，請注意「liverpool」、「Liverpool」及「LIVERPOOL」會在報告中產生三個個別的條列項目。在右表中，這些相同的值已刪除重複資料，且落於一個條列項目：<br>![區分大小寫維度](assets/case-sens-workspace.png) |
 
 ### 設置「[!UICONTROL 無值選項]」設定
 
@@ -139,7 +139,7 @@ ht-degree: 93%
 | [!UICONTROL 如果顯示，請呼叫「無值……」] | 您可以在此處將&#x200B;**[!UICONTROL 「&#x200B;No value」]**&#x200B;更名為其他值。 |
 | [!UICONTROL 預設不顯示「無」值] | 不會在報告中顯示此值。 |
 | [!UICONTROL 預設顯示「無」值] | 會在報告中顯示此值。 |
-| [!UICONTROL 將「無值」視為值] | 此設定會以您在[!UICONTROL 下指定的文字取代資料中的空白值，如果顯示，則呼叫無值……]。 例如，如果您以行動裝置類型為維度，您可將&#x200B;**[!UICONTROL &#x200B;「No value&#x200B;」]**&#x200B;項目重新命名為「Desktop」。請注意，將此欄位變更為自訂值時，自訂值會視為合法字串值。 因此，如果在此欄位中輸入「Red」值，則資料本身中出現的字串「Red」的任何例項都會滾至您指定的相同行項目下。 |
+| [!UICONTROL 將「無值」視為值] | 此項設定以您在[!UICONTROL 「If shown, call No value ...」] 下指定的文字取代資料中的空白值。例如，如果您以行動裝置類型為維度，您可將&#x200B;**[!UICONTROL &#x200B;「No value&#x200B;」]**&#x200B;項目重新命名為「Desktop」。請注意，當您將此欄位變更為自訂值時，自訂值將視為合法的字串值處理。因此，如果您在此欄位中輸入「Red」值，出現在資料中的字串「Red」執行個體將落在您已指定的相同條列項目下。 |
 
 ### 設置持續性設定
 
@@ -150,7 +150,7 @@ ht-degree: 93%
 | 設定 | 說明/使用案例 |
 | --- | --- |
 | [!UICONTROL 設定持續性] | 切換鍵 |
-| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。如果您想要保存值，請在此處設定值。 您可設定的永續性上限為90天。 此外，「[!UICONTROL 永不過期]」不是一個選項。 |
+| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。如果您想要保留一個值，您可以在此處設定它。您可以設定的最長保留時間為 90 天。此外，「[!UICONTROL 永不過期]」不是一個選項。 |
 | [!UICONTROL 有效期] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。[!UICONTROL 量度]可讓您指定任何已定義量度作為此維度的有效期 (例如[!UICONTROL 購買]量度)。<br>**注意**：當您選取「[!UICONTROL 全部]」配置時，無法設定維度的自訂有效期間。 |
 
 ### 設置值分組設定
