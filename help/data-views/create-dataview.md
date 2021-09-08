@@ -2,14 +2,14 @@
 title: 如何在 Customer Journey Analytics 中建立新的資料檢視。
 description: 說明建立新的資料檢視所需的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 5d2750001cc9a5d12305741e99fccc3625432996
-workflow-type: ht
-source-wordcount: '3069'
-ht-degree: 100%
+source-git-commit: fb8de8c65b44fd57ca5da6d993bb02b8574f7f47
+workflow-type: tm+mt
+source-wordcount: '3076'
+ht-degree: 95%
 
 ---
 
-# 建立新的資料檢視
+# 建立資料檢視
 
 建立資料檢視需要從結構元素建立量度和維度或使用標準元件。建立量度或維度可為您提供極大的彈性。先前，假設您在 Adobe Experience Platform 有資料集，則會使用字串欄位作為維度，而數值欄位則作為量度。為了變更這些欄位，您必須在「平台」中編輯結構。資料檢視 UI 現在允許您[更自由地定義量度和維度](/help/data-views/data-views.md)。如需更多使用案例，請參閱[資料檢視使用案例](/help/data-views/data-views-usecases.md)。
 
@@ -122,9 +122,13 @@ ht-degree: 100%
 
 | 設定 | 說明/使用案例 |
 | --- | --- |
-| [!UICONTROL 計數值] | 僅適用於布林量度，這個設定可讓您指定您是想要 [!UICONTROL Count True]、[!UICONTROL Count False] 還是 [!UICONTROL Count True or False] 當做量度值。 預設值為 [!UICONTROL Count True]。 這樣可為您提供量度的實際值，如果訂單值為 50，就會提供「50」。 |
+| [!UICONTROL 計數值] | 僅適用於布林量度，這個設定可讓您指定您是想要 [!UICONTROL Count True]、[!UICONTROL Count False] 還是 [!UICONTROL Count True or False] 當做量度值。 預設值為 [!UICONTROL Count True]。 如果訂單值為50，則此量度會提供實際值，例如「50」。 |
 | [!UICONTROL 計數實例] | 可讓您指定用作度量的數值或日期類型欄位是否應計算其設定時間，而非值本身。<br>如果您想要加總數值欄位的例項，並且只想加總欄位已&#x200B;*設定*&#x200B;的次數而非欄位內的實際值。<br>例如，這對於從「[!UICONTROL 收入]」欄位建立「[!UICONTROL 訂單]」量度非常有用。如果已設定「收入」 (revenue)，則我們想要計算 1 份單一訂單 (order)，而非數值形式的收入金額。 |
-| [!UICONTROL 小寫] | *新的* - 適用於「字串」類型的維度。此設定可讓您控制 Customer Journey Analytics 是否要將維度值設為區分大小寫。它允許擁有相同值但大小寫不同的列刪除重複資料。如果您檢查&#x200B;**[!UICONTROL 小寫]**，一個維度具有相同值的所有執行個體皆會回報為小寫。此螢幕截圖指出如果&#x200B;**未**&#x200B;檢查[!UICONTROL 小寫]與如果您&#x200B;**確實**&#x200B;勾選方塊時，會發生什麼事情。在左表中，請注意「liverpool」、「Liverpool」及「LIVERPOOL」會在報告中產生三個個別的條列項目。在右表中，這些相同的值已刪除重複資料，且落於一個條列項目：<br>![區分大小寫維度](assets/case-sens-workspace.png) |
+| [!UICONTROL 小寫] | 用於字串維度。 去除重複的具有相同值但大小寫不同的列。 如果已啟用，則具有相同值的維度的所有例項都會報告為小寫。 例如，您的資料集包含字串維度中的`"liverpool"`、`"Liverpool"`和`"LIVERPOOL"`值。 如果啟用了[!UICONTROL 小寫]，則所有三個值將合併到`"liverpool"`中。 如果已停用，則這三個值會被視為不同值：<br>![區分大小寫的維度](assets/case-sens-workspace.png)<br> |
+
+>[!NOTE]
+>
+>如果您對查詢資料集維度啟用[!UICONTROL 小寫]，同一識別碼可以有多個查詢值。 如果發生此衝突，CJA會使用第一個ASCII對齊值（大寫值優先於小寫值）。 啟用[!UICONTROL 小寫]時，Adobe建議不要使用包含相同值的查詢資料集。
 
 ### 設置「[!UICONTROL 無值選項]」設定
 
