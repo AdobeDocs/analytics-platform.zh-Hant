@@ -2,7 +2,7 @@
 title: Customer Journey Analytics 常見問答
 description: Customer Journey Analytics - 常見問答。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: e605682ee4df06589ec343a27941f5d6a5928d7d
+source-git-commit: af683f97284ed24c3285a5819217ad329d5a8067
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 87%
@@ -83,7 +83,7 @@ ht-degree: 87%
 | 問題 | 考量事項 |
 | --- | --- |
 | 變數 | [!UICONTROL eVars]等變數可能不會在各報表套裝之間排行。 例如，報表套裝1中的eVar1可能指向&#x200B;**[!UICONTROL Page]**。 在報表套裝2中，eVar1可能會指向&#x200B;**[!UICONTROL 內部促銷活動]**，導致混合且不準確的報表。 |
-|  工作階段和  人員 | 這些報表套裝會去除重複資料。 因此，計數可能不相符。 |
+|  工作階段和  人員 | 這些報表套裝會刪除重複項目。 因此，計數可能不相符。 |
 | 量度重複資料刪除 | 如果多個列具有相同的交易ID（例如[!UICONTROL 購買ID]），則去重複化量度的例項（例如[!UICONTROL 訂購]）。 這可防止重要量度的過度計數。 因此，[!UICONTROL Orders]之類的量度可能不會在各報表套裝中加總。 |
 | 貨幣 | CJA尚不支援貨幣轉換。 如果您嘗試合併的報表套裝使用不同的基本貨幣，則可能會發生問題。 |
 | [!UICONTROL 持續性] | [](/help/data-views/persistence.md) 持續性會跨報表套裝延伸，而 [!UICONTROL 這會影響篩選] [!UICONTROL 器、歸因]等。數字可能無法正確加總。 |
