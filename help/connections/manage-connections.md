@@ -3,10 +3,10 @@ title: 管理連線
 description: 說明如何在 Customer Journey Analytics (CJA) 中管理與 Experience Platform 資料集的連線。
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: b0e07ca9533a2d53c916c6db31acaccbd78a41a3
+source-git-commit: d099c2559eea68aa1f44d345b103618f55fd0559
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 99%
+source-wordcount: '1587'
+ht-degree: 86%
 
 ---
 
@@ -80,6 +80,9 @@ ht-degree: 99%
 * 識別可以被略過或導致記錄刪除的設定問題。
 * 了解資料何時可用來報告。
 
+>[!IMPORTANT]
+>2021年8月13日之前擷取的任何資料，不會反映在此[!UICONTROL 連線]對話方塊中。
+
 以下是 Widget 和設定的說明：
 
 ![檢視連線詳細資料](assets/conn-details.png)
@@ -88,11 +91,11 @@ ht-degree: 99%
 | --- | --- |
 | 資料集選擇器 | 可讓您選擇連線中的一個或所有資料集。 您無法多重選取資料集。 預設為「[!UICONTROL 所有資料集]」。 |
 | 行事曆/日期範圍 | 日期範圍會指示您將資料新增到連線中的時間。 所有標準行事曆預設集都會納入其中。 您可以自訂日期範圍，但是下拉式清單中不會出現任何自訂日期範圍。 |
-| [!UICONTROL 可用記錄] Widget | 代表在&#x200B;**整個連線**&#x200B;中可用來報告的總列數。 此計數與任何行事曆設定皆無關。 如果您從資料集選擇器選取資料集，或是選取表格中的資料集，此計數就會改變。 (請注意，在新增資料後，可能要等候 1-2 個小時，資料才會出現在報告中。) |
-| [!UICONTROL 量度] Widget | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;彙總已新增/略過/刪除的記錄，以及已新增的批次數量。 |
-| [!UICONTROL 新增的記錄] Widget | 指出在選取的時段內，針對您選取的資料集和日期範圍&#x200B;**新增了多少列。**&#x200B;每 10 分鐘更新一次。 |
-| [!UICONTROL 略過的記錄] Widget | 針對您選取的資料集和日期範圍&#x200B;**，指出在選取的時段內已略過多少列。**&#x200B;略過記錄的原因包括：遺漏時間戳記、遺漏個人 ID 等。 每 10 分鐘更新一次。 |
-| [!UICONTROL 刪除的記錄] Widget | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;指示在所選的時段內刪除了多少列。 例如，可能有人已刪除 Experience Platform 中的資料集。 每 10 分鐘更新一次。 |
+| [!UICONTROL 可用介面工具集的事件資] 料記錄 | 代表可用於報告的事件資料集行總數，**適用於整個連線**。 此計數與任何行事曆設定皆無關。 如果您從資料集選擇器選取資料集，或是選取表格中的資料集，此計數就會改變。 (請注意，在新增資料後，可能要等候 1-2 個小時，資料才會出現在報告中。) |
+| [!UICONTROL 量度] Widget | 針對您選取的資料集和日期範圍，摘要新增/略過/刪除的事件記錄，以及新增的批次數&#x200B;**。** |
+| [!UICONTROL 新增的記錄] Widget | 指出在選取的時段內，針對您選取的資料集和日期範圍&#x200B;**新增了多少列。**&#x200B;每 10 分鐘更新一次。**注意**:新增的 **[!UICONTROL 記錄]** 資料目前僅包含事件資料，不包含設定檔或查閱資料。 |
+| [!UICONTROL 略過的記錄] Widget | 針對您選取的資料集和日期範圍&#x200B;**，指出在選取的時段內已略過多少列。**&#x200B;略過記錄的原因包括：遺漏時間戳記、遺漏個人 ID 等。 每 10 分鐘更新一次。**注意**:略過記 **[!UICONTROL 錄]** 的資料目前僅包含事件資料，不含設定檔或查閱資料。 |
+| [!UICONTROL 刪除的記錄] Widget | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;指示在所選的時段內刪除了多少列。 例如，可能有人已刪除 Experience Platform 中的資料集。 每 10 分鐘更新一次。**注意**:刪除的 **[!UICONTROL 記錄]** 資料目前僅包含事件資料，不包含設定檔或查閱資料。 |
 | 資料集搜尋方塊 | 您可以依據資料集名稱或[!UICONTROL 資料集 ID] 來進行搜尋。 |
 | [!UICONTROL 資料集] | 顯示屬於連線之一部分的資料集。 您可以按一下超連結來檢視連線中的所有資料集。 |
 | [!UICONTROL 資料集 ID] | Adobe Experience Platform 會自動產生這個 ID。 |
@@ -114,10 +117,11 @@ ht-degree: 99%
 | [!UICONTROL 匯入新資料] | 指示是否應該將新的資料批次新增到歷史 (回填) 資料。 |
 | **資料集層級的右側邊欄** |  |
 | [!UICONTROL 資料集說明] | 說明此連線中每個資料集的參數。 |
-| [!UICONTROL 可用記錄] | 代表在透過行事曆選取的特定時段中，為此資料集擷取的總列數。 在新增資料後，資料會立即出現在報告中，不需要等候。 (一個例外情況是當您建立全新連線時，將會發生[延遲](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#3.-getting-data-into-customer-journey-analytics))。 |
-| [!UICONTROL 新增的記錄] | 在選取的時段內新增了多少列。 |
-| [!UICONTROL 略過的記錄] | 在選取的時段內擷取資料時，略過了多少列。 |
-| [!UICONTROL 「略過的記錄」錯誤] | 這裡會指示略過記錄的原因。 其中可能包括遺漏時間戳記、遺漏個人 ID 等。 |
+| [!UICONTROL 可用記錄] | 代表透過日曆選取之特定時段內，此資料集擷取的列總數。 在新增資料後，資料會立即出現在報告中，不需要等候。 (一個例外情況是當您建立全新連線時，將會發生[延遲](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#3.-getting-data-into-customer-journey-analytics))。 |
+| [!UICONTROL 新增的記錄] | 在選取的時段內新增了多少列。**注意**:新增的 **[!UICONTROL 記錄]** 資料目前僅包含事件資料，不包含設定檔或查閱資料。 |
+| [!UICONTROL 略過的記錄] | 在選取的時段內擷取資料時，略過了多少列。**注意**:略過記 **[!UICONTROL 錄]** 的資料目前僅包含事件資料，不含設定檔或查閱資料。 |
+| [!UICONTROL 刪除的記錄] | 在所選時段內刪除了多少記錄。 **注意**:刪除的 **[!UICONTROL 記錄]** 資料目前僅包含事件資料，不包含設定檔或查閱資料。 |
+| [!UICONTROL 「略過的記錄」錯誤] | 這裡會指示略過記錄的原因。 原因可能包括遺失時間戳記、遺失人員ID等。 |
 | [!UICONTROL 擷取的批次] | 已將多少資料批次新增到這個資料集內。 |
 | [!UICONTROL 上次新增時間] | 上次新增批次的時間。 |
 | [!UICONTROL 資料集類型] | 可能是[!UICONTROL 事件]、[!UICONTROL 查詢]或[!UICONTROL 描述檔]。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
@@ -131,3 +135,5 @@ ht-degree: 99%
 
 * 開始及停止匯入新資料。 此程序先前稱為「資料串流」。
 * 為連線重新命名。
+* 重新整理資料集。
+* 從連線中移除資料集。
