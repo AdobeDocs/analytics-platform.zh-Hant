@@ -2,10 +2,10 @@
 title: 建立資料檢視
 description: 您可以調整以建立或編輯資料檢視的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
+source-git-commit: 49b4998194274eec2ab8eca231029ccb5ccf648d
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 81%
+source-wordcount: '805'
+ht-degree: 77%
 
 ---
 
@@ -55,7 +55,17 @@ ht-degree: 81%
    >
    >您可以從左側邊欄拖曳整個架構欄位資料夾，並自動將資料夾排序為傳統區段。 字串欄位結尾在[!UICONTROL Dimension]區段，而數字在[!UICONTROL 量度]區段。 或者，您也可以按一下「**[!UICONTROL 新增全部]**」，然後新增所有架構欄位。
 
-1. 選取元件後，右側會出現許多設定。使用下述設定來設定元件。
+1. 選取元件後，右側會出現許多設定。使用中所述的設定來配置元件
+
+* [ 元件設定概述](/help/data-views/component-settings/overview.md)
+* [ 屬性元件設定](/help/data-views/component-settings/attribution.md)
+* [ 行為元件設定](/help/data-views/component-settings/behavior.md)
+* [ Formatcomponent設定](/help/data-views/component-settings/format.md)
+* [[!UICONTROL 包含|排] 除元件設定](/help/data-views/component-settings/include-exclude-values.md)
+* [[!UICONTROL 量度] 重複資料刪除元件設定](/help/data-views/component-settings/metric-deduplication.md)
+* [[!UICONTROL 無] 值元件設定](/help/data-views/component-settings/no-value-options.md)
+* [ Persistencomponent設定](/help/data-views/component-settings/persistence.md)
+   [[!UICONTROL 值] 分段元件設定](/help/data-views/component-settings/value-bucketing.md)
 
 ## 使用「[!UICONTROL 複製]」功能
 

@@ -2,10 +2,10 @@
 title: CJA 文件更新
 description: 列出自2019年12月以來Customer Journey Analytics檔案集的內容更新。
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
-source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
+source-git-commit: 6fca2dbffb0a631b0c5425c7d8964296ad22b7cc
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 20%
+source-wordcount: '448'
+ht-degree: 18%
 
 ---
 
@@ -15,8 +15,9 @@ ht-degree: 20%
 
 | 日期 | 更新說明 |
 | --- | --- |
+| 2021 年 9 月 | 將資料檢視中的元件設定分解為個別檔案：<ul><li>[ 元件設定概述](/help/data-views/component-settings/overview.md)</li><li>[ 屬性元件設定](/help/data-views/component-settings/attribution.md)</li><li>[ 行為元件設定](/help/data-views/component-settings/behavior.md)</li><li>[ Formatcomponent設定](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL 包含/排] 除元件設定](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL 量度] 重複資料刪除元件設定](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL 無] 值元件設定](/help/data-views/component-settings/no-value-options.md)</li><li>[ Persistencomponent設定](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL 值] 分段元件設定](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
 | 2021 年 9 月 | 關於合併CJA中報表套裝](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#6.-cinformations-when-merging-report-suites-in-cja)的含意的新區段。[ |
-| 2021 年 8 月 | CJA中增強[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant)體驗的新區段。 |
+| 2021 年 8 月 | CJA中增強型[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant)體驗的新區段。 |
 | 2021 年 8 月 | 資料檢視維度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings)中[區分大小寫的新區段。 |
 | 2021 年 6 月 | 工作區中[先前專案版本](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html?lang=en#previous-version)的新檔案。 |
 | 2021 年 4 月 | 有關[持續性](data-views/component-settings/persistence.md)的新主題。 |

@@ -1,7 +1,7 @@
 ---
 title: 值分段元件設定
 description: 將數值合併至維度。
-source-git-commit: af357167e65f4a577880832818221f6edbfc8b0a
+source-git-commit: 0c27f75eed8f1f3dec3f287cfe35ab748bbfc1bb
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 12%
@@ -9,7 +9,7 @@ ht-degree: 12%
 ---
 
 
-# 值分段元件設定
+# [!UICONTROL 值] 分段元件設定
 
 建立或編輯資料檢視時，值分段可讓您根據範圍結合數值。 它僅適用於使用整數或雙重結構資料類型的維度。
 
