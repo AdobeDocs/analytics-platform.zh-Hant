@@ -2,7 +2,7 @@
 title: Customer Journey Analytics 常見問答
 description: Customer Journey Analytics - 常見問答。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: af683f97284ed24c3285a5819217ad329d5a8067
+source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 87%
@@ -86,5 +86,5 @@ ht-degree: 87%
 |  工作階段和  人員 | 這些報表套裝會刪除重複項目。 因此，計數可能不相符。 |
 | 量度重複資料刪除 | 如果多個列具有相同的交易ID（例如[!UICONTROL 購買ID]），則去重複化量度的例項（例如[!UICONTROL 訂購]）。 這可防止重要量度的過度計數。 因此，[!UICONTROL Orders]之類的量度可能不會在各報表套裝中加總。 |
 | 貨幣 | CJA尚不支援貨幣轉換。 如果您嘗試合併的報表套裝使用不同的基本貨幣，則可能會發生問題。 |
-| [!UICONTROL 持續性] | [](/help/data-views/persistence.md) 持續性會跨報表套裝延伸，而 [!UICONTROL 這會影響篩選] [!UICONTROL 器、歸因]等。數字可能無法正確加總。 |
+| [!UICONTROL 持續性] | [](../data-views/component-settings/persistence.md) 持續性會跨報表套裝延伸，而 [!UICONTROL 這會影響篩選] [!UICONTROL 器、歸因]等。數字可能無法正確加總。 |
 | [!UICONTROL 分類] |  合併報表套裝時，分類不會自動進行去重複化。將多個分類檔案合併為單一[!UICONTROL lookup]資料集時，您可能會遇到問題。 |

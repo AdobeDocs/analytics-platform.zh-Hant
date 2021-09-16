@@ -1,17 +1,17 @@
 ---
-title: 什麼是 Customer Journey Analytics 的資料檢視?
+title: 資料檢視總覽
 description: 資料檢視指定您想要如何解釋 CJA 連線中的資料元素，例如量度、維度、工作階段等。
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
-source-git-commit: e6504d4b5c17f5b461de81a9df5d7d2ab2505ae9
-workflow-type: ht
-source-wordcount: '1070'
-ht-degree: 100%
+source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 94%
 
 ---
 
-# 什麼是資料檢視?
+# 資料檢視總覽
 
-資料檢視位於 [Customer Journey Analytics (CJA)](/help/connections/create-connection.md) 連線上。連線結合 Adobe Experience Platform 的一個或多個資料集並將它連接至 CJA。資料檢視指定您想要如何解釋此連線中的資料元素，例如量度、維度、工作階段等。資料檢視是為了在 Workspace 中報告資料而定義的。
+資料檢視是特定於Customer Journey Analytics的容器，可讓您判斷如何從[connection](/help/connections/create-connection.md)解譯資料。 它會指定Analysis Workspace中可用的所有維度和量度，以及這些維度和量度從哪些欄取得其資料。 資料檢視是為準備在Analysis Workspace中製作報表而定義。
 
 >[!NOTE]
 >
@@ -78,4 +78,3 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * [建立資料檢視](/help/data-views/create-dataview.md)
 * [資料檢視使用案例](/help/data-views/data-views-usecases.md)
-* 有關[持續性](/help/data-views/persistence.md)的運作方式的詳細資訊

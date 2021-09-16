@@ -10,10 +10,10 @@ user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 跨管道分析的新一代解決方案 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供自助協助資訊。
 breadcrumb-title: Customer Journey Analytics 指南
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-source-git-commit: 3839639858edbd019ef467ca5fb1791f48864100
-workflow-type: ht
-source-wordcount: '450'
-ht-degree: 100%
+source-git-commit: dd88dc79d523d6e5ef4fa868eef4bbb22df6b61b
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 98%
 
 ---
 
@@ -40,8 +40,18 @@ ht-degree: 100%
 + 資料檢視 {#cja-dataviews}
    + [資料檢視總覽](data-views/data-views.md)
    + [建立資料檢視](data-views/create-dataview.md)
+   + 元件設定{#component-settings}
+      + [元件設定概觀](data-views/component-settings/overview.md)
+      + [歸因](data-views/component-settings/attribution.md)
+      + [行為](data-views/component-settings/behavior.md)
+      + [格式](data-views/component-settings/format.md)
+      + [包含排除值](data-views/component-settings/include-exclude-values.md)
+      + [量度重複資料刪除](data-views/component-settings/metric-deduplication.md)
+      + [沒有值選項](data-views/component-settings/no-value-options.md)
+      + [持續性](data-views/component-settings/persistence.md)
+      + [值分組配置](data-views/component-settings/value-bucketing.md)
+   + [標準元件參考](data-views/component-reference.md)
    + [資料檢視使用案例](data-views/data-views-usecases.md)
-   + [持續性](data-views/persistence.md)
 + Workspace 專案 {#cja-workspace}
    + [Analysis Workspace 總覽](analysis-workspace/home.md)
    + [執行基本分析](analysis-workspace/perform-basic-analysis.md)
