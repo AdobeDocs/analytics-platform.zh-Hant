@@ -2,16 +2,16 @@
 title: 匯入客服中心和網頁的資料
 description: 了解如何建立連結客服中心和網站資料的資料集。
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
-source-wordcount: '675'
-ht-degree: 100%
+source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 86%
 
 ---
 
 # 匯入客服中心和網頁的資料
 
-Customer Journey Analytics 具有重要的強大功能，可將不同來源的資料集合併成單一 Analysis Workspace 專案。使用本指南瞭解貴組織如何結合網站資料與客服中心資料。
+Customer Journey Analytics 具有重要的強大功能，可將不同來源的資料集合併成單一 Analysis Workspace 專案。使用本指南瞭解貴組織如何結合網站資料與客服中心資料。例如，您可以了解客戶採取哪些動作、他們檢視哪些內容，以及他們在聯絡客戶支援前所搜尋的詞語。 然後，您可以決定要改進的內容和自助服務工具，以便客戶能夠更好地解決問題，而無需呼叫。
 
 ## 先決條件
 
@@ -53,8 +53,10 @@ CJA 需有共同識別碼才能產生[合併資料集](../connections/combined-d
 
 ## 建立資料檢視
 
-建立連線後，您可以在 Analysis Workspace 中[建立資料檢視](/help/data-views/create-dataview.md)，以利後續使用。<!-- page dimension last touch, session persistence -->
-<!-- create calls metric using call center reason (requires data views 2.0). any column that triggers once per call -->
+建立連線後，您可以在 Analysis Workspace 中[建立資料檢視](/help/data-views/create-dataview.md)，以利後續使用。實用的元件包括：
+
+* 具有上次接觸和工作階段持續性的頁面維度。 您可以將客服中心量度與客戶在呼叫前所檢視的最後一頁連接。
+* 使用「客服中心原因」結構欄位來增加發生次數的呼叫量度。 使用[量度重複資料刪除](/help/data-views/component-settings/metric-deduplication.md)，使每個工作階段只增加一次。
 
 ## 建立視覺效果
 
@@ -81,14 +83,13 @@ CJA 需有共同識別碼才能產生[合併資料集](../connections/combined-d
 1. 按一下量度標題附近的齒輪圖示。按一下&#x200B;**[!UICONTROL 「使用非預設歸因模型」]**。
 1. 設定所需的[歸因模型](/help/data-views/create-dataview.md)。
 
-產生的報告會顯示客服中心資料的主要量度。<!-- Complement with donut visualization -->
+產生的報告會顯示客服中心資料的主要量度。
 
 <!-- ### Flow between web data and call center
 
 call reason as an exit dimension, web page name for previous pages
 
 ### Histogram
-
 
 ### Fallout
 

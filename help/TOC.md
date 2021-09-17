@@ -10,10 +10,10 @@ user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 跨管道分析的新一代解決方案 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供自助協助資訊。
 breadcrumb-title: Customer Journey Analytics 指南
 breadcrumb-url: /docs/analytics-platform/using/cja-landing.html
-source-git-commit: 46dbc257e7e2ec1709f5380061033a7ed8578797
+source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 97%
+source-wordcount: '477'
+ht-degree: 96%
 
 ---
 
@@ -163,6 +163,7 @@ ht-degree: 97%
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [使用物件陣列](use-cases/object-arrays.md)
    + [(B2B) 新增帳戶層級資料當做查詢資料集](use-cases/b2b.md)
+   + [分析跨管道的資料](use-cases/cross-channel.md)
    + [匯入客服中心和網頁的資料](use-cases/call-center.md)
    + [資料擷取使用案例](use-cases/data-ingestion.md)
    + [使用行銷管道維度](use-cases/marketing-channels.md)

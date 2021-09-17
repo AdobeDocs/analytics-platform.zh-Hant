@@ -2,10 +2,10 @@
 title: 建立或編輯資料檢視
 description: 您可以調整以建立或編輯資料檢視的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
-source-git-commit: 384679788d140a01a12e1c830b47099398a920b1
+source-git-commit: 36b7cc72c34e27f90af29146f7a32c525b279b9b
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -60,12 +60,9 @@ ht-degree: 18%
 1. 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立資料檢視，或按一下現有資料檢視加以編輯。
 1. 按一下&#x200B;**[!UICONTROL 元件]**&#x200B;標籤。
 
-![元件索引標籤](assets/components-tab.png)
+   ![元件索引標籤](assets/components-tab.png)
 
-您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「結構」欄位]。請記住以下事項：
-
-    *已包括的元件是標準所需元件（系統生成）。
-    *Adobe預設會套用篩選器**[!UICONTROL 包含資料]**，以便僅顯示包含資料的結構欄位。如果您要尋找不含資料的欄位，請移除此篩選條件。
+   您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「結構」欄位]。請注意，已包含的元件是所有資料檢視的標準必要元件（系統產生）。 Adobe還預設應用篩選器&#x200B;**[!UICONTROL 包含資料]**，以便僅顯示包含資料的架構欄位。 如果您想要不包含資料的欄位，請移除此篩選器。
 
 1. 從左側邊欄將結構欄位（例如`pageTitle`）拖曳至「量度」或「Dimension」區段。
 
