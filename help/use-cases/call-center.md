@@ -2,10 +2,10 @@
 title: 匯入客服中心和網頁的資料
 description: 了解如何建立連結客服中心和網站資料的資料集。
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
-source-git-commit: a6c6620a4f4118755509e534d7d6a12bf08b4b67
+source-git-commit: 269c6e50f26d424df58c0803a4e49eb2fc9d3968
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 86%
+source-wordcount: '1148'
+ht-degree: 56%
 
 ---
 
@@ -79,30 +79,58 @@ CJA 需有共同識別碼才能產生[合併資料集](../connections/combined-d
 此自由表格可讓您查看客服中心事件的幾大來源頁面。首先，確認所需的維度和量度具備正確的歸因模型：
 
 1. 將具網頁名稱的維度拖曳至「自由表格」視覺效果上。
-1. 將該量度換成您要測量轉換情形的客服中心量度。
+1. 將量度取代為您要測量的客服中心量度。
 1. 按一下量度標題附近的齒輪圖示。按一下&#x200B;**[!UICONTROL 「使用非預設歸因模型」]**。
-1. 設定所需的[歸因模型](/help/data-views/create-dataview.md)。
+1. 設定所需的[歸因模型](/help/analysis-workspace/attribution/models.md)。例如，半衰期為15分鐘的時間耗損模型，以及工作階段的回顧期間。 此歸因模型會將評分給予呼叫中心前的頁面。
 
-產生的報告會顯示客服中心資料的主要量度。
+產生的報表會顯示帶動呼叫中心的最上層頁面。<!-- use case behind what we use these pages for -->
 
-<!-- ### Flow between web data and call center
+<!-- Complement with donut visualization -->
 
-call reason as an exit dimension, web page name for previous pages
+您可以依原因或類別拆分呼叫，進一步透過此表格增加深入分析。
 
-### Histogram
+1. 在元件清單中，按一下「呼叫原因」維度下方的右形箭號。 此動作會顯示個別的維度值。
+2. 將所需的維度值拖曳至「呼叫」量度下，這會根據各自的呼叫原因篩選該量度。
+3. 對您要深入鑽研的每個呼叫原因重複此步驟。 使用「所有工作階段」篩選器來檢視匯總總計。
+
+<!-- screenshot -->
+
+### 流量視覺效果
+
+您可以深入了解客戶在使用客服中心管道之前嘗試執行的動作。 此流量視覺效果可協助您了解客戶最常到達客服中心的歷程。 此洞察力可讓您判斷對網站最有效的改善，讓客戶不太可能呼叫。
+
+1. 按一下左側的&#x200B;**[!UICONTROL 視覺效果]**&#x200B;標籤，然後將流量視覺效果拖曳至工作區畫布。
+2. 按一下左側的&#x200B;**[!UICONTROL 元件]**&#x200B;標籤，然後找出「呼叫原因」維度。
+3. 按一下此維度旁的右形箭號。 此動作會顯示個別的維度值。
+4. 將所需的呼叫原因維度項目拖曳至流量視覺效果的中心位置。
+5. 流量視覺效果會自動填入先前和下次呼叫原因。 將先前呼叫原因取代為網站頁面維度。
+6. 按一下流量視覺效果右上角的齒輪圖示，並將流量容器變更為&#x200B;**[!UICONTROL Session]**。
+
+### 長條圖
+
+有多少客戶曾呼叫過一次、呼叫過兩次，或呼叫了6次以上？ 其中一些人從未訪問過網站。 使用色階分佈圖視覺效果來判斷每個貯體中有多少人。 對於從未造訪過網站的使用者，了解如何鼓勵他們自助服務。
+
+1. 按一下左側的&#x200B;**[!UICONTROL 視覺效果]**&#x200B;標籤，然後將色階分佈圖視覺效果拖曳至工作區畫布上。
+2. 按一下左側的&#x200B;**[!UICONTROL 元件]**&#x200B;標籤，並將呼叫量度拖曳至色階分佈圖視覺效果。
+3. 按一下視覺效果中央的「**[!UICONTROL 顯示進階設定]**」，然後自訂所需的貯體。
+4. 按一下&#x200B;**[!UICONTROL 「建立」]**。
+
+<!--
+### Web to call, call to web
 
 ### Fallout
 
-step 1: all sessions
-step 2: purchase step 1
-step 3: call
+Fallout sessions - session
 
-another good one
+All sessions > page views metric > calls metric
+
+All sessions > calls metric > page views
+
+Orrr we could also use dataset ID
 
 step 1: all sessions
 step 2: 
 
-Orrr we could also use dataset ID
 
 ### Site sections that result in a call within 30 minutes
 

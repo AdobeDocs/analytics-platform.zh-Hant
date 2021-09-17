@@ -2,11 +2,10 @@
 title: 重播的運作方式
 description: 了解跨管道分析中的「重播」概念
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
-translation-type: ht
-source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: af14d9279f1dd5019e7e6db59a27765eede078bb
+workflow-type: tm+mt
+source-wordcount: '548'
+ht-degree: 95%
 
 ---
 
@@ -54,6 +53,10 @@ ht-degree: 100%
 | `5` | `3579` | `Bob` | - | `Bob` | Bob 透過行動裝置登入 | `1` (Bob) |
 | `6` | - | - | `Bob` | `Bob` | Bob 再次打電話給客戶服務人員 | `1` (Bob) |
 | `7` | `246` | - | - | `Bob` | Bob 在未經驗證的情況下，再次透過桌上型電腦造訪您的網站 | `1` (Bob) |
+
+>[!NOTE]
+>
+>只會為網站資料集重播資料。 客服中心資料集維持不變，但會在使用正確的人員ID時相符。
 
 ## 重述
 
