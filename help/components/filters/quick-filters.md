@@ -3,22 +3,22 @@ description: 在Analysis Workspace中使用快速篩選。
 title: 快速篩選
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: a32b260fb4c4696ac460903f44b240cb71a62db9
+exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
+source-git-commit: 300bc4069b77b62ae13fd5baf2eec5846676fc6e
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 3%
 
 ---
-
 
 # 快速篩選
 
 您可以在專案內建立快速篩選，以略過完整[篩選產生器](/help/components/filters/create-filters.md)的複雜度。 快速篩選
 
-* 僅套用至特定專案（您可以變更）。
+* 僅套用至在中建立的專案（您可以變更此項目）。
 * 允許最多3個規則
 * 不容納巢狀容器或循序規則。
-* 在具有多個報表套裝的面板中工作
+* 在具有多個報表套裝的專案中工作
 
 若要比較快速篩選可以執行哪些功能與完整元件清單篩選，請前往[此處](/help/components/filters/filters-overview.md)。
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## 先決條件
 
-使用者需要[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools)中的[!UICONTROL 篩選建立]權限，才能建立快速篩選。
+使用者需要[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools)中的[!UICONTROL 區段建立]權限，才能建立快速篩選。
 
 ## 建立快速篩選
 
@@ -37,9 +37,9 @@ ht-degree: 1%
 
 | 設定 | 說明 |
 | --- | --- |
-| 名稱 | 篩選器的預設名稱是篩選器中規則名稱的組合。 您可以重新命名篩選器。 |
+| 名稱 | 篩選器的預設名稱是篩選器中規則名稱的組合。 您可以將篩選器重新命名為更好記的名稱。 |
 | 包含/排除 | 您可以在篩選器定義中包含或排除元件，但不能同時包含和排除元件。 |
-| 點擊/造訪/訪客容器 | 快速篩選器包含一個[篩選器容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6)，僅可讓您在篩選器中納入維度/量度/日期範圍（或將其排除在篩選器中）。  訪客包含各瀏覽和頁面檢視的訪客特定整體資料。[!UICONTROL 瀏覽]容器可讓您設定規則，以根據瀏覽來劃分訪客的資料，而[!UICONTROL 點擊]容器則可讓您根據個別頁面檢視來劃分訪客資訊。 預設容器為[!UICONTROL Hit]。 |
+| 點擊/造訪/訪客容器 | 快速篩選器包含一個[篩選器容器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=zh-Hant#filter-containers)，僅可讓您在篩選器中納入維度/量度/日期範圍（或將其排除在篩選器中）。  訪客包含各瀏覽和頁面檢視的訪客特定整體資料。[!UICONTROL 瀏覽]容器可讓您設定規則，以根據瀏覽來劃分訪客的資料，而[!UICONTROL 點擊]容器則可讓您根據個別頁面檢視來劃分訪客資訊。 預設容器為[!UICONTROL Hit]。 |
 | 元件(Dimension/量度/日期範圍) | 新增元件維度和/或量度及/或日期範圍及其值，以定義最多3個規則。 有3種方式可尋找正確的元件：<ul><li>開始輸入，[!UICONTROL 快速篩選]產生器會自動找到適當的元件。</li><li>使用下拉式清單來尋找元件。</li><li>從左側邊欄拖放元件。</li></ul> |
 | 運算元 | 使用下拉式功能表來尋找標準運算子和[!UICONTROL 不重複計數]運算子。 [了解更多](https://experienceleague.adobe.com/docs/analytics/components/filteration/segment-reference/seg-operators.html?lang=en) |
 | 加號(+) | 新增其他規則 |
@@ -83,9 +83,6 @@ ht-degree: 1%
 
 1. 將滑鼠指標暫留在快速篩選器上，並選取資訊(「i」)圖示。
 1. 選擇&#x200B;**[!UICONTROL 保存篩選器]**
-
-   ![](assets/save-quick-seg.png)
-
 1. 名稱保持原樣，或重新命名篩選器。
 
    返回「工作區」，注意篩選器現在有藍色側欄的方式。 這表示您無法再在快速篩選產生器中編輯/開啟篩選器。 儲存後就會成為元件清單的一部分。
@@ -100,7 +97,7 @@ ht-degree: 1%
 
    ![](assets/project-only.png)
 
-1. 選中&#x200B;**[!UICONTROL 使此篩選器可供所有項目使用並將其添加到元件清單旁的複選框。]**
+1. 選中&#x200B;**[!UICONTROL 讓所有項目都可用並添加到元件清單旁的複選框。]**
 1. 按一下「**[!UICONTROL 儲存]**」。
 1. 篩選器現在會顯示在您所有專案的篩選器元件清單中。
 1. 您也可以[與組織中的其他人員共用篩選器](/help/components/filters/manage-filters.md)。

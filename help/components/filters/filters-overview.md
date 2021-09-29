@@ -2,10 +2,10 @@
 title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 4564b2d33e2222c7ad3e2db3c85b5a27d70d05ee
+source-git-commit: ff1f28015a2c52f79fae975c16bb7cb76f6179c3
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '1099'
+ht-degree: 84%
 
 ---
 
@@ -18,6 +18,18 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 您可以在篩選器產生器中建立和儲存篩選器，或從「流失」視覺效果 (在工作區中) 產生篩選器。此外，多個篩選器可作為堆疊篩選器搭配使用。
 
 篩選包含可建構篩選器並執行預先測試的[篩選器產生器](/help/components/filters/create-filters.md)，以及可收集、標記、核准、設定安全性及為整個組織共用篩選器的[篩選器管理器](/help/components/filters/manage-filters.md)。
+
+## 篩選類型
+
+您可以在工作區和篩選器產生器中建立不同類型的篩選器，視其需要的複雜程度、是否應僅套用至此專案等而定。 以下為篩選類型的摘要：
+
+| 篩選類型 | 建立位置？ | 適用於何處？ | 使用時機 |
+| --- | --- | --- | --- |
+| 元件清單篩選器 | 按一下+，接著便會前往[篩選產生器](/help/components/filters/create-filters.md) | 所有工作區專案 | 對於更複雜的篩選，循序篩選 |
+| 快速篩選 | [快速篩選產生器](/help/components/filters/quick-filters.md) | 僅限專案，但可儲存並新增至區段清單。 | 可彈性新增/編輯一或多個規則 |
+| 臨機專案篩選器 | [拖放至專案中的區段拖放區域](/help/components/filters/ad-hoc-filters.md) | 僅限專案，但可儲存並新增至篩選清單。 | 單一規則篩選器 |
+| 流失分析中的篩選器 | [流失視](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) 覺效果在Analysis Workspace | 個別流失視覺效果 | 從接觸點建立篩選器、將篩選器新增為接觸點，以及在各種篩選器之間比較關鍵工作流程 |
+| 計算量度型篩選器 | [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 至個別計算量度 | 在量度定義中套用篩選器 |
 
 ## 循序篩選器
 
