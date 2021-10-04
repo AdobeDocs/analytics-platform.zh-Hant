@@ -2,9 +2,9 @@
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: ac86d4a191a7ed2f9fa7285e497be509f658f615
+source-git-commit: d833e12c67d74696438be9547db159438e671b2c
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1196'
 ht-degree: 99%
 
 ---
@@ -31,9 +31,11 @@ ht-degree: 99%
 | 清單變數/清單 Prop | 完整資源；CJA 運用 XDM 並支援使用方式與 listVars 相似的無限制字串陣列。 |
 | 量度 | 完整支援；CJA 運用 Experience Data Model (XDM) 並支援無限制的量度，且未繫結到傳統 Analytics 的自訂成功事件。請注意，傳統 Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
 | 量度重複資料刪除 | 完整支援 |
+| 面板 | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。 |
 | 匯出 PDF | 完整支援 |
 | 專案策劃 | 完整支援 |
 | 專案連結 | 完整支援 |
+| Report Builder (Excel 外掛程式) | 完整支援（2021年10月） |
 | 報告時間處理 | 完整支援；CJA 僅仰賴報告時間處理。 |
 | 報告 API 存取權 | 完整支援；透過 [CJA API](https://www.adobe.io/cja-apis/docs/) 提供。 |
 | 排程報告/專案 | 完整支援 |
@@ -80,7 +82,6 @@ ht-degree: 99%
 | 透過裝置圖表進行 ID 彙整 | 已規劃提供支援。 |
 | 銷售變數持續性 | 已規劃提供支援。 |
 | 即時報表 | 已規劃提供支援。 |
-| Report Builder (Excel 外掛程式) | 已規劃提供支援。 |
 | 區段 IQ | 已規劃提供支援。 |
 | 區段發佈 (將區段從 Analysis Workspace 傳送至 Experience Cloud) | 已規劃提供支援。 |
 
