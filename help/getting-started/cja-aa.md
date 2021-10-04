@@ -2,9 +2,9 @@
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: d833e12c67d74696438be9547db159438e671b2c
+source-git-commit: 8efb8da477b2680a44294553fdca944461ba0f0c
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 99%
 | 歸因 IQ | 完整支援 |
 | 計算量度 | 完整支援；請注意，在傳統 Analysis Workspace 中任何現有的計算量度將不會移轉到 CJA。 |
 | 跨裝置/跨管道彙整 | 完整支援；請參閱[跨管道分析](/help/connections/cca/overview.md)。 |
+| CSV 下載 | 完整支援 |
 | 自訂行事曆 | 完全支援 |
 | 日期比較 | 完整支援 |
 | 日期範圍 | 支援所有日期範圍功能。 |
@@ -77,7 +78,6 @@ ht-degree: 99%
 | --- | --- |
 | 警報 | 已規劃提供支援。 |
 | 貢獻分析 | 已規劃提供支援。 |
-| CSV 下載 | 已規劃提供支援。 |
 | Data Warehouse 報表 (100% 列匯出) | 規劃從 Analysis Workspace 介面提供支援。[!UICONTROL Experience Platform 查詢服務]還為 CJA 這些使用案例提供一個介面。 |
 | 透過裝置圖表進行 ID 彙整 | 已規劃提供支援。 |
 | 銷售變數持續性 | 已規劃提供支援。 |
