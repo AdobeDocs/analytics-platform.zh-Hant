@@ -4,10 +4,10 @@ title: 建立計分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
-source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
+source-git-commit: 9a7fa68bd7b4b9a7164a80691ddfb7aedaf8e3e4
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 54%
+source-wordcount: '1378'
+ht-degree: 53%
 
 ---
 
@@ -16,6 +16,9 @@ ht-degree: 54%
 以下資訊可為 Adobe Analytics 資料的組織者說明如何設定控制面板並將其對執行使用者呈現。首先，您可以檢視Adobe Analytics控制面板計分卡產生器影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!NOTE]
+>此頁面的計分卡螢幕擷取畫面來自Adobe Analytics UI，而非CJA。 UI幾乎相同。
 
 Adobe Analytics計分卡以圖磚式版面配置呈現，為執行使用者顯示視覺化的關鍵資料，如下所示：
 
@@ -116,7 +119,7 @@ Analytics控制面板提供四個視覺效果，讓您能夠深入分析維度�
 
 使用「摘要數字」視覺效果來強調專案中重要的大數字。
 
-![摘要數字](assets/sparkline.png)
+![摘要數字](assets/summary-number.png)
 
 ### [!UICONTROL 環形圖]
 
@@ -153,11 +156,11 @@ Analytics控制面板提供四個視覺效果，讓您能夠深入分析維度�
 
 ![「屬性」圖磚](assets/properties_tile.png)
 
-## 查看鑽取（劃分）
+## 檢視鑽取（劃分）
 
-按一下圖磚時，動態快顯視窗會顯示應用程式中執行使用者看到「鑽取（劃分）」檢視的方式。 如果沒有將任何維度套用至圖磚，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
+按一下圖磚時，動態快顯視窗會顯示應用程式中執行使用者看到「鑽取（劃分）」檢視的方式。 您可以劃分維度和維度項目，以根據您的特定需求劃分資料。 如果沒有將任何維度套用至圖磚，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
 
-劃分會依其他量度和維度（例如在此零售範例中）逐字劃分量度和維度，借此精簡分析：
+劃分會依其他量度和維度（例如在此零售範例中）逐字劃分維度，借此精簡您的分析：
 
 * 依廣告平台(AMO ID)劃分的獨特訪客量度
 * 依產品類別劃分的瀏覽（零售）
