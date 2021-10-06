@@ -3,10 +3,10 @@ description: 如何建立Adobe Analytics控制面板計分卡
 title: 建立計分卡
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: c41eeda10083ef6cc3d46b044f1c0052d08a575b
+source-git-commit: ac2228a20591909f8c81bd79cf40d84ab0cf6272
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 56%
+source-wordcount: '1339'
+ht-degree: 54%
 
 ---
 
@@ -126,7 +126,7 @@ Analytics控制面板提供四個視覺效果，讓您能夠深入分析維度�
 
 **線條視覺效果**
 
-線條圖視覺效果使用線條圖表示量度，以顯示一段時間中值的變化。折線圖只可以在當做維度時使用。
+線條圖視覺效果使用線條圖表示量度，以顯示一段時間中值的變化。折線圖會顯示一段時間內的維度，但可搭配任何視覺效果使用。 您正在此範例中視覺化產品類別維度。
 
 ![線條視覺效果](assets/line.png)
 
@@ -146,7 +146,7 @@ Analytics控制面板提供四個視覺效果，讓您能夠深入分析維度�
 
    ![未指定](assets/unspecified.png)
 
-1. 按一下&#x200B;**[!UICONTROL Unspecified]**&#x200B;旁的圖示，從報表中移除未指定的資料。
+1. 按一下&#x200B;**[!UICONTROL Unspecified]**&#x200B;旁的圖示，從報表中移除未指定的資料。 （您也可以移除任何其他維度項目。）
 
 ## 查看和配置磁貼屬性
 
