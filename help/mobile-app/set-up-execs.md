@@ -3,13 +3,13 @@ description: 如何設定使用者以使用Analytics行動應用程式
 title: 設定執行官以使用控制面板
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 020d59268873776aeec8fc7a90be70c3b6c55b69
+exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
+source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 56%
 
 ---
-
 
 # 設定執行使用者以使用控制面板
 
@@ -19,7 +19,7 @@ ht-degree: 56%
 
 1. 在[Experience CloudAdmin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=en)中設定新用戶。
 
-1. 若要共用計分卡，您必須授予應用程式使用者存取計分卡元件的權限，例如Analysis Workspace、計分卡所依據的報表套裝，以及區段、量度和維度。
+1. 若要共用計分卡，您必須授與應用程式使用者存取計分卡元件的權限，例如Analysis Workspace、計分卡所依據的資料檢視，以及篩選器、量度和維度。
 
 ## 應用程式使用者的系統必要條件
 
@@ -111,4 +111,3 @@ ht-degree: 56%
 * 可能未與執行使用者共用計分卡。
 
 確認執行使用者可以登入正確的Adobe Analytics執行個體，且已共用計分卡。
-

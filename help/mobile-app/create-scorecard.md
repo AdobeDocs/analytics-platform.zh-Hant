@@ -3,13 +3,13 @@ description: 如何建立Adobe Analytics控制面板計分卡
 title: 建立計分卡
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: ac2228a20591909f8c81bd79cf40d84ab0cf6272
+exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
+source-git-commit: a9e1242a5038c57d8fd687df1ceff84a365cf141
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1342'
 ht-degree: 54%
 
 ---
-
 
 # 建立計分卡
 
@@ -112,32 +112,31 @@ Analytics控制面板提供四個視覺效果，讓您能夠深入分析維度�
 
 ![視覺效果](assets/vizs.png)
 
-**[!UICONTROL 摘要數字]**
+### [!UICONTROL 摘要數字]
 
 使用「摘要數字」視覺效果來強調專案中重要的大數字。
 
 ![摘要數字](assets/sparkline.png)
 
-** Donutvisualization**
+### [!UICONTROL 環形圖]
 
 此視覺效果類似圓餅圖，以整體的部分或區段顯示資料。比較總計的百分比時，請使用環圈圖。 例如，假設您想了解哪些廣告平台對獨特訪客總數的貢獻：
 
 ![環形圖視覺效果](assets/donut-viz.png)
 
-**線條視覺效果**
+### [!UICONTROL 折線圖]
 
 線條圖視覺效果使用線條圖表示量度，以顯示一段時間中值的變化。折線圖會顯示一段時間內的維度，但可搭配任何視覺效果使用。 您正在此範例中視覺化產品類別維度。
 
 ![線條視覺效果](assets/line.png)
 
-
-**[!UICONTROL 水準條形] 視覺效果**
+### [!UICONTROL 水平條]
 
 此視覺效果顯示代表一或多個量度多個值的橫條。例如，若要輕鬆查看您的最上層產品，請使用[!UICONTROL 水準條]作為偏好的視覺效果。
 
 ![水準條](assets/horizontal.png)
 
-**移除未 [!UICONTROL 指定]**
+### 移除[!UICONTROL 未指定]維度項目
 
 如果您想從資料中移除[!UICONTROL 未指定]維度項目，請執行下列動作：
 
@@ -153,6 +152,8 @@ Analytics控制面板提供四個視覺效果，讓您能夠深入分析維度�
 按一下計分卡產生器中的圖磚時，右側邊欄會顯示與該圖磚相關聯的屬性和特性。 在此邊欄中，您可以為該圖磚提供新的&#x200B;**[!UICONTROL 標題]**，或是透過指定元件來設定圖磚，而不必從左側邊欄拖放元件。
 
 ![「屬性」圖磚](assets/properties_tile.png)
+
+## 查看鑽取（劃分）
 
 按一下圖磚時，動態快顯視窗會顯示應用程式中執行使用者看到「鑽取（劃分）」檢視的方式。 如果沒有將任何維度套用至圖磚，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
 
