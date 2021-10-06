@@ -1,39 +1,21 @@
 ---
 description: 控制面板計分卡的使用說明。
-title: Analytics 控制面板執行指南
-exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
-source-wordcount: '1286'
-ht-degree: 100%
+title: Adobe Analytics 儀表板執行指南
+feature: Analytics Dashboards
+role: User, Admin
+exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
+source-git-commit: 35b76b1c2642d5e8f15f71fed9c75ab37491a901
+workflow-type: tm+mt
+source-wordcount: '1230'
+ht-degree: 97%
 
 ---
 
-# Analytics 控制面板：執行使用者快速入門手冊
+# 執行使用者快速入門指南
 
-下列資訊可讓執行使用者瞭解使用和檢視 Analytics 控制面板的最佳做法。若要觀看講解這項資訊的影片，請參閱 [ Analytics 控制面板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
+下列資訊可讓執行使用者瞭解使用和檢視 Adobe Analytics 儀表板的最佳作法。若要觀看講解這項資訊的影片，請參閱 [Adobe Analytics 儀表板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
 
-
-## 簡介
-
-Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入分析。此應用程式可讓用戶透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援控制面板。
-
-## 本指南的詳細資訊
-
-本指南旨在協助執行使用者閱讀和理解 Analytics 儀表板的計分卡。此應用程式可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
-
-## 術語表
-
-| 詞語 | 定義 |
-|--- |--- |
-| 消費者 | 在行動裝置上檢視 CJA 提供之關鍵量度和深入分析的執行角色 |
-| 組織者 | 尋找並分發 CJA 的深入分析並設定供消費者檢視之計分卡的資料讀寫人員角色 |
-| 組織 | 為消費者建立或編輯行動計分卡的行為，計分卡內容包含相關量度、維度和其他項目 |
-| 計分卡 | 包含一或多個圖磚的控制面板畫面 |
-| 圖磚 | 計分卡檢視畫面呈現量度的形式 |
-| 劃分 | 輔助性質的檢視畫面，點選計分卡中的圖磚即可顯示。此檢視畫面會在圖磚所顯示的量度上展開，並依使用者的選擇顯示其他劃分維度。 |
-| 日期範圍 | 控制面板報表的主要日期範圍 |
-| 比較日期範圍 | 與主要日期範圍相比較的日期範圍 |
+本指南旨在協助執行使用者閱讀和理解Analytics控制面板上的計分卡。 此應用程式可讓執行用戶在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
 
 ## 在裝置上設定控制面板
 
@@ -43,7 +25,7 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 
 若要在控制面板上存取計分卡，請確認：
 
-* 您處於 Customer Journey Analytics 的有效登入狀態
+* 您處於 Adobe Analytics 的有效登入狀態
 * 您的組織者已正確建立行動計分卡並與您共用
 
 ### 下載並安裝控制面板
@@ -52,13 +34,13 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 
 **若執行使用者使用 iOS：**
 
-按一下以下連結 (也可在 CJA 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 控制面板 (行動應用程式)」]**&#x200B;下方使用連結)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 [iOS 連結](https://apple.co/2zXq0aN)
 
 **若執行使用者使用 Android：**
 
-按一下以下連結 (也可在 CJA 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 控制面板 (行動應用程式)」]**&#x200B;下方取得連結)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 [Android 連結](https://bit.ly/2LM38Oo)
 
@@ -70,13 +52,13 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 
 控制面板使用步驟：
 
-1. 登入應用程式。控制面板啟動後，登入畫面會隨即顯示。使用您現有的 Adobe Analytics 憑證，依提示操作。此應用程式同時支援 Adobe 和 Enterprise/Federated ID。
+1. 登入應用程式。 控制面板啟動後，登入畫面會隨即顯示。使用您現有的 Adobe Analytics 憑證，依提示操作。此應用程式同時支援 Adobe 和 Enterprise/Federated ID。
 
    ![登入程序](assets/signseq.png)
 
-2. 選擇公司。登入控制面板後，**[!UICONTROL 「選擇公司」]**&#x200B;畫面會隨即顯示。此畫面會列出您所屬的登入公司。點選與您所共用計分卡相關聯的公司名稱。
+1. 選擇公司。登入控制面板後，會出現&#x200B;**[!UICONTROL 選擇公司]**&#x200B;畫面。 此畫面會列出您所屬的登入公司。點選與您所共用計分卡相關聯的公司名稱。
 
-3. 接著，計分卡清單會顯示已與您共用的所有計分卡。點選要檢視的計分卡。
+1. 接著，計分卡清單會顯示已與您共用的所有計分卡。點選要檢視的計分卡。
 
    ![選擇公司](assets/nextseq.png)
 
@@ -87,7 +69,7 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 
    ![無共用項目](assets/nothing.png)
 
-4. 檢查圖磚在計分卡中的顯示情形 (第一個計分卡會以深色模式顯示；請參閱下方的&#x200B;**[!UICONTROL 偏好設定]**&#x200B;以取得詳細資訊)。
+1. 檢查圖磚在計分卡中的顯示情形 (第一個計分卡會以深色模式顯示；請參閱下方的&#x200B;**[!UICONTROL 偏好設定]**&#x200B;以取得詳細資訊)。
 
    ![圖磚說明](assets/newexplain.png)
 
@@ -106,12 +88,12 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 
    ![計分卡範例](assets/intro_scorecard.png)
 
-5. 點選圖磚，以查看圖磚劃分的詳細運作資訊。
+1. 點選圖磚，以查看圖磚劃分的詳細運作資訊。
 
    ![劃分檢視](assets/sparkline.png)
 
 
-6. 變更計分卡日期範圍：
+1. 變更計分卡日期範圍：
 
    ![變更日期](assets/changedate.png)
 
@@ -119,13 +101,13 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 
    * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**[!UICONTROL 比較對象]**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**[!UICONTROL 「完成」]**。**[!UICONTROL 「日期範圍」]**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
-7. 若要將篩選器套用至您的計分卡，點選篩選器下拉式清單，然後選取組織者已設定的篩選器。應用程式中的[篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)運作方式與 Analytics Workspace 中相同。
+1. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。應用程式中的[篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)運作方式與 Analytics Workspace 中相同。
 
-   ![篩選器](assets/segment_filter.png)
+   ![區段篩選](assets/segment_filter.png)
 
-8. 更新計分卡。如果計分卡中沒有您可能感興趣的所有度量或劃分，請連絡您的 Analytics 團隊以更新計分卡。更新後，您可以下拉畫面上的資訊卡，重新整理並載入最近新增的資料。
+1. 更新計分卡。如果計分卡中沒有您可能感興趣的所有度量或劃分，請連絡您的 Analytics 團隊以更新計分卡。更新後，您可以下拉畫面上的資訊卡，重新整理並載入最近新增的資料。
 
-9. 在此應用程式上提供意見回饋：
+1. 在此應用程式上提供意見回饋：
 
    1. 點選應用程式畫面右上方的設定圖示。
    2. 在&#x200B;**[!UICONTROL 我的帳戶]**&#x200B;畫面上，點選&#x200B;**[!UICONTROL 意見反應]**&#x200B;選項。
@@ -133,7 +115,7 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 
       ![設定畫面](assets/settings.png)
 
-10. 若要變更偏好設定，請點選上方顯示的&#x200B;**[!UICONTROL 偏好設定]**&#x200B;選項。在偏好設定中，您可以開啟生物特徵辨識登入，或是將應用程式設定為深色模式，如下所示：
+1. 若要變更偏好設定，請點選上方顯示的&#x200B;**[!UICONTROL 偏好設定]**&#x200B;選項。在偏好設定中，您可以開啟生物特徵辨識登入，或是將應用程式設定為深色模式，如下所示：
 
    ![深色模式](assets/darkmode.png)
 
@@ -141,7 +123,6 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 **回報錯誤**：
 
 點選需要的選項，再選擇適合錯誤的子類別。在錯誤回報表單的頂端欄位中提供您的電子郵件地址，並在下方欄位中說明錯誤。帳戶資訊的螢幕擷取畫面會自動附加至訊息，但如有需要，點選附件影像的 **X** 即可刪除此影像。您也可以選擇錄製螢幕、新增更多螢幕擷取畫面或附加檔案。若要傳送報表，請點選表單右上方的紙飛機圖示。
-
 
 ![回報錯誤](assets/newbug.png)
 
@@ -152,3 +133,17 @@ Analytics 控制面板可隨時隨地提供 Customer Journey Analytics 的深入
 **提出問題**：
 
 點選需要的選項，在頂端欄位中提供您的電子郵件地址，並在下方欄位中說明問題。螢幕擷取畫面會自動附加至訊息，但如有需要，點選附件影像的 **X** 即可刪除此影像。您也可以選擇錄製螢幕、新增更多螢幕擷取畫面或附加檔案。若要傳送問題，請點選表單右上方的紙飛機圖示。
+
+## 術語表
+
+| 詞語 | 定義 |
+|--- |--- |
+| 消費者 | 在行動裝置上檢視 Analytics 關鍵量度和深入分析的執行人員 |
+| 組織者 | 從 Analytics 尋找及分發深入分析，以及設定計分卡以供消費者檢視的資料識讀人員 |
+| 組織 | 為消費者建立或編輯行動計分卡的行為，計分卡內容包含相關量度、維度和其他項目 |
+| 計分卡 | 包含一或多個圖磚的控制面板畫面 |
+| 圖磚 | 計分卡檢視畫面呈現量度的形式 |
+| 劃分 | 輔助性質的檢視畫面，點選計分卡中的圖磚即可顯示。此檢視畫面會在圖磚所顯示的量度上展開，並依使用者的選擇顯示其他劃分維度。 |
+| 日期範圍 | 控制面板報表的主要日期範圍 |
+| 比較日期範圍 | 與主要日期範圍相比較的日期範圍 |
+
