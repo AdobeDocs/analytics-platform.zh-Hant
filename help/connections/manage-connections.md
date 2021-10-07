@@ -3,10 +3,10 @@ title: 管理連線
 description: 說明如何在 Customer Journey Analytics (CJA) 中管理與 Experience Platform 資料集的連線。
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: d099c2559eea68aa1f44d345b103618f55fd0559
+source-git-commit: a8e1913fb22414610214f5c0a03f6ef7f3b4f8f0
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 86%
+source-wordcount: '1714'
+ht-degree: 80%
 
 ---
 
@@ -137,3 +137,10 @@ ht-degree: 86%
 * 為連線重新命名。
 * 重新整理資料集。
 * 從連線中移除資料集。
+
+## 設定[!UICONTROL Connection]資料保留的滾動窗口
+
+>[!IMPORTANT]
+>請連絡客戶服務或您的Adobe客戶經理，以實作此設定。 尚未透過CJA UI提供。
+
+此設定可讓您將CJA資料保留定義為月（3個月、6個月等）中的滾動式視窗，位於[!UICONTROL connection]層級（而非[!UICONTROL 資料集]層級）。 資料保留是根據事件資料集時間戳記，並僅套用至事件資料集。 設定檔或查詢資料集沒有資料保留設定，因為沒有適用的時間戳記。 主要優點是您只能儲存或報告適用且實用的資料，並刪除不再有用的舊資料。 它有助於您保持在合約限制之下，並降低超額成本的風險。
