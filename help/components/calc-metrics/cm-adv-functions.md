@@ -2,7 +2,7 @@
 title: 參考資料 - 進階函數
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 15312a57f0f122d22d0575f2008d547bcb8ab2ed
+source-git-commit: d6902af2d5e8a706e6b572c3daca2f60661dbbe9
 workflow-type: tm+mt
 source-wordcount: '2944'
 ht-degree: 99%
@@ -13,7 +13,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
 勾選&#x200B;**[!UICONTROL 函數]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL 顯示進階]**&#x200B;即可存取這些函數。
 
@@ -97,7 +97,7 @@ ACOS(metric)
 傳回數字的反正弦。反正弦是一種角度，其正弦是數字。傳回的角度是限制在 -pi/2 到 pi/2 的弧度。若想以度表示反正弦，請將結果乘以 180/PI( )。
 
 ```
-ASIN(metric) 
+ASIN(metric)
 ```
 
 | 引數 |  |
@@ -134,10 +134,10 @@ ESTIMATE.EXP(metric_X, metric_Y)
 傳回值在 Student 的 t 分布中的百分比，其中自由度為 n，z 分數小於 x。
 
 ```
-cdf_t( -∞, n ) = 0 
-cdf_t(  ∞, n ) = 1 
-cdf_t( 3, 5 ) ? 0.99865 
-cdf_t( -2, 7 ) ? 0.0227501 
+cdf_t( -∞, n ) = 0
+cdf_t(  ∞, n ) = 1
+cdf_t( 3, 5 ) ? 0.99865
+cdf_t( -2, 7 ) ? 0.0227501
 cdf_t( x, ∞ ) ? cdf_z( x )
 ```
 
@@ -146,12 +146,11 @@ cdf_t( x, ∞ ) ? cdf_z( x )
 傳回值在常態分布中的百分比，其中 z 分數小於 x。
 
 ```
-cdf_z( -∞ ) = 0 
-cdf_z( ∞ ) = 1 
-cdf_z( 0 ) = 0.5 
-cdf_z( 2 ) ? 0.97725 
-cdf_z( -3 ) ? 0.0013499 
- 
+cdf_z( -∞ ) = 0
+cdf_z( ∞ ) = 1
+cdf_z( 0 ) = 0.5
+cdf_z( 2 ) ? 0.97725
+cdf_z( -3 ) ? 0.0013499
 ```
 
 ## 上限 (列)
@@ -197,12 +196,11 @@ CBRT(metric)
 如果 N &lt;= 0 則使用所有先前列。由於是依據維度排序，因此只適用於根據日期或路徑長度等自然順序排列的維度。
 
 ```
-| Date | Rev  | cumul(0,Rev) | cumul(2,Rev) | 
-|------+------+--------------+--------------| 
-| May  | $500 | $500         | $500         | 
-| June | $200 | $700         | $700         | 
-| July | $400 | $1100        | $600         | 
- 
+| Date | Rev  | cumul(0,Rev) | cumul(2,Rev) |
+|------+------+--------------+--------------|
+| May  | $500 | $500         | $500         |
+| June | $200 | $700         | $700         |
+| July | $400 | $1100        | $600         |
 ```
 
 ## 累積平均值
@@ -705,19 +703,19 @@ Z 分數的方程式為：
 
 Z 分數 (量度)
 
-<table id="table_AEA3622A58F54EA495468A9402651E1B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 引數 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
+<table id="table_AEA3622A58F54EA495468A9402651E1B">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> 引數 </th>
+   <th colname="col2" class="entry"> 說明 </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>量度</i> </td> 
-   <td colname="col2"> <p> 傳回其第一個非零引數的值。 </p> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> <i>量度</i> </td>
+   <td colname="col2"> <p> 傳回其第一個非零引數的值。 </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Z 檢定

@@ -1,12 +1,12 @@
 ---
 description: 了解不同的儲存選項 (包括 AutoSave、另存為、另存為範本)，以及開啟先前的版本。
 title: 儲存專案
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 734f1fe702398034090e25c251b5ff193db8381e
-workflow-type: ht
-source-wordcount: '463'
+source-git-commit: 1c19c8cb9cad7b4b7938915d04396cc4646a1f32
+workflow-type: tm+mt
+source-wordcount: '461'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 您可以在&#x200B;**[!UICONTROL 「專案」]**&#x200B;功能表底下執行不同的儲存操作，取決於您日後要如何存取分析。
 
 | 動作 | 說明 |
-|---|---| 
+|---|---|
 | **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果已共用專案，專案的收件者也會看到變更項目。當您第一次儲存專案時，系統會提示您提供專案名稱、(選用) 說明和新增 (選用) 標籤。  |
 | **[!UICONTROL 一併儲存註釋]** | 在專案儲存之前，請新增關於專案變動的註釋。註釋會和專案版本儲存在「[!UICONTROL 專案] > [!UICONTROL 開啟先前版本]」下，可供編輯人員使用。 |
 | **[!UICONTROL 另存新檔]** | 建立專案的複本。原始專案不受影響。 |

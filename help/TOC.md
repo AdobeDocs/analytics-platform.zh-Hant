@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 跨管道分析的新一代解決方案 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供自助協助資訊。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: c41eeda10083ef6cc3d46b044f1c0052d08a575b
+source-git-commit: 4b528ef401cbe63b6237c66c2e9f39ee831aa71e
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 93%
+source-wordcount: '518'
+ht-degree: 88%
 
 ---
 
@@ -133,6 +133,15 @@ ht-degree: 93%
       + [管理需求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace 的協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Analysis Workspace 中的長尾](analysis-workspace/workspace-faq/long-tail.md)
++ Report Builder {#cja-reportbuilder}
+   + [Report Builder概述](report-builder/report-buider-overview.md)
+   + [Report Builder設定](report-builder/report-builder-setup.md)
+   + [建立資料區塊](report-builder/create-a-data-block.md)
+   + [Report Builder中心](report-builder/report-builder-hub.md)
+   + [選擇日期範圍](report-builder/select-date-range.md)
+   + [使用篩選器](report-builder/work-with-filters.md)
+   + [篩選維度](report-builder/filter-dimensions.md)
+   + [Report Builder設定](report-builder/report-builder-settings.md)
 + 元件 {#cja-components}
    + [元件總覽](components/overview.md)
    + 維度 {#dimensions}
