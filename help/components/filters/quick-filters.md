@@ -4,9 +4,9 @@ title: 快速篩選
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a8e1913fb22414610214f5c0a03f6ef7f3b4f8f0
+source-git-commit: ca1789242a4b9abe63affcc0769d669863722c88
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 2%
 * 僅套用至建立專案的專案（您可以變更此項目）。
 * 允許最多3個規則
 * 不容納巢狀容器或循序規則。
-* 在具有多個報表套裝的專案中工作
 
 若要比較快速篩選可以執行哪些功能與完整元件清單篩選，請前往[此處](/help/components/filters/filters-overview.md)。
 
