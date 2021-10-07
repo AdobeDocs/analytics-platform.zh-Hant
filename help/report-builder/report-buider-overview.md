@@ -4,17 +4,17 @@ description: 說明Customer Journey AnalyticsReport Builder
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: b655813816b2a8e0d47b035eefa11926f106ee0e
+exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
+source-git-commit: bc80a77c2136232ec209dfecc1ece1d614b438a8
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-
 # 關於Report BuilderCustomer Journey Analytics
 
-Report Builder是Microsoft Excel增益集，可讓您使用Customer Journey Analytics資料輕鬆建立、編輯和重新整理自訂報表。 透過Report Builder和Excel，您可以使用簡單但有彈性的拖放UI，輕鬆建立複雜的資料請求。
+Report BuilderCustomer Journey AnalyticsReport Builder可讓您使用AdobeCustomer Journey Analytics資料輕鬆建立、編輯和重新整理自訂報表。 Customer Journey Analytics是以Adobe Experience Platform為基礎打造的服務，可讓您加入多個資料來源，以建立業務的整體檢視。 透過Report Builder簡單而有彈性的拖放UI，您可以從Customer Journey Analytics資料建立複雜的資料查詢和自訂報表，全部在Excel中完成。
 
 使用Report BuilderCustomer Journey Analytics，您可以：
 
@@ -28,6 +28,7 @@ Report BuilderCustomer Journey Analytics適用於下列平台的Excel:
 - Windows
 - 網頁瀏覽器
 
+>[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 
 >[!NOTE]
 >
