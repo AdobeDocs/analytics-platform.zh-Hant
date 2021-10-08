@@ -4,13 +4,13 @@ description: 說明如何建立資料區塊。
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
-source-git-commit: d946e6dbda608499594cf48a9456131485e7349a
+exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
+source-git-commit: 188ed6c6c32db9f65f6f31cf26311ce545d9dfb7
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
-
 
 # 建立資料區塊
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 設定&#x200B;**日期範圍**。
 
-   「日期範圍」選項可讓您選擇日期範圍。 日期範圍可以固定或滾動。 如需資料範圍選項的其他資訊，請參閱&lt;&lt;連結至日期範圍區段>>。
+   「日期範圍」選項可讓您選擇日期範圍。 日期範圍可以固定或滾動。 有關資料範圍選項的資訊，請參閱[選擇日期範圍](select-date-range.md)。
 
 1. 按一下&#x200B;**Next**。
 
