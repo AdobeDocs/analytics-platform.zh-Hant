@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 常見問答
 description: Customer Journey Analytics - 常見問答。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: f9a7bfd8ac379f6f3b0d30f365f123301462368c
+source-git-commit: 2412b2b3d6c0abf29c2d265ba60668c3e4a12936
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 87%
+source-wordcount: '1611'
+ht-degree: 83%
 
 ---
 
@@ -39,7 +39,6 @@ ht-degree: 87%
 | 問題 | 回答 |
 | --- | --- |
 | 我可以合併同一個 [!UICONTROL Customer Journey Analytics] 連線中不同 [!UICONTROL Adobe Experience Platform] 沙箱的資料嗎？ | 不可以，您無法一次存取多個沙箱內的資料，只能合併同一個沙箱中的資料集。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant#select-sandbox-and-datasets) |
-| [!UICONTROL Adobe Experience Platform] 上 [!UICONTROL Customer Journey Analytics] 的延遲時間預計會多久？ | <ul><li>正常負載下：小於 60 分鐘&#x200B;<br>**注意：**&#x200B;如果通過管道的資料流量特別多，則最多可能需要 24 小時。</li><li>回填資料 (無論大小，最多 13 個月的資料)：小於 4 週</li></ul> |
 | 如何在 [!UICONTROL Customer Journey Analytics] 中將線上資料連結至離線資料？ | 只要資料集之間的個人 ID 相符，[!UICONTROL Customer Journey Analytics] 就可連接篩選器、歸因、流量、流失等。。 |
 | 如何將離線資料帶入 [!UICONTROL Customer Journey Analytics]？ | 您對 Customer Journey Analytics 的權益可讓您將資料擷取到 Experience Platform。 然後您可以在 [!UICONTROL Customer Journey Analytics] 中建立與該資料和資料檢視的連線，以便在 Analysis Workspace 中報告。 如有需要，Experience Platform 的資料入門團隊可為您提供建議或諮詢。 |
 | 如何將 [!UICONTROL Adobe Analytics] 資料帶入 [!UICONTROL Customer Journey Analytics]？ | 您可透過 [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)，將 [!UICONTROL Adobe Analytics] 資料連結至 Experience Platform。大部分的 [!UICONTROL Adobe Analytics] 欄位都會以 XDM 格式帶入，但其他欄位則尚未開放使用。 |
@@ -48,7 +47,17 @@ ht-degree: 87%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 4. 傳統 [!UICONTROL Adobe Analytics] 元件
+## 4.延遲考量事項
+
+>[!NOTE]
+>CJA中沒有固定的資料大小，因此Adobe無法提交至標準擷取時間。 我們正透過新的更新和擷取最佳化，積極致力減少這些延遲。
+
+| 問題 | 回答 |
+| --- | --- |
+| [!UICONTROL Adobe Experience Platform] 上 [!UICONTROL Customer Journey Analytics] 的延遲時間預計會多久？ | <ul><li>即時資料或事件：在AEP中提供資料後，90分鐘內處理並擷取。</li><li>批大小> 5000萬行：超過90分鐘。</li><li>小型回填 — 例如1,000萬列的查詢資料集：24小時內<li>大型回填 — 例如5,000億列：30天</li></ul> |
+
+
+## 5. 傳統 [!UICONTROL Adobe Analytics] 元件
 
 | 問題 | 回答 |
 | --- | --- |
@@ -61,7 +70,7 @@ ht-degree: 87%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 5. 刪除資料元件的影響
+## 6. 刪除資料元件的影響
 
 關於資料的刪除，我們會考慮 6 種元件：沙箱、結構描述、資料集、連線、資料檢視和 Workspace 專案。 以下是刪除上述任何元件後的一些可能情況：
 
@@ -76,15 +85,15 @@ ht-degree: 87%
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的連線 | 錯誤訊息會指出：<ul><li>針對已刪除連線所建立的任何資料檢視都將停止運作。</li><li> 同樣地，如果有任何 Workspace 專案與所刪除連線中的資料檢視相依，也將停止運作。</li></ul> |
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視 | 錯誤訊息會指出，與這個已刪除的資料檢視相依的任何 Workspace 專案都將停止運作。 |
 
-## 6.在CJA中合併報表套裝時的考量事項
+## 7.在CJA中合併報表套裝時的考量事項
 
 如果您打算透過[Adobe Analytics來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)內嵌Adobe Analytics資料，合併2個或多個Adobe Analytics報表套裝時，請考量這些後果。
 
 | 問題 | 考量事項 |
 | --- | --- |
 | 變數 | [!UICONTROL eVars]等變數可能不會在各報表套裝之間排行。 例如，報表套裝1中的eVar1可能指向&#x200B;**[!UICONTROL Page]**。 在報表套裝2中，eVar1可能會指向&#x200B;**[!UICONTROL 內部促銷活動]**，導致混合且不準確的報表。 |
-|  工作階段和  人員 | 這些報表套裝會刪除重複項目。 因此，計數可能不相符。 |
+|  會話和  人 | 這些報表套裝會刪除重複項目。 因此，計數可能不相符。 |
 | 量度重複資料刪除 | 如果多個列具有相同的交易ID（例如[!UICONTROL 購買ID]），則去重複化量度的例項（例如[!UICONTROL 訂購]）。 這可防止重要量度的過度計數。 因此，[!UICONTROL Orders]之類的量度可能不會在各報表套裝中加總。 |
 | 貨幣 | CJA尚不支援貨幣轉換。 如果您嘗試合併的報表套裝使用不同的基本貨幣，則可能會發生問題。 |
-| [!UICONTROL 持續性] | [](../data-views/component-settings/persistence.md) 持續性會跨報表套裝延伸，而 [!UICONTROL 這會影響篩選] [!UICONTROL 器、歸因]等。數字可能無法正確加總。 |
+| [!UICONTROL 持續性] | [](../data-views/component-settings/persistence.md) 持續性會跨報表套裝而延 [!UICONTROL 伸，進而影響篩選] [!UICONTROL 器、歸因]等。數字可能無法正確加總。 |
 | [!UICONTROL 分類] |  合併報表套裝時，分類不會自動進行去重複化。將多個分類檔案合併為單一[!UICONTROL lookup]資料集時，您可能會遇到問題。 |
