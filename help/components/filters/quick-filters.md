@@ -4,7 +4,7 @@ title: 快速篩選
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: ca1789242a4b9abe63affcc0769d669863722c88
+source-git-commit: 1334e1edb36583ba978936fecbff2657e63a94bf
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 2%
@@ -32,15 +32,15 @@ ht-degree: 2%
 
 在自由表格中，按一下面板標題中的「篩選+」圖示：
 
-![](assets/quick-seg1.png)
+![區段篩選](assets/quick-seg1.png)
 
 | 設定 | 說明 |
 | --- | --- |
 | 名稱 | 篩選器的預設名稱是篩選器中規則名稱的組合。 您可以將篩選器重新命名為更好記的名稱。 |
 | 包含/排除 | 您可以在篩選器定義中包含或排除元件，但不能同時包含和排除元件。 |
 | 點擊/造訪/訪客容器 | 快速篩選器包含一個[篩選器容器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=zh-Hant#filter-containers)，僅可讓您在篩選器中納入維度/量度/日期範圍（或將其排除在篩選器中）。  訪客包含各瀏覽和頁面檢視的訪客特定整體資料。[!UICONTROL 瀏覽]容器可讓您設定規則，以根據瀏覽來劃分訪客的資料，而[!UICONTROL 點擊]容器則可讓您根據個別頁面檢視來劃分訪客資訊。 預設容器為[!UICONTROL Hit]。 |
-| 元件(Dimension/量度/日期範圍) | 新增元件（維度和/或量度及/或日期範圍）及其值，以定義最多3個規則。 有3種方式可尋找正確的元件：<ul><li>開始輸入，[!UICONTROL 快速篩選]產生器會自動找到適當的元件。</li><li>使用下拉式清單來尋找元件。</li><li>從左側邊欄拖放元件。</li></ul> |
-| 運算元 | 使用下拉式功能表來尋找標準運算子和[!UICONTROL 不重複計數]運算子。 [了解更多](https://experienceleague.adobe.com/docs/analytics/components/filteration/segment-reference/seg-operators.html?lang=en) |
+| 元件(Dimension/量度/日期範圍) | 新增元件（維度、量度、日期範圍或維度值），以定義最多3個規則。 有3種方式可尋找正確的元件：<ul><li>開始輸入，[!UICONTROL 快速篩選]產生器會自動找到適當的元件。</li><li>使用下拉式清單來尋找元件。</li><li>從左側邊欄拖放元件。</li></ul> |
+| 運算元 | 使用下拉式功能表來尋找標準運算子和[!UICONTROL 不重複計數]運算子。 請參閱[篩選運算子](operators.md)。 |
 | 加號(+) | 新增其他規則 |
 | 和/或限定符 | 您可以將「AND」或「OR」限定符新增至規則，但無法在單一篩選器定義中混合「AND」和「OR」。 |
 | 套用 | 將此篩選器套用至面板。 如果篩選器不含任何資料，系統會詢問您是否要繼續。 |
@@ -51,11 +51,11 @@ ht-degree: 2%
 
 以下是結合維度和量度的篩選器範例：
 
-![](assets/quick-seg2.png)
+![篩選器定義範例](assets/quick-seg2.png)
 
 篩選器會顯示在頂端。 請注意其藍色條狀側邊欄，而非左側篩選程式庫中元件層級篩選器的藍色側邊欄。
 
-![](assets/quick-seg3.png)
+![篩選元件位置](assets/quick-seg3.png)
 
 ## 編輯快速篩選
 
@@ -86,7 +86,7 @@ ht-degree: 2%
 
    返回「工作區」，注意篩選器現在有淺藍色側欄的方式。 這表示您無法再在快速篩選產生器中編輯/開啟篩選器。 儲存後就會成為元件清單的一部分。
 
-   ![](assets/quick-seg4.png)
+   ![篩選元件清單](assets/quick-seg4.png)
 
 套用篩選器後，您可以選取將其新增至您的篩選元件清單，並讓它可供所有專案使用。
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 1. 在「篩選產生器」頂端，注意此對話方塊：
 
-   ![](assets/project-only.png)
+   ![篩選對話方塊](assets/project-only.png)
 
 1. 選中&#x200B;**[!UICONTROL 讓所有項目都可用並添加到元件清單旁的複選框。]**
 1. 按一下「**[!UICONTROL 儲存]**」。
