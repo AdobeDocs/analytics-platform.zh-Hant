@@ -1,28 +1,28 @@
 ---
-title: 值分段元件設定
-description: 將數值合併至維度。
-source-git-commit: 0c27f75eed8f1f3dec3f287cfe35ab748bbfc1bb
-workflow-type: tm+mt
+title: 值分組元件設定
+description: 組合維度中的數值。
+exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
+source-git-commit: 181fc4fbf599c5ca34f4786439e83ac0e4a524dd
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
+# [!UICONTROL 值分組]元件設定
 
-# [!UICONTROL 值] 分段元件設定
+建立或編輯資料檢視時，值分組允許您根據範圍組合數值。它僅適用於使用 Integer 或 Double 結構描述資料類型的維度。
 
-建立或編輯資料檢視時，值分段可讓您根據範圍結合數值。 它僅適用於使用整數或雙重結構資料類型的維度。
+當您想要將範圍組合在一起而不是將每個唯一數字視為單獨的維度項目時，值分組很有價值。例如，「5 到 10 之間」的值區會在 Analysis Workspace 中顯示為「5 到 10」的條列項目。
 
-如果您想要將範圍分組在一起，而非將每個唯一編號視為個別的維度項目，值分段就十分實用。 例如，貯體「介於5到最多10」在Analysis Workspace中會顯示為行項目「5到10」。
+![值分組](../assets/value-bucketing.png)
 
-![值分組配置](../assets/value-bucketing.png)
-
-如果您想要同時針對分段和非分段維度製作報表的彈性，請將元件的兩個副本拖曳至可用的維度清單中。 在一個維度上啟用分段，並在另一個維度上停用。
+如果您希望靈活地報告分組維度和非分組維度，請將元件的兩個副本拖到可用維度清單中。在一個維度上啟用分組，在另一個維度上停用它。
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL 貯體值] | 可讓您啟用分段的核取方塊。 |
-| [!UICONTROL 少於] | 第一個維度貯體的上界。 |
-|  [!UICONTROL 包含且小於] | 後續貯體的邊界。 |
-| [!UICONTROL 大於或等於] | 最後一個維度貯體的下邊界。 |
-| [!UICONTROL 新增貯體] | 可讓您新增另一個儲存貯體至數值維度分區。在單一維度中最多可新增20個貯體。 |
+| [!UICONTROL 值區值] | 一個允許您啟用分組的核取方塊。 |
+| [!UICONTROL 少於] | 第一個維度值區的範圍上限。 |
+| [!UICONTROL 包含] [!UICONTROL 和小於] | 後續值區的邊界。 |
+| [!UICONTROL 大於或等於] | 最後一個維度值區的範圍下限。 |
+| [!UICONTROL 新增值區] | 可讓您新增另一個值區至數值維度分組。您最多可以在一個維度中新增 20 個值區。 |
