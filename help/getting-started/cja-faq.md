@@ -2,10 +2,10 @@
 title: Customer Journey Analytics 常見問答
 description: Customer Journey Analytics - 常見問答。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: 2412b2b3d6c0abf29c2d265ba60668c3e4a12936
+source-git-commit: d88502218cd94fbb430a0fc5a3af994e7edaa73c
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 83%
+source-wordcount: '1649'
+ht-degree: 93%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 83%
 | 如何將 [!UICONTROL Adobe Analytics] 資料帶入 [!UICONTROL Customer Journey Analytics]？ | 您可透過 [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)，將 [!UICONTROL Adobe Analytics] 資料連結至 Experience Platform。大部分的 [!UICONTROL Adobe Analytics] 欄位都會以 XDM 格式帶入，但其他欄位則尚未開放使用。 |
 | 將資料集元素組合成資料檢視需要多久時間？ | 需要數小時以開始使用，並且需要數天的時間來回填過去 13 個月的資料。 |
 | 是否需要帶入 PII 資料來建立資料之間的連結？ | 否，您可以使用任何 ID，包括客戶 ID (非 PII) 的雜湊。 |
+| 在CJA事件資料集中擷取過去或未來日期/時間戳記有何限制？ | <ul><li>關於過去日期/時間戳記：最長10歲的事件資料。</li><li>關於未來日期/時間戳記：未來最多1個月的事件資料（預測性）。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -85,15 +86,15 @@ ht-degree: 83%
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的連線 | 錯誤訊息會指出：<ul><li>針對已刪除連線所建立的任何資料檢視都將停止運作。</li><li> 同樣地，如果有任何 Workspace 專案與所刪除連線中的資料檢視相依，也將停止運作。</li></ul> |
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視 | 錯誤訊息會指出，與這個已刪除的資料檢視相依的任何 Workspace 專案都將停止運作。 |
 
-## 7.在CJA中合併報表套裝時的考量事項
+## 7. 在 CJA 中合併報表套裝時的注意事項
 
-如果您打算透過[Adobe Analytics來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)內嵌Adobe Analytics資料，合併2個或多個Adobe Analytics報表套裝時，請考量這些後果。
+如果您計劃透過 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)擷取 Adobe Analytics 資料，請在合併 2 個或多個 Adobe Analytics 報表套裝時考慮這些後果。
 
 | 問題 | 考量事項 |
 | --- | --- |
-| 變數 | [!UICONTROL eVars]等變數可能不會在各報表套裝之間排行。 例如，報表套裝1中的eVar1可能指向&#x200B;**[!UICONTROL Page]**。 在報表套裝2中，eVar1可能會指向&#x200B;**[!UICONTROL 內部促銷活動]**，導致混合且不準確的報表。 |
-|  會話和  人 | 這些報表套裝會刪除重複項目。 因此，計數可能不相符。 |
-| 量度重複資料刪除 | 如果多個列具有相同的交易ID（例如[!UICONTROL 購買ID]），則去重複化量度的例項（例如[!UICONTROL 訂購]）。 這可防止重要量度的過度計數。 因此，[!UICONTROL Orders]之類的量度可能不會在各報表套裝中加總。 |
-| 貨幣 | CJA尚不支援貨幣轉換。 如果您嘗試合併的報表套裝使用不同的基本貨幣，則可能會發生問題。 |
-| [!UICONTROL 持續性] | [](../data-views/component-settings/persistence.md) 持續性會跨報表套裝而延 [!UICONTROL 伸，進而影響篩選] [!UICONTROL 器、歸因]等。數字可能無法正確加總。 |
-| [!UICONTROL 分類] |  合併報表套裝時，分類不會自動進行去重複化。將多個分類檔案合併為單一[!UICONTROL lookup]資料集時，您可能會遇到問題。 |
+| 變數 | [!UICONTROL eVars] 等變數可能不會跨報表套裝排列。例如，報表套裝 1 中的 eVar1 可能指向&#x200B;**[!UICONTROL 頁面]**。在報表套裝 2 中，eVar1 可能指向&#x200B;**[!UICONTROL 內部行銷活動]**，因而導致混合和不準確的報表。 |
+| [!UICONTROL 工作階段]和[!UICONTROL 人員]計數 | 它們會跨報表套裝進行重複資料刪除。因此，計數可能不相符。 |
+| 量度重複資料刪除 | 如果多列具有相同的交易 ID (例如，[!UICONTROL 購買 ID])，則對量度的實例 (例如[!UICONTROL 訂單]) 進行重複資料刪除。這可以防止過度計算關鍵量度。因此，像[!UICONTROL 訂單]這樣的量度可能不會跨報表套裝累加。 |
+| 貨幣 | CJA 尚不支援貨幣轉換。如果您嘗試合併的報表套裝使用不同的基礎貨幣，則可能會出現問題。 |
+| [!UICONTROL 持續性] | [持續性](../data-views/component-settings/persistence.md)跨報表套裝擴展，這會影響[!UICONTROL 篩選]、[!UICONTROL 歸因]等。數字可能無法正確相加。 |
+| [!UICONTROL 分類] | 合併報表套裝時，[!UICONTROL 分類]不會自動進行重複資料刪除。將多個分類檔案合併為單一[!UICONTROL 查閱]資料集時，您可能會遇到問題。 |
