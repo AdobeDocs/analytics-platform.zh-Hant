@@ -2,7 +2,7 @@
 title: Customer Journey Analytics 常見問答
 description: Customer Journey Analytics - 常見問答。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: d88502218cd94fbb430a0fc5a3af994e7edaa73c
+source-git-commit: 688c7ee9debd82bbeb1e95461e9d95a8d1bd220b
 workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 93%
@@ -44,7 +44,7 @@ ht-degree: 93%
 | 如何將 [!UICONTROL Adobe Analytics] 資料帶入 [!UICONTROL Customer Journey Analytics]？ | 您可透過 [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)，將 [!UICONTROL Adobe Analytics] 資料連結至 Experience Platform。大部分的 [!UICONTROL Adobe Analytics] 欄位都會以 XDM 格式帶入，但其他欄位則尚未開放使用。 |
 | 將資料集元素組合成資料檢視需要多久時間？ | 需要數小時以開始使用，並且需要數天的時間來回填過去 13 個月的資料。 |
 | 是否需要帶入 PII 資料來建立資料之間的連結？ | 否，您可以使用任何 ID，包括客戶 ID (非 PII) 的雜湊。 |
-| 在CJA事件資料集中擷取過去或未來日期/時間戳記有何限制？ | <ul><li>關於過去日期/時間戳記：最長10歲的事件資料。</li><li>關於未來日期/時間戳記：未來最多1個月的事件資料（預測性）。</li></ul> |
+| 將過去或未來日期/時間戳記擷取至CJA事件資料集有何限制？ | <ul><li>關於過去日期/時間戳記：最長10歲的事件資料。</li><li>關於未來日期/時間戳記：未來最多1個月的事件資料（預測性）。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
