@@ -3,15 +3,15 @@ title: 資料檢視總覽
 description: 資料檢視指定您想要如何解釋 CJA 連線中的資料元素，例如量度、維度、工作階段等。
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 source-git-commit: 86522f1ea5ae241351514d954672ec5fd7990944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 資料檢視總覽
 
-資料檢視是特定於Customer Journey Analytics的容器，可讓您判斷如何從[connection](/help/connections/create-connection.md)解譯資料。 它會指定Analysis Workspace中可用的所有維度和量度，以及這些維度和量度從哪些欄取得其資料。 資料檢視是為準備在Analysis Workspace中製作報表而定義。
+資料檢視是特定於 Customer Journey Analytics 的容器，可讓您決定如何解釋來自[連線](/help/connections/create-connection.md)的資料。它指定 Analysis Workspace 中可用的所有維度和量度，以及這些維度和量度從哪些欄取得資料。資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
 >[!NOTE]
 >
