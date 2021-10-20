@@ -3,9 +3,9 @@ title: 重播的運作方式
 description: 了解跨管道分析中的「重播」概念
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 source-git-commit: af14d9279f1dd5019e7e6db59a27765eede078bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->只會為網站資料集重播資料。 客服中心資料集維持不變，但會在使用正確的人員ID時相符。
+>僅為網站資料集重播資料。客服中心資料集保持不變，但在使用正確的人員 ID 時比對。
 
 ## 重述
 
