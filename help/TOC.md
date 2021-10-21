@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 0fd60f5923a010754a4ccad343934acfa30f358a
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 89%
 + 資料檢視 {#cja-dataviews}
    + [資料檢視總覽](data-views/data-views.md)
    + [建立或編輯資料檢視](data-views/create-dataview.md)
-   + 元件設定{#component-settings}
-      + [元件設定概觀](data-views/component-settings/overview.md)
+   + 元件設定 {#component-settings}
+      + [元件設定總覽](data-views/component-settings/overview.md)
       + [歸因](data-views/component-settings/attribution.md)
       + [行為](data-views/component-settings/behavior.md)
       + [格式](data-views/component-settings/format.md)
@@ -48,7 +48,7 @@ ht-degree: 89%
       + [量度重複資料刪除](data-views/component-settings/metric-deduplication.md)
       + [沒有值選項](data-views/component-settings/no-value-options.md)
       + [持續性](data-views/component-settings/persistence.md)
-      + [值分組配置](data-views/component-settings/value-bucketing.md)
+      + [值分組](data-views/component-settings/value-bucketing.md)
    + [標準元件參考](data-views/component-reference.md)
    + [資料檢視使用案例](data-views/data-views-usecases.md)
 + Workspace 專案 {#cja-workspace}
@@ -96,7 +96,7 @@ ht-degree: 89%
       + [線圖](analysis-workspace/visualizations/line.md)
       + [散佈圖](analysis-workspace/visualizations/scatterplot.md)
       + [摘要數字和摘要變更](analysis-workspace/visualizations/summary-number-change.md)
-      + [文字](analysis-workspace/visualizations/text.md)
+      + [Text](analysis-workspace/visualizations/text.md)
       + [樹狀圖](analysis-workspace/visualizations/treemap.md)
    + 面板 {#panels}
       + [面板總覽](analysis-workspace/c-panels/panels.md)
@@ -174,7 +174,7 @@ ht-degree: 89%
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [使用物件陣列](use-cases/object-arrays.md)
    + [(B2B) 新增帳戶層級資料當做查詢資料集](use-cases/b2b.md)
-   + [分析跨管道的資料](use-cases/cross-channel.md)
+   + [跨管道分析資料](use-cases/cross-channel.md)
    + [匯入客服中心和網頁的資料](use-cases/call-center.md)
    + [資料擷取使用案例](use-cases/data-ingestion.md)
    + [使用行銷管道維度](use-cases/marketing-channels.md)

@@ -5,7 +5,7 @@ exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 source-git-commit: ff1f28015a2c52f79fae975c16bb7cb76f6179c3
 workflow-type: tm+mt
 source-wordcount: '1099'
-ht-degree: 84%
+ht-degree: 89%
 
 ---
 
@@ -23,13 +23,13 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 您可以在工作區和篩選器產生器中建立不同類型的篩選器，視其需要的複雜程度、是否應僅套用至此專案等而定。 以下為篩選類型的摘要：
 
-| 篩選類型 | 建立位置？ | 適用於何處？ | 使用時機 |
+| 篩選類型 | 在哪裡建立？ | 適用於何處？ | 何時使用 |
 | --- | --- | --- | --- |
-| 元件清單篩選器 | 按一下+，接著便會前往[篩選產生器](/help/components/filters/create-filters.md) | 所有工作區專案 | 對於更複雜的篩選，循序篩選 |
-| 快速篩選 | [快速篩選產生器](/help/components/filters/quick-filters.md) | 僅限專案，但可儲存並新增至區段清單。 | 可彈性新增/編輯一或多個規則 |
-| 臨機專案篩選器 | [拖放至專案中的區段拖放區域](/help/components/filters/ad-hoc-filters.md) | 僅限專案，但可儲存並新增至篩選清單。 | 單一規則篩選器 |
-| 流失分析中的篩選器 | [流失視](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) 覺效果在Analysis Workspace | 個別流失視覺效果 | 從接觸點建立篩選器、將篩選器新增為接觸點，以及在各種篩選器之間比較關鍵工作流程 |
-| 計算量度型篩選器 | [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 至個別計算量度 | 在量度定義中套用篩選器 |
+| 元件清單篩選器 | 按一下+，接著便會前往 [篩選器產生器](/help/components/filters/create-filters.md) | 您所有的工作區專案 | 對於更複雜的篩選，循序篩選 |
+| 快速篩選 | [快速篩選產生器](/help/components/filters/quick-filters.md) | 僅限專案，但可以儲存並新增至您的分段清單中。 | 新增/編輯一個或多個規則的靈活性 |
+| 臨機專案篩選器 | [拖放至專案的區段托放區中](/help/components/filters/ad-hoc-filters.md) | 僅限專案，但可儲存並新增至篩選清單。 | 單一規則篩選器 |
+| 流失分析中的篩選器 | [流失視覺效果](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) 在Analysis Workspace | 個別流失視覺效果 | 從接觸點建立篩選器、將篩選器新增為接觸點，以及在各種篩選器之間比較關鍵工作流程 |
+| 計算量度型篩選器 | [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=zh-Hant) | 至個別計算量度 | 在量度定義中套用篩選器 |
 
 ## 循序篩選器
 
@@ -56,7 +56,8 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 ### 「人員」容器
 
-「人員」容器包含訪客在指定時間範圍內的每次造訪和頁面檢視。「人員」層級的篩選器會傳回符合條件的頁面，加上訪客檢視的所有其他頁面 (且僅限於定義的日期範圍)。「人員」容器是定義範圍最廣的容器，在此層級產生的報表會傳回所有造訪中的頁面檢視，且可讓您產生多次造訪分析。因此，「人員」容器最容易隨定義的日期範圍而發生變更。「人員」容器可以包含以訪客整體歷史記錄為基礎的值：
+「人員」容器包含訪客在指定時間範圍內的每次造訪和頁面檢視。「人員」層級的篩選器會傳回符合條件的頁面，加上訪客檢視的所有其他頁面 (且僅限於定義的日期範圍)。「人員」容器是定義範圍最廣的容器，在此層級產生的報表會傳回所有造訪中的頁面檢視，且可讓您產生多次造訪分析。因此，「人員」容器最容易隨定義的日期範圍而發生變更。
+「人員」容器可以包含以訪客整體歷史記錄為基礎的值：
 
 * 首次購買間隔天數
 * 原始登入頁面
