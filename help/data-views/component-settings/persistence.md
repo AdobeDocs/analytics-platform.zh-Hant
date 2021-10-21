@@ -2,10 +2,10 @@
 title: 持續性元件設定
 description: 決定是否會在不同事件中儲存維度值或是如何儲存。
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
-source-git-commit: 0c27f75eed8f1f3dec3f287cfe35ab748bbfc1bb
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: e8f372692e60158ce7f30837ee4da0f922e1d752
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 | 設定 | 說明 |
 | --- | --- |
 | [!UICONTROL 設定持續性] | 啟用維度的持續性。如果未啟用持續性，則維度僅與同一事件中存在的量度相關。此設定預設為停用。 |
-| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。 |
+| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。自2021年10月28日起，最多90天的回顧期間將新增至 [!UICONTROL 配置] 設定。 |
 | [!UICONTROL 有效期] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 自訂時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。您可以設定的最長到期時間為 90 天。如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]到期可用。 |
 
 ## [!UICONTROL 配置]設定
