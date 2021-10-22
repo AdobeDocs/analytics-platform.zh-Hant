@@ -2,11 +2,10 @@
 description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-translation-type: ht
-source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: 1250d9e39d055fbe9dee9a10d74dac3f3f7661bb
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +13,11 @@ ht-degree: 100%
 
 [!UICONTROL 欄設定]可供設定欄的格式，部分可設為條件式。
 
-## 編輯[!UICONTROL 「欄設定」] {#edit-column-settings}
+在此處檢視列和欄設定的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/40382/?quality=12)
+
+## 編輯[!UICONTROL 「欄設定」]  {#edit-column-settings}
 
 若要存取[!UICONTROL 「欄設定」]，請拖曳自由表格至專案，接著按一下欄標頭中的齒輪圖示。
 
@@ -47,7 +50,7 @@ ht-degree: 100%
 | 自動產生 | 根據資料自動計算上/中/下限。上限是此欄中的最大值。下限是最小值，而中點是上限和下限的平均。 |
 | 自訂 | 手動對齊上/中/下限。這可提供由您決定欄的值是好、中等或壞的彈性。 |
 
-## 使用非預設歸因模型 {#attribution}
+## 使用非預設歸因模式 {#attribution}
 
 Analysis Workspace 支援絕大多數量度的[歸因](/help/analysis-workspace/attribution/overview.md)。
 
