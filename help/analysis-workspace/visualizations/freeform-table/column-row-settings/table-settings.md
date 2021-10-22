@@ -3,7 +3,7 @@ description: 列設定會依您拖放至表格中的元件而異。
 title: 列設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
-source-git-commit: 941c32ce5ec9bfec020a68297397574f687d5e2b
+source-git-commit: 7abd4d08f02597aed1af27970b8497898a553a10
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 82%
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 若要變更顯示的列數：
 
-1. 按一下表格頂端的列旁的數字。
+1. 按一下旁邊的數字 [!UICONTROL 列] 在桌子的頂端。
 
    ![](assets/row-number.png)
 
