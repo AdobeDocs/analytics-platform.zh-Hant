@@ -2,10 +2,10 @@
 title: 如何設定 Analysis Workspace 內的用戶偏好設定
 description: 您可以設定用戶的一般和專案偏好設定。
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
-source-git-commit: 836a99c03671b4145890c8b37f5123a841a85543
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+source-git-commit: 80a41d5678728eaab8a8a66455c8e1e8f1cdbb8e
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 81%
 
 ---
 
@@ -38,3 +38,14 @@ ht-degree: 100%
 |  | [面板類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=zh-Hant) | <ul><li>自由形式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
 |  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔符號 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
+
+## [!UICONTROL 深色主題]
+
+如果您偏好Customer Journey Analytics使用者介面有深色背景，可以切換為 [!UICONTROL 深色主題].
+
+1. 按一下右上角的Experience Cloud使用者圖示。
+
+   ![暗主題](assets/dark-theme.png)
+
+1. 移動 **[!UICONTROL 深色主題]** 切換至右側。
+

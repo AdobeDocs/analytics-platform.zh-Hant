@@ -1,15 +1,15 @@
 ---
 description: 面板是表格與視覺效果的集合。
-title: 面板概述
+title: 面板概觀
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: 80a41d5678728eaab8a8a66455c8e1e8f1cdbb8e
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 62%
+source-wordcount: '845'
+ht-degree: 60%
 
 ---
 
-# 面板概述
+# 面板概觀
 
 [!UICONTROL 面板]是表格與視覺效果的集合。您可以從 Workspace 左上角圖示、[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)來存取面板。如果您想要根據時段、資料檢視或分析使用案例來組織專案，面板就很實用。 Analysis Workspace 中有以下面板類型：
 
@@ -22,21 +22,23 @@ ht-degree: 62%
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL 快速深入分析]、  空白  和自由格式面板是開始分析的絕佳位置，而歸因 [!UICONTROL IQ] 則適合進行更進階的分析。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
+[!UICONTROL 快速深入分析], [!UICONTROL 空白] 和 [!UICONTROL 自由格式] 面板是開始分析的絕佳位置，而 [!UICONTROL Attribution IQ] 使自己得以接受更先進的分析。 專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
 
 預設的開始面板為「[!UICONTROL 自由格式]」面板，但您也可以將[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 
-## 日曆 {#calendar}
+## 行事曆 {#calendar}
 
-面板行事曆會控制面板內表格和視覺效果的報告範圍。
+行事曆面板會儀表板內表格和視覺效果的報告範圍。
 
 注意：如果表格、視覺效果或下拉區域內使用 (紫色) 日期範圍元件，此日期範圍將覆蓋面板行事曆。
 
 ![](assets/panel-calendar.png)
 
+您可以在面板日曆的進階設定下套用分鐘層級日期範圍。 如果您報告的日期範圍跨越多天，則開始時間會套用至第一天，而結束時間則套用至範圍中的最後一天。
+
 ## 下拉區域 {#dropzone}
 
-面板放置區可讓您將篩選器和下拉式篩選器套用至面板內的所有表格和視覺效果。 您可以將一個或多個篩選器套用至面板。每個篩選器上方標題都可編輯，方法是按一下編輯鉛筆圖示；或者，按一下右鍵可完全移除篩選單。
+面板放置區可讓您將篩選器和下拉式篩選器套用至面板內的所有表格和視覺效果。 您可以將一個或多個篩選器套用至面板。每個篩選器上方標題都可編輯，方法是按一下編輯鉛筆圖示；或者，按一下右鍵可完全移除篩功能表。
 
 ### 篩選器
 
@@ -52,7 +54,7 @@ ht-degree: 62%
 
 ![](assets/adhoc-segment-filter.png)
 
-### 下拉篩選器{#dropdown-filter}
+### 下拉篩選器 {#dropdown-filter}
 
 除了篩選器外，下拉式篩選器還可讓您以控制方式與資料互動。 例如，您可以為「行動裝置類型」新增下拉式篩選器，以便依平板電腦、行動電話或案頭來篩選面板。
 
@@ -62,15 +64,15 @@ ht-degree: 62%
 
 若要建立下拉篩選器：
 
-1. 若要使用[!UICONTROL 維度項目] (例如[!UICONTROL 行銷管道]維度內的值) 建立下拉篩選單，在左側邊欄內您的維度旁邊，按一下向右的箭頭。如此即可使用所有適用項目。在左側邊欄中選取一個或多個元件項目，然後&#x200B;**按住 Shift 鍵**，將元件放至面板的下拉區域中。這會將元件轉換為下拉式篩選器，而非單一篩選器。
-1. 若要使用其他元件（例如量度、篩選器或日期範圍）建立下拉式篩選器，請在左側邊欄中選取一個元件類型，並拖曳至面板放置區&#x200B;**，同時按住Shift鍵**。
-1. 從下拉選單中選取一個選項，即可變更面板中的資料。您也可選擇不要篩選任何面板中的資料，只要選取「**[!UICONTROL 不要篩選]**」即可。
+1. 若要使用[!UICONTROL 維度項目] (例如[!UICONTROL 行銷管道]維度內的值) 建立下拉篩功能表，在左側邊欄內您的維度旁邊，按一下向右的箭頭。如此即可使用所有適用項目。在左側邊欄中選取一個或多個元件項目，然後&#x200B;**按住 Shift 鍵**，將元件放至面板的下拉區域中。這會將元件轉換為下拉式篩選器，而非單一篩選器。
+1. 若要使用其他元件（例如量度、篩選器或日期範圍）建立下拉式篩選器，請在左側邊欄中選取一個元件類型，然後放入面板放置區 **同時按住Shift鍵**.
+1. 從下拉功能表中選取一個選項，即可變更面板中的資料。您也可選擇不要篩選任何面板中的資料，只要選取「**[!UICONTROL 不要篩選]**」即可。
 
 ![](assets/create-dropdown.png)
 
-[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)，了解更多有關如何在專案中新增下拉篩選器。
+[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hant)，了解更多有關如何在專案中新增下拉篩選器。
 
-## 在功能表上按一下右鍵{#right-click}
+## 在功能表上按一下右鍵 {#right-click}
 
 在面板標題按一下右鍵，可以使用面板的其他功能。
 
@@ -85,5 +87,5 @@ ht-degree: 62%
 | [!UICONTROL 複製面板] | 將目前的面板依樣複製，然後再修改資料。 |
 | [!UICONTROL 摺疊/展開所有面板] | 摺疊和展開所有專案面板。 |
 | [!UICONTROL 摺疊/展開面板中的所有視覺效果] | 摺疊和展開目前面板中的所有視覺效果。 |
-| [!UICONTROL 編輯描述] | 新增 (或編輯) 面板的文字說明。 |
-| [!UICONTROL 取得面板連結] | 讓您可將使用者直接導向專案中的特定面板。收件者按一下連結後必須先登入系統，然後才會被導向所連結的正確面板。 |
+| [!UICONTROL 編輯說明] | 新增 (或編輯) 面板的文字說明。 |
+| [!UICONTROL 取得面板連結] | 讓您可將用戶直接導向專案中的特定面板。收件者按一下連結後必須先登入系統，然後才會被導向所連結的正確面板。 |
