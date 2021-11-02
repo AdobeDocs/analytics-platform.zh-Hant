@@ -2,7 +2,7 @@
 description: 在計算量度管理員中，您可以設定包含各應用程式級別以及特定部門或群組之核准量度的工作流程。
 title: 核准計算量度
 source-git-commit: cefc5696efa8c1b68d6227d06a03014fbc5e3ff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
 ht-degree: 100%
 
