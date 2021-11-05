@@ -3,9 +3,9 @@ title: 管理連線
 description: 說明如何在 Customer Journey Analytics (CJA) 中管理與 Experience Platform 資料集的連線。
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: 6d1907d676ea01b3956d5ce2ce76d43d7a8f0f1d
+source-git-commit: 3103e02bb49b6e5913c8a71d7ecf436b5ee90d11
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1866'
 ht-degree: 81%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 81%
 * 為連線重新命名。
 * 從連線建立資料檢視。
 
-![管理連線](assets/conn-manager.png)
+![](assets/conn-manager.png)
 
 | 設定 | 說明 |
 | --- | --- |
@@ -85,7 +85,7 @@ ht-degree: 81%
 
 以下是 Widget 和設定的說明：
 
-![檢視連線詳細資料](assets/conn-details.png)
+![](assets/conn-details.png)
 
 | Widget/設定 | 說明 |
 | --- | --- |
