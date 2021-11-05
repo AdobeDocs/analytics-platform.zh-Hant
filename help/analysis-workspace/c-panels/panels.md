@@ -2,10 +2,10 @@
 description: 面板是表格與視覺效果的集合。
 title: 面板概觀
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 94b086c9eb0b148ebb176a37205030b862ac2678
+source-git-commit: f6e7c2f5d83a29b498a7c3dbed64f2d2ea5c0b27
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 60%
+source-wordcount: '851'
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 60%
 
 ## 面板類型
 
-Analysis Workspace 中有以下面板類型：
+下列面板類型適用於Analysis Workspace [!UICONTROL Customer Journey Analytics]:
 
 | 面板名稱 | 說明 |
 | --- | --- |
@@ -38,7 +38,7 @@ Analysis Workspace 中有以下面板類型：
 
 ![](assets/panel-calendar.png)
 
-您可以在面板日曆的進階設定下套用分鐘層級日期範圍。 如果您報告的日期範圍跨越多天，則開始時間會套用至第一天，而結束時間則套用至範圍中的最後一天。
+您可以在面板日曆的進階設定下套用分鐘層級日期範圍。 如果您報告橫跨許多天的日期範圍，開始時間會套用至第一天，結束時間套用至您範圍中的最後一天。
 
 ## 下拉區域 {#dropzone}
 

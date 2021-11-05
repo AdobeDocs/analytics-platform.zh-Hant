@@ -3,10 +3,10 @@ title: 管理連線
 description: 說明如何在 Customer Journey Analytics (CJA) 中管理與 Experience Platform 資料集的連線。
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: fa87337c10a1621142137b427c1986fafc70d9f7
+source-git-commit: 6b9a725cf31385576f358c137a1e6ba71cd74f95
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 93%
+source-wordcount: '1701'
+ht-degree: 89%
 
 ---
 
@@ -114,19 +114,19 @@ ht-degree: 93%
 | [!UICONTROL 使用連線的資料檢視] | 列出所有使用此連線的資料檢視。 |
 | [!UICONTROL 匯入新資料] | （開啟/關閉）指出是否應將新批次資料新增至歷史（回填）資料。 |
 | [!UICONTROL 回填資料] | 追蹤 3 種狀態下的回填 (歷史) 資料：[!UICONTROL 佇列中]、[!UICONTROL 處理中] (有指示進度百分比) 及[!UICONTROL 完成]。 |
-| [!UICONTROL 建立者] | 建立連線的人員名稱。 |
-| [!UICONTROL 修改時間] | 上次變更連線的日期和時間。 |
-| [!UICONTROL 上次修改者：] | 上次修改連接的人。 |
+| [!UICONTROL 建立者] | 顯示建立連線的人員的名稱。 |
+| [!UICONTROL 修改時間] | 顯示上次變更連線的日期和時間。 |
+| [!UICONTROL 上次修改者：] | 顯示上次修改連接的人員。 |
 | **資料集層級的右側邊欄** |  |
 | [!UICONTROL 人員 ID] | 顯示在 Experience Platform 的最新結構描述中所定義的身分識別。 這是您在建立連線時所選擇的人員 ID。 如果您建立的連線包含有不同 ID 的資料集，則報告將會反映這個情況。 若要確實合併資料集，您需要在資料集間使用相同的人員ID。 |
 | [!UICONTROL 可用記錄] | 代表在透過行事曆選取的特定時段中，為此資料集擷取的總列數。 在新增資料後，資料會立即出現在報告中，不需要等候。 (一個例外情況是當您建立全新連線時，將會發生[延遲](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#3.-getting-data-into-customer-journey-analytics))。 |
-| [!UICONTROL 新增的記錄] | 在選取的時段內新增了多少列。 **注意**：**[!UICONTROL 新增的記錄]**&#x200B;資料此時僅包括事件資料，不包括設定檔或查詢資料。 |
-| [!UICONTROL 刪除的記錄] | 在選取的時段內刪除了多少記錄。 **注意**：**[!UICONTROL 刪除的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
-| [!UICONTROL 已新增批次] | 已將多少資料批次新增到這個資料集內。 |
-| [!UICONTROL 略過的記錄] | 在選取的時段內擷取資料時，略過了多少列。 **注意**：**[!UICONTROL 略過的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
-| [!UICONTROL 上次新增時間] | 上次新增批次的時間。 |
+| [!UICONTROL 新增的記錄] | 指出在選取的時段內新增了多少列。 **注意**：**[!UICONTROL 新增的記錄]**&#x200B;資料此時僅包括事件資料，不包括設定檔或查詢資料。 |
+| [!UICONTROL 刪除的記錄] | 指示在所選時段內刪除了多少記錄。 **注意**：**[!UICONTROL 刪除的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
+| [!UICONTROL 已新增批次] | 指出有多少個資料批次新增至此資料集。 |
+| [!UICONTROL 略過的記錄] | 指出在選取的時段內擷取期間已略過多少列。 **注意**：**[!UICONTROL 略過的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
+| [!UICONTROL 上次新增時間] | 指示上次添加批的時間。 |
 | [!UICONTROL 資料集類型] | 可能是[!UICONTROL 事件]、[!UICONTROL 查詢]或[!UICONTROL 描述檔]。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
-| [!UICONTROL 結構描述] | 此資料集所根據的 Adobe Experience Platform 結構描述。 |
+| [!UICONTROL 結構描述] | 顯示此資料集所根據的Adobe Experience Platform結構。 |
 | [!UICONTROL 資料集 ID] | 系統會在 Adobe Experience Platform 中產生這個 ID。 |
 
 ### 編輯連線
