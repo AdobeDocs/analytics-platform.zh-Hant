@@ -2,10 +2,10 @@
 title: 跨管道分析總覽
 description: 重新輸入多個資料集的訪客 ID，以彙整訪客。
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: a1b4ddc0799d741edb9a4624e22a800a0307e5eb
+workflow-type: tm+mt
+source-wordcount: '1127'
+ht-degree: 96%
 
 ---
 
@@ -57,13 +57,13 @@ ht-degree: 100%
 符合所有先決條件並了解限制後，貴組織就能按照下列步驟，在 CJA 中開始使用。
 
 1. 將所需的資料匯入 Adobe Experience Platform。請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)和[匯入資料](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant)。
-1. 請連絡您的 Adobe 客戶經理，並提供下列項目：
+1. 請連絡您的Adobe技術客戶經理，並提供下列資訊：
    * 跨管道分析啟用申請
    * 您要重設金鑰之資料集的資料集 ID
    * 所需資料集的永久 ID 欄名稱 (顯示於每列的識別碼)
    * 所需資料集的暫時 ID 欄名稱 (資料集間的人員識別碼連結)
    * 您的[重播](replay.md)頻率和回顧時間長度偏好設定，包括每週重播一次，回顧期間為 7 天，或每天重播一次，回顧期間為 1 天。
-1. Adobe 客戶經理將與 Adobe 工程部門合作，以便在收到您的請求後啟用跨管道分析。啟用後，將在 Adobe Experience Platform 中顯示一個包含新人員 ID 欄的新的重設金鑰資料集。您的 Adobe 客戶經理可提供新資料集 ID 和人員 ID 欄名稱。
+1. Adobe技術客戶經理將與Adobe工程合作，在收到您的請求時啟用跨管道分析。 啟用後，將在 Adobe Experience Platform 中顯示一個包含新人員 ID 欄的新的重設金鑰資料集。您的Adobe技術帳戶管理員可提供新的資料集ID和人員ID欄名稱。
 1. 首次打開時，Adobe 將提供回填的彙整資料，其回溯時間可追溯到上個月初 (最多 60 天)。為了執行此回填，暫時性 ID 必須在未回溯的時間中存在於未彙整的資料中。
 1. 使用新產生的資料集和您要加入的其他資料集，在 CJA 中[建立連線](../create-connection.md)。為每個資料集選擇正確的人員 ID。
 1. 根據連線[建立資料檢視](/help/data-views/create-dataview.md)。
