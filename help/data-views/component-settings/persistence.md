@@ -2,10 +2,11 @@
 title: 持續性元件設定
 description: 決定是否會在不同事件中儲存維度值或是如何儲存。
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
-source-git-commit: e8f372692e60158ce7f30837ee4da0f922e1d752
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +25,14 @@ ht-degree: 97%
 | 設定 | 說明 |
 | --- | --- |
 | [!UICONTROL 設定持續性] | 啟用維度的持續性。如果未啟用持續性，則維度僅與同一事件中存在的量度相關。此設定預設為停用。 |
-| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。自2021年10月28日起，最多90天的回顧期間將新增至 [!UICONTROL 配置] 設定。 |
+| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。2021 年 10 月 28 日起，一個最多 90 天的回顧期間會新增至[!UICONTROL 分配]設定中。 |
 | [!UICONTROL 有效期] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 自訂時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。您可以設定的最長到期時間為 90 天。如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]到期可用。 |
 
 ## [!UICONTROL 配置]設定
 
 有關可用配置設定的詳細資料。
 
-* **[!UICONTROL 最近]**：儲存最近 (依時間戳記) 存在於維度中的值。維度到期期間內出現的任何後續值都會替換之前的保存值。如果在[「沒有值選項」](no-value-options.md)下在此維度上啟用了「將沒有值視為一個值」，則空值會覆寫以前保存的值。例如，考慮包含[!UICONTROL 最近]的配置和[!UICONTROL 工作階段]到期的下表：
+* **[!UICONTROL 最近]**：儲存最近 (依時間戳記) 存在於維度中的值。維度到期期間內出現的任何後續值都會取代之前的保存值。如果在[「沒有值選項」](no-value-options.md)下在此維度上啟用了「將沒有值視為一個值」，則空值會覆寫以前保存的值。例如，考慮包含[!UICONTROL 最近]的配置和[!UICONTROL 工作階段]到期的下表：
 
    | 維度 | 點擊 1 | 點擊 2 | 點擊 3 | 點擊 4 | 點擊 5 |
    | --- | --- | --- | --- | --- | --- |
@@ -45,7 +46,7 @@ ht-degree: 97%
    | 資料集的值 |  | C | B |  | A |
    | 原始配置 |  | C | C | C | C |
 
-* **[!UICONTROL 全部]**：作用類似於量度的[!UICONTROL 參與率]歸因模型。 平等地保留所有值，因此每個值都可以完全歸功於報告中的量度。例如，考慮包含[!UICONTROL 全部]配置和[!UICONTROL 工作階段]到期的下表：
+* **[!UICONTROL 全部]**：作用類似於量度的[!UICONTROL 參與率]歸因模式。 平等地保留所有值，因此每個值都可以完全歸功於報告中的量度。例如，考慮包含[!UICONTROL 全部]配置和[!UICONTROL 工作階段]到期的下表：
 
    | 維度 | 點擊 1 | 點擊 2 | 點擊 3 | 點擊 4 | 點擊 5 |
    | --- | --- | --- | --- | --- | --- |

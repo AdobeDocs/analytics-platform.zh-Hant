@@ -2,10 +2,11 @@
 title: Customer Journey Analytics 常見問答
 description: Customer Journey Analytics - 常見問答。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
-source-git-commit: 688c7ee9debd82bbeb1e95461e9d95a8d1bd220b
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '1649'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,18 +45,18 @@ ht-degree: 93%
 | 如何將 [!UICONTROL Adobe Analytics] 資料帶入 [!UICONTROL Customer Journey Analytics]？ | 您可透過 [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)，將 [!UICONTROL Adobe Analytics] 資料連結至 Experience Platform。大部分的 [!UICONTROL Adobe Analytics] 欄位都會以 XDM 格式帶入，但其他欄位則尚未開放使用。 |
 | 將資料集元素組合成資料檢視需要多久時間？ | 需要數小時以開始使用，並且需要數天的時間來回填過去 13 個月的資料。 |
 | 是否需要帶入 PII 資料來建立資料之間的連結？ | 否，您可以使用任何 ID，包括客戶 ID (非 PII) 的雜湊。 |
-| 將過去或未來日期/時間戳記擷取至CJA事件資料集有何限制？ | <ul><li>關於過去日期/時間戳記：最長10歲的事件資料。</li><li>關於未來日期/時間戳記：未來最多1個月的事件資料（預測性）。</li></ul> |
+| 擷取過去或未來的日期/時間戳記至 CJA 事件資料集的限制有哪些？ | <ul><li>在過去日期/時間戳記方面: 事件資料最久為 10 年。</li><li>在未來日期/時間戳記方面: 事件資料 (預測性) 最久為未來 1 個月。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
-## 4.延遲考量事項
+## 4. 延遲的注意事項
 
 >[!NOTE]
->CJA中沒有固定的資料大小，因此Adobe無法提交至標準擷取時間。 我們正透過新的更新和擷取最佳化，積極致力減少這些延遲。
+>CJA 中沒有固定的資料大小，因此 Adobe 無法指定標準的擷取時間。我們正在積極努力透過新的更新和擷取最佳化，減少這些延遲。
 
 | 問題 | 回答 |
 | --- | --- |
-| [!UICONTROL Adobe Experience Platform] 上 [!UICONTROL Customer Journey Analytics] 的延遲時間預計會多久？ | <ul><li>即時資料或事件：在AEP中提供資料後，90分鐘內處理並擷取。</li><li>批大小> 5000萬行：超過90分鐘。</li><li>小型回填 — 例如1,000萬列的查詢資料集：24小時內<li>大型回填 — 例如5,000億列：30天</li></ul> |
+| [!UICONTROL Adobe Experience Platform] 上的 [!UICONTROL Customer Journey Analytics] 延遲時間預計會多久？ | <ul><li>即時資料或事件: 資料在 AEP 上可供使用時，在 90 分鐘內完成處理和擷取。</li><li>批次大小 > 5 千萬列: 90 分鐘以上</li><li>小型回填 - 例如，1 千萬列的查詢資料集: 24 小時以內<li>大型回填 - 例如，5 百億列: 30 天</li></ul> |
 
 
 ## 5. 傳統 [!UICONTROL Adobe Analytics] 元件
@@ -73,7 +74,7 @@ ht-degree: 93%
 
 ## 6. 刪除資料元件的影響
 
-關於資料的刪除，我們會考慮 6 種元件：沙箱、結構描述、資料集、連線、資料檢視和 Workspace 專案。 以下是刪除上述任何元件後的一些可能情況：
+關於資料的刪除，我們會考慮 6 種元件：沙箱、結構描述、資料集、連線、資料檢視和「工作區」專案。 以下是刪除上述任何元件後的一些可能情況：
 
 | 若您... | 就會發生下列情形... |
 | --- | --- |
@@ -83,8 +84,8 @@ ht-degree: 93%
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的資料集 | 目前您無法刪除連線中所儲存的資料集。您必須刪除整個連線，然後重新開始(然而，已購買 CJA SKU 的客戶可以在 [!UICONTROL Adobe Experience Platform] 使用者介面中刪除資料集。) |
 | 從資料集中刪除批次 (在 [!UICONTROL Adobe Experience Platform] 中) | 如果從 [!UICONTROL Adobe Experience Platform] 資料集中刪除批次資料，該批次資料會從包含該特定批次資料的所有 CJA 連線中移除。[!UICONTROL Adobe Experience Platform] 中的批次資料刪除後，CJA 會收到相關通知。 |
 | 當批次&#x200B;**正要擷取**&#x200B;到 [!UICONTROL Customer Journey Analytics] 中時將它刪除 | 如果資料集中只有一筆批次資料，該批次資料中的所有或部分資料都不會顯示於 [!UICONTROL Customer Journey Analytics]。系統會復原匯入作業。舉例來說，如果資料集含有 5 筆批次資料，其中 3 筆在資料集遭刪除前就已匯入完成，則該 3 筆批次資料的資料就會顯示於 [!UICONTROL Customer Journey Analytics]。 |
-| 刪除 [!UICONTROL Customer Journey Analytics] 中的連線 | 錯誤訊息會指出：<ul><li>針對已刪除連線所建立的任何資料檢視都將停止運作。</li><li> 同樣地，如果有任何 Workspace 專案與所刪除連線中的資料檢視相依，也將停止運作。</li></ul> |
-| 刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視 | 錯誤訊息會指出，與這個已刪除的資料檢視相依的任何 Workspace 專案都將停止運作。 |
+| 刪除 [!UICONTROL Customer Journey Analytics] 中的連線 | 錯誤訊息會指出：<ul><li>針對已刪除連線所建立的任何資料檢視都將停止運作。</li><li> 同樣地，如果有任何「工作區」專案與所刪除連線中的資料檢視相依，也將停止運作。</li></ul> |
+| 刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視 | 錯誤訊息會指出，與這個已刪除的資料檢視相依的任何「工作區」專案都將停止運作。 |
 
 ## 7. 在 CJA 中合併報表套裝時的注意事項
 
@@ -94,7 +95,7 @@ ht-degree: 93%
 | --- | --- |
 | 變數 | [!UICONTROL eVars] 等變數可能不會跨報表套裝排列。例如，報表套裝 1 中的 eVar1 可能指向&#x200B;**[!UICONTROL 頁面]**。在報表套裝 2 中，eVar1 可能指向&#x200B;**[!UICONTROL 內部行銷活動]**，因而導致混合和不準確的報表。 |
 | [!UICONTROL 工作階段]和[!UICONTROL 人員]計數 | 它們會跨報表套裝進行重複資料刪除。因此，計數可能不相符。 |
-| 量度重複資料刪除 | 如果多列具有相同的交易 ID (例如，[!UICONTROL 購買 ID])，則對量度的實例 (例如[!UICONTROL 訂單]) 進行重複資料刪除。這可以防止過度計算關鍵量度。因此，像[!UICONTROL 訂單]這樣的量度可能不會跨報表套裝累加。 |
+| 量度去重複化 | 如果多列具有相同的交易 ID (例如，[!UICONTROL 購買 ID])，則對量度的實例 (例如[!UICONTROL 訂單]) 進行重複資料刪除。這可以防止過度計算關鍵量度。因此，像[!UICONTROL 訂單]這樣的量度可能不會跨報表套裝累加。 |
 | 貨幣 | CJA 尚不支援貨幣轉換。如果您嘗試合併的報表套裝使用不同的基礎貨幣，則可能會出現問題。 |
 | [!UICONTROL 持續性] | [持續性](../data-views/component-settings/persistence.md)跨報表套裝擴展，這會影響[!UICONTROL 篩選]、[!UICONTROL 歸因]等。數字可能無法正確相加。 |
 | [!UICONTROL 分類] | 合併報表套裝時，[!UICONTROL 分類]不會自動進行重複資料刪除。將多個分類檔案合併為單一[!UICONTROL 查閱]資料集時，您可能會遇到問題。 |

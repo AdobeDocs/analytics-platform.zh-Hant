@@ -1,12 +1,12 @@
 ---
-title: 估算連線規模
+title: 如何估計CJA連線大小
 description: 回報 Customer Journey Analytics 目前的使用狀況
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
-translation-type: ht
-source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
-workflow-type: ht
-source-wordcount: '612'
-ht-degree: 100%
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 99%
 
 ---
 

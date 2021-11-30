@@ -2,8 +2,9 @@
 title: 歸因元件設定
 description: 允許您為量度設定預設歸因。
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
-source-git-commit: 181fc4fbf599c5ca34f4786439e83ac0e4a524dd
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 

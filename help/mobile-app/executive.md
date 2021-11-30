@@ -1,21 +1,22 @@
 ---
 description: 控制面板計分卡的使用說明。
-title: Adobe Analytics 儀表板執行指南
+title: Adobe Analytics 儀表板高階主管指南
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 35b76b1c2642d5e8f15f71fed9c75ab37491a901
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '1230'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# 執行使用者快速入門指南
+# 高階主管使用者快速入門指南
 
-下列資訊可讓執行使用者瞭解使用和檢視 Adobe Analytics 儀表板的最佳作法。若要觀看講解這項資訊的影片，請參閱 [Adobe Analytics 儀表板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
+下列資訊可讓高階主管使用者瞭解使用和檢視 Adobe Analytics 儀表板的最佳作法。若要觀看講解這項資訊的影片，請參閱 [Adobe Analytics 儀表板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
 
-本指南旨在協助執行使用者閱讀和理解Analytics控制面板上的計分卡。 此應用程式可讓執行用戶在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
+這份指南旨在協助高階主管使用者閱讀和理解 Analytics 儀表板上的計分卡。此應用程式可讓高階主管使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
 
 ## 在裝置上設定控制面板
 
@@ -32,19 +33,19 @@ ht-degree: 97%
 
 若要下載及安裝應用程式，請根據裝置的作業系統，依步驟操作。
 
-**若執行使用者使用 iOS：**
+**若高階主管使用者使用 iOS：**
 
 按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 [iOS 連結](https://apple.co/2zXq0aN)
 
-**若執行使用者使用 Android：**
+**若高階主管使用者使用 Android：**
 
 按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 [Android 連結](https://bit.ly/2LM38Oo)
 
-下載並安裝完畢後，執行使用者就可使用現有的 Adobe Analytics 憑證登入應用程式。
+下載並安裝完畢後，高階主管使用者就可使用現有的 Adobe Analytics 憑證登入應用程式。
 
 ![應用程式歡迎畫面](assets/welcome.png)
 
@@ -52,11 +53,11 @@ ht-degree: 97%
 
 控制面板使用步驟：
 
-1. 登入應用程式。 控制面板啟動後，登入畫面會隨即顯示。使用您現有的 Adobe Analytics 憑證，依提示操作。此應用程式同時支援 Adobe 和 Enterprise/Federated ID。
+1. 請登入應用程式。控制面板啟動後，登入畫面會隨即顯示。使用您現有的 Adobe Analytics 憑證，依提示操作。此應用程式同時支援 Adobe 和 Enterprise/Federated ID。
 
    ![登入程序](assets/signseq.png)
 
-1. 選擇公司。登入控制面板後，會出現&#x200B;**[!UICONTROL 選擇公司]**&#x200B;畫面。 此畫面會列出您所屬的登入公司。點選與您所共用計分卡相關聯的公司名稱。
+1. 選擇公司。登入控制面板後，「**[!UICONTROL 選擇公司]**」的畫面會隨即顯示。此畫面會列出您所屬的登入公司。點選與您所共用計分卡相關聯的公司名稱。
 
 1. 接著，計分卡清單會顯示已與您共用的所有計分卡。點選要檢視的計分卡。
 
@@ -75,7 +76,7 @@ ht-degree: 97%
 
    圖磚的其他資訊：
 
-   * 走勢圖的詳細程度取決於日期範圍的長度：
+   * 走勢圖的粒度取決於日期範圍的長度：
 
       * 若長度為一天，圖表會顯示每小時趨勢
       * 若長度為一天以上、一年以下，則會顯示每日趨勢
@@ -138,7 +139,7 @@ ht-degree: 97%
 
 | 詞語 | 定義 |
 |--- |--- |
-| 消費者 | 在行動裝置上檢視 Analytics 關鍵量度和深入分析的執行人員 |
+| 消費者 | 在行動裝置上檢視 Analytics 關鍵量度和深入分析的高階主管人員 |
 | 組織者 | 從 Analytics 尋找及分發深入分析，以及設定計分卡以供消費者檢視的資料識讀人員 |
 | 組織 | 為消費者建立或編輯行動計分卡的行為，計分卡內容包含相關量度、維度和其他項目 |
 | 計分卡 | 包含一或多個圖磚的控制面板畫面 |

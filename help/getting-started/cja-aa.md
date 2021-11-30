@@ -2,10 +2,11 @@
 title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
-source-git-commit: 8efb8da477b2680a44294553fdca944461ba0f0c
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '1195'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,30 +19,30 @@ ht-degree: 99%
 | Adobe Analytics 功能 | 支援說明事項 |
 | --- | --- |
 | 異常偵測 | 完整支援 |
-| 歸因 IQ | 完整支援 |
+| Attribution IQ | 完整支援 |
 | 計算量度 | 完整支援；請注意，在傳統 Analysis Workspace 中任何現有的計算量度將不會移轉到 CJA。 |
 | 跨裝置/跨管道彙整 | 完整支援；請參閱[跨管道分析](/help/connections/cca/overview.md)。 |
 | CSV 下載 | 完整支援 |
-| 自訂行事曆 | 完全支援 |
+| 自訂行事曆 | 完整支援 |
 | 日期比較 | 完整支援 |
-| 日期範圍 | 支援所有日期範圍功能。 |
+| 日期範圍 | 所有資料範圍功能都受到支援。 |
 | 日光節約時間 | 完整支援 |
 | 維度 | 完整支援；CJA 運用 XDM 並支援無限制維度。CJA 並未繫結到傳統 Adobe Analytics 的自訂 eVars 或 props。 |
 | 內建 Analysis Workspace 維度 (例如瀏覽器類型、反向連結類型、作業系統等) | 只要填入基本 XDM 欄位 (例如使用者代理程式或裝置 ID)，CJA 就會以原生方式提供這些維度。客戶若有使用 Analytics Data Connector (ADC)，部分維度可供使用，但並非全部。請參閱[相關文件，了解可透過 ADC 支援的 Analytics 變數](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。 |
 | 刪除 GDPR | 完整支援；請注意 GDPR 目前是協同 [!UICONTROL Adobe Experience Platform] 處理。CJA 會繼承 [!UICONTROL Experience Platform] 對基礎資料集所做的任何資料變更。 |
 | 清單變數/清單 Prop | 完整資源；CJA 運用 XDM 並支援使用方式與 listVars 相似的無限制字串陣列。 |
 | 量度 | 完整支援；CJA 運用 Experience Data Model (XDM) 並支援無限制的量度，且未繫結到傳統 Analytics 的自訂成功事件。請注意，傳統 Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
-| 量度重複資料刪除 | 完整支援 |
-| 面板 | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。 |
+| 量度去重複化 | 完整支援 |
+| 面板 | 空白面板、歸因面板、自由表格面板和快速深入分析全都受到支援。 |
 | 匯出 PDF | 完整支援 |
 | 專案策劃 | 完整支援 |
 | 專案連結 | 完整支援 |
-| Report Builder (Excel 外掛程式) | 完整支援（2021年10月） |
+| Report Builder (Excel 外掛程式) | 完整支援 (2021 年 10 月) |
 | 報告時間處理 | 完整支援；CJA 僅仰賴報告時間處理。 |
 | 報告 API 存取權 | 完整支援；透過 [CJA API](https://www.adobe.io/cja-apis/docs/) 提供。 |
 | 排程報告/專案 | 完整支援 |
 | 區段 | 完整支援；現在稱為「篩選器」- 請注意，在傳統 Analysis Workspace 中任何現有的區段將不會移轉到 CJA。 |
-| 使用者權限/資料存取控制 | 完整支援；CJA 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hant) 產品管理員與用戶。只有產品管理員可以 <ul><li>建立/更新/刪除連線或資料檢視</li><li>更新/刪除其他使用者建立的專案、篩選或計算量度，以及</li><li>與所有使用者共用 Workspace 專案。</li></ul> |
+| 使用者權限/資料存取控制 | 完整支援；CJA 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hant) 產品管理員與使用者。只有產品管理員可以 <ul><li>建立/更新/刪除連線或資料檢視</li><li>更新/刪除其他使用者建立的專案、篩選或計算量度，以及</li><li>與所有使用者共用「工作區」專案。</li></ul> |
 | 虛擬報表套裝 | 完整支援；現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | VRS 元件策劃 | 完整支援；現在是資料檢視的一部分。 |
 
@@ -69,7 +70,7 @@ ht-degree: 99%
 | 機器人篩選 | 針對以 Analytics Data Connector (ADC)為基礎的資料集，系統會套用機器人篩選。[!UICONTROL Experience Platform] 或 CJA 不會針對其他資料集執行一般機器人篩選邏輯。 |
 | Media Analytics | 媒體資料是 Analytics Data Connector 的一部分。 |
 | 銷售 eVar | 如果銷售 eVar 未設定為使用持續性，則可使用物件陣列中的維度來達成銷售 eVar 的行為。目前，銷售維度持續性不可用。 |
-| 面板 | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。不支援「區段比較」、「Analytics for Target」(A4T) 和「媒體同時檢閱者」面板。 |
+| 面板 | 空白面板、歸因面板、自由表格面板和快速深入分析全都受到支援。不支援「區段比較」、「Analytics for Target」(A4T) 和「媒體同時檢閱者」面板。 |
 | 處理規則 | 對於以 Analytics 資料連接器為基礎的資料集，仍會套用處理規則。 [Adobe Experience Platform 中的資料準備功能](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)也可用來取代直接送到 Platform 的資料適用的處理規則。 |
 
 ## 目前不支援，但已列入規劃
@@ -98,7 +99,7 @@ ht-degree: 99%
 ## 永不受支援
 
 * 使用 Cross-Device Coop 的人員量度
-* Reports &amp; Analytics 控制面板
+* Reports &amp; Analytics 儀表板
 * Reports &amp; Analytics 書籤
 * Reports &amp; Analytics 目標
 * Reports &amp; Analytics 行事曆事件

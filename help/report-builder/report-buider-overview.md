@@ -1,28 +1,29 @@
 ---
-title: 什麼是Report BuilderCustomer Journey Analytics
-description: 說明Customer Journey AnalyticsReport Builder
+title: 什麼是 Customer Journey Analytics 中的 Report Builder
+description: 說明適用於 Customer Journey Analytics 的 Report Builder
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
-source-git-commit: bc80a77c2136232ec209dfecc1ece1d614b438a8
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 關於Report BuilderCustomer Journey Analytics
+# 關於適用於 Customer Journey Analytics 的 Report Builder
 
-Report BuilderCustomer Journey AnalyticsReport Builder可讓您使用AdobeCustomer Journey Analytics資料輕鬆建立、編輯和重新整理自訂報表。 Customer Journey Analytics是以Adobe Experience Platform為基礎打造的服務，可讓您加入多個資料來源，以建立業務的整體檢視。 透過Report Builder簡單而有彈性的拖放UI，您可以從Customer Journey Analytics資料建立複雜的資料查詢和自訂報表，全部在Excel中完成。
+適用於 Customer Journey Analytics 的 Report Builder Report Builder 可讓您使用 Adobe Customer Journey Analytics 資料輕鬆建立、編輯和重新整理自訂報告。Customer Journey Analytics 是一項建構在 Adobe Experience Platform 上的服務，可讓您連接多個資料來源以建立業務的整體檢視。透過 Report Builder 簡單靈活拖放 UI，就能在 Excel 中從 Customer Journey Analytics 資料建立複雜的資料查詢和自訂報表。
 
-使用Report BuilderCustomer Journey Analytics，您可以：
+您可以使用適用於 Customer Journey Analytics 的 Report Builder 進行以下工作：
 
-- 參考現有的工作表儲存格，以取得完美的列順序、日期範圍或篩選
-- 使用日曆、儲存格參考或日期數學建立自訂日期
-- 使用熟悉的Excel格式工具設計表格和視覺效果
+- 參照現有的工作表儲存格，以取得完美的列順序、日期範圍或篩選器
+- 使用行事曆、儲存格參照或日期數學，建立自訂日期
+- 使用熟悉的 Excel 格式化工具設計您的表格和視覺效果
 
-Report BuilderCustomer Journey Analytics適用於下列平台的Excel:
+適用於 Customer Journey Analytics 的 Report Builder 可用於下列平台上的 Excel:
 
 - macOS
 - Windows
@@ -32,7 +33,6 @@ Report BuilderCustomer Journey Analytics適用於下列平台的Excel:
 
 >[!NOTE]
 >
->本檔案供Report BuilderCustomer Journey Analytics。 如需Windows上AnalyticsReport Builder的相關資訊，請參閱[Adobe AnalyticsReport Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=en)。
+>本文件用於適用於 Customer Journey Analytics 的 Report Builder。如需更多有關 Windows 上 Analytics 的 Report Builder 的資訊，請參閱[適用於 Adobe Analytics 的 Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=en)。
 
-您可以從下載Report Builder以Customer Journey Analytics
-[Microsoft商店](https://www.microsoft.com/en-us/store/apps/windows)。
+您可從 [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows) 下載適用於 Customer Journey Analytics 的 Report Builder。

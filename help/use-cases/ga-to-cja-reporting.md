@@ -2,8 +2,9 @@
 title: 在 Customer Journey Analytics 中報告 Google Analytics 資料
 description: 在 Customer Journey Analytics 中顯示有關 Google Analytics 資料的實用報表
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
-source-git-commit: 3f14af4ba547e9f6b1dcf98fa01b6752fad115a3
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 100%
 

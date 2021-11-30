@@ -1,12 +1,13 @@
 ---
-title: 管理連線
+title: 如何在Customer Journey Analytics中管理連線
 description: 說明如何在 Customer Journey Analytics (CJA) 中管理與 Experience Platform 資料集的連線。
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
-source-git-commit: 61f11ed1d91d7a5da7aabbec1fe961b9b0842450
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
-source-wordcount: '1942'
-ht-degree: 77%
+source-wordcount: '1948'
+ht-degree: 81%
 
 ---
 
@@ -60,7 +61,7 @@ ht-degree: 77%
 當您在 [!UICONTROL Customer Journey Analytics] 中刪除連線時，將會出現錯誤訊息來指示以下情況：
 
 * 之前根據已刪除的連線建立的任何資料檢視將不再有效。
-* 同樣地，如果有任何 Workspace 專案與所刪除連線中的資料檢視相依，也將停止運作。
+* 同樣地，如果有任何「工作區」專案與所刪除連線中的資料檢視相依，也將停止運作。
 
 [了解更多](/help/getting-started/cja-deletion.md)有關刪除之影響的資訊。
 
@@ -120,21 +121,21 @@ ht-degree: 77%
 | [!UICONTROL 沙箱] | 此連線從中提取其資料集的 [Adobe Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)。當您初次建立連線時會選取這個沙箱。 此沙箱無法變更。 |
 | [!UICONTROL 連線 ID] | 系統會在 Adobe Experience Platform 中產生這個 ID。 |
 | [!UICONTROL 使用連線的資料檢視] | 列出所有使用此連線的資料檢視。 |
-| [!UICONTROL 匯入新資料] | （開啟/關閉）指出是否應將新批次資料新增至歷史（回填）資料。 |
+| [!UICONTROL 匯入新資料] | (開啟/關閉) 指示是否應該將新的資料批次新增到歷史 (回填) 資料。 |
 | [!UICONTROL 回填資料] | 追蹤 3 種狀態下的回填 (歷史) 資料：[!UICONTROL 佇列中]、[!UICONTROL 處理中] (有指示進度百分比) 及[!UICONTROL 完成]。 |
 | [!UICONTROL 建立者] | 顯示建立連線的人員的名稱。 |
-| [!UICONTROL 修改時間] | 顯示上次變更連線的日期和時間。 |
-| [!UICONTROL 上次修改者：] | 顯示上次修改連接的人員。 |
+| [!UICONTROL 上次修改日期] | 顯示上次變更連線的日期和時間。 |
+| [!UICONTROL 上次修改者] | 顯示上次修改連接的人員。 |
 
 ### 資料集層級的右側邊欄設定
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL 人員 ID] | 顯示在 Experience Platform 的最新結構描述中所定義的身分識別。 這是您在建立連線時所選擇的人員 ID。 如果您建立的連線包含有不同 ID 的資料集，則報告將會反映這個情況。 若要確實合併資料集，您需要在資料集間使用相同的人員ID。 |
+| [!UICONTROL 人員 ID] | 顯示在 Experience Platform 的最新結構描述中所定義的身分識別。 這是您在建立連線時所選擇的使用者 ID。 如果您建立的連線包含有不同 ID 的資料集，則報告將會反映這個情況。 如果真的要合併資料集，您需要在不同資料集中使用相同的使用者 ID。  |
 | [!UICONTROL 可用記錄] | 代表在透過行事曆選取的特定時段中，為此資料集擷取的總列數。 在新增資料後，資料會立即出現在報告中，不需要等候。 (一個例外情況是當您建立全新連線時，將會發生[延遲](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#3.-getting-data-into-customer-journey-analytics))。 |
 | [!UICONTROL 新增的記錄] | 指出在選取的時段內新增了多少列。 **注意**：**[!UICONTROL 新增的記錄]**&#x200B;資料此時僅包括事件資料，不包括設定檔或查詢資料。 |
 | [!UICONTROL 刪除的記錄] | 指示在所選時段內刪除了多少記錄。 **注意**：**[!UICONTROL 刪除的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
-| [!UICONTROL 已新增批次] | 指出有多少個資料批次新增至此資料集。 |
+| [!UICONTROL 批次已新增] | 指出有多少個資料批次新增至此資料集。 |
 | [!UICONTROL 略過的記錄] | 指出在選取的時段內擷取期間已略過多少列。<p>略過記錄的原因包括：遺失時間戳記、遺失或無效的人員ID等。 每 10 分鐘更新一次。<p>人員ID無效(例如「未定義」、「00000000」，或 [!UICONTROL 人員ID] 在指定月份中出現超過100萬次的事件)無法歸因於任何特定使用者或人員。 無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員ID，您有3個選項：<ul><li>使用 [跨管道分析](/help/connections/cca/overview.md) 用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間也會略過這些ID（偏好使用無效或完全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者ID。</li></ul><p>**注意**：**[!UICONTROL 略過的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
 | [!UICONTROL 上次新增時間] | 指示上次添加批的時間。 |
 | [!UICONTROL 資料集類型] | 可能是[!UICONTROL 事件]、[!UICONTROL 查詢]或[!UICONTROL 描述檔]。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
@@ -150,9 +151,9 @@ ht-degree: 77%
 * 重新整理資料集。
 * 從連線移除資料集
 
-## 設定滾動窗口 [!UICONTROL 連線] 資料保留
+## 設定[!UICONTROL 連線]資料保留的滾動時段
 
 >[!IMPORTANT]
->請連絡客戶服務或您的Adobe客戶經理，以實作此設定。 尚未透過 CJA UI 提供。
+>請和客戶服務或您的 Adobe 客戶經理聯絡，以實作此項設定。尚未透過 CJA UI 提供。
 
-此設定可讓您將CJA資料保留定義為月（3個月、6個月等）的滾動式期間， [!UICONTROL 連接] 級別(不在 [!UICONTROL 資料集] 級別)。 資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此基本資料或查詢資料集不存在資料保留設定。主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。
+此項設定讓您在[!UICONTROL 連線]層級 (非 [!UICONTROL  資料集]層級) 將 CJA 資料保留定義為單位為月數的滾動時段 (3 個月、6 個月等)。資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此基本資料或查詢資料集不存在資料保留設定。主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。

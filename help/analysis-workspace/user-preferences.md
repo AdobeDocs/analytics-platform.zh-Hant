@@ -1,19 +1,20 @@
 ---
-title: 如何設定 Analysis Workspace 內的用戶偏好設定
-description: 您可以設定用戶的一般和專案偏好設定。
+title: 如何設定 Analysis Workspace 內的使用者偏好設定
+description: 您可以設定使用者的一般和專案偏好設定。
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
-source-git-commit: 80a41d5678728eaab8a8a66455c8e1e8f1cdbb8e
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# 用戶偏好設定
+# 使用者偏好設定
 
-[!UICONTROL 元件] > [!UICONTROL 用戶偏好設定] 頁面可讓您管理用戶的 Analysis Workspace 設定及其相關元件。用戶偏好設定適用於&#x200B;*所有*&#x200B;新專案或面板。
+[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] 頁面可讓您管理使用者的 Analysis Workspace 設定及其相關元件。使用者偏好設定適用於&#x200B;*所有*&#x200B;新專案或面板。
 
-![用戶偏好設定](assets/user-preferences.png)
+![使用者偏好設定](assets/user-preferences.png)
 
 ## 一般偏好設定
 
@@ -39,13 +40,13 @@ ht-degree: 81%
 |  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔符號 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
 
-## [!UICONTROL 深色主題]
+## [!UICONTROL 深色佈景主題]
 
-如果您偏好Customer Journey Analytics使用者介面有深色背景，可以切換為 [!UICONTROL 深色主題].
+如果您偏好將您的 Customer Journey Analytics 使用者介面設定為深色背景，您可切換至[!UICONTROL 深色佈景主題]。
 
-1. 按一下右上角的Experience Cloud使用者圖示。
+1. 按一下右上方的「Experience Cloud」使用者圖示。
 
-   ![暗主題](assets/dark-theme.png)
+   ![dark-theme](assets/dark-theme.png)
 
-1. 移動 **[!UICONTROL 深色主題]** 切換至右側。
+1. 將&#x200B;**[!UICONTROL 深色佈景主題]**&#x200B;切換移動至右邊。
 

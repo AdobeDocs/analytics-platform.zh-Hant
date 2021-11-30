@@ -2,7 +2,8 @@
 title: 在 Customer Journey Analytics 中執行基本分析
 description: 說明如何在 Customer Journey Analytics 中使用基本視覺效果來分析資料
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 85%
@@ -13,7 +14,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)。[了解更多...](/help/getting-started/cja-aa.md)
 
 建立連線和資料檢視後，使用 Analysis Workspace 的強大功能與彈性來分析您所匯入的資料。您可以嘗試拖曳維度和量度，以及變更維度和量度歸因設定、好記的名稱、時區、工作階段設定等項目。
 

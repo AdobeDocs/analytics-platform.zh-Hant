@@ -2,10 +2,11 @@
 title: 合併事件資料集
 description: 了解 CJA 如何透過合併資料集來建立連線。
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
-source-git-commit: dd68a85b1398fa99e6ee5fff1c356a005ebb9482
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 97%
 * 結構會合併。重複的結構欄位會合併。
 * 每個資料集的「人員 ID」欄會合併為一欄，不論其名稱為何。此欄是識別 CJA 中獨特訪客的基礎。
 * 會根據時間戳記處理列。
-* 事件會解析到毫秒級。
+* 事件會解析至毫秒層級。
 
 ## 範例
 

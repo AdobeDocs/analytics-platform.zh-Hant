@@ -2,8 +2,9 @@
 title: (B2B) 新增帳戶層級資料當做查詢資料集
 description: 了解如何將以帳戶為基礎的資料，以查詢資料集的形式新增至 CJA
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
-workflow-type: ht
+solution: Customer Journey Analytics
+source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 100%
 
