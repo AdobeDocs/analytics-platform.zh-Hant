@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 跨管道分析的新一代解決方案 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供自助協助資訊。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 20dd79161f813a372901dafa8ba44bb64d301974
+source-git-commit: 6c5fb7b3964cbf2bb5158733a2ede9b54f9415a5
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 92%
+source-wordcount: '556'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 92%
    + [管理連線](connections/manage-connections.md)
    + [估算連線規模](connections/estimate-connection-size.md)
    + [合併事件資料集](connections/combined-dataset.md)
+   + [標準查閱](connections/standard-lookups.md)
    + 跨管道分析 {#cca}
       + [跨管道分析總覽](connections/cca/overview.md)
       + [重播的運作方式](connections/cca/replay.md)
@@ -45,13 +46,13 @@ ht-degree: 92%
       + [行為](data-views/component-settings/behavior.md)
       + [格式](data-views/component-settings/format.md)
       + [包含排除值](data-views/component-settings/include-exclude-values.md)
-      + [量度重複資料刪除](data-views/component-settings/metric-deduplication.md)
+      + [量度去重複化](data-views/component-settings/metric-deduplication.md)
       + [沒有值選項](data-views/component-settings/no-value-options.md)
       + [持續性](data-views/component-settings/persistence.md)
       + [值分組](data-views/component-settings/value-bucketing.md)
    + [標準元件參考](data-views/component-reference.md)
    + [資料檢視使用案例](data-views/data-views-usecases.md)
-+ Workspace 專案 {#cja-workspace}
++ 工作區專案 {#cja-workspace}
    + [Analysis Workspace 總覽](analysis-workspace/home.md)
    + [執行基本分析](analysis-workspace/perform-basic-analysis.md)
    + [執行進階分析](analysis-workspace/perform-adv-analysis.md)
@@ -71,7 +72,7 @@ ht-degree: 92%
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [表格分頁、篩選及分類](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Workspace 總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [工作區總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [什麼是同類群組分析？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定同類群組分析報表](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -114,7 +115,7 @@ ht-degree: 92%
       + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [歸因總覽](analysis-workspace/attribution/overview.md)
-      + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
+      + [歸因模式與回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
       + [歸因最佳實務](analysis-workspace/attribution/best-practices.md)
       + [常見問答](analysis-workspace/attribution/faq.md)
@@ -125,7 +126,7 @@ ht-degree: 92%
          + [在 Analysis Workspace 中檢視異常](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [用於異常偵測的統計技術](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
    + [使用者偏好設定](analysis-workspace/user-preferences.md)
-   + Workspace 常見問答 {#workspace-faq}
+   + 「工作區」常見問答 {#workspace-faq}
       + [常見問答](analysis-workspace/workspace-faq/faq.md)
       + [最佳化 Analysis Workspace 效能](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [錯誤訊息](analysis-workspace/workspace-faq/error-messages.md)
@@ -134,14 +135,14 @@ ht-degree: 92%
       + [Analysis Workspace 的協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Analysis Workspace 中的長尾](analysis-workspace/workspace-faq/long-tail.md)
 + Report Builder {#cja-reportbuilder}
-   + [Report Builder概述](report-builder/report-buider-overview.md)
-   + [Report Builder設定](report-builder/report-builder-setup.md)
-   + [建立資料區塊](report-builder/create-a-data-block.md)
-   + [Report Builder中心](report-builder/report-builder-hub.md)
-   + [選擇日期範圍](report-builder/select-date-range.md)
+   + [Report Builder 概觀](report-builder/report-buider-overview.md)
+   + [Report Builder 設定](report-builder/report-builder-setup.md)
+   + [建立「資料區塊」](report-builder/create-a-data-block.md)
+   + [Report Builder 中心](report-builder/report-builder-hub.md)
+   + [選取日期範圍](report-builder/select-date-range.md)
    + [使用篩選器](report-builder/work-with-filters.md)
-   + [篩選維度](report-builder/filter-dimensions.md)
-   + [Report Builder設定](report-builder/report-builder-settings.md)
+   + [篩選器維度](report-builder/filter-dimensions.md)
+   + [Report Builder 設定](report-builder/report-builder-settings.md)
 + 元件 {#cja-components}
    + [元件總覽](components/overview.md)
    + 維度 {#dimensions}
@@ -156,16 +157,16 @@ ht-degree: 92%
       + [管理篩選](components/filters/manage-filters.md)
       + [快速篩選](components/filters/quick-filters.md)
       + [臨機篩選](components/filters/ad-hoc-filters.md)
-      + [操作者](components/filters/operators.md)
+      + [運算子](components/filters/operators.md)
    + 計算量度 {#cja-calcmetrics}
       + [計算量度總覽](components/calc-metrics/calc-metr-overview.md)
-      + 計算量度工作流程 {#cm-workflow}
+      + 計算量度工作流程{#cm-workflow}
          + [計算量度工作流程](components/calc-metrics/cm-workflow/cm-workflow.md)
          + [尋找量度](components/calc-metrics/cm-workflow/cm-finding.md)
          + [建立量度](components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [量度類型和歸因](components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
          + [建立簡單的「每次造訪頁面瀏覽數」量度](components/calc-metrics/cm-workflow/cm-pvv.md)
-         + [篩選的量度](components/calc-metrics/cm-workflow/metrics-with-segments.md)
+         + [篩選量度](components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [堆疊和取代區段](components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [篩選和加權的量度](components/calc-metrics/cm-workflow/cm-weighted-metric.md)
          + [使用函數](components/calc-metrics/cm-workflow/cm-using-functions.md)
@@ -191,15 +192,14 @@ ht-degree: 92%
    + [匯入客服中心和網頁的資料](use-cases/call-center.md)
    + [資料擷取使用案例](use-cases/data-ingestion.md)
    + [使用行銷管道維度](use-cases/marketing-channels.md)
-   + [將全域查詢新增至資料集](use-cases/global-lookups.md)
    + [將 Google Analytics 資料擷取至 Adobe Experience Platform](use-cases/ga-to-cja.md)
    + [報告 CJA 中的 Google Analytics 資料](use-cases/ga-to-cja-reporting.md)
 + Analytics 儀表板 {#cja-dashboards}
    + [Analytics 儀表板 - 總覽](mobile-app/home.md)
    + [組織者任務](mobile-app/curator.md)
    + [建立計分卡](mobile-app/create-scorecard.md)
-   + [設定執行官以使用控制面板](mobile-app/set-up-execs.md)
-   + [執行使用者快速入門指南](mobile-app/executive.md)
+   + [設定使用控制面板的高階主管](mobile-app/set-up-execs.md)
+   + [高階主管使用者快速入門指南](mobile-app/executive.md)
 + 隱私權 {#cja-privacy}
    + [隱私權總覽](privacy/privacy-overview.md)
 + [CJA 文件更新](doc-changes.md)

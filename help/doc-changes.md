@@ -3,10 +3,10 @@ title: CJA 文件更新
 description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集的內容更新。
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
+source-git-commit: 6c5fb7b3964cbf2bb5158733a2ede9b54f9415a5
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 96%
 | 2021 年 3 月 | 有關「工作區」中[使用者偏好](/help/analysis-workspace/user-preferences.md)的新主題。 |
 | 2021 年 2 月 | 有關使用 [Adobe Experience Platform 中的「行銷管道」維度](/help/use-cases/marketing-channels.md)的新主題。 |
 | 2021 年 2 月 | 發佈新的 [CJA API](https://www.adobe.io/cja-apis/docs/) 文件。 |
-| 2021 年 1 月 | 有關[將全球查詢新增至您的資料集](/help/use-cases/global-lookups.md)的新主題。 |
+| 2021 年 1 月 | 新主題 [將標準查詢新增至資料集](/help/connections/standard-lookups.md). |
 | 2020 年 11 月 13 日 | 有關[跨管道分析](/help/connections/cca/overview.md)的新主題，這可讓您為資料集的使用者 ID 重設金鑰，並啟用多個資料集的無縫結合。 |
 | 2020 年 11 月 13 日 | 新增有關[匯入客服中心和 Web 資料](/help/use-cases/call-center.md)的新使用案例。 |
 | 2020 年 11 月 11 日 | 新增有關[預估接點大小](/help/connections/estimate-connection-size.md)的主題。 |
