@@ -2,9 +2,9 @@
 description: 函數可讓您篩選/排序資料以及執行統計分析。
 title: 使用函數
 source-git-commit: 50c56d718ae7a7f6e3d788b9f755831a7522337c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -16,6 +16,6 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->計算量度公式中加入函式時，請一律先套用函式再將其拖曳至量度或篩選器中。
+>在計算量度公式中包含函數時，請一定要先套用函數，再將量度或篩選器拖曳進來。
 
 請觀賞此[影片](https://youtu.be/SSyWvomnewI)以了解如何使用函數。
