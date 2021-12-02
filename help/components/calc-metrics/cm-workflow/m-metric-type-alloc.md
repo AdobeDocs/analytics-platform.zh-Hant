@@ -2,7 +2,7 @@
 description: '了解 '
 title: 量度類型和歸因
 source-git-commit: 0865c318c1390f2ad6d9864915254a7b8f68030f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
 ht-degree: 100%
 
@@ -10,7 +10,7 @@ ht-degree: 100%
 
 # 量度類型和歸因
 
-選取量度旁的齒輪圖示，即可指定量度類型和歸因模型。
+選取量度旁的齒輪圖示，即可指定量度類型和歸因模式。
 
 ## 量度類型
 
@@ -24,5 +24,5 @@ ht-degree: 100%
 ## 歸因
 
 >[!IMPORTANT]
->如需非預設歸因模型及支援的回顧期間的完整清單，請參閱[歸因模型與回顧期間](/help/analysis-workspace/attribution/models.md)。
+>如需非預設歸因模式及支援的回顧期間的完整清單，請參閱[歸因模式與回顧期間](/help/analysis-workspace/attribution/models.md)。
 
