@@ -3,9 +3,9 @@ title: 參考資料 - 進階函數
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 source-git-commit: d6902af2d5e8a706e6b572c3daca2f60661dbbe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2944'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)。[了解更多...](/help/getting-started/cja-aa.md)
 
-勾選&#x200B;**[!UICONTROL 函數]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL 顯示進階]**&#x200B;即可存取這些函數。
+勾選&#x200B;**[!UICONTROL 函數]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL 顯示進階]**，即可存取這些函數。
 
 ## 表格函數和列函數
 
@@ -72,7 +72,7 @@ Approximate Count Distinct (dimension)
 
 ## 超出不重複值
 
-就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=en)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
+就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=zh-Hant)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
 
 ## 比較計數函數
 
@@ -126,8 +126,8 @@ ESTIMATE.EXP(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## Cdf-T
 
@@ -244,8 +244,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 指數迴歸：斜率 (表格)
 
@@ -257,8 +257,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 下限 (列)
 
@@ -389,8 +389,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 對數迴歸：預計 Y (列)
 
@@ -404,8 +404,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 對數迴歸：斜率 (表格)
 
@@ -417,8 +417,8 @@ SLOPE.LOG(metric_A, metric_B)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_A* | 您要指定做為相依資料的量度。 |
-| *metric_B* | 您要指定做為獨立資料的量度。 |
+| *metric_A* | 您要指定為相依資料的量度。 |
+| *metric_B* | 您要指定為獨立資料的量度。 |
 
 ## 自然對數
 
@@ -500,8 +500,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 乘冪迴歸：預計 Y (列)
 
@@ -513,8 +513,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 乘冪迴歸：斜率 (表格)
 
@@ -526,8 +526,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 二次迴歸：相關係數 (表格)
 
@@ -552,8 +552,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 二次迴歸：預計 Y (列)
 
@@ -565,8 +565,8 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_A* | 您要指定做為相依資料的量度。 |
-| *metric_B* | 您要指定做為相依資料的量度。 |
+| *metric_A* | 您要指定為相依資料的量度。 |
+| *metric_B* | 您要指定為相依資料的量度。 |
 
 ## 二次迴歸：斜率 (表格)
 
@@ -578,8 +578,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 倒數迴歸：相關係數 (表格)
 
@@ -604,8 +604,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 倒數迴歸：預計 Y (列)
 
@@ -617,8 +617,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 倒數迴歸：斜率 (表格)
 
@@ -630,8 +630,8 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定為相依資料的量度。 |
+| *metric_Y* | 您要指定為獨立資料的量度。 |
 
 ## 正弦 (列)
 
