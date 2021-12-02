@@ -31,7 +31,7 @@ ht-degree: 100%
 - 1904 或更新版本的 Windows 10
 - 2106 或更新版本的 Excel
 
-   所有 Windows 桌面版 Excel 使用者必須安裝 Microsoft Edge Webview2，才能使用此增益集。若要安裝控制器:
+   所有 Windows 桌面版 Excel 使用者必須安裝 Microsoft Edge Webview2，才能使用此增益集。若要安裝控制器：
 
    1. 前往 <https://aka.ms/webview2installer>。
    1. 選取並下載 Evergreen Standalone Installer。

@@ -23,7 +23,7 @@ ht-degree: 100%
 - 使用行事曆、儲存格參照或日期數學，建立自訂日期
 - 使用熟悉的 Excel 格式化工具設計您的表格和視覺效果
 
-適用於 Customer Journey Analytics 的 Report Builder 可用於下列平台上的 Excel:
+適用於 Customer Journey Analytics 的 Report Builder 可用於下列平台上的 Excel：
 
 - macOS
 - Windows
@@ -33,6 +33,6 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->本文件用於適用於 Customer Journey Analytics 的 Report Builder。如需更多有關 Windows 上 Analytics 的 Report Builder 的資訊，請參閱[適用於 Adobe Analytics 的 Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=en)。
+>本文件用於適用於 Customer Journey Analytics 的 Report Builder。如需更多有關 Windows 上 Analytics 的 Report Builder 的資訊，請參閱[適用於 Adobe Analytics 的 Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=zh-Hant)。
 
 您可從 [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows) 下載適用於 Customer Journey Analytics 的 Report Builder。

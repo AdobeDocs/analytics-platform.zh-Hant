@@ -45,7 +45,7 @@ ht-degree: 100%
 | 如何將 [!UICONTROL Adobe Analytics] 資料帶入 [!UICONTROL Customer Journey Analytics]？ | 您可透過 [Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)，將 [!UICONTROL Adobe Analytics] 資料連結至 Experience Platform。大部分的 [!UICONTROL Adobe Analytics] 欄位都會以 XDM 格式帶入，但其他欄位則尚未開放使用。 |
 | 將資料集元素組合成資料檢視需要多久時間？ | 需要數小時以開始使用，並且需要數天的時間來回填過去 13 個月的資料。 |
 | 是否需要帶入 PII 資料來建立資料之間的連結？ | 否，您可以使用任何 ID，包括客戶 ID (非 PII) 的雜湊。 |
-| 擷取過去或未來的日期/時間戳記至 CJA 事件資料集的限制有哪些？ | <ul><li>在過去日期/時間戳記方面: 事件資料最久為 10 年。</li><li>在未來日期/時間戳記方面: 事件資料 (預測性) 最久為未來 1 個月。</li></ul> |
+| 擷取過去或未來的日期/時間戳記至 CJA 事件資料集的限制有哪些？ | <ul><li>在過去日期/時間戳記方面：事件資料最久為 10 年。</li><li>在未來日期/時間戳記方面：事件資料 (預測性) 最久為未來 1 個月。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 | 問題 | 回答 |
 | --- | --- |
-| [!UICONTROL Adobe Experience Platform] 上的 [!UICONTROL Customer Journey Analytics] 延遲時間預計會多久？ | <ul><li>即時資料或事件: 資料在 AEP 上可供使用時，在 90 分鐘內完成處理和擷取。</li><li>批次大小 > 5 千萬列: 90 分鐘以上</li><li>小型回填 - 例如，1 千萬列的查詢資料集: 24 小時以內<li>大型回填 - 例如，5 百億列: 30 天</li></ul> |
+| [!UICONTROL Adobe Experience Platform] 上的 [!UICONTROL Customer Journey Analytics] 延遲時間預計會多久？ | <ul><li>即時資料或事件：資料在 AEP 上可供使用時，在 90 分鐘內完成處理和擷取。</li><li>批次大小 > 5 千萬列：90 分鐘以上</li><li>小型回填 - 例如，1 千萬列的查詢資料集：24 小時以內<li>大型回填 - 例如，5 百億列：30 天</li></ul> |
 
 
 ## 5. 傳統 [!UICONTROL Adobe Analytics] 元件
