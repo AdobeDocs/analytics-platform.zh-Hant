@@ -3,9 +3,9 @@ description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 source-git-commit: 1250d9e39d055fbe9dee9a10d74dac3f3f7661bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 [!UICONTROL 欄設定]可供設定欄的格式，部分可設為條件式。
 
-在此處檢視列和欄設定的影片：
+在此檢視有關列和欄設定的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/40382/?quality=12)
 
@@ -58,9 +58,9 @@ Analysis Workspace 支援絕大多數量度的[歸因](/help/analysis-workspace/
 
    ![歸因核取方塊](assets/attribution-checkbox.png)
 
-1. 在&#x200B;**[!UICONTROL 資料設定]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 使用非預設歸因模型]**。如需不同歸因模型的詳細資訊，請參閱[歸因模型](/help/analysis-workspace/attribution/models.md)。
+1. 在&#x200B;**[!UICONTROL 資料設定]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 使用非預設歸因模式]**。如需不同歸因模式的詳細資訊，請參閱[歸因模式](/help/analysis-workspace/attribution/models.md)。
 
-   ![選取歸因模型](assets/attribution-select.png)
+   ![選取歸因模式](assets/attribution-select.png)
 
 >[!MORELIKETHIS]
 >
