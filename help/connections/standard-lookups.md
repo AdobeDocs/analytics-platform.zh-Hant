@@ -3,14 +3,17 @@ title: 將標準查詢新增至資料集
 description: 在Customer Journey Analytics中使用標準查詢功能，以實用維度來增強報表。
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
-source-git-commit: 6c5fb7b3964cbf2bb5158733a2ede9b54f9415a5
+source-git-commit: 067502a0d69bd0b085ecb5e6cbd3ae062f33daef
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 31%
+source-wordcount: '357'
+ht-degree: 28%
 
 ---
 
 # 將標準查詢新增至資料集
+
+>[!IMPORTANT]
+>標準查閱僅適用於CJA中的Analytics Data Connector資料來源。 只有在使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 或Experience Platform資料收集API。
 
 標準查閱(也稱為Adobe提供的查閱)可增強Customer Journey Analytics報告某些維度/屬性的能力，這些維度/屬性本身並不實用，但與其他資料結合時非常有用。 像是結合行動裝置和作業系統的屬性以及瀏覽器維度 (例如瀏覽器版本編號)，便是很實用的應用方式。「標準查詢」類似於查詢資料集。 標準查閱適用於所有Experience Cloud組織。 內含特定 XDM 結構描述欄位的所有事件資料集都會自動套用全域查詢 (請參閱底下的特定欄位說明)。 Adobe所分類的每個結構位置皆有標準查詢資料集。
 

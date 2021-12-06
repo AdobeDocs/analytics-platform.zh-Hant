@@ -3,10 +3,10 @@ title: Customer Journey Analytics 總覽
 description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
-source-git-commit: 69ded6c9d08981810f6d9edef273cad95cb2c367
+source-git-commit: 3389515bd18903eda14af1670ff7d1ab080c9db2
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -61,12 +61,11 @@ Customer Journey Analytics 可用來：
    * 建立/更新/刪除連線或資料檢視
    * 更新/刪除其他使用者建立的專案、篩選器、計算量度或篩選
    * 與所有使用者共用 Workspace 專案
-* 光是在Customer Journey Analytics內成為產品管理員是不夠的，無法建立、更新或刪除連線。 若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
+* 光有 Customer Journey Analytics 的產品管理員權限，仍無法建立、更新或刪除連線。若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
    * 檢視結構
    * 管理結構
+   * 檢視身分識別命名空間
    * 檢視資料集
-   * 管理資料集
-   * 管理來源
 
 如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://www.adobe.io/apis/experienceplatform/home/permissions-and-sandboxes/permissions-and-sandboxes.html#!api-specification/markdown/narrative/technical_overview/access-control/access-control-overview.md)。
 
