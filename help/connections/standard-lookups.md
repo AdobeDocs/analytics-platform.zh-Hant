@@ -1,29 +1,29 @@
 ---
 title: 將標準查詢新增至資料集
-description: 在Customer Journey Analytics中使用標準查詢功能，以實用維度來增強報表。
+description: 在 Customer Journey Analytics 中使用標準查詢功能，透過實用維度來增強報表。
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
-source-git-commit: 067502a0d69bd0b085ecb5e6cbd3ae062f33daef
+source-git-commit: 4e31b02815e32695d97eab0f563c71725bc79c11
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 28%
+source-wordcount: '360'
+ht-degree: 88%
 
 ---
 
 # 將標準查詢新增至資料集
 
 >[!IMPORTANT]
->標準查閱僅適用於CJA中的Analytics Data Connector資料來源。 只有在使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 或Experience Platform資料收集API。
+>標準查閱僅適用於CJA中的Analytics Data Connector資料來源。 您只能將其用於標準Adobe Analytics實作，或 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)，或Experience Platform資料收集API。
 
-標準查閱(也稱為Adobe提供的查閱)可增強Customer Journey Analytics報告某些維度/屬性的能力，這些維度/屬性本身並不實用，但與其他資料結合時非常有用。 像是結合行動裝置和作業系統的屬性以及瀏覽器維度 (例如瀏覽器版本編號)，便是很實用的應用方式。「標準查詢」類似於查詢資料集。 標準查閱適用於所有Experience Cloud組織。 內含特定 XDM 結構描述欄位的所有事件資料集都會自動套用全域查詢 (請參閱底下的特定欄位說明)。 Adobe所分類的每個結構位置皆有標準查詢資料集。
+標準查詢 (也稱為 Adobe 提供的查詢) 可增強 Customer Journey Analytics 針對部分維度/屬性建立報表的能力，這些維度/屬性本身雖不實用，但與其他資料結合後效用甚大； 像是結合行動裝置和作業系統的屬性以及瀏覽器維度 (例如瀏覽器版本編號)，便是很實用的應用方式。「標準查詢」類似於查詢資料集。 標準查詢適用於採用 Experience Cloud 的所有組織。 內含特定 XDM 結構描述欄位的所有事件資料集都會自動套用全域查詢 (請參閱底下的特定欄位說明)。 Adobe 正在分類的每個結構描述位置會有標準查詢資料集存在。
 
-在傳統 Adobe Analytics 中，這些維度會自行顯示，但在 CJA 中，您必須在建立資料檢視時主動納入這些維度。 在「連線」工作流程中，您可以選取以標籤鍵進行標準查詢的資料集。 資料檢視UI會自動知道納入所有可用於報表的標準查閱維度。 所有區域和帳戶的查詢檔案都會自動保持在最新狀態。這些檔案會儲存在與客戶相關聯區域的組織中。
+在傳統 Adobe Analytics 中，這些維度會自行顯示，但在 CJA 中，您必須在建立資料檢視時主動納入這些維度。 在連線工作流程中，您會選取被標記為有包含標準查詢索引鍵的資料集。 資料檢視 UI 自動知道要納入可用於報告的所有標準查詢維度。 所有區域和帳戶的查詢檔案都會自動保持在最新狀態。這些檔案會儲存在與客戶相關聯區域的組織中。
 
-## 搭配AdobeData Connector資料集使用標準查詢
+## 搭配使用標準查詢與 Adobe Data Connector 資料集
 
-報表時間會自動套用標準查詢資料集。 如果您使用Analytics Data Connector，並加入Adobe提供標準查閱的維度，系統就會自動套用此標準查閱。 如果事件資料集包含XDM欄位，系統就能為資料集套用標準查詢。
+標準查詢資料集會在報表時間自動套用。 如果您使用 Analytics 資料連接器，並引進 Adobe 為其提供標準查詢的維度，我們就會自動套用此標準查詢。 如果事件資料集包含 XDM 欄位，我們就能為該資料集套用標準查詢。
 
-### 可用的標準查閱欄位
+### 可用的標準查詢欄位
 
 * `browser`
    * `browser`, `group_id`, `id`
@@ -56,12 +56,12 @@ ht-degree: 28%
 * `mobile_screen_width`
 * `mobile_video_support - multi`
 
-## 標準查閱維度報表
+## 標準查詢維度報表
 
-若要針對標準查閱維度製作報表，您必須在Customer Journey Analytics中建立資料檢視時新增這些維度：
+若要使用標準查詢維度來建立報表，請在 Customer Journey Analytics 中建立資料檢視時將其加入：
 
 ![](assets/global-lookup.png)
 
-接著，您就能在 Analysis Workspace 中看見查詢資料：
+您能在 Analysis Workspace 中看見查詢資料：
 
 ![](assets/gl-reporting.png)
