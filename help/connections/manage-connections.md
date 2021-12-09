@@ -1,13 +1,13 @@
 ---
-title: 如何在Customer Journey Analytics中管理連線
+title: 如何在 Customer Journey Analytics 中管理連線
 description: 說明如何在 Customer Journey Analytics (CJA) 中管理與 Experience Platform 資料集的連線。
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1948'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 81%
 
 ![](assets/conn-manager.png)
 
-### 連接管理器設定
+### 連線管理員設定
 
 | 設定 | 說明 |
 | --- | --- |
@@ -90,7 +90,7 @@ ht-degree: 81%
 
 ![](assets/conn-details.png)
 
-### 連接詳細資訊設定
+### 連線詳情設定
 
 | Widget/設定 | 說明 |
 | --- | --- |
@@ -99,7 +99,7 @@ ht-degree: 81%
 | [!UICONTROL 可用的事件資料記錄]  Widget | 代表在&#x200B;**整個連線**&#x200B;中可用來報告的總事件資料集列數。 此計數與任何行事曆設定皆無關。 如果您從資料集選擇器選取資料集，或是選取表格中的資料集，此計數就會改變。 (請注意，在新增資料後，可能要等候 1-2 個小時，資料才會出現在報告中。) |
 | [!UICONTROL 量度] Widget | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;彙總已新增/略過/刪除的事件記錄，以及已新增的批次數量。 |
 | [!UICONTROL 新增的記錄] Widget | 指出在選取的時段內，針對您選取的資料集和日期範圍&#x200B;**新增了多少列。**&#x200B;每 10 分鐘更新一次。**注意**：**[!UICONTROL 新增的記錄]**&#x200B;資料此時僅包括事件資料，不包括設定檔或查詢資料。 |
-| [!UICONTROL 略過的記錄] Widget | 針對您選取的資料集和日期範圍&#x200B;**，指出在選取的時段內已略過多少列。**&#x200B;略過記錄的原因包括：遺失時間戳記、遺失或無效的人員ID等。 每 10 分鐘更新一次。<p>人員ID無效(例如「未定義」、「00000000」，或 [!UICONTROL 人員ID] 在指定月份中出現超過100萬次的事件)無法歸因於任何特定使用者或人員。 無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員ID，您有3個選項：<ul><li>使用 [跨管道分析](/help/connections/cca/overview.md) 用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間也會略過這些ID（偏好使用無效或完全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者ID。</li></ul><p>**注意**：**[!UICONTROL 略過的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
+| [!UICONTROL 略過的記錄] Widget | 針對您選取的資料集和日期範圍&#x200B;**，指出在選取的時段內已略過多少列。**&#x200B;略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人 ID 等。 每 10 分鐘更新一次。<p>人員 ID 無效 (例如「未定義」、「00000000」，或[!UICONTROL 人員 ID] 在指定月份中出現超過 100 萬次的事件) 無法歸因於任何特定使用者或人員。無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用[跨管道分析](/help/connections/cca/overview.md)，以有效的使用者 ID 填入未定義或全零的使用者 ID。</li><li>將使用者 ID 留空，在擷取期間也會略過這些 ID (偏好使用無效或完全零的使用者 ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul><p>**注意**：**[!UICONTROL 略過的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
 | [!UICONTROL 刪除的記錄] Widget | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;指示在所選的時段內刪除了多少列。 例如，可能有人已刪除 Experience Platform 中的資料集。 每 10 分鐘更新一次。**注意**：**[!UICONTROL 刪除的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
 | 資料集搜尋方塊 | 您可以依據資料集名稱或[!UICONTROL 資料集 ID] 來進行搜尋。 |
 | [!UICONTROL 資料集] | 顯示屬於連線之一部分的資料集。 您可以按一下超連結來檢視連線中的所有資料集。 |
@@ -115,31 +115,31 @@ ht-degree: 81%
 | --- | --- |
 | [!UICONTROL 重新整理] | 重新整理連線，以反映最近新增的記錄。 |
 | [!UICONTROL 刪除] | 刪除此連線。 |
-| [!UICONTROL 建立資料檢視] | 根據此連線建立新的資料檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=en) |
+| [!UICONTROL 建立資料檢視] | 根據此連線建立新的資料檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant) |
 | [!UICONTROL 連線名稱] | 顯示連線的易記名稱。 |
 | [!UICONTROL 連線說明] | 顯示更詳細的說明，在理想情況下可描述此連線的用途。 |
-| [!UICONTROL 沙箱] | 此連線從中提取其資料集的 [Adobe Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)。當您初次建立連線時會選取這個沙箱。 此沙箱無法變更。 |
+| [!UICONTROL 沙箱] | 此連線從中提取其資料集的 [Adobe Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。當您初次建立連線時會選取這個沙箱。 此沙箱無法變更。 |
 | [!UICONTROL 連線 ID] | 系統會在 Adobe Experience Platform 中產生這個 ID。 |
 | [!UICONTROL 使用連線的資料檢視] | 列出所有使用此連線的資料檢視。 |
 | [!UICONTROL 匯入新資料] | (開啟/關閉) 指示是否應該將新的資料批次新增到歷史 (回填) 資料。 |
 | [!UICONTROL 回填資料] | 追蹤 3 種狀態下的回填 (歷史) 資料：[!UICONTROL 佇列中]、[!UICONTROL 處理中] (有指示進度百分比) 及[!UICONTROL 完成]。 |
-| [!UICONTROL 建立者] | 顯示建立連線的人員的名稱。 |
+| [!UICONTROL 建立者] | 顯示建立連線的使用者名稱。 |
 | [!UICONTROL 上次修改日期] | 顯示上次變更連線的日期和時間。 |
-| [!UICONTROL 上次修改者] | 顯示上次修改連接的人員。 |
+| [!UICONTROL 上次修改者] | 顯示上次修改連線的使用者。 |
 
-### 資料集層級的右側邊欄設定
+### 資料集層級的右側欄設定
 
 | 設定 | 說明 |
 | --- | --- |
 | [!UICONTROL 人員 ID] | 顯示在 Experience Platform 的最新結構描述中所定義的身分識別。 這是您在建立連線時所選擇的使用者 ID。 如果您建立的連線包含有不同 ID 的資料集，則報告將會反映這個情況。 如果真的要合併資料集，您需要在不同資料集中使用相同的使用者 ID。  |
 | [!UICONTROL 可用記錄] | 代表在透過行事曆選取的特定時段中，為此資料集擷取的總列數。 在新增資料後，資料會立即出現在報告中，不需要等候。 (一個例外情況是當您建立全新連線時，將會發生[延遲](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#3.-getting-data-into-customer-journey-analytics))。 |
-| [!UICONTROL 新增的記錄] | 指出在選取的時段內新增了多少列。 **注意**：**[!UICONTROL 新增的記錄]**&#x200B;資料此時僅包括事件資料，不包括設定檔或查詢資料。 |
-| [!UICONTROL 刪除的記錄] | 指示在所選時段內刪除了多少記錄。 **注意**：**[!UICONTROL 刪除的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
-| [!UICONTROL 批次已新增] | 指出有多少個資料批次新增至此資料集。 |
-| [!UICONTROL 略過的記錄] | 指出在選取的時段內擷取期間已略過多少列。<p>略過記錄的原因包括：遺失時間戳記、遺失或無效的人員ID等。 每 10 分鐘更新一次。<p>人員ID無效(例如「未定義」、「00000000」，或 [!UICONTROL 人員ID] 在指定月份中出現超過100萬次的事件)無法歸因於任何特定使用者或人員。 無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員ID，您有3個選項：<ul><li>使用 [跨管道分析](/help/connections/cca/overview.md) 用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間也會略過這些ID（偏好使用無效或完全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者ID。</li></ul><p>**注意**：**[!UICONTROL 略過的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
-| [!UICONTROL 上次新增時間] | 指示上次添加批的時間。 |
-| [!UICONTROL 資料集類型] | 可能是[!UICONTROL 事件]、[!UICONTROL 查詢]或[!UICONTROL 描述檔]。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#configure-dataset) |
-| [!UICONTROL 結構描述] | 顯示此資料集所根據的Adobe Experience Platform結構。 |
+| [!UICONTROL 新增的記錄] | 表示在選取的時段內新增了多少列。 **注意**：**[!UICONTROL 新增的記錄]**&#x200B;資料此時僅包括事件資料，不包括設定檔或查詢資料。 |
+| [!UICONTROL 刪除的記錄] | 表示在選取的時段內刪除了多少記錄。 **注意**：**[!UICONTROL 刪除的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
+| [!UICONTROL 批次已新增] | 表示已將多少資料批次新增到這個資料集內。 |
+| [!UICONTROL 略過的記錄] | 表示在選取的時段內擷取資料時，略過了多少列。<p>略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人 ID 等。 每 10 分鐘更新一次。<p>人員 ID 無效 (例如「未定義」、「00000000」，或[!UICONTROL 人員 ID] 在指定月份中出現超過 100 萬次的事件) 無法歸因於任何特定使用者或人員。 無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用[跨管道分析](/help/connections/cca/overview.md)，以有效的使用者 ID 填入未定義或全零的使用者 ID。</li><li>將使用者 ID 留空，在擷取期間也會略過這些 ID (偏好使用無效或完全零的使用者 ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul><p>**注意**：**[!UICONTROL 略過的記錄]**&#x200B;此時僅包括事件資料，不包括設定檔或查詢資料。 |
+| [!UICONTROL 上次新增時間] | 表示上次新增批次的時間。 |
+| [!UICONTROL 資料集類型] | 可能是[!UICONTROL 事件]、[!UICONTROL 查詢]或[!UICONTROL 描述檔]。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant#configure-dataset) |
+| [!UICONTROL 結構描述] | 顯示此資料集所根據的 Adobe Experience Platform 結構描述。 |
 | [!UICONTROL 資料集 ID] | 系統會在 Adobe Experience Platform 中產生這個 ID。 |
 
 ## 編輯連線
