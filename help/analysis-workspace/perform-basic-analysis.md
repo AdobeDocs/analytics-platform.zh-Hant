@@ -4,9 +4,9 @@ description: 說明如何在 Customer Journey Analytics 中使用基本視覺效
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 85%
 
 * 建立線上與店內收入的趨勢報表，比較兩個資料來源隨時間的變化。
 
-* 依資料來源描繪對象大小，例如廣告曝光資料、Customer Journey Analytics資料、電子郵件資料、POS資料、客服中心資料和調查資料。
+* 依資料來源描繪對象大小，例如廣告曝光資料、Customer Journey Analytics 資料、電子郵件資料、POS 資料、客服中心資料和調查資料。
 
 ![](assets/cja-basic-analysis.png)
 
