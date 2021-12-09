@@ -3,9 +3,9 @@ description: 面板是表格與視覺效果的集合。
 title: 面板概觀
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 source-git-commit: f6e7c2f5d83a29b498a7c3dbed64f2d2ea5c0b27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 ## 面板類型
 
-下列面板類型適用於Analysis Workspace [!UICONTROL Customer Journey Analytics]:
+[!UICONTROL Customer Journey Analytics] 的 Analysis Workspace 中有以下面板類型：
 
 | 面板名稱 | 說明 |
 | --- | --- |
