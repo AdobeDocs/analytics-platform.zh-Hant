@@ -3,9 +3,9 @@ title: 篩選運算子
 description: 決定元件如何與篩選器中的值互動。
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 source-git-commit: 87da431752c235c442d13fd185c7ab8f6cf20eba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 86%
 | 等於 | 傳回完全符合數值或字串值的項目。如果使用萬用字元，請改用「符合」運算子。 |
 | 不等於 | 傳回所有不含輸入值的項目。如果使用萬用字元，請改用「不符合」運算子。 |
 | 包含 | 傳回含有輸入值字串的項目。 例如，如果字串維度的規則包含 `"Search"`，則會比對裡面有子字串 `"Search"` 的頁面，包括 `"Search Results"`、`"Search"` 和 `"Searching"`。 此運算子區分大小寫。 |
-| 不包含 | 與輸入值匹配的所有項目將從結果中排除。 例如，如果字串維度的規則不包含 `"Search"`，則排除任何裡面有子字串 `"Search"` 的頁面，包括 `"Search Results"`、`"Search"` 和 `"Searching"`。  |
-| 包含全部 | 傳回以任何順序包含所有子字串（以空格分隔）的項目。 例如，使用此運算子輸入 `"Search Results"` 將比對 `"Search Results"` 和 `"Results of Search"`，但不會單獨比對 `"Search"` 或 `"Results"`。此運算子支援最多達 100 個以空格分隔的單字。 |
-| 不包含任何 | 與每個輸入值相符的所有項目都會從結果中排除。 例如，使用此運算子輸入 `"Search Results"` 將會排除 `"Search Results"` 和 `"Results of Search"`，但不會排除 `"Search"` 或 `"Results"`。此運算子支援最多達 100 個以空格分隔的單字。 |
-| 包含任何 | 傳回包含任何指定子字串的項目。 例如，使用此運算子輸入 `"Search Results"` 將比對 `"Search Results"`、`"Results of Search"`、`"Search"` 和 `"Results"`。此運算子支援最多達 100 個以空格分隔的單字。 |
-| 不包含任何 | 符合任何子字串的所有項目都會從結果中排除。 例如，使用此運算子輸入 `"Search Results"` 將排除 `"Search Results"`、`"Results of Search"`、`"Search"` 和 `"Results"`。此運算子支援最多達 100 個以空格分隔的單字。 |
+| 不包含 | 從結果中排除和輸入值相符的所有項目。 例如，如果字串維度的規則不包含 `"Search"`，則排除任何裡面有子字串 `"Search"` 的頁面，包括 `"Search Results"`、`"Search"` 和 `"Searching"`。 |
+| 包含全部 | 傳回包含任何順序的子字串 (以空格分隔) 的項目。 例如，使用此運算子輸入 `"Search Results"` 將比對 `"Search Results"` 和 `"Results of Search"`，但不會單獨比對 `"Search"` 或 `"Results"`。 此運算子支援最多達 100 個以空格分隔的單字。 |
+| 不包含所有 | 從結果中排除和每個輸入值相符的所有項目。 例如，使用此運算子輸入 `"Search Results"` 將會排除 `"Search Results"` 和 `"Results of Search"`，但不會排除 `"Search"` 或 `"Results"`。 此運算子支援最多達 100 個以空格分隔的單字。 |
+| 包含任何 | 傳回包含任何指定子字串的項目。 例如，使用此運算子輸入 `"Search Results"` 將比對 `"Search Results"`、`"Results of Search"`、`"Search"` 和 `"Results"`。 此運算子支援最多達 100 個以空格分隔的單字。 |
+| 不包含任何 | 從結果中排除和任何子字串相符的所有項目。 例如，使用此運算子輸入 `"Search Results"` 將排除 `"Search Results"`、`"Results of Search"`、`"Search"` 和 `"Results"`。 此運算子支援最多達 100 個以空格分隔的單字。 |
 | 開始於 | 傳回以輸入值的字元或字串開頭的項目。 |
-| 不開始於 | 傳回未以輸入值的字元或字串開頭的項目。 |
+| 不開始於 | 傳回未以輸入值的字元或字串開頭的所有項目。 |
 | 終止於 | 傳回以輸入值的字元或字串結尾的項目。 |
-| 不終止於 | 傳回未以輸入值的字元或字串結尾的項目。 |
+| 不終止於 | 傳回未以輸入值的字元或字串結尾的所有項目。 |
 | matches | 根據給定的數值或字串值，傳回完全符合的項目。使用星號 (`*`) 支援萬用字元。 此運算子區分大小寫。例如：<ul><li>`a*e` 會比對 `ae`、`abcde`、`adobe` 和 `a whole sentence`。</li><li>`adob*` 會比對 `adobe`、`adobe analytics` 和 `adobo recipe`</li><li>`*dobe` 會比對 `dobe`、`adobe` 和 `cute little dobe`。</li></ul> |
-| 不符合 | 會排除符合字串的所有項目。 使用星號 (`*`) 支援萬用字元。  |
-| 存在 | 如果值非null，則傳回項目。 |
-| 不存在 | 如果值為null，則傳回項目。 |
+| 不符合 | 排除和字串相符的所有項目。 支援使用星號 (`*`) 的萬用字元。 |
+| 存在 | 若該值並非空值，則傳回項目。 |
+| 不存在 | 若該值為空值，則傳回項目。 |
 
 ## Distinct Count 運算子
 
