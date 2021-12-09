@@ -3,7 +3,7 @@ title: Journey IQ
 description: 了解在 Adobe Analytics 中組成 Journey IQ 功能集的各項功能。
 solution: Customer Journey Analytics
 source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
 ht-degree: 100%
 
