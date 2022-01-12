@@ -3,9 +3,9 @@ title: 持續性元件設定
 description: 決定是否會在不同事件中儲存維度值或是如何儲存。
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
-source-git-commit: 4d45314ae77ee1ca78bbd44b0aa08add0f7030cc
+source-git-commit: 3b00b8fe5dd4687bb8022d8e6e5e98ad2d535866
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '753'
 ht-degree: 78%
 
 ---
@@ -66,10 +66,10 @@ ht-degree: 78%
 
 此下拉式清單可讓您將維度值的持續性系結至另一個維度中的維度值。 有效的下拉式清單選項包括資料檢視中包含的其他維度。
 
-此設定通常用於物件陣列，且最常用於測量產品尋找方法、內部搜尋結果、內部促銷的曝光次數，或內容或產品建議等。 在舊版Adobe Analytics中，此概念稱為轉換語法銷售。
+此設定通常用於物件陣列，且最常用於測量產品尋找方法、內部搜尋結果、內部促銷的曝光次數，或內容或產品建議等。 在舊版Adobe Analytics中，此概念與轉換語法銷售類似。
 
 ## [!UICONTROL 繫結量度]
 
 下拉式清單可讓您選擇作為捆綁觸發的量度。 有效的下拉式清單選項包含資料檢視中包含的量度。
 
-只有當「綁定」Dimension在對象陣列中低於元件時，才會顯示此設定。 當系結量度出現在事件中時，維度值會從事件層級維度複製到系結維度的較低架構層級。 在舊版Adobe Analytics中，類似但較有限的概念稱為產品語法銷售。
+只有當「綁定」Dimension在對象陣列中低於元件時，才會顯示此設定。 當系結量度出現在事件中時，維度值會從事件層級維度複製到系結維度的較低架構層級。 在舊版Adobe Analytics中，類似但較受限的概念稱為產品語法銷售。
