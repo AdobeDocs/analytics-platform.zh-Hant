@@ -3,10 +3,10 @@ title: 持續性元件設定
 description: 決定是否會在不同事件中儲存維度值或是如何儲存。
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
-source-git-commit: 3b00b8fe5dd4687bb8022d8e6e5e98ad2d535866
+source-git-commit: 25557196c9841489e2732dece2c3402ebaf6224e
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 78%
+source-wordcount: '837'
+ht-degree: 74%
 
 ---
 
@@ -52,6 +52,15 @@ ht-degree: 78%
    | --- | --- | --- | --- | --- | --- |
    | 資料集的值 | A | B | C |  | A |
    | 全部配置 | A | A、B | A、B、C | A、B、C | A、B、C |
+
+* **[!UICONTROL 第一個已知]** 和 **[!UICONTROL 上次已知]**:（2022年1月19日）這兩個配置模型符合「登入」和「退出」維度使用案例。 它們會擷取指定持續性範圍（工作階段、人員或具有回顧的自訂時段）內維度的第一個或最後一個觀察到的值，並套用至指定範圍內的所有事件。 範例：
+
+| 維度 | 點擊 1 | 點擊 2 | 點擊 3 | 點擊 4 | 點擊 5 |
+| --- | --- | --- | --- | --- | --- |
+| 時間戳記（分鐘） | 1 | 2 | 3 | 6 | 7 |
+| 原始值 |  | C | B |  | A |
+| 最先已知 | C | C | C | C | C |
+| 最後已知 | A | A | A | A | A |
 
 ## [!UICONTROL 到期]設定
 
