@@ -3,10 +3,10 @@ title: 建立或編輯資料檢視
 description: 您可調整以建立或編輯資料檢視的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+source-git-commit: 5a1a1842532001ca0d53d5d7562272fe1651b870
+workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -84,21 +84,23 @@ ht-degree: 100%
    * [[!UICONTROL 持續性]](component-settings/persistence.md)
    * [[!UICONTROL 值分組]](component-settings/value-bucketing.md)
 
-如果需要，您可以使用以下功能：
+## 重複的量度或維度
 
-* **[!UICONTROL 複製]**：複製量度或維度然後修改特定的設定是從單一結構描述欄位建立多個量度或維度的簡易方式。 選取右上方的量度或維度名稱底下的「[!UICONTROL 複製]」設定。 修改新的量度或維度，並使用更具說明性的名稱來儲存它。
+複製量度或維度然後修改特定的設定是從單一結構描述欄位建立多個量度或維度的簡易方式。 選取右上方的量度或維度名稱底下的「[!UICONTROL 複製]」設定。 修改新的量度或維度，並使用更具說明性的名稱來儲存它。
 
-   ![複製](assets/duplicate.png)
+![複製](assets/duplicate.png)
 
-* **[!UICONTROL 篩選]**：您可以依下列資料類型篩選左側邊欄中的結構欄位：
+## 篩選結構欄位或資料集
 
-   ![篩選欄位](assets/filter-fields.png)
+您可以依下列資料類型篩選左側邊欄中的結構欄位：
 
-   您也可以依資料集以及結構欄位是否包含資料或是否為身分來篩選。依預設，Adobe 一開始會將&#x200B;**[!UICONTROL 包含資料]**&#x200B;篩選套用至所有資料檢視。
+![篩選欄位](assets/filter-fields.png)
 
-   ![篩選其他](assets/filter-other.png)
+您也可以依資料集以及結構欄位是否包含資料或是否為身分來篩選。依預設，Adobe 一開始會將&#x200B;**[!UICONTROL 包含資料]**&#x200B;篩選套用至所有資料檢視。
 
-## 設定
+![篩選其他](assets/filter-other.png)
+
+## 設定 標籤
 
 1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 並移至「**[!UICONTROL 資料檢視]**」標籤。
 1. 按一下「**[!UICONTROL 新增]**」以建立資料檢視，或按一下現有資料檢視來進行編輯。
