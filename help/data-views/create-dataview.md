@@ -3,10 +3,10 @@ title: 建立或編輯資料檢視
 description: 您可調整以建立或編輯資料檢視的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
-source-git-commit: 5a1a1842532001ca0d53d5d7562272fe1651b870
+source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 99%
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ![新資料檢視](assets/new-data-view.png)
 
-### 設定
+### 資料檢視設定
 
 為資料檢視提供總體設定。
 
@@ -29,7 +29,7 @@ ht-degree: 99%
 | --- | --- |
 | [!UICONTROL 連線] | 此欄位會將資料檢視連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
 | [!UICONTROL 名稱] | 必填。資料檢視的名稱。此值顯示在 Analysis Workspace 的右上角下拉式清單中。 |
-| [!UICONTROL 說明] | 選填。Adobe 會推薦詳細說明，讓用戶了解資料檢視存在的原因以及它的設計對象。 |
+| [!UICONTROL 說明] | 選填。Adobe建議您提供詳細說明，讓使用者了解資料檢視為何存在，以及其設計目的為何。 |
 
 ### 容器
 
