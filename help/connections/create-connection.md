@@ -3,10 +3,10 @@ title: 建立連線
 description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+source-git-commit: 83aa9b785a7b75046526d80c941a452396ea4d04
+workflow-type: tm+mt
 source-wordcount: '1980'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 
 | 選項 | 「身分對應」中沒有 ID | 沒有 ID 標示為主要 | 多個 ID 標示為主要 | 單一 ID 標示為主要 | 標示為主要的 ID 具有無效的命名空間 |
 |---|---|---|---|---|---|
-| **已勾選「使用主要 ID 命名空間」** | CJA 會捨棄該列。 | 未指定主要 ID，CJA 會捨棄該列。 | 系統會擷取所有命名空間下標示為主要的 ID，彙整成清單，並依字母排序；重新排序後，系統會將第一個命名空間的第一個 ID 視為人員 ID。 | 以標示為主要的單一 ID 作為人員 ID。 | 即使命名空間可能無效 (不在 AEP 中)，CJA 仍會以該命名空間下的主要 ID 作為人員 ID。 |
+| **[!UICONTROL 使用主ID命名空間] 已檢查** | CJA 會捨棄該列。 | 未指定主要 ID，CJA 會捨棄該列。 | 系統會擷取所有命名空間下標示為主要的 ID，彙整成清單，並依字母排序；重新排序後，系統會將第一個命名空間的第一個 ID 視為人員 ID。 | 以標示為主要的單一 ID 作為人員 ID。 | 即使命名空間可能無效 (不在 AEP 中)，CJA 仍會以該命名空間下的主要 ID 作為人員 ID。 |
 | **已選取特定「身分對應」命名空間** | CJA 會捨棄該列。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。(建立連線時只能選取有效的命名空間，因此不可能使用無效的命名空間/ID 作為人員 ID)。 |
 
 ## 啟用連線
@@ -141,9 +141,13 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 
 連線中的每個資料集都必須完成這項計算。
 
-1. 前往 [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)，並建立新查詢。
+1. 前往 [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)，並建立新查詢。
 
-1. 查詢如下所示：<br>`Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;`
+1. 查詢如下所示：
+
+   ```
+   Select AVG(A.total_events) from (Select DISTINCT COUNT (*) as total_events, date(TIMESTAMP) from analytics_demo_data GROUP BY 2 Having total_events>0) A;
+   ```
 
 * 此範例中，「analytics_demo_data」是資料集名稱。
 * 執行 `Show Tables` 查詢即可顯示 AEP 中的所有資料集。
