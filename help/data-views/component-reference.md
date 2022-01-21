@@ -3,10 +3,10 @@ title: 標準元件參考
 description: 您可以新增到任何資料檢視的所有標準元件的詳細資料和資訊。
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
-source-git-commit: b4d2c564f9fc477212306dc022b4afc5ab92db97
+source-git-commit: 9d08d5c80c8d31ffeca4f829798d0fd1700b0cc8
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 92%
+source-wordcount: '774'
+ht-degree: 86%
 
 ---
 
@@ -41,21 +41,21 @@ CJA 中的大多數維度和量度都根據 Adobe Experience Platform 資料集�
 
 | 元件名稱 | 維度或量度 | 附註 和值 |
 | --- | --- | --- |
-| [!UICONTROL 上午/下午] | 時間分段維度 | 上午或下午 |
+| [!UICONTROL 上午/下午] | 時間分型尺寸 | 上午或下午 |
 | [!UICONTROL 批次 ID]  | 維度 | 表示「[!UICONTROL 事件]」所屬的 Experience Platform 批次。 |
 | [!UICONTROL 資料集 ID] | 維度 | 表示「[!UICONTROL 事件]」所屬的 Experience Platform 資料集。 |
-| [!UICONTROL 日期] | 時間分段維度 | 1-31 |
-| [!UICONTROL 星期] | 時間分段維度 | 星期一、星期二、星期三、星期四、星期五、星期六、星期日 |
-| [!UICONTROL 一年當中的第幾天] | 時間分段維度 | 1-366 |
-| [!UICONTROL 小時] | 時間分段維度 | 0-23 |
-| [!UICONTROL  月份] | 時間分段維度 | 1月 — 12月 |
-| [!UICONTROL 人員 ID] | 維度 | 在 Experience Platform 中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。其中任何一個都可當作人員 ID 使用。範例包括 Cookie ID、彙整 ID、使用者 ID、追蹤代碼等。此 [!UICONTROL 人員ID] 維度是合併資料集並識別CJA中不重複訪客的基礎。 |
-| [!UICONTROL 人員ID命名空間] | 維度 | 哪個ID類型 [!UICONTROL 人員ID] 包含。 範例： `email address`, `cookie ID`, `Analytics ID`、等 |
-| [!UICONTROL 季別] | 時間分段維度 | 第 1 季、第 2 季、第 3 季、第 4 季 |
+| [!UICONTROL 日期] | 時間分型尺寸 | 1-31 |
+| [!UICONTROL 星期] | 時間分型尺寸 | 星期一、星期二、星期三、星期四、星期五、星期六、星期日 |
+| [!UICONTROL 一年當中的第幾天] | 時間分型尺寸 | 1-366 |
+| [!UICONTROL 小時] | 時間分型尺寸 | 0-23 |
+| [!UICONTROL  月份] | 時間分型尺寸 | 1月 — 12月 |
+| [!UICONTROL 人員 ID] | 維度 | 在 Experience Platform 中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。其中任何一個都可當作人員 ID 使用。範例包括 Cookie ID、彙整 ID、使用者 ID、追蹤代碼等。的 [!UICONTROL 人員ID] 維是CJA中資料集合和唯一訪問者識別的基礎。<p>可能的使用案例包括：<ul><li>在特定人員ID值上建立篩選器，以將所有內容篩選到該用戶的行為。</li><li>調試：確保特定Cookie ID（或特定客戶ID）的資料存在。</li><li>標識呼叫中心的用戶。</li></ul> |
+| [!UICONTROL 人員ID命名空間] | 維度 | ID的類型 [!UICONTROL 人員ID] 包含。 示例： `email address`。 `cookie ID`。 `Analytics ID`的子菜單。 |
+| [!UICONTROL 季別] | 時間分型尺寸 | 第 1 季、第 2 季、第 3 季、第 4 季 |
 | [!UICONTROL 工作階段開始] | 量度 | 工作階段中第一個事件的事件數。當用於篩選定義時 (例如「[!UICONTROL 工作階段開始]存在」)，它只篩選到每個工作階段的第一個事件。 |
 | [!UICONTROL 工作階段結束] | 量度 | 工作階段中最後一個事件的事件數。與[!UICONTROL 「工作階段開始」]類似，它也可用於篩選定義中，以篩選至每個工作階段的最後一個事件。 |
 | [!UICONTROL 逗留時間 (秒)] | 量度 | 為維度加總兩個不同值之間的時間。 |
 | [!UICONTROL 每個事件逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 事件]」值區。 |
 | [!UICONTROL 每個工作階段逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 工作階段]」值區。 |
 | [!UICONTROL 每人逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 人員]」值區。 |
-| [!UICONTROL 週末]/[!UICONTROL 工作日] | 時間分段維度 | 週末或平日 |
+| [!UICONTROL 週末]/[!UICONTROL 工作日] | 時間分型尺寸 | 週末或工作日 |
