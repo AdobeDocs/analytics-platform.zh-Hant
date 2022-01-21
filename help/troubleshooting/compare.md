@@ -1,55 +1,55 @@
 ---
-title: 比較AA資料與CJA資料
-description: 了解如何比較Adobe Analytics資料與Customer Journey Analytics中的資料
+title: 將您的 AA 資料與 CJA 資料進行比較
+description: 了解如何將您的 Adobe Analytics 資料與 Customer Journey Analytics 中的資料進行比較
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 source-git-commit: d970539d19fad6f274245dcc7bac6b3f13e7b7a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '777'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# 比較Adobe Analytics資料與CJA資料
+# 將您的 Adobe Analytics 資料與 CJA 資料進行比較
 
-由於貴組織採用CJA，因此您可能會發現Adobe Analytics和CJA之間的資料有所差異。 這是正常的，可能出於幾個原因。 CJA的設計用途是讓您改善AA中資料的部分限制。 不過，可能會發生非預期/非預期的差異。 本文旨在協助您診斷並解決這些差異，讓您和您的團隊能不受資料完整性疑慮的影響使用CJA。
+隨著您的組織採用 CJA，您可能會注意到 Adobe Analytics 與 CJA 之間的資料差異。這是正常的現象，發生原因有很多種。CJA 的設計可讓您改善 AA 中資料的部分限制。但會發生未預期/意外的不一致情況。本文章旨在協助您診斷並解決這些差異，以便於您和您的團隊可以使用 CJA，不會受到資料完整性疑慮所阻礙。
 
-假設您透過Analytics Source Connector將Adobe Analytics資料擷取至AEP，然後使用此資料集建立CJA連線。
+假設您透過 Analytics 來源連接器將 Adobe Analytics 資料擷取到 AEP，然後使用此資料集建立 CJA 連線。
 
 ![資料流](assets/compare.png)
 
-接著，您建立了資料檢視，之後在CJA上報告此資料時，您發現Adobe Analytics中報告結果有差異。
+接著您建立資料檢視，然後在日後報告這筆在 CJA 上的資料時，您注意到 Adobe Analytics 中的報告結果不一致。
 
-以下是比較原始Adobe Analytics資料與目前處於Customer Journey Analytics中的Adobe Analytics資料的一些步驟。
+以下為將您的原始 Adobe Analytics 資料與 Customer Journey Analytics 中的資料進行比較的部分步驟。
 
 ## 先決條件
 
-* 請確定AEP中的Analytics資料集包含您正在調查之日期範圍的資料。
+* 確認 AEP 中的 Analytics 資料集包含正在調查的日期範圍的資料。
 
-* 請確定您在Analytics中選取的報表套裝符合已擷取至Adobe Experience Platform的報表套裝。
+* 確認您在 Analytics 中選擇的報告套裝符合擷取到 Adobe Experience Platform 的報告套裝。
 
-## 步驟1:在Adobe Analytics中執行發生次數量度
+## 步驟 1：執行 Adobe Analytics 中的發生次數量度
 
-此 [發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=en) 量度會顯示指定的維度經設定或持續存在的點擊次數。
+「[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)」量度顯示點擊次數，其中會設定或保留指定的維度。
 
-1. 在Analytics >中 [!UICONTROL 工作區]，將您要以維度形式報告的日期範圍拖曳至 [!UICONTROL 自由格式] 表格。
+1. 在「Analytics > [!UICONTROL 工作區]」中，請將您要作為維度報告的日期範圍拖曳到「[!UICONTROL 自由]表格」。
 
-1. 此 [!UICONTROL 發生次數] 量度會自動套用至該日期範圍。
+1. 「[!UICONTROL 發生次數]」量度會自動套用到該日期範圍。
 
-1. 儲存此專案，以便在比較中使用。
+1. 請儲存此專案，以便於在比較時使用。
 
-## 步驟2:將結果與 [!UICONTROL 按時間戳記的記錄總數] 在CJA中
+## 步驟 2：將結果與 CJA 中[!UICONTROL 依時間戳記區分的記錄總數]進行比較
 
-現在比較 [!UICONTROL 發生次數] 中的Analytics轉換為Total記錄(依Customer Journey Analytics中的時間戳記)。
+現在請將 Analytics 中的「[!UICONTROL 發生次數]」與 Customer Journey Analytics 中依時間戳記區分的記錄總數進行比較。
 
-如果Analytics來源連接器未捨棄任何記錄，則依時間戳記的記錄總數應與發生次數相符 — 請參閱下方的區段。
+依時間戳記區分的記錄總數應符合發生次數，前提是 Analytics 來源連接器並未捨棄任何記錄 - 請參閱下節。
 
 >[!NOTE]
 >
->這僅適用於一般中間值資料集，不適用於匯整的資料集(透過 [跨管道分析](/help/connections/cca/overview.md))。 請注意，要讓比較工作順利進行，請務必考慮CJA中使用的人員ID。 在AA中復寫不一定容易，尤其是如果已開啟跨管道分析功能。
+>這僅適用於一般中值資料集，而非拼接資料集 (透過[跨管道分析](/help/connections/cca/overview.md))。請注意用於 CJA 的人員 ID 計量是進行比較工作的關鍵。在 AA 中複寫可能不是每次都那麼容易，尤其是已開啟跨管道分析時。
 
-1. 在Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)，請執行下列 [!UICONTROL 按時間戳記的記錄總數] 查詢：
+1. 在 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)中，執行以下[!UICONTROL 依時間戳記區分的記錄總數]查詢：
 
 ```
 SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \ 
@@ -63,29 +63,29 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. 在 [Analytics資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)，從原始資料中識別Analytics來源連接器是否可能已捨棄某些列。
+1. 在 [Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)中，從原始資料中找出 Analytics 來源連接器是否可能已捨棄某些列。
 
-   此 [Analytics來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 在轉換為XDM架構期間可能會拖放列。 整列可能有多種原因不適合轉換。 如果下列任何Analytics欄位都有這些值，則會捨棄整列。
+   [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)可能在轉換成 XDM 結構描述期間捨棄多列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會捨棄整列。
 
-   | Analytics欄位 | 導致其被刪除的值 |
+   | Analytics 欄位 | 導致其被捨棄的值 |
    | --- | --- |
-   | 退出(_O) | `y, Y` |
-   | In_data_only | 非0 |
-   | Exclude_hit | 非0 |
-   | Bot_id | 非0 |
+   | Opt_out | `y, Y` |
+   | In_data_only | Not 0 |
+   | Exclude_hit | Not 0 |
+   | Bot_id | Not 0 |
    | Hit_source | 0,3,5,7,8,9,10 |
-   | Page_event | 5.363萬 |
+   | Page_event | 53,63 |
 
-1. 如果連接器拖放了列，請從 [!UICONTROL 發生次數] 量度。 產生的數量應與Adobe Experience Platform資料集中的事件數相符。
+1. 如果連接器捨棄多列，請將這幾列減去[!UICONTROL 發生次數]量度。得到的數字應符合在 Adobe Experience Platform 資料集中的事件數。
 
-## 從AEP擷取期間為何可能會捨棄或略過記錄
+## 為何可能會在從 AEP 擷取期間捨棄或略過記錄
 
-CJA [連線](/help/connections/create-connection.md) 可讓您根據資料集上的通用人員ID，將多個資料集合併在一起。 在後端，我們會套用重複資料刪除：根據時間戳記，在事件資料集上完整加入或聯合，然後根據人員ID，在設定檔和查詢資料集上完成內聯。
+CJA [連線](/help/connections/create-connection.md)可讓您根據資料集內的通用人員 ID 帶入並聯結多筆資料集。在後端，我們會套用重複資料刪除：根據時間戳記完全外部聯結或聯集事件資料集，然後根據人員 ID 內部聯結個人資料和查詢資料集。
 
-以下是從AEP擷取資料時可能略過記錄的部分原因。
+以下是在從 AEP 擷取資料時可能略過記錄的部分原因。
 
-* **遺失時間戳記**  — 如果事件資料集中遺失時間戳記，則擷取期間會完全忽略或略過這些記錄。
+* **遺失時間戳記** – 如果事件資料集遺失時間戳記，則會在擷取期間完全忽略或略過這些記錄。
 
-* **缺少人員ID**  — 缺少人員ID（來自事件資料集和/或來自設定檔/查詢資料集）會導致忽略或略過這些記錄。 原因是沒有共同ID或相符的鍵值可加入記錄。
+* **遺失人員 ID** – 遺失人員 ID (來自於事件資料集和/或個人檔案/查詢資料集) 會導致這些記錄遭到忽略或略過。原因是無聯結記錄的通用 ID 或相符的索引鍵。
 
-* **無效或大型人員ID**  — 如果ID無效，系統在要加入的資料集中找不到有效的通用ID。 在某些情況下，人員ID欄會包含無效的人員ID，例如「未定義」或「00000000」。 每月在事件中顯示超過100萬次的人員ID（包含任何數字和字母的組合）無法歸屬於任何特定的使用者或人員。 它會分類為無效。 這些記錄無法擷取至系統中，且會導致錯誤擷取和報告。
+* **無效或大筆人員 ID** – 如是無效 ID，系統無法在資料集間找到可以聯結的有效通用 ID。在某些情況下，人員 ID 欄會有無效的人員 ID，例如「未定義」或「00000000」。在事件中每月出現超過 100 萬次的人員 ID (數字與字母的任何組合) 無法歸因於任何特定使用者或人員。 它將歸類為無效。這些記錄無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 
