@@ -3,10 +3,10 @@ title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: b72d84a0412ab774360bc2f9b4d9e656b54598f6
-workflow-type: ht
-source-wordcount: '1207'
-ht-degree: 100%
+source-git-commit: 279778d30241e338bff97bd2b0514f3a47614bb9
+workflow-type: tm+mt
+source-wordcount: '1310'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 | 刪除 GDPR | 完整支援；請注意 GDPR 目前是協同 [!UICONTROL Adobe Experience Platform] 處理。CJA 會繼承 [!UICONTROL Experience Platform] 對基礎資料集所做的任何資料變更。 |
 | 清單變數/清單 Prop | 完整資源；CJA 運用 XDM 並支援使用方式與 listVars 相似的無限制字串陣列。 |
 | 銷售變數持續性 | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=zh-Hant#binding-dimension)的完整支援 (2022 年 1 月) |
-| 銷售 eVar | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=zh-Hant#binding-dimension)的完整支援 (2022 年 1 月) |
+| 銷售 eVar | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension)的完整支援 (2022 年 1 月) |
 | 量度 | 完整支援；CJA 運用 Experience Data Model (XDM) 並支援無限制的量度，且未繫結到傳統 Analytics 的自訂成功事件。請注意，傳統 Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
 | 量度去重複化 | 完整支援 |
 | 面板 | 空白面板、歸因面板、自由表格面板和快速深入分析全都受到支援。 |
@@ -84,7 +84,12 @@ ht-degree: 100%
 | 透過裝置圖表進行 ID 彙整 | 已規劃提供支援。 |
 | 即時報表 | 已規劃提供支援。 |
 | 區段 IQ | 已規劃提供支援。 |
-| 區段發佈 (將區段從 Analysis Workspace 傳送至 Experience Cloud) | 已規劃提供支援。 |
+| 區段發佈 (將區段從 Analysis Workspace 傳送至 Experience Cloud) | 已規劃提供支援。將在CJA中稱為「觀眾發佈」。 |
+| 新會話與重複會話報告 | 計畫提供支援時需要注意一些問題。 |
+| 提升和信心報告 | 已規劃提供支援。 |
+| 分類規則產生器 | 在CJA中，在報告時使用即時字串操作，而不是查找資料集時，工作方式將略有不同。 |
+| 處理規則、VISTA規則、營銷渠道處理規則 | 支援已計畫，但將在查詢時工作，而不是在資料收集期間工作，以便進行更靈活、更可追溯和無損的資料操作。 |
+| 專案範本 | 已規劃提供支援。 |
 
 ## 尚未規劃提供支援
 
@@ -95,6 +100,9 @@ ht-degree: 100%
 | 分類規則產生器 | 尚未規劃提供支援。 |
 | 資料摘要 | 尚未規劃提供支援。 |
 | 摘要資料來源 | 尚未規劃提供支援。 |
+| 交易 ID 資料來源 | 尚未規劃提供支援。 |
+| 貨幣兌換 | 尚未規劃提供支援。 |
+| 即時報告 | 尚未規劃提供支援。 |
 
 ## 永不受支援
 
