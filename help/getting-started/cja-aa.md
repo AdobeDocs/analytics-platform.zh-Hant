@@ -3,9 +3,9 @@ title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: 279778d30241e338bff97bd2b0514f3a47614bb9
+source-git-commit: be823f0ce9ff65528b34cb8d5693b60e2ff0ee11
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1309'
 ht-degree: 94%
 
 ---
@@ -79,17 +79,17 @@ ht-degree: 94%
 | 功能 | 附註 |
 | --- | --- |
 | 警報 | 已規劃提供支援。 |
+| 分類規則產生器 | 在CJA中，使用在報告時間使用字串操作而不是查找資料集時的工作方式將略有不同。 |
 | 貢獻分析 | 已規劃提供支援。 |
 | Data Warehouse 報表 (100% 列匯出) | 規劃從 Analysis Workspace 介面提供支援。Adobe Experience Platform [[!UICONTROL 查詢服務]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)也會提供適用於在 CJA 中這些使用案例的介面。 |
 | 透過裝置圖表進行 ID 彙整 | 已規劃提供支援。 |
+| 提升和信心報告 | 已規劃提供支援。 |
+| 處理規則、VISTA規則、營銷渠道處理規則 | 支援已計畫，但將在查詢時工作，而不是在資料收集期間工作，以便進行更靈活、更可追溯和無損的資料操作。 |
+| 專案範本 | 已規劃提供支援。 |
 | 即時報表 | 已規劃提供支援。 |
 | 區段 IQ | 已規劃提供支援。 |
 | 區段發佈 (將區段從 Analysis Workspace 傳送至 Experience Cloud) | 已規劃提供支援。將在CJA中稱為「觀眾發佈」。 |
 | 新會話與重複會話報告 | 計畫提供支援時需要注意一些問題。 |
-| 提升和信心報告 | 已規劃提供支援。 |
-| 分類規則產生器 | 在CJA中，在報告時使用即時字串操作，而不是查找資料集時，工作方式將略有不同。 |
-| 處理規則、VISTA規則、營銷渠道處理規則 | 支援已計畫，但將在查詢時工作，而不是在資料收集期間工作，以便進行更靈活、更可追溯和無損的資料操作。 |
-| 專案範本 | 已規劃提供支援。 |
 
 ## 尚未規劃提供支援
 
