@@ -3,10 +3,10 @@ title: 將 Google Analytics 資料擷取至 Adobe Experience Platform
 description: '說明如何利用 Customer Journey Analytics (CJA) 將您的 Google Analytics 資料擷取至 Adobe Experience Platform。 '
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+source-git-commit: 445317efa636024dbaf0ac34b6a74b52b92b9000
+workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -124,7 +124,7 @@ FROM
 
 ### 1. 新增自訂變數
 
-在登入 Google 代碼管理工具帳戶後，您需要新增一些與 Adobe 相關的自訂常數變數。 您或許在 Google 代碼管理工具中已經有變數正要傳送到 Google Analytics，例如客戶電子郵件、客戶名稱、語言及客戶登入狀態。 您需要定義 5 個新的自訂變數：
+在登入 Google 代碼管理工具帳戶後，您需要新增一些與 Adobe 相關的自訂常數變數。 您可能已經在Google標籤管理器中具有要發送到Google Analytics的變數，如客戶電子郵件、客戶名稱、語言和客戶登錄狀態。 您需要定義 5 個新的自訂變數：
 
 * Adobe Experience Cloud 組織 ID
 * DCS 串流端點
