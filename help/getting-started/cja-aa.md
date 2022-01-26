@@ -3,9 +3,9 @@ title: Customer Journey Analytics 功能支援
 description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的比較。
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
-source-git-commit: be823f0ce9ff65528b34cb8d5693b60e2ff0ee11
+source-git-commit: 66545b4d1a3ab15480a202709e1d1e8b5cf1e31c
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1313'
 ht-degree: 94%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 94%
 | 功能 | 附註 |
 | --- | --- |
 | 警報 | 已規劃提供支援。 |
+| 行事曆事件 | 將在工作區中稱為「注釋」。 |
 | 分類規則產生器 | 在CJA中，使用在報告時間使用字串操作而不是查找資料集時的工作方式將略有不同。 |
 | 貢獻分析 | 已規劃提供支援。 |
 | Data Warehouse 報表 (100% 列匯出) | 規劃從 Analysis Workspace 介面提供支援。Adobe Experience Platform [[!UICONTROL 查詢服務]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)也會提供適用於在 CJA 中這些使用案例的介面。 |
@@ -98,11 +99,11 @@ ht-degree: 94%
 | Activity Map | 尚未規劃提供支援。 |
 | Advertising Cloud | 尚未規劃提供支援。 |
 | 分類規則產生器 | 尚未規劃提供支援。 |
+| 貨幣兌換 | 尚未規劃提供支援。 |
 | 資料摘要 | 尚未規劃提供支援。 |
+| 即時報告 | 尚未規劃提供支援。 |
 | 摘要資料來源 | 尚未規劃提供支援。 |
 | 交易 ID 資料來源 | 尚未規劃提供支援。 |
-| 貨幣兌換 | 尚未規劃提供支援。 |
-| 即時報告 | 尚未規劃提供支援。 |
 
 ## 永不受支援
 
@@ -110,5 +111,4 @@ ht-degree: 94%
 * Reports &amp; Analytics 儀表板
 * Reports &amp; Analytics 書籤
 * Reports &amp; Analytics 目標
-* Reports &amp; Analytics 行事曆事件
 * 行動服務
