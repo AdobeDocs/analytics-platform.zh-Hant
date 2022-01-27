@@ -1,17 +1,48 @@
 ---
 title: 查看上一個Customer Journey Analytics發行說明
 description: 上一份CJA發行說明
-source-git-commit: 0822b27006c79e88d463055ecb0f7172cda8e141
+source-git-commit: 62cf5418309c12413edeeaa88346f9eb8a893276
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 15%
+source-wordcount: '525'
+ht-degree: 78%
 
 ---
 
 
 # 上一份Customer Journey Analytics發行說明
 
-## 2021
+## 2021 年版本注意事項
+
+### 2021 年 11 月
+
+| 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hant) - 目標日期 |
+| ----------- | ---------- | ----- |
+| 在 Analysis Workspace 中分鐘層級的日期範圍 | 您可以在面板行事曆的進階設定下或在建立字訂日期範圍時，套用分鐘層級的日期範圍。如果您的報表涵蓋許多天的日期範圍，則開始時間會套用在您的範圍中的第一天，而結束時間則會套用在最後一天。 | 2021 年 10 月 18 日 |
+| 快速[!UICONTROL 篩選產生器] | 允許業務使用者快速在簡化的內嵌專案工作流程套用基本區段。無須前往「[!UICONTROL 篩選產生器]」。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=zh-Hant) | 2021 年 10 月 21 日 |
+| Analysis Workspace 左側邊欄搜尋改進 | 除了繼續說明元件造訪間隔和相關性之外，左側邊欄搜尋將 1) 以完全相符的搜尋結果為優先，優先程度高於廣泛的搜尋結果。2) 它會醒目提示符合的字元，以讓搜尋結果更能理解。3) 更輕鬆找到與維度相關的分類。4) 最後支援萬用字元 (`*`) 搜尋，以便更輕鬆找到所需的特定元件。注意：萬用字元搜尋在維度項目層級尚不可用。 | 2021 年 10 月 21 日 |
+| 深色主題 | [深色主題](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=zh-Hant#dark-theme)會作為顯示選項提供。 | 2021 年 10 月 21 日 |
+| 維度位置的回顧視窗 | 最多 90 天的回顧視窗新增至資料檢視設定中持續性下方的維度配置設定。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=zh-Hant) | 2021 年 10 月 28 日 |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Customer Journey Analytics 中的修正 {#cja-fixes}
+
+* 已修正 CJA 效能問題 (載入專案時的錯誤訊息)。(AN-269451、AN-270649)
+* 已修正在 CJA 中工作階段開始不符合頁面名稱流量項目的問題。(AN-273501)
+* 已修正 CJA 中流失報告未正常作用的問題。(AN-269761)
+
+### 2021 年 10 月
+
+
+
+### 2021 年 1 月
+
+| 功能 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=zh-Hant) - 目標日期 | 說明 |
+| ----------- | ---------- | ----- |
+| [!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度 | 2020 年 10 月 30 日 | 現在，這些尺寸預設可作為 [標準查找](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/standard-lookups.html) Adobe Analytics支助項目 [!UICONTROL 源連接器]。 這項備受期待的新功能可促進 [Adobe Analytics 與 CJA 之間的對等關係](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=zh-Hant#cja-overview)。 |
+| 歷程 IQ：[!UICONTROL 跨管道分析] | 2021 年 1 月 11 日 | 旅程智商： [!UICONTROL 跨渠道分析] 使您能夠將Experience Platform資料湖中的Adobe Analytics（或其他）事件資料集從一個ID命名空間重新鍵入到另一個ID命名空間。 通常，您可以將事件資料集從基於Cookie的ID重新鍵入到基於個人的ID。 這樣，重新鍵入的資料集可以與CJA連接中的其他基於人的資料組合，從而在Analysis Workspace實現跨設備和跨通道分析。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant#cja-connections) |
+| Analysis Workspace – 選取元件 | 2021 年 2 月 4 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。此增強功能可讓您從相容元件的下拉式清單中挑選元件，或繼續將該空間作為下拉區域使用。 |
+| Analysis Workspace – 影像 URL | 2021 年 1 月 14 日 | 您可以參照公用影像 URL，將影像新增至 Workspace 專案。 |
 
 
 ## 2020
