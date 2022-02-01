@@ -4,9 +4,9 @@ description: 您可調整以建立或編輯資料檢視的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
 solution: Customer Journey Analytics
 source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1217'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 | --- | --- |
 | [!UICONTROL 連線] | 此欄位會將資料檢視連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
 | [!UICONTROL 名稱] | 必填。資料檢視的名稱。此值顯示在 Analysis Workspace 的右上角下拉式清單中。 |
-| [!UICONTROL 說明] | 選填。Adobe建議您提供詳細說明，讓使用者了解資料檢視為何存在，以及其設計目的為何。 |
+| [!UICONTROL 說明] | 選填。Adobe 建議使用詳細說明，讓用戶了解資料檢視存在的原因及其設計對象。 |
 
 ### 容器
 
@@ -84,15 +84,15 @@ ht-degree: 97%
    * [[!UICONTROL 持續性]](component-settings/persistence.md)
    * [[!UICONTROL 值分組]](component-settings/value-bucketing.md)
 
-## 重複的量度或維度
+## 複製量度或維度
 
-複製量度或維度然後修改特定的設定是從單一結構描述欄位建立多個量度或維度的簡易方式。 選取右上方的量度或維度名稱底下的「[!UICONTROL 複製]」設定。 修改新的量度或維度，並使用更具說明性的名稱來儲存它。
+複製量度或維度，然後修改特定的設定，是從單一結構描述欄位建立多個量度或維度的簡易方式。選取右上方的量度或維度名稱底下的「[!UICONTROL 複製]」設定。 修改新的量度或維度，並使用更具說明性的名稱來儲存它。
 
 ![複製](assets/duplicate.png)
 
-## 篩選結構欄位或資料集
+## 篩選結構描述欄位或資料集
 
-您可以依下列資料類型篩選左側邊欄中的結構欄位：
+您可以依下列資料類型篩選左側邊欄中的結構描述欄位：
 
 ![篩選欄位](assets/filter-fields.png)
 
@@ -100,7 +100,7 @@ ht-degree: 97%
 
 ![篩選其他](assets/filter-other.png)
 
-## 設定 標籤
+## 設定索引標籤
 
 1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 並移至「**[!UICONTROL 資料檢視]**」標籤。
 1. 按一下「**[!UICONTROL 新增]**」以建立資料檢視，或按一下現有資料檢視來進行編輯。
