@@ -3,17 +3,17 @@ description: 「時間分段」功能會擷取所收集的點擊的時間戳記�
 title: 時間分段維度
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 時間分段維度Analysis Workspace 的 
+# 時間分段維度於 Analysis Workspace
 
 「時間分段」功能會擷取所收集的點擊的時間戳記，並採用更有意義的維度加以分段，例如「小時」或「星期」。
 
-時間分段維度是以資料檢視的時區為基礎。 這類維度是由 Analysis Workspace 所提供，並且可以協助回答以下問題：
+時間分段維度是以資料檢視的時區為基礎。這類維度是由 Analysis Workspace 所提供，並且可以協助回答以下問題：
 
 * 以長久的日期範圍來看，一天之中何時是訪客最常存取我的網站或應用程式的熱門時段？
 * 在我的網站或應用程式中，是「星期」還是「小時」的轉換率較高？
