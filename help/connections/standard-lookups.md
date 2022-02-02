@@ -5,7 +5,7 @@ exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
 ht-degree: 100%
 
@@ -44,9 +44,9 @@ The catch here is that they can only populate those IDs today if they have a dir
 * `browser_group`
    * `browser_group`, `id`
 * `os`
-   * `os`。 `group_id`。 `id`
+   * `os`, `group_id`, `id`
 * `os_group`
-   * `os_group`。 `id`
+   * `os_group`, `id`
 * `mobile_audio_support - multi`
 * `mobile_color_depth`
 * `mobile_cookie_support`
