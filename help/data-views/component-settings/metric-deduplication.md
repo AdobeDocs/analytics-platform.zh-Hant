@@ -3,8 +3,9 @@ title: 量度重複資料刪除元件設定
 description: 僅計算報告中量度的第一次出現。
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
 

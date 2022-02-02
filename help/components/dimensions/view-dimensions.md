@@ -1,9 +1,10 @@
 ---
 description: 這會顯示非時間維度的前 5 個值 (而時間維度則是前 15 個值)。
 title: 如何在 CJA 工作區中預覽維度
+feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
-source-git-commit: af15a6cad05b274c7eeaeca8f32617bed07c9382
-workflow-type: ht
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
 

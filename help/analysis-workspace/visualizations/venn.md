@@ -1,23 +1,22 @@
 ---
-description: 「文氏圖」視覺化可讓您拖曳最多3個篩選器（來自元件）和一個度量，以建立文氏圖。
-title: Venn
-uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
+description: 通過「維」可視化，您最多可以拖動3個篩選器（來自「元件」）和一個度量來構建維圖。
+title: 文氏圖表
+feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 48%
 
 ---
 
-# 文
+# 文氏圖表
 
-「文氏圖」視覺化可讓您拖曳最多3個篩選器（來自元件）和一個度量，以建立文氏圖。
+通過「維」可視化，您最多可以拖動3個篩選器（來自「元件」）和一個度量來構建維圖。
 
 ![](assets/venn.png)
 
-然後，您可以將滑鼠指標暫留在篩選器上，以取得更深入的百分比分析等。
+然後，可以將滑鼠懸停在篩選器上，以便更深入地瞭解百分比等。
 
 ![](assets/venn_hover.png)
 

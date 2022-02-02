@@ -1,14 +1,14 @@
 ---
 description: 可讓您查看您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。
 title: 項目符號圖表
-translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+feature: Visualizations
+exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 
 ---
-
 
 # 項目符號圖表
 

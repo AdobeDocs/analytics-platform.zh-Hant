@@ -1,9 +1,9 @@
 ---
 description: Analysis Workspace 中的異常偵測使用一系列先進的統計技術來判斷是否應將某個觀察值視為異常。
 title: 異常偵測所使用的統計技術
-uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
+feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace 中的異常偵測使用一系列先進的統計技術來判斷是否應將某個觀察值視為異常。
 
@@ -43,7 +43,7 @@ Analysis Workspace 中的異常偵測使用一系列先進的統計技術來判�
 * 網路星期一
 * 12 月 24-26 日
 * 1 年 1 月
-* 12 月 31 日
+* 31 年 12 月 
 
 系統會根據多個客戶資料點中的廣泛統計分析，識別哪些假日的趨勢最能帶來最大數量的客戶，進而選取合適的假日。此清單當然不是對所有客戶或業務週期都詳盡無遺，但我們發現套用這些假日可大幅改善幾乎所有客戶資料集的整體演算法效能。
 

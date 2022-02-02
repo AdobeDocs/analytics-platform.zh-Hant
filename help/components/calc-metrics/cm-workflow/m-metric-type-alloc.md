@@ -1,8 +1,10 @@
 ---
-description: '了解 '
+description: 了解
 title: 量度類型和歸因
-source-git-commit: 0865c318c1390f2ad6d9864915254a7b8f68030f
-workflow-type: ht
+feature: Calculated Metrics
+exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
 
@@ -25,4 +27,3 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >如需非預設歸因模式及支援的回顧期間的完整清單，請參閱[歸因模式與回顧期間](/help/analysis-workspace/attribution/models.md)。
-

@@ -1,14 +1,14 @@
 ---
-description: 「橫條」視覺化顯示垂直橫條，代表一個或多個量度上的各種值。
+description: 「條形」可視化顯示表示一個或多個度量上各種值的垂直條形。
 title: 長條圖和堆疊長條圖
-translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+feature: Visualizations
+exl-id: a4458694-0c90-4e44-88d5-575737a61c36
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 85%
 
 ---
-
 
 # 長條圖和堆疊長條圖
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 ![](assets/bar.png)
 
-視覺效果設定中的粒度下拉式清單可讓您將趨勢視覺效果 (例如折線圖、長條圖) 從每日變更為每週、每月等。
+視覺效果設定中的詳細程度下拉式清單可讓您將趨勢視覺效果 (例如折線圖、長條圖) 從每日變更為每週、每月等。
 
 ## 堆疊長條圖 {#section_9EA83779AE964635907EE5031A785A49}
 
@@ -29,4 +29,3 @@ ht-degree: 85%
 針對堆疊橫條圖的全新視覺效果設定可讓圖表以「100% 堆疊」的視覺效果方式呈現。
 
 ![](assets/stacked_100_percent.png)
-

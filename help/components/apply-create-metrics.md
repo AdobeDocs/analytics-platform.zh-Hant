@@ -1,12 +1,12 @@
 ---
 description: 在 Analysis Workspace 中使用量度有兩種方式。
 title: 量度
-uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
+feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 在 Analysis Workspace 中使用量度有兩種方式。
 
-您可以從[!UICONTROL 元件]功能表將標準量度、計算量度或計算量度範本拖曳至表格中：
+您可以從[!UICONTROL 元件]選單將標準量度、計算量度或計算量度範本拖曳至表格中：
 
 ![](assets/metrics_icons.png)
 
@@ -24,11 +24,11 @@ ht-degree: 96%
 
 或者，您可以按一下「**[!UICONTROL 元件]** > **[!UICONTROL 新增量度]**」。這會將您帶往「[計算量度產生器](/help/components/calc-metrics/calc-metr-overview.md)」，讓您從現有的量度建立自訂量度。
 
-為了更方便快速建立計算量度，已將&#x200B;**[!UICONTROL 「從選取範圍建立量度」]**&#x200B;新增至自由表格中的欄滑鼠右鍵功能表。只要選取一個或多個標頭欄儲存格，就可以看到這個選項。
+為了更方便快速建立計算量度，已將&#x200B;**[!UICONTROL 「從選取範圍建立量度」]**&#x200B;新增至自由表格中的欄滑鼠右鍵選單。只要選取一個或多個標頭欄儲存格，就可以看到這個選項。
 
 ![](assets/calc_metrics.png)
 
-[計算量度：實施作業較少的量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[計算量度：實作較少的量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hant) (3:42)
 
 ## 比較不同歸因模型的量度
 

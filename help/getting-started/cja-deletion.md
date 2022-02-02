@@ -3,8 +3,9 @@ title: 刪除關聯
 description: 當您刪除 Customer Journey Analytics 或 Adobe Experience Platform 中的連線、資料集或批次時，會發生什麼事？
 exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+feature: CJA Basics
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 100%
 

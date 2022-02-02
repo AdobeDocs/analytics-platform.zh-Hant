@@ -1,9 +1,10 @@
 ---
-description: Workspace 中僅限檢視的專案
+description: Workspace 中僅供檢視的專案
 keywords: 僅供檢視的專案
 title: 僅供檢視的專案
+feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 84%
@@ -14,9 +15,9 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
-您可以透過[專案共用工作流程](/help/analysis-workspace/curate-share/share-projects.md)，將專案以「僅限檢視」的形式與收件者共用。設置於「可檢視」角色的收件者，將獲得更為限定的專案體驗。如果您要與一般不熟悉您組織的資料結構、Analysis Workspace或Customer Journey Analytics的使用者共用專案，但您仍希望他們在安全的環境中使用資料和深入分析，就可能需要這個選項。
+您可以透過[專案共用工作流程](/help/analysis-workspace/curate-share/share-projects.md)，將專案以「僅限檢視」的形式與收件者共用。設置於「可檢視」角色的收件者，將獲得更為限定的專案體驗。如果您要將項目與不太熟悉您組織的資料結構(通常是Analysis Workspace或Customer Journey Analytics)的用戶共用，但您仍希望他們在安全環境中使用資料和見解，則可能需要這樣做。
 
 ![](assets/view-only-project.png)
 

@@ -1,20 +1,20 @@
 ---
-description: 如何變更視覺效果調色盤或指定您自己的自訂調色盤。
-title: 視覺效果調色盤
-uuid: 18252889-8dc0-48fa-820f-df534156c22f
+description: 如何更改可視化調色板或指定您自己的自定義調色板。
+title: 可視化調色板
+feature: CJA Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 91%
+source-wordcount: '244'
+ht-degree: 82%
 
 ---
 
-# 視覺效果調色盤
+# 可視化調色板
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
 您可以透過選擇不同的調色盤，或自訂符合您公司品牌顏色的調色盤，變更用於工作區的視覺效果調色盤。此功能會影響工作區大部分的視覺效果，但「摘要變更」、自由表格中的條件式格式以及地圖視覺效果&#x200B;**不**&#x200B;受影響。
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 請記住：
 
-* 有五種預先設定的調色盤可供選擇。預設調色盤與其下方的調色盤已針對最佳對比度進行最佳化，兩者皆變得更方便供色盲人士使用。
+* 有五種預先設定的調色盤可供選擇。預設調色板和下面的調色板已針對對比度進行了優化，對於色盲的用戶來說，這兩種調色板都更容易訪問。
 * 在上方兩個調色盤之下的第三到第五個調色盤，則是針對顏色和諧度進行最佳化。
 
 ## 若要變更調色盤：

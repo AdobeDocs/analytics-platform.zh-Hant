@@ -1,14 +1,14 @@
 ---
-description: 「區域」視覺化就像線條圖，但線條下方有彩色區域。
+description: 「區域」(Area)可視化類似於線形圖，但線上下方有彩色區域。
 title: 區域圖和堆疊區域圖
-translation-type: tm+mt
-source-git-commit: d14817f28e757e94435c3b1059765fabe7cec54b
+feature: Visualizations
+exl-id: d9662b29-fc41-4074-8cf6-031202994ece
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 83%
 
 ---
-
 
 # 區域圖和堆疊區域圖
 
@@ -27,4 +27,3 @@ ht-degree: 83%
 針對堆疊區域圖的全新視覺效果設定可讓圖表以「100% 堆疊」的視覺效果方式呈現。
 
 ![](assets/areastacked100.png)
-

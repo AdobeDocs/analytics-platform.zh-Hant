@@ -1,11 +1,11 @@
 ---
 description: 了解不同的儲存選項 (包括 AutoSave、另存為、另存為範本)，以及開啟先前的版本。
 title: 儲存專案
-feature: Workspace Basics
+feature: CJA Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 1c19c8cb9cad7b4b7938915d04396cc4646a1f32
-workflow-type: ht
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
 

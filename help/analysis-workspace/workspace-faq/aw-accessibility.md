@@ -1,8 +1,9 @@
 ---
 description: Analysis Workspace 的協助工具支援功能
 title: Analysis Workspace 的協助工具
+feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 96%
@@ -11,7 +12,7 @@ ht-degree: 96%
 
 # Analysis Workspace 的協助工具
 
-了解[!UICONTROL Analysis Workspace]中的協助工具支援，這是Customer Journey Analytics的主要分析工具。
+瞭解中的輔助功能支援 [!UICONTROL Analysis Workspace]是Customer Journey Analytics的首要分析工具。
 
 協助工具旨在讓產品適用於在視覺、聽覺、認知、運動能力和其他方面有障礙的人士。舉例來說，軟體產品的協助工具功能包括螢幕助讀程式支援、圖形等效文字、鍵盤快速鍵、將顯示器色彩變更為高對比等。
 
@@ -23,17 +24,17 @@ ht-degree: 96%
 
 * `Tab` 鍵可讓您找出快速鍵，在 Workspace 內的較大區段之間移動。 在左側欄中，`Tab` 也可讓您在不同的可拖曳選項之間移動。
 * 在 `Tab` 標示 `left/right arrows` 之後，它就會在個別元素之間移動。
-* `F6` 會導覽至專案中的第一個面板，並在該面板內的視覺化效果之間移動。 然後它會移到專案中的下一個面板，然後重複此程序。
+* `F6` 會瀏覽至專案中的第一個面板，並在該面板內的視覺化效果之間移動。 然後它會移到專案中的下一個面板，然後重複此程序。
 * 我們套用了焦點指標，讓視力不佳的鍵盤使用者能夠清楚看出目前取得焦點的 UI 元素。此指標是選定元素周圍的藍色邊框。
 
    ![焦點指標](assets/focus-indicator.png)
 
-### 選單列的鍵盤導覽
+### 功能表列的鍵盤導覽
 
-1. 按 Tab 鍵，直到抵達選單列為止。
-1. 使用左/右方向鍵，導覽至您想要的選單。
-1. 按 `Enter` 可選取選單並顯示其選項。
-1. 使用上/下方向鍵，導覽至您想要的選單選項。
+1. 按 Tab 鍵，直到抵達功能表列為止。
+1. 使用左/右方向鍵，瀏覽至您想要的功能表。
+1. 按 `Enter` 可選取功能表並顯示其選項。
+1. 使用上/下方向鍵，瀏覽至您想要的功能表選項。
 1. 按 `Enter` 可選取選項。
 
 ### 拖放互動的鍵盤導覽
@@ -68,7 +69,7 @@ ht-degree: 96%
 | Ctrl + Shift + D | 新增日期範圍 |
 | Ctrl + Shift + E | 新增篩選條件 |
 | Ctrl + Z | 還原 |
-| 按住Shift鍵（在面板篩選器放置區中） | 建立[下拉式篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) |
+| 按住Shift鍵（在面板篩選器下拉清單中） | 建立[下拉式篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) |
 
 #### 加速
 

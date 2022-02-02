@@ -1,8 +1,10 @@
 ---
 description: 計算量度產生器提供的畫布可用來拖放維度、量度、篩選器和函數，讓您根據容器階層邏輯、規則和運算子來建立自訂量度。此整合性開發工具可讓您建立並儲存簡單的計算量度或複雜的進階計算量度。
 title: 建立量度
-source-git-commit: a747a7e7def6f55fd350406125581e631af9e208
-workflow-type: ht
+feature: Calculated Metrics
+exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 100%
 
@@ -48,4 +50,3 @@ ht-degree: 100%
 | 篩選器清單 | (僅限進階計算量度) 身為管理員，此清單會顯示在您的登入公司中建立的所有篩選器。如果您不是管理員使用者，此清單就只會顯示您所擁有並已和您共用的篩選器。 |
 | 函數清單 | (僅限進階計算量度) 函數分為兩種清單： 基本 (最常使用) 和進階。 |
 | 資料檢視選擇器 | 此選擇器 (位於右上方) 可讓您切換至不同的資料檢視。 |
-

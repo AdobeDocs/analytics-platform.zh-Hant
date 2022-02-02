@@ -3,8 +3,9 @@ title: 合併事件資料集
 description: 了解 CJA 如何透過合併資料集來建立連線。
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
+feature: Connections
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -71,7 +72,7 @@ ht-degree: 100%
 
 不過，如果連線中同時包含兩個表格，則歸因會變更，因為這兩個資料集中都有 `user_847`。第二個資料集屬性中的一列將 `metric_a` 歸因為「黃色」，其之前為未指定：
 
-| string_color | metric_a |
+| 字串顏色 | 度量_a |
 | --- | --- |
 | 黃色 | 6 |
 | 藍色 | 3 |

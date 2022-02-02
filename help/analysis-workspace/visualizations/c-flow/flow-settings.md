@@ -1,9 +1,9 @@
 ---
-description: 工作區中流量視覺化的設定
+description: 工作區中流可視化的設定
 title: 流量設定
+feature: Visualizations
 exl-id: 85de8ee7-b79f-4ac4-9601-a4e7f6fb3b2a
-translation-type: tm+mt
-source-git-commit: 76260b7362396c76942dadab599607cd038ed651
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 88%
@@ -23,7 +23,7 @@ ht-degree: 88%
 | --- | --- |
 | 專注於這個節點 | 將焦點變更至選取的節點。焦點節點會出現在流量圖的中央。 |
 | 重新開始 | 將您帶回自由圖表產生器，讓您在那裡建立新的流量圖。 |
-| 從流程中的此點建立篩選 | 建立篩選器. 這會帶您進入篩選產生器，您可在其中設定新篩選。 |
+| 從流中的此點建立篩選器 | 建立篩選. 這將帶您進入篩選器生成器，您可以在其中配置新篩選器。 |
 | 劃分 | 依據可用的「維度」、「量度」或「時間」來劃分節點。 |
 | 趨勢 | 建立節點的趨勢圖。 |
 | 展開整個欄 | 展開該欄以顯示所有節點。依預設，只會顯示前五個節點。 |

@@ -1,8 +1,9 @@
 ---
 title: 演算法歸因
 description: 演算法歸因模型的詳細資料。
+feature: Attribution
 exl-id: ce174253-4864-4fb0-8a96-a134a9fc9fba
-source-git-commit: 3f893e5430eb4591939226e694f70064a90c7adb
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 84%
@@ -13,13 +14,13 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
-演算法歸因的影片概觀如下：
+下面是算法屬性的視頻概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/36205/?quality=12)
 
-Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同，因為此模型使用統計技術將評分分配給報表或自由表格中的各個維度項目。和Analysis Workspace中的所有其他歸因模型一樣，此模型也可用於任何維度或量度，並支援無限制的篩選和劃分，且會將100%的轉換分送給表格中的維度（也稱為「細分」歸因）。
+Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同，因為此模型使用統計技術將評分分配給報表或自由表格中的各個維度項目。與Analysis Workspace的所有其他屬性模型一樣，它可用於任何維或度量，並支援無限的篩選和細分，並將100%的轉換分配給表中的維（也稱為「分數」屬性）。
 
 用於歸因的演算法以合作賽局理論中的 Harsanyi 利益為基礎。Harsanyi 利益是 Shapley 值解法 (命名自諾貝爾經濟學獎得主 Lloyd Shapley) 的泛論，即在一場對結果貢獻不均等的賽局中，在玩家之間分配評分。
 

@@ -1,18 +1,19 @@
 ---
 title: 元件設定
-description: 檢視元件的核心設定
+description: 查看資料視圖元件的核心設定。
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+feature: Data Views
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 95%
 
 ---
 
 # 元件設定
 
-元件使用的核心設定。
+資料視圖元件使用的核心設定。
 
 ![元件設定](../assets/component-settings.png)
 

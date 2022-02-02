@@ -1,15 +1,16 @@
 ---
-description: 流量功能可顯示客戶在您網站和應用程式中的路徑。
+description: 「流」功能顯示客戶通過網站和應用的路徑。
 title: 流量概述
+feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
-source-git-commit: f74b5e79b6713050869301adb95e2a73705330da
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 83%
+ht-degree: 88%
 
 ---
 
-# 流量概述
+# 流量概觀
 
 流量功能可顯示客戶使用您網站和應用程式的路徑。
 
@@ -17,9 +18,9 @@ ht-degree: 83%
 
 * 將客戶在您網站或應用程式中的歷程視覺化呈現
 * 分析客戶在所指定檢查點 (例如登入、特定維度或退出) 之前和之後的前往位置
-* 指定所選路徑中的特定點以建立篩選器
+* 通過指定所選路徑中的特定點建立篩選器
 
-[流量視覺效果教學課程影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
+[流量視覺效果教學課程影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=zh-Hant) (4:56)
 
 ## 維度間流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 

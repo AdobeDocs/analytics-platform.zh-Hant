@@ -2,8 +2,9 @@
 description: Workspace 中的專案共用和專案角色
 keywords: Analysis Workspace 共用
 title: 共用專案
+feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 94%
@@ -14,7 +15,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[深入了解...](/help/getting-started/cja-aa.md)
+>您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
 共用可讓您組織中的其他 Analysis Workspace 使用者也能使用相同專案。收件者開啟專案時，將會顯示您已套用的任何[組織](curate.md)。
 
@@ -26,7 +27,7 @@ ht-degree: 94%
 |---|---|
 | 可編輯 | 收件者可&#x200B;**[!UICONTROL 儲存]**&#x200B;對專案的變更，並以共同擁有者的身分操作。如果您想要與其他同事共同管理專案，此角色將有其效用；包括編輯、刪除和修改共用專案的收件者清單。<br>注意：Analysis Workspace 目前不支援即時共同作業，因此我們建議不要有多名使用者同時編輯一個專案。如果同時儲存專案，將會保留最後一個版本。 |
 | 可複製 | 收件者可以&#x200B;**[!UICONTROL 另存新檔]**，且具有左側邊欄的存取權。此角色的專案互動不受限制。如果您想要與瞭解組織資料，且知道如何使用 Analysis Workspace 的使用者共用專案，但不想讓專案遭到變更，就可以使用此角色。 |
-| 可檢視 | 收件者無法另存新檔及存取左側邊欄。專案互動也有所限制。如果您想要與整體上較不熟悉您組織的資料結構、Analysis Workspace或Customer Journey Analytics的使用者共用專案，此角色就十分實用。 但您仍希望他們能在安全的環境中使用資料和深入分析，就可以使用此角色。。<br>深入瞭解[可檢視專案體驗](/help/analysis-workspace/curate-share/view-only-projects.md)。 |
+| 可檢視 | 收件者無法另存新檔及存取左側邊欄。專案互動也有所限制。如果您想將項目共用給對您組織的資料結構不太熟悉的用戶，則此角色非常有用，通常為Analysis Workspace或Customer Journey Analytics。 但您仍希望他們能在安全的環境中使用資料和深入分析，就可以使用此角色。。<br>深入瞭解[可檢視專案體驗](/help/analysis-workspace/curate-share/view-only-projects.md)。 |
 
 >[!IMPORTANT]
 > 在 2020 年 6 月 18 日之前新增的專案收件者，已移轉至專案角色。管理員使用者已移轉至&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員使用者已移轉至&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。這些角色提供的專案體驗與先前相同。此外，所有群組 (包括「全部」) 皆已移轉至&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。
@@ -51,7 +52,7 @@ ht-degree: 94%
 如果有未儲存的變更，系統會提示您先儲存專案。
 1. 新增收件者或收件者群組。
 請參考上方的說明圖示，取得每個角色的說明。
-1. （選用）與所有收件者共用內嵌的專案元件（篩選器、計算量度和日期範圍）。
+1. （可選）與所有接收人共用嵌入的項目元件（篩選器、計算度量和日期範圍）。
 共用後，這些元件會出現在收件者 Workspace 的「元件」下拉式清單中。請注意，系統不會沿用此設定，此為共用時的單次動作。
 1. (可選) 將此頁面設為收件者的登陸頁面。系統不會沿用此設定，此為共用時的單次動作。
 1. 按一下「共用」。您也可以按一下&#x200B;**[!UICONTROL 監管與共用]**&#x200B;自動套用專案組織。如果專案已共用，這些按鈕將會顯示&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 監管與更新]**。深入瞭解[專案組織](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant)。
@@ -60,7 +61,7 @@ ht-degree: 94%
 
 ## 與收件者群組共用 {#Groups}
 
-所有使用者都可與群組共用專案；群組是收件者的集合。在Customer Journey Analytics中，群組由[Adobe Experience Cloud管理控制台](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)中的產品設定檔所定義。
+所有使用者都可與群組共用專案；群組是收件者的集合。在Customer Journey Analytics中，組由中的產品配置檔案定義 [Adobe Experience Cloud管理控制台](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 * 管理員可將任何群組當作共用對象，包括「全部」。
 * 非管理員則可與其所屬的群組共用，但「全部」除外。

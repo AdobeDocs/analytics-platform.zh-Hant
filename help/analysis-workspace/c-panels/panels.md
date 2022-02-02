@@ -1,9 +1,10 @@
 ---
 description: 面板是表格與視覺效果的集合。
 title: 面板概觀
+feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: f6e7c2f5d83a29b498a7c3dbed64f2d2ea5c0b27
-workflow-type: ht
+source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 100%
 
@@ -76,7 +77,7 @@ ht-degree: 100%
 
 [觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hant)，了解更多有關如何在專案中新增下拉篩選器。
 
-## 在功能表上按一下右鍵 {#right-click}
+## 按右鍵選單 {#right-click}
 
 在面板標題按一下右鍵，可以使用面板的其他功能。
 
