@@ -3,18 +3,14 @@ title: 計算量度總覽
 description: 瞭解
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '481'
+source-git-commit: cf51db711370e7dea5d934cb25d351271d3f20bd
+workflow-type: tm+mt
+source-wordcount: '448'
 ht-degree: 100%
 
 ---
 
-# 計算量度總覽
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
+# 計算量度概觀
 
 計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。無論您是行銷人員、產品經理或分析人員，不需變更實作就能詢問資料相關問題。
 
