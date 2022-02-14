@@ -3,13 +3,13 @@ title: 從Adobe Analytics遷移到Customer Journey Analytics
 description: 從Adobe Analytics遷移到Customer Journey Analytics的步驟
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 868cd819148b29436fbd92cf220c8bc4cb9e0725
+exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
+source-git-commit: 2a330a430b48eb753d269e1165e95b61cb5fb483
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1060'
 ht-degree: 5%
 
 ---
-
 
 # 準備從Adobe Analytics遷移到Customer Journey Analytics
 
@@ -24,10 +24,10 @@ ht-degree: 5%
 瞭解客戶旅程的最關鍵部分可能是瞭解客戶在每一步驟中所處的位置。 對於Customer Journey Analytics，具有跨所有通道和相應資料的標識符允許在CJA內將多個源拼接在一起。
 標識示例可能是客戶ID、帳戶ID或電子郵件ID。 無論身份是什麼（可能有多個），請確保為每個ID考慮以下內容：
 
-* 存在或可以添加到要引入CJA的所有資料源上
-* 在每行資料上填充
-* 不包含PII。 對任何可能敏感的內容應用散列。
-* 在所有源之間使用相同格式（相同長度、相同散列方法等）
+* ID存在，或可以添加到要引入CJA的所有資料源
+* ID填充在每行資料上
+* ID不包含PII。 對任何可能敏感的內容應用散列。
+* ID在所有源上使用相同格式（相同長度、相同散列方法等）
 
 在像Adobe Analytics這樣的資料集中，身份可能並不存在於每一行資料中，但是輔助身份卻存在。 在這種情況下，跨渠道分析（以前稱為「基於欄位的縫合」）可用於在僅由客戶的ECID標識和收集身份時（例如，當客戶驗證時）彌合行之間的差距。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant)
 
@@ -51,9 +51,9 @@ ht-degree: 5%
 
 Adobe已發佈 [市場營銷渠道實施的最新最佳做法](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=en)。 這些更新的建議可幫助您充分利用Adobe Analytics已具備的與Attribution IQ相關的功能。 它們還會設定您在過渡到Customer Journey Analytics時是否成功。
 
-### 4.決定使用分析資料連接器與Experience PlatformSDK
+### 4.決定使用分析源連接器與Experience PlatformSDK
 
-作為 [體驗邊緣](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant) 資料收集會不斷發展，您可能會遷移到Adobe Experience PlatformWeb SDK或具有Adobe Experience Platform邊緣網路的Adobe Experience Platform移動SDK。 SDK的典型實施將將資料發送到Adobe Analytics，但直接將資料發送到Adobe Experience Platform的新機會也隨之而來。 然後，它可以被攝入Customer Journey Analytics，同時保留發送到Adobe Analytics的資料。
+作為 [體驗邊緣](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant) 資料收集會發展，您可能會遷移到 [Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=en) 或 [Adobe Experience Platform移動SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en) Adobe Experience Platform邊緣網路。 SDK的典型實施將將資料發送到Adobe Analytics，但直接將資料發送到Adobe Experience Platform的新機會也隨之而來。 然後，它可以被攝入Customer Journey Analytics，同時保留發送到Adobe Analytics的資料。
 
 這種方法極大地擴展了資料採集的可能性：欄位數不再有限制，也不再需要將資料元素映射到道具、變數和事件（如在分析中）。 可以使用不同類型的無限架構元素，並使用CJA以多種方式表示它們 [資料視圖](/help/data-views/data-views.md)。 當直接發送到Adobe Experience Platform時，資料可用性的速度會加快，因為通過Adobe Analytics進行資料處理的時間會縮短。
 
