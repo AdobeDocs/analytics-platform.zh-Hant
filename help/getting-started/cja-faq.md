@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 常見問答。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: b9b6c411552e8be98547e834ce81ba45d28dda60
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 100%
+source-wordcount: '1646'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 | CCA 中的「重播」是如何運作的？ | CCA 會根據所掌握的唯一識別碼來「重播」資料。 重播會使得連線的新裝置被拼接。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=zh-Hant#step-1%3A-live-stitching) |
 | CCA 中的拼接歷史 (回填) 資料是如何運作的？ | 初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。 為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant#enable-cross-channel-analytics) |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 3. 將資料帶入 [!UICONTROL Customer Journey Analytics]
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 | 是否需要帶入 PII 資料來建立資料之間的連結？ | 否，您可以使用任何 ID，包括客戶 ID (非 PII) 的雜湊。 |
 | 擷取過去或未來的日期/時間戳記至 CJA 事件資料集的限制有哪些？ | <ul><li>在過去日期/時間戳記方面：事件資料最久為 10 年。</li><li>在未來日期/時間戳記方面：事件資料 (預測性) 最久為未來 1 個月。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 4. 延遲的注意事項
 
@@ -57,21 +57,21 @@ ht-degree: 100%
 
 | 問題 | 回答 |
 | --- | --- |
-| [!UICONTROL Adobe Experience Platform] 上的 [!UICONTROL Customer Journey Analytics] 延遲時間預計會多久？ | <ul><li>即時資料或事件：資料在 AEP 上可供使用時，在 90 分鐘內完成處理和擷取。</li><li>批次大小 > 5 千萬列：90 分鐘以上</li><li>小型回填 - 例如，1 千萬列的查詢資料集：24 小時以內<li>大型回填 - 例如，5 百億列：30 天</li></ul> |
+| [!UICONTROL Adobe Experience Platform] 上的 [!UICONTROL Customer Journey Analytics] 延遲時間預計會多久？ | <ul><li>即時資料或事件：資料在 AEP 上可供使用時，在 90 分鐘內完成處理和擷取。(批大小> 5,000萬行：超過90分鐘)</li><li>小型回填 - 例如，1 千萬列的查詢資料集：24 小時以內<li>大型回填 - 例如，5 百億列：30 天</li></ul> |
 
 
 ## 5. 傳統 [!UICONTROL Adobe Analytics] 元件
 
 | 問題 | 回答 |
 | --- | --- |
-| 我可以將 Customer Journey Analytics 中的共用/發佈篩選 (區段) 分享到 Experience Platform Unified Profile 或其他 Experience Cloud 應用程式嗎？ | 還不行，我們正在積極努力地提供這項功能。 |
-| 我的舊 eVar 設定發生了什麼事？ | [!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 eVar、prop 和事件。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。 |
+| 是否可以共用/發佈 [!UICONTROL 篩選] ([!UICONTROL 段]從 [!DNL Customer Journey Analytics] Experience Platform統一配置檔案或其他Experience Cloud應用程式？ | 還不行，我們正在積極努力地提供這項功能。 |
+| 我老頭怎麼了 [!UICONTROL eVar] 設定？ | [!UICONTROL 埃瓦爾]。 [!UICONTROL 道], [!UICONTROL 事件] 傳統Adobe Analytics意義上 [!UICONTROL Customer Journey Analytics]。 您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。 |
 | 我所有的工作階段和變數持續性設定現在位於何處？ | [!UICONTROL Customer Journey Analytics 會在報告時套用這些設定，而這些設定現在會顯示於「資料檢視」。]這些設定的變更現在可回溯，使用多個「資料檢視」即可擁有多個版本！ |
 | 我們現有的區段/計算量度有何改變？ | [!UICONTROL Customer Journey Analytics 不再使用 eVar、prop 或事件，而是使用 AEP 結構。]換句話說，現有的區段或計算量度都會與 [!UICONTROL Customer Journey Analytics] 不相容。 |
 | [!UICONTROL Customer Journey Analytics] 如何處理 `Uniques Exceeded` 限制？ | [!UICONTROL Customer Journey Analytics 沒有唯一值的限制，因此無需擔心這些限制！] |
 | 如果我是現有 [!DNL Data Workbench] 客戶，現在是否可以改用 Customer Journey Analytics？ | 這取決於您的使用案例 - 請與您的 Adobe 帳戶團隊合作。 您目前的使用案例可能已經很適合使用 Customer Journey Analytics！ |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 6. 刪除資料元件的影響
 
