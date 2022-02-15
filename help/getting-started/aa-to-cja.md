@@ -4,10 +4,10 @@ description: 從Adobe Analytics遷移到Customer Journey Analytics的步驟
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 39814339963b2e836a05ddbe2062bea2527fea24
+source-git-commit: 2f38b38328816a523427d73f812041904e294bc7
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 6%
+source-wordcount: '1234'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ### 2.調整變數
 
-將Adobe Analytics資料遷移到Customer Journey Analytics的最直接方法是使用 [Adobe Analytics源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。 此連接器將您的Adobe Analytics變數直接映射到AEP中的XDM架構和資料集，而XDM架構和資料集又可輕鬆連接到CJA。
+將Adobe Analytics資料遷移到Customer Journey Analytics最直接的方法是 [全局報告套件](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=en) Experience Platform [Adobe Analytics源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。 此連接器將您的Adobe Analytics變數直接映射到AEP中的XDM架構和資料集，而XDM架構和資料集又可輕鬆連接到CJA。
 
 完整的全球報告套件可能並不總是可用於實施。 如果計畫將多個報表套件Customer Journey Analytics，則必須提前計畫使變數在這些報表套件中對齊。
 
@@ -77,7 +77,7 @@ Adobe已發佈 [市場營銷渠道實施的最新最佳做法](https://experienc
 
 ### 輕鬆處理報告時間
 
-Adobe Analytics的報告依賴大量資料預處理來生成結果，如您在中看到的持久性 [!UICONTROL 埃瓦爾]。 Customer Journey Analytics在報告運行時運行這些計算。
+Adobe Analytics的報告依賴大量資料預處理來生成結果，如您在中看到的持久性 [!UICONTROL 埃瓦爾]。 相反，Customer Journey Analytics在報告運行時運行這些計算。
 
 [!UICONTROL 報告時間處理] 開啟應用可追溯設定並建立多個版本的變數持久性，而無需更改基礎資料的收集方式。
 
@@ -100,6 +100,14 @@ Adobe Analytics段 [!UICONTROL 篩選] 在CJA中)和計算的度量與Customer J
 * [將Adobe Analytics段移到Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=en)
 
 * [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
+
+### 其他考量
+
+* 利用CJA資料視圖的威力，您在定義Customer Journey Analytics中的度量和維方面具有更大的靈活性。 例如，可以使用維的值作為度量的定義。 [了解更多](/help/data-views/data-views-usecases.md)
+
+* 如果您在Adobe Analytics定義了自定義日曆，則CJA中將具有類似的日曆功能。 您需要確保日曆已正確定義。
+
+* 在Customer Journey Analytics中，可以定義自定義訪問/會話超時，並定義將啟動新會話的度量。 您可以建立具有不同會話定義的資料視圖，以獲得超越Adobe Analytics可能的見解。 此功能對移動資料集尤其有益。
 
 ## 後續步驟
 
