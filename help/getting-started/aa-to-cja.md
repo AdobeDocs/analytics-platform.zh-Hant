@@ -4,10 +4,10 @@ description: 從Adobe Analytics遷移到Customer Journey Analytics的步驟
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 2a330a430b48eb753d269e1165e95b61cb5fb483
+source-git-commit: 39814339963b2e836a05ddbe2062bea2527fea24
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 5%
+source-wordcount: '1096'
+ht-degree: 6%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe已發佈 [市場營銷渠道實施的最新最佳做法](https://experienc
 
 **使用Experience PlatformSDK的缺點**
 
-不支援以下Adobe Analytics元件：
+不支援以下Adobe Analytics功能或元件：
 
 * 行銷管道
 * 機器人篩選
@@ -77,15 +77,15 @@ Adobe已發佈 [市場營銷渠道實施的最新最佳做法](https://experienc
 
 ### 輕鬆處理報告時間
 
-Adobe Analytics的報告依賴大量資料預處理來生成結果，如您在eVars中看到的持久性。 Customer Journey Analytics在報告運行時運行這些計算。
+Adobe Analytics的報告依賴大量資料預處理來生成結果，如您在中看到的持久性 [!UICONTROL 埃瓦爾]。 Customer Journey Analytics在報告運行時運行這些計算。
 
-報告時間處理開啟了應用追溯設定並建立多個版本的可變持久性的功能，而無需更改基礎資料的收集方式。
+[!UICONTROL 報告時間處理] 開啟應用可追溯設定並建立多個版本的變數持久性，而無需更改基礎資料的收集方式。
 
 此轉換將導致報告資料的方式出現一些差異，特別是對於可能具有較長過期窗口的任何變數。 您可以首先使用 [虛擬報告套件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html)。
 
 ### 確定關鍵段和計算度量
 
-Adobe Analytics段（在CJA中稱為篩選器）和計算度量與Customer Journey Analytics不相容。 在很多情況下，這些元件可以在CJA中使用新的模式和可用資料重建。
+Adobe Analytics段 [!UICONTROL 篩選] 在CJA中)和計算的度量與Customer Journey Analytics不相容。 在很多情況下，這些元件可以在CJA中使用新的模式和可用資料重建。
 
 要使用戶在系統之間轉換時盡可能順利地進行轉換，請提前規劃
 
@@ -100,3 +100,7 @@ Adobe Analytics段（在CJA中稱為篩選器）和計算度量與Customer Journ
 * [將Adobe Analytics段移到Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=en)
 
 * [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
+
+## 後續步驟
+
+轉到CJA後，如果您發現任何資料差異，您可以將原始的Adobe Analytics資料與現在處於Customer Journey Analytics中的Adobe Analytics資料進行比較。 [了解更多](/help/troubleshooting/compare.md)
