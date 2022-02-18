@@ -4,7 +4,7 @@ title: 異常偵測所使用的統計技術
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Analysis Workspace 中的異常偵測使用一系列先進的統計技術來判�
 * 網路星期一
 * 12 月 24-26 日
 * 1 年 1 月
-* 31 年 12 月 
+* 12 月 31 日
 
 系統會根據多個客戶資料點中的廣泛統計分析，識別哪些假日的趨勢最能帶來最大數量的客戶，進而選取合適的假日。此清單當然不是對所有客戶或業務週期都詳盡無遺，但我們發現套用這些假日可大幅改善幾乎所有客戶資料集的整體演算法效能。
 
