@@ -1,12 +1,12 @@
 ---
-description: 「區域」(Area)可視化類似於線形圖，但線上下方有彩色區域。
+description: 區域圖視覺效果類似線圖，但在線圖下方有一塊上色區域。
 title: 區域圖和堆疊區域圖
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '99'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
