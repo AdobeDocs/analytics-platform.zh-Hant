@@ -1,16 +1,16 @@
 ---
-description: 色階分佈圖類似於長條圖，但前者將數字分組為範圍 (貯體)。
-title: 色階分佈圖
+description: 長條圖類似於橫條圖，但前者將數字分組為範圍 (貯體)。
+title: 長條圖
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# 色階分佈圖
+# 長條圖
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 91%
 | 起始貯體 | 決定長條圖開始使用的貯體。「1」是預設值。您可設定從 0 開始的數字，一直到無限大 (無負數)。 |
 | 量度貯體 | 可讓您增加/減少資料範圍 (貯體) 的數目。貯體的最大數量是 50。 |
 | 量度貯體大小 | 可讓您設定每個貯體的大小。例如，您可將貯體大小從 1 次頁面檢視變更為 2 次頁面檢視。 |
-| 計算方法 | 可讓您選擇[訪客](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html)、[造訪](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)或點擊類型。例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
+| 計算方法 | 可讓您選擇[訪客](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html)、[造訪](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)或點擊類型。 例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -60,7 +60,7 @@ ht-degree: 91%
 
 ![](assets/manage-data-source.png)
 
-在表中顯示的預構建篩選器是內部篩選器，不會在篩選器選擇器中顯示。 按一下篩選器名稱旁邊的「i」表徵圖，然後按一下 **[!UICONTROL 公開]** 才能使過濾器公開。
+此表格中顯示的預先建立篩選器是內部篩選器，不會顯示在篩選器選取器中。 按一下篩選器名稱旁的「i」圖示，然後按一下&#x200B;**[!UICONTROL 「設為公用」]**，將該篩選器設為公用。
 
 ![](assets/prebuilt_segments.png)
 
