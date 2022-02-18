@@ -1,13 +1,13 @@
 ---
-description: 包含菜單欄和設定的Workspace項目概述
+description: Workspace 專案與選單列和設定概觀
 keywords: Analysis Workspace
 title: 專案概觀
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1165'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ Workspace 專案清單頁面內含下列資訊：
 
 | 功能表項目 | 說明 |
 |---|---|
-| 專案 | 包含專案管理的常見操作，例如新增、開啟、儲存、另存新檔和另存範本等。您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。「[下載 CSV 和 PDF](/help/analysis-workspace/curate-share/download-send.md)」選項可讓您從 Workspace 匯出資料。**項目資訊和設定** （請參閱下面）提供了許多用於管理項目的選項。 |
+| 專案 | 包含專案管理的常見操作，例如新增、開啟、儲存、另存新檔和另存範本等。 您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。「[下載 CSV 和 PDF](/help/analysis-workspace/curate-share/download-send.md)」選項可讓您從 Workspace 匯出資料。「**專案資訊和設定** (請參閱下圖) 提供管理專案的多個選項。 |
 | 編輯 | 還原或重做您的上一個操作。「全部清除」會將您的專案重設為空白起點。 |
 | 插入 | 從此功能表插入新面板或視覺效果。您也可以從左側欄插入新面板和視覺效果。 |
-| [元件](/help/components/overview.md) | 從項目建立新篩選器、計算度量、日期範圍或預警元件。 您也可以從左側欄建立新元件。如果您的元件定義在最近有了變更，「重新整理元件」將會擷取最新的定義。 |
-| [共用](/help/analysis-workspace/curate-share/send-schedule-files.md) | 將PDF/CSV項目建立、共用和計畫到您組織中的收件人。 |
+| [元件](/help/components/overview.md) | 從您的專案建立新篩選器、計算量度、日期範圍或警報元件。 您也可以從左側欄建立新元件。如果您的元件定義在最近有了變更，「重新整理元件」將會擷取最新的定義。 |
+| [共用](/help/analysis-workspace/curate-share/send-schedule-files.md) | 組織、共用及排程 PDF/CSV 專案給貴組織中的收件者。 |
 | 說明 | 存取線上文件、影片及 Analytics [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)。管理 Workspace 秘訣及[偵錯工具](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)的可見度。尋找有關 Workspace 及影響專案[效能](/help/analysis-workspace/workspace-faq/optimizing-performance.md)之因素的詳細資訊。 |
 | 「共用」按鈕或所有者 | 如果您是專案的所有者或編輯者，右上方的「共用」按鈕為您提供管理專案收件者的單鍵存取權。如果您擁有專案的複製或檢視角色，您將會看到專案所有者的名稱。 |
 
@@ -79,7 +79,7 @@ Workspace 專案清單頁面內含下列資訊：
 
 您也可以從[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)存取視覺效果和面板。
 
-左滑軌中的元件(Dimension、度量、篩選器、日期範圍)與活動面板資料視圖相關。 活動面板周圍將有一個藍色邊框，活動資料視圖將列在元件滑軌的頂部。
+左側欄的元件 (維度、量度、篩選器、日期範圍) 與作用中面板資料檢視有關。 作用中面板的周圍有藍色邊框，而且作用中資料檢視將會列在元件邊欄的最上方。
 
 ![](assets/left-rail.png)
 
@@ -87,7 +87,7 @@ Workspace 專案清單頁面內含下列資訊：
 
 專案畫布是您整合面板、表格、視覺效果和元件以建立分析的地方。專案可以包含許多面板，每個面板都可以有許多表格和視覺效果。
 
-若您想要根據時段、資料檢視或分析使用案例來組織專案時，面板會很有幫助。作用中面板的周圍有藍色邊框，而且可決定左側欄中有哪些元件可用。
+若您想要根據時段、資料檢視或分析使用案例來組織專案時，面板會很有幫助。 作用中面板的周圍有藍色邊框，而且可決定左側欄中有哪些元件可用。
 
 根據您為專案選擇的起點，您一開始可以在畫布中使用[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)或[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)。開始分析的最快速方法是選取一個或多個元件，然後將其拖放到專案畫布上。系統將會自動為您呈現資料表格。[深入了解](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)建立表格的不同選項，或利用我們的[訓練教學課程](/help/analysis-workspace/home.md)以取得建立您的第一個專案的更多指南。
 
@@ -105,7 +105,7 @@ Workspace 專案清單頁面內含下列資訊：
 
 | 動作 | 說明 |
 |---|---|
-| 新增 | 從頭建立新項目。 |
+| 新增 | 從頭建立新專案。 |
 | 標記或核准 | 選擇「標記」或「核准」來組織您的專案，並使其更容易搜尋。 |
 | [共用](/help/analysis-workspace/curate-share/share-projects.md) | 將專案提供給貴組織中的其他 Analysis Workspace 用戶使用。 |
 | 刪除 | 刪除您的專案。 |
