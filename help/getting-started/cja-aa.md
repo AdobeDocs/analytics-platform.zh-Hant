@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1309'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 92%
 | 刪除 GDPR | 完整支援；請注意 GDPR 目前是協同 [!UICONTROL Adobe Experience Platform] 處理。CJA 會繼承 [!UICONTROL Experience Platform] 對基礎資料集所做的任何資料變更。 |
 | 清單變數/清單 Prop | 完整資源；CJA 運用 XDM 並支援使用方式與 listVars 相似的無限制字串陣列。 |
 | 銷售變數持續性 | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=zh-Hant#binding-dimension)的完整支援 (2022 年 1 月) |
-| 銷售 eVar | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=en#binding-dimension)的完整支援 (2022 年 1 月) |
+| 銷售 eVar | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=zh-Hant#binding-dimension)的完整支援 (2022 年 1 月) |
 | 量度 | 完整支援；CJA 運用 Experience Data Model (XDM) 並支援無限制的量度，且未繫結到傳統 Analytics 的自訂成功事件。請注意，傳統 Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
 | 量度去重複化 | 完整支援 |
 | 面板 | 空白面板、歸因面板、自由表格面板和快速深入分析全都受到支援。 |
@@ -70,8 +70,8 @@ ht-degree: 92%
 
 | 功能 | 附註 |
 | --- | --- |
-| 機器人篩選 | 對於 [Adobe Analytics源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)基於資料集，應用bot過濾。 [!UICONTROL Experience Platform] 或 CJA 不會針對其他資料集執行一般機器人篩選邏輯。 |
-| Media Analytics | 媒體資料作為分析源連接器的一部分可用。 |
+| 機器人篩選 | 對於以 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)為基礎的資料集，則會套用機器人篩選。 [!UICONTROL Experience Platform] 或 CJA 不會針對其他資料集執行一般機器人篩選邏輯。 |
+| 媒體分析 | 媒體資料是 Analytics 來源連接器的一部分。 |
 | 面板 | 空白面板、歸因面板、自由表格面板和快速深入分析全都受到支援。不支援「區段比較」、「Analytics for Target」(A4T) 和「媒體同時檢閱者」面板。 |
 | 處理規則 | 對於以 Analytics 資料連接器為基礎的資料集，仍會套用處理規則。 [Adobe Experience Platform 中的資料準備功能](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)也可用來取代直接送到 Platform 的資料適用的處理規則。 |
 
@@ -80,18 +80,18 @@ ht-degree: 92%
 | 功能 | 附註 |
 | --- | --- |
 | 警報 | 已規劃提供支援。 |
-| 行事曆事件 | 將在工作區中稱為「注釋」。 |
-| 分類規則產生器 | 在CJA中，使用在報告時間使用字串操作而不是查找資料集時的工作方式將略有不同。 |
+| 行事曆事件 | 在工作區中將被稱為「Annotations」。 |
+| 分類規則產生器 | 在 CJA 中的運作方式略有不同，在報表時間使用字串操控，而不是查詢資料集。 |
 | 貢獻分析 | 已規劃提供支援。 |
 | Data Warehouse 報表 (100% 列匯出) | 規劃從 Analysis Workspace 介面提供支援。Adobe Experience Platform [[!UICONTROL 查詢服務]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)也會提供適用於在 CJA 中這些使用案例的介面。 |
 | 透過裝置圖表進行 ID 彙整 | 已規劃提供支援。 |
-| 提升和信心報告 | 已規劃提供支援。 |
-| 處理規則、VISTA規則、營銷渠道處理規則 | 支援已計畫，但將在查詢時工作，而不是在資料收集期間工作，以便進行更靈活、更可追溯和無損的資料操作。 |
+| 提升度和可信度報告 | 已規劃提供支援。 |
+| 處理規則、VISTA 規則、行銷頻道處理規則 | 已規劃提供支援，但將在查詢時運作 (而不是在資料收集期間)，以達成更靈活、可回溯、非破壞性的資料操控。 |
 | 專案範本 | 已規劃提供支援。 |
 | 即時報表 | 已規劃提供支援。 |
 | 區段 IQ | 已規劃提供支援。 |
-| 區段發佈 (將區段從 Analysis Workspace 傳送至 Experience Cloud) | 已規劃提供支援。將在CJA中稱為「觀眾發佈」。 |
-| 新會話與重複會話報告 | 計畫提供支援時需要注意一些問題。 |
+| 區段發佈 (將區段從 Analysis Workspace 傳送至 Experience Cloud) | 已規劃提供支援。 在 CJA 中將稱為「對象發佈」。 |
+| 新的與重複工作階段報告 | 已規劃提供支援，但有一些考量。 |
 
 ## 尚未規劃提供支援
 
@@ -99,7 +99,7 @@ ht-degree: 92%
 | --- | --- |
 | Activity Map | 尚未規劃提供支援。 |
 | Advertising Cloud | 尚未規劃提供支援。 |
-| 貨幣兌換 | 尚未規劃提供支援。 |
+| 貨幣轉換 | 尚未規劃提供支援。 |
 | 資料摘要 | 尚未規劃提供支援。 |
 | 摘要資料來源 | 尚未規劃提供支援。 |
 | 交易 ID 資料來源 | 尚未規劃提供支援。 |
