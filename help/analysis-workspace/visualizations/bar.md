@@ -1,12 +1,12 @@
 ---
-description: 「條形」可視化顯示表示一個或多個度量上各種值的垂直條形。
+description: 條形圖視覺效果會顯示代表一或多個量度之多個值的直條。
 title: 長條圖和堆疊長條圖
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
