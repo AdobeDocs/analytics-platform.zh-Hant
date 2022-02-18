@@ -1,16 +1,16 @@
 ---
-description: 如何更改可視化調色板或指定您自己的自定義調色板。
-title: 可視化調色板
+description: 如何變更視覺化調色盤或指定您自己的自訂調色盤。
+title: 視覺化調色盤
 feature: CJA Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 source-git-commit: cea2faeaf9c2779ab808506025780fd3659a94b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# 可視化調色板
+# 視覺化調色盤
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 82%
 
 請記住：
 
-* 有五種預先設定的調色盤可供選擇。預設調色板和下面的調色板已針對對比度進行了優化，對於色盲的用戶來說，這兩種調色板都更容易訪問。
+* 有五種預先設定的調色盤可供選擇。預設調色盤與其下方的調色盤已針對對比度進行最佳化，兩者皆變得更方便供色盲人士使用。
 * 在上方兩個調色盤之下的第三到第五個調色盤，則是針對顏色和諧度進行最佳化。
 
 ## 若要變更調色盤：
