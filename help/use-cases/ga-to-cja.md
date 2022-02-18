@@ -5,9 +5,9 @@ exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1178'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ FROM
 
 ### 1. 新增自訂變數
 
-在登入 Google 代碼管理工具帳戶後，您需要新增一些與 Adobe 相關的自訂常數變數。 您可能已經在Google標籤管理器中具有要發送到Google Analytics的變數，如客戶電子郵件、客戶名稱、語言和客戶登錄狀態。 您需要定義 5 個新的自訂變數：
+在登入 Google 代碼管理工具帳戶後，您需要新增一些與 Adobe 相關的自訂常數變數。 您或許在 Google 代碼管理工具中已經有變數正要傳送到 Google Analytics，例如客戶電子郵件、客戶名稱、語言及客戶登入狀態。 您需要定義 5 個新的自訂變數：
 
 * Adobe Experience Cloud 組織 ID
 * DCS 串流端點
