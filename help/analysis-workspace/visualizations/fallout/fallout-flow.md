@@ -1,12 +1,12 @@
 ---
-description: 沈降物可視化顯示訪問者離開（掉落）並繼續（掉落）預定義的頁序。
+description: 「流失」視覺效果可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。
 title: 流失概述
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 「流失」視覺效果可供您
 
-* 對同一報告中的兩個不同篩選器執行並排比較。
+* 在同一份報表中，執行兩個不同篩選器的並排比較。
 * 拖曳、放置和重新安排漏斗步驟 (接觸點)
 * 混合搭配來自不同維度和量度的值
 * 建立多維度流失報表
