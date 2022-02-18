@@ -4,10 +4,10 @@ description: 決定是否會在不同事件中儲存維度值或是如何儲存�
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+source-git-commit: 419279f8e01bc81b17c372c6c53939b81ddbf4b7
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 * **工作階段**：在指定的工作階段後過期。預設到期窗口。
 * **人員**：在您的報告期間結束時到期。
-* **時間**：您可以將維度值設為在指定的時段 (最長 90 天) 後到期。 這個到期選項僅適用於「原始」和「最近」配置模式。 在使用以時間為準的有效期時，將會考量您的報告期間 (最長 90 天) 開始前的值。
+* **自定義時間**:在指定的時間段後過期（最多90天）。 這個到期選項僅適用於「原始」和「最近」配置模式。 在使用以時間為準的有效期時，將會考量您的報告期間 (最長 90 天) 開始前的值。
 * **量度**：當在點擊中看到此量度時，立即使維度中的保存值過期。您可以使用量度當做此維度的到期點。 這個到期選項僅適用於「原始」和「最近」配置設定。
 
 ## [!UICONTROL 繫結維度]
