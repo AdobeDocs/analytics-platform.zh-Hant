@@ -4,7 +4,7 @@ description: 計算量度產生器可讓您套用統計和數學函數，以建�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
 ht-degree: 100%
 
