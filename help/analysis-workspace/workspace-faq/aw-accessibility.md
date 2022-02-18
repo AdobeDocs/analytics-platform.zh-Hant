@@ -4,15 +4,15 @@ title: Analysis Workspace 的協助工具
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Analysis Workspace 的協助工具
 
-瞭解中的輔助功能支援 [!UICONTROL Analysis Workspace]是Customer Journey Analytics的首要分析工具。
+了解 Customer Journey Analytics 的主要分析工具 [!UICONTROL Analysis Workspace] 中的協助工具支援。
 
 協助工具旨在讓產品適用於在視覺、聽覺、認知、運動能力和其他方面有障礙的人士。舉例來說，軟體產品的協助工具功能包括螢幕助讀程式支援、圖形等效文字、鍵盤快速鍵、將顯示器色彩變更為高對比等。
 
@@ -67,9 +67,9 @@ ht-degree: 96%
 | Alt + 1 | 新增自由表格 |
 | Ctrl + Shift + C | 新增計算量度 |
 | Ctrl + Shift + D | 新增日期範圍 |
-| Ctrl + Shift + E | 新增篩選條件 |
+| Ctrl + Shift + E | 新增篩選器 |
 | Ctrl + Z | 還原 |
-| 按住Shift鍵（在面板篩選器下拉清單中） | 建立[下拉式篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) |
+| 按住 Shift 鍵 (在面板篩選器放置區中) | 建立[下拉式篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) |
 
 #### 加速
 
