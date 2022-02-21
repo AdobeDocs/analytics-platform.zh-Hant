@@ -123,7 +123,7 @@ ht-degree: 97%
       + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [歸因總覽](analysis-workspace/attribution/overview.md)
-      + [歸因模式與回顧期間](analysis-workspace/attribution/models.md)
+      + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
       + [歸因最佳實務](analysis-workspace/attribution/best-practices.md)
       + [常見問答](analysis-workspace/attribution/faq.md)
@@ -195,7 +195,7 @@ ht-degree: 97%
 + 使用案例 {#cja-usecases}
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [使用物件陣列](use-cases/object-arrays.md)
-   + [使用綁定維和度量](use-cases/binding-dimensions-metrics.md)
+   + [使用繫結維度和量度](use-cases/binding-dimensions-metrics.md)
    + [(B2B) 新增帳戶層級資料當做查詢資料集](use-cases/b2b.md)
    + [跨管道分析資料](use-cases/cross-channel.md)
    + [匯入客服中心和網頁的資料](use-cases/call-center.md)
