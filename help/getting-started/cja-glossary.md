@@ -4,10 +4,10 @@ description: Customer Journey Analytics 術語。
 exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 部分 Customer Journey Analytics 術語與 Adobe Analytics 中一般所使用的術語不同：
 
 | Customer Journey Analytics 新術語 | Adobe Analytics 術語 | 說明 |
-|---|---|---|
+| --- | --- | --- |
 | 查詢資料集 | 分類 | 使用查詢功能，從具有 1 對 1 關係的指定資料集中擷取金鑰/相符金鑰 (位於事件資料集中) 的值。例如，您可以指定「tracking_code」作為符合事件資料集中「tracking_code」的金鑰。 |
 | 設定檔資料集 | 客戶屬性 | 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，可將這些資料上傳至 Adobe Experience Platform 上的設定檔資料集中。在 Customer Journey Analytics 中建立與該資料集的連線並建立資料檢視後，可在工作區中使用資料。 |
 | 登入公司 | Experience Cloud 組織 | 請參閱[組織和帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hant#topic_C31CB834F109465A82ED57FF0563B3F1)。 |
@@ -27,4 +27,4 @@ ht-degree: 100%
 ## Adobe Experience Platform 術語
 
 Adobe Experience Platform 可標準化整個企業的資料和內容、提供即時的消費者個人檔案、運用資料科學，以及加快內容速度，藉此促進客戶歷程中的體驗個人化。
-如需詳細資訊，請參閱 [Adobe Experience Platform 術語](https://www.adobe.io/apis/experienceplatform/home/services/acp-glossary.html)。
+如需詳細資訊，請參閱 [Adobe Experience Platform 術語](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=en)。
