@@ -4,10 +4,10 @@ description: 如何在工作區中建立註解。
 role: User, Admin
 feature: Components
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: b4e65903c720ecd9e684f8b7a764e2ba8f74baed
+source-git-commit: dfd38a9f668dcb0434b107e947aa74b4f9b826a3
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 61%
+source-wordcount: '608'
+ht-degree: 62%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 61%
 
 | 建立方法 | 詳細資料 |
 | --- | --- |
-| **轉到 [!UICONTROL 分析] > [!UICONTROL 元件] > [!UICONTROL 注釋]。** | 附註管理員頁面隨即開啟。按一下「[!UICONTROL 建立新附註]」，Annotation Builder 隨即開啟。 |
+| **轉到 [!UICONTROL 元件] > [!UICONTROL 注釋]。** | 附註管理員頁面隨即開啟。按一下「[!UICONTROL 建立新附註]」，Annotation Builder 隨即開啟。 |
 | **按一下右鍵表上的點。** | [!UICONTROL Annotation Builder 隨即開啟。]請注意，根據預設，以這種方式建立的附註只顯示在建立所在的專案中。但是您可將其設為用於所有專案。另請注意，日期/秒和任何度量等已填充。<p>![](assets/annotate-table.png) |
 | **按一下右鍵 [!UICONTROL 線] 圖。** | 的 [!UICONTROL 注釋生成器] 的上界。 請注意，根據預設，以這種方式建立的附註只顯示在建立所在的專案中。但是您可將其設為用於所有專案。另請注意，日期/秒和任何度量等已填充。<p>![](assets/annotate-line.png) |
 | **在工作區中，轉到 [!UICONTROL 元件] > [!UICONTROL 建立注釋]。** | 的 [!UICONTROL 注釋生成器] 的上界。 |
