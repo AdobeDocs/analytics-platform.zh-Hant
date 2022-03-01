@@ -1,17 +1,17 @@
 ---
-title: 在 CJA 中使用繫結維度和量度
+title: 在CJA中使用綁定維和度量
 description: 用於複雜持續性分析之物件陣列的屬性維度。
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
-source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
+source-git-commit: 28a6acd3f850e94a1f0d72477c22a5b30ab3fc2a
 workflow-type: tm+mt
 source-wordcount: '1330'
-ht-degree: 44%
+ht-degree: 43%
 
 ---
 
 
-# 在 CJA 中使用繫結維度和量度
+# 在CJA中使用綁定維和度量
 
 Customer Journey Analytics 提供了幾種方法來保持維度值超出設定的點擊。 Adobe 提供的一種持續性方法稱為「繫結」。 在舊版 Adobe Analytics 中，此概念稱為「銷售」。
 
