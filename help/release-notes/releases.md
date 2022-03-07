@@ -1,22 +1,23 @@
 ---
-description: 解釋連續功能發佈策略以用於Customer Journey Analytics
-title: Customer Journey Analytics功能版本
-source-git-commit: b740d3a18d1090b04cc50869d38600f016cf30d5
-workflow-type: tm+mt
+description: 說明 Customer Journey Analytics 的持續功能發行策略
+title: Customer Journey Analytics 功能發行
+exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
+source-git-commit: f2c82f54ec534603539327597d5f4c4ec875d44c
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics功能版本
+# Customer Journey Analytics 功能發行
 
-Customer Journey Analytics版本在連續交付模型上運行，該模型允許採用可擴展的分階段方法來部署功能。
+Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調整、分階段的方法進行未來部署。
 
 ## 發行策略
 
 [!UICONTROL Analysis Workspace] 使用功能旗標 (也稱為「切換」) 來控制新功能的可見性，以在完整版發行之前進行有限度的規模測試。此發行策略包含下列階段：
 
-* **發行至生產環境 (RTP)**：程式碼會發行至生產環境，但在 Analysis Workspace 中關閉功能可見性。CJA API中有時提供該功能。
+* **發行至生產環境 (RTP)**：程式碼會發行至生產環境，但在 Analysis Workspace 中關閉功能可見性。此功能有時會在 CJA API 中提供。
 
 * **有限測試**：分階段的發行從內部 Adobe 使用者的測試開始。在隨後的幾個月內，發行的可用性會從 0% 擴充至 100%。分階段推出會在 Experience Cloud 組織層級進行，因此組織中所有已獲授權的使用者都會獲得相同的體驗。
 
