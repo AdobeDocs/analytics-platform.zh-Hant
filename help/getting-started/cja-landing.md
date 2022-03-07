@@ -7,7 +7,7 @@ feature: CJA Basics
 source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 79%
+ht-degree: 98%
 
 ---
 
@@ -24,20 +24,20 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p> 
      <ul>
-     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=en"> 準備從Adobe Analytics遷移到Customer Journey Analytics </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/binding-dimensions-metrics.html?lang=en"> 在 CJA 中使用繫結維度和量度 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en"> 在 Adobe Experience Platform 中使用行銷管道維度
+     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html?lang=zh-Hant"> 準備從 Adobe Analytics 移轉到 Customer Journey Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/binding-dimensions-metrics.html?lang=zh-Hant"> 在 CJA 中使用繫結維度和量度 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hant"> 在 Adobe Experience Platform 中使用行銷管道維度
  </a> </li>
-     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant#connection-detail"> 使用增強的連接管理功能 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant#cja-dataviews"> 使用增強的資料視圖功能 </a> </li>
+     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant#connection-detail"> 使用加強的連線管理功能 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant#cja-dataviews"> 使用加強的資料檢視功能 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja.html?lang=zh-Hant#cja-usecases"> 將 Google Analytics 資料擷取至 Adobe Experience Platform </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=zh-Hant#cja-usecases"> 分析CJA中的Google Analytics資料 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ga-to-cja-reporting.html?lang=zh-Hant#cja-usecases"> 在 CJA 中分析 Google Analytics 資料 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant#cja-connections"> 跨管道分析 (在 Customer Journey Analytics 中拼接 ID) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=zh-Hant"> Customer Journey Analytics 快速入門 </a> </li> 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant"> 常見問答</a> </li> 
-   <td colname="col2" valign="top"> <p class="head"><b>發行說明</b> </p> 
+   <td colname="col2" valign="top"> <p class="head"><b>版本注意事項</b> </p> 
     <ul> 
-     <li>查看最新 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en" format="https" scope="external"> Customer Journey Analytics說明</a> 的子菜單。 </li> 
+     <li>請參閱最新的 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant" format="https" scope="external">Customer Journey Analytics 發行說明</a>，了解新功能和修正內容。 </li> 
     </ul> <p class="head"> <b>Adobe Experience Platform 資源</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/tw/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 

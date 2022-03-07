@@ -7,12 +7,12 @@ solution: Customer Journey Analytics
 type: Documentation
 index: true
 user-guide-title: Customer Journey Analytics 指南
-user-guide-description: 本指南提供對Customer Journey Analytics的支援，Adobe基於Adobe Experience Platform的跨渠道分析的下一代解決方案。
+user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 28a6acd3f850e94a1f0d72477c22a5b30ab3fc2a
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 93%
 # Customer Journey Analytics 指南 {#using}
 
 + [Customer Journey Analytics 指南](getting-started/cja-landing.md)
-+ 發行說明 {#releases}
++ 版本注意事項 {#releases}
    + [最新版本](release-notes/latest.md)
    + [2022 版本](release-notes/2022.md)
    + [2021 版本](release-notes/2021.md)
    + [2020 版本](release-notes/2020.md)
-   + [CJA版本](release-notes/releases.md)
+   + [CJA 版本](release-notes/releases.md)
    + [CJA 文件更新](release-notes/doc-changes.md)
 + Customer Journey Analytics 總覽 {#cja-overview}
    + [Customer Journey Analytics 總覽](getting-started/cja-overview.md)
    + [快速入門](getting-started/cja-getting-started.md)
    + [常見問答](getting-started/cja-faq.md)
-   + [準備從Adobe Analytics遷移到Customer Journey Analytics](getting-started/aa-to-cja.md)
+   + [準備從 Adobe Analytics 移轉到 Customer Journey Analytics](getting-started/aa-to-cja.md)
    + [Customer Journey Analytics 功能支援](getting-started/cja-aa.md)
    + [刪除關聯](getting-started/cja-deletion.md)
    + [CJA 字彙表](getting-started/cja-glossary.md)
@@ -54,7 +54,7 @@ ht-degree: 93%
       + [行為](data-views/component-settings/behavior.md)
       + [格式](data-views/component-settings/format.md)
       + [包含排除值](data-views/component-settings/include-exclude-values.md)
-      + [量度去重複化](data-views/component-settings/metric-deduplication.md)
+      + [量度重複資料刪除](data-views/component-settings/metric-deduplication.md)
       + [沒有值選項](data-views/component-settings/no-value-options.md)
       + [持續性](data-views/component-settings/persistence.md)
       + [值分組](data-views/component-settings/value-bucketing.md)

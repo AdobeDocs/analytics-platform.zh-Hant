@@ -7,7 +7,7 @@ feature: CJA Basics
 source-git-commit: e397ff4de0f65ebb0264eac3813046452c572256
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 87%
+ht-degree: 93%
 
 ---
 
@@ -36,9 +36,9 @@ Customer Journey Analytics 的初始版本包含 Analysis Workspace 中的多項
 
 ## 比較 CJA 與 Cross-Device Analytics
 
-[跨設備分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) 整合 [Adobe Experience Platform身份服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en)利用合作圖或專用圖來識別數字設備如何與人映射。 Adobe Analytics Ultimate 客戶可使用此功能。
+[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) 與 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant) 整合，利用 Co-op 圖表或私密圖表來識別數位裝置與人員對應的方式。Adobe Analytics Ultimate 客戶可使用此功能。
 
-另一方面，CJA 與 Adobe Experience Platform 資料集整合，並在 Analysis Workspace 中啟用跨管道分析。儘管CJA尚未與合作或私有標識圖形整合，但您可以「帶上您自己的ID」將資料集連接在一起。這些資料集可以超越數字資料，包括線上和離線觸點。 下文將詳細說明 CJA 必要條件。
+另一方面，CJA 與 Adobe Experience Platform 資料集整合，並在 Analysis Workspace 中啟用跨管道分析。雖然 CJA 尚未與 Co-op 或私密身分圖表整合，但您可以「自攜 ID」來聯結資料集。這些資料集可超出數位資料的範圍，同時包含線上和離線接觸點。下文將詳細說明 CJA 必要條件。
 
 ## 主要使用案例
 
@@ -102,7 +102,7 @@ Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶
 
 Experience Platform 的多個元件 (從資料內嵌到直接 SQL 存取) 是 Customer Journey Analytics 的核心，且可與其搭配使用：
 
-* [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)：使用標準 SQL 從 Adobe Experience Platform 擷取資料，例如 Adobe 解決方案資料、客戶第一方資料或任何其他 Platform 資料。這是一種無伺服器工具，可用來加入任何資料集，以及將查詢結果擷取為新資料集，並用於報表、Data Science Workspace 或內嵌至 Profile Service。您可以使用 Query Service 來建立資料分析生態系統，進而了解消費者在不同互動管道中的行為。這些管道可能包括銷售點系統、網路、行動裝置、CRM 系統等。
+* [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)：使用標準 SQL 從 Adobe Experience Platform 擷取資料，例如 Adobe 解決方案資料、客戶第一方資料或任何其他 Platform 資料。這是一種無伺服器工具，可用來加入任何資料集，以及將查詢結果擷取為新資料集，並用於報表、Data Science Workspace 或內嵌至 Profile Service。您可以使用 Query Service 來建立資料分析生態系統，進而了解消費者在不同互動管道中的行為。這些管道可能包括銷售點系統、網路、行動裝置、CRM 系統等。
 * [即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)：
 * [Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en)：
 * 「開發人員」選項中的 [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)：您可以在 Adobe Experience Platform 中使用預先建立的人工智慧 (AI) 和機器學習模型來影響客戶歷程的各個階段。透過發掘隱藏的深入分析，您可以針對客戶歷程做出更有效的預測、提供建議的最佳後續步驟，或是將繁瑣的程序自動化。
