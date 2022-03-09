@@ -5,16 +5,16 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: cec3d95d2877bad3a7fc4ac5e68691859262c2d4
+source-git-commit: a47343628ace3063d23c6ba023f73dcbdc24dbcc
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 93%
+ht-degree: 88%
 
 ---
 
 # Adobe Analytics對Customer Journey Analytics進化
 
-隨著您的組織逐漸將資料從Adobe Analytics移動到Customer Journey Analytics，請探討這些步驟以準備資料並瞭解這兩種技術之間的關鍵區別。 本文針對的是管理員受眾。
+隨著您的組織逐漸發展使用Customer Journey Analytics，請探討這些步驟以準備資料並瞭解這兩種技術之間的關鍵區別。 本文針對的是管理員受眾。
 
 ## 準備資料
 
@@ -34,7 +34,7 @@ ht-degree: 93%
 
 ### 2. 對應變數
 
-將 Adobe Analytics 資料移轉到 Customer Journey Analytics 最直接的方法，是使用 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將[全域報表套裝](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hant)擷取到 Experience Platform。此連接器將您的 Adobe Analytics 變數直接對應到 AEP 中的 XDM 結構描述和資料集，這些結構描述和資料集可輕鬆連接到 CJA。
+將Adobe Analytics資料轉換為Customer Journey Analytics資料的最直接方法是 [全局報告套件](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hant) Experience Platform [Adobe Analytics源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。 此連接器將您的Adobe Analytics變數直接映射到Experience Platform中的XDM架構和資料集，這反過來又可以輕鬆地連接到Customer Journey Analytics。
 
 完整的全域報表套裝並不總能用於實施。如果您計劃將多個報表套件引入 Customer Journey Analytics，則必須提前計劃以在這些報表套件中對應變數。
 
