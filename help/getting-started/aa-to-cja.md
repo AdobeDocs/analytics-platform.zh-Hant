@@ -1,19 +1,20 @@
 ---
-title: 從 Adobe Analytics 移轉到 Customer Journey Analytics
-description: 從 Adobe Analytics 移轉到 Customer Journey Analytics 的步驟
+title: Adobe Analytics對Customer Journey Analytics進化
+description: 將資料從Adobe Analytics移動到Customer Journey Analytics的步驟
+role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 2f38b38328816a523427d73f812041904e294bc7
-workflow-type: ht
-source-wordcount: '1234'
-ht-degree: 100%
+source-git-commit: cec3d95d2877bad3a7fc4ac5e68691859262c2d4
+workflow-type: tm+mt
+source-wordcount: '1242'
+ht-degree: 93%
 
 ---
 
-# 準備從 Adobe Analytics 移轉到 Customer Journey Analytics
+# Adobe Analytics對Customer Journey Analytics進化
 
-在將資料從 Adobe Analytics 移轉到 Customer Journey Analytics 之前，請先探索這些考量事項，以準備資料並了解這兩種技術之間的關鍵差異。
+隨著您的組織逐漸將資料從Adobe Analytics移動到Customer Journey Analytics，請探討這些步驟以準備資料並瞭解這兩種技術之間的關鍵區別。 本文針對的是管理員受眾。
 
 ## 準備資料
 
@@ -57,7 +58,7 @@ Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleagu
 
 這種方法大幅擴展了資料收集的可能性：欄位數不再有限制，也不再需要將資料元素對應到 Analytics 中的 prop、eVar 和 event 等變數。可以使用不同類型的無限結構描述元素，並使用 CJA [資料檢視](/help/data-views/data-views.md)以多種方式表示它們。當直接傳送到 Adobe Experience Platform 時，資料可用性的速度會加快，因為移除了透過 Adobe Analytics 進行資料處理的時間。
 
-**使用 Experience Platform SDK 的優勢**
+**使用 Experience Platform SDK 的優勢:**
 
 * 靈活的結構描述，可定義所需的任何欄位
 * 不依賴 Adobe Analytics 命名法 (prop、eVar 和 event 等)
@@ -105,7 +106,7 @@ Adobe Analytics 區段 (在 CJA 中稱為[!UICONTROL 篩選器]) 和計算量度
 
 * 運用 CJA 資料檢視的力量，您有更大的彈性來定義 Customer Journey Analytics 的量度和維度。例如，維度值可做為量度的定義。[了解更多](/help/data-views/data-views-usecases.md)
 
-* 如果您在 Adobe Analytics 定義了自訂行事曆，則 CJA 中將具有類似的行事曆功能。您需要確保行事曆已正確定義。
+* 如果您在Adobe Analytics定義了自定義日曆，則 [自定義日曆功能](/help/components/date-ranges/custom-date-ranges.md) 在CJA內。 您需要確保行事曆已正確定義。
 
 * 在 Customer Journey Analytics 中，可以定義自訂造訪/工作階段逾時，並定義將啟動新工作階段的量度。您可以建立具有不同工作階段定義的資料檢視，以獲得超越 Adobe Analytics 可能的見解。此功能對行動資料集尤其有益。
 
