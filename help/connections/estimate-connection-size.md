@@ -4,46 +4,43 @@ description: 回報 Customer Journey Analytics 目前的使用狀況
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 51%
 
 ---
 
 # 估算連線規模
 
-您可能需要知道 [!UICONTROL Customer Journey Analytics] 中有多少列資料。本主題旨在說明如何回報 [!UICONTROL Customer Journey Analytics] 目前的使用狀況。
+您可能需要知道 [!UICONTROL Customer Journey Analytics] 中有多少列資料。要準確瞭解組織的事件資料記錄（資料行）使用情況，請執行以下操作 **組織建立的每個連接**。
 
 1. 在 [!UICONTROL Customer Journey Analytics] 中按一下&#x200B;**[!UICONTROL 「連線」]**&#x200B;索引標籤。
-1. 在[!UICONTROL 「編輯連線」]畫面上，選取要決定使用/連線規模的連線。
 
-   ![編輯連線](assets/edit-connection.png)
+   您現在可以看到所有當前連接的清單。
 
-1. 在左側邊欄選取連線的資料集。在此案例中，我們需要選取「B2B Impression」資料集。
+1. 按一下每個連接名稱以進入連接管理器。
 
-   ![資料集](assets/dataset.png)
+1. 將 **[!UICONTROL 可用事件資料記錄]** 為建立的所有連接。 （根據連接大小，可能需要一段時間才能顯示該數字。）
 
-1. 按一下名稱旁邊的藍色 (i) 圖示 (即資訊的意思)，您會看到資料集有 3,800 列/個事件。此外，如需確切列數，請按一下預覽表格下方的&#x200B;**[!UICONTROL 「在 Experience Platform 中編輯」]**。這會將您重新導向 [!UICONTROL Adobe Experience Platform] 中的資料集。
+   ![事件資料](assets/event-data.png)
 
-   ![AEP 資料集資訊](assets/data-size.png)
+1. 一旦您擁有了所有事件資料行的總和，請查找您公司與Adobe簽署的Customer Journey Analytics合同中的「資料行」權利。
 
-1. 請注意，此資料集數量的&#x200B;**[!UICONTROL 「記錄總數」]**&#x200B;為 3,830 筆記錄，資料大小為 388.59 KB。
+   這為您提供了銷售訂單中授權的最大資料行數。 如果步驟3產生的資料行數大於此數，則您將產生超量。
 
-1. 對連線中的其他資料集重複執行第 1 步到第 5 步，並加總記錄數量/列數。最終的總和就是您連線的使用情形量度。這是您要從 [!UICONTROL Adobe Experience Platform] 擷取的連線資料集列數。
+1. 要糾正此情況，您有以下幾種選擇：
 
-## 決定擷取列數
+   * 更改 [資料保留設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant#set-rolling-window-for-connection-data-retention)。
+   * [刪除任何未使用的連接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#implications-of-deleting-data-components)。
+   * [刪除AEP中的資料集](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components)。
+   * 請與Adobe客戶經理聯繫，以許可其他容量。
 
-[!UICONTROL Customer Journey Analytics] 中實際擷取的事件數端視您的連線組態設定而定。此外，如果您選取錯誤的人員 ID，或資料集中的某些列無法使用此 ID，[!UICONTROL Customer Journey Analytics] 就會忽略這些列。若要決定實際擷取的事件列數，請執行下列步驟：
+## 關於使用超額
 
-1. 儲存連線後，在不使用任何篩選器的情況下，建立相同連線的資料檢視。
-1. 建立 Analysis Workspace 專案並選取正確的資料檢視。建立自由表格，並拖放具有&#x200B;**[!UICONTROL 「年」]**&#x200B;維度的&#x200B;**[!UICONTROL 「事件數」]**&#x200B;量度。在日期選取行事曆中選擇夠大的日期範圍，以涵蓋連線中的所有資料。這可讓您查看擷取至 [!UICONTROL Customer Journey Analytics] 的事件數。
+Adobe會每天嚴格監控和執行使用限制。 「資料行」是指可用於Customer Journey Analytics內分析的每日平均資料行。
 
-   ![Analysis Workspace 專案](assets/event-number.png)
-
-   >[!NOTE]
-   >
-   >這可讓您查看從事件資料集擷取的事件數，但不包含設定檔和查詢類型資料集。如需設定檔和查詢資料集的相關數據，請按照「估算連線規模」的第 1 步至第 3 步操作，加總所有數字即可得到此連線的總列數。
+假設您的合同權利將行數限制為100萬。 假設在使用Customer Journey Analytics的第1天，您上載200萬行資料。 在第2天，您將刪除100萬行，並將使用率保持在承諾的最大值。 您仍將支付第1天的超額使用費。
 
 ## 診斷不一致
 
@@ -53,6 +50,6 @@ ht-degree: 100%
 
    ![劃分](assets/data-size2.png)
 
-1. 此外，如果查看 [!UICONTROL Adobe Experience Platform]，會發現沒有 ID 為「5f21c12b732044194bffc1d0」的資料集，這是因為最初建立連線時，有人從 [!UICONTROL Adobe Experience Platform] 中刪除了這個資料集。之後，雖然有人將資料集重新新增至 [!UICONTROL Customer Journey Analytics]，但 [!UICONTROL Adobe Experience Platform] 產生的 [!UICONTROL Platform 資料集 ID] 不同。
+1. 此外，如果查看 [!UICONTROL Adobe Experience Platform]，會發現沒有 ID 為「5f21c12b732044194bffc1d0」的資料集，這是因為最初建立連線時，有人從 [!UICONTROL Adobe Experience Platform] 中刪除了這個資料集。之後，雖然有人將資料集重新新增至 Customer Journey Analytics，但 [!UICONTROL Adobe Experience Platform] 產生的 [!UICONTROL Platform 資料集 ID] 不同。
 
-深入了解在 [!UICONTROL Customer Journey Analytics] 和 [!UICONTROL Adobe Experience Platform] 中[刪除資料集和連線可能造成的後果](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#implications-of-deleting-data-components)。
+深入了解在 [!UICONTROL Customer Journey Analytics] 和 [!UICONTROL Adobe Experience Platform] 中[刪除資料集和連線可能造成的後果](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#implications-of-deleting-data-components)。

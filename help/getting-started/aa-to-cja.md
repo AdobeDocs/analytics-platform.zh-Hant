@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics對Customer Journey Analytics進化
-description: 將資料從Adobe Analytics移動到Customer Journey Analytics的步驟
+description: 將Adobe Analytics資料轉換為Customer Journey Analytics資料的步驟
 role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: a47343628ace3063d23c6ba023f73dcbdc24dbcc
+source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 88%
