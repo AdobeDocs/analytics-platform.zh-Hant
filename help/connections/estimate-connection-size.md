@@ -4,10 +4,10 @@ description: 回報 Customer Journey Analytics 目前的使用狀況
 exl-id: 5599b34f-342d-4c68-b7c9-2ac3ea50d078
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+source-git-commit: 74934c8684198104c808284310bcdfd633085574
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 51%
+source-wordcount: '535'
+ht-degree: 50%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 51%
 
 Adobe會每天嚴格監控和執行使用限制。 「資料行」是指可用於Customer Journey Analytics內分析的每日平均資料行。
 
-假設您的合同權利將行數限制為100萬。 假設在使用Customer Journey Analytics的第1天，您上載200萬行資料。 在第2天，您將刪除100萬行，並將使用率保持在承諾的最大值。 您仍將支付第1天的超額使用費。
+假設您的合同權利將行數限制為100萬。 假設在使用Customer Journey Analytics的第1天，您上載200萬行資料。 在第2天，您將刪除100萬行，並在剩餘的許可期限內將使用率保持在承諾的最大值。 根據您的合同條款，您仍可能在第1天按比例支付超額使用費。
 
 ## 診斷不一致
 
