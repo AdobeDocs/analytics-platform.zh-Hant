@@ -4,10 +4,10 @@ description: 當您的公司將資料從Adobe Analytics移動到Customer Journey
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: eeb56599c81dd9cd20bf91c864aa57a783ef13fd
+source-git-commit: 555e6cc3a987a0bbd396eaf322a7edb3a9f66680
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 40%
+source-wordcount: '625'
+ht-degree: 26%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 40%
 
 ## 新架構
 
-從體系結構上講，Customer Journey Analytics從Adobe Experience Platform獲取資料。 Experience Platform使您能夠集中並標準化來自任何系統或渠道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
+Customer Journey Analytics從Adobe Experience Platform獲取資料。 Experience Platform使您能夠集中並標準化來自任何系統或渠道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
 
 Platform 中的客戶資料以資料集形式儲存，而資料集是由結構和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en)。
 
@@ -34,10 +34,26 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 與傳統的Adobe Analytics相比，CJA中的幾項功能已經更名並重新設計，以符合行業標準。 某些更新的術語包括段、虛擬報表套件、分類、客戶屬性和容器名稱。 耳熟能詳的概念，如電子貨幣和道具，以及它們施加的限制，已不復存在。
 
+### Vars和道具
+
+[!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。
+
 ### 段現在是「篩選器」
 
+[!UICONTROL Customer Journey Analytics 不再使用 eVar、prop 或事件，而是使用 AEP 結構。]這意味著現有的資料段都與 [!UICONTROL Customer Journey Analytics]。 此外，已將&quot;段&quot;更名為&quot;filters&quot;。
+
+目前，您無法共用/發佈 [!UICONTROL 篩選] ([!UICONTROL 段]從 [!DNL Customer Journey Analytics] Experience Platform統一配置檔案或其他Experience Cloud應用程式。 此功能當前正在開發中。
+
+### 計算量度
+
+[!UICONTROL Customer Journey Analytics 不再使用 eVar、prop 或事件，而是使用 AEP 結構。]這意味著現有計算的度量都與 [!UICONTROL Customer Journey Analytics]。
+
+### 會話和變數持久性設定
+
+[!UICONTROL Customer Journey Analytics 會在報告時套用這些設定，而這些設定現在會顯示於「資料檢視」。]這些設定的變更現在可回溯，使用多個「資料檢視」即可擁有多個版本！
 
 ### 虛擬報告套件現在是「資料視圖」
+
 
 
 ### 分類現在是「查找資料集」
@@ -51,13 +67,6 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 ### 訪問者容器現在是「人」容器
 
-## 有關Adobe Analytics元件的常見問題
+### `Uniques Exceeded` 限制
 
-| 問題 | 回答 |
-| --- | --- |
-| 我可以將 [!DNL Customer Journey Analytics] 中的[!UICONTROL 篩選器] ([!UICONTROL 區段]) 共用/發佈到 Experience Platform Unified Profile 或其他 Experience Cloud 應用程式嗎？ | 還不行，我們正在積極努力地提供這項功能。 |
-| 我的舊 [!UICONTROL eVar] 設定發生了什麼事？ | [!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。 |
-| 我所有的工作階段和變數持續性設定現在位於何處？ | [!UICONTROL Customer Journey Analytics 會在報告時套用這些設定，而這些設定現在會顯示於「資料檢視」。]這些設定的變更現在可回溯，使用多個「資料檢視」即可擁有多個版本！ |
-| 我們現有的區段/計算量度有何改變？ | [!UICONTROL Customer Journey Analytics 不再使用 eVar、prop 或事件，而是使用 AEP 結構。]換句話說，現有的區段或計算量度都會與 [!UICONTROL Customer Journey Analytics] 不相容。 |
-| [!UICONTROL Customer Journey Analytics] 如何處理 `Uniques Exceeded` 限制？ | [!UICONTROL Customer Journey Analytics 沒有唯一值的限制，因此無需擔心這些限制！] |
-| 如果我是現有 [!DNL Data Workbench] 客戶，現在是否可以改用 Customer Journey Analytics？ | 這取決於您的使用案例 - 請與您的 Adobe 帳戶團隊合作。 您目前的使用案例可能已經很適合使用 Customer Journey Analytics！ |
+[!UICONTROL Customer Journey Analytics 沒有唯一值的限制，因此無需擔心這些限制！]
