@@ -1,15 +1,15 @@
 ---
-title: 如何在 Customer Journey Analytics 的 Report Builder 中使用篩選器
-description: 說明如何在 CJA 的 Report Builder 中使用篩選器
+title: 篩選Customer Journey AnalyticsDimension
+description: 介紹如何在Report Builder中為CJA使用篩選器維
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '920'
-ht-degree: 100%
+source-git-commit: 39a399f5267b37548d4e757140268d6f104370b6
+workflow-type: tm+mt
+source-wordcount: '916'
+ht-degree: 98%
 
 ---
 
