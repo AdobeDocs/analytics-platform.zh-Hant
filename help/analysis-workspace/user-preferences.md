@@ -4,9 +4,9 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '230'
+source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
+workflow-type: tm+mt
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 100%
 |  | [面板類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/panels.html?lang=zh-Hant) | <ul><li>自由形式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
 |  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔符號 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
+|  | 自由表格 | <ul><li>顯示異常狀況 </li><li>顯示 sparklines</li><li>顯示附註</li></ul> |
 
 ## [!UICONTROL 深色佈景主題]
 
