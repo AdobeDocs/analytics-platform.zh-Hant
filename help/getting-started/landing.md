@@ -3,9 +3,9 @@ description: 解釋新登錄頁的功能。
 title: Customer Journey Analytics登錄頁
 role: User, Admin
 feature: CJA Basics
-source-git-commit: 186c462c363660970080acbb9a906c4cf8254df8
+source-git-commit: 2aafa1b1181377ff80b12dbaecd9634e53f1a08c
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1053'
 ht-degree: 58%
 
 ---
@@ -32,15 +32,13 @@ Customer Journey Analytics的登錄頁包括項目經理首頁和學習部分，
 
 「[!UICONTROL 專案]」可用作  [!UICONTROL Workspace] 首頁。任何 Workspace 專案會顯示在此處，包含行動計分卡。**[!UICONTROL 專案]**&#x200B;是您已建立或其他人已建立並供您分享的事物。[!UICONTROL 專案]也指空白專案和空白移動計分卡。
 
-![登陸 - 所有項目](assets/landing-all.png)
-
 >[!NOTE]
 >
 >以下幾項設定會在本工作階段並跨多個工作階段中持續使用 (被記住)。範例：您開啟的標記、選取的篩選器、選取的欄項，以及欄項排序方向。但是，搜尋結果不會持續存在。
 
 | UI 元素 | 定義 |
 | --- | --- |
-| ... 更多 | 讓您[!UICONTROL 檢視教學課程]和[編輯使用者偏好設定](/help/analyze/analysis-workspace/user-preferences.md)。 |
+| ... 更多 | 讓您[!UICONTROL 檢視教學課程]和[編輯使用者偏好設定](/help/analysis-workspace/user-preferences.md)。 |
 | **[!UICONTROL 新建]** 模式返回 | 按一下 **[!UICONTROL 新建]** 在工作區中，您再次可以在 [!UICONTROL 空白項目] 和 [!UICONTROL 空白移動記分卡]。 您還可以從公司建立的任何模板中進行選擇。 |
 | [!UICONTROL 顯示較少/較多] | 在不顯示和顯示標題之間切換： ![頂條](assets/top-banner.png) |
 | [!UICONTROL 空白專案] | 建立空白的 [Workspace 專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)供您填入。 |
@@ -52,7 +50,7 @@ Customer Journey Analytics的登錄頁包括項目經理首頁和學習部分，
 | 選取方塊 | 按一下一個或多個專案旁邊的這個方塊，會顯示您可以執行的專案管理操作：刪除、標記、釘選、核准、共用、重新命名、複製和匯出至 CSV。您可能沒有執行所有這些操作的權限。 |
 | [!UICONTROL 我的最愛] | 將專案設為「我的最愛」會讓專案取得一顆星，且會將其標記為您可篩選的「我的最愛」。 |
 | [!UICONTROL 名稱] | 專案名稱。 |
-| 資訊 (i) 圖示 | 按一下資訊圖示會顯示以下有關此專案的資訊：類型、專案角色、所有者、說明，以及供分享的對象。此資訊也會指明誰可以[編輯或重複](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/curate-share/share-projects.html)此專案。 |
+| 資訊 (i) 圖示 | 按一下資訊圖示會顯示以下有關此專案的資訊：類型、專案角色、所有者、說明，以及供分享的對象。此資訊也會指明誰可以[編輯或重複](/help/analysis-workspace/curate-share/share-projects.md)此專案。 |
 | 省略 (...) | 按一下專案旁邊的省略符號，會顯示您可以執行的專案管理操作：刪除、標記、釘選、核准、共用、重新命名、複製和匯出至 CSV。注意，您可能沒有執行所有這些操作的權限。 |
 | [!UICONTROL 類型] | 指示此類型是 Workspace 專案還是行動計分卡。  |
 | [!UICONTROL 標記] | 您可以標記報表，可方便分類整理。 |
@@ -62,7 +60,7 @@ Customer Journey Analytics的登錄頁包括項目經理首頁和學習部分，
 | [!UICONTROL 共用對象] | 與誰共用此項目。 |
 | [!UICONTROL 上次修改日期] | 上次修改此項目的時間。 |
 | [!UICONTROL 上次開啟時間] | 您上次開啟此專案的時間。 |
-| [!UICONTROL 已排程] | 設定為 [!UICONTROL 開] 計畫項目時或 **[!UICONTROL 關閉]** 不是的。 按一下 **[!UICONTROL 開]** 連結用於查看有關計畫項目的資訊。 您也可以 [編輯項目計畫](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 的雙曲餘切值。 |
+| [!UICONTROL 已排程] | 設定為 [!UICONTROL 開] 計畫項目時或 **[!UICONTROL 關閉]** 不是的。 按一下 **[!UICONTROL 開]** 連結用於查看有關計畫項目的資訊。 您也可以 [編輯項目計畫](/help/analysis-workspace/curate-share/t-schedule-report.md) 的雙曲餘切值。 |
 | [!UICONTROL 專案 ID] | 項目ID可用於調試項目。 |
 | [!UICONTROL 最大日期範圍] | 更長的日期範圍會增加項目複雜性，並可能增加處理和載入時間。 |
 | [!UICONTROL 查詢數] | 項目查詢數量的增加增加了項目複雜性，並可能增加處理和載入時間。 |
