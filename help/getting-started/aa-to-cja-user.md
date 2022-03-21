@@ -4,9 +4,9 @@ description: 當您的公司將資料從Adobe Analytics移動到Customer Journey
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 24a6319b1303eaef80ddf6142deae60e7f664ae4
+source-git-commit: d31f07d8b26ea4d60481c040a0ca1ba491d4ecf0
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '646'
 ht-degree: 25%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 25%
 >
 >此頁正在構建中。
 
-恭喜你，你的公司開始工作Customer Journey Analytics! 作為Adobe Analytics的用戶，你已經擁有了不錯的先機。 在與Customer Journey Analytics合作時，你會注意到一些巨大的差異和一些相似之處。 本頁旨在解釋那些沒有改變的事以及一些主要差異。 我們還將告訴您，您如何獲得有關新概念的更多資訊，以及進一步的步驟，使您的客戶之旅更輕鬆、更成功。
+恭喜你，你的公司開始與Customer Journey Analytics合作！ 作為熟悉Adobe Analytics的用戶，你已經擁有了不錯的先機。 在與Customer Journey Analytics合作時，你會注意到一些巨大的差異和一些相似之處。 本頁旨在解釋那些沒有改變的事以及一些主要差異。 我們還將告訴您，您如何獲得有關新概念的更多資訊，以及進一步的步驟，使您的客戶之旅更輕鬆、更成功。
 
 ## 未更改的內容
 
