@@ -3,18 +3,14 @@ title: 檢視目前的 Customer Journey Analytics 版本注意事項
 description: 最新 CJA 版本注意事項
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 4afb87d0160dff9cd3249889bab84dacfdc43e2a
+source-git-commit: 39869e6ab2da8b15cb5dde876fe5233fc7c35adf
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 34%
+source-wordcount: '191'
+ht-degree: 30%
 
 ---
 
 # 目前的 Customer Journey Analytics 版本注意事項 (2022 年 3 月)
-
->[!IMPORTANT]
->
->此版本注意事項包含可能會變動的發行前資訊。
 
 **上次更新**:2022年3月23日
 
