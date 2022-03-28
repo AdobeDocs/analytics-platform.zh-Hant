@@ -4,10 +4,10 @@ title: 快速篩選
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
+source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 82%
+source-wordcount: '1028'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 82%
 
 您可以在專案中建立快速篩選以迴避完整[篩選產生器](/help/components/filters/create-filters.md)的複雜性。快速篩選
 
-* 應用為 [僅項目段](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html?lang=en#what-are-project-only-filters)。
+* 套用為[僅限專案區段](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html)。
 * 最多允許 3 個規則
 * 不要容納巢狀容器或循序規則。
 
@@ -99,11 +99,11 @@ ht-degree: 82%
 1. 該篩選現在會顯示在所有專案的篩選元件清單中。
 1. 您也可以和組織中的其他人[共用篩選](/help/components/filters/manage-filters.md)。
 
-## 什麼是僅限專案的篩選？
+## 什麼是僅限專案的篩選？ {#project-only}
 
 僅限項目的篩選器是僅應用於在中建立的當前項目的篩選器。 在其他項目中不可用，無法與其他用戶共用。 它們旨在快速探索您的資料，而無需在左滑軌中建立和保存過濾器。 可以在面板下拉區域中使用快速篩選器或 [點對點篩選器](/help/components/filters/ad-hoc-filters.md)。
 
-如果在 [!UICONTROL 篩選器生成器]，將顯示僅項目通知。 如果未選中「使此篩選器可用……」 按一下 **[!UICONTROL 應用]**，該分部仍為僅項目分部。
+如果在 [!UICONTROL 篩選器生成器]，將顯示僅項目通知。 如果未選中「使此篩選器可用……」 並按一下&#x200B;**[!UICONTROL 套用]**，則該區段仍維持為僅限專案的區段。
 
 >[!NOTE]
 >

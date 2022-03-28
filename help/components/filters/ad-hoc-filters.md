@@ -4,16 +4,16 @@ title: 臨時專案篩選
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: 5743bece216431fecc073528ca2509cd2ed72f2b
+source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 54%
+source-wordcount: '295'
+ht-degree: 61%
 
 ---
 
 # 臨時專案篩選
 
-即席項目篩選器允許您直接將任何元件拖放到面板拖放區域以建立篩選器。 過濾器變成 [項目級篩選器](https://experienceleague.adobe.com/docs/analytics-platform/analysis-workspace/components/filters/quick-filters.html?#what-are-project-only-segments) 本地到當前項目。
+即席項目篩選器允許您直接將任何元件拖放到面板拖放區域以建立篩選器。 過濾器變成 [項目級篩選器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=zh-Hant) 本地到當前項目。
 
 以下是有關建立臨時專案篩選的影片：
 
@@ -44,8 +44,8 @@ ht-degree: 54%
 
 1. 在拖放區域中的篩選條件上暫留，並按一下「i」圖示。
 1. 按一下編輯鉛筆可轉到「篩選器生成器」。
-1. 檢查 **[!UICONTROL 使所有項目都可用並添加到元件清單]**。
-1. 按一下 **[!UICONTROL 保存]**。
+1. 勾選&#x200B;**[!UICONTROL 「設為可用於所有專案，並新增至您的元件清單」]**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 保存後，過濾器將在左側導軌元件清單中可用，並可與「過濾器管理器」中的其他用戶共用。
 
