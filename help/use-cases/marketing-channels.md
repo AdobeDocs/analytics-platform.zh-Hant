@@ -4,10 +4,10 @@ description: 使用 Analytics Data Connector 將行銷管道處理規則匯入 A
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '920'
-ht-degree: 100%
+source-git-commit: 0b4dbe76e21c443b46b56f302b1a23858c65f828
+workflow-type: tm+mt
+source-wordcount: '957'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 先決條件
 
-* 須先使用 [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant) 將報表套裝資料匯入 Adobe Experience Platform。由於行銷管道需仰賴 Analytics 報表套裝中的處理規則來運作，因此不支援其他資料來源。
+* 須先使用 [Analytics Data Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 將報表套裝資料匯入 Adobe Experience Platform。由於行銷管道需仰賴 Analytics 報表套裝中的處理規則來運作，因此不支援其他資料來源。
 * 行銷管道處理規則須完成設定。請參閱舊版 Analytics 元件指南中的[行銷管道處理規則](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=zh-Hant)。
 
 ## 行銷管道結構元素
@@ -39,9 +39,13 @@ ht-degree: 100%
 >
 >報表套裝資料和 Platform 資料之間有些基礎上的資料差異。Adobe 強烈建議您調整報表套裝的行銷管道處理規則，以便在 Platform 收集正確的資料。
 
+>[!NOTE]
+>
+>為了讓 Attribution IQ 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=zh-Hant)。
+
 行銷管道設定對 Platform 資料和報表套裝資料的運作方式不同。針對 CJA 設定行銷管道時，請考量下列差異：
 
-* **是瀏覽的第一個頁面**：此規則條件在多個行銷管道的預設定義中很常見。只要處理規則內含有此條件，Platform 就會加以忽略 (同一規則中的其他條件仍適用)。工作階段是由資料查詢時間 (而非資料收集時間) 所決定，因此 Platform 無法使用此特定規則條件。Adobe 建議從所有行銷管道的處理規則中移除「是瀏覽的第一個頁面」條件。
+* **是瀏覽的第一個頁面**：此規則條件在多個行銷管道的預設定義中很常見。只要處理規則內含有此條件，Platform 就會加以忽略 (同一規則中的其他條件仍適用)。工作階段是由資料查詢時間 (而非資料收集時間) 所決定，因此 Platform 無法使用此特定規則條件。Adobe建議重新評估包含「訪問第一頁」標準的任何營銷渠道處理規則，並選擇可實現目標的其他方法。
 
    ![瀏覽的第一個頁面](assets/first-page-of-visit.png)
 
@@ -62,5 +66,5 @@ ht-degree: 100%
 * 確認上方列出的架構差異不會影響比較作業，包括移除不會覆寫最近一次接觸管道的管道，以及移除第一個瀏覽點擊 (工作階段) 的規則條件。
 * 再次確認連線是否使用與舊版 Analytics 相同的報表套裝。如果您的 CJA 連線包含多個報表套裝，且套裝具有專屬的行銷管道處理規則，便無法輕易地與舊版 Analytics 並置比較。建議您為每個報表套裝建立個別連線，以便比較資料。
 * 確認您所比較的資料出自相同的日期範圍，而且資料檢視與報表套裝的時區設定相同。
-* 檢視報表套裝資料時，請使用自訂歸因模型，例如使用量度非預設歸因模型的[「行銷管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=zh-Hant)維度。由於[「首次接觸管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=zh-Hant)或[「最近一次接觸管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=zh-Hant)皆仰賴報表套裝所收集的歸因，因此 Adobe 不建議比較這些預設維度。CJA 不仰賴報表套裝的歸因資料，而是在執行 CJA 報表時計算。
+* 檢視報表套裝資料時，請使用自訂歸因模型，例如使用量度非預設歸因模型的[「行銷管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html)維度。由於[「首次接觸管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=zh-Hant)或[「最近一次接觸管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=zh-Hant)皆仰賴報表套裝所收集的歸因，因此 Adobe 不建議比較這些預設維度。CJA 不仰賴報表套裝的歸因資料，而是在執行 CJA 報表時計算。
 * 基於報表套裝資料和 Platform 資料的架構有所差異，部分量度並不適合比較，像是造訪/工作階段、訪客/人員、發生次數/事件。
