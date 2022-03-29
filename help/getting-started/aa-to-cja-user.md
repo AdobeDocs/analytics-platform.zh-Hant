@@ -4,10 +4,10 @@ description: 當您的公司將資料從Adobe Analytics移動到Customer Journey
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 07c9bda0c40bf1e7bd39bf75bdce900a4749f0da
+source-git-commit: 957cb693a9fd814cbf571696964cd4f91d338307
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 20%
+source-wordcount: '982'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 >
 >此頁正在構建中。
 
-恭喜你，你的公司開始與Customer Journey Analytics合作！ 作為熟悉Adobe Analytics的用戶，你已經擁有了不錯的先機。 在與Customer Journey Analytics合作時，你會注意到一些巨大的差異和一些相似之處。 本頁旨在解釋那些沒有改變的事以及一些主要差異。 我們還將告訴您，您如何獲得有關新概念的更多資訊，以及進一步的步驟，使您的客戶之旅更輕鬆、更成功。
+恭喜您，您的公司正在開始雇傭Customer Journey Analytics! 作為熟悉Adobe Analytics的用戶，你已經擁有了不錯的先機。 在與Customer Journey Analytics合作時，你會注意到一些巨大的差異和一些相似之處。 本頁旨在解釋那些沒有改變的事以及一些主要差異。 我們還將告訴您，您如何獲得有關新概念的更多資訊，以及進一步的步驟，使您的客戶之旅更輕鬆、更成功。
 
 ## 未更改的內容
 
@@ -28,7 +28,7 @@ ht-degree: 20%
 * 您還有相同版本的 [Adobe Analytics儀表板](/help/mobile-app/home.md) 隨你。 工作區和儀表板的工作方式與傳統Adobe Analytics一樣。
 * [Report Builder](/help/report-builder/report-buider-overview.md) 它有一個新的介面，現在可以在PC、Mac和Excel的Web版本上運行。
 
-在報告方面，不同之處在於您能夠訪問更多跨渠道資料進行分析。 下面是一些包括許多跨通道資料源的多通道可視化示例：
+在報告方面，不同之處在於您能夠訪問更多跨渠道資料進行分析。 下面是一些包含跨通道資料源的可視化示例：
 
 ![多通道可視化](assets/cross-channel.png)
 
@@ -38,7 +38,7 @@ Customer Journey Analytics從Adobe Experience Platform獲取資料。 Experience
 
 Platform 中的客戶資料以資料集形式儲存，而資料集是由結構和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en)。
 
-您的CJA管理員已建立 [連接](/help/connections/create-connection.md) 到平台中的資料集。 然後他們建了 [資料視圖](/help/data-views/data-views.md) 在那些聯繫里。 將資料視圖視為類似於虛擬報告套件。 資料視圖是Customer Journey Analytics報告的基礎。
+您的CJA管理員已建立 [連接](/help/connections/create-connection.md) 到平台中的資料集。 然後他們建了 [資料視圖](/help/data-views/data-views.md) 在那些聯繫里。 將資料視圖視為類似於虛擬報告套件。 資料視圖是Customer Journey Analytics報告的基礎。 報告套件的概念已不復存在。
 
 ## 新概念和術語
 
@@ -72,17 +72,30 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 * 如果要將Adobe Analytics計算的度量移到Customer Journey Analytics，請查看 [這個視頻](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=zh-Hant)。
 * 否則，在Customer Journey Analytics中重新建立計算的度量。
 
-### 會話和變數持久性設定
-
-[!UICONTROL Customer Journey Analytics] 在報告時應用所有這些設定，這些設定現在處於 [資料視圖](help/data-views/component-settings/persistence.md)。 對這些設定的更改現在具有追溯性，您可以使用多個資料視圖擁有多個版本！
-
 ### 虛擬報告套件現在是「資料視圖」
 
 資料視圖將虛擬報告套件的概念與當前存在一樣，並將其擴展到 [啟用對資料的其他控制項](/help/data-views/create-dataview.md) 連接可用。 這使時區和會話超時間隔可以配置。 您還可以動態應用各個維的屬性和到期屬性。 請注意，這些應用於所有資料。
 
+**您需要做的**:
+
+* 熟悉有關資料視圖的許多使用案例。
+* 請注意，在Workspace中，您現在使用的報告套件選擇器允許您從管理員已與您共用的資料視圖中進行選擇：
+
+   ![資料視圖選擇器](assets/data-views.png)
+
 ### 跨報表套件資料
 
-來自多個資料集的現有實現可以組合為Experience Platform。
+來自多個資料集的現有實現可以組合為Experience Platform。 基於這些資料集的連接和資料視圖可以合併先前存在於單獨報告套件中的資料。
+
+**您需要做的**:
+
+
+### 會話和變數持久性設定
+
+[!UICONTROL Customer Journey Analytics] 在報告時應用所有這些設定，這些設定現在處於 [資料視圖](help/data-views/component-settings/persistence.md)。 對這些設定的更改現在具有追溯性，您可以使用多個資料視圖擁有多個版本！
+
+**您需要做的**:
+
 
 ### 分類現在是「查找資料集」
 
@@ -91,11 +104,15 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 ### 容器已更名
 
-指定容器 [建立的每個資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers)。 請注意，您可以更名任何容器以滿足組織的需要。
-
+指定容器 [建立的每個資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers)。
 * **命中容器現在是「事件」容器**。 「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。
 * **訪問容器現在是「會話」容器**。 「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。
 * **訪問者集裝箱現已 [!UICONTROL 人員] 容器**。 「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。
+
+**您需要做的**:
+
+您可以選擇更名任何容器以滿足組織的需要。
+
 
 ### `Uniques Exceeded` 限制
 
