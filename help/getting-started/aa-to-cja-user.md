@@ -4,10 +4,10 @@ description: 當您的公司將資料從Adobe Analytics移動到Customer Journey
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 755e554e3eb362d6e7149e5d3a4fbbcddebdd14d
+source-git-commit: 07c9bda0c40bf1e7bd39bf75bdce900a4749f0da
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 24%
+source-wordcount: '897'
+ht-degree: 20%
 
 ---
 
@@ -44,9 +44,13 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 與傳統的Adobe Analytics相比，CJA中的幾項功能已經更名並重新設計，以符合行業標準。 某些更新的術語包括段、虛擬報表套件、分類、客戶屬性和容器名稱。 耳熟能詳的概念，如電子貨幣和道具，以及它們施加的限制，已不復存在。
 
-### Vars和道具
+### 不再有電視和道具
 
 [!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。
+
+**您需要做的**:
+
+* 熟悉您可以使用的多種方法
 
 ### 段現在是「篩選器」
 
@@ -54,28 +58,44 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 目前，您無法共用/發佈 [!UICONTROL 篩選] ([!UICONTROL 段]從 [!DNL Customer Journey Analytics] Experience Platform統一配置檔案或其他Experience Cloud應用程式。 此功能當前正在開發中。
 
+**您需要做的**:
+
+* 如果要將現有Adobe Analytics段移至Customer Journey Analytics，請查看 [這個視頻](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=zh-Hant)。
+* 否則，在Customer Journey Analytics中重新建立篩選器。
+
 ### 計算量度
 
 [!UICONTROL Customer Journey Analytics 不再使用 eVar、prop 或事件，而是使用 AEP 結構。]這意味著現有計算的度量都與 [!UICONTROL Customer Journey Analytics]。
 
+**您需要做的**:
+
+* 如果要將Adobe Analytics計算的度量移到Customer Journey Analytics，請查看 [這個視頻](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=zh-Hant)。
+* 否則，在Customer Journey Analytics中重新建立計算的度量。
+
 ### 會話和變數持久性設定
 
-[!UICONTROL Customer Journey Analytics 會在報告時套用這些設定，而這些設定現在會顯示於「資料檢視」。]這些設定的變更現在可回溯，使用多個「資料檢視」即可擁有多個版本！
+[!UICONTROL Customer Journey Analytics] 在報告時應用所有這些設定，這些設定現在處於 [資料視圖](help/data-views/component-settings/persistence.md)。 對這些設定的更改現在具有追溯性，您可以使用多個資料視圖擁有多個版本！
 
 ### 虛擬報告套件現在是「資料視圖」
 
+資料視圖將虛擬報告套件的概念與當前存在一樣，並將其擴展到 [啟用對資料的其他控制項](/help/data-views/create-dataview.md) 連接可用。 這使時區和會話超時間隔可以配置。 您還可以動態應用各個維的屬性和到期屬性。 請注意，這些應用於所有資料。
 
+### 跨報表套件資料
+
+來自多個資料集的現有實現可以組合為Experience Platform。
 
 ### 分類現在是「查找資料集」
 
 ### 客戶屬性現在是「配置式資料集」
 
 
-### 命中容器現在是「事件」容器
+### 容器已更名
 
-### 訪問容器現在是「會話」容器
+指定容器 [建立的每個資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers)。 請注意，您可以更名任何容器以滿足組織的需要。
 
-### 訪問者容器現在是「人」容器
+* **命中容器現在是「事件」容器**。 「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。
+* **訪問容器現在是「會話」容器**。 「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。
+* **訪問者集裝箱現已 [!UICONTROL 人員] 容器**。 「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。
 
 ### `Uniques Exceeded` 限制
 
