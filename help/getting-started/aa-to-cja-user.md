@@ -4,10 +4,10 @@ description: 當您的公司將資料從Adobe Analytics移動到Customer Journey
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 957cb693a9fd814cbf571696964cd4f91d338307
+source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 19%
+source-wordcount: '994'
+ht-degree: 18%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 19%
 
 在報告方面，您熟悉的許多內容沒有改變。
 
-* 你仍然可以利用 [Analysis Workspace](/help/analysis-workspace/home.md) 分析資料。
-* 您還有相同版本的 [Adobe Analytics儀表板](/help/mobile-app/home.md) 隨你。 工作區和儀表板的工作方式與傳統Adobe Analytics一樣。
+* 你仍然可以利用 [Analysis Workspace](/help/analysis-workspace/home.md) 分析資料。 工作區與傳統Adobe Analytics的工作區一樣。
+* 您還有相同版本的 [Adobe Analytics儀表板](/help/mobile-app/home.md) 隨你。 儀表板(即Mobile應用)與傳統Adobe Analytics一樣。
 * [Report Builder](/help/report-builder/report-buider-overview.md) 它有一個新的介面，現在可以在PC、Mac和Excel的Web版本上運行。
 
 在報告方面，不同之處在於您能夠訪問更多跨渠道資料進行分析。 下面是一些包含跨通道資料源的可視化示例：
@@ -78,10 +78,11 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 **您需要做的**:
 
-* 熟悉有關資料視圖的許多使用案例。
 * 請注意，在Workspace中，您現在使用的報告套件選擇器允許您從管理員已與您共用的資料視圖中進行選擇：
 
    ![資料視圖選擇器](assets/data-views.png)
+
+* 熟悉許多 [使用資料視圖中的事例](/help/data-views/data-views-usecases.md)。
 
 ### 跨報表套件資料
 

@@ -4,10 +4,10 @@ title: 快速篩選
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
+source-git-commit: be9622559696c65e76bf45d6675646fc64d58ace
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 84%
+source-wordcount: '1050'
+ht-degree: 82%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 84%
 * 不要容納巢狀容器或循序規則。
 
 若要比較快速篩選的功能和成熟的元件清單篩選，請至[這裡](/help/components/filters/filters-overview.md)。
+
+下面是一個關於快速濾鏡的視頻（請注意，它改用「快速段」一詞。） 但是，功能是相同的。
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## 先決條件 {#prereqs}
 
