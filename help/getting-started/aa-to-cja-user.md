@@ -4,9 +4,9 @@ description: 當您的公司將資料從Adobe Analytics移動到Customer Journey
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 48cde188fffd810f7bb292923fb0137fb476dcd4
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1010'
 ht-degree: 18%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 18%
 >
 >此頁正在構建中。
 
-恭喜您，您的公司正在開始雇傭Customer Journey Analytics! 作為熟悉Adobe Analytics的用戶，你已經擁有了不錯的先機。 在與Customer Journey Analytics合作時，你會注意到一些巨大的差異和一些相似之處。 本頁旨在解釋那些沒有改變的事以及一些主要差異。 我們還將告訴您，您如何獲得有關新概念的更多資訊，以及進一步的步驟，使您的客戶之旅更輕鬆、更成功。
+你的公司開始雇傭Customer Journey Analytics。 作為熟悉Adobe Analytics的用戶，你已經擁有了不錯的先機。 在與Customer Journey Analytics合作時，你會注意到一些巨大的差異和一些相似之處。 本頁旨在解釋那些沒有改變的事以及一些主要差異。 我們還將告訴您，您如何獲得有關新概念的更多資訊，以及進一步的步驟，使您的客戶之旅更輕鬆、更成功。
 
 ## 未更改的內容
 
@@ -44,13 +44,25 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 與傳統的Adobe Analytics相比，CJA中的幾項功能已經更名並重新設計，以符合行業標準。 某些更新的術語包括段、虛擬報表套件、分類、客戶屬性和容器名稱。 耳熟能詳的概念，如電子貨幣和道具，以及它們施加的限制，已不復存在。
 
-## 不再有電視和道具
+## （虛擬）報告套件現在是「資料視圖」
 
-[!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。
+[!UICONTROL 資料視圖] 將虛擬報表套件的概念應用到 [啟用對資料的其他控制項](/help/data-views/create-dataview.md) 連接可用。 這使時區和會話超時間隔可以配置。 您還可以動態應用各個維的屬性和到期屬性。 請注意，這些應用於所有資料。
 
 **您需要做的**:
 
-* 熟悉您可以使用的多種方法
+* 請注意，在Workspace中，您現在使用的報告套件選擇器允許您從管理員已與您共用的資料視圖中進行選擇：
+
+   ![資料視圖選擇器](assets/data-views.png)
+
+* 熟悉許多 [使用資料視圖中的事例](/help/data-views/data-views-usecases.md)。
+
+## 不再有電視和道具
+
+[!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。您的CJA管理員已建立資料視圖
+
+**您需要做的**:
+
+* 熟悉這些架構元素可用於深入查看資料的多種方法。
 
 ## 段現在是「篩選器」
 
@@ -72,17 +84,6 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 * 如果要將Adobe Analytics計算的度量移到Customer Journey Analytics，請查看 [這個視頻](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=zh-Hant)。
 * 否則，在Customer Journey Analytics中重新建立計算的度量。
 
-## 虛擬報告套件現在是「資料視圖」
-
-資料視圖將虛擬報告套件的概念與當前存在一樣，並將其擴展到 [啟用對資料的其他控制項](/help/data-views/create-dataview.md) 連接可用。 這使時區和會話超時間隔可以配置。 您還可以動態應用各個維的屬性和到期屬性。 請注意，這些應用於所有資料。
-
-**您需要做的**:
-
-* 請注意，在Workspace中，您現在使用的報告套件選擇器允許您從管理員已與您共用的資料視圖中進行選擇：
-
-   ![資料視圖選擇器](assets/data-views.png)
-
-* 熟悉許多 [使用資料視圖中的事例](/help/data-views/data-views-usecases.md)。
 
 ## 跨報表套件資料
 
@@ -96,8 +97,9 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 **您需要做的**:
 
-
 ## 分類現在是「查找資料集」
+
+
 
 ## 客戶屬性現在是「配置式資料集」
 

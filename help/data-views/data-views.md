@@ -4,8 +4,8 @@ description: 資料檢視指定您想要如何解釋 CJA 連線中的資料元�
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為基礎。
 
-## 資料檢視功能
+## 資料檢視功能 {#capabilities}
 
 資料檢視可讓您自發地變更結構描述的元素設定，而不必變更 Adobe Experience Platform 中的結構描述或重新實作 CJA 環境。
 
@@ -52,12 +52,12 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * 您可以在資料檢視中&#x200B;**重新命名容器**，並使這些容器在任何以此資料檢視為基礎的 Workspace 專案中顯示。
 
-## 資料檢視先決條件
+## 資料檢視先決條件 {#prerequisites}
 
 * 建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集連線](/help/connections/create-connection.md)。
 * 若要建立或管理資料檢視，您需要在 [Adobe Admin Console 中設定一組權限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant#admin-access-permissions)。
 
-## 您可以在 Workspace 中覆寫資料檢視設定
+## 您可以在 Workspace 中覆寫資料檢視設定 {#settings-override}
 
 有些資料檢視設定可在 Analysis Workspace 的專案層級覆寫，有些則無法覆寫。
 
@@ -65,14 +65,14 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 * 量度歸因
 * 使用者是否在報表中看到[!UICONTROL 無值]條列項目
 
-## 您無法在 Workspace 中覆寫資料檢視設定
+## 您無法在 Workspace 中覆寫資料檢視設定 {#settings-no-override}
 
 * [!UICONTROL 元件類型]
 * 量度格式 
 * 資料檢視名稱
 * 維度分配
 
-## 刪除資料檢視
+## 刪除資料檢視 {#delete}
 
 如果刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視，則會出現錯誤訊息，指出任何與這個被刪除的資料檢視相依的 [!UICONTROL Workspace] 專案都將不再運作。
 
