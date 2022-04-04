@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 847d54a576d9e66b73bf8a545bccce179e6283b2
+source-git-commit: f7f496d63dbf26cfa6ec12ac98a03bf91a4072a1
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 97%
+source-wordcount: '604'
+ht-degree: 95%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 97%
    + [Customer Journey Analytics登錄頁](getting-started/landing.md)
    + [常見問答](getting-started/cja-faq.md)
    + [Adobe Analytics對Customer Journey Analytics進化](getting-started/aa-to-cja.md)
+   + [新Customer Journey Analytics用戶的使用手冊](getting-started/aa-to-cja-user.md)
    + [Customer Journey Analytics 功能支援](getting-started/cja-aa.md)
    + [刪除關聯](getting-started/cja-deletion.md)
    + [CJA 字彙表](getting-started/cja-glossary.md)
@@ -155,9 +156,9 @@ ht-degree: 97%
    + [元件總覽](components/overview.md)
    + 註解 {#annotations}
       + [註解概述](components/annotations/overview.md)
-      + [建立附註](components/annotations/create-annotations.md)
-      + [管理附註](components/annotations/manage-annotations.md)
-      + [檢視附註](components/annotations/view-annotations.md)
+      + [建立註解](components/annotations/create-annotations.md)
+      + [管理註解](components/annotations/manage-annotations.md)
+      + [檢視註解](components/annotations/view-annotations.md)
    + 維度 {#dimensions}
       + [預覽維度](components/dimensions/view-dimensions.md)
       + [劃分維度](components/dimensions/t-breakdown-fa.md)
