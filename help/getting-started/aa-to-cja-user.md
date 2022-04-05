@@ -4,13 +4,13 @@ description: 當您的公司將資料從Adobe Analytics移動到Customer Journey
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 13743c627ae0af608e63c39ca1f0b8c54f61bbe0
+exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
+source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1012'
 ht-degree: 18%
 
 ---
-
 
 # CJAAdobe Analytics使用手冊
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 >
 >此頁正在構建中。
 
-你的公司開始雇傭Customer Journey Analytics。 作為熟悉Adobe Analytics的用戶，你已經擁有了不錯的先機。 在與Customer Journey Analytics合作時，你會注意到一些巨大的差異和一些相似之處。 本頁旨在解釋那些沒有改變的事以及一些主要差異。 我們還將告訴您，您如何獲得有關新概念的更多資訊，以及進一步的步驟，使您的客戶之旅更輕鬆、更成功。
+你的公司開始雇傭Customer Journey Analytics。 作為熟悉Adobe Analytics的用戶，你已經擁有了一個不錯的先機。 在與Customer Journey Analytics合作時，你會注意到一些巨大的差異和一些相似之處。 本頁旨在解釋那些沒有改變的事以及一些主要差異。 我們還將告訴您，您如何獲得有關新概念的更多資訊，以及進一步的步驟，使您的客戶之旅更輕鬆、更成功。
 
 ## 未更改的內容
 
@@ -28,7 +28,7 @@ ht-degree: 18%
 * 您還有相同版本的 [Adobe Analytics儀表板](/help/mobile-app/home.md) 隨你。 儀表板(即Mobile應用)與傳統Adobe Analytics一樣。
 * [Report Builder](/help/report-builder/report-buider-overview.md) 它有一個新的介面，現在可以在PC、Mac和Excel的Web版本上運行。
 
-在報告方面，不同之處在於您能夠訪問更多跨渠道資料進行分析。 下面是一些包含跨通道資料源的可視化示例：
+在報導方面， **什麼不同** 即您可以訪問更多的跨通道資料進行分析。 下面是一些包含跨通道資料源的可視化示例：
 
 ![多通道可視化](assets/cross-channel.png)
 
