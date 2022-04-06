@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
+source-git-commit: 59355c37d7bae28c1de52cd12ae63c37cdd09eb6
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 81%
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 準備您的 Adobe Analytics 資料以無縫移轉到 Customer Journey Analytics，對資料完整性和報告一致性至關重要。
 
-### 1. 收集身分
+### 1. 收集身分 {#identities}
 
 了解客戶歷程的最關鍵部分，或許是了解在每一步驟中的目標客戶。對於 Customer Journey Analytics，擁有跨所有管道和對應資料的識別碼，允許在 CJA 內將多個來源拼接在一起。
 身分範例可能是客戶 ID、帳戶 ID 或電子郵件 ID。無論是什麼身分 (可能有多個)，請務必為每個 ID 考慮以下內容：
@@ -32,7 +32,7 @@ ht-degree: 81%
 
 在像 Adobe Analytics 這樣的資料集，身分不一定存在於每個資料列中，但是次要身分一定存在。在這種情況下，在只由 ECID 識別客戶和在收集身分時，跨管道分析 (以前稱為「欄位型拼接」) 可用於 (例如，當客戶驗證時) 彌合資料列之間的差距。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant)
 
-### 2. 對應變數
+### 2. 對應變數 {#variables}
 
 將Adobe Analytics資料轉換為Customer Journey Analytics資料的最直接方法是 [全局報告套件](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hant) Experience Platform [Adobe Analytics源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。 此連接器將您的Adobe Analytics變數直接映射到Experience Platform中的XDM架構和資料集，這反過來又可以輕鬆地連接到Customer Journey Analytics。
 
@@ -44,7 +44,7 @@ ht-degree: 81%
 
 如果您由於[!UICONTROL 已超出不重複限制]或[!UICONTROL 低流量]問題，而避免使用全域報表套裝，請了解 CJA 沒有[維度上的基數限制](/help/components/dimensions/high-cardinality.md)。它允許顯示和計數任何唯一值。
 
-### 3. (重新) 設定行銷管道
+### 3. (重新) 設定行銷管道 {#marketing-channels}
 
 傳統的 Adobe Analytics 行銷管道設定在 CJA 中的執行方式不同。有兩個原因：
 
@@ -54,7 +54,7 @@ ht-degree: 81%
 
 Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=zh-Hant)。這些更新的推薦可幫助您透過 Attribution IQ 充分利用 Adobe Analytics 的現有功能。此外也為成功轉換到 Customer Journey Analytics 做好準備。
 
-### 4. 決定使用 Analytics 來源連接器或 Experience Platform SDK
+### 4. 決定使用 Analytics 來源連接器或 Experience Platform SDK {#connector-vs-sdk}
 
 隨著 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant) 資料收集的發展，您可能會移轉到 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=zh-Hant) 或 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hant) (搭配 Adobe Experience Platform Edge Network)。SDK 的典型實施是將資料傳送到 Adobe Analytics，但直接將資料傳送到 Adobe Experience Platform 的新機會也隨之而來。然後，可將資料擷取到 Customer Journey Analytics，同時保留傳送到 Adobe Analytics 的資料。
 
@@ -78,7 +78,7 @@ Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleagu
 
 ## 為重大差異做好準備
 
-### 適應報告時間處理
+### 適應報告時間處理 {#report-time}
 
 Adobe Analytics 的報告依賴大量資料前置處理來產生結果，如您在 [!UICONTROL eVar] 中看到的持續性。反之，Customer Journey Analytics 在報告執行階段時執行這些計算。
 
@@ -86,7 +86,7 @@ Adobe Analytics 的報告依賴大量資料前置處理來產生結果，如您�
 
 此轉換將導致報告資料的方式出現一些差異，特別是對於有效期較長的任何變數。一開始可使用[虛擬報表套件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html)，來評估報告時間處理可能產生的報告影響。
 
-### 確定關鍵區段和計算量度
+### 確定關鍵區段和計算量度 {#segments-calcmetrics}
 
 Adobe Analytics 區段 (在 CJA 中稱為[!UICONTROL 篩選器]) 和計算量度與 Customer Journey Analytics 不相容。在許多情況下，可在 CJA 中使用新的結構描述和可用資料重建這些元件。
 

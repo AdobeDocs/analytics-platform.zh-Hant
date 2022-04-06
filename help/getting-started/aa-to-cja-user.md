@@ -5,20 +5,18 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 0fe1d1ce880db04f52f9828f97f61925da7b4028
+source-git-commit: 171b174624dbb48873024368884992766dcd0922
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 18%
+source-wordcount: '1053'
+ht-degree: 17%
 
 ---
 
 # CJAAdobe Analytics使用手冊
 
->[!NOTE]
->
->此頁正在構建中。
+你的公司開始雇傭Customer Journey Analytics。 作為熟悉Adobe Analytics的用戶，你已經擁有了一個不錯的先機。 在與Customer Journey Analytics合作時，你會注意到一些相似之處和一些重大差異。 本頁旨在解釋那些沒有改變的事以及一些主要差異。 我們還將告訴您，您如何獲得有關新概念的更多資訊，以及進一步的步驟，使您的客戶之旅更輕鬆、更成功。
 
-你的公司開始雇傭Customer Journey Analytics。 作為熟悉Adobe Analytics的用戶，你已經擁有了一個不錯的先機。 在與Customer Journey Analytics合作時，你會注意到一些巨大的差異和一些相似之處。 本頁旨在解釋那些沒有改變的事以及一些主要差異。 我們還將告訴您，您如何獲得有關新概念的更多資訊，以及進一步的步驟，使您的客戶之旅更輕鬆、更成功。
+與傳統的Adobe Analytics相比，CJA中的幾項功能已經更名並重新設計，以符合行業標準。 某些更新的術語包括段、虛擬報表套件、分類、客戶屬性和容器名稱。 耳熟能詳的概念，如電子貨幣和道具，以及它們施加的限制，已不復存在。
 
 ## 未更改的內容
 
@@ -40,9 +38,9 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 您的CJA管理員已建立 [連接](/help/connections/create-connection.md) 到平台中的資料集。 然後他們建了 [資料視圖](/help/data-views/data-views.md) 在那些聯繫里。 將資料視圖視為類似於虛擬報告套件。 資料視圖是Customer Journey Analytics報告的基礎。 報告套件的概念已不復存在。
 
-## 新概念和術語
+## 報表套裝
 
-與傳統的Adobe Analytics相比，CJA中的幾項功能已經更名並重新設計，以符合行業標準。 某些更新的術語包括段、虛擬報表套件、分類、客戶屬性和容器名稱。 耳熟能詳的概念，如電子貨幣和道具，以及它們施加的限制，已不復存在。
+您的報告套件資料可通過Adobe Analytics源連接器或Web SDK進行Experience Platform，特別是如果您的組織仍在Adobe Analytics平台上並添加CJA/AEP時。 通常，您會使用分析架構來源特定於報告套件的資料集。
 
 ## （虛擬）報告套件現在是「資料視圖」
 
