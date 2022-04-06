@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 171b174624dbb48873024368884992766dcd0922
+source-git-commit: 3af757fd311d7a92e56aa9ce5939dc3db8dcf6fa
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1051'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 ![多通道可視化](assets/cross-channel.png)
 
-## 新架構
+## 新架構 {#architecture}
 
 Customer Journey Analytics從Adobe Experience Platform獲取資料。 Experience Platform使您能夠集中並標準化來自任何系統或渠道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
 
@@ -38,11 +38,11 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 您的CJA管理員已建立 [連接](/help/connections/create-connection.md) 到平台中的資料集。 然後他們建了 [資料視圖](/help/data-views/data-views.md) 在那些聯繫里。 將資料視圖視為類似於虛擬報告套件。 資料視圖是Customer Journey Analytics報告的基礎。 報告套件的概念已不復存在。
 
-## 報表套裝
+## 報表套裝 {#report-suites}
 
 您的報告套件資料可通過Adobe Analytics源連接器或Web SDK進行Experience Platform，特別是如果您的組織仍在Adobe Analytics平台上並添加CJA/AEP時。 通常，您會使用分析架構來源特定於報告套件的資料集。
 
-## （虛擬）報告套件現在是「資料視圖」
+## （虛擬）報告套件現在是「資料視圖」 {#data-views}
 
 [!UICONTROL 資料視圖] 將虛擬報表套件的概念應用到 [啟用對資料的其他控制項](/help/data-views/create-dataview.md) 連接可用。 這使時區和會話超時間隔可以配置。 您還可以動態應用各個維的屬性和到期屬性。 請注意，這些應用於所有資料。
 
@@ -54,7 +54,7 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 * 熟悉許多 [使用資料視圖中的事例](/help/data-views/data-views-usecases.md)。
 
-## 不再有電視和道具
+## Vars和道具
 
 [!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。您的CJA管理員已建立資料視圖
 
