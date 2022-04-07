@@ -5,127 +5,105 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 570fb36de0ed81f001ed6115e73d1d4347f368ec
+source-git-commit: 30e02f8865daea5d0f6a669f84714abec25ecd76
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 21%
+source-wordcount: '1285'
+ht-degree: 8%
 
 ---
 
 # CJAAdobe Analytics使用手冊
 
-你的公司開始雇傭Customer Journey Analytics。 作為熟悉Adobe Analytics的用戶，你已經擁有了一個不錯的先機。 在與Customer Journey Analytics合作時，你會注意到一些相似之處和一些重大差異。 本頁旨在解釋那些沒有改變的事以及一些主要差異。 我們還將告訴您，您如何獲得有關新概念的更多資訊，以及進一步的步驟，使您的客戶之旅更輕鬆、更成功。
+如果您的組織開始使用Customer Journey Analytics，您可能會注意到傳統分析和CJA之間的一些相似點和差異。 本頁旨在說明這些差異，以幫助您的組織適應新的實施和報告工作流。 本頁還提供了有關新概念的更多資源，以及進一步的步驟，讓您作為分析師的旅途更輕鬆、更成功。
 
-與傳統的Adobe Analytics相比，CJA中的幾項功能已經更名並重新設計，以符合行業標準。 某些更新的術語包括段、虛擬報表套件、分類、客戶屬性和容器名稱。 耳熟能詳的概念，如電子貨幣和道具，以及它們施加的限制，已不復存在。
+CJA中的幾項功能都經過重新命名和重新設計，以符合行業標準。 某些更新的術語包括段、虛擬報表套件、分類、客戶屬性和容器名稱。 eVars和props的局限性已不復存在，而是支援靈活的自定義尺寸和度量。
 
 ## 未更改的內容
 
-在報告方面，您熟悉的許多內容沒有改變。
+在報告方面，您熟悉的許多內容都沒有改變。
 
 * 你仍然可以利用 [Analysis Workspace](/help/analysis-workspace/home.md) 分析資料。 工作區與傳統Adobe Analytics的工作區一樣。
-* 您還有相同版本的 [Adobe Analytics儀表板](/help/mobile-app/home.md) 隨你。 儀表板(即Mobile應用)與傳統Adobe Analytics一樣。
-* [Report Builder](/help/report-builder/report-buider-overview.md) 它有一個新的介面，現在可以在PC、Mac和Excel的Web版本上運行。
+* 同一版本 [Adobe Analytics儀表板](/help/mobile-app/home.md) 可用，並且在CJA和傳統分析之間同樣工作。
+* [Report Builder](/help/report-builder/report-buider-overview.md) 在PC、Mac和Excel的Web版本上運行。
 
-在報導方面， **什麼不同** 即您可以訪問更多的跨通道資料進行分析。 下面是一些包含跨通道資料源的可視化示例：
+## 報告更改
+
+您可以訪問更多要分析的跨通道資料。 例如，可以建立分析多個通道效能的工作區項目
 
 ![多通道可視化](assets/cross-channel.png)
 
-## 新架構 {#architecture}
+## 對資料體系結構的更改 {#architecture}
 
 Customer Journey Analytics從Adobe Experience Platform獲取資料。 Experience Platform使您能夠集中並標準化來自任何系統或渠道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
 
 Platform 中的客戶資料以資料集形式儲存，而資料集是由結構和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en)。
 
-您的CJA管理員已建立 [連接](/help/connections/create-connection.md) 到平台中的資料集。 然後他們建了 [資料視圖](/help/data-views/data-views.md) 在那些聯繫里。 將資料視圖視為類似於虛擬報告套件。 資料視圖是Customer Journey Analytics報告的基礎。 報告套件的概念已不復存在。
+您的CJA管理員建立 [連接](/help/connections/create-connection.md) 到平台中的資料集。 然後他們建造 [資料視圖](/help/data-views/data-views.md) 利用這些連接。 資料視圖在概念上與虛擬報告套件相似，是Customer Journey Analytics報告的基礎。 由於平台為報告來源所有資料，因此報告套件不再作為資料容器存在。
 
-## 連線
+通過連接，Analytics Admin可以整合來自 [!DNL Adobe Experience Platform] 入 [!UICONTROL Customer Journey Analytics]，包含在以下視頻中：
 
-通過連接，Analytics Admin可以整合來自 [!DNL Adobe Experience Platform] 入 [!UICONTROL 工作區]。 若要針對 [!DNL Experience Platform] 資料集製作報表，必須先為 [!DNL Experience Platform] 和 [!UICONTROL Analysis Workspace] 的資料集建立連線。
+>[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-以下是影片概觀：
+Adobe提供了多種將資料導入Adobe Experience Platform的方法，包括通過Adobe Analytics源連接器或Web SDK的報告套件資料。 可以在平台中組合來自多個報告套件的現有實現。 基於這些資料集的連接和資料視圖可以合併先前存在於單獨報告套件中的資料。
 
->[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12&learn=on)
+## 對虛擬報告套件概念的更改 {#data-views}
 
-## 報表套裝 {#report-suites}
+[!UICONTROL 資料視圖] 將虛擬報表套件的概念應用到 [啟用對資料的其他控制項](/help/data-views/create-dataview.md) 連接可用。 這些更改使常規設定（如時區和會話超時間隔）可配置且具有追溯性。 也可以在報告或資料視圖級別上自定義個別變數設定，如屬性和到期。 這些設定也是無損的和可追溯的。
 
-如果您的組織仍在Adobe Analytics平台上並添加CJA/AEP，則可以通過Adobe Analytics源連接器或Web SDK將您的報告套件資料引入Experience Platform。 通常，您會使用分析架構來源特定於報告套件的資料集。
+請注意，右上方的報告套件選擇器現在允許您從可用資料視圖中進行選擇：
 
-但是，報告套件不再是在CJA中報告的基礎。 [資料視圖](/help/data-views/data-views.md) 。 有關資料視圖的詳細資訊，請參閱下面的部分。
+![資料視圖選擇器](assets/data-views.png)
 
-來自多個資料集的現有實現可以組合為Experience Platform。 基於這些資料集的連接和資料視圖可以合併先前存在於單獨報告套件中的資料。
+請參閱 [圍繞資料視圖使用案例](/help/data-views/data-views-usecases.md) 的子菜單。
 
-## （虛擬）報告套件現在是「資料視圖」 {#data-views}
+## eVars和道具概念的變化
 
-[!UICONTROL 資料視圖] 將虛擬報表套件的概念應用到 [啟用對資料的其他控制項](/help/data-views/create-dataview.md) 連接可用。 這使時區和會話超時間隔可以配置。 您還可以動態應用各個維的屬性和到期屬性。 請注意，這些應用於所有資料。
+[!UICONTROL 埃瓦爾]。 [!UICONTROL 道], [!UICONTROL 事件] 在傳統的Adobe Analytics [!UICONTROL Customer Journey Analytics]。 可用的架構元素不限，包括維、度量和清單欄位。 以前在資料收集過程中應用的所有屬性設定現在在查詢時應用。
 
-**您需要做的**:
+## 段概念的變化
 
-* 請注意，在Workspace中，您現在使用的報告套件選擇器允許您從管理員已與您共用的資料視圖中進行選擇：
+Adobe已將&quot;段&quot;部分改為&quot;過濾器&quot;，以便更好地與行業標準保持一致，更好地區分Adobe Experience Platform的段。\
 
-   ![資料視圖選擇器](assets/data-views.png)
+[!UICONTROL Customer Journey Analytics] 不再使用eVars、props或事件，而是使用任何平台架構元素。 此更改表示現有資料段均與 [!UICONTROL Customer Journey Analytics]。 如果要將現有Adobe Analytics段移至Customer Journey Analytics，請參閱以下視頻：
 
-* 熟悉許多 [使用資料視圖中的事例](/help/data-views/data-views-usecases.md)。
+>[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
 
-## Vars和道具
+雖然您尚不能共用或發佈 [!UICONTROL 篩選] ([!UICONTROL 段]從 [!DNL Customer Journey Analytics] 要Experience Platform統一配置檔案，此功能正在開發中。
 
-[!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。
-
-**您需要做的**:
-
-* 熟悉這些架構元素可用於深入查看資料的多種方法。
-
-## 段現在是「篩選器」
-
-[!UICONTROL Customer Journey Analytics 不再使用 eVar、prop 或事件，而是使用 AEP 結構。]這意味著現有的資料段都與 [!UICONTROL Customer Journey Analytics]。 此外，已將&quot;段&quot;更名為&quot;filters&quot;。
-
-目前，您無法共用/發佈 [!UICONTROL 篩選] ([!UICONTROL 段]從 [!DNL Customer Journey Analytics] Experience Platform統一配置檔案或其他Experience Cloud應用程式。 此功能當前正在開發中。
-
-**您需要做的**:
-
-* 如果要將現有Adobe Analytics段移至Customer Journey Analytics，請查看 [這個視頻](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=zh-Hant)。
-* 否則，在Customer Journey Analytics中重新建立篩選器。
-
-## 計算量度
-
-[!UICONTROL Customer Journey Analytics 不再使用 eVar、prop 或事件，而是使用 AEP 結構。]這意味著現有計算的度量都與 [!UICONTROL Customer Journey Analytics]。
-
-**您需要做的**:
-
-* 如果要將Adobe Analytics計算的度量移到Customer Journey Analytics，請查看 [這個視頻](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=zh-Hant)。
-* 否則，在Customer Journey Analytics中重新建立計算的度量。
-
-## 會話和變數持久性設定
-
-[!UICONTROL Customer Journey Analytics] 在報告時應用所有這些設定，這些設定現在處於 [資料視圖](/help/data-views/component-settings/persistence.md)。 對這些設定的更改現在具有追溯性，您可以使用多個資料視圖擁有多個版本！
-
-## 分類現在是「查找資料集」
-
-查找資料集用於查找在事件或配置檔案資料中找到的值或鍵。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。如需範例，請參閱這個[使用案例](/help/use-cases/b2b.md)。
-
-## 客戶屬性現在是「配置式資料集」
-
-配置檔案資料集包含應用於訪問者、用戶或客戶的資料 [!UICONTROL 事件] 資料。 例如，它允許您上傳有關客戶的CRM資料。 您可以挑選要包含的人員 ID。在 [!DNL Experience Platform] 中定義的每個資料集，都有各自專屬的一組一或多個已定義的人員 ID，例如 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。
-
-## 身分
-
-CJA將標識的概念擴展到ECID之外，以包括要使用的任何ID，包括客戶ID、Cookie ID、縫合ID、用戶ID、跟蹤代碼等。 跨資料集使用公用命名空間ID，或使用 [跨渠道分析](/help/connections/cca/overview.md) 幫助將不同資料集的人聯繫在一起。 任何在CJA中設定Workspace項目的用戶都需要瞭解跨資料集使用的ID。
-
-下面是一段視頻，重點介紹了身份在Customer Journey Analytics中的使用：
-
->[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
-
-## 容器已更名
-
-指定容器 [建立的每個資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers)。
+除了段更改的概念外，段容器也會更新。
 
 * **命中容器現在是「事件」容器**。 「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。
 * **訪問容器現在是「會話」容器**。 「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。
 * **訪問者集裝箱現已 [!UICONTROL 人員] 容器**。 「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。
 
-**您需要做的**:
+## 對計算度量概念的更改
 
-您可以選擇更名任何容器以滿足組織的需要。
+計算的度量在傳統分析和CJA之間的名稱類似。 但是， [!UICONTROL Customer Journey Analytics] 不再使用eVars、props或事件，而是使用任何平台架構元素。 這一根本性變化意味著現有計算度量都與 [!UICONTROL Customer Journey Analytics]。 如果要將Adobe Analytics計算的度量移到Customer Journey Analytics，請參閱以下視頻：
 
-## `Uniques Exceeded` 限制
+>[!VIDEO](https://video.tv.adobe.com/v/31788/?quality=12)
 
-[!UICONTROL Customer Journey Analytics 沒有唯一值的限制，因此無需擔心這些限制！]
+## 對變數屬性和過期設定的更改
+
+[!UICONTROL Customer Journey Analytics] 在報告時應用所有變數設定，包括屬性和過期。 這些設定現在位於 [資料視圖](/help/data-views/component-settings/persistence.md)，並且某些變數設定（如屬性）可以在Workspace項目中更改。
+
+在同一資料視圖中，可以有多個版本的同一變數。 例如，您可以有一個跟蹤代碼維，該維在30天後過期，另一個維在會話結束時過期。 這兩個跟蹤代碼維都使用相同的源資料，但使用不同的屬性設定。
+
+您還可以基於同一連接具有多個資料視圖。 例如，您可以有一個會話超時為30分鐘的資料視圖，另一個會話超時為15分鐘的資料視圖。 兩個資料視圖都顯示在右上部選擇器中，因此您可以在它們之間無縫轉換。
+
+## 對分類概念的更改
+
+「分類」現在稱為「查找資料集」。 查找資料集用於查找在事件或配置檔案資料中找到的值或鍵。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。請參閱 [將帳戶級別資料添加為查找資料集](/help/use-cases/b2b.md) 例如用例。
+
+## 對客戶屬性概念的更改
+
+「客戶屬性」現在稱為「配置式資料集」。 配置檔案資料集包含應用於訪問者、用戶或客戶的資料 [!UICONTROL 事件] 資料。 例如，它允許您上傳有關客戶的CRM資料。 您可以挑選要包含的人員 ID。定義的每個資料集 [!DNL Experience Platform] 定義了自己的一個或多個人員ID集。
+
+## 對Adobe識別訪問者方式的更改
+
+CJA將標識的概念擴展到ECID之外，以包括要使用的任何ID，包括客戶ID、Cookie ID、縫合ID、用戶ID、跟蹤代碼等。 跨資料集使用公用命名空間ID，或使用 [跨渠道分析](/help/connections/cca/overview.md) 幫助將不同資料集的人聯繫在一起。 任何在CJA中設定Workspace項目的用戶都必須瞭解跨資料集使用的ID。 請參閱以下視頻，該視頻突出顯示了在Customer Journey Analytics中使用標識：
+
+>[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
+
+## 對低流量維項概念的更改
+
+在傳統分析中，接收太多唯一值的變數將在 `Low-Traffic`。 Customer Journey Analytics對高基數欄位有許多限制。 對報告體系結構的更改使Analysis Workspace能夠報告許多更獨特的維項。 請參閱 [長尾](../analysis-workspace/workspace-faq/long-tail.md) 有關CJA如何為具有許多唯一值的維優化報告的詳細資訊，
