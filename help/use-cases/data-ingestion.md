@@ -4,7 +4,7 @@ description: 了解您能使用哪些方式將資料內嵌至 Customer Journey A
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 06ef2da0f66b1f8fa1597a618d64974cb6c320ce
+source-git-commit: 570fb36de0ed81f001ed6115e73d1d4347f368ec
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 89%
@@ -19,7 +19,7 @@ Customer Journey Analytics 提供多種資料內嵌選項：有些選項能移�
 
 此工作流程利用 Adobe Analytics 資料連接器，視您使用 DTM 或 Launch 作為 Tag Manager 而會有所不同。
 
-### Via標籤在Adobe Experience Platform（以前稱為Launch）
+### Via標籤在Adobe Experience Platform(以前稱為 [!UICONTROL 啟動])
 
 1. [建立資料層](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html?lang=zh-Hant) (如果尚未建立)。資料層是網站上 JavaScript 物件的架構，包含實作的所有變數值，可讓您在實作中更進一步精細控制，並讓維護工作更簡單輕鬆。
 1. 使用 [Adobe Experience Platform標籤](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=zh-Hant) 在您的站點上實施代碼以收集資料（如果尚未）。 此標籤管理解決方案允許您將分析代碼與其他標籤要求一起部署。 標籤可提供與其他解決方案和產品的整合，並允許您部署自定義代碼。 您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。

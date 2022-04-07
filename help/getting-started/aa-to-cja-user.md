@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 3af757fd311d7a92e56aa9ce5939dc3db8dcf6fa
+source-git-commit: 570fb36de0ed81f001ed6115e73d1d4347f368ec
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 17%
+source-wordcount: '1280'
+ht-degree: 21%
 
 ---
 
@@ -38,9 +38,21 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 您的CJA管理員已建立 [連接](/help/connections/create-connection.md) 到平台中的資料集。 然後他們建了 [資料視圖](/help/data-views/data-views.md) 在那些聯繫里。 將資料視圖視為類似於虛擬報告套件。 資料視圖是Customer Journey Analytics報告的基礎。 報告套件的概念已不復存在。
 
+## 連線
+
+通過連接，Analytics Admin可以整合來自 [!DNL Adobe Experience Platform] 入 [!UICONTROL 工作區]。 若要針對 [!DNL Experience Platform] 資料集製作報表，必須先為 [!DNL Experience Platform] 和 [!UICONTROL Analysis Workspace] 的資料集建立連線。
+
+以下是影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12&learn=on)
+
 ## 報表套裝 {#report-suites}
 
-您的報告套件資料可通過Adobe Analytics源連接器或Web SDK進行Experience Platform，特別是如果您的組織仍在Adobe Analytics平台上並添加CJA/AEP時。 通常，您會使用分析架構來源特定於報告套件的資料集。
+如果您的組織仍在Adobe Analytics平台上並添加CJA/AEP，則可以通過Adobe Analytics源連接器或Web SDK將您的報告套件資料引入Experience Platform。 通常，您會使用分析架構來源特定於報告套件的資料集。
+
+但是，報告套件不再是在CJA中報告的基礎。 [資料視圖](/help/data-views/data-views.md) 。 有關資料視圖的詳細資訊，請參閱下面的部分。
+
+來自多個資料集的現有實現可以組合為Experience Platform。 基於這些資料集的連接和資料視圖可以合併先前存在於單獨報告套件中的資料。
 
 ## （虛擬）報告套件現在是「資料視圖」 {#data-views}
 
@@ -56,7 +68,7 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 
 ## Vars和道具
 
-[!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。您的CJA管理員已建立資料視圖
+[!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。
 
 **您需要做的**:
 
@@ -82,29 +94,30 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 * 如果要將Adobe Analytics計算的度量移到Customer Journey Analytics，請查看 [這個視頻](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=zh-Hant)。
 * 否則，在Customer Journey Analytics中重新建立計算的度量。
 
-
-## 跨報表套件資料
-
-來自多個資料集的現有實現可以組合為Experience Platform。 基於這些資料集的連接和資料視圖可以合併先前存在於單獨報告套件中的資料。
-
-**您需要做的**:
-
 ## 會話和變數持久性設定
 
 [!UICONTROL Customer Journey Analytics] 在報告時應用所有這些設定，這些設定現在處於 [資料視圖](/help/data-views/component-settings/persistence.md)。 對這些設定的更改現在具有追溯性，您可以使用多個資料視圖擁有多個版本！
 
-**您需要做的**:
-
 ## 分類現在是「查找資料集」
 
-
+查找資料集用於查找在事件或配置檔案資料中找到的值或鍵。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。如需範例，請參閱這個[使用案例](/help/use-cases/b2b.md)。
 
 ## 客戶屬性現在是「配置式資料集」
 
+配置檔案資料集包含應用於訪問者、用戶或客戶的資料 [!UICONTROL 事件] 資料。 例如，它允許您上傳有關客戶的CRM資料。 您可以挑選要包含的人員 ID。在 [!DNL Experience Platform] 中定義的每個資料集，都有各自專屬的一組一或多個已定義的人員 ID，例如 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。
+
+## 身分
+
+CJA將標識的概念擴展到ECID之外，以包括要使用的任何ID，包括客戶ID、Cookie ID、縫合ID、用戶ID、跟蹤代碼等。 跨資料集使用公用命名空間ID，或使用 [跨渠道分析](/help/connections/cca/overview.md) 幫助將不同資料集的人聯繫在一起。 任何在CJA中設定Workspace項目的用戶都需要瞭解跨資料集使用的ID。
+
+下面是一段視頻，重點介紹了身份在Customer Journey Analytics中的使用：
+
+>[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## 容器已更名
 
 指定容器 [建立的每個資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#containers)。
+
 * **命中容器現在是「事件」容器**。 「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。
 * **訪問容器現在是「會話」容器**。 「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。
 * **訪問者集裝箱現已 [!UICONTROL 人員] 容器**。 「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。
@@ -112,7 +125,6 @@ Platform 中的客戶資料以資料集形式儲存，而資料集是由結構�
 **您需要做的**:
 
 您可以選擇更名任何容器以滿足組織的需要。
-
 
 ## `Uniques Exceeded` 限制
 
