@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 59355c37d7bae28c1de52cd12ae63c37cdd09eb6
+source-git-commit: 4f7f0b48a15065fb13e5de484946f90fd17e7332
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -111,6 +111,8 @@ Adobe Analytics 區段 (在 CJA 中稱為[!UICONTROL 篩選器]) 和計算量度
 * 如果您在Adobe Analytics定義了自定義日曆，則 [自定義日曆功能](/help/components/date-ranges/custom-date-ranges.md) 在CJA內。 您需要確保行事曆已正確定義。
 
 * 在 Customer Journey Analytics 中，可以定義自訂造訪/工作階段逾時，並定義將啟動新工作階段的量度。您可以建立具有不同工作階段定義的資料檢視，以獲得超越 Adobe Analytics 可能的見解。此功能對行動資料集尤其有益。
+
+* 請考慮為用戶提供資料字典，或擴展SDR以包括架構元素的Experience Platform欄位名。
 
 ## 後續步驟
 

@@ -5,16 +5,16 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 30e02f8865daea5d0f6a669f84714abec25ecd76
+source-git-commit: 4f7f0b48a15065fb13e5de484946f90fd17e7332
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # CJAAdobe Analytics使用手冊
 
-如果您的組織開始使用Customer Journey Analytics，您可能會注意到傳統分析和CJA之間的一些相似點和差異。 本頁旨在說明這些差異，以幫助您的組織適應新的實施和報告工作流。 本頁還提供了有關新概念的更多資源，以及進一步的步驟，讓您作為分析師的旅途更輕鬆、更成功。
+如果您的組織開始使用Customer Journey Analytics(CJA)，您可能會注意到傳統分析和CJA之間的一些相似點和差異。 本頁旨在說明這些差異，以幫助您的組織適應新的實施和報告工作流。 本頁還提供了有關新概念的更多資源，以及進一步的步驟，讓您作為分析師的旅途更輕鬆、更成功。
 
 CJA中的幾項功能都經過重新命名和重新設計，以符合行業標準。 某些更新的術語包括段、虛擬報表套件、分類、客戶屬性和容器名稱。 eVars和props的局限性已不復存在，而是支援靈活的自定義尺寸和度量。
 
@@ -24,31 +24,31 @@ CJA中的幾項功能都經過重新命名和重新設計，以符合行業標�
 
 * 你仍然可以利用 [Analysis Workspace](/help/analysis-workspace/home.md) 分析資料。 工作區與傳統Adobe Analytics的工作區一樣。
 * 同一版本 [Adobe Analytics儀表板](/help/mobile-app/home.md) 可用，並且在CJA和傳統分析之間同樣工作。
-* [Report Builder](/help/report-builder/report-buider-overview.md) 在PC、Mac和Excel的Web版本上運行。
+* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，並在MS Windows、iOS和Excel的Web版本上運行。 (在此版本的Report Builder之前，除非在VMware上運行，否則無法在Mac上使用。) 此版本尚不支援傳統AA資料請求。
 
 ## 報告更改
 
-您可以訪問更多要分析的跨通道資料。 例如，可以建立分析多個通道效能的工作區項目
+您可以訪問更多要分析的跨通道資料。 例如，您可以建立一個工作區項目來分析多個通道的效能，前提是這些資料集由您的組織攝取，並包含在CJA使用的資料視圖中（請參閱下面的「對資料體系結構所做的更改」）。
 
 ![多通道可視化](assets/cross-channel.png)
 
 ## 對資料體系結構的更改 {#architecture}
 
-Customer Journey Analytics從Adobe Experience Platform獲取資料。 Experience Platform使您能夠集中並標準化來自任何系統或渠道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
+CJA從Adobe Experience Platform獲取資料。 Experience Platform使您能夠集中並標準化來自任何系統或渠道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
 
-Platform 中的客戶資料以資料集形式儲存，而資料集是由結構和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en)。
+該Experience Platform中的客戶資料以資料集形式儲存，資料集由模式和資料批組成。 如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en)。
 
-您的CJA管理員建立 [連接](/help/connections/create-connection.md) 到平台中的資料集。 然後他們建造 [資料視圖](/help/data-views/data-views.md) 利用這些連接。 資料視圖在概念上與虛擬報告套件相似，是Customer Journey Analytics報告的基礎。 由於平台為報告來源所有資料，因此報告套件不再作為資料容器存在。
+您的CJA管理員建立 [連接](/help/connections/create-connection.md) 到Experience Platform中的資料集。 然後他們建造 [資料視圖](/help/data-views/data-views.md) 利用這些連接。 資料視圖在概念上與虛擬報告套件相似，是CJA報告的基礎。 由於Experience Platform源是所有報告資料，因此報告套件不再作為資料容器存在。
 
-通過連接，Analytics Admin可以整合來自 [!DNL Adobe Experience Platform] 入 [!UICONTROL Customer Journey Analytics]，包含在以下視頻中：
+通過連接，分析管理員可以將來自Adobe Experience Platform的資料集整合到CJA中，包括在以下視頻中：
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe提供了多種將資料導入Adobe Experience Platform的方法，包括通過Adobe Analytics源連接器或Web SDK的報告套件資料。 可以在平台中組合來自多個報告套件的現有實現。 基於這些資料集的連接和資料視圖可以合併先前存在於單獨報告套件中的資料。
+Adobe提供了多種將資料導入Adobe Experience Platform的方法，包括通過Adobe Analytics源連接器或Web SDK的報告套件資料。 來自多個報告套件的現有實現可以組合為Experience Platform。 基於這些資料集的連接和資料視圖可以合併先前存在於單獨報告套件中的資料。
 
 ## 對虛擬報告套件概念的更改 {#data-views}
 
-[!UICONTROL 資料視圖] 將虛擬報表套件的概念應用到 [啟用對資料的其他控制項](/help/data-views/create-dataview.md) 連接可用。 這些更改使常規設定（如時區和會話超時間隔）可配置且具有追溯性。 也可以在報告或資料視圖級別上自定義個別變數設定，如屬性和到期。 這些設定也是無損的和可追溯的。
+[!UICONTROL 資料視圖] 將虛擬報表套件的概念應用到 [啟用對資料的其他控制項](/help/data-views/create-dataview.md) 連接可用。 這些更改使常規設定（如時區和會話超時間隔）可配置且具有追溯性。 也可以在報告或資料視圖級別上自定義個別變數設定，如屬性和到期。 這些設定是無損的和可追溯的。
 
 請注意，右上方的報告套件選擇器現在允許您從可用資料視圖中進行選擇：
 
@@ -58,13 +58,13 @@ Adobe提供了多種將資料導入Adobe Experience Platform的方法，包括�
 
 ## eVars和道具概念的變化
 
-[!UICONTROL 埃瓦爾]。 [!UICONTROL 道], [!UICONTROL 事件] 在傳統的Adobe Analytics [!UICONTROL Customer Journey Analytics]。 可用的架構元素不限，包括維、度量和清單欄位。 以前在資料收集過程中應用的所有屬性設定現在在查詢時應用。
+C. [!UICONTROL 埃瓦爾]。 [!UICONTROL 道], [!UICONTROL 事件] 在傳統的Adobe Analytics [!UICONTROL Customer Journey Analytics]。 可用的架構元素不限，包括維、度量和清單欄位。 這些元素映射到無限方案元素，包括Experience Platform中的維、度量和清單欄位。 在Adobe Analytics處理規則後應用的所有訪問和屬性設定現在都在查詢時在Customer Journey Analytics中應用。
 
-## 段概念的變化
+## 對段概念的更改
 
-Adobe已將&quot;段&quot;部分改為&quot;過濾器&quot;，以便更好地與行業標準保持一致，更好地區分Adobe Experience Platform的段。\
+Adobe已將&quot;段&quot;部分改為&quot;過濾器&quot;，以便更好地與行業標準保持一致，更好地區分Adobe Experience Platform的段。
 
-[!UICONTROL Customer Journey Analytics] 不再使用eVars、props或事件，而是使用任何平台架構元素。 此更改表示現有資料段均與 [!UICONTROL Customer Journey Analytics]。 如果要將現有Adobe Analytics段移至Customer Journey Analytics，請參閱以下視頻：
+[!UICONTROL Customer Journey Analytics] 不再使用eVars、props或事件，而是使用它們已映射到的Experience Platform架構欄位名稱。 這一變化意味著，Adobe Analytics現有的段均不與 [!UICONTROL Customer Journey Analytics]。 如果要將現有Adobe Analytics段移至Customer Journey Analytics，請參閱以下視頻：
 
 >[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
 
@@ -78,7 +78,7 @@ Adobe已將&quot;段&quot;部分改為&quot;過濾器&quot;，以便更好地與
 
 ## 對計算度量概念的更改
 
-計算的度量在傳統分析和CJA之間的名稱類似。 但是， [!UICONTROL Customer Journey Analytics] 不再使用eVars、props或事件，而是使用任何平台架構元素。 這一根本性變化意味著現有計算度量都與 [!UICONTROL Customer Journey Analytics]。 如果要將Adobe Analytics計算的度量移到Customer Journey Analytics，請參閱以下視頻：
+計算的度量在傳統分析和CJA之間的名稱類似。 但是， [!UICONTROL Customer Journey Analytics] 不再使用eVars、props或events，而是使用任何Experience Platform架構元素。 這一根本性變化意味著現有計算度量都與 [!UICONTROL Customer Journey Analytics]。 如果要將Adobe Analytics計算的度量移到Customer Journey Analytics，請參閱以下視頻：
 
 >[!VIDEO](https://video.tv.adobe.com/v/31788/?quality=12)
 
@@ -106,4 +106,4 @@ CJA將標識的概念擴展到ECID之外，以包括要使用的任何ID，包�
 
 ## 對低流量維項概念的更改
 
-在傳統分析中，接收太多唯一值的變數將在 `Low-Traffic`。 Customer Journey Analytics對高基數欄位有許多限制。 對報告體系結構的更改使Analysis Workspace能夠報告許多更獨特的維項。 請參閱 [長尾](../analysis-workspace/workspace-faq/long-tail.md) 有關CJA如何為具有許多唯一值的維優化報告的詳細資訊，
+在傳統Adobe Analytics中，接收太多唯一值的變數將在 [!UICONTROL 低流量]。 CJA對高基數欄位有許多限制。 對報告體系結構的更改使Analysis Workspace能夠報告許多更獨特的維項。 請參閱 [長尾](../analysis-workspace/workspace-faq/long-tail.md) 有關CJA如何為具有許多唯一值的維優化報告的詳細資訊，
