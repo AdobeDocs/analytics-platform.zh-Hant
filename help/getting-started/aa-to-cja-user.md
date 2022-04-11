@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 4f7f0b48a15065fb13e5de484946f90fd17e7332
+source-git-commit: 64ba233212fa6bfc1d63c122e1f8dcebe6735f39
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1398'
+ht-degree: 6%
 
 ---
 
@@ -60,6 +60,8 @@ Adobe提供了多種將資料導入Adobe Experience Platform的方法，包括�
 
 C. [!UICONTROL 埃瓦爾]。 [!UICONTROL 道], [!UICONTROL 事件] 在傳統的Adobe Analytics [!UICONTROL Customer Journey Analytics]。 可用的架構元素不限，包括維、度量和清單欄位。 這些元素映射到無限方案元素，包括Experience Platform中的維、度量和清單欄位。 在Adobe Analytics處理規則後應用的所有訪問和屬性設定現在都在查詢時在Customer Journey Analytics中應用。
 
+利用這種靈活性，您可能會遇到這樣的情況：單個架構欄位既可用作維又可用作度量，以支援不同的跟蹤需求。
+
 ## 對段概念的更改
 
 Adobe已將&quot;段&quot;部分改為&quot;過濾器&quot;，以便更好地與行業標準保持一致，更好地區分Adobe Experience Platform的段。
@@ -100,10 +102,10 @@ Adobe已將&quot;段&quot;部分改為&quot;過濾器&quot;，以便更好地與
 
 ## 對Adobe識別訪問者方式的更改
 
-CJA將標識的概念擴展到ECID之外，以包括要使用的任何ID，包括客戶ID、Cookie ID、縫合ID、用戶ID、跟蹤代碼等。 跨資料集使用公用命名空間ID，或使用 [跨渠道分析](/help/connections/cca/overview.md) 幫助將不同資料集的人聯繫在一起。 任何在CJA中設定Workspace項目的用戶都必須瞭解跨資料集使用的ID。 請參閱以下視頻，該視頻突出顯示了在Customer Journey Analytics中使用標識：
+CJA將標識的概念擴展到ECID之外，以包括要使用的任何ID，包括客戶ID、Cookie ID、縫合ID、用戶ID、跟蹤代碼等。 跨資料集使用公用命名空間ID，或使用 [跨渠道分析](/help/connections/cca/overview.md) 幫助將不同資料集的人聯繫在一起。 任何在CJA中設定Workspace項目的用戶都必須瞭解跨資料集使用的ID。 請參閱以下視頻，突出顯示CJA中標識的使用：
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## 對低流量維項概念的更改
 
-在傳統Adobe Analytics中，接收太多唯一值的變數將在 [!UICONTROL 低流量]。 CJA對高基數欄位有許多限制。 對報告體系結構的更改使Analysis Workspace能夠報告許多更獨特的維項。 請參閱 [長尾](../analysis-workspace/workspace-faq/long-tail.md) 有關CJA如何為具有許多唯一值的維優化報告的詳細資訊，
+在傳統Adobe Analytics中，接收太多唯一值的變數將在 [!UICONTROL 低流量]。 CJA對高基數欄位的限制較少。 對報告體系結構的更改使Analysis Workspace能夠報告許多更獨特的維項。 請參閱 [長尾](../analysis-workspace/workspace-faq/long-tail.md) 有關CJA如何為具有許多唯一值的維優化報告的詳細資訊，
