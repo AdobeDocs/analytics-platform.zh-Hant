@@ -5,9 +5,9 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 64ba233212fa6bfc1d63c122e1f8dcebe6735f39
+source-git-commit: 6981a7a68d8a517f6b842cb36382f543c80f4582
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1460'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ CJA中的幾項功能都經過重新命名和重新設計，以符合行業標�
 
 CJA從Adobe Experience Platform獲取資料。 Experience Platform使您能夠集中並標準化來自任何系統或渠道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
 
-該Experience Platform中的客戶資料以資料集形式儲存，資料集由模式和資料批組成。 如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en)。
+Experience Platform中的客戶資料以資料集形式儲存，資料集由 [架構](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant) 和資料批。 如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en)。
 
 您的CJA管理員建立 [連接](/help/connections/create-connection.md) 到Experience Platform中的資料集。 然後他們建造 [資料視圖](/help/data-views/data-views.md) 利用這些連接。 資料視圖在概念上與虛擬報告套件相似，是CJA報告的基礎。 由於Experience Platform源是所有報告資料，因此報告套件不再作為資料容器存在。
 
@@ -58,7 +58,9 @@ Adobe提供了多種將資料導入Adobe Experience Platform的方法，包括�
 
 ## eVars和道具概念的變化
 
-C. [!UICONTROL 埃瓦爾]。 [!UICONTROL 道], [!UICONTROL 事件] 在傳統的Adobe Analytics [!UICONTROL Customer Journey Analytics]。 可用的架構元素不限，包括維、度量和清單欄位。 這些元素映射到無限方案元素，包括Experience Platform中的維、度量和清單欄位。 在Adobe Analytics處理規則後應用的所有訪問和屬性設定現在都在查詢時在Customer Journey Analytics中應用。
+C. [!UICONTROL 埃瓦爾]。 [!UICONTROL 道], [!UICONTROL 事件] 在傳統的Adobe Analytics [!UICONTROL Customer Journey Analytics]。 在Adobe Analytics,eVars和props儲存對內容、客戶、活動等的描述。 而事件會計收入、訂閱或生成的線索等。 Customer Journey Analytics保留了這兩種類型的資料，並且您可以以相同的方式訪問它們 — 分別從Analysis Workspace的左滑軌Dimension或度量下訪問。
+
+在CJA中，有無限的架構元素，包括維、度量和清單欄位。 這些元素映射到無限方案元素，包括Experience Platform中的維、度量和清單欄位。 在Adobe Analytics處理規則後應用的所有訪問和屬性設定現在都在查詢時在Customer Journey Analytics中應用。
 
 利用這種靈活性，您可能會遇到這樣的情況：單個架構欄位既可用作維又可用作度量，以支援不同的跟蹤需求。
 
