@@ -4,7 +4,7 @@ description: Customer Journey Analytics - 常見問答。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 5bee04bcb837552364f4852df09b1da2931f5dfe
+source-git-commit: 3c353d668bbf1f0d276edfa0d3491969a1a9dfeb
 workflow-type: tm+mt
 source-wordcount: '2286'
 ht-degree: 85%
@@ -57,7 +57,7 @@ ht-degree: 85%
 
 | 問題 | 回答 |
 | --- | --- |
-| [!UICONTROL Adobe Experience Platform] 上的 [!UICONTROL Customer Journey Analytics] 延遲時間預計會多久？ | <ul><li>即時資料或事件：資料在 AEP 上可供使用時，在 90 分鐘內完成處理和擷取。(批次大小 > 5 千萬列：90 分鐘以上。)</li><li>小型回填 - 例如，1 千萬列的查詢資料集：24 小時以內<li>大型回填 - 例如，5 百億列：30 天</li></ul> |
+| [!UICONTROL Adobe Experience Platform] 上的 [!UICONTROL Customer Journey Analytics] 延遲時間預計會多久？ | <ul><li>即時資料或事件：資料在 AEP 上可供使用時，在 90 分鐘內完成處理和擷取。(批次大小 > 5 千萬列：90 分鐘以上。)</li><li>小型回填 — 例如，包含1000萬行的查找資料集：七天內<li>大型回填 - 例如，5 百億列：30 天</li></ul> |
 
 ## 5.設定滾動窗口 [!UICONTROL 連接] 資料保留 {#data-retention}
 
