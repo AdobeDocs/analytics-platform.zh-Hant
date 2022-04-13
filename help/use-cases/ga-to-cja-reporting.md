@@ -4,10 +4,10 @@ description: 在 Customer Journey Analytics 中顯示有關 Google Analytics 資
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 我們透過以下方式採取這種做法
 
 * 使用計算量度來篩選資料，找出僅限於以客服中心電話結尾的互動。
-* 使用 CJA 的 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=zh-Hant#cja-workspace) 中的「參與」模型。
+* 使用 CJA 的 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#cja-workspace) 中的「參與」模型。
 
 您可以輕鬆地查看哪些頁面最常參與以電話結尾的互動。 您可以看到「購物車」和「結帳資訊」頁面吸引了大多數的來電。 因為您已經納入 firebase 行動應用程式資料，所以您甚至可以看到造成這些來電的頁面錯誤和應用程式當機狀況。 如果您想要提供絕佳的網頁和行動應用程式體驗，這是非常重要的資料點。
 

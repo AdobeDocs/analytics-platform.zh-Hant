@@ -3,10 +3,10 @@ title: 歸因最佳實務
 description: 決定歸因模型的最佳實務為何？
 feature: Attribution
 exl-id: d612dc79-24e4-4d50-bccd-dfb58328bd4e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '393'
-ht-degree: 100%
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 **範例 2**
 
-您的假設可能是：「在我們的產業 (例如旅遊業)，歸因期間是 60 或 90 天，因為客戶在購買產品前會深入研究一番」。 您之後可能會將[回顧期間](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html?lang=en#lookback-windows)改成 90 天。
+您的假設可能是：「在我們的產業 (例如旅遊業)，歸因期間是 60 或 90 天，因為客戶在購買產品前會深入研究一番」。 您之後可能會將[回顧期間](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#lookback-windows)改成 90 天。
 
 ## 步驟 3：使用演算法歸因
 

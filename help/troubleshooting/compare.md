@@ -4,10 +4,10 @@ description: 了解如何將您的 Adobe Analytics 資料與 Customer Journey An
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: bbeceb076e7f249f2c2b8f997bdf37f3dc839db8
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+workflow-type: tm+mt
+source-wordcount: '782'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## 步驟 1：執行 Adobe Analytics 中的發生次數量度
 
-「[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)」量度顯示點擊次數，其中會設定或保留指定的維度。
+「[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html)」量度顯示點擊次數，其中會設定或保留指定的維度。
 
 1. 在「Analytics > [!UICONTROL 工作區]」中，請將您要作為維度報告的日期範圍拖曳到「[!UICONTROL 自由]表格」。
 
@@ -63,16 +63,16 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. 在 [Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)中，從原始資料中找出 Analytics 來源連接器是否可能已捨棄某些列。
+1. 在 [Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)中，從原始資料中找出 Analytics 來源連接器是否可能已捨棄某些列。
 
-   [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)可能在轉換成 XDM 結構描述期間捨棄多列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會捨棄整列。
+   [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)可能在轉換成 XDM 結構描述期間捨棄多列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會捨棄整列。
 
    | Analytics 欄位 | 導致其被捨棄的值 |
    | --- | --- |
    | Opt_out | `y, Y` |
    | In_data_only | Not 0 |
-   | Exclude_hit | Not 0 |
-   | Bot_id | Not 0 |
+   | Exclude_hit | 非0 |
+   | Bot_id | 非0 |
    | Hit_source | 0,3,5,7,8,9,10 |
    | Page_event | 53,63 |
 

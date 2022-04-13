@@ -4,9 +4,9 @@ description: 資料檢視指定您想要如何解釋 CJA 連線中的資料元�
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 9f7b98084a7ec5d2abe89e00f0a6567cb271e80a
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 ## 資料檢視先決條件 {#prerequisites}
 
 * 建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集連線](/help/connections/create-connection.md)。
-* 若要建立或管理資料檢視，您需要在 [Adobe Admin Console 中設定一組權限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant#admin-access-permissions)。
+* 若要建立或管理資料檢視，您需要在 [Adobe Admin Console 中設定一組權限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions)。
 
 ## 您可以在 Workspace 中覆寫資料檢視設定 {#settings-override}
 

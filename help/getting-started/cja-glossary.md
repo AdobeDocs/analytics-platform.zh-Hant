@@ -4,10 +4,10 @@ description: Customer Journey Analytics 術語。
 exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 04ceeb9e9a048a224ea957ad42bc54cbd4b3f249
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 97%
+source-wordcount: '336'
+ht-degree: 98%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 97%
 ## Adobe Experience Platform 術語
 
 Adobe Experience Platform 可標準化整個企業的資料和內容、提供即時的消費者個人檔案、運用資料科學，以及加快內容速度，藉此促進客戶歷程中的體驗個人化。
-如需詳細資訊，請參閱 [Adobe Experience Platform 術語](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=en)。
+如需詳細資訊，請參閱 [Adobe Experience Platform 術語](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html)。

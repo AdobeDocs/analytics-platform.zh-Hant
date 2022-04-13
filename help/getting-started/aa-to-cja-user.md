@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 6981a7a68d8a517f6b842cb36382f543c80f4582
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 6%
+source-wordcount: '1456'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ CJA中的幾項功能都經過重新命名和重新設計，以符合行業標�
 
 CJA從Adobe Experience Platform獲取資料。 Experience Platform使您能夠集中並標準化來自任何系統或渠道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
 
-Experience Platform中的客戶資料以資料集形式儲存，資料集由 [架構](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant) 和資料批。 如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en)。
+Experience Platform中的客戶資料以資料集形式儲存，資料集由 [架構](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html) 和資料批。 如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html)。
 
 您的CJA管理員建立 [連接](/help/connections/create-connection.md) 到Experience Platform中的資料集。 然後他們建造 [資料視圖](/help/data-views/data-views.md) 利用這些連接。 資料視圖在概念上與虛擬報告套件相似，是CJA報告的基礎。 由於Experience Platform源是所有報告資料，因此報告套件不再作為資料容器存在。
 

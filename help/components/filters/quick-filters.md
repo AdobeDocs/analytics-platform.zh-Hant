@@ -4,10 +4,10 @@ title: 快速篩選
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a1bb56c5a7e6d3bb6b59e2cf3448409d85ec2efa
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 77%
+source-wordcount: '1047'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 您可以在專案中建立快速篩選以迴避完整[篩選產生器](/help/components/filters/create-filters.md)的複雜性。快速篩選
 
-* 應用為 [僅項目篩選器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=en#project-only)。
+* 應用為 [僅項目篩選器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html#project-only)。
 * 最多允許 3 個規則
 * 不要容納巢狀容器或循序規則。
 
@@ -27,7 +27,7 @@ ht-degree: 77%
 
 ## 先決條件 {#prereqs}
 
-任何人都可以建立快速篩選器。 但是，您需要在 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=zh-Hant#analytics-tools) 以保存快速篩選器或在篩選器生成器中開啟它。
+任何人都可以建立快速篩選器。 但是，您需要在 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) 以保存快速篩選器或在篩選器生成器中開啟它。
 
 ## 建立快速篩選 {#create}
 
@@ -39,7 +39,7 @@ ht-degree: 77%
 | --- | --- |
 | [!UICONTROL 名稱] | 篩選的預設名稱是篩選中規則名稱的組合。您可將篩選器重新命名為更好記的名稱。 |
 | [!UICONTROL 包含/排除] | 您可以在篩選定義中包含或排除元件，但不能同時包含和排除。 |
-| [!UICONTROL 點擊/造訪/訪客容器] | 快速篩選僅包含一個[篩選容器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html?lang=en#filter-containers)，可讓您在篩選中包含（或從中排除）維度/量度/日期範圍。[!UICONTROL 訪客]包含特定於訪客所有造訪次數和頁面檢視的總體資料。[!UICONTROL 造訪次數]容器可讓您設定規則，以根據造訪次數來劃分訪客的資料，而[!UICONTROL 點擊]容器則可讓您根據個別頁面檢視來劃分訪客資訊。預設容器為[!UICONTROL 點擊]。 |
+| [!UICONTROL 點擊/造訪/訪客容器] | 快速篩選僅包含一個[篩選容器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html#filter-containers)，可讓您在篩選中包含（或從中排除）維度/量度/日期範圍。[!UICONTROL 訪客]包含特定於訪客所有造訪次數和頁面檢視的總體資料。[!UICONTROL 造訪次數]容器可讓您設定規則，以根據造訪次數來劃分訪客的資料，而[!UICONTROL 點擊]容器則可讓您根據個別頁面檢視來劃分訪客資訊。預設容器為[!UICONTROL 點擊]。 |
 | [!UICONTROL 元件] (Dimension/度量/日期範圍) | 透過新增元件 (維度、量度、日期範圍或維度值) 來定義最多 3 個規則。有 3 種方法可以找到正確的元件：<ul><li>開始輸入，然後[!UICONTROL 快速篩選]產生器就會自動找到合適的元件。</li><li>使用下拉式清單來尋找元件。</li><li>從左側邊欄拖放元件。</li></ul> |
 | [!UICONTROL 運算元] | 使用下拉式功能表尋找標準運算子和 [!UICONTROL Distinct Count] 運算子。參閱[篩選運算子](operators.md)。 |
 | 加 (+) 號 | 新增另一個規則 |

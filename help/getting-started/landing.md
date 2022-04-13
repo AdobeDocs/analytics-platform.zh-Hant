@@ -4,10 +4,10 @@ title: Customer Journey Analytics登錄頁
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 73%
+source-wordcount: '1077'
+ht-degree: 76%
 
 ---
 
@@ -64,7 +64,7 @@ Customer Journey Analytics的登錄頁包括項目經理首頁和學習部分，
 | [!UICONTROL 已排程] | 設定為 [!UICONTROL 開] 計畫項目時或 **[!UICONTROL 關閉]** 不是的。 按一下&#x200B;**[!UICONTROL 開啟]**&#x200B;連結可讓您查看排程專案的資訊。如果您是專案所有人，您還能[編輯專案排程](/help/analysis-workspace/curate-share/t-schedule-report.md)。 |
 | [!UICONTROL 專案 ID] | 項目ID可用於調試項目。 |
 | [!UICONTROL 最大日期範圍] | 更長的日期範圍會增加項目複雜性，並可能增加處理和載入時間。 |
-| [!UICONTROL 查詢數] | 載入項目時向Analytics發出的請求總數。 項目查詢數量的增加增加了項目複雜性，並可能增加處理和載入時間。 此資料僅在載入項目或發送計畫項目後才可用。 |
+| [!UICONTROL 查詢數] | 載入項目時向Analytics發出的請求總數。 較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 |
 | 自訂表格圖示 | (右上方) 如果要從專案清單新增或移除欄項，您可以透過選取或取消選取來執行此操作。 |
 | &lt; (返回按鈕) | Workspace項目中的此按鈕將返回到最近的登錄頁配置。 無論您離開登陸頁面時在哪個頁面設定，當您返回時將會持續留在該頁面。 |
 

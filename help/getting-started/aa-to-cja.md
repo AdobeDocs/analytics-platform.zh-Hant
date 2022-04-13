@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 4f7f0b48a15065fb13e5de484946f90fd17e7332
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1318'
+ht-degree: 79%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 0%
 
 ### 2. 對應變數 {#variables}
 
-將Adobe Analytics資料轉換為Customer Journey Analytics資料的最直接方法是 [全局報告套件](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hant) Experience Platform [Adobe Analytics源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。 此連接器將您的Adobe Analytics變數直接映射到Experience Platform中的XDM架構和資料集，這反過來又可以輕鬆地連接到Customer Journey Analytics。
+將Adobe Analytics資料轉換為Customer Journey Analytics資料的最直接方法是 [全局報告套件](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html) Experience Platform [Adobe Analytics源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。 此連接器將您的Adobe Analytics變數直接映射到Experience Platform中的XDM架構和資料集，這反過來又可以輕鬆地連接到Customer Journey Analytics。
 
 完整的全域報表套裝並不總能用於實施。如果您計畫將多個報表套件引入Customer Journey Analytics，則有兩個選項：
 
 * 提前規劃，使變數在這些報告套件中保持一致。 例如，報表套裝 1 中的 eVar1 可能指向[!UICONTROL 頁面]。報表套裝 2 中的 eVar1 可能指向[!UICONTROL 內部行銷活動]。在將報表套裝引入 CJA 時，這些變數將混合到單一 eVar1 維度中，導致可能的混淆和不準確的報告。
 
-* 使用 [日期準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 映射變數。 雖然如果所有報表套件都使用相同的通用變數設計，則這樣做會更容易，但如果您使用新Experience Platform，則不需要 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#mapping) 的子菜單。 它允許您通過變數的映射值(位於資料流（或屬性）級別)來引用變數。
+* 使用 [日期準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 映射變數。 雖然如果所有報表套件都使用相同的通用變數設計，則這樣做會更容易，但如果您使用新Experience Platform，則不需要 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) 的子菜單。 它允許您通過變數的映射值(位於資料流（或屬性）級別)來引用變數。
 
 如果您由於[!UICONTROL 已超出不重複限制]或[!UICONTROL 低流量]問題，而避免使用全域報表套裝，請了解 CJA 沒有[維度上的基數限制](/help/components/dimensions/high-cardinality.md)。它允許顯示和計數任何唯一值。
 
@@ -56,7 +56,7 @@ Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleagu
 
 ### 4. 決定使用 Analytics 來源連接器或 Experience Platform SDK {#connector-vs-sdk}
 
-隨著 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant) 資料收集的發展，您可能會移轉到 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=zh-Hant) 或 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hant) (搭配 Adobe Experience Platform Edge Network)。SDK 的典型實施是將資料傳送到 Adobe Analytics，但直接將資料傳送到 Adobe Experience Platform 的新機會也隨之而來。然後，可將資料擷取到 Customer Journey Analytics，同時保留傳送到 Adobe Analytics 的資料。
+隨著 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 資料收集的發展，您可能會移轉到 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) 或 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) (搭配 Adobe Experience Platform Edge Network)。SDK 的典型實施是將資料傳送到 Adobe Analytics，但直接將資料傳送到 Adobe Experience Platform 的新機會也隨之而來。然後，可將資料擷取到 Customer Journey Analytics，同時保留傳送到 Adobe Analytics 的資料。
 
 這種方法大幅擴展了資料收集的可能性：欄位數不再有限制，也不再需要將資料元素對應到 Analytics 中的 prop、eVar 和 event 等變數。可以使用不同類型的無限結構描述元素，並使用 CJA [資料檢視](/help/data-views/data-views.md)以多種方式表示它們。當直接傳送到 Adobe Experience Platform 時，資料可用性的速度會加快，因為移除了透過 Adobe Analytics 進行資料處理的時間。
 
@@ -100,9 +100,9 @@ Adobe Analytics 區段 (在 CJA 中稱為[!UICONTROL 篩選器]) 和計算量度
 
 以下兩段影片協助提供指引：
 
-* [將 Adobe Analytics 區段移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=zh-Hant)
+* [將 Adobe Analytics 區段移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
 
-* [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=zh-Hant)
+* [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html)
 
 ### 其他考量
 

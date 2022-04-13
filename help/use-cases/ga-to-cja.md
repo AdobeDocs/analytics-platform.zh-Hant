@@ -4,10 +4,10 @@ description: '說明如何利用 Customer Journey Analytics (CJA) 將您的 Goog
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1178'
-ht-degree: 100%
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+workflow-type: tm+mt
+source-wordcount: '1170'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe 資料模型的其中一個最強大的層面就是可讓您將所有客�
 
 * Adobe Experience Platform 的存取權
 * Universal Google Analytics (Google Analytics 360 版本) 或是 Google Analytics 4 (免費版本或 Google Analytics 360 版本) 的存取權
-* Customer Journey Analytics 的存取權以及其[管理員權限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant#admin-access-permissions)。
+* Customer Journey Analytics 的存取權以及其[管理員權限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions)。
 
 如何將 Google Analytics 資料帶入 Adobe Experience Platform 取決於您使用的 Google Analytics 版本：
 
@@ -97,7 +97,7 @@ FROM
 
 >[!VIDEO](https://video.tv.adobe.com/v/332676)
 
-您可以將 GA 事件資料對應到您之前建立的現有資料集中，或是使用您選擇的任何 XDM 結構描述建立新資料集。 當您選取結構描述後，Experience Platform 會套用機器學習，自動地將 Google Analytics 資料中的每個欄位預先對應到您的 [XDM 結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant#ui)。
+您可以將 GA 事件資料對應到您之前建立的現有資料集中，或是使用您選擇的任何 XDM 結構描述建立新資料集。 當您選取結構描述後，Experience Platform 會套用機器學習，自動地將 Google Analytics 資料中的每個欄位預先對應到您的 [XDM 結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)。
 
 ![](assets/schema-map.png)
 
@@ -141,7 +141,7 @@ FROM
 
 在此範例中，我們已定義「建立帳戶」觸發條件：`pageUrl equals account-creation`。 您可以在此觸發條件中新增一些資訊，以確保當使用者驗證成功而且載入帳戶建立頁面時，資料會傳送給 Google Analytics 和 AEP。
 
-您也可以參考「[資料擷取與 Google 代碼管理工具](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html?lang=zh-Hant#module9)」。
+您也可以參考「[資料擷取與 Google 代碼管理工具](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module9/data-ingestion-using-google-tag-manager-and-google-analytics.html#module9)」。
 
 如需指示，請觀看這段影片：
 
@@ -153,6 +153,6 @@ FROM
 
 ## 後續步驟
 
-* 根據包含 Google Analytics 資料的連線建立[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant#cja-dataviews)。
+* 根據包含 Google Analytics 資料的連線建立[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#cja-dataviews)。
 
 * 在工作區](/help/use-cases/ga-to-cja-reporting.md)中執行一些令人驚異的[分析。

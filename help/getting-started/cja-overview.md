@@ -4,10 +4,10 @@ description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Wo
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: cd48a91ca3affc39cf71451bdd8a44ca7669523b
+source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 90%
+source-wordcount: '1257'
+ht-degree: 91%
 
 ---
 
@@ -98,14 +98,14 @@ Customer Journey Analytics 中，產品管理員以外的使用者無法查看�
 
 Customer Journey Analytics 是依賴 Adobe Experience Platform 的許多功能之一。同樣以 Experience Platform 為基礎的其他幾項功能可讓您充份運用您的資料。
 
-Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶資料與內容，並運用資料科學和機器學習技術來改善個人化體驗的設計和傳遞。Platform 中的客戶資料以資料集形式儲存，而資料集是由結構和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=en)。
+Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶資料與內容，並運用資料科學和機器學習技術來改善個人化體驗的設計和傳遞。Platform 中的客戶資料以資料集形式儲存，而資料集是由結構和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html)。
 
 Experience Platform 的多個元件 (從資料內嵌到直接 SQL 存取) 是 Customer Journey Analytics 的核心，且可與其搭配使用：
 
 * [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)：使用標準 SQL 從 Adobe Experience Platform 擷取資料，例如 Adobe 解決方案資料、客戶第一方資料或任何其他 Platform 資料。它是一個無伺服器工具，允許您將任何資料集連接並將查詢結果捕獲為新資料集，以用於報告、Data Science Workspace或將其接收到Profile Service中。 您可以使用 Query Service 來建立資料分析生態系統，進而了解消費者在不同互動管道中的行為。這些管道可能包括銷售點系統、網路、行動裝置、CRM 系統等。
-* [即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)：
-* [Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en)：
-* 「開發人員」選項中的 [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)：您可以在 Adobe Experience Platform 中使用預先建立的人工智慧 (AI) 和機器學習模型來影響客戶歷程的各個階段。透過發掘隱藏的深入分析，您可以針對客戶歷程做出更有效的預測、提供建議的最佳後續步驟，或是將繁瑣的程序自動化。
+* [即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)：
+* [Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)：
+* 「開發人員」選項中的 [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html)：您可以在 Adobe Experience Platform 中使用預先建立的人工智慧 (AI) 和機器學習模型來影響客戶歷程的各個階段。透過發掘隱藏的深入分析，您可以針對客戶歷程做出更有效的預測、提供建議的最佳後續步驟，或是將繁瑣的程序自動化。
 
 ## 影片
 
