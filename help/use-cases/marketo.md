@@ -1,27 +1,27 @@
 ---
-title: 將B2B資料導入AEP並在CJA中報告
-description: 瞭解如何將Marketo資料引入CJA
+title: 將Marketo Engage資料導入AEP並在CJA中報告
+description: 瞭解如何將Marketo Engage資料引入CJA
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e18de2563427941f8c227881b46f73c490be218d
+exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
+source-git-commit: ad8e3c18dbb73a064662a4543cb0e553cd52cec3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '387'
 ht-degree: 5%
 
 ---
 
+# 將Marketo Engage資料導入AEP並在CJA中報告
 
-# 將MarketoB2B資料導入AEP及CJA報告
-
-您可以利用Adobe Experience Platform(AEP)中新推出的MarketoB2B資料集，為B2B營銷人員提供有價值的分析和報告解決方案。 然後在Customer Journey Analytics(CJA)中報告這些資料集。
+您可以利用Adobe Experience Platform(AEP)中新提供的Marketo Engage資料集，為B2B營銷人員提供有價值的分析和報告解決方案。 然後在Customer Journey Analytics(CJA)中報告這些資料集。
 
 ## 步驟1:將Marketo源資料欄位映射到其XDM目標
 
-映射 [人](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#persons) 和 [活動](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#activities) 到各自的XDM架構目標欄位。
+映射 [人](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#persons) 和 [活動](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=en#activities) 對象到其各自的XDM架構目標欄位。
 
 ## 步驟2:將Marketo資料導入AEP
 
-使用 [Marketo Engage連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en) 將B2B資料從Marketo帶到Experience Platform，並使用與平台連接的應用程式保持此資料的最新。
+使用 [Marketo Engage連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en) 將資料從Marketo帶到Experience Platform，並使用與平台連接的應用程式保持資料最新。
 
 ## 第3步：在CJA中設定到此資料集的連接
 
@@ -36,6 +36,7 @@ A [資料視圖](/help/data-views/data-views.md) 是特定於Customer Journey An
 您可能探討的一個使用案例是：2020年4月–6月，我們有多少個線索訪問網頁？
 
 1. 開啟 [分析工作區](/help/analysis-workspace/home.md) 並建立新項目。
+使用B2B/B2P CDP的客戶可以在CJA中進行B2C樣式分析。 B2B對象尚不可用。
 
 1. 建立 [濾波器](/help/components/filters/create-filters.md) 對於網頁視圖，如下所示 — 事件類型= web.webpagedetails.pageViews:
 
