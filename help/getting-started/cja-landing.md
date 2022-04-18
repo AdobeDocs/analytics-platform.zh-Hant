@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: 5799d8beec534bc6ec76b7fd01a7dd2524b28fef
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 77%
+source-wordcount: '345'
+ht-degree: 72%
 
 ---
 
@@ -24,7 +24,8 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p> 
      <ul>
-     <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html"> 準備從 Adobe Analytics 移轉到 Customer Journey Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html"> Adobe Analytics對Customer Journey Analytics進化 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html"> CJAAdobe Analytics使用手冊 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/binding-dimensions-metrics.html"> 在 CJA 中使用繫結維度和量度 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html"> 在 Adobe Experience Platform 中使用行銷管道維度
  </a> </li>

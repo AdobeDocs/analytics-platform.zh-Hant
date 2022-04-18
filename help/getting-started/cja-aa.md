@@ -4,10 +4,10 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: 5799d8beec534bc6ec76b7fd01a7dd2524b28fef
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 97%
 | Attribution IQ | 完整支援 |
 | 計算量度 | 完整支援；請注意，在傳統 Analysis Workspace 中任何現有的計算量度將不會移轉到 CJA。 |
 | 行事曆事件 | 完整支援. 日曆事件已實施為 [注釋](/help/components/annotations/overview.md) 的子菜單。 |
+| 分類規則產生器 | 完全支援。 已調用 [子字串](/help/data-views/component-settings/substring.md) 在CJA中。 在報告時使用字串操作，而不是查找資料集。 |
 | 跨裝置/跨管道拼接 | 完整支援；請參閱[跨管道分析](/help/connections/cca/overview.md)。 |
 | CSV 下載 | 完整支援 |
 | 自訂行事曆 | 完整支援 |
@@ -80,7 +81,6 @@ ht-degree: 97%
 | 功能 | 附註 |
 | --- | --- |
 | 警報 | 已規劃提供支援。 |
-| 分類規則產生器 | 在 CJA 中的運作方式略有不同，在報表時間使用字串操控，而不是查詢資料集。 |
 | 貢獻分析 | 已規劃提供支援。 |
 | Data Warehouse 報表 (100% 列匯出) | 規劃從 Analysis Workspace 介面提供支援。Adobe Experience Platform [[!UICONTROL 查詢服務]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)也會提供適用於在 CJA 中這些使用案例的介面。 |
 | 透過裝置圖表進行 ID 拼接 | 已規劃提供支援。 |
