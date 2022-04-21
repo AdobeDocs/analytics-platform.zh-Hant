@@ -4,10 +4,10 @@ description: 如何在工作區中建立註解。
 role: User, Admin
 feature: Components
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 97cbe0d376892a86d35f38956bc11f3d43bf754a
+source-git-commit: 15faee32171a2beab7cf42b92b09358b5cb1acc3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '650'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 | **以滑鼠右鍵按一下[!UICONTROL 折線]圖中的點。** | 隨即開啟[!UICONTROL 註解產生器]。 請注意，根據預設，以這種方式建立的註解只會出現在其建立所在的專案中。 但是您可將這些註解提供給所有專案使用。 也請注意，系統已填入日期及任何量度等。<p>![](assets/annotate-line.png) |
 | **在工作區中，前往[!UICONTROL 元件] > [!UICONTROL 建立註解]。** | 隨即開啟[!UICONTROL 註解產生器]。 |
 | **使用此快速鍵**&#x200B;來開啟註解產生器：(PC) `ctrl` `shift` + o，(Mac) `shift` + `command` + o | 請注意，使用快速鍵建立註解時，您會為目前日期建立單日註解，而不會預先選取任何範圍 (量度或維度)。 |
-| **使用 [CJA注釋API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | CJA注釋API允許您通過Adobe I/O以寫程式方式建立、更新或檢索注釋。這些API使用與Adobe在產品UI內使用的相同的資料和方法。 |
+| **使用 [CJA注釋API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | CJA注釋API允許您通過Adobe Developer以寫程式方式建立、更新或檢索注釋。 這些API使用與Adobe在產品UI內使用的相同的資料和方法。 |
 
 1. 填入[!UICONTROL 註解產生器]元素。
 
