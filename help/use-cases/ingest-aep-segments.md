@@ -3,15 +3,19 @@ title: 將AEP觀眾吸引到Customer Journey Analytics
 description: 說明如何將AEP觀眾錄入Customer Journey Analytics以進一步分析。
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: cd1d639ad698c188c506881b2b17103b0a3559f2
+source-git-commit: ed01fd0899cac21fff156e0c31dc2b52ff7c8cca
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '600'
 ht-degree: 2%
 
 ---
 
 
 # 將AEP觀眾吸引到Customer Journey Analytics(CJA)
+
+>[!NOTE]
+>
+>這個主題正在建設中。
 
 (AEP文檔經理說，Brandon, fyi, &#39;Unified Profile&#39;是「即時客戶配置」的過時術語。 在AEP文檔集中找不到任何UP文檔。)
 
@@ -61,7 +65,7 @@ Adobe Experience Platform [即時客戶概要資訊](https://experienceleague.ad
 * `audienceMembershipIdList` 字串欄位：受眾ID
 * 為受眾添加友好名稱(`audienceMembershipIdName`)，例如
 
-   ![友好的受眾名稱](assets/audience-name)
+   ![友好的受眾名稱](assets/audience-name.png)
 
 ## 第5步：在CJA中建立到此配置檔案資料集的連接
 
@@ -78,7 +82,7 @@ Adobe Experience Platform [即時客戶概要資訊](https://experienceleague.ad
 
 要執行的操作：
 
-為您處理屬於多個受眾的人時編寫更多步驟。
+在與多個受眾的成員打交道時，請編寫更多步驟。
 
 
 
