@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: b63593aa96580c39490ab2ac5c1454773fc7bb68
+source-git-commit: 165a2f7cd33282a8aaf93aa074a370cec2cbd40e
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 93%
@@ -205,7 +205,7 @@ ht-degree: 93%
    + [使用綁定維和度量](use-cases/binding-dimensions-metrics.md)
    + [(B2B) 新增帳戶層級資料當做查詢資料集](use-cases/b2b.md)
    + [將Marketo Engage資料導入AEP並在CJA中報告](use-cases/marketo.md)
-   + [吸引AEM觀眾加入CJA](use-cases/ingest-aep-segments.md)
+   + [請AEP觀眾加入CJA](use-cases/ingest-aep-segments.md)
    + [跨管道分析資料](use-cases/cross-channel.md)
    + [匯入客服中心和網頁的資料](use-cases/call-center.md)
    + [資料擷取使用案例](use-cases/data-ingestion.md)
