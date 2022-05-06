@@ -4,40 +4,42 @@ description: 說明如何將AEP觀眾錄入Customer Journey Analytics以進一�
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: 535095dc82680882d1a53076ea0655b1333b576b
+source-git-commit: 490a754270922481ebd893514c530a0667d9d6e4
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1042'
 ht-degree: 1%
 
 ---
 
 # 將AEP觀眾吸引到Customer Journey Analytics(CJA)
 
->[!NOTE]
->
->這個主題正在建設中。
-
 本使用案例探討了將Adobe Experience Platform(AEP)觀眾引入CJA的臨時手動方式。 這些受眾可能是在AEP段生成器或Adobe Audience Manager或其他工具中建立的，並儲存在即時客戶配置檔案(RTCP)中。 受眾包括一組配置檔案ID以及任何適用的屬性/事件等。 並將它們帶入CJA Workspace進行分析。
 
 ## 先決條件
 
-* Adobe Experience Platform 的存取權 (AEP)，特別是即時客戶概要資訊。  還可以訪問建立/管理AEP架構和資料集。
-* 訪問AEP查詢服務（以及編寫SQL的能力）或執行一些輕量轉換的其他工具
-* 訪問Customer Journey Analytics（需要CJA產品管理員，以建立/修改CJA連接和資料視圖）
+* Adobe Experience Platform 的存取權 (AEP)，特別是即時客戶概要資訊。
+* 訪問建立/管理AEP架構和資料集。
+* 訪問AEP查詢服務（以及編寫SQL的能力）或執行一些輕量轉換的其他工具。
+* Customer Journey Analytics 的存取權. 您需要成為CJA產品管理員才能建立/修改CJA連接和資料視圖。
 * 能夠使用AdobeAPI（分段，可選的其他）
 
 ## 步驟1:在即時客戶配置檔案中選擇受眾 {#audience}
 
-Adobe Experience Platform [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCP)通過組合來自多個渠道（包括線上、離線、CRM和第三方）的資料，讓您查看每個客戶的整體視圖。 RTCP中的受眾可能來自不同來源。 選擇一個或多個觀眾，以加入CJA。
+Adobe Experience Platform [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en) (RTCP)通過組合來自多個渠道（包括線上、離線、CRM和第三方）的資料，讓您查看每個客戶的整體視圖。
+
+RTCP中的受眾可能來自不同來源。 選擇一個或多個觀眾，以加入CJA。
 
 ## 步驟2:為導出建立配置檔案聯合資料集
 
 為了將訪問群體導出到最終可以添加到CJA中連接的資料集，您需要建立其架構為Profile的資料集 [聯合架構](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=en#understanding-union-schemas)。
+
 聯合架構由多個共用同一類且已為配置檔案啟用的架構組成。 聯合架構使您能夠看到共用同一類的架構中包含的所有欄位的合併。 即時客戶配置檔案使用聯合方案為每個客戶建立一個整體視圖。
 
 ## 第3步：通過API調用將受眾導出到Profile Union資料集 {#export}
 
-在將受眾引入CJA之前，需要將其導出到AEP資料集。 這只能使用分段API完成，特別是 [導出作業API終結點](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en)。 可以使用您選擇的受眾ID建立導出作業，並將結果放在您在步驟2中建立的Profile Union AEP資料集中。  雖然您可以導出受眾的各種屬性/事件，但您只需導出與要利用的CJA連接中使用的人員ID欄位匹配的特定配置檔案ID欄位（請參見步驟5中的下面）。
+在將受眾引入CJA之前，需要將其導出到AEP資料集。 這只能使用分段API完成，特別是 [導出作業API終結點](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en)。
+
+可以使用您選擇的受眾ID建立導出作業，並將結果放在您在步驟2中建立的Profile Union AEP資料集中。 雖然您可以導出受眾的各種屬性/事件，但您只需導出與要利用的CJA連接中使用的人員ID欄位匹配的特定配置檔案ID欄位（請參見步驟5中的下面）。
 
 ## 第4步：編輯導出輸出
 
@@ -67,13 +69,15 @@ Adobe Experience Platform [即時客戶概要資訊](https://experienceleague.ad
 
 * 如果需要，請添加其他受眾元資料。
 
-## 第5步：將此配置檔案資料集添加到CJA中的現有連接(BG:您可以建立一個新連接，但99%的時間客戶希望將其添加到他們已經擁有資料的現有連接中；觀眾只是「豐富」了CJA中的現有資料)
+## 第5步：將此配置檔案資料集添加到CJA中的現有連接
+
+您可以建立新連接，但大多數客戶都希望將其添加到現有連接中。 受眾ID「豐富」CJA中的現有資料。
 
 [建立連線](/help/connections/create-connection.md)
 
 ## 步驟6:修改現有（或建立新）CJA資料視圖
 
-添加 `audienceMembershipId`。 `audienceMembershipIdName` 和 `personID` 到資料視圖。
+添加 `audienceMembershipId`。 `audienceMembershipIdName` 和 `personID` 的子菜單。
 
 ## 第7步：工作區中的報告
 
