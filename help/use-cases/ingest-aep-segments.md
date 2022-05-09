@@ -4,10 +4,10 @@ description: 說明如何將AEP觀眾錄入Customer Journey Analytics以進一�
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: 490a754270922481ebd893514c530a0667d9d6e4
+source-git-commit: 9c4869bb632f3d69d8704009744246b975cb5c4a
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 1%
+source-wordcount: '1049'
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,9 @@ RTCP中的受眾可能來自不同來源。 選擇一個或多個觀眾，以加
 
 ## 第4步：編輯導出輸出
 
-需要將導出作業的結果轉換為單獨的Profile資料集，以便被引入CJA。  此轉換可以使用AEP查詢服務或您選擇的另一個轉換工具來完成。  我們只需配置檔案ID（與CJA中的人員ID匹配）和一個或多個觀眾ID即可在CJA中進行報告。 但是，標準導出作業包含更多資料，因此我們需要編輯此輸出以刪除無關資料，並移動一些內容。  此外，在將已轉換的資料添加到模式/資料集之前，還需要先建立模式/資料集。
+需要將導出作業的結果轉換為單獨的Profile資料集，以便被引入CJA。  此轉換可通過 [AEP查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)或您選擇的另一個轉換工具。 我們只需配置檔案ID（與CJA中的人員ID匹配）和一個或多個觀眾ID即可在CJA中進行報告。
+
+但是，標準導出作業包含更多資料，因此我們需要編輯此輸出以刪除無關資料，並移動一些內容。  此外，在將已轉換的資料添加到模式/資料集之前，還需要先建立模式/資料集。
 
 下面是Profile union資料集中導出輸出的示例， **先** 任何編輯：
 
@@ -71,9 +73,7 @@ RTCP中的受眾可能來自不同來源。 選擇一個或多個觀眾，以加
 
 ## 第5步：將此配置檔案資料集添加到CJA中的現有連接
 
-您可以建立新連接，但大多數客戶都希望將其添加到現有連接中。 受眾ID「豐富」CJA中的現有資料。
-
-[建立連線](/help/connections/create-connection.md)
+你可以 [建立新連接](/help/connections/create-connection.md)，但大多數客戶都希望將Profile資料集添加到現有連接中。 受眾ID「豐富」CJA中的現有資料。
 
 ## 步驟6:修改現有（或建立新）CJA資料視圖
 
