@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2270'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 82%
 | 問題 | 回答 |
 | --- | --- |
 | [!UICONTROL Customer Journey Analytics] 是否可以在裝置或資料集之間「拼接」(彙整) 資料嗎？ | 是。 [!UICONTROL Customer Journey Analytics] 有一個稱為[跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant) (CCA) 的拼接解決方案。 它可讓您重新輸入資料集的人員 ID，好讓您順暢地合併多個資料集。 |
-| 是否支援拼接匿名行為與已驗證的行為？ | 是。 [跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html)會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接 ID。 |
+| 是否支援拼接匿名行為與已驗證的行為？ | 是。 [跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant)會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接 ID。 |
 | CCA 中的「重播」是如何運作的？ | CCA 會根據所掌握的唯一識別碼來「重播」資料。 重播會使得連線的新裝置被拼接。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html#step-1%3A-live-stitching) |
 | CCA 中的拼接歷史 (回填) 資料是如何運作的？ | 初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。 為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html#enable-cross-channel-analytics) |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## 3. 將資料帶入 [!UICONTROL Customer Journey Analytics] {#ingest}
 
@@ -48,7 +48,7 @@ ht-degree: 82%
 | 是否需要帶入 PII 資料來建立資料之間的連結？ | 否，您可以使用任何 ID，包括客戶 ID (非 PII) 的雜湊。 |
 | 擷取過去或未來的日期/時間戳記至 CJA 事件資料集的限制有哪些？ | <ul><li>在過去日期/時間戳記方面：事件資料最久為 10 年。</li><li>在未來日期/時間戳記方面：事件資料 (預測性) 最久為未來 1 個月。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## 4. 延遲的注意事項 {#latency}
 
@@ -57,9 +57,9 @@ ht-degree: 82%
 
 | 問題 | 回答 |
 | --- | --- |
-| [!UICONTROL Adobe Experience Platform] 上的 [!UICONTROL Customer Journey Analytics] 延遲時間預計會多久？ | <ul><li>即時資料或事件：資料在 AEP 上可供使用時，在 90 分鐘內完成處理和擷取。(批次大小 > 5 千萬列：90 分鐘以上。)</li><li>小型回填 — 例如，包含1000萬行的查找資料集：七天內<li>大型回填 - 例如，5 百億列：30 天</li></ul> |
+| [!UICONTROL Adobe Experience Platform] 上的 [!UICONTROL Customer Journey Analytics] 延遲時間預計會多久？ | <ul><li>即時資料或事件：資料在 AEP 上可供使用時，在 90 分鐘內完成處理和擷取。(批次大小 > 5 千萬列：90 分鐘以上。)</li><li>小型回填 - 例如，1 千萬列的查詢資料集: 7 天以內<li>大型回填 - 例如，5 百億列：30 天</li></ul> |
 
-## 5.設定滾動窗口 [!UICONTROL 連接] 資料保留 {#data-retention}
+## 5. 設定[!UICONTROL 連線]資料保留的滾動時段 {#data-retention}
 
 >[!IMPORTANT]
 >請和客戶服務或您的 Adobe 客戶經理聯絡，以實作此項設定。尚未透過 CJA UI 提供。
@@ -76,8 +76,8 @@ ht-degree: 82%
 | --- | --- |
 | 刪除 [!UICONTROL Adobe Experience Platform] 中的沙箱 | 刪除沙箱時，將會讓資料停止流向該沙箱中資料集的任何 [!UICONTROL Customer Journey Analytics] 連線。 目前，系統不會自動刪除與被刪除的沙箱繫結的 CJA [!UICONTROL 連線]。 |
 | 刪除 [!UICONTROL Adobe Experience Platform] 中的結構描述，但不刪除與此結構描述相關聯的資料集 | [!UICONTROL Adobe Experience Platform] 不允許刪除與一或多個[!UICONTROL 資料集]相關聯的[!UICONTROL 結構描述]。不過，擁有適當權限的管理員可以先刪除資料集，再刪除結構描述。 |
-| 刪除 [!UICONTROL Adobe Experience Platform] Data Lake 中的資料集 | 如果刪除 AEP Data Lake 中的資料集，該資料集的資料將停止流向包含該資料集的任何 CJA 連線。 來自該資料集的任何資料都會自動從關聯的CJA連接中刪除。 |
-| 刪除 [!UICONTROL Customer Journey Analytics] 中的資料集 | 請與Adobe客戶經理聯繫，以設定刪除已保存連接中的資料集的過程。 |
+| 刪除 [!UICONTROL Adobe Experience Platform] Data Lake 中的資料集 | 如果刪除 AEP Data Lake 中的資料集，該資料集的資料將停止流向包含該資料集的任何 CJA 連線。 系統會從關聯的 CJA 連線中自動刪除該資料集中的任何資料。 |
+| 刪除 [!UICONTROL Customer Journey Analytics] 中的資料集 | 請與您的 Adobe 客戶經理聯絡，以便展開刪除已儲存連線中的資料集流程。 |
 | 從資料集中刪除批次 (在 [!UICONTROL Adobe Experience Platform] 中) | 如果從 [!UICONTROL Adobe Experience Platform] 資料集中刪除批次資料，該批次資料會從包含該特定批次資料的所有 CJA 連線中移除。[!UICONTROL Adobe Experience Platform] 中的批次資料刪除後，CJA 會收到相關通知。 |
 | 當批次&#x200B;**正要擷取**&#x200B;到 [!UICONTROL Customer Journey Analytics] 中時將它刪除 | 如果資料集中只有一筆批次資料，該批次資料中的所有或部分資料都不會顯示於 [!UICONTROL Customer Journey Analytics]。系統會復原匯入作業。舉例來說，如果資料集含有 5 筆批次資料，其中 3 筆在資料集遭刪除前就已匯入完成，則該 3 筆批次資料的資料就會顯示於 [!UICONTROL Customer Journey Analytics]。 |
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的連線 | 錯誤訊息會指出：<ul><li>針對已刪除連線所建立的任何資料檢視都將停止運作。</li><li> 同樣地，如果有任何「工作區」專案與所刪除連線中的資料檢視相依，也將停止運作。</li></ul> |
@@ -85,7 +85,7 @@ ht-degree: 82%
 
 ## 7. 在 CJA 中合併報表套裝時的注意事項 {#merge-reportsuite}
 
-如果您計劃透過 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)擷取 Adobe Analytics 資料，請在合併 2 個或多個 Adobe Analytics 報表套裝時考慮這些後果。
+如果您計劃透過 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)擷取 Adobe Analytics 資料，請在合併 2 個或多個 Adobe Analytics 報表套裝時考慮這些後果。
 
 | 問題 | 考量事項 |
 | --- | --- |
@@ -102,46 +102,46 @@ ht-degree: 82%
 | 問題 | 回答 |
 | --- | --- |
 | 我可以將 [!DNL Customer Journey Analytics] 中的[!UICONTROL 篩選器] ([!UICONTROL 區段]) 共用/發佈到 Experience Platform Unified Profile 或其他 Experience Cloud 應用程式嗎？ | 還不行，我們正在積極努力地提供這項功能。 |
-| 我的舊 [!UICONTROL eVar] 設定發生了什麼事？ | [!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。 |
+| 我的舊 [!UICONTROL eVar] 設定發生了什麼事？ | [!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構描述元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。 |
 | 我所有的工作階段和變數持續性設定現在位於何處？ | [!UICONTROL Customer Journey Analytics 會在報告時套用這些設定，而這些設定現在會顯示於「資料檢視」。]這些設定的變更現在可回溯，使用多個「資料檢視」即可擁有多個版本！ |
-| 我們現有的區段/計算量度有何改變？ | [!UICONTROL Customer Journey Analytics 不再使用 eVar、prop 或事件，而是使用 AEP 結構。]換句話說，現有的區段或計算量度都會與 [!UICONTROL Customer Journey Analytics] 不相容。 |
+| 我們現有的區段/計算量度有何改變？ | [!UICONTROL Customer Journey Analytics 不再使用 eVar、prop 或事件，而是使用 AEP 結構描述。]換句話說，現有的區段或計算量度都會與 [!UICONTROL Customer Journey Analytics] 不相容。 |
 | [!UICONTROL Customer Journey Analytics] 如何處理 `Uniques Exceeded` 限制？ | [!UICONTROL Customer Journey Analytics 沒有唯一值的限制，因此無需擔心這些限制！] |
 | 如果我是現有 [!DNL Data Workbench] 客戶，現在是否可以改用 Customer Journey Analytics？ | 這取決於您的使用案例 - 請與您的 Adobe 帳戶團隊合作。 您目前的使用案例可能已經很適合使用 Customer Journey Analytics！ |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
-## 9。估計連接大小 {#estimate-size}
+## 9. 估算連線規模 {#estimate-size}
 
-您可能需要知道 [!UICONTROL Customer Journey Analytics] 中有多少列資料。要準確瞭解組織的事件資料記錄（資料行）使用情況，請執行以下操作 **組織建立的每個連接**。
+您可能需要知道 [!UICONTROL Customer Journey Analytics] 中有多少列資料。 為了準確說明組織的事件資料記錄 (資料列) 使用情況，請&#x200B;**為您組織所建立的每個連線執行以下操作**。
 
 1. 在 [!UICONTROL Customer Journey Analytics] 中按一下&#x200B;**[!UICONTROL 「連線」]**&#x200B;索引標籤。
 
-   您現在可以看到所有當前連接的清單。
+   現在，您可以查看所有目前連線的清單。
 
-1. 按一下每個連接名稱以進入連接管理器。
+1. 按一下每個連線名稱，以取得「連線管理員」。
 
-1. 將 **[!UICONTROL 可用事件資料記錄]** 為建立的所有連接。 （根據連接大小，可能需要一段時間才能顯示該數字。）
+1. 將適用於所有已建立連線的&#x200B;**[!UICONTROL 可用事件資料記錄筆數]**&#x200B;相加。 (視連線規模而定，筆數可能需要一段時間才會顯示。)
 
    ![事件資料](assets/event-data.png)
 
-1. 一旦您擁有了所有事件資料行的總和，請查找您公司與Adobe簽署的Customer Journey Analytics合同中的「資料行」權利。
+1. 取得所有事件資料列的總和後，請查閱您公司與 Adobe 所簽訂 Customer Journey Analytics 合約中的「資料列」權利。
 
-   這為您提供了銷售訂單中授權的最大資料行數。 如果步驟3產生的資料行數大於此數，則您將產生超量。
+   這項資料可為您提供「銷售訂單」中授權的最大資料列筆數。 如果從步驟 3 所得的資料列筆數大於此筆數，表示您有超額情形。
 
-1. 要糾正此情況，您有以下幾種選擇：
+1. 為了解決這種情況，您有幾個選擇：
 
-   * 更改 [資料保留設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#set-rolling-window-for-connection-data-retention)。
-   * [刪除任何未使用的連接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components)。
-   * [刪除AEP中的資料集](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components)。
-   * 請與Adobe客戶經理聯繫，以許可其他容量。
+   * 變更您的[資料保留設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#set-rolling-window-for-connection-data-retention)。
+   * [刪除任何未使用的連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components)。
+   * [刪除 AEP 中的資料集](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components)。
+   * 聯絡您的 Adobe 客戶經理，請他們授權額外的容量。
 
-## 10.關於使用超額 {#overage}
+## 10. 關於使用超額 {#overage}
 
-使用限制由Adobe定期監控和強制執行。 「資料行」是指可用於Customer Journey Analytics內分析的每日平均資料行。
+Adobe 會定期監控和執行使用量限額。 「資料列」指可用於 Customer Journey Analytics 中分析的每日平均資料列。
 
-例如，假設您的合同賦予您100萬行資料。 假設在使用Customer Journey Analytics的第1天，您上載了200萬行資料。 在第2天，您將刪除100萬行，並將許可證期限的剩餘部分的使用量保持在承諾的最大值（即100萬行資料）。 根據您的合同條款，您在第1天仍可能會按比例支付超額使用費，因為您超出了您的「資料行」許可證權利。
+例如，如果您的合約讓您有權使用 100 萬筆資料列。 假設在使用 Customer Journey Analytics 的第 1 天，您可以上傳 200 萬筆資料列。 您要在第 2 天刪除 100 萬筆資料列，並在剩餘的授權期限內將使用量維持在最大使用量 (即 100 萬筆資料列) 以內。 根據您的合約條款，由於您超出了「資料列」授權權利，您仍然可能需支付按比例計算的第 1 天超額使用費。
 
-## 11.診斷資料差異 {#discrepancies}
+## 11. 診斷資料差異 {#discrepancies}
 
 在部分情況下，您可能會發現連線所擷取的事件總數與 [!UICONTROL Adobe Experience Platform] 資料集中的列數不同。在此範例中，資料集「B2B Impression」有 7,650 列，但資料集在 [!UICONTROL Adobe Experience Platform] 中僅有 3,830 列。數據不一致有幾個原因，您可採取下列步驟加以診斷：
 
