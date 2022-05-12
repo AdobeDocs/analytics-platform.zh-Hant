@@ -3,9 +3,10 @@ title: 子字串元件設定
 description: 將字串的子集用作維項。
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: a8bdb5b0c00a9dbca2f466452a5d18045b2e9971
+exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
+source-git-commit: e1d8cffac907e1043d18b1939585108ce95a0fda
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '907'
 ht-degree: 7%
 
 ---
@@ -42,7 +43,7 @@ ht-degree: 7%
 * **[!UICONTROL 分隔符]**:欄位使用的分隔符。
 * **[!UICONTROL 索引]**:僅當條件為「從左/右」時才存在。 元素編號，就好像它在陣列中。 例如，如果字串輸入為 `"Fox,Turtle,Rabbit,Wolf"` 指數為3時，輸出 `"Rabbit"`。 如果索引高於分隔元素的數量， [無值選項](no-value-options.md) 按鈕
 
-## URL 剖析
+## URL分析
 
 用於包含URL的欄位。 使用示例URL `https://example.com/store/index.html?cid=campaign#cart`，可以使用以下選項：
 
@@ -112,3 +113,7 @@ CJA使用Perl regex語法的子集。 如果輸入與規則運算式和 **[!UICO
 | ``$` `` | 輸出在找到的上次匹配結束（如果找不到以前的匹配，則輸出文本的開始）和當前匹配開始之間的文本。 |
 | `$+` | 輸出與規則運算式中最後一個標籤的子表達式匹配的內容。 |
 | `$$` | 輸出字串字元 `"$"`。 |
+
+下面是一段關於綁定Dimension的視頻：
+
+>[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
