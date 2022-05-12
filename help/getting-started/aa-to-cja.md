@@ -1,20 +1,20 @@
 ---
-title: Adobe Analytics對Customer Journey Analytics進化
-description: 將Adobe Analytics資料轉換為Customer Journey Analytics資料的步驟
+title: Adobe Analytics 至 Customer Journey Analytics 的發展進程
+description: 從 Adobe Analytics 資料轉換為 Customer Journey Analytics 資料的步驟
 role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1318'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics對Customer Journey Analytics進化
+# Adobe Analytics 至 Customer Journey Analytics 的發展進程
 
-隨著您的組織逐漸發展使用Customer Journey Analytics，請探討這些步驟以準備資料並瞭解這兩種技術之間的關鍵區別。 本文針對的是管理員受眾。
+隨著您的組織發展為使用 Customer Journey Analytics，請探索這些步驟以準備您的資料，並了解這兩種技術之間的關鍵差異。 本文內容主要針對管理員受眾。
 
 ## 準備資料
 
@@ -34,13 +34,13 @@ ht-degree: 79%
 
 ### 2. 對應變數 {#variables}
 
-將Adobe Analytics資料轉換為Customer Journey Analytics資料的最直接方法是 [全局報告套件](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html) Experience Platform [Adobe Analytics源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。 此連接器將您的Adobe Analytics變數直接映射到Experience Platform中的XDM架構和資料集，這反過來又可以輕鬆地連接到Customer Journey Analytics。
+將 Adobe Analytics 資料轉換為 Customer Journey Analytics 資料的最直接方法，是使用 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將[全域報表套裝](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)擷取到 Experience Platform。 此連接器會將您的 Adobe Analytics 變數直接對應到 Experience Platform 中的 XDM 結構描述和資料集，這些結構描述和資料集可輕鬆連接到 Customer Journey Analytics。
 
-完整的全域報表套裝並不總能用於實施。如果您計畫將多個報表套件引入Customer Journey Analytics，則有兩個選項：
+完整的全域報表套裝並不總能用於實施。如果您計劃將多個報表套件引入 Customer Journey Analytics，則有 2 個選項：
 
 * 提前規劃，使變數在這些報告套件中保持一致。 例如，報表套裝 1 中的 eVar1 可能指向[!UICONTROL 頁面]。報表套裝 2 中的 eVar1 可能指向[!UICONTROL 內部行銷活動]。在將報表套裝引入 CJA 時，這些變數將混合到單一 eVar1 維度中，導致可能的混淆和不準確的報告。
 
-* 使用 [日期準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) 映射變數。 雖然如果所有報表套件都使用相同的通用變數設計，則這樣做會更容易，但如果您使用新Experience Platform，則不需要 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) 的子菜單。 它允許您通過變數的映射值(位於資料流（或屬性）級別)來引用變數。
+* 使用[日期準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)功能來對應變數。 假設所有報表套件都使用相同的通用變數設計時，這項功能會使過程更容易些；但，是如果您使用新 Experience Platform [資料準備](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping)功能，則不需要使用這項功能。 這項功能允許您通過變數的對應值 (位於資料流 (或屬性) 級別) 來引用變數。
 
 如果您由於[!UICONTROL 已超出不重複限制]或[!UICONTROL 低流量]問題，而避免使用全域報表套裝，請了解 CJA 沒有[維度上的基數限制](/help/components/dimensions/high-cardinality.md)。它允許顯示和計數任何唯一值。
 
@@ -56,7 +56,7 @@ Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleagu
 
 ### 4. 決定使用 Analytics 來源連接器或 Experience Platform SDK {#connector-vs-sdk}
 
-隨著 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 資料收集的發展，您可能會移轉到 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) 或 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) (搭配 Adobe Experience Platform Edge Network)。SDK 的典型實施是將資料傳送到 Adobe Analytics，但直接將資料傳送到 Adobe Experience Platform 的新機會也隨之而來。然後，可將資料擷取到 Customer Journey Analytics，同時保留傳送到 Adobe Analytics 的資料。
+隨著 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 資料收集的發展，您可能會移轉到 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) 或 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hant) (搭配 Adobe Experience Platform Edge Network)。SDK 的典型實施是將資料傳送到 Adobe Analytics，但直接將資料傳送到 Adobe Experience Platform 的新機會也隨之而來。然後，可將資料擷取到 Customer Journey Analytics，同時保留傳送到 Adobe Analytics 的資料。
 
 這種方法大幅擴展了資料收集的可能性：欄位數不再有限制，也不再需要將資料元素對應到 Analytics 中的 prop、eVar 和 event 等變數。可以使用不同類型的無限結構描述元素，並使用 CJA [資料檢視](/help/data-views/data-views.md)以多種方式表示它們。當直接傳送到 Adobe Experience Platform 時，資料可用性的速度會加快，因為移除了透過 Adobe Analytics 進行資料處理的時間。
 
@@ -108,11 +108,11 @@ Adobe Analytics 區段 (在 CJA 中稱為[!UICONTROL 篩選器]) 和計算量度
 
 * 運用 CJA 資料檢視的力量，您有更大的彈性來定義 Customer Journey Analytics 的量度和維度。例如，維度值可做為量度的定義。[了解更多](/help/data-views/data-views-usecases.md)
 
-* 如果您在Adobe Analytics定義了自定義日曆，則 [自定義日曆功能](/help/components/date-ranges/custom-date-ranges.md) 在CJA內。 您需要確保行事曆已正確定義。
+* 如果您在 Adobe Analytics 定義了自訂行事曆，則 CJA 中將具有類似的[自訂行事曆功能](/help/components/date-ranges/custom-date-ranges.md)。 您需要確保行事曆已正確定義。
 
 * 在 Customer Journey Analytics 中，可以定義自訂造訪/工作階段逾時，並定義將啟動新工作階段的量度。您可以建立具有不同工作階段定義的資料檢視，以獲得超越 Adobe Analytics 可能的見解。此功能對行動資料集尤其有益。
 
-* 請考慮為用戶提供資料字典，或擴展SDR以包括架構元素的Experience Platform欄位名。
+* 請考慮為使用者提供資料字典，或擴展 SDR 以包括結構描述元素的 Experience Platform 欄位名稱。
 
 ## 後續步驟
 
