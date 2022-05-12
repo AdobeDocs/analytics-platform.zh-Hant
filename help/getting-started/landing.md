@@ -1,32 +1,32 @@
 ---
-description: 解釋新登錄頁的功能。
-title: Customer Journey Analytics登錄頁
+description: '說明全新登陸頁面的功能。 '
+title: Customer Journey Analytics 登陸頁面
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics登錄頁
+# Customer Journey Analytics 登陸頁面
 
-Customer Journey Analytics的登錄頁包括項目經理首頁和學習部分，可幫助您更高效地開始。
+Customer Journey Analytics 登陸頁面包含專案經理首頁，以及可幫助您更有效地開始體驗的學習區段。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
 ## 存取登陸頁面 {#access-landing}
 
-登錄到Adobe Experience Cloud和Customer Journey Analytics後，啟用 [!UICONTROL 新登錄頁 — Beta] 左下角的切換按鈕。 存取切換按鈕是每個組織的使用者特定按鈕，而非公司特定的按鈕。
+在您登入 Adobe Experience Cloud 和 Customer Journey Analytics 後，可在左下角啟用「[!UICONTROL 全新登陸頁面 - Beta 版]」的切換按鈕。 存取切換按鈕是每個組織的使用者特定按鈕，而非公司特定的按鈕。
 
 ![登陸](assets/landing.png)
 
 您可以
 
-* 展開 [!UICONTROL 項目] 全屏顯示。 若要展開表格，僅需按一下漢堡選單圖示。這個動作將收合左側欄索引標籤。
-* 通過拖動列分隔符來定制列寬。
+* 展開[!UICONTROL 專案]表格至全螢幕。 若要展開表格，僅需按一下漢堡選單圖示。這個動作將收合左側欄索引標籤。
+* 拖曳欄分隔元來自訂欄寬。
 * 重新排序釘選項目. 若要將釘選項目上下移動，請按一下釘選項目旁的省略符號，並選取&#x200B;**[!UICONTROL 向上移動]**&#x200B;或是&#x200B;**[!UICONTROL 向下移動]**。
 
 ## 瀏覽至「[!UICONTROL 專案]」索引標籤。 {#navigate-projects}
@@ -45,7 +45,7 @@ Customer Journey Analytics的登錄頁包括項目經理首頁和學習部分，
 | [!UICONTROL 空白專案] | 建立空白的[工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)供您填入。 |
 | [!UICONTROL 空白行動計分卡] | 建立空白的[行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hant)供您填入。 |
 | [!UICONTROL 開啟訓練教學課程] | 開啟工作區訓練教學課程，可指導新使用者逐步建置專案。 |
-| [!UICONTROL 開啟版本注意事項] | 開啟最新的Adobe Experience Cloud發行說明。 |
+| [!UICONTROL 開啟版本注意事項] | 開啟最新 Adobe Experience Cloud 發行說明。 |
 | 篩選器圖示 | 您可按標記、報表套裝、所有者、類型和其他篩選器 (「我的」、「已共用給我」、「我的最愛」和「已核准」) 來篩選 |
 | 搜尋列 | 現在的搜尋包含表中的所有欄項。 |
 | 選取方塊 | 按一下一個或多個專案旁邊的這個方塊，會顯示您可以執行的專案管理操作：刪除、標記、釘選、核准、共用、重新命名、複製和匯出至 CSV。您可能沒有執行所有這些操作的權限。 |
@@ -56,17 +56,17 @@ Customer Journey Analytics的登錄頁包括項目經理首頁和學習部分，
 | [!UICONTROL 類型] | 指出此類型是工作區專案還是行動計分卡。 |
 | [!UICONTROL 標記] | 您可以標記報表，可方便分類整理。 |
 | [!UICONTROL 專案角色] | 專案角色是指您是專案所有者，以及您是否具有編輯或複製專案的權限。 |
-| [!UICONTROL 資料檢視] | 面板中的表和可視化從面板右上角選擇的資料視圖中導出資料。 資料視圖還確定左滑軌中可用的元件。 在項目中，可以根據分析使用案例使用一個或多個資料視圖。 資料視圖清單按相關性排序。 Adobe根據當前用戶最近和頻繁使用資料視圖以及資料視圖在組織內使用的頻率定義相關性。 |
+| [!UICONTROL 資料檢視] | 面板內的表格和視覺效果是從面板右上角所選資料檢視衍生而得。該資料檢視也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個資料檢視，多寡視您的分析使用情形而定。資料檢視清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用資料檢視，以及組織內多常使用資料檢視等來定義關聯性。 |
 | [!UICONTROL 所有者] | 建立專案的人。 |
-| [!UICONTROL 共用對象] | 與誰共用此項目。 |
-| [!UICONTROL 上次修改日期] | 上次修改此項目的時間。 |
+| [!UICONTROL 共用對象] | 此專案已共用的對象。 |
+| [!UICONTROL 上次修改日期] | 最近修訂此專案的時間。 |
 | [!UICONTROL 上次開啟時間] | 您上次開啟此專案的時間。 |
-| [!UICONTROL 已排程] | 設定為 [!UICONTROL 開] 計畫項目時或 **[!UICONTROL 關閉]** 不是的。 按一下&#x200B;**[!UICONTROL 開啟]**&#x200B;連結可讓您查看排程專案的資訊。如果您是專案所有人，您還能[編輯專案排程](/help/analysis-workspace/curate-share/t-schedule-report.md)。 |
-| [!UICONTROL 專案 ID] | 項目ID可用於調試項目。 |
-| [!UICONTROL 最大日期範圍] | 更長的日期範圍會增加項目複雜性，並可能增加處理和載入時間。 |
-| [!UICONTROL 查詢數] | 載入項目時向Analytics發出的請求總數。 較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 |
+| [!UICONTROL 已排程] | 設定為[!UICONTROL 開啟] (若專案已排程) 或&#x200B;**[!UICONTROL 關閉]** (若專案未排程)。 按一下&#x200B;**[!UICONTROL 開啟]**&#x200B;連結可讓您查看排程專案的資訊。如果您是專案所有人，您還能[編輯專案排程](/help/analysis-workspace/curate-share/t-schedule-report.md)。 |
+| [!UICONTROL 專案 ID] | 專案 ID 可用來偵錯專案。 |
+| [!UICONTROL 最大日期範圍] | 更長的日期範圍會增加專案複雜性，並可能增加處理和載入次數。 |
+| [!UICONTROL 查詢數] | 專案載入時，向 Analytics 提出的請求總數。較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 |
 | 自訂表格圖示 | (右上方) 如果要從專案清單新增或移除欄項，您可以透過選取或取消選取來執行此操作。 |
-| &lt; (返回按鈕) | Workspace項目中的此按鈕將返回到最近的登錄頁配置。 無論您離開登陸頁面時在哪個頁面設定，當您返回時將會持續留在該頁面。 |
+| &lt; (返回按鈕) | 工作區專案中這個按鈕將帶您回到最近登陸頁面的設定。 無論您離開登陸頁面時在哪個頁面設定，當您返回時將會持續留在該頁面。 |
 
 ## 瀏覽「學習」標記。 {#navigate-learning}
 
