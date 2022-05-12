@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 165a2f7cd33282a8aaf93aa074a370cec2cbd40e
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 93%
 + Customer Journey Analytics 總覽 {#cja-overview}
    + [Customer Journey Analytics 總覽](getting-started/cja-overview.md)
    + [快速入門](getting-started/cja-getting-started.md)
-   + [Customer Journey Analytics登錄頁](getting-started/landing.md)
+   + [Customer Journey Analytics 登陸頁面](getting-started/landing.md)
    + [常見問答](getting-started/cja-faq.md)
-   + [Adobe Analytics對Customer Journey Analytics進化](getting-started/aa-to-cja.md)
-   + [新Customer Journey Analytics用戶的使用手冊](getting-started/aa-to-cja-user.md)
+   + [Adobe Analytics 至 Customer Journey Analytics 的發展進程](getting-started/aa-to-cja.md)
+   + [全新 Customer Journey Analytics 使用者使用指南](getting-started/aa-to-cja-user.md)
    + [Customer Journey Analytics 功能支援](getting-started/cja-aa.md)
    + [刪除關聯](getting-started/cja-deletion.md)
    + [CJA 字彙表](getting-started/cja-glossary.md)
@@ -202,9 +202,9 @@ ht-degree: 93%
 + 使用案例 {#cja-usecases}
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [使用物件陣列](use-cases/object-arrays.md)
-   + [使用綁定維和度量](use-cases/binding-dimensions-metrics.md)
-   + [(B2B) 新增帳戶層級資料當做查詢資料集](use-cases/b2b.md)
-   + [將Marketo Engage資料導入AEP並在CJA中報告](use-cases/marketo.md)
+   + [使用繫結維度和量度](use-cases/binding-dimensions-metrics.md)
+   + [(B2B) 將帳戶層級資料新增為查詢資料集](use-cases/b2b.md)
+   + [將 Marketo Engage 資料擷取至 AEP 和 CJA 報告](use-cases/marketo.md)
    + [請AEP觀眾加入CJA](use-cases/ingest-aep-segments.md)
    + [跨管道分析資料](use-cases/cross-channel.md)
    + [匯入客服中心和網頁的資料](use-cases/call-center.md)
