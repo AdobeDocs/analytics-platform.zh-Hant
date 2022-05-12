@@ -5,9 +5,9 @@ role: User, Admin
 feature: Components
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -33,12 +33,12 @@ ht-degree: 79%
 
 ![](assets/ann-pdf.png)
 
-## 查看具有非趨勢資料的注釋
+## 檢視非趨勢資料的註解
 
-有時，注釋用非趨勢資料顯示，但與特定尺寸相關聯。 在此情況下，註解只會出現在右下角的摘要註解中。 其範例如下：
+有時註解與非趨勢資料一起顯示，但繫結到特定維度。在此情況下，註解只會出現在右下角的摘要註解中。 其範例如下：
 
 ![](assets/non-date.png)
 
-摘要圖表顯示在拐角中的所有可視化類型中，而不僅顯示在非趨勢的自由形式表和摘要數字中。 它也出現在可視化中，如 [!UICONTROL 甜甜圈]。 [!UICONTROL 流]。[!UICONTROL 放射性]。[!UICONTROL 隊列]等等。
+摘要圖表出現在角落的所有視覺效果類型中，而不僅僅是非趨勢自由表格和摘要數字中。它也會出現在[!UICONTROL 環形圖]、[!UICONTROL 流量]、[!UICONTROL 流失]、[!UICONTROL 同類群組]等視覺效果中。
 
 ![](assets/ann-summary.png)
