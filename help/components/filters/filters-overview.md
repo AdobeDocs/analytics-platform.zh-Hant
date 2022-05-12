@@ -3,7 +3,7 @@ title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 source-git-commit: 38c64f99b5e4a0061ccf9afb1d5ff219a78aec94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1099'
 ht-degree: 100%
 
