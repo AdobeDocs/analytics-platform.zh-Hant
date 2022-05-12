@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5224c83b222997413a9fb70a0d1e219f82d1af17
+source-git-commit: fa36f46a352d786cbbab6a753d7cc0cb401cff9f
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 100%
+source-wordcount: '724'
+ht-degree: 98%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 | 日期 | 更新說明 |
 | --- | --- |
+| 2022 年 5 月 | 關於 [讓Adobe Experience Platform觀眾加入CJA](/help/use-cases/ingest-aep-segments.md) |
 | 2022 年 4 月 | [維度子字串](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html)文件。 |
 | 2022 年 4 月 | 最新[Adobe Analytics 使用者的 CJA 使用指南](/help/getting-started/aa-to-cja-user.md)。 |
-| 2022 年 4 月 | [將您的 Adobe Analytics 資料與 CJA 資料進行比較](/help/troubleshooting/compare.md) |
 | 2022 年 3 月 | 最新[CJA 註解 API 文件](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)。 |
 | 2022 年 3 月 | 有關[工作區中註解](/help/components/annotations/overview.md)的新文件。 |
 | 2022 年 3 月 | 有關[估算連線規模](/help/getting-started/cja-faq.md)的重大更新內容。 |
