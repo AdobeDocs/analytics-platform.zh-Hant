@@ -5,9 +5,9 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,14 +65,14 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
 1. 在 [Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)中，從原始資料中找出 Analytics 來源連接器是否可能已捨棄某些列。
 
-   [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)可能在轉換成 XDM 結構描述期間捨棄多列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會捨棄整列。
+   [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)可能在轉換成 XDM 結構描述期間捨棄多列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會捨棄整列。
 
    | Analytics 欄位 | 導致其被捨棄的值 |
    | --- | --- |
    | Opt_out | `y, Y` |
    | In_data_only | Not 0 |
-   | Exclude_hit | 非0 |
-   | Bot_id | 非0 |
+   | Exclude_hit | Not 0 |
+   | Bot_id | Not 0 |
    | Hit_source | 0,3,5,7,8,9,10 |
    | Page_event | 53,63 |
 
