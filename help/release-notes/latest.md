@@ -3,29 +3,35 @@ title: 檢視目前的 Customer Journey Analytics 版本注意事項
 description: 最新 CJA 版本注意事項
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 70ca04d647645d6ba69f07110f0deced03bd0a77
-workflow-type: ht
-source-wordcount: '244'
-ht-degree: 100%
+source-git-commit: 067d816b3e9ce6bf9cc36f270cdf050a847bbcc8
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 32%
 
 ---
 
-# 目前的 Customer Journey Analytics (CJA) 發行說明 (2022 年 4 月)
+# 本Customer Journey Analytics(CJA)發行說明（2022年5月）
 
 >[!NOTE]
 >
 >此頁面包含可能視情況有變動的發行前資訊。
 
-**上次更新日期**：2022 年 4 月 19 日
+**上次更新日期**：2022 年 5 月 10 日
 
 ## 主要功能
 
 | 功能 | 說明 | [目標日期](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| 維度子字串 | 提供多種方法來擷取字串所需部分，以用作維度項目。 此功能還允許您將字串維度視為一個陳列 (如果字串包含分隔值)。 [了解更多](../data-views/component-settings/substring.md) | 2022 年 4 月 20 日 |
-| Analytics 來源連接器的資料準備 | [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 現在與 Adobe Experience Platform 提供的[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)功能整合。Adobe Real-time Customer Data Platform (RTCDP)、CJA 和 Adobe Journey Optimizer (AJO) 客戶現在可以使用其他欄位群組來擴展 Analytics 欄位群組。 他們還可以利用 100 多個資料準備運算子，在擷取至 Adobe Experience Platform (AEP) 期間擴充 Analytics 資料。 RTCDP 客戶現在可以為個人資料啟用多個資料準備啟用的報告套裝。<p>透過 Analytics 來源連接器擷取多個報告套裝的 CJA 客戶現在可以消除報告套裝之間的欄位差異。 例如，如果「搜尋用語」儲存在一個報告套裝中的 `eVar1`，以及在另一個報告套裝中的 `eVar2`，則使用資料準備就可以新增一個合併兩個 eVar 值的新欄位來擴展 Analytics 欄位群組。 | 2022 年 4 月 27 日 |
+| 新建連接編輯和建立UI | 這種簡化的體驗使您能夠在資料集級別回填資料、啟用滾動資料保留窗口、添加到連接並從連接中刪除資料集。 | 2022 年 5 月 18 日 |
+| Report BuilderCJA更新 | 包括調度和資料塊管理器等功能。 | 2022 年 5 月 18 日 |
+| 客戶AI整合 | 允許您在CJA中輸入客戶AI模型得分，以便在CJA分析工作區中進一步分析。 | 2022 年 5 月 25 日 |
+| Attribution AI整合 | 允許您在CJA中輸入Attribution AI模型分數，以便在CJA分析工作區中進一步分析。 | 2022 年 5 月 25 日 |
 
 {style=&quot;table-layout:auto&quot;}
+
+### CJA修復
+
+AN-279234；AN-284839；AN-285417
 
 >[!MORELIKETHIS]
 >[Customer Journey Analytics 文件更新](/help/release-notes/doc-changes.md)
