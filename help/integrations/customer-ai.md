@@ -3,12 +3,14 @@ description: 瞭解AEP客戶AI如何與CJA中的Workspace整合。
 title: 將客戶AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: 0178babcd5ae87b491e849c7517eb5792fb14af1
+source-git-commit: e75836841cdaf8acd2408723111f13048d31505d
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '22'
 ht-degree: 0%
 
 ---
 
+
 # 將客戶AI與CJA整合
 
+布克布
