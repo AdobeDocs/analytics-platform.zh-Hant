@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 版本注意事項
 description: 最新 CJA 版本注意事項
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 067d816b3e9ce6bf9cc36f270cdf050a847bbcc8
+source-git-commit: 72486c527fa48775395bc5a31e6dd98eb30cbdc1
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 32%
+source-wordcount: '148'
+ht-degree: 36%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 32%
 >
 >此頁面包含可能視情況有變動的發行前資訊。
 
-**上次更新日期**：2022 年 5 月 10 日
+**上次更新日期**：2022 年 5 月 16 日
 
 ## 主要功能
 
 | 功能 | 說明 | [目標日期](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| 新建連接編輯和建立UI | 這種簡化的體驗使您能夠在資料集級別回填資料、啟用滾動資料保留窗口、添加到連接並從連接中刪除資料集。 | 2022 年 5 月 18 日 |
-| Report BuilderCJA更新 | 包括調度和資料塊管理器等功能。 | 2022 年 5 月 18 日 |
-| 客戶AI整合 | 允許您在CJA中輸入客戶AI模型得分，以便在CJA分析工作區中進一步分析。 | 2022 年 5 月 25 日 |
-| Attribution AI整合 | 允許您在CJA中輸入Attribution AI模型分數，以便在CJA分析工作區中進一步分析。 | 2022 年 5 月 25 日 |
+| 新建連接編輯和建立UI | 這種簡化的體驗使您能夠在資料集級別回填資料、啟用滾動資料保留窗口、添加到連接並從連接中刪除資料集。 [了解更多](/help/connections/create-connection.md) | 2022 年 5 月 18 日 |
+| Report BuilderCJA更新 | 包括調度和資料塊管理器等功能。 [了解更多] | 2022 年 5 月 18 日 |
+| 客戶AI整合 | 允許您在CJA中輸入客戶AI模型得分，以便在CJA分析工作區中進一步分析。 [了解更多] | 2022 年 5 月 25 日 |
+| Attribution AI整合 | 允許您在CJA中輸入Attribution AI模型分數，以便在CJA分析工作區中進一步分析。 [了解更多] | 2022 年 5 月 25 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
