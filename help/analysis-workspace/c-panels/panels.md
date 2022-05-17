@@ -3,10 +3,10 @@ description: 面板是表格與視覺效果的集合。
 title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '851'
-ht-degree: 100%
+source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 93%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 100%
 
 ![](assets/segment-filter.png)
 
-### 臨機篩選
+### 即席篩選器
 
-也可以直接將非篩選器元件拖曳至空投區內來建立臨機篩選器，為您節省前往篩選產生器的時間和作業。以這種方式建立的篩選器會被自動定義為點擊層級的篩選器。若要修改此定義，可按一下篩選器旁的資訊圖示 (i)，然後按一下筆狀編輯圖示，即可在篩選產生器中進行編輯。
+還可以將非篩選器元件直接拖到拖放區中，以建立即席篩選器，從而節省您轉到篩選器生成器所需的時間和精力。 以這種方式建立的篩選器會被自動定義為點擊層級的篩選器。若要修改此定義，可按一下篩選器旁的資訊圖示 (i)，然後按一下筆狀編輯圖示，即可在篩選產生器中進行編輯。
 
-臨機篩選屬於專案的本機部分，除非您將其公開，否則將不會在您的左側欄中顯示。
+即席篩選器是項目的本地篩選器，除非將其公開，否則不會顯示在左滑軌中。
 
 ![](assets/adhoc-segment-filter.png)
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 ![](assets/create-dropdown.png)
 
-[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hant)，了解更多有關如何在專案中新增下拉篩選器。
+[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)，了解更多有關如何在專案中新增下拉篩選器。
 
 ## 按右鍵選單 {#right-click}
 

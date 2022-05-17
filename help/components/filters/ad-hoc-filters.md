@@ -1,21 +1,21 @@
 ---
-description: 在 Analysis Workspace 中使用臨時篩選。
-title: 臨時專案篩選
+description: 在Analysis Workspace使用臨時篩選器。
+title: 即席項目篩選器
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: c053a1517030b68875fe7f4518dbbd473dbe1b47
+source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 61%
+source-wordcount: '302'
+ht-degree: 51%
 
 ---
 
-# 臨時專案篩選
+# 即席項目篩選器
 
 即席項目篩選器允許您直接將任何元件拖放到面板拖放區域以建立篩選器。 過濾器變成 [項目級篩選器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=zh-Hant) 本地到當前項目。
 
-以下是有關建立臨時專案篩選的影片：
+下面是有關建立即席項目篩選器的視頻：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
@@ -38,7 +38,7 @@ ht-degree: 61%
 * 為建立完整的維度和事件，Analysis Workspace 建立了「存在」點擊篩選條件。範例：`Hit where eVar1 exists` 或 `Hit where event1 exists`。
 * 如將「未指定」或「無」拖放至篩選拖放區，就會自動轉換成「不存在」篩選，以便系統可正確處理篩選。
 
-## 儲存臨時專案篩選 {#ad-hoc-save}
+## 保存即席項目篩選器 {#ad-hoc-save}
 
 您可選擇完成以下步驟以儲存這些篩選：
 
