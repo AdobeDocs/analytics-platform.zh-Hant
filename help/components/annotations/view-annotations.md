@@ -4,18 +4,14 @@ description: 如何在工作區中檢視註解。
 role: User, Admin
 feature: Components
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 998cc9e5f8d2ffd3964078dc389f55bb573063b9
-workflow-type: ht
-source-wordcount: '251'
+source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
+workflow-type: tm+mt
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
 
 # 檢視註解
-
->[!NOTE]
->
->此功能目前在有限測試中。
 
 根據註解跨越一天還是跨越日期範圍，註解的體現方式略有不同。
 

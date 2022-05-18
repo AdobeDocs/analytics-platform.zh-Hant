@@ -5,18 +5,14 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
+source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 97%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
 # 註解總覽
-
->[!NOTE]
->
->此功能目前在有限測試中。
 
 註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。附註可讓您將行事曆事件和特定的維度/量度連結起來。您可以用資料問題、國定假日、行銷活動推出等來標註日期或日期範圍。然後以圖形形式顯示事件，並查看行銷活動或其他事件是否已對您的網站流量、收入或任何其他量度產生影響。
 
