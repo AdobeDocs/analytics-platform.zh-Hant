@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
+source-git-commit: 565a247da0e66953d84b70dfb2fa50555e36b27d
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 98%
+source-wordcount: '634'
+ht-degree: 97%
 
 ---
 
@@ -200,25 +200,28 @@ ht-degree: 98%
       + [行事曆總覽](components/date-ranges/calendar.md)
       + [建立自訂日期範圍](components/date-ranges/custom-date-ranges.md)
       + [日期比較](components/date-ranges/time-comparison.md)
-+ 使用案例 {#cja-usecases}
-   + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
-   + [使用物件陣列](use-cases/object-arrays.md)
-   + [使用繫結維度和量度](use-cases/binding-dimensions-metrics.md)
-   + [(B2B) 將帳戶層級資料新增為查詢資料集](use-cases/b2b.md)
-   + [將 Marketo Engage 資料擷取至 AEP 和 CJA 報告](use-cases/marketo.md)
-   + [請AEP觀眾加入CJA](use-cases/ingest-aep-segments.md)
-   + [跨管道分析資料](use-cases/cross-channel.md)
-   + [匯入客服中心和網頁的資料](use-cases/call-center.md)
-   + [資料擷取使用案例](use-cases/data-ingestion.md)
-   + [使用行銷管道維度](use-cases/marketing-channels.md)
-   + [將 Google Analytics 資料擷取至 Adobe Experience Platform](use-cases/ga-to-cja.md)
-   + [報告 CJA 中的 Google Analytics 資料](use-cases/ga-to-cja-reporting.md)
 + Analytics 儀表板 {#cja-dashboards}
    + [Analytics 儀表板 - 總覽](mobile-app/home.md)
    + [組織者任務](mobile-app/curator.md)
    + [建立計分卡](mobile-app/create-scorecard.md)
    + [設定使用控制面板的高階主管](mobile-app/set-up-execs.md)
    + [高階主管使用者快速入門指南](mobile-app/executive.md)
++ 整合 {#integrations}
+   + [將Attribution AI與CJA整合](integrations/attribution-ai.md)
+   + [將客戶AI與CJA整合](integrations/customer-ai.md)
++ 使用案例 {#cja-usecases}
+   + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
+   + [使用物件陣列](use-cases/object-arrays.md)
+   + [使用繫結維度和量度](use-cases/binding-dimensions-metrics.md)
+   + [(B2B) 將帳戶層級資料新增為查詢資料集](use-cases/b2b.md)
+   + [將 Marketo Engage 資料擷取至 AEP 和 CJA 報告](use-cases/marketo.md)
+   + [將 AEP 受眾擷取至 CJA](use-cases/ingest-aep-segments.md)
+   + [跨管道分析資料](use-cases/cross-channel.md)
+   + [匯入客服中心和網頁的資料](use-cases/call-center.md)
+   + [資料擷取使用案例](use-cases/data-ingestion.md)
+   + [使用行銷管道維度](use-cases/marketing-channels.md)
+   + [將 Google Analytics 資料擷取至 Adobe Experience Platform](use-cases/ga-to-cja.md)
+   + [報告 CJA 中的 Google Analytics 資料](use-cases/ga-to-cja-reporting.md)
 + 疑難排解 {#troubleshooting}
    + [將您的 Adobe Analytics 資料與 CJA 資料進行比較](troubleshooting/compare.md)
 + 隱私權 {#cja-privacy}

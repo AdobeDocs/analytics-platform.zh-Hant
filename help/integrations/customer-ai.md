@@ -3,15 +3,19 @@ description: 瞭解AEP客戶AI如何與CJA中的Workspace整合。
 title: 將客戶AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: 0b095edc3ad8f5121818feafa6edb3f826bee84c
+source-git-commit: 5302d9213b66c327b59c3f4476fbf204f1078392
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
 
 # 將客戶AI與CJA整合
+
+>[!NOTE]
+>
+>此頁正在構建中。
 
 [客戶AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=en)作為Adobe Experience Platform智慧服務的一部分，向營銷人員提供在個人層面生成客戶預測的能力。
 
@@ -21,8 +25,8 @@ ht-degree: 0%
 
 * Adobe Analytics資料使用分析源連接器
 * Adobe Audience Manager資料使用Audience Manager源連接器
-* 體驗事件(EE)資料集
-* 消費者體驗事件(CEE)資料集
+* Experience Event (EE) dataset
+* Consumer Experience Event (CEE) dataset
 
 客戶AI與Customer Journey Analytics(CJA)整合，以便客戶AI支援的資料集可以在CJA中的資料視圖和報告中得到利用。
 
@@ -30,9 +34,9 @@ ht-degree: 0%
 
 在CJA中的輸出工作之前，在Adobe Experience Platform執行某些步驟。
 
-### 步驟1:下載客戶AI分數
+### Step 1: Download Customer AI scores
 
-如所述，通過Experience PlatformAPI調用的組合來下載客戶AI分數 [這裡](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/getting-started.html?lang=en#downloading-customer-ai-scores)。
+Downloading Customer AI scores is done through a combination of Experience Platform API calls, as described [here](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/getting-started.html?lang=en#downloading-customer-ai-scores).
 
 ### 步驟2:定義客戶AI輸入和輸出
 
@@ -54,7 +58,7 @@ ht-degree: 0%
 
 ![CAI模式](assets/cai-schema.png)
 
-(請注意，此示例是配置檔案資料集；同一組架構對象將是CJA將獲取的「體驗事件」資料集的一部分。 「體驗事件」資料集將包含時間戳作為分數日期。) 此模型中的每個客戶都會有得分、得分日期等。 關聯。
+(請注意，此示例是配置檔案資料集；同一組架構對象將是CJA將獲取的「體驗事件」資料集的一部分。 「體驗事件」資料集將包含時間戳作為分數日期。) Every customer scored in this model would have a score, a scoreDate, etc. 關聯。
 
 ### 第5步：基於這些連接建立資料視圖
 
