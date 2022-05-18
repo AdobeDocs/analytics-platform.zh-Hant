@@ -3,9 +3,9 @@ description: 瞭解AEP客戶AI如何與CJA中的Workspace整合。
 title: 將客戶AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: d59128c34deb7d8fb65d0fad4e6029453c449ea4
+source-git-commit: 0b095edc3ad8f5121818feafa6edb3f826bee84c
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 每種預測，如「升級帳戶的可能性」等於一個資料集。
 
-以下是CJA作為現有資料集或新資料集的一部分引入的XDM架構的示例：
+以下是CJA作為現有或新資料集的一部分引入的XDM架構的示例：
 
 ![CAI模式](assets/cai-schema.png)
 
@@ -58,4 +58,4 @@ ht-degree: 0%
 
 ### 第5步：基於這些連接建立資料視圖
 
-在CJA中，現在可以繼續建立資料視圖，其中引入的維是
+在CJA中，現在可以繼續建立資料視圖，其中包含作為所建立連接的一部分引入的維。
