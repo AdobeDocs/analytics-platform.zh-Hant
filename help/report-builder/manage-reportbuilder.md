@@ -5,13 +5,13 @@ role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 01a9ff4e03e002da723c10500de6dec4444f951e
+exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
+source-git-commit: e9856269ee07b7119f75b98489b47e1f35f7cf5f
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 2%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
-
 
 # 在Report Builder中管理資料塊
 
@@ -50,19 +50,17 @@ ht-degree: 2%
 
 例如，可以在一個或多個資料塊中用新篩選器替換現有篩選器。
 
-1. 選擇要更新的資料塊。
+1. 選擇要更新的資料塊。 您可以選擇頂級複選框以選擇所有資料塊，也可以選擇單個資料塊。
 
-您可以選擇頂級複選框以選擇所有資料塊，也可以選擇單個資料塊。
-
-![影像](./assets/image56.png)
+   ![影像](./assets/image56.png)
 
 1. 按一下「編輯」表徵圖可顯示「快速編輯」窗口。
 
-![影像](./assets/image58.png)
+   ![影像](./assets/image58.png)
 
 1. 選擇篩選器連結以更新資料視圖、日期範圍或篩選器。
 
-![影像](./assets/image59.png)
+   ![影像](./assets/image59.png)
 
 ## 刷新資料塊
 
@@ -81,9 +79,9 @@ ht-degree: 2%
 
 ## 組資料塊
 
-按一下列標題以對資料塊進行分組或從 **分組依據** *名稱* 清單框。
+您可以使用 **分組依據** 下拉菜單，或者按一下列標題。 要按列對資料塊排序，請按一下列標題。 要按組對資料塊進行分組，請從 **分組依據** 的下界。 例如，下面的螢幕快照顯示按工作表分組的資料塊。 它顯示按Sheet1和Sheet2分組的資料塊。  這在過濾器替換用例中非常有用。 如果對每個資料塊應用了多個篩選器，則建立包含要替換的所有資料塊的組會很有幫助。 然後，您可以輕鬆地同時選擇和編輯它們。
 
-![影像](./assets/image514.png)
+![影像](./assets/group-data-blocks.png)
 
 ## 修改資料塊管理器視圖
 
