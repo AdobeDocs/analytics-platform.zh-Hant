@@ -4,16 +4,16 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: beb9e94e0870f8957de59e643957f7422f902182
+source-git-commit: 36fc82cf2c075550ced98193fe50115af12974de
 workflow-type: tm+mt
-source-wordcount: '2096'
-ht-degree: 69%
+source-wordcount: '2094'
+ht-degree: 70%
 
 ---
 
 # 建立連線
 
-2022年5月，Customer Journey Analytics(CJA)正在啟動新的「連接」工作流。 以下是新功能的概述：
+最近在Customer Journey Analytics(CJA)中啟動了新的連接工作流。 以下是新功能的概述：
 
 * 建立連接時，可以啟用滾動資料保留窗口。
 * 您可以添加到連接並從連接中刪除資料集。 (刪除資料集會將其從連接中刪除，並影響任何關聯的資料視圖和基礎Analysis Workspace項目。)
@@ -26,7 +26,7 @@ ht-degree: 69%
 1. 在CJA中，按一下 **[!UICONTROL 連接]** 頁籤。
 1. 按一下 **[!UICONTROL 建立新連接]**。
 
-   ![連接設定](assets/create-conn1.png)
+   ![連線設定](assets/create-conn1.png)
 
 1. 配置連接設定。
 
@@ -93,7 +93,7 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
->您需要添加至少一個事件資料集作為連接的一部分。
+>您需要將至少一個事件資料集新增為連線的一部分。
 
 有 3 種不同的資料集類型：[!UICONTROL 事件]資料、[!UICONTROL 設定檔]資料、[!UICONTROL 查詢]資料。
 
