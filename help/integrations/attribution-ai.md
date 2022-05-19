@@ -4,9 +4,9 @@ title: 將Attribution AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 77b253390dafb27228995f339d138eb9f4fa2c56
+source-git-commit: 5d22437ec6514196146283af311b6661c1f2e45b
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '538'
 ht-degree: 3%
 
 ---
@@ -32,30 +32,21 @@ Attribution AI與Customer Journey Analytics(CJA)整合，以便Attribution AI針
 
 在CJA中的輸出工作之前，在Adobe Experience Platform執行某些步驟。 該輸出由具有應用的Attribution AI模型的資料集組成。
 
-### 步驟1:下載Attribution AI分數
-
-在Adobe Experience Platform，下載Attribution AI分數，如所述 [這裡](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/getting-started.html?lang=en#downloading-attribution-ai-scores)。
-
-### 步驟2:建立Attribution AI實例
+### 步驟1:建立Attribution AI實例
 
 在Experience Platform中，通過選擇和映射資料、定義事件和培訓資料來建立Attribution AI實例，如所述 [這裡](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html)。
 
-### 第3步：設定到Attribution AI資料集的CJA連接
+### 步驟2:設定到Attribution AI資料集的CJA連接
 
 在CJA，你現在可以 [建立一個或多個連接](/help/connections/create-connection.md) Experience Platform已檢測為Attribution AI的資料集。 這些資料集以「Attribution AI分數」前置詞顯示，如下所示：
 
 ![AAI得分](assets/aai-scores.png)
 
->[!IMPORTANT]
->
->您可以向連接中添加配置檔案和查找資料集以及呼叫中心和CRM資料。 但是，Adobe不建議將Adobe Analytics資料集添加到具有相同連接Attribution AI分數的資料集。
-
-
-### 第4步：基於這些連接建立資料視圖
+### 第3步：基於這些連接建立資料視圖
 
 在CJA, [建立一個或多個資料視圖](/help/data-views/create-dataview.md) 包含Attribution AIXDM欄位。 （在此提供螢幕截圖會很好。）
 
-### 第5步：CJA工作區中AAI資料的報告
+### 第4步：CJA工作區中AAI資料的報告
 
 例如，在CJA Workspace項目中，可以拉入「AAI訂單」等度量，以及「AAI市場活動名稱」或「AAI市場營銷渠道」等維度。
 
@@ -75,7 +66,7 @@ Attribution AI與Customer Journey Analytics(CJA)整合，以便Attribution AI針
 | 功能 | Attribution AI | Attribution IQ |
 | --- | --- | --- |
 | 分數歸屬 | 有 | 否 |
-| 允許用戶調整模型 | 無 | 是 |
+| 允許用戶調整模型 | 是 | 是 |
 | 是否跨渠道進行歸屬(注：AAI不使用與CJA相同的縫合資料。) | 是 | 是 |
 | 包括增量分數和受影響的分數 | 有 | 否 |
 | ML建模 | 是 | 是 |
