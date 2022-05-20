@@ -5,9 +5,9 @@ exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Customer Journey Analytics 提供多種資料內嵌選項：有些選項能移�
 
 此工作流程利用 Adobe Analytics 資料連接器，視您使用 DTM 或 Launch 作為 Tag Manager 而會有所不同。
 
-### Via標籤在Adobe Experience Platform(以前稱為 [!UICONTROL 啟動])
+### 透過 Adobe Experience Platform (之前稱之為 [!UICONTROL Launch]) 中的標記
 
 1. [建立資料層](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/data-layer.html?lang=zh-Hant) (如果尚未建立)。資料層是網站上 JavaScript 物件的架構，包含實作的所有變數值，可讓您在實作中更進一步精細控制，並讓維護工作更簡單輕鬆。
-1. 使用 [Adobe Experience Platform標籤](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=zh-Hant) 在您的站點上實施代碼以收集資料（如果尚未）。 此標籤管理解決方案允許您將分析代碼與其他標籤要求一起部署。 標籤可提供與其他解決方案和產品的整合，並允許您部署自定義代碼。 您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。
+1. 使用 [Adobe Experience Platform 標記](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=zh-Hant)在您的網站上實作程式碼，以彙集資料 (如尚未完成)。此標記管理解決方案可讓您部署 Analytics 程式碼以及其他標記需求。 標記提供和其他解決方案及產品的整合，並讓您部署自訂程式碼。您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。
 1. 在 Adobe Experience Platform 中建立 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。此來源連接器會採用 [Experience Data Model (XDM) 系統](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)的標準化架構，將您的 Analytics 資料內嵌至 Experience Platform。
 1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=zh-Hant) 建立一或多個連線和資料檢視，以利您掌握跨管道的報表內容。
 
@@ -30,8 +30,8 @@ Customer Journey Analytics 提供多種資料內嵌選項：有些選項能移�
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 是用戶端的 JavaScript 程式庫，可讓 Adobe Experience Cloud 客戶透過 Adobe Experience Platform Edge Network 與 Experience Cloud 中的各種服務互動。
 
-1. [在標籤中配置AEP Web SDK擴展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) 從Web屬性通過Adobe Experience Platform邊緣網路將資料發送到Adobe Experience Cloud。
-1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) 建立一或多個連線和資料檢視，以利您掌握跨管道的報表內容。[](/help/connections/create-connection.md)[](/help/data-views/data-views.md)
+1. [在標記 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) 中設定 AEP Web SDK 擴充功能，以透過 Adobe Experience Platform Edge Network，從網頁屬性傳送資料至 Adobe Experience Cloud。
+1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) 建立一或多個[連線](/help/connections/create-connection.md)和[資料檢視](/help/data-views/data-views.md)，以利您掌握跨管道的報表內容。
 
 ## 使用批次擷取和串流擷取來擷取資料
 
@@ -40,12 +40,12 @@ Adobe Experience Platform 將來自多個來源的資料彙集在一起，以協
 ### 批次擷取
 
 1. 設定[批次擷取](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html#batch)，讓您將資料以批次檔案的形式擷取至 Adobe Experience Platform。所擷取的資料可以是 CRM 系統中平面檔案 (例如 parquet 檔案) 的設定檔資料，或是符合 Experience Data Model (XDM) 登錄檔中已知結構的資料。
-1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) 建立一或多個連線和資料檢視，以利您掌握跨管道的報表內容。[](/help/connections/create-connection.md)[](/help/data-views/data-views.md)
+1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) 建立一或多個[連線](/help/connections/create-connection.md)和[資料檢視](/help/data-views/data-views.md)，以利您掌握跨管道的報表內容。
 
 ### 串流擷取
 
 1. 設定[串流擷取](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html#streaming)可讓您即時從用戶端和伺服器端裝置傳送資料至 Experience Platform。
-1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) 建立一或多個連線和資料檢視，以利您掌握跨管道的報表內容。[](/help/connections/create-connection.md)[](/help/data-views/data-views.md)
+1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) 建立一或多個[連線](/help/connections/create-connection.md)和[資料檢視](/help/data-views/data-views.md)，以利您掌握跨管道的報表內容。
 
 ## 將 Google Analytics 資料匯入，在 Customer Journey Analytics 中進行分析
 
@@ -55,4 +55,4 @@ Adobe Experience Platform 將來自多個來源的資料彙集在一起，以協
 
 1. [使用大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 將伺服器端集合資料提交至 Adobe Analytics。它可讓您提交包含事件資料的 CSV 格式檔案。
 1. [建立 Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)，將此消費者資料匯入 Adobe Experience Platform。
-1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) 建立一或多個連線和資料檢視，以利您掌握跨管道的報表內容。[](/help/connections/create-connection.md)[](/help/data-views/data-views.md)
+1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=zh-Hant) 建立一或多個[連線](/help/connections/create-connection.md)和[資料檢視](/help/data-views/data-views.md)，以利您掌握跨管道的報表內容。
