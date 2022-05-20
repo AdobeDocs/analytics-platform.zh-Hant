@@ -5,9 +5,9 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 source-git-commit: 83a725ac746629874162827d30d5bdf8be0fa6dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 您可以管理下列元件：
 
-* [**注釋**](/help/components/annotations/overview.md):將上下文資料細微差別和洞察力傳達給您的組織。 **此功能當前位於 [有限測試](/help/release-notes/releases.md)。**
+* [**註解**](/help/components/annotations/overview.md)：將內容相關的資料細微差別和深入解析傳達給您的組織。**此功能目前在[有限測試](/help/release-notes/releases.md)中。**
 * [**篩選器**](filters/filters-overview.md)：排除部分資料，以聚焦於常見的維度項目
 * [**計算量度**](calc-metrics/calc-metr-overview.md)：將量度和公式作為新元件用於報告中
 * [**日期範圍**](date-ranges/overview.md)：自訂和調整 Analysis Workspace 提供的日期範圍
@@ -30,7 +30,7 @@ ht-degree: 95%
 
 Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度，您可將它們拖放至專案上。您建立的自訂元件會加入這些面板，例如自訂日期範圍。
 
-若要存取「元件」面板，請按一下左側邊欄中的&#x200B;**[!UICONTROL 元件]**&#x200B;圖示。您可以利用左欄圖示或[快捷鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，在各面板 (空白面板、[自由表格面板](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)、[快速深入分析面板](/help/analysis-workspace/c-panels/quickinsight.md)或[歸因 IQ](/help/analysis-workspace/c-panels/attribution.md) 面板)、[視覺化效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件之間來回切換。
+若要存取「元件」面板，請按一下左側邊欄中的&#x200B;**[!UICONTROL 元件]**&#x200B;圖示。您可以利用左欄圖示或[快捷鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，在各面板 (空白面板、[自由表格面板](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)、[快速深入分析面板](/help/analysis-workspace/c-panels/quickinsight.md)或 [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) 面板)、[視覺化效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件之間來回切換。
 
 ![](assets/components.png)
 
