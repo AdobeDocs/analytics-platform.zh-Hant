@@ -7,7 +7,7 @@ type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -33,6 +33,6 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->本文件用於適用於 Customer Journey Analytics 的 Report Builder。如需更多有關 Windows 上 Analytics 的 Report Builder 的資訊，請參閱[適用於 Adobe Analytics 的 Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=zh-Hant)。
+>本文件用於適用於 Customer Journey Analytics 的 Report Builder。如需更多有關 Windows 上 Analytics 的 Report Builder 的資訊，請參閱[適用於 Adobe Analytics 的 Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)。
 
 您可從 [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows) 下載適用於 Customer Journey Analytics 的 Report Builder。
