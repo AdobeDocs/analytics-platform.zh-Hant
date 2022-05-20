@@ -5,9 +5,9 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: 459249c74bf4dadf84c2adf96498f2eea21be1ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '806'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -76,12 +76,12 @@ ht-degree: 95%
 
 讓您將維度值的持續性繫結至另一維度中維度值的下拉式清單。有效的下拉式清單選項包含在資料視圖中的其他維度。
 
-請參閱 [在CJA中使用綁定維和度量](../../use-cases/binding-dimensions-metrics.md) 例如，如何有效使用綁定維。
+如需有關如何有效使用繫結維度的範例，請參閱「[使用 CJA 中的繫結維度和量度](../../use-cases/binding-dimensions-metrics.md)」。
 
 ## [!UICONTROL 繫結量度]
 
 讓您選擇做為繫結觸發器的量度的下拉式清單。有效的下拉式清單選項包含在資料視圖中的量度。
 
-此項設定只會在繫結維度在物件陣列中小於元件時出現。繫結量度存在於事件中時，維度值會從事件水準維度複製到繫結維度的下層綱要。
+此項設定只會在繫結維度在物件陣列中小於元件時出現。繫結量度存在於事件中時，維度值會從事件水準維度複製到繫結維度的下層結構描述。
 
-請參閱下面的第二個示例 [在CJA中使用綁定維和度量](../../use-cases/binding-dimensions-metrics.md) 的子菜單。
+如需有關如何有效使用繫結維度的更多資訊，請參閱「[使用 CJA 中的繫結維度和量度](../../use-cases/binding-dimensions-metrics.md)」。
