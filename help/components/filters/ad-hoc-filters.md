@@ -7,13 +7,13 @@ exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
 source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 51%
+ht-degree: 78%
 
 ---
 
 # 即席項目篩選器
 
-即席項目篩選器允許您直接將任何元件拖放到面板拖放區域以建立篩選器。 過濾器變成 [項目級篩選器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=zh-Hant) 本地到當前項目。
+即席項目篩選器允許您直接將任何元件拖放到面板拖放區域以建立篩選器。 該篩選器成為目前專案的本機[專案層級篩選器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html)。
 
 下面是有關建立即席項目篩選器的視頻：
 
@@ -21,7 +21,7 @@ ht-degree: 51%
 
 
 1. 
-   1. 將任何元件類型（維、維項、事件、度量、段、段模板、日期範圍）拖放到面板頂部的篩選器拖放區域。 元件類型將自動轉換為即席篩選器或 [快速篩選器](/help/components/filters/quick-filters.md) 。
+   1. 將任何元件類型 (維度、維度項目、事件、量度、區段、區段範本、日期範圍) 拖移至面板頂端的篩選器拖放區域中。元件類型將自動轉換為即席篩選器或 [快速篩選器](/help/components/filters/quick-filters.md) 。
 
    以下是如何為 Twitter 反向連結網域建立篩選的範例：
 
@@ -29,7 +29,7 @@ ht-degree: 51%
 
    您的面板會自動套用此篩選，而且您可以即刻看到結果。
 
-1. 可以向面板添加無限數量的篩選器。
+1. 您可以對面板新增不限數量的篩選器。
 1. 如果您決定要儲存此篩選，請參閱以下章節。
 
 請記住：
@@ -43,9 +43,9 @@ ht-degree: 51%
 您可選擇完成以下步驟以儲存這些篩選：
 
 1. 在拖放區域中的篩選條件上暫留，並按一下「i」圖示。
-1. 按一下編輯鉛筆可轉到「篩選器生成器」。
+1. 按一下編輯鉛筆，即可前往篩選產生器。
 1. 勾選&#x200B;**[!UICONTROL 「設為可用於所有專案，並新增至您的元件清單」]**。
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-保存後，過濾器將在左側導軌元件清單中可用，並可與「過濾器管理器」中的其他用戶共用。
+儲存後，即可在左側欄元件清單中取得該篩選器，並可和篩選管理員的其他使用者共用。
 

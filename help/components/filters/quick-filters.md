@@ -7,7 +7,7 @@ exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
 source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 76%
+ht-degree: 98%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 76%
 
 您可以在專案中建立快速篩選以迴避完整[篩選產生器](/help/components/filters/create-filters.md)的複雜性。快速篩選
 
-* 應用為 [僅項目篩選器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html#project-only)。
+* 套用為[僅限專案篩選器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html#project-only)。
 * 最多允許 3 個規則
 * 不要容納巢狀容器或循序規則。
 
 若要比較快速篩選的功能和成熟的元件清單篩選，請至[這裡](/help/components/filters/filters-overview.md)。
 
-下面是一個關於快速濾鏡的視頻（請注意，它改用「快速段」一詞。） 但是，功能是相同的。
+以下是有關快速篩選的影片 (請注意它使用「快速區段」一詞代替。) 但功能相同。
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## 先決條件 {#prereqs}
 
-任何人都可以建立快速篩選器。 但是，您需要在 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) 以保存快速篩選器或在篩選器生成器中開啟它。
+任何人都能建立快速篩選。但是，您需要 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) 中的篩選建立權限，才能儲存快速篩選或是在「篩選產生器」中將其開啟。
 
 ## 建立快速篩選 {#create}
 
@@ -37,11 +37,11 @@ ht-degree: 76%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL 名稱] | 篩選的預設名稱是篩選中規則名稱的組合。您可將篩選器重新命名為更好記的名稱。 |
+| [!UICONTROL 名稱] | 篩選的預設名稱是篩選器中規則名稱的組合。您可將篩選器重新命名為更好記的名稱。 |
 | [!UICONTROL 包含/排除] | 您可以在篩選定義中包含或排除元件，但不能同時包含和排除。 |
-| [!UICONTROL 點擊/造訪/訪客容器] | 快速篩選僅包含一個[篩選容器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html#filter-containers)，可讓您在篩選中包含（或從中排除）維度/量度/日期範圍。[!UICONTROL 訪客]包含特定於訪客所有造訪次數和頁面檢視的總體資料。[!UICONTROL 造訪次數]容器可讓您設定規則，以根據造訪次數來劃分訪客的資料，而[!UICONTROL 點擊]容器則可讓您根據個別頁面檢視來劃分訪客資訊。預設容器為[!UICONTROL 點擊]。 |
-| [!UICONTROL 元件] (Dimension/度量/日期範圍) | 透過新增元件 (維度、量度、日期範圍或維度值) 來定義最多 3 個規則。有 3 種方法可以找到正確的元件：<ul><li>開始輸入，然後[!UICONTROL 快速篩選]產生器就會自動找到合適的元件。</li><li>使用下拉式清單來尋找元件。</li><li>從左側邊欄拖放元件。</li></ul> |
-| [!UICONTROL 運算元] | 使用下拉式功能表尋找標準運算子和 [!UICONTROL Distinct Count] 運算子。參閱[篩選運算子](operators.md)。 |
+| [!UICONTROL 點擊/造訪/訪客]容器 | 快速篩選僅包含一個[篩選容器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/filters-overview.html#filter-containers)，可讓您在篩選中包含（或從中排除）維度/量度/日期範圍。[!UICONTROL 訪客]包含特定於訪客所有造訪次數和頁面檢視的總體資料。[!UICONTROL 造訪次數]容器可讓您設定規則，以根據造訪次數來劃分訪客的資料，而[!UICONTROL 點擊]容器則可讓您根據個別頁面檢視來劃分訪客資訊。預設容器為[!UICONTROL 點擊]。 |
+| [!UICONTROL 元件] (維度/量度/日期範圍) | 透過新增元件 (維度、量度、日期範圍或維度值) 來定義最多 3 個規則。有 3 種方法可以找到正確的元件：<ul><li>開始輸入，然後[!UICONTROL 快速篩選]產生器就會自動找到合適的元件。</li><li>使用下拉式清單來尋找元件。</li><li>從左側邊欄拖放元件。</li></ul> |
+| [!UICONTROL 運算子] | 使用下拉式選單尋找標準運算子和[!UICONTROL 相異計數]運算子。參閱[篩選運算子](operators.md)。 |
 | 加 (+) 號 | 新增另一個規則 |
 | AND/OR 限定詞 | 您可以對規則加入「AND」或「OR」的限定詞，但不能在單一篩選定義中混合使用「AND」和「OR」。 |
 | [!UICONTROL 套用] | 將此篩選套用在面板上。如果篩選不包含任何資料，系統將詢問您是否要繼續。 |
@@ -62,7 +62,7 @@ ht-degree: 76%
 
 1. 將滑鼠懸停在快速篩選上，並選取鉛筆圖示。
 1. 編輯篩選定義或篩選名稱。
-1. 按一下[!UICONTROL 「套用」]。
+1. 按一下[!UICONTROL 套用]。
 
 ## 儲存快速篩選 {#save}
 
@@ -105,17 +105,17 @@ ht-degree: 76%
 
 ## 什麼是僅限專案的篩選？ {#project-only}
 
-僅限項目的篩選器是僅應用於在中建立的當前項目的篩選器。 在其他項目中不可用，無法與其他用戶共用。 它們旨在快速探索您的資料，而無需在左滑軌中建立和保存過濾器。 可以在面板下拉區域中使用快速篩選器或 [ad hoc篩選器](/help/components/filters/ad-hoc-filters.md)。
+僅限專案篩選器指僅適用於建立該篩選器的目前專案的篩選器。您無法在其他專案中取得這些篩選器，且無法和其他使用者共用。它們主要用於快速探索您的資料，而無需在左側欄中建立和儲存篩選器。可以在面板下拉區域中使用快速篩選器或 [ad hoc篩選器](/help/components/filters/ad-hoc-filters.md)。
 
-如果在 [!UICONTROL 篩選器生成器]，將顯示僅項目通知。 如果未選中「使此篩選器可用……」 按一下 **[!UICONTROL 應用]**，該段仍為僅用於項目的篩選器。
+如果您在[!UICONTROL 篩選產生器]中開啟僅限專案的篩選器，會隨即顯示僅限專案的通知。如果您不勾選「使該篩選器可用於..」並按一下&#x200B;**[!UICONTROL 套用]**，則該區段仍維持為僅限專案的篩選器。
 
 >[!NOTE]
 >
->如果從篩選器生成器應用快速篩選器，則無法在 [!UICONTROL 快速篩選器生成器]。
+>如果您套用篩選產生器的快速篩選，將無法在[!UICONTROL 快速篩選產生器]中將其開啟。
 
 ![取消勾選僅限專案](assets/project-only-unchecked.png)
 
-如果選中「使此篩選器可用……」 按一下 **[!UICONTROL 保存]**，過濾器將在左滑軌元件清單中可用，供其它項目使用。 也可以從過濾器管理器與其他用戶共用。
+如果您勾選「使該篩選器可用於..」並按一下&#x200B;**[!UICONTROL 儲存]**，即可在左側欄元件清單中取得該篩選器，以用於其他專案。您也可以和篩選管理員的其他使用者共用。
 
 ![勾選僅限專案](assets/project-only-checked.png)
 
