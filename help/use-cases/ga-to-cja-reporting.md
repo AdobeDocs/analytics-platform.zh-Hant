@@ -5,15 +5,15 @@ exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 在 Customer Journey Analytics 中報告 Google Analytics 資料
 
-現在您已將 Google Analytics 資料內嵌至 Experience Platform 和 Customer Journey Analytics (CJA)](/help/use-cases/ga-to-cja.md)，接下來我們會針對該資料顯示一些實用的報表案例。[
+現在您已將 [Google Analytics 資料內嵌至 Experience Platform 和 Customer Journey Analytics (CJA)](/help/use-cases/ga-to-cja.md)，接下來我們會針對該資料顯示一些實用的報表案例。
 
 ## 以視覺化方式將網頁資料和應用程式資料呈現為合併的資料集
 
