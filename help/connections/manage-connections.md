@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1808'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 * 它可讓您&#x200B;**識別因設定錯誤所導致的任何資料差異**。 您是否有遺漏任何資料列？如果有的話，遺漏了哪些資料列以及為什麼遺漏？您是否將連線設定錯誤並導致 CJA 中有資料遺漏？
 
-下面是有關新連接管理器的視頻：
+以下是有關新的連線管理員的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/342097/?quality=12&learn=on)
 
@@ -45,9 +45,9 @@ ht-degree: 98%
 | 連線資訊 | 按一下連線名稱旁邊的資訊圖示可檢視以下資訊：![檢視連線資訊](assets/conn-info.png) |
 | 編輯連線 | 按一下連線名稱旁邊的省略符號 (...)，然後按一下「[!UICONTROL 編輯]」。![編輯連線](assets/conn-edit-delete.png) 如需詳細資訊，請參閱底下的「編輯連線」。 |
 | 刪除連線 | 按一下連線名稱旁邊的省略符號 (...)，然後按一下「[!UICONTROL 刪除]」。 下面的「刪除連線」標頭底下有更多資訊。 |
-| 建立資料檢視 | 按一下連線名稱旁邊的省略符號 (...)，然後按一下「[!UICONTROL 建立資料檢視]」。 這個操作會根據此連線建立新的資料檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant) |
+| 建立資料檢視 | 按一下連線名稱旁邊的省略符號 (...)，然後按一下「[!UICONTROL 建立資料檢視]」。 這個操作會根據此連線建立新的資料檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html) |
 | [!UICONTROL 資料集] | 屬於連線之一部分的資料集。 您可以按一下超連結來檢視連線中的所有資料集。 按一下資料集即可在新的索引標籤中使用 Adobe Experience Platform 開啟該資料集。 |
-| [!UICONTROL 沙箱] | 此連線從中提取其資料集的 [Adobe Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。 當您初次建立連線時，就會選取這個沙箱。 此沙箱無法變更。 |
+| [!UICONTROL 沙箱] | 此連線從中提取其資料集的 [Adobe Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)。 當您初次建立連線時，就會選取這個沙箱。 此沙箱無法變更。 |
 | [!UICONTROL 所有者] | 建立連線的人。 |
 | [!UICONTROL 匯入資料集] | 可讓您啟用或停用原本稱為「資料串流」的東西。 |
 | [!UICONTROL 建立日期] | 初次建立連線的日期。 |
