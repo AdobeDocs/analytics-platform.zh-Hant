@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 7bd111c67f49fc56f93039269d9c1714bece311b
+source-git-commit: 289ab8bd5492017709239174e80ac5a4e5dd9033
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 94%
+source-wordcount: '344'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p> 
      <ul>
        <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/attribution-ai.html?lang=en"> 將Attribution AI與CJA整合 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html">將客戶AI與CJA整合</a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/customer-ai.html?lang=en">將客戶AI與CJA整合</a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html">Adobe Analytics 至 Customer Journey Analytics 的發展進程 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html"> Adobe Analytics 使用者的 CJA 使用指南 </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#connection-detail"> 使用加強的連線管理功能 </a> </li>
