@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: da34e4c97720ec20f354a4bd67708b4d89c5bea4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,6 +31,6 @@ ht-degree: 97%
 | [!UICONTROL 結構描述路徑] | 必填。不可編輯的欄位，顯示元件來自的結構路徑。 |
 | [!UICONTROL 隱藏報告中的元件] | 可讓您從非管理員的資料檢視中組織出元件。管理員仍可以按一下 Analysis Workspace 專案中的「[!UICONTROL 顯示所有元件]」來存取它。 |
 
-下面是資料視圖中元件設定的視頻：
+以下為有關資料檢視中元件設定的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/333112/?quality=12)
