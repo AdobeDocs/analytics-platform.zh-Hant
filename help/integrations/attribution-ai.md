@@ -4,10 +4,10 @@ title: 將Attribution AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: b82bf04bb09a38f1cd475ecd2036acc240b7ef38
+source-git-commit: acfa4086c525ed78b52e430c110ec1daca9d20a5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '728'
+ht-degree: 2%
 
 ---
 
@@ -52,12 +52,34 @@ Attribution AI與Customer Journey Analytics(CJA)整合，以便Attribution AI針
 
 ![AAI維](assets/aai-dims.png)
 
-這裡，我們看到一個包含AAI資料的Workspace項目，它顯示具有影響和增量分數的訂單。
+這裡，我們看到一個包含AAI資料的Workspace項目，它顯示具有影響和增量分數的訂單。 深入到任何維，通過以下方式瞭解屬性：市場活動、產品組、用戶段、地理位置等。
 
 ![AAI項目](assets/aai-project.png)
 
 ![AAI項目](assets/aai-project2.png)
 
+瞭解渠道交互，瞭解哪些渠道可以最有效地與其他渠道配合使用：
+
+![營銷渠道重疊](assets/mc-overlap.png)
+
+下表顯示了轉換（消除重複）的頂部路徑，以幫助您設計和優化觸點：
+
+![頂級頻道](assets/top-channels.png)
+
+在此，我們將看到在混合中使用觸點時轉換的提前期。 它有助於優化提前期：
+
+![提前期](assets/lead-time.png)
+
+## 新的CJA度量
+
+| 量度 | 說明 |
+| --- | --- |
+| [!UICONTROL 採購率] | 對於每個通道，在它所接觸的轉換路徑中，該通道的百分比是「啟動器」。 |
+| [!UICONTROL 播放率] | 對於每個頻道，在它所接觸的轉換路徑中，頻道的百分比是播放器。 |
+| [!UICONTROL 更近的速率] | 對於每個通道，在它所接觸的轉換路徑中，通道的百分比是「更近」。 |
+| [!UICONTROL AAI平均離訂單天數] | 對於每個渠道，訂單後的平均天數。 |
+| [!UICONTROL AAI平均銷售流程中的總天數] | 對於每個通道，它接觸的轉換路徑的平均總天數。 |
+| [!UICONTROL AVG脫離訂單] | 對於每個頻道，平均值都與順序相左。 |
 
 ## Attribution AI與Attribution IQ
 
