@@ -4,10 +4,10 @@ title: 將Attribution AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: acfa4086c525ed78b52e430c110ec1daca9d20a5
+source-git-commit: 1ace9fcb67ec6d1460b5209e2987219ecec52ee2
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 2%
+source-wordcount: '747'
+ht-degree: 3%
 
 ---
 
@@ -52,19 +52,27 @@ Attribution AI與Customer Journey Analytics(CJA)整合，以便Attribution AI針
 
 ![AAI維](assets/aai-dims.png)
 
+**具有影響和增量分數的訂單**
+
 這裡，我們看到一個包含AAI資料的Workspace項目，它顯示具有影響和增量分數的訂單。 深入到任何維，通過以下方式瞭解屬性：市場活動、產品組、用戶段、地理位置等。
 
 ![AAI項目](assets/aai-project.png)
 
 ![AAI項目](assets/aai-project2.png)
 
+**通道交互**
+
 瞭解渠道交互，瞭解哪些渠道可以最有效地與其他渠道配合使用：
 
 ![營銷渠道重疊](assets/mc-overlap.png)
 
+**要轉換的頂部路徑**
+
 下表顯示了轉換（消除重複）的頂部路徑，以幫助您設計和優化觸點：
 
 ![頂級頻道](assets/top-channels.png)
+
+**提前期到轉換**
 
 在此，我們將看到在混合中使用觸點時轉換的提前期。 它有助於優化提前期：
 
@@ -81,6 +89,8 @@ Attribution AI與Customer Journey Analytics(CJA)整合，以便Attribution AI針
 | [!UICONTROL AAI平均銷售流程中的總天數] | 對於每個通道，它接觸的轉換路徑的平均總天數。 |
 | [!UICONTROL AVG脫離訂單] | 對於每個頻道，平均值都與順序相左。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Attribution AI與Attribution IQ
 
 你何時應該使用Attribution AI資料 [Attribution IQ](/help/analysis-workspace/attribution/overview.md)，本機CJA功能？ 下表顯示了在功能方面的一些差異：
@@ -94,4 +104,4 @@ Attribution AI與Customer Journey Analytics(CJA)整合，以便Attribution AI針
 | ML建模 | 是 | 是 |
 | ML模型與預測 | 有 | 否 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
