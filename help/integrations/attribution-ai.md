@@ -4,10 +4,10 @@ title: 將Attribution AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 1ace9fcb67ec6d1460b5209e2987219ecec52ee2
+source-git-commit: d165b3aaca9f99bb23bcbfbcfbca9d2e96b3cfcb
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 3%
+source-wordcount: '908'
+ht-degree: 10%
 
 ---
 
@@ -19,14 +19,28 @@ ht-degree: 3%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en)作為Adobe Experience Platform智慧服務的一部分，它是一種多渠道的算法歸屬服務，它計算客戶交互對特定結果的影響和增量影響。 通過Attribution AI，營銷人員可以通過瞭解客戶旅程每個階段的每個客戶交互的影響來衡量和優化營銷和廣告支出。
 
-Attribution AI支援兩類得分：算法和基於規則。 算法得分包括增量和影響得分。
-
-* **影響分數** 將100%的轉換信用在市場營銷渠道之間。
-* **增量分數** 首先考慮到即使沒有市場營銷，您也會達到的轉換基準。 此基線取決於AI對模式、季節性等的觀察，因為現有品牌認可、忠誠和口碑。 余下信貸分為營銷渠道。
-
-基於規則的分數包括 [!UICONTROL 第一次觸摸]。 [!UICONTROL 上次觸摸]。 [!UICONTROL 線性]。 [!UICONTROL U形], [!UICONTROL 時間衰減]。 Attribution AI支援3個Experience Platform方案：體驗活動、Adobe Analytics和消費者體驗活動。
-
 Attribution AI與Customer Journey Analytics(CJA)整合，以便Attribution AI針對資料運行模型，然後CJA將這些模型的輸出作為資料集導入，然後可以與CJA其餘資料集整合。 然後，可以在CJA中的資料視圖和報告中使用啟用Attribution AI的資料集。
+
+Attribution AI支援3個Experience Platform方案：體驗活動、Adobe Analytics和消費者體驗活動。
+
+Attribution AI支援兩類得分：算法和基於規則。
+
+## 算法得分
+
+算法得分包括增量和影響得分。
+
+* **[!UICONTROL 影響] 分** 將100%的轉換信用在市場營銷渠道之間。
+* **[!UICONTROL 增量] 分** 首先考慮到即使沒有市場營銷，您也會達到的轉換基準。 此基線取決於AI對模式、季節性等的觀察，因為現有品牌認可、忠誠和口碑。 余下信貸分為營銷渠道。
+
+## 基於規則的分數
+
+基於規則的分數包括
+
+* **[!UICONTROL 第一次觸摸]** 在「歸因回望」窗口中首次看到的「觸點」，則100%的評分。
+* **[!UICONTROL 上次觸摸]** 將100%的信用授予最近在轉換前發生的「觸點」。
+* **[!UICONTROL 線性]** 在導致轉換的每個觸點上，都給予同等的評價。
+* **[!UICONTROL U形]** 給第一次互動40%的信用，給最後一次互動40%的信用，把剩下的20%分給中間的任何接觸點。 只有單一接觸點的轉換則會獲得 100% 的評分。如果是具有兩個接觸點的轉換，兩者會平均獲得 50% 的評分。
+* **[!UICONTROL 時間衰減]** 以指數衰減，並帶有自定義半衰期參數，其中預設值為7天。 每個管道的權重須視接觸點啟動和最終轉換之間所經過的時間量而定。用於判斷評分的公式為 `2^(-t/halflife)`，`t` 代表接觸點和轉換之間的時間量。所有接觸點隨後都會標準化至 100%。
 
 ## 工作流程
 
@@ -60,9 +74,15 @@ Attribution AI與Customer Journey Analytics(CJA)整合，以便Attribution AI針
 
 ![AAI項目](assets/aai-project2.png)
 
+**營銷業績**
+
+比較不同屬性模型之間的點屬性對比：
+
+![比較](assets/compare.png)
+
 **通道交互**
 
-瞭解渠道交互，瞭解哪些渠道可以最有效地與其他渠道配合使用：
+瞭解渠道交互，瞭解哪些渠道可以最有效地與其他渠道配合使用，使用Venn圖：
 
 ![營銷渠道重疊](assets/mc-overlap.png)
 
