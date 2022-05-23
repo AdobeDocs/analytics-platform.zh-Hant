@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 1ee57650c089fb6f30b78f2848e47314abc08956
+source-git-commit: ff602667dcf28acf6bf00fb653044320b4d490d5
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '641'
 ht-degree: 97%
 
 ---
@@ -223,6 +223,8 @@ ht-degree: 97%
    + [使用行銷管道維度](use-cases/marketing-channels.md)
    + [將 Google Analytics 資料擷取至 Adobe Experience Platform](use-cases/ga-to-cja.md)
    + [報告 CJA 中的 Google Analytics 資料](use-cases/ga-to-cja-reporting.md)
++ Labs {#labs}
+   + [Labs 使用指南](labs/labs.md)
 + 疑難排解 {#troubleshooting}
    + [將您的 Adobe Analytics 資料與 CJA 資料進行比較](troubleshooting/compare.md)
 + 隱私權 {#cja-privacy}
