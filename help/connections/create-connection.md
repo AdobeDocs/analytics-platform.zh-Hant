@@ -4,10 +4,10 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: ffcffa3838419d49afda7598d81c672b36415260
+source-git-commit: 322961b416deb049010d9e4e3f2301300a116ee4
 workflow-type: tm+mt
-source-wordcount: '2094'
-ht-degree: 70%
+source-wordcount: '2148'
+ht-degree: 68%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 70%
    | **[!UICONTROL 連線名稱]** | 輸入連接的唯一名稱。 |
    | **[!UICONTROL 連線說明]** | 描述此連接的目的。 |
    | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)可將單一 Platform 例項分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。您可以將沙箱視為包含資料集的「資料庫」。 沙箱可用於控制資料集的存取權限，<p>選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。 |
-   | **[!UICONTROL 啟用滾動資料窗口]** | 此設定允許您在連接級別將CJA資料保留定義為月（1個月、3個月、6個月等）的滾動窗口。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。配置檔案或查找資料集不存在滾動資料窗口設定，因為沒有適用的時間戳。 但是，如果連接包含任何配置檔案或查找資料集（除一個或多個事件資料集外），則該資料將保留在同一時間段。<p> 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。 |
+   | **[!UICONTROL 啟用滾動資料窗口]** | 如果選中此複選框，則允許您在連接級別將CJA資料保留定義為月（1個月、3個月、6個月等）滾動窗口。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。配置檔案或查找資料集不存在滾動資料窗口設定，因為沒有適用的時間戳。 但是，如果連接包含任何配置檔案或查找資料集（除一個或多個事件資料集外），則該資料將保留在同一時間段。<p> 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。<p>如果保留預設值（未選中），保留期將被Adobe Experience Platform資料保留設定取代。 如果您有25個月的Experience Platform資料， CJA將通過回填獲得25個月的資料。 如果您在平台中刪除了其中的10個月，CJA將保留剩餘的15個月。 |
    | **[!UICONTROL 添加資料集]** （見下文） | 如果資料集清單中未顯示任何資料集，則添加資料集。 |
    | **[!UICONTROL 資料集名稱]** | 選取一或多個要拉進 Customer Journey Analytics 的資料集，然後按一下&#x200B;**[!UICONTROL 「新增」]**<p>(如果有很多資料集可選擇，可使用資料集清單上方的「搜尋資料集」搜尋列，搜尋合適的資料集)。 |
    | **[!UICONTROL 上次更新時間]** | 僅對於事件資料集，此設定將自動設定為Experience Platform中基於事件的架構的預設時間戳欄位。 &quot;N/A&quot;表示此資料集不包含任何資料。 |
