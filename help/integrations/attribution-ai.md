@@ -4,9 +4,9 @@ title: 將Attribution AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: d165b3aaca9f99bb23bcbfbcfbca9d2e96b3cfcb
+source-git-commit: c37aaa63677fbe2f7a10aaef5aad5b0ad0a607c4
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '875'
 ht-degree: 10%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en)作為Adobe Experience Platform智慧服務的一部分，它是一種多渠道的算法歸屬服務，它計算客戶交互對特定結果的影響和增量影響。 通過Attribution AI，營銷人員可以通過瞭解客戶旅程每個階段的每個客戶交互的影響來衡量和優化營銷和廣告支出。
 
-Attribution AI與Customer Journey Analytics(CJA)整合，以便Attribution AI針對資料運行模型，然後CJA將這些模型的輸出作為資料集導入，然後可以與CJA其餘資料集整合。 然後，可以在CJA中的資料視圖和報告中使用啟用Attribution AI的資料集。
+Attribution AI與Customer Journey Analytics(CJA)整合，以使Attribution AI根據客戶的營銷觸點和轉換資料源運行模型。 然後，CJA將這些模型的輸出作為資料集導入，或者它可以與CJA其餘資料集整合。 然後，可以在CJA中的資料視圖和報告中使用啟用Attribution AI的資料集。
 
 Attribution AI支援3個Experience Platform方案：體驗活動、Adobe Analytics和消費者體驗活動。
 
@@ -66,6 +66,11 @@ Attribution AI支援兩類得分：算法和基於規則。
 
 ![AAI維](assets/aai-dims.png)
 
+>[!IMPORTANT]
+>
+>這些維和度量不是以這種方式本機命名的。 這些是「友好的名字」。 的 [Attribution AI中的命名約定](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) 遵循架構路徑。 我們建議將AAI中的長模式路徑名更名為CJA中更短、更易用的名稱（維/度量）。 你可以在 **[!UICONTROL 資料視圖]** > **[!UICONTROL 編輯資料視圖]** > **[!UICONTROL 元件]** 頁籤 **[!UICONTROL 架構欄位]** ->按一下架構欄位 — > **[!UICONTROL 元件名稱]**。
+
+
 **具有影響和增量分數的訂單**
 
 這裡，我們看到一個包含AAI資料的Workspace項目，它顯示具有影響和增量分數的訂單。 深入到任何維，通過以下方式瞭解屬性：市場活動、產品組、用戶段、地理位置等。
@@ -98,30 +103,18 @@ Attribution AI支援兩類得分：算法和基於規則。
 
 ![提前期](assets/lead-time.png)
 
-## 新的CJA度量
-
-| 量度 | 說明 |
-| --- | --- |
-| [!UICONTROL 採購率] | 對於每個通道，在它所接觸的轉換路徑中，該通道的百分比是「啟動器」。 |
-| [!UICONTROL 播放率] | 對於每個頻道，在它所接觸的轉換路徑中，頻道的百分比是播放器。 |
-| [!UICONTROL 更近的速率] | 對於每個通道，在它所接觸的轉換路徑中，通道的百分比是「更近」。 |
-| [!UICONTROL AAI平均離訂單天數] | 對於每個渠道，訂單後的平均天數。 |
-| [!UICONTROL AAI平均銷售流程中的總天數] | 對於每個通道，它接觸的轉換路徑的平均總天數。 |
-| [!UICONTROL AVG脫離訂單] | 對於每個頻道，平均值都與順序相左。 |
-
-{style=&quot;table-layout:auto&quot;}
-
 ## Attribution AI與Attribution IQ
 
 你何時應該使用Attribution AI資料 [Attribution IQ](/help/analysis-workspace/attribution/overview.md)，本機CJA功能？ 下表顯示了在功能方面的一些差異：
 
 | 功能 | Attribution AI | Attribution IQ |
 | --- | --- | --- |
-| 分數歸屬 | 有 | 否 |
+| 增量屬性 | 有 | 否 |
 | 允許用戶調整模型 | 是 | 是 |
 | 是否跨渠道進行歸屬(注：AAI不使用與CJA相同的縫合資料。) | 是 | 是 |
-| 包括增量分數和受影響的分數 | 有 | 否 |
+| 包括受影響的分數 | 是 | 是 |
 | ML建模 | 是 | 是 |
-| ML模型與預測 | 有 | 否 |
+| 基於區域的歸屬模型 | 是 | 是 |
+| 可以在模型中包括營銷要點 | 有 | 否 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
