@@ -4,7 +4,7 @@ title: 將客戶AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: b82bf04bb09a38f1cd475ecd2036acc240b7ef38
+source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -12,10 +12,6 @@ ht-degree: 0%
 ---
 
 # 將客戶AI與CJA整合
-
->[!NOTE]
->
->此功能將於2022年5月25日發佈。
 
 [客戶AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=en)作為Adobe Experience Platform智慧服務的一部分，向營銷人員提供在個人層面生成客戶預測的能力。
 
@@ -41,7 +37,11 @@ ht-degree: 0%
 
 ### 步驟2:設定到客戶AI資料集的CJA連接
 
-在CJA，你現在可以 [建立一個或多個連接](/help/connections/create-connection.md) Experience Platform為客戶AI檢測的資料集。 每種預測（如「升級帳戶的可能性」）都相當於一個資料集。 這些資料集以「客戶AI分數」前置詞顯示，如下所示：
+在CJA，你現在可以 [建立一個或多個連接](/help/connections/create-connection.md) Experience Platform為客戶AI檢測的資料集。 每種預測（如「升級帳戶的可能性」）都相當於一個資料集。 這些資料集以「客戶AI Scores in EE Format - name_of_application」前置詞顯示。
+
+>[!IMPORTANT]
+>
+>如果在步驟1中的配置期間啟用切換以啟用CJA的分數，則每個客戶AI實例具有兩個輸出資料集。 一個輸出資料集以配置檔案XDM格式顯示，一個以體驗事件XDM格式顯示。
 
 ![CAI得分](assets/cai-scores.png)
 

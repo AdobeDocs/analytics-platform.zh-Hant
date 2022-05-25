@@ -4,18 +4,14 @@ title: 將Attribution AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: c37aaa63677fbe2f7a10aaef5aad5b0ad0a607c4
+source-git-commit: c1e9fdb0e6d62da91b2b5c81eb21462890945b62
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '868'
 ht-degree: 10%
 
 ---
 
 # 將Attribution AI與CJA整合
-
->[!NOTE]
->
->此功能將於2022年5月25日發佈。
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en)作為Adobe Experience Platform智慧服務的一部分，它是一種多渠道的算法歸屬服務，它計算客戶交互對特定結果的影響和增量影響。 通過Attribution AI，營銷人員可以通過瞭解客戶旅程每個階段的每個客戶交互的影響來衡量和優化營銷和廣告支出。
 
@@ -115,6 +111,6 @@ Attribution AI支援兩類得分：算法和基於規則。
 | 包括受影響的分數 | 是 | 是 |
 | ML建模 | 是 | 是 |
 | 基於區域的歸屬模型 | 是 | 是 |
-| 可以在模型中包括營銷要點 | 有 | 否 |
+| 可在模型中配置市場營銷觸點 | 有 | 否 |
 
 {style=&quot;table-layout:auto&quot;}
