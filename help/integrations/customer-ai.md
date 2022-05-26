@@ -4,9 +4,9 @@ title: 將客戶AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 23c257c6b00b919b8e70b4cef58b5187227ec2a6
+source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -63,21 +63,31 @@ ht-degree: 0%
 
 在CJA Workspace中，現在可以建立新項目並拉入可視化效果。
 
+**趨勢傾向得分**
+
 下面是一個包含CAI資料的Workspace項目的示例，該項目在一段時間內將用戶的傾向分數&#x200B;趨勢化，如堆積條形圖：
 
 ![記分時段](assets/workspace-scores.png)
+
+**包含原因代碼的表**
 
 下表顯示了段具有高傾向或低傾向的原因代碼&#x200B;:
 
 ![原因代碼](assets/reason-codes.png)
 
+**客戶傾向的錄入流**
+
 此流程圖顯示了客戶傾向在不同評分運行期間的錄入流&#x200B;:
 
 ![入口流](assets/flow.png)
 
+**傾向分數分佈**
+
 此條形圖顯示傾向得分的分佈&#x200B;:
 
 ![分佈](assets/distribution.png)
+
+**傾向重疊**
 
 此Venn圖顯示了不同計分運行的傾向重疊：
 
