@@ -4,9 +4,9 @@ title: 將Attribution AI與CJA整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
+source-git-commit: 195a89588d83e27eceb58fec8c66c098f1971250
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '889'
 ht-degree: 10%
 
 ---
@@ -46,15 +46,27 @@ Attribution AI支援兩類得分：算法和基於規則。
 
 在Experience Platform中，通過選擇和映射資料、定義事件和培訓資料來建立Attribution AI實例，如所述 [這裡](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html)。
 
+![AAI實例](assets/aai-instance.png)
+
 ### 步驟2:設定到Attribution AI資料集的CJA連接
 
 在CJA，你現在可以 [建立一個或多個連接](/help/connections/create-connection.md) Experience Platform已檢測為Attribution AI的資料集。 這些資料集以「Attribution AI分數」前置詞顯示，如下所示：
 
 ![AAI得分](assets/aai-scores.png)
 
+![建立連線](assets/aai-create-connection.png)
+
 ### 第3步：基於這些連接建立資料視圖
 
 在CJA, [建立一個或多個資料視圖](/help/data-views/create-dataview.md) 包含Attribution AIXDM欄位。
+
+下面是觸點的XDM架構欄位：
+
+![Touchpoint XDM欄位](assets/touchpoint-fields.png)
+
+下面是要轉換的XDM架構欄位：
+
+![轉換XDM欄位](assets/conversion-fields.png)
 
 ### 第4步：CJA工作區中AAI資料的報告
 
@@ -66,6 +78,7 @@ Attribution AI支援兩類得分：算法和基於規則。
 >
 >這些維和度量不是以這種方式本機命名的。 這些是「友好的名字」。 的 [Attribution AI中的命名約定](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) 遵循架構路徑。 我們建議將長AAI架構路徑名稱更名為CJA中更短、更易用的名稱（維/度量）。 你可以在 **[!UICONTROL 資料視圖]** > **[!UICONTROL 編輯資料視圖]** > **[!UICONTROL 元件]** 頁籤 **[!UICONTROL 架構欄位]** ->按一下架構欄位 — > **[!UICONTROL 元件名稱]**。
 
+![更改維名稱](assets/change-name.png)
 
 **具有影響和增量分數的訂單**
 
