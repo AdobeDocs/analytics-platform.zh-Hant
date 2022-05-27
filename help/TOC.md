@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: ff602667dcf28acf6bf00fb653044320b4d490d5
+source-git-commit: 23258f85ae62375f498d7ac3a7ee24cc139a22a8
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 97%
+source-wordcount: '630'
+ht-degree: 98%
 
 ---
 
@@ -207,9 +207,6 @@ ht-degree: 97%
    + [建立計分卡](mobile-app/create-scorecard.md)
    + [設定使用控制面板的高階主管](mobile-app/set-up-execs.md)
    + [高階主管使用者快速入門指南](mobile-app/executive.md)
-+ 整合 {#integrations}
-   + [將Attribution AI與CJA整合](integrations/attribution-ai.md)
-   + [將客戶AI與CJA整合](integrations/customer-ai.md)
 + 使用案例 {#cja-usecases}
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [使用物件陣列](use-cases/object-arrays.md)
