@@ -4,10 +4,10 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 5799d8beec534bc6ec76b7fd01a7dd2524b28fef
-workflow-type: ht
-source-wordcount: '1310'
-ht-degree: 100%
+source-git-commit: 146c8b9b4918c753391484dc1267e1cb90380525
+workflow-type: tm+mt
+source-wordcount: '1315'
+ht-degree: 99%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 100%
 | 銷售 eVar | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)的完整支援 (2022 年 1 月) |
 | 量度 | 完整支援；CJA 運用 Experience Data Model (XDM) 並支援無限制的量度，且未繫結到傳統 Analytics 的自訂成功事件。請注意，傳統 Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
 | 量度重複資料刪除 | 完整支援 |
+| 移動記分卡/儀表板 | 完整支援 |
 | 面板 | 空白面板、歸因面板、自由表格面板和快速深入分析全都受到支援。 |
 | 匯出 PDF | 完整支援 |
 | 專案策劃 | 完整支援 |
@@ -61,7 +62,7 @@ ht-degree: 100%
 | [!UICONTROL 裝置]、[!UICONTROL 瀏覽器]、[!UICONTROL 推薦者]、[!UICONTROL 技術]維度 | 當 AEP 資料集內含特定 XDM 結構描述欄位，並符合 XDM 體驗事件類別時，系統就會自動納入這些維度。請參閱[相關文件，了解可透過 Analytics 來源連接器支援的 Analytics 變數](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html)。對於未使用來源連接器將資料從 Adobe Analytics 填入到 CJA，而是使用 AEP Web SDK 資料收集的 CJA 客戶，目前不支援[!UICONTROL 裝置]和基於裝置查詢的維度，但將在不久的未來予以支援。 |
 | 進入、退出及逗留的時間等維度和量度 | 系統可支援 (進入與退出現在稱為「工作階段開始」和「工作階段結束」)，不過計算方式稍有不同。 |
 | eVar 持續性設定 | eVar 不再是 CJA 的一部分。不過持續性設定現在是資料檢視的一部分，可用於所有維度。請記得，持續性是依據報表時間處理，而非資料收集處理。「資料檢視」中設定的維度上限為 90 天的持續性，不支援無限制的持續性。 |
-| GeoSegmentation 維度 | 收集到 Adobe Analytics 的所有 GeoSegmentation/地理位置都會透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)流入 CJA。未使用 Analytics 來源連接器的實作 (例如仰賴 AEP Web SDK 進行數位資料收集的實作) 將不會具有自動執行的完整地理位置查詢：支援國家/地區和美國州別，但不支援城市和郵遞區號。目前，美國境外的州/地區的支援有限或不支援 |
+| GeoSegmentation 維度 | 收集到 Adobe Analytics 的所有 GeoSegmentation/地理位置都會透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)流入 CJA。未使用 Analytics 來源連接器的實作 (例如仰賴 AEP Web SDK 進行數位資料收集的實作) 將不會具有自動執行的完整地理位置查詢：支援國家/地區和美國州別，但不支援城市和郵遞區號。目前，美國境外的州/地區的支援有限或不支援 |
 | 行銷管道 | 行銷管道資料會透過 Analytics Data Connector 傳輸至 CJA。如果您是使用舊版 Adobe Analytics，仍需設定行銷管道規則。舊版未支援部分規則。如需詳細資訊，請參閱 [CJA 行銷管道文件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases)。 |
 | 產品變數 | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件類型欄位陣列，以符合此使用案例。在 CJA 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
 | 專案共用 | 專案共用功能僅支援在 CJA 的使用者之間使用 - CJA 與傳統 Analysis Workspace 之間不支援專案共用。 |
@@ -71,7 +72,7 @@ ht-degree: 100%
 
 | 功能 | 附註 |
 | --- | --- |
-| 機器人篩選 | 對於以 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)為基礎的資料集，則會套用機器人篩選。 [!UICONTROL Experience Platform] 或 CJA 不會針對其他資料集執行一般機器人篩選邏輯。 |
+| 機器人篩選 | 對於以 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)為基礎的資料集，則會套用機器人篩選。 [!UICONTROL Experience Platform] 或 CJA 不會針對其他資料集執行一般機器人篩選邏輯。 |
 | 媒體分析 | 媒體資料是 Analytics 來源連接器的一部分。 |
 | 面板 | 空白面板、歸因面板、自由表格面板和快速深入分析全都受到支援。不支援「區段比較」、「Analytics for Target」(A4T) 和「媒體同時檢閱者」面板。 |
 | 處理規則 | 對於以 Analytics 資料連接器為基礎的資料集，仍會套用處理規則。 [Adobe Experience Platform 中的資料準備功能](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)也可用來取代直接送到 Platform 的資料適用的處理規則。 |
