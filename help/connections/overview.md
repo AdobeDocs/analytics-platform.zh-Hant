@@ -1,19 +1,19 @@
 ---
-title: CJA連接概述
-description: 瞭解Customer Journey Analytics中的連接。
+title: CJA 連線總覽
+description: 了解 Customer Journey Analytics 中的連線。
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: b164a78cd55a885c8dd724a448dcbe9ecdbcfff8
-workflow-type: tm+mt
+exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
+source-git-commit: d437e846e1242f2941b59fcdb712a8a31bedcbcd
+workflow-type: ht
 source-wordcount: '101'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
+# 連線總覽
 
-# 連接概述
-
-連線可讓您將資料集從 [!DNL Adobe Experience Platform] 整合到 [!UICONTROL Analysis Workspace]。若要針對 [!DNL Experience Platform] 資料集製作報表，必須先為 [!DNL Experience Platform] 和 [!UICONTROL Analysis Workspace] 的資料集建立連線。
+連線可讓您將資料集從 [!DNL Adobe Experience Platform] 整合到[!UICONTROL 工作區]。若要針對 [!DNL Experience Platform] 資料集製作報表，必須先為 [!DNL Experience Platform] 和[!UICONTROL 工作區]的資料集建立連線。
 
 以下是影片概觀：
 
@@ -34,4 +34,3 @@ Customer Journey Analytics
 >[!IMPORTANT]
 >
 >您可以將多個 [!DNL Experience Platform] 資料集合併到單一連線中。
-
