@@ -5,9 +5,9 @@ feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
 source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1048'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 98%
 
 ## 什麼是僅限專案的篩選？ {#project-only}
 
-僅限專案篩選器指僅適用於建立該篩選器的目前專案的篩選器。您無法在其他專案中取得這些篩選器，且無法和其他使用者共用。它們主要用於快速探索您的資料，而無需在左側欄中建立和儲存篩選器。可以在面板下拉區域中使用快速篩選器或 [ad hoc篩選器](/help/components/filters/ad-hoc-filters.md)。
+僅限專案篩選器指僅適用於建立該篩選器的目前專案的篩選器。您無法在其他專案中取得這些篩選器，且無法和其他使用者共用。它們主要用於快速探索您的資料，而無需在左側欄中建立和儲存篩選器。僅限專案的篩選無法在面板放置區域中透過快速篩選或[臨時篩選](/help/components/filters/ad-hoc-filters.md)建立。
 
 如果您在[!UICONTROL 篩選產生器]中開啟僅限專案的篩選器，會隨即顯示僅限專案的通知。如果您不勾選「使該篩選器可用於..」並按一下&#x200B;**[!UICONTROL 套用]**，則該區段仍維持為僅限專案的篩選器。
 
