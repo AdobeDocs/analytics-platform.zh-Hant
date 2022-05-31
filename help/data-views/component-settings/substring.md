@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 source-git-commit: 0178babcd5ae87b491e849c7517eb5792fb14af1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,8 +114,8 @@ CJA 使用 Perl 規則運算式語法的子集。若輸入和規則運算式不�
 | `$+` | 輸出和規則運算式中最後一個標記的子運算式相符的內容。 |
 | `$$` | 輸出字串字元 `"$"`。 |
 
-## 綁定維度上的視頻
+## 有關繫結維度的影片
 
-下面是一個關於綁定維度的視頻：
+以下是有關繫結維度的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
