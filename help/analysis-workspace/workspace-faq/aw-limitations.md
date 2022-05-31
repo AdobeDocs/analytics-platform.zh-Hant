@@ -4,9 +4,9 @@ title: Analysis Workspace 的已知限制
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 92%
 ## 元件 > 篩選器
 
 * [!UICONTROL 「發生次數」]、[!UICONTROL 「不重複訪客」]等特定量度和維度無法進行篩選。
-* 在 [面板落點](/help/analysis-workspace/c-panels/panels.md) 將不顯示在「工作區」(Workspace)或「過濾器」(Filter)元件管理器的左滑軌中，除非它們被公開。 您可以編輯篩選器並選取&#x200B;**[!UICONTROL 「將此篩選器設為公開」]**&#x200B;來完成此操作。
+* 在[面板放置區](/help/analysis-workspace/c-panels/panels.md)中建立的臨時篩選將不會顯示在工作區的左側邊欄或「篩選器」元件管理員中，除非將其設為公開顯示。 您可以編輯篩選器並選取&#x200B;**[!UICONTROL 「將此篩選器設為公開」]**&#x200B;來完成此操作。
 
 ## 元件 > 計算量度
 
@@ -48,6 +48,6 @@ ht-degree: 92%
 
 * [!UICONTROL 「報表設定」]頁面上的某些設定並不適用。Analysis Workspace 僅會使用以下幾種位於底部的[!UICONTROL 「語言/貨幣/編碼」]設定：[!UICONTROL 「千位分隔符號」]、[!UICONTROL 「排程報表編碼」]和[!UICONTROL 「CSV 分隔符號字元」]。
 
-## 歸因 IQ
+## Attribution IQ
 
-* 有一組量度子集不受[!UICONTROL 歸因 IQ] 支援。如需完整清單，請參閱[歸因 IQ 常見問答](../attribution/faq.md)。
+* 有一組量度子集不受 [!UICONTROL Attribution IQ] 支援。如需完整清單，請參閱 [Attribution IQ 常見問答](../attribution/faq.md)。
