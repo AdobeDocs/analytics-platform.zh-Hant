@@ -1,27 +1,27 @@
 ---
-description: 在Analysis Workspace使用臨時篩選器。
-title: 即席項目篩選器
+description: 在 Analysis Workspace 中使用臨時篩選。
+title: 臨時專案篩選
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
 source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# 即席項目篩選器
+# 臨時專案篩選
 
-即席項目篩選器允許您直接將任何元件拖放到面板拖放區域以建立篩選器。 該篩選器成為目前專案的本機[專案層級篩選器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html)。
+臨時專案篩選可讓您將任何元件直接拖放到面板放置區域中以建立篩選。 此篩選會成為目前專案的本機[專案層級篩選](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html)。
 
-下面是有關建立即席項目篩選器的視頻：
+以下是有關建立臨時專案篩選的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
 
 1. 
-   1. 將任何元件類型 (維度、維度項目、事件、量度、區段、區段範本、日期範圍) 拖移至面板頂端的篩選器拖放區域中。元件類型將自動轉換為即席篩選器或 [快速篩選器](/help/components/filters/quick-filters.md) 。
+   1. 將任何元件類型 (維度、維度項目、事件、量度、區段、區段範本、日期範圍) 拖曳到面板頂端的篩選放置區域中。 元件類型如果相容的話，會自動轉換為臨時篩選或[快速篩選](/help/components/filters/quick-filters.md)。
 
    以下是如何為 Twitter 反向連結網域建立篩選的範例：
 
@@ -38,7 +38,7 @@ ht-degree: 78%
 * 為建立完整的維度和事件，Analysis Workspace 建立了「存在」點擊篩選條件。範例：`Hit where eVar1 exists` 或 `Hit where event1 exists`。
 * 如將「未指定」或「無」拖放至篩選拖放區，就會自動轉換成「不存在」篩選，以便系統可正確處理篩選。
 
-## 保存即席項目篩選器 {#ad-hoc-save}
+## 儲存臨時專案篩選 {#ad-hoc-save}
 
 您可選擇完成以下步驟以儲存這些篩選：
 
