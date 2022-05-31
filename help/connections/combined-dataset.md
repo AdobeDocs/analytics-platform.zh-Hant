@@ -5,16 +5,16 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: 6b5f4659e9bae02e2665db3c0ee02d143dbc7ea0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # 合併事件資料集
 
-建立連接時，Customer Journey Analytics(CJA)將所有架構和資料集合併到單個資料集中。 CJA 會使用這個「合併事件資料集」來製作報表。在連線中納入多個結構或資料集時：
+當您建立連線時，Customer Journey Analytics (CJA) 會將所有結構描述和資料集合併到單一資料集中。 CJA 會使用這個「合併事件資料集」來製作報表。在連線中納入多個結構或資料集時：
 
 * 結構會合併。重複的結構欄位會合併。
 * 每個資料集的「人員 ID」欄會合併為一欄，不論其名稱為何。此欄是識別 CJA 中獨特訪客的基礎。
@@ -72,7 +72,7 @@ ht-degree: 94%
 
 不過，如果連線中同時包含兩個表格，則歸因會變更，因為這兩個資料集中都有 `user_847`。第二個資料集屬性中的一列將 `metric_a` 歸因為「黃色」，其之前為未指定：
 
-| 字串顏色 | 度量_a |
+| string_color | metric_a |
 | --- | --- |
 | 黃色 | 6 |
 | 藍色 | 3 |
