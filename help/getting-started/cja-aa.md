@@ -4,10 +4,10 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: ab60cb09e4578be0fda642a3669af7e4c796fd52
+source-git-commit: 401d22d7edbb751f1a377b2a8778d1c08ddea5c3
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 94%
+source-wordcount: '1432'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 | 日期比較 | 完整支援 |
 | 日期範圍 | 所有資料範圍功能都受到支援。 |
 | 日光節約時間 | 完整支援 |
-| 設備、瀏覽器、參考、技術維 | 當 AEP 資料集內含特定 XDM 結構描述欄位，並符合 XDM 體驗事件類別時，系統就會自動納入這些維度。請參閱[相關文件，了解可透過 ADC 支援的 Analytics 變數](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。對於不使用ADC將資料從Adobe Analytics填充到CJA，而是使用AEP Web SDK資料收集的CJA客戶，當前不支援基於設備查找的設備和維，但將在不久的將來。 |
+| 設備、瀏覽器、參考、技術維 | 當 AEP 資料集內含特定 XDM 結構描述欄位，並符合 XDM 體驗事件類別時，系統就會自動納入這些維度。請參閱[相關文件，了解可透過 ADC 支援的 Analytics 變數](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant)。<p>如果不使用Adobe源連接器將資料從Adobe Analytics填充到CJA，而是使用Experience PlatformWeb SDK資料收集，則當前不支援基於設備查找的設備和維。 在不久的將來將得到支援。 |
 | 維度 | 完整支援；CJA 運用 XDM 並支援無限制維度。CJA 並未繫結到傳統 Adobe Analytics 的自訂 eVars 或 props。 |
 | 刪除 GDPR | 完整支援；請注意 GDPR 目前是協同 [!UICONTROL Adobe Experience Platform] 處理。CJA 會繼承 [!UICONTROL Experience Platform] 對基礎資料集所做的任何資料變更。 |
 | 清單變數/清單 Prop | 完整資源；CJA 運用 XDM 並支援使用方式與 listVars 相似的無限制字串陣列。 |
@@ -52,6 +52,8 @@ ht-degree: 94%
 | 虛擬報表套裝 | 完整支援；現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | VRS 元件策劃 | 完整支援；現在是資料檢視的一部分。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 支援警告功能
 
 | 功能 | 附註 |
@@ -69,14 +71,18 @@ ht-degree: 94%
 | 專案共用 | 專案共用功能僅支援在 CJA 的使用者之間使用 - CJA 與傳統 Analysis Workspace 之間不支援專案共用。 |
 | 視覺效果 | 支援所有視覺效果，但地圖視覺效果除外。 |
 
+{style=&quot;table-layout:auto&quot;&quot;
+
 ## 部分支援
 
 | 功能 | 附註 |
 | --- | --- |
 | 機器人篩選 | 對於以 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)為基礎的資料集，則會套用機器人篩選。 [!UICONTROL Experience Platform] 或 CJA 不會針對其他資料集執行一般機器人篩選邏輯。 |
-| 媒體分析 | 媒體資料是 Analytics 來源連接器的一部分。 |
 | 面板 | 空白面板、歸因面板、自由表格面板和快速深入分析全都受到支援。不支援「區段比較」、「Analytics for Target」(A4T) 和「媒體同時檢閱者」面板。 |
 | 處理規則 | 對於以 Analytics 資料連接器為基礎的資料集，仍會套用處理規則。 [Adobe Experience Platform 中的資料準備功能](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)也可用來取代直接送到 Platform 的資料適用的處理規則。 |
+| 流媒體分析 | 介質資料是 [Adobe Analytics源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)。 |
+
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 目前不支援，但已列入規劃
 
@@ -94,6 +100,8 @@ ht-degree: 94%
 | 區段發佈 (將區段從 Analysis Workspace 傳送至 Experience Cloud) | 已規劃提供支援。 在 CJA 中將稱為「受眾發佈」。 |
 | 新的與重複工作階段報告 | 已規劃提供支援，但有一些考量。 |
 
+{style=&quot;table-layout:auto&quot;&quot;
+
 ## 尚未規劃提供支援
 
 | 功能 | 附註 |
@@ -104,6 +112,8 @@ ht-degree: 94%
 | 資料摘要 | 尚未規劃提供支援。 |
 | 摘要資料來源 | 尚未規劃提供支援。 |
 | 交易 ID 資料來源 | 尚未規劃提供支援。 |
+
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 永不受支援
 
