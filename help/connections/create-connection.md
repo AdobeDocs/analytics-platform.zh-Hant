@@ -4,94 +4,94 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 322961b416deb049010d9e4e3f2301300a116ee4
+source-git-commit: 90480aa725e75d8b8315c4cebcd9a2fd9cfe8823
 workflow-type: tm+mt
-source-wordcount: '2148'
-ht-degree: 68%
+source-wordcount: '2319'
+ht-degree: 89%
 
 ---
 
 # 建立連線
 
-最近在Customer Journey Analytics(CJA)中啟動了新的連接工作流。 以下是新功能的概述：
+我們最近在 Customer Journey Analytics (CJA) 中推出了新的連線工作流程。 新的連接建立和編輯工作流體驗將所有資料集和連接配置設定都帶有輔助工作流到螢幕中心。  我們提供了詳細的資料集選擇、配置和查看關鍵資訊的經驗，如資料集類型、大小、模式、資料集ID、批處理狀態、回填狀態、人員ID等，以降低錯誤連接配置的風險。 以下是新功能總覽：
 
-* 建立連接時，可以啟用滾動資料保留窗口。
-* 您可以添加到連接並從連接中刪除資料集。 (刪除資料集會將其從連接中刪除，並影響任何關聯的資料視圖和基礎Analysis Workspace項目。)
-* 您可以啟用並請求每個資料集的回填資料。
-* 您可以編輯資料集，例如，請求其他回填。
-* 可以按資料集導入現有資料。
+* 當您建立連線時，可以啟用滾動資料保留時間窗口。
+* 您可以在連線中新增及移除資料集。 (移除資料集會將其從連線中移除，並影響任何關聯的資料檢視及基礎 Analysis Workspace 專案。)
+* 您可以為每個資料集啟用及請求回填資料。
+* 例如，您可以編輯資料集來請求另一次回填。
+* 您可以為每個資料集匯入現有的資料。
 
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
 
-## 建立和配置連接 {#create-connection}
+## 建立和設定連線 {#create-connection}
 
-1. 在CJA中，按一下 **[!UICONTROL 連接]** 頁籤。
-1. 按一下 **[!UICONTROL 建立新連接]**。
+1. 在 CJA 中，按一下&#x200B;**[!UICONTROL 連線]**&#x200B;索引標籤。
+1. 按一下&#x200B;**[!UICONTROL 建立新連線]**。
 
    ![連線設定](assets/create-conn1.png)
 
-1. 配置連接設定。
+1. 進行連線設定。
 
    | 設定 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 連線名稱]** | 輸入連接的唯一名稱。 |
-   | **[!UICONTROL 連線說明]** | 描述此連接的目的。 |
-   | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)可將單一 Platform 例項分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。您可以將沙箱視為包含資料集的「資料庫」。 沙箱可用於控制資料集的存取權限，<p>選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。 |
-   | **[!UICONTROL 啟用滾動資料窗口]** | 如果選中此複選框，則允許您在連接級別將CJA資料保留定義為月（1個月、3個月、6個月等）滾動窗口。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。配置檔案或查找資料集不存在滾動資料窗口設定，因為沒有適用的時間戳。 但是，如果連接包含任何配置檔案或查找資料集（除一個或多個事件資料集外），則該資料將保留在同一時間段。<p> 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。<p>如果保留預設值（未選中），保留期將被Adobe Experience Platform資料保留設定取代。 如果您有25個月的Experience Platform資料， CJA將通過回填獲得25個月的資料。 如果您在平台中刪除了其中的10個月，CJA將保留剩餘的15個月。 |
-   | **[!UICONTROL 添加資料集]** （見下文） | 如果資料集清單中未顯示任何資料集，則添加資料集。 |
-   | **[!UICONTROL 資料集名稱]** | 選取一或多個要拉進 Customer Journey Analytics 的資料集，然後按一下&#x200B;**[!UICONTROL 「新增」]**<p>(如果有很多資料集可選擇，可使用資料集清單上方的「搜尋資料集」搜尋列，搜尋合適的資料集)。 |
-   | **[!UICONTROL 上次更新時間]** | 僅對於事件資料集，此設定將自動設定為Experience Platform中基於事件的架構的預設時間戳欄位。 &quot;N/A&quot;表示此資料集不包含任何資料。 |
-   | **[!UICONTROL 結構描述]** | 這是 [架構](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en) 根據資料集在Adobe Experience Platform建立。 |
-   | **[!UICONTROL 資料集類型]** | 對於添加到此連接的每個資料集，Customer Journey Analytics會根據傳入的資料自動設定資料集類型。 有 3 種不同的資料集類型：事件資料、設定檔資料、查詢資料。有關資料集類型的說明，請參閱下表。 |
-   | **[!UICONTROL 人員 ID]** | 從可用標識的下拉清單中選擇人員ID。 這些身分識別是在 Experience Platform 的資料集結構中所定義。若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。<p>重要提示：如果沒有人員ID可供選擇，則表示在架構中未定義一個或多個人員ID。 [這部影片](https://www.youtube.com/watch?v=G_ttmGl_LRU)會說明如何在 Experience Platform 中定義身分識別。 |
-   | **[!UICONTROL 金鑰]** | 僅用於查找資料集（如_id）。 |
-   | **[!UICONTROL 比對索引鍵]** | 僅用於查找資料集（如_id）。 |
+   | **[!UICONTROL 連線名稱]** | 為連線輸入唯一名稱。 |
+   | **[!UICONTROL 連線說明]** | 說明此連線的用途。 |
+   | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)可將單一 Platform 執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。您可將沙箱視為內含資料集的「資料獨立單位」。 沙箱可用於控制資料集的存取權限。<p>當您選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。 |
+   | **[!UICONTROL 啟用滾動資料時間窗口]** | 如果選中此複選框，則允許您在連接級別將CJA資料保留定義為月（1個月、3個月、6個月等）滾動窗口。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。 由於無適用的時間戳記，因此基本資料或查詢資料集不存在滾動資料時間窗口設定。 不過，如果您的連線在一個或多個事件資料集之外還包含任何基本資料或查詢資料集，則會為相同時段保留該資料。<p> 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。<p>如果保留預設值（未選中），保留期將被Adobe Experience Platform資料保留設定取代。 如果您有25個月的Experience Platform資料， CJA將通過回填獲得25個月的資料。 如果您在平台中刪除了其中的10個月，CJA將保留剩餘的15個月。 |
+   | **[!UICONTROL 新增資料集]** (請參閱底下) | 如果沒有資料集出現在您的資料集清單中，請新增資料集。 |
+   | **[!UICONTROL 資料集名稱]** | 選取一個或多個要拉進 Customer Journey Analytics 中的資料集，然後按一下&#x200B;**[!UICONTROL 新增]**。<p>(如果有很多資料集可供選擇，可使用資料集清單上方的「搜尋資料集」搜尋列，搜尋合適的資料集)。 |
+   | **[!UICONTROL 上次更新時間]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述中的預設時間戳記欄位。 「不適用」代表此資料集不含任何資料。 |
+   | **[!UICONTROL 結構描述]** | 這是之前在 Adobe Experience Platform 中建立資料集所根據的[結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)。 |
+   | **[!UICONTROL 資料集類型]** | Customer Journey Analytics 會針對您新增至此連線的各個資料集，根據傳入的資料自動設定資料集類型。 有 3 種不同的資料集類型：事件資料、個人基本資料和查詢資料。 請參閱下表提供的資料集類型說明。 |
+   | **[!UICONTROL 人員 ID]** | 從可用身分識別的下拉式清單中選取人員 ID。 這些身分識別是在 Experience Platform 的資料集結構中所定義。若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。<p>重要事項：如果沒有人員 ID 可供選擇，表示結構描述中尚未定義一個或多個人員 ID。 請觀看[這部影片](https://www.youtube.com/watch?v=G_ttmGl_LRU)，了解如何在 Experience Platform 中定義身分識別。 |
+   | **[!UICONTROL 索引鍵]** | 僅適用於查詢資料集 (例如 _id)。 |
+   | **[!UICONTROL 相符的索引鍵]** | 僅適用於查詢資料集 (例如 _id)。 |
    | **[!UICONTROL 匯入新資料]** | 設定為開啟或關閉。 |
-   | **[!UICONTROL 回填資料]** |  |
-   | **[!UICONTROL 回填狀態]** | 指示是否正在處理任何回填資料。 |
+   | **[!UICONTROL 回填資料]** | 您可以請求根據事件時間戳在資料集中回填資料。 例如，您可以請求回填過去7天的資料，配置正確的人員ID，並test連接以進行正確的配置。 如果一切都看起來不錯，您可以輕鬆地回填所有剩餘的資料。<p>此外，還可以啟用按資料集導入新資料。 例如，您只能為查找資料啟用新資料的導入。 |
+   | **[!UICONTROL 回填狀態]** | 指出是否有任何回填資料在處理中。 |
 
    {style=&quot;table-layout:auto&quot;}
 
-## 添加和配置資料集 {#add-dataset}
+## 新增及設定資料集 {#add-dataset}
 
-新工作流允許您在建立連接時添加Experience Platform資料集。
+當您建立連線時，新工作流程可讓您新增 Experience Platform 資料集。
 
-1. 在「連接設定」對話框中，按一下 **[!UICONTROL 添加資料集]**。
-1. 選擇一個或多個資料集並按一下 **[!UICONTROL 下一個]**。
+1. 在「連線設定」對話框中，按一下&#x200B;**[!UICONTROL 新增資料集]**。
+1. 選取一個或多個資料集，然後按&#x200B;**[!UICONTROL 下一步]**。
 
-   請注意，至少需要有一個事件資料集作為連接的一部分。
-1. 現在，逐個配置資料集。
+   請注意，至少需要有一個事件資料集成為連線的一部分。
+1. 現在請逐一設定資料集。
 
-   ![配置資料集](assets/add-dataset.png)
+   ![設定資料集](assets/add-dataset.png)
 
    | 設定 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 人員 ID]** | 從可用標識的下拉清單中選擇人員ID。 這些身分識別是在 Experience Platform 的資料集結構中所定義。若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。<p>如果沒有人員 ID 可以選擇，表示結構中尚未定義一或多個人員 ID。這部影片會說明如何在 Experience Platform 中定義身分識別。 |
-   | **[!UICONTROL 時間戳記]** | 僅對於事件資料集，此設定將自動設定為Experience Platform中基於事件的架構的預設時間戳欄位。 |
-   | **[!UICONTROL 匯入新資料]** | 如果要建立持續連線，請選擇此選項，如此一來，新增到此連線中資料集的任何新資料批次，都會自動彙整至 Analysis Workspace。可以設定為「開啟」或「關閉」。 |
-   | **[!UICONTROL 資料集回填]** | 按一下 **[!UICONTROL 請求回填]** 以回填歷史資料。<ul><li>您可以逐個回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。延遲受您擁有的歷史資料量的影響。</li><li>Adobe Analytics Source Connector 最多可匯入 13 個月資料 (不論資料量多寡)。</li></ul> |
-   | **[!UICONTROL 回填狀態]** | 可能的狀態指標有：<ul><li>成功</li><li>X回填處理</li><li>關閉</li></ul> |
-   | **[!UICONTROL 資料集 ID]** | 此ID將自動生成。 |
-   | **[!UICONTROL 說明]** | 建立此資料集時給予的說明。 |
+   | **[!UICONTROL 人員 ID]** | 從可用身分識別的下拉式清單中選取人員 ID。 這些身分識別是在 Experience Platform 的資料集結構中所定義。若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。<p>如果沒有人員 ID 可以選擇，表示結構中尚未定義一或多個人員 ID。請觀看這部影片，了解如何在 Experience Platform 中定義身分識別。 |
+   | **[!UICONTROL 時間戳記]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述中的預設時間戳記欄位。 |
+   | **[!UICONTROL 匯入新資料]** | 如果您要建立持續連線，請選取此選項，如此一來，新增到此連線中資料集的任何新資料批次都會自動流入工作區。 可以設定為開啟或關閉。 |
+   | **[!UICONTROL 資料集回填]** | 按一下&#x200B;**[!UICONTROL 請求回填]**&#x200B;以回填歷史資料。<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。延遲受到您有多少歷史資料所影響。</li><li>Adobe Analytics 來源連接器最多可匯入 13 個月資料 (不論資料量多寡)。</li></ul> |
+   | **[!UICONTROL 回填狀態]** | 可能的狀態指標包括：<ul><li>成功</li><li>正在處理 X 個回填</li><li>關閉</li></ul> |
+   | **[!UICONTROL 資料集 ID]** | 此 ID 是自動產生的。 |
+   | **[!UICONTROL 說明]** | 建立資料集時為其提供的說明。 |
    | **[!UICONTROL 資料集大小]** | 資料集的大小。 |
-   | **[!UICONTROL 結構描述]** | 這是在Adobe Experience Platform建立資料集時基於的架構。 |
+   | **[!UICONTROL 結構描述]** | 這是之前在 Adobe Experience Platform 中建立資料集所根據的結構描述。 |
    | **[!UICONTROL 資料集]** | 資料集的名稱。 |
-   | **[!UICONTROL 預覽]**: `<dataset name>` | 預覽包含日期、我的ID和標識符列的資料集。 |
-   | **[!UICONTROL 移除]** | 從連接中刪除此資料集。 |
+   | **[!UICONTROL 預覽]**：`<dataset name>` | 預覽包含日期、我的 ID 和識別碼等欄的資料集。 |
+   | **[!UICONTROL 移除]** | 您可以刪除或刪除資料集並更改人員ID，而不刪除整個連接。 這減少了資料接收所涉及的成本，以及重新建立整個連接和相關資料視圖的繁瑣過程。 |
 
    {style=&quot;table-layout:auto&quot;&quot;
 
 ## 連線預覽 {#preview}
 
-要預覽已建立的連接，請按一下 **[!UICONTROL 連接預覽]** 中。
+若要預覽您已建立的連線，請在「連線設定」對話框中按一下&#x200B;**[!UICONTROL 連線預覽]**。
 
 ![連線預覽](assets/create-conn4.png)
 
-此預覽包含列出連接配置的列數。 顯示的列類型取決於您的單個資料集。
+此預覽包含列出連線設定的許多欄。 顯示的欄類型取決於您的個別資料集。
 
 ## 資料集類型 {#dataset-types}
 
-對於添加到此連接的每個資料集， [!UICONTROL Customer Journey Analytics] 根據傳入的資料自動設定資料集類型。
+[!UICONTROL Customer Journey Analytics] 會針對您新增至此連線的各個資料集，根據傳入的資料自動設定資料集類型。
 
 >[!IMPORTANT]
 >
@@ -111,7 +111,7 @@ ht-degree: 68%
 
 Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID。「身分對應」是一種允許使用者上傳索引鍵/值組的對應資料結構。索引鍵是身分識別命名空間，值是保存身分識別值的結構。「身分對應」存在於每個上傳的列/事件，並會相應填入每一列。
 
-只要資料集所使用的結構屬於 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 類別，一律適用「身分對應」。當您選擇要在 CJA 連線中包含這類資料集，您就可以選擇使用一個欄位作為主要 ID，也可以使用「身分對應」：
+只要資料集所使用的結構屬於 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) 類別，一律適用「身分對應」。當您選擇要在 CJA 連線中包含這類資料集，您就可以選擇使用一個欄位作為主要 ID，也可以使用「身分對應」：
 
 ![](assets/idmap1.png)
 
@@ -120,7 +120,7 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 | 選項 | 說明 |
 |---|---|
 | **[!UICONTROL 使用主要 ID 命名空間]** | 這會指示 CJA 在標示 primary=true 屬性的「身分對應」中逐列尋找身分識別，作為該列的人員 ID。也就是說，這會是在 Experience Platform 中劃分資料的主要索引鍵，也是 CJA 訪客 ID 的主要候選項目 (取決於 CJA 連線的資料集設定方式)。 |
-| **[!UICONTROL 命名空間]** | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant) 的元件，用途是作為身分識別相關內容的指標。如果您指定命名空間，CJA 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。請注意，CJA 無法執行涵蓋所有列的完整資料集掃描，據以判斷哪些命名空間實際存在，下拉式清單會列出所有可能的命名空間。您需知道資料中指定的命名空間，系統無法自動偵測。 |
+| **[!UICONTROL 命名空間]** | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) 的元件，用途是作為身分識別相關內容的指標。如果您指定命名空間，CJA 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。請注意，CJA 無法執行涵蓋所有列的完整資料集掃描，據以判斷哪些命名空間實際存在，下拉式清單會列出所有可能的命名空間。您需知道資料中指定的命名空間，系統無法自動偵測。 |
 
 {style=&quot;table-layout:auto&quot;&quot;
 
@@ -139,7 +139,7 @@ Customer Journey Analytics 現在可支援以「身分對應」作為人員 ID�
 
 連線中的每個資料集都必須完成這項計算。
 
-1. 前往 [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)，並建立新查詢。
+1. 前往 [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)，並建立新查詢。
 
    查詢如下所示：
 
