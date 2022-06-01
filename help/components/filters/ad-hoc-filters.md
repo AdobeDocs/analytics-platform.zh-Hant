@@ -20,8 +20,7 @@ ht-degree: 100%
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
 
-1. 
-   1. 將任何元件類型 (維度、維度項目、事件、量度、區段、區段範本、日期範圍) 拖曳到面板頂端的篩選放置區域中。 元件類型如果相容的話，會自動轉換為臨時篩選或[快速篩選](/help/components/filters/quick-filters.md)。
+1. 將任何元件類型 (維度、維度項目、事件、量度、區段、區段範本、日期範圍) 拖曳到面板頂端的篩選放置區域中。 元件類型如果相容的話，會自動轉換為臨時篩選或[快速篩選](/help/components/filters/quick-filters.md)。
 
    以下是如何為 Twitter 反向連結網域建立篩選的範例：
 
