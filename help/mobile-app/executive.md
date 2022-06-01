@@ -5,16 +5,18 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '1230'
-ht-degree: 100%
+source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
+workflow-type: tm+mt
+source-wordcount: '1220'
+ht-degree: 99%
 
 ---
 
 # 高階主管使用者快速入門指南
 
-下列資訊可讓高階主管使用者瞭解使用和檢視 Adobe Analytics 儀表板的最佳作法。若要觀看講解這項資訊的影片，請參閱 [Adobe Analytics 儀表板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
+下列資訊可讓高階主管使用者瞭解使用和檢視 Adobe Analytics 儀表板的最佳作法。下面是演示此資訊的視頻：
+
+>[!VIDEO](https://video.tv.adobe.com/v/343460/)
 
 這份指南旨在協助高階主管使用者閱讀和理解 Analytics 儀表板上的計分卡。此應用程式可讓高階主管使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
 

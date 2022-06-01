@@ -5,8 +5,8 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 929656128214ed0dc2fe2195ea691122edb6566e
-workflow-type: ht
+source-git-commit: 76477d23a9ab6bd38118bae9f1af4dc506922fa7
+workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 以下資訊可為 Adobe Analytics 資料的組織者說明如何設定控制面板並向高階主管使用者呈現。若要開始使用，您可觀看 Adobe Analytics 儀表板計分卡產生器的影片:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+>[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
 >這個頁面的螢幕截圖取自 Adobe Analytics UI，而非 CJA。 這些 UI 幾乎完全一樣。
