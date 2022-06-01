@@ -4,10 +4,10 @@ title: 臨時專案篩選
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 79513ad9-3c9d-441e-a5c5-c2b1e5cacc2e
-source-git-commit: 17030d5ac3b488a6c628e6de7aab8b710e5c175a
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+source-git-commit: 6627c8e8f6e88fd93ffaad12b38e5e1dbbc844a8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
