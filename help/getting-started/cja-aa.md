@@ -4,10 +4,10 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 146c8b9b4918c753391484dc1267e1cb90380525
+source-git-commit: e9f83a6169addc7d7df1ef7902466008f66ef66b
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 99%
+source-wordcount: '1416'
+ht-degree: 95%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 99%
 | 日期比較 | 完整支援 |
 | 日期範圍 | 所有資料範圍功能都受到支援。 |
 | 日光節約時間 | 完整支援 |
+| 設備、瀏覽器、參考、技術維 | 當 AEP 資料集內含特定 XDM 結構描述欄位，並符合 XDM 體驗事件類別時，系統就會自動納入這些維度。請參閱[相關文件，了解可透過 ADC 支援的 Analytics 變數](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/acp_connectors_overview/analytics_mapping_fields.md)。對於不使用ADC將資料從Adobe Analytics填充到CJA，而是使用AEP Web SDK資料收集的CJA客戶，當前不支援基於設備查找的設備和維，但將在不久的將來。 |
 | 維度 | 完整支援；CJA 運用 XDM 並支援無限制維度。CJA 並未繫結到傳統 Adobe Analytics 的自訂 eVars 或 props。 |
 | 刪除 GDPR | 完整支援；請注意 GDPR 目前是協同 [!UICONTROL Adobe Experience Platform] 處理。CJA 會繼承 [!UICONTROL Experience Platform] 對基礎資料集所做的任何資料變更。 |
 | 清單變數/清單 Prop | 完整資源；CJA 運用 XDM 並支援使用方式與 listVars 相似的無限制字串陣列。 |
@@ -57,7 +58,7 @@ ht-degree: 99%
 | --- | --- |
 | A4T | 透過 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)中的欄位提供支援。 |
 | Classifications | 現在稱為「查閱資料集」。Analytics 中使用的分類可以使用 Analytics Classifications Data Connector 匯入至 Experience Platform 和 CJA。查閱資料集也可以直接上傳至 AEP，並在 CJA 中提供。 |
-| 自訂工作階段化 | 支援除行動背景點擊以外的所有自訂工作階段化功能。 |
+| 自訂工作階段化 | 支援除移動背景點擊之外的所有自定義會話功能。 |
 | 客戶屬性 | 現在稱為「描述檔資料集」，它們不會自動從 Experience Cloud 匯入，但必須上傳到 AEP，才能在 CJA 中使用。 |
 | [!UICONTROL 裝置]、[!UICONTROL 瀏覽器]、[!UICONTROL 推薦者]、[!UICONTROL 技術]維度 | 當 AEP 資料集內含特定 XDM 結構描述欄位，並符合 XDM 體驗事件類別時，系統就會自動納入這些維度。請參閱[相關文件，了解可透過 Analytics 來源連接器支援的 Analytics 變數](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html)。對於未使用來源連接器將資料從 Adobe Analytics 填入到 CJA，而是使用 AEP Web SDK 資料收集的 CJA 客戶，目前不支援[!UICONTROL 裝置]和基於裝置查詢的維度，但將在不久的未來予以支援。 |
 | 進入、退出及逗留的時間等維度和量度 | 系統可支援 (進入與退出現在稱為「工作階段開始」和「工作階段結束」)，不過計算方式稍有不同。 |
