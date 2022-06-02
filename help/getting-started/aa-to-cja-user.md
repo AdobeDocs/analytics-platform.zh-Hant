@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '1456'
-ht-degree: 100%
+source-git-commit: c33176b695d5ea3417ff17fe3140589d803472ae
+workflow-type: tm+mt
+source-wordcount: '1457'
+ht-degree: 97%
 
 ---
 
@@ -76,9 +76,9 @@ Adobe 已將「區段」部分重新命名為「篩選器」，以更能與行�
 
 除了區段概念有變動，區段容器也已更新。
 
-* **「點擊」容器現在是「事件」容器**。 「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。
-* **「瀏覽」容器現在是「工作階段」容器**。 「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。
-* **「訪客」容器現在是「[!UICONTROL 人員]」容器**。 「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。
+* **命中容器現在 [!UICONTROL 事件] 容器**。 的 [!UICONTROL 事件] 容器允許您根據單個頁面視圖/點擊數分類訪問者資訊。
+* **訪問容器現在已 [!UICONTROL 會話] 容器**。 「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。
+* **「訪客」容器現在是「[!UICONTROL 人員]」容器**。 的 [!UICONTROL 人員] 容器包括指定時間範圍內訪問者的每個會話和事件。
 
 ## 計算量度概念的變動
 
