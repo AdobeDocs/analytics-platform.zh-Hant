@@ -1,12 +1,12 @@
 ---
 title: 計算量度總覽
-description: 瞭解
+description: 瞭解在報告運行時派生的已篩選度量。
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: cf51db711370e7dea5d934cb25d351271d3f20bd
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: e98b21824789600c7729cce99d7592011ad18577
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 97%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 100%
 
 | Builder 選項 | 計算量度 | 進階計算 (衍生) 量度 |
 |---|---|---|
-| 格式類型 (小數、時間、百分比、貨幣) | 是 | 是 |
-| 歸因變更 (預設、線性、參與率等) | 是 | 是 |
-| 量度類型 (標準、總計) | 是 | 是 |
-| 基本運算元 (加、減、乘、除) | 是 | 是 |
+| 格式類型 (小數、時間、百分比、貨幣) | 有 | 有 |
+| 歸因變更 (預設、線性、參與率等) | 有 | 有 |
+| 量度類型 (標準、總計) | 有 | 是 |
+| 基本運算元 (加、減、乘、除) | 是 | 有 |
 | 套用篩選器 | 無 | 是 |
 | [基本函數 (計數、abs 值、平均值等)](/help/components/calc-metrics/cm-functions.md) | 無 | 是 |
 | [進階函數 (迴歸、if/then、t 分數等)](/help/components/calc-metrics/cm-adv-functions.md) | 無 | 是 |
