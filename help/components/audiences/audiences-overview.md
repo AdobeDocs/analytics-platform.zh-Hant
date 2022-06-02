@@ -1,9 +1,9 @@
 ---
 title: CJA觀眾發佈概述
 description: 學習Customer Journey Analytics中的受眾出版概念
-source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
+source-git-commit: 7013237e11cb173d54dcbe236967b49d89810975
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '367'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 * 向此受眾發送電子郵件。
 * 正在向此受眾發送推送消息。
 * 利用觀眾去Adobe Journey Optimizer。
-* 通過AEP目標將觀眾導出到第三方
+* 通過Experience Platform目的地將觀眾導出到第三方。
 
 ## 重要術語
 
@@ -34,5 +34,7 @@ ht-degree: 3%
 
 ## 後續步驟
 
+* [建立和發佈受眾](/help/components/audiences/publish.md)
+* [管理受眾](/help/components/audiences/manage.md)
 
 
