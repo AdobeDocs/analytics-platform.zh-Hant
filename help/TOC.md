@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 23258f85ae62375f498d7ac3a7ee24cc139a22a8
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
    + [刪除關聯](getting-started/cja-deletion.md)
    + [CJA 字彙表](getting-started/cja-glossary.md)
 + 連線 {#cja-connections}
-   + [連接概述](connections/overview.md)
+   + [連線總覽](connections/overview.md)
    + [建立連線](connections/create-connection.md)
    + [管理連線](connections/manage-connections.md)
    + [合併事件資料集](connections/combined-dataset.md)
@@ -153,7 +153,7 @@ ht-degree: 98%
    + [選取日期範圍](report-builder/select-date-range.md)
    + [使用篩選器](report-builder/work-with-filters.md)
    + [篩選器維度](report-builder/filter-dimensions.md)
-   + [管理資料塊](report-builder/manage-reportbuilder.md)
+   + [管理資料區塊](report-builder/manage-reportbuilder.md)
    + [Report Builder 設定](report-builder/report-builder-settings.md)
 + 元件 {#cja-components}
    + [元件總覽](components/overview.md)
@@ -173,7 +173,7 @@ ht-degree: 98%
       + [建立篩選](components/filters/create-filters.md)
       + [管理篩選](components/filters/manage-filters.md)
       + [快速篩選](components/filters/quick-filters.md)
-      + [即席篩選器](components/filters/ad-hoc-filters.md)
+      + [臨時篩選](components/filters/ad-hoc-filters.md)
       + [運算子](components/filters/operators.md)
    + 計算量度 {#cja-calcmetrics}
       + [計算量度總覽](components/calc-metrics/calc-metr-overview.md)

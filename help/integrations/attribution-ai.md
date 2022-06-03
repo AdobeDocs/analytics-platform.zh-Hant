@@ -1,32 +1,32 @@
 ---
-description: 瞭解AEPAttribution AI如何與CJA中的Workspace整合。
-title: 將Attribution AI與CJA整合
+description: 了解 AEP Attribution AI 如何在 CJA 中與工作區整合。
+title: 將 Attribution AI 與 CJA 整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 source-git-commit: 195a89588d83e27eceb58fec8c66c098f1971250
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 10%
+ht-degree: 58%
 
 ---
 
-# 將Attribution AI與CJA整合
+# 將 Attribution AI 與 CJA 整合
 
-[Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=en)作為Adobe Experience Platform智慧服務的一部分，它是一種多渠道的算法歸屬服務，它計算客戶交互對特定結果的影響和增量影響。 通過Attribution AI，營銷人員可以通過瞭解客戶旅程每個階段的每個客戶交互的影響來衡量和優化營銷和廣告支出。
+[Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=zh-Hant) 是 Adobe Experience Platform Intelligent Services 的一部分，它是一種多管道的演算法歸因服務，可計算客戶互動對指定結果的影響和累加影響。 透過 Attribution AI，行銷人員可藉由了解每個客戶在客戶歷程各個階段的互動所產生的影響，以衡量行銷和廣告支出並使其最佳化。
 
-Attribution AI與Customer Journey Analytics(CJA)整合，以使Attribution AI根據客戶的營銷觸點和轉換資料源運行模型。 然後，CJA將這些模型的輸出作為資料集導入，或者它可以與CJA其餘資料集整合。 然後，可以在CJA中的資料視圖和報告中使用啟用Attribution AI的資料集。
+Attribution AI與Customer Journey Analytics(CJA)整合，以使Attribution AI根據客戶的營銷觸點和轉換資料源運行模型。 然後，CJA將這些模型的輸出作為資料集導入，或者它可以與CJA其餘資料集整合。 然後可以在 CJA 中的資料檢視和報告中運用具有 Attribution AI 功能的資料集。
 
-Attribution AI支援3個Experience Platform方案：體驗活動、Adobe Analytics和消費者體驗活動。
+Attribution AI 支援 3 個 Experience Platform 結構描述：體驗事件、Adobe Analytics 和取用者體驗事件。
 
-Attribution AI支援兩類得分：算法和基於規則。
+Attribution AI 支援兩種類別的分數：演算法及規則型。 
 
 ## 算法得分
 
-算法得分包括增量和影響得分。
+演算法分數包括累加分數和受影響的分數。
 
-* **[!UICONTROL 影響] 分** 將100%的轉換信用在市場營銷渠道之間。
-* **[!UICONTROL 增量] 分** 首先考慮到即使沒有市場營銷，您也會達到的轉換基準。 此基線取決於AI對模式、季節性等的觀察，因為現有品牌認可、忠誠和口碑。 余下信貸分為營銷渠道。
+* **受影響的分數**&#x200B;會在行銷管道之間分配 100% 的轉換點數。
+* **累加分數**&#x200B;會先考量您即使沒有行銷也能達到的轉換基線。 由於現有的品牌認知度、忠誠度和口碑，此基線取決於 AI 對模式、季節性等因素的觀察。 其餘的點數會在行銷管道之間分配。
 
 ## 基於規則的分數
 
@@ -40,25 +40,25 @@ Attribution AI支援兩類得分：算法和基於規則。
 
 ## 工作流程
 
-在CJA中的輸出工作之前，在Adobe Experience Platform執行某些步驟。 該輸出由具有應用的Attribution AI模型的資料集組成。
+在 CJA 中使用輸出之前會在 Adobe Experience Platform 中執行某些步驟。 輸出是由已套用 Attribution AI 模型的資料集所組成。
 
-### 步驟1:建立Attribution AI實例
+### 步驟 1：建立 Attribution AI 執行個體
 
-在Experience Platform中，通過選擇和映射資料、定義事件和培訓資料來建立Attribution AI實例，如所述 [這裡](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html)。
+在 Experience Platform 中，藉由選取及對應資料、定義事件及訓練您的資料來建立 Attribution AI 執行個體，如[這裡](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html)所述。
 
 ![AAI實例](assets/aai-instance.png)
 
-### 步驟2:設定到Attribution AI資料集的CJA連接
+### 步驟 2：設定 CJA 與 Attribution AI 資料集的連線
 
-在CJA，你現在可以 [建立一個或多個連接](/help/connections/create-connection.md) Experience Platform已檢測為Attribution AI的資料集。 這些資料集以「Attribution AI分數」前置詞顯示，如下所示：
+現在在 CJA 中，您可以[建立一個或多個連線](/help/connections/create-connection.md)來連接已針對 Attribution AI 檢測的 Experience Platform 資料集。 這些資料集以「Attribution AI分數」前置詞顯示，如下所示：
 
-![AAI得分](assets/aai-scores.png)
+![AAI 分數](assets/aai-scores.png)
 
 ![建立連線](assets/aai-create-connection.png)
 
-### 第3步：基於這些連接建立資料視圖
+### 步驟 3：根據這些連線建立資料檢視
 
-在CJA, [建立一個或多個資料視圖](/help/data-views/create-dataview.md) 包含Attribution AIXDM欄位。
+在 CJA 中，[建立一個或多個資料檢視](/help/data-views/create-dataview.md)，這些檢視包含 Attribution AI XDM 欄位。 
 
 下面是觸點的XDM架構欄位：
 
@@ -68,11 +68,11 @@ Attribution AI支援兩類得分：算法和基於規則。
 
 ![轉換XDM欄位](assets/conversion-fields.png)
 
-### 第4步：CJA工作區中AAI資料的報告
+### 步驟 4：在 CJA 工作區中報告 AAI 資料
 
-例如，在CJA Workspace項目中，可以拉入「AAI訂單」等度量，以及「AAI市場活動名稱」或「AAI市場營銷渠道」等維度。
+在 CJA 工作區專案中，您可以納入像是「AAI 訂單」等量度，以及像是「AAI 行銷活動名稱」或「AAI 行銷管道」等維度。
 
-![AAI維](assets/aai-dims.png)
+![AAI 維度](assets/aai-dims.png)
 
 >[!IMPORTANT]
 >
@@ -82,11 +82,11 @@ Attribution AI支援兩類得分：算法和基於規則。
 
 **具有影響和增量分數的訂單**
 
-這裡，我們看到一個包含AAI資料的Workspace項目，它顯示具有影響和增量分數的訂單。 深入到任何維，通過以下方式瞭解屬性：市場活動、產品組、用戶段、地理位置等。
+以下工作區專案中有 AAI 資料，其中顯示有受影響的分數和累加分數的訂單。深入到任何維，通過以下方式瞭解屬性：市場活動、產品組、用戶段、地理位置等。
 
-![AAI項目](assets/aai-project.png)
+![AAI 專案](assets/aai-project.png)
 
-![AAI項目](assets/aai-project2.png)
+![AAI 專案](assets/aai-project2.png)
 
 **營銷業績**
 
@@ -112,18 +112,18 @@ Attribution AI支援兩類得分：算法和基於規則。
 
 ![提前期](assets/lead-time.png)
 
-## Attribution AI與Attribution IQ
+## Attribution AI 與 Attribution IQ 之間的差異
 
-你何時應該使用Attribution AI資料 [Attribution IQ](/help/analysis-workspace/attribution/overview.md)，本機CJA功能？ 下表顯示了在功能方面的一些差異：
+那什麼時候應該使用 Attribution AI 資料，而不是原生 CJA 功能 [Attribution IQ](/help/analysis-workspace/attribution/overview.md) 呢？此表格顯示兩者功能上的一些差異：
 
 | 功能 | Attribution AI | Attribution IQ |
 | --- | --- | --- |
-| 增量屬性 | 有 | 否 |
-| 允許用戶調整模型 | 是 | 是 |
-| 是否跨渠道進行歸屬(注：AAI不使用與CJA相同的縫合資料。) | 是 | 是 |
-| 包括受影響的分數 | 是 | 是 |
-| ML建模 | 是 | 是 |
-| 基於區域的歸屬模型 | 是 | 是 |
-| 可在模型中配置市場營銷觸點 | 有 | 否 |
+| 增量屬性 | 有 | 無 |
+| 允許使用者調整模型 | 有 | 有 |
+| 跨管道進行歸因 (注意：AAI 不使用 CJA 所用的相同拼接資料。) | 有 | 有 |
+| 包括受影響的分數 | 有 | 有 |
+| 進行 ML 模型化 | 有 | 有 |
+| 基於區域的歸屬模型 | 有 | 有 |
+| 可在模型中配置市場營銷觸點 | 有 | 無 |
 
 {style=&quot;table-layout:auto&quot;}

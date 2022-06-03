@@ -9,22 +9,22 @@ solution: Customer Journey Analytics
 source-git-commit: abdf9dc510ebf929be2ca6be02ea60a83785a6f7
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Report Builder 中心
 
-使用Report Builder中心建立、更新、刪除和管理資料塊。
+利用 Report Builder 中心建立、更新、刪除及管理資料區塊。
 
-Report Builder中心包含「建立」和「管理」按鈕、「命令」清單和「快速編輯」面板。
+Report Builder 中心包含「建立」和「管理」按鈕、「命令」清單及「快速編輯」面板。
 
 <img src="./assets/hub51.png" width="50%"/>
 
 
-## 建立和管理按鈕
+## 「建立」和「管理」按鈕
 
-使用「建立」或「管理」按鈕可建立新資料塊或管理現有資料塊。
+使用「建立」或「管理」按鈕可建立新資料區塊或管理現有資料區塊。
 
 ## 「命令」面板
 
