@@ -1,9 +1,9 @@
 ---
 title: 建立受眾並將其發佈到即時客戶配置檔案
 description: 瞭解如何從Customer Journey Analytics發佈觀眾
-source-git-commit: fbe6f346d35d5f80fcbc9ed69b3ab4730c0715d6
+source-git-commit: 7e9c2f58101aa8ed215b20d584d85f14410064fa
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '827'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >
 >此功能當前位於 [有限測試](/help/release-notes/releases.md)。
 
-本主題討論如何將在Customer Journey Analytics(CJA)中發現的受眾發佈到 [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=tw) 在Adobe Experience Platform的客戶定位和個性化。
+本主題討論如何建立和發佈在Customer Journey Analytics(CJA)中發現的訪問群體 [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=tw) 在Adobe Experience Platform的客戶定位和個性化。
 
 閱讀 [概述](/help/components/audiences/audiences-overview.md) 熟悉CJA觀眾的概念。
 
@@ -47,7 +47,7 @@ ht-degree: 7%
    | 重新整理回溯窗口 | 指定在建立此受眾時要在資料窗口中返回的距離。 最大。 90天。 |
    | [!UICONTROL 一次性日期範圍] | 希望發佈一次性受眾的日期範圍。 |
    | [!UICONTROL 篩選器] | 過濾器是對受眾的主要輸入。 最多可以添加20個篩選器。 這些篩選器可與 `And` 或 `Or` 運算子。 |
-   | [!UICONTROL 檢視範例 ID] | 此受眾中的ID示例。 使用搜索欄搜索示例ID。<p>!![]assets/sample-ids.png |
+   | [!UICONTROL 檢視範例 ID] | 此受眾中的ID示例。 使用搜索欄搜索示例ID。 |
 
    {style=&quot;table-layout:auto&quot;&quot;
 
@@ -72,7 +72,23 @@ ht-degree: 7%
 
 1. 如果一切都好，請按一下 **[!UICONTROL 發佈]**。
 
+   如果一切順利，您將收到一條確認消息，告知觀眾已經發佈。
+
+1. 按一下 **[!UICONTROL 查看AEP中的受眾]** 在同一消息中，您將被帶到Adobe Experience Platform的段UI。 請參閱參下方瞭解詳情。
+
+## 在Experience Platform中使用CJA觀眾
+
+通過轉到 **[!UICONTROL 段]** > **[!UICONTROL 建立段]** > **[!UICONTROL 觀眾]** 頁籤 **[!UICONTROL CJA觀眾]**。
+
+可將CJA受眾拖入AEP段的段定義中。
+
+![](assets/audiences-aep.png)
+
+如果選擇將此「受眾」導出到AEP資料湖，它將顯示為符合XDM個人配置檔案架構類的資料集：
+
+![](assets/aep-datalake.png)
+
+
 ## 後續步驟
 
 * 要管理此受眾，請轉到 [管理UI](/help/components/audiences/manage.md)。
-* 為了和Adobe Experience Platform的觀眾合作，來這裡。
