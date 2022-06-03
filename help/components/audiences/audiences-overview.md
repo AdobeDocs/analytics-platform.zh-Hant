@@ -1,15 +1,19 @@
 ---
 title: CJA觀眾發佈概述
 description: 學習Customer Journey Analytics中的受眾出版概念
-source-git-commit: 7013237e11cb173d54dcbe236967b49d89810975
+source-git-commit: 9d19e1ea55a6c2de701d38cb417d6d39e753c640
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '374'
 ht-degree: 3%
 
 ---
 
 
 # CJA觀眾發佈概述
+
+>[!NOTE]
+>
+>此功能當前位於 [有限測試](/help/release-notes/releases.md)。
 
 現在，您可以將在Customer Journey Analytics(CJA)中發現的受眾發佈到 [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=tw) 在Adobe Experience Platform的客戶定位和個性化。 使用即時客戶配置檔案，您可以通過組合來自多個渠道的資料（包括線上、離線、CRM和第三方）來查看每個客戶的整體視圖。 配置檔案允許您將客戶資料整合到一個統一視圖中，為每次客戶交互提供一個可操作且時間戳記的帳戶。
 
