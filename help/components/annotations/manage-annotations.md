@@ -5,7 +5,7 @@ role: User, Admin
 feature: Components
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 7164c90fe50434a07db8154de173c3c7d8e5cb14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 | [!UICONTROL 共用對象] | 列出您與之共用註解的個人或群組數。按一下以取得詳細資訊。 |
 | [!UICONTROL 修改日期] | 顯示上次修改註解的日期和時間。 |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;}
 
 ## 編輯註解
 
@@ -78,4 +78,4 @@ ht-degree: 100%
 | 匯出至 CSV | 將附註定義匯出至 .csv 檔案。 |
 | 篩選 (左側邊欄) | 按標記、報表套裝、所有者和其他篩選器 (「我的」、「已核准」、「我的最愛」、「與我共用」和「全部顯示」) 來篩選。 |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;}
