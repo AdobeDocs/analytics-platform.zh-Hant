@@ -2,10 +2,10 @@
 title: 建立受眾並將其發佈到即時客戶配置檔案
 description: 瞭解如何從Customer Journey Analytics發佈觀眾
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: b7f0173959445cda64de4307bea8ce22ba5048cd
+source-git-commit: cfc4824c214ba8b60877bebe10a697f706f9c2fb
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 7%
+source-wordcount: '971'
+ht-degree: 6%
 
 ---
 
@@ -72,13 +72,13 @@ ht-degree: 7%
 
 1. 按兩下您的受眾配置 **[!UICONTROL 發佈]**。
 
-   如果一切順利，您將收到一條確認消息，告知觀眾已經發佈。
+   如果一切順利，您將收到一條確認消息，告知觀眾已經發佈。 這個觀眾只需一兩分鐘就能出現在Experience Platform。 （即使是擁有數百萬成員的觀眾，也需要不到5分鐘。）
 
 1. 按一下 **[!UICONTROL 查看AEP中的受眾]** 在同一條消息中，您將被 [段UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) 在Adobe Experience Platform。 請參閱參下方瞭解詳情。
 
 ## 在Experience Platform中使用CJA觀眾
 
-CJA現在將從發佈的受眾獲取所有命名空間和ID組合，並將它們流式傳輸到即時客戶配置檔案中。 然後，RTCP檢查每個命名空間/ID組合，並查找它可能屬於的配置檔案。 如果找到一個，它將將命名空間和ID作為段成員屬性添加到此配置檔案中的其他ID中。 例如，現在，「user@adobe.com」可以跨所有設備和通道進行目標定位。 如果找不到配置檔案，則會建立新配置檔案。
+CJA現在將從發佈的受眾獲取所有命名空間和ID組合，並將它們流式傳輸到即時客戶配置檔案(RTCP)中。 然後，RTCP檢查每個命名空間/ID組合，並查找它可能屬於的配置檔案。 配置檔案基本上是連結的命名空間、 ID和設備的群集。 如果找到配置檔案，它將將命名空間和ID作為段成員屬性添加到此配置檔案中的其他ID中。 例如，現在，「user@adobe.com」可以跨所有設備和通道進行目標定位。 如果找不到配置檔案，則會建立新配置檔案。
 
 通過轉到 **[!UICONTROL 段]** > **[!UICONTROL 建立段]** > **[!UICONTROL 觀眾]** 頁籤 **[!UICONTROL CJA觀眾]**。
 
