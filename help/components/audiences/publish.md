@@ -1,13 +1,13 @@
 ---
 title: 建立受眾並將其發佈到即時客戶配置檔案
 description: 瞭解如何從Customer Journey Analytics發佈觀眾
-source-git-commit: 7e9c2f58101aa8ed215b20d584d85f14410064fa
+exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
+source-git-commit: b7f0173959445cda64de4307bea8ce22ba5048cd
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '929'
 ht-degree: 7%
 
 ---
-
 
 # 建立和發佈受眾
 
@@ -65,18 +65,20 @@ ht-degree: 7%
    | [!UICONTROL 預估的對象回訪] | 此設定對於重新瞄準此訪問群體中返回您的站點的客戶非常有用。 （換句話說，在此資料集中再次出現。） <p>在此，您可以為估計可返回的客戶數選擇時間範圍（下7天、下2週、下月）。 |
    | [!UICONTROL 預估的回訪] | 此數字為您提供了在從下拉清單中選擇的時間範圍內的估計數量的返回客戶。 我們觀察了這些觀眾的歷史流失率來預測這個數字。 |
    | [!UICONTROL 預覽量度] | 此設定允許您查看特定指標，以查看此受眾是否對此指標貢獻了不成比例的金額，如「 」[!UICONTROL 收入]或[!UICONTROL 現場平均時間]「 」。 它為您提供度量的聚合計數以及它所代表的總百分比。 您可以選擇資料視圖中可用的任何度量。 |
-   | 包含的命名空間 | 與受眾中的人關聯的特定命名空間。 示例包括ECID、CRM ID、電子郵件地址等。 |
-   | 沙箱 | 此受眾所在的Experience Platform沙盒。 將此訪問群體發佈到平台時，您只能在此沙箱的範圍內使用它。 |
+   | [!UICONTROL 包含的命名空間] | 與受眾中的人關聯的特定命名空間。 示例包括ECID、CRM ID、電子郵件地址等。 |
+   | [!UICONTROL 沙箱] | 的 [Experience Platform沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant) 此受眾所在的位置。 將此訪問群體發佈到平台時，您只能在此沙箱的範圍內使用它。 |
 
    {style=&quot;table-layout:auto&quot;&quot;
 
-1. 如果一切都好，請按一下 **[!UICONTROL 發佈]**。
+1. 按兩下您的受眾配置 **[!UICONTROL 發佈]**。
 
    如果一切順利，您將收到一條確認消息，告知觀眾已經發佈。
 
-1. 按一下 **[!UICONTROL 查看AEP中的受眾]** 在同一消息中，您將被帶到Adobe Experience Platform的段UI。 請參閱參下方瞭解詳情。
+1. 按一下 **[!UICONTROL 查看AEP中的受眾]** 在同一條消息中，您將被 [段UI](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=en) 在Adobe Experience Platform。 請參閱參下方瞭解詳情。
 
 ## 在Experience Platform中使用CJA觀眾
+
+CJA現在將從發佈的受眾獲取所有命名空間和ID組合，並將它們流式傳輸到即時客戶配置檔案中。 然後，RTCP檢查每個命名空間/ID組合，並查找它可能屬於的配置檔案。 如果找到一個，它將將命名空間和ID作為段成員屬性添加到此配置檔案中的其他ID中。 例如，現在，「user@adobe.com」可以跨所有設備和通道進行目標定位。 如果找不到配置檔案，則會建立新配置檔案。
 
 通過轉到 **[!UICONTROL 段]** > **[!UICONTROL 建立段]** > **[!UICONTROL 觀眾]** 頁籤 **[!UICONTROL CJA觀眾]**。
 
