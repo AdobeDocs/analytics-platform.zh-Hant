@@ -2,10 +2,10 @@
 title: 建立受眾並將其發佈到即時客戶配置檔案
 description: 瞭解如何從Customer Journey Analytics發佈觀眾
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: cfc4824c214ba8b60877bebe10a697f706f9c2fb
+source-git-commit: ffefe67eae2ff0dde80dbb09ed255486c3db3a61
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
