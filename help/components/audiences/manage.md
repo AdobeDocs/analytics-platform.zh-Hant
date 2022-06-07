@@ -1,13 +1,13 @@
 ---
 title: 管理在Customer Journey Analytics中建立的受眾
 description: 瞭解如何管理Customer Journey Analytics中的受眾
-source-git-commit: ba98ee1372c4ce396af3f41aeb98bc42ee6d02ce
+exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
+source-git-commit: 71f13c4f7d8ad5682ae0974bca9a0e8fc90acfe4
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 7%
 
 ---
-
 
 # 管理在Customer Journey Analytics中建立的受眾
 
@@ -25,8 +25,6 @@ ht-degree: 7%
 
 ## 管理UI
 
-螢幕擷取畫面
-
 | UI設定 | 定義 |
 | --- | --- |
 | 隱藏/顯示篩選器 | 用於在左滑軌中顯示或隱藏以下濾鏡： <ul><li>資料檢視</li><li>所有者</li><li>重新整理頻率</li><li>標記</li></ul> |
@@ -40,4 +38,3 @@ ht-degree: 7%
 | [!UICONTROL 上次修改日期] | 上次編輯或修改受眾的時間。 |
 
 {style=&quot;table-layout:auto&quot;}
-
