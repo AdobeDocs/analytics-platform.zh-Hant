@@ -2,10 +2,10 @@
 title: 建立受眾並將其發佈到即時客戶配置檔案
 description: 瞭解如何從Customer Journey Analytics發佈觀眾
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: ffefe67eae2ff0dde80dbb09ed255486c3db3a61
+source-git-commit: abeefebafb9ac246ab6a0c18b5554370a6776b38
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '973'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >此功能當前位於 [有限測試](/help/release-notes/releases.md)。
 
-本主題討論如何建立和發佈在Customer Journey Analytics(CJA)中發現的訪問群體 [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=tw) 在Adobe Experience Platform的客戶定位和個性化。
+本主題討論如何建立和發佈Customer Journey Analytics(CJA)中標識的受眾 [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=tw) 在Adobe Experience Platform的客戶定位和個性化。
 
 閱讀 [概述](/help/components/audiences/audiences-overview.md) 熟悉CJA觀眾的概念。
 
@@ -42,9 +42,9 @@ ht-degree: 0%
    | [!UICONTROL 名稱] | 受眾的名稱。 |
    | [!UICONTROL 標記] | 為組織目的而分配給受眾的任何標籤。 可以使用預先存在的標籤或輸入新標籤。 |
    | [!UICONTROL 說明] | 添加對受眾的良好描述，以區別於其他受眾。 |
-   | [!UICONTROL 重新整理頻率] | 要刷新觀眾的頻率。<ul><li>您可以選擇建立一次性受眾（預設），無需刷新，這對特定的一次性市場活動（例如）很有幫助。</li><li>可以選擇其他刷新間隔。 對於4小時頻率，受眾數量限制為150個，因為此刷新率非常需要處理。 對於其他時間間隔，沒有最大數量的受眾。</li></ul> |
+   | [!UICONTROL 重新整理頻率] | 要刷新觀眾的頻率。<ul><li>您可以選擇建立不需要刷新的一次性訪問群體（預設）。 例如，這對特定的一次性市場活動可能有所幫助。</li><li>可以選擇其他刷新間隔。 對於4小時頻率，受眾數量限制為150個，因為此刷新率非常需要處理。 對於其他時間間隔，沒有最大數量的受眾。</li></ul> |
    | 到期日期 | 觀眾何時停止刷新。 預設值為自建立日期起1年。 即將過期的受眾會被視為與過期的計畫報告類似 — 管理員在受眾過期前一個月收到一封電子郵件。 |
-   | 重新整理回溯窗口 | 指定在建立此受眾時要在資料窗口中返回的距離。 最大。 90天。 |
+   | 重新整理回溯窗口 | 指定在建立此受眾時要在資料窗口中返回的距離。 最大為90天。 |
    | [!UICONTROL 一次性日期範圍] | 希望發佈一次性受眾的日期範圍。 |
    | [!UICONTROL 篩選器] | 過濾器是對受眾的主要輸入。 最多可以添加20個篩選器。 這些篩選器可與 `And` 或 `Or` 運算子。 |
    | [!UICONTROL 檢視範例 ID] | 此受眾中的ID示例。 使用搜索欄搜索示例ID。 |
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 解釋資料預覽。
 
-   觀眾預覽顯示在右欄中。 它允許對您建立的受眾進行高級分析。
+   觀眾預覽顯示在右欄中。 它允許對您建立的受眾進行匯總分析。
 
    ![](assets/data-preview.png)
 
@@ -78,7 +78,8 @@ ht-degree: 0%
 
 ## 在Experience Platform中使用CJA觀眾
 
-CJA現在將從發佈的受眾獲取所有命名空間和ID組合，並將它們流式傳輸到即時客戶配置檔案(RTCP)中。 然後，RTCP檢查每個命名空間/ID組合，並查找它可能屬於的配置檔案。 配置檔案基本上是連結的命名空間、 ID和設備的群集。 如果找到配置檔案，它將將命名空間和ID作為段成員屬性添加到此配置檔案中的其他ID中。 例如，現在，「user@adobe.com」可以跨所有設備和通道進行目標定位。 如果找不到配置檔案，則會建立新配置檔案。
+
+CJA現在將從發佈的受眾獲取所有命名空間和ID組合，並將它們流式傳輸到即時客戶配置檔案(RTCP)中。 然後，RTCP檢查每個命名空間/ID組合，並查找它可能屬於的配置檔案。 配置檔案基本上是連結的命名空間、 ID和設備的群集。 如果找到配置檔案，它將將命名空間和ID作為段成員屬性添加到此配置檔案中的其他ID中。 現在，例如，「user@adobe.com」可以跨所有設備和通道成為目標。 如果找不到配置檔案，則會建立新配置檔案。
 
 通過轉到 **[!UICONTROL 段]** > **[!UICONTROL 建立段]** > **[!UICONTROL 觀眾]** 頁籤 **[!UICONTROL CJA觀眾]**。
 
