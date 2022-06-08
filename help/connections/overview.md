@@ -4,10 +4,10 @@ description: 了解 Customer Journey Analytics 中的連線。
 solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
-source-git-commit: d437e846e1242f2941b59fcdb712a8a31bedcbcd
-workflow-type: ht
-source-wordcount: '101'
-ht-degree: 100%
+source-git-commit: 82e4629583ef0aadeac098101d7429625470d8b8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +27,7 @@ Adobe Experience Platform：
 * 資料模型製作：檢視結構描述、管理結構描述
 * 資料管理：檢視資料集、管理資料集
 * 資料擷取：管理來源
+* 檢視身分識別命名空間
 
 Customer Journey Analytics
 * 產品管理員存取權
