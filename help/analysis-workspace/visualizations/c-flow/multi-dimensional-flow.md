@@ -3,18 +3,14 @@ description: 維度間流量可讓您檢查多個維度間的用戶路徑。
 title: 維度間流量
 feature: Visualizations
 exl-id: 459166b1-a522-45b6-9d2c-69e3409e442e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '338'
+source-git-commit: a8b59feccfb5bf1656dc3716fa3d022f8f74ee5a
+workflow-type: tm+mt
+source-wordcount: '305'
 ht-degree: 100%
 
 ---
 
 # 維度間流量
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
 維度間流量可讓您檢查多個維度間的用戶路徑。
 
