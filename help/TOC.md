@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: a8b59feccfb5bf1656dc3716fa3d022f8f74ee5a
+source-git-commit: 55be32601ebece4be6f384f4c7a58b3bb29567db
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '642'
 ht-degree: 99%
 
 ---
@@ -162,10 +162,11 @@ ht-degree: 99%
       + [建立註解](components/annotations/create-annotations.md)
       + [管理註解](components/annotations/manage-annotations.md)
       + [檢視註解](components/annotations/view-annotations.md)
+      + [移動記分卡注釋](components/annotations/mobile-annotations.md)
    + 對象 {#audiences}
       + [受眾概述](components/audiences/audiences-overview.md)
-      + [建立和發佈受眾](components/audiences/publish.md)
-      + [管理受眾](components/audiences/manage.md)
+      + [建立及發佈對象](components/audiences/publish.md)
+      + [管理對象](components/audiences/manage.md)
    + 維度 {#dimensions}
       + [預覽維度](components/dimensions/view-dimensions.md)
       + [劃分維度](components/dimensions/t-breakdown-fa.md)
@@ -225,7 +226,7 @@ ht-degree: 99%
    + [將 Google Analytics 資料擷取至 Adobe Experience Platform](use-cases/ga-to-cja.md)
    + [報告 CJA 中的 Google Analytics 資料](use-cases/ga-to-cja-reporting.md)
 + Labs {#labs}
-   + [Labs 使用指南](labs/labs.md)
+   + [Labs 使用手冊](labs/labs.md)
 + 疑難排解 {#troubleshooting}
    + [將您的 Adobe Analytics 資料與 CJA 資料進行比較](troubleshooting/compare.md)
 + 隱私權 {#cja-privacy}

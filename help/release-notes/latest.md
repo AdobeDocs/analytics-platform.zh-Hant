@@ -3,31 +3,28 @@ title: 檢視目前的 Customer Journey Analytics 版本注意事項
 description: 最新 CJA 版本注意事項
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 23258f85ae62375f498d7ac3a7ee24cc139a22a8
+source-git-commit: 74c93b9327b1c7081c461187d53b1b27a686cfdd
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '211'
+ht-degree: 16%
 
 ---
 
-# 目前的 Customer Journey Analytics (CJA) 發行說明 (2022 年 5 月)
+# 本Customer Journey Analytics(CJA)發行說明（2022年6月）
 
-**上次更新日期**：2022 年 5 月 19 日
+**上次更新**:2022年6月10日
 
 ## 主要功能
 
 | 功能 | 說明 | [目標日期](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| 新連線編輯和建立 UI | 這個簡化的體驗可讓您在資料集層級回填資料、啟用滾動資料保留時間窗口、在連線中新增及移除資料集。 [了解更多](/help/connections/create-connection.md) | 2022 年 5 月 18 日 |
-| 適用於 CJA 的 Report Builder 更新 | 包含像是排程和資料區塊管理員等功能。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) | 2022 年 5 月 18 日 |
-| Customer AI 整合 | 可讓您在 CJA 中擷取 Customer AI 模型分數，以便在 CJA Analysis Workspace 中進一步分析。 了解更多 - 即將推出 | TBD |
-| Attribution AI 整合 | 可讓您在 CJA 中擷取 Attribution AI 模型分數，以便在 CJA Analysis Workspace 中進一步分析。 了解更多 - 即將推出 | 待定 |
+| 訪問群體發佈到即時客戶配置檔案 | 允許您將在CJA中發現的受眾發佈到AEP/RTCDP ，以便客戶定位和個性化。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=en) | 2022 年 6 月 15 日 |
+| 新建流可視化UI | 為流可視化提供其他功能，使其更強大、更強大。 瞭解詳情（待跟進） | 2022 年 6 月 15 日 |
+| 支援數字欄位作為查找鍵和查找值 | 如果要使用數字欄位（如產品SKU上的COGS或毛利）對字串值進行分類，則此功能非常有用。 允許查找的度量有助於將這些資料點納入報告。 瞭解詳情（待跟進） | 2022 年 6 月 15 日 |
+| CJA分析實驗室 | 支援CJA中的實驗室，以便您可以使用跨通道資料來探索原型。 [了解更多](/help/labs/labs.md) | 2022 年 6 月 15 日 |
+| 共用移動記分卡中的注釋 | 可以顯示在Workspace-Mobile Scorecard中建立的注釋。 這允許您直接在Mobile Scorecard項目中共用上下文資料細微差別和有關您的組織和市場活動的洞見，可在分析儀表板移動應用中查看。 瞭解詳情（待跟進） | 2022 年 6 月 15 日 |
 
 {style=&quot;table-layout:auto&quot;}
-
-### CJA 修正
-
-AN-279234; AN-284839; AN-285417
 
 >[!MORELIKETHIS]
 >[Customer Journey Analytics 文件更新](/help/release-notes/doc-changes.md)
