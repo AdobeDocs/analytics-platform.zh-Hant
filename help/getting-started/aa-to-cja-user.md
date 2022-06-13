@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: c33176b695d5ea3417ff17fe3140589d803472ae
+source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
 workflow-type: tm+mt
 source-wordcount: '1457'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ CJA 中的幾項功能都經過重新命名和重新設計，以符合行業標�
 
 * 你仍然可以利用 [Analysis Workspace](/help/analysis-workspace/home.md) 的強大功能來分析資料。 工作區與傳統 Adobe Analytics 的工作區一樣。
 * 相同版本的 [Adobe Analytics 儀表板](/help/mobile-app/home.md)適用，且在 CJA 和傳統分析之間運作類似。
-* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，並在 MS Windows、iOS 和 Excel 的 Web版本上運行。 (在此版本的 Report Builder 之前，除非在 VMware 上運行，否則無法在 Mac 上使用。) 此版本尚不支援傳統 AA 資料請求。
+* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，並在MS Windows、MacOS和Excel的Web版本上運行。 (在此版本的 Report Builder 之前，除非在 VMware 上運行，否則無法在 Mac 上使用。) 此版本尚不支援傳統 AA 資料請求。
 
 ## 報告的變動
 
@@ -76,9 +76,9 @@ Adobe 已將「區段」部分重新命名為「篩選器」，以更能與行�
 
 除了區段概念有變動，區段容器也已更新。
 
-* **命中容器現在 [!UICONTROL 事件] 容器**。 的 [!UICONTROL 事件] 容器允許您根據單個頁面視圖/點擊數分類訪問者資訊。
-* **訪問容器現在已 [!UICONTROL 會話] 容器**。 「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。
-* **「訪客」容器現在是「[!UICONTROL 人員]」容器**。 的 [!UICONTROL 人員] 容器包括指定時間範圍內訪問者的每個會話和事件。
+* **「點擊」容器現在是「[!UICONTROL 事件]」容器**。 「[!UICONTROL 事件]」容器可讓您根據頁面檢視/點擊來劃分訪客的資料。
+* **「瀏覽」容器現在是「[!UICONTROL 工作階段]」容器**。 「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。
+* **「訪客」容器現在是「[!UICONTROL 人員]」容器**。 「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。
 
 ## 計算量度概念的變動
 
