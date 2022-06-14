@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 source-git-commit: 195a89588d83e27eceb58fec8c66c098f1971250
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -15,28 +15,28 @@ ht-degree: 58%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=zh-Hant) 是 Adobe Experience Platform Intelligent Services 的一部分，它是一種多管道的演算法歸因服務，可計算客戶互動對指定結果的影響和累加影響。 透過 Attribution AI，行銷人員可藉由了解每個客戶在客戶歷程各個階段的互動所產生的影響，以衡量行銷和廣告支出並使其最佳化。
 
-Attribution AI與Customer Journey Analytics(CJA)整合，以使Attribution AI根據客戶的營銷觸點和轉換資料源運行模型。 然後，CJA將這些模型的輸出作為資料集導入，或者它可以與CJA其餘資料集整合。 然後可以在 CJA 中的資料檢視和報告中運用具有 Attribution AI 功能的資料集。
+Attribution AI 會與 Customer Journey Analytics (CJA) 進行某種程度的整合，使 Attribution AI 可針對客戶的行銷接觸點和轉換資料來源執行模型。 然後 CJA 會將這些模型輸出當作資料集匯入，或者可以將其與您的其餘 CJA 資料集整合。 接著就能在 CJA 中的資料檢視和報告中運用具有 Attribution AI 功能的資料集。
 
 Attribution AI 支援 3 個 Experience Platform 結構描述：體驗事件、Adobe Analytics 和取用者體驗事件。
 
-Attribution AI 支援兩種類別的分數：演算法及規則型。 
+Attribution AI 支援兩種類別的分數：演算法及規則型。
 
-## 算法得分
+## 演算法分數
 
 演算法分數包括累加分數和受影響的分數。
 
-* **受影響的分數**&#x200B;會在行銷管道之間分配 100% 的轉換點數。
-* **累加分數**&#x200B;會先考量您即使沒有行銷也能達到的轉換基線。 由於現有的品牌認知度、忠誠度和口碑，此基線取決於 AI 對模式、季節性等因素的觀察。 其餘的點數會在行銷管道之間分配。
+* **[!UICONTROL 受影響的]分數**&#x200B;會在行銷管道之間分配 100% 的轉換點數。
+* **[!UICONTROL 累加] 分數**&#x200B;會先考量您即使沒有行銷也能達到的轉換基線。 由於現有的品牌認知度、忠誠度和口碑，此基線取決於 AI 對模式、季節性等因素的觀察。 其餘的點數會在行銷管道之間分配。
 
-## 基於規則的分數
+## 規則型分數
 
-基於規則的分數包括
+規則型分數包括
 
-* **[!UICONTROL 第一次觸摸]** 在「歸因回望」窗口中首次看到的「觸點」，則100%的評分。
-* **[!UICONTROL 上次觸摸]** 將100%的信用授予最近在轉換前發生的「觸點」。
-* **[!UICONTROL 線性]** 在導致轉換的每個觸點上，都給予同等的評價。
-* **[!UICONTROL U形]** 給第一次互動40%的信用，給最後一次互動40%的信用，把剩下的20%分給中間的任何接觸點。 只有單一接觸點的轉換則會獲得 100% 的評分。如果是具有兩個接觸點的轉換，兩者會平均獲得 50% 的評分。
-* **[!UICONTROL 時間衰減]** 以指數衰減，並帶有自定義半衰期參數，其中預設值為7天。 每個管道的權重須視接觸點啟動和最終轉換之間所經過的時間量而定。用於判斷評分的公式為 `2^(-t/halflife)`，`t` 代表接觸點和轉換之間的時間量。所有接觸點隨後都會標準化至 100%。
+* **[!UICONTROL 首次接觸]**&#x200B;會將 100% 的評分給予歸因回顧期間中首個出現的接觸點。
+* **[!UICONTROL 上次接觸]**&#x200B;會將 100% 的評分給予轉換前發生的最近一次接觸點。
+* **[!UICONTROL 線性]**&#x200B;會將相等的評分歸給每個帶來轉換的接觸點。
+* **[!UICONTROL U 形]**&#x200B;會將 40% 的評分給予第一次互動，再將 40% 的評分給予上次互動，剩下的 20% 則分給兩者之間的任何接觸點。 只有單一接觸點的轉換則會獲得 100% 的評分。 如果是具有兩個接觸點的轉換，兩者會平均獲得 50% 的評分。
+* **[!UICONTROL 時間衰減]**&#x200B;會以自訂的半衰期參數 (預設為 7 天) 進行指數耗損。 每個管道的權重須視接觸點啟動和最終轉換之間所經過的時間量而定。 用於判斷評分的公式為 `2^(-t/halflife)`，`t` 代表接觸點和轉換之間的時間量。 所有接觸點隨後都會標準化至 100%。
 
 ## 工作流程
 
@@ -44,13 +44,13 @@ Attribution AI 支援兩種類別的分數：演算法及規則型。
 
 ### 步驟 1：建立 Attribution AI 執行個體
 
-在 Experience Platform 中，藉由選取及對應資料、定義事件及訓練您的資料來建立 Attribution AI 執行個體，如[這裡](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html)所述。
+在 Experience Platform 中，藉由選取及對應資料、定義事件及訓練您的資料來建立 Attribution AI 執行個體，如[這裡](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html?lang=zh-Hant)所述。
 
-![AAI實例](assets/aai-instance.png)
+![AAI 執行個體](assets/aai-instance.png)
 
 ### 步驟 2：設定 CJA 與 Attribution AI 資料集的連線
 
-現在在 CJA 中，您可以[建立一個或多個連線](/help/connections/create-connection.md)來連接已針對 Attribution AI 檢測的 Experience Platform 資料集。 這些資料集以「Attribution AI分數」前置詞顯示，如下所示：
+現在在 CJA 中，您可以[建立一個或多個連線](/help/connections/create-connection.md)來連接已針對 Attribution AI 檢測的 Experience Platform 資料集。 這些資料集出現時會有「Attribution AI 分數」前置詞，如下所示：
 
 ![AAI 分數](assets/aai-scores.png)
 
@@ -60,13 +60,13 @@ Attribution AI 支援兩種類別的分數：演算法及規則型。
 
 在 CJA 中，[建立一個或多個資料檢視](/help/data-views/create-dataview.md)，這些檢視包含 Attribution AI XDM 欄位。 
 
-下面是觸點的XDM架構欄位：
+以下列出接觸點的 XDM 結構描述欄位：
 
-![Touchpoint XDM欄位](assets/touchpoint-fields.png)
+![接觸點 XDM 欄位](assets/touchpoint-fields.png)
 
-下面是要轉換的XDM架構欄位：
+以下列出轉換的 XDM 結構描述欄位：
 
-![轉換XDM欄位](assets/conversion-fields.png)
+![轉換 XDM 欄位](assets/conversion-fields.png)
 
 ### 步驟 4：在 CJA 工作區中報告 AAI 資料
 
@@ -76,41 +76,41 @@ Attribution AI 支援兩種類別的分數：演算法及規則型。
 
 >[!IMPORTANT]
 >
->這些維和度量不是以這種方式本機命名的。 這些是「友好的名字」。 的 [Attribution AI中的命名約定](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=en#attribution-ai-output-data) 遵循架構路徑。 我們建議將長AAI架構路徑名稱更名為CJA中更短、更易用的名稱（維/度量）。 你可以在 **[!UICONTROL 資料視圖]** > **[!UICONTROL 編輯資料視圖]** > **[!UICONTROL 元件]** 頁籤 **[!UICONTROL 架構欄位]** ->按一下架構欄位 — > **[!UICONTROL 元件名稱]**。
+>這些維度和量度在原生上並不是以這種方式命名。 這些都是「易記名稱」。 [Attribution AI 中的命名慣例](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=zh-Hant#attribution-ai-output-data)會依循結構描述路徑。 我們建議您在 CJA 中重新命名長度較長的 AAI 結構描述路徑名稱，改成較短且方便易記的名稱 (維度/量度)。 方法是前往「**[!UICONTROL 資料檢視]** > **[!UICONTROL 編輯資料檢視]** > **[!UICONTROL 元件]** 標籤 > **[!UICONTROL 結構描述欄位]**」-> 按一下「結構描述欄位 -> **[!UICONTROL 元件名稱]**」。
 
-![更改維名稱](assets/change-name.png)
+![變更維度名稱](assets/change-name.png)
 
-**具有影響和增量分數的訂單**
+**包含受影響分數和累加分數的訂單**
 
-以下工作區專案中有 AAI 資料，其中顯示有受影響的分數和累加分數的訂單。深入到任何維，通過以下方式瞭解屬性：市場活動、產品組、用戶段、地理位置等。
+以下工作區專案中有 AAI 資料，其中顯示有受影響的分數和累加分數的訂單。 您可以按照以下項目深入研究以了解歸因：行銷活動、產品群組、使用者區段和地理位置等。
 
 ![AAI 專案](assets/aai-project.png)
 
 ![AAI 專案](assets/aai-project2.png)
 
-**營銷業績**
+**行銷績效**
 
-比較不同屬性模型之間的點屬性對比：
+比較和對比不同歸因模型之間的接觸點歸因：
 
 ![比較](assets/compare.png)
 
-**通道交互**
+**管道互動**
 
-瞭解渠道交互，瞭解哪些渠道可以最有效地與其他渠道配合使用，使用Venn圖：
+透過文氏圖表了解管道互動，以掌握哪些管道搭配使用時成效最佳：
 
-![營銷渠道重疊](assets/mc-overlap.png)
+![行銷管道重疊](assets/mc-overlap.png)
 
-**要轉換的頂部路徑**
+**排名在前的轉換路徑**
 
-下表顯示了轉換（消除重複）的頂部路徑，以幫助您設計和優化觸點：
+此表格列出排名在前的轉換路徑 (已排除重複項目)，可協助您設計和最佳化接觸點：
 
-![頂級頻道](assets/top-channels.png)
+![排名在前的管道](assets/top-channels.png)
 
-**提前期到轉換**
+**轉換前置時間**
 
-在此，我們將看到在混合中使用觸點時轉換的提前期。 它有助於優化提前期：
+此部分提供混合接觸點時的轉換前置時間。 這有助於最佳化前置時間：
 
-![提前期](assets/lead-time.png)
+![前置時間](assets/lead-time.png)
 
 ## Attribution AI 與 Attribution IQ 之間的差異
 
@@ -118,12 +118,12 @@ Attribution AI 支援兩種類別的分數：演算法及規則型。
 
 | 功能 | Attribution AI | Attribution IQ |
 | --- | --- | --- |
-| 增量屬性 | 有 | 無 |
+| 逐量增加歸因 | 有 | 無 |
 | 允許使用者調整模型 | 有 | 有 |
 | 跨管道進行歸因 (注意：AAI 不使用 CJA 所用的相同拼接資料。) | 有 | 有 |
 | 包括受影響的分數 | 有 | 有 |
 | 進行 ML 模型化 | 有 | 有 |
-| 基於區域的歸屬模型 | 有 | 有 |
-| 可在模型中配置市場營銷觸點 | 有 | 無 |
+| 地區型歸因模型 | 有 | 有 |
+| 可設定模型中的行銷接觸點 | 有 | 無 |
 
 {style=&quot;table-layout:auto&quot;}
