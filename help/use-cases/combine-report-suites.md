@@ -1,9 +1,9 @@
 ---
 title: 將報表套件與不同架構組合
 description: 瞭解如何使用資料準備將報告套件與不同架構組合
-source-git-commit: c602ee5567e7ba90d1d302f990cc1d8fc49e5adc
+source-git-commit: 02483345326180a72a71e3fc7c60ba64a5f8a9d6
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
@@ -11,9 +11,9 @@ ht-degree: 3%
 
 # 將報表套件與不同架構組合
 
-的 [分析源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 提供了將Adobe Analytics的報告套件資料帶入Adobe Experience Platform供Real-time Customer Data Platform和Customer Journey Analytics等AEP應用程式使用的方法。 引入AEP的每個報告套件都配置為單個源連接資料流，每個資料流連接都配置為AEP資料湖中的資料集。 分析源連接器為每個報告套件建立一個資料集。
+的 [分析源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 將Adobe Analytics的報告套件資料帶入Adobe Experience Platform(AEP)，供Real-time Customer Data Platform和Customer Journey Analytics(CJA)等AEP應用程式使用。 引入AEP的每個報告套件都配置為單個源連接資料流，每個資料流連接都配置為AEP資料湖中的資料集。 分析源連接器為每個報告套件建立一個資料集。
 
-CJA客戶使用 [連接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) 將AEP資料湖的資料集合到CJA的Analysis Workspace。 但是，在連接中組合報表套件時，需要使用AEP解決報表套件之間的架構差異 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant) 功能，以確保CJA中的Adobe Analytics變數（如props和eVars）具有一致的含義。
+CJA客戶使用 [連接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) 將AEP資料湖的資料集合到CJA的Analysis Workspace。 但是，在連接中組合報表套件時，需要使用AEP解決報表套件之間的架構差異 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant) 功能。 目的是確保道具和eVars等Adobe Analytics變數在《中非合作法》中具有一致的含義。
 
 ## 報告套件之間的架構差異有問題
 
@@ -21,8 +21,8 @@ CJA客戶使用 [連接](https://experienceleague.adobe.com/docs/analytics-platf
 
 | 報告套件A | 報告套件B |
 | --- | --- |
-| eVar1 =>搜索詞 | eVar1 =>業務單位 |
-| eVar2 =>客戶類別 | eVar2 =>搜索詞 |
+| eVar1 =搜索詞 | eVar1 =業務單位 |
+| eVar2 =客戶類別 | eVar2 =搜索詞 |
 
 為了簡單起見，假設這是兩個報告套件唯一定義的eVar。
 
@@ -30,8 +30,8 @@ CJA客戶使用 [連接](https://experienceleague.adobe.com/docs/analytics-platf
 
 - 建立接收的分析源連接（不使用資料準備） **報告套件A** 進入AEP資料湖 **資料集A**。
 - 建立接收的分析源連接（不使用資料準備） **報告套件B** 進入AEP資料湖 **資料集B**。
-- 建立名為 **所有報表套件** 資料集A和資料集B的組合。
-- 建立名為的CJA資料視圖 **全局視圖** 基於「所有報告套件」連接。
+- 建立 [CJA連接](/help/connections/create-connection.md) 調用 **所有報表套件** 資料集A和資料集B的組合。
+- 建立 [CJA資料視圖](/help/data-views/create-dataview.md) 調用 **全局視圖** 基於「所有報告套件」連接。
 
 如果不使用資料準備來解決資料集A和資料集B之間的架構差異，則「全局視圖」資料視圖中的eVars將包含以下值的混合：
 
@@ -48,9 +48,9 @@ CJA客戶使用 [連接](https://experienceleague.adobe.com/docs/analytics-platf
 
 ## 使用AEP資料準備解決報表套件之間的架構差異
 
-AEP的資料準備功能與分析源連接器整合，可用於解決上述方案中描述的架構差異。 這在CJA資料視圖中產生具有一致含義的eVars。 （可以根據您的需要自定義下面使用的命名約定。）
+Experience Platform資料準備功能與分析源連接器整合，可用於解決上述方案中描述的架構差異。 這在CJA資料視圖中產生具有一致含義的eVars。 （可以根據您的需要自定義下面使用的命名約定。）
 
-1. 在為報表套件A和報表套件B建立源連接資料流之前，請在AEP中建立一個自定義欄位組（我們將調用它） **統一欄位** 在示例中)，其中包含以下欄位：
+1. 在為報表套件A和報表套件B建立源連接資料流之前， [建立自定義欄位組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail.) 在AEP(我們叫它 **統一欄位** 在示例中)，其中包含以下欄位：
 
    | &quot;統一欄位&quot;自定義欄位組  |
    | --- |
@@ -58,7 +58,7 @@ AEP的資料準備功能與分析源連接器整合，可用於解決上述方�
    | 業務單位 |
    | 客戶類別 |
 
-1. 在AEP中建立新架構(我們將稱其為 **統一架構** 以我們為例。) 將以下欄位組添加到架構：
+1. [建立新架構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) 在AEP(我們叫它 **統一架構** 以我們為例。) 將以下欄位組添加到架構：
 
    | 「統一架構」的欄位組 |
    | --- |
@@ -88,7 +88,7 @@ AEP的資料準備功能與分析源連接器整合，可用於解決上述方�
    | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;path>_.業務_單位 |
    | _experience.analytics.customDimensions.eVars.eVar2 | _\&lt;path>_.Search_term |
 
-1. 立即建立 **所有報表套件** 資料集A和資料集B組合。
+1. 現在建立 **所有報表套件** 資料集A和資料集B組合。
 
 1. 建立 **全局視圖** 資料視圖。
 
@@ -106,9 +106,9 @@ AEP的資料準備功能與分析源連接器整合，可用於解決上述方�
 
    您現在已將eVar1和eVar2從源報告套件映射到三個新欄位。 請注意，使用資料準備映射的另一個優勢是，目標欄位現在基於語義有意義的名稱（搜索術語、業務單元、客戶類別），而不是意義不大的eVar名稱(eVar1、eVar2)。
 
->[!NOTE]
->
->可隨時將統一欄位自定義欄位組和關聯欄位映射添加到現有分析源連接器資料流和資料集。 但是，這僅影響未來資料。
+   >[!NOTE]
+   >
+   >可隨時將統一欄位自定義欄位組和關聯欄位映射添加到現有分析源連接器資料流和資料集。 但是，這僅影響未來資料。
 
 ## 不只是報告套件
 
