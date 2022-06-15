@@ -4,18 +4,14 @@ title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 4ffe667793d5ba75d3fadcf713244afac0fe8183
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1378'
 ht-degree: 23%
 
 ---
 
 # 設定流量視覺效果
-
->[!NOTE]
->
->此新版本 [!UICONTROL 流] 目前，可視化正在進行有限的測試。
 
 更新後的流可視化功能使您能夠瞭解來自或通向網站或應用程式上特定轉換事件的過程。 它跟蹤通過維（和維項）或度量的路徑。 「流」(Flow)允許您配置您感興趣的路徑的開始或結束，或分析流經維或維項的所有路徑。
 

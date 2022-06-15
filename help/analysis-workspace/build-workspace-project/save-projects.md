@@ -4,9 +4,9 @@ title: 儲存專案
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '461'
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
+workflow-type: tm+mt
+source-wordcount: '453'
 ht-degree: 100%
 
 ---
@@ -55,10 +55,6 @@ Adobe 提供在離開頁面前儲存的選項。離開現有專案後，自動�
 若為從未儲存的&#x200B;**新**&#x200B;專案，未儲存的變更無法復原。
 
 ## 開啟先前版本 {#previous-version}
-
->[!NOTE]
->
->先前專案版本目前為限時提供。
 
 若要開啟專案的先前版本：
 

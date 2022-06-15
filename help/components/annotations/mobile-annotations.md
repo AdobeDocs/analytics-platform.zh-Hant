@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
-source-git-commit: e39f34486e54da188145092921a4ca3aa5f936fb
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 2%
+source-wordcount: '367'
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 1. 建立注釋並確保它已共用到所有項目。 要在工作區中建立注釋，請參見 [建立注釋](create-annotations.md)。
 
-1. 選擇 **顯示批注** 顯示移動記分卡中的注釋。
+1. 選擇 **[!UICONTROL 顯示批注]** 顯示移動記分卡中的注釋。
 
    ![](assets/show-annotations.png)
 
-1. 確認已選擇顯示批注，請轉到 **項目** > **項目資訊和設定**。
+1. 確認已選擇顯示批注，請轉到 **[!UICONTROL 項目]** > **[!UICONTROL 項目資訊和設定]**。
 
    ![](assets/project-info-settings.png)
 
@@ -49,6 +49,6 @@ ht-degree: 2%
 
 | 日期 | 外觀 |
 | --- | --- |
-| **一天** | ![](assets/single-day-mobile-annotations.png)<br></br> |
-| **日期範圍** | ![](assets/date-range.png) |
-| **重疊註解** | ![](assets/overlapping-annotations.png)<br></br>要在分析儀表板應用中查看批注詳細資訊，請點擊批注表徵圖。 <br></br>查看圖表中的注釋時，可以向左和向右輕掃，以導航圖表中存在的所有注釋。 在表中查看注釋時，向左和向右輕掃以導航與表中該行項關聯的所有注釋。 <br></br>![](assets/swipe-multiple-annotations.png) <br></br>在圖表中沒有基於時間的 *x軸*，如圓形或水準條形圖，可通過點擊位於右下角的表徵圖來查看應用於圖表的注釋。<br></br> ![](assets/charts-without-timebase.png) |
+| **[!UICONTROL 單日]y** | ![](assets/single-day-mobile-annotations.png)<br></br> |
+| **[!UICONTROL 日期範圍]** | ![](assets/date-range.png) |
+| **[!UICONTROL 重疊註解]** | ![](assets/overlapping-annotations.png)<br></br>要在分析儀表板應用中查看批注詳細資訊，請點擊批注表徵圖。 <br></br>查看圖表中的注釋時，可以向左和向右輕掃，以導航圖表中存在的所有注釋。 在表中查看注釋時，向左和向右輕掃以導航與表中該行項關聯的所有注釋。 <br></br>![](assets/swipe-multiple-annotations.png) <br></br>在圖表中沒有基於時間的 *x軸*，如圓形或水準條形圖，可通過點擊位於右下角的表徵圖來查看應用於圖表的注釋。<br></br> ![](assets/charts-without-timebase.png) |

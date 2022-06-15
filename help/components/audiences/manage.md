@@ -1,40 +1,39 @@
 ---
-title: 管理在Customer Journey Analytics中建立的受眾
-description: 瞭解如何管理Customer Journey Analytics中的受眾
+title: 在 Customer Journey Analytics 中管理對象
+description: 了解如何在 Customer Journey Analytics 中管理對象
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
-source-git-commit: 71f13c4f7d8ad5682ae0974bca9a0e8fc90acfe4
+source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 7%
+source-wordcount: '276'
+ht-degree: 65%
 
 ---
 
-# 管理在Customer Journey Analytics中建立的受眾
+# 在 Customer Journey Analytics 中管理對象
 
->[!NOTE]
->
->此功能當前位於 [有限測試](/help/release-notes/releases.md)。
+管理先前建立的對象，可讓您
 
-管理以前建立的受眾允許您
-
-* **計畫或取消計畫** 自動訪問群刷新/更新。 計畫的最大期限為1年。
-* **續訂受眾刷新計畫** 即將到期。 過期的受眾會像過期的計畫報告一樣 — 管理員在計畫過期前一個月收到一封電子郵件。
+* 為自動對象重新整理/更新進行&#x200B;**排程或取消排程**。 排程的最長到期時間為 1 年。
+* 在對象重新整理排程快到期時，**續訂對象重新整理排程**。 系統處理即將到期對象的方法與即將到期的排程報告相似，管理員會在排程到期的一個月前收到通知電子郵件。
 * 查看 **刷新間隔** 和 **上次更新受眾時**
-* 深入瞭解 **製作觀眾所花的時間** 從Customer Journey Analytics(CJA)，以及為激活目的在即時客戶配置檔案中顯示受眾所花費的時間。
-* 查看CJA中的觀眾是否 **正被即時客戶配置檔案主動使用** 或（理想情況下）使用CJA建立的受眾的任何Experience Platform應用程式。
+* 深入了解從 Customer Journey Analytics (CJA) **產生對象所需的時間**，以及讓對象出現在即時客戶個人檔案以供啟動所需的時間。
+* 了解 CJA 中的對象是由&#x200B;**即時客戶個人檔案主動使用**，或 (理想上) 是由任何使用 CJA 所建立對象的 Experience Platform 應用程式所使用。
 
-## 管理UI
+## 管理 UI
 
-| UI設定 | 定義 |
+![](assets/manage.png)
+
+| UI 設定 | 定義 |
 | --- | --- |
-| 隱藏/顯示篩選器 | 用於在左滑軌中顯示或隱藏以下濾鏡： <ul><li>資料檢視</li><li>所有者</li><li>重新整理頻率</li><li>標記</li></ul> |
-| [!UICONTROL 標題與說明] | 建立時給受眾的標題和說明。 |
+| 隱藏/顯示篩選器 | 您可以在左側邊欄中顯示或隱藏下列篩選器： <ul><li>[!UICONTROL 資料檢視]</li><li>[!UICONTROL 所有者]</li><li>[!UICONTROL 重新整理頻率]</li><li>[!UICONTROL 標記]</li></ul> |
+| [!UICONTROL 標題和說明] | 建立時給受眾的標題和說明。 |
 | [!UICONTROL 資料檢視] | 建立此受眾的資料視圖。 |
-| [!UICONTROL 對象人數] | 此觀眾中的總人數。 |
+| [!UICONTROL 受眾大小] | 此觀眾中的總人數。 |
 | [!UICONTROL 所有者] | 受眾的所有者 — 建立者。 |
-| [!UICONTROL 刷新頻率] | 建立訪問群體時配置的刷新間隔。 |
+| [!UICONTROL 重新整理頻率] | 建立訪問群體時配置的刷新間隔。 |
 | [!UICONTROL 標記] | 應用於此受眾的任何標籤。 |
-| [!UICONTROL  上次刷新時間] | 觀眾最後一次煥然一新。 |
+| [!UICONTROL 發佈狀態] | 可顯示 [!UICONTROL 就緒]。 [!UICONTROL 正在進行]或 [!UICONTROL 錯誤]。 |
+| [!UICONTROL  上次重新整理時間] | 觀眾最後一次煥然一新。 |
 | [!UICONTROL 上次修改日期] | 上次編輯或修改受眾的時間。 |
 
 {style=&quot;table-layout:auto&quot;}
