@@ -5,8 +5,8 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 4940f26c6c3b0b1f8baf0d715f4190c7f0f40efa
-workflow-type: ht
+source-git-commit: e39f34486e54da188145092921a4ca3aa5f936fb
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 但是，管理員可以透過 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html) 將「[!UICONTROL 註解建立]」權限 (Analytics 工具) 授予使用者。
 
-## 開啟或關閉註解
+## 開啟或關閉註解 {#annotations-on-off}
 
 可在幾個等級開啟或關閉註解：
 

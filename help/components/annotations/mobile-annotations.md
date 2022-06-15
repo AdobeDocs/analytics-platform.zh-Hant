@@ -1,22 +1,19 @@
 ---
-title: '移動記分卡注釋    '
+title: 移動記分卡注釋
 description: 瞭解如何在移動記分卡中顯示批注。
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 20e495040c213c5fff0450cddc1899ce340f785d
+exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
+source-git-commit: e39f34486e54da188145092921a4ca3aa5f936fb
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 3%
+source-wordcount: '366'
+ht-degree: 2%
 
 ---
 
 
 # 在移動記分卡中共用注釋
-
->[!NOTE]
->
->此功能目前在[有限測試](/help/release-notes/releases.md)中。
 
 可以顯示在Workspace-Mobile Scorecard中建立的注釋。 這允許您直接在Mobile Scorecard項目中共用上下文資料細微差別和有關您的組織和市場活動的洞見，可在分析儀表板移動應用中查看。
 
@@ -26,17 +23,17 @@ ht-degree: 3%
 
 有關建立注釋的資訊，請參見 [建立注釋](create-annotations.md)。 預設情況下，在移動記分卡中關閉批注，並且必須為要在移動記分卡中顯示的每個記分卡啟用批注。
 
-1. 開啟注釋。 要開啟注釋，請參閱 [開啟或關閉注釋](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=en#turn-annotations-on-or-off)。
+1. 開啟注釋。 要開啟注釋，請參閱 [開啟或關閉注釋](overview.md#annotations-on-off)。
 
 1. 建立注釋並確保它已共用到所有項目。 要在工作區中建立注釋，請參見 [建立注釋](create-annotations.md)。
 
 1. 選擇 **顯示批注** 顯示移動記分卡中的注釋。
 
-![](assets/show-annotations.png)
+   ![](assets/show-annotations.png)
 
 1. 確認已選擇顯示批注，請轉到 **項目** > **項目資訊和設定**。
 
-![](assets/project-info-settings.png)
+   ![](assets/project-info-settings.png)
 
 ## 查看移動記分卡中的注釋
 
