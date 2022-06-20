@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '1318'
-ht-degree: 100%
+source-git-commit: bad3527384802ace236ca78bce97bf7aac12bcbe
+workflow-type: tm+mt
+source-wordcount: '1330'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,8 @@ ht-degree: 100%
 * 使用[日期準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)功能來對應變數。 假設所有報表套件都使用相同的通用變數設計時，這項功能會使過程更容易些；但，是如果您使用新 Experience Platform [資料準備](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping)功能，則不需要使用這項功能。 這項功能允許您通過變數的對應值 (位於資料流 (或屬性) 級別) 來引用變數。
 
 如果您由於[!UICONTROL 已超出不重複限制]或[!UICONTROL 低流量]問題，而避免使用全域報表套裝，請了解 CJA 沒有[維度上的基數限制](/help/components/dimensions/high-cardinality.md)。它允許顯示和計數任何唯一值。
+
+以下是 [將報表套件與不同架構組合](/help/use-cases/combine-report-suites.md)。
 
 ### 3. (重新) 設定行銷管道 {#marketing-channels}
 
