@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d6b557e90c6f05efed77a77cd5d189241473c7b5
+source-git-commit: cd6f78b2ce40a3368b1e643a60e9f3070dd80c55
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 90%
+source-wordcount: '819'
+ht-degree: 89%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 90%
 
 | 日期 | 更新說明 |
 | --- | --- |
+| 2022 年 6 月 | 關於 [將報表套件與不同架構組合](/help/use-cases/combine-report-suites.md) |
 | 2022 年 6 月 | 關於 [共用移動記分卡中的注釋](/help/components/annotations/mobile-annotations.md) |
 | 2022 年 6 月 | 關於 [CJA中的分析實驗室](/help/labs/labs.md) |
 | 2022 年 6 月 | 新節 [支援數字欄位作為查找鍵和查找值](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric) |
