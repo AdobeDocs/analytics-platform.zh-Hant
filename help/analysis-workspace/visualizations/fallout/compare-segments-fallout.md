@@ -4,18 +4,14 @@ keywords: 流失和篩選器;流失分析中的篩選器;比較流失中的篩�
 title: 在流失分析中套用篩選
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '405'
 ht-degree: 100%
 
 ---
 
 # 在流失分析中套用篩選
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
 您可以從接觸點建立篩選器，將篩選器新增為接觸點，並在 Analysis Workspace 中比較各種篩選器之間的關鍵工作流程。
 

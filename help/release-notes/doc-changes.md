@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cd6f78b2ce40a3368b1e643a60e9f3070dd80c55
+source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 89%
+source-wordcount: '842'
+ht-degree: 85%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 89%
 
 | 日期 | 更新說明 |
 | --- | --- |
+| 2022 年 6 月 | 關於 [虛擬報告環境和沙盒環境](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
+| 2022 年 6 月 | 關於 [比較跨Adobe Analytics和CJA報告功能的資料處理](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) |
 | 2022 年 6 月 | 關於 [將報表套件與不同架構組合](/help/use-cases/combine-report-suites.md) |
 | 2022 年 6 月 | 關於 [共用移動記分卡中的注釋](/help/components/annotations/mobile-annotations.md) |
 | 2022 年 6 月 | 關於 [CJA中的分析實驗室](/help/labs/labs.md) |
@@ -63,7 +65,7 @@ ht-degree: 89%
 | 2020 年 11 月 13 日 | 有關[跨管道分析](/help/connections/cca/overview.md)的新主題，這可讓您為資料集的使用者 ID 重設金鑰，並啟用多個資料集的無縫結合。 |
 | 2020 年 11 月 13 日 | 新增有關[匯入客服中心和 Web 資料](/help/use-cases/call-center.md)的新使用案例。 |
 | 2020 年 11 月 10 日 | 新增有關刪除資料元件對[常見問答集](/help/getting-started/cja-faq.md)之影響的區段。 |
-| 2020 年 11 月 2 日 | [Customer Journey Analytics 功能支援](/help/getting-started/cja-aa.md)頁面的更新。 |
+| 2020 年 11 月 2 日 | [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)頁面的更新。 |
 | 2020 年 11 月 | 新增有關[移除回填限制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data)以完成連線的內容。 |
 | 2020 年 10 月 7 日 | 新增有關[合併事件資料集](/help/connections/combined-dataset.md)的主題。 |
 | 2020 年 9 月 15 日 | 新增有關[資料擷取](/help/use-cases/data-ingestion.md)的主題。 |
@@ -72,7 +74,7 @@ ht-degree: 89%
 | 2020 年 7 月 | 新增有關[使用者 ID 恆等映射選項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)的資訊。 |
 | 2020 年 7 月 | 有關[物件陣列](/help/use-cases/object-arrays.md)或「資料階層」的新主題已新增。 |
 | 2020 年 4 月 14 日 | 對[建立連線](/help/connections/create-connection.md)主題中最新 UI 的更新。 |
-| 2020 年 2 月 27 日 | [Customer Journey Analytics 功能支援](/help/getting-started/cja-aa.md)頁面的更新。 |
+| 2020 年 2 月 27 日 | 更新到 [Customer Journey Analytics功能支援](/help/getting-started/aa-vs-cja/cja-aa.md) |
 | 2019 年 12 月  | CJA 文件的第一份草稿 |
 
 {style=&quot;table-layout:auto&quot;}

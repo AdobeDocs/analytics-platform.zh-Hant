@@ -3,18 +3,14 @@ description: 若要從 Analysis Workspace 下載資料，請複製該資料或�
 title: 下載 PDF 或 CSV 檔案
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1016'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '983'
 ht-degree: 100%
 
 ---
 
 # 下載 PDF 或 CSV 檔案
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
 您有幾個不同的方法可以從 Analysis Workspace 匯出資料，這取決於您想要在工具外分析哪一組資料以及哪些人需要接收該資訊。 匯出的資料可以採用複製的資料、CSV 或 PDF 檔案形式。 如果您想要在檔案中包含視覺效果，PDF 通常是首選，而如果您只想要純文字資料，則 CSV (或複製的資料) 是首選。
 

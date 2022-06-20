@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 243dc9bfcb7dde08e58fa4f8a11c8ec8c1e49de1
+source-git-commit: 58e6453fee6dbb17ab816aee091a228874e797ab
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 97%
+source-wordcount: '666'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,10 @@ ht-degree: 97%
    + [常見問答](getting-started/cja-faq.md)
    + [Adobe Analytics 至 Customer Journey Analytics 的發展進程](getting-started/aa-to-cja.md)
    + [全新 Customer Journey Analytics 使用者使用指南](getting-started/aa-to-cja-user.md)
-   + [Customer Journey Analytics 功能支援](getting-started/cja-aa.md)
+   + [比較Adobe Analytics和Customer Journey Analytics] {#compare-aa-cja}
+      + [Customer Journey Analytics 功能支援](getting-started/aa-vs-cja/cja-aa.md)
+      + [比較跨Adobe Analytics和CJA的資料處理](getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [虛擬報告環境和沙盒環境](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
    + [刪除關聯](getting-started/cja-deletion.md)
    + [CJA 字彙表](getting-started/cja-glossary.md)
 + 連線 {#cja-connections}
@@ -229,6 +232,5 @@ ht-degree: 97%
    + [Labs 使用手冊](labs/labs.md)
 + 疑難排解 {#troubleshooting}
    + [將您的 Adobe Analytics 資料與 CJA 資料進行比較](troubleshooting/compare.md)
-   + [比較跨Adobe Analytics和CJA的資料處理](troubleshooting/data-processing-comparisons.md)
 + 隱私權 {#cja-privacy}
    + [隱私權總覽](privacy/privacy-overview.md)

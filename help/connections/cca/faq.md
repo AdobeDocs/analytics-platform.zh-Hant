@@ -4,10 +4,10 @@ description: 跨管道分析常見問題集
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: de12bb7758904fb471a2da940d5281a5937f7d21
-workflow-type: ht
-source-wordcount: '975'
-ht-degree: 100%
+source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 95%
 
 ---
 
@@ -62,9 +62,9 @@ CJA 中的某些指標與傳統分析中的指標相似，但其他指標則完�
 | ----- | ----- | ----- | ----- |
 | **人物**= 不同的 `Person ID` 計數，其中 `Stitched ID` 被選為 `Person ID`。 在傳統 Adobe Analytics 中，**人物**&#x200B;可能高於或低於&#x200B;**不重複訪客**，取決於拼接過程的結果。 | **人物** = 不同的 `Person ID` 計數，根據選取為 `Person ID` 的欄位而定。 在 Adobe Analytics Connector (ADC) 資料集中，**人物**&#x200B;類似於傳統 Adobe Analytics 中的&#x200B;**不重複訪客**，如果在 CJA 中 `endUserIDs. _experience. aaid.id` 被選為 `Person ID`。  | **不重複訪客** = 不同訪客 ID 的計數。 注意&#x200B;**不重複訪客**&#x200B;可能與不同 **ECID** 的計數不同。 | 請參閱[人物](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=zh-Hant)。 |
 | **工作階段**：根據 CJA 資料檢視中指定的工作階段化設定進行定義。 拼接過程可以將來自多個裝置的各個工作階段合併為單一工作階段。 | **工作階段**：根據 CJA 資料檢視中指定的工作階段化設定進行定義。 | **造訪次數**：請參閱[造訪次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=zh-Hant)。 | **造訪次數**：根據 [CDA 虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=zh-Hant)中指定的工作階段化設定進行定義。  |
-| **事件** = CJA 中拼接資料中的列數。 一般來說，這應該接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。 但是，請注意上面關於具有空白 `Persistent ID` 的列的常見問題解答。 | **事件** = CJA 中未拼接資料中的列數。 一般來說，這應該接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。 但是請注意，如果任何事件在 AEP 資料湖的未拼接資料中具有空白 `Person ID`，在 CJA 中將捨棄 (不包含) 這些事件。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)。 |
+| **事件** = CJA 中拼接資料中的列數。 一般來說，這應該接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。 但是，請注意上面關於具有空白 `Persistent ID` 的列的常見問題解答。 | **事件** = CJA 中未拼接資料中的列數。 一般來說，這應該接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。 但是請注意，如果任何事件在 AEP 資料湖的未拼接資料中具有空白 `Person ID`，在 CJA 中將捨棄 (不包含) 這些事件。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html)。 |
 
-CJA 和傳統 Adobe Analytics 中的其他指標可能類似。 例如，Adobe Analytics [自訂事件](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=zh-Hant)的總計數 (事件 1-100) 在傳統 Adobe Analytics 和 CJA（無論是拼接還是未拼接）中通常應該非常接近。 但是請注意，因為[功能差異](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=zh-Hant)，這可能並不一定都正確，例如 CJA 與傳統 Adobe Analytics 之間的事件重複資料刪除。
+CJA 和傳統 Adobe Analytics 中的其他指標可能類似。 例如，Adobe Analytics的總計 [自定義事件](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=zh-Hant) 在傳統的Adobe Analytics和CJA（無論是縫製還是未縫製）中，1-100通常應非常接近。 但是，請注意，由於 [能力差異](/help/getting-started/aa-vs-cja/cja-aa.md))，例如CJA與傳統Adobe Analytics之間的事件重複資料消除。
 
 ## CCA 可以使用「身分對應」欄位嗎？
 

@@ -3,18 +3,14 @@ title: 參考資料 - 基本函數
 description: 計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1077'
-ht-degree: 100%
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 99%
 
 ---
 
 # 參考資料 - 基本函數
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
 計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
 
@@ -102,7 +98,7 @@ EXP(metric)
 
 ## 乘冪
 
-乘冪運算元
+乘冪運算子
 
 <pre>
 pow(x,y) = x<sup>y</sup> = x*x*x*… (乘以 y 次)
@@ -210,7 +206,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-*如果 *quart* = 0，QUARTILE 會傳回最小值。如果 *quart* = 1，QUARTILE 會傳回第一個四分位數 (第 25 個百分位數)。如果 *quart* = 2，QUARTILE 會傳回第一個四分位數 (第 50 個百分位數)。如果 *quart* = 3，QUARTILE 會傳回第一個四分位數 (第 75 個百分位數)。如果 *quart* = 4，QUARTILE 會傳回最大值。
+&#42;如果 *誇特* = 0,QUARTILE返回最小值。 如果 *quart* = 1，QUARTILE 會傳回第一個四分位數 (第 25 個百分位數)。如果 *quart* = 2，QUARTILE 會傳回第一個四分位數 (第 50 個百分位數)。如果 *quart* = 3，QUARTILE 會傳回第一個四分位數 (第 75 個百分位數)。如果 *quart* = 4，QUARTILE 會傳回最大值。
 
 ## 四捨五入
 

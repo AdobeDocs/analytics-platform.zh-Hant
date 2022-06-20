@@ -3,18 +3,14 @@ description: 了解如何建立專案或視覺效果的分享連結
 keywords: Analysis Workspace 共用
 title: 建立分享連結
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: 8cee89a8ed656ad6376e64c8327aa7c94a937ce9
-workflow-type: ht
-source-wordcount: '327'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '294'
 ht-degree: 100%
 
 ---
 
 # 建立分享連結
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
 Analysis Workspace 提供與您的使用者共用專案的許多方式，包括取得專案連結或專案特定部分的功能。 使用者收到連結後必須先登入 Customer Journey Analytics，才能進入專案。
 

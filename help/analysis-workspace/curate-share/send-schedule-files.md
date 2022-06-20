@@ -3,18 +3,14 @@ description: 您可以組織、共用和排定 PDF/CSV 專案給組織中的收�
 title: 共用功能表
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '195'
+source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+workflow-type: tm+mt
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
 
 # 共用功能表
-
->[!NOTE]
->
->您正在檢視 Customer Journey Analytics 中 Analysis Workspace 的相關文件，其功能集與傳統 Adobe Analytics 中的 [Analysis Workspace 略有不同](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)。[了解更多...](/help/getting-started/cja-aa.md)
 
 您可以在工作區的&#x200B;**「共用」功能表**&#x200B;中，策劃、共用及排定 PDF/CSV 專案給貴組織的收件者。
 
