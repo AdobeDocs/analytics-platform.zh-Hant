@@ -4,10 +4,10 @@ description: 了解您能使用哪些方式將資料內嵌至 Customer Journey A
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
+source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ Customer Journey Analytics 提供多種資料內嵌選項：有些選項能移�
 
 ## 從傳統 Adobe Analytics 內嵌資料
 
-此工作流程利用 Adobe Analytics 資料連接器，視您使用 DTM 或 Launch 作為 Tag Manager 而會有所不同。
+此工作流利用Adobe Analytics源連接器，並根據您是使用DTM還是使用「啟動」作為標籤管理器而有所不同。
 
 ### 透過 Adobe Experience Platform (之前稱之為 [!UICONTROL Launch]) 中的標記
 
@@ -55,4 +55,4 @@ Adobe Experience Platform 將來自多個來源的資料彙集在一起，以協
 
 1. [使用大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 將伺服器端集合資料提交至 Adobe Analytics。它可讓您提交包含事件資料的 CSV 格式檔案。
 1. [建立 Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)，將此消費者資料匯入 Adobe Experience Platform。
-1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=zh-Hant) 建立一或多個[連線](/help/connections/create-connection.md)和[資料檢視](/help/data-views/data-views.md)，以利您掌握跨管道的報表內容。
+1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) 建立一或多個[連線](/help/connections/create-connection.md)和[資料檢視](/help/data-views/data-views.md)，以利您掌握跨管道的報表內容。

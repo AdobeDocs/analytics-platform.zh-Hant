@@ -4,10 +4,10 @@ description: 重新輸入多個資料集的訪客 ID，以彙整訪客。
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 16ebf5672099b0cd0c5e4dafd577f175370fa9b5
-workflow-type: ht
+source-git-commit: 3f20520a2021d9b6066b0492ed11a1a4619ab1d4
+workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 * 不支援您組織中使用的自訂 ID 地圖。
 * 不支援 Adobe Co-op 圖表和私密圖表。
 * 跨管道分析不會以任何方式轉換用於彙整的欄位。以欄位為基礎的彙整使用指定欄位中的值，因為該值存在於資料湖中未彙整的資料集中。彙整程序區分大小寫。例如，如果有時在欄位中出現「Bob」一詞，有時又出現「BOB」一詞，則這些人將被視為兩個不同的人。
-* 由於以欄位為基礎的彙整區分大小寫，因此對於透過 Analytics 資料連接器產生的 Analytics 資料集，Adobe 建議檢閱適用於暫時 ID 欄位的所有 VISTA 規則或處理規則，以確保這些規則不會引入相同 ID 的新形式。例如，您應確保沒有任何 VISTA 或處理規則僅在一部分事件中，將小寫字母引入暫時 ID 欄位。
+* 給定的基於欄位的縫合區分大小寫，對於通過分析源連接器生成的分析資料集，Adobe建議複查應用於瞬時ID欄位的任何VISTA規則或處理規則，以確保這些規則中沒有一個引入相同ID的新形式。 例如，您應確保沒有任何 VISTA 或處理規則僅在一部分事件中，將小寫字母引入暫時 ID 欄位。
 * 以欄位為基礎的彙整不會合併或串連欄位。
 * 暫時 ID 欄位應包含單一 ID 類型 (即來自單一命名空間的 ID)。例如，暫時 ID 欄位不應包含登入 ID 和電子郵件 ID 的組合。
 * 如果針對同一永久 ID 發生了具有相同時間戳記的多個事件，但暫時 ID 欄位中的值不同，則以欄位為基礎的彙整將根據字母順序進行選擇。因此，如果永久 ID A 有兩個具有相同時間戳記的事件，且其中一個事件指定 Bob、另一個事件指定 Ann，則以欄位為基礎的彙整會選擇 Ann。
