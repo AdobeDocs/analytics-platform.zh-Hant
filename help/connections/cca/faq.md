@@ -4,10 +4,10 @@ description: 跨管道分析常見問題集
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
+source-git-commit: f181584603d62b09ebc8538759d47fb1e03b007a
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 95%
+source-wordcount: '966'
+ht-degree: 92%
 
 ---
 
@@ -60,7 +60,7 @@ CJA 中的某些指標與傳統分析中的指標相似，但其他指標則完�
 
 | **CJA 拼接資料** | **CJA 非拼接資料** | **傳統 Adobe Analytics** | **具有 CDA 的 Analytics Ultimate** |
 | ----- | ----- | ----- | ----- |
-| **人物**= 不同的 `Person ID` 計數，其中 `Stitched ID` 被選為 `Person ID`。 在傳統 Adobe Analytics 中，**人物**&#x200B;可能高於或低於&#x200B;**不重複訪客**，取決於拼接過程的結果。 | **人物** = 不同的 `Person ID` 計數，根據選取為 `Person ID` 的欄位而定。 在 Adobe Analytics Connector (ADC) 資料集中，**人物**&#x200B;類似於傳統 Adobe Analytics 中的&#x200B;**不重複訪客**，如果在 CJA 中 `endUserIDs. _experience. aaid.id` 被選為 `Person ID`。  | **不重複訪客** = 不同訪客 ID 的計數。 注意&#x200B;**不重複訪客**&#x200B;可能與不同 **ECID** 的計數不同。 | 請參閱[人物](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=zh-Hant)。 |
+| **人物**= 不同的 `Person ID` 計數，其中 `Stitched ID` 被選為 `Person ID`。 在傳統 Adobe Analytics 中，**人物**&#x200B;可能高於或低於&#x200B;**不重複訪客**，取決於拼接過程的結果。 | **人物** = 不同的 `Person ID` 計數，根據選取為 `Person ID` 的欄位而定。 **人物** 在Adobe源連接器資料集中與 **獨特訪問者** 傳統Adobe Analytics `endUserIDs. _experience. aaid.id` 選擇為 `Person ID` 在CJA中。 | **不重複訪客** = 不同訪客 ID 的計數。 注意&#x200B;**不重複訪客**&#x200B;可能與不同 **ECID** 的計數不同。 | 請參閱[人物](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=zh-Hant)。 |
 | **工作階段**：根據 CJA 資料檢視中指定的工作階段化設定進行定義。 拼接過程可以將來自多個裝置的各個工作階段合併為單一工作階段。 | **工作階段**：根據 CJA 資料檢視中指定的工作階段化設定進行定義。 | **造訪次數**：請參閱[造訪次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=zh-Hant)。 | **造訪次數**：根據 [CDA 虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=zh-Hant)中指定的工作階段化設定進行定義。  |
 | **事件** = CJA 中拼接資料中的列數。 一般來說，這應該接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。 但是，請注意上面關於具有空白 `Persistent ID` 的列的常見問題解答。 | **事件** = CJA 中未拼接資料中的列數。 一般來說，這應該接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。 但是請注意，如果任何事件在 AEP 資料湖的未拼接資料中具有空白 `Person ID`，在 CJA 中將捨棄 (不包含) 這些事件。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html)。 |
 
