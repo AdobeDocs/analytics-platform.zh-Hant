@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9afc0931622509769e53ff5df3ffaa2d99894488
+source-git-commit: be74260829c8e383829a3163e518104d1d0f11e0
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 85%
+source-wordcount: '861'
+ht-degree: 84%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 85%
 
 | 日期 | 更新說明 |
 | --- | --- |
+| 2022 年 6 月 | 關於 [Adobe Analytics處理規則、VISTA和分類與分析源連接器的資料準備](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md) |
 | 2022 年 6 月 | 關於 [虛擬報告環境和沙盒環境](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md) |
 | 2022 年 6 月 | 關於 [比較跨Adobe Analytics和CJA報告功能的資料處理](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) |
 | 2022 年 6 月 | 關於 [將報表套件與不同架構組合](/help/use-cases/combine-report-suites.md) |
