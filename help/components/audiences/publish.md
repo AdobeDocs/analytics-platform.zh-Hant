@@ -2,10 +2,10 @@
 title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 9ff64cb1b30fef5c475ecc6f7d19961144530095
+source-git-commit: 454d931b8c9f9e4e960a01401623bc9eda4e21d8
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 36%
+source-wordcount: '993'
+ht-degree: 34%
 
 ---
 
@@ -74,14 +74,19 @@ ht-degree: 36%
 
 ## 在Experience Platform中使用CJA觀眾
 
+CJA現在將從發佈的受眾獲取所有命名空間和ID組合，並將它們流式傳輸到即時客戶配置檔案(RTCP)中。 CJA將訪問群體發送到Experience Platform，並將主標識設定為配置連接時選擇的作為個人ID的任何內容。
 
-CJA現在將從發佈的受眾獲取所有命名空間和ID組合，並將它們流式傳輸到即時客戶配置檔案(RTCP)中。 然後，RTCP檢查每個命名空間/ID組合，並查找它可能屬於的配置檔案。 配置檔案基本上是連結的命名空間、 ID和設備的群集。 如果找到配置檔案，它將將命名空間和ID作為段成員屬性添加到此配置檔案中的其他ID中。 現在，例如，「user@adobe.com」可以跨所有設備和通道成為目標。 如果找不到配置檔案，則會建立新配置檔案。
+然後，RTCP檢查每個命名空間/ID組合，並查找它可能屬於的配置檔案。 配置檔案基本上是連結的命名空間、 ID和設備的群集。 如果找到配置檔案，它將將命名空間和ID作為段成員屬性添加到此配置檔案中的其他ID中。 現在，例如，「user@adobe.com」可以跨所有設備和通道成為目標。 如果找不到配置檔案，則會建立新配置檔案。
 
 您可以在 Platform 中檢視 CJA 對象，方法是前往「**[!UICONTROL 區段]** > **[!UICONTROL 建立區段]** > **[!UICONTROL 對象]**&#x200B;標籤 > **[!UICONTROL CJA 對象]**」。
 
 您可以將 CJA 對象拖到 AEP 區段的區段定義。
 
 ![](assets/audiences-aep.png)
+
+## 如果用戶不再是CJA中的受眾成員，會發生什麼情況？
+
+在這種情況下，退出事件會從CJA發送到Experience Platform。
 
 ## 後續步驟
 
