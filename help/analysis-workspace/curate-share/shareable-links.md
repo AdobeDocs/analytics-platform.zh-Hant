@@ -4,7 +4,7 @@ keywords: Analysis Workspace 共用
 title: 建立分享連結
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
 ht-degree: 100%
 
