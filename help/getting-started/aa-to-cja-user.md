@@ -36,7 +36,7 @@ CJA 中的幾項功能都經過重新命名和重新設計，以符合行業標�
 
 CJA 從 Adobe Experience Platform 獲取資料。 Experience Platform 可讓您集中並標準化來自任何系統或通道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
 
-Experience Platform 中的客戶資料以資料集形式儲存，資料集含有[結構描述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html)和資料批次。 如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html)。
+Experience Platform 中的客戶資料以資料集形式儲存，資料集含有[結構描述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant)和資料批次。 如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
 
 您的 CJA 管理員會建立至 Experience Platform 內資料集的[連接](/help/connections/create-connection.md)。 然後他們會使用這些連接來建置[資料視圖](/help/data-views/data-views.md)。 資料視圖在概念上與虛擬報告套裝相似，是 CJA 報告的基礎。 由於 Experience Platform 會從是所有報告資料取得來源，因此報告套裝不再以資料容器存在。
 

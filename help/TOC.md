@@ -165,7 +165,7 @@ ht-degree: 94%
       + [建立註解](components/annotations/create-annotations.md)
       + [管理註解](components/annotations/manage-annotations.md)
       + [檢視註解](components/annotations/view-annotations.md)
-      + [移動批注](components/annotations/mobile-annotations.md)
+      + [行動註解](components/annotations/mobile-annotations.md)
    + 對象 {#audiences}
       + [受眾概述](components/audiences/audiences-overview.md)
       + [建立及發佈對象](components/audiences/publish.md)
