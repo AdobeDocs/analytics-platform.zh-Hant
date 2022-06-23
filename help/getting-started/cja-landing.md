@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 11135c695610e8cb477419ed6794483bd201a0ee
+source-git-commit: 85b804d2bb67daf1f69433524d1cd8fab0e4c5d5
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 91%
+source-wordcount: '371'
+ht-degree: 86%
 
 ---
 
@@ -37,7 +37,11 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant"> 常見問答</a> </li> 
    <td colname="col2" valign="top"> <p class="head"><b>版本注意事項</b> </p> 
     <ul> 
-     <li>請參閱最新的 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant" format="https" scope="external">Customer Journey Analytics 發行說明</a>，了解新功能和修正內容。 </li> 
+     <li>請參閱最新的 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant" format="https" scope="external">Customer Journey Analytics 發行說明</a>，了解新功能和修正內容。 </li>
+    <td colname="col2" valign="top"> <p class="head"><b>CJA API</b> </p> 
+    <ul> 
+     <li>全部查看 <a href="https://developer.adobe.com/cja-apis/docs/" format="https" scope="external"> Customer Journey AnalyticsAPI</a>。 </li>
+      <li>查看最新 <a href="https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API" format="https" scope="external"> Customer Journey Analytics報告API</a>。 </li>
     </ul> <p class="head"> <b>Adobe Experience Platform 資源</b> </p> 
     <ul> 
      <li><a href="https://www.adobe.com/tw/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
