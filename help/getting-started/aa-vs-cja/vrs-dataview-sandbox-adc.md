@@ -1,13 +1,13 @@
 ---
 title: 虛擬報告套件、資料視圖、AEP沙箱和分析源連接器
 description: 瞭解虛擬報告環境和沙盒環境。
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
+exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
+source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 9%
 
 ---
-
 
 # 虛擬報告套件、資料視圖、AEP沙箱和分析源連接器
 
@@ -25,7 +25,7 @@ VRS:
 
 * 可以基於Adobe Analytics段。
 * 可以以非破壞性方式應用於歷史資料和新資料。
-* 允許您在Adobe Analytics報告套件頂部建立一個或多個虛擬視圖，供不同業務團隊使用。
+* 允許您在Adobe Analytics報告套件的頂部建立一個或多個虛擬視圖，供不同業務團隊使用。
 * 可用於控制對Adobe Analytics不同用戶的不同類型資料的訪問和管理。
 * 提供可選 [報告時處理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=zh-Hant) Adobe Analytics。 在這種情況下，VRS可用於為「訪問」建立自定義定義。
 * 在報表運行時應用，類似於段評估。 這是 _後_ 資料已經收集並儲存在Adobe Analytics。
