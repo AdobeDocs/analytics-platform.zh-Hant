@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 348f4e8596146f7ff4234535fa76a54f7be33171
+source-git-commit: d4b1d5f784a98c5e14d653d03aec4b811a34462a
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '702'
 ht-degree: 93%
 
 ---
@@ -120,6 +120,11 @@ ht-degree: 93%
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
+      + [「媒體同時檢閱者」面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + 媒體播放時間 {#media-playback-timespent}
+         + [概觀](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [輸入和輸出設定](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+         + [常見問答](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
    + 策劃、共用及排程專案 {#curate-share}
       + [共用功能表](analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](analysis-workspace/curate-share/curate.md)
