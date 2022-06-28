@@ -4,16 +4,16 @@ description: 如何使用和解讀 Analysis Workspace 中「媒體播放時間�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: a9ba9def94a2f156f6d2d8e59c0155a492c3978c
+source-git-commit: 5ae8bf2bfeb3496e4806629618cdc3ce8d3e9b71
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 「媒體播放時間」面板
 
-Media Analytics 客戶可分析所花費的播放時間，以了解發生高峰期同時觀看人數或客戶流失的時間，以針對內容品質和檢視者參與度提供重要解析，並有助於疑難排解或完成數量和規模的相關規劃。
+您可以分析用於瞭解並行性峰值發生在哪裡或下載發生在哪裡的回放時間，從而對內容和查看器項目的質量提供有價值的深入瞭解，並幫助進行故障排除或規劃批量或規模。
 
 在 Analysis Workspace 中，「播放時間」是指在特定時間觀看您的媒體串流所花費的時間，包括暫停、緩衝和開始時間。
 

@@ -4,16 +4,16 @@ description: 如何使用和解讀 Analysis Workspace 中的「媒體同時檢�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: a9ba9def94a2f156f6d2d8e59c0155a492c3978c
+source-git-commit: 5ae8bf2bfeb3496e4806629618cdc3ce8d3e9b71
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 96%
 
 ---
 
-# 媒體同時檢閱者面板
+# 「媒體同時檢閱者」面板
 
-Media Analytics 客戶可分析同時檢閱者，以了解人數高峰或趨勢反轉的時間，以針對內容品質和檢閱者互動提供重要的深入分析，並有助於疑難排解或完成數量和規模的相關規劃。
+您可以分析併發查看器，以瞭解併發性高峰發生的位置或下載發生的位置，從而對內容和查看器的使用質量提供寶貴的見解，並幫助進行故障排除或規劃以確定卷或規模。
 
 在 Analysis Workspace 中，「媒體同時檢閱者」是指在特定時間檢視您媒體串流的訪客數量 (不重複計算)，不考量工作階段數量。
 
