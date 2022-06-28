@@ -3,8 +3,7 @@ title: 媒體播放時間常見問答
 description: 什麼是媒體播放時間常見問答？
 feature: Panels
 role: User, Admin
-exl-id: 5778c030-6790-42cb-a0f7-294d896fbbc2
-source-git-commit: a9ba9def94a2f156f6d2d8e59c0155a492c3978c
+source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
