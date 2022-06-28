@@ -2,9 +2,9 @@
 title: AAID、ECID、ACUSTOMID和分析源連接器
 description: 瞭解分析源連接器如何處理Adobe Analytics標識欄位。
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
-source-git-commit: 89fb87653355ffe174d9ad7e19eb5979dd78eaaf
+source-git-commit: 4c9d87b6c6b7859ffac4cd2d26e8c89d12fe1285
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '560'
 ht-degree: 9%
 
 ---
@@ -51,4 +51,6 @@ AACUSTOMID是一個單獨的標識符欄位，根據使用 `s.VisitorID` 分析�
 否則，AAID將標籤為事件的主標識。
 * AACUSTOMID從未標籤為事件的主ID。 但是，如果存在AACUSTOMID，則AAID基於AACUSTOMID，如上所述。
 
-就CJA而言，只有最終用戶決定將主ID用作人員ID時，主ID的定義才重要。 然而，這樣做並非強制性的。 用戶可以選擇其他標識列作為「人員ID」。
+## CJA和主ID
+
+就CJA而言，只有您決定將主ID用作人員ID時，主ID的定義才重要。 然而，這樣做並非強制性的。 您可以選擇其他標識列作為「人員ID」。
