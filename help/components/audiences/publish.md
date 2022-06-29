@@ -2,14 +2,18 @@
 title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 454d931b8c9f9e4e960a01401623bc9eda4e21d8
+source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1000'
 ht-degree: 34%
 
 ---
 
 # 建立及發佈對象
+
+>[!NOTE]
+>
+>此功能目前在[有限測試](/help/release-notes/releases.md)中。
 
 本主題討論如何建立和發佈Customer Journey Analytics(CJA)中標識的受眾 [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant) 在Adobe Experience Platform的客戶定位和個性化。
 

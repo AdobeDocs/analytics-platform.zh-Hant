@@ -2,14 +2,18 @@
 title: CJA 對象發佈總覽
 description: 了解 Customer Journey Analytics 中發佈對象的概念
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 1abc116892405772530e8c254299b40167613656
+source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 77%
+source-wordcount: '355'
+ht-degree: 78%
 
 ---
 
 # CJA 對象發佈總覽
+
+>[!NOTE]
+>
+>此功能目前在[有限測試](/help/release-notes/releases.md)中。
 
 現在，您可以建立並發佈在Customer Journey Analytics(CJA)中發現的受眾 [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant) (RTCP)，用於客戶定位和個性化。
 
