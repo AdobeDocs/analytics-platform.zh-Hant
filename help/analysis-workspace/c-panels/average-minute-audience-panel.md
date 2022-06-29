@@ -4,7 +4,7 @@ description: 如何使用和解讀 Analysis Workspace 中的「媒體平均每�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: a9ba9def94a2f156f6d2d8e59c0155a492c3978c
+source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 
 
 # 「媒體平均每分鐘觀眾數」面板
+
+<!-- THIS FEATURE IS SCHEDULED FOR 2023 -->
 
 Media Analytics 客戶可以使用「平均每分鐘觀眾數」面板來更了解其內容的平均使用量。 「平均每分鐘觀眾數」可比較任何長度或類型的節目。 此外，觀眾也可以比較這個數位「平均每分鐘觀眾數」，或是將其附加到線性電視的平均每分鐘指標。此面板提供較大的彈性來測量自訂時段的平均觀眾數，以及事後更新了持續時間分類時的平均觀眾數。 目前的「平均每分鐘觀眾數」指標只有在處理時有提供持續時間時才有效。
 

@@ -3,14 +3,20 @@ title: 「媒體播放時間」面板的輸入和輸出
 description: 「媒體播放時間」面板的輸入和輸出設定有哪些？
 feature: Panels
 role: User, Admin
-source-git-commit: 9ae083c0e143e25570cc62aa0e7720ce66590161
+exl-id: 4c0380ff-f55c-48a7-a4b2-1a291511e4d9
+source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '552'
 ht-degree: 100%
 
 ---
 
 # 「媒體播放時間」面板的輸入和輸出 {#Inputs-and-outputs}
+
+>[!NOTE]
+>
+>此功能目前在[有限測試](/help/release-notes/releases.md)中。
+
 
 您可使用以下輸入和輸出設定來自訂您的「媒體播放時間」面板。
 
