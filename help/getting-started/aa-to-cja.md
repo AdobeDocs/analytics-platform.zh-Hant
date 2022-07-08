@@ -6,19 +6,19 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 93690a3351f2dca0b3a68e7eea7fb64c581d2d53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1333'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 至 Customer Journey Analytics 的發展進程
 
-隨著您的組織發展為使用 Customer Journey Analytics，請探索這些步驟以準備您的資料，並了解這兩種技術之間的關鍵差異。 本文內容主要針對管理員受眾。
+隨著您的組織發展為使用 Customer Journey Analytics，請探索這些步驟以準備您的資料，並了解這兩種技術之間的關鍵差異。 本文內容主要針對管理員對象。
 
 ## 準備資料
 
-準備您的 Adobe Analytics 資料以無縫移轉到 Customer Journey Analytics，對資料完整性和報告一致性至關重要。
+準備您的 Adobe Analytics 資料以無縫移前往 Customer Journey Analytics，對資料完整性和報告一致性至關重要。
 
 ### 1. 收集身分 {#identities}
 
@@ -34,17 +34,17 @@ ht-degree: 98%
 
 ### 2. 對應變數 {#variables}
 
-將 Adobe Analytics 資料轉換為 Customer Journey Analytics 資料的最直接方法，是使用 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將[全域報表套裝](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)擷取到 Experience Platform。 此連接器會將您的 Adobe Analytics 變數直接對應到 Experience Platform 中的 XDM 結構描述和資料集，這些結構描述和資料集可輕鬆連接到 Customer Journey Analytics。
+將 Adobe Analytics 資料轉換為 Customer Journey Analytics 資料的最直接方法，是使用 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將[全域報告套裝](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)擷取到 Experience Platform。 此連接器會將您的 Adobe Analytics 變數直接對應到 Experience Platform 中的 XDM 結構描述和資料集，這些結構描述和資料集可輕鬆連接到 Customer Journey Analytics。
 
-完整的全域報表套裝並不總能用於實施。如果您計劃將多個報表套件引入 Customer Journey Analytics，則有 2 個選項：
+完整的全域報告套裝並不總能用於實施。如果您計劃將多個報表套件引入 Customer Journey Analytics，則有 2 個選項：
 
-* 提前規劃，使變數在這些報告套件中保持一致。 例如，報表套裝 1 中的 eVar1 可能指向[!UICONTROL 頁面]。報表套裝 2 中的 eVar1 可能指向[!UICONTROL 內部行銷活動]。在將報表套裝引入 CJA 時，這些變數將混合到單一 eVar1 維度中，導致可能的混淆和不準確的報告。
+* 提前規劃，使變數在這些報告套件中保持一致。 例如，報告套裝 1 中的 eVar1 可能指向[!UICONTROL 頁面]。報告套裝 2 中的 eVar1 可能指向[!UICONTROL 內部行銷活動]。在將報告套裝引入 CJA 時，這些變數將混合到單一 eVar1 維度中，導致可能的混淆和不準確的報告。
 
-* 使用[日期準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)功能來對應變數。 假設所有報表套件都使用相同的通用變數設計時，這項功能會使過程更容易些；但，是如果您使用新 Experience Platform [資料準備](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping)功能，則不需要使用這項功能。 這項功能允許您通過變數的對應值 (位於資料流 (或屬性) 級別) 來引用變數。
+* 使用[日期準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)功能來對應變數。 假設所有報表套件都使用相同的通用變數設計時，這項功能會使過程更容易些；但，是如果您使用新 Experience Platform [資料準備](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping)功能，則不需要使用這項功能。 這項功能允許您透過變數的對應值 (位於資料流 (或屬性) 級別) 來引用變數。
 
-如果您由於[!UICONTROL 已超出不重複限制]或[!UICONTROL 低流量]問題，而避免使用全域報表套裝，請了解 CJA 沒有[維度上的基數限制](/help/components/dimensions/high-cardinality.md)。它允許顯示和計數任何唯一值。
+如果您由於[!UICONTROL 已超出不重複限制]或[!UICONTROL 低流量]問題，而避免使用全域報告套裝，請了解 CJA 沒有[維度上的基數限制](/help/components/dimensions/high-cardinality.md)。它允許顯示和計數任何唯一值。
 
-以下是 [將報表套件與不同架構組合](/help/use-cases/combine-report-suites.md)。
+以下是[結合報告套裝與不同的結構描述](/help/use-cases/combine-report-suites.md)的使用案例。
 
 ### 3. (重新) 設定行銷管道 {#marketing-channels}
 
@@ -58,7 +58,7 @@ Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleagu
 
 ### 4. 決定使用 Analytics 來源連接器或 Experience Platform SDK {#connector-vs-sdk}
 
-隨著 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 資料收集的發展，您可能會移轉到 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) 或 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hant) (搭配 Adobe Experience Platform Edge Network)。SDK 的典型實施是將資料傳送到 Adobe Analytics，但直接將資料傳送到 Adobe Experience Platform 的新機會也隨之而來。然後，可將資料擷取到 Customer Journey Analytics，同時保留傳送到 Adobe Analytics 的資料。
+隨著 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 資料收集的發展，您可能會移前往 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) 或 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hant) (搭配 Adobe Experience Platform Edge Network)。SDK 的典型實施是將資料傳送到 Adobe Analytics，但直接將資料傳送到 Adobe Experience Platform 的新機會也隨之而來。然後，可將資料擷取到 Customer Journey Analytics，同時保留傳送到 Adobe Analytics 的資料。
 
 這種方法大幅擴展了資料收集的可能性：欄位數不再有限制，也不再需要將資料元素對應到 Analytics 中的 prop、eVar 和 event 等變數。可以使用不同類型的無限結構描述元素，並使用 CJA [資料檢視](/help/data-views/data-views.md)以多種方式表示它們。當直接傳送到 Adobe Experience Platform 時，資料可用性的速度會加快，因為移除了透過 Adobe Analytics 進行資料處理的時間。
 
@@ -104,7 +104,7 @@ Adobe Analytics 區段 (在 CJA 中稱為[!UICONTROL 篩選器]) 和計算量度
 
 * [將 Adobe Analytics 區段移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
 
-* [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
+* [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=zh-Hant)
 
 ### 其他考量
 
@@ -118,4 +118,4 @@ Adobe Analytics 區段 (在 CJA 中稱為[!UICONTROL 篩選器]) 和計算量度
 
 ## 後續步驟
 
-移轉到 CJA 後，如果您發現任何資料差異，您可以將原始的 Adobe Analytics 資料與現在位於 Customer Journey Analytics 中的 Adobe Analytics 資料進行比較。[了解更多](/help/troubleshooting/compare.md)
+移前往 CJA 後，如果您發現任何資料差異，您可以將原始的 Adobe Analytics 資料與現在位於 Customer Journey Analytics 中的 Adobe Analytics 資料進行比較。[了解更多](/help/troubleshooting/compare.md)
