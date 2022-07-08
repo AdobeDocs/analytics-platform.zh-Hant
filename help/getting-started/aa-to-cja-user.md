@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1457'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 98%
 
 如果您的組織開始使用 Customer Journey Analytics( CJA)，您可能會注意到傳統分析和 CJA 之間的一些相似點和差異。 本頁面旨在說明這些差異，以幫助您的組織適應新的實施和報告工作流程。 本頁面還提供了有關新概念的更多資源，以及進一步的步驟，讓您作為分析師的旅途更輕鬆、更成功。
 
-CJA 中的幾項功能都經過重新命名和重新設計，以符合行業標準。 部分更新用語包括區段、虛擬報表套裝、分類、客戶屬性和容器名稱。 eVars 和 props 的局限性已不復存在，而是支援靈活的自訂維度和量度。
+CJA 中的幾項功能都經過重新命名和重新設計，以符合行業標準。 部分更新用語包括區段、虛擬報告套裝、分類、客戶屬性和容器名稱。 eVars 和 props 的局限性已不復存在，而是支援靈活的自訂維度和量度。
 
 ## 沒有變動的內容
 
 在報告方面，您熟悉的許多內容都沒有改變。
 
-* 你仍然可以利用 [Analysis Workspace](/help/analysis-workspace/home.md) 的強大功能來分析資料。 工作區與傳統 Adobe Analytics 的工作區一樣。
+* 您仍然可以利用 [Analysis Workspace](/help/analysis-workspace/home.md) 的強大功能來分析資料。 工作區與傳統 Adobe Analytics 的工作區一樣。
 * 相同版本的 [Adobe Analytics 儀表板](/help/mobile-app/home.md)適用，且在 CJA 和傳統分析之間運作類似。
-* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，並在MS Windows、MacOS和Excel的Web版本上運行。 (在此版本的 Report Builder 之前，除非在 VMware 上運行，否則無法在 Mac 上使用。) 此版本尚不支援傳統 AA 資料請求。
+* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，並在 MS Windows、MacOS 和 Excel 的 Web版本上執行。 (在此版本的 Report Builder 之前，除非在 VMware 上運行，否則無法在 Mac 上使用。) 此版本尚不支援傳統 AA 資料請求。
 
 ## 報告的變動
 
-您可以存取更多要分析的跨通道資料。 例如，您可以建立一個工作區項目來分析多個通道的效能，前提是這些資料集由您的組織攝取，並包含在 CJA 使用的資料視圖中 (請參閱下面的「資料體系結構的變動」)。
+您可以存取更多要分析的跨通道資料。 例如，您可以建立一個工作區項目來分析多個通道的效能，前提是這些資料集由您的組織攝取，並包含在 CJA 使用的資料檢視中 (請參閱下面的「資料體系結構的變動」)。
 
 ![multi-channel-visualizations](assets/cross-channel.png)
 
@@ -38,27 +38,27 @@ CJA 從 Adobe Experience Platform 獲取資料。 Experience Platform 可讓您�
 
 Experience Platform 中的客戶資料以資料集形式儲存，資料集含有[結構描述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant)和資料批次。 如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
 
-您的 CJA 管理員會建立至 Experience Platform 內資料集的[連接](/help/connections/create-connection.md)。 然後他們會使用這些連接來建置[資料視圖](/help/data-views/data-views.md)。 資料視圖在概念上與虛擬報告套裝相似，是 CJA 報告的基礎。 由於 Experience Platform 會從是所有報告資料取得來源，因此報告套裝不再以資料容器存在。
+您的 CJA 管理員會建立至 Experience Platform 內資料集的[連接](/help/connections/create-connection.md)。 然後他們會使用這些連接來建置[資料檢視](/help/data-views/data-views.md)。 資料檢視在概念上與虛擬報告套裝相似，是 CJA 報告的基礎。 由於 Experience Platform 會從是所有報告資料取得來源，因此報告套裝不再以資料容器存在。
 
-通過連接，分析管理員可以將來自 Adobe Experience Platform 的資料集整合到 CJA 中，包括在以下視頻中：
+透過連接，分析管理員可以將來自 Adobe Experience Platform 的資料集整合到 CJA 中，包括在以下視頻中：
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包括通過 Adobe Analytics 源連接器或 Web SDK 的報告套裝資料。 來自多個報告套裝的現有實現可以組合為 Experience Platform。 基於這些資料集的連接和資料視圖可以合併先前存在於單獨報告套裝中的資料。
+Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包括透過 Adobe Analytics 來源連接器或 Web SDK 的報告套裝資料。 來自多個報告套裝的現有實現可以組合為 Experience Platform。 基於這些資料集的連接和資料檢視可以合併先前存在於單獨報告套裝中的資料。
 
 ## 虛擬報告套裝概念的變動 {#data-views}
 
-[!UICONTROL 資料視圖]運用現有的虛擬報表套裝概念，並將其擴展以[啟用透過連接使資料成為可用的其他控制項](/help/data-views/create-dataview.md)。 這些變動使一般設定 (如時區和工作階段超時間隔) 成為可設定且具有追溯性。 也可以在報告或資料視圖級別上自定義個別變數設定，如屬性和到期。 這些設定為不具損害性且可追溯。
+[!UICONTROL 資料檢視]運用現有的虛擬報告套裝概念，並將其擴展以[啟用透過連接使資料成為可用的其他控制項](/help/data-views/create-dataview.md)。 這些變動使一般設定 (如時區和工作階段超時間隔) 成為可設定且具有追溯性。 也可以在報告或資料檢視級別上自定義個別變數設定，如屬性和到期。 這些設定為不具損害性且可追溯。
 
-請注意，右上方的報告套裝選擇器現在允許您從可用資料視圖中進行選擇：
+請注意，右上方的報告套裝選擇器現在允許您從可用資料檢視中進行選擇：
 
 ![data-view-selector](assets/data-views.png)
 
-參閱[資料視圖的使用案例](/help/data-views/data-views-usecases.md)，了解這個概念的更多資訊。
+參閱[資料檢視的使用案例](/help/data-views/data-views-usecases.md)，了解這個概念的更多資訊。
 
 ## eVars 和 props概念的變動
 
-[!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和[!UICONTROL 事件]概念。 在 Adobe Analytics 中，eVars 和 props 會儲存內容、客戶、活動等的描述。 而事件會計數營收、訂閱或生成的潛在客戶等。 Customer Journey Analytics 保留了這兩種類型的資料，並且您能以相同的方式存取這些資料 — 分別從 Analysis Workspace 的左滑軌、在維度或量度下存取。
+[!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和[!UICONTROL 事件]概念。 在 Adobe Analytics 中，eVars 和 props 會儲存內容、客戶、活動等的描述。 而事件會計數營收、訂閱或產生的潛在客戶等。 Customer Journey Analytics 保留了這兩種類型的資料，並且您能以相同的方式存取這些資料 — 分別從 Analysis Workspace 的左滑軌、在維度或量度下存取。
 
 在 CJA 中，提供無限的結構描述元素，包括維度、量度和清單欄位。 這些元素對應到無限結構描述元素，包括 Experience Platform 中的維度、量度和清單欄位。 在 Adobe Analytics 處理規則後套用的所有瀏覽和屬性設定，現在都會在 Customer Journey Analytics 中在查詢時套用。
 
@@ -88,11 +88,11 @@ Adobe 已將「區段」部分重新命名為「篩選器」，以更能與行�
 
 ## 變數屬性和過期設定的變動
 
-[!UICONTROL Customer Journey Analytics] 在報告時會套用所有變數設定，包括屬性和過期。 這些設定現在位於[資料視圖](/help/data-views/component-settings/persistence.md)中，並且某些變數設定 (如屬性) 可以在工作區專案中變動。
+[!UICONTROL Customer Journey Analytics] 在報告時會套用所有變數設定，包括屬性和過期。 這些設定現在位於[資料檢視](/help/data-views/component-settings/persistence.md)中，並且某些變數設定 (如屬性) 可以在工作區專案中變動。
 
-在相同資料視圖中，相同變數可以有多個版本。 例如，您可以有一個追蹤程式碼維度，該維度會在 30 天後過期，另一個維度會在工作階段結束時過期。  這兩個追蹤程式碼都使用相同的來源資料，但使用不同的屬性設定。
+在相同資料檢視中，相同變數可以有多個版本。 例如，您可以有一個追蹤程式碼維度，該維度會在 30 天後過期，另一個維度會在工作階段結束時過期。  這兩個追蹤程式碼都使用相同的來源資料，但使用不同的屬性設定。
 
-您也可根據相同連接有多個資料視圖。 例如，您可以有一個工作階段超時 30 分鐘的資料視圖，另一個工作時段超時 15 分鐘的資料視圖。 兩個資料視圖都顯示在右上部選擇器中，因此您可以在兩個之間無縫轉換。
+您也可根據相同連接有多個資料檢視。 例如，您可以有一個工作階段超時 30 分鐘的資料檢視，另一個工作時段超時 15 分鐘的資料檢視。 兩個資料檢視都顯示在右上部選擇器中，因此您可以在兩個之間無縫轉換。
 
 ## 分類概念的變動
 
