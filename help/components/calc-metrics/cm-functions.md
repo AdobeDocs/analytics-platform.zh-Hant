@@ -4,9 +4,9 @@ description: 計算量度產生器可讓您套用統計和數學函數，以建�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -206,7 +206,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-&#42;如果 *誇特* = 0,QUARTILE返回最小值。 如果 *quart* = 1，QUARTILE 會傳回第一個四分位數 (第 25 個百分位數)。如果 *quart* = 2，QUARTILE 會傳回第一個四分位數 (第 50 個百分位數)。如果 *quart* = 3，QUARTILE 會傳回第一個四分位數 (第 75 個百分位數)。如果 *quart* = 4，QUARTILE 會傳回最大值。
+&#42;如果 *quart* = 0，QUARTILE 會傳回最小值。 如果 *quart* = 1，QUARTILE 會傳回第一個四分位數 (第 25 個百分位數)。如果 *quart* = 2，QUARTILE 會傳回第一個四分位數 (第 50 個百分位數)。如果 *quart* = 3，QUARTILE 會傳回第一個四分位數 (第 75 個百分位數)。如果 *quart* = 4，QUARTILE 會傳回最大值。
 
 ## 四捨五入
 
