@@ -4,7 +4,7 @@ title: 表格分頁、篩選及分類
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
 ht-degree: 100%
 
@@ -44,5 +44,5 @@ ht-degree: 100%
 
 ![](assets/sort-dimensions.png)
 
-* 向下箭頭會依遞減順序排序，而向上箭頭（預設值）則依遞增順序排序。
+* 向下箭頭會依遞減順序排序，而向上箭頭 (預設值) 則依遞增順序排序。
 * 您可以依字母順序或數值排序維度。例如，您可能在工作流程中有編號的步驟，而且可能想要依步驟編號排序。您可以依日期排序與日期相關的維度。或者，您也可以依字母順序排序資料來源，如上述螢幕擷圖所示。
