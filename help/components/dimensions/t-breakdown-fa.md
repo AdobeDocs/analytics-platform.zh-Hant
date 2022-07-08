@@ -6,9 +6,9 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 98%
 
    ![步驟結果](assets/fa_data_table_actions.png)
 
-   您可以跨所選時段，依維度項目或受眾篩選器來劃分量度。您也可以更深入鑽研至更詳細的層級。
+   您可以跨所選時段，依維度項目或對象篩選器來劃分量度。您也可以更深入鑽研至更詳細的層級。
 
    >[!NOTE]
    >
-   >表格中顯示的劃分數目上限為 200。對於導出故障，此限制會增加。
+   >表格中顯示的劃分數目上限為 200。匯出劃分時，此限制會提高。
 
 **影片：Analysis Workspace 中的維度**
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 
 ![劃分設定](assets/breakdown_settings.png)
 
-這是將歸因模型應用於劃分或編輯劃分時的預期行為：
+這是將歸因模型套用至劃分或編輯劃分時的預期行為：
 
 * 如果在沒有其他歸因時套用歸因，該歸因將套用於整個欄樹。
 
