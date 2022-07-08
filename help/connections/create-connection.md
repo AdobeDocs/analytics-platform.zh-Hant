@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: 31d4faaf14adb7f11f975f77864074cd25a6e3bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2473'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -77,9 +77,9 @@ ht-degree: 92%
    | **[!UICONTROL 結構描述]** | 這是之前在 Adobe Experience Platform 中建立資料集所根據的結構描述。 |
    | **[!UICONTROL 資料集]** | 資料集的名稱。 |
    | **[!UICONTROL 預覽]**：`<dataset name>` | 預覽包含日期、我的 ID 和識別碼等欄的資料集。 |
-   | **[!UICONTROL 移除]** | 您可以刪除或移除資料集並變更人員 ID，而不需要刪除整個連線。 這樣就能減少資料擷取的相關成本，以及重新建立整個連線和相關資料檢視的繁複流程。 |
+   | **[!UICONTROL 移除]** | 您可以刪除或移除資料集並變更人員 ID，而不需要刪除整個連線。 這樣就能減少資料擷取的相關成本，以及重新建立整個連線和相關資料檢視的繁複流量。 |
 
-   {style=&quot;table-layout:auto&quot;&quot;
+   {style=&quot;table-layout:auto&quot;}
 
 ## 連線預覽 {#preview}
 
@@ -105,23 +105,23 @@ ht-degree: 92%
 | **[!UICONTROL 查詢]** | 在事件或設定檔資料中找到值或索引鍵後，可使用此資料進一步查詢。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。 如需範例，請參閱這個[使用案例](/help/use-cases/b2b.md)。 | 不適用 | 除「XDM 個別設定檔」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
 | **[!UICONTROL 設定檔]** | 套用至[!UICONTROL 事件]資料中訪客、使用者或客戶的資料。 例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以「XDM 個別設定檔」類別為基礎的內建或自訂模式。 | 您可以挑選要包含的人員 ID。 在 [!DNL Experience Platform] 中定義的每個資料集，都有各自專屬的一組一或多個已定義的人員 ID，例如 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。<br>![人員 ID ](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報表會反映出這一點。 若要確實合併資料集，您需要使用相同的人員 ID。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
-## 將數字欄位用作查找鍵和查找值 {#numeric}
+## 使用數值欄位做為查閱鍵和查閱值 {#numeric}
 
-如果要向基於字串的鍵欄位添加數字欄位（如成本或邊距），則此功能非常有用。 它允許數字值作為鍵或作為值的查找的一部分。 在查找架構中，您可能具有與產品名稱、銷貨成本、市場活動營銷成本或利潤率相關的數值。 下面是Adobe Experience Platform的一個查找架構示例：
+如果您想將成本或邊界等數值欄位新增到字串鍵欄位，此功能很有用。 它允許數值做為查閱的一部分，當成鍵或值。 在您的查閱結構描述中，您可能會有繫結到 (舉例來說) 您的產品名稱、COGS、行銷活動行銷成本或利潤等的數值。 以下是 Adobe Experience Platform 中的查閱結構描述範例：
 
-![查找架構](assets/schema.png)
+![查閱結構描述](assets/schema.png)
 
-我們現在支援將這些值作為度量或維引入CJA報告。 設定連接並納入查找資料集時，可以編輯資料集以選擇 [!UICONTROL 鍵] 和 [!UICONTROL 匹配密鑰]:
+我們現在支援將這些值當做量度或維度引進 CJA 報告。 當您設定連線並提取查閱資料集時，可以編輯資料集以選取[!UICONTROL 「索引鍵」]和[!UICONTROL 「相符的索引鍵」]：
 
 ![編輯資料集](assets/lookup-dataset.png)
 
-在基於此連接設定資料視圖時，會將數值作為元件添加到資料視圖。 然後，基於此資料視圖的任何項目都可以報告這些數值。
+當您根據此連線設定資料檢視時，您會將數值作為元件新增到資料檢視中。 然後，任何根據此資料檢視的項目都可以報告這些數值。
 
 ## 以「身分對應」作為人員 ID {#id-map}
 
-Customer Journey Analytics支援使用身份圖作為其人員ID。 「標識映射」是一種映射資料結構，允許您上載鍵 — >值對。 索引鍵是身分識別命名空間，值是保存身分識別值的結構。 「身分對應」存在於每個上傳的列/事件，並會相應填入每一列。
+Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身分對應」是一種允許使用者上傳索引鍵 -> 值組的對應資料結構。 索引鍵是身分識別命名空間，值是保存身分識別值的結構。 「身分對應」存在於每個上傳的列/事件，並會相應填入每一列。
 
 只要資料集所使用的結構屬於 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 類別，一律適用「身分對應」。 當您選擇要在 CJA 連線中包含這類資料集，您就可以選擇使用一個欄位作為主要 ID，也可以使用「身分對應」：
 
@@ -134,7 +134,7 @@ Customer Journey Analytics支援使用身份圖作為其人員ID。 「標識映
 | **[!UICONTROL 使用主要 ID 命名空間]** | 這會指示 CJA 在標示 primary=true 屬性的「身分對應」中逐列尋找身分識別，作為該列的人員 ID。 也就是說，這會是在 Experience Platform 中劃分資料的主要索引鍵，也是 CJA 訪客 ID 的主要候選項目 (取決於 CJA 連線的資料集設定方式)。 |
 | **[!UICONTROL 命名空間]** | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant) 的元件，用途是作為身分識別相關內容的指標。 如果您指定命名空間，CJA 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。 請注意，CJA 無法執行涵蓋所有列的完整資料集掃描，據以判斷哪些命名空間實際存在，下拉式清單會列出所有可能的命名空間。 您需知道資料中指定的命名空間，系統無法自動偵測。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ### 「身分對應」邊緣案例 {#id-map-edge}
 
@@ -145,7 +145,7 @@ Customer Journey Analytics支援使用身份圖作為其人員ID。 「標識映
 | **[!UICONTROL 已勾選「使用主要 ID 命名空間」]** | CJA 會捨棄該列。 | 未指定主要 ID，CJA 會捨棄該列。 | 系統會擷取所有命名空間下標示為主要的 ID，彙整成清單，並依字母排序；重新排序後，系統會將第一個命名空間的第一個 ID 視為人員 ID。 | 以標示為主要的單一 ID 作為人員 ID。 | 即使命名空間可能無效 (不在 AEP 中)，CJA 仍會以該命名空間下的主要 ID 作為人員 ID。 |
 | **[!UICONTROL 已選取特定「身分對應」命名空間]** | CJA 會捨棄該列。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 (建立連線時只能選取有效的命名空間，因此不可能使用無效的命名空間/ID 作為人員 ID)。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## 計算每日事件平均數量
 
