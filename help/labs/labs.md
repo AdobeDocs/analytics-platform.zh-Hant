@@ -4,9 +4,9 @@ description: 預覽 Customer Journey Analytics 的原型專案
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -64,10 +64,10 @@ ht-degree: 93%
 
 1. 按一下&#x200B;**[!UICONTROL 「提交」]**&#x200B;即可返回主預覽入口網站。
 
-## CJA實驗室原型
+## CJA Labs 原型
 
-* 自然語言的洞察力生成器：提供在自由形式表中分析的任何資料的自然語言摘要。
-* 可視化推薦程式：建議將與資料很好地匹配的可視化效果。
+* 自然語言洞察產生器：為您在自由表格中分析的任何資料提供自然語言摘要。
+* 視覺效果推薦器：推薦可與您的資料完美配對的視覺效果。
 
 ## 其他資訊
 
