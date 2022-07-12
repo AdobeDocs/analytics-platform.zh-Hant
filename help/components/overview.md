@@ -4,10 +4,10 @@ description: 了解 CJA 提供哪些元件，以及如何在報表中使用這�
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: d75f432d8933e9f6aa735ff9ca3bc12277ee0b0a
+source-git-commit: 434695e87a0b342da9c17c94b93e0253cf1e621e
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 93%
+source-wordcount: '376'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 93%
 您可以管理下列元件：
 
 * [**註解**](/help/components/annotations/overview.md)：將內容相關的資料細微差別和深入解析傳達給您的組織。
-* [**觀眾**](/help/components/audiences/audiences-overview.md):建立和發佈在Customer Journey Analytics(CJA)中發現的訪問群體 [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant) (RTCP)，用於客戶定位和個性化。
 * [**篩選器**](filters/filters-overview.md)：排除部分資料，以聚焦於常見的維度項目
 * [**計算量度**](calc-metrics/calc-metr-overview.md)：將量度和公式作為新元件用於報告中
 * [**日期範圍**](date-ranges/overview.md)：自訂和調整 Analysis Workspace 提供的日期範圍
