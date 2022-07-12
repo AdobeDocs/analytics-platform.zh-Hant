@@ -5,7 +5,7 @@ exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 67%
+ht-degree: 95%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 67%
 | UI 設定 | 定義 |
 | --- | --- |
 | 隱藏/顯示篩選器 | 您可以在左側邊欄中顯示或隱藏下列篩選器： <ul><li>[!UICONTROL 資料檢視]</li><li>[!UICONTROL 所有者]</li><li>[!UICONTROL 重新整理頻率]</li><li>[!UICONTROL 標記]</li></ul> |
-| [!UICONTROL 標題和說明] | 建立時給受眾的標題和說明。 |
-| [!UICONTROL 資料檢視] | 建立此受眾的資料視圖。 |
-| [!UICONTROL 受眾大小] | 此觀眾中的總人數。 |
-| [!UICONTROL 所有者] | 受眾的所有者 — 建立者。 |
-| [!UICONTROL 重新整理頻率] | 建立訪問群體時配置的刷新間隔。 |
-| [!UICONTROL 標記] | 應用於此受眾的任何標籤。 |
-| [!UICONTROL 發佈狀態] | 可顯示 [!UICONTROL 就緒]。 [!UICONTROL 正在進行]或 [!UICONTROL 錯誤]。 |
-| [!UICONTROL  上次重新整理時間] | 觀眾最後一次煥然一新。 |
-| [!UICONTROL 上次修改日期] | 上次編輯或修改受眾的時間。 |
+| [!UICONTROL 標題和說明] | 建立對象時為其提供的標題和說明。 |
+| [!UICONTROL 資料檢視] | 建立此對象的資料檢視。 |
+| [!UICONTROL 對象規模] | 此對象的總人數。 |
+| [!UICONTROL 所有者] | 對象的所有者 - 建立對象的人。 |
+| [!UICONTROL 重新整理頻率] | 建立對象時設定的重新整理間隔。 |
+| [!UICONTROL 標記] | 套用到此對象的任何標記。 |
+| [!UICONTROL 發佈狀態] | 可以顯示[!UICONTROL 「就緒」]、[!UICONTROL 「進行中」]或[!UICONTROL 「錯誤」]。 |
+| [!UICONTROL  上次重新整理時間] | 對象上次重新整理的時間。 |
+| [!UICONTROL 上次修改日期] | 上次編輯或修改對象的時間。 |
 
 {style=&quot;table-layout:auto&quot;}

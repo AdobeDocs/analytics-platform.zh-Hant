@@ -4,8 +4,8 @@ description: 了解關於虛擬報告環境和沙箱環境。
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 source-git-commit: 6603aed778980c37d69843f11f3ee64e64cd13b5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '720'
+ht-degree: 96%
 
 ---
 

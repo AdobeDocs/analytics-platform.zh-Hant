@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: d4b1d5f784a98c5e14d653d03aec4b811a34462a
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 93%
    + [常見問答](getting-started/cja-faq.md)
    + [Adobe Analytics 至 Customer Journey Analytics 的發展進程](getting-started/aa-to-cja.md)
    + [全新 Customer Journey Analytics 使用者使用指南](getting-started/aa-to-cja-user.md)
-   + 比較Adobe Analytics和Customer Journey Analytics {#compare-aa-cja}
+   + 比較 Adobe Analytics 和 Customer Journey Analytics {#compare-aa-cja}
       + [Customer Journey Analytics 功能支援](getting-started/aa-vs-cja/cja-aa.md)
-      + [比較跨Adobe Analytics和CJA的資料處理](getting-started/aa-vs-cja/data-processing-comparisons.md)
-      + [虛擬報告環境和沙盒環境](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
-      + [處理規則、VISTA和分類與資料準備](getting-started/aa-vs-cja/pr-vista-dataprep.md)
+      + [比較 Adobe Analytics 和 CJA 的資料處理](getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [虛擬報告環境和沙箱環境](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
+      + [處理規則、VISTA 和分類與「資料準備」的比較](getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID、ECID、ACUSTOMID和分析源連接器](getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [刪除關聯](getting-started/cja-deletion.md)
    + [CJA 字彙表](getting-started/cja-glossary.md)
@@ -173,7 +173,7 @@ ht-degree: 93%
       + [檢視註解](components/annotations/view-annotations.md)
       + [行動註解](components/annotations/mobile-annotations.md)
    + 對象 {#audiences}
-      + [受眾概述](components/audiences/audiences-overview.md)
+      + [對象概覽](components/audiences/audiences-overview.md)
       + [建立及發佈對象](components/audiences/publish.md)
       + [管理對象](components/audiences/manage.md)
    + 維度 {#dimensions}
@@ -223,12 +223,12 @@ ht-degree: 93%
    + [高階主管使用者快速入門指南](mobile-app/executive.md)
 + 使用案例 {#cja-usecases}
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
-   + [將報表套件與不同架構組合](use-cases/combine-report-suites.md)
+   + [結合報告套裝與不同的結構描述](use-cases/combine-report-suites.md)
    + [使用物件陣列](use-cases/object-arrays.md)
    + [使用繫結維度和量度](use-cases/binding-dimensions-metrics.md)
    + [(B2B) 將帳戶層級資料新增為查詢資料集](use-cases/b2b.md)
    + [將 Marketo Engage 資料擷取至 AEP 和 CJA 報告](use-cases/marketo.md)
-   + [將 AEP 受眾擷取至 CJA](use-cases/ingest-aep-segments.md)
+   + [將 AEP 對象擷取至 CJA](use-cases/ingest-aep-segments.md)
    + [跨管道分析資料](use-cases/cross-channel.md)
    + [匯入客服中心和網頁的資料](use-cases/call-center.md)
    + [資料擷取使用案例](use-cases/data-ingestion.md)

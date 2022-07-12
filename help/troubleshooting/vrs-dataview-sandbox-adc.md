@@ -2,77 +2,77 @@
 source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
 workflow-type: tm+mt
 source-wordcount: '698'
-ht-degree: 9%
+ht-degree: 96%
 
 ---
-# 虛擬報告套件、資料視圖、AEP沙箱和分析源連接器
+# 虛擬報告套裝、資料檢視、AEP 沙箱和 Analytics 來源連接器
 
-Adobe提供了建立虛擬報告環境和沙盒環境的多種方法。 瞭解以下特徵之間的相似性和差異，以及這些特徵與 [分析源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant):
+Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。 了解以下功能之間的異同，以及這些功能與 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)的關係會很有用：
 
-* Adobe Analytics虛擬報告套件
-* CJA資料視圖
-* AEP沙箱
+* Adobe Analytics 虛擬報告套裝
+* CJA 資料檢視
+* AEP 沙箱
 
-## Adobe Analytics虛擬報告套件(VRS)
+## Adobe Analytics 虛擬報告套裝 (VRS)
 
-有關詳細資訊，請參閱： [虛擬報告套件概述](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant)。
+如需詳細資訊，請參閱：[虛擬報告套裝總覽](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant)。
 
-VRS:
+VRS：
 
-* 可以基於Adobe Analytics段。
-* 可以以非破壞性方式應用於歷史資料和新資料。
+* 可以以 Adobe Analytics 區段為基礎。
+* 可以以非破壞性方式同時套用至歷史資料和新資料。
 * 允許您在Adobe Analytics報告套件的頂部建立一個或多個虛擬視圖，供不同業務團隊使用。
-* 可用於控制對Adobe Analytics不同用戶的不同類型資料的訪問和管理。
-* 提供可選 [報告時處理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=zh-Hant) Adobe Analytics。 在這種情況下，VRS可用於為「訪問」建立自定義定義。
-* 在報表運行時應用，類似於段評估。 這是 _後_ 資料已經收集並儲存在Adobe Analytics。
-* 是 [跨設備分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hant) 在Adobe Analytics。
-* 可用的變數數與標準分析報告套件（250個eVars、250個道具、1000個事件）相同，但VRS建立可以限制向用戶暴露的變數。
-* 支援自定義日曆選項。
+* 可用於控制 Adobe Analytics 中不同使用者對不同資料類型的存取和管理。
+* 為 Adobe Analytics 提供選用的[報告時間處理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=zh-Hant)功能。 在這種情況下，可以使用 VRS 為「造訪」建立自訂定義。
+* 在報告執行階段套用，類似於區段評估。 這是在資料收集並儲存在 Adobe Analytics 中&#x200B;_之後_。
+* 對於 Adobe Analytics 中的[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hant)是必要項目。
+* 提供與標準 Analytics 報告套裝相同數量的變數 (250 個 eVar、250 個 prop、1000 個事件)，不過 VRS 組織可以限制向使用者公開哪些變數。
+* 支援自訂行事曆選項。
 
-虛擬報告套件不是：
+虛擬報告套裝不是 (會)：
 
-* 提供將報告套件組合在一起的方法。
-* 可在Adobe AnalyticsData Warehouse購買。
-* 可作為通過分析源連接器將資料流導入AEP的源。 只有完整（非虛擬）報告套件可用於分析源連接器。
+* 提供組合報告套裝的方法。
+* 可用於 Adobe Analytics Data Warehouse。
+* 可用作透過 Analytics 來源連接器進入 AEP 之資料流的來源。 只有完整 (非虛擬) 報告套裝可用於 Analytics 來源連接器。
 
 
-## CJA資料視圖
+## CJA 資料檢視
 
-有關詳細資訊，請參閱： [資料視圖概述](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[資料檢視總覽](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant)。
 
-資料視圖：
+資料檢視：
 
-* 可以基於CJA篩選器。
-* 可以以非破壞性方式應用於歷史資料和新資料。
-* 允許您在CJA連接頂部建立一個或多個虛擬視圖，供不同業務團隊使用。
-* CJA中可以用於控制對不同用戶的不同類型資料的訪問和管理。
-* 為通過CJA連接傳入CJA的資料提供了強大的非破壞性選項。
-* 基於CJA的報告時間處理能力。
-* 允許用戶為「會話」建立自定義定義。
-* 在報表運行時應用，與篩選器評估類似。 這是 _後_ 源連接器(Adobe Analytics或其他)已將資料寫入AEP資料湖中的資料集， _後_ 資料已通過CJA連接被接收到CJA。
-* 允許無限數量的變數，儘管建立可以限制向用戶顯示的變數
-* 允許自定義命名「事件」、「會話」和「人員」容器。
-* 支援自定義日曆選項。
+* 可以以 CJA 篩選器為基礎。
+* 可以以非破壞性方式同時套用至歷史資料和新資料。
+* 可讓您在 CJA 連線之上建立一個或多個虛擬檢視，以供不同的業務團隊使用。
+* 可用於控制 CJA 中不同使用者對不同資料類型的存取和管理。
+* 提供強大的非破壞性選項，用於轉換和增強透過 CJA 連線進入 CJA 的資料。
+* 是根據 CJA 的報告時間處理能力。
+* 允許使用者為「工作階段」建立自訂定義。
+* 在報告執行階段套用，類似於篩選器評估。 這是在來源連接器 (Adobe Analytics 或其他) 將資料寫入 AEP 資料湖的資料集&#x200B;_之後_，以及在透過 CJA 連線將資料擷取到 CJA _之後_。
+* 允許無限數量的變數，不過組織可以限制向使用者公開哪些變數
+* 允許自訂命名事件、工作階段和人員容器。
+* 支援自訂行事曆選項。
 
-資料視圖不：
+資料檢視無法：
 
-* 直接提供一種組合報表套件或其他資料集的方法。 而是在CJA連接中與資料集組合。 來自CJA連接的組合資料可用於基於該連接的所有資料視圖中。
+* 直接提供組合報告套裝或其他資料集的方法。 相反，資料集是在 CJA 連線中組合在一起的。 來自 CJA 連線的組合資料可用於根據該連線的所有資料檢視。
 
-## AEP沙箱
+## AEP 沙箱
 
-有關詳細資訊，請參閱： [沙箱概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
+如需詳細資訊，請參閱：[沙箱總覽](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
 
-AEP沙箱：
+AEP 沙箱：
 
-* 提供一種將單個AEP實例分區為獨立虛擬環境(開發、test、階段、生產等)的方法 幫助開發和發展數字型驗應用。
-* 可以將其視為一個容器，它保存給定環境的所有資料和應用程式。
+* 提供將單一 AEP 執行個體劃分為單獨虛擬環境 (開發、測試、暫存、生產等) 的方法 協助開發和發展數位體驗應用程式。
+* 將其視為一個容器，其中包含特定環境的所有資料和應用程式。
 
-AEP沙箱不：
+AEP 沙箱無法：
 
-* 提供類似於虛擬報告套件、CJA連接或資料視圖的功能。
-* 它自己將報表套件與其他資料集組合在一起。 但是，沙盒中的資料集可以在CJA連接中組合。
+* 提供類似於虛擬報告套裝、CJA 連線或資料檢視的功能。
+* 單獨組合具有或不具有其他資料集的報告套裝。 不過，沙箱中的資料集可以在 CJA 連線中組合。
 
-進一步：
+延伸閱讀：
 
-* 來自不同沙箱的資料不能在CJA中組合。
-* 分析源連接器發送報告套件資料 _入_ 一個特定的沙盒。 每個報告套件都可配置為單個沙箱的源。 查看 [分析源連接器文檔](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) 的子菜單。
+* 來自不同沙箱的資料不能在 CJA 中組合。
+* Analytics 來源連接器會將報告套裝資料傳送&#x200B;_到_&#x200B;特定沙箱。 每個報告套裝都可以設定為單一沙箱的來源。 如需詳細資訊，請參閱 [Analytics 來源連接器文件](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en)。

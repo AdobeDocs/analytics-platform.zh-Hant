@@ -1,161 +1,161 @@
 ---
-title: 將報表套件與不同架構組合
-description: 瞭解如何使用資料準備將報告套件與不同架構組合
+title: 結合報告套裝與不同的結構描述
+description: 了解如何使用「資料準備」來結合報告套裝與不同的結構描述
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
 workflow-type: tm+mt
 source-wordcount: '1335'
-ht-degree: 3%
+ht-degree: 96%
 
 ---
 
-# 將報表套件與不同架構組合
+# 結合報告套裝與不同的結構描述
 
-的 [分析源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 將Adobe Analytics的報告套件資料帶入Adobe Experience Platform(AEP)，供Real-time Customer Data Platform和Customer Journey Analytics(CJA)等AEP應用程式使用。 引入AEP的每個報告套件都配置為單個源連接資料流，每個資料流連接都配置為AEP資料湖中的資料集。 分析源連接器為每個報告套件建立一個資料集。
+[Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將來自 Adobe Analytics 的報告套裝資料引入 Adobe Experience Platform (AEP) 以供 AEP 應用程式使用，例如 Real-time Customer Data Platform 和 Customer Journey Analytics (CJA)。 引入 AEP 的每個報告套裝都配置為單獨的來源連線資料流，每個資料流都作為 AEP 資料湖中的資料集。 Analytics 來源連接器會為每個報告套裝各建立一個資料集。
 
-CJA客戶使用 [連接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) 將AEP資料湖的資料集合到CJA的Analysis Workspace。 但是，在連接中組合報表套件時，需要使用AEP解決報表套件之間的架構差異 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant) 功能。 目的是確保道具和eVars等Adobe Analytics變數在《中非合作法》中具有一致的含義。
+CJA 客戶使用[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant)，將來自 AEP 資料湖的資料集整合到 CJA 的 Analysis Workspace 中。 但是，在連線中組合報告套裝時，需要使用 AEP 的[「資料準備」](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)功能解決報告套裝之間的結構描述差異。 目的是確保 Adobe Analytics 變數 (如 prop 和 eVar) 在 CJA 中具有一致的意義。
 
-## 報告套件之間的架構差異有問題
+## 報告套裝之間的結構描述差異有問題
 
-假設您的公司要將來自兩個不同報表套件的資料帶入AEP供CJA使用，並假設兩個報表套件的架構有差異：
+假設您的公司想要將來自兩個不同報告套裝的資料引入 AEP 以供 CJA 使用，並假設兩個報告套裝的結構描述有所差異：
 
-| 報告套件A | 報告套件B |
+| 報告套裝 A | 報告套裝 B |
 | --- | --- |
-| eVar1 =搜索詞 | eVar1 =業務單位 |
-| eVar2 =客戶類別 | eVar2 =搜索詞 |
+| eVar1 = 搜尋字詞 | eVar1 = 事業單位 |
+| eVar2 = 客戶類別 | eVar2 = 搜尋字詞 |
 
-為了簡單起見，假設這是兩個報告套件唯一定義的eVar。
+為了簡單起見，假設兩個報告套裝僅定義了這些 eVar。
 
-此外，假定您執行以下操作：
+此外，假設您執行下列動作：
 
-- 建立接收的分析源連接（不使用資料準備） **報告套件A** 進入AEP資料湖 **資料集A**。
-- 建立接收的分析源連接（不使用資料準備） **報告套件B** 進入AEP資料湖 **資料集B**。
-- 建立 [CJA連接](/help/connections/create-connection.md) 調用 **所有報表套件** 資料集A和資料集B的組合。
-- 建立 [CJA資料視圖](/help/data-views/create-dataview.md) 調用 **全局視圖** 基於「所有報告套件」連接。
+- 建立 Analytics 來源連線 (不使用資料準備)，將&#x200B;**報告套裝 A** 擷取至 AEP 資料湖，做為&#x200B;**資料集 A**。
+- 建立 Analytics 來源連線 (不使用資料準備)，將&#x200B;**報告套裝 B** 擷取至 AEP 資料湖，做為&#x200B;**資料集 B**。
+- 建立名為&#x200B;**「所有報告套裝」**&#x200B;的 [CJA 連線](/help/connections/create-connection.md)，結合了資料集 A 和資料集 B。
+- 建立名為&#x200B;**「全域檢視」**，根據「所有報告套裝」連線的 [CJA 資料檢視](/help/data-views/create-dataview.md)。
 
-如果不使用資料準備來解決資料集A和資料集B之間的架構差異，則「全局視圖」資料視圖中的eVars將包含以下值的混合：
+如果不使用「資料準備」來解決資料集 A 和資料集 B 之間的結構描述差異，則「全域檢視」資料檢視中的 eVar 將包含混合值：
 
-| CJA中的全局視圖資料視圖 |
+| CJA 中的「全域檢視」資料檢視 |
 | --- |
-| eVar1 =>搜索詞和業務單元的組合 |
-| eVar2 =>客戶類別和搜索條款的組合 |
+| eVar1 => 混合搜尋字詞和業務單位 |
+| eVar2 => 混合客戶類別和搜尋字詞 |
 
-這種情況導致對eVar1和eVar2提出毫無意義的報告：
+這種情況會產生無意義的 eVar1 和 eVar2 報告：
 
-- eVar欄位包含具有不同語義含義的值的混合。
-- 搜索項在eVar1和eVar2之間分發。
-- 不可能對搜索條款、業務單位和客戶類別中的每個使用不同的屬性模型。
+- eVar 欄位包含具有不同語義意義的混合值。
+- 搜尋字詞分佈在 eVar1 和 eVar2 之間。
+- 不可能對每個搜尋字詞、業務單位和客戶類別使用不同的歸因模型。
 
-## 使用AEP資料準備解決報表套件之間的架構差異
+## 使用「AEP 資料準備」解決報告套裝之間的結構描述差異
 
-Experience Platform資料準備功能與分析源連接器整合，可用於解決上述方案中描述的架構差異。 這在CJA資料視圖中產生具有一致含義的eVars。 （可以根據您的需要自定義下面使用的命名約定。）
+Experience Platform 資料準備功能與 Analytics 來源連接器整合，可用於解決上述場景中說明的結構描述差異。 這會產生在 CJA 資料檢視中具有一致意義的 eVar。 (下面使用的命名慣例，可以根據您的需求加以自訂。)
 
-1. 在為報表套件A和報表套件B建立源連接資料流之前， [建立新架構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) 在AEP(我們叫它 **統一架構** 以我們為例。) 將以下內容添加到架構：
+1. 在為報告套裝 A 和報告套裝 B 建立源連線資料流之前，先在 AEP 中[建立新的結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant) (在我們的範例中將其稱為&#x200B;**「統一結構描述」**。) 將以下內容新增到結構描述中：
 
-   | &quot;統一架構&quot; |
+   | 「統一結構描述」 |
    | --- |
-   | **XDM體驗事件** 類 |
-   | **Adobe Analytics體驗事件模板** 欄位組 |
+   | **XDM ExperienceEvent** 類別 |
+   | **「Adobe Analytics ExperienceEvent 範本」**&#x200B;欄位群組 |
 
-1. 將另一個欄位組添加到架構或 [建立自定義欄位組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail) 並將其添加到架構中。 我們將建立一個新的欄位組並將其命名為 **統一欄位**。 然後，我們將將以下欄位添加到新欄位組：
+1. 將另一個欄位群組新增到結構描述或[建立自訂欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail)並將其新增到結構描述。 我們將建立一個新的欄位群組，並將其稱為&#x200B;**「統一欄位」**。 然後我們將以下欄位新增到新的欄位群組中：
 
-   | &quot;統一欄位&quot;自定義欄位組  |
+   | 「統一欄位」自訂欄位群組  |
    | --- |
    | 搜尋字詞 |
-   | 業務單位 |
+   | 事業單位 |
    | 客戶類別 |
 
-1. 為建立源連接資料流 **報告套件A**，選擇 **統一架構** 用於資料流。 按如下方式將自定義映射添加到資料流：
+1. 為&#x200B;**報告套裝 A** 建立來源連線資料流，選取&#x200B;**「統一結構描述」**&#x200B;用於資料流中。 將自訂對應新增到資料流，如下所示：
 
-   | 報表套件A源欄位 | 「統一欄位」欄位組中的目標欄位 |
+   | 報告套裝 A 來源欄位 | 「統一欄位」欄位群組中的目的地欄位 |
    | --- | --- |
-   | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;path>_.Search_term |
-   | \_experience.analytics.customDimensions.eVars.eVar2 | _\&lt;path>_.Customer_category |
+   | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;路徑>_.Search_term |
+   | \_experience.analytics.customDimensions.eVars.eVar2 | _\&lt;路徑>_.Customer_category |
 
    >[!NOTE]
    >
-   >目標欄位的XDM路徑將取決於您如何構建自定義欄位組。
+   >目的地欄位的 XDM 路徑將取決於您如何建構自訂欄位群組。
 
-1. 為建立源連接資料流 **報告套件B**，再次選擇 **統一架構** 用於資料流。 工作流將顯示兩個欄位存在描述符名稱衝突。 這是因為，在報告套件B中，eVar1和eVar2的描述符與在報告套件A中的描述符不同。但我們已經知道了這一點，因此我們可以安全地忽略衝突並使用自定義映射，如下所示：
+1. 為&#x200B;**報告套裝 B** 建立來源連線資料流，再次選取&#x200B;**「統一結構描述」**&#x200B;以用於資料流中。 工作流程會顯示兩個欄位存在描述項名稱衝突。 這是因為報告套裝 B 中的 eVar1 和 eVar2 描述項與報告套裝 A 中的不同。但我們已經知道這一點，所以我們可以放心地忽略衝突，並使用自訂對應，如下所示：
 
-   | 報表套件B源欄位 | 「統一欄位」欄位組中的目標欄位 |
+   | 報告套裝 B 來源欄位 | 「統一欄位」欄位群組中的目的地欄位 |
    |---|---|
-   | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;path>_.業務_單位 |
-   | _experience.analytics.customDimensions.eVars.eVar2 | _\&lt;path>_.Search_term |
+   | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;路徑>_.Business_unit |
+   | _experience.analytics.customDimensions.eVars.eVar2 | _\&lt;路徑>_.Search_term |
 
-1. 現在建立 **所有報表套件** 資料集A和資料集B組合。
+1. 現在為 CJA 建立&#x200B;**「所有報告套裝」**&#x200B;連線，結合資料集 A 和資料集 B。
 
-1. 建立 **全局視圖** 資料視圖。 忽略原始eVar欄位，並僅包括「統一欄位」欄位組中的欄位。
+1. 在 CJA 中建立&#x200B;**「全域檢視」**&#x200B;資料檢視。 忽略原始 eVar 欄位，僅包括「統一欄位」欄位群組中的欄位。
 
-   **全局視圖** CJA中的資料視圖：
+   CJA 中的&#x200B;**「全域檢視」**&#x200B;資料檢視：
 
-   | 源欄位 | 是否包括在資料視圖中？ |
+   | 來源欄位 | 包括在資料檢視中？ |
    | --- | --- | 
-   | \_experience.analytics.customDimensions.eVars.eVar1 | 無 |
+   | \_experience.analytics.customDimensions.eVars.eVar1 | 否 |
    | \_experience.analytics.customDimensions.eVars.eVar2 | 無 |
-   | _\&lt;path>_.Search_term | 有 |
-   | _\&lt;path>_.Customer_category  | 有 |
-   | _\&lt;path>_.業務_單位 | 有 |
+   | _\&lt;路徑>_.Search_term | 是 |
+   | _\&lt;路徑>_.Customer_category  | 是 |
+   | _\&lt;路徑>_.Business_unit | 是 |
 
-您現在已將eVar1和eVar2從源報告套件映射到三個新欄位。 請注意，使用資料準備映射的另一個優勢是，目標欄位現在基於語義有意義的名稱（搜索術語、業務單元、客戶類別），而不是意義不大的eVar名稱(eVar1、eVar2)。
+您現在已將來源報告套裝中的 eVar1 和 eVar2 對應到三個新欄位。 請注意，使用「資料準備」對應的另一個優點是，目的地欄位現在是根據語義上有意義的名稱 (搜尋字詞、業務單位、客戶類別)，而不是較無意義的 eVar 名稱 (eVar1、eVar2)。
 
 >[!NOTE]
 >
->可隨時將統一欄位自定義欄位組和關聯欄位映射添加到現有分析源連接器資料流和資料集。 但是，這僅影響未來資料。
+>「統一欄位」自訂欄位群組和關聯的欄位對應可以隨時新增到現有的「Analytics 來源連接器」資料流和資料集。 但是，這只會影響未來的資料。
 
-## 不只是報告套件
+## 不只是報告套裝
 
-Data Prep將資料集與不同架構組合的功能超出了分析報告套件。 假設您有兩個包含以下資料的資料集：
+「資料準備」結合資料集與不同結構描述的能力，超越了 Analytics 報告套裝。 假設您有兩個包含以下資料的資料集：
 
-| 資料集A =通過分析源連接器分析報告套件 |
+| 資料集 A = 透過 Analytics 來源連接器的 Analytics 報告套裝 |
 | --- |
-| `eVar1` =>客戶類別 |
+| `eVar1` => 客戶類別 |
 
-| 資料集B =呼叫中心資料 |
+| 資料集 B = 呼叫中心資料 |
 | --- |
-| Some_field =>客戶類別 |
+| Some_field => 客戶類別 |
 
-使用資料準備，您可以將分析資料中eVar1中的客戶類別與呼叫中心資料中Some_field中的客戶類別組合。 你可以這樣做。 同樣，可以根據您的需要更改命名約定。
+使用「資料準備」，您可以將 Analytics 資料中 eVar 1 的「客戶類別」結合呼叫中心資料中 Some_field 的「客戶類別」。 以下是可行方法之一。 同樣地，您可以根據需求更改命名慣例。
 
-1. 在AEP中建立架構。 將以下內容添加到架構：
+1. 在 AEP 中建立結構描述。 將以下內容新增到結構描述中：
 
-   | &quot;擴展架構&quot; |
+   | 「擴充型結構描述」 |
    | --- | 
-   | **XDM體驗事件** 類 |
-   | **Adobe Analytics體驗活動模板** 欄位組 |
+   | **「XDM 體驗事件」**&#x200B;類別 |
+   | **「Adobe Analytics 體驗事件範本」**&#x200B;欄位群組 |
 
-1. 建立新欄位組並將其添加到架構。 將欄位添加到欄位組：
+1. 建立一個新的欄位群組，並將其新增到結構描述。 新增欄位到欄位群組：
 
-   | 「客戶資訊」自定義欄位組  |
+   | 「客戶資訊」自訂欄位群組  |
    | --- |
-   | 客戶類別 |
+   | Customer_category |
 
-1. 為建立資料流 **資料集A**，選擇 **擴展架構** 作為架構。 按如下方式將自定義映射添加到資料流：
+1. 為&#x200B;**資料集 A** 建立資料流，選取&#x200B;**「擴充型結構描述」**&#x200B;做為您的結構描述。 將自訂對應新增到資料流，如下所示：
 
-   | 資料集A源欄位 | 「客戶資訊」欄位組中的目標欄位 |
+   | 資料集 A 來源欄位 | 「客戶資訊」欄位群組中的目的地欄位 |
    | --- | --- |
-   | \_experience.analytics.customDimensions.eVars.eVar2 | _\&lt;path>_.Customer_category |
+   | \_experience.analytics.customDimensions.eVars.eVar2 | _\&lt;路徑>_.Customer_category |
 
-1. 為建立資料流 **資料集B**，再次選擇 **擴展架構** 作為架構。 按如下方式將自定義映射添加到資料流：
+1. 為&#x200B;**資料集 B** 建立資料流，再次選取&#x200B;**「擴充型結構描述」**&#x200B;做為您的結構描述。 將自訂對應新增到資料流，如下所示：
 
-   | 資料集B源欄位 | 「客戶資訊」欄位組中的目標欄位 |
+   | 資料集 B 來源欄位 | 「客戶資訊」欄位群組中的目的地欄位 |
    | --- | --- |
-   | _\&lt;path>_.Some_field | _\&lt;path>_.Customer_category |
+   | _\&lt;路徑>_.Some_field | _\&lt;路徑>_.Customer_category |
 
-1. 建立組合了資料集A和資料集B的CJA連接。
+1. 建立結合了資料集 A 和資料集 B 的 CJA 連線。
 
-1. 使用剛建立的CJA連接在CJA中建立資料視圖。 忽略原始eVar欄位，並僅包括「客戶資訊」欄位組中的欄位。
+1. 使用您剛剛建立的 CJA 連線，在 CJA 中建立資料檢視。 忽略原始 eVar 欄位，僅包括「客戶資訊」欄位群組中的欄位。
 
-   CJA中的資料視圖：
+   CJA 中的資料檢視：
 
-   | 源欄位 | 是否包括在資料視圖中？ |
+   | 來源欄位 | 包括在資料檢視中？ |
    |---|---|
-   | \_experience.analytics.customDimensions.eVars.eVar1 | 無 |
-   | \_experience.analytics.customDimensions.eVars.eVar2 | 無 |
-   | _\&lt;path>_.Customer_category | 有 |
+   | \_experience.analytics.customDimensions.eVars.eVar1 | 否 |
+   | \_experience.analytics.customDimensions.eVars.eVar2 | 否 |
+   | _\&lt;路徑>_.Customer_category | 是 |
 
-## 資料準備與元件ID
+## 「資料準備」與「元件 ID」的比較
 
-如上所述，Data Prep允許您跨多個Adobe Analytics報告套件將不同的欄位映射在一起。 在CJA中，如果要將來自多個資料集的資料合併到單個CJA連接中，這將很有幫助。 但是，如果您打算將報告套件保留在單獨的CJA連接中，但希望跨這些連接和資料視圖使用一組報告，則更改CJA中的基礎元件ID提供了使報告相容的方法，即使架構不同。 請參閱 [元件設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=en) 的子菜單。
+如上所述，「資料準備」可讓您將不同的欄位對應到多個 Adobe Analytics 報告套裝中。 當您想要將來自多個資料集的資料組合到單一 CJA 連線時，這在 CJA 中很有用。 但是，如果您打算將報告套件保留在單獨的CJA連接中，但希望跨這些連接和資料視圖使用一組報告，則更改CJA中的基礎元件ID提供了使報告相容的方法，即使架構不同。 如需詳細資訊，請參閱[元件設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=zh-Hant)。
 
-更改元件ID是僅CJA功能，不會影響從分析源連接器發送到即時客戶配置檔案和RTCDP的資料。
+變更「元件 ID」是僅限 CJA 的功能，不會影響從 Analytics 來源連接器傳送到「即時客戶個人檔案」和 RTCDP 的資料。
