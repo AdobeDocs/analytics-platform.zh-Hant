@@ -49,7 +49,7 @@ ht-degree: 100%
    | [!UICONTROL 篩選器] | 篩選器是對象的主要輸入項目。 可最多新增 20 個篩選器。 這些篩選器可以加入 `And` 或 `Or` 運算子。 |
    | [!UICONTROL 檢視範例 ID] | 此對象中的範例 ID。 使用搜尋列來搜尋範例 ID。 |
 
-   {style=&quot;table-layout:auto&quot;&quot;
+   &lbrace;style=&quot;table-layout:auto&quot;&quot;
 
 1. 解讀資料預覽。
 
@@ -68,7 +68,7 @@ ht-degree: 100%
    | [!UICONTROL 包含的命名空間] | 與對象中的人員相關聯的特定命名空間。 範例包括 ECID、CRM ID、電子郵件地址等。 |
    | [!UICONTROL 沙箱] | 此對象所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。 當您將此對象發佈到 Platform 時，您只能在此沙箱的範圍內使用它。 |
 
-   {style=&quot;table-layout:auto&quot;&quot;
+   &lbrace;style=&quot;table-layout:auto&quot;&quot;
 
 1. 仔細檢查您的對象組態，然後按一下&#x200B;**[!UICONTROL 「發佈」]**。
 

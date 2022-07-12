@@ -32,7 +32,7 @@ ht-degree: 100%
 | 計算量度 | 評估客戶建立的自訂量度，這些量度可以根據複雜的公式，包括區段和篩選器。 | 範例：買紅鞋子的人數。 |
 | 歸因邏輯 | 計算歸因的邏輯。 | 範例：eVar 持續性。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 長期下來，Adobe Analytics 和現在的 Customer Journey Analytics 允許在報告執行階段執行造訪和訪客層級的資料邏輯，因此提高了靈活性。
 
@@ -51,4 +51,4 @@ Adobe Analytics 和 CJA 執行的資料處理步驟以及這些步驟的使用�
 | AEP 資料湖中的 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)型資料集 | <ul><li>處理規則</li><li>VISTA 規則</li><li>點擊層級行銷頻道規則</li><li>欄位式拚接 (請見附註)</li></ul> |  | <ul><li>[造訪層級行銷頻道規則](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en)</li><li>造訪邏輯</li><li>歸因邏輯</li><li>篩選器邏輯</li></ul> | <ul><li>必須套用您自己的篩選器邏輯和計算量度</li><li>除了由 Analytics 來源連接器建立的資料集之外，欄位式拚接還會建立一個單獨的拼接資料集。</li></ul> |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hant) 報告 | <ul><li>處理規則</li><li>VISTA 規則</li><li>點擊層級[行銷頻道規則](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en)</li><li>[連線設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant)</li><li>欄位式拚接 (請見附註)</li></ul> | <ul><li>工作階段定義</li><li>[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant)設定</li><li>歸因邏輯</li><li>計算量度</li><li>篩選器邏輯</li></ul> | <ul><li>造訪層級行銷頻道規則</li></ul> | <ul><li>必須使用拼接資料集，才能利用欄位式拚接。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style="table-layout:auto"}
