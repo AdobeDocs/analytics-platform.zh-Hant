@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 159e24bb2a0dc40463679a6a672af773e8ce101f
+source-git-commit: 70df0ae886508b703d0b87d3608b75f21d7952a6
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '863'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 97%
 | 2022 年 6 月 | 新增 [CJA 中的 Analytics Labs](/help/labs/labs.md) 的文章 |
 | 2022 年 6 月 | 新增[支援數值欄位做為查閱鍵和查閱值](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric)的區段 |
 | 2022 年 6 月 | 更新[流量視覺效果工作流程](/help/analysis-workspace/visualizations/c-flow/create-flow.md) |
-| 2022 年 6 月 | 新增[將對象發佈到即時客戶個人檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html)的文件 |
 | 2022 年 5 月 | 有關在 CJA 中[建立連線](/help/connections/create-connection.md)的文章推出重大更新。 |
 | 2022 年 5 月 | 有關如何[在 CJA Report Builder 中管理資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=zh-Hant)的新文章 |
 | 2022 年 5 月 | 有關[將 Adobe Experience Platform 對象帶進 CJA](/help/use-cases/ingest-aep-segments.md) 的新文章 |
