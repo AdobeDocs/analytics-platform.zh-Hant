@@ -52,7 +52,7 @@ ht-degree: 100%
 | 虛擬報告套裝 | 完整支援；現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | VRS 元件策劃 | 完整支援；現在是資料檢視的一部分。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 支援警告功能
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 | 專案共用 | 專案共用功能僅支援在 CJA 的使用者之間使用 - CJA 與傳統 Analysis Workspace 之間不支援專案共用。 |
 | 視覺效果 | 支援所有視覺效果，但地圖視覺效果除外。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style="table-layout:auto"}
 
 ## 部分支援
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 | 處理規則 | 對於以 Analytics 來源連接器為基礎的資料集，仍會套用處理規則。 [Adobe Experience Platform 中的資料準備功能](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)也可用來取代直接送到 Platform 的資料適用的處理規則。 |
 | 串流 Media Analytics | 媒體資料是 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)的一部分。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style="table-layout:auto"}
 
 ## 目前不支援，但已列入規劃
 
@@ -99,7 +99,7 @@ ht-degree: 100%
 | 區段 IQ | 已規劃提供支援。 |
 | 新的與重複工作階段報告 | 已規劃提供支援，但有一些考量。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style="table-layout:auto"}
 
 ## 尚未規劃提供支援
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 | 摘要資料來源 | 尚未規劃提供支援。 |
 | 交易 ID 資料來源 | 尚未規劃提供支援。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style="table-layout:auto"}
 
 ## 永遠不提供支援
 
