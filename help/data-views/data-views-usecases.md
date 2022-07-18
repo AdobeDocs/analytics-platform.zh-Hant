@@ -4,10 +4,10 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: f698b236ec37439b1edf7c28497baa8330b05015
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 78%
+source-wordcount: '1085'
+ht-degree: 69%
 
 ---
 
@@ -85,7 +85,7 @@ f. 指定「50」當做值。
 
 有關其他資料檢視設定的詳細資訊，請參閱「[建立資料檢視](/help/data-views/create-dataview.md)」。有關資料檢視的概念性概觀，請參閱「[資料檢視概觀](/help/data-views/data-views.md)」。
 
-## 新會話與重複會話報告 {#new-repeat}
+## 7。新會話與重複會話報告 {#new-repeat}
 
 您可以根據為此資料視圖定義的報告窗口和13個月的回望窗口來確定某個會話是否確實是用戶的第一個會話。 此報告允許您確定，例如：
 
@@ -95,9 +95,9 @@ f. 指定「50」當做值。
 
 三個構成部分促進了此報告：
 
-* 1維：新會話與返回會話
+* 1維： [會話類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional)  — 此維有兩個值：1) [!UICONTROL 新建] 和2) [!UICONTROL 返回]。 的 [!UICONTROL 新建] 行項目包括已確定為人員定義的第一個會話的會話中的所有行為（即針對此維的度量）。 其他所有內容都包含在 [!UICONTROL 返回] 行項目（假定所有內容都屬於會話）。 如果度量不是任何會話的一部分，則它們會落入此維的「不適用」儲存段。
 
-* 2個指標：新會話，返回會話
+* 2個指標： [新會話，返回會話](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional)。 新會話定義為報告窗口內人員定義的第一個會話。 返回會話是不是個人第一次會話的會話數。
 
 要訪問這些元件：
 
@@ -107,7 +107,7 @@ f. 指定「50」當做值。
 
 九成五至九成機會，新會期的報導會準確無誤。 唯一的例外是：
 
-* 在13個月回望窗口之前發生會話時。 將忽略此會話。
+* 在13個月回望窗口之前發生第一個會話時。 將忽略此會話。
 
 * 當會話同時跨越回望窗口和報告窗口時。 比方說你在2022年6月1日到6月15日發佈報告。 回望窗口將涵蓋2021年5月1日至2022年5月31日。 如果會話將於2022年5月30日開始，於2022年6月1日結束，因為該會話包含在回望窗口中，則報告窗口中的所有會話都被計算為返回會話。
 

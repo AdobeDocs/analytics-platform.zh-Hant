@@ -4,7 +4,7 @@ description: 您可以新增到任何資料檢視的所有標準元件的詳細�
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dcea640e4784cf7fc2609cf9f3d5852a5d0553f5
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 89%
@@ -48,9 +48,9 @@ CJA 中的大多數維度和量度都根據 Adobe Experience Platform 資料集�
 | [!UICONTROL 日期] | 時間分段維度 | 1-31 |
 | [!UICONTROL 星期] | 時間分段維度 | 星期一、星期二、星期三、星期四、星期五、星期六、星期日 |
 | [!UICONTROL 一年當中的第幾天] | 時間分段維度 | 1-366 |
-| [!UICONTROL 第一次會話] | 量度 | 在報告窗口中定義的人員的第一個會話 |
 | [!UICONTROL 小時] | 時間分段維度 | 0-23 |
 | [!UICONTROL  月份] | 時間分段維度 | 1 月至 12 月 |
+| [!UICONTROL 新會話] | 量度 | 在報告窗口中定義的人員的第一個會話 |
 | [!UICONTROL 人員 ID] | 維度 | 在 Experience Platform 中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。 其中任何一個都可當作人員 ID 使用。 範例包括 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。「[!UICONTROL 人員 ID]」維度是 CJA 中結合資料集和識別不重複訪客的基礎。<p>可能的使用案例包含：<ul><li>在特定人員 ID 值上建立篩選器，以篩選下至該用戶行為的一切。</li><li>偵錯：確定有特定 Cookie ID (或特定客戶 ID) 的資料。</li><li>識別致電呼叫中心的用戶。</li></ul> |
 | [!UICONTROL 人員 ID 命名空間] | 維度 | 組成[!UICONTROL 人員 ID] 的 ID 類型。範例：`email address`、`cookie ID`、`Analytics ID` 等。 |
 | [!UICONTROL 季別] | 時間分段維度 | 第 1 季、第 2 季、第 3 季、第 4 季 |

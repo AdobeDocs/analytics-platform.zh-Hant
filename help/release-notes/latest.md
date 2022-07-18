@@ -3,9 +3,9 @@ title: 檢視目前的 Customer Journey Analytics 版本注意事項
 description: 最新 CJA 版本注意事項
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 0111cf5c9eaef92377a4d90b81e58c2a0432b074
+source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '217'
 ht-degree: 44%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 44%
 
 | 功能 | 說明 | [目標日期](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- |
-| 第一個會話報告與重複會話報告 | 現在，您可以發現特定會話是否是用戶首次會話。 [瞭解更多資訊 — 要遵循] | 2022年7月20日 |
+| 第一個會話報告與重複會話報告 | 現在，您可以發現特定會話是否是用戶首次會話。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) | 2022年7月20日 |
 | 支援數值欄位做為查閱鍵和查閱值 | 如果您想使用數值欄位 (例如產品 SKU 上的 COGS 或利潤) 對字串值進行分類，這很有用。 允許來自查閱的量度可協助您將這些資料點納入報告中。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric) | 2022年7月20日 |
 
 ## 修正
