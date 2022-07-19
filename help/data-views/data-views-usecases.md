@@ -4,9 +4,9 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: d642b17baa93c3b3533a7e1b4fb966cb66f22173
+source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1092'
 ht-degree: 69%
 
 ---
@@ -86,6 +86,10 @@ f. 指定「50」當做值。
 有關其他資料檢視設定的詳細資訊，請參閱「[建立資料檢視](/help/data-views/create-dataview.md)」。有關資料檢視的概念性概觀，請參閱「[資料檢視概觀](/help/data-views/data-views.md)」。
 
 ## 7。新會話與重複會話報告 {#new-repeat}
+
+>[!NOTE]
+>
+>此功能目前正在進行有限測試。
 
 您可以根據為此資料視圖定義的報告窗口和13個月的回望窗口來確定某個會話是否確實是用戶的第一個會話。 此報告允許您確定，例如：
 
