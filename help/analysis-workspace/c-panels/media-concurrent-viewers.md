@@ -4,19 +4,14 @@ description: 如何使用和解讀 Analysis Workspace 中的「媒體同時檢�
 feature: Panels
 role: User, Admin
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
-source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
+source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1010'
 ht-degree: 96%
 
 ---
 
 # 「媒體同時檢閱者」面板
-
->[!NOTE]
->
->此功能目前在[有限測試](/help/release-notes/releases.md)中。
-
 
 您可以分析併發查看器，以瞭解併發性高峰發生的位置或下載發生的位置，從而對內容和查看器的使用質量提供寶貴的見解，並幫助進行故障排除或規劃以確定卷或規模。
 

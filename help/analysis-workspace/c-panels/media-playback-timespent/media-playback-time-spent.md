@@ -4,19 +4,14 @@ description: 如何使用和解讀 Analysis Workspace 中「媒體播放時間�
 feature: Panels
 role: User, Admin
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
-source-git-commit: db48638cc1e22ca4e555a8981e0f5175d52970f2
+source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '246'
 ht-degree: 84%
 
 ---
 
 # 「媒體播放時間」面板
-
->[!NOTE]
->
->此功能目前在[有限測試](/help/release-notes/releases.md)中。
-
 
 您可以分析用於瞭解並行性峰值發生在哪裡或下載發生在哪裡的回放時間，從而對內容和查看器項目的質量提供有價值的深入瞭解，並幫助進行故障排除或規劃批量或規模。
 
