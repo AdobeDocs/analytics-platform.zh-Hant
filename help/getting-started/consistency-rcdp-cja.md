@@ -1,19 +1,20 @@
 ---
-description: 解釋影響Real-time Customer Data Platform（即時CDP）和CJA之間度量一致性的因素。
-title: 即時CDP和CJA之間度量的一致性
+description: 解釋哪些因素會影響Real-time Customer Data Platform（即時CDP）和CJA之間的指標一致性和受眾成員數量。
+title: 在即時CDP和CJA之間度量和受眾成員數量的一致性
 role: Admin
 feature: CJA Basics
-source-git-commit: 2318b303c981ad556dc61a3419af4cce9fbbf92b
+exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
+source-git-commit: 21d51ababeda7fe188fbd42b57ef3baf76d21774
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '781'
 ht-degree: 2%
 
 ---
 
 
-# 即時CDP和CJA之間度量的一致性
+# 在即時CDP和CJA之間度量和受眾成員數量的一致性
 
-在現實場景中，無法保證跨Real-time Customer Data Platform（即時CDP）和Customer Journey Analytics(CJA)的指標的一致性。 本文檔解釋了原因。
+在現實世界情形中，無法保證跨Real-time Customer Data Platform（即時CDP）和Customer Journey Analytics(CJA)的指標和受眾成員數量的一致性。 本文檔解釋了原因。
 
 ## CJA尚未使用標識圖
 
