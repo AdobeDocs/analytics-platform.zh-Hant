@@ -4,7 +4,7 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: fd403194eed70e1b4a5a63cd02c8a84a11902e1d
+source-git-commit: 3fa65dd46e807041cec1fee64e918aacaa5b7a1b
 workflow-type: tm+mt
 source-wordcount: '2471'
 ht-degree: 99%
@@ -140,7 +140,7 @@ Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身�
 
 下表提供邊緣案例出現時的兩個設定選項及其處理方式：
 
-| 選項 | 「身分對應」中沒有 ID | 沒有 ID 標示為主要 | 多個 ID 標示為主要 | 單個ID，標籤為主ID或未標籤為主ID | 標示為主要的 ID 具有無效的命名空間 |
+| 選項 | 「身分對應」中沒有 ID | 多個ID，沒有標籤為主ID | 多個 ID 標示為主要 | 單個ID，標籤為主ID或未標籤為主ID | 標示為主要的 ID 具有無效的命名空間 |
 |---|---|---|---|---|---|
 | **[!UICONTROL 已勾選「使用主要 ID 命名空間」]** | CJA 會捨棄該列。 | 未指定主要 ID，CJA 會捨棄該列。 | 系統會擷取所有命名空間下標示為主要的 ID，彙整成清單，並依字母排序；重新排序後，系統會將第一個命名空間的第一個 ID 視為人員 ID。 | 單個ID用作人員ID。 | 即使命名空間可能無效 (不在 AEP 中)，CJA 仍會以該命名空間下的主要 ID 作為人員 ID。 |
 | **[!UICONTROL 已選取特定「身分對應」命名空間]** | CJA 會捨棄該列。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 (建立連線時只能選取有效的命名空間，因此不可能使用無效的命名空間/ID 作為人員 ID)。 |
