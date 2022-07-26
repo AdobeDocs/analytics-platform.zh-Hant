@@ -4,9 +4,9 @@ title: 在即時CDP和CJA之間度量和受眾成員數量的一致性
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: cf4e2136f5ab4e0ed702820e52e9a62ea8251860
+source-git-commit: 769eef205df32865874753859ce79e573db40641
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,14 @@ ht-degree: 0%
 
 在現實世界情形中，無法保證跨Real-time Customer Data Platform（即時CDP）和Customer Journey Analytics(CJA)的指標和受眾成員數量的一致性。 本文檔解釋了原因。
 
+在比較即時CDP和CJA之間的受眾成員數時，必須記住這兩種工具的不同用途。 即時CDP使用客戶配置檔案資料將數字型驗瞄準個體消費者，而CJA旨在幫助用戶瞭解關鍵業務指標和細分領域的模式。 雖然從CJA到即時CDP的受眾發佈使這些工具的用戶能夠輕鬆、本地地「激活」洞察力，同時利用CJA中獲得的學習知識，但這些工具的用途卻截然不同。
+
 ## 標識配置的差異
 
 即時CDP和CJA目前對於一個人的定義不同。 即時CDP完全依賴於 [標識圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=en) 建立合併的配置檔案。
 
 CJA可配置為使用 [跨渠道分析](/help/connections/cca/overview.md) 它從資料湖中的資料集中提取標識符，並應用自定義邏輯將它們連結在一起。
+
 未來，CJA將能夠使用身份圖。
 
 ## 資料集配置中的差異
