@@ -4,10 +4,10 @@ description: 了解如何將您的 Adobe Analytics 資料與 Customer Journey An
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '782'
-ht-degree: 100%
+source-git-commit: 718dc00b13ec0a79e122b4a2ca48f4de7643bacb
+workflow-type: tm+mt
+source-wordcount: '825'
+ht-degree: 95%
 
 ---
 
@@ -65,16 +65,18 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
 1. 在 [Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)中，從原始資料中找出 Analytics 來源連接器是否可能已捨棄某些列。
 
-   [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)可能在轉換成 XDM 結構描述期間捨棄多列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會捨棄整列。
+   [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)可能在轉換成 XDM 結構描述期間捨棄多列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會捨棄整列。
 
-   | Analytics 欄位 | 導致其被捨棄的值 |
+   | Analytics 欄位 | 導致刪除行的值 |
    | --- | --- |
-   | Opt_out | `y, Y` |
+   | Opt_out | y,y |
    | In_data_only | Not 0 |
-   | Exclude_hit | Not 0 |
-   | Bot_id | Not 0 |
-   | Hit_source | 0,3,5,7,8,9,10 |
-   | Page_event | 53,63 |
+   | Exclude_hit | 非0 |
+   | Bot_id | 非0 |
+   | Hit_source | 0、3、5、7、8、9、10 |
+   | Page_event | 53、63 |
+
+   有關hit\_source的詳細資訊，請參閱： [資料列引用](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)。 有關頁\_事件的詳細資訊，請參閱： [頁面事件查找](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=en)。
 
 1. 如果連接器捨棄多列，請將這幾列減去[!UICONTROL 發生次數]量度。得到的數字應符合在 Adobe Experience Platform 資料集中的事件數。
 
