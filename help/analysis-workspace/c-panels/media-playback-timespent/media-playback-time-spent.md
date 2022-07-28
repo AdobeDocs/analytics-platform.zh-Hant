@@ -5,15 +5,15 @@ feature: Panels
 role: User, Admin
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 source-git-commit: 9f1394df9b57707d57c701e997df8f4cd70c7baa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # 「媒體播放時間」面板
 
-您可以分析用於瞭解並行性峰值發生在哪裡或下載發生在哪裡的回放時間，從而對內容和查看器項目的質量提供有價值的深入瞭解，並幫助進行故障排除或規劃批量或規模。
+您可以分析所花費的播放時間，以了解發生高峰期同時觀看人數或客戶流失的時間，以針對內容品質和檢視者參與度提供重要解析，並有助於疑難排解或完成數量和規模的相關規劃。
 
 在 Analysis Workspace 中，「播放時間」是指在特定時間觀看您的媒體串流所花費的時間，包括暫停、緩衝和開始時間。
 
