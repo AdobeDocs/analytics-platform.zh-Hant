@@ -3,9 +3,9 @@ title: 結合報告套裝與不同的結構描述
 description: 了解如何使用「資料準備」來結合報告套裝與不同的結構描述
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 source-git-commit: 7c3bbe2829c83406b2e6824e509c34459ae00f94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1335'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -156,6 +156,6 @@ Experience Platform 資料準備功能與 Analytics 來源連接器整合，可�
 
 ## 「資料準備」與「元件 ID」的比較
 
-如上所述，「資料準備」可讓您將不同的欄位對應到多個 Adobe Analytics 報告套裝中。 當您想要將來自多個資料集的資料組合到單一 CJA 連線時，這在 CJA 中很有用。 但是，如果您打算將報告套件保留在單獨的CJA連接中，但希望跨這些連接和資料視圖使用一組報告，則更改CJA中的基礎元件ID提供了使報告相容的方法，即使架構不同。 如需詳細資訊，請參閱[元件設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=zh-Hant)。
+如上所述，「資料準備」可讓您將不同的欄位對應到多個 Adobe Analytics 報告套裝中。 當您想要將來自多個資料集的資料組合到單一 CJA 連線時，這在 CJA 中很有用。 但是，如果您打算將報告套裝保留在單獨的 CJA 連線中，但希望在這些連線和資料檢視中使用一組報告，則變更 CJA 中的基礎「元件 ID」提供了即使結構描述不同，也能讓報告相容的方法。如需詳細資訊，請參閱[元件設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=zh-Hant)。
 
 變更「元件 ID」是僅限 CJA 的功能，不會影響從 Analytics 來源連接器傳送到「即時客戶個人檔案」和 RTCDP 的資料。
