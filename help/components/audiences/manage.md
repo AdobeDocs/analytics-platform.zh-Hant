@@ -3,9 +3,9 @@ title: 在 Customer Journey Analytics 中管理對象
 description: 了解如何在 Customer Journey Analytics 中管理對象
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 * 為自動對象重新整理/更新進行&#x200B;**排程或取消排程**。 排程的最長到期時間為 1 年。
 * 在對象重新整理排程快到期時，**續訂對象重新整理排程**。 系統處理即將到期對象的方法與即將到期的排程報告相似，管理員會在排程到期的一個月前收到通知電子郵件。
-* 查看 **刷新間隔** 和 **上次更新受眾時**
+* 查看&#x200B;**重新整理間隔**&#x200B;和&#x200B;**上次更新對象的時間**
 * 深入了解從 Customer Journey Analytics (CJA) **產生對象所需的時間**，以及讓對象出現在即時客戶個人檔案以供啟動所需的時間。
 * 了解 CJA 中的對象是由&#x200B;**即時客戶個人檔案主動使用**，或 (理想上) 是由任何使用 CJA 所建立對象的 Experience Platform 應用程式所使用。
 
