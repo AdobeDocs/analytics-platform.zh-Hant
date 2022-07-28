@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 8a23ed7ad39497ed3c9d86fac6cf5b38856b2088
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 96%
       + [比較 Adobe Analytics 和 CJA 的資料處理](getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [虛擬報告環境和沙箱環境](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [處理規則、VISTA 和分類與「資料準備」的比較](getting-started/aa-vs-cja/pr-vista-dataprep.md)
-      + [AAID、ECID、ACUSTOMID和分析源連接器](getting-started/aa-vs-cja/aaid-ecid-adc.md)
+      + [AAID、ECID、ACUSTOMID 和分析來源連接器](getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [刪除關聯](getting-started/cja-deletion.md)
    + [CJA 字彙表](getting-started/cja-glossary.md)
 + 連線 {#cja-connections}
