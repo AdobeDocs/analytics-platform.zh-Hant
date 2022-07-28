@@ -4,9 +4,9 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 source-git-commit: 7883726d8055fd5ea161fb4991a17ad579012f28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 | [歸因面板](attribution.md) | 使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模式。 |
 | [自由表格面板](freeform-panel.md) | 執行無限制的比較和劃分，然後新增視覺效果以展現一個有豐富資料的故事。 |
 | [媒體同時檢閱者面板](media-concurrent-viewers.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
-| [「媒體播放時間」面板](media-playback-timespent/media-playback-time-spent.md) | 分析回放所花費的時間，以瞭解出現峰值併發或下降的位置。 |
+| [「媒體播放時間」面板](media-playback-timespent/media-playback-time-spent.md) | 分析播放時間，以了解尖峰同時觀看人數或是下降發生在何處。 |
 
 ![](assets/panel-overview.png)
 
