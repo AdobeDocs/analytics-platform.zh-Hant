@@ -3,9 +3,9 @@ title: 虛擬報告套裝、資料檢視、AEP 沙箱和 Analytics 來源連接�
 description: 了解關於虛擬報告環境和沙箱環境。
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 source-git-commit: 6603aed778980c37d69843f11f3ee64e64cd13b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。 了解以�
 
 * 可以以 Adobe Analytics 區段為基礎。
 * 可以以非破壞性方式同時套用至歷史資料和新資料。
-* 允許您在Adobe Analytics報告套件的頂部建立一個或多個虛擬視圖，供不同業務團隊使用。
+* 可讓您在 Adobe Analytics 報告套裝之上建立一個或多個虛擬檢視，以供不同的業務團隊使用。
 * 可用於控制 Adobe Analytics 中不同使用者對不同資料類型的存取和管理。
 * 為 Adobe Analytics 提供選用的[報告時間處理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=zh-Hant)功能。 在這種情況下，可以使用 VRS 為「造訪」建立自訂定義。
 * 在報告執行階段套用，類似於區段評估。 這是在資料收集並儲存在 Adobe Analytics 中&#x200B;_之後_。
@@ -79,4 +79,4 @@ AEP 沙箱無法：
 請注意：
 
 * 來自不同沙箱的資料不能在 CJA 中組合。
-* Analytics 來源連接器會將報告套裝資料傳送&#x200B;_到_&#x200B;特定沙箱。 每個報告套裝都可以設定為單一沙箱的來源。 如需詳細資訊，請參閱 [Analytics 來源連接器文件](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en)。
+* Analytics 來源連接器會將報告套裝資料傳送&#x200B;_到_&#x200B;特定沙箱。 每個報告套裝都可以設定為單一沙箱的來源。 如需詳細資訊，請參閱 [Analytics 來源連接器文件](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。
