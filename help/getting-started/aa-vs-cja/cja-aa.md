@@ -4,10 +4,10 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9d928a68e9b2eb16ba14cd793857547432ba11b0
+source-git-commit: 42b3b2e9a2ff8a46fd6c84e2425e19dcbb0d28f0
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 97%
+source-wordcount: '1493'
+ht-degree: 91%
 
 ---
 
@@ -67,6 +67,7 @@ ht-degree: 97%
 | 進入、退出及逗留的時間等維度和量度 | 系統可支援 (進入與退出現在稱為「工作階段開始」和「工作階段結束」)，不過計算方式稍有不同。 |
 | eVar 持續性設定 | eVar 不再是 CJA 的一部分。 不過持續性設定現在是資料檢視的一部分，可用於所有維度。 請記得，持續性是依據報表時間處理，而非資料收集處理。 「資料檢視」中設定的維度上限為 90 天的持續性，不支援無限制的持續性。 |
 | GeoSegmentation 維度 | 收集到 Adobe Analytics 的所有 GeoSegmentation/地理位置都會透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)流入 CJA。 未使用 Analytics 來源連接器的實作 (例如仰賴 AEP Web SDK 進行數位資料收集的實作) 將不會具有自動執行的完整地理位置查詢：支援國家/地區和美國州別，但不支援城市和郵遞區號。 |
+| IP 模糊化 | 對於使用分析源連接器將資料從Adobe Analytics填充到CJA的CJA客戶：在Adobe Analytics中應用的IP混淆設定會流到您的CJA資料。 您可以根據需要在Adobe Analytics控制這些設定。<p>對於使用Adobe Experience PlatformWeb SDK直接將資料填充到平台和CJA的CJA客戶：您可以使用平台中的資料收集資料準備來配置規則，這些規則將根據您公司的要求對IP地址進行模糊處理。 |
 | 行銷頻道 | 行銷頻道資料會透過 Analytics 來源連接器傳輸至 CJA。 如果您是使用舊版 Adobe Analytics，仍需設定行銷管道規則。 舊版未支援部分規則。 如需詳細資訊，請參閱 [CJA 行銷管道文件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hant#cja-usecases)。 |
 | 新的與重複工作階段報告 | 2022年8月17日支援， [有13個月的回望窗口](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat)。 |
 | 產品變數 | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件類型欄位陣列，以符合此使用案例。 在 CJA 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
