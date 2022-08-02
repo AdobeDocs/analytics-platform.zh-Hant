@@ -5,9 +5,9 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: f7b4dcb893586e71302cc6a20ebe931743ea8924
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Customer Journey Analytics 可用來：
 
 ## 存取控制
 
-請參閱 [訪問控制](/help/getting-started/cja-access-control.md) 主題。
+請參閱[存取控制](/help/getting-started/cja-access-control.md)主題。
 
 ## 術語更新
 
@@ -87,7 +87,7 @@ Experience Platform 的多個元件 (從資料擷取到直接 SQL 存取) 是 Cu
 
    >[!VIDEO](https://video.tv.adobe.com/v/32112/?quality=12)
 
-* Customer Journey Analytics 的架構和整合:
+* Customer Journey Analytics 的架構和整合：
 
    >[!VIDEO](https://video.tv.adobe.com/v/32483/?quality=12)
 
