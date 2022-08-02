@@ -1,55 +1,55 @@
 ---
-description: 解釋哪些因素會影響Real-time Customer Data Platform（即時CDP）和CJA之間的指標一致性和受眾成員數量。
-title: 在即時CDP和CJA之間度量和受眾成員數量的一致性
+description: 說明哪些因素影響 Real-time Customer Data Platform (Real-time CDP) 與 CJA 之間的量度一致性及受眾會籍數。
+title: Real-time CDP 與 CJA 之間的量度一致性及受眾會籍數
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
 source-git-commit: 769eef205df32865874753859ce79e573db40641
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 在即時CDP和CJA之間度量和受眾成員數量的一致性
+# Real-time CDP 與 CJA 之間的量度一致性及受眾會籍數
 
-在現實世界情形中，無法保證跨Real-time Customer Data Platform（即時CDP）和Customer Journey Analytics(CJA)的指標和受眾成員數量的一致性。 本文檔解釋了原因。
+在真實世界的情境中，無法保證 Real-time Customer Data Platform (Real-time CDP) 與 Customer Journey Analytics (CJA) 之間的量度一致性及受眾會籍數。 本文件將說明原因。
 
-在比較即時CDP和CJA之間的受眾成員數時，必須記住這兩種工具的不同用途。 即時CDP使用客戶配置檔案資料將數字型驗瞄準個體消費者，而CJA旨在幫助用戶瞭解關鍵業務指標和細分領域的模式。 雖然從CJA到即時CDP的受眾發佈使這些工具的用戶能夠輕鬆、本地地「激活」洞察力，同時利用CJA中獲得的學習知識，但這些工具的用途卻截然不同。
+在比較 Real-time CDP 與 CJA 之間的受眾會籍數時，一定要牢記這兩個工具有不同的用途。 Real-time CDP 會使用客戶個人檔案資料來針對個別消費者提供數位體驗，而 CJA 的設計目的則是為了幫助使用者了解關鍵商業量度和區段的模式。 雖然從 CJA 到 Real-time CDP 的受眾發佈可讓這些工具的使用者利用在 CJA 中獲得的知識，以原生方式輕鬆地「啟用」深入分析，但這些工具還是有截然不同的用途。
 
-## 標識配置的差異
+## 身分設定的差異
 
-即時CDP和CJA目前對於一個人的定義不同。 即時CDP完全依賴於 [標識圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=en) 建立合併的配置檔案。
+Real-time CDP 和 CJA 目前對個人的定義不同。 Real-time CDP 完全仰賴[身分圖表](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=zh-Hant)中的資訊來建立合併的個人檔案。
 
-CJA可配置為使用 [跨渠道分析](/help/connections/cca/overview.md) 它從資料湖中的資料集中提取標識符，並應用自定義邏輯將它們連結在一起。
+CJA 可設定為使用[跨管道分析](/help/connections/cca/overview.md)，以便從資料湖中的資料集擷取識別碼，並套用自訂邏輯來一起連結它們。
 
-未來，CJA將能夠使用身份圖。
+在未來，CJA 將能夠使用身分圖表。
 
-## 資料集配置中的差異
+## 資料集設定的差異
 
-您可以選擇將一些資料放入即時CDP中，而將一些資料放入CJA中；通常，客戶選擇在CJA中放置比與即時CDP相關的更多歷史資料。 其他資料集對於即時CDP可能比CJA更相關。
+您可以選擇將某些資料放入 Real-time CDP 中，並將某些資料放入 CJA 中；通常客戶選擇放入 CJA 中的歷史資料會多於放入 Real-time CDP 中的資料。 其他資料集與 Real-time CDP 的相關性可能會高於 CJA。
 
-## 處理配置的差異
+## 處理設定的差異
 
-CJA允許在查詢時進行大量資料修改，如組合欄位、拆分欄位以及包括/排除、子字串、值消除、會話化和行級篩選等其他操作。
+CJA 允許在查詢時進行廣泛的資料修改，例如合併欄位、分割欄位，以及其他像是包含/排除、子字串、重複值刪除、工作階段化及資料列層級篩選等操作。
 
-即時CDP提供了一組不同的資料操作工具。 它適用 [合併策略](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en) 確定哪些資料將按優先順序排列，哪些資料將合併，以建立一個人的統一視圖。
+Real-time CDP 提供一組不同的資料操作工具。 它會套用[合併原則](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=zh-Hant)以判斷哪些資料將會被優先處理，以及將合併哪些資料以建立個人的統一檢視。
 
-## TTL（生存時間）和資料接收的差異
+## TTL (存留時間) 與資料擷取的差異
 
-即使即時CDP和CJA中的資料集是相同的，即時CDP也只能保留非常有限的歷史窗口。 相比之下，CJA可能擁有多年的資料。 除此之外:
+即便 Real-time CDP 和 CJA 中的資料集是相同的，Real-time CDP 可能只會保留非常有限的歷史時段。 相較之下，CJA 可能會保留多年的資料。 除此之外：
 
-* CJA和即時CDP客戶可以為資料設定自定義的保留窗口，這兩個窗口彼此獨立。
+* CJA 和 Real-time CDP 客戶可以設定資料的自訂保留時段，且彼此獨立。
 
-* 即時CDP和CJA在接收資料時有不同的邏輯。 CJA忽略沒有人員ID或時間戳的記錄，對單個配置檔案/人員可能擁有的記錄數有嚴格限制。
+* Real-time CDP 和 CJA 有不同的資料擷取邏輯。 CJA 會忽略沒有個人 ID 或時間戳記的記錄，而且對於單一個人檔案/個人可能擁有的記錄數量有嚴格的限制。
 
-* 即時CDP客戶可以在7天內訪問湖中的資料，這主要是為了方便資料登入配置檔案和即席查詢。
+* Real-time CDP 客戶可在 7 天內存取資料湖中的資料，主要是為了協助資料上線到個人檔案中及進行臨時查詢。
 
-* CJA客戶在湖中沒有資料的TTL。 但是，CJA用戶在建立連接時可以在CJA中設定自定義保留窗口。
+* 對 CJA 客戶而言，資料湖中的資料沒有 TTL。 不過，在建立連線時，CJA 使用者可以自行在 CJA 中設定自訂保留時段。
 
-* Profile Store in Real-time CDP允許客戶可配置的TTL。 客戶可以將此TTL更改為任何他們需要保留在其許可證權限內的內容。
+* Real-time CDP 中的個人檔案存放區允許使用可供客戶設定的 TTL。 客戶可以將此 TTL 變更為他們保留在授權範圍內所需的任何時間。
 
-## 資料接收延遲方面的差異
+## 資料擷取延遲的差異
 
-CJa尚不具備即時CDP的即時功能，因此，CJA報告在資料可用於報告或建立受眾之前會包含一些延遲。 即時CDP通過具有不同延遲的不同系統處理資料。
+CJA 還沒有 Real-time CDP 的即時功能，所以在資料可用於報告或建立受眾之前，CJA 報告會包含一些延遲。 Real-time CDP 會經由具有不同延遲的不同系統來處理資料。
