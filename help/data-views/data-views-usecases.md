@@ -5,9 +5,9 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1092'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -85,33 +85,33 @@ f. 指定「50」當做值。
 
 有關其他資料檢視設定的詳細資訊，請參閱「[建立資料檢視](/help/data-views/create-dataview.md)」。有關資料檢視的概念性概觀，請參閱「[資料檢視概觀](/help/data-views/data-views.md)」。
 
-## 7。新會話與重複會話報告 {#new-repeat}
+## 7. 新的與重複工作階段報告 {#new-repeat}
 
 >[!NOTE]
 >
 >此功能目前正在進行有限測試。
 
-您可以根據為此資料視圖定義的報告窗口和13個月的回望窗口來確定某個會話是否確實是用戶的第一個會話。 此報告允許您確定，例如：
+您可以根據您為此資料檢視定義的報告時段及 13 個月的回溯期來判斷工作階段是否真的是使用者的首次工作階段。 例如，此報告可讓您判斷以下問題：
 
-* 新會話與重複會話的訂單佔您的訂單的百分比是多少？
+* 您的訂單中有多少百分比來自新的工作階段和重複工作階段？
 
-* 對於給定的市場營銷渠道或特定的市場活動，您是針對首次使用者還是返回用戶？ 這些選擇如何影響轉換率？
+* 對於給定的行銷管道或特定行銷活動，您是針對首次使用者還是回訪使用者？這些選擇如何影響轉換率？
 
-三個構成部分促進了此報告：
+這些元件有助於這份報告：
 
-* 1維： [會話類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional)  — 此維有兩個值：1) [!UICONTROL 新建] 和2) [!UICONTROL 返回]。 的 [!UICONTROL 新建] 行項目包括已確定為人員定義的第一個會話的會話中的所有行為（即針對此維的度量）。 其他所有內容都包含在 [!UICONTROL 返回] 行項目（假定所有內容都屬於會話）。 如果度量不是任何會話的一部分，則它們會落入此維的「不適用」儲存段。
+* 1 維度：[工作階段類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) - 此維度有兩個值：1) [!UICONTROL 新的] 和 2) [!UICONTROL 回訪]。 [!UICONTROL 新的]條列項目包含已確定為個人定義的首次工作階段的工作階段中的所有行為 (亦即針對此維度的量度)。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
 
-* 2個指標： [新會話，返回會話](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional)。 新會話定義為報告窗口內人員定義的第一個會話。 返回會話是不是個人第一次會話的會話數。
+* 2 量度：[新的工作階段、回訪工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional)。 新的工作階段定義為個人在報告時段內定義的首次工作階段。 回訪工作階段指的是不是個人的首次工作階段的工作階段數量。
 
-要訪問這些元件：
+若要存取這些元件：
 
-1. 進入資料視圖編輯器。
-1. 按一下 **[!UICONTROL 元件]** > **[!UICONTROL 可選標準元件]** 按鈕。
-1. 將它們拖到資料視圖中。
+1. 前往資料檢視編輯器。
+1. 按一下左側邊欄中的「**[!UICONTROL 元件]** > **[!UICONTROL 可選標準元件]**」索引標籤。
+1. 將其拖曳到資料檢視中。
 
-九成五至九成機會，新會期的報導會準確無誤。 唯一的例外是：
+95%-99% 的時間將會準確報告新的工作階段。 唯一例外情況如下：
 
-* 在13個月回望窗口之前發生第一個會話時。 將忽略此會話。
+* 首次工作階段發生在 13 個月的回溯期之前。 將會忽略此工作階段。
 
-* 當會話同時跨越回望窗口和報告窗口時。 比方說你在2022年6月1日到6月15日發佈報告。 回望窗口將涵蓋2021年5月1日至2022年5月31日。 如果會話將於2022年5月30日開始，於2022年6月1日結束，因為該會話包含在回望窗口中，則報告窗口中的所有會話都被計算為返回會話。
+* 工作階段同時橫跨回溯期和報告時段時。 假設您在 2022 年 6 月 1 日至 6 月 15 日期間執行報告。 回溯期將涵蓋 2021 年 5 月 1 日至 2022 年 5 月 31 日。 如果工作階段在 2022 年 5 月 30 日開始並在 2022 年 6 月 1 日結束，則因為該工作階段包含在回溯期內，所以報告時段內的所有工作階段都將計為回訪工作階段。
 
