@@ -5,9 +5,9 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 source-git-commit: 718dc00b13ec0a79e122b4a2ca48f4de7643bacb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 隨著您的組織採用 CJA，您可能會注意到 Adobe Analytics 與 CJA 之間的資料差異。這是正常的現象，發生原因有很多種。CJA 的設計可讓您改善 AA 中資料的部分限制。但會發生未預期/意外的不一致情況。本文章旨在協助您診斷並解決這些差異，以便於您和您的團隊可以使用 CJA，不會受到資料完整性疑慮所阻礙。
 
-假設您透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將 Adobe Analytics 資料擷取到 AEP，然後使用此資料集建立 CJA 連線。
+假設您透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)將 Adobe Analytics 資料擷取到 AEP，然後使用此資料集建立 CJA 連線。
 
 ![資料流](assets/compare.png)
 
@@ -67,16 +67,16 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
    [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)可能在轉換成 XDM 結構描述期間捨棄多列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會捨棄整列。
 
-   | Analytics 欄位 | 導致刪除行的值 |
+   | Analytics 欄位 | 導致某一列被捨棄的值 |
    | --- | --- |
-   | Opt_out | y,y |
+   | Opt_out | y、Y |
    | In_data_only | Not 0 |
-   | Exclude_hit | 非0 |
-   | Bot_id | 非0 |
-   | Hit_source | 0、3、5、7、8、9、10 |
-   | Page_event | 53、63 |
+   | Exclude_hit | Not 0 |
+   | Bot_id | Not 0 |
+   | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
+   | Page_event | 53, 63 |
 
-   有關hit\_source的詳細資訊，請參閱： [資料列引用](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)。 有關頁\_事件的詳細資訊，請參閱： [頁面事件查找](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=en)。
+   如需 hit\_source 的詳細資訊，請參閱：[資料欄參考](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)。 如需 page\_event 的詳細資訊，請參閱：[頁面事件查閱](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=zh-Hant)。
 
 1. 如果連接器捨棄多列，請將這幾列減去[!UICONTROL 發生次數]量度。得到的數字應符合在 Adobe Experience Platform 資料集中的事件數。
 
