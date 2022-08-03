@@ -4,10 +4,10 @@ description: 您可以新增到任何資料檢視的所有標準元件的詳細�
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8e43c65c372f57dc54d01114b9c06a59d5c0efe4
+source-git-commit: c5a42392df82af4f0f8dcd718e3ce962ad654191
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '915'
+ht-degree: 100%
 
 ---
 
@@ -35,6 +35,8 @@ CJA 中的大多數維度和量度都根據 Adobe Experience Platform 資料集�
 | [!UICONTROL 月] | 維度 | 指定量度發生的月。第一個維度項目是日期範圍中的第一個月，最後一個維度項目是日期範圍中的最後一個月。 |
 | [!UICONTROL 季度] | 維度 | 指定量度發生的季。第一個維度項目是日期範圍中的第一季，最後一個維度項目是日期範圍中的最後一季。 |
 | [!UICONTROL 年] | 維度 | 指定量度發生的年。第一個維度項目是日期範圍中的第一年，最後一個維度項目是日期範圍中最近的一年。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 可選標準元件 {#optional}
 
@@ -64,3 +66,4 @@ CJA 中的大多數維度和量度都根據 Adobe Experience Platform 資料集�
 | [!UICONTROL 每人逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 人員]」值區。 |
 | [!UICONTROL 週末]/[!UICONTROL 平常日] | 時間分段維度 | 週末或平常日 |
 
+{style=&quot;table-layout:auto&quot;&quot;
