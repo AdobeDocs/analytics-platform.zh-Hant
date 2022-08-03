@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 8a23ed7ad39497ed3c9d86fac6cf5b38856b2088
-workflow-type: ht
-source-wordcount: '708'
-ht-degree: 100%
+source-git-commit: 141a41cfff54bf0ec3db031d567fa68d092fd7ee
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -104,18 +104,19 @@ ht-degree: 100%
          + [流量總覽](analysis-workspace/visualizations/c-flow/flow.md)
          + [設定流量視覺效果](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [維度間流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [長條圖](analysis-workspace/visualizations/histogram.md)
-      + [文氏](analysis-workspace/visualizations/venn.md)
       + [區域圖和堆疊區域圖](analysis-workspace/visualizations/area.md)
       + [長條圖和堆疊長條圖](analysis-workspace/visualizations/bar.md)
       + [項目符號圖表](analysis-workspace/visualizations/bullet-graph.md)
       + [環形圖](analysis-workspace/visualizations/donut.md)
+      + [長條圖](analysis-workspace/visualizations/histogram.md)
       + [橫條圖和堆疊橫條圖](analysis-workspace/visualizations/horizontal-bar.md)
+      + [關鍵量度摘要](analysis-workspace/visualizations/key-metric.md)
       + [線圖](analysis-workspace/visualizations/line.md)
       + [散佈圖](analysis-workspace/visualizations/scatterplot.md)
       + [摘要數字和摘要變更](analysis-workspace/visualizations/summary-number-change.md)
       + [Text](analysis-workspace/visualizations/text.md)
       + [樹狀圖](analysis-workspace/visualizations/treemap.md)
+      + [文氏圖表](analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
       + [面板總覽](analysis-workspace/c-panels/panels.md)
       + [歸因面板](analysis-workspace/c-panels/attribution.md)
