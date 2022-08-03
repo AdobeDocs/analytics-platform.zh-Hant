@@ -57,7 +57,7 @@ CJA 中的大多數維度和量度都根據 Adobe Experience Platform 資料集�
 | [!UICONTROL 重複工作階段] | 量度 | 不是個人的首次工作階段的工作階段數量。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) |
 | [!UICONTROL 工作階段開始] | 量度 | 工作階段中第一個事件的事件數。當用於篩選定義時 (例如「[!UICONTROL 工作階段開始]存在」)，它只篩選到每個工作階段的第一個事件。 |
 | [!UICONTROL 工作階段結束] | 量度 | 工作階段中最後一個事件的事件數。它類似於[!UICONTROL 工作階段開始]，也可用於篩選定義中，以篩選至每個工作階段的最後一個事件。 |
-| [!UICONTROL 工作階段類型] | 維度 | 此維度有兩個值：1) [!UICONTROL 首次] 和 2) 回訪。 [!UICONTROL 首次]條列項目包含已確定為個人定義的首次工作階段的工作階段中的所有行為 (亦即針對此維度的量度)。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。 [了解更多]([了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat)) |
+| [!UICONTROL 工作階段類型] | 維度 | 此維度有兩個值：1) [!UICONTROL 首次] 和 2) 回訪。 [!UICONTROL 首次]條列項目包含已確定為個人定義的首次工作階段的工作階段中的所有行為 (亦即針對此維度的量度)。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) |
 | [!UICONTROL 逗留時間 (秒)] | 量度 | 為維度加總兩個不同值之間的時間。 |
 | [!UICONTROL 每個事件逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 事件]」值區。 |
 | [!UICONTROL 每個工作階段逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 工作階段]」值區。 |
