@@ -36,7 +36,7 @@ CJA 中的大多數維度和量度都根據 Adobe Experience Platform 資料集�
 | [!UICONTROL 季度] | 維度 | 指定量度發生的季。第一個維度項目是日期範圍中的第一季，最後一個維度項目是日期範圍中的最後一季。 |
 | [!UICONTROL 年] | 維度 | 指定量度發生的年。第一個維度項目是日期範圍中的第一年，最後一個維度項目是日期範圍中最近的一年。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 可選標準元件 {#optional}
 
@@ -66,4 +66,4 @@ CJA 中的大多數維度和量度都根據 Adobe Experience Platform 資料集�
 | [!UICONTROL 每人逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 人員]」值區。 |
 | [!UICONTROL 週末]/[!UICONTROL 平常日] | 時間分段維度 | 週末或平常日 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style="table-layout:auto"}
