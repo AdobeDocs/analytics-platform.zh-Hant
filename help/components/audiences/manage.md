@@ -2,18 +2,14 @@
 title: 在 Customer Journey Analytics 中管理對象
 description: 了解如何在 Customer Journey Analytics 中管理對象
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
-source-git-commit: 86998458bd79f1fc17c17e58932b2b8434abf041
-workflow-type: ht
-source-wordcount: '282'
+source-git-commit: c851a07a456fa033b37e45a3d182a8fc80988b82
+workflow-type: tm+mt
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
 
 # 在 Customer Journey Analytics 中管理對象
-
->[!NOTE]
->
->此功能目前在[有限測試](/help/release-notes/releases.md)中。
 
 管理先前建立的對象，可讓您
 
