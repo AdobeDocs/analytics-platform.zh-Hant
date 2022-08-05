@@ -4,10 +4,10 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 42b3b2e9a2ff8a46fd6c84e2425e19dcbb0d28f0
+source-git-commit: 94b3e7417b82e9ae3ad080884d4c184bee412c2c
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 94%
 | --- | --- |
 | 異常偵測 | 完整支援 |
 | Attribution IQ | 完整支援 |
+| 對象發佈 | 完整支援。 在 AA 中稱為「區段發佈」(將區段從工作區傳送到 Experience Cloud)。 [受眾發佈](/help/components/audiences/audiences-overview.md) 將受眾發送到Experience Platform中的即時客戶配置檔案。 |
 | 計算量度 | 完整支援；請注意，在傳統 Analysis Workspace 中任何現有的計算量度將不會移前往 CJA。 |
 | 行事曆事件 | 完整支援。 已將行事曆活動實作為工作區內的[註解](/help/components/annotations/overview.md)。 |
 | 分類規則產生器 | 完整支援。已呼叫 CJA 中的[字子串](/help/data-views/component-settings/substring.md)。 在報表時間使用字串操控，而不是查詢資料集。 |
