@@ -4,9 +4,9 @@ description: 根據其值有條件地包含或排除維度項目。
 exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '300'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -25,3 +25,5 @@ ht-degree: 100%
 | [!UICONTROL 標準] | 可讓您指定應套用至特定篩選規則的符合邏輯。<ul><li>**字串**：包含片語、包含任何詞語、包含所有詞語、不包含任何詞語、不包含片語、等於、不等於、開頭為、結尾為</li><li>**雙/整數**：等於、不等於、大於、小於、大於或等於、小於或等於</li><li>**日期**：等於、不等於、晚於、等於、發生於</li></ul> |
 | [!UICONTROL 匹配操作數] | 可讓您指定應套用匹配運算子的匹配操作數。<ul><li>**字串**：文字欄位</li><li>**雙/整數**：文字欄位，其上／下箭頭代表數值</li><li>**日期**：日詳細程度選擇器 (日曆)</li><li>**日期時間**：日期和時間詳細程度選擇器</li></ul> |
 | [!UICONTROL 新增規則] | 可讓您指定額外的匹配運算子和操作數。 |
+
+{style=&quot;table-layout:auto&quot;}

@@ -4,9 +4,9 @@ description: 將字串的子集用為維度項目。
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 0178babcd5ae87b491e849c7517eb5792fb14af1
-workflow-type: ht
-source-wordcount: '911'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '914'
 ht-degree: 100%
 
 ---
@@ -113,6 +113,8 @@ CJA 使用 Perl 規則運算式語法的子集。若輸入和規則運算式不�
 | ``$` `` | 輸出找到的最後一個相符項的結尾 (如果沒有找到之前的相符項，則為文字的開頭) 和目前相符項的開頭之間的文字。 |
 | `$+` | 輸出和規則運算式中最後一個標記的子運算式相符的內容。 |
 | `$$` | 輸出字串字元 `"$"`。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 有關繫結維度的影片
 

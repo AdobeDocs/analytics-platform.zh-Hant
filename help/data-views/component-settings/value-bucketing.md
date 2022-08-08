@@ -4,9 +4,9 @@ description: 組合維度中的數值。
 exl-id: 52f9abf6-69f1-47d0-86ab-57123bc178d5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '188'
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
+workflow-type: tm+mt
+source-wordcount: '191'
 ht-degree: 100%
 
 ---
@@ -28,3 +28,5 @@ ht-degree: 100%
 | [!UICONTROL 包含] [!UICONTROL 和小於] | 後續值區的邊界。 |
 | [!UICONTROL 大於或等於] | 最後一個維度值區的範圍下限。 |
 | [!UICONTROL 新增值區] | 可讓您新增另一個值區至數值維度分組。您最多可以在一個維度中新增 20 個值區。 |
+
+{style=&quot;table-layout:auto&quot;}

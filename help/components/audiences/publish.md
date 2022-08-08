@@ -2,7 +2,7 @@
 title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: c851a07a456fa033b37e45a3d182a8fc80988b82
+source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
    | 從自由格式表格 | 以右鍵按一下自由格式表格中的項目，然後選擇「**[!UICONTROL 從選取項目建立對象]**」。 此方法會使用您在表格中選擇的維度或維度項目預先填入篩選器。 |
    | 從篩選器建立/編輯 UI | 勾選顯示「**[!UICONTROL 從這個篩選器建立對象]**」的方塊。 使用此方法預先填入篩選器。 |
 
-   {style="table-layout:auto"}
+   {style=&quot;table-layout:auto&quot;}
 
 1. 建置對象。
 
@@ -45,7 +45,7 @@ ht-degree: 100%
    | [!UICONTROL 篩選器] | 篩選器是對象的主要輸入項目。 可最多新增 20 個篩選器。 這些篩選器可以加入 `And` 或 `Or` 運算子。 |
    | [!UICONTROL 檢視範例 ID] | 此對象中的範例 ID。 使用搜尋列來搜尋範例 ID。 |
 
-   {style="table-layout:auto"}
+   {style=&quot;table-layout:auto&quot;&quot;
 
 1. 解讀資料預覽。
 
@@ -64,7 +64,7 @@ ht-degree: 100%
    | [!UICONTROL 包含的命名空間] | 與對象中的人員相關聯的特定命名空間。 範例包括 ECID、CRM ID、電子郵件地址等。 |
    | [!UICONTROL 沙箱] | 此對象所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。 當您將此對象發佈到 Platform 時，您只能在此沙箱的範圍內使用它。 |
 
-   {style="table-layout:auto"}
+   {style=&quot;table-layout:auto&quot;&quot;
 
 1. 仔細檢查您的對象組態，然後按一下&#x200B;**[!UICONTROL 「發佈」]**。
 
