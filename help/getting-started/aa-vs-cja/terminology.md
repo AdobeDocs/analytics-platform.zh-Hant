@@ -1,11 +1,18 @@
 ---
-source-git-commit: c25e320268aeda85eb6709ca3458c60c6f24fea3
+title: 比較通過分析源連接器的分析資料的術語
+description: 某些術語差異
+solution: Customer Journey Analytics
+source-git-commit: 287c75fd2b519f3d1d86209e0b0ab4ed7f761814
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 28%
+source-wordcount: '788'
+ht-degree: 27%
 
 ---
+
+
 # 比較通過分析源連接器的分析資料的術語
+
+Adobe Analytics、資料源、分析源連接器/資料湖和CJA之間存在一些術語差異。 本專題旨在強調和澄清這些差異。
 
 | 相關條款 | Adobe Analytics | Adobe Analytics資料源 | 分析源連接器/資料湖 | CJA | 附註 |
 |---|---|---|---|---|---|

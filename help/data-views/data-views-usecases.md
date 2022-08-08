@@ -4,10 +4,10 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 11171eb6e079adbf41e0abc798a54a5749492eac
-workflow-type: ht
+source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
+workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -101,17 +101,16 @@ f. 指定「50」當做值。
 
 * 1 維度：[工作階段類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) - 此維度有兩個值：1) [!UICONTROL 新的] 和 2) [!UICONTROL 回訪]。 [!UICONTROL 新的]條列項目包含已確定為個人定義的首次工作階段的工作階段中的所有行為 (亦即針對此維度的量度)。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
 
-* 2 量度：[新的工作階段、回訪工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional)。 新的工作階段定義為個人在報告時段內定義的首次工作階段。 回訪工作階段指的是不是個人的首次工作階段的工作階段數量。
+* 2 量度：[新的工作階段、回訪工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional)。 新的工作階段定義為個人在報告時段內定義的首次工作階段。 回訪工作階段指的是不是個人的首次工作階段的工作階段數量。
 
 若要存取這些元件：
 
 1. 前往資料檢視編輯器。
 1. 按一下左側邊欄中的「**[!UICONTROL 元件]** > **[!UICONTROL 可選標準元件]**」索引標籤。
-1. 將其拖曳到資料檢視中。
+1. 將這些元件拖到資料視圖中。
 
-95%-99% 的時間將會準確報告新的工作階段。 唯一例外情況如下：
+九成五至九成的時間，新會期的報導準確。 唯一例外情況如下：
 
 * 首次工作階段發生在 13 個月的回溯期之前。 將會忽略此工作階段。
 
-* 工作階段同時橫跨回溯期和報告時段時。 假設您在 2022 年 6 月 1 日至 6 月 15 日期間執行報告。 回溯期將涵蓋 2021 年 5 月 1 日至 2022 年 5 月 31 日。 如果工作階段在 2022 年 5 月 30 日開始並在 2022 年 6 月 1 日結束，則因為該工作階段包含在回溯期內，所以報告時段內的所有工作階段都將計為回訪工作階段。
-
+* 工作階段同時橫跨回溯期和報告時段時。 假設您在 2022 年 6 月 1 日至 6 月 15 日期間執行報告。 回溯期將涵蓋 2021 年 5 月 1 日至 2022 年 5 月 31 日。 如果會話將於2022年5月30日開始，於2022年6月1日結束，因為該會話包含在回望窗口中，則報告窗口中的所有會話都被計為返回會話。
