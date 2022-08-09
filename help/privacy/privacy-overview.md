@@ -2,7 +2,7 @@
 title: Customer Journey Analytics和資料治理
 description: 介紹資料治理在Customer Journey Analytics中的工作方式。
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-source-git-commit: 61850e8a1da80a115bf850c64358a512770f852e
+source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 75%
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 ## 資料控管
 
-CJA支援在Adobe Experience Platform設定的資料治理標籤和策略。 有關詳細資訊，請參閱CJA對Adobe Experience Platform資料治理的支援。
+CJA支援在Adobe Experience Platform設定的資料治理標籤和策略。 有關詳細資訊，請參見 [CJA支援Adobe Experience Platform資料治理](/help/data-views/data-governance.md)。
 
 ## GDPR
 

@@ -2,9 +2,9 @@
 title: CJA支援Adobe Experience Platform資料治理
 description: 瞭解AEP中定義的資料標籤和策略如何影響CJA中的報告。
 mini-toc-levels: 3
-source-git-commit: 82060862c64aae10ea6dd375a8cd65d67ee21704
+source-git-commit: 2f74c10f821aed421e31ee8e14b854f2a73c11f1
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -38,13 +38,12 @@ CJA與CJA的整合 [Adobe Experience Platform資料治理](https://experiencelea
 
 * 分析 — 將資料用於分析目的，例如測量、分析和報告您組織的站點或應用的用戶使用情況。
 
-* 將資料導出到第三方 — 即從Adobe環境導出。
+* 導出資料 — 即從Adobe環境導出。
 
 將標籤和市場營銷操作與策略綁定在一起，然後開啟策略。 該策略將標籤和營銷操作標為：強制實施此限制。 CJA中出現了兩個Adobe定義的策略並影響報告和下載/共用：
 
-* 強制分析策略
-* 強制下載策略
-
+* [!UICONTROL 強制分析] 政策
+* [!UICONTROL 強制下載] 政策
 
 ### 在CJA資料視圖中查看資料標籤
 
@@ -93,7 +92,7 @@ CJA與CJA的整合 [Adobe Experience Platform資料治理](https://experiencelea
 
 ### 如何 [!UICONTROL 強制下載] 策略影響工作區項目
 
-如果開啟此策略，則Workspace項目的任何下載（如電子郵件或共用pdf）都將對敏感欄位進行散列。 您仍然可以在Workspace中對這些欄位進行分析，但是，如果您嘗試通過電子郵件或以其他方式共用項目，則被阻止的欄位將作為散列項出現在.pdf檔案中。
+如果開啟此策略，則Workspace項目的任何導出或下載（如電子郵件或共用pdf）都將對敏感欄位進行散列。 您仍然可以在Workspace中對這些欄位進行分析，但是，如果您嘗試通過電子郵件或以其他方式共用項目，則被阻止的欄位將作為散列項出現在.pdf檔案中。
 
 在此處添加螢幕截圖。
 
