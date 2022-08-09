@@ -3,10 +3,10 @@ description: 若要從 Analysis Workspace 下載資料，請複製該資料或�
 title: 下載 PDF 或 CSV 檔案
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '983'
-ht-degree: 100%
+source-git-commit: 3f0051868ef559d331fa9e5c4648f9bab7fc8d34
+workflow-type: tm+mt
+source-wordcount: '1048'
+ht-degree: 93%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 ![](assets/download-items.png)
 
-### 已下載的項目檔案
+### 已下載的項目檔案 {#items-file}
 
 表格的特性將會套用到已下載的檔案，如下所示：
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 ![](assets/downloaded-file.png)
 
-### 下載通知
+### 下載通知 {#notifications}
 
 在下載檔案時，您將會看到包含進度指示的告知性通知。 您隨時都可以按一下「**[!UICONTROL 取消下載]**」來取消下載作業。 關閉快顯通知&#x200B;**將不會**&#x200B;取消下載。
 
@@ -80,6 +80,10 @@ ht-degree: 100%
 如果您一次要求多項下載，您將會收到通知，告知您每項額外下載要等到前一個下載完成時才會排入佇列中。
 
 ![](assets/toast.png)
+
+## 下載敏感資料 {#sensitive}
+
+如果啟用「強制下載資料」管理策略，則Workspace項目的任何下載（如電子郵件或共用pdf）都將散列標籤為敏感的資料欄位。 您仍然可以在Workspace中對這些欄位進行分析，但是，如果您嘗試通過電子郵件或以其他方式共用項目，則被阻止的欄位將作為散列項出現在.pdf檔案中。
 
 ## 常見問答 {#faq}
 

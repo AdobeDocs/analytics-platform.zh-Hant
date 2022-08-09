@@ -1,18 +1,21 @@
 ---
-title: Customer Journey Analytics 隱私權概觀
-description: 說明隱私權設定在 Customer Journey Analytics 的運作方式。
+title: Customer Journey Analytics和資料治理
+description: 介紹資料治理在Customer Journey Analytics中的工作方式。
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
-translation-type: ht
-source-git-commit: 2d83d796f053465eb9543daa37068f316bccc659
-workflow-type: ht
-source-wordcount: '224'
-ht-degree: 100%
+source-git-commit: 61850e8a1da80a115bf850c64358a512770f852e
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 75%
 
 ---
 
-# Customer Journey Analytics 隱私權概觀
+# Customer Journey Analytics和資料治理
 
-一般而言，Customer Journey Analytics 中任何與隱私權相關的設定，皆繼承自 Adobe Experience Platform。
+一般來說，Customer Journey Analytics中任何與資料治理相關的設定都是從Adobe Experience Platform繼承的。
+
+## 資料控管
+
+CJA支援在Adobe Experience Platform設定的資料治理標籤和策略。 有關詳細資訊，請參閱CJA對Adobe Experience Platform資料治理的支援。
 
 ## GDPR
 
