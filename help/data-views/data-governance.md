@@ -1,12 +1,11 @@
 ---
-title: CJA支援Adobe Experience Platform資料治理
-description: 瞭解AEP中定義的資料標籤和策略如何影響CJA中的報告。
-mini-toc-levels: 3
+title: 標籤和策略
+description: 瞭解AEP中定義的資料標籤和策略如何影響CJA中的資料視圖和報告。
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 2dde88ea6c3bb806b66cd4bc8fb8b10bd28084d0
+source-git-commit: a28247e861e2f8853a6e2d2b81e7f6ed221caec0
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 1%
+source-wordcount: '579'
+ht-degree: 2%
 
 ---
 
@@ -26,8 +25,8 @@ ht-degree: 1%
 
 CJA中出現了兩個Adobe定義的策略並影響報告和下載/共用：
 
-* [!UICONTROL 強制分析] 政策
-* [!UICONTROL 強制下載] 政策
+* **[!UICONTROL 強制分析]** 政策
+* **[!UICONTROL 強制下載]** 政策
 
 ## 在CJA資料視圖中查看資料標籤
 
@@ -35,9 +34,11 @@ CJA中出現了兩個Adobe定義的策略並影響報告和下載/共用：
 
 | 位置 | 說明 |
 | --- | --- |
-| 架構欄位上的「資訊」按鈕 | 按一下此按鈕可指示當前應用於欄位的資料使用標籤：<p>![](assets/data-label-left.png) |
-| 右滑軌下方 [元件設定](/help/data-views/component-settings/overview.md) | 此處列出了任何資料使用標籤：<p>![](assets/data-label-right.png) |
-| 將資料標籤添加為列 | 可以將資料標籤作為列添加到資料視圖的「包括的元件」列中。 只需按一下列選擇器表徵圖並選擇資料使用標籤：<p>![](assets/data-label-column.png) |
+| 架構欄位上的「資訊」按鈕 | 按一下此按鈕可指示 [!UICONTROL 資料使用標籤] 當前應用於欄位：<p>![](assets/data-label-left.png) |
+| 右滑軌下方 [元件設定](/help/data-views/component-settings/overview.md) | 任意 [!UICONTROL 資料使用標籤] 此處列出：<p>![](assets/data-label-right.png) |
+| 將資料標籤添加為列 | 可以添加 [!UICONTROL 資料標籤] 列 [!UICONTROL 包括的元件] 列。 只需按一下列選擇器表徵圖並選擇 **[!UICONTROL 資料使用標籤]**:<p>![](assets/data-label-column.png) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 篩選資料視圖中的資料治理標籤
 
@@ -55,7 +56,7 @@ CJA中出現了兩個Adobe定義的策略並影響報告和下載/共用：
 
 ![](assets/filter-policies.png)
 
-按一下 **[!UICONTROL 應用]** 查看啟用的策略 _?_
+按一下 **[!UICONTROL 應用]** 查看已啟用的策略。
 
 ## 如何 [!UICONTROL 強制分析] 策略影響工作區項目
 
