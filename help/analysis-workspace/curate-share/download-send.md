@@ -3,10 +3,10 @@ description: 若要從 Analysis Workspace 下載資料，請複製該資料或�
 title: 下載 PDF 或 CSV 檔案
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 3f0051868ef559d331fa9e5c4648f9bab7fc8d34
+source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 93%
+source-wordcount: '1057'
+ht-degree: 92%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 93%
 
 ## 下載敏感資料 {#sensitive}
 
-如果啟用「強制下載資料」管理策略，則Workspace項目的任何下載（如電子郵件或共用pdf）都將散列標籤為敏感的資料欄位。 您仍然可以在Workspace中對這些欄位進行分析，但是，如果您嘗試通過電子郵件或以其他方式共用項目，則被阻止的欄位將作為散列項出現在.pdf檔案中。
+如果 **[!UICONTROL 強制下載]** [資料治理策略](/help/data-views/data-governance.md) 在要報告的資料視圖中啟用，Workspace項目的任何下載（如電子郵件或共用pdf）都將散列標籤為敏感的資料欄位。 您仍然可以在Workspace中對這些欄位進行分析，但是，如果您嘗試通過電子郵件或以其他方式共用項目，則在.pdf或.csv檔案中，被阻止的欄位將顯示為空。
 
 ## 常見問答 {#faq}
 
