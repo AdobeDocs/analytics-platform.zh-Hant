@@ -4,10 +4,10 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
+source-git-commit: 684918af270a77355b7cefab4ae2e32720a71cae
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 95%
+source-wordcount: '1194'
+ht-degree: 87%
 
 ---
 
@@ -87,10 +87,6 @@ f. 指定「50」當做值。
 
 ## 7. 新的與重複工作階段報告 {#new-repeat}
 
->[!NOTE]
->
->此功能目前正在進行有限測試。
-
 您可以根據您為此資料檢視定義的報告時段及 13 個月的回溯期來判斷工作階段是否真的是使用者的首次工作階段。 例如，此報告可讓您判斷以下問題：
 
 * 您的訂單中有多少百分比來自新的工作階段和重複工作階段？
@@ -114,3 +110,19 @@ f. 指定「50」當做值。
 * 首次工作階段發生在 13 個月的回溯期之前。 將會忽略此工作階段。
 
 * 工作階段同時橫跨回溯期和報告時段時。 假設您在 2022 年 6 月 1 日至 6 月 15 日期間執行報告。 回溯期將涵蓋 2021 年 5 月 1 日至 2022 年 5 月 31 日。 如果會話將於2022年5月30日開始，於2022年6月1日結束，因為該會話包含在回望窗口中，則報告窗口中的所有會話都被計為返回會話。
+
+## 使用日期和日期 — 時間功能 {#date}
+
+>[!NOTE]
+>
+>此功能目前正在進行[有限測試](/help/release-notes/releases.md)。
+
+範例使用案例:
+
+* 日期：一家旅行公司正在收集作為資料欄位的旅行的出發日期。 他們想要一份報告 [!UICONTROL 星期幾] 收集所有出發日期，以瞭解哪些最受歡迎。 他們也願意 [!UICONTROL 年月]。
+
+* 日期 — 時間：一家零售公司正在為每次店內銷售點(POS)採購收集時間。 一個月來，他們想瞭解 [!UICONTROL 每天的小時]。
+
+>[!MORELIKETHIS]
+>[「格式」元件設定中的日期和日期 — 時間](/help/data-views/component-settings/format.md)
+
