@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 94b3e7417b82e9ae3ad080884d4c184bee412c2c
+source-git-commit: c3e8e9260030829e38c4267659ab84dcb822e729
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '964'
+ht-degree: 95%
 
 ---
 
@@ -17,10 +17,13 @@ ht-degree: 100%
 
 | 日期 | 更新說明 |
 | --- | --- |
+| 2022 年 8 月 | 關於 [CJA對資料治理標籤和策略的支援](/help/data-views/data-governance.md) |
+| 2022 年 8 月 | 新節 [CJA中的日期欄位支援](/help/data-views/data-views-usecases.md#date) |
+| 2022 年 8 月 | 關於 [比較通過分析源連接器的分析資料的術語](/help/getting-started/aa-vs-cja/terminology.md) |
 | 2022 年 8 月 | 新增[將對象發佈到即時客戶個人檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html)的文件 |
 | 2022 年 7 月 | [「媒體播放時間」面板](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html)文件。 |
 | 2022 年 7 月 | [「媒體同時檢閱者」面板](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html)文件。 |
-| 2022 年 7 月 | [新的與重複工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat)報告文件。 |
+| 2022 年 7 月 | [第一個會話與重複會話](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) 報告文檔。 |
 | 2022 年 6 月 | 關於 [AAID、ECID、ACUSTOMID 和分析來源連接器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html)的新文章 |
 | 2022 年 6 月 | 新增 [Adobe Analytics 處理規則、VISTA 和分類與 Analytics 來源連接器的「資料準備」的比較](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)的文章 |
 | 2022 年 6 月 | 新增[虛擬報告環境和沙箱環境](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)的文章 |
