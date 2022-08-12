@@ -2,9 +2,9 @@
 title: 標籤和策略
 description: 瞭解AEP中定義的資料標籤和策略如何影響CJA中的資料視圖和報告。
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
+source-git-commit: b135175e0276ab26514d1c785793feb817c09898
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -72,3 +72,7 @@ CJA中出現了兩個Adobe定義的策略並影響報告和下載/共用：
 
 >[!MORELIKETHIS]
 >[下載敏感資料](/help/analysis-workspace/curate-share/download-send.md)
+
+>[!MORELIKETHIS]
+>[Report Builder中的限制標籤是什麼？](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=en)
+
