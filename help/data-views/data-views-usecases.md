@@ -4,7 +4,7 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b7a2921b30075b3c63136a989df3744256f810f4
+source-git-commit: 9321831a23c1329000fd1e960c28e41d4ba18714
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 81%
@@ -117,7 +117,7 @@ f. 指定「50」當做值。
 >
 >此功能目前正在進行[有限測試](/help/release-notes/releases.md)。
 
-Adobe Experience Platform中的架構包含日期和日期 — 時間欄位。 CJA資料視圖現在支援這些欄位。 將這些欄位拖動到資料視圖中作為維時，可以指定它們 [格式](/help/data-views/component-settings/format.md)。 此格式設定確定了在報告中如何顯示欄位。 例如：
+Adobe Experience Platform的架構包含 [!UICONTROL 日期] 和 [!UICONTROL 日期 — 時間] 的子菜單。 CJA資料視圖現在支援這些欄位。 將這些欄位拖動到資料視圖中作為維時，可以指定它們 [格式](/help/data-views/component-settings/format.md)。 此格式設定確定了在報告中如何顯示欄位。 例如：
 
 * 對於日期格式，如果您選擇 **[!UICONTROL 日]** 格式 **[!UICONTROL 月、日、年]**，報告中的示例輸出可能如下所示：2022年8月23日。
 
