@@ -4,9 +4,9 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 9321831a23c1329000fd1e960c28e41d4ba18714
+source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1277'
 ht-degree: 81%
 
 ---
@@ -112,10 +112,6 @@ f. 指定「50」當做值。
 * 工作階段同時橫跨回溯期和報告時段時。 假設您在 2022 年 6 月 1 日至 6 月 15 日期間執行報告。 回溯期將涵蓋 2021 年 5 月 1 日至 2022 年 5 月 31 日。 如果會話將於2022年5月30日開始，於2022年6月1日結束，因為該會話包含在回望窗口中，則報告窗口中的所有會話都被計為返回會話。
 
 ## 使用日期和日期 — 時間功能 {#date}
-
->[!NOTE]
->
->此功能目前正在進行[有限測試](/help/release-notes/releases.md)。
 
 Adobe Experience Platform的架構包含 [!UICONTROL 日期] 和 [!UICONTROL 日期 — 時間] 的子菜單。 CJA資料視圖現在支援這些欄位。 將這些欄位拖動到資料視圖中作為維時，可以指定它們 [格式](/help/data-views/component-settings/format.md)。 此格式設定確定了在報告中如何顯示欄位。 例如：
 

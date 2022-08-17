@@ -2,18 +2,14 @@
 title: 標籤和策略
 description: 瞭解AEP中定義的資料標籤和策略如何影響CJA中的資料視圖和報告。
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: b135175e0276ab26514d1c785793feb817c09898
+source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 2%
+source-wordcount: '468'
+ht-degree: 1%
 
 ---
 
 # 標籤和策略
-
->[!NOTE]
->
->此功能目前正在進行[有限測試](/help/release-notes/releases.md)。
 
 在Experience Platform中建立資料集時，可以建立 [資料使用標籤](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en) 資料集中的某些或所有元素。 到目前為止，這些標籤在CJA中還未公開。 在此版本中，您可以在CJA中查看這些標籤和策略。
 

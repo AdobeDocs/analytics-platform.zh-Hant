@@ -4,10 +4,10 @@ title: 將 Customer AI 與 CJA 整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 320b34ca171bb835aa3b4a9a981cc19b14060ad9
-workflow-type: ht
-source-wordcount: '891'
-ht-degree: 100%
+source-git-commit: 75e72f94b90ad67a3f8e9506abb09b96a59383d8
+workflow-type: tm+mt
+source-wordcount: '888'
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Customer AI 與 Customer Journey Analytics (CJA) 整合到一定的程度，以�
 
 ### 步驟 4：在工作區中報告 CAI 分數
 
-在 CJA 工作區中，您現在可以建立新專案並提取視覺效果。
+在CJA Workspace中，建立新項目並拉入可視化效果。
 
 **趨勢傾向分數**
 
