@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 1d054974165e7ec6bcbd3e0eda6e76bd1a0c2108
+source-git-commit: 338cb8a4409c9b03461763d97ced6b8a10de2b7b
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 97%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 97%
       + [長條圖](analysis-workspace/visualizations/histogram.md)
       + [橫條圖和堆疊橫條圖](analysis-workspace/visualizations/horizontal-bar.md)
       + [關鍵量度摘要](analysis-workspace/visualizations/key-metric.md)
-      + [線圖](analysis-workspace/visualizations/line.md)
+      + [折線圖](analysis-workspace/visualizations/line.md)
       + [散佈圖](analysis-workspace/visualizations/scatterplot.md)
       + [摘要數字和摘要變更](analysis-workspace/visualizations/summary-number-change.md)
       + [Text](analysis-workspace/visualizations/text.md)
@@ -123,6 +123,7 @@ ht-degree: 97%
       + [面板總覽](analysis-workspace/c-panels/panels.md)
       + [歸因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
+      + [實驗面板](analysis-workspace/c-panels/experimentation.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
       + [「媒體同時檢閱者」面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
