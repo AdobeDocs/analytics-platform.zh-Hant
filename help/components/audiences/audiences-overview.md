@@ -3,9 +3,9 @@ title: CJA 對象發佈總覽
 description: 了解 Customer Journey Analytics 中發佈對象的概念
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 source-git-commit: c851a07a456fa033b37e45a3d182a8fc80988b82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 94%
 
 * 系統會自動授予管理員在 Adobe Admin Console 中的&#x200B;**[!UICONTROL 對象發佈]**&#x200B;權限。 
 
-* 管理員可以將此權限授予單個用戶。
+* 管理員可以將此權限授予給個別使用者。
 
-* 管理員還需要 **[!UICONTROL 管理配置檔案]** 在Adobe Experience Platform。
+* 管理員也需要 Experience Platform 中的&#x200B;**[!UICONTROL 管理設定檔]**。
 
 ## 後續步驟
 
