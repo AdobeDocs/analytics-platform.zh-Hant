@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: 3d0de872f92de3586bfe5e38ac01799da20526de
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 89%
 | [!UICONTROL 結構描述類型] | 不可編輯的欄位，顯示元件的資料類型。雖然您可以在 Platform 中使用任何支援的結構描述欄位類型，但不是所有欄位類型都在 CJA 中受到支援。 以下是支援的資料類型：`Integer`、`Int`、`Long`、`Double`、`Float`、`Number`、`Short`、`Byte`、`String` 和 `Boolean`。 目前在查詢資料集中只允許使用 `String` 結構描述資料類型。 |
 | [!UICONTROL 元件 ID] | 必填。[CJA API](https://adobe.io/cja-apis/docs) 使用此欄位來參考元件。資料檢視中的每個元件都必須是唯一的。Adobe 會自動為每個元件產生一個 ID；但是，您可以按一下編輯圖示並修改元件 ID。變更元件 ID 會中斷包含此元件的所有現有 Workspace 專案。雖然每個元件在單個資料檢視中都需要一個唯一 ID，但您可以在其他資料檢視中使用相同的元件 ID。如果您在其他資料檢視中使用相同的元件 ID，您可以使 Workspace 專案跨資料檢視相容。 |
 | [!UICONTROL 路徑] | 必填。不可編輯的欄位，顯示元件來自的結構路徑。 |
-| [!UICONTROL 資料使用情況標籤] | 分配給此元件的任何資料使用標籤(在Adobe Experience Platform)。 [了解更多](/help/data-views/data-governance.md) |
+| [!UICONTROL 資料使用情況標籤] | 指派給 Adobe Experience Platform 中此元件的任何資料使用標籤。[了解更多](/help/data-views/data-governance.md) |
 | [!UICONTROL 隱藏報告中的元件] | 可讓您從非管理員的資料檢視中組織出元件。管理員仍可以按一下 Analysis Workspace 專案中的「[!UICONTROL 顯示所有元件]」來存取它。 |
 
 {style=&quot;table-layout:auto&quot;}

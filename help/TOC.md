@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 338cb8a4409c9b03461763d97ced6b8a10de2b7b
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
    + [全新 Customer Journey Analytics 使用者使用指南](getting-started/aa-to-cja-user.md)
    + 比較 Adobe Analytics 和 Customer Journey Analytics {#compare-aa-cja}
       + [Customer Journey Analytics 功能支援](getting-started/aa-vs-cja/cja-aa.md)
-      + [比較通過分析源連接器的分析資料的術語](getting-started/aa-vs-cja/terminology.md)
+      + [比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](getting-started/aa-vs-cja/terminology.md)
       + [比較 Adobe Analytics 和 CJA 的資料處理](getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [虛擬報告環境和沙箱環境](getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [處理規則、VISTA 和分類與「資料準備」的比較](getting-started/aa-vs-cja/pr-vista-dataprep.md)
@@ -71,7 +71,7 @@ ht-degree: 97%
       + [值分組](data-views/component-settings/value-bucketing.md)
    + [標準元件參考](data-views/component-reference.md)
    + [資料檢視使用案例](data-views/data-views-usecases.md)
-   + [標籤和策略](data-views/data-governance.md)
+   + [標籤和原則](data-views/data-governance.md)
 + 工作區專案 {#cja-workspace}
    + [Analysis Workspace 總覽](analysis-workspace/home.md)
    + [執行基本分析](analysis-workspace/perform-basic-analysis.md)
@@ -169,7 +169,7 @@ ht-degree: 97%
    + [使用篩選器](report-builder/work-with-filters.md)
    + [篩選器維度](report-builder/filter-dimensions.md)
    + [管理資料區塊](report-builder/manage-reportbuilder.md)
-   + [受限標籤](report-builder/restricted-labels.md)
+   + [受限制的標籤](report-builder/restricted-labels.md)
    + [Report Builder 設定](report-builder/report-builder-settings.md)
 + 元件 {#cja-components}
    + [元件總覽](components/overview.md)
