@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: 94b3e7417b82e9ae3ad080884d4c184bee412c2c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1521'
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 0%
 | --- | --- |
 | 異常偵測 | 完整支援 |
 | Attribution IQ | 完整支援 |
-| 對象發佈 | 完整支援。 在 AA 中稱為「區段發佈」(將區段從工作區傳送到 Experience Cloud)。 [受眾發佈](/help/components/audiences/audiences-overview.md) 將受眾發送到Experience Platform中的即時客戶配置檔案。 |
+| 對象發佈 | 完整支援。 在 AA 中稱為「區段發佈」(將區段從工作區傳送到 Experience Cloud)。 [Audience Publishing](/help/components/audiences/audiences-overview.md) 會將對象發佈到 Experience Platform 中的即時客戶個人檔案。 |
 | 計算量度 | 完整支援；請注意，在傳統 Analysis Workspace 中任何現有的計算量度將不會移前往 CJA。 |
 | 行事曆事件 | 完整支援。 已將行事曆活動實作為工作區內的[註解](/help/components/annotations/overview.md)。 |
-| 分類規則產生器 | 完整支援。已呼叫 CJA 中的[字子串](/help/data-views/component-settings/substring.md)。 在報表時間使用字串操控，而不是查詢資料集。 |
+| 分類規則產生器 | 完整支援。已呼叫 CJA 中的[子字串](/help/data-views/component-settings/substring.md)。 在報表時間使用字串操控，而不是查詢資料集。 |
 | 跨裝置/跨管道拼接 | 完整支援；請參閱[跨管道分析](/help/connections/cca/overview.md)。 |
 | CSV 下載 | 完整支援 |
 | 自訂行事曆 | 完整支援 |
@@ -68,14 +68,14 @@ ht-degree: 0%
 | 進入、退出及逗留的時間等維度和量度 | 系統可支援 (進入與退出現在稱為「工作階段開始」和「工作階段結束」)，不過計算方式稍有不同。 |
 | eVar 持續性設定 | eVar 不再是 CJA 的一部分。 不過持續性設定現在是資料檢視的一部分，可用於所有維度。 請記得，持續性是依據報表時間處理，而非資料收集處理。 「資料檢視」中設定的維度上限為 90 天的持續性，不支援無限制的持續性。 |
 | GeoSegmentation 維度 | 收集到 Adobe Analytics 的所有 GeoSegmentation/地理位置都會透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)流入 CJA。 未使用 Analytics 來源連接器的實作 (例如仰賴 AEP Web SDK 進行數位資料收集的實作) 將不會具有自動執行的完整地理位置查詢：支援國家/地區和美國州別，但不支援城市和郵遞區號。 |
-| IP 模糊化 | 對於使用分析源連接器將資料從Adobe Analytics填充到CJA的CJA客戶：在Adobe Analytics中應用的IP混淆設定會流到您的CJA資料。 您可以根據需要在Adobe Analytics控制這些設定。<p>對於使用Adobe Experience PlatformWeb SDK直接將資料填充到平台和CJA的CJA客戶：您可以使用平台中的資料收集資料準備來配置規則，這些規則將根據您公司的要求對IP地址進行模糊處理。 |
+| IP 模糊化 | 對於使用 Analytics 來源連接器將來自 Adobe Analytics 的資料填入 CJA 的 CJA 客戶：在 Adobe Analytics 流程中套件的 IP 模糊化設定流向 CJA 資料。您可以視需要在 Adobe Analytics 中控制這些設定。<p>對於使用 Adobe Experience Platform Web SDK 將資料直接填入 Platform 和 CJA 的 CJA 客戶：您可以使用 Platform 中資料彙集的資料準備，來設定將根據您公司的需求模糊化 IP 位址的規則。 |
 | 行銷頻道 | 行銷頻道資料會透過 Analytics 來源連接器傳輸至 CJA。 如果您是使用舊版 Adobe Analytics，仍需設定行銷管道規則。 舊版未支援部分規則。 如需詳細資訊，請參閱 [CJA 行銷管道文件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases)。 |
 | 新的與重複工作階段報告 | 在 2022 年 8 月 17 日開始支援，[有 13 個月的回溯期](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat)。 |
 | 產品變數 | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件類型欄位陣列，以符合此使用案例。 在 CJA 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
 | 專案共用 | 專案共用功能僅支援在 CJA 的使用者之間使用 - CJA 與傳統 Analysis Workspace 之間不支援專案共用。 |
 | 視覺效果 | 支援所有視覺效果，但地圖視覺效果除外。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## 部分支援
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 | 面板 | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。不支援區段比較面板和 Analytics for Target (A4T) 面板。 |
 | 處理規則 | 對於以 Analytics 來源連接器為基礎的資料集，仍會套用處理規則。 [Adobe Experience Platform 中的資料準備功能](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)也可用來取代直接送到 Platform 的資料適用的處理規則。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## 目前不支援，但已列入規劃
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 | 即時報表 | 已規劃提供支援。 |
 | 區段 IQ | 已規劃提供支援。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## 尚未規劃提供支援
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 | 摘要資料來源 | 尚未規劃提供支援。 |
 | 交易 ID 資料來源 | 尚未規劃提供支援。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## 永遠不提供支援
 
