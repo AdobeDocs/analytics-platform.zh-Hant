@@ -1,27 +1,27 @@
 ---
-title: Customer Journey Analytics和資料治理
-description: 介紹資料治理在Customer Journey Analytics中的工作方式。
+title: Customer Journey Analytics 和資料控管
+description: 說明資料控管如何在 Customer Journey Analytics 中運作。
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics和資料治理
+# Customer Journey Analytics 和資料控管
 
-一般來說，Customer Journey Analytics中任何與資料治理相關的設定都是從Adobe Experience Platform繼承的。
+一般而言，Customer Journey Analytics 中的任何資料控管相關設定是從 Adobe Experience Platform 繼承。
 
 ## 資料控管
 
-CJA與CJA的整合 [Adobe Experience Platform資料治理](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=en) 允許對敏感CJA資料進行標籤並強制實施隱私策略。
+CJA 與 [Adobe Experience Platform 資料控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant)之間的整合可讓您標示敏感的 CJA 資料強制執行隱私權原則。
 
-可以在CJA資料視圖工作流中顯示在Experience Platform使用的資料集上建立的隱私標籤和策略。 這些標籤會停止或警告從敏感欄位建立度量和/或維的用戶。
+在 Experience Platform 使用的資料集上建立的隱私權標籤和原則，可以在 CJA 資料檢視工作流程中出現。這些標籤會阻止或警告從敏感性欄位建立量度和/和維度的使用者。
 
-此外，當從CJA（通過報告、導出、API等）導出資料時，會添加警告或標籤以通知用戶報告包含需要以特定方式處理的敏感資訊。
+此外，從 CJA (透過報告、匯出、API 等) 匯出資料時，便會新增其他警告或標籤，以通知使用者報告包含需要以特定方式處理敏感性資訊。
 
-此整合使您能夠更輕鬆地管理法規遵從性。 組織中的資料管理員可以設定策略以限制使用。 因此，您的CJA用戶可以更自信地使用資料，因為它遵守了由資料管理員定義的策略。
+此整合可讓您更輕鬆地管理合規性。在您組織中的資料監管員可以設定限制使用的原則。因此，您的 CJA 使用者可以更秘密地使用資料，了解資料符合資料監管員定義的原則。
 
 [了解更多](/help/data-views/data-governance.md)
 
