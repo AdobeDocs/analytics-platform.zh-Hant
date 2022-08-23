@@ -4,9 +4,9 @@ title: 下載 PDF 或 CSV 檔案
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 source-git-commit: 1e2c5d79059a4804416288188ea4740dd94ca33d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -81,9 +81,9 @@ ht-degree: 92%
 
 ![](assets/toast.png)
 
-## 下載敏感資料 {#sensitive}
+## 下載敏感性資料 {#sensitive}
 
-如果 **[!UICONTROL 強制下載]** [資料治理策略](/help/data-views/data-governance.md) 在要報告的資料視圖中啟用，Workspace項目的任何下載（如電子郵件或共用pdf）都將散列標籤為敏感的資料欄位。 您仍然可以在Workspace中對這些欄位進行分析，但是，如果您嘗試通過電子郵件或以其他方式共用項目，則在.pdf或.csv檔案中，被阻止的欄位將顯示為空。
+如果在您報告的資料檢視中開啟&#x200B;**[!UICONTROL 強制下載]** [資料控管原則](/help/data-views/data-governance.md)，工作區專案的任何下載 (例如電子郵件或共用 PDF) 都會將標示為敏感的資料欄位進行雜湊處理。您仍可以對工作區中的這些欄位進行分析，但如果您嘗試寄電子郵件或共用專案，遭封鎖的欄位將在 .pdf 或 .csv 檔案中以空白形式出現。
 
 ## 常見問答 {#faq}
 
