@@ -26,7 +26,7 @@ ht-degree: 100%
 | **Analytics 來源連接器的跨區域支援** | 您現在可以從任何區域擷取報告套裝 (美國、英國或新加坡)。然而，這些報告套裝必須對應至跟 Experience Platform 沙箱例項 (正在建立來源連線之處) 相同的組織。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) | 2022 年 8 月 24 日 |
 | **首次與重複工作階段報告** | 您現在可以探索特定工作階段是否為使用者的首次工作階段。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) | 2022 年 8 月 24 日 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 修正
 
@@ -38,7 +38,7 @@ AN-297141
 | --- | --- | --- |
 | **已改良 IP 對地理位置的對應** | 2022 年 7 月 11 日 | Adobe 的 IP 查詢供應商 Digital Element 正升級到新改良的資料集 (NetAcuity Pulse) 以便用於 IP 對地理位置的對應。 Adobe Analytics 將在 **2022 年 10 月**&#x200B;時間範圍內採用此新的資料集。新資料庫將會比舊版更準確。 在採用新資料庫後，某些 IP 對地理位置的對應將會變更/改良。<p> 透過 Analytics Source Connector 提供的 CJA 資料也將自動利用新的對應。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >[Customer Journey Analytics 文件更新](/help/release-notes/doc-changes.md)
