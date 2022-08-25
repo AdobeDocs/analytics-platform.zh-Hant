@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c3e8e9260030829e38c4267659ab84dcb822e729
-workflow-type: ht
-source-wordcount: '964'
-ht-degree: 100%
+source-git-commit: defe54742fb076fcc048d64db38b13f242247f1d
+workflow-type: tm+mt
+source-wordcount: '993'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 100%
 
 | 日期 | 更新說明 |
 | --- | --- |
+| 2022 年 8 月 | Adobe Experience Platform的文章 [分析源連接器跨區域支援](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) |
+| 2022 年 8 月 | 顯著更新關於 [CJA訪問控制](/help/getting-started/cja-access-control.md) |
 | 2022 年 8 月 | 新增[CJA 支援資料控管標籤和原則](/help/data-views/data-governance.md)的文章 |
 | 2022 年 8 月 | 新增[CJA 中的日期欄位支援](/help/data-views/data-views-usecases.md#date)的區段 |
 | 2022 年 8 月 | 新增[比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](/help/getting-started/aa-vs-cja/terminology.md)的文章 |
