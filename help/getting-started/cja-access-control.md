@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 669b8d6e0c8b8741edf82a83fead6b2030a57d40
+source-git-commit: 7520f068e41d8b91bf9d260b7763cf8c1b946bc4
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '942'
 ht-degree: 17%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 17%
 # CJA 存取控制
 
 Customer Journey Analytics(CJA)由三個訪問級別或三個角色管理：產品管理員角色、產品配置檔案管理員角色和用戶級訪問。 本主題將更詳細地解釋這些角色。
+
+此外，我們還討論了更細緻的訪問限制方法，如工作區建立和行級以及值級訪問控制。
 
 ## 產品管理員角色
 
@@ -76,7 +78,7 @@ Customer Journey Analytics中的用戶無法建立、編輯或查看資料視圖
 
 下面是一個與醫療保健相關的示例：假設你在一個資料視圖中建立一個稱為&quot;高血壓&quot;的度量，從一個包含這些資料的資料集中。 事實上，這是一個指標可以讓你看到這個指標的總值，但不是那些被它所覆蓋的病人。
 
-## CJA權限
+## CJA權限在Admin Console
 
 的 **[!UICONTROL 權限]** 頁籤是每個產品配置檔案的一部分 [Admin Console](https://adminconsole.adobe.com/enterprise/)。 您可以將用戶添加到特定的產品配置檔案。 然後，您為特定資料視圖分配權限，並指定產品配置檔案中的用戶具有哪些權限。 下面是特定於CJA的權限：
 
@@ -86,7 +88,7 @@ Customer Journey Analytics中的用戶無法建立、編輯或查看資料視圖
 | --- | --- |
 | **[!UICONTROL 資料檢視]** | 如果切換 **[!UICONTROL 自動包括]** 至 **[!UICONTROL 開]**，屬於此產品配置檔案的用戶可以查看所有現有和新建立的資料視圖。 如果此設定設定為 **[!UICONTROL 關閉]**，您可以選擇用戶有權訪問的特定資料視圖。 |
 | **[!UICONTROL 報告工具]**: |  |
-| **[!UICONTROL 稽核記錄存取權]** | 目前， [審核日誌](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 僅通過API可用。 此權限用於正在開發的未來UI。 |
+| **[!UICONTROL 稽核記錄存取權]** | 目前， [審核日誌](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 僅通過API可用。 此權限強制對API和即將到來的審核日誌UI執行權限檢查。 |
 | **[!UICONTROL 報告使用情況管理員]** | 允許用戶查看和刪除其公司中運行的任何報表。 （報告使用功能尚未發佈。） |
 | **[!UICONTROL 報告使用情況檢視]** | 允許用戶查看所有併發報告請求。 （報告使用功能尚未發佈。） |
 | **[!UICONTROL 計算度量建立]** | 允許用戶建立 [計算度量](/help/components/calc-metrics/calc-metr-overview.md)。 |
