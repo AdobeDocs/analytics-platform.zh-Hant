@@ -4,10 +4,10 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 72e6c568ccad4c5f74612a1f19758a7b41746836
+source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 100%
+source-wordcount: '1254'
+ht-degree: 92%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ## 3. 在流程圖表中使用數值維度當做「量度」 {#numeric}
 
-您可以使用數值維度，將您的「量度」放入[!UICONTROL 流程]視覺效果中。
+可以使用數字維將「度量」輸入到 [!UICONTROL  流] 可視化。
 
 1. 在「資料檢視[元件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings)」標籤上，將「行銷管道」]結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。[!UICONTROL 
 2. 在工作區報表中，此流量顯示流入[!UICONTROL 訂單]的[!UICONTROL 行銷管道]:
@@ -85,19 +85,19 @@ f. 指定「50」當做值。
 
 有關其他資料檢視設定的詳細資訊，請參閱「[建立資料檢視](/help/data-views/create-dataview.md)」。有關資料檢視的概念性概觀，請參閱「[資料檢視概觀](/help/data-views/data-views.md)」。
 
-## 7. 新的與重複工作階段報告 {#new-repeat}
+## 7。新會話報告 {#new-repeat}
 
 您可以根據您為此資料檢視定義的報告時段及 13 個月的回溯期來判斷工作階段是否真的是使用者的首次工作階段。 例如，此報告可讓您判斷以下問題：
 
-* 您的訂單中有多少百分比來自新的工作階段和重複工作階段？
+* 您的訂單中有多少來自新會話？
 
-* 對於給定的行銷管道或特定行銷活動，您是針對首次使用者還是回訪使用者？這些選擇如何影響轉換率？
+* 對於給定的市場營銷渠道或特定的市場活動，您是否針對首次使用者？ 此選擇如何影響轉換率？
 
-這些元件有助於這份報告：
+兩個構成部分有助於此報告：
 
-* 1 維度：[工作階段類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) - 此維度有兩個值：1) [!UICONTROL 新的] 和 2) [!UICONTROL 回訪]。 [!UICONTROL 新的]條列項目包含已確定為個人定義的首次工作階段的工作階段中的所有行為 (亦即針對此維度的量度)。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
+* 1 維度：[工作階段類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) - 此維度有兩個值：1) [!UICONTROL 新的] 和 2) [!UICONTROL 回訪]。 [!UICONTROL 新的]條列項目包含已確定為個人定義的首次工作階段的工作階段中的所有行為 (亦即針對此維度的量度)。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果度量不是任何會話的一部分，則它們會落入此維的「不適用」儲存段。
 
-* 2 量度：[新的工作階段、回訪工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional)。 新的工作階段定義為個人在報告時段內定義的首次工作階段。 回訪工作階段指的是不是個人的首次工作階段的工作階段數量。
+* 1個指標： [新會話](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional)。 新會話定義為報告窗口內人員定義的第一個會話。
 
 若要存取這些元件：
 
@@ -109,7 +109,7 @@ f. 指定「50」當做值。
 
 * 首次工作階段發生在 13 個月的回溯期之前。 將會忽略此工作階段。
 
-* 工作階段同時橫跨回溯期和報告時段時。 假設您在 2022 年 6 月 1 日至 6 月 15 日期間執行報告。 回溯期將涵蓋 2021 年 5 月 1 日至 2022 年 5 月 31 日。 如果工作階段原本要在 2022 年 5 月 30 日開始，然後在 2022 年 6 月 1 日結束，由於此工作階段包含在回溯期內，因此在此報告期內的所有工作階段全都計為傳回工作階段。
+* 工作階段同時橫跨回溯期和報告時段時。 比方說你在2022年6月1日到6月15日發佈報告。 回溯期將涵蓋 2021 年 5 月 1 日至 2022 年 5 月 31 日。 如果工作階段原本要在 2022 年 5 月 30 日開始，然後在 2022 年 6 月 1 日結束，由於此工作階段包含在回溯期內，因此在此報告期內的所有工作階段全都計為傳回工作階段。
 
 ## 使用日期和日期-時間功能 {#date}
 
