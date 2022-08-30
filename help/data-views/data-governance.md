@@ -3,7 +3,7 @@ title: 標籤和原則
 description: 了解在 AEP 中定義的資料標籤和原則如何影響 CJA 中的資料檢視和報告。
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 source-git-commit: 7962114aaab42a283f1cb35a312b0a707038c31a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
 ht-degree: 100%
 
