@@ -1,32 +1,32 @@
 ---
 title: CJA 存取控制
-description: 瞭解在CJA中實現訪問控制的方法。
+description: 了解在 CJA 中實施存取控制的方法。
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 source-git-commit: 04957adebd848739b8b3609eb35366d8296ee752
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '945'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
 # CJA 存取控制
 
-Customer Journey Analytics(CJA)由三個訪問級別或三個角色管理：產品管理員角色、產品配置檔案管理員角色和用戶級訪問。 本主題將更詳細地解釋這些角色。
+Customer Journey Analytics (CJA) 由三個存取層級或三個角色管理：產品管理員角色、產品設定檔管理員角色和使用者層級存取權。本主題將更詳細地說明這些角色。
 
-此外，我們還討論了更細緻的訪問限制方法，如工作區建立和行級以及值級訪問控制。
+此外，我們還將討論使用更細微的方法來限制存取，例如 Workspace 管理和列層級以及值層級存取控制。
 
 ## 產品管理員角色
 
-產品管理員有權在CJA內完成任何必要的任務。 您必須作為產品管理員添加到 **Customer Journey Analytics產品配置檔案** 的 [Admin Console](https://adminconsole.adobe.com/enterprise/) 在 [!UICONTROL Customer Journey Analytics] > [!UICONTROL 管理員] 頁籤 [!UICONTROL 添加管理員]。 產品管理員可獲得下列權限：
+產品管理員有權在 CJA 中完成任何必要的任務。您必須在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 的 [!UICONTROL Customer Journey Analytics] > [!UICONTROL 管理員]索引標籤 > [!UICONTROL 新增管理員]底下，將自己新增為 **Customer Journey Analytics 產品設定檔**&#x200B;的產品管理員。產品管理員可獲得下列權限：
 
 * 建立/更新/刪除連線或資料檢視
-* 更新/刪除由其他用戶建立的項目、篩選器、計算度量、受眾、注釋或篩選器
-* 與所有使用者共用工作區專案
+* 更新/刪除專案、篩選器、計算量度、對象、註解或其他使用者建立的篩選器
+* 與所有使用者共用 Workspace 專案
 
-僅在Customer Journey Analytics中成為產品管理員是不夠的，無法建立、更新或刪除 [連接](/help/connections/overview.md)。 若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
+光是成為 Customer Journey Analytics 中的產品管理員仍無法建立、更新或刪除 [連線](/help/connections/overview.md)。若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
 
 * 資料模型製作：檢視結構描述、管理結構描述
 * 資料管理：檢視資料集、管理資料集
@@ -35,67 +35,67 @@ Customer Journey Analytics(CJA)由三個訪問級別或三個角色管理：產�
 
 如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)。
 
-## 產品配置檔案管理員角色
+## 產品設定檔管理員角色
 
-產品配置檔案是一組權限。 產品配置檔案管理員可以
+產品設定檔是一組權限。產品設定檔管理員可以
 
-* 建立和管理單個產品配置檔案，如添加新用戶或管理用戶組及其關聯的產品配置檔案。
+* 建立和管理單一產品設定檔，例如新增使用者或管理使用者群組及其關聯的產品設定檔。
 
-* 在CJA中，編輯資料視圖，這些資料視圖是他們管理的產品配置檔案的一部分。 他們無法建立新資料視圖。
+* 在 CJA 中，編輯作為其管理產品設定檔一部分的資料檢視。他們無法建立新的資料檢視。
 
-## 用戶級訪問
+## 使用者層級存取權
 
-Customer Journey Analytics中的用戶無法建立、編輯或查看資料視圖或連接。 用戶可以在Admin Console中建立具有特殊權限的篩選器、項目、訪問群體和計算度量。
+Customer Journey Analytics 中的使用者無法建立、編輯、查看資料檢視或連線。使用者可以在 Admin Console 中建立具有特殊權限的篩選器、專案、對象和計算量度。
 
-## 工作區項目建立
+## Workspace 專案管理
 
-可以在工作區報告級別使用另一級訪問控制。 您可以限制某些用戶對特定元件的訪問。 有關如何在Workspace項目級別限制元件（尺寸、度量、段、日期範圍）以及將建立與資料視圖關聯的詳細資訊，請參閱 [建立項目](/help/analysis-workspace/curate-share/curate.md)。
+另一個層級的存取控制可用於 Workspace 報告層級。您可以限制某些使用者對特定元件的存取權。有關如何在 Workspace 專案層級限制元件 (維度、量度、客戶細分、日期範圍) 以及管理如何與資料檢視相關聯的更多資訊，請參閱[管理專案](/help/analysis-workspace/curate-share/curate.md)。
 
 ## 授與個別量度或維度的存取權
 
-當您使用 Customer Journey Analytics 時，無法像在傳統 Adobe Analytics 中一樣為個別量度或維度授予或拒絕權限。 可以在中修改度量和維 [資料視圖](/help/data-views/data-views.md) 因此在CJA中可能發生變化。 更改它們還追溯更改報告。
+當您使用 Customer Journey Analytics 時，無法像在傳統 Adobe Analytics 中一樣為個別量度或維度授予或拒絕權限。量度和維度可以在[資料檢視](/help/data-views/data-views.md)中修改，所以可能會在 CJA 中有所變動。變更它們也會回溯性地變更報告。
 
 ## 使用案例
 
-以下幾個使用案例說明了如何在現實環境中使用訪問控制。
+以下幾個使用案例說明了如何在現實生活場景中使用存取控制。
 
-### 第三方訪問
+### 協力廠商存取
 
-您公司與之合作的第三方有一個團隊負責人，該團隊負責人可以成為「產品配置檔案」管理員。 然後，此管理員可以將其團隊中的用戶添加到此產品配置檔案。 此管理員可授予對特定資料視圖的訪問權限，並將其他用戶添加到此產品配置檔案。 他們還可以修改他們有權控制的那些資料視圖以滿足其團隊的需求。
+與貴公司合作的協力廠商的團隊負責人可以成為產品資料管理員。然後，此管理員可以將其團隊中的使用者新增到此產品設定檔中。此管理員可以授予特定資料檢視的存取權，並將其他使用者新增到此產品設定檔中。他們還可以修改他們可以控制的資料檢視以滿足團隊的需求。
 
-### 行級訪問控制
+### 列層級存取控制
 
-假設您希望僅讓用戶從一天開始訪問資料。 以下是您如何限制對這些特定行的訪問：
+假設您只想讓使用者存取一天內的資料。您可以用以下方法限制這些特定列的存取：
 
-1. 在CJA中建立篩選器，其中 **[!UICONTROL 日]** 等於您希望他們具有資料存取權限的日期。
-1. 在 [!UICONTROL 資料視圖] > [!UICONTROL 設定]，將該篩選器添加到資料視圖。
-1. 保存資料視圖，並自動將篩選器應用於資料集。 現在，任何不符合篩選器定義的行都會自動從編輯的資料視圖中排除。
-1. 在Admin Console中建立新產品配置檔案，向其添加用戶並限制其對此資料視圖的訪問。
+1. 在 CJA 中建立一個篩選器，其中&#x200B;**[!UICONTROL 日期]**&#x200B;為您希望他們存取資料的日期。
+1. 在[!UICONTROL 資料檢視] > [!UICONTROL 設定] 中，將該過資料新增到資料檢視。
+1. 儲存資料檢視，它會自動將篩選器套用至資料集。現在，任何不符合篩選器定義的列都會自動從編輯的資料檢視中排除。
+1. 在 Admin Console 中建立新的產品設定檔，將使用者新增到其中並限制他們對該資料檢視的存取。
 
-### 值級訪問控制
+### 值層級存取控制
 
-有權訪問資料視圖的用戶只能使用管理員在此資料視圖中包括的度量和維。 管理員可以使用 [包括/排除功能](/help/data-views/component-settings/include-exclude-values.md) 例如，在資料視圖中，從資料視圖中排除某些維值。
+有權存取資料檢視的使用者只能使用管理員已包含在此資料檢視中的量度和維度。管理員可以在資料檢視中使用 [](/help/data-views/component-settings/include-exclude-values.md) 包含/排除功能，以從資料檢視中排除某些維度值。
 
-下面是一個與醫療保健相關的示例：假設你在一個資料視圖中建立一個稱為&quot;高血壓&quot;的度量，從一個包含這些資料的資料集中。 事實上，這是一個指標可以讓你看到這個指標的總值，但不是那些被它所覆蓋的病人。
+以下是與醫療保健相關的範例：假設您從包含此資料的資料集在資料檢視中建立了一個名為「高血壓」的量度。此量度可讓您看到該量度的彙總值，但不能看到屬於該量度的個別患者。
 
-## CJA權限在Admin Console
+## Admin Console 中的 CJA 權限
 
-的 **[!UICONTROL 權限]** 頁籤是每個產品配置檔案的一部分 [Admin Console](https://adminconsole.adobe.com/enterprise/)。 您可以將用戶添加到特定的產品配置檔案。 然後，您為特定資料視圖分配權限，並指定產品配置檔案中的用戶具有哪些權限。 下面是特定於CJA的權限：
+[Admin Console](https://adminconsole.adobe.com/enterprise/) 中每個產品設定檔都有&#x200B;**[!UICONTROL 權限]**&#x200B;索引標籤。您可以將使用者新增到特定的產品設定檔。然後，將權限指派給指定的資料檢視，並指定產品設定檔中的使用者擁有哪些權限。以下是 CJA 特定的權限：
 
-![管理控制台權限](assets/permissions.png)
+![Admin Console 權限](assets/permissions.png)
 
 | 權限 | 定義 |
 | --- | --- |
-| **[!UICONTROL 資料檢視]** | 如果切換 **[!UICONTROL 自動包括]** 至 **[!UICONTROL 開]**，屬於此產品配置檔案的用戶可以查看所有現有和新建立的資料視圖。 如果此設定設定為 **[!UICONTROL 關閉]**，您可以選擇用戶有權訪問的特定資料視圖。 |
-| **[!UICONTROL 報告工具]**: |  |
-| **[!UICONTROL 稽核記錄存取權]** | 目前， [審核日誌](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 僅通過API可用。 此權限強制對API和即將到來的審核日誌UI執行權限檢查。 |
-| **[!UICONTROL 報告使用情況管理員]** | 允許用戶查看和刪除其公司中運行的任何報表。 （報告使用功能尚未發佈。） |
-| **[!UICONTROL 報告使用情況檢視]** | 允許用戶查看所有併發報告請求。 （報告使用功能尚未發佈。） |
-| **[!UICONTROL 計算度量建立]** | 允許用戶建立 [計算度量](/help/components/calc-metrics/calc-metr-overview.md)。 |
-| **[!UICONTROL 篩選器建立]** | 允許用戶建立 [篩選](/help/components/filters/filters-overview.md)。 |
-| **[!UICONTROL Labs 存取]** | 允許用戶訪問 [實驗室](/help/labs/labs.md) 的子菜單。 |
-| **[!UICONTROL 附註建立]** | 允許用戶建立 [注釋](/help/components/annotations/overview.md)。 |
-| **[!UICONTROL 對象建立]** | 允許用戶建立 [觀眾](/help/components/audiences/audiences-overview.md)。 |
-| **[!UICONTROL 對象檢視]** | 允許用戶查看 [觀眾](/help/components/audiences/audiences-overview.md)。 |
+| **[!UICONTROL 資料檢視]** | 如果您將&#x200B;**[!UICONTROL 自動包含]**&#x200B;切換為&#x200B;**[!UICONTROL 開啟]**，則屬於此產品設定檔的使用者可以查看所有現有和新建立的資料檢視。如果此項設定為&#x200B;**[!UICONTROL 關閉]**，您可以選擇使用者有權存取的特定資料檢視。 |
+| **[!UICONTROL 報告工具]**： |  |
+| **[!UICONTROL 稽核記錄存取權]** | 目前，[稽核記錄](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 只能透過 API 取得。此權限會強制對 API 和即將推出的稽核記錄 UI 進行權限檢查。 |
+| **[!UICONTROL 報告使用情況管理員]** | 可讓使用者查看和刪除在其公司中執行的任何報告。(報告使用情況功能尚未發佈。) |
+| **[!UICONTROL 報告使用情況檢視]** | 可讓使用者查看所有並行報告要求。(報告使用情況功能尚未發佈。) |
+| **[!UICONTROL 建立計算量度]** | 可讓使用者建立[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 |
+| **[!UICONTROL 建立篩選器]** | 可讓使用者建立[篩選器](/help/components/filters/filters-overview.md)。 |
+| **[!UICONTROL Labs 存取]** | 可讓使用者存取 CJA 中的 [Labs](/help/labs/labs.md) 索引標籤。 |
+| **[!UICONTROL 建立註解]** | 可讓使用者建立[註解](/help/components/annotations/overview.md)。 |
+| **[!UICONTROL 建立對象]** | 可讓使用者建立[對象](/help/components/audiences/audiences-overview.md)。 |
+| **[!UICONTROL 對象檢視]** | 可讓使用者查看[對象](/help/components/audiences/audiences-overview.md)。 |
 
 {style=&quot;table-layout:auto&quot;}
