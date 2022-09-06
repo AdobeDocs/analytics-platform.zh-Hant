@@ -3,16 +3,16 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新 CJA 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+source-git-commit: c7dd23b7cf0a624c98691646ba4c55d748bc0dcf
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 96%
 
 ---
 
 # 目前的 Customer Journey Analytics (CJA) 發行說明 (2022 年 8 月)
 
-**最新更新**：2022 年 8 月 25 日
+**上次更新**:2022年9月6日
 
 ## 主要功能
 
@@ -25,6 +25,7 @@ ht-degree: 100%
 | **CJA 中的日期欄位支援** | 允許 CJA 報告日期和日期時間欄位。[了解更多](/help/data-views/data-views-usecases.md#date) | 2022 年 8 月 17 日 |
 | **Analytics 來源連接器的跨區域支援** | 您現在可以從任何區域擷取報告套裝 (美國、英國或新加坡)。然而，這些報告套裝必須對應至跟 Experience Platform 沙箱例項 (正在建立來源連線之處) 相同的組織。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) | 2022 年 8 月 24 日 |
 | **首次工作階段報告** | 您現在可以探索特定工作階段是否為使用者的首次工作階段。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) | 2022 年 8 月 24 日 |
+| **重複工作階段報告** | 探索特定工作階段是否為使用者的回訪工作階段。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=en#new-repeat) | 2022年9月8日 |
 
 {style=&quot;table-layout:auto&quot;}
 

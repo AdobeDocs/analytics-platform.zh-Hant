@@ -4,10 +4,10 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 6e22766b1730a34fc6219f66174e2dbd575cfa14
-workflow-type: ht
-source-wordcount: '1254'
-ht-degree: 100%
+source-git-commit: c7dd23b7cf0a624c98691646ba4c55d748bc0dcf
+workflow-type: tm+mt
+source-wordcount: '1280'
+ht-degree: 98%
 
 ---
 
@@ -93,11 +93,15 @@ f. 指定「50」當做值。
 
 * 對於指定的行銷管道或特定行銷活動，您是否針對首次使用者？這項選擇如何影響轉換率？
 
-有兩個元件有助於這份報告：
+這些元件有助於這份報告：
 
 * 1 維度：[工作階段類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) - 此維度有兩個值：1) [!UICONTROL 新的] 和 2) [!UICONTROL 回訪]。 [!UICONTROL 新的]條列項目包含已確定為個人定義的首次工作階段的工作階段中的所有行為 (亦即針對此維度的量度)。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
 
-* 1 量度：[新工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional)。新的工作階段定義為個人在報告時段內定義的首次工作階段。
+* 2個量度：
+
+   * [新工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). 新的工作階段定義為個人在報告時段內定義的首次工作階段。
+
+   * [傳回工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) 回訪課程是指非人員首次造訪的課程數。
 
 若要存取這些元件：
 
