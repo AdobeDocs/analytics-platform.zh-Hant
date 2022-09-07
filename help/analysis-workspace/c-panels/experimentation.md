@@ -3,10 +3,10 @@ description: 了解如何在 CJA Experimentation 面板中分析 A/B 測試的�
 title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 870fe0f441ad95e5faec569f05fe4d67954b18a5
+source-git-commit: 7246c019b01a4d9478309bc09bec757561f602d0
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 86%
+source-wordcount: '1326'
+ht-degree: 85%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 86%
 
 ![內容標籤](assets/context-label.png)
 
-如果沒有這些標籤，Experiment 面板將因沒有可用的實驗而無法運作。
+若未顯示這些標籤，「實驗」面板將無法運作，因為沒有可使用的實驗。
 
 ## 步驟 3：設定 Experiment 面板
 
@@ -70,13 +70,9 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 
 您還將收到文字摘要，以表示實驗是否具有結論性，並總結結果。結論性是以統計顯著性為基礎。(參見下方的「統計方法」。)您可以查看具有最高提升度和信賴度的最佳表現變體總結數字。
 
->[!NOTE]
->
->提升度和信賴度也是 CJA 中的[進階計算量度函數](/help/components/calc-metrics/cm-adv-functions.md)，因此您可以建置自己的提升度和信賴度量度。
+對於您選取的每個成功量度，都會顯示一個自由表格和一個轉換率趨勢。
 
 ![實驗輸出](assets/exp-output1.png)
-
-對於您選取的每個成功量度，都會顯示一個自由表格和一個轉換率趨勢。
 
 [!UICONTROL 折線圖]可提供[!UICONTROL 控制]與[!UICONTROL 控制變體]的表現：
 
@@ -85,6 +81,10 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 >[!NOTE]
 >
 >該面板目前不支援 A/A 測試分析。
+
+>[!NOTE]
+>
+>提升度和信賴度也是 CJA 中的[進階計算量度函數](/help/components/calc-metrics/cm-adv-functions.md)，因此您可以建置自己的提升度和信賴度量度。
 
 ## 步驟5:解譯結果
 
