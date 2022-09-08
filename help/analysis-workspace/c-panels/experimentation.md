@@ -3,10 +3,10 @@ description: 了解如何在 CJA Experimentation 面板中分析 A/B 測試的�
 title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 7246c019b01a4d9478309bc09bec757561f602d0
+source-git-commit: 31f29e9453d252f119a4fa7c26f96e9f01ed2abf
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 85%
+source-wordcount: '1401'
+ht-degree: 80%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 85%
 所有 Customer Journey Analytics (CJA) 的使用者都能使用 Experimentation 面板。不需要管理員權限或其他權限。但是，進行設定 (下方的步驟 1 和 2) 所需的動作只有管理員才能執行。
 
 ## 步驟 1：建立與實驗資料集的連接
+
+建議的資料模式是讓實驗資料位於 [物件陣列](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=en) 包含兩個不同維度的實驗和變體資料。 如果您的實驗資料位於單一維度中，而實驗資料位於分隔字串中，則可使用 [子字串](/help/data-views/component-settings/substring.md) 在資料檢視中設定，將其分割為兩個，以便用於面板。
 
 將您的實驗資料[引入](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) Adobe Experience Platform 後，[在 CJA 中建立與一個或多個實驗資料集的連接](/help/connections/create-connection.md)。
 
@@ -76,7 +78,7 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 
 [!UICONTROL 折線圖]可提供[!UICONTROL 控制]與[!UICONTROL 控制變體]的表現：
 
-![實驗輸出](assets/exp-output2.png)
+![折線圖輸出](assets/exp-output2.png)
 
 >[!NOTE]
 >
