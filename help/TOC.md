@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 5eebcccc45b9760ecc18ec94ca526f2082d089bc
+source-git-commit: 17b586ec3a1579db5dd7f1982d844e8327301289
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 100%
+source-wordcount: '757'
+ht-degree: 96%
 
 ---
 
@@ -230,6 +230,11 @@ ht-degree: 100%
    + [設定使用控制面板的高階主管](mobile-app/set-up-execs.md)
    + [高階主管使用者快速入門指南](mobile-app/executive.md)
 + 使用案例 {#cja-usecases}
+   + Google Analytics資料 {#ga}
+      + [將資料從Google Analytics移轉至CJA概觀](use-cases/ga/overview.md)
+      + [將Google Analytics歷史資料內嵌至Platform](use-cases/ga/backfill.md)
+      + [將串流Google Analytics資料設定至Platform](use-cases/ga/streaming.md)
+      + [報告 CJA 中的 Google Analytics 資料](use-cases/ga/report.md)
    + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [結合報告套裝與不同的結構描述](use-cases/combine-report-suites.md)
    + [使用物件陣列](use-cases/object-arrays.md)
@@ -241,8 +246,6 @@ ht-degree: 100%
    + [匯入客服中心和網頁的資料](use-cases/call-center.md)
    + [資料擷取使用案例](use-cases/data-ingestion.md)
    + [使用行銷管道維度](use-cases/marketing-channels.md)
-   + [將 Google Analytics 資料擷取至 Adobe Experience Platform](use-cases/ga-to-cja.md)
-   + [報告 CJA 中的 Google Analytics 資料](use-cases/ga-to-cja-reporting.md)
 + Labs {#labs}
    + [Labs 使用手冊](labs/labs.md)
 + 疑難排解 {#troubleshooting}

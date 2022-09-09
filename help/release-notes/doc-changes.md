@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 40256c151fbc5582a198cc17a63efad9189cb6c2
+source-git-commit: 5526e903da45fa2206d6d6fd70ea71d8452687e4
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 98%
+source-wordcount: '1024'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日期 | 更新說明 |
 | --- | --- |
+| 2022 年 9 月 | 的新使用案例 [將Google Analytics資料移轉至CJA](/help/use-cases/ga/overview.md). |
 | 2022 年 9 月 | 新主題 [組合圖](/help/analysis-workspace/visualizations/combo-charts.md) 在工作區中。 |
 | 2022 年 9 月 | 新主題 [實驗面板](/help/analysis-workspace/c-panels/experimentation.md) 在工作區中。 |
 | 2022 年 8 月 | 有關[Analytics 來源連接器的跨區域支援](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)的 Adobe Experience Platform 文章。 |
@@ -74,7 +75,7 @@ ht-degree: 98%
 | 2021 年 4 月 | 有關[持續性](/help/data-views/component-settings/persistence.md)的新主題。 |
 | 2021 年 4 月 | 有關「工作區」中支援排定專案的新文件。 |
 | 2021 年 4 月 | 有關[強化「資料檢視」體驗](/help/data-views/data-views.md)的新主題。 |
-| 2021 年 4 月 | 有關[擷取 Google Analytics 資料](/help/use-cases/ga-to-cja.md)和[分析該資料](/help/use-cases/ga-to-cja-reporting.md)的新主題。 |
+| 2021 年 4 月 | 有關[擷取 Google Analytics 資料](/help/use-cases/ga/overview.md)和[分析該資料](/help/use-cases/ga/report.md)的新主題。 |
 | 2021 年 4 月 | 有關「工作區」中[排程報告](/help/analysis-workspace/curate-share/t-schedule-report.md)的新增主題。 |
 | 2021 年 4 月 | 有關 [CJA 中高基數維度](/help/components/dimensions/high-cardinality.md)的新主題。 |
 | 2021 年 3 月 | 有關支援 [Analytics 儀表板](/help/mobile-app/home.md) (行動應用程式) 的新增主題。 |
