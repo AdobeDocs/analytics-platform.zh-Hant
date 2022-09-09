@@ -3,9 +3,9 @@ description: 了解如何在CJA實驗面板中分析A/B測試的結果。
 title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 41cca39d73773af09981bde10c93c767ebdb77d4
+source-git-commit: 23ea60d785bbee62aab66c0e74be70b34e5d5642
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1379'
 ht-degree: 79%
 
 ---
@@ -83,10 +83,6 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 >[!NOTE]
 >
 >該面板目前不支援 A/A 測試分析。
-
->[!NOTE]
->
->提升度和信賴度也是 CJA 中的[進階計算量度函數](/help/components/calc-metrics/cm-adv-functions.md)，因此您可以建置自己的提升度和信賴度量度。
 
 ## 步驟5:解譯結果
 
