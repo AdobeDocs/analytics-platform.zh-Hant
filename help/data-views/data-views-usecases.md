@@ -4,9 +4,9 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c7dd23b7cf0a624c98691646ba4c55d748bc0dcf
+source-git-commit: 80f31a77df68dca91c1f9f5a0d521b0ea7d450ce
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '979'
 ht-degree: 98%
 
 ---
@@ -93,17 +93,15 @@ f. 指定「50」當做值。
 
 * 對於指定的行銷管道或特定行銷活動，您是否針對首次使用者？這項選擇如何影響轉換率？
 
-這些元件有助於這份報告：
+有一個量度可促進此報告：
 
-* 1 維度：[工作階段類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) - 此維度有兩個值：1) [!UICONTROL 新的] 和 2) [!UICONTROL 回訪]。 [!UICONTROL 新的]條列項目包含已確定為個人定義的首次工作階段的工作階段中的所有行為 (亦即針對此維度的量度)。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
+<!--* 1 dimension: [Session type](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) - This dimension has two values: 1) [!UICONTROL New] and 2) [!UICONTROL Returning]. The [!UICONTROL New] line item includes all of the behavior (i.e. metrics against this dimension) from a session that has been determined to be a person's defined first session. Everything else is included in the [!UICONTROL Returning] line item (assuming everything belongs to a session). Where metrics are not part of any session, they fall into the 'Not applicable' bucket for this dimension.-->
 
-* 2個量度：
+* [新工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional). 新的工作階段定義為個人在報告時段內定義的首次工作階段。
 
-   * [新工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional). 新的工作階段定義為個人在報告時段內定義的首次工作階段。
+   <!--* [Return sessions](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) Return sessions is the number of sessions that were not a person's first-ever session.-->
 
-   * [傳回工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) 回訪課程是指非人員首次造訪的課程數。
-
-若要存取這些元件：
+若要存取此元件：
 
 1. 前往資料檢視編輯器。
 1. 按一下左側邊欄中的「**[!UICONTROL 元件]** > **[!UICONTROL 可選標準元件]**」索引標籤。
@@ -115,20 +113,20 @@ f. 指定「50」當做值。
 
 * 工作階段同時橫跨回溯期和報告時段時。 假設您在 2022 年 6 月 1 日至 6 月 15 日期間執行報告。回溯期將涵蓋 2021 年 5 月 1 日至 2022 年 5 月 31 日。如果工作階段原本要在 2022 年 5 月 30 日開始，然後在 2022 年 6 月 1 日結束，由於此工作階段包含在回溯期內，因此在此報告期內的所有工作階段全都計為傳回工作階段。
 
-## 使用日期和日期-時間功能 {#date}
+<!--## Use the Date and Date-Time functionality {#date}
 
-Adobe Experience Platform 中的結構描述包含「[!UICONTROL 日期]」和「[!UICONTROL 日期-時間]」欄位。CJA 資料檢視現在支援這些欄位。將這些欄位做為維度拖曳至資料檢視時，您可以指定其[格式](/help/data-views/component-settings/format.md)。 此格式設定決定欄位如何在報告中顯示。例如：
+Schemas in Adobe Experience Platform contain [!UICONTROL Date] and [!UICONTROL Date-Time] fields. CJA data views now support these fields. When you drag these fields into a data view as a dimension, you can specify their [format](/help/data-views/component-settings/format.md). This format setting determines how the fields are displayed in reporting. For example:
 
-* 就日期格式而言，如果您選取格式為&#x200B;**[!UICONTROL 月、日、年]**&#x200B;的&#x200B;**[!UICONTROL 日]**，報告的範例輸出可能會是這樣：August 23, 2022。
+* For the Date format, if you select **[!UICONTROL Day]** with the format **[!UICONTROL Month, Day, Year]**, an example output in reporting might look like: August 23, 2022.
 
-* 就日期-時間格式而言，如果您選取格式為&#x200B;**[!UICONTROL 時:分]**&#x200B;的&#x200B;**[!UICONTROL 當日的分鐘]**，您的輸出可能會是這樣：20:20。
+* For the Date-Time format, if you select **[!UICONTROL Minute of Day]** with the format **[!UICONTROL Hour:Minute]**, your output might look like: 20:20.
 
-### 範例使用案例:
+### Example use cases:
 
-* 日期：旅行社正在收集旅程的出發日期，並將出發日期做為其資料中的欄位。他們想要有一份報告對所有已收集的出發日期，比較[!UICONTROL 當週的特定日期]，以了解哪一天最受歡迎。他們想要對[!UICONTROL 一年的月次]做同樣工作。
+* Date: A travel company is collecting the departure date for trips as a field in their data. They would like to have a report which compares the [!UICONTROL Day of Week] for all departure dates collected to understand which is most popular. They would like to do the same for [!UICONTROL Month of Year].
 
-* 日期-時間：零售公司正在收集店內銷售點 (POS) 每次購買的時間。在指定的月份內，他們可能想要依[!UICONTROL 當天特定時間]，了解做防鰻的購物期間。
+* Date-Time: A retail company is collecting the time for each of their in-store point-of-sale (POS) purchases. Over a given month, they would like to understand the busiest shopping periods by [!UICONTROL Hour of Day].
 
 >[!MORELIKETHIS]
->[在格式元件設定](/help/data-views/component-settings/format.md)中的日期和日期-時間
+>[Date and Date-Time in the Format component setting](/help/data-views/component-settings/format.md)-->
 

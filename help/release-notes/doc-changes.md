@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: defe54742fb076fcc048d64db38b13f242247f1d
-workflow-type: ht
-source-wordcount: '993'
-ht-degree: 100%
+source-git-commit: 40256c151fbc5582a198cc17a63efad9189cb6c2
+workflow-type: tm+mt
+source-wordcount: '1013'
+ht-degree: 98%
 
 ---
 
@@ -15,29 +15,32 @@ ht-degree: 100%
 
 從開始建立 CJA 文件以來，已對其完成以下更新。
 
+## 2022年
+
 | 日期 | 更新說明 |
 | --- | --- |
-| 2022 年 8 月 | 有關[Analytics 來源連接器的跨區域支援](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)的 Adobe Experience Platform 文章 |
-| 2022 年 8 月 | 有關 [CJA 存取控制](/help/getting-started/cja-access-control.md)的文章推出重大更新。 |
-| 2022 年 8 月 | 新增[CJA 支援資料控管標籤和原則](/help/data-views/data-governance.md)的文章 |
-| 2022 年 8 月 | 新增[CJA 中的日期欄位支援](/help/data-views/data-views-usecases.md#date)的區段 |
-| 2022 年 8 月 | 新增[比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](/help/getting-started/aa-vs-cja/terminology.md)的文章 |
-| 2022 年 8 月 | 新增[將對象發佈到即時客戶個人檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html)的文件 |
+| 2022 年 9 月 | 新主題 [組合圖](/help/analysis-workspace/visualizations/combo-charts.md) 在工作區中。 |
+| 2022 年 9 月 | 新主題 [實驗面板](/help/analysis-workspace/c-panels/experimentation.md) 在工作區中。 |
+| 2022 年 8 月 | 有關[Analytics 來源連接器的跨區域支援](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)的 Adobe Experience Platform 文章。 |
+| 2022 年 8 月 | 有關 [CJA 存取控制](/help/getting-started/cja-access-control.md)的文章推出重大更新。。 |
+| 2022 年 8 月 | 新增[CJA 支援資料控管標籤和原則](/help/data-views/data-governance.md)的文章。 |
+| 2022 年 8 月 | 新增[比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](/help/getting-started/aa-vs-cja/terminology.md)的文章。 |
+| 2022 年 8 月 | 新增[將對象發佈到即時客戶個人檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html)的文件。 |
 | 2022 年 7 月 | [「媒體播放時間」面板](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html)文件。 |
 | 2022 年 7 月 | [「媒體同時檢閱者」面板](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html)文件。 |
-| 2022 年 7 月 | [首次與重複工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat)報告文件。 |
+| 2022 年 7 月 | [第一個工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) 報表檔案。 |
 | 2022 年 6 月 | 關於 [AAID、ECID、ACUSTOMID 和分析來源連接器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aaid-ecid-adc.html)的新文章 |
-| 2022 年 6 月 | 新增 [Adobe Analytics 處理規則、VISTA 和分類與 Analytics 來源連接器的「資料準備」的比較](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)的文章 |
-| 2022 年 6 月 | 新增[虛擬報告環境和沙箱環境](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)的文章 |
-| 2022 年 6 月 | 新增[比較 Adobe Analytics 和 CJA 報告功能的資料處理](/help/getting-started/aa-vs-cja/data-processing-comparisons.md)的文章 |
-| 2022 年 6 月 | 新增[結合報告套裝與不同的結構描述](/help/use-cases/combine-report-suites.md)文章 |
-| 2022 年 6 月 | 新增[以行動計分卡共用註解](/help/components/annotations/mobile-annotations.md)的文章 |
-| 2022 年 6 月 | 新增 [CJA 中的 Analytics Labs](/help/labs/labs.md) 的文章 |
-| 2022 年 6 月 | 新增[支援數值欄位做為查閱鍵和查閱值](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric)的區段 |
-| 2022 年 6 月 | 更新[流量視覺效果工作流程](/help/analysis-workspace/visualizations/c-flow/create-flow.md) |
+| 2022 年 6 月 | 新增 [Adobe Analytics 處理規則、VISTA 和分類與 Analytics 來源連接器的「資料準備」的比較](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)的文章。 |
+| 2022 年 6 月 | 新增[虛擬報告環境和沙箱環境](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)的文章。 |
+| 2022 年 6 月 | 新增[比較 Adobe Analytics 和 CJA 報告功能的資料處理](/help/getting-started/aa-vs-cja/data-processing-comparisons.md)的文章。 |
+| 2022 年 6 月 | 新增[結合報告套裝與不同的結構描述](/help/use-cases/combine-report-suites.md)文章。 |
+| 2022 年 6 月 | 新增[以行動計分卡共用註解](/help/components/annotations/mobile-annotations.md)的文章。 |
+| 2022 年 6 月 | 新增 [CJA 中的 Analytics Labs](/help/labs/labs.md) 的文章。 |
+| 2022 年 6 月 | 新增[支援數值欄位做為查閱鍵和查閱值](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric)的區段。 |
+| 2022 年 6 月 | 更新[流量視覺效果工作流程](/help/analysis-workspace/visualizations/c-flow/create-flow.md). |
 | 2022 年 5 月 | 有關在 CJA 中[建立連線](/help/connections/create-connection.md)的文章推出重大更新。 |
-| 2022 年 5 月 | 有關如何[在 CJA Report Builder 中管理資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html)的新文章 |
-| 2022 年 5 月 | 有關[將 Adobe Experience Platform 對象帶進 CJA](/help/use-cases/ingest-aep-segments.md) 的新文章 |
+| 2022 年 5 月 | 有關如何[在 CJA Report Builder 中管理資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html)的新文章。 |
+| 2022 年 5 月 | 有關[將 Adobe Experience Platform 對象帶進 CJA](/help/use-cases/ingest-aep-segments.md) 的新文章。 |
 | 2022 年 4 月 | [維度子字串](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html)文件。 |
 | 2022 年 4 月 | 最新[Adobe Analytics 使用者的 CJA 使用指南](/help/getting-started/aa-to-cja-user.md)。 |
 | 2022 年 3 月 | 最新[CJA 註解 API 文件](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)。 |
@@ -47,6 +50,13 @@ ht-degree: 100%
 | 2022 年 1 月 | [在 CJA 中使用繫結維度和量度](/help/use-cases/binding-dimensions-metrics.md)的新使用案例 |
 | 2022 年 1 月 | 新增關於[繫結維度和量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)，以及新的[[!UICONTROL 最先已知]和[!UICONTROL 最後已知]配置設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings)的新功能文件 |
 | 2022 年 1 月 | [將您的 Adobe Analytics 資料與 CJA 中的 Analytics 資料進行比較](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html)的新文章 |
+
+{style=&quot;table-layout:auto&quot;}
+
+## 2021年
+
+| 日期 | 更新說明 |
+| --- | --- |
 | 2021 年 11 月 | 「連線詳細資料」頁面「[[!UICONTROL 略過的記錄]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html)」更新文件。 |
 | 2021 年 10 月 | 完成 CJA 中 [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html#) 的文件。 |
 | 2021 年 10 月 | Customer Journey Analytics [稽核紀錄](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API 文件 |
@@ -72,6 +82,13 @@ ht-degree: 100%
 | 2021 年 2 月 | 有關使用 [Adobe Experience Platform 中的「行銷管道」維度](/help/use-cases/marketing-channels.md)的新主題。 |
 | 2021 年 2 月 | 發佈新的 [CJA API](https://www.adobe.io/cja-apis/docs/) 文件。 |
 | 2021 年 1 月 | 有關「[將標準查詢新增至您的資料集](/help/connections/standard-lookups.md)」的新主題。 |
+
+{style=&quot;table-layout:auto&quot;}
+
+## 2020
+
+| 日期 | 更新說明 |
+| --- | --- |
 | 2020 年 11 月 13 日 | 有關[跨管道分析](/help/connections/cca/overview.md)的新主題，這可讓您為資料集的使用者 ID 重設金鑰，並啟用多個資料集的無縫結合。 |
 | 2020 年 11 月 13 日 | 新增有關[匯入客服中心和 Web 資料](/help/use-cases/call-center.md)的新使用案例。 |
 | 2020 年 11 月 10 日 | 新增有關刪除資料元件對[常見問答集](/help/getting-started/cja-faq.md)之影響的區段。 |
