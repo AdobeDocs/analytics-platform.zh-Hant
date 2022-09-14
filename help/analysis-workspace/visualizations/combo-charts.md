@@ -4,30 +4,24 @@ title: 組合圖表視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 5eebcccc45b9760ecc18ec94ca526f2082d089bc
-workflow-type: ht
-source-wordcount: '763'
-ht-degree: 100%
+source-git-commit: 5aee0fcc0ec241d946da4ce97dc01eb6274648aa
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 99%
 
 ---
 
 # 組合圖表
 
->[!NOTE]
->
->此功能目前正在進行[有限測試](/help/release-notes/releases.md)。
-
 [!UICONTROL 組合圖表]視覺效果可讓您快速建立比較視覺效果，而不用先建立表格。您可以在折線/條形組合中輕鬆地檢視資料中的趨勢。
 
-使用[!UICONTROL 組合圖表]
+使用[!UICONTROL 組合圖表]：
 
 * 比較本週的訂單與上個月 (以及去年) 同時間的訂單 - 全都按幾下就能完成。
-
 * 在相同圖表上快速逐一分析和比較多項量度 (例如[!UICONTROL 不重複訪客]和[!UICONTROL 收入])。
-
 * 根據一段時間範圍內的函數，分析量度 (例如[!UICONTROL 累積平均值])。
 
-請記住，您可以
+請記住，您可以：
 
 * 在單一[!UICONTROL 組合圖表]中新增多筆比較資料。
 * 如果您新增一筆或更多比較資料，這些資料必須是相同類型，例如[!UICONTROL 時間比較]。
@@ -38,7 +32,7 @@ ht-degree: 100%
 
 1. 從左側邊欄中的「視覺效果」下拉式清單，將「[!UICONTROL 組合圖表]」視覺效果拖曳至空白面板。
 
-   ![](assets/combo-chart-build.png)
+   ![建置](assets/combo-chart-build.png)
 
 1. 從下拉式清單，選取 X 軸的維度和 Y 軸的量度。
 
@@ -46,9 +40,9 @@ ht-degree: 100%
 
    | 折線比較類型 | 定義 |
    | --- | --- |
-   | **[!UICONTROL 時間比較]** | 最常見的比較類型 - 例如，將此時段與 4 週前進行比較。如果您已選取[!UICONTROL 時間比較]，請針對您要比較的時段進行次要比較。<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。請參閱以下的支援函數清單。<p>![](assets/combo-functions.png) |
-   | **[!UICONTROL 次要量度]** | 例如，您可以將[!UICONTROL 收入]與另一個量度比較。<p>![](assets/combo-2metrics.png) |
+   | **[!UICONTROL 時間比較]** | 最常見的比較類型 - 例如，將此時段與 4 週前進行比較。如果您已選取[!UICONTROL 時間比較]，請針對您要比較的時段進行次要比較。<p>![時段](assets/combo-time-period.png) |
+   | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。請參閱以下的支援函數清單。<p>![函數](assets/combo-functions.png) |
+   | **[!UICONTROL 次要量度]** | 例如，您可以將[!UICONTROL 收入]與另一個量度比較。<p>![兩個量度](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -56,7 +50,7 @@ ht-degree: 100%
 
    輸出將與下圖相似：
 
-   ![](assets/combo-output.png)
+   ![輸出](assets/combo-output.png)
 
    目前期間會以條形圖顯示，而比較期間則以折線圖呈現。折線圖上的圓點稱為「槓鈴」。
 
@@ -78,17 +72,17 @@ ht-degree: 100%
 
 以下為收入量度的累積平均值範例：
 
-![](assets/combo-cumul-avg.png)
+![累積平均值](assets/combo-cumul-avg.png)
 
 以下為累積平均值和平均值函數的組合圖表範例：
 
-![](assets/combo-two-functions.png)
+![兩個函式](assets/combo-two-functions.png)
 
 ## 組合圖表設定
 
 按一下組合圖表右上角的齒輪圖示，以變更其設定。
 
-![](assets/combo-settings.png)
+![設定](assets/combo-settings.png)
 
 | 設定 | 定義 |
 | --- | --- |
