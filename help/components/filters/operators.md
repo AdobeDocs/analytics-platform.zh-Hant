@@ -3,9 +3,9 @@ title: 篩選運算子
 description: 決定元件如何與篩選器中的值互動。
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 source-git-commit: a8b884148a197b081e321582f70a9188a1bdc51e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 | --- | --- |
 | 等於 | 傳回完全符合數值或字串值的項目。如果使用萬用字元，請改用「符合」運算子。 |
 | 不等於 | 傳回所有不含輸入值的項目。如果使用萬用字元，請改用「不符合」運算子。 |
-| 等於任何 | 傳回包含所輸入子字串值（以逗號分隔）相符項目。 |
+| 等於任何 | 傳回包含匹配所輸入之子字串值的任何項目，以分號隔開。 |
 | 包含 | 傳回含有輸入值字串的項目。 例如，如果字串維度的規則包含 `"Search"`，則會比對裡面有子字串 `"Search"` 的頁面，包括 `"Search Results"`、`"Search"` 和 `"Searching"`。 此運算子區分大小寫。 |
 | 不包含 | 從結果中排除和輸入值相符的所有項目。 例如，如果字串維度的規則不包含 `"Search"`，則排除任何裡面有子字串 `"Search"` 的頁面，包括 `"Search Results"`、`"Search"` 和 `"Searching"`。 |
 | 包含全部 | 傳回包含任何順序的子字串 (以空格分隔) 的項目。 例如，使用此運算子輸入 `"Search Results"` 將比對 `"Search Results"` 和 `"Results of Search"`，但不會單獨比對 `"Search"` 或 `"Results"`。 此運算子支援最多達 100 個以空格分隔的單字。 |
