@@ -1,43 +1,43 @@
 ---
-title: 將Google Analytics歷史資料內嵌至Adobe Experience Platform
-description: 說明如何使用Customer Journey Analytics(CJA)將Google Analytics資料內嵌至Adobe Experience Platform。
+title: 將 Google Analytics 將歷史資料擷取至 Adobe Experience Platform
+description: 說明如何使用 Customer Journey Analytics (CJA) 將您的 Google Analytics 資料擷取至 Adobe Experience Platform。
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
 source-git-commit: f65f13d696ad2045f58ccb5c9ef7fed45eb9d68c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
-# 將Google Analytics歷史資料內嵌至Adobe Experience Platform
+# 將 Google Analytics 將歷史資料擷取至 Adobe Experience Platform
 
-本頁著重於如何將Google Analytics歷史資料內嵌至Adobe Experience Platform資料集，讓您在Customer Journey Analytics內的「資料檢視」中參照該資料集。 您可以結合本頁的步驟與 [設定即時Google Analytics實作](streaming.md)，會產生循環資料集。 將此歷史資料集與目前實作的資料集結合，即可順暢檢視Customer Journey Analytics中目前和回填的資料。
+此頁面著重於將您的 Google Analytics 歷史資料擷取到 Adobe Experience Platform 做為資料集，讓您參照在 Customer Journey Analytics 之內「資料檢視」中的資料集。 您可以結合此頁面的步驟與[設定一個 Google Analytics 實作](streaming.md)，這會產生反覆出現的資料集。 結合此歷史資料集與最新實作的資料集，以便在 Customer Journey Analytics 中取得現在與回填資料的無縫接軌檢視。
 
 ## 先決條件
 
 為了完成這些工作，您需要下列存取權和權限：
 
 * 存取 Adobe Experience Platform
-* 存取Google Analytics（GA Standard或GA 360）
+* 存取 Google Analytics (GA 標準版或 GA 360)
 * [管理員存取](/help/getting-started/cja-access-control.md) Customer Journey Analytics
 
-## 設定BigQuery匯出
+## 設定 BigQuery Export
 
-Universal Analytics屬性中的資料結構與Google Analytics4屬性中的資料結構不同。 根據要從中導出資料的屬性類型設定BigQuery導出：
+Universal Analytics 屬性中的資料結構異於 Google Analytics 4 屬性中的資料結構。 根據您想要匯出資料的屬性類型設定 BigQuery Export：
 
-* [為通用分析屬性設定BigQuery匯出](https://support.google.com/analytics/answer/3416092)
-* [為Google Analytics4屬性設定BigQuery匯出](https://support.google.com/analytics/answer/9823238)
+* [設定用於 Universal Analytics 屬性的 BigQuery Export ](https://support.google.com/analytics/answer/3416092)
+* [設定用於 Google Analytics 4 屬性的 BigQuery Export ](https://support.google.com/analytics/answer/9823238)
 
-### 通用分析屬性的其他需求
+### 用於 Universal Analytics 屬性的其他要求
 
 >[!NOTE]
 >
->本節內容僅適用於Universal Analytics屬性。 如果從GA4屬性導出，則可以繼續 [將資料匯出至Google Cloud Platform](#export-gcp).
+>此節僅適用於 Universal Analytics 屬性。 如果您從 GA4 屬性匯出，您可以前往[將資料匯出至 Google Cloud Platform](#export-gcp)。
 
-通用分析屬性會將每個記錄儲存在其使用者工作階段的資料中，而非個別事件。 需要SQL查詢，將Universal Analytics資料轉換為與Adobe Experience Platform相容的格式。 套用 `UNNEST` 函式 `hits` 欄位，並將其儲存為BigQuery表格。
+Universal Analytics 屬性會將其資料中的每一筆記錄儲存為使用者的工作階段，而非個別事件。 SQL 查詢將 Universal Analytics 資料轉換為與 Adobe Experience Platform 相容的格式是必要的。 將 `UNNEST` 函式套用到 `hits` GA 結構描述中的欄位，並儲存為 BigQuery 表格。
 
 >[!VIDEO](https://video.tv.adobe.com/v/332634)
 
@@ -64,44 +64,44 @@ FROM
    )
 ```
 
-## 將資料匯出至Google Cloud Platform {#export-gcp}
+## 將資料匯出至 Google Cloud Platform {#export-gcp}
 
-在Google Cloud Platform中，導覽至 **導出>導出到GCS**. 資料放入Google雲端儲存體後，即可將其提取至Adobe Experience Platform。
+在 Google Cloud Platform 中前往&#x200B;**「匯出」 > 「匯出至 GCS」**。 在資料進入 Google Cloud Storage 時，就已準備好可以被拉進 Adobe Experience Platform 中。
 
-## 將資料從Google雲端儲存空間匯入Experience Platform
+## 將資料從 Google Cloud Storage 匯入到 Experience Platform
 
-1. 在Adobe Experience Platform中，選取 **[!UICONTROL 來源]** 左邊。
-1. 在目錄下，找到 **[!UICONTROL Google雲端儲存空間]** 選項。 按一下 **[!UICONTROL 新增資料]**.
+1. 在 Adobe Experience Platform 中選擇左邊的&#x200B;**[!UICONTROL 「來源」]**。
+1. 在「目錄」下方找出 **[!UICONTROL Google Cloud Storage]** 選項。 按一下「**[!UICONTROL 新增資料]**」。
 
 >[!VIDEO](https://video.tv.adobe.com/v/332676)
 
 >[!TIP]
 >
->如果您打算同時匯入歷史和即時串流Google Analytics資料，請務必對這兩個資料集使用相同的結構。 您可以使用 [合併的資料集](/help/connections/combined-dataset.md).
+>如果您計畫同時匯入歷史與即時串流 Google Analytics 資料，這二個資料集請務必使用相同的結構描述。您可以使用[整合的資料集](/help/connections/combined-dataset.md)在 CJA 中合併資料集。
 
-您可以將GA事件資料對應至先前建立的現有資料集，或使用您選擇的XDM結構建立資料集。 當您選取結構描述後，Experience Platform 會套用機器學習，自動地將 Google Analytics 資料中的每個欄位預先對應到您的 [XDM 結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)。
+您可以將 GA 事件資料對應到您之前建立的現有資料集中，或是使用您選擇的任何 XDM 結構描述建立新的資料集。 當您選取結構描述後，Experience Platform 會套用機器學習，自動地將 Google Analytics 資料中的每個欄位預先對應到您的 [XDM 結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)。
 
-![結構圖](../assets/schema-map.png)
+![結構描述對應](../assets/schema-map.png)
 
-將欄位對應至XDM架構後，您可以重複排程此匯入，並在擷取程式期間套用錯誤驗證。 此驗證可確保您匯入的資料沒有任何問題。
+當您完成將欄位對應到 XDM 結構描述中的作業後，您可以將這項匯入排程為定期進行，並在擷取過程中套用錯誤驗證。 此驗證可確保您已匯入的資料不會有任何問題。
 
-## 必要的XDM欄位
+## 必填的 XDM 欄位
 
-Platform中的某些XDM欄位需要正確的格式，才能正確處理資料。
+在 Platform 中特定的 XDM 欄位需要正確的格式才能正確地處理資料。
 
-* **`timestamp`**:在Experience Platform結構UI中建立特殊的計算欄位。 按一下 **[!UICONTROL 新增計算欄位]** 並包住 `timestamp` 字串 `date` 函式：
+* **`timestamp`**：在 Experience Platform 結構描述 UI 中建立一個特別的計算欄位。 按一下「**[!UICONTROL 新增計算欄位]**」，並讓 `date` 函數中的 `timestamp` 字串換行：
 
    `date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
 
-   將計算欄位儲存至架構中的時間戳記資料結構：
+   將此計算欄位儲存到結構描述中的時間戳記資料結構內：
 
    ![時間戳記](../assets/timestamp.png)
 
-* **`_id`**:此欄位中必須有值 — CJA不在乎值。 您可以新增「1」至欄位：
+* **`_id`** 此欄位內必須有值 - CJA 不在乎該值為何。 您可以新增「1」到欄位中：
 
    ![ID](../assets/_id.png)
 
 ## 後續步驟
 
-* 如果您有要串流至Adobe Experience Platform的目前資料，請參閱 [設定Google Analytics資料的串流](streaming.md).
-* 如果您想要開始針對回填資料製作報表，請參閱 [建立連線](/help/connections/create-connection.md).
+* 如果您有想要串流至 Adobe Experience Platform 的最新資料，請參閱 [為 Google Analytics 資料設定串流](streaming.md)。
+* 如果您想要開始製作關於回填資料的報告，請參閱 [建立連線](/help/connections/create-connection.md)。
