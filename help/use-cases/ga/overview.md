@@ -1,35 +1,35 @@
 ---
-title: 將資料從Google Analytics移轉至Customer Journey Analytics
-description: 了解如何將資料從Google Analytics移至Adobe Experience Platform，以及檢視Customer Journey Analytics中報表的整體工作流程。
+title: 將資料從 Google Analytics 移轉到 Customer Journey Analytics
+description: 學習關於如何將資料從 Google Analytics 移轉到 Adobe Experience Platform 包羅萬象的工作流程，並在 Customer Journey Analytics 檢視報告。
 source-git-commit: 7c195453490499cc42e7d5b2f2d111e2654f918c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 將資料從Google Analytics移轉至Customer Journey Analytics
+# 將資料從 Google Analytics 移轉到 Customer Journey Analytics
 
-如果您是初次Customer Journey Analytics，貴組織可能有其他Analytics平台上的現有資料，例如Google Analytics。 您可以依照下列總體步驟將該資料移入Adobe Experience Platform，讓您以Customer Journey Analytics檢視報表。
+如果您第一次使用 Customer Journey Analytics，貴組織可能在另一個 Analytics 平台已經有既存的資料，例如 Google Analytics 等。 您可以依照這些包羅萬象的步驟，將資料移轉到 Adobe Experience Platform，讓您在 Customer Journey Analytics 檢視報告。
 
-歷史資料和目前資料收集都提供工作流程。 您可以根據組織的資料需求，遵循其中一或兩個工作流程。
+所提供的工作包括歷史資料與最新的資料彙集。 如果貴組織的資料需求而定，您可以依照下列其中一項或二項工作流程：
 
-## 將歷史資料從Google Analytics帶入Adobe Experience Platform
+## 從 Google Analytics 將歷史資料帶入 Adobe Experience Platform
 
-擷取歷史（回填）資料時，會從Google匯出資料，並將該資料匯入Adobe Experience Platform。 請參閱 [在Adobe Experience Platform中內嵌Google Analytics資料](backfill.md).
+擷取歷史 (回填) 資料涉及將資料從 Google 匯出，並將資料匯入 Adobe Experience Platform。 請參閱[將 Google Analytics 資料擷取至 Adobe Experience Platform ](backfill.md)。
 
-成功將歷史資料帶入Platform後，您可以 [設定串流目前的資料](streaming.md)，或透過 [建立連線](/help/connections/create-connection.md).
+在將歷史資料成功攜入平台後，您可以[設定串流最新的資料](streaming.md)，或是建立連線，[立即開始在 CJA 報告回填的資料](/help/connections/create-connection.md)。
 
-## 設定Adobe Experience Platform的現有Google Analytics實作 {#configure}
+## 設定既存的 Google Analytics 實作，以用於 Adobe Experience Platform {#configure}
 
-擷取目前（串流）資料時，會將資料傳送至Adobe Experience Edge,Experience Edge再將該資料轉送至Adobe Experience Platform。 請參閱 [在Adobe Experience Platform中設定串流Google Analytics資料](streaming.md).
+擷取最新的 (串流) 資料涉及將資料傳送至 Adobe Experience Edge，然後再將資料轉傳至 Adobe Experience Platform。 請參閱[在 Adobe Experience Platform 設定 Google Analytics 資料](streaming.md)。
 
-## 在CJA中設定連線和資料檢視
+## 在 CJA 中設定連線與資料檢視
 
-成功內嵌歷史資料及/或設定資料收集至Adobe Experience Platform後，您可以 [建立連線](/help/connections/create-connection.md) 允許Customer Journey Analytics參考該資料。
+在成功將歷史資料和/或設定資料彙集至 Adobe Experience Platform 後，您可以[建立連線](/help/connections/create-connection.md)，允許 Customer Journey Analytics 參照該資料。
 
-使用連線建立一或多個 [資料檢視](/help/data-views/create-dataview.md) 供Analysis Workspace使用。
+使用連線建立一個或多個[資料檢視](/help/data-views/create-dataview.md)，以用於 Analysis Workspace。
 
-## 建立報表
+## 建立報告
 
-在「資料檢視」中設定維度和量度後，您就可以開始使用Analysis Workspace產生所需的報表。 請參閱 [報告Google Analytics資料Customer Journey Analytics](report.md).
+在「資料檢視」中設定維度和度量之後，您可以開始使用 Analysis Workspace 產生想要的報告。 請參閱[在 Customer Journey Analytics 中關於 Google Analytics 的報告](report.md)。
