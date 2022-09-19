@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 5aee0fcc0ec241d946da4ce97dc01eb6274648aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 99%
 
    輸出將與下圖相似：
 
-   ![輸出](assets/combo-output.png)
+   ![Output](assets/combo-output.png)
 
    目前期間會以條形圖顯示，而比較期間則以折線圖呈現。折線圖上的圓點稱為「槓鈴」。
 
@@ -76,7 +76,7 @@ ht-degree: 99%
 
 以下為累積平均值和平均值函數的組合圖表範例：
 
-![兩個函式](assets/combo-two-functions.png)
+![兩個函數](assets/combo-two-functions.png)
 
 ## 組合圖表設定
 
