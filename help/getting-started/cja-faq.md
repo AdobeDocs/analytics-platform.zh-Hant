@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 常見問答。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 29d8f5e293ddee10578e953e2db224099f7b7033
-workflow-type: ht
-source-wordcount: '2377'
-ht-degree: 100%
+source-git-commit: 91d9e473d38e12a7ba9cafea92c864641cebd206
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 
 | 問題 | 回答 |
 | --- | --- |
-| [!UICONTROL Customer Journey Analytics] 是否可以在裝置或資料集之間「拼接」(彙整) 資料嗎？ | 是。 [!UICONTROL Customer Journey Analytics] 有一個稱為[跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant) (CCA) 的拼接解決方案。 它可讓您重新輸入資料集的人員 ID，好讓您順暢地合併多個資料集。 |
-| 是否支援拼接匿名行為與已驗證的行為？ | 是。 [跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant)會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接 ID。 |
-| CCA 中的「重播」是如何運作的？ | CCA 會根據所掌握的唯一識別碼來「重播」資料。 重播會使得連線的新裝置被拼接。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html#step-1%3A-live-stitching) |
+| [!UICONTROL Customer Journey Analytics] 是否可以在裝置或資料集之間「拼接」(彙整) 資料嗎？ | 是。 [!UICONTROL Customer Journey Analytics] 有一個稱為[跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant) (CCA) 的拼接解決方案。 可讓您重新輸入資料集的人員ID，順利合併多個資料集。 |
+| 是否支援拼接匿名行為與已驗證的行為？ | 是。 [跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html)會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接 ID。 |
+| CCA 中的「重播」是如何運作的？ | 跨管道分析會根據所掌握的不重複識別碼來「重播」資料。 重播會使得連線的新裝置被拼接。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html#step-1%3A-live-stitching) |
 | CCA 中的拼接歷史 (回填) 資料是如何運作的？ | 初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。 為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html#enable-cross-channel-analytics) |
 | 非拼接設定檔資料集記錄的預期行為是什麼？ | **範例方案**：透過使用 `CRMid` 作為個人 ID 在 CJA 連接中加入 2 個資料集。一種是在所有記錄中具有 `CRMid` 的 Web 事件資料集。另一個資料集是 CRM 設定檔資料集。40% 的 CRM 資料集在 Web 事件資料集中存在 `CRMid`。其他 60% 不存在於 Web 事件資料集中 - 這些記錄是否出現在 Analysis Workspace 的報告中？<p> **答案**：沒有事件關聯的設定檔列儲存在 CJA 中。但是，在與該 ID 關聯的事件出現之前，您無法在 Analysis Workspace 中查看它們。 |
 
@@ -62,10 +62,7 @@ ht-degree: 100%
 
 ## 5. 設定[!UICONTROL 連線]資料保留的滾動時段 {#data-retention}
 
->[!IMPORTANT]
->請和客戶服務或您的 Adobe 客戶經理聯絡，以實作此項設定。尚未透過 CJA UI 提供。
-
-此項設定讓您在[!UICONTROL 連線]層級 (非 [!UICONTROL  資料集]層級) 將 CJA 資料保留定義為單位為月數的滾動時段 (3 個月、6 個月等)。資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此基本資料或查詢資料集不存在資料保留設定。
+此 [**[!UICONTROL 啟用滾動資料窗口&#x200B;]**設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#create-connection) 可讓您將CJA資料保留定義為月（3個月、6個月等）內的滾動期間。 設定於 [!UICONTROL 連接] 級別，而不是 [!UICONTROL 資料集] 層級。 資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此基本資料或查詢資料集不存在資料保留設定。
 
 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。 這有助於您未超過合約限制，並減少超額使用費用的風險。
 
@@ -86,7 +83,7 @@ ht-degree: 100%
 
 ## 7. 在 CJA 中合併報表套裝時的注意事項 {#merge-reportsuite}
 
-如果您計劃透過 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)擷取 Adobe Analytics 資料，請在合併 2 個或多個 Adobe Analytics 報表套裝時考慮這些後果。
+如果您計劃透過 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)擷取 Adobe Analytics 資料，請在合併 2 個或多個 Adobe Analytics 報表套裝時考慮這些後果。
 
 | 問題 | 考量事項 |
 | --- | --- |
@@ -138,9 +135,9 @@ ht-degree: 100%
 
 ## 10. 關於使用超額 {#overage}
 
-Adobe 會定期監控和執行使用量限額。 「資料列」指可用於 Customer Journey Analytics 中分析的每日平均資料列。
+Adobe 會定期監控和執行使用量限額。 「資料列」是指可供Customer Journey Analytics分析的每日平均資料列。
 
-例如，如果您的合約讓您有權使用 100 萬筆資料列。 假設在使用 Customer Journey Analytics 的第 1 天，您可以上傳 200 萬筆資料列。 您要在第 2 天刪除 100 萬筆資料列，並在剩餘的授權期限內將使用量維持在最大使用量 (即 100 萬筆資料列) 以內。 根據您的合約條款，由於您超出了「資料列」授權權利，您仍然可能需支付按比例計算的第 1 天超額使用費。
+例如，假設您的合約賦予您100萬列資料的權利。 假設在使用 Customer Journey Analytics 的第 1 天，您可以上傳 200 萬筆資料列。 您要在第 2 天刪除 100 萬筆資料列，並在剩餘的授權期限內將使用量維持在最大使用量 (即 100 萬筆資料列) 以內。 根據您的合約條款，由於您超出了「資料列」授權權利，您仍然可能需支付按比例計算的第 1 天超額使用費。
 
 ## 11. 診斷資料差異 {#discrepancies}
 
