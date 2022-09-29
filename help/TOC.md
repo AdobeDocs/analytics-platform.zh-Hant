@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 17b586ec3a1579db5dd7f1982d844e8327301289
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+source-git-commit: 19551e8c8f3b114b1851ed80c2b13ae29696f79d
+workflow-type: tm+mt
+source-wordcount: '771'
+ht-degree: 98%
 
 ---
 
@@ -229,13 +229,16 @@ ht-degree: 100%
    + [建立計分卡](mobile-app/create-scorecard.md)
    + [設定使用控制面板的高階主管](mobile-app/set-up-execs.md)
    + [高階主管使用者快速入門指南](mobile-app/executive.md)
++ Adobe整合 {#integrations}
+   + [將Adobe解決方案與CJA整合概觀](/help/integrations/overview.md)
+   + [將Journey Optimizer資料與CJA整合](/help/integrations/ajo.md)
 + 使用案例 {#cja-usecases}
+   + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + Google Analytics 資料 {#ga}
       + [將資料從 Google Analytics 移轉到 CJA 概述](use-cases/ga/overview.md)
       + [將 Google Analytics 歷史資料擷取至 Platform](use-cases/ga/backfill.md)
       + [將串流的 Google Analytics 資料設定至 Platform](use-cases/ga/streaming.md)
       + [報告 CJA 中的 Google Analytics 資料](use-cases/ga/report.md)
-   + [Customer Journey Analytics 使用案例](use-cases/cja-usecases.md)
    + [結合報告套裝與不同的結構描述](use-cases/combine-report-suites.md)
    + [使用物件陣列](use-cases/object-arrays.md)
    + [使用繫結維度和量度](use-cases/binding-dimensions-metrics.md)
