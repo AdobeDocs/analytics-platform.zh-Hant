@@ -1,10 +1,10 @@
 ---
 title: 將Adobe Journey Optimizer與Customer Journey Analytics整合
 description: 匯入AJO產生的資料，並在CJA中使用Analysis Workspace進行分析。
-source-git-commit: 28bc99a7f5ec7b280fd26a7a45dc076e67f652dc
+source-git-commit: b24ad572ca36bbafffcd242fe257a2113977392d
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 2%
+source-wordcount: '664'
+ht-degree: 3%
 
 ---
 
@@ -41,6 +41,8 @@ Journey Optimizer資料放入Adobe Experience Platform後，您就可以 [建立
 | 已成功發送消息 | 已成功發送的消息數 | 使用結構字串元素 `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus` （使用下列設定）:<br>元件類型：量度<br>包含排除值：等於 `sent` |
 | 同步失敗 | 無法同步的消息總數 | 使用結構字串元素 `_experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.category` （使用下列設定）:<br>元件類型：量度<br>包含排除值：等於 `sync` |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 使用Journey Optimizer量度設定計算量度
 
 設定好所需Journey Optimizer資料集的維度和量度後，您也可以設定 [計算量度](/help/components/calc-metrics/calc-metr-overview.md) 以取得有關該資料的其他深入分析。 這些計算量度是以上述在「資料檢視管理員」中建立的量度為基礎。
@@ -48,6 +50,8 @@ Journey Optimizer資料放入Adobe Experience Platform後，您就可以 [建立
 | 計算量度 | 說明 | 公式 |
 | --- | --- | --- |
 | 已傳送的郵件總數 | 已傳送、成功或失敗的訊息總數 | `[Messages successfully sent]` + `[Bounces]` + `[Sync failures]` |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Journey Optimizer與Customer Journey Analytics之間的報表差異
 
