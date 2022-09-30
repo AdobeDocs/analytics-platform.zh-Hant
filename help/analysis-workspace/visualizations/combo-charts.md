@@ -4,10 +4,10 @@ title: 組合圖表視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 5aee0fcc0ec241d946da4ce97dc01eb6274648aa
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+source-git-commit: 8cc4fc0cd2a6c5b6b895e56bbb7922caba56d9ae
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 97%
 
 ---
 
@@ -21,12 +21,13 @@ ht-degree: 100%
 * 在相同圖表上快速逐一分析和比較多項量度 (例如[!UICONTROL 不重複訪客]和[!UICONTROL 收入])。
 * 根據一段時間範圍內的函數，分析量度 (例如[!UICONTROL 累積平均值])。
 
-請記住，您可以：
+請記住以下事項：
 
-* 在單一[!UICONTROL 組合圖表]中新增多筆比較資料。
+* 您可以在單一中新增多個比較 [!UICONTROL 組合圖].
 * 如果您新增一筆或更多比較資料，這些資料必須是相同類型，例如[!UICONTROL 時間比較]。
 * 您最多只能新增 5 筆比較資料。
 * 一個量度最多可以套用 3 個篩選器 (區段)。
+* 組合圖不支援計算量度。
 
 ## 建置組合圖表
 
