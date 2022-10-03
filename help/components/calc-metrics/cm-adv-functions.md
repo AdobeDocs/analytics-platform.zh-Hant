@@ -3,10 +3,10 @@ title: 參考資料 - 進階函數
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '2909'
-ht-degree: 100%
+source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
+workflow-type: tm+mt
+source-wordcount: '3111'
+ht-degree: 96%
 
 ---
 
@@ -161,6 +161,23 @@ CEILING(metric)
 | 引數 | 說明 |
 |---|---|
 | *量度* | 您要四捨五入的量度。 |
+
+## 可信度
+
+[!UICONTROL 信賴度] 是有多少證據證明給定變數與控制變數相同的可能性測量。 信賴度越高表示控制和非控制變體具有相同表現假設的證據越少。
+
+```
+fx Confidence (normalizing-container, success-metric, control, significance-threshold)
+```
+
+| 引數 | 說明 |
+| --- | --- |
+| 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
+| 成功量度 | 使用者用來比較變體的一個或多個量度。 |
+| 控制 | 與實驗中所有其他變體進行比較的變體。 輸入控制變型維項的名稱。 |
+| 顯著閾值 | 此函式中的臨界值設為預設的95%。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 餘弦 (列)
 
@@ -334,6 +351,22 @@ IF(logical_test, [value_if_true], [value_if_false])
 ## 小於或等於
 
 傳回數值計數小於或等於輸入值的項目。
+
+## 提升度
+
+傳回特定變體在轉換控制變體時的提升度。 這是指定變體與基線之間的效能差異，除以基線的效能，以百分比表示。
+
+```
+fx Lift (normalizing-container, success-metric, control)
+```
+
+| 引數 | 說明 |
+| --- | --- |
+| 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
+| 成功量度 | 使用者用來比較變體的一個或多個量度。 |
+| 控制 | 與實驗中所有其他變體進行比較的變體。 輸入控制變型維項的名稱。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 線性迴歸_ 相關係數
 
