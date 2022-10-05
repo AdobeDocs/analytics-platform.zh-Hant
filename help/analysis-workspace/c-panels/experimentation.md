@@ -3,18 +3,14 @@ description: 了解如何在 CJA Experimentation 面板中分析 A/B 測試的�
 title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
-workflow-type: ht
-source-wordcount: '1400'
+source-git-commit: 967348b321525c50b292339de875fd4976d8b10a
+workflow-type: tm+mt
+source-wordcount: '1393'
 ht-degree: 100%
 
 ---
 
 # Experimentation 面板
-
->[!NOTE]
->
->此功能目前正在進行[有限測試](/help/release-notes/releases.md)。
 
 此 **[!UICONTROL Experimentation]** 面板可讓分析師比較不同的使用者體驗、行銷或傳送訊息變化，以確定哪一個產生特定結果的績效最好。您可以從任何實驗平台 (線上、離線、Adobe 解決方案、Adobe Journey Optimizer，甚至 BYO (自帶) 資料) 評估任何 A/B 實驗的提升度和信賴度。
 
