@@ -4,9 +4,9 @@ title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1400'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 ## 步驟 2：在資料檢視中新增內容標籤
 
-在 CJA 資料檢視設定中，管理員可以將 [內容標籤](/help/data-views/component-settings/overview.md) 新增到維度或量度，CJA 服務 (如 [!UICONTROL Experimentation] 面板) 可針對其目標使用這些標籤。Experimentation 面板使用了兩個預先定義的標籤：
+在 CJA 資料檢視設定中，管理員可以將[內容標籤](/help/data-views/component-settings/overview.md)新增到維度或量度，CJA 服務 (如 [!UICONTROL Experimentation] 面板) 可針對其目標使用這些標籤。Experimentation 面板使用了兩個預先定義的標籤：
 
 * [!UICONTROL 實驗中的實驗]
 * [!UICONTROL 實驗中的變體]
@@ -108,6 +108,6 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 
 95% 信賴序列是指在您執行 100 個實驗中有 95 個包含商業量度「確判為真」值。(為了提供相同的 95% 覆蓋率保證，每個實驗只能計算一次 95% 信賴區間；而不是針對每個新使用者計算)。因此，信賴序列可讓您持續監視實驗，而不會增加「誤判為真」的錯誤率，也就是它們允許「偷看」結果。
 
-## 計算量度中的新函式
+## 計算量度中的新函數
 
-新增兩個新的進階函式： [!UICONTROL 提升度] 和 [!UICONTROL 信賴度]. 如需詳細資訊，請參閱 [參考資料 — 進階函式](/help/components/calc-metrics/cm-adv-functions.md).
+已新增了兩個進階函數：[!UICONTROL 提升度]和[!UICONTROL 信賴度]。如需詳細資訊，請參閱「[參考 - 進階函數](/help/components/calc-metrics/cm-adv-functions.md)」。
