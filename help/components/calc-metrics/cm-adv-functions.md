@@ -4,9 +4,9 @@ description: 勾選函數下拉式清單中的顯示進階即可存取這些函�
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3111'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -162,9 +162,9 @@ CEILING(metric)
 |---|---|
 | *量度* | 您要四捨五入的量度。 |
 
-## 可信度
+## 信賴度
 
-[!UICONTROL 信賴度] 是有多少證據證明給定變數與控制變數相同的可能性測量。 信賴度越高表示控制和非控制變體具有相同表現假設的證據越少。
+[!UICONTROL 信賴度]指有多少證據顯示指定變體與控制變體相同的機率測度。信賴度越高表示控制和非控制變體具有相同表現假設的證據越少。
 
 ```
 fx Confidence (normalizing-container, success-metric, control, significance-threshold)
@@ -174,8 +174,8 @@ fx Confidence (normalizing-container, success-metric, control, significance-thre
 | --- | --- |
 | 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
 | 成功量度 | 使用者用來比較變體的一個或多個量度。 |
-| 控制 | 與實驗中所有其他變體進行比較的變體。 輸入控制變型維項的名稱。 |
-| 顯著閾值 | 此函式中的臨界值設為預設的95%。 |
+| 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
+| 顯著性臨界值 | 此函數中的臨界值設定為預設值 95%。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -354,7 +354,7 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 ## 提升度
 
-傳回特定變體在轉換控制變體時的提升度。 這是指定變體與基線之間的效能差異，除以基線的效能，以百分比表示。
+傳回特定變體在轉換控制變體時的提升度。這是指定變體與基線之間的表現差異，除以基線的表現 (以百分比表示)。
 
 ```
 fx Lift (normalizing-container, success-metric, control)
@@ -364,7 +364,7 @@ fx Lift (normalizing-container, success-metric, control)
 | --- | --- |
 | 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
 | 成功量度 | 使用者用來比較變體的一個或多個量度。 |
-| 控制 | 與實驗中所有其他變體進行比較的變體。 輸入控制變型維項的名稱。 |
+| 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
 
 {style=&quot;table-layout:auto&quot;}
 
