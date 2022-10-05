@@ -10,8 +10,8 @@ user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 本指南針對 Adobe 用於跨管道分析的新一代解決方案，即 Customer Journey Analytics (以 Adobe Experience Platform 為基礎) 提供支援。
 breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: d573ca8ddc6d9d31294a40f97417833217c81e5d
-workflow-type: tm+mt
-source-wordcount: '772'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
