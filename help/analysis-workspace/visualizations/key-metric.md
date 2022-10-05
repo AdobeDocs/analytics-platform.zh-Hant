@@ -4,18 +4,14 @@ title: 關鍵量度摘要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 6238a3b2239a20aaedbec5e5603d0c72bb4ae463
-workflow-type: ht
-source-wordcount: '605'
+source-git-commit: fa86c113de8cf533e7b68df1aad7ac02aa60f7e8
+workflow-type: tm+mt
+source-wordcount: '598'
 ht-degree: 100%
 
 ---
 
 # 關鍵量度摘要
-
->[!NOTE]
->
->此功能目前正在進行[有限測試](/help/release-notes/releases.md)。
 
 The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。它提供多個視覺效果合併成單一視覺效果的優勢。
 

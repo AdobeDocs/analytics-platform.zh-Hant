@@ -4,9 +4,9 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 8492a400d7402a95ba98dc0800970b25a1d7d473
+source-git-commit: 0113bd3157c147a3d39aead3fc686d114925f476
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1294'
 ht-degree: 91%
 
 ---
@@ -113,11 +113,7 @@ f. 指定「50」當做值。
 
 * 工作階段同時橫跨回溯期和報告時段時。 假設您在 2022 年 6 月 1 日至 6 月 15 日期間執行報告。回溯期將涵蓋 2021 年 5 月 1 日至 2022 年 5 月 31 日。如果工作階段原本要在 2022 年 5 月 30 日開始，然後在 2022 年 6 月 1 日結束，由於此工作階段包含在回溯期內，因此在此報告期內的所有工作階段全都計為傳回工作階段。
 
-## 使用日期和日期-時間功能 {#date}
-
->[!NOTE]
->
->此功能目前正在進行有限測試。
+## 8.使用「日期」和「日期 — 時間」功能 {#date}
 
 Adobe Experience Platform 中的結構描述包含「[!UICONTROL 日期]」和「[!UICONTROL 日期-時間]」欄位。CJA 資料檢視現在支援這些欄位。將這些欄位做為維度拖曳至資料檢視時，您可以指定其[格式](/help/data-views/component-settings/format.md)。 此格式設定決定欄位如何在報告中顯示。例如：
 
