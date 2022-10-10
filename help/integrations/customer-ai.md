@@ -4,7 +4,7 @@ title: 將客戶AI資料與CJA整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 81e80058ea5004d77ba1d15b9cd90a16283daa7c
+source-git-commit: 305bcd46df033f2f69a1161657d8d46793187225
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 88%
@@ -65,31 +65,31 @@ Customer AI 與 Customer Journey Analytics (CJA) 整合到一定的程度，以�
 
 在 CJA Workspace 中，建立新專案並提取視覺效果。
 
-**趨勢傾向分數**
+### 趨勢傾向分數
 
 以下是工作區專案的範例，專案中包含的 CAI 資料會在堆疊長條圖中顯示使用者區段在不同時期的傾向分數：
 
 ![分數貯體](assets/workspace-scores.png)
 
-**原因代碼表格**
+### 原因代碼表格
 
 這裡的表格列出原因代碼，說明區段傾向性偏高或低的原因&#x200B;：
 
 ![原因代碼](assets/reason-codes.png)
 
-**客戶傾向性的變化過程**
+### 客戶傾向性的變化過程
 
 此流程圖顯示經過不同評分執行下來，客戶傾向的變化過程&#x200B;：
 
 ![變化過程](assets/flow.png)
 
-**傾向分數的分佈**
+### 傾向分數的分佈
 
 此長條圖顯示傾向分數的分佈情形&#x200B;：
 
 ![分佈](assets/distribution.png)
 
-**傾向性重疊**
+### 傾向性重疊
 
 此文氏圖表顯示經過不同評分執行下來，傾向性的重疊情形：
 
