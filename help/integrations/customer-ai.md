@@ -1,13 +1,13 @@
 ---
-description: 了解 AEP Customer AI 如何在 CJA 中與工作區整合。
-title: 將 Customer AI 與 CJA 整合
+description: 了解AEP Customer AI資料如何與CJA的Workspace整合。
+title: 將客戶AI資料與CJA整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: 317e45146d493f969176bc026590fa894b4d7fb1
+source-git-commit: 81e80058ea5004d77ba1d15b9cd90a16283daa7c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '901'
+ht-degree: 88%
 
 ---
 
@@ -31,15 +31,13 @@ Customer AI 與 Customer Journey Analytics (CJA) 整合到一定的程度，以�
 * **檢視傾向性的分佈**。 使用案例：我想要了解傾向分數的分佈，以便更精確地運用我的區段。&#x200B;範例：零售商想要以 $50 的產品折扣展開特定促銷活動。 由於預算等因素，他們只能進行有限度的促銷活動。 經過資料分析，他們決定只將目標鎖定在前 80% 以上的客戶。
 * **檢視特定同類群組在不同時期完成某項動作的傾向性**。 使用案例：我想要追蹤特定同類群組。 這與第一個項目類似，但您可以追蹤特定同類群組在不同時期的情況。&#x200B; 旅館業範例：行銷人員可以追蹤觀察銅級與銀級客群，或銀級與金級客群在不同時期的情況。 接著，他們就能掌握各同類群組在不同時期訂房的傾向性。 &#x200B;
 
-## 工作流程
-
 在 CJA 中使用輸出之前會在 Adobe Experience Platform 中執行某些步驟。
 
-### 步驟 1：設定 Customer AI 執行個體
+## 步驟 1：設定 Customer AI 執行個體
 
 當您準備好資料及所有認證和結構描述後，請依照 Adobe Experience Platform 中的[設定 Customer AI 執行個體](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=zh-Hant)指南中的指示開始進行。
 
-### 步驟 2：設定 CJA 與 Customer AI 資料集的連線
+## 步驟 2：設定 CJA 與 Customer AI 資料集的連線
 
 現在在 CJA 中，您可以[建立一個或多個連線](/help/connections/create-connection.md)來連接已針對 Customer AI 檢測的 Experience Platform 資料集。 每項預測 (例如升級帳戶的可能性) 等於一個資料集。 這些資料集出現時會有「EE 格式的 Customer AI 分數 – 應用程式名稱」前置詞。
 
@@ -57,13 +55,13 @@ Customer AI 與 Customer Journey Analytics (CJA) 整合到一定的程度，以�
 
 (請注意，此範例為個人基本資料集；相同一組結構描述物件將成為 CJA 捕捉的 Experience Event 資料集的一部分。 體驗事件資料集會包含時間戳記當作評分日期。) 在此模型中被評分的每個客戶都會有與其相關的分數、評分日期等。
 
-### 步驟 3：根據這些連線建立資料檢視
+## 步驟 3：根據這些連線建立資料檢視
 
 現在在 CJA 中，您可以繼續使用維度 (例如分數、評分日期、可能性等) 以及您在建立的連線中引進的量度來[建立資料檢視](/help/data-views/create-dataview.md)。
 
 ![建立資料檢視](assets/create-dataview.png)
 
-### 步驟 4：在工作區中報告 CAI 分數
+## 步驟 4：在工作區中報告 CAI 分數
 
 在 CJA Workspace 中，建立新專案並提取視覺效果。
 
