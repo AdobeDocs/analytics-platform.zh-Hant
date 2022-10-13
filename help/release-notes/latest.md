@@ -3,9 +3,9 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新 CJA 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 45e4a60b6bbf38e33f307dbbbf68ab3124dd6a33
+source-git-commit: ed5b1a233dc0e4cbfe223fe71e6e1960efba0592
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '517'
 ht-degree: 90%
 
 ---
@@ -34,7 +34,7 @@ Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運�
 | **[!UICONTROL 關鍵量度摘要]視覺化** | [!UICONTROL 關鍵量度摘要]視覺化可讓您查看重要量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。了解更多 | 自 2022 年 10 月 5 日起分階段推出 |
 | **CJA 中的日期欄位支援** | 允許 CJA 報告日期和日期時間欄位。[了解更多](/help/data-views/data-views-usecases.md#date) | 2022 年 10 月 5 日 |
 | **行動應用程式：自訂詳細檢視** | 自訂詳細檢視讓您可更準確地提供和對象共用的資訊，讓他們專注於最重要的內容。您可以修改每個計分卡圖樣關聯的詳細檢視版面配置，然後新增文字以更清楚地說明一般使用者可在資料中看到的內容。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=zh-Hant) | 2022 年 10 月 5 日 |
-| **不區分大小寫的多值變數** | 若為不區分大小寫的多值變數，儲存在mvvar1 - mvvar3中的值將不再自動變成小寫。 相反地，透過Analytics Source Connector傳遞至Adobe Experience Platform和CJA的資料，將會反映從頁面傳入的原始大小寫。 | 2022 年 10 月 24 日 |
+| **不區分大小寫的多值變數** | 若為不區分大小寫的多值變數，則儲存在 `mvvar1` - `mvvar3` 將不再自動變成小寫。 相反地，透過Analytics Source Connector傳遞至Adobe Experience Platform和CJA的資料，將會反映從頁面傳入的原始大小寫。 | 2022 年 10 月 24 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
