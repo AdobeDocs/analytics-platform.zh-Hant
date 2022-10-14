@@ -1,5 +1,5 @@
 ---
-description: 了解AEP Customer AI資料如何與CJA的Workspace整合。
+description: 了解 AEP Customer AI 資料如何在 CJA 中與工作區整合。
 title: 將 Customer AI 資料與 CJA 整合
 role: Admin
 solution: Customer Journey Analytics
@@ -7,7 +7,7 @@ exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 source-git-commit: 305bcd46df033f2f69a1161657d8d46793187225
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
