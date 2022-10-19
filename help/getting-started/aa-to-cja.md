@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 87d0dd37c9fc9e32e46b7c6a104301f23a2ff652
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 97%
 
 * 提前規劃，使變數在這些報告套件中保持一致。 例如，報告套裝 1 中的 eVar1 可能指向[!UICONTROL 頁面]。報告套裝 2 中的 eVar1 可能指向[!UICONTROL 內部行銷活動]。在將報告套裝引入 CJA 時，這些變數將混合到單一 eVar1 維度中，導致可能的混淆和不準確的報告。
 
-* 使用[日期準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)功能來對應變數。 雖然所有報表套裝都使用相同的通用變數設計會更輕鬆，但若您使用新Experience Platform則不需要 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) 功能。 這項功能允許您透過變數的對應值 (位於資料流 (或屬性) 級別) 來引用變數。
+* 使用[日期準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)功能來對應變數。 假設所有報表套裝都使用相同的通用變數設計時，這項功能會使過程更容易些；但是如果您使用新的 Experience Platform [資料準備](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping)功能，則不需要使用這項功能。這項功能允許您透過變數的對應值 (位於資料流 (或屬性) 級別) 來引用變數。
 
 如果您由於[!UICONTROL 已超出不重複限制]或[!UICONTROL 低流量]問題，而避免使用全域報告套裝，請了解 CJA 沒有[維度上的基數限制](/help/components/dimensions/high-cardinality.md)。它允許顯示和計數任何唯一值。
 
@@ -104,7 +104,7 @@ Adobe Analytics 區段 (在 CJA 中稱為[!UICONTROL 篩選器]) 和計算量度
 
 * [將 Adobe Analytics 區段移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
 
-* [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=en)
+* [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=zh-Hant)
 
 ### 其他考量
 
