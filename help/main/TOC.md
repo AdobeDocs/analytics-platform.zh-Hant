@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: d11a1cf98999c5797ab456bd547c065a5103b068
+source-git-commit: dc75ed818b2760e9cd19fdcd427fe752f829aef0
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 97%
+source-wordcount: '797'
+ht-degree: 99%
 
 ---
 
@@ -79,9 +79,9 @@ ht-degree: 97%
    + 專案 {#build-workspace-project}
       + [專案總覽](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [儲存專案](../analysis-workspace/build-workspace-project/save-projects.md)
-      + 工作區中的資料夾 {#workspace-folders}
-         + [關於工作區中的資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [建立資料夾和子資料夾](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+      + Workspace 資料夾{#workspace-folders}
+         + [關於 Workspace 資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [建立資料夾 和子資料夾](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [新增專案](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [移除專案](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [儲存新專案](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -261,6 +261,5 @@ ht-degree: 97%
 + 疑難排解 {#troubleshooting}
    + [將您的 Adobe Analytics 資料與 CJA 資料進行比較](../troubleshooting/compare.md)
 + 資料控管 {#cja-privacy}
-   + [稽核記錄](../privacy/audit-log.md)
    + [資料控管](../privacy/privacy-overview.md)
 + [CJA API](https://developer.adobe.com/cja-apis/docs/)
