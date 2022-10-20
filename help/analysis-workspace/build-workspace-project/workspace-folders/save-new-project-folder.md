@@ -1,32 +1,32 @@
 ---
-description: 了解如何將專案儲存至工作區中的資料夾
+description: 了解如何將專案儲存到 Workspace 資料夾中
 keywords: Analysis Workspace
-title: 將項目保存到資料夾
+title: 將專案儲存到資料夾
 feature: CJA Workspace Basics
-source-git-commit: af3580a1925dd5cb504b192f9b125234443e53cf
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '80'
+ht-degree: 92%
 
 ---
 
 
-# 將新項目保存到資料夾
+# 將新的專案儲存到資料夾
 
-要將新項目保存到特定資料夾，請在「保存項目」對話框窗口中選擇資料夾名稱。
+若要將新專案儲存到特定資料夾，請在「儲存專案」對話視窗中選取資料夾名稱。
 
 >[!NOTE]
 >
->此功能目前在有限版本中提供。某些螢幕可能會改變。
+>此功能目前仍在測試中。 部分畫面可能會有所不同。
 
-1. 在工作區中，建立新專案。
+1. 在 Workspace 中，建立新專案。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
-1. 在 **專案** > **儲存** 對話框，從「資料夾」下拉菜單中選擇資料夾名稱。
+1. 在 **專案** > **儲存** 對話框中，從「資料夾」下拉式選單中選取資料夾名稱。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
 
-1. 按一下&#x200B;**儲存**。
+1. 按一下 **儲存**。
 
-   專案會儲存在選取的資料夾中。
+   專案儲存在選取的資料夾中。

@@ -5,8 +5,8 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e2a79bc9d39d1c7758c1ff61c5de5af31c92d34c
-workflow-type: ht
+source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
+workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
 
@@ -173,7 +173,11 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ## 自訂詳細投影片 {#customize-detail-slide}
 
-自訂詳細投影片讓您甚至可更準確地提供和對象共用的資訊。您可以修改每個詳細投影片的版面並新增文字，以更清楚地說明一般使用者可在資料中看到的內容。您還可以使用下拉式選單變更圖表類型。
+自訂詳細投影片讓您甚至可更準確地提供和對象共用的資訊。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+您可以修改每個詳細投影片的版面並新增文字，以更清楚地說明一般使用者可在資料中看到的內容。您還可以使用下拉式選單變更圖表類型。
 
 ![自訂詳細投影片](assets/custom-detail-slide.png)
 
