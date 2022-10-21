@@ -41,7 +41,7 @@ ht-degree: 99%
       + [比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](../getting-started/aa-vs-cja/terminology.md)
       + [比較 Adobe Analytics 和 CJA 的資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [虛擬報告環境和沙箱環境](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
-      + [處理規則、VISTA 和分類與「資料準備」的比較](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
+      + [處理規則、VISTA 和分類與資料準備的比較](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID、ECID、ACUSTOMID 和分析來源連接器](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [刪除關聯](../getting-started/cja-deletion.md)
    + [CJA 字彙表](../getting-started/cja-glossary.md)
@@ -123,17 +123,17 @@ ht-degree: 99%
       + [折線圖](../analysis-workspace/visualizations/line.md)
       + [散佈圖](../analysis-workspace/visualizations/scatterplot.md)
       + [摘要數字和摘要變更](../analysis-workspace/visualizations/summary-number-change.md)
-      + [Text](../analysis-workspace/visualizations/text.md)
+      + [文字](../analysis-workspace/visualizations/text.md)
       + [樹狀圖](../analysis-workspace/visualizations/treemap.md)
       + [文氏圖表](../analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
       + [面板總覽](../analysis-workspace/c-panels/panels.md)
       + [歸因面板](../analysis-workspace/c-panels/attribution.md)
       + [空白面板](../analysis-workspace/c-panels/blank-panel.md)
-      + [Experimentation 面板](../analysis-workspace/c-panels/experimentation.md)
+      + [實驗面板](../analysis-workspace/c-panels/experimentation.md)
       + [自由面板](../analysis-workspace/c-panels/freeform-panel.md)
       + [快速深入分析面板](../analysis-workspace/c-panels/quickinsight.md)
-      + [「媒體同時檢閱者」面板](../analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [媒體同時檢閱者面板](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + 媒體播放時間 {#media-playback-timespent}
          + [概觀](../analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [輸入和輸出設定](../analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
@@ -159,7 +159,7 @@ ht-degree: 99%
          + [在 Analysis Workspace 中檢視異常](../analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [用於異常偵測的統計技術](../analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
    + [使用者偏好設定](../analysis-workspace/user-preferences.md)
-   + 「工作區」常見問答 {#workspace-faq}
+   + 工作區常見問答 {#workspace-faq}
       + [常見問答](../analysis-workspace/workspace-faq/faq.md)
       + [最佳化 Analysis Workspace 效能](../analysis-workspace/workspace-faq/optimizing-performance.md)
       + [錯誤訊息](../analysis-workspace/workspace-faq/error-messages.md)
@@ -170,7 +170,7 @@ ht-degree: 99%
 + Report Builder {#cja-reportbuilder}
    + [Report Builder 概觀](../report-builder/report-buider-overview.md)
    + [Report Builder 設定](../report-builder/report-builder-setup.md)
-   + [建立「資料區塊」](../report-builder/create-a-data-block.md)
+   + [建立資料區塊](../report-builder/create-a-data-block.md)
    + [Report Builder 中心](../report-builder/report-builder-hub.md)
    + [選取日期範圍](../report-builder/select-date-range.md)
    + [使用篩選器](../report-builder/work-with-filters.md)

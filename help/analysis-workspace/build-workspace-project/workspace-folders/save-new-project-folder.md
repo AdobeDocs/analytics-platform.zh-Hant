@@ -23,10 +23,10 @@ ht-degree: 92%
 
    ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
-1. 在 **專案** > **儲存** 對話框中，從「資料夾」下拉式選單中選取資料夾名稱。
+1. 在「**專案** > **儲存**」對話框中，從「資料夾」下拉式選單中選取資料夾名稱。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
 
-1. 按一下 **儲存**。
+1. 按一下「**儲存**」。
 
    專案儲存在選取的資料夾中。

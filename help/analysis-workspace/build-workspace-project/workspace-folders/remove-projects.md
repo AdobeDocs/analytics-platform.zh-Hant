@@ -29,11 +29,11 @@ ht-degree: 96%
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. 選擇 **移至**，然後選擇要將專案移動到的資料夾。
+1. 選取「**移至**」，然後選擇要將專案移動到的資料夾。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-1. 按一下 **移動**。
+1. 按一下「**移動**」。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
@@ -49,6 +49,6 @@ ht-degree: 96%
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. 選取 **刪除**。
+1. 選取「**刪除**」。
 
 1. 確認視窗要求您確認刪除。

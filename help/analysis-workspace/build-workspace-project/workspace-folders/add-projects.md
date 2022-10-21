@@ -5,8 +5,8 @@ title: 在 Workspace 中新增資料夾
 feature: CJA Workspace Basics
 source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '225'
+ht-degree: 97%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 0%
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. 選取 **移至**。「選取資料夾」對話框隨即顯示。
+1. 選取「**移至**」。「選取資料夾」對話框隨即顯示。
 
 1. 從下拉式選單中選取資料夾名稱。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. 按一下 **新增**。
+1. 按一下「**新增**」。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    下拉式選單會顯示將專案新增至資料夾的選項。其他選項可讓您重新命名、移動或刪除資料夾並管理資料夾權限。
 
-1. 選取 **新增專案**，再從下拉式清單中選取要新增的專案。
+1. 選取「**新增專案**」，再從下拉式清單中選取要新增的專案。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. 按一下 **新增**，將專案新增至資料夾。
+1. 按一下「**新增**」，將專案新增至資料夾。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-added-items.png)
 只有管理員可以將專案新增至公司資料夾，或建立全新專案並儲存至公司資料夾

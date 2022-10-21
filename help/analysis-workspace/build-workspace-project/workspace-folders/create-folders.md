@@ -23,7 +23,7 @@ ht-degree: 96%
 
 若要建立新資料夾，
 
-1. 按一下 **新增**。
+1. 按一下「**新增**」。
 
 1. 為新資料夾輸入名稱。
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 
    ![](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/create.png)
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 
 若要在現有資料夾開啟時建立子資料夾，
 
-1. 按一下 **建立新資料夾**。
+1. 按一下「**建立新資料夾**」。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
 
@@ -53,7 +53,7 @@ ht-degree: 96%
 
    ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新子資料夾將新增至專案和子資料夾的清單中。
 
