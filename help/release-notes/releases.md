@@ -2,10 +2,10 @@
 description: 說明 Customer Journey Analytics 的持續功能發行策略
 title: Customer Journey Analytics 功能發行
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
-source-git-commit: f2c82f54ec534603539327597d5f4c4ec875d44c
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+source-git-commit: 44a140fdd5069cbe806f694377802215bcf50b31
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 90%
 
 ---
 
@@ -17,9 +17,7 @@ Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調�
 
 [!UICONTROL Analysis Workspace] 使用功能旗標 (也稱為「切換」) 來控制新功能的可見性，以在完整版發行之前進行有限度的規模測試。此發行策略包含下列階段：
 
-* **發行至生產環境 (RTP)**：程式碼會發行至生產環境，但在 Analysis Workspace 中關閉功能可見性。此功能有時會在 CJA API 中提供。
-
-* **有限測試**：分階段的發行從內部 Adobe 使用者的測試開始。在隨後的幾個月內，發行的可用性會從 0% 擴充至 100%。分階段推出會在 Experience Cloud 組織層級進行，因此組織中所有已獲授權的使用者都會獲得相同的體驗。
+* **轉出開始**:從內部Adobe使用者有限的測試開始，推出分階段發行。 然後，在幾個月內，此版本的可用性會從0%擴充至100%給客戶。 分階段推出會在 Experience Cloud 組織層級進行，因此組織中所有已獲授權的使用者都會獲得相同的體驗。
 
 * **正式發行 (GA)**：已獲授權的 Experience Cloud 組織可使用 100% 的功能，功能發行至此即告完成。
 
