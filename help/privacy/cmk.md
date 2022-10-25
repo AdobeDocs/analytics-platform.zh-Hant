@@ -3,9 +3,9 @@ title: 客戶管理金鑰
 description: 了解如何為CJA設定客戶管理的金鑰。
 hide: true
 hidefromtoc: true
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: ce386f30e344b3921689a8ecc0e6fba0a55137f9
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >此功能將於2022年11月推出。
 
-Customer Journey Analytics(CJA)提供Healthcare Shield和Privacy &amp; Security Shield客戶使用Azure客戶管理金鑰(CMK)來套用至CJA資料的選項。  請注意，此程式與Adobe Experience Platform CMK設定（後續連結）不同。
+Customer Journey Analytics(CJA)提供 [醫療保健盾](https://www.adobe.com/trust/compliance/hipaa-ready.html) 和「隱私與安全防護」客戶可運用Azure客戶管理金鑰(CMK)，套用至您的CJA資料。  請注意，此程式與 [Adobe Experience Platform CMK設定](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html).
 
 >[!NOTE]
 >
