@@ -6,9 +6,9 @@ feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 source-git-commit: ee3196b78e1cf613446840e8cde1fac565d0f2b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,20 +20,20 @@ Customer Journey Analytics (CJA) 由三個存取層級或三個角色管理：�
 
 ## 產品管理員角色
 
-產品管理員有權在 CJA 中完成任何必要的任務。您必須在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 的 [!UICONTROL Customer Journey Analytics] > [!UICONTROL 管理員]索引標籤 > [!UICONTROL 新增管理員]底下，將自己新增為 **Customer Journey Analytics 產品設定檔**&#x200B;的產品管理員。產品管理員可獲得下列權限：
+產品管理員有權在 CJA 中完成任何必要的任務。您必須在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 的 [!UICONTROL Customer Journey Analytics] > [!UICONTROL 管理員] 索引標籤 > [!UICONTROL 新增管理員] 底下，將自己新增為 **Customer Journey Analytics 產品設定檔**&#x200B;的產品管理員。產品管理員可獲得下列權限：
 
 * 建立/更新/刪除連線或資料檢視
 * 更新/刪除專案、篩選器、計算量度、對象、註解或其他使用者建立的篩選器
 * 與所有使用者共用 Workspace 專案
 
-光是成為 Customer Journey Analytics 中的產品管理員仍無法建立、更新或刪除 [連線](/help/connections/overview.md)。若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
+光是成為 Customer Journey Analytics 中的產品管理員仍無法建立、更新或刪除[連線](/help/connections/overview.md)。若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
 
 * 資料模型製作：檢視結構描述、管理結構描述
 * 資料管理：檢視資料集、管理資料集
 * 資料擷取：管理來源
 * 檢視身分命名空間
 
-如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)。
+如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant)。
 
 ## 產品設定檔管理員角色
 
@@ -53,7 +53,7 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 
 ## 授與個別量度或維度的存取權
 
-您無法像傳統Adobe Analytics中一樣，授與或拒絕Customer Journey Analytics中個別量度或維度的權限。 量度和維度可以在[資料檢視](/help/data-views/data-views.md)中修改，所以可能會在 CJA 中有所變動。變更它們也會回溯性地變更報告。
+當您使用 Customer Journey Analytics 時，無法像在傳統 Adobe Analytics 中一樣為個別量度或維度授予或拒絕權限。量度和維度可以在[資料檢視](/help/data-views/data-views.md)中修改，所以可能會在 CJA 中有所變動。變更它們也會回溯性地變更報告。
 
 ## 使用案例
 
@@ -67,8 +67,8 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 
 假設您只想讓使用者存取一天內的資料。您可以用以下方法限制這些特定列的存取：
 
-1. 在 CJA 中建立一個篩選器，其中&#x200B;**[!UICONTROL 日期]**&#x200B;為您希望他們存取資料的日期。
-1. 在[!UICONTROL 資料檢視] > [!UICONTROL 設定] 中，將該過資料新增到資料檢視。
+1. 在 CJA 中建立一個篩選器，其中 **[!UICONTROL 日期]** 為您希望他們存取資料的日期。
+1. 在 [!UICONTROL 資料檢視] > [!UICONTROL 設定] 中，將該過資料新增到資料檢視。
 1. 儲存資料檢視，它會自動將篩選器套用至資料集。現在，任何不符合篩選器定義的列都會自動從編輯的資料檢視中排除。
 1. 在 Admin Console 中建立新的產品設定檔，將使用者新增到其中並限制他們對該資料檢視的存取。
 
@@ -80,7 +80,7 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 
 ## Admin Console 中的 CJA 權限
 
-[Admin Console](https://adminconsole.adobe.com/enterprise/) 中每個產品設定檔都有&#x200B;**[!UICONTROL 權限]**&#x200B;索引標籤。您可以將使用者新增到特定的產品設定檔。然後，將權限指派給指定的資料檢視，並指定產品設定檔中的使用者擁有哪些權限。以下是 CJA 特定的權限：
+[Admin Console](https://adminconsole.adobe.com/enterprise/) 中每個產品設定檔都有 **[!UICONTROL 權限]** 索引標籤。您可以將使用者新增到特定的產品設定檔。然後，將權限指派給指定的資料檢視，並指定產品設定檔中的使用者擁有哪些權限。以下是 CJA 特定的權限：
 
 ![Admin Console 權限](assets/permissions.png)
 
@@ -88,7 +88,7 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 | --- | --- |
 | **[!UICONTROL 資料檢視]** | 如果您將&#x200B;**[!UICONTROL 自動包含]**&#x200B;切換為&#x200B;**[!UICONTROL 開啟]**，則屬於此產品設定檔的使用者可以查看所有現有和新建立的資料檢視。如果此項設定為&#x200B;**[!UICONTROL 關閉]**，您可以選擇使用者有權存取的特定資料檢視。 |
 | **[!UICONTROL 報告工具]**： |  |
-| **[!UICONTROL 稽核記錄存取權]** | 此權限會在 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 和即將推出的稽核記錄UI。 |
+| **[!UICONTROL 稽核記錄存取權]** | 此權限會強制對 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 和即將推出的稽核記錄 UI 進行權限檢查。 |
 | **[!UICONTROL 報告使用情況管理員]** | 可讓使用者查看和刪除在其公司中執行的任何報告。(報告使用情況功能尚未發佈。) |
 | **[!UICONTROL 報告使用情況檢視]** | 可讓使用者查看所有並行報告要求。(報告使用情況功能尚未發佈。) |
 | **[!UICONTROL 建立計算量度]** | 可讓使用者建立[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 |
