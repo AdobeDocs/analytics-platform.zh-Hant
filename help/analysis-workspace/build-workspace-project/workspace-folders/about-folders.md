@@ -6,7 +6,7 @@ feature: CJA Workspace Basics
 source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Workspace 專案資料夾是位於 Workspace 登陸頁面上的資料夾管理�
 
 >[!NOTE]
 >
->此功能目前仍在測試中。 部分畫面可能會有所不同。
+>此功能目前處於 Beta 測試階段。部分畫面可能會有所不同。
 
 Workspace 專案資料夾可幫助使用者組織和分類他們的專案，以便更好地擷取和存取。此外，共用的公司資料夾可讓管理員輕鬆建立內容並與所有 Workspace 使用者共用。 
 

@@ -6,18 +6,18 @@ feature: CJA Workspace Basics
 source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # 建立資料夾
 
-您可以在 Workspace 登錄頁面上，將新的資料夾或子資料夾新增至專案和資料夾清單。
+您可以在 Workspace 登陸頁面上，將新的資料夾或子資料夾新增至專案和資料夾清單。
 
 >[!NOTE]
 >
->此功能目前仍在測試中。 部分畫面可能會有所不同。
+>此功能目前處於 Beta 測試階段。部分畫面可能會有所不同。
 
 ## 建立新資料夾
 

@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: dc75ed818b2760e9cd19fdcd427fe752f829aef0
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 + Customer Journey Analytics 總覽 {#cja-overview}
    + [Customer Journey Analytics 總覽](../getting-started/cja-overview.md)
    + [快速入門](../getting-started/cja-getting-started.md)
-   + [Real-time CDP 與 CJA 之間的量度一致性及受眾會籍數](../getting-started/consistency-rcdp-cja.md)
+   + [Real-time CDP 與 CJA 之間的量度一致性及對象會籍數](../getting-started/consistency-rcdp-cja.md)
    + [CJA 存取控制](../getting-started/cja-access-control.md)
    + [Customer Journey Analytics 登陸頁面](../getting-started/landing.md)
    + [常見問答](../getting-started/cja-faq.md)
@@ -81,7 +81,7 @@ ht-degree: 99%
       + [儲存專案](../analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace 資料夾{#workspace-folders}
          + [關於 Workspace 資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [建立資料夾 和子資料夾](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [建立資料夾和子資料夾](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [新增專案](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [移除專案](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [儲存新專案](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
