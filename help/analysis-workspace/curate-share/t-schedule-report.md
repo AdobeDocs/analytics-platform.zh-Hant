@@ -5,10 +5,10 @@ title: 為專案排程
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: ca8323591ce3e9eabbad66a290cd28153f5a7327
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 63%
+source-wordcount: '723'
+ht-degree: 62%
 
 ---
 
@@ -95,6 +95,7 @@ Adobe會使用密碼來加密排程專案，不論是以.pdf或.csv格式傳送�
 
 ![電子郵件](assets/email-password.png)
 
+1. 重新登入Customer Journey Analytics。
 1. 按一下 **[!UICONTROL 檢視排程專案]**.
 1. 在 **[!UICONTROL 編輯排程專案]** 對話框，輸入並重新輸入密碼。
 1. 讓（僅）已排程專案的收件者知道此密碼。
