@@ -3,11 +3,12 @@ description: 透過電子郵件傳送 Analysis Workspace 專案，或排程進�
 keywords: Analysis Workspace
 title: 為專案排程
 feature: Curate and Share
+mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+workflow-type: tm+mt
+source-wordcount: '717'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 您可以從工作區的&#x200B;**「共用」功能表**，透過電子郵件將 Analysis Workspace 專案傳送給選取的收件者。能以 CSV 或 PDF 格式傳送檔案。
 
-## 立即傳送檔案
+## 立即傳送檔案 {#now}
 
 若要透過電子郵件立即傳送檔案給收件者：
 
@@ -23,12 +24,13 @@ ht-degree: 100%
 1. 指定檔案類型 (CSV 或 PDF)。
 1. (選用) 新增要加入電子郵件中的說明，以說明傳送的檔案。
 1. 新增收件者或群組。您也可以輸入電子郵件地址。
+1. （僅適用於Healthcare Shield客戶）提供密碼。 請參閱密碼保護排程報表一節。
 1. 按一下&#x200B;**立即傳送**。
 1. (選用) 按一下&#x200B;**「顯示排程選項」**，以指定傳送排程。
 
 ![立即傳送檔案](assets/send-file-no-scheduling-options.JPG)
 
-## 依排程傳送檔案
+## 依排程傳送檔案 {#schedule}
 
 若要透過電子郵件定期傳送檔案給收件者：
 
@@ -36,13 +38,14 @@ ht-degree: 100%
 1. 指定檔案類型 (CSV 或 PDF)。
 1. (選用) 新增要加入電子郵件中的說明，以說明傳送的檔案。
 1. 新增收件者或群組。您也可以輸入電子郵件地址。
+1. （僅適用於Healthcare Shield客戶）提供密碼。 請參閱密碼保護排程報表一節。
 1. 修改「開始時間」和「結束時間」輸入內容，指定應傳送排程的時間範圍。結束日期必須在建立或修改排程當日起一年內。
 1. 指定傳送頻率。每個頻率都允許不同的自訂內容。
 1. 按一下&#x200B;**「依排程傳送」**。
 
 ![](assets/send-file.JPG)
 
-## 已排程的專案管理員
+## 已排程的專案管理員 {#manager}
 
 可在&#x200B;**「Analytics > 元件 > 已排程專案」**&#x200B;中管理已排程 Analysis Workspace 專案。
 
@@ -60,3 +63,40 @@ ht-degree: 100%
 | **檢視排程 ID** | 導覽至右上角的欄選項，然後將「排程 ID」欄新增至表格。排程的 ID 對除錯而言通常很實用。 |
 
 「已排程的專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已被停用，所有已安排的傳送將停止。
+
+## 以密碼保護已排程的專案 {#password}
+
+>[!NOTE]
+>
+>密碼保護排程專案的選項只會針對已購買 [醫療保健盾](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/healthcare-vertical.html%3Flang%3Den) 附加產品。
+
+Adobe會使用密碼來加密排程專案，不論是以.pdf或.csv格式傳送。
+
+在您的公司購買了Healthcare Shield SKU並啟用了該SKU後，在兩種情況下，會彈出為計畫項目建立密碼的提示：
+
+* 當某人建立新的排程專案時。
+
+* 即將傳送現有排程專案時。 在密碼保護到位之前，將禁用當前計畫的項目。 已排程專案的擁有者將會收到此效果的電子郵件。
+
+![密碼保護](assets/password.png)
+
+### 密碼要求
+
+密碼要求符合Adobe標準，要求至少8個字元，至少1個數字和1個特殊字元。
+
+### 新排程專案
+
+1. 儲存專案後，請前往「共用>立即傳送檔案」，或「共用>依排程傳送檔案」。
+1. 請依照上述指示，在「立即共用檔案」或「依排程共用檔案」下。
+
+### 現有排程專案
+
+在排程專案之前，專案的擁有者會收到類似以下的電子郵件：
+
+![電子郵件](assets/email-password.png)
+
+1. 按一下 **[!UICONTROL 檢視排程專案]**.
+1. 在 **[!UICONTROL 編輯排程專案]** 對話框，輸入並重新輸入密碼。
+1. 讓（僅）已排程專案的收件者知道此密碼。
+
+

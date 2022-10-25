@@ -1,19 +1,17 @@
 ---
 title: 稽核記錄
 description: 了解如何檢視和管理 CJA 稽核記錄。
-source-git-commit: a866dec61df93bf730529a2d7513b4d76bab6694
-workflow-type: ht
-source-wordcount: '855'
+hide: true
+hidefromtoc: true
+source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+workflow-type: tm+mt
+source-wordcount: '848'
 ht-degree: 100%
 
 ---
 
 
 # 稽核記錄
-
->[!NOTE]
->
->此功能目前正在進行[有限測試](/help/release-notes/releases.md)。
 
 為了提高系統中所執行活動的透明度和可見度，Customer Journey Analytics (CJA) 可讓您以「稽核記錄」的形式，稽核各種服務和功能的使用者活動。這些記錄形成了稽核軌跡，可以幫助解決問題，並幫助您的企業有效地遵守公司資料管理原則和監管要求，例如健康保險便利和責任法案 (HIPAA)。
 
