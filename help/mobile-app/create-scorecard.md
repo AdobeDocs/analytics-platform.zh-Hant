@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
 source-git-commit: 0922faf4476e52e05a8b7b0c4eb00aa38fbbf057
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1769'
 ht-degree: 100%
 
@@ -31,35 +31,35 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 若要建立計分卡，您需要執行以下作業：
 
-1. 存取[!UICONTROL 「空白行動計分卡」]範本。
+1. 存取 [!UICONTROL 空白行動計分卡] 範本。
 2. 使用資料設定計分卡並儲存。
 
-## 存取[!UICONTROL 「空白行動計分卡」]範本 {#template}
+## 存取 [!UICONTROL 空白行動計分卡] 範本 {#template}
 
-您可透過建立新專案或從「工具」選單中存取[!UICONTROL 「空白行動計分卡」]範本。
+您可透過建立新專案或從「工具」選單中存取 [!UICONTROL 空白行動計分卡] 範本。
 
 ### 建立新專案 {#create}
 
-1. 開啟 Adobe Analytics，然後按一下&#x200B;**[!UICONTROL 「工作區」]**&#x200B;索引標籤。
-1. 按一下&#x200B;**[!UICONTROL 「建立專案」]**，然後選取&#x200B;**[!UICONTROL 「空白行動計分卡」]**&#x200B;專案範本。
-1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
+1. 開啟 Adobe Analytics，然後按一下 **[!UICONTROL 工作區]** 索引標籤。
+1. 按一下 **[!UICONTROL 建立專案]**，然後選取 **[!UICONTROL 空白行動計分卡]** 專案範本。
+1. 按一下 **[!UICONTROL 建立]**。
 
 ![計分卡範本](assets/new_template.png)
 
 ### 「工具」選單
 
-1. 從&#x200B;**[!UICONTROL 「工具」]**&#x200B;選單中選取&#x200B;**[!UICONTROL 「Analytics 儀表板 (行動應用程式)]**。
-1. 在隨即顯示的畫面中，按一下「**[!UICONTROL 建立新計分卡]**」。
+1. 從 **[!UICONTROL 工具]** 選單中選取 **[!UICONTROL Analytics 儀表板 (行動應用程式)]**。
+1. 在隨即顯示的畫面中，按一下 **[!UICONTROL 建立新計分卡]**。
 
 ## 使用資料設定計分卡並儲存 {#configure}
 
 實施計分卡範本：
 
-1. 在右側邊欄的&#x200B;**[!UICONTROL 「屬性」]**&#x200B;下方，指定您要使用資料的&#x200B;**[!UICONTROL 專案報表套裝]**。報告套裝是 CJA 中的資料檢視。
+1. 在右側邊欄的 **[!UICONTROL 屬性]** 下方，指定您要使用資料的 **[!UICONTROL 專案報表套裝]**。報告套裝是 CJA 中的資料檢視。
 
    ![選取報表套裝](assets/properties_save.png)
 
-1. 若要為計分卡新增圖磚，請從左側面板拖曳量度，放置到顯示&#x200B;**[!UICONTROL 「將量度拖放至此」]**&#x200B;的區域。您也可以使用類似的工作流程，跨圖磚插入量度。
+1. 若要為計分卡新增圖磚，請從左側面板拖曳量度，放置到顯示 **[!UICONTROL 將量度拖放至此]** 的區域。您也可以使用類似的工作流程，跨圖磚插入量度。
 
    ![新增圖磚](assets/build_list.png)
 
@@ -78,7 +78,7 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 若要將篩選器套用至個別圖磚，請從左側面板將篩選器 (區段是 CJA 中的篩選器) 直接拖曳至圖磚上。
 
-若要將篩選器套用至計分卡上的所有圖磚，請從圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選器功能表中選取篩選器，以套用篩選器。您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
+若要將篩選器套用至計分卡上的所有圖磚，請從圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選器功能表中選取篩選器，以套用篩選器。您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
 
 ![建立篩選器](assets/segment_ui.png)
 
@@ -112,7 +112,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ![圖磚屬性](assets/properties.png)
 
-或者，按一下左側欄中的「[!UICONTROL 視覺效果]」圖示，並將正確的視覺效果拖放至圖磚上：
+或者，按一下左側欄中的 [!UICONTROL 視覺效果] 圖示，並將正確的視覺效果拖放至圖磚上：
 
 ![視覺效果](assets/vizs.png)
 
@@ -136,20 +136,20 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ### [!UICONTROL 橫條圖]
 
-此視覺效果會顯示代表一或多個量度多個值的橫條。例如，若想輕鬆了解您的熱賣產品是什麼，可將「[!UICONTROL 橫條圖]」用作您的首選視覺效果。
+此視覺效果會顯示代表一或多個量度多個值的橫條。例如，若想輕鬆了解您的熱賣產品是什麼，可將 [!UICONTROL 橫條圖] 用作您的首選視覺效果。
 
 ![橫條圖](assets/horizontal.png)
 
-### 移除「[!UICONTROL 未指定]」維度項目
+### 移除 [!UICONTROL 未指定] 維度項目
 
-如果您想從資料中移除「[!UICONTROL 未指定]」維度項目，請執行以下作業：
+如果您想從資料中移除 [!UICONTROL 未指定] 維度項目，請執行以下作業：
 
 1. 選取正確圖磚。
-1. 在右側欄中，在「**[!UICONTROL Drill ins]**」下選取維度項目 (包含您想移除的「**[!UICONTROL 未指定]**」項目) 旁的右箭頭。
+1. 在右側欄中，在 **[!UICONTROL Drill ins]** 下選取維度項目 (包含您想移除的 **[!UICONTROL 未指定]** 項目) 旁的右箭頭。
 
    ![未指定](assets/unspecified.png)
 
-1. 按一下「**[!UICONTROL 未指定]**」旁的圖示，即可從報表中移除未指定的資料。(您也可移除任何其他的維度項目。)
+1. 按一下 **[!UICONTROL 未指定]** 旁的圖示，即可從報表中移除未指定的資料。(您也可移除任何其他的維度項目。)
 
 ## 檢視和設定圖磚屬性 {#tiles}
 
@@ -209,7 +209,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 在 Analytics 儀表板應用程式中發佈計分卡後，您可以預覽計分卡的外觀和功能。
 
-1. 按一下螢幕右上角的「**[!UICONTROL 預覽]**」。
+1. 按一下螢幕右上角的 **[!UICONTROL 預覽]**。
 
    ![預覽計分卡](assets/preview.png)
 
@@ -235,19 +235,19 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 若要與高階主管使用者共用計分卡：
 
-1. 按一下&#x200B;**[!UICONTROL 「共用」]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 「共用計分卡」]**。
+1. 按一下 **[!UICONTROL 共用]** 功能表，然後選取 **[!UICONTROL 共用計分卡]**。
 
-1. 在&#x200B;**[!UICONTROL 「共用行動計分卡」]**&#x200B;表單中，依照以下說明填寫欄位：
+1. 在 **[!UICONTROL 共用行動計分卡]** 表單中，依照以下說明填寫欄位：
 
    * 提供計分卡的名稱
    * 提供計分卡的說明
    * 新增相關標記
    * 指定計分卡的收件者
 
-1. 按一下&#x200B;**[!UICONTROL 「共用」]**。
+1. 按一下 **[!UICONTROL 共用]**。
 
 ![Share_Scorecards](assets/new_share.png)
 
 在您共用計分卡後，您的收件者可在其 Analytics 儀表板中存取該計分卡。如果您在計分卡產生器中對計分卡進行後續變更，共用的計分卡會自動更新。到時，高階主管使用者在應用程式中重新整理計分卡後，就能看見變更。
 
-如果您是以新增元件的方式更新計分卡，可再次共用計分卡 (並勾選「**[!UICONTROL 共用內嵌元件]**」選項)，以確保您的高階主管使用者有權存取這些變更。
+如果您是以新增元件的方式更新計分卡，可再次共用計分卡 (並勾選 **[!UICONTROL 共用內嵌元件]** 選項)，以確保您的高階主管使用者有權存取這些變更。
