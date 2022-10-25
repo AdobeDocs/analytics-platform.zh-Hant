@@ -5,10 +5,10 @@ title: 為專案排程
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: ca8323591ce3e9eabbad66a290cd28153f5a7327
+source-git-commit: 6267b7ea3e0a72c86f3ab042c537ddca6f99539f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 62%
+source-wordcount: '741'
+ht-degree: 61%
 
 ---
 
@@ -86,8 +86,8 @@ Adobe會使用密碼來加密排程專案，不論是以.pdf或.csv格式傳送�
 
 ### 新排程專案
 
-1. 儲存專案後，請前往「共用>立即傳送檔案」，或「共用>依排程傳送檔案」。
-1. 請依照上述指示，在「立即共用檔案」或「依排程共用檔案」下。
+1. 儲存專案後，請前往 **[!UICONTROL 共用]** > **[!UICONTROL 立即傳送檔案]**，或 [!UICONTROL 共用] > **[!UICONTROL 依排程傳送檔案]**.
+1. 請依照上述指示，在 [立即傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#now) 或 [依排程傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#schedule).
 
 ### 現有排程專案
 
