@@ -3,41 +3,42 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新 CJA 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a7636909c0570655ee6d3638e56828916044d2bd
+source-git-commit: 07842c9f1e2f4708d0881dec75c067d93611626c
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 77%
+source-wordcount: '590'
+ht-degree: 86%
 
 ---
 
-# Customer Journey Analytics(CJA)發行說明（2022年10月/11月）
+# Customer Journey Analytics (CJA) 發行說明 (2022 年 10/11 月)
 
-**上次更新日期**：2022 年 10 月 19 日
+**上次更新日期**：2022 年 10 月 25 日
 
 Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 主要功能和更新
 
-| 功能 | 說明 | [轉出開始](/help/release-notes/releases.md) | [全面發佈](/help/release-notes/releases.md) |
+| 功能 | 說明 | [開始推出](/help/release-notes/releases.md) | [全面發佈](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
 | **[!UICONTROL 關鍵量度摘要]視覺化** | [!UICONTROL 關鍵量度摘要]視覺化可讓您查看重要量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。[了解更多](/help/analysis-workspace/visualizations/key-metric.md) | 2022 年 10 月 5 日 | 2022 年 10 月 19 日 |
 | **不區分大小寫的多值變數** | 對於不區分大小寫的多值變數，儲存在 `mvvar1` - `mvvar3` 中的值將不再自動採用小寫。相反的，透過 Analytics Source Connector 傳遞到 Adobe Experience Platform 和 CJA 的資料將反映從頁面傳入的原始大小寫。 | 不適用 | 2022 年 10 月 24 日 |
-| **CJA稽核記錄** | Customer Journey Analytics(CJA)可讓您以「稽核記錄」的形式，稽核各種服務和功能的使用者活動。 這些日誌形成了一個審核跟蹤，可以幫助排除問題，並幫助您的企業有效遵守公司資料管理政策和法規要求，如健康保險可移植性和責任法案(HIPAA)。 這些記錄檔先前只能透過稽核記錄API使用。 [後續文件] | 不適用 | 2022 年 10 月 26 日 |
-| **HIPAA準備** | 後續說明 | 不適用 | 2022 年 11 月 7 日 |
+| **CJA 稽核記錄** | Customer Journey Analytics (CJA) 可讓您以「稽核記錄」的方式稽核各種服務和功能的使用者活動。這些記錄形成了稽核軌跡，可以幫助解決問題，並幫助您的企業有效地遵守公司資料管理原則和監管要求，例如健康保險便利和責任法案 (HIPAA)。這些記錄先前只能透過稽核記錄 API 取得。[了解更多](/help/privacy/audit-log.md) | 不適用 | 2022 年 10 月 26 日 |
+| **HIPAA 整備程度** | Adobe現在僅支援Healthcare ShieldCustomer Journey Analytics和其他基於Experience Platform的應用程式中的受保護健康資訊的接收、使用、維護或發送。 Healthcare Shield僅適用於美國的受保實體或業務關聯醫療保健客戶。 [了解更多](https://www.adobe.com/trust/compliance/hipaa-ready.html) | 不適用 | 2022 年 11 月 7 日 |
+| **已排程專案的密碼保護** | 此功能是HIPAA整備的一部分，僅適用於Healthcare Shield客戶。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) | 不適用/ | 2022 年 11 月 7 日. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## 修正
 
-* 修正最新MacOS版本未正確命名為「Macintosh」的問題。 透過此修正，作業系統維度將從MacOS 11開始，開始使用「MacOS」版本編號。 (AN-301834)
+* 已修正最近 MacOS 版本誤命名為「Macintosh」的問題。透過此修正，作業系統維度將開始使用「MacOS」版本編號，從 MacOS 11 開始。(AN-301834)
 
-### 其他  修正
+### 其他修正
 
-AN-302367；AN-302562
+AN-302367；AN-302562; AN-304036
 
 ## 給 CJA 管理員的重要通知
 
-| 通知 | 已新增或更新通知 | 說明 |
+| 通知 | 新增或更新通知 | 說明 |
 | --- | --- | --- |
 | **預設登陸頁面** | 2023 年 9 月 29 日 | 今年早些時候推出的[新登陸頁面](/help/getting-started/landing.md)將在 **2023 年 1 月**&#x200B;成為所有使用者的預設體驗。目前頁面將被淘汰，將要求所有人都使用新體驗。 |
 | **已改良 IP 對地理位置的對應** | 2022 年 9 月 29 日 | Adobe 的 IP 查詢供應商 Digital Element 正升級到新改良的資料集 (NetAcuity Pulse) 以便用於 IP 對地理位置的對應。 Adobe Analytics 已將這個新資料集的採用延後到 **2023 年 1 月**。新資料庫將會比舊版更準確。在採用新資料庫後，某些 IP 對地理位置的對應將會變更/改良。<p> 透過 [!UICONTROL Analytics Source Connector] 提供的 CJA 資料也將自動利用新的對應。 |

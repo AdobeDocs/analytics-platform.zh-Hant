@@ -3,10 +3,10 @@ title: 稽核記錄
 description: 了解如何檢視和管理 CJA 稽核記錄。
 hide: true
 hidefromtoc: true
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: 6cf2d5ccbeeea7baeea8a675f2b7e96e6203fe24
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 100%
+source-wordcount: '849'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 若要檢視和匯出稽核記錄，您必須已被授予 Adobe Console 中的&#x200B;**[!UICONTROL 稽核記錄存取權]**&#x200B;存取控制權限。若要了解如何管理 CJA 功能的個人權限，請參閱[存取控制文件](/help/getting-started/cja-access-control.md)。
 
-## 在 UI 中檢視稽核記錄
+## 在UI中檢視稽核記錄
 
 在 CJA 中，瀏覽到 **[!UICONTROL 工具]** > **[!UICONTROL 稽核記錄]**。
 
