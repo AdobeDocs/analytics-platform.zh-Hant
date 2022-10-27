@@ -3,9 +3,9 @@ description: 說明 Customer Journey Analytics 的持續功能發行策略
 title: Customer Journey Analytics 功能發行
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 source-git-commit: 44a140fdd5069cbe806f694377802215bcf50b31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調�
 
 [!UICONTROL Analysis Workspace] 使用功能旗標 (也稱為「切換」) 來控制新功能的可見性，以在完整版發行之前進行有限度的規模測試。此發行策略包含下列階段：
 
-* **轉出開始**:從內部Adobe使用者有限的測試開始，推出分階段發行。 然後，在幾個月內，此版本的可用性會從0%擴充至100%給客戶。 分階段推出會在 Experience Cloud 組織層級進行，因此組織中所有已獲授權的使用者都會獲得相同的體驗。
+* **開始推出**：分階段發行從內部 Adobe 使用者的有限測試開始在隨後的幾個月內，該版本對客戶的可用性會從 0% 擴充至 100%。分階段推出會在 Experience Cloud 組織層級進行，因此組織中所有已獲授權的使用者都會獲得相同的體驗。
 
 * **正式發行 (GA)**：已獲授權的 Experience Cloud 組織可使用 100% 的功能，功能發行至此即告完成。
 
@@ -25,7 +25,7 @@ Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調�
 
 ## 功能旗標
 
-功能旗標可用於控制新功能在發行期間的可見度。Adobe 建議將 `app.launchdarkly.com` 新增到防火牆的[允許清單](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html)中，以便在發行期間提供最佳體驗。 正式發行後不久，旗標將會移除。
+功能旗標可用於控制新功能在發行期間的可見度。Adobe 建議將 `app.launchdarkly.com` 新增到防火牆的[允許清單](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant)中，以便在發行期間提供最佳體驗。 正式發行後不久，旗標將會移除。
 
 您可以隨時在&#x200B;**「說明 > 關於 Workspace > 有效功能旗標」**&#x200B;檢視有效的功能旗標。
 
@@ -37,5 +37,5 @@ Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調�
 
 | 問題 | 回答 |
 | --- | --- |
-| 我是否可要求搶先使用功能？ | 否。 我們不授與搶先使用的權限。<br>如果您想要搶先體驗 Analytics 的概念，建議您嘗試透過 [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/labs.html) 對我們領先業界的創新能力提供意見反應。 |
+| 我是否可要求搶先使用功能？ | 否。 我們不授與搶先使用的權限。<br>如果您想要搶先體驗 Analytics 的概念，建議您嘗試透過 [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/labs.html?lang=zh-Hant) 對我們領先業界的創新能力提供意見反應。 |
 | 此發行策略是否會影響我使用功能？ | 否。 功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。 |
