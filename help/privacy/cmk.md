@@ -20,7 +20,7 @@ Customer Journey Analytics(CJA)提供 [醫療保健盾](https://www.adobe.com/tr
 
 >[!NOTE]
 >
->客戶自控金鑰目前僅適用於已購買 [Healthcare Shield 或 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/healthcare-vertical.html%3Flang%3Den) 附加產品的組織。
+>客戶自控金鑰目前僅適用於已購買 [Healthcare Shield 或 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/healthcare-vertical.html?lang=zh-Hant%3Flang%3Den) 附加產品的組織。
 
 ## 為CJA設定CMK
 
