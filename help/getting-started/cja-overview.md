@@ -4,10 +4,10 @@ description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Wo
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f7b4dcb893586e71302cc6a20ebe931743ea8924
+source-git-commit: f70cb6a8567d1bb2f844b1694f552ec4bfe70adc
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 100%
+source-wordcount: '942'
+ht-degree: 98%
 
 ---
 
@@ -51,6 +51,7 @@ Customer Journey Analytics 可用來：
 
 * 貴組織具備有效的 Adobe Analytics Select、Prime 或 Ultimate 合約，且已有 Customer Journey Analytics 附加元件。如果您不確定已有的合約類型，或不確定您是否有 CJA 附加元件，請洽貴組織的客戶經理。
 * 貴組織已佈建 Adobe Experience Platform。
+* 您也可以購買獨立產品的Customer Journey Analytics，而無需Adobe Analytics。
 
 ## 存取控制
 
