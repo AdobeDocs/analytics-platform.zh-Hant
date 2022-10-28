@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新 CJA 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 07842c9f1e2f4708d0881dec75c067d93611626c
+source-git-commit: fbfc7113aef8857e11ccfba5e5e557eed16c2465
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運�
 | 功能 | 說明 | [開始推出](/help/release-notes/releases.md) | [全面發佈](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
 | **[!UICONTROL 關鍵量度摘要]視覺化** | [!UICONTROL 關鍵量度摘要]視覺化可讓您查看重要量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。[了解更多](/help/analysis-workspace/visualizations/key-metric.md) | 2022 年 10 月 5 日 | 2022 年 10 月 19 日 |
-| **不區分大小寫的多值變數** | 對於不區分大小寫的多值變數，儲存在 `mvvar1` - `mvvar3` 中的值將不再自動採用小寫。相反的，透過 Analytics Source Connector 傳遞到 Adobe Experience Platform 和 CJA 的資料將反映從頁面傳入的原始大小寫。 | 不適用 | 2022 年 10 月 24 日 |
+| **不區分大小寫的多值變數** | 對於不區分大小寫的多值變數，儲存在 `mvvar1` - `mvvar3` 中的值將不再自動採用小寫。相反的，透過 Analytics Source Connector 傳遞到 Adobe Experience Platform 和 CJA 的資料將反映從頁面傳入的原始大小寫。ASC/CJA欄 `_experience.analytics.customDimensions.lists.list1.list[]` - `_experience.analytics.customDimensions.lists.list3.list[]` 會受此變更影響。 | 不適用 | 2022 年 10 月 24 日 |
 | **CJA 稽核記錄** | Customer Journey Analytics (CJA) 可讓您以「稽核記錄」的方式稽核各種服務和功能的使用者活動。這些記錄形成了稽核軌跡，可以幫助解決問題，並幫助您的企業有效地遵守公司資料管理原則和監管要求，例如健康保險便利和責任法案 (HIPAA)。這些記錄先前只能透過稽核記錄 API 取得。[了解更多](/help/privacy/audit-log.md) | 不適用 | 2022 年 10 月 26 日 |
 | **HIPAA 整備程度** | Adobe 現在僅支援 Healthcare Shield 客戶在 Customer Journey Analytics 和其他 Experience Platform 型應用程式中接收、使用、維護或傳輸受保護的健康資訊。Healthcare Shield 僅適用於本身是美國「適用機構」(Covered Entity) 與「商業夥伴」(Business Associate) 的醫療保健客戶。[了解更多](https://www.adobe.com/trust/compliance/hipaa-ready.html) | 不適用 | 2022 年 11 月 7 日 |
 | **排程專案的密碼保護** | 此功能是 HIPAA 整備程度的一部分，僅適用於 Healthcare Shield 客戶。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#password) | 不適用 | 2022 年 11 月 7 日。 |
