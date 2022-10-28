@@ -5,7 +5,7 @@ exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 99%
 
 ## 資料控管和同意
 
-當您在 CJA 中發佈對象時，將記錄附加到對象中使用之欄位的資料控管標籤和策略。在任何 Adobe Experience 應用程式中啟用對象後，所有相關的資料控管標籤和策略都可供該對象使用，並且可套用適當的強制執行。[深入了解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy).
+當您在 CJA 中發佈對象時，將記錄附加到對象中使用之欄位的資料控管標籤和策略。在任何 Adobe Experience 應用程式中啟用對象後，所有相關的資料控管標籤和策略都可供該對象使用，並且可套用適當的強制執行。[進一步瞭解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy)。
 
 ## 後續步驟
 
