@@ -2,8 +2,8 @@
 title: 稽核記錄
 description: 了解如何檢視和管理 CJA 稽核記錄。
 source-git-commit: 37a23a4669c08c8f7d9c6595286998ebd7e60ac4
-workflow-type: tm+mt
-source-wordcount: '849'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
