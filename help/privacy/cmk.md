@@ -3,10 +3,10 @@ title: 客戶自控金鑰
 description: 了解如何為 CJA 設定客戶自控金鑰。
 hide: true
 hidefromtoc: true
-source-git-commit: 90521aa7326486b9016321d35191a73ef891a0bc
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: 08a322e159725c565dafdc5ef28758cc97fb9ae4
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 83%
 
 ---
 
@@ -30,5 +30,10 @@ Customer Journey Analytics (CJA) 讓 [Healthcare Shield](https://www.adobe.com/t
 1. 確保在 Azure 中您是具有權限角色的管理員，例如應用程式管理員、雲端應用程式管理員或全域管理員。[從 Microsoft 了解更多資訊](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
 1. 建立僅用於 CJA 的新 Azure Key Vault。[從 Microsoft 了解更多資訊](https://learn.microsoft.com/en-us/azure/key-vault/general/)
 1. 將 Adobe Azure 應用程式存取權限授予給您的金鑰 (金鑰保存庫中)。這是 Adobe 應用程式 ID：251e3919-1940-4296-bb8b-6b9a5e8a4805。[從 Microsoft 了解更多資訊](https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&amp;tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)
-1. 建立要求 CMK 設定的 Adobe 客戶服務票證。在您的票證中包含 Azure URI。URI 可以在 Azure Key 的金鑰識別碼欄位中找到。
+1. 建立要求 CMK 設定的 Adobe 客戶服務票證。在您的票證中包含 Azure URI。可在 **密鑰標識符** 欄位。
+
+   ![](assets/key-identifier.png)
+
 1. Adobe 客戶服務將確認您 CJA 資料上的 CMK 應用程式已完成。
+
+Platform使用的所有資料在傳輸中和閒置時都會經過加密，以確保資料安全，無論是否使用CMK。 有關Adobe Experience Platform加密的資訊， [了解更多](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=en).
