@@ -3,8 +3,8 @@ title: 客戶自控金鑰
 description: 了解如何為 CJA 設定客戶自控金鑰。
 source-git-commit: 903c1423c91b220524174fa900a9ec13cd2051c6
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
