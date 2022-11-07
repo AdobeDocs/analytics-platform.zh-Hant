@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: ea2c9e59a6dbae2bb06ef8c0d012b3f3ff972445
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 96%
 | 日期 | 更新說明 |
 | --- | --- |
 | **2022 年 10 月** |  |
-| 2022 年 10 月 | 新主題 [已排程專案的密碼保護](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=zh-Hant#password). 此功能支援 [HIPAA準備](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html). |
-| 2022 年 10 月 | 新主題 [客戶管理金鑰](/help/privacy/cmk.md). 此功能支援 [HIPAA準備](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
-| 2022 年 10 月 | 新主題 [CJA稽核記錄](/help/privacy/audit-log.md). |
+| 2022 年 10 月 | 有關[排程專案的密碼保護](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=zh-Hant#password)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
+| 2022 年 10 月 | 有關[客戶自控金鑰](/help/privacy/cmk.md)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
+| 2022 年 10 月 | 有關 [CJA 持續性稽核記錄](/help/privacy/audit-log.md)的新主題。 |
 | 2022 年 10 月 | 新主題：[關鍵量度摘要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=zh-Hant)視覺化。 |
 | 2022 年 10 月 | 新章節：[資料檢視中的日期和日期-時間功能](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#date) |
 | 2022 年 10 月 | 行動應用程式：新主題：[自訂詳細檢視](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant#view-detail-slides)。 |
-| 2022 年 10 月 | 更新 [Customer Journey Analytics功能支援](/help/getting-started/aa-vs-cja/cja-aa.md) 主題。 |
+| 2022 年 10 月 | [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)主題的更新。 |
 | **2022 年 9 月** |  |
 | 2022 年 9 月 | [將 Google Analytics 資料轉移到 CJA](/help/use-cases/ga/overview.md) 的新使用個案。 |
 | 2022 年 9 月 | Workspace [組合圖表](/help/analysis-workspace/visualizations/combo-charts.md)的新主題。 |
@@ -108,7 +108,7 @@ ht-degree: 96%
 | 2021 年 2 月 | 有關使用 [Adobe Experience Platform 中的「行銷管道」維度](/help/use-cases/marketing-channels.md)的新主題。 |
 | 2021 年 2 月 | 發佈新的 [CJA API](https://www.adobe.io/cja-apis/docs/) 文件。 |
 | **2021 年 1 月** |  |
-| 2021 年 1 月 | 有關「[將標準查詢新增至您的資料集](/help/connections/standard-lookups.md)」的新主題。 |
+| 2021 年 1 月 | 有關[將標準查詢新增至您的資料集](/help/connections/standard-lookups.md)的新主題。 |
 
 {style=&quot;table-layout:auto&quot;}
 
