@@ -1,18 +1,15 @@
 ---
 title: 客戶自控金鑰
 description: 了解如何為 CJA 設定客戶自控金鑰。
-source-git-commit: 903c1423c91b220524174fa900a9ec13cd2051c6
+exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
+source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '315'
+ht-degree: 100%
 
 ---
 
 # 客戶自控金鑰
-
->[!NOTE]
->
->此功能將於 2022 年 11 月推出。
 
 Customer Journey Analytics (CJA) 讓 [Healthcare Shield](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html) 和 Privacy &amp; Security Shield 客戶可選擇將 Azure 客戶自控金鑰 (CMK) 套用於 CJA 資料。請注意，此過程與 [Adobe Experience Platform CMK 設定](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=zh-Hant)不同。
 

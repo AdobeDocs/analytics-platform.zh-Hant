@@ -2,10 +2,10 @@
 title: AAID、ECID、ACUSTOMID 和 Analytics Source Connector
 description: 瞭解 Analytics Source Connector 如何處理 Adobe Analytics 身分識別欄位。
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
-source-git-commit: 4c9d87b6c6b7859ffac4cd2d26e8c89d12fe1285
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+source-git-commit: a8f8d14eb854029d6245932a321cf08dfb3cd7e3
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Analytics Source Connector 將這些身分識別以 XDM 形式傳遞到 Adobe Ex
 * `{ “key”: “ECID”, “value”: [ { “id”: “<identity>”, “primary”: <true or false> } ] }`
 * `{ “key”: “AACUSTOMID”, “value”: [ { “id”: “<identity>”, “primary”: false } ] }`
 
-中括弧內的項目
+&lt;>方括弧中的項目代表實際值出現的位置。
 
 在 identityMap 中：
 

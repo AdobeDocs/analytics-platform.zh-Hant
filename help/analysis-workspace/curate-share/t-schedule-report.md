@@ -5,10 +5,10 @@ title: 為專案排程
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 6267b7ea3e0a72c86f3ab042c537ddca6f99539f
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+source-git-commit: b0a1fdcfb2d200d40c308c557c2ddff172c1e18f
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 98%
 
 ---
 
@@ -84,12 +84,12 @@ Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv �
 
 密碼需求符合 Adobe 標準，要求至少 8 個字元，其中至少一個數字和一個特殊字元。
 
-### 新排程專案
+### 以密碼保護新的計畫項目
 
 1. 儲存專案後，前往 **[!UICONTROL 共用]** > **[!UICONTROL 立即傳送檔案]**，或 [!UICONTROL 共用] > **[!UICONTROL 依排程傳送檔案]**。
 1. 按照上面的指示，在[立即傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#now)或[依排程傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#schedule)下面。
 
-### 現有排程專案
+### 以密碼保護現有的已排程專案
 
 在專案排定的時間之前，專案所有者將收到類似以下內容的電子郵件：
 
