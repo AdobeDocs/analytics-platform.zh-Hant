@@ -4,10 +4,10 @@ description: 重新輸入多個資料集的訪客 ID，以彙整訪客。
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: fff0ffb3a513c3fc514d6769f8c3bc70fa75459e
-workflow-type: ht
-source-wordcount: '1189'
-ht-degree: 100%
+source-git-commit: 143979330addce3fce045d1785ae969c75a78d28
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 符合所有先決條件並了解限制後，貴組織就能按照下列步驟，在 CJA 中開始使用。
 
-1. 將所需的資料匯入 Adobe Experience Platform。請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)和[匯入資料](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant)。
+1. 將所需的資料匯入 Adobe Experience Platform。如需Adobe Analytics資料，請參閱 [將Adobe Analytics報表套裝資料用於Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). 如需其他類型的資料，請參閱 [建立結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant) 和 [內嵌資料](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) 在Adobe Experience Platform檔案中。
 1. 請聯絡 Adobe 客戶支援，提供下列資訊：
    * 跨管道分析啟用申請
    * 您要重設金鑰之資料集的資料集 ID

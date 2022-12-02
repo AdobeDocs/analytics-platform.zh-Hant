@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 9874626b52fd4e87bd6337b20ac03d837d8ad888
+source-git-commit: d976160ae5186e9c8b9890b3835a251cac518b02
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,8 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p> 
      <ul>
-       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=zh-Hant"> 結合報告套裝與不同的結構描述 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-data-in-cja.html?lang=en?lang=en">將Adobe Analytics報表套裝資料用於Customer Journey Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=zh-Hant"> 結合報告套裝與不同的結構描述 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=en"> 處理規則、VISTA 和分類與「資料準備」的比較 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=en">比較 Adobe Analytics 和 CJA 報告功能的資料處理</a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/vrs-dataview-sandbox-adc.html?lang=en">虛擬報告套裝、資料檢視、AEP 沙箱和 Analytics 來源連接器</a> </li>
@@ -48,7 +49,8 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
      <li><a href="https://www.adobe.com/tw/experience-platform.html" format="http" scope="external"> Adobe Experience Platform</a> </li> 
      <li> <a href="https://experienceleague.adobe.com/docs/platform-learn/tutorials/overview.html?lang=zh-Hant" format="https" scope="external"> Adobe Experience Platform 教學課程</a> </li> 
      <li><a href="https://www.adobe.io/apis/experienceplatform/home/api-reference.html" format="https" scope="external"> API 參考</a> </li> 
-     <li><a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> 文件與開發人員資源</a> </li> 
+     <li><a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html" format="https" scope="external"> 文件與開發人員資源</a> </li>
+     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html" format="https" scope="external"> Adobe Analytics報表套裝資料的來源連接器</a> </li>
     </ul> </td> 
   </tr> 
  </tbody> 

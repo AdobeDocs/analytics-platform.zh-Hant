@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 6fee3b9e91aff8c49176d86ac99fd78a6d852c4c
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+source-git-commit: 52593d05b10c872322236fb82c4ce5346ddcc9ac
+workflow-type: tm+mt
+source-wordcount: '817'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 100%
    + [Adobe Analytics 至 Customer Journey Analytics 的發展進程](../getting-started/aa-to-cja.md)
    + [全新 Customer Journey Analytics 使用者使用指南](../getting-started/aa-to-cja-user.md)
    + 比較 Adobe Analytics 和 Customer Journey Analytics {#compare-aa-cja}
+      + [在Customer Journey Analytics中利用Adobe Analytics資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 功能支援](../getting-started/aa-vs-cja/cja-aa.md)
       + [比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](../getting-started/aa-vs-cja/terminology.md)
       + [比較 Adobe Analytics 和 CJA 的資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
@@ -237,6 +238,7 @@ ht-degree: 100%
    + [高階主管使用者快速入門指南](../mobile-app/executive.md)
 + Adobe 整合 {#integrations}
    + [整合 Adobe 解決方案與 CJA 總覽](/help/integrations/overview.md)
+   + [將Adobe Analytics與Customer Journey Analytics整合](/help/integrations/aa.md)
    + [將 Journey Optimizer 資料與 CJA 整合](/help/integrations/ajo.md)
    + [將 Customer AI 資料與 CJA 整合](/help/integrations/customer-ai.md)
 + 使用案例 {#cja-usecases}
