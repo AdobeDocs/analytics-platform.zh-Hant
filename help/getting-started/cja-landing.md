@@ -4,9 +4,9 @@ description: Customer Journey Analytics 登陸頁面。
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: d976160ae5186e9c8b9890b3835a251cac518b02
+source-git-commit: 7550249f94a2d81bcaf771a16283136d7a3543ff
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '426'
 ht-degree: 93%
 
 ---
@@ -24,7 +24,7 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p> 
      <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-data-in-cja.html?lang=en?lang=en">將Adobe Analytics報表套裝資料用於Customer Journey Analytics </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aa-data-in-cja.html?lang=en">將Adobe Analytics報表套裝資料用於Customer Journey Analytics </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=zh-Hant"> 結合報告套裝與不同的結構描述 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=en"> 處理規則、VISTA 和分類與「資料準備」的比較 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/data-processing-comparisons.html?lang=en">比較 Adobe Analytics 和 CJA 報告功能的資料處理</a> </li>
