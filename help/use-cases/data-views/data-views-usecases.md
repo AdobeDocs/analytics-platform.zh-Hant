@@ -4,10 +4,10 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: b2dc937159fc631755c1c5486149a94f7cd33f89
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1313'
+ht-degree: 98%
 
 ---
 
@@ -120,6 +120,8 @@ Adobe Experience Platform 中的結構描述包含「[!UICONTROL 日期]」和�
 * 就日期格式而言，如果您選取格式為&#x200B;**[!UICONTROL 月、日、年]**&#x200B;的&#x200B;**[!UICONTROL 日]**，報告的範例輸出可能會是這樣：August 23, 2022。
 
 * 就日期-時間格式而言，如果您選取格式為&#x200B;**[!UICONTROL 時:分]**&#x200B;的&#x200B;**[!UICONTROL 當日的分鐘]**，您的輸出可能會是這樣：20:20。
+
+我們目前支援1900年1月1日之後的日期（1970年1月1日為單一例外），以及2000年1月1日之後的日期時間值:00:00.
 
 ### 日期和日期-時間使用案例
 
