@@ -4,8 +4,8 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ea2c9e59a6dbae2bb06ef8c0d012b3f3ff972445
-workflow-type: ht
+source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 | --- | --- |
 | **2022 年 10 月** |  |
 | 2022 年 10 月 | 有關[排程專案的密碼保護](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=zh-Hant#password)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
-| 2022 年 10 月 | 有關[客戶自控金鑰](/help/privacy/cmk.md)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
+| 2022 年 10 月 | 有關[客戶自控金鑰](/help/privacy/cmk.md)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/trust/compliance/hipaa-ready.html)。 |
 | 2022 年 10 月 | 有關 [CJA 持續性稽核記錄](/help/privacy/audit-log.md)的新主題。 |
 | 2022 年 10 月 | 新主題：[關鍵量度摘要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=zh-Hant)視覺化。 |
 | 2022 年 10 月 | 新章節：[資料檢視中的日期和日期-時間功能](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#date) |
@@ -46,7 +46,7 @@ ht-degree: 100%
 | 2022 年 6 月 | 新增 [Adobe Analytics 處理規則、VISTA 和分類與 Analytics 來源連接器的「資料準備」的比較](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)的文章。 |
 | 2022 年 6 月 | 新增[虛擬報告環境和沙箱環境](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)的文章。 |
 | 2022 年 6 月 | 新增[比較 Adobe Analytics 和 CJA 報告功能的資料處理](/help/getting-started/aa-vs-cja/data-processing-comparisons.md)的文章。 |
-| 2022 年 6 月 | 新增[結合報告套裝與不同的結構描述](/help/use-cases/combine-report-suites.md)文章。 |
+| 2022 年 6 月 | 新增[結合報告套裝與不同的結構描述](/help/use-cases/aa-data/combine-report-suites.md)文章。 |
 | 2022 年 6 月 | 新增[以行動計分卡共用註解](/help/components/annotations/mobile-annotations.md)的文章。 |
 | 2022 年 6 月 | 新增 [CJA 中的 Analytics Labs](/help/labs/labs.md) 的文章。 |
 | 2022 年 6 月 | 新增[支援數值欄位做為查閱鍵和查閱值](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#numeric)的區段。 |
@@ -54,7 +54,7 @@ ht-degree: 100%
 | **2022 年 5 月** |  |
 | 2022 年 5 月 | 有關在 CJA 中[建立連線](/help/connections/create-connection.md)的文章推出重大更新。 |
 | 2022 年 5 月 | 有關如何[在 CJA Report Builder 中管理資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html)的新文章。 |
-| 2022 年 5 月 | 有關[將 Adobe Experience Platform 對象帶進 CJA](/help/use-cases/ingest-aep-segments.md) 的新文章。 |
+| 2022 年 5 月 | 有關[將 Adobe Experience Platform 對象帶進 CJA](/help/use-cases/data-ingestion/ingest-aep-segments.md) 的新文章。 |
 | **2022 年 4 月** |  |
 | 2022 年 4 月 | [維度子字串](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html)文件。 |
 | 2022 年 4 月 | 最新[Adobe Analytics 使用者的 CJA 使用指南](/help/getting-started/aa-to-cja-user.md)。 |
@@ -65,7 +65,7 @@ ht-degree: 100%
 | **2022 年 2 月** |  |
 | 2022 年 2 月 | 適用於從 Adobe Analytics 移至 CJA 的新管理員指南：[Adobe Analytics 至 Customer Journey Analytics 的發展進程](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja.html) |
 | **2022 年 1 月** |  |
-| 2022 年 1 月 | [在 CJA 中使用繫結維度和量度](/help/use-cases/binding-dimensions-metrics.md)的新使用案例 |
+| 2022 年 1 月 | [在 CJA 中使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)的新使用案例 |
 | 2022 年 1 月 | 新增關於[繫結維度和量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)，以及新的[[!UICONTROL 最先已知]和[!UICONTROL 最後已知]配置設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings)的新功能文件 |
 | 2022 年 1 月 | [將您的 Adobe Analytics 資料與 CJA 中的 Analytics 資料進行比較](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html)的新文章 |
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 | 2021 年 3 月 | 有關支援 [Analytics 儀表板](/help/mobile-app/home.md) (行動應用程式) 的新增主題。 |
 | 2021 年 3 月 | 有關「工作區」中[使用者偏好](/help/analysis-workspace/user-preferences.md)的新主題。 |
 | **2021 年 2 月** |  |
-| 2021 年 2 月 | 有關使用 [Adobe Experience Platform 中的「行銷管道」維度](/help/use-cases/marketing-channels.md)的新主題。 |
+| 2021 年 2 月 | 有關使用 [Adobe Experience Platform 中的「行銷管道」維度](/help/use-cases/aa-data/marketing-channels.md)的新主題。 |
 | 2021 年 2 月 | 發佈新的 [CJA API](https://www.adobe.io/cja-apis/docs/) 文件。 |
 | **2021 年 1 月** |  |
 | 2021 年 1 月 | 有關[將標準查詢新增至您的資料集](/help/connections/standard-lookups.md)的新主題。 |
@@ -117,14 +117,14 @@ ht-degree: 100%
 | 日期 | 更新說明 |
 | --- | --- |
 | 2020 年 11 月 13 日 | 有關[跨管道分析](/help/connections/cca/overview.md)的新主題，這可讓您為資料集的使用者 ID 重設金鑰，並啟用多個資料集的無縫結合。 |
-| 2020 年 11 月 13 日 | 新增有關[匯入客服中心和 Web 資料](/help/use-cases/call-center.md)的新使用案例。 |
+| 2020 年 11 月 13 日 | 新增有關[匯入客服中心和 Web 資料](/help/use-cases/cross-channel/call-center.md)的新使用案例。 |
 | 2020 年 11 月 10 日 | 新增有關刪除資料元件對[常見問答集](/help/getting-started/cja-faq.md)之影響的區段。 |
 | 2020 年 11 月 2 日 | [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)頁面的更新。 |
 | 2020 年 11 月 | 新增有關[移除回填限制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data)以完成連線的內容。 |
 | 2020 年 10 月 7 日 | 新增有關[合併事件資料集](/help/connections/combined-dataset.md)的主題。 |
-| 2020 年 9 月 15 日 | 新增有關[資料擷取](/help/use-cases/data-ingestion.md)的主題。 |
+| 2020 年 9 月 15 日 | 新增有關[資料擷取](/help/use-cases/data-ingestion/data-ingestion.md)的主題。 |
 | 2020 年 9 月 2 日 | 更新有關[使用者權限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)的區段。 |
-| 2020 年 8 月 7 日 | 有關[B2B 使用案例 - 查詢資料集](/help/use-cases/b2b.md)的新主題已新增。 |
+| 2020 年 8 月 7 日 | 有關[B2B 使用案例 - 查詢資料集](/help/use-cases/b2b/b2b.md)的新主題已新增。 |
 | 2020 年 7 月 | 新增有關[使用者 ID 恆等映射選項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)的資訊。 |
 | 2020 年 7 月 | 有關[物件陣列](/help/use-cases/object-arrays.md)或「資料階層」的新主題已新增。 |
 | 2020 年 4 月 14 日 | 對[建立連線](/help/connections/create-connection.md)主題中最新 UI 的更新。 |

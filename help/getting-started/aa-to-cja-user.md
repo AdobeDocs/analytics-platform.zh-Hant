@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
-workflow-type: ht
+source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
+workflow-type: tm+mt
 source-wordcount: '1457'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ CJA 中的幾項功能都經過重新命名和重新設計，以符合行業標�
 
 * 您仍然可以利用 [Analysis Workspace](/help/analysis-workspace/home.md) 的強大功能來分析資料。 工作區與傳統 Adobe Analytics 的工作區一樣。
 * 相同版本的 [Adobe Analytics 儀表板](/help/mobile-app/home.md)適用，且在 CJA 和傳統分析之間運作類似。
-* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，並在 MS Windows、MacOS 和 Excel 的 Web版本上執行。 (在此版本的 Report Builder 之前，除非在 VMware 上運行，否則無法在 Mac 上使用。) 此版本尚不支援傳統 AA 資料請求。
+* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，並在 MS Windows、MacOS 和 Excel 的 Web版本上執行。 (在此版本的Report Builder之前，除非在VMware上運行，否則無法在Mac上使用。) 此版本尚不支援傳統AA資料請求。
 
 ## 報告的變動
 
@@ -54,7 +54,7 @@ Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包�
 
 ![data-view-selector](assets/data-views.png)
 
-參閱[資料檢視的使用案例](/help/data-views/data-views-usecases.md)，了解這個概念的更多資訊。
+參閱[資料檢視的使用案例](/help/use-cases/data-views/data-views-usecases.md)，了解這個概念的更多資訊。
 
 ## eVars 和 props概念的變動
 
@@ -68,7 +68,7 @@ Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包�
 
 Adobe 已將「區段」部分重新命名為「篩選器」，以更能與行業標準保持一致、更易於區分 Adobe Experience Platform 區段。
 
-[!UICONTROL Customer Journey Analytics] 不再使用 eVars、props 或事件，而是使用這些已對應至的 Experience Platform 結構描述欄位名稱。 此變動意味著，Adobe Analytics 現有區段完全與 [!UICONTROL Customer Journey Analytics] 不相容。 如果要將現有 Adobe Analytics 區段移至 Customer Journey Analytics，請參閱以下視頻：
+[!UICONTROL Customer Journey Analytics] 不再使用eVar、prop或事件，而是使用已對應的Experience Platform結構欄位名稱。 此變動意味著，Adobe Analytics 現有區段完全與 [!UICONTROL Customer Journey Analytics] 不相容。 如果要將現有 Adobe Analytics 區段移至 Customer Journey Analytics，請參閱以下視頻：
 
 >[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
 
@@ -96,7 +96,7 @@ Adobe 已將「區段」部分重新命名為「篩選器」，以更能與行�
 
 ## 分類概念的變動
 
-「分類」現在稱為「查詢資料集」。 查詢資料集是用來查詢在事件或設定檔資料中找到的數值或索引鍵。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。 參閱[將帳戶層級資料新增為查詢資料集](/help/use-cases/b2b.md)的範例使用案例。
+「分類」現在稱為「查詢資料集」。 查詢資料集是用來查詢在事件或設定檔資料中找到的數值或索引鍵。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。 參閱[將帳戶層級資料新增為查詢資料集](/help/use-cases/b2b/b2b.md)的範例使用案例。
 
 ## 客戶屬性概念的變動
 

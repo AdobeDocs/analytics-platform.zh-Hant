@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 7820f462617d21c9e3b23de26c9e9022d74bec0e
+source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 94%
@@ -44,7 +44,7 @@ ht-degree: 94%
 
 如果您由於[!UICONTROL 已超出不重複限制]或[!UICONTROL 低流量]問題，而避免使用全域報告套裝，請了解 CJA 沒有[維度上的基數限制](/help/components/dimensions/high-cardinality.md)。它允許顯示和計數任何唯一值。
 
-以下是[結合報告套裝與不同的結構描述](/help/use-cases/combine-report-suites.md)的使用案例。
+以下是[結合報告套裝與不同的結構描述](/help/use-cases/aa-data/combine-report-suites.md)的使用案例。
 
 ### 3. (重新) 設定行銷管道 {#marketing-channels}
 
@@ -111,7 +111,7 @@ Adobe Analytics 區段 (在 CJA 中稱為[!UICONTROL 篩選器]) 和計算量度
 
 ### 其他考量
 
-* 運用 CJA 資料檢視的力量，您有更大的彈性來定義 Customer Journey Analytics 的量度和維度。例如，維度值可做為量度的定義。[了解更多](/help/data-views/data-views-usecases.md)
+* 運用 CJA 資料檢視的力量，您有更大的彈性來定義 Customer Journey Analytics 的量度和維度。例如，維度值可做為量度的定義。[了解更多](/help/use-cases/data-views/data-views-usecases.md)
 
 * 如果您在 Adobe Analytics 定義了自訂行事曆，則 CJA 中將具有類似的[自訂行事曆功能](/help/components/date-ranges/custom-date-ranges.md)。 您需要確保行事曆已正確定義。
 

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 52593d05b10c872322236fb82c4ce5346ddcc9ac
+source-git-commit: 879350c645cf4c6e12361184dddfb065224d758c
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 98%
+source-wordcount: '826'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,6 @@ ht-degree: 98%
       + [子字串](../data-views/component-settings/substring.md)
       + [值分組](../data-views/component-settings/value-bucketing.md)
    + [標準元件參考](../data-views/component-reference.md)
-   + [資料檢視使用案例](../data-views/data-views-usecases.md)
    + [標籤和原則](../data-views/data-governance.md)
 + 工作區專案 {#cja-workspace}
    + [Analysis Workspace 總覽](../analysis-workspace/home.md)
@@ -248,16 +247,22 @@ ht-degree: 98%
       + [將 Google Analytics 歷史資料擷取至 Platform](../use-cases/ga/backfill.md)
       + [將串流的 Google Analytics 資料設定至 Platform](../use-cases/ga/streaming.md)
       + [報告 CJA 中的 Google Analytics 資料](../use-cases/ga/report.md)
-   + [結合報告套裝與不同的結構描述](../use-cases/combine-report-suites.md)
+   + 資料擷取 {#data-ingestion}
+      + [資料擷取使用案例](../use-cases/data-ingestion/data-ingestion.md)
+      + [將 Marketo Engage 資料擷取至 AEP 和 CJA 報告](../use-cases/data-ingestion/marketo.md)
+      + [將 AEP 對象擷取至 CJA](../use-cases/data-ingestion/ingest-aep-segments.md)
+   + 資料檢視 {#data-views}
+      + [資料檢視使用案例](../use-cases/data-views/data-views-usecases.md)
+      + [使用繫結維度和量度](../use-cases/data-views/binding-dimensions-metrics.md)
+   + B2B {#b2b}
+   + [新增帳戶層級資料當做查詢資料集](../use-cases/b2b/b2b.md)
+   + 跨通道資料 {#cross-channel}
+      + [跨管道分析資料](../use-cases/cross-channel/cross-channel.md)
+      + [匯入客服中心和網頁的資料](../use-cases/cross-channel/call-center.md)
+   + Adobe Analytics資料 {#aa-data}
+      + [使用行銷管道維度](../use-cases/aa-data/marketing-channels.md)
+      + [結合報告套裝與不同的結構描述](../use-cases/aa-data/combine-report-suites.md)
    + [使用物件陣列](../use-cases/object-arrays.md)
-   + [使用繫結維度和量度](../use-cases/binding-dimensions-metrics.md)
-   + [(B2B) 將帳戶層級資料新增為查詢資料集](../use-cases/b2b.md)
-   + [將 Marketo Engage 資料擷取至 AEP 和 CJA 報告](../use-cases/marketo.md)
-   + [將 AEP 對象擷取至 CJA](../use-cases/ingest-aep-segments.md)
-   + [跨管道分析資料](../use-cases/cross-channel.md)
-   + [匯入客服中心和網頁的資料](../use-cases/call-center.md)
-   + [資料擷取使用案例](../use-cases/data-ingestion.md)
-   + [使用行銷管道維度](../use-cases/marketing-channels.md)
 + Labs {#labs}
    + [Labs 使用手冊](../labs/labs.md)
 + 疑難排解 {#troubleshooting}

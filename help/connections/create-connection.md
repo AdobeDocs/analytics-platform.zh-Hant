@@ -4,10 +4,10 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 3fa65dd46e807041cec1fee64e918aacaa5b7a1b
-workflow-type: ht
+source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
    | --- | --- |
    | **[!UICONTROL 連線名稱]** | 為連線輸入唯一名稱。 |
    | **[!UICONTROL 連線說明]** | 說明此連線的用途。 |
-   | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)可將單一 Platform 執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。 您可將沙箱視為內含資料集的「資料獨立單位」。 沙箱可用於控制資料集的存取權限。<p>當您選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。 |
+   | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)可將單一 Platform 例項分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。您可將沙箱視為內含資料集的「資料獨立單位」。沙箱可用於控制資料集的存取權限。<p>當您選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。 |
    | **[!UICONTROL 啟用滾動資料時間窗口]** | 勾選這個核取方塊可讓您在連線層級將 CJA 資料保留定義為以月為單位的滾動時段 (1 個月、3 個月、6 個月等)。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。 由於無適用的時間戳記，因此基本資料或查詢資料集不存在滾動資料時間窗口設定。 不過，如果您的連線在一個或多個事件資料集之外還包含任何基本資料或查詢資料集，則會為相同時段保留該資料。<p> 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。 這有助於您未超過合約限制，並減少超額使用費用的風險。<p>如果您保留預設值 (未勾選)，保留期間將由 Adobe Experience Platform 資料保留設定取代。 如果您在 Experience Platform 中有 25 個月的資料，CJA 將透過回填取得 25 個月的資料。 如果您在 Platform 中刪除其中 10 個月的資料，CJA 則會保留剩餘 15 個月的資料。 |
    | **[!UICONTROL 新增資料集]** (請參閱底下) | 如果沒有資料集出現在您的資料集清單中，請新增資料集。 |
    | **[!UICONTROL 資料集名稱]** | 選取一個或多個要拉進 Customer Journey Analytics 中的資料集，然後按一下&#x200B;**[!UICONTROL 新增]**。<p>(如果有很多資料集可供選擇，可使用資料集清單上方的「搜尋資料集」搜尋列，搜尋合適的資料集)。 |
@@ -102,7 +102,7 @@ ht-degree: 100%
 | 資料集類型 | 說明 | 時間戳記 | 結構描述 | 人員 ID |
 |---|---|---|---|---|
 | **[!UICONTROL 事件]** | 代表及時事件的資料 (例如網站造訪、互動、交易、POS 資料、調查資料、廣告曝光數資料等)。 例如，這可能是典型的點按資料流資料，包含客戶 ID 或 Cookie ID 以及時間戳記。 若使用事件資料，您可以靈活選擇將哪個 ID 當作人員 ID 使用。 | 系統會自動設定為 [!UICONTROL Experience Platform] 中以事件為基礎的結構之預設時間戳記欄位。 | 任何以具有「時間系列」行為的 XDM 類別為依據的內建或自訂結構。 例如「XDM 體驗事件」或「XDM 決策事件」。 | 您可以挑選要包含的人員 ID。 在 Experience Platform 中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。 其中任何一個都可當作人員 ID 使用。 範例包括 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。 |
-| **[!UICONTROL 查詢]** | 在事件或設定檔資料中找到值或索引鍵後，可使用此資料進一步查詢。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。 如需範例，請參閱這個[使用案例](/help/use-cases/b2b.md)。 | 不適用 | 除「XDM 個別設定檔」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
+| **[!UICONTROL 查詢]** | 在事件或設定檔資料中找到值或索引鍵後，可使用此資料進一步查詢。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。 如需範例，請參閱這個[使用案例](/help/use-cases/b2b/b2b.md)。 | 不適用 | 除「XDM 個別設定檔」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
 | **[!UICONTROL 設定檔]** | 套用至[!UICONTROL 事件]資料中訪客、使用者或客戶的資料。 例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以「XDM 個別設定檔」類別為基礎的內建或自訂模式。 | 您可以挑選要包含的人員 ID。 在 [!DNL Experience Platform] 中定義的每個資料集，都有各自專屬的一組一或多個已定義的人員 ID，例如 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。<br>![人員 ID ](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報表會反映出這一點。 若要確實合併資料集，您需要使用相同的人員 ID。 |
 
 {style=&quot;table-layout:auto&quot;}

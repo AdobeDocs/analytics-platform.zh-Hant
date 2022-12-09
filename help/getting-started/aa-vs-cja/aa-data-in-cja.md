@@ -4,13 +4,13 @@ description: 如何設定Adobe Analytics報表套裝以擷取至AEP和CJA
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 292109fe4aa148b91ae10f6a9f143ba70dd0c813
+exl-id: db5506e0-6159-4d4b-8149-e4966dab9807
+source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 13%
 
 ---
-
 
 # 將Adobe Analytics報表套裝資料用於Customer Journey Analytics
 
@@ -27,7 +27,7 @@ Adobe Analytics客戶可以透過 [Analytics來源連接器](https://experiencel
 準備好資料後，您就可以開始設定報表套裝以用於AEP和CJA。
 
 1. **為您要在AEP和CJA中使用的每個報表套裝建立資料流。** 此 [Analytics來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en) 是可讓您 [建立連線](/help/connections/create-connection.md) （亦即資料流）。 您將使用來源連接器，為每個要在AEP中使用的報表套裝建立一個資料流。 資料流會建立報表套裝資料的復本，其中架構已轉換為  [XDM](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant) 供AEP應用程式（包括CJA）使用。 每個透過來源連接器設定有資料流的報表套裝，都會儲存為AEP Data Lake中的個別資料集。 每個資料流都會自動包含13個月的歷史報表套裝資料，而新資料會持續流入AEP。 使用Analytics來源連接器時，您不必擔心會提前建立結構。 系統會自動為您建立Adobe Analytics專用的標準化結構。 然而，AEP [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant) 工具可用來增強此結構，資料才會儲存在Data Lake中，並可供CJA使用。 請注意，某些類型的資料會由來源連接器篩選掉，因此不會出現在AEP Data Lake的資料集中。 Data Lake和CJA之間可篩選掉其他列。 請參閱 [比較Adobe Analytics資料與CJA資料](/help/troubleshooting/compare.md) 以取得更多詳細資訊。
-1. **使用「資料準備」可協助您在CJA中結合報表套裝。** 資料準備可用於許多類型的資料轉換，Adobe Analytics資料的常見用途之一，是解決多個報表套裝的prop和/或eVar對應差異，以便在CJA中輕鬆結合報表套裝。 請參閱 [結合不同結構的報表套裝](/help/use-cases/combine-report-suites.md) 以取得更多詳細資訊。
+1. **使用「資料準備」可協助您在CJA中結合報表套裝。** 資料準備可用於許多類型的資料轉換，Adobe Analytics資料的常見用途之一，是解決多個報表套裝的prop和/或eVar對應差異，以便在CJA中輕鬆結合報表套裝。 請參閱 [結合不同結構的報表套裝](/help/use-cases/aa-data/combine-report-suites.md) 以取得更多詳細資訊。
 1. **啟用跨管道分析** 視需要。 在CJA中合併多個資料集時，跨管道分析的身分連結功能有助於將不同的ID命名空間解析為單一匯整的ID，以便跨裝置和管道檢視客戶。 請參閱 [跨管道分析概觀](/help/connections/cca/overview.md) 以取得更多詳細資訊。
 1. **建立一或多個CJA連線。** 在AEP Data Lake中提供報表套裝的資料集後，您就可以建立一或多個資料集 [CJA連線](/help/connections/overview.md) 將這些資料集匯入CJA。 在連線中，報表套裝資料可與其他類型的資料結合，讓您建立客戶體驗的真正跨管道檢視。
 1. **建立一或多個CJA資料檢視。** A [資料檢視](/help/data-views/data-views.md) 是Customer Journey Analytics專用的容器，可讓您判斷如何解譯CJA連線的資料。 資料檢視有許多功能強大 [配置選項](/help/data-views/create-dataview.md) 用於自訂顯示給您的使用者的資料(在 [Analysis Workspace](/help/analysis-workspace/home.md).

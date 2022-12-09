@@ -4,8 +4,8 @@ description: 資料檢視指定您想要如何解釋 CJA 連線中的資料元�
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
+source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
+workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
 
@@ -79,4 +79,4 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 ## 後續步驟
 
 * [建立資料檢視](/help/data-views/create-dataview.md)
-* [資料檢視使用案例](/help/data-views/data-views-usecases.md)
+* [資料檢視使用案例](/help/use-cases/data-views/data-views-usecases.md)
