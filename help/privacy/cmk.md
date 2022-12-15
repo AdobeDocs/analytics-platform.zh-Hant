@@ -3,7 +3,7 @@ title: 客戶自控金鑰
 description: 了解如何為 CJA 設定客戶自控金鑰。
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
 source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
 ht-degree: 100%
 
