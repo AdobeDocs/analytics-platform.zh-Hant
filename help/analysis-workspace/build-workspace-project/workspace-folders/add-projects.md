@@ -5,13 +5,13 @@ title: 在 Workspace 中新增資料夾
 feature: CJA Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 62ee23c6a80cb5a3e055bbf1d198ab05adc44b7c
+exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
+source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
 workflow-type: ht
 source-wordcount: '225'
 ht-degree: 100%
 
 ---
-
 
 # 將專案新增至資料夾
 
