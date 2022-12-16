@@ -4,9 +4,9 @@ description: 顯示兩種估計使用的方法和一種管理使用的方法。
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: e8f5982ae073d4e3dca85b3054fd325cc40ff40a
+source-git-commit: 9ee3bbfe77d6134bee85d4f1844e40894e16a5c7
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '804'
 ht-degree: 43%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 43%
 
 若要管理CJA使用情形：
 
-* 定義滾動資料窗口。 （請參閱下文。）
+* 定義滾動資料窗口。 (請參閱 **定義滾動資料窗口** 在下面。)
 
 ## 估算連線規模 {#estimate-size}
 
@@ -58,7 +58,7 @@ ht-degree: 43%
 
 ## 使用所有事件資料建立工作區專案 {#workspace-event-data}
 
-1. 在工作區中建立專案之前， [建立資料檢視](/help/data-views/create-dataview.md) 會從「所有」連線提取資料，且未套用篩選器。 換句話說，它會包含您的所有資料。
+1. 在工作區中建立專案之前， [建立資料檢視](/help/data-views/create-dataview.md) ，且未套用篩選器。
 
 1. 在工作區中，建立新專案並拉入所有事件(從 **[!UICONTROL 量度]** 下拉式清單)，從目前CJA合約的第一天開始，一直到當月的第一個星期五。
 
