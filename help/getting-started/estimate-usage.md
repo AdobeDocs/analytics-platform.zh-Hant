@@ -4,9 +4,9 @@ description: 顯示兩種估計使用的方法和一種管理使用的方法。
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 9ee3bbfe77d6134bee85d4f1844e40894e16a5c7
+source-git-commit: d80a4c277fa1ebd2a354aa454d1356a8561bb517
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '809'
 ht-degree: 43%
 
 ---
@@ -58,9 +58,9 @@ ht-degree: 43%
 
 ## 使用所有事件資料建立工作區專案 {#workspace-event-data}
 
-1. 在工作區中建立專案之前， [建立資料檢視](/help/data-views/create-dataview.md) ，且未套用篩選器。
+1. 在工作區中建立專案之前， [建立資料檢視](/help/data-views/create-dataview.md) ，而不套用任何篩選器。
 
-1. 在工作區中，建立新專案並拉入所有事件(從 **[!UICONTROL 量度]** 下拉式清單)，從目前CJA合約的第一天開始，一直到當月的第一個星期五。
+1. 在工作區中，根據每個資料檢視建立新專案並拉入所有事件(從 **[!UICONTROL 量度]** 下拉式清單)，從目前CJA合約的第一天開始，一直到當月的第一個星期五。
 
    ![事件](assets/events-usage.png)
 
