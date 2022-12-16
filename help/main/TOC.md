@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 879350c645cf4c6e12361184dddfb065224d758c
+source-git-commit: 6cb91575d5d4c899057efb04e9a3f7c3fc2d2dec
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 97%
+source-wordcount: '831'
+ht-degree: 99%
 
 ---
 
@@ -33,17 +33,18 @@ ht-degree: 97%
    + [Real-time CDP 與 CJA 之間的量度一致性及對象會籍數](../getting-started/consistency-rcdp-cja.md)
    + [CJA 存取控制](../getting-started/cja-access-control.md)
    + [Customer Journey Analytics 登陸頁面](../getting-started/landing.md)
-   + [常見問答](../getting-started/cja-faq.md)
    + [Adobe Analytics 至 Customer Journey Analytics 的發展進程](../getting-started/aa-to-cja.md)
    + [全新 Customer Journey Analytics 使用者使用指南](../getting-started/aa-to-cja-user.md)
+   + [預估及管理CJA使用量](../getting-started/estimate-usage.md)
+   + [常見問題集](../getting-started/cja-faq.md)
    + 比較 Adobe Analytics 和 Customer Journey Analytics {#compare-aa-cja}
-      + [在Customer Journey Analytics中利用Adobe Analytics資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [在 Customer Journey Analytics 中利用 Adobe Analytics 資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 功能支援](../getting-started/aa-vs-cja/cja-aa.md)
       + [比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](../getting-started/aa-vs-cja/terminology.md)
       + [比較 Adobe Analytics 和 CJA 的資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [虛擬報告環境和沙箱環境](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [處理規則、VISTA 和分類與資料準備的比較](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
-      + [AAID、ECID、ACUSTOMID 和 Analytics 來源連接器](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
+      + [AAID、ECID、AACUSTOMID 和 Analytics 來源連接器](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [刪除關聯](../getting-started/cja-deletion.md)
    + [CJA 字彙表](../getting-started/cja-glossary.md)
 + 連線 {#cja-connections}
@@ -237,7 +238,7 @@ ht-degree: 97%
    + [高階主管使用者快速入門指南](../mobile-app/executive.md)
 + Adobe 整合 {#integrations}
    + [整合 Adobe 解決方案與 CJA 總覽](/help/integrations/overview.md)
-   + [將Adobe Analytics與Customer Journey Analytics整合](/help/integrations/aa.md)
+   + [將 Adobe Analytics 與 Customer Journey Analytics 整合](/help/integrations/aa.md)
    + [將 Journey Optimizer 資料與 CJA 整合](/help/integrations/ajo.md)
    + [將 Customer AI 資料與 CJA 整合](/help/integrations/customer-ai.md)
 + 使用案例 {#cja-usecases}
@@ -249,17 +250,17 @@ ht-degree: 97%
       + [報告 CJA 中的 Google Analytics 資料](../use-cases/ga/report.md)
    + 資料擷取 {#data-ingestion}
       + [資料擷取使用案例](../use-cases/data-ingestion/data-ingestion.md)
-      + [將 Marketo Engage 資料擷取至 AEP 和 CJA 報告](../use-cases/data-ingestion/marketo.md)
+      + [將 Marketo Engage 資料擷取至 AEP 並在 CJA 中報告](../use-cases/data-ingestion/marketo.md)
       + [將 AEP 對象擷取至 CJA](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 資料檢視 {#data-views}
       + [資料檢視使用案例](../use-cases/data-views/data-views-usecases.md)
       + [使用繫結維度和量度](../use-cases/data-views/binding-dimensions-metrics.md)
    + B2B {#b2b}
-   + [新增帳戶層級資料當做查詢資料集](../use-cases/b2b/b2b.md)
-   + 跨通道資料 {#cross-channel}
+   + [新增帳戶層級資料當作查詢資料集](../use-cases/b2b/b2b.md)
+   + 跨管道的資料 {#cross-channel}
       + [跨管道分析資料](../use-cases/cross-channel/cross-channel.md)
       + [匯入客服中心和網頁的資料](../use-cases/cross-channel/call-center.md)
-   + Adobe Analytics資料 {#aa-data}
+   + Adobe Analytics 資料 {#aa-data}
       + [使用行銷管道維度](../use-cases/aa-data/marketing-channels.md)
       + [結合報告套裝與不同的結構描述](../use-cases/aa-data/combine-report-suites.md)
    + [使用物件陣列](../use-cases/object-arrays.md)
