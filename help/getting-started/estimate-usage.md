@@ -4,24 +4,26 @@ description: 顯示兩種估計使用的方法和一種管理使用的方法。
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: d80a4c277fa1ebd2a354aa454d1356a8561bb517
+source-git-commit: f3f24c0a426d22184d2e7c18886d201c290ad18e
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 43%
+source-wordcount: '835'
+ht-degree: 42%
 
 ---
 
-# 預估及管理CJA使用量
+# 檢視及管理CJA使用情形
 
-若要了解您的CJA使用方式，您可以使用3種方法：
+若要檢視CJA使用情形，您可以使用數種方法：
 
-* 為每個連線新增事件資料列。 (請參閱 **估計連接大小** 以下)這是查看特定時間戳記之每個連線之事件列資料的簡單方式。
-* 使用Analysis Workspace來報告上個月的事件。 (請參閱 **使用所有事件資料建立工作區專案** 在下面。) 這可讓您對使用資料以及使用記錄進行更深入的分析。
-* 使用CJA API建立自動化報表。 (請參閱 **在CJA API中建立報表** 在下面。)
+* 為每個連線新增事件資料列。 請參閱 [估計連接大小](#estimate大小)。 您可以透過這個簡單的方式，依連線查看特定時間戳記的事件列資料。
+* 以三種方式檢視您的使用情形，其中各項將於下文詳細說明：
+   * 使用Analysis Workspace來報告上個月的事件。
+   * 使用Report Builder來報告上個月的事件。
+   * 使用CJA API建立自動化報表。
 
 若要管理CJA使用情形：
 
-* 定義滾動資料窗口。 (請參閱 **定義滾動資料窗口** 在下面。)
+* 定義滾動資料窗口。
 
 ## 估算連線規模 {#estimate-size}
 
@@ -58,6 +60,8 @@ ht-degree: 43%
 
 ## 使用所有事件資料建立工作區專案 {#workspace-event-data}
 
+此方法可讓您對使用資料以及使用記錄進行更深入的分析。
+
 1. 在工作區中建立專案之前， [建立資料檢視](/help/data-views/create-dataview.md) ，而不套用任何篩選器。
 
 1. 在工作區中，根據每個資料檢視建立新專案並拉入所有事件(從 **[!UICONTROL 量度]** 下拉式清單)，從目前CJA合約的第一天開始，一直到當月的第一個星期五。
@@ -68,19 +72,22 @@ ht-degree: 43%
 
 1. 您可以視需求，依資料集等深入研究。
 
+## 在Report Builder中建立資料區塊 {#arb}
+
+在Report Builder中， [建立一個資料區塊](/help/report-builder/create-a-data-block.md) 對於每個資料檢視，加總。
 
 ## 在CJA API中建立自動化報表 {#api-report}
 
 1. 使用 [CJA報表API](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) 執行所有事件資料的報表， **每個連接**. 設定此設定，以便報表執行
 
-   * 每三個星期五。
+   * 每個月的第一個星期五。
    * 回到目前CJA合約的第一天。
 
    這可讓您清楚了解使用量在每月的趨勢。 它會提供所有CJA連線的總列數。
 
 1. 使用Excel進一步自訂此報表。
 
-## 定義滾動資料窗口 {#rolling}
+## 定義滾動資料窗口以管理您的使用 {#rolling}
 
 若要管理您的使用情形，請 [連接UI](/help/connections/create-connection.md) 可讓您將CJA資料保留定義為連線層級的月（1個月、3個月、6個月等）滾動式期間。
 
