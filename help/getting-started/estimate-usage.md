@@ -4,10 +4,10 @@ description: 顯示兩種估計使用的方法和一種管理使用的方法。
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: f3f24c0a426d22184d2e7c18886d201c290ad18e
+source-git-commit: a69cb8a419d95e0cab666fceea9cb7ebf6daef73
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 42%
+source-wordcount: '857'
+ht-degree: 41%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 42%
 此方法可讓您對使用資料以及使用記錄進行更深入的分析。
 
 1. 在工作區中建立專案之前， [建立資料檢視](/help/data-views/create-dataview.md) ，而不套用任何篩選器。
+
+>[!WARNING]
+>
+>    請勿建立僅僅用於測量使用情況的包含所有資料的新連接，因為這樣將有效地使用量增加一倍。
 
 1. 在工作區中，根據每個資料檢視建立新專案並拉入所有事件(從 **[!UICONTROL 量度]** 下拉式清單)，從目前CJA合約的第一天開始，一直到當月的第一個星期五。
 
