@@ -1,5 +1,5 @@
 ---
-description: '說明全新登陸頁面的功能。 '
+description: 說明全新登陸頁面的功能。
 title: Customer Journey Analytics 登陸頁面
 role: User, Admin
 feature: CJA Basics
@@ -42,11 +42,11 @@ Customer Journey Analytics 登陸頁面包含專案經理首頁，以及可幫�
 | ... 更多 | 讓您[!UICONTROL 檢視教學課程]和[編輯使用者偏好設定](/help/analysis-workspace/user-preferences.md)。 |
 | **[!UICONTROL 建立新]**&#x200B;模組回來了 | 當您在工作區中按一下&#x200B;**[!UICONTROL 新建]**，您就能再度在[!UICONTROL 空白專案]和[!UICONTROL 空白行動計分卡]之間進行選擇。 您還可以從您公司已建立的任何範本中進行選擇。 |
 | [!UICONTROL 顯示較少/較多] | 在不顯示和顯示橫幅之間切換：![最上方橫幅](assets/top-banner.png) |
-| [!UICONTROL 空白專案] | 建立空白的[工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)供您填入。 |
-| [!UICONTROL 空白行動計分卡] | 建立空白的[行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hant)供您填入。 |
+| [!UICONTROL 空白專案] | 建立空白的[工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)供您填入。 |
+| [!UICONTROL 空白行動計分卡] | 建立空白的[行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)供您填入。 |
 | [!UICONTROL 開啟訓練教學課程] | 開啟工作區訓練教學課程，可指導新使用者逐步建置專案。 |
-| [!UICONTROL 開啟版本注意事項] | 開啟最新 Adobe Experience Cloud 發行說明。 |
-| 篩選器圖示 | 您可按標記、報表套裝、所有者、類型和其他篩選器 (「我的」、「已共用給我」、「我的最愛」和「已核准」) 來篩選 |
+| [!UICONTROL 開啟發行說明] | 開啟最新 Adobe Experience Cloud 發行說明。 |
+| 篩選器圖示 | 您可按標記、報告套裝、所有者、類型和其他篩選器 (「我的」、「已共用給我」、「我的最愛」和「已核准」) 來篩選 |
 | 搜尋列 | 現在的搜尋包含表中的所有欄項。 |
 | 選取方塊 | 按一下一個或多個專案旁邊的這個方塊，會顯示您可以執行的專案管理操作：刪除、標記、釘選、核准、共用、重新命名、複製和匯出至 CSV。您可能沒有執行所有這些操作的權限。 |
 | [!UICONTROL 我的最愛] | 將專案設為「我的最愛」會讓專案取得一顆星，且會將其標記為您可篩選的「我的最愛」。 |
