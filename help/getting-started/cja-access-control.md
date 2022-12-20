@@ -6,9 +6,9 @@ feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 source-git-commit: 648fae78f8e4a5b9632554e7a92636ee02ab11d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Customer Journey Analytics (CJA) 由三個存取層級或三個角色管理：�
 * 資料擷取：管理來源
 * 檢視身分命名空間
 
-如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant)。
+如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)。
 
 ## 產品設定檔管理員角色
 
@@ -88,7 +88,7 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 | --- | --- |
 | **[!UICONTROL 資料檢視]** | 如果您將&#x200B;**[!UICONTROL 自動包含]**&#x200B;切換為&#x200B;**[!UICONTROL 開啟]**，則屬於此產品設定檔的使用者可以查看所有現有和新建立的資料檢視。如果此項設定為&#x200B;**[!UICONTROL 關閉]**，您可以選擇使用者有權存取的特定資料檢視。 |
 | **[!UICONTROL 報告工具]**： |  |
-| **[!UICONTROL 稽核記錄存取權]** | 此權限會在 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 和稽核記錄UI。 |
+| **[!UICONTROL 稽核記錄存取權]** | 此權限會強制對 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 及稽核記錄 UI 進行權限檢查。 |
 | **[!UICONTROL 報告使用情況管理員]** | 可讓使用者查看和刪除在其公司中執行的任何報告。 |
 | **[!UICONTROL 報告使用情況檢視]** | 可讓使用者查看所有並行報告要求。 |
 | **[!UICONTROL 建立計算量度]** | 可讓使用者建立[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 |
