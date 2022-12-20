@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1457'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ CJA 中的幾項功能都經過重新命名和重新設計，以符合行業標�
 
 * 您仍然可以利用 [Analysis Workspace](/help/analysis-workspace/home.md) 的強大功能來分析資料。 工作區與傳統 Adobe Analytics 的工作區一樣。
 * 相同版本的 [Adobe Analytics 儀表板](/help/mobile-app/home.md)適用，且在 CJA 和傳統分析之間運作類似。
-* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，並在 MS Windows、MacOS 和 Excel 的 Web版本上執行。 (在此版本的Report Builder之前，除非在VMware上運行，否則無法在Mac上使用。) 此版本尚不支援傳統AA資料請求。
+* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，並在 MS Windows、MacOS 和 Excel 的 Web版本上執行。 (在此版本的 Report Builder 之前，除非在 VMware 上執行，否則無法在 Mac 上使用。)此版本尚未支援傳統 AA 資料請求。
 
 ## 報告的變動
 
@@ -36,7 +36,7 @@ CJA 中的幾項功能都經過重新命名和重新設計，以符合行業標�
 
 CJA 從 Adobe Experience Platform 獲取資料。 Experience Platform 可讓您集中並標準化來自任何系統或通道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
 
-Experience Platform 中的客戶資料以資料集形式儲存，資料集含有[結構描述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant)和資料批次。 如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
+Experience Platform 中的客戶資料以資料集形式儲存，資料集含有[結構描述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html)和資料批次。 如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html)。
 
 您的 CJA 管理員會建立至 Experience Platform 內資料集的[連接](/help/connections/create-connection.md)。 然後他們會使用這些連接來建置[資料檢視](/help/data-views/data-views.md)。 資料檢視在概念上與虛擬報告套裝相似，是 CJA 報告的基礎。 由於 Experience Platform 會從是所有報告資料取得來源，因此報告套裝不再以資料容器存在。
 
@@ -68,7 +68,7 @@ Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包�
 
 Adobe 已將「區段」部分重新命名為「篩選器」，以更能與行業標準保持一致、更易於區分 Adobe Experience Platform 區段。
 
-[!UICONTROL Customer Journey Analytics] 不再使用eVar、prop或事件，而是使用已對應的Experience Platform結構欄位名稱。 此變動意味著，Adobe Analytics 現有區段完全與 [!UICONTROL Customer Journey Analytics] 不相容。 如果要將現有 Adobe Analytics 區段移至 Customer Journey Analytics，請參閱以下視頻：
+[!UICONTROL Customer Journey Analytics] 不再使用 eVar、prop 或事件，而是改用這些項目已對應到的 Experience Platform 結構描述欄位名稱。此變動意味著，Adobe Analytics 現有區段完全與 [!UICONTROL Customer Journey Analytics] 不相容。 如果要將現有 Adobe Analytics 區段移至 Customer Journey Analytics，請參閱以下視頻：
 
 >[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
 
