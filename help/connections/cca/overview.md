@@ -4,9 +4,9 @@ description: 重新輸入多個資料集的訪客 ID，以彙整訪客。
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 143979330addce3fce045d1785ae969c75a78d28
+source-git-commit: a9c4465ae099763c92cdc355de56d383ac625432
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1158'
 ht-degree: 97%
 
 ---
@@ -57,7 +57,6 @@ ht-degree: 97%
 * 以欄位為基礎的彙整不會合併或串連欄位。
 * 暫時 ID 欄位應包含單一 ID 類型 (即來自單一命名空間的 ID)。例如，暫時 ID 欄位不應包含登入 ID 和電子郵件 ID 的組合。
 * 如果針對同一永久 ID 發生了具有相同時間戳記的多個事件，但暫時 ID 欄位中的值不同，則以欄位為基礎的彙整將根據字母順序進行選擇。因此，如果永久 ID A 有兩個具有相同時間戳記的事件，且其中一個事件指定 Bob、另一個事件指定 Ann，則以欄位為基礎的彙整會選擇 Ann。
-* 跨管道分析會追蹤第 1 年 (TTL = 1 年) 的每個永續性 ID 值。 如果裝置已超過一年沒有活動，然後又開始有活動，則在重新識別使用者之前 (例如透過新的登入)，新的事件將會與匿名人員有關聯。
 * 如果某個裝置由多人共用，並且使用者之間的切換總數超過 50.000，CCA 將停止為該裝置拼接資料。
 
 
