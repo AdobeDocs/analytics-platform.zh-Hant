@@ -4,51 +4,77 @@ title: 儲存專案
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: 2fac52abb2f970455846c46b28db88360cff2886
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: b35520d22fdd6ee39972e3500b3d6968c2dfeadd
+workflow-type: tm+mt
+source-wordcount: '685'
+ht-degree: 42%
 
 ---
 
 # 儲存專案
 
-若要儲存您對專案所做的變更，請前往 Analysis Workspace 的&#x200B;**[!UICONTROL 「專案」]**&#x200B;功能表。在特定情況下，Workspace 也會自動儲存專案。
+Analysis Workspace中的專案會每2分鐘自動儲存一次。
+
+您也可以手動儲存專案。 手動儲存專案時，可使用新增標籤或附註等其他選項。
 
 ## 儲存專案選項 {#Save}
 
-您可以在&#x200B;**[!UICONTROL 「專案」]**&#x200B;功能表底下執行不同的儲存操作，取決於您日後要如何存取分析。
+在Analysis Workspace中手動儲存專案時，有各種選項可供使用。
 
-| 動作 | 說明 |
-|---|---|
-| **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果已共用專案，專案的收件者也會看到變更項目。當您第一次儲存專案時，系統會提示您提供專案名稱、(選用) 說明和新增 (選用) 標籤。  |
-| **[!UICONTROL 一併儲存註釋]** | 在專案儲存之前，請新增關於專案變動的註釋。註釋會和專案版本儲存在「[!UICONTROL 專案] > [!UICONTROL 開啟先前版本]」下，可供編輯人員使用。 |
-| **[!UICONTROL 另存新檔]** | 建立專案的複本。原始專案不受影響。 |
-| **[!UICONTROL 另存為範本]** | 將專案儲存為[自訂範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant)，您的組織可在&#x200B;**[!UICONTROL 「專案 > 新增」]**&#x200B;下使用 |
+若要手動儲存專案：
 
-![](assets/save-project.png)
+1. 在Analysis Workspace中開啟專案後，選取 **[!UICONTROL 專案]**，然後從下列選項中選擇：
+
+   | 動作 | 說明 |
+   |---|---| 
+   | **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果已共用專案，專案的收件者也會看到變更項目。當您第一次儲存專案時，系統會提示您提供專案名稱、(選用) 說明和新增 (選用) 標籤。  |
+   | **[!UICONTROL 一併儲存註釋]** | 在專案儲存之前，請新增關於專案變動的註釋。註釋會和專案版本儲存在「[!UICONTROL 專案] > [!UICONTROL 開啟先前版本]」下，可供編輯人員使用。 |
+   | **[!UICONTROL 另存新檔]** | 建立專案的複本。原始專案不受影響。 |
+   | **[!UICONTROL 另存為範本]** | 將專案儲存為[自訂範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant)，您的組織可在&#x200B;**[!UICONTROL 「專案 > 新增」]**&#x200B;下使用 |
+
+   ![](assets/save-project.png)
 
 ## 自動儲存 {#Autosave}
 
-現有專案 (即之前至少已儲存一次的專案) 每兩分鐘會自動儲存至您的本機電腦一次。從未儲存過的新專案目前不會自動儲存。
+Analysis Workspace中的所有專案會每2分鐘自動儲存至本機電腦。 這包括尚未手動儲存的新建立專案。
 
-有些情況可能會導致您遠離未儲存的專案變更項目，進而產生不同的可用操作。
+* **新專案：** 即使新專案已自動儲存，您必須在首次手動儲存每個新專案。 Analysis Workspace會在切換至其他專案、關閉瀏覽器索引標籤等動作時，提示您手動儲存新專案。
 
-### 開啟另一個 Analysis Workspace 專案
+   如果您因任何原因意外失去新建立專案的存取權，然後再手動儲存，則您專案的復原版本會儲存在Analysis Workspace登陸頁面的資料夾中，名為 `Recovered Projects (Last 7 Days)`.
 
-Adobe 提供在離開頁面前儲存的選項。離開現有專案後，自動儲存的本機副本即會刪除。
+   ![](assets/recovered-folder.png)
+
+* **現有項目：** 如果您因任何原因離開專案時，變更尚未自動儲存，Analysis Workspace會提示您儲存變更或提供警告訊息。
+
+   以下是一些常見的案例：
+
+### 開啟另一個專案
+
+如果您在處理包含尚未自動儲存之變更的專案時開啟其他專案，Analysis Workspace會在您離開前提示您儲存目前的專案。
+
+提供下列選項：
+
+* **儲存：** 以您最新的變更取代自動儲存之專案本機最新副本。
+* **另存新檔：** 將您的最新變更儲存為新專案。 原始專案只會以最新自動儲存的變更儲存。
+* **放棄更改：** 捨棄您的最新變更。 專案會保留最新的自動儲存變更。
 
 ![](assets/existing-save.png)
 
 ### 離開或關閉索引標籤
 
-瀏覽器會警告未儲存的變更將遺失。您可以選擇離開或取消。
+如果您在檢視含有尚未自動儲存之變更的專案時離開頁面或關閉瀏覽器標籤，瀏覽器會警告您未儲存的變更將會遺失。 您可以選擇離開或取消。
 
 ![](assets/browser-image.png)
 
 ### 瀏覽器當機或工作階段逾時
 
-若為&#x200B;**現有**&#x200B;專案，返回 Workspace 後，您將會看到&#x200B;**專案復原**&#x200B;強制回應視窗。選取「是」，會從自動儲存的本機版本復原專案。若選擇「否」，則會刪除自動儲存的本機副本，並開啟上次用戶儲存的專案版本。
+如果您的瀏覽器當機或工作階段逾時，則下次您存取Analysis Workspace時，系統會提示您復原專案中尚未自動儲存的任何變更。
+
+以下是「專案復原」對話方塊，顯示當機或逾時後您首次存取Analysis Workspace時的畫面。
+
+選擇 **是** 從最新的自動儲存副本還原專案。
+
+選擇 **否** 要刪除自動保存的副本，並開啟上次用戶保存的項目版本。
 
 ![](assets/project-recovery.png)
 
