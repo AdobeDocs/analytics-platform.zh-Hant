@@ -4,9 +4,9 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 652ae043f504ff71e8ed469a33f2ef4ebf1c7d04
+source-git-commit: 0031f27412e7997f8c9b9d2d11c7ecbcbe63de03
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2439'
 ht-degree: 49%
 
 ---
@@ -155,11 +155,6 @@ ht-degree: 49%
 | **[長條圖](/help/analysis-workspace/visualizations/histogram.md)** |  |  |
 |  | 貯體數 | 在視覺效果中選擇資料範圍（貯體）的數量。 貯體的最大數量是 50。 <p>如需詳細資訊，請參閱 [色階分佈圖](/help/analysis-workspace/visualizations/histogram.md).</p> |
 |  | 計數方法 | 從下列選項中選擇： <ul><li>點擊</li><li>瀏覽</li><li>訪客</li></ul> <p>例如，搭配頁面檢視使用時，您可以選擇每個訪客的頁面檢視、瀏覽的頁面檢視，或每次點擊的頁面檢視。 若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。</p> |
-| **地圖** |  |  |
-|  | 繪製維度 | <ul><li>行動經度/緯度</li><li>地理維度</li></ul> |
-|  | 地圖類型 | <ul><li>泡泡圖</li><li>熱圖</li></ul> |
-|  | 顏色主題 | 可選擇珊瑚色、紅色、綠色、藍調、熱度圖和正/負。 |
-|  | 地圖樣式 | 從「基本」、「街道」、「明亮」、「淺色」、「深色」和「衛星」中選擇。 |
 | **[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變更</li><li>原始差異</li></ul> |
 |  | 百分比 | 以百分比顯示「摘要變更」視覺效果的值。 |
