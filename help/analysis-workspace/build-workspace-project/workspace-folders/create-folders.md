@@ -3,13 +3,11 @@ description: 了解如何在 Workspace 建立資料夾和子資料夾
 keywords: Analysis Workspace
 title: 建立資料夾
 feature: CJA Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
-source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
-workflow-type: ht
-source-wordcount: '152'
-ht-degree: 100%
+source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 93%
 
 ---
 
@@ -17,11 +15,7 @@ ht-degree: 100%
 
 您可以在 Workspace 登陸頁面上，將新的資料夾或子資料夾新增至專案和資料夾清單。
 
->[!NOTE]
->
->此功能目前處於 Beta 測試階段。部分畫面可能會有所不同。
-
-## 建立新資料夾
+## 建立新資料夾 {#create-new-folder}
 
 若要建立新資料夾，
 
@@ -29,7 +23,7 @@ ht-degree: 100%
 
 1. 為新資料夾輸入名稱。
 
-1. 在下拉式選單中選取標記。
+1. 從下拉式選單中選取標籤，或新增全新標籤。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
@@ -41,7 +35,7 @@ ht-degree: 100%
 
    ![](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
-## 建立子資料夾
+## 建立子資料夾 {#create-subfolder}
 
 子資料夾可讓您提供專案管理和組織的額外層級。
 

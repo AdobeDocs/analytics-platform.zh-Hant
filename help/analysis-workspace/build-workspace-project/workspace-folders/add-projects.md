@@ -3,12 +3,10 @@ description: 如何在 Workspace 中新增資料夾。
 keywords: Analysis Workspace
 title: 在 Workspace 中新增資料夾
 feature: CJA Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
-source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
-workflow-type: ht
-source-wordcount: '225'
+source-git-commit: a8b874bfbe9d3586140f93c1dcef2403ca5707cc
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -17,11 +15,7 @@ ht-degree: 100%
 
 您可以在表格檢視中或在資料夾中，將專案新增至資料夾。
 
->[!NOTE]
->
->此功能目前處於 Beta 測試階段。部分畫面可能會有所不同。
-
-## 從表格檢視
+## 從表格檢視 {#table-view}
 
 從首頁上的表格檢視，將專案新增至資料夾。
 
@@ -47,7 +41,7 @@ ht-degree: 100%
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## 從資料夾內部
+## 從資料夾內部 {#inside-folder}
 
 您還可以使用省略符號連結在資料夾中新增專案。
 
@@ -72,4 +66,8 @@ ht-degree: 100%
 1. 按一下「**新增**」，將專案新增至資料夾。
 
    ![](/help/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-只有管理員可以將專案新增至公司資料夾，或建立全新專案並儲存至公司資料夾
+
+
+>[!NOTE]
+>
+>只有管理員可以將專案新增至公司資料夾，或建立新專案並儲存至公司資料夾
