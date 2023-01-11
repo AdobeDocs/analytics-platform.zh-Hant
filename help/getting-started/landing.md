@@ -4,10 +4,10 @@ title: Customer Journey Analytics 登陸頁面
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: acf55556e3f53e7f4e8f8de69044e456b931a80b
+source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 54%
+source-wordcount: '1279'
+ht-degree: 55%
 
 ---
 
@@ -26,7 +26,6 @@ Customer Journey Analytics的登陸頁面重點 [!DNL Analysis Workspace] 並提
 | 重新排序釘選項目 | 若要將釘選項目上下移動，請按一下釘選項目旁的省略符號，並選取&#x200B;**[!UICONTROL 向上移動]**&#x200B;或是&#x200B;**[!UICONTROL 向下移動]**。 | ![移動釘選項目](assets/move-up-down.png) |
 | 新表格欄位 | 按一下表格右上角的[!UICONTROL 自訂表格]圖示。新表格欄位包括： <ul><li>**[!UICONTROL 排程]**：設定為[!UICONTROL 開啟] (若專案已排程) 或[!UICONTROL 關閉] (若專案未排程)。按一下[!UICONTROL 開啟]連結可讓您查看排程專案的資訊。如果您是專案所有人，您還能[編輯專案排程](../analysis-workspace/curate-share/t-schedule-report.md)。</li><li>**[!UICONTROL 專案 ID]**：專案 ID 可用於偵錯專案。</li><li>**[!UICONTROL 最大日期範圍]**：更長的日期範圍會增加專案複雜性，並可能增加處理和載入次數。 </li><li>**[!UICONTROL 查詢數]**：專案載入時，向 Analytics 提出的請求總數。較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 </li></ul> | ![新欄位](assets/new-columns.png) |
 | **[!UICONTROL 建立專案]** 強制回應 | 當您按一下 **[!UICONTROL 建立專案]** 在工作區中，您可再次在 [!UICONTROL 空白專案] 和 [!UICONTROL 空白行動計分卡]. 您還可以從您公司已建立的任何範本中進行選擇。 | ![新建](assets/create-new.png) |
-| 也提供Customer Journey Analytics | CJA中也提供此登錄頁面，格式為已修改。 |  |
 
 {style=&quot;table-layout:auto&quot;}
 
