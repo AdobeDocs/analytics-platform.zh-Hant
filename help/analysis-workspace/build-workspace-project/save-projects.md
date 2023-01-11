@@ -4,10 +4,10 @@ title: 儲存專案
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: b35520d22fdd6ee39972e3500b3d6968c2dfeadd
+source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 42%
+source-wordcount: '726'
+ht-degree: 39%
 
 ---
 
@@ -32,17 +32,22 @@ Analysis Workspace中的專案會每2分鐘自動儲存一次。
    | **[!UICONTROL 另存新檔]** | 建立專案的複本。原始專案不受影響。 |
    | **[!UICONTROL 另存為範本]** | 將專案儲存為[自訂範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant)，您的組織可在&#x200B;**[!UICONTROL 「專案 > 新增」]**&#x200B;下使用 |
 
-   ![](assets/save-project.png)
-
 ## 自動儲存 {#Autosave}
 
 Analysis Workspace中的所有專案會每2分鐘自動儲存至本機電腦。 這包括尚未手動儲存的新建立專案。
 
 * **新專案：** 即使新專案已自動儲存，您必須在首次手動儲存每個新專案。 Analysis Workspace會在切換至其他專案、關閉瀏覽器索引標籤等動作時，提示您手動儲存新專案。
 
-   如果您因任何原因意外失去新建立專案的存取權，然後再手動儲存，則您專案的復原版本會儲存在Analysis Workspace登陸頁面的資料夾中，名為 `Recovered Projects (Last 7 Days)`.
+   如果您因任何原因意外失去新建立專案的存取權，然後再手動儲存，則您專案的復原版本會儲存在Analysis Workspace登陸頁面的資料夾中，名為 `Recovered Projects (Last 7 Days)`. 您必須還原已恢復的項目，並手動將其保存到所需的位置。
 
-   ![](assets/recovered-folder.png)
+   要恢復恢復的項目，請執行以下操作：
+
+   1. 前往 [!UICONTROL **已恢復的項目**] 資料夾。
+
+      ![](assets/recovered-folder.png)
+
+   1. 開啟您的專案並儲存至所需位置。
+
 
 * **現有項目：** 如果您因任何原因離開專案時，變更尚未自動儲存，Analysis Workspace會提示您儲存變更或提供警告訊息。
 
