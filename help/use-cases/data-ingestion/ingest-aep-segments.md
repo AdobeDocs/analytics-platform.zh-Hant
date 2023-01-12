@@ -4,10 +4,10 @@ description: 說明如何將 AEP 受眾擷取至 Customer Journey Analytics 以�
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: 04aaf9ae9f720255c97c9dc148953b5b9d6967ae
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '937'
+ht-degree: 96%
 
 ---
 
@@ -88,6 +88,6 @@ Adobe Experience Platform [即時客戶設定檔](https://experienceleague.adobe
 * 您應該定期執行此流程，以便在 CJA 中持續重新整理受眾資料。
 * 您可以在單一 CJA 連線中匯入多個受眾。這對流程新增了更多複雜性，但這是可能的。為了辦到這點，您需要對上述流程進行一些修改：
    1. 對 RTCP 中受眾集合中的每個所需受眾執行此流程。
-   1. 由於單一 CJA 人員 ID 可能屬於多個受眾，執行匯出作業輸出轉換時，您將需要建立 `audienceMembershipId(s)` 清單。在未來的某個時候，CJA 將支援設定檔資料集中的陣列/物件陣列。如果上述可受支援後，為 `audienceMembershipId` 或 `audienceMembershipIdName` 使用物件陣列將是最佳選項。在此期間，為匯出作業輸出中的每個設定檔 ID 擷取所有目前受眾 ID (狀態為「已實現」或「已進入」)，並將它們放在以逗號分隔的值字串中 (即 `<id1>,<id2>,...`)。 如果狀態為「已退出」的受眾 ID，請確保「不」在清單中。如果要保持和 id 的友好名稱關聯性，可將其附加到清單中每個 ID 的末尾 (連同任何其他中繼資料)。
+   1. CJA支援設定檔資料集中的陣列/物件陣列。 使用 [物件陣列](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=en) 對audienceMembershipId或audienceMembershipIdName而言，是最佳選項。
    1. 在您的資料檢視中，利用 `audienceMembershipId` 欄位上的子字串轉換建立新的維度，以將逗號分隔的值字串轉換成陣列。注意：目前陣列中的上限為 10 個值。
    1. 您現在可以在 CJA 工作區中報告此新維度 `audienceMembershipIds`。
