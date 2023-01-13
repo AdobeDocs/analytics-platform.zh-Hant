@@ -4,10 +4,10 @@ title: Customer Journey Analytics 登陸頁面
 role: User, Admin
 feature: CJA Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 617be3cad41fd4a4fe9d26fc5253e7af801c7bd4
+source-git-commit: 88f38de837a23f9b0833c5c6b534b3ed567207a6
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 55%
+source-wordcount: '1424'
+ht-degree: 49%
 
 ---
 
@@ -67,6 +67,18 @@ Customer Journey Analytics的登陸頁面重點 [!DNL Analysis Workspace] 並提
 | 自訂表格圖示 | 選擇要在表中查看的列。 若要從專案清單中新增或移除欄，請按一下欄圖示(![全部著陸](assets/select-column.png) )，然後選取或取消選取欄標題。 |
 | 顯示：資料夾與專案或所有專案 | 更改表格上的視圖設定，以根據資料夾組織顯示資料夾和項目 **或** 以無組織的清單顯示所有專案。 |
 | &lt; (返回按鈕) | 將您傳回至工作區專案中最新的登錄頁面設定。 離開登錄頁面時您擁有的頁面設定會在您返回時持續存在。 |
+
+### 不再使用專案管理員頁面 {#deprecate-pm-page}
+
+隨著新登錄頁面的發行，我們不再提供「元件管理員」下方所列的專案管理員。 新的登錄頁面會處理舊「專案管理員」頁面的所有功能，以及更多功能。
+
+「專案管理員」頁面的一個常見使用案例是檢視您的所有專案。 若要使用篩選邊欄在新登陸頁面上檢視所有專案，請選取 **其他篩選** 然後選取 **全部顯示**.
+
+![其他篩選](assets/other-filters.png)
+
+如果您位於「資料夾與專案」檢視中，會出現一個強制回應視窗，詢問您是否要切換至「所有專案」檢視，這可讓您在可能組織的任何資料夾之外，更輕鬆地檢視所有專案。   選擇 **切換至「所有專案」檢視** 以便更好地檢視您有權存取的所有專案。
+
+![切換至所有專案](assets/switch-all-projects-view.png)
 
 ## 瀏覽「學習」標記。 {#navigate-learning}
 
