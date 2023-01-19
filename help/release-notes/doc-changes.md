@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 4488c87604db363ca4ddb0954216b195990c8bb1
+source-git-commit: 7055ef91d853da02b4510ec2b9e4543f70b0bec0
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 96%
+source-wordcount: '1235'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 96%
 | 資料夾 | 專用頁面 [資料夾管理](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | 使用者偏好設定 | 您現在可在 [偏好設定](/help/analysis-workspace/user-preferences.md). |
 | 自動儲存專案 | 更新內容以在 [儲存專案](/help/analysis-workspace/build-workspace-project/save-projects.md). |
+| 登陸頁面 | 新登錄頁面更新 [登陸頁面](/help/getting-started/landing.md). |
+| 排程活頁簿 | 說明如何 [排程活頁簿](/help/report-builder/schedule-reportbuilder.md) Report Builder。 |
 
 ## 2022
 
