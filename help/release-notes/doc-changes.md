@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 6eba4eb9f9ba879d9cb17e88b9e61e2f2b297f33
+source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 99%
@@ -124,7 +124,7 @@ ht-degree: 99%
 | 2020 年 11 月 2 日 | [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)頁面的更新。 |
 | 2020 年 11 月 | 新增有關[移除回填限制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#backfill-historical-data)以完成連線的內容。 |
 | 2020 年 10 月 7 日 | 新增有關[合併事件資料集](/help/connections/combined-dataset.md)的主題。 |
-| 2020 年 9 月 15 日 | 新增有關[資料擷取](/help/use-cases/data-ingestion/data-ingestion.md)的主題。 |
+| 2020 年 9 月 15 日 | 新增有關[資料擷取](/help/data-ingestion/data-ingestion.md)的主題。 |
 | 2020 年 9 月 2 日 | 更新有關[使用者權限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)的區段。 |
 | 2020 年 8 月 7 日 | 有關[B2B 使用案例 - 查詢資料集](/help/use-cases/b2b/b2b.md)的新主題已新增。 |
 | 2020 年 7 月 | 新增有關[使用者 ID 恆等映射選項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)的資訊。 |

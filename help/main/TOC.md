@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: aff7b978382446e705d6507dbaa07790bd1dd2ae
+source-git-commit: eb7b53816fcc325f6a72ae145c8cf8a633375578
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 98%
+source-wordcount: '858'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,14 @@ ht-degree: 98%
       + [AAID、ECID、AACUSTOMID 和 Analytics 來源連接器](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [刪除關聯](../getting-started/cja-deletion.md)
    + [CJA 字彙表](../getting-started/cja-glossary.md)
++ 資料擷取 {#cja-data-ingestion}
+   + [資料擷取概述](../data-ingestion/data-ingestion.md)
+   + 擷取及使用快速入門手冊{#ingest-use-guides}
+      + [Adobe Analytics](../data-ingestion/analytics.md)
+      + [Adobe Experience Platform Web SDK和邊緣網路](../data-ingestion/aepwebsdk.md)
+      + [批次資料](../data-ingestion/batch.md)
+      + [串流資料](../data-ingestion/streaming.md)
+      + [源連接器](../data-ingestion/sources.md)
 + 連線 {#cja-connections}
    + [連線總覽](../connections/overview.md)
    + [建立連線](../connections/create-connection.md)
@@ -251,7 +259,6 @@ ht-degree: 98%
       + [將串流的 Google Analytics 資料設定至 Platform](../use-cases/ga/streaming.md)
       + [報告 CJA 中的 Google Analytics 資料](../use-cases/ga/report.md)
    + 資料擷取 {#data-ingestion}
-      + [資料擷取使用案例](../use-cases/data-ingestion/data-ingestion.md)
       + [將 Marketo Engage 資料擷取至 AEP 並在 CJA 中報告](../use-cases/data-ingestion/marketo.md)
       + [將 AEP 對象擷取至 CJA](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 資料檢視 {#data-views}
