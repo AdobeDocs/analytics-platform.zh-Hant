@@ -4,7 +4,7 @@ description: 用於複雜持續性分析之物件陣列的屬性維度。
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1330'
 ht-degree: 100%
 
@@ -247,7 +247,7 @@ Adobe Analytics 中最常見的銷售方法之一，是將搜尋字詞繫結到�
 
 | search_term | 收入 |
 | --- | --- |
-| 鞋子 | US$204.97 |
+| 鞋子 | $204.97 |
 
 雖然此範例僅包含一位訪客，但搜尋不同商品的許多訪客可能會將搜尋字詞錯誤地歸因於不同的產品，因而難以判斷最佳搜尋結果到底是什麼。
 
