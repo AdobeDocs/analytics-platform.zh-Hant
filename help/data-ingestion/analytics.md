@@ -4,7 +4,7 @@ description: 說明如何從傳統Adobe Analytics擷取資料
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
+source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 10%
@@ -125,7 +125,7 @@ Adobe Analytics來源連接器可讓您將Adobe Analytics報表套裝資料匯�
 
       - 設定 **[!UICONTROL 匯入所有新資料]** 和 **[!UICONTROL 資料集回填現有資料]** 根據您的偏好設定。
 
-      ![設定資料集](./assets/cja-connections-3.png)
+      ![設定資料集](./assets/cja-connections-3a.png)
 
    - 選擇 **[!UICONTROL 新增資料集]**.
    選取「**[!UICONTROL 儲存]**」。
