@@ -3,7 +3,7 @@ title: 資料擷取概述
 description: 了解您能使用哪些方式將資料內嵌至 Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+source-git-commit: 5de8c0daaa7eea0a9ab993d256e2b0a14f37301e
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 7%
@@ -48,7 +48,7 @@ Customer Journey Analytics 提供多種資料內嵌選項：其中部分假設�
 
 ## 擷取和使用串流資料
 
-您有一個相關的資料源，如CRM系統、ERP系統或任何其他來源，它提供了詳細資訊，可幫助您更好地了解客戶行為並分析客戶互動。 該資料來源可透過HTTP或公用雲端串流基礎架構進行通訊，但Adobe目前未提供來源連接器。 即時將此串流資料擷取至Adobe Experience Platform，可讓您以Customer Journey Analytics方式使用、結合及分析其他管道和資料來源的資料。
+您有CRM系統、ERP系統或任何其他來源等相關資料來源，這些來源提供詳細資訊，可協助您更清楚了解客戶行為並分析客戶互動。 該資料來源可透過HTTP或公用雲端串流基礎架構進行通訊，但Adobe目前未提供來源連接器。 即時將此串流資料擷取至Adobe Experience Platform，可讓您以Customer Journey Analytics方式使用、結合及分析其他管道和資料來源的資料。
 
 請參閱 [擷取和使用串流資料](./streaming.md) 以取得更多資訊。
 
