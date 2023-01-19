@@ -3,13 +3,13 @@ title: 擷取和使用串流資料
 description: 說明如何在Customer Journey Analytics中擷取和使用串流資料
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: '2002'
 ht-degree: 5%
 
 ---
-
 
 # 擷取和使用串流資料
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 若要完成此作業，您必須：
 
-- **設定結構和資料集** 在Adobe Experience Platform中，定義您要收集之資料的模型（結構），以及實際收集資料（資料集）的位置。
+- **設定結構和資料集** 在Adobe Experience Platform中，定義您要收集的資料的模型（結構），以及實際收集資料（資料集）的位置。
 
 - **使用HTTP API來源連接器** 輕鬆將資料串流至Adobe Experience Platform中設定的資料集。
 
@@ -30,19 +30,19 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->此為簡化的指南，說明如何將串流資料內嵌至Adobe Experience Platform，以及用於Customer Journey Analytics。  強烈建議在提及時研究其他資訊。
+>此為簡化的指南，說明如何將串流資料內嵌至Adobe Experience Platform，以及用於Customer Journey Analytics。 強烈建議在提及時研究其他資訊。
 
 ## 設定結構和資料集
 
-若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集的資料。 所有擷取至Adobe Experience Platform的資料都必須符合標準的非正常結構，才能依下游功能和特色加以辨識和處理。 Experience Data Model(XDM)是以結構形式提供此結構的標準架構。
+若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集的資料。 所有擷取至Adobe Experience Platform的資料都必須符合標準的非正常結構，才能由下游功能和功能識別並處理。 Experience Data Model(XDM)是以結構形式提供此結構的標準架構。
 
-定義結構後，您將使用一或多個資料集來儲存及管理資料收集。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
+定義結構後，可使用一或多個資料集來儲存及管理資料收集。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
 
 擷取至Adobe Experience Platform的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
 
 ### 設定結構
 
-對於此快速入門，我們假設您想要收集一些忠誠度資料，例如忠誠度id、忠誠度點數和忠誠度狀態。
+為了快速入門，您想要收集一些忠誠度資料，例如忠誠度id、忠誠度點數和忠誠度狀態。
 為此，您首先需要定義用於模型此資料的結構。
 
 若要設定您的結構：
@@ -100,11 +100,11 @@ ht-degree: 5%
 
    您需指定電子郵件地址作為Adobe Experience Platform Identity Service可用來結合（拼接）設定檔行為的身分。
 
-   選擇 **[!UICONTROL 套用]**. 您會在電子郵件屬性中看到指紋圖示。
+   選擇 **[!UICONTROL 套用]**. 您會看到指紋圖示出現在電子郵件屬性中。
 
 7. 選擇架構的根級別（具有架構名稱），然後選擇 **[!UICONTROL 設定檔]** 切換。
 
-   系統會提示您啟用設定檔的結構。 啟用後，根據此結構將資料內嵌至資料集時，該資料將合併至即時客戶設定檔中。
+   系統會提示您啟用配置檔案的架構。 啟用後，根據此結構將資料擷取至資料集時，該資料會合併至即時客戶設定檔中。
 
    請參閱 [啟用結構以用於即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) 以取得更多資訊。
 
@@ -146,11 +146,11 @@ ht-degree: 5%
 
 7. 選取 **[!UICONTROL 設定檔]** 切換。
 
-   系統會提示您啟用設定檔的資料集。 資料集一旦啟用後，即會以擷取的資料豐富即時客戶設定檔。
+   系統會提示您啟用設定檔的資料集。 資料集一經啟用，即可透過擷取的資料豐富即時客戶個人檔案。
 
    >[!IMPORTANT]
    >
-   >    只有當資料集所隸屬的結構也啟用設定檔時，您才能啟用設定檔的資料集。
+   >    只有當資料集所遵循的結構已啟用設定檔時，您才能啟用設定檔的資料集。
 
    ![啟用配置檔案的結構](./assets/loyalty-dataset-profile.png)
 
@@ -183,7 +183,7 @@ ht-degree: 5%
 }
 ```
 
-若要將此資料串流至我們建立的資料集，您必須定義要傳送至該資料的串流端點。 若要這麼做，請定義HTTP API來源連接器。
+若要將此資料串流至您建立的資料集，您必須定義要傳送至該資料的串流端點。 若要這麼做，請定義HTTP API來源連接器。
 
 若要建立HTTP API來源連接器：
 
@@ -199,7 +199,7 @@ ht-degree: 5%
 
    輸入HTTP API連線的名稱和說明。
 
-   選擇 **[!UICONTROL XDM相容]** 以指出您要串流的資料與現有XDM架構相容。
+   選擇 **[!UICONTROL XDM相容]** 以指出您所串流的資料與現有XDM架構相容。
 
    選擇 **[!UICONTROL 連接到源]**. 成功連線後，您會看到 [!UICONTROL 已連接].
 
@@ -207,9 +207,9 @@ ht-degree: 5%
 
    選擇 **[!UICONTROL 下一個]** 繼續。
 
-5. 在 [!UICONTROL 資料流詳細資訊] 步驟 [!UICONTROL 新增資料] 螢幕：
+5. 在 [!UICONTROL 資料流詳細資訊] 步驟 [!UICONTROL 新增資料] 畫面：
 
-   選擇 **[!UICONTROL 現有資料集]**，請從資料集清單中選取資料集，並為您的 [!UICONTROL 資料流名稱].
+   選擇 **[!UICONTROL 現有資料集]**，請從資料集清單中選取資料集，並為 [!UICONTROL 資料流名稱].
 
    ![資料流詳細資訊](./assets/httpapi-dataflowdetail.png)
 
@@ -246,7 +246,7 @@ ht-degree: 5%
 
    在中為連線命名並說明 [!UICONTROL 連線設定].
 
-   從 [!UICONTROL 沙箱] 清單 [!UICONTROL 資料設定] ，並從 [!UICONTROL 每日事件的平均數] 清單。
+   從 [!UICONTROL 沙箱] 清單 [!UICONTROL 資料設定] ，並從 [!UICONTROL 每日事件平均數] 清單。
 
    ![連線設定](./assets/cja-connections-1.png)
 
@@ -265,7 +265,7 @@ ht-degree: 5%
 
       - 選取 [!UICONTROL 人員ID] 以Adobe Experience Platform中資料集結構中定義的可用身分識別。
 
-      - 從 [!UICONTROL 資料來源類型] 清單。 如果您指定 **[!UICONTROL 其他]** 然後新增資料來源的說明。
+      - 從 [!UICONTROL 資料來源類型] 清單。 如果您指定 **[!UICONTROL 其他]**，然後新增資料來源的說明。
 
       - 設定 **[!UICONTROL 匯入所有新資料]** 和 **[!UICONTROL 資料集回填現有資料]** 根據您的偏好設定。
 
@@ -335,7 +335,7 @@ Analysis Workspace是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png).
 
-5. 開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] 來建立您的第一個報表。 例如，拖曳 `Program Points Balance` 和 `Page View` 做為量度 `email` 作為維度，快速概述已造訪過您網站的設定檔，也是收集忠誠點數的忠誠計畫的一部分。
+5. 開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] 來建立您的第一個報表。 例如，拖曳 `Program Points Balance` 和 `Page View` 做為量度 `email` 作為維度，快速概述已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
 
    ![工作區 — 第一個報表](./assets/cja-projects-5.png)
 
@@ -344,4 +344,3 @@ Analysis Workspace是彈性的瀏覽器工具，可讓您根據資料快速建�
 >[!SUCCESS]
 >
 >您已完成所有步驟。 從定義您要收集的忠誠度資料（結構），以及要將其（資料集）儲存在Adobe Experience Platform的何處開始，您已設定HTTP API來源連接器，將忠誠度資料直接串流至資料集。 您的資料檢視定義可讓您指定要使用的維度和量度，最後您建立了第一個將資料視覺化和分析的專案。
-

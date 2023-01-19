@@ -3,13 +3,13 @@ title: 擷取及使用批次資料
 description: 說明如何在Customer Journey Analytics中擷取和使用批次資料
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 6%
+source-wordcount: '1954'
+ht-degree: 5%
 
 ---
-
 
 # 擷取及使用批次資料
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 若要完成此作業，您必須：
 
-- **設定結構和資料集** 在Adobe Experience Platform中，定義您要收集之資料的模型（結構），以及實際收集資料（資料集）的位置。
+- **設定結構和資料集** 在Adobe Experience Platform中，定義您要收集的資料的模型（結構），以及實際收集資料（資料集）的位置。
 
 - **使用工作流程** 輕鬆將批次資料上傳至Adobe Experience Platform中設定的資料集。
 
@@ -29,19 +29,19 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->此為如何將批次資料內嵌至Adobe Experience Platform及用於Customer Journey Analytics的簡化指南。  強烈建議在提及時研究其他資訊。
+>此為如何將批次資料內嵌至Adobe Experience Platform及用於Customer Journey Analytics的簡化指南。 強烈建議在提及時研究其他資訊。
 
 ## 設定結構和資料集
 
-若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集的資料。 所有擷取至Adobe Experience Platform的資料都必須符合標準的非正常結構，才能依下游功能和特色加以辨識和處理。 Experience Data Model(XDM)是以結構形式提供此結構的標準架構。
+若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集的資料。 所有擷取至Adobe Experience Platform的資料都必須符合標準的非正常結構，才能由下游功能和功能識別並處理。 Experience Data Model(XDM)是以結構形式提供此結構的標準架構。
 
-定義結構後，您將使用一或多個資料集來儲存及管理資料收集。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
+定義結構後，可使用一或多個資料集來儲存及管理資料收集。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
 
 擷取至Adobe Experience Platform的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
 
 ### 設定結構
 
-對於此快速入門，我們假設您想要收集一些忠誠度資料，例如忠誠度id、忠誠度點數和忠誠度狀態。
+對於此快速入門，您想要收集一些忠誠度資料，例如忠誠度id、忠誠度點數和忠誠度狀態。
 為此，您首先需要定義用於模型此資料的結構。
 
 若要設定您的結構：
@@ -99,13 +99,13 @@ ht-degree: 6%
 
    您需指定電子郵件地址作為Adobe Experience Platform Identity Service可用來結合（拼接）設定檔的身分。
 
-   選擇 **[!UICONTROL 套用]**. 您會在電子郵件屬性中看到指紋圖示。
+   選擇 **[!UICONTROL 套用]**. 您會看到指紋圖示出現在電子郵件屬性中。
 
    選取「**[!UICONTROL 儲存]**」。
 
 7. 選擇架構的根級別（具有架構名稱），然後選擇 **[!UICONTROL 設定檔]** 切換。
 
-   系統會提示您啟用設定檔的結構。 啟用後，根據此結構將資料內嵌至資料集時，該資料將合併至即時客戶設定檔中。
+   系統會提示您啟用配置檔案的架構。 啟用後，根據此結構將資料擷取至資料集時，該資料會合併至即時客戶設定檔中。
 
    請參閱 [啟用結構以用於即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) 以取得更多資訊。
 
@@ -147,7 +147,7 @@ ht-degree: 6%
 
 7. 選取 **[!UICONTROL 設定檔]** 切換。
 
-   系統會提示您啟用設定檔的資料集。 資料集一旦啟用後，即會以擷取的資料豐富即時客戶設定檔。
+   系統會提示您啟用設定檔的資料集。 資料集一經啟用，即可透過擷取的資料豐富即時客戶個人檔案。
 
    >[!IMPORTANT]
    >
@@ -160,7 +160,7 @@ ht-degree: 6%
 
 ## 使用工作流程
 
-您可以使用工作流程功能將批次資料上傳至Adobe Experience Platform。 我們使用的批次檔案範例是CSV檔案，其中包含下列內容：
+您可以使用工作流程功能將批次資料上傳至Adobe Experience Platform。 您使用的批次檔案範例為CSV檔案，其中包含下列內容：
 
 ```
 email,loyaltyID,points,status
@@ -182,7 +182,7 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 
 3. 在 [!UICONTROL 將CSV對應至XDM結構] 螢幕，在 [!UICONTROL 資料流詳細資訊] 步驟：
 
-   選擇 **[!UICONTROL 現有資料集]**，請從資料集清單中選取您的，並為 [!UICONTROL 資料流名稱].
+   選擇 **[!UICONTROL 現有資料集]**，請從資料集清單中選取資料集，並為 [!UICONTROL 資料流名稱].
 
    ![資料流](./assets/workflow-dataflowdetail.png)
 
@@ -198,7 +198,7 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 
 5. 在 [!UICONTROL 對應] 步驟：
 
-   將您的資料從CSV檔案對應至結構中的資料。 使用AI，工作流程功能將嘗試自動將批次資料欄位對應至結構欄位。
+   將您的資料從CSV檔案對應至結構中的資料。 使用AI時，工作流程功能會嘗試自動將批次資料欄位對應至結構欄位。
 
    ![對應您的資料](./assets/workflow-dataflow-mapping.png)
 
@@ -208,7 +208,7 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 
 6. 選擇 **[!UICONTROL 完成]** 開始將批次資料內嵌至Adobe Experience Platform。
 
-請參閱 [將CSV檔案對應至現有XDM結構](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html) 有關在傳入資料與您的XDM架構不相容時如何映射資料的詳細資訊，請使用映射模板，使用計算欄位來確保您的批處理資料符合預期的架構等。
+請參閱 [將CSV檔案對應至現有XDM結構](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html) 有關在傳入資料與您的XDM架構不相容時如何映射資料的詳細資訊，請使用映射模板，使用計算欄位以確保您的批處理資料符合架構的預期內容，以及執行其他操作。
 
 
 ## 設定連線
@@ -227,7 +227,7 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 
    在中為連線命名並說明 [!UICONTROL 連線設定].
 
-   從 [!UICONTROL 沙箱] 清單 [!UICONTROL 資料設定] ，並從 [!UICONTROL 每日事件的平均數] 清單。
+   從 [!UICONTROL 沙箱] 清單 [!UICONTROL 資料設定] ，並從 [!UICONTROL 每日事件平均數] 清單。
 
    ![連線設定](./assets/cja-connections-1.png)
 
@@ -246,7 +246,7 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 
       - 選取 [!UICONTROL 人員ID] 以Adobe Experience Platform中資料集結構中定義的可用身分識別。
 
-      - 從 [!UICONTROL 資料來源類型] 清單。 如果您指定 **[!UICONTROL 其他]** 然後新增資料來源的說明。
+      - 從 [!UICONTROL 資料來源類型] 清單。 如果您指定 **[!UICONTROL 其他]**，然後新增資料來源的說明。
 
       - 設定 **[!UICONTROL 匯入所有新資料]** 和 **[!UICONTROL 資料集回填現有資料]** 根據您的偏好設定。
 
@@ -316,7 +316,7 @@ Analysis Workspace是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png).
 
-5. 開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] 來建立您的第一個報表。 例如，拖曳 `Program Points Balance` 和 `Page View` 做為量度 `email` 作為維度，快速概述已造訪過您網站的設定檔，也是收集忠誠點數的忠誠計畫的一部分。
+5. 開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] 來建立您的第一個報表。 例如，拖曳 `Program Points Balance` 和 `Page View` 做為量度 `email` 作為維度，快速概述已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
 
    ![工作區 — 第一個報表](./assets/cja-projects-5.png)
 

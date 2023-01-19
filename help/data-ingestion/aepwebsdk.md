@@ -3,13 +3,13 @@ title: 透過 Adobe Experience Platform Web SDK 和 Edge Network 擷取資料
 description: 說明如何透過Adobe Experience Platform Web SDK和邊緣網路將資料內嵌至Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '3591'
+source-wordcount: '3587'
 ht-degree: 7%
 
 ---
-
 
 # 透過 Adobe Experience Platform Web SDK 和 Edge Network 擷取資料
 
@@ -17,11 +17,11 @@ ht-degree: 7%
 
 若要完成此作業，您必須：
 
-- **設定結構和資料集** 在Adobe Experience Platform中，定義您要收集之資料的模型（結構），以及實際收集資料（資料集）的位置。
+- **設定結構和資料集** 在Adobe Experience Platform中，定義您要收集的資料的模型（結構），以及實際收集資料（資料集）的位置。
 
 - **設定資料流** 設定Adobe Experience Platform邊緣網路，將收集的資料路由至您在Adobe Experience Platform中設定的資料集。
 
-- **使用標籤** 輕鬆針對網站上資料層中的資料設定規則和資料元素，並確保將資料傳送至Adobe Experience Platform邊緣網路上設定的資料流。
+- **使用標籤** 輕鬆針對網站上資料層的資料設定規則和資料元素。 然後，確定資料已傳送至Adobe Experience Platform邊緣網路上設定的資料流。
 
 - **部署和驗證**. 有一個環境，讓您可反覆進行標籤開發作業，一旦所有項目經過驗證，就會在生產環境中上線發佈。
 
@@ -33,20 +33,20 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->此為簡化的指南，說明如何將從您網站收集的資料內嵌至Adobe Experience Platform，以及在Customer Journey Analytics中使用。  強烈建議在提及時研究其他資訊。
+>此為簡化的指南，說明如何將從您網站收集的資料內嵌至Adobe Experience Platform，以及在Customer Journey Analytics中使用。 強烈建議在提及時研究其他資訊。
 
 
 ## 設定結構和資料集
 
-若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集的資料。 所有擷取至Adobe Experience Platform的資料都必須符合標準的非正常結構，才能依下游功能和特色加以辨識和處理。 Experience Data Model(XDM)是以結構形式提供此結構的標準架構。
+若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集的資料。 所有擷取至Adobe Experience Platform的資料都必須符合標準的非正常結構，才能由下游功能和功能識別並處理。 Experience Data Model(XDM)是以結構形式提供此結構的標準架構。
 
-定義結構後，您將使用一或多個資料集來儲存及管理資料收集。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
+定義結構後，可使用一或多個資料集來儲存及管理資料收集。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
 
 擷取至Adobe Experience Platform的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
 
 ### 設定結構
 
-您想要追蹤來自造訪網站之設定檔的一些最少量資料，例如頁面名稱、身分識別等。
+您想要追蹤來自造訪您網站之設定檔的一些最少量資料，例如頁面名稱、身分識別。
 為此，您首先需要定義用於模型此資料的結構。
 
 若要設定您的結構：
@@ -94,7 +94,7 @@ ht-degree: 7%
 
    ![標識對象](./assets/identification-field.png)
 
-   這會將識別功能新增至您的架構。 在您的案例中，您想使用Experience CloudID和電子郵件地址識別造訪您網站的設定檔。 有許多其他屬性可用來追蹤訪客的身分識別（例如客戶ID、忠誠度ID等）。
+   這會將識別功能新增至您的架構。 在您的案例中，您想使用Experience CloudID和電子郵件地址識別造訪您網站的設定檔。 有許多其他屬性可用來追蹤訪客的身分識別（例如客戶id、忠誠度id）。
 
    選擇 **[!UICONTROL 套用]** 將此對象添加到您的架構中。
 
@@ -104,7 +104,7 @@ ht-degree: 7%
 
    您需指定Experience Cloud身分識別作為Adobe Experience Platform Identity服務可用來將設定檔的行為與相同ECID結合（拼接）的主要身分識別。
 
-   選擇 **[!UICONTROL 套用]**. 您會在ecid屬性中看到指紋圖示。
+   選擇 **[!UICONTROL 套用]**. 您會看到ecid屬性中出現指紋圖示。
 
 7. 選取 **[!UICONTROL 電子郵件]** 欄位，然後選取 **[!UICONTROL 身分]** 和 **[!UICONTROL 電子郵件]** 從 [!UICONTROL 身分命名空間] 清單 [!UICONTROL 欄位屬性] 中。
 
@@ -112,13 +112,13 @@ ht-degree: 7%
 
    您會將電子郵件地址指定為Adobe Experience Platform Identity Service可用來結合（拼接）設定檔行為的另一個身分。
 
-   選擇 **[!UICONTROL 套用]**. 您會在電子郵件屬性中看到指紋圖示。
+   選擇 **[!UICONTROL 套用]**. 您會看到指紋圖示出現在電子郵件屬性中。
 
    選取「**[!UICONTROL 儲存]**」。
 
 8. 選取顯示架構名稱的架構的根元素，然後選取 **[!UICONTROL 設定檔]** 切換。
 
-   系統會提示您啟用設定檔的結構。 啟用後，根據此結構將資料內嵌至資料集時，該資料將合併至即時客戶設定檔中。
+   系統會提示您啟用配置檔案的架構。 啟用後，根據此結構將資料擷取至資料集時，該資料會合併至即時客戶設定檔中。
 
    請參閱 [啟用結構以用於即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) 以取得更多資訊。
 
@@ -174,11 +174,11 @@ ht-degree: 7%
 
 7. 選取 **[!UICONTROL 設定檔]** 切換。
 
-   系統會提示您啟用設定檔的資料集。 資料集一旦啟用後，即會以擷取的資料豐富即時客戶設定檔。
+   系統會提示您啟用設定檔的資料集。 資料集一經啟用，即可透過擷取的資料豐富即時客戶個人檔案。
 
    >[!IMPORTANT]
    >
-   >    只有當資料集所隸屬的結構也啟用設定檔時，您才能啟用設定檔的資料集。
+   >    只有當資料集所遵循的結構已啟用設定檔時，您才能啟用設定檔的資料集。
 
    ![啟用配置檔案的結構](./assets/aepwebsdk-dataset-profile.png)
 
@@ -190,7 +190,7 @@ ht-degree: 7%
 
 在設定中，您會想要將您從網站收集的資料傳送至Adobe Experience Platform中的資料集。
 
-若要設定資料流：
+設定資料流：
 
 1. 在Adobe Experience Platform UI中，選取 **[!UICONTROL 資料流]** 從 [!UICONTROL 資料收集] 在左側邊欄。
 
@@ -245,7 +245,7 @@ ht-degree: 7%
 
 #### **擴充功能**
 
-您必須將AdobePlatform Web SDK擴充功能新增至標籤，以確保您可以（透過資料流）將資料傳送至Adobe Experience Platform。
+將AdobePlatform Web SDK擴充功能新增至您的標籤，以確保您可以（透過您的資料流）將資料傳送至Adobe Experience Platform。
 
 若要建立和設定Adobe Experience Platform Web SDK擴充功能：
 
@@ -265,7 +265,7 @@ ht-degree: 7%
 
 請參閱 [設定Adobe Experience Platform Web SDK擴充功能](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) 以取得更多資訊。
 
-您也想要設定Experience CloudID服務擴充功能，以便輕鬆使用Experience CloudID服務。 Experience CloudID服務可識別所有Adobe Experience Cloud解決方案的訪客。
+您也想要設定Experience CloudID服務擴充功能，以便輕鬆使用Experience CloudID。 Experience CloudID服務可識別所有Adobe Experience Cloud解決方案中的訪客。
 
 若要建立和設定Experience CloudID服務擴充功能：
 
@@ -283,9 +283,9 @@ ht-degree: 7%
 
 #### **資料元素**
 
-資料元素是資料字典 (或資料地圖) 的建置組塊。使用資料元素，在行銷和廣告技術之間收集、組織和傳遞資料。您會在標籤中設定資料元素，這些元素會從資料層讀取，且可用來將資料傳送至Adobe Experience Platform。
+資料元素是資料字典 (或資料地圖) 的建置組塊。使用資料元素，在行銷和廣告技術之間收集、組織和傳遞資料。您可在標籤中設定資料元素，這些元素會從資料層讀取，且可用來將資料傳送至Adobe Experience Platform。
 
-資料元素的類型不同。 您會先設定資料元素，以擷取訪客在您網站上檢視的頁面名稱。
+資料元素的類型不同。 您先設定資料元素，以擷取訪客在您網站上檢視的頁面名稱。
 
 若要定義頁面名稱資料元素：
 
@@ -331,7 +331,7 @@ ht-degree: 7%
 
    - 選取「**[!UICONTROL 儲存]**」。
 
-最後，您現在想要將任何特定資料元素對應至先前定義的結構。 您需要定義另一個資料元素，以提供XDM結構的表示。
+最後，您現在想要將任何特定資料元素對應至先前定義的結構。 您可以定義另一個資料元素，以呈現XDM結構。
 
 若要定義XDM物件資料元素：
 
@@ -351,7 +351,7 @@ ht-degree: 7%
 
    - 從 [!UICONTROL 結構] 清單。
 
-   - 對應 `identification > core > ecid` 屬性，在您的結構中定義，至ECID資料元素。 選取用戶端圖示，即可輕鬆從資料元素清單中挑選ECID資料元素。
+   - 對應 `identification > core > ecid` 屬性，在您的結構中定義，至ECID資料元素。 選取圓柱體圖示，即可輕鬆從資料元素清單中挑選ECID資料元素。
 
       ![挑選ECID資料元素](./assets/pick-ecid-dataelement.png)
 
@@ -367,7 +367,7 @@ ht-degree: 7%
 
 #### **規則**
 
-Adobe Experience Platform中的標籤會遵循規則型系統。 它們會尋找使用者互動和相關資料。 當符合列於您規則中的準則時，規則會觸發您識別的擴充功能、指令黨指令檔或用戶端代碼。您可以使用規則，透過Adobe Experience Platform Web SDK擴充功能，將資料（例如XDM物件）傳送至AdobeExperience Platform。
+Adobe Experience Platform中的標籤會遵循規則型系統。 它們會尋找使用者互動和相關資料。 當符合列於您規則中的準則時，規則會觸發您識別的擴充功能、指令黨指令檔或用戶端代碼。您可以使用規則，透過Adobe Experience Platform Web SDK擴充功能將資料（例如XDM物件）傳送至Adobe Experience Platform。
 
 若要定義規則：
 
@@ -400,7 +400,7 @@ Adobe Experience Platform中的標籤會遵循規則型系統。 它們會尋找
 
       - 選擇 **[!UICONTROL web.webpagedetails.pageViews]** 從 [!UICONTROL 類型] 清單。
 
-      - 選取旁邊的用戶端圖示  [!UICONTROL XDM資料] 和選擇 **[!UICONTROL XDM — 頁面檢視]** 從資料元素清單。
+      - 選取旁邊的圓柱體圖示  [!UICONTROL XDM資料] 和選擇 **[!UICONTROL XDM — 頁面檢視]** 從資料元素清單。
 
          ![規則 — 動作設定](./assets/action-pageview-xdm.png)
 
@@ -417,7 +417,7 @@ Adobe Experience Platform中的標籤會遵循規則型系統。 它們會尋找
 
 這只是定義規則的範例，此規則會將XDM資料（包含其他資料元素的值）傳送至Adobe Experience Platform。
 
-您可以在標籤中以多種方式使用規則來操控變數（使用您的資料元素）。
+您可以在標籤中以各種方式使用規則來操控變數（使用您的資料元素）。
 
 請參閱 [規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) 以取得更多資訊。
 
@@ -443,13 +443,13 @@ Adobe Experience Platform中的標籤會遵循規則型系統。 它們會尋找
 
    - 選擇 **[!UICONTROL 儲存並建置至開發]**.
 
-   這會儲存並建立您開發環境的標籤。 綠色圓點表示在開發環境中成功建立標籤。
+   如此可儲存並建置開發環境的標籤。 綠色圓點表示在開發環境中成功建立標籤。
 
 4. 您可以選取 **[!UICONTROL ...]** 若要重建程式庫，或將程式庫移至測試環境或生產環境。
 
    ![發佈 — 建置程式庫](./assets/build-library.png)
 
-Adobe Experience Platform標籤支援可輕鬆部署Adobe Experience Platform Web SDK的複雜發佈工作流程。
+Adobe Experience Platform標籤支援簡單到複雜的發佈工作流程，以配合您部署Adobe Experience Platform Web SDK。
 
 請參閱 [發佈概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hant) 以取得更多資訊。
 
@@ -480,7 +480,7 @@ Adobe Experience Platform標籤支援可輕鬆部署Adobe Experience Platform We
 
 ## 部署和驗證
 
-您現在可以將程式碼部署在 `<head>` 標籤。 部署後，您的網站會開始將資料收集到Adobe Experience Platform。
+您現在可以將程式碼部署在 `<head>` 標籤。 部署後，您的網站就會開始將資料收集至Adobe Experience Platform。
 
 驗證實作、視需要更正實作，並在更正後，使用「標籤」的發佈工作流程功能，將其部署至測試和生產環境。
 
@@ -500,7 +500,7 @@ Adobe Experience Platform標籤支援可輕鬆部署Adobe Experience Platform We
 
    在中為連線命名並說明 [!UICONTROL 連線設定].
 
-   從 [!UICONTROL 沙箱] 清單 [!UICONTROL 資料設定] ，並從 [!UICONTROL 每日事件的平均數] 清單。
+   從 [!UICONTROL 沙箱] 清單 [!UICONTROL 資料設定] ，並從 [!UICONTROL 每日事件平均數] 清單。
 
    ![連線設定](./assets/cja-connections-1.png)
 
@@ -519,7 +519,7 @@ Adobe Experience Platform標籤支援可輕鬆部署Adobe Experience Platform We
 
       - 選取 [!UICONTROL 人員ID] 以Adobe Experience Platform中資料集結構中定義的可用身分識別。
 
-      - 從 [!UICONTROL 資料來源類型] 清單。 如果您指定 **[!UICONTROL 其他]** 然後新增資料來源的說明。
+      - 從 [!UICONTROL 資料來源類型] 清單。 如果您指定 **[!UICONTROL 其他]**，然後新增資料來源的說明。
 
       - 設定 **[!UICONTROL 匯入所有新資料]** 和 **[!UICONTROL 資料集回填現有資料]** 根據您的偏好設定。
 
@@ -589,7 +589,7 @@ Analysis Workspace是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png).
 
-5. 開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] 來建立您的第一個報表。 例如，拖曳 `Program Points Balance` 和 `Page View` 做為量度 `email` 作為維度，快速概述已造訪過您網站的設定檔，也是收集忠誠點數的忠誠計畫的一部分。
+5. 開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] 來建立您的第一個報表。 例如，拖曳 `Program Points Balance` 和 `Page View` 做為量度 `email` 作為維度，快速概述已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
 
    ![工作區 — 第一個報表](./assets/cja-projects-5.png)
 
@@ -597,4 +597,4 @@ Analysis Workspace是彈性的瀏覽器工具，可讓您根據資料快速建�
 
 >[!SUCCESS]
 >
->您已完成所有步驟。 從定義您要收集的資料（結構），以及要將其儲存在Adobe Experience Platform中的位置（資料集）開始，您已在邊緣網路上設定資料流，以確保可將資料轉送至該資料集。 接著，您定義並部署了包含擴充功能(Adobe Experience Platform Web SDK、Experience CloudID服務)、資料元素和規則的標籤，以從您的網站擷取資料，並將該資料傳送至您的資料流。 您已在Customer Journey Analytics中定義連線，以利用您的網站追蹤資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，最後您建立了第一個將資料視覺化和分析的專案。
+>您已完成所有步驟。 從定義您要收集的資料（結構），以及要將其儲存在Adobe Experience Platform的位置（資料集）開始，您已在邊緣網路上設定資料流，以確保資料可轉送至該資料集。 接著，您定義並部署了包含擴充功能(Adobe Experience Platform Web SDK、Experience CloudID服務)、資料元素和規則的標籤，以從您的網站擷取資料，並將該資料傳送至您的資料流。 您已在Customer Journey Analytics中定義連線，以使用您的網站追蹤資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，最後您建立了第一個將資料視覺化和分析的專案。

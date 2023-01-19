@@ -3,13 +3,13 @@ title: 從傳統Adobe Analytics擷取和使用資料
 description: 說明如何從傳統Adobe Analytics擷取資料
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1146'
 ht-degree: 10%
 
 ---
-
 
 # 從傳統Adobe Analytics擷取和使用資料
 
@@ -23,7 +23,7 @@ ht-degree: 10%
 >
 >- [使用Adobe Analytics擴充功能實作Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=zh-Hant)
 >
->- [使用Javascript實作Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en)
+>- [使用 JavaScript 實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en)
 
 
 若要完成此作業，您必須：
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->此為簡化的指南，說明如何使用Adobe Analytics來源連接器擷取資料，以及在Customer Journey Analytics中使用該資料。  強烈建議在提及時研究其他資訊。
+>此為簡化的指南，說明如何使用Adobe Analytics來源連接器擷取資料，以及在Customer Journey Analytics中使用該資料。 強烈建議在提及時研究其他資訊。
 
 
 ## 設定Adobe Analytics來源連接器
@@ -48,7 +48,7 @@ Adobe Analytics來源連接器可讓您將Adobe Analytics報表套裝資料匯�
 
 建立Adobe Analytics源連接器：
 
-1. 在平台UI中，選取 **[!UICONTROL 來源]** 從左側邊欄。
+1. 在平台UI中，選取 **[!UICONTROL 來源]**，可從左側邊欄。
 
 2. 選擇 **[!UICONTROL Adobe應用程式]** 從 [!UICONTROL 類別].
 
@@ -102,7 +102,7 @@ Adobe Analytics來源連接器可讓您將Adobe Analytics報表套裝資料匯�
 
    在中為連線命名並說明 [!UICONTROL 連線設定].
 
-   從 [!UICONTROL 沙箱] 清單 [!UICONTROL 資料設定] ，並從 [!UICONTROL 每日事件的平均數] 清單。
+   從 [!UICONTROL 沙箱] 清單 [!UICONTROL 資料設定] ，並從 [!UICONTROL 每日事件平均數] 清單。
 
    ![連線設定](./assets/cja-connections-1.png)
 
@@ -121,7 +121,7 @@ Adobe Analytics來源連接器可讓您將Adobe Analytics報表套裝資料匯�
 
       - 選取 [!UICONTROL 人員ID] 以Adobe Experience Platform中資料集結構中定義的可用身分識別。
 
-      - 從 [!UICONTROL 資料來源類型] 清單。 如果您指定 **[!UICONTROL 其他]** 然後新增資料來源的說明。
+      - 從 [!UICONTROL 資料來源類型] 清單。 如果您指定 **[!UICONTROL 其他]**，然後新增資料來源的說明。
 
       - 設定 **[!UICONTROL 匯入所有新資料]** 和 **[!UICONTROL 資料集回填現有資料]** 根據您的偏好設定。
 
@@ -191,7 +191,7 @@ Analysis Workspace是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png).
 
-5. 開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] 來建立您的第一個報表。 例如，拖曳 `Program Points Balance` 和 `Page View` 做為量度 `email` 作為維度，快速概述已造訪過您網站的設定檔，也是收集忠誠點數的忠誠計畫的一部分。
+5. 開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] 來建立您的第一個報表。 例如，拖曳 `Program Points Balance` 和 `Page View` 做為量度 `email` 作為維度，快速概述已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
 
    ![工作區 — 第一個報表](./assets/cja-projects-5.png)
 
@@ -201,10 +201,4 @@ Analysis Workspace是彈性的瀏覽器工具，可讓您根據資料快速建�
 >[!SUCCESS]
 >
 >您已完成所有步驟。 從設定Adobe Analytics資料來源連接器及為報表套裝設定該連接器開始，您的Adobe Analytics資料會自動上傳至Adobe Experience Platform。 您已在Customer Journey Analytics中定義連線，以利用擷取的Adobe Analytics資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，最後您建立了第一個將資料視覺化和分析的專案。
-
-
-
-
-
-
 

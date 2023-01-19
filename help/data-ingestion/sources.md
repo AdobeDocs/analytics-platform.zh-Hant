@@ -3,13 +3,13 @@ title: 使用來源連接器擷取和使用資料
 description: 說明如何在Customer Journey Analytics中使用來源連接器擷取和使用資料
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+exl-id: 813d3213-86b3-431a-821c-174e5e36d032
+source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1955'
 ht-degree: 5%
 
 ---
-
 
 # 使用來源連接器擷取和使用資料。
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 若要完成此作業，您必須：
 
-- **設定結構和資料集** 在Adobe Experience Platform中，定義您要收集之資料的模型（結構），以及實際收集資料（資料集）的位置。
+- **設定結構和資料集** 在Adobe Experience Platform中，定義您要收集的資料的模型（結構），以及實際收集資料（資料集）的位置。
 
 - **使用源連接器** 在Adobe Experience Platform中，將資料匯入已設定的資料集。
 
@@ -31,20 +31,20 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->本簡化指南說明如何使用來源連接器將資料內嵌至Adobe Experience Platform，並在Customer Journey Analytics中使用。  強烈建議在提及時研究其他資訊。
+>本簡化指南說明如何使用來源連接器將資料內嵌至Adobe Experience Platform，並在Customer Journey Analytics中使用。 強烈建議在提及時研究其他資訊。
 
 
 ## 設定結構和資料集
 
-若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集的資料。 所有擷取至Adobe Experience Platform的資料都必須符合標準的非正常結構，才能依下游功能和特色加以辨識和處理。 Experience Data Model(XDM)是以結構形式提供此結構的標準架構。
+若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集的資料。 所有擷取至Adobe Experience Platform的資料都必須符合標準的非正常結構，才能由下游功能和功能識別並處理。 Experience Data Model(XDM)是以結構形式提供此結構的標準架構。
 
-定義結構後，您將使用一或多個資料集來儲存及管理資料收集。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
+定義結構後，可使用一或多個資料集來儲存及管理資料收集。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
 
 擷取至Adobe Experience Platform的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
 
 ### 設定結構
 
-對於此快速入門，我們假設您想要收集一些忠誠度資料，例如忠誠度id、忠誠度點數和忠誠度狀態。
+為了快速入門，您想要收集一些忠誠度資料，例如忠誠度id、忠誠度點數和忠誠度狀態。
 為此，您首先需要定義用於模型此資料的結構。
 
 若要設定您的結構：
@@ -102,11 +102,11 @@ ht-degree: 5%
 
    您需指定電子郵件地址作為Adobe Experience Platform Identity Service可用來結合（拼接）設定檔行為的身分。
 
-   選擇 **[!UICONTROL 套用]**. 您會在電子郵件屬性中看到指紋圖示。
+   選擇 **[!UICONTROL 套用]**. 您會看到指紋圖示出現在電子郵件屬性中。
 
 7. 選擇架構的根級別（具有架構名稱），然後選擇 **[!UICONTROL 設定檔]** 切換。
 
-   系統會提示您啟用設定檔的結構。 啟用後，根據此結構將資料內嵌至資料集時，該資料將合併至即時客戶設定檔中。
+   系統會提示您啟用配置檔案的架構。 啟用後，根據此結構將資料擷取至資料集時，該資料會合併至即時客戶設定檔中。
 
    請參閱 [啟用結構以用於即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=en#profile) 以取得更多資訊。
 
@@ -148,7 +148,7 @@ ht-degree: 5%
 
 7. 選取 **[!UICONTROL 設定檔]** 切換。
 
-   系統會提示您啟用設定檔的資料集。 資料集一旦啟用後，即會以擷取的資料豐富即時客戶設定檔。
+   系統會提示您啟用設定檔的資料集。 資料集一經啟用，即可透過擷取的資料豐富即時客戶個人檔案。
 
    >[!IMPORTANT]
    >
@@ -171,15 +171,15 @@ ht-degree: 5%
 
    - **[!UICONTROL 驗證]**. 您提供驗證詳細資訊以存取資料來源。
 
-   - **[!UICONTROL 選擇資料]**:選擇要內嵌的源資料。
+   - **[!UICONTROL 選擇資料]**:選取要內嵌的來源資料。
 
-   - **[!UICONTROL 資料流設備]**:您提供了資料流的其他詳細資訊，例如名稱和要使用的資料集。
+   - **[!UICONTROL 資料流詳細資訊]**:您提供了資料流的其他詳細資訊，例如名稱和要使用的資料集。
 
-   - **[!UICONTROL 對應]**:將傳入的來源資料欄位對應至與您所選資料集相關聯的架構中的屬性。
+   - **[!UICONTROL 對應]**:將傳入的來源資料欄位對應至與您所選資料集關聯之架構中的屬性。
 
    - **[!UICONTROL 排程]**:如果可用，您可以排程資料擷取。
 
-   - **[!UICONTROL 檢閱]**:完成設定之前，將審閱源連接器的定義。
+   - **[!UICONTROL 檢閱]**:您會看到源連接器定義的查看。
 
    每個連接器都提供詳細檔案。
 
@@ -215,7 +215,7 @@ ht-degree: 5%
 
    在中為連線命名並說明 [!UICONTROL 連線設定].
 
-   從 [!UICONTROL 沙箱] 清單 [!UICONTROL 資料設定] ，並從 [!UICONTROL 每日事件的平均數] 清單。
+   從 [!UICONTROL 沙箱] 清單 [!UICONTROL 資料設定] ，並從 [!UICONTROL 每日事件平均數] 清單。
 
    ![連線設定](./assets/cja-connections-1.png)
 
@@ -234,7 +234,7 @@ ht-degree: 5%
 
       - 選取 [!UICONTROL 人員ID] 以Adobe Experience Platform中資料集結構中定義的可用身分識別。
 
-      - 從 [!UICONTROL 資料來源類型] 清單。 如果您指定 **[!UICONTROL 其他]** 然後新增資料來源的說明。
+      - 從 [!UICONTROL 資料來源類型] 清單。 如果您指定 **[!UICONTROL 其他]**，然後新增資料來源的說明。
 
       - 設定 **[!UICONTROL 匯入所有新資料]** 和 **[!UICONTROL 資料集回填現有資料]** 根據您的偏好設定。
 
@@ -304,7 +304,7 @@ Analysis Workspace是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png).
 
-5. 開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] 來建立您的第一個報表。 例如，拖曳 `Program Points Balance` 和 `Page View` 做為量度 `email` 作為維度，快速概述已造訪過您網站的設定檔，也是收集忠誠點數的忠誠計畫的一部分。
+5. 開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] 來建立您的第一個報表。 例如，拖曳 `Program Points Balance` 和 `Page View` 做為量度 `email` 作為維度，快速概述已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
 
    ![工作區 — 第一個報表](./assets/cja-projects-5.png)
 
