@@ -4,7 +4,7 @@ description: 了解如何建立連結客服中心和網站資料的資料集。
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
@@ -44,7 +44,7 @@ Customer Journey Analytics 具有重要的強大功能，可將不同來源的�
 CJA 需有共同識別碼才能產生[合併資料集](/help/connections/combined-dataset.md)。
 
 * 如果您兩個資料集的每個事件已有共同識別碼，您可以略過此步驟，繼續建立連線。
-* 如果任一資料集中只有部分事件有共同識別碼，您可以使用跨管道分析來彙整資料。如需為這兩個資料集啟用跨管道分析的相關步驟，請參閱[跨管道分析總覽](/help/connections/cca/overview.md)。
+* 如果任一資料集中只有部分事件有共同識別碼，您可以使用跨管道分析來彙整資料。如需為這兩個資料集啟用跨管道分析的相關步驟，請參閱[跨管道分析總覽](/help/cca/overview.md)。
 
 ## 在 CJA 中建立連線
 

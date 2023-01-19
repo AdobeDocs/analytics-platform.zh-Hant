@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 95b422ac44e2a25dfaa2198098185fe71c1fb204
-workflow-type: ht
-source-wordcount: '1457'
-ht-degree: 100%
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+workflow-type: tm+mt
+source-wordcount: '1456'
+ht-degree: 98%
 
 ---
 
@@ -104,10 +104,10 @@ Adobe 已將「區段」部分重新命名為「篩選器」，以更能與行�
 
 ## Adobe 如何識別訪客的變動
 
-CJA 將識別的概念擴展到 ECID 之外，以包括要使用的任何 ID，包括客戶 ID、Cookie ID、縫合 ID、使用者 ID、追蹤程式碼等。 跨資料集使用通用命名空間 ID，或使用[跨管道分析](/help/connections/cca/overview.md)，可幫助將不同資料集的人們連結在一起。 任何在 CJA 中設定工作區專案的使用者都必須了解跨資料集使用的 ID。 請參閱以下視頻特別顯示在 CJA 中的識別使用：
+CJA 將識別的概念擴展到 ECID 之外，以包括要使用的任何 ID，包括客戶 ID、Cookie ID、縫合 ID、使用者 ID、追蹤程式碼等。 跨資料集使用通用命名空間 ID，或使用[跨管道分析](/help/cca/overview.md)，可幫助將不同資料集的人們連結在一起。 任何在 CJA 中設定工作區專案的使用者都必須了解跨資料集使用的 ID。 請參閱以下視頻特別顯示在 CJA 中的識別使用：
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
 ## 低流量維度項目概念的變動
 
-在傳統 Adobe Analytics 中，接收太多唯一值的變數會開始將維度項目貯在[!UICONTROL 低流量]下。 CJA 對高基數欄位的限制較少。 對報告體系結構的變動，可讓 Analysis Workspace 能夠報告許多更獨特的維度項目。 請參閱[長尾](../analysis-workspace/workspace-faq/long-tail.md)有關 CJA 如何為具有許多唯一值的維度最佳化報告的詳細資訊。
+在傳統 Adobe Analytics 中，接收太多唯一值的變數會開始將維度項目貯在[!UICONTROL 低流量]下。 CJA對高基數欄位的限制較少。 報表架構的變更可讓Analysis Workspace報告更多不重複的維度項目。 請參閱[長尾](../analysis-workspace/workspace-faq/long-tail.md)有關 CJA 如何為具有許多唯一值的維度最佳化報告的詳細資訊。

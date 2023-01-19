@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: f910f8e810c5c5d6f4d43aff2b609d8bf6c131ca
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 99%
@@ -118,7 +118,7 @@ ht-degree: 99%
 
 | 日期 | 更新說明 |
 | --- | --- |
-| 2020 年 11 月 13 日 | 有關[跨管道分析](/help/connections/cca/overview.md)的新主題，這可讓您為資料集的使用者 ID 重設金鑰，並啟用多個資料集的無縫結合。 |
+| 2020 年 11 月 13 日 | 有關[跨管道分析](/help/cca/overview.md)的新主題，這可讓您為資料集的使用者 ID 重設金鑰，並啟用多個資料集的無縫結合。 |
 | 2020 年 11 月 13 日 | 新增有關[匯入客服中心和 Web 資料](/help/use-cases/cross-channel/call-center.md)的新使用案例。 |
 | 2020 年 11 月 10 日 | 新增有關刪除資料元件對[常見問答集](/help/getting-started/cja-faq.md)之影響的區段。 |
 | 2020 年 11 月 2 日 | [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)頁面的更新。 |

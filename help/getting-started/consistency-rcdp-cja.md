@@ -4,8 +4,8 @@ title: Real-time CDP 與 CJA 之間的量度一致性及受眾會籍數
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 769eef205df32865874753859ce79e573db40641
-workflow-type: ht
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Real-time CDP 和 CJA 目前對個人的定義不同。 Real-time CDP 完全仰賴[身分圖表](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=zh-Hant)中的資訊來建立合併的個人檔案。
 
-CJA 可設定為使用[跨管道分析](/help/connections/cca/overview.md)，以便從資料湖中的資料集擷取識別碼，並套用自訂邏輯來一起連結它們。
+CJA 可設定為使用[跨管道分析](/help/cca/overview.md)，以便從資料湖中的資料集擷取識別碼，並套用自訂邏輯來一起連結它們。
 
 在未來，CJA 將能夠使用身分圖表。
 

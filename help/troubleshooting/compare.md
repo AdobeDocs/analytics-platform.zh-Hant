@@ -4,10 +4,10 @@ description: 了解如何將您的 Adobe Analytics 資料與 Customer Journey An
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 2088fd98510887e86cffb6bd957d32a35fcfc467
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->這僅適用於一般中值資料集，而非拼接資料集 (透過[跨管道分析](/help/connections/cca/overview.md))。請注意用於 CJA 的人員 ID 計量是進行比較工作的關鍵。在 AA 中複寫可能不是每次都那麼容易，尤其是已開啟跨管道分析時。
+>這僅適用於一般中值資料集，而非拼接資料集 (透過[跨管道分析](/help/cca/overview.md))。請注意用於 CJA 的人員 ID 計量是進行比較工作的關鍵。在 AA 中複寫可能不是每次都那麼容易，尤其是已開啟跨管道分析時。
 
 1. 在 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)中，執行以下[!UICONTROL 依時間戳記區分的記錄總數]查詢：
 
@@ -71,8 +71,8 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
    | --- | --- |
    | Opt_out | y、Y |
    | In_data_only | Not 0 |
-   | Exclude_hit | 非0 |
-   | Bot_id | 非0 |
+   | Exclude_hit | Not 0 |
+   | Bot_id | Not 0 |
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
    | Page_event | 53, 63 |
 
@@ -90,4 +90,4 @@ CJA [連線](/help/connections/create-connection.md)可讓您根據資料集內�
 
 * **遺失人員 ID** – 遺失人員 ID (來自於事件資料集和/或個人檔案/查詢資料集) 會導致這些記錄遭到忽略或略過。原因是無聯結記錄的通用 ID 或相符的索引鍵。
 
-* **無效或大筆人員 ID** – 如是無效 ID，系統無法在資料集間找到可以聯結的有效通用 ID。在某些情況下，人員 ID 欄會有無效的人員 ID，例如「未定義」或「00000000」。在事件中每月出現超過 100 萬次的人員 ID (數字與字母的任何組合) 無法歸因於任何特定使用者或人員。 它將歸類為無效。這些記錄無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 
+* **無效或大筆人員 ID** – 如是無效 ID，系統無法在資料集間找到可以聯結的有效通用 ID。在某些情況下，人員ID欄會包含無效的人員ID，例如「未定義」或「00000000」。 在事件中每月出現超過 100 萬次的人員 ID (數字與字母的任何組合) 無法歸因於任何特定使用者或人員。 它將歸類為無效。這些記錄無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 

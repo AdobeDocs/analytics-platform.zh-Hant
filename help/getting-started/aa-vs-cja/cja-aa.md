@@ -4,10 +4,10 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 57d1f48c363bda93b4b28425794a55ef269b31c4
-workflow-type: ht
-source-wordcount: '1535'
-ht-degree: 100%
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
+workflow-type: tm+mt
+source-wordcount: '1537'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 | 功能 | 附註 |
 | --- | --- |
 | 行銷頻道 | 行銷頻道資料會透過 Analytics 來源連接器傳輸至 CJA。 如果您是使用舊版 Adobe Analytics，仍需設定行銷管道規則，且不支援部分規則。如需詳細資訊，請參閱 [CJA 行銷管道文件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hant#cja-usecases)。此外，對於 WebSDK 實作，外掛程式可用於定義用戶端行銷管道。未來計劃支援報告時間行銷管道處理規則。 |
-| 跨裝置/跨管道拼接 | 支援直接包含身份資訊的資料集 (也稱為「欄位型」拼接)；尚不支援圖形型拼接，但其已在規劃中。請參閱[跨管道分析](/help/connections/cca/overview.md)。 |
+| 跨裝置/跨管道拼接 | 直接包含身分資訊的資料集支援（也稱為「依欄位匯整」）。 目前尚不支援圖表式拼接，但已規劃完成。 請參閱[跨管道分析](/help/cca/overview.md)。 |
 | 機器人篩選 | 對於以 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)為基礎的資料集，則會套用機器人篩選。 [!UICONTROL Experience Platform] 或 CJA 不會執行其他資料集的一般機器人篩選邏輯。 |
 | 裝置、瀏覽器、推薦者、技術維度 | 支援 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)型資料集。請參閱我們的[文件，了解透過 ADC 支援的 Analytics 變數](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant)。<p>如果您未使用 Adobe 來源連接器將資料從 Adobe Analytics 填入到 CJA，而是使用 Experience Platform Web SDK 資料彙集，目前不支援根據裝置查詢的裝置和維度。 已規劃於未來支援。 |
 | 地理細分維度 | 收集到 Adobe Analytics 的所有 GeoSegmentation/地理位置都會透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)流入 CJA。 未使用 Analytics 來源連接器的實作 (例如仰賴 AEP Web SDK 進行數位資料收集的實作) 將不會具有自動執行的完整地理位置查詢：支援國家/地區和美國州別，但不支援城市和郵遞區號。 |

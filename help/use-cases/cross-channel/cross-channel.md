@@ -4,7 +4,7 @@ description: 從整個客戶歷程的客戶互動中，分析及擷取見解。
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
+source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 1. 為要擷取的資料[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
 1. 為要擷取的資料[建立資料集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)。
 1. [將資料擷取至 Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html)。
-1. 跨資料集使用通用命名空間 ID，或使用[跨管道分析](/help/connections/cca/overview.md)將人們連結在一起。請注意，Customer Journey Analytics 目前不使用 Experience Platform 設定檔或身份識別服務進行拼接。
+1. 跨資料集使用通用命名空間 ID，或使用[跨管道分析](/help/cca/overview.md)將人們連結在一起。請注意，Customer Journey Analytics 目前不使用 Experience Platform 設定檔或身份識別服務進行拼接。
 1. 執行任何自訂資料準備，以確保跨時間序列資料集的公用鍵被引入 Customer Journey Analytics。
 1. 為查閱資料提供一個可以連結到事件資料中欄位的主要 ID。計為授權中的列。
 1. 將設定檔資料的主要 ID 設定為事件資料的主要 ID。
