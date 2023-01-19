@@ -4,9 +4,9 @@ description: Customer Journey Analytics 登陸頁面。
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 7550249f94a2d81bcaf771a16283136d7a3543ff
-workflow-type: ht
-source-wordcount: '426'
+source-git-commit: 316f53c99053023fa54e0890fe9cf5f6c9cfcb4d
+workflow-type: tm+mt
+source-wordcount: '425'
 ht-degree: 100%
 
 ---
@@ -24,6 +24,7 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
   <tr> 
    <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p> 
      <ul>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cca/overview.html#cja-connections"> 跨管道分析 (在 Customer Journey Analytics 中拼接 ID) </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/aa-data-in-cja.html?lang=zh-Hant">在 Customer Journey Analytics 中利用 Adobe Analytics 報告套裝資料</a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=zh-Hant"> 結合報告套裝與不同的結構描述 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/compare-aa-cja/pr-vista-dataprep.html?lang=zh-Hant"> 處理規則、VISTA 和分類與「資料準備」的比較 </a> </li>
@@ -33,7 +34,6 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/aa-to-cja-user.html"> Adobe Analytics 使用者的 CJA 使用指南 </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html#connection-detail"> 使用加強的連線管理功能 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html#cja-dataviews"> 使用加強的資料檢視功能 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html#cja-connections"> 跨管道分析 (在 Customer Journey Analytics 中拼接 ID) </a> </li>
    <td colname="col2" valign="top"><p class="head"> <b>快速入門</b> </p> 
       <ul> 
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html"> Customer Journey Analytics 快速入門 </a> </li> 
