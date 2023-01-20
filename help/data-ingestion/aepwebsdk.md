@@ -4,7 +4,7 @@ description: 說明如何透過Adobe Experience Platform Web SDK和邊緣網路�
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
+source-git-commit: 43f77ffb3538e96798e68b35ec4541ba650c2090
 workflow-type: tm+mt
 source-wordcount: '3587'
 ht-degree: 7%
@@ -467,7 +467,7 @@ Adobe Experience Platform標籤支援簡單到複雜的發佈工作流程，以�
    在 [!UICONTROL Web安裝指示] 對話方塊中，選取指令碼程式碼旁的複製按鈕，如下所示：
 
    ```javascript
-   <script src="https://assets.adobedtm.com/2a518741ab24/806645a0b9bb/launch-716db315b4e2-development.min.js" async></script>
+   <script src="https://assets.adobedtm.com/2a518741ab24/.../launch-...-development.min.js" async></script>
    ```
 
    ![環境](./assets/environment.png)
