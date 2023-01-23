@@ -2,10 +2,10 @@
 title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: f45485d7e26827a85abe47168b1a3dbdbe150e53
+source-git-commit: 2cc4dc1472406314e9ba3a5ab17c08bb7696f6c0
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 79%
+source-wordcount: '1289'
+ht-degree: 75%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 79%
 
 ## 在 Experience Platform 中使用 CJA 對象 {#audiences-aep}
 
-CJA 現在會從您發佈的對象中取得所有命名空間和 ID 組合，並將它們串流傳送到即時客戶個人檔案 (RTCP)。 CJA 將對象傳送到 Experience Platform，其主要身分設定為在設定連線時選擇作為人員 ID 的項目。
+CJA會取用已發佈對象中的所有命名空間和ID組合，並串流至即時客戶設定檔(RTCP)。 CJA會根據選取為的項目，將對象傳送至具有主要身分設定的Experience Platform [!UICONTROL 人員ID] 連接配置時。
 
 接著 RTCP 會檢查每個命名空間/ID 組合，並尋找它可能屬於的個人檔案。 個人檔案基本上是一組連結的命名空間、ID 和裝置。 如果找到個人檔案，則會將命名空間和 ID 新增到此個人檔案中的其他 ID，做為區段會籍屬性。 例如，現在可以跨所有裝置和頻道以「user@adobe.com」做為目標。 如果找不到個人檔案，則會建立一個新的。
 
@@ -98,33 +98,47 @@ CJA 現在會從您發佈的對象中取得所有命名空間和 ID 組合，並
 
 對象發佈的常見問題。
 
-### 如果使用者不再是 CJA 中的對象成員，會發生什麼情況？
++++**如果使用者不再是 CJA 中的對象成員，會發生什麼情況？**
 
 發生這種情況時，會從 CJA 傳送退出事件到 Experience Platform。
 
-### 如果您刪除 CJA 中的對象，會有什麼影響？
++++
+
++++**如果您刪除 CJA 中的對象，會有什麼影響？**
 
 刪除 CJA 對象時，該對象不會在 Experience Platform UI 中顯示。然而，實際上不會刪除在 Platform 中與該對象相關聯的設定檔。
 
-### 如果RTCDP中沒有對應的設定檔，是否會建立新的設定檔？
++++
+
++++**如果RTCDP中沒有對應的設定檔，是否會建立新的設定檔？**
 
 是的。
 
-### CJA會以管道事件或也會前往資料湖的一般檔案形式傳送對象資料嗎？
++++
 
-它通過管道將資料流化到RTCP中，這些資料也被收集到資料湖的系統資料集中。
++++**CJA會以管道事件或也會前往資料湖的一般檔案形式傳送對象資料嗎？**
 
-### CJA會傳送哪些身分識別？
+CJA會透過管道將資料串流至RTCP，這些資料也會收集至資料湖的系統資料集中。
 
-連線設定中使用的身分/命名空間配對。 具體而言，使用者選取要作為其「人員ID」的欄位時的步驟。
++++
 
-### 選擇什麼作為主要身分？
++++**CJA會傳送哪些身分識別？**
+
+中使用的身分/命名空間配對 [連線設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant#create-connection). 具體而言，使用者選取要作為其「人員ID」之欄位時的步驟。
+
++++
+
++++**選擇哪個ID作為主要身分？**
 
 請參閱以上內容。我們只會傳送每個CJA「person」一個身分識別。
 
-### RTCP是否也會處理CJA訊息？ CJA可以透過受眾共用將身分新增至設定檔身分圖嗎？
++++
+
++++**RTCP是否也會處理CJA訊息？ CJA可以透過受眾共用將身分新增至設定檔身分圖嗎？**
 
 否。我們只會為每個「人」發送一個標識，因此RTCP將沒有圖形邊可供使用。
+
++++
 
 ## 後續步驟
 
