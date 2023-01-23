@@ -2,10 +2,10 @@
 title: 稽核記錄
 description: 了解如何檢視和管理 CJA 稽核記錄。
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: bb6e4dcc1c917fcfb565430232e3c5562f63fd1a
-workflow-type: ht
-source-wordcount: '849'
-ht-degree: 100%
+source-git-commit: 53d019f99cbf06ee97243121fbf46f6d3ee9f0a7
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 | 動作名稱 | 以下是可能的動作清單： <ul><li>API 要求</li><li>核准</li><li>建立</li><li>編輯</li><li>匯出</li><li>登入失敗</li><li>登入成功</li><li>登出</li><li>組織變更</li><li>重新整理</li><li>共用</li><li>轉移</li><li>取消核准</li><li>取消共用</li></ul> |
 | 說明 | 動作、元件類型 (含 ID) 和其他值的摘要。 |
 | 使用者名稱 | 執行動作的使用者。 |
-| 元件類型 | 可能的元件類型包括： <ul><li>註解</li><li>對象</li><li>計算量度</li><li>連線</li><li>資料群組</li><li>資料檢視</li><li>功能存取</li><li>篩選器</li><li>IMS 組織</li><li>行動</li><li>專案</li><li>報表</li><li>排程專案</li><li>使用者</li><li>使用者群組</li></ul> |
+| 元件類型 | 可能的元件類型包括： <ul><li>註解</li><li>對象</li><li>計算量度</li><li>連線</li><li>資料群組</li><li>資料檢視 （此元件類型包含維度和量度）</li><li>功能存取</li><li>篩選器</li><li>IMS 組織</li><li>行動</li><li>專案</li><li>報表</li><li>排程專案</li><li>使用者</li><li>使用者群組</li></ul> |
 | IMS 組織 ID | 首次登入 Adobe Experience Cloud 時為您的執行個體提供的唯一 ID。格式應為：xxx@AdobeOrg。 |
 | 使用者 ID | 識別執行此動作之使用者的唯一 ID。 |
 | 建立日期 | 執行此動作時的時間。 |
