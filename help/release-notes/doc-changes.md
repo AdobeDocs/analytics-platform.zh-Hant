@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 6c1abdcb4543124c1585d4461b32adb55c558032
+source-git-commit: 1a0689694304056ba582265aee7997a3e0406434
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 94%
+source-wordcount: '1255'
+ht-degree: 93%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 94%
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 1 月** |  |
-| 快速入門手冊 | 新檔案區段，說明如何 [擷取和使用資料](/help/data-ingestion/data-ingestion.md) 在CJA中。 |
-| 資料夾 | 專用頁面 [資料夾管理](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| 使用者偏好設定 | 您現在可在 [偏好設定](/help/analysis-workspace/user-preferences.md). |
-| 自動儲存專案 | 更新內容以在 [儲存專案](/help/analysis-workspace/build-workspace-project/save-projects.md). |
+| 資料擷取快速入門手冊 | 新檔案區段，說明如何 [擷取和使用資料](/help/data-ingestion/data-ingestion.md) 在CJA中。 |
+| 工作區資料夾 | 專用頁面 [資料夾管理](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| 工作區使用者偏好設定 | 您現在可在 [偏好設定](/help/analysis-workspace/user-preferences.md). |
+| 為工作區專案自動儲存 | 更新內容以在 [儲存專案](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | 登陸頁面 | 新登錄頁面更新 [登陸頁面](/help/getting-started/landing.md). |
 | 排程活頁簿 | 說明如何 [排程活頁簿](/help/report-builder/schedule-reportbuilder.md) Report Builder。 |
 
-## 2022
+## 2022 {#22}
 
 | 日期 | 更新說明 |
 | --- | --- |
@@ -85,7 +85,7 @@ ht-degree: 94%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2021
+## 2021 {#21}
 
 | 日期 | 更新說明 |
 | --- | --- |
@@ -126,7 +126,7 @@ ht-degree: 94%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2020
+## 2020 {#20}
 
 | 日期 | 更新說明 |
 | --- | --- |

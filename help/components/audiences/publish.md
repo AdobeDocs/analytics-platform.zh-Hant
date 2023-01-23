@@ -2,10 +2,10 @@
 title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 06e27fc2ecc2b54e30616bc69b44550af20af76f
+source-git-commit: 1a0689694304056ba582265aee7997a3e0406434
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 85%
+source-wordcount: '1277'
+ht-degree: 79%
 
 ---
 
@@ -71,6 +71,16 @@ ht-degree: 85%
    如果一切順利，您會收到一則對象已發佈的確認訊息。 只需一兩分鐘，此對象就會出現在 Experience Platform 中。 (即使是擁有數百萬成員的對象，應該也不需要 5 分鐘。)
 
 1. 按一下同一則訊息中的&#x200B;**[!UICONTROL 「在 AEP 中檢視對象」]**，您將被帶到 Adobe Experience Platform 中的[「區段 UI」](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant)。 請參閱下方以了解更多資訊。
+
+## 建立對象後會發生什麼事 {#after-audience-created}
+
+建立對象後，Adobe會為已建立的每個新CJA對象建立Experience Platform串流區段。
+
+* AEP區段與CJA對象共用相同的名稱/說明，但名稱會附加在CJA對象ID後，以確保其唯一。
+
+* 如果CJA對象名稱/說明變更，AEP區段名稱/說明也會反映該變更。
+
+* 如果使用者刪除了CJA對象，系統不會刪除AEP區段，以備稍後取消刪除CJA對象。
 
 ## 在 Experience Platform 中使用 CJA 對象 {#audiences-aep}
 
