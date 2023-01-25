@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 2579a6bbf17836fdab519b01e09f253bfb3a7aeb
+source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 93%
+source-wordcount: '1282'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 93%
 | 為工作區專案自動儲存 | 更新內容以在 [儲存專案](/help/analysis-workspace/build-workspace-project/save-projects.md). |
 | 登陸頁面 | 新登錄頁面更新 [登陸頁面](/help/getting-started/landing.md). |
 | 排程活頁簿 | 說明如何 [排程活頁簿](/help/report-builder/schedule-reportbuilder.md) Report Builder。 |
+| 設定檔和查詢資料集的物件陣列支援 | 已更新 [使用物件陣列](/help/use-cases/object-arrays.md) 和 [內嵌AEP對象](/help/use-cases/data-ingestion/ingest-aep-segments.md) 以反映物件陣列對設定檔和查詢資料集的支援。 |
 
 ## 2022 {#22}
 
