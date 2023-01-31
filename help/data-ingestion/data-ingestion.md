@@ -1,71 +1,71 @@
 ---
-title: 資料擷取概述
-description: 了解您可以將資料內嵌至Customer Journey Analytics的不同方式
+title: 資料擷取概觀
+description: 了解您能夠將資料內嵌至 Customer Journey Analytics 的不同方式
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# 資料擷取概述
+# 資料擷取概觀
 
-將資料擷取至Customer Journey Analytics時，您有許多選項。 其中部分假設您想要移動傳統Adobe Analytics資料，部分則假設您使用擷取至Adobe Experience Platform的資料。
+Customer Journey Analytics 提供多種資料內嵌選項：有些選項能移動傳統 Adobe Analytics 資料，有些則能使用內嵌至 Adobe Experience Platform 的資料。
 
 >[!IMPORTANT]
 >
->在所有情況下，您要 _use_ Customer Journey Analytics _攝入_ 在Adobe Experience Platform。
+>在所有情況下，您想要在 Customer Journey Analytics 中&#x200B;_使用_&#x200B;的資料實際上是&#x200B;_擷取_&#x200B;自 Adobe Experience Platform。
 
 
-請參閱前面所示的高階Customer Journey Analytics架構， [概述](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en):
+請參閱前面[概觀](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)中所示的高階 Customer Journey Analytics：
 
-![客戶歷程分析](./assets/cja-architecture.png)
+![Customer Journey Analytics](./assets/cja-architecture.png)
 
 上述架構中的資料集可能來自各種來源：
 
-- 批次資料，
+- 批次資料、
 
-- 串流資料，
+- 串流資料、
 
-- 來自目前Adobe Analytics部署的資料，
+- 來自目前 Adobe Analytics 部署的資料、
 
-- 使用Adobe Experience Platform Web/Mobile SDK追蹤您的網站/行動應用程式的資料，或
+- 使用 Adobe Experience Platform Web/Mobile SDK 追蹤您的網站/行動應用程式的資料，或
 
-- 來自第三方資料提供者的資料，Adobe為其提供來源連接器。
+- 來自 Adobe 為其提供來源連接器之第三方資料提供者的資料。
 
-你可以有很多這樣的資料集。
+您可以擁有許多這樣的資料集。
 
-本檔案的本節提供各種案例的快速入門手冊。
+本文件的本節提供各種案例的快速入門指南。
 
-## 從傳統Adobe Analytics擷取和使用資料
+## 從傳統 Adobe Analytics 擷取和使用資料
 
-您已部署Adobe Analytics，且想要將此資料內嵌在Adobe Experience Platform中，並以其他管道和資料來源的資料Customer Journey Analytics來使用、合併及分析資料。
+您已部署 Adobe Analytics，且想要將此資料內嵌在 Adobe Experience Platform 中，並以 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
 
-請參閱 [從傳統Adobe Analytics擷取和使用資料](./analytics.md) 以取得更多資訊。
+如需詳細資訊，請參閱[從傳統 Adobe Analytics 中擷取和使用資料](./analytics.md)。
 
-## 透過Adobe Experience Platform Web SDK和邊緣網路擷取和使用資料
+## 透過 Adobe Experience Platform Web SDK 和 Edge Network 擷取和使用資料
 
-您想要使用Adobe技術分析網站，可能是從其他解決方案移轉，或開始追蹤訪客的行為。 您想要遵循Adobe的最佳實務實務(使用Adobe Experience Platform SDK和邊緣網路)來內嵌資料。 接著，您就可以在Customer Journey Analytics中，將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
+您需要使用 Adobe 技術分析網站，可能是從其他解決方案移轉，或開始追蹤訪客的行為。您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
-請參閱 [透過Adobe Experience Platform Web SDK和邊緣網路擷取和使用資料](./aepwebsdk.md) 以取得更多資訊。
+如需詳細資訊，請參閱[透過 Adobe Experience Platform Web SDK 和 Edge Network 擷取和使用資料](./aepwebsdk.md)。
 
-## 擷取及使用批次資料
+## 擷取和使用批次資料
 
-您有相關的批次資料可提供詳細資訊，以協助您更清楚了解客戶行為並分析客戶互動。 此類批次資料的範例是來自CRM系統、忠誠度應用程式或其他解決方案(Adobe目前未提供來源連接器)的CSV、JSON或Parquet格式的平面檔案。 將此批次資料擷取至Adobe Experience Platform，可讓您透過Customer Journey Analytics中其他管道和資料來源的資料來使用、合併及分析資料。
+您有相關的批次資料可提供詳細資訊，可協助您更了解客戶行為並分析客戶互動。此類批次資料的範例是來自 CRM 系統、忠誠度應用程式或其他解決方案 (Adobe 目前未提供來源連接器) 的 CSV、JSON 或 Parquet 格式的一般檔案。將此批次資料擷取至 Adobe Experience Platform，可讓您透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
 
-請參閱 [擷取及使用批次資料](./batch.md) 以取得更多資訊。
+如需詳細資訊，請參閱[擷取和使用批次資料](./batch.md)。
 
 ## 擷取和使用串流資料
 
-您有CRM系統、ERP系統等相關資料源，或任何其他提供詳細資訊的來源，這些資訊可幫助您更好地了解客戶行為並分析客戶互動。 該資料來源可透過HTTP或公用雲端串流基礎架構進行通訊，但Adobe目前未提供來源連接器。 即時將此串流資料擷取至Adobe Experience Platform，可讓您以Customer Journey Analytics方式使用、結合其他管道和資料來源的資料，並加以分析。
+您有 CRM 系統、ERP 系統等相關資料來源，或任何其他提供詳細資訊的來源，可協助您更了解客戶行為並分析客戶互動。該資料來源可透過 HTTP 或公用雲端串流基礎架構進行通訊，但 Adobe 目前未提供來源連接器。即時將此串流資料擷取至 Adobe Experience Platform，可讓您透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
 
-請參閱 [擷取和使用串流資料](./streaming.md) 以取得更多資訊。
+如需詳細資訊，請參閱[擷取和使用串流資料](./streaming.md)。
 
 ## 使用來源連接器擷取和使用資料
 
-源連接器支援的源中有資料可用。 來源連接器是可設定的設定，可讓您將資料從Adobe、第一方和第三方應用程式內嵌至Adobe Experience Platform。 請參閱 [來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant) 以取得可用來源連接器的概觀。 使用來源連接器，您可輕鬆將來源的資料內嵌至Adobe Experience Platform，接著以Customer Journey Analytics方式使用、結合及分析其他管道和資料來源的資料。
+來源連接器支援的來源中有資料可用。來源連接器是可配置的設定，可讓您將資料從 Adobe、第一方和第三方應用程式內嵌至 Adobe Experience Platform。如需可用來源連接器的概觀，請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant)。使用來源連接器，您可輕鬆將資料自來源擷取至 Adobe Experience Platform，接著透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
 
-請參閱 [使用來源連接器擷取和使用資料](./sources.md) 以取得更多資訊。
+如需詳細資訊，請參閱[使用來源連接器擷取和使用資料](./sources.md)。
