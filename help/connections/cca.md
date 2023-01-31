@@ -1,19 +1,19 @@
 ---
 title: 跨管道分析
-description: 了解如何從多個資料集重新輸入訪客ID，以便將訪客匯整在一起。
+description: 學習如何重新輸入多個資料集的訪客 ID，以彙整訪客。
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # 跨管道分析
 
-跨管道分析(CCA)可讓您重新輸入資料集的人員ID，順利結合多個資料集。 跨管道分析功能會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接 ID。使用跨管道分析，您可以回答下列問題：
+跨管道分析 (CCA)：可讓您重新輸入資料集的人員 ID，順利合併多個資料集。跨管道分析功能會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接 ID。使用跨管道分析，您可以回答下列問題：
 
 * 有多少人在某個管道開始體驗，但在不同管道結束體驗？
 * 有多少人與我的品牌互動？他們使用的裝置數量與類型為何？他們互相重疊的程度？
@@ -22,8 +22,8 @@ ht-degree: 79%
 * 使用者在裝置間移動最常採取的路徑為何？他們在哪裡退出？他們在哪裡獲得成功？
 * 多部裝置使用者的行為與單一裝置使用者的行為有何不同？
 
-如需跨管道分析的更深入討論，請前往：
+關於跨管道分析的進一步深度探討，請參閱：
 
 * [跨管道分析總覽](/help/cca/overview.md)
-* [重播如何運作](/help/cca/replay.md)
-* [常見問題集](/help/cca/faq.md)
+* [重播的運作方式](/help/cca/replay.md)
+* [常見問答集](/help/cca/faq.md)
