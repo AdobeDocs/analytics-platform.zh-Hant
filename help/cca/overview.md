@@ -5,9 +5,9 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
 source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1158'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 * 僅支援事件資料集。其他資料集概不支援，例如查詢資料集。
 * 不支援您組織中使用的自訂 ID 地圖。
 * 不支援跨裝置私人圖片。
-* 跨管道分析不會以任何方式轉換用於彙整的欄位。以欄位為基礎的彙整使用指定欄位中的值，因為該值存在於資料湖中未彙整的資料集中。彙整程序區分大小寫。例如，如果有時在欄位中出現「Bob」一詞，有時又出現「BOB」一詞，則這些人將被視為兩個不同的人。
+* 跨管道分析不會以任何方式轉換用於彙整的欄位。以欄位為基礎的彙整使用指定欄位中的值，因為該值存在於資料湖中未彙整的資料集中。彙整流程區分大小寫。例如，如果有時在欄位中出現「Bob」一詞，有時又出現「BOB」一詞，則這些人將被視為兩個不同的人。
 * 由於欄位式拚接區分大小寫，因此對於透過 Analytics 來源連接器產生的 Analytics 資料集，Adobe 建議檢閱適用於暫時 ID 欄位的所有 VISTA 規則或處理規則，以確保這些規則不會引入相同 ID 的新形式。 例如，您應確保沒有任何 VISTA 或處理規則僅在一部分事件中，將小寫字母引入暫時 ID 欄位。
 * 以欄位為基礎的彙整不會合併或串連欄位。
 * 暫時 ID 欄位應包含單一 ID 類型 (即來自單一命名空間的 ID)。例如，暫時 ID 欄位不應包含登入 ID 和電子郵件 ID 的組合。
@@ -64,7 +64,7 @@ ht-degree: 97%
 
 符合所有先決條件並了解限制後，貴組織就能按照下列步驟，在 CJA 中開始使用。
 
-1. 將所需的資料匯入 Adobe Experience Platform。如需Adobe Analytics資料，請參閱 [將Adobe Analytics報表套裝資料用於Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md). 如需其他類型的資料，請參閱 [建立結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant) 和 [內嵌資料](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) 在Adobe Experience Platform檔案中。
+1. 將所需的資料匯入 Adobe Experience Platform。如為 Adobe Analytics 資料，請參閱[在 Customer Journey Analytics 中利用 Adobe Analytics 報告套裝資料](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)。如為其他類型資料，請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)和[匯入資料](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant)。
 1. 請聯絡 Adobe 客戶支援，提供下列資訊：
    * 跨管道分析啟用申請
    * 您要重設金鑰之資料集的資料集 ID
