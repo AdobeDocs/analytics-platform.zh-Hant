@@ -5,9 +5,9 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -63,9 +63,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
         ORDER BY Day; 
 ```
 
-1. 在 [Analytics資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)，從原始資料中識別是否有某些列可能已由Analytics來源連接器篩選掉。
+1. 在 [Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)中，從原始資料中找出 Analytics 來源連接器是否可能已篩選掉某些列。
 
-   此 [Analytics來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) 可能會在轉換為XDM架構期間篩選某些列。 整列不適用於轉換的原因有好幾種。如果下列任何Analytics欄位都有這些值，則會篩選掉整列。
+   [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)可能在轉換成 XDM 結構描述期間篩選掉某些列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會篩選掉整列。
 
    | Analytics 欄位 | 導致某一列被捨棄的值 |
    | --- | --- |
@@ -78,9 +78,9 @@ SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \
 
    如需 hit\_source 的詳細資訊，請參閱：[資料欄參考](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)。 如需 page\_event 的詳細資訊，請參閱：[頁面事件查閱](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=zh-Hant)。
 
-1. 如果連接器已篩選列，請從 [!UICONTROL 發生次數] 量度。 得到的數字應符合在 Adobe Experience Platform 資料集中的事件數。
+1. 如果連接器已篩選列，請將這幾列減去[!UICONTROL 發生次數]量度。得到的數字應符合在 Adobe Experience Platform 資料集中的事件數。
 
-## 從AEP擷取期間為何可能篩選或略過記錄
+## 為何可能會在從 AEP 擷取期間篩選或略過記錄
 
 CJA [連線](/help/connections/create-connection.md)可讓您根據資料集內的通用人員 ID 帶入並聯結多筆資料集。在後端，我們會套用重複資料刪除：根據時間戳記完全外部聯結或聯集事件資料集，然後根據人員 ID 內部聯結個人資料和查詢資料集。
 
@@ -90,4 +90,4 @@ CJA [連線](/help/connections/create-connection.md)可讓您根據資料集內�
 
 * **遺失人員 ID** – 遺失人員 ID (來自於事件資料集和/或個人檔案/查詢資料集) 會導致這些記錄遭到忽略或略過。原因是無聯結記錄的通用 ID 或相符的索引鍵。
 
-* **無效或大筆人員 ID** – 如是無效 ID，系統無法在資料集間找到可以聯結的有效通用 ID。在某些情況下，人員ID欄會包含無效的人員ID，例如「未定義」或「00000000」。 在事件中每月出現超過 100 萬次的人員 ID (數字與字母的任何組合) 無法歸因於任何特定使用者或人員。 它將歸類為無效。這些記錄無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 
+* **無效或大筆人員 ID** – 如是無效 ID，系統無法在資料集間找到可以聯結的有效通用 ID。在某些情況下，人員 ID 欄會包含無效的人員 ID，例如「未定義」或「00000000」。在事件中每月出現超過 100 萬次的人員 ID (數字與字母的任何組合) 無法歸因於任何特定使用者或人員。 它將歸類為無效。這些記錄無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 
