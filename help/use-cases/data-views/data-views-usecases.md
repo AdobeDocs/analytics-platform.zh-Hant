@@ -5,9 +5,9 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: b2dc937159fc631755c1c5486149a94f7cd33f89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -97,9 +97,9 @@ f. 指定「50」當做值。
 
 * [工作階段類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) - 此維度有兩個值：1) [!UICONTROL 新的]和 2) [!UICONTROL 回訪]。[!UICONTROL 新的]條列項目包含已確定為個人定義的首次工作階段的工作階段中的所有行為 (亦即針對此維度的量度)。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
 
-* [新工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional)。 新的工作階段量度定義為個人在報告時段內定義的首次工作階段。
+* [新工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional)。 新的工作階段量度定義為個人在報告時段內定義的首次工作階段。
 
-* [回訪工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional) 回訪工作階段量度是非個人首次工作階段的工作階段數量。-->
+* [回訪工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) 回訪工作階段量度是非個人首次工作階段的工作階段數量。-->
 
 若要存取這些元件：
 
@@ -121,7 +121,7 @@ Adobe Experience Platform 中的結構描述包含「[!UICONTROL 日期]」和�
 
 * 就日期-時間格式而言，如果您選取格式為&#x200B;**[!UICONTROL 時:分]**&#x200B;的&#x200B;**[!UICONTROL 當日的分鐘]**，您的輸出可能會是這樣：20:20。
 
-我們目前支援1900年1月1日之後的日期（1970年1月1日為單一例外），以及2000年1月1日之後的日期時間值:00:00.
+我們目前支援 1900 年 1 月 1 日之後的日期 (1970 年 1 月 1 日為單一例外)，以及 2000 年 1 月 1 日之後的日期時間值 00:00:00。
 
 ### 日期和日期-時間使用案例
 
