@@ -3,10 +3,10 @@ title: 自由表格
 description: 自由表格是 Analysis Workspace 中資料分析的基礎
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '517'
-ht-degree: 100%
+source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
    * 您可以調整專案的[檢視密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hant)，在單一畫面中放入更多列。
    * 分頁之前，每個維度列最多可顯示 400 列。按一下「列」旁邊的數字，就能在頁面上顯示更多列。使用頁首的頁面箭頭，即可導覽至其他頁面。
    * 列可以依其他元件劃分。若要一次劃分許多列，只需選取多列，然後將下一個元件拖曳至選取的列上即可。進一步了解[劃分](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=zh-Hant)。
-   * 您可以[篩選](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=zh-Hant)列，以顯示縮減的項目集。[「列設定」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=zh-Hant)底下提供其他設定。
+   * 您可以[篩選](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html)列，以顯示縮減的項目集。[「列設定」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=zh-Hant)底下提供其他設定。
 
 * **欄**
    * 元件可堆疊在欄內，以建立篩選量度、跨索引標籤分析等等。

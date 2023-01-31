@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 11ad1c91d07e8d4d6dd0186de68b1cc1d715ffe1
+source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 96%
    + [Customer Journey Analytics 登陸頁面](../getting-started/landing.md)
    + [Adobe Analytics 至 Customer Journey Analytics 的發展進程](../getting-started/aa-to-cja.md)
    + [全新 Customer Journey Analytics 使用者使用指南](../getting-started/aa-to-cja-user.md)
-   + [檢視及管理CJA使用情形](../getting-started/estimate-usage.md)
-   + [常見問題集](../getting-started/cja-faq.md)
+   + [檢視和管理 CJA 使用情況](../getting-started/estimate-usage.md)
+   + [常見問答集](../getting-started/cja-faq.md)
    + 比較 Adobe Analytics 和 Customer Journey Analytics {#compare-aa-cja}
       + [在 Customer Journey Analytics 中利用 Adobe Analytics 資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 功能支援](../getting-started/aa-vs-cja/cja-aa.md)
@@ -48,13 +48,13 @@ ht-degree: 96%
    + [刪除關聯](../getting-started/cja-deletion.md)
    + [CJA 字彙表](../getting-started/cja-glossary.md)
 + 資料擷取 {#cja-data-ingestion}
-   + [資料擷取概述](../data-ingestion/data-ingestion.md)
-   + 擷取及使用快速入門手冊{#ingest-use-guides}
+   + [資料擷取概觀](../data-ingestion/data-ingestion.md)
+   + 擷取和使用快速入門指南{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + [Adobe Experience Platform Web SDK和邊緣網路](../data-ingestion/aepwebsdk.md)
+      + [Adobe Experience Platform Web SDK 與 Edge Network](../data-ingestion/aepwebsdk.md)
       + [批次資料](../data-ingestion/batch.md)
       + [串流資料](../data-ingestion/streaming.md)
-      + [源連接器](../data-ingestion/sources.md)
+      + [來源連接器](../data-ingestion/sources.md)
 + 連線 {#cja-connections}
    + [連線總覽](../connections/overview.md)
    + [建立連線](../connections/create-connection.md)
@@ -104,7 +104,7 @@ ht-degree: 96%
             + [欄設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [表格分頁、篩選及分類](../analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [表格分頁、篩選及分類](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [工作區總計](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [什麼是同類群組分析？](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
