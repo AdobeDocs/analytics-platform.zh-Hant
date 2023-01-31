@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 673aed4daf7029ddec032055789f94125395e7f9
 workflow-type: tm+mt
 source-wordcount: '1282'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 91%
 | 日期 | 更新說明 |
 | --- | --- |
 | **2022 年 12 月** |  |
-| 2022年12月16日 | 新主題 [測量及管理CJA資料使用量](/help/getting-started/estimate-usage.md). |
+| 2022 年 12 月 16 日 | 有關[測量及管理 CJA 資料使用情況](/help/getting-started/estimate-usage.md)的新主題。 |
 | **2022 年 10 月** |  |
 | 2022 年 10 月 | 有關[排程專案的密碼保護](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=zh-Hant#password)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
 | 2022 年 10 月 | 有關[客戶自控金鑰](/help/privacy/cmk.md)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
