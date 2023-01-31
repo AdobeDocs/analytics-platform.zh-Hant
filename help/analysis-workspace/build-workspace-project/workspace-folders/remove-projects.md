@@ -5,9 +5,9 @@ title: 從資料夾中移除專案
 feature: CJA Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 source-git-commit: b251cc2f918b54e52ad70def28187473255efbfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 ## 移動專案 {#move-project-in-folder}
 
-您可以將專案從一個資料夾移至您建立的另一個資料夾。
+您可以將專案從一個資料夾移動至您建立的另一個資料夾。
 
 1. 從專案資料夾中，選擇專案名稱旁邊的省略符號 **...**。
 
