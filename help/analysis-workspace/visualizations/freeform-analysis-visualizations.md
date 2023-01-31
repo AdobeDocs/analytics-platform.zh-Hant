@@ -5,13 +5,13 @@ title: 視覺效果概觀
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 source-git-commit: 5107c1ed145579c7da27ce50c13543196fcf6fe3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1136'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# 視覺效果概述
+# 視覺效果概觀
 
 Workspace 提供許多視覺效果，可產生資料的視覺化表示法，例如橫條圖、環圈圖、長條圖、折線圖、地圖、散點圖等。如果您使用 Customer Journey Analytics，多數視覺效果都是您所熟悉的類型。 不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
@@ -26,7 +26,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | [區域](/help/analysis-workspace/visualizations/area.md) | 類似線圖，但在線圖下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可使用區域圖。 |
 | [長條圖](/help/analysis-workspace/visualizations/bar.md) | 顯示代表一或多個量度多個值的垂直長條。 |
 | [項目圖表](/help/analysis-workspace/visualizations/bullet-graph.md) | 顯示您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。 |
-| [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | *`cohort`* 是指一段指定時間內，共享相同特徵的一組人。Cohort Analysis (同類群組分析) 對保留、攪動或延遲分析很有用處。 |
+| [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | *`cohort`*&#x200B;是指一段指定時間內，共享相同特徵的一組人。Cohort Analysis (同類群組分析) 對保留、攪動或延遲分析很有用處。 |
 | [環形圖](/help/analysis-workspace/visualizations/donut.md) | 此視覺效果類似圓形圖，以整體的部分或篩選器顯示資料。 |
 | [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失報告可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。可以設定為最終或精確的序列 |
 | [流量](/help/analysis-workspace/visualizations/c-flow/flow.md) | 顯示使用您網站和應用程式的正確客戶路徑。 |
@@ -37,7 +37,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | [散點圖](/help/analysis-workspace/visualizations/scatterplot.md) | 顯示維度項目與最多三個量度之間的關係。 |
 | [摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md) | 以 1 個大數字來顯示選取的儲存格。 |
 | [摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md) | 以 1 個大數字/百分比來顯示選取儲存格之間的變化。 |
-| [Text](/help/analysis-workspace/visualizations/text.md) | 可讓您將用戶定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
+| [Text](/help/analysis-workspace/visualizations/text.md) | 可讓您將使用者定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
 | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md) | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
 | [Venn](/help/analysis-workspace/visualizations/venn.md) | 使用圓圈描繪最多 3 個篩選器的量度重疊。 |
 
@@ -47,17 +47,17 @@ Analysis Workspace 中有以下視覺效果類型：
 
 ### 自訂單一視覺效果的視覺效果設定
 
-若要存取 [!UICONTROL 視覺效果設定] 針對個別視覺效果：
+若要針對個別視覺效果存取[!UICONTROL 「視覺效果設定」]：
 
-1. 在Analysis Workspace中，將滑鼠移至您要自訂其設定的視覺效果上。
+1. 在 Analysis Workspace 中，將滑鼠移至您要自訂其設定的視覺效果上。
 
 1. 按一下齒輪圖示。
 
-   每種視覺效果類型都有您可自訂的不重複設定。 如需可用設定的詳細資訊，請參閱 [設定](#settings).
+   每種視覺效果類型都有您可自訂的不重複設定。如需可用設定的詳細資訊，請參閱[設定](#settings)。
 
-### 針對您建立的所有視覺效果自訂視覺效果設定
+### 自訂您建立的所有視覺效果的視覺效果設定
 
-您可以自訂所有您建立的視覺效果設定。 如需詳細資訊，請參閱 [使用者偏好設定](/help/analysis-workspace/user-preferences.md).
+您可以自訂您建立的所有視覺效果的視覺效果設定。如需詳細資訊，請參閱[使用者偏好設定](/help/analysis-workspace/user-preferences.md)。
 
 ## 設定 {#settings}
 
