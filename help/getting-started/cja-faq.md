@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 source-git-commit: 6eba4eb9f9ba879d9cb17e88b9e61e2f2b297f33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2157'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 | 是否支援拼接匿名行為與已驗證的行為？ | 是。 [跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant)會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接 ID。 |
 | CCA 中的「重播」是如何運作的？ | CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得連線的新裝置被拼接。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=zh-Hant#step-1%3A-live-stitching) |
 | CCA 中的拼接歷史 (回填) 資料是如何運作的？ | 初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。 為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant#enable-cross-channel-analytics) |
-| 非拼接設定檔資料集記錄的預期行為是什麼？ | **範例方案**：透過使用 `CRMid` 作為個人 ID 在 CJA 連接中加入 2 個資料集。一種是在所有記錄中具有 `CRMid` 的 Web 事件資料集。另一個資料集是 CRM 設定檔資料集。40% 的 CRM 資料集在 Web 事件資料集中存在 `CRMid`。其他 60% 不存在於 Web 事件資料集中 - 這些記錄是否出現在 Analysis Workspace 的報告中？<p> **答案**：沒有事件關聯的設定檔列儲存在 CJA 中。但是，在與該 ID 關聯的事件出現之前，您無法在 Analysis Workspace 中查看它們。 |
+| 非拼接設定檔資料集記錄的預期行為是什麼？ | **範例方案**：透過使用 `CRMid` 作為個人 ID 在 CJA 連接中加入 2 個資料集。一種是在所有記錄中具有 `CRMid`的 Web 事件資料集。另一個資料集是 CRM 設定檔資料集。40% 的 CRM 資料集在 Web 事件資料集中存在 `CRMid`。其他 60% 不存在於 Web 事件資料集中 - 這些記錄是否出現在 Analysis Workspace 的報告中？<p> **答案**：沒有事件關聯的設定檔列儲存在 CJA 中。但是，在與該 ID 關聯的事件出現之前，您無法在 Analysis Workspace 中查看它們。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -99,18 +99,18 @@ ht-degree: 99%
 
 | 問題 | 回答 |
 | --- | --- |
-| 我可以將 [!DNL Customer Journey Analytics] 中的[!UICONTROL 篩選器] ([!UICONTROL 區段]) 共用/發佈到 Experience Platform Unified Profile 或其他 Experience Cloud 應用程式嗎？ | 還不行，我們正在積極努力地提供這項功能。 |
-| 我的舊 [!UICONTROL eVar] 設定發生了什麼事？ | [!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構描述元素 (維度、量度、清單欄位)。因此，您曾在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。 |
+| 我可以將 [!DNL Customer Journey Analytics]中的[!UICONTROL 篩選器] ([!UICONTROL 區段]) 共用/發佈到 Experience Platform Unified Profile 或其他 Experience Cloud 應用程式嗎？ | 還不行，我們正在積極努力地提供這項功能。 |
+| 我的舊 [!UICONTROL eVar] 設定發生了什麼事？ | [!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構描述元素 (維度、量度、清單欄位)。因此，您曾在資料收集流程期間套用的所有歸因設定，現在都會在查詢時套用。 |
 | 我所有的工作階段和變數持續性設定現在位於何處？ | [!UICONTROL Customer Journey Analytics 會在報告時套用這些設定，而這些設定現在會顯示於「資料檢視」。]這些設定的變更現在可回溯，使用多個「資料檢視」即可擁有多個版本！ |
 | 我們現有的區段/計算量度有何改變？ | [!UICONTROL Customer Journey Analytics 不再使用 eVar、prop 或事件，而是使用 AEP 結構描述。]換句話說，現有的區段或計算量度都會與 [!UICONTROL Customer Journey Analytics] 不相容。 |
 | [!UICONTROL Customer Journey Analytics] 如何處理 `Uniques Exceeded` 限制？ | [!UICONTROL Customer Journey Analytics 沒有唯一值的限制，因此無需擔心這些限制！] |
-| 如果我是現有 [!DNL Data Workbench] 客戶，現在是否可以改用 Customer Journey Analytics？ | 這取決於您的使用案例 - 請與您的 Adobe 帳戶團隊合作。 您目前的使用案例可能已經很適合使用 Customer Journey Analytics！ |
+| 如果我是現有 [!DNL Data Workbench]客戶，現在是否可以改用 Customer Journey Analytics？ | 這取決於您的使用案例 - 請與您的 Adobe 帳戶團隊合作。 您目前的使用案例可能已經很適合使用 Customer Journey Analytics！ |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## 9. 估算連線規模 {#estimate-size}
 
-請參閱 [預估和管理使用量](/help/getting-started/estimate-usage.md).
+請參閱[估計和管理使用情況](/help/getting-started/estimate-usage.md)。
 
 ## 10. 關於使用超額 {#overage}
 
