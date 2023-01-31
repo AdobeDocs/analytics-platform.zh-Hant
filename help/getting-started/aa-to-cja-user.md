@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1456'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe 已將「區段」部分重新命名為「篩選器」，以更能與行�
 
 >[!VIDEO](https://video.tv.adobe.com/v/31982/?quality=12)
 
-雖然您尚不能從 [!DNL Customer Journey Analytics] 共用或發佈[!UICONTROL 篩選器] ([!UICONTROL 區段]) 至 Experience Platform 統一設定檔，但此功能正在開發中。
+雖然您尚不能從 [!DNL Customer Journey Analytics]共用或發佈[!UICONTROL 篩選器] ([!UICONTROL 區段]) 至 Experience Platform 統一設定檔，但此功能正在開發中。
 
 除了區段概念有變動，區段容器也已更新。
 
@@ -90,7 +90,7 @@ Adobe 已將「區段」部分重新命名為「篩選器」，以更能與行�
 
 [!UICONTROL Customer Journey Analytics] 在報告時會套用所有變數設定，包括屬性和過期。 這些設定現在位於[資料檢視](/help/data-views/component-settings/persistence.md)中，並且某些變數設定 (如屬性) 可以在工作區專案中變動。
 
-在相同資料檢視中，相同變數可以有多個版本。 例如，您可以有一個追蹤程式碼維度，該維度會在 30 天後過期，另一個維度會在工作階段結束時過期。  這兩個追蹤程式碼都使用相同的來源資料，但使用不同的屬性設定。
+在相同資料檢視中，相同變數可以有多個版本。 例如，您可以有一個追蹤程式碼維度，該維度會在 30 天後過期，另一個維度會在工作階段結束時過期。 這兩個追蹤程式碼都使用相同的來源資料，但使用不同的屬性設定。
 
 您也可根據相同連接有多個資料檢視。 例如，您可以有一個工作階段超時 30 分鐘的資料檢視，另一個工作時段超時 15 分鐘的資料檢視。 兩個資料檢視都顯示在右上部選擇器中，因此您可以在兩個之間無縫轉換。
 
@@ -100,7 +100,7 @@ Adobe 已將「區段」部分重新命名為「篩選器」，以更能與行�
 
 ## 客戶屬性概念的變動
 
-「客戶屬性」現在稱為「設定檔資料集」。 設定檔資料集包含套用於[!UICONTROL 事件]資料中的訪客、使用者或客戶的資料。 例如，這可讓您上傳有關客戶的 CRM 資料。 您可以挑選要包含的人員 ID。 [!DNL Experience Platform] 中定義的每個資料集有其自己一組已定義的一或多名人員 ID。
+「客戶屬性」現在稱為「設定檔資料集」。 設定檔資料集包含套用於[!UICONTROL 事件]資料中的訪客、使用者或客戶的資料。 例如，這可讓您上傳有關客戶的 CRM 資料。 您可以挑選要包含的人員 ID。 [!DNL Experience Platform]中定義的每個資料集有其自己一組已定義的一或多名人員 ID。
 
 ## Adobe 如何識別訪客的變動
 
@@ -110,4 +110,4 @@ CJA 將識別的概念擴展到 ECID 之外，以包括要使用的任何 ID，�
 
 ## 低流量維度項目概念的變動
 
-在傳統 Adobe Analytics 中，接收太多唯一值的變數會開始將維度項目貯在[!UICONTROL 低流量]下。 CJA對高基數欄位的限制較少。 報表架構的變更可讓Analysis Workspace報告更多不重複的維度項目。 請參閱[長尾](../analysis-workspace/workspace-faq/long-tail.md)有關 CJA 如何為具有許多唯一值的維度最佳化報告的詳細資訊。
+在傳統 Adobe Analytics 中，接收太多唯一值的變數會開始將維度項目貯在[!UICONTROL 低流量]下。 CJA 對高基數欄位的限制較少。 對報告體系結構的變動，可讓 Analysis Workspace 能夠報告許多更獨特的維度項目。 請參閱[長尾](../analysis-workspace/workspace-faq/long-tail.md)，了解有關 CJA 如何為具有許多唯一值的維度最佳化報告的詳細資訊。
