@@ -4,10 +4,10 @@ description: 顯示兩種估計使用情況的方法，以及一種管理使用�
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: a69cb8a419d95e0cab666fceea9cb7ebf6daef73
-workflow-type: ht
-source-wordcount: '857'
-ht-degree: 100%
+source-git-commit: d38e4c4cd589e6708b0a6b5856da341344f6440e
+workflow-type: tm+mt
+source-wordcount: '864'
+ht-degree: 96%
 
 ---
 
@@ -99,5 +99,5 @@ ht-degree: 100%
 
 如果您保留預設值 (未勾選)，保留期間將由 Adobe Experience Platform 資料保留設定取代。 如果您在 Experience Platform 中有 25 個月的資料，CJA 將透過回填取得 25 個月的資料。 如果您在 Platform 中刪除其中 10 個月的資料，CJA 則會保留剩餘 15 個月的資料。
 
-資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。 由於無適用的時間戳記，因此基本資料或查詢資料集不存在滾動資料時間窗口設定。 不過，如果您的連線在一個或多個事件資料集之外還包含任何基本資料或查詢資料集，則會為相同時段保留該資料。
+資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。 由於無適用的時間戳記，因此基本資料或查詢資料集不存在滾動資料時間窗口設定。 如果您的連線包含任何設定檔或查詢資料集，由於這些資料已與事件資料集連結，因此系統會根據您在事件資料集時間戳記上的資料保留設定，將資料保留在CJA中。
 
