@@ -4,10 +4,10 @@ description: 僅計算報告中量度的第一次出現。
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
-source-wordcount: '114'
-ht-degree: 100%
+source-git-commit: e2ebda486eae7740351370f48bdf104c90494ae3
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 75%
 
 ---
 
@@ -22,3 +22,7 @@ ht-degree: 100%
 | [!UICONTROL 重複資料刪除 ID] | 不是在量度本身上套用重複資料刪除，而是允許您根據維度套用重複資料刪除。對於購買 ID 之類的維度套用重複資料刪除很有價值。 |
 
 {style=&quot;table-layout:auto&quot;}
+
+>[!CAUTION]
+>
+>   在 _人員_ 範圍按UTC時間的完整月評估。 如果部分月份的報表期間發生在整個月內，但在報表日期之外，則可能不會顯示所有第一個或最後一個例項。
