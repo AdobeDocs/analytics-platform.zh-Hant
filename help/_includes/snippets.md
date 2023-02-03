@@ -2,19 +2,19 @@
 source-git-commit: 5303fa540fbde7716326f525158197f354771666
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 0%
+ht-degree: 75%
 
 ---
 # 程式碼片段
 
-## 發行階段有限測試 {#release-limited-testing}
+## 發佈階段有限測試 {#release-limited-testing}
 
 >[!AVAILABILITY]
 >
->本文所述的功能處於版本的有限測試階段，可能尚未在您的環境中提供。 當功能正式可用時，此備注將被移除。 如需Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).
+>本文中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。此功能開放使用時，便會刪除此備註。如需Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).
 
-## 「發行階段限制測試」部分 {#release-limited-testing-section}
+## 發佈階段有限測試部份 {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->本節所述的功能處於版本的有限測試階段，可能尚未在您的環境中提供。 當功能正式可用時，此備注將被移除。 如需Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).
+>本區段中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。此功能開放使用時，便會刪除此備註。如需Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).
