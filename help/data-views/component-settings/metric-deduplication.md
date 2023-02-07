@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: 9a31b1dcba4015f00dd7ae8c43b317e1c5679a2c
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 41%
+ht-degree: 54%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 41%
 
 >[!CAUTION]
 >
->在 _人員_ 範圍按UTC時間的完整月評估。 如果部分月份的報表期間發生在整個月內，但在報表日期之外，則可能不會顯示所有第一個或最後一個例項。
+>_人員_ 範圍內的重複資料刪除會根據 UTC 時間的完整月份進行評估。如果某些執行個體發生在完整月份內但在報告日期之外，部分月份的報告視窗可能不會顯示所有第一個或最後一個執行個體。
