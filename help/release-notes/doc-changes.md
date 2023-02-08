@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: fe8a2ee1af1f022f56116ea64460e4ad1b572b8e
+source-git-commit: 7f137f545ca2da64f4019818e0b00ab8d96e312f
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 100%
+source-wordcount: '1343'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 | 功能 | 說明 |
 | --- | --- |
+| **2023 年 2 月** |  |
+| 對象檔案更新 | 建立對象後，Adobe會建立Experience Platform [每個新CJA對象的串流區段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
 | **2023 年 1 月** |  |
 | 篩選和排序表格 | 已更新[篩選和排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的內容 (包括新增過程和說明可用選項)。重新命名本文的「分頁、篩選和排序表格」。 |
 | 資料擷取快速入門指南 | 如何在 CJA 中[擷取和使用資料](/help/data-ingestion/data-ingestion.md)的新文件內容。 |

@@ -2,10 +2,10 @@
 title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 218618fb6f5ad97da82ebb40e78f9a04f7d28343
+source-git-commit: e117775aa949b3d471e708ca5559474af76d28bc
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 91%
+source-wordcount: '1389'
+ht-degree: 86%
 
 ---
 
@@ -79,6 +79,19 @@ ht-degree: 91%
 * AEP區段與CJA對象共用相同的名稱/說明，但名稱會附加在CJA對象ID後，以確保其唯一。
 * 如果CJA對象名稱/說明變更，AEP區段名稱/說明也會反映該變更。
 * 如果使用者刪除了CJA對象，「AEP」區段不會刪除。 原因是CJA對象稍後可能會取消刪除。
+
+## 延遲的注意事項 {#latency}
+
+對象發佈前、期間和之後的數點，可能會發生延遲。 以下是可能延遲的概觀。
+
+![](assets/latency-diagram.png)
+
+| 延遲點 | 延遲期間 |
+| --- | --- |
+| 資料內嵌至Data Lake | 最多30分鐘 |
+| 從Experience Platform擷取資料至CJA | 最多60分鐘 |
+| 將對象發佈到即時客戶個人檔案 | 少於5分鐘（視對象規模而定） |
+| 重新整理對象的頻率 | <ul><li>一次性重新整理（延遲少於5分鐘）</li><li>每4小時、每日、每週、每月重新整理一次（隨重新整理率一起發生延遲） |
 
 ## 在 Experience Platform 中使用 CJA 對象 {#audiences-aep}
 
