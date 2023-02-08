@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: bacf1568b0d39d20f948c087d616881b66d96ca2
+source-git-commit: 72f59b140b2a907f8c0a125825cd4df6d7c38dbc
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 98%
+source-wordcount: '1810'
+ht-degree: 97%
 
 ---
 
@@ -106,13 +106,13 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 這會將您帶到日期範圍產生器，您可在其中建立和儲存新的日期範圍元件。
 
-### 顯示比較日期範圍 {#show-comparison-dates}
+### 顯示/隱藏比較日期範圍 {#showo-comparison-dates}
 
 若要包含比較日期範圍，請切換 **包含比較日期** 設定。
 
 ![包含比較日期](assets/include-comparison-dates.png)
 
-設定為 *on* 依預設。 如果您不想檢視比較日期，請取消選取選項。
+設定為 *on* 依預設。 切換為 *關閉* 如果您不想檢視比較日期。
 
 ![取消選擇的比較日期設定](assets/no-comparison-dates.png)
 

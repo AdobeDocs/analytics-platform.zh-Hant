@@ -3,14 +3,14 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新 CJA 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b633e3e70c24d9b00b1ab2f80954ad698b12ce29
+source-git-commit: 13c697331004b715271a7256c671293afb3c9b1f
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 91%
+source-wordcount: '416'
+ht-degree: 40%
 
 ---
 
-# 最新 Customer Journey Analytics (CJA) 發行說明 (2023 年 1 月)
+# 最新Customer Journey Analytics(CJA)發行說明（2023年2月）
 
 **上次更新日期**：2023 年 2 月 6 日
 
@@ -20,38 +20,29 @@ Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運�
 
 | 功能 | 說明 | [開始推出](/help/release-notes/releases.md) | [全面發佈](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **CJA對象更新** | 建立對象後， [Adobe會為每個新CJA對象建立Experience Platform串流區段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). 只有在組織設定為串流細分時，才會建立AEP串流區段。 | 不適用 | 2023年2月3日 |
-| **針對設定檔及查閱資料集提供物件陣列支援** | 設定檔資料集與查閱資料集現在支援在 CJA 中使用物件陣列。 | 2023 年 1 月 11 日 | 2023 年 1 月 19 日 |
-| **Workspace 資料夾** | 資料夾可協助您組織專案並加以分類，以便更妥善地擷取和存取。此外，共用的&#x200B;**[!UICONTROL 公司]**&#x200B;資料夾可讓管理員輕鬆建立內容並與所有工作區使用者共用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html?lang=zh-Hant) | 不適用 | 2023 年 1 月 11 日 |
-| **預設登陸頁面** | 2022 年初推出的[新登陸頁面](/help/getting-started/landing.md)將在 **2023 年 1 月 11 日**&#x200B;成為所有使用者的預設體驗。 舊版登陸頁面將被淘汰，並將要求所有人都使用新體驗。 | 不適用 | 2023 年 1 月 11 日 |
-| **已棄用專案管理員頁面** | 隨著新登陸頁面的發布，我們已棄用&#x200B;**[!UICONTROL 「Customer Journey Analytics」]**>**[!UICONTROL 「元件」]**&#x200B;下所列的&#x200B;**[!UICONTROL 「專案管理員」]**。新版登陸頁面具有舊「專案管理員」頁面的所有功能，以及更多功能。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=zh-Hant#deprecate-pm-page) | 不適用 | 2023 年 1 月 11 日 |
-| **排程 Report Builder 中的活頁簿** | 在 Customer Journey Analytics 中，您可以建立排程以定期傳送活頁簿。現在，收件者可定期接收您活頁簿的最新更新。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/schedule-reportbuilder.html?lang=zh-Hant) | 不適用 | 2023 年 1 月 11 日 |
-| **自動儲存新專案** | Analysis Workspace 現在會自動儲存新建立的專案。 如果因任何原因，您在手動儲存新建立專案前意外失去存取權，則您專案的復原版本現在已可使用。 過去，專案只會在初次手動儲存後自動儲存。 [了解更多](/help/analysis-workspace/build-workspace-project/save-projects.md) | 不適用 | 2023 年 1 月 11 日 |
-| **增強型使用者偏好設定** | 您現在可以在使用者層級設定其他偏好設定 (在[!UICONTROL 元件 ] > [!UICONTROL 偏好設定]中)。 當您設定使用者偏好設定時，您的選取項目會跨越專案、表格和視覺效果。 「偏好設定」頁面現在包含以下新索引標籤，每個索引標籤都包含許多新的設定選項：<ul><li>自由表格</li><li>視覺效果>/li></ul>。此外，您現在可以在&#x200B;**[!UICONTROL 「一般」]**&#x200B;和&#x200B;**[!UICONTROL 「專案」]**&#x200B;索引標籤上使用更多偏好設定。<p>以前，其中許多偏好設定只能針對個別專案、表格和視覺效果進行設定。 [了解更多](/help/analysis-workspace/user-preferences.md) | 不適用 | 2023 年 1 月 11 日 |
+| **CJA對象更新** | 建立對象後，Adobe會為每個新CJA對象建立Experience Platform串流區段。 只有在您的組織已設定為串流細分時，才會建立串流區段。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created) | 不適用 | 2023年2月3日 |
+| **隱藏行動計分卡中的比較日期範圍** | 使用行動計分卡，您現在可以隱藏比較日期範圍。 | 不適用 | 2023年2月8日 |
+| **工作區中的日曆更新** | <ul><li>錨點面板日期：您可以建立與面板日曆相對的日期範圍元件。 [了解更多](/help/components/date-ranges/calendar.md)</li><li>日曆樣式更新：UI中的日曆樣式已升級，以呈現更一致且易於使用的工作流程。</li><li>日曆公式更新：如果您使用相對日期，所有日曆公式都會反映面板日期範圍的開始。 [了解更多](/help/components/date-ranges/calendar.md)</li></ul> | 不適用 | 2023年2月8日 |
+| **Adobe Analytics Source Connector串流的列/欄篩選** | Adobe Experience Platform中的Analytics來源連接器現在允許篩選用於填入設定檔的Analytics資料 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant).<p>列層級篩選有助於減少與設定檔相關聯的事件數。 欄層級篩選有助於減少事件本身的豐富性，進而讓您最佳化設定檔權益的使用。 此篩選僅適用於傳送至「即時客戶設定檔」的資料，以及 [Identity服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant).<p>**篩選不會影響傳送至Data Lake以用於應用程式(例如Customer Journey Analytics)的資料**. [了解更多](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | 不適用 | 2023 年 2 月 22 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
-## 修正
+## Customer Journey Analytics 中的修正
 
-AN-287349；AN-301684；AN-305491；AN-305769；AN-307912
+AN-309106
 
 ## 給 CJA 管理員的重要通知
 
 | 通知 | 新增或更新通知 | 說明 |
 | --- | --- | --- |
-| **已改良 IP 對地理位置的對應** | 2022 年 9 月 29 日 | Adobe 的 IP 查詢供應商 Digital Element 正升級到新改良的資料集 (NetAcuity Pulse) 以便用於 IP 對地理位置的對應。 Adobe Analytics 已將此新資料集的採用延後至 **2023 年 1 月 11 日**。新資料庫將會比舊版更準確。在採用新資料庫後，某些 IP 對地理位置的對應將會變更/改良。<p> 透過 [!UICONTROL Analytics 來源連接器]提供的 CJA 資料也將自動利用新的對應。 |
+| 沒有當前通知 | 不適用 | 不適用 |
 
 {style=&quot;table-layout:auto&quot;}
 
-
 ## 相關資源
 
-* [2022 年舊版 CJA 發行說明](/help/release-notes/2022.md)
-
+* [2023 年舊版 CJA 發行說明](/help/release-notes/2023.md)
 * [Adobe Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
-
 * [媒體分析發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
-
 * [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)
-
 * [Customer Journey Analytics 文件更新](/help/release-notes/doc-changes.md)
