@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7f137f545ca2da64f4019818e0b00ab8d96e312f
+source-git-commit: 362954f126956ed0c77ad8c79aa634f8d6a36569
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 97%
+source-wordcount: '1390'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 97%
 | --- | --- |
 | **2023 年 2 月** |  |
 | 對象檔案更新 | 建立對象後，Adobe會建立Experience Platform [每個新CJA對象的串流區段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created). |
+| 工作區日曆和日期範圍 | 更新內容，說明相對日期範圍、公式計算更新和日曆UI變更。 請參閱 [關於相對面板日期範圍](/help/components/date-ranges/calendar.md#relative-panel-dates). |
+| 行動計分卡 | 說明如何顯示和隱藏比較日期範圍的新檔案區段。 請參閱 [顯示比較日期範圍](/help/mobile-app/create-scorecard.md#show-comparison-dates) 在CJA中。 |
 | **2023 年 1 月** |  |
 | 篩選和排序表格 | 已更新[篩選和排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的內容 (包括新增過程和說明可用選項)。重新命名本文的「分頁、篩選和排序表格」。 |
 | 資料擷取快速入門指南 | 如何在 CJA 中[擷取和使用資料](/help/data-ingestion/data-ingestion.md)的新文件內容。 |
