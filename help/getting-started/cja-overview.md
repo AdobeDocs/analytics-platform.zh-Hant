@@ -4,10 +4,10 @@ description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Wo
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: e808ac175092af659ac702bb43f94f82c0ff22f9
+source-git-commit: 9eae32c75218a9fd84da42593f4bd202757b4403
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '980'
+ht-degree: 96%
 
 ---
 
@@ -31,6 +31,11 @@ Customer Journey Analytics 提供簡單易用的跨頻道功能，並移除舊�
 * **不限數量的唯一值**：Adobe Experience Platform 不受任何獨特限制。
 * **變更歷史資料**：您可以使用 Adobe Experience Platform 移除或修正資料。
 * **跨報告套裝資料**：可在 Platform 中結合來自多個資料集的現有實作。
+
+>[!TIP]
+>
+>如果您一直使用Adobe Analytics且想在Customer Journey Analytics中使用Adobe Analytics資料，請參閱 [從傳統Adobe Analytics擷取和使用資料](../data-ingestion/analytics.md) 快速入門手冊，為 [資料擷取](../data-ingestion/data-ingestion.md) 區段。
+
 
 Customer Journey Analytics 的初始版本包含 Analysis Workspace 中的多項功能。如需完整清單，請參閱 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。
 

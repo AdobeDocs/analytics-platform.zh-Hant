@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
+source-git-commit: 9eae32c75218a9fd84da42593f4bd202757b4403
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1436'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleagu
 
 ### 4. 決定使用 Analytics 來源連接器或 Experience Platform SDK {#connector-vs-sdk}
 
-Adobe Analytics 客戶可以使用 Analytics 來源連接器輕鬆地在 Adobe Experience Platform 和 Customer Journey Analytics 中利用他們的報告套裝。如需有關使用 Analytics 來源連接器的資訊，請參閱[在 UI 中建立 Adobe Analytics 來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。
+Adobe Analytics 客戶可以使用 Analytics 來源連接器輕鬆地在 Adobe Experience Platform 和 Customer Journey Analytics 中利用他們的報告套裝。如需使用Analytics來源連接器的詳細資訊，請參閱快速入門手冊，了解如何 [從Adobe Analytics擷取資料並在CJA中使用](../data-ingestion/analytics.md). 另請參閱 [在UI中建立Adobe Analytics來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 以取得更多資訊。
 
 隨著 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 資料收集的發展，您可能會移前往 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html) 或 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) (搭配 Adobe Experience Platform Edge Network)。SDK 的典型實施是將資料傳送到 Adobe Analytics，但直接將資料傳送到 Adobe Experience Platform 的新機會也隨之而來。然後，可將資料擷取到 Customer Journey Analytics，同時保留傳送到 Adobe Analytics 的資料。
 
@@ -76,10 +76,10 @@ Adobe Analytics 客戶可以使用 Analytics 來源連接器輕鬆地在 Adobe E
 
 不支援以下 Adobe Analytics 功能或元件：
 
-* 行銷管道
 * 機器人篩選
 * 地理位置、網域、裝置查詢
-* Analytics for Target (A4T)
+* 串流媒體測量
+* Livestream或Livestream觸發器
 
 ## 為重大差異做好準備
 
