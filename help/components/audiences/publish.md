@@ -2,10 +2,10 @@
 title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: e117775aa949b3d471e708ca5559474af76d28bc
+source-git-commit: d343436f5b72e30b420088f9e9a3a8fb9b97becb
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 86%
+source-wordcount: '1430'
+ht-degree: 90%
 
 ---
 
@@ -72,26 +72,25 @@ ht-degree: 86%
 
 1. 按一下同一則訊息中的&#x200B;**[!UICONTROL 「在 AEP 中檢視對象」]**，您將被帶到 Adobe Experience Platform 中的[「區段 UI」](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant)。 請參閱下方以了解更多資訊。
 
-## 建立對象後會發生什麼事？ {#after-audience-created}
+## 建立對象後的情況? {#after-audience-created}
 
-建立對象後，Adobe會為每個新CJA對象建立Experience Platform串流區段。 只有在貴組織設定為串流細分時，系統才會建立AEP串流區段。
+在您建立對象後，Adobe 會為每個新的 CJA 對象建立一個 Experience Platform 串流區段。只有在貴組織設定為串流細分時，系統才會建立AEP串流區段。
 
-* AEP區段與CJA對象共用相同的名稱/說明，但名稱會附加在CJA對象ID後，以確保其唯一。
-* 如果CJA對象名稱/說明變更，AEP區段名稱/說明也會反映該變更。
-* 如果使用者刪除了CJA對象，「AEP」區段不會刪除。 原因是CJA對象稍後可能會取消刪除。
+* AEP 區段與 CJA 對象共用相同的名稱/說明，但該名稱將附加於 CJA 對象 ID 以確保其唯一性。
+* 如果 CJA 對象名稱/說明改變，AEP 區段名稱/說明也會反映該變化。
+* 如果用戶刪除了 CJA 對象，並不會刪除 AEP 區段。原因是 CJA 對象以後可能會被取消刪除。
 
 ## 延遲的注意事項 {#latency}
 
 對象發佈前、期間和之後的數點，可能會發生延遲。 以下是可能延遲的概觀。
 
-![](assets/latency-diagram.png)
-
 | 延遲點 | 延遲期間 |
 | --- | --- |
 | 資料內嵌至Data Lake | 最多30分鐘 |
 | 從Experience Platform擷取資料至CJA | 最多60分鐘 |
-| 將對象發佈到即時客戶個人檔案 | 少於5分鐘（視對象規模而定） |
+| 對象發佈至即時客戶設定檔，包括自動建立串流區段，並允許區段準備好接收資料。 | 大約60分鐘 |
 | 重新整理對象的頻率 | <ul><li>一次性重新整理（延遲少於5分鐘）</li><li>每4小時、每日、每週、每月重新整理一次（隨重新整理率一起發生延遲） |
+| 在AEP中建立目的地：將新區段啟用至Adobe Target | 目前，視對象更新間隔和區段評估類型而定，最多可能需要24小時 |
 
 ## 在 Experience Platform 中使用 CJA 對象 {#audiences-aep}
 
