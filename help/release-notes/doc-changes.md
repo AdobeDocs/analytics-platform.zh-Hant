@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 362954f126956ed0c77ad8c79aa634f8d6a36569
+source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 95%
@@ -38,7 +38,7 @@ ht-degree: 95%
 | 日期 | 更新說明 |
 | --- | --- |
 | **2022 年 12 月** |  |
-| 2022 年 12 月 16 日 | 有關[測量及管理 CJA 資料使用情況](/help/getting-started/estimate-usage.md)的新主題。 |
+| 2022 年 12 月 16 日 | 有關[測量及管理 CJA 資料使用情況](/help/admin/estimate-usage.md)的新主題。 |
 | **2022 年 10 月** |  |
 | 2022 年 10 月 | 有關[排程專案的密碼保護](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=zh-Hant#password)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
 | 2022 年 10 月 | 有關[客戶自控金鑰](/help/privacy/cmk.md)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
@@ -53,7 +53,7 @@ ht-degree: 95%
 | 2022 年 9 月 | Workspace [實驗面板](/help/analysis-workspace/c-panels/experimentation.md)的新主題。 |
 | **2022 年 8 月** |  |
 | 2022 年 8 月 | 有關[Analytics 來源連接器的跨區域支援](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)的 Adobe Experience Platform 文章。 |
-| 2022 年 8 月 | 有關 [CJA 存取控制](/help/getting-started/cja-access-control.md)的文章推出重大更新。。 |
+| 2022 年 8 月 | 有關 [CJA 存取控制](/help/admin/cja-access-control.md)的文章推出重大更新。。 |
 | 2022 年 8 月 | 新增[CJA 支援資料控管標籤和原則](/help/data-views/data-governance.md)的文章。 |
 | 2022 年 8 月 | 新增[比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](/help/getting-started/aa-vs-cja/terminology.md)的文章。 |
 | 2022 年 8 月 | 新增[將對象發佈到即時客戶個人檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=zh-Hant)的文件。 |

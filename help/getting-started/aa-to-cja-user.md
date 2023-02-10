@@ -1,18 +1,18 @@
 ---
-title: Adobe Analytics 使用者的 CJA 使用指南
+title: Adobe Analytics 使用者的 使用指南
 description: 當您的公司將 Adobe Analytics 資料轉移到 Customer Journey Analytics 時，以使用者角度需要考慮什麼
 role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
-source-wordcount: '1456'
+source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
+workflow-type: tm+mt
+source-wordcount: '1454'
 ht-degree: 100%
 
 ---
 
-# Adobe Analytics 使用者的 CJA 使用指南
+# Adobe Analytics 使用者的 使用指南
 
 如果您的組織開始使用 Customer Journey Analytics( CJA)，您可能會注意到傳統分析和 CJA 之間的一些相似點和差異。 本頁面旨在說明這些差異，以幫助您的組織適應新的實施和報告工作流程。 本頁面還提供了有關新概念的更多資源，以及進一步的步驟，讓您作為分析師的旅途更輕鬆、更成功。
 

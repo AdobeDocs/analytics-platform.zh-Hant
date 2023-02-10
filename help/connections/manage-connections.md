@@ -5,8 +5,8 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
+source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
+workflow-type: tm+mt
 source-wordcount: '1808'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 * 之前根據已刪除的連線建立的任何資料檢視將不再有效。
 * 同樣地，如果有任何「工作區」專案與所刪除連線中的資料檢視相依，也將停止運作。
 
-[了解更多](/help/getting-started/cja-deletion.md)有關刪除之影響的資訊。
+[了解更多](/help/admin/cja-deletion.md)有關刪除之影響的資訊。
 
 ### 搜尋連線或資料集
 
