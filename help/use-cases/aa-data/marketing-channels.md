@@ -4,10 +4,10 @@ description: 使用 Analytics 來源連接器將行銷頻道處理規則匯入 A
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: ht
-source-wordcount: '1019'
-ht-degree: 100%
+source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
+workflow-type: tm+mt
+source-wordcount: '1024'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 ## 先決條件
 
 * 需先使用 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)將報告套裝資料匯入 Adobe Experience Platform。 由於行銷管道需仰賴 Analytics 報告套裝中的處理規則來運作，因此不支援其他資料來源。
-* 行銷管道處理規則須完成設定。請參閱舊版 Analytics 元件指南中的[行銷管道處理規則](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=zh-Hant)。
+* 行銷管道處理規則須完成設定。請參閱舊版 Analytics 元件指南中的[行銷管道處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=en)。
 
 ## 行銷管道結構元素
 

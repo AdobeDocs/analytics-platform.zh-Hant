@@ -4,10 +4,10 @@ description: 說明如何將 AEP 對象擷取至 Customer Journey Analytics 以�
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: 04aaf9ae9f720255c97c9dc148953b5b9d6967ae
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 99%
 
 ---
 
@@ -88,6 +88,6 @@ Adobe Experience Platform [即時客戶設定檔](https://experienceleague.adobe
 * 您應該定期執行此流程，以便在 CJA 中持續重新整理對象資料。
 * 您可以在單一 CJA 連線中匯入多個對象。這對流程新增了更多複雜性，但這是可能的。為了辦到這點，您需要對上述流程進行一些修改：
    1. 對 RTCP 中對象集合中的每個所需對象執行此流程。
-   1. CJA 支援設定檔資料集中的陣列/物件陣列。為 audienceMembershipId 或 audienceMembershipIdName 使用[物件陣列](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/object-arrays.html?lang=zh-Hant)是最佳選項。
+   1. CJA 支援設定檔資料集中的陣列/物件陣列。為 audienceMembershipId 或 audienceMembershipIdName 使用[物件陣列](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html)是最佳選項。
    1. 在您的資料檢視中，利用 `audienceMembershipId`欄位上的子字串轉換建立新的維度，以將逗號分隔的值字串轉換成陣列。注意：目前陣列中的上限為 10 個值。
    1. 您現在可以在 CJA 工作區中報告此新維度 `audienceMembershipIds`。
