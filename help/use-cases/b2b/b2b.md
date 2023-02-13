@@ -4,9 +4,9 @@ description: 了解如何將以帳戶為基礎的資料，以查詢資料集的�
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: f7d50753f4c6d64492682d7c1269a4d45aea8a31
-workflow-type: ht
-source-wordcount: '853'
+source-git-commit: 1a18ddbab09e272189a25041396570d127bb81c3
+workflow-type: tm+mt
+source-wordcount: '841'
 ht-degree: 100%
 
 ---
@@ -90,4 +90,4 @@ ht-degree: 100%
 * 有多少員工對應至特定帳戶 ID？
 * 某帳戶 ID 屬於哪個產業？
 
-![project-lookup2](https://git.corp.adobe.com/storage/user/5902/files/348183a8-343c-497e-b270-4fc02b32cb9e)
+![project-lookup2](assets/analyze.png)
