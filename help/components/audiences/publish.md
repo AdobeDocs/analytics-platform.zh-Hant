@@ -2,10 +2,10 @@
 title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 04dd36d9157da852aea7d488cbcc2617162d9324
+source-git-commit: 1bd07390b1e01c64f192994a6d9d41e7c9a88440
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 91%
+source-wordcount: '1419'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 91%
 
 ## 建立對象後的情況? {#after-audience-created}
 
-在您建立對象後，Adobe 會為每個新的 CJA 對象建立一個 Experience Platform 串流區段。只有在貴組織設定為串流細分時，系統才會建立AEP串流區段。
+在您建立對象後，Adobe 會為每個新的 CJA 對象建立一個 Experience Platform 串流區段。只有在組織設定為串流分段時，AEP 串流區段才會建立。
 
 * AEP 區段與 CJA 對象共用相同的名稱/說明，但該名稱將附加於 CJA 對象 ID 以確保其唯一性。
 * 如果 CJA 對象名稱/說明改變，AEP 區段名稱/說明也會反映該變化。
@@ -82,15 +82,19 @@ ht-degree: 91%
 
 ## 延遲的注意事項 {#latency}
 
-對象發佈前、期間和之後的數點，可能會發生延遲。 以下是可能延遲的概觀。
+在對象發布前後及期間的幾個時間點，可能會出現延遲。 以下是可能的延遲的概觀。
 
-| 延遲點 | 延遲期間 |
-| --- | --- |
-| 資料內嵌至Data Lake | 最多30分鐘 |
-| 從Experience Platform擷取資料至CJA | 最多60分鐘 |
-| 對象發佈至即時客戶設定檔，包括自動建立串流區段，並允許區段準備好接收資料。 | 大約60分鐘 |
-| 重新整理對象的頻率 | <ul><li>一次性重新整理（延遲少於5分鐘）</li><li>每4小時、每日、每週、每月重新整理一次（隨重新整理率一起發生延遲） |
-| 在AEP中建立目的地：啟用新區段 | 1-2 小時 |
+![](assets/latency-diagram.png)
+
+| # | 延遲點 | 延遲期間 |
+| --- | --- | --- |
+| 1 | 擷取資料至資料湖 | 最多需 30 分鐘 |
+| 2 | 從 Experience Platform 擷取資料至 CJA | 最多需 60 分鐘 |
+| 3 | 對象發佈至即時客戶設定檔，包括自動建立串流區段並允許該區段準備接收資料。 | 約 60 分鐘 |
+| 4 | 對象的重新整理頻率 | <ul><li>一次性重新整理 (延遲時間小於 5 分鐘)</li><li>每 4 小時、每天、每週、每月重新整理一次 (延遲與重新整理頻率息息相關) |
+| 5 | 在AEP中建立目的地：啟用新區段 | 1-2 小時 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 在 Experience Platform 中使用 CJA 對象 {#audiences-aep}
 
