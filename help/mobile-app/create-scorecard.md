@@ -6,9 +6,9 @@ role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
 source-git-commit: 14bcb1364e59ee02073829050daa068c6203a93c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1811'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 ![包含比較日期](assets/include-comparison-dates.png)
 
-此設定預設為&#x200B;*開啟*。切換為 *關閉* 如果您不想檢視比較日期。
+此設定預設為&#x200B;*開啟*。如果您不想查看比較日期，可將其切換為&#x200B;*取消*。
 
 ![取消選取比較日期設定](assets/no-comparison-dates.png)
 
