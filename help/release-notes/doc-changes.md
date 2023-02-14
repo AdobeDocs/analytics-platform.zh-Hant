@@ -21,7 +21,7 @@ ht-degree: 97%
 | --- | --- |
 | **2023 年 2 月** |  |
 | 更新至 Audiences 文件 | 新區段 [延遲考量](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency). |
-| 更新至 Audiences 文件 | 在您建立對象後，Adobe 會為每個新的 CJA 對象建立一個 Experience Platform [串流區段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#after-audience-created)。 |
+| 更新至 Audiences 文件 | 在您建立對象後，Adobe 會為每個新的 CJA 對象建立一個 Experience Platform [串流區段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created)。 |
 | Workspace 行事曆和日期範圍 | 更新內容以說明相對日期範圍、公式計算更新和行事曆 UI 變更。 查看[關於相對面板日期範圍](/help/components/date-ranges/calendar.md#relative-panel-dates)。 |
 | Mobile 計分卡 | 新文件部分會說明如何顯示和隱藏比較日期範圍。 查看 CJA 內的[顯示比較日期範圍](/help/mobile-app/create-scorecard.md#show-comparison-dates)。 |
 | **2023 年 1 月** |  |

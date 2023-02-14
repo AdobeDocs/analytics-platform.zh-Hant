@@ -6,11 +6,11 @@ feature: Release Notes
 source-git-commit: 13c697331004b715271a7256c671293afb3c9b1f
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
-# 最新Customer Journey Analytics(CJA)發行說明（2023年2月）
+# 最新 Customer Journey Analytics (CJA) 發行說明 (2023 年 2 月)
 
 **上次更新日期**：2023 年 2 月 6 日
 
@@ -20,10 +20,10 @@ Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運�
 
 | 功能 | 說明 | [開始推出](/help/release-notes/releases.md) | [全面發佈](/help/release-notes/releases.md) |
 | ----------- | ---------- | ----- | --- |
-| **更新 CJA 對象** | 在您建立對象後，Adobe 會為每個新的 CJA 對象建立一個 Experience Platform 串流區段。只有在您的組織已設定為串流細分時，才會建立串流區段。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created) | 不適用 | 2023 年 2 月 3 日 |
-| **隱藏行動計分卡中的比較日期範圍** | 使用行動計分卡，您現在可以隱藏比較日期範圍。 | 不適用 | 2023 年 2 月 8 日 |
-| **工作區中的日曆更新** | <ul><li>錨點面板日期：您可以建立與面板日曆相對的日期範圍元件。 [了解更多](/help/components/date-ranges/calendar.md)</li><li>日曆樣式更新：UI中的日曆樣式已升級，以呈現更一致且易於使用的工作流程。</li><li>日曆公式更新：如果您使用相對日期，所有日曆公式都會反映面板日期範圍的開始。 [了解更多](/help/components/date-ranges/calendar.md)</li></ul> | 不適用 | 2023 年 2 月 8 日 |
-| **Adobe Analytics Source Connector串流的列/欄篩選** | Adobe Experience Platform中的Analytics來源連接器現在允許篩選用於填入設定檔的Analytics資料 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant).<p>列層級篩選有助於減少與設定檔相關聯的事件數。 欄層級篩選有助於減少事件本身的豐富性，進而讓您最佳化設定檔權益的使用。 此篩選僅適用於傳送至「即時客戶設定檔」的資料，以及 [Identity服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant).<p>**篩選不會影響傳送至Data Lake以用於應用程式(例如Customer Journey Analytics)的資料**. [了解更多](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | 不適用 | 2023 年 2 月 22 日 |
+| **更新 CJA 對象** | 在您建立對象後，Adobe 會為每個新的 CJA 對象建立一個 Experience Platform 串流區段。 只有在組織設定為串流分段時，串流區段才會建立。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#after-audience-created) | 不適用 | 2023 年 2 月 3 日 |
+| **在 Mobile 計分卡中隱藏比較日期範圍** | 您現在使用 Mobile 計分卡，就可以隱藏比較日期範圍。 | 不適用 | 2023 年 2 月 8 日 |
+| **Workspace 中的行事曆更新** | <ul><li>錨點面板日期：您可以使日期範圍元件相對於面板行事曆。 [了解更多](/help/components/date-ranges/calendar.md)</li><li>行事曆樣式更新：整個 UI 的行事曆樣式已升級，展現更為一致易用的工作流程。</li><li>行事曆公式更新：如果您使用相對日期，所有行事曆公式將反映面板日期範圍的開始。 [了解更多](/help/components/date-ranges/calendar.md)</li></ul> | 不適用 | 2023 年 2 月 8 日 |
+| **Adobe Analytics Source Connector 串流傳輸的行/列篩選** | Adobe Experience Platform 中的 Analytics Source Connector 現在允許篩選 Analytics 資料；這類資料是用來在[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)中填入設定檔。<p>列層級篩選有助減少與設定檔有關聯的事件數量。 行層級篩選有助減少事件本身的豐富度，進而讓您可最佳化設定檔權利的使用。這項篩選僅適用於傳送至即時客戶設定檔和[身份服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)的資料。<p>**篩選不會影響傳送到資料湖的資料；這類資料是供 Customer Journey Analytics** 等應用程式使用。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | 不適用 | 2023 年 2 月 22 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -35,7 +35,7 @@ AN-309106
 
 | 通知 | 新增或更新通知 | 說明 |
 | --- | --- | --- |
-| 沒有當前通知 | 不適用 | 不適用 |
+| 目前沒有通知 | 不適用 | 不適用 |
 
 {style=&quot;table-layout:auto&quot;}
 
