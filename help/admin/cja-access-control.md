@@ -1,18 +1,18 @@
 ---
-title: Customer Journey Analytics存取控制
+title: Customer Journey Analytics 存取控制
 description: 了解在 CJA 中實施存取控制的方法。
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics存取控制
+# Customer Journey Analytics 存取控制
 
 Customer Journey Analytics (CJA) 由三個存取層級或三個角色管理：產品管理員角色、產品設定檔管理員角色和使用者層級存取權。本主題將更詳細地說明這些角色。
 
@@ -33,7 +33,7 @@ Customer Journey Analytics (CJA) 由三個存取層級或三個角色管理：�
 * 資料擷取：管理來源
 * 檢視身分命名空間
 
-如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)。
+如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant)。
 
 ## 產品設定檔管理員角色
 
