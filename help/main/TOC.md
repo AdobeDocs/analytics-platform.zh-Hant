@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 45c6e6db751f5a73bb9d44d3a6641c7369d6252f
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,10 @@ ht-degree: 98%
    + [登陸頁面](../getting-started/landing.md)
    + [常見問題](../getting-started/cja-faq.md)
 
-+ Customer Journey Analytics和Adobe Analytics {#compare-aa-cja}
-   + [來自Adobe Analytics的進化 ](../getting-started/aa-to-cja.md)
-   + [Adobe Analytics 使用者的 使用指南](../getting-started/aa-to-cja-user.md)
-   + 與Adobe Analytics比較 {#cja-aa-comparison}
++ Customer Journey Analytics 和 Adobe Analytics {#compare-aa-cja}
+   + [從 Adobe Analytics 發展而來 ](../getting-started/aa-to-cja.md)
+   + [Adobe Analytics 使用者的使用手冊](../getting-started/aa-to-cja-user.md)
+   + 與 Adobe Analytics 比較{#cja-aa-comparison}
       + [在 Customer Journey Analytics 中利用 Adobe Analytics 資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 功能支援](../getting-started/aa-vs-cja/cja-aa.md)
       + [比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](../getting-started/aa-vs-cja/terminology.md)
@@ -271,7 +271,7 @@ ht-degree: 98%
 + 跨管道分析 {#cca}
    + [跨管道分析總覽](../cca/overview.md)
    + [重播的運作方式](../cca/replay.md)
-   + [跨管道分析常見問答](../cca/faq.md)
+   + [跨管道分析常見問題](../cca/faq.md)
 
 + Adobe 整合 {#integrations}
    + [整合 Adobe 解決方案與 CJA 總覽](/help/integrations/overview.md)
@@ -305,12 +305,12 @@ ht-degree: 98%
    + Adobe Analytics 資料 {#aa-data}
       + [使用行銷管道維度](../use-cases/aa-data/marketing-channels.md)
       + [結合報告套裝與不同的結構描述](../use-cases/aa-data/combine-report-suites.md)
-   + 複雜資料 {#complex-data}
+   + 複雜的資料 {#complex-data}
       + [使用物件陣列](../use-cases/object-arrays.md)
 
 + 管理 {#cja-admin}
    + [存取控制](../admin/cja-access-control.md)
-   + [檢視和管理 使用情況](../admin/estimate-usage.md)
+   + [檢視和管理使用情況](../admin/estimate-usage.md)
    + [刪除關聯](../admin/cja-deletion.md)
 
 + Labs {#labs}
