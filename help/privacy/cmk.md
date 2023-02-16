@@ -3,9 +3,9 @@ title: 客戶自控金鑰
 description: 了解如何為 CJA 設定客戶自控金鑰。
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
 source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Customer Journey Analytics (CJA) 讓 [Healthcare Shield](https://www.adobe.com/t
 
 >[!NOTE]
 >
->客戶自控金鑰目前僅適用於已購買 [Healthcare Shield 或 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html?lang=en) 附加產品的組織。
+>客戶自控金鑰目前僅適用於已購買 [Healthcare Shield 或 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html?lang=zh-Hant) 附加產品的組織。
 
 ## 為 CJA 設定 CMK
 
