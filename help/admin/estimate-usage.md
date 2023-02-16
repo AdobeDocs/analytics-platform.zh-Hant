@@ -1,17 +1,17 @@
 ---
-title: 檢視及管理您的Customer Journey Analytics使用量
+title: 檢視和管理 Customer Journey Analytics 使用情況
 description: 顯示兩種估計使用情況的方法，以及一種管理使用情況的方法。
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
 source-git-commit: 9f2d0d00872ad18c73bf67184e44f687a0b156a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '868'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 檢視及管理您的Customer Journey Analytics使用量
+# 檢視和管理 Customer Journey Analytics 使用情況
 
 若要檢視您的 CJA 使用情況，您可以使用以下數種方法：
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 ## 估算連線規模 {#estimate-size}
 
-您可能需要知道目前 [!UICONTROL Customer Journey Analytics] 中有多少列事件資料。 為了準確說明組織的事件資料記錄 (資料列) 使用情況，請&#x200B;**為您組織所建立的每個連線執行以下操作**。
+您可能需要知道目前 [!UICONTROL Customer Journey Analytics] 中有多少列事件資料。為了準確說明組織的事件資料記錄 (資料列) 使用情況，請&#x200B;**為您組織所建立的每個連線執行以下操作**。
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 98%
 
 1. 取得所有事件資料列的總和後，請查閱您公司與 Adobe 所簽訂 Customer Journey Analytics 合約中的「資料列」權利。
 
-   這項資料可為您提供「銷售訂單」中授權的最大資料列筆數。 如果從步驟 3 所得的資料列筆數大於此筆數，表示您有超額情形。
+   這項資料可為您提供「銷售訂單」中授權的最大資料列筆數。如果從步驟 3 所得的資料列筆數大於此筆數，表示您有超額情形。
 
 1. 為了解決這種情況，您有幾個選擇：
 
@@ -95,9 +95,9 @@ ht-degree: 98%
 
 若要管理您的使用情況，[連線 UI](/help/connections/create-connection.md) 可讓您在連線層級將 CJA 資料保留定義為以月為單位的滾動時間窗口 (1 個月、3 個月、6 個月等)。
 
-主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。 這有助於您未超過合約限制，並減少超額使用費用的風險。
+主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。
 
-如果您保留預設值 (未勾選)，保留期間將由 Adobe Experience Platform 資料保留設定取代。 如果您在 Experience Platform 中有 25 個月的資料，CJA 將透過回填取得 25 個月的資料。 如果您在 Platform 中刪除其中 10 個月的資料，CJA 則會保留剩餘 15 個月的資料。
+如果您保留預設值 (未勾選)，保留期間將由 Adobe Experience Platform 資料保留設定取代。如果您在 Experience Platform 中有 25 個月的資料，CJA 將透過回填取得 25 個月的資料。如果您在 Platform 中刪除其中 10 個月的資料，CJA 則會保留剩餘 15 個月的資料。
 
-資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。 由於無適用的時間戳記，因此基本資料或查詢資料集不存在滾動資料時間窗口設定。 如果您的連接包含任何設定檔或查詢資料集，因為這些聯結了事件資料集，系統將根據您在事件資料集時間戳記上的資料保留設定，將資料保留在 CJA 中。
+資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此基本資料或查詢資料集不存在滾動資料時間窗口設定。如果您的連接包含任何設定檔或查詢資料集，因為這些聯結了事件資料集，系統將根據您在事件資料集時間戳記上的資料保留設定，將資料保留在 CJA 中。
 
