@@ -1,19 +1,19 @@
 ---
-title: Customer Journey Analytics 常見問答
-description: Customer Journey Analytics - 常見問答。
+title: Customer Journey Analytics 常見問題
+description: Customer Journey Analytics - 常見問題。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2135'
 ht-degree: 100%
 
 ---
 
-# 常見問答
+# 常見問題
 
-[!UICONTROL Customer Journey Analytics] (CJA) 是我們新一代的分析產品。 以下是有關 CJA 常見問題的解答。 如需詳細資訊，請參閱「[Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)」。
+[!UICONTROL Customer Journey Analytics] (CJA) 是我們新一代的分析產品。以下是有關 CJA 常見問題的解答。如需詳細資訊，請參閱「[Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)」。
 
 ## 1. 先決條件 {#prerequisites}
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 +++**如果我需要在使用 [!UICONTROL Customer Journey Analytics] 之前對我的資料執行 ETL 作業 (擷取、轉換、載入)，該怎麼辦？**
 
-Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html?lang=zh-Hant)功能，以協助您先轉換資料，然後再將資料放到 Adobe Experience Platform Data Lake 中。 如果您在擷取資料後需要 ETL，[Adobe Experience Platform 查詢服務](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=zh-Hant#queries)會提供一些有限的選項，但這些選項可能需要額外付費。
+Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html?lang=zh-Hant)功能，以協助您先轉換資料，然後再將資料放到 Adobe Experience Platform Data Lake 中。如果您在擷取資料後需要 ETL，[Adobe Experience Platform 查詢服務](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=zh-Hant#queries)會提供一些有限的選項，但這些選項可能需要額外付費。
 
 +++
 
@@ -42,28 +42,28 @@ Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.c
 
 +++**[!UICONTROL Customer Journey Analytics] 是否可以在裝置或資料集之間「拼接」(彙整) 資料嗎？**
 
-是。 [!UICONTROL Customer Journey Analytics] 有一個稱為[跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant) (CCA) 的拼接解決方案。 它可讓您重新輸入資料集的人員 ID，好讓您順暢地合併多個資料集。
+是。[!UICONTROL Customer Journey Analytics] 有一個稱為[跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant) (CCA) 的拼接解決方案。它可讓您重新輸入資料集的人員 ID，好讓您順暢地合併多個資料集。
 
 +++
 
 
 +++**是否支援拼接匿名行為與已驗證的行為？**
 
-是。 [跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant)會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接 ID。
+是。[跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant)會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接 ID。
 
 +++
 
 
 +++**CCA 中的「重播」是如何運作的？**
 
-CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得連線的新裝置被拼接。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=zh-Hant#step-1%3A-live-stitching)
+CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得連線的新裝置被拼接。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=zh-Hant#step-1%3A-live-stitching)
 
 +++
 
 
 +++**CCA 中的拼接歷史 (回填) 資料是如何運作的？**
 
-初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。 為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant#enable-cross-channel-analytics)
+初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant#enable-cross-channel-analytics)
 
 +++
 
@@ -92,7 +92,7 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 
 +++**如何將離線資料帶入 [!UICONTROL Customer Journey Analytics]？**
 
-您對 Customer Journey Analytics 的權益可讓您將資料擷取到 Experience Platform。 然後您可以在 [!UICONTROL Customer Journey Analytics] 中建立與該資料和資料檢視的連線，以便在 Analysis Workspace 中報告。 如有需要，Experience Platform 的資料入門團隊可為您提供建議或諮詢。
+您對 Customer Journey Analytics 的權益可讓您將資料擷取到 Experience Platform。然後您可以在 [!UICONTROL Customer Journey Analytics] 中建立與該資料和資料檢視的連線，以便在 Analysis Workspace 中報告。如有需要，Experience Platform 的資料入門團隊可為您提供建議或諮詢。
 
 +++
 
@@ -140,17 +140,17 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 
 [**[!UICONTROL 啟用滾動資料視窗&#x200B;]**設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant#create-connection)讓您將 CJA 資料保留定義為單位為月數的滾動時段 (3 個月、6 個月等)。這是在[!UICONTROL 連接]層級設定，而不是[!UICONTROL 資料集]層級。資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此基本資料或查詢資料集不存在資料保留設定。
 
-主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。 這有助於您未超過合約限制，並減少超額使用費用的風險。
+主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。
 
 ## 6. 刪除資料元件的影響 {#deletion}
 
-關於資料的刪除，我們會考慮 6 種元件：沙箱、結構描述、資料集、連線、資料檢視和「工作區」專案。 以下是刪除上述任何元件後的一些可能情況：
+關於資料的刪除，我們會考慮 6 種元件：沙箱、結構描述、資料集、連線、資料檢視和「工作區」專案。以下是刪除上述任何元件後的一些可能情況：
 
 | 若您... | 就會發生下列情形... |
 | --- | --- |
-| 刪除 [!UICONTROL Adobe Experience Platform] 中的沙箱 | 刪除沙箱時，將會讓資料停止流向該沙箱中資料集的任何 [!UICONTROL Customer Journey Analytics] 連線。 目前，系統不會自動刪除與被刪除的沙箱繫結的 CJA [!UICONTROL 連線]。 |
+| 刪除 [!UICONTROL Adobe Experience Platform] 中的沙箱 | 刪除沙箱時，將會讓資料停止流向該沙箱中資料集的任何 [!UICONTROL Customer Journey Analytics] 連線。目前，系統不會自動刪除與被刪除的沙箱繫結的 CJA [!UICONTROL 連線]。 |
 | 刪除 [!UICONTROL Adobe Experience Platform] 中的結構描述，但不刪除與此結構描述相關聯的資料集 | [!UICONTROL Adobe Experience Platform] 不允許刪除與一或多個[!UICONTROL 資料集]相關聯的[!UICONTROL 結構描述]。不過，擁有適當權限的管理員可以先刪除資料集，再刪除結構描述。 |
-| 刪除 [!UICONTROL Adobe Experience Platform] Data Lake 中的資料集 | 如果刪除 AEP Data Lake 中的資料集，該資料集的資料將停止流向包含該資料集的任何 CJA 連線。 系統會從關聯的 CJA 連線中自動刪除該資料集中的任何資料。 |
+| 刪除 [!UICONTROL Adobe Experience Platform] Data Lake 中的資料集 | 如果刪除 AEP Data Lake 中的資料集，該資料集的資料將停止流向包含該資料集的任何 CJA 連線。系統會從關聯的 CJA 連線中自動刪除該資料集中的任何資料。 |
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的資料集 | 請與您的 Adobe 客戶經理聯絡，以便展開刪除已儲存連線中的資料集流程。 |
 | 從資料集中刪除批次 (在 [!UICONTROL Adobe Experience Platform] 中) | 如果從 [!UICONTROL Adobe Experience Platform] 資料集中刪除批次資料，該批次資料會從包含該特定批次資料的所有 CJA 連線中移除。[!UICONTROL Adobe Experience Platform] 中的批次資料刪除後，CJA 會收到相關通知。 |
 | 當批次&#x200B;**正要擷取**&#x200B;到 [!UICONTROL Customer Journey Analytics] 中時將它刪除 | 如果資料集中只有一筆批次資料，該批次資料中的所有或部分資料都不會顯示於 [!UICONTROL Customer Journey Analytics]。系統會復原匯入作業。舉例來說，如果資料集含有 5 筆批次資料，其中 3 筆在資料集遭刪除前就已匯入完成，則該 3 筆批次資料的資料就會顯示於 [!UICONTROL Customer Journey Analytics]。 |
@@ -211,7 +211,7 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 
 +++**如果我是現有 [!DNL Data Workbench]客戶，現在是否可以改用 Customer Journey Analytics？**
 
-這取決於您的使用案例 - 請與您的 Adobe 帳戶團隊合作。 您目前的使用案例可能已經很適合使用 Customer Journey Analytics！
+這取決於您的使用案例 - 請與您的 Adobe 帳戶團隊合作。您目前的使用案例可能已經很適合使用 Customer Journey Analytics！
 
 +++
 
@@ -221,9 +221,9 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 
 ## 10. 關於使用超額 {#overage}
 
-Adobe 會定期監控和執行使用量限額。 「資料列」指可用於 Customer Journey Analytics 中分析的每日平均資料列。
+Adobe 會定期監控和執行使用量限額。「資料列」指可用於 Customer Journey Analytics 中分析的每日平均資料列。
 
-例如，如果您的合約讓您有權使用 100 萬筆資料列。假設在使用 Customer Journey Analytics 的第 1 天，您可以上傳 200 萬筆資料列。 您要在第 2 天刪除 100 萬筆資料列，並在剩餘的授權期限內將使用量維持在最大使用量 (即 100 萬筆資料列) 以內。 根據您的合約條款，由於您超出了「資料列」授權權利，您仍然可能需支付按比例計算的第 1 天超額使用費。
+例如，如果您的合約讓您有權使用 100 萬筆資料列。假設在使用 Customer Journey Analytics 的第 1 天，您可以上傳 200 萬筆資料列。您要在第 2 天刪除 100 萬筆資料列，並在剩餘的授權期限內將使用量維持在最大使用量 (即 100 萬筆資料列) 以內。根據您的合約條款，由於您超出了「資料列」授權權利，您仍然可能需支付按比例計算的第 1 天超額使用費。
 
 ## 11. 診斷資料差異 {#discrepancies}
 
