@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
 source-git-commit: 95c1f15cf5a3e807c101d356c5452f37ea2a78e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 99%
 | 地理細分維度 | 收集到 Adobe Analytics 的所有 GeoSegmentation/地理位置都會透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)流入 CJA。 未使用 Analytics 來源連接器的實作 (例如仰賴 AEP Web SDK 進行數位資料收集的實作) 將不會具有自動執行的完整地理位置查詢：支援國家/地區和美國州別，但不支援城市和郵遞區號。 |
 | 面板 | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。不支援區段比較面板和 Analytics for Target (A4T) 面板。 |
 | 處理規則 | 對於以 Analytics 來源連接器為基礎的資料集，仍會套用處理規則。 [Adobe Experience Platform 中的資料準備功能](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)也可用來取代直接送到 Platform 的資料適用的處理規則。 |
-| A4T | 透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)中的欄位提供部分支援。已規劃在Target活動和體驗上支援A4T易記名稱。 |
+| A4T | 透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)中的欄位提供部分支援。已規劃目標活動和體驗支援 A4T 易記名稱。 |
 
 {style=&quot;table-layout:auto&quot;}
 
