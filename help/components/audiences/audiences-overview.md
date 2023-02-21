@@ -2,23 +2,23 @@
 title: CJA 對象發佈總覽
 description: 了解 Customer Journey Analytics 中發佈對象的概念
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: eba2eb71ca434e0306c018b80209caf52266ee15
+source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 97%
 
 ---
 
 # CJA 對象發佈總覽
 
-您現在可以將 Customer Journey Analytics (CJA) 中發現的對象建立並發佈到 Adobe Experience Platform 中的[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant) (RTCP)，以用於客戶目標定位和個人化。 
+您現在可以將 Customer Journey Analytics (CJA) 中發現的對象建立並發佈到 Adobe Experience Platform 中的[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant?lang=tw) (RTCP)，以用於客戶目標定位和個人化。 
 
 發佈對象有助於理解情況，來啟用從 CJA 中獲得的分析並據以採取行動。 這些動作可能包括：
 
 * 將對象用在 Adobe Journey Optimizer 中的歷程。
 * 透過 Experience Platform 目的地功能，將對象匯出給第三方。
 * 使用衍生自 CJA 中事件型資料的有用屬性，來擴充即時客戶個人檔案。
-* 在發佈對象後以最小的延遲完成所有這些動作 (幾分鐘)
+* 發佈對象後，以最低的延遲執行上述操作。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)
 * 發佈單次對象或重複對象
 
 ## 重要術語
