@@ -4,9 +4,9 @@ title: 將 Attribution AI 與 CJA 整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: 195a89588d83e27eceb58fec8c66c098f1971250
-workflow-type: ht
-source-wordcount: '889'
+source-git-commit: ab3b9bdccbd92873a6fe11a1c7605692d2a0da8b
+workflow-type: tm+mt
+source-wordcount: '812'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ Attribution AI 支援兩種類別的分數：演算法及規則型。
 
 ### 步驟 1：建立 Attribution AI 執行個體
 
-在 Experience Platform 中，藉由選取及對應資料、定義事件及訓練您的資料來建立 Attribution AI 執行個體，如[這裡](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html?lang=zh-Hant)所述。
+在 Experience Platform 中，藉由選取及對應資料、定義事件及訓練您的資料來建立 Attribution AI 執行個體，如[這裡](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/user-guide.html)所述。
 
 ![AAI 執行個體](assets/aai-instance.png)
 
@@ -74,11 +74,7 @@ Attribution AI 支援兩種類別的分數：演算法及規則型。
 
 ![AAI 維度](assets/aai-dims.png)
 
->[!IMPORTANT]
->
->這些維度和量度在原生上並不是以這種方式命名。 這些都是「易記名稱」。 [Attribution AI 中的命名慣例](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/input-output.html?lang=zh-Hant#attribution-ai-output-data)會依循結構描述路徑。 我們建議您在 CJA 中重新命名長度較長的 AAI 結構描述路徑名稱，改成較短且方便易記的名稱 (維度/量度)。 方法是前往「**[!UICONTROL 資料檢視]** > **[!UICONTROL 編輯資料檢視]** > **[!UICONTROL 元件]** 標籤 > **[!UICONTROL 結構描述欄位]**」-> 按一下「結構描述欄位 -> **[!UICONTROL 元件名稱]**」。
 
-![變更維度名稱](assets/change-name.png)
 
 **包含受影響分數和累加分數的訂單**
 
