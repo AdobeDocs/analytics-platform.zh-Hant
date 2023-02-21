@@ -4,10 +4,10 @@ title: 將 Attribution AI 與 CJA 整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
-source-git-commit: ab3b9bdccbd92873a6fe11a1c7605692d2a0da8b
+source-git-commit: 52f9cc80f9e0608f8d3ad522da488bfceb8d0dc0
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 87%
 
 ---
 
@@ -74,7 +74,15 @@ Attribution AI 支援兩種類別的分數：演算法及規則型。
 
 ![AAI 維度](assets/aai-dims.png)
 
+AAI中的原始分數輸出具有巢狀結構，欄位的路徑可能夠長到足以填滿表格或視覺效果中的大部分空間。 為了簡潔， [!UICONTROL 顯示名稱] 會依照下列規則自動產生並在CJA中運用：
 
+* 所有欄位都有「AAI」首碼
+* 對於接觸點欄位：
+   * 對於屬於分數XDM的欄位，在CJA中顯示為 `AAI T {field name}`
+   * 若為以passThrough欄包含的欄位，在CJA中會顯示為 `AAI T PT {field name}`
+* 對於轉換欄位：
+   * 對於屬於分數XDM的欄位，在CJA中會顯示為 `AAI C {field name}`
+   * 若為以passThrough欄包含的欄位，在CJA中會顯示為 `AAI C PT {field name}`
 
 **包含受影響分數和累加分數的訂單**
 
