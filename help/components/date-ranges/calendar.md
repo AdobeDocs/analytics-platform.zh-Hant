@@ -4,10 +4,10 @@ title: 日曆和日期範圍概述
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: 969040538e12ef3c3d15881ae225af02bef1cba4
-workflow-type: ht
-source-wordcount: '723'
-ht-degree: 100%
+source-git-commit: 524aed20a62b8d8648230be81c63f9c58c84ae87
+workflow-type: tm+mt
+source-wordcount: '822'
+ht-degree: 87%
 
 ---
 
@@ -68,3 +68,10 @@ ht-degree: 100%
 ### 關於使用滾動日期和相對面板日期範圍的區段 {#segments-relative-dates}
 
 如果您建立一個區段或使用具有滾動日期的區段，例如，過去 7 天或過去 2 週，且您點選區段預覽，此時，系統將從&#x200B;*今天*&#x200B;開始滾動日期，而不是從面板開始日期來滾動。因此，當您實際使用表中的區段時，區段的預覽將不相符。預覽會受影響，而區段本身不會受影響。
+
+## 面板日期範圍和預覽准則 {#guidelines-panel-dates}
+
+* 從2月版開始，元件和資料預覽將以面板日期範圍為基礎，而非最近90天。
+* 左側邊欄中列出的所有元件都可依據面板日期範圍使用。
+* 區段和計算量度產生器中的所有日期預覽都將根據面板日期範圍（除非從沒有相關聯面板的元件管理員存取，否則仍會根據過去90天進行）。
+* 任何資料預覽都會根據面板日期範圍顯示資料或元件。
