@@ -1,13 +1,13 @@
 ---
-title: 將 Adobe Journey Optimizer 與 Customer Journey Analytics 整合
+title: 將Adobe Journey Optimizer(AJO)與Customer Journey Analytics(CJA)整合
 description: 引進 AJO 產生的資料並在 CJA 內使用 Analysis Workspace 加以分析。
-source-git-commit: b24ad572ca36bbafffcd242fe257a2113977392d
+exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
+source-git-commit: 3a4dbe9a87f8e195a4daf78423d29d73f2be0f83
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 53%
 
 ---
-
 
 # 將 Adobe Journey Optimizer 與 Customer Journey Analytics 整合
 
@@ -27,35 +27,56 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 
 在建立連線後，您可以建立一個或多個[資料檢視](/help/data-views/create-dataview.md)來設定 Customer Journey Analytics 中可用的所需維度和量度。
 
-您可以在資料檢視中建立以下量度，以實現與 Journey Optimizer 中類似量度的近似同位。 請參閱資料檢視管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關如何自訂維度和量度的細節。
+>!![NOTE]
+AJO和CJA之間的資料差異通常不到1-2%。 過去兩小時內收集的資料可能會出現較大差異。 使用不包括今天的日期範圍來減少與處理時間有關的差異。
 
-| 量度 | 說明 | 資料檢視設定 |
+### 在資料檢視中設定維度
+
+您可以在資料檢視中建立下列維度，以使用Journey Optimizer中類似的維度來達成近似對等。 請參閱 [元件設定](/help/data-views/component-settings/overview.md) 在「資料檢視管理員」中，以取得有關維度自訂選項的詳細資訊。
+
+| 維度 | 綱要元素 | 元件設定 |
 | --- | --- | --- |
-| 退回數 | 退回的訊息數 | 搭配以下設定使用結構描述字串元素 `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus`：<br>元件類型：量度<br>包含排除值：如果符合任何條件<br>等於：`bounce`<br>等於：`denylist` |
-| 錯誤 | 出錯的訊息數 | 搭配以下設定使用結構描述字串元素 `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus`：<br>元件類型：量度<br>包含排除值：等於 `error` |
-| 排除 | 排除的訊息數 | 搭配以下設定使用結構描述字串元素 `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus`：<br>元件類型：量度<br>包含排除值：等於 `exclude` |
-| 取消訂閱數 | 取消訂閱的計數 | 搭配以下設定使用結構描述字串元素 `_experience.customerJourneyManagement.messageInteraction.interactionType`：<br>元件類型：量度<br>包含排除值：等於 `unsubscribe` |
-| 點擊數 | 訊息內的點擊計數 | 搭配以下設定使用結構描述字串元素 `_experience.customerJourneyManagement.messageInteraction.interactionType`：<br>元件類型：量度<br>包含排除值：等於 `click` |
-| 開啟數 | 開啟的訊息數 | 搭配以下設定使用結構描述字串元素 `_experience.customerJourneyManagement.messageInteraction.interactionType`：<br>元件類型：量度<br>包含排除值：等於 `open` |
-| 垃圾郵件投訴數 | 垃圾郵件投訴計數 | 搭配以下設定使用結構描述字串元素 `_experience.customerJourneyManagement.messageInteraction.interactionType`：<br>元件類型：量度<br>包含排除值：等於 `spam_complaint` |
-| 已成功傳送的訊息數 | 已成功傳送的訊息數 | 搭配以下設定使用結構描述字串元素 `_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus`：<br>元件類型：量度<br>包含排除值：等於 `sent` |
-| 同步失敗數 | 同步失敗的訊息總數 | 搭配以下設定使用結構描述字串元素 `_experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.category`：<br>元件類型：量度<br>包含排除值：等於 `sync` |
+| 歷程名稱 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | 元件類型：Dimension |
+| 歷程名稱和版本 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNameAndVersion` | 元件類型：Dimension |
+| 歷程節點名稱 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | 元件類型：Dimension |
+| 歷程節點類型 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeType` | 元件類型：Dimension |
+| 行銷活動名稱 | `_experience.customerJourneyManagement.`<br>`entities.campaign.name` | 元件類型：Dimension |
+| 管道 | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.channel._id` | 元件類型：Dimension |
+| 推播標題 | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.push.title` | 元件類型：Dimension |
+| 電子郵件主旨 | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.email.subject` | 元件類型：Dimension |
+| 連結標籤 | `_experience.customerJourneyManagement.`<br>`messageInteraction.label` | 元件類型：Dimension |
+| 實驗名稱 | `_experience.customerJourneyManagement.`<br>`entities.experiment.experimentName` | 元件類型：Dimension<br>內容標籤：實驗實驗 |
+| 處理名稱 | `_experience.customerJourneyManagement.`<br>`entities.experiment.treatmentName` | 元件類型：Dimension<br>內容標籤：實驗變體 |
+| 電子郵件傳送失敗原因 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | 元件類型：Dimension |
+| 電子郵件傳送排除原因 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | 元件類型：Dimension |
 
 {style=&quot;table-layout:auto&quot;}
 
-## 使用 Journey Optimizer 量度設定計算量度
+### 在資料檢視中設定量度
+
+您可以在資料檢視中建立以下量度，以實現與 Journey Optimizer 中類似量度的近似同位。 請參閱 [元件設定](/help/data-views/component-settings/overview.md) 在「資料檢視管理器」中，以取得量度自訂選項的詳細資訊。
+
+| 量度 | 說明 | 綱要元素 | 元件設定 |
+| --- | --- | --- | --- |
+| 退回數 | 退回的訊息數，包括傳送後的立即退回和退回。 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度<br>包含排除值：如果符合任何條件<br>等於： `bounce`，等於： `denylist` |
+| 傳送後跳出 | 有些電子郵件服務會報告傳送的電子郵件，稍後再退信。 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.category` | 元件類型：量度<br>包含排除值：等於 `async` |
+| 電子郵件點按次數 | 訊息內的點擊計數. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：量度<br>包含排除值：等於 `click` |
+| 電子郵件開啟 | 開啟的訊息數. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：量度<br>包含排除值：等於 `open` |
+| 錯誤 | 出錯的訊息數。 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度<br>包含排除值：等於 `error` |
+| 排除 | 排除的訊息數。 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度<br>包含排除值：等於 `exclude` |
+| 傳送數 | 電子郵件提供者接受的訊息數。 | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：量度<br>包含排除值：等於 `sent` |
+| 垃圾郵件投訴 | 垃圾郵件投訴計數. | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：量度<br>包含排除值：等於 `spam_complaint` |
+| 取消訂閱數 | 取消訂閱的計數。 | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：量度<br>包含排除值：等於 `unsubscribe` |
+
+{style=&quot;table-layout:auto&quot;}
+
+### 在Analysis Workspace中設定計算量度
 
 為 Journey Optimizer 資料集設定所需的維度和量度後，您也可以設定[計算量度](/help/components/calc-metrics/calc-metr-overview.md)以取得有關該資料的其他見解。 計算量度是根據上面在資料檢視管理器中建立的量度。
 
 | 計算量度 | 說明 | 公式 |
 | --- | --- | --- |
-| 傳送的訊息總數 | 傳送的訊息總數，無論成功還是失敗 | `[Messages successfully sent]` + `[Bounces]` + `[Sync failures]` |
+| 已傳送的訊息 | 已傳送的訊息總數。 包括成功或失敗的消息。 | `[Sends] + [Bounces] - [Bounces After Delivery]` |
+| 傳遞的訊息 | 傳送給客戶的電子郵件數量。 | `[Sends] - [Bounces After Delivery]` |
 
 {style=&quot;table-layout:auto&quot;}
-
-## Journey Optimizer 與 Customer Journey Analytics 之間的報告差異
-
-不同產品之間的資料差異通常是在 1-2%。 不同產品之間的較大差異可能歸因於以下因素：
-
-* 不同產品的傳入資料處理時間可能略有不同，尤其是在過去兩小時內收集的資料。 使用不包括今天的日期範圍來減少與處理時間有關的差異。
-* 計算量度「傳送的訊息總數」不包含「重試」量度。 資料集中不包含「重試」量度的資料，這表明 CJA 報告中的數字可能低於 AJO 報告中的數字。 不過，重試資料會融合到「已成功傳送的訊息數」或「退回數」量度中。 使用一週或更早的日期範圍來減少不同產品之間「傳送的訊息總數」量度的差異。
