@@ -4,10 +4,10 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 95c1f15cf5a3e807c101d356c5452f37ea2a78e9
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
+workflow-type: tm+mt
+source-wordcount: '1525'
+ht-degree: 99%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 | --- | --- |
 | 警報 | 已規劃提供支援。 |
 | 貢獻分析 | 已規劃提供支援。 |
-| Data Warehouse 報表 (100% 列匯出) | 規劃從 Analysis Workspace 介面提供支援。 Adobe Experience Platform [[!UICONTROL 查詢服務]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)也會提供適用於在 CJA 中這些使用案例的介面。 |
+| Data Warehouse報告 | 規劃從 Analysis Workspace 介面提供支援。 Adobe Experience Platform [[!UICONTROL 查詢服務]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)也會提供適用於在 CJA 中這些使用案例的介面。 |
 | 透過裝置圖表進行 ID 拼接 | 已規劃提供支援。 |
 | 專案範本 | 已規劃提供支援。 |
 | 即時報表 | 已規劃提供支援。 |
