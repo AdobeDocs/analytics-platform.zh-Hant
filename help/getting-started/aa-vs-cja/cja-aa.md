@@ -4,10 +4,10 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
+source-git-commit: ca161bd86b4f926991c1adec2ccf3918f2bc4347
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 99%
+source-wordcount: '1595'
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,7 @@ ht-degree: 99%
 | 自訂工作階段化 | 支援所有自訂工作階段化功能，行動背景點擊除外。 |
 | 銷售變數持續性 | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)提供完整支援 |
 | 客戶屬性 | 現在稱為「描述檔資料集」，它們不會自動從 Experience Cloud 匯入，但必須上傳到 AEP，才能在 CJA 中使用。 |
+| 資料摘要 | 透過 [AEP資料存取API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) 和 [AEP目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). 這些選項可將收集或擷取到AEP Data Lake的所有資料，以點擊/列層級匯出。 後置處理資料列不可用，因為後置列是在查詢時計算的。 可透過報表匯出貼文欄。 |
 | 量度去重複化 | 現在於資料檢視中的量度上設定。量度去重複化發生在人員或工作階段層級，而不是資料集、資料檢視或連接層級。 |
 | 進入、退出及逗留的時間等維度和量度 | 系統可支援 (進入與退出現在稱為「工作階段開始」和「工作階段結束」)，不過計算方式稍有不同。 |
 | eVar 持續性設定 | eVar 不再是 CJA 的一部分。 不過持續性設定現在是資料檢視的一部分，可用於所有維度。 請記得，持續性是依據報表時間處理，而非資料收集處理。 「資料檢視」中設定的維度上限為 90 天的持續性，不支援無限制的持續性。 |
@@ -99,7 +100,6 @@ ht-degree: 99%
 | 即時報表 | 已規劃提供支援。 |
 | 區段 IQ | 已規劃提供支援。 |
 | 貨幣轉換 | 已規劃提供支援。 |
-| 資料摘要 | 已規劃透過 AEP 目標提供支援。 |
 | 交易 ID 資料來源 | 已規劃提供支援。 |
 | 將專案/篩選器/計算量度從 AA 移轉到 CJA | 已規劃提供支援。 |
 | 摘要層級資料來源 | 已規劃提供支援。 |
