@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
    + [快速入門指南](../getting-started/cja-getting-started.md)
    + [登陸頁面](../getting-started/landing.md)
    + [常見問題](../getting-started/cja-faq.md)
-   + [比較CJA與BI解決方案](../getting-started/cja-vs-bi.md)
+   + [比較 CJA 和 BI 解決方案](../getting-started/cja-vs-bi.md)
 
 + Customer Journey Analytics 和 Adobe Analytics {#compare-aa-cja}
    + [從 Adobe Analytics 發展而來 ](../getting-started/aa-to-cja.md)
