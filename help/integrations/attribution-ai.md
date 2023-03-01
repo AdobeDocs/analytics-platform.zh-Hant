@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 mini-toc-levels: 3
 source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=zh-Hant) 是 Adobe Experience Platform Intelligent Services 的一部分，它是一種多管道的演算法歸因服務，可計算客戶互動對指定結果的影響和累加影響。 透過 Attribution AI，行銷人員可藉由了解每個客戶在客戶歷程各個階段的互動所產生的影響，以衡量行銷和廣告支出並使其最佳化。
 
-Attribution AI 會與 Customer Journey Analytics (CJA) 進行某種程度的整合，使 Attribution AI 可針對客戶的行銷接觸點和轉換資料來源執行模型。 然後 CJA 會將這些模型輸出當作資料集匯入，或者可以將其與您的其餘 CJA 資料集整合。 接著，您就可以在CJA的資料檢視和報表中運用啟用Attribution AI的資料集。
+Attribution AI 會與 Customer Journey Analytics (CJA) 進行某種程度的整合，使 Attribution AI 可針對客戶的行銷接觸點和轉換資料來源執行模型。 然後 CJA 會將這些模型輸出當作資料集匯入，或者可以將其與您的其餘 CJA 資料集整合。 接著就能在 CJA 中的資料檢視和報告中運用具有 Attribution AI 功能的資料集。
 
 Attribution AI 支援 3 個 Experience Platform 結構描述：體驗事件、Adobe Analytics 和取用者體驗事件。
 
@@ -75,15 +75,15 @@ Attribution AI 支援兩種類別的分數：演算法及規則型。
 
 ![AAI 維度](assets/aai-dims.png)
 
-AAI中的原始分數輸出具有巢狀結構，欄位的路徑可能夠長到足以填滿表格或視覺效果中的大部分空間。 為了簡潔， [!UICONTROL 顯示名稱] 會依照下列規則自動產生並在CJA中運用：
+AAI 中的原始分數輸出具有嵌套綱要，其中欄位路徑的長度足以佔用表格或視覺效果中大部分的空間。為了簡潔表達，會按照以下規則在 CJA 中自動產生[!UICONTROL 顯示名稱]並投入使用：
 
 * 所有欄位都有「AAI」首碼
-* 對於接觸點欄位：
-   * 對於屬於分數XDM的欄位，在CJA中顯示為 `AAI T {field name}`
-   * 若為以passThrough欄包含的欄位，在CJA中會顯示為 `AAI T PT {field name}`
-* 對於轉換欄位：
-   * 對於屬於分數XDM的欄位，在CJA中會顯示為 `AAI C {field name}`
-   * 若為以passThrough欄包含的欄位，在CJA中會顯示為 `AAI C PT {field name}`
+* 如果是接觸點欄位：
+   * 對於作為分數 XDM 一部分的欄位，其在 CJA 中會顯示為 `AAI T {field name}`
+   * 對於作為 passThrough 欄納入的欄位，其在 CJA 中會顯示為 `AAI T PT {field name}`
+* 如果是轉換欄位：
+   * 對於作為分數 XDM 一部分的欄位，其在 CJA 中會顯示為 `AAI C {field name}`
+   * 對於作為 passThrough 欄納入的欄位，其在 CJA 中會顯示為 `AAI C PT {field name}`
 
 **包含受影響分數和累加分數的訂單**
 
