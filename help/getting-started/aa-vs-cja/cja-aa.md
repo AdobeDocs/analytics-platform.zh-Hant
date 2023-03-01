@@ -4,16 +4,16 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: ca161bd86b4f926991c1adec2ccf3918f2bc4347
+source-git-commit: 538c0d2858983fb508393c92686f3e7cc52578fa
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 95%
+source-wordcount: '2024'
+ht-degree: 75%
 
 ---
 
 # Customer Journey Analytics 功能支援
 
-下表列出 Adobe Analytics 中支援、部分支援或不支援的 Customer Journey Analytics (CJA) 功能。 這些清單會隨著 CJA 新增功能而變更。
+下表列出Adobe Analytics(AA)中支援、部分支援或不支援Customer Journey Analytics(CJA)的功能，以及AA中不支援或不支援CJA的功能。 這些清單會隨著 CJA 新增功能而變更。
 
 ## 完整支援的功能/元件
 
@@ -94,7 +94,7 @@ ht-degree: 95%
 | --- | --- |
 | 警報 | 已規劃提供支援。 |
 | 貢獻分析 | 已規劃提供支援。 |
-| Data Warehouse報告 | 規劃從 Analysis Workspace 介面提供支援。 Adobe Experience Platform [[!UICONTROL 查詢服務]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)也會提供適用於在 CJA 中這些使用案例的介面。 |
+| Data Warehouse 報告 | 規劃從 Analysis Workspace 介面提供支援。 Adobe Experience Platform [[!UICONTROL 查詢服務]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)也會提供適用於在 CJA 中這些使用案例的介面。 |
 | 透過裝置圖表進行 ID 拼接 | 已規劃提供支援。 |
 | 專案範本 | 已規劃提供支援。 |
 | 即時報表 | 已規劃提供支援。 |
@@ -122,3 +122,20 @@ ht-degree: 95%
 * Reports &amp; Analytics 書籤
 * Reports &amp; Analytics 目標
 * 行動服務
+
+## Adobe Analytics未提供CJA功能
+
+下表列出可在Customer Journey Analytics(CJA)中使用，但在Adobe Analytics(AA)中不支援的功能。
+
+| 功能 | 更多詳情 |
+| --- | --- |
+| 任何資料的容納 | CJA與Experience Platform掌握各種資料結構和類型的能力結合。 使用 [Experience Data Model(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)，資料可統一表示和組織，可進行組合和探索。 Adobe Analytics主要專注於網頁和行動分析資料，並具備 [匯入資料](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=zh-Hant). |
+| 不限數量的客戶Dimension和量度 | CJA維度不限數量；值可以是數值、文字、物件、清單或全部的混合。 Dimension可以巢狀或階層。 Analytics最多支援75個Prop和250個eVar。 這可移除目前使用維度和事件的測量限制。 |
+| 不限數量的基數/不重複值 | CJA支援不限數量的不重複值或維度項目，可在單一維度中加以報告。 AA限制為50萬個不重複值。 這可移除目前大規模Analytics實作所存在的報表和分析限制。 |
+| 報表時間轉換 | CJA中的報表時間轉換（更名為資料檢視）可讓您進一步解譯連線中的資料。 您可以變更或移除資料，無需重新實作；使用子字串來操控維度；從任何值建立量度；篩選子事件。 這些都可以非破壞性地完成。 Adobe Analytics透過虛擬報表套裝和工作階段化提供有限的功能。 |
+| 實驗分析 | CJA可從定義為連線一部分的任何資料來源評估任何實驗的提升度和可信度。 這可讓您了解跨任何管道之客戶互動之間的因果關係。 Analytics僅限於透過Analytics for Target(A4T)整合進行實驗分析。 |
+| 跨裝置分析 | CJA支援未驗證和已驗證工作階段中，裝置專屬資料集的流暢組合。 您也可以回填歷史資料至已知裝置。 在Analytics中，此功能僅限於單一報表套裝和裝置圖表的使用。 |
+| SQL訪問 | CJA可使用「資料Distiller」選項，移除Adobe後端處理上所收集資料的限制。 您可以使用SQL修改資料，建立業務特有的新值和資料集，並繼續探索。 Analytics不支援對其資料進行任何類型的SQL存取。 |
+| 增強的安全性和隱私選項 — HIPAA就緒性 | CJA為HIPAA做好準備，並為法規遵從性提供了額外的安全選項。 Adobe Analytics沒有準備好HIPAA。 |
+
+{style=&quot;table-layout:auto&quot;}
