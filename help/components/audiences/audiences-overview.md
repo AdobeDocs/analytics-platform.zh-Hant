@@ -3,9 +3,9 @@ title: CJA 對象發佈總覽
 description: 了解 Customer Journey Analytics 中發佈對象的概念
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 source-git-commit: 955f4543a132126deee52b7dfe3398b742022069
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 * 將對象用在 Adobe Journey Optimizer 中的歷程。
 * 透過 Experience Platform 目的地功能，將對象匯出給第三方。
 * 使用衍生自 CJA 中事件型資料的有用屬性，來擴充即時客戶個人檔案。
-* 發佈對象後，以最低的延遲執行上述操作。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)
+* 在發佈對象後以最小的延遲完成所有這些動作。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)
 * 發佈單次對象或重複對象
 
 ## 重要術語
