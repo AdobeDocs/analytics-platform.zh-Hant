@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 2 月** |  |
-| 比較CJA與BI解決方案 | 新文檔 [比較](../getting-started/cja-vs-bi.md) Customer Journey Analytics到典型BI解決方案。 |
+| 比較 CJA 和 BI 解決方案 | Customer Journey Analytics 與典型 BI 解決方案[比較](../getting-started/cja-vs-bi.md)的新文檔。 |
 | 更新至 Audiences 文件 | 有關[延遲的注意事項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)的新章節。 |
 | 更新至 Audiences 文件 | 在您建立對象後，Adobe 會為每個新的 CJA 對象建立一個 Experience Platform [串流區段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#after-audience-created)。 |
 | Workspace 行事曆和日期範圍 | 更新內容以說明相對日期範圍、公式計算更新和行事曆 UI 變更。查看[關於相對面板日期範圍](/help/components/date-ranges/calendar.md#relative-panel-dates)。 |
