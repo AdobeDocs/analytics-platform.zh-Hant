@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9ea7184ecc13b310072e6f2f6d0ed5bf29abaa81
-workflow-type: ht
-source-wordcount: '1430'
-ht-degree: 100%
+source-git-commit: 04b5e4df5ad07e701e3fb812df841b457e7b9c6f
+workflow-type: tm+mt
+source-wordcount: '1454'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 | 功能 | 說明 |
 | --- | --- |
+| **2023 年 3 月** |  |
+| 功能支援 | 已更新 [Customer Journey Analytics功能支援](/help/getting-started/aa-vs-cja/cja-aa.md) CJA中提供但AA中不提供或支援的功能表。 |
 | **2023 年 2 月** |  |
 | 比較 CJA 和 BI 解決方案 | Customer Journey Analytics 與典型 BI 解決方案[比較](../getting-started/cja-vs-bi.md)的新文檔。 |
 | 更新至 Audiences 文件 | 有關[延遲的注意事項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)的新章節。 |
