@@ -4,10 +4,10 @@ description: 跨管道分析常見問題集
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
-source-wordcount: '1067'
-ht-degree: 100%
+source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+workflow-type: tm+mt
+source-wordcount: '1068'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 永久 ID 的數量與暫時 ID 無關。 單一使用者可使用任意數量的裝置，這不會影響跨管道分析功能彙整不同裝置資料的能力。
 
-## 如果我連絡客戶經理，向對方索取所需資訊，需要多久才能使用金鑰已重設的資料集？
+## 我聯絡Adobe帳戶團隊並取得所需資訊後，重新輸入的資料集需要多久才能使用？
 
 Adobe 啟用跨頻道分析後，需要約一週才能使用即時彙整功能。能否使用回填功能取決於現有資料的數量。如果是小型資料集 (每天不到 100 萬個事件)，通常需要幾天後才能使用，大型資料集 (每天 10 億個事件) 則需等待一週或更久時間。
 
