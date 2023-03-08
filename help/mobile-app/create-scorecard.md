@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 05cc4410d78e69919447356ea343543c3415afd7
+source-git-commit: 7065215f89f964e7504f3e95996b352410b89779
 workflow-type: tm+mt
 source-wordcount: '2370'
 ht-degree: 76%
@@ -225,7 +225,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
 
-**建立資料動態**
+**建立資料動態** {#data-story-create}
 
 將多張詳細資料投影片新增至圖磚，以建立您的資料歷程。
 
