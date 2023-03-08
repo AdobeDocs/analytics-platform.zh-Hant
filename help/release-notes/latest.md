@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新 CJA 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: c6714b375c8e74f12018fe54d80eb411e55e7097
+source-git-commit: d1fec541a41f01bf249cedb5f7e535166174a372
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 52%
+source-wordcount: '345'
+ht-degree: 43%
 
 ---
 
@@ -23,6 +23,7 @@ Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運�
 | **Analysis Workspace中的資料字典** | 資料字典可協助使用者和管理員持續追蹤，並更清楚了解其CJA環境中的元件（維度、量度）。 了解更多 | 2023年3月8日 | 2023年3月22日 |
 | **行動控制面板中的資料動態** | 「資料動態」可讓您將多個可自訂的詳細資料檢視新增至行動計分卡專案中的圖磚。 使用資料故事來深入了解關鍵驅動因素、相關量度，以及客戶歷程中的不同步驟。 您可以輕鬆輕掃這些檢視，了解關鍵量度背後的整個故事。 了解更多 | 不適用 | 2023年3月8日 |
 | **已排程專案的到期日** | 無論排程頻率為何，您都可以將已排程專案的到期日上限設定為最多一年。 | 不適用 | 2023年3月8日 |
+| **專案的連結共用（不需登入） — 僅限私人測試版存取** | 您現在可以與無權存取CJA的使用者共用Analysis Workspace專案的唯讀連結。 您可以與組織外部人員，或組織內未布建CJA的人員共用專案連結。 了解更多 (關注)<p>若要加入私人測試版，請連絡您的Adobe客戶團隊。 | 2023年3月15日（非公開測試版） | 2023 年 4 月 |
 
 {style="table-layout:auto"}
 
