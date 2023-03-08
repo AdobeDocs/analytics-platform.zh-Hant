@@ -5,10 +5,10 @@ title: 為專案排程
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 5adf47139a3a083f90007dfab3bc63fd187ddcff
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+source-git-commit: 06ec1145e25275dab0b1bf2388caae9eb8e6bcfe
+workflow-type: tm+mt
+source-wordcount: '886'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 | [!UICONTROL 所有者] | 建立及擁有專案的人。 |
 | [!UICONTROL 標記] | (選擇性) 標記是組織專案的好方法。 所有使用者都可建立標記，並將一個或多個標記套用到專案。 不過，您只能看見自己所擁有或他人與您共用的那些專案的標記。 |
 | [!UICONTROL 已傳遞到] | 此排程專案的收件者。 |
-| [!UICONTROL 到期日] | 預設到期日取決於排程頻率。請參閱下方的「排程專案到期日」。 |
+| [!UICONTROL 到期日] | 無論排程頻率為何，您都可以將到期日設定為最多一年。 |
 | [!UICONTROL 頻率] | 您想要將此排程專案傳送給收件者的頻率。 |
 | [!UICONTROL 執行時間] | 在一天中的什麼時間傳送此排程專案。 |
 | [!UICONTROL 查詢數] | 針對此專案執行的查詢數。 |
@@ -76,15 +76,6 @@ ht-degree: 100%
 | **[!UICONTROL 檢視排程 ID]** | 導覽至右上角的欄選項，然後將「排程 ID」欄新增至表格。排程的 ID 對除錯而言通常很實用。 |
 
 「排程專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已被停用，所有已安排的傳送將停止。
-
-## 已排程專案的到期日 {#expiration}
-
-已排程專案的到期日取決於已排程的傳遞頻率：
-
-* 每小時傳遞在一週後到期。
-* 每日傳遞在一個月後到期。
-* 每週傳遞在六個月後到期。
-* 每月/每年傳遞在一年後到期。
 
 ## 密碼保護排程專案 {#password}
 
