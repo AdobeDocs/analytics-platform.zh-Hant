@@ -2,9 +2,9 @@
 title: 將 Adobe Journey Optimizer (AJO) 與 Customer Journey Analytics (CJA) 整合
 description: 引進 AJO 產生的資料並在 CJA 內使用 Analysis Workspace 加以分析。
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: adf5671f80b122b7bcc77dea9c3e57d133961266
+source-git-commit: 750e96bdf6f020e0f5c0fbaf95cdd10c42b95e55
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '735'
 ht-degree: 89%
 
 ---
@@ -35,8 +35,10 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 
 在建立連線後，您可以建立一個或多個[資料檢視](/help/data-views/create-dataview.md)來設定 Customer Journey Analytics 中可用的所需維度和量度。
 
->!![NOTE]
-AJO 和 CJA 之間的資料差異通常小於 1-2%。過去兩小時內收集的資料可能存在較大差異。使用不包括今天的日期範圍來減少與處理時間有關的差異。
+>[!NOTE]
+>
+>AJO 和 CJA 之間的資料差異通常小於 1-2%。過去兩小時內收集的資料可能存在較大差異。使用不包括今天的日期範圍來減少與處理時間有關的差異。
+
 
 ### 在資料檢視中設定維度
 
@@ -58,7 +60,7 @@ AJO 和 CJA 之間的資料差異通常小於 1-2%。過去兩小時內收集的
 | 電子郵件傳遞失敗原因 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.reason` | 元件類型：維度 |
 | 電子郵件傳遞排除原因 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageExclusion.reason` | 元件類型：維度 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 在資料檢視中設定量度
 
@@ -76,7 +78,7 @@ AJO 和 CJA 之間的資料差異通常小於 1-2%。過去兩小時內收集的
 | 垃圾郵件申訴 | 垃圾郵件投訴計數。 | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：計量<br>包括排除值：等於 `spam_complaint` |
 | 取消訂閱數 | 取消訂閱的計數。 | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：計量<br>包括排除值：等於 `unsubscribe` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 設定 Analysis Workspace 中的計算量度
 
@@ -87,4 +89,4 @@ AJO 和 CJA 之間的資料差異通常小於 1-2%。過去兩小時內收集的
 | 訊息已傳送 | 已傳送的訊息總數。包括成功或失敗的訊息。 | `[Sends] + [Bounces] - [Bounces After Delivery]` |
 | 訊息已傳遞 | 傳遞給客戶的電子郵件數。 | `[Sends] - [Bounces After Delivery]` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
