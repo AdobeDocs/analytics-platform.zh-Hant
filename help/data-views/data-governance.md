@@ -2,10 +2,10 @@
 title: 標籤和原則
 description: 了解在 AEP 中定義的資料標籤和原則如何影響 CJA 中的資料檢視和報告。
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 7962114aaab42a283f1cb35a312b0a707038c31a
-workflow-type: ht
-source-wordcount: '468'
-ht-degree: 100%
+source-git-commit: 50cc73f8935bf9a692f52b7bee500da63b31cffe
+workflow-type: tm+mt
+source-wordcount: '481'
+ht-degree: 90%
 
 ---
 
@@ -13,13 +13,17 @@ ht-degree: 100%
 
 在 Experience Platform 中建立資料集時，您可以針對資料集中的部分或全部元素建立[資料使用標籤](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant)。到目前為止，這些標籤尚未在 CJA 中公開。有了此版本，您可以在 CJA 中檢視這些標籤和原則。
 
-這些標籤與 CJA 特別有關：
+CJA特別感興趣的標籤：
 
-* `C8` 標籤 - **[!UICONTROL 無測量]**。此標籤表示資料無法用於組織網站或應用程式上的分析。
+* `C8` 標籤 - **[!UICONTROL 無測量]**。此標籤表示資料無法用於貴組織網站或應用程式上的分析。
 
 * `C12` 標籤 - **[!UICONTROL 無一般資料匯出]**。依此方式標示的結構元素欄位無法從 CJA (透過報告、匯出、API 等) 匯出或下載。
 
-當中的標示並不表示已強制執行資料使用標籤。那是使用原則之處。您透過 Experience Platform 中的[原則服務 API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=zh-Hant) 建立您的原則。
+>[!NOTE]
+>
+>資料使用量標籤不會自動傳播至匯整的資料集。 不過，您可以手動新增。
+
+當中的標示並不表示已強制執行資料使用標籤。這就是政策的用途。 您透過 Experience Platform 中的[原則服務 API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=zh-Hant) 建立您的原則。
 
 兩個 Adobe 定義的原則會在 CJA 中出現，並影響報告和下載/共用：
 
@@ -36,7 +40,7 @@ ht-degree: 100%
 | 右邊邊欄在[元件設定](/help/data-views/component-settings/overview.md)下方 | 此處列出任何[!UICONTROL 資料使用標籤]：<p>![](assets/data-label-right.png) |
 | 將資料標籤做為一欄新增 | 您可以將[!UICONTROL 資料使用標籤]做為一欄新增到資料檢視中的「[!UICONTROL 包含的元件]」欄。按一下欄選擇棄，然後選取&#x200B;**[!UICONTROL 資料使用標籤]**：<p>![](assets/data-label-column.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 篩選資料檢視中的資料控管標籤
 
