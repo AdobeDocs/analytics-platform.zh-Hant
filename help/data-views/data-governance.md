@@ -2,18 +2,18 @@
 title: 標籤和原則
 description: 了解在 AEP 中定義的資料標籤和原則如何影響 CJA 中的資料檢視和報告。
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: 50cc73f8935bf9a692f52b7bee500da63b31cffe
+source-git-commit: ba4b1e61891c21610e3bd84a41581b1f6cea6234
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 90%
+source-wordcount: '470'
+ht-degree: 79%
 
 ---
 
 # 標籤和原則
 
-在 Experience Platform 中建立資料集時，您可以針對資料集中的部分或全部元素建立[資料使用標籤](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant)。到目前為止，這些標籤尚未在 CJA 中公開。有了此版本，您可以在 CJA 中檢視這些標籤和原則。
+在 Experience Platform 中建立資料集時，您可以針對資料集中的部分或全部元素建立[資料使用標籤](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant)。您可以在CJA中檢視這些標籤和原則。
 
-CJA特別感興趣的標籤：
+CJA特別感興趣的下列標籤：
 
 * `C8` 標籤 - **[!UICONTROL 無測量]**。此標籤表示資料無法用於貴組織網站或應用程式上的分析。
 
@@ -44,7 +44,7 @@ CJA特別感興趣的標籤：
 
 ## 篩選資料檢視中的資料控管標籤
 
-在資料檢視編輯器中，按一下左側邊欄中的篩選圖示，然後依&#x200B;**[!UICONTROL 資料控管]**&#x200B;和&#x200B;**[!UICONTROL 標籤]**&#x200B;類型篩選資料檢視元件：
+在資料檢視編輯器中，按一下 [!UICONTROL 篩選] 圖示，並依 **[!UICONTROL 資料控管]** 和類型 **[!UICONTROL 標籤]**:
 
 ![](assets/filter-labels.png)
 
@@ -54,7 +54,7 @@ CJA特別感興趣的標籤：
 
 您可以查看是否開啟原則 (封鎖將某些 CJA 資料檢視元素用於分析或匯出)。
 
-再次按一下左側邊欄中的篩選圖示，然後在「**[!UICONTROL 資料控管]**」下方按一下「**[!UICONTROL 原則]**」。
+再次按一下 [!UICONTROL 篩選] 圖示 **[!UICONTROL 資料控管]**，按一下 **[!UICONTROL 原則]**:
 
 ![](assets/filter-policies.png)
 
