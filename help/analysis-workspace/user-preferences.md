@@ -4,10 +4,10 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 0c41c5a4c79105520f6f98e9e9ea60f19befd608
+source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 84%
+source-wordcount: '3020'
+ht-degree: 82%
 
 ---
 
@@ -186,8 +186,8 @@ ht-degree: 84%
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **公用存取連結** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
-|  | 停用所有公用存取連結 | <p>停用所有現有的公用存取連結，並防止您組織中的使用者建立新連結。 這表示使用者無法與沒有Analysis Workspace帳戶的使用者共用Adobe Customer Journey Analytics專案。 使用者只能與組織內的其他Customer Journey Analytics使用者共用專案。</p> <p>當公共連結被禁用時：</p> <ul><li><p>使用者無法建立公開存取連結</p><p>「共用公用連結」選項會從「共用」功能表中移除。 這表示使用者無法再與組織中沒有Analysis Workspace帳戶的人員共用專案，如 [與任何人共用公開連結（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>任何現有的公用連結都會停用</p></li><p>如果停用公用連結，然後重新啟用，則先前停用的所有連結不會自動重新啟用。 在此情況下，使用者必須從「共用專案」對話方塊中，為每個專案手動重新啟用這些功能。</p> |
-|  | 需要Experience Cloud驗證 | <p>啟用此選項時，只有具備同盟ID且可登入Adobe Experience Cloud的收件者才能存取共用公用連結。</p> <p>啟用此選項後，每當使用者建立Analysis Workspace專案的連結時，「需要Experience Cloud驗證」選項就會在共用對話方塊中啟用，而共用連結的使用者無法停用此選項。 (如需使用者如何與組織外部的使用者共用專案的詳細資訊，請參閱 [與任何人共用公開連結（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).)</p> <p>啟用此選項時，請考量下列事項：</p><ul><li><p>啟用此選項時，所有目前未啟用Experience Cloud的作用中公用連結都會停用。</p></li> <li><p>如果此選項先啟用後再停用，先前停用的所有連結都不會自動重新啟用。 在此情況下，使用者必須從「共用專案」對話方塊手動重新啟用他們。</p></li> <li><p>只有在貴組織中實作了SSO時，才可使用此選項。 有關係統管理員如何為貴組織啟用SSO的資訊，請參見 [設定身分和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}.</p><p>如果已為貴組織設定SSO，請檢查主控台中是否已實作任何類型的自動帳戶建立。 通常，系統管理員會設定此設定，如 [啟用自動帳戶建立](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>如果貴組織所在的行業需要HIPAA法規遵從，則此選項將自動啟用，並且無法禁用。</p></li></ul> |
+|  | 僅允許與Workspace使用者共用 | <p>啟用此選項時：</p> <ul><li><p>「與任何人共用」選項會從「共用」功能表中移除。 這表示使用者無法再與組織中沒有Analysis Workspace帳戶的人員共用專案，如 [與任何人共用公開連結（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>先前透過「與他人共用」共用選項而收到專案存取權的使用者，無法再存取專案。</p></li><p>**注意：** 如果啟用此選項（僅允許與工作區使用者共用），之後又停用（允許與任何人共用），先前透過「與任何人共用」共用選項收到專案存取權的使用者，不會自動重新取得專案存取權。 在此情況下，共用專案的使用者必須啟用 [!UICONTROL **連結處於活動狀態**] 與他人共用專案時可用的選項([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**])，如中所述 [與任何人共用公開連結（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p> |
+|  | 需要 Experience Cloud 驗證 | <p>啟用後，Analysis Workspace中「與任何人共用」選項可供存取專案的使用者，必須使用其Experience Cloud憑證進行驗證。</p> <p>啟用此選項後，每當用戶使用「與任何人共用」共用選項共用項目時，「需要Experience Cloud驗證」選項就會在「共用」對話框中啟用，並且共用項目的用戶不能禁用該選項。 (如需使用者如何與他人共用專案的相關資訊，請參閱 [與任何人共用公開連結（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).)</p> <p>啟用此選項時，請考量下列事項：</p><ul><li><p>啟用此選項後，先前與「與任何人共用」共用選項共用且未啟用「需要Experience Cloud驗證」選項的所有專案都會停用。</p></li> <li><p>如果啟用此選項(需要Experience Cloud驗證)，之後又停用（允許任何具有此連結的人存取專案），先前透過「與他人共用」共用選項而收到專案存取權的人，不會自動重新取得專案存取權。 在此情況下，共用專案的使用者必須啟用「連結作用中」選項，此選項可在與他人共用專案時使用([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**] > [!UICONTROL **連結處於活動狀態**])，如中所述 [與任何人共用公開連結（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>只有在貴組織中實作了SSO時，才可使用此選項。 有關係統管理員如何為貴組織啟用SSO的資訊，請參見 [設定身分和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}.</p><p>如果已為貴組織設定SSO，請檢查主控台中是否已實作任何類型的自動帳戶建立。 通常，系統管理員會設定此設定，如 [啟用自動帳戶建立](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>如果貴組織所在的行業需要HIPAA法規遵從，則此選項將自動啟用，並且無法禁用。</p></li></ul> |
 
 {style="table-layout:auto"}
 

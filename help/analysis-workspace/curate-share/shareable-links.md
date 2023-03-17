@@ -3,10 +3,10 @@ description: 了解如何建立專案或視覺效果的分享連結
 keywords: Analysis Workspace 共用
 title: 建立分享連結
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
-source-git-commit: c419d304e6af77fb61b756aa59faeae88a7c29d5
+source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 81%
+source-wordcount: '338'
+ht-degree: 80%
 
 ---
 
@@ -20,13 +20,13 @@ Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專�
 
 ![](assets/get-project-link.png)
 
-## 取得公開連結
+## 取得唯讀連結以與任何人共用
 
 {{release-limited-testing-section}}
 
-您可以與無法存取Analysis Workspace的使用者共用僅供檢視的連結。
+您可以與無法存取Analysis Workspace專案的使用者共用唯讀連結。
 
-如需詳細資訊，請參閱文章中的「與他人共用公開連結（不需要登入）」 [共用專案](/help/analysis-workspace/curate-share/share-projects.md).
+如需詳細資訊，請參閱文章中的「與他人共用專案（不需要登入）」 [共用專案](/help/analysis-workspace/curate-share/share-projects.md).
 
 ## 取得面板或視覺效果連結 {#panel-link}
 
