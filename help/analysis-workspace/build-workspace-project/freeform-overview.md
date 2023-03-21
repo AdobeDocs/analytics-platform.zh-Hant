@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 專案概觀
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+source-git-commit: c378a7d39c3d2ae388bc3cf2fa1bbc693b0bccb3
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 81%
+source-wordcount: '1333'
+ht-degree: 80%
 
 ---
 
@@ -33,8 +33,6 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 | [編輯偏好設定](/help/analysis-workspace/user-preferences.md) | 管理您建立之所有新專案或面板的Analysis Workspace及其相關元件的設定。 |
 | [建立資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 將新資料夾或子資料夾添加到項目和資料夾清單中。 |
 | [建立專案](/help/analysis-workspace/home.md) | 從草稿開始或從 [範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
-| 管理專案 <!--I don't see this option--> | 按一下此連結即可將您導向「專案元件管理員」(**[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 專案]**」)，它會列出您的所有專案，並讓您標記、共用、刪除、重新命名、核准、複製，以及將專案匯出為 CSV。 |
-| 設定為登陸頁面 <!--I don't see this option--> | 將此頁面變成您的 Workspace 登陸頁面。 |
 | 顯示更多 | 顯示建立空白專案或行動計分卡的選項， [查看培訓教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=zh-Hant)，或 [檢視發行說明](/help/release-notes/latest.md). |
 | 顯示資料夾和項目 | 選擇是否顯示項目的資料夾結構。 如需詳細資訊，請參閱[關於 Analytics 資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。 |
 | 自訂表格（圖示） | 可讓您自訂「專案」頁面上每個專案顯示的資訊。 |
@@ -53,8 +51,6 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 | 最大日期範圍 | 專案的最長日期範圍。 |
 | 查詢數 | 項目中包含的查詢總數。 |
 | 位置 | 項目所在的資料夾。 |
-| 我的最愛專案 <!--I don't see this option--> | 若要將專案標示為我的最愛，請開啟該專案，然後按一下專案名稱旁邊的星號。下次當您開啟 Workspace 時，它就會顯示在這份清單中。 |
-| 經常檢視的專案 <!--I don't see this option--> | 列出您經常開啟的所有專案，以方便您存取。 |
 
 ## 功能表列 {#menu-bar}
 
