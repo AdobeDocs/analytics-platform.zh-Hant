@@ -3,7 +3,7 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 資料字典概觀
 feature: Components
 role: User, Admin
-source-git-commit: 5d6942af4ac3f999c5e7fd7d6ba74a5fe7a26a9d
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 90%
@@ -11,8 +11,6 @@ ht-degree: 90%
 ---
 
 # 資料字典概觀
-
-{{release-limited-testing}}
 
 Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤並深入了解在其 Analytics 環境中的元件。
 

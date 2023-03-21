@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 專案概觀
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '1165'
-ht-degree: 100%
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+workflow-type: tm+mt
+source-wordcount: '1427'
+ht-degree: 81%
 
 ---
 
@@ -21,22 +21,40 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 ![](assets/sample-project.png)
 
-Workspace 專案清單頁面內含下列資訊：
+「專案」頁面包含下列資訊：
+
+>[!NOTE]
+>
+>某些欄預設不會顯示。 若要自訂您看到的欄，請按一下 **自訂表格** 圖示 ![自訂表格](assets/projects-page-customize-columns-icon.png).
+
 
 | 元素 | 說明 |
 |---|---|
-| [建立新專案](/help/analysis-workspace/home.md) | 按一下此連結即可從頭開始建立新的專案。 |
-| 管理專案 | 按一下此連結即可將您導向「專案元件管理員」(**[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 專案]**」)，它會列出您的所有專案，並讓您標記、共用、刪除、重新命名、核准、複製，以及將專案匯出為 CSV。 |
-| 設定為登陸頁面 | 將此頁面變成您的 Workspace 登陸頁面。 |
-| [觀看教學課程](/help/analysis-workspace/home.md) | 帶您前往 Analysis Workspace 教學影片。 |
+| [編輯偏好設定](/help/analysis-workspace/user-preferences.md) | 管理您建立之所有新專案或面板的Analysis Workspace及其相關元件的設定。 |
+| [建立資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 將新資料夾或子資料夾添加到項目和資料夾清單中。 |
+| [建立專案](/help/analysis-workspace/home.md) | 從草稿開始或從 [範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
+| 管理專案 <!--I don't see this option--> | 按一下此連結即可將您導向「專案元件管理員」(**[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 專案]**」)，它會列出您的所有專案，並讓您標記、共用、刪除、重新命名、核准、複製，以及將專案匯出為 CSV。 |
+| 設定為登陸頁面 <!--I don't see this option--> | 將此頁面變成您的 Workspace 登陸頁面。 |
+| 顯示更多 | 顯示建立空白專案或行動計分卡的選項， [查看培訓教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=zh-Hant)，或 [檢視發行說明](/help/release-notes/latest.md). |
+| 顯示資料夾和項目 | 選擇是否顯示項目的資料夾結構。 如需詳細資訊，請參閱[關於 Analytics 資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。 |
+| 自訂表格（圖示） | 可讓您自訂「專案」頁面上每個專案顯示的資訊。 |
 | 名稱 | Workspace 專案名稱。 |
-| 所有者 | 建立此專案的人 (您或與您共用專案的人)。 |
-| 類型 | 指示這是 Workspace 專案還是[行動計分卡](/help/mobile-app/home.md)。 |
-| [專案角色](/help/analysis-workspace/curate-share/share-projects.md) | 指示您在專案中的角色 - 所有者、編輯、複製、檢視。 |
+| 類型 | 指出這是工作區專案、資料夾或 [行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hant). |
 | 標記 | 已套用到專案中的標籤。 |
+| 已排程 | 指出是否排程將專案以電子郵件傳送給排程中的收件者。 請參閱 [排程專案](/help/analysis-workspace/curate-share/t-schedule-report.md). |
+| 共用連結（任何人） | 專案可以與任何人共用，即使是無法存取Analysis Workspace的使用者。 此欄會顯示專案是否已以此方式共用。 請參閱 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md) 以取得更多資訊。 |
+| 報表套裝 | 與專案相關聯的報表套裝。 |
+| [專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) | 指示您在專案中的角色 - 所有者、編輯、複製、檢視。 |
+| 所有者 | 建立此專案的人 (您或與您共用專案的人)。 |
+| 共用對象 | 已與專案共用的使用者。 |
 | 上次修改時間 | 上次修改專案的日期和時間。 |
-| 我的最愛專案 | 若要將專案標示為我的最愛，請開啟該專案，然後按一下專案名稱旁邊的星號。下次當您開啟 Workspace 時，它就會顯示在這份清單中。 |
-| 經常檢視的專案 | 列出您經常開啟的所有專案，以方便您存取。 |
+| 上次開啟 | 上次開啟專案的日期和時間。 |
+| 專案 ID | 專案ID。 |
+| 最大日期範圍 | 專案的最長日期範圍。 |
+| 查詢數 | 項目中包含的查詢總數。 |
+| 位置 | 項目所在的資料夾。 |
+| 我的最愛專案 <!--I don't see this option--> | 若要將專案標示為我的最愛，請開啟該專案，然後按一下專案名稱旁邊的星號。下次當您開啟 Workspace 時，它就會顯示在這份清單中。 |
+| 經常檢視的專案 <!--I don't see this option--> | 列出您經常開啟的所有專案，以方便您存取。 |
 
 ## 功能表列 {#menu-bar}
 
@@ -106,7 +124,7 @@ Workspace 專案清單頁面內含下列資訊：
 | 動作 | 說明 |
 |---|---|
 | 新增 | 從頭建立新專案。 |
-| 標記或核准 | 選擇「標記」或「核准」來組織您的專案，並使其更容易搜尋。 |
+| 標記或核准 | 選擇「標籤」或「核准」來組織專案，讓搜尋更容易。 |
 | [共用](/help/analysis-workspace/curate-share/share-projects.md) | 將專案提供給貴組織中的其他 Analysis Workspace 用戶使用。 |
 | 刪除 | 刪除您的專案。 |
 | 重新命名 | 編輯您的專案名稱。 |

@@ -3,7 +3,7 @@ description: 管理員負責監控資料字典的健康狀況。這包括元件�
 title: 監視資料字典健康狀況
 feature: Components
 role: Admin
-source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 94%
@@ -11,8 +11,6 @@ ht-degree: 94%
 ---
 
 # 監視資料字典健康狀況
-
-{{release-limited-testing}}
 
 Customer Journey Analytics管理員負責維護正常的資料字典。
 

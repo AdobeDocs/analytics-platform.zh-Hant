@@ -4,9 +4,9 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 29f65709a3cca89e3fbabe978e65e25e0c546c10
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1574'
 ht-degree: 63%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 63%
 >* 無法與無法存取CJA的人員共用視覺效果超過14個的專案。
 
 
-若要共用Analysis Workspace專案的公開連結：
+若要與任何人共用Analysis Workspace專案：
 
 1. 開啟您要共用的Analysis Workspace專案。
 

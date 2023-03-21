@@ -3,16 +3,14 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 編輯資料字典中的條目
 feature: Components
 role: Admin
-source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
+source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 92%
+source-wordcount: '293'
+ht-degree: 70%
 
 ---
 
 # 編輯資料字典中的元件條目
-
-{{release-limited-testing}}
 
 Customer Journey Analytics管理員可以編輯指定報表套裝之資料字典中的元件項目。 報告套裝的所有使用者都可以看到所做的任何變更。
 
@@ -29,6 +27,8 @@ Customer Journey Analytics管理員可以編輯指定報表套裝之資料字典
 1. 確定在下拉選單中選取正確的報告套裝。依預設情況下，會顯示您已使用的報告套裝。
 
 1. (可選) 開始在搜尋欄位中鍵入要編輯的元件名稱。
+
+   元件類型可透過顏色和圖示來識別。 **Dimension** ![Dimension圖示](assets/dimension-icon.png) 是橙色的， **區段** ![區段圖示](assets/segment-icon.png) 是藍色的， **日期範圍** ![日期範圍圖示](assets/date-range-icon.png) 是紫色的， **量度** ![量度圖示](assets/default-metric-icon.png) 為綠色。 Adobe圖示 ![Adobe圖示](assets/default-calc-metric-icon.png) 指出計算量度範本或區段範本，以及計算器圖示 ![計算器表徵圖](assets/calculated-metric-icon-created.png) 指出貴組織中的Analytics管理員所建立的計算量度。
 
 {{dd-filter-criteria}}
 
