@@ -2,10 +2,10 @@
 title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
+source-git-commit: 28c56e7f33960c75ab6ca87fcbc0d1fb61d2f107
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 94%
+source-wordcount: '1502'
+ht-degree: 90%
 
 ---
 
@@ -154,6 +154,19 @@ CJA 會透過管道將資料串流至 RTCP，此資料也會收集至資料湖�
 否。我們只會為每個「人員」發送一個身分，因此 RTCP 將沒有圖形邊可供使用。
 
 +++
+
++++**每日、每週和每月的重新整理會發生在一天的何時？ 每週重新整理會發生在一週的哪一天？**
+
+重新整理的時間會根據原始對象的發佈時間，並錨記至當天的時間（以及一週中的某天或每月的某天）。
+
++++
+
++++**使用者是否可設定每日、每週和每月的重新整理時間？**
+
+否，無法由使用者設定。
+
++++
+
 
 ## 後續步驟
 
