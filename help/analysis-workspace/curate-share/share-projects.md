@@ -4,10 +4,10 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+source-git-commit: bf067ca57564bad72640c6bb5eb1c376ad818d3e
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 63%
+source-wordcount: '1655'
+ht-degree: 60%
 
 ---
 
@@ -121,6 +121,10 @@ ht-degree: 63%
 >* CJA管理員可停用以此方式共用專案的功能，如 [偏好設定](/help/analysis-workspace/user-preferences.md). 如果您無法依照本節所述來共用專案，您的CJA管理員已停用此功能。
 >
 >* 無法與無法存取CJA的人員共用視覺效果超過14個的專案。
+>
+>* 您與共用的使用者可以檢視期間套用至專案的任何篩選器 [組織](curate.md).
+> 
+>* 您與共用的使用者可以變更專案日期範圍。 預設會顯示您為專案設定的日期範圍。
 
 
 若要與任何人共用Analysis Workspace專案：
@@ -152,6 +156,8 @@ ht-degree: 63%
 1. 與您想要存取專案的人員共用連結。 例如，您可以將連結貼到電子郵件中。
 
    您與共用連結的任何人都可以檢視Analysis Workspace專案。
+
+1. （選用）您可以按一下 **產生新連結** 圖示 ![產生連結圖示](assets/regenerate-link.png) 從先前收到專案連結的使用者移除存取權。 系統會產生新連結，供您與想要存取專案的使用者共用。
 
 1. 選擇 **[!UICONTROL 關閉]** 來關閉「共用」對話框。 您的變更會自動儲存。
 
