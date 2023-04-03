@@ -5,10 +5,10 @@ title: 為專案排程
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 06ec1145e25275dab0b1bf2388caae9eb8e6bcfe
+source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 98%
+source-wordcount: '884'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 若要透過電子郵件立即傳送檔案給收件者：
 
-1. 按一下「**[!UICONTROL 共用] > [!UICONTROL 立即傳送檔案]**」。
+1. 按一下 **[!UICONTROL 共用] > [!UICONTROL 匯出檔案]**.
 1. 指定檔案類型 (CSV 或 PDF)。
 1. (選用) 新增要加入電子郵件中的說明，以說明傳送的檔案。
 1. 新增收件者或群組。您也可以輸入電子郵件地址。
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 若要透過電子郵件定期傳送檔案給收件者：
 
-1. 按一下「**[!UICONTROL 共用] > [!UICONTROL 依排程傳送檔案]**」。
+1. 按一下 **[!UICONTROL 共用] > [!UICONTROL 排程檔案匯出]**.
 1. 指定檔案類型 (CSV 或 PDF)。
 1. (選用) 新增要加入電子郵件中的說明，以說明傳送的檔案。
 1. 新增收件者或群組。您也可以輸入電子郵件地址。
