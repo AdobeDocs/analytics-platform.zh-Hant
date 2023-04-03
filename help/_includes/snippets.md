@@ -1,8 +1,8 @@
 ---
-source-git-commit: 176816969032143750dcde64db223e73efd19165
+source-git-commit: c202effa3b25b1703cad38975786252637291b48
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 74%
+ht-degree: 69%
 
 ---
 # 程式碼片段
@@ -34,7 +34,7 @@ ht-degree: 74%
    | [!UICONTROL **全部顯示**] | 顯示所有元件。此選項僅提供給管理員使用。 |
    | [!UICONTROL **未經核准**] | 僅顯示尚未由管理員標記為「已核准」的元件。作為管理員，這有助於確定需要您檢閱和核准的元件。此選項僅提供給管理員使用。 |
    | [!UICONTROL **缺少說明**] | 僅顯示在說明欄位中還沒有說明的元件。此選項僅提供給管理員使用。 |
-   | [!UICONTROL **顯示重複項目**] | 僅顯示與所選報告套裝中的另一個元件具有相同標籤或相同說明的元件。這包括您建立的元件，以及由Adobe提供的元件。 標籤或說明必須完全相符才能顯示為重複項目。此選項僅提供給管理員使用。 |
+   | [!UICONTROL **顯示重複項目**] | 僅顯示與所選報表套裝中其他元件具有相同名稱或相同說明的元件。 這包括您建立的元件，以及由Adobe提供的元件。 名稱或說明必須完全相符，才會顯示為重複項目。 此選項僅提供給管理員使用。 |
    | [!UICONTROL **無最近的資料**] | 僅顯示在過去 90 天內未收集任何資料的元件。此選項僅提供給管理員使用。 |
    | [!UICONTROL **建立者：Adobe**] <!-- I don't see this option--> | 僅顯示由 Adobe 建立的元件。並不會顯示由管理員或您組織中的其他使用者建立的元件。 |
 
@@ -48,7 +48,7 @@ ht-degree: 74%
 | [!UICONTROL **未核准**] | <p>指出該元件尚未經過管理員檢閱與核准。</p><p>管理員會看到&#x200B;[!UICONTROL **核准**]&#x200B;的選項。選擇此選項會讓使用者看到元件標記為「已核准」。</p> |
 | [!UICONTROL **說明**] | 描述元件的預定功能。(此資訊由 Analytics 管理員新增，如[新增元件說明](/help/components/add-component-descriptions.md)中所述。) |
 | [!UICONTROL **經常與下列項目搭配使用**] | <p>顯示您正在查看的元件最常與哪些元件一起使用。</p><p>在5種主要元件類型中，最多會顯示5個元件：量度、計算量度、Dimension、篩選和日期範圍。</p><p>此清單是根據前 90 天的資料。只會顯示您有存取檢視權限的元件。</p><p>管理員可以在 [!UICONTROL **一律包括**] 和 [!UICONTROL **一律排除**] 下拉式欄位。 組織使用者看到的元件之前，請先套用 **全部顯示** 篩選器，以確保您看見任何未與您共用的元件，而可能已由其他管理員新增。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
-| [!UICONTROL **類似於**] | <p>顯示與您正在查看的元件具有相似標籤的元件。</p><p>在5種主要元件類型中，最多會顯示5個元件：量度、計算量度、Dimension、篩選和日期範圍。</p><p>只會顯示您有存取檢視權限的元件。</p><p>報告套裝中的任何重複元件都將顯示在此處。Analytics 管理員應識別並移除所有重複的元件，如[監視資料字典健康情況](/help/components/data-dictionary/monitor-data-dictionary-health.md).中所述</p><p>管理員可以在 [!UICONTROL **一律包括**] 和 [!UICONTROL **一律排除**] 下拉式欄位。 組織使用者看到的元件之前，請先套用 **全部顯示** 篩選器，以確保您看見任何未與您共用的元件，而可能已由其他管理員新增。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**注意：** 目前， **類似** 區段僅包含您建立的元件，不包含Adobe提供的元件。 Adobe提供的元件將在未來版本中新增。</p> |
+| [!UICONTROL **類似於**] | <p>顯示與您正在查看的元件具有類似名稱的元件。</p><p>在5種主要元件類型中，最多會顯示5個元件：量度、計算量度、Dimension、篩選和日期範圍。</p><p>只會顯示您有存取檢視權限的元件。</p><p>報告套裝中的任何重複元件都將顯示在此處。Analytics 管理員應識別並移除所有重複的元件，如[監視資料字典健康情況](/help/components/data-dictionary/monitor-data-dictionary-health.md).中所述</p><p>管理員可以在 [!UICONTROL **一律包括**] 和 [!UICONTROL **一律排除**] 下拉式欄位。 組織使用者看到的元件之前，請先套用 **全部顯示** 篩選器，以確保您看見任何未與您共用的元件，而可能已由其他管理員新增。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**注意：** 目前， **類似** 區段僅包含您建立的元件，不包含Adobe提供的元件。 Adobe提供的元件將在未來版本中新增。</p> |
 | [!UICONTROL **標記**] | 顯示套用於元件的所有標記。具有管理員存取權限的使用者可以在編輯元件時新增標記。 |
 | [!UICONTROL **元件類型**] | 列出其元件的類型，包括Dimension、量度、篩選或日期範圍。 |
 | [!UICONTROL **建立者**] | 顯示建立元件的使用者名稱。 |
