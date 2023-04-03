@@ -3,10 +3,10 @@ description: 了解如何在 CJA Experimentation 面板中分析 A/B 測試的�
 title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 967348b321525c50b292339de875fd4976d8b10a
-workflow-type: ht
-source-wordcount: '1393'
-ht-degree: 100%
+source-git-commit: 54d8cf211a5a4bc3ffde5e24c29089125fc35362
+workflow-type: tm+mt
+source-wordcount: '1833'
+ht-degree: 75%
 
 ---
 
@@ -18,17 +18,21 @@ ht-degree: 100%
 >
 >此時，**無法**&#x200B;在 [!UICONTROL Experimentation] 面板中分析透過 Analytics Source Connector 引入 Adobe Experience Platform 的 [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) (A4T) 資料。這個問題預計會在 2023 年解決。
 
-## 存取控制
+## 存取控制 {#access}
 
 所有 Customer Journey Analytics (CJA) 的使用者都能使用 Experimentation 面板。不需要管理員權限或其他權限。但是，進行設定 (下方的步驟 1 和 2) 所需的動作只有管理員才能執行。
 
-## 步驟 1：建立與實驗資料集的連接
+## 計算量度中的新函數 {#functions}
+
+已新增了兩個進階函數：[!UICONTROL 提升度]和[!UICONTROL 信賴度]。如需詳細資訊，請參閱「[參考 - 進階函數](/help/components/calc-metrics/cm-adv-functions.md)」。
+
+## 步驟 1：建立與實驗資料集的連接 {#connection}
 
 建議的資料結構描述是針對在[「物件」陣列](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=zh-Hant) 中的實驗資料，其中包含在二個獨立維度中的實驗與變數資料。 如果您的實驗資料是在一個單獨的維度內，實驗與變數資料在分隔字串內，您可以使用資料檢視中的[子字串](/help/data-views/component-settings/substring.md)將它們一分為二，以便用於面板中。
 
 將您的實驗資料[引入](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) Adobe Experience Platform 後，[在 CJA 中建立與一個或多個實驗資料集的連接](/help/connections/create-connection.md)。
 
-## 步驟 2：在資料檢視中新增內容標籤
+## 步驟 2：在資料檢視中新增內容標籤 {#contect-labels}
 
 在 CJA 資料檢視設定中，管理員可以將[內容標籤](/help/data-views/component-settings/overview.md)新增到維度或量度，CJA 服務 (如 [!UICONTROL Experimentation] 面板) 可針對其目標使用這些標籤。Experimentation 面板使用了兩個預先定義的標籤：
 
@@ -41,7 +45,7 @@ ht-degree: 100%
 
 如果沒有這些標籤，Experiment 面板會因沒有可用的實驗而無法運作。
 
-## 步驟 3：設定 Experiment 面板
+## 步驟 3：設定 Experiment 面板 {#configure}
 
 1. 在 CJA Workspace 中，將 Experimentation 面板拖到專案中。
 
@@ -62,7 +66,7 @@ ht-degree: 100%
 
 1. 按一下&#x200B;**[!UICONTROL 建置]**。
 
-## 步驟 4：檢視面板輸出
+## 步驟 4：檢視面板輸出 {#view}
 
 Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助您更好地了解實驗的執行情況。面板頂端會提供一個摘要行，提示您所選取的面板設定。您可以隨時按一下右上方的編輯鉛筆來編輯面板。
 
@@ -80,7 +84,7 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 >
 >該面板目前不支援 A/A 測試分析。
 
-## 步驟 5：解釋結果
+## 步驟 5：解釋結果 {#interpret}
 
 1. **實驗具有結論性**：每次查看實驗報告時，Adobe 都會分析到目前為止在實驗中累積的資料，並在&#x200B;*至少一個*&#x200B;變體 (當超過雙臂時套用 Bonferonni 校正，以校正多個假設檢驗) 的隨時有效信賴度超過 95% 臨界值時宣告實驗為具有「結論性」。
 
@@ -96,7 +100,7 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 >
 >對結果的完整描述應考慮所有可用的證據 (即實驗設計、樣本量、轉換率、信賴度等)，而不僅僅是宣告是否具有結論性。即使結果尚未具有「結論性」，仍可以有令人信服的證據表示變體之間各有相異信賴區間 (例如，信賴區間幾乎不重疊)。理想情況下，應由所有統計證據提供的資訊做決策，並在連續範圍內進行解釋。
 
-## Adobe 的統計方法
+## Adobe 的統計方法 {#statistics}
 
 為了提供易於解釋和安全的統計推斷，Adobe 採用一種以[隨時有效的信賴序列](https://doi.org/10.48550/arXiv.2103.06476)為基礎的統計方法
 
@@ -104,6 +108,20 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 
 95% 信賴序列是指在您執行 100 個實驗中有 95 個包含商業量度「確判為真」值。(為了提供相同的 95% 覆蓋率保證，每個實驗只能計算一次 95% 信賴區間；而不是針對每個新使用者計算)。因此，信賴序列可讓您持續監視實驗，而不會增加「誤判為真」的錯誤率，也就是它們允許「偷看」結果。
 
-## 計算量度中的新函數
+## 解譯非隨機維度 {#non-randomized}
 
-已新增了兩個進階函數：[!UICONTROL 提升度]和[!UICONTROL 信賴度]。如需詳細資訊，請參閱「[參考 - 進階函數](/help/components/calc-metrics/cm-adv-functions.md)」。
+CJA可讓分析人員選取任何維度作為「實驗」。 但您如何解讀選取作為實驗的維度不是隨機訪客的分析？
+
+例如，假設訪客看到的廣告。 如果您決定顯示訪客「廣告B」而非「廣告A」，您可能有興趣測量某些量度的變更（例如平均收入）。 顯示廣告B取代廣告A的因果關係對於達成行銷決策至關重要。 如果我們以顯示廣告A的替代策略取代顯示廣告B的現狀，此因果效應可以以整體人口的平均收入來衡量。
+
+A/B測試是行業內客觀衡量這些干預措施效果的金本位。 A/B測試產生因果預估的關鍵原因，是訪客接收其中一個可能變體的隨機化。
+
+現在，請考量並非透過隨機化來達成的維度，例如訪客的美國州別。 假設我們的訪客主要來自兩個州，紐約和加利福尼亞。 冬季服裝品牌的平均銷售收入在兩個州可能因地區氣候差異而有所不同。 在這種情況下，天氣可能是冬季服裝銷售背後的真正原因因素，而不是遊客的地理狀態不同的事實。
+
+「Customer Journey Analytics」中的「實驗」面板可讓您依訪客的狀態，以平均收入差異來分析資料。 在這種情況下，產出沒有因果解釋。 然而，這種分析可能仍有意義。 它提供依訪客狀態之平均收入差異的估計值（連同不確定度的測量值）。 這也稱為「統計假設測試」。 此分析的輸出可能很有趣，但不一定可操作，因為我們並未且有時無法將訪客隨機排列至維度的其中一個可能值。
+
+下圖會比較這些情況：
+
+![隨機實驗](assets/randomize.png)
+
+當您想要測量干預X對結果Y的影響時，這兩者的真正原因可能是混淆因素C。如果資料不是通過隨機化X上的訪客來實現的，那麼影響就更難測量，而分析將明確地考慮C。隨機化會破壞X對C的依賴，使我們無需擔心其他變數即可測量X對Y的影響。
