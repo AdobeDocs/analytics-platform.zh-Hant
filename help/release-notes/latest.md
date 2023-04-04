@@ -3,9 +3,9 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新 CJA 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 53a1dd1537cbd862dafabcbaf8af9e4baa07c529
+source-git-commit: d09094798d22f32d3467527e0c3e1817ff76b5a2
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '493'
 ht-degree: 72%
 
 ---
@@ -23,7 +23,7 @@ Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運�
 | **Analysis Workspace 中的資料字典** | 資料字典可幫助使用者和管理員追蹤並深入了解在其 CJA 環境中的元件 (維度、量度)。[了解更多](/help/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 8 日 | 2023 年 3 月 29 日 |
 | **行動儀表板中的資料故事** | 資料故事可讓您將多個可自訂的詳細資料檢視加入到行動計分卡專案的圖磚中。使用資料故事可深入了解關鍵驅動因素、相關量度以及客戶歷程中的不同步驟。您可以輕鬆滑動這些檢視以了解關鍵量度背後的整個故事。[了解更多](/help/mobile-app/create-scorecard.md#create-data-story) | 不適用 | 2023 年 3 月 8 日 |
 | **已排程專案的到期日** | 無論排程頻率如何，您都可以將已排程專案的最長到期日設定為將近一年。[了解更多](/help/analysis-workspace/curate-share/t-schedule-report.md) | 不適用 | 2023 年 3 月 8 日 |
-| **專案連結共用 (不需登入) - 僅限 Private beta 存取權** | 您現在可以與無 CJA 存取權的人員共用 Analysis Workspace 專案的唯讀連結。您可以與組織外的人員或組織內未佈建 CJA 的人員共用專案連結。[了解更多](/help/analysis-workspace/curate-share/share-projects.md)<p>若要加入 Private beta，請聯絡您的 Adobe 客戶團隊。 | 2023 年 3 月 15 日 (Private beta) | 2023 年 4 月 |
+| **專案連結共用 (不需登入) - 僅限 Private beta 存取權** | 您現在可以與無 CJA 存取權的人員共用 Analysis Workspace 專案的唯讀連結。您可以與組織外的人員或組織內未佈建 CJA 的人員共用專案連結。[了解更多](/help/analysis-workspace/curate-share/share-projects.md)<p>若要加入 Private beta，請聯絡您的 Adobe 客戶團隊。 | 2023年4月26日 | 2023 年 6 月 |
 | **面板日期範圍更新** | 在 Workspace 中，我們新增了以下改善：<ul><li>從2月版開始，維度項目和資料預覽皆以面板日期範圍為基礎，而非最近90天。 </li><li>列出的所有維度項目都以面板日期範圍內的資料為基礎。 如果維度項目的資料超出日期範圍，您可以在清單底部顯示日期範圍以外的其他資料。</li><li>沒有資料的Dimension可顯示在左側邊欄中。 按一下顯示更多選項，檢視含有面板日期範圍以外資料的維度項目。</li><li>區段和計算量度產生器中的資料預覽是根據面板日期範圍，除非從元件管理員存取，元件管理員沒有相關聯的面板，且仍以過去90天為基礎。</li><li>資料預覽會根據面板日期範圍顯示資料或元件。</li></ul> | 不適用 | 2023 年 2 月 8 日 |
 
 {style="table-layout:auto"}
