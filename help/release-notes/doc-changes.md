@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e4b84436315d4eb87e39085f4838b51797a1f9b7
+source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 93%
+source-wordcount: '1584'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 93%
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 3 月** |  |
+| 整合決策管理資料 | 已新增內容，說明如何 [將Adobe Journey Optimizer決策管理資料整合至CJA](/help/integrations/ajo-od.md). |
 | 在行動計分卡中建立資料動態 | A [資料動態](/help/mobile-app/create-scorecard.md#create-data-stories) 是以中心主題或量度為建置基礎，所提供支援的資料點、業務內容和相關量度的集合。 |
 | 功能支援 | 更新 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)，含 CJA 中可用但 AA 中不可用或不支援的功能表。 |
 | 預設計算量度 | 已新增說明 [Adobe 提供的預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)的內容。 |

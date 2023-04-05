@@ -2,10 +2,10 @@
 title: 將 Adobe Journey Optimizer (AJO) 與 Customer Journey Analytics (CJA) 整合
 description: 引進 AJO 產生的資料並在 CJA 內使用 Analysis Workspace 加以分析。
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-source-git-commit: 750e96bdf6f020e0f5c0fbaf95cdd10c42b95e55
+source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 89%
+source-wordcount: '744'
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,9 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 
 ## 在 Customer Journey Analytics 中建立連線
 
-當 Journey Optimizer 資料引進 Adobe Experience Platform 後，您就可以根據您的 Journey Optimizer 資料集[建立連線](/help/connections/create-connection.md)。 選取要傳送給 Platform 的資料集。
+Journey Optimizer資料放入Adobe Experience Platform後，您就可以 [建立連線](/help/connections/create-connection.md) 根據Journey Optimizer資料集。 或者，您可以將Journey Optimizer資料集新增至現有連線。
+
+選取並設定下列資料集：
 
 | 資料集 | 資料集類型 | 連線設定 | 說明 |
 | --- | --- | --- | --- |
@@ -29,7 +31,10 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 | AJO電子郵件追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含電子郵件追蹤事件，例如「[!UICONTROL 開啟]&#39;, &#39;[!UICONTROL 點按次數]&#39;和&#39;[!UICONTROL 取消訂閱數]&#39;。 |
 | AJO推播追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含推播追蹤事件，例如「[!UICONTROL 應用程式啟動]&#39;。 |
 | 歷程步驟事件 | 事件 | 人員 ID: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 包含事件，顯示哪些設定檔參與歷程的每個節點。 |
-| AJO實體資料集 | 記錄 | 索引鍵： `_id`<br>匹配密鑰： `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 包含將歷程和促銷活動中繼資料與所有AJO事件資料建立關聯的分類。 |
+| AJO實體資料集 | 查詢 | 索引鍵： `_id`<br>匹配密鑰： `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 包含將歷程和促銷活動中繼資料與所有AJO事件資料建立關聯的分類。 |
+
+{style="table-layout:auto"}
+
 
 ## 設定資料檢視，以容納 Journey Optimizer 維度和量度
 
