@@ -3,10 +3,10 @@ title: 同類群組分析是什麼？
 description: 瞭解 Analysis Workspace 中的同類群組分析
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '468'
-ht-degree: 100%
+source-git-commit: 5dd25745f3ae872a70f60c53a1340ba59552665d
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 91%
 
 ---
 
@@ -30,10 +30,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同類群組分析]
->
->不支援無法篩選的量度 (包括計算量度)、非整數量度 (例如收入) 或發生次數。 只有可在篩選器中使用的量度，才可用於
->[!UICONTROL 同類群組分析]，且只能以 1 為單位遞增。
+>[!UICONTROL 同類群組分析] 不支援不可篩選的量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可在篩選條件中使用的量度，才能用於 [!UICONTROL 同類群組分析]，且只能一次增加1。
 
 ## 同類群組分析功能
 

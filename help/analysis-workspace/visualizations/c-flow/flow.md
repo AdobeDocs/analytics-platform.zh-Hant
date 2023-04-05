@@ -3,10 +3,10 @@ description: 流量功能可顯示客戶使用您網站和應用程式的路徑�
 title: 流量概述
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '185'
-ht-degree: 100%
+source-git-commit: 8a971c6b7e04f40a57d379f246c38815852ee0c2
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 100%
 您可以顯示[維度之間的流量](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在此例中，您的流量可能來自首頁、前往「男性」頁面，接著前往「鞋子」部門。
 
 每一欄會顯示不同的維度。拖曳維度並將其放至拖放區域，即可將該維度新增至圖表中。
+
+## 設定流量視覺效果
+
+如需如何設定流量視覺效果的相關資訊，請參閱 [設定流量視覺效果](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 
 ## 匯出包含流量圖表的專案 .CSV 檔案 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
