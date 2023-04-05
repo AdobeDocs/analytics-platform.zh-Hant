@@ -1,7 +1,7 @@
 ---
 title: 將Adobe Journey Optimizer決策管理與Customer Journey Analytics(CJA)整合
 description: 將Adobe Journey Optimizer決策管理產生的資料帶入Customer Journey Analytics，並使用Analysis Workspace進行分析。
-source-git-commit: f9ee0db464c49339bc36b144e18ef4aea4f4f033
+source-git-commit: 00a87f5f370310672ca37ab9df08350d14fc6a91
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 18%
@@ -78,4 +78,5 @@ Adobe Experience Platform是決策管理與Customer Journey Analytics之間的�
 | 取消訂閱優惠方案 | 設定檔要求的選件數量，將來不會顯示。 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件類型：量度 |
 
 {style="table-layout:auto"}
+
 [1] 您可以為各種可用事件類型定義多個量度。 請參閱 [包含排除值元件設定](/help/data-views/component-settings/include-exclude-values.md) 以取得更多資訊。
