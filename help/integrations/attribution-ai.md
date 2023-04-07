@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 mini-toc-levels: 3
-source-git-commit: c87d7428a2ddca35297225314e97171fe8b129fb
-workflow-type: ht
-source-wordcount: '929'
-ht-degree: 100%
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '913'
+ht-degree: 97%
 
 ---
 
@@ -117,11 +117,11 @@ AAI 中的原始分數輸出具有嵌套綱要，其中欄位路徑的長度足�
 
 ![前置時間](assets/lead-time.png)
 
-## Attribution AI 與 Attribution IQ 之間的差異
+## Attribution AI和CJA歸因功能之間的差異
 
-那什麼時候應該使用 Attribution AI 資料，而不是原生 CJA 功能 [Attribution IQ](/help/analysis-workspace/attribution/overview.md) 呢？此表格顯示兩者功能上的一些差異：
+下表顯示部分功能差異：
 
-| 功能 | Attribution AI | Attribution IQ |
+| 功能 | Attribution AI | CJA歸因 |
 | --- | --- | --- |
 | 逐量增加歸因 | 有 | 無 |
 | 允許使用者調整模型 | 有 | 有 |
@@ -131,4 +131,4 @@ AAI 中的原始分數輸出具有嵌套綱要，其中欄位路徑的長度足�
 | 地區型歸因模型 | 有 | 有 |
 | 可設定模型中的行銷接觸點 | 有 | 無 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

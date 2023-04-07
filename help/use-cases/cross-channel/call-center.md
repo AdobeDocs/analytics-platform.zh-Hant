@@ -4,8 +4,8 @@ description: 了解如何建立連結客服中心和網站資料的資料集。
 exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
+source-git-commit: fd5d7ae51b51e6f608428a032319a4d7d1f45a97
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ CJA 需有共同識別碼才能產生[合併資料集](/help/connections/combine
 1. 將具網頁名稱的維度拖曳至「自由表格」視覺效果上。
 1. 將該量度換成您要測量的客服中心量度。
 1. 按一下量度標題附近的齒輪圖示。按一下&#x200B;**[!UICONTROL 「使用非預設歸因模型」]**。
-1. 設定所需的[歸因模型](/help/analysis-workspace/attribution/models.md)。例如，半衰期為 15 分鐘的「時間衰減」模型和工作階段的「回顧視窗」。此歸因模型將點數歸於導致致電客服中心的頁面。
+1. 設定所需的[歸因模型](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)。例如，半衰期為 15 分鐘的「時間衰減」模型和工作階段的「回顧視窗」。此歸因模型將點數歸於導致致電客服中心的頁面。
 
 產生的報告會顯示驅動致電客服中心的熱門頁面。<!-- use case behind what we use these pages for -->
 

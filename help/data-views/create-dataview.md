@@ -1,12 +1,12 @@
 ---
 title: 建立或編輯資料檢視
 description: 您可調整以建立或編輯資料檢視的所有設定。
-exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78,35cbf69c-e1e5-4cf0-9bb4-6105d3e4c78e
+exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 2fa00c88cebde78a0a56d06aea3d4b6b268a0767
-workflow-type: ht
-source-wordcount: '1233'
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '1224'
 ht-degree: 100%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
-## 設定資料檢視 {#configure}
+## 設定資料檢視
 
 1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 並移至「**[!UICONTROL 資料檢視]**」標籤。
 2. 按一下「**[!UICONTROL 新增]**」建立資料檢視，或按一下現有資料檢視進行編輯。
 
 ![新資料檢視](assets/new-data-view.png)
 
-### 資料檢視設定 {#settings}
+### 資料檢視設定
 
 為資料檢視提供總體設定。
 
@@ -36,9 +36,9 @@ ht-degree: 100%
 | [!UICONTROL 名稱] | 必填。資料檢視的名稱。此值顯示在 Analysis Workspace 的右上角下拉式清單中。 |
 | [!UICONTROL 說明] | 選填。Adobe 建議使用詳細說明，讓用戶了解資料檢視存在的原因及其設計對象。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### 容器 {#containers}
+### 容器
 
 指定資料檢視的容器名稱。容器名稱在[篩選](/help/components/filters/filters-overview.md#Filter-containers)中經常使用。
 
@@ -48,9 +48,9 @@ ht-degree: 100%
 | [!UICONTROL 工作階段容器名稱] | 「[!UICONTROL 工作階段]」(預設)。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「Visit」或您組織偏好的其他任何詞語。 |
 | [!UICONTROL 事件容器名稱] | [!UICONTROL 事件] (預設)。[!UICONTROL 事件]容器定義資料集中的單個事件。如果您的組織使用不同的術語（例如，「點擊次數」或「頁面檢視量」），您可以在此處重新命名容器。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### 行事曆 {#calendar}
+### 行事曆
 
 指示您希望資料檢視遵循的行事曆格式。您可以根據同一個[連線](/help/connections/create-connection.md)擁有多個資料檢視，並為它們提供不同的行事曆類型或時區。這些資料檢視可以讓使用不同行事曆類型的團隊，透過相同的基礎資料滿足各自的需求。
 
@@ -62,9 +62,9 @@ ht-degree: 100%
 | [!UICONTROL 當年的第一天] | 對自訂行事曆類型可見。指定您希望目前年份在一年中的哪一天開始。行事曆會根據此值自動設定每週第一天的格式。 |
 | [!UICONTROL 「額外」週發生的年份] | 對於大多數 364 天行事曆（52 週，每週 7 天），每年都會累積剩餘的天數，直到它們形成額外的一週。然後將這個額外的一週新增到該年的最後一個月。指定您希望將額外一週新增到哪一年。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## 設定資料檢視的元件 {#set-components}
+## 設定資料檢視的元件
 
 接著，您可以從結構元素建立量度和維度。您也可以使用標準元件。
 
@@ -95,13 +95,13 @@ ht-degree: 100%
    * [[!UICONTROL 持續性]](component-settings/persistence.md)
    * [[!UICONTROL 值分組]](component-settings/value-bucketing.md)
 
-## 複製量度或維度 {#duplicate}
+## 複製量度或維度
 
 複製量度或維度，然後修改特定的設定，是從單一結構描述欄位建立多個量度或維度的簡易方式。選取右上方的量度或維度名稱底下的「[!UICONTROL 複製]」設定。 修改新的量度或維度，並使用更具說明性的名稱來儲存它。
 
 ![複製](assets/duplicate.png)
 
-## 篩選結構描述欄位或資料集 {#filter}
+## 篩選結構描述欄位或資料集
 
 您可以依下列資料類型篩選左側邊欄中的結構描述欄位：
 
@@ -111,19 +111,18 @@ ht-degree: 100%
 
 ![篩選其他](assets/filter-other.png)
 
-## 設定索引標籤 {#settings-tab}
+## 設定索引標籤
 
 1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 並移至「**[!UICONTROL 資料檢視]**」標籤。
 1. 按一下「**[!UICONTROL 新增]**」以建立資料檢視，或按一下現有資料檢視來進行編輯。
 1. 按一下「**[!UICONTROL 設定]**」標籤。
 
-### 全域篩選 {#global-filter}
+### 全域篩選
 
 您可以新增套用至整個資料檢視的篩選器。此篩選器將套用至您在 Workspace 中執行的任何報告。從左側邊欄的清單拖曳篩選器至「[!UICONTROL 新增篩選器]」欄位。
 
-### 工作階段設定 {#sessions}
+### 工作階段設定
 
 決定在工作階段到期和新工作階段開始之前，事件之間的閒置時段。需要時段。您也可以選擇在事件包含特定量度時，強制啟動新工作階段。
 
 指定所有所需設定後，按一下&#x200B;**[!UICONTROL 「儲存並完成」]**。
-

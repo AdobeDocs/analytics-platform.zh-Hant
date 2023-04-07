@@ -3,10 +3,10 @@ description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: 46873cc66461c40d7f44c8aac91ddc3ccf15ee21
-workflow-type: ht
-source-wordcount: '666'
-ht-degree: 100%
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 | 元素 | 說明 |
 | --- | --- |
-| 條件式格式 | 將您選擇的預配置顏色集應用到單元格。根據您選取的 4 種可用色彩配置中的哪一種，高值、中點值和低值會分配不同的顏色。<br>取代表格中的維度會重設條件式格式限制。取代量度會重新計算該欄的限制 (其中量度位在 X 軸，維度位在 Y 軸)。 |
+| 條件式格式 | 將您選擇的預配置顏色集應用到單元格。 根據您選取的 4 種可用色彩配置中的哪一種，高值、中點值和低值會分配不同的顏色。 <br>取代表格中的維度會重設條件式格式限制。取代量度會重新計算該欄的限制 (其中量度位在 X 軸，維度位在 Y 軸)。 |
 | 使用百分比限制 | 變更限制範圍，從絕對值改為以百分比為基礎.此設定適用於僅有百分比的量度 (例如反彈率)，以及含有計數和百分比的量度 (例如頁面檢視)。 |
 | 自動產生 | 根據資料自動計算上/中/下限。上限是此欄中的最大值。下限是最小值，而中點是上限和下限的平均。 |
 | 自訂 | 手動對齊上/中/下限。這可提供由您決定欄的值是好、中等或壞的彈性。 |
@@ -54,13 +54,13 @@ ht-degree: 100%
 
 ## 使用非預設歸因模式 {#attribution}
 
-Analysis Workspace 支援絕大多數量度的[歸因](/help/analysis-workspace/attribution/overview.md)。
+可讓您覆寫 [資料檢視](/help/data-views/component-settings/attribution.md).
 
 1. 按一下自由表格欄中的「設定」(齒輪) 圖示。
 
    ![歸因核取方塊](assets/attribution-checkbox.png)
 
-1. 在&#x200B;**[!UICONTROL 資料設定]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 使用非預設歸因模式]**。如需不同歸因模式的詳細資訊，請參閱[歸因模式](/help/analysis-workspace/attribution/models.md)。
+2. 在&#x200B;**[!UICONTROL 資料設定]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 使用非預設歸因模式]**。如需不同歸因模式的詳細資訊，請參閱[歸因模式](/help/data-views/component-settings/attribution.md)。
 
    ![選取歸因模式](assets/attribution-select.png)
 

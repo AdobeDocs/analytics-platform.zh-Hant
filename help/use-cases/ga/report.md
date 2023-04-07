@@ -4,10 +4,10 @@ description: 在 Customer Journey Analytics 中顯示有關 Google Analytics 資
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 17b9e14e58f5bd2f4ec995de54989b00c26076f2
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 套用「通話原因」的維度劃分，該範例顯示「商品損壞」的維度項目。 下一步是聯絡品質控制部門，並了解為何客戶會收到損壞的 T 恤。
 
-您可以審視哪些網站頁面造成客服中心來電增加。 此份報告可讓您知道網站上表現不佳的體驗位在何處，並幫助產品經理解決這些難題。 以下範例使用計算量度來篩選資料，找出僅限於以客服中心電話結尾的互動。 那也使用 CJA 的 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html#cja-workspace) 中的「參與」模型。
+您可以審視哪些網站頁面造成客服中心來電增加。 此份報告可讓您知道網站上表現不佳的體驗位在何處，並幫助產品經理解決這些難題。 下列範例使用具有參與率歸因模型的計算量度，將資料向下篩選至以客服中心呼叫結束的工作階段。
 
 以下範例顯示「購物車」和「結帳資訊」頁面造成了大多數的來電。
 

@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '881'
 ht-degree: 99%
 
 ---
@@ -163,12 +163,6 @@ ht-degree: 99%
       + [僅供檢視的專案](../analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](../analysis-workspace/curate-share/download-send.md)
       + [排程專案](../analysis-workspace/curate-share/t-schedule-report.md)
-   + Attribution IQ {#attribution}
-      + [歸因總覽](../analysis-workspace/attribution/overview.md)
-      + [歸因模型與回顧期間](../analysis-workspace/attribution/models.md)
-      + [演算法歸因](../analysis-workspace/attribution/algorithmic.md)
-      + [歸因最佳做法](../analysis-workspace/attribution/best-practices.md)
-      + [常見問題](../analysis-workspace/attribution/faq.md)
    + 虛擬分析人員 {#virtual-analyst}
       + [虛擬分析人員總覽](../analysis-workspace/virtual-analyst/overview.md)
       + 異常偵測 {#anomaly-detection}
@@ -185,7 +179,6 @@ ht-degree: 99%
       + [管理需求](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace 的協助工具](../analysis-workspace/workspace-faq/aw-accessibility.md)
       + [Analysis Workspace 中的長尾](../analysis-workspace/workspace-faq/long-tail.md)
-
 
 
 

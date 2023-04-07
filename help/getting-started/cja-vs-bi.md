@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: 941a8c8b081b8212d0a57994d2480efbd9c12be7
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 100%
+source-wordcount: '1588'
+ht-degree: 98%
 
 ---
 
@@ -62,13 +62,11 @@ CJA 使用強大的專有架構，可將分析散佈到數百甚至數千台伺�
 
 * **虛擬分析師功能**&#x200B;例如[異常偵測](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)使用預測演算法和機器學習提供對於驅動資料中異常行為的因素的深入分析。
 
-* **進階分析功能**&#x200B;專門針對客戶歷程的深入分析，例如[流程圖表](/help/analysis-workspace/visualizations/c-flow/flow.md)、[Attribution IQ](/help/analysis-workspace/attribution/overview.md)、[流失率圖表](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)，以及[維度劃分](/help/components/dimensions/t-breakdown-fa.md)。開箱即用的視覺效果範例包括：
+* **進階分析功能** 特別著重於客戶歷程分析，例如 [流程圖](/help/analysis-workspace/visualizations/c-flow/flow.md), [歸因面板](/help/analysis-workspace/c-panels/attribution.md), [流失圖表](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)，和 [維度劃分](/help/components/dimensions/t-breakdown-fa.md). 開箱即用的視覺效果範例包括：
 
    * [透過同類群組/延遲表進行客戶保留率分析](/help/analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)，您只需在建置器中拖放量度/維度，不到 30 秒即可完成，
 
    * [流失](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) / [流程](/help/analysis-workspace/visualizations/c-flow/create-flow.md)視覺效果。不到一分鐘即可完成設定。
-
-   * [歸因模式](/help/analysis-workspace/attribution/algorithmic.md)例如第一次接觸、上一次接觸、參與、時間耗損，甚至是自訂的項目，都僅需點擊幾下即可設定。
 
 * **您漸進式探索的每一步所具有的分段功能**：只要您認為有意義，您隨時都能將您的對象發佈回 Experience Platform，並從那裡發佈到任何受支援的目的地。
 

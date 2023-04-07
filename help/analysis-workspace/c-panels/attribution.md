@@ -3,16 +3,27 @@ title: 歸因面板
 description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+workflow-type: tm+mt
+source-wordcount: '516'
+ht-degree: 94%
 
 ---
 
 # 歸因面板
 
-建立比較各種歸因模型的分析時，[!UICONTROL 歸因]面板是可採用的簡單方式。這是[歸因 IQ](../attribution/overview.md) 中的一項功能，可讓您在專屬的工作區中使用和比較歸因模型。
+建立比較各種歸因模型的分析時，[!UICONTROL 歸因]面板是可採用的簡單方式。這項功能可讓您在專屬的工作區中使用和比較歸因模型。
+
+Customer Journey Analytics 強化了歸因功能，讓您可以：
+
+* 定義付費媒體以外的歸因：任何維度、量度，管道或事件都可以套用在模型上 (例如內部搜尋)，而不僅限於行銷活動。
+* 不限次數利用歸因模型比較功能：動態比較任意數量的模型。
+* 避免實施變更：透過報表時間處理功能和內容感知工作階段，可以建置客戶歷程內容並套用在執行階段中。
+* 建構與您的歸因狀況最相符的工作階段。
+* 按篩選器劃分歸因：輕鬆比較行銷管道在任何重要篩選器中的效能 (例如，新客戶與回頭客戶、產品 X 與產品 Y、忠誠度或 CLV)。
+* 跨管道檢查和多點接觸分析：使用文氏圖表和長條圖，並計算歸因結果趨勢。
+* 以視覺化方式分析關鍵行銷序列活動：透過多節點流量和流失視覺效果，以視覺效果方式探究帶來轉換的路徑。
+* 建立計算量度：使用任何數量的歸因配置方法。
 
 ## 建立歸因面板
 
@@ -25,7 +36,7 @@ ht-degree: 100%
 
    ![選取維度和量度](assets/attribution_panel2.png)
 
-1. 選取要比較的[歸因模型和回顧期間](../attribution/models.md)。
+1. 選取您要比較的歸因模型和回顧期間。
 
 1. 「歸因」面板會傳回一組豐富的資料和視覺效果，用以比較所選維度和量度的歸因。
 
