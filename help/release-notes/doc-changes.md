@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 933f3f0336c325bf0973a0379532b3e19f1c6d68
+source-git-commit: 8360a7d98510973061e76748ec520711eb3ebaf6
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 92%
+source-wordcount: '1609'
+ht-degree: 97%
 
 ---
 
@@ -19,13 +19,15 @@ ht-degree: 92%
 
 | 功能 | 說明 |
 | --- | --- |
+| **2023 年 4 月** |  |
+| 更新至實驗面板檔案 | 新增區段至 [解譯非隨機維度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
 | **2023 年 3 月** |  |
 | 整合決策管理資料 | 已新增內容，說明如何 [將Adobe Journey Optimizer決策管理資料整合至CJA](/help/integrations/ajo-od.md). |
-| 在行動計分卡中建立資料動態 | A [資料動態](/help/mobile-app/create-scorecard.md#create-data-stories) 是以中心主題或量度為建置基礎，所提供支援的資料點、業務內容和相關量度的集合。 |
-| 功能支援 | 更新 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)，含 CJA 中可用但 AA 中不可用或不支援的功能表。 |
+| 在行動計分卡中建立資料故事 | [資料故事](/help/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |
+| 更新功能支援 | 更新 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)，含 CJA 中可用但 AA 中不可用或不支援的功能表。 |
 | 預設計算量度 | 已新增說明 [Adobe 提供的預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)的內容。 |
-| 資料字典 | <p>新增資料字典的檔案，包括 [概述](/help/components/data-dictionary/data-dictionary-overview.md), [檢視](/help/components/data-dictionary/view-data-dictionary.md), [編輯](/help/components/data-dictionary/edit-entries-data-dictionary.md)，和 [監控](/help/components/data-dictionary/monitor-data-dictionary-health.md) 資料字典。</p><p>中的資訊 [新增元件說明](/help/components/add-component-descriptions.md) 已更新，以說明資料字典功能。</p> |
-| 專案的連結共用（不需登入） | <p>更新現有檔案，說明如何與無法存取Analysis Workspace的人員共用專案的唯讀連結。</p> <p>更新的使用者檔案包括 [共用專案](/help/analysis-workspace/curate-share/share-projects.md) 和 [建立分享連結](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>管理員選項已新增至 [偏好設定](/help/analysis-workspace/user-preferences.md).</p> |
+| 資料字典 | <p>為資料字典新增了新文件，包括[概觀](/help/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/components/data-dictionary/view-data-dictionary.md)、[編輯 ](/help/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
+| 專案連結共用 (不需登入) | <p>已更新現有文件，說明如何與無權存取 Analysis Workspace 的人員共用專案的唯讀連結。</p> <p>已更新使用者文件，包括[共用專案](/help/analysis-workspace/curate-share/share-projects.md)和[建立可共用連結](/help/analysis-workspace/curate-share/shareable-links.md)。</p> <p>已將管理員選項新增至[偏好設定](/help/analysis-workspace/user-preferences.md)。</p> |
 | **2023 年 2 月** |  |
 | 比較 CJA 和 BI 解決方案 | Customer Journey Analytics 與典型 BI 解決方案[比較](../getting-started/cja-vs-bi.md)的新文檔。 |
 | 更新至 Audiences 文件 | 有關[延遲的注意事項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)的新章節。 |
