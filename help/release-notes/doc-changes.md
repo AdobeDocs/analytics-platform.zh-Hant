@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 8360a7d98510973061e76748ec520711eb3ebaf6
+source-git-commit: 3b4acdd3e0f5f47957abf6d11eab8bbf65c4bf08
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 97%
+source-wordcount: '1642'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 97%
 | --- | --- |
 | **2023 年 4 月** |  |
 | 更新至實驗面板檔案 | 新增區段至 [解譯非隨機維度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
+| 專案篩選器（隨選和快速篩選） | 簡化專案篩選和移除重複資訊的檔案。 建立臨機篩選的步驟現已與 [建立快速篩選器](/help/components/filters/quick-filters.md). |
 | **2023 年 3 月** |  |
 | 整合決策管理資料 | 已新增內容，說明如何 [將Adobe Journey Optimizer決策管理資料整合至CJA](/help/integrations/ajo-od.md). |
 | 在行動計分卡中建立資料故事 | [資料故事](/help/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |

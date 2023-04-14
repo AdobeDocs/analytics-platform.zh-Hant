@@ -3,10 +3,10 @@ description: 面板是表格與視覺效果的集合。
 title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 7883726d8055fd5ea161fb4991a17ad579012f28
-workflow-type: ht
-source-wordcount: '894'
-ht-degree: 100%
+source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,9 @@ ht-degree: 100%
 
 您也可以將非篩選元件直接拖曳到放置區域來建立臨時篩選，以省下前往篩選產生器的時間和精力。 以這種方式建立的篩選器會被自動定義為點擊層級的篩選器。若要修改此定義，可按一下篩選器旁的資訊圖示 (i)，然後按一下筆狀編輯圖示，即可在篩選產生器中進行編輯。
 
-臨時篩選屬於專案的本機內容，除非您將其公開，否則不會在左側邊欄中顯示。
+臨機篩選是一種快速篩選的類型，且屬於專案本機。 除非您將其公開，否則左側邊欄不會顯示。
+
+如需詳細資訊，請參閱 [快速篩選](/help/components/filters/quick-filters.md).
 
 ![](assets/adhoc-segment-filter.png)
 

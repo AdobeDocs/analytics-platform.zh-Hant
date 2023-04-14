@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '878'
 ht-degree: 99%
 
 ---
@@ -214,7 +214,6 @@ ht-degree: 99%
       + [建立篩選](../components/filters/create-filters.md)
       + [管理篩選](../components/filters/manage-filters.md)
       + [快速篩選](../components/filters/quick-filters.md)
-      + [臨時篩選](../components/filters/ad-hoc-filters.md)
       + [運算子](../components/filters/operators.md)
    + 計算量度 {#cja-calcmetrics}
       + [計算量度總覽](../components/calc-metrics/calc-metr-overview.md)
