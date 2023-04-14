@@ -4,10 +4,10 @@ title: 快速篩選
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: cb1654cef651c5143667302c3fc592ba503dfe0a
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 45%
+source-wordcount: '1167'
+ht-degree: 43%
 
 ---
 
@@ -94,7 +94,7 @@ Analysis Workspace中的任何使用者都可建立快速篩選。
 * 所有工作區專案的可用性
 * 支援更複雜的篩選器以及循序篩選器
 
-您可以從「快速篩選產生器」或 [!UICONTROL 篩選器產生器].
+您可以從快速篩選產生器或 [!UICONTROL 篩選器產生器].
 
 ### 儲存在快速篩選產生器中 {#save2}
 
@@ -119,12 +119,17 @@ Analysis Workspace中的任何使用者都可建立快速篩選。
 
 1. 將滑鼠懸停在已儲存的篩選上，並選取鉛筆圖示。
 
+1. 選擇 [!UICONTROL **開啟產生器**].
+
 1. 在篩選產生器頂端，請注意這個對話框：
 
-   ![篩選器對話](assets/project-only.png)
+   ![篩選器對話](assets/project-only-filter-dialog.png)
 
-1. 選取&#x200B;**[!UICONTROL 「使其可用於您的所有專案並將其新增至您的元件清單中」旁的複選框。]**
-1. 選取&#x200B;**[!UICONTROL 「儲存」]**。該篩選現在會顯示在所有專案的篩選元件清單中。您也可以和組織中的其他人[共用篩選](/help/components/filters/manage-filters.md)。
+1. 選取旁邊的核取方塊 **[!UICONTROL 將此檔案可供所有專案使用，並新增至元件清單。]**
+
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+
+   該篩選現在會顯示在所有專案的篩選元件清單中。您也可以和組織中的其他人[共用篩選](/help/components/filters/manage-filters.md)。
 
 ## 快速篩選範例
 
