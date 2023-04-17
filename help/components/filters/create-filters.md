@@ -2,49 +2,31 @@
 title: 建立篩選器
 description: 了解建立篩選器的使用者介面。
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-source-git-commit: 7013237e11cb173d54dcbe236967b49d89810975
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 58%
 
 ---
 
 # 建立篩選器
 
-篩選器產生器提供的畫布可拖放量度、維度、篩選器和事件，以便根據容器階層邏輯、規則和運算子來篩選訪客。這個整合式開發工具可讓您建立並儲存簡單或複雜的篩選器，用於識別跨造訪及頁面點擊的訪客屬性和動作。
+您可以在工作區中建立不同類型的篩選器，視其需要的複雜程度、應僅套用至目前的專案還是套用至所有專案等而定。
 
-您可以將任何元件類型 (維度、維度項目、事件、量度、篩選器、篩選器範本、日期範圍) 拖曳至面板頂端篩選器的拖放區域，建立即時篩選機制。
+以下是可用的篩選類型摘要，其中包含如何建立篩選類型的相關資訊連結：
 
-元件類型會自動轉換成篩選條件。或者，您也可以按一下&#x200B;**[!UICONTROL 「新增篩選條件」]**&#x200B;拖放方塊中的「+」標誌。
+| 篩選器類型 | 在哪裡建立？ | 適用於何處？ | 何時使用 |
+| --- | --- | --- | --- |
+| 元件清單篩選器 | 按一下「+」(加號)，系統即會將您帶至「[篩選產生器](/help/components/filters/filter-builder.md)」 | 您所有的工作區專案 | 適用於較複雜的篩選器、循序篩選器 |
+| 快速篩選 | [快速篩選產生器](/help/components/filters/quick-filters.md) | 僅限專案，但可以儲存並新增至您的分段清單中。 | 可用於臨機單一規則篩選器（透過拖放），或新增/編輯多個規則（透過按一下「篩選」圖示） |
+| 流失分析中的篩選器 | Analysis Workspace 中的[流失視覺效果](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) | 對於個別的流失視覺效果 | 從接觸點建立篩選器，將篩選器新增為觸控點，並比較各種篩選器之間的關鍵工作流程 |
+| 計算量度篩選器 | [計算量度產生器](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) | 至個別計算量度 | 在您的量度定義中套用篩選器 |
 
-請記住：
-
-* 下列元件類型&#x200B;**無法**&#x200B;拖曳至篩選器拖放區域：計算量度以及無法建立篩選條件的維度/量度。
-* 為建立完整的維度和事件，Analysis Workspace 建立了「存在」點擊篩選條件。例子：「點撃 eVar1 存在的位置」或「點撃 event1 存在的位置」。
-* 如將「未指定」或「無」拖曳至篩選器拖放區，該項目會自動轉換成「不存在」篩選條件，以利系統正確處理。
-
-![](assets/segment-dropzone.png)
-
->[!NOTE]
->
->此為專案內部專用的篩選條件建立方式。
-
-您可以遵循下列步驟，將這些篩選條件設為公用 (全域)：
-
-1. 在拖放區域中的篩選條件上暫留，並按一下「i」圖示。
-1. 在顯示的資訊面板中，按一下&#x200B;**[!UICONTROL 「設為公用」]**。
-
-   ![](assets/segment-info.png)
-
-## 套用篩選條件的其他方法
-
-另有幾個為專案套用篩選條件的方法：
+將篩選器套用至自由格式專案時，也提供其他幾種方法：
 
 | 動作 | 說明 |
 | --- | --- |
 | 從選取項目建立篩選條件 | 建立內嵌篩選條件。此篩選器僅套用至開啟的專案，不會儲存為 CJA 篩選器。<p> 1. 請選取您要哪些表格列成為篩選器的一部分。  2. 以滑鼠右鍵按一下選取項目。  3. 按一下&#x200B;*「從選取項目建立篩選條件」*。 |
-| 「工作區 [!UICONTROL 元件] > [!UICONTROL 新增篩選器]」 | 顯示篩選條件產生器。 如需篩選功能的詳細資訊，請參閱[篩選條件產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)。 |
-| 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在[「組織與共用」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，您可以了解套用至專案的篩選條件可如何供收件者在共用分析中使用。 |
-| 將篩選條件作為維度使用 | 請觀看下方的影片：在 Analysis Workspace 中使用篩選器作為維度 |
-
->[!VIDEO](https://video.tv.adobe.com/v/23974)
+| 「工作區 [!UICONTROL 元件] > [!UICONTROL 新增篩選器]」 | 顯示篩選條件產生器。 如需篩選功能的詳細資訊，請參閱[篩選條件產生器](/help/components/filters/filter-builder.md)。 |
+| 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在 [共用專案](/help/analysis-workspace/curate-share/share-projects.md) 或 [組織專案](/help/analysis-workspace/curate-share/curate.md)，了解您套用至專案的篩選器在收件者的共用分析中如何提供。 |
+| 將篩選條件作為維度使用 | 下列影片示範如何將篩選條件當成維度使用：(**注意：** 此影片使用「區段」一詞，而非「篩選器」。 但功能相同。) <p>[在 Analysis Workspace 中將區段用作維度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=zh-Hant)</p> |

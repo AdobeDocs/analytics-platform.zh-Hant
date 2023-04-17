@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3b4acdd3e0f5f47957abf6d11eab8bbf65c4bf08
+source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 95%
+source-wordcount: '1659'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 95%
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 4 月** |  |
+| 篩選檔案 | 新增有關使用 [篩選產生器](/help/components/filters/filter-builder.md). <p>簡化中的檔案 [建立篩選器](/help/components/filters/create-filters.md) 和 [篩選器概觀](/help/components/filters/filters-overview.md).</p> |
 | 更新至實驗面板檔案 | 新增區段至 [解譯非隨機維度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
 | 專案篩選器（隨選和快速篩選） | 簡化專案篩選和移除重複資訊的檔案。 建立臨機篩選的步驟現已與 [建立快速篩選器](/help/components/filters/quick-filters.md). |
 | **2023 年 3 月** |  |

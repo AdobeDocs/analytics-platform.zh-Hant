@@ -2,9 +2,9 @@
 title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: a69f9eef39c0eceee1964a3b8741b7538b218ece
+source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '956'
 ht-degree: 98%
 
 ---
@@ -18,20 +18,13 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 您可以在篩選產生器中建立和儲存篩選器，或從「流失」視覺效果 (在工作區中) 產生篩選器。此外，多個篩選器可作為堆疊篩選器搭配使用。
 
-篩選包含可建構篩選器並執行預先測試的[篩選產生器](/help/components/filters/create-filters.md)，以及可收集、標記、核准、設定安全性及為整個組織共用篩選器的[篩選管理器](/help/components/filters/manage-filters.md)。
+篩選包含可建構篩選器並執行預先測試的[篩選產生器](/help/components/filters/filter-builder.md)，以及可收集、標記、核准、設定安全性及為整個組織共用篩選器的[篩選管理器](/help/components/filters/manage-filters.md)。
 
 每個 IMS 組織最多可以建立 50,000 個篩選器。
 
 ## 篩選器類型 {#types}
 
-您可以在工作區和篩選產生器中建立不同類型的篩選器，實際類型將依據這些區段需要的複雜程度、是否應僅套用於此專案等因素而定。以下是篩選器類型的摘要：
-
-| 篩選器類型 | 在哪裡建立？ | 適用於何處？ | 何時使用 |
-| --- | --- | --- | --- |
-| 元件清單篩選器 | 按一下「+」(加號)，系統即會將您帶至「[篩選產生器](/help/components/filters/create-filters.md)」 | 您所有的工作區專案 | 適用於較複雜的篩選器、循序篩選器 |
-| 快速篩選 | [快速篩選產生器](/help/components/filters/quick-filters.md) | 僅限專案，但可以儲存並新增至您的分段清單中。 | 可用於臨機單一規則篩選器（透過拖放），或新增/編輯多個規則（透過按一下「篩選」圖示） |
-| 流失分析中的篩選器 | Analysis Workspace 中的[流失視覺效果](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) | 對於個別的流失視覺效果 | 從接觸點建立篩選器，將篩選器新增為觸控點，並比較各種篩選器之間的關鍵工作流程 |
-| 計算量度篩選器 | [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 至個別計算量度 | 在您的量度定義中套用篩選器 |
+如需可用篩選器類型以及如何建立的相關資訊，請參閱 [建立篩選器](/help/components/filters/create-filters.md).
 
 ## 循序篩選器 {#sequential}
 
