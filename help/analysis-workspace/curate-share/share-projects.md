@@ -4,10 +4,10 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
+source-git-commit: df939712d3ee8d029dd42a9a769c022a4d0dbdf1
 workflow-type: tm+mt
-source-wordcount: '1673'
-ht-degree: 56%
+source-wordcount: '1753'
+ht-degree: 53%
 
 ---
 
@@ -137,6 +137,10 @@ ht-degree: 56%
    <!-- Add screen shot of new modal -->
 
 1. 啟用 **[!UICONTROL 連結處於活動狀態]** 選項。
+
+   選取此選項會建立可與任何人共用之專案的連結。 您可以隨時停用此選項，以停用專案的存取權。
+
+   專案的擁有者也是此連結的擁有者。 只有在項目所有權轉移時，連結所有權才能轉移給其他用戶，如 [轉移使用者資產或設定帳戶過期時間](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) （位於Analytics管理指南中）。
 
 1. 選擇是否啟用下列安全性選項（CJA管理員可控制此選項）:
 
