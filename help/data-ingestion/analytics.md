@@ -4,10 +4,10 @@ description: 說明如何從傳統 Adobe Analytics 擷取資料
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: 325dcd0862b8ac06b3b26c3ae349a8fce757cb6c
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -79,7 +79,7 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
    ![請檢閱](./assets/review.png)
 
 
-建立連線後，系統會自動建立資料流，以從報告套裝中使用 Adobe Analytics 資料填入資料集，包括擷取最多 13 個月的歷史資料。
+建立連線後，系統會自動建立資料流，以從報表套裝中使用Adobe Analytics資料填入資料集，包括為生產沙箱擷取最多13個月的歷史資料。 （請注意，自2023年4月26日起，非生產沙箱的回填限制為3個月。）
 
 完成初始擷取後，您的 Adobe Analytics 報告套裝資料就準備就緒，可供 Customer Journey Analytics 使用。
 
@@ -115,7 +115,7 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
       ![新增資料集](./assets/cja-connections-2a.png)
 
    - 選取&#x200B;**[!UICONTROL 「下一步」]**。
-   在[!UICONTROL 新增資料集]中的[!UICONTROL 資料集設定]步驟：
+   在[!UICONTROL 新增資料集]的[!UICONTROL 資料集設定]步驟：
 
    - 對於每個資料集：
 

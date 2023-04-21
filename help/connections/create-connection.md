@@ -4,10 +4,10 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 60f9c81699f9a8e1657da4bd806d04f9f8adaa99
+source-git-commit: 41847015d581f2ee18bcaa9605bd567d5feb78d8
 workflow-type: tm+mt
-source-wordcount: '2489'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 98%
    | **[!UICONTROL 時間戳記]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述中的預設時間戳記欄位。 |
    | **[!UICONTROL 資料來源類型]** | 資料來源類型包括： [!UICONTROL 網路資料], [!UICONTROL 行動應用程式資料], [!UICONTROL POS資料], [!UICONTROL CRM資料], [!UICONTROL 調查資料], [!UICONTROL 客服中心資料], [!UICONTROL 產品資料], [!UICONTROL 帳戶資料], [!UICONTROL 交易資料], [!UICONTROL 客戶意見資料]，和 [!UICONTROL 其他]. |
    | **[!UICONTROL 匯入新資料]** | 如果您要建立持續連線，請選取此選項，如此一來，新增到此連線中資料集的任何新資料批次都會自動流入工作區。 可設為 [!UICONTROL 開啟] 或 [!UICONTROL 關閉]. |
-   | **[!UICONTROL 資料集回填]** | 按一下&#x200B;**[!UICONTROL 請求回填]**&#x200B;以回填歷史資料。<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。 延遲受到您有多少歷史資料所影響。</li><li>Adobe Analytics 來源連接器最多可匯入 13 個月資料 (不論資料量多寡)。</li></ul> |
+   | **[!UICONTROL 資料集回填]** | 按一下&#x200B;**[!UICONTROL 請求回填]**&#x200B;以回填歷史資料。<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。 延遲受到您有多少歷史資料所影響。</li><li>Adobe Analytics Source Connector最多可匯入13個月的生產沙箱資料（不論大小）。 非生產沙箱的回填限制為3個月。</li></ul> |
    | **[!UICONTROL 回填狀態]** | 可能的狀態指標包括：<ul><li>成功</li><li>正在處理 X 個回填</li><li>關閉</li></ul> |
    | **[!UICONTROL 資料集 ID]** | 此 ID 是自動產生的。 |
    | **[!UICONTROL 說明]** | 建立資料集時為其提供的說明。 |
