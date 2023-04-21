@@ -4,10 +4,10 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 2d96b246ecee6ce447b5a03216e093b71a83a8ac
+source-git-commit: 64a774d9151c40ea9eadb1fb80c07db168ac8667
 workflow-type: tm+mt
-source-wordcount: '3139'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -186,7 +186,7 @@ ht-degree: 79%
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **專案共用** |  |  |
-|  | 僅允許與 Workspace 使用者共用 | <p>啟用此選項後，您組織中的使用者在「共用」功能表中看不到「與任何人共用」選項。 這表示使用者無法與組織中沒有Analysis Workspace帳戶的人員共用專案，如 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p><p>預設情況下，除醫療保健行業中的組織外，所有組織都禁用此選項。 </p><p>啟用或停用此選項時，請考量下列事項：</p> <ul><li><p>當您啟用此選項時，先前透過「與他人共用」共用選項而收到專案存取權的使用者無法再存取專案。</p></li><li><p>如果啟用此選項（僅允許與工作區使用者共用），之後又停用（允許與任何人共用），先前透過「與任何人共用」共用選項收到專案存取權的使用者，不會自動重新取得專案存取權。 在此情況下，共用專案的使用者必須啟用 [!UICONTROL **連結處於活動狀態**] 與他人共用專案時可用的選項([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**])，如中所述 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p></li><li><p>**對於醫療保健行業的組織：** 此選項預設為啟用並暗顯。 您必須先新增 [!UICONTROL **與任何人共用專案連結**] 權限(位於 [!UICONTROL **報表工具**])，而非Adobe Admin Console。 新增權限後，您可以停用此選項，然後接受產生的法律通知。 如需如何在Admin Console中新增權限的詳細資訊，請參閱 [在Admin Console中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html).</p></li> |
+|  | 僅允許與 Workspace 使用者共用 | <p>啟用此選項後，您組織中的使用者在「共用」功能表中看不到「與任何人共用」選項。 這表示使用者無法與組織中沒有Analysis Workspace帳戶的人員共用專案，如 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p><p>預設情況下，所有組織（即用戶可以與組織外的人員共用項目）都禁用此選項，醫療保健行業中的組織除外。 </p><p>啟用或停用此選項時，請考量下列事項：</p> <ul><li><p>當您啟用此選項時，先前透過「與他人共用」共用選項而收到專案存取權的使用者無法再存取專案。</p></li><li><p>如果啟用此選項（僅允許與工作區使用者共用），之後又停用（允許與任何人共用），先前透過「與任何人共用」共用選項收到專案存取權的使用者，不會自動重新取得專案存取權。 在此情況下，共用專案的使用者必須啟用 [!UICONTROL **連結處於活動狀態**] 與他人共用專案時可用的選項([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**])，如中所述 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p></li><li><p>**對於醫療保健行業的組織：** 此選項預設為啟用並暗顯。 您必須先新增 [!UICONTROL **與任何人共用專案連結**] 權限(位於 [!UICONTROL **報表工具**])，而非Adobe Admin Console。 新增權限後，您可以停用此選項，然後接受產生的法律通知。 如需如何在Admin Console中新增權限的詳細資訊，請參閱 [在Admin Console中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html).</p></li> |
 |  | 需要 Experience Cloud 驗證 | <p>啟用後，Analysis Workspace中「與任何人共用」選項可供存取專案的使用者，必須使用其Experience Cloud憑證進行驗證。</p> <p>啟用此選項後，每當用戶使用「與任何人共用」共用選項共用項目時，「需要Experience Cloud驗證」選項就會在「共用」對話框中啟用，並且共用項目的用戶不能禁用該選項。 (如需使用者如何與他人共用專案的相關資訊，請參閱 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).)</p> <p>啟用此選項時，請考量下列事項：</p><ul><li><p>啟用此選項後，先前與「與任何人共用」共用選項共用且未啟用「需要Experience Cloud驗證」選項的所有專案都會停用。</p></li> <li><p>如果啟用此選項(需要Experience Cloud驗證)，之後又停用（允許任何具有此連結的人存取專案），先前透過「與他人共用」共用選項而收到專案存取權的人，不會自動重新取得專案存取權。 在此情況下，共用專案的使用者必須啟用「連結作用中」選項，此選項可在與他人共用專案時使用([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**] > [!UICONTROL **連結處於活動狀態**])，如中所述 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>只有在貴組織中實作了SSO時，才可使用此選項。 有關係統管理員如何為貴組織啟用SSO的資訊，請參見 [設定身分和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}.</p><p>如果已為貴組織設定SSO，請檢查主控台中是否已實作任何類型的自動帳戶建立。 通常，系統管理員會設定此設定，如 [啟用自動帳戶建立](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>如果貴組織所在的行業需要HIPAA法規遵從，則此選項將自動啟用，並且無法禁用。</p></li></ul> |
 
 {style="table-layout:auto"}
