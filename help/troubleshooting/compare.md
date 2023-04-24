@@ -4,10 +4,10 @@ description: 了解如何將您的 Adobe Analytics 資料與 Customer Journey An
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
-source-wordcount: '828'
-ht-degree: 100%
+source-git-commit: 95f92d742dcc59098f51978a02c2989c42594807
+workflow-type: tm+mt
+source-wordcount: '874'
+ht-degree: 94%
 
 ---
 
@@ -51,18 +51,19 @@ ht-degree: 100%
 
 1. 在 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)中，執行以下[!UICONTROL 依時間戳記區分的記錄總數]查詢：
 
-```
-SELECT Substring(from_utc_timestamp(timestamp,'{timeZone}'), 1, 10) as Day, \ 
-        Count(_id) AS Records 
-        FROM  {dataset} \ 
-        WHERE timestamp>=from_utc_timestamp('{fromDate}','UTC') \ 
-        AND timestamp<from_utc_timestamp('{toDate}','UTC') \ 
-        AND timestamp IS NOT NULL \ 
-        AND enduserids._experience.aaid.id IS NOT NULL  \ 
-        GROUP BY Day \ 
-        ORDER BY Day; 
-```
-
+       &quot;
+       選擇Substring(from_utc_timestamp(timestamp,&#39;{timeZone}&#39;), 1, 10)作為Day, \
+       Count(_id)AS記錄
+       從{dataset} \
+       WHERE timestamp>=from_utc_timestamp(&#39;{fromDate}&#39;,&#39;UTC&#39;)\
+       和時間戳記&lt;from_utc_timestamp todate=&quot;&quot; utc=&quot;&quot; span=&quot;&quot; id=&quot;11&quot; translate=&quot;no&quot; />       且時間戳記非空值\
+       和enduserid。
+_experience.aaid.id非空值\
+       按日分組\
+       按日排序；
+       
+       &quot;
+   
 1. 在 [Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)中，從原始資料中找出 Analytics 來源連接器是否可能已篩選掉某些列。
 
    [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)可能在轉換成 XDM 結構描述期間篩選掉某些列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會篩選掉整列。
