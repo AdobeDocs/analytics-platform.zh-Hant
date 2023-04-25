@@ -4,10 +4,10 @@ description: 跨管道分析常見問題集
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 97%
+source-wordcount: '1067'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 ## 我聯絡Adobe帳戶團隊並取得所需資訊後，重新輸入的資料集需要多久才能使用？
 
-Adobe 啟用跨頻道分析後，需要約一週才能使用即時彙整功能。能否使用回填功能取決於現有資料的數量。如果是小型資料集 (每天不到 100 萬個事件)，通常需要幾天後才能使用，大型資料集 (每天 10 億個事件) 則需等待一週或更久時間。
+Adobe 啟用跨頻道分析後，需要約一週才能使用即時彙整功能。能否使用回填功能取決於現有資料的數量。小型資料集（每天少於100萬個事件）通常需要數天，而大型資料集（每天10億個事件）則可能需要一週或更久。
 
 ## 跨裝置分析 (傳統 Analytics 中的一項功能) 和跨頻道分析有何差異？
 

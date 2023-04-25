@@ -4,10 +4,10 @@ description: 檢視資料檢視元件的核心設定。
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: baee2ccf6eec040972726b9651ffe565d50307a9
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 93%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 | 設定 | 說明/使用案例 |
 | --- | --- |
-| [!UICONTROL 元件類型] | 必填。可讓您將元件從「量度」變更為「維度」，反之亦然。變更此下拉式清單會將元件移動到其各自包含的元件區域。 |
+| [!UICONTROL 元件類型] | 必填。可讓您將元件從「量度」變更為「維度」，反之亦然。更改此下拉選項會將元件移至其相應的包含元件區域。 |
 | [!UICONTROL 元件名稱] | 必填。可讓您指定在 Analysis Workspace 中顯示的友好名稱。您可以重新命名元件，給它一個特定於資料檢視的名稱。 |
 | [!UICONTROL 說明] | 選填，但建議。為其他使用者提供有關元件的資訊。 |
 | [!UICONTROL 標籤] | 選填。可讓您使用自訂或現成可用的標籤來標記元件，以便在 Analysis Workspace UI 中更輕鬆地進行搜尋/篩選。 |
-| [!UICONTROL 內容標籤] | 選填。可套用於元件的可用系統定義標籤的下拉式清單。可能需要用這些標籤來定義一組用於在 Analysis Workspace 專案或面板中報告的元件。 |
+| [!UICONTROL 內容標籤] | 選填。可用系統定義標籤的下拉式清單，可套用至元件。 可能需要用這些標籤來定義一組用於在 Analysis Workspace 專案或面板中報告的元件。 |
 | [!UICONTROL 結構欄位名稱] | 結構欄位的名稱。 |
 | [!UICONTROL 資料集類型] | 必填。不可編輯的欄位，顯示元件來自的資料集類型 (事件、查詢或設定檔)。 |
 | [!UICONTROL 資料集] | 不可編輯的欄位，顯示元件來自的資料集。此欄位可包含多個資料集。 |
@@ -33,7 +33,7 @@ ht-degree: 100%
 | [!UICONTROL 資料使用情況標籤] | 指派給 Adobe Experience Platform 中此元件的任何資料使用標籤。[了解更多](/help/data-views/data-governance.md) |
 | [!UICONTROL 隱藏報告中的元件] | 可讓您從非管理員的資料檢視中組織出元件。管理員仍可以按一下 Analysis Workspace 專案中的「[!UICONTROL 顯示所有元件]」來存取它。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 以下為有關資料檢視中元件設定的影片：
 

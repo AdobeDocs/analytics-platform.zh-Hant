@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5ab563b9-d4f6-4210-8789-e16e5c93d968
 mini-toc-levels: 3
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 97%
+source-wordcount: '911'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 [Attribution AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/attribution-ai/overview.html?lang=zh-Hant) 是 Adobe Experience Platform Intelligent Services 的一部分，它是一種多管道的演算法歸因服務，可計算客戶互動對指定結果的影響和累加影響。 透過 Attribution AI，行銷人員可藉由了解每個客戶在客戶歷程各個階段的互動所產生的影響，以衡量行銷和廣告支出並使其最佳化。
 
-Attribution AI 會與 Customer Journey Analytics (CJA) 進行某種程度的整合，使 Attribution AI 可針對客戶的行銷接觸點和轉換資料來源執行模型。 然後 CJA 會將這些模型輸出當作資料集匯入，或者可以將其與您的其餘 CJA 資料集整合。 接著就能在 CJA 中的資料檢視和報告中運用具有 Attribution AI 功能的資料集。
+Attribution AI 會與 Customer Journey Analytics (CJA) 進行某種程度的整合，使 Attribution AI 可針對客戶的行銷接觸點和轉換資料來源執行模型。 然後CJA會將這些模型的輸出匯入為資料集，或與其餘的CJA資料集整合。 接著就能在 CJA 中的資料檢視和報告中運用具有 Attribution AI 功能的資料集。
 
 Attribution AI 支援 3 個 Experience Platform 結構描述：體驗事件、Adobe Analytics 和取用者體驗事件。
 

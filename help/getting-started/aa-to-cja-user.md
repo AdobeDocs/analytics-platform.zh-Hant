@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
-workflow-type: ht
-source-wordcount: '1454'
-ht-degree: 100%
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+workflow-type: tm+mt
+source-wordcount: '1452'
+ht-degree: 97%
 
 ---
 
@@ -38,13 +38,13 @@ CJA 從 Adobe Experience Platform 獲取資料。Experience Platform 可讓您�
 
 Experience Platform 中的客戶資料以資料集形式儲存，資料集含有[結構描述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant)和資料批次。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
 
-您的 CJA 管理員會建立至 Experience Platform 內資料集的[連接](/help/connections/create-connection.md)。然後他們會使用這些連接來建置[資料檢視](/help/data-views/data-views.md)。資料檢視在概念上與虛擬報告套裝相似，是 CJA 報告的基礎。由於 Experience Platform 會從是所有報告資料取得來源，因此報告套裝不再以資料容器存在。
+您的CJA管理員已建立 [連接](/help/connections/create-connection.md) 到Experience Platform中的資料集。 然後他們會使用這些連接來建置[資料檢視](/help/data-views/data-views.md)。資料檢視在概念上與虛擬報告套裝相似，是 CJA 報告的基礎。由於 Experience Platform 會從是所有報告資料取得來源，因此報告套裝不再以資料容器存在。
 
 透過連接，分析管理員可以將來自 Adobe Experience Platform 的資料集整合到 CJA 中，包括在以下視頻中：
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包括透過 Adobe Analytics 來源連接器或 Web SDK 的報告套裝資料。來自多個報告套裝的現有實現可以組合為 Experience Platform。基於這些資料集的連接和資料檢視可以合併先前存在於單獨報告套裝中的資料。
+Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包括透過 Adobe Analytics 來源連接器或 Web SDK 的報告套裝資料。來自多個報告套裝的現有實現可以組合為 Experience Platform。以這些資料集為基礎的連線和資料檢視，可結合先前存在於個別報表套裝中的資料。
 
 ## 虛擬報告套裝概念的變動 {#data-views}
 

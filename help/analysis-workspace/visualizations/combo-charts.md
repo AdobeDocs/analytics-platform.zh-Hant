@@ -3,11 +3,11 @@ description: 讓您在 Analysis Workspace 中輕鬆地將比較資料視覺化�
 title: 組合圖表視覺效果
 feature: Visualizations
 role: User, Admin
-exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 8cc4fc0cd2a6c5b6b895e56bbb7922caba56d9ae
-workflow-type: ht
-source-wordcount: '776'
-ht-degree: 100%
+exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 97%
 
 ---
 
@@ -45,9 +45,9 @@ ht-degree: 100%
    | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。請參閱以下的支援函數清單。<p>![函數](assets/combo-functions.png) |
    | **[!UICONTROL 次要量度]** | 例如，您可以將[!UICONTROL 收入]與另一個量度比較。<p>![兩個量度](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. 按一下&#x200B;**[!UICONTROL 「建置」]**。
+1. 按一下&#x200B;**[!UICONTROL 建置]**。
 
    輸出將與下圖相似：
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 | **[!UICONTROL 平均值]** | 傳回量度的算術平均值或平均值。 |
 | **[!UICONTROL 欄最小值]** | 傳回量度欄中一組維度元素的最小值。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 以下為收入量度的累積平均值範例：
 
@@ -88,11 +88,11 @@ ht-degree: 100%
 | 設定 | 定義 |
 | --- | --- |
 | **[!UICONTROL 視覺效果類型]** | 讓您切換至另一個視覺效果類型。 |
-| **[!UICONTROL 粒度]** | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的粒度 (日、週、月等)。 |
+| **[!UICONTROL 粒度]** | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的從此下拉式清單。 |
 | **[!UICONTROL 一般]** |  |
 | **[!UICONTROL 百分比]** | 以百分比顯示值。 |
 | **[!UICONTROL 可見圖例]** | 讓您隱藏組合圖表視覺效果的詳細圖例文字。 |
-| **[!UICONTROL 限制項目數量上限]** | 減少 X 軸上的項目數量。如果您有巨量資料集合，僅可顯示前 10 個項目 (或您選取的任一值)。 |
+| **[!UICONTROL 限制項目數量上限]** | 減少 X 軸上的項目數量。如果您有大型資料集，則只能顯示前10個項目（或您選擇的任何值）。 |
 | **[!UICONTROL 重疊]** | 顯示或隱藏折線上的槓鈴。 |
 | **[!UICONTROL 軸]** |  |
 | **[!UICONTROL 顯示雙軸]** | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。除非有多項比較，否則雙軸顏色會搭配表格的顏色。此時所有比較的顏色為灰色。 |
@@ -101,4 +101,4 @@ ht-degree: 100%
 | **[!UICONTROL 顯示 y 軸]** | 顯示或隱藏 y 軸。 |
 | **[!UICONTROL 將 y 軸固定於零]** | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

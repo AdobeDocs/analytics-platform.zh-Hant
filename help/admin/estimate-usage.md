@@ -4,10 +4,10 @@ description: 顯示兩種估計使用情況的方法，以及一種管理使用�
 role: Admin
 feature: CJA Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 98%
+source-wordcount: '869'
+ht-degree: 94%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 98%
 >
 >    請勿僅為了測量使用情況而建立包含所有資料的新連線，因為這實際上會使您的使用量增加一倍。
 
-1. 在工作區中，根據每個資料檢視建立新專案並拉入所有事件 (從&#x200B;**[!UICONTROL 「量度」]**&#x200B;下拉式清單)，從目前 CJA 合約的第一天開始，一直到當月的第一個星期五。
+1. 在工作區中，根據每個資料檢視建立新專案並拉入所有事件(從 **[!UICONTROL 量度]** 下拉式清單)，從目前CJA合約的第一天開始，一直到當月的第一個星期五。
 
    ![事件](./assets/events-usage.png)
 

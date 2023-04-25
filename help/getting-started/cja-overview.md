@@ -4,10 +4,10 @@ description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Wo
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 97%
+source-wordcount: '978'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Customer Journey Analytics 提供簡單易用的跨頻道功能，並移除舊�
 * **不限數量的變數和事件**：eVar、prop 和事件的概念已不存在。資料主要聚焦於維度和量度。資料集可以有不限數量的不重複維度和量度。
 * **不限數量的唯一值**：Adobe Experience Platform 不受任何獨特限制。
 * **變更歷史資料**：您可以使用 Adobe Experience Platform 移除或修正資料。
-* **跨報告套裝資料**：可在 Platform 中結合來自多個資料集的現有實作。
+* **跨報表套裝資料**:可在Platform中結合來自多個資料集的現有實作。
 
 >[!TIP]
 >

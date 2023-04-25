@@ -4,10 +4,10 @@ description: 了解如何將以帳戶為基礎的資料，以查詢資料集的�
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 1a18ddbab09e272189a25041396570d127bb81c3
-workflow-type: ht
-source-wordcount: '841'
-ht-degree: 100%
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+workflow-type: tm+mt
+source-wordcount: '838'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 您可以將帳戶層級資訊做為一個[查詢](/help/getting-started/cja-glossary.md)資料集，即可做到這一切。
 
-首先，您要在 Adobe Experience Platform 中建立查詢結構，接著內嵌 .csv 格式的帳戶層級資料以建立查詢表格資料集。接下來，您需要繼續建立結合不同資料集的 Customer Journey Analytics (CJA) 連線，包括您剛剛建立的查詢資料集。您之後會建立資料檢視，最後就能夠在 Workspace 中運用上述的所有資料。
+您先在Adobe Experience Platform中建立查詢結構，然後擷取.csv格式的帳戶層級資料，以建立查詢表格資料集。 接下來，您需要繼續建立結合不同資料集的 Customer Journey Analytics (CJA) 連線，包括您剛剛建立的查詢資料集。您之後會建立資料檢視，最後就能夠在 Workspace 中運用上述的所有資料。
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ![](../assets/create-new-class.png)
 
-## 2. 建立查詢資料集 (Experience Platform)
+## 2.建立查詢資料集(Experience Platform)
 
 建立架構後，就能在 Experience Platform 中使用該架構建立查詢資料集。此查詢資料集包含帳戶層級的行銷資訊，例如：公司名稱、員工總數、網域名稱、產業別、年度營收、是否為 Experience Platform 現有客戶、所處銷售階段、帳戶中正在使用 CJA 的團隊等等。
 

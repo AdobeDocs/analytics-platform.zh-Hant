@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 常見問題。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: dac10a1e4848514661bf06fe71d233da6f9aa878
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 98%
+source-wordcount: '2130'
+ht-degree: 96%
 
 ---
 
@@ -68,9 +68,9 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 +++
 
 
-+++**非拼接設定檔資料集記錄的預期行為是什麼？**
++++**未匯整設定檔資料集記錄的預期行為為何？**
 
-**範例方案**：透過使用 `CRMid` 作為個人 ID 在 CJA 連接中加入 2 個資料集。一種是在所有記錄中具有 `CRMid`的 Web 事件資料集。另一個資料集是 CRM 設定檔資料集。40% 的 CRM 資料集在 Web 事件資料集中存在 `CRMid`。其他 60% 不存在於 Web 事件資料集中 - 這些記錄是否出現在 Analysis Workspace 的報告中？<p> **答案**：沒有事件關聯的設定檔列儲存在 CJA 中。但是，在與該 ID 關聯的事件出現之前，您無法在 Analysis Workspace 中查看它們。
+**範例方案**：透過使用 `CRMid` 作為個人 ID 在 CJA 連接中加入 2 個資料集。一種是在所有記錄中具有 `CRMid`的 Web 事件資料集。另一個資料集是CRM設定檔資料集。 40%的CRM資料集已 `CRMid` 存在於網頁事件資料集中。 其他 60% 不存在於 Web 事件資料集中 - 這些記錄是否出現在 Analysis Workspace 的報告中？<p> **答案**：沒有事件關聯的設定檔列儲存在 CJA 中。但是，在與該 ID 關聯的事件出現之前，您無法在 Analysis Workspace 中查看它們。
 
 +++
 
@@ -168,7 +168,7 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 | 量度重複資料刪除 | 如果多列具有相同的交易 ID (例如，[!UICONTROL 購買 ID])，則對量度的實例 (例如[!UICONTROL 訂單]) 進行重複資料刪除。這可以防止過度計算關鍵量度。因此，像[!UICONTROL 訂單]這樣的量度可能不會跨報表套裝累加。 |
 | 貨幣 | CJA 尚不支援貨幣轉換。如果您嘗試合併的報表套裝使用不同的基礎貨幣，則可能會出現問題。 |
 | [!UICONTROL 持續性] | [持續性](../data-views/component-settings/persistence.md)跨報表套裝擴展，這會影響[!UICONTROL 篩選]、[!UICONTROL 歸因]等。數字可能無法正確相加。 |
-| [!UICONTROL 分類] | 合併報表套裝時，[!UICONTROL 分類]不會自動進行重複資料刪除。將多個分類檔案合併為單一[!UICONTROL 查閱]資料集時，您可能會遇到問題。 |
+| [!UICONTROL 分類] | 合併報表套裝時，[!UICONTROL 分類]不會自動進行重複資料刪除。將多個分類檔案合併為單一 [!UICONTROL 查閱] 資料集時，您可能會遇到問題。 |
 
 
 ## 8. 傳統 [!UICONTROL Adobe Analytics] 元件

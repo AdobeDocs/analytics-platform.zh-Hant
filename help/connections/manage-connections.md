@@ -5,10 +5,10 @@ mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
-workflow-type: ht
-source-wordcount: '1808'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '1809'
+ht-degree: 99%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 | Widget/設定 | 說明 |
 | --- | --- |
 | 資料集選擇器 | 可讓您選擇連線中的一個或所有資料集。 您無法多重選取資料集。 預設為「[!UICONTROL 所有資料集]」。 |
-| 行事曆/日期範圍 | 日期範圍會指示您將資料新增到連線中的時間。 所有標準行事曆預設集都會納入其中。 您可以自訂日期範圍，但是下拉式清單中不會出現任何自訂日期範圍。 |
+| 行事曆/日期範圍 | 日期範圍會指示您將資料新增到連線中的時間。 所有標準行事曆預設集都會納入其中。 您可以自訂日期範圍，但下拉式清單中不會顯示自訂日期範圍。 |
 | [!UICONTROL 可用的事件資料記錄]  Widget | 代表在&#x200B;**整個連線**&#x200B;中可用來報告的總事件資料集列數。 此計數與任何行事曆設定皆無關。 如果您從資料集選擇器選取資料集，或是選取表格中的資料集，此計數就會改變。 (請注意，在新增資料後，可能要等候 1-2 個小時，資料才會出現在報告中。) |
 | [!UICONTROL 量度] Widget | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;彙總已新增/略過/刪除的事件記錄，以及已新增的批次數量。 |
 | [!UICONTROL 新增的記錄] Widget | 指出在選取的時段內，針對您選取的資料集和日期範圍&#x200B;**新增了多少列。**&#x200B;每 10 分鐘更新一次。**注意**：**[!UICONTROL 新增的記錄]**&#x200B;資料此時僅包括事件資料，不包括設定檔或查詢資料。 |

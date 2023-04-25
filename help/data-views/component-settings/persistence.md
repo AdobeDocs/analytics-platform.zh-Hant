@@ -4,10 +4,10 @@ description: 決定是否會在不同事件中儲存維度值或是如何儲存�
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: dbb7edae43fdc970cacf5863ecd13df75deaefad
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '806'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 | [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。2021 年 10 月 28 日起，一個最多 90 天的回顧期間會新增至[!UICONTROL 分配]設定中。 |
 | [!UICONTROL 有效期] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 自訂時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。您可以設定的最長到期時間為 90 天。如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]到期可用。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL 配置]設定
 
@@ -76,13 +76,13 @@ ht-degree: 100%
 
 ## [!UICONTROL 繫結維度]
 
-讓您將維度值的持續性繫結至另一維度中維度值的下拉式清單。有效的下拉式清單選項包含在資料視圖中的其他維度。
+一個下拉式清單，可讓您將維度值的持續性系結至另一個維度中的維度值。 有效選項包括資料檢視中包含的其他維度。
 
 如需有關如何有效使用繫結維度的範例，請參閱「[使用 CJA 中的繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md)」。
 
 ## [!UICONTROL 繫結量度]
 
-讓您選擇做為繫結觸發器的量度的下拉式清單。有效的下拉式清單選項包含在資料視圖中的量度。
+一個下拉式清單，可讓您選取作為捆綁觸發的量度。 有效選項包括資料檢視中包含的量度。
 
 此項設定只會在繫結維度在物件陣列中小於元件時出現。繫結量度存在於事件中時，維度值會從事件水準維度複製到繫結維度的下層結構描述。
 

@@ -3,10 +3,10 @@ description: 如何變更視覺化調色盤或指定您自己的自訂調色盤�
 title: 視覺化調色盤
 feature: CJA Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '211'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 ## 若要變更調色盤：
 
 1. 導覽至&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定」]**。
-1. 在&#x200B;**[!UICONTROL 「專案調色盤」]**&#x200B;下拉式功能表中，您可以從五個預先設定的色彩配置中選擇其一。
+1. 從 **[!UICONTROL 專案調色盤]** 下拉式清單中，您可以從五個預先設定的色彩配置中選擇其一。
 
    ![](assets/custom_palette.png)
 

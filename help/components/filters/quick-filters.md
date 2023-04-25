@@ -4,10 +4,10 @@ title: 快速篩選
 feature: CJA Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: cb1654cef651c5143667302c3fc592ba503dfe0a
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 43%
+source-wordcount: '1166'
+ht-degree: 42%
 
 ---
 
@@ -65,7 +65,7 @@ Analysis Workspace中的任何使用者都可建立快速篩選。
    | [!UICONTROL 開啟產生器] | 開啟篩選產生器。在「篩選產生器」中儲存或套用篩選器後，就不再視為「快速篩選」。 它會成為元件清單篩選資料庫的一部分。 <p>若要讓元件可供所有專案和左側邊欄使用，請選取選項 [!UICONTROL **將此篩選器設為可供所有專案使用，並新增至元件清單**].</p><p>如需詳細資訊，請參閱 [將快速篩選器另存為元件清單篩選器](#save-a-quick-filter-as-a-component-list-filter) 這篇文章。</p><p>**注意：** 僅限在 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) 可以開啟「篩選產生器」。</p> |
    | [!UICONTROL 取消] | 取消此快速篩選（不要套用）。 |
    | [!UICONTROL 日期範圍] | 驗證器使用面板日期範圍進行資料查詢。但是在快速篩選中套用的任何日期範圍都會覆寫面板頂端的面板日期範圍。 |
-   | 預覽 (右上角) | 讓您查看是否有有效的篩選以及篩選的範圍。表示您在套用此篩選時可以看到的資料集劃分。您可能會收到一則通知，指出此篩選器沒有資料。這種情況下，您可繼續或變更篩選器定義。 |
+   | 預覽 (右上角) | 讓您查看是否有有效的篩選以及篩選的範圍。代表套用此篩選時，您可以看到的資料集劃分。 您可能會收到一則通知，指出此篩選器沒有資料。這種情況下，您可繼續或變更篩選器定義。 |
 
 1. 選擇 [!UICONTROL **套用**] 來儲存變更。
 

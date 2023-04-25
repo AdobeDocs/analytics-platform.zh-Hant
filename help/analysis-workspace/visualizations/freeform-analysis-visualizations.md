@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 視覺效果概觀
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 5107c1ed145579c7da27ce50c13543196fcf6fe3
-workflow-type: ht
-source-wordcount: '1136'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '1137'
+ht-degree: 99%
 
 ---
 
@@ -47,17 +47,17 @@ Analysis Workspace 中有以下視覺效果類型：
 
 ### 自訂單一視覺效果的視覺效果設定
 
-若要針對個別視覺效果存取[!UICONTROL 「視覺效果設定」]：
+若要針對個別視覺效果存取[!UICONTROL 視覺效果設定]：
 
 1. 在 Analysis Workspace 中，將滑鼠移至您要自訂其設定的視覺效果上。
 
 1. 按一下齒輪圖示。
 
-   每種視覺效果類型都有您可自訂的不重複設定。如需可用設定的詳細資訊，請參閱[設定](#settings)。
+   每種視覺效果類型都有您可自訂的不重複設定。 如需可用設定的詳細資訊，請參閱[設定](#settings)。
 
 ### 自訂您建立的所有視覺效果的視覺效果設定
 
-您可以自訂您建立的所有視覺效果的視覺效果設定。如需詳細資訊，請參閱[使用者偏好設定](/help/analysis-workspace/user-preferences.md)。
+您可以自訂您建立的所有視覺效果的視覺效果設定。 如需詳細資訊，請參閱[使用者偏好設定](/help/analysis-workspace/user-preferences.md)。
 
 ## 設定 {#settings}
 
@@ -68,7 +68,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | 設定 | 說明 |
 | --- | --- |
 | 視覺效果類型 | 變更用來描繪資料的視覺類型。 |
-| 詳細程度 | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的詳細程度 (日、週、月等)。這項變更也適用於資料來源表。 |
+| 詳細程度 | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的從此下拉式清單。 這項變更也適用於資料來源表。 |
 | 百分比 | 以百分比顯示值。 |
 | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。例如：![堆疊 100%](assets/stacked_100_percent.png) |
 | 可見圖例 | 允許您隱藏詳細的圖例文字，以顯示累加數/累加變化的視覺效果。 |

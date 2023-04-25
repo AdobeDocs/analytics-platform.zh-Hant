@@ -3,10 +3,10 @@ title: 建立日期範圍
 description: 選擇日期範圍，以便在報告中使用。
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '403'
-ht-degree: 100%
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 * **日曆**： 選擇開始和結束日期。
 * **使用遞延日期**：如果您希望日期範圍隨時間而變更，請勾選此方框。如果您希望日期範圍保持靜態，請勿勾選此方框。
-* **選擇預設**：如果您想要 Adobe 根據預設提供的範圍來自訂日期範圍，請使用此下拉選單。當您選取預設集時，您可以進一步自訂日期範圍以符合您的需求。它不會影響 Adobe 提供的預設集。
+* **選取預設集**:如果您想要根據預設Adobe選件的範圍來自訂日期範圍，請使用此下拉式選取項目。 當您選取預設集時，您可以進一步自訂日期範圍以符合您的需求。它不會影響 Adobe 提供的預設集。
 
 ## 遞延日期範圍
 

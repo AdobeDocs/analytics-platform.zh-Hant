@@ -4,10 +4,10 @@ description: 將字串的子集用為維度項目。
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
+source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 100%
 
 ## 從左側/右側
 
-根據其在字串開頭或結尾的位置獲取字串的一部分。**[!UICONTROL 從左側]**&#x200B;和&#x200B;**[!UICONTROL 從右側]**&#x200B;方法提供兩種下拉選單：**[!UICONTROL 從]** (輸出開始處) 並&#x200B;**[!UICONTROL 至]** (輸出結束處)。
+根據其在字串開頭或結尾的位置獲取字串的一部分。**[!UICONTROL 從左邊]** 和 **[!UICONTROL 從右邊]** 方法提供兩個下拉式清單： **[!UICONTROL 從]** （輸出開始的位置）和 **[!UICONTROL 結束日期]** （輸出結束的位置）。
 
 * **[!UICONTROL 字串開頭]**：字串起始。
 * **[!UICONTROL 字串結尾]**：字串結束。
 * **[!UICONTROL 位置]**：從左側或右側開始的靜態字元數，依方法而定。
-* **[!UICONTROL 字串]**：和某個字元或字元序列相符以表示字串的開頭或結尾。此下拉選單還顯示了其他選項：
+* **[!UICONTROL 字串]**：和某個字元或字元序列相符以表示字串的開頭或結尾。此下拉式清單也會顯示其他選項：
    * **[!UICONTROL 相符]**：相符的字串。若輸入與此欄位不相符，[無值選項](no-value-options.md)適用。
    * **[!UICONTROL 索引]**：該&#x200B;**[!UICONTROL 相符]**&#x200B;標準可能會在字串中出現多次。此整數會決定何者和開始或結束輸出相符，依方法而定。例如，`1` 的索引代表第一個相符。如果索引高於可用的相符數，則套用[無值選項](no-value-options.md)。
    * **[!UICONTROL 包含字串]**：包含輸出中的&#x200B;**[!UICONTROL 相符]**&#x200B;字串的核取方塊 (如啟用)。
-* **[!UICONTROL 長度]**：指定包含輸出的起始位置後的字元計數的整數。只能在&#x200B;**[!UICONTROL 至]**&#x200B;下拉選單下取得。
+* **[!UICONTROL 長度]**：指定包含輸出的起始位置後的字元計數的整數。僅限 **[!UICONTROL 結束日期]** 下拉式清單。
 
 ## 分隔字元
 
@@ -114,7 +114,7 @@ CJA 使用 Perl 規則運算式語法的子集。若輸入和規則運算式不�
 | `$+` | 輸出和規則運算式中最後一個標記的子運算式相符的內容。 |
 | `$$` | 輸出字串字元 `"$"`。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 有關繫結維度的影片
 

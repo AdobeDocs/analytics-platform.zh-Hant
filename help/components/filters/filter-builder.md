@@ -3,9 +3,9 @@ description: 篩選器產生器提供畫布來拖放量度Dimension、篩選器�
 title: 建立篩選器
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: e918b93a7d5aa98fe0ac1532fa76a2994f6a0c07
+source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2054'
 ht-degree: 37%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 37%
 1. **[!UICONTROL 量度]**：按一下標題可展開。
 1. **[!UICONTROL 篩選器]**:按一下標題可展開。
 1. **[!UICONTROL 報表套裝選取器]**:可讓您選取要將此篩選器儲存於其下的報表套裝。 您仍可在所有報表套裝中使用篩選器。
-1. **[!UICONTROL 篩選器預覽]**:可讓您預覽關鍵量度，以查看您是否具備有效的篩選條件以及篩選的範圍。 代表您是否套用此篩選器時，可預期看到的資料集劃分。 顯示3個同心圓和一個清單，以顯示符合的數目和百分比 [!UICONTROL 事件], [!UICONTROL 人員]，和 [!UICONTROL 工作階段] 針對資料集執行篩選。 在您建立或變更篩選器定義後，此圖表會立即更新。
+1. **[!UICONTROL 篩選器預覽]**:可讓您預覽關鍵量度，以查看您是否具備有效的篩選條件以及篩選的範圍。 代表套用此篩選時，您可以看到的資料集劃分。 顯示3個同心圓和一個清單，以顯示符合的數目和百分比 [!UICONTROL 事件], [!UICONTROL 人員]，和 [!UICONTROL 工作階段] ，針對資料集執行篩選。 在您建立或變更篩選器定義後，此圖表會立即更新。
 1. **[!UICONTROL 產品相容性]**:提供Adobe Analytics產品的清單(Analysis Workspace、 [!UICONTROL Reports &amp; Analytics],Data Warehouse)，而您建立的篩選器相容。 大多數篩選器與所有產品相容。 不過，並非所有運算子和維度均與所有 Analytics 產品相容，特別是 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-compatibility.html)。在您變更篩選器定義後，此圖表會立即更新。
 1. **[!UICONTROL 儲存]** 或 **[!UICONTROL 取消]**:儲存或取消篩選。 按一下 **[!UICONTROL 儲存]**，您會前往「篩選器管理器」，您可於其中管理篩選器。
 
