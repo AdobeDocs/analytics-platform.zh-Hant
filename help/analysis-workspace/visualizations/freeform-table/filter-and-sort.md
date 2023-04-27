@@ -3,10 +3,10 @@ description: 描述 Analysis Workspace 如何篩選及排序表格的文件。
 title: 篩選和排序表格
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 43c8af6f9010354258a702fb702a330873d9cb8e
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 4dd5e5248026c39489f3ac4598ea91ff15d95aa4
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,10 @@ Analysis Workspace 中的自由表格是互動式資料分析的基礎。因此�
 ## 篩選表格 {#section_36E92E31442B4EBCB052073590C1F025}
 
 Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
+
+>[!NOTE]
+>
+> 只能依本節所述篩選動態維度項目。 無法篩選靜態維度項目。 如需詳細資訊，請參閱 [自由表格中的動態與靜態維度項目](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 若要篩選自由表格中的資料：
 
