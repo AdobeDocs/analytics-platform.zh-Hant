@@ -4,7 +4,7 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: df939712d3ee8d029dd42a9a769c022a4d0dbdf1
+source-git-commit: 749088c6e6c100797bd9a2dd1de64d18d45108e5
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 53%
@@ -119,7 +119,7 @@ ht-degree: 53%
 >
 >* CJA管理員可停用以此方式共用專案的功能，如 [偏好設定](/help/analysis-workspace/user-preferences.md). 如果您無法依照本節所述來共用專案，您的CJA管理員已停用此功能。
 >
->* 無法與無法存取CJA的人員共用視覺效果超過14個的專案。
+>* 無法與無法存取CJA的人員共用具有50個以上擴充視覺效果的專案。
 >
 >* 您與共用的使用者可以檢視期間套用至專案的任何篩選器 [組織](curate.md).
 > 
