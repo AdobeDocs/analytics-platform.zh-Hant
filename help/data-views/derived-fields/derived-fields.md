@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: 3fb99165104ad4045aed0b9f6867b21acf2a11f8
+source-git-commit: cf36e6c662835b10c60f400c95e341865a9e56b1
 workflow-type: tm+mt
-source-wordcount: '3040'
+source-wordcount: '3057'
 ht-degree: 9%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 9%
 
 # 衍生欄位
 
-衍生欄位是Customer Journey Analytics(CJA)中即時報表功能的重要一環。 衍生（自訂）欄位可讓您透過可自訂的規則產生器，即時定義（通常是複雜的）資料處理。 接著，您就可以在工作區中將該衍生欄位用作元件（量度或維度），甚至在「資料檢視」中進一步定義為元件。
+衍生欄位是Customer Journey Analytics(CJA)中即時報表功能的重要一環。 衍生（自訂）欄位可讓您透過可自訂的規則產生器，即時定義（通常是複雜的）資料處理。 接著，您就可以將該衍生欄位用作 [工作區](../../analysis-workspace/home.md) 或進一步定義為 [資料檢視](../data-views.md).
 
-與在CJA以外的其他位置轉換或操控資料相比，衍生欄位可節省大量的時間和精力。 例如資料準備、資料Distiller，或擷取轉換載入(ETL)/擷取載入轉換(ELT)程式內。
+與在CJA以外的其他位置轉換或操控資料相比，衍生欄位可節省大量的時間和精力。 例如 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant), [資料Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)，或在您自己的擷取轉換載入(ETL)/擷取載入轉換(ELT)程式中。
 
-衍生欄位定義為 [資料檢視](../data-views.md)、和是以一組函式為基礎，並套用至可用的標準和/或結構欄位。
+衍生欄位定義為 [資料檢視](../data-views.md)，是以一組函式為基礎，並套用至可用的標準和/或結構欄位。
 
 範例使用案例包括：
 
