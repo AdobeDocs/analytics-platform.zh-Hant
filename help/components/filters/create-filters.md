@@ -2,10 +2,10 @@
 title: 建立篩選器
 description: 了解建立篩選器的使用者介面。
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
-source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
+source-git-commit: a4ff2b48a85730f6ded56f207b5cc1ece6a3d3ab
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 58%
+source-wordcount: '309'
+ht-degree: 56%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 58%
 | 從選取項目建立篩選條件 | 建立內嵌篩選條件。此篩選器僅套用至開啟的專案，不會儲存為 CJA 篩選器。<p> 1. 請選取您要哪些表格列成為篩選器的一部分。  2. 以滑鼠右鍵按一下選取項目。  3. 按一下&#x200B;*「從選取項目建立篩選條件」*。 |
 | 「工作區 [!UICONTROL 元件] > [!UICONTROL 新增篩選器]」 | 顯示篩選條件產生器。 如需篩選功能的詳細資訊，請參閱[篩選條件產生器](/help/components/filters/filter-builder.md)。 |
 | 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在 [共用專案](/help/analysis-workspace/curate-share/share-projects.md) 或 [組織專案](/help/analysis-workspace/curate-share/curate.md)，了解您套用至專案的篩選器在收件者的共用分析中如何提供。 |
-| 將篩選條件作為維度使用 | 下列影片示範如何將篩選條件當成維度使用：(**注意：** 此影片使用「區段」一詞，而非「篩選器」。 但功能相同。) <p>[在 Analysis Workspace 中將區段用作維度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=zh-Hant)</p> |
+| 將篩選條件作為維度使用 | 下列影片示範如何將篩選條件當成維度使用：  <p>[在Analysis Workspace中將篩選器當成維度使用](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)</p> |

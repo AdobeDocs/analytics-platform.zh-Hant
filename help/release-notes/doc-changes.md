@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: d09cff0db8b02af1f0495faceb9ee1fc5fa0a41d
+source-git-commit: a4ff2b48a85730f6ded56f207b5cc1ece6a3d3ab
 workflow-type: tm+mt
-source-wordcount: '1659'
-ht-degree: 94%
+source-wordcount: '1705'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 94%
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 4 月** |  |
+| 關於將篩選器用作維度的影片 | <p>更新將篩選器作為維度的影片。 此影片會從 [建立篩選器](/help/components/filters/create-filters.md) 頁面。</p> <p>以下是視訊的直接連結： [在Analysis Workspace中將篩選器當成維度使用](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
 | 篩選檔案 | 新增有關使用 [篩選產生器](/help/components/filters/filter-builder.md). <p>簡化中的檔案 [建立篩選器](/help/components/filters/create-filters.md) 和 [篩選器概觀](/help/components/filters/filters-overview.md).</p> |
 | 更新至實驗面板檔案 | 新增區段至 [解譯非隨機維度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
 | 專案篩選器（隨選和快速篩選） | 簡化專案篩選和移除重複資訊的檔案。 建立臨機篩選的步驟現已與 [建立快速篩選器](/help/components/filters/quick-filters.md). |
