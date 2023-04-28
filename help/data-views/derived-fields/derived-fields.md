@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: cf36e6c662835b10c60f400c95e341865a9e56b1
+source-git-commit: 35a1a93a43869abab6e53ffb1d02edb5fad9a0c1
 workflow-type: tm+mt
-source-wordcount: '3057'
+source-wordcount: '3062'
 ht-degree: 9%
 
 ---
@@ -15,18 +15,19 @@ ht-degree: 9%
 
 # 衍生欄位
 
+{{release-limited-testing}}
+
 衍生欄位是Customer Journey Analytics(CJA)中即時報表功能的重要一環。 衍生（自訂）欄位可讓您透過可自訂的規則產生器，即時定義（通常是複雜的）資料處理。 接著，您就可以將該衍生欄位用作 [工作區](../../analysis-workspace/home.md) 或進一步定義為 [資料檢視](../data-views.md).
 
 與在CJA以外的其他位置轉換或操控資料相比，衍生欄位可節省大量的時間和精力。 例如 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant), [資料Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)，或在您自己的擷取轉換載入(ETL)/擷取載入轉換(ELT)程式中。
 
-衍生欄位定義為 [資料檢視](../data-views.md)，是以一組函式為基礎，並套用至可用的標準和/或結構欄位。
+衍生欄位定義為 [資料檢視](../data-views.md)，是以定義為規則的一組函式為基礎，並套用至可用的標準和/或結構欄位。
 
 範例使用案例包括：
 
 - 定義自訂「頁面名稱」欄位，以更正不正確收集的頁面名稱值以更正頁面名稱值。
 
 - 定義自訂行銷管道欄位，以根據一或多個條件（例如URL參數、頁面URL、頁面名稱）來決定正確的行銷管道。
-
 
 ## 自訂欄位介面
 
@@ -37,7 +38,7 @@ ht-degree: 9%
 
 |  | 名稱 | 說明 |
 |---------|----------|--------|
-| 1 | **選取器** | 您可使用選取器區域來選取及拖放 ![函式](assets/Smock_Function_18_N.svg) 函式，![函式模板表徵圖](assets/Smock_FileTemplate_18_N.svg) 函式模板，![架構欄點陣圖示](assets/Smock_Folder_18_N.svg) 方案欄位，或![標準欄點陣圖示](assets/Smock_DragHandle_18_N.svg)標準欄位。 <br/>使用下拉式清單在 [!UICONTROL 函式], [!UICONTROL 函式範本], [!UICONTROL 結構欄位]，和 [!UICONTROL 標準欄位].<br/>您可以使用「搜尋」方塊來搜尋函式、函式範本、結構和標準欄位。 <br/>您可以選取 ![篩選圖示](assets/Smock_Filter_18_N.svg) 在 [!UICONTROL 依篩選欄位] 對話框。 您可以使用 ![關閉圖示](assets/CrossSize75.svg) 對每個篩選器。 |
+| 1 | **選取器** | 您可使用選取器區域來選取及拖放 ![函式](assets/Smock_Function_18_N.svg) 函式，![函式模板表徵圖](assets/Smock_FileTemplate_18_N.svg) 函式模板，![架構欄點陣圖示](assets/Smock_Folder_18_N.svg) 方案欄位，或![標準欄點陣圖示](assets/Smock_DragHandle_18_N.svg)標準欄位。 <br/>使用下拉式清單在 [!UICONTROL 函式], [!UICONTROL 函式範本], [!UICONTROL 結構欄位]，和 [!UICONTROL 標準欄位].<br/>您可以使用 ![搜尋圖示](assets/Smock_Search_18_N.svg) 搜索框。 <br/>您可以選取 ![篩選圖示](assets/Smock_Filter_18_N.svg) 在 [!UICONTROL 依篩選欄位] 對話框。 您可以使用 ![關閉圖示](assets/CrossSize75.svg) 對每個篩選器。 |
 | 2 | **規則產生器** | 您使用一或多個規則循序建立自訂欄位。 規則是函式的特定實作，因此一律僅與一個函式相關聯。 將函式拖放至規則產生器，即可建立規則。 函式類型決定規則的介面。<br/>請參閱 [規則介面](#rule-interface) 以取得更多資訊。 <br/>您可以在規則產生器中可用的規則之間插入函式，插入在開始、結束或中。 規則產生器中的最後一個規則會決定自訂欄位的最終輸出。 |
 | 3 | **[!UICONTROL **&#x200B;欄位設定&#x200B;**]** | 您可以為自訂欄位命名並加以說明，並檢查其欄位類型。 |
 | 4 | **[!UICONTROL **&#x200B;最終輸出&#x200B;**]** | 此區域會根據過去30天的資料，以及您對規則產生器中自訂欄位所做的變更，顯示輸出值的即時更新預覽。 |
