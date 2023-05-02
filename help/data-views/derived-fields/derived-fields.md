@@ -5,13 +5,13 @@ solution: Customer Journey Analytics
 feature: Data Views
 hide: true
 hidefromtoc: true
-source-git-commit: 35a1a93a43869abab6e53ffb1d02edb5fad9a0c1
+exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
+source-git-commit: 3aa2f57e7cd11b013369ad80d0181bccb48eebe1
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3225'
 ht-degree: 9%
 
 ---
-
 
 # 衍生欄位
 
@@ -153,14 +153,21 @@ ht-degree: 9%
 
 ## 函式參考
 
-如需每個支援的函式，請參閱下列詳細資訊：
+如需每個支援的函式，請參閱以下的詳細資訊：
 
-- 輸入、運算子和輸出
+- 規格：
+   - 輸入資料類型：支援的資料類型，
+   - 輸入：輸入的可能值，
+   - 包含的運算子：支援此函式的運算子（如果有）,
+   - 限制：可在派生欄位中使用此函式的規則數上限，
+   - 輸出。
 
 - 使用案例，包括：
    - 定義自訂欄位之前的資料
    - 如何定義自訂欄位
    - 定義自訂欄位後的資料
+
+- 相依性（選用）
 
 
 <!-- Concatenate -->
@@ -171,11 +178,11 @@ ht-degree: 9%
 
 +++ 詳細資料
 
-## 輸入/運算子/輸出 {#concatenate-io}
+## 規格 {#concatenate-io}
 
-| 輸入資料類型 | 輸入 | 包含的運算子 | 輸出 |
-|---|---|---|---|
-| <p>字串</p> | <ul><li>要合併的兩個或多個值<ul><li>欄位</li><li>從先前規則衍生的值</li><li>使用者輸入的值</li></ul></li><li>分隔字元<ul><li>輸入或選取每個值的分隔字元</li></ul></li> </ul> | <p>不適用</p> | <p>新自訂欄位</p> |
+| 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
+|---|---|---|:--:|---|
+| <p>字串</p> | <ul><li>要合併的兩個或多個值<ul><li>欄位</li><li>從先前規則衍生的值</li><li>使用者輸入的值</li></ul></li><li>分隔字元<ul><li>輸入或選取每個值的分隔字元</li></ul></li> </ul> | <p>不適用</p> | <p>2</p> | <p>新自訂欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -200,7 +207,7 @@ ht-degree: 9%
 所需報表看起來應該如下：
 
 | 來源/目的地 | 預訂 |
-|---|---|
+|----|---:|
 | SLC-MCO | 2 |
 | SLC-LAX | 1 |
 | 斯爾克海 | 1 |
@@ -212,7 +219,7 @@ ht-degree: 9%
 ### 資料之前 {#concatenate-uc-databefore}
 
 | Origin | 目標 |
-|----|----|
+|----|---:|
 | SLC | MCO |
 | SLC | 鬆散 |
 | SLC | SEA |
@@ -249,11 +256,11 @@ ht-degree: 9%
 
 +++ 詳細資料
 
-## 輸入/運算子/輸出 {#casewhen-io}
+## 規格 {#casewhen-io}
 
-| 輸入資料類型 | 輸入 | 包含的運算子 | 輸出 |
-|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期/日期時間</li></ul> | <ul><li>輸入欄位</li><li>標準</li></ul> | <p><u>字串</u></p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>以任何詞語開頭</li><li>終止於</li><li>以任何詞語結尾</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>不以任何詞語開頭</li><li>不終止於</li><li>不以任何詞語結尾</li><li>已設定</li><li>未設定</li></ul><p><u>數值</u></p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p><u>日期</u></p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>是之前</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <p>新自訂欄位</p> |
+| 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
+|---|---|---|:---:|---|
+| <ul><li>字串</li><li>數值</li><li>日期/日期時間</li></ul> | <ul><li>輸入欄位</li><li>標準</li></ul> | <p><u>字串</u></p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>以任何詞語開頭</li><li>終止於</li><li>以任何詞語結尾</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>不以任何詞語開頭</li><li>不終止於</li><li>不以任何詞語結尾</li><li>已設定</li><li>未設定</li></ul><p><u>數值</u></p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p><u>日期</u></p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>是之前</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <p>5</p> | <p>新自訂欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -273,7 +280,7 @@ ht-degree: 9%
 若您的網站收到下列包含反向連結和頁面URL的範例事件，應依下列方式識別這些事件：
 
 | 事件 | 反向連結 | 頁面 URL | 行銷管道 |
-|:----:|----|----|----|
+|:--:|----|----|----|
 | 1 | `https://facebook.com` | `https://site.com/home` | 自然社會 |
 | 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | 顯示 |
 | 3 |  | `https://site.com/?cid=em_12345678` | 電子郵件 |
@@ -425,8 +432,6 @@ ht-degree: 9%
 | 21 |
 | 8 |
 
-{style="table-layout:auto"}
-
 ### 自訂欄位 {#casewhen-uc3-customfield}
 
 您定義 `Trip Duration (bucketed)` 自訂欄位。 您可建立下列項目 **[!UICONTROL **&#x200B;案例&#x200B;**]** 規則。 此規則會套用邏輯以貯體舊 **[!UICONTROL **&#x200B;行程期間&#x200B;**]** 欄位值分為三個值： `short trip`, `medium  trip`，和 `long trip`.
@@ -451,6 +456,32 @@ ht-degree: 9%
 | 長途旅行 |
 | 長途旅行 |
 
+
+## 相依性
+
+選取和設定值時，會套用下列相依性。
+
+
+|  | 資料集相依性 |
+|:---:|----|
+| <span style='color: red'>A</span> | 您的值 _選取_ 相同 [!UICONTROL 若], [!UICONTROL 若] 建構(使用 [!UICONTROL 和] 或 [!UICONTROL 或])必須源自相同的資料集。 |
+| <span style='color: red'>B</span> | 所有值 _set_ 在建構內和跨規則必須源自相同的資料集。 |
+| <span style='color: blue'>C</span> | 您的值 _選取_ 跨 [!UICONTROL 若], [!UICONTROL 若] 規則中的構造 _not_ 必須源自相同的資料集。 |
+
+{style="table-layout:auto"}
+
+![資料集相依性時的案例](assets/case-when-datasets.png)
+
+
+|  | 輸入相依性 |
+|:---:|----|
+| <span style='color: red'>D</span> | 您的值類型 _set_ 必須是相同的。 |
+| <span style='color: blue'>E</span> | 您的值類型 _選取_ 規則中的建構內或跨建構可以是任何類型（字串、數值、日期）。 |
+
+{style="table-layout:auto"}
+
+![類型相依性時的大小寫](assets/case-when-types.png)
+
 +++
 
 
@@ -462,11 +493,11 @@ ht-degree: 9%
 
 +++ 詳細資料
 
-## 輸入/運算子/輸出 {#findreplace-io}
+## 規格 {#findreplace-io}
 
-| 輸入資料類型 | 輸入 | 包含的運算子 | 輸出 |
-|---|---|---|---|
-| <p>字串</p> | <ul><li><span>「何時替換」欄位條件</span></li><li><span>「替換為」欄位值</span><ul><li><span>使用者輸入</span></li><li><span>獨立欄位</span></li></ul></li></ul> | <p><u>字串</u></p><ul><li>全部查找和全部替換</li></ul> | <p>新自訂欄位</p> |
+| 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
+|---|---|---|:---:|---|
+| <p>字串</p> | <ul><li><span>「何時替換」欄位條件</span></li><li><span>「替換為」欄位值</span><ul><li><span>使用者輸入</span></li><li><span>獨立欄位</span></li></ul></li></ul> | <p><u>字串</u></p><ul><li>全部查找和全部替換</li></ul> | <p>1</p> | <p>新自訂欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -478,7 +509,7 @@ ht-degree: 9%
 **原始報表**
 
 | 外部行銷管道 | 工作階段 |
-|---|---|
+|---|--:|
 | 電子郵件行銷 | 500 |
 | 電子郵件%20marketing | 24 |
 
@@ -487,7 +518,7 @@ ht-degree: 9%
 **偏好報表**
 
 | 外部行銷管道 | 工作階段 |
-|---|---|
+|---|--:|
 | 電子郵件行銷 | 524 |
 
 
@@ -533,11 +564,11 @@ ht-degree: 9%
 +++ 詳細資料
 
 
-## 輸入/運算子/輸出 {#lookup-io}
+## 規格 {#lookup-io}
 
-| 輸入資料類型 | 輸入 | 包含的運算子 | 輸出 |
-|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>Sing欄位</li><li>查閱檔案<ul><li>索引鍵欄</li><li>新欄位列</li></ul></li></ul> | <p>不適用</p> | <p>新自訂欄位</p> |
+| 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
+|---|---|---|:---:|---|
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>Sing欄位</li><li>查閱檔案<ul><li>索引鍵欄</li><li>新欄位列</li></ul></li></ul> | <p>不適用</p> | <p>5</p> | <p>新自訂欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -652,11 +683,11 @@ ht-degree: 9%
 
 +++ 詳細資料
 
-## 輸入/運算子/輸出 {#urlparse-io}
+## 規格 {#urlparse-io}
 
-| 輸入資料類型 | 輸入 | 包含的運算子 | 輸出 |
-|---|---|---|---|
-| <ul><li>字串</li></ul> | <ul><li>Sing欄位</li><li>解析選項<ul><li>取得通訊協定</li><li>取得主機</li><li>取得路徑</li><li>取得查詢值<ul><li>查詢參數</li></ul></li><li>取得雜湊值</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>新自訂欄位</p> |
+| 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
+|---|---|---|:---:|---|
+| <ul><li>字串</li></ul> | <ul><li>Sing欄位</li><li>解析選項<ul><li>取得通訊協定</li><li>取得主機</li><li>取得路徑</li><li>取得查詢值<ul><li>查詢參數</li></ul></li><li>取得雜湊值</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>5</p> | <p>新自訂欄位</p> |
 
 {style="table-layout:auto"}
 
