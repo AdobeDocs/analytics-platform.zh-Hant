@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 3aa2f57e7cd11b013369ad80d0181bccb48eebe1
+source-git-commit: 5df8086fd91bd10fa976468a936723e4c3ebbb85
 workflow-type: tm+mt
-source-wordcount: '3225'
+source-wordcount: '3221'
 ht-degree: 9%
 
 ---
@@ -461,11 +461,10 @@ ht-degree: 9%
 
 選取和設定值時，會套用下列相依性。
 
-
 |  | 資料集相依性 |
 |:---:|----|
 | <span style='color: red'>A</span> | 您的值 _選取_ 相同 [!UICONTROL 若], [!UICONTROL 若] 建構(使用 [!UICONTROL 和] 或 [!UICONTROL 或])必須源自相同的資料集。 |
-| <span style='color: red'>B</span> | 所有值 _set_ 在建構內和跨規則必須源自相同的資料集。 |
+| <span style='color: red'>B</span> | 所有值 _set_ 規則的資料集必須源自相同的資料集。 |
 | <span style='color: blue'>C</span> | 您的值 _選取_ 跨 [!UICONTROL 若], [!UICONTROL 若] 規則中的構造 _not_ 必須源自相同的資料集。 |
 
 {style="table-layout:auto"}
@@ -475,8 +474,8 @@ ht-degree: 9%
 
 |  | 輸入相依性 |
 |:---:|----|
-| <span style='color: red'>D</span> | 您的值類型 _set_ 必須是相同的。 |
-| <span style='color: blue'>E</span> | 您的值類型 _選取_ 規則中的建構內或跨建構可以是任何類型（字串、數值、日期）。 |
+| <span style='color: red'>D</span> | 您 _set_ 規則間必須相同。 |
+| <span style='color: blue'>E</span> | 您 _選取_ 規則中的建構內或跨建構可以是任何類型（字串、數值、日期）。 |
 
 {style="table-layout:auto"}
 
