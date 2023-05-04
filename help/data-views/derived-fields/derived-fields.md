@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 5df8086fd91bd10fa976468a936723e4c3ebbb85
+source-git-commit: cd1228c18a665d3411039e9ca04a30d2ac7d9cb2
 workflow-type: tm+mt
-source-wordcount: '3221'
+source-wordcount: '3260'
 ht-degree: 9%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 9%
 |  | 名稱 | 說明 |
 |---------|----------|--------|
 | 1 | **選取器** | 您可使用選取器區域來選取及拖放 ![函式](assets/Smock_Function_18_N.svg) 函式，![函式模板表徵圖](assets/Smock_FileTemplate_18_N.svg) 函式模板，![架構欄點陣圖示](assets/Smock_Folder_18_N.svg) 方案欄位，或![標準欄點陣圖示](assets/Smock_DragHandle_18_N.svg)標準欄位。 <br/>使用下拉式清單在 [!UICONTROL 函式], [!UICONTROL 函式範本], [!UICONTROL 結構欄位]，和 [!UICONTROL 標準欄位].<br/>您可以使用 ![搜尋圖示](assets/Smock_Search_18_N.svg) 搜索框。 <br/>您可以選取 ![篩選圖示](assets/Smock_Filter_18_N.svg) 在 [!UICONTROL 依篩選欄位] 對話框。 您可以使用 ![關閉圖示](assets/CrossSize75.svg) 對每個篩選器。 |
-| 2 | **規則產生器** | 您使用一或多個規則循序建立自訂欄位。 規則是函式的特定實作，因此一律僅與一個函式相關聯。 將函式拖放至規則產生器，即可建立規則。 函式類型決定規則的介面。<br/>請參閱 [規則介面](#rule-interface) 以取得更多資訊。 <br/>您可以在規則產生器中可用的規則之間插入函式，插入在開始、結束或中。 規則產生器中的最後一個規則會決定自訂欄位的最終輸出。 |
+| 2 | **規則產生器** | 您使用一或多個規則循序建立自訂欄位。 規則是函式的特定實作，因此一律僅與一個函式相關聯。 將函式拖放至規則產生器，即可建立規則。 函式類型決定規則的介面。<br/>請參閱 [規則介面](#rule-interface) 以取得更多資訊。 <br/>您可以在規則產生器中可用的規則之間插入函式，從開始、結束或者。 規則產生器中的最後一個規則會決定自訂欄位的最終輸出。 |
 | 3 | **[!UICONTROL **&#x200B;欄位設定&#x200B;**]** | 您可以為自訂欄位命名並加以說明，並檢查其欄位類型。 |
 | 4 | **[!UICONTROL **&#x200B;最終輸出&#x200B;**]** | 此區域會根據過去30天的資料，以及您對規則產生器中自訂欄位所做的變更，顯示輸出值的即時更新預覽。 |
 
@@ -167,7 +167,7 @@ ht-degree: 9%
    - 如何定義自訂欄位
    - 定義自訂欄位後的資料
 
-- 相依性（選用）
+- 限制（可選）
 
 
 <!-- Concatenate -->
@@ -434,7 +434,7 @@ ht-degree: 9%
 
 ### 自訂欄位 {#casewhen-uc3-customfield}
 
-您定義 `Trip Duration (bucketed)` 自訂欄位。 您可建立下列項目 **[!UICONTROL **&#x200B;案例&#x200B;**]** 規則。 此規則會套用邏輯以貯體舊 **[!UICONTROL **&#x200B;行程期間&#x200B;**]** 欄位值分為三個值： `short trip`, `medium  trip`，和 `long trip`.
+您定義 `Trip Duration (bucketed)` 自訂欄位。 您可建立下列項目 **[!UICONTROL **&#x200B;案例&#x200B;**]** 規則產生器中的規則。 此規則會套用邏輯以貯體舊 **[!UICONTROL **&#x200B;行程期間&#x200B;**]** 欄位值分為三個值： `short trip`, `medium  trip`，和 `long trip`.
 
 ![[!DNL Case When] 規則3](assets/case-when-3.png)
 
@@ -457,29 +457,25 @@ ht-degree: 9%
 | 長途旅行 |
 
 
-## 相依性
+## 限制
 
-選取和設定值時，會套用下列相依性。
+CJA使用巢狀容器模型來執行其功能。 使用規則產生器時，此巢狀容器模型會決定限制。 CJA使用的預設巢狀容器模型結構如下圖所示：
 
-|  | 資料集相依性 |
+<p align="center">
+<img src="./assets/containers.png" width="70%" valign="middle">
+</p>
+
+請參閱 [容器](../create-dataview.md#containers) 和 [篩選容器](../../components/filters/filters-overview.md#filter-containers) 以了解更多背景資訊。
+
+下列容器限制適用，並會在 _選取_ 和 _設定_ 值。
+
+|  | 限制 |
 |:---:|----|
-| <span style='color: red'>A</span> | 您的值 _選取_ 相同 [!UICONTROL 若], [!UICONTROL 若] 建構(使用 [!UICONTROL 和] 或 [!UICONTROL 或])必須源自相同的資料集。 |
-| <span style='color: red'>B</span> | 所有值 _set_ 規則的資料集必須源自相同的資料集。 |
-| <span style='color: blue'>C</span> | 您的值 _選取_ 跨 [!UICONTROL 若], [!UICONTROL 若] 規則中的構造 _not_ 必須源自相同的資料集。 |
+| **<span style='color: red'>A</span>** | 您的值 _選取_ 相同 [!UICONTROL 若], [!UICONTROL 若] 建構(使用 [!UICONTROL 和] 或 [!UICONTROL 或])必須來自相同的容器，且可以是任何類型（字串） ![字串](assets/Smock_ABC_18_N.svg)，數值 ![數值](assets/Smock_123_18_N.svg)，依此類推)。 <br/>![相依性A](assets/dependency-a.png) |
+| **<span style='color: red'>B</span>** | 所有值 _set_ 跨規則必須來自相同的容器，且具有相同類型或相同類型的自訂值。 <br/> ![相依性B](assets/dependency-b.png) |
+| **<span style='color: blue'>C</span>** | 您的值 _選取_ 跨 [!UICONTROL 若], [!UICONTROL 若] 規則中的構造 _not_ 必須源自相同的容器 _not_ 必須是同一種類型。 <br/> ![依賴C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
-
-![資料集相依性時的案例](assets/case-when-datasets.png)
-
-
-|  | 輸入相依性 |
-|:---:|----|
-| <span style='color: red'>D</span> | 您 _set_ 規則間必須相同。 |
-| <span style='color: blue'>E</span> | 您 _選取_ 規則中的建構內或跨建構可以是任何類型（字串、數值、日期）。 |
-
-{style="table-layout:auto"}
-
-![類型相依性時的大小寫](assets/case-when-types.png)
 
 +++
 
@@ -567,7 +563,7 @@ ht-degree: 9%
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|:---:|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>Sing欄位</li><li>查閱檔案<ul><li>索引鍵欄</li><li>新欄位列</li></ul></li></ul> | <p>不適用</p> | <p>5</p> | <p>新自訂欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>單一欄位</li><li>查閱檔案<ul><li>索引鍵欄</li><li>新欄位列</li></ul></li></ul> | <p>不適用</p> | <p>5</p> | <p>新自訂欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -686,7 +682,7 @@ ht-degree: 9%
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|:---:|---|
-| <ul><li>字串</li></ul> | <ul><li>Sing欄位</li><li>解析選項<ul><li>取得通訊協定</li><li>取得主機</li><li>取得路徑</li><li>取得查詢值<ul><li>查詢參數</li></ul></li><li>取得雜湊值</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>5</p> | <p>新自訂欄位</p> |
+| <ul><li>字串</li></ul> | <ul><li>單一欄位</li><li>解析選項<ul><li>取得通訊協定</li><li>取得主機</li><li>取得路徑</li><li>取得查詢值<ul><li>查詢參數</li></ul></li><li>取得雜湊值</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>5</p> | <p>新自訂欄位</p> |
 
 {style="table-layout:auto"}
 
