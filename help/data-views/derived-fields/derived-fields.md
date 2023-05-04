@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: cd1228c18a665d3411039e9ca04a30d2ac7d9cb2
+source-git-commit: 38f1e711ef0033e6e8492af992477f679de818a9
 workflow-type: tm+mt
-source-wordcount: '3260'
+source-wordcount: '3281'
 ht-degree: 9%
 
 ---
@@ -459,7 +459,7 @@ ht-degree: 9%
 
 ## 限制
 
-CJA使用巢狀容器模型來執行其功能。 使用規則產生器時，此巢狀容器模型會決定限制。 CJA使用的預設巢狀容器模型結構如下圖所示：
+CJA使用彈性的巢狀容器結構，以Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) （體驗資料模型）以取得其功能。 此容器模型雖然性質上是彈性的，但在使用規則產生器時會施加一些限制。 CJA使用的預設巢狀容器模型結構如下圖所示：
 
 <p align="center">
 <img src="./assets/containers.png" width="70%" valign="middle">
