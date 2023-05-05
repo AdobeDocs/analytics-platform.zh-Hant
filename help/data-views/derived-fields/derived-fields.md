@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 38f1e711ef0033e6e8492af992477f679de818a9
+source-git-commit: b7338c66ba3f78bd082e6d8da43b91b5517f48ac
 workflow-type: tm+mt
-source-wordcount: '3281'
+source-wordcount: '3265'
 ht-degree: 9%
 
 ---
@@ -17,42 +17,42 @@ ht-degree: 9%
 
 {{release-limited-testing}}
 
-衍生欄位是Customer Journey Analytics(CJA)中即時報表功能的重要一環。 衍生（自訂）欄位可讓您透過可自訂的規則產生器，即時定義（通常是複雜的）資料處理。 接著，您就可以將該衍生欄位用作 [工作區](../../analysis-workspace/home.md) 或進一步定義為 [資料檢視](../data-views.md).
+衍生欄位是Customer Journey Analytics(CJA)中即時報表功能的重要一環。 衍生欄位可讓您透過可自訂的規則產生器，即時定義（通常是複雜的）資料處理。 接著，您就可以將該衍生欄位用作 [工作區](../../analysis-workspace/home.md) 或進一步定義為 [資料檢視](../data-views.md).
 
 與在CJA以外的其他位置轉換或操控資料相比，衍生欄位可節省大量的時間和精力。 例如 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant), [資料Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)，或在您自己的擷取轉換載入(ETL)/擷取載入轉換(ELT)程式中。
 
-衍生欄位定義為 [資料檢視](../data-views.md)，是以定義為規則的一組函式為基礎，並套用至可用的標準和/或結構欄位。
+衍生欄位是在 [資料檢視](../data-views.md)，是以定義為規則的一組函式為基礎，並套用至可用的標準和/或結構欄位。
 
 範例使用案例包括：
 
-- 定義自訂「頁面名稱」欄位，以更正不正確收集的頁面名稱值以更正頁面名稱值。
+- 定義衍生的「頁面名稱」欄位，以更正不正確收集的頁面名稱值以更正頁面名稱值。
 
-- 定義自訂行銷管道欄位，以根據一或多個條件（例如URL參數、頁面URL、頁面名稱）來決定正確的行銷管道。
+- 定義衍生的行銷管道欄位，以根據一或多個條件（例如URL參數、頁面URL、頁面名稱）來決定正確的行銷管道。
 
-## 自訂欄位介面
+## 衍生欄位介面
 
-當您建立或編輯自訂欄位時，請使用自訂欄位介面。
+建立或編輯衍生欄位時，請使用衍生欄位介面。
 
-![自訂欄位對話方塊](assets/custom-field-dialog.png)
+![派生欄位對話框](assets/derived-field-dialog.png)
 
 
 |  | 名稱 | 說明 |
 |---------|----------|--------|
 | 1 | **選取器** | 您可使用選取器區域來選取及拖放 ![函式](assets/Smock_Function_18_N.svg) 函式，![函式模板表徵圖](assets/Smock_FileTemplate_18_N.svg) 函式模板，![架構欄點陣圖示](assets/Smock_Folder_18_N.svg) 方案欄位，或![標準欄點陣圖示](assets/Smock_DragHandle_18_N.svg)標準欄位。 <br/>使用下拉式清單在 [!UICONTROL 函式], [!UICONTROL 函式範本], [!UICONTROL 結構欄位]，和 [!UICONTROL 標準欄位].<br/>您可以使用 ![搜尋圖示](assets/Smock_Search_18_N.svg) 搜索框。 <br/>您可以選取 ![篩選圖示](assets/Smock_Filter_18_N.svg) 在 [!UICONTROL 依篩選欄位] 對話框。 您可以使用 ![關閉圖示](assets/CrossSize75.svg) 對每個篩選器。 |
-| 2 | **規則產生器** | 您使用一或多個規則循序建立自訂欄位。 規則是函式的特定實作，因此一律僅與一個函式相關聯。 將函式拖放至規則產生器，即可建立規則。 函式類型決定規則的介面。<br/>請參閱 [規則介面](#rule-interface) 以取得更多資訊。 <br/>您可以在規則產生器中可用的規則之間插入函式，從開始、結束或者。 規則產生器中的最後一個規則會決定自訂欄位的最終輸出。 |
-| 3 | **[!UICONTROL **&#x200B;欄位設定&#x200B;**]** | 您可以為自訂欄位命名並加以說明，並檢查其欄位類型。 |
-| 4 | **[!UICONTROL **&#x200B;最終輸出&#x200B;**]** | 此區域會根據過去30天的資料，以及您對規則產生器中自訂欄位所做的變更，顯示輸出值的即時更新預覽。 |
+| 2 | **規則產生器** | 您使用一或多個規則循序建立衍生欄位。 規則是函式的特定實作，因此一律僅與一個函式相關聯。 將函式拖放至規則產生器，即可建立規則。 函式類型決定規則的介面。<br/>請參閱 [規則介面](#rule-interface) 以取得更多資訊。 <br/>您可以在規則產生器中可用的規則之間插入函式，將其插入開頭、結尾或中。 規則產生器中的最後一個規則會決定衍生欄位的最終輸出。 |
+| 3 | **[!UICONTROL **&#x200B;欄位設定&#x200B;**]** | 您可以為衍生欄位命名並加以說明，並檢查其欄位類型。 |
+| 4 | **[!UICONTROL **&#x200B;最終輸出&#x200B;**]** | 此區域會根據過去30天的資料，以及您對規則產生器中衍生欄位所做的變更，顯示輸出值的即時更新預覽。 |
 
 {style="table-layout:auto"}
 
-第一次存取自訂欄位介面時， [!UICONTROL 從欄位範本開始] 嚮導。
+## 欄位範本精靈
 
-![自訂欄位範本精靈對話方塊](assets/field-template-dialog.png)
+首次存取「衍生」欄位介面時， [!UICONTROL 從欄位範本開始] 嚮導。
 
 1. 選取最能說明您嘗試建立之欄位類型的範本。
 2. 選取 **[!UICONTROL **&#x200B;選擇&#x200B;**]** 按鈕繼續。
 
-「自訂」欄位對話方塊中會填入您所選欄位類型所需或實用的規則（和函式）。 請參閱 [函式範本](#function-templates) 以取得可用範本的詳細資訊。
+您的「衍生欄位」對話方塊中會填入您所選欄位類型所需或實用的規則（和函式）。 請參閱 [函式範本](#function-templates) 以取得可用範本的詳細資訊。
 
 ## 規則介面
 
@@ -69,22 +69,22 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-## 建立自訂欄位
+## 建立衍生欄位
 
 1. 選擇現有資料視圖或建立資料視圖。 請參閱 [資料檢視](../data-views.md) 以取得更多資訊。
 
 2. 選取 **[!UICONTROL **&#x200B;元件&#x200B;**]** 頁簽。
 
-3. 選擇 **[!UICONTROL **&#x200B;建立自訂欄位&#x200B;**]** 從左側邊欄。
+3. 選擇 **[!UICONTROL **&#x200B;建立衍生欄位&#x200B;**]** 從左側邊欄。
 
-4. 若要定義自訂欄位，請使用 [!UICONTROL 建立自訂欄位] 介面。 請參閱 [自訂欄位介面](#custom-field-interface).
+4. 若要定義衍生欄位，請使用 [!UICONTROL 建立衍生欄位] 介面。 請參閱 [衍生欄位介面](#derived-field-interface).
 
-   若要儲存新的自訂欄位，請選取 **[!UICONTROL **&#x200B;儲存&#x200B;**]**.
+   若要儲存新的衍生欄位，請選取 **[!UICONTROL **&#x200B;儲存&#x200B;**]**.
 
-5. 您的新自訂欄位會新增至 **[!UICONTROL **&#x200B;自訂欄位>**]** 容器，作為 **[!UICONTROL **&#x200B;結構欄位&#x200B;**]** 在資料檢視的左側邊欄。
+5. 您的新衍生欄位會新增至 **[!UICONTROL **&#x200B;衍生欄位>**]** 容器，作為 **[!UICONTROL **&#x200B;結構欄位&#x200B;**]** 在資料檢視的左側邊欄。
 
 
-## 編輯自訂欄位
+## 編輯衍生欄位
 
 1. 選擇現有資料視圖。 請參閱 [資料檢視](../data-views.md) 以取得更多資訊。
 
@@ -92,19 +92,19 @@ ht-degree: 9%
 
 3. 選擇 **[!UICONTROL **&#x200B;結構欄位&#x200B;**]** 標籤 [!UICONTROL 連線] 窗格。
 
-4. 選擇 **[!UICONTROL **&#x200B;自訂欄位>**]** 容器。
+4. 選擇 **[!UICONTROL **&#x200B;衍生欄位>**]** 容器。
 
-5. 暫留在您要編輯的自訂欄位上，然後選取 ![編輯圖示](assets/Smock_Edit_18_N.svg).
+5. 暫留在您要編輯的衍生欄位上，然後選取 ![編輯圖示](assets/Smock_Edit_18_N.svg).
 
-6. 若要編輯自訂欄位，請使用 [!UICONTROL 編輯自訂欄位] 介面。 請參閱 [自訂欄位介面](#custom-field-interface).
+6. 若要編輯衍生欄位，請使用 [!UICONTROL 編輯衍生欄位] 介面。 請參閱 [衍生欄位介面](#derived-field-interface).
 
-   - 選擇 **[!UICONTROL **&#x200B;儲存&#x200B;**]** 以儲存更新的自訂欄位。
+   - 選擇 **[!UICONTROL **&#x200B;儲存&#x200B;**]** 以儲存更新的衍生欄位。
 
-   - 選擇 **[!UICONTROL **&#x200B;取消&#x200B;**]** 取消您對自訂欄位所做的任何變更。
+   - 選擇 **[!UICONTROL **&#x200B;取消&#x200B;**]** 取消您對派生欄位所做的任何更改。
 
-   - 選擇 **[!UICONTROL **&#x200B;另存新檔&#x200B;**]** 將自訂欄位儲存為新的自訂欄位。 新自訂欄位的名稱與原始編輯的自訂欄位相同，具有 `(copy)` 新增。
+   - 選擇 **[!UICONTROL **&#x200B;另存新檔&#x200B;**]** 將派生欄位另存為新的派生欄位。 新的派生欄位與原始編輯的派生欄位的名稱相同，具有 `(copy)` 新增。
 
-## 刪除自訂欄位
+## 刪除衍生欄位
 
 1. 選擇現有資料視圖。 請參閱 [資料檢視](../data-views.md) 以取得更多資訊。
 
@@ -112,20 +112,20 @@ ht-degree: 9%
 
 3. 選擇 **[!UICONTROL **&#x200B;結構欄位&#x200B;**]** 標籤 [!UICONTROL 連線] 框。
 
-4. 選擇 **[!UICONTROL **&#x200B;自訂欄位>**]** 容器。
+4. 選擇 **[!UICONTROL **&#x200B;衍生欄位>**]** 容器。
 
-5. 將滑鼠指標暫留在您要刪除的自訂欄位上，然後選取 ![編輯圖示](assets/Smock_Edit_18_N.svg).
+5. 暫留在您要刪除的衍生欄位上，然後選取 ![編輯圖示](assets/Smock_Edit_18_N.svg).
 
-6. 使用中 **[!UICONTROL **&#x200B;編輯自訂欄位&#x200B;**]** 介面，選擇刪除。
+6. 使用中 **[!UICONTROL **&#x200B;編輯衍生欄位&#x200B;**]** 介面，選擇刪除。
 
-   A [!UICONTROL 刪除元件] 對話框要求您確認刪除。 考慮資料檢視外部的自訂欄位可能存在任何外部參考。
+   A [!UICONTROL 刪除元件] 對話框要求您確認刪除。 考慮資料檢視外部的衍生欄位可能存在任何外部參考。
 
-   - 選擇 **[!UICONTROL **&#x200B;繼續&#x200B;**]** 刪除自訂欄位。
+   - 選擇 **[!UICONTROL **&#x200B;繼續&#x200B;**]** 刪除派生欄位。
 
 
 ## 函數範本
 
-若要針對特定使用案例快速建立自訂欄位，可使用函式範本。 這些函式範本可從自訂欄位介面的「選取器」區域存取，或在首次使用時顯示於 [!UICONTROL 從欄位範本開始] 嚮導。
+若要快速建立特定使用案例的衍生欄位，可使用函式範本。 這些函式模板可從「派生」欄位介面的「選擇器」區域訪問，或在首次使用時顯示在 [!UICONTROL 從欄位範本開始] 嚮導。
 
 
 ### 行銷管道
@@ -163,9 +163,9 @@ ht-degree: 9%
    - 輸出。
 
 - 使用案例，包括：
-   - 定義自訂欄位之前的資料
-   - 如何定義自訂欄位
-   - 定義自訂欄位後的資料
+   - 定義衍生欄位之前的資料
+   - 如何定義衍生欄位
+   - 定義衍生欄位後的資料
 
 - 限制（可選）
 
@@ -174,7 +174,7 @@ ht-degree: 9%
 
 ### [!DNL Concatenate]
 
-將兩個或多個欄位、自訂欄位或使用者輸入的值合併為具有已定義分隔字元的單一欄位。
+將兩個或多個欄位、衍生欄位或使用者輸入的值合併為具有定義分隔字元的單一欄位。
 
 +++ 詳細資料
 
@@ -182,7 +182,7 @@ ht-degree: 9%
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|:--:|---|
-| <p>字串</p> | <ul><li>要合併的兩個或多個值<ul><li>欄位</li><li>從先前規則衍生的值</li><li>使用者輸入的值</li></ul></li><li>分隔字元<ul><li>輸入或選取每個值的分隔字元</li></ul></li> </ul> | <p>不適用</p> | <p>2</p> | <p>新自訂欄位</p> |
+| <p>字串</p> | <ul><li>要合併的兩個或多個值<ul><li>欄位</li><li>從先前規則衍生的值</li><li>使用者輸入的值</li></ul></li><li>分隔字元<ul><li>輸入或選取每個值的分隔字元</li></ul></li> </ul> | <p>不適用</p> | <p>2</p> | <p>新衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -228,15 +228,15 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-### 自訂欄位 {#concatenate-customfield}
+### 衍生欄位 {#concatenate-derivedfield}
 
-您定義新 **[!UICONTROL **&#x200B;來源 — 目的地&#x200B;**]** 自訂欄位。 您使用 **[!UICONTROL 串連]** 函式來定義要串連的規則 [!UICONTROL 原始] 和 [!UICONTROL 目的地] 欄位使用 `-` [!UICONTROL 分隔字元].
+您定義新 **[!UICONTROL **&#x200B;來源 — 目的地&#x200B;**]** 衍生欄位。 您使用 **[!UICONTROL 串連]** 函式來定義要串連的規則 [!UICONTROL 原始] 和 [!UICONTROL 目的地] 欄位使用 `-` [!UICONTROL 分隔字元].
 
 ![[!DNL Concatenate] 規則](assets/concatenate.png)
 
 ### 之後的資料 {#concatenate-dataafter}
 
-| 來源 — 目的地<br/>（自訂欄位） |
+| 來源 — 目的地<br/>（衍生欄位） |
 |---|
 | SLC-MCO |
 | SLC-LAX |
@@ -252,7 +252,7 @@ ht-degree: 9%
 
 ### [!DNL Case When]
 
-根據一或多個欄位中定義的條件套用條件。 然後，系統會根據條件的順序，使用這些條件來定義新自訂欄位中的值。
+根據一或多個欄位中定義的條件套用條件。 然後，系統會根據條件的順序，使用這些條件來定義新衍生欄位中的值。
 
 +++ 詳細資料
 
@@ -260,7 +260,7 @@ ht-degree: 9%
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|:---:|---|
-| <ul><li>字串</li><li>數值</li><li>日期/日期時間</li></ul> | <ul><li>輸入欄位</li><li>標準</li></ul> | <p><u>字串</u></p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>以任何詞語開頭</li><li>終止於</li><li>以任何詞語結尾</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>不以任何詞語開頭</li><li>不終止於</li><li>不以任何詞語結尾</li><li>已設定</li><li>未設定</li></ul><p><u>數值</u></p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p><u>日期</u></p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>是之前</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <p>5</p> | <p>新自訂欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期/日期時間</li></ul> | <ul><li>輸入欄位</li><li>標準</li></ul> | <p><u>字串</u></p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>以任何詞語開頭</li><li>終止於</li><li>以任何詞語結尾</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>不以任何詞語開頭</li><li>不終止於</li><li>不以任何詞語結尾</li><li>已設定</li><li>未設定</li></ul><p><u>數值</u></p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p><u>日期</u></p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>是之前</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <p>5</p> | <p>新衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -303,9 +303,9 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-### 自訂欄位 {#casewhen-uc1-customfield}
+### 衍生欄位 {#casewhen-uc1-derivedfield}
 
-您定義新 `Marketing Channel` 自訂欄位。 您使用 **[!UICONTROL 案例]** 函式來定義規則，以根據兩者的現有值來建立 `Page URL` 和 `Referring URL` 欄位。
+您定義新 `Marketing Channel` 衍生欄位。 您使用 **[!UICONTROL 案例]** 函式來定義規則，以根據兩者的現有值來建立 `Page URL` 和 `Referring URL` 欄位。
 
 請注意函式的用法 **[!UICONTROL ** URL剖析&#x200B;**]** 定義規則以擷取 `Page Url` 和 `Referring Url` 在 **[!UICONTROL **&#x200B;案例&#x200B;**]** 規則。
 
@@ -359,9 +359,9 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-### 自訂欄位 {#casewhen-uc2-customfield}
+### 衍生欄位 {#casewhen-uc2-derivedfield}
 
-您定義 `Product Finding Methods (new)` 自訂欄位。 您可建立下列項目 **[!UICONTROL **&#x200B;案例&#x200B;**]** 規則產生器中的規則。 這些規則會套用邏輯至舊的所有可能變數 **[!UICONTROL **&#x200B;產品尋找方法&#x200B;**]** 欄位值 `search` 和 `browse` 使用 **[!UICONTROL 包含片語]** 標準。
+您定義 `Product Finding Methods (new)` 衍生欄位。 您可建立下列項目 **[!UICONTROL **&#x200B;案例&#x200B;**]** 規則產生器中的規則。 這些規則會套用邏輯至舊的所有可能變數 **[!UICONTROL **&#x200B;產品尋找方法&#x200B;**]** 欄位值 `search` 和 `browse` 使用 **[!UICONTROL 包含片語]** 標準。
 
 ![[!DNL Case When] 規則2](assets/case-when-2.png)
 
@@ -432,9 +432,9 @@ ht-degree: 9%
 | 21 |
 | 8 |
 
-### 自訂欄位 {#casewhen-uc3-customfield}
+### 衍生欄位 {#casewhen-uc3-derivedfield}
 
-您定義 `Trip Duration (bucketed)` 自訂欄位。 您可建立下列項目 **[!UICONTROL **&#x200B;案例&#x200B;**]** 規則產生器中的規則。 此規則會套用邏輯以貯體舊 **[!UICONTROL **&#x200B;行程期間&#x200B;**]** 欄位值分為三個值： `short trip`, `medium  trip`，和 `long trip`.
+您定義 `Trip Duration (bucketed)` 衍生欄位。 您可建立下列項目 **[!UICONTROL **&#x200B;案例&#x200B;**]** 規則產生器中的規則。 此規則會套用邏輯以貯體舊 **[!UICONTROL **&#x200B;行程期間&#x200B;**]** 欄位值分為三個值： `short trip`, `medium  trip`，和 `long trip`.
 
 ![[!DNL Case When] 規則3](assets/case-when-3.png)
 
@@ -459,20 +459,22 @@ ht-degree: 9%
 
 ## 限制
 
-CJA使用彈性的巢狀容器結構，以Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) （體驗資料模型）以取得其功能。 此容器模型雖然性質上是彈性的，但在使用規則產生器時會施加一些限制。 CJA使用的預設巢狀容器模型結構如下圖所示：
+CJA使用巢狀容器結構，以Adobe Experience Platform [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) （體驗資料模型）。 請參閱 [容器](../create-dataview.md#containers) 和 [篩選容器](../../components/filters/filters-overview.md#filter-containers) 以了解更多背景資訊。 此容器模型雖然性質上是彈性的，但在使用規則產生器時會施加一些限制。
+
+CJA使用下列預設容器模型：
 
 <p align="center">
-<img src="./assets/containers.png" width="70%" valign="middle">
+<img src="./assets/containers.png" width="50%" valign="middle">
 </p>
 
-請參閱 [容器](../create-dataview.md#containers) 和 [篩選容器](../../components/filters/filters-overview.md#filter-containers) 以了解更多背景資訊。
 
-下列容器限制適用，並會在 _選取_ 和 _設定_ 值。
+
+下列限制確實適用，並會在 _選取_ 和 _設定_ 值。
 
 |  | 限制 |
 |:---:|----|
 | **<span style='color: red'>A</span>** | 您的值 _選取_ 相同 [!UICONTROL 若], [!UICONTROL 若] 建構(使用 [!UICONTROL 和] 或 [!UICONTROL 或])必須來自相同的容器，且可以是任何類型（字串） ![字串](assets/Smock_ABC_18_N.svg)，數值 ![數值](assets/Smock_123_18_N.svg)，依此類推)。 <br/>![相依性A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | 所有值 _set_ 跨規則必須來自相同的容器，且具有相同類型或相同類型的自訂值。 <br/> ![相依性B](assets/dependency-b.png) |
+| **<span style='color: red'>B</span>** | 所有值 _set_ 跨規則必須來自相同的容器，且具有相同類型或相同類型的衍生值。 <br/> ![相依性B](assets/dependency-b.png) |
 | **<span style='color: blue'>C</span>** | 您的值 _選取_ 跨 [!UICONTROL 若], [!UICONTROL 若] 規則中的構造 _not_ 必須源自相同的容器 _not_ 必須是同一種類型。 <br/> ![依賴C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
@@ -484,7 +486,7 @@ CJA使用彈性的巢狀容器結構，以Adobe Experience Platform [XDM](https:
 
 ### [!DNL Find and Replace]
 
-在選定欄位中查找所有值，並將這些值替換為新自定義欄位中的不同值。
+在選定欄位中查找所有值，並將這些值替換為新派生欄位中的不同值。
 
 +++ 詳細資料
 
@@ -492,7 +494,7 @@ CJA使用彈性的巢狀容器結構，以Adobe Experience Platform [XDM](https:
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|:---:|---|
-| <p>字串</p> | <ul><li><span>「何時替換」欄位條件</span></li><li><span>「替換為」欄位值</span><ul><li><span>使用者輸入</span></li><li><span>獨立欄位</span></li></ul></li></ul> | <p><u>字串</u></p><ul><li>全部查找和全部替換</li></ul> | <p>1</p> | <p>新自訂欄位</p> |
+| <p>字串</p> | <ul><li><span>「何時替換」欄位條件</span></li><li><span>「替換為」欄位值</span><ul><li><span>使用者輸入</span></li><li><span>獨立欄位</span></li></ul></li></ul> | <p><u>字串</u></p><ul><li>全部查找和全部替換</li></ul> | <p>1</p> | <p>新衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -529,15 +531,15 @@ CJA使用彈性的巢狀容器結構，以Adobe Experience Platform [XDM](https:
 
 {style="table-layout:auto"}
 
-### 自訂欄位 {#findreplace-uc-customfield}
+### 衍生欄位 {#findreplace-uc-derivedfield}
 
-您定義 `Email Marketing (updated)` 自訂欄位。 您使用 **[!UICONTROL 查找和替換]** 函式來定義規則，以尋找和取代所有 `email%20marketing` with `email marketing`.
+您定義 `Email Marketing (updated)` 衍生欄位。 您使用 **[!UICONTROL 查找和替換]** 函式來定義規則，以尋找和取代所有 `email%20marketing` with `email marketing`.
 
 ![[!DNL Find and Replace] 規則](assets/find-and-replace.png)
 
 ### 之後的資料 {#findreplace-uc-dataafter}
 
-| 外部行銷<br/>（自訂欄位） |
+| 外部行銷<br/>（衍生欄位） |
 |----|
 | 電子郵件行銷 |
 | 電子郵件行銷 |
@@ -563,7 +565,7 @@ CJA使用彈性的巢狀容器結構，以Adobe Experience Platform [XDM](https:
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|:---:|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>單一欄位</li><li>查閱檔案<ul><li>索引鍵欄</li><li>新欄位列</li></ul></li></ul> | <p>不適用</p> | <p>5</p> | <p>新自訂欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>單一欄位</li><li>查閱檔案<ul><li>索引鍵欄</li><li>新欄位列</li></ul></li></ul> | <p>不適用</p> | <p>5</p> | <p>新衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -615,9 +617,9 @@ CJA使用彈性的巢狀容器結構，以Adobe Experience Platform [XDM](https:
 {style="table-layout:auto"}
 
 
-### 自訂欄位 {#lookup-uc1-customfield}
+### 衍生欄位 {#lookup-uc1-derivedfield}
 
-您定義 `Hotel Name` 自訂欄位。 您使用 **[!UICONTROL **&#x200B;查閱&#x200B;**]** 函式來定義規則，以便查詢 **[!UICONTROL **&#x200B;酒店ID **]** 欄位中取代為新值。
+您定義 `Hotel Name` 衍生欄位。 您使用 **[!UICONTROL **&#x200B;查閱&#x200B;**]** 函式來定義規則，以便查詢 **[!UICONTROL **&#x200B;酒店ID **]** 欄位中取代為新值。
 
 ![[!DNL Lookup] 規則1](assets/lookup-1.png)
 
@@ -650,9 +652,9 @@ CJA使用彈性的巢狀容器結構，以Adobe Experience Platform [XDM](https:
 
 {style="table-layout:auto"}
 
-### 自訂欄位 {#lookup-uc2-customfield}
+### 衍生欄位 {#lookup-uc2-derivedfield}
 
-您定義 `Page Name (updated)` 自訂欄位。 您使用 **[!UICONTROL **&#x200B;查閱&#x200B;**]** 函式來定義規則，以便在其中查詢現有 **[!UICONTROL **&#x200B;頁面名稱&#x200B;**]** 欄位，並以更新的正確值取代。
+您定義 `Page Name (updated)` 衍生欄位。 您使用 **[!UICONTROL **&#x200B;查閱&#x200B;**]** 函式來定義規則，以便在其中查詢現有 **[!UICONTROL **&#x200B;頁面名稱&#x200B;**]** 欄位，並以更新的正確值取代。
 
 ![[!DNL Lookup] 規則2](assets/lookup-2.png)
 
@@ -682,7 +684,7 @@ CJA使用彈性的巢狀容器結構，以Adobe Experience Platform [XDM](https:
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|:---:|---|
-| <ul><li>字串</li></ul> | <ul><li>單一欄位</li><li>解析選項<ul><li>取得通訊協定</li><li>取得主機</li><li>取得路徑</li><li>取得查詢值<ul><li>查詢參數</li></ul></li><li>取得雜湊值</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>5</p> | <p>新自訂欄位</p> |
+| <ul><li>字串</li></ul> | <ul><li>單一欄位</li><li>解析選項<ul><li>取得通訊協定</li><li>取得主機</li><li>取得路徑</li><li>取得查詢值<ul><li>查詢參數</li></ul></li><li>取得雜湊值</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>5</p> | <p>新衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -702,9 +704,9 @@ CJA使用彈性的巢狀容器結構，以Adobe Experience Platform [XDM](https:
 
 {style="table-layout:auto"}
 
-### 自訂欄位 {#urlparse-uc1-customfield}
+### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義  `Referring Domain` 自訂欄位。 您使用 **[!UICONTROL ** URL剖析&#x200B;**]** 函式來定義要從 **轉介URL** 並將其儲存在新的自訂欄位中。
+您定義  `Referring Domain` 衍生欄位。 您使用 **[!UICONTROL ** URL剖析&#x200B;**]** 函式來定義要從 **轉介URL** 並將其儲存在新的衍生欄位中。
 
 ![[!DNL Url Parse] 規則1](assets/url-parse-1.png)
 
@@ -734,9 +736,9 @@ CJA使用彈性的巢狀容器結構，以Adobe Experience Platform [XDM](https:
 
 {style="table-layout:auto"}
 
-### 自訂欄位 {#urlparse-uc2-customfield}
+### 衍生欄位 {#urlparse-uc2-derivedfield}
 
-您定義 `Query String CID` 自訂欄位。 您使用 **[!UICONTROL ** URL剖析&#x200B;**]** 函式來定義規則，以擷取頁面URL中查詢字串參數的值，指定 `cid` 作為查詢參數。 輸出值儲存在新自訂欄位中。
+您定義 `Query String CID` 衍生欄位。 您使用 **[!UICONTROL ** URL剖析&#x200B;**]** 函式來定義規則，以擷取頁面URL中查詢字串參數的值，指定 `cid` 作為查詢參數。 輸出值儲存在新的派生欄位中。
 
 ![[!DNL Url Parse] 規則2](assets/url-parse-2.png)
 
