@@ -4,9 +4,9 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 749088c6e6c100797bd9a2dd1de64d18d45108e5
+source-git-commit: cc475afebba5bd1cfcaf3b1471ce6d1316126a9d
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1770'
 ht-degree: 53%
 
 ---
@@ -124,6 +124,8 @@ ht-degree: 53%
 >* 您與共用的使用者可以檢視期間套用至專案的任何篩選器 [組織](curate.md).
 > 
 >* 您與共用的使用者可以變更專案日期範圍。 預設會顯示您為專案設定的日期範圍。
+>
+>* 如果有太多使用者同時嘗試存取專案，該專案可能會變得無法存取。
 
 
 若要與任何人共用Analysis Workspace專案：
