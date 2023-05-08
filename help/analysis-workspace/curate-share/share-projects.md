@@ -4,10 +4,10 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: cc475afebba5bd1cfcaf3b1471ce6d1316126a9d
+source-git-commit: dab154ce10b0b4f7fb2873d92a1ce9ceb7478b26
 workflow-type: tm+mt
-source-wordcount: '1770'
-ht-degree: 53%
+source-wordcount: '1798'
+ht-degree: 52%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 53%
 > 
 >* 您與共用的使用者可以變更專案日期範圍。 預設會顯示您為專案設定的日期範圍。
 >
->* 如果有太多使用者同時嘗試存取專案，該專案可能會變得無法存取。
+>* 如果許多用戶同時嘗試訪問指定的連結，則項目可能變得無法訪問。 依預設，超過190人每5分鐘可存取一個連結。 如果貴組織達到此限制，請等待5分鐘，然後再次嘗試存取連結。
 
 
 若要與任何人共用Analysis Workspace專案：
