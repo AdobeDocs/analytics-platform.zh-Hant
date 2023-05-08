@@ -3,14 +3,18 @@ description: 使用線條圖視覺效果來描繪趨勢（以時間為基礎）�
 title: 折線圖
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 228578ceae27bb83645001fb959a614283dcca33
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 87%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
-# 線圖
+# 折線圖
+
+>[!NOTE]
+>
+>線條圖視覺效果即將推出 [智慧字幕](/help/analysis-workspace/visualizations/intelligent-captions.md).
 
 線條圖視覺效果使用線條圖表示量度，以顯示一段時間中值的變化。僅可在使用時間當作維度時，才使用折線圖。
 

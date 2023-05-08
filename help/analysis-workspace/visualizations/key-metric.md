@@ -3,11 +3,11 @@ description: 使用關鍵量度摘要視覺效果，比較兩個時間軸的量�
 title: 關鍵量度摘要
 feature: Visualizations
 role: User, Admin
-exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: fa86c113de8cf533e7b68df1aad7ac02aa60f7e8
-workflow-type: ht
-source-wordcount: '598'
-ht-degree: 100%
+exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
+source-git-commit: f2e152345d7a395c684a964e72b1bcdaa5d817b0
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量
 
 1. 選取量度、主要日期範圍和比較日期範圍及區段 (如果想要)，以設定視覺效果：
 
-   ![](assets/key-metric-config.png)
+   ![關鍵量度設定](assets/key-metric-config.png)
 
    | 組態設定 | 定義 |
    | --- | --- |
@@ -46,7 +46,7 @@ The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量
    | **[!UICONTROL 比較日期範圍]** | 您要與主要日期範圍進行比較的日期範圍。 |
    | **[!UICONTROL 區段 (選擇性)]** | 您對於此摘要特別感興趣的任何區段。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 按一下&#x200B;**[!UICONTROL 「建置」]**。
 
@@ -62,7 +62,7 @@ The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量
 
 * 您可以從此處將指標停留在線圖上，以查看個別天數的統計資料：
 
-![](assets/key-metric-output2.png)
+![統計](assets/key-metric-output2.png)
 
 ## 視覺效果設定
 
@@ -89,7 +89,7 @@ The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量
 
 1. 按一下視覺效果右上角的鉛筆圖示 (設定齒輪圖示旁)。
 
-   ![](assets/edit-icon.png)
+   ![編輯](assets/edit-icon.png)
 
    現在您會返回原始設定檢視。
 
