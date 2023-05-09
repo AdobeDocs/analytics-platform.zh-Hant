@@ -3,7 +3,7 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新 CJA 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1c00f3974293c9022365e69d6c1b38d79f52d872
+source-git-commit: b313600ff215dea5a869e5a6125120a64f50235b
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 32%
@@ -27,7 +27,7 @@ Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運�
 | **Report BuilderCJA — 從儲存格選取資料檢視** | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。 如果您建立活頁簿，且有多個資料檢視具有類似的資料建構，而且您想要能夠重複使用活頁簿多次，且有不同的資料檢視，這個方法會很實用。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) | 不適用 | 2023年5月24日 |
 | **排序Analysis Workspace中的元件** | <p>在Analysis Workspace的左側邊欄或「資料字典」中檢視元件時，現在提供新的「排序」選項。 您可以依建議（最常使用的）、字母或類別（類型）來排序元件。</p><p>過去，您只能搜尋或篩選元件。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=en)</p> | 不適用 | 2023 年 5 月 10 日 |
 | **從自由表格中刪除包含動態維度的列** | 在Analysis Workspace的自由表格中，您現在可以使用x圖示快速刪除包含動態維度的特定列。 執行此動作時，會自動套用「不等於」篩選規則。<p>以前，刪除包含動態維度的列的唯一方式是在「篩選」對話方塊中手動建立規則。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=en)</p> | 不適用 | 2023 年 5 月 10 日 |
-| **在面板中新增視覺效果的新按鈕** | Analysis Workspace中每個面板底部現在都有新按鈕，可讓您快速新增視覺效果。 <p>過去，將視覺效果新增至面板的唯一方法是從左側邊欄拖曳視覺效果、複製或複製現有視覺效果，或建立空白麵板。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#quick-viz)</p> | 不適用 | 2023 年 5 月 10 日 |
+| **在面板中新增視覺效果的新按鈕** | Analysis Workspace中每個面板底部現在都有新按鈕，可讓您快速新增視覺效果。 <p>過去，將視覺效果新增至面板的唯一方法是從左側邊欄拖曳視覺效果、複製或複製現有視覺效果，或建立空白麵板。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#quick-viz)</p> | 不適用 | 2023年5月17日 |
 | **深層連結（行動應用程式）** | 可讓使用者傳送計分卡的連結，以直接將他們導向至應用程式中的計分卡專案。 這可讓您更輕鬆共用專案，並提升技術水準較低的受眾的參與度。 | 不適用 | 2023年5月17日 |
 | **智慧型字幕** | 透過線條視覺化的自然語言摘要，讓使用者更富說故事。 | 2023年5月17日 | 2023 年 6 月 1 日 |
 
