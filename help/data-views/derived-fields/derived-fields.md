@@ -6,18 +6,25 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: b7338c66ba3f78bd082e6d8da43b91b5517f48ac
+badgeDerivedFields: label="New Feature" type="Positive"
+source-git-commit: 1aece0ac0873e2cf68bfe8b24725072ddf18ad30
 workflow-type: tm+mt
-source-wordcount: '3265'
-ht-degree: 9%
+source-wordcount: '3003'
+ht-degree: 8%
 
 ---
+
 
 # 衍生欄位
 
 {{release-limited-testing}}
 
-衍生欄位是Customer Journey Analytics(CJA)中即時報表功能的重要一環。 衍生欄位可讓您透過可自訂的規則產生器，即時定義（通常是複雜的）資料處理。 接著，您就可以將該衍生欄位用作 [工作區](../../analysis-workspace/home.md) 或進一步定義為 [資料檢視](../data-views.md).
+>[!WARNING]
+>
+>待定的最終更新，您可能會看到 [!UICONTROL 自訂欄位] 而非 [!UICONTROL 衍生欄位] 跨使用者介面。
+
+
+衍生欄位是Customer Journey Analytics(CJA)中即時報表功能的重要一環。 衍生欄位可讓您透過可自訂的規則產生器，即時定義（通常是複雜的）資料處理。 接著，您就可以將該衍生欄位用作 [工作區](../../analysis-workspace/home.md) 或甚至進一步將衍生欄位定義為 [資料檢視](../data-views.md).
 
 與在CJA以外的其他位置轉換或操控資料相比，衍生欄位可節省大量的時間和精力。 例如 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant), [資料Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)，或在您自己的擷取轉換載入(ETL)/擷取載入轉換(ELT)程式中。
 
@@ -47,12 +54,12 @@ ht-degree: 9%
 
 ## 欄位範本精靈
 
-首次存取「衍生」欄位介面時， [!UICONTROL 從欄位範本開始] 嚮導。
+首次存取衍生欄位介面時， [!UICONTROL 從欄位範本開始] 嚮導。
 
 1. 選取最能說明您嘗試建立之欄位類型的範本。
 2. 選取 **[!UICONTROL **&#x200B;選擇&#x200B;**]** 按鈕繼續。
 
-您的「衍生欄位」對話方塊中會填入您所選欄位類型所需或實用的規則（和函式）。 請參閱 [函式範本](#function-templates) 以取得可用範本的詳細資訊。
+派生欄位對話框中填充了對所選欄位類型必需或有用的規則（和函式）。 請參閱 [函式範本](#function-templates) 以取得可用範本的詳細資訊。
 
 ## 規則介面
 
@@ -63,7 +70,7 @@ ht-degree: 9%
 |  | 名稱 | 說明 |
 |---------|----------|--------|
 | A | **規則名稱** | 依預設，規則名稱為 **規則X** （X指序號）。 若要編輯規則的名稱，請選取規則的名稱，然後輸入新名稱，例如 `Query Parameter`. |
-| B | **函數名稱** | 規則的所選函式名稱，例如 [!DNL URL PARSE]. 當函式是函式序列中的最後一個，並確定最終輸出值時，函式名稱后面跟 [!DNL FINAL OUTPUT]，例如 [!DNL URL PARSE - FINAL OUTPUT]. <br/>若要顯示快顯視窗及函式的詳細資訊，請選取 ![說明圖示](assets/Smock_HelpOutline_18_N.svg). |
+| B | **函數名稱** | 規則的所選函式名稱，例如 [!DNL URL PARSE]. 當函式是函式序列中的最後一個，並確定最終輸出值時，函式名稱后面跟 [!DNL - FINAL OUTPUT]，例如 [!DNL URL PARSE - FINAL OUTPUT]. <br/>若要顯示快顯視窗及函式的詳細資訊，請選取 ![說明圖示](assets/Smock_HelpOutline_18_N.svg). |
 | C | **規則說明** | 您可以選擇將說明新增至規則。<br/>選擇 ![更多圖示](assets/More.svg)，然後選取 **[!UICONTROL **&#x200B;新增說明&#x200B;**]** 新增說明或 **[!UICONTROL **&#x200B;編輯說明&#x200B;**]** 編輯現有說明。<br/>使用編輯器輸入說明。 您可以使用工具列來設定文字格式（使用樣式選取器、粗體、斜體、底線、右、左、中心、顏色、數字清單、項目符號清單），以及新增外部資訊的連結。 <br/>若要完成編輯說明，請按一下編輯器外部的。 |
 | D | **功能區域** | 定義函式的邏輯。 介面取決於函式的類型。 請參閱 [函式參考](#function-reference) 詳細資訊。 |
 
@@ -81,7 +88,7 @@ ht-degree: 9%
 
    若要儲存新的衍生欄位，請選取 **[!UICONTROL **&#x200B;儲存&#x200B;**]**.
 
-5. 您的新衍生欄位會新增至 **[!UICONTROL **&#x200B;衍生欄位>**]** 容器，作為 **[!UICONTROL **&#x200B;結構欄位&#x200B;**]** 在資料檢視的左側邊欄。
+5. 您的新衍生欄位會新增至 [!UICONTROL 衍生欄位>] 容器，作為 **[!UICONTROL **&#x200B;結構欄位&#x200B;**]** 在資料檢視的左側邊欄。
 
 
 ## 編輯衍生欄位
@@ -125,7 +132,7 @@ ht-degree: 9%
 
 ## 函數範本
 
-若要快速建立特定使用案例的衍生欄位，可使用函式範本。 這些函式模板可從「派生」欄位介面的「選擇器」區域訪問，或在首次使用時顯示在 [!UICONTROL 從欄位範本開始] 嚮導。
+若要快速建立特定使用案例的衍生欄位，可使用函式範本。 這些函式範本可從衍生欄位介面的選取器區域存取，或在首次使用時顯示於 [!UICONTROL 從欄位範本開始] 嚮導。
 
 
 ### 行銷管道
@@ -159,15 +166,15 @@ ht-degree: 9%
    - 輸入資料類型：支援的資料類型，
    - 輸入：輸入的可能值，
    - 包含的運算子：支援此函式的運算子（如果有）,
-   - 限制：可在派生欄位中使用此函式的規則數上限，
+   - 限制：可在衍生欄位中使用的規則數上限（連同此函式）,
    - 輸出。
 
 - 使用案例，包括：
-   - 定義衍生欄位之前的資料
-   - 如何定義衍生欄位
-   - 定義衍生欄位後的資料
+   - 定義衍生欄位之前的資料，
+   - 如何定義衍生欄位，
+   - 定義衍生欄位後的資料。
 
-- 限制（可選）
+- 限制（若適用）。
 
 
 <!-- Concatenate -->
@@ -230,7 +237,7 @@ ht-degree: 9%
 
 ### 衍生欄位 {#concatenate-derivedfield}
 
-您定義新 **[!UICONTROL **&#x200B;來源 — 目的地&#x200B;**]** 衍生欄位。 您使用 **[!UICONTROL 串連]** 函式來定義要串連的規則 [!UICONTROL 原始] 和 [!UICONTROL 目的地] 欄位使用 `-` [!UICONTROL 分隔字元].
+您定義新 [!UICONTROL 來源 — 目的地] 衍生欄位。 您使用 [!UICONTROL 串連] 函式來定義要串連的規則 [!UICONTROL 原始] 和 [!UICONTROL 目的地] 欄位使用 `-` [!UICONTROL 分隔字元].
 
 ![[!DNL Concatenate] 規則](assets/concatenate.png)
 
@@ -269,30 +276,30 @@ ht-degree: 9%
 
 您想要定義規則，透過套用階層式邏輯將行銷管道欄位設為適當值，以識別各種行銷管道：
 
-- 如果反向連結來自搜尋引擎，且頁面具有查詢字串值，其中 `cid` 包含 `ps_`，行銷管道應識別為 **付費搜尋**.
-- 如果反向連結來自搜尋引擎，且頁面沒有查詢字串 `cid`，行銷管道應識別為 **免費搜尋**.
-- 若頁面具有查詢字串值，其中 `cid` 包含 `em_`，行銷管道應識別為 **電子郵件**.
-- 若頁面具有查詢字串值，其中 `cid` 包含 `ds_`，行銷管道應識別為 **顯示廣告**.
-- 若頁面具有查詢字串值，其中 `cid` 包含 `so_`，行銷管道應識別為 **付費社交**.
-- 如果反向連結來自twitter.com、facebook.com、linkedin.com或tiktok.com的反向連結網域，則應將行銷管道識別為 **自然社會**.
-- 如果上述規則皆不相符，則應將行銷管道識別為 **其他反向連結**.
+- 如果反向連結來自搜尋引擎，且頁面具有查詢字串值，其中 `cid` 包含 `ps_`，行銷管道應識別為 [!DNL *付費搜尋*].
+- 如果反向連結來自搜尋引擎，且頁面沒有查詢字串 `cid`，行銷管道應識別為 [!DNL *免費搜尋*].
+- 若頁面具有查詢字串值，其中 `cid` 包含 `em_`，行銷管道應識別為 [!DNL *電子郵件*].
+- 若頁面具有查詢字串值，其中 `cid` 包含 `ds_`，行銷管道應識別為 [!DNL *顯示廣告*].
+- 若頁面具有查詢字串值，其中 `cid` 包含 `so_`，行銷管道應識別為 [!DNL *付費社交*].
+- 如果反向連結來自 [!DNL twitter.com], [!DNL facebook.com], [!DNL linkedin.com]，或 [!DNL tiktok.com]，行銷管道應識別為 [!DNL *自然社會*].
+- 如果上述規則皆不相符，則應將行銷管道識別為 [!DNL *其他反向連結*].
 
-若您的網站收到下列包含反向連結和頁面URL的範例事件，應依下列方式識別這些事件：
+若您的網站收到下列範例事件，包含 [!UICONTROL 反向連結] 和 [!UICONTROL 頁面URL]，這些事件的識別方式如下：
 
-| 事件 | 反向連結 | 頁面 URL | 行銷管道 |
+| [!DNL Event] | [!DNL Referrer] | [!DNL Page URL] | [!DNL Marketing Channel] |
 |:--:|----|----|----|
-| 1 | `https://facebook.com` | `https://site.com/home` | 自然社會 |
-| 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | 顯示 |
-| 3 |  | `https://site.com/?cid=em_12345678` | 電子郵件 |
-| 4 | `https://google.com` | `https://site.com/?cid=ps_abc098765` | 付費搜尋 |
-| 5 | `https://google.com` | `https://site.com/?cid=em_765544332` | 電子郵件 |
-| 6 | `https://google.com` |  | 免費搜尋 |
+| 1 | `https://facebook.com` | `https://site.com/home` | [!DNL Natural Social] |
+| 2 | `https://abc.com` | `https://site.com/?cid=ds_12345678` | [!DNL Display] |
+| 3 |  | `https://site.com/?cid=em_12345678` | [!DNL Email] |
+| 4 | `https://google.com` | `https://site.com/?cid=ps_abc098765` | [!DNL Paid Search] |
+| 5 | `https://google.com` | `https://site.com/?cid=em_765544332` | [!DNL Email] |
+| 6 | `https://google.com` |  | [!DNL Natural Search] |
 
 {style="table-layout:auto"}
 
 ### 資料之前 {#casewhen-uc1-databefore}
 
-| 反向連結 | 頁面 URL |
+| [!UICONTROL 反向連結] | [!DNL Page URL] |
 |----|----|
 | `https://facebook.com` | `https://site.com/home` |
 | `https://abc.com` | `https://site.com/?cid=ds_12345678` |
@@ -305,79 +312,79 @@ ht-degree: 9%
 
 ### 衍生欄位 {#casewhen-uc1-derivedfield}
 
-您定義新 `Marketing Channel` 衍生欄位。 您使用 **[!UICONTROL 案例]** 函式來定義規則，以根據兩者的現有值來建立 `Page URL` 和 `Referring URL` 欄位。
+您定義新 `Marketing Channel` 衍生欄位。 您使用 [!UICONTROL 案例] 函式來定義規則，以根據兩者的現有值來建立 `Page URL` 和 `Referring URL` 欄位。
 
-請注意函式的用法 **[!UICONTROL ** URL剖析&#x200B;**]** 定義規則以擷取 `Page Url` 和 `Referring Url` 在 **[!UICONTROL **&#x200B;案例&#x200B;**]** 規則。
+請注意函式的用法 [!UICONTROL URL剖析] 定義規則以擷取 `Page Url` 和 `Referring Url` 在 [!UICONTROL 案例] 規則。
 
 ![[!DNL Case when] 規則1](assets/case-when-1.png)
 
 ### 之後的資料 {#casewhen-uc1-dataafter}
 
-| 行銷管道 |
+| [!DNL Marketing Channel] |
 |----|
-| 自然社會 |
-| 顯示 |
-| 電子郵件 |
-| 付費搜尋 |
-| 電子郵件 |
-| 免費搜尋 |
+| [!DNL Natural Social] |
+| [!DNL Display] |
+| [!DNL Email] |
+| [!DNL Paid Search] |
+| [!DNL Email] |
+| [!DNL Natural Search] |
 
 {style="table-layout:auto"}
 
 
 ## 使用案例2 {#casewhen-uc2}
 
-您已在「產品尋找方法」維度中收集了數種不同的搜尋變異。 若要了解搜尋與瀏覽的整體效能，您必須花大量時間手動結合結果。
+您已在 [!DNL Product Finding Methods] 維度。 若要了解搜尋與瀏覽的整體效能，您必須花大量時間手動結合結果。
 
-您的網站會為您的產品尋找方法維度收集下列值。 最後，所有這些值都表示搜尋。
+您的網站會收集下列值 [!DNL Product Finding Methods] 維度。 最後，所有這些值都表示搜尋。
 
 | 收集的值 | 實際值 |
 |---|---|
-| 搜索p13n_no | 搜尋 |
-| 搜索p13n_yes | 搜尋 |
-| 搜索細化p13n_no | 搜尋 |
-| 搜索細化p13n_yes | 搜尋 |
-| 搜索重定向p13n_yes | 搜尋 |
-| search-redirect | 搜尋 |
+| [!DNL search p13n_no] | [!DNL search] |
+| [!DNL search p13n_yes] | [!DNL search] |
+| [!DNL search refine p13n_no] | [!DNL search] |
+| [!DNL search refine p13n_yes ] | [!DNL search] |
+| [!DNL search redirect p13n_yes] | [!DNL search] |
+| [!DNL search-redirect] | [!DNL search] |
 
 {style="table-layout:auto"}
 
 
 ### 資料之前 {#casewhen-uc2-databefore}
 
-| 產品尋找方法 |
+| [!DNL Product Finding Methods] |
 |----|
-| 搜索p13_no |
-| search p13_yes |
-| 瀏覽 |
-| 搜索精簡p13_no |
-| 搜索精簡p13_yes |
-| 瀏覽 |
-| 搜索重定向p13_yes |
-| search-redirect |
-| 瀏覽 |
+| [!DNL search p13_no] |
+| [!DNL search p13_yes] |
+| [!DNL browse] |
+| [!DNL search refine p13_no] |
+| [!DNL search refine p13_yes] |
+| [!DNL browse] |
+| [!DNL search redirect p13_yes] |
+| [!DNL search-redirect] |
+| [!DNL browse] |
 
 {style="table-layout:auto"}
 
 ### 衍生欄位 {#casewhen-uc2-derivedfield}
 
-您定義 `Product Finding Methods (new)` 衍生欄位。 您可建立下列項目 **[!UICONTROL **&#x200B;案例&#x200B;**]** 規則產生器中的規則。 這些規則會套用邏輯至舊的所有可能變數 **[!UICONTROL **&#x200B;產品尋找方法&#x200B;**]** 欄位值 `search` 和 `browse` 使用 **[!UICONTROL 包含片語]** 標準。
+您定義 `Product Finding Methods (new)` 衍生欄位。 您可建立下列項目 [!UICONTROL 案例] 規則產生器中的規則。 這些規則會套用邏輯至舊的所有可能變數 [!UICONTROL 產品尋找方法] 欄位值 `search` 和 `browse` 使用 [!UICONTROL 包含片語] 標準。
 
 ![[!DNL Case When] 規則2](assets/case-when-2.png)
 
 ### 之後的資料 {#casewhen-uc2-dataafter}
 
-| 產品尋找方法（新） |
+| [!DNL Product Finding Methods (new)] |
 |----|
-| 搜尋 |
-| 搜尋 |
-| 瀏覽 |
-| 搜尋 |
-| 搜尋 |
-| 瀏覽 |
-| 搜尋 |
-| 搜尋 |
-| 瀏覽 |
+| [!DNL search] |
+| [!DNL search] |
+| [!DNL browse] |
+| [!DNL search] |
+| [!DNL search] |
+| [!DNL browse] |
+| [!DNL search] |
+| [!DNL search] |
+| [!DNL browse] |
 
 {style="table-layout:auto"}
 
@@ -389,9 +396,9 @@ ht-degree: 9%
 假設：
 
 - 組織正在將行程持續時間收集到數字欄位中。
-- 他們想將1-3天的時間分段為「短途」的時段
-- 他們想要將4至7天的時間分段至「中途」的時段
-- 他們想要將8天以上的時間分段至名為「長途」的貯體
+- 他們想要將1至3天的持續時間分段至名為「[!DNL short trip]&#39;
+- 他們想要將4至7天的持續時間分段至名為「[!DNL medium trip]&#39;
+- 他們想要將8天以上的持續時間分段至名為「[!DNL long trip]&#39;
 - 132次旅行被預訂，為期1天
 - 110次旅行被預訂，為期2天
 - 105次旅行被預訂，為期3天
@@ -407,17 +414,17 @@ ht-degree: 9%
 
 您想要的報表應該看起來類似：
 
-| 行程期間類型 | 預訂 |
+| [!DNL Trip Duration Type] | [!DNL Bookings] |
 |----|---:|
-| 中程 | 358 |
-| 短途旅行 | 347 |
-| 長途旅行 | 241 |
+| [!DNL medium trip] | 358 |
+| [!DNL short trip] | 347 |
+| [!DNL long trip] | 241 |
 
 {style="table-layout:auto"}
 
 ### 資料之前 {#casewhen-uc3-databefore}
 
-| 行程期間 |
+| [!DNL Trip Duration] |
 |---:|
 | 1 |
 | 12 |
@@ -434,27 +441,27 @@ ht-degree: 9%
 
 ### 衍生欄位 {#casewhen-uc3-derivedfield}
 
-您定義 `Trip Duration (bucketed)` 衍生欄位。 您可建立下列項目 **[!UICONTROL **&#x200B;案例&#x200B;**]** 規則產生器中的規則。 此規則會套用邏輯以貯體舊 **[!UICONTROL **&#x200B;行程期間&#x200B;**]** 欄位值分為三個值： `short trip`, `medium  trip`，和 `long trip`.
+您定義 `Trip Duration (bucketed)` 衍生欄位。 您可建立下列項目 [!UICONTROL 案例] 規則產生器中的規則。 此規則會套用邏輯以貯體舊 [!UICONTROL 行程期間] 欄位值分為三個值： `short trip`, `medium  trip`，和 `long trip`.
 
 ![[!DNL Case When] 規則3](assets/case-when-3.png)
 
 
 ### 之後的資料 {#casewhen-uc3-dataafter}
 
-| 行程期間（分段） |
+| [!DNL Trip Duration (bucketed)] |
 |---|
-| 短途旅行 |
-| 長途旅行 |
-| 短途旅行 |
-| 中程 |
-| 中程 |
-| 長途旅行 |
-| 中程 |
-| 短途旅行 |
-| 短途旅行 |
-| 短途旅行 |
-| 長途旅行 |
-| 長途旅行 |
+| [!DNL short trip] |
+| [!DNL long trip] |
+| [!DNL short trip] |
+| [!DNL medium trip] |
+| [!DNL medium trip] |
+| [!DNL long trip] |
+| [!DNL medium trip] |
+| [!DNL short trip] |
+| [!DNL short trip] |
+| [!DNL short trip] |
+| [!DNL long trip] |
+| [!DNL long trip] |
 
 
 ## 限制
@@ -469,13 +476,13 @@ CJA使用下列預設容器模型：
 
 
 
-下列限制確實適用，並會在 _選取_ 和 _設定_ 值。
+下列限制確實適用，並會在 *選取* 和 *設定* 值。
 
 |  | 限制 |
 |:---:|----|
-| **<span style='color: red'>A</span>** | 您的值 _選取_ 相同 [!UICONTROL 若], [!UICONTROL 若] 建構(使用 [!UICONTROL 和] 或 [!UICONTROL 或])必須來自相同的容器，且可以是任何類型（字串） ![字串](assets/Smock_ABC_18_N.svg)，數值 ![數值](assets/Smock_123_18_N.svg)，依此類推)。 <br/>![相依性A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | 所有值 _set_ 跨規則必須來自相同的容器，且具有相同類型或相同類型的衍生值。 <br/> ![相依性B](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | 您的值 _選取_ 跨 [!UICONTROL 若], [!UICONTROL 若] 規則中的構造 _not_ 必須源自相同的容器 _not_ 必須是同一種類型。 <br/> ![依賴C](assets/dependency-c.png) |
+| **<span style='color: red'>A</span>** | 您的值 *選取* 相同 [!UICONTROL 若], [!UICONTROL 若] 建構(使用 [!UICONTROL 和] 或 [!UICONTROL 或])必須來自相同的容器，且可以是任何類型（字串） ![字串](assets/Smock_ABC_18_N.svg)，數值 ![數值](assets/Smock_123_18_N.svg)，依此類推)。 <br/>![相依性A](assets/dependency-a.png) |
+| **<span style='color: red'>B</span>** | 所有值 *set* 跨規則必須來自相同的容器，且具有相同類型或相同類型的衍生值。 <br/> ![相依性B](assets/dependency-b.png) |
+| **<span style='color: blue'>C</span>** | 您的值 *選取* 跨 [!UICONTROL 若], [!UICONTROL 若] 規則中的構造 *not* 必須源自相同的容器 *not* 必須是同一種類型。 <br/> ![依賴C](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -505,47 +512,47 @@ CJA使用下列預設容器模型：
 
 **原始報表**
 
-| 外部行銷管道 | 工作階段 |
+| [!DNL External Marketing Channels] | [!DNL Sessions] |
 |---|--:|
-| 電子郵件行銷 | 500 |
-| 電子郵件%20marketing | 24 |
+| [!DNL email marketing] | 500 |
+| [!DNL email %20marketing] | 24 |
 
 {style="table-layout:auto"}
 
 **偏好報表**
 
-| 外部行銷管道 | 工作階段 |
+| [!DNL External Marketing Channels] | [!DNL Sessions] |
 |---|--:|
-| 電子郵件行銷 | 524 |
+| [!DNL email marketing] | 524 |
 
 
 ### 資料之前 {#findreplace-uc-databefore}
 
-| 外部行銷 |
+| [!DNL External Marketing] |
 |----|
-| 電子郵件行銷 |
-| 電子郵件%20marketing |
-| 電子郵件行銷 |
-| 電子郵件行銷 |
-| 電子郵件%20marketing |
+| [!DNL email marketing] |
+| [!DNL email%20marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email%20marketing] |
 
 {style="table-layout:auto"}
 
 ### 衍生欄位 {#findreplace-uc-derivedfield}
 
-您定義 `Email Marketing (updated)` 衍生欄位。 您使用 **[!UICONTROL 查找和替換]** 函式來定義規則，以尋找和取代所有 `email%20marketing` with `email marketing`.
+您定義 `Email Marketing (updated)` 衍生欄位。 您使用 [!UICONTROL 查找和替換] 函式來定義規則，以尋找和取代所有 `email%20marketing` with `email marketing`.
 
 ![[!DNL Find and Replace] 規則](assets/find-and-replace.png)
 
 ### 之後的資料 {#findreplace-uc-dataafter}
 
-| 外部行銷<br/>（衍生欄位） |
+| [!DNL External Marketing (updated)] |
 |----|
-| 電子郵件行銷 |
-| 電子郵件行銷 |
-| 電子郵件行銷 |
-| 電子郵件行銷 |
-| 電子郵件行銷 |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
+| [!DNL email marketing] |
 
 {style="table-layout:auto"}
 
@@ -573,63 +580,63 @@ CJA使用下列預設容器模型：
 ## 使用案例1 {#lookup-uc1}
 
 您的CSV檔案中包含的索引鍵欄 `hotelID` 和與 `hotelID`: `city`, `rooms`, `hotel name`.
-您正在某個維度中收集酒店ID，但想要建立衍生自 `hotelID` 填入。
+您正在收集 [!DNL Hotel ID] ，但想要建立 [!DNL Hotel Name] 從 `hotelID` 填入。
 
 **CSV檔案結構與內容**
 
-| hotelID | city | 客房 | 酒店名稱 |
+| [!DNL hotelID] | [!DNL city] | [!DNL rooms] | [!DNL hotel name] |
 |---|---|---:|---|
-| SLC123 | 鹽湖城 | 40 | SLC Downtown |
-| LAX342 | 洛杉磯 | 60 | 洛杉磯機場 |
-| SFO456 | 舊金山 | 75 | 市場街 |
+| [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
+| [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
+| [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
 
 {style="table-layout:auto"}
 
 **目前的報表**
 
-| 酒店ID | 產品檢視 |
+| [!DNL Hotel ID] | 產品檢視 |
 |---|---:|
-| SLC123 | 200 |
-| LX342 | 198 |
-| SFO456 | 190 |
+| [!DNL SLC123] | 200 |
+| [!DNL LX342] | 198 |
+| [!DNL SFO456] | 190 |
 
 {style="table-layout:auto"}
 
 
 **所需報表**
 
-| 酒店名稱 | 產品檢視 |
+| [!DNL Hotel Name] | 產品檢視 |
 |----|----:|
-| SLC Downtown | 200 |
-| 洛杉磯機場 | 198 |
-| 市場街 | 190 |
+| [!DNL SLC Downtown] | 200 |
+| [!DNL LA Airport] | 198 |
+| [!DNL Market Street] | 190 |
 
 {style="table-layout:auto"}
 
 ### 資料之前 {#lookup-uc1-databefore}
 
-| 酒店ID |
+| [!DNL Hotel ID] |
 |----|
-| SLC123 |
-| LAX342 |
-| SFO456 |
+| [!DNL SLC123] |
+| [!DNL LAX342] |
+| [!DNL SFO456] |
 
 {style="table-layout:auto"}
 
 
 ### 衍生欄位 {#lookup-uc1-derivedfield}
 
-您定義 `Hotel Name` 衍生欄位。 您使用 **[!UICONTROL **&#x200B;查閱&#x200B;**]** 函式來定義規則，以便查詢 **[!UICONTROL **&#x200B;酒店ID **]** 欄位中取代為新值。
+您定義 `Hotel Name` 衍生欄位。 您使用 [!UICONTROL 查閱] 函式來定義規則，以便查詢 [!UICONTROL 酒店ID] 欄位中取代為新值。
 
 ![[!DNL Lookup] 規則1](assets/lookup-1.png)
 
 ### 之後的資料 {#lookup-uc1-dataafter}
 
-| 酒店名稱 |
+| [!DNL Hotel Name] |
 |----|
-| SLC Downtown |
-| 洛杉磯機場 |
-| 市場街 |
+| [!DNL SLC Downtown] |
+| [!DNL LA Airport] |
+| [!DNL Market Street] |
 
 {style="table-layout:auto"}
 
@@ -640,13 +647,13 @@ CJA使用下列預設容器模型：
 
 ### 資料之前 {#lookup-uc2-databefore}
 
-| 頁面名稱 |
+| [!DNL Page Name] |
 |---|
-| 首頁 |
-| 飛行搜索 |
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
 | `http://www.adobetravel.ca/Hotel-Search` |
 | `https://www.adobetravel.com/Package-Search` |
-| 交易與優惠方案 |
+| [!DNL Deals & Offers] |
 | `http://www.adobetravel.ca/user/reviews` |
 | `https://www.adobetravel.com.br/Generate-Quote/preview` |
 
@@ -654,21 +661,21 @@ CJA使用下列預設容器模型：
 
 ### 衍生欄位 {#lookup-uc2-derivedfield}
 
-您定義 `Page Name (updated)` 衍生欄位。 您使用 **[!UICONTROL **&#x200B;查閱&#x200B;**]** 函式來定義規則，以便在其中查詢現有 **[!UICONTROL **&#x200B;頁面名稱&#x200B;**]** 欄位，並以更新的正確值取代。
+您定義 `Page Name (updated)` 衍生欄位。 您使用 [!UICONTROL 查閱] 函式來定義規則，以便在其中查詢現有 [!UICONTROL 頁面名稱] 欄位，並以更新的正確值取代。
 
 ![[!DNL Lookup] 規則2](assets/lookup-2.png)
 
 ### 之後的資料 {#lookup-uc2-dataafter}
 
-| 頁面名稱（已更新） |
+| [!DNL Page Name (updated)] |
 |---|
-| 首頁 |
-| 飛行搜索 |
-| 搜索酒店 |
-| 套件搜尋 |
-| 交易與優惠方案 |
-| 評論 |
-| 生成報價 |
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
+| [!DNL Hotel Search] |
+| [!DNL Package Search] |
+| [!DNL Deals & Offers] |
+| [!DNL Reviews] |
+| [!DNL Generate Quote] |
 
 +++
 
@@ -695,7 +702,7 @@ CJA使用下列預設容器模型：
 
 ### 資料之前 {#urlparse-uc1-databefore}
 
-| 反向連結 URL |
+| [!DNL Referring URL] |
 |----|
 | `https://www.google.com/` |
 | `https://duckduckgo.com/` |
@@ -706,29 +713,29 @@ CJA使用下列預設容器模型：
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義  `Referring Domain` 衍生欄位。 您使用 **[!UICONTROL ** URL剖析&#x200B;**]** 函式來定義要從 **轉介URL** 並將其儲存在新的衍生欄位中。
+您定義  `Referring Domain` 衍生欄位。 您使用 [!UICONTROL URL剖析] 函式來定義要從 [!UICONTROL 轉介URL] 欄位，並將其儲存在新的衍生欄位中。
 
 ![[!DNL Url Parse] 規則1](assets/url-parse-1.png)
 
 ### 之後的資料 {#urlparse-uc1-dataafter}
 
-| 反向連結網域 |
+| [!DNL Referrer Domain] |
 |----|
-| www.google.com |
-| duckduckgo.com |
-| t.co |
-| l.facebook.com |
+| [!DNL www.google.com] |
+| [!DNL duckduckgo.com] |
+| [!DNL t.co] |
+| [!DNL l.facebook.com] |
 
 {style="table-layout:auto"}
 
 
 ## 使用案例2 {#urlparse-uc2}
 
-您想使用 `cid` 參數（作為衍生追蹤代碼報表輸出的一部分）。
+您想使用 `cid` 中查詢字串的參數 [!DNL Page URL] 作為衍生追蹤程式碼報表輸出的一部分。
 
 ### 資料之前 {#urlparse-uc2-databefore}
 
-| 頁面 URL |
+| [!DNL Page URL] |
 |----|
 | `https://www.adobe.com/?cid=abc123` |
 | `https://www.adobe.com/?em=email1234&cid=def123` |
@@ -738,17 +745,17 @@ CJA使用下列預設容器模型：
 
 ### 衍生欄位 {#urlparse-uc2-derivedfield}
 
-您定義 `Query String CID` 衍生欄位。 您使用 **[!UICONTROL ** URL剖析&#x200B;**]** 函式來定義規則，以擷取頁面URL中查詢字串參數的值，指定 `cid` 作為查詢參數。 輸出值儲存在新的派生欄位中。
+您定義 `Query String CID` 衍生欄位。 您使用 [!UICONTROL URL剖析] 函式來定義規則，以擷取 [!UICONTROL 頁面URL] 欄位，指定 `cid` 作為查詢參數。 輸出值儲存在新的派生欄位中。
 
 ![[!DNL Url Parse] 規則2](assets/url-parse-2.png)
 
 ### 之後的資料 {#urlparse-uc2-dataafter}
 
-| 查詢字串CID |
+| [!DNL Query String CID] |
 |----|
-| abc123 |
-| def123 |
-| xyz123 |
+| [!DNL abc123] |
+| [!DNL def123] |
+| [!DNL xyz123] |
 
 {style="table-layout:auto"}
 
