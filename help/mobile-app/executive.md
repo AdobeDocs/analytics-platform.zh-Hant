@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 26012a5b7332adf2b80edd8fb9f9327788443dfc
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 98%
+source-wordcount: '1267'
+ht-degree: 92%
 
 ---
 
@@ -61,9 +61,15 @@ ht-degree: 98%
 
 1. 選擇公司。 登入控制面板後，「**[!UICONTROL 選擇公司]**」的畫面會隨即顯示。 此畫面會列出您所屬的登入公司。 點選與您所共用計分卡相關聯的公司名稱。
 
-1. 接著，計分卡清單會顯示已與您共用的所有計分卡。 點選要檢視的計分卡。
+   計分卡清單會顯示與您共用的所有計分卡。
 
-   ![選擇公司](assets/nextseq.png)
+1. 點選您要檢視的計分卡。
+
+   如果您透過一次登入存取多個組織，計分卡清單中會顯示您組織中的所有計分卡。
+
+   您可以根據計分卡標題、組織名稱或最近檢視的計分卡清單排序。 您甚至可以搜尋特定計分卡。
+
+   ![選擇公司](assets/mobile-home-screen.png)
 
    如果您登入後看到未共用任何內容的訊息，請向組織者確認下列事項：
 

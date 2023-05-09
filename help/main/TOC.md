@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 4b28a3288f1659ca88353540ff8ce7cd7cd50aea
+source-git-commit: 4d21baa88c90ec24d04b802fdce1baf956eddfe3
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '883'
 ht-degree: 98%
 
 ---
@@ -257,12 +257,12 @@ ht-degree: 98%
    + [建立行動計分卡](../mobile-app/create-scorecard.md)
    + [設定使用儀表板的主管](../mobile-app/set-up-execs.md)
    + [高階主管使用者快速入門指南](../mobile-app/executive.md)
-
 + Report Builder {#cja-reportbuilder}
    + [Report Builder 概觀](../report-builder/report-buider-overview.md)
    + [Report Builder 設定](../report-builder/report-builder-setup.md)
    + [建立資料區塊](../report-builder/create-a-data-block.md)
    + [Report Builder 中心](../report-builder/report-builder-hub.md)
+   + [選取資料檢視](../report-builder/select-data-view.md)
    + [選取日期範圍](../report-builder/select-date-range.md)
    + [使用篩選器](../report-builder/work-with-filters.md)
    + [篩選器維度](../report-builder/filter-dimensions.md)
