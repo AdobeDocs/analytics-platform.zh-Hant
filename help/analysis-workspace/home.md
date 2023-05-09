@@ -5,7 +5,7 @@ description: Analysis Workspace 功能總覽
 feature: CJA Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
-source-git-commit: d2828173e802baf5dc598cef0383075e1203442a
+source-git-commit: e3c9db595b26b96c2079a770ede1bdd609f6de14
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 26%
@@ -31,7 +31,7 @@ Analysis Workspace可讓您快速建立分析，以收集深入分析，然後�
 | A | **最左側邊欄：** 包含標籤，可將面板、視覺效果和元件新增至Analysis Workspace。 也包含用來開啟資料字典的資料字典圖示。 |
 | B | **左側邊欄：** 此區域會根據左側邊欄中選取的標籤，包含個別的面板、視覺效果或元件。 |
 | C | **畫布：** 這是從左側邊欄拖動內容以構建項目的主要區域。 您新增面板、視覺效果和元件至畫布時，專案會動態更新。 |
-| D | **報表套裝下拉式功能表：** 針對Analysis Workspace中的每個面板，報表套裝下拉式功能表可讓您選擇要作為資料來源的報表套裝。 |
+| D | **資料檢視下拉式功能表：** 對於Analysis Workspace中的每個面板，資料檢視下拉式選單可讓您選擇要作為資料來源的資料檢視。 |
 
 ## Analysis Workspace功能 {#analysis}
 
