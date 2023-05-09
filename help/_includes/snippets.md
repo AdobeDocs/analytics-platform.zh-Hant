@@ -1,8 +1,8 @@
 ---
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 4662b941b90b2304402f6e2097f59ef669da7ada
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 74%
+source-wordcount: '950'
+ht-degree: 70%
 
 ---
 # 程式碼片段
@@ -56,3 +56,14 @@ ht-degree: 74%
 | [!UICONTROL **上次修改日期**] | 顯示上次修改元件的日期。檢視篩選器、量度、計算量度和日期範圍時，會顯示此區段。 |
 
 {style="table-layout:auto"}
+
+## 元件排序選項 {#components-sort-options}
+
+| 選項 | 函數 |
+|---------|----------|
+| [!UICONTROL **建議**] | 使用清單頂端建議的元件排序元件。 您或組織中其他人最常和最近使用的元件，會顯示在清單的上方。 |
+| [!UICONTROL **字母順序**] | 按字母順序對元件排序。 |
+| [!UICONTROL **類別**] | 根據元件類型（維度、量度、區段、日期範圍）排序元件。 |
+
+{style="table-layout:auto"}
+
