@@ -4,10 +4,10 @@ description: 如何使用和解讀 Analysis Workspace 中的「媒體平均每�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ Media Analytics 客戶可以使用「平均每分鐘觀眾數」面板來更了�
 在 Analysis Workspace 中，「平均每分鐘觀眾數」是指觀看您的媒體串流所花的時間除以內容的持續時間或是時段總選擇和所選的粒度。
 
 如果使用「分類」提供持續時間，則「媒體平均每分鐘觀眾數」面板會依所選的特定內容提供平均每分鐘觀眾數分析。
-「平均每分鐘觀眾數」面板也會提供在所選的時段內可依特定內容篩選的分析，無論是否使用「分類」提供持續時間。 若要存取「媒體平均每分鐘觀眾數」面板，可瀏覽至啟用 Media Analytics 元件的報表套裝。 然後，按一下最左側的面板圖示，並將面板拖放到您的 Analysis Workspace 專案中。
+「平均每分鐘觀眾數」面板也會提供在所選的時段內可依特定內容篩選的分析，無論是否使用「分類」提供持續時間。 若要存取「媒體平均每分鐘觀眾」面板，請導覽至已啟用Media Analytics元件的資料檢視。 然後，按一下最左側的面板圖示，並將面板拖放到您的 Analysis Workspace 專案中。
 
 <!-- For more information, see the Media Average Minute Audience introduction video:
 << replace with AMA video when available >> -->

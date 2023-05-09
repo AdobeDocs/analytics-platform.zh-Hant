@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: e9856269ee07b7119f75b98489b47e1f35f7cf5f
-workflow-type: ht
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 排序資料區塊清單
 
-您可依顯示的欄來排序資料區塊清單。 例如，您可以依據報表套裝、篩選條件、日期範圍和其他變數來排序資料區塊清單。
+您可依顯示的欄來排序資料區塊清單。 例如，您可以依資料檢視、篩選、日期範圍和其他變數來排序資料區塊清單。
 
 若要排序資料區塊清單，請按一下欄標題。
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 ## 搜尋資料區塊清單
 
-使用「搜尋」欄位可找出資料區塊表格中的任何資料。 例如，您可以搜尋包含在資料區塊或報表套裝中的量度。 您也可以搜尋出現在日期範圍、修改日期或上次執行日期等欄中的日期。
+使用「搜尋」欄位可找出資料區塊表格中的任何資料。 例如，您可以搜尋資料區塊或資料檢視中包含的量度。 您也可以搜尋出現在日期範圍、修改日期或上次執行日期等欄中的日期。
 
 ![影像](./assets/image55.png)
 

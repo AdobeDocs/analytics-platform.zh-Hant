@@ -1,12 +1,13 @@
 ---
-description: 管理員可使用報表套裝為元件新增說明。
+description: 管理員可以使用資料檢視來新增元件的說明。
 title: 新增元件說明
 feature: Components
 role: Admin
-source-git-commit: 5929d56bef8f756967926482f80014db0d43d3e3
+exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 17%
+source-wordcount: '168'
+ht-degree: 3%
 
 ---
 
@@ -14,11 +15,11 @@ ht-degree: 17%
 
 說明可協助使用者在Analysis Workspace中建置專案或檢視報表時，最善用各種元件。
 
-Customer Journey Analytics管理員可以在報表套裝中或直接在Analysis Workspace中使用資料字典，新增元件(Dimension、量度、篩選器和日期範圍)的說明。
+Customer Journey Analytics管理員可以在資料檢視中或直接在Analysis Workspace中使用資料字典，新增元件(Dimension、量度、篩選器和日期範圍)的說明。
 
-## 新增報表套裝中的元件描述
+## 在資料檢視中新增說明至元件
 
-以下影片會說明如何在報表套裝中新增維度和量度說明：
+以下影片說明如何在資料檢視中新增維度和量度說明：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 

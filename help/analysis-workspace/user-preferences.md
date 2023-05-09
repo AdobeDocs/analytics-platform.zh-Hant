@@ -4,7 +4,7 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 7f657820e01696aa5d9b466ea2eaa6bc417ee6cf
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '3146'
 ht-degree: 77%
@@ -55,7 +55,7 @@ ht-degree: 77%
 |  | [檢視密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hant) | 減少左側邊欄、自由表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
 |  | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | 選取 Analysis Workspace 中使用的視覺效果調色盤。 <ul><li>Adobe 提供的調色盤 (預設)</li><li>條件式格式設定調色盤 </li><li>上/下浮動調色盤 (發散)<li>自訂界定的調色盤</li></ul> |
 | **資料** |  |  |
-|  | [報告套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#report-suite) | 從表格和視覺效果衍生其資料的位置進行選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定報告套裝</li></ul> |
+|  | [資料檢視](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#report-suite) | 從表格和視覺效果衍生其資料的位置進行選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選擇的特定資料視圖</li></ul> |
 |  | [行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>自訂界定的範圍</li></ul> |
 |  | [面板類型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant) | <ul><li>自由形式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
 |  | 計算重複實例數 | 指定是否要將重複例項計入報告。例如，此設定 (啟動時) 會將多個連續頁面檢視視為同一個頁面的多次頁面檢視。關閉後，則會計為單次頁面檢視。 <p>**注意：**&#x200B;此設定只會影響特定量度 (例如單次頁面造訪次數)，不適用於「流量」或「流失」視覺效果。</p> |
@@ -82,7 +82,7 @@ ht-degree: 77%
 | **[欄](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** |  |  |
 |  | 繞排標題文字 | 讓您自由表格中的標頭文字環繞，讓標頭變得更容易閱讀，表格也更便於分享。這項設定對 PDF 的轉譯還有較長名稱的量度來說，非常實用。預設啟用。 |
 |  | 顯示總計 | 此總計通常等於[!UICONTROL 全部總量]或其一個小計。它反映的是在自由表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。 |
-|  | 顯示總計 | 此總計表示所選取的全部集合，有時候是指「報告套裝總計」。在面板層級或自由表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的點擊。具[靜態列](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總量。 |
+|  | 顯示總計 | 此總計代表已收集的所有點擊，有時稱為「資料檢視總計」。 當篩選器套用於面板層級或在自由表格內，此總計會調整以反應符合篩選條件的全部集合。具[靜態列](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總量。 |
 |  | 顯示走勢圖 | 顯示或隱藏圖表底部的折線圖。隱藏時，圖例會變更為不再以視覺化方式參照線條。 |
 |  | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果量度為「頁面檢視」，則該數值為列項目的頁面檢視數量。 |
 |  | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。例如，如果量度為「頁面檢視」，則該百分比數值為欄頁面檢視總數除以列項目的頁面檢視次數。附註：為了比例更精確，我們可以顯示超過 100% 的數值。我們也將上限提高為 1000%，以確保欄位的寬度夠大。 |

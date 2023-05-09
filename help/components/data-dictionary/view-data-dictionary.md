@@ -3,10 +3,11 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 檢視資料字典
 feature: Components
 role: User, Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 75%
+ht-degree: 63%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 75%
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. 確保在下拉選單中選取包含您要檢視的元件報告套裝。依預設情況下，會顯示您已使用的報告套裝。
+1. 確定下拉式功能表中已選取包含您要檢視之元件的資料檢視。 依預設，會顯示您已在中的資料檢視。
 
 1. (可選) 在搜尋欄位中開始鍵入要檢視的元件名稱。
 

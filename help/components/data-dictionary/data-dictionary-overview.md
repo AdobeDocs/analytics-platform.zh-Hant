@@ -3,10 +3,11 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 資料字典概觀
 feature: Components
 role: User, Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '534'
-ht-degree: 90%
+ht-degree: 81%
 
 ---
 
@@ -44,11 +45,11 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 * 識別尚未核准的元件。
 
-* 直接在 Analysis Workspace 中更新元件說明。對資料字典中元件說明所做的任何更新都會反映在報告套裝中。
+* 直接在 Analysis Workspace 中更新元件說明。資料字典中對元件說明所做的任何更新都會反映在資料檢視中。
 
-   同樣地，對報告套件中元件說明所做的任何更新都會反映在 Analysis Workspace 中。
+   同樣地，資料檢視中對元件說明所做的任何更新都會反映在Analysis Workspace中。
 
-   如需有關在 Analysis Workspace 或報告套件中新增元件說明的更多資訊，請參閱[新增元件說明](/help/components/add-component-descriptions.md)。
+   如需在Analysis Workspace或資料檢視中新增元件說明的詳細資訊，請參閱 [新增元件說明](/help/components/add-component-descriptions.md).
 
 ## 存取資料字典
 

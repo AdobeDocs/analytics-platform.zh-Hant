@@ -3,16 +3,17 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 編輯資料字典中的條目
 feature: Components
 role: Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 70%
+ht-degree: 58%
 
 ---
 
 # 編輯資料字典中的元件條目
 
-Customer Journey Analytics管理員可以編輯指定報表套裝之資料字典中的元件項目。 報告套裝的所有使用者都可以看到所做的任何變更。
+Customer Journey Analytics管理員可以編輯指定資料檢視的資料字典中的元件項目。 所有資料檢視的使用者皆可看到所做的任何變更。
 
 若要編輯資料字典中的元件條目：
 
@@ -24,7 +25,7 @@ Customer Journey Analytics管理員可以編輯指定報表套裝之資料字典
 
    ![資料字典管理員檢視](assets/data-dictionary-admin.png)
 
-1. 確定在下拉選單中選取正確的報告套裝。依預設情況下，會顯示您已使用的報告套裝。
+1. 請確定下拉式功能表中已選取正確的資料檢視。 依預設，會顯示您已在中的資料檢視。
 
 1. (可選) 開始在搜尋欄位中鍵入要編輯的元件名稱。
 

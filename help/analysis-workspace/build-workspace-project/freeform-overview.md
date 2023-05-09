@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 專案概觀
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: c378a7d39c3d2ae388bc3cf2fa1bbc693b0bccb3
+source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
 workflow-type: tm+mt
 source-wordcount: '1333'
 ht-degree: 80%
@@ -40,8 +40,8 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 | 類型 | 指出這是工作區專案、資料夾或 [行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hant). |
 | 標記 | 已套用到專案中的標籤。 |
 | 已排程 | 指出是否排程將專案以電子郵件傳送給排程中的收件者。 請參閱 [排程專案](/help/analysis-workspace/curate-share/t-schedule-report.md). |
-| 共用連結（任何人） | 專案可以與任何人共用，即使是無法存取Analysis Workspace的使用者。 此欄會顯示專案是否已以此方式共用。 請參閱 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md) 以取得更多資訊。 |
-| 報表套裝 | 與專案相關聯的報表套裝。 |
+| 共用連結 (任何人) | 專案可以與任何人共用，即使是無法存取Analysis Workspace的使用者。 此欄會顯示專案是否已以此方式共用。 請參閱 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md) 以取得更多資訊。 |
+| 資料檢視 | 與項目關聯的資料視圖。 |
 | [專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) | 指示您在專案中的角色 - 所有者、編輯、複製、檢視。 |
 | 所有者 | 建立此專案的人 (您或與您共用專案的人)。 |
 | 共用對象 | 已與專案共用的使用者。 |

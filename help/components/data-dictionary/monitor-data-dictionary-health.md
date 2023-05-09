@@ -3,10 +3,11 @@ description: 管理員負責監控資料字典的健康狀況。這包括元件�
 title: 監視資料字典健康狀況
 feature: Components
 role: Admin
-source-git-commit: 733e0e358aa34ce126687f01ffb6d89f9b0c4210
+exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
+source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
@@ -38,7 +39,7 @@ Customer Journey Analytics管理員負責維護正常的資料字典。
 
    ![資料字典管理員檢視](assets/data-dictionary-admin.png)
 
-1. 確定在下拉選單中選取正確的報告套裝。
+1. 請確定下拉式功能表中已選取正確的資料檢視。
 
 1. 在 [!UICONTROL **字典健康**] 標籤上選擇以下任一選項旁邊的 [!UICONTROL **檢視**]：
 
