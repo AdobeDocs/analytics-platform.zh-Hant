@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 視覺效果概觀
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 19d18d497857442c141fda49cdcf1fbe71e9c07f
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 99%
+source-wordcount: '1245'
+ht-degree: 90%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 99%
 
 Workspace 提供許多視覺效果，可產生資料的視覺化表示法，例如橫條圖、環圈圖、長條圖、折線圖、地圖、散點圖等。如果您使用 Customer Journey Analytics，多數視覺效果都是您所熟悉的類型。 不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
-您可以從 Workspace 左上角圖示、[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)，或透過工作流程中的按一下右鍵功能表來存取視覺效果。
-
-![視覺效果邊欄](assets/viz-rail.png)
+## 視覺效果類型
 
 Analysis Workspace 中有以下視覺效果類型：
 
@@ -40,6 +38,26 @@ Analysis Workspace 中有以下視覺效果類型：
 | [Text](/help/analysis-workspace/visualizations/text.md) | 可讓您將使用者定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
 | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md) | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
 | [Venn](/help/analysis-workspace/visualizations/venn.md) | 使用圓圈描繪最多 3 個篩選器的量度重疊。 |
+
+## 新增視覺效果至面板
+
+1. 開啟您要新增視覺效果的Analysis Workspace專案。
+
+1. 使用下列任一方法來新增視覺效果：
+
+   * 在左側邊欄中，選取 **視覺效果** 圖示 <!-- add icon -->，然後將視覺效果拖曳至您要新增的面板。
+
+      ![](assets/viz-rail.png)
+
+   * 在您要新增視覺效果的面板上，選取 **加號** 圖示，然後選擇代表您要新增之視覺效果的圖示。 將滑鼠指標暫留在每個視覺效果的圖示上，即可查看其名稱。
+
+      ![新增視覺效果的按鈕](assets/visualization-add-to-panel.png)
+
+   * 新增 [空白麵板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，然後選擇您要新增的視覺效果。
+
+      ![空白面板](assets/blank_panel.png)
+
+   * 以滑鼠右鍵按一下Analysis Workspace專案中的現有面板，然後選取 [!UICONTROL **複製視覺效果**] 或 [!UICONTROL **複製視覺效果**].
 
 ## 自訂視覺效果設定
 
