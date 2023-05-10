@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5e3c85daebd996eced70ff0aaba7f381783b7fe2
+source-git-commit: c262b7d4ad69821880b2822b891ea081cf06b66b
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 90%
+source-wordcount: '1854'
+ht-degree: 84%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 90%
 | **2023 年 5 月** |  |
 | Analysis Workspace 總覽 | 已更新 [Analysis Workspace概述](/help/analysis-workspace/home.md) 包括更一般的概述資訊和相關內容的連結。 |
 | 建立專案 | 建立新文章，詳細說明如何 [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md) 在Analysis Workspace。 |
+| 在左側邊欄中排序元件 | 新增關於排序左側邊欄中元件清單的資訊。請參閱 [元件概觀](/help/components/overview.md). |
+| 從自由表格中刪除包含動態維度的列 | 已新增有關如何使用x圖示快速刪除包含動態維度之特定列的資訊。 請參閱「從表格快速排除特定列」一節，位於 [篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| 在面板中新增視覺效果的按鈕 | 已新增Analysis Workspace中每個面板底部新按鈕的相關資訊，可讓您快速新增視覺效果。 請參閱「將視覺效果新增至面板」一節，位於 [視覺效果概述](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **2023 年 4 月** |  |
 | 關於將篩選器用作維度的影片 | 更新將篩選器作為維度的影片。 <p>此影片會從 [建立篩選器](/help/components/filters/create-filters.md) 頁面。</p> <p>以下是視訊的直接連結： [在Analysis Workspace中將篩選器當成維度使用](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
 | 篩選檔案 | 新增有關使用 [篩選產生器](/help/components/filters/filter-builder.md). <p>簡化中的檔案 [建立篩選器](/help/components/filters/create-filters.md) 和 [篩選器概觀](/help/components/filters/filters-overview.md).</p> |
