@@ -3,9 +3,9 @@ description: 了解如何在Analysis Workspace中建立專案
 title: 建立專案
 feature: CJA Workspace Basics
 role: User, Admin
-source-git-commit: 1c5f0a618e2e95df68ba5598948488b16c9532e6
+source-git-commit: 21c52833a84f352610bacce58f5748d12792b20b
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '578'
 ht-degree: 3%
 
 ---
@@ -22,30 +22,14 @@ ht-degree: 3%
 
 1. 在Adobe Analytics中，選取 [!UICONTROL **工作區**].
 
-1. 選擇要建立空白專案，還是要從範本建立專案：
+1. 在 [!UICONTROL **工作區**] 頁簽，選擇 [!UICONTROL **專案**] 標籤，然後選取 [!UICONTROL **建立專案**].
 
-   +++建立空白專案
+1. 選擇要建立空白專案還是要建立空白行動計分卡
 
-   1. 在 [!UICONTROL **工作區**] 頁簽，選擇 [!UICONTROL **專案**] 標籤，然後選取 [!UICONTROL **建立專案**].
+   * **空白專案** 如果您打算從瀏覽器共用分析
+   * [**空白行動計分卡**](/help/mobile-app/curator.md) 如果您打算從Adobe Analytics控制面板行動應用程式共用分析。
 
-   1. 選擇要建立空白專案還是要建立空白行動計分卡
-
-      * **空白專案** 如果您打算從瀏覽器共用分析
-      * [**空白行動計分卡**](/help/mobile-app/curator.md) 如果您打算從Adobe Analytics控制面板行動應用程式共用分析。
-   1. 選擇 [!UICONTROL **建立**]。
-
-+++
-
-   +++從範本建立專案
-
-   1. 在 [!UICONTROL **工作區**] 頁簽，選擇 [!UICONTROL **報表**] 標籤。
-
-   1. 搜尋或導覽至您要使用的範本，然後在範本出現時加以選取。
-
-      預設提供一組標準範本。 此外，您的組織可能已建立自訂範本供您選擇。
-
-      <!-- (I don't know if you can create a project from a template in CJA... Might need to delete this section. Also update table in "Projects overview") For more information, see [Get started with Reports & Analytics](/help/analyze/reports-analytics/getting-started.md). -->
-+++
+1. 選擇 [!UICONTROL **建立**]。
 
 1. 接下來，您需要將面板、視覺效果和元件新增至專案。 首先，將面板新增至您在Analysis Workspace中的專案，如 [新增面板至專案](#add-panels-to-the-project). 然後，您可以將視覺效果新增至任何面板。 最後，您可以將元件新增至任何面板或視覺效果。
 

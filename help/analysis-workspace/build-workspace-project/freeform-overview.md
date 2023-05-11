@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 專案概觀
 feature: CJA Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 21c52833a84f352610bacce58f5748d12792b20b
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 80%
+source-wordcount: '1317'
+ht-degree: 79%
 
 ---
 
@@ -27,12 +27,11 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 >
 >某些欄預設不會顯示。 若要自訂您看到的欄，請按一下 **自訂表格** 圖示 ![自訂表格](assets/projects-page-customize-columns-icon.png).
 
-
 | 元素 | 說明 |
 |---|---|
 | [編輯偏好設定](/help/analysis-workspace/user-preferences.md) | 管理您建立之所有新專案或面板的Analysis Workspace及其相關元件的設定。 |
 | [建立資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 將新資料夾或子資料夾添加到項目和資料夾清單中。 |
-| [建立專案](/help/analysis-workspace/home.md) | 從草稿開始或從 [範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
+| [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md) | 從頭開始新項目。 |
 | 顯示更多 | 顯示建立空白專案或行動計分卡的選項， [查看培訓教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=zh-Hant)，或 [檢視發行說明](/help/release-notes/latest.md). |
 | 顯示資料夾和項目 | 選擇是否顯示項目的資料夾結構。 如需詳細資訊，請參閱[關於 Analytics 資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。 |
 | 自訂表格（圖示） | 可讓您自訂「專案」頁面上每個專案顯示的資訊。 |
@@ -60,7 +59,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 | 功能表項目 | 說明 |
 |---|---|
-| 專案 | 包含專案管理的常見操作，例如新增、開啟、儲存、另存新檔和另存範本等。 您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。「[下載 CSV 和 PDF](/help/analysis-workspace/curate-share/download-send.md)」選項可讓您從 Workspace 匯出資料。「**專案資訊和設定** (請參閱下圖) 提供管理專案的多個選項。 |
+| 專案 | 包括項目管理的常見操作，包括「新建」、「開啟」、「保存」和「另存為」。 您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。「[下載 CSV 和 PDF](/help/analysis-workspace/curate-share/download-send.md)」選項可讓您從 Workspace 匯出資料。「**專案資訊和設定** (請參閱下圖) 提供管理專案的多個選項。 |
 | 編輯 | 還原或重做您的上一個操作。「全部清除」會將您的專案重設為空白起點。 |
 | 插入 | 從此功能表插入新面板或視覺效果。您也可以從左側欄插入新面板和視覺效果。 |
 | [元件](/help/components/overview.md) | 從您的專案建立新篩選器、計算量度、日期範圍或警報元件。 您也可以從左側欄建立新元件。如果您的元件定義在最近有了變更，「重新整理元件」將會擷取最新的定義。 |
