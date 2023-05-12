@@ -4,10 +4,10 @@ description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Wo
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 20ea211fff816b8b5e99d3d6ef3cb4ba4d0fd6a9
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -36,8 +36,7 @@ Customer Journey Analytics 提供簡單易用的跨頻道功能，並移除舊�
 >
 >如果您一直在使用 Adobe Analytics 並希望在 Customer Journey Analytics 中使用您的 Adobe Analytics 資料，請參閱[從傳統 Adobe Analytics 擷取和使用資料](../data-ingestion/analytics.md)快速入門指南，其為[資料擷取](../data-ingestion/data-ingestion.md)章節的一部分。
 
-
-Customer Journey Analytics 的初始版本包含 Analysis Workspace 中的多項功能。如需完整清單，請參閱 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。
+Customer Journey Analytics的初始發行包含Adobe Analytics中的許多功能。 如需完整清單，請參閱 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。
 
 ## 主要使用案例
 
