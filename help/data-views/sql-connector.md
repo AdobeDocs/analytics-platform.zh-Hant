@@ -6,9 +6,9 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 4205995fdc54e4d7626f17de79573751a5c63d26
+source-git-commit: 5b84c2c908f947b1abed621f68aa1a324faeecde
 workflow-type: tm+mt
-source-wordcount: '2879'
+source-wordcount: '2890'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,9 @@ Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs
    - CJA工作區專案和
    - CJA資料檢視他們想使用。
 
-- 對未到期的憑證使用到期前連結，將BI工具連接至CJA SQL Connector。 請參閱 [認證指南](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) 有關設定即將到期的憑據或未到期的憑據的詳細資訊。
+- 對未到期的憑證使用到期前連結，將BI工具連接至CJA SQL Connector。 Thr [認證指南](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en) 提供有關設定即將到期的憑據或未到期憑據的詳細資訊。
+
+請參閱 [存取控制](../admin/cja-access-control.md) （位於「CJA管理」區段），以取得詳細資訊。
 
 
 ## 使用狀況
