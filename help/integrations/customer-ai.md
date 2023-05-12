@@ -4,11 +4,9 @@ title: 將 Customer AI 資料與 CJA 整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-hide: true
-hide-from-toc: true
-source-git-commit: adfc2500cfc3811e7ef2798c3a0ee3e9b3425208
+source-git-commit: b56dd36d85cd34179166ad9a6bc45f3f641e9697
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '955'
 ht-degree: 70%
 
 ---
@@ -26,7 +24,7 @@ Customer AI 需要使用個別行為資料和個人資料來處理傾向分數�
 Customer AI可與Customer Journey Analytics(CJA)整合，以至於可在CJA的資料檢視和報表中運用啟用Customer AI的資料集。 您可以：
 
 * **追蹤使用者區段不同時期的傾向分數**。 
-   * 使用案例：了解特定區段中客戶轉換的可能性。
+   * 使用案例：了解特定區段中的客戶轉換的可能性。
    * 範例：連鎖酒店的行銷人員想要了解酒店客戶在酒店音樂廳購買展示票的可能性。
 * **分析哪些成功事件或屬性與傾向分數相關聯**.
    * 使用案例：了解與傾向分數相關聯的屬性或成功事件。
@@ -38,7 +36,7 @@ Customer AI可與Customer Journey Analytics(CJA)整合，以至於可在CJA的�
    * 使用案例：了解傾向分數的分佈，以便在定義區段時更精確。
    * 範例：零售商想要以$50的優惠價執行特定促銷。 由於預算等因素，他們只能進行有限度的促銷活動。 他們分析資料，並決定只鎖定80%以上的客戶。
 * **檢視特定同類群組在不同時期完成某項動作的傾向性**。 
-   * 使用案例：追蹤特定同類群組。
+   * 使用案例：追蹤特定同類群組一段時間。
    * 範例：一家連鎖酒店的營銷人員希望跟蹤他們的青銅級和銀級，或銀級和金級。 因此，他們可以看到每個同類群組隨著時間預訂酒店的傾向。
 
 若要實際整合Customer AI資料與CJA，請遵循下列步驟：
