@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c262b7d4ad69821880b2822b891ea081cf06b66b
+source-git-commit: a546c52d2a686c38f7a9a23e0c541568c2918495
 workflow-type: tm+mt
-source-wordcount: '1854'
-ht-degree: 84%
+source-wordcount: '1868'
+ht-degree: 93%
 
 ---
 
@@ -20,18 +20,19 @@ ht-degree: 84%
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 5 月** |  |
-| Analysis Workspace 總覽 | 已更新 [Analysis Workspace概述](/help/analysis-workspace/home.md) 包括更一般的概述資訊和相關內容的連結。 |
-| 建立專案 | 建立新文章，詳細說明如何 [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md) 在Analysis Workspace。 |
+| Analysis Workspace 總覽 | 更新[Analysis Workspace 概觀](/help/analysis-workspace/home.md)以包含更多一般概觀資訊和相關內容的連結。 |
+| 建立專案 | 建立新文章，其中詳細說明如何在 Analysis Workspace [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)。 |
 | 在左側邊欄中排序元件 | 新增關於排序左側邊欄中元件清單的資訊。請參閱 [元件概觀](/help/components/overview.md). |
-| 從自由表格中刪除包含動態維度的列 | 已新增有關如何使用x圖示快速刪除包含動態維度之特定列的資訊。 請參閱「從表格快速排除特定列」一節，位於 [篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| 從自由格式表格中刪除包含動態維度的列 | 已新增有關如何使用x圖示快速刪除包含動態維度之特定列的資訊。 請參閱「從表格快速排除特定列」一節，位於 [篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | 在面板中新增視覺效果的按鈕 | 已新增Analysis Workspace中每個面板底部新按鈕的相關資訊，可讓您快速新增視覺效果。 請參閱「將視覺效果新增至面板」一節，位於 [視覺效果概述](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| 智慧字幕檔案 | 讓使用者透過 [自然語言摘要](/help/analysis-workspace/visualizations/intelligent-captions.md) 線條視覺效果。 |
 | **2023 年 4 月** |  |
-| 關於將篩選器用作維度的影片 | 更新將篩選器作為維度的影片。 <p>此影片會從 [建立篩選器](/help/components/filters/create-filters.md) 頁面。</p> <p>以下是視訊的直接連結： [在Analysis Workspace中將篩選器當成維度使用](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html).</p> |
-| 篩選檔案 | 新增有關使用 [篩選產生器](/help/components/filters/filter-builder.md). <p>簡化中的檔案 [建立篩選器](/help/components/filters/create-filters.md) 和 [篩選器概觀](/help/components/filters/filters-overview.md).</p> |
-| 更新至實驗面板檔案 | 新增區段至 [解譯非隨機維度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized). |
-| 專案篩選器（隨選和快速篩選） | 簡化專案篩選和移除重複資訊的檔案。 建立臨機篩選的步驟現已與 [建立快速篩選器](/help/components/filters/quick-filters.md). |
+| 關於使用篩選器做為維度的影片 | 更新關於使用篩選器做為維度的影片 <p>該影片連結自「[建立篩選器](/help/components/filters/create-filters.md)」頁面。</p> <p>以下是影片的直接連結：[在 Analysis Workspace 中使用篩選器做為維度](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)。</p> |
+| 篩選器文件 | 新增說明如何使用[篩選器產生器](/help/components/filters/filter-builder.md)的文章。 <p>簡化了[建立篩選器](/help/components/filters/create-filters.md)和[篩選器概觀](/help/components/filters/filters-overview.md)文件。</p> |
+| 實驗面板文件更新 | 新增有關[解釋非隨機維度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#non-randomized)的章節。 |
+| 專案篩選器 (臨時和快速篩選器) | 簡化了專案篩選器文件，並刪除重複資訊。建立臨時篩選器的步驟現在已經和[建立快速篩選器](/help/components/filters/quick-filters.md)的步驟相結合。 |
 | **2023 年 3 月** |  |
-| 整合決策管理資料 | 已新增內容，說明如何 [將Adobe Journey Optimizer決策管理資料整合至CJA](/help/integrations/ajo-od.md). |
+| 整合決策管理資料 | 新增內容，其中說明如何[在 CJA 中整合 Adobe Journey Optimizer 決策管理資料](/help/integrations/ajo-od.md)。 |
 | 在行動計分卡中建立資料故事 | [資料故事](/help/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |
 | 更新功能支援 | 更新 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)，含 CJA 中可用但 AA 中不可用或不支援的功能表。 |
 | 預設計算量度 | 已新增說明 [Adobe 提供的預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)的內容。 |
