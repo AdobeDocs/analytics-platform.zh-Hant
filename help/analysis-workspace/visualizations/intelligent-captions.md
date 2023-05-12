@@ -1,21 +1,21 @@
 ---
 description: 使用智慧型字幕產生自然語言的深入分析，以快速呈現視覺效果中的趨勢。
-title: 智慧型字幕
+title: 智慧型註解
 feature: Visualizations
 role: User, Admin
-source-git-commit: c613c313ae2c9c6786370c46fa0a86134014e754
+source-git-commit: 9ce948e4a8dd7fdf844016ad197d9d125eb6ef6a
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: '384'
+ht-degree: 1%
 
 ---
 
 
-# 智慧型字幕
+# 智慧型註解
 
 {{release-limited-testing}}
 
-智慧型字幕使用資料科學，為工作區視覺化提供寶貴的自然語言見解。 初始發行提供自動產生的深入分析，適用於 [折線圖](line.md) 視覺效果。 （其他視覺效果將隨後顯示。）
+智慧型字幕使用進階的機器學習和創成式AI，為工作區視覺化提供寶貴的自然語言見解。 初始發行提供自動產生的深入分析，適用於 [折線圖](line.md) 視覺效果。 （其他視覺效果將隨後顯示。）
 
 智慧字幕面向：
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![啟動智慧型字幕](assets/intell-caps-1.png)
 
-自然語言的洞察現在正在產生。
+自然語言的洞察現在正在產生。 每次在支援視覺效果的表格中，底層選取的資料變更時，都會產生註解。 此外，如果表格中有多個量度，則只會為使用者目前選取的第一個量度或量度產生標題。
 
 如果此時保存項目，稍後重新載入，則字幕將自動用新資料更新。 從此專案匯出的已排程專案和PDF檔案也是一樣。
 
@@ -65,7 +65,3 @@ ht-degree: 0%
 如果您不想產生智慧型字幕，可前往「視覺效果」偏好設定並取消勾選，以關閉此功能 **[!UICONTROL 顯示智慧字幕]**.
 
 ![字幕設定](assets/toggle-captions.png)
-
-## 重新排序字幕 {#reorder}
-
-通過將字幕拖到新位置，可以重新排序字幕的顯示方式。

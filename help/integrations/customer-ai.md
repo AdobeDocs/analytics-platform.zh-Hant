@@ -4,9 +4,9 @@ title: 將 Customer AI 資料與 CJA 整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-source-git-commit: b56dd36d85cd34179166ad9a6bc45f3f641e9697
+source-git-commit: 9ce948e4a8dd7fdf844016ad197d9d125eb6ef6a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '951'
 ht-degree: 70%
 
 ---
@@ -37,7 +37,7 @@ Customer AI可與Customer Journey Analytics(CJA)整合，以至於可在CJA的�
    * 範例：零售商想要以$50的優惠價執行特定促銷。 由於預算等因素，他們只能進行有限度的促銷活動。 他們分析資料，並決定只鎖定80%以上的客戶。
 * **檢視特定同類群組在不同時期完成某項動作的傾向性**。 
    * 使用案例：追蹤特定同類群組一段時間。
-   * 範例：一家連鎖酒店的營銷人員希望跟蹤他們的青銅級和銀級，或銀級和金級。 因此，他們可以看到每個同類群組隨著時間預訂酒店的傾向。
+   * 範例：一家連鎖酒店的營銷人員希望跟蹤他們的青銅級和銀級，或銀級和金級。 他們可以看到每個同類群組在一段時間內預訂酒店的傾向。
 
 若要實際整合Customer AI資料與CJA，請遵循下列步驟：
 
