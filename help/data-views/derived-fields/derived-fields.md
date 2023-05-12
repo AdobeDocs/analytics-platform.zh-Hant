@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: cb63cd52a1618f2e1048f2779c4e6c0317e94f64
+source-git-commit: daa2c69a61e80fb0e38f06ecca248658595b2c3a
 workflow-type: tm+mt
-source-wordcount: '3003'
+source-wordcount: '2987'
 ht-degree: 8%
 
 ---
@@ -18,11 +18,6 @@ ht-degree: 8%
 # 衍生欄位
 
 {{release-limited-testing}}
-
->[!NOTE]
->
->待定的最終更新，您可能會看到 [!UICONTROL 自訂欄位] 而非 [!UICONTROL 衍生欄位] 跨使用者介面。
-
 
 衍生欄位是Customer Journey Analytics(CJA)中即時報表功能的重要一環。 衍生欄位可讓您透過可自訂的規則產生器，即時定義（通常是複雜的）資料處理。 接著，您就可以將該衍生欄位用作 [工作區](../../analysis-workspace/home.md) 或甚至進一步將衍生欄位定義為 [資料檢視](../data-views.md).
 
