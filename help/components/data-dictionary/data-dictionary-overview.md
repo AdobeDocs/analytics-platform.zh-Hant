@@ -4,7 +4,7 @@ title: 資料字典概觀
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: 9f1a96308fce7fb827cba43833df96098f05ef93
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 81%
@@ -16,6 +16,8 @@ ht-degree: 81%
 Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤並深入了解在其 Analytics 環境中的元件。
 
 Analytics 管理員負責整理關於資料字典中每個元件的資訊，並將其提供給使用者。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
 
 ## 對使用者的好處
 
