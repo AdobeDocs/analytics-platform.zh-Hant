@@ -3,7 +3,7 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新 CJA 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 7e6383bf94e10f6ab6f9db990f4ef3df0fb826d3
+source-git-commit: 868eaa6c35b2b15449dcc70bc7521d78f8e95e35
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 85%
@@ -12,7 +12,7 @@ ht-degree: 85%
 
 # 目前的 Customer Journey Analytics (CJA) 發行說明 (2023 年 5 月)
 
-**上次更新日期**：2023 年 5 月 8 日
+**上次更新日期**：2023 年 5 月 17 日
 
 Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
