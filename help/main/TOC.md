@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 7e6383bf94e10f6ab6f9db990f4ef3df0fb826d3
+source-git-commit: 970f93737f35a84c0e28061d2c6a8215c8b070ec
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '888'
 ht-degree: 98%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 98%
       + [子字串](../data-views/component-settings/substring.md)
       + [值分組](../data-views/component-settings/value-bucketing.md)
    + [標準元件參考](../data-views/component-reference.md)
-   + [SQL Connector](../data-views/sql-connector.md)
+   + [SQL連接器](../data-views/sql-connector.md)
    + [衍生欄位](../data-views/derived-fields/derived-fields.md)
    + [標籤和原則](../data-views/data-governance.md)
 
@@ -177,7 +177,6 @@ ht-degree: 98%
 
    + 工作區常見問題 {#workspace-faq}
       + [常見問題](../analysis-workspace/workspace-faq/faq.md)
-      + [最佳化 Analysis Workspace 效能](../analysis-workspace/workspace-faq/optimizing-performance.md)
       + [錯誤訊息](../analysis-workspace/workspace-faq/error-messages.md)
       + [Analysis Workspace 限制](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理需求](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
@@ -197,6 +196,7 @@ ht-degree: 98%
 + 元件 {#cja-components}
    + [元件總覽](../components/overview.md)
    + [新增元件說明](../components/add-component-descriptions.md)
+
    + 註解 {#annotations}
       + [註解概述](../components/annotations/overview.md)
       + [建立註解](../components/annotations/create-annotations.md)
@@ -213,11 +213,12 @@ ht-degree: 98%
       + [時間分隔維度](../components/dimensions/time-parting-dimensions.md)
       + [基數很高的維度](../components/dimensions/high-cardinality.md)
    + [量度](../components/apply-create-metrics.md)
+
    + 篩選 {#cja-filters}
       + [篩選總覽](../components/filters/filters-overview.md)
       + [建立篩選器](../components/filters/create-filters.md)
       + [快速篩選](../components/filters/quick-filters.md)
-      + [篩選產生器](../components/filters/filter-builder.md)
+      + [篩選器生成器](../components/filters/filter-builder.md)
       + [管理篩選](../components/filters/manage-filters.md)
       + [運算子](../components/filters/operators.md)
    + 計算量度 {#cja-calcmetrics}
@@ -252,18 +253,26 @@ ht-degree: 98%
       + [檢視資料字典中的元件資訊](../components/data-dictionary/view-data-dictionary.md)
       + [編輯資料字典中的元件條目](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [監視資料字典健康狀況](../components/data-dictionary/monitor-data-dictionary-health.md)
+
+
+
+
+
+
+
 + Analytics 儀表板 {#cja-dashboards}
    + [Analytics 儀表板 - 總覽](../mobile-app/home.md)
    + [組織者任務](../mobile-app/curator.md)
    + [建立行動計分卡](../mobile-app/create-scorecard.md)
    + [設定使用儀表板的主管](../mobile-app/set-up-execs.md)
    + [高階主管使用者快速入門指南](../mobile-app/executive.md)
+
 + Report Builder {#cja-reportbuilder}
    + [Report Builder 概觀](../report-builder/report-buider-overview.md)
    + [Report Builder 設定](../report-builder/report-builder-setup.md)
    + [建立資料區塊](../report-builder/create-a-data-block.md)
    + [Report Builder 中心](../report-builder/report-builder-hub.md)
-   + [選取資料檢視](../report-builder/select-data-view.md)
+   + [選擇資料視圖](../report-builder/select-data-view.md)
    + [選取日期範圍](../report-builder/select-date-range.md)
    + [使用篩選器](../report-builder/work-with-filters.md)
    + [篩選器維度](../report-builder/filter-dimensions.md)
@@ -291,6 +300,7 @@ ht-degree: 98%
 
 + 使用案例 {#cja-usecases}
    + [Customer Journey Analytics 使用案例](../use-cases/cja-usecases.md)
+
    + Google Analytics 資料 {#ga}
       + [將資料從 Google Analytics 移轉到 CJA 概述](../use-cases/ga/overview.md)
       + [將 Google Analytics 歷史資料擷取至 Platform](../use-cases/ga/backfill.md)
@@ -313,11 +323,16 @@ ht-degree: 98%
    + 複雜的資料 {#complex-data}
       + [使用物件陣列](../use-cases/object-arrays.md)
 
+
+
+
+
+
 + 管理 {#cja-admin}
    + [存取控制](../admin/cja-access-control.md)
    + [檢視和管理使用情況](../admin/estimate-usage.md)
    + [刪除關聯](../admin/cja-deletion.md)
-   + [最佳化CJA效能](../admin/cja-performance.md)
+   + [優化CJA效能](../admin/optimizing-performance.md)
 
 + Labs {#labs}
    + [Labs 使用手冊](../labs/labs.md)
