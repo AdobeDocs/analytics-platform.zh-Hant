@@ -2,10 +2,10 @@
 title: AAID、ECID、AACUSTOMID 和 Analytics 來源連接器
 description: 瞭解 Analytics 來源連接器如何處理 Adobe Analytics 身分識別欄位。
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
-source-git-commit: a8f8d14eb854029d6245932a321cf08dfb3cd7e3
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Analytics 資料包含多個身分識別欄位。 [Analytics 來源連接�
 
 Adobe Analytics ID (AAID) 是 Adobe Analytics 中的主要裝置識別碼，並且保證存在於透過 Analytics 來源連接器傳遞的每個事件中。 AAID 有時稱為「舊版分析 ID」或 `s_vi`Cookie ID。但是，即使 `s_vi`Cookie 不存在，也會建立 AAID。AAID 由 [Adobe Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant#columns%2C-descriptions%2C-and-data-types)中的 `post_visid_high/post_visid_low` 資料行表示。
 
-在 Analytics 來源連接器中，AAID 將轉換為 `HEX(post_visid_high) + "-" + HEX(post_visid_low)`。 指定事件的 AAID 欄位包含單一身分識別，該身分識別可能是 [Analytics ID 作業順序](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=zh-Hant%5B%5D)中所述的幾種類型之一。 (在整個報告套裝中，AAID 可能包含跨事件的多種類型。 每個點擊的類型都顯示在 Analytics 資料摘要的 `post_visid_type` 資料行中。) 另請參閱：[資料資料行參照](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)。
+在 Analytics 來源連接器中，AAID 將轉換為 `HEX(post_visid_high) + "-" + HEX(post_visid_low)`。 指定事件的 AAID 欄位包含單一身分識別，該身分識別可能是 [Analytics ID 作業順序](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=zh-Hant%5B%5D)中所述的幾種類型之一。 (在整個報告套裝中，AAID 可能包含跨事件的多種類型。 每個事件的類型在 `post_visid_type` 分析資料源中的列。) 另請參閱：[資料資料行參照](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)。
 
 ## ECID
 

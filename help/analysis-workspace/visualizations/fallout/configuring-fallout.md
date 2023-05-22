@@ -3,10 +3,10 @@ description: 了解如何指定接觸點來建立多維度流失序列。
 title: 設定流失視覺效果
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 對於可新增的步驟數或是可使用的維度數並沒有限制。
 
-您可對 eVar 進行路徑分析，包括銷售 eVar 和 [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=zh-Hant) (可在每個點擊擁有多個值的變數，例如產品、listVar、銷售 eVar 和清單屬性)。舉例來說，假設某人正在同一頁面上查看鞋子和上衣，而在下一頁改為查看上衣和襪子。來自鞋子的下一個產品流量報表會是上衣和襪子，「而非」上衣。
+您可以為eVars指定路徑，包括銷售電子Vars和 [清單變數](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=zh-Hant) （每個事件可具有多個值的變數，如產品、listVars、商品銷售eVars和清單道具）。 舉例來說，假設某人正在同一頁面上查看鞋子和上衣，而在下一頁改為查看上衣和襪子。來自鞋子的下一個產品流量報表會是上衣和襪子，「而非」上衣。
 
 1. 從「視覺效果」下拉式清單將[!UICONTROL 「流失」]視覺效果拖曳至[!UICONTROL 「自由表格」]中。
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
    ![](assets/multiple_obj_touchpoint.png)
 
-1. 您也可以在路徑內&#x200B;**將個別接觸點限制為下一次點擊** (而非「最終」)。在各接觸點下方，為含有「最終路徑」和「下一次點擊」選項的選擇器，如下所示：
+1. 您也可以 **將單個觸點限制到下一個事件** （而不是&quot;最終&quot;）。 在各接觸點下方，為含有「最終路徑」和「下一次點擊」選項的選擇器，如下所示：
 
    ![](assets/next-hit-eventually.png)
 
@@ -50,11 +50,11 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>最終路徑 </p> <p>(預設) </p> </td> 
-   <td colname="col2"> <p>列入計數的訪客「最終」會著陸至路徑的下個頁面，但不一定會至下一次點擊。 </p> </td> 
+   <td colname="col2"> <p>參觀者被統計為"最終"會降落在路的下一頁，但不一定是下一場活動。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>下一次點擊 </p> </td> 
-   <td colname="col2"> <p>列入計數的訪客會著陸至該下一次點擊路徑的下個頁面。 </p> </td> 
+   <td colname="col2"> <p>在下一個活動的路徑中，將有下一頁的訪客登錄。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

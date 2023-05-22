@@ -3,10 +3,10 @@ description: 長條圖類似於橫條圖，但前者將數字分組為範圍 (�
 title: 長條圖
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 | 起始貯體 | 決定長條圖開始使用的貯體。「1」是預設值。您可設定從 0 開始的數字，一直到無限大 (無負數)。 |
 | 量度貯體 | 可讓您增加/減少資料範圍 (貯體) 的數目。貯體的最大數量是 50。 |
 | 量度貯體大小 | 可讓您設定每個貯體的大小。例如，您可將貯體大小從 1 次頁面檢視變更為 2 次頁面檢視。 |
-| 計算方法 | 可讓您選擇[訪客](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html)、[造訪](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)或點擊類型。 例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
+| 計算方法 | 可讓您選擇[訪客](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html)、[造訪](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)或點擊類型。 例如，每次訪問的頁面視圖或每個訪問者的頁面視圖或每個事件的頁面視圖。 若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 

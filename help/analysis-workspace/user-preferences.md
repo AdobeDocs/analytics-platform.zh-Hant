@@ -4,10 +4,10 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: f74dd6fa47c12c4616e8c5e50d4b351fb498252b
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '3146'
-ht-degree: 77%
+ht-degree: 75%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 77%
 | **[欄](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** |  |  |
 |  | 繞排標題文字 | 讓您自由表格中的標頭文字環繞，讓標頭變得更容易閱讀，表格也更便於分享。這項設定對 PDF 的轉譯還有較長名稱的量度來說，非常實用。預設啟用。 |
 |  | 顯示總計 | 此總計通常等於[!UICONTROL 全部總量]或其一個小計。它反映的是在自由表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。 |
-|  | 顯示總計 | 此總計代表已收集的所有點擊，有時稱為「資料檢視總計」。 當篩選器套用於面板層級或在自由表格內，此總計會調整以反應符合篩選條件的全部集合。具[靜態列](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總量。 |
+|  | 顯示總計 | 此合計表示已收集的所有事件，有時稱為「資料視圖合計」。 當在面板級別或自由形式表內應用篩選器時，此總數將調整以反映所有與篩選條件匹配的事件。 具[靜態列](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總量。 |
 |  | 顯示走勢圖 | 顯示或隱藏圖表底部的折線圖。隱藏時，圖例會變更為不再以視覺化方式參照線條。 |
 |  | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果量度為「頁面檢視」，則該數值為列項目的頁面檢視數量。 |
 |  | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。例如，如果量度為「頁面檢視」，則該百分比數值為欄頁面檢視總數除以列項目的頁面檢視次數。附註：為了比例更精確，我們可以顯示超過 100% 的數值。我們也將上限提高為 1000%，以確保欄位的寬度夠大。 |
@@ -107,7 +107,7 @@ ht-degree: 77%
 | **一般預設值** |  |  |
 |  | 百分比 | 以百分比顯示所有視覺效果的值。 |
 |  | 可見圖例 | 可讓您隱藏所有視覺效果的詳細圖例文字。 |
-|  | 限制項目數量上限 | 減少所有視覺效果的 X 軸項目數量。如果您有大型資料集，此功能會相當實用。 |
+|  | 限制項目數量上限 | 減少所有視覺效果的 X 軸項目數量。如果您有大型資料集，則此功能將非常有用。 |
 |  | 顯示雙軸 (適用時) | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。 |
 |  | 標準化 (適用時) | 強制量度為相同比例。當繪製的量度大小非常不同時，這項功能會很有用。 |
 |  | 將 Y 軸固定於零 | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
@@ -115,7 +115,7 @@ ht-degree: 77%
 | **[折線圖](/help/analysis-workspace/visualizations/line.md)** |  |  |
 |  | 百分比 | 以百分比顯示線條視覺效果的值。 |
 |  | 可見圖例 | 可讓您隱藏線條視覺效果的詳細圖例文字。 |
-|  | 限制項目數量上限 | 減少線條視覺效果的 X 軸項目數量。如果您有大型資料集，此功能會相當實用。 |
+|  | 限制項目數量上限 | 減少線條視覺效果的 X 軸項目數量。如果您有大型資料集，則此功能將非常有用。 |
 |  | 顯示雙軸 (適用時) | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。 |
 |  | 標準化 (適用時) | 強制量度為相同比例。當繪製的量度大小非常不同時，這項功能會很有用。 |
 |  | 顯示 x 軸 | 在折線圖上顯示 x 軸。 |
@@ -154,7 +154,7 @@ ht-degree: 77%
 |  | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。 <p>如需詳細資訊，請參閱[長條圖和堆疊長條圖](/help/analysis-workspace/visualizations/bar.md)。</p> |
 | **[長條圖](/help/analysis-workspace/visualizations/histogram.md)** |  |  |
 |  | 貯體數 | 在視覺效果中選擇資料範圍 (貯體) 的數量。貯體的最大數量是 50。 <p>如需詳細資訊，請參閱[長條圖](/help/analysis-workspace/visualizations/histogram.md)。</p> |
-|  | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>瀏覽</li><li>訪客</li></ul> <p>例如，搭配頁面檢視使用時，您可以選擇每個訪客的頁面檢視、造訪的頁面檢視，或每次點擊的頁面檢視。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。</p> |
+|  | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>瀏覽</li><li>訪客</li></ul> <p>例如，與頁面視圖結合使用時，可以選擇每個訪問者的頁面視圖、訪問的頁面視圖或每個事件的頁面視圖。 若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。</p> |
 | **[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變更</li><li>原始差異</li></ul> |
 |  | 百分比 | 以百分比顯示摘要變更視覺效果的值。 |
@@ -166,28 +166,28 @@ ht-degree: 77%
 |  | 縮簡值 | 在&#x200B;[!UICONTROL **摘要數字**] 一節 |
 | **[樹狀圖](/help/analysis-workspace/visualizations/treemap.md)** |  |  |
 |  | 百分比 | 以百分比顯示樹狀圖視覺效果的值。 |
-|  | 限制項目數量上限 | 減少樹狀圖視覺效果的 X 軸項目數量。如果您有大型資料集，此功能會相當實用。 |
+|  | 限制項目數量上限 | 減少樹狀圖視覺效果的 X 軸項目數量。如果您有大型資料集，則此功能將非常有用。 |
 | **[Venn](/help/analysis-workspace/visualizations/venn.md)** |  |  |
 |  | 可見圖例 | 可讓您隱藏 Venn 視覺效果的詳細圖例文字。 |
 | **[散佈圖](/help/analysis-workspace/visualizations/scatterplot.md)** |  |  |
 |  | 百分比 | 以百分比顯示散佈圖視覺效果的值。 |
 |  | 可見圖例 | 讓您隱藏散佈圖視覺效果的詳細圖例文字。 |
-|  | 限制項目數量上限 | 減少散佈圖視覺效果的 X 軸項目數量。如果您有大型資料集，此功能會相當實用。 |
+|  | 限制項目數量上限 | 減少散佈圖視覺效果的 X 軸項目數量。如果您有大型資料集，則此功能將非常有用。 |
 |  | 將 y 軸固定於零 | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
 
-## 公司偏好設定
+## 公司首選項
 
 >[!AVAILABILITY]
 >
->本節所述的「公用存取連結」功能正處於發行的「有限測試」階段，可能尚未在您的環境中使用。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
+>本節中介紹的「公共訪問連結」功能處於版本的「有限測試」階段，可能在您的環境中尚不可用。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
 
-您可以更新適用於組織內所有使用者和專案的公司偏好設定。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
+您可以更新適用於組織內所有用戶和項目的公司首選項。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **專案共用** |  |  |
-|  | 僅允許與 Workspace 使用者共用 | <p>啟用此選項後，您組織中的使用者在「共用」功能表中看不到「與任何人共用」選項。 這表示使用者無法與組織中沒有Analysis Workspace帳戶的人員共用專案，如 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p><p>預設情況下，所有組織（即用戶可以與組織外的人員共用項目）都禁用此選項，醫療保健行業中的組織除外。 </p><p>啟用或停用此選項時，請考量下列事項：</p> <ul><li><p>當您啟用此選項時，先前透過「與他人共用」共用選項而收到專案存取權的使用者無法再存取專案。</p></li><li><p>如果啟用此選項（僅允許與工作區使用者共用），之後又停用（允許與任何人共用），先前透過「與任何人共用」共用選項收到專案存取權的使用者，不會自動重新取得專案存取權。 在此情況下，共用專案的使用者必須啟用 [!UICONTROL **連結處於活動狀態**] 與他人共用專案時可用的選項([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**])，如中所述 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p></li><li><p>**對於醫療保健行業的組織：** 此選項預設為啟用並暗顯。 您必須先新增 [!UICONTROL **與任何人共用專案連結**] 權限(位於 [!UICONTROL **報表工具**])，而非Adobe Admin Console。 新增權限後，您可以停用此選項，然後接受產生的法律通知。 如需如何在Admin Console中新增權限的詳細資訊，請參閱 [在Admin Console中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html).</p></li> |
-|  | 需要 Experience Cloud 驗證 | <p>啟用後，Analysis Workspace中「與任何人共用」選項可供存取專案的使用者，必須使用其Experience Cloud憑證進行驗證。</p> <p>啟用此選項後，每當用戶使用「與任何人共用」共用選項共用項目時，「需要Experience Cloud驗證」選項就會在「共用」對話框中啟用，並且共用項目的用戶不能禁用該選項。 (如需使用者如何與他人共用專案的相關資訊，請參閱 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).)</p> <p>啟用此選項時，請考量下列事項：</p><ul><li><p>啟用此選項後，先前與「與任何人共用」共用選項共用且未啟用「需要Experience Cloud驗證」選項的所有專案都會停用。</p></li> <li><p>如果啟用此選項(需要Experience Cloud驗證)，之後又停用（允許任何具有此連結的人存取專案），先前透過「與他人共用」共用選項而收到專案存取權的人，不會自動重新取得專案存取權。 在此情況下，共用專案的使用者必須啟用「連結作用中」選項，此選項可在與他人共用專案時使用([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**] > [!UICONTROL **連結處於活動狀態**])，如中所述 [與任何人共用專案（不需登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>只有在貴組織中實作了SSO時，才可使用此選項。 有關係統管理員如何為貴組織啟用SSO的資訊，請參見 [設定身分和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}.</p><p>如果已為貴組織設定SSO，請檢查主控台中是否已實作任何類型的自動帳戶建立。 通常，系統管理員會設定此設定，如 [啟用自動帳戶建立](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>如果貴組織所在的行業需要HIPAA法規遵從，則此選項將自動啟用，並且無法禁用。</p></li></ul> |
+|  | 僅允許與 Workspace 使用者共用 | <p>啟用此選項後，組織中的用戶無法在「共用」菜單中看到「與任何人共用」選項。 這意味著用戶無法與組織中沒有Analysis Workspace帳戶的人員共用項目，如中所述 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。</p><p>預設情況下，此選項對於所有組織（即用戶可以與組織外的人員共用項目）都禁用，醫療保健行業的人員除外。 </p><p>啟用或禁用此選項時，請考慮以下事項：</p> <ul><li><p>啟用此選項後，以前通過「與任何人共用」選項接受項目訪問權限的人員無法再訪問該項目。</p></li><li><p>如果啟用此選項（僅允許與Workspace用戶共用），然後禁用此選項（允許與任何人共用），則以前通過「與任何人共用」選項接受項目訪問權限的人員不會自動重新獲得對項目的訪問權限。 在這種情況下，共用項目的用戶必須啟用 [!UICONTROL **連結處於活動狀態**] 與任何人共用項目時可用的選項([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**])，如中所述 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。</p></li><li><p>**對於醫療保健行業中的組織：** 預設情況下，此選項處於啟用狀態並呈灰色顯示。 在禁用此選項以便用戶可以使用「與任何人共用」共用選項之前，您首先需要添加 [!UICONTROL **與任何人共用項目連結**] 權限(位於 [!UICONTROL **報告工具**])在Adobe Admin Console。 添加權限後，您可以禁用此選項，然後接受生成的法律通知。 有關如何在Admin Console中添加權限的資訊，請參見 [在Admin Console中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</p></li> |
+|  | 需要 Experience Cloud 驗證 | <p>啟用後，在Analysis Workspace「與任何人共用」選項中有權訪問項目的人員必須使用其Experience Cloud憑據進行身份驗證。</p> <p>啟用此選項後，當用戶使用「與任何人共用」共用選項共用項目時，「需要Experience Cloud驗證」選項將在共用對話框中啟用，並且無法由共用項目的用戶禁用它。 (有關用戶如何與任何人共用項目的資訊，請參閱 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。)</p> <p>啟用此選項時，請考慮以下事項：</p><ul><li><p>啟用此選項後，以前與「與任何人共用」共用選項共用且未啟用「需要Experience Cloud身份驗證」選項的所有項目都將被停用。</p></li> <li><p>如果啟用此選項(需要Experience Cloud驗證)，然後禁用此選項（允許具有該連結的任何人訪問該項目），則以前通過「與任何人共用」選項接受項目訪問權限的人員不會自動重新獲得對項目的訪問權限。 在這種情況下，共用項目的用戶必須啟用「連結處於活動狀態」選項，該選項在與任何人共用項目時可用([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**] > [!UICONTROL **連結處於活動狀態**])，如中所述 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。</p></li> <li><p>僅當在您的組織中實施SSO時，此選項才可用。 有關係統管理員如何為您的組織啟用SSO的資訊，請參見 [設定標識和單一登錄](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}。</p><p>如果為您的組織配置了SSO，請檢查是否在控制台中實現了任何類型的自動帳戶建立。 通常，系統管理員會設定此設定，如中所述 [啟用自動帳戶建立](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}。</p></li><li><p>如果您的組織在需要符合HIPAA的行業中，則此選項將自動啟用，並且無法禁用。</p></li></ul> |
 
 {style="table-layout:auto"}
 
@@ -197,7 +197,7 @@ ht-degree: 77%
 
 此動作無法復原。
 
-1. 在Customer Journey Analytics中，選取 [!UICONTROL **元件**] **>** [!UICONTROL **偏好設定**].
+1. 在Customer Journey Analytics中，選擇 [!UICONTROL **元件**] **>** [!UICONTROL **首選項**]。
 
    ![使用者偏好設定](assets/user-preferences.png)
 

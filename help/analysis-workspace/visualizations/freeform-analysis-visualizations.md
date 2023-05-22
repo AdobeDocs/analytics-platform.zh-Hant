@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 視覺效果概觀
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 19d18d497857442c141fda49cdcf1fbe71e9c07f
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
 workflow-type: tm+mt
 source-wordcount: '1245'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -29,7 +29,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失報告可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。可以設定為最終或精確的序列 |
 | [流量](/help/analysis-workspace/visualizations/c-flow/flow.md) | 顯示使用您網站和應用程式的正確客戶路徑。 |
 | [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由表格不僅是資料表格，也是互動式視覺效果。這是 Workspace 的資料分析基礎。 |
-| [長條圖](/help/analysis-workspace/visualizations/histogram.md) | 長線圖會根據量度數量，將訪客人數、瀏覽次數或點擊數放入值區內。 |
+| [長條圖](/help/analysis-workspace/visualizations/histogram.md) | 直方圖根據度量卷將訪問者、訪問或事件儲存到儲存桶中。 |
 | [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | 顯示代表一或多個量度多個值的橫條。 |
 | [折線圖](/help/analysis-workspace/visualizations/line.md) | 使用線條呈現量度，顯示一段時間內值的變化。線形圖會延 X 軸使用時間。 |
 | [散點圖](/help/analysis-workspace/visualizations/scatterplot.md) | 顯示維度項目與最多三個量度之間的關係。 |
@@ -39,25 +39,25 @@ Analysis Workspace 中有以下視覺效果類型：
 | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md) | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
 | [Venn](/help/analysis-workspace/visualizations/venn.md) | 使用圓圈描繪最多 3 個篩選器的量度重疊。 |
 
-## 新增視覺效果至面板
+## 向面板添加可視化效果
 
-1. 開啟您要新增視覺效果的Analysis Workspace專案。
+1. 開啟要添加可視化的Analysis Workspace項目。
 
-1. 使用下列任一方法來新增視覺效果：
+1. 使用下列任何方法添加可視化：
 
-   * 在左側邊欄中，選取 **視覺效果** 圖示 <!-- add icon -->，然後將視覺效果拖曳至您要新增的面板。
+   * 在左滑軌中，選擇 **可視化** 表徵圖 <!-- add icon -->，然後將可視化效果拖到要添加它的面板。
 
       ![](assets/viz-rail.png)
 
-   * 在您要新增視覺效果的面板上，選取 **加號** 圖示，然後選擇代表您要新增之視覺效果的圖示。 將滑鼠指標暫留在每個視覺效果的圖示上，即可查看其名稱。
+   * 在要添加可視化效果的面板上，選擇 **加** 表徵圖，然後選擇表示要添加的可視化的表徵圖。 將滑鼠懸停在每個可視化的表徵圖上，以查看其名稱。
 
-      ![新增視覺效果的按鈕](assets/visualization-add-to-panel.png)
+      ![用於添加可視化的按鈕](assets/visualization-add-to-panel.png)
 
-   * 新增 [空白麵板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，然後選擇您要新增的視覺效果。
+   * 添加 [空白麵板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，然後選擇要添加的可視化。
 
       ![空白面板](assets/blank_panel.png)
 
-   * 以滑鼠右鍵按一下Analysis Workspace專案中的現有面板，然後選取 [!UICONTROL **複製視覺效果**] 或 [!UICONTROL **複製視覺效果**].
+   * 按一下右鍵Analysis Workspace項目中的現有面板，然後選擇 [!UICONTROL **複製可視化**] 或 [!UICONTROL **複製可視化**]。
 
 ## 自訂視覺效果設定
 
@@ -86,7 +86,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | 設定 | 說明 |
 | --- | --- |
 | 視覺效果類型 | 變更用來描繪資料的視覺類型。 |
-| 詳細程度 | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的從此下拉式清單。 這項變更也適用於資料來源表。 |
+| 詳細程度 | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的從下拉清單中。 這項變更也適用於資料來源表。 |
 | 百分比 | 以百分比顯示值。 |
 | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。例如：![堆疊 100%](assets/stacked_100_percent.png) |
 | 可見圖例 | 允許您隱藏詳細的圖例文字，以顯示累加數/累加變化的視覺效果。 |

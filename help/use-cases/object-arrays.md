@@ -4,10 +4,10 @@ description: 了解 CJA 如何針對資料階層製作報表。
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: afc4dfd808b12be869edbd5e93a4069b93488739
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 舊版 Adobe Analytics 中，此功能是使用 `products`變數來完成。該變數是以分號 (`;`) 分隔的串連字串，以區隔產品的各個面向，而逗號 (`,`) 則劃分產品。這是唯一有限支援「物件陣列」的變數。清單變數之類的多值變數可支援同等陣列，但無法支援「物件陣列」。CJA 擴充了此概念，在單一資料列中支援任意深度的階層，任何舊版 Adobe Analytics 皆未支援此功能。
 
-## 相同點擊範例
+## 同一事件示例
 
-以下將示範點擊 JSON 物件，代表客戶購買洗衣機和烘衣機。
+以下事件是JSON對象，它表示由洗衣機和烘乾機製造的客戶購買的產品。
 
 ```json
 {
@@ -81,9 +81,9 @@ ht-degree: 100%
    * product : warranty
    * product : warranty : revenue
 
-### 相同點擊範例 (報表行為)
+### 相同的事件示例（報告行為）
 
-下表僅採計上述點擊，顯示具有某些維度和量度組合的 Analysis Workspace 報表。
+僅使用上述事件，下表顯示了包含某些維和度量組合的Workspace報告。
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
@@ -143,7 +143,7 @@ CJA 會根據表格選擇性地查看物件的維度和量度。
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA 會查看點擊的這些部分，以產生報表：
+CJA查看事件的以下部分以生成報告：
 
 ```diff
 {

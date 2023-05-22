@@ -1,18 +1,18 @@
 ---
-description: 「時間分段」功能會擷取所收集的點擊的時間戳記，並採用更有意義的維度加以分段，例如「小時」或「星期」。
-title: 時間分段維度
+description: 時間分隔將採用收集事件的時間戳，並將其分解為更有意義的維，如「Hour of Day」或「Day of Week」。
+title: 時間分隔維度
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
-# 時間分段維度於 Analysis Workspace
+# Analysis Workspace時間分型
 
-「時間分段」功能會擷取所收集的點擊的時間戳記，並採用更有意義的維度加以分段，例如「小時」或「星期」。
+時間分隔將採用收集事件的時間戳，並將其分解為更有意義的維，如「Hour of Day」或「Day of Week」。
 
 時間分段維度是以資料檢視的時區為基礎。這類維度是由 Analysis Workspace 所提供，並且可以協助回答以下問題：
 

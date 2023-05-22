@@ -3,10 +3,10 @@ description: Analysis Workspace 總計的計算方式。
 title: Analysis Workspace 總計
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
+source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 在自由表格中，每個劃分層級都會顯示總列數，當中會顯示兩個總計數字：
 
-* **[!UICONTROL 全部總量]**：此總計表示所選取的全部集合。當篩選器套用於面板層級或在自由表格內，此總計會調整以反應符合篩選條件的全部集合。
+* **[!UICONTROL 總計]** （灰色「out」數） — 此合計表示已收集的所有事件。 當在面板級別或自由形式表內應用篩選器時，此總數將調整以反映所有與篩選條件匹配的事件。
 * **[!UICONTROL 表格總計]** (黑色數字) - 此總計通常等於[!UICONTROL 總量]或為總量的子集。它反映的是在自由表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。
 
 ![](assets/total-row.png)
