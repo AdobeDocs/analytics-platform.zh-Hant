@@ -4,10 +4,10 @@ title: 檢視資料字典
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: d431e781eb18eb3f4904094972c218a9e80980d9
+source-git-commit: b38b5b54ebbf301a3e59156d484bf5d69974b4a4
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 59%
+source-wordcount: '350'
+ht-degree: 51%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 59%
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. 確定下拉式功能表中已選取包含您要檢視之元件的資料檢視。 依預設，會顯示您已在中的資料檢視。
+1. 確保在下拉菜單中選擇了包含要查看的元件的資料視圖。 預設情況下，將顯示您已在的資料視圖。
 
 1. (可選) 在搜尋欄位中開始鍵入要檢視的元件名稱。
 
-   元件類型可透過顏色和圖示來識別。 **Dimension** ![Dimension圖示](assets/dimension-icon.png) 是橙色的， **區段** ![區段圖示](assets/segment-icon.png) 是藍色的， **日期範圍** ![日期範圍圖示](assets/date-range-icon.png) 是紫色的， **量度** ![量度圖示](assets/default-metric-icon.png) 為綠色。 Adobe圖示 ![Adobe圖示](assets/default-calc-metric-icon.png) 指出計算量度範本或區段範本，以及計算器圖示 ![計算器表徵圖](assets/calculated-metric-icon-created.png) 指出貴組織中的Analytics管理員所建立的計算量度。
+   元件類型可以同時用顏色和表徵圖來標識。 **Dimension** ![Dimension表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 是橙色的， **段** ![段表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 是藍色的， **日期範圍** ![日期範圍表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 是紫色的 **度量** ![度量表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 是綠色的。 Adobe表徵圖 ![Adobe表徵圖](assets/default-calc-metric-icon.png) 指示計算的度量模板或段模板，以及計算器表徵圖 ![計算器表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 指明了由組織中的分析管理員建立的計算度量。
 
 {{dd-filter-criteria}}
 
-1. （選用）選取 **排序** 圖示 ![「排序元件」圖示](assets/component-sort-icon.png)，然後選取下列任一篩選選項，以排序元件清單：
+1. （可選）選擇 **排序** 表徵圖 ![「排序元件」表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選擇下列任何篩選器選項對元件清單進行排序：
 
    {{components-sort-options}}
 

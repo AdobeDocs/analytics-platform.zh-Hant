@@ -2,10 +2,10 @@
 title: 管理篩選器
 description: 瞭解如何在 Customer Journey Analytics 中管理篩選器
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
-source-git-commit: bd7a6d8ea46b27c465fcc8db4b9a317e517939a6
-workflow-type: ht
-source-wordcount: '1094'
-ht-degree: 100%
+source-git-commit: ec8760cf9984d4e962992f613c4a58a52fa29d47
+workflow-type: tm+mt
+source-wordcount: '1102'
+ht-degree: 99%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 
 1. 在篩選器管理工具列中，按一下「**[!UICONTROL 共用]**」。
 
-1. 如果您是管理員，可以選取「全部」或選取貴組織中的「群組」和「使用者」。身為非管理員，您只能看見個人使用者。使用「搜尋」欄位來搜尋群組或使用者。按一下「**[!UICONTROL 共用]**」。「已共用」圖示會出現在該篩選器旁：![](assets/share_icon.png)
+1. 如果您是管理員，可以選取「全部」或選取貴組織中的「群組」和「使用者」。身為非管理員，您只能看見個人使用者。使用「搜尋」欄位來搜尋群組或使用者。按一下「**[!UICONTROL 共用]**」。「已共用」圖示會出現在該篩選器旁：![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
 1. 您可以前往「篩選 > 其他篩選器 > 已和我共用」，依已和您共用的篩選器來篩選。
 

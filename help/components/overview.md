@@ -4,10 +4,10 @@ description: 了解 CJA 提供哪些元件，以及如何在報表中使用這�
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: 440a23258b0a4bd024894168e3201ee0c2d5c756
+source-git-commit: 3b98047d7ac04b370dc9c03300f75b7313e79e5a
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 62%
+source-wordcount: '1035'
+ht-degree: 57%
 
 ---
 
@@ -89,25 +89,25 @@ Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度�
 
 ### 搜索元件清單
 
-1. 選擇 **元件** 表徵圖 ![元件表徵圖](assets/components-icon.png) 左欄。
+1. 選擇 **元件** 表徵圖 ![元件表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 左欄。
 
-1. 在搜索欄位中，開始鍵入要在項目中使用的元件的名稱。
+2. 在搜索欄位中，開始鍵入要在項目中使用的元件的名稱。
 
-   元件類型可以同時用顏色和表徵圖來標識。 **Dimension** ![Dimension表徵圖](assets/dimension-icon.png) 是橙色的， **篩選器** ![「篩選器」表徵圖](assets/segment-icon.png) 是藍色的， **日期範圍** ![日期範圍表徵圖](assets/date-range-icon.png) 是紫色的 **度量** ![度量表徵圖](assets/default-metric-icon.png) 是綠色的。 Adobe表徵圖 ![Adobe表徵圖](assets/default-calc-metric-icon.png) 指示計算的度量模板或篩選器模板，以及計算器表徵圖 ![計算器表徵圖](assets/calculated-metric-icon-created.png) 指明了由組織中的分析管理員建立的計算度量。
+   元件類型可以同時用顏色和表徵圖來標識。 **Dimension** ![Dimension表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 是橙色的， **篩選器** ![「篩選器」表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 是藍色的， **日期範圍** ![日期範圍表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 是紫色的 **度量** ![度量表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 是綠色的。 Adobe表徵圖 ![Adobe表徵圖](assets/default-calc-metric-icon.png) 指示計算的度量模板或篩選器模板，以及計算器表徵圖 ![計算器表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 指明了由組織中的分析管理員建立的計算度量。
 
-1. 當元件出現在下拉清單中時，選擇它。
+3. 當元件出現在下拉清單中時，選擇它。
 
 ### 篩選元件清單
 
-1. 選擇 **元件** 表徵圖 ![元件表徵圖](assets/components-icon.png) 左欄。
+1. 選擇 **元件** 表徵圖 ![元件表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 左欄。
 
-1. 選擇 **篩選** 表徵圖 ![「資料字典篩選器」表徵圖](assets/components-filter-icon.png)。
+2. 選擇 **篩選** 表徵圖 ![「資料字典篩選器」表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg))。
 
    或
 
    在搜索欄位中鍵入井號(#)。
 
-1. 選擇以下任何篩選器選項以篩選元件清單：
+3. 選擇以下任何篩選器選項以篩選元件清單：
 
    | 選項 | 函數 |
    |---------|----------|
@@ -120,7 +120,7 @@ Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度�
    | [!UICONTROL **全部顯示**] | 顯示所有元件。此選項僅提供給管理員使用。 |
    | [!UICONTROL **未經核准**] | 僅顯示尚未由管理員標記為「已核准」的元件。作為管理員，這有助於確定需要您檢閱和核准的元件。此選項僅提供給管理員使用。 |
 
-1. （可選）要進一步改進清單，可以按中所述對元件清單進行排序 [對元件清單排序](#sort-the-component-list)。
+4. （可選）要進一步改進清單，可以按中所述對元件清單進行排序 [對元件清單排序](#sort-the-component-list)。
 
 ### 對元件清單排序
 
@@ -128,9 +128,9 @@ Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度�
 
 1. （可選）將任何篩選器應用到元件清單，如中所述 [篩選元件清單](#filter-the-component-list)。
 
-1. 選擇 **元件** 表徵圖 ![元件表徵圖](assets/components-icon.png) 左欄。
+2. 選擇 **元件** 表徵圖 ![元件表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 左欄。
 
-1. 選擇 **排序** 表徵圖 ![「排序元件」表徵圖](assets/component-sort-icon.png)，然後選擇下列任何篩選器選項對元件清單進行排序：
+3. 選擇 **排序** 表徵圖 ![「排序元件」表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選擇下列任何篩選器選項對元件清單進行排序：
 
    {{components-sort-options}}
 

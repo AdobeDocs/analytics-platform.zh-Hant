@@ -3,10 +3,10 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建立量度
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '930'
-ht-degree: 100%
+source-git-commit: 901ddcd814c71504ff056d91fd25445d94a6f56e
+workflow-type: tm+mt
+source-wordcount: '938'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * 按一下計算量度管理員頂端的「**[!UICONTROL + 新增]**[](/help/components/calc-metrics/cm-workflow/cm-manager.md)」，或者
 
-* 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**，開啟任一報表並按一下量度圖示 ![](assets/metrics_icon.png) 以叫出「量度」邊欄，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
+* 轉到 **[!UICONTROL 分析]** > **[!UICONTROL 報告]**，開啟任何報告，然後按一下「度量」表徵圖  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 開啟「度量」欄，然後按一下 **[!UICONTROL 添加]**。
 
 ![](assets/cm_builder_ui.png)
 
