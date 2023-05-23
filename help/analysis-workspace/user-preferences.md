@@ -4,9 +4,9 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 440a23258b0a4bd024894168e3201ee0c2d5c756
 workflow-type: tm+mt
-source-wordcount: '3146'
+source-wordcount: '3150'
 ht-degree: 75%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 75%
 
    * [一般偏好設定](#general-preferences)
 
+   * [IMS組織首選項](#ims-organization-preferences)
+
    * [專案偏好設定](#project-preferences)
 
    * [自由表格偏好設定](#freeform-table-preferences)
@@ -40,6 +42,22 @@ ht-degree: 75%
 | 登陸頁面 | 選擇存取 Adobe Analytics 時顯示為預設頁面的頁面： <ul><li>專案清單 (預設)</li><li>空白專案</li><li>特定專案(從清單中選取)</li></ul> |
 | 顯示提示 | 在 Analysis Workspace 右下方區域的藍色框中顯示提示。 <p>此選項已預設啟用。</p> |
 | 左側邊欄群組中顯示的元件 | 在左側邊欄的「元件」選單中，選取每個元件的顯示數量。 <p>如果選擇 0，則無法再從工作區的左側邊欄存取元件。</p><p>根據預設，會針對下列各項顯示 5 個元件：</p> <ul><li>維度</li><li>量度</li><li>篩選器</li><li>日期範圍</li></ul> <p>如需有關 Analysis Workspace 中元件的詳細資訊，請參閱[元件概觀](/help/components/overview.md)。</p> |
+
+## IMS組織首選項
+
+>[!AVAILABILITY]
+>
+>本節中介紹的「公共訪問連結」功能處於版本的「有限測試」階段，可能在您的環境中尚不可用。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
+
+您可以更新適用於組織內所有用戶和項目的公司首選項。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
+
+| 區域 | 偏好設定 | 選項 |
+| --- | --- | --- |
+| **專案共用** |  |  |
+|  | 僅允許與 Workspace 使用者共用 | <p>啟用此選項後，組織中的用戶無法在「共用」菜單中看到「與任何人共用」選項。 這意味著用戶無法與組織中沒有Analysis Workspace帳戶的人員共用項目，如中所述 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。</p><p>預設情況下，此選項對於所有組織（即用戶可以與組織外的人員共用項目）都禁用，醫療保健行業的人員除外。 </p><p>啟用或禁用此選項時，請考慮以下事項：</p> <ul><li><p>啟用此選項後，以前通過「與任何人共用」選項接受項目訪問權限的人員無法再訪問該項目。</p></li><li><p>如果啟用此選項（僅允許與Workspace用戶共用），然後禁用此選項（允許與任何人共用），則以前通過「與任何人共用」選項接受項目訪問權限的人員不會自動重新獲得對項目的訪問權限。 在這種情況下，共用項目的用戶必須啟用 [!UICONTROL **連結處於活動狀態**] 與任何人共用項目時可用的選項([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**])，如中所述 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。</p></li><li><p>**對於醫療保健行業中的組織：** 預設情況下，此選項處於啟用狀態並呈灰色顯示。 在禁用此選項以便用戶可以使用「與任何人共用」共用選項之前，您首先需要添加 [!UICONTROL **與任何人共用項目連結**] 權限(位於 [!UICONTROL **報告工具**])在Adobe Admin Console。 添加權限後，您可以禁用此選項，然後接受生成的法律通知。 有關如何在Admin Console中添加權限的資訊，請參見 [在Admin Console中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</p></li> |
+|  | 需要 Experience Cloud 驗證 | <p>啟用後，在Analysis Workspace「與任何人共用」選項中有權訪問項目的人員必須使用其Experience Cloud憑據進行身份驗證。</p> <p>啟用此選項後，當用戶使用「與任何人共用」共用選項共用項目時，「需要Experience Cloud驗證」選項將在共用對話框中啟用，並且無法由共用項目的用戶禁用它。 (有關用戶如何與任何人共用項目的資訊，請參閱 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。)</p> <p>啟用此選項時，請考慮以下事項：</p><ul><li><p>啟用此選項後，以前與「與任何人共用」共用選項共用且未啟用「需要Experience Cloud身份驗證」選項的所有項目都將被停用。</p></li> <li><p>如果啟用此選項(需要Experience Cloud驗證)，然後禁用此選項（允許具有該連結的任何人訪問該項目），則以前通過「與任何人共用」選項接受項目訪問權限的人員不會自動重新獲得對項目的訪問權限。 在這種情況下，共用項目的用戶必須啟用「連結處於活動狀態」選項，該選項在與任何人共用項目時可用([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**] > [!UICONTROL **連結處於活動狀態**])，如中所述 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。</p></li> <li><p>僅當在您的組織中實施SSO時，此選項才可用。 有關係統管理員如何為您的組織啟用SSO的資訊，請參見 [設定標識和單一登錄](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}。</p><p>如果為您的組織配置了SSO，請檢查是否在控制台中實現了任何類型的自動帳戶建立。 通常，系統管理員會設定此設定，如中所述 [啟用自動帳戶建立](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}。</p></li><li><p>如果您的組織在需要符合HIPAA的行業中，則此選項將自動啟用，並且無法禁用。</p></li></ul> |
+
+{style="table-layout:auto"}
 
 ## 專案偏好設定
 
@@ -174,22 +192,6 @@ ht-degree: 75%
 |  | 可見圖例 | 讓您隱藏散佈圖視覺效果的詳細圖例文字。 |
 |  | 限制項目數量上限 | 減少散佈圖視覺效果的 X 軸項目數量。如果您有大型資料集，則此功能將非常有用。 |
 |  | 將 y 軸固定於零 | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
-
-## 公司首選項
-
->[!AVAILABILITY]
->
->本節中介紹的「公共訪問連結」功能處於版本的「有限測試」階段，可能在您的環境中尚不可用。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
-
-您可以更新適用於組織內所有用戶和項目的公司首選項。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
-
-| 區域 | 偏好設定 | 選項 |
-| --- | --- | --- |
-| **專案共用** |  |  |
-|  | 僅允許與 Workspace 使用者共用 | <p>啟用此選項後，組織中的用戶無法在「共用」菜單中看到「與任何人共用」選項。 這意味著用戶無法與組織中沒有Analysis Workspace帳戶的人員共用項目，如中所述 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。</p><p>預設情況下，此選項對於所有組織（即用戶可以與組織外的人員共用項目）都禁用，醫療保健行業的人員除外。 </p><p>啟用或禁用此選項時，請考慮以下事項：</p> <ul><li><p>啟用此選項後，以前通過「與任何人共用」選項接受項目訪問權限的人員無法再訪問該項目。</p></li><li><p>如果啟用此選項（僅允許與Workspace用戶共用），然後禁用此選項（允許與任何人共用），則以前通過「與任何人共用」選項接受項目訪問權限的人員不會自動重新獲得對項目的訪問權限。 在這種情況下，共用項目的用戶必須啟用 [!UICONTROL **連結處於活動狀態**] 與任何人共用項目時可用的選項([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**])，如中所述 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。</p></li><li><p>**對於醫療保健行業中的組織：** 預設情況下，此選項處於啟用狀態並呈灰色顯示。 在禁用此選項以便用戶可以使用「與任何人共用」共用選項之前，您首先需要添加 [!UICONTROL **與任何人共用項目連結**] 權限(位於 [!UICONTROL **報告工具**])在Adobe Admin Console。 添加權限後，您可以禁用此選項，然後接受生成的法律通知。 有關如何在Admin Console中添加權限的資訊，請參見 [在Admin Console中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</p></li> |
-|  | 需要 Experience Cloud 驗證 | <p>啟用後，在Analysis Workspace「與任何人共用」選項中有權訪問項目的人員必須使用其Experience Cloud憑據進行身份驗證。</p> <p>啟用此選項後，當用戶使用「與任何人共用」共用選項共用項目時，「需要Experience Cloud驗證」選項將在共用對話框中啟用，並且無法由共用項目的用戶禁用它。 (有關用戶如何與任何人共用項目的資訊，請參閱 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。)</p> <p>啟用此選項時，請考慮以下事項：</p><ul><li><p>啟用此選項後，以前與「與任何人共用」共用選項共用且未啟用「需要Experience Cloud身份驗證」選項的所有項目都將被停用。</p></li> <li><p>如果啟用此選項(需要Experience Cloud驗證)，然後禁用此選項（允許具有該連結的任何人訪問該項目），則以前通過「與任何人共用」選項接受項目訪問權限的人員不會自動重新獲得對項目的訪問權限。 在這種情況下，共用項目的用戶必須啟用「連結處於活動狀態」選項，該選項在與任何人共用項目時可用([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**] > [!UICONTROL **連結處於活動狀態**])，如中所述 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md)。</p></li> <li><p>僅當在您的組織中實施SSO時，此選項才可用。 有關係統管理員如何為您的組織啟用SSO的資訊，請參見 [設定標識和單一登錄](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}。</p><p>如果為您的組織配置了SSO，請檢查是否在控制台中實現了任何類型的自動帳戶建立。 通常，系統管理員會設定此設定，如中所述 [啟用自動帳戶建立](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}。</p></li><li><p>如果您的組織在需要符合HIPAA的行業中，則此選項將自動啟用，並且無法禁用。</p></li></ul> |
-
-{style="table-layout:auto"}
 
 ## 還原預設偏好設定
 
