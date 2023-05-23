@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 970f93737f35a84c0e28061d2c6a8215c8b070ec
+source-git-commit: e7a27030459f0755ef445fffd4c86f79d4333d72
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 98%
+source-wordcount: '899'
+ht-degree: 97%
 
 ---
 
@@ -192,6 +192,21 @@ ht-degree: 98%
 
 
 
++ Analytics 儀表板 {#cja-dashboards}
+   + [Analytics 儀表板 - 總覽](../mobile-app/home.md)
+   + [組織者任務](../mobile-app/curator.md)
+   + [建立行動計分卡](../mobile-app/create-scorecard.md)
+   + [設定使用儀表板的主管](../mobile-app/set-up-execs.md)
+   + [高階主管使用者快速入門指南](../mobile-app/executive.md)
+
++ 引導式分析 {#guided-analysis}
+   + [概觀](../guided-analysis/overview.md)
+   + [介面](../guided-analysis/interface.md)
+   + 分析類型 {#analysis-types}
+      + [概觀](../guided-analysis/analysis-types/overview.md)
+      + [漏斗](../guided-analysis/analysis-types/funnel.md)
+      + [趨勢](../guided-analysis/analysis-types/trends.md)
+      + [使用者增長](../guided-analysis/analysis-types/user-growth.md)
 
 + 元件 {#cja-components}
    + [元件總覽](../components/overview.md)
@@ -259,13 +274,6 @@ ht-degree: 98%
 
 
 
-
-+ Analytics 儀表板 {#cja-dashboards}
-   + [Analytics 儀表板 - 總覽](../mobile-app/home.md)
-   + [組織者任務](../mobile-app/curator.md)
-   + [建立行動計分卡](../mobile-app/create-scorecard.md)
-   + [設定使用儀表板的主管](../mobile-app/set-up-execs.md)
-   + [高階主管使用者快速入門指南](../mobile-app/executive.md)
 
 + Report Builder {#cja-reportbuilder}
    + [Report Builder 概觀](../report-builder/report-buider-overview.md)
