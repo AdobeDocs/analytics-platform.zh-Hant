@@ -4,10 +4,10 @@ description: 跨管道分析常見問題集
 exl-id: 2ad78c19-4b13-495b-a0aa-44e0a3c95b5e
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 如果您要為資料集 ID 維度項目重新命名，可使用查詢資料集。
 
-## 跨管道分析會針對多久以前的訪客重設金鑰？
+## 跨管道分析會追溯多久重新輸入人員？
 
 金鑰重設的回顧期間取決於您需要的資料[重播](replay.md)頻率。 例如，如果您設定 CCA 每週重播資料一次，則重新輸入的回顧期間為 7 天。 如果您設定 CCA 每天重播資料一次，則重新輸入的回顧期間為 1 天。
 
@@ -40,9 +40,9 @@ ht-degree: 95%
 
 永久 ID 的數量與暫時 ID 無關。 單一使用者可使用任意數量的裝置，這不會影響跨管道分析功能彙整不同裝置資料的能力。
 
-## 我聯絡Adobe帳戶團隊並取得所需資訊後，重新輸入的資料集需要多久才能使用？
+## 在連絡我的Adobe客戶團隊取得所需的資訊後，需要多久才能使用金鑰已重設的資料集？
 
-Adobe 啟用跨頻道分析後，需要約一週才能使用即時彙整功能。能否使用回填功能取決於現有資料的數量。小型資料集（每天少於100萬個事件）通常需要數天，而大型資料集（每天10億個事件）則可能需要一週或更久。
+Adobe 啟用跨頻道分析後，需要約一週才能使用即時彙整功能。能否使用回填功能取決於現有資料的數量。小型資料集（每天不到100萬個事件）通常需要幾天時間，而大型資料集（每天10億個事件）可能需要一週或更長時間。
 
 ## 跨裝置分析 (傳統 Analytics 中的一項功能) 和跨頻道分析有何差異？
 
@@ -67,7 +67,7 @@ CJA 中的某些指標與傳統分析中的指標相似，但其他指標則完�
 
 | **CJA 拼接資料** | **CJA 非拼接資料** | **傳統 Adobe Analytics** | **具有 CDA 的 Analytics Ultimate** |
 | ----- | ----- | ----- | ----- |
-| **人物**= 不同的 `Person ID` 計數，其中 `Stitched ID` 被選為 `Person ID`。 在傳統 Adobe Analytics 中，**人物**&#x200B;可能高於或低於&#x200B;**不重複訪客**，取決於拼接過程的結果。 | **人物** = 不同的 `Person ID` 計數，根據選取為 `Person ID` 的欄位而定。 在 Adobe 來源連接器資料集中，**「人員」**&#x200B;類似於傳統 Adobe Analytics 中的&#x200B;**「不重複訪客」**，如果在 CJA 中 `endUserIDs._experience.aaid.id` 被選為 `Person ID`。 | **不重複訪客** = 不同訪客 ID 的計數。 **不重複訪客**&#x200B;可能與相異 **ECID** 的計數不同。 | 請參閱[人員](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=zh-Hant)。 |
+| **人物**= 不同的 `Person ID` 計數，其中 `Stitched ID` 被選為 `Person ID`。 在傳統 Adobe Analytics 中，**人物**&#x200B;可能高於或低於&#x200B;**不重複訪客**，取決於拼接過程的結果。 | **人物** = 不同的 `Person ID` 計數，根據選取為 `Person ID` 的欄位而定。 在 Adobe 來源連接器資料集中，**「人員」**&#x200B;類似於傳統 Adobe Analytics 中的&#x200B;**「不重複訪客」**，如果在 CJA 中 `endUserIDs._experience.aaid.id` 被選為 `Person ID`。 | **不重複訪客** =不同人員ID的計數。 **不重複訪客**&#x200B;可能與相異 **ECID** 的計數不同。 | 請參閱[人員](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=zh-Hant)。 |
 | **工作階段**：根據 CJA 資料檢視中的工作階段設定來定義。 拼接過程可以將來自多個裝置的各個工作階段合併為一個工作階段。 | **工作階段**：根據 CJA 資料檢視中指定的工作階段設定來定義。 | **造訪次數**：請參閱[造訪次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=zh-Hant)。 | **造訪次數**：根據 [CDA 虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=zh-Hant)中指定的工作階段設定來定義。 |
 | **事件** = CJA 中拼接資料中的列數。 這個量度通常接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。但是，請注意上面關於具有空白 `Persistent ID` 的列的常見問題解答。 | **事件** = CJA 中未拼接資料中的列數。 這個量度通常接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。但是請注意，如果任何事件在 Experience Platform 資料湖的未拼接資料中具有空白 `Person ID`，則 CJA 中不會包含這些事件。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)。 |
 

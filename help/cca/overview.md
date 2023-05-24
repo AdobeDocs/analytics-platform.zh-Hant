@@ -1,13 +1,13 @@
 ---
 title: 跨管道分析總覽
-description: 重新輸入多個資料集的訪客 ID，以彙整訪客。
+description: 在多個資料集中重新輸入人員ID，以將人員彙整在一起。
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: a9009c44a8e739add7fbcb9f9c31676d38af0094
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '1158'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 100%
 
 使用跨管道分析前，請確認您的組織已做好下列準備：
 
-* 在 Adobe Experience Platform 中，一個資料集必須具有兩個協助識別訪客的欄：
-   * **永久 ID**，每列都會顯示這個識別碼，例如 Adobe Analytics AppMeasurement 資料庫產生的訪客 ID。
-   * **暫時 ID**，僅部分列會顯示這個識別碼，例如訪客驗證後雜湊的使用者名稱或電子郵件地址。您可以使用幾乎所有偏好的識別碼，但前提是該識別碼在相同事件上必須至少顯示為指定的永久 ID 一次。
+* Adobe Experience Platform中的一個資料集必須具有兩個協助識別人員的欄：
+   * **永久 ID**，每列都會顯示這個識別碼，例如，Adobe Analytics AppMeasurement程式庫產生的人員ID。
+   * **暫時 ID**，僅部分列會顯示這個識別碼，例如，某人驗證後，雜湊的使用者名稱或電子郵件地址。 您可以使用幾乎所有偏好的識別碼，但前提是該識別碼在相同事件上必須至少顯示為指定的永久 ID 一次。
 * 在另一個資料集 (例如客服中心資料) 中，每列都包含一個暫時 ID。此人員 ID 的格式必須與其他資料集中的暫時 ID 格式類似。
 * 此功能可讓您彙整資料集，包括合併的已驗證和未驗證使用者資料。合併資料集前，請務必遵守適用的法律和法規，包括取得必要的使用者權限。
 

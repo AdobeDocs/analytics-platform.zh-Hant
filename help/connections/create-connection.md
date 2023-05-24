@@ -4,10 +4,10 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '2500'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
    | --- | --- |
    | **[!UICONTROL 連線名稱]** | 為連線輸入唯一名稱。 |
    | **[!UICONTROL 連線說明]** | 說明此連線的用途。 |
-   | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)可將單一 Platform 執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。 您可以將沙箱視為包含資料集的「資料倉」。 沙箱可用來控制資料集的存取權。<p>當您選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。 |
+   | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)可將單一 Platform 執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。 您可以將沙箱視為內含資料集的「資料獨立單位」。 沙箱可用於控制對資料集的存取。<p>當您選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。 |
    | **[!UICONTROL 啟用滾動資料時間窗口]** | 勾選這個核取方塊可讓您在連線層級將 CJA 資料保留定義為以月為單位的滾動時段 (1 個月、3 個月、6 個月等)。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此基本資料或查詢資料集不存在滾動資料時間窗口設定。 不過，如果您的連線在一個或多個事件資料集之外還包含任何基本資料或查詢資料集，則會為相同時段保留該資料。<p> 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。 這有助於您未超過合約限制，並減少超額使用費用的風險。<p>如果您保留預設值 (未勾選)，保留期間將由 Adobe Experience Platform 資料保留設定取代。如果您在 Experience Platform 中有 25 個月的資料，CJA 將透過回填取得 25 個月的資料。如果您在 Platform 中刪除其中 10 個月的資料，CJA 則會保留剩餘 15 個月的資料。 |
    | **[!UICONTROL 新增資料集]** (請參閱底下) | 如果沒有資料集出現在您的資料集清單中，請新增資料集。 |
    | **[!UICONTROL 資料集名稱]** | 選取一個或多個要拉進 Customer Journey Analytics 中的資料集，然後按一下&#x200B;**[!UICONTROL 新增]**。<p>(如果有很多資料集可供選擇，可使用資料集清單上方的「搜尋資料集」搜尋列，搜尋合適的資料集)。 |
@@ -68,9 +68,9 @@ ht-degree: 94%
    | --- | --- |
    | **[!UICONTROL 人員 ID]** | 從可用身分識別的下拉式清單中選取人員ID。 這些身分識別是在 Experience Platform 的資料集結構中所定義。 若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。<p>如果沒有人員 ID 可以選擇，表示結構中尚未定義一或多個人員 ID。 請觀看這部影片，了解如何在 Experience Platform 中定義身分識別。 |
    | **[!UICONTROL 時間戳記]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述中的預設時間戳記欄位。 |
-   | **[!UICONTROL 資料來源類型]** | 資料來源類型包括： [!UICONTROL 網路資料], [!UICONTROL 行動應用程式資料], [!UICONTROL POS資料], [!UICONTROL CRM資料], [!UICONTROL 調查資料], [!UICONTROL 客服中心資料], [!UICONTROL 產品資料], [!UICONTROL 帳戶資料], [!UICONTROL 交易資料], [!UICONTROL 客戶意見資料]，和 [!UICONTROL 其他]. |
+   | **[!UICONTROL 資料來源類型]** | 資料來源型別包括： [!UICONTROL 網頁資料]， [!UICONTROL 行動應用程式資料]， [!UICONTROL POS資料]， [!UICONTROL CRM資料]， [!UICONTROL 調查資料]， [!UICONTROL 呼叫中心資料]， [!UICONTROL 產品資料]， [!UICONTROL 帳戶資料]， [!UICONTROL 交易資料]， [!UICONTROL 客戶回饋資料]、和 [!UICONTROL 其他]. |
    | **[!UICONTROL 匯入新資料]** | 如果您要建立持續連線，請選取此選項，如此一來，新增到此連線中資料集的任何新資料批次都會自動流入工作區。 可設為 [!UICONTROL 開啟] 或 [!UICONTROL 關閉]. |
-   | **[!UICONTROL 資料集回填]** | 按一下&#x200B;**[!UICONTROL 請求回填]**&#x200B;以回填歷史資料。<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。 延遲受到您有多少歷史資料所影響。</li><li>Adobe Analytics Source Connector最多可匯入13個月的生產沙箱資料（不論大小）。 非生產沙箱的回填限制為3個月。</li></ul> |
+   | **[!UICONTROL 資料集回填]** | 按一下&#x200B;**[!UICONTROL 請求回填]**&#x200B;以回填歷史資料。<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。 延遲受到您有多少歷史資料所影響。</li><li>Adobe Analytics來源聯結器最多可匯入13個月的生產沙箱資料（不論大小）。 非生產沙箱中的回填限製為3個月。</li></ul> |
    | **[!UICONTROL 回填狀態]** | 可能的狀態指標包括：<ul><li>成功</li><li>正在處理 X 個回填</li><li>關閉</li></ul> |
    | **[!UICONTROL 資料集 ID]** | 此 ID 是自動產生的。 |
    | **[!UICONTROL 說明]** | 建立資料集時為其提供的說明。 |
@@ -104,7 +104,7 @@ ht-degree: 94%
 |---|---|---|---|---|
 | **[!UICONTROL 事件]** | 代表及時事件的資料 (例如網站造訪、互動、交易、POS 資料、調查資料、廣告曝光數資料等)。 例如，這可能是典型的點按資料流資料，包含客戶 ID 或 Cookie ID 以及時間戳記。 若使用事件資料，您可以靈活選擇將哪個 ID 當作人員 ID 使用。 | 系統會自動設定為 [!UICONTROL Experience Platform] 中以事件為基礎的結構之預設時間戳記欄位。 | 任何以具有「時間系列」行為的 XDM 類別為依據的內建或自訂結構。 例如「XDM 體驗事件」或「XDM 決策事件」。 | 您可以挑選要包含的人員 ID。 在 Experience Platform 中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。 其中任何一個都可當作人員 ID 使用。 範例包括 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。 |
 | **[!UICONTROL 查詢]** | 在事件或設定檔資料中找到值或索引鍵後，可使用此資料進一步查詢。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。 如需範例，請參閱這個[使用案例](/help/use-cases/b2b/b2b.md)。 | 不適用 | 除「XDM 個別設定檔」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
-| **[!UICONTROL 設定檔]** | 套用至[!UICONTROL 事件]資料中訪客、使用者或客戶的資料。 例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以「XDM 個別設定檔」類別為基礎的內建或自訂模式。 | 您可以挑選要包含的人員 ID。 在 [!DNL Experience Platform]中定義的每個資料集，都有各自專屬的一組一或多個已定義的人員 ID，例如 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。<br>![人員 ID ](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報表會反映出這一點。 若要確實合併資料集，您需要使用相同的人員 ID。 |
+| **[!UICONTROL 設定檔]** | 套用至下列位置中個人、使用者或客戶的資料： [!UICONTROL 事件] 資料。 例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以「XDM 個別設定檔」類別為基礎的內建或自訂模式。 | 您可以挑選要包含的人員 ID。 在 [!DNL Experience Platform]中定義的每個資料集，都有各自專屬的一組一或多個已定義的人員 ID，例如 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。<br>![人員 ID ](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報表會反映出這一點。 若要確實合併資料集，您需要使用相同的人員 ID。 |
 
 {style="table-layout:auto"}
 
@@ -132,8 +132,8 @@ Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身�
 
 | 選項 | 說明 |
 |---|---|
-| **[!UICONTROL 使用主要 ID 命名空間]** | 這會指示 CJA 在標示 primary=true 屬性的「身分對應」中逐列尋找身分識別，作為該列的人員 ID。 也就是說，這會是在 Experience Platform 中劃分資料的主要索引鍵，也是 CJA 訪客 ID 的主要候選項目 (取決於 CJA 連線的資料集設定方式)。 |
-| **[!UICONTROL 命名空間]** | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) 的元件，用途是作為身分識別相關內容的指標。 如果您指定命名空間，CJA 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。 請注意，由於CJA無法對所有列執行完整資料集掃描，以判斷哪些命名空間實際存在，下拉式清單中會顯示所有可能的命名空間。 您需知道資料中指定的命名空間，系統無法自動偵測。 |
+| **[!UICONTROL 使用主要 ID 命名空間]** | 這會指示 CJA 在標示 primary=true 屬性的「身分對應」中逐列尋找身分識別，作為該列的人員 ID。 也就是說，這會是在 Experience Platform 中劃分資料的主要索引鍵，也是CJA人員ID的主要候選專案（取決於CJA連線中資料集的設定方式）。 |
+| **[!UICONTROL 命名空間]** | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) 的元件，用途是作為身分識別相關內容的指標。 如果您指定命名空間，CJA 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。 請注意，由於CJA無法執行所有列的完整資料集掃描來判斷哪些名稱空間實際存在，因此下拉式清單中會顯示所有可能的名稱空間。 您需知道資料中指定的命名空間，系統無法自動偵測。 |
 
 {style="table-layout:auto"}
 

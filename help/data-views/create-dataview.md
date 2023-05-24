@@ -4,10 +4,10 @@ description: 您可調整以建立或編輯資料檢視的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 | 設定 | 說明 |
 | --- | --- |
 | [!UICONTROL 連線] | 此欄位會將資料檢視連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
-| [!UICONTROL 名稱] | 必填。資料檢視的名稱。此值會顯示在Analysis Workspace的右上方下拉式清單中。 |
+| [!UICONTROL 名稱] | 必填。資料檢視的名稱。此值會顯示在Analysis Workspace的右上角下拉式清單中。 |
 | [!UICONTROL 說明] | 選填。Adobe 建議使用詳細說明，讓用戶了解資料檢視存在的原因及其設計對象。 |
 
 {style="table-layout:auto"}
@@ -44,7 +44,7 @@ ht-degree: 99%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL 人員容器名稱] | 「[!UICONTROL 人員]」(預設)。「[!UICONTROL 人員]」容器包含指定時間段內訪客的每個工作階段和事件。如果您的組織使用不同的術語（例如，「訪客」或「用戶」），您可以在此處重新命名容器。 |
+| [!UICONTROL 人員容器名稱] | 「[!UICONTROL 人員]」(預設)。此 [!UICONTROL 個人] 容器包含指定時間段內個人的每個工作階段和事件。 如果您的組織使用不同的術語（例如，「訪客」或「用戶」），您可以在此處重新命名容器。 |
 | [!UICONTROL 工作階段容器名稱] | 「[!UICONTROL 工作階段]」(預設)。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「Visit」或您組織偏好的其他任何詞語。 |
 | [!UICONTROL 事件容器名稱] | [!UICONTROL 事件] (預設)。[!UICONTROL 事件]容器定義資料集中的單個事件。如果您的組織使用不同的術語（例如，「點擊次數」或「頁面檢視量」），您可以在此處重新命名容器。 |
 

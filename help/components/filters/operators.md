@@ -2,10 +2,10 @@
 title: 篩選運算子
 description: 決定元件如何與篩選器中的值互動。
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
-source-git-commit: a8b884148a197b081e321582f70a9188a1bdc51e
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## Distinct Count 運算子
 
-您可以劃分維度內項目不重複計數的區段。例如，您可以為檢視 5 個以上不重複產品的訪客或瀏覽過 5 個以上不重複頁面的造訪建立篩選器。
+您可以劃分維度內項目不重複計數的區段。例如，您可以為檢視5個以上不重複產品或造訪（已檢視5個以上不重複頁面）的人員建立篩選器。
 
 | 運算子 | 說明 |
 | --- | --- |

@@ -4,10 +4,10 @@ description: 了解 CJA 如何透過合併資料集來建立連線。
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 6b5f4659e9bae02e2665db3c0ee02d143dbc7ea0
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 當您建立連線時，Customer Journey Analytics (CJA) 會將所有結構描述和資料集合併到單一資料集中。 CJA 會使用這個「合併事件資料集」來製作報表。在連線中納入多個結構或資料集時：
 
 * 結構會合併。重複的結構欄位會合併。
-* 每個資料集的「人員 ID」欄會合併為一欄，不論其名稱為何。此欄是識別 CJA 中獨特訪客的基礎。
+* 每個資料集的「人員 ID」欄會合併為一欄，不論其名稱為何。此欄是識別CJA中不重複人員的基礎。
 * 會根據時間戳記處理列。
 * 事件會解析至毫秒層級。
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
 
-這個合併事件資料集會用來製作報表。某列是來自哪個資料集並不重要；CJA 將所有資料視為位於相同資料集中。如果兩個資料集中都出現相符的人員 ID，則會將其視為同一位獨特訪客。如果兩個資料集中都出現相符的人員 ID，且時間戳記在 30 分鐘內，則視為同一工作階段的一部分。
+這個合併事件資料集會用來製作報表。某列是來自哪個資料集並不重要；CJA 將所有資料視為位於相同資料集中。如果兩個資料集中都出現相符的人員ID，則會將其視為同一個不重複人員。 如果兩個資料集中都出現相符的人員 ID，且時間戳記在 30 分鐘內，則視為同一工作階段的一部分。
 
 此概念也適用於歸因。某列是來自哪個資料集並不重要；歸因的運作方式與所有事件都來自單一資料集的情形完全相同。以上表為例：
 

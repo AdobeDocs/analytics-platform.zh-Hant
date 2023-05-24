@@ -4,10 +4,10 @@ description: 使用 Analytics 來源連接器將行銷頻道處理規則匯入 A
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: af9113f3afced902b385747bceaa9e51b72d83e6
-workflow-type: ht
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
    ![覆寫最近一次接觸管道](../assets/override-last-touch-channel.png)
 
-* **行銷管道有效期**：訪客在報告套裝資料中取得首次接觸管道前的閒置時間，將取決於這項互動期的設定。Platform 會使用自有的歸因設定，因此在 CJA 中會完全忽略此設定。
+* **行銷管道有效期**：此參與期間設定會決定使用者在報表套裝資料中取得首次接觸管道前的閒置時間。 Platform 會使用自有的歸因設定，因此在 CJA 中會完全忽略此設定。
 
    ![行銷管道有效期](../assets/marketing-channel-expiration.png)
 
@@ -71,4 +71,4 @@ ht-degree: 100%
 * 再次確認連線是否使用與舊版 Analytics 相同的報告套裝。如果您的 CJA 連線包含多個報告套裝，且套裝具有專屬的行銷管道處理規則，便無法輕易地與舊版 Analytics 並置比較。建議您為每個報告套裝建立個別連線，以便比較資料。
 * 確認您所比較的資料出自相同的日期範圍，而且資料檢視與報告套裝的時區設定相同。
 * 檢視報告套裝資料時，請使用自訂歸因模型，例如使用量度非預設歸因模型的[「行銷管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=zh-Hant)維度。由於[「首次接觸管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/first-touch-channel.html?lang=zh-Hant)或[「最近一次接觸管道」](https://experienceleague.adobe.com/docs/analytics/components/dimensions/last-touch-channel.html?lang=zh-Hant)皆仰賴報告套裝所收集的歸因，因此 Adobe 不建議比較這些預設維度。CJA 不仰賴報告套裝的歸因資料，而是在執行 CJA 報表時計算。
-* 基於報告套裝資料和 Platform 資料的架構有所差異，部分量度並不適合比較，像是造訪/工作階段、訪客/人員、發生次數/事件。
+* 基於報告套裝資料和 Platform 資料的架構有所差異，部分量度並不適合比較，範例包括造訪/工作階段、人員/人員以及發生次數/事件。

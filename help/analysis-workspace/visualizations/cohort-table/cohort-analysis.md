@@ -3,10 +3,10 @@ title: 同類群組分析是什麼？
 description: 瞭解 Analysis Workspace 中的同類群組分析
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 76840d025d1ace28abce5557d66d104795818167
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 91%
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同類群組分析] 不支援不可篩選的量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可在篩選條件中使用的量度，才能用於 [!UICONTROL 同類群組分析]，且只能一次增加1。
+>[!UICONTROL 同類群組分析] 不支援無法篩選的量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可用於篩選器的量度，才能用於 [!UICONTROL 同類群組分析]，且只能一次增加1。
 
 ## 同類群組分析功能
 
@@ -37,13 +37,13 @@ ht-degree: 91%
 
 ### [!UICONTROL 保留率表格]
 
-[!UICONTROL 保留率]同類群組報表會回傳訪客人數：每個資料儲存格分別顯示該同類群組中，在該時段內執行了動作的原始訪客數目和百分比。您可以包含最多 3 個量度和最多 10 個篩選器。
+A [!UICONTROL 保留] 同類群組報表傳回人員：每個資料儲存格顯示該同類群組中，在該時段內執行了動作的原始人數和百分比。 您可以包含最多 3 個量度和最多 10 個篩選器。
 
 ![](assets/retention-report.png)
 
 ### [!UICONTROL 流失率表格]
 
-[!UICONTROL 流失率]同類群組與保留率表格相反，會顯示在一段時間內離開或從未符合同類群組回傳條件的訪客。您可以包含最多 3 個量度和最多 10 個篩選器。
+A [!UICONTROL 流失率] 同類群組與保留率表格相反，會顯示在一段時間內離開或從未符合約類群組回傳標準的人員。 您可以包含最多 3 個量度和最多 10 個篩選器。
 
 ![](assets/churn-report.png)
 

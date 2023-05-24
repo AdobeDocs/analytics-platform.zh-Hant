@@ -3,10 +3,10 @@ title: 參考資料 - 進階函數
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3c108836e72cb85e0f9c379d7c945f867fb09699
-workflow-type: ht
-source-wordcount: '3111'
-ht-degree: 100%
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
+source-wordcount: '3105'
+ht-degree: 98%
 
 ---
 
@@ -177,7 +177,7 @@ fx Confidence (normalizing-container, success-metric, control, significance-thre
 | 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
 | 顯著性臨界值 | 此函數中的臨界值設定為預設值 95%。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 餘弦 (列)
 
@@ -225,10 +225,10 @@ CBRT(metric)
 
 >[!NOTE]
 >
->如果您想使用收入/訪客之類的比率量度，則此函數不適用，因為此函數會平均比率，而非將過去 N 期的收入相加、將過去 N 期的訪客數相加，然後再將兩者相除。請改為使用
+>如果您想使用收入/人員之類的比率量度，則此函式不適用，因為此函式會平均比率，而非將過去N期的收入相加、將過去N期的人員相加，然後再將兩者相除。 請改為使用
 
 ```
-cumul(revenue)/cumul(visitor)
+cumul(revenue)/cumul(person)
 ```
 
 ## 等於
@@ -366,7 +366,7 @@ fx Lift (normalizing-container, success-metric, control)
 | 成功量度 | 使用者用來比較變體的一個或多個量度。 |
 | 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 線性迴歸_ 相關係數
 

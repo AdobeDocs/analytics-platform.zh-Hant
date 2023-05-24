@@ -3,10 +3,10 @@ description: Analysis Workspace 總計的計算方式。
 title: Analysis Workspace 總計
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 91%
+ht-degree: 81%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 在自由表格中，每個劃分層級都會顯示總列數，當中會顯示兩個總計數字：
 
-* **[!UICONTROL 總計]** （灰色「out」數） — 此合計表示已收集的所有事件。 當在面板級別或自由形式表內應用篩選器時，此總數將調整以反映所有與篩選條件匹配的事件。
+* **[!UICONTROL 全部總計]** （灰色「共」數字） — 此總計代表已收集的所有事件。 在面板層級或自由表格內套用篩選器時，此總計會經過調整，以反映符合篩選條件的所有事件。
 * **[!UICONTROL 表格總計]** (黑色數字) - 此總計通常等於[!UICONTROL 總量]或為總量的子集。它反映的是在自由表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。
 
 ![](assets/total-row.png)
@@ -29,8 +29,8 @@ ht-degree: 91%
 
 [靜態列](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)總計的行為方式不同，且須經由&#x200B;**[!UICONTROL 「列設定」]**&#x200B;控制。
 
-* **[!UICONTROL 將目前的列數加總顯示為總計]** - 這個選項會顯示表格中的用戶端列數加總，因此總計&#x200B;**不會**&#x200B;刪除「造訪次數」或「訪客人數」等重複量度。
-* **[!UICONTROL 顯示總量]** - 這個選項會顯示伺服器端的加總，因此總計會刪除「造訪次數」或「訪客人數」等重複量度。
+* **[!UICONTROL 將目前列的總和顯示為總計]**  — 這個選項會顯示表格中的使用者端列數加總，因此總計會 **not** 去除重複的量度，例如造訪或人員。
+* **[!UICONTROL 顯示總量]**  — 這個選項會顯示伺服器端的加總，因此總計會刪除「造訪次數」或「人數」等重複量度。
 
 ![](assets/static-rows.png)
 

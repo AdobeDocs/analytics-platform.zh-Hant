@@ -4,10 +4,10 @@ description: 說明如何透過 Adobe Experience Platform Web SDK 和 Edge Netwo
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 43f77ffb3538e96798e68b35ec4541ba650c2090
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+workflow-type: tm+mt
+source-wordcount: '3587'
+ht-degree: 98%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
    ![識別物件](./assets/identification-field.png)
 
-   這會將識別功能新增至您的結構。在您的案例中，您想使用 Experience Cloud ID 和電子郵件地址識別造訪您網站的設定檔。還有許多其他屬性可用於跟踪訪客的身分識別 (例如客戶 ID、忠誠度 ID)。
+   這會將識別功能新增至您的結構。在您的案例中，您想使用 Experience Cloud ID 和電子郵件地址識別造訪您網站的設定檔。有許多其他屬性可用來追蹤您的人員身分識別（例如客戶ID、忠誠度ID）。
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
 
@@ -265,7 +265,7 @@ ht-degree: 100%
 
 如需詳細資訊，請參閱[設定 Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html)。
 
-您也想要設定 Experience Cloud ID 服務擴充功能，以便輕鬆使用 Experience Cloud ID。Experience Cloud ID 服務可識別所有 Adobe Experience Cloud 解決方案中的訪客。
+您也想要設定 Experience Cloud ID 服務擴充功能，以便輕鬆使用 Experience Cloud ID。Experience CloudID服務可識別所有Adobe Experience Cloud解決方案中的人員。
 
 若要建立及設定 Experience Cloud ID 服務擴充功能：
 
@@ -285,7 +285,7 @@ ht-degree: 100%
 
 資料元素是資料字典 (或資料地圖) 的建置組塊。使用資料元素，在行銷和廣告技術之間收集、組織和傳遞資料。您可在標籤中設定從資料層讀取的資料元素，可用來將資料傳送至 Adobe Experience Platform。
 
-資料元素的類型不同。首先設定資料元素，以擷取訪客在您網站上檢視的頁面名稱。
+資料元素的類型不同。您先設定資料元素，擷取訪客在您的網站上檢視的頁面名稱。
 
 若要定義頁面名稱資料元素：
 
