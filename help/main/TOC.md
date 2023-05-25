@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: e7a27030459f0755ef445fffd4c86f79d4333d72
+source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 97%
@@ -81,7 +81,7 @@ ht-degree: 97%
       + [子字串](../data-views/component-settings/substring.md)
       + [值分組](../data-views/component-settings/value-bucketing.md)
    + [標準元件參考](../data-views/component-reference.md)
-   + [SQL連接器](../data-views/sql-connector.md)
+   + [SQL聯結器](../data-views/sql-connector.md)
    + [衍生欄位](../data-views/derived-fields/derived-fields.md)
    + [標籤和原則](../data-views/data-governance.md)
 
@@ -201,12 +201,12 @@ ht-degree: 97%
 
 + 引導式分析 {#guided-analysis}
    + [概觀](../guided-analysis/overview.md)
-   + [介面](../guided-analysis/interface.md)
-   + 分析類型 {#analysis-types}
+   + 分析型別 {#analysis-types}
       + [概觀](../guided-analysis/analysis-types/overview.md)
       + [漏斗](../guided-analysis/analysis-types/funnel.md)
       + [趨勢](../guided-analysis/analysis-types/trends.md)
       + [使用者增長](../guided-analysis/analysis-types/user-growth.md)
+   + [常見問題](../guided-analysis/faq.md)
 
 + 元件 {#cja-components}
    + [元件總覽](../components/overview.md)
@@ -233,7 +233,7 @@ ht-degree: 97%
       + [篩選總覽](../components/filters/filters-overview.md)
       + [建立篩選器](../components/filters/create-filters.md)
       + [快速篩選](../components/filters/quick-filters.md)
-      + [篩選器生成器](../components/filters/filter-builder.md)
+      + [篩選產生器](../components/filters/filter-builder.md)
       + [管理篩選](../components/filters/manage-filters.md)
       + [運算子](../components/filters/operators.md)
    + 計算量度 {#cja-calcmetrics}
@@ -280,7 +280,7 @@ ht-degree: 97%
    + [Report Builder 設定](../report-builder/report-builder-setup.md)
    + [建立資料區塊](../report-builder/create-a-data-block.md)
    + [Report Builder 中心](../report-builder/report-builder-hub.md)
-   + [選擇資料視圖](../report-builder/select-data-view.md)
+   + [選取資料檢視](../report-builder/select-data-view.md)
    + [選取日期範圍](../report-builder/select-date-range.md)
    + [使用篩選器](../report-builder/work-with-filters.md)
    + [篩選器維度](../report-builder/filter-dimensions.md)
@@ -298,7 +298,7 @@ ht-degree: 97%
    + [整合 Adobe 解決方案與 CJA 總覽](/help/integrations/overview.md)
    + [將 Adobe Analytics 與 Customer Journey Analytics 整合](/help/integrations/aa.md)
    + [將 Journey Optimizer 資料與 CJA 整合](/help/integrations/ajo.md)
-   + [將決策管理資料與CJA整合](/help/integrations/ajo-od.md)
+   + [將決定管理資料與CJA整合](/help/integrations/ajo-od.md)
    + [將 Customer AI 與 CJA 整合](/help/integrations/customer-ai.md)
 
 + 資料控管 {#cja-privacy}
@@ -340,7 +340,7 @@ ht-degree: 97%
    + [存取控制](../admin/cja-access-control.md)
    + [檢視和管理使用情況](../admin/estimate-usage.md)
    + [刪除關聯](../admin/cja-deletion.md)
-   + [優化CJA效能](../admin/optimizing-performance.md)
+   + [最佳化CJA效能](../admin/optimizing-performance.md)
 
 + Labs {#labs}
    + [Labs 使用手冊](../labs/labs.md)
