@@ -3,40 +3,15 @@ description: 說明尋找量度的兩種主要方法：排序和篩選。
 title: 尋找量度
 feature: Calculated Metrics
 exl-id: 34d2563a-7cd2-4f22-9ad0-6a3dab8d84ea
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+source-git-commit: 5fbffb01c08b5f8069b2670742f7ae3836ad8357
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 24%
 
 ---
 
 # 尋找量度
 
-說明尋找量度的兩個主要方法：排序和篩選。
+在Analysis Workspace中尋找量度的方式，與尋找其他型別元件的方式相同。
 
-## 排序 {#sorting}
-
-開啟報表並按一下報表左側的「量度」圖示 ![](assets/metrics_icon.png) 帶出量度邊欄，量度選擇器中的「**[!UICONTROL 排序依據]**」下拉式清單會顯示四個排序選項：
-
-![](assets/cm_sort.png)
-
-| 選項 | 使用時機 |
-|---|---|
-| 字母順序 | 適用於當您知道名稱時。 |
-| 建議 | 大家常在報表中使用的通用量度 - 此項目是由後端從使用者常在此報表中使用的量度收集而得。 |
-| 經常使用 | 適用於當您是新手使用者，需了解哪些是報表常用量度時。 |
-| 最近使用 | 適用於當您在專案中工作，且會一再使用同一組量度時。 |
-
-## 篩選 - 進階選擇 {#filtering-advanced}
-
-開啟報表並按一下「量度」圖示，接著按一下&#x200B;**[!UICONTROL 「管理」]**。現在按一下「篩選」圖示。您可用數種方法進行篩選。
-
-![](assets/cm_advanced_sel.png)
-
-| 如果您要 | 排序方式 |
-| --- | --- |
-| 顯示此資料檢視中的所有量度。 | 其他篩選器 > 顯示全部 |
-| 只顯示您擁有的量度 | 其他篩選器 > 我的 |
-| 顯示其他人與我共用的量度 | 「擁有者」或「其他篩選器」> 與我共用 |
-| 只顯示公司核准的量度。 | 已核准 |
-| 依量度篩選您正在工作的專案。 | 其中一個標記。 |
+如需有關如何快速找到元件的資訊，請參閱 [搜尋、篩選及排序元件清單](https://experienceleague.corp.adobe.com/docs/analytics-platform/using/cja-components/overview.html?lang=en#search%2C-filter%2C-and-sort-the-component-list) 在 [元件概觀](/help/components/overview.md).
