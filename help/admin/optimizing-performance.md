@@ -3,7 +3,7 @@ description: 影響CJA和工作區效能的因素，以及您可以採取的最�
 title: 最佳化CJA和Analysis Workspace效能
 feature: FAQ
 exl-id: ad00e476-6f19-462b-ba53-d72ddd949802
-source-git-commit: b6e8dff7fc2ec16200cba5ac8ef029880bd830ff
+source-git-commit: 935839190d86dd907a45c311c9b53236edaaaa2e
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 75%
@@ -31,9 +31,9 @@ ht-degree: 75%
 | **視覺效果複雜度** （篩選器、量度、篩選器） | 專案本身新增的視覺效果型別（例如流失和自由表格）對專案效能的影響不大。 視覺效果的複雜度會增加處理時間。 | 增加視覺效果複雜度的因素包括：<ul><li>要求的資料範圍</li><li>套用的篩選器數；例如，用來作為自由表格列的篩選器</li><li>使用複雜篩選器</li><li>[自由表格的靜態項目列或欄](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)</li><li>自由表格列所套用的篩選器</li><li>包含的量度數目，尤其是使用了篩選器的計算量度</li></ul> |
 | **資料中心容量** | 您和其他客戶在 Adobe 資料中心內共用的報告容量。 | 這會受到貴組織和其他組織在您的資料中心內同時發出的查詢數量所影響。 | 貴組織有權設定容量，而如果系統負載較輕，Adobe 會將更多容量轉移給您，這會超出您的權利限額。 |
 | **並行查詢數** | 您的組織同時請求的查詢數。 每個組織都有權同時進行至少5個查詢???如果報表需要很長時間，通常是因為它與其他報表位於佇列中。 這表示貴組織針對特定資料檢視同時嘗試執行許多請求。 查詢可以來自API請求、報表UI (Analysis Workspace、Report Builder等)、已排程專案、已排程警報，以及同時提出報表請求的使用者。 在一天中更平均地分佈資料檢視的請求和排程。 此外，盡可能將您的要求轉移到非高峰時段。 星期一早上、星期二早上及每個月的第一天都是尖峰報告時間。 |
-| **資料檢視大小???** | 收集到您的資料檢視中的資料量。 |  | 請洽詢您的實作團隊或CJA專家，判斷是否有可行的實作改善專案能改善CJA的整體體驗。 |
-| **維度設定的複雜性** | 高度複雜的維度可能會對專案效能產生重大影響。 | 自訂欄位會增加複雜性。 | 減少自訂欄位數或建立個別維度。 |
-| **具有許多唯一值的Dimension** | 這些維度也稱為高基數維度，可能會影響可報告的內容。 | 另請參閱 [高基數維度](/help/components/dimensions/high-cardinality.md) | 另請參閱 [高基數維度](/help/components/dimensions/high-cardinality.md) |
+| **連線大小** | 收集到您連線的資料量。 |  | 請洽詢您的實作團隊或CJA專家，判斷是否有可行的實作改善專案能改善CJA的整體體驗。 |
+| **維度設定的複雜性** | 高度複雜的維度可能會對專案效能產生重大影響，尤其是基於複雜自訂欄位的維度或量度。 |  | 減少自訂欄位數或建立個別維度。 |
+| **具有許多唯一值的Dimension** | 這些維度也稱為高基數維度，可能會影響報表效能。 | 另請參閱 [高基數維度](/help/components/dimensions/high-cardinality.md) | 另請參閱 [高基數維度](/help/components/dimensions/high-cardinality.md) |
 
 ## Analysis Workspace 中的[!UICONTROL 「說明] > [!UICONTROL 效能」]
 
