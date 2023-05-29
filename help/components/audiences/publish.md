@@ -2,7 +2,7 @@
 title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: 28c56e7f33960c75ab6ca87fcbc0d1fb61d2f107
+source-git-commit: a56cc7a0299aad98ff8af5e0d59df4679e0d2d25
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 90%
@@ -82,15 +82,15 @@ ht-degree: 90%
 
 ## 延遲的注意事項 {#latency}
 
-對象發佈前、期間和之後的數點，可能會發生延遲。 以下是可能的延遲的概觀。
+對象發佈之前、期間和之後的數個時間點，可能會發生延遲。 以下是可能的延遲的概觀。
 
-![從AEP延遲至CJA](assets/latency-diagram.png)
+![從AEP到CJA的延遲](assets/latency-diagram.png)
 
 | # | 延遲點 | 延遲期間 |
 | --- | --- | --- |
-| 未顯示 | Adobe Analytics到Analytics來源連接器(A4T) | 最多需 30 分鐘 |
-| 1 | 資料內嵌至Data Lake（來自Analytics來源連接器或其他來源） | 最多需 90 分鐘 |
-| 2 | 從Experience Platform資料湖擷取資料至CJA | 最多需 90 分鐘 |
+| 未顯示 | Adobe Analytics至Analytics來源聯結器(A4T) | 最多需 30 分鐘 |
+| 1 | 資料擷取至Data Lake （從Analytics來源聯結器或其他來源） | 最多需 90 分鐘 |
+| 2 | 從Experience Platform資料湖將資料擷取到CJA | 最多需 90 分鐘 |
 | 3 | 對象發佈至即時客戶設定檔，包括自動建立串流區段並允許該區段準備接收資料。 | 約 60 分鐘 |
 | 4 | 對象的重新整理頻率 | <ul><li>一次性重新整理 (延遲時間小於 5 分鐘)</li><li>每 4 小時、每天、每週、每月重新整理一次 (延遲與重新整理頻率息息相關) |
 | 5 | 在 AEP 中建立目的地：啟動新區段 | 1-2 小時 |
@@ -131,7 +131,7 @@ CJA 會從您發佈的對象中取得所有命名空間和 ID 組合，並將它
 
 +++
 
-+++**CJA會以管道事件或也會前往資料湖的一般檔案形式傳送對象資料嗎？**
++++**CJA會將對象資料以管道事件傳送，還是以也會傳送至資料湖的平面檔案傳送？**
 
 CJA 會透過管道將資料串流至 RTCP，此資料也會收集至資料湖的系統資料集中。
 
@@ -139,7 +139,7 @@ CJA 會透過管道將資料串流至 RTCP，此資料也會收集至資料湖�
 
 +++**CJA 會傳送哪些身分識別？**
 
-在 [連線設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant#create-connection). 具體而言，就是使用者選取要作為其「人員 ID」之欄位時的步驟。
+中指定的任何身分/名稱空間配對 [連線設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant#create-connection). 具體而言，就是使用者選取要作為其「人員 ID」之欄位時的步驟。
 
 +++
 
@@ -155,15 +155,15 @@ CJA 會透過管道將資料串流至 RTCP，此資料也會收集至資料湖�
 
 +++
 
-+++**每日、每週和每月的重新整理會發生在一天的何時？ 每週重新整理會發生在一週的哪一天？**
++++**一天中的哪個時間會進行每日、每週和每月重新整理？ 每週的哪一天會重新整理一次？**
 
-重新整理的時間會根據原始對象的發佈時間，並錨記至當天的時間（以及一週中的某天或每月的某天）。
+重新整理的時間會根據原始對象發佈的時間以及當天的錨點（以及星期或月）而定。
 
 +++
 
-+++**使用者是否可設定每日、每週和每月的重新整理時間？**
++++**使用者可以設定每日、每週和每月重新整理的時間嗎？**
 
-否，無法由使用者設定。
+否，使用者無法設定這些變數。
 
 +++
 
