@@ -2,7 +2,7 @@
 title: 比較 Adobe Analytics 和 CJA 報告功能的資料處理
 description: 了解各種報告功能的資料處理差異
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a38e2afac7645e9249e42e0b4830f5249a69b522
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 71%
@@ -45,7 +45,7 @@ ht-degree: 71%
 | 計算量度 | 評估客戶建立的自訂量度，這些量度可以根據複雜的公式，包括區段和篩選器。 | 範例：買紅鞋子的人數。 |
 | 歸因邏輯 | 計算歸因的邏輯。 | 範例：eVar 持續性。 |
 | 元件設定 | 將自訂套用至量度或維度，例如歸因、行為、格式等 | 範例：根據範圍組合數值的值分組 |
-| 自訂欄位 | 在資料檢視中定義元件時，邏輯會套用至結構描述或標準欄位。 | 範例：建立新的行銷管道維度 |
+| 衍生欄位 | 在資料檢視中定義元件時，邏輯會套用至結構描述或標準欄位。 | 範例：建立新的行銷管道維度 |
 
 {style="table-layout:auto"}
 
