@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a546c52d2a686c38f7a9a23e0c541568c2918495
+source-git-commit: 960021f2374b38b96fc1ec18200f1790194bfbb8
 workflow-type: tm+mt
-source-wordcount: '1868'
-ht-degree: 93%
+source-wordcount: '2060'
+ht-degree: 91%
 
 ---
 
@@ -20,12 +20,16 @@ ht-degree: 93%
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 5 月** |  |
+| 深層連結（行動應用程式）檔案 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。這使得共享專案和提高技術水平較低的對象參與度變得更加容易。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
+| 有關Report Builder中「從儲存格選取資料檢視」的檔案 | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。如果您建立一個活頁簿且有多個資料結構類似的資料檢視，而且您想要多次重複使用一個活頁簿搭配不同資料檢視，這將很有幫助。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
+| Analytics儀表板應用程式（行動應用程式）更新後首頁畫面的檔案 | 新更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。如果您一次登入可以存取多個組織，則單一清單會提供您所有組織的計分卡。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
+| 最佳化更新 | 更新文章： [最佳化CJA效能](/help/admin/optimizing-performance.md) |
 | Analysis Workspace 概觀 | 更新[Analysis Workspace 概觀](/help/analysis-workspace/home.md)以包含更多一般概觀資訊和相關內容的連結。 |
 | 建立專案 | 建立新文章，其中詳細說明如何在 Analysis Workspace [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)。 |
-| 在左側邊欄中排序元件 | 新增關於排序左側邊欄中元件清單的資訊。請參閱 [元件概觀](/help/components/overview.md). |
-| 從自由格式表格中刪除包含動態維度的列 | 已新增有關如何使用x圖示快速刪除包含動態維度之特定列的資訊。 請參閱「從表格快速排除特定列」一節，位於 [篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
-| 在面板中新增視覺效果的按鈕 | 已新增Analysis Workspace中每個面板底部新按鈕的相關資訊，可讓您快速新增視覺效果。 請參閱「將視覺效果新增至面板」一節，位於 [視覺效果概述](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
-| 智慧字幕檔案 | 讓使用者透過 [自然語言摘要](/help/analysis-workspace/visualizations/intelligent-captions.md) 線條視覺效果。 |
+| 排序左側邊欄中的元件 | 新增排序左側邊欄中元件清單的相關資訊。請參閱以下主題中的「搜尋、篩選及排序元件清單」一節： [元件概觀](/help/components/overview.md). |
+| 從自由格式表格中刪除包含動態維度的列 | 新增有關如何使用x圖示快速刪除包含動態維度之特定列的資訊。 請參閱中的「快速從表格中排除特定列」一節。 [篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| 在面板中新增視覺效果的按鈕 | 新增有關Analysis Workspace中每個面板底部新按鈕的資訊，讓您快速新增視覺效果。 請參閱以下的「將視覺效果新增至面板」一節： [視覺效果概觀](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| 智慧型字幕檔案 | 透過豐富使用者敘事 [自然語言摘要](/help/analysis-workspace/visualizations/intelligent-captions.md) 線條圖視覺效果的。 |
 | **2023 年 4 月** |  |
 | 關於使用篩選器做為維度的影片 | 更新關於使用篩選器做為維度的影片 <p>該影片連結自「[建立篩選器](/help/components/filters/create-filters.md)」頁面。</p> <p>以下是影片的直接連結：[在 Analysis Workspace 中使用篩選器做為維度](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)。</p> |
 | 篩選器文件 | 新增說明如何使用[篩選器產生器](/help/components/filters/filter-builder.md)的文章。 <p>簡化了[建立篩選器](/help/components/filters/create-filters.md)和[篩選器概觀](/help/components/filters/filters-overview.md)文件。</p> |
