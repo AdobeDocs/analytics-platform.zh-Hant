@@ -4,9 +4,9 @@ description: 僅計算報告中量度的第一次出現。
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 9a31b1dcba4015f00dd7ae8c43b317e1c5679a2c
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 100%
 
 量度重複資料刪除允許您將量度設定為僅對值進行非重複計數。
 
+![量度重複資料刪除](../assets/metric-deduplication.png)
+
 | 設定 | 說明 |
 | --- | --- |
 | [!UICONTROL 量度重複資料刪除] | 允許您啟用量度重複資料刪除的核取方塊。預設為停用。 |
@@ -22,7 +24,7 @@ ht-degree: 100%
 | [!UICONTROL 重複資料刪除 ID] | 不是在量度本身上套用重複資料刪除，而是允許您根據維度套用重複資料刪除。對於購買 ID 之類的維度套用重複資料刪除很有價值。 |
 | [!UICONTROL 要保留的值] | <ul><li>**保留第一個實例**：在量度的第一個實例是有效的情況下使用。最常見的可能是購買確認。即使有人在無意間重新載入頁面，而且我們得到另一個購買確認的實例，初始事件仍有效。</li><li>**保留最後一個實例**：如果收集最後一個實例較有意義，請用此選項。範例：有人更新了自己的線上設定檔。針對每個工作階段中的更新，我們只想計入其中之一。但是，他們可能會在工作階段期間多次更新他們的設定檔。如果我們保留第一個實例，則可能會有與事件無關的活動。在這種情況下，保留最後一個實例更有意義。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!CAUTION]
 >

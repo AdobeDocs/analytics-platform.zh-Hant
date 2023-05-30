@@ -4,16 +4,20 @@ description: 允許您為量度設定預設歸因。
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
 workflow-type: tm+mt
-source-wordcount: '1782'
+source-wordcount: '1781'
 ht-degree: 38%
 
 ---
 
 # 歸因元件設定
 
-歸因可讓您自訂維度專案獲得成功事件評分的方式。 例如：
+歸因可讓您自訂維度專案獲得成功事件評分的方式。
+
+![](../assets/attribution-settings.png)
+
+例如：
 
 1. 您網站的使用者按一下您其中一個產品頁面的付費搜尋連結。 他們將產品新增至購物車，但並未購買。
 2. 第二天，他們看到了朋友的社群媒體貼文。 他們按一下連結，然後完成購買。
@@ -22,7 +26,7 @@ ht-degree: 38%
 
 此資料檢視元件設定可讓您為量度設定預設歸因模型。 在 Analysis Workspace 中工作時，您可以覆寫給定量度的歸因模型。
 
-![歸因](../assets/attribution-settings.png)
+
 
 如果您的組織要求量度有多個歸因設定，您可以執行下列任一項作業：
 
