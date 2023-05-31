@@ -3,16 +3,16 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新 CJA 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 960021f2374b38b96fc1ec18200f1790194bfbb8
+source-git-commit: 2ff3fae7e285998d787a259d9d18c6d5e7fa961e
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 82%
+source-wordcount: '932'
+ht-degree: 77%
 
 ---
 
 # 目前的 Customer Journey Analytics (CJA) 發行說明 (2023 年 5 月)
 
-**上次更新日期**：2023 年 5 月 30 日
+**上次更新日期**：2023 年 5 月 31 日
 
 Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運�
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Adobe Journey Optimizer資料檢視** | CJA管理員可以存取CJA中一些額外的資料檢視，標題為「AJO資料檢視(Sandbox-name)」。 這些資料檢視可用來支援Adobe Journey Optimizer (AJO)中的報表。 它們也可用來在CJA中執行更深入的AJO活動分析。 [了解更多](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html)。 |  | 2023 年 5 月 25 日 |
 | **非生產沙箱的回填** | 在非生產沙箱中建立 Analytics 來源連接器資料流時，非生產沙箱中的回填將限制為 3 個月。生產沙箱將維持 13 個月。 | 不適用 | 2023 年 4 月 26 日 |
 | **專案連結共用 (不需登入)** | 您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。這包括與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant#share-public-link) <p>此功能預設為啟用，系統管理員可以停用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hant#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 5 日 |
 | **更新 Analytics 儀表板應用程式 (行動應用程式) 的首頁** | 新更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。如果您一次登入可以存取多個組織，則單一清單會提供您所有組織的計分卡。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) | 不適用 | 2023 年 5 月 10 日 |
