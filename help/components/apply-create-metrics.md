@@ -3,10 +3,10 @@ description: 在 Analysis Workspace 中使用量度有兩種方式。
 title: 量度
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >
 > 雖然這項操作看似簡單，但使用量度帶來的效果卻相當強大。將合適的量度拖曳至表格的量度區，就能新增量度到報表。您也可以依量度來劃分維度，讓您更精確地控制表格檢視。此外，您可以將量度當作維度插入表格，維度則當作量度，藉此建立特定時段報表。您可以盡情組合不同元件，了解各種效果。量度的可能性是無限的。
 
-或者，您可以按一下「**[!UICONTROL 元件]** > **[!UICONTROL 新增量度]**」。這會將您帶往「[計算量度產生器](/help/components/calc-metrics/calc-metr-overview.md)」，讓您從現有的量度建立自訂量度。
+或者，您可以按一下「**[!UICONTROL 元件]** > **[!UICONTROL 新增量度]**」。這會將您帶至 [計算量度產生器](/help/components/calc-metrics/calc-metr-overview.md)，即可從現有量度建立自訂量度。
 
 為了更方便快速建立計算量度，已將&#x200B;**[!UICONTROL 「從選取範圍建立量度」]**&#x200B;新增至自由表格中的欄滑鼠右鍵選單。只要選取一個或多個標頭欄儲存格，就可以看到這個選項。
 

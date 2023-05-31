@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: 34ee7954329d7dc8520031a977bb83d6e1bf3d3d
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+workflow-type: tm+mt
+source-wordcount: '922'
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 
 ## Workspace 專案管理
 
-另一個層級的存取控制可用於 Workspace 報告層級。您可以限制某些使用者對特定元件的存取權。有關如何在 Workspace 專案層級限制元件 (維度、量度、客戶細分、日期範圍) 以及管理如何與資料檢視相關聯的更多資訊，請參閱[管理專案](/help/analysis-workspace/curate-share/curate.md)。
+另一個層級的存取控制可用於 Workspace 報告層級。您可以限制某些使用者對特定元件的存取權。如需如何在Workspace專案層級限制元件（維度、量度、篩選器、日期範圍），以及管理如何與資料檢視相關聯的詳細資訊，請參閱 [組織專案](/help/analysis-workspace/curate-share/curate.md).
 
 ## 授與個別量度或維度的存取權
 
@@ -98,4 +98,4 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 | **[!UICONTROL 建立對象]** | 可讓使用者建立[對象](/help/components/audiences/audiences-overview.md)。 |
 | **[!UICONTROL 對象檢視]** | 可讓使用者查看[對象](/help/components/audiences/audiences-overview.md)。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

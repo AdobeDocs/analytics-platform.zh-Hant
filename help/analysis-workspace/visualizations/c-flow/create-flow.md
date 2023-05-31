@@ -4,10 +4,10 @@ title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '1305'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 86%
 |--- |--- |
 | [!UICONTROL 焦點放在這個節點] | 將焦點變更至選取的節點。焦點節點會出現在流量圖的中央。 |
 | [!UICONTROL 重新開始] | 將您帶回自由圖表產生器，讓您在那裡建立新的流量圖。 |
-| [!UICONTROL 自這個流量的點建立區段] | 建立區段。此選項會將您帶往「區段產生器」，讓您在該處設定新區段。 |
+| [!UICONTROL 從流量的這個點建立篩選器] | 建立篩選器。 這會將您帶往篩選產生器，讓您在其中設定新篩選。 |
 | [!UICONTROL 劃分] | 依據可用的「維度」、「量度」或「時間」來劃分節點。 |
 | [!UICONTROL 趨勢] | 建立節點的趨勢圖。 |
 | [!UICONTROL 展開整個欄] | 展開該欄以顯示所有節點。依預設，只會顯示前五個節點。 |

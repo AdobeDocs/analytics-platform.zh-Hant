@@ -3,10 +3,10 @@ title: 計算量度總覽
 description: 了解衍生自報告執行時間的篩選量度。
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 

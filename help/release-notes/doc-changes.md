@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 960021f2374b38b96fc1ec18200f1790194bfbb8
+source-git-commit: a7a03fa6e0f71d473b4713bd9817e1b97dab383e
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 91%
+source-wordcount: '2094'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 91%
 
 | 功能 | 說明 |
 | --- | --- |
+| **2023 年 6 月** |  |
+| 計算量度更新 | 已更新與計算量度相關的各種文章，包括更新程式的熒幕擷取畫面和步驟。 這些變更是為了使檔案與目前的CJA功能一致。 |
 | **2023 年 5 月** |  |
 | 深層連結（行動應用程式）檔案 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。這使得共享專案和提高技術水平較低的對象參與度變得更加容易。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
 | 有關Report Builder中「從儲存格選取資料檢視」的檔案 | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。如果您建立一個活頁簿且有多個資料結構類似的資料檢視，而且您想要多次重複使用一個活頁簿搭配不同資料檢視，這將很有幫助。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |

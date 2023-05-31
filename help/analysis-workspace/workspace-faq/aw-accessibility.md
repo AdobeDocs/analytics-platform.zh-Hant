@@ -3,7 +3,7 @@ description: Analysis Workspace 的協助工具支援功能
 title: Analysis Workspace 的協助工具
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 32c507cb9de4fcd146de0e9c828c54c5f4f1a062
+source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 99%
@@ -67,7 +67,7 @@ ht-degree: 99%
 | `[Alt + 1]` | 新增自由表格 |
 | `[Ctrl + Shift + C]` | 新增計算量度 |
 | `[Ctrl + Shift + D]` | 新增日期範圍 |
-| `[Ctrl + Shift + E]` | 新增區段 |
+| `[Ctrl + Shift + E]` | 新增篩選器 |
 | `[Ctrl + Z]` | 還原 |
 | `[Component drag + Shift]` | 建立下拉式篩選器 |
 
