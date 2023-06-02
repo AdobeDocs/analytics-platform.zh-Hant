@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '902'
 ht-degree: 95%
 
 ---
@@ -256,11 +256,10 @@ ht-degree: 95%
       + [預設計算量度](../components/calc-metrics/default-calcmetrics.md)
       + [基本函數](../components/calc-metrics/cm-functions.md)
       + [進階函數](../components/calc-metrics/cm-adv-functions.md)
-   + 日期範圍 {#cja-date-ranges}
-      + [日期範圍總覽](../components/date-ranges/overview.md)
+   + 日曆和日期範圍 {#cja-date-ranges}
+      + [日曆和日期範圍總覽](../components/date-ranges/calendar.md)
       + [建立日期範圍](../components/date-ranges/create.md)
       + [管理日期範圍](../components/date-ranges/manage.md)
-      + [行事曆總覽](../components/date-ranges/calendar.md)
       + [建立自訂日期範圍](../components/date-ranges/custom-date-ranges.md)
       + [日期比較](../components/date-ranges/time-comparison.md)
    + 資料字典 {#data-dictionary}
