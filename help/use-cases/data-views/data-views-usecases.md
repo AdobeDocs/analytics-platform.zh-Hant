@@ -4,10 +4,10 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b2dc937159fc631755c1c5486149a94f7cd33f89
-workflow-type: ht
+source-git-commit: 0fdf95906e17b9e90fa6ba652aa8e53f695279a4
+workflow-type: tm+mt
 source-wordcount: '1313'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -97,9 +97,9 @@ f. 指定「50」當做值。
 
 * [工作階段類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) - 此維度有兩個值：1) [!UICONTROL 新的]和 2) [!UICONTROL 回訪]。[!UICONTROL 新的]條列項目包含已確定為個人定義的首次工作階段的工作階段中的所有行為 (亦即針對此維度的量度)。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
 
-* [新工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional)。 新的工作階段量度定義為個人在報告時段內定義的首次工作階段。
+* [首次工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional). 「首次工作階段」量度定義為個人在報告時段內定義的首次工作階段。
 
-* [回訪工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) 回訪工作階段量度是非個人首次工作階段的工作階段數量。-->
+* [回訪工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) 「回訪工作階段」量度是非個人首次工作階段的工作階段數量。—>
 
 若要存取這些元件：
 
