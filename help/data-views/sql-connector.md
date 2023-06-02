@@ -6,9 +6,10 @@ feature: Data Views
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
+source-git-commit: f3dba7bac92cbda3285fe53a8961065e9bbbf972
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2900'
 ht-degree: 2%
 
 ---
@@ -33,7 +34,7 @@ Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs
 
 若要使用此功能，您必須
 
-- 啟用 [!UICONTROL CJA SQL聯結器] 在您的Experience Platform組織中。
+<!---   Enable the [!UICONTROL CJA SQL Connector] in your Experience Platform organization. -->
 
 - 設定相關產品設定檔、使用者群組及/或個別使用者的功能。<br/>
 使用者必須擁有下列專案的存取權：
@@ -88,7 +89,7 @@ Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs
 
 ### BI Tools
 
-目前CJA SQL Connector支援Power BI和Tableau。
+目前CJA SQL Connector僅支援Power BI和Tableau並進行測試。 其他使用PSQL介面的BI工具可能也可運作，但尚未正式支援。
 
 +++ Power BI
 
@@ -219,9 +220,9 @@ prod:all=> \dv
 
 另請參閱 [查詢服務SQL參考](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html?lang=en) 以取得支援哪種SQL型別的完整參考。
 
-請參閱下方的圖樣表格，以取得圖樣和範例的概觀。
+請參閱下表，瞭解您可以使用的SQL範例。
 
-+++模式
++++ 範例
 
 | 圖樣 | 範例 |
 |---|---|
@@ -390,4 +391,3 @@ ORDER BY -metric1 DESC
 | [DATE_TRUNC（粒度、日期或日期時間）](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | 在傳入的欄位上產生動態維度身分識別。<br/>支援的字串粒度為： `'YEAR'`， `'Y'`， `'MONTH'`， `'M'`， `'DAYOFMONTH'`， `'DAY'`， `'D'`， `'DAYOFWEEK'`， `'DOW'`， `'DAYOFYEAR'`， `'DOY'`， `'WEEK'`， `'WOY`&#39;， `'W'`， `'QUARTER'`， `'QOY'`， `'Q'`， `'HOUR'`，或 `'MINUTE'`. |
 
 {style="table-layout:auto"}
-
