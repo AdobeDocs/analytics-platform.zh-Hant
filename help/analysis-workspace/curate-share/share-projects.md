@@ -4,10 +4,10 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: a64b380c337f2f359b4cffd23265a8fca8251957
 workflow-type: tm+mt
-source-wordcount: '1899'
-ht-degree: 49%
+source-wordcount: '1934'
+ht-degree: 48%
 
 ---
 
@@ -130,6 +130,10 @@ ht-degree: 49%
 >* 如果您的組織授權Healthcare Shield，您只能與已透過單一登入(SSO)或Adobe ID驗證的使用者共用專案；您無法與未驗證的使用者共用專案。 您有責任根據公司的內部資料控管政策使用此功能，且僅與具有適當許可權的使用者共用包含個人健康資訊(PHI)的專案連結。
 
 
+下列影片示範和隨附檔案說明與任何人共用連結相關的選項：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 若要與任何人共用Analysis Workspace專案：
 
 1. 開啟您要共用的Analysis Workspace專案。
@@ -150,7 +154,7 @@ ht-degree: 49%
 
    * **[!UICONTROL 需要 Experience Cloud 驗證]:**
 
-      啟用此選項後，只有可登入您共用專案所在的Adobe Experience Cloud組織的使用者才能存取該專案。
+      啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe Experience Cloud組織。 不過，您共用的使用者不需要擁有Adobe Analytics的存取權。
 
       CJA管理員可以為公司設定此偏好設定，如中所述 [偏好設定](/help/analysis-workspace/user-preferences.md). 您可能會遇到以下情況，具體取決於管理員如何設定此選項：
 
