@@ -5,10 +5,10 @@ title: 為專案排程
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 19ed9553a147c87e20ecfcf536d03b7c6b2e9b91
+source-git-commit: ebdbfcb4a512c8810364693fc3c2504f958bc986
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 97%
+source-wordcount: '910'
+ht-degree: 91%
 
 ---
 
@@ -21,8 +21,10 @@ ht-degree: 97%
 若要透過電子郵件立即傳送檔案給收件者：
 
 1. 按一下 **[!UICONTROL 共用] > [!UICONTROL 匯出檔案]**.
-1. 指定檔案類型 (CSV 或 PDF)。
-1. (選用) 新增要加入電子郵件中的說明，以說明傳送的檔案。
+1. 指定檔案型別：
+   * [!UICONTROL **CSV**]：如果您想要純文字資料，請選擇此選項。
+   * [!UICONTROL **PDF**]：如果您希望下載的檔案包含專案中所有顯示的（可見）表格和視覺效果，請選取此選項。
+1. （選用）新增說明以包含在電子郵件中，說明正在接收的檔案。
 1. 新增收件者或群組。您也可以輸入電子郵件地址。
 1. (僅適用於 Healthcare Shield 客戶) 提供密碼。請參閱「密碼保護排程報告」章節。
 1. 按一下「**[!UICONTROL 立即傳送]**」。
@@ -59,7 +61,7 @@ ht-degree: 97%
 | [!UICONTROL 所有者] | 建立及擁有專案的人。 |
 | [!UICONTROL 標記] | (選擇性) 標記是組織專案的好方法。 所有使用者都可建立標記，並將一個或多個標記套用到專案。 不過，您只能看見自己所擁有或他人與您共用的那些專案的標記。 |
 | [!UICONTROL 已傳遞到] | 此排程專案的收件者。 |
-| [!UICONTROL 到期日] | 無論排程頻率為何，您都可以將到期日設定為最多一年。 |
+| [!UICONTROL 到期日] | 您可以將到期日設定為一年，無論排程頻率為何。 |
 | [!UICONTROL 頻率] | 您想要將此排程專案傳送給收件者的頻率。 |
 | [!UICONTROL 執行時間] | 在一天中的什麼時間傳送此排程專案。 |
 | [!UICONTROL 查詢數] | 針對此專案執行的查詢數。 |
