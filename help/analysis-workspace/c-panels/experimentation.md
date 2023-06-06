@@ -3,10 +3,10 @@ description: 了解如何在 CJA Experimentation 面板中分析 A/B 測試的�
 title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
 workflow-type: tm+mt
-source-wordcount: '1833'
-ht-degree: 75%
+source-wordcount: '1861'
+ht-degree: 73%
 
 ---
 
@@ -125,3 +125,7 @@ Customer Journey Analytics中的實驗面板可讓您依人員的狀態，以平
 ![隨機化實驗](assets/randomize.png)
 
 當您想要測量干預X對結果Y的影響時，兩者的真正原因可能是混淆因素C。如果資料不是藉由在X上隨機化人員來取得，影響將更難測量，且分析將明確說明C。隨機化會中斷X對C的依賴，讓我們不必擔心其他變數，即可測量X對Y的影響。
+
+## 在Experimentation面板中使用計算量度
+
+請參閱這篇部落格，瞭解更多資訊 [在Experimentation面板中使用衍生量度](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
