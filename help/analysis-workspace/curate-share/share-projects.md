@@ -4,7 +4,7 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: a64b380c337f2f359b4cffd23265a8fca8251957
+source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 48%
@@ -104,8 +104,6 @@ ht-degree: 48%
 1. 與組織中的使用者共用連結。例如，您可以將其貼上到電子郵件、內部網站等。
 
 ## 與任何人共用專案（不需要登入） {#share-public-link}
-
-{{release-limited-testing-section}}
 
 您可以授予 [唯讀存取](/help/analysis-workspace/curate-share/view-only-projects.md) Analysis Workspace專案給無法存取Customer Journey Analytics的使用者。 這可能包括：
 

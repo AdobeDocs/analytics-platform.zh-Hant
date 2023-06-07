@@ -4,10 +4,10 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 29ceba37422ab2cb432bbe000dee6379a63d5a8f
+source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
 workflow-type: tm+mt
-source-wordcount: '3149'
-ht-degree: 74%
+source-wordcount: '3099'
+ht-degree: 75%
 
 ---
 
@@ -44,10 +44,6 @@ ht-degree: 74%
 | 左側邊欄群組中顯示的元件 | 在左側邊欄的「元件」選單中，選取每個元件的顯示數量。 <p>如果選擇 0，則無法再從工作區的左側邊欄存取元件。</p><p>根據預設，會針對下列各項顯示 5 個元件：</p> <ul><li>維度</li><li>量度</li><li>篩選器</li><li>日期範圍</li></ul> <p>如需有關 Analysis Workspace 中元件的詳細資訊，請參閱[元件概觀](/help/components/overview.md)。</p> |
 
 ## IMS組織偏好設定
-
->[!AVAILABILITY]
->
->本節中說明的公開存取連結功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
 
 您可以更新適用於組織內所有使用者和專案的公司偏好設定。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
