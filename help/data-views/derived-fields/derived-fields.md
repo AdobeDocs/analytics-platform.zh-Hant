@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: f9aafab436fa1f26be9ed2e433ded046bbb1135a
+source-git-commit: b780a6cb4e0f922ff68d62b742ff58034db672b7
 workflow-type: tm+mt
-source-wordcount: '3218'
+source-wordcount: '3252'
 ht-degree: 8%
 
 ---
@@ -123,6 +123,11 @@ ht-degree: 8%
    A [!UICONTROL 刪除元件] 對話方塊會要求您確認刪除。 考慮資料檢視外部衍生欄位可能存在的任何外部參考。
 
    - 選取 **[!UICONTROL **&#x200B;繼續&#x200B;**]** 以刪除衍生欄位。
+
+>[!NOTE]
+>
+>衍生欄位在CJA中的連線層級進行管理。 對與該連線相關聯之任何資料檢視中的衍生欄位所做的任何變更，都會套用至所有這些相關聯的資料檢視。
+
 
 
 ## 函數範本
