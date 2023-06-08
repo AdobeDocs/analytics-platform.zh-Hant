@@ -3,10 +3,10 @@ description: 您可以組織、共用和排定 PDF/CSV 專案給組織中的收�
 title: 共用功能表
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
-source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
+source-git-commit: 767d112d13b7312aa8685cc132916f2e27896422
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 66%
+source-wordcount: '152'
+ht-degree: 75%
 
 ---
 
@@ -14,13 +14,9 @@ ht-degree: 66%
 
 您可以在工作區的&#x200B;**「共用」功能表**&#x200B;中，策劃、共用及排定 PDF/CSV 專案給貴組織的收件者。
 
->[!AVAILABILITY]
->
->本文章中說明的某些功能處於版本的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
-
 | 選單選項 | 說明 |
 |---|---|
-| 與工作區使用者共用（限量測試中提供） | 讓您組織中的其他 Analysis Workspace 使用者也能使用相同專案。與特定使用者共用，或建立分享連結以快速存取專案。 使用者必須登入。 [了解更多](/help/analysis-workspace/curate-share/share-projects.md) |
+| 與 Workspace 使用者共用 | 讓您組織中的其他 Analysis Workspace 使用者也能使用相同專案。與特定使用者共用，或建立分享連結以快速存取專案。 使用者必須登入。 [了解更多](/help/analysis-workspace/curate-share/share-projects.md) |
 | 與任何人共用 | 將Analysis Workspace專案的唯讀存取權授與沒有Adobe Analytics存取權的使用者。 [了解更多](/help/analysis-workspace/curate-share/share-projects.md) |
 | 匯出檔案 | 立即將專案以 CSV 或 PDF 格式傳送給指定的收件者。[了解更多](/help/analysis-workspace/curate-share/t-schedule-report.md) |
 | 排程檔案匯出 | 依排程將專案以 CSV 或 PDF 格式傳送給指定的收件者。[更多詳情](/help/analysis-workspace/curate-share/t-schedule-report.md) |
