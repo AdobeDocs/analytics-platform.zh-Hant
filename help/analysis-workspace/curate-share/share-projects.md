@@ -4,10 +4,10 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 433bbb7526618f2b924ebd06768ebb3074efab57
+source-git-commit: cbd2d9b7143bb1cc3246330f656b911d7e362fe3
 workflow-type: tm+mt
-source-wordcount: '1934'
-ht-degree: 48%
+source-wordcount: '1944'
+ht-degree: 47%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 48%
 
 * 您組織中有權存取Adobe Customer Journey Analytics的使用者和群組
 
-   您可以共用編輯、複製或檢視存取權
+  您可以共用編輯、複製或檢視存取權
 
 * 您組織中無權存取Customer Journey Analytics的使用者和群組
 
-   收件者具有唯讀存取權
+  收件者具有唯讀存取權
 
 * 組織外部的人員
 
-   收件者具有唯讀存取權
+  收件者具有唯讀存取權
 
 任何 [組織](curate.md) 收件者開啟專案時，會反映您在共用前套用的內容。
 
@@ -54,7 +54,7 @@ ht-degree: 48%
 
 * 獲得多個角色的使用者一律會有最高體驗。如果同時以個人和群組成員的身分新增使用者，就可能發生此狀況。例如，如果使用者以個人身分獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色，則其將獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;專案體驗。
 
-* 獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;或&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色的管理員，在開啟專案時會獲得這些有限的體驗。如有需要，管理員可隨時透過&#x200B;**[!UICONTROL 元件] > [!UICONTROL 專案]**&#x200B;將其角色增加到&#x200B;**[!UICONTROL 可編輯]**&#x200B;中。
+* 獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;或&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色的管理員，在開啟專案時會獲得這些有限的體驗。管理員可以將其角色變更為 **[!UICONTROL 可以編輯]** 共用專案並授予「編輯」角色，如下列程式所述。
 
 若要與組織中的使用者或群組共用特定專案角色：
 
@@ -127,7 +127,6 @@ ht-degree: 48%
 >
 >* 如果您的組織授權Healthcare Shield，您只能與已透過單一登入(SSO)或Adobe ID驗證的使用者共用專案；您無法與未驗證的使用者共用專案。 您有責任根據公司的內部資料控管政策使用此功能，且僅與具有適當許可權的使用者共用包含個人健康資訊(PHI)的專案連結。
 
-
 下列影片示範和隨附檔案說明與任何人共用連結相關的選項：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
@@ -152,9 +151,9 @@ ht-degree: 48%
 
    * **[!UICONTROL 需要 Experience Cloud 驗證]:**
 
-      啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe Experience Cloud組織。 不過，您共用的使用者不需要擁有Adobe Analytics的存取權。
+     啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe Experience Cloud組織。 不過，您共用的使用者不需要擁有Adobe Analytics的存取權。
 
-      CJA管理員可以為公司設定此偏好設定，如中所述 [偏好設定](/help/analysis-workspace/user-preferences.md). 您可能會遇到以下情況，具體取決於管理員如何設定此選項：
+     CJA管理員可以為公司設定此偏好設定，如中所述 [偏好設定](/help/analysis-workspace/user-preferences.md). 您可能會遇到以下情況，具體取決於管理員如何設定此選項：
 
       * 如果未顯示此選項，您的CJA管理員未啟用此功能。
 
