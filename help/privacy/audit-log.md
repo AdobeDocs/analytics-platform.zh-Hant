@@ -2,10 +2,10 @@
 title: 稽核記錄
 description: 了解如何檢視和管理 CJA 稽核記錄。
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: eceea9ef96701f66cceed5bcb50f92588df6e507
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+source-git-commit: 7fcbac6adb6946efd5c54b9f8edb4587dc34d445
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 79%
 
 ---
 
@@ -41,19 +41,49 @@ ht-degree: 100%
 
 系統會顯示以下項目：
 
-| 項目 | 說明 |
-| --- | --- |
-| 動作名稱 | 以下是可能的動作清單： <ul><li>API 要求</li><li>核准</li><li>建立</li><li>編輯</li><li>匯出</li><li>登入失敗</li><li>登入成功</li><li>登出</li><li>組織變更</li><li>重新整理</li><li>共用</li><li>轉移</li><li>取消核准</li><li>取消共用</li></ul> |
-| 說明 | 動作、元件類型 (含 ID) 和其他值的摘要。 |
-| 使用者名稱 | 執行動作的使用者。 |
-| 元件類型 | 可能的元件類型包括： <ul><li>註解</li><li>對象</li><li>計算量度</li><li>連線</li><li>資料群組</li><li>資料檢視 (此元件類型包括維度和量度)</li><li>功能存取</li><li>篩選器</li><li>IMS 組織</li><li>行動</li><li>專案</li><li>報表</li><li>排程專案</li><li>使用者</li><li>使用者群組</li></ul> |
-| IMS 組織 ID | 首次登入 Adobe Experience Cloud 時為您的執行個體提供的唯一 ID。格式應為：xxx@AdobeOrg。 |
-| 使用者 ID | 識別執行此動作之使用者的唯一 ID。 |
-| 建立日期 | 執行此動作時的時間。 |
-| 電子郵件 | 執行此動作之使用者的電子郵件。 |
-| 元件 ID | 識別動作執行目標元件的唯一 ID。 |
-| 記錄 ID | 識別此記錄項目的唯一 ID。 |
-| 使用者類型 | 可能的類型包括：IMS、OKTA |
+* **[!UICONTROL 動作名稱]**：採取的動作。 可能的值包括：
+   * API要求
+   * 核准
+   * 建立
+   * DELETE
+   * 編輯
+   * 匯出
+   * ORG_CHANGE
+   * 重新整理
+   * 共用
+   * 轉移
+   * 取消核准
+   * 取消共用
+* **[!UICONTROL 建立日期]**：執行動作的日期和時間。
+* **[!UICONTROL 說明]**：動作摘要。
+* **[!UICONTROL 使用者名稱]**：執行此動作的使用者。
+* **[!UICONTROL 電子郵件]**：執行動作之使用者的電子郵件地址。
+* **[!UICONTROL 元件名稱]**：使用者對其採取動作的元件。
+* **[!UICONTROL 元件型別]**：元件的型別。 可能的值包括：
+   * 註解
+   * 對象
+   * CALCULATED_METRIC
+   * 連線
+   * 資料群組
+   * 資料檢視
+   * DATASET_STITCHING
+   * DATE_RANGE
+   * 功能存取
+   * 篩選
+   * IMS組織
+   * 行動
+   * 專案
+   * 報告
+   * 排程專案
+   * 使用者
+   * 使用者群組
+* **[!UICONTROL 元件ID]**：使用者對其執行動作的元件的ID。
+* **[!UICONTROL IMS組織ID]**：組織的IMS ID，格式為 `ABC123@AdobeOrg`.
+* **[!UICONTROL 記錄ID]**：識別此記錄專案的唯一ID。
+* **[!UICONTROL 使用者ID]**：識別執行動作之使用者的唯一ID。
+* **[!UICONTROL 使用者型別]**：使用的驗證型別。 有效值包括：
+   * IMS
+   * OKTA
 
 ### 篩選稽核記錄
 
@@ -66,13 +96,13 @@ ht-degree: 100%
 | 篩選器 | 說明 |
 | --- | --- |
 | [!UICONTROL 日期範圍] | 選取不同日期，或拖曳游標橫跨多個日期來選取日期範圍，藉此篩選不同日期範圍。系統依預設會選擇今天和昨天的日期。 |
-| [!UICONTROL 動作] | 篩選下列其中一個或多個動作： <ul><li>API 要求</li><li>核准</li><li>建立</li><li>編輯</li><li>匯出</li><li>登入失敗</li><li>登入成功</li><li>登出</li><li>組織變更</li><li>重新整理</li><li>共用</li><li>轉移</li><li>取消核准</li><li>取消共用</li></ul> |
+| [!UICONTROL 動作] | 篩選上面列出的任何動作名稱。 |
 | [!UICONTROL 使用者 ID] | 依照使用者 ID 篩選特定使用者。選擇使用者名稱旁邊的資訊 (i) 按鈕可以找到使用者 ID。 |
 | [!UICONTROL 電子郵件] | 篩選特定使用者的電子郵件地址。選擇使用者名稱旁邊的資訊 (i) 按鈕可以找到電子郵件。 |
 | [!UICONTROL 元件 ID] | 篩選特定元件 ID。選擇所要元件的資訊 (i) 按鈕可以找到使用者 ID。 |
-| [!UICONTROL 元件類型] | 篩選一個或多個元件類型： <ul><li>註解</li><li>對象</li><li>計算量度</li><li>連線</li><li>資料群組</li><li>資料檢視</li><li>功能存取</li><li>篩選器</li><li>IMS 組織</li><li>行動</li><li>專案</li><li>報表</li><li>排程專案</li><li>使用者</li><li>使用者群組</li></ul> |
+| [!UICONTROL 元件類型] | 篩選上面列出的任何元件型別。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 由稽核記錄擷取的事件類型
 
@@ -94,7 +124,7 @@ ht-degree: 100%
 | [!UICONTROL 使用者] | <ul><li>API 要求</li><li>建立</li><li>刪除</li><li>編輯</li></ul> |
 | [!UICONTROL 使用者群組] | <ul><li>API 要求</li><li>建立</li><li>刪除</li><li>編輯</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 下載稽核記錄
 
