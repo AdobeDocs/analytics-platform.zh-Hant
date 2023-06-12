@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新 CJA 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a676c5c71e13524ef56143fe0f5d4cf98c64c2f2
+source-git-commit: c3bea466c4960893ebe746046250608bacc9e340
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運�
 | **PowerBI 和 Tableau 存取 CJA 資料檢視** | Customer Journey Analytics (CJA) SQL 連接器支援對您在 CJA 中定義的資料檢視進行 SQL 存取。比較熟悉 Power BI、Tableau 或其他商業智慧和視覺化工具的資料工程師和分析師，現在可以根據 CJA 使用者用於其 Analysis Workspace 專案的相同資料檢視建立報告和儀表板。[了解更多](/help/data-views/sql-connector.md) |  | 2023 年 6 月 30 日 |
 | **體驗 Edge 地理位置查詢** | 為您的資料流啟用 Experience Edge Geo Lookups 後，您將能夠使用 CJA 中的地理位置資料建置報告。 |  | 2023 年 6 月 30 日 |
 | **擴大了對設定檔和查詢資料的查詢支援** | 您不僅可以將查詢資料集新增到事件資料集，還可以將查詢資料集新增到設定檔和查詢資料集。 | 2023 年 6 月 21 日 | 2023 年 7 月 12 日 |
-| **支援貨幣轉換** | CJA 將支援貨幣轉換作為資料檢視中量度元件格式的一部分。 | 2023 年 6 月 7 日 | 2023 年 6 月 21 日 |
+| **貨幣轉換支援** | 在資料檢視中將量度元件格式化時，支援貨幣轉換。 [了解更多](../data-views/component-settings/format.md#currency) | 2023 年 6 月 7 日 | 2023 年 6 月 21 日 |
 
 {style="table-layout:auto"}
 
@@ -42,6 +42,10 @@ Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運�
 | **CJA 的 Report Builder - 從儲存格中選取資料檢視** | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。如果您建立一個活頁簿且有多個資料結構類似的資料檢視，而且您想要多次重複使用一個活頁簿搭配不同資料檢視，這將很有幫助。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) | 不適用 | 2023 年 5 月 24 日 |
 | **已更新CJA的學習頁面** | Customer Journey Analytics登陸頁面上的「學習」標籤現在包含CJA的特定內容，包括著重從Adobe Analytics轉換為CJA的內容。<p>「學習」標籤上還提供下列其他增強功能：</p><ul><li>改良設計，可透過改良的導覽在單一頁面上顯示更多學習內容</li><li>能夠依體驗層級（初級、中級和進階）個人化學習內容</li></ul><p>先前，CJA中的「學習」索引標籤包含與Adobe Analytics中的「學習」索引標籤相同的資訊。</p> [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#navigate-learning) | 不適用 | 2023 年 6 月 30 日 |
 | **在 Analysis Workspace 中排序元件** | <p>現在，在 Analysis Workspace 的左側邊欄或資料字典中查看元件時，可以使用新的「排序」選項。您可以按「建議」(最常用)、「字母順序」或「類別」(類型) 來排序元件。</p><p>以前，您只能搜尋或篩選元件。[了解更多](/help/components/overview.md)</p> | 不適用 | 待定 |
+| **從自由格式表格中刪除包含動態維度的列** | 在 Analysis Workspace 的自由格式表格中，您現在可以使用 x 圖示快速刪除包含動態維度的特定列。執行時，「永遠排除項目」篩選規則會自動套用。<p>以前，想要刪除包含動態維度的列，唯一的方法是在「篩選器」對話框中手動建立規則。[了解更多](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | 不適用 | 2023 年 5 月 17 日 |
+| **在面板中新增視覺效果的新按鈕** | 現在，Analysis Workspace 每個面板的底部都有一個新按鈕，可讓您快速新增視覺效果。 <p>以前，將視覺效果新增到面板的唯一方法是從左側邊欄拖放視覺效果、複製現有的視覺效果，或者建立空白面板。[了解更多](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | 不適用 | 2023 年 5 月 17 日 |
+| **深度連結 (行動應用程式)** | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。這使得共用專案和提高技術水平較低的對象參與度變得更加容易。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) | 不適用 | 2023 年 5 月 17 日 |
+| **智慧型註解** | 使用[!UICONTROL 台詞]視覺效果自然語言摘要來增強使用者的故事講述效果。[了解更多](/help/analysis-workspace/visualizations/intelligent-captions.md) | 2023 年 5 月 17 日 | 2023 年 6 月 1 日 |
 
 {style="table-layout:auto"}
 
