@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3426392854d60269f370228cbe7542e9789dae99
+source-git-commit: 62c2c74d1a5d0f92cbe8a641f392ccaba3b105ff
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2086'
 ht-degree: 99%
 
 ---
@@ -20,18 +20,20 @@ ht-degree: 99%
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 6 月** | |
+| PowerBI 和 Tableau 存取 CJA 資料檢視 | Customer Journey Analytics (CJA) SQL 連接器支援對您在 CJA 中定義的資料檢視進行 SQL 存取。[了解更多](/help/data-views/sql-connector.md) |
+| Adobe Journey Optimizer 資料檢視 | CJA 管理員可以存取 CJA 中的一些其他資料檢視，標題為「AJO 資料檢視 (沙箱名稱)」。[了解更多](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html)。 |
 | 貨幣轉換 | 更新以下專案的檔案： [貨幣轉換](../data-views/component-settings/format.md#currency) 支援。 |
 | 計算量度更新 | 已對計算量度文件進行以下更新，使其與目前的 CJA 功能保持一致： <ul><li>已更新 CJA 中可用的[預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)清單</li><li>已更新各種計算量度文章中的螢幕擷取畫面和程序 </li></ul> |
 | **2023 年 5 月** | |
-| 深度連結 (行動應用程式) 文件 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。這使得共用專案和提高技術水平較低的對象參與度變得更加容易。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
-| Report Builder 中關於「從儲存格中選取資料檢視」的文件 | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。如果您建立一個活頁簿且有多個資料結構類似的資料檢視，而且您想要多次重複使用一個活頁簿搭配不同資料檢視，這將很有幫助。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
-| Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 新更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。如果您一次登入可以存取多個組織，則單一清單會提供您所有組織的計分卡。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
+| 深度連結 (行動應用程式) 文件 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
+| Report Builder 中關於「從儲存格中選取資料檢視」的文件 | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
+| Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 新更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
 | 最佳化更新 | [最佳化 CJA 效能](/help/admin/optimizing-performance.md)更新文章 |
 | Analysis Workspace 概觀 | 更新[Analysis Workspace 概觀](/help/analysis-workspace/home.md)以包含更多一般概觀資訊和相關內容的連結。 |
 | 建立專案 | 建立新文章，其中詳細說明如何在 Analysis Workspace [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)。 |
 | 排序左側邊欄中的元件 | 已新增排序左側邊欄中元件清單的資訊。請參閱[元件概觀](/help/components/overview.md)中的「搜尋、篩選和排序元件清單」一節。 |
 | 從自由格式表格中刪除包含動態維度的列 | 已新增如何使用 x 圖示快速刪除包含動態維度的特定列的資訊。請參閱[篩選和排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的「從表格中快速排除特定列」一節。 |
-| 在面板中新增視覺效果的按鈕 | 已新增 Analysis Workspace 每個面板底部的新按鈕資訊，可讓您快速新增視覺效果。請參閱[視覺效果概觀](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)中的「將視覺效果新增到面板」一節。 |
+| 在面板中新增視覺效果的按鈕 | 已在 Analysis Workspace 中每個面板底部新增有關新按鈕的資訊，讓您可快速新增視覺效果。請參閱[視覺效果概觀](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)中的「將視覺效果新增到面板」一節。 |
 | 智慧標題文件 | 使用台詞視覺效果[自然語言摘要](/help/analysis-workspace/visualizations/intelligent-captions.md)來增強使用者的故事講述效果。 |
 | 衍生欄位 | 新增以下專案的檔案： [衍生欄位](../data-views/derived-fields/derived-fields.md) 功能。 |
 | **2023 年 4 月** |  |
