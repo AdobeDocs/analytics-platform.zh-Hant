@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 26012a5b7332adf2b80edd8fb9f9327788443dfc
+source-git-commit: 25293f3ef40f0c19ec6a963d337ab91b8054aa58
 workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 92%
@@ -51,7 +51,7 @@ ht-degree: 92%
 
 ![應用程式歡迎畫面](assets/welcome.png)
 
-## 使用控制面板
+## 使用控制面板 {#use-dashboards}
 
 控制面板使用步驟：
 
@@ -59,15 +59,15 @@ ht-degree: 92%
 
    ![登入程序](assets/signseq.png)
 
-1. 選擇公司。 登入控制面板後，「**[!UICONTROL 選擇公司]**」的畫面會隨即顯示。 此畫面會列出您所屬的登入公司。 點選與您所共用計分卡相關聯的公司名稱。
+1. 選擇公司。 登入控制面板後，「**[!UICONTROL 選擇公司]**」的畫面會隨即顯示。 此畫面會列出您所屬的登入公司。 點選與您共用的計分卡相關聯的公司名稱。
 
    計分卡清單會顯示與您共用的所有計分卡。
 
 1. 點選您要檢視的計分卡。
 
-   如果您透過一次登入存取多個組織，計分卡清單中會顯示您組織中的所有計分卡。
+   如果您透過單一登入即可存取多個組織，則您組織中的所有計分卡都可在計分卡清單中使用。
 
-   您可以根據計分卡標題、組織名稱或最近檢視的計分卡清單排序。 您甚至可以搜尋特定計分卡。
+   您可以根據計分卡標題、組織名稱或最近檢視的計分卡清單來排序計分卡。 您甚至可以搜尋特定計分卡。
 
    ![選擇公司](assets/mobile-home-screen.png)
 
@@ -89,6 +89,7 @@ ht-degree: 92%
       * 若長度為一天，圖表會顯示每小時趨勢
       * 若長度為一天以上、一年以下，則會顯示每日趨勢
       * 若長度為一年 (含) 以上，圖表會顯示每週趨勢
+
    * 百分比值變更公式為量度合計 (目前日期範圍) - 量度合計 (比較日期範圍) / 量度合計 (比較日期範圍)。
 
    * 下拉畫面即可重新整理計分卡。
@@ -110,7 +111,7 @@ ht-degree: 92%
 
    * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。 點選其中一個選項，並選取第一個範圍。 在&#x200B;**[!UICONTROL 比較對象]**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。 點選畫面右上方的&#x200B;**[!UICONTROL 「完成」]**。 **[!UICONTROL 「日期範圍」]**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
-1. 若要將區段篩選套用至計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。 應用程式中的[篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)運作方式與 Analytics Workspace 中相同。
+1. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。 應用程式中的[篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)運作方式與 Analytics Workspace 中相同。
 
    ![區段篩選](assets/segment_filter.png)
 
