@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Customer Journey Analytics (CJA)，和如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: be49bcbbc9d1b7d3989e15a30114da8cbc5e4851
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 95%
       + [子字串](../data-views/component-settings/substring.md)
       + [值分組](../data-views/component-settings/value-bucketing.md)
    + [標準元件參考](../data-views/component-reference.md)
-   + [SQL聯結器](../data-views/sql-connector.md)
+   + [SQL 連接器](../data-views/sql-connector.md)
    + [衍生欄位](../data-views/derived-fields/derived-fields.md)
    + [標籤和原則](../data-views/data-governance.md)
 
@@ -201,7 +201,7 @@ ht-degree: 95%
 
 + 引導式分析 {#guided-analysis}
    + [概觀](../guided-analysis/overview.md)
-   + 分析型別 {#analysis-types}
+   + 分析類型 {#analysis-types}
       + [概觀](../guided-analysis/analysis-types/overview.md)
       + [漏斗](../guided-analysis/analysis-types/funnel.md)
       + [趨勢](../guided-analysis/analysis-types/trends.md)
@@ -237,14 +237,14 @@ ht-degree: 95%
       + [管理篩選](../components/filters/manage-filters.md)
       + [運算子](../components/filters/operators.md)
    + 計算量度 {#cja-calcmetrics}
-      + [計算量度總覽](../components/calc-metrics/calc-metr-overview.md)
+      + [計算量度概觀](../components/calc-metrics/calc-metr-overview.md)
       + 計算量度工作流程 {#cm-workflow}
          + [計算量度工作流程](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [尋找量度](../components/calc-metrics/cm-workflow/cm-finding.md)
-         + [建立量度](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
-         + [量度型別和歸因](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [建立「每次造訪頁面檢視次數」量度](../components/calc-metrics/cm-workflow/cm-pvv.md)
-         + [建立「參與率」量度](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [建置量度](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [量度類型和歸因](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
+         + [建立「每次造訪頁面瀏覽數」量度](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [建置「參與率」量度](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [篩選量度](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [堆疊和取代篩選器](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [篩選和加權的量度](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
@@ -297,7 +297,7 @@ ht-degree: 95%
    + [整合 Adobe 解決方案與 CJA 總覽](/help/integrations/overview.md)
    + [將 Adobe Analytics 與 Customer Journey Analytics 整合](/help/integrations/aa.md)
    + [將 Journey Optimizer 資料與 CJA 整合](/help/integrations/ajo.md)
-   + [將決定管理資料與CJA整合](/help/integrations/ajo-od.md)
+   + [將決策管理資料與 CJA 整合](/help/integrations/ajo-od.md)
    + [將 Customer AI 與 CJA 整合](/help/integrations/customer-ai.md)
 
 + 資料控管 {#cja-privacy}
@@ -339,7 +339,7 @@ ht-degree: 95%
    + [存取控制](../admin/cja-access-control.md)
    + [檢視和管理使用情況](../admin/estimate-usage.md)
    + [刪除關聯](../admin/cja-deletion.md)
-   + [最佳化CJA效能](../admin/optimizing-performance.md)
+   + [CJA 效能最佳化](../admin/optimizing-performance.md)
 
 + Labs {#labs}
    + [Labs 使用手冊](../labs/labs.md)
