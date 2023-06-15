@@ -4,10 +4,10 @@ description: 將字串的子集用為維度項目。
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 81e04d177596430b6e9d971cb1b157b461524314
+source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -115,9 +115,3 @@ CJA 使用 Perl 規則運算式語法的子集。若輸入和規則運算式不�
 | `$$` | 輸出字串字元 `"$"`。 |
 
 {style="table-layout:auto"}
-
-## 有關繫結維度的影片
-
-以下是有關繫結維度的影片：
-
->[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
