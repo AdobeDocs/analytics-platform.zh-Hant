@@ -3,10 +3,10 @@ description: 了解如何在 CJA Experimentation 面板中分析 A/B 測試的�
 title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: a18233ecaa14931af0d97b041cfe5dd20b3f653d
+source-git-commit: f95693c35f5baa569bde79150c24ef752824b592
 workflow-type: tm+mt
-source-wordcount: '1861'
-ht-degree: 73%
+source-wordcount: '1855'
+ht-degree: 66%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 73%
 
 >[!IMPORTANT]
 >
->此時，**無法**&#x200B;在 [!UICONTROL Experimentation] 面板中分析透過 Analytics Source Connector 引入 Adobe Experience Platform 的 [Adobe Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) (A4T) 資料。這個問題預計會在 2023 年解決。
+>此時， [適用於Target的Adobe Analytics|https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en] (A4T)資料 *無法* 在Experimentation面板中分析。
 
 ## 存取控制 {#access}
 
@@ -28,7 +28,7 @@ ht-degree: 73%
 
 ## 步驟 1：建立與實驗資料集的連接 {#connection}
 
-建議的資料結構描述是針對在[「物件」陣列](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=zh-Hant) 中的實驗資料，其中包含在二個獨立維度中的實驗與變數資料。 如果您的實驗資料是在一個單獨的維度內，實驗與變數資料在分隔字串內，您可以使用資料檢視中的[子字串](/help/data-views/component-settings/substring.md)將它們一分為二，以便用於面板中。
+建議的資料結構描述是針對在[「物件」陣列](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=zh-Hant) 中的實驗資料，其中包含在二個獨立維度中的實驗與變數資料。 兩個維度都必須位於 **單一** 物件陣列。 如果您的實驗資料是在一個單獨的維度內，實驗與變數資料在分隔字串內，您可以使用資料檢視中的[子字串](/help/data-views/component-settings/substring.md)將它們一分為二，以便用於面板中。
 
 將您的實驗資料[引入](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) Adobe Experience Platform 後，[在 CJA 中建立與一個或多個實驗資料集的連接](/help/connections/create-connection.md)。
 
@@ -86,9 +86,9 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 
 ## 步驟 5：解釋結果 {#interpret}
 
-1. **實驗具有結論性**：每次查看實驗報告時，Adobe 都會分析到目前為止在實驗中累積的資料，並在&#x200B;*至少一個*&#x200B;變體 (當超過雙臂時套用 Bonferonni 校正，以校正多個假設檢驗) 的隨時有效信賴度超過 95% 臨界值時宣告實驗為具有「結論性」。
+1. **實驗已有結果**：每次檢視實驗報告時，Adobe都會分析到目前為止在實驗中累積的資料，並會在隨時有效的信賴度超過臨界值95%時宣告實驗為具有「結論性」。 *至少一個* 變體的DNA片段（當有兩個以上的臂時，套用Benjamini-Hochberg校正，以校正多個假設檢驗）。
 
-2. **最佳表現變體**：當一個實驗宣告為具有結論性時，具有最高轉換率的變體將標記為「最佳表現變體」。請注意，此變體必須是控制變體或基線變體，或者是超過 95% 隨時有效信賴度臨界值的變體之一 (套用 Bonferonni 校正)。
+2. **最佳表現變體**：當一個實驗宣告為具有結論性時，具有最高轉換率的變體將標記為「最佳表現變體」。請注意，此變體必須是控制變體或基線變體，或是超過95%隨時有效信賴度臨界值的變體之一（套用Benjamini-Hochberg校正）。
 
 3. **轉換率**：顯示的轉換率是成功量度值與標準化量度值的比例。請注意，如果量度不是二進位 (實驗中的每個單位為 1 或 0)，則轉換率可能大於 1
 
