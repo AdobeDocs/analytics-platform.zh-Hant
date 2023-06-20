@@ -3,10 +3,10 @@ title: 計算量度總覽
 description: 了解衍生自報告執行時間的篩選量度。
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 92%
+source-wordcount: '461'
+ht-degree: 90%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 92%
 |--- |--- |
 | 計算量度產生器 | <ul><li>使用進階配置模型建立計算量度和進階計算量度。</li><li>新增篩選器內嵌至量度公式。</li><li>比較同一份報表中的篩選器。 例如，比較本地人員與國際人員。</li><li>使用統計函數。</li><li> 提供詳細的量度說明 (顯示其用途、使用位置、不應使用的位置)。</li><li>複製定義至新量度。</li><li>提供內嵌量度預覽。</li><li>設定量度極性，指定當特定自訂事件 (量度) 上升時是好事還是壞事。</li><li>標記量度。</li></ul> |
 | 計算量度管理員 | <ul><li>與他人共用量度。</li><li>核准和管理量度。</li><li>組織 (標記) 量度，讓別人找得到。</li><li>刪除量度。</li><li>重新命名量度。</li></ul> |
-| 計算量度的 API | CJA API 集合的一部分。 |
+| 計算量度的 API | Customer Journey AnalyticsAPI集的一部分。 |
 
-## CJA 中的計算量度範本
+## Customer Journey Analytics中的計算量度範本
 
 | 計算量度名稱 | 計算量度說明 |
 | --- | --- |

@@ -2,10 +2,10 @@
 title: AAID、ECID、AACUSTOMID 和 Analytics 來源連接器
 description: 瞭解 Analytics 來源連接器如何處理 Adobe Analytics 身分識別欄位。
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 97%
+source-wordcount: '571'
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Analytics 資料包含多個身分識別欄位。 [Analytics 來源連接�
 
 Adobe Analytics ID (AAID) 是 Adobe Analytics 中的主要裝置識別碼，並且保證存在於透過 Analytics 來源連接器傳遞的每個事件中。 AAID 有時稱為「舊版分析 ID」或 `s_vi`Cookie ID。但是，即使 `s_vi`Cookie 不存在，也會建立 AAID。AAID 由 [Adobe Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant#columns%2C-descriptions%2C-and-data-types)中的 `post_visid_high/post_visid_low` 資料行表示。
 
-在 Analytics 來源連接器中，AAID 將轉換為 `HEX(post_visid_high) + "-" + HEX(post_visid_low)`。 指定事件的 AAID 欄位包含單一身分識別，該身分識別可能是 [Analytics ID 作業順序](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=zh-Hant%5B%5D)中所述的幾種類型之一。 (在整個報告套裝中，AAID 可能包含跨事件的多種類型。 每個事件的類型在 `post_visid_type` 分析資料源中的列。) 另請參閱：[資料資料行參照](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)。
+在 Analytics 來源連接器中，AAID 將轉換為 `HEX(post_visid_high) + "-" + HEX(post_visid_low)`。 指定事件的 AAID 欄位包含單一身分識別，該身分識別可能是 [Analytics ID 作業順序](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=zh-Hant%5B%5D)中所述的幾種類型之一。 (在整個報告套裝中，AAID 可能包含跨事件的多種類型。 每個事件的型別都指示在 `post_visid_type` 欄)。 另請參閱：[資料資料行參照](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)。
 
 ## ECID
 
@@ -51,6 +51,6 @@ Analytics 來源連接器將這些身分識別以 XDM 形式傳遞到 Adobe Expe
 否則，AAID 將標記為事件的主要身分識別。
 * AACUSTOMID 永遠不會標記為事件的主要 ID。但是，如果 AACUSTOMID 存在，則 AAID 會以上述 AACUSTOMID 為基礎。
 
-## CJA 和主要 ID
+## Customer Journey Analytics和主要ID
 
-就 CJA 而言，只有在您決定將主要 ID 用作人員 ID 時，主要 ID 的定義才重要。然而，這並不具有強制性。 您可以選擇其他身分識別資料行作為人員 ID。
+就Customer Journey Analytics而言，只有在您決定使用主要ID作為人員ID時，主要ID的定義才重要。 然而，這並不具有強制性。 您可以選擇其他身分識別資料行作為人員 ID。

@@ -4,10 +4,10 @@ description: 將字串的子集用為維度項目。
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
-source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '905'
+ht-degree: 94%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 * **[!UICONTROL 輸出格式]**：可讓您新增文字或重新排序規則運算式子群組輸出的選用欄位。如果此欄位為空白，則字串輸出是評估過的規則運算式。
 * **[!UICONTROL 區分大小寫]**：強制規則運算式區分大小寫的核取方塊 (如啟用)。
 
-CJA 使用 Perl 規則運算式語法的子集。若輸入和規則運算式不相符，且&#x200B;**[!UICONTROL 輸出格式]**&#x200B;為空白，則套用[無值選項](no-value-options.md)。支援下列運算式：
+Customer Journey Analytics使用Perl規則運算式語法的子集。 若輸入和規則運算式不相符，且&#x200B;**[!UICONTROL 輸出格式]**&#x200B;為空白，則套用[無值選項](no-value-options.md)。支援下列運算式：
 
 | 運算式 | 說明 |
 | --- | --- |

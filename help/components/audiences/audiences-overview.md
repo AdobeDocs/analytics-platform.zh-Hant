@@ -1,35 +1,35 @@
 ---
-title: CJA 對象發佈總覽
+title: Customer Journey Analytics對象發佈概觀
 description: 了解 Customer Journey Analytics 中發佈對象的概念
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
-source-git-commit: 7b86650cd3475a203d597baeec2ec2152e082b10
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 83%
+source-wordcount: '515'
+ht-degree: 54%
 
 ---
 
-# CJA 對象發佈總覽
+# Customer Journey Analytics對象發佈概觀
 
-您現在可以建立在Customer Journey Analytics (CJA)中發現的對象，並將其發佈到 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant?lang=tw) (RTCDP)，用於Adobe Experience Platform中的客戶目標定位和個人化。
+您現在可以建立並發佈Customer Journey Analytics中發現的對象至 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant?lang=tw) (RTCDP)，用於Adobe Experience Platform中的客戶目標定位和個人化。
 
-發佈對象有助於理解情況，來啟用從 CJA 中獲得的分析並據以採取行動。 這些動作可能包括：
+發佈對象可讓您透過清楚的方式啟用Customer Journey Analytics中的深入分析，並針對深入分析採取行動。 這些動作可能包括：
 
 * 將對象用在 Adobe Journey Optimizer 中的歷程。
 * 透過 Experience Platform 目的地功能，將對象匯出給第三方。
-* 使用衍生自 CJA 中事件型資料的有用屬性，來擴充即時客戶個人檔案。
+* 使用衍生自Customer Journey Analytics中事件型資料的有用屬性，來擴充即時客戶設定檔。
 * 在發佈對象後以最小的延遲完成所有這些動作。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)
 * 發佈單次對象或重複對象.
 
-您在CJA中建立的對象不必基於為設定檔啟用的資料集。 您可以擷取歷史資料至Experience Platform，無需為設定檔啟用關聯的資料集和結構描述。 然後使用這些資料集來探索CJA中的相關受眾，並將這些受眾發佈到RTCDP中的Experience Platform以用於啟動目的。
+您在Customer Journey Analytics中建立的對象不必以為設定檔啟用的資料集為基礎。 您可以擷取歷史資料至Experience Platform，無需為設定檔啟用關聯的資料集和結構描述。 然後，使用這些資料集來探索Customer Journey Analytics中的相關受眾，並將這些受眾發佈到Experience Platform中的RTCDP以用於啟動目的。
 
 ## 重要術語
 
-**對象**：一個身分識別組合或清單，其中包含命名空間和與命名空間有關的特定 ID。 對象可以從 Adobe Experience Platform 或位於其上層的應用程式 (例如 CJA) 中進行傳輸。 對象可包含混合的命名空間。
+**對象**：一個身分識別組合或清單，其中包含命名空間和與命名空間有關的特定 ID。 對象可以從Adobe Experience Platform及其上方的應用程式(例如Customer Journey Analytics)進行傳輸。 對象可包含混合的命名空間。
 
-**篩選器**：一組規則，用來評估一段時間的資料組合時會產生資料子集。 搭配其他支援服務時，篩選器可用於建立對象流量。 篩選器是在 CJA 中定義和維護。
+**篩選器**：一組規則，用來評估一段時間的資料組合時會產生資料子集。 搭配其他支援服務時，篩選器可用於建立對象流量。 篩選器是以Customer Journey Analytics定義及維護。
 
-**篩選器**&#x200B;與&#x200B;**區段**：CJA 並未使用「區段」的概念，而是採用「篩選器」。 雖然兩者都是包含相似邏輯的一組規則，但產生的輸出內容有所不同。 篩選器是用來縮小資料集的範圍，以做為分析用途。 區段是用來產生身分識別清單，然後可用來進行啟動。 區段會在即時客戶個人檔案中產生對象，而篩選器 (單獨使用) 則不會。 CJA 對象發佈是指一種流量，其中使用 CJA 篩選器建立對象，該對象可提供即時客戶個人檔案使用。
+**篩選器** 與 **區段**：Customer Journey Analytics並未使用「區段」的概念，而是使用「篩選器」。 雖然兩者都是包含相似邏輯的一組規則，但產生的輸出內容有所不同。 篩選器是用來縮小資料集的範圍，以做為分析用途。 區段是用來產生身分識別清單，然後可用來進行啟動。 區段會在即時客戶個人檔案中產生對象，而篩選器 (單獨使用) 則不會。 Customer Journey Analytics對象發佈是指一種流程，其中使用Customer Journey Analytics篩選器建立對象，該對象可提供即時客戶個人檔案使用。
 
 ## 權限
 
@@ -41,7 +41,7 @@ ht-degree: 83%
 
 ## 資料控管和同意
 
-當您在 CJA 中發佈對象時，將記錄附加到對象中使用之欄位的資料控管標籤和策略。在任何 Adobe Experience 應用程式中啟用對象後，所有相關的資料控管標籤和策略都可供該對象使用，並且可套用適當的強制執行。[進一步瞭解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy)。
+當您在Customer Journey Analytics中發佈對象時，將會記錄附加到對象中使用之欄位的資料控管標籤和原則。  在任何 Adobe Experience 應用程式中啟用對象後，所有相關的資料控管標籤和策略都可供該對象使用，並且可套用適當的強制執行。[進一步瞭解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy)。
 
 ## 後續步驟
 

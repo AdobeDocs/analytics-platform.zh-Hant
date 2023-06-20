@@ -1,9 +1,10 @@
 ---
 title: 引導式分析常見問題集
 description: 有關引導式分析的常見問題。
-source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
+exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '162'
 ht-degree: 5%
 
 ---
@@ -16,13 +17,13 @@ ht-degree: 5%
 
 +++**引導式分析是否可供所有人使用？**
 
-否；引導式分析是CJA的付費附加元件。 如果您想要開始使用此附加元件，請聯絡您的Adobe客戶團隊。
+否；引導式分析是Customer Journey Analytics的付費附加元件。 如果您想要開始使用此附加元件，請聯絡您的Adobe客戶團隊。
 
 +++
 
 +++**使用引導式分析需要哪些實作變更？**
 
-如果您已在CJA中使用Analysis Workspace，則不需要進行額外的實作變更。 引導式分析使用與Analysis Workspace相同的資料檢視和連線。 對於所有CJA （包括引導式分析），上線和使用任何專案型別的程式都是相同的。
+如果您已在Customer Journey Analytics中使用Analysis Workspace，則不需要進行額外的實作變更。 引導式分析使用與Analysis Workspace相同的資料檢視和連線。 對於所有Customer Journey Analytics（包括引導式分析），上線和使用任何專案型別的程式都是相同的。
 
 +++
 

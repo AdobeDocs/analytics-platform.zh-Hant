@@ -4,10 +4,10 @@ description: 決定是否會在不同事件中儲存維度值或是如何儲存�
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 20135c39341eebbf680783ad0e71bf6c62e5377b
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '810'
+ht-degree: 86%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 一個下拉式清單，可讓您將維度值的持續性繫結到另一個維度中的維度值。 有效選項包括資料檢視中包含的其他維度。
 
-如需有關如何有效使用繫結維度的範例，請參閱「[使用 CJA 中的繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md)」。
+另請參閱 [在Customer Journey Analytics中使用繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md) 有關如何有效使用繫結維度的範例。
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 
@@ -88,4 +88,4 @@ ht-degree: 0%
 
 此項設定只會在繫結維度在物件陣列中小於元件時出現。繫結量度存在於事件中時，維度值會從事件水準維度複製到繫結維度的下層結構描述。
 
-如需有關如何有效使用繫結維度的更多資訊，請參閱「[使用 CJA 中的繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md)」。
+請參閱下的第二個範例 [在Customer Journey Analytics中使用繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md) 以取得有關如何有效使用繫結量度的詳細資訊。

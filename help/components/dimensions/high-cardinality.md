@@ -4,20 +4,20 @@ description: 描述在 Customer Journey Analytics 中處理高基數維度的最
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
-source-git-commit: 0e9d612e1c0f6d64cd6f1e045c1049a1f8202b72
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 88%
 
 ---
 
 # 基數很高的維度
 
-Customer Journey Analytics (CJA) 不會限制在單一維度中可以報告的唯一值或維度項目數量。 但在某些情況下，具有極大量唯一項目的維度 (也稱為高基數維度) 可能會影響可以報告的內容。
+Customer Journey Analytics(Customer Journey Analytics)不會限制可在單一維度中報告的唯一值或維度專案數量。 但在某些情況下，具有極大量唯一項目的維度 (也稱為高基數維度) 可能會影響可以報告的內容。
 
 ## 限制
 
-根據特定 CJA 連線中的事件數量，可能會出現與高基數維度有關的以下兩項限制：
+根據特定Customer Journey Analytics連線中的事件數量，以下兩個限制可能會與高基數維度同時發生：
 
 ### 1. 可能無法準確報告列計數
 

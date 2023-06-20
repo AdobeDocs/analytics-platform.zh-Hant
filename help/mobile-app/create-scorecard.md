@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '2523'
-ht-degree: 78%
+source-wordcount: '2529'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 78%
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
->這個頁面的螢幕截圖取自 Adobe Analytics UI，而非 CJA。 這些 UI 幾乎完全一樣。
+>此頁面的計分卡熒幕擷取畫面是從Adobe Analytics UI取得，而非從Customer Journey Analytics取得。 這些 UI 幾乎完全一樣。
 
 Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資料的視覺效果，如下所示：
 
@@ -76,7 +76,7 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 ## 套用篩選器 {#filters}
 
-若要將篩選器套用至個別圖磚，請從左側面板將篩選器 (區段是 CJA 中的篩選器) 直接拖曳至圖磚上。
+若要將篩選器套用至個別圖磚，請從左側面板將篩選器(區段是Customer Journey Analytics中的篩選器)直接拖曳至圖磚上。
 
 如果您想要將篩選器套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。 或者，您也可以在日期範圍下方的篩選器功能表中選取篩選器，以套用篩選器。您 [為您的計分卡設定和套用篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) 就像在Adobe Analytics Workspace中一樣。
 
@@ -163,7 +163,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ## 檢視和設定圖磚屬性 {#tiles}
 
-按一下計分卡產生器中的圖磚，右側欄會顯示與該圖磚及其詳細投影片相關聯的屬性和特性。 在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過套用篩選器來設定圖磚。區段是 CJA 中的篩選器。
+按一下計分卡產生器中的圖磚，右側欄會顯示與該圖磚及其詳細投影片相關聯的屬性和特性。 在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過套用篩選器來設定圖磚。區段是Customer Journey Analytics中的篩選器。
 
 ![「屬性」圖磚](assets/properties-tile-new.png)
 

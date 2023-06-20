@@ -1,15 +1,15 @@
 ---
-title: 如何在 CJA 中配置 Report Builder 的設定
+title: 如何在Customer Journey Analytics中設定Report Builder設定
 description: 說明如何設定離線模式、語言、截止日期以及疑難排解設定。
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 95%
 
 ---
 

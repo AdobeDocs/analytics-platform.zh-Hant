@@ -1,12 +1,12 @@
 ---
 description: 這會顯示非時間維度的前 5 個值 (而時間維度則是前 15 個值)。
-title: 如何在 CJA 工作區中預覽維度
+title: 如何在Customer Journey Analytics工作區中預覽維度
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '198'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 95%
 
 ---
 

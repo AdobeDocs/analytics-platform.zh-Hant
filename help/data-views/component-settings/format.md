@@ -4,10 +4,10 @@ description: 設定量度的格式。
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: a3fea05ac95407c7f3bee723a267ae0bc03d334a
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '493'
+ht-degree: 32%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 若要啟用量度的貨幣轉換：
 
-- 設定您的CJA連線以包含至少一個事件資料集，該資料集會針對每個包含貨幣量度的事件保留一個貨幣代碼維度。 該貨幣代碼維度會使用符合 [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 代表貨幣的標準。 例如USD表示$， EUR表示€， GBP表示£。
+- 設定您的Customer Journey Analytics連線，使其包含至少一個事件資料集，該資料集針對每個包含貨幣量度的事件保留一個貨幣代碼維度。 該貨幣代碼維度會使用符合 [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 代表貨幣的標準。 例如USD表示$， EUR表示€， GBP表示£。
 
 - 您已（選擇性）套用 [!UICONTROL 貨幣代碼] 一或多個維度的內容標籤，這些維度會定義資料集中可用的貨幣代碼。
 

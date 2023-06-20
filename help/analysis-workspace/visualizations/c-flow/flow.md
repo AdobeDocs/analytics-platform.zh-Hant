@@ -3,10 +3,10 @@ description: 流量功能可顯示客戶使用您網站和應用程式的路徑�
 title: 流量概述
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
-source-git-commit: 8a971c6b7e04f40a57d379f246c38815852ee0c2
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '203'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [流量視覺效果教學影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=zh-Hant) (4:56)
 
-## 維度間流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## 維度間流量 {#in}
 
 您可以顯示[維度之間的流量](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在此例中，您的流量可能來自首頁、前往「男性」頁面，接著前往「鞋子」部門。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 設定流量視覺效果
 
-如需如何設定流量視覺效果的相關資訊，請參閱 [設定流量視覺效果](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
+如需如何設定流量視覺效果的詳細資訊，請參閱 [設定流量視覺效果](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 
 ## 匯出包含流量圖表的專案 .CSV 檔案 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 

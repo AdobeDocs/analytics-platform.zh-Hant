@@ -4,10 +4,10 @@ description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Wo
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 20ea211fff816b8b5e99d3d6ef3cb4ba4d0fd6a9
+source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 93%
+source-wordcount: '986'
+ht-degree: 89%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 Customer Journey Analytics 是 Analytics 的功能，讓您可搭配 Adobe Experience Platform 的資料運用 Analysis Workspace 的強大功能。這能協助您劃分、篩選、查詢及視覺化多年累積的資料，並結合 Platform 掌握各種資料結構描述和類型的能力。採用 **Experience Data Model (XDM)**，能以統一方式呈現和組織資料，可進行組合和探索。**Experience Query Services** 可讓您使用相容於 SQL 的工具和架構來查詢及操控所有資料。
 
-高層級 CJA 架構顯示於此處：
+高階的Customer Journey Analytics架構如下所示：
 
 ![架構](assets/cja-architecture.png)
 
@@ -23,20 +23,20 @@ Customer Journey Analytics 是 Analytics 的功能，讓您可搭配 Adobe Exper
 
 >[!VIDEO](https://video.tv.adobe.com/v/30090/?quality=12)
 
-## 比較 CJA 與傳統 Adobe Analytics
+## 比較Customer Journey Analytics與傳統Adobe Analytics
 
 Customer Journey Analytics 提供簡單易用的跨頻道功能，並移除舊版 Adobe Analytics 的限制，進一步擴展 Analytics 的應用範圍。幾個值得注意的改善項目如下：
 
 * **不限數量的變數和事件**：eVar、prop 和事件的概念已不存在。資料主要聚焦於維度和量度。資料集可以有不限數量的不重複維度和量度。
 * **不限數量的唯一值**：Adobe Experience Platform 不受任何獨特限制。
 * **變更歷史資料**：您可以使用 Adobe Experience Platform 移除或修正資料。
-* **跨報表套裝資料**:可在Platform中結合來自多個資料集的現有實作。
+* **跨報告套裝資料**：可在Platform中結合來自多個資料集的現有實作。
 
 >[!TIP]
 >
 >如果您一直在使用 Adobe Analytics 並希望在 Customer Journey Analytics 中使用您的 Adobe Analytics 資料，請參閱[從傳統 Adobe Analytics 擷取和使用資料](../data-ingestion/analytics.md)快速入門指南，其為[資料擷取](../data-ingestion/data-ingestion.md)章節的一部分。
 
-Customer Journey Analytics的初始發行包含Adobe Analytics中的許多功能。 如需完整清單，請參閱 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。
+Customer Journey Analytics的初始版本包含Adobe Analytics中的許多功能。 如需完整清單，請參閱 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。
 
 ## 主要使用案例
 
@@ -53,7 +53,7 @@ Customer Journey Analytics 可用來：
 
 您必須符合下列必要條件，才能開始使用 Customer Journey Analytics：
 
-* 貴組織具備有效的 Adobe Analytics Select、Prime 或 Ultimate 合約，且已有 Customer Journey Analytics 附加元件。如果您不確定您有的合約類型，或不確定是否有CJA附加元件，請連絡您的Adobe帳戶團隊。
+* 貴組織具備有效的 Adobe Analytics Select、Prime 或 Ultimate 合約，且已有 Customer Journey Analytics 附加元件。如果您不確定您擁有哪種合約型別，或不確定您是否擁有Customer Journey Analytics附加元件，請聯絡您的Adobe客戶團隊。
 * 貴組織已佈建 Adobe Experience Platform。
 * 您還能以獨立產品形式購買 Customer Journey Analytics，無需 Adobe Analytics。
 
@@ -63,7 +63,7 @@ Customer Journey Analytics 可用來：
 
 ## 術語更新
 
-與傳統 Adobe Analytics 相比，CJA 中的數項功能已重新命名，以符合業界標準。一些更新的術語包括：
+相較於傳統Adobe Analytics，Customer Journey Analytics中的幾項功能已重新命名，以符合業界標準。 一些更新的術語包括：
 
 * 區段現在稱為「篩選器」。
 * 虛擬報告套裝現在稱為「資料檢視」。
@@ -90,9 +90,9 @@ Experience Platform 的多個元件 (從資料擷取到直接 SQL 存取) 是 Cu
 
 * 在 Customer Journey Analytics 中處理資料：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/32112/?quality=12)
+  >[!VIDEO](https://video.tv.adobe.com/v/32112/?quality=12)
 
 * Customer Journey Analytics 的架構和整合：
 
-   >[!VIDEO](https://video.tv.adobe.com/v/32483/?quality=12)
+  >[!VIDEO](https://video.tv.adobe.com/v/32483/?quality=12)
 

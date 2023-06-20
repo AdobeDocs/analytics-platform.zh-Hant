@@ -1,17 +1,17 @@
 ---
 title: Customer Journey Analytics 中有什麼元件？
-description: 了解 CJA 提供哪些元件，以及如何在報表中使用這些元件。
+description: 瞭解Customer Journey Analytics提供哪些元件，以及如何在報告中使用它們。
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: e8778520581ea6d1cf59285bc8a6c178904d44e2
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 57%
+source-wordcount: '1037'
+ht-degree: 87%
 
 ---
 
-# 元件概觀
+# 元件總覽
 
 元件是 Customer Journey Analytics 中的功能，可用於報表或與報表功能搭配使用。您可以使用下列步驟管理這些元件：
 
@@ -47,7 +47,7 @@ Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度�
 | 元件動作 | 說明 |
 | --- | --- |
 | 標記 | 以套用標記的方式組織或管理元件。接著元件會在相關的元件管理器中顯示，例如 [!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 篩選器]，或 [!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 專案] |
-| 我的最愛 | 新增元件至我的最愛清單。接著元件會在相關的元件管理器中顯示，例如「[!UICONTROL Analytics]」 > 「[!UICONTROL 元件]」 > 「[!UICONTROL 篩選器]」，或「[!UICONTROL Analytics]」 > 「[!UICONTROL 元件]」 > 「[!UICONTROL 專案]」。 |
+| 我的最愛 | 將元件新增至我的最愛清單。接著元件會在相關的元件管理器中顯示，例如「[!UICONTROL Analytics]」 > 「[!UICONTROL 元件]」 > 「[!UICONTROL 篩選器]」，或「[!UICONTROL Analytics]」 > 「[!UICONTROL 元件]」 > 「[!UICONTROL 專案]」。 |
 | 核准 | 核准元件使其成為正式項目。接著元件會在相關的元件管理器中顯示，例如「[!UICONTROL Analytics]」 > 「[!UICONTROL 元件]」 > 「[!UICONTROL 篩選器]」，或 「[!UICONTROL Analytics]」 > 「[!UICONTROL 元件]」 > 「[!UICONTROL 專案]」 |
 | 共用 | 僅適用於篩選器。 |
 | 刪除 | 僅適用於篩選器。 |
@@ -60,15 +60,15 @@ Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度�
 
 您可以直接在左側邊欄中管理元件。
 
-1. 以滑鼠右鍵按一下元件。
+1. 在元件上按一下右鍵。
 
    或
 
-   選取元件，然後選取 **動作** 元件清單頂端的（3點）圖示。
+   選取元件，然後選取元件清單頂端的&#x200B;**操作** (3 個點) 圖示。
 
    >[!TIP]
    >
-   >   按住Shift鍵或按住Command鍵(在Mac上)或Ctrl鍵（在Windows上）可選取多個元件。
+   >   按住 Shift 或按住 Command (Mac 版) 或 Ctrl (Windows 版)，即可選取多個元件。
 
 
    ![](assets/component-actions.png)
@@ -76,38 +76,38 @@ Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度�
    | 元件動作 | 說明 |
    |--- |--- |
    | [!UICONTROL **標記**] | 以套用標記的方式組織或管理元件。然後，您可以按一下篩選或輸入 #，依左側欄中的標籤進行搜尋。標籤也會當作元件管理員中的篩選器。 |
-   | [!UICONTROL **我的最愛**] | 新增元件至我的最愛清單。如同標籤，您可以依左側邊欄的「我的最愛」搜尋，並在元件管理員中這些條件篩選。 |
+   | [!UICONTROL **我的最愛**] | 將元件新增至我的最愛清單。如同標籤，您可以依左側邊欄的「我的最愛」搜尋，並在元件管理員中這些條件篩選。 |
    | [!UICONTROL **核准**] | 將元件標示為「已核准」，向您的用戶表示此元件已獲得組織核准。如同標籤，您可以依左側邊欄的「已核准」搜尋，並在元件管理員中這些條件篩選。 |
    | [!UICONTROL **共用**] | 缃元件提供給組織中的用戶共用。此選項僅適用於自訂元件，例如篩選器或計算量度。 |
    | [!UICONTROL **刪除**] | 刪除您不再需要的元件。 此選項僅適用於自訂元件，例如篩選器或計算量度。 |
 
 自訂元件也可透過其各自的元件管理員來管理。例如， [管理篩選器](/help/components/filters/manage-filters.md).
 
-## 搜尋、篩選及排序元件清單
+## 搜尋、篩選元件清單並進行排序
 
-您可以在Analysis Workspace的左側邊欄中搜尋、篩選和排序元件清單，以快速找到特定元件。
+您可以在 Analysis Workspace 的左側邊欄中搜尋、篩選元件清單並進行排序，以快速找到特定元件。
 
 ### 搜尋元件清單
 
-1. 選取 **元件** 圖示 ![元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 在左側邊欄中。
+1. 在左側邊欄中選取&#x200B;**元件**&#x200B;圖示![元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)。
 
-2. 在搜尋欄位中，開始輸入您要在專案中使用的元件名稱。
+2. 在搜尋欄位中開始輸入要用於專案中的元件的名稱。
 
-   元件型別可由顏色和圖示識別。 **Dimension** ![Dimension圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 是橙色， **篩選器** ![篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 是藍色的， **日期範圍** ![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 是紫色的，並且 **量度** ![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 是綠色的。 Adobe圖示 ![Adobe圖示](assets/default-calc-metric-icon.png) 表示計算量度範本或篩選器範本，以及計算器圖示 ![計算器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示貴組織中Analytics管理員建立的計算量度。
+   元件的類型可依據顏色和圖示加以識別。**Dimension** ![Dimension圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 是橙色， **篩選器** ![篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 是藍色的， **日期範圍** ![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 是紫色的，並且 **量度** ![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 是綠色的。 Adobe圖示 ![Adobe圖示](assets/default-calc-metric-icon.png) 表示計算量度範本或篩選器範本，以及計算器圖示 ![計算器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示貴組織中Analytics管理員建立的計算量度。
 
-3. 當元件出現在下拉式清單中時選取該元件。
+3. 當元件出現在下拉式清單中時請將其選取。
 
 ### 篩選元件清單
 
-1. 選取 **元件** 圖示 ![元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 在左側邊欄中。
+1. 在左側邊欄中選取&#x200B;**元件**&#x200B;圖示![元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)。
 
 2. 選取 **篩選** 圖示 ![資料字典篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg))。
 
    或
 
-   在搜尋欄位中輸入井字型大小(#)。
+   在搜尋欄位中輸入井字號 (#)。
 
-3. 選取下列任一篩選選項來篩選元件清單：
+3. 選取以下任一篩選器選項以篩選元件清單：
 
    | 選項 | 函數 |
    |---------|----------|
@@ -120,17 +120,17 @@ Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度�
    | [!UICONTROL **全部顯示**] | 顯示所有元件。此選項僅提供給管理員使用。 |
    | [!UICONTROL **未經核准**] | 僅顯示尚未由管理員標記為「已核准」的元件。作為管理員，這有助於確定需要您檢閱和核准的元件。此選項僅提供給管理員使用。 |
 
-4. （可選）若要進一步美化清單，您可以排序元件清單，如所述 [排序元件清單](#sort-the-component-list).
+4. (可選) 若要進一步整理清單，您可以依據[對元件清單進行排序](#sort-the-component-list)中的說明將元件清單排序。
 
-### 排序元件清單
+### 將元件清單排序
 
 {{release-limited-testing-section}}
 
-1. （可選）將任何篩選器套用至元件清單，如所述 [篩選元件清單](#filter-the-component-list).
+1. (可選) 依據[篩選元件清單](#filter-the-component-list)中的說明，對元件清單套用任何篩選器。
 
-2. 選取 **元件** 圖示 ![元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 在左側邊欄中。
+2. 在左側邊欄中選取&#x200B;**元件**&#x200B;圖示![元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)。
 
-3. 選取 **排序** 圖示 ![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取下列任一篩選選項來排序元件清單：
+3. 選取&#x200B;**排序** 圖示![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取以下任一篩選器選項，將元件清單排序：
 
    {{components-sort-options}}
 

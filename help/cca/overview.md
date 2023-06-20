@@ -4,10 +4,10 @@ description: 在多個資料集中重新輸入人員ID，以將人員彙整在�
 exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 feature: Cross-Channel Analytics
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 95%
+source-wordcount: '1166'
+ht-degree: 89%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 使用跨管道分析前，請確認您的組織已做好下列準備：
 
 * Adobe Experience Platform中的一個資料集必須具有兩個協助識別人員的欄：
-   * **永久 ID**，每列都會顯示這個識別碼，例如，Adobe Analytics AppMeasurement程式庫產生的人員ID。
+   * **永久 ID**，每列都會顯示這個識別碼，例如，Adobe AnalyticsAppMeasurement程式庫產生的人員ID。
    * **暫時 ID**，僅部分列會顯示這個識別碼，例如，某人驗證後，雜湊的使用者名稱或電子郵件地址。 您可以使用幾乎所有偏好的識別碼，但前提是該識別碼在相同事件上必須至少顯示為指定的永久 ID 一次。
 * 在另一個資料集 (例如客服中心資料) 中，每列都包含一個暫時 ID。此人員 ID 的格式必須與其他資料集中的暫時 ID 格式類似。
 * 此功能可讓您彙整資料集，包括合併的已驗證和未驗證使用者資料。合併資料集前，請務必遵守適用的法律和法規，包括取得必要的使用者權限。
@@ -62,7 +62,7 @@ ht-degree: 95%
 
 ## 啟用跨管道分析
 
-符合所有先決條件並了解限制後，貴組織就能按照下列步驟，在 CJA 中開始使用。
+當您的組織符合所有先決條件並瞭解其限制後，您就可以依照下列步驟開始在Customer Journey Analytics中使用。
 
 1. 將所需的資料匯入 Adobe Experience Platform。如為 Adobe Analytics 資料，請參閱[在 Customer Journey Analytics 中利用 Adobe Analytics 報告套裝資料](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)。如為其他類型資料，請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)和[匯入資料](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant)。
 1. 請聯絡 Adobe 客戶支援，提供下列資訊：
@@ -74,9 +74,9 @@ ht-degree: 95%
    * 沙箱名稱。
 1. Adobe 客戶支援將與 Adobe 工程部門合作，以便在收到您的請求後啟用跨管道分析。啟用後，Adobe Experience Platform 會顯示一個包含新人員 ID 欄的新的重設金鑰資料集。Adobe 客戶支援可提供新資料集 ID 和人員 ID 欄名稱。
 1. 首次打開時，Adobe 將提供回填的彙整資料，其回溯時間可追溯到上個月初 (最多 60 天)。為了執行此回填，暫時性 ID 必須在未回溯的時間中存在於未彙整的資料中。
-1. 使用新產生的資料集和您要加入的其他資料集，在 CJA 中[建立連線](/help/connections/create-connection.md)。為每個資料集選擇正確的人員 ID。
+1. [建立連線](/help/connections/create-connection.md) 使用新產生的資料集和您要包含的任何其他資料集進行Customer Journey Analytics。 為每個資料集選擇正確的人員 ID。
 1. 根據連線[建立資料檢視](/help/data-views/create-dataview.md)。
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
-設定資料檢視後，CJA 中的「分析」功能就會像 CJA 的其他分析功能一樣，除了當下之外，資料都會跨管道和裝置運作。
+設定資料檢視後，Customer Journey Analytics中的分析就如同其他分析一樣，除了現在之外，資料會在Customer Journey Analytics和裝置間運作。

@@ -1,13 +1,13 @@
 ---
-title: CJA 連線總覽
+title: Customer Journey Analytics連線總覽
 description: 了解 Customer Journey Analytics 中的連線。
 solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
-source-git-commit: 82e4629583ef0aadeac098101d7429625470d8b8
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 80%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## 必要權限
 
-若要建立 CJA 連線，您需要在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html) 中設定以下權限：
+若要建立Customer Journey Analytics連線，您需要以下許可權： [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)：
 
 Adobe Experience Platform：
 * 資料模型製作：檢視結構描述、管理結構描述

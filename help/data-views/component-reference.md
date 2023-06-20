@@ -4,16 +4,16 @@ description: 您可以新增到任何資料檢視的所有標準元件的詳細�
 exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 0fdf95906e17b9e90fa6ba652aa8e53f695279a4
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 88%
+source-wordcount: '1016'
+ht-degree: 86%
 
 ---
 
 # 標準元件參考
 
-CJA 中的大多數維度和量度都根據 Adobe Experience Platform 資料集中的結構描述元素。但是，無論您使用何種連線，都可以將多個元件新增到資料檢視中。
+Customer Journey Analytics中的大多數維度和量度都是根據Adobe Experience Platform資料集中的結構描述元素。 但是，無論您使用何種連線，都可以將多個元件新增到資料檢視中。
 
 [!UICONTROL 標準元件]是不是從資料集結構欄位產生，而是從系統產生的元件。需要一些系統元件，以利 Analysis Workspace 的報告功能，而其他系統元件則是選用的。
 
@@ -54,7 +54,7 @@ CJA 中的大多數維度和量度都根據 Adobe Experience Platform 資料集�
 | [!UICONTROL  月份] | 時間分段維度 | 1 月至 12 月 |
 | [!UICONTROL 首次工作階段] | 量度 | 個人在報告時段內定義的首次工作階段。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) |
 | [!UICONTROL 重返工作階段] | 量度 | 非個人首次工作階段的工作階段數量。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) |
-| [!UICONTROL 人員 ID] | 維度 | 在 Experience Platform 中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。 其中任何一個都可當作人員 ID 使用。 範例包括 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。此 [!UICONTROL 個人ID] 維度是CJA中結合資料集和識別不重複人員的基礎。<p>可能的使用案例包含：<ul><li>在特定人員 ID 值上建立篩選器，以篩選下至該用戶行為的一切。</li><li>偵錯：確定有特定 Cookie ID (或特定客戶 ID) 的資料。</li><li>識別致電呼叫中心的用戶。</li></ul> |
+| [!UICONTROL 人員 ID] | 維度 | 在 Experience Platform 中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。 其中任何一個都可當作人員 ID 使用。 範例包括 Cookie ID、拼接 ID、使用者 ID、追蹤代碼等。此 [!UICONTROL 個人ID] 維度是合併資料集和識別Customer Journey Analytics中不重複人員的基礎。<p>可能的使用案例包含：<ul><li>在特定人員 ID 值上建立篩選器，以篩選下至該用戶行為的一切。</li><li>偵錯：確定有特定 Cookie ID (或特定客戶 ID) 的資料。</li><li>識別致電呼叫中心的用戶。</li></ul> |
 | [!UICONTROL 人員 ID 命名空間] | 維度 | 組成[!UICONTROL 人員 ID] 的 ID 類型。範例：`email address`、`cookie ID`、`Analytics ID` 等。 |
 | [!UICONTROL 季別] | 時間分段維度 | 第 1 季、第 2 季、第 3 季、第 4 季 |
 | [!UICONTROL 重複工作階段] | 量度 | 不是個人的首次工作階段的工作階段數量。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) |

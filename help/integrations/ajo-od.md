@@ -1,82 +1,83 @@
 ---
-title: 將Adobe Journey Optimizer決策管理與Customer Journey Analytics(CJA)整合
-description: 將Adobe Journey Optimizer決策管理產生的資料帶入Customer Journey Analytics，並使用Analysis Workspace進行分析。
-source-git-commit: 00a87f5f370310672ca37ab9df08350d14fc6a91
+title: 將Adobe Journey Optimizer決策管理與Adobe Customer Journey Analytics整合
+description: 引進Adobe Journey Optimizer決策管理產生的資料，並在Customer Journey Analytics內使用Analysis Workspace加以分析。
+exl-id: fde45264-46cf-4c68-9872-7fb739748f21
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 18%
+source-wordcount: '749'
+ht-degree: 20%
 
 ---
 
-# 將決策管理與Customer Journey Analytics整合
+# 整合決定管理與Adobe Customer Journey Analytics
 
 
-Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=en) 透過集中的行銷優惠方案資料庫和決策引擎，將規則和限制套用至Adobe Experience Platform建立的豐富即時設定檔，協助您在適當的時間為客戶傳送正確的優惠方案，讓個人化更輕鬆。
+Adobe Journey Optimizer [決定管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=en) 透過集中行銷優惠資料庫和決定引擎輕鬆實現個人化，該決策引擎將規則和限制套用至Adobe Experience Platform建立的豐富即時設定檔，以幫助您在適當的時間向客戶傳送合適的優惠。
 
-決策管理是Adobe Journey Optimizer(AJO)的一部分，並與之整合。 它也可獨立於AJO中定義的歷程和行銷活動，使用豐富的 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=en) 支援。
+決定管理是Adobe Journey Optimizer的一部分，並與之整合。 它也可透過其豐富功能，在Adobe Journey Optimizer中定義的歷程和行銷活動之外獨立使用 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=en) 支援。
 
-您可以匯入決策管理產生的資料，以透過下列步驟在Customer Journey Analytics(CJA)中執行進階分析：
+您可以匯入「決定管理」產生的資料，以透過下列步驟在Customer Journey Analytics中執行進階分析：
 
-## 將資料從Decision Management傳送至Adobe Experience Platform
+## 將資料從決定管理傳送至Adobe Experience Platform
 
-Adobe Experience Platform是決策管理與Customer Journey Analytics之間的中央資料來源和連結。 決策管理中的資料會以Experience Platform **自動** 或作為 **明確傳送的體驗事件** （例如曝光數或點按次數）。 請參閱 [資料收集快速入門](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=en) 以取得更多詳細資訊。
+Adobe Experience Platform作為中央資料來源，並連結決策管理和Customer Journey Analytics。 決策管理中的資料是以Experience Platform收集 **自動** 或當做一部分 **明確傳送的體驗事件** （例如曝光次數或點按次數）。 另請參閱 [開始使用資料彙集](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=en) 以取得更多詳細資料。
 
 ## 建立連線
 
-決策管理資料放入Adobe Experience Platform後，您就可以建立 [連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) 根據您的Decision Management資料集。 或者，您可以將Decision Management資料集新增至現有連線。
+一旦決定管理資料進入Adobe Experience Platform，您就可以建立 [連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) 根據您的決定管理資料集而定。 或者，您也可以將決定管理資料集新增至現有連線。
 
 選取並設定下列資料集：
 
 | 資料集 | 資料集類型 | 連線設定 | 說明 |
 | --- | --- | --- | --- |
-| ODE決策事件 —  _沙箱_ 決策 | 事件 | 人員 ID: `IdentityMap` | 包含自動產生的決策管理決策事件資料。 _沙箱_ 是指特定的沙箱名稱。 |
-| AJO訊息意見事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含訊息傳送事件。 |
-| AJO電子郵件追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含電子郵件追蹤事件。 |
-| AJO推播追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含推播追蹤事件。 |
-| AJO實體資料集 | 查詢 | 索引鍵： `_id`<br>匹配密鑰： `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 包含將歷程和促銷活動中繼資料與所有AJO事件資料建立關聯的分類。 |
+| ODE DecisionEvents - _沙箱_ 決策 | 事件 | 人員 ID: `IdentityMap` | 包含用於決策管理決策事件的自動產生資料。 _Sandbox_ 指特定的沙箱名稱。 |
+| Adobe Journey Optimizer訊息回饋事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含訊息傳遞事件。 |
+| Adobe Journey Optimizer電子郵件追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含電子郵件追蹤事件。 |
+| Adobe Journey Optimizer推播追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含推播追蹤事件。 |
+| Adobe Journey Optimizer實體資料集 | 查詢 | 索引鍵： `_id`<br>比對索引鍵： `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 包含將Journey和Campaign中繼資料與所有Adobe Journey Optimizer事件資料建立關聯的分類。 |
 
 {style="table-layout:auto"}
 
 ## 建立資料檢視
 
-建立連線後，您可以建立一或多個 [資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant) 設定CJA中可用的維度和量度。
+在建立連線後，您可以建立一個或多個[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant)來設定 Customer Journey Analytics 中可用的所需維度和量度。
 
 >[!NOTE]
 >
->AJO 和 CJA 之間的資料差異通常小於 1-2%。過去兩小時內收集的資料可能存在較大差異。使用不包括今天的日期範圍來減少與處理時間有關的差異。
+>Adobe Journey Optimizer和Customer Journey Analytics之間的資料差異通常少於1-2%。 過去兩小時內收集的資料可能存在較大差異。使用不包括今天的日期範圍來減少與處理時間有關的差異。
 
 ### 設定維度
 
-您可以在資料檢視中建立下列維度，以便與Decision Management中的類似維度達成近似對等。 請參閱資料檢視管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關維度自訂選項的詳細資料。
+您可以在資料檢視中建立下列維度，以實現與決策管理中類似維度的近似同位。 請參閱資料檢視管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關維度自訂選項的詳細資料。
 
 | 維度 | 綱要元素 | 元件設定 |
 | --- | --- | --- |
 | 活動名稱 | `_experience.decisioning.`<br/>`propositionDetails.activity.name` | 元件類型：維度 |
 | 容器識別碼 | `_experience.decisioning.containerID` | 元件類型：維度 |
-| 關聯識別碼 | `_experience.decisioning.`<br/>`propositions.scopeDetails.correlationID` | 元件類型：維度 |
-| 決策選項名稱 | `_experience.decisioning.`<br/>`propositionDetails.selections.name` | 元件類型：維度 |
-| 備援決策選項名稱 | `_experience.decisioning.`<br/>`propositionDetails.fallback.name` | 元件類型：維度 |
-| 版位名稱 | `_experience.decisioning.`<br/>`propositionDetails.placement.name` | 元件類型：維度 |
+| 相互關聯識別碼 | `_experience.decisioning.`<br/>`propositions.scopeDetails.correlationID` | 元件類型：維度 |
+| 決定選項名稱 | `_experience.decisioning.`<br/>`propositionDetails.selections.name` | 元件類型：維度 |
+| 遞補決定選項名稱 | `_experience.decisioning.`<br/>`propositionDetails.fallback.name` | 元件類型：維度 |
+| 位置名稱 | `_experience.decisioning.`<br/>`propositionDetails.placement.name` | 元件類型：維度 |
 
 {style="table-layout:auto"}
 
 
 ### 設定量度
 
-您可以在資料檢視中建立下列量度，以便與Decision Management中類似的量度達成近似對等。 請參閱資料檢視管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關量度自訂選項的詳細資料。
+您可以在資料檢視中建立下列量度，以實現與決策管理中類似量度的近似同位。 請參閱資料檢視管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關量度自訂選項的詳細資料。
 
 | 量度 | 說明 | 綱要元素 | 元件設定 |
 | --- | --- | --- | --- |
-| 事件類型(重新命名為特定事件，例如 `Feedback` for `message.feedback`) [1] | 特定事件類型的量 | `eventType` | 元件類型：量度<br/>**[!UICONTROL 設定包含排除值&#x200B;]**:開啟<br/>**[!UICONTROL 符合]**: [!UICONTROL 如果滿足所有條件]<br/>**[!UICONTROL 條件&#x200B;]**:**[!UICONTROL &#x200B;等於&#x200B;]**`message.feedback` |
-| 決策選項分數 | 單一範圍內決策選項的計算值。 | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | 元件類型：量度 |
-| 備援決策選項分數 | 在單一範圍內後援決策選項的計算值。 | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | 元件類型：量度 |
-| 優惠方案關閉 | 未進行任何其他直接互動就關閉或拒絕的優惠方案數量。 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
-| 選件顯示 | 顯示至設定檔的選件數。 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
-| 選件互動 | 顯示至設定檔的選件數。 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件類型：量度 |
-| 選件傳送 | 傳送至設定檔的選件數。 | `_experience.decisioning.`<br/>`propositionEventType.send` | 元件類型：量度 |
-| 選件觸發器 | 用戶端SDK要顯示的選件數。 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件類型：量度 |
-| 取消訂閱優惠方案 | 設定檔要求的選件數量，將來不會顯示。 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件類型：量度 |
+| 事件型別(重新命名以參考特定事件，例如 `Feedback` 的 `message.feedback`) [1] | 特定型別事件的金額 | `eventType` | 元件型別：量度<br/>**[!UICONTROL 設定包含排除值&#x200B;]**：開啟<br/>**[!UICONTROL 符合]**： [!UICONTROL 如果滿足所有條件]<br/>**[!UICONTROL 條件&#x200B;]**：**[!UICONTROL &#x200B;等於&#x200B;]**`message.feedback` |
+| 決定選項分數 | 單一範圍內容中決定選項的計算值。 | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | 元件型別：量度 |
+| 遞補決定選項分數 | 在單一範圍內容中計算後援決定選項的值。 | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | 元件型別：量度 |
+| 選件關閉 | 在沒有任何其他直接互動的情況下被駁回或拒絕的優惠方案數量。 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件型別：量度 |
+| 優惠方案顯示 | 顯示給設定檔的優惠方案數量。 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件型別：量度 |
+| 優惠方案互動 | 顯示給設定檔的優惠方案數量。 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件型別：量度 |
+| 優惠傳送 | 傳送至設定檔的優惠方案數量。 | `_experience.decisioning.`<br/>`propositionEventType.send` | 元件型別：量度 |
+| 優惠方案觸發程式 | 選擇由使用者端SDK顯示的選件數量。 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件型別：量度 |
+| 優惠取消訂閱 | 設定檔要求未來不顯示的優惠方案數量。 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件型別：量度 |
 
 {style="table-layout:auto"}
 
-[1] 您可以為各種可用事件類型定義多個量度。 請參閱 [包含排除值元件設定](/help/data-views/component-settings/include-exclude-values.md) 以取得更多資訊。
+[1] 您可以為可用的各種事件型別定義多個量度。 另請參閱 [包含排除值元件設定](/help/data-views/component-settings/include-exclude-values.md) 以取得詳細資訊。

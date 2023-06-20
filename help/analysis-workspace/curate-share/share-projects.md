@@ -4,10 +4,10 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: cbd2d9b7143bb1cc3246330f656b911d7e362fe3
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 47%
+source-wordcount: '1960'
+ht-degree: 46%
 
 ---
 
@@ -113,11 +113,11 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->與無法存取CJA的人共用Analysis Workspace專案時，請考慮下列事項：
+>與無法存取Analysis Workspace的人員共用Customer Journey Analytics專案時，請考慮下列事項：
 >
->* CJA管理員可以停用以這種方式共用專案的功能，如中所述 [偏好設定](/help/analysis-workspace/user-preferences.md). 如果您無法依照本節所述共用專案，您的CJA管理員已停用此功能。
+>* Customer Journey Analytics管理員可以停用以這種方式共用專案的功能，如所述 [偏好設定](/help/analysis-workspace/user-preferences.md). 如果您無法依照本節所述共用專案，您的Customer Journey Analytics管理員已停用此功能。
 >
->* 超過50個展開視覺效果的專案無法與無法存取CJA的人共用。
+>* 超過50個展開視覺效果的專案無法與沒有Customer Journey Analytics存取許可權的人共用。
 >
 >* 您共用的使用者可以檢視期間套用到專案的任何篩選器 [組織](curate.md).
 > 
@@ -147,17 +147,17 @@ ht-degree: 47%
 
    專案的所有者也是此連結的所有者。 只有在專案所有權轉移時，才能將連結所有權轉移給其他使用者，如中所述 [轉移使用者資產或設定帳戶有效期](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) （在Analytics管理指南中）。
 
-1. 選擇是否啟用以下安全性選項（此選項可由您的CJA管理員控制）：
+1. 選擇是否啟用下列安全性選項(此選項可由您的Customer Journey Analytics管理員控制)：
 
    * **[!UICONTROL 需要 Experience Cloud 驗證]:**
 
      啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe Experience Cloud組織。 不過，您共用的使用者不需要擁有Adobe Analytics的存取權。
 
-     CJA管理員可以為公司設定此偏好設定，如中所述 [偏好設定](/help/analysis-workspace/user-preferences.md). 您可能會遇到以下情況，具體取決於管理員如何設定此選項：
+     Customer Journey Analytics管理員可為公司設定此偏好設定，如所述 [偏好設定](/help/analysis-workspace/user-preferences.md). 您可能會遇到以下情況，具體取決於管理員如何設定此選項：
 
-      * 如果未顯示此選項，您的CJA管理員未啟用此功能。
+      * 如果未顯示此選項，則表示您的Customer Journey Analytics管理員未啟用此功能。
 
-      * 如果已啟用此選項且您無法將其停用，則表示您的CJA管理員需要對存取Analysis Workspace專案的任何人進行Experience Cloud驗證。 授權Healthcare Shield的組織一律如此。
+      * 如果已啟用此選項，且您無法將其停用，則表示您的Customer Journey Analytics管理員需要對存取Analysis Workspace專案的任何人進行Experience Cloud驗證。 授權Healthcare Shield的組織一律如此。
 
 1. 旁邊 **[!UICONTROL 與任何人共用（不需要登入）]** 欄位，按一下 **複製連結** 圖示 ![複製連結圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg))，以將連結複製到您的系統剪貼簿。
 

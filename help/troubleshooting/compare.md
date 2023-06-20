@@ -1,31 +1,31 @@
 ---
-title: 將您的 AA 資料與 CJA 資料進行比較
+title: 將您的Adobe Analytics資料與Customer Journey Analytics資料進行比較
 description: 了解如何將您的 Adobe Analytics 資料與 Customer Journey Analytics 中的資料進行比較
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: 95f92d742dcc59098f51978a02c2989c42594807
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 94%
+source-wordcount: '906'
+ht-degree: 65%
 
 ---
 
-# 將您的 Adobe Analytics 資料與 CJA 資料進行比較
+# 將您的Adobe Analytics資料與Customer Journey Analytics資料進行比較
 
-隨著您的組織採用 CJA，您可能會注意到 Adobe Analytics 與 CJA 之間的資料差異。這是正常的現象，發生原因有很多種。CJA 的設計可讓您改善 AA 中資料的部分限制。但會發生未預期/意外的不一致情況。本文章旨在協助您診斷並解決這些差異，以便於您和您的團隊可以使用 CJA，不會受到資料完整性疑慮所阻礙。
+隨著您的組織採用Customer Journey Analytics，您可能會注意到Adobe Analytics和Customer Journey Analytics之間的資料差異。 這是正常的現象，發生原因有很多種。Customer Journey Analytics的設計可讓您改善AA中資料的部分限制。 但會發生未預期/意外的不一致情況。本文章旨在協助您診斷並解決這些差異，讓您和您的團隊可以使用Customer Journey Analytics，不會受到資料完整性疑慮的阻礙。
 
-假設您透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)將 Adobe Analytics 資料擷取到 AEP，然後使用此資料集建立 CJA 連線。
+假設您透過以下方式將Adobe Analytics資料擷取到Adobe Experience Platform： [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)，然後使用此資料集建立Customer Journey Analytics連線。
 
 ![資料流](assets/compare.png)
 
-接著您建立資料檢視，然後在日後報告這筆在 CJA 上的資料時，您注意到 Adobe Analytics 中的報告結果不一致。
+接下來，您已建立資料檢視，接著在Customer Journey Analytics上報告此資料時，您注意到Adobe Analytics中的報告結果不一致。
 
 以下為將您的原始 Adobe Analytics 資料與 Customer Journey Analytics 中的資料進行比較的部分步驟。
 
 ## 先決條件
 
-* 確認 AEP 中的 Analytics 資料集包含正在調查的日期範圍的資料。
+* 請確定Adobe Experience Platform中的Analytics資料集包含您正在調查的日期範圍的資料。
 
 * 確認您在 Analytics 中選擇的報告套裝符合擷取到 Adobe Experience Platform 的報告套裝。
 
@@ -39,7 +39,7 @@ ht-degree: 94%
 
 1. 請儲存此專案，以便於在比較時使用。
 
-## 步驟 2：將結果與 CJA 中[!UICONTROL 依時間戳記區分的記錄總數]進行比較
+## 步驟2：比較結果和 [!UICONTROL 依時間戳記區分的記錄總數] 在Customer Journey Analytics中
 
 現在請將 Analytics 中的「[!UICONTROL 發生次數]」與 Customer Journey Analytics 中依時間戳記區分的記錄總數進行比較。
 
@@ -47,22 +47,22 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->這僅適用於一般中值資料集，而非拼接資料集 (透過[跨管道分析](/help/cca/overview.md))。請注意用於 CJA 的人員 ID 計量是進行比較工作的關鍵。在 AA 中複寫可能不是每次都那麼容易，尤其是已開啟跨管道分析時。
+>這僅適用於一般中值資料集，而非拼接資料集 (透過[跨管道分析](/help/cca/overview.md))。請注意，在Customer Journey Analytics中使用的人員ID會計處理對於比較有效至關重要。 在Adobe Analytics中復寫並不總是那麼容易，尤其是如果已開啟跨管道分析。
 
 1. 在 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)中，執行以下[!UICONTROL 依時間戳記區分的記錄總數]查詢：
 
-       &quot;
-       選擇Substring(from_utc_timestamp(timestamp,&#39;{timeZone}&#39;), 1, 10)作為Day, \
-       Count(_id)AS記錄
-       從{dataset} \
-       WHERE timestamp>=from_utc_timestamp(&#39;{fromDate}&#39;,&#39;UTC&#39;)\
-       和時間戳記&lt;from_utc_timestamp todate=&quot;&quot; utc=&quot;&quot; span=&quot;&quot; id=&quot;11&quot; translate=&quot;no&quot; />       且時間戳記非空值\
-       和enduserid。
-_experience.aaid.id非空值\
-       按日分組\
-       按日排序；
+       ```
+       SELECT子字串(from_utc_timestamp(timestamp，&#39;{timeZone}&#39;)， 1， 10)作為日，\
+       Count(_id) AS記錄
+       起始日期  {dataset} \
+       WHERE timestamp>=from_utc_timestamp(&#39;{fromDate}&#39;，&#39;UTC&#39;) \
+       AND時戳&lt;from_utc_timestamp span=&quot;&quot; id=&quot;14&quot; translate=&quot;no&quot; />&#39;，&#39;UTC&#39;) \
+       AND時間戳記不是NULL \
+       AND enduserid。{toDate}_experience.aaid.id不是NULL \
+       依日分組\
+       按日訂購；
        
-       &quot;
+       ```
    
 1. 在 [Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)中，從原始資料中找出 Analytics 來源連接器是否可能已篩選掉某些列。
 
@@ -81,11 +81,11 @@ _experience.aaid.id非空值\
 
 1. 如果連接器已篩選列，請將這幾列減去[!UICONTROL 發生次數]量度。得到的數字應符合在 Adobe Experience Platform 資料集中的事件數。
 
-## 為何可能會在從 AEP 擷取期間篩選或略過記錄
+## 為何可能會在從Adobe Experience Platform擷取期間篩選或略過記錄
 
-CJA [連線](/help/connections/create-connection.md)可讓您根據資料集內的通用人員 ID 帶入並聯結多筆資料集。在後端，我們會套用重複資料刪除：根據時間戳記完全外部聯結或聯集事件資料集，然後根據人員 ID 內部聯結個人資料和查詢資料集。
+Customer Journey Analytics [連線](/help/connections/create-connection.md) 可讓您根據資料集內的通用人員ID帶入及聯結多個資料集。 在後端，我們會套用重複資料刪除：根據時間戳記完全外部聯結或聯集事件資料集，然後根據人員 ID 內部聯結個人資料和查詢資料集。
 
-以下是在從 AEP 擷取資料時可能略過記錄的部分原因。
+以下是從Adobe Experience Platform擷取資料時可能略過記錄的一些原因。
 
 * **遺失時間戳記** – 如果事件資料集遺失時間戳記，則會在擷取期間完全忽略或略過這些記錄。
 

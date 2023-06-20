@@ -1,15 +1,15 @@
 ---
 title: 如何在 Customer Journey Analytics 中設定 Report Builder
-description: 說明如何在 CJA 中設定 Report Builder
+description: 說明如何在Customer Journey Analytics中設定Report Builder
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
-source-git-commit: faaf3d19ed37019ba284b41420628750cdb413b8
-workflow-type: ht
-source-wordcount: '447'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 - 1904 或更新版本的 Windows 10
 - 2106 或更新版本的 Excel
 
-   所有 Windows 桌面版 Excel 使用者必須安裝 Microsoft Edge Webview2，才能使用此增益集。若要安裝控制器：
+  所有 Windows 桌面版 Excel 使用者必須安裝 Microsoft Edge Webview2，才能使用此增益集。若要安裝控制器：
 
    1. 前往 <https://aka.ms/webview2installer>。
    1. 選取並下載 Evergreen Standalone Installer。

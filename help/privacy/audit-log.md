@@ -1,31 +1,31 @@
 ---
 title: 稽核記錄
-description: 了解如何檢視和管理 CJA 稽核記錄。
+description: 瞭解如何檢視和管理Customer Journey Analytics稽核記錄。
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
-source-git-commit: 7fcbac6adb6946efd5c54b9f8edb4587dc34d445
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 79%
+source-wordcount: '806'
+ht-degree: 67%
 
 ---
 
 # 稽核記錄
 
-為了提高系統中所執行活動的透明度和可見度，Customer Journey Analytics (CJA) 可讓您以「稽核記錄」的形式，稽核各種服務和功能的使用者活動。這些記錄形成了稽核軌跡，可以幫助解決問題，並幫助您的企業有效地遵守公司資料管理原則和監管要求，例如健康保險便利和責任法案 (HIPAA)。
+為了提高系統中所執行活動的透明度和可見度，Adobe Customer Journey Analytics可讓您以「稽核記錄」的形式，稽核各種服務和功能的使用者活動。 這些記錄形成了稽核軌跡，可以幫助解決問題，並幫助您的企業有效地遵守公司資料管理原則和監管要求，例如健康保險便利和責任法案 (HIPAA)。
 
 就基本概念而言，稽核記錄說明了&#x200B;**誰**&#x200B;執行了&#x200B;**什麼**&#x200B;動作，以及&#x200B;**何時**&#x200B;執行。稽核記錄中所記錄的每個動作都包含中繼資料，其指出動作類型、日期和時間、執行動作之使用者的電子郵件 ID，以及與動作類型相關的其他屬性。
 
-本主題涵蓋 CJA 中的稽核記錄，包括如何在 UI 中檢視和管理它們。
+本主題涵蓋Customer Journey Analytics稽核記錄，包括如何在UI中檢視和管理它們。
 
 ## 存取稽核記錄
 
 為您的組織啟用此功能後，活動發生時系統自動收集稽核記錄。您無需手動啟用記錄收集。
 
-若要檢視和匯出稽核記錄，您必須已被授予 Adobe Console 中的&#x200B;**[!UICONTROL 稽核記錄存取權]**&#x200B;存取控制權限。若要了解如何管理 CJA 功能的個人權限，請參閱[存取控制文件](../admin/cja-access-control.md)。
+若要檢視和匯出稽核記錄，您必須已被授予 Adobe Console 中的&#x200B;**[!UICONTROL 稽核記錄存取權]**&#x200B;存取控制權限。若要瞭解如何管理Customer Journey Analytics功能的個別許可權，請參閱 [存取控制檔案](../admin/cja-access-control.md).
 
 ## 在 UI 中檢視稽核記錄
 
-在 CJA 中，瀏覽到 **[!UICONTROL 工具]** > **[!UICONTROL 稽核記錄]**。
+在Customer Journey Analytics中，導覽至 **[!UICONTROL 工具]** > **[!UICONTROL 稽核記錄]**.
 
 系統依預設會顯示今天和昨天的稽核記錄。
 
@@ -136,4 +136,4 @@ ht-degree: 79%
 
 ## 管理 API 中的稽核記錄
 
-所有可以在 UI 中執行的動作，也可以使用 API 呼叫來完成。如需詳細資訊，請參閱 [CJA API 參考文件](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs)。
+所有可以在 UI 中執行的動作，也可以使用 API 呼叫來完成。請參閱 [Customer Journey AnalyticsAPI參考檔案](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) 以取得詳細資訊。

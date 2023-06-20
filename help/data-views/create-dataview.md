@@ -4,16 +4,16 @@ description: 您可調整以建立或編輯資料檢視的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 97%
+source-wordcount: '1228'
+ht-degree: 95%
 
 ---
 
 # 建立或編輯資料檢視
 
-建立資料檢視需要從結構元素建立量度和維度或使用標準元件。大多數結構描述元素可以是維度或量度，具體取決於您的業務需求。將結構描述元素拖到資料檢視中後，右側會出現選項，您可以在其中調整維度或量度在 CJA 中的運行方式。
+建立資料檢視需要從結構元素建立量度和維度或使用標準元件。大多數結構描述元素可以是維度或量度，具體取決於您的業務需求。將結構描述元素拖曳至資料檢視後，右側會出現選項，您可以在其中調整維度或量度在Customer Journey Analytics中的運作方式。
 
 以下是有關該主題的影片：
 

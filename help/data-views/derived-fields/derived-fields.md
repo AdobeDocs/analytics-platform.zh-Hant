@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: 4ae102baa524a7e01ac8f08365260e80fe90150e
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '3252'
+source-wordcount: '3262'
 ht-degree: 8%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 8%
 
 # 衍生欄位
 
-衍生欄位是Customer Journey Analytics (CJA)中即時報告功能的重要方面。 衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以將該衍生欄位當做中的元件（量度或維度） [Workspace](../../analysis-workspace/home.md) 甚至進一步將衍生欄位定義為中的元件 [資料檢視](../data-views.md).
+衍生欄位是Adobe Customer Journey Analytics中即時報表功能的重要方面。 衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以將該衍生欄位當做中的元件（量度或維度） [Workspace](../../analysis-workspace/home.md) 甚至進一步將衍生欄位定義為中的元件 [資料檢視](../data-views.md).
 
-相較於CJA以外其他位置中的資料轉換或操控，衍生欄位可節省大量的時間和精力。 例如 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)， [資料Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)，或在您自己的提取轉換載入(ETL) /提取載入轉換(ELT)程式內。
+相較於在Customer Journey Analytics以外的其他位置轉換或操控您的資料，衍生欄位可節省大量時間和精力。 例如 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)， [資料Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=en)，或在您自己的提取轉換載入(ETL) /提取載入轉換(ELT)程式內。
 
 衍生欄位定義於 [資料檢視](../data-views.md)是以定義為規則的一組函式為基礎，並套用至可用的標準和/或結構描述欄位。
 
@@ -122,7 +122,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->衍生欄位在CJA中的連線層級進行管理。 對與該連線相關聯之任何資料檢視中的衍生欄位所做的任何變更，都會套用至所有這些相關聯的資料檢視。
+>衍生欄位在Customer Journey Analytics的連線層級進行管理。 對與該連線相關聯之任何資料檢視中的衍生欄位所做的任何變更，都會套用至所有這些相關聯的資料檢視。
 
 
 
@@ -461,9 +461,9 @@ ht-degree: 8%
 
 ## 限制
 
-CJA使用巢狀容器結構，並以Adobe Experience Platform的範本建模 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) （體驗資料模型）。 另請參閱 [容器](../create-dataview.md#containers) 和 [篩選容器](../../components/filters/filters-overview.md#filter-containers) 以取得更多背景資訊。 此容器模型雖然本質上有彈性，但在使用規則產生器時施加了一些限制。
+Customer Journey Analytics使用巢狀容器結構，並按照Adobe Experience Platform的設定建模 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) （體驗資料模型）。 另請參閱 [容器](../create-dataview.md#containers) 和 [篩選容器](../../components/filters/filters-overview.md#filter-containers) 以取得更多背景資訊。 此容器模型雖然本質上有彈性，但在使用規則產生器時施加了一些限制。
 
-CJA使用以下預設容器模型：
+Customer Journey Analytics使用下列預設容器模型：
 
 <p align="center">
 <img src="./assets/containers.png" width="50%" valign="middle">
@@ -761,4 +761,4 @@ CJA使用以下預設容器模型：
 下列限制適用於衍生欄位的一般功能：
 
 - 為衍生欄位定義規則時，您最多可以使用10個不同的結構描述欄位（不包括標準欄位）。
-- 每個CJA連線最多可以有100個衍生欄位。
+- 每個Customer Journey Analytics連線最多可以有100個衍生欄位。

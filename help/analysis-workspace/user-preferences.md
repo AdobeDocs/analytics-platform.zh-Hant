@@ -4,9 +4,9 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: CJA Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: b2931e40bd07b8bd3421216c1f1565bea7e3cd5d
+source-git-commit: c7e6dd4fb9a4dd517464572815e09f698b1761ed
 workflow-type: tm+mt
-source-wordcount: '3128'
+source-wordcount: '3130'
 ht-degree: 74%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 74%
 
 ## 一般偏好設定
 
-一般偏好設定適用於瀏覽器中您的 CJA 體驗。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
+一般偏好設定適用於您在瀏覽器中的Customer Journey Analytics體驗。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
 | 偏好設定 | 選項 |
 | --- | --- |

@@ -2,18 +2,18 @@
 title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
-source-git-commit: a56cc7a0299aad98ff8af5e0d59df4679e0d2d25
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 90%
+source-wordcount: '1565'
+ht-degree: 63%
 
 ---
 
 # 建立及發佈對象
 
-本主題說明如何將在 Customer Journey Analytics (CJA) 中發現的對象建立並發佈到 Adobe Experience Platform 中的[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)，以用於客戶目標定位和個人化。
+本主題說明如何建立及發佈Customer Journey Analytics中識別的對象至 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant) 在Adobe Experience Platform中用於客戶目標定位和個人化。
 
-請閱讀此[總覽](/help/components/audiences/audiences-overview.md)，熟悉 CJA 對象的概念。
+閱讀此 [概觀](/help/components/audiences/audiences-overview.md) 熟悉Customer Journey Analytics對象的概念。
 
 ## 建立對象 {#create}
 
@@ -38,7 +38,7 @@ ht-degree: 90%
    | [!UICONTROL 名稱] | 對象名稱。 |
    | [!UICONTROL 標記] | 任何您針對組織目的想要套用到對象的標籤。您可以使用現有的標籤或輸入新的標籤。 |
    | [!UICONTROL 說明] | 新增對象的優質說明，以與其他對象區分開來。 |
-   | [!UICONTROL 重新整理頻率] | 您想要重新整理對象的頻率。<ul><li>您可以選擇建立單次、不需重新整理的對象 (預設)。例如，這可能適合用於特定單次行銷活動。</li><li>您也可以選擇其他重新整理間隔。根據您的 CJA 權限，4 小時重新整理的頻率限制為 75 到 150 次對象重新整理。</li></ul> |
+   | [!UICONTROL 重新整理頻率] | 您想要重新整理對象的頻率。<ul><li>您可以選擇建立單次、不需重新整理的對象 (預設)。例如，這可能適合用於特定單次行銷活動。</li><li>您也可以選擇其他重新整理間隔。若為4小時的重新整理頻率，受眾重新整理次數上限為75至150次，具體取決於您的Customer Journey Analytics權益。</li></ul> |
    | 到期日 | 對象停止重新整理的時間。預設到期日是從建立日期算起的 1 年後。系統處理即將到期對象的方法與即將到期的排程報告相似，管理員會在對象到期的一個月前收到通知電子郵件。 |
    | 重新整理回顧期間 | 在建立此對象時，指定資料回溯期間的長度。最長 90 天。 |
    | [!UICONTROL 一次性日期範圍] | 您想要發佈一次性對象的日期範圍。 |
@@ -74,38 +74,38 @@ ht-degree: 90%
 
 ## 建立對象後的情況? {#after-audience-created}
 
-在您建立對象後，Adobe 會為每個新的 CJA 對象建立一個 Experience Platform 串流區段。只有在組織設定為串流分段時，AEP 串流區段才會建立。
+建立受眾後，Adobe會為每個新Experience Platform受眾建立Customer Journey Analytics串流區段。 只有貴組織設為適用於串流區段，系統才會建立Adobe Experience Platform串流區段。
 
-* AEP 區段與 CJA 對象共用相同的名稱/說明，但該名稱將附加於 CJA 對象 ID 以確保其唯一性。
-* 如果 CJA 對象名稱/說明改變，AEP 區段名稱/說明也會反映該變化。
-* 如果用戶刪除了 CJA 對象，並不會刪除 AEP 區段。原因是 CJA 對象以後可能會被取消刪除。
+* Adobe Experience Platform區段會與Customer Journey Analytics對象共用相同的名稱/說明，但該名稱會附加Customer Journey Analytics對象ID，以確保其唯一。
+* 如果Customer Journey Analytics對象名稱/說明變更，Adobe Experience Platform區段名稱/說明也會反映該變更。
+* 如果使用者刪除了Customer Journey Analytics對象，則不會刪除Adobe Experience Platform區段。 原因在於Customer Journey Analytics對象稍後可能會未刪除。
 
 ## 延遲的注意事項 {#latency}
 
 對象發佈之前、期間和之後的數個時間點，可能會發生延遲。 以下是可能的延遲的概觀。
 
-![從AEP到CJA的延遲](assets/latency-diagram.png)
+![從Adobe Experience Platform到Customer Journey Analytics的延遲](assets/latency-diagram.png)
 
 | # | 延遲點 | 延遲期間 |
 | --- | --- | --- |
 | 未顯示 | Adobe Analytics至Analytics來源聯結器(A4T) | 最多需 30 分鐘 |
 | 1 | 資料擷取至Data Lake （從Analytics來源聯結器或其他來源） | 最多需 90 分鐘 |
-| 2 | 從Experience Platform資料湖將資料擷取到CJA | 最多需 90 分鐘 |
+| 2 | 從Experience Platform Data Lake將資料擷取至Customer Journey Analytics | 最多需 90 分鐘 |
 | 3 | 對象發佈至即時客戶設定檔，包括自動建立串流區段並允許該區段準備接收資料。 | 約 60 分鐘 |
 | 4 | 對象的重新整理頻率 | <ul><li>一次性重新整理 (延遲時間小於 5 分鐘)</li><li>每 4 小時、每天、每週、每月重新整理一次 (延遲與重新整理頻率息息相關) |
-| 5 | 在 AEP 中建立目的地：啟動新區段 | 1-2 小時 |
+| 5 | 在Adobe Experience Platform中建立目的地：啟用新區段 | 1-2 小時 |
 
 {style="table-layout:auto"}
 
-## 在 Experience Platform 中使用 CJA 對象 {#audiences-aep}
+## 在Experience Platform中使用Customer Journey Analytics對象 {#audiences-aep}
 
-CJA 會從您發佈的對象中取得所有命名空間和 ID 組合，並將它們串流傳送到即時客戶設定檔 (RTCP)。CJA 會將對象傳送到 Experience Platform，其主要身分設定為在設定連線時選擇作為[!UICONTROL 人員 ID] 的項目。
+Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流到即時客戶個人檔案(RTCP)中。 Customer Journey Analytics會根據選取的作為，將受眾傳送至已設定主要身分的Experience Platform [!UICONTROL 個人ID] 設定連線時。
 
 接著 RTCP 會檢查每個命名空間/ID 組合，並尋找它可能屬於的個人檔案。個人檔案基本上是一組連結的命名空間、ID 和裝置。如果找到個人檔案，則會將命名空間和 ID 新增到此個人檔案中的其他 ID，做為區段會籍屬性。例如，現在可以跨所有裝置和頻道以「user@adobe.com」做為目標。如果找不到個人檔案，則會建立一個新的。
 
-您可以在 Platform 中檢視 CJA 對象，方法是前往「**[!UICONTROL 區段]** > **[!UICONTROL 建立區段]** > **[!UICONTROL 對象]**&#x200B;標籤 > **[!UICONTROL CJA 對象]**」。
+您可以在Platform中檢視Customer Journey Analytics對象，方法是前往 **[!UICONTROL 區段]** > **[!UICONTROL 建立區段]** > **[!UICONTROL 受眾]** 標籤> **[!UICONTROL CJA對象]**.
 
-您可以將 CJA 對象拖到 AEP 區段的區段定義。
+您可以將Customer Journey Analytics受眾拖曳至Adobe Experience Platform區段的區段定義。
 
 ![](assets/audiences-aep.png)
 
@@ -113,15 +113,15 @@ CJA 會從您發佈的對象中取得所有命名空間和 ID 組合，並將它
 
 對象發佈的常見問題。
 
-+++**如果使用者不再是 CJA 中的對象成員，會發生什麼情況？**
++++**如果使用者不再是Customer Journey Analytics中的對象成員，會發生什麼情況？**
 
-發生這種情況時，會從 CJA 傳送退出事件到 Experience Platform。
+在這種情況下，會從Customer Journey Analytics傳送退出事件給Experience Platform。
 
 +++
 
-+++**如果您刪除 CJA 中的對象，會有什麼影響？**
++++**如果您刪除Customer Journey Analytics中的對象，會發生什麼情況？**
 
-刪除 CJA 對象時，該對象不會在 Experience Platform UI 中顯示。然而，實際上不會刪除在 Platform 中與該對象相關聯的設定檔。
+刪除Customer Journey Analytics對象時，該對象將不再出現在Experience PlatformUI中。 然而，實際上不會刪除在 Platform 中與該對象相關聯的設定檔。
 
 +++
 
@@ -131,13 +131,13 @@ CJA 會從您發佈的對象中取得所有命名空間和 ID 組合，並將它
 
 +++
 
-+++**CJA會將對象資料以管道事件傳送，還是以也會傳送至資料湖的平面檔案傳送？**
++++**Customer Journey Analytics會將對象資料以管道事件傳送，還是以也會傳送至資料湖的平面檔案傳送？**
 
-CJA 會透過管道將資料串流至 RTCP，此資料也會收集至資料湖的系統資料集中。
+Customer Journey Analytics會透過管道將資料串流到RTCP中，而且這些資料也會收集到資料湖的系統資料集中。
 
 +++
 
-+++**CJA 會傳送哪些身分識別？**
++++**Customer Journey Analytics會傳送哪些身分？**
 
 中指定的任何身分/名稱空間配對 [連線設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant#create-connection). 具體而言，就是使用者選取要作為其「人員 ID」之欄位時的步驟。
 
@@ -145,11 +145,11 @@ CJA 會透過管道將資料串流至 RTCP，此資料也會收集至資料湖�
 
 +++**選擇哪個 ID 作為主要身分？**
 
-請參閱上述內容。我們只會向每個 CJA「人員」傳送一個身分識別。
+請參閱上述內容。我們只會針對每個Customer Journey Analytics「人員」傳送一個身分。
 
 +++
 
-+++**RTCP 是否也會處理 CJA 訊息？CJA 是否可透過對象共用將身分新增至設定檔識別圖？**
++++**RTCP也會處理Customer Journey Analytics訊息嗎？ Customer Journey Analytics是否可透過受眾共用將身分新增至設定檔身分圖表？**
 
 否。我們只會為每個「人員」發送一個身分，因此 RTCP 將沒有圖形邊可供使用。
 

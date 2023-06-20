@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 exl-id: c2d9b758-42a4-4b58-9bab-095518efb86d
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 8e902022c07376fb3c13cad5fd5b1efa655c9424
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 97%
+source-wordcount: '454'
+ht-degree: 89%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 本技術文件指南提供 Customer Journey Analytics 的自助協助。Customer Journey Analytics 可將您選擇之任何管道的客戶資料 (線上及離線皆可) 整合到 Adobe Experience Platform 中，接著依您目前使用 Analysis Workspace 分析現有數位資料的方式加以分析。
 
-Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接任何常見客戶 ID 的線上和離線資料，進而允許您Customer Journey Analytics。
+Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接任何常見客戶 ID 的線上和離線資料，進而允許您在Customer Journey Analytics的整個客戶資料集中搜尋。
 
 Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資格。如需詳細資訊，請聯絡您的 Adobe 客戶團隊。
 
@@ -28,10 +28,10 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=zh-Hant">在 Customer Journey Analytics 中利用 Adobe Analytics 報告套裝資料</a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=zh-Hant"> 結合報告套裝與不同的結構描述 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/pr-vista-dataprep.html?lang=zh-Hant"> 處理規則、VISTA 和分類與「資料準備」的比較 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=zh-Hant">比較 Adobe Analytics 和 CJA 報告功能的資料處理</a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html?lang=zh-Hant">虛擬報告套裝、資料檢視、AEP 沙箱和 Analytics 來源連接器</a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=zh-Hant"> 比較Adobe Analytics與Customer Journey Analytics報告功能的資料處理 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html?lang=zh-Hant"> 虛擬報告套裝、資料檢視、Adobe Experience Platform沙箱和Analytics來源聯結器 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=zh-Hant">Adobe Analytics 至 Customer Journey Analytics 的發展進程 </a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.html?lang=zh-Hant"> Adobe Analytics 使用者的 CJA 使用手冊 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.html?lang=zh-Hant"> Adobe Analytics使用者的Customer Journey Analytics使用指南 </a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant#connection-detail"> 使用加強的連線管理功能 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant#cja-dataviews"> 使用加強的資料檢視功能 </a> </li>
    <td colname="col2" valign="top"><p class="head"> <b>快速入門</b> </p> 
@@ -40,7 +40,7 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant"> 常見問題</a> </li> 
    </ul> <p class="head"><b>發行說明</b> </p> 
      <li>請參閱最新的 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant" format="https" scope="external">Customer Journey Analytics 發行說明</a>，了解新功能和修正內容。 </li>
-    <td colname="col3" valign="top"> <p class="head"><b>CJA API</b> </p> 
+    <td colname="col3" valign="top"> <p class="head"><b>CUSTOMER JOURNEY ANALYTICSAPI</b> </p> 
     <ul> 
      <li>查看全部 <a href="https://developer.adobe.com/cja-apis/docs/" format="https" scope="external">Customer Journey Analytics API</a>。 </li>
       <li>查看最新 <a href="https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API" format="https" scope="external">Customer Journey Analytics Reporting API</a>。 </li>

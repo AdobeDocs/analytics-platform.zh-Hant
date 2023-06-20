@@ -3,16 +3,16 @@ title: Labs 使用手冊
 description: 預覽 Customer Journey Analytics 的原型專案
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
-source-git-commit: 702d03b95b6689e1441fbdd8b2ef3a5a3fcfbad0
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 90%
 
 ---
 
 # [!UICONTROL Labs] 使用手冊
 
-[!UICONTROL Labs 可讓您更快速地建立早期構想的原型。]此功能結合了工具和程序，能夠以透明方式加速開發，並且以客戶為中心。 它讓用戶運用新興技術參與互動、發掘有價值的深入分析資料，並影響未來的功能開發與優先項目。 您可以透過 Labs 搶先使用 Customer Journey Analytics (CJA) 的創新服務，並根據自家企業的使用案例和資料評估未來的新功能。
+[!UICONTROL Labs 可讓您更快速地建立早期構想的原型。]此功能結合了工具和程序，能夠以透明方式加速開發，並且以客戶為中心。 它讓用戶運用新興技術參與互動、發掘有價值的深入分析資料，並影響未來的功能開發與優先項目。 您可以透過Labs搶先使用Adobe Customer Journey Analytics創新功能，並根據您自己的業務使用案例和資料評估即將推出的功能。
 
 ## 要求
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 1. 如果您尚無法存取[!UICONTROL 工作區]和 [!UICONTROL Labs]，請向您的管理員要求權限。
 
-1. 在 CJA 中，按一下「**[!UICONTROL Labs]**」標籤。
+1. 在Customer Journey Analytics中，按一下 **[!UICONTROL Labs]** 標籤。
 
 ## 評估原型
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 1. 按一下&#x200B;**[!UICONTROL 「提交」]**&#x200B;即可返回主預覽入口網站。
 
-## CJA Labs 原型
+## Customer Journey Analytics實驗室原型
 
 * 自然語言洞察產生器：為您在自由表格中分析的任何資料提供自然語言摘要。
 * 視覺效果推薦器：推薦可與您的資料完美配對的視覺效果。

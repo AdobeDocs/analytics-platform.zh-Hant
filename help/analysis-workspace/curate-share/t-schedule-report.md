@@ -5,10 +5,10 @@ title: 為專案排程
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: ebdbfcb4a512c8810364693fc3c2504f958bc986
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 91%
+source-wordcount: '912'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->密碼保護排程專案的選項僅會對已購買 [Healthcare Shield](https://business.adobe.com/solutions/experience-cloud-for-healthcare.html) 附加產品的 CJA 客戶顯示。
+>密碼保護排程專案的選項僅會對已購買的Customer Journey Analytics客戶顯示 [Healthcare Shield](https://business.adobe.com/solutions/experience-cloud-for-healthcare.html) 附加產品。
 
 Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv 格式傳送。
 

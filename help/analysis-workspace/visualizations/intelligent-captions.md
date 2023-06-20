@@ -4,9 +4,9 @@ title: 智慧型註解
 feature: Visualizations
 role: User, Admin
 exl-id: 7e61ac12-a68e-4639-b021-f04762af4709
-source-git-commit: 48648a29b92ff81b98a7efa8f6f1cb3f49d4bf81
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 * 需要與其他使用者分享敘述的分析師。 分析師需要這些深入分析才能為其使用者提供內容。
 * 想要快速探索高層次外賣的業務使用者。
 
-字幕可供所有CJA使用者使用，並且不需要特殊許可權。
+註解可供所有Customer Journey Analytics使用者使用，且不需要特殊許可權。
 
 ## 啟動智慧型字幕 {#launch}
 

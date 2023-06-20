@@ -1,23 +1,23 @@
 ---
 title: 合併事件資料集
-description: 了解 CJA 如何透過合併資料集來建立連線。
+description: 瞭解Customer Journey Analytics如何透過合併資料集來建立連線。
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 91%
+source-wordcount: '344'
+ht-degree: 72%
 
 ---
 
 
 # 合併事件資料集
 
-當您建立連線時，Customer Journey Analytics (CJA) 會將所有結構描述和資料集合併到單一資料集中。 CJA 會使用這個「合併事件資料集」來製作報表。在連線中納入多個結構或資料集時：
+當您建立連線時，Customer Journey Analytics會將所有結構描述和資料集合併到單一資料集中。 Customer Journey Analytics會使用這個「合併事件資料集」來製作報表。 在連線中納入多個結構或資料集時：
 
 * 結構會合併。重複的結構欄位會合併。
-* 每個資料集的「人員 ID」欄會合併為一欄，不論其名稱為何。此欄是識別CJA中不重複人員的基礎。
+* 每個資料集的「人員 ID」欄會合併為一欄，不論其名稱為何。此欄是識別Customer Journey Analytics中不重複人員的基礎。
 * 會根據時間戳記處理列。
 * 事件會解析至毫秒層級。
 
@@ -31,34 +31,34 @@ ht-degree: 91%
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` |  |
-| `user_310` | `1 Jan 7:04 AM` |  |  | `2` |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` |  | `3` |
-| `user_847` | `2 Jan 12:31 PM` |  | `Turtle` | `4` |
-| `user_847` | `2 Jan 12:44 PM` |  |  | `2` |
+| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | |
+| `user_310` | `1 Jan 7:04 AM` | | | `2` |
+| `user_310` | `1 Jan 7:08 AM` | `Blue` | | `3` |
+| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | `4` |
+| `user_847` | `2 Jan 12:44 PM` | | | `2` |
 
 | `different_id` | `timestamp` | `string_color` | `string_shape` | `metric_b` |
 | --- | --- | --- | --- | --- |
 | `user_847` | `2 Jan 12:26 PM` | `Yellow` | `Circle` | `8.5` |
-| `user_847` | `2 Jan 1:01 PM` | `Red` |  |  |
+| `user_847` | `2 Jan 1:01 PM` | `Red` | | |
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` |  | `Triangle` | `3.1` |
+| `alternateid_656` | `2 Jan 9:03 PM` | | `Triangle` | `3.1` |
 
 使用這兩個事件資料集建立連線時，系統會使用下表來製作報表。
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
-| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` |  |  |  |
-| `user_310` | `1 Jan 7:04 AM` |  |  |  | `2` |  |
-| `user_310` | `1 Jan 7:08 AM` | `Blue` |  |  | `3` |  |
-| `user_847` | `2 Jan 12:26 PM` | `Yellow` |  | `Circle` |  | `8.5` |
-| `user_847` | `2 Jan 12:31 PM` |  | `Turtle` |  | `4` |  |
-| `user_847` | `2 Jan 12:44 PM` |  |  |  | `2` |  |
-| `user_847` | `2 Jan 1:01 PM` | `Red` |  |  |  |  |
-| `alternateid_656` | `2 Jan 8:58 PM` | `Red` |  | `Square` |  | `4.2` |
-| `alternateid_656` | `2 Jan 9:03 PM` |  |  | `Triangle` |  | `3.1` |
+| `user_310` | `1 Jan 7:02 AM` | `Red` | `Fox` | | | |
+| `user_310` | `1 Jan 7:04 AM` | | | | `2` | |
+| `user_310` | `1 Jan 7:08 AM` | `Blue` | | | `3` | |
+| `user_847` | `2 Jan 12:26 PM` | `Yellow` | | `Circle` | | `8.5` |
+| `user_847` | `2 Jan 12:31 PM` | | `Turtle` | | `4` | |
+| `user_847` | `2 Jan 12:44 PM` | | | | `2` | |
+| `user_847` | `2 Jan 1:01 PM` | `Red` | | | | |
+| `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
+| `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
 
-這個合併事件資料集會用來製作報表。某列是來自哪個資料集並不重要；CJA 將所有資料視為位於相同資料集中。如果兩個資料集中都出現相符的人員ID，則會將其視為同一個不重複人員。 如果兩個資料集中都出現相符的人員 ID，且時間戳記在 30 分鐘內，則視為同一工作階段的一部分。
+這個合併事件資料集會用來製作報表。某列是來自哪個資料集並不重要；Customer Journey Analytics將所有資料視為位於相同資料集中。 如果兩個資料集中都出現相符的人員ID，則會將其視為同一個不重複人員。 如果兩個資料集中都出現相符的人員 ID，且時間戳記在 30 分鐘內，則視為同一工作階段的一部分。
 
 此概念也適用於歸因。某列是來自哪個資料集並不重要；歸因的運作方式與所有事件都來自單一資料集的情形完全相同。以上表為例：
 

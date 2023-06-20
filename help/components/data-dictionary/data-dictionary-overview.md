@@ -4,10 +4,10 @@ title: 資料字典概觀
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 9f1a96308fce7fb827cba43833df96098f05ef93
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 81%
+source-wordcount: '536'
+ht-degree: 80%
 
 ---
 
@@ -47,11 +47,11 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 * 識別尚未核准的元件。
 
-* 直接在 Analysis Workspace 中更新元件說明。資料字典中對元件說明所做的任何更新都會反映在資料檢視中。
+* 直接在 Analysis Workspace 中更新元件說明。資料字典中元件說明的任何更新都會反映在資料檢視中。
 
-   同樣地，資料檢視中對元件說明所做的任何更新都會反映在Analysis Workspace中。
+  同樣地，資料檢視中元件說明的任何更新都會反映在Analysis Workspace中。
 
-   如需在Analysis Workspace或資料檢視中新增元件說明的詳細資訊，請參閱 [新增元件說明](/help/components/add-component-descriptions.md).
+  如需有關在Analysis Workspace或資料檢視中新增元件說明的詳細資訊，請參閱 [新增元件說明](/help/components/add-component-descriptions.md).
 
 ## 存取資料字典
 
@@ -59,12 +59,12 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 * 從左邊欄的&#x200B;**資料字典**&#x200B;圖示。
 
-   ![左邊欄的資料字典圖示](assets/data-dictionary-access-icon.png)
+  ![左邊欄的資料字典圖示](assets/data-dictionary-access-icon.png)
 
 * 從元件資訊彈出視窗內的&#x200B;**資料字典**&#x200B;圖示。
 
-   ![資訊彈出視窗中的資料字典圖示](assets/data-dictionary-access-infopopover.png)
-   <!--update screenshot; this was taken from a mock-->
+  ![資訊彈出視窗中的資料字典圖示](assets/data-dictionary-access-infopopover.png)
+  <!--update screenshot; this was taken from a mock-->
 
 * 從選單：[!UICONTROL **說明**] > [!UICONTROL **資料字典**]。
 
@@ -72,9 +72,9 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 ## 更新和整理資料字典
 
-Customer Journey Analytics管理員負責維護組織的健全資料字典，如 [監視資料字典健康狀況](/help/components/data-dictionary/monitor-data-dictionary-health.md).
+Customer Journey Analytics管理員負責為其組織維護健康的資料字典，如中所述 [監視資料字典健康情況](/help/components/data-dictionary/monitor-data-dictionary-health.md).
 
-在此程式中，CJA管理員可以編輯資料字典中每個元件的相關資訊，如 [在資料字典中編輯元件項目](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+在此程式中，Customer Journey Analytics管理員可以編輯資料字典中每個元件的相關資訊，如所述 [在資料字典中編輯元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## 移動、最小化或關閉資料字典
 
@@ -84,12 +84,12 @@ Customer Journey Analytics管理員負責維護組織的健全資料字典，如
 
 * 將其拖動到 Analysis Workspace 中的任何區域
 
-   如果您關閉並重新打開 Analysis Workspace，資料字典視窗將留在您上次移動的位置。<!--True?-->
+  如果您關閉並重新打開 Analysis Workspace，資料字典視窗將留在您上次移動的位置。<!--True?-->
 
 * 最小化
 
-   最小化時，資料字典在 Analysis Workspace 的右下角顯示為藍色標籤。
+  最小化時，資料字典在 Analysis Workspace 的右下角顯示為藍色標籤。
 
-   當您選取藍色標籤時，資料字典將打開您最近檢視的元件。
+  當您選取藍色標籤時，資料字典將打開您最近檢視的元件。
 
 * 關閉

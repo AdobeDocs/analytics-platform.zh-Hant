@@ -1,36 +1,36 @@
 ---
 title: 標籤和原則
-description: 了解在 AEP 中定義的資料標籤和原則如何影響 CJA 中的資料檢視和報告。
+description: 瞭解Adobe Experience Platform中定義的資料標籤和原則如何影響Customer Journey Analytics中的資料檢視和報告。
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
-source-git-commit: ba4b1e61891c21610e3bd84a41581b1f6cea6234
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 79%
+source-wordcount: '486'
+ht-degree: 60%
 
 ---
 
 # 標籤和原則
 
-在 Experience Platform 中建立資料集時，您可以針對資料集中的部分或全部元素建立[資料使用標籤](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant)。您可以在CJA中檢視這些標籤和原則。
+在 Experience Platform 中建立資料集時，您可以針對資料集中的部分或全部元素建立[資料使用標籤](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant)。您可以在Customer Journey Analytics中檢視這些標籤和原則。
 
-CJA特別感興趣的下列標籤：
+以下標籤對Customer Journey Analytics有特別意義：
 
-* `C8` 標籤 - **[!UICONTROL 無測量]**。此標籤表示資料無法用於貴組織網站或應用程式上的分析。
+* `C8` 標籤 - **[!UICONTROL 無測量]**。此標籤表示資料無法用於組織網站或應用程式上的分析。
 
-* `C12` 標籤 - **[!UICONTROL 無一般資料匯出]**。依此方式標示的結構元素欄位無法從 CJA (透過報告、匯出、API 等) 匯出或下載。
+* `C12` 標籤 - **[!UICONTROL 無一般資料匯出]**。以這種方式標示的結構描述欄位無法從Customer Journey Analytics （透過報告、匯出、API等）匯出或下載
 
 >[!NOTE]
 >
->資料使用量標籤不會自動傳播至匯整的資料集。 不過，您可以手動新增。
+>資料使用標籤不會自動傳播至拼接的資料集。 但是，可以手動新增。
 
-當中的標示並不表示已強制執行資料使用標籤。這就是政策的用途。 您透過 Experience Platform 中的[原則服務 API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=zh-Hant) 建立您的原則。
+當中的標示並不表示已強制執行資料使用標籤。這就是原則的作用。 您透過 Experience Platform 中的[原則服務 API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=zh-Hant) 建立您的原則。
 
-兩個 Adobe 定義的原則會在 CJA 中出現，並影響報告和下載/共用：
+Customer Journey Analytics中出現兩個Adobe定義的原則，並影響報告和下載/共用：
 
 * **[!UICONTROL 強制執行 Analytics]** 原則
 * **[!UICONTROL 強制執行下載]**&#x200B;原則
 
-## 檢視 CJA 資料檢視中的資料標籤
+## 在Customer Journey Analytics資料檢視中檢視資料標籤
 
 在 Experience Platform 中建立的資料標籤會在資料檢視使用者介面中的三個位置中出現：
 
@@ -44,7 +44,7 @@ CJA特別感興趣的下列標籤：
 
 ## 篩選資料檢視中的資料控管標籤
 
-在資料檢視編輯器中，按一下 [!UICONTROL 篩選] 圖示，並依 **[!UICONTROL 資料控管]** 和類型 **[!UICONTROL 標籤]**:
+在資料檢視編輯器中，按一下 [!UICONTROL 篩選] 圖示並以下列方式篩選資料檢視元件： **[!UICONTROL 資料控管]** 和型別 **[!UICONTROL 標籤]**：
 
 ![](assets/filter-labels.png)
 
@@ -52,9 +52,9 @@ CJA特別感興趣的下列標籤：
 
 ## 篩選資料檢視中的資料控管原則
 
-您可以查看是否開啟原則 (封鎖將某些 CJA 資料檢視元素用於分析或匯出)。
+您可以檢視是否開啟原則，以封鎖將某些Customer Journey Analytics資料檢視元素用於分析或匯出。
 
-再次按一下 [!UICONTROL 篩選] 圖示 **[!UICONTROL 資料控管]**，按一下 **[!UICONTROL 原則]**:
+再次，按一下 [!UICONTROL 篩選] 圖示中的左側欄和底下 **[!UICONTROL 資料控管]**，按一下 **[!UICONTROL 原則]**：
 
 ![](assets/filter-policies.png)
 
@@ -74,6 +74,6 @@ CJA特別感興趣的下列標籤：
 >[下載敏感性資料](/help/analysis-workspace/curate-share/download-send.md)
 
 >[!MORELIKETHIS]
->[什麼是 Report Builder 中受限制的標籤？](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=zh-Hant)
+>[什麼是 Report Builder 中受限制的標籤?](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=zh-Hant)
 
 

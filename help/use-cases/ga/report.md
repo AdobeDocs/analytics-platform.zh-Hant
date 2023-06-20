@@ -4,10 +4,10 @@ description: 在 Customer Journey Analytics 中顯示有關 Google Analytics 資
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 92%
+source-wordcount: '684'
+ht-degree: 86%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 92%
 
 ## 使用進階行銷歸因
 
-CJA 可讓您針對跨管道資料使用複雜的歸因模型。 在以下範例中，您可以看到將收入的最後接觸、首次接觸、U 型及演算法歸因套用到 Google Analytics 管道分組維度的比較。
+Customer Journey Analytics可讓您對跨管道資料使用複雜的歸因模型。 在以下範例中，您可以看到將收入的最後接觸、首次接觸、U 型及演算法歸因套用到 Google Analytics 管道分組維度的比較。
 
 ![行銷歸因](../assets/mktg-attribution.png)
 
@@ -63,6 +63,6 @@ Attribution IQ 也可讓您篩選資料。 您可以查看僅限特定組使用�
 
 ![Google 廣告](../assets/google-ad.png)
 
-結合 CJA 的資料集，您可以從本範例得知線上廣告對於客戶在您的行動應用程式上購買商品是否有任何影響。 以下視覺化顯示，相較於網頁本身的收入，來自 Google Ads 的行動應用程式收入增加了 14000 美元到 15000 美元。
+合併Customer Journey Analytics中的資料集可讓您在此範例中看到線上廣告對於您在行動應用程式上購買的產品有任何影響。 以下視覺化顯示，相較於網頁本身的收入，來自 Google Ads 的行動應用程式收入增加了 14000 美元到 15000 美元。
 
 ![Google 廣告 2](../assets/google-ad2.png)

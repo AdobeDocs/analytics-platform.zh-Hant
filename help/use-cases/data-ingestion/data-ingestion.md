@@ -4,10 +4,10 @@ description: 了解您能使用哪些方式將資料內嵌至 Customer Journey A
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 69356510596d047d80af63338fccca71e8af53cd
-workflow-type: ht
-source-wordcount: '784'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Customer Journey Analytics 提供多種資料內嵌選項：有些選項能移�
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 是用戶端的 JavaScript 程式庫，可讓 Adobe Experience Cloud 客戶透過 Adobe Experience Platform Edge Network 與 Experience Cloud 中的各種服務互動。
 
-1. [在標記 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) 中設定 AEP Web SDK 擴充功能，以透過 Adobe Experience Platform Edge Network，從網頁屬性傳送資料至 Adobe Experience Cloud。
+1. [在標籤中設定Adobe Experience Platform Web SDK擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) 以透過Adobe Experience Platform Edge Network，從Web屬性傳送資料至Adobe Experience Cloud。
 1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html) 建立一或多個[連線](/help/connections/create-connection.md)和[資料檢視](/help/data-views/data-views.md)，以利您掌握跨管道的報表內容。
 
 ## 使用批次擷取和串流擷取來擷取資料

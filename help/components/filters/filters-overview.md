@@ -2,9 +2,9 @@
 title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
-source-git-commit: 4e2d4d8c4f8145ae691114d57d663af96240b5f5
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '967'
 ht-degree: 34%
 
 ---
@@ -112,7 +112,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 ## 現成可用的篩選範本 {#template}
 
-傳統Analytics提供許多現成的範本篩選器（篩選器）和計算量度。 其中許多不適用於CJA，或必須重新命名或重新建立。 其他則取決於CJA中內容感知變數的解決方案。
+傳統Analytics提供許多現成的範本篩選器（篩選器）和計算量度。 其中許多不適用於Customer Journey Analytics，或必須重新命名或重新建立。 其他則取決於Customer Journey Analytics中內容感知變數的解決方案。
 
 | 篩選器名稱 | 說明 |
 | --- | --- |

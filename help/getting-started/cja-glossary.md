@@ -4,10 +4,10 @@ description: Customer Journey Analytics 術語。
 exl-id: 7f8aac93-0103-4ead-b25b-3d9994a271af
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: 3d8394fa3d4fba036658161ca6120078902aad9a
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 | Experience Cloud 組織 | 登入公司 | 請參閱[組織和帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hant#topic_C31CB834F109465A82ED57FF0563B3F1)。 |
 | 不適用 | 報告套裝 | 傳統 Adobe Analytics 環境中的報告套裝已不存在，改為需從您建立連線的 Platform 資料集建立 (虛擬) [資料檢視](/help/data-views/create-dataview.md)。 |
 | 篩選器 | 區段 | 區段現在稱為篩選器。Customer Journey Analytics 中的篩選器行為與區段相同，只有使用的術語有所不同。 |
-| 資料檢視 | 虛擬報告套裝 | 在 Adobe Analytics 中，虛擬報告套裝是父報告套裝的篩選檢視。虛擬報告套裝與 CJA 中資料檢視的主要差異在於，虛擬報告套裝是「基本」或「父」報告套裝的子集，因此會繼承其部分設定。由於父/基本報告套裝已不存在，因此可以使用其自己的設定來定義資料檢視。 |
+| 資料檢視 | 虛擬報告套裝 | 在 Adobe Analytics 中，虛擬報告套裝是父報告套裝的篩選檢視。虛擬報表套裝與Customer Journey Analytics資料檢視的主要差異在於，虛擬報表套裝是「基本」或「父」報表套裝的子集，因此會繼承其部分設定。 由於父/基本報告套裝已不存在，因此可以使用其自己的設定來定義資料檢視。 |
 
 ## Adobe Experience Platform 術語
 

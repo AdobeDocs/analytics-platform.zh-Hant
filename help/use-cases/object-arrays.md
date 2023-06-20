@@ -1,25 +1,25 @@
 ---
 title: 使用物件陣列
-description: 了解 CJA 如何針對資料階層製作報表。
+description: 瞭解資料階層的Customer Journey Analytics報告方式。
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 8c8e2db9b42deee081ce3b74481d0ad82c76818f
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 86%
+source-wordcount: '445'
+ht-degree: 66%
 
 ---
 
 # 使用物件陣列
 
-某些平台結構允許使用物件陣列。CJA 支援在事件、查詢和設定檔資料中擷取和報告物件陣列。內含多種產品的購物車是最常見的例子。每樣產品都有名稱、SKU、類別、價格、數量，以及您要追蹤的其他任何維度。這些面向的規定各不相同，但全都必須符合相同點擊規範。
+某些平台結構允許使用物件陣列。Adobe Customer Journey Analytics支援事件、查閱和設定檔資料中物件陣列的擷取和報告。 內含多種產品的購物車是最常見的例子。每樣產品都有名稱、SKU、類別、價格、數量，以及您要追蹤的其他任何維度。這些面向的規定各不相同，但全都必須符合相同點擊規範。
 
-舊版 Adobe Analytics 中，此功能是使用 `products`變數來完成。該變數是以分號 (`;`) 分隔的串連字串，以區隔產品的各個面向，而逗號 (`,`) 則劃分產品。這是唯一有限支援「物件陣列」的變數。清單變數之類的多值變數可支援同等陣列，但無法支援「物件陣列」。CJA 擴充了此概念，在單一資料列中支援任意深度的階層，任何舊版 Adobe Analytics 皆未支援此功能。
+舊版 Adobe Analytics 中，此功能是使用 `products`變數來完成。該變數是以分號 (`;`) 分隔的串連字串，以區隔產品的各個面向，而逗號 (`,`) 則劃分產品。這是唯一有限支援「物件陣列」的變數。清單變數之類的多值變數可支援同等陣列，但無法支援「物件陣列」。Customer Journey Analytics擴充了此概念，在單一資料列中支援任意深度的階層，任何舊版Adobe Analytics都無法使用此功能。
 
-## 同一事件示例
+## 相同事件範例
 
-以下事件是JSON對象，它表示由洗衣機和烘乾機製造的客戶購買的產品。
+以下事件是JSON物件，代表客戶購買洗衣機和烘衣機。
 
 ```json
 {
@@ -81,9 +81,9 @@ ht-degree: 86%
    * product : warranty
    * product : warranty : revenue
 
-### 相同的事件示例（報告行為）
+### 相同事件範例（報告行為）
 
-僅使用上述事件，下表顯示了包含某些維和度量組合的Workspace報告。
+下表僅使用上述事件，顯示具有某些維度和量度組合的工作區報表。
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |
@@ -91,7 +91,7 @@ ht-degree: 86%
 | `LG Dryer 2000` | `1` | `500` |
 | `Total` | `1` | `2100` |
 
-CJA 會根據表格選擇性地查看物件的維度和量度。
+Customer Journey Analytics會根據表格選擇性地檢視物件的維度和量度。
 
 ```diff
 {
@@ -143,7 +143,7 @@ CJA 會根據表格選擇性地查看物件的維度和量度。
 | `extended` | `50` |
 | `Total` | `250` |
 
-CJA查看事件的以下部分以生成報告：
+Customer Journey Analytics會檢視事件的這些部分，以產生報表：
 
 ```diff
 {
@@ -245,7 +245,7 @@ CJA查看事件的以下部分以生成報告：
 
 ### 結合不同量度
 
-CJA 本身不會結合名稱相似但物件層級不同的量度。
+如果量度位於不同的物件層級，Customer Journey Analytics本身不會結合名稱相似的量度。
 
 | `product : category` | `product : revenue` | `product : warranty : revenue` |
 | --- | --- | --- |

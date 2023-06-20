@@ -1,12 +1,12 @@
 ---
-description: 了解如何在 CJA Experimentation 面板中分析 A/B 測試的結果。
+description: 瞭解如何在Customer Journey Analytics實驗面板中分析A/B測試結果。
 title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: f77ee391c0915f5e71ffc592c49a0b1d9f86f521
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 67%
+source-wordcount: '1870'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 67%
 
 ## 存取控制 {#access}
 
-所有 Customer Journey Analytics (CJA) 的使用者都能使用 Experimentation 面板。不需要管理員權限或其他權限。但是，進行設定 (下方的步驟 1 和 2) 所需的動作只有管理員才能執行。
+所有Customer Journey Analytics使用者都可使用Experimentation面板。 不需要管理員權限或其他權限。但是，進行設定 (下方的步驟 1 和 2) 所需的動作只有管理員才能執行。
 
 ## 計算量度中的新函數 {#functions}
 
@@ -30,11 +30,11 @@ ht-degree: 67%
 
 建議的資料結構描述是針對在[「物件」陣列](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=zh-Hant) 中的實驗資料，其中包含在二個獨立維度中的實驗與變數資料。 兩個維度都必須位於 **單一** 物件陣列。 如果您的實驗資料是在一個單獨的維度內，實驗與變數資料在分隔字串內，您可以使用資料檢視中的[子字串](/help/data-views/component-settings/substring.md)將它們一分為二，以便用於面板中。
 
-將您的實驗資料[引入](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) Adobe Experience Platform 後，[在 CJA 中建立與一個或多個實驗資料集的連接](/help/connections/create-connection.md)。
+在您的實驗資料完成後 [已內嵌](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) 進入Adobe Experience Platform， [在Customer Journey Analytics中建立連線](/help/connections/create-connection.md) 至一或多個實驗資料集。
 
 ## 步驟 2：在資料檢視中新增內容標籤 {#contect-labels}
 
-在 CJA 資料檢視設定中，管理員可以將[內容標籤](/help/data-views/component-settings/overview.md)新增到維度或量度，CJA 服務 (如 [!UICONTROL Experimentation] 面板) 可針對其目標使用這些標籤。Experimentation 面板使用了兩個預先定義的標籤：
+在Customer Journey Analytics資料檢視設定中，管理員可以新增 [內容標籤](/help/data-views/component-settings/overview.md) 變更為維度或量度以及Customer Journey Analytics服務，例如 [!UICONTROL 實驗] 面板可針對其用途使用這些標籤。 Experimentation 面板使用了兩個預先定義的標籤：
 
 * [!UICONTROL 實驗中的實驗]
 * [!UICONTROL 實驗中的變體]
@@ -47,12 +47,12 @@ ht-degree: 67%
 
 ## 步驟 3：設定 Experiment 面板 {#configure}
 
-1. 在 CJA Workspace 中，將 Experimentation 面板拖到專案中。
+1. 在Customer Journey Analytics Workspace中，將Experimentation面板拖曳至專案中。
 
 ![實驗面板](assets/experiment.png)
 
 >[!IMPORTANT]
->如果尚未完成 CJA 資料檢視中的必要設定，在可以繼續之前，您將收到此訊息：「&quot;[!UICONTROL 請在「資料檢視」中設定實驗與變體維度]」。
+>如果Customer Journey Analytics資料檢視中的必要設定尚未完成，您將會在可以繼續之前收到此訊息： 」[!UICONTROL 請在資料檢視中設定實驗和變體維度]「。
 
 1. 進行面板輸入設定。
 
@@ -62,7 +62,7 @@ ht-degree: 67%
    | **[!UICONTROL 控制變體]** | 一般使用者體驗中的兩個或多個變動之一，它們會被比較以找出較好的替代方案。必須選擇一種變體作為對照，並且只能將一種變體視為控制變體。此設定預先填入了資料檢視中已用&#x200B;**[!UICONTROL 變體]**&#x200B;標籤標記的維度。此設定會提取與此實驗關聯的變體資料。 |
    | **[!UICONTROL 成功量度]** | 使用者用來比較變體的一個或多個量度。轉換量度 (無論是最高還是最低) 具有最理想結果的變體會宣告為實驗的「最佳表現變體」。可最多新增 5 個量度。 |
    | **[!UICONTROL 標準化量度]** | 執行測試的基礎 ([!UICONTROL 人員]、[!UICONTROL 工作階段][!UICONTROL 或事件])。例如，測試可能會比較幾種變體的轉換率，其中&#x200B;**[!UICONTROL 轉換率]**&#x200B;是以&#x200B;**[!UICONTROL 每個工作階段轉換次數]**&#x200B;或&#x200B;**[!UICONTROL 每人轉換次數]**&#x200B;計算。 |
-   | **[!UICONTROL 日期範圍]** | 日期範圍會根據CJA中收到第一個所選實驗的事件，自動設定。 如果需要，您可以更具體的時間範圍來限制或擴大日期範圍。 |
+   | **[!UICONTROL 日期範圍]** | 日期範圍會根據所選取實驗在Customer Journey Analytics中收到的第一個事件自動設定。 如果需要，您可以更具體的時間範圍來限制或擴大日期範圍。 |
 
 1. 按一下&#x200B;**[!UICONTROL 建置]**。
 
@@ -110,7 +110,7 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 
 ## 解釋非隨機維度 {#non-randomized}
 
-CJA可讓分析師選取任何維度當作「實驗」。 但是對於選擇的實驗維度不是哪些人進行了隨機化的分析，您該如何解讀？
+Customer Journey Analytics可讓分析人員選取任何維度當作「實驗」。 但是對於選擇的實驗維度不是哪些人進行了隨機化的分析，您該如何解讀？
 
 例如，考慮某人看到的廣告。 如果您決定顯示人員是「廣告B」而非「廣告A」，可能會對測量某些量度的變更（例如平均收入）感興趣。 顯示廣告B來取代廣告A的因果效應，對達成行銷決策至關重要。 如果我們以顯示廣告A的替代策略取代顯示廣告B的現狀，這種因果效應可能會以整個母體的平均收入來衡量。
 

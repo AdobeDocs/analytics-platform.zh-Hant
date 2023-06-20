@@ -4,16 +4,16 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 90ce711ddfdff9e3441e40aa968e62e34da6a122
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 66%
+source-wordcount: '2543'
+ht-degree: 62%
 
 ---
 
 # 建立連線
 
-我們最近在 Customer Journey Analytics (CJA) 中推出了新的連線工作流程。 透過輔助工作流程，新的連線建立和編輯工作流程體驗可將所有資料集和連線組態設定彙整到畫面中央處。  您提供詳細的資料集選擇、設定和檢閱體驗，以及資料集型別、大小、結構描述、資料集ID、批次狀態、回填狀態、人員ID等重要資訊，以降低連線設定錯誤的風險。 以下是新功能總覽：
+最近在Customer Journey Analytics中啟動新的「連線」工作流程。 透過輔助工作流程，新的連線建立和編輯工作流程體驗可將所有資料集和連線組態設定彙整到畫面中央處。  您提供詳細的資料集選擇、設定和檢閱體驗，以及資料集型別、大小、結構描述、資料集ID、批次狀態、回填狀態、人員ID等重要資訊，以降低連線設定錯誤的風險。 以下是新功能總覽：
 
 * 當您建立連線時，可以啟用滾動資料保留時間窗口。
 * 您可以在連線中新增及移除資料集。 (移除資料集會將其從連線中移除，並影響任何關聯的資料檢視及基礎 Analysis Workspace 專案。)
@@ -25,7 +25,7 @@ ht-degree: 66%
 
 ## 建立和設定連線 {#create-connection}
 
-1. 在 CJA 中，按一下&#x200B;**[!UICONTROL 連線]**&#x200B;索引標籤。
+1. 在 Customer Journey Analytics 中按一下&#x200B;**[!UICONTROL 「連線」]**&#x200B;索引標籤。
 1. 按一下&#x200B;**[!UICONTROL 建立新連線]**。
 
    ![連線設定](assets/create-conn1.png)
@@ -37,7 +37,7 @@ ht-degree: 66%
    | **[!UICONTROL 連線名稱]** | 為連線輸入唯一名稱。 |
    | **[!UICONTROL 連線說明]** | 說明此連線的用途。 |
    | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)可將單一 Platform 執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。 您可以將沙箱視為內含資料集的「資料獨立單位」。 沙箱可用於控制對資料集的存取。<p>當您選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。 |
-   | **[!UICONTROL 啟用滾動資料時間窗口]** | 勾選此核取方塊可讓您在連線層級將CJA資料保留定義為單位為月數的滾動時段（1個月、3個月、6個月等）。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此基本資料或查詢資料集不存在滾動資料時間窗口設定。不過，如果您的連線包含任何設定檔或查詢資料集（一或多個事件資料集除外），則會為相同時段保留該資料。<p> 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。<p>如果您保留預設值（未勾選），保留期間會由Adobe Experience Platform資料保留設定取代。 如果您的Experience Platform中有25個月的資料，CJA會透過回填取得25個月的資料。 如果您在 Platform 中刪除其中 10 個月的資料，CJA 則會保留剩餘 15 個月的資料。 |
+   | **[!UICONTROL 啟用滾動資料時間窗口]** | 勾選此核取方塊後，您可以在連線層級將Customer Journey Analytics資料保留定義為以月為單位的滾動時段（1個月、3個月、6個月等）。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此基本資料或查詢資料集不存在滾動資料時間窗口設定。不過，如果您的連線包含任何設定檔或查詢資料集（一或多個事件資料集除外），則會為相同時段保留該資料。<p> 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。<p>如果您保留預設值（未勾選），保留期間會由Adobe Experience Platform資料保留設定取代。 如果您的Experience Platform中有25個月的資料，則Customer Journey Analytics會透過回填取得25個月的資料。 如果您在Platform中刪除其中10個月，Customer Journey Analytics將保留剩餘15個月。 |
    | **[!UICONTROL 新增資料集]** (請參閱底下) | 如果沒有資料集出現在您的資料集清單中，請新增資料集。 |
    | **[!UICONTROL 資料集名稱]** | 選取一或多個要拉進Customer Journey Analytics的資料集，然後按一下 **[!UICONTROL 新增]**.<p>（如果有很多資料集可選擇，可使用資料集清單上方的「搜尋資料集」搜尋列，搜尋合適的資料集）。 |
    | **[!UICONTROL 上次更新時間]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述中的預設時間戳記欄位。 「不適用」代表此資料集不含任何資料。 |
@@ -114,7 +114,7 @@ ht-degree: 66%
 
 ![查閱結構描述](assets/schema.png)
 
-您現在支援將這些值當做量度或維度引入CJA報告。 當您設定連線並提取查閱資料集時，可以編輯資料集以選取[!UICONTROL 「索引鍵」]和[!UICONTROL 「相符的索引鍵」]：
+您現在支援將這些值當做量度或維度引入Customer Journey Analytics報表。 當您設定連線並提取查閱資料集時，可以編輯資料集以選取[!UICONTROL 「索引鍵」]和[!UICONTROL 「相符的索引鍵」]：
 
 ![編輯資料集](assets/lookup-dataset.png)
 
@@ -124,7 +124,7 @@ ht-degree: 66%
 
 Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身分對應」是一種允許使用者上傳索引鍵 -> 值組的對應資料結構。 索引鍵是身分識別命名空間，值是保存身分識別值的結構。 「身分對應」存在於每個上傳的列/事件，並會相應填入每一列。
 
-只要資料集所使用的結構屬於 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) 類別，一律適用「身分對應」。 當您選擇要在 CJA 連線中包含這類資料集，您就可以選擇使用一個欄位作為主要 ID，也可以使用「身分對應」：
+只要資料集所使用的結構屬於 [ExperienceEvent XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) 類別，一律適用「身分對應」。 當您選取要包含在Customer Journey Analytics連線中的資料集時，您可選擇選取欄位作為主要ID或身分對應：
 
 ![](assets/idmap1.png)
 
@@ -132,8 +132,8 @@ Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身�
 
 | 選項 | 說明 |
 |---|---|
-| **[!UICONTROL 使用主要 ID 命名空間]** | 此選項會指示CJA在標示為primary=true屬性的「身分對應」中逐列尋找身分識別，並將該身分識別當作該列的人員ID。 此身分識別是用於Experience Platform分割的主要金鑰。 而且此身分也是CJA人員ID的主要候選專案（取決於CJA連線中資料集的設定方式）。 |
-| **[!UICONTROL 命名空間]** | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [ Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) 的元件，用途是作為身分識別相關內容的指標。 如果您指定名稱空間，CJA會針對此名稱空間索引鍵搜尋每一列的「身分對應」，並使用該名稱空間底下的身分識別作為該列的人員ID。 由於CJA無法執行所有列的完整資料集掃描來判斷哪些名稱空間存在，因此下拉式清單中會顯示所有可能的名稱空間。 您必須知道資料中指定了哪些名稱空間，系統不會自動偵測這些名稱空間。 |
+| **[!UICONTROL 使用主要 ID 命名空間]** | 此選項會指示Customer Journey Analytics在標示primary=true屬性的「身分對應」中逐列尋找身分識別，並將該身分識別當作該列的人員ID。 此身分識別是用於Experience Platform分割的主要金鑰。 此外，此身分識別也是Customer Journey Analytics人員ID的主要候選專案(取決於Customer Journey Analytics連線中資料集的設定方式)。 |
+| **[!UICONTROL 命名空間]** | (未使用「主要 ID 命名空間」時，才能使用此選項)身分識別命名空間是 [ Experience Platform Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) 的元件，用途是作為身分識別相關內容的指標。 如果您指定名稱空間，Customer Journey Analytics會針對此名稱空間索引鍵搜尋每一列的「身分對應」，然後使用該名稱空間底下的身分識別作為該列的人員ID。 由於Customer Journey Analytics無法對所有列執行完整的資料集掃描，以判斷哪些名稱空間存在，因此下拉式清單中會顯示所有可能的名稱空間。 您必須知道資料中指定了哪些名稱空間，系統不會自動偵測這些名稱空間。 |
 
 {style="table-layout:auto"}
 
@@ -143,8 +143,8 @@ Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身�
 
 | 選項 | 「身分對應」中沒有 ID | 多個 ID，沒有一個標示為主要 | 多個 ID 標示為主要 | 單一 ID，不一定標示為主要 | ID 標示為主要的無效命名空間 |
 |---|---|---|---|---|---|
-| **[!UICONTROL 已勾選「使用主要 ID 命名空間」]** | CJA 會捨棄該列。 | 未指定主要 ID，CJA 會捨棄該列。 | 系統會擷取所有命名空間下標示為主要的 ID，彙整成清單，然後會依字母排序；有了新的排序，第一個名稱空間及其第一個ID會用作人員ID。 | 作為個人 ID 的單一 ID。 | 即使名稱空間可能無效（未出現在AEP中），CJA仍會使用該名稱空間下的主要ID作為人員ID。 |
-| **[!UICONTROL 已選取特定「身分對應」命名空間]** | CJA 會捨棄該列。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 (建立連線時只能選取有效的命名空間，因此不可能使用無效的命名空間/ID 作為人員 ID)。 |
+| **[!UICONTROL 已勾選「使用主要 ID 命名空間」]** | Customer Journey Analytics會捨棄該列。 | 資料列會被Customer Journey Analytics捨棄，因為未指定主要ID。 | 系統會擷取所有命名空間下標示為主要的 ID，彙整成清單，然後會依字母排序；有了新的排序，第一個名稱空間及其第一個ID會用作人員ID。 | 作為個人 ID 的單一 ID。 | 即使名稱空間可能無效(不在Adobe Experience Platform中)，Customer Journey Analytics仍會使用該名稱空間下的主要ID作為人員ID。 |
+| **[!UICONTROL 已選取特定「身分對應」命名空間]** | Customer Journey Analytics會捨棄該列。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為人員 ID。 (建立連線時只能選取有效的命名空間，因此不可能使用無效的命名空間/ID 作為人員 ID)。 |
 
 {style="table-layout:auto"}
 
@@ -162,4 +162,4 @@ Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身�
 
    此範例中，「analytics_demo_data」是資料集名稱。
 
-2. 若要顯示AEP中的所有資料集，請執行 `Show Tables` 查詢。
+2. 若要顯示Adobe Experience Platform中存在的所有資料集，請執行 `Show Tables` 查詢。

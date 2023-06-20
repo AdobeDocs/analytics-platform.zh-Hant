@@ -4,10 +4,10 @@ description: 如何在工作區中建立註解。
 role: User, Admin
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 80%
+source-wordcount: '699'
+ht-degree: 76%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 | **以滑鼠右鍵按一下[!UICONTROL 折線]圖中的點。** | 隨即開啟[!UICONTROL 註解產生器]。 請注意，根據預設，以這種方式建立的註解只會出現在其建立所在的專案中。 但是您可將這些註解提供給所有專案使用。 也請注意，系統已填入日期及任何量度等。<p>![](assets/annotate-line.png) |
 | **在工作區中，前往[!UICONTROL 元件] > [!UICONTROL 建立註解]。** | 隨即開啟[!UICONTROL 註解產生器]。 |
 | **使用此快速鍵**&#x200B;來開啟註解產生器：(PC) `ctrl` `shift` + o，(Mac) `shift` + `command` + o | 請注意，使用快速鍵建立註解時，您會為目前日期建立單日註解，而不會預先選取任何範圍 (量度或維度)。 |
-| **使用 [CJA 註解 API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | CJA 註解 API 讓您可以透過 Adob&#x200B;&#x200B;e Developer 以程式設計方式建立、更新或擷取註解。這些 API 使用 Adob&#x200B;&#x200B;e 在產品 UI 中使用的相同資料和方法。 |
+| **使用 [Customer Journey Analytics註解API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Customer Journey Analytics註解API可讓您透過Adobe Developer以程式設計方式建立、更新或擷取註解。 這些 API 使用 Adob&#x200B;&#x200B;e 在產品 UI 中使用的相同資料和方法。 |
 
 1. 填入[!UICONTROL 註解產生器]元素。
 
