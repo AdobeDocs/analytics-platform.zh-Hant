@@ -1,9 +1,10 @@
 ---
 title: 引導式分析概述
 description: 分析Customer Journey Analytics中資料的方法，可讓產品團隊輕鬆產生報告和見解。
-source-git-commit: 03f6b0cef6fa4259041a82173acda852d91e06b5
+exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
+source-git-commit: e2020d9194f7885f80671214829f06245bbab328
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -17,10 +18,6 @@ ht-degree: 1%
 引導式分析報表類似於Analysis Workspace和行動計分卡，使用來自 [資料檢視](../data-views/data-views.md)，會透過參照Adobe Experience Platform中的資料 [連線](../connections/overview.md). 在「引導式分析」中建立的所有報表均可順暢地傳輸至Analysis Workspace以供進一步研究。
 
 引導式分析報告目前具有三種分析型別： [漏斗](analysis-types/funnel.md)， [趨勢](analysis-types/trends.md)、和 [使用者成長](analysis-types/user-growth.md). 這些分析型別各有多種檢視型別，可為每個報表提供額外的深入分析。
-
-## 布建
-
-引導式分析是Customer Journey Analytics的付費附加元件。 如果您的組織想要開始使用此功能，請聯絡您的Adobe客戶團隊。
 
 ## 介面
 
@@ -45,7 +42,9 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-## 權限
+## 布建
+
+引導式分析屬於Adobe Product Analytics的一部分，是Customer Journey Analytics的付費附加元件。 如果您的組織想要開始使用此功能，請聯絡您的Adobe客戶團隊。
 
 Adobe計畫在未來提供引導式分析的特定許可權。
 
