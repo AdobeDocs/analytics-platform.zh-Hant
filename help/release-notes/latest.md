@@ -3,7 +3,7 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新Customer Journey Analytics發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: f224a37190d60e7f055fdeb39c42dd77d8764259
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 75%
@@ -12,7 +12,7 @@ ht-degree: 75%
 
 # 目前的Adobe Customer Journey Analytics發行說明（2023年6月）
 
-**上次更新日期**：2023 年 6 月 19 日
+**上次更新日期**：2023 年 6 月 21 日
 
 Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -23,10 +23,10 @@ Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運�
 | **智慧型註解** | 使用[!UICONTROL 台詞]視覺效果自然語言摘要來增強使用者的故事講述效果。[了解更多](/help/analysis-workspace/visualizations/intelligent-captions.md) | 2023 年 5 月 17 日 | 2023 年 6 月 1 日 |
 | **專案連結共用 (不需登入)** | 您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。這包括與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant#share-public-link) <p>此功能預設為啟用，系統管理員可以停用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hant#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 6 日 |
 | **衍生欄位** | 這代表衍生欄位的初始版本。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。您可以在資料檢視中進一步將衍生欄位定義為元件（量度或維度），然後在工作區中將衍生欄位用作元件。<p>此版本支援行銷管道範本和以下功能：</p><ul><li>串連</li><li>情況</li><li>尋找和取代</li><li>查詢</li><li>URL 剖析</li></ul> <p>[了解更多](/help/data-views/derived-fields/derived-fields.md)</p> | 2023 年 5 月 10 日 | 2023 年 6 月 14 日 |
-| **PowerBI與Tableau存取Customer Journey Analytics資料檢視** | Adobe Customer Journey Analytics SQL Connector可讓您以SQL存取您在Customer Journey Analytics中定義的資料檢視。 更熟悉Power BI、Tableau或其他商業智慧和視覺化工具的資料工程師和分析師，現在可以根據Customer Journey Analytics使用者用於其Analysis Workspace專案的相同資料檢視，建立報告和儀表板。 [了解更多](/help/data-views/sql-connector.md) |  | 2023 年 6 月 30 日 |
-| **體驗 Edge 地理位置查詢** | 為您的資料流啟用Experience Edge Geo Lookups後，您將能夠使用Customer Journey Analytics中的地理位置資料建立報表。 |  | 2023 年 6 月 30 日 |
-| **擴大了對設定檔和查詢資料的查詢支援** | 您不僅可以將查詢資料集新增到事件資料集，還可以將查詢資料集新增到設定檔和查詢資料集。 | 2023 年 6 月 28 日 | 2023 年 7 月 12 日 |
 | **貨幣轉換支援** | 在資料檢視中將量度元件格式化時，支援貨幣轉換。 [了解更多](../data-views/component-settings/format.md#currency) | 2023 年 6 月 7 日 | 2023 年 6 月 21 日 |
+| **PowerBI與Tableau存取Customer Journey Analytics資料檢視** | Adobe Customer Journey Analytics SQL Connector可讓您以SQL存取您在Customer Journey Analytics中定義的資料檢視。 更熟悉Power BI、Tableau或其他商業智慧和視覺化工具的資料工程師和分析師，現在可以根據Customer Journey Analytics使用者用於其Analysis Workspace專案的相同資料檢視，建立報告和儀表板。 [了解更多](/help/data-views/sql-connector.md) |  | 2023 年 6 月 30 日 |
+| **擴大了對設定檔和查詢資料的查詢支援** | 您不僅可以將查詢資料集新增到事件資料集，還可以將查詢資料集新增到設定檔和查詢資料集。 | 2023 年 6 月 28 日 | 2023 年 7 月 12 日 |
+| **體驗 Edge 地理位置查詢** | 為您的資料流啟用Experience Edge Geo Lookups後，您將能夠使用Customer Journey Analytics中的地理位置資料建立報表。 |  | 2023 年 7 月 26 日 |
 
 {style="table-layout:auto"}
 
