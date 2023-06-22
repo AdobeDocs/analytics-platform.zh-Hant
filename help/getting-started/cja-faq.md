@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 常見問題。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 3c6d1cd351df9a8db8e2fcfe66ecf713ae680c16
+source-git-commit: 68041d22c55d46d740307f2ad2b0cefa249a7e96
 workflow-type: tm+mt
-source-wordcount: '2161'
-ht-degree: 83%
+source-wordcount: '2217'
+ht-degree: 72%
 
 ---
 
@@ -132,7 +132,13 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 
 +++**預期延遲多久？ [!UICONTROL Customer Journey Analytics] 資料於 [!UICONTROL Adobe Experience Platform]？**
 
+我們最近變更了處理Customer Journey Analytics中資料的方式。
+
+**舊方式：**
 <ul><li>即時資料或事件：當資料可在Adobe Experience Platform中使用時，在90分鐘內處理和擷取。 (批次大小 &gt; 5 千萬列：90 分鐘以上。)</li><li>小型回填 - 例如，1 千萬列的查詢資料集: 7 天以內<li>大型回填 - 例如，5 百億列：30 天</li></ul>
+
+**新方式（自2023年6月起）**
+<ul><li>任何時間戳記少於24小時的事件資料都會串流進來。</li><li>任何時間戳記超過24小時前的事件資料（即使與較新資料位於相同批次中）都會被視為回填，並將以較低的優先順序擷取。</li></ul>
 
 +++
 
@@ -150,12 +156,12 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 | --- | --- |
 | 刪除 [!UICONTROL Adobe Experience Platform] 中的沙箱 | 刪除沙箱時，將會讓資料停止流向該沙箱中資料集的任何 [!UICONTROL Customer Journey Analytics] 連線。目前， [!UICONTROL 連線] 不會自動刪除與被刪除的沙箱繫結的Customer Journey Analytics中。 |
 | 刪除 [!UICONTROL Adobe Experience Platform] 中的結構描述，但不刪除與此結構描述相關聯的資料集 | [!UICONTROL Adobe Experience Platform] 不允許刪除與一或多個[!UICONTROL 資料集]相關聯的[!UICONTROL 結構描述]。不過，擁有適當權限的管理員可以先刪除資料集，再刪除結構描述。 |
-| 刪除 [!UICONTROL Adobe Experience Platform] Data Lake 中的資料集 | 如果刪除Adobe Experience Platform Data Lake中的資料集，該資料集的資料將不再傳輸至包含該資料集的任何Customer Journey Analytics連線。 系統會從關聯的Customer Journey Analytics連線中自動刪除該資料集中的任何資料。 |
+| 刪除 [!UICONTROL Adobe Experience Platform] Data Lake 中的資料集 | 刪除Adobe Experience Platform Data Lake中的資料集，會使該資料集的資料停止流向包含該資料集的任何Customer Journey Analytics連線。 系統會從關聯的Customer Journey Analytics連線中自動刪除該資料集中的任何資料。 |
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的資料集 | 請聯絡您的Adobe客戶團隊，以啟動刪除已儲存連線中的資料集的程式。 |
 | 從資料集中刪除批次 (在 [!UICONTROL Adobe Experience Platform] 中) | 如果從「 」中刪除批次 [!UICONTROL Adobe Experience Platform] 該批次會從包含該特定批次的任何Customer Journey Analytics連線中移除。  Customer Journey Analytics會收到批次刪除的通知 [!UICONTROL Adobe Experience Platform]. |
-| 當批次&#x200B;**正要擷取**&#x200B;到 [!UICONTROL Customer Journey Analytics] 中時將它刪除 | 如果資料集中只有一筆批次資料，該批次資料中的所有或部分資料都不會顯示於 [!UICONTROL Customer Journey Analytics]。系統會復原匯入作業。舉例來說，如果資料集含有 5 筆批次資料，其中 3 筆在資料集遭刪除前就已匯入完成，則該 3 筆批次資料的資料就會顯示於 [!UICONTROL Customer Journey Analytics]。 |
+| 當批次&#x200B;**正要擷取**&#x200B;到 [!UICONTROL Customer Journey Analytics] 中時將它刪除 | 如果資料集中只有一筆批次資料，該批次資料中的所有或部分資料都不會顯示於 [!UICONTROL Customer Journey Analytics]。系統會復原匯入作業。舉例來說，如果資料集含有5筆批次資料，其中3筆在資料集遭刪除前就已匯入完成，則該3筆批次資料的資料就會顯示於 [!UICONTROL Customer Journey Analytics]. |
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的連線 | 錯誤訊息會指出：<ul><li>針對已刪除連線所建立的任何資料檢視都將停止運作。</li><li> 同樣地，如果有任何「工作區」專案與所刪除連線中的資料檢視相依，也將停止運作。</li></ul> |
-| 刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視 | 錯誤訊息會指出，與這個已刪除的資料檢視相依的任何「工作區」專案都將停止運作。 |
+| 刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視 | 錯誤訊息會指出，與這個已刪除的資料檢視相依的任何Workspace專案都將停止運作。 |
 
 ## 7.以Customer Journey Analytics合併報表套裝時的注意事項 {#merge-reportsuite}
 
@@ -170,16 +176,13 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 | [!UICONTROL 持續性] | [持續性](../data-views/component-settings/persistence.md)跨報表套裝擴展，這會影響[!UICONTROL 篩選]、[!UICONTROL 歸因]等。數字可能無法正確相加。 |
 | [!UICONTROL 分類] | 合併報表套裝時，[!UICONTROL 分類]不會自動進行重複資料刪除。將多個分類檔案合併為單一時 [!UICONTROL 查詢] 資料集，您可能會遇到問題。 |
 
-
 ## 8. [!UICONTROL Adobe Analytics] 元件
 
-
-+++**我可以將 [!UICONTROL 中的]篩選器[!UICONTROL  (]區段[!DNL Customer Journey Analytics]) 共用/發佈到 Experience Platform Unified Profile 或其他 Experience Cloud 應用程式嗎？**
++++**我可以共用/發佈嗎 [!UICONTROL 篩選器] 從 [!DNL Customer Journey Analytics] Experience PlatformReal-Time CDP或其他Experience Cloud應用程式？**
 
 還不行，我們正在積極努力地提供這項功能。
 
 +++
-
 
 +++**我的舊 [!UICONTROL eVar] 設定發生了什麼事？**
 
@@ -187,13 +190,11 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 
 +++
 
-
 +++**我所有的工作階段和變數持續性設定現在位於何處？**
 
-[!UICONTROL Customer Journey Analytics 會在報告時套用這些設定，而這些設定現在會顯示於「資料檢視」。]這些設定的變更現在可回溯，使用多個「資料檢視」即可擁有多個版本！
+[!UICONTROL Customer Journey Analytics] 會在報告時套用這些設定，而這些設定現在會顯示在資料檢視中。 對這些設定的變更現在可回溯，您可以使用多個資料檢視擁有多個版本！
 
 +++
-
 
 +++**我們現有的區段/計算量度有何改變？**
 
@@ -201,13 +202,11 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 
 +++
 
-
 +++**[!UICONTROL Customer Journey Analytics] 如何處理 `Uniques Exceeded` 限制？**
 
 [!UICONTROL Customer Journey Analytics 沒有唯一值的限制，因此無需擔心這些限制！]
 
 +++
-
 
 +++**如果我是現有 [!DNL Data Workbench]客戶，現在是否可以改用 Customer Journey Analytics？**
 
@@ -229,10 +228,10 @@ Adobe 會定期監控和執行使用量限額。「資料列」指可用於 Cust
 
 在部分情況下，您可能會發現連線所擷取的事件總數與 [!UICONTROL Adobe Experience Platform] 資料集中的列數不同。在此範例中，資料集「B2B Impression」有 7,650 列，但資料集在 [!UICONTROL Adobe Experience Platform] 中僅有 3,830 列。數據不一致有幾個原因，您可採取下列步驟加以診斷：
 
-1. 依&#x200B;**[!UICONTROL 「Platform 資料集 ID」]**&#x200B;劃分此維度，您會發現兩個大小相同，但&#x200B;**[!UICONTROL 「Platform 資料集 ID」]**&#x200B;不同的資料集。每個資料集有 3,825 筆記錄，表示有 5 筆記錄缺少人員 ID 或時間戳記，導致 [!UICONTROL Customer Journey Analytics] 忽略了這些記錄：
+1. 此維度的劃分依據 **[!UICONTROL 平台資料集ID]** 而且您會發現兩個大小相同但大小不同的資料集 **[!UICONTROL 平台資料集ID]**. 每個資料集有 3,825 筆記錄，表示有 5 筆記錄缺少人員 ID 或時間戳記，導致 [!UICONTROL Customer Journey Analytics] 忽略了這些記錄：
 
    ![劃分](assets/data-size2.png)
 
-2. 此外，如果查看 [!UICONTROL Adobe Experience Platform]，會發現沒有 ID 為「5f21c12b732044194bffc1d0」的資料集，這是因為最初建立連線時，有人從 [!UICONTROL Adobe Experience Platform] 中刪除了這個資料集。之後，雖然有人將資料集重新新增至 Customer Journey Analytics，但 [!UICONTROL Adobe Experience Platform] 產生的 [!UICONTROL Platform 資料集 ID] 不同。
+2. 此外，如果我們簽入 [!UICONTROL Adobe Experience Platform]，沒有ID為「5f21c12b732044194bffc1d0」的資料集，因此有人將此特定資料集從「 」中刪除 [!UICONTROL Adobe Experience Platform] 建立初始連線的時間。 稍後，系統再次將其新增至Customer Journey Analytics，但新增了其他專案 [!UICONTROL 平台資料集ID] 產生者： [!UICONTROL Adobe Experience Platform].
 
 深入了解在 [!UICONTROL Customer Journey Analytics] 和 [!UICONTROL Adobe Experience Platform] 中[刪除資料集和連線可能造成的後果](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#implications-of-deleting-data-components)。

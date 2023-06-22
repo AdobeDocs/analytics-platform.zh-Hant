@@ -4,16 +4,16 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: fb5642f8dafdc16749b355cf4b77a8366e1f8401
 workflow-type: tm+mt
-source-wordcount: '2038'
-ht-degree: 42%
+source-wordcount: '2056'
+ht-degree: 41%
 
 ---
 
-# Customer Journey Analytics 功能支援
+# Adobe Customer Journey Analytics功能支援
 
-下表列出Adobe Analytics中支援、部分支援或不支援Customer Journey Analytics (Customer Journey Analytics)的功能，以及Adobe Analytics中不支援或不提供哪些Customer Journey Analytics功能。 這些清單會隨著功能新增到Customer Journey Analytics而改變。
+下表列出Adobe Analytics中支援、部分支援或不支援Customer Journey Analytics的功能，以及Adobe Analytics中不支援或不提供哪些Customer Journey Analytics功能。 這些清單會隨著功能新增到Customer Journey Analytics而改變。
 
 ## 完整支援的功能/元件 {#full-support}
 
@@ -56,6 +56,7 @@ ht-degree: 42%
 | Classifications | 現在稱為「查閱資料集」。 Analytics中使用的分類可以使用Analytics分類來源聯結器匯入至Experience Platform和Customer Journey Analytics。 查詢資料集也可以直接上傳到Experience Platform，並在Customer Journey Analytics中使用。 |
 | 分類規則產生器 | 支援使用 [子字串](/help/data-views/component-settings/substring.md) 在Customer Journey Analytics中。 在報告時間使用字串操控，而不是查詢資料集。 |
 | 自訂工作階段化 | 支援所有自訂工作階段化功能，行動背景事件除外。 |
+| 貨幣轉換 | 支援做為的一部分 [格式化量度元件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html?lang=en#currency) 在資料檢視中。 |
 | 銷售變數持續性 | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=zh-Hant#binding-dimension)提供完整支援 |
 | 客戶屬性 | 現在稱為「設定檔資料集」，系統不會自動從Experience Cloud匯入這類資料集，但必須先上傳至Experience Platform，才能在Customer Journey Analytics中使用。 |
 | 資料摘要 | 資料集的第一代資料匯出可透過 [Experience Platform資料存取API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en) 和至 [Experience Platform目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en). 這些選項可讓您匯出收集或擷取到Experience Platform資料湖的所有資料，以事件/列層級匯出。 後處理資料欄無法使用，因為後處理欄是在查詢時計算的。 可透過報告匯出後置欄。 |
@@ -99,7 +100,6 @@ ht-degree: 42%
 | 專案範本 | 已規劃提供支援。 |
 | 即時報表 | 已規劃提供支援。 |
 | 區段 IQ | 已規劃提供支援。 |
-| 貨幣轉換 | 已規劃提供支援。 |
 | 交易 ID 資料來源 | 已規劃提供支援。 |
 | 將專案/篩選器/計算量度從Adobe Analytics移轉至Customer Journey Analytics | 已規劃提供支援。 |
 | 摘要層級資料來源 | 已規劃提供支援。 |
@@ -115,7 +115,7 @@ ht-degree: 42%
 
 {style="table-layout:auto"}
 
-## 永不支援 {#never}
+## 從未支援 {#never}
 
 * 使用 Cross-Device Coop 的人員量度
 * Reports &amp; Analytics 儀表板
