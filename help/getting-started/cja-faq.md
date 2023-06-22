@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 常見問題。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 3c6d1cd351df9a8db8e2fcfe66ecf713ae680c16
 workflow-type: tm+mt
-source-wordcount: '2162'
-ht-degree: 84%
+source-wordcount: '2161'
+ht-degree: 83%
 
 ---
 
@@ -130,7 +130,7 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 >[!NOTE]
 >Customer Journey Analytics中沒有固定的資料大小，因此Adobe無法指定標準擷取時間。 我們正在積極努力透過新的更新和擷取最佳化，減少這些延遲。
 
-+++**[!UICONTROL Adobe Experience Platform] 上的 [!UICONTROL Customer Journey Analytics] 延遲時間預計會多久？**
++++**預期延遲多久？ [!UICONTROL Customer Journey Analytics] 資料於 [!UICONTROL Adobe Experience Platform]？**
 
 <ul><li>即時資料或事件：當資料可在Adobe Experience Platform中使用時，在90分鐘內處理和擷取。 (批次大小 &gt; 5 千萬列：90 分鐘以上。)</li><li>小型回填 - 例如，1 千萬列的查詢資料集: 7 天以內<li>大型回填 - 例如，5 百億列：30 天</li></ul>
 
@@ -171,7 +171,7 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 | [!UICONTROL 分類] | 合併報表套裝時，[!UICONTROL 分類]不會自動進行重複資料刪除。將多個分類檔案合併為單一時 [!UICONTROL 查詢] 資料集，您可能會遇到問題。 |
 
 
-## 8. 傳統 [!UICONTROL Adobe Analytics] 元件
+## 8. [!UICONTROL Adobe Analytics] 元件
 
 
 +++**我可以將 [!UICONTROL 中的]篩選器[!UICONTROL  (]區段[!DNL Customer Journey Analytics]) 共用/發佈到 Experience Platform Unified Profile 或其他 Experience Cloud 應用程式嗎？**
@@ -183,7 +183,7 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 
 +++**我的舊 [!UICONTROL eVar] 設定發生了什麼事？**
 
-[!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL event]。您有不限數量的結構描述元素 (維度、量度、清單欄位)。因此，您曾在資料收集流程期間套用的所有歸因設定，現在都會在查詢時套用。
+[!UICONTROL eVar]， [!UICONTROL prop]、和 [!UICONTROL 事件] 在Adobe Analytics中，已不存在於 [!UICONTROL Customer Journey Analytics]. 您有不限數量的結構描述元素 (維度、量度、清單欄位)。因此，您曾在資料收集流程期間套用的所有歸因設定，現在都會在查詢時套用。
 
 +++
 
