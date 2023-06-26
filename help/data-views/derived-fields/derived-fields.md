@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
 badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cc33257a04214ba786d7e5510a1b6bc618a84883
 workflow-type: tm+mt
-source-wordcount: '3262'
+source-wordcount: '3281'
 ht-degree: 8%
 
 ---
@@ -761,4 +761,5 @@ Customer Journey Analytics使用下列預設容器模型：
 下列限制適用於衍生欄位的一般功能：
 
 - 為衍生欄位定義規則時，您最多可以使用10個不同的結構描述欄位（不包括標準欄位）。
+   - 根據最多10個不同的結構描述欄位，最多只允許3個查詢結構描述或設定檔結構描述欄位。
 - 每個Customer Journey Analytics連線最多可以有100個衍生欄位。
