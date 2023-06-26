@@ -4,9 +4,9 @@ description: Customer Journey Analytics - 常見問題。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: b66aed675153af3a2a0fbb77569d5c4c90d48022
+source-git-commit: 7a2abd797b89de094cf00ec1d75984e47452da40
 workflow-type: tm+mt
-source-wordcount: '2199'
+source-wordcount: '2185'
 ht-degree: 72%
 
 ---
@@ -130,15 +130,11 @@ CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得�
 >[!NOTE]
 >Customer Journey Analytics中沒有固定的資料大小，因此Adobe無法指定標準擷取時間。 我們正在積極努力透過新的更新和擷取最佳化，減少這些延遲。
 
-+++**預期延遲多久？ [!UICONTROL Customer Journey Analytics] 資料於 [!UICONTROL Adobe Experience Platform]？**
-
 <ul><li>即時資料或事件：當資料可在Adobe Experience Platform中使用時，在90分鐘內處理和擷取。 (批次大小 &gt; 5 千萬列：90 分鐘以上。)</li><li>小型回填：7天內<li>大型回填：30天內</li></ul>
 
 我們最近變更了處理Customer Journey Analytics中資料的方式：
 
 <ul><li>任何時間戳記少於24小時的事件資料都會串流進來。</li><li>任何時間戳記超過24小時前的事件資料（即使與較新資料位於相同批次中）都會被視為回填，並將以較低的優先順序擷取。</li></ul>
-
-+++
 
 ## 5. 設定[!UICONTROL 連線]資料保留的滾動時段 {#data-retention}
 
