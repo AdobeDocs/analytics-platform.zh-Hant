@@ -3,9 +3,9 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新Customer Journey Analytics發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: cf11fa76503e700c07de7872b5f6c8a73b1d94d1
+source-git-commit: d48ff9810ac7f2c194e959ab5deb492238362650
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1375'
 ht-degree: 69%
 
 ---
@@ -39,7 +39,7 @@ Adobe Customer Journey Analytics發行版本會在 [持續傳遞模式](releases
 | **專案連結共用 (不需登入)** | 您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。這包括與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=en#share-public-link) <p>此功能預設為啟用，系統管理員可以停用。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#ims-organization-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 6 日 |
 | **更新 Analytics 儀表板應用程式 (行動應用程式) 的首頁** | 新更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。如果您一次登入可以存取多個組織，則單一清單會提供貴組織的所有計分卡。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) | 不適用 | 2023 年 5 月 10 日 |
 | **Customer Journey AnalyticsReport Builder — 從儲存格選取資料檢視** | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。如果您建立一個活頁簿且有多個資料結構類似的資料檢視，而且您想要多次重複使用一個活頁簿搭配不同資料檢視，這將很有幫助。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) | 不適用 | 2023 年 5 月 24 日 |
-| **已更新Customer Journey Analytics的學習頁面** | Customer Journey Analytics登陸頁面上的「學習」標籤現在包含Customer Journey Analytics的特定內容，包括著重從Adobe Analytics轉換到Customer Journey Analytics的內容。<p>「學習」標籤上還提供下列其他增強功能：</p><ul><li>改進的設計可在單次頁面上顯示更多學習內容和改進的導覽功能</li><li>根據經驗等級 (初學者、中階和進階) 量身打造學習內容的能力</li></ul><p>之前，Customer Journey Analytics中的「學習」標籤包含與Adobe Analytics中的「學習」標籤相同的資訊。</p> [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#navigate-learning) | 不適用 | 2023 年 6 月 30 日 |
+| **已更新Customer Journey Analytics的學習頁面** | Customer Journey Analytics登陸頁面上的「學習」標籤現在包含Customer Journey Analytics的特定內容，包括著重從Adobe Analytics轉換到Customer Journey Analytics的內容。<p>「學習」標籤上還提供下列其他增強功能：</p><ul><li>改進的設計可在單次頁面上顯示更多學習內容和改進的導覽功能</li><li>根據經驗等級 (初學者、中階和進階) 量身打造學習內容的能力</li></ul><p>之前，Customer Journey Analytics中的「學習」標籤包含與Adobe Analytics中的「學習」標籤相同的資訊。</p> [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=en#navigate-learning) | 2023 年 6 月 27 日 | 2023 年 6 月 30 日 |
 | **在 Analysis Workspace 中排序元件** | <p>現在，在 Analysis Workspace 的左側邊欄或資料字典中查看元件時，可以使用新的「排序」選項。您可以按「建議」(最常用)、「字母順序」或「類別」(類型) 來排序元件。</p><p>以前，您只能搜尋或篩選元件。[了解更多](/help/components/overview.md)</p> | 不適用 | 2023 年 6 月 7 日 |
 | **從自由格式表格中刪除包含動態維度的列** | 在 Analysis Workspace 的自由格式表格中，您現在可以使用 x 圖示快速刪除包含動態維度的特定列。執行時，會自動套用「永遠排除項目」篩選規則。<p>以前，想要刪除包含動態維度的列，唯一的方法是在「篩選器」對話框中手動建立規則。[了解更多](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | 不適用 | 2023 年 5 月 17 日 |
 | **在面板中新增視覺效果的新按鈕** | 現在，Analysis Workspace 每個面板的底部都有一個新按鈕，可讓您快速新增視覺效果。 <p>以前，將視覺效果新增到面板的唯一方法是從左側邊欄拖放視覺效果、複製現有的視覺效果，或者建立空白面板。[了解更多](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | 不適用 | 2023 年 5 月 17 日 |
