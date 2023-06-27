@@ -4,9 +4,9 @@ description: 設定量度的格式。
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 66e7adfbca3f20d21b4331033f70ac7d0933cd12
+source-git-commit: 585242be7ffff5b089d8452d34f7ee012a7d01f5
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '532'
 ht-degree: 30%
 
 ---
@@ -40,20 +40,20 @@ ht-degree: 30%
 
 1. 輸入數字 **[!UICONTROL 小數位數]**.
 
-2. 從以下專案選取貨幣： **[!UICONTROL 顯示貨幣]** 清單。
+1. 從以下專案選取貨幣： **[!UICONTROL 顯示貨幣]** 清單。
 
 
 ### 轉換及顯示貨幣
 
-若要啟用量度的貨幣轉換：
+若要啟用一或多個量度的貨幣轉換：
 
 - 設定您的Customer Journey Analytics連線，使其包含至少一個事件資料集，該資料集針對每個包含貨幣量度的事件保留一個貨幣代碼維度。 該貨幣代碼維度會使用符合 [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 代表貨幣的標準。 這些值應全大寫格式，例如$為USD，€為EUR，英鎊為$GBP。
 
    1. 從其中一個包含貨幣代碼的資料集中選取維度。 例如， [!UICONTROL 貨幣代碼].
 
-   2. 選取 **[!UICONTROL 貨幣代碼]** 從維度清單中。
+   1. 選取 **[!UICONTROL 貨幣代碼]** 從維度清單中。
 
-  如果您有更多維度包含要用於貨幣轉換的貨幣代碼，請重複這些步驟。
+- 如果您有更多維度包含要用於貨幣轉換的貨幣代碼，請重複這些步驟。
 
 >[!NOTE]
 >
@@ -64,11 +64,11 @@ ht-degree: 30%
 
 1. 輸入數字 **[!UICONTROL 小數位數]**.
 
-2. 選取 **[!UICONTROL 轉換並行]**.
+1. 選取 **[!UICONTROL 轉換並行]**.
 
-3. 從包含貨幣代碼欄位的維度清單中選取適當的維度。
+1. 從包含貨幣代碼欄位的維度清單中選取適當的維度。
 
-4. 從以下專案選取貨幣： **[!UICONTROL 轉換和顯示貨幣]** 清單。
+1. 從以下專案選取貨幣： **[!UICONTROL 轉換和顯示貨幣]** 清單。
 
 ### 常見問題
 
@@ -76,9 +76,15 @@ ht-degree: 30%
 
 在報告時間後，量度和原始貨幣代碼的值會轉換為USD，然後轉換為設定用於顯示的貨幣。 對於此轉換，會使用事件時間適用的每日貨幣匯率。
 
++++
+
+
 +++ 每日轉換率可維持多久以前？
 
 每日轉換率維持在過去四年嗎？
+
++++
+
 
 +++ 如果我沒有貨幣代碼欄位做為目前資料結構描述的一部分，該怎麼辦？
 
