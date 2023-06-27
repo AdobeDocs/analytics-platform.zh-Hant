@@ -4,10 +4,10 @@ description: 設定量度的格式。
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 5c6e7c51369b451ac0efdcead86f71e38bd3a853
+source-git-commit: 66e7adfbca3f20d21b4331033f70ac7d0933cd12
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 32%
+source-wordcount: '530'
+ht-degree: 30%
 
 ---
 
@@ -47,17 +47,11 @@ ht-degree: 32%
 
 若要啟用量度的貨幣轉換：
 
-- 設定您的Customer Journey Analytics連線，使其包含至少一個事件資料集，該資料集針對每個包含貨幣量度的事件保留一個貨幣代碼維度。 該貨幣代碼維度會使用符合 [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 代表貨幣的標準。 例如USD表示$， EUR表示€， GBP表示£。
-
-- 您已（選擇性）套用 [!UICONTROL 貨幣代碼] 一或多個維度的內容標籤，這些維度會定義資料集中可用的貨幣代碼。
-
-  若要套用 [!UICONTROL 貨幣代碼] 內容標籤，在 [!UICONTROL 元件] 資料檢視的索引標籤：
-
-  <!--![Currency Context Label](../assets/currency-context-label.png)-->
+- 設定您的Customer Journey Analytics連線，使其包含至少一個事件資料集，該資料集針對每個包含貨幣量度的事件保留一個貨幣代碼維度。 該貨幣代碼維度會使用符合 [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 代表貨幣的標準。 這些值應全大寫格式，例如$為USD，€為EUR，英鎊為$GBP。
 
    1. 從其中一個包含貨幣代碼的資料集中選取維度。 例如， [!UICONTROL 貨幣代碼].
 
-   2. 選取 **[!UICONTROL 貨幣代碼]** 從 [!UICONTROL 內容標籤] 清單。
+   2. 選取 **[!UICONTROL 貨幣代碼]** 從維度清單中。
 
   如果您有更多維度包含要用於貨幣轉換的貨幣代碼，請重複這些步驟。
 
@@ -72,7 +66,7 @@ ht-degree: 32%
 
 2. 選取 **[!UICONTROL 轉換並行]**.
 
-3. 根據套用的上下文標籤，從以下位置選取適當的維度： **[!UICONTROL 貨幣代碼維度]** 清單會自動選取。 您可以選取任何其他維度，包括您另外套用貨幣代碼內容標籤的維度。
+3. 從包含貨幣代碼欄位的維度清單中選取適當的維度。
 
 4. 從以下專案選取貨幣： **[!UICONTROL 轉換和顯示貨幣]** 清單。
 
@@ -81,6 +75,14 @@ ht-degree: 32%
 +++ 如何執行貨幣轉換？
 
 在報告時間後，量度和原始貨幣代碼的值會轉換為USD，然後轉換為設定用於顯示的貨幣。 對於此轉換，會使用事件時間適用的每日貨幣匯率。
+
++++ 每日轉換率可維持多久以前？
+
+每日轉換率維持在過去四年嗎？
+
++++ 如果我沒有貨幣代碼欄位做為目前資料結構描述的一部分，該怎麼辦？
+
+建立新貨幣代碼欄位有數個選項，包括「資料準備」、「資料Distiller」和「衍生欄位」。 「資料準備」非常適合新的實作，因為它只會持續進行。 根據組織的設定，可以使用「資料Distiller」和「衍生欄位」來存取歷史貨幣代碼值。
 
 +++
 
