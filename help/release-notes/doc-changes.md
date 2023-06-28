@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ffa57379c868322290fbe23ba43659620c01f068
+source-git-commit: 2a1f97a9a454c11e0c006579e8f550bda55d47db
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2215'
 ht-degree: 76%
 
 ---
@@ -20,7 +20,7 @@ Customer Journey Analytics檔案自建立以來已進行下列更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 6 月** | |
-| 跨管道分析和拼接 | 為因應即將推出的啟用銜接的變更，以及進一步釐清如何使用銜接來提升跨管道分析的許可權，所有與跨管道分析功能相關的內容都會經過編輯，以稱為跨管道分析，作為Customer Journey Analytics功能，而銜接則是完成此任務的重要功能。 |
+| 跨管道分析和拼接 | 為因應即將推出的啟用銜接的變更，以及進一步釐清如何使用銜接來提升跨管道分析的許可權，我們將編輯與跨管道分析功能相關的檔案，以參照 [跨頻道分析](../use-cases/cross-channel/cross-channel.md) 作為Customer Journey Analytics功能和使用案例，以及 [拼接](../stitching/overview.md) 作為完成此專案的重要功能。 |
 | PowerBI與Tableau存取Customer Journey Analytics資料檢視 | Customer Journey AnalyticsSQL Connector可讓SQL存取您在Customer Journey Analytics中定義的資料檢視。 [了解更多](/help/data-views/sql-connector.md) |
 | Adobe Journey Optimizer 資料檢視 | Customer Journey Analytics管理員可以存取Customer Journey Analytics中一些額外的資料檢視，標題為「AJO資料檢視(Sandbox-name)」。 [了解更多](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html)。 |
 | 貨幣轉換 | 更新以下專案的檔案： [貨幣轉換](../data-views/component-settings/format.md#currency) 支援。 |

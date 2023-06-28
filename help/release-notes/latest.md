@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新Customer Journey Analytics發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: d48ff9810ac7f2c194e959ab5deb492238362650
+source-git-commit: 2a1f97a9a454c11e0c006579e8f550bda55d47db
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 69%
+source-wordcount: '1435'
+ht-degree: 67%
 
 ---
 
@@ -20,6 +20,7 @@ Adobe Customer Journey Analytics發行版本會在 [持續傳遞模式](releases
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **跨管道分析和銜接檔案更新** | 為因應即將推出的啟用銜接的變更，以及進一步釐清如何使用銜接來提升跨管道分析的許可權，我們將編輯與跨管道分析功能相關的檔案，以參照 [跨頻道分析](../use-cases/cross-channel/cross-channel.md) 作為Customer Journey Analytics功能和使用案例，以及 [拼接](../stitching/overview.md) 作為完成此專案的重要功能。 | 2023 年 6 月 28 日 | 2023 年 6 月 28 日 |
 | **智慧型註解** | 使用[!UICONTROL 台詞]視覺效果自然語言摘要來增強使用者的故事講述效果。[了解更多](/help/analysis-workspace/visualizations/intelligent-captions.md) | 2023 年 5 月 17 日 | 2023 年 6 月 1 日 |
 | **專案連結共用 (不需登入)** | 您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。這包括與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant#share-public-link) <p>此功能預設為啟用，系統管理員可以停用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hant#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 6 日 |
 | **衍生欄位** | 這代表衍生欄位的初始版本。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。您可以在資料檢視中進一步將衍生欄位定義為元件（量度或維度），然後在工作區中將衍生欄位用作元件。<p>此版本支援行銷管道範本和以下功能：</p><ul><li>串連</li><li>情況</li><li>尋找和取代</li><li>查詢</li><li>URL 剖析</li></ul> <p>[了解更多](/help/data-views/derived-fields/derived-fields.md)</p> | 2023 年 5 月 10 日 | 2023 年 6 月 14 日 |
