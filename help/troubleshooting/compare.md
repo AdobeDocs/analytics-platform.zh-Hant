@@ -4,9 +4,9 @@ description: 了解如何將您的 Adobe Analytics 資料與 Customer Journey An
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '905'
 ht-degree: 65%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->這僅適用於一般中值資料集，而非拼接資料集 (透過[跨管道分析](/help/cca/overview.md))。請注意，在Customer Journey Analytics中使用的人員ID會計處理對於比較有效至關重要。 在Adobe Analytics中復寫並不總是那麼容易，尤其是如果已開啟跨管道分析。
+>這僅適用於一般中值資料集，而非拼接資料集 (透過[跨管道分析](/help/cca/overview.md))。請注意，在Customer Journey Analytics中使用的人員ID會計處理對於比較有效至關重要。 在Adobe Analytics中復寫並不總是那麼容易，尤其是在已開啟拼接的情況下。
 
 1. 在 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)中，執行以下[!UICONTROL 依時間戳記區分的記錄總數]查詢：
 

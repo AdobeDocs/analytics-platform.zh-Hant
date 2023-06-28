@@ -4,9 +4,9 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: CJA Basics
-source-git-commit: fb5642f8dafdc16749b355cf4b77a8366e1f8401
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2055'
 ht-degree: 41%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 41%
 
 | 功能 | 附註 |
 | --- | --- |
-| 跨裝置/跨管道拼接 | 支援直接包含身分資訊的資料集 (也稱為「依欄位匯整」)。目前尚不支援圖表式匯整，但已規劃完成。請參閱[跨管道分析](/help/cca/overview.md)。 |
+| 跨裝置/跨管道拼接 | 支援直接包含身分資訊的資料集 (也稱為「依欄位匯整」)。目前尚不支援圖表式匯整，但已規劃完成。另請參閱 [拼接](../../stitching/overview.md). |
 | 機器人篩選 | 對於以 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)為基礎的資料集，則會套用機器人篩選。 其他資料集的一般機器人篩選邏輯不會由執行 [!UICONTROL Experience Platform] 或Customer Journey Analytics。 |
 | 裝置、瀏覽器、推薦者、技術維度 | 支援 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)型資料集。請參閱 [透過ADC支援哪些Analytics變數的檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant).<p>如果您使用Experience PlatformWeb SDK資料彙集，目前不支援根據裝置查詢的裝置和維度。 已規劃於未來支援。 |
 | 地理細分維度 | 收集到Adobe AnalyticsCustomer Journey Analytics的所有GeoSegmentation/地理位置都會透過 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant). 不使用Analytics來源聯結器，但仰賴Experience Platform Web SDK進行數位資料收集的實作，可以使用 [Experience Edge地理查閱服務](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant). |

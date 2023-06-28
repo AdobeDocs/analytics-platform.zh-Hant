@@ -4,9 +4,9 @@ title: Real-time CDP與Customer Journey Analytics之間的量度一致性及受�
 role: Admin
 feature: CJA Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '624'
 ht-degree: 25%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 25%
 
 Real-time CDP和Customer Journey Analytics目前對個人的定義不同。 Real-time CDP 完全仰賴[身分圖表](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=zh-Hant)中的資訊來建立合併的個人檔案。
 
-Customer Journey Analytics可設定為使用 [跨管道分析](/help/cca/overview.md) 會從Data Lake中的資料集擷取識別碼，並套用自訂邏輯以將它們連結在一起。
+Customer Journey Analytics可設定為使用 [拼接](../stitching/overview.md) 會從Data Lake中的資料集擷取識別碼，並套用自訂邏輯以將它們連結在一起。
 
 Customer Journey Analytics未來將能使用身分圖表。
 

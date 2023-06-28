@@ -4,10 +4,10 @@ description: Customer Journey Analytics - 常見問題。
 exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
-source-git-commit: 7a2abd797b89de094cf00ec1d75984e47452da40
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 72%
+source-wordcount: '2197'
+ht-degree: 68%
 
 ---
 
@@ -38,39 +38,40 @@ Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.c
 +++
 
 
-## 2. 拼接資料 (跨管道分析) {#stitching}
+## 2.彙整資料 {#stitching}
 
 +++**[!UICONTROL Customer Journey Analytics] 是否可以在裝置或資料集之間「拼接」(彙整) 資料嗎？**
 
-是。[!UICONTROL Customer Journey Analytics] 有一個稱為[跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant) (CCA) 的拼接解決方案。它可讓您重新輸入資料集的人員 ID，好讓您順暢地合併多個資料集。
+是。[!UICONTROL Customer Journey Analytics] 有 [拼接](../stitching/overview.md) 可在資料集內已驗證和未驗證事件間運作的功能。 這樣可將不同的記錄解析為單一拼接ID，以在人員層級進行跨裝置分析。
+此外，在中跨資料集使用通用名稱空間ID （人員ID）時， [連線](/help/connections/overview.md)，您將能夠對多個資料集的無縫組合執行分析，並在人員層級「拼接」。
 
 +++
 
 
 +++**是否支援拼接匿名行為與已驗證的行為？**
 
-是。[跨管道分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant)會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接 ID。
+是。[拼接](../stitching/overview.md) 會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接ID。
 
 +++
 
 
-+++**CCA 中的「重播」是如何運作的？**
++++**「重播」在彙整中如何運作？**
 
-CCA 會根據所掌握的唯一識別碼來「重播」資料。重播會使得連線的新裝置被拼接。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/replay.html?lang=zh-Hant#step-1%3A-live-stitching)
-
-+++
-
-
-+++**CCA 中的拼接歷史 (回填) 資料是如何運作的？**
-
-初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hant#enable-cross-channel-analytics)
+根據所掌握的唯一識別碼拼接「重播」資料。 重播旨在拼接來自同時已識別之裝置的初始未驗證事件。 [了解更多](../stitching/explained.md)
 
 +++
 
 
-+++**未拼接的設定檔資料集記錄的預期行為是什麼？**
++++**拼接歷史資料（回填）如何運作？**
 
-**範例情境**：您使用在Customer Journey Analytics連線中聯結2個資料集 `CRMid` 作為個人ID。 一種是在所有記錄中具有 `CRMid`的 Web 事件資料集。另一個資料集是CRM設定檔資料集。 40%的CRM資料集都有 `CRMid` 出現在網頁事件資料集中。 其他 60% 不存在於 Web 事件資料集中 - 這些記錄是否出現在 Analysis Workspace 的報告中？<p> **答案**：沒有事件關聯的設定檔列會以Customer Journey Analytics儲存。 但是，在與該 ID 關聯的事件出現之前，您無法在 Analysis Workspace 中查看它們。
+初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。[了解更多](../stitching/explained.md)
+
++++
+
+
++++**非拼接設定檔資料集記錄的預期行為是什麼？**
+
+**範例情境**：您使用在Customer Journey Analytics連線中聯結2個資料集 `CRMid` 作為個人ID。 一種是在所有記錄中具有 `CRMid`的 Web 事件資料集。另一個資料集是 CRM 設定檔資料集。40% 的 CRM 資料集在 Web 事件資料集中存在 `CRMid`。其他 60% 不存在於 Web 事件資料集中 - 這些記錄是否出現在 Analysis Workspace 的報告中？<p> **答案**：沒有事件關聯的設定檔列會以Customer Journey Analytics儲存。 但是，在與該 ID 關聯的事件出現之前，您無法在 Analysis Workspace 中查看它們。
 
 +++
 
@@ -226,6 +227,6 @@ Adobe 會定期監控和執行使用量限額。「資料列」指可用於 Cust
 
    ![劃分](assets/data-size2.png)
 
-2. 此外，如果我們簽入 [!UICONTROL Adobe Experience Platform]，沒有ID為「5f21c12b732044194bffc1d0」的資料集，因此有人將此特定資料集從「 」中刪除 [!UICONTROL Adobe Experience Platform] 建立初始連線的時間。 稍後，系統再次將其新增至Customer Journey Analytics，但新增了其他專案 [!UICONTROL 平台資料集ID] 產生者： [!UICONTROL Adobe Experience Platform].
+1. 此外，如果我們簽入 [!UICONTROL Adobe Experience Platform]，沒有ID為「5f21c12b732044194bffc1d0」的資料集，因此有人將此特定資料集從「 」中刪除 [!UICONTROL Adobe Experience Platform] 建立初始連線的時間。 稍後，系統再次將其新增至Customer Journey Analytics，但新增了其他專案 [!UICONTROL 平台資料集ID] 產生者： [!UICONTROL Adobe Experience Platform].
 
 深入了解在 [!UICONTROL Customer Journey Analytics] 和 [!UICONTROL Adobe Experience Platform] 中[刪除資料集和連線可能造成的後果](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#implications-of-deleting-data-components)。

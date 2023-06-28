@@ -4,10 +4,10 @@ description: 瞭解Customer Journey Analytics如何透過合併資料集來建�
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 72%
+source-wordcount: '584'
+ht-degree: 61%
 
 ---
 
@@ -77,3 +77,28 @@ ht-degree: 72%
 | 黃色 | 6 |
 | 藍色 | 3 |
 | 紅色 | 2 |
+
+## 跨管道分析
+
+合併資料集的下一個層級是跨管道分析，其中根據通用識別碼（人員ID）合併來自不同管道的資料集。 跨管道分析可受益於拼接功能，允許您重新鍵入資料集的人員ID，以便資料集正確更新，實現多個資料集的無縫合併。 拼接會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接ID。
+
+跨管道分析可讓您回答下列問題：
+
+* 有多少人在某個管道開始體驗，但在不同管道結束體驗？
+* 有多少人與我的品牌互動？他們使用的裝置數量與類型為何？他們互相重疊的程度？
+* 人們會在行動裝置上開始工作，稍後再移至桌上型電腦完成工作的頻率為何？登陸在一部裝置上的行銷活動點進次數，是否會導致在其他位置上的轉換？
+* 如果考慮跨裝置歷程，我對行銷活動成效的理解會有何改變？ 我的漏斗分析會有何改變？
+* 使用者在裝置間移動最常採取的路徑為何？他們在哪裡退出？他們在哪裡獲得成功？
+* 多部裝置使用者的行為與單一裝置使用者的行為有何不同？
+
+
+如需跨管道分析的詳細資訊，請參閱特定使用案例：
+
+* [跨管道分析](../use-cases/cross-channel/cross-channel.md)
+
+如需更深入的討論拼接功能，請前往：
+
+* [拼接概述](/help/stitching/overview.md)
+* [彙整的運作方式](../stitching/explained.md)
+* [常見問題](/help/stitching/faq.md)
+

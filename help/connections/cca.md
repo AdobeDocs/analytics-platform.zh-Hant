@@ -4,7 +4,9 @@ description: 瞭解如何從多個資料集重新輸入人員ID，以將人員�
 solution: Customer Journey Analytics
 feature: Connections
 exl-id: 5fb30b64-d305-4de4-ab84-66195ceb8386
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+hide: true
+hidefromtoc: true
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 94%

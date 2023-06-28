@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: CJA Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 76%
+source-wordcount: '1479'
+ht-degree: 75%
 
 ---
 
@@ -104,7 +104,7 @@ Adobe 已將「區段」部分重新命名為「篩選器」，以更能與行�
 
 ## Adobe 如何識別訪客的變動
 
-Customer Journey Analytics擴展了ECID以外的身分概念，以包含您要使用的任何ID，包括客戶ID、Cookie ID、彙整ID、使用者ID、追蹤代碼等。 跨資料集使用通用命名空間 ID，或使用[跨管道分析](/help/cca/overview.md)，可幫助將不同資料集的人們連結在一起。在Customer Journey Analytics中設定Workspace專案的任何使用者都必須瞭解跨資料集使用的ID。 請觀看以下影片，重點說明Customer Journey Analytics中身分識別的使用情況：
+Customer Journey Analytics擴展了ECID以外的身分概念，以包含您要使用的任何ID，包括客戶ID、Cookie ID、彙整ID、使用者ID、追蹤代碼等。 跨資料集使用通用名稱空間ID，或使用 [拼接](../stitching/overview.md) 有助於將不同資料集中的人員連結在一起。 在Customer Journey Analytics中設定Workspace專案的任何使用者都必須瞭解跨資料集使用的ID。 請觀看以下影片，重點說明Customer Journey Analytics中身分識別的使用情況：
 
 >[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
 
