@@ -4,9 +4,9 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 9721d9899735f2a009d4cea92b52df513eae97a3
+source-git-commit: 7bcfedb472c26605e53805a09ef827fd20a1f986
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2605'
 ht-degree: 60%
 
 ---
@@ -98,8 +98,6 @@ ht-degree: 60%
 >
 >您必須將至少一個事件資料集新增為連線的一部分。
 
-![新增資料集對話方塊](assets/add-dataset.png)
-
 有三種不同的資料集型別： [!UICONTROL 事件] 資料， [!UICONTROL 設定檔] 資料，以及 [!UICONTROL 查詢] 資料。
 
 | 資料集類型 | 說明 | 時間戳記 | 結構描述 | 人員 ID |
@@ -150,7 +148,7 @@ Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身�
 
 {style="table-layout:auto"}
 
-## 計算每日事件平均數量
+## 計算每日事件平均數量 {#average-number}
 
 連線中的每個資料集都會完成這項計算。
 
