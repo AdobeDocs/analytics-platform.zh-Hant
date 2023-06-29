@@ -4,10 +4,10 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 9721d9899735f2a009d4cea92b52df513eae97a3
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 62%
+source-wordcount: '2608'
+ht-degree: 60%
 
 ---
 
@@ -98,12 +98,14 @@ ht-degree: 62%
 >
 >您必須將至少一個事件資料集新增為連線的一部分。
 
+![新增資料集對話方塊](assets/add-dataset.png)
+
 有三種不同的資料集型別： [!UICONTROL 事件] 資料， [!UICONTROL 設定檔] 資料，以及 [!UICONTROL 查詢] 資料。
 
 | 資料集類型 | 說明 | 時間戳記 | 結構描述 | 人員 ID |
 |---|---|---|---|---|
 | **[!UICONTROL 事件]** | 代表及時事件的資料（例如網站造訪、互動、交易、POS資料、調查資料、廣告曝光數資料等）。 例如，此資料可能是典型的點按資料流資料，包含客戶ID或Cookie ID以及時間戳記。 若使用事件資料，您可以靈活選擇將哪個 ID 當作人員 ID 使用。 | 系統會自動設定為 [!UICONTROL Experience Platform] 中以事件為基礎的結構之預設時間戳記欄位。 | 任何以具有「時間系列」行為的 XDM 類別為依據的內建或自訂結構。 例如「XDM 體驗事件」或「XDM 決策事件」。 | 您可以挑選要包含的人員 ID。 在 Experience Platform 中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。 這些身分中的任何一個都可當作人員ID使用。 範例包括Cookie ID、拼接ID、使用者ID、追蹤代碼等。 |
-| **[!UICONTROL 查詢]** | 在事件或設定檔資料中找到值或索引鍵後，可使用此資料進一步查詢。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。 另請參閱 [B2B使用案例](/help/use-cases/b2b/b2b.md) 例如。 | 不適用 | 除「XDM 個別設定檔」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
+| **[!UICONTROL 查詢]** | 您現在可以將資料集新增為所有資料集型別中的欄位查詢：設定檔、查詢和事件資料集（後者一律支援）。 這項額外功能擴充了CJA支援複雜資料模型（包括B2B CDP）的能力。 此資料用於查詢在事件、設定檔或查詢資料中找到的值或索引鍵。 您最多可以新增兩個查閱層級。 (請注意 [衍生欄位](/help/data-views/derived-fields/derived-fields.md) 不能用作連線中查閱的相符索引鍵。) 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。另請參閱 [B2B使用案例](/help/use-cases/b2b/b2b.md) 例如。 | 不適用 | 除「XDM 個別設定檔」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
 | **[!UICONTROL 設定檔]** | 套用至下列位置中個人、使用者或客戶的資料： [!UICONTROL 事件] 資料。 例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以「XDM 個別設定檔」類別為基礎的內建或自訂模式。 | 您可以挑選要包含的人員 ID。 中定義的每個資料集 [!DNL Experience Platform] 有自己的一組一或多個已定義的人員ID，例如Cookie ID、彙整ID、使用者ID、追蹤代碼等。<br>![個人ID ](assets/person-id.png)**注意**：如果您建立的連線包含具有不同ID的資料集，報表會反映這一點。 若要確實合併資料集，您需要使用相同的人員 ID。 |
 
 {style="table-layout:auto"}
