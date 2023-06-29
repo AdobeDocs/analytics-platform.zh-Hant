@@ -3,10 +3,10 @@ description: 您可以在表格或線性圖中檢視異常。
 title: 在 Analysis Workspace 中檢視異常
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
-source-git-commit: e62261d1d440c0a85e4cab95611c6e6272de6724
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 97%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 100%
 
 您可以在表格或線性圖中檢視異常。
 
-## 在表格中檢視異常 {#section_869A87B92B574A38B017A980ED8A29C5}
+## 在表格中檢視異常 {#table}
 
 您可以在時間序列自由表格中檢視異常。
 
-1. 在欄標題中選取欄設定圖示，然後確定選項清單中已選取&#x200B;[!UICONTROL **「異常」**]&#x200B;選項。如需詳細資訊，請參閱[欄設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)。
+1. 在欄標題中選取欄設定圖示，然後確定選項清單中已選取&#x200B;[!UICONTROL **「異常」**]&#x200B;選項。 如需詳細資訊，請參閱[欄設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)。
 
 1. 按一下離開設定選單以檢視更新的表格。
 
@@ -28,11 +28,11 @@ ht-degree: 100%
 
    **深灰色三角形**&#x200B;會顯示在偵測到資料異常的每一列的右上角。
 
-   每一列中的彩色&#x200B;**垂直線**&#x200B;則表示預期值。每一列中的彩色&#x200B;**陰影區域**&#x200B;則表示實際值。線條 (預期值) 與陰影區域 (實際值) 的比較方式會決定是否有異常。(根據[異常偵測所使用的統計技術](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)中所述的進階統計技術，觀察被視為異常。)
+   每一列中的彩色&#x200B;**垂直線**&#x200B;則表示預期值。每一列中的彩色&#x200B;**陰影區域**&#x200B;則表示實際值。線條 (預期值) 與陰影區域 (實際值) 的比較方式會決定是否有異常。 (根據[異常偵測所使用的統計技術](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)中所述的進階統計技術，觀察被視為異常。)
 
-1. 選取列右上角的灰色三角形，以檢視異常的詳細資訊。這會顯示實際值高於或低於預期值的偏離程度 (以百分比表示)。
+1. 選取列右上角的灰色三角形，以檢視異常的詳細資訊。 這會顯示實際值高於或低於預期值的偏離程度 (以百分比表示)。
 
-## 在折線圖中檢視異常 {#section_7C1192AFDB4345A8A2CCFB3AE0C47D82}
+## 在線性圖中檢視異常 {#line-chart}
 
 折線圖是唯一可讓您檢視異常的視覺效果。
 

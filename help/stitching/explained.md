@@ -3,7 +3,7 @@ title: 彙整的運作方式
 description: 瞭解彙整的概念
 solution: Customer Journey Analytics
 feature: Stitching
-source-git-commit: cfe369ca1d0b18e32f1d88b543e549d01ddc0d64
+source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 28%
@@ -129,5 +129,5 @@ ht-degree: 28%
 
 * 拼接會立即拼接已知裝置，但不會立即拼接新裝置或無法識別的裝置。
 * 系統會定期重播資料，並根據已學會如何識別的裝置，適時變更連線中的歷史資料。
-* 即時拚接和重播拚接會針對一個資料集執行。 結果是新的提升許可權資料集，最適合用來與其他資料集（例如客服中心資料）結合，以執行跨管道分析。
+* 即時拚接和重播拚接會針對一個資料集執行。 結果是新的提升許可權資料集，最適合與其他資料集（例如客服中心資料）結合使用以執行跨管道分析。
 * 隱私權請求會移除散佈至未經驗證之列的身分。
