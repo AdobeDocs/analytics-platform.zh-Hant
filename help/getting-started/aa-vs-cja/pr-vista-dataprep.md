@@ -2,10 +2,11 @@
 title: 處理規則、VISTA 和分類與 Analytics 來源連接器的「資料準備」的比較
 description: 了解使用處理規則和 VISTA 以及使用「資料準備」的資料轉換的異同
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: CJA Basics
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -29,4 +30,4 @@ Adobe Analytics 收集且儲存的資料，可以透過處理規則或 VISTA 規
 
 例如，在分隔欄位中，您可以使用「資料準備」將該欄位分割為多個個別的欄位，不必用到分類。 通常，分類是透過上傳在傳入Analytics事件串流之外提供的查閱檔案，來將中繼資料新增到欄位。
 
-例如，您可以上傳一個分類檔案，將 SKU 分為「尺寸」、「品牌」、「顏色」等。 分類和「資料準備」的另一個差異，是分類同時適用於&#x200B;_歷史資料和未來資料_。 另一方面，「資料準備」對應是從建立對應&#x200B;_以後_&#x200B;開始套用至資料。
+例如，您可以上傳一個分類檔案，將SKU分為「大小」、「品牌」、「顏色」等。 分類和「資料準備」的另一個差異，是分類同時適用於&#x200B;_歷史資料和未來資料_。 另一方面，「資料準備」對應是從建立對應&#x200B;_以後_&#x200B;開始套用至資料。

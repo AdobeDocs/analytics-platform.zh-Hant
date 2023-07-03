@@ -2,12 +2,12 @@
 title: SQL 連接器
 description: 瞭解如何使用Query Service、Power BI和/或Tableau，以使用SQL聯結器存取資料檢視。
 solution: Customer Journey Analytics
-feature: Data Views
+feature: SQL Connector
 hide: true
 hidefromtoc: true
 badgeCJASQLConnector: label="New Feature" type="Positive"
 exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '2938'
 ht-degree: 1%
@@ -354,7 +354,7 @@ ORDER BY -metric1 DESC
 
 ### 一般功能支援
 
-| 函數 | 範例 | 詳細資料 |
+| 功能 | 範例 | 詳細資料 |
 |---|---|---|
 | [CAST(COLUMN AS type)](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` 或 <br/> `` `timestamp`::string `` | 目前不支援型別轉換，但不會擲回錯誤。 此 `CAST` 已忽略函式。 |
 | [TIMESTAMP(timeString)](https://spark.apache.org/docs/latest/api/sql/index.html#timestamp) | `` WHERE `timestamp` >= TIMESTAMP('2022-01-01 00:00:00') AND   `timestamp` < TIMESTAMP('2022-01-02 00:00:00') `` | 將時間字串剖析為時間戳記，以便用於 `WHERE` 子句。 |
@@ -370,7 +370,7 @@ ORDER BY -metric1 DESC
 
 **字串函式**
 
-| 函數 | 範例 | 詳細資料 |
+| 功能 | 範例 | 詳細資料 |
 |---|---|---|
 | [LOWER(stringDimension)](https://spark.apache.org/docs/latest/api/sql/index.html#lower) | ``SELECT LOWER(name) AS lower_name`` | 在傳入的欄位上產生動態維度身分識別。 |
 
@@ -378,7 +378,7 @@ ORDER BY -metric1 DESC
 
 **日期時間函式**
 
-| 函數 | 範例 | 詳細資料 |
+| 功能 | 範例 | 詳細資料 |
 |---|---|---|
 | [YEAR（日期或日期時間）](https://spark.apache.org/docs/latest/api/sql/index.html#year) | ``SELECT YEAR(`timestamp`)`` | 在傳入的欄位上產生動態維度身分識別。 |
 | [MONTH（日期或日期時間）](https://spark.apache.org/docs/latest/api/sql/index.html#month) | ``SELECT MONTH(`timestamp`)`` | 在傳入的欄位上產生動態維度身分識別。 |

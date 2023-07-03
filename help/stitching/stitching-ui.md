@@ -2,10 +2,10 @@
 title: 拼接
 description: 瞭解如何建立和管理拼接資料集
 solution: Customer Journey Analytics
-feature: Stitching
+feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 2%
@@ -131,7 +131,7 @@ ht-degree: 2%
 
 - 選取 **[!UICONTROL **...**]** 用於拼接的資料集，然後選取 **[!UICONTROL **&#x200B;刪除&#x200B;**]** 功能表中的。
 
-  ![刪除彙整的資料集](./assets/delete-stitched-dataset.png)
+  ![刪除拼接的資料集](./assets/delete-stitched-dataset.png)
 
 若要刪除多個彙整的資料：
 

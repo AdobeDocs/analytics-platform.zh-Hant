@@ -1,13 +1,14 @@
 ---
 title: 將 Adobe 解決方案與 Customer Journey Analytics 整合
 description: 了解如何整合其他 Adobe 解決方案和服務中的資料。
-source-git-commit: aae080253a25cb9a3853ee795fbceedd286e1498
-workflow-type: ht
+exl-id: f89d07e9-100e-4f82-9486-35bc9c748b19
+feature: Platform Integration
+source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%
 
 ---
-
 
 # 將 Adobe 解決方案與 Customer Journey Analytics 整合
 
