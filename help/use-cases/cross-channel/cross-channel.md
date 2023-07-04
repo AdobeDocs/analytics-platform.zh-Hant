@@ -4,10 +4,10 @@ description: 從整個客戶歷程的客戶互動中，分析及擷取見解。
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '523'
+ht-degree: 63%
 
 ---
 
@@ -43,6 +43,6 @@ ht-degree: 68%
 * 跨通道分析資料要求每個記錄具有相同的 ID 命名空間。
 * 統一不同資料集的聯合過程需要跨資料集的共同主要人員/實體鍵。
 * 目前不支援根據次要鍵的聯合。
-* 拼接過程允許根據後續的暫時ID記錄（例如身份驗證ID）重新鍵入列中的身分。 這允許將不同的記錄解析為單個 ID，以便在人員層級而不是裝置或 cookie 層級進行分析。
+* 拼接過程允許根據共用相同永久ID的記錄中的暫時ID （例如驗證ID）資訊，重新輸入列中的身分。這允許將不同的記錄解析為單一拼接ID，以便在人員層級，而不是裝置或Cookie層級進行分析。
 * 同一 XDM 欄位的物件和屬性合併為 Customer Journey Analytics 中的一個維度。要將來自不同資料集的多個屬性合併到同一個 Customer Journey Analytics 維度中，資料集應該引用相同的 XDM 欄位或結構描述。
 

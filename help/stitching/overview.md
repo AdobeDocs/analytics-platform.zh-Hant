@@ -3,10 +3,10 @@ title: 拼接概述
 description: 銜接概觀。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 32%
+source-wordcount: '1273'
+ht-degree: 30%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 32%
 
 遺憾的是，並非所有屬於您在Customer Journey Analytics中連線的事件型資料集，都已填入足夠的資料來支援此立即可用的歸因。 特別是，網路或行動體驗資料集通常沒有可用於所有事件的實際人員ID資訊。
 
-拼接可在資料集的列中重新輸入身分，以確保每個事件上都可以使用所需的人員ID （拼接的ID）。 拼接會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接ID。 拼接允許將不同的記錄解析為單個拼接的ID，以供在人員層級而不是裝置或Cookie層級進行分析。
+拼接允許在一個資料集的列內重新輸入身分，確保每個事件都可以使用人員ID （拼接的ID）。 拼接會檢視已驗證和未驗證工作階段的使用者資料，以判斷可用作拼接ID的共同暫時ID值。 這樣可將不同的記錄解析為單一拼接ID，以供在人員層級而非裝置或Cookie層級進行分析。
 
 如果在定義Customer Journey Analytics連線時合併一個或多個拼接資料集與其他資料集（例如客服中心資料），即可從跨管道分析中獲益。 這假設其他資料集每一列都包含人員ID，類似於拼接ID。
 
@@ -36,12 +36,13 @@ ht-degree: 32%
    * 如需Adobe Analytics資料，請參閱 [在Customer Journey Analytics中利用Adobe Analytics報表套裝資料](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
    * 如為其他類型資料，請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)和[匯入資料](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant)。
 
-* Adobe Experience Platform中您要套用拼接的資料集必須具有兩個協助識別訪客的欄：
+* Adobe Experience Platform中您要套用拼接的事件資料集必須具有兩個協助識別訪客的欄：
 
    * **永久 ID**，每列都會顯示這個識別碼，例如，Adobe AnalyticsAppMeasurement程式庫產生的訪客ID或Adobe Experience Cloud Identity Service產生的ECID。
-   * **暫時 ID**，僅部分列會顯示這個識別碼，例如訪客驗證後雜湊的使用者名稱或電子郵件地址。您幾乎可以使用任何您喜歡的識別碼，只要它和指定的永久ID在相同事件上至少出現一次即可。
+   * **暫時 ID**，僅部分列會顯示這個識別碼，例如訪客驗證後雜湊的使用者名稱或電子郵件地址。您幾乎可以使用任何您喜歡的識別碼。 拼接會考量此欄位來儲存實際的人員ID資訊。 為獲得最佳拼接結果，每個永久ID應在資料集事件內至少傳送一次暫時ID。
+如果您打算將此資料集納入Customer Journey Analytics連線，其他資料集最好也有類似的通用識別碼。
 
-* 拼接包括合併已驗證和未驗證的使用者資料。 在合併資料集之前，請務必遵守適用的法律和法規，包括取得必要的一般使用者許可權。
+* 拼接包括合併已驗證和未驗證的使用者資料。 在事件資料集上啟用連結之前，請確定您遵守適用的法律和法規，包括取得必要的一般使用者許可權。
 
 
 ## 使用拼接
