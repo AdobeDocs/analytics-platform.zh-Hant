@@ -3,9 +3,9 @@ title: Adobe Analytics 使用者的使用手冊
 description: 當您的公司將 Adobe Analytics 資料轉移到 Customer Journey Analytics 時，以使用者角度需要考慮什麼
 role: User
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 75%

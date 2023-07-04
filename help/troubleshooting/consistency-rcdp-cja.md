@@ -2,9 +2,9 @@
 description: 說明哪些因素會影響Real-time Customer Data Platform (Real-time CDP)與Customer Journey Analytics之間量度一致性及受眾會籍數。
 title: Real-time CDP與Customer Journey Analytics之間的量度一致性及受眾會籍數
 role: Admin
-feature: CJA Basics
+feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 25%

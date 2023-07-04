@@ -1,11 +1,11 @@
 ---
 description: 了解不同的儲存選項 (包括 AutoSave、另存為、另存為範本)，以及開啟先前的版本。
 title: 儲存專案
-feature: CJA Workspace Basics
+feature: Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: 8845d3e7142c5eb0f9007d7f9b5cd9e52017f31e
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 100%
 
@@ -38,9 +38,9 @@ Analysis Workspace 中的所有專案均每 2 分鐘自動儲存至本機電腦�
 
 * **新專案：**&#x200B;即使新專案已自動儲存，您仍須在首次手動儲存每個新專案。Analysis Workspace 會在切換至其他專案、關閉瀏覽器索引標籤等動作時，提示您手動儲存新專案。
 
-   如果因任何原因，您在手動儲存新建立專案前意外失去存取權，則您專案的復原版本會儲存在 Analysis Workspace 登陸頁面的資料夾中，名為 `Recovered Projects (Last 7 Days)`。您必須還原已恢復的專案，並手動將其儲存到所需位置。
+  如果因任何原因，您在手動儲存新建立專案前意外失去存取權，則您專案的復原版本會儲存在 Analysis Workspace 登陸頁面的資料夾中，名為 `Recovered Projects (Last 7 Days)`。您必須還原已恢復的專案，並手動將其儲存到所需位置。
 
-   若要還原已恢復的專案，請執行以下操作：
+  若要還原已恢復的專案，請執行以下操作：
 
    1. 前往 Analysis Workspace 登陸頁面上的&#x200B;[!UICONTROL **「已恢復的專案」**]&#x200B;資料夾。
 
@@ -51,7 +51,7 @@ Analysis Workspace 中的所有專案均每 2 分鐘自動儲存至本機電腦�
 
 * **現有專案：**&#x200B;如果因任何原因，當您離開專案時，變更尚未自動儲存，Analysis Workspace 會提示您儲存變更或提供警告訊息。
 
-   以下是一些常見案例：
+  以下是一些常見案例：
 
 ### 開啟另一個專案
 

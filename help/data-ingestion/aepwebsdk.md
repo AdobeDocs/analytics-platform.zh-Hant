@@ -2,9 +2,9 @@
 title: 透過 Adobe Experience Platform Web SDK 和 Edge Network 擷取資料
 description: 說明如何透過 Adobe Experience Platform Web SDK 和 Edge Network 將資料擷取至 Customer Journey Analytics。
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '3587'
 ht-degree: 98%
@@ -303,11 +303,11 @@ ht-degree: 98%
 
    - 從[!UICONTROL 「屬性」]清單中選取&#x200B;**[!UICONTROL 「標題」]**。
 
-      ![使用頁面資訊建立資料元素](./assets/create-dataelement-1.png)
+     ![使用頁面資訊建立資料元素](./assets/create-dataelement-1.png)
 
-      或者，您也可以使用資料層變數的值，例如`pageName`和 [!UICONTROL JavaScript 變數] 資料元素類型來定義該資料元素。
+     或者，您也可以使用資料層變數的值，例如`pageName`和 [!UICONTROL JavaScript 變數] 資料元素類型來定義該資料元素。
 
-      ![使用 JavaScript 變數建立資料元素](./assets/create-dataelement-2.png)
+     ![使用 JavaScript 變數建立資料元素](./assets/create-dataelement-2.png)
 
    - 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -327,7 +327,7 @@ ht-degree: 98%
 
    - 從[!UICONTROL 「資料元素類型」]清單中選取 **[!UICONTROL ECID]**。
 
-      ![ECID 資料元素](./assets/ecid-dataelement.png)
+     ![ECID 資料元素](./assets/ecid-dataelement.png)
 
    - 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -353,14 +353,14 @@ ht-degree: 98%
 
    - 將您的結構中定義的 `identification > core > ecid`屬性對應至 ECID 資料元素。選取圓柱體圖示，即可輕鬆從資料元素清單中挑選 ECID 資料元素。
 
-      ![挑選 ECID 資料元素](./assets/pick-ecid-dataelement.png)
+     ![挑選 ECID 資料元素](./assets/pick-ecid-dataelement.png)
 
-      ![對應 ECID 資料元素](./assets/map-ecid.png)
+     ![對應 ECID 資料元素](./assets/map-ecid.png)
 
 
    - 將您的結構中定義的 `web > webPageDetails > name`屬性對應至頁面名稱資料元素。
 
-      ![對應頁面名稱元素](./assets/map-pagename.png)
+     ![對應頁面名稱元素](./assets/map-pagename.png)
 
    - 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -387,9 +387,12 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
       - 從[!UICONTROL 「事件類型」]清單中選取&#x200B;**[!UICONTROL 「視窗已載入」]**。
 
-         ![規則 – 事件設定](./assets/event-windowloaded-pageview.png)
+        ![規則 – 事件設定](./assets/event-windowloaded-pageview.png)
 
       - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
+
+
+
    - 在[!UICONTROL 「動作」]下方選取&#x200B;**[!UICONTROL 「+ 新增」]**。
 
    - 在[!UICONTROL 動作設定] 對話框：
@@ -402,18 +405,15 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
       - 選取[!UICONTROL 「XDM 資料」]旁的圓柱體圖示，然後從資料元素清單中選擇&#x200B;**[!UICONTROL 「XDM – 頁面檢視」]**。
 
-         ![規則 – 動作設定](./assets/action-pageview-xdm.png)
+        ![規則 – 動作設定](./assets/action-pageview-xdm.png)
 
       - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
+
    - 您的規則應如下所示：
 
-      ![建立規則](assets/rule-pageview.png)
+     ![建立規則](assets/rule-pageview.png)
 
    - 選取&#x200B;**[!UICONTROL 「儲存」]**。
-
-
-
-
 
 這只是定義規則的範例，此規則會將 XDM 資料 (包含其他資料元素的值) 傳送至 Adobe Experience Platform。
 
@@ -439,7 +439,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
    - 選取&#x200B;**[!UICONTROL 「+ 新增所有變更的資源」]**。
 
-      ![發佈–建立程式庫](./assets/create-library-aep.png)
+     ![發佈–建立程式庫](./assets/create-library-aep.png)
 
    - 選取&#x200B;**[!UICONTROL 「儲存並建置至開發」]**。
 
@@ -510,9 +510,10 @@ Adobe Experience Platform 標籤支援簡單到複雜的發佈工作流程，以
 
    - 選取您先前建立的資料集 (`Example dataset`) 和您要加入連線的任何其他資料集。
 
-      ![新增資料集](./assets/cja-connections-2b.png)
+     ![新增資料集](./assets/cja-connections-2b.png)
 
    - 選取&#x200B;**[!UICONTROL 「下一步」]**。
+
    在[!UICONTROL 新增資料集]的[!UICONTROL 資料集設定]步驟：
 
    - 對於每個資料集：
@@ -523,9 +524,10 @@ Adobe Experience Platform 標籤支援簡單到複雜的發佈工作流程，以
 
       - 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
 
-      ![設定資料集](./assets/cja-connections-3b.png)
+     ![設定資料集](./assets/cja-connections-3b.png)
 
    - 選取&#x200B;**[!UICONTROL 「新增資料集」]**。
+
    選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 如需如何建立和管理連線，以及如何選取和合併資料集的詳細資訊，請參閱[連線概觀](../connections/overview.md)。

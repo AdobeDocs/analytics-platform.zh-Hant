@@ -2,10 +2,10 @@
 title: 使用來源連接器擷取和使用資料
 description: 說明如何使用 Customer Journey Analytics 中的來源連接器擷取和使用資料
 solution: Customer Journey Analytics
-feature: CJA Basics
+feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: 3331f41590509ef38cb67802335414ca3de5ff94
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '1955'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 若要將資料擷取至 Adobe Experience Platform，您必須先定義要收集的資料。所有擷取至 Adobe Experience Platform 的資料都必須符合標準的非正常結構，才能由下游能力和功能識別並處理。體驗資料模型 (XDM) 是以結構形式提供此結構的標準框架。
 
-定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。
+定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
 
 擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
    ![範例結構新增欄位按鈕](./assets/example-loalty-schema-plus.png)
 
-5. 在[!UICONTROL 「欄位屬性」]面板中，輸入 `Identification` 作為名稱，**[!UICONTROL 識別]** 作為[!UICONTROL 顯示名稱]，選取&#x200B;**[!UICONTROL 「物件」]**&#x200B;作為[!UICONTROL 類型]，並選取&#x200B;**[!UICONTROL 「設定檔核心 v2」]**&#x200B;作為[!UICONTROL 欄位群組]。
+5. 在[!UICONTROL 「欄位屬性」]面板中，輸入 `Identification` 作為名稱，**[!UICONTROL 「識別」]**&#x200B;作為[!UICONTROL 顯示名稱]，選取&#x200B;**[!UICONTROL 「物件」]**&#x200B;作為[!UICONTROL 類型]，並選取&#x200B;**[!UICONTROL 「設定檔核心 v2」]**&#x200B;作為[!UICONTROL 欄位群組]。
 
    ![識別物件](./assets/identifcation-loyalty-field.png)
 
@@ -187,10 +187,9 @@ ht-degree: 100%
 
    - 在連接器圖格上，選取[!UICONTROL 「設定」]或[!UICONTROL 「新增資料」]旁邊的&#x200B;**[!UICONTROL 「...」]**。
 
-      ![檢視文件](./assets/sourceconnector-documentation.png)
+     ![檢視文件](./assets/sourceconnector-documentation.png)
 
    - 選取&#x200B;**[!UICONTROL 「檢視文件」]**。
-
 
 請參閱[從傳統 Adobe Analytics 擷取和使用資料](./analytics.md)，了解如何使用 Adobe Analytics 來源連接器。
 
@@ -221,14 +220,15 @@ ht-degree: 100%
 
    選取&#x200B;**[!UICONTROL 「新增資料集」]**。
 
-   在[!UICONTROL 新增資料集]中的[!UICONTROL 選取資料集]步驟：
+   在[!UICONTROL 新增資料集]的[!UICONTROL 選取資料集]步驟：
 
    - 選取您先前建立的資料集 (`Example Loyalty Dataset`) 和您要加入連線的任何其他資料集。
 
-      ![新增資料集](./assets/cja-connections-2.png)
+     ![新增資料集](./assets/cja-connections-2.png)
 
    - 選取&#x200B;**[!UICONTROL 「下一步」]**。
-   在[!UICONTROL 新增資料集]中的[!UICONTROL 資料集設定]步驟：
+
+   在[!UICONTROL 新增資料集]的[!UICONTROL 資料集設定]步驟：
 
    - 對於每個資料集：
 
@@ -238,9 +238,10 @@ ht-degree: 100%
 
       - 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
 
-      ![設定資料集](./assets/cja-connections-3.png)
+     ![設定資料集](./assets/cja-connections-3.png)
 
    - 選取&#x200B;**[!UICONTROL 「新增資料集」]**。
+
    選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 如需如何建立和管理連線，以及如何選取和合併資料集的詳細資訊，請參閱[連線概觀](../connections/overview.md)。

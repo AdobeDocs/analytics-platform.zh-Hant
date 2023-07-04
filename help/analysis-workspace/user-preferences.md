@@ -1,10 +1,10 @@
 ---
 title: 如何設定 Analysis Workspace 內的使用者偏好設定
 description: 您可以設定使用者的一般和專案偏好設定。
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: c7e6dd4fb9a4dd517464572815e09f698b1761ed
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '3130'
 ht-degree: 74%

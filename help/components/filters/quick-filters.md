@@ -1,10 +1,10 @@
 ---
 description: 在適用於 Customer Journey Analytics 的 Analysis Workspace 中使用快速篩選
 title: 快速篩選
-feature: CJA Workspace Basics
+feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 37%
@@ -35,20 +35,19 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
 
    * **臨機（拖放）：** 從左側邊欄中，將元件拖曳至 **篩選** 圖示中，然後選取 **編輯** 圖示可調整篩選器。
 
-      ![編輯臨時篩選](assets/filter-adhoc-edit.png)
+     ![編輯臨時篩選](assets/filter-adhoc-edit.png)
 
-      >[!NOTE]
-      >
-      > 建立快速篩選隨選（拖放）時，請考量下列事項：
-      > * 不支援下列元件型別：計算量度和維度，以及無法建立篩選器的量度。
-      > * 為了取得完整的維度和事件，Analysis Workspace會建立「存在」事件篩選器。 範例：`Hit where eVar1 exists` 或 `Hit where event1 exists`。
-      > * 如將「未指定」或「無」拖放至篩選拖放區，就會自動轉換成「不存在」篩選，以便系統可正確處理篩選。
-
+     >[!NOTE]
+     >
+     > 建立快速篩選隨選（拖放）時，請考量下列事項：
+     > * 不支援下列元件型別：計算量度和維度，以及無法建立篩選器的量度。
+     > * 為了取得完整的維度和事件，Analysis Workspace會建立「存在」事件篩選器。 範例：`Hit where eVar1 exists` 或 `Hit where event1 exists`。
+     > * 如將「未指定」或「無」拖放至篩選拖放區，就會自動轉換成「不存在」篩選，以便系統可正確處理篩選。
 
 
    * **使用篩選圖示：** 在自由格式表格中，選取 **篩選** 圖示來識別。
 
-      ![區段篩選](assets/quick-seg1.png)
+     ![區段篩選](assets/quick-seg1.png)
 
 1. 調整下列任一設定：
 
@@ -87,7 +86,6 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
 > * 若要儲存快速篩選，您需要 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools).
 > 
 > * 儲存或套用篩選後，無法在快速篩選產生器中編輯它。 您必須改用一般篩選產生器。
-
 
 您可以選擇將快速篩選儲存為元件清單篩選。 元件清單篩選器的優點包括：
 

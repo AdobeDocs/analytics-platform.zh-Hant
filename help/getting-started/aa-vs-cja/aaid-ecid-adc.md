@@ -2,7 +2,8 @@
 title: AAID、ECID、AACUSTOMID 和 Analytics 來源連接器
 description: 瞭解 Analytics 來源連接器如何處理 Adobe Analytics 身分識別欄位。
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 91%
@@ -39,9 +40,9 @@ Analytics 來源連接器將這些身分識別以 XDM 形式傳遞到 Adobe Expe
 
 這些欄位不會標記為身分識別。 而是將相同的身分識別作為索引鍵/值組複製到 XDM 的 **_identityMap_** 中，如下所示：
 
-* `{ “key”: “AAID”, “value”: [ { “id”: “<identity>”, “primary”: <true or false> } ] }`
-* `{ “key”: “ECID”, “value”: [ { “id”: “<identity>”, “primary”: <true or false> } ] }`
-* `{ “key”: “AACUSTOMID”, “value”: [ { “id”: “<identity>”, “primary”: false } ] }`
+* `{ "key": "AAID", "value": [ { "id": "<identity>", "primary": <true or false> } ] }`
+* `{ "key": "ECID", "value": [ { "id": "<identity>", "primary": <true or false> } ] }`
+* `{ "key": "AACUSTOMID", "value": [ { "id": "<identity>", "primary": false } ] }`
 
 &lt;> 方括弧中的項目表示實際值出現的地方。
 

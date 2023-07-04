@@ -1,11 +1,11 @@
 ---
 title: 在 Customer Journey Analytics 中執行基本分析
 description: 說明如何在 Customer Journey Analytics 中使用基本視覺效果來分析資料
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 

@@ -2,9 +2,9 @@
 title: 檢視和管理 Customer Journey Analytics 使用情況
 description: 顯示兩種估計使用情況的方法，以及一種管理使用情況的方法。
 role: Admin
-feature: CJA Basics
+feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: ca329bd551990c1fefeda2fe272ed17551cfaac8
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 72%

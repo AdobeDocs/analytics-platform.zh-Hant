@@ -2,8 +2,8 @@
 title: 處理規則、VISTA 和分類與 Analytics 來源連接器的「資料準備」的比較
 description: 了解使用處理規則和 VISTA 以及使用「資料準備」的資料轉換的異同
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
-feature: CJA Basics
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Basics
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 80%

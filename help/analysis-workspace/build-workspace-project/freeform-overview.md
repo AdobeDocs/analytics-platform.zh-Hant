@@ -2,9 +2,9 @@
 description: Workspace 專案與選單列和設定概觀
 keywords: Analysis Workspace
 title: 專案概觀
-feature: CJA Workspace Basics
+feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 7086224bdbdfe3ae05fce95a13491f430e79b8c6
+source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 79%
@@ -21,35 +21,35 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 ![](assets/sample-project.png)
 
-「項目」頁包含以下資訊：
+「專案」頁面包含下列資訊：
 
 >[!NOTE]
 >
->預設情況下不顯示某些列。 要自定義您看到的列，請按一下 **自定義表** 表徵圖 ![自定義表](assets/projects-page-customize-columns-icon.png)。
+>某些欄預設不會顯示。 若要自訂您看到的欄，請按一下 **自訂表格** 圖示 ![自訂表格](assets/projects-page-customize-columns-icon.png).
 
 | 元素 | 說明 |
 |---|---|
-| [編輯偏好設定](/help/analysis-workspace/user-preferences.md) | 管理您建立的所有新項目或面板的Analysis Workspace及其相關元件的設定。 |
-| [建立資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 將新資料夾或子資料夾添加到項目和資料夾清單中。 |
-| [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md) | 從頭開始新項目。 |
-| 顯示更多 | 顯示建立空白項目或移動記分卡的選項， [查看培訓教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=zh-Hant)或 [查看發行說明](/help/release-notes/latest.md)。 |
-| 顯示資料夾和項目 | 選擇是否顯示項目的資料夾結構。 如需詳細資訊，請參閱[關於 Analytics 資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。 |
-| 自定義表（表徵圖） | 允許您自定義「項目」頁上每個項目顯示的資訊。 |
+| [編輯偏好設定](/help/analysis-workspace/user-preferences.md) | 管理您建立的所有新專案或面板的Analysis Workspace設定及其相關元件。 |
+| [建立資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 將新資料夾或子資料夾新增至專案和資料夾清單。 |
+| [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md) | 從頭開始新專案。 |
+| 顯示更多 | 顯示建立空白專案或行動計分卡的選項， [檢視訓練教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=zh-Hant)，或 [檢視發行說明](/help/release-notes/latest.md). |
+| 顯示資料夾和專案 | 選擇是否顯示專案的資料夾結構。 如需詳細資訊，請參閱[關於 Analytics 資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。 |
+| 自訂表格（圖示） | 可讓您自訂專案頁面上為每個專案顯示的資訊。 |
 | 名稱 | Workspace 專案名稱。 |
-| 類型 | 指示這是Workspace項目、資料夾還是 [移動記分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hant)。 |
+| 類型 | 指示這是Workspace專案、資料夾還是 [行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hant). |
 | 標記 | 已套用到專案中的標籤。 |
-| 已排程 | 指示是否計畫按計畫通過電子郵件將項目發送給收件人。 請參閱 [計畫項目](/help/analysis-workspace/curate-share/t-schedule-report.md)。 |
-| 共用連結 (任何人) | 項目可以與任何人共用 — 即使是無法訪問Analysis Workspace的人。 此列顯示項目是否已以此方式共用。 請參閱 [與任何人共用項目（無需登錄）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analysis-workspace/curate-share/share-projects.md) 的子菜單。 |
-| 資料檢視 | 與項目關聯的資料視圖。 |
+| 已排程 | 表示專案是否已排程依排程傳送電子郵件給收件者。 另請參閱 [排程專案](/help/analysis-workspace/curate-share/t-schedule-report.md). |
+| 共用連結 (任何人) | 專案可與任何人共用，即使無法存取Analysis Workspace的人亦然。 此欄顯示專案是否已以這種方式共用。 另請參閱 [與任何人共用專案（不需要登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用專案](/help/analysis-workspace/curate-share/share-projects.md) 以取得詳細資訊。 |
+| 資料檢視 | 與專案相關聯的資料檢視。 |
 | [專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) | 指示您在專案中的角色 - 所有者、編輯、複製、檢視。 |
 | 所有者 | 建立此專案的人 (您或與您共用專案的人)。 |
-| 共用對象 | 已與項目共用的用戶。 |
+| 共用對象 | 已共用專案的使用者。 |
 | 上次修改時間 | 上次修改專案的日期和時間。 |
-| 上次開啟時間 | 上次開啟項目的日期和時間。 |
-| 專案 ID | 項目的ID。 |
-| 最大日期範圍 | 項目的最長日期範圍。 |
-| 查詢數 | 項目中包含的查詢總數。 |
-| 位置 | 項目所在的資料夾。 |
+| 上次開啟時間 | 專案上次開啟的日期和時間。 |
+| 專案 ID | 專案的ID。 |
+| 最大日期範圍 | 專案的最長日期範圍。 |
+| 查詢數 | 專案中包含的查詢總數。 |
+| 位置 | 專案所在的資料夾。 |
 
 ## 功能表列 {#menu-bar}
 
@@ -59,7 +59,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 | 功能表項目 | 說明 |
 |---|---|
-| 專案 | 包括項目管理的常用操作，包括「新建」、「開啟」、「保存」和「另存為」。 您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。「[下載 CSV 和 PDF](/help/analysis-workspace/curate-share/download-send.md)」選項可讓您從 Workspace 匯出資料。「**專案資訊和設定** (請參閱下圖) 提供管理專案的多個選項。 |
+| 專案 | 包含專案管理的常見動作，包括「新增」、「開啟」、「儲存」和「另存新檔」。 您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。「[下載 CSV 和 PDF](/help/analysis-workspace/curate-share/download-send.md)」選項可讓您從 Workspace 匯出資料。「**專案資訊和設定** (請參閱下圖) 提供管理專案的多個選項。 |
 | 編輯 | 還原或重做您的上一個操作。「全部清除」會將您的專案重設為空白起點。 |
 | 插入 | 從此功能表插入新面板或視覺效果。您也可以從左側欄插入新面板和視覺效果。 |
 | [元件](/help/components/overview.md) | 從您的專案建立新篩選器、計算量度、日期範圍或警報元件。 您也可以從左側欄建立新元件。如果您的元件定義在最近有了變更，「重新整理元件」將會擷取最新的定義。 |
@@ -119,7 +119,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 | 動作 | 說明 |
 |---|---|
 | 新增 | 從頭建立新專案。 |
-| 標記或核准 | 選擇「標籤」或「批准」以組織您的項目並使其更易於搜索。 |
+| 標記或核准 | 選擇「標籤」或「核准」來組織您的專案，並使其更容易搜尋。 |
 | [共用](/help/analysis-workspace/curate-share/share-projects.md) | 將專案提供給貴組織中的其他 Analysis Workspace 用戶使用。 |
 | 刪除 | 刪除您的專案。 |
 | 重新命名 | 編輯您的專案名稱。 |
