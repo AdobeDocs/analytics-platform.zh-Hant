@@ -3,10 +3,10 @@ title: 拼接概述
 description: 銜接概觀。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
+source-git-commit: 3fd4038c44b50490618f838d281684742920d152
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 30%
+source-wordcount: '1246'
+ht-degree: 25%
 
 ---
 
@@ -56,22 +56,22 @@ ht-degree: 30%
    * 啟用銜接的要求。
    * 您要重設金鑰之資料集的資料集 ID.
    * 所需資料集的永久 ID 欄名稱 (顯示於每列的識別碼).
-   * 所需資料集的暫時 ID 欄名稱 (資料集間的人員識別碼連結).
+   * 所需資料集的暫時ID欄名稱（人員識別碼，也做為連線內容中資料集之間的連結）。
    * 您的[重播](explained.md)頻率和回顧時間長度偏好設定，包括每週重播一次，回顧期間為 7 天，或每天重播一次，回顧期間為 1 天。
    * 沙箱名稱。
 
 
-2. Adobe客戶支援與Adobe工程部門合作，以便在收到您的請求時啟用拼接。 啟用後，Adobe Experience Platform 會顯示一個包含新人員 ID 欄的新的重設金鑰資料集。Adobe 客戶支援可提供新資料集 ID 和人員 ID 欄名稱。
+2. Adobe客戶支援與Adobe工程部門合作，以便在收到您的請求時啟用拼接。 啟用後，Adobe Experience Platform中會出現一個包含新彙整ID欄的新的重設金鑰資料集。 Adobe客戶支援可提供新資料集的ID。
 
-3. 初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。若要執行此回填，當時的未拼接資料中必須存在暫時ID。
+3. 首次開啟時，Adobe會提供回填30天以前的彙整資料。
 
-4. [建立連線](/help/connections/create-connection.md) 使用新產生的資料集和您要包含的任何其他資料集進行Customer Journey Analytics。 為每個資料集選擇正確的人員 ID。
+4. 如果您想在跨管道分析中使用新的拼接資料集，則需要將其新增到 [連線](../connections/overview.md) 與其他所需資料集一起進行Customer Journey Analytics。 為每個資料集選擇正確的人員 ID。
 
 5. 根據連線[建立資料檢視](/help/data-views/create-dataview.md)。
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
-設定資料檢視後，Customer Journey Analytics中的跨管道分析就和Customer Journey Analytics中的其他分析一樣，除了現在之外，資料會跨管道和裝置運作。
+設定資料檢視後，您可以跨管道和裝置執行Customer Journey Analytics報表分析。
 
 <!-- Uncomment once stitching UI is available (for limited testing)..
 
