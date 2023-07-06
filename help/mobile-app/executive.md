@@ -1,20 +1,20 @@
 ---
 description: 控制面板計分卡的使用說明。
-title: Adobe Analytics 儀表板高階主管指南
+title: Analytics 控制面板執行指南
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 25293f3ef40f0c19ec6a963d337ab91b8054aa58
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
 workflow-type: tm+mt
-source-wordcount: '1267'
-ht-degree: 92%
+source-wordcount: '1304'
+ht-degree: 77%
 
 ---
 
 # 高階主管使用者快速入門指南
 
-下列資訊可讓高階主管使用者瞭解使用和檢視 Adobe Analytics 儀表板的最佳作法。 以下是這項資訊的示範影片：
+下列資訊可讓執行使用者瞭解使用和檢視 Analytics 控制面板的最佳做法。以下是這項資訊的示範影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/343460/)
 
@@ -28,26 +28,30 @@ ht-degree: 92%
 
 若要在控制面板上存取計分卡，請確認：
 
-* 您處於 Adobe Analytics 的有效登入狀態
+* 您處於 Customer Journey Analytics 的有效登入狀態
 * 您的組織者已正確建立行動計分卡並與您共用
 
 ### 下載並安裝控制面板
 
 若要下載及安裝應用程式，請根據裝置的作業系統，依步驟操作。
 
+>[!NOTE]
+>
+>雖然行動應用程式在應用程式商店中命名為Adobe Analytics控制面板，但該應用程式可與Customer Journey Analytics行動計分卡同等效用。
+
 **若高階主管使用者使用 iOS：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結(也可從「 」下方的「Customer Journey Analytics」取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**)並依照提示下載、安裝和開啟應用程式：
 
 [iOS 連結](https://apple.co/2zXq0aN)
 
 **若高階主管使用者使用 Android：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結(也可從「 」下方的「Customer Journey Analytics」取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**)並依照提示下載、安裝和開啟應用程式：
 
 [Android 連結](https://bit.ly/2LM38Oo)
 
-下載並安裝完畢後，高階主管使用者就可使用現有的 Adobe Analytics 憑證登入應用程式。
+下載並安裝完畢後，主管使用者就可使用現有的Customer Journey Analytics憑證登入應用程式。
 
 ![應用程式歡迎畫面](assets/welcome.png)
 
@@ -55,7 +59,7 @@ ht-degree: 92%
 
 控制面板使用步驟：
 
-1. 請登入應用程式。 控制面板啟動後，登入畫面會隨即顯示。 使用您現有的 Adobe Analytics 憑證，依提示操作。 此應用程式同時支援 Adobe 和 Enterprise/Federated ID。
+1. 請登入應用程式。 控制面板啟動後，登入畫面會隨即顯示。 使用您現有的Customer Journey Analytics認證，依提示操作。 此應用程式同時支援 Adobe 和 Enterprise/Federated ID。
 
    ![登入程序](assets/signseq.png)
 
@@ -73,8 +77,8 @@ ht-degree: 92%
 
    如果您登入後看到未共用任何內容的訊息，請向組織者確認下列事項：
 
-   * 您可以登入正確的 Analytics 例項
-   * 已與您共用計分卡
+   * 您可以登入正確的Customer Journey Analytics沙箱。
+   * 已與您共用計分卡.
 
    ![無共用項目](assets/nothing.png)
 
@@ -111,11 +115,11 @@ ht-degree: 92%
 
    * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。 點選其中一個選項，並選取第一個範圍。 在&#x200B;**[!UICONTROL 比較對象]**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。 點選畫面右上方的&#x200B;**[!UICONTROL 「完成」]**。 **[!UICONTROL 「日期範圍」]**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
-1. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。 應用程式中的[篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)運作方式與 Analytics Workspace 中相同。
+1. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。 應用程式中的[篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)運作方式與 Workspace 中相同。
 
    ![區段篩選](assets/segment_filter.png)
 
-1. 更新計分卡。 如果計分卡中沒有您可能感興趣的所有度量或劃分，請連絡您的 Analytics 團隊以更新計分卡。 更新後，您可以下拉畫面上的資訊卡，重新整理並載入最近新增的資料。
+1. 更新計分卡。 如果計分卡並未包含您可能感興趣的所有量度或劃分，請聯絡您的Customer Journey Analytics團隊以更新計分卡。 更新後，您可以下拉畫面上的資訊卡，重新整理並載入最近新增的資料。
 
 1. 在此應用程式上提供意見回饋：
 
@@ -148,8 +152,8 @@ ht-degree: 92%
 
 | 詞語 | 定義 |
 |--- |--- |
-| 消費者 | 在行動裝置上檢視 Analytics 關鍵量度和深入分析的高階主管人員 |
-| 組織者 | 從 Analytics 尋找及分發深入分析，以及設定計分卡以供消費者檢視的資料識讀人員 |
+| 消費者 | 從行動裝置上的Customer Journey Analytics檢視關鍵量度和深入分析的執行角色 |
+| 組織者 | 透過Customer Journey Analytics尋找和分發深入分析，並設定計分卡以供消費者檢視的資料識讀人員 |
 | 組織 | 為消費者建立或編輯行動計分卡的行為，計分卡內容包含相關量度、維度和其他項目 |
 | 計分卡 | 包含一或多個圖磚的控制面板畫面 |
 | 圖磚 | 計分卡檢視畫面呈現量度的形式 |

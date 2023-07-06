@@ -1,27 +1,28 @@
 ---
-description: 如何建立和共用Adobe Analytics儀表板計分卡
+description: 如何建立和共用Analytics儀表板計分卡
 title: 建立和共用計分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
 workflow-type: tm+mt
-source-wordcount: '2529'
-ht-degree: 76%
+source-wordcount: '2532'
+ht-degree: 74%
 
 ---
 
 # 建立行動計分卡
 
-以下資訊可為 Adobe Analytics 資料的組織者說明如何設定控制面板並向高階主管使用者呈現。若要開始使用，您可以檢視Adobe Analytics儀表板計分卡產生器的影片：
+下列資訊可為Customer Journey Analytics資料的組織者說明如何為高階主管使用者設定和展示控制面板。 若要開始使用，您可以檢視Analytics儀表板計分卡產生器的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
->此頁面的計分卡熒幕擷取畫面是從Adobe Analytics UI取得，而非從Customer Journey Analytics取得。 這些 UI 幾乎完全一樣。
+>
+>此頁面的Analytics計分卡熒幕擷取畫面是從Adobe Analytics UI取得，而非從Customer Journey Analytics取得。 這些 UI 幾乎完全一樣。
 
-Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資料的視覺效果，如下所示：
+ Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資料的視覺效果，如下所示：
 
 ![計分卡範例](assets/intro_scorecard.png)
 
@@ -40,7 +41,7 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 ### 建立新專案 {#create}
 
-1. 開啟 Adobe Analytics，然後按一下 **[!UICONTROL 工作區]** 索引標籤。
+1. 開啟Customer Journey Analytics並按一下 **[!UICONTROL Workspace]** 標籤。
 1. 按一下 **[!UICONTROL 建立專案]**，然後選取 **[!UICONTROL 空白行動計分卡]** 專案範本。
 1. 按一下 **[!UICONTROL 建立]**。
 
@@ -78,7 +79,7 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 若要將篩選器套用至個別圖磚，請從左側面板將篩選器(區段是Customer Journey Analytics中的篩選器)直接拖曳至圖磚上。
 
-如果您想要將篩選器套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。 或者，您也可以在日期範圍下方的篩選器功能表中選取篩選器，以套用篩選器。您 [為您的計分卡設定和套用篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) 就像在Adobe Analytics Workspace中一樣。
+如果您想要將篩選器套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。 或者，您也可以在日期範圍下方的篩選器功能表中選取篩選器，以套用篩選器。您 [為您的計分卡設定和套用篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) 就像在Customer Journey Analytics Workspace中一樣。
 
 ![建立篩選器](assets/segment_ui.png)
 
@@ -278,7 +279,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ## 預覽計分卡 {#preview}
 
-在 Analytics 儀表板應用程式中發佈計分卡後，您可以預覽計分卡的外觀和功能。
+在Adobe Analytics儀表板應用程式中發佈計分卡後，您可以預覽計分卡的外觀和功能。
 
 1. 按一下螢幕右上角的 **[!UICONTROL 預覽]**。
 
@@ -337,7 +338,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
    當收件者使用案頭應用程式或瀏覽器開啟連結時，行動計分卡專案將會在工作區中開啟。
 
-   當收件者在行動裝置上開啟連結時，計分卡將直接在Analytics儀表板應用程式中開啟。
+   當收件者在行動裝置上開啟連結時，計分卡將直接在Adobe Analytics儀表板應用程式中開啟。
 
    如果收件者尚未下載行動應用程式，系統會將他們導向至App Store或Google Play市集中的應用程式清單，他們便可從此處下載該應用程式。
 
