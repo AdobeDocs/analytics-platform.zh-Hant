@@ -3,7 +3,7 @@ title: 拼接概述
 description: 銜接概觀。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 3fd4038c44b50490618f838d281684742920d152
+source-git-commit: 41dc46ed5e30d08708ebb97fa29312aafd99ff9d
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 25%
@@ -63,7 +63,7 @@ ht-degree: 25%
 
 2. Adobe客戶支援與Adobe工程部門合作，以便在收到您的請求時啟用拼接。 啟用後，Adobe Experience Platform中會出現一個包含新彙整ID欄的新的重設金鑰資料集。 Adobe客戶支援可提供新資料集的ID。
 
-3. 首次開啟時，Adobe會提供回填30天以前的彙整資料。
+3. 首次開啟時，Adobe會提供回填60天以前的彙整資料。
 
 4. 如果您想在跨管道分析中使用新的拼接資料集，則需要將其新增到 [連線](../connections/overview.md) 與其他所需資料集一起進行Customer Journey Analytics。 為每個資料集選擇正確的人員 ID。
 
