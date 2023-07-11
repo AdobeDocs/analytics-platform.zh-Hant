@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 51bc0de7186b87fad4011c2ec77cfe841186a58e
+source-git-commit: db8f92941677ba37f41a62c7612f517d7b071b4a
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '956'
 ht-degree: 86%
 
 ---
@@ -85,12 +85,10 @@ ht-degree: 86%
    + [衍生欄位](../data-views/derived-fields/derived-fields.md)
    + [標籤和原則](../data-views/data-governance.md)
 
-
 + 工作區專案 {#cja-workspace}
    + [Analysis Workspace 總覽](../analysis-workspace/home.md)
    + [執行基本分析](../analysis-workspace/perform-basic-analysis.md)
    + [執行進階分析](../analysis-workspace/perform-adv-analysis.md)
-
    + 專案 {#build-workspace-project}
       + [專案總覽](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)
@@ -105,40 +103,31 @@ ht-degree: 86%
       + [快速鍵](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](../analysis-workspace/build-workspace-project/view-density.md)
-
    + 視覺效果 {#visualizations}
       + [視覺效果總覽](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理資料來源](../analysis-workspace/visualizations/t-sync-visualization.md)
-
       + 自由表格 {#freeform-table}
          + [自由表格](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + 欄和列的設定 {#column-row-settings}
             + [欄設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-
          + [篩選和排序表格](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-
          + [工作區總計](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-
       + 同類群組表格 {#cohort-table}
          + [什麼是同類群組分析？](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定同類群組分析報表](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [同類群組分析使用案例](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
-
       + 流失 {#fallout}
          + [流失總覽](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [設定流失視覺效果](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [維度間流失](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [在流失分析中套用篩選](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
-
-
       + 流量 {#flow}
          + [流量總覽](../analysis-workspace/visualizations/c-flow/flow.md)
          + [設定流量視覺效果](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [維度間流量](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [區域圖和堆疊區域圖](../analysis-workspace/visualizations/area.md)
-
       + [長條圖和堆疊長條圖](../analysis-workspace/visualizations/bar.md)
       + [項目符號圖表](../analysis-workspace/visualizations/bullet-graph.md)
       + [組合圖表](../analysis-workspace/visualizations/combo-charts.md)
@@ -153,7 +142,6 @@ ht-degree: 86%
       + [文字](../analysis-workspace/visualizations/text.md)
       + [樹狀圖](../analysis-workspace/visualizations/treemap.md)
       + [文氏圖表](../analysis-workspace/visualizations/venn.md)
-
    + 面板 {#panels}
       + [面板總覽](../analysis-workspace/c-panels/panels.md)
       + [歸因面板](../analysis-workspace/c-panels/attribution.md)
@@ -166,7 +154,6 @@ ht-degree: 86%
          + [概觀](../analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [輸入和輸出設定](../analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [常見問題](../analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-
    + 策劃、共用及排程專案 {#curate-share}
       + [共用功能表](../analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](../analysis-workspace/curate-share/curate.md)
@@ -175,7 +162,6 @@ ht-degree: 86%
       + [僅供檢視的專案](../analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](../analysis-workspace/curate-share/download-send.md)
       + [排程專案](../analysis-workspace/curate-share/t-schedule-report.md)
-
    + 虛擬分析人員 {#virtual-analyst}
       + [虛擬分析人員總覽](../analysis-workspace/virtual-analyst/overview.md)
       + 異常偵測 {#anomaly-detection}
@@ -183,7 +169,6 @@ ht-degree: 86%
          + [在 Analysis Workspace 中檢視異常](../analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
          + [用於異常偵測的統計技術](../analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
    + [使用者偏好設定](../analysis-workspace/user-preferences.md)
-
    + 工作區常見問題 {#workspace-faq}
       + [常見問題](../analysis-workspace/workspace-faq/faq.md)
       + [錯誤訊息](../analysis-workspace/workspace-faq/error-messages.md)
@@ -201,37 +186,38 @@ ht-degree: 86%
 
 + 引導式分析 {#guided-analysis}
    + [概觀](../guided-analysis/overview.md)
-   + 分析類型 {#analysis-types}
-      + [概觀](../guided-analysis/analysis-types/overview.md)
-      + [漏斗](../guided-analysis/analysis-types/funnel.md)
-      + [趨勢](../guided-analysis/analysis-types/trends.md)
-      + [使用者增長](../guided-analysis/analysis-types/user-growth.md)
+   + 影響 {#impact}
+      + [版本](../guided-analysis/types/release.md)
+      + [首次使用](../guided-analysis/types/first-use.md)
+   + 漏斗 {#funnel}
+      + [摩擦](../guided-analysis/types/friction.md)
+      + [轉換趨勢](../guided-analysis/types/conversion-trends.md)
+   + 使用者增長 {#user-growth}
+      + [作用中](../guided-analysis/types/active.md)
+      + [淨增長](../guided-analysis/types/net-growth.md)
+   + 趨勢 {#trends}
+      + [使用狀況](../guided-analysis/types/usage.md)
    + [常見問題](../guided-analysis/faq.md)
 
 + 元件 {#cja-components}
    + [元件總覽](../components/overview.md)
    + [新增元件說明](../components/add-component-descriptions.md)
-
    + 註解 {#annotations}
       + [註解概述](../components/annotations/overview.md)
       + [建立註解](../components/annotations/create-annotations.md)
       + [管理註解](../components/annotations/manage-annotations.md)
       + [檢視註解](../components/annotations/view-annotations.md)
       + [行動註解](../components/annotations/mobile-annotations.md)
-
    + 對象 {#audiences}
       + [對象概覽](../components/audiences/audiences-overview.md)
       + [建立及發佈對象](../components/audiences/publish.md)
       + [管理對象](../components/audiences/manage.md)
-
    + 維度 {#dimensions}
       + [預覽維度](../components/dimensions/view-dimensions.md)
       + [劃分維度](../components/dimensions/t-breakdown-fa.md)
       + [時間分隔維度](../components/dimensions/time-parting-dimensions.md)
       + [基數很高的維度](../components/dimensions/high-cardinality.md)
-
    + [量度](../components/apply-create-metrics.md)
-
    + 篩選 {#cja-filters}
       + [篩選總覽](../components/filters/filters-overview.md)
       + [建立篩選器](../components/filters/create-filters.md)
@@ -239,7 +225,6 @@ ht-degree: 86%
       + [篩選產生器](../components/filters/filter-builder.md)
       + [管理篩選](../components/filters/manage-filters.md)
       + [運算子](../components/filters/operators.md)
-
    + 計算量度 {#cja-calcmetrics}
       + [計算量度概觀](../components/calc-metrics/calc-metr-overview.md)
       + 計算量度工作流程 {#cm-workflow}
@@ -259,14 +244,12 @@ ht-degree: 86%
       + [預設計算量度](../components/calc-metrics/default-calcmetrics.md)
       + [基本函數](../components/calc-metrics/cm-functions.md)
       + [進階函數](../components/calc-metrics/cm-adv-functions.md)
-
    + 日曆和日期範圍 {#cja-date-ranges}
       + [日曆和日期範圍總覽](../components/date-ranges/calendar.md)
       + [建立日期範圍](../components/date-ranges/create.md)
       + [管理日期範圍](../components/date-ranges/manage.md)
       + [建立自訂日期範圍](../components/date-ranges/custom-date-ranges.md)
       + [日期比較](../components/date-ranges/time-comparison.md)
-
    + 資料字典 {#data-dictionary}
       + [資料字典概觀](../components/data-dictionary/data-dictionary-overview.md)
       + [檢視資料字典中的元件資訊](../components/data-dictionary/view-data-dictionary.md)
@@ -312,31 +295,25 @@ ht-degree: 86%
 
 + 使用案例 {#cja-usecases}
    + [Customer Journey Analytics 使用案例](../use-cases/cja-usecases.md)
-
    + Google Analytics 資料 {#ga}
       + [將資料從Google Analytics移轉至Customer Journey Analytics概述](../use-cases/ga/overview.md)
       + [將 Google Analytics 歷史資料擷取至 Platform](../use-cases/ga/backfill.md)
       + [將串流的 Google Analytics 資料設定至 Platform](../use-cases/ga/streaming.md)
       + [在 Customer Journey Analytics 中報告 Google Analytics 資料](../use-cases/ga/report.md)
-
    + 資料擷取 {#data-ingestion}
       + [將Marketo Engage資料擷取至Adobe Experience Platform並以Customer Journey Analytics報告](../use-cases/data-ingestion/marketo.md)
       + [將Adobe Experience Platform對象擷取至Customer Journey Analytics](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 資料檢視 {#data-views}
       + [資料檢視使用案例](../use-cases/data-views/data-views-usecases.md)
       + [使用繫結維度和量度](../use-cases/data-views/binding-dimensions-metrics.md)
-
    + B2B {#b2b}
       + [新增帳戶層級資料當作查詢資料集](../use-cases/b2b/b2b.md)
-
    + 跨管道的資料 {#cross-channel}
       + [跨管道分析資料](../use-cases/cross-channel/cross-channel.md)
       + [匯入客服中心和網頁的資料](../use-cases/cross-channel/call-center.md)
-
    + Adobe Analytics 資料 {#aa-data}
       + [使用行銷管道維度](../use-cases/aa-data/marketing-channels.md)
       + [結合報告套裝與不同的結構描述](../use-cases/aa-data/combine-report-suites.md)
-
    + 複雜的資料 {#complex-data}
       + [使用物件陣列](../use-cases/object-arrays.md)
 

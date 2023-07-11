@@ -3,10 +3,10 @@ title: 引導式分析概述
 description: 分析Customer Journey Analytics中資料的方法，可讓產品團隊輕鬆產生報告和見解。
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: f48d17cf975ce7d069ac90f9685b96669a29eaff
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 1%
+source-wordcount: '912'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +18,21 @@ ht-degree: 1%
 
 引導式分析報表類似於Analysis Workspace和行動計分卡，使用來自 [資料檢視](../data-views/data-views.md)，會透過參照Adobe Experience Platform中的資料 [連線](../connections/overview.md). 在「引導式分析」中建立的所有報表均可順暢地傳輸至Analysis Workspace以供進一步研究。
 
-引導式分析報告目前具有三種分析型別： [漏斗](analysis-types/funnel.md)， [趨勢](analysis-types/trends.md)、和 [使用者成長](analysis-types/user-growth.md). 這些分析型別各有多種檢視型別，可為每個報表提供額外的深入分析。
+引導式分析提供多種分析資料的方式。 這些檢視型別能以不同方式顯示相同的資料，導致使用相同事件和區段產生不同的深入分析。 根據您選擇的檢視型別，您會獲得不同的查詢邊欄和視覺效果選項。 您可以在檢視型別之間自由切換，而且如果檢視型別支援任何適用的查詢邊欄元件，這些元件也會移轉。
+
+引導式分析將檢視型別分類為 **分析型別**. 可使用下列分析和檢視型別：
+
+| 分析類型 | 檢視類型 | 說明 |
+| --- | --- | --- |
+| 影響 | [版本](types/release.md) | 比較發佈前和發佈後同期的績效. |
+| 影響 | [首次使用](types/first-use.md) | 衡量首次功能使用對關鍵指標的影響. |
+| 漏斗 | [摩擦](types/friction.md) | 比較步驟之間的轉換率. |
+| 漏斗 | [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化. |
+| 使用者增長 | [作用中](types/active.md) | 測量使用者群的增長. |
+| 使用者增長 | [淨增長](types/net-growth.md) | 平衡使用者得失. |
+| 趨勢 | [使用狀況](types/usage.md) | 測量使用者在一段時間內的參與度. |
+
+{style="table-layout:auto"}
 
 ## 介面
 
@@ -35,11 +49,11 @@ ht-degree: 1%
 
 | 介面預覽 | UI 元素 | 說明 |
 | --- | --- | --- |
-| [查詢邊欄的熒幕擷圖] | 查詢邊欄 | 設定組成報表的所需元件。 不同的分析型別會共用數個查詢選項；如果兩個分析型別共用查詢選項，則會在切換分析型別時延續。 另請參閱 [分析型別](analysis-types/overview.md) 有關每個個別分析型別的查詢選項的更多資訊。 |
-| [圖表熒幕擷圖] | 圖表 | 根據您從查詢邊欄和設定輸入的資料，傳回資料的視覺效果。 您看到的視覺效果取決於圖表上方的檢視型別。 可用的檢視型別取決於 [分析型別](analysis-types/overview.md) 查詢邊欄上方。 |
-| [表格的熒幕擷圖] | 表格 | 根據您從查詢邊欄和設定輸入的資料傳回的表格表示法。 表格中的欄取決於圖表上方的檢視型別。 可用的檢視型別取決於 [分析型別](analysis-types/overview.md) 查詢邊欄上方。 |
-| [設定熒幕擷圖] | 設定 | 圖表上方有數個選項，可讓您自訂圖表和表格傳回資料的方式。<ul><li>**檢視型別**：下拉式選擇器，可讓您顯示指定資料 [分析型別](analysis-types/overview.md) 以不同的方式進行。 每個分析型別至少有兩個檢視型別。</li><li>**圖表設定**：微調圖表外觀以及要使用的事件。 可用的選項取決於所選的檢視型別。</li><li>**日期範圍**：日曆選擇器，可讓您決定報表的日期範圍。 有些分析型別也允許間隔，例如每日、每週或每月。</li><li>**深入分析**：根據您檢視的報表提供內容分析。 您可以使用右上角的燈泡圖示來顯示或隱藏這些深入分析。</li></ul> |
-| [分析功能表的熒幕擷圖] | 「分析」功能表 | 「引導式分析」右上角的命令，提供總體動作。<ul><li>**資料檢視選擇器**：變更此分析使用的資料檢視。 當您變更資料檢視時，查詢邊欄中的可用元件也會變更。</li><li>**儲存**：儲存分析。 如果您要儲存新的分析，會出現一個要求名稱和說明的強制回應視窗。</li><li>**另存為**：將分析與目前分析分開儲存，並建立副本。 會出現一個強制回應視窗，要求新的名稱和說明。</li><li>**在工作區中開啟**：在Analysis Workspace中重新建立目前的引導式分析。 Workspace專案是在新索引標籤中建立，以防止在引導式分析中工作時發生中斷。 當引導式分析無法提供您所需的彈性或特定深入分析時，請使用此命令。 例如，您希望 [趨勢](analysis-types/trends.md) 一個區段使用工作階段，另一個區段使用人員的報告。</li><li>**下載PNG**：將圖表圖形下載為 `.png`. 查詢邊欄和表格不包含在圖形中。</li><li>**下載SVG**：將圖表圖形下載為 `.svg`. 查詢邊欄和表格不包含在圖形中。</li></ul> |
+| [查詢邊欄的熒幕擷圖] | 查詢邊欄 | 設定組成報表的所需元件。 不同的分析型別會共用數個查詢選項；如果兩個分析型別共用查詢選項，則會在切換分析型別時延續。 |
+| [圖表熒幕擷圖] | 圖表 | 根據您從查詢邊欄和設定輸入的資料，傳回資料的視覺效果。 您看到的視覺效果取決於圖表上方的檢視型別。 可用的檢視型別取決於查詢邊欄上方的分析型別。 |
+| [表格的熒幕擷圖] | 表格 | 根據您從查詢邊欄和設定輸入的資料傳回的表格表示法。 表格中的欄取決於圖表上方的檢視型別。 可用的檢視型別取決於查詢邊欄上方的分析型別。 |
+| [設定熒幕擷圖] | 設定 | 圖表上方有數個選項，可讓您自訂圖表和表格傳回資料的方式。<ul><li>**檢視型別**：下拉式選擇器，可讓您以不同方式呈現指定分析型別的資料。 每個分析型別至少有兩個檢視型別。</li><li>**圖表設定**：微調圖表外觀以及要使用的事件。 可用的選項取決於所選的檢視型別。</li><li>**日期範圍**：日曆選擇器，可讓您決定報表的日期範圍。 有些分析型別也允許間隔，例如每日、每週或每月。</li><li>**深入分析**：根據您檢視的報表提供內容分析。 您可以使用右上角的燈泡圖示來顯示或隱藏這些深入分析。</li></ul> |
+| [分析功能表的熒幕擷圖] | 「分析」功能表 | 「引導式分析」右上角的命令，提供總體動作。<ul><li>**資料檢視選擇器**：變更此分析使用的資料檢視。 當您變更資料檢視時，查詢邊欄中的可用元件也會變更。</li><li>**儲存**：儲存分析。 如果您要儲存新的分析，會出現一個要求名稱和說明的強制回應視窗。</li><li>**另存為**：將分析與目前分析分開儲存，並建立副本。 會出現一個強制回應視窗，要求新的名稱和說明。</li><li>**在工作區中開啟**：在Analysis Workspace中重新建立目前的引導式分析。 Workspace專案是在新索引標籤中建立，以防止在引導式分析中工作時發生中斷。 當引導式分析無法提供您所需的彈性或特定深入分析時，請使用此命令。 例如，您希望 [使用狀況](types/usage.md) 一個區段使用工作階段，另一個區段使用人員的報告。</li><li>**下載PNG**：將圖表圖形下載為 `.png`. 查詢邊欄和表格不包含在圖形中。</li><li>**下載SVG**：將圖表圖形下載為 `.svg`. 查詢邊欄和表格不包含在圖形中。</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -47,13 +61,11 @@ ht-degree: 1%
 
 引導式分析屬於Adobe Product Analytics的一部分，是Customer Journey Analytics的付費附加元件。 如果您的組織想要開始使用此功能，請聯絡您的Adobe客戶團隊。
 
-Adobe計畫在未來提供引導式分析的特定許可權。
+您的組織布建為使用引導式分析後，產品設定檔管理員可以在Adobe Admin Console中授予其存取權。
 
-<!-- Once your organization is provisioned to use Guided analysis, product profile administrators can grant access to it in the Adobe Admin Console.
-
-1. Log in to the [Adobe admin console](https://adminconsole.adobe.com).
-1. Select **[!UICONTROL Customer Journey Analytics]** in the list of products.
-1. Select the desired product profile to edit permissions.
-1. Click the **[!UICONTROL Permissions]** tab, then click **[!UICONTROL Edit]** under [!UICONTROL Reporting Tools].
-1. Drag **[!UICONTROL Guided analysis]** from the list of [!UICONTROL Available Permission Items] to the list of [!UICONTROL Included Permission Items].
-1. Click **[!UICONTROL Save]**. -->
+1. 登入 [Adobe管理控制檯](https://adminconsole.adobe.com).
+1. 選取 **[!UICONTROL Customer Journey Analytics]** 在產品清單中。
+1. 選取所需的產品設定檔以編輯許可權。
+1. 按一下 **[!UICONTROL 許可權]** 標籤，然後按一下 **[!UICONTROL 編輯]** 在 [!UICONTROL 報告工具].
+1. 按一下旁的加號圖示 **[!UICONTROL 引導式分析存取]** 在清單中 [!UICONTROL 可用的許可權專案] 將其新增至 [!UICONTROL 包含的許可權專案].
+1. 按一下「**[!UICONTROL 儲存]**」。
