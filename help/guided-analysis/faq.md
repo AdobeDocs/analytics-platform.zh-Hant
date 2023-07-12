@@ -3,10 +3,10 @@ title: 引導式分析常見問題集
 description: 有關引導式分析的常見問題。
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: d5208a28c9efd6c31ecbfc6ff6b4e44a52f396e8
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 2%
+source-wordcount: '323'
+ht-degree: 3%
 
 ---
 
@@ -47,13 +47,11 @@ ht-degree: 2%
 
 雖然Analysis Workspace和引導式分析使用相同的基礎資料，但每個工具查詢該資料的方式不同。
 
-**Analysis Workspace是以維度為中心的體驗。** 表格通常包含維度專案列，而欄通常是量度。 您可以將篩選器套用至任一專案，以取得所需的資料。
+* **Analysis Workspace是以維度為中心的體驗。** 表格通常包含維度專案列，而欄通常是量度。 您可以將篩選器套用至任一專案，以取得所需的資料。
 
-![工作區結構](assets/workspace-structure.png)
+* **引導式分析是以事件為中心的體驗。** 視覺效果著重於事件，使用維度和篩選器來補充該資料。
 
-**引導式分析是以事件為中心的體驗。** 視覺效果著重於事件，使用維度和篩選器來補充該資料。
-
-![引導式分析結構](assets/guided-analysis-structure.png)
+![結構](assets/structure.png)
 
 請考量下列範例，其中您著重於網站首頁的相關資料。 團隊提出類似的問題，但分析方法可能不同。
 

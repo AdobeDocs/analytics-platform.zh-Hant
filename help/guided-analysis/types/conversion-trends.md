@@ -2,9 +2,9 @@
 title: 轉換趨勢
 description: 追蹤轉換率在一段時間內的變化。
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 * **A/B測試評估**：評估在漏斗環境中執行的A/B測試或實驗的成效。 透過比較不同變異之間的轉換率，您可以輕鬆判斷哪些測試提供較高的轉換率，進而決定要永久實施哪些變異，並透過資料加以驅動。
 * **一段時間的行銷活動評估**：衡量一段時間中行銷活動的有效性。 您可以建立一個區段，著重於接觸特定行銷活動的使用者，並將其轉換率與其他行銷活動進行比較。 您也可以將目前的轉換率與過去執行的類似行銷活動進行比較。
 
-[漏斗熒幕擷圖]
+![轉換趨勢](../assets/conversion-trends.png)
 
 ## 查詢邊欄
 
@@ -39,6 +39,8 @@ ht-degree: 2%
 ## 套用時間比較
 
 {{apply-time-comparison}}
+
+![轉換趨勢時間比較](../assets/conversion-trends-compare.png)
 
 ## 日期範圍
 

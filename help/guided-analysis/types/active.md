@@ -3,7 +3,7 @@ title: 作用中
 description: 測量使用者群的增長.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 * **行銷活動評估**：檢視特定行銷活動不僅可協助您瞭解其產生了多少流量，也可瞭解行銷活動協助使用者維持參與的程度。
 * **使用者生命週期分析**：分析使用者在整個生命週期中的活躍使用者成長，有助於識別使用者參與度下降的特定階段。 例如，如果處於上線階段的休眠使用者比例很高，這可能表示可用性問題或需要更好的產品內指南。
 
-[使用者成長熒幕擷圖]
+![作用中](../assets/active.png)
 
 ## 查詢邊欄
 
@@ -48,6 +48,8 @@ ht-degree: 2%
 ## 套用時間比較
 
 {{apply-time-comparison}}
+
+![作用中時間比較](../assets/active-compare.png)
 
 ## 日期範圍
 

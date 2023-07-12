@@ -2,10 +2,10 @@
 title: 淨增長
 description: 平衡使用者得失.
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 1%
+source-wordcount: '563'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 * **績效評估**：可讓您評估產品在取得新使用者方面的整體效能。 透過追蹤增長趨勢，您更能瞭解您的產品是否以所需的速度吸引和保留使用者。
 * **流失分析**：淨增長採用的計算公式中包含減少（休眠使用者）。 您可以評估使用者群在一段時間內的整體健康狀況。 如果淨成長率持續低於 `1`，表示有高程度的減少，提示您調查背後的原因，並實施保留策略。
 
-[使用者成長熒幕擷圖]
+![淨增長](../assets/net-growth.png)
 
 ## 查詢邊欄
 

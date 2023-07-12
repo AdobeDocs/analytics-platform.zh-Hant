@@ -3,9 +3,9 @@ title: 使用狀況
 description: 測量使用者在一段時間內的參與度.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 * **使用者行為**：趨勢可讓您深入瞭解使用者在一段時間內的行為。 透過檢查使用者執行的特定動作，您可以識別使用者可能流失的模式。 您可以結合此檢視型別的深入分析與 [摩擦](friction.md) 以取得更多關於行為的深入分析。
 * **A/B測試和實驗**：如果您在產品中執行A/B測試，則可使用趨勢來評估哪些測試隨著時間最成功。
 
-[趨勢的熒幕擷圖]
+![使用狀況](../assets/usage.png)
 
 ## 查詢邊欄
 
@@ -40,6 +40,8 @@ ht-degree: 2%
 ## 套用時間比較
 
 {{apply-time-comparison}}
+
+![使用時間比較](../assets/usage-compare.png)
 
 ## 日期範圍
 

@@ -3,9 +3,9 @@ title: 摩擦
 description: 比較步驟之間的轉換率.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 14c7aa342649afbe9923b0086947e5a0adeefff2
+source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 * **功能採用和參與**：瞭解使用者如何與您產品中的特定功能互動。 透過與功能相關的步驟分析使用者的進度，您可以評估功能採用率，並找出使用者可能放棄或少用某些功能的區域。 然後，您可以使用此資訊專注於功能或UI改進，以提高採用率。
 * **行銷活動評估**：衡量行銷活動的成效。 您可以建立一個區段，著重於觸及特定行銷活動的使用者，並將其轉換程式與其他行銷活動或您的整體產品內進行比較。
 
-[漏斗熒幕擷圖]
+![摩擦](../assets/friction.png)
 
 ## 查詢邊欄
 
@@ -41,6 +41,8 @@ ht-degree: 3%
 ## 套用時間比較
 
 {{apply-time-comparison}}
+
+![摩擦時間比較](../assets/friction-compare.png)
 
 ## 日期範圍
 
