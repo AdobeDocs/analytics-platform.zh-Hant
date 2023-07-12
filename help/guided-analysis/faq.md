@@ -3,9 +3,9 @@ title: 引導式分析常見問題集
 description: 有關引導式分析的常見問題。
 exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
 feature: Guided Analysis
-source-git-commit: 84cafd2756a09537c93524ff728ea78b7cbf5c8e
+source-git-commit: 23d3e6a9662cda932a376c09849ab078d22830dc
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '333'
 ht-degree: 3%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 3%
 | 引導式分析詞語 | Analysis Workspace詞語 |
 | --- | --- |
 | 事件 | 量度 |
+| 使用者 | 人員 |
 | 屬性 | 維度 |
 | 值 | 維度項目 |
 | 區段 | 篩選器 |
@@ -43,11 +44,11 @@ ht-degree: 3%
 
 +++
 
-+++**Analysis Workspace和引導式分析方法的報告方式有何差異？**
++++**Analysis Workspace和引導式分析方法的分析方式有何差異？**
 
-雖然Analysis Workspace和引導式分析使用相同的基礎資料，但每個工具查詢該資料的方式不同。
+雖然Analysis Workspace和引導式分析使用相同的基礎資料，但每個工具讓您形成該資料查詢的方式不同。
 
-* **Analysis Workspace是以維度為中心的體驗。** 表格通常包含維度專案列，而欄通常是量度。 您可以將篩選器套用至任一專案，以取得所需的資料。
+* **Analysis Workspace是以維度為中心的體驗。** 表格通常包含維度專案列，而欄通常是量度。 您可以將篩選器同時套用至列和欄，以取得所需的資料。
 
 * **引導式分析是以事件為中心的體驗。** 視覺效果著重於事件，使用維度和篩選器來補充該資料。
 
