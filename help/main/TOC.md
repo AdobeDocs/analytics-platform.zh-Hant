@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 3364850a56c7382fc1591b75d493ee9478ac59f6
+source-git-commit: eacb6eeaeadce7dfe39e6fb67eaba76986078363
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 86%
+source-wordcount: '966'
+ht-degree: 84%
 
 ---
 
@@ -187,16 +187,16 @@ ht-degree: 86%
 + 引導式分析 {#guided-analysis}
    + [概觀](../guided-analysis/overview.md)
    + 影響 {#impact}
-      + [版本](../guided-analysis/types/release.md)
-      + [首次使用](../guided-analysis/types/first-use.md)
+      + [版本檢視](../guided-analysis/types/release.md)
+      + [首次使用檢視](../guided-analysis/types/first-use.md)
    + 漏斗 {#funnel}
-      + [摩擦](../guided-analysis/types/friction.md)
-      + [轉換趨勢](../guided-analysis/types/conversion-trends.md)
+      + [摩擦檢視](../guided-analysis/types/friction.md)
+      + [轉換趨勢檢視](../guided-analysis/types/conversion-trends.md)
    + 使用者增長 {#user-growth}
-      + [作用中](../guided-analysis/types/active.md)
-      + [淨增長](../guided-analysis/types/net-growth.md)
+      + [使用中檢視](../guided-analysis/types/active.md)
+      + [淨成長檢視](../guided-analysis/types/net-growth.md)
    + 趨勢 {#trends}
-      + [使用狀況](../guided-analysis/types/usage.md)
+      + [使用情況檢視](../guided-analysis/types/usage.md)
    + [產業使用案例](../guided-analysis/industry-use-cases.md)
    + [常見問題](../guided-analysis/faq.md)
 
