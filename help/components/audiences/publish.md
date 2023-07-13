@@ -3,10 +3,10 @@ title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 63%
+source-wordcount: '1576'
+ht-degree: 61%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 63%
 
    請先配置設定，然後才能發佈對象。
 
-   ![](assets/create-audience.png)
+   ![如何建立受眾的熒幕擷圖](assets/create-audience.png)
 
    | 設定 | 說明 |
    | --- | --- |
@@ -52,7 +52,7 @@ ht-degree: 63%
 
    對象預覽會顯示在右側邊欄中。它允許對您建立的對象進行摘要分析。
 
-   ![](assets/data-preview.png)
+   ![資料預覽的熒幕擷圖](assets/data-preview.png)
 
    | 預覽設定 | 說明 |
    | --- | --- |
@@ -85,7 +85,7 @@ ht-degree: 63%
 
 對象發佈之前、期間和之後的數個時間點，可能會發生延遲。 以下是可能的延遲的概觀。
 
-![從Adobe Experience Platform到Customer Journey Analytics的延遲](assets/latency-diagram.png)
+![對象發佈的延遲，如所述 [延遲考量事項](#latency-considerations)](assets/latency-diagram.png)
 
 | # | 延遲點 | 延遲期間 |
 | --- | --- | --- |
@@ -102,7 +102,7 @@ ht-degree: 63%
 
 Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流到即時客戶個人檔案(RTCP)中。 Customer Journey Analytics會根據選取的作為，將受眾傳送至已設定主要身分的Experience Platform [!UICONTROL 個人ID] 設定連線時。
 
-接著 RTCP 會檢查每個命名空間/ID 組合，並尋找它可能屬於的個人檔案。個人檔案基本上是一組連結的命名空間、ID 和裝置。如果找到個人檔案，則會將命名空間和 ID 新增到此個人檔案中的其他 ID，做為區段會籍屬性。例如，現在可以跨所有裝置和頻道以「user@adobe.com」做為目標。如果找不到個人檔案，則會建立一個新的。
+接著 RTCP 會檢查每個命名空間/ID 組合，並尋找它可能屬於的個人檔案。個人檔案基本上是一組連結的命名空間、ID 和裝置。如果找到個人檔案，則會將命名空間和 ID 新增到此個人檔案中的其他 ID，做為區段會籍屬性。例如，現在， <user@adobe.com> 可以跨其所有裝置和管道進行定位。 如果找不到個人檔案，則會建立一個新的。
 
 您可以在Platform中檢視Customer Journey Analytics對象，方法是前往 **[!UICONTROL 區段]** > **[!UICONTROL 建立區段]** > **[!UICONTROL 受眾]** 標籤> **[!UICONTROL CJA對象]**.
 

@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 66%
+source-wordcount: '1649'
+ht-degree: 65%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 66%
 
 分析客戶歷程的傳統方式有一個常見障礙，也就是並非以客戶為中心。每個團隊都獨立收集資料，根據他們有權存取的資料分析體驗並將其最佳化。
 
-![傳統的 BI 工作流程](./assets/biworkflow.png)
+![傳統BI工作流程，如本節所述](./assets/biworkflow.png)
 
 如果您想了解特定的數位行銷活動如何影響儲存在不同資料孤島中的離線操作，您可以向 BI 團隊的佇列發出請求。BI 團隊會編寫所需的查詢來獲取和轉換資料。擷取到原始資料後，BI 團隊會建立視覺效果。會和您共享資料，然後您再花時間徹底調查這些深入分析並擷取資料以在其他系統中啟動。
 
@@ -34,7 +34,7 @@ ht-degree: 66%
 
 Customer Journey Analytics提供的環境可在總體客戶層級連線線上和離線跨管道資料，其唯一目的是瞭解客戶歷程。 它確實需要初始設定來[連接](/help/connections/overview.md)和[定義](/help/data-views/data-views.md)您認為相關的資料的檢視。但是完成後，這些資料就可以隨時用於正在進行的分析和探索。您可以逐步深入了解客戶歷程。透過將合併的線上和離線資料大眾化，您在幾秒鐘內就能回答和客戶歷程相關的問題。
 
-![Customer Journey Analytics工作流程](./assets/cjaworkflow.png)
+![Customer Journey Analytics工作流程，如本節所述](./assets/cjaworkflow.png)
 
 您可以使用Customer Journey Analytics透過視覺化Analysis Workspace環境提出問題，並幾乎立即獲得見解。 可立即取得跨管道資料和報表，且無需 SQL 程式碼。只需在 UI 中進行簡單的拖放操作即可完成其他查詢和分析，並提供完全相關的資料。您可以繼續提問，根據需要以漸進的方式探索更多詳細資訊。然後，您可以根據所發現的深入分析立即採取行動，例如與他人共用對象以進行啟動和協調流程。
 
