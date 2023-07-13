@@ -4,10 +4,10 @@ description: 從整個客戶歷程的客戶互動中，分析及擷取見解。
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: 73496ea3c8341d9db7e879a4f5ae4f35893c605d
+source-git-commit: 75f27ef2f5fcd0d2a2038dbe7bcf812e865a14fc
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 63%
+source-wordcount: '531'
+ht-degree: 61%
 
 ---
 
@@ -15,11 +15,9 @@ ht-degree: 63%
 
 跨管道分析可透過統一來自各種Web、行動和離線屬性的資料，啟用跨不同管道的客戶行為的單一整合檢視。 例如，您可以使用此整合檢視來分析跨桌面和行動裝置的客戶互動，以了解客戶行為並提取洞察以最佳化數位客戶體驗。您還可以分析跨管道的客戶互動，包括數位和離線管道，例如支援互動和店內購買，以更好地了解和最佳化客戶旅程。
 
-## 工作流程
-
-![跨管道架構](../assets/cca-architecture.png)
-
 ## 實施步驟
+
+![實作步驟流程的圖例，如所述 [實作步驟](#implementation-steps)](../assets/cca-architecture.png)
 
 1. 為要擷取的資料[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
 1. 為要擷取的資料[建立資料集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)。
