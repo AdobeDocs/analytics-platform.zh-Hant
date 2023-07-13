@@ -1,9 +1,9 @@
 ---
 title: 產業使用案例
 description: 引導式分析的產業使用案例
-source-git-commit: 9311157c8aa8bab8627e3fdf3e989a0302d29f32
+source-git-commit: 704018bd9d0dae97e0f9c40c36d0618e9f15de76
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1442'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 2%
 
 {style="table-layout:auto"}
 
+![零售業的摩擦檢視](assets/retail-funnel-friction.png)
+
+![零售的使用情況檢視](assets/retail-trends-usage.png)
+
 +++
 
 +++**金融服務**
@@ -35,6 +39,14 @@ ht-degree: 2%
 | **推薦新功能** | 數位提取已逐漸減少，以代替致電財務顧問。 我們想要最佳化數位流程，而資料趨勢可協助我們透過指導委員會來安排最佳化的優先順序。 | **建立資料導向藍圖。** 運用資料來規劃及實作最佳化。 | [使用趨勢檢視](types/usage.md) |
 
 {style="table-layout:auto"}
+
+![金融服務的摩擦檢視](assets/fsi-funnel-friction.png)
+
+![金融服務的使用情況檢視](assets/fsi-trends-usage.png)
+
+![金融服務的作用中檢視](assets/fsi-user-growth-active.png)
+
+![金融服務的替代作用中檢視](assets/fsi-user-growth-active-2.png)
 
 +++
 
@@ -49,6 +61,10 @@ ht-degree: 2%
 
 {style="table-layout:auto"}
 
+![旅遊和酒店業的摩擦檢視](assets/th-funnel-friction.png)
+
+![旅遊業和旅館業的使用情況檢視](assets/th-trends-usage.png)
+
 +++
 
 +++**媒體和娛樂**
@@ -61,6 +77,10 @@ ht-degree: 2%
 | **轉移客服中心電話** | 我發現我們的自動轉帳功能無法運作的問題，導致受挫客戶致電我們的支援中心取消他們的計畫。 | **減少支援電話。** 建立更好的客戶體驗，並減少致電客戶服務。 | [摩擦檢視](types/friction.md) <p/><p/> [轉換趨勢檢視](types/conversion-trends.md) |
 
 {style="table-layout:auto"}
+
+![媒體和娛樂的摩擦檢視](assets/me-funnel-friction.png)
+
+![使用中檢視媒體與娛樂](assets/me-user-growth-active.png)
 
 +++
 
@@ -75,6 +95,8 @@ ht-degree: 2%
 
 {style="table-layout:auto"}
 
+![醫療保健的摩擦檢視](assets/healthcare-funnel-friction.png)
+
 +++
 
 +++**高科技與B2B**
@@ -87,5 +109,7 @@ ht-degree: 2%
 | **解鎖自助分析** | 嘗試獲得深入見解很具挑戰性，我們的使用者沒有接受分析培訓。 他們需要能夠取得解答，並駕馭整個組織所使用的相同資料，進而建立更穩固的合作關係，並促成真正的資料導向式決策。 | **建立跨組織的更緊密合作關係。** 讓產品經理存取先前隔絕的資料。 | [引導式分析](overview.md) |
 
 {style="table-layout:auto"}
+
+![B2B的使用情況檢視](assets/b2b-trends-usage.png)
 
 +++
