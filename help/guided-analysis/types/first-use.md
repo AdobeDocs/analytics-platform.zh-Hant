@@ -2,10 +2,10 @@
 title: 首次使用檢視
 description: 衡量首次功能使用對關鍵指標的影響.
 feature: Guided Analysis
-source-git-commit: aca4a5091c65d7243f79551be7cee615ba98bb26
+source-git-commit: 9fa4b894e69a25b26632a93f00a655eec8e8aa86
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 8%
+source-wordcount: '417'
+ht-degree: 5%
 
 ---
 
@@ -24,25 +24,26 @@ ht-degree: 8%
 * **新功能分析**：如果您要在產品中啟動新功能，您可以比較使用者首次使用該新功能之前和之後的關鍵指標執行方式。
 * **行銷活動有效性**：當使用者檢視指定的行銷活動時，您可以比較使用者檢視或與該行銷活動互動之前和之後關鍵指標的執行方式。
 
-<!--
-## Query rail
+## 查詢邊欄
 
-The query rail allows you to configure the following components:
+查詢邊欄可讓您設定下列元件：
 
-* **Key indicators**: The events that you want to measure per user. Each selected key indicator is represented as a colored line. A row representing the event is added to the table. You can include up to three events.
-* **Factors**: The date that you want to compare before and after.
-* **People**: The segment that you want to measure. The selected segment filters your data to focus only on the individuals who match your segment criteria.
+* **關鍵指標**：您要為每個使用者測量的事件。 每個選取的關鍵指標都會以彩色線條表示。 表格中會新增代表事件的列。 您最多可以包含三個事件。
+* **因素**：此檢視有兩個因素：
+   * **日期**：您要尋找第一次接觸事件的歷史距離。
+   * **事件**：您要比較其接觸前後的事件。
+* **人員**：您要測量的區段。 選取的區段會篩選您的資料，以僅聚焦於符合區段條件的個人。
 
-## Chart settings
+## 圖表設定
 
-The Release view offers the following chart settings, which can be adjusted in the menu above the chart:
+首次使用檢視提供下列圖表設定，您可在圖表上方的功能表中調整這些設定：
 
-* **Metric**: The metric that you want to measure. Options include [!UICONTROL Events per user], [!UICONTROL Percentage of users], [!UICONTROL Events], [!UICONTROL Sessions], and [!UICONTROL Users].
-* **Chart type**: The type of visualization that you want to use. Options include Line.
+* **量度**：您要測量的量度。 選項包括 [!UICONTROL 每位使用者的事件]， [!UICONTROL 事件]， [!UICONTROL 工作階段]、和 [!UICONTROL 使用者].
+* **圖表型別**：您要使用的視覺效果型別。 選項包括Line。
 
-## Date range
+## 日期範圍
 
-Date selection in impact reports operate differently than other analysis types, since the report revolves around the date specified in the query rail. The following options are available:
+影響報表中的日期選取與其他分析型別的運作方式不同，因為報表會以首次接觸的指定事件為中心（在查詢邊欄中指定）。 提供下列選項：
 
-* **Interval**: The date granularity that you want to view trended data by. Valid options include [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly], and [!UICONTROL Quarterly]. Changing the interval affects the options available for the Before and after period.
-* **Before and after period**: The amount of time to analyze before and after the date specified in the query rail. Available options depend on the [!UICONTROL Interval] selection. -->
+* **間隔**：您要用來檢視趨勢資料的日期詳細程度。 有效選項包括 [!UICONTROL 每日]， [!UICONTROL 每週]， [!UICONTROL 每月]、和 [!UICONTROL 每季]. 變更間隔會影響「之前」和「之後」時段可用的選項。
+* **時段之前和之後**：要在查詢邊欄中指定的接觸事件之前和之後分析的時間量。 可用選項取決於 [!UICONTROL 間隔] 選取。
