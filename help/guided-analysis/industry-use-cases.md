@@ -1,9 +1,9 @@
 ---
 title: 產業使用案例
 description: 引導式分析的產業使用案例
-source-git-commit: 704018bd9d0dae97e0f9c40c36d0618e9f15de76
+source-git-commit: 4a82681f0523e0a9cba23da98f42f9dd6210b414
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
@@ -65,6 +65,8 @@ ht-degree: 2%
 
 ![旅遊業和旅館業的使用情況檢視](assets/th-trends-usage.png)
 
+![旅遊業和旅館業的轉換趨勢](assets/th-funnel-conversio-trends.png)
+
 +++
 
 +++**媒體和娛樂**
@@ -81,6 +83,8 @@ ht-degree: 2%
 ![媒體和娛樂的摩擦檢視](assets/me-funnel-friction.png)
 
 ![使用中檢視媒體與娛樂](assets/me-user-growth-active.png)
+
+![](assets/me-trends-usage.png)
 
 +++
 
