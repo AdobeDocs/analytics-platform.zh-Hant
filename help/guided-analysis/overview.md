@@ -3,10 +3,10 @@ title: 引導式分析概述
 description: 分析Customer Journey Analytics中資料的方法，可讓產品團隊快速獲得高品質的深入分析。
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: cc76b4c3b03647f6e90f0b57f4d8c819caa8823f
+source-git-commit: bdde5e7798ee3c960006d47dc31947d2e1a74a5f
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 9%
+source-wordcount: '1048'
+ht-degree: 8%
 
 ---
 
@@ -24,23 +24,27 @@ ht-degree: 9%
 
 | 分析類型 | 檢視類型 | 說明 |
 | --- | --- | --- |
-| 影響 | [版本](types/release.md) | 比較發佈前和發佈後同期的績效. |
-| 影響 | [首次使用](types/first-use.md) | 衡量首次功能使用對關鍵指標的影響. |
-| 漏斗 | [摩擦](types/friction.md) | 比較步驟之間的轉換率. |
-| 漏斗 | [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化. |
-| 使用者增長 | [作用中](types/active.md) | 識別哪些人是新的、保留的、回訪的或非活躍的使用者. |
-| 使用者增長 | [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
-| 趨勢 | [使用狀況](types/usage.md) | 測量使用者在一段時間內的參與度. |
+| [!UICONTROL 影響] | [版本](types/release.md) | 比較發佈前和發佈後同期的績效. |
+| [!UICONTROL 影響] | [首次使用](types/first-use.md) | 衡量首次功能使用對關鍵指標的影響. |
+| [!UICONTROL 漏斗] | [摩擦](types/friction.md) | 比較步驟之間的轉換率. |
+| [!UICONTROL 漏斗] | [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化. |
+| [!UICONTROL 使用者增長] | [作用中](types/active.md) | 識別哪些人是新的、保留的、回訪的或非活躍的使用者. |
+| [!UICONTROL 淨增長] | [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
+| [!UICONTROL 趨勢] | [使用狀況](types/usage.md) | 測量使用者在一段時間內的參與度. |
 
 {style="table-layout:auto"}
 
 ## 存取
 
-如果您的組織已針對引導式分析進行布建，則可從Customer Journey Analytics首頁存取該組織。
+如果您的組織已針對引導式分析進行布建，您可以從Customer Journey Analytics首頁存取它。
 
-按一下 **引導式分析** 從首頁直接跳至 [使用趨勢檢視](types/usage.md).
+1. 按一下 **[!UICONTROL 引導式分析]** 從首頁直接跳至 [使用趨勢檢視](types/usage.md).
 
-按一下 **新建** 檢視不同的檢視選項，並選擇不同的起點進行分析。
+   ![建立新的強制回應視窗](assets/create-new-modal.png)
+
+1. 按一下 **[!UICONTROL 新建]** 檢視不同的檢視選項，並選擇不同的起點進行分析。
+
+   ![登陸頁面動態磚](assets/landing-page-tile.png)
 
 ## 介面
 
