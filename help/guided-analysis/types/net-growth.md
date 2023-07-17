@@ -2,7 +2,7 @@
 title: 淨成長檢視
 description: 您正在獲得還是失去使用者?
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -10,8 +10,6 @@ ht-degree: 1%
 ---
 
 # 淨成長檢視
-
-{{release-limited-testing}}
 
 此 **淨增長** 「檢視型別」可讓您深入瞭解特定期間內，使用者增減的速率。 水平軸是時間間隔，垂直軸是增長的測量值。
 

@@ -2,7 +2,7 @@
 title: 版本檢視
 description: 比較發佈前和發佈後同期的績效.
 feature: Guided Analysis
-source-git-commit: a635c43c129ea45b270e304f4310b95124709b2a
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%
@@ -10,8 +10,6 @@ ht-degree: 4%
 ---
 
 # 版本檢視
-
-{{release-limited-testing}}
 
 此 **版本** 檢視會顯示指定日期之前和之後關鍵指標執行方式的比較。 此報表的水平軸是時間間隔，而垂直軸則測量所需的索引鍵。 圖表中央的垂直長條代表您要比較之前和之後的日期。 此日期通常表示您要測量的產品有顯著變更，例如產品更新或行銷活動啟動。
 

@@ -2,7 +2,7 @@
 title: 首次使用檢視
 description: 衡量首次功能使用對關鍵指標的影響.
 feature: Guided Analysis
-source-git-commit: 4d642c150f04ed4780820036cfd53fc343fc94c8
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 3%
@@ -10,8 +10,6 @@ ht-degree: 3%
 ---
 
 # 首次使用檢視
-
-{{release-limited-testing}}
 
 此 **首次使用** 檢視會顯示使用者第一次使用產品功能之前和之後關鍵指標的執行方式比較。 此報表的水平軸是事件之前和之後的相對時間間隔，垂直軸則測量所需的索引鍵。 圖表中央的垂直長條代表指定使用者首次使用功能時的第0天。 由於使用者並不一定會在同一天採用功能，而且您的轉出可能會持續數天，因此「第0天」對每個使用者將代表不同的意義。
 

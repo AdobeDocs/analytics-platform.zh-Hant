@@ -2,7 +2,7 @@
 title: 轉換趨勢檢視
 description: 追蹤轉換率在一段時間內的變化。
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -10,8 +10,6 @@ ht-degree: 2%
 ---
 
 # 轉換趨勢檢視
-
-{{release-limited-testing}}
 
 此 **轉換趨勢** 「檢視」可提供轉換率隨時間變化的趨勢視覺效果。 水平軸是時間間隔，垂直軸則代表轉換率。
 

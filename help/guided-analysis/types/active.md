@@ -3,7 +3,7 @@ title: 使用中檢視
 description: 識別哪些人是新的、保留的、回訪的或非活躍的使用者.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 3%
@@ -11,8 +11,6 @@ ht-degree: 3%
 ---
 
 # 使用中檢視
-
-{{release-limited-testing}}
 
 此 **作用中** 「檢視」可提供特定期間使用者成長與贏取的相關分析。 水平軸是時間間隔，而垂直軸是使用者的測量值。 使用者分為四個類別：
 

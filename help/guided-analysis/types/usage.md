@@ -3,7 +3,7 @@ title: 使用情況檢視
 description: 測量使用者在一段時間內的參與度.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 7fd1a37a2e1942b27e43f5cdaa4a46ae652fd4aa
+source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 3%
@@ -11,8 +11,6 @@ ht-degree: 3%
 ---
 
 # 使用情況檢視
-
-{{release-limited-testing}}
 
 此 **使用狀況** 「檢視」可針對您的產品效能或使用者在一段時間內的行為，提供有價值的深入分析。 此報表的水平軸是時間間隔，垂直軸則測量您想要的事件。
 
