@@ -1,8 +1,8 @@
 ---
-source-git-commit: 89665490fb3b03a9d9578d22e0e9ed62415c66be
+source-git-commit: 497334bdd0324e5b3955be79029079af88ca56e2
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 68%
+source-wordcount: '1092'
+ht-degree: 66%
 
 ---
 # 程式碼片段
@@ -18,6 +18,13 @@ ht-degree: 68%
 >[!AVAILABILITY]
 >
 >本區段中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。此功能開放使用時，便會刪除此備註。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).
+
+## 選取封裝 {#select-package}
+
+>[!NOTE]
+>
+>您必須擁有 **選取** 封裝以使用本文所述功能。 如果您不確定擁有哪些Customer Journey Analytics套件，請聯絡管理員。
+
 
 ## 資料字典篩選條件 {#dd-filter-criteria}
 
