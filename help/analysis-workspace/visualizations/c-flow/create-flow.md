@@ -4,9 +4,9 @@ title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 4e5a186aa39ae7c56ff29e1523a4092546092789
+source-git-commit: f97572025d07d56d1fd699074228abe5d2a7b8a1
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1487'
 ht-degree: 62%
 
 ---
@@ -21,13 +21,11 @@ ht-degree: 62%
 
 ## 建立流量視覺效果 {#configure}
 
-1. 新增空白面板至您的專案，然後按一下左側欄中的視覺效果圖示。
-
-1. 拖曳 [!UICONTROL **流量**] 視覺效果放入面板。
+1. 在專案中新增空白面板，選取左側欄中的「視覺效果」圖示，然後拖曳 [!UICONTROL **流量**] 視覺效果放入面板。
 
    或
 
-   拖曳 [!UICONTROL **流量**] 視覺化呈現在現有專案中。
+   以下列「將視覺效果新增至面板」一節中所述的任何方式新增視覺效果： [視覺效果概觀](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. 使用以下其中一個選項錨定流量視覺效果：
 
@@ -45,7 +43,7 @@ ht-degree: 62%
    >
    >計算量度無法用於  **[!UICONTROL 開頭為]** 或 **[!UICONTROL 結尾為]** 欄位。
 
-1. 如果您選擇量度，則還需要提供 [!UICONTROL 路徑Dimension] 以使用作為前往或離開您所選元件的路徑，如下所示。 預設為&#x200B;[!UICONTROL **「頁面」**]。
+1. 如果您選擇量度，則還需要提供 [!UICONTROL **路徑Dimension**] ，以用作前往或離開您所選元件的路徑，如下所示。 預設為&#x200B;[!UICONTROL **「頁面」**]。
 
    ![路徑分析維度](assets/pathing-dim.png)
 
