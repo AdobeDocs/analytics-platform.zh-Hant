@@ -2,16 +2,16 @@
 title: 淨成長檢視
 description: 您正在獲得還是失去使用者?
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
-# 淨成長檢視
+# [!UICONTROL 淨增長] 檢視
 
-此 **淨增長** 「檢視型別」可讓您深入瞭解特定期間內，使用者增減的速率。 水平軸是時間間隔，垂直軸是增長的測量值。
+此 **[!UICONTROL 淨增長]** 「檢視型別」可讓您深入瞭解特定期間內，使用者增減的速率。 水平軸是時間間隔，垂直軸是增長的測量值。
 
 每個資料點代表淨增長，其計算公式如下：
 
@@ -29,9 +29,7 @@ ht-degree: 1%
 >
 >重複使用者不會納入此計算中，因為它們不代表任何使用者收益或損失。
 
-![淨增長](../assets/net-growth.png)
-
-## 請參閱淨成長檢視的實際運作情況
+請參閱 [!UICONTROL 淨增長] 檢視使用中：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 

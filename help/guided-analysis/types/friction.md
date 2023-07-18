@@ -3,20 +3,18 @@ title: 摩擦檢視
 description: 比較步驟之間的轉換率.
 exl-id: f0ba3f00-bf1f-48db-8b6e-137460abf4f8
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
-# 摩擦檢視
+# [!UICONTROL 摩擦] 檢視
 
-此 **摩擦** 檢視以視覺化方式呈現產品中的關鍵使用者歷程。 水平軸代表使用者必須通過的每個步驟。 垂直軸代表每個步驟的使用者或工作階段百分比。 所有步驟必須以最終順序完成，但可以在報告期間的任何時間發生。
+此 **[!UICONTROL 摩擦]** 檢視以視覺化方式呈現產品中的關鍵使用者歷程。 水平軸代表使用者必須通過的每個步驟。 垂直軸代表每個步驟的使用者或工作階段百分比。 所有步驟必須以最終順序完成，但可以在報告期間的任何時間發生。
 
-![摩擦](../assets/friction.png)
-
-## 請參閱實際動作中的摩擦檢視
+請參閱 [!UICONTROL 摩擦] 檢視使用中：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421663/?learn=on)
 

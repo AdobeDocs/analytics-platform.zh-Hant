@@ -3,10 +3,10 @@ title: 使用情況檢視
 description: 測量使用者在一段時間內的參與度.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
-source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
+source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -14,9 +14,7 @@ ht-degree: 3%
 
 此 **[!UICONTROL 使用狀況]** 「檢視」可針對您的產品效能或使用者在一段時間內的行為，提供有價值的深入分析。 此報表的水平軸是時間間隔，垂直軸則測量您想要的事件。
 
-![使用狀況](../assets/usage.png)
-
-## 另請參閱 [!UICONTROL 使用狀況] 在動作中檢視
+請參閱 [!UICONTROL 使用狀況] 檢視使用中：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421666/?learn=on)
 
