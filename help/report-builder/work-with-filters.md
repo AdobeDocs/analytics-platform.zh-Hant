@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 8b0a4b06a2ebed196bab37e9befb61e0bf0f8902
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 97%
+source-wordcount: '750'
+ht-degree: 68%
 
 ---
 
@@ -90,3 +90,47 @@ ht-degree: 97%
 1. 按一下&#x200B;**「套用」**。
 
    Report Builder 會更新篩選器清單，以反映取代結果。
+
+### 從儲存格定義資料區塊篩選器
+
+資料區塊可參考儲存格中的篩選器。 多個資料區塊可參考用於篩選的相同儲存格，讓您一次輕鬆切換多個資料區塊的篩選器。
+
+若要從儲存格套用篩選器
+
+1. 導覽至資料區塊建立或編輯程式中的步驟2。 另請參閱 [建立資料區塊](./create-a-data-block.md).
+1. 按一下 **篩選器** 標籤以定義篩選器。
+1. 按一下 **從儲存格建立篩選器**.
+
+   ![](./assets/create-filter-from-cell.png)
+
+1. 選取您要資料區塊參照篩選器的儲存格。
+
+1. 連按兩下篩選器，或將篩選器拖放至「已包含篩選器」區段，即可新增您要新增至儲存格的篩選器選擇。
+
+   注意：一次只能為指定的儲存格選取一個選項。
+
+   ![](./assets/select-filters.png)
+
+1. 按一下 **套用** 以建立參照儲存格。
+
+1. 從 **篩選器** 索引標籤中，將新建立的參考儲存格篩選器新增至您的資料區塊。
+
+   ![](./assets/reference-cell-filter.png)
+
+1. 按一下&#x200B;**「完成」**。
+
+   現在，此儲存格可供其篩選器中的其他資料區塊參考。 若要將參考儲存格作為篩選器套用至其他資料區塊，只需從篩選器索引標籤將儲存格參考新增至其篩選器即可。
+
+#### 使用參考儲存格來變更資料區塊篩選器
+
+1. 選取試算表中的參考儲存格。
+
+1. 按一下底下的連結 **來自儲存格的篩選器** 在「快速編輯」選單中。
+
+   ![](./assets/filters-from-cell-link.png)
+
+1. 從下拉式選單中選取您的篩選器。
+
+   ![](./assets/filter-drop-down.png)
+
+1. 按一下&#x200B;**套用**。

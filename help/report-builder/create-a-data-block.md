@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: f09dffe3d134c423b69f6ca75337f3aca3f51410
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 97%
+source-wordcount: '552'
+ht-degree: 82%
 
 ---
 
@@ -70,6 +70,24 @@ ht-degree: 97%
    當您將元件加入表格時，工作表中的「資料區塊」位置會顯示資料區塊的預覽。資料區塊預覽的版面配置會隨著您新增、移動或移除表格中的項目而自動更新。
 
    ![](./assets/image10.png)
+
+   **顯示或隱藏列與欄標題**
+
+1. 按一下Report Builder中樞中的「編輯資料區塊」指令。
+
+1. 按一下 **表格** 設定圖示。
+
+   ![預留位置影像](./assets/table-settings.png){width="35%"}
+
+1. 核取或取消核取顯示列與欄標題的選項。 預設會顯示標題。
+
+   **隱藏或顯示維度標籤和量度標題**
+
+1. 按一下維度或欄標題上的省略符號圖示以顯示設定。
+
+   ![預留位置影像](./assets/row-heading.png){width="35%"}
+
+1. 按一下隱藏或顯示，切換維度標籤或欄標題。 預設會顯示所有標籤。
 
 1. 按一下「**完成**」。
 
