@@ -2,18 +2,16 @@
 title: 版本檢視
 description: 比較發佈前和發佈後同期的績效.
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 3%
+source-wordcount: '474'
+ht-degree: 4%
 
 ---
 
 # [!UICONTROL 版本] 檢視
 
 此 **[!UICONTROL 版本]** 檢視會顯示指定日期之前和之後關鍵指標執行方式的比較。 此報表的水平軸是時間間隔，而垂直軸則測量所需的索引鍵。 圖表中央的垂直長條代表您要比較之前和之後的日期。 此日期通常表示您要測量的產品有顯著變更，例如產品更新或行銷活動啟動。
-
-請參閱 [!UICONTROL 版本] 檢視使用中：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421665/?learn=on)
 

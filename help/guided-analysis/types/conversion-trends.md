@@ -2,18 +2,16 @@
 title: 轉換趨勢檢視
 description: 追蹤轉換率在一段時間內的變化。
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 1%
+source-wordcount: '446'
+ht-degree: 2%
 
 ---
 
 # 轉換趨勢檢視
 
 此 **轉換趨勢** 「檢視」可提供轉換率隨時間變化的趨勢視覺效果。 水平軸是時間間隔，垂直軸則代表轉換率。
-
-請參閱 [!UICONTROL 轉換趨勢] 在動作中檢視
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?learn=on)
 

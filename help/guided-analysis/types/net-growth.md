@@ -2,9 +2,9 @@
 title: 淨成長檢視
 description: 您正在獲得還是失去使用者?
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '616'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 >重複使用者不會納入此計算中，因為它們不代表任何使用者收益或損失。
-
-請參閱 [!UICONTROL 淨增長] 檢視使用中：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421664/?learn=on)
 

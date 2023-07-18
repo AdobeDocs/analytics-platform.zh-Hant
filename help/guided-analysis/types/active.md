@@ -3,9 +3,9 @@ title: 使用中檢視
 description: 識別哪些人是新的、保留的、回訪的或非活躍的使用者.
 exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
 feature: Guided Analysis
-source-git-commit: 4121c199e4a5050d84f57c69d7fb1d7b05007fcd
+source-git-commit: 4cae5968e2ae1b6048522b9eb065d4b6e2272938
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '595'
 ht-degree: 2%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 2%
 * **[!UICONTROL 休眠]**：使用者在上一個時段處於活動狀態，但在目前時段未處於活動狀態。 休眠使用者不會計入作用中使用者總數。
 
 所有作用中使用者（新+重複+返回）在水平軸上方顯示為藍綠色，而所有休眠使用者在水平軸下方顯示為橙色。
-
-請參閱 [!UICONTROL 作用中] 檢視使用中：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421667/?learn=on)
 
