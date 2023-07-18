@@ -1,9 +1,9 @@
 ---
 title: 產業使用案例
 description: 引導式分析的產業使用案例
-source-git-commit: 4a82681f0523e0a9cba23da98f42f9dd6210b414
+source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1442'
 ht-degree: 2%
 
 ---
@@ -46,8 +46,6 @@ ht-degree: 2%
 
 ![金融服務的作用中檢視](assets/fsi-user-growth-active.png)
 
-![金融服務的替代作用中檢視](assets/fsi-user-growth-active-2.png)
-
 +++
 
 +++**旅遊業及旅館業**
@@ -65,7 +63,7 @@ ht-degree: 2%
 
 ![旅遊業和旅館業的使用情況檢視](assets/th-trends-usage.png)
 
-![旅遊業和旅館業的轉換趨勢](assets/th-funnel-conversio-trends.png)
+![旅遊業和旅館業的轉換趨勢](assets/th-funnel-conversion-trends.png)
 
 +++
 

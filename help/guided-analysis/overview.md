@@ -3,7 +3,7 @@ title: 引導式分析概述
 description: 分析Customer Journey Analytics中資料的方法，可讓產品團隊快速獲得高品質的深入分析。
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 2b1e0ce53016634e0cb32f9256fa48e02f2a5323
+source-git-commit: 9f176bc6bc12291dcdab80af50c32df7d8edf220
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 8%
@@ -13,6 +13,8 @@ ht-degree: 8%
 # 引導式分析概述
 
 引導式分析是一種報告格式，可讓產品團隊快速自助滿足其資料需求，以便他們可以快速獲得高品質的深入分析，並做出更多資料導向的產品決策。 跨職能團隊可以即時連線，以使用和瞭解這些報表。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3421621/)
 
 引導式分析報表類似於Analysis Workspace和行動計分卡，使用來自 [資料檢視](../data-views/data-views.md)，會透過參照Adobe Experience Platform中的資料 [連線](../connections/overview.md). 在「引導式分析」中建立的所有報表均可順暢地傳輸至Analysis Workspace以供進一步研究。
 
