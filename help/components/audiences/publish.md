@@ -3,7 +3,7 @@ title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
+source-git-commit: 0b68281df23ef4d2e6c1f7dacf9f58c40604e7ca
 workflow-type: tm+mt
 source-wordcount: '1576'
 ht-degree: 61%
@@ -85,7 +85,7 @@ ht-degree: 61%
 
 對象發佈之前、期間和之後的數個時間點，可能會發生延遲。 以下是可能的延遲的概觀。
 
-![對象發佈的延遲，如所述 [延遲考量事項](#latency-considerations)](assets/latency-diagram.png)
+![對象發佈的延遲，如本節所述。](assets/latency-diagram.png)
 
 | # | 延遲點 | 延遲期間 |
 | --- | --- | --- |
