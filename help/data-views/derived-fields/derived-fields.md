@@ -4,11 +4,11 @@ description: 衍生欄位會透過一組可用的函式和函式範本，指定�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-badgeDerivedFields: label="New Feature" type="Positive"
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+badgeDerivedFields: label="新功能" type="Positive"
+source-git-commit: 33ed28de1c410bcba04ab405ce8d779a501f4b3f
 workflow-type: tm+mt
-source-wordcount: '3281'
-ht-degree: 8%
+source-wordcount: '4350'
+ht-degree: 15%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 當您建立或編輯衍生欄位時，請使用衍生欄位介面。
 
-![衍生欄位對話方塊](assets/derived-field-dialog.png)
+![衍生欄位對話方塊的熒幕擷圖](assets/derived-field-dialog.png)
 
 
 |  | 名稱 | 說明 |
@@ -56,7 +56,7 @@ ht-degree: 8%
 
 在規則產生器中定義規則時，會使用規則介面。
 
-![規則介面](assets/rule-interface.png)
+![衍生欄位規則介面的熒幕擷圖](assets/rule-interface.png)
 
 |  | 名稱 | 說明 |
 |---------|----------|--------|
@@ -139,7 +139,7 @@ ht-degree: 8%
 
 若要使用範本，您必須為範本規則中列出的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
 
-![行銷管道範本規則產生器](assets/marketing-channel-template.png)
+![行銷管道範本規則產生器的熒幕擷圖](assets/marketing-channel-template.png)
 
 +++
 
@@ -177,7 +177,7 @@ ht-degree: 8%
 
 ### 串連
 
-將兩個或多個欄位、衍生欄位或使用者輸入的值結合至具有已定義分隔字元的單一欄位。
+使用定義的分隔符號將欄位值結合到單一新衍生欄位中。
 
 +++ 詳細資料
 
@@ -185,7 +185,7 @@ ht-degree: 8%
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <p>字串</p> | <ul><li>針對每個 [!UICONTROL 值]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>使用者輸入的輸入</li></ul></li><li>針對每個 [!UICONTROL 分隔符號]：<ul><li>使用者輸入的輸入</li></ul></li> </ul> | <p>不適用</p> | <p>每個衍生欄位2個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 值]:<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul></li><li>[!UICONTROL 分隔字元]:<ul><li>字串</li></ul></li> </ul> | <p>不適用</p> | <p>每個衍生欄位2個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -235,7 +235,7 @@ ht-degree: 8%
 
 您定義新的 [!UICONTROL 來源 — 目的地] 衍生欄位。 您使用 [!UICONTROL 串連] 定義規則以串連 [!UICONTROL 原始] 和 [!UICONTROL 目的地] 欄位使用 `-` [!UICONTROL 分隔符號].
 
-![串連規則](assets/concatenate.png)
+![串連規則的熒幕擷圖](assets/concatenate.png)
 
 ### 之後的資料 {#concatenate-dataafter}
 
@@ -263,7 +263,7 @@ ht-degree: 8%
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>針對每個 [!UICONTROL 若]， [!UICONTROL Else If] 容器：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 條件] （根據選取的值型別，請參閱包含的運運算元）</li></ul></li><li>針對每個 [!UICONTROL 然後將值設定為]， [!UICONTROL 否則將值設為]：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul></li></ul> | <p>字串</p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>以任何字詞開頭</li><li>終止於</li><li>以任何字詞結尾</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>開頭不是任何詞語</li><li>不終止於</li><li>結尾不是任何字詞</li><li>已設定</li><li>未設定</li></ul><p>數值</p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p>日期</p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>早於</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <ul><li>每個衍生欄位5個函式</li><li>每個衍生欄位200個運運算元。 「反向連結網域包含google」是單一運運算元的範例。 </li></ul> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 若]， [!UICONTROL Else If] 容器：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 條件] （根據選取的值型別，請參閱包含的運運算元）</li></ul></li><li>[!UICONTROL 然後將值設定為]， [!UICONTROL 否則將值設為]：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul></li></ul> | <p>字串</p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>以任何字詞開頭</li><li>終止於</li><li>以任何字詞結尾</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>開頭不是任何詞語</li><li>不終止於</li><li>結尾不是任何字詞</li><li>已設定</li><li>未設定</li></ul><p>數值</p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p>日期</p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>早於</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <ul><li>每個衍生欄位5個函式</li><li>每個衍生欄位200個運運算元。 「反向連結網域包含google」是單一運運算元的範例。 </li></ul> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -311,7 +311,7 @@ ht-degree: 8%
 
 記下函式的使用情況 [!UICONTROL url剖析] 定義規則以擷取值 `Page Url` 和 `Referring Url` 早於 [!UICONTROL 案例時間] 規則已套用。
 
-![規則1時的大小寫](assets/case-when-1.png)
+![規則1時案例的熒幕擷圖](assets/case-when-1.png)
 
 ### 之後的資料 {#casewhen-uc1-dataafter}
 
@@ -365,7 +365,7 @@ ht-degree: 8%
 
 您定義 `Product Finding Methods (new)` 衍生欄位。 您建立下列專案 [!UICONTROL 案例時間] 規則產生器中的規則。 這些規則會將邏輯套用至舊版的所有可能變體 [!UICONTROL 產品尋找方法] 的欄位值 `search` 和 `browse` 使用 [!UICONTROL 包含片語] 條件。
 
-![規則2時的案例](assets/case-when-2.png)
+![規則2時案例的熒幕擷圖](assets/case-when-2.png)
 
 ### 之後的資料 {#casewhen-uc2-dataafter}
 
@@ -438,7 +438,7 @@ ht-degree: 8%
 
 您定義 `Trip Duration (bucketed)` 衍生欄位。 您建立下列專案 [!UICONTROL 案例時間] 規則產生器中的規則。 此規則會將邏輯套用至舊的 [!UICONTROL 運送航程期間] 欄位值分為三個值： `short trip`， `medium  trip`、和 `long trip`.
 
-![規則3出現的情況](assets/case-when-3.png)
+![規則3時案例的熒幕擷圖](assets/case-when-3.png)
 
 
 ### 之後的資料 {#casewhen-uc3-dataafter}
@@ -459,7 +459,7 @@ ht-degree: 8%
 | [!DNL long trip] |
 
 
-## 限制
+## 更多資訊
 
 Customer Journey Analytics使用巢狀容器結構，並按照Adobe Experience Platform的設定建模 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) （體驗資料模型）。 另請參閱 [容器](../create-dataview.md#containers) 和 [篩選容器](../../components/filters/filters-overview.md#filter-containers) 以取得更多背景資訊。 此容器模型雖然本質上有彈性，但在使用規則產生器時施加了一些限制。
 
@@ -469,15 +469,13 @@ Customer Journey Analytics使用下列預設容器模型：
 <img src="./assets/containers.png" width="50%" valign="middle">
 </p>
 
-
-
-下列限制確實適用，並且會在下列情況下強制執行： *選取* 和 *設定* 值。
+下列限制條件適用，並強制執行： *選取* 和 *設定* 值。
 
 |  | 限制 |
 |:---:|----|
-| **<span style='color: red'>A</span>** | 您的值 *選取* 在相同 [!UICONTROL 若]， [!UICONTROL Else If] 建構(使用 [!UICONTROL 和] 或 [!UICONTROL 或])且必須源自相同容器，且可以是任何型別（字串） ![字串](assets/Smock_ABC_18_N.svg)，數值 ![數值](assets/Smock_123_18_N.svg)，依此類推)。 <br/>![相依性A](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | 您所有的值 *set* 跨規則必須來自相同容器，且具有相同型別或相同型別的衍生值。 <br/> ![相依性B](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | 您的值 *選取* 橫向 [!UICONTROL 若]， [!UICONTROL Else If] 規則中的建構do *not* 必須源自相同的容器，並 *not* 必須是相同型別。 <br/> ![相依性C](assets/dependency-c.png) |
+| **<span style='color: red'>A</span>** | 您的值 *選取* 在相同 [!UICONTROL 若]， [!UICONTROL Else If] 建構(使用 [!UICONTROL 和] 或 [!UICONTROL 或])且必須源自相同容器，且可以是任何型別（字串） ![字串](assets/Smock_ABC_18_N.svg)，數值 ![數值](assets/Smock_123_18_N.svg)，依此類推)。 <br/>![相依性A的熒幕擷圖](assets/dependency-a.png) |
+| **<span style='color: red'>B</span>** | 您所有的值 *set* 跨規則必須來自相同容器，且具有相同型別或相同型別的衍生值。 <br/> ![相依性B的熒幕擷圖](assets/dependency-b.png) |
+| **<span style='color: blue'>C</span>** | 您的值 *選取* 橫向 [!UICONTROL 若]， [!UICONTROL Else If] 規則中的建構do *not* 必須源自相同的容器，並 *not* 必須是相同型別。 <br/> ![相依性C的熒幕擷圖](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -496,7 +494,7 @@ Customer Journey Analytics使用下列預設容器模型：
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <p>字串</p> | <ul><li>對於條件：<ul><li>[!UICONTROL 值]<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li></ul></li><li>針對每個 [!UICONTROL 全部尋找]， [!UICONTROL 並全部取代為]：<ul><li>[!UICONTROL 值]</li><ul><li>使用者輸入的輸入</li></ul></li></ul></ul> | <p>字串</p><ul><li>[!UICONTROL 全部尋找]， [!UICONTROL 並全部取代為]</li></ul> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 值]<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 全部尋找]， [!UICONTROL 並全部取代為]：<ul><li>字串</li></ul></li></ul></ul> | <p>字串</p><ul><li>[!UICONTROL 全部尋找]， [!UICONTROL 並全部取代為]</li></ul> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -537,7 +535,7 @@ Customer Journey Analytics使用下列預設容器模型：
 
 您定義 `Email Marketing (updated)` 衍生欄位。 您使用 [!UICONTROL 尋找和取代] 函式來定義尋找和取代所有出現位置的規則 `email%20marketing` 替換為 `email marketing`.
 
-![尋找和取代規則](assets/find-and-replace.png)
+![尋找和取代規則的熒幕擷圖](assets/find-and-replace.png)
 
 ### 之後的資料 {#findreplace-uc-dataafter}
 
@@ -558,7 +556,7 @@ Customer Journey Analytics使用下列預設容器模型：
 
 ### 查詢
 
-定義一組查閱值，這些值會由對應的值取代。
+定義一組查閱值，這些值在新衍生欄位中會由對應值取代。
 
 +++ 詳細資料
 
@@ -567,7 +565,7 @@ Customer Journey Analytics使用下列預設容器模型：
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>對象 [!UICONTROL 要套用查閱的欄位]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>對象 [!UICONTROL 當值等於] 和 [!UICONTROL 將值取代為]：</p><ul><li>使用者輸入的輸入</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要套用查詢的欄位]:<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 當值等於] 和 [!UICONTROL 將值取代為]：</p><ul><li>字串</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -623,7 +621,7 @@ Customer Journey Analytics使用下列預設容器模型：
 
 您定義 `Hotel Name` 衍生欄位。 您使用 [!UICONTROL 查詢] 函式來定義規則，您可以在其中查詢 [!UICONTROL 飯店ID] 欄位並取代為新值。
 
-![查詢規則1](assets/lookup-1.png)
+![Lookup規則1的熒幕擷圖](assets/lookup-1.png)
 
 ### 之後的資料 {#lookup-uc1-dataafter}
 
@@ -658,7 +656,7 @@ Customer Journey Analytics使用下列預設容器模型：
 
 您定義 `Page Name (updated)` 衍生欄位。 您使用 [!UICONTROL 查詢] 函式，定義可查詢現有值的規則 [!UICONTROL 頁面名稱] 欄位並取代為更新的正確值。
 
-![查詢規則2](assets/lookup-2.png)
+![Lookup規則2的熒幕擷圖](assets/lookup-2.png)
 
 ### 之後的資料 {#lookup-uc2-dataafter}
 
@@ -674,6 +672,262 @@ Customer Journey Analytics使用下列預設容器模型：
 
 +++
 
+<!-- MERGE FIELDS -->
+
+### 合併欄位
+
+將兩個不同欄位的值合併到一個新的衍生欄位。
+
++++ 詳細資料
+
+## 規格 {#merge-fields-io}
+
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
+|---|---|---|---|---|
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]:</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+
+{style="table-layout:auto"}
+
+## 使用案例 {#merge-fields-uc}
+
+您想要建立由頁面名稱欄位和來電原因欄位組成的新維度，其目的在於分析跨管道的歷程。
+
+### 在此之前的資料 {#merge-fields-uc-databefore}
+
+| 頁面名稱 | 工作階段 | 訪客 |
+|---|--:|--:|
+| 說明頁面 | 250 | 200 |
+| home page | 500 | 250 |
+| 產品詳細資料頁面 | 300 | 200 |
+
+{style="table-layout:auto"}
+
+| 來電原因 | 工作階段 | 訪客 |
+|---|--:|--:|
+| 關於我訂單的問題 | 275 | 250 |
+| 變更我的訂單 | 150 | 145 |
+| 訂購問題 | 100 | 95 |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#merge-fields-uc-derivedfield}
+
+您定義 `Cross Channel Interactions` 衍生欄位。 您使用 [!UICONTROL 合併欄位] 函式來定義規則，以合併來自以下專案的值： [!UICONTROL 頁面名稱] 欄位和 [!UICONTROL 來電原因] 欄位並將其儲存在新的衍生欄位中。
+
+![合併欄位規則的熒幕擷圖](assets/merge-fields.png)
+
+### 之後的資料 {#merge-fields-uc-dataafter}
+
+| 跨頻道互動 | 工作階段 | 訪客 |
+|---|--:|--:|
+| home page | 500 | 250 |
+| 產品詳細資料頁面 | 300 | 200 |
+| 關於我訂單的問題 | 275 | 250 |
+| 說明頁面 | 250 | 200 |
+| 變更我的訂單 | 150 | 145 |
+| 訂購問題 | 100 | 95 |
+
+{style="table-layout:auto"}
+
+## 更多資訊 {#merge-fields-moreinfo}
+
+您必須在「合併欄位」規則中選取相同型別的欄位。 例如，如果您選取「日期」欄位，則您要合併的所有其他欄位都必須是「日期」欄位。
+
+![合併欄位限制的熒幕擷圖](assets/merge-fields-constraint.png)
+
++++
+
+
+<!-- REGEX REPLACE -->
+
+### 規則運算式取代
+
+使用規則運算式將欄位中的值取代為新的衍生欄位。
+
++++ 詳細資料
+
+## 規格 {#regex-replace-io}
+
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
+|---|---|---|---|---|
+| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 欄位]:</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul><ul><li>[!UICONTROL 規則運算式]:</li><ul><li>字串</li></ul></li><li>[!UICONTROL 輸出格式]：<ul><li>字串</li></ul></ul><ul><li>區分大小寫</li><ul><li>布林值</li></ul></li></ul></li> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+
+{style="table-layout:auto"}
+
+## 使用案例 {#regex-replace-uc}
+
+您想要擷取URL的一部分，並將其作為唯一頁面識別碼來分析流量。 您將使用 `[^/]+(?=/$|$)` 用於擷取URL結尾的規則運算式 `$1` 作為輸出模式。
+
+### 在此之前的資料 {#regex-replace-uc-databefore}
+
+| 頁面 URL |
+|---|
+| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#regex-replace-uc-derivedfield}
+
+您建立 `Page Identifier` 衍生欄位。 您使用 [!UICONTROL 規則運算式取代] 函式來定義規則以取代 [!UICONTROL 反向連結URL] 使用「 」的欄位 [!UICONTROL 規則運算式] 之 `[^/]+(?=/$|$)` 和 [!UICONTROL 輸出格式] 之 `$1`.
+
+![規則運算式取代規則的熒幕擷圖](assets/regex-replace.png)
+
+
+### 之後的資料 {#regex-replace-uc-dataafter}
+
+| 頁面識別碼 |
+|---|
+| adobe-analytics-benefits.html |
+| adobe-analytics.html |
+| customer-journey-analytics.html |
+| adobe-experience-platform.html |
+
+## 更多資訊
+
+Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下列運算式：
+
+| 運算式 | 說明 |
+| --- | --- |
+| `a` | 單一字元 `a`。 |
+| `a\|b` | 單一字元 `a` 或 `b`。 |
+| `[abc]` | 單一字元 `a`、`b` 或 `c`。 |
+| `[^abc]` | 除了 `a`、`b` 或 `c` 之外的任一單一字元。 |
+| `[a-z]` | `a`-`z` 範圍內的任一單一字元。 |
+| `[a-zA-Z0-9]` | `a`-`z`、`A`-`Z` 或數字 `0`-`9` 範圍內的任一單一字元。 |
+| `^` | 和行的開頭相符。 |
+| `$` | 和行的結尾相符。 |
+| `\A` | 字串的開頭。 |
+| `\z` | 字串的結尾。 |
+| `.` | 符合任一字元。  |
+| `\s` | 任一空格字元。 |
+| `\S` | 任何非空格字元。 |
+| `\d` | 任何數字。 |
+| `\D` | 任何非數字。 |
+| `\w` | 任一字母、數字或底線。 |
+| `\W` | 任一非單詞字元。 |
+| `\b` | 任何單詞邊界。 |
+| `\B` | 任一非單詞邊界的字元。 |
+| `\<` | 單詞的開頭。 |
+| `\>` | 單詞的結尾。 |
+| `(...)` | 擷取括號內的所有內容。 |
+| `(?:...)` | 未標示擷取。防止在輸出字串中參考相符項。 |
+| `a?` | 零個或一個 `a`。 |
+| `a*` | 零個或更多 `a`。 |
+| `a+` | 一個或更多 `a`。 |
+| `a{3}` | 剛好 3 個 `a`。 |
+| `a{3,}` | 3 個或更多 `a`。 |
+| `a{3,6}` | 介於 3 個和 6 個 `a` 之間。 |
+
+您可以在[!UICONTROL 輸出格式]中以不限次數和任何順序的方式使用這些序列，以實現所需的字串輸出。
+
+| 輸出預留位置序列 | 說明 |
+| --- | --- |
+| `$&` | 和全部運算式相符的輸出。 |
+| `$n` | 和第 n 個子運算式相符的輸出。例如，`$1` 輸出第一個子運算式。 |
+| ``$` `` | 輸出找到的最後一個相符項的結尾 (如果沒有找到之前的相符項，則為文字的開頭) 和目前相符項的開頭之間的文字。 |
+| `$+` | 輸出和規則運算式中最後一個標記的子運算式相符的內容。 |
+| `$$` | 輸出字串字元 `"$"`。 |
+
+{style="table-layout:auto"}
+
++++
+
+<!-- SPLIT -->
+
+### Split
+
+將欄位中的值分割成新的衍生欄位。
+
++++ 詳細資料
+
+## 規格 {#split-io}
+
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
+|---|---|---|---|---|
+| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 欄位]:</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul><ul><li>[!UICONTROL 方法]:</li><ul><li>從左側</li><li>從右側</li><li>轉換為陣列</li></ul></li><li>對於分隔字元：<ul><li>字串</li></ul><li>針對索引：<ul><li>數值</li></ul></li> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+
+{style="table-layout:auto"}
+
+## 使用案例1 {#split-uc1}
+
+您可在單一維度中將語音應用程式回應收集到分隔清單中。 您希望清單中的每個值在回應報表中都是唯一值。
+
+### 在此之前的資料 {#split-uc1-databefore}
+
+| 語音應用程式回應 | 活動 |
+|---|--:|
+| 非常棒，完全合理，會推薦給其他人 | 1 |
+| 很棒，有點令人困惑，會推薦給其他人 | 1 |
+| 不是很好，非常令人困惑，不會向其他人推薦 | 1 |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#split-u1-derivedfield}
+
+您建立 `Responses` 衍生欄位。 您使用 [!UICONTROL SPLIT] 函式來定義規則以使用  [!UICONTROL 轉換為陣列] 轉換下列專案之值的方法： [!UICONTROL 語音應用程式回應] 欄位，使用 `,` 作為 [!UICONTROL 分隔符號].
+
+![分割規則1的熒幕擷圖](assets/split-1.png)
+
+### 之後的資料 {#split-uc1-dataafter}
+
+| 回應 | 活動 |
+|---|--:|
+| 太棒了 | 2 |
+| 會推薦給其他人 | 2 |
+| 不太好 | 1 |
+| 完全合理 | 1 |
+| 有點令人困惑 | 1 |
+| 非常令人困惑 | 1 |
+| 不會推薦給其他人 | 1 |
+
+{style="table-layout:auto"}
+
+## 使用案例2 {#split-uc2}
+
+您可在單一維度中將語音應用程式回應收集到分隔清單中。 您想要將清單中第一個值的回應放入其本身的維度中。 您想要將清單中的最後一個值放入其本身的維度中。
+
+### 在此之前的資料 {#split-uc2-databefore}
+
+| 回應 | 活動 |
+|---|--:|
+| 非常好，完全合理，會推薦給其他人 | 1 |
+| 很棒，有點令人困惑，會推薦給其他人 | 1 |
+| 不是很好，非常令人困惑，不會向其他人推薦 | 1 |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#split-u2-derivedfield}
+
+您建立  `First Response` 衍生欄位。 您使用 [!UICONTROL SPLIT] 函式來定義規則，以取得下列專案的第一個值： [!UICONTROL 回應] 回應左側的欄位 `,` 做為分隔字元。
+
+![分割規則的熒幕擷圖 — 第一個值](assets/split-2.png)
+
+您建立 `Second Response` 衍生欄位，用以取得下列專案的最後一個值： [!UICONTROL 回應] 欄位，選取「從右側」、1作為「分隔符號」、1作為「索引」。
+
+![分割規則 — 最後一個值的熒幕擷圖](assets/split-3.png)
+
+### 之後的資料 {#split-uc2-dataafter}
+
+| 首次回應 | 活動 |
+|---|--:|
+| 太棒了 | 2 |
+| 不太好 | 1 |
+
+{style="table-layout:auto"}
+
+| 第二個回應 | 活動 |
+|---|--:|
+| 會推薦給其他人 | 2 |
+| 不會推薦給其他人 | 1 |
+
+{style="table-layout:auto"}
+
++++
+
+
 <!-- URL PARSE -->
 
 ### URL 剖析
@@ -686,7 +940,7 @@ Customer Journey Analytics使用下列預設容器模型：
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li></ul> | <ul><li>對象 [!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>對象 [!UICONTROL 選項]：<ul><li>[!UICONTROL 取得通訊協定]</li><li>[!UICONTROL 取得主機]</li><li>[!UICONTROL 取得路徑]</li><li>[!UICONTROL 取得查詢字串值]<ul><li>[!UICONTROL 查詢參數]:<ul><li>使用者輸入的輸入</li></ul></li></ul></li><li>[!UICONTROL 取得雜湊值]</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 欄位]:</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 選項]:<ul><li>[!UICONTROL 取得通訊協定]</li><li>[!UICONTROL 取得主機]</li><li>[!UICONTROL 取得路徑]</li><li>[!UICONTROL 取得查詢字串值]<ul><li>[!UICONTROL 查詢參數]:<ul><li>字串</li></ul></li></ul></li><li>[!UICONTROL 取得雜湊值]</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -710,7 +964,7 @@ Customer Journey Analytics使用下列預設容器模型：
 
 您定義  `Referring Domain` 衍生欄位。 您使用 [!UICONTROL url剖析] 定義規則以從擷取主機的函式 [!UICONTROL 反向連結URL] 欄位並將其儲存在新的衍生欄位中。
 
-![ Url剖析規則1](assets/url-parse-1.png)
+![Url剖析規則1的熒幕擷圖](assets/url-parse-1.png)
 
 ### 之後的資料 {#urlparse-uc1-dataafter}
 
@@ -742,7 +996,7 @@ Customer Journey Analytics使用下列預設容器模型：
 
 您定義 `Query String CID` 衍生欄位。 您使用 [!UICONTROL url剖析] 函式來定義規則，以擷取中查詢字串引數的值 [!UICONTROL 頁面URL] 欄位，指定 `cid` 作為查詢引數。 輸出值會儲存在新的衍生欄位中。
 
-![Url剖析規則2](assets/url-parse-2.png)
+![Url剖析規則2的熒幕擷圖](assets/url-parse-2.png)
 
 ### 之後的資料 {#urlparse-uc2-dataafter}
 
@@ -760,6 +1014,13 @@ Customer Journey Analytics使用下列預設容器模型：
 
 下列限制適用於衍生欄位的一般功能：
 
-- 為衍生欄位定義規則時，您最多可以使用10個不同的結構描述欄位（不包括標準欄位）。
-   - 根據最多10個不同的結構描述欄位，最多只允許3個查詢結構描述或設定檔結構描述欄位。
+- 為衍生欄位定義規則時，您最多可以使用十個不同的結構描述欄位（不包括標準欄位）。
+   - 根據最多10個不同的結構描述欄位，最多只允許三個查詢結構描述或設定檔結構描述欄位。
 - 每個Customer Journey Analytics連線最多可以有100個衍生欄位。
+
+## 更多資訊
+
+- [充分利用您的資料：在Customer Journey Analytics中使用衍生欄位的架構](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+
+- [Customer Journey Analytics的衍生欄位使用案例](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+
