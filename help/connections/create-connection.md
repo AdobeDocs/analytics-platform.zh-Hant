@@ -4,16 +4,16 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 7bcfedb472c26605e53805a09ef827fd20a1f986
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '2605'
-ht-degree: 60%
+source-wordcount: '2630'
+ht-degree: 58%
 
 ---
 
 # 建立連線
 
-最近在Customer Journey Analytics中啟動新的「連線」工作流程。 透過輔助工作流程，新的連線建立和編輯工作流程體驗可將所有資料集和連線組態設定彙整到畫面中央處。  您提供詳細的資料集選擇、設定和檢閱體驗，以及資料集型別、大小、結構描述、資料集ID、批次狀態、回填狀態、人員ID等重要資訊，以降低連線設定錯誤的風險。 以下是新功能總覽：
+連線的建立和編輯工作流程體驗會透過輔助工作流程，將所有資料集和連線組態設定帶到畫面中央處。 它提供詳細的資料集選擇、設定和稽核體驗，以及資料集型別、大小、結構、資料集ID、批次狀態、回填狀態、人員ID等重要資訊，以降低連線設定錯誤的風險。 以下是功能概觀：
 
 * 當您建立連線時，可以啟用滾動資料保留時間窗口。
 * 您可以在連線中新增及移除資料集。 (移除資料集會將其從連線中移除，並影響任何關聯的資料檢視及基礎 Analysis Workspace 專案。)
@@ -22,6 +22,10 @@ ht-degree: 60%
 * 您可以為每個資料集匯入現有的資料。
 
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+
+>[!IMPORTANT]
+>
+>您必須擁有 **選取** 封裝，以便將無限數量的資料集新增至連線。 此 **Foundation** 套件僅限一個資料集。 如果您不確定擁有哪些Customer Journey Analytics套件，請聯絡管理員。&#x200B;
 
 ## 建立和設定連線 {#create-connection}
 

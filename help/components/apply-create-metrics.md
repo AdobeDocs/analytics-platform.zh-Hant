@@ -3,27 +3,26 @@ description: 在 Analysis Workspace 中使用量度有兩種方式。
 title: 量度
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
-source-git-commit: a9751cad1ba49fe3e8c2c484e34d1725e063c2d4
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 23%
+ht-degree: 51%
 
 ---
 
 # 量度
 
-量度可讓您量化Analysis Workspace中的資料點。 它們最常用作視覺效果中的欄，並與維度繫結。
+量度可讓您量化 Analysis Workspace 中的資料點。它們最常用作視覺效果中的欄，並和維度相連結。
 
+## 量度類型
 
-## 量度型別
-
-Adobe提供數種用於Analysis Workspace的量度型別：
+Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 * **標準量度**：標準量度的範例為「人員」、「工作階段」、「事件」。
 
 * **計算量度** ![計算量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)：根據標準量度、靜態數字或演演算法函式的使用者定義量度。
 
-* **計算量度範本**  <img src="./assets/adobe-logo.svg" width="18"> ：Adobe定義的量度，其行為與計算量度類似。 您可以在Workspace專案中照原樣使用它們，或儲存副本以自訂其邏輯。
+* **計算量度範本**  <img src="./assets/adobe-logo.svg" width="18"> ：Adobe定義的量度，其行為與計算量度類似。 您可以在 Workspace 專案中按原樣使用它們，或另存為副本以自訂其邏輯。
 
 
 ![UI中的量度](assets/cja-metrics.png)
@@ -31,11 +30,11 @@ Adobe提供數種用於Analysis Workspace的量度型別：
 您可以檢視量度是否已核准 ![「已核准」圖示](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)  或不能。 如果您想要瞭解量度的詳細資訊，請將滑鼠指標暫留，然後選取「 」 ![資訊圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg).
 
 
-量度在Analysis Workspace中的使用方式具有彈性。 將量度拖曳至空白的自由格式表格，以檢視專案日期期間的量度趨勢。 您也可以拖曳出現維度時的量度，以檢視該量度與每個維度專案的比較。 將量度拖曳至現有量度標頭上方會取代量度，拖曳至標頭旁的量度可讓您並排看到兩個量度。
+量度在Analysis Workspace中的使用方式具有彈性。 將量度拖移到空白的自由表格中，以查看該量度在專案日期期間的趨勢。您也可以拖曳出現維度時的量度，以檢視該量度與每個維度專案的比較。 將量度拖曳至現有量度標頭上方會取代量度，拖曳至標頭旁的量度可讓您並排看到兩個量度。
 
 ## 計算量度
 
-計算量度可讓您使用簡單的運運算元或統計函式，輕鬆檢視量度彼此之間的關係。 建立計算量度有數種方式：
+計算量度可讓您使用簡單的運算子或統計函式輕鬆查看量度彼此間的關係。建立計算量度的方式有好幾種：
 
 您可以選取 **[!UICONTROL 元件]** > **[!UICONTROL 計算量度]**. 這會將您導向 [計算量度產生器](/help/components/calc-metrics/calc-metr-overview.md)，即可從現有量度建立自訂量度。
 

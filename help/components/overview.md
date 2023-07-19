@@ -4,10 +4,10 @@ description: 瞭解Customer Journey Analytics提供哪些元件，以及如何�
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 87%
+source-wordcount: '1127'
+ht-degree: 79%
 
 ---
 
@@ -21,10 +21,14 @@ ht-degree: 87%
 您可以管理下列元件：
 
 * [**註解**](/help/components/annotations/overview.md)：將內容相關的資料細微差別和深入解析傳達給您的組織。
-* [**篩選器**](filters/filters-overview.md)：排除部分資料，以聚焦於常見的維度項目
+* [**受眾**](/help/components/audiences/audiences-overview.md)：建立在Customer Journey Analytics中發現的對象並將其發佈到 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant) (RTCDP)，用於Adobe Experience Platform中的客戶目標定位和個人化。
+* [**篩選器**](filters/filters-overview.md)：建立、管理、共用功能強大、具針對性的對象篩選器，並將其套用至您的報表。 篩選器可讓您根據特性或互動來識別人員的子集。
 * [**計算量度**](calc-metrics/calc-metr-overview.md)：將量度和公式作為新元件用於報告中
-* [**日期範圍**](date-ranges/create.md)：自訂和調整 Analysis Workspace 提供的日期範圍
-* [**專案**](/help/analysis-workspace/home.md)：在 Analysis Workspace 中組織和維護專案
+* [**資料字典**](/help/components/data-dictionary/data-dictionary-overview.md)：協助使用者和管理員追蹤及更瞭解其Analytics環境中的元件。
+* [**日期範圍**](date-ranges/create.md)：自訂和調整 Analysis Workspace 提供的日期範圍.
+* [**Dimension**](/help/components/dimensions/view-dimensions.md)：Dimension是通常包含字串值的變數。 常見維度包括頁面和反向連結網域。
+* [**量度**](/help/components/apply-create-metrics.md)：可讓您量化Analysis Workspace中的資料點。
+* [**專案**](/help/analysis-workspace/home.md)：在 Analysis Workspace 中組織和維護專案.
 
 ## Analysis Workspace 元件
 
@@ -109,7 +113,7 @@ Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度�
 
 3. 選取以下任一篩選器選項以篩選元件清單：
 
-   | 選項 | 函數 |
+   | 選項 | 功能 |
    |---------|----------|
    | [!UICONTROL **已核准**] | 僅顯示標記為由管理員核准的元件。 |
    | [!UICONTROL **我的最愛**] | 僅顯示「我的最愛」清單中的元件。如需有關將元件新增至您的最愛清單的資訊，請參閱 [管理元件](#manage-components). |

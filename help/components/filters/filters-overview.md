@@ -3,17 +3,17 @@ title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 34%
+source-wordcount: '992'
+ht-degree: 33%
 
 ---
 
 
 # 篩選器概觀 {#overview}
 
-Customer Journey Analytics 可讓您建立、管理、共用功能強大、具針對性的對象篩選器，並套用至您的報表。篩選器可讓您根據特性或網站互動來識別人員的子集。 篩選器設計為編碼化的對象深入分析，您可以根據特定需求建立篩選器，然後驗證、編輯並與其他團隊成員分享。
+Customer Journey Analytics 可讓您建立、管理、共用功能強大、具針對性的對象篩選器，並套用至您的報表。篩選器可讓您根據特性或互動來識別人員的子集。 篩選器設計為編碼化的對象深入分析，您可以根據特定需求建立篩選器，然後驗證、編輯並與其他團隊成員分享。
 
 篩選器可以基於
 
@@ -37,6 +37,10 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 ## 循序篩選器 {#sequential}
 
 循序篩選器可讓您根據網站上的導覽和頁面檢視來識別人員，提供已定義動作和互動的篩選器。 循序篩選器可協助您識別某人喜歡或避免的內容。 建立循序篩選器時，會使用THEN運運算元來定義和排序人員導覽。
+
+>[!IMPORTANT]
+>
+>您必須擁有 **選取** 以建立跨管道循序篩選器。 如果您不確定擁有哪些Customer Journey Analytics套件，請聯絡管理員。&#x200B;
 
 其範例如下：
 
