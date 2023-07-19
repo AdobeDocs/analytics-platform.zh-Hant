@@ -3,10 +3,10 @@ description: 篩選器產生器提供的畫布可拖放量度Dimension、篩選�
 title: 建立篩選器
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 28%
+source-wordcount: '1396'
+ht-degree: 24%
 
 ---
 
@@ -20,10 +20,9 @@ ht-degree: 28%
 
 您可以透過下列任何方式存取「篩選產生器」：
 
-* **Analytics頂端導覽**：按一下 **[!UICONTROL 分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 篩選器]**.
+* **頂端導覽**：按一下 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 篩選器]**.
 * **[!UICONTROL Analysis Workspace]**：在Analysis Workspace中開啟專案後，選取 **[!UICONTROL +元件]** > **[!UICONTROL 建立篩選器]**.
-* **[!UICONTROL Reports &amp; Analytics]**：按一下 **[!UICONTROL 分析]** > **[!UICONTROL 報表]**，開啟現有報表並按一下 **篩選** 圖示並按一下「 」 **[!UICONTROL 新增]**.
-* **[!UICONTROL Report Builder]**： [在Report Builder中新增或編輯篩選器](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=zh-Hant).
+* **[!UICONTROL Report Builder]**： [在Report Builder中使用篩選器](/help/report-builder/work-with-filters.md).
 
 ## 產生器條件概觀 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -128,7 +127,7 @@ ht-degree: 28%
 
 例如，棧疊「行動電話使用者」篩選器和「美國地理」篩選器只會傳回美國行動電話使用者的資料。
 
-將這些篩選器視為建置區塊或模組，您可將其納入篩選器程式庫中，讓使用者在他們認為合適的時候使用。 如此一來，您就可以大幅減少所需的篩選器數量。 例如，假設您有40個篩選器：
+您可以將這些篩選器視為建置區塊或模組，可讓您包含在篩選器資料庫中，以便使用者在他們認為合適的時候使用。 如此一來，您就可以大幅減少所需的篩選器數量。 例如，假設您有40個篩選器：
 
 * 20 個代表不同國家/地區的行動電話使用者 (US_mobile、Germany_mobile、France_mobile、Brazil_mobile 等等)
 * 20 個代表不同國家/地區的平板電腦使用者 (US_tablet、Germany_tablet、France_tablet、Brazil_tablet 等等)
@@ -153,91 +152,3 @@ ht-degree: 28%
 
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-## 篩選範本 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
-
-篩選範本是針對常見的篩選使用案例而提供的，例如「首次造訪」或「來自行動裝置的造訪」。 它們可在Workspace專案中和篩選器產生器中作為新篩選器的建置組塊。
-
-範本會以 Adobe 的「A」標誌表示。以下列出範本的範例：
-
-<table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 範本名稱 </th> 
-   <th colname="col2" class="entry"> 定義 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 放棄購物車 </td> 
-   <td colname="col2">檢視將專案新增至購物車但未訂購任何專案的人員的資料。 在「篩選器定義」中，容器為「造訪」。 此循序篩選器的規則為 <p> 購物車新增非空值 </p> <p>Then </p> <p>訂購等於 0。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 首次瀏覽次數 </td> 
-   <td colname="col2">檢視最多造訪過一[1]次之人員的資料。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>瀏覽次數等於 1。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 非購買者 </td> 
-   <td colname="col2">檢視未參與訂單事件之人員的資料。 在篩選定義中，容器為「訪客」。 此篩選器使用排除邏輯。 規則是 <p>訂購非空值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 非單一頁面瀏覽 (非彈回) </td> 
-   <td colname="col2">檢視造訪過多次之人員的資料。 在篩選定義中，容器為「訪客」。 此篩選器使用排除邏輯。 規則是 <p>單次存取非空值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 付費搜尋 </td> 
-   <td colname="col2">檢視來自付費搜尋之人員的資料。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>付費搜尋等於 1。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 購買者 </td> 
-   <td colname="col2">檢視已參與訂單事件之人員的資料。 在篩選定義中，容器為「訪客」。 規則是 <p>訂購非空值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 回訪 </td> 
-   <td colname="col2">檢視至少造訪過一次之人員的資料。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>瀏覽次數大於 1. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 單頁造訪次數 </td> 
-   <td colname="col2"> 檢視您看到單一頁面值之瀏覽中的資料，即使您可能在該次瀏覽期間提交多個頁面檢視亦同。包含退出連結事件的單頁造訪次數會納入篩選器中。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>單頁造訪次數等於 1。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 檢視未加到購物車的產品 </td> 
-   <td colname="col2">檢視已檢視產品但沒有購物車新增之人員的資料。 在「篩選器定義」中，容器為「造訪」。 此循序篩選器的規則為 <p>產品檢視非空值 </p> <p>Then </p> <p> 購物車新增等於 0。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 來自促銷活動的瀏覽次數 </td> 
-   <td colname="col2">檢視行銷活動引薦之人員的資料。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>追蹤代碼非空值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 來自行動裝置的瀏覽次數 </td> 
-   <td colname="col2">檢視使用行動裝置之人員的資料。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>行動裝置非空值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 來自免費搜尋的瀏覽次數 </td> 
-   <td colname="col2">檢視非來自付費搜尋之人員的資料。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>付費搜尋等於 0。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 來自非行動裝置的瀏覽次數 </td> 
-   <td colname="col2">檢視未使用行動裝置之人員的資料。 在「篩選器定義」中，容器為「造訪」。 此篩選器使用排除邏輯。 規則是 <p>行動裝置類型等於行動電話 </p> <p>或 </p> <p>行動裝置類型等於平板電腦。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 來自手機的瀏覽次數 </td> 
-   <td colname="col2">檢視使用電話之人員的資料。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>裝置類型等於行動電話。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 來自搜尋引擎的瀏覽次數 </td> 
-   <td colname="col2">檢視搜尋引擎所引薦人員的資料。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>反向連結類型等於搜尋引擎。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 來自社交網站的瀏覽次數 </td> 
-   <td colname="col2">檢視由社交網站引薦之人員的資料。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>反向連結類型等於社交網路. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 來自平板電腦的瀏覽次數 </td> 
-   <td colname="col2">檢視使用平板電腦的使用者資料。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>裝置類型等於平板電腦。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 具有訪客 ID Cookie 的瀏覽次數 </td> 
-   <td colname="col2">在需要永久性Cookie的地方，檢視從人員到您網站的資料。 在「篩選器定義」中，容器為「造訪」。 規則是 <p>永久性 Cookie 等於 1。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>

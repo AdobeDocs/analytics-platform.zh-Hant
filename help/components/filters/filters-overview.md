@@ -3,9 +3,9 @@ title: 篩選器概觀
 description: 了解篩選器的用途以及如何建立簡單篩選器。
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '990'
 ht-degree: 33%
 
 ---
@@ -43,8 +43,6 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 >您必須擁有 **選取** 以建立跨管道循序篩選器。 如果您不確定擁有哪些Customer Journey Analytics套件，請聯絡管理員。&#x200B;
 
 其範例如下：
-
-<!--![](assets/sequential_fil.png)-->
 
 | 工作階段一 | 工作階段二 | 工作階段三 |
 | --- | --- | --- |
@@ -117,7 +115,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 ## 現成可用的篩選範本 {#template}
 
-傳統Analytics提供許多現成的範本篩選器（篩選器）和計算量度。 其中許多不適用於Customer Journey Analytics，或必須重新命名或重新建立。 其他則取決於Customer Journey Analytics中內容感知變數的解決方案。
+傳統Analytics提供許多現成的範本和計算量度。 其中許多不適用於Customer Journey Analytics，或必須重新命名或重新建立。 其他則取決於Customer Journey Analytics中內容感知變數的解決方案。
 
 | 篩選器名稱 | 說明 |
 | --- | --- |
