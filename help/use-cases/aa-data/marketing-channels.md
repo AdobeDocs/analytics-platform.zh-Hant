@@ -1,13 +1,13 @@
 ---
 title: 在 Adobe Experience Platform 中使用行銷管道維度
-description: 使用 Analytics 來源連接器將行銷頻道處理規則匯入 Adobe Experience Platform。
+description: 使用Analytics來源聯結器將行銷管道處理規則匯入Adobe Experience Platform。
 exl-id: d1739b7d-3410-4c61-bb08-03dd4161c529
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1046'
-ht-degree: 74%
+ht-degree: 63%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 74%
 
 ## 先決條件
 
-* 需先使用 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)將報告套裝資料匯入 Adobe Experience Platform。由於行銷管道需仰賴 Analytics 報告套裝中的處理規則來運作，因此不支援其他資料來源。
+* 您必須先使用將報表套裝資料匯入Adobe Experience Platform [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant). 由於行銷管道需仰賴 Analytics 報告套裝中的處理規則來運作，因此不支援其他資料來源。
 * 行銷管道處理規則須完成設定。另請參閱 [行銷管道的處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=zh-Hant) (在Adobe Analytics元件指南中)。
 
 ## 行銷管道結構元素
 
-您在所需的報告套裝建立 Analytics 來源連接器後，系統隨即就會建立 XDM 結構描述。此結構包含所有 Analytics 維度和量度，這些原始資料都不具歸因或持續性，而是由系統使用各個行銷管道處理規則逐一檢驗每個事件，並記錄相符的第一個規則。在Customer Journey Analytics中建立資料檢視時，您可以指定歸因和持續性。
+在所需的報告套裝上建立Analytics來源聯結器後，系統就會為您建立XDM結構描述。 此結構包含所有 Analytics 維度和量度，這些原始資料都不具歸因或持續性，而是由系統使用各個行銷管道處理規則逐一檢驗每個事件，並記錄相符的第一個規則。在Customer Journey Analytics中建立資料檢視時，您可以指定歸因和持續性。
 
-1. [建立連線](/help/connections/create-connection.md)，納入以 Analytics 來源連線器為基礎的資料集。
+1. [建立連線](/help/connections/create-connection.md) 其中包括以Analytics來源聯結器為基礎的資料集。
 2. [建立資料檢視](/help/data-views/create-dataview.md)，其中包含下列維度：
    * **`channel.typeAtSource`**：相當於[行銷管道](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=zh-Hant)維度。
    * **`channel._id`**：相當於[行銷管道詳細資訊](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html?lang=zh-Hant)。
@@ -35,7 +35,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
-> 分析來源連接器要求填入 `channel.typeAtSource` (行銷頻道) 和 `channel._id` (行銷頻道詳細資料)，否則兩者都不會傳遞到 XDM ExperienceEvent。如果來源報告套裝中的行銷頻道詳細資料為空白，這將導致空白 `channel._id`，並且分析來源連接器也將使 `channel.typeAtSource` 空白。這可能會導致 Adobe Analytics 和 Customer Journey Analytics 之間的報告差異。
+> Analytics來源聯結器要求 `channel.typeAtSource` （行銷管道）和 `channel._id` （行銷管道詳細資料）會填入，否則兩者都不會結轉到XDM ExperienceEvent。 如果來源報告套裝中的行銷管道詳細資料為空白，這將導致空白 `channel._id` 而Analytics來源聯結器會變成空白 `channel.typeAtSource` 以及。 這可能會導致 Adobe Analytics 和 Customer Journey Analytics 之間的報告差異。
 
 ## 處理與架構差異
 

@@ -4,7 +4,7 @@ description: 從整個客戶歷程的客戶互動中，分析及擷取見解。
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: 0b68281df23ef4d2e6c1f7dacf9f58c40604e7ca
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 62%
@@ -22,7 +22,7 @@ ht-degree: 62%
 1. 為要擷取的資料[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
 1. 為要擷取的資料[建立資料集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)。
 1. [將資料內嵌至 Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
-   1. 事件型資料 ![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) 從網站或行動應用程式透過Edge Network或Analytics Data Connector。
+   1. 事件型資料 ![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) 從網站或行動應用程式透過Edge Network或Analytics來源聯結器。
    2. 設定檔資料 ![設定檔](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) （例如，從CRM系統、客服中心應用程式、忠誠度應用程式）。
    3. 查詢資料 ![查詢](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) （例如產品名稱、產品資訊系統的類別）。
 

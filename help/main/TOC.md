@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: a25129c0a319b13f5167c8cde9535dbb4b3ca65a
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 84%
+ht-degree: 82%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 84%
    + 與 Adobe Analytics 比較{#cja-aa-comparison}
       + [在 Customer Journey Analytics 中利用 Adobe Analytics 資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 功能支援](../getting-started/aa-vs-cja/cja-aa.md)
-      + [比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](../getting-started/aa-vs-cja/terminology.md)
+      + [比較透過Analytics來源聯結器傳遞的Analytics資料的術語](../getting-started/aa-vs-cja/terminology.md)
       + [比較Adobe Analytics和Customer Journey Analytics的資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [虛擬報告環境和沙箱環境](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [處理規則、VISTA 和分類與資料準備的比較](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
-      + [AAID、ECID、AACUSTOMID 和 Analytics 來源連接器](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
+      + [AAID、ECID、AACUSTOMID和Analytics來源聯結器](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
 
 + 資料擷取 {#cja-data-ingestion}
    + [資料擷取概觀](../data-ingestion/data-ingestion.md)

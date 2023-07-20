@@ -3,16 +3,16 @@ title: 虛擬報告套裝、資料檢視、Adobe Experience Platform沙箱和Ana
 description: 了解關於虛擬報告環境和沙箱環境。
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 feature: Basics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 62%
+ht-degree: 56%
 
 ---
 
 # 虛擬報告套裝、資料檢視、Adobe Experience Platform沙箱和Analytics來源聯結器
 
-Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。 了解以下功能之間的異同，以及這些功能與 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)的關係會很有用：
+Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。 瞭解以下功能之間的異同，以及這些功能與 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)：
 
 * Adobe Analytics 虛擬報告套裝
 * Customer Journey Analytics資料檢視
@@ -38,7 +38,7 @@ Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。 了解以�
 
 * 一種組合報告套裝的方法。
 * 可用於 Adobe Analytics Data Warehouse。
-* 可作為透過Analytics來源聯結器流入Adobe Experience Platform的資料流的來源。 只有完整 (非虛擬) 報告套裝可用於 Analytics 來源連接器。
+* 可作為透過Analytics來源聯結器流入Adobe Experience Platform的資料流的來源。 只有完整（非虛擬）報告套裝可用於Analytics來源聯結器。
 
 
 ## Customer Journey Analytics資料檢視
@@ -80,4 +80,4 @@ Adobe Experience Platform沙箱不會：
 請注意：
 
 * 來自不同沙箱的資料不能在Customer Journey Analytics中合併。
-* Analytics 來源連接器會將報告套裝資料傳送&#x200B;_到_&#x200B;特定沙箱。 每個報告套裝都可以設定為單一沙箱的來源。 如需詳細資訊，請參閱 [Analytics 來源連接器文件](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。
+* Analytics 來源連接器會將報告套裝資料傳送&#x200B;_到_&#x200B;特定沙箱。 每個報告套裝都可以設定為單一沙箱的來源。 請參閱 [Analytics來源聯結器檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 以取得更多詳細資料。

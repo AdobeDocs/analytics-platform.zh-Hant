@@ -4,10 +4,10 @@ description: 在 Customer Journey Analytics 中使用標準查詢功能，透過
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 85%
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
 
 ## 搭配使用標準查詢與 Adobe 來源連接器資料集
 
-標準查詢資料集會在報表時間自動套用。 如果您使用 Analytics 來源連接器，並引進 Adobe 為其提供標準查詢的維度，我們就會自動套用此標準查詢。 如果事件資料集包含 XDM 欄位，我們就能為該資料集套用標準查詢。
+標準查詢資料集會在報表時間自動套用。 如果您使用Analytics來源聯結器，並引進Adobe提供標準查詢的維度，我們就會自動套用此標準查詢。 如果事件資料集包含 XDM 欄位，我們就能為該資料集套用標準查詢。
 
 <!--
 ### Specific IDs that need to be populated

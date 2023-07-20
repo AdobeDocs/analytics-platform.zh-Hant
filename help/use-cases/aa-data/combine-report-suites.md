@@ -3,16 +3,16 @@ title: 結合報告套裝與不同的結構描述
 description: 了解如何使用「資料準備」來結合報告套裝與不同的結構描述
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1398'
-ht-degree: 64%
+ht-degree: 59%
 
 ---
 
 # 結合報告套裝與不同的結構描述
 
-此 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 將來自Adobe Analytics的報表套裝資料帶入Adobe Experience Platform，以供Adobe Experience Platform應用程式(例如Real-time Customer Data Platform和Customer Journey Analytics (Customer Journey Analytics))使用。 帶入Adobe Experience Platform的每個報告套裝都會設定為個別來源連線資料流，而每個資料流都會當作Adobe Experience Platform資料湖中的資料集。 Analytics 來源連接器會為每個報告套裝各建立一個資料集。
+此 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 將來自Adobe Analytics的報表套裝資料帶入Adobe Experience Platform，以供Adobe Experience Platform應用程式(例如Real-time Customer Data Platform和Customer Journey Analytics (Customer Journey Analytics))使用。 帶入Adobe Experience Platform的每個報告套裝都會設定為個別來源連線資料流，而每個資料流都會當作Adobe Experience Platform資料湖中的資料集。 Analytics來源聯結器會為每個報告套裝建立一個資料集。
 
 客戶使用的Customer Journey Analytics [連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) 將來自Adobe Experience Platform data lake的資料集整合到Customer Journey AnalyticsAnalysis Workspace中。 不過，在連線中組合報告套裝時，需要使用Adobe Experience Platform解決報告套裝之間的結構描述差異 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant) 功能。 目的是確保prop和eVar等Adobe Analytics變數在Customer Journey Analytics中具有一致的意義。
 
@@ -49,7 +49,7 @@ ht-degree: 64%
 
 ## 使用「Adobe Experience Platform資料準備」解決報告套裝之間的結構描述差異
 
-Experience Platform 資料準備功能與 Analytics 來源連接器整合，可用於解決上述場景中說明的結構描述差異。 這會導致eVar在Customer Journey Analytics資料檢視中具有一致的意義。 (下面使用的命名慣例，可以根據您的需求加以自訂。)
+「Experience Platform資料準備」功能與Analytics來源聯結器整合，可用於解決上述案例中描述的結構描述差異。 這會導致eVar在Customer Journey Analytics資料檢視中具有一致的意義。 (下面使用的命名慣例，可以根據您的需求加以自訂。)
 
 1. 在為報告套裝A和報告套裝B建立來源連線資料流之前， [建立新結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant) 在Adobe Experience Platform中（我們稱之為） **統一結構描述** 在我們的範例中。) 將以下內容新增到結構描述中：
 
@@ -102,13 +102,13 @@ Experience Platform 資料準備功能與 Analytics 來源連接器整合，可�
 
 >[!NOTE]
 >
->「統一欄位」自訂欄位群組和關聯的欄位對應可以隨時新增到現有的「Analytics 來源連接器」資料流和資料集。 但是，這只會影響未來的資料。
+>「統一欄位」自訂欄位群組和關聯的欄位對應可以隨時新增到現有的Analytics來源聯結器資料流和資料集。 但是，這只會影響未來的資料。
 
 ## 不只是報告套裝
 
 「資料準備」結合資料集與不同結構描述的能力，超越了 Analytics 報告套裝。 假設您有兩個包含以下資料的資料集：
 
-| 資料集 A = 透過 Analytics 來源連接器的 Analytics 報告套裝 |
+| 資料集A =透過Analytics來源聯結器的Analytics報告套裝 |
 | --- |
 | `eVar1` => 客戶類別 |
 

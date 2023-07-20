@@ -4,9 +4,9 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
-source-wordcount: '2630'
+source-wordcount: '2629'
 ht-degree: 58%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 58%
    | **[!UICONTROL 時間戳記]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述中的預設時間戳記欄位。 |
    | **[!UICONTROL 資料來源類型]** | 選取資料來源型別。 <br/>資料來源型別包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>此欄位用於調查使用中的資料來源型別。 |
    | **[!UICONTROL 匯入新資料]** | 如果您要建立持續連線，請選取此選項，如此一來，新增到此連線中資料集的任何新資料批次都會自動流入工作區。 可設為 [!UICONTROL 開啟] 或 [!UICONTROL 關閉]. |
-   | **[!UICONTROL 資料集回填]** | 選取 **[!UICONTROL 請求回填]** 以回填歷史資料。<ul><li>您可以個別回填每個資料集。</li><li>您會優先處理新增至連線中資料集的新資料，因此這些新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。 延遲會受您有多少歷史資料所影響。</li><li>Adobe Analytics來源聯結器最多可匯入13個月的生產沙箱資料（不論大小）。 非生產沙箱中的回填限製為3個月。</li></ul> |
+   | **[!UICONTROL 資料集回填]** | 選取 **[!UICONTROL 請求回填]** 以回填歷史資料。<ul><li>您可以個別回填每個資料集。</li><li>您會優先處理新增至連線中資料集的新資料，因此這些新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。 延遲會受您有多少歷史資料所影響。</li><li>Analytics來源聯結器最多可匯入13個月的生產沙箱資料（不論大小）。 非生產沙箱中的回填限製為3個月。</li></ul> |
    | **[!UICONTROL 回填狀態]** | 可能的狀態指標包括：<ul><li>成功</li><li>正在處理 X 個回填</li><li>關閉</li></ul> |
    | **[!UICONTROL 資料集 ID]** | 此 ID 是自動產生的。 |
    | **[!UICONTROL 說明]** | 建立資料集時為其提供的說明。 |
