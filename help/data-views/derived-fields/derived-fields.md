@@ -4,7 +4,7 @@ description: 衍生欄位會透過一組可用的函式和函式範本，指定�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: b8d6b8b0f2740e118bd744bcb7b7ee46aefc75ed
+source-git-commit: bd017810cb0f7813bdada5e3e951b0f6d5b768e4
 workflow-type: tm+mt
 source-wordcount: '4348'
 ht-degree: 15%
@@ -749,7 +749,7 @@ Customer Journey Analytics使用下列預設容器模型：
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 欄位]:</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul><ul><li>[!UICONTROL 規則運算式]:</li><ul><li>字串</li></ul></li><li>[!UICONTROL 輸出格式]：<ul><li>字串</li></ul></ul><ul><li>區分大小寫</li><ul><li>布林值</li></ul></li></ul></li> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 欄位]:</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul><ul><li>[!UICONTROL 規則運算式]:</li><ul><li>字串</li></ul></li><li>[!UICONTROL 輸出格式]：<ul><li>字串</li></ul></ul><ul><li>區分大小寫</li><ul><li>布林值</li></ul></li></ul></li> | <p>不適用</p> | <p>每個衍生欄位1個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
