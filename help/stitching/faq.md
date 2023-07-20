@@ -3,7 +3,7 @@ title: 拼接常見問題集
 description: 彙整的常見問題
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: c87aaefdd15e02b7fe2cf8e638830aa278d46b92
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 35%
@@ -82,7 +82,7 @@ Customer Journey Analytics中的某些量度類似於傳統Analytics中的量度
 
 | **Customer Journey Analytics拼接資料** | **Customer Journey Analytics未彙整的資料** | **Adobe Analytics** | **具有 CDA 的 Analytics Ultimate** |
 | ----- | ----- | ----- | ----- |
-| **人員** =將彙整ID選為人員ID的不同人員ID計數。 在傳統 Adobe Analytics 中，**人物**&#x200B;可能高於或低於&#x200B;**不重複訪客**，取決於拼接過程的結果。 | **人員** =根據選取為人員ID的欄的不同人員ID計數。 **人員** 在Adobe來源聯結器資料集中，類似於 **不重複訪客** 在傳統Adobe Analytics中，如果 `endUserIDs._experience.aaid.id` 在Customer Journey Analytics中作為人員ID使用。 | **不重複訪客** = 不同訪客 ID 的計數。 **不重複訪客**&#x200B;可能與相異 **ECID** 的計數不同。 | 請參閱[人員](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=zh-Hant)。 |
+| **人員** =將彙整ID選為人員ID的不同人員ID計數。 在傳統 Adobe Analytics 中，**人物**&#x200B;可能高於或低於&#x200B;**不重複訪客**，取決於拼接過程的結果。 | **人員** =根據選取為人員ID的欄的不同人員ID計數。 **人員** 在Analytics來源聯結器資料集中，類似於 **不重複訪客** 在傳統Adobe Analytics中，如果 `endUserIDs._experience.aaid.id` 在Customer Journey Analytics中作為人員ID使用。 | **不重複訪客** = 不同訪客 ID 的計數。 **不重複訪客**&#x200B;可能與相異 **ECID** 的計數不同。 | 請參閱[人員](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=zh-Hant)。 |
 | **工作階段**：根據Customer Journey Analytics資料檢視中的工作階段設定來定義。 拼接過程可以將來自多個裝置的各個工作階段合併為一個工作階段。 | **工作階段**：根據Customer Journey Analytics資料檢視中指定的工作階段設定來定義。 | **造訪次數**：請參閱[造訪次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=zh-Hant)。 | **造訪次數**：根據 [CDA 虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=zh-Hant)中指定的工作階段設定來定義。 |
 | **事件** =Customer Journey Analytics中拼接資料中的列數。 這個量度通常接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。但是，請注意上面關於具有空白永久ID的列的常見問題集。 | **事件** =Customer Journey Analytics中未拼接資料中的列數。 這個量度通常接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。但是請注意，如果任何事件在Experience Platform資料湖的未拼接資料中具有空白的人員ID，則這些事件不會包含在Customer Journey Analytics中。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)。 |
 
