@@ -3,7 +3,7 @@ title: 拼接常見問題集
 description: 彙整的常見問題
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: c87aaefdd15e02b7fe2cf8e638830aa278d46b92
+source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 35%
@@ -60,6 +60,8 @@ Adobe啟用彙整功能後，需要約一週才能使用即時彙整。 能否�
 [跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) 是傳統Adobe Analytics的專屬功能，可讓您瞭解人們如何跨裝置運作。 它提供兩個將裝置資料連結在一起的工作流程：欄位式拚接和裝置圖表。
 
 跨管道分析是Customer Journey Analytics專屬的使用案例，可讓您同時瞭解人們如何跨裝置和管道運作。 它會拼接資料集的人員ID，使該資料集可順暢地與其他資料集結合。 此功能在設計上的運作方式與跨裝置分析欄位式銜接類似，但由於傳統Analytics和Customer Journey Analytics之間的資料架構不同，因此實作方式不同。 另請參閱 [拼接](overview.md) 和 [跨頻道分析](../use-cases/cross-channel/cross-channel.md) 使用案例以取得更多資訊。
+
++++
 
 +++**彙整如何處理GDPR和CCPA請求？**
 

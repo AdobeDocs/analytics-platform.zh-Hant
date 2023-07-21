@@ -4,10 +4,10 @@ description: 了解您能夠將資料內嵌至 Customer Journey Analytics 的不
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 92%
 
 ---
 
@@ -46,11 +46,11 @@ Customer Journey Analytics 提供多種資料內嵌選項：有些選項能移�
 
 如需詳細資訊，請參閱[從傳統 Adobe Analytics 中擷取和使用資料](./analytics.md)。
 
-## 透過 Adobe Experience Platform Web SDK 和 Edge Network 擷取和使用資料
+## 透過Adobe Experience Platform Web SDK擷取及使用資料
 
 您想要使用Adobe技術分析您的網站，可能從其他解決方案移轉，或開始追蹤您的人員行為。 您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
-如需詳細資訊，請參閱[透過 Adobe Experience Platform Web SDK 和 Edge Network 擷取和使用資料](./aepwebsdk.md)。
+另請參閱 [透過Adobe Experience Platform Web SDK擷取及使用資料](./aepwebsdk.md) 以取得詳細資訊。
 
 ## 擷取和使用批次資料
 
