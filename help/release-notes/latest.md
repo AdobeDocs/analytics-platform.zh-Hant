@@ -3,9 +3,9 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 9e6231e4dc9770fbb7c859b397ea8c57e7dff478
+source-git-commit: e55cd5d9da816b9413dba7542acb385f12709642
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '740'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)�
 | **衍生欄位** | 這代表衍生欄位的初始版本。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。您可以進一步將衍生欄位定義為資料檢視中的元件 (量度或維度)，然後使用衍生欄位做為工作區的元件。<p>此版本支援行銷管道範本和以下功能：</p><ul><li>串連</li><li>情況</li><li>尋找和取代</li><li>查詢</li><li>URL 剖析</li></ul> <p>[了解更多](/help/data-views/derived-fields/derived-fields.md)</p> | 2023 年 5 月 10 日 | 2023 年 8 月 2 日 |
 | **已擴大對設定檔和查詢資料的查詢支援** | 提供功能，可將資料集新增為設定檔或查詢資料集內的欄位查詢。之前僅支援事件資料集。[了解更多](/help/connections/create-connection.md) | 2023 年 6 月 21 日 | 2023 年 7 月 12 日 |
 | **Report Builder 改良功能** | <ul><li>從儲存格篩選多個資料區塊。您可以從儲存格變更對多個資料區塊的篩選。使用預先定義的儲存格，將其分配給多個資料區塊，並根據儲存格所定義的篩選器來更新資料。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html?lang=zh-Hant)</li><li>顯示和隱藏行與欄標題。您可以顯示或隱藏資料區塊表標題，或行與欄標題，以便將表格重新格式化並對齊報告中的資料區塊。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html?lang=zh-Hant#build-the-data-block)</li></ul> | 不適用 | 2023 年 7 月 19 日 |
-| **體驗 Edge 地理位置查詢** | Adobe Experience Edge 新增了地理查詢服務，為所有的 Experience Edge 使用者 (Adobe Analytics、Customer Journey Analytics、Adobe Target、Adobe Media Analytics、Adobe Experience Platform 等) 提供統一的地理資料。 | 不適用 | 2023 年 7 月 26 日 |
+| **體驗 Edge 地理位置查詢** | [Adobe Experience Edge 新增了地理查詢服務，為所有的 Experience Edge 使用者 (Adobe Analytics、Customer Journey Analytics、Adobe Target、Adobe Media Analytics、Adobe Experience Platform 等) 提供統一的地理資料。](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant) | 不適用 | 2023 年 7 月 26 日 |
 
 {style="table-layout:auto"}
 
