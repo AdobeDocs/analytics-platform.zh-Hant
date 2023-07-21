@@ -1,25 +1,24 @@
 ---
 title: Customer Journey Analytics儀表板 — 概觀
-description: Analytics 儀表板的產品文件與自助服務資源
+description: Analytics儀表板或行動計分卡的產品檔案和自助資源。
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 40e52441-e772-41a3-b2e3-51a3d00580d0
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: bf2688220a0e5b0ff3267a8f1af135e63b4066c5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 63%
+source-wordcount: '285'
+ht-degree: 50%
 
 ---
 
 # Analytics [!UICONTROL 控制面板] - 概觀
 
-**Analytics [!UICONTROL 控制面板]**&#x200B;可隨時隨地提供 Customer Journey Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
+**Analytics [!UICONTROL 控制面板]**&#x200B;可隨時隨地提供 Customer Journey Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。行動計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的專案即可取得詳細劃分資料和趨勢報表。 iOS 和 Android 作業系統均支援行動應用程式。
 
 >[!NOTE]
 >
->Customer Journey Analytics提供的行動計分卡功能幾乎與Adobe Analytics提供的功能相同。 因此，本頁面中提及的計分卡影片會顯示Adobe Analytics UI，而非Customer Journey Analytics。 <br/><br/>此外，雖然行動應用程式在應用程式商店中命名為Adobe Analytics，但該應用程式可與Customer Journey Analytics行動計分卡同等使用。
-
+>Customer Journey Analytics提供的行動計分卡功能幾乎與Adobe Analytics提供的功能相同。 因此，本頁面中提及的計分卡影片會顯示Adobe Analytics UI，而非Customer Journey AnalyticsUI。 <br/><br/>此外，雖然行動應用程式在應用程式商店中命名為Adobe Analytics，但該應用程式可與Customer Journey Analytics行動計分卡同等使用。
 
 若要進一步瞭解Customer Journey Analytics [!UICONTROL 儀表板]，請參閱下列資源：
 
