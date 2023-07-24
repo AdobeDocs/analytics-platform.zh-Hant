@@ -3,10 +3,10 @@ title: 重播的運作方式
 description: 了解跨管道分析中的「重播」概念
 exl-id: 1100043a-4e4f-4dbc-9cfc-9dcba5db5f67
 solution: Customer Journey Analytics
-feature: Cross-Channel Analytics
+feature: Cross-Channel Analysis
 hide: true
 hidefromtoc: true
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+source-git-commit: ca037fa439a6a94ca071c610089a3ad931cc921d
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 89%

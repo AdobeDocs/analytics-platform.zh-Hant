@@ -3,10 +3,10 @@ title: 標籤和原則
 description: 瞭解Adobe Experience Platform中定義的資料標籤和原則如何影響Customer Journey Analytics中的資料檢視和報告。
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: d14db99f6cf597c4b62cdb148853b0f11503eaa1
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 60%
+source-wordcount: '501'
+ht-degree: 58%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 60%
 >
 >資料使用標籤不會自動傳播至拼接的資料集。 但是，可以手動新增。
 
-當中的標示並不表示已強制執行資料使用標籤。這就是原則的作用。 您透過 Experience Platform 中的[原則服務 API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=zh-Hant) 建立您的原則。
+當中的標示並不表示已強制執行資料使用標籤。這就是原則的作用。 您使用建立您的原則 [EXPERIENCE PLATFORMUI](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant) 或透過 [原則服務API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=zh-Hant) 在Experience Platform中。
 
 Customer Journey Analytics中出現兩個Adobe定義的原則，並影響報告和下載/共用：
 
