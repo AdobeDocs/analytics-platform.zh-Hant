@@ -3,7 +3,7 @@ title: 引導式分析概述
 description: 分析Customer Journey Analytics中資料的方法，可讓產品團隊快速獲得高品質的深入分析。 也稱為Product Analytics。
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: bf2688220a0e5b0ff3267a8f1af135e63b4066c5
+source-git-commit: 4ed5acc2c9bb1a530d16d9c3ce8f5e9243bfa1f2
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 8%
@@ -14,8 +14,6 @@ ht-degree: 8%
 
 引導式分析是一種報告格式，可讓產品團隊快速自助滿足其資料需求，以便他們可以快速獲得高品質的深入分析，並做出更多資料導向的產品決策。 跨職能團隊可以即時連線，以使用和瞭解這些報表。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421621/)
-
 引導式分析報表類似於Analysis Workspace和行動計分卡，使用來自 [資料檢視](../data-views/data-views.md)，會透過參照Adobe Experience Platform中的資料 [連線](../connections/overview.md). 在「引導式分析」中建立的所有報表均可順暢地傳輸至Analysis Workspace以供進一步研究。
 
 引導式分析提供多種分析和檢視資料的方式。 檢視型別能以不同方式顯示相同的資料，導致使用相同事件和區段獲得不同的深入分析。 根據您選擇的檢視，您會獲得不同的查詢邊欄和視覺效果設定。 您可以在檢視之間自由切換，而且如果檢視支援任何適用的查詢邊欄元件則會延續。
@@ -25,7 +23,7 @@ ht-degree: 8%
 | 分析類型 | 檢視類型 | 說明 |
 | --- | --- | --- |
 | [!UICONTROL 影響] | [版本](types/release.md) | 比較發佈前和發佈後同期的績效. |
-| [!UICONTROL 影響] | [首次使用](types/first-use.md) | 衡量首次功能使用對關鍵指標的影響. |
+| [!UICONTROL 影響] | [首次使用](types/first-use.md) | 衡量功能首次使用對關鍵指標的影響. |
 | [!UICONTROL 漏斗] | [摩擦](types/friction.md) | 比較步驟之間的轉換率. |
 | [!UICONTROL 漏斗] | [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化. |
 | [!UICONTROL 使用者增長] | [作用中](types/active.md) | 識別哪些人是新的、保留的、回訪的或非活躍的使用者. |
