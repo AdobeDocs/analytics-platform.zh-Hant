@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 82%
+source-wordcount: '968'
+ht-degree: 83%
 
 ---
 
@@ -69,6 +69,7 @@ ht-degree: 82%
 + 資料檢視 {#cja-dataviews}
    + [資料檢視總覽](../data-views/data-views.md)
    + [建立或編輯資料檢視](../data-views/create-dataview.md)
+   + [內容感知作業](../data-views/context-aware-sessions.md)
    + 元件設定 {#component-settings}
       + [元件設定總覽](../data-views/component-settings/overview.md)
       + [歸因](../data-views/component-settings/attribution.md)
@@ -187,7 +188,7 @@ ht-degree: 82%
 + 引導式分析 {#guided-analysis}
    + [概觀](../guided-analysis/overview.md)
    + 影響 {#impact}
-      + [版本檢視](../guided-analysis/types/release.md)
+      + [發行檢視](../guided-analysis/types/release.md)
       + [首次使用檢視](../guided-analysis/types/first-use.md)
    + 漏斗 {#funnel}
       + [摩擦檢視](../guided-analysis/types/friction.md)
@@ -273,7 +274,7 @@ ht-degree: 82%
 
 + 拼接 {#stitching}
    + [概觀](../stitching/overview.md)
-   + [彙整的運作方式](../stitching/explained.md)
+   + [銜接的運作方式](../stitching/explained.md)
    + [建立和管理拼接資料集](../stitching/stitching-ui.md)
    + [常見問題集](../stitching/faq.md)
 
@@ -283,10 +284,10 @@ ht-degree: 82%
    + [跨管道分析常見問題](../cca/faq.md)
 
 + Adobe 整合 {#integrations}
-   + [將Adobe解決方案與Customer Journey Analytics整合概述](/help/integrations/overview.md)
+   + [將Adobe解決方案與Customer Journey Analytics整合概覽](/help/integrations/overview.md)
    + [將 Adobe Analytics 與 Customer Journey Analytics 整合](/help/integrations/aa.md)
    + [將Journey Optimizer資料與Customer Journey Analytics整合](/help/integrations/ajo.md)
-   + [整合決策管理資料與Customer Journey Analytics](/help/integrations/ajo-od.md)
+   + [將決定管理資料與Customer Journey Analytics整合](/help/integrations/ajo-od.md)
    + [將Customer AI與Customer Journey Analytics整合](/help/integrations/customer-ai.md)
 
 + 資料控管 {#cja-privacy}
@@ -303,7 +304,7 @@ ht-degree: 82%
       + [在 Customer Journey Analytics 中報告 Google Analytics 資料](../use-cases/ga/report.md)
    + 資料擷取 {#data-ingestion}
       + [將Marketo Engage資料擷取至Adobe Experience Platform並以Customer Journey Analytics報告](../use-cases/data-ingestion/marketo.md)
-      + [將Adobe Experience Platform對象擷取至Customer Journey Analytics](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [將Adobe Experience Platform受眾擷取至Customer Journey Analytics](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 資料檢視 {#data-views}
       + [資料檢視使用案例](../use-cases/data-views/data-views-usecases.md)
       + [使用繫結維度和量度](../use-cases/data-views/binding-dimensions-metrics.md)
@@ -328,9 +329,9 @@ ht-degree: 82%
    + [Labs 使用手冊](../labs/labs.md)
 
 + 疑難排解 {#troubleshooting}
-   + [將您的Adobe Analytics資料與Customer Journey Analytics資料進行比較](../troubleshooting/compare.md)
+   + [比較 Adobe Analytics 資料與 Customer Journey Analytics 資料](../troubleshooting/compare.md)
    + [Real-time CDP與Customer Journey Analytics之間的量度一致性及受眾會籍數](../troubleshooting/consistency-rcdp-cja.md)
 
 + [Customer Journey Analytics 術語](../getting-started/cja-glossary.md)
 
-+ [CUSTOMER JOURNEY ANALYTICSAPI](https://developer.adobe.com/cja-apis/docs/)
++ [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)
