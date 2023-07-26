@@ -5,9 +5,9 @@ role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1514'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Customer Journey Analytics 登陸頁面標示[!DNL Analysis Workspace]並設有�
 | [!UICONTROL Mobile 計分卡] | 建立空白 [行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hant)，供您設計和建置。 |
 | [!UICONTROL 開啟訓練教學課程] | 開啟工作區培訓教學課程，引導您完成逐步教學課程中建置新入門專案的流程。 |
 | [!UICONTROL 開啟版本注意事項] | 開啟最新 Adobe Experience Cloud 版本注意事項的 Adobe Analytics 部分。 |
-| 篩選器圖示 | 依標籤、資料檢視、所有者、型別和其他篩選器（「我的」、「已共用給我」、「我的最愛」和「已核准」）進行篩選 |
+| 篩選器圖示 | 依照標記、資料檢視、所有者、類型和其他篩選器 (「我的」、「已共用給我」、「我的最愛」和「已核准」) 來篩選 |
 | 搜尋列 | 搜尋表格中的所有欄。 |
 | 選取方塊 | 選取一個或多個專案，以顯示您可以執行的專案管理操作：**刪除**、**共用**、**重新命名**、**複製**、**取消釘選**、**上移**、**下移**、**標記**、**核准**、**匯出 CSV**，和&#x200B;**移至**。您可能沒有執行所列出所有操作的權限。 |
 | [!UICONTROL 我的最愛] | 將星號新增至可用作篩選器的最喜愛專案或資料夾旁。 |
@@ -61,7 +61,7 @@ Customer Journey Analytics 登陸頁面標示[!DNL Analysis Workspace]並設有�
 | [!UICONTROL 類型] | 指出此類型是工作區專案、行動計分卡或資料夾。 |
 | [!UICONTROL 標籤] | 標記專案，可方便分類整理。 |
 | [!UICONTROL 專案角色] | 識別專案角色：您是否為專案所有者，以及您是否具有編輯或複製專案的權限。 |
-| [!UICONTROL 資料檢視] | 識別與專案相關聯的資料檢視。<br>面板內的表格和視覺效果是從面板右上角所選資料檢視衍生而得。該資料檢視也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個資料檢視，多寡視您的分析使用情形而定。 資料檢視清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
+| [!UICONTROL 資料檢視] | 識別與專案相關聯的資料檢視。<br>面板內的表格和視覺效果是從面板右上角所選資料檢視衍生而得。該資料檢視也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個資料檢視，多寡視您的分析使用案例而定。資料檢視清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
 | [!UICONTROL 所有者] | 識別建立專案的人員。 |
 | [!UICONTROL 上次開啟時間] | 識別您上次開啟專案的日期。 |
 | 自訂表格圖示 | 選取要在表格中查看的欄。 若要從專案清單中新增或移除欄，請按一下右上方的欄圖示 (![登陸 - 所有項目](assets/select-column.png))，然後選取或取消選取欄標題。 |
@@ -80,27 +80,27 @@ Customer Journey Analytics 登陸頁面標示[!DNL Analysis Workspace]並設有�
 
 ![切換至所有專案](assets/switch-all-projects-view.png)
 
-## 使用「學習」標籤 {#navigate-learning}
+## 使用「學習」標籤。 {#navigate-learning}
 
-「學習」頁面包含實作影片導覽、教學課程和檔案連結。
+「學習」頁面包含實作影片導覽和教學課程，以及多個文件連結。
 
-使用Customer Journey Analytics中的「學習」頁面來瞭解：
+使用 Customer Journey Analytics 中的「學習」頁面來學習：
 
-* CJA中的初級、中繼或進階功能和使用案例
-* 如何更順暢地從Adobe Analytics轉變到CJA
+* CJA 中的初級、中級或進階功能和使用案例
+* 如何更順暢地從 Adobe Analytics 轉換到 CJA
 
-### 存取學習頁面
+### 存取「學習」頁面
 
-1. 在Customer Journey Analytics中選取 [!UICONTROL **Workspace**] > [!UICONTROL **學習**].
+1. 在 Customer Journey Analytics 中，選取「[!UICONTROL **工作區**] > [!UICONTROL **學習**]」。
 
-### 學習頁面功能
+### 「學習」頁面功能
 
-* **篩選內容：** 左側欄中的「篩選」圖示可讓您依體驗層級（初級、中級或進階）和內容型別（檔案、影片或導覽和教學課程）篩選學習內容。
-* **追蹤進度：** 選取一段內容後， **[!UICONTROL 已檢視]** 標籤隨即顯示。 此標籤可幫助您透過學習內容追蹤您的進度。您可以選取 **[!UICONTROL 已檢視]** 標籤將其從內容片段中移除。
-* **檢視其他內容：** 檢視任何影片時，請選取 **[!UICONTROL 瞭解更多]** 按鈕以檢視Experience League的相關檔案內容。 或者，從「學習」頁面中，選取下列任一選項以檢視其他內容：
-   * **[!UICONTROL 造訪YouTube]：** 檢視完整的Analysis Workspace YouTube播放清單。
-   * [!UICONTROL **造訪Experience League**]：檢視有關Experience League的完整CJA檔案套件。
-* **新使用者的基本知識：** 此 [!UICONTROL 工作區基礎知識] 建議新使用者參閱導覽。 此導覽可讓您直接進入工作區，並逐步瞭解最常見的操作。 此導覽也可以隨時在Workspace中透過面板標題的工具提示快顯視窗重新啟動。
+* **篩選內容：**&#x200B;左側欄中的「篩選器」圖示讓您按經驗級別 (初級、中級或進階) 以及按內容類型 (文件、影片或導覽和教學課程) 篩選學習內容。
+* **追蹤進度：**&#x200B;在選取一段內容後，會出現「**[!UICONTROL 已檢視]**」標記。此標記可幫助您透過學習內容追蹤您的進度。您可以選取&#x200B;**[!UICONTROL 已檢視]**&#x200B;標記以將其從內容中刪除。
+* **檢視其他的內容：**&#x200B;在觀看任何影片時，選取「**[!UICONTROL 深入了解]**」按鈕以檢視 Experience League 上的相關文件內容。或者，從「學習」頁面中選取以下任一選項，以檢視其他內容：
+   * **[!UICONTROL 造訪 YouTube]：**&#x200B;檢視完整的 Analysis Workspace YouTube 播放清單。
+   * [!UICONTROL **造訪 Experience League**]：檢視 Experience League 上的完整 CJA 文件套裝。
+* **新使用者的基礎知識：**&#x200B;推薦新使用者使用此「[!UICONTROL 工作區基礎知識]」導覽。此導覽將直接帶您進入工作區並引導您完成最常見的操作。也可以透過面板標題的工具提示快顯視窗，直接在工作區中重新啟動此導覽。
 
 ## 設定您的登陸頁面 {#set-landing}
 
