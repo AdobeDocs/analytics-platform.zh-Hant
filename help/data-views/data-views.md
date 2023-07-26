@@ -1,17 +1,17 @@
 ---
-title: 資料檢視總覽
-description: 資料檢視會指定您想要如何解釋Customer Journey Analytics連線中的資料元素，例如量度、維度、工作階段等。
+title: 資料檢視概觀
+description: 資料檢視指定您想要如何解釋 Customer Journey Analytics 連線中的資料元素，例如量度、維度、工作階段等。
 exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# 資料檢視總覽
+# 資料檢視概觀
 
 資料檢視是特定於 Customer Journey Analytics 的容器，可讓您決定如何解釋來自[連線](/help/connections/create-connection.md)的資料。它指定 Analysis Workspace 中可用的所有維度和量度，以及這些維度和量度從哪些欄取得資料。資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
@@ -25,7 +25,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 ## 資料檢視功能 {#capabilities}
 
-資料檢視可讓您自發地變更結構描述元素設定，而不必變更Adobe Experience Platform中的結構描述或重新實作Customer Journey Analytics環境。
+資料檢視可讓您自發地變更「資料檢視」中的「綱要」元素設定，而不需變更 Adobe Experience Platform 的綱要或重新實作 Customer Journey Analytics 環境。
 
 * **您可以將元件從「量度」變更為「維度」，反之亦然**。您可以從字串欄位建立量度，或從數值欄位建立維度。這可讓您的生活更輕鬆，因為您不需要在 XDM 結構中為每個所需的量度建立數值欄位。您只需在資料檢視對話方塊中自發建立它。以下是一些範例：
    * **從單一結構欄位建立一或多個和/或一個維度**。這是一對多的關係。例如，您可以從單一結構欄位建立一或多個「收入」量度及/或一或多個「收入」維度。
