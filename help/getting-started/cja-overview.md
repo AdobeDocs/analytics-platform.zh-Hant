@@ -15,7 +15,7 @@ ht-degree: 97%
 
 Customer Journey Analytics是Adobe的新一代Analytics解決方案，可讓您搭配Adobe Experience Platform的資料使用Analysis Workspace的強大功能。 這能協助您劃分、篩選、查詢及視覺化多年累積的資料，並結合 Platform 掌握各種資料綱要和類型的能力。採用 **Experience Data Model (XDM)**，能以統一方式呈現和組織資料，可進行組合和探索。**Experience Query Services** 可讓您使用相容於 SQL 的工具和架構來查詢及操控所有資料。
 
-高等級 Customer Journey Analytics 架構如下所示：
+高層級 Customer Journey Analytics 架構如下所示：
 
 ![架構](assets/cja-architecture.png)
 
@@ -23,7 +23,7 @@ Customer Journey Analytics是Adobe的新一代Analytics解決方案，可讓您�
 
 >[!VIDEO](https://video.tv.adobe.com/v/30090/?quality=12)
 
-## Customer Journey Analytics 與 Adobe Analytics 的比較
+## Customer Journey Analytics 與傳統 Adobe Analytics 的比較
 
 Customer Journey Analytics 提供簡單易用的跨頻道功能，並移除舊版 Adobe Analytics 的限制，進一步擴展 Analytics 的應用範圍。幾個值得注意的改善項目如下：
 
@@ -34,7 +34,7 @@ Customer Journey Analytics 提供簡單易用的跨頻道功能，並移除舊�
 
 >[!TIP]
 >
->如果您一直在使用 Adobe Analytics 並希望在 Customer Journey Analytics 中使用您的 Adobe Analytics 資料，請參閱[從傳統 Adobe Analytics 擷取和使用資料](../data-ingestion/analytics.md)快速入門指南，其為[資料擷取](../data-ingestion/data-ingestion.md)章節的一部分。
+>如果您一直在使用 Adobe Analytics 並希望在 Customer Journey Analytics 中使用您的 Adobe Analytics 資料，請參閱[從傳統 Adobe Analytics 擷取和使用資料](../data-ingestion/analytics.md)快速入門指南；此指南為[資料擷取](../data-ingestion/data-ingestion.md)章節的一部分。
 
 Customer Journey Analytics 的初始版本包含 Adobe Analytics 中的多項功能。如需完整清單，請參閱 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。
 
@@ -63,7 +63,7 @@ Customer Journey Analytics 可用來：
 
 ## 術語更新
 
-與傳統 Adobe Analytics 相比，Customer Journey Analytics 中的數項功能已重新命名，以符合業界標準。一些更新的術語包括：
+Customer Journey Analytics 中的數項功能已重新命名 (與傳統 Adobe Analytics 比較)，以便符合業界標準。一些更新的術語包括：
 
 * 區段現在稱為「篩選器」。
 * 虛擬報告套裝現在稱為「資料檢視」。

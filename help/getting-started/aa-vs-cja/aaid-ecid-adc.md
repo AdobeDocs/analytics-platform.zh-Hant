@@ -6,7 +6,7 @@ feature: Basics
 source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 73%
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Analytics 資料包含多個身分識別欄位。 三個重要的身分識
 
 Adobe Analytics ID (AAID)是Adobe Analytics中的主要裝置識別碼，並且保證存在於透過Analytics來源聯結器傳遞的每個事件中。 AAID 有時稱為「舊版分析 ID」或 `s_vi`Cookie ID。但是，即使 `s_vi`Cookie 不存在，也會建立 AAID。AAID 由 [Adobe Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant#columns%2C-descriptions%2C-and-data-types)中的 `post_visid_high/post_visid_low` 資料行表示。
 
-在Analytics來源聯結器中，AAID將轉換為 `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. 指定事件的 AAID 欄位包含單一身分識別，該身分識別可能是 [Analytics ID 作業順序](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=zh-Hant%5B%5D)中所述的幾種類型之一。 (在整個報告套裝中，AAID 可能包含跨事件的多種類型。 每個事件的型別都指示在 `post_visid_type` 欄)。 另請參閱：[資料資料行參照](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)。
+在Analytics來源聯結器中，AAID將轉換為 `HEX(post_visid_high) + "-" + HEX(post_visid_low)`. 指定事件的 AAID 欄位包含單一身分識別，該身分識別可能是 [Analytics ID 作業順序](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-order-of-operations.html?lang=zh-Hant%5B%5D)中所述的幾種類型之一。 (在整個報告套裝中，AAID 可能包含跨事件的多種類型。 每個事件的類型都顯示在 Analytics 資料摘要的 `post_visid_type` 資料行中。)另請參閱：[資料資料行參照](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)。
 
 ## ECID
 
@@ -52,6 +52,6 @@ Analytics來源聯結器將這些身分識別以XDM形式傳遞到Adobe Experien
 否則，AAID 將標記為事件的主要身分識別。
 * AACUSTOMID 永遠不會標記為事件的主要 ID。但是，如果 AACUSTOMID 存在，則 AAID 會以上述 AACUSTOMID 為基礎。
 
-## Customer Journey Analytics和主要ID
+## Customer Journey Analytics 和主要 ID
 
-就Customer Journey Analytics而言，只有在您決定使用主要ID作為人員ID時，主要ID的定義才重要。 然而，這並不具有強制性。 您可以選擇其他身分識別資料行作為人員 ID。
+就 Customer Journey Analytics 而言，只有在您決定將主要 ID 當做人員 ID 時，主要 ID 的定義才重要。然而，這並不具有強制性。 您可以選擇其他身分識別資料行作為人員 ID。
