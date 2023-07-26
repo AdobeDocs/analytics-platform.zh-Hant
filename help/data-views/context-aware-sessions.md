@@ -3,7 +3,7 @@ title: 內容感知作業
 description: 資料檢視中的設定，可用於定義內容感知作業。
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
+source-git-commit: 6235fbb128098e2a624d5fd4fd72c2c583cfd277
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 資料檢視中的內容感知作業階段會變更Customer Journey Analytics從您連線中的資料計算作業階段的方式。
 
-在 [!UICONTROL 設定] 資料檢視的索引標籤中，您可以透過任何方式定義工作階段，以符合個人與您的數位體驗的互動方式。 內容感知作業定義是非破壞性的，不會改變基礎資料。 您可以設定多個資料檢視，每個檢視都有其特定的內容感知作業定義，可作為工作區專案的基礎。
+在 [!UICONTROL 設定] 資料檢視的索引標籤中，您可以透過任何方式定義工作階段，以符合個人與您的數位體驗的互動方式。 內容感知作業定義是非破壞性的，不會改變基礎資料。 您可以設定多個資料檢視，每個檢視都有其特定的內容感知作業定義，可作為您的Workspace專案的基礎。
 
 若要為資料檢視定義工作階段的前後關聯：
 
