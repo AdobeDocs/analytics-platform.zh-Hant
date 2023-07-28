@@ -3,7 +3,7 @@ title: 引導式分析概述
 description: 分析Customer Journey Analytics中資料的方法，可讓產品團隊快速獲得高品質的深入分析。 也稱為Product Analytics。
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: f1eb7eefb84054c37a04dd1535f30e3e5130e019
+source-git-commit: bf34b4e1a7c1e28cbaae98e61492901b1d143e3e
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 8%
@@ -27,7 +27,7 @@ Adobe Product Analytics可讓產品團隊透過引導式Customer Journey Analyti
 | [!UICONTROL 漏斗] | [摩擦](types/friction.md) | 比較步驟之間的轉換率. |
 | [!UICONTROL 漏斗] | [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化. |
 | [!UICONTROL 使用者增長] | [作用中](types/active.md) | 識別哪些人是新的、保留的、回訪的或非活躍的使用者. |
-| [!UICONTROL 淨增長] | [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
+| [!UICONTROL 使用者增長] | [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
 | [!UICONTROL 趨勢] | [使用狀況](types/usage.md) | 測量使用者在一段時間內的參與度. |
 
 {style="table-layout:auto"}
