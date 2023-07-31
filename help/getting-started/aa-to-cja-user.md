@@ -8,7 +8,7 @@ exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '1480'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Experience Platform 中的客戶資料以資料集形式儲存，資料集含有
 
 >[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
 
-Adobe提供多種將資料匯入Adobe Experience Platform的方法，包括透過Analytics來源聯結器或Web SDK的報告套裝資料。 來自多個報告套裝的現有實現可以組合為 Experience Platform。基於這些資料集的連線和資料檢視可以合併先前存在於單獨報告套裝中的資料。
+Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包括透過 Adobe Analytics 來源連接器或 Web SDK 的報告套裝資料。可在 Experience Platform 中結合來自多個報告套裝的現有實作。基於這些資料集的連線和資料檢視可以合併先前存在於單獨報告套裝中的資料。
 
 ## 虛擬報告套裝概念的變動 {#data-views}
 

@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: ca037fa439a6a94ca071c610089a3ad931cc921d
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Customer Journey Analytics 中的某些量度與 Adobe Analytics 中的量度類
 
 | **Customer Journey Analytics 拼接資料** | **Customer Journey Analytics 未拼接資料** | **傳統 Adobe Analytics** | **具有 CDA 的 Analytics Ultimate** |
 | ----- | ----- | ----- | ----- |
-| **人物**= 不同的 `Person ID` 計數，其中 `Stitched ID` 被選為 `Person ID`。 在傳統 Adobe Analytics 中，**人物**&#x200B;可能高於或低於&#x200B;**不重複訪客**，取決於拼接過程的結果。 | **人物** = 不同的 `Person ID` 計數，根據選取為 `Person ID` 的欄位而定。 **人員** 在Analytics中，來源聯結器資料集類似於 **不重複訪客** 在傳統Adobe Analytics中，如果 `endUserIDs._experience.aaid.id` 被選為 `Person ID` 在Customer Journey Analytics中。 | **不重複訪客** = 不同人員 ID 的計數。**不重複訪客**&#x200B;可能與相異 **ECID** 的計數不同。 | 請參閱[人員](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=zh-Hant)。 |
+| **人物**= 不同的 `Person ID` 計數，其中 `Stitched ID` 被選為 `Person ID`。 在傳統 Adobe Analytics 中，**人物**&#x200B;可能高於或低於&#x200B;**不重複訪客**，取決於拼接過程的結果。 | **人物** = 不同的 `Person ID` 計數，根據選取為 `Person ID` 的欄位而定。 在 Analytics 來源連接器資料集中，**人員**&#x200B;類似於傳統 Adobe Analytics 中的&#x200B;**不重複訪客**，如果在 Customer Journey Analytics 中 `endUserIDs._experience.aaid.id` 被選為 `Person ID`。 | **不重複訪客** = 不同人員 ID 的計數。**不重複訪客**&#x200B;可能與相異 **ECID** 的計數不同。 | 請參閱[人員](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=zh-Hant)。 |
 | **工作階段**：根據 Customer Journey Analytics 資料檢視中的工作階段設定來定義。拼接過程可以將來自多個裝置的各個工作階段合併為一個工作階段。 | **工作階段**：根據 Customer Journey Analytics 資料檢視中指定的工作階段設定來定義。 | **造訪次數**：請參閱[造訪次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=zh-Hant)。 | **造訪次數**：根據 [CDA 虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=zh-Hant)中指定的工作階段設定來定義。 |
 | **事件**= Customer Journey Analytics 中拼接資料中的列數。這個量度通常接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。但是，請注意上面關於 `Persistent ID` 為空白列的常見問題解答。 | **事件**= Customer Journey Analytics 中未拼接資料中的列數。這個量度通常接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。但是請注意，如果任何事件在 Experience Platform 資料湖的未拼接資料中具有空白 `Person ID`，則 Customer Journey Analytics 中不會包含這些事件。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)。 |
 

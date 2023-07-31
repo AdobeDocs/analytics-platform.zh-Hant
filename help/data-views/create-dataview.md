@@ -7,7 +7,7 @@ feature: Data Views
 source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 建立或編輯資料檢視的方法：
 
-1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 並移至「**[!UICONTROL 資料檢視]**」標籤。
+1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 並移至「**[!UICONTROL 資料檢視]**」索引標籤。
 1. 若要建立資料檢視，請選取「**[!UICONTROL 建立新的資料檢視]**」。或者，您可以從資料檢視清單中選取現有資料檢視進行編輯。
 
 
@@ -78,7 +78,7 @@ ht-degree: 99%
 
 接下來，您可以設定資料檢視的元件，這代表您可以從綱要元素建立量度和維度。您也可以使用標準元件。
 
-1. 選取「**[!UICONTROL 元件]**」標籤。
+1. 選取「**[!UICONTROL 元件]**」索引標籤。
 
    ![元件標籤](assets/dataview-components.png)
 
@@ -118,7 +118,7 @@ ht-degree: 99%
 
 ## 設定
 
-1. 選取「**[!UICONTROL 設定]**」標籤。
+1. 選取「**[!UICONTROL 設定]**」索引標籤。
 1. 設定篩選器以套用於整個資料檢視。請參閱下方的「[設定 (篩選器)](#settings-filters)」。
 1. 設定工作階段逾時和量度。請參閱下方的「[工作階段設定](#session-settings)」。
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料檢視。選取「**[!UICONTROL 儲存]**」，儲存現有資料檢視的設定。
@@ -129,6 +129,6 @@ ht-degree: 99%
 
 ### 工作階段設定
 
-決定在工作階段到期和新工作階段開始之前，事件之間的閒置時段。需要時段。您也可以選擇在事件包含特定量度時，強制啟動新工作階段。另請參閱 [內容感知作業](context-aware-sessions.md) 以取得更多詳細資料。
+決定在工作階段到期和新工作階段開始之前，事件之間的閒置時段。需要時段。您也可以選擇在事件包含特定量度時，強制啟動新工作階段。如需更多詳細資料，請參閱[內容感知工作階段](context-aware-sessions.md)。
 
 指定所有所需設定後，按一下&#x200B;**[!UICONTROL 「儲存並完成」]**。

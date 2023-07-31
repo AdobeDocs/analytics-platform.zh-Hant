@@ -7,7 +7,7 @@ feature: Basics
 source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '2053'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 91%
 | 區段 | 完整支援。現在稱為「篩選器」。請注意，傳統 Analysis Workspace 中任何現有的區段都不會移植至 Customer Journey Analytics。 |
 | 虛擬報告套裝 | 完整支援。現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | 虛擬報告套裝元件組織 | 完整支援。現在是資料檢視的一部分。 |
-| 串流媒體 Analytics | 使用Analytics來源聯結器當作工作區中的「媒體同時檢閱者」面板和「媒體播放時間」面板的一部分提供媒體資料。 |
+| 串流媒體 Analytics | 媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢閱者」面板和「媒體播放時間」面板的一部分提供。 |
 
 {style="table-layout:auto"}
 
@@ -63,15 +63,15 @@ ht-degree: 91%
 | 量度去重複化 | 現在於資料檢視中的量度上設定。量度去重複化發生在人員或工作階段層級，而不是資料集、資料檢視或連接層級。 |
 | 進入、退出及逗留的時間等維度和量度 | 系統可支援 (進入與退出現在稱為「工作階段開始」和「工作階段結束」)，不過計算方式稍有不同。 |
 | eVar 持續性設定 | eVar 不再是 Customer Journey Analytics 的一部分。不過持續性設定現在是資料檢視的一部分，可用於所有維度。 請記得，持續性是依據報表時間處理，而非資料收集處理。 「資料檢視」中設定的維度上限為 90 天的持續性，不支援無限制的持續性。 |
-| IP 模糊化 | 對於使用Analytics來源聯結器將來自Adobe Analytics的資料填入到Customer Journey Analytics中的Customer Journey Analytics客戶：在Adobe Analytics中套用的IP模糊化設定會流入您的Customer Journey Analytics資料。 您可以視需要在 Adobe Analytics 中控制這些設定。<p>對於使用 Experience Platform Web SDK 將資料直接填入 Platform 和 Customer Journey Analytics 中的 Customer Journey Analytics 客戶，您可以使用 Platform 中「資料收集」的「資料準備」，根據公司的要求設定模糊 IP 位址規則。 |
+| IP 模糊化 | 對於使用 Analytics 來源連接器將 Adobe Analytics 的資料填入到 Customer Journey Analytics 中的 Customer Journey Analytics 客戶：Adobe Analytics 中套用的 IP 模糊化設定也會套用至 Customer Journey Analytics 資料。您可以視需要在 Adobe Analytics 中控制這些設定。<p>對於使用 Experience Platform Web SDK 將資料直接填入 Platform 和 Customer Journey Analytics 中的 Customer Journey Analytics 客戶，您可以使用 Platform 中「資料收集」的「資料準備」，根據公司的要求設定模糊 IP 位址規則。 |
 | 新工作階段與重複工作階段報告 | 先前使用造訪編號維度完成。新工作階段與重複工作階段支援 [13 個月的回溯期](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html?lang=zh-Hant)。 |
 | 產品變數 | 在 Experience Platform 中，使用者可在資料集綱要中使用物件類型欄位陣列，以符合此使用案例。 在 Customer Journey Analytics 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
 | 專案共用 | 專案共用功能僅支援在 Customer Journey Analytics 的使用者之間使用 -Customer Journey Analytics 和傳統 Analysis Workspace 之間不支援專案共用。 |
 | 視覺效果 | 支援所有視覺效果，但地圖視覺效果除外。 |
 | Report Builder (Excel 外掛程式) | 支援用於 Excel 的新 Office 365 外掛程式。 |
 | 使用者權限/資料存取控制 | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hant) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。其他使用者權限可建立計算量度、篩選器或附註等。 |
-| 處理規則、VISTA 規則、行銷管道處理規則 | Adobe Experience Platform資料準備功能支援WebSDK型資料集和Analytics來源聯結器的資料。 |
-| 行銷管道 | 使用Analytics來源聯結器時，行銷管道資料會通過該聯結器流入Customer Journey Analytics。 傳統 Adobe Analytics 需設定行銷管道規則，且不支援部分規則。無須詳細資料，請參閱 [Customer Journey Analytics 行銷管道文件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html)。<br/>對於 WebSDK 實施，會透過[衍生欄位](../../data-views/derived-fields/derived-fields.md)支援報告時間行銷管道處理規則。 |
+| 處理規則、VISTA 規則、行銷管道處理規則 | Adobe Experience Platform Data Prep 功能支援 WebSDK 式資料集和 Analytics 來源連接器資料。 |
+| 行銷管道 | 使用 Analytics 來源連接器時，行銷管道資料會透過該連接器流入 Customer Journey Analytics。傳統 Adobe Analytics 需設定行銷管道規則，且不支援部分規則。無須詳細資料，請參閱 [Customer Journey Analytics 行銷管道文件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html)。<br/>對於 WebSDK 實施，會透過[衍生欄位](../../data-views/derived-fields/derived-fields.md)支援報告時間行銷管道處理規則。 |
 
 {style="table-layout:auto"}
 
@@ -80,12 +80,12 @@ ht-degree: 91%
 | 功能 | 附註 |
 | --- | --- |
 | 跨裝置/跨管道拼接 | 支援直接包含身分資訊的資料集 (也稱為「依欄位匯整」)。目前尚不支援圖表式匯整，但已規劃完成。請參閱「[拼接](../../stitching/overview.md)」。 |
-| 機器人篩選 | 的 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)以資料集為基礎，系統會套用機器人篩選。 [!UICONTROL Experience Platform] 或 Customer Journey Analytics 不會針對其他資料集執行一般機器人篩選邏輯。 |
-| 裝置、瀏覽器、推薦者、技術維度 | 支援 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)以資料集為基礎。 請參閱[透過 ADC 支援 Analytics 變數的文件](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant)。<p>如果您使用 Experience Platform Web SDK 資料收集，則目前不支援基於裝置查詢裝置和維度。已規劃於未來支援。 |
-| 地理細分維度 | 收集到Adobe Analytics的所有GeoSegmentation/地理位置都會透過Customer Journey Analytics [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant). 未使用Analytics來源聯結器，但仰賴Experience Platform Web SDK進行數位資料收集的實作，可以使用 [Experience Edge地理查閱服務](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant). |
+| 機器人篩選 | 對於以 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)為基礎的資料集，則會套用機器人篩選。[!UICONTROL Experience Platform] 或 Customer Journey Analytics 不會針對其他資料集執行一般機器人篩選邏輯。 |
+| 裝置、瀏覽器、推薦者、技術維度 | 支援 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)型資料集。請參閱[透過 ADC 支援 Analytics 變數的文件](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant)。<p>如果您使用 Experience Platform Web SDK 資料收集，則目前不支援基於裝置查詢裝置和維度。已規劃於未來支援。 |
+| 地理細分維度 | 收集到 Adobe Analytics 的所有 GeoSegmentation/地理位置都會透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)流入 Customer Journey Analytics。可使用[體驗 Edge Geo Lookup 服務](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant)實施不使用 Analytics 來源連接器，但依賴 Experience Platform Web SDK 進行數位資料收集。 |
 | 面板 | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。不支援區段比較面板和 Analytics for Target (A4T) 面板。 |
-| 處理規則 | 對於以Analytics來源聯結器為基礎的資料集，仍會套用處理規則。 [Adobe Experience Platform 中的資料準備功能](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)也可用來取代直接送到 Platform 的資料適用的處理規則。 |
-| A4T | 透過 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant). 已規劃目標活動和體驗支援 A4T 易記名稱。 |
+| 處理規則 | 對於以 Analytics 來源連接器為基礎的資料集，仍會套用處理規則。[Adobe Experience Platform 中的資料準備功能](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)也可用來取代直接送到 Platform 的資料適用的處理規則。 |
+| A4T | 透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)中的欄位提供部分支援。已規劃目標活動和體驗支援 A4T 易記名稱。 |
 
 {style="table-layout:auto"}
 

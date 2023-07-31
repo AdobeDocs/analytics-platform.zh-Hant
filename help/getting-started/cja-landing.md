@@ -7,7 +7,7 @@ feature: Basics
 source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=zh-Hant"> 結合報告套裝與不同的綱要 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/pr-vista-dataprep.html?lang=zh-Hant"> 處理規則、VISTA 和分類與「資料準備」的比較 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=zh-Hant">比較 Adobe Analytics 和 Customer Journey Analytics 報告功能的資料處理</a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html?lang=zh-Hant"> 虛擬報告套裝、資料檢視、Adobe Experience Platform沙箱和Analytics來源聯結器 </a> </li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/vrs-dataview-sandbox-adc.html?lang=zh-Hant">虛擬報告套裝、資料檢視、Adobe Experience Platform 沙箱和 Analytics 來源連接器</a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=zh-Hant">Adobe Analytics 至 Customer Journey Analytics 的發展進程 </a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user.html?lang=zh-Hant">Adobe Analytics 使用者適用的 Customer Journey Analytics 使用手冊</a> </li>
      <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant#connection-detail"> 使用加強的連線管理功能 </a> </li>
