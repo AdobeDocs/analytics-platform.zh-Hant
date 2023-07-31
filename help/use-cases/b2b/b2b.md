@@ -1,13 +1,13 @@
 ---
 title: (B2B) 新增帳戶層級資料當做查詢資料集
-description: 瞭解如何將帳戶型資料當做查詢資料集新增到Customer Journey Analytics
+description: 瞭解如何將以帳戶為基礎的資料，以查詢資料集的形式新增至Customer Journey Analytics
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 647257322dc4b7e64e0e17fbfde27f626b1012a1
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 73%
+source-wordcount: '821'
+ht-degree: 74%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 73%
 
 您可以將帳戶層級資訊做為一個[查詢](/help/getting-started/cja-glossary.md)資料集，即可做到這一切。
 
-首先，您要在Adobe Experience Platform中建立查詢結構，接著內嵌.csv格式的帳戶層級資料以建立查詢表格資料集。 接著，繼續以Customer Journey Analytics(Customer Journey Analytics)建立連線，結合不同的資料集，包括您建立的查詢資料集。 您之後會建立資料檢視，最後就能夠在 Workspace 中運用上述的所有資料。
+首先，您要在Adobe Experience Platform中建立查詢結構，接著內嵌.csv格式的帳戶層級資料以建立查詢表格資料集。 接下來，您需要繼續建立結合不同資料集的Customer Journey Analytics(Customer Journey Analytics)連線，包括您建立的查詢資料集。 您之後會建立資料檢視，最後就能夠在 Workspace 中運用上述的所有資料。
 
 >[!NOTE]
 >
@@ -31,13 +31,13 @@ ht-degree: 73%
 
 ## 1. 建立查詢結構 (Experience Platform)
 
-建立您自己的結構描述 [查詢](/help/getting-started/cja-glossary.md) 表格可確保使用的資料集能以正確設定（記錄型別）的Customer Journey Analytics提供。 最佳作法是以「Lookup」為名稱[建立自訂架構類別](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#create-new-class) (不含任何元素)，供所有查詢表格重複使用。
+建立您自己的結構描述 [查詢](/help/getting-started/cja-glossary.md) 表格可確保所用的資料集能夠以正確設定（記錄型別）的Customer Journey Analytics使用。 最佳作法是以「Lookup」為名稱[建立自訂架構類別](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#create-new-class) (不含任何元素)，供所有查詢表格重複使用。
 
 ![](../assets/create-new-class.png)
 
 ## 2.建立查詢資料集(Experience Platform)
 
-建立架構後，就能在 Experience Platform 中使用該架構建立查詢資料集。此查詢資料集包含帳戶層級的行銷資訊，例如：公司名稱、員工總數、網域名稱、產業別、年度營收、是否為Experience Platform的現有客戶、所處銷售階段、帳戶內的哪個團隊正在使用Customer Journey Analytics等。
+建立架構後，就能在 Experience Platform 中使用該架構建立查詢資料集。此查詢資料集包含帳戶層級的行銷資訊，例如：公司名稱、員工總數、網域名稱、產業別、年度營收、是否為Experience Platform的現有客戶、所處銷售階段、帳戶中正在使用Customer Journey Analytics的團隊等等。
 
 1. 開啟 Adobe Experience Platform 後，前往&#x200B;**[!UICONTROL 「資料管理 > 資料集」]**。
 1. 按一下&#x200B;**[!UICONTROL 「+ 建立資料集」]**。
@@ -62,8 +62,8 @@ ht-degree: 73%
 | 資料集名稱 | 說明 | Adobe Experience Platform結構描述類別 | 資料集詳細資訊 |
 | --- | --- | --- | --- |
 | B2B 曝光數 | 包含點按資料流 (帳戶層級的事件層級資料)。舉例來說，其中包含刊登行銷廣告所需的電子郵件 ID、對應的帳戶 ID 及行銷名稱。此外，資料中也包含這些廣告的每位使用者曝光數。 | 以 XDM ExperienceEvent 架構類別為基礎 | `emailID`設為主要身分識別，並獲指派 `Customer ID` 命名空間。因此，系統會以預設的&#x200B;**[!UICONTROL 人員 ID]** 形式顯示於 Customer Journey Analytics。![曝光數](../assets/impressions-mixins.png) |
-| B2B 設定檔 | 此設定檔資料集能協助您深入了解帳戶中使用者的相關資訊，例如其職稱、所屬帳戶、LinkedIn 個人檔案等。 | 以 XDM 個別設定檔架構類別為基礎 | 不需在此架構中選取 `emailID`作為主要 ID。請務必啟用 **[!UICONTROL 設定檔]**；否則，Customer Journey Analytics將無法連線 `emailID` 在B2B設定檔中使用 `emailID` B2B曝光資料中。 ![設定檔](../assets/profile-mixins.png) |
-| B2B 資訊 | 請參閱上方的「建立查詢資料集」。 | B2BAccount (自訂查詢結構類別) | 兩者之間的關係 `accountID` 而且，透過將B2B資訊資料集與Customer Journey Analytics中的B2B曝光數資料集連線，已自動建立B2B曝光數資料集，如以下步驟所述。 ![查詢](../assets/lookup-mixins.png) |
+| B2B 設定檔 | 此設定檔資料集能協助您深入了解帳戶中使用者的相關資訊，例如其職稱、所屬帳戶、LinkedIn 個人檔案等。 | 以 XDM 個別設定檔架構類別為基礎 | 選取 `emailID` 做為此結構描述中的主要ID。 |
+| B2B 資訊 | 請參閱上述「建立查詢資料集」。 | B2BAccount (自訂查詢結構類別) | 兩者之間的關係 `accountID` 而且，透過將B2B資訊資料集與Customer Journey Analytics中的B2B曝光數資料集連結，B2B曝光數資料集已自動建立，如以下步驟所述。 ![查詢](../assets/lookup-mixins.png) |
 
 合併資料集的方法說明如下：
 
