@@ -4,10 +4,10 @@ description: 了解您能夠將資料內嵌至 Customer Journey Analytics 的不
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: 89841edb40f8ac89a3142588fede383b87d246f9
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 90%
+source-wordcount: '866'
+ht-degree: 71%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 90%
 
 - 來自目前 Adobe Analytics 部署的資料、
 
-- 使用 Adobe Experience Platform Web/Mobile SDK 追蹤您的網站/行動應用程式的資料，或
+- 資料來自於使用Adobe Experience Platform Web/Mobile SDK追蹤您的網站/行動應用程式，
+
+- 資料來自於使用Adobe Experience Platform Edge Network Server API追蹤案頭應用程式、主機遊戲、機上盒或IoT裝置，或
 
 - 來自 Adobe 為其提供來源連接器之第三方資料提供者的資料。
 
@@ -46,11 +48,26 @@ ht-degree: 90%
 
 如需詳細資訊，請參閱[從傳統 Adobe Analytics 中擷取和使用資料](./analytics.md)。
 
-## 透過Adobe Experience Platform Web SDK擷取及使用資料
+
+## 透過Edge Network擷取及使用資料
+
+### 使用Adobe Experience Platform Web SDK
 
 您想要使用Adobe技術分析您的網站，可能從其他解決方案移轉，或開始追蹤您的人員行為。 您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
 另請參閱 [透過Adobe Experience Platform Web SDK擷取及使用資料](./aepwebsdk.md) 以取得詳細資訊。
+
+### 使用Adobe Experience Platform Mobile SDK
+
+您想要使用Adobe技術分析行動應用程式，可能從其他解決方案移轉，或是開始從頭開始追蹤使用者在應用程式中的行為。 您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
+
+另請參閱 [透過Adobe Experience Platform Mobile SDK擷取及使用資料](./aepmobilesdk.md) 以取得詳細資訊。
+
+### 使用Adobe Experience Platform Edge Network伺服器API
+
+您想要分析您的案頭應用程式、在遊戲機上玩的遊戲、在機上盒或透過Adobe技術的IoT裝置上使用視訊串流應用程式。 可能從其他解決方案移轉，或從頭開始追蹤使用者在這些裝置上的行為。 您想要遵循Adobe的最佳實作方法，也就是使用Adobe Experience Platform Edge Network Server API和Edge Network來擷取資料。 接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
+
+另請參閱 [透過Adobe Experience Platform Edge Network Server API擷取及使用資料](./serverapi.md) 以取得詳細資訊。
 
 ## 擷取和使用批次資料
 
