@@ -4,10 +4,10 @@ description: 說明如何使用 Customer Journey Analytics 中的來源連接器
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 100%
+source-wordcount: '1954'
+ht-degree: 90%
 
 ---
 
@@ -31,21 +31,21 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此為簡化的指南，說明如何使用來源連接器將資料擷取至 Adobe Experience Platform，並在 Customer Journey Analytics 中使用該資料。強烈建議在提及時研究其他資訊。
+>本快速入門手冊是一份簡化的指南，說明如何使用來源聯結器將資料擷取到Adobe Experience Platform中，並在Customer Journey Analytics中使用。 強烈建議在提及時研究其他資訊。
 
 
 ## 設定結構和資料集
 
-若要將資料擷取至 Adobe Experience Platform，您必須先定義要收集的資料。所有擷取至 Adobe Experience Platform 的資料都必須符合標準的非正常結構，才能由下游能力和功能識別並處理。體驗資料模型 (XDM) 是以結構形式提供此結構的標準框架。
+若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集哪些資料。 所有擷取至 Adobe Experience Platform 的資料都必須符合標準的非正常結構，才能由下游能力和功能識別並處理。體驗資料模型(XDM)是標準架構，以結構描述的形式提供結構。
 
-定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
+定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。資料集是資料集合（通常是表格）的儲存和管理結構，其中包含結構（欄）和欄位（列）。
 
 擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
 
 ### 設定結構
 
 為了快速上手，您需要收集一些忠誠度資料，例如忠誠度 ID、忠誠度點數和忠誠度狀態。
-為此，您首先需要定義用於建立此資料模型的結構。
+您必須先定義用來模型化此資料的結構描述。
 
 若要設定您的結構：
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 
    ![識別物件](./assets/identifcation-loyalty-field.png)
 
-   這會將識別功能新增至您的結構。在您的情況下，您會想要使用批次資料中的電子郵件地址來識別忠誠度資訊。
+   此識別物件會將識別功能新增至結構描述。 在您的情況下，您會想要使用批次資料中的電子郵件地址來識別忠誠度資訊。
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 
 ### 設定資料集
 
-您已使用您的結構定義資料模型。您現在必須定義結構以儲存和管理該資料。這將透過資料集完成。
+您已使用您的結構定義資料模型。您現在必須定義建構以儲存和管理該資料，這會透過資料集完成。
 
 若要設定您的資料集：
 
@@ -152,7 +152,7 @@ ht-degree: 100%
 
    >[!IMPORTANT]
    >
-   >    只有當資料集所隸屬的結構也啟用設定檔時，您才能啟用設定檔的資料集。
+   >    只有當資料集所遵循的結構同樣啟用設定檔時，您才能啟用設定檔的資料集。
 
    ![啟用設定檔結構](./assets/loyalty-dataset-profile.png)
 
@@ -173,7 +173,7 @@ ht-degree: 100%
 
    - **[!UICONTROL 選取資料]**：選取要擷取的來源資料。
 
-   - **[!UICONTROL 資料流詳細資訊]**：提供資料流的其他詳細資訊，例如名稱和要使用的資料集。
+   - **[!UICONTROL 資料流詳細資料]**：您可以提供資料流的其他詳細資料，例如名稱和要使用的資料集。
 
    - **[!UICONTROL 對應]**：將傳入的來源資料欄位對應至與您所選資料集關聯之結構中的屬性。
 
@@ -202,7 +202,7 @@ ht-degree: 100%
 
 若要在 Customer Journey Analytics 中使用 Adobe Experience Platform 資料，您可以建立連線，其中包含設定結構、資料集和工作流程所產生的資料。
 
-連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報告，必須先在 Adobe Experience Platform 和工作區的資料集之間建立連線。
+連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報表，必須先為Adobe Experience Platform和工作區的資料集建立連線。
 
 若要建立連線，請執行以下操作：
 
@@ -305,7 +305,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]，建立您的第一個報告。例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
+5. 若要建立您的第一個報表，請開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] . 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
 
    ![工作區 – 第一份報告](./assets/cja-projects-5.png)
 

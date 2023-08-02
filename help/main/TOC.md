@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 83%
+source-wordcount: '971'
+ht-degree: 85%
 
 ---
 
@@ -43,17 +43,20 @@ ht-degree: 83%
    + 與 Adobe Analytics 比較{#cja-aa-comparison}
       + [在 Customer Journey Analytics 中利用 Adobe Analytics 資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 功能支援](../getting-started/aa-vs-cja/cja-aa.md)
-      + [比較透過Analytics來源聯結器傳遞的Analytics資料的術語](../getting-started/aa-vs-cja/terminology.md)
+      + [比較透過 Analytics 來源連接器傳遞的 Analytics 資料術語](../getting-started/aa-vs-cja/terminology.md)
       + [比較Adobe Analytics和Customer Journey Analytics的資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [虛擬報告環境和沙箱環境](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [處理規則、VISTA 和分類與資料準備的比較](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
-      + [AAID、ECID、AACUSTOMID和Analytics來源聯結器](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
+      + [AAID、ECID、AACUSTOMID 和 Analytics 來源連接器](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
 
 + 資料擷取 {#cja-data-ingestion}
    + [資料擷取概觀](../data-ingestion/data-ingestion.md)
    + 擷取和使用快速入門指南{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + [Adobe Experience Platform Web SDK 與 Edge Network](../data-ingestion/aepwebsdk.md)
+      + Adobe Experience Platform Edge Network {#edge-network}
+         + [Web SDK](../data-ingestion/aepwebsdk.md)
+         + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
+         + [伺服器API](../data-ingestion/serverapi.md)
       + [批次資料](../data-ingestion/batch.md)
       + [串流資料](../data-ingestion/streaming.md)
       + [來源連接器](../data-ingestion/sources.md)
@@ -69,7 +72,7 @@ ht-degree: 83%
 + 資料檢視 {#cja-dataviews}
    + [資料檢視總覽](../data-views/data-views.md)
    + [建立或編輯資料檢視](../data-views/create-dataview.md)
-   + [內容感知作業](../data-views/context-aware-sessions.md)
+   + [內容感知工作階段](../data-views/context-aware-sessions.md)
    + 元件設定 {#component-settings}
       + [元件設定總覽](../data-views/component-settings/overview.md)
       + [歸因](../data-views/component-settings/attribution.md)

@@ -4,10 +4,10 @@ description: 說明如何在 Customer Journey Analytics 中擷取和使用批次
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 100%
+source-wordcount: '1953'
+ht-degree: 91%
 
 ---
 
@@ -29,20 +29,20 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此為簡化的指南，說明如何將批次資料擷取至 Adobe Experience Platform，並在 Customer Journey Analytics 中使用該資料。強烈建議在提及時研究其他資訊。
+>本快速入門手冊是一份簡化的指南，說明如何將批次資料擷取至Adobe Experience Platform並用於Customer Journey Analytics。 強烈建議在提及時研究其他資訊。
 
 ## 設定結構和資料集
 
 若要將資料擷取至 Adobe Experience Platform，您必須先定義要收集的資料。所有擷取至 Adobe Experience Platform 的資料都必須符合標準的非正常結構，才能由下游能力和功能識別並處理。體驗資料模型 (XDM) 是以結構形式提供此結構的標準框架。
 
-定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
+定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。資料集是資料集合（通常是表格）的儲存和管理結構，其中包含結構（欄）和欄位（列）。
 
 擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
 
 ### 設定結構
 
 為了快速上手，您需要收集一些忠誠度資料，例如忠誠度 ID、忠誠度點數和忠誠度狀態。
-為此，您首先需要定義用於建立此資料模型的結構。
+您必須先定義用來模型化此資料的結構描述。
 
 若要設定您的結構：
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
    ![識別物件](./assets/identifcation-loyalty-field.png)
 
-   這會將識別功能新增至您的結構。在您的情況下，您需要使用批次資料中的電子郵件地址來識別忠誠度資訊。
+   識別物件會將識別功能新增至結構描述。 在您的情況下，您需要使用批次資料中的電子郵件地址來識別忠誠度資訊。
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 
 ### 設定資料集
 
-您已使用您的結構定義資料模型。您現在必須定義結構以儲存和管理該資料。這將透過資料集完成。
+您已使用您的結構定義資料模型。您現在必須定義建構以儲存和管理該資料，這會透過資料集完成。
 
 若要設定您的資料集：
 
@@ -151,7 +151,7 @@ ht-degree: 100%
 
    >[!IMPORTANT]
    >
-   >    只有當資料集所隸屬的結構也啟用設定檔時，您才能啟用設定檔的資料集。
+   >只有當資料集所遵循的結構同樣啟用設定檔時，您才能啟用設定檔的資料集。
 
    ![啟用設定檔結構](./assets/loyalty-dataset-profile.png)
 
@@ -208,14 +208,19 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 
 6. 選取&#x200B;**[!UICONTROL 「完成」]**&#x200B;開始將批次資料擷取至 Adobe Experience Platform。
 
-請參閱[將 CSV 檔案對應至現有 XDM 結構](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html)，了解有關在傳入資料與您的 XDM 結構不相容時如何對應資料、使用對應範本、使用導出欄位以確保您的批次資料符合結構的預期內容，以及執行其他操作的詳細資訊。
+另請參閱 [將CSV檔案對應至現有的XDM結構描述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html) 有關下列專案的詳細資訊：
+
+- 當您的傳入資料與XDM結構描述不相容時，如何對應資料。
+- 使用對應範本，
+- 使用計算欄位以確保您的批次資料符合結構描述預期，
+- 及更多內容.
 
 
 ## 設定連線
 
 若要在 Customer Journey Analytics 中使用 Adobe Experience Platform 資料，您可以建立連線，其中包含設定結構、資料集和工作流程所產生的資料。
 
-連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報告，必須先在 Adobe Experience Platform 和工作區的資料集之間建立連線。
+連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報表，必須先為Adobe Experience Platform和工作區的資料集建立連線。
 
 若要建立連線，請執行以下操作：
 
@@ -318,7 +323,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]，建立您的第一個報告。例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
+5. 若要建立您的第一個報表，請開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板]. 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
 
    ![工作區 – 第一份報告](./assets/cja-projects-5.png)
 

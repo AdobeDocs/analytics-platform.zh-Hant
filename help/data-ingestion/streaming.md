@@ -4,10 +4,10 @@ description: 說明如何在 Customer Journey Analytics 中擷取和使用串流
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 100%
+source-wordcount: '2000'
+ht-degree: 88%
 
 ---
 
@@ -30,20 +30,20 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此為簡化的指南，說明如何將串流資料擷取至 Adobe Experience Platform，並在 Customer Journey Analytics 中使用該資料。強烈建議在提及時研究其他資訊。
+>本快速入門手冊是一份簡化的指南，說明如何將串流資料擷取至Adobe Experience Platform並用於Customer Journey Analytics。 強烈建議在提及時研究其他資訊。
 
 ## 設定結構和資料集
 
-若要將資料擷取至 Adobe Experience Platform，您必須先定義要收集的資料。所有擷取至 Adobe Experience Platform 的資料都必須符合標準的非正常結構，才能由下游能力和功能識別並處理。體驗資料模型 (XDM) 是以結構形式提供此結構的標準框架。
+若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集哪些資料。 所有擷取至 Adobe Experience Platform 的資料都必須符合標準的非正常結構，才能由下游能力和功能識別並處理。體驗資料模型 (XDM) 是以結構形式提供此結構的標準框架。
 
-定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 
+定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。資料集是資料集合（通常是表格）的儲存和管理結構，其中包含結構（欄）和欄位（列）。
 
 擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
 
 ### 設定結構
 
 為了快速上手，您需要收集一些忠誠度資料，例如忠誠度 ID、忠誠度點數和忠誠度狀態。
-為此，您首先需要定義用於建立此資料模型的結構。
+您必須先定義用來模型化此資料的結構描述。
 
 若要設定您的結構：
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
    ![識別物件](./assets/identifcation-loyalty-field.png)
 
-   這會將識別功能新增至您的結構。在您的情況下，您會想要使用批次資料中的電子郵件地址來識別忠誠度資訊。
+   此識別物件會將識別功能新增至結構描述。 在您的情況下，您會想要使用批次資料中的電子郵件地址來識別忠誠度資訊。
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
 
@@ -122,7 +122,7 @@ ht-degree: 100%
 
 ### 設定資料集
 
-您已使用您的結構定義資料模型。您現在必須定義結構以儲存和管理該資料。這將透過資料集完成。
+您已使用您的結構定義資料模型。您現在必須定義建構以儲存和管理該資料，這會透過資料集完成。
 
 若要設定您的資料集：
 
@@ -183,7 +183,7 @@ ht-degree: 100%
 }
 ```
 
-若要將此資料串流至您建立的資料集，您必須定義要傳送至該資料的串流端點。若要這麼做，請定義 HTTP API 來源連接器。
+若要將此資料串流到您建立的資料集中，您必須為要傳送到的資料定義串流端點。 串流端點會使用HTTP API來源聯結器建立。
 
 若要建立 HTTP API 來源連接器：
 
@@ -227,14 +227,18 @@ ht-degree: 100%
 
 您可以複製串流端點 URL，並用它來設定您的忠誠度應用程式，將資料串流至 Adobe Experience Platform 忠誠度資料集。
 
-如需更完整的教學課程，說明如何使用驗證、當傳入資料與 XDM 結構不相容時如何對應資料，以及如何在設定串流連接器時建立新資料集，請參閱[使用 UI 建立 HTTP API 串流連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=zh-Hant)。
+另請參閱 [使用UI建立HTTP API串流連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=zh-Hant) 如需更完整的教學課程，請說明：
+
+- 如何使用驗證，
+- 當您的傳入資料與XDM結構描述不相容時，如何對應資料，以及
+- 如何在設定串流聯結器的過程中建立資料集。
 
 
 ## 設定連線
 
 若要在 Customer Journey Analytics 中使用 Adobe Experience Platform 資料，您可以建立連線，其中包含設定結構、資料集和工作流程所產生的資料。
 
-連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報告，必須先在 Adobe Experience Platform 和工作區的資料集之間建立連線。
+連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報表，必須先為Adobe Experience Platform和工作區的資料集建立連線。
 
 若要建立連線，請執行以下操作：
 
@@ -337,7 +341,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]，建立您的第一個報告。例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
+5. 若要建立您的第一個報表，請開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] . 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
 
    ![工作區 – 第一份報告](./assets/cja-projects-5.png)
 

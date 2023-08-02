@@ -4,16 +4,16 @@ description: 了解您能夠將資料內嵌至 Customer Journey Analytics 的不
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
-source-git-commit: 94df90b64a25bfbeb5ed5e270925b1ef1ed89b8a
+source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 92%
+source-wordcount: '624'
+ht-degree: 90%
 
 ---
 
 # 資料擷取概觀
 
-Customer Journey Analytics 提供多種資料內嵌選項：有些選項能移動傳統 Adobe Analytics 資料，有些則能使用內嵌至 Adobe Experience Platform 的資料。
+將資料擷取至Customer Journey Analytics時，有數個選項可供選擇。 有些選項能移動傳統 Adobe Analytics 資料，有些則能使用內嵌至 Adobe Experience Platform 的資料。
 
 >[!IMPORTANT]
 >
