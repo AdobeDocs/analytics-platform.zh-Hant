@@ -13,7 +13,7 @@ ht-degree: 98%
 
 # Customer Journey Analytics - 文件更新
 
-從開始建立 Customer Journey Analytics 文件以來，已對其完成以下更新。
+Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 ## 2023
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 | **2023 年 8 月** | |
 | 行動應用程式和其他平台的資料擷取快速入門手冊 | 新增其他資料擷取快速入門手冊，概述如何在Customer Journey Analytics中從行動應用程式或其他平台（例如案頭應用程式、主控台上的遊戲、機上盒和IoT裝置上的應用程式）擷取和使用資料。 [了解更多](../data-ingestion/data-ingestion.md) |
 | **2023 年 7 月** | |
-| 內容感知工作階段 | 為此資料視圖設定新增主題。[了解更多](/help/data-views/context-aware-sessions.md) |
+| 內容感知工作階段 | 新增此資料檢視設定的主題。[了解更多](/help/data-views/context-aware-sessions.md) |
 | Adobe Product Analytics | Adobe Product Analytics 是一種與 Customer Journey Analytics 跨管道資料和深入見解進行互動的新方式。這些新功能使產品團隊能夠透過[引導式分析](/help/guided-analysis/overview.md)工作流程取得有關其產品體驗的自助資料和深入見解。 |
 | 衍生欄位 | [衍生欄位](/help/data-views/derived-fields/derived-fields.md)可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。 |
 | 已擴大對設定檔和查詢資料的查詢支援 | 提供功能，可將資料集新增為設定檔或查詢資料集內的欄位查詢。之前僅支援事件資料集。[了解更多](/help/connections/create-connection.md) |
@@ -37,7 +37,7 @@ ht-degree: 98%
 | **2023 年 5 月** | |
 | 深度連結 (行動應用程式) 文件 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
 | Report Builder 中關於「從儲存格中選取資料檢視」的文件 | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
-| Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 新更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
+| Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
 | 最佳化更新 | 已更新關於[最佳化 Customer Journey Analytics 效能](/help/admin/optimizing-performance.md)的文章 |
 | Analysis Workspace 概觀 | 更新[Analysis Workspace 概觀](/help/analysis-workspace/home.md)以包含更多一般概觀資訊和相關內容的連結。 |
 | 建立專案 | 建立新文章，其中詳細說明如何在 Analysis Workspace [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)。 |
