@@ -4,7 +4,7 @@ description: 瞭解如何疑難排解缺少許可權所導致的問題
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
-source-git-commit: 84a1cd485110be23b1977d916fc39e058b370066
+source-git-commit: 1905e37b76843a7622af4e874a2d74aceff55384
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 >[!ENDSHADEBOX]
 
 
-若要更正此錯誤，您必須擁有擁有Experience Platform產品的組織的系統或產品管理員許可權。 另請參閱 [存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) 以取得詳細資訊。
+若要更正此錯誤，您必須對擁有Experience Platform產品的組織具有系統或產品管理員許可權。 另請參閱 [存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) 以取得詳細資訊。
 
 1. 導覽至Adobe Experience Platform UI。
 
