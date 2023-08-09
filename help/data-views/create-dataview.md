@@ -4,10 +4,10 @@ description: 您可調整以建立或編輯資料檢視的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 92511d2bedf322097b4d70ccede5ac6e0df7b0c6
+source-git-commit: 543ca5bf2513e09f9875a7a0826ad770e26d2cca
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 100%
+source-wordcount: '1418'
+ht-degree: 98%
 
 ---
 
@@ -114,6 +114,11 @@ ht-degree: 100%
 您可以依照[!UICONTROL 資料類型], [!UICONTROL 資料集]、[!UICONTROL 資料治理] 和 [!UICONTROL 其他] 條件 ([!UICONTROL 包含資料]、[!UICONTROL 識別] 和 [!UICONTROL 未淘汰]) 篩選左邊欄中的![篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)綱要欄位：
 
 ![篩選欄位](assets/dataview-components-filter.png)
+
+>[!TIP]
+>
+>若元件未在資料檢視中正確載入，而您看到錯誤訊息，請參閱 [缺少許可權](../troubleshooting/lack-of-permissions.md) 以取得解析度。
+
 
 
 ## 設定
