@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: a08a237eadc3408e170d4a8b5a3e6d451c15efee
 workflow-type: tm+mt
 source-wordcount: '2485'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 8 月** | |
-| Adobe Customer Journey Analytics 功能支援 | 已新增更多資訊至 *以新方式支援* 與Adobe Analytics比較Customer Journey Analytics中工作階段化功能的表格。 [了解更多](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
-| 從 Adobe Analytics 發展而來 | 已更新 *（重新）設定行銷管道* 區段中關於衍生欄位行銷管道功能範本的參考資訊。 [了解更多](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
+| Adobe Customer Journey Analytics 功能支援 | 相較於 Adobe Analytics，Customer Journey Analytics 已在工作階段化功能的&#x200B;*以新方式支援*&#x200B;表格中新增更多資訊。[了解更多](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
+| 從 Adobe Analytics 發展而來 | 已更新 *(重新) 設定行銷管道*&#x200B;區段，並引用衍生欄位行銷管道功能範本。[了解更多](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | 行動應用程式和其他平台的資料擷取快速入門指南 | 新增額外的資料擷取快速入門指南，旨在概述如何在 Customer Journey Analytics 中擷取和使用來自行動應用程式或其他平台 (例如桌面應用程式、遊戲主機上的遊戲、機上盒和 IoT 裝置上的應用程式) 的資料。[了解更多](../data-ingestion/data-ingestion.md) |
 | **2023 年 7 月** | |
 | 內容感知工作階段 | 新增此資料檢視設定的主題。[了解更多](/help/data-views/context-aware-sessions.md) |
