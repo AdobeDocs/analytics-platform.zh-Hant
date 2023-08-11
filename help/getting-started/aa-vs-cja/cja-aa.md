@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2089'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,10 +52,10 @@ ht-degree: 97%
 
 | 功能 | 附註 |
 | --- | --- |
-| 對象發佈 (區段發佈) | 如果具有 Adobe 的 Customer Data Platform 或 Journey Optimizer 產品授權則提供支援。[對象發佈](/help/components/audiences/audiences-overview.md) 會將對象發佈到 Experience Platform 中的「即時客戶個人資料」。 |
+| 對象發佈 (區段發佈) | 如果具有 Adobe 的 Customer Data Platform 或 Journey Optimizer 產品授權則提供支援。[對象發佈](/help/components/audiences/audiences-overview.md)會將對象發佈到 Experience Platform 中的「即時客戶個人資料」。 |
 | Classifications | 現在稱為「查閱資料集」。 Analytics 中使用的分類，可以使用 Analytics 分類來源連接器匯入至 Experience Platform 和 Customer Journey Analytics。查詢資料集也可以直接上傳到 Experience Platform，並在 Customer Journey Analytics 中使用。 |
 | 分類規則產生器 | 支援在 Customer Journey Analytics 中使用[子字串](/help/data-views/component-settings/substring.md)。在報告時間使用字串操控，而不是查詢資料集。 |
-| 自訂工作階段化 | 自訂工作階段化可透過 [工作階段設定](../../data-views/create-dataview.md#session-settings) 在資料檢視中。 另請參閱  [內容感知作業](../../data-views/context-aware-sessions.md) 以取得詳細資訊。 <br/>透過Adobe Experience Platform Mobile SDK支援行動背景事件的處理。 另請參閱 [邊緣網路的生命週期](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/) 以取得詳細資訊。 |
+| 自訂工作階段化 | 自訂作業化可以透過資料檢視中的 [工作階段設定](../../data-views/create-dataview.md#session-settings) 來設定。更多資料，請參閱[內容感知工作階段](../../data-views/context-aware-sessions.md)。<br/>使用 Adobe Experience Platform Mobile SDK 支援，處理行動背景事件。更多資訊，請參閱[邊緣網路的生命週期](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/)。 |
 | 貨幣轉換 | 支援做為資料檢視中[量度元件格式](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html?lang=zh-Hant#currency)的一部分。 |
 | 銷售變數持續性 | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)提供完整支援 |
 | 客戶屬性 | 現在稱為「設定檔資料集」，它們不會自動從 Experience Cloud 匯入，但必須上傳到 Experience Platform，才能在 Customer Journey Analytics 中使用。 |
