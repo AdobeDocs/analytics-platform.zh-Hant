@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1492'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 97%
 
 Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=zh-Hant)。這些更新的推薦可幫助您透過 Attribution IQ 充分利用 Adobe Analytics 的現有功能。此外也為成功轉換到 Customer Journey Analytics 做好準備。
 
-隨著以下產品的推出 [衍生欄位](../data-views/derived-fields/derived-fields.md) 行銷管道是Customer Journey Analytics資料檢視的一部分，也可使用以非破壞性和追溯性的方式支援 [行銷管道功能範本](../data-views/derived-fields/derived-fields.md#function-templates).
+除了介紹[衍生欄位](../data-views/derived-fields/derived-fields.md)作為 Customer Journey Analytics 資料檢視的一部分，還能用[行銷管道功能範本](../data-views/derived-fields/derived-fields.md#function-templates)，以不具破壞性且可回溯的方式支援行銷管道。
 
 ### 4. 決定使用 Analytics 來源連接器或 Experience Platform SDK {#connector-vs-sdk}
 
