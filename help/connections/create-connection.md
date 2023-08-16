@@ -4,9 +4,9 @@ description: 說明如何在 Customer Journey Analytics 中建立與 Platform �
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: cc12f77d3a0cb9b27a5d0c6a92c35faf2b6e6e35
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2630'
 ht-degree: 100%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
 
->[!IMPORTANT]
->
->您必須擁有&#x200B;**選取**&#x200B;套件，才能將不限數量的資料集新增到連線中。**基礎**&#x200B;套件僅限於一個資料集。如果您不確定您擁有的 Customer Journey Analytics 套件是哪一種，請聯絡您的管理員。&#x200B;
+## 先決條件
+
+您必須擁有&#x200B;**選取**&#x200B;套件，才能將不限數量的資料集新增到連線中。**基礎**&#x200B;套件僅限於一個資料集。如果您不確定您擁有的 Customer Journey Analytics 套件是哪一種，請聯絡您的管理員。&#x200B;
 
 ## 建立和設定連線 {#create-connection}
 
