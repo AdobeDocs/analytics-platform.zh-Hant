@@ -4,10 +4,10 @@ description: 您可調整以建立或編輯資料檢視的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 543ca5bf2513e09f9875a7a0826ad770e26d2cca
+source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
 workflow-type: tm+mt
 source-wordcount: '1418'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 98%
 
 >[!TIP]
 >
->若元件未在資料檢視中正確載入，而您看到錯誤訊息，請參閱 [缺少許可權](../troubleshooting/lack-of-permissions.md) 以取得解析度。
+>如果資料檢視中未能正確載入元件，而且您看到錯誤訊息，請參閱「[缺乏權限](../troubleshooting/lack-of-permissions.md)」尋找解決方案。
 
 
 
@@ -134,6 +134,6 @@ ht-degree: 98%
 
 ### 工作階段設定
 
-決定在工作階段到期和新工作階段開始之前，事件之間的閒置時段。需要時段。您也可以選擇在事件包含特定量度時，強制啟動新工作階段。如需更多詳細資料，請參閱[內容感知工作階段](context-aware-sessions.md)。
+決定在工作階段到期和新工作階段開始之前，事件之間的閒置時段。需要時段。您也可以選擇在事件包含特定量度時，強制啟動新工作階段。另請參閱 [工作階段設定](session-settings.md) 以取得更多詳細資料。
 
 指定所有所需設定後，按一下&#x200B;**[!UICONTROL 「儲存並完成」]**。

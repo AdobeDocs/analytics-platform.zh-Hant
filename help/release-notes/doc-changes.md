@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a08a237eadc3408e170d4a8b5a3e6d451c15efee
+source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
 workflow-type: tm+mt
 source-wordcount: '2485'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 從 Adobe Analytics 發展而來 | 已更新 *(重新) 設定行銷管道*&#x200B;區段，並引用衍生欄位行銷管道功能範本。[了解更多](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | 行動應用程式和其他平台的資料擷取快速入門指南 | 新增額外的資料擷取快速入門指南，旨在概述如何在 Customer Journey Analytics 中擷取和使用來自行動應用程式或其他平台 (例如桌面應用程式、遊戲主機上的遊戲、機上盒和 IoT 裝置上的應用程式) 的資料。[了解更多](../data-ingestion/data-ingestion.md) |
 | **2023 年 7 月** | |
-| 內容感知工作階段 | 新增此資料檢視設定的主題。[了解更多](/help/data-views/context-aware-sessions.md) |
+| 工作階段設定 | 新增此資料檢視設定的主題。[了解更多](/help/data-views/session-settings.md) |
 | Adobe Product Analytics | Adobe Product Analytics 是一種與 Customer Journey Analytics 跨管道資料和深入見解進行互動的新方式。這些新功能使產品團隊能夠透過[引導式分析](/help/guided-analysis/overview.md)工作流程取得有關其產品體驗的自助資料和深入見解。 |
 | 衍生欄位 | [衍生欄位](/help/data-views/derived-fields/derived-fields.md)可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。 |
 | 已擴大對設定檔和查詢資料的查詢支援 | 提供功能，可將資料集新增為設定檔或查詢資料集內的欄位查詢。之前僅支援事件資料集。[了解更多](/help/connections/create-connection.md) |
