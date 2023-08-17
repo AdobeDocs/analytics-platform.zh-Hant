@@ -4,9 +4,9 @@ description: 衍生欄位會透過一組可用函式和函式範本，指定結�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
+source-git-commit: 29b7034dccb93ab78f340e142c3c26b1e86b6644
 workflow-type: tm+mt
-source-wordcount: '4348'
+source-wordcount: '4378'
 ht-degree: 15%
 
 ---
@@ -173,84 +173,9 @@ ht-degree: 15%
 
 - 限制（如果適用）。
 
-
-<!-- Concatenate -->
-
-### 串連
-
-將欄位值結合至具有已定義分隔字元的單一新衍生欄位。
-
-+++ 詳細資料
-
-## 規格 {#concatenate-io}
-
-| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
-|---|---|---|---|---|
-| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 值]:<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul></li><li>[!UICONTROL 分隔字元]:<ul><li>字串</li></ul></li> </ul> | <p>不適用</p> | <p>每個衍生欄位2個函式</p> | <p>新增衍生欄位</p> |
-
-{style="table-layout:auto"}
-
-
-## 使用案例 {#concatenate-uc}
-
-您目前正在以個別欄位收集來源和目的地機場代碼。 您想要取用這兩個欄位，並將它們合併成以連字型大小(-)分隔的單一維度。 因此，您可以分析來源與目的地的組合，以識別預訂的最上層路由。
-
-假設：
-
-- 來源和目的地值會收集在相同表格中的個別欄位中。
-- 使用者決定在值之間使用分隔字元&#39;-&#39;。
-
-想像會發生下列預約：
-
-- 客戶ABC123預訂鹽湖城(SLC)和奧蘭多(MCO)之間的航班
-- 客戶ABC456預訂鹽湖城(SLC)和洛杉磯(LAX)之間的航班
-- 客戶ABC789預訂鹽湖城(SLC)和西雅圖(SEA)之間的航班
-- 客戶ABC987預訂鹽湖城(SLC)和聖荷西(SJO)之間的航班
-- 客戶ABC654預訂鹽湖城(SLC)和奧蘭多(MCO)之間的航班
-
-所需的報表應如下所示：
-
-| 來源/目的地 | Bookings |
-|----|---:|
-| SLC-MCO | 2 |
-| SLC-LAX | 1 |
-| SLC-SEA | 1 |
-| SLC-SJO | 1 |
-
-{style="table-layout:auto"}
-
-
-### 在此之前的資料 {#concatenate-uc-databefore}
-
-| Origin | 目標 |
-|----|---:|
-| SLC | MCO |
-| SLC | LAX |
-| SLC | SEA |
-| SLC | SJO |
-| SLC | MCO |
-
-{style="table-layout:auto"}
-
-### 衍生欄位 {#concatenate-derivedfield}
-
-您定義新的 [!UICONTROL 來源 — 目的地] 衍生欄位。 您使用 [!UICONTROL 串連] 定義規則以串連 [!UICONTROL 原始] 和 [!UICONTROL 目的地] 欄位使用 `-` [!UICONTROL 分隔符號].
-
-![串連規則的熒幕擷圖](assets/concatenate.png)
-
-### 之後的資料 {#concatenate-dataafter}
-
-| 來源 — 目的地<br/>（衍生欄位） |
-|---|
-| SLC-MCO |
-| SLC-LAX |
-| SLC-SEA |
-| SLC-SJO |
-| SLC-MCO |
-
-{style="table-layout:auto"}
-
-+++
+>[!NOTE]
+>
+>Lookup函式已重新命名為 [分類](#classify). 請參閱 [分類](#classify) 函式以取得詳細資訊。
 
 <!-- CASE WHEN -->
 
@@ -482,6 +407,209 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 +++
 
+<!-- CLASSIFY -->
+
+### 分類
+
+定義一組值，在新衍生欄位中以對應值取代。
+
+
+
+
++++ 詳細資料
+
+>[!NOTE]
+>
+>此函式原本名為Lookup ，但已重新命名為Classification ，以因應即將推出的不同功能Lookup函式。
+
+## 規格 {#classify-io}
+
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
+|---|---|---|---|---|
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要分類的欄位]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 當值等於] 和 [!UICONTROL 將值取代為]：</p><ul><li>字串</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+
+{style="table-layout:auto"}
+
+
+## 使用案例1 {#classify-uc1}
+
+您的CSV檔案確實包含索引鍵欄， `hotelID` 以及一或多個與關聯的其他欄 `hotelID`： `city`， `rooms`， `hotel name`.
+您正在收集 [!DNL Hotel ID] 但想要建立 [!DNL Hotel Name] 維度衍生自 `hotelID` CSV檔案中的。
+
+**CSV檔案結構和內容**
+
+| [!DNL hotelID] | [!DNL city] | [!DNL rooms] | [!DNL hotel name] |
+|---|---|---:|---|
+| [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
+| [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
+| [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
+
+{style="table-layout:auto"}
+
+**目前的報告**
+
+| [!DNL Hotel ID] | 產品檢視 |
+|---|---:|
+| [!DNL SLC123] | 200 |
+| [!DNL LX342] | 198 |
+| [!DNL SFO456] | 190 |
+
+{style="table-layout:auto"}
+
+
+**所需報告**
+
+| [!DNL Hotel Name] | 產品檢視 |
+|----|----:|
+| [!DNL SLC Downtown] | 200 |
+| [!DNL LA Airport] | 198 |
+| [!DNL Market Street] | 190 |
+
+{style="table-layout:auto"}
+
+### 在此之前的資料 {#classify-uc1-databefore}
+
+| [!DNL Hotel ID] |
+|----|
+| [!DNL SLC123] |
+| [!DNL LAX342] |
+| [!DNL SFO456] |
+
+{style="table-layout:auto"}
+
+
+### 衍生欄位 {#classify-uc1-derivedfield}
+
+您定義 `Hotel Name` 衍生欄位。 您使用 [!UICONTROL 分類] 函式以定義規則，您可在其中分類 [!UICONTROL 飯店ID] 欄位並取代為新值。
+
+![分類規則1的熒幕擷圖](assets/lookup-1.png)
+
+### 之後的資料 {#classify-uc1-dataafter}
+
+| [!DNL Hotel Name] |
+|----|
+| [!DNL SLC Downtown] |
+| [!DNL LA Airport] |
+| [!DNL Market Street] |
+
+{style="table-layout:auto"}
+
+
+## 使用案例2 {#classify-uc2}
+
+您已收集好幾個頁面的URL，而不是好記的頁面名稱。 這個混合值集合會中斷報表。
+
+### 在此之前的資料 {#classify-uc2-databefore}
+
+| [!DNL Page Name] |
+|---|
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
+| `http://www.adobetravel.ca/Hotel-Search` |
+| `https://www.adobetravel.com/Package-Search` |
+| [!DNL Deals & Offers] |
+| `http://www.adobetravel.ca/user/reviews` |
+| `https://www.adobetravel.com.br/Generate-Quote/preview` |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#classify-uc2-derivedfield}
+
+您定義 `Page Name (updated)` 衍生欄位。 您使用 [!UICONTROL 分類] 函式以定義規則，您可在其中分類現有值 [!UICONTROL 頁面名稱] 欄位並取代為更新的正確值。
+
+![分類規則2的熒幕擷圖](assets/lookup-2.png)
+
+### 之後的資料 {#classify-uc2-dataafter}
+
+| [!DNL Page Name (updated)] |
+|---|
+| [!DNL Home Page] |
+| [!DNL Flight Search] |
+| [!DNL Hotel Search] |
+| [!DNL Package Search] |
+| [!DNL Deals & Offers] |
+| [!DNL Reviews] |
+| [!DNL Generate Quote] |
+
++++
+
+<!-- CONCATENATE -->
+
+### 串連
+
+將欄位值結合至具有已定義分隔字元的單一新衍生欄位。
+
++++ 詳細資料
+
+## 規格 {#concatenate-io}
+
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
+|---|---|---|---|---|
+| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 值]:<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul></li><li>[!UICONTROL 分隔字元]:<ul><li>字串</li></ul></li> </ul> | <p>不適用</p> | <p>每個衍生欄位2個函式</p> | <p>新增衍生欄位</p> |
+
+{style="table-layout:auto"}
+
+
+## 使用案例 {#concatenate-uc}
+
+您目前正在以個別欄位收集來源和目的地機場代碼。 您想要取用這兩個欄位，並將它們合併成以連字型大小(-)分隔的單一維度。 因此，您可以分析來源與目的地的組合，以識別預訂的最上層路由。
+
+假設：
+
+- 來源和目的地值會收集在相同表格中的個別欄位中。
+- 使用者決定在值之間使用分隔字元&#39;-&#39;。
+
+想像會發生下列預約：
+
+- 客戶ABC123預訂鹽湖城(SLC)和奧蘭多(MCO)之間的航班
+- 客戶ABC456預訂鹽湖城(SLC)和洛杉磯(LAX)之間的航班
+- 客戶ABC789預訂鹽湖城(SLC)和西雅圖(SEA)之間的航班
+- 客戶ABC987預訂鹽湖城(SLC)和聖荷西(SJO)之間的航班
+- 客戶ABC654預訂鹽湖城(SLC)和奧蘭多(MCO)之間的航班
+
+所需的報表應如下所示：
+
+| 來源/目的地 | Bookings |
+|----|---:|
+| SLC-MCO | 2 |
+| SLC-LAX | 1 |
+| SLC-SEA | 1 |
+| SLC-SJO | 1 |
+
+{style="table-layout:auto"}
+
+
+### 在此之前的資料 {#concatenate-uc-databefore}
+
+| Origin | 目標 |
+|----|---:|
+| SLC | MCO |
+| SLC | LAX |
+| SLC | SEA |
+| SLC | SJO |
+| SLC | MCO |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#concatenate-derivedfield}
+
+您定義新的 [!UICONTROL 來源 — 目的地] 衍生欄位。 您使用 [!UICONTROL 串連] 定義規則以串連 [!UICONTROL 原始] 和 [!UICONTROL 目的地] 欄位使用 `-` [!UICONTROL 分隔符號].
+
+![串連規則的熒幕擷圖](assets/concatenate.png)
+
+### 之後的資料 {#concatenate-dataafter}
+
+| 來源 — 目的地<br/>（衍生欄位） |
+|---|
+| SLC-MCO |
+| SLC-LAX |
+| SLC-SEA |
+| SLC-SJO |
+| SLC-MCO |
+
+{style="table-layout:auto"}
+
++++
 
 <!-- FIND AND REPLACE -->
 
@@ -552,127 +680,6 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 +++
 
-
-<!-- LOOKUP -->
-
-### 查詢
-
-定義一組查閱值，這些值在新衍生欄位中以對應值取代。
-
-+++ 詳細資料
-
-
-## 規格 {#lookup-io}
-
-| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
-|---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要套用查詢的欄位]:<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 當值等於] 和 [!UICONTROL 將值取代為]：</p><ul><li>字串</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
-
-{style="table-layout:auto"}
-
-
-## 使用案例1 {#lookup-uc1}
-
-您的CSV檔案確實包含索引鍵欄， `hotelID` 以及一或多個與關聯的其他欄 `hotelID`： `city`， `rooms`， `hotel name`.
-您正在收集 [!DNL Hotel ID] 但想要建立 [!DNL Hotel Name] 維度衍生自 `hotelID` CSV檔案中的。
-
-**CSV檔案結構和內容**
-
-| [!DNL hotelID] | [!DNL city] | [!DNL rooms] | [!DNL hotel name] |
-|---|---|---:|---|
-| [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
-| [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
-| [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
-
-{style="table-layout:auto"}
-
-**目前的報告**
-
-| [!DNL Hotel ID] | 產品檢視 |
-|---|---:|
-| [!DNL SLC123] | 200 |
-| [!DNL LX342] | 198 |
-| [!DNL SFO456] | 190 |
-
-{style="table-layout:auto"}
-
-
-**所需報告**
-
-| [!DNL Hotel Name] | 產品檢視 |
-|----|----:|
-| [!DNL SLC Downtown] | 200 |
-| [!DNL LA Airport] | 198 |
-| [!DNL Market Street] | 190 |
-
-{style="table-layout:auto"}
-
-### 在此之前的資料 {#lookup-uc1-databefore}
-
-| [!DNL Hotel ID] |
-|----|
-| [!DNL SLC123] |
-| [!DNL LAX342] |
-| [!DNL SFO456] |
-
-{style="table-layout:auto"}
-
-
-### 衍生欄位 {#lookup-uc1-derivedfield}
-
-您定義 `Hotel Name` 衍生欄位。 您使用 [!UICONTROL 查詢] 函式來定義一個規則，您可以在其中查詢 [!UICONTROL 飯店ID] 欄位並取代為新值。
-
-![Lookup規則1的熒幕擷圖](assets/lookup-1.png)
-
-### 之後的資料 {#lookup-uc1-dataafter}
-
-| [!DNL Hotel Name] |
-|----|
-| [!DNL SLC Downtown] |
-| [!DNL LA Airport] |
-| [!DNL Market Street] |
-
-{style="table-layout:auto"}
-
-
-## 使用案例2 {#lookup-uc2}
-
-您已收集好幾個頁面的URL，而不是好記的頁面名稱。 這個混合值集合會中斷報表。
-
-### 在此之前的資料 {#lookup-uc2-databefore}
-
-| [!DNL Page Name] |
-|---|
-| [!DNL Home Page] |
-| [!DNL Flight Search] |
-| `http://www.adobetravel.ca/Hotel-Search` |
-| `https://www.adobetravel.com/Package-Search` |
-| [!DNL Deals & Offers] |
-| `http://www.adobetravel.ca/user/reviews` |
-| `https://www.adobetravel.com.br/Generate-Quote/preview` |
-
-{style="table-layout:auto"}
-
-### 衍生欄位 {#lookup-uc2-derivedfield}
-
-您定義 `Page Name (updated)` 衍生欄位。 您使用 [!UICONTROL 查詢] 函式，定義可查詢現有值的規則 [!UICONTROL 頁面名稱] 欄位並取代為更新的正確值。
-
-![Lookup規則2的熒幕擷圖](assets/lookup-2.png)
-
-### 之後的資料 {#lookup-uc2-dataafter}
-
-| [!DNL Page Name (updated)] |
-|---|
-| [!DNL Home Page] |
-| [!DNL Flight Search] |
-| [!DNL Hotel Search] |
-| [!DNL Package Search] |
-| [!DNL Deals & Offers] |
-| [!DNL Reviews] |
-| [!DNL Generate Quote] |
-
-+++
-
 <!-- MERGE FIELDS -->
 
 ### 合併欄位
@@ -691,7 +698,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 ## 使用案例 {#merge-fields-uc}
 
-您想要建立由頁面名稱欄位和來電原因欄位組成的新維度，其目的在於跨管道分析歷程。
+您想要建立由頁面名稱欄位和來電原因欄位組成的維度，其目的在於跨管道分析歷程。
 
 ### 在此之前的資料 {#merge-fields-uc-databefore}
 
@@ -757,7 +764,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 ## 使用案例 {#regex-replace-uc}
 
-您想要擷取URL的一部分，並作為唯一頁面識別碼來分析流量。 您將使用 `[^/]+(?=/$|$)` 用於擷取URL結尾的規則運算式 `$1` 作為輸出模式。
+您想要擷取URL的一部分，並作為唯一頁面識別碼來分析流量。 您使用 `[^/]+(?=/$|$)` 用於擷取URL結尾的規則運算式 `$1` 作為輸出模式。
 
 ### 在此之前的資料 {#regex-replace-uc-databefore}
 
