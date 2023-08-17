@@ -4,9 +4,9 @@ description: 衍生欄位會透過一組可用函式和函式範本，指定結�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: 29b7034dccb93ab78f340e142c3c26b1e86b6644
+source-git-commit: f8ad8b651a9a50b4fc4663ee82e842e3e5da7432
 workflow-type: tm+mt
-source-wordcount: '4378'
+source-wordcount: '4433'
 ht-degree: 15%
 
 ---
@@ -426,7 +426,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要分類的欄位]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 當值等於] 和 [!UICONTROL 將值取代為]：</p><ul><li>字串</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要分類的欄位]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 當值等於] 和 [!UICONTROL 將值取代為]：</p><ul><li>字串</li></ul><li>顯示原始值<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -443,6 +443,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 | [!DNL SLC123] | [!DNL Salt Lake City] | 40 | [!DNL SLC Downtown] |
 | [!DNL LAX342] | [!DNL Los Angeles] | 60 | [!DNL LA Airport] |
 | [!DNL SFO456] | [!DNL San Francisco] | 75 | [!DNL Market Street] |
+| [!DNL AMS789] | [!DNL Amsterdam] | 50 | [!DNL Okura] |
 
 {style="table-layout:auto"}
 
@@ -453,6 +454,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 | [!DNL SLC123] | 200 |
 | [!DNL LX342] | 198 |
 | [!DNL SFO456] | 190 |
+| [!DNL AMS789] | 150 |
 
 {style="table-layout:auto"}
 
@@ -474,6 +476,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 | [!DNL SLC123] |
 | [!DNL LAX342] |
 | [!DNL SFO456] |
+| [!DNL AMS789] |
 
 {style="table-layout:auto"}
 
@@ -482,7 +485,9 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 您定義 `Hotel Name` 衍生欄位。 您使用 [!UICONTROL 分類] 函式以定義規則，您可在其中分類 [!UICONTROL 飯店ID] 欄位並取代為新值。
 
-![分類規則1的熒幕擷圖](assets/lookup-1.png)
+如果您想要包含尚未定義成分類值一部分的原始值（例如飯店ID AMS789），請務必選取 **[!UICONTROL 顯示原始值]**. 這可確保AMS789將成為衍生欄位輸出的一部分，即使該值未分類。
+
+![分類規則1的熒幕擷圖](assets/classify-1.png)
 
 ### 之後的資料 {#classify-uc1-dataafter}
 
@@ -517,7 +522,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 您定義 `Page Name (updated)` 衍生欄位。 您使用 [!UICONTROL 分類] 函式以定義規則，您可在其中分類現有值 [!UICONTROL 頁面名稱] 欄位並取代為更新的正確值。
 
-![分類規則2的熒幕擷圖](assets/lookup-2.png)
+![分類規則2的熒幕擷圖](assets/classify-2.png)
 
 ### 之後的資料 {#classify-uc2-dataafter}
 
