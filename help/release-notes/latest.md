@@ -4,26 +4,26 @@ description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: 2dab438b956513eaff3f05d2ff8de2fff43d9977
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-# 最新Adobe Customer Journey Analytics發行說明（2023年8月）
+# 最新的 Adobe Customer Journey Analytics 版本注意事項 (2023 年 8 月)
 
-**最新更新**：2023 年 8 月 9 日
+**最後更新**：2023 年 8 月 9 日
 
-這些發行說明涵蓋2023年8月9日至9月13日的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些版本注意事項涵蓋 2023 年 8 月 9 日至 9 月 13 日的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Report Builder 改良功能** | <ul><li>從「歷史記錄」索引標籤下載排程工作，您可以在其中檢視排程工作的歷史記錄。 從該工作下載活頁簿。 </li><li>以維度顯示開始日期：可讓使用者在資料區塊輸出中，將資料區塊的開始日期顯示為維度。 </li></ul> | 不適用 | 2023 年 8 月 17 日 |
-| **貨幣轉換** | Customer Journey新增了支援多種貨幣的功能。 您可以在資料檢視設定中將貨幣轉換為另一種貨幣。 [了解更多](/help/data-views/component-settings/format.md) | 不適用 | 2023 年 8 月 31 日 |
-| **Analytics來源聯結器支援A4T分類** | 我們正在新增相互關聯ID，以便輕鬆聯結Adobe Target活動和體驗事件的分類資料。 | 不適用 | 2023 年 8 月 31 日 |
-| **報告活動管理員** | 讓管理員可詳細瞭解每個連線的報告耗用量，讓管理員在尖峰報告期間輕鬆診斷並修正容量問題。 | 不適用 | 2023 年 9 月 6 日 |
+| **Report Builder 改良功能** | <ul><li>從「歷史記錄」標籤下載已排程任務；您可以在該處檢視已排程任務的歷史記錄。從該任務下載活頁簿。 </li><li>以開始日期作為維度：可讓使用者將資料區塊的開始日期顯示為資料區塊輸出中的維度。 </li></ul> | 不適用 | 2023 年 8 月 17 日 |
+| **貨幣轉換** | Customer Journey 增加了支援多種貨幣的功能。您可以在資料檢視設定中轉換貨幣。[了解更多](/help/data-views/component-settings/format.md) | 不適用 | 2023 年 8 月 31 日 |
+| **支援 Analytics Source Connector 的 A4T 分類** | 我們新增了關聯 ID，以便輕鬆加入 Adobe Target 活動和體驗事件的分類資料。 | 不適用 | 2023 年 8 月 31 日 |
+| **報告活動管理員** | 讓管理員可以詳細瞭解每個連線的報告使用量，以便在尖峰報告期間輕鬆診斷並修正容量問題。 | 不適用 | 2023 年 9 月 6 日 |
 | **PowerBI 和 Tableau 可存取 Customer Journey Analytics 資料檢視** | Adobe Customer Journey Analytics SQL 連接器可讓 SQL 存取您在 Customer Journey Analytics 中已定義的資料檢視。比較熟悉 Power BI、Tableau 或其他企業情報和視覺化工具的資料工程師與分析師，現在可以根據 Customer Journey Analytics 使用者用於其 Analysis Workspace 專案的相同資料檢視來建立報告和儀表板。[了解更多](/help/data-views/sql-connector.md) | 不適用 | 2023 年 9 月 13 日 |
 
 {style="table-layout:auto"}
