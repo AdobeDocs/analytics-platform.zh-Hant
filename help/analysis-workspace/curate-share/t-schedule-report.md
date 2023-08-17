@@ -5,10 +5,10 @@ title: 為專案排程
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 6f3ae14e4d34de17ed64ae30cee4611e4d6f3226
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 89%
+source-wordcount: '548'
+ht-degree: 84%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 89%
 1. 按一下 **[!UICONTROL 共用] > [!UICONTROL 匯出檔案]**.
 1. 指定檔案型別：
    * [!UICONTROL **CSV**]：如果您想要純文字資料，請選擇此選項。
-   * [!UICONTROL **PDF**]：如果您希望下載的檔案包含專案中所有顯示的（可見）表格和視覺效果，請選取此選項。
-1. （選用）新增說明以包含在電子郵件中，說明正在接收的檔案。
+   * [!UICONTROL **PDF**]：如果您希望下載的檔案包含專案中所有顯示的（可見）表格和視覺效果，請選擇此選項。
+1. （選用）新增要納入電子郵件中的說明，以說明正在接收的檔案。
 1. 新增收件者或群組。您也可以輸入電子郵件地址。
 1. (僅適用於 Healthcare Shield 客戶) 提供密碼。請參閱「密碼保護排程報告」章節。
 1. 按一下「**[!UICONTROL 立即傳送]**」。
@@ -51,39 +51,13 @@ ht-degree: 89%
 
 可在「**[!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 排程專案]**」中管理已排程 Analysis Workspace 專案。
 
-在「排程專案管理員」中，您可以編輯和刪除周期性專案排程。在搜尋列中或使用左側邊欄中的篩選選項來搜尋排程。您可以依標籤、核准的排程、擁有者等篩選。
-
-| 欄位 | 說明 |
-| --- | --- |
-| [!UICONTROL 我的最愛] | 選取星號圖示可將此排程加入我的最愛。 |
-| [!UICONTROL 排程 ID] | 此 ID 主要是用於偵錯。 |
-| [!UICONTROL 標題和說明] | 此專案的標題和說明。 |
-| [!UICONTROL 所有者] | 建立及擁有專案的人。 |
-| [!UICONTROL 標記] | (選擇性) 標記是組織專案的好方法。 所有使用者都可建立標記，並將一個或多個標記套用到專案。 不過，您只能看見自己所擁有或他人與您共用的那些專案的標記。 |
-| [!UICONTROL 已傳遞到] | 此排程專案的收件者。 |
-| [!UICONTROL 到期日] | 您可以將到期日設定為一年，無論排程頻率為何。 |
-| [!UICONTROL 頻率] | 您想要將此排程專案傳送給收件者的頻率。 |
-| [!UICONTROL 執行時間] | 在一天中的什麼時間傳送此排程專案。 |
-| [!UICONTROL 查詢數] | 針對此專案執行的查詢數。 |
-
-下列是「已排程的專案管理員」中的常見動作：
-
-| 動作 | 說明 |
-|---|---|
-| **[!UICONTROL 編輯排程]** | 按一下排程的標題以更新傳送設定。 |
-| **[!UICONTROL 刪除排程]** | 選取清單中的排程專案，然後在功能表按一下「刪除」。這會刪除專案選取的排程，不會刪除專案本身。 |
-| **[!UICONTROL 新增標籤]** | 選取清單中的排程專案，然後選擇「標籤」或「核准」來組織排程，更能輕鬆搜尋。 |
-| **[!UICONTROL 檢視失敗的排程]** | 導覽至左側邊欄 >「其他篩選器 > 失敗」，查看失敗的排程。 |
-| **[!UICONTROL 檢視過期的排程]** | 導覽至左側邊欄 >「其他篩選器 > 過期」，查看過期的排程。按一下排程的標題，設定新的傳送排程。 |
-| **[!UICONTROL 檢視排程 ID]** | 導覽至右上角的欄選項，然後將「排程 ID」欄新增至表格。排程的 ID 對除錯而言通常很實用。 |
-
-「排程專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已被停用，所有已安排的傳送將停止。
+如需詳細資訊，請參閱 [排程專案](/help/components/scheduled-projects-manager.md)
 
 ## 密碼保護排程專案 {#password}
 
 >[!NOTE]
 >
->密碼保護排程專案的選項僅會對已購買的Customer Journey Analytics客戶顯示 [Healthcare Shield](https://business.adobe.com/solutions/experience-cloud-for-healthcare.html) 附加產品。
+>密碼保護排程專案的選項僅會對已購買的Customer Journey Analytics客戶顯示 [Health Shield](https://business.adobe.com/solutions/experience-cloud-for-healthcare.html) 附加產品。
 
 Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv 格式傳送。
 
