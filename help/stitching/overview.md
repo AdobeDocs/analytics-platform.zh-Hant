@@ -3,9 +3,9 @@ title: 拼接概述
 description: 銜接概觀。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
+source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1265'
 ht-degree: 25%
 
 ---
@@ -117,10 +117,14 @@ Once the data view is set up, the cross-channel analysis in Customer Journey Ana
 * 暫時ID欄位應包含單一ID型別（來自單一名稱空間的ID）。 例如，暫時 ID 欄位不應包含登入 ID 和電子郵件 ID 的組合。
 * 如果針對同一永久ID發生了具有相同時間戳記的多個事件，但暫時ID欄位中的值不同，則拼接作業會根據字母順序來選取ID。 因此，如果永久ID A有兩個具有相同時間戳記的事件，且其中一個事件指定Bob，而另一個事件指定Ann，則拼接作業會選取Ann。
 * 如果裝置由多人共用，且使用者之間的轉換總數超過50,000，Customer Journey Analytics會停止為該裝置拼接資料。
+* 請小心暫時ID包含預留位置值（例如「未定義」）的情況。 另請參閱 [常見問題集](faq.md) 以取得詳細資訊。
 
 請勿將拼接與下列混淆：
 
 * 兩個或多個資料集的合併。 拼接僅適用於一個資料集。 設定Customer Journey Analytics連線，並在連線中選取的資料集中選取相同的人員ID，會造成資料集合併。
 
 * 兩個資料集的聯結。 在Customer Journey Analytics中，聯結通常用於Analysis Workspace中的查閱或分類。 雖然銜接使用連線功能，但程式本身牽涉的遠不止連線。
+
+
+
 
