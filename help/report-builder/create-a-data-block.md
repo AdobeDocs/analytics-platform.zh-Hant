@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: fe52730e3904ba5ccc5d1e7e5ff89eed8a575fbc
+source-git-commit: bc82cd376a082b55f915c1e27f6fcec861989b00
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 83%
+source-wordcount: '607'
+ht-degree: 74%
 
 ---
 
@@ -63,6 +63,12 @@ ht-degree: 83%
    - 將日期元件新增到「欄」區段。
    - 將「篩選器」元件新增到「篩選器」區段。
 
+   **以Dimension顯示開始日期**
+
+   將開始日期設定為維度，以清楚識別資料區塊的開始日期。 如果您有具有滾動日期範圍的定期排程報表，或是您有非常規日期範圍且需要清除開始日期，這會很有幫助。
+
+   ![熒幕擷圖顯示維度清單中的開始日期。](./assets/start-date-dimension.png){width="15%"}
+
 1. 安排「表格」窗格中的項目，以自訂資料區塊的版面配置。
 
    將「表格」窗格中的元件拖放至重新排列元件，或是在元件名稱上按一下滑鼠右鍵，然後從選項選單中進行選取。
@@ -85,7 +91,7 @@ ht-degree: 83%
 
    ![預留位置影像](./assets/row-heading.png){width="35%"}
 
-1. 按一下隱藏或顯示，切換維度標籤或欄標題。 預設會顯示所有標籤。
+1. 按一下「隱藏」或「顯示」來切換維度標籤或欄標題。 預設會顯示所有標籤。
 
 1. 按一下「**完成**」。
 

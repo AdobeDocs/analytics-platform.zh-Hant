@@ -1,15 +1,15 @@
 ---
 title: 如何在 Customer Journey Analytics 中使用 Report Builder 排程活頁簿。
-description: 說明如何在 Report Builder 中使用排程功能
+description: 瞭解如何在Report Builder中使用排程功能
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: cd3ed8873619c7fb5281d42b1f74c32b245400d0
-workflow-type: ht
-source-wordcount: '1078'
-ht-degree: 100%
+source-git-commit: d40638272263a389421adfe224649e2b905c652b
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 90%
 
 ---
 
@@ -91,17 +91,21 @@ ht-degree: 100%
 
 1. 在 Report Builder 中心的「排程」區段中，按一下「活頁簿」標籤。使用此檢視查看所有已排程活頁簿的清單。
 
-1. 選取活頁簿。系統會顯示數種工具，讓您編輯活頁簿、變更排程、暫停並重新啟動排程，或刪除排程。
+1. 選取活頁簿。顯示的幾個工具可讓您編輯活頁簿、編輯排程工作、暫停和重新啟動排程工作、下載排程工作報表，或刪除排程工作。
 
-   ![替代說明](./assets/edit-icons.png){width="55%"}
+   ![熒幕擷圖顯示活頁簿排程圖示。](./assets/schedule-icons.png){width="15%"}
 
-* (選用) 按一下鉛筆圖示，即可編輯活頁簿排程。
+* （可選）按一下鉛筆圖示以編輯活頁簿排程工作。
 
 * (選用) 按一下時鐘圖示，即可檢視每個排程任務的歷史記錄。
 
-* (選用) 按一下暫停圖示，即可暫停並重新啟動發佈排程。如果您需要在傳送活頁簿之前修改活頁簿，這個方法會很實用。想要重新啟動發佈時，請再按一下暫停圖示。
+* （選擇性）按一下暫停圖示以暫停並重新啟動發佈排程工作。 如果您需要在傳送活頁簿之前修改活頁簿，這個方法會很實用。想要重新啟動發佈時，請再按一下暫停圖示。
 
-* (選用) 按一下垃圾桶以刪除排程。
+* （選用）按一下下載圖示，即可下載活頁簿排程工作的復本。
+
+* （選擇性）按一下垃圾桶以刪除排程工作。
+
+  ![熒幕擷圖顯示排程工作清單。](./assets/selected-workbook.png){width="20%"}
 
 ## 查看已排程任務的狀態
 
