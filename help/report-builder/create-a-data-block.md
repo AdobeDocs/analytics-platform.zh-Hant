@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: bc82cd376a082b55f915c1e27f6fcec861989b00
+source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 74%
@@ -67,7 +67,7 @@ ht-degree: 74%
 
    將開始日期設定為維度，以清楚識別資料區塊的開始日期。 如果您有具有滾動日期範圍的定期排程報表，或是您有非常規日期範圍且需要清除開始日期，這會很有幫助。
 
-   ![熒幕擷圖顯示維度清單中的開始日期。](./assets/start-date-dimension.png){width="15%"}
+   ![熒幕擷圖顯示維度清單中的開始日期。](./assets/start-date-dimension.png){width="30%"}
 
 1. 安排「表格」窗格中的項目，以自訂資料區塊的版面配置。
 

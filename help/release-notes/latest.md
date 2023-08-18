@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 2dab438b956513eaff3f05d2ff8de2fff43d9977
-workflow-type: ht
+source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
+workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Report Builder 改良功能** | <ul><li>從「歷史記錄」標籤下載已排程任務；您可以在該處檢視已排程任務的歷史記錄。從該任務下載活頁簿。 </li><li>以開始日期作為維度：可讓使用者將資料區塊的開始日期顯示為資料區塊輸出中的維度。 </li></ul> | 不適用 | 2023 年 8 月 17 日 |
+| **Report Builder 改良功能** | <ul><li>您可以從「活頁簿」索引標籤下載排程工作，然後加上標題、儲存並共用。 [了解更多](/help/report-builder/schedule-reportbuilder.md)</li><li>維度形式的開始日期可讓您在資料區塊輸出中，將資料區塊的開始日期顯示為維度。 [了解更多](/help/report-builder/create-a-data-block.md) </li></ul> | 不適用 | 2023 年 8 月 17 日 |
 | **貨幣轉換** | Customer Journey 增加了支援多種貨幣的功能。您可以在資料檢視設定中轉換貨幣。[了解更多](/help/data-views/component-settings/format.md) | 不適用 | 2023 年 8 月 31 日 |
 | **支援 Analytics Source Connector 的 A4T 分類** | 我們新增了關聯 ID，以便輕鬆加入 Adobe Target 活動和體驗事件的分類資料。 | 不適用 | 2023 年 8 月 31 日 |
 | **報告活動管理員** | 讓管理員可以詳細瞭解每個連線的報告使用量，以便在尖峰報告期間輕鬆診斷並修正容量問題。 | 不適用 | 2023 年 9 月 6 日 |

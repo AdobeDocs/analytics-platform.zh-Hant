@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: d40638272263a389421adfe224649e2b905c652b
+source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 90%
@@ -93,7 +93,7 @@ ht-degree: 90%
 
 1. 選取活頁簿。顯示的幾個工具可讓您編輯活頁簿、編輯排程工作、暫停和重新啟動排程工作、下載排程工作報表，或刪除排程工作。
 
-   ![熒幕擷圖顯示活頁簿排程圖示。](./assets/schedule-icons.png){width="15%"}
+   ![熒幕擷圖顯示活頁簿排程圖示。](./assets/schedule-icons.png){width="20%"}
 
 * （可選）按一下鉛筆圖示以編輯活頁簿排程工作。
 
@@ -105,7 +105,7 @@ ht-degree: 90%
 
 * （選擇性）按一下垃圾桶以刪除排程工作。
 
-  ![熒幕擷圖顯示排程工作清單。](./assets/selected-workbook.png){width="20%"}
+  ![熒幕擷圖顯示排程工作清單。](./assets/selected-workbook.png){width="40%"}
 
 ## 查看已排程任務的狀態
 
