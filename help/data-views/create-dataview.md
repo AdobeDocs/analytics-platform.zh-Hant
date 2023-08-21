@@ -5,9 +5,9 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,6 +134,6 @@ ht-degree: 99%
 
 ### 工作階段設定
 
-決定在工作階段到期和新工作階段開始之前，事件之間的閒置時段。需要時段。您也可以選擇在事件包含特定量度時，強制啟動新工作階段。另請參閱 [工作階段設定](session-settings.md) 以取得更多詳細資料。
+決定在工作階段到期和新工作階段開始之前，事件之間的閒置時段。需要時段。您也可以選擇在事件包含特定量度時，強制啟動新工作階段。如需詳細資料，請參閱[工作階段設定](session-settings.md)。
 
-指定所有所需設定後，按一下&#x200B;**[!UICONTROL 「儲存並完成」]**。
+指定所有所需設定後，按一下「**[!UICONTROL 儲存並完成]**」。
