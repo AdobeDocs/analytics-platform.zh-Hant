@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 0160aee587c1f88e4889f26757b1962c3d59b9fa
+source-git-commit: e9c6aba709d0e75a42a16b455612e0cad1428779
 workflow-type: tm+mt
-source-wordcount: '2550'
-ht-degree: 97%
+source-wordcount: '2566'
+ht-degree: 98%
 
 ---
 
@@ -20,8 +20,9 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 8 月** | |
+| 「媒體播放時間」面板 | 已更新的內容  [「媒體播放時間」面板](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 提升可讀性。 |
 | Report Builder 改良功能 | 已更新的內容 [排程活頁簿](/help/report-builder/schedule-reportbuilder.md) 提供下載排程工作的資訊。 已更新的內容  [建立資料區塊](/help/report-builder/create-a-data-block.md) 以提供開始日期作為維度的相關資訊。 |
-| 與管理排程專案相關的內容已移動 | 在Analytics元件指南中建立新文章，稱為 [排程專案](/help/components/scheduled-projects-manager.md). 此內容先前位於 [排程專案](/help/analysis-workspace/curate-share/t-schedule-report.md) Analytics工具指南中的文章。 |
+| 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立一篇新文章，名為[已排程的專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程的專案](/help/analysis-workspace/curate-share/t-schedule-report.md)文章中。 |
 | Adobe Customer Journey Analytics 功能支援 | 相較於 Adobe Analytics，Customer Journey Analytics 已在工作階段化功能的&#x200B;*以新方式支援*&#x200B;表格中新增更多資訊。[了解更多](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | 從 Adobe Analytics 發展而來 | 已更新 *(重新) 設定行銷管道*&#x200B;區段，並引用衍生欄位行銷管道功能範本。[了解更多](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | 行動應用程式和其他平台的資料擷取快速入門指南 | 新增額外的資料擷取快速入門指南，旨在概述如何在 Customer Journey Analytics 中擷取和使用來自行動應用程式或其他平台 (例如桌面應用程式、遊戲主機上的遊戲、機上盒和 IoT 裝置上的應用程式) 的資料。[了解更多](../data-ingestion/data-ingestion.md) |
