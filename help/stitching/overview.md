@@ -3,10 +3,10 @@ title: 拼接概述
 description: 銜接概觀。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
+source-git-commit: 52d47e777e8c9f7e1e73f4131f19d7df280cb2a3
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 25%
+source-wordcount: '1322'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 25%
 
 不幸的是，並非所有屬於您在Customer Journey Analytics中的連線之事件型資料集都已填入足夠的資料，以立即支援此歸因。 尤其以網頁或行動為基礎的體驗資料集，通常沒有可用於所有事件的實際人員ID資訊。
 
-拼接功能允許在一個資料集的列內重新輸入身分，確保每個事件都可使用人員ID （拼接的ID）。 拼接會檢視已驗證和未驗證工作階段的使用者資料，以決定可用作拼接ID的共同暫時ID值。 這允許將不同的記錄解析為單一彙整ID，以便在人員層級而不是裝置或Cookie層級進行分析。
+拼接功能允許在一個資料集的列內重新輸入身分，確保每個事件都可使用人員ID （拼接的ID）。 拼接會檢視已驗證和未驗證工作階段的使用者資料，以決定可用作拼接ID的共同暫時ID值。 此金鑰重設允許將不同的記錄解析為單一彙整ID，以便在人員層級而不是裝置或Cookie層級進行分析。
 
 如果在定義Customer Journey Analytics連線時，將一或多個拼接資料集與其他資料集（例如客服中心資料）結合，即可受益於跨管道分析。 這假設其他資料集在每一列都包含人員ID，類似於拼接ID。
 
@@ -102,9 +102,11 @@ Once the data view is set up, the cross-channel analysis in Customer Journey Ana
 
 >[!IMPORTANT]
 >
->將您對全域事件資料集結構描述所做的任何變更也套用至新拼接資料集結構描述，否則這會中斷拼接的資料集。
+>* 將您對全域事件資料集結構描述所做的任何變更也套用至新拼接資料集結構描述，否則這會中斷拼接的資料集。
 >
->此外，如果您移除來源資料集，拼接的資料集將停止處理並被系統移除。
+>* 如果您移除來源資料集，拼接的資料集將停止處理並被系統移除。
+>
+>* 資料使用標籤不會自動傳播到拼接的資料集結構描述。 如果您已將資料使用標籤套用至來源資料集結構描述，則需要手動將這些資料使用標籤套用至拼接的資料集結構描述。 另請參閱 [管理Experience Platform中的資料使用標籤](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hant) 以取得詳細資訊。
 
 拚接是一項具突破性的完善功能，但其使用方式有所限制。
 
@@ -123,7 +125,7 @@ Once the data view is set up, the cross-channel analysis in Customer Journey Ana
 
 * 兩個或多個資料集的合併。 拼接僅適用於一個資料集。 設定Customer Journey Analytics連線，並在連線中選取的資料集中選取相同的人員ID，會造成資料集合併。
 
-* 兩個資料集的聯結。 在Customer Journey Analytics中，聯結通常用於Analysis Workspace中的查閱或分類。 雖然銜接使用連線功能，但程式本身牽涉的遠不止連線。
+* 兩個資料集的聯結。 在Customer Journey Analytics中，聯結通常用於Analysis Workspace中的查閱或分類。 雖然銜接使用連線功能，但程式本身涉及的不只是連線。
 
 
 
