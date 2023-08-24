@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: e9c6aba709d0e75a42a16b455612e0cad1428779
 workflow-type: tm+mt
 source-wordcount: '2566'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,8 +21,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | --- | --- |
 | **2023 年 8 月** | |
 | 「媒體播放時間」面板 | 已更新的內容  [「媒體播放時間」面板](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 提升可讀性。 |
-| Report Builder 改良功能 | 已更新的內容 [排程活頁簿](/help/report-builder/schedule-reportbuilder.md) 提供下載排程工作的資訊。 已更新的內容  [建立資料區塊](/help/report-builder/create-a-data-block.md) 以提供開始日期作為維度的相關資訊。 |
-| 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立一篇新文章，名為[已排程的專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程的專案](/help/analysis-workspace/curate-share/t-schedule-report.md)文章中。 |
+| Report Builder 改良功能 | 已更新[排程活頁簿](/help/report-builder/schedule-reportbuilder.md)的內容，提供關於下載已排程任務的資訊。已更新[建立資料區塊](/help/report-builder/create-a-data-block.md)的內容，提供關於使用開始日期作為維度的資訊。 |
+| 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立了一篇新文章，名為[已排程專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程專案](/help/analysis-workspace/curate-share/t-schedule-report.md)文章。 |
 | Adobe Customer Journey Analytics 功能支援 | 相較於 Adobe Analytics，Customer Journey Analytics 已在工作階段化功能的&#x200B;*以新方式支援*&#x200B;表格中新增更多資訊。[了解更多](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | 從 Adobe Analytics 發展而來 | 已更新 *(重新) 設定行銷管道*&#x200B;區段，並引用衍生欄位行銷管道功能範本。[了解更多](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | 行動應用程式和其他平台的資料擷取快速入門指南 | 新增額外的資料擷取快速入門指南，旨在概述如何在 Customer Journey Analytics 中擷取和使用來自行動應用程式或其他平台 (例如桌面應用程式、遊戲主機上的遊戲、機上盒和 IoT 裝置上的應用程式) 的資料。[了解更多](../data-ingestion/data-ingestion.md) |
@@ -44,7 +44,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | Report Builder 中關於「從儲存格中選取資料檢視」的文件 | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
 | Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
 | 最佳化更新 | 已更新關於[最佳化 Customer Journey Analytics 效能](/help/admin/optimizing-performance.md)的文章 |
-| Analysis Workspace 概觀 | 更新[Analysis Workspace 概觀](/help/analysis-workspace/home.md)以包含更多一般概觀資訊和相關內容的連結。 |
+| Analysis Workspace 概觀 | 更新 [Analysis Workspace 概觀](/help/analysis-workspace/home.md)以包含更多一般概觀資訊和相關內容的連結。 |
 | 建立專案 | 建立新文章，其中詳細說明如何在 Analysis Workspace [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)。 |
 | 排序左側邊欄中的元件 | 已新增排序左側邊欄中元件清單的資訊。請參閱[元件概觀](/help/components/overview.md)中的「搜尋、篩選和排序元件清單」一節。 |
 | 從自由格式表格中刪除包含動態維度的列 | 已新增如何使用 x 圖示快速刪除包含動態維度的特定列的資訊。請參閱[篩選和排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的「從表格中快速排除特定列」一節。 |
