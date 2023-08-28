@@ -1,11 +1,12 @@
 ---
 title: 引導式分析概述
 description: 分析Customer Journey Analytics中資料的方法，可讓產品團隊快速獲得高品質的深入分析。 也稱為Product Analytics。
+keywords: 產品分析
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: bf34b4e1a7c1e28cbaae98e61492901b1d143e3e
+source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1130'
 ht-degree: 8%
 
 ---
@@ -60,7 +61,7 @@ Adobe Product Analytics可讓產品團隊透過引導式Customer Journey Analyti
 
 {style="table-layout:auto"}
 
-## 布建
+## 佈建
 
 引導式分析屬於Adobe Product Analytics的一部分，是Customer Journey Analytics的付費附加元件。 如果您的組織想要開始使用這組功能，請聯絡您的Adobe客戶團隊。
 
