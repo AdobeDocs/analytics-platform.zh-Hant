@@ -6,7 +6,7 @@ feature: SQL Connector
 hide: true
 hidefromtoc: true
 exl-id: 80feadef-3e2d-4901-8c82-25c56d296e9f
-source-git-commit: 7ae94bb46d542181c6438e87f204bd49c2128c8c
+source-git-commit: 1b03689820c91a823cd7cf8ff42e3f5ee46083e5
 workflow-type: tm+mt
 source-wordcount: '2938'
 ht-degree: 1%
@@ -100,13 +100,13 @@ Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs
 
    2. 選取 **[!UICONTROL **&#x200B;認證&#x200B;**]** 從頂端列。
 
-   3. 使用 ![ 「複製 ](assets/Smock_Copy_18_N.svg) 」可在 Power BI 中複製每個 Postgres 憑證參數（ [!UICONTROL  主機 ] 、 [!UICONTROL  埠 ] 、 [!UICONTROL  資料庫 ] 、 [!UICONTROL  使用者名稱 ] 等）。
+   3. 在 Power BI 中需要時，使用「複製」複製每個 ![ Postgres 憑據參數（ [!UICONTROL  主機 ] 、埠 ] 、資料庫 ] 、 [!UICONTROL  [!UICONTROL  [!UICONTROL  使用者名 ] 等）。 ](assets/Smock_Copy_18_N.svg)
 
 2. 在 Power BI 中：
 
-   1. 在主視窗中，選取 **[!UICONTROL ** 頂部工具列中的「取得資料 **]** 」。
+   1. 在主視窗中，選擇「 **[!UICONTROL ** 從頂部工具列獲取資料 **]** 」。
 
-   2. 在左側邊欄中選取 **[!UICONTROL ** 更多 ... **]**
+   2. 選擇 **[!UICONTROL ** 左側邊欄中的「更多... **]** 」。
 
    3. 在 **取得資料** 熒幕，搜尋 `PostgresSQL` 並選取 **[!UICONTROL ** PostgresSQL資料庫&#x200B;**]** 從清單中。
 
@@ -116,7 +116,7 @@ Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs
 
       2. 貼上 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** Experience Platform查詢中的引數 [!UICONTROL 認證] 在 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** 文字欄位。
 
-         新增 `?FLATTEN` 至 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** 引數，因此其顯示如下 `prod:all?FLATTEN` 例如。 另請參閱 [平面化巢狀資料結構以用於協力廠商BI工具](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) 以取得詳細資訊。
+         新增 `?FLATTEN` 至 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** 引數，因此其顯示如下 `prod:cja?FLATTEN` 例如。 另請參閱 [平面化巢狀資料結構以用於協力廠商BI工具](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) 以取得詳細資訊。
 
       3. 提示輸入時 **[!UICONTROL **&#x200B;資料連線能力&#x200B;**]** 模式，選取 **[!UICONTROL ** Directquery **]** 以確保資料結構正確平面化。
 
@@ -158,21 +158,21 @@ Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs
 
       3. 貼上 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** Experience Platform查詢中的引數 [!UICONTROL 認證] 到 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** 文字欄位。
 
-         新增 `%3FFLATTEN` 至 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** 引數，因此其顯示如下 `prod:all%3FFLATTEN` 例如。 另請參閱 [平面化巢狀資料結構以用於協力廠商BI工具](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) 以取得詳細資訊。
+         新增 `%3FFLATTEN` 至 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** 引數，因此其顯示如下 `prod:cja%3FFLATTEN` 例如。 另請參閱 [平面化巢狀資料結構以用於協力廠商BI工具](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en) 以取得詳細資訊。
 
       4. 選取 **[!UICONTROL **&#x200B;使用者名稱和密碼&#x200B;**]** 從 **[!UICONTROL **&#x200B;驗證&#x200B;**]** 清單。
 
       5. 貼上 **[!UICONTROL **&#x200B;使用者名稱&#x200B;**]** Experience Platform查詢中的引數 [!UICONTROL 認證] 到 **[!UICONTROL **&#x200B;使用者名稱&#x200B;**]** 文字欄位。
 
-      6. 貼上 **[!UICONTROL ** 密碼 **]** 參數從 Experience Platform 查詢 [!UICONTROL  憑證 ] 至 **[!UICONTROL ** 密碼 **]** 文字欄位。
+      6. **[!UICONTROL **&#x200B;貼上密碼 **]** 參數從Experience Platform查詢 [!UICONTROL  憑據 **[!UICONTROL ** ] 到密碼 **]** 文字欄位。
 
-      7. 選擇 **[!UICONTROL ** 「登入 **]** 」。
+      7. 選擇「 **[!UICONTROL ** 登錄 **]** 」。
 
-   4. Customer Journey Analytics 資料檢視在表格 **]** 清單中 **[!UICONTROL ** 顯示為表格。資料視圖表格的首碼 `dv_` 為。
+   4. Customer Journey Analytics資料檢視會顯示為表格 **]** 清單中的 **[!UICONTROL ** 表格。資料視圖表的首碼 `dv_` 為 。
 
-   5. 將您要使用的表格拖曳到畫布上。
+   5. 在畫布上拖動要使用的表格。
 
-   您現在可以處理資料視圖表格的資料，版本編號報表和視覺效果。
+   您現在可以使用資料視圖表格中的資料來版本編號報表和視覺效果。
 
    另請參閱 [將Tableau連線至查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html?lang=en) 以取得詳細資訊。
 
@@ -230,8 +230,8 @@ prod:all=> \dv
 
 | 圖樣 | 範例 |
 |---|---|
-| 結構描述探索 | <pre>從 dv1 中選取 *，其中 1 = 0</pre> |
-| 排名/劃分 | <pre>選取 dim1，SUM （metric1）作為從 dv1 <br/> 的 m1 <br/> ，「2022-01-01」和「2022-01-02 <br/> 」 GROUP BY dim1</pre><pre>選取 dim1，SUM （metric1）作為從 dv1 的 m1 <br/> ，「2022-01-01」和「2022-01-02」和 <br/> filterId = 「12345 <br/> 」分組 <br/> 依據 dim1</pre><pre>選取dim1、SUM(metric1) AS m1<br/>從dv1<br/>其中\&#39;timestamp\&#39;介於&#39;2022-01-01&#39;和&#39;2022-01-02&#39;之間，並且<br/>  AND (dim2 = &#39;A&#39;或dim3 IN (&#39;X&#39;， &#39;Y&#39;， &#39;Z&#39;))<br/>按dim1分組</pre> |
+| 結構描述探索 | <pre>從 DV1 中選擇 *，其中 1=0</pre> |
+| 排名/劃分 | <pre>從 DV1 中選擇 DIM1，SUM（metric1） 作為 M1，其中 \&#39;timestamp\&#39; 在 &#39;2022-01-01&#39; 和 &#39;2022-01-02 <br/> &#39; <br/> 之間按 DIM1 <br/> 分組</pre><pre>從 DV1 中選擇 DIM1 <br/> ，SUM（metric1） 作為 M1，其中 \&#39;timestamp\&#39; 介於 &#39;2022-01-01&#39; 和 &#39;2022-01-02&#39; 之間， <br/> 並且 filterId = &#39;12345&#39; <br/> 分組依據 dim1 <br/></pre><pre>選取dim1、SUM(metric1) AS m1<br/>從dv1<br/>其中\&#39;timestamp\&#39;介於&#39;2022-01-01&#39;和&#39;2022-01-02&#39;之間，並且<br/>  AND (dim2 = &#39;A&#39;或dim3 IN (&#39;X&#39;， &#39;Y&#39;， &#39;Z&#39;))<br/>按dim1分組</pre> |
 | HAVING子句 | <pre>選取dim1、SUM(metric1) AS m1<br/>從dv1<br/>其中「時間戳記」介於「2022-01-01」和「2022-01-02」之間<br/>按dim1分組<br/>擁有m1 > 100</pre> |
 | 相異，頂端 <br/>維度值 | <pre>從dv1選取不同的dim1</pre><pre>選取dim1 AS dv1<br/>從dv1<br/>其中「時間戳記」介於「2022-01-01」和「2022-01-02」之間<br/>按dim1分組</pre><pre>選取dim1 AS dv1<br/>從dv1<br/>其中\&#39;timestamp\&#39; >= &#39;2022-01-01&#39;和\&#39;timestamp\&#39; &lt; &#39;2022-01-02&#39;<br/>按dim1分組<br/>ORDER BY SUM(metric1)<br/>限制15</pre> |
 | 量度總計 | <pre>選取SUM(metric1)作為m1<br/>從dv1<br/>其中「時間戳記」介於「2022-01-01」和「2022-01-02」之間</pre> |
@@ -248,15 +248,15 @@ prod:all=> \dv
 
 ### 維度
 
-您可以選取任何預設可用的維度或在資料檢視中定義的維度。 您可以依據 ID 選擇維度。
+您可以選取任何預設可用的維度或在資料檢視中定義的維度。 您可以依據其 ID 選取維度。
 
 ### 量度
 
-可供選擇的量度包括：
+可選擇的量度有：
 
-- 預設使用的任何量度，
+- 任何預設可用的量度，
 
-- 在資料視圖中定義，
+- 在「資料視圖」中定義，
 
 - 與使用者有權存取的資料檢視相容的計算量度。
 
@@ -297,7 +297,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN METRIC1 END) AS m1
 | `+`, `-`, `*`, `/`, 和 `%` | 加、減、乘、除和模數/餘數 |
 | `-X` 或 `+X` | 變更符號或量度（其中X是量度運算式） |
 | `PI()` | π常數 |
-| `POSITIVE`、 `NEGATIVE` 、 `ABS` `FLOOR` 、、 `CEIL` 、 `CEILING` 、 `EXP` `LOG1P` `LN` `LOG10` 、、、、 `SQRT` `ASIN` `ACOS` `ATAN` `COSH` `CBRT` `RADIANS` `SINH` `DEGREES` `SIN` `COS` `TAN` 、、、、、、、、、、和`TANH` | 一元數學函數 |
+| `POSITIVE`、、、 `NEGATIVE` `ABS` `FLOOR` `CEIL` `CEILING` `EXP` `LN` `LOG10` `LOG1P` `SQRT` `CBRT` `DEGREES` `RADIANS` `SIN` `COS` `TAN` `ACOS` `ASIN` `ATAN` `COSH` `SINH``TANH` | 一元數學函數 |
 | `MOD`, `POW`, `POWER`, `ROUND`, `LOG` | 二進位數學函數 |
 
 {style="table-layout:auto"}
@@ -357,7 +357,7 @@ ORDER BY -metric1 DESC
 
 | 功能 | 範例 | 詳細資料 |
 |---|---|---|
-| [強制轉換（欄類型）](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` 或 <br/> `` `timestamp`::string `` | 目前不支援類型轉換，但不會出現錯誤。 忽略此 `CAST` 函數。 |
+| [投射（列AS型）](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` 或 <br/> `` `timestamp`::string `` | 當前不支援類型轉換，但不會引發任何錯誤。 該 `CAST` 函數將被忽略。 |
 | [TIMESTAMP(timeString)](https://spark.apache.org/docs/latest/api/sql/index.html#timestamp) | `` WHERE `timestamp` >= TIMESTAMP('2022-01-01 00:00:00') AND   `timestamp` < TIMESTAMP('2022-01-02 00:00:00') `` | 將時間字串剖析為時間戳記，以便用於 `WHERE` 子句。 |
 | [TO_TIMESTAMP(timeString， formatString)](https://spark.apache.org/docs/latest/api/sql/index.html#to_timestamp) | `` WHERE `timestamp` >= TO_TIMESTAMP('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_TIMESTAMP('01/02/2022', 'MM/dd/yyyy') `` | 將時間字串剖析為時間戳記，以便用於 `WHERE` 子句，可選擇為該時間字串提供格式。 |
 | [DATE(dateString)](https://spark.apache.org/docs/latest/api/sql/index.html#date) | `` WHERE `timestamp` >= DATE('2022-01-01') AND `timestamp` < DATE('2022-01-02') `` | 將日期字串剖析為時間戳記，以便用於 `WHERE` 子句。 |
