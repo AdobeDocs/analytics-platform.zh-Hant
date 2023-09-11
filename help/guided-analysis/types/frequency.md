@@ -3,9 +3,9 @@ title: 頻率檢視
 description: 透過使用頻率衡量參與度.
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: 1e095720301f3e59e88674d086f5e0de9df88872
+source-git-commit: 77192426a58e1560abe91b904452b9cd46c862e9
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '539'
 ht-degree: 3%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 3%
 # [!UICONTROL 頻率] 檢視
 
 此 **[!UICONTROL 頻率]** 檢視依事件被檢視的頻率對事件資料分組。 此報表的垂直軸包含儲存格，代表檢視的事件或事件頻率。 水平軸會測量每個時段的使用者或工作階段數量。
+
+![頻率熒幕擷圖](../assets/frequency-stacked.png)
 
 ## 使用案例
 
