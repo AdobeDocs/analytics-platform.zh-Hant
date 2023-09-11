@@ -4,9 +4,9 @@ description: 衍生欄位會透過一組可用函式和函式範本，指定結�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: f8ad8b651a9a50b4fc4663ee82e842e3e5da7432
+source-git-commit: 9dbda5000c1d0930fac782b5e3cf382ed6b99a85
 workflow-type: tm+mt
-source-wordcount: '4433'
+source-wordcount: '5056'
 ht-degree: 15%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 15%
 | A | **規則名稱** | 依預設，規則名稱為 **規則X** （X代表序號）。 若要編輯規則的名稱，請選取其名稱，然後輸入新名稱，例如 `Query Parameter`. |
 | B | **函數名稱** | 規則的選定函式名稱，例如 [!UICONTROL URL解析]. 當函式是函式序列中的最後一個並決定最終輸出值時，函式名稱后面會接著一個 [!UICONTROL  — 最終輸出]，例如 [!UICONTROL URL剖析 — 最終輸出]. <br/>若要顯示包含函式詳細資訊的快顯視窗，請選取 ![說明圖示](assets/Smock_HelpOutline_18_N.svg). |
 | C | **規則說明** | 您可以選擇新增說明至規則。<br/>選取 ![「更多」圖示](assets/More.svg)，然後選取 **[!UICONTROL **&#x200B;新增說明&#x200B;**]** 新增說明或 **[!UICONTROL **&#x200B;編輯說明&#x200B;**]** 以編輯現有的說明。<br/>使用編輯器輸入說明。 您可以使用工具列來格式化文字（使用樣式選擇器、粗體、斜體、底線、右側、左側、置中、顏色、數字清單、專案符號清單），以及新增連結至外部資訊。 <br/>若要完成說明的編輯，請在編輯器外按一下「 」。 |
-| D | **功能區域** | 定義函式的邏輯。 介面取決於函式的型別。 的下拉式清單 [!UICONTROL 欄位] 或 [!UICONTROL 值] 根據函式預期的輸入型別，顯示所有可用欄位類別（規則、標準欄位、欄位）。 另請參閱 [函式參考](#function-reference) 每個支援函式的詳細資訊。 |
+| D | **功能區域** | 定義函式的邏輯。 介面取決於函式的型別。 的下拉式清單 [!UICONTROL 欄位] 或 [!UICONTROL 值] 根據函式預期的輸入型別，顯示所有可用欄位類別（規則、標準欄位、欄位）。 <!-- Alternatively, you can drag and drop a field from the Schema and Standard fields selector on to a Field or Value. When that dragged field is originating from a Lookup dataset, a Lookup function is automatically inserted before the function you define.  See [Function reference](#function-reference) on detailed information for each of the functions supported. --> |
 
 {style="table-layout:auto"}
 
@@ -385,7 +385,7 @@ ht-degree: 15%
 | [!DNL long trip] |
 
 
-## 更多資訊
+## 詳細資訊
 
 Customer Journey Analytics使用巢狀容器結構，並按照Adobe Experience Platform的範例建模 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) （體驗資料模型）。 另請參閱 [容器](../create-dataview.md#containers) 和 [篩選容器](../../components/filters/filters-overview.md#filter-containers) 以取得更多背景資訊。 此容器模型雖然本身有彈性，但在使用規則產生器時施加了一些限制。
 
@@ -413,9 +413,6 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 定義一組值，在新衍生欄位中以對應值取代。
 
-
-
-
 +++ 詳細資料
 
 >[!NOTE]
@@ -426,7 +423,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要分類的欄位]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 當值等於] 和 [!UICONTROL 將值取代為]：</p><ul><li>字串</li></ul><li>顯示原始值<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要分類的欄位]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 當值等於] 和 [!UICONTROL 將值取代為]：</p><ul><li>字串</li></ul><li>顯示原始值<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式<br/>每個函式100列</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -536,6 +533,17 @@ Customer Journey Analytics會使用以下預設容器模型：
 | [!DNL Reviews] |
 | [!DNL Generate Quote] |
 
+
+## 詳細資訊 {#classify-moreinfo}
+
+「分類」規則介面中提供下列額外功能：
+
+- 若要快速清除所有表格值，請選取 ![擦除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL 清除所有表格值]**.
+- 若要上傳包含「當值等於時」的原始值和「取代為」的新值的CSV檔案，請選取 ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL 上傳CSV]**.
+- 若要下載範本，以建立具有要上傳的原始值和新值的CSV檔案，請選取 ![下載](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL 下載CSV範本]**.
+- 若要下載CSV檔案，並在規則介面中填入所有原始值和新值，請選取「 」 ![下載](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL 下載CSV值]**.
+
+
 +++
 
 <!-- CONCATENATE -->
@@ -618,7 +626,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 <!-- FIND AND REPLACE -->
 
-### 尋找和取代
+### 尋找並取代
 
 尋找所選欄位中的所有值，並在新的衍生欄位中以不同的值取代這些值。
 
@@ -685,6 +693,108 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 +++
 
+
+<!-- LOOKUP
+
+### Lookup
+
+Lookup values using a field from a lookup dataset and returns value in a new derived field or for further rule processing.
+
++++ Details
+
+## Specification {#lookup-io}
+
+| Input Data Type | Input | Included Operators | Limit | Output |
+|---|---|---|---|---|
+| <ul><li>String</li><li>Numeric</li><li>Date</li></ul> | <ul><li>[!UICONTROL Field to apply lookup]:</li><ul><li>Rules</li><li>Standard fields</li><li>Fields</li></ul><li>[!UICONTROL Lookup dataset]</li><ul><li>Dataset</li></ul><li>[!UICONTROL Matching key]<ul><li>Rules</li><li>Fields</li></ul></li><li>Values to return<ul><li>Rules</li><li>Fields</li></ul></li></ul> | <p>N/A</p> | <p>3 functions per derived field</p> | <p>New derived field or value for further processing in next rule</p> |
+
+{style="table-layout:auto"}
+
+## Use case {#lookup-uc}
+
+You would like to lookup the activity name using the activity id collected when your customers clicked on a personalized banner shown through Adobe Target. You want to use a lookup dataset with Analytics for Target (A4T) activities containing activity ids and activity names.
+
+### A4T lookup dataset {#lookup-uc-lookup}
+
+| Activity Id | Activity Name |
+|---|---|
+| 415851 | MVT Test Category Pages |
+| 415852 | Luma - Campaign Max 2022 |
+| 402922 | Home Page Banners |
+
+{style="table-layout:auto"}
+
+### Derived field {#lookup-uc-derivedfield}
+
+You define an `Activity Name` derived field. You use the [!UICONTROL LOOKUP] function to define a rule to lookup the value from your collected data, specified in the [!UICONTROL Field to apply lookup] field. You select the lookup dataset from the [!UICONTROL Lookup dataset] list, selecting the identifier field from the [!UICONTROL Matching key list] and the field to return from the [!UICONTROL Values to return] list.
+
+![Screenshot of the Lowercase rule](assets/lookup.png)
+
+## More info
+
+You can quickly insert a [!UICONTROL Lookup] function in the rule builder, already containing one or more other functions.
+
+  1. Select **[!UICONTROL Schema fields]** from selector.
+  1. Select ![Schema field icon](assets/Smock_Folder_18_N.svg) **[!UICONTROL Lookup datasets]**.
+  1. Select your lookup dataset and find the field you want to use for lookup.
+  1. Drag the lookup field and drop the field on any of the available input fields for a function (for example Case When). When valid, a blue **[!UICONTROL + Add box]** will allow you to drop the field and automatically insert a Lookup function before the function you dropped the lookup field on, and populate the Lookup function with relevant values for all fields.
+     ![Lookup drag](assets/lookup-drag.png) 
+
++++
+
+-->
+
+<!-- LOWERCASE -->
+
+### 小寫
+
+將欄位中的值轉換為小寫，並將其儲存到新的衍生欄位中。
+
++++ 詳細資料
+
+## 規格 {#lowercase-io}
+
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
+|---|---|---|---|---|
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]:</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul> | <p>不適用</p> | <p>每個衍生欄位2個函式</p> | <p>新增衍生欄位</p> |
+
+{style="table-layout:auto"}
+
+## 使用案例 {#lowercase-uc}
+
+您想要將所有收集的產品名稱轉換為小寫，以便正確製作報表。
+
+### 在此之前的資料 {#lowercase-uc-databefore}
+
+| 收集的產品名稱 | 產品檢視 |
+|---|---:|
+| 網球拍 | 35 |
+| 網球拍 | 33 |
+| 網球拍 | 21 |
+| 棒球棒 | 15 |
+| 棒球棒 | 12 |
+| 棒球棒 | 10 |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#lowercase-uc-derivedfield}
+
+您定義 `Product Names` 衍生欄位。 您使用 [!UICONTROL 小寫] 函式來定義規則，以將 [!UICONTROL 收集的產品名稱] 欄位轉換為小寫，並將其儲存在新的衍生欄位中。
+
+![小寫規則的熒幕擷圖](assets/lowercase.png)
+
+
+### 之後的資料 {#lowercase-uc-dataafter}
+
+| 產品名稱 | 產品檢視 |
+|---|---|
+| 網球拍 | 89 |
+| 棒球棒 | 37 |
+
+{style="table-layout:auto"}
+
++++
+
 <!-- MERGE FIELDS -->
 
 ### 合併欄位
@@ -742,7 +852,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 {style="table-layout:auto"}
 
-## 更多資訊 {#merge-fields-moreinfo}
+## 詳細資訊 {#merge-fields-moreinfo}
 
 您必須在「合併欄位」規則中選取相同型別的欄位。 例如，如果您選取「日期」欄位，則您要合併的所有其他欄位都必須是「日期」欄位。
 
@@ -798,7 +908,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 | customer-journey-analytics.html |
 | adobe-experience-platform.html |
 
-## 更多資訊
+## 詳細資訊
 
 Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下列運算式：
 
@@ -941,6 +1051,119 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 +++
 
 
+<!-- TRIM -->
+
+### 修剪
+
+從欄位值的開頭或結尾，將空格、特殊字元或字元數修剪成新的衍生欄位。
+
++++ 詳細資料
+
+## 規格 {#trim-io}
+
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
+|---|---|---|---|---|
+| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 欄位]<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>修剪空白字元</li><li>修剪特殊字元<ul><li>特殊字元的輸入</li></ul></li><li>從左側修剪<ul><li>從 <ul><li>字串開始</li><li>位置<ul><li>位置 #</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li></ul></li><li>結束日期<ul><li>字串結束</li><li>位置<ul><li>位置 #</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li><li>長度</li></ul></li></ul></li><li>從右側修剪<ul><li>從 <ul><li>字串結束</li><li>位置<ul><li>位置 #</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li></ul></li><li>結束日期<ul><li>字串開始</li><li>位置<ul><li>位置 #</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li><li>長度</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位1個函式</p> | <p>新增衍生欄位</p> |
+
+{style="table-layout:auto"}
+
+## 使用案例1 {#trim-uc1}
+
+您會收集產品資料，但資料中包含隱藏的空白字元，且會提供片段報表。 您想要輕鬆修剪任何多餘的空白字元
+
+### 在此之前的資料 {#trim-uc1-databefore}
+
+| 產品 ID | 活動 |
+|---|--:|
+| `"prod12356 "` | 1 |
+| `"prod12356"` | 1 |
+| `" prod12356"` | 1 |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#trim-u1-derivedfield}
+
+您建立 `Product Identifier` 衍生欄位。 您使用 [!UICONTROL TRIM] 定義規則的函式 **[!UICONTROL 修剪空白]** 從 **[!UICONTROL 產品ID]** 欄位。
+
+![分割規則1的熒幕擷圖](assets/trim-1.png)
+
+### 之後的資料 {#trim-uc1-dataafter}
+
+| 產品識別碼 | 活動 |
+|---|--:|
+| `"prod12356 "` | 3 |
+
+{style="table-layout:auto"}
+
+## 使用案例2 {#trim-uc2}
+
+您在頁面名稱上收集的資料在頁面名稱結尾包含一些錯誤的特殊字元，這些字元需要移除。
+
+### 在此之前的資料 {#trim-uc2-databefore}
+
+| 名稱 | 活動 |
+|---|--:|
+| home page# | 1 |
+| home page? | 1 |
+| home page% | 1 |
+| home page&amp; | 1 |
+| home page/ | 1 |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#trim-u2-derivedfield}
+
+您建立  `Page Name` 衍生欄位。 您使用 [!UICONTROL TRIM] 定義規則的函式 [!UICONTROL 修剪特殊字元] 從 [!UICONTROL 名稱] 欄位使用 [!UICONTROL 特殊字元] `#?%&/`.
+
+![分割規則的熒幕擷圖 — 第一個值](assets/trim-2.png)
+
+### 之後的資料 {#trim-uc2-dataafter}
+
+| 頁面名稱 | 活動 |
+|---|--:|
+| home page | 5 |
+
+{style="table-layout:auto"}
+
+
+## 使用案例3 {#trim-uc3}
+
+您收集包括storeID的資料。 storeID包含縮寫後的美國州碼，做為前兩個字元。 您只想在報告中使用該州碼。
+
+### 在此之前的資料 {#trim-uc3-databefore}
+
+| storeID | 活動 |
+|---|--:|
+| CA293842 | 1 |
+| CA423402 | 1 |
+| UT123418 | 1 |
+| UT189021 | 1 |
+| ID028930 | 1 |
+| OR234223 | 1 |
+| NV22342 | 1 |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#trim-u3-derivedfield}
+
+您建立  `Store Identifier` 衍生欄位。 您使用 [!UICONTROL TRIM] 定義規則的函式 [!UICONTROL 從右側截斷] 此 [!UICONTROL storeID] 從字串結尾到位置的欄位 `3`.
+
+![分割規則的熒幕擷圖 — 第一個值](assets/trim-3.png)
+
+### 之後的資料 {#trim-uc3-dataafter}
+
+| 存放區識別碼 | 活動 |
+|---|--:|
+| CA | 2 |
+| UT | 2 |
+| ID | 1 |
+| 或 | 1 |
+| NV | 1 |
+
+{style="table-layout:auto"}
++++
+
+
 <!-- URL PARSE -->
 
 ### URL 剖析
@@ -1031,7 +1254,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
    - 根據此最多10個不同的結構描述欄位，只允許最多3個查詢結構描述或設定檔結構描述欄位。
 - 每個Customer Journey Analytics連線最多可以有100個衍生欄位。
 
-## 更多資訊
+## 詳細資訊
 
 - [充分利用資料：在Customer Journey Analytics中使用衍生欄位的架構](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
 
