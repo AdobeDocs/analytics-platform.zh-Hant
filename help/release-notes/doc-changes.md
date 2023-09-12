@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e4aa9a525fb2ae291cc0c753524d09a81b88c4c3
+source-git-commit: 09414449c200199682b68cf5aa71c06cb192328f
 workflow-type: tm+mt
-source-wordcount: '2583'
-ht-degree: 99%
+source-wordcount: '2604'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 9 月** | |
+| 其他衍生欄位功能 | 更新新版本的說明檔案 [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) 和 [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) 函式以及新增到的其他CSV功能 [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) 函式。 |
 | 地區資料收集 | 已更新 [常見問題集](../getting-started/cja-faq.md#12-regional-data-collection) ，其中包含有關使用Customer Journey Analytics時區域資料收集的資訊。 |
 | **2023 年 8 月** | |
 | 「媒體播放時間」面板 | 已更新[媒體播放時間面板](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)的內容以提高可讀性。 |
