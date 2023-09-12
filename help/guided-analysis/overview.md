@@ -4,10 +4,10 @@ description: 分析Customer Journey Analytics中資料的方法，可讓產品�
 keywords: 產品分析
 exl-id: 6a8a92db-f030-424e-af9b-f8f6502084f6
 feature: Guided Analysis
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: 341ad5105be009bd6dd450f255a195961e5652a8
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 8%
+source-wordcount: '1138'
+ht-degree: 9%
 
 ---
 
@@ -30,6 +30,7 @@ Adobe Product Analytics可讓產品團隊透過引導式Customer Journey Analyti
 | [!UICONTROL 使用者增長] | [作用中](types/active.md) | 識別哪些人是新的、保留的、回訪的或非活躍的使用者. |
 | [!UICONTROL 使用者增長] | [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
 | [!UICONTROL 趨勢] | [使用狀況](types/usage.md) | 測量使用者在一段時間內的參與度. |
+| [!UICONTROL 趨勢] | [頻率](types/frequency.md) | 透過使用頻率衡量參與度. |
 
 {style="table-layout:auto"}
 
