@@ -4,16 +4,16 @@ description: 測量使用者在一段時間內的參與度.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: f41d4a6c8d181ed05fdb34657d4c7677d50ade5a
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '522'
 ht-degree: 2%
 
 ---
 
 # [!UICONTROL 使用狀況] 檢視
 
-此 **[!UICONTROL 使用狀況]** 檢視可針對您的產品效能或使用者在一段時間內的行為提供寶貴的見解。 此報表的水平軸是時間間隔，而垂直軸則測量您想要的事件。
+此 **[!UICONTROL 使用狀況]** 檢視可針對產品效能或使用者在一段時間內的行為提供寶貴的見解。 此報表的水平軸是時間間隔，而垂直軸則測量您想要的事件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421666/?learn=on)
 
@@ -39,6 +39,12 @@ ht-degree: 2%
 
 * **[!UICONTROL 量度]**：您要測量的量度。 選項包括事件、工作階段、使用者、每個工作階段的事件，以及每個使用者的事件。
 * **[!UICONTROL 圖表型別]**：您要使用的視覺效果型別。 選項包括折線圖、橫條圖、棧疊橫條圖和棧疊區域圖。
+
+## 重疊
+
+新增其他資料至圖表。
+
+* **[!UICONTROL 顯示異常]**：在分析上執行異常偵測。 離群值會顯示為點，您可以在其上暫留以取得詳細資訊。
 
 ## 套用時間比較
 
