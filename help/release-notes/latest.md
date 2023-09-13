@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 4de95c6c869e25a0301990669b7c8409ab025350
+source-git-commit: 795a30719c29e6352133987d5d0aaefcf9184a52
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 65%
+source-wordcount: '515'
+ht-degree: 64%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 65%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **支援 Analytics Source Connector 的 A4T 分類** | 支持 Adobe Analytics 新的 `correlationID` 欄位 | `_experience.decisioning.propositions.scopeDetails.correlationID` 欄位現在適用於 Adob&#x200B;&#x200B;e Analytics 來源連接器的結構描述中。此欄位是用來支持 A4T 分類，並將於 2023 年 9 月開始填入。 | | 不適用 | 2023 年 9 月 12 日 |
+| **支援 Analytics Source Connector 的 A4T 分類** | `_experience.decisioning.propositions.scopeDetails.correlationID` 欄位現在適用於 Adob&#x200B;&#x200B;e Analytics 來源連接器的結構描述中。此欄位是用來支持 A4T 分類，並將於 2023 年 9 月開始填入。 | | 不適用 | 2023 年 9 月 12 日 |
 | **衍生欄位的更新** | 衍生欄位功能已進行下列更新：<ul><li>此 [!UICONTROL 查詢] 函式已重新命名為 [!UICONTROL 分類]，並提供其他載入CSV資料的選項。 **（2023年9月27日發行）**</li><li>定義衍生欄位時，可使用其他函式： [!UICONTROL Trim]， [!UICONTROL 小寫] 和 [!UICONTROL 查詢].</li><li>衍生欄位定義現在也支援來自的欄位 [!UICONTROL 查詢] 和 [!UICONTROL 個人資料] 資料集。</li></ul>[了解更多](/help/data-views/derived-fields/derived-fields.md) | 不適用 | 2023 年 9 月 13 日 |
 | **Adobe Product Analytics中的新功能** | <ul><li>**異常偵測**：將事件與衍生自歷史趨勢的預期值比較。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/usage.html)</li><li>**趨勢使用頻率檢視**：透過使用頻率測量功能的採用程度。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**使用者偏好設定**：設定許多使用者偏好設定，例如調色盤和數字格式。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html)</li></ul> | 不適用 | 2023 年 9 月 18 日 |
 | **Experience Edge裝置查詢** | 透過Experience Platform邊緣網路啟用自動裝置型別資料收集。 此Experience Edge服務可讓Customer Journey Analytics與其他Experience Platform應用程式共同受益。 （請遵循檔案連結） | 不適用 | 2023 年 9 月 27 日 |
