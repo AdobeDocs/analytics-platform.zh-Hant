@@ -3,40 +3,40 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 8f299dad39678047d362291cfe8a2a3c116071dd
+source-git-commit: 98bba7c7bc56cfc2a2436f13d833dbf6504d7d6e
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '528'
+ht-degree: 65%
 
 ---
 
-# 最新的 Adobe Customer Journey Analytics 版本注意事項 (2023 年 8 月)
+# 目前的Adobe Customer Journey Analytics發行說明（2023年9月）
 
-**最新更新**：2023 年 8 月 24 日
+**上次更新日期**: 2023 年 9 月 7 日
 
-這些版本注意事項涵蓋 2023 年 8 月 9 日至 9 月 13 日的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2023年9月13日至2023年10月3日的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Report Builder 改良功能** | <ul><li>您可以從「活頁簿」索引標籤下載已排程任務，然後為其加上標題、儲存並共用。[了解更多](/help/report-builder/schedule-reportbuilder.md)</li><li>以開始日期作為維度：可讓您將資料區塊的開始日期顯示為資料區塊輸出中的維度。[了解更多](/help/report-builder/create-a-data-block.md) </li></ul> | 不適用 | 2023 年 8 月 17 日 |
-| **貨幣轉換** | Customer Journey 增加了支援多種貨幣的功能。您可以在資料檢視設定中轉換貨幣。[了解更多](/help/data-views/component-settings/format.md) | 不適用 | 2023 年 8 月 30 日 |
-| **支援 Analytics Source Connector 的 A4T 分類** | 我們新增了關聯 ID，以便輕鬆加入 Adobe Target 活動和體驗事件的分類資料。 | 不適用 | 2023 年 9 月 11 日 |
-| **報告活動管理員** | 讓管理員可以詳細瞭解每個連線的報告使用量，以便在尖峰報告期間輕鬆診斷並修正容量問題。 | 不適用 | 2023 年 9 月 12 日 |
-| **PowerBI 和 Tableau 可存取 Customer Journey Analytics 資料檢視** | Adobe Customer Journey Analytics SQL 連接器可讓 SQL 存取您在 Customer Journey Analytics 中已定義的資料檢視。比較熟悉 Power BI、Tableau 或其他企業情報和視覺化工具的資料工程師與分析師，現在可以根據 Customer Journey Analytics 使用者用於其 Analysis Workspace 專案的相同資料檢視來建立報告和儀表板。[了解更多](/help/data-views/sql-connector.md) | 不適用 | 2023 年 9 月 12 日 |
+| **支援 Analytics Source Connector 的 A4T 分類** | 支持 Adobe Analytics 新的 `correlationID` 欄位 | `_experience.decisioning.propositions.scopeDetails.correlationID` 欄位現在適用於 Adob&#x200B;&#x200B;e Analytics 來源連接器的結構描述中。此欄位是用來支持 A4T 分類，並將於 2023 年 9 月開始填入。 | | 不適用 | 2023 年 9 月 12 日 |
+| **衍生欄位的更新** | 衍生欄位功能已進行下列更新：<ul><li>此 [!UICONTROL 查詢] 函式已重新命名為 [!UICONTROL 分類]，並提供其他載入CSV資料的選項。 **（2023年9月27日發行）**</li><li>定義衍生欄位時，可使用其他函式： [!UICONTROL Trim]， [!UICONTROL 小寫] 和 [!UICONTROL 查詢].</li><li>衍生欄位定義現在也支援來自的欄位 [!UICONTROL 查詢] 和 [!UICONTROL 個人資料] 資料集。</li></ul>[了解更多](/help/data-views/derived-fields/derived-fields.md) | 不適用 | 2023 年 9 月 13 日 |
+| **Adobe Product Analytics中的新功能** | <ul><li>**異常偵測**：將事件與衍生自歷史趨勢的預期值比較。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html)</li><li>**趨勢使用頻率檢視**：透過使用頻率測量功能的採用程度。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**使用者偏好設定**：設定許多使用者偏好設定，例如調色盤、資料檢視、行事曆、例項計數、數字格式和逗號分隔符號。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html)</li></ul> | 不適用 | 2023 年 9 月 18 日 |
+| **Experience Edge裝置查詢** | 透過Experience Platform邊緣網路啟用自動裝置型別資料收集。 此Experience Edge服務可讓Customer Journey Analytics與其他Experience Platform應用程式共同受益。 （請遵循檔案連結） | 不適用 | 2023 年 9 月 27 日 |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics 中的修正
 
-AN-309141、AN-319198、AN-324576、AN-324939、AN-325138、AN-325554
+AN-310972、AN-319509、AN-322245、AN-323411、AN-323719、AN-326101、AN-326125、AN-326888
+
 
 ## 給 Customer Journey Analytics 管理員的重要通知
 
 | 通知 | 新增或更新通知 | 說明 |
 | --- | --- | --- |
-| **Customer Journey Analytics 資料處理方式的變更** | 2023 年 6 月 22 日 | 我們最近變更了 Customer Journey Analytics 處理資料的方式。<ul><li>任何時間戳記不到 24 小時的事件資料都會串流進入。</li><li>任何時間戳記超過 24 小時的事件資料 (即使與較新的資料屬於同一批次) 都視為回填，並將以較低的優先順序擷取。</li></ul> |
+| 不適用 | 不適用 | 不適用 |
 
 {style="table-layout:auto"}
 
