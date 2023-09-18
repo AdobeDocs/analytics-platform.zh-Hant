@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: 09414449c200199682b68cf5aa71c06cb192328f
 workflow-type: tm+mt
 source-wordcount: '2604'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | --- | --- |
 | **2023 年 9 月** | |
 | 其他衍生欄位功能 | 更新新版本的說明檔案 [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) 和 [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) 函式以及新增到的其他CSV功能 [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) 函式。 |
-| 地區資料收集 | 已更新 [常見問題集](../getting-started/cja-faq.md#12-regional-data-collection) ，其中包含有關使用Customer Journey Analytics時區域資料收集的資訊。 |
+| 地區資料收集 | 已更新的[常見問題](../getting-started/cja-faq.md#12-regional-data-collection)，含有使用 Customer Journey Analytics 時關於區域資料收集的資訊。 |
 | **2023 年 8 月** | |
 | 「媒體播放時間」面板 | 已更新[媒體播放時間面板](/help/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)的內容以提高可讀性。 |
 | Report Builder 改良功能 | 已更新[排程活頁簿](/help/report-builder/schedule-reportbuilder.md)的內容，提供關於下載已排程任務的資訊。已更新[建立資料區塊](/help/report-builder/create-a-data-block.md)的內容，提供關於使用開始日期作為維度的資訊。 |
