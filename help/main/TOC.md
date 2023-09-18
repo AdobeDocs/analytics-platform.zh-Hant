@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 4fd0f680ee0a1e61956899c2e3148cb1f0d46d76
+source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '969'
 ht-degree: 85%
 
 ---
@@ -154,10 +154,7 @@ ht-degree: 85%
       + [自由面板](../analysis-workspace/c-panels/freeform-panel.md)
       + [快速深入分析面板](../analysis-workspace/c-panels/quickinsight.md)
       + [媒體同時檢閱者面板](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + 媒體播放時間 {#media-playback-timespent}
-         + [概觀](../analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [輸入和輸出設定](../analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [常見問題](../analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [「媒體播放時間」面板](../analysis-workspace/c-panels/media-playback-time-spent.md)
    + 策劃、共用及排程專案 {#curate-share}
       + [共用功能表](../analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](../analysis-workspace/curate-share/curate.md)
