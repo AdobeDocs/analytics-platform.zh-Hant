@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2651'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 9 月** | |
-| 更新「媒體播放時間」面板的文章結構 | 移除名為「媒體播放時間」的資料夾，並將資料夾內容合併為單一文章： [「媒體播放時間」面板](/help/analysis-workspace/c-panels/media-playback-time-spent.md). <p>這項變更與其他面板的相關檔案較為一致。</p> |
-| 其他衍生欄位功能 | 更新新版本的說明檔案 [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) 和 [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) 函式以及新增到的其他CSV功能 [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) 函式。 |
+| 已更新「媒體播放時間」面板的文章結構 | 已移除名為「媒體播放時間」的資料夾，並將該資料夾的內容合併為一篇文章：[「媒體播放時間」面板](/help/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此變更會更符合其他面板的文件。</p> |
+| 附加衍生欄位功能 | 已更新新的 [`Lowercase`](/help/data-views/derived-fields/derived-fields.md#lowercase) 和 [`Trim`](/help/data-views/derived-fields/derived-fields.md#trim) 功能，以及新增到 [`Classify`](/help/data-views/derived-fields/derived-fields.md#classify) 功能的附加 CSV 功能的文件。 |
 | 地區資料收集 | 已更新的[常見問題](../getting-started/cja-faq.md#12-regional-data-collection)，含有使用 Customer Journey Analytics 時關於區域資料收集的資訊。 |
 | **2023 年 8 月** | |
 | 「媒體播放時間」面板 | 已更新[媒體播放時間面板](/help/analysis-workspace/c-panels/media-playback-time-spent.md)的內容以提高可讀性。 |
