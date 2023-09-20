@@ -3,41 +3,67 @@ description: 計算量度管理員提供許多管理量度的方式，例如共�
 title: 計算量度管理員
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c6b9252f9b938f4659ead7ed5c90cec133e1bd74
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 13%
+source-wordcount: '673'
+ht-degree: 15%
 
 ---
 
-# 計算量度管理員
+# 計算量度管理器
 
 「計算量度」頁面提供許多管理量度的方式，例如共用、篩選、標籤、核准、複製、刪除和標示為我的最愛。
 
-計算量度管理員會顯示您所擁有以及已經與您共用的篩選器。 管理層級使用者可以查看組織中的所有自訂量度。此概觀會介紹計算量度管理員的使用者介面和功能。 存取方式
+計算量度管理員會顯示您所擁有以及已經與您共用的篩選器。 管理層級使用者可以查看組織中的所有自訂量度。此概觀會介紹計算量度管理員的使用者介面和功能。
+
+![](assets/calc-metric-manager.png)
 
 ## 存取計算量度管理員
 
-1. 在Adobe Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **計算量度**].
+1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **計算量度**].
 
-## 計算量度管理員的區域
+## 計算量度管理員中的可用動作
 
-下圖及隨附表格說明「計算量度管理員」的某些主要區域和功能。
+在計算量度管理員中，您可以：
 
-![](assets/calcmet_mgr_ui.png)
+* [篩選計算量度](/help/components/calc-metrics/cm-workflow/cm-filter.md)
 
-| 影像中的位置 | 名稱和函式 |
-|---|---|
-| 1 | **計算量度管理員工具列：** 選取量度後，此工具列隨即顯示。 大部分的管理工作都可以從此工具列完成。 |
-| 2 | **篩選：** 您可以依標籤、報表套裝、所有者、全部（僅限管理員）、與我共用、我的、我的最愛和已核准（僅限管理員）來篩選。 |
-| 3 | **選取方塊：** 選取自訂量度以便管理。 |
-| 4 | **我的最愛：** 選取量度旁的星號，會將量度標示為我的最愛。 |
-| 5 | **區段標題和說明：** 這些值會在計算量度產生器中提供。 若要編輯標題和說明，請選取標題連結以開啟計算量度產生器。 |
-| 6 | **報表套裝：** 指出量度上次儲存於哪個報表套裝。 |
-| 7 | **擁有者：** 指出自訂量度的擁有者。 如果您不是管理員，就只能看見自己所擁有或已共用給您的量度。 |
-| 8 | **標籤：** 顯示套用至量度的標籤（由您套用，或由與您共用區段的人套用）。 |
-| 9 | **共用對象：** 列出您共用區段的個人或群組（僅限管理員）或全部（僅限管理員）。 |
-| 10 | **欄選擇器：** 可讓您選取或取消選取「計算量度」頁面中的欄，以便自訂檢視。 |
-| 未顯示在影像中 | **修改日期：** 表示上次修改自訂量度的日期。 |
+* [將計算量度標示為我的最愛](/help/components/calc-metrics/cm-workflow/cm-favorite.md)
 
-{style="table-layout:auto"}
+* [核准計算量度](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+
+* [標記計算量度](/help/components/calc-metrics/cm-workflow/cm-tagging.md)
+
+* [共用計算量度](/help/components/calc-metrics/cm-workflow/cm-sharing.md)
+
+* 將計算量度匯出至CSV檔案。
+
+* [複製計算量度](/help/components/calc-metrics/cm-workflow/cm-copy.md)
+
+* 刪除計算量度
+
+## 設定欄
+
+您可以透過設定顯示的欄，來設定在「計算量度管理員」中為每個計算量度顯示的資訊。
+
+若要在計算量度管理員中設定可見欄：
+
+1. 在Customer Journey Analytics中，選取 **[!UICONTROL 元件]** 索引標籤，然後選取 **[!UICONTROL 計算量度]**.
+
+1. 在計算量度管理員中，選取 **自訂欄** 圖示 ![自訂欄圖示](assets/customize-columns-icon.png)，然後選取您要在計算量度管理員中顯示的欄。
+
+   可使用下列欄:
+
+   | 欄標題 | 說明 |
+   |---|---|
+   | 我的最愛 | 在每個計算量度旁邊顯示星號圖示，讓您將計算量度標示為我的最愛。 如需詳細資訊，請參閱 [將計算量度標示為我的最愛](/help/components/calc-metrics/cm-workflow/cm-favorite.md). |
+   | 標題和說明 | 這些值會在計算量度產生器中提供。 若要編輯標題和說明，請選取標題連結以開啟計算量度產生器。 |
+   | 報表套裝 | 指出上次將量度儲存到的目標報表套裝。 |
+   | 擁有者 | 指出擁有自訂量度的人員。如果您不是管理員，就只能看見自己所擁有或已共用給您的量度。 |
+   | 標記 | 顯示套用至量度的標籤（由您自己或與您共用計算量度的人員套用）。 |
+   | 共用對象 | 列出您共用計算量度的個人或群組（僅限管理員）或「全部」（僅限管理員）。 <p>共用計算量度時，計算量度名稱旁會顯示共用圖示。</p> |
+   | 修改日期 | 表示上次修改自訂量度的日期。 |
+   | 使用位置 | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).<p>顯示目前使用計算量度的下列元件型別：</p> <ul><li>警報</li><li>計算量度</li><li>專案</li><li>已排程的專案</li></ul> 例如，若元件用於40個專案和2個計算量度，此欄會顯示 [!UICONTROL **計算量度(2)、專案(40)**]. <p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值，或是否應將其刪除。</p><p>此資訊不包括來自API或Report Builder的使用情況。</p><p>您可以使用 [資料字典](/help/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。 |
+   | 上次使用 | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).<p>顯示計算度量最後用於下列任何元件型別的日期：</p> <ul><li>警報</li><li>計算量度</li><li>專案</li><li>已排程的專案</li></ul> <p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值，或是否應將其刪除。</p><p>此資訊不包括來自API或Report Builder的使用情況。</p><p>您可以使用 [資料字典](/help/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。 |
+
+   {style="table-layout:auto"}

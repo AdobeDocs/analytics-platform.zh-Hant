@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 92580534f2a09bfd7e9cc2d4993cc05374922ca7
+source-git-commit: dab672e07ddf834701279e108ad2daab1ad94efa
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 82%
+source-wordcount: '1023'
+ht-degree: 81%
 
 ---
 
@@ -227,6 +227,12 @@ ht-degree: 82%
    + 篩選 {#cja-filters}
       + [篩選總覽](../components/filters/filters-overview.md)
       + [建立篩選器](../components/filters/create-filters.md)
+      + [共用篩選器](../components/filters/filters-share.md)
+      + [標記篩選器](../components/filters/filters-tag.md)
+      + [篩選篩選器清單](../components/filters/filters-filter.md)
+      + [將篩選器標示為我的最愛](../components/filters/filters-favorite.md)
+      + [核准篩選器](../components/filters/filters-approve.md)
+      + [複製篩選器](../components/filters/filters-copy.md)
       + [快速篩選](../components/filters/quick-filters.md)
       + [篩選產生器](../components/filters/filter-builder.md)
       + [管理篩選](../components/filters/manage-filters.md)
@@ -242,6 +248,9 @@ ht-degree: 82%
          + [篩選量度](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [堆疊和取代篩選器](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [篩選和加權的量度](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
+         + [篩選計算量度](../components/calc-metrics/cm-workflow/cm-filter.md)
+         + [將計算量度標示為我的最愛](../components/calc-metrics/cm-workflow/cm-favorite.md)
+         + [複製計算量度](../components/calc-metrics/cm-workflow/cm-copy.md)
          + [使用函數](../components/calc-metrics/cm-workflow/cm-using-functions.md)
          + [標記計算量度](../components/calc-metrics/cm-workflow/cm-tagging.md)
          + [核准計算量度](../components/calc-metrics/cm-workflow/cm-approving.md)

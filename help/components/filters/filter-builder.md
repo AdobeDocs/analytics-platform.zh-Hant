@@ -3,7 +3,7 @@ description: 篩選器產生器提供的畫布可用來拖放量度Dimension、�
 title: 建立篩選器
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: e97f206e2c2f00d32e7e06d56fcc84819fe329c6
+source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 24%
@@ -64,7 +64,7 @@ ht-degree: 24%
 1. 針對選取的項目輸入或選取值。
 1. 必要時使用 **[!UICONTROL And]**、**[!UICONTROL Or]** 或 **[!UICONTROL Then]** 規則新增額外的限制。
 1. 放置容器並設定規則後，可在右上角的驗證圖表中檢視篩選結果。 驗證器會指出與您建立之篩選器相符之頁面檢視、造訪次數和不重複人員的百分比與絕對數量。
-1. 在&#x200B;**[!UICONTROL 「標記」]**&#x200B;底下，選取現有標記或建立新標記即可[標記](/help/components/filters/manage-filters.md)容器。
+1. 在&#x200B;**[!UICONTROL 「標記」]**&#x200B;底下，選取現有標記或建立新標記即可[標記](/help/components/filters/filters-tag.md)容器。
 1. 按一下 **[!UICONTROL 儲存]** 以儲存篩選。
 
    您被帶到 [篩選器管理器](/help/components/filters/manage-filters.md)，您可在此透過多種方式標籤、共用及管理您的篩選器。

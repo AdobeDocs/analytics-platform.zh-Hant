@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 795a30719c29e6352133987d5d0aaefcf9184a52
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: aa7f4361b1353a86b87c36c3d08e99ddb8ffd049
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 86%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 100%
 | **衍生欄位的更新** | 衍生欄位功能已進行了以下更新：<ul><li>「[!UICONTROL 查詢]」函數已重新命名為「[!UICONTROL 分類]」，並且有其他載入 CSV 資料的選項。 **(2023 年 9 月 27 日發行)**</li><li>定義衍生欄位時可以使用其他函數：「[!UICONTROL 修剪]」、「[!UICONTROL 小寫]」和「[!UICONTROL 查詢]」。</li><li>衍生欄位定義現在也支援來自「[!UICONTROL 查詢]」和「[!UICONTROL 設定檔]」資料集的欄位。</li></ul>[了解更多](/help/data-views/derived-fields/derived-fields.md) | 不適用 | 2023 年 9 月 13 日 |
 | **Adobe Product Analytics 新功能** | <ul><li>**異常偵測**：將事件與歷史趨勢衍生的預期值進行比較。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/usage.html)</li><li>**趨勢使用頻率視圖**：透過使用頻率來衡量您的功能的採用情況。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/trends/frequency.html)</li><li>**使用者偏好設定**：設定多個使用者偏好設定，例如調色盤和數字格式。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html)</li></ul> | 不適用 | 2023 年 9 月 18 日 |
 | **體驗 Edge 裝置查詢** | 透過 Experience Platform Edge 網路啟用自動裝置類型資料收集。 這項 Experience Edge 服務有利於 Customer Journey Analytics 以及其他 Experience Platform 應用程式。 (後續文件連結) | 不適用 | 2023 年 9 月 27 日 |
+| **管理元件時可用的新欄** | 以下新欄現在可在 [計算量度管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md) 和 [篩選器管理器](/help/components/filters/manage-filters.md) 管理元件時：<ul><li>使用位置</li><li>上次使用</li></ul><p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。 您可以使用資料字典和此資訊來協助您追蹤及更瞭解組織中元件的使用方式。</p> | 2023 年 9 月 20 日 | 2023 年 10 月 4 日 |
 
 {style="table-layout:auto"}
 

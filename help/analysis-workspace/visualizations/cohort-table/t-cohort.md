@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 設定同類群組分析報表
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
+source-git-commit: 3bbc34d4b003fab7dc935c8d3bb3afa4dfc3f675
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 91%
@@ -47,7 +47,7 @@ ht-degree: 91%
 
    選取儲存格 (連續或非連續)，然後按一下滑鼠右鍵 >**[!UICONTROL 「從選取項目建立篩選器」。]**.
 
-1. 在[「篩選器產生器」](/help/components/filters/manage-filters.md)中進一步編輯篩選器，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 在[「篩選器產生器」](/help/components/filters/filter-builder.md)中進一步編輯篩選器，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    已儲存的篩選器可用於 [!UICONTROL Analysis Workspace] 中的[!UICONTROL 篩選器]面板。
 1. 命名同類群組專案，將其儲存。
