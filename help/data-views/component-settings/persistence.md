@@ -4,7 +4,7 @@ description: 決定是否會在不同事件中儲存維度值或是如何儲存�
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 86%
@@ -19,6 +19,17 @@ ht-degree: 86%
 ![持續性](../assets/persistence.png)
 
 * **配置**&#x200B;可讓您確定當一個列中可以同時保留多個維度項時保留哪個值。
+
+<!--
+
+  >[!NOTE]
+  >
+  >If you have a [non-default attribution model](/help/data-views/component-settings/attribution.md) set on a metric in a report, the attribution model ignores the allocation you set on the dimension for the same report.
+  >
+  >However, when doing a [full table export](/help/analysis-workspace/export/export-cloud.md) that includes multiple dimensions, attribution retains the allocation models applied to each dimension.
+
+-->
+
 * **到期日**&#x200B;可讓您確定維度項目在其設定的事件之後持續多長時間。
 
 [!UICONTROL 持續性]僅在維度上可用，並且可追溯至套用到的資料。它是發生在套用篩選或其他分析作業之前的立即資料轉換。
@@ -76,7 +87,7 @@ ht-degree: 86%
 
 ## [!UICONTROL 繫結維度]
 
-一個下拉式清單，可讓您將維度值的持續性繫結到另一個維度中的維度值。 有效選項包括資料檢視中包含的其他維度。
+一個下拉式清單，可讓您將維度值的持續性繫結到另一個維度中的維度值。 有效選項包含在資料檢視中的其他維度。
 
 另請參閱 [在Customer Journey Analytics中使用繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md) 有關如何有效使用繫結維度的範例。
 
@@ -84,8 +95,8 @@ ht-degree: 86%
 
 ## [!UICONTROL 繫結量度]
 
-可讓您選擇做為繫結觸發器的量度的下拉式清單。 有效選項包括資料檢視中包含的量度。
+下拉式清單可讓您選擇做為繫結觸發器的量度。 有效選項包含在資料檢視中的量度。
 
 此項設定只會在繫結維度在物件陣列中小於元件時出現。繫結量度存在於事件中時，維度值會從事件水準維度複製到繫結維度的下層結構描述。
 
-請參閱下的第二個範例 [在Customer Journey Analytics中使用繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md) 以取得有關如何有效使用繫結量度的詳細資訊。
+請參閱下的第二個範例 [在Customer Journey Analytics中使用繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md) 有關如何有效使用繫結量度的詳細資訊。

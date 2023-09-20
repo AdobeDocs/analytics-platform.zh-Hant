@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 視覺效果概觀
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: f6273b96d3851e02ea013a6496965567a4389a72
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 87%
+source-wordcount: '1243'
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失報表可顯示在一系列預先定義的連續頁面中，人員從何處離開（流失）或繼續通過（流過）。 可以設定為最終或精確的序列 |
 | [流量](/help/analysis-workspace/visualizations/c-flow/flow.md) | 顯示使用您網站和應用程式的正確客戶路徑。 |
 | [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由表格不僅是資料表格，也是互動式視覺效果。這是 Workspace 的資料分析基礎。 |
-| [長條圖](/help/analysis-workspace/visualizations/histogram.md) | 長條圖會根據量度數量，將人員、造訪或事件儲存在貯體中。 |
+| [長條圖](/help/analysis-workspace/visualizations/histogram.md) | 長條圖會根據量度數量，將人員、造訪或事件放入值區中。 |
 | [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | 顯示代表一或多個量度多個值的橫條。 |
 | [折線圖](/help/analysis-workspace/visualizations/line.md) | 使用線條呈現量度，顯示一段時間內值的變化。線形圖會延 X 軸使用時間。 |
 | [散點圖](/help/analysis-workspace/visualizations/scatterplot.md) | 顯示維度項目與最多三個量度之間的關係。 |
@@ -47,15 +47,15 @@ Analysis Workspace 中有以下視覺效果類型：
 
    * 在左側邊欄中，選取 **視覺效果** 圖示 <!-- add icon -->，然後將視覺效果拖曳至您要新增的面板。
 
-      ![](assets/viz-rail.png)
+     ![](assets/viz-rail.png)
 
    * 在您想要新增視覺效果的面板上，選取 **加號** 圖示，然後選擇代表您要新增之視覺效果的圖示。 將滑鼠指標暫留在每個視覺效果的圖示上，即可檢視其名稱。
 
-      ![用於新增視覺效果的按鈕](assets/visualization-add-to-panel.png)
+     ![新增視覺效果的按鈕](assets/visualization-add-to-panel.png)
 
    * 新增 [空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，然後選擇要新增的視覺效果。
 
-      ![空白面板](assets/blank_panel.png)
+     ![空白面板](assets/blank_panel.png)
 
    * 以滑鼠右鍵按一下Analysis Workspace專案中的現有面板，然後選取「 」 [!UICONTROL **複製視覺效果**] 或 [!UICONTROL **複製視覺效果**].
 
@@ -122,8 +122,8 @@ Analysis Workspace 中有以下視覺效果類型：
 | --- | --- |
 | 插入複製的面板/視覺效果 | 允許您將複製的面板或視覺效果貼至 (「插入」) 專案內另一個位置或完全不同的專案中。 |
 | 複製視覺效果 | 允許您按一下右鍵並複製視覺效果，這樣您便可插入專案內另一個位置或完全不同的專案中。 |
-| [將項目下載為 CSV 檔](/help/analysis-workspace/curate-share/download-send.md) | 將所選維度下載為 CSV 檔，最多可下載 50,000 個維度項目。 |
-| [將資料下載為 CSV 檔](/help/analysis-workspace/curate-share/download-send.md) | 將視覺效果資料來源下載為 CSV 檔。 |
+| [下載專案資料](/help/analysis-workspace/export/download-send.md) | 將所選維度下載為 CSV 檔，最多可下載 50,000 個維度項目。 |
+| [下載專案資料](/help/analysis-workspace/export/download-send.md) | 將視覺效果資料來源下載為 CSV 檔。 |
 | 複製視覺效果 | 完全複製目前的視覺效果，接著可供進行修改。 |
 | 編輯說明 | 新增 (或編輯) 視覺效果的文字說明。 |
 | 取得視覺效果連結 | 允許您將他人導向專案中的特定視覺效果。收件者按一下連結後必須先登入系統，然後才會被導向所連結的正確視覺效果。 |

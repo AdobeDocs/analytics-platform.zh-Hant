@@ -5,8 +5,8 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: 7991f2be316349fcfaa85c2338e16c41d5b130b1
-workflow-type: ht
+source-git-commit: dd83785ea67a48e2051c60568e6fe5b436edf4db
+workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ Customer Journey Analytics 使用強大的專有架構，可將分析散佈到�
 
    * [精心挑選](/help/analysis-workspace/curate-share/curate.md)給組織中的其他人以進行持續探索，
    * 使用 [Report Builder](/help/report-builder/report-buider-overview.md) (一種專用外掛程式) 匯出至 Excel，
-   * 以各種格式[分享](/help/analysis-workspace/curate-share/share-projects.md) (分享格式包括 [PDF](/help/analysis-workspace/curate-share/download-send.md)、[CSV](/help/analysis-workspace/curate-share/download-send.md)，並透過[專用行動應用程式](/help/mobile-app/home.md)) 給那些對最終報表和/或視覺效果感興趣的人。
+   * 以各種格式[分享](/help/analysis-workspace/curate-share/share-projects.md) (分享格式包括 [PDF](/help/analysis-workspace/export/download-send.md)、[CSV](/help/analysis-workspace/export/download-send.md)，並透過[專用行動應用程式](/help/mobile-app/home.md)) 給那些對最終報表和/或視覺效果感興趣的人。
 
 由於有各式各樣的視覺效果可供使用，因此很難將 Customer Journey Analytics 的視覺效果功能和 BI 工具提供的功能進行比較。部分 BI 工具具備較進階的視覺效果，但 Customer Journey Analytics 專注於互動式和可互操作的客戶歷程視覺效果，讓您可以在幾秒鐘內劃分資料，而不會因每筆額外的查詢向您「收費」。
 

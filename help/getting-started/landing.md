@@ -4,8 +4,8 @@ title: Customer Journey Analytics 登陸頁面
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
-workflow-type: ht
+source-git-commit: 9a45b3a6f1c1b4da91fa6c79ad0e265cdd89e020
+workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Customer Journey Analytics 登陸頁面標示[!DNL Analysis Workspace]並設有�
 | 展開[!UICONTROL 專案]表格至全螢幕 | 若要展開表格，僅需按一下漢堡選單圖示。這個動作將收合左側欄索引標籤。 | ![展開表格](assets/landing-collapse2.png) |
 | 自訂欄寬 | 以前欄寬是固定的。現在您可以透過拖曳欄分隔元來調整它。 | ![欄寬](assets/column-width.png) |
 | 重新排序釘選項目 | 若要將釘選項目上下移動，請按一下釘選項目旁的省略符號，並選取&#x200B;**[!UICONTROL 向上移動]**&#x200B;或是&#x200B;**[!UICONTROL 向下移動]**。 | ![移動釘選項目](assets/move-up-down.png) |
-| 新表格欄位 | 按一下表格右上角的[!UICONTROL 自訂表格]圖示。新表格欄位包括： <ul><li>**[!UICONTROL 排程]**：設定為[!UICONTROL 開啟] (若專案已排程) 或[!UICONTROL 關閉] (若專案未排程)。按一下[!UICONTROL 開啟]連結可讓您查看排程專案的資訊。如果您是專案所有人，您還能[編輯專案排程](../analysis-workspace/curate-share/t-schedule-report.md)。</li><li>**[!UICONTROL 專案 ID]**：專案 ID 可用於偵錯專案。</li><li>**[!UICONTROL 最大日期範圍]**：更長的日期範圍會增加專案複雜性，並可能增加處理和載入次數。 </li><li>**[!UICONTROL 查詢數]**：專案載入時，向 Analytics 提出的請求總數。較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 </li></ul> | ![新欄位](assets/new-columns.png) |
+| 新表格欄位 | 按一下表格右上角的[!UICONTROL 自訂表格]圖示。新表格欄位包括： <ul><li>**[!UICONTROL 排程]**：設定為[!UICONTROL 開啟] (若專案已排程) 或[!UICONTROL 關閉] (若專案未排程)。按一下[!UICONTROL 開啟]連結可讓您查看排程專案的資訊。如果您是專案所有人，您還能[編輯專案排程](/help/analysis-workspace/export/t-schedule-report.md)。</li><li>**[!UICONTROL 專案 ID]**：專案 ID 可用於偵錯專案。</li><li>**[!UICONTROL 最大日期範圍]**：更長的日期範圍會增加專案複雜性，並可能增加處理和載入次數。 </li><li>**[!UICONTROL 查詢數]**：專案載入時，向 Analytics 提出的請求總數。較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 </li></ul> | ![新欄位](assets/new-columns.png) |
 | **[!UICONTROL 建立專案]**&#x200B;模組回來了 | 只要在工作區中按一下&#x200B;**[!UICONTROL 「建立專案」]**，您就能再度在[!UICONTROL 空白專案]和[!UICONTROL 空白行動計分卡]之間進行選擇。 您還可以從您公司已建立的任何範本中進行選擇。 | ![新建](assets/create-new.png) |
 
 {style="table-layout:auto"}

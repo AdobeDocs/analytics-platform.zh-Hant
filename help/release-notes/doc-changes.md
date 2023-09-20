@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
+source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
 workflow-type: tm+mt
 source-wordcount: '2651'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2023 年 8 月** | |
 | 「媒體播放時間」面板 | 已更新[媒體播放時間面板](/help/analysis-workspace/c-panels/media-playback-time-spent.md)的內容以提高可讀性。 |
 | Report Builder 改良功能 | 已更新[排程活頁簿](/help/report-builder/schedule-reportbuilder.md)的內容，提供關於下載已排程任務的資訊。已更新[建立資料區塊](/help/report-builder/create-a-data-block.md)的內容，提供關於使用開始日期作為維度的資訊。 |
-| 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立了一篇新文章，名為[已排程專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程專案](/help/analysis-workspace/curate-share/t-schedule-report.md)文章。 |
+| 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立了一篇新文章，名為[已排程專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程專案](/help/analysis-workspace/export/t-schedule-report.md)文章。 |
 | Adobe Customer Journey Analytics 功能支援 | 相較於 Adobe Analytics，Customer Journey Analytics 已在工作階段化功能的&#x200B;*以新方式支援*&#x200B;表格中新增更多資訊。[了解更多](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | 從 Adobe Analytics 發展而來 | 已更新 *(重新) 設定行銷管道*&#x200B;區段，並引用衍生欄位行銷管道功能範本。[了解更多](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | 行動應用程式和其他平台的資料擷取快速入門指南 | 新增額外的資料擷取快速入門指南，旨在概述如何在 Customer Journey Analytics 中擷取和使用來自行動應用程式或其他平台 (例如桌面應用程式、遊戲主機上的遊戲、機上盒和 IoT 裝置上的應用程式) 的資料。[了解更多](../data-ingestion/data-ingestion.md) |
@@ -169,7 +169,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 2021 年 4 月 | 有關「工作區」中支援排定專案的新文件。 |
 | 2021 年 4 月 | 有關[強化「資料檢視」體驗](/help/data-views/data-views.md)的新主題。 |
 | 2021 年 4 月 | 有關[擷取 Google Analytics 資料](/help/use-cases/ga/overview.md)和[分析該資料](/help/use-cases/ga/report.md)的新主題。 |
-| 2021 年 4 月 | 有關「工作區」中[排程報告](/help/analysis-workspace/curate-share/t-schedule-report.md)的新增主題。 |
+| 2021 年 4 月 | 有關「工作區」中[排程報告](/help/analysis-workspace/export/t-schedule-report.md)的新增主題。 |
 | 2021 年 4 月 | 新增有關 [Customer Journey Analytics 中高基數維度](/help/components/dimensions/high-cardinality.md)的主題。 |
 | **2021 年 3 月** | |
 | 2021 年 3 月 | 有關支援 [Analytics 儀表板](/help/mobile-app/home.md) (行動應用程式) 的新增主題。 |

@@ -3,28 +3,28 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建立量度
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 66%
+source-wordcount: '982'
+ht-degree: 65%
 
 ---
 
 # 建置量度
 
-「Customer Journey Analytics」提供的畫布可拖放維度、量度、篩選器和函式，以根據容器階層邏輯、規則和運運算元建立自訂量度。 此整合性開發工具可讓您建立並儲存簡單的計算量度或複雜的進階計算量度。
+Customer Journey Analytics提供的畫布可拖放維度、量度、篩選器和函式，讓您根據容器階層邏輯、規則和運運算元來建立自訂量度。 此整合性開發工具可讓您建立並儲存簡單的計算量度或複雜的進階計算量度。
 
 ## 開始建立計算量度
 
 您可以透過下列任何方式開始建立計算量度：
 
 * 在Analysis Workspace中，開啟專案，然後選取 **[!UICONTROL 元件]** > **[!UICONTROL 建立量度]**.
-* 在Analysis Workspace中開啟專案，然後選取 **加號** 圖示加以存取 [!UICONTROL **量度**] 區段。
+* 在Analysis Workspace中，開啟專案，然後選取 **加號** 圖示加以存取 [!UICONTROL **量度**] 區段。
 * 在 [!DNL Customer Journey Analytics]，前往 **[!UICONTROL 元件]** > **[!UICONTROL 計算量度]**，然後選取 **[!UICONTROL +新增]** 在「計算量度」頁面頂端。
 
 ## 計算量度產生器的區域
 
-下圖及隨附的表格說明計算量度產生器的部分主要區域和功能。
+下圖及隨附表格說明計算量度產生器的部分主要區域和功能。
 
 ![](assets/cm_builder_ui.png)
 
@@ -36,17 +36,17 @@ ht-degree: 66%
 | 小數位數 | 顯示要在報表中顯示幾個小數位數。您可指定的小數位數上限為 10。 |
 | 將「上升趨勢」顯示為... | 此量度極性設定顯示 Analytics 應將量度的上升趨勢視為好 (綠色) 或壞 (紅色)。因此，報表的圖形會隨著量度上升而顯示為綠色或紅色。 |
 | 貨幣 | 此資料檢視的基本貨幣。 |
-| 標記 | 標記是組織量度的好方法。所有使用者都能建立標記，並套用一或多個標記至量度。不過，您僅可以看見自己所擁有或已和您共用之篩選器的標記。您應該建立什麼樣的標記？以下是一些建議的實用標記：<ul><li>**團隊名稱**，例如社交行銷、行動裝置行銷。</li><li>**專案** （分析標籤），例如登入頁面分析。</li><li>**類別**，例如「女性」、「地理」。</li><li>**工作流程**，例如「待核准」、「策劃」（特定的業務單位）</li></ul> |
-| 摘要 | <p>「摘要」公式會隨著您變更量度定義而隨時更新。當您將游標停留在量度上並按一下「 」，此公式也會顯示在量度邊欄中。 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> 圖示。 </p> |
-| 定義 | 這裡是您將量度/計算量度、篩選器和/或函數拖曳進來，以建立計算量度的地方。 <ul><li>如果您將一個計算量度拖曳進來，它將自動展開其量度定義。 </li> <li>您可以使用容器巢狀嵌套定義。不過，與篩選容器不同，這些容器的功能與數學運算式類似，而且會決定作業順序。 </li> </ul> |
+| 標記 | 標記是組織量度的好方法。所有使用者都能建立標記，並套用一或多個標記至量度。不過，您僅可以看見自己所擁有或已和您共用之篩選器的標記。您應該建立什麼樣的標記？以下是一些建議的實用標記：<ul><li>**團隊名稱**，例如「社交行銷」、「行動行銷」。</li><li>**專案** （分析標籤），例如登入頁面分析。</li><li>**類別**，例如「女性」、「地理」。</li><li>**工作流程**，例如「待核准」、策劃（特定的業務單位）</li></ul> |
+| 摘要 | <p>「摘要」公式會隨著您變更量度定義而隨時更新。當您將滑鼠游標停留在量度上並按一下「 」，此公式也會顯示在量度邊欄中。 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> 圖示。 </p> |
+| 定義 | 這裡是您將量度/計算量度、篩選器和/或函數拖曳進來，以建立計算量度的地方。 <ul><li>如果您將一個計算量度拖曳進來，它將自動展開其量度定義。 </li> <li>您可以使用容器巢狀嵌套定義。不過，與篩選容器不同，這些容器的運作方式類似數學運算式，可決定作業順序。 </li> </ul> |
 | 運算子 | 除以( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> )為預設運運算元，另外還有+、 — 和x運運算元。 |
 | 預覽 | 提供快速閱覽，以便查看可能的錯誤。預覽涵蓋最近 90 天。這可供您初步衡量是否為量度選擇了正確的元件。意外的結果可能表示您需要再次檢查量度定義。 |
 | 產品相容性 | 對於您在Customer Journey Analytics中建立的任何計算量度，此值一律會列為 [!UICONTROL **完全處理的資料**]. 計算量度只能包含事件資料集中的資料。 |
-| 新增 | 若為所有類型的計算量度，您可以將容器和靜態數字新增到定義中。若為進階計算量度，您也可以新增篩選器和函數。<ul><li>容器的功能類似數學運算式，用以決定運算順序。所以容器中的項目會先行處理，再進行下一個運算。</li><li>將篩選器拖曳至容器會篩選該容器中的所有專案。 (僅限進階計算量度)</li><li>您可以在一個容器中堆疊多個篩選器。</li></ul> |
-| 齒輪圖示 (「量度類型」、「歸因」) | 選取量度旁的齒輪圖示，即可指定量度類型和歸因模式。 |
+| 新增 | 若為所有類型的計算量度，您可以將容器和靜態數字新增到定義中。若為進階計算量度，您也可以新增篩選器和函數。<ul><li>容器的功能類似數學運算式，用以決定運算順序。所以容器中的項目會先行處理，再進行下一個運算。</li><li>將篩選器拖曳至容器可篩選該容器中的所有專案。 (僅限進階計算量度)</li><li>您可以在一個容器中堆疊多個篩選器。</li></ul> |
+| 齒輪圖示 (「量度類型」、「歸因」) | 選取量度旁的齒輪圖示，即可指定量度類型和歸因模式。 <!-- <p>**Note:** Consider the following when updating a component's attribution to a non-default attribution model:</p><ul><li>**When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.</li><li>**When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.</li><li>Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).</li></ul> --> <p>如需配置的詳細資訊，請參閱 [持續性元件設定](/help/data-views/component-settings/persistence.md).</p> |
 | 加號(+)圖示 | 可讓您建立新元件，例如新篩選器 (會帶您前往「篩選產生器」)。 |
 | 搜尋元件 | 此搜尋列可讓您搜尋維度、量度、篩選器（僅限進階計算量度）和函式（僅限進階計算量度）。 |
-| 維度清單 | 您可以拖曳至「頁面」並直接從計算量度產生器選取「首頁」，而不用為了在篩選產生器中建立簡易篩選器（例如「頁面=首頁」）而離開計算量度產生器。 如此可讓工作流程更為流暢，方便建立篩選過的計算量度。 |
+| 維度清單 | 您可以將「頁面」拖曳進來，並直接從計算量度產生器選取「首頁」，而不用為了在篩選產生器中建立簡易篩選器（例如「頁面=首頁」）而離開計算量度產生器。 如此可讓工作流程更為流暢，方便建立篩選過的計算量度。 |
 | 量度清單 | 量度共有 3 個類別：<ul><li>標準量度</li><li>計算量度</li><li>量度範本 - 位於清單底部。</li></ul>當您將滑鼠游標停留在量度上時，您可在其右側看到「資訊」圖示。按一下此圖示會提供下列資訊：<ul><li>其計算公式。</li><li>量度的預覽趨勢。</li><li>右上角的編輯（鉛筆）圖示可帶您前往計算量度產生器，您可在此編輯此計算量度。</li></ul> |
 | 篩選器清單 | (僅限進階計算量度) 身為管理員，此清單會顯示在您的登入公司中建立的所有篩選器。如果您不是管理員使用者，此清單就只會顯示您所擁有並已和您共用的篩選器。 |
 | 函數清單 | (僅限進階計算量度) 函數分為兩種清單： 基本 (最常使用) 和進階。 |

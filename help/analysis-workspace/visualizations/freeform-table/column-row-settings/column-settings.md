@@ -3,10 +3,10 @@ description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 98%
+source-wordcount: '686'
+ht-degree: 94%
 
 ---
 
@@ -54,9 +54,27 @@ ht-degree: 98%
 
 ## 使用非預設歸因模式 {#attribution}
 
-可讓您覆寫 [資料檢視](/help/data-views/component-settings/attribution.md).
+可讓您覆寫在中設定的預設歸因模型 [資料檢視](/help/data-views/component-settings/attribution.md).
 
-1. 按一下自由表格欄中的「設定」(齒輪) 圖示。
+<!--
+
+>[!NOTE]
+>
+>Consider the following when updating a component's attribution to a non-default attribution model:
+>
+>* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>
+>* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>
+>   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>
+> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
+
+-->
+
+若要對Analysis Workspace中的量度使用非預設歸因模型：
+
+1. 按一下「自由格式表格」欄中量度上的「設定」（齒輪）圖示。
 
    ![歸因核取方塊](assets/attribution-checkbox.png)
 
@@ -67,4 +85,3 @@ ht-degree: 98%
 >[!MORELIKETHIS]
 >
 >* [管理資料來源](/help/analysis-workspace/visualizations/t-sync-visualization.md)
-
