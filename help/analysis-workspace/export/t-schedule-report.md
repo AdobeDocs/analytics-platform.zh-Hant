@@ -5,7 +5,7 @@ title: 透過電子郵件傳送Customer Journey Analytics資料給其他人
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 8eda6e9ed27ab458951cd4bd08f511987bc61eb0
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 63%
@@ -14,7 +14,7 @@ ht-degree: 63%
 
 # 透過電子郵件傳送Customer Journey Analytics資料給其他人
 
-您可以透過電子郵件將Customer Journey Analytics資料傳送給選取的收件者，以匯出該資料。 您可以隨選傳送檔案，也可以設定要依排程傳送的檔案。 能以 CSV 或 PDF 格式傳送檔案。
+您可以透過電子郵件將Customer Journey Analytics報表傳送給選取的收件者，以匯出報表。 您可以隨選傳送檔案，也可以設定要依排程傳送的檔案。 能以 CSV 或 PDF 格式傳送檔案。
 
 套用至專案的任何標籤都會自動套用至匯出。
 

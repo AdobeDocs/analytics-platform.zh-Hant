@@ -5,18 +5,16 @@ title: 管理匯出
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: bcbd7ebb075a0d25b566fa8be164d6817bedf2e5
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '931'
 ht-degree: 6%
 
 ---
 
 # 管理匯出
 
-{{select-package}}
-
-匯出完整表格後（如所述） [將Customer Journey Analytics資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md)，則匯出內容可在 [!UICONTROL 匯出] 標籤上的 [!UICONTROL 匯出] 頁面。
+匯出完整表格後（如所述） [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)，則匯出內容可在 [!UICONTROL 匯出] 標籤上的 [!UICONTROL 匯出] 頁面。
 
 您只能看到您建立的匯出。
 
@@ -38,7 +36,7 @@ ht-degree: 6%
 
    | 篩選器 | 說明 |
    |---------|----------|
-   | [!UICONTROL **帳戶類型**] | 與匯出相關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li><li>[!UICONTROL **Adobe Experience Manager**]</li></ul>。 |
+   | [!UICONTROL **帳戶類型**] | 與匯出相關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li><li>[!UICONTROL **Adobe Experience Manager登陸區域**]</li></ul>。 |
    | [!UICONTROL **狀態**] | 匯出的狀態。 可使用下列狀態： <ul><li>[!UICONTROL **作用中**]：指出排程的匯出尚未過期。 </li><li>[!UICONTROL **已完成**]：表示匯出已成功匯出。 對於排程的匯出，這表示排程已過期。</li><li>[!UICONTROL **已失敗**]<p>下列情況可能會導致匯出失敗。 將滑鼠懸停在失敗狀態上可檢視有關失敗的詳細資訊。 <ul><li>排程的匯出到期日</li><li>已達排程匯出的列數限制 </li></ul> </p></li></ul> |
    | [!UICONTROL **頻率**] | 匯出的頻率。 可使用下列頻率： <ul><li>[!UICONTROL **單次**]</li><li>[!UICONTROL **每日**]</li><li>[!UICONTROL **每週**]</li><li>[!UICONTROL **每月**]</li><li>[!UICONTROL **每年**]</li></ul> |
 
@@ -128,10 +126,10 @@ ht-degree: 6%
 
    | 可用欄 | 說明 |
    |---------|----------|
-   | 名稱 | 匯出的名稱。 使用者在建立匯出時為其命名，如所述 [將Customer Journey Analytics資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
+   | 名稱 | 匯出的名稱。 使用者在建立匯出時為其命名，如所述 [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
    | ID | 建立匯出時自動指派的ID。 <!-- True? --> |
    | 狀態 | 匯出的狀態。 可用的狀態包括 [!UICONTROL 作用中]， [!UICONTROL 已暫停]， [!UICONTROL 已完成]、和 [!UICONTROL 已失敗].<p> **注意：** 如需疑難排解匯出失敗的相關資訊，請參閱 [疑難排解失敗的匯出](/help/components/exports/troubleshoot-exports.md).</p> |
-   | 資料檢視名稱 | 與匯出相關聯的資料檢視名稱。 使用者可在建立匯出時選取資料檢視，如所述 [將Customer Journey Analytics資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
+   | 資料檢視名稱 | 與匯出相關聯的資料檢視名稱。 使用者可在建立匯出時選取資料檢視，如所述 [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
    | 狀態 | 匯出的狀態。 可用的狀態包括 [!UICONTROL 擱置中]， [!UICONTROL 已傳遞]、和 [!UICONTROL 已失敗]. |
    | 表格大小 (上次傳送) | 上次傳送匯出的大小。 |
    | 建立者 | 建立匯出的使用者。 |

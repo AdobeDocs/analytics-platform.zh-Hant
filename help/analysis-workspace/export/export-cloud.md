@@ -1,24 +1,22 @@
 ---
 description: 將Analysis Workspace專案匯出至雲端位置。
 keywords: Analysis Workspace
-title: 將Customer Journey Analytics資料匯出至雲端
+title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 92d240581282684fd3e71dd2135d188b9239512b
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1609'
 ht-degree: 4%
 
 ---
 
-# 將Customer Journey Analytics資料匯出至雲端
+# 將Customer Journey Analytics報表匯出至雲端
 
-{{select-package}}
+您可以從Customer Journey Analytics匯出工作區完整的表格，並將匯出內容傳送到指定的雲端目的地。
 
-您可以從Customer Journey Analytics匯出完整表格，並將資料傳送至指定的雲端目的地。
-
-您也可以使用其他匯出Customer Journey Analytics資料的方法，如中所述 [匯出概觀](/help/analysis-workspace/export/export-project-overview.md).
+您也可以使用其他匯出Customer Journey Analytics報表的方法，如中所述 [匯出概觀](/help/analysis-workspace/export/export-project-overview.md).
 
 ## 從Analysis Workspace匯出完整表格
 
@@ -44,15 +42,14 @@ ht-degree: 4%
    | 標記 | 您可以將現有標籤套用至匯出，也可以建立新標籤並套用它。 <p>若要將現有標籤套用至匯出，請從下拉式選單中選取任何標籤。 您公司中的任何標籤皆可套用<!-- double-check this -->.</p> <p>若要建立新標籤，請輸入新標籤的名稱，然後按Enter鍵。</p><p>將標籤套用至匯出時，請考量下列事項： <ul><li>您套用的標籤可在匯出表格中篩選或搜尋。</li> <li>匯出完整表格時，套用至專案的標籤不會自動套用，如以下的「在匯出頁面上設定欄」中所述： [管理匯出](/help/components/exports/manage-exports.md). (或者，當 [排程完整專案以供匯出](/help/analysis-workspace/export/t-schedule-report.md)，套用至專案的任何標籤都會自動套用至匯出。)  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
    | 說明 | 新增說明至匯出。 您可以選擇將說明檢視為 [匯出頁面](/help/components/exports/manage-exports.md) 檢視匯出時。 |
    | 資料檢視 | 選取包含要納入匯出之元件的資料檢視。 資料檢視下拉式功能表位於對話方塊的左上角，可由資料檢檢視示識別![資料檢檢視示](assets/data-view-icon.png).  <p>**注意：** 如果您選擇的資料檢視缺少已包含在資料表格中的元件，則會提示您清除資料表格並使用包含在所選資料檢視中的元件重新建立資料表格。 </p> |
-   | 回顧視窗 | 選取要包含在資料表格中的時間範圍。 選項包括 [!UICONTROL **今天**]， [!UICONTROL **昨天**]， [!UICONTROL **過去7天**]， [!UICONTROL **過去30天**]， [!UICONTROL **本週**]、和 [!UICONTROL **本月**]. |
+   | 回顧視窗 | 選取要包含在每個匯出檔案中的報表時間範圍。 選項包括 [!UICONTROL **今天**]， [!UICONTROL **昨天**]， [!UICONTROL **過去7天**]， [!UICONTROL **過去30天**]， [!UICONTROL **本週**]、和 [!UICONTROL **本月**]. |
    | 清除 | 清除資料表的內容。 這可讓您直接在「新增完整表格」匯出對話方塊中開始建立新表格。 |
-   | 匯出頻率 | 選取匯出的頻率。 <p>您可以選擇 [!UICONTROL **立即傳送（一次）**] 僅傳送一次匯出。 選取此選項時，會立即傳送匯出。<p>或者，您可以選擇按照定義的排程傳送匯出。 依排程傳送時，選項包括 [!UICONTROL **每日**]， [!UICONTROL **每週**]， [!UICONTROL **按一週的第幾天，每月一次**]， [!UICONTROL **每月按日期**]， [!UICONTROL **每年按日期**]、和 [!UICONTROL **每年依特定日期**]. </p><p>選取匯出頻率時，請考量下列事項：</p><ul><li>中的選項 [!UICONTROL **回顧期間**] 欄位會依您在此選取的專案而變更。<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>系統會根據您選擇的選項，顯示其他設定欄位。</li></ul> |
+   | 匯出頻率 | 設定匯出發生的頻率排程。 <p>您可以選擇 [!UICONTROL **立即傳送（一次）**] 僅傳送一次匯出。 選取此選項時，會立即起始匯出。<p>或者，您可以選擇按照定義的排程傳送匯出。 依排程傳送時，選項包括 [!UICONTROL **每日**]， [!UICONTROL **每週**]， [!UICONTROL **按一週的第幾天，每月一次**]， [!UICONTROL **每月按日期**]， [!UICONTROL **每年按日期**]、和 [!UICONTROL **每年依特定日期**]. </p><p>選取匯出頻率時，請考量下列事項：</p><ul><li>中的選項 [!UICONTROL **回顧期間**] 欄位會依您在此選取的專案而變更。<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>系統會根據您選擇的選項，顯示其他設定欄位。</li></ul> |
    | 開始於 | 排程匯出應該開始的日期和時間。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 結束日期 | 排定的匯出到期的日期和時間。 排定的匯出在您設定的日期和時間後不再執行。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 檔案格式 | 選擇匯出的資料應該是.csv還是.json格式。 |
    | 帳戶 | 選取您要傳送資料的雲端匯出帳戶。 <p>如需詳細資訊，請參閱 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md).</p> |
    | 位置名稱 | 選取您要將匯出資料傳送到的帳戶位置。 <p>如需詳細資訊，請參閱 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).</p><p>您可以選取 [!UICONTROL **新增位置**] 按鈕來建立現有匯出帳戶的新位置。 |
-   | 資料預覽 | 顯示預估大小、預估列數和劃分數。 |
 
    {style="table-layout:auto"}
 
@@ -76,11 +73,11 @@ ht-degree: 4%
 
 * 在匯出的Customer Journey Analytics資料中包含計算量度。
 
-* 將資料輸出結構為串連值(例如Adobe Analytics的Data Warehouse)。
+* 將資料輸出結構為串連值。
 
 * 匯出臨時或依排程。 (也可搭配 [其他匯出選項](/help/analysis-workspace/export/export-project-overview.md).)
 
-* 匯出CSV或PDF格式的檔案。 (也可搭配 [其他匯出選項](/help/analysis-workspace/export/export-project-overview.md).)
+* 匯出CSV或JSON格式的檔案。 (也可搭配 [其他匯出選項](/help/analysis-workspace/export/export-project-overview.md).)
 
 * 匯出包含多個維度的表格。
 
@@ -145,8 +142,6 @@ ht-degree: 4%
 
 從Analysis Workspace匯出資料後，您可以編輯、重新匯出、複製、標籤或刪除現有的匯出專案，如所述 [管理匯出](/help/components/exports/manage-exports.md).
 
-您也可以重試或記錄失敗匯出的支援票證，如所述 [管理匯出記錄檔](/help/components/exports/manage-export-logs.md).
-
 ## 檢視匯出的資料和資訊清單檔案
 
 ### 匯出的資料
@@ -184,10 +179,10 @@ ht-degree: 4%
 |---------|----------|---------|
 | 建立自訂報表 | 有 | 有 |
 | 計算量度 | 有 | 無 |
-| 區段 | 有 | 有 |
+| 區段 | 是 | 有限 |
 | 維度 | 限製為5 | 無限制 |
 | 量度 | 限製為5 | 無限制 |
-| 報告列 | 3、30、150或300的限制（視層級而定） | 無限制 |
+| 報告列 | 根據層級，限製為300萬、3000萬、1.5億或3億 | 無限制 |
 | 報告數量 | 無限制 | 無限制 |
 | 隨機傳遞 | 有 | 有 |
 | 排程循環傳遞 | 有 | 有 |

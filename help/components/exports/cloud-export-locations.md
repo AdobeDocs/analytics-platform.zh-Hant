@@ -5,18 +5,16 @@ title: 設定雲端匯出位置
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: bcbd7ebb075a0d25b566fa8be164d6817bedf2e5
+source-git-commit: c8f855ad5b586ed9ac3cde6889b6e73ecb216efa
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 6%
+source-wordcount: '972'
+ht-degree: 5%
 
 ---
 
 # 設定雲端匯出位置
 
-{{select-package}}
-
-在您可以將Customer Journey Analytics資料匯出至雲端目的地之前（如所述） [將Customer Journey Analytics資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md)，您需要新增並設定傳送資料的位置。
+在您可以將Customer Journey Analytics報表匯出至雲端目的地之前（如所述） [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)，您需要新增並設定傳送資料的位置。
 
 此程式包括新增及設定帳戶(例如Amazon S3、Google Cloud Platform等)，如所述 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)，然後在該帳戶內新增並設定位置（例如帳戶內的資料夾），如本文所述。
 
@@ -26,18 +24,36 @@ ht-degree: 6%
 
 1. 您必須先新增帳戶，才能新增位置。 如果您尚未新增帳戶，請依照所述新增帳戶 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md).
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
-1. 在 [!UICONTROL 匯出] 頁面，選取 [!UICONTROL **位置**] 標籤。
-1. 選取 [!UICONTROL **新增位置**].
+1. 選取 [!UICONTROL **位置**] 索引標籤，然後選取 [!UICONTROL **新增位置**].
 
    ![新增位置按鈕](assets/location-add.png)
 
+   或
+
+   選取 [!UICONTROL **位置帳戶**] 索引標籤中，選取現有帳戶上要新增位置的3點圖示，然後選取 [!UICONTROL **新增位置**].
+
+   ![將位置新增至現有帳戶](assets/add-location-existing-account.png)
+
    「位置」對話方塊隨即顯示。
 
-1. 指定下列資訊： |欄位 |函式 | ---------|----------| | [!UICONTROL **名稱**] |位置名稱。  | | [!UICONTROL **說明**] |提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 | | [!UICONTROL **位置帳戶**] |選取您在中建立的位置帳戶 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md). |
+1. 指定下列資訊： |欄位 |函式 | ---------|----------| | [!UICONTROL **名稱**] |位置名稱。  | | [!UICONTROL **說明**] |提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 | | [!UICONTROL **位置帳戶**] |選取您要建立位置的帳戶。 如需有關如何建立帳戶的資訊，請參閱 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md). |
 
 1. 在 [!UICONTROL **位置屬性**] 區段，指定您位置帳戶之帳戶型別的專屬資訊。
 
    如需設定指示，請展開以下與您在所選帳戶型別對應的區段 [!UICONTROL **位置帳戶**] 欄位。
+
+   +++Adobe Experience Platform資料登陸區域
+
+   指定下列資訊以設定Adobe Experience Platform資料登陸區域位置：
+
+   <!-- still need to update; can't create AEP account -->
+
+   | 欄位 | 功能 |
+   |---------|----------|
+   | [!UICONTROL **IMS 組織 ID**] | IMS組織ID由Adobe提供。 按一下旁邊的「複製」圖示 [!UICONTROL **IMS組織ID**] 欄位以複製欄位內容，然後在您的Adobe Experience Platform帳戶中使用ID。 |
+   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
+
++++
 
    +++Amazon S3 Role ARN
 
@@ -108,19 +124,6 @@ ht-degree: 6%
    | [!UICONTROL **階段路徑**] | 資料檔以Snowflake儲存所在位置的路徑。 <p>如需詳細資訊，請參閱 [在Snowflake檔案中選擇「本機檔案的內部階段」頁面](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
-
-+++
-
-   +++Adobe Experience Platform
-
-   指定下列資訊以設定Adobe Experience Platform位置：
-
-   <!-- still need to update; can't create AEP account -->
-
-   | 欄位 | 功能 |
-   |---------|----------|
-   | [!UICONTROL **IMS 組織 ID**] | IMS組織ID由Adobe提供。 按一下旁邊的「複製」圖示 [!UICONTROL **IMS組織ID**] 欄位以複製欄位內容，然後在您的Adobe Experience Platform帳戶中使用ID。 |
-   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
 
 +++
 

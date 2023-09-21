@@ -5,16 +5,14 @@ title: 設定雲端匯出位置
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: bcbd7ebb075a0d25b566fa8be164d6817bedf2e5
+source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 6%
+source-wordcount: '383'
+ht-degree: 5%
 
 ---
 
 # 管理雲端匯出位置和帳戶
-
-{{select-package}}
 
 您可以檢視、編輯和刪除雲端匯出位置。
 
@@ -38,7 +36,7 @@ ht-degree: 6%
 
    | 篩選器 | 說明 |
    |---------|----------|
-   | [!UICONTROL **位置類型**]<!--should this be changed to Account type?--> | 與位置關聯的帳戶型別。 可使用下列帳戶型別： <ul><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li><li>[!UICONTROL **Adobe Experience Manager**]</li></ul> |
+   | [!UICONTROL **位置類型**]<!--should this be changed to Account type?--> | 與位置關聯的帳戶型別。 可使用下列帳戶型別： <ul><li>[!UICONTROL **Adobe Experience Platform Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **帳戶**] | 與位置關聯的帳戶名稱。 |
    | [!UICONTROL **建立者**] | 建立位置之使用者的電子郵件地址。 |
 
