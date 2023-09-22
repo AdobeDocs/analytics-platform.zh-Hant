@@ -5,9 +5,9 @@ title: 設定雲端匯出帳戶
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1551'
 ht-degree: 6%
 
 ---
@@ -189,8 +189,8 @@ ht-degree: 6%
    | 欄位 | 功能 |
    |---------|----------|
    | [!UICONTROL **帳戶識別碼**] | 可唯一識別組織內，以及Snowflake支援的雲端平台和雲端區域的全球網路中的Snowflake帳戶。 <p>您必須從Snowflake帳戶取得帳戶識別碼，然後在此處貼上資訊。</p><p>若要瞭解從何處取得此資訊，請參閱 [Snowflake檔案中的帳戶識別碼頁面](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
-   | [!UICONTROL **使用者**] | 用於連線的使用者登入名稱。 這是將專門用於Adobe的使用者。 在此處指定名稱，然後以Snowflake建立具有相同名稱的使用者。 <p>如需詳細資訊，請參閱 [Snowflake檔案中的「JDBC驅動程式連線引數參考」頁面](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
-   | [!UICONTROL **角色**] | 在驅動程式起始的Snowflake工作階段中使用的預設存取控制角色。 這是將專門用於Adobe的角色。 在此處指定角色，然後以相同名稱在Snowflake中建立角色，並授予其讀取和寫入存取權。<p>如需詳細資訊，請參閱 [Snowflake檔案中的「JDBC驅動程式連線引數參考」頁面](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc-parameters).</p> |
+   | [!UICONTROL **使用者**] | 用於連線的使用者登入名稱。 這是將專門用於Adobe的使用者。 在此處指定名稱，然後以Snowflake建立具有相同名稱的使用者。 <p>如需詳細資訊，請參閱 [使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **角色**] | 這是將專門用於Adobe的角色。 在此處指定角色，然後以相同名稱在Snowflake中建立角色，並將角色授予使用者。 <p>如需詳細資訊，請參閱 [使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
 
    {style="table-layout:auto"}
 
