@@ -5,9 +5,9 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1612'
 ht-degree: 4%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 4%
 
 將Customer Journey Analytics資料匯出至雲端可讓您：
 
-* 匯出至共用位置，例如Google Cloud Platform、Microsoft Azure、Amazon S3、Snowflake或Adobe Experience Platform。
+* 匯出至共用位置，例如Adobe Experience Platform Data Landing Zone、Google Cloud Platform、Microsoft Azure、Amazon S3或Snowflake。
 
 * 儲存大量歷史資料。
 

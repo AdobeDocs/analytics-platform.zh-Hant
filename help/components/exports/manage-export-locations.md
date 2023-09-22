@@ -1,13 +1,13 @@
 ---
 description: 管理可傳送Customer Journey Analytics資料的雲端匯出位置
 keywords: Analysis Workspace
-title: 設定雲端匯出位置
+title: 管理雲端匯出位置和帳戶
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 5%
 
 ---
