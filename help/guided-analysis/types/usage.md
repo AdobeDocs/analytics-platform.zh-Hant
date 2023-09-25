@@ -4,9 +4,9 @@ description: 測量使用者在一段時間內的參與度.
 exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: f41d4a6c8d181ed05fdb34657d4c7677d50ade5a
+source-git-commit: c7a370b4c83ceddcb3ec9542714f768d5562f297
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 新增其他資料至圖表。
 
-* **[!UICONTROL 顯示異常]**：在分析上執行異常偵測。 離群值會顯示為點，您可以在其上暫留以取得詳細資訊。
+* **[!UICONTROL 顯示異常]**：執行 [異常偵測](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 趨勢分析上的資訊。 離群值會顯示為點，您可以在其上暫留以取得詳細資訊。
 
 ## 套用時間比較
 
