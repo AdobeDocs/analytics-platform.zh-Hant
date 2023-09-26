@@ -5,9 +5,9 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+source-git-commit: 5ab26cec464051ace651d3ac9c2942f671b0df92
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1626'
 ht-degree: 4%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 4%
 
   這類資料可用於偵測長期趨勢，以獲得商業智慧，最終做出更好的商業決策。
 
-* 匯出包含數千或數百萬列的完整表格。 其他匯出方法最多允許50,000列。
+* 匯出包含數千或數百萬列的完整表格（3百萬、3千萬或1.5億列，視授權型別而定）。 其他匯出方法最多允許50,000列。
 
 * 在匯出的Customer Journey Analytics資料中包含計算量度。
 
@@ -108,7 +108,7 @@ ht-degree: 4%
 
 下列元件不受支援，Analysis Workspace在執行完整表格匯出時會提示您從表格中將其移除：
 
-* 在量度定義中使用進階函式的計算量度(請參閱 [進階函式](/help/components/calc-metrics/cm-adv-functions.md) 以取得詳細資訊)
+* 在量度定義中使用基本或進階函式的計算量度(請參閱 [基本函式](/help/components/calc-metrics/cm-functions.md) 和 [進階函式](/help/components/calc-metrics/cm-adv-functions.md) 以取得詳細資訊)
 * 管理員限制無法匯出的元件(請參閱 *篩選資料檢視中的資料控管原則* 中的區段 [標籤和原則](/help/data-views/data-governance.md) 以取得詳細資訊)
 * 每個報表超過5個維度和5個量度（最多支援5個維度和5個量度）
 * 在表格欄中：

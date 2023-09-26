@@ -5,10 +5,10 @@ title: 設定雲端匯出帳戶
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 92b59f0e1f2668e5c2b2d1a73aee5ef6fbc7c420
+source-git-commit: b773af6878f16266cbc8a502ec2e66d1380e8210
 workflow-type: tm+mt
 source-wordcount: '1551'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -72,9 +72,9 @@ ht-degree: 6%
 
    <!-- add screen shot -->
 
-1. 複製 [!UICONTROL **SAS**] 欄位至您的剪貼簿。 使用此SAS權杖來存取從Analysis Workspace從AEP登陸區域匯出的資料。 瞭解如何存取您的資料」 |
+1. 複製 [!UICONTROL **SAS**] 欄位至您的剪貼簿。 使用此SAS權杖來存取從Analysis Workspace從AEP登陸區域匯出的資料。 了解如何存取您的資料&quot; |
 
-1. 選取&#x200B;[!UICONTROL **「關閉」**]。
+1. 選取 [!UICONTROL **確定**].
 
 1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
 
@@ -98,7 +98,7 @@ ht-degree: 6%
 
 1. 複製 [!UICONTROL **使用者ARN**] 欄位至您的剪貼簿。 使用者ARN (Amazon資源名稱)由Adobe提供。 您必須將此使用者附加至您在Amazon S3角色ARN中建立的原則。
 
-1. 選取&#x200B;[!UICONTROL **「關閉」**]。
+1. 選取 [!UICONTROL **確定**].
 
 1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 
 1. 複製 [!UICONTROL **主體**] 欄位到您的剪貼簿，然後確定您授予主體許可權，以便在Google Cloud Platform中將檔案上傳到此貯體。 <!-- add link to Google Cloud docs on how to do this -->
 
-1. 選取&#x200B;[!UICONTROL **「關閉」**]。
+1. 選取 [!UICONTROL **確定**].
 
 1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
 
@@ -150,7 +150,7 @@ ht-degree: 6%
 
 1. 如果您尚未這麼做，請確定您已授與Azure SAS中儲存貯體的許可權。 <!-- add link to Google Cloud docs on how to do this -->
 
-1. 選取&#x200B;[!UICONTROL **「關閉」**]。
+1. 選取 [!UICONTROL **確定**].
 
 1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
 
@@ -176,7 +176,7 @@ ht-degree: 6%
 
 1. 如果您尚未這麼做，請確定您已授與Azure RBAC中儲存貯體的許可權。 <!-- add link to Google Cloud docs on how to do this -->
 
-1. 選取&#x200B;[!UICONTROL **「關閉」**]。
+1. 選取 [!UICONTROL **確定**].
 
 1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
 
@@ -202,7 +202,7 @@ ht-degree: 6%
 
 1. 複製 [!UICONTROL **公開金鑰**] 欄位至您的剪貼簿。 公開金鑰由Adobe提供。 在Snowflake中使用公開金鑰來連線至您的Snowflake帳戶。 如需詳細資訊，請參閱 [Snowflake檔案中的金鑰組驗證和金鑰組輪換頁面](https://docs.snowflake.com/en/user-guide/key-pair-auth). |
 
-1. 選取&#x200B;[!UICONTROL **「關閉」**]。
+1. 選取 [!UICONTROL **確定**].
 
 1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
 
