@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
+source-git-commit: 063fc71a9c0bbcadb1348aa4c41c64bed08a51f6
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 90%
+source-wordcount: '1166'
+ht-degree: 84%
 
 ---
 
@@ -29,15 +29,15 @@ ht-degree: 90%
 
 1. 按一下 Report Builder 中心內的「排程」按鈕。
 
-   ![](./assets/schedule-button.png){width="55%"}
+   ![按一下「排程」按鈕以建立排程。](./assets/schedule-button.png){width="55%"}
 
 1. 按一下「排程活頁簿」或左上角的加號按鈕，以建立新的排程活頁簿。
 
-   ![替代說明](./assets/schedule-workbook.png){width="55%"}
+   ![排程活頁簿視窗。](./assets/schedule-workbook.png){width="55%"}
 
    排程窗格會顯示活頁簿的一些預先定義資訊，例如活頁簿名稱和上次修改活頁簿的日期。
 
-   ![替代說明](./assets/schedule-pane.png){width="55%"}
+   ![排程窗格。](./assets/schedule-pane.png){width="55%"}
 
 1. (選用) 輸入檔案名稱。
 
@@ -51,13 +51,13 @@ ht-degree: 90%
 
    進行此選擇時，系統會提示您輸入密碼以開啟檔案。如果您對資料安全性有疑慮，並想以密碼保護活頁簿，這個方法就很有用。若要使用密碼保護檔案，就必須選取&#x200B;**「.zip壓縮」**。密碼必須至少為 8 個字元，並包含一個數字和一個特殊字元。
 
-   ![替代說明](./assets/zip-compression.png){width="55%"}
+   ![在「密碼保護活頁簿」欄位中輸入密碼。](./assets/zip-compression.png){width="55%"}
 
 1. 輸入&#x200B;**收件者**。您可以輸入組織中可識別的人員名稱，也可以輸入組織內外人員的電子郵件地址。
 
 1. 輸入電子郵件的&#x200B;**主旨**&#x200B;以及收件者的說明。主旨預設為活頁簿檔案名稱，但您可以視需要修改主旨。您可以在說明區段中新增詳細資料。
 
-   ![替代說明](./assets/recipients-subject.png){width="55%"}
+   ![在「主旨」欄位中輸入主旨。](./assets/recipients-subject.png){width="55%"}
 
 1. 設定排程選項，以設定您要透過電子郵件將活頁簿傳送給收件者的日期和時間。
 
@@ -65,15 +65,15 @@ ht-degree: 90%
 
    從下拉式選單中選取&#x200B;**「頻率」**。您可以將頻率設定為特定日期的每小時、每日、每週、每月或每年。例如，您可以設定排程，在每個月的第一個星期日晚上傳送活頁簿，讓收件者在星期一早上第一時間就能在收件匣中看到該電子郵件。
 
-   ![替代說明](./assets/frequency.png){width="55%"}
+   ![選取排程報表的頻率。](./assets/frequency.png){width="55%"}
 
 1. 設定排程後，按一下&#x200B;**「依排程傳送」**。
 
-   ![替代說明](./assets/send-on-schedule.png){width="55%"}
+   ![按一下「依排程傳送」 。](./assets/send-on-schedule.png){width="55%"}
 
    您會在 Report Builder 中心底部看到確認快顯通知，而排程的活頁簿會列在「活頁簿」標籤下。
 
-   ![替代說明](./assets/confirmation-toast.png){width="55%"}
+   ![確認快顯通知](./assets/confirmation-toast.png){width="55%"}
 
 ## 僅傳送活頁簿一次
 
@@ -81,7 +81,7 @@ ht-degree: 90%
 
 1. 取消勾選&#x200B;**「顯示排程選項」**
 
-   ![替代說明](./assets/send-now.png){width="40%"}
+   ![按一下「取消勾選顯示排程選項」 ，一次傳送活頁簿。](./assets/send-now.png){width="40%"}
 
 1. 按一下&#x200B;**「立即傳送」**。
 
@@ -115,14 +115,14 @@ ht-degree: 90%
 
 透過按一下搜索欄右側的欄設定圖示，您可以選擇要在歷史記錄索引標籤中顯示的欄。
 
-![替代說明](./assets/history.png){width="55%"}
+![按一下欄圖示以顯示或隱藏特定欄。](./assets/history.png){width="55%"}
 
 您可以前往活頁簿索引標籤，選取活頁簿，然後按一下「歷史記錄」圖示篩選歷史記錄，只查看單一已排程活頁簿的歷史記錄。
 
 您也可以從「活頁簿」索引標籤檢視特定活頁簿的歷史記錄。在「活頁簿」標籤中，選取活頁簿，然後按一下歷史記錄圖示。
 
-![替代說明](./assets/history2.png){width="55%"}
+![活頁簿歷史記錄圖示](./assets/history2.png){width="55%"}
 
 活頁簿篩選器便會顯示在歷史記錄頂端。若要再次檢視所有排程任務的歷史記錄，請按一下篩選器旁的 x。
 
-![替代說明](./assets/history3.png){width="55%"}
+![活頁簿篩選。](./assets/history3.png){width="55%"}

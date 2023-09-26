@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: 21bcc23b37372fc96347228b8b40fa970bb09bb5
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 74%
+source-wordcount: '649'
+ht-degree: 69%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 74%
 
 1. 按一下&#x200B;**建立資料區塊**。
 
-   ![](./assets/create_db.png)
+   ![熒幕擷圖顯示建立資料區塊選項。](./assets/create_db.png)
 
 1. 設定&#x200B;**資料區塊地點**。
 
@@ -41,13 +41,9 @@ ht-degree: 74%
 
 1. 按一下「**下一步**」。
 
-   ![](./assets/choose_date_data_view3.png)
+   ![顯示日期範圍選項和作用中「下一步」按鈕的熒幕擷圖。](./assets/choose_date_data_view3.png)
 
    在您設定資料區塊後，您可以選取維度、量度和篩選器，來建置您的資料區塊。「維度」、「量度」和「篩選器」索引標籤會顯示在「表格產生器」窗格上方。
-<!--
-    ![](./assets/image9.png)
-  -->
-
 
 ## 建置資料區塊
 
@@ -75,13 +71,13 @@ ht-degree: 74%
 
    當您將元件加入表格時，工作表中的「資料區塊」位置會顯示資料區塊的預覽。資料區塊預覽的版面配置會隨著您新增、移動或移除表格中的項目而自動更新。
 
-   ![](./assets/image10.png)
+   ![熒幕擷圖顯示新增的元件和更新的工作表。](./assets/image10.png)
 
    **顯示或隱藏列與欄標題**
 
 1. 按一下 **表格** 設定圖示。
 
-   ![預留位置影像](./assets/table-settings.png){width="35%"}
+   ![顯示「表格設定」選項的熒幕擷圖。](./assets/table-settings.png){width="35%"}
 
 1. 核取或取消核取顯示列與欄標題的選項。 預設會顯示標題。
 
@@ -89,7 +85,7 @@ ht-degree: 74%
 
 1. 按一下維度或欄標題上的省略符號圖示以顯示設定。
 
-   ![預留位置影像](./assets/row-heading.png){width="35%"}
+   ![「列」區段中的省略符號圖示。](./assets/row-heading.png){width="35%"}
 
 1. 按一下「隱藏」或「顯示」來切換維度標籤或欄標題。 預設會顯示所有標籤。
 
@@ -97,8 +93,8 @@ ht-degree: 74%
 
    擷取分析資料的同時，會顯示一則處理訊息。
 
-   ![](./assets/image11.png)
+   ![處理訊息。](./assets/image11.png)
 
    Report Builder 會擷取資料，並在工作表中顯示已完成的資料區塊。
 
-   ![](./assets/image12.png)
+   ![完成的資料區塊。](./assets/image12.png)

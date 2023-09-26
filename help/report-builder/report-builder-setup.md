@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 97%
+source-wordcount: '491'
+ht-degree: 89%
 
 ---
 
@@ -72,11 +72,11 @@ ht-degree: 97%
 
 和您的 IT 或安全小組洽詢，要求核准使用 Report Builder 增益集。取得核准後，在 Office 增益集對話框中，選取「由系統管理員管理」索引標籤。
 
-![](./assets/image1.png)
+![「Office增益集」對話方塊中的「管理員管理」索引標籤。](./assets/image1.png)
 
 在安裝此 Report Builder 增益集後，「首頁」索引標籤下的 Excel 功能區中會顯示 Report Builder 圖示。
 
-![](./assets/rb_app_icon.png)
+![Excel中的Report Builder圖示](./assets/rb_app_icon.png)
 
 ## 登入 Report Builder
 
@@ -88,11 +88,11 @@ ht-degree: 97%
 
 1. 在 Adobe Report Builder 工具列上，按一下&#x200B;**登入**。
 
-   ![](./assets/rb_login.png)
+   ![按一下Report Builder登入按鈕。](./assets/rb_login.png)
 
 1. 輸入您的 Adobe Experience ID 帳戶資訊。您的帳戶資訊應該和您的 Customer Journey Analytics 認證資料相符。
 
-   ![](./assets/image4.png)
+   ![您的登入圖示和組織。](./assets/image4.png)
 
 登入後，您的登入圖示和組織將顯示在面板頂端。
 
@@ -104,7 +104,7 @@ ht-degree: 97%
 
 1. 從可用組織清單中選取一個組織。只會列出您有存取權限的組織。
 
-   ![](./assets/image5.png)
+   ![您可存取的組織清單。](./assets/image5.png)
 
 ## 登出
 
@@ -114,6 +114,6 @@ ht-degree: 97%
 
 1. 按一下個人頭像圖示，以顯示您的使用者基本資料。
 
-   ![](./assets/image6.png)
+   ![您的使用者設定檔頭像和「登出」按鈕。](./assets/image6.png)
 
 1. 按一下「**登出**」。

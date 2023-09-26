@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
-source-git-commit: 8b0a4b06a2ebed196bab37e9befb61e0bf0f8902
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 68%
+source-wordcount: '850'
+ht-degree: 60%
 
 ---
 
@@ -25,9 +25,7 @@ ht-degree: 68%
 
 若要將篩選器套用至個別量度，請將篩選器拖放至表格中的量度上。您也可以按一下「表格」窗格中量度右邊的 **...** 圖示，然後選取&#x200B;**篩選器量度**。若要檢視已套用的篩選器，可將滑鼠游標停留在「表格」窗格中的量度上或選取量度。已套用篩選器的量度會顯示篩選器圖示。
 
-<!-- ![](./assets/image24.png) -->
-
-![](./assets/filter_by.png)
+![顯示量度的篩選器索引標籤。](./assets/filter_by.png)
 
 ## 快速編輯篩選器
 
@@ -39,11 +37,11 @@ ht-degree: 68%
 
 1. 請從一或多個資料區塊選取儲存格範圍。
 
-   ![](./assets/select_multiple_dbs.png)
+   ![「快速編輯」篩選器面板顯示資料檢視、日期範圍和篩選器的篩選器選項。](./assets/select_multiple_dbs.png)
 
 1. 按一下「篩選器」連結，即可啟動「快速編輯 - 篩選器」面板。
 
-   ![](./assets/quick_edit_filters.png)
+   ![顯示「新增篩選器」欄位和「已套用篩選器」清單的「篩選器」面板。](./assets/quick_edit_filters.png)
 
 ### 新增或移除篩選器
 
@@ -55,7 +53,7 @@ ht-degree: 68%
 
    若所選取的資料區塊中出現多個篩選器，您可利用&#x200B;**新增篩選器**&#x200B;搜尋欄位來搜尋特定篩選器。
 
-   ![](./assets/add_filter.png)
+   ![新增篩選器欄位。](./assets/add_filter.png)
 
 1. 從&#x200B;**新增篩選器**&#x200B;下拉式選單中選取篩選器，即可新增篩選器。
 
@@ -75,7 +73,7 @@ ht-degree: 68%
 
 1. 選取「快速編輯 - 篩選器」面板中的&#x200B;**取代**&#x200B;索引標籤。
 
-   ![](./assets/replace_filter.png)
+   ![選取「取代」標籤。](./assets/replace_filter.png)
 
 1. 使用&#x200B;**搜尋清單**&#x200B;搜尋欄位，即可找出特定的篩選器。
 
@@ -85,7 +83,7 @@ ht-degree: 68%
 
    選取篩選器並將其新增至&#x200B;**取代為** ... 清單。
 
-   ![](./assets/replace_screen_new.png)
+   ![「取代」索引標籤中的「應用程式上的人員」資料區塊已選取，且「取代為」清單已更新，顯示「修訂的應用程式上的人員」 。](./assets/replace_screen_new.png)
 
 1. 按一下&#x200B;**「套用」**。
 
@@ -101,36 +99,36 @@ ht-degree: 68%
 1. 按一下 **篩選器** 標籤以定義篩選器。
 1. 按一下 **從儲存格建立篩選器**.
 
-   ![](./assets/create-filter-from-cell.png)
+   ![從儲存格圖示建立篩選器。](./assets/create-filter-from-cell.png)
 
-1. 選取您要資料區塊參照篩選器的儲存格。
+1. 選取您要資料區塊參考篩選的儲存格。
 
-1. 連按兩下篩選器，或將篩選器拖放至「已包含篩選器」區段，即可新增您要新增至儲存格的篩選器選擇。
+1. 按兩下篩選器或將篩選器拖放至「已包含篩選器」區段，即可將您想要新增的篩選器選擇新增至儲存格。
 
    注意：一次只能為指定的儲存格選取一個選項。
 
-   ![](./assets/select-filters.png)
+   ![顯示所包含篩選器的「從儲存格新增篩選器」視窗。](./assets/select-filters.png)
 
 1. 按一下 **套用** 以建立參照儲存格。
 
 1. 從 **篩選器** 索引標籤中，將新建立的參考儲存格篩選器新增至您的資料區塊。
 
-   ![](./assets/reference-cell-filter.png)
+   ![顯示Sheet1！J1（所有資料）篩選器已新增至表格的「篩選器」索引標籤。](./assets/reference-cell-filter.png)
 
 1. 按一下&#x200B;**「完成」**。
 
-   現在，此儲存格可供其篩選器中的其他資料區塊參考。 若要將參考儲存格作為篩選器套用至其他資料區塊，只需從篩選器索引標籤將儲存格參考新增至其篩選器即可。
+   現在，此儲存格可供其篩選器中的其他資料區塊參照。 若要將參照儲存格作為篩選器套用至其他資料區塊，只需從篩選器索引標籤將儲存格參照新增至其篩選器即可。
 
 #### 使用參考儲存格來變更資料區塊篩選器
 
 1. 選取試算表中的參考儲存格。
 
-1. 按一下底下的連結 **來自儲存格的篩選器** 在「快速編輯」選單中。
+1. 按一下底下的連結 **來自儲存格的篩選器** 在「快速編輯」功能表中。
 
-   ![](./assets/filters-from-cell-link.png)
+   ![顯示Sheet1！J1 （所有資料）的儲存格連結篩選器](./assets/filters-from-cell-link.png)
 
 1. 從下拉式選單中選取您的篩選器。
 
-   ![](./assets/filter-drop-down.png)
+   ![篩選器下拉式功能表](./assets/filter-drop-down.png)
 
 1. 按一下&#x200B;**套用**。

@@ -1,15 +1,15 @@
 ---
-title: 如何在Customer Journey Analytics中設定Report Builder設定
+title: 如何設定Customer Journey Analytics中的Report Builder設定
 description: 說明如何設定離線模式、語言、截止日期以及疑難排解設定。
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
 solution: Customer Journey Analytics
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 95%
+source-wordcount: '265'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 1. 按一下&#x200B;**「套用」**。
 
-   ![](./assets/image38.png)
+   ![按一下套用按鈕。](./assets/image38.png)
 
 ## 離線模式
 
@@ -51,7 +51,7 @@ ht-degree: 95%
 
 1. 從&#x200B;**語言**&#x200B;下拉式選單中選取語言。
 
-   ![](./assets/image39.png)
+   ![選取語言清單。](./assets/image39.png)
 
 1. 按一下&#x200B;**套用。**
 

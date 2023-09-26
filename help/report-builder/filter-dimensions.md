@@ -1,15 +1,15 @@
 ---
-title: 篩選Report Builder中的Dimension
+title: 如何在Report Builder中篩選維度
 description: 說明如何在Customer Journey Analytics的Report Builder中使用篩選維度
 role: Data Engineer, Data Architect, Admin, User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: d045ecf73f7e15940510b764814fb853222e88cc
+source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 98%
+source-wordcount: '988'
+ht-degree: 88%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 98%
 
 1. 按一下表格中元件名稱旁的 **...** 圖示。
 
-   ![](./assets/image27.png)
+   ![省略符號圖示選項。](./assets/image27.png)
 
 1. 在快選視窗選單中選取&#x200B;**篩選器維度**，以顯示&#x200B;**篩選器維度**&#x200B;窗格。
 
 1. 選取&#x200B;**最受歡迎**&#x200B;或&#x200B;**特定**。
 
-   ![](./assets/image28.png)
+   ![在篩選器維度窗格中選取的特定選項。](./assets/image28.png)
 
 1. 根據所選擇的篩選器類型，選取適當的選項。
 
@@ -49,7 +49,7 @@ ht-degree: 98%
 
 「最受歡迎」選項可讓您根據量度值動態篩選維度項目。「最受歡迎」篩選方式會根據量度值傳回排名最高的維度項目。預設情況下，會出現前 10 個維度項目的清單，從加入資料區塊的第一個量度開始排序。
 
-![影像檔案](./assets/image29.png)
+![最受歡迎選項。](./assets/image29.png)
 
 
 ### 「頁面」和「列數」選項
@@ -92,7 +92,7 @@ ht-degree: 98%
 
 1. 從下拉式清單中選取一個運算子。
 
-   ![](./assets/image31.png)
+   ![運運算元清單。](./assets/image31.png)
 
 1. 在搜尋欄輸入一個值。
 
@@ -114,14 +114,14 @@ ht-degree: 98%
 
 2. 按一下偏好量度上的箭頭。 
 
-   ![](./assets/image30.png)
+   ![表格產生器和量度。](./assets/image30.png)
 
 
 ## 特定篩選
 
 此「特定」選項可讓您為每個維度建立固定的維度項目清單。使用&#x200B;**特定**&#x200B;篩選類型，即可指定包含您的篩選條件的精確維度項目。您可從清單或是儲存格範圍選取項目。
 
-![](./assets/image32.png)
+![「特定」選項與選取的專案。](./assets/image32.png)
 
 ### 從清單
 
@@ -129,7 +129,7 @@ ht-degree: 98%
 
    當您選取&#x200B;**從清單**&#x200B;選項時，包含大部分事件的維度項目會先匯入清單中。
 
-   ![](./assets/image33.png)
+   ![「從清單」選項和可用專案。](./assets/image33.png)
 
    此&#x200B;**可用項目**&#x200B;清單上的維度項目會依包含最多事件到包含最少事件的順序排列。
 
@@ -137,9 +137,9 @@ ht-degree: 98%
 
 1. 若要搜尋未包含在過去 90 天資料中的項目，可按一下&#x200B;**顯示過去 6 個月的項目**，即可擴大搜尋範圍。
 
-   ![](./assets/image34.png)
+   ![顯示過去6個月的專案清單。](./assets/image34.png)
 
-   在過去六個月的資料載入後，Report Builder 會將連結更新為&#x200B;**顯示過去 18 個月的項目**。
+   在過去6個月的資料載入後，Report Builder會將連結更新為 **顯示過去18個月的專案**.
 
 1. 選取維度項目。
 
@@ -151,7 +151,7 @@ ht-degree: 98%
 
    若要移動清單中的項目，請拖放該項目或按一下...，即可顯示移動選單。
 
-   ![](./assets/image36.png)
+   ![維度專案清單。](./assets/image36.png)
 
 1. 按一下&#x200B;**套用**
 
@@ -161,7 +161,7 @@ ht-degree: 98%
 
 選取&#x200B;**從儲存格範圍**&#x200B;選項，即可選擇包含有將比對的維度項目清單的儲存格範圍。
 
-![](./assets/image37.png)
+![「從儲存格範圍」選項和欄位可選取一個儲存格範圍。](./assets/image37.png)
 
 當您選取儲存格範圍時，請考量以下限制：
 
@@ -175,6 +175,6 @@ ht-degree: 98%
 
 在&#x200B;**維度**&#x200B;索引標籤上，按一下維度名稱旁的 ＞形箭號，即可檢視維度項目清單。
 
-![](./assets/dimensions_chevron.png)
+![Dimension標籤和維度清單。](./assets/dimensions_chevron.png)
 
 您可將項目拖放至&#x200B;**表格**&#x200B;或是按兩下項目名稱，即可將其加入&#x200B;**表格**&#x200B;產生器。
