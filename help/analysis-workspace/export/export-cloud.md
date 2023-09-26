@@ -5,9 +5,9 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 5ab26cec464051ace651d3ac9c2942f671b0df92
+source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1716'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->在依照本節所述匯出資料之前，請確定您的表格符合 [匯出需求](#export-requirements).
+>在依本節所述匯出資料之前，請確定 [匯出需求](#export-requirements) 符合。
 
 若要從Analysis Workspace匯出完整表格：
 
@@ -85,9 +85,13 @@ ht-degree: 4%
 
 ### 最低需求
 
-表格必須包含列中的至少一個維度，以及每欄中的一個量度，才能支援完整的表格匯出。
+確定您的表格、環境和許可權符合以下要求：
 
-管理員應確保IP位址列在 [Customer Journey Analytics使用的IP位址](/help/admin/ip-addresses.md) 包含在防火牆允許清單中。
+* **表格：** 所有表格在列中必須至少包含一個維度，在每一欄中至少包含一個量度，才能支援完整的表格匯出。
+
+* **環境：** 管理員應確保IP位址列在 [Customer Journey Analytics使用的IP位址](/help/admin/ip-addresses.md) 包含在防火牆允許清單中。
+
+* **許可權：** 在Adobe Admin Console中，必須為使用者指派產品設定檔，該設定檔必須 [!UICONTROL **完整表格匯出**] 為其指派許可權以匯出完整的表格。 如需在Admin Console中指派許可權給產品設定檔的相關資訊，請參閱 [Admin Console中的Customer Journey Analytics許可權](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) 在 [Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
 ### 不支援的功能
 

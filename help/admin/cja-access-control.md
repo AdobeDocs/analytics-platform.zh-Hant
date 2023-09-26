@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 83%
@@ -14,7 +14,7 @@ ht-degree: 83%
 
 # Customer Journey Analytics 存取控制
 
-Customer Journey Analytics是由三個存取層級或三個角色所控管：產品管理員角色、產品設定檔管理員角色和使用者層級存取權。 本主題將更詳細地說明這些角色。
+Customer Journey Analytics由三個存取層級或三個角色管理：產品管理員角色、產品設定檔管理員角色和使用者層級存取權。 本主題將更詳細地說明這些角色。
 
 此外，我們還將討論使用更細微的方法來限制存取，例如 Workspace 管理和列層級以及值層級存取控制。
 
@@ -28,7 +28,7 @@ Customer Journey Analytics是由三個存取層級或三個角色所控管：產
 
 光是成為 Customer Journey Analytics 中的產品管理員仍無法建立、更新或刪除[連線](/help/connections/overview.md)。若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
 
-* 資料模型製作：檢視結構描述、管理結構描述
+* 資料模型製作：檢視綱要、管理綱要
 * 資料管理：檢視資料集、管理資料集
 * 資料擷取：管理來源
 * 檢視身分命名空間
@@ -41,7 +41,7 @@ Customer Journey Analytics是由三個存取層級或三個角色所控管：產
 
 * 建立和管理單一產品設定檔，例如新增使用者或管理使用者群組及其關聯的產品設定檔。
 
-* 在Customer Journey Analytics中，編輯作為其管理的產品設定檔一部分的資料檢視。 他們無法建立新的資料檢視。
+* 在Customer Journey Analytics中，編輯作為其管理產品設定檔一部分的資料檢視。 他們無法建立新的資料檢視。
 
 ## 使用者層級存取權
 
@@ -49,11 +49,11 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 
 ## Workspace 專案管理
 
-另一個層級的存取控制可用於 Workspace 報告層級。您可以限制某些使用者對特定元件的存取權。如需如何在Workspace專案層級限制元件（維度、量度、篩選器、日期範圍），以及管理如何與資料檢視相關聯的詳細資訊，請參閱 [組織專案](/help/analysis-workspace/curate-share/curate.md).
+另一個層級的存取控制可用於 Workspace 報告層級。您可以限制某些使用者對特定元件的存取權。如需如何在Workspace專案層級限制元件（維度、量度、篩選器、日期範圍）以及管理如何與資料檢視相關聯的詳細資訊，請參閱 [組織專案](/help/analysis-workspace/curate-share/curate.md).
 
 ## 授與個別量度或維度的存取權
 
-當您使用 Customer Journey Analytics 時，無法像在傳統 Adobe Analytics 中一樣為個別量度或維度授予或拒絕權限。量度和維度可在以下位置修改： [資料檢視](/help/data-views/data-views.md) 因此，Customer Journey Analytics可能會有變動。 變更它們也會回溯性地變更報告。
+當您使用 Customer Journey Analytics 時，無法像在傳統 Adobe Analytics 中一樣為個別量度或維度授予或拒絕權限。量度和維度可在以下位置修改： [資料檢視](/help/data-views/data-views.md) 因此，Customer Journey Analytics可能會有所變動。 變更它們也會回溯性地變更報告。
 
 ## 使用案例
 
@@ -93,9 +93,11 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 | **[!UICONTROL 報告使用情況檢視]** | 可讓使用者查看所有並行報告要求。 |
 | **[!UICONTROL 建立計算量度]** | 可讓使用者建立[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 |
 | **[!UICONTROL 建立篩選器]** | 可讓使用者建立[篩選器](/help/components/filters/filters-overview.md)。 |
-| **[!UICONTROL Labs 存取]** | 可讓使用者存取 [Labs](/help/labs/labs.md) 索引標籤中的「Customer Journey Analytics」。 |
+| **[!UICONTROL Labs 存取]** | 可讓使用者存取 [Labs](/help/labs/labs.md) 標籤中的Customer Journey Analytics。 |
 | **[!UICONTROL 建立註解]** | 可讓使用者建立[註解](/help/components/annotations/overview.md)。 |
 | **[!UICONTROL 建立對象]** | 可讓使用者建立[對象](/help/components/audiences/audiences-overview.md)。 |
 | **[!UICONTROL 對象檢視]** | 可讓使用者查看[對象](/help/components/audiences/audiences-overview.md)。 |
 
 {style="table-layout:auto"}
+
+<!-- Add this to the table above when FTE goes to Beta: | [!UICONTROL **Full Table Export**] | Lets users [export full tables to the cloud](/help/analysis-workspace/export/export-cloud.md). | -->

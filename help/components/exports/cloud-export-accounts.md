@@ -5,9 +5,9 @@ title: 設定雲端匯出帳戶
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: b773af6878f16266cbc8a502ec2e66d1380e8210
+source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1604'
 ht-degree: 5%
 
 ---
@@ -189,8 +189,8 @@ ht-degree: 5%
    | 欄位 | 功能 |
    |---------|----------|
    | [!UICONTROL **帳戶識別碼**] | 可唯一識別組織內，以及Snowflake支援的雲端平台和雲端區域的全球網路中的Snowflake帳戶。 <p>您必須從Snowflake帳戶取得帳戶識別碼，然後在此處貼上資訊。</p><p>若要瞭解從何處取得此資訊，請參閱 [Snowflake檔案中的帳戶識別碼頁面](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
-   | [!UICONTROL **使用者**] | 用於連線的使用者登入名稱。 這是將專門用於Adobe的使用者。 在此處指定名稱，然後以Snowflake建立具有相同名稱的使用者。 <p>如需詳細資訊，請參閱 [使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
-   | [!UICONTROL **角色**] | 這是將專門用於Adobe的角色。 在此處指定角色，然後以相同名稱在Snowflake中建立角色，並將角色授予使用者。 <p>如需詳細資訊，請參閱 [使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **使用者**] | 用於連線的使用者登入名稱。 我們建議您建立專門用於Adobe的新使用者。 在此處指定名稱，然後以Snowflake建立具有相同名稱的使用者。 您可以使用在Snowflake中建立使用者 `CREATE USER` 命令。  <p>如需詳細資訊，請參閱 [使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **角色**] | 將指派給使用者的角色。 我們建議您建立專門用於Adobe的新角色。 在此處指定角色，然後以相同名稱在Snowflake中建立角色，並將角色授予使用者。 您可以使用在Snowflake中建立角色 `CREATE ROLE` 命令。 <p>如需詳細資訊，請參閱 [使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
 
    {style="table-layout:auto"}
 
@@ -200,7 +200,17 @@ ht-degree: 5%
 
    <!-- add screen shot -->
 
-1. 複製 [!UICONTROL **公開金鑰**] 欄位至您的剪貼簿。 公開金鑰由Adobe提供。 在Snowflake中使用公開金鑰來連線至您的Snowflake帳戶。 如需詳細資訊，請參閱 [Snowflake檔案中的金鑰組驗證和金鑰組輪換頁面](https://docs.snowflake.com/en/user-guide/key-pair-auth). |
+1. 複製 [!UICONTROL **公開金鑰**] 欄位至您的剪貼簿。 公開金鑰由Adobe提供。
+
+   在Snowflake中使用公開金鑰來連線至您的Snowflake帳戶。 您必須將您建立的使用者與此公開金鑰建立關聯。
+
+   例如，在Snowflake中，指定下列指令：
+
+   ```
+   CREATE USER <your_adobe_user> RSA_PUBLIC_KEY = '<your_public_key>';
+   ```
+
+   如需詳細資訊，請參閱 [Snowflake檔案中的金鑰組驗證和金鑰組輪換頁面](https://docs.snowflake.com/en/user-guide/key-pair-auth).
 
 1. 選取 [!UICONTROL **確定**].
 
