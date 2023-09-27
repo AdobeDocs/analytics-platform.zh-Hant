@@ -5,10 +5,10 @@ title: 設定雲端匯出位置
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
+source-git-commit: 2da2b4b2931f28dc373a2c634c38e9dfcbdd2788
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 5%
+source-wordcount: '1417'
+ht-degree: 4%
 
 ---
 
@@ -20,10 +20,12 @@ ht-degree: 5%
 
 如需有關如何管理現有位置（包括檢視、編輯和刪除位置）的資訊，請參閱 [管理雲端匯出位置和帳戶](/help/components/exports/manage-export-locations.md).
 
-若要設定雲端匯出位置：
+## 開始建立雲端匯出位置
 
 1. 您必須先新增帳戶，才能新增位置。 如果您尚未新增帳戶，請依照所述新增帳戶 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md).
+
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
+
 1. 選取 [!UICONTROL **位置**] 索引標籤，然後選取 [!UICONTROL **新增位置**].
 
    ![新增位置按鈕](assets/location-add.png)
@@ -40,11 +42,17 @@ ht-degree: 5%
 
 1. 在 [!UICONTROL **位置屬性**] 區段，指定您位置帳戶之帳戶型別的專屬資訊。
 
-   如需設定指示，請展開以下與您在所選帳戶型別對應的區段 [!UICONTROL **位置帳戶**] 欄位。
+   繼續以下對應至您在所選帳戶型別的區段 [!UICONTROL **位置帳戶**] 欄位。
 
-   +++Adobe Experience Platform資料登陸區域
+### Adobe Experience Platform Data Landing Zone
 
-   指定下列資訊以設定Adobe Experience Platform資料登陸區域位置：
+>[!IMPORTANT]
+>
+>將Customer Journey Analytics報表匯出至Adobe Experience Platform資料登陸區域時，請務必在7天內下載資料，然後從AEP資料登陸區域將其刪除。 7天後，資料會自動從AEP資料登陸區域刪除。
+
+1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+
+1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Adobe Experience Platform資料登陸區域的位置：
 
    <!-- still need to update; can't create AEP account -->
 
@@ -53,11 +61,17 @@ ht-degree: 5%
    | [!UICONTROL **IMS 組織 ID**] | IMS組織ID由Adobe提供。 按一下旁邊的「複製」圖示 [!UICONTROL **IMS組織ID**] 欄位以複製欄位內容，然後在您的Adobe Experience Platform帳戶中使用ID。 |
    | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
 
-+++
+   {style="table-layout:auto"}
 
-   +++Amazon S3 Role ARN
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-   指定下列資訊以設定Amazon S3角色ARN位置：
+1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱 [將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md).
+
+### Amazon S3 Role ARN
+
+1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+
+1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Amazon S3角色ARN位置：
 
    <!-- still need to update; can't create S3 role ARN account -->
 
@@ -68,11 +82,15 @@ ht-degree: 5%
 
    {style="table-layout:auto"}
 
-+++
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-   +++Google Cloud Platform
+1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱 [將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md).
 
-   指定下列資訊來設定Google Cloud平台位置：
+### Google Cloud Platform
+
+1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+
+1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Google Cloud平台位置：
 
    <!-- still need to update; can't create GCP account -->
 
@@ -83,11 +101,15 @@ ht-degree: 5%
 
    {style="table-layout:auto"}
 
-+++
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-   +++Azure SAS
+1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱 [將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md).
 
-   指定下列資訊以設定Azure SAS位置：
+### Azure SAS
+
+1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+
+1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Azure SAS位置：
 
    | 欄位 | 功能 |
    |---------|----------|
@@ -96,11 +118,15 @@ ht-degree: 5%
 
    {style="table-layout:auto"}
 
-+++
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-   +++Azure RBAC
+1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱 [將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md).
 
-   指定下列資訊以設定Azure RBAC位置：
+### Azure RBAC
+
+1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+
+1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Azure RBAC位置：
 
    | 欄位 | 功能 |
    |---------|----------|
@@ -110,11 +136,15 @@ ht-degree: 5%
 
    {style="table-layout:auto"}
 
-+++
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-   +++Snowflake
+1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱 [將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md).
 
-   指定下列資訊以設定Snowflake位置：
+### Snowflake
+
+1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+
+1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Snowflake位置：
 
    | 欄位 | 功能 |
    |---------|----------|
@@ -124,8 +154,6 @@ ht-degree: 5%
    | [!UICONTROL **階段路徑**] | 資料檔以Snowflake儲存所在位置的路徑。 <p>如需詳細資訊，請參閱 [在Snowflake檔案中選擇「本機檔案的內部階段」頁面](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
-
-+++
 
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
