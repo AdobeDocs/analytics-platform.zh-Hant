@@ -5,9 +5,9 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: ba59267dc39f1e564e555e0d5183613f9171403f
+source-git-commit: b984241de42b2db2992e18c17cd60ca14cc725c7
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1853'
 ht-degree: 4%
 
 ---
@@ -18,11 +18,35 @@ ht-degree: 4%
 
 您也可以使用其他匯出Customer Journey Analytics報表的方法，如中所述 [匯出概觀](/help/analysis-workspace/export/export-project-overview.md).
 
+## 瞭解完整的表格匯出
+
+您可以將完整表格從Analysis Workspace匯出至Google、Azure、Amazon和Adobe等雲端提供者。
+
+[將完整表格匯出至雲端的優勢](#advantages-of-exporting-to-the-cloud) 能夠匯出數百萬列、包含計算量度、以串連值輸出結構資料等。
+
+匯出完整表格時，請考量下列事項：
+
+* 在匯出至雲端之前，請確認您的表格、環境和許可權符合 [匯出需求](#export-requirements).
+
+* 部分 [功能](#unsupported-features) 和 [元件](#unsupported-components) 不支援將完整的表格匯出到雲端時。
+
+將完整的表格匯出至雲端時，請使用下列程式：
+
+1. [設定雲端帳戶](/help/components/exports/cloud-export-accounts.md)
+
+1. [在帳戶上設定位置](/help/components/exports/cloud-export-locations.md)
+
+1. [從工作區匯出完整表格](#export-full-tables-from-analysis-workspace)
+
+1. [存取雲端中的資料](#view-exported-data-and-manifest-file) 和 [在Adobe中管理匯出](/help/components/exports/manage-exports.md)
+
+![完整表格匯出程式](assets/export-full-table-process.png)
+
 ## 從Analysis Workspace匯出完整表格
 
 >[!NOTE]
 >
->在依本節所述匯出資料之前，請確定 [匯出需求](#export-requirements) 符合。
+>在依本節所述匯出資料之前，請先瞭解下列檔案中的完整表格匯出資訊： [瞭解完整的表格匯出](#understand-full-table-export) 一節。
 
 若要從Analysis Workspace匯出完整表格：
 
@@ -58,6 +82,38 @@ ht-degree: 4%
    資料會以您指定的頻率傳送至您指定的雲端帳戶。
 
 1. （選擇性）建立匯出後，無論您選擇現在傳送或依定義的排程傳送，都可以在以下位置檢視及管理匯出： [匯出頁面](/help/components/exports/manage-exports.md) 並在以下位置檢視： [匯出記錄檔](/help/components/exports/manage-export-logs.md).</p>
+
+## 管理匯出
+
+從Analysis Workspace匯出資料後，您可以編輯、重新匯出、複製、標籤或刪除現有的匯出專案，如所述 [管理匯出](/help/components/exports/manage-exports.md).
+
+## 檢視匯出的資料和資訊清單檔案
+
+### 匯出的資料
+
+匯出的資料可在您設定的雲端目的地以壓縮檔案形式使用，如所述 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md) 和 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
+
+視您選擇CSV或JSON作為檔案格式而定，壓縮檔案的檔案名稱如下：
+
+* `cja-export-{reportInstanceId}-{idx}.csv.gz`
+
+* `cja-export-{reportInstanceId}-{idx}.json.gz`
+
+>[!NOTE]
+>
+>您可在以下位置選擇檔案格式： [!UICONTROL **檔案格式**] 欄位匯出表格時，如中所述 [從Analysis Workspace匯出完整表格](#export-full-tables-from-analysis-workspace).
+
+### 資訊清單檔案
+
+檔案名稱為的資訊清單檔案 `cja-export-{reportInstanceId}-{idx}.json.gz` 任何至少包含一個檔案的成功匯出傳遞都會包含。 資訊清單檔案可讓您確認所有檔案已成功傳遞。 其包含下列資訊：
+
+* 所有已傳送檔案的清單
+
+* 每個檔案的大小
+
+* 每個檔案的時間戳記
+
+<!-- add in  what the file name, structure, and file format will be -->
 
 ## 匯出至雲端的優勢
 
@@ -141,38 +197,6 @@ ht-degree: 4%
   >[!NOTE]
   >
   >只有在將資料匯出至雲端時，才支援多維度報表，如本文所述。
-
-## 管理匯出
-
-從Analysis Workspace匯出資料後，您可以編輯、重新匯出、複製、標籤或刪除現有的匯出專案，如所述 [管理匯出](/help/components/exports/manage-exports.md).
-
-## 檢視匯出的資料和資訊清單檔案
-
-### 匯出的資料
-
-匯出的資料可在您設定的雲端目的地以壓縮檔案形式使用，如所述 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md) 和 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
-
-視您選擇CSV或JSON作為檔案格式而定，壓縮檔案的檔案名稱如下：
-
-* `cja-export-{reportInstanceId}-{idx}.csv.gz`
-
-* `cja-export-{reportInstanceId}-{idx}.json.gz`
-
->[!NOTE]
->
->您可在以下位置選擇檔案格式： [!UICONTROL **檔案格式**] 欄位匯出表格時，如中所述 [從Analysis Workspace匯出完整表格](#export-full-tables-from-analysis-workspace).
-
-### 資訊清單檔案
-
-檔案名稱為的資訊清單檔案 `cja-export-{reportInstanceId}-{idx}.json.gz` 任何至少包含一個檔案的成功匯出傳遞都會包含。 資訊清單檔案可讓您確認所有檔案已成功傳遞。 其包含下列資訊：
-
-* 所有已傳送檔案的清單
-
-* 每個檔案的大小
-
-* 每個檔案的時間戳記
-
-<!-- add in  what the file name, structure, and file format will be -->
 
 ## 完整表格匯出(在Customer Journey Analytics中)與Data Warehouse(在Adobe Analytics中)的比較
 
