@@ -4,9 +4,9 @@ title: 快速篩選
 feature: Workspace Basics
 role: User, Admin
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
+source-git-commit: 3d55105a7d4f4687ed0fc6d857c906eec707f6a6
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1168'
 ht-degree: 37%
 
 ---
@@ -61,7 +61,7 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
    | 加 (+) 號 | 新增另一個規則 |
    | AND/OR 限定詞 | 您可以對規則加入「AND」或「OR」的限定詞，但不能在單一篩選定義中混合使用「AND」和「OR」。 |
    | [!UICONTROL 套用] | 將此篩選套用在面板上。如果篩選不包含任何資料，系統會詢問您是否要繼續。 |
-   | [!UICONTROL 開啟產生器] | 開啟篩選產生器。在篩選產生器中儲存或套用篩選後，將無法再考慮「快速篩選」。 它會成為元件清單篩選資料庫的一部分。 <p>若要讓元件可在您的所有專案中及左側邊欄中使用，請選取選項 [!UICONTROL **將此篩選器設為可用於所有專案，並將其新增至您的元件清單**].</p><p>如需詳細資訊，請參閱區段 [將快速篩選儲存為元件清單篩選](#save-a-quick-filter-as-a-component-list-filter) 本文章內容。</p><p>**注意：** 僅限在中具有篩選器建立許可權的使用者 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) 可以開啟「篩選產生器」。</p> |
+   | [!UICONTROL 開啟產生器] | 開啟篩選產生器。在篩選產生器中儲存或套用篩選後，將無法再考慮「快速篩選」。 它會成為元件清單篩選資料庫的一部分。 <p>若要讓元件可在您的所有專案中及左側邊欄中使用，請選取選項 [!UICONTROL **將此篩選器設為可用於所有專案，並將其新增至您的元件清單**].</p><p>如需詳細資訊，請參閱區段 [將快速篩選儲存為元件清單篩選](#save-a-quick-filter-as-a-component-list-filter) 本文章內容。</p><p>**注意：** 僅限在中具有區段建立許可權的使用者。 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant) 可以開啟「篩選產生器」。</p> |
    | [!UICONTROL 取消] | 取消此快速篩選（不要套用它）。 |
    | [!UICONTROL 日期範圍] | 驗證器使用面板日期範圍進行資料查詢。但是在快速篩選中套用的任何日期範圍都會覆寫面板頂端的面板日期範圍。 |
    | 預覽 (右上角) | 讓您查看是否有有效的篩選以及篩選的範圍。代表您套用此篩選器時可預期看到的資料集劃分。 您可能會收到一則通知，指出此篩選器沒有資料。這種情況下，您可繼續或變更篩選器定義。 |
@@ -83,7 +83,7 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
 >
 > 儲存快速篩選時，請考量下列事項：
 > 
-> * 若要儲存快速篩選，您需要 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools).
+> * 若要儲存快速篩選，您需要 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant).
 > 
 > * 儲存或套用篩選後，無法在快速篩選產生器中對其進行編輯。 您必須改用一般篩選產生器。
 
