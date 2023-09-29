@@ -5,9 +5,9 @@ title: 設定雲端匯出位置
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 2da2b4b2931f28dc373a2c634c38e9dfcbdd2788
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1415'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 4%
 
    繼續以下對應至您在所選帳戶型別的區段 [!UICONTROL **位置帳戶**] 欄位。
 
-### Adobe Experience Platform Data Landing Zone
+### AEP資料登陸區域
 
 >[!IMPORTANT]
 >

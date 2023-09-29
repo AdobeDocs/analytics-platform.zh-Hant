@@ -5,9 +5,9 @@ title: 設定雲端匯出帳戶
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: faae0b53b3df04794d1c57ffc20f46c1e442c2ba
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1600'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 5%
 
 1. 在 [!UICONTROL **位置帳戶說明**] 欄位，提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。
 
-1. 在 [!UICONTROL **帳戶型別**] 欄位中，選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake和Adobe Experience Platform Data Landing Zone。
+1. 在 [!UICONTROL **帳戶型別**] 欄位中，選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake和AEP資料登陸區域。
 
 1. 繼續下列對應至的區段 [!UICONTROL **帳戶型別**] 您已選取「 」。
 
@@ -50,7 +50,7 @@ ht-degree: 5%
 
    * [Snowflake](#snowflake)
 
-### Adobe Experience Platform Data Landing Zone
+### AEP資料登陸區域
 
 >[!IMPORTANT]
 >

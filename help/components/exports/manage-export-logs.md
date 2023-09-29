@@ -5,9 +5,9 @@ title: 管理匯出記錄檔
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '708'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
-1. 選取 [!UICONTROL **記錄**] 標籤。
+1. 選取 [!UICONTROL **記錄檔**] 標籤。
 
 1. 選取 **篩選** 圖示。
 
@@ -45,7 +45,7 @@ ht-degree: 6%
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
-1. 選取 [!UICONTROL **記錄**] 標籤。
+1. 選取 [!UICONTROL **記錄檔**] 標籤。
 
 1. 在搜尋索引標籤中，開始輸入與要搜尋的記錄檔相關聯的任何資訊。 您可以從表格中任何可用的欄搜尋資料。
 
@@ -69,25 +69,29 @@ This option is not available when selecting multiple logs. -->
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
-1. 選取 [!UICONTROL **記錄檔**] 標籤，然後選取記錄。
+1. 選取 [!UICONTROL **記錄檔**] 標籤。
 
-   <!-- add screenshot? -->
+1. 找到與您要編輯之匯出關聯的記錄。
 
-1. 選取 [!UICONTROL **編輯**].
+1. 選取 **編輯匯出** 圖示 ![匯出記錄圖示](assets/export-icon.png) ，位於記錄檔旁。
+
+   或
+
+   選取記錄，然後選取 [!UICONTROL **編輯匯出**].
 
 ## 設定欄
 
-您可以新增或移除頁面上的 [!UICONTROL 記錄] 索引標籤來設定要顯示的資訊。
+您可以新增或移除頁面上的 [!UICONTROL 記錄檔] 索引標籤來設定要顯示的資訊。
 
 選取欄標題，依該欄排序記錄。 依預設，記錄檔會依開始匯出的日期和時間排序。
 
-若要在 [!UICONTROL 記錄] 標籤：
+若要在 [!UICONTROL 記錄檔] 標籤：
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
-1. 選取 [!UICONTROL **記錄**] 標籤。
+1. 選取 [!UICONTROL **記錄檔**] 標籤。
 
-1. 選取 **自訂表格** 圖示 ![自訂表格](assets/customize-table-icon.png) 位於的右上方 [!UICONTROL 記錄] 頁面。
+1. 選取 **自訂表格** 圖示 ![自訂表格](assets/customize-table-icon.png) 位於的右上方 [!UICONTROL 記錄檔] 頁面。
 
    可使用下列欄:
 
@@ -108,7 +112,7 @@ This option is not available when selecting multiple logs. -->
 
    {style="table-layout:auto"}
 
-1. 確定已選取您要顯示的任何欄。 選取的欄會顯示在 [!UICONTROL 記錄] 頁面並顯示相關資訊。
+1. 確定已選取您要顯示的任何欄。 選取的欄會顯示在 [!UICONTROL 記錄檔] 頁面並顯示相關資訊。
 
 ## 檢視稽核記錄
 

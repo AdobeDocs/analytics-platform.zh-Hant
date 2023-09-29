@@ -5,9 +5,9 @@ title: 管理匯出
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: a95be4cf8e11b7b62f6777abe8884779cfebf482
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '968'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
 
    | 篩選器 | 說明 |
    |---------|----------|
-   | [!UICONTROL **帳戶類型**] | 與匯出相關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **Adobe Experience Platform Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
+   | [!UICONTROL **帳戶類型**] | 與匯出相關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
    | [!UICONTROL **狀態**] | 匯出的狀態。 可使用下列狀態： <ul><li>[!UICONTROL **作用中**]：指出排程的匯出尚未過期。 </li><li>[!UICONTROL **已完成**]：表示匯出已成功匯出。 對於排程的匯出，這表示排程已過期。</li><li>[!UICONTROL **已失敗**]<p>下列情況可能會導致匯出失敗。 將滑鼠懸停在失敗狀態上可檢視有關失敗的詳細資訊。 <ul><li>排程的匯出到期日</li><li>已達排程匯出的列數限制 </li></ul> </p></li></ul> |
    | [!UICONTROL **頻率**] | 匯出的頻率。 可使用下列頻率： <ul><li>[!UICONTROL **單次**]</li><li>[!UICONTROL **每日**]</li><li>[!UICONTROL **每週**]</li><li>[!UICONTROL **每月**]</li><li>[!UICONTROL **每年**]</li></ul> |
 
@@ -120,6 +120,8 @@ ht-degree: 6%
 
 您可以新增或移除頁面上的 [!UICONTROL 匯出] 索引標籤來設定要顯示的資訊。
 
+選取欄標題，依該欄排序匯出。 依預設，匯出會依上次修改匯出的日期和時間排序。
+
 1. 選取 **自訂表格** 圖示 ![自訂表格](assets/customize-table-icon.png) 位於的右上方 [!UICONTROL 匯出] 頁面。
 
    可使用下列欄:
@@ -139,7 +141,7 @@ ht-degree: 6%
    | 頻率 | 傳送匯出的頻率。 可用的選項包括 [!UICONTROL 一次]， [!UICONTROL 每日]， [!UICONTROL 每週]， [!UICONTROL 按一週的第幾天，每月一次]， [!UICONTROL 每月按日期]， [!UICONTROL 每年按日期]、和 [!UICONTROL 每年依特定日期]. |
    | 傳送時間 | 傳送匯出的時間。 |
    | 最後傳送 | 上次傳送匯出的時間。 |
-   | 上次修改日期 | 上次修改匯出的時間。 |
+   | 上次修改日期 | 上次修改匯出的時間。 依預設，「匯出」頁面上的專案會依此欄排序。 |
    | 帳戶類型 | 匯出資料所在的雲端帳戶型別。 可用的帳戶型別包括 [!UICONTROL Amazon S3角色ARN]， [!UICONTROL Google Cloud平台]， [!UICONTROL Azure SAS]， [!UICONTROL Azure RBAC]， [!UICONTROL Snowflake]、和 [!UICONTROL Adobe Experience Platform]. |
    | 標記 | 顯示套用至匯出的任何標籤。 如需如何將標籤套用至匯出的詳細資訊，請參閱 [標籤匯出](#tag-an-export). |
 

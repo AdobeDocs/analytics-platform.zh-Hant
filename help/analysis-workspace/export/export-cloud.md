@@ -5,10 +5,10 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: b984241de42b2db2992e18c17cd60ca14cc725c7
+source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
 workflow-type: tm+mt
-source-wordcount: '1853'
-ht-degree: 4%
+source-wordcount: '1928'
+ht-degree: 3%
 
 ---
 
@@ -66,7 +66,8 @@ ht-degree: 4%
    | 標記 | 您可以將現有標籤套用至匯出，也可以建立新標籤並套用它。 <p>若要將現有標籤套用至匯出，請從下拉式選單中選取任何標籤。 您公司中的任何標籤皆可套用<!-- double-check this -->.</p> <p>若要建立新標籤，請輸入新標籤的名稱，然後按Enter鍵。</p><p>將標籤套用至匯出時，請考量下列事項： <ul><li>您套用的標籤可在匯出表格中篩選或搜尋。</li> <li>匯出完整表格時，套用至專案的標籤不會自動套用，如以下的「在匯出頁面上設定欄」中所述： [管理匯出](/help/components/exports/manage-exports.md). (或者，當 [排程完整專案以供匯出](/help/analysis-workspace/export/t-schedule-report.md)，套用至專案的任何標籤都會自動套用至匯出。)  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
    | 說明 | 新增說明至匯出。 您可以選擇將說明檢視為 [匯出頁面](/help/components/exports/manage-exports.md) 檢視匯出時。 |
    | 資料檢視 | 選取包含要納入匯出之元件的資料檢視。 資料檢視下拉式功能表位於對話方塊的左上角，可由資料檢檢視示識別![資料檢檢視示](assets/data-view-icon.png).  <p>**注意：** 如果您選擇的資料檢視缺少已包含在資料表格中的元件，則會提示您清除資料表格並使用包含在所選資料檢視中的元件重新建立資料表格。 </p> |
-   | 回顧視窗 | 選取要包含在每個匯出檔案中的報表時間範圍。 選項包括 [!UICONTROL **今天**]， [!UICONTROL **昨天**]， [!UICONTROL **過去7天**]， [!UICONTROL **過去30天**]， [!UICONTROL **本週**]、和 [!UICONTROL **本月**]. |
+   | 回顧視窗 | 選取要包含在每個匯出檔案中的報表時間範圍。 選項包括 [!UICONTROL **今天**]， [!UICONTROL **昨天**]， [!UICONTROL **過去7天**]， [!UICONTROL **過去30天**]， [!UICONTROL **本週**]、和 [!UICONTROL **本月**]. <p>此選項不會在 [!UICONTROL **匯出頻率**] 設為 [!UICONTROL **立即傳送（一次性）**]. |
+   | 資料表 | 顯示您正在匯出的自由表格。 您可以從左側邊欄將元件拖曳至表格來修改資料表格。 表格會在您新增元件至畫布時動態更新。  <p>套用至專案中完整表格的任何區段都會顯示在表格中每個個別欄的頂端。</p> |
    | 清除 | 清除資料表的內容。 這可讓您直接在「新增完整表格」匯出對話方塊中開始建立新表格。 |
    | 匯出頻率 | 設定匯出發生的頻率排程。 <p>您可以選擇 [!UICONTROL **立即傳送（一次）**] 僅傳送一次匯出。 選取此選項時，會立即起始匯出。<p>或者，您可以選擇按照定義的排程傳送匯出。 依排程傳送時，選項包括 [!UICONTROL **每日**]， [!UICONTROL **每週**]， [!UICONTROL **按一週的第幾天，每月一次**]， [!UICONTROL **每月按日期**]， [!UICONTROL **每年按日期**]、和 [!UICONTROL **每年依特定日期**]. </p><p>選取匯出頻率時，請考量下列事項：</p><ul><li>中的選項 [!UICONTROL **回顧期間**] 欄位會依您在此選取的專案而變更。<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>系統會根據您選擇的選項，顯示其他設定欄位。</li></ul> |
    | 開始於 | 排程匯出應該開始的日期和時間。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
