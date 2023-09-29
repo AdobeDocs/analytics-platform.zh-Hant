@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: dab672e07ddf834701279e108ad2daab1ad94efa
 workflow-type: tm+mt
 source-wordcount: '1023'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
