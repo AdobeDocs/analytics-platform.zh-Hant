@@ -5,9 +5,10 @@ title: 設定雲端匯出位置
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1376'
 ht-degree: 4%
 
 ---
@@ -58,8 +59,7 @@ ht-degree: 4%
 
    | 欄位 | 功能 |
    |---------|----------|
-   | [!UICONTROL **IMS 組織 ID**] | IMS組織ID由Adobe提供。 按一下旁邊的「複製」圖示 [!UICONTROL **IMS組織ID**] 欄位以複製欄位內容，然後在您的Adobe Experience Platform帳戶中使用ID。 |
-   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
+   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -78,7 +78,7 @@ ht-degree: 4%
    | 欄位 | 功能 |
    |---------|----------|
    | [!UICONTROL **分段**] | 您想要將Adobe Analytics資料傳送至的Amazon S3帳戶中的貯體。 確保Adobe提供的使用者ARN有權將檔案上傳到此貯體。 |
-   | [!UICONTROL **前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， folder_name/ |
+   | [!UICONTROL **前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -97,7 +97,7 @@ ht-degree: 4%
    | 欄位 | 功能 |
    |---------|----------|
    | [!UICONTROL **分段**] | 您想要傳送Customer Journey Analytics資料的GCP帳戶中的貯體。 確保您已授予Adobe所提供之主體的許可權，可將檔案上傳至此儲存貯體。 (本金提供於 [設定Google Cloud Platform帳戶](/help/components/exports/cloud-export-accounts.md).) 如需授與許可權的詳細資訊，請參閱 [將主體新增至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) (位於Google Cloud檔案中)。 |
-   | [!UICONTROL **前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， folder_name/ |
+   | [!UICONTROL **前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -114,7 +114,7 @@ ht-degree: 4%
    | 欄位 | 功能 |
    |---------|----------|
    | [!UICONTROL **容器名稱**] | 您指定要將Customer Journey Analytics資料傳送到的帳戶中的容器。 |
-   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
+   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -131,7 +131,7 @@ ht-degree: 4%
    | 欄位 | 功能 |
    |---------|----------|
    | [!UICONTROL **容器**] | 您指定要將Adobe Analytics資料傳送至何處的帳戶中的容器。 請確定您授與許可權，可以將檔案上傳至您先前建立的Azure應用程式。 |
-   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
+   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/` |
    | [!UICONTROL **帳戶**] | Azure儲存體帳戶。 |
 
    {style="table-layout:auto"}

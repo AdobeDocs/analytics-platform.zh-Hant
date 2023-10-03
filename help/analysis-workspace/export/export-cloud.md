@@ -5,10 +5,11 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1928'
-ht-degree: 3%
+source-wordcount: '1924'
+ht-degree: 4%
 
 ---
 
@@ -110,9 +111,7 @@ ht-degree: 3%
 
 * 所有已傳送檔案的清單
 
-* 每個檔案的大小
-
-* 每個檔案的時間戳記
+* 每個檔案的MD5檢查值
 
 <!-- add in  what the file name, structure, and file format will be -->
 
@@ -126,7 +125,7 @@ ht-degree: 3%
 
   這類資料可用於偵測長期趨勢，以獲得商業智慧，最終做出更好的商業決策。
 
-* 匯出包含數千或數百萬列的完整表格（3百萬、3千萬或1.5億列，視授權型別而定）。 其他匯出方法最多允許50,000列。
+* 匯出包含數千或數百萬列的完整表格（3百萬、3千萬、1.5億或3億列，視授權型別而定）。 其他匯出方法最多允許50,000列。
 
 * 在匯出的Customer Journey Analytics資料中包含計算量度。
 

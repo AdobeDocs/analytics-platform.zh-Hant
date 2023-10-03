@@ -5,9 +5,10 @@ title: 設定雲端匯出帳戶
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1543'
 ht-degree: 5%
 
 ---
@@ -58,21 +59,13 @@ ht-degree: 5%
 
 1. [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)，如上所述。
 
-1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，會顯示下列資訊：
-
-   | 欄位 | 功能 |
-   |---------|----------|
-   | [!UICONTROL **IMS 組織 ID**] | IMS組織ID由Adobe提供。 一般不需要此資訊。 如果您遇到帳戶問題並需要聯絡客戶服務，此功能會很有用。 |
-
-   {style="table-layout:auto"}
-
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
    此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
 
    <!-- add screen shot -->
 
-1. 複製 [!UICONTROL **SAS**] 欄位至您的剪貼簿。 使用此SAS權杖來存取從Analysis Workspace從AEP登陸區域匯出的資料。 了解如何存取您的資料&quot; |
+1. 複製 [!UICONTROL **SAS**] 欄位至您的剪貼簿。 使用此SAS權杖來存取從Analysis Workspace從AEP登陸區域匯出的資料。
 
 1. 選取 [!UICONTROL **確定**].
 
@@ -215,6 +208,3 @@ ht-degree: 5%
 1. 選取 [!UICONTROL **確定**].
 
 1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
-
-
-
