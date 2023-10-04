@@ -3,10 +3,10 @@ description: 計算量度管理員提供許多管理量度的方式，例如共�
 title: 計算量度管理員
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: ba8aa82454e51218f667d0358c7e88934fa7aad9
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 14%
+source-wordcount: '634'
+ht-degree: 19%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 14%
    | 標記 | 顯示套用至量度的標籤（由您自己或與您共用計算量度的人員套用）。 |
    | 共用對象 | 列出您共用計算量度的個人或群組（僅限管理員）或「全部」（僅限管理員）。 <p>共用計算量度時，計算量度名稱旁會顯示共用圖示。</p> |
    | 修改日期 | 表示上次修改自訂量度的日期。 |
-   | 使用位置 | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).<p>顯示計算量度目前使用中的元件數量。 <p>例如，如果計算量度用於40個專案和2個警報，則此欄的值顯示為 [!UICONTROL **42個元件**].</p> <p>選取此欄中的值，可檢視使用計算量度的明細(例如 [!UICONTROL **專案(40)**]， [!UICONTROL **警報(2)**])。</p><p>計算量度可用於下列任何元件型別：</p> <ul><li>專案</li><li>已排程的專案</li></ul><p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。</p><p>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</p><p>您可以使用 [資料字典](/help/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。</p><p>此 [!UICONTROL **使用位置**] 預設不會顯示欄。 [設定欄](#configure-columns) 以顯示。</p> |
-   | 上次使用 | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).<p>顯示計算度量最後用於下列任何元件型別的日期：</p> <ul><li>計算量度</li><li>專案</li><li>已排程的專案</li></ul> <p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值，或是否應將其刪除。</p><p>此資訊不包括來自API或Report Builder的使用情況。</p><p>您可以使用 [資料字典](/help/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。 |
+   | 使用於 | 顯示計算量度目前使用中的元件數量。 <p>例如，如果計算量度用於40個專案和2個警報，則此欄的值顯示為 [!UICONTROL **42個元件**].</p> <p>選取此欄中的值，可檢視使用計算量度的明細(例如 [!UICONTROL **專案(40)**]， [!UICONTROL **警報(2)**])。</p><p>計算量度可用於下列任何元件型別：</p> <ul><li>專案</li><li>已排程的專案</li></ul><p>此資訊可協助您判斷某個元件對組織中的使用者是否有價值、其使用之處，以及是否需要刪除或修改。</p><p>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</p><p>您可以使用 [資料字典](/help/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。</p><p>此 [!UICONTROL **使用位置**] 預設不會顯示欄。 [設定欄](#configure-columns) 以顯示。</p> |
+   | 上次使用 | 顯示計算度量最後用於下列任何元件型別的日期： <ul><li>計算量度</li><li>專案</li><li>已排程的專案</li></ul> <p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值，或是否應將其刪除。</p><p>此資訊不包括來自API或Report Builder的使用情況。</p><p>您可以使用 [資料字典](/help/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。 |
 
    {style="table-layout:auto"}

@@ -3,10 +3,8 @@ description: 設定可傳送Customer Journey Analytics資料的雲端匯出帳�
 keywords: Analysis Workspace
 title: 設定雲端匯出帳戶
 feature: Components
-hide: true
-hidefromtoc: true
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 5%
@@ -14,6 +12,8 @@ ht-degree: 5%
 ---
 
 # 設定雲端匯出帳戶
+
+{{release-limited-testing}}
 
 在您可以將Customer Journey Analytics報表匯出至雲端目的地之前（如所述） [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)，您需要新增並設定要傳送資料的目的地。
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 
    <!-- add screen shot -->
 
-1. 複製 [!UICONTROL **SAS**] 欄位至您的剪貼簿。 使用此SAS權杖來存取從Analysis Workspace從AEP登陸區域匯出的資料。
+1. 複製 [!UICONTROL **SAS**] 欄位至您的剪貼簿。 使用此SAS URI可存取從Analysis Workspace從AEP登陸區域匯出的資料。
 
 1. 選取 [!UICONTROL **確定**].
 

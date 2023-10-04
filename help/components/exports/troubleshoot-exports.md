@@ -3,9 +3,8 @@ description: 管理現有匯出的記錄
 keywords: Analysis Workspace
 title: 疑難排解失敗的匯出
 feature: Components
-hide: true
-hidefromtoc: true
-source-git-commit: eb7ba8dd7809164bdcddb0d484754376d5b7ca9e
+exl-id: fbc25150-4390-40a2-9f17-aadf254258ad
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 8%
@@ -13,6 +12,8 @@ ht-degree: 8%
 ---
 
 # 疑難排解失敗的匯出
+
+{{release-limited-testing}}
 
 當您 [將完整表格從Analysis Workspace匯出至雲端目的地](/help/analysis-workspace/export/export-cloud.md)，您可從以下位置檢視這些匯出的狀態： [匯出索引標籤](/help/components/exports/manage-exports.md) 和從 [記錄檔索引標籤](/help/components/exports/manage-export-logs.md). 失敗的匯出會顯示狀態 [!UICONTROL **已失敗**].
 

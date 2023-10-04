@@ -3,9 +3,8 @@ description: 管理現有匯出的記錄
 keywords: Analysis Workspace
 title: 管理匯出記錄檔
 feature: Components
-hide: true
-hidefromtoc: true
-source-git-commit: 3d4017ba36ac4b0c9ccb10a3e3127c6ea386fb1e
+exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 6%
@@ -13,6 +12,8 @@ ht-degree: 6%
 ---
 
 # 管理匯出記錄檔
+
+{{release-limited-testing}}
 
 匯出記錄檔會提供每次匯出的詳細資訊，並在每次Analysis Workspace資料匯出至雲端時產生。 (如需有關如何將資料匯出至雲端的資訊，請參閱 [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md).)
 

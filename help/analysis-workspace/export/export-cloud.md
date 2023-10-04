@@ -3,10 +3,8 @@ description: 將Analysis Workspace專案匯出至雲端位置。
 keywords: Analysis Workspace
 title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
-hide: true
-hidefromtoc: true
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 4%
@@ -14,6 +12,8 @@ ht-degree: 4%
 ---
 
 # 將Customer Journey Analytics報表匯出至雲端
+
+{{release-limited-testing}}
 
 您可以從Customer Journey Analytics匯出工作區完整的表格，並將匯出內容傳送到指定的雲端目的地。
 

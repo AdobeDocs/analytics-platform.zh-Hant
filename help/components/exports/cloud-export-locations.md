@@ -3,10 +3,8 @@ description: 設定可傳送Customer Journey Analytics資料的雲端匯出位�
 keywords: Analysis Workspace
 title: 設定雲端匯出位置
 feature: Components
-hide: true
-hidefromtoc: true
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
+source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 4%
@@ -14,6 +12,8 @@ ht-degree: 4%
 ---
 
 # 設定雲端匯出位置
+
+{{release-limited-testing}}
 
 在您可以將Customer Journey Analytics報表匯出至雲端目的地之前（如所述） [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)，您需要新增並設定傳送資料的位置。
 
