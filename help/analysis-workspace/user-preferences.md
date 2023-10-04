@@ -4,10 +4,10 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 322f5a10b928a9bf679954aa1fe6415340ec675b
+source-git-commit: ed2de7ead2724a870fcd6ce1d32eb9b05e5f0576
 workflow-type: tm+mt
-source-wordcount: '3192'
-ht-degree: 85%
+source-wordcount: '3218'
+ht-degree: 84%
 
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 85%
 | **[列](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 依位置劃分 | 如果您希望劃分保留在項目的位置，而非項目本身，請選取此選項。如需劃分的詳細資訊，請參閱[劃分維度](/help/components/dimensions/t-breakdown-fa.md)。 |
 | | 百分比計算 | <ul><li>欄</li><li>列</li></ul> |
+| | 欄總計（僅限靜態列） | <ul><li>顯示列的總和：顯示個別條列專案的總和 </li><li>顯示總量：顯示已去除重複資料列的加總。</li></ul> |
 
 ## 視覺效果偏好設定
 
