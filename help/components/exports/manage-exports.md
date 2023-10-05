@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 管理匯出
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 2c9dfdf36e47b9467077310a31dc2c6258137d35
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1029'
 ht-degree: 5%
 
 ---
@@ -62,6 +62,10 @@ ht-degree: 5%
    選取多個匯出專案時，此選項無法使用。
 
 1. 選取 [!UICONTROL **編輯**].
+
+   此 [!UICONTROL **匯出完整表格**] 對話方塊隨即顯示。
+
+1. 更新任何可用選項。 如需各個選項的相關資訊，請參閱 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) 在 [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md).
 
 ## 複製匯出
 

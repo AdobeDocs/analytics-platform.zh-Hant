@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 管理匯出記錄檔
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 708367159d00935bb77043e551dc915f79dd2584
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '728'
 ht-degree: 6%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 6%
    |---------|----------|
    | [!UICONTROL **匯出 ID**] | 指定您要檢視之匯出日誌的匯出ID。 |
    | [!UICONTROL **帳戶類型**] | 與記錄關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
-   | [!UICONTROL **狀態**] | 匯出的狀態。 可使用下列狀態： <ul><li>[!UICONTROL **擱置中**]：匯出的特定執行個體已開始，但尚未完成。<p>重新執行狀態為「擱置中」的匯出作業將會延遲匯出程式。</p></li><li>[!UICONTROL **完成**]：匯出的特定執行個體已完成處理，並可在匯出帳戶中使用。</li><li>[!UICONTROL **已失敗**]<p>下列情況可能會導致匯出失敗。 將滑鼠懸停在失敗狀態上可檢視有關失敗的詳細資訊。 <ul><li>排程的匯出到期日</li><li>已達排程匯出的列數限制 </li></ul> </p></li></ul> |
+   | [!UICONTROL **狀態**] | 匯出的狀態。 可使用下列狀態： <ul><li>[!UICONTROL **擱置中**]：匯出的特定執行個體已開始，但尚未完成。<p>重新執行狀態為「擱置中」的匯出作業將會延遲匯出程式。</p></li><li>[!UICONTROL **完成**]：匯出的特定執行個體已完成處理，並可在匯出帳戶中使用。</li><li>[!UICONTROL **已失敗**]<p>各種情況都可能導致匯出失敗。 將滑鼠懸停在失敗狀態上可檢視有關失敗的詳細資訊。<p>如需失敗可能原因的詳細資訊，請參閱 [疑難排解失敗的匯出](/help/components/exports/troubleshoot-exports.md).</p> |
 
    {style="table-layout:auto"}
 
