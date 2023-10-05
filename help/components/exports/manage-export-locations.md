@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 管理雲端匯出位置和帳戶
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 5%
+source-wordcount: '467'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 5%
 
    | 篩選器 | 說明 |
    |---------|----------|
-   | [!UICONTROL **位置類型**]<!--should this be changed to Account type?--> | 與位置關聯的帳戶型別。 可使用下列帳戶型別： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **位置類型**]<!--should this be changed to Account type?--> | 與位置關聯的帳戶型別。 可使用下列帳戶型別： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **帳戶**] | 與位置關聯的帳戶名稱。 |
    | [!UICONTROL **建立者**] | 建立位置之使用者的電子郵件地址。 |
 
@@ -49,7 +49,7 @@ ht-degree: 5%
 
 1. 選取 [!UICONTROL **位置**] 標籤。
 
-1. 在搜尋索引標籤中，開始輸入與您要搜尋的位置相關聯的任何資訊。 您可以從表格中任何可用的欄搜尋資料。
+1. 在搜尋欄位中，開始輸入與您要搜尋的位置相關聯的任何資訊。 您可以從表格中任何可用的欄搜尋資料。
 
 ## 編輯位置
 
@@ -57,7 +57,7 @@ ht-degree: 5%
 
 1. 選取 [!UICONTROL **位置**] 標籤，然後選取要編輯的位置。
 
-   <!-- add screenshot? -->
+   ![編輯位置](assets/locations-edit.png)
 
 1. 選取 [!UICONTROL **編輯**].
 
@@ -77,7 +77,7 @@ ht-degree: 5%
 
 1. 選取 [!UICONTROL **位置**] 標籤，然後選取一或多個要刪除的位置。
 
-   <!-- add screenshot? -->
+   ![編輯位置](assets/locations-edit.png)
 
 1. 選取 [!UICONTROL **刪除**]，然後選取 [!UICONTROL **刪除**] 再次在確認對話方塊中。
 
@@ -92,6 +92,20 @@ ht-degree: 5%
 1. 選取 [!UICONTROL **檢視詳細資料**] 在您想要編輯的帳戶上。
 
 1. 進行任何需要的變更，然後選取「 」 [!UICONTROL **儲存**].
+
+## 檢視帳戶金鑰
+
+建立帳戶之後，您可以檢視該帳戶的任何關聯帳戶金鑰。 如果您沒有向雲端提供者完成設定帳戶，您可能需要檢視此資訊 [當您最初設定帳戶時](/help/components/exports/cloud-export-accounts.md).
+
+若要檢視與匯出帳戶相關聯的金鑰，請執行下列動作：
+
+1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
+
+1. 選取 [!UICONTROL **位置帳戶**] 標籤。
+
+   ![帳戶頁面](assets/account-page.png)
+
+1. 在您要編輯的帳戶上選取3點圖示，然後選取「 」 [!UICONTROL **帳戶金鑰**].
 
 ## 刪除帳戶
 

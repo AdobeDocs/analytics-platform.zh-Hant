@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 管理匯出
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 6%
+source-wordcount: '996'
+ht-degree: 5%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 6%
 
    | 篩選器 | 說明 |
    |---------|----------|
-   | [!UICONTROL **帳戶類型**] | 與匯出相關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
-   | [!UICONTROL **狀態**] | 匯出的狀態。 可使用下列狀態： <ul><li>[!UICONTROL **作用中**]：指出排程的匯出尚未過期。 </li><li>[!UICONTROL **已完成**]：表示匯出已成功匯出。 對於排程的匯出，這表示排程已過期。</li><li>[!UICONTROL **已失敗**]<p>下列情況可能會導致匯出失敗。 將滑鼠懸停在失敗狀態上可檢視有關失敗的詳細資訊。 <ul><li>排程的匯出到期日</li><li>已達排程匯出的列數限制 </li></ul> </p></li></ul> |
+   | [!UICONTROL **帳戶類型**] | 與匯出相關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
+   | [!UICONTROL **狀態**] | 匯出的狀態。 可使用下列狀態： <ul><li>[!UICONTROL **作用中**]：指出排程的匯出尚未過期，或一次性匯出尚未完成。 </li><li>[!UICONTROL **完成**]：表示匯出已成功匯出。 對於排程的匯出，這表示排程已過期。</li><li>[!UICONTROL **已失敗**]<p>下列情況可能會導致匯出失敗。 將游標暫留在 [!UICONTROL **已失敗**] 狀態，以檢視有關失敗的詳細資訊。 <ul><li>排程的匯出到期日</li><li>已達排程匯出的列數限制 </li></ul> </p></li></ul> |
    | [!UICONTROL **頻率**] | 匯出的頻率。 可使用下列頻率： <ul><li>[!UICONTROL **單次**]</li><li>[!UICONTROL **每日**]</li><li>[!UICONTROL **每週**]</li><li>[!UICONTROL **每月**]</li><li>[!UICONTROL **每年**]</li></ul> |
 
    {style="table-layout:auto"}
@@ -57,7 +57,7 @@ ht-degree: 6%
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
-1. 在 [!UICONTROL **匯出**] 索引標籤中，選取要編輯的匯出。
+1. 在 [!UICONTROL **匯出**] 索引標籤中，選取要編輯之匯出旁的核取方塊。
 
    選取多個匯出專案時，此選項無法使用。
 
@@ -69,7 +69,7 @@ ht-degree: 6%
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
-1. 在 [!UICONTROL **匯出**] 索引標籤中，選取要複製的匯出。
+1. 在 [!UICONTROL **匯出**] 索引標籤中，選取要複製的匯出旁的核取方塊。
 
    選取多個匯出專案時，此選項無法使用。
 
@@ -85,7 +85,7 @@ ht-degree: 6%
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
-1. 在 [!UICONTROL **匯出**] 索引標籤中，選取您要執行的匯出。
+1. 在 [!UICONTROL **匯出**] 索引標籤中，選取您要執行之匯出旁的核取方塊。
 
    選取多個匯出專案時，此選項無法使用。
 
@@ -97,11 +97,11 @@ ht-degree: 6%
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
-1. 在 [!UICONTROL **匯出**] 索引標籤中，選取一或多個要標籤的匯出。
+1. 在 [!UICONTROL **匯出**] 索引標籤中，選取一或多個要標籤的匯出專案旁的核取方塊。
 
-1. 選取 [!UICONTROL **標籤**].
+1. 選取 [!UICONTROL **編輯標籤**].
 
-1. 在「標籤匯出」對話方塊中，輸入標籤名稱以建立新標籤，或從下拉式選單中選擇現有標籤。
+1. 在 [!UICONTROL **標籤匯出**] 對話方塊中，輸入標簽名稱以建立新標籤，或從下拉式選單中選擇現有標籤。
 
    所選匯出專案之間的任何共同標籤都會顯示在標籤對話方塊中。 <!-- what happens if one export has a tag and another doesn't? Is the tag removed if you don't select it? I'm guessing not, but maybe check -->
 
@@ -113,7 +113,7 @@ ht-degree: 6%
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
-1. 在 [!UICONTROL **匯出**] 索引標籤中，選取一或多個您要刪除的匯出。
+1. 在 [!UICONTROL **匯出**] 索引標籤中，選取一或多個要刪除的匯出專案旁的核取方塊。
 
 1. 選取 [!UICONTROL **刪除**]，然後選取 [!UICONTROL **刪除**] 當您看到確認訊息時。
 
@@ -123,7 +123,9 @@ ht-degree: 6%
 
 選取欄標題，依該欄排序匯出。 依預設，匯出會依上次修改匯出的日期和時間排序。
 
-1. 選取 **自訂表格** 圖示 ![自訂表格](assets/customize-table-icon.png) 位於的右上方 [!UICONTROL 匯出] 頁面。
+1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
+
+1. 在 [!UICONTROL **匯出**] 索引標籤中，選取 **自訂表格** 圖示 ![自訂表格](assets/customize-table-icon.png) 位於的右上方 [!UICONTROL 匯出] 頁面。
 
    可使用下列欄:
 
@@ -131,9 +133,9 @@ ht-degree: 6%
    |---------|----------|
    | 名稱 | 匯出的名稱。 使用者在建立匯出時為其命名，如所述 [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
    | ID | 建立匯出時自動指派的ID。 <!-- True? --> |
-   | 狀態 | 匯出的狀態。 可用的狀態包括 [!UICONTROL 作用中]， [!UICONTROL 已暫停]， [!UICONTROL 已完成]、和 [!UICONTROL 已失敗].<p> **注意：** 如需疑難排解匯出失敗的相關資訊，請參閱 [疑難排解失敗的匯出](/help/components/exports/troubleshoot-exports.md).</p> |
    | 資料檢視名稱 | 與匯出相關聯的資料檢視名稱。 使用者可在建立匯出時選取資料檢視，如所述 [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
-   | 狀態 | 匯出的狀態。 可用的狀態包括 [!UICONTROL 擱置中]， [!UICONTROL 已傳遞]、和 [!UICONTROL 已失敗]. |
+   | 狀態 | 匯出的狀態。 可用的狀態包括 [!UICONTROL 作用中]， [!UICONTROL 完成]、和 [!UICONTROL 已失敗].<p> **注意：** 如需疑難排解匯出失敗的相關資訊，請參閱 [疑難排解失敗的匯出](/help/components/exports/troubleshoot-exports.md).</p> |
+   | 標記 | 顯示套用至匯出的任何標籤。 如需如何將標籤套用至匯出的詳細資訊，請參閱 [標籤匯出](#tag-an-export). |
    | 表格大小 (上次傳送) | 上次傳送匯出的大小。 |
    | 建立者 | 建立匯出的使用者。 |
    | 已建立 | 建立匯出的日期和時間。 <!-- true? --> |
@@ -144,7 +146,6 @@ ht-degree: 6%
    | 最後傳送 | 上次傳送匯出的時間。 |
    | 上次修改日期 | 上次修改匯出的時間。 依預設，「匯出」頁面上的專案會依此欄排序。 |
    | 帳戶類型 | 匯出資料所在的雲端帳戶型別。 可用的帳戶型別包括 [!UICONTROL Amazon S3角色ARN]， [!UICONTROL Google Cloud平台]， [!UICONTROL Azure SAS]， [!UICONTROL Azure RBAC]， [!UICONTROL Snowflake]、和 [!UICONTROL Adobe Experience Platform]. |
-   | 標記 | 顯示套用至匯出的任何標籤。 如需如何將標籤套用至匯出的詳細資訊，請參閱 [標籤匯出](#tag-an-export). |
 
    {style="table-layout:auto"}
 

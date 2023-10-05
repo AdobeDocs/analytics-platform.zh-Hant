@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 設定雲端匯出帳戶
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1573'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 1. 繼續下列對應至的區段 [!UICONTROL **帳戶型別**] 您已選取「 」。
 
-   * [Adobe Experience Platform Data Landing Zone](#adobe-experience-platform)
+   * [AEP資料登陸區域](#adobe-experience-platform)
 
    * [Amazon S3 Role ARN](#amazon-s3-role-arn)
 
@@ -63,9 +63,9 @@ ht-degree: 5%
 
    此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
 
-   <!-- add screen shot -->
+   ![匯出帳戶對話方塊AEP資料登陸區域](assets/export-account-aep.png)
 
-1. 複製 [!UICONTROL **SAS**] 欄位至您的剪貼簿。 使用此SAS URI可存取從Analysis Workspace從AEP登陸區域匯出的資料。
+1. 複製 [!UICONTROL **SAS URI**] 欄位至您的剪貼簿。 使用此SAS URI可存取從Analysis Workspace從AEP登陸區域匯出的資料。
 
 1. 選取 [!UICONTROL **確定**].
 
@@ -77,7 +77,7 @@ ht-degree: 5%
 
 1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
 
-   | 欄位 | 功能 |
+   | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **角色 ARN**] | 您必須提供角色ARN (Amazon資源名稱)，Adobe才能使用該角色來存取Amazon S3帳戶。 若要這麼做，請建立來源帳戶的IAM許可權原則、將原則附加至使用者，然後建立目的地帳戶的角色。 如需特定資訊，請參閱 [此AWS檔案](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
 
@@ -87,7 +87,7 @@ ht-degree: 5%
 
    此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
 
-   <!-- add screen shot -->
+   ![匯出帳戶建立對話方塊Amazon S3角色ARN](assets/export-account-amazons3.png)
 
 1. 複製 [!UICONTROL **使用者ARN**] 欄位至您的剪貼簿。 使用者ARN (Amazon資源名稱)由Adobe提供。 您必須將此使用者附加至您在Amazon S3角色ARN中建立的原則。
 
@@ -101,7 +101,7 @@ ht-degree: 5%
 
 1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
 
-   | 欄位 | 功能 |
+   | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **專案 ID**] | 您從Google Cloud帳戶複製的Google Cloud專案ID。 請參閱 [有關取得專案ID的Google Cloud檔案](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
 
@@ -111,7 +111,7 @@ ht-degree: 5%
 
    此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
 
-   <!-- add screen shot -->
+   ![匯出帳戶建立的對話方塊](assets/export-account-gcp.png)
 
 1. 複製 [!UICONTROL **主體**] 欄位到您的剪貼簿，然後確定您授予主體許可權，以便在Google Cloud Platform中將檔案上傳到此貯體。 <!-- add link to Google Cloud docs on how to do this -->
 
@@ -125,7 +125,7 @@ ht-degree: 5%
 
 1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
 
-   | 欄位 | 功能 |
+   | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **應用程式 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
    | [!UICONTROL **租用戶 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
@@ -139,7 +139,7 @@ ht-degree: 5%
 
    此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
 
-   <!-- add screen shot -->
+   ![匯出帳戶建立的對話方塊](assets/export-account-azure.png)
 
 1. 如果您尚未這麼做，請確定您已授與Azure SAS中儲存貯體的許可權。 <!-- add link to Google Cloud docs on how to do this -->
 
@@ -153,7 +153,7 @@ ht-degree: 5%
 
 1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
 
-   | 欄位 | 功能 |
+   | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **應用程式 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
    | [!UICONTROL **租用戶 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
@@ -165,7 +165,7 @@ ht-degree: 5%
 
    此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
 
-   <!-- add screen shot -->
+   ![匯出帳戶建立的對話方塊](assets/export-account-azure.png)
 
 1. 如果您尚未這麼做，請確定您已授與Azure RBAC中儲存貯體的許可權。 <!-- add link to Google Cloud docs on how to do this -->
 
@@ -179,7 +179,7 @@ ht-degree: 5%
 
 1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
 
-   | 欄位 | 功能 |
+   | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **帳戶識別碼**] | 可唯一識別組織內，以及Snowflake支援的雲端平台和雲端區域的全球網路中的Snowflake帳戶。 <p>您必須從Snowflake帳戶取得帳戶識別碼，然後在此處貼上資訊。</p><p>若要瞭解從何處取得此資訊，請參閱 [Snowflake檔案中的帳戶識別碼頁面](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
    | [!UICONTROL **使用者**] | 用於連線的使用者登入名稱。 我們建議您建立專門用於Adobe的新使用者。 在此處指定名稱，然後以Snowflake建立具有相同名稱的使用者。 您可以使用在Snowflake中建立使用者 `CREATE USER` 命令。  <p>如需詳細資訊，請參閱 [使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
@@ -191,7 +191,7 @@ ht-degree: 5%
 
    此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
 
-   <!-- add screen shot -->
+   ![匯出帳戶建立的對話方塊](assets/export-account-snowflake.png)
 
 1. 複製 [!UICONTROL **公開金鑰**] 欄位至您的剪貼簿。 公開金鑰由Adobe提供。
 
