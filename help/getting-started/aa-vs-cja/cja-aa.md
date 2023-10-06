@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 source-git-commit: e77dbb491178ffbe26fcec21d8b456cc3befbd1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2140'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 97%
 | --- | --- |
 | 警報 | 已規劃提供支援。 |
 | 貢獻分析 | 已規劃提供支援。 |
-| Data Warehouse 報告 | 規劃從 Analysis Workspace 介面提供支援。Adobe Experience Platform [[!UICONTROL 查詢服務]](<https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant>)也會提供適用於在 Customer Journey Analytics 中這些使用案例的介面。 |
+| Data Warehouse 報告 | 規劃從 Analysis Workspace 介面提供支援。Adobe Experience Platform [[!UICONTROL Query Service]](<https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant>) 也會提供適用於在 Customer Journey Analytics 中這些使用案例的介面。 |
 | 使用裝置圖表進行 ID 拼接 | 已規劃提供支援。 |
 | 專案範本 | 已規劃提供支援。 |
 | 即時報告 | 已規劃提供支援。 |
@@ -136,7 +136,7 @@ ht-degree: 97%
 | 跨裝置分析 | Customer Journey Analytics 支援無縫組合來自未經身分驗證和經過身分驗證工作階段的特定裝置資料集。Customer Journey Analytics 可以將歷史資料回填到已知裝置。在 Analytics 中，此功能僅限於單一報告套裝和裝置圖使用。 |
 | SQL 存取 | 使用 Data Distiller 選項，Customer Journey Analytics 可以移除 Adobe 後端處理中收集資料的限制。您可以使用 SQL 修改資料、建立適合您業務的值和資料集，並繼續探索。Analytics 不支援對其資料進行任何類型的 SQL 存取。 |
 | 提升安全性和隱私權選項 - HIPAA 整備程度 | Customer Journey Analytics 符合 HIPAA 標準，並提供額外的安全性選項以實現法規合規性。Adobe Analytics 尚未符合 HIPAA 標準。 |
-| 結合資料集(例如Adobe Analytics報表套裝)的功能 | Customer Journey Analytics可讓您合併來自多個報表套裝的資料，猶如它們是Adobe Analytics中的單一報表套裝。 |
-| 衍生的欄位 | 衍生欄位可讓您的資料進行報告時間轉換。 您可以即時合併、更正或建立資料，並可回溯套用至所有報表。 |
+| 組合資料集的能力 (例如 Adobe Analytics 報告套件) | Customer Journey Analytics 可讓您組合多個報告套件的資料，如同 Adobe Analytics 中的單一報告套件。 |
+| 衍生的欄位 | 衍生的欄位允許對您的資料進行報告時間轉換。資料可以動態組合、更正或建立，並追溯套用於所有的報告。 |
 
 {style="table-layout:auto"}

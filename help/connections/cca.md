@@ -1,15 +1,15 @@
 ---
 title: 跨管道分析
-description: 瞭解如何從多個資料集重新輸入人員ID，以將人員彙整在一起。
+description: 了解如何重新輸入多個資料集的人員 ID，以彙整人員。
 solution: Customer Journey Analytics
 feature: Connections
 exl-id: 5fb30b64-d305-4de4-ab84-66195ceb8386
 hide: true
 hidefromtoc: true
 source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
