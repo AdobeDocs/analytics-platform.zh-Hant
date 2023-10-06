@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 疑難排解失敗的匯出
 feature: Components
 exl-id: fbc25150-4390-40a2-9f17-aadf254258ad
-source-git-commit: 2c9dfdf36e47b9467077310a31dc2c6258137d35
+source-git-commit: 3252a41f5ee1f439a3f233b06a8be1fdf6150234
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 8%
+source-wordcount: '386'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 | 報表中的維度或量度已從資料檢視中移除 | 請聯絡您的系統管理員，檢視已從資料檢視中移除哪些元件。 您可能需要在匯出中使用不同的資料檢視，或從表格中移除不再可用的元件。 | [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md) |
 | 超出列數限制 | 根據您的授權型別，您最多可以匯出300萬、3000萬、1.5億或3億列。 更新您正在匯出的表格以減少總列數。 | [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md) |
 | 排程的匯出到期日 | 您設定的排程匯出已過期。 更新匯出的到期日。 | [管理匯出](/help/components/exports/manage-exports.md) |
-| 不支援Dimension | <p>完整表格匯出不支援符合以下條件的任何維度：</p> <ul><li>使用物件陣列</li><li>已啟用持續性<li>未使用繫結維度</li> | <ul><li>[使用物件陣列](/help/use-cases/object-arrays.md)</li><li>[持續性元件設定](/help/data-views/component-settings/persistence.md)<li>[在Customer Journey Analytics中使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)</li> |
+| 不支援Dimension | <p>「完整表格匯出」不支援符合下列所有條件的任何維度：</p> <ul><li>是從屬於物件陣列一部分的欄位建立的</li><li>已啟用持續性<li>未使用繫結維度</li> | <ul><li>[使用物件陣列](/help/use-cases/object-arrays.md)</li><li>[持續性元件設定](/help/data-views/component-settings/persistence.md)<li>[在Customer Journey Analytics中使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)</li> |
 | 貴組織強制執行的資料治理原則會限制表格中的元件不可匯出 | 請連絡您的系統管理員，檢視哪些元件限制匯出。 匯出前先移除受限制的元件。 | *篩選資料檢視中的資料控管原則* 中的區段 [標籤和原則](/help/data-views/data-governance.md) |
 
 ## 連絡 Adobe 客戶服務

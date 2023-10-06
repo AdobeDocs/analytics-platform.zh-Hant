@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 3252a41f5ee1f439a3f233b06a8be1fdf6150234
 workflow-type: tm+mt
-source-wordcount: '1924'
-ht-degree: 4%
+source-wordcount: '1955'
+ht-degree: 3%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 4%
 
 1. 在 [!UICONTROL **新的完整表格匯出**] 對話方塊中，指定下列資訊：
 
-   | 欄位名稱 | 功能 |
+   | 欄位名稱 | 函數 |
    |---------|----------|
    | 名稱 | 指定匯出的名稱。 此名稱會顯示在匯出清單中。 |
    | 標記 | 您可以將現有標籤套用至匯出，也可以建立新標籤並套用它。 <p>若要將現有標籤套用至匯出，請從下拉式選單中選取任何標籤。 您公司中的任何標籤皆可套用<!-- double-check this -->.</p> <p>若要建立新標籤，請輸入新標籤的名稱，然後按Enter鍵。</p><p>將標籤套用至匯出時，請考量下列事項： <ul><li>您套用的標籤可在匯出表格中篩選或搜尋。</li> <li>匯出完整表格時，套用至專案的標籤不會自動套用，如以下的「在匯出頁面上設定欄」中所述： [管理匯出](/help/components/exports/manage-exports.md). (或者，當 [排程完整專案以供匯出](/help/analysis-workspace/export/t-schedule-report.md)，套用至專案的任何標籤都會自動套用至匯出。)  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
@@ -170,6 +170,10 @@ ht-degree: 4%
 
 * 在量度定義中使用基本或進階函式的計算量度(請參閱 [基本函式](/help/components/calc-metrics/cm-functions.md) 和 [進階函式](/help/components/calc-metrics/cm-adv-functions.md) 以取得詳細資訊)
 * 管理員限制無法匯出的元件(請參閱 *篩選資料檢視中的資料控管原則* 中的區段 [標籤和原則](/help/data-views/data-governance.md) 以取得詳細資訊)
+* 符合下列所有條件的任何維度：
+   * 是從屬於的欄位建立的 [物件陣列](/help/use-cases/object-arrays.md)
+   * 有 [已啟用持續性](/help/data-views/component-settings/persistence.md)
+   * 未使用 [繫結維度](/help/use-cases/data-views/binding-dimensions-metrics.md)
 * 每個報表超過5個維度和5個量度（最多支援5個維度和5個量度）
 * 在表格欄中：
    * 日期範圍
