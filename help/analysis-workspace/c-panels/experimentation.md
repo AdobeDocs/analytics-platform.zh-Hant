@@ -1,12 +1,12 @@
 ---
-description: 瞭解如何在Customer Journey Analytics實驗面板中分析A/B測試結果。
+description: 瞭解如何在Customer Journey Analytics實驗面板中分析A/B測試的結果。
 title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1870'
-ht-degree: 60%
+source-wordcount: '1905'
+ht-degree: 58%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 60%
 
 >[!IMPORTANT]
 >
->此時， [目標適用的Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant) (A4T)資料 *無法* 在Experimentation面板中分析。
+>此時， [目標的Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant) (A4T)資料 *無法* 在Experimentation面板中分析。
 
 ## 存取控制 {#access}
 
-所有Customer Journey Analytics使用者都可使用Experimentation面板。 不需要管理員權限或其他權限。但是，進行設定 (下方的步驟 1 和 2) 所需的動作只有管理員才能執行。
+實驗面板可供所有Customer Journey Analytics使用者使用。 不需要管理員權限或其他權限。但是，進行設定 (下方的步驟 1 和 2) 所需的動作只有管理員才能執行。
 
 ## 計算量度中的新函數 {#functions}
 
@@ -30,7 +30,7 @@ ht-degree: 60%
 
 建議的資料結構描述是針對在[「物件」陣列](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=zh-Hant) 中的實驗資料，其中包含在二個獨立維度中的實驗與變數資料。 兩個維度都必須位於 **單一** 物件陣列。 如果您的實驗資料是在一個單獨的維度內，實驗與變數資料在分隔字串內，您可以使用資料檢視中的[子字串](/help/data-views/component-settings/substring.md)將它們一分為二，以便用於面板中。
 
-在您的實驗資料完成後 [已內嵌](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) 進入Adobe Experience Platform， [在Customer Journey Analytics中建立連線](/help/connections/create-connection.md) 至一或多個實驗資料集。
+在您的實驗資料完成後 [已內嵌](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) 移至Adobe Experience Platform， [在Customer Journey Analytics中建立連線](/help/connections/create-connection.md) 到一個或多個實驗資料集。
 
 ## 步驟 2：在資料檢視中新增內容標籤 {#contect-labels}
 
@@ -41,18 +41,18 @@ ht-degree: 60%
 
 在包含實驗資料的資料檢視中，選擇兩個維度，一個包含實驗資料，一個包含變體資料。然後使用&#x200B;**[!UICONTROL 實驗]**&#x200B;和&#x200B;**[!UICONTROL 變體]**&#x200B;標籤標記這些維度。
 
-![內容標籤](assets/context-label.png)
+![Experimentation和Experimentation Variant的內容標籤選項。](assets/context-label.png)
 
 如果沒有這些標籤，Experiment 面板會因沒有可用的實驗而無法運作。
 
 ## 步驟 3：設定 Experiment 面板 {#configure}
 
-1. 在Customer Journey Analytics Workspace中，將Experimentation面板拖曳至專案中。
+1. 在Customer Journey Analytics Workspace中，將Experimentation面板拖曳到專案中。
 
-![實驗面板](assets/experiment.png)
+![Experience面板拖曳至專案中。](assets/experiment.png)
 
 >[!IMPORTANT]
->如果Customer Journey Analytics資料檢視中的必要設定尚未完成，您將會在可以繼續之前收到此訊息： 」[!UICONTROL 請在資料檢視中設定實驗和變體維度]「。
+>如果尚未完成Customer Journey Analytics資料檢視中的必要設定，在可以繼續之前，您將收到此訊息： 」[!UICONTROL 請在資料檢視中設定實驗和變體維度]「。
 
 1. 進行面板輸入設定。
 
@@ -74,11 +74,11 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 
 對於您所選取的每個成功量度，都會顯示一個自由表格和一個轉換率趨勢。
 
-![實驗輸出](assets/exp-output1.png)
+![實驗輸出會顯示一個自由表格和一個轉換率趨勢。](assets/exp-output1.png)
 
 [!UICONTROL 折線圖]可提供[!UICONTROL 控制]與[!UICONTROL 控制變體]的表現：
 
-![折線圖輸出](assets/exp-output2.png)
+![折線圖輸出顯示控制與控制變體的表現。](assets/exp-output2.png)
 
 >[!NOTE]
 >
@@ -86,9 +86,9 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 
 ## 步驟 5：解釋結果 {#interpret}
 
-1. **實驗已有結果**：每次檢視實驗報告時，Adobe都會分析到目前為止在實驗中累積的資料，並會在隨時有效的信賴度超過臨界值95%時宣告實驗為具有「結論性」。 *至少一個* 變體的DNA片段（當有兩個以上的臂時，套用Benjamini-Hochberg校正，以校正多個假設檢驗）。
+1. **實驗已有結果**：每次檢視實驗報告時，Adobe都會分析到目前為止在實驗中累積的資料，並在隨時有效的信賴度超過95%的臨界值時宣告實驗為具有「結論性」 *至少一個* （當超過雙臂時套用Benjamini-Hochberg校正，以校正多個假設檢驗）。
 
-2. **最佳表現變體**：當一個實驗宣告為具有結論性時，具有最高轉換率的變體將標記為「最佳表現變體」。請注意，此變體必須是控制變體或基線變體，或是超過95%隨時有效信賴度臨界值的變體之一（套用Benjamini-Hochberg校正）。
+2. **最佳表現變體**：當一個實驗宣告為具有結論性時，具有最高轉換率的變體將標記為「最佳表現變體」。請注意，此變體必須是控制變體或基線變體，或者是超過95%隨時有效信賴度臨界值的變體之一（套用Benjamini-Hochberg校正）。
 
 3. **轉換率**：顯示的轉換率是成功量度值與標準化量度值的比例。請注意，如果量度不是二進位 (實驗中的每個單位為 1 或 0)，則轉換率可能大於 1
 
@@ -108,24 +108,24 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 
 95% 信賴序列是指在您執行 100 個實驗中有 95 個包含商業量度「確判為真」值。(為了提供相同的 95% 覆蓋率保證，每個實驗只能計算一次 95% 信賴區間；而不是針對每個新使用者計算)。因此，信賴序列可讓您持續監視實驗，而不會增加「誤判為真」的錯誤率，也就是它們允許「偷看」結果。
 
-## 解釋非隨機維度 {#non-randomized}
+## 解讀非隨機維度 {#non-randomized}
 
-Customer Journey Analytics可讓分析人員選取任何維度當作「實驗」。 但是對於選擇的實驗維度不是哪些人進行了隨機化的分析，您該如何解讀？
+Customer Journey Analytics可讓分析師選取任何維度當作「實驗」。 但是對於選擇的實驗維度不是隨機人員的分析，您該如何解讀？
 
-例如，考慮某人看到的廣告。 如果您決定顯示人員是「廣告B」而非「廣告A」，可能會對測量某些量度的變更（例如平均收入）感興趣。 顯示廣告B來取代廣告A的因果效應，對達成行銷決策至關重要。 如果我們以顯示廣告A的替代策略取代顯示廣告B的現狀，這種因果效應可能會以整個母體的平均收入來衡量。
+例如，以個人看到的廣告為例。 如果您決定顯示人員是「廣告B」而非「廣告A」，可能會對測量某些量度的變更（例如平均收入）感興趣。 顯示廣告B來取代廣告A的因果關係，對達成行銷決策至關重要。 如果我們以顯示廣告B的替代策略取代顯示廣告A的現狀，這種因果效應可能會以整個母體的平均收入來衡量。
 
 A/B測試是業界客觀衡量此類干預措施效果的黃金標準。 A/B測試產生因果估計的重要原因是接收其中一個可能變體的人員隨機化。
 
-現在來考慮隨機化無法實現的維度，例如個人的美國州。 假設我們的人主要來自兩個州：紐約和加州。 由於地區天氣差異，冬季服裝品牌在這兩個州的平均銷售收入可能不同。 在這種情況下，天氣可能是冬季服裝銷售背後的真正因果因素，而不是人的地理州不同這一事實。
+現在，假設有一個不是透過隨機化實現的維度，例如個人的美國州。 假設我們的人主要來自兩個州：紐約和加州。 由於地區天氣差異，這兩個州冬季服裝品牌的平均銷售收入可能不同。 在這種情況下，天氣可能是冬季服裝銷售背後的真正因果因素，而不是人的地理狀態不同這一事實。
 
-Customer Journey Analytics中的實驗面板可讓您依人員的狀態，以平均收入差異來分析資料。 在這種情況下，輸出沒有因果解釋。 不過，此類分析可能仍值得關注。 它提供個人所在州平均收入差異的估計（以及不確定性的測量）。 這也稱為「統計假設測試」。 此分析的輸出可能會有趣，但不一定可操作，因為我們沒有，有時也無法隨機將人員轉換為維度的可能值之一。
+Customer Journey Analytics中的實驗面板可讓您依人員的狀態將資料分析為平均收入差異。 在這種情況下，輸出沒有因果解釋。 不過，此類分析可能仍值得關注。 它提供個人所在州平均收入差異的估計值（以及不確定性的測量值）。 這也稱為「統計假設測試」。 此分析的輸出可能會很有趣，但不一定可操作，因為我們沒有，有時也無法將人員隨機化為維度的可能值之一。
 
-下圖會比較這些情況：
+下圖對比了這些情況：
 
-![隨機化實驗](assets/randomize.png)
+![顯示觀察資料和隨機實驗的圖表。](assets/randomize.png)
 
-當您想要測量干預X對結果Y的影響時，兩者的真正原因可能是混淆因素C。如果資料不是藉由在X上隨機化人員來取得，影響將更難測量，且分析將明確說明C。隨機化會中斷X對C的依賴，讓我們不必擔心其他變數，即可測量X對Y的影響。
+當您想要測量干預X對結果Y的影響時，兩者的真正原因可能是混淆因素C。如果資料不是藉由在X上隨機化人員而獲得，則影響更難測量，且分析將明確說明C。隨機化會中斷X對C的依賴，讓我們不必擔心其他變數即可測量X對Y的影響。
 
 ## 在Experimentation面板中使用計算量度
 
-請參閱這篇部落格，瞭解更多資訊 [在Experimentation面板中使用衍生量度](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
+請參閱這篇部落格，瞭解更多資訊 [在Experimentation面板中使用衍生度量](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).

@@ -3,10 +3,10 @@ description: 「快速深入分析」是適用於新工作區使用者的工具�
 title: 快速深入分析面板
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '1135'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 為了提供這些協助，並根據您公司在 [!UICONTROL Analysis Workspace] 中使用資料元件的情形，[!UICONTROL 快速深入分析]會運用演算法，提供您的公司最常使用的維度、量度、篩選器和日期範圍。實際上，您會在下拉式清單中看到標示為[!UICONTROL 熱門]的維度、量度和篩選器，如下所示：
 
-![](assets/popular-tag.png)
+![快速深入分析面板。](assets/popular-tag.png)
 
 [!UICONTROL 快速深入分析]可協助您
 
@@ -45,14 +45,14 @@ ht-degree: 100%
 1. 使用您已取得的憑證登入 Customer Journey Analytics。
 1. 前往[!UICONTROL 工作區]，按一下&#x200B;**[!UICONTROL 建立新專案]**，然後按一下&#x200B;**[!UICONTROL 快速深入分析]**。(您也可以從左側邊欄中的&#x200B;**[!UICONTROL 面板]**&#x200B;功能表存取此面板。)
 
-   ![](assets/qibuilder.png)
+   ![「所有範本」檢視會醒目顯示快速深入分析選項。](assets/qibuilder.png)
 
-   ![](assets/qi-panel.png)
+   ![「面板」清單會醒目提示「快速深入分析」選項。](assets/qi-panel.png)
 
 1. 第一次使用時，請完成簡短的教學課程，以瞭解[!UICONTROL 「快速深入分析」面板]的一些基本概念。或者，您可以按一下&#x200B;**[!UICONTROL 略過教學課程]**。
 1. 選取您的組成要素 (也稱為元件)：維度 (橘色)、量度 (綠色)、篩選器 (藍色) 或日期範圍 (紫色)。您必須至少須選取一個維度和一個量度，才會自動建立表格。
 
-   ![](assets/qibuilder2.png)
+   ![元件包括維度、量度、篩選器、區段和日期範圍。](assets/qibuilder2.png)
 
    選取組成要素的方式有三種：
    * 從左側邊欄加以拖放。
@@ -63,7 +63,7 @@ ht-degree: 100%
 
    * 自由表格，最上方會有垂直方向的維度 (此案例中為「美國州」) 和水平方向的量度 (此案例中為「造訪」)。請查看下表：
 
-   ![](assets/qibuilder3.png)
+   ![自由表格，以垂直方向顯示維度，以水準方向顯示量度。](assets/qibuilder3.png)
 
    * 隨附的視覺效果，在此案例中為[長條圖](/help/analysis-workspace/visualizations/bar.md)。產生的視覺效果會以您新增至表格的資料類型為基礎。任何以時間為基礎的資料 (例如，每日/月的[!UICONTROL 造訪]次數)，都會預設為[!UICONTROL 折線圖]。任何非時間型資料 (例如，每個[!UICONTROL 裝置]的[!UICONTROL 造訪]次數) 都會預設為[!UICONTROL 長條圖]。您可以按一下視覺效果類型旁的下拉箭頭，以變更視覺效果類型。
 
@@ -79,28 +79,28 @@ ht-degree: 100%
 
 * 首先，請完成&#x200B;**[!UICONTROL 更多提示]**&#x200B;教學課程：透過說明 (?)圖示加以存取 (位於[!UICONTROL 快速深入分析]標題旁)。本教學課程會在您建立專案的 24 小時後顯示，其中至少包含一個維度和一個量度。
 
-  ![](assets/qibuilder4.png)
+  ![按一下「說明」圖示後，會顯示「快速深入分析」面板通知。](assets/qibuilder4.png)
 
 * **劃分依據**：您最多可對維度使用 3 個層級的劃分，以深入鑽研您真正需要的資料。
 
-  ![](assets/qibuilder5.png)
+  ![劃分的子層級。](assets/qibuilder5.png)
 
 * **新增更多量度**：您可以使用 AND 運算子在表格中額外新增最多 2 個量度。
 
-  ![](assets/qibuilder6.png)
+  ![多個量度，包括「造訪」和「裝置」。](assets/qibuilder6.png)
 
 * **新增更多篩選器**：您可以使用 AND 或 OR 運算子，在表格中額外新增最多 2 個篩選器。新增「行動使用者」OR「忠誠訪客」後，請查看表格有何變更。兩者彼此相鄰，位於量度上方。如果您新增「行動使用者」AND「忠誠訪客」，您將會同時看到這兩個篩選器的結果，且這些結果會相互堆疊在表格中。
 
-  ![](assets/qibuilder7.png)
+  ![顯示新增的「行動使用者」和「忠誠訪客」的圖表。](assets/qibuilder7.png)
 
 ## 已知限制
 
 如果您嘗試直接在表格中進行編輯，將會導致[!UICONTROL 快速深入分析]面板不同步。您可以按一下面板右上方的&#x200B;**[!UICONTROL 重新同步產生器]**，將其還原為先前的[!UICONTROL 快速深入分析]設定。
 
-![](assets/qibuilder9.png)
+![具有「重新同步產生器」選項的「快速深入分析」面板。](assets/qibuilder9.png)
 
 直接在表格中新增任何項目之前，您將收到警告：
 
-![](assets/qibuilder8.png)
+![重新同步產生器選項警告。](assets/qibuilder8.png)
 
 或者，直接建立將使表格此時像傳統自由表格一樣運作，而沒有可協助新使用者的功能。

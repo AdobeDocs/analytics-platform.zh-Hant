@@ -3,10 +3,10 @@ description: 了解如何調整 Analysis Workspace 中的檢視密度。
 title: 檢視密度
 feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 - **[!UICONTROL 舒適]**：此版本比「緊密」版本有更多邊框間距。
 - **[!UICONTROL 展開]** (預設): 此版本為常用的工作區檢視畫面。
 
-![](assets/view-density.png)
+![緊湊、舒適和展開的檢視密度。](assets/view-density.png)
 
 若要設定檢視密度:
 

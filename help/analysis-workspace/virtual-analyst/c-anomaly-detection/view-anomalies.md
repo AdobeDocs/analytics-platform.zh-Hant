@@ -1,12 +1,12 @@
 ---
-description: 您可以在表格或線性圖中檢視異常。
-title: 在 Analysis Workspace 中檢視異常
+description: 瞭解如何在表格或折線圖中檢視異常。
+title: 如何在Analysis Workspace中檢視異常
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
-source-git-commit: 34566535589c84c96a8d7a47988cd155b743674e
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 97%
+source-wordcount: '482'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 1. 按一下離開設定選單以檢視更新的表格。
 
-   ![](assets/anomaly_detected.png)
+   ![異常偵測通知，指出比預期低15%。](assets/anomaly_detected.png)
 
 1. 異常情況在表格中顯示如下：
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 
 1. 按一下離開設定選單以檢視更新的折線圖。
 
-   ![](assets/anomaly_linechart.png)
+   ![折線圖偵測到異常訊息，指出比預期高出15%。](assets/anomaly_linechart.png)
 
    異常情況在折線圖中顯示如下：
 

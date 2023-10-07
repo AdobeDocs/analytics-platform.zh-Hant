@@ -4,9 +4,9 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: bf700355597760b36441864de36f460b5996a1fe
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1980'
 ht-degree: 36%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 36%
 1. 前往您要共用的專案，然後按一下 **[!UICONTROL 共用]** > **[!UICONTROL 與Workspace使用者共用]**.
 如果有未儲存的變更，系統會提示您先儲存專案。
 
-   ![](assets/share-proj-modal.png)
+   ![共用專案視窗。](assets/share-proj-modal.png)
 
    有關如何同時共用多個專案的資訊，請參閱[在專案管理員中共用專案](#share-projects-in-the-project-manager)。
 
@@ -99,7 +99,7 @@ ht-degree: 36%
 
 1. 選取 **[!UICONTROL 共用]** > **[!UICONTROL 與Workspace使用者共用]**，然後選取 **[!UICONTROL 複製]** 在 **[!UICONTROL 透過連結共用]** 欄位。
 
-   ![](assets/share-proj-modal.png)
+   ![「共用」專案會醒目顯示「透過連結共用」欄位。](assets/share-proj-modal.png)
 
 1. 與組織中的使用者共用連結。例如，您可以將其貼上到電子郵件、內部網站等。
 
@@ -145,7 +145,7 @@ ht-degree: 36%
 
    選取此選項會建立專案的連結，供任何人共用。 您可以隨時停用此選項來停用專案的存取權。
 
-   專案的所有者也是此連結的所有者。 只有在專案所有權轉移時，才能將連結所有權轉移給其他使用者，如中所述 [轉移使用者資產或設定帳戶有效期](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) （在Analytics管理指南中）。
+   專案的所有者也是此連結的所有者。 只有在專案所有權轉移時，才能將連結所有權轉移給其他使用者，如中所述 [轉移使用者資產或設定帳戶有效期](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=zh-Hant) （在Analytics管理指南中）。
 
 1. 選擇是否啟用下列安全性選項(此選項可由您的Customer Journey Analytics管理員控制)：
 
@@ -183,7 +183,7 @@ ht-degree: 36%
 * 專案 A：1、2、3、4、7
 * 專案 B：4、5、6、7
 
-![](assets/mult-proj-sharing.png)
+![「將收件者新增至多個專案」視窗。](assets/mult-proj-sharing.png)
 
 ## 共用內嵌元件
 

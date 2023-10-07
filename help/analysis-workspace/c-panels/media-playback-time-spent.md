@@ -4,10 +4,10 @@ description: 如何使用和解讀 Analysis Workspace 中「媒體播放時間�
 feature: Panels
 role: User, Admin
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
-source-git-commit: cfce67c9cbda272158288c04d5ecdbceee99beb7
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 75%
+source-wordcount: '924'
+ht-degree: 74%
 
 ---
 
@@ -55,7 +55,7 @@ Media Analytics客戶可分析所花費的播放時間，以取得內容品質�
 
 ## 預設視圖
 
-![預設檢視](assets/mpts_default_view.png)
+![媒體劇本逗留時間預設檢視。](assets/mpts_default_view.png)
 
 ## 面板輸出 {#Output}
 
@@ -65,7 +65,7 @@ Media Analytics客戶可分析所花費的播放時間，以取得內容品質�
 
 如果您已選取序列劃分、線圖上的一條線，則每項會顯示累加數：
 
-![「媒體播放時間」輸出](assets/mpts_outputs1.png)
+![「媒體播放時間」輸出會顯示折線圖和摘要。](assets/mpts_outputs1.png)
 
 ### 資料來源
 

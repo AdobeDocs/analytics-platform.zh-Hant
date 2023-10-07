@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 資料夾總覽
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ Analytics 中的資料夾是資料夾管理系統，會顯示在 Adobe Analytics
 
 當您登入工作區時，「專案」首頁會顯示您的專案清單，以及您建立的公司資料夾和任何個人資料夾。
 
-![](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
+![專案首頁列出您的專案和公司資料夾。](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
 
 ## 關於公司資料夾 {#company-folder}
 
@@ -38,11 +38,11 @@ Analytics 中的資料夾是資料夾管理系統，會顯示在 Adobe Analytics
 
 管理員擁有指派至公司資料夾的特殊權限。 例如，只有管理員可以在公司資料夾中新增或移除資料夾或專案。 沒有管理員存取權限的使用者可以檢視公司資料夾的內容。
 
-![](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
+![顯示管理選項的「專案」頁面。](/help/analysis-workspace/build-workspace-project/assets/admin-options.png)
 
 非管理員的選項有限。
 
-![](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
+![專案頁面會顯示資料夾的非管理選項。](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
 
 ### 公司資料夾準則 {#company-folder-guidelines}
 

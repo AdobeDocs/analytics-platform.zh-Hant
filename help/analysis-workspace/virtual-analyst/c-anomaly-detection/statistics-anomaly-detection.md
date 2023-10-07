@@ -3,10 +3,10 @@ description: Analysis Workspace 中的異常偵測使用一系列先進的統計
 title: 異常偵測所使用的統計技術
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '805'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Analysis Workspace 中的異常偵測使用一系列先進的統計技術來判�
 
 注意以下範例中聖誕節和新年當天效能的大幅改善：
 
-![](assets/anomaly_statistics.png)
+![兩個折線圖顯示有或沒有假日效能時的效能變化。](assets/anomaly_statistics.png)
 
 ## 每小時詳細程度的異常偵測
 

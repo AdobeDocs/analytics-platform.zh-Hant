@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 專案概觀
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 9a45b3a6f1c1b4da91fa6c79ad0e265cdd89e020
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 80%
+source-wordcount: '1371'
+ht-degree: 72%
 
 ---
 
@@ -17,9 +17,9 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 ## 專案清單 {#project-list}
 
-當您初次前往 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** 時，此頁面會列出您擁有或他人與您共用的所有專案。這也是 Adobe Analytics 的登陸頁面，除非您之前已設定自訂登陸頁面。
+當您第一次前往 **[!UICONTROL Analytics]** > **[!UICONTROL 工作區]**，頁面會列出您擁有的所有專案或您共用的專案。 這也是 Adobe Analytics 的登陸頁面，除非您之前已設定自訂登陸頁面。
 
-![](assets/sample-project.png)
+![顯示專案清單的專案登陸頁面。](assets/sample-project.png)
 
 「專案」頁面包含下列資訊：
 
@@ -55,7 +55,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 在專案中，功能表會提供管理專案、新增元件、尋找說明等功能的選項。每個功能表選項也都可以使用鍵盤[快速鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)進行存取。
 
-![](assets/menu.png)
+![新專案選項包括專案、編輯、插入、元件、共用和說明選項。](assets/menu.png)
 
 | 功能表項目 | 說明 |
 |---|---|
@@ -71,7 +71,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 **[!UICONTROL Workspace]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]** 提供目前使用中專案的專案層級資訊。
 
-![](assets/projectinfo.png)
+![「專案資訊和設定」視窗。](assets/projectinfo.png)
 
 設定包括：
 
@@ -94,7 +94,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 左側欄的元件 (維度、量度、篩選器、日期範圍) 與作用中面板資料檢視有關。 作用中面板的周圍有藍色邊框，而且作用中資料檢視將會列在元件邊欄的最上方。
 
-![](assets/left-rail.png)
+![和跨產業示範資料檢視的使用中面板資料檢視相關的元件。](assets/left-rail.png)
 
 ## 專案畫布 {#canvas}
 
@@ -104,15 +104,15 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 根據您為專案選擇的起點，您一開始可以在畫布中使用[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)或[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)。開始分析的最快速方法是選取一個或多個元件，然後將其拖放到專案畫布上。系統將會自動為您呈現資料表格。[深入了解](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)建立表格的不同選項，或利用我們的[訓練教學課程](/help/analysis-workspace/home.md)以取得建立您的第一個專案的更多指南。
 
-![](assets/canvas.png)
+![適用於專案的自由表格。](assets/canvas.png)
 
 ## Project Manager {#manager}
 
-您可以在 **Analytics > 元件 > 專案** 底下管理 Analysis Workspace 專案。Project Manager 會顯示特定用戶已建立的項目。您可以在「管理員 > Analytics 用戶和資產 > 轉移資產」底下將專案所有權轉移給新用戶。
+您可以在 **Analytics > 元件 > 專案** 底下管理 Analysis Workspace 專案。Project Manager會顯示特定使用者建立的專案。 您可以在「管理員> Analytics使用者和資產>轉移資產」底下將專案所有權轉移給新使用者。
 
-在 Projects Manager 中，您可以新增、標記、共用、複製及進行更多操作。在搜尋列中搜尋專案，或使用左側欄中的篩選選項進行搜尋。您可以依標籤、所有者、專案類型等條件進行篩選。
+在Projects Manager中，您可以新增、標籤、共用、複製/複製等。 在搜尋列中搜尋專案，或使用左側欄中的篩選選項進行搜尋。您可以依標籤、所有者、專案類型等條件進行篩選。
 
-![](assets/project-manager.png)
+![專案經理標籤搜尋欄位和標題搜尋欄位。](assets/project-manager.png)
 
 以下是 Projects Manager 中的常見操作，您可以一次針對一個或多個專案進行這些操作：
 

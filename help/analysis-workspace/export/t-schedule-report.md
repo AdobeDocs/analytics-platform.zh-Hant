@@ -5,10 +5,10 @@ title: 透過電子郵件傳送Customer Journey Analytics資料給其他人
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: a2b2c6bca0557521ac7b6bcf635f467ca41731b7
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 63%
+source-wordcount: '1036'
+ht-degree: 59%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 63%
 1. （選用）新增要納入電子郵件中的說明，以說明正在接收的檔案。
 1. 新增收件者或群組。您也可以輸入電子郵件地址。
 1. (僅適用於 Healthcare Shield 客戶) 提供密碼。請參閱「密碼保護排程報告」章節。
-1. 按一下「**[!UICONTROL 立即傳送]**」。
 1. (選用) 按一下&#x200B;**[!UICONTROL 「顯示排程選項」]**，以指定傳送排程。
+1. 按一下&#x200B;**[!UICONTROL 「立即傳送」]**。
 
-![立即傳送檔案](assets/send-file-no-scheduling-options.JPG)
+![[Send file]視窗和[Send now]按鈕。](assets/send-file-no-scheduling-options.JPG)
 
 ## 依排程傳送檔案 {#schedule}
 
@@ -49,7 +49,7 @@ ht-degree: 63%
 1. 指定傳送頻率。每個頻率都允許不同的自訂內容。
 1. 按一下&#x200B;**[!UICONTROL 「依排程傳送」]**。
 
-![](assets/send-file.JPG)
+![顯示傳送檔案視窗和排程選項，以顯示「開始日期」、「結束日期」和每日頻率設定。](assets/send-file.JPG)
 
 ## 排程專案管理員 {#manager}
 
@@ -97,7 +97,7 @@ Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv �
 
 * 即將傳送現有排程專案時。目前排程的專案在密碼保護到位前會停用。 排程專案的擁有者會收到通知此需求的電子郵件。
 
-![密碼保護](assets/password.png)
+![編輯排程專案視窗和密碼加密通知，指示您的組織需要密碼加密。](assets/password.png)
 
 ### 密碼需求
 
@@ -112,7 +112,7 @@ Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv �
 
 在排程專案之前，專案所有者會收到類似以下內容的電子郵件：
 
-![電子郵件](assets/email-password.png)
+![表示貴組織需要密碼加密的Customer Journey Analytics電子郵件通知。](assets/email-password.png)
 
 1. 登入Customer Journey Analytics。
 1. 選取 **[!UICONTROL 檢視排程專案]**.

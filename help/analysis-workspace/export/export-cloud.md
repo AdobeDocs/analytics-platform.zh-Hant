@@ -1,12 +1,12 @@
 ---
-description: 將Analysis Workspace專案匯出至雲端位置。
+description: 瞭解如何將Analysis Workspace專案匯出至雲端位置。
 keywords: Analysis Workspace
 title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: 3252a41f5ee1f439a3f233b06a8be1fdf6150234
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1970'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 1. [存取雲端中的資料](#view-exported-data-and-manifest-file) 和 [在Adobe中管理匯出](/help/components/exports/manage-exports.md)
 
-![完整表格匯出程式](assets/export-full-table-process.png)
+![步驟1到4中所述的完整表格匯出程式。](assets/export-full-table-process.png)
 
 ## 從Analysis Workspace匯出完整表格
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 1. 選取 [!UICONTROL **匯出完整表格**].
 
-   ![匯出完整表格](assets/export-full-table.png)
+   ![「自由表格」下拉式功能表會反白顯示「匯出完整表格」。](assets/export-full-table.png)
 
 1. 在 [!UICONTROL **新的完整表格匯出**] 對話方塊中，指定下列資訊：
 

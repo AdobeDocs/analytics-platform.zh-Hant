@@ -4,10 +4,10 @@ keywords: Analysis Workspace 監管
 title: 監管專案
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 100%
 
 您也可以按一下&#x200B;**[!UICONTROL 監管與共用]**，從[!UICONTROL 「共用」]選單套用組織。此選項會自動將專案組織到專案中使用的元件。您可以依照上述步驟新增其他元件。
 
-![](assets/curation-field.png)
+![「組織元件」視窗會顯示專案中使用的元件。](assets/curation-field.png)
 
 ## 已監管的專案檢視
 
 收件者在開啟已監管的專案時，將只會看到您已定義的組織元件集：
 
-![](assets/curate-project.png)
+![顯示您定義之元件的共用已組織專案。](assets/curate-project.png)
 
 ## 移除專案組織
 

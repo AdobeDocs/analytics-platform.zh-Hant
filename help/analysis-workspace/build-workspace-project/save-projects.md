@@ -4,10 +4,10 @@ title: 儲存專案
 feature: Workspace Basics
 role: User, Admin
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 93%
 
 ---
 
@@ -44,7 +44,7 @@ Analysis Workspace 中的所有專案均每 2 分鐘自動儲存至本機電腦�
 
    1. 前往 Analysis Workspace 登陸頁面上的&#x200B;[!UICONTROL **「已恢復的專案」**]&#x200B;資料夾。
 
-      ![](assets/recovered-folder.png)
+      ![醒目提示復原的專案資料夾的資料夾清單。](assets/recovered-folder.png)
 
    1. 開啟您的專案並儲存至所需位置。
 
@@ -63,13 +63,13 @@ Analysis Workspace 中的所有專案均每 2 分鐘自動儲存至本機電腦�
 * **另存新檔：**&#x200B;將您的最新變更儲存為新專案。原始專案只會以最新的自動儲存變更儲存。
 * **捨棄變更：**&#x200B;捨棄您的最新變更。專案會保留最新的自動儲存變更。
 
-![](assets/existing-save.png)
+![按一下儲存，儲存專案的變更。](assets/existing-save.png)
 
 ### 離開或關閉索引標籤
 
 如果您在檢視含有尚未自動儲存之變更的專案時離開頁面或關閉瀏覽器標籤，瀏覽器會警告您將遺失未儲存的變更。您可以選擇離開或取消。
 
-![](assets/browser-image.png)
+![按一下[離開]離開網站，或按一下[取消]瀏覽而不儲存變更。 ](assets/browser-image.png)
 
 ### 瀏覽器當機或工作階段逾時
 
@@ -81,7 +81,7 @@ Analysis Workspace 中的所有專案均每 2 分鐘自動儲存至本機電腦�
 
 選取&#x200B;**「否」**，刪除自動儲存的副本，並開啟上次使用者儲存的專案版本。
 
-![](assets/project-recovery.png)
+![專案復原對話方塊。](assets/project-recovery.png)
 
 若為從未儲存的&#x200B;**新**&#x200B;專案，未儲存的變更無法復原。
 
@@ -91,7 +91,7 @@ Analysis Workspace 中的所有專案均每 2 分鐘自動儲存至本機電腦�
 
 1. 前往「**[!UICONTROL 專案]** > **[!UICONTROL 開啟先前版本]**」
 
-   ![](assets/previous-versions.png)
+   ![「先前儲存的專案版本」清單和選項可顯示「所有版本」或「僅限版本」並附附註。](assets/previous-versions.png)
 
 1. 檢視現有的先前版本清單。
    除了顯示[!UICONTROL 註釋]外，也會顯示[!UICONTROL 時間戳記]和 [!UICONTROL 編輯者] (如果[!UICONTROL 編輯者]儲存時都加入這些內容)。未附註釋的版本會儲存達 90 天；附註釋的版本會儲存達 1 年。

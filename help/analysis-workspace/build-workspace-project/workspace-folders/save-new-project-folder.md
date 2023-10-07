@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 將專案儲存到資料夾
 feature: Workspace Basics
 exl-id: d08a558b-a2bb-4002-b179-437e1885c6c4
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 75%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 1. 在 Workspace 中，建立新專案。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
+   ![自由表格視窗，您可在此視窗中建立新專案。](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
 1. 在「**專案** > **儲存**」對話框中，從「資料夾」下拉式選單中選取資料夾名稱。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+   ![「儲存」視窗，您可在其中將新專案儲存至資料夾。](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
 
 1. 按一下「**儲存**」。
 

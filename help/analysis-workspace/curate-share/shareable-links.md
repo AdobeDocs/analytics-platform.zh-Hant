@@ -4,10 +4,10 @@ keywords: Analysis Workspace 共用
 title: 建立分享連結
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
-source-git-commit: 7889c9e7c55dadfe0966f03365eabc4929a32d7a
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 62%
+source-wordcount: '395'
+ht-degree: 57%
 
 ---
 
@@ -36,7 +36,7 @@ Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專�
 
 [觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=zh-Hant)以了解如何建立連結，並使用連結引導收件者前往專案的特定部分。
 
-![](assets/get-viz-link.png)
+![在標題上按一下滑鼠右鍵後的下拉式功能表，其中的「取得視覺效果」連結會反白顯示。](assets/get-viz-link.png)
 
 ## 在目錄中使用連結 {#TOC}
 
@@ -44,4 +44,4 @@ Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專�
 
 [觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=zh-Hant)以了解如何使用連結和工作區功能齊全的文字編輯器，輕鬆建立目錄。
 
-![](assets/toc.png)
+![專案目錄。](assets/toc.png)

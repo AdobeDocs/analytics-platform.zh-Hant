@@ -3,10 +3,10 @@ description: 面板是表格與視覺效果的集合。
 title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
-source-git-commit: 473d0851e537decc8a26f653e81b161c7b7dc551
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 51%
+source-wordcount: '1313'
+ht-degree: 48%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 51%
 | [媒體同時檢閱者面板](media-concurrent-viewers.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
 | [「媒體播放時間」面板](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | 分析播放時間，以了解尖峰同時觀看人數或是下降發生在何處。 |
 
-![](assets/panel-overview.png)
+![Customer Journey Analytics面板會列出可用的面板型別。](assets/panel-overview.png)
 
 [!UICONTROL 快速深入分析]、[!UICONTROL 空白]和[!UICONTROL 任意形狀]面板是您一開始展開分析的絕佳地方，而 [!UICONTROL Attribution IQ] 則適合更進階的分析。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
 
@@ -39,7 +39,7 @@ ht-degree: 51%
 
 注意：如果表格、視覺效果或下拉區域內使用 (紫色) 日期範圍元件，此日期範圍將覆蓋面板行事曆。
 
-![](assets/panel-calendar.png)
+![顯示所選日期範圍的行事曆視窗。](assets/panel-calendar.png)
 
 您可在面板行事曆的進階設定下套用以分鐘為單位的日期範圍。如果您的報表涵蓋許多天的日期範圍，則開始時間會套用在您的範圍中的第一天，而結束時間則會套用在最後一天。
 
@@ -51,7 +51,7 @@ ht-degree: 51%
 
 將任何篩選器從左側欄拖放至面板空投區，即可開始篩選您的面板。
 
-![](assets/segment-filter.png)
+![左側邊欄顯示可用的量度，以及拖曳至面板拖放區域的行動客戶量度。](assets/segment-filter.png)
 
 ### 臨時篩選
 
@@ -61,7 +61,7 @@ ht-degree: 51%
 
 如需詳細資訊，請參閱 [快速篩選](/help/components/filters/quick-filters.md).
 
-![](assets/adhoc-segment-filter.png)
+![臨時篩選會公開並放入拖放區域。](assets/adhoc-segment-filter.png)
 
 ### 靜態下拉式篩選器
 
@@ -69,7 +69,7 @@ ht-degree: 51%
 
 下拉式篩選器也可用於將許多專案合併為一個。例如，如果您的一個專案有許多版本，分別套用了不同國家/地區的篩選器，您可將所有版本合併為單一專案，並新增一個國家/地區下拉式篩選器。
 
-![](assets/dropdown-filter-intro.png)
+![靜態下拉式篩選器顯示反白顯示的市場管道「直接」篩選器。 ](assets/dropdown-filter-intro.png)
 
 若要建立靜態下拉式篩選器：
 
@@ -79,7 +79,7 @@ ht-degree: 51%
 
 從下拉式清單中選取其中一個選項，即可變更面板中的資料。 您也可以選取「 」，選擇不篩選面板中的任何資料 **[!UICONTROL 無篩選器]**.
 
-![](assets/create-dropdown.png)
+![面板視窗中的行動客戶區段欄位可供拖放靜態下拉式篩選器。 ](assets/create-dropdown.png)
 
 以滑鼠右鍵按一下下拉式篩選器，可提供下列選項：
 
@@ -109,7 +109,7 @@ ht-degree: 51%
 
 在面板標題按一下右鍵，可以使用面板的其他功能。
 
-![](assets/right-click-menu.png)
+![面板標題的右鍵選項。](assets/right-click-menu.png)
 
 有以下設定可使用：
 

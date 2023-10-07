@@ -3,10 +3,10 @@ description: 如何變更視覺化調色盤或指定您自己的自訂調色盤�
 title: 視覺化調色盤
 feature: Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 92%
+source-wordcount: '222'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 >
 >Internet Explorer 11 並不支援調色盤。
 
-![](assets/color_palettes.png)
+![「專案資訊和設定」視窗。](assets/color_palettes.png)
 
 請記住：
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 1. 導覽至&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定」]**。
 1. 從 **[!UICONTROL 專案調色盤]** 從下拉式清單中，您可以從5種預先設定的色彩配置中選擇一種。
 
-   ![](assets/custom_palette.png)
+   ![五種預設色彩配置。](assets/custom_palette.png)
 
 1. 若要自訂調色盤，請選取預先設定選項下方的&#x200B;**[!UICONTROL 「自訂調色盤」]**。
 1. 指定最多 16 個由逗號分隔的十六進位值 (例如，#00a4e4) 作為要使用的顏色。舉例來說，如果您只想使用 4 個值，則這些顏色會在包含更多顏色的視覺效果中自動重複。

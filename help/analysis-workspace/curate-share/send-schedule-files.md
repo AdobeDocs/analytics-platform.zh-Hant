@@ -1,18 +1,18 @@
 ---
-description: 您可以組織、共用和排定 PDF/CSV 專案給組織中的收件者。
+description: 瞭解工作區的「共用」功能表選項。
 title: 共用功能表
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
-source-git-commit: b36ba438a14f9fd257f2b6a38be7eb39baaa7d92
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 75%
+source-wordcount: '146'
+ht-degree: 56%
 
 ---
 
 # 共用功能表
 
-您可以在工作區的&#x200B;**「共用」功能表**&#x200B;中，策劃、共用及排定 PDF/CSV 專案給貴組織的收件者。
+您可以在工作區中，組織、共用及排定PDF和CSV專案給組織中的收件者 **共用功能表**.
 
 | 選單選項 | 說明 |
 |---|---|

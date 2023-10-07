@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 建立資料夾
 feature: Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 71%
 
 ---
 
@@ -25,15 +25,15 @@ ht-degree: 100%
 
 1. 從下拉式選單中選取標籤，或新增全新標籤。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
+   ![建立新資料夾視窗，顯示新資料夾名稱和可用標籤的清單。](/help/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
-1. 按一下「**建立**」。
+1. 按一下 **建立**。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create.png)
+   ![按一下「建立」。](/help/analysis-workspace/build-workspace-project/assets/create.png)
 
    新資料夾將新增至專案和資料夾的主清單中。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
+   ![「專案」登陸頁面會顯示更新的專案和資料夾清單。](/help/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
 ## 建立子資料夾 {#create-subfolder}
 
@@ -43,20 +43,20 @@ ht-degree: 100%
 
 1. 按一下「**建立新資料夾**」。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
+   ![按一下「建立新資料夾」。](/help/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
 
 1. 輸入子資料夾名稱並新增任何必要的標記。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
+   ![「建立新資料夾」視窗中有新名稱和標籤欄位。](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
 
 1. 按一下「**建立**」。
 
    新子資料夾將新增至專案和子資料夾的清單中。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
+   ![按一下「建立」。](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
 
    >[!NOTE]
    >
    >您可以在單一資料夾中建立多達 10 層子資料夾。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)
+   ![資料夾下拉式清單會顯示資料夾中的所有子資料夾。](/help/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)

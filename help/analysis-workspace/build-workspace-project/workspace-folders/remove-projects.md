@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 從資料夾中移除專案
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 91%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 100%
 
 1. 從專案資料夾中，選擇專案名稱旁邊的省略符號 **...**。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![省略符號選項。](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. 選取「**移至**」，然後選擇要將專案移動到的資料夾。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+   ![「選取位置」視窗。](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
 1. 按一下「**移動**」。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+   ![按一下「移動」。](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
    快顯通知確認專案已移動。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+   ![移動確認快顯通知。 ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
 ## 從專案資料夾中刪除專案 {#delete-project-in-folder}
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 1. 從專案資料夾中，選擇專案名稱旁邊的省略符號 **...**。
 
-   ![](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+   ![省略符號選項。](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
 1. 選取「**刪除**」。
 

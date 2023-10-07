@@ -3,10 +3,10 @@ description: 若要從 Analysis Workspace 下載資料，請複製該資料或�
 title: 下載Customer Journey Analytics資料
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 24e9e4151360597b099a7985a4566b3ca7bfff00
+source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 58%
+source-wordcount: '1133'
+ht-degree: 55%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 58%
 
      如果您希望下載的檔案是純文字檔案，請選擇此選項。
 
-   ![](assets/download-project.png)
+   ![「專案」下拉式選單中會反白顯示「下載CSV」和「下載PDF」選項。](assets/download-project.png)
 
 1. （視條件而定）如果您選擇下載PDF，在專案準備下載後會顯示訊息。 選取 [!UICONTROL **下載**].
 
@@ -51,7 +51,7 @@ ht-degree: 58%
 >您可以使用快速鍵 `Ctrl+C` 將您的選取內容複製到剪貼簿，然後使用 `Ctrl+V` 將其貼到協力廠商工具中。
 
 
-![](assets/copy-selection.png)
+![「將選取內容複製到剪貼簿」選項。 ](assets/copy-selection.png)
 
 ## 下載為 CSV {#download-data}
 
@@ -66,7 +66,7 @@ ht-degree: 58%
 
 * 在表格中，按一下滑鼠右鍵並選擇 **[!UICONTROL 將選取專案下載為CSV檔]**. 使用這個選項只會下載選取內容，而不是完整的顯示表格。
 
-![](assets/download-data-viz.png)
+![將資料下載為CSV檔選項。](assets/download-data-viz.png)
 
 ## 將項目下載為 CSV 檔 {#download-items}
 
@@ -78,7 +78,7 @@ ht-degree: 58%
 
 您可以在專案中進行多工處理，甚至可以在下載進行中時，導覽至相同索引標籤中的新 Workspace 專案。 如果您開啟新的瀏覽器索引標籤，下載會暫停。 如果您完全離開Workspace或關閉瀏覽器索引標籤，則會取消下載。
 
-![](assets/download-items.png)
+![「將專案下載為CSV檔（頁面）」選項。](assets/download-items.png)
 
 ### 已下載的項目檔案 {#items-file}
 
@@ -90,7 +90,7 @@ ht-degree: 58%
 
 在上述範例中，當下載頁面項目時，會將面板篩選器 (新訪客客戶) 和上方元件 (行銷管道 = 電子郵件) 套用為篩選條件，並從下載的 CSV 檔中移除下方元件 (行動裝置類型)。
 
-![](assets/downloaded-file.png)
+![下載的.csv檔案已在Excel中開啟。](assets/downloaded-file.png)
 
 ### 下載通知 {#notifications}
 
@@ -100,7 +100,7 @@ ht-degree: 58%
 
 如果您一次要求多項下載，您將會收到通知，告知您每項額外下載要等到前一個下載完成時才會排入佇列中。
 
-![](assets/toast.png)
+![顯示完成百分比的下載狀態通知和取消下載連結。](assets/toast.png)
 
 ## 下載敏感性資料 {#sensitive}
 
