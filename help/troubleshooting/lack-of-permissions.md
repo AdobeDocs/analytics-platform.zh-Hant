@@ -4,13 +4,13 @@ description: 瞭解如何疑難排解缺少許可權所導致的問題
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
-source-git-commit: 1905e37b76843a7622af4e874a2d74aceff55384
+exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
+source-git-commit: 72d42123a3c9463514ada584530ad959e99d5c94
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '166'
 ht-degree: 4%
 
 ---
-
 
 # 缺少許可權
 
@@ -21,14 +21,14 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-*[!UICONTROL 發生錯誤，我們無法載入結構描述欄位。請重試。]*
+*[!UICONTROL 擷取DULE原則時發生錯誤。請驗證帳戶許可權、原則或標籤。 訊息：已禁止。]*
 
 >[!ENDSHADEBOX]
 
 
 若要更正此錯誤，您必須對擁有Experience Platform產品的組織具有系統或產品管理員許可權。 另請參閱 [存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) 以取得詳細資訊。
 
-1. 導覽至Adobe Experience Platform UI。
+1. 導覽至AdobeExperience Platform UI。
 
 1. 選取 **[!UICONTROL 許可權]** 從左側邊欄。
 
@@ -41,5 +41,3 @@ ht-degree: 4%
 1. 確定 **[!UICONTROL 管理資料使用原則]** 和 **[!UICONTROL 檢視資料使用原則]** 新增至 **[!UICONTROL 資料控管]** 容器。
 
 1. 選取 **[!UICONTROL 儲存]** 以儲存變更。
-
-

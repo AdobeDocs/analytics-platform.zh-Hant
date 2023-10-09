@@ -3,14 +3,13 @@ title: 衍生欄位
 description: 衍生欄位會透過一組可用函式和函式範本，指定結構描述欄位和/或標準元件的報告時間操控。
 solution: Customer Journey Analytics
 feature: Derived Fields
-exl-id: 1ba38aa6-7db4-47f8-ad3b-c5678e5a5974
-source-git-commit: f1935947fe0273e5cdd5752ab7a9c871b02c990d
+exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
+source-git-commit: 4ec48fcdd62781720f7d648a0ec2169d2af03d23
 workflow-type: tm+mt
-source-wordcount: '5056'
+source-wordcount: '5431'
 ht-degree: 15%
 
 ---
-
 
 # 衍生欄位
 
@@ -62,7 +61,7 @@ ht-degree: 15%
 | A | **規則名稱** | 依預設，規則名稱為 **規則X** （X代表序號）。 若要編輯規則的名稱，請選取其名稱，然後輸入新名稱，例如 `Query Parameter`. |
 | B | **函數名稱** | 規則的選定函式名稱，例如 [!UICONTROL URL解析]. 當函式是函式序列中的最後一個並決定最終輸出值時，函式名稱后面會接著一個 [!UICONTROL  — 最終輸出]，例如 [!UICONTROL URL剖析 — 最終輸出]. <br/>若要顯示包含函式詳細資訊的快顯視窗，請選取 ![說明圖示](assets/Smock_HelpOutline_18_N.svg). |
 | C | **規則說明** | 您可以選擇新增說明至規則。<br/>選取 ![「更多」圖示](assets/More.svg)，然後選取 **[!UICONTROL **&#x200B;新增說明&#x200B;**]** 新增說明或 **[!UICONTROL **&#x200B;編輯說明&#x200B;**]** 以編輯現有的說明。<br/>使用編輯器輸入說明。 您可以使用工具列來格式化文字（使用樣式選擇器、粗體、斜體、底線、右側、左側、置中、顏色、數字清單、專案符號清單），以及新增連結至外部資訊。 <br/>若要完成說明的編輯，請在編輯器外按一下「 」。 |
-| D | **功能區域** | 定義函式的邏輯。 介面取決於函式的型別。 的下拉式清單 [!UICONTROL 欄位] 或 [!UICONTROL 值] 根據函式預期的輸入型別，顯示所有可用欄位類別（規則、標準欄位、欄位）。 <!-- Alternatively, you can drag and drop a field from the Schema and Standard fields selector on to a Field or Value. When that dragged field is originating from a Lookup dataset, a Lookup function is automatically inserted before the function you define.  See [Function reference](#function-reference) on detailed information for each of the functions supported. --> |
+| D | **功能區域** | 定義函式的邏輯。 介面取決於函式的型別。 的下拉式清單 [!UICONTROL 欄位] 或 [!UICONTROL 值] 根據函式預期的輸入型別，顯示所有可用欄位類別（規則、標準欄位、欄位）。 或者，您也可以將欄位從架構和標準欄位選擇器拖放至欄位或值。 當該拖曳欄位源自查閱資料集時，查閱函式會自動插入在您定義的函式之前。 <br/>另請參閱 [函式參考](#function-reference) 每個支援函式的詳細資訊。 |
 
 {style="table-layout:auto"}
 
@@ -482,7 +481,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 您定義 `Hotel Name` 衍生欄位。 您使用 [!UICONTROL 分類] 函式以定義規則，您可在其中分類 [!UICONTROL 飯店ID] 欄位並取代為新值。
 
-如果您想要包含尚未定義成分類值一部分的原始值（例如飯店ID AMS789），請務必選取 **[!UICONTROL 顯示原始值]**. 這可確保AMS789將成為衍生欄位輸出的一部分，即使該值未分類。
+如果您想要包含尚未定義成分類值一部分的原始值（例如飯店ID AMS789），請務必選取 **[!UICONTROL 顯示原始值]**. 這可確保AMS789是衍生欄位輸出的一部分，儘管該值未分類。
 
 ![分類規則1的熒幕擷圖](assets/classify-1.png)
 
@@ -694,55 +693,54 @@ Customer Journey Analytics會使用以下預設容器模型：
 +++
 
 
-<!-- LOOKUP
+<!-- LOOKUP -->
 
-### Lookup
+### 查詢
 
-Lookup values using a field from a lookup dataset and returns value in a new derived field or for further rule processing.
+使用查詢資料集中的欄位來查詢值，並在新的衍生欄位中傳回值或用於進一步的規則處理。
 
-+++ Details
++++ 詳細資料
 
-## Specification {#lookup-io}
+## 規格 {#lookup-io}
 
-| Input Data Type | Input | Included Operators | Limit | Output |
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>String</li><li>Numeric</li><li>Date</li></ul> | <ul><li>[!UICONTROL Field to apply lookup]:</li><ul><li>Rules</li><li>Standard fields</li><li>Fields</li></ul><li>[!UICONTROL Lookup dataset]</li><ul><li>Dataset</li></ul><li>[!UICONTROL Matching key]<ul><li>Rules</li><li>Fields</li></ul></li><li>Values to return<ul><li>Rules</li><li>Fields</li></ul></li></ul> | <p>N/A</p> | <p>3 functions per derived field</p> | <p>New derived field or value for further processing in next rule</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要套用查詢的欄位]:</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 查詢資料集]</li><ul><li>資料集</li></ul><li>[!UICONTROL 比對索引鍵]<ul><li>規則</li><li>欄位</li></ul></li><li>要傳回的值<ul><li>規則</li><li>欄位</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位3個函式</p> | <p>下一個規則中用於進一步處理的新衍生欄位或值</p> |
 
 {style="table-layout:auto"}
 
-## Use case {#lookup-uc}
+## 使用案例 {#lookup-uc}
 
-You would like to lookup the activity name using the activity id collected when your customers clicked on a personalized banner shown through Adobe Target. You want to use a lookup dataset with Analytics for Target (A4T) activities containing activity ids and activity names.
+您想要使用客戶點按透過Adobe Target顯示的個人化橫幅時收集的活動ID來查詢活動名稱。 想要搭配Analytics for Target (A4T)活動（包含活動ID和活動名稱）使用查詢資料集。
 
-### A4T lookup dataset {#lookup-uc-lookup}
+### A4T查詢資料集 {#lookup-uc-lookup}
 
-| Activity Id | Activity Name |
+| 活動ID | 活動名稱 |
 |---|---|
-| 415851 | MVT Test Category Pages |
+| 415851 | MVT測試類別頁面 |
 | 415852 | Luma - Campaign Max 2022 |
-| 402922 | Home Page Banners |
+| 402922 | 首頁橫幅 |
 
 {style="table-layout:auto"}
 
-### Derived field {#lookup-uc-derivedfield}
+### 衍生欄位 {#lookup-uc-derivedfield}
 
-You define an `Activity Name` derived field. You use the [!UICONTROL LOOKUP] function to define a rule to lookup the value from your collected data, specified in the [!UICONTROL Field to apply lookup] field. You select the lookup dataset from the [!UICONTROL Lookup dataset] list, selecting the identifier field from the [!UICONTROL Matching key list] and the field to return from the [!UICONTROL Values to return] list.
+您定義 `Activity Name` 衍生欄位。 您使用 [!UICONTROL 查詢] 定義規則以從收集資料中查詢值的函式，值的指定位置為 [!UICONTROL 要套用查閱的欄位] 欄位(例如 **[!DNL ActivityIdentifier]**)。 您可以從中選擇查詢資料集 [!UICONTROL 查詢資料集] 清單(例如 **[!DNL New CJA4T Activities]**)。 接著選取識別碼欄位(例如 **[!DNL ActivityIdentifier]**)從 [!UICONTROL 比對索引鍵] 清單和要從傳回的欄位 [!UICONTROL 要傳回的值] 清單(例如 **[!DNL ActivityName]**)。
 
-![Screenshot of the Lowercase rule](assets/lookup.png)
+![小寫規則的熒幕擷圖](assets/lookup.png)
 
-## More info
+## 更多資訊
 
-You can quickly insert a [!UICONTROL Lookup] function in the rule builder, already containing one or more other functions.
+您可以快速插入 [!UICONTROL 查詢] 函式中，已包含一或多個其他函式。
 
-  1. Select **[!UICONTROL Schema fields]** from selector.
-  1. Select ![Schema field icon](assets/Smock_Folder_18_N.svg) **[!UICONTROL Lookup datasets]**.
-  1. Select your lookup dataset and find the field you want to use for lookup.
-  1. Drag the lookup field and drop the field on any of the available input fields for a function (for example Case When). When valid, a blue **[!UICONTROL + Add box]** will allow you to drop the field and automatically insert a Lookup function before the function you dropped the lookup field on, and populate the Lookup function with relevant values for all fields.
-     ![Lookup drag](assets/lookup-drag.png) 
+1. 選取 **[!UICONTROL 結構描述欄位]** 從選取器。
+1. 選取 ![結構欄點陣圖示](assets/Smock_Folder_18_N.svg) **[!UICONTROL 查詢資料集]**.
+1. 選取您的查詢資料集，並尋找您要用於查詢的欄位。
+1. 將查詢欄位拖放至函式的任何可用輸入欄位上（例如Case When）。 有效時，會顯示藍色方塊，標籤為 **[!UICONTROL +新增]**，可讓您放置欄位，並在您放置查閱欄位的函式之前自動插入查閱函式。 插入的Lookup函式會自動填入所有欄位的相關值。
+   ![查詢拖曳](assets/lookup-drag.png)
 
 +++
 
--->
 
 <!-- LOWERCASE -->
 
@@ -949,9 +947,9 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 | 輸出預留位置序列 | 說明 |
 | --- | --- |
 | `$&` | 和全部運算式相符的輸出。 |
-| `$n` | 和第 n 個子運算式相符的輸出。例如，`$1` 輸出第一個子運算式。 |
+| `$n` | 和第n個子運算式相符的輸出。 例如， `$1` 輸出第一個子運算式。 |
 | ``$` `` | 輸出找到的最後一個相符項的結尾 (如果沒有找到之前的相符項，則為文字的開頭) 和目前相符項的開頭之間的文字。 |
-| `$+` | 輸出和規則運算式中最後一個標記的子運算式相符的內容。 |
+| `$+` | 輸出和規則運算式中最後一個標籤的子運算式相符的內容。 |
 | `$$` | 輸出字串字元 `"$"`。 |
 
 {style="table-layout:auto"}
@@ -1069,7 +1067,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ## 使用案例1 {#trim-uc1}
 
-您會收集產品資料，但資料中包含隱藏的空白字元，且會提供片段報表。 您想要輕鬆修剪任何多餘的空白字元
+您會收集產品資料，但該資料包含可分割報表的隱藏空白字元。 您想要輕鬆修剪任何多餘的空格
 
 ### 在此之前的資料 {#trim-uc1-databefore}
 
@@ -1097,7 +1095,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ## 使用案例2 {#trim-uc2}
 
-您在頁面名稱上收集的資料在頁面名稱結尾包含一些錯誤的特殊字元，這些字元需要移除。
+您在頁面名稱上收集的資料在頁面名稱結尾包含一些錯誤的特殊字元，這些字元必須移除。
 
 ### 在此之前的資料 {#trim-uc2-databefore}
 
@@ -1259,4 +1257,3 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 - [充分利用資料：在Customer Journey Analytics中使用衍生欄位的架構](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
 
 - [Customer Journey Analytics的衍生欄位使用案例](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
-
