@@ -5,15 +5,15 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 source-git-commit: 0b8fb4007ecb71be2186b8a83f2026b2e296e8a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Customer Journey Analytics 概觀
 
-Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓您可搭配 Adobe Experience Platform 的資料運用 Analysis Workspace 的強大功能。這能協助您劃分、篩選、查詢及視覺化多年累積的資料，並結合 Platform 掌握各種資料綱要和類型的能力。採用 **Experience Data Model (XDM)**，能以統一方式呈現和組織資料，可進行組合和探索。**Adobe Experience Platform查詢服務** 可讓您使用相容於SQL的工具和架構來查詢及操控所有資料。
+Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓您可搭配 Adobe Experience Platform 的資料運用 Analysis Workspace 的強大功能。這能協助您劃分、篩選、查詢及視覺化多年累積的資料，並結合 Platform 掌握各種資料綱要和類型的能力。採用 **Experience Data Model (XDM)**，能以統一方式呈現和組織資料，可進行組合和探索。**Adobe Experience Platform Query Service** 可讓您使用相容於 SQL 的工具和架構來查詢及操控所有資料。
 
 高層級 Customer Journey Analytics 架構如下所示：
 
@@ -47,7 +47,7 @@ Customer Journey Analytics 可用來：
 * **為您的分析師運用資料科學的力量**：Customer Journey Analytics 可讓一般人使用資料科學獲得深入見解及分析。
 * **使用隨選報告將資料集視覺化並與其互動**：工作區可使用 Adobe Experience Platform 中符合某些基本規則的任何資料集。
 * **檢視非 Web 資料**：工作區不再局限於「點擊」或「事件」的硬性定義。自訂綱要可完全控制資料和定義。
-* **對資料操控發揮更大控制力**：變更已上傳的資料、建立新的資料集，並將其匯入工作區中。Adobe Experience Platform透過Experience Platform查詢服務提供查詢、擷取、轉換和載入工具。
+* **對資料操控發揮更大控制力**：變更已上傳的資料、建立新的資料集，並將其匯入工作區中。Adobe Experience Platform 透過 Experience Platform Query Service 提供查詢、擷取、轉換和載入工具。
 
 ## 先決條件
 
@@ -81,7 +81,7 @@ Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶
 
 Experience Platform 的多個元件 (從資料擷取到直接 SQL 存取) 是 Customer Journey Analytics 的核心，且可對其進行補充：
 
-* [Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)：使用標準SQL從Adobe Experience Platform擷取資料，例如Adobe解決方案資料、客戶第一方資料或任何其他Platform資料。 這是一種無伺服器工具，可用來加入任何資料集，以及將查詢結果擷取為新資料集，並用於報表、Data Science Workspace 或內嵌至 Profile Service。您可以使用Experience Platform查詢服務來建置資料分析生態系統，進而了解消費者在不同互動管道中的行為。 這些頻道可能包括銷售點系統、網路、行動裝置、CRM 系統等。
+* [Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)：使用標準 SQL 從 Adobe Experience Platform 擷取資料，例如 Adobe 解決方案資料、客戶第一方資料或任何其他 Platform 資料。這是一種無伺服器工具，可用來加入任何資料集，以及將查詢結果擷取為新資料集，並用於報表、Data Science Workspace 或內嵌至 Profile Service。您可以使用 Experience Platform Query Service 來建立資料分析生態系統，進而瞭解消費者在不同互動管道中的行為。這些頻道可能包括銷售點系統、網路、行動裝置、CRM 系統等。
 * [即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)：
 * [Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)：
 * 「開發人員」選項中的 [Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=zh-Hant)：您可以在 Adobe Experience Platform 中使用預先建立的人工智慧 (AI) 和機器學習模型來影響客戶歷程的各個階段。透過發掘隱藏的深入分析，您可以針對客戶歷程做出更有效的預測、提供建議的最佳後續步驟，或是將繁瑣的程序自動化。

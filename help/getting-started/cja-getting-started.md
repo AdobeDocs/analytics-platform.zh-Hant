@@ -5,9 +5,9 @@ exl-id: cab218c0-009c-4669-9dfb-f8872a7f066b
 solution: Customer Journey Analytics
 feature: Basics
 source-git-commit: 8d3517c86743434aed345bf06b3bd3345490b0ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '476'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics 適用於以下客戶
 
 | 任務 | 詳細資料 |
 | --- | --- |
-| **步驟1：如果您要從Adobe Analytics移轉至Customer Journey Analytics，請移轉資料並復寫專案。** | 如需有關將資料從Adobe Analytics移轉至Customer Journey Analytics的資訊，請參閱： <ul><li>[在 Customer Journey Analytics 中利用 Adobe Analytics 報告套裝資料](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)</li><li>[從傳統 Adobe Analytics 擷取和使用資料](../data-ingestion/analytics.md)</li></ul><p>如需在Customer Journey Analytics中復寫Adobe Analytics專案，以及將專案元件從Adobe Analytics報表套裝對應至Customer Journey Analytics資料檢視的詳細資訊，請參閱：</p><ul><li>[將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html)</li></ul> |
+| **步驟 1：如果您要從 Adobe Analytics 移轉至 Customer Journey Analytics，請移轉您的資料並複製您的專案。** | 如需將 Adobe Analytics 中的資料移轉至 Customer Journey Analytics 的相關資訊，請參閱： <ul><li>[使用 Customer Journey Analytics 中的 Adobe Analytics 報告套裝資料](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)</li><li>[從傳統 Adobe Analytics 擷取和使用資料](../data-ingestion/analytics.md)</li></ul><p>如需在 Customer Journey Analytics 中複製 Adobe Analytics 專案，以及將 Adobe Analytics 報告套裝中的專案元件對應至 Customer Journey Analytics 資料檢視的相關資訊，請參閱：</p><ul><li>[將 Adobe Analytics 中的元件和專案移轉至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html)</li></ul> |
 | **步驟 2：將其他資料匯入 Adobe Experience Platform** | 這個在 Adobe Experience Platform 中執行的步驟包含幾個子步驟：<ul><li>**步驟 2a：準備資料綱要**：使用[Adobe 體驗資料模型 (Experience Data Model，XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 將客戶體驗資料標準化，並為客戶體驗管理[定義綱要](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。</li><li>**步驟 2b：建立以綱要為基礎的資料集**：Platform 中的資料是由資料集所構成，例如電子郵件資料集、CRM 資料集、POS 資料集、Adobe Analytics 資料集等等。每個資料集都是由綱要和資料批次組成。您可以[在 Experience Platform 中建立資料集](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/create-datasets.html?lang=zh-Hant)。</li><li>**步驟 2C：擷取資料至 Experience Platform**：在這裡，您有幾個選擇。</li></ul> |
 | **步驟 3：建立 Platform 資料集和 Customer Journey Analytics 之間的連線** | 連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對 Experience Platform 資料集製作報表，必須先為 Experience Platform 和工作區的資料集建立連線。<br>請參閱[建立連線](/help/connections/create-connection.md)。 |
 | **步驟 4：建立資料檢視** | 資料檢視是「經過篩選」的資料查看畫面。您可以為相同的連線建立不同的資料檢視，並針對造訪逾時、歸因等項目使用不同設定。您可以為單一資料集建立多個資料檢視。<br>請參閱[建立資料檢視](/help/data-views/create-dataview.md)。 |
