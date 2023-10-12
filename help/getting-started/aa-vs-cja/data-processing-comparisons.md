@@ -3,14 +3,14 @@ title: 比較 Adobe Analytics 和 Customer Journey Analytics 報告功能的資�
 description: 了解各種報告功能的資料處理差異
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
 workflow-type: tm+mt
 source-wordcount: '1216'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# 比較 Adobe Analytics 和 Customer Journey Analytics 之間的資料處理。
+# 比較Adobe Analytics和Customer Journey Analytics的資料處理
 
 您通常需要先處理資料，才能將其用於報告中。從收集資料到產生報告或視覺化過程中，您可以在多個階段處理這些資料。
 

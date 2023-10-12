@@ -1,18 +1,18 @@
 ---
-title: 在 Customer Journey Analytics 中利用 Adobe Analytics 報告套裝資料
+title: 在Customer Journey Analytics中使用Adobe Analytics報表套裝資料
 description: 如何設定 Adobe Analytics 報告套件以擷取至 Adobe Experience Platform 和 Customer Journey Analytics
 role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: db5506e0-6159-4d4b-8149-e4966dab9807
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# 在 Customer Journey Analytics 中利用 Adobe Analytics 報告套裝資料
+# 在Customer Journey Analytics中使用Adobe Analytics報表套裝資料
 
 Adobe Analytics 客戶可以使用 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)輕鬆地在 Adobe Experience Platform 和 Customer Journey Analytics 中利用他們的報告套裝。下面的討論內容將說明如何這樣做。
 

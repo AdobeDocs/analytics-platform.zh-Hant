@@ -1,16 +1,16 @@
 ---
-title: 處理規則、VISTA 和分類與 Analytics 來源連接器的「資料準備」的比較
+title: 處理規則、VISTA和分類與Analytics來源聯結器的「資料準備」的比較
 description: 了解使用處理規則和 VISTA 以及使用「資料準備」的資料轉換的異同
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+source-git-commit: 59aabb38ea3e5ba1501ab8da11d14ea2385d8a6b
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
-# 處理規則、VISTA 和分類與「資料準備」的比較
+# 處理規則、VISTA和分類與「資料準備」的比較
 
 Adobe Analytics [處理規則和 VISTA 規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rule-order.html?lang=zh-Hant)提供一種轉換和操作傳遞到 Adobe Analytics [資料彙集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant)中資料的方法。 這些轉換屬於將資料儲存到 Adobe Analytics (以用於報告和分析) 之前的 Adobe 資料處理的一部分。
 
