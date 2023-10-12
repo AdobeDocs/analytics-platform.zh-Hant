@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 4ec48fcdd62781720f7d648a0ec2169d2af03d23
+source-git-commit: bf1e14fc0ecfdab3ff7032133d05ab0f40f123d6
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2686'
 ht-degree: 99%
 
 ---
@@ -20,6 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 10 月** | |
+| 與 Adobe Analytics 比較 | 新增概觀頁面，介紹如何比較和瞭解Customer Journey Analytics與Adobe Analytics之間的差異。 |
 | 附加衍生欄位功能 | 更新新版本的說明檔案 [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) 函式。 |
 | **2023 年 9 月** | |
 | 已更新「媒體播放時間」面板的文章結構 | 已移除名為「媒體播放時間」的資料夾，並將該資料夾的內容合併為一篇文章：[「媒體播放時間」面板](/help/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此變更會更符合其他面板的文件。</p> |
