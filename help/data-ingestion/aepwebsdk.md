@@ -4,7 +4,7 @@ description: 說明如何透過 Adobe Experience Platform Web SDK 和 Edge Netwo
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
+source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
 workflow-type: tm+mt
 source-wordcount: '3607'
 ht-degree: 86%
@@ -54,15 +54,17 @@ ht-degree: 86%
 1. 在 Adobe Experience Platform UI 的左側邊欄中，選取[!UICONTROL 「資料管理」]中的&#x200B;**[!UICONTROL 「結構」]**。
 
 1. 選取 **[!UICONTROL 建立結構描述]**..
-1. 在「建立綱要」精靈的「選取類別」步驟中，選取 **[!UICONTROL 體驗事件]**.
+1. 在建立架構精靈的選取類別步驟中：
 
-   ![建立結構](./assets/create-ee-schema-wizard-step-1.png)
+   1. 選取 **[!UICONTROL 體驗事件]**.
 
-   >[!INFO]
-   >
-   >    體驗事件結構描述是用來建立 _行為_ 的設定檔（像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+      ![建立結構](./assets/create-ee-schema-wizard-step-1.png)
 
-   選取&#x200B;**[!UICONTROL 「下一步」]**。
+      >[!INFO]
+      >
+      >    體驗事件結構描述是用來建立 _行為_ 的設定檔（像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+
+   1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 
 1. 在 [!UICONTROL 名稱和稽核步驟] 的 [!UICONTROL 建立結構描述] 精靈：

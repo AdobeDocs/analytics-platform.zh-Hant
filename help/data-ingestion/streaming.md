@@ -4,7 +4,7 @@ description: 說明如何在 Customer Journey Analytics 中擷取和使用串流
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
-source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
+source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
 workflow-type: tm+mt
 source-wordcount: '2026'
 ht-degree: 85%
@@ -50,15 +50,17 @@ ht-degree: 85%
 1. 在 Adobe Experience Platform UI 的左側邊欄中，選取[!UICONTROL 「資料管理」]中的&#x200B;**[!UICONTROL 「結構」]**。
 
 1. 選取 **[!UICONTROL 建立結構描述]**..
-1. 在「建立綱要」精靈的「選取類別」步驟中，選取 **[!UICONTROL 個別設定檔]**.
+1. 在建立架構精靈的選取類別步驟中：
 
-   ![建立結構](./assets/create-pr-schema-wizard-step-1.png)
+   1. 選取 **[!UICONTROL 個別設定檔]**.
 
-   >[!INFO]
-   >
-   >    體驗事件結構描述是用來建立 _行為_ 的設定檔（像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+      ![建立結構](./assets/create-pr-schema-wizard-step-1.png)
 
-   選取&#x200B;**[!UICONTROL 「下一步」]**。
+      >[!INFO]
+      >
+      >    體驗事件結構描述是用來建立 _行為_ 的設定檔（像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+
+   1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 
 1. 在 [!UICONTROL 名稱和稽核步驟] 的 [!UICONTROL 建立結構描述] 精靈：
