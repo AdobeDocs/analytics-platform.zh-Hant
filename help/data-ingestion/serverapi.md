@@ -3,10 +3,11 @@ title: 透過Adobe Experience Platform Edge Network Server API內嵌資料
 description: 說明如何透過Adobe Experience Platform Edge Network Server API和Edge Network將資料擷取到Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
+source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
 workflow-type: tm+mt
-source-wordcount: '2329'
-ht-degree: 62%
+source-wordcount: '2353'
+ht-degree: 60%
 
 ---
 
@@ -52,28 +53,35 @@ ht-degree: 62%
 
 1. 在 Adobe Experience Platform UI 的左側邊欄中，選取[!UICONTROL 「資料管理」]中的&#x200B;**[!UICONTROL 「結構」]**。
 
-2. 選取&#x200B;**[!UICONTROL 「建立結構」]**。從選項清單中選取&#x200B;**[!UICONTROL 「XDM ExperienceEvent」]**。
+1. 選取 **[!UICONTROL 建立結構描述]**..
+1. 在「建立綱要」精靈的「選取類別」步驟中，選取 **[!UICONTROL 體驗事件]**.
 
-   ![建立結構](./assets/create-ee-schema.png)
+   ![建立結構](./assets/create-ee-schema-wizard-step-1.png)
 
    >[!INFO]
    >
-   >    體驗事件結構描述是用來建立 _行為_ 設定檔的（例如達到遊戲中的關卡）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+   >    體驗事件結構描述是用來建立 _行為_ 的設定檔（像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+
+   選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 
-3. 在[!UICONTROL 「無標題結構」]畫面中：
+1. 在 [!UICONTROL 名稱和稽核步驟] 的 [!UICONTROL 建立結構描述] 精靈：
 
-   1. 輸入結構的顯示名稱與 (可選) 說明。
+   1. 輸入 **[!UICONTROL 結構描述顯示名稱]** 適用於您的結構描述和（選用） a **[!UICONTROL 說明]**.
 
-      ![命名結構](./assets/name-schema.png)
+      ![命名結構](./assets/create-ee-schema-wizard-step-2.png)
 
-   2. 在[!UICONTROL 「欄位群組」]中選取&#x200B;**[!UICONTROL 「+ 新增」]**。
+   1. 選取&#x200B;**[!UICONTROL 「完成」]**。
+
+1. 在範例結構描述的結構標籤中：
+
+   1. 在[!UICONTROL 「欄位群組」]中選取&#x200B;**[!UICONTROL 「+ 新增」]**。
 
       ![新增欄位群組](./assets/add-field-group-button.png)
 
       欄位群組是可重複使用的物件和屬性集合，可讓您輕鬆擴充結構。
 
-   3. 在 [!UICONTROL 新增欄位群組] 對話方塊中，選取 **[!UICONTROL 閃爍的光]** 欄位群組。 此欄位群組的建立是為了追蹤使用者在主機上玩名為Blinding Light的虛構遊戲的進度。
+   1. 在 [!UICONTROL 新增欄位群組] 對話方塊中，選取 **[!UICONTROL 閃爍的光]** 欄位群組。 此欄位群組的建立是為了追蹤使用者在主機上玩名為Blinding Light的虛構遊戲的進度。
 
       ![遮光燈欄位群組](assets/schema-fieldgroup-blindinglight.png)
 
@@ -83,13 +91,13 @@ ht-degree: 62%
 
       選取&#x200B;**[!UICONTROL 「返回」]**&#x200B;來關閉預覽。
 
-   4. 選取&#x200B;**[!UICONTROL 「新增欄位群組」]**。
+   1. 選取&#x200B;**[!UICONTROL 「新增欄位群組」]**。
 
-4. 選取 **[!UICONTROL +]** 位於結構描述名稱旁。
+1. 選取 **[!UICONTROL +]** 位於結構描述名稱旁。
 
    ![範例結構新增欄位按鈕](./assets/example-gamingschema-plus.png)
 
-5. 在 [!UICONTROL 欄位屬性] 面板，輸入 `identification` 作為 [!UICONTROL 欄位名稱]， **[!UICONTROL 識別]** 作為 [!UICONTROL 顯示名稱]，選取 **[!UICONTROL 物件]** 作為 [!UICONTROL 型別] 並選取 **[!UICONTROL ExperienceEvent Core v2.1]** 作為 [!UICONTROL 欄位群組].
+1. 在 [!UICONTROL 欄位屬性] 面板，輸入 `identification` 作為 [!UICONTROL 欄位名稱]， **[!UICONTROL 識別]** 作為 [!UICONTROL 顯示名稱]，選取 **[!UICONTROL 物件]** 作為 [!UICONTROL 型別] 並選取 **[!UICONTROL ExperienceEvent Core v2.1]** 作為 [!UICONTROL 欄位群組].
 
    ![識別物件](./assets/identification-field-gaming.png)
 
@@ -97,7 +105,7 @@ ht-degree: 62%
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
 
-6. 在剛剛新增的識別物件中選取 **[!UICONTROL ecid]** 欄位，然後在右側面板的[!UICONTROL 「身分命名空間」]清單中，選取&#x200B;**[!UICONTROL 「身分」]**&#x200B;和&#x200B;**[!UICONTROL 「主要身分」]**&#x200B;和 **[!UICONTROL ECID]**。
+1. 在剛剛新增的識別物件中選取 **[!UICONTROL ecid]** 欄位，然後在右側面板的[!UICONTROL 「身分命名空間」]清單中，選取&#x200B;**[!UICONTROL 「身分」]**&#x200B;和&#x200B;**[!UICONTROL 「主要身分」]**&#x200B;和 **[!UICONTROL ECID]**。
 
    ![指定 ECID 作為身分](./assets/specify-identity-gaming.png)
 
@@ -105,7 +113,7 @@ ht-degree: 62%
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在 ecid 屬性中。
 
-7. 在剛剛新增的識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板的[!UICONTROL 「身分命名空間」]清單中選取&#x200B;**[!UICONTROL 「身分」]**&#x200B;和&#x200B;**[!UICONTROL 「電子郵件」]**。
+1. 在剛剛新增的識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板的[!UICONTROL 「身分命名空間」]清單中選取&#x200B;**[!UICONTROL 「身分」]**&#x200B;和&#x200B;**[!UICONTROL 「電子郵件」]**。
 
    ![指定電子郵件作為身分](./assets/specify-email-identity-gaming.png)
 
@@ -115,7 +123,7 @@ ht-degree: 62%
 
    選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-8. 選取顯示結構名稱之結構的根元素，然後選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
+1. 選取顯示結構名稱之結構的根元素，然後選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
    系統會提示您啟用設定檔的結構。啟用後，根據此結構將資料擷取至資料集時，該資料就會合併至即時客戶設定檔中。
 
@@ -127,7 +135,7 @@ ht-degree: 62%
 
    ![啟用設定檔結構](./assets/enable-for-profile.png)
 
-9. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
 您已建立最低架構模型，以模擬您可以從遊戲擷取的資料。 該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。為設定檔啟用結構描述後，即可確保從主機遊戲擷取的資料會新增至即時客戶設定檔。
 
@@ -185,7 +193,7 @@ ht-degree: 62%
 
 ## 設定資料流
 
-資料流代表實作Adobe Experience Platform Web和Mobile SDK以及Adobe Experience Platform Edge Network伺服器API時的伺服器端設定。 使用Adobe Experience Platform SDK和Edge Network Server API收集資料時，資料會傳送至Adobe Experience Platform Edge Network。 它是決定要將資料轉送至哪些服務的資料流。
+資料流代表實作Adobe Experience Platform Web和Mobile SDK以及Adobe Experience Platform Edge Network伺服器API時的伺服器端設定。 使用Adobe Experience Platform SDK和Edge Network Server API收集資料時，資料會傳送至Adobe Experience Platform Edge Network。 是決定要將資料轉送至哪些服務的資料流。
 
 在設定中，您想要將從遊戲中收集的資料傳送到Adobe Experience Platform中的資料集。
 

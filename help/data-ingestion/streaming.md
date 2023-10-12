@@ -4,10 +4,10 @@ description: 說明如何在 Customer Journey Analytics 中擷取和使用串流
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: 7ed28afa9d98a581e2d648dcfb438f960900f602
 workflow-type: tm+mt
-source-wordcount: '2000'
-ht-degree: 88%
+source-wordcount: '2026'
+ht-degree: 85%
 
 ---
 
@@ -49,28 +49,35 @@ ht-degree: 88%
 
 1. 在 Adobe Experience Platform UI 的左側邊欄中，選取[!UICONTROL 「資料管理」]中的&#x200B;**[!UICONTROL 「結構」]**。
 
-2. 選取&#x200B;**[!UICONTROL 「建立結構」]**。從選項清單中選取&#x200B;**[!UICONTROL 「XDM 個別設定檔」]**。
+1. 選取 **[!UICONTROL 建立結構描述]**..
+1. 在「建立綱要」精靈的「選取類別」步驟中，選取 **[!UICONTROL 個別設定檔]**.
 
-   ![建立結構](./assets/create-schema.png)
+   ![建立結構](./assets/create-pr-schema-wizard-step-1.png)
 
    >[!INFO]
    >
-   >    個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。體驗事件結構可用來建立設定檔&#x200B;_行為_ (例如頁面檢視、新增至購物車) 模型。
+   >    體驗事件結構描述是用來建立 _行為_ 的設定檔（像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+
+   選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 
-3. 在[!UICONTROL 「無標題結構」]畫面中：
+1. 在 [!UICONTROL 名稱和稽核步驟] 的 [!UICONTROL 建立結構描述] 精靈：
 
-   1. 輸入結構的顯示名稱與 (可選) 說明。
+   1. 輸入 **[!UICONTROL 結構描述顯示名稱]** 適用於您的結構描述和（選用） a **[!UICONTROL 說明]**.
 
-      ![命名結構](./assets/name-loyalty-schema.png)
+      ![命名結構](./assets/create-pr-schema-wizard-step-2.png)
 
-   2. 在[!UICONTROL 「欄位群組」]中選取&#x200B;**[!UICONTROL 「+ 新增」]**。
+   1. 選取&#x200B;**[!UICONTROL 「完成」]**。
+
+1. 在範例結構描述的結構標籤中：
+
+   1. 在[!UICONTROL 「欄位群組」]中選取&#x200B;**[!UICONTROL 「+ 新增」]**。
 
       ![新增欄位群組](./assets/add-field-group-button.png)
 
       欄位群組是可重複使用的物件和屬性集合，可讓您輕鬆擴充結構。
 
-   3. 在[!UICONTROL 「新增欄位群組」]對話框中，從清單中選取&#x200B;**[!UICONTROL 「忠誠度詳細資料」]**&#x200B;欄位群組。
+   1. 在[!UICONTROL 「新增欄位群組」]對話框中，從清單中選取&#x200B;**[!UICONTROL 「忠誠度詳細資料」]**&#x200B;欄位群組。
 
       ![AEP Web SDK ExperienceEvent 欄位群組](./assets/loyalty-fieldgroup.png)
 
@@ -80,13 +87,13 @@ ht-degree: 88%
 
       選取&#x200B;**[!UICONTROL 「返回」]**&#x200B;來關閉預覽。
 
-   4. 選取&#x200B;**[!UICONTROL 「新增欄位群組」]**。
+   1. 選取&#x200B;**[!UICONTROL 「新增欄位群組」]**。
 
-4. 在[!UICONTROL 「結構」]面板中，選取結構名稱旁的 **[!UICONTROL +]**。
+1. 在[!UICONTROL 「結構」]面板中，選取結構名稱旁的 **[!UICONTROL +]**。
 
    ![範例結構新增欄位按鈕](./assets/example-loalty-schema-plus.png)
 
-5. 在[!UICONTROL 「欄位屬性」]面板中，輸入 `Identification` 作為名稱，**[!UICONTROL 「識別」]**&#x200B;作為[!UICONTROL 顯示名稱]，選取&#x200B;**[!UICONTROL 「物件」]**&#x200B;作為[!UICONTROL 類型]，並選取&#x200B;**[!UICONTROL 「設定檔核心 v2」]**&#x200B;作為[!UICONTROL 欄位群組]。
+1. 在[!UICONTROL 「欄位屬性」]面板中，輸入 `Identification` 作為名稱，**[!UICONTROL 「識別」]**&#x200B;作為[!UICONTROL 顯示名稱]，選取&#x200B;**[!UICONTROL 「物件」]**&#x200B;作為[!UICONTROL 類型]，並選取&#x200B;**[!UICONTROL 「設定檔核心 v2」]**&#x200B;作為[!UICONTROL 欄位群組]。
 
    ![識別物件](./assets/identifcation-loyalty-field.png)
 
@@ -94,7 +101,7 @@ ht-degree: 88%
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
 
-6. 在剛剛新增的識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板中，選取&#x200B;**[!UICONTROL 「身分」]**&#x200B;和[!UICONTROL 「身分命名空間」]的&#x200B;**[!UICONTROL 「電子郵件」]**。
+1. 在剛剛新增的識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板中，選取&#x200B;**[!UICONTROL 「身分」]**&#x200B;和[!UICONTROL 「身分命名空間」]的&#x200B;**[!UICONTROL 「電子郵件」]**。
 
    ![指定電子郵件作為身分](./assets/specify-email-loyalty-id.png)
 
@@ -102,7 +109,7 @@ ht-degree: 88%
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在電子郵件屬性中。
 
-7. 選擇結構的根層級 (具備結構名稱)，然後選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
+1. 選擇結構的根層級 (具備結構名稱)，然後選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
    系統會提示您啟用設定檔的結構。啟用後，根據此結構將資料擷取至資料集時，該資料就會合併至即時客戶設定檔中。
 
@@ -114,7 +121,7 @@ ht-degree: 88%
 
    ![啟用設定檔結構](./assets/enable-for-profile.png)
 
-8. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
 您已建立最小結構，以建立可內嵌至 Adobe Experience Platform 的忠誠度資料模型。該結構可讓您使用電子郵件地址來識別設定檔。透過啟用設定檔的結構，即可確保將來自串流來源的資料新增至即時客戶設定檔。
 
