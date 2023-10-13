@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 49d91b513abd545ea73c7867817cd8724b460be4
+source-git-commit: 2828a38161222a5433b15045a70cb25cfbc8bae7
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 96%
+source-wordcount: '775'
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 96%
 | **管理元件時可使用新的欄位** | 現在起，管理元件時可在[計算量度管理器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html)和[篩選器管理器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html)中使用以下新欄位：<ul><li>使用於</li><li>上次使用</li></ul>此資訊可協助您判斷某個元件對組織中的使用者是否有價值、其使用之處，以及是否需要刪除或修改。您可以將資料字典與此資訊搭配使用，以協助追蹤並深入了解元件在組織中的使用情況。 | 2023 年 9 月 23 日 | 2023 年 10 月 4 日 |
 | **將 Adobe Analytics 專案及任何包含的元件移轉至 Customer Journey Analytics** | 您現在可以將 Adobe Analytics 專案移轉至 Customer Journey Analytics。此流程簡化了從 Adobe Analytics 到 Customer Journey Analytics 的轉換。 <p>您將專案移轉至 Customer Journey Analytics 時，資產會從 Adobe Analytics 報告套裝對應至 Customer Journey Analytics 資料檢視。</p> <p>您可以從 Adobe Analytics 介面將專案移轉至 Customer Journey Analytics。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | 不適用 | 2023 年 10 月 9 日 |
 | **Adobe Product Analytics：顯示/隱藏序列** | 按一下圖表圖例或表格列，即可控制視覺效果中序列的可見度。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html?lang=en) | 不適用 | 2023 年 10 月 4 日 |
-| **Adobe Product Analytics 中的註解** | 引導式分析現在支援檢視在Customer Journey Analytics中建立的註解的功能。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=en) | 不適用 | 2023 年 10 月 4 日 |
-| **報告活動管理員** | 報告活動管理器可讓您查看組織中每個連線的報告產能。它為管理員提供報告使用量的詳細可見度，以便在尖峰報告期間輕鬆診斷和修正產能問題。報告活動管理員的主要功能包括：<ul><li>取消目前的報告請求 (包括引導式分析和完整表格匯出的請求)</li><li>限制已定義時段的後續請求</li></ul>除了取消目前的請求之外，管理員現在還可以限制定義時段內的請求。管理員可依據請求、專案或使用者來限制請求。了解更多 (即將推出) | 2023 年 10 月 17 日 | 2023 年 10 月 23 日 |
+| **Adobe Product Analytics 中的註解** | 引導分析現在支援對 Customer Journey Analytics 建立的註解進行檢視的功能。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=en) | 不適用 | 2023 年 10 月 4 日 |
+| **報告活動管理員** | 報告活動管理器可讓您查看組織中每個連線的報告產能。它為管理員提供報告使用量的詳細可見度，以便在尖峰報告期間輕鬆診斷和修正產能問題。報告活動管理員的主要功能包括：<ul><li>取消目前的報告請求 (包括引導式分析和完整表格匯出的請求)</li><li>限制已定義時段的後續請求</li></ul>除了取消目前的請求之外，管理員現在還可以限制定義時段內的請求。管理員可依據請求、專案或使用者來限制請求。[了解更多](/help/reporting-activity-manager/reporting-activity-overview.md) | 2023 年 10 月 17 日 | 2023 年 10 月 23 日 |
 
 {style="table-layout:auto"}
 

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 設定雲端匯出帳戶
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 02174836d246e6e7c4bf2056a69b8cfeb35ed981
+source-git-commit: 2828a38161222a5433b15045a70cb25cfbc8bae7
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1826'
 ht-degree: 4%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 4%
 
    ![匯出帳戶對話方塊AEP資料登陸區域](assets/export-account-aep.png)
 
-1. 複製 [!UICONTROL **SAS URI**] 欄位至您的剪貼簿。
+1. 複製 [!UICONTROL **SAS URI**] 欄位至您的剪貼簿。 您將使用此SAS URI來存取從Analysis Workspace從AEP資料登陸區域匯出的資料。
 
-   您將使用此SAS URI來存取從Analysis Workspace從AEP資料登陸區域匯出的資料。
+   如果此欄位為空，您需要被授予存取Adobe Experience Platform的許可權。
 
 1. 在Adobe Experience Platform中，設定您的資料登陸區域容器，以使用您複製的SAS URI。
 
@@ -82,6 +82,11 @@ ht-degree: 4%
       您可以略過一節中說明的任務 [擷取資料登陸區域的認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#retrieve-dlz-credentials) 和 [更新資料登陸區域認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#update-dlz-credentials)，因為您複製的URI包含這些認證。
 
    1. 閱讀Adobe Experience Platform檔案後，您會前往 [!UICONTROL **Blob容器SAS URL**] 欄位貼上您在步驟3中複製的SAS URI。
+
+      >[!NOTE]
+      >
+      >您需要每7天執行此動作，因為SAS URI會在建立7天後過期。 您可以建立指令碼來自動化此程式。
+
 
       ![SAS URL欄位](assets/blob-container-sas-uri.png)
 
