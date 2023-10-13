@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 設定雲端匯出帳戶
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 9662123d641999b1a38a9f0c0a6437c3f271c60b
+source-git-commit: 02174836d246e6e7c4bf2056a69b8cfeb35ed981
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 5%
+source-wordcount: '1783'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 1. 繼續下列對應至的區段 [!UICONTROL **帳戶型別**] 您已選取「 」。
 
-   * [AEP資料登陸區域](#adobe-experience-platform)
+   * [AEP 資料登陸區域](#adobe-experience-platform)
 
    * [Amazon S3 Role ARN](#amazon-s3-role-arn)
 
@@ -51,7 +51,7 @@ ht-degree: 5%
 
    * [Snowflake](#snowflake)
 
-### AEP資料登陸區域
+### AEP 資料登陸區域
 
 >[!IMPORTANT]
 >
@@ -65,9 +65,31 @@ ht-degree: 5%
 
    ![匯出帳戶對話方塊AEP資料登陸區域](assets/export-account-aep.png)
 
-1. 複製 [!UICONTROL **SAS URI**] 欄位至您的剪貼簿。 使用此SAS URI可存取從Analysis Workspace從AEP登陸區域匯出的資料。
+1. 複製 [!UICONTROL **SAS URI**] 欄位至您的剪貼簿。
 
-1. 選取 [!UICONTROL **確定**].
+   您將使用此SAS URI來存取從Analysis Workspace從AEP資料登陸區域匯出的資料。
+
+1. 在Adobe Experience Platform中，設定您的資料登陸區域容器，以使用您複製的SAS URI。
+
+   >[!NOTE]
+   >
+   >由於AEP資料登陸區域帳戶是以Azure為基礎，存取您匯出至AEP資料登陸區域之報告的最簡單方式，就是使用Azure儲存體總管。 下列步驟會使用此方法。
+
+   1. 如果沒有，請下載 [Microsoft Azure儲存體總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
+
+   1. 在Adobe Experience Platform檔案中，請遵循中所述的步驟 [將您的資料登陸區域容器連線至Azure儲存體總管](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#connect-your-data-landing-zone-container-to-azure-storage-explorer).
+
+      您可以略過一節中說明的任務 [擷取資料登陸區域的認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#retrieve-dlz-credentials) 和 [更新資料登陸區域認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en#update-dlz-credentials)，因為您複製的URI包含這些認證。
+
+   1. 閱讀Adobe Experience Platform檔案後，您會前往 [!UICONTROL **Blob容器SAS URL**] 欄位貼上您在步驟3中複製的SAS URI。
+
+      ![SAS URL欄位](assets/blob-container-sas-uri.png)
+
+   1. 選取 [!UICONTROL **下一個**] > [!UICONTROL **連線**].
+
+1. 在Customer Journey Analytics中，在 [!UICONTROL **已建立匯出帳戶**] 對話方塊，選取 [!UICONTROL **確定**].
+
+   ![匯出帳戶對話方塊AEP資料登陸區域](assets/export-account-aep.png)
 
 1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
 

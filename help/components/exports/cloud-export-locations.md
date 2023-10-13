@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 設定雲端匯出位置
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: 34588ccd39d7464387197a0b4bfd6a9e416bd9c0
+source-git-commit: 3c1e256bb2197ed844d699e4a28076b014566b99
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1497'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 4%
 
    繼續以下對應至您在所選帳戶型別的區段 [!UICONTROL **位置帳戶**] 欄位。
 
-### AEP資料登陸區域
+### AEP 資料登陸區域
 
 >[!IMPORTANT]
 >
@@ -57,7 +57,7 @@ ht-degree: 4%
 
    <!-- still need to update; can't create AEP account -->
 
-   | 欄位 | 功能 |
+   | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/` |
 
@@ -67,6 +67,21 @@ ht-degree: 4%
 
 1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱 [將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md).
 
+1. 在AEP資料登陸區域中存取資料的最簡單方式是使用Microsoft Azure Storage Explorer。 此工具與設定相關資訊的指示相同， [AEP資料登陸區域帳戶](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone).
+
+   1. 開啟 [Microsoft Azure儲存體總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
+
+   1. 前往 [!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_數字_]**>*** your_container_name ***.
+
+      >[!NOTE]
+      >
+      >資料夾名稱 **[!UICONTROL cjaexport-_數字_]**是Azure儲存體總管提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（正常），則此資料夾的名稱將為&#x200B;**[!UICONTROL cjaexport-1]**.
+
+
+      ![存取Azure儲存體總管中的檔案](assets/azure-storage-explorer-access.png)
+
+   1. 選取您要下載的匯出，然後選取「 」 [!UICONTROL **下載**] 以下載。
+
 ### Amazon S3 Role ARN
 
 1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
@@ -75,7 +90,7 @@ ht-degree: 4%
 
    <!-- still need to update; can't create S3 role ARN account -->
 
-   | 欄位 | 功能 |
+   | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **分段**] | 您想要將Adobe Analytics資料傳送至的Amazon S3帳戶中的貯體。 確保Adobe提供的使用者ARN有權將檔案上傳到此貯體。 |
    | [!UICONTROL **前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， folder_name/ |
@@ -94,7 +109,7 @@ ht-degree: 4%
 
    <!-- still need to update; can't create GCP account -->
 
-   | 欄位 | 功能 |
+   | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **分段**] | 您想要傳送Customer Journey Analytics資料的GCP帳戶中的貯體。 確保您已授予Adobe所提供之主體的許可權，可將檔案上傳至此儲存貯體。 (本金提供於 [設定Google Cloud Platform帳戶](/help/components/exports/cloud-export-accounts.md).) 如需授與許可權的詳細資訊，請參閱 [將主體新增至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) (位於Google Cloud檔案中)。 |
    | [!UICONTROL **前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， folder_name/ |
@@ -111,7 +126,7 @@ ht-degree: 4%
 
 1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Azure SAS位置：
 
-   | 欄位 | 功能 |
+   | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **容器名稱**] | 您指定要將Customer Journey Analytics資料傳送到的帳戶中的容器。 |
    | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/` |
@@ -128,7 +143,7 @@ ht-degree: 4%
 
 1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Azure RBAC位置：
 
-   | 欄位 | 功能 |
+   | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **容器**] | 您指定要將Adobe Analytics資料傳送至何處的帳戶中的容器。 請確定您授與許可權，可以將檔案上傳至您先前建立的Azure應用程式。 |
    | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/` |
@@ -146,7 +161,7 @@ ht-degree: 4%
 
 1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Snowflake位置：
 
-   | 欄位 | 功能 |
+   | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **資料庫**] | 指定的資料庫應為現有資料庫。 您建立的角色必須具備存取此資料庫的許可權。<p>這是與階段名稱關聯的資料庫。</p><p>您可以使用下列命令，將此角色許可權授與Snowflake中的資料庫： `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>如需詳細資訊，請參閱 [Snowflake檔案中的「資料庫、綱要，以及共用命令」頁面](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
    | [!UICONTROL **綱要**] | 指定的結構描述應該是現有的結構描述。 您建立的角色必須具備存取此綱要的許可權。<p>這是與階段名稱關聯的結構描述。<p>您可以使用下列命令，將您建立的許可權授與Snowflake綱要中的角色： `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>如需詳細資訊，請參閱 [Snowflake檔案中的「資料庫、綱要，以及共用命令」頁面](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
