@@ -1,17 +1,17 @@
 ---
-title: (B2B) 新增帳戶層級資料當做查詢資料集
+title: 新增帳戶層級資料當作查詢資料集
 description: 瞭解如何將以帳戶為基礎的資料，以查詢資料集的形式新增至Customer Journey Analytics
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: 647257322dc4b7e64e0e17fbfde27f626b1012a1
+source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '817'
 ht-degree: 74%
 
 ---
 
-# (B2B) 新增帳戶層級資料當做查詢資料集
+# 新增帳戶層級資料當作查詢資料集
 
 此 B2B 使用案例顯示如何在帳戶層級、而非個人層級指定資料以進行分析。帳戶層級分析可回答以下類型的問題
 
