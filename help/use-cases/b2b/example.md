@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: 980afb6d8344c04b431c596d39a8f0003b7201ba
+source-git-commit: 7b90ce212b6964fde6bdf2d47b2c751330e4f399
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 15%
@@ -68,7 +68,7 @@ ht-degree: 15%
 
 若要在建置工作區專案時存取相關的B2B維度和量度，您必須相應地定義資料檢視。
 
-本節提供在定義維度與量度時，應包含哪些維度和量度的建議與建議。 [元件](../../data-views/create-dataview.md#components) 針對資料檢視中的B2B資料集。
+本節提供在定義維度與量度時，應包含哪些維度和量度的建議與建議。 [元件](../../data-views/create-dataview.md#components) 資料檢視中的B2B資料集。
 
 對於每個元件，都會提供名稱、結構描述型別、結構描述路徑以及有關設定的詳細資訊（若適用）。
 
@@ -302,7 +302,7 @@ The B2B Marketing List Member dataset contains member of marketing lists.
 
 以下是依賴上述連線和資料檢視的工作區專案範例。 如需詳細資訊，請參閱每個視覺效果的說明。
 
-+++ 詳細資料
++++ 專案
 
 ![視覺效果](assets/visualizations.png)
 
