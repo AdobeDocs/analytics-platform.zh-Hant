@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
+source-git-commit: 980afb6d8344c04b431c596d39a8f0003b7201ba
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1822'
 ht-degree: 15%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 15%
 
 若要在建置工作區專案時存取相關的B2B維度和量度，您必須相應地定義資料檢視。
 
-本節提供在定義維度與量度時，應包含哪些維度和量度的建議與建議。 [元件](../../data-views/create-dataview.md#components) 資料檢視的「 」。
+本節提供在定義維度與量度時，應包含哪些維度和量度的建議與建議。 [元件](../../data-views/create-dataview.md#components) 針對資料檢視中的B2B資料集。
 
 對於每個元件，都會提供名稱、結構描述型別、結構描述路徑以及有關設定的詳細資訊（若適用）。
 
