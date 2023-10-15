@@ -3,10 +3,10 @@ title: 在報告活動管理器中檢視報告活動
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: dba42bedd14c4c6d958feab9a1ebdc137d489f32
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 17%
+source-wordcount: '1731'
+ht-degree: 16%
 
 ---
 
@@ -43,25 +43,25 @@ ht-degree: 17%
    | UI 元素 | 說明 |
    | --- | --- |
    | **[!UICONTROL 連線]** | 您正在監控其報告活動的連線。 |
-   | **[!UICONTROL 虛擬報告套裝]** | 顯示注入到此基本報告套裝所有虛擬報告套裝。虛擬報告套裝因套用了額外層級的篩選和細分，而增加了報告請求的複雜性。來自虛擬報表套裝的所有請求都會合併至基本報表套裝。<p>例如，如果您有來自5個虛擬報表套裝的10個請求，那麼在基本層級的報表套裝中會有50個請求。 如此一來，您很快就會達到容量。 |
-   | **[!UICONTROL 容量使用情況]** | 報告套裝即時使用的報告容量百分比。 <p>**注意** 使用容量為100%並不一定表示您應立即開始取消報告請求。 如果平均等待時間合理，則100%使用容量可能狀況良好。 另一方面，如果排入佇列的請求數量也在增加，則100%的使用容量可能會造成問題。</p> |
+   | **[!UICONTROL 資料檢視]** | 顯示饋入連線的所有資料檢視。 由於套用了額外層級的篩選和細分，資料檢視增加了報告請求的複雜性。 來自資料檢視的所有請求都會合併到連線中。<p>例如，如果您有來自5個資料檢視的10個請求，則連線中有50個請求。 如此一來，您很快就會達到容量。 |
+   | **[!UICONTROL 容量使用情況]** | 連線的即時報告容量使用百分比。 <p>**注意** 使用容量為100%並不一定表示您應立即開始取消報告請求。 如果平均等待時間合理，則100%使用容量可能狀況良好。 另一方面，如果排入佇列的請求數量也在增加，則100%的使用容量可能會造成問題。</p> |
    | **[!UICONTROL 已佇列的請求]** | 等待處理的要求數目。 <!-- ??? --> |
    | **[!UICONTROL 佇列等待時間]** | 開始處理要求前的平均等待時間。 <!-- ???? --> |
-   | **[!UICONTROL 狀態]** | 可能的狀態包括： <ul><li>[!UICONTROL **作用中**] （藍色）：已在報表套裝上執行報表，且正在監控其活動。</li><li>[!UICONTROL **非使用中**] （灰色）：報表套裝上未曾執行過任何報表。 此狀態僅在首次建立報表套裝時顯示。</li></ul> |
+   | **[!UICONTROL 狀態]** | 可能的狀態包括： <ul><li>[!UICONTROL **作用中**] （藍色）：已在連線上執行報告，且正在監視其活動。</li><li>[!UICONTROL **非使用中**] （灰色）：連線未曾執行任何報告。 只有在首次建立連線時，才會顯示此狀態。</li></ul> |
 
    {style="table-layout:auto"}
 
-## 檢視單一報表套裝的報告活動
+## 檢視單一連線的報告活動
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **工具**] > [!UICONTROL **報告活動管理器**].
 
-1. 選取您要檢視詳細資料之報表套裝的連結標題。
+1. 選取您要檢視其詳細資訊之連線的連結標題。
 
-   系統會顯示您所選報表套裝的報表活動資料。
+   系統會顯示您所選連線的報告活動資料。
 
-   <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
+   <!-- Need to update this screenshot: ![connection](assets/indiv-report-ste.png) -->
 
-1. 使用可用的圖表和表格來瞭解報表套裝中的報表活動。
+1. 使用可用的圖表和表格來瞭解連線中的報告活動。
 
    * [檢檢視表](#view-graphs)
 
@@ -69,13 +69,13 @@ ht-degree: 17%
 
 ### 檢檢視表
 
-下列圖表可協助您更清楚瞭解報表套裝中發生的活動。
+下列圖表可協助您更清楚瞭解連線中發生的活動。
 
 如果圖形不可見，請選取 [!UICONTROL **顯示圖表**] 按鈕。
 
 #### 使用率圖表 {#utilization}
 
-「使用率」圖表顯示所選報表套裝在過去2小時內的報表使用率。
+「使用率」圖表顯示所選連線在過去2小時內的報告使用率。
 
 暫留在圖表上可檢視該分鐘使用容量百分比最高的時間點。
 
@@ -86,7 +86,7 @@ ht-degree: 17%
 
 #### 不同使用者圖表
 
-「不同使用者」圖表顯示所選報表套裝在過去2小時內的報表活動。
+「不同使用者」圖表顯示所選連線在過去2小時內的報告活動。
 
 將滑鼠指標暫留在圖表上可檢視該分鐘最大使用者數最高的時間點。
 
@@ -97,7 +97,7 @@ ht-degree: 17%
 
 #### 請求圖表
 
-請求圖表顯示所選報表套裝在過去2小時內的已處理和已完成請求數。
+「要求」圖表顯示過去2小時內所選連線的已處理及完成要求數目。
 
 將游標暫留在圖表上可檢視該分鐘最大請求數最高的時間點。
 
@@ -108,7 +108,7 @@ ht-degree: 17%
 
 #### 佇列圖表
 
-「佇列」圖表顯示所選報表套裝在過去2小時內報告要求的平均佇列等待時間（以秒為單位）。
+「佇列」圖表顯示所選連線在過去2小時內報告要求的平均佇列等待時間（以秒為單位）。
 
 將游標停留在圖表上可檢視該分鐘最大平均等待時間最高的時間點。
 
@@ -158,7 +158,7 @@ ht-degree: 17%
 | [!UICONTROL **請求數量**] | 使用者起始的請求數。 |
 | [!UICONTROL **專案數量**] | 與使用者相關聯的專案數。 <!-- ??? --> |
 | [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：區段、計算量度、註解、對象等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>智慧型警報</li></ul> |
-| [!UICONTROL **平均複雜性**] | 使用者起始的要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p><ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均欄數**]</li><li>[!UICONTROL **平均區段數**]</li></ul> |
+| [!UICONTROL **平均複雜度**] | 使用者起始的要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p><ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均欄數**]</li><li>[!UICONTROL **平均區段數**]</li></ul> |
 | [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 月邊界越多，請求就越複雜。 |
 | [!UICONTROL **平均欄數**] | 包含的請求中的平均量度和劃分數。 更多欄會增加請求的複雜性。 |
 | [!UICONTROL **平均區段數**] | 套用至所包含要求的平均區段數。 更多區段會增加請求的複雜性。 |
@@ -175,7 +175,7 @@ ht-degree: 17%
 | [!UICONTROL **請求數量**] | 與專案相關聯的請求數。 |
 | [!UICONTROL **使用者人數**] | 與專案相關聯的使用者人數。 <!-- ??? --> |
 | [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：區段、計算量度、註解、對象等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>智慧型警報</li></ul> |
-| [!UICONTROL **平均複雜性**] | 專案中包含之要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p><ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均欄數**]</li><li>[!UICONTROL **平均區段數**]</li></ul> |
+| [!UICONTROL **平均複雜度**] | 專案中包含之要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p><ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均欄數**]</li><li>[!UICONTROL **平均區段數**]</li></ul> |
 | [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 月邊界越多，請求就越複雜。 |
 | [!UICONTROL **平均欄數**] | 包含的請求中的平均量度和劃分數。 更多欄會增加請求的複雜性。 |
 | [!UICONTROL **平均區段數**] | 套用至所包含要求的平均區段數。 更多區段會增加請求的複雜性。 |
@@ -192,7 +192,7 @@ ht-degree: 17%
 | [!UICONTROL **請求數量**] | 與應用程式相關聯的要求數目。 |
 | [!UICONTROL **使用者人數**] | 與應用程式相關聯的使用者數目。 <!--???--> |
 | [!UICONTROL **專案數量**] | 與應用程式相關聯的專案數目。 <!--???--> |
-| [!UICONTROL **平均複雜性**] | 與應用程式相關之要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p>此欄中的值以分數為基礎，分數由下列欄中的值決定：<ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均欄數**]</li><li>[!UICONTROL **平均區段數**]</li></ul> |
+| [!UICONTROL **平均複雜度**] | 與應用程式相關之要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p>此欄中的值以分數為基礎，分數由下列欄中的值決定：<ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均欄數**]</li><li>[!UICONTROL **平均區段數**]</li></ul> |
 | [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 月邊界越多，請求就越複雜。 |
 | [!UICONTROL **平均欄數**] | 包含的請求中的平均量度和劃分數。 更多欄會增加請求的複雜性。 |
 | [!UICONTROL **平均區段數**] | 套用至所包含要求的平均區段數。 更多區段會增加請求的複雜性。 |
@@ -215,11 +215,11 @@ The Summary Numbers show the following information:
 
 | Summary Number | Description |
 | --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
+| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this connection. |
 | [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
 | [!UICONTROL **Queries**] | The number of queries currently running. |
 | [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
+| [!UICONTROL **Usage Capacity**] | The current usage capacity for this connection. |
 
 {style="table-layout:auto"}
 

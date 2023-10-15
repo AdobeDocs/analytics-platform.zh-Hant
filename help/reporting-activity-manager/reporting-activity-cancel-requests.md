@@ -3,7 +3,7 @@ title: 取消報告活動管理器中的報告請求
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 23509d26e08b50a6b7a133fdc9a3e2d2d3e8fe43
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 7%
@@ -132,6 +132,8 @@ ht-degree: 7%
    Analysis Workspace中會顯示通知，通知使用者請求已取消。 如需如何在Analysis Workspace中顯示此內容的詳細資訊，請參閱 [使用者存取已取消報告時的體驗](#experience-when-users-access-a-cancelled-report).
 
 ## 使用者存取已取消報告時的體驗
+
+<!-- Update for CJA and AA -->
 
 在Analysis Workspace中，使用者嘗試存取管理員已取消的報告時，會看到下列訊息：
 

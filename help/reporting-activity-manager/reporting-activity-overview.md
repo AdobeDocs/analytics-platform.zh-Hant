@@ -3,7 +3,7 @@ title: 報告活動管理器總覽
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 23509d26e08b50a6b7a133fdc9a3e2d2d3e8fe43
+source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 34%
@@ -29,6 +29,8 @@ ht-degree: 34%
 * 可讓您限制指定時段未來的要求。 您可以限制特定請求，也可以限制來自特定使用者的所有請求，或與特定專案相關聯的請求。
 
 ## 權限
+
+<!-- update for CJA -->
 
 若要管理報告活動，您必須在Adobe Admin Console中擁有Analytics產品管理員許可權。
 
