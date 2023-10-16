@@ -3,10 +3,10 @@ title: 報告活動管理器總覽
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 57124124254f5ca9eb2a9f63a7478cd288c19b0e
+source-git-commit: c6896187173c70eedb370d0b4670640bab1d8827
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 34%
+source-wordcount: '289'
+ht-degree: 29%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 34%
 
 * 可讓您監控及管理組織中每個連線的報告容量。
 * 即時通知您跨連線的目前報告容量。
-* 提供有關目前報告請求的詳細報告查詢資訊，無論已排入佇列還是進行中。
+* 提供有關目前報告請求的詳細報告資訊，無論已排入佇列還是進行中。
 * 允許您透過優先處理某些報告請求並取消其他報告請求以釋放容量，而最佳化報告佇列。這可回答類似以下的問題：這時是否需要這份報告，或者我可以取消它以用於更緊急的報告？
 * 可讓您限制指定時段未來的要求。 您可以限制特定請求，也可以限制來自特定使用者的所有請求，或與特定專案相關聯的請求。
 
