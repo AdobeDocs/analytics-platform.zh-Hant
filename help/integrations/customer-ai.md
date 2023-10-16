@@ -4,8 +4,8 @@ title: 將Customer AI資料與Customer Journey Analytics整合
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
-feature: Platform Integration
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Experience Platform Integration
+source-git-commit: 2429c60cab701017702e3312770232aa329e303c
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 49%
@@ -26,16 +26,16 @@ Customer AI可與Customer Journey Analytics整合，以便在Customer Journey An
 
 * **追蹤使用者區段不同時期的傾向分數**。 
    * 使用案例：瞭解特定區段中的客戶轉換的可能性。
-   * 範例：連鎖飯店的行銷人員想要瞭解飯店客戶在飯店音樂會場地購買演出門票的可能性。
+   * 範例：連鎖飯店的行銷人員想要瞭解飯店客戶在飯店音樂會場地購買節目門票的可能性。
 * **分析哪些成功事件或屬性與傾向分數相關**.
    * 使用案例：瞭解與傾向分數相關的屬性或成功事件。
-   * 範例：連鎖飯店的行銷人員想要瞭解在飯店音樂會場地購買演出門票與傾向分數有何關聯。
+   * 範例：連鎖飯店的行銷人員想要瞭解在飯店音樂會場地購買節目門票與傾向分數之間的關係。
 * **經過不同評分執行下來，追蹤客戶傾向的變化過程**。 
    * 使用案例：瞭解起初傾向性偏低，但隨著時間轉為傾向性偏高的使用者。
-   * 範例：連鎖飯店的行銷人員想要瞭解哪些飯店客戶最初被認定為低購買演出門票傾向的客戶，但隨著時間推移，這些客戶變成高購買演出門票傾向的客戶。
+   * 範例：連鎖飯店的行銷人員想要瞭解最初將哪些飯店客戶識別為低購買演出門票傾向的客戶，但隨著時間推移，這些客戶變成高購買演出門票傾向的客戶。
 * **檢視傾向性的分佈**。 
-   * 使用案例：瞭解傾向分數的分佈，以在定義區段時更精確。
-   * 範例：零售商想要以$50的產品折扣進行特定促銷。 由於預算等因素，他們只能進行有限度的促銷活動。 他們分析資料，並決定只將目標鎖定在前80%以上的客戶。
+   * 使用案例：瞭解傾向分數的分佈，以更準確地定義區段。
+   * 範例：零售商想要以$50的產品折扣展開特定促銷活動。 由於預算等因素，他們只能進行有限度的促銷活動。 他們分析資料，並決定只將目標鎖定在前80%+的客戶。
 * **檢視特定同類群組在不同時期完成某項動作的傾向性**。 
    * 使用案例：追蹤特定同類群組在不同時期的情況。
    * 範例：某連鎖飯店的行銷人員想要追蹤觀察銅級與銀級客群，或銀級與金級客群在不同時期的情況。 他們可以檢視每個同類群組在不同時期訂房的傾向。
@@ -44,7 +44,7 @@ Customer AI可與Customer Journey Analytics整合，以便在Customer Journey An
 
 >[!NOTE]
 >
->在使用Customer Journey Analytics中的輸出之前，必須在Adobe Experience Platform中執行某些步驟。
+>在使用Customer Journey Analytics中的輸出之前，請在Adobe Experience Platform中執行某些步驟。
 
 
 ## 步驟 1：設定 Customer AI 執行個體
@@ -57,7 +57,7 @@ Customer AI可與Customer Journey Analytics整合，以便在Customer Journey An
 
 >[!IMPORTANT]
 >
->如果在步驟1的設定中開啟切換以啟用Customer Journey Analytics分數，則每個Customer AI執行個體都有兩個輸出資料集。 其中一個輸出資料集為個人資料 XDM 格式，另一個為體驗事件 XDM 格式。
+>如果在步驟1的設定中開啟切換以啟用Customer Journey Analytics分數，則每個Customer AI執行個體會有兩個輸出資料集。 其中一個輸出資料集為個人資料 XDM 格式，另一個為體驗事件 XDM 格式。
 
 ![CAI 分數](assets/cai-scores.png)
 
@@ -67,11 +67,11 @@ Customer AI可與Customer Journey Analytics整合，以便在Customer Journey An
 
 ![CAI 結構描述](assets/cai-schema.png)
 
-(請注意，此範例是設定檔資料集；同一組結構描述物件將成為Customer Journey Analytics捕捉的體驗事件資料集的一部分。 體驗事件資料集會包含時間戳記當作評分日期。) 在此模型中被評分的每個客戶都會有與其相關的分數、評分日期等。
+(請注意，此範例為設定檔資料集；同一組結構描述物件將成為Customer Journey Analytics捕捉的Experience Event資料集的一部分。 體驗事件資料集會包含時間戳記當作評分日期。) 在此模型中被評分的每個客戶都會有與其相關的分數、評分日期等。
 
 ## 步驟 3：根據這些連線建立資料檢視
 
-在Customer Journey Analytics中，您現在可以繼續進行 [建立資料檢視](/help/data-views/create-dataview.md) 以及您在建立的連線中引進的維度（例如分數、評分日期、機率等）和量度。
+在Customer Journey Analytics中，您現在可以繼續前往 [建立資料檢視](/help/data-views/create-dataview.md) 以及您在建立的連線中引進的維度（例如分數、評分日期、可能性等）和量度。
 
 ![建立資料檢視](assets/create-dataview.png)
 

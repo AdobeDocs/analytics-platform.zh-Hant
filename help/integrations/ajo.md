@@ -2,8 +2,8 @@
 title: 將 Adobe Journey Optimizer 與 Customer Journey Analytics 整合
 description: 引進Adobe Journey Optimizer產生的資料，並在Customer Journey Analytics中使用Analysis Workspace加以分析。
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
-feature: Platform Integration
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+feature: Experience Platform Integration
+source-git-commit: 2429c60cab701017702e3312770232aa329e303c
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 68%
@@ -28,9 +28,9 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 
 | 資料集 | 資料集類型 | 連線設定 | 說明 |
 | --- | --- | --- | --- |
-| AJO訊息回饋事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含訊息傳遞事件，例如&#39;[!UICONTROL 傳送]&#39;和&#39;[!UICONTROL 彈回數]&#39;. |
-| AJO電子郵件追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含電子郵件追蹤事件，例如「[!UICONTROL 開啟次數]&#39;， &#39;[!UICONTROL 點按次數]&#39;和&#39;[!UICONTROL 取消訂閱]&#39;. |
-| AJO推播追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含推播追蹤事件，例如&#39;[!UICONTROL 應用程式啟動次數]&#39;. |
+| AJO訊息回饋事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含訊息傳遞事件，例如&#39;[!UICONTROL 傳送]&#39;和&#39;[!UICONTROL 跳出數]&#39;. |
+| AJO電子郵件追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含電子郵件追蹤事件，例如[!UICONTROL 開啟次數]&#39;， &#39;[!UICONTROL 點按次數]&#39;和&#39;[!UICONTROL 取消訂閱]&#39;. |
+| AJO推播追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含推播追蹤事件，例如[!UICONTROL 應用程式啟動次數]&#39;. |
 | 歷程步驟事件 | 事件 | 人員 ID: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 包含顯示哪些設定檔參與歷程每個節點的事件。 |
 | AJO實體資料集 | 查詢 | 索引鍵： `_id`<br>比對索引鍵： `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 包含將Journey和Campaign中繼資料與所有Adobe Journey Optimizer事件資料建立關聯的分類。 |
 
@@ -85,10 +85,10 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 | 垃圾郵件申訴 | 垃圾郵件投訴計數。 | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：計量<br>包括排除值：等於 `spam_complaint` |
 | 取消訂閱數 | 取消訂閱的計數。 | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：計量<br>包括排除值：等於 `unsubscribe` |
 | Edge傳送 | 邊緣網路傳送訊息至網頁或行動SDK的次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.send` |
-| 傳入顯示區 | 向使用者顯示網頁或應用程式內訊息的次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.display` |
-| 傳入點按次數 | 網頁或應用程式內訊息點按次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.interact` |
-| 應用程式內觸發器 | 決策引擎建議訊息應顯示的次數。 行動SDK可能會覆寫減少實際顯示數量的決定。 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.trigger` |
-| 應用程式內解除 | SDK從使用者介面移除應用程式內訊息的次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.dismiss` |
+| 傳入顯示 | 向使用者顯示網頁或InApp訊息的次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.display` |
+| 傳入點按次數 | Web或InApp訊息點選次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.interact` |
+| 應用程式內觸發器 | 決策引擎建議應顯示訊息的次數。 行動SDK可能會覆寫減少實際顯示數量的決定。 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.trigger` |
+| 應用程式內解除 | SDK從UI移除InApp訊息的次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.dismiss` |
 
 {style="table-layout:auto"}
 
