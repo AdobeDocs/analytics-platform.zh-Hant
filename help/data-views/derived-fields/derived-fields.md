@@ -4,10 +4,10 @@ description: 衍生欄位會透過一組可用函式和函式範本，指定結�
 solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
-source-git-commit: 4ec48fcdd62781720f7d648a0ec2169d2af03d23
+source-git-commit: 7a96c6b1f093a534e473de3bde8dc3044564c450
 workflow-type: tm+mt
-source-wordcount: '5431'
-ht-degree: 15%
+source-wordcount: '5641'
+ht-degree: 14%
 
 ---
 
@@ -100,6 +100,22 @@ ht-degree: 15%
 
    - 選取 **[!UICONTROL **&#x200B;另存為&#x200B;**]** 將衍生欄位另存為新衍生欄位。 新衍生欄位的名稱與原始編輯的衍生欄位相同，其名稱為 `(copy)` 新增至此頁面。
 
+或者，如果您已在資料檢視中使用衍生欄位做為維度或量度的元件：
+
+1. 選取元件。 請注意，元件的名稱可能與衍生欄位不同。
+
+1. 在「元件」面板中，選取 ![編輯圖示](assets/Smock_Edit_18_N.svg) 位於衍生欄位旁邊、結構描述欄位名稱下方。
+
+1. 若要編輯衍生欄位，請使用 [!UICONTROL 編輯衍生欄位] 介面。 另請參閱 [衍生欄位介面](#derived-field-interface).
+
+   - 選取 **[!UICONTROL **&#x200B;儲存&#x200B;**]** 以儲存更新的衍生欄位。
+
+   - 選取 **[!UICONTROL **&#x200B;取消&#x200B;**]** 取消您對衍生欄位所做的任何變更。
+
+   - 選取 **[!UICONTROL **&#x200B;另存為&#x200B;**]** 將衍生欄位另存為新衍生欄位。 新衍生欄位的名稱與原始編輯的衍生欄位相同，其名稱為 `(copy)` 新增至此頁面。
+
+
+
 ## 刪除衍生欄位
 
 1. 選取現有的資料檢視。 另請參閱 [資料檢視](../data-views.md) 以取得詳細資訊。
@@ -112,7 +128,19 @@ ht-degree: 15%
 
 5. 將游標停留在您要刪除的衍生欄位上，然後選取 ![編輯圖示](assets/Smock_Edit_18_N.svg).
 
-6. 使用中 **[!UICONTROL **&#x200B;編輯衍生欄位&#x200B;**]** 介面，選取刪除。
+6. 在 [!UICONTROL 編輯衍生欄位] 介面，選取 **[!UICONTROL 刪除]**.
+
+   A [!UICONTROL 刪除元件] 對話方塊會要求您確認刪除。 考慮任何外部參考，這些參考可能存在於資料檢視之外的衍生欄位。
+
+   - 選取 **[!UICONTROL **&#x200B;繼續&#x200B;**]** 以刪除衍生欄位。
+
+或者，如果您已在資料檢視中使用衍生欄位做為維度或量度的元件：
+
+1. 選取元件。 請注意，元件的名稱可能與衍生欄位不同。
+
+1. 在「元件」面板中，選取 ![編輯圖示](assets/Smock_Edit_18_N.svg) 位於衍生欄位旁邊、結構描述欄位名稱下方。
+
+1. 在 [!UICONTROL 編輯衍生欄位] 介面，選取 **[!UICONTROL 刪除]**.
 
    A [!UICONTROL 刪除元件] 對話方塊會要求您確認刪除。 考慮任何外部參考，這些參考可能存在於資料檢視之外的衍生欄位。
 
