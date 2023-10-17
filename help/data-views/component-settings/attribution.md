@@ -4,10 +4,10 @@ description: 允許您為量度設定預設歸因。
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '1859'
-ht-degree: 37%
+source-wordcount: '1937'
+ht-degree: 35%
 
 ---
 
@@ -28,21 +28,17 @@ ht-degree: 37%
 
 您可以更新資料檢視中的量度設定，以設定指定量度的預設歸因模型。 只要量度用於Analysis Workspace，就會覆寫該量度的歸因模型。
 
-<!-- 
-
 >[!NOTE]
 >
->Consider the following when enabling attribution on a metric:
+>對量度啟用歸因時，請考慮下列事項：
 >
->* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>* **在報表中使用元件搭配 *單一維度*：** 使用非預設歸因模型時，元件的歸因會忽略配置模型。
 >
->* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>* **在報表中使用元件搭配 *多個維度*：** 使用非預設歸因模型時，元件的歸因會保留配置模型。
 >
->   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>   多個維度僅在以下情況下才可用 [將資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md).
 >
-> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
-
--->
+> 如需配置的詳細資訊，請參閱 [持續性元件設定](/help/data-views/component-settings/persistence.md).
 
 更新元件的預設歸因模型：
 

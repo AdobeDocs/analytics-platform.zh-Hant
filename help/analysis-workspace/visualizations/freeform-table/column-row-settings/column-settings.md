@@ -3,10 +3,10 @@ description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 94%
+source-wordcount: '768'
+ht-degree: 84%
 
 ---
 
@@ -56,21 +56,17 @@ ht-degree: 94%
 
 可讓您覆寫在中設定的預設歸因模型 [資料檢視](/help/data-views/component-settings/attribution.md).
 
-<!--
-
 >[!NOTE]
 >
->Consider the following when updating a component's attribution to a non-default attribution model:
+>將元件的歸因更新為非預設歸因模型時，請考量下列事項：
 >
->* **When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.
+>* **在報表中使用元件搭配 *單一維度*：** 使用非預設歸因模型時，元件的歸因會忽略配置模型。
 >
->* **When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.
+>* **在報表中使用元件搭配 *多個維度*：** 使用非預設歸因模型時，元件的歸因會保留配置模型。
 >
->   Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+>   多個維度僅在以下情況下才可用 [將資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md).
 >
-> For more information about allocation, see [Persistence component settings](/help/data-views/component-settings/persistence.md).
-
--->
+> 如需配置的詳細資訊，請參閱 [持續性元件設定](/help/data-views/component-settings/persistence.md).
 
 若要對Analysis Workspace中的量度使用非預設歸因模型：
 

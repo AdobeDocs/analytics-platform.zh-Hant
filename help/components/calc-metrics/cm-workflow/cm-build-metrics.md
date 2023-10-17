@@ -3,10 +3,10 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建立量度
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 65%
+source-wordcount: '1056'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,7 @@ Customer Journey Analytics提供的畫布可拖放維度、量度、篩選器和
 | 預覽 | 提供快速閱覽，以便查看可能的錯誤。預覽涵蓋最近 90 天。這可供您初步衡量是否為量度選擇了正確的元件。意外的結果可能表示您需要再次檢查量度定義。 |
 | 產品相容性 | 對於您在Customer Journey Analytics中建立的任何計算量度，此值一律會列為 [!UICONTROL **完全處理的資料**]. 計算量度只能包含事件資料集中的資料。 |
 | 新增 | 若為所有類型的計算量度，您可以將容器和靜態數字新增到定義中。若為進階計算量度，您也可以新增篩選器和函數。<ul><li>容器的功能類似數學運算式，用以決定運算順序。所以容器中的項目會先行處理，再進行下一個運算。</li><li>將篩選器拖曳至容器可篩選該容器中的所有專案。 (僅限進階計算量度)</li><li>您可以在一個容器中堆疊多個篩選器。</li></ul> |
-| 齒輪圖示 (「量度類型」、「歸因」) | 選取量度旁的齒輪圖示，即可指定量度類型和歸因模式。 <!-- <p>**Note:** Consider the following when updating a component's attribution to a non-default attribution model:</p><ul><li>**When using the component in a report with *a single dimension*:** The component's attribution ignores the allocation model when a non-default attribution model is used.</li><li>**When using the component in a report with *multiple dimensions*:** The component's attribution retains the allocation model when a non-default attribution model is used.</li><li>Multiple dimensions are available only when [exporting data to the cloud](/help/analysis-workspace/export/export-cloud.md).</li></ul> --> <p>如需配置的詳細資訊，請參閱 [持續性元件設定](/help/data-views/component-settings/persistence.md).</p> |
+| 齒輪圖示 (「量度類型」、「歸因」) | 選取量度旁的齒輪圖示，即可指定量度類型和歸因模式。 <p>**注意：** 將元件的歸因更新為非預設歸因模型時，請考量下列事項：</p><ul><li>**在報表中使用元件搭配 *單一維度*：** 使用非預設歸因模型時，元件的歸因會忽略配置模型。</li><li>**在報表中使用元件搭配 *多個維度*：** 使用非預設歸因模型時，元件的歸因會保留配置模型。</li><li>多個維度僅在以下情況下才可用 [將資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md).</li></ul> <p>如需配置的詳細資訊，請參閱 [持續性元件設定](/help/data-views/component-settings/persistence.md).</p> |
 | 加號(+)圖示 | 可讓您建立新元件，例如新篩選器 (會帶您前往「篩選產生器」)。 |
 | 搜尋元件 | 此搜尋列可讓您搜尋維度、量度、篩選器（僅限進階計算量度）和函式（僅限進階計算量度）。 |
 | 維度清單 | 您可以將「頁面」拖曳進來，並直接從計算量度產生器選取「首頁」，而不用為了在篩選產生器中建立簡易篩選器（例如「頁面=首頁」）而離開計算量度產生器。 如此可讓工作流程更為流暢，方便建立篩選過的計算量度。 |

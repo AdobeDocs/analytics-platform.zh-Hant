@@ -4,10 +4,10 @@ description: 決定是否會在不同事件中儲存維度值或是如何儲存�
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 1c5ea3f49d47ffd833404260e6c21bd1e64a2734
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 86%
+source-wordcount: '859'
+ht-degree: 81%
 
 ---
 
@@ -20,15 +20,11 @@ ht-degree: 86%
 
 * **配置**&#x200B;可讓您確定當一個列中可以同時保留多個維度項時保留哪個值。
 
-<!--
-
   >[!NOTE]
   >
-  >If you have a [non-default attribution model](/help/data-views/component-settings/attribution.md) set on a metric in a report, the attribution model ignores the allocation you set on the dimension for the same report.
+  >如果您擁有 [非預設歸因模型](/help/data-views/component-settings/attribution.md) 如果在報表的量度上設定，歸因模型會忽略您為相同報表在維度上設定的配置。
   >
-  >However, when doing a [full table export](/help/analysis-workspace/export/export-cloud.md) that includes multiple dimensions, attribution retains the allocation models applied to each dimension.
-
--->
+  >然而，當執行 [完整表格匯出](/help/analysis-workspace/export/export-cloud.md) 歸因包含多個維度，會保留套用至每個維度的配置模型。
 
 * **到期日**&#x200B;可讓您確定維度項目在其設定的事件之後持續多長時間。
 

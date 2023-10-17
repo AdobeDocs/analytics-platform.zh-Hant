@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 設定雲端匯出帳戶
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: 2828a38161222a5433b15045a70cb25cfbc8bae7
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '1826'
 ht-degree: 4%
@@ -12,8 +12,6 @@ ht-degree: 4%
 ---
 
 # 設定雲端匯出帳戶
-
-{{release-limited-testing}}
 
 在您可以將Customer Journey Analytics報表匯出至雲端目的地之前（如所述） [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)，您需要新增並設定要傳送資料的目的地。
 

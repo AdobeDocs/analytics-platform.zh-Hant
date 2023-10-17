@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 疑難排解失敗的匯出
 feature: Components
 exl-id: fbc25150-4390-40a2-9f17-aadf254258ad
-source-git-commit: 3252a41f5ee1f439a3f233b06a8be1fdf6150234
+source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 7%
@@ -12,8 +12,6 @@ ht-degree: 7%
 ---
 
 # 疑難排解失敗的匯出
-
-{{release-limited-testing}}
 
 當您 [將完整表格從Analysis Workspace匯出至雲端目的地](/help/analysis-workspace/export/export-cloud.md)，您可從以下位置檢視這些匯出的狀態： [匯出索引標籤](/help/components/exports/manage-exports.md) 和從 [記錄檔索引標籤](/help/components/exports/manage-export-logs.md). 失敗的匯出會顯示狀態 [!UICONTROL **已失敗**].
 
