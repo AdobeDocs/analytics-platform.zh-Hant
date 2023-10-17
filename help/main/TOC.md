@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: ad57fcbb8ff7d4a80a5e1f151c1df327af55b304
+source-git-commit: debc0f4bc3521bbf547bfc287e7881b805863867
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 81%
+source-wordcount: '1048'
+ht-degree: 82%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 81%
       + [在 Customer Journey Analytics 中利用 Adobe Analytics 資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 功能支援](../getting-started/aa-vs-cja/cja-aa.md)
       + [比較透過 Analytics 來源連接器傳遞的 Analytics 資料術語](../getting-started/aa-vs-cja/terminology.md)
-      + [比較Adobe Analytics和Customer Journey Analytics的資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [比較 Adobe Analytics 和 Customer Journey Analytics 之間的資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
       + [虛擬報告環境和沙箱環境](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
       + [處理規則、VISTA 和分類與資料準備的比較](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
       + [AAID、ECID、AACUSTOMID 和 Analytics 來源連接器](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
@@ -345,6 +345,9 @@ ht-degree: 81%
       + [結合報告套裝與不同的結構描述](../use-cases/aa-data/combine-report-suites.md)
    + 複雜的資料 {#complex-data}
       + [使用物件陣列](../use-cases/object-arrays.md)
+   + 衍生欄位 {#derived-fields}
+      + [使用衍生欄位來報告目標](../use-cases/goals-using-derived-fields.md)
+
 
 + 管理 {#cja-admin}
    + [存取控制](../admin/cja-access-control.md)
