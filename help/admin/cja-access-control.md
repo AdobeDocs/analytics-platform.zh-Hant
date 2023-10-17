@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
-source-git-commit: d5a46c4ffbacb0e05a637ee9e19875572a2aebf4
+source-git-commit: cdbe7953fca701d1791c74ec7fb7f6ff9fa40801
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '956'
 ht-degree: 82%
 
 ---
@@ -25,6 +25,7 @@ Customer Journey Analytics由三個存取層級或三個角色管理：產品管
 * 建立/更新/刪除連線或資料檢視
 * 更新/刪除專案、篩選器、計算量度、對象、註解或其他使用者建立的篩選器
 * 與所有使用者共用 Workspace 專案
+* 在中管理報告活動 [報告活動管理器](/help/reporting-activity-manager/reporting-activity-overview.md)
 
 光是成為 Customer Journey Analytics 中的產品管理員仍無法建立、更新或刪除[連線](/help/connections/overview.md)。若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
 

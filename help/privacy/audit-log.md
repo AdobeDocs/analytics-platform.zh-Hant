@@ -3,9 +3,9 @@ title: 稽核記錄
 description: 瞭解如何檢視和管理Customer Journey Analytics稽核記錄。
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: dcfc960019b1dbd1b0306f4a0f07d113ae3f1312
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '807'
 ht-degree: 67%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 67%
 
 就基本概念而言，稽核記錄說明了&#x200B;**誰**&#x200B;執行了&#x200B;**什麼**&#x200B;動作，以及&#x200B;**何時**&#x200B;執行。稽核記錄中所記錄的每個動作都包含中繼資料，其指出動作類型、日期和時間、執行動作之使用者的電子郵件 ID，以及與動作類型相關的其他屬性。
 
-本主題涵蓋Customer Journey Analytics稽核記錄，包括如何在UI中檢視和管理它們。
+本主題涵蓋Customer Journey Analytics中的稽核記錄，包括如何在UI中檢視和管理它們。
 
 ## 存取稽核記錄
 
@@ -48,8 +48,9 @@ ht-degree: 67%
    * 建立
    * DELETE
    * 編輯
+   * 禁運
    * 匯出
-   * ORG_CHANGE
+   * 組織變更
    * 重新整理
    * 共用
    * 轉移
@@ -58,13 +59,13 @@ ht-degree: 67%
 * **[!UICONTROL 建立日期]**：執行動作的日期和時間。
 * **[!UICONTROL 說明]**：動作摘要。
 * **[!UICONTROL 使用者名稱]**：執行此動作的使用者。
-* **[!UICONTROL 電子郵件]**：執行動作之使用者的電子郵件地址。
+* **[!UICONTROL 電子郵件]**：執行此動作之使用者的電子郵件地址。
 * **[!UICONTROL 元件名稱]**：使用者對其採取動作的元件。
 * **[!UICONTROL 元件型別]**：元件的型別。 可能的值包括：
    * 註解
    * 對象
    * CALCULATED_METRIC
-   * 連線
+   * CONNECTION
    * 資料群組
    * 資料檢視
    * DATASET_STITCHING
@@ -78,10 +79,10 @@ ht-degree: 67%
    * 排程專案
    * 使用者
    * 使用者群組
-* **[!UICONTROL 元件ID]**：使用者對其執行動作的元件的ID。
+* **[!UICONTROL 元件ID]**：使用者對其採取動作的元件的ID。
 * **[!UICONTROL IMS組織ID]**：組織的IMS ID，格式為 `ABC123@AdobeOrg`.
 * **[!UICONTROL 記錄ID]**：識別此記錄專案的唯一ID。
-* **[!UICONTROL 使用者ID]**：識別執行動作之使用者的唯一ID。
+* **[!UICONTROL 使用者ID]**：識別採取動作之使用者的唯一ID。
 * **[!UICONTROL 使用者型別]**：使用的驗證型別。 有效值包括：
    * IMS
    * OKTA
@@ -137,4 +138,4 @@ ht-degree: 67%
 
 ## 管理 API 中的稽核記錄
 
-所有可以在 UI 中執行的動作，也可以使用 API 呼叫來完成。請參閱 [Customer Journey AnalyticsAPI參考檔案](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) 以取得詳細資訊。
+所有可以在 UI 中執行的動作，也可以使用 API 呼叫來完成。請參閱 [Customer Journey Analytics API參考檔案](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) 以取得詳細資訊。

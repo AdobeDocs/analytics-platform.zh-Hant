@@ -3,10 +3,10 @@ title: 報告活動管理器總覽
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: c6896187173c70eedb370d0b4670640bab1d8827
+source-git-commit: cdbe7953fca701d1791c74ec7fb7f6ff9fa40801
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 29%
+source-wordcount: '276'
+ht-degree: 23%
 
 ---
 
@@ -32,9 +32,7 @@ ht-degree: 29%
 
 <!-- update for CJA -->
 
-若要管理報告活動，您必須在Adobe Admin Console中擁有Analytics產品管理員許可權。
-
-![權限](assets/rep-mgr-permission.png)
+若要管理報告活動，您必須具備產品管理員角色。 如需詳細資訊，請參閱 [產品管理員角色](/help/admin/cja-access-control.md#product-admin-role) 在 [Customer Journey Analytics存取控制](/help/admin/cja-access-control.md).
 
 ## 檢視報告活動
 
@@ -43,11 +41,3 @@ ht-degree: 29%
 ## 取消報告請求
 
 如需有關在報告活動管理器中取消報告請求的資訊，請參閱 [取消報告活動管理器中的報告請求](/help/reporting-activity-manager/reporting-activity-cancel-requests.md).
-
-## 常見問題集 {#faq}
-
-| 問題 | 回答 |
-| --- | --- |
-| 我可以購買額外的報告容量嗎？ | 此容量將在不久的未來提供。 |
-
-{style="table-layout:auto"}
