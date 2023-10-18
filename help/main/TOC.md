@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: debc0f4bc3521bbf547bfc287e7881b805863867
+source-git-commit: f6c874a96278cf593174f5ee79557b3a711a23e3
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 82%
 
 ---
@@ -190,18 +190,20 @@ ht-degree: 82%
 
 + 引導式分析 {#guided-analysis}
    + [概觀](../guided-analysis/overview.md)
-   + 影響 {#impact}
-      + [發行檢視](../guided-analysis/types/release.md)
-      + [首次使用檢視](../guided-analysis/types/first-use.md)
-   + 漏斗 {#funnel}
-      + [摩擦檢視](../guided-analysis/types/friction.md)
-      + [轉換趨勢檢視](../guided-analysis/types/conversion-trends.md)
    + 使用者增長 {#user-growth}
       + [使用中檢視](../guided-analysis/types/active.md)
       + [淨成長檢視](../guided-analysis/types/net-growth.md)
    + 趨勢 {#trends}
       + [使用情況檢視](../guided-analysis/types/usage.md)
       + [頻率檢視](../guided-analysis/types/frequency.md)
+   + 漏斗 {#funnel}
+      + [摩擦檢視](../guided-analysis/types/friction.md)
+      + [轉換趨勢檢視](../guided-analysis/types/conversion-trends.md)
+   + 影響 {#impact}
+      + [發行檢視](../guided-analysis/types/release.md)
+      + [首次使用檢視](../guided-analysis/types/first-use.md)
+   + 保留 {#retention}
+      + [保留率](../guided-analysis/types/retention-rates.md)
    + [產業使用案例](../guided-analysis/industry-use-cases.md)
    + [常見問題](../guided-analysis/faq.md)
 
