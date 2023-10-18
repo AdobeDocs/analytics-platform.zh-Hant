@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: 53cf026531ac5690a3e5a31acaa5654a52747b69
+source-git-commit: 69317871bae9ad2a0fecad6b1df1cc357094b05c
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 ## 使用目標
 
-若要在您的Workspace專案中使用目標，請使用計算量度功能，將衍生欄位「標準化」回其原始靜態值。
+若要在Workspace專案中使用目標，您可使用計算量度功能，將衍生欄位「標準化」回其原始靜態值。 您必須進行這項標準化，因為您為定義目標的衍生欄位設定的靜態值，會隨著每個事件而增加。
 
 ### 每月贈品憑證訂購目標
 
