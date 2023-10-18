@@ -3,10 +3,11 @@ title: 拼接概述
 description: 銜接概觀。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: 52d47e777e8c9f7e1e73f4131f19d7df280cb2a3
+exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
+source-git-commit: c83917d0d73c2a178d5479f2a0257bd3f400666c
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 23%
+source-wordcount: '1370'
+ht-degree: 22%
 
 ---
 
@@ -41,10 +42,11 @@ ht-degree: 23%
 * Adobe Experience Platform中您要套用拚接的事件資料集必須具有兩個協助識別訪客的欄：
 
    * **永久 ID**，每列都會顯示這個識別碼，例如，Adobe AnalyticsAppMeasurement庫產生的訪客ID或Adobe Experience Cloud Identity Service產生的ECID。
-   * **暫時 ID**，僅部分列會顯示這個識別碼，例如訪客驗證後雜湊的使用者名稱或電子郵件地址。您幾乎可以使用任何您喜歡的識別碼。 拼接會考量此欄位來儲存實際的人員ID資訊。 為獲得最佳拼接結果，每個永久ID應在資料集事件中至少傳送一次「暫時ID」 。
-如果您打算將此資料集納入Customer Journey Analytics連線，最好讓其他資料集也具有類似的通用識別碼。
+   * **暫時 ID**，僅部分列會顯示這個識別碼，例如訪客驗證後雜湊的使用者名稱或電子郵件地址。您幾乎可以使用任何您喜歡的識別碼。 拼接會考量此欄位來儲存實際的人員ID資訊。 為獲得最佳拼接結果，每個永久ID應在資料集事件中至少傳送一次「暫時ID」 。 如果您打算將此資料集納入Customer Journey Analytics連線，最好讓其他資料集也具有類似的通用識別碼。
 
-* 拼接包括合併已驗證和未驗證的使用者資料。 在事件資料集上啟用連結之前，請確定您遵守適用的法律和法規，包括取得必要的一般使用者許可權。
+  這兩欄（永久ID和暫時ID）都必須在您要拼接的資料集基礎結構描述中，定義為具有身分名稱空間的身分欄位。
+
+* 拼接包括合併已驗證和未驗證的使用者資料。 在事件資料集上啟用連結之前，請確定您遵守適用的法律和法規，包括取得必要的一般使用者許可權。 另請參閱 [在UI中定義身分欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#) 以取得詳細資訊。
 
 
 ## 使用拼接
@@ -126,7 +128,3 @@ Once the data view is set up, the cross-channel analysis in Customer Journey Ana
 * 兩個或多個資料集的合併。 拼接僅適用於一個資料集。 設定Customer Journey Analytics連線，並在連線中選取的資料集中選取相同的人員ID，會造成資料集合併。
 
 * 兩個資料集的聯結。 在Customer Journey Analytics中，聯結通常用於Analysis Workspace中的查閱或分類。 雖然銜接使用連線功能，但程式本身涉及的不只是連線。
-
-
-
-
