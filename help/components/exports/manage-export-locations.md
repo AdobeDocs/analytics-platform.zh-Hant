@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 管理雲端匯出位置和帳戶
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '482'
 ht-degree: 5%
 
 ---
@@ -63,11 +63,7 @@ ht-degree: 5%
 
 ## 刪除位置
 
-如果您刪除位置，則使用該位置的任何匯出內容也會一併刪除。
-
-在刪除位置之前，請先選取位置名稱旁的資訊圖示，檢視任何匯出是否正在使用它。
-
-![連線的匯出](assets/location-connected-exports.png)
+如果您刪除位置，則使用該位置的任何匯出內容也會一併刪除。 刪除時勾選確認對話方塊，以確保沒有任何匯出專案與該位置相關聯。
 
 若要刪除位置：
 
@@ -77,7 +73,15 @@ ht-degree: 5%
 
    ![編輯位置](assets/locations-edit.png)
 
-1. 選取 [!UICONTROL **刪除**]，然後選取 [!UICONTROL **刪除**] 再次在確認對話方塊中。
+1. 選取「[!UICONTROL **刪除**]」。
+
+   「刪除位置」對話方塊隨即顯示。
+
+1. 在「刪除位置」對話方塊中，在確認刪除之前，請確定該位置未與任何匯出相關聯。
+
+   ![刪除位置確認對話方塊](assets/delete-location-confirmation-dialog.png)
+
+1. 選取 [!UICONTROL **刪除**] 再次確認。
 
 ## 編輯帳戶
 
@@ -85,7 +89,7 @@ ht-degree: 5%
 
 1. 選取 [!UICONTROL **位置帳戶**] 標籤。
 
-   ![帳戶頁面](assets/account-page.png)
+   ![帳戶頁面](assets/account-add.png)
 
 1. 選取 [!UICONTROL **檢視詳細資料**] 在您想要編輯的帳戶上。
 
@@ -101,7 +105,7 @@ ht-degree: 5%
 
 1. 選取 [!UICONTROL **位置帳戶**] 標籤。
 
-   ![帳戶頁面](assets/account-page.png)
+   ![帳戶頁面](assets/account-add.png)
 
 1. 在您要編輯的帳戶上選取3點圖示，然後選取「 」 [!UICONTROL **帳戶金鑰**].
 
@@ -111,7 +115,7 @@ ht-degree: 5%
 
 1. 選取 [!UICONTROL **位置帳戶**] 標籤。
 
-   ![帳戶頁面](assets/account-page.png)
+   ![帳戶頁面](assets/account-add.png)
 
 1. 在您要編輯的帳戶上選取3點圖示，然後選取「 」 [!UICONTROL **刪除帳戶**].
 

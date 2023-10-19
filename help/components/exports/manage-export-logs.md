@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 管理匯出記錄檔
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '825'
 ht-degree: 7%
 
 ---
@@ -16,6 +16,26 @@ ht-degree: 7%
 匯出記錄檔會提供每次匯出的詳細資訊，並在每次Analysis Workspace資料匯出至雲端時產生。 (如需有關如何將資料匯出至雲端的資訊，請參閱 [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md).)
 
 對於已排程的匯出，記錄會反映匯出設定，與傳送記錄時的設定相同。 無法刪除記錄檔。
+
+## 檢視匯出記錄
+
+1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
+
+1. 選取 [!UICONTROL **記錄檔**] 標籤。
+
+   ![匯出記錄檔標籤](assets/export-logs-tab.png)
+
+   每個記錄的詳細資訊都會顯示在可用的欄中。
+
+1. 執行以下任一操作：
+
+   * [自訂欄](#configure-columns) 都會顯示。
+
+   * 選取 **資訊圖示** ![資訊圖示](assets/information-icon.png) 在記錄檔名稱旁邊，檢視與記錄檔關聯的匯出。
+
+   * 選取 **編輯匯出圖示** ![資訊圖示](assets/edit-export-icon.png) 在記錄名稱旁邊，編輯與記錄關聯的匯出。
+
+     如需有關編輯匯出的詳細資訊，請參閱 [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md).
 
 ## 篩選和搜尋記錄
 
