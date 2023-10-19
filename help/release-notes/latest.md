@@ -3,7 +3,7 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1482cc7b9da01b60e15d2e48b1156b603e20c6e3
+source-git-commit: 328b95efb7ed9ff597b95979ecdeceaa8db92bb4
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 97%
@@ -12,7 +12,7 @@ ht-degree: 97%
 
 # 最新的 Adobe Customer Journey Analytics 版本注意事項 (2023 年 10 月)
 
-**上次更新日期**：2023 年 10 月 17 日
+**上次更新日期**：2023 年 10 月 19 日
 
 這些版本注意事項涵蓋 2023 年 10 月 4 日至 2023 年 10 月 24 日的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 | **將 Adobe Analytics 專案及任何包含的元件移轉至 Customer Journey Analytics** | 您現在可以將 Adobe Analytics 專案移轉至 Customer Journey Analytics。此流程簡化了從 Adobe Analytics 到 Customer Journey Analytics 的轉換。 <p>您將專案移轉至 Customer Journey Analytics 時，資產會從 Adobe Analytics 報告套裝對應至 Customer Journey Analytics 資料檢視。</p> <p>您可以從 Adobe Analytics 介面將專案移轉至 Customer Journey Analytics。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | 不適用 | 2023 年 10 月 9 日 |
 | **Adobe Product Analytics：顯示/隱藏序列** | 按一下圖表圖例或表格列，即可控制視覺效果中序列的可見度。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html?lang=zh-Hant) | 不適用 | 2023 年 10 月 4 日 |
 | **Adobe Product Analytics 中的註解** | 引導分析現在支援對 Customer Journey Analytics 建立的註解進行檢視的功能。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=zh-Hant) | 不適用 | 2023 年 10 月 4 日 |
-| **報告活動管理員** | 報告活動管理器可讓您查看組織中每個連線的報告產能。它為管理員提供報告使用量的詳細可見度，以便在尖峰報告期間輕鬆診斷和修正產能問題。報告活動管理員的主要功能包括：<ul><li>取消目前的報告請求 (包括引導式分析和完整表格匯出的請求)</li><li>限制已定義時段的後續請求</li></ul>除了取消目前的請求之外，管理員現在還可以限制定義時段內的請求。管理員可依據請求、專案或使用者來限制請求。[了解更多](/help/reporting-activity-manager/reporting-activity-overview.md) | 2023 年 10 月 17 日 | 2023 年 10 月 23 日 |
+| **報告活動管理員** | 報告活動管理器可讓您查看組織中每個連線的報告產能。它為管理員提供報告使用量的詳細可見度，以便在尖峰報告期間輕鬆診斷和修正產能問題。報告活動管理員的主要功能包括：<ul><li>取消目前的報告請求 (包括引導式分析和完整表格匯出的請求)</li><li>限制已定義時段的後續請求</li></ul>除了取消目前的請求之外，管理員現在還可以限制定義時段內的請求。管理員可依據請求、專案或使用者來限制請求。[了解更多](/help/reporting-activity-manager/reporting-activity-overview.md) | 2023 年 10 月 17 日 | 2023 年 10 月 24 日 |
 
 {style="table-layout:auto"}
 
