@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: c4a4dcd0e4c0d7473570c2db3aa3d99e34c2a1cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2797'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 93%
    | **[!UICONTROL 資料集類型]** | Customer Journey Analytics 會針對您新增至此連線的各個資料集，根據傳入的資料自動設定資料集類型。 有 3 種不同的資料集類型：事件資料、個人基本資料和查詢資料。 請參閱下表提供的資料集類型說明。 |
    | **[!UICONTROL 人員 ID]** | 從可用身分識別的下拉式清單中選取人員 ID。這些身分識別是在 Experience Platform 的資料集結構中所定義。 若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。<p>重要事項：如果沒有人員 ID 可供選擇，表示綱要中尚未定義一個或多個人員 ID。 請觀看[這部影片](https://www.youtube.com/watch?v=G_ttmGl_LRU)，了解如何在 Experience Platform 中定義身分識別。 |
    | **[!UICONTROL 索引鍵]** | 僅適用於查詢資料集 (例如 _id)。 |
-   | **[!UICONTROL 相符的索引鍵]** | 僅適用於查詢資料集 (例如 _id)。 |
+   | **[!UICONTROL 比對索引鍵]** | 僅適用於查詢資料集 (例如 _id)。 |
    | **[!UICONTROL 匯入新資料]** | 設定為開啟或關閉。 |
    | **[!UICONTROL 回填資料]** | 您可以要求根據事件時間戳記，將資料回填到資料集。 舉例來說，您可以要求回填最近 7 天的資料、設定適用的人員 ID，並測試連線是否設定正確。 如果一切正常，您就能放心回填剩餘的資料。<p>此外，您也可以啟用按資料集匯入新資料。 例如，啟用匯入新資料僅供查看資料用途。 |
    | **[!UICONTROL 回填狀態]** | 指出是否有任何回填資料在處理中。 |
@@ -60,13 +60,13 @@ ht-degree: 93%
 
 當您建立連線時，新工作流程可讓您新增 Experience Platform 資料集。
 
-1. 在「連線設定」對話方塊中，選取 **[!UICONTROL 新增資料集]**.
+1. 在「連線設定」對話框中，選取「**[!UICONTROL 新增資料集]**」。
 
-2. 在 [!UICONTROL 選取資料集] 步驟，選取一個或多個資料集並選取 **[!UICONTROL 下一個]**. 連線中必須至少包含一個事件資料集。
-   * 若要變更針對資料集清單顯示的欄，請選取 ![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) 並選取要在下列欄中顯示的欄： [!UICONTROL 自訂表格] 對話方塊。
-   * 若要搜尋特定資料集，請使用 ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 搜尋欄位。
-   * 若要在顯示或隱藏選取的資料集之間切換，請選取 ![選取](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL 隱藏已選取專案]** 或 **[!UICONTROL 顯示已選取專案]**.
-   * 若要從選取的資料集清單中移除資料集，請使用 ![關閉](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg). 若要移除所有選取的資料集，請選取 **[!UICONTROL 全部清除]**.
+2. 在「[!UICONTROL 選取資料集]」步驟中，選取一個或多個資料集並選取「**[!UICONTROL 下一步]**」。連線中必須至少包含一個事件資料集。
+   * 若要變更資料集清單中顯示的欄，請選取「![欄位設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)」並選取要在「[!UICONTROL 自訂表格]」對話框中顯示的欄。
+   * 要搜尋特定資料集，請使用搜尋欄位「![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」。
+   * 要讓所選資料集切換為顯示或隱藏，請選取「![選取](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg)」「**[!UICONTROL 隱藏已選取]**」或者「**[!UICONTROL 顯示已選取]**」。
+   * 要將已選取資料集清單中的資料集刪除，請使用「![關閉](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)」。要刪除所有已選取的資料集，請選取「**[!UICONTROL 全部清除]**」。
 
    ![選取資料集](assets/select-datasets.png)
 
@@ -76,10 +76,10 @@ ht-degree: 93%
 
    | 設定 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 人員 ID]** | 僅適用於事件和設定檔資料集。 從可用身分識別的下拉式清單中選取人員 ID。這些身分識別是在 Experience Platform 的資料集結構中所定義。 若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。<p>如果沒有人員 ID 可以選擇，表示結構中尚未定義一或多個人員 ID。 請觀看這部影片，了解如何在 Experience Platform 中定義身分識別。 |
+   | **[!UICONTROL 人員 ID]** | 僅適用於事件和設定檔資料集。從可用身分識別的下拉式清單中選取人員 ID。這些身分識別是在 Experience Platform 的資料集結構中所定義。 若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。<p>如果沒有人員 ID 可以選擇，表示結構中尚未定義一或多個人員 ID。 請觀看這部影片，了解如何在 Experience Platform 中定義身分識別。 |
    | **[!UICONTROL 時間戳記]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的綱要中的預設時間戳記欄位。 |
-   | **[!UICONTROL 索引鍵]** | 僅適用於查詢資料集。 用於查詢資料集的索引鍵。 |
-   | **[!UICONTROL 比對索引鍵]** | 僅適用於查詢資料集。 要在其中一個事件資料集中聯結的相符索引鍵。 如果此清單為空白，表示您可能尚未新增或設定事件資料集。 |
+   | **[!UICONTROL 索引鍵]** | 僅適用於查找資料集。用於查找資料集的索引鍵。 |
+   | **[!UICONTROL 比對索引鍵]** | 僅適用於查找資料集。要加入其中一個事件資料集的索引鍵。如果這是空白的清單，您可能尚未新增或設定事件資料集。 |
    | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。<br/>資料來源的類型包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
    | **[!UICONTROL 匯入新資料]** | 如果您要建立持續連線，請選取此選項，如此一來，新增到此連線中資料集的任何新資料批次都會自動流入工作區。 可以設定為[!UICONTROL 開啟]或[!UICONTROL 關閉]。 |
    | **[!UICONTROL 資料集回填]** | 選取「**[!UICONTROL 要求回填]**」以回填歷史資料。<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。延遲程度取決於您有多少歷史資料。</li><li> Analytics 來源連接器可為生產沙箱可匯入最多 13 個月的資料 (不論資料量多寡)。非生產沙箱的回填期限為 3 個月。</li></ul> |
@@ -89,7 +89,7 @@ ht-degree: 93%
    | **[!UICONTROL 資料集大小]** | 資料集的大小。 |
    | **[!UICONTROL 綱要]** | 在 Adobe Experience Platform 中建立資料集所根據的綱要。 |
    | **[!UICONTROL 資料集]** | 資料集的名稱。 |
-   | **[!UICONTROL 預覽： *資料集名稱&#x200B;*]** | 預覽包含日期、我的 ID 和識別碼等欄的資料集。 |
+   | **[!UICONTROL 預覽：*資料集名稱&#x200B;*]** | 預覽包含日期、我的 ID 和識別碼等欄的資料集。 |
    | **[!UICONTROL 移除]** | 您可以刪除或移除資料集並變更人員 ID，而不需要刪除整個連線。 刪除或移除可減少資料擷取的相關成本，以及重新建立整個連線和相關資料檢視的繁複流程。 |
 
    {style="table-layout:auto"}
