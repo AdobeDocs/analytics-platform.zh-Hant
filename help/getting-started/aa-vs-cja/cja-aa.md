@@ -7,7 +7,7 @@ feature: Basics
 source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
 workflow-type: tm+mt
 source-wordcount: '2137'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 95%
 | 報告 API 存取權 | 完整支援；可透過 [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/) 使用。 |
 | 排程報告/專案 | 完整支援 |
 | 區段 | 完整支援。現在稱為「篩選器」。請注意，傳統 Analysis Workspace 中任何現有的區段都不會移植至 Customer Journey Analytics。 |
-| 虛擬報告套裝 | 完整支援。現在稱為 [資料檢視](/help/data-views/create-dataview.md). |
+| 虛擬報告套裝 | 完整支援。現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | 虛擬報表套裝元件策劃 | 完整支援。現在是資料檢視的一部分。 |
 | 串流媒體 Analytics | 媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢閱者」面板和「媒體播放時間」面板的一部分提供。 |
 
@@ -66,13 +66,13 @@ ht-degree: 95%
 | 地域劃分維度 | 收集到 Adobe Analytics 的所有地域劃分/地理位置都會透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)流入 Customer Journey Analytics。未使用 Analytics 來源連接器但依賴 Experience Platform Web SDK 進行數位資料收集的實作，可使用 [Experience Edge Geo Lookup 服務](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)。 |
 | IP 模糊化 | 對於使用 Analytics 來源連接器將 Adobe Analytics 的資料填入到 Customer Journey Analytics 中的 Customer Journey Analytics 客戶：Adobe Analytics 中套用的 IP 模糊化設定也會套用至 Customer Journey Analytics 資料。您可以視需要在 Adobe Analytics 中控制這些設定。<p>對於使用 Experience Platform Web SDK 將資料直接填入 Platform 和 Customer Journey Analytics 中的 Customer Journey Analytics 客戶，您可以使用 Platform 中「資料收集」的「資料準備」，根據公司的要求設定模糊 IP 位址規則。 |
 | 行銷管道 | 使用 Analytics 來源連接器時，行銷管道資料會透過該連接器流入 Customer Journey Analytics。行銷管道規則是在傳統 Adobe Analytics 中設定，且部分規則不受支援。如需更多資訊，請參閱 [Customer Journey Analytics 行銷管道](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html)。<br/>對於 WebSDK 實作，會透過[衍生欄位](../../data-views/derived-fields/derived-fields.md)支援報告時間行銷管道處理規則。 |
-| 量度去重複化 | 現在於資料檢視中的量度上設定。量度重複資料刪除發生在人員或工作階段層級，而不是資料集、資料檢視或連線層級。 |
+| 量度去重複化 | 現在於資料檢視中的量度上設定。量度去重複化發生在人員或工作階段層級，而不是資料集、資料檢視或連線層級。 |
 | 新工作階段與重複工作階段報告 | 先前使用造訪編號維度完成。新工作階段與重複工作階段支援 [13 個月的回溯期](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html?lang=zh-Hant)。 |
 | 處理規則、VISTA 規則、行銷管道處理規則 | 支援將 Adobe Experience Platform Data Prep 功能用於 WebSDK 式資料集和來自 Analytics 來源連接器的資料。 |
 | Products 變數 | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件陣列，以符合此使用案例。在 Customer Journey Analytics 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
 | 專案共用 | 專案共用功能僅支援在 Customer Journey Analytics 的使用者之間使用 - Customer Journey Analytics 和傳統 Analysis Workspace 之間沒有專案共用。 |
 | Report Builder | 支援用於 Excel 的新 Office 365 外掛程式。 |
-| 使用者權限/資料存取控制 | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hant) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。 其他使用者權限可用於多種功能，例如建立計算量度、篩選器或註解等。 |
+| 使用者權限/資料存取控制 | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hant) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。其他使用者權限可用於多種功能，例如建立計算量度、篩選器或註解等。 |
 | 視覺效果 | 支援所有視覺效果，但地圖視覺效果除外。 |
 
 {style="table-layout:auto"}
