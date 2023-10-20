@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 產品分析
 hide: true
 hidefromtoc: true
-source-git-commit: ec0d57d0573b21767ed1703c9ddb1172e442e10a
+source-git-commit: 1cadf9d863c18f590a99e22d7b0e79b1074bf29f
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '886'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 2%
 * 如果使用者在所需的日期範圍（初始參與）內只參與一次事件，則他們只會出現在「第0天」期間貯體中。
 * 如果使用者在最初符合納入分析的資格數天後參與事件，他們會出現在最新的資格認定持續時間貯體和所有導致該事件的持續時間貯體。 這類計算有時稱為「無限制的保留」。
 * 如果使用者在設定的日期範圍內參與事件多次，則分析中只會包含第一個和最後一個事件。
+
+![保留率熒幕擷圖](../assets/retention-rates.png)
 
 ## 使用案例
 
