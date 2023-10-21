@@ -5,10 +5,10 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
 exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
-source-git-commit: 72d42123a3c9463514ada584530ad959e99d5c94
+source-git-commit: 788d1d32548ef510cf12376b244fcc0e090e189d
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 4%
+source-wordcount: '212'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,12 @@ ht-degree: 4%
 >[!ENDSHADEBOX]
 
 
-若要更正此錯誤，您必須對擁有Experience Platform產品的組織具有系統或產品管理員許可權。 另請參閱 [存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) 以取得詳細資訊。
+1. 確定您擁有正確的存取控制：
+
+   * 您必須擁有擁有Experience Platform產品的組織的系統或產品管理員許可權。 另請參閱 [存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) 以取得詳細資訊。
+
+   * 您必須是AEP-Default-All-Users產品設定檔中的使用者。 如果您沒有將您自己新增至此設定檔的許可權，請詢問您的管理員。 另請參閱 [存取控制階層與工作流程](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#access-control-hierarchy-and-workflow) 以取得詳細資訊。
+
 
 1. 導覽至AdobeExperience Platform UI。
 
