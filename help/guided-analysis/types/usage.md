@@ -1,12 +1,12 @@
 ---
 title: 使用情況檢視
 description: 測量使用者在一段時間內的參與度.
-exl-id: 1d103bd3-3e72-4c82-a534-c896f8433029
+exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: c7a370b4c83ceddcb3ec9542714f768d5562f297
+source-git-commit: 96b50b205fe3b972da9660002f40b6fe2b80cf02
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '538'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 活動]**：您要測量的事件。 根據圖表型別，每個選取的事件都會以彩色線條或一組長條呈現。 表格中會新增代表趨勢事件的列。 您最多可以包含五個事件。
 * **[!UICONTROL 人員]**：您要測量的區段。 每個選取的區段都會將圖表中的線條數和表格中的列數加倍。 您最多可以包含五個區段。
+* **[!UICONTROL 劃分]**：為每個維度專案建立個別的趨勢線。 支援單一劃分維度。
 
 ## 圖表設定
 
