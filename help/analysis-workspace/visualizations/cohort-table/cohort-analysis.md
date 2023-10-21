@@ -3,10 +3,10 @@ title: 同類群組分析是什麼？
 description: 瞭解 Analysis Workspace 中的同類群組分析
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 78%
+source-wordcount: '528'
+ht-degree: 68%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 78%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同類群組分析] 不支援無法篩選的量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可用於篩選器的量度，才能用於 [!UICONTROL 同類群組分析]，且只能一次增加1。
+>[!UICONTROL 同類群組分析] 不支援無法篩選的量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可在篩選器中使用的量度，才可用於 [!UICONTROL 同類群組分析]，且只能以1為單位遞增。
 
 ## 同類群組分析功能
 
@@ -39,30 +39,30 @@ ht-degree: 78%
 
 A [!UICONTROL 保留] 同類群組報表傳回人員：每個資料儲存格顯示該同類群組中，在該時段內執行了動作的原始人數和百分比。 您可以包含最多 3 個量度和最多 10 個篩選器。
 
-![](assets/retention-report.png)
+![顯示同類群組中人員的單位和百分比的演繹版同類群組報告。](assets/retention-report.png)
 
 ### [!UICONTROL 流失率表格]
 
-A [!UICONTROL 流失率] 同類群組與保留率表格相反，會顯示在一段時間內離開或從未符合約類群組回傳標準的人員。 您可以包含最多 3 個量度和最多 10 個篩選器。
+A [!UICONTROL 流失] 同類群組與保留率表格相反，會顯示在一段時間內離開或從未符合約類群組回傳標準的人員。 您可以包含最多 3 個量度和最多 10 個篩選器。
 
-![](assets/churn-report.png)
+![顯示不符合約類群組回傳標準之人員的單位和百分比的流失表。](assets/churn-report.png)
 
 ### [!UICONTROL 滾動式計算]
 
 可讓您根據上一欄計算保留率或流失率，而非根據包含欄。
 
-![](assets/cohort-rolling-calculation.png)
+![同類群組保留報表，顯示根據上一欄資料進行的計算。](assets/cohort-rolling-calculation.png)
 
 ### [!UICONTROL 延時表格]
 
 衡量包含事件發生前後的經過時間。此工具非常適合用來進行事前/事後分析。**[!UICONTROL 包含]**&#x200B;欄位於表格的中央，包含事件前後的時段會顯示於兩側。
 
-![](assets/cohort-latency.png)
+![顯示事件之前和之後經過時間的同類群組報表。](assets/cohort-latency.png)
 
 ### [!UICONTROL 自訂維度同類群組]
 
 根據選取的維度建立同類群組，而非根據以時間為主的同類群組 (預設)。使用[!UICONTROL 行銷管道]、[!UICONTROL 行銷活動]、[!UICONTROL 產品]、[!UICONTROL 頁面]、[!UICONTROL 地區]等 Customer Journey Analytics  維度，說明保留率在不同維度值的變化。
 
-![](assets/cohort-customizable-cohort-row.png)
+![同類群組報表顯示具有選定維度的自訂報表，而非預設的時間型同類群組。](assets/cohort-customizable-cohort-row.png)
 
 如需如何設定和執行同類群組報表的指示，請前往[設定同類群組分析報表](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md)。

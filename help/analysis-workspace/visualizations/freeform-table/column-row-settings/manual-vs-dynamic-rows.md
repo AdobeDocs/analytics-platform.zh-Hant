@@ -3,10 +3,10 @@ title: 自由表格中的動態與靜態維度項目
 description: 如何與表格中的動態和靜態維度項目互動
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 88%
+source-wordcount: '555'
+ht-degree: 81%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 88%
 
 例如，將「瀏覽器類型」維度拖曳至表格時，頂端的「瀏覽器類型」維度項目 (例如 Microsoft、Apple、Google 等)會以動態方式傳回表格列。如果放入欄中，排名前 5 的「瀏覽器類型」維度項目會以動態方式傳回。
 
-動態維度專案具有列篩選選項和X圖示，可以 **not** 出現鎖定圖示。 <!--do they have the lock icon? --> 按一下動態維度專案旁的x時，會自動套用篩選器。 如需將篩選器套用至表格的詳細資訊，請參閱 [篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+動態維度專案具有列篩選選項和X圖示，可以 **非** 出現鎖定圖示。 <!--do they have the lock icon? --> 當您按一下動態維度專案旁的x時，會自動套用篩選器。 如需將篩選器套用至表格的詳細資訊，請參閱 [篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
-![](assets/dynamic-items.png)
+![反白顯示篩選圖示的自由表格。](assets/dynamic-items.png)
 
 ## 靜態維度項目
 
@@ -40,17 +40,17 @@ ht-degree: 88%
 
 靜態維度項目&#x200B;**沒有**&#x200B;列篩選選項。而是每個項目都會顯示鎖定和 X 圖示。按一下 X 圖示即可從表格中刪除該維度項目。
 
-![](assets/static-items.png)
+![顯示瀏覽器型別和Microsoft列（含鎖定圖示）的自由格式表格注意：此維度專案為靜態且不會隨時間變更。](assets/static-items.png)
 
 ## 混合維度項目
 
 可以將來自不同維度的維度項目新增至相同的表格。在這類情況下，列標題會顯示「混合維度」。這些維度項目為靜態。例如，新增來自「瀏覽器類型」維度的特定維度項目，而其他維度項目來自「瀏覽器」維度。
 
-![](assets/mixed-dimensions.png)
+![自由表格，醒目顯示混合Dimension欄。](assets/mixed-dimensions.png)
 
 ## 自由表格總計列
 
 自由表格總計列中動態和靜態列的行為不相同。根據預設：
 
-* 動態列會在伺服器端加總，並去除重複量度，例如造訪次數或人員
+* 動態列在伺服器端加總，並去除重複量度，例如造訪或人員
 * 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hant)

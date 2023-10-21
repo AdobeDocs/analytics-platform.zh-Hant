@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 設定同類群組分析報表
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: 3bbc34d4b003fab7dc935c8d3bb3afa4dfc3f675
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 91%
+source-wordcount: '1003'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 1. 在 Analysis Workspace 中，按一下左側邊欄中的&#x200B;**[!UICONTROL 「視覺效果」]**&#x200B;圖示，接著將&#x200B;**[!UICONTROL 「同類群組表格」拖曳至畫布]**。
 
-   ![](assets/cohort-table.png)
+   ![顯示「包含條件」和「回訪條件」的同類群組表格範例。](assets/cohort-table.png)
 
 1. 按照下表的定義，對&#x200B;**[!UICONTROL 「包含條件」]**、**[!UICONTROL 「回傳條件」]**、**[!UICONTROL 「同類群組類型」]**&#x200B;和&#x200B;**[!UICONTROL 「設定」]**&#x200B;設定定義。
 
@@ -38,9 +38,9 @@ ht-degree: 91%
 
 ## 建立[!UICONTROL 同類群組分析]報表
 
-1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
+1. 按一下&#x200B;**[!UICONTROL 建置]**。
 
-   ![步驟結果](assets/cohort-report.png)
+   ![同類群組表格檢視，顯示選取的包含條件和回訪條件。 按一下「建立」。](assets/cohort-report.png)
 
    報表會顯示下訂單的人( *`Included`* 欄)，以及在後續造訪中回訪您網站的訪客。 隨時間減少的造訪次數可讓您找出問題並採取行動。
 1. (選用) 從選取項目建立篩選器。

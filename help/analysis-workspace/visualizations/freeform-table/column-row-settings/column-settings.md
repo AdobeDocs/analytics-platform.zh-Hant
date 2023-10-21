@@ -1,12 +1,12 @@
 ---
-description: 欄設定可供設定欄的格式，部分可設為條件式。
+description: 瞭解如何編輯欄設定以設定欄格式，部分可設為條件式。
 title: 欄設定
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 84%
+source-wordcount: '806'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 84%
 
 若要存取[!UICONTROL 「欄設定」]，請拖曳自由表格至專案，接著按一下欄標頭中的齒輪圖示。
 
-![](assets/column_settings.png)
+![顯示「總計」儲存格、「表格」儲存格和「表格」儲存格預覽的「欄」設定。](assets/column_settings.png)
 
 您可以同時編輯&#x200B;**多欄**&#x200B;的設定。只要選取多個欄，然後在任一欄中按一下設定圖示。您所做的任何變更都會套用在所有欄，以及您在其中選定的儲存格。
 
@@ -42,7 +42,7 @@ ht-degree: 84%
 
 條件式格式會將格式套用至您可定義的上限、中點和下限。除非選取「自訂」限制，否則系統也會在資料劃分時自動在自由表格中套用顏色等條件式格式。
 
-![](assets/conditional-formatting.png)
+![已選取「自訂」的「條件式」格式選項。](assets/conditional-formatting.png)
 
 | 元素 | 說明 |
 | --- | --- |
@@ -72,11 +72,11 @@ ht-degree: 84%
 
 1. 按一下「自由格式表格」欄中量度上的「設定」（齒輪）圖示。
 
-   ![歸因核取方塊](assets/attribution-checkbox.png)
+   ![「欄設定」選項醒目提示「資料設定」選項：使用非預設歸因模式。](assets/attribution-checkbox.png)
 
 2. 在&#x200B;**[!UICONTROL 資料設定]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 使用非預設歸因模式]**。如需不同歸因模式的詳細資訊，請參閱[歸因模式](/help/data-views/component-settings/attribution.md)。
 
-   ![選取歸因模式](assets/attribution-select.png)
+   ![「欄歸因模型」選項顯示「線性」已選取。](assets/attribution-select.png)
 
 >[!MORELIKETHIS]
 >

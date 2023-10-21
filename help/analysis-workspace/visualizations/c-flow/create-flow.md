@@ -1,13 +1,13 @@
 ---
-description: 在 Workspace 專案中使用流量視覺效果。
-title: 設定流量視覺效果
+description: 瞭解如何在Workspace專案中使用流量視覺效果。
+title: 如何設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: 558825dc4768372f232ddfb614442443c89e9a65
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 60%
+source-wordcount: '1581'
+ht-degree: 57%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 60%
 
 流量視覺效果可讓您設定感興趣的路徑的起點或終點，或分析流經維度或維度專案的所有路徑。
 
-![新的流量 UI](assets/new-flow.png)
+![顯示「開頭為」、「包含」和「結束於」欄位的「流量」設定畫面。](assets/new-flow.png)
 
 ## 建立流量視覺效果 {#configure}
 
@@ -45,11 +45,11 @@ ht-degree: 60%
 
 1. 如果您選擇量度，則還需要提供 [!UICONTROL **路徑Dimension**] ，以用作前往或離開您所選元件的路徑，如下所示。 預設為&#x200B;[!UICONTROL **「頁面」**]。
 
-   ![路徑分析維度](assets/pathing-dim.png)
+   ![路徑維度。](assets/pathing-dim.png)
 
 1. （選用）選取 **[!UICONTROL 顯示進階設定]** 若要設定下列任一選項：
 
-   ![進階設定](assets/adv-settings.png)
+   ![進階設定包含顯示選項、欄數和流量容器。](assets/adv-settings.png)
 
    | 設定 | 說明 |
    | --- | --- |
@@ -80,7 +80,7 @@ ht-degree: 60%
 
 ## 檢視和變更流量輸出 {#output}
 
-![流量輸出](assets/flow-output.png)
+![顯示「結束於造訪」、「路徑分析」維度：「頁面」和「流量」容器：「訪客」的流量輸出範例。](assets/flow-output.png)
 
 流量組態的摘要會顯示在圖表的頂端。圖表中的路徑會依照比例顯示。具有較多活動的路徑看起來比較寬。
 
@@ -90,7 +90,7 @@ ht-degree: 60%
 
 * 按一下圖表中的節點，會顯示該節點的詳細資料。再次按一下節點可將其摺疊。
 
-  ![節點詳細資料](assets/node-details.png)
+  ![顯示節點詳細資訊的互動流程圖範例。](assets/node-details.png)
 
 * 您可以篩選欄以僅顯示某些結果，例如包含和排除、指定條件等。
 

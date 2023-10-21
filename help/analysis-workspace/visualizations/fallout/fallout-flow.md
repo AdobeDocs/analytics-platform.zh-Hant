@@ -1,20 +1,20 @@
 ---
-description: 「流失」視覺效果會顯示在一系列預先定義的連續頁面中，人員從何處離開（流失）或繼續通過（流過）。
-title: 流失概述
+description: 瞭解流失報告和視覺效果。
+title: 關於流失報表和視覺效果
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 79%
+source-wordcount: '234'
+ht-degree: 80%
 
 ---
 
-# 流失概觀
+# 流失總覽
 
-「流失」視覺效果提供更多選項，供您建立流失報表。流失報表可顯示在一系列預先定義的連續頁面中，人員從何處離開（流失）或繼續通過（流過）。
+流失報表可顯示在一系列預先定義的連續頁面中，人員從何處離開（流失）或繼續通過（流過）。
 
-「流失」視覺效果可供您
+「流失」視覺效果提供更多選項，供您建立流失報表。流失視覺效果可讓您：
 
 * 在同一份報表中，執行兩個不同篩選器的並排比較。
 * 拖曳、放置和重新安排漏斗步驟 (接觸點)

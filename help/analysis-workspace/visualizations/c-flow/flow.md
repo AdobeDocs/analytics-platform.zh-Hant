@@ -1,12 +1,12 @@
 ---
-description: 流量功能可顯示客戶使用您網站和應用程式的路徑。
+description: 瞭解流量功能，此功能可顯示客戶使用您網站和應用程式的路徑。
 title: 流量概述
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 93%
+source-wordcount: '205'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 ## 設定流量視覺效果
 
-如需如何設定流量視覺效果的詳細資訊，請參閱 [設定流量視覺效果](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
+如需關於如何設定流量視覺效果的資訊，請參閱 [設定流量視覺效果](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 
 ## 匯出包含流量圖表的專案 .CSV 檔案 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
