@@ -3,7 +3,7 @@ title: 在報告活動管理器中檢視報告活動
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 7760f2d5af131549b1ff2a6ad13b01bae81636f7
+source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 12%
@@ -11,8 +11,6 @@ ht-degree: 12%
 ---
 
 # 在報告活動管理器中檢視報告活動
-
-{{release-limited-testing}}
 
 此 [!UICONTROL 報告活動管理器] 可讓管理員在尖峰報告期間快速診斷和修正報告容量問題。
 
