@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 264b5a3d3793ab6531f570d83cbd4fd96bfbd67a
-workflow-type: ht
-source-wordcount: '1492'
+source-git-commit: a67c12a7b5244b7802eba2cbcbfdb320802d088b
+workflow-type: tm+mt
+source-wordcount: '1488'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,6 @@ Adobe Analytics 客戶可以使用 Analytics 來源連接器輕鬆地在 Adobe E
 不支援以下 Adobe Analytics 功能或元件：
 
 * 機器人篩選
-* 地理位置、網域、裝置查詢
 * 串流媒體測量
 * 直播串流或直播串流觸發器
 
