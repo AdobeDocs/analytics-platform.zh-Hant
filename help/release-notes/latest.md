@@ -3,36 +3,36 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 328b95efb7ed9ff597b95979ecdeceaa8db92bb4
+source-git-commit: 4a7762acbd05d6658ea7301070b5472965d1ea91
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 97%
+source-wordcount: '540'
+ht-degree: 72%
 
 ---
 
-# 最新的 Adobe Customer Journey Analytics 版本注意事項 (2023 年 10 月)
+# 目前的Adobe Customer Journey Analytics發行說明（2023年10/11月）
 
-**上次更新日期**：2023 年 10 月 19 日
 
-這些版本注意事項涵蓋 2023 年 10 月 4 日至 2023 年 10 月 24 日的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+**上次更新日期**：2023 年 10 月 25 日
+
+這些發行說明涵蓋2023年10月16日到2023年11月底的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **查閱和設定檔資料集的列計數量度** | 這些量度先前僅適用於事件資料集。 | 2023 年 10 月 16 日 |
+| **Adobe Product Analytics中「使用狀況」檢視的新功能** | 下列功能已新增至 [使用情況檢視](/help/guided-analysis/types/usage.md)：<ul><li>**趨勢線**：現在支援趨勢線。 按一下 [!UICONTROL 覆蓋] 在圖表上方以啟用它們。</li><li>**查詢劃分**：您現在可以將劃分套用至此檢視型別。 這些區段可作為查詢邊欄中的選項。</li></ul> | 不適用 | 2023 年 10 月 25 日 |
+| **連線詳細資料頁面 — 略過的記錄** | 此功能可讓您深入瞭解在Customer Journey Analytics資料擷取期間略過某些記錄的原因。 可能的原因包括訪客ID過大（超過100萬筆記錄）、遺漏時間戳記和遺漏個人ID。 (請遵循文件) | 不適用 | 2023 年 10 月 25 日 |
+| **CJA資料檢視API的檔案** | 請參閱 [資料檢視API](https://developer.adobe.com/cja-apis/docs/endpoints/dataviews/) 瞭解如何以程式設計方式建立、修改或刪除資料檢視。 | 不適用 | 2023 年 10 月 16 日 |
+| **查詢和設定檔資料集的列計數指標** | 這些指標先前僅適用於事件資料集。 | 不適用 | 2023 年 10 月 16 日 |
 | **將完整表格匯出至雲端** | 「Customer Journey Analytics 完整表格匯出」可讓您將數百萬個 Workspace 列匯出至雲端目標。 <p>匯出完整表格可提供在 Workspace 中設計之資料表格的一次性或排程傳送，最多可支援五個劃分、五個量度、篩選器和計算量度，且全部都可以在串連表格中完成。這是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多經常要求且目前在 Data Warehouse 中尚未提供的新功能。</p><p> 雲端匯出選項包括：</p><ul><li>Adobe Experience Platform 資料登錄區</li><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Snowflake</li></ul>如需更多資訊，請參閱[將 Customer Journey Analytics 報告匯出至雲端](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)。 | 2023 年 10 月 4 日 | 2023 年 10 月 19 日 |
-| **管理元件時可使用新的欄位** | 現在起，管理元件時可在[計算量度管理器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html)和[篩選器管理器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html)中使用以下新欄位：<ul><li>使用於</li><li>上次使用</li></ul>此資訊可協助您判斷某個元件對組織中的使用者是否有價值、其使用之處，以及是否需要刪除或修改。您可以將資料字典與此資訊搭配使用，以協助追蹤並深入了解元件在組織中的使用情況。 | 2023 年 9 月 23 日 | 2023 年 10 月 4 日 |
-| **將 Adobe Analytics 專案及任何包含的元件移轉至 Customer Journey Analytics** | 您現在可以將 Adobe Analytics 專案移轉至 Customer Journey Analytics。此流程簡化了從 Adobe Analytics 到 Customer Journey Analytics 的轉換。 <p>您將專案移轉至 Customer Journey Analytics 時，資產會從 Adobe Analytics 報告套裝對應至 Customer Journey Analytics 資料檢視。</p> <p>您可以從 Adobe Analytics 介面將專案移轉至 Customer Journey Analytics。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | 不適用 | 2023 年 10 月 9 日 |
-| **Adobe Product Analytics：顯示/隱藏序列** | 按一下圖表圖例或表格列，即可控制視覺效果中序列的可見度。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/guided-analysis/overview.html?lang=zh-Hant) | 不適用 | 2023 年 10 月 4 日 |
-| **Adobe Product Analytics 中的註解** | 引導分析現在支援對 Customer Journey Analytics 建立的註解進行檢視的功能。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=zh-Hant) | 不適用 | 2023 年 10 月 4 日 |
 | **報告活動管理員** | 報告活動管理器可讓您查看組織中每個連線的報告產能。它為管理員提供報告使用量的詳細可見度，以便在尖峰報告期間輕鬆診斷和修正產能問題。報告活動管理員的主要功能包括：<ul><li>取消目前的報告請求 (包括引導式分析和完整表格匯出的請求)</li><li>限制已定義時段的後續請求</li></ul>除了取消目前的請求之外，管理員現在還可以限制定義時段內的請求。管理員可依據請求、專案或使用者來限制請求。[了解更多](/help/reporting-activity-manager/reporting-activity-overview.md) | 2023 年 10 月 17 日 | 2023 年 10 月 24 日 |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics 中的修正
 
-AN-325940；AN-326468；AN-328301；AN-328640；AN-329370
+AN-327661、AN-329282、AN-329383、AN-329808、AN-331030、AN-331087、AN-331105
 
 ## 給 Customer Journey Analytics 管理員的重要通知
 
@@ -41,15 +41,6 @@ AN-325940；AN-326468；AN-328301；AN-328640；AN-329370
 | 不適用 | 不適用 | 不適用 |
 
 {style="table-layout:auto"}
-
-## 生命週期結束 (EOL) 重要通知
-
-| EOL 產品或功能 | 新增或更新日期 | 說明 |
-| --- | --- | --- |
-| **移轉到 Adobe I/O OAuth Server-to-Server 認證** | 2023 年 5 月 11 日 | 使用 Adobe I/O JWT 認證的 Adobe Analytics API、Customer Journey Analytics API 和 Livestream 客戶，必須在 **2025 年 1 月 1 日**&#x200B;之前移轉到 Adobe I/O OAuth Server-to-Server 認證。從 2024 年 5 月 1 日開始，Adobe IO 將不允許建立新的 JWT 認證。使用 JWT 的客戶必須建立新的 OAuth Server-to-Server 認證，或將他們現有的 JWT 認證移轉到 OAuth Server-to-Server 認證。客戶還必須更新他們的用戶端應用程式，才能使用新的 OAuth Server-to-Server 認證。 <ul><li>[從 Service Account (JWT) 認證移轉](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[使用新的 OAuth Server-to-Server 認證](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[常見問題](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
-
-{style="table-layout:auto"}
-
 
 ## 相關資源
 
