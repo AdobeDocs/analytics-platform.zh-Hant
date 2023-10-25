@@ -4,10 +4,10 @@ description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Wo
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: cd3747e0c9e041394db79d70fcd63294d0da9867
+source-git-commit: 9aa40a708adecdce76b623aa1d5647bd60286ef8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 100%
+source-wordcount: '934'
+ht-degree: 96%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶
 
 Experience Platform 的多個元件 (從資料擷取到直接 SQL 存取) 是 Customer Journey Analytics 的核心，且可對其進行補充：
 
-* [Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)：使用標準 SQL 從 Adobe Experience Platform 擷取資料，例如 Adobe 解決方案資料、客戶第一方資料或任何其他 Platform 資料。這是一種無伺服器工具，可用來加入任何資料集，以及將查詢結果擷取為新資料集，並用於報表、Data Science Workspace 或內嵌至 Profile Service。您可以使用 Experience Platform Query Service 來建立資料分析生態系統，進而瞭解消費者在不同互動管道中的行為。這些頻道可能包括銷售點系統、網路、行動裝置、CRM 系統等。
+* [Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)：使用標準 SQL 從 Adobe Experience Platform 擷取資料，例如 Adobe 解決方案資料、客戶第一方資料或任何其他 Platform 資料。這是一種無伺服器工具，可用來加入任何資料集，以及將查詢結果擷取為新資料集，並用於報表或內嵌至Profile Service。 您可以使用 Experience Platform Query Service 來建立資料分析生態系統，進而瞭解消費者在不同互動管道中的行為。這些頻道可能包括銷售點系統、網路、行動裝置、CRM 系統等。
 * [即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)：
 * [Identity 服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)
 
