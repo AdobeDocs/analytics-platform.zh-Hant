@@ -3,10 +3,10 @@ title: 在報告活動管理器中檢視報告活動
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+source-git-commit: 9c76b7c9f5f99da70b5c097a11cfb4cfd1370e9f
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
