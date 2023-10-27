@@ -5,9 +5,9 @@ title: 透過電子郵件傳送Customer Journey Analytics資料給其他人
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: 88cbea4ebebe68314a5de471bdf13a4d7760db0e
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1037'
 ht-degree: 59%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->密碼保護排程專案的選項僅會對已購買的Customer Journey Analytics客戶顯示 [Health Shield](https://business.adobe.com/solutions/experience-cloud-for-healthcare.html) 附加產品。
+>密碼保護排程專案的選項僅會對已購買的Customer Journey Analytics客戶顯示 [Health Shield](https://business.adobe.com/solutions/industries/healthcare.html) 附加產品。
 
 Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv 格式傳送。
 
