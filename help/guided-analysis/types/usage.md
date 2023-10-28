@@ -4,9 +4,9 @@ description: 測量使用者在一段時間內的參與度.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: 96b50b205fe3b972da9660002f40b6fe2b80cf02
+source-git-commit: 713d70a444b3dba81a94d4f472b3ca7e0b39d742
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '621'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,10 @@ ht-degree: 2%
 新增其他資料至圖表。
 
 * **[!UICONTROL 顯示異常]**：執行 [異常偵測](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 趨勢分析上的資訊。 離群值會顯示為點，您可以在其上暫留以取得詳細資訊。
+* **[!UICONTROL 趨勢線覆蓋]**：新增趨勢線至圖表，讓您檢視在指定時段內資料採用的整體方向。
+   * [!UICONTROL 線性]：線性回歸模型。 對於以穩定速率增加或減少的資料，建議使用。
+   * [!UICONTROL 對數]：曲線回歸模型。 建議用於隨時間調整平緩的資料。
+   * [!UICONTROL 移動平均]：平滑線，計算每個點前一個時段的平均值。 建議用於具有規則週期的資料。 可用的移動平均期間取決於所選的日期範圍。
 
 ## 套用時間比較
 
