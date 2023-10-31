@@ -3,10 +3,11 @@ title: 在報告活動管理器中檢視報告活動
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 9c76b7c9f5f99da70b5c097a11cfb4cfd1370e9f
+exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
+source-git-commit: 8e2605a18d7c8201122603c9f8ee381a2e97fb9f
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 13%
+source-wordcount: '1940'
+ht-degree: 11%
 
 ---
 
@@ -34,7 +35,7 @@ ht-degree: 13%
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. 檢視每個連線的使用率資訊。 您可以選取欄標題，依該欄排序表格。
+1. 檢視每個連線的使用率資訊。 表格中顯示的資料代表上次載入頁面時的連線報告活動。
 
    可使用下列欄:
 
@@ -45,7 +46,7 @@ ht-degree: 13%
    | **[!UICONTROL 容量使用情況]** | 連線的即時報告容量使用百分比。 <p>**注意** 使用容量為100%並不一定表示您應立即開始取消報告請求。 如果平均等待時間合理，則100%使用容量可能狀況良好。 另一方面，如果排入佇列的請求數量也在增加，則100%的使用容量可能會造成問題。</p> |
    | **[!UICONTROL 已佇列的請求]** | 等待處理的要求數目。 <!-- ??? --> |
    | **[!UICONTROL 佇列等待時間]** | 開始處理要求前的平均等待時間。 <!-- ???? --> |
-   | **[!UICONTROL 狀態]** | 可能的狀態包括： <ul><li>[!UICONTROL **作用中**] （藍色）：已在連線上執行報告，且正在監視其活動。</li><li>[!UICONTROL **非使用中**] （灰色）：連線未曾執行任何報告。 只有在首次建立連線時，才會顯示此狀態。</li></ul> |
+   | **[!UICONTROL 狀態]** | 可能的狀態包括： <ul><li>[!UICONTROL **作用中**] （藍色）：過去2小時內已針對連線執行報告。 表格中顯示的資料代表上次載入頁面時的連線報告容量。</li><li>[!UICONTROL **非使用中**] （灰色）：過去2小時內未曾對連線執行任何報告，因此未顯示連線的資料。</li></ul> |
 
    {style="table-layout:auto"}
 
@@ -143,9 +144,9 @@ ht-degree: 13%
 | [!UICONTROL **執行時間**] | 要求已執行多久。 |
 | [!UICONTROL **開始時間**] | 要求開始處理的時間（根據管理員的當地時間）。 |
 | [!UICONTROL **等待時間**] | 請求在處理之前已等待多長時間。 當有足夠的容量時，此值通常為「0」。 |
-| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：區段、計算量度、註解、對象等。</li><li>來自2.0 API的API呼叫</li><li>智慧型警報<li>完整表格匯出</li><li>與任何人共用連結</li><li>引導式分析</li><li>查詢Analytics報表引擎的任何其他應用程式</li></li></ul><p>**注意：** 如果此欄的值為 [!UICONTROL **未知**]，這表示使用者無法取得請求中繼資料。</p> |
+| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器UI：區段、計算量度、註解、對象等。</li><li>來自2.0 API的API呼叫</li><li>智慧型警報<li>完整表格匯出</li><li>與任何人共用連結</li><li>引導式分析</li><li>查詢Analytics報表引擎的任何其他應用程式</li></li></ul><p>**注意：** 如果此欄的值為 [!UICONTROL **未知**]，這表示使用者無法取得請求中繼資料。</p> |
 | [!UICONTROL **使用者**] | 起始請求的使用者。 <p>**注意：** 如果此欄的值為 [!UICONTROL **未知**]，這表示使用者無法取得請求中繼資料。</p> |
-| [!UICONTROL **專案**] | 儲存的 Workspace 專案名稱、API 報告 ID 等。(中繼資料可能因各種應用程式而異。)<p>**注意：** 如果此欄的值為 [!UICONTROL **未知**]，表示專案尚未儲存，或使用者無法使用請求中繼資料。</p> |
+| [!UICONTROL **專案**] | 已儲存的Workspace專案名稱、API報表ID等。 (中繼資料可能因各種應用程式而異。)<p>**注意：** 如果此欄的值為 [!UICONTROL **未知**]，表示專案尚未儲存，或使用者無法使用請求中繼資料。</p> |
 | [!UICONTROL **狀態**] | 狀態指示器： <ul><li>**執行中**：請求目前正處理中。</li><li>**擱置中**：請求正等待處理中。</li></ul> |
 | [!UICONTROL **複雜性**] | 並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。 <p>可能的值包括：</p> <ul><li>[!UICONTROL **低**]</li><li>[!UICONTROL **媒體**]</li><li>[!UICONTROL **高**]</li></ul>此值會受下列欄中的值影響：<ul><li>[!UICONTROL **月邊界**]</li><li>[!UICONTROL **欄**]</li><li>[!UICONTROL **區段**]</li></ul> |
 | [!UICONTROL **月邊界**] | 請求中包含的月數。 月邊界越多，請求就越複雜。 |
@@ -163,7 +164,7 @@ ht-degree: 13%
 | [!UICONTROL **使用者**] | 起始請求的使用者。 如果此欄的值為 [!UICONTROL **無法辨識**]，這表示使用者是在您沒有管理許可權的登入公司。 |
 | [!UICONTROL **請求數量**] | 使用者起始的請求數。 |
 | [!UICONTROL **專案數量**] | 與使用者相關聯的專案數。 <!-- ??? --> |
-| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：區段、計算量度、註解、對象等。</li><li>來自2.0 API的API呼叫</li><li>智慧型警報<li>完整表格匯出</li><li>與任何人共用連結</li><li>引導式分析</li><li>查詢Analytics報表引擎的任何其他應用程式</li></li></ul> |
+| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器UI：區段、計算量度、註解、對象等。</li><li>來自2.0 API的API呼叫</li><li>智慧型警報<li>完整表格匯出</li><li>與任何人共用連結</li><li>引導式分析</li><li>查詢Analytics報表引擎的任何其他應用程式</li></li></ul> |
 | [!UICONTROL **平均複雜度**] | 使用者起始的要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p><ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均欄數**]</li><li>[!UICONTROL **平均區段數**]</li></ul> |
 | [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 月邊界越多，請求就越複雜。 |
 | [!UICONTROL **平均欄數**] | 包含的請求中的平均量度和劃分數。 更多欄會增加請求的複雜性。 |
@@ -180,7 +181,7 @@ ht-degree: 13%
 | [!UICONTROL **專案**] | 起始要求的專案。 |
 | [!UICONTROL **請求數量**] | 與專案相關聯的請求數。 |
 | [!UICONTROL **使用者人數**] | 與專案相關聯的使用者人數。 <!-- ??? --> |
-| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：區段、計算量度、註解、對象等。</li><li>來自2.0 API的API呼叫</li><li>智慧型警報<li>完整表格匯出</li><li>與任何人共用連結</li><li>引導式分析</li><li>查詢Analytics報表引擎的任何其他應用程式</li></li></ul> |
+| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器UI：區段、計算量度、註解、對象等。</li><li>來自2.0 API的API呼叫</li><li>智慧型警報<li>完整表格匯出</li><li>與任何人共用連結</li><li>引導式分析</li><li>查詢Analytics報表引擎的任何其他應用程式</li></li></ul> |
 | [!UICONTROL **平均複雜度**] | 專案中包含之要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p><ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均欄數**]</li><li>[!UICONTROL **平均區段數**]</li></ul> |
 | [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 月邊界越多，請求就越複雜。 |
 | [!UICONTROL **平均欄數**] | 包含的請求中的平均量度和劃分數。 更多欄會增加請求的複雜性。 |
