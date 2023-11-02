@@ -4,7 +4,7 @@ description: 設定量度的格式。
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 6945026bd452e1dabe90812f8d056f19aac71490
+source-git-commit: 387c787dba4caa9db82d46071e23a2131043c8c6
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 30%
@@ -80,7 +80,7 @@ ht-degree: 30%
 
 +++ 每日轉換率可維持多久以前？
 
-每日轉換率是過去四年維持不變嗎？
+每日轉換率會維持四年。
 
 +++
 
