@@ -5,8 +5,8 @@ exl-id: 69763313-de27-4487-8e32-8277f1f693d8
 solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 4c6e968272b554188243b772bd159fe8174b3c3b
-workflow-type: ht
+source-git-commit: 98c0f2887789310dc387f1bf7ce5298722a0797e
+workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 100%
 
@@ -60,7 +60,6 @@ ht-degree: 100%
 * 暫時 ID 欄位應包含單一 ID 類型 (即來自單一命名空間的 ID)。例如，暫時 ID 欄位不應包含登入 ID 和電子郵件 ID 的組合。
 * 如果針對同一永久 ID 發生了具有相同時間戳記的多個事件，但暫時 ID 欄位中的值不同，則以欄位為基礎的彙整將根據字母順序進行選擇。因此，如果永久 ID A 有兩個具有相同時間戳記的事件，且其中一個事件指定 Bob、另一個事件指定 Ann，則以欄位為基礎的彙整會選擇 Ann。
 * 如果某個裝置由多人共用，並且使用者之間的切換總數超過 50.000，CCA 將停止為該裝置拼接資料。
-
 
 ## 啟用跨管道分析
 
