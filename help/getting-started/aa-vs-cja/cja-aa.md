@@ -4,10 +4,10 @@ description: Customer Journey Analytics 功能與 Adobe Analytics 功能集的�
 exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
-workflow-type: ht
-source-wordcount: '2137'
-ht-degree: 100%
+source-git-commit: 15fbbf26b58b474f65e6585ac72bdf247fb1678d
+workflow-type: tm+mt
+source-wordcount: '2135'
+ht-degree: 96%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 100%
 | 區段 | 完整支援。現在稱為「篩選器」。請注意，傳統 Analysis Workspace 中任何現有的區段都不會移植至 Customer Journey Analytics。 |
 | 虛擬報告套裝 | 完整支援。現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | 虛擬報表套裝元件策劃 | 完整支援。現在是資料檢視的一部分。 |
+| 裝置、瀏覽器、推薦者、技術維度 | 兩者皆支援 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) — 型資料集和WebSDK產生的資料集。 請參閱[透過 ADC 支援 Analytics 變數的文件](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant)。如果您使用 Experience Platform Web SDK 資料收集，則目前不支援基於裝置查詢裝置和維度。已規劃於未來支援。如需將裝置和瀏覽器查詢新增至您的Web SDK資料流，請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
 | 串流媒體 Analytics | 媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢閱者」面板和「媒體播放時間」面板的一部分提供。 |
 
 {style="table-layout:auto"}
@@ -68,12 +69,13 @@ ht-degree: 100%
 | 行銷管道 | 使用 Analytics 來源連接器時，行銷管道資料會透過該連接器流入 Customer Journey Analytics。行銷管道規則是在傳統 Adobe Analytics 中設定，且部分規則不受支援。如需更多資訊，請參閱 [Customer Journey Analytics 行銷管道](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html)。<br/>對於 WebSDK 實作，會透過[衍生欄位](../../data-views/derived-fields/derived-fields.md)支援報告時間行銷管道處理規則。 |
 | 量度去重複化 | 現在於資料檢視中的量度上設定。量度去重複化發生在人員或工作階段層級，而不是資料集、資料檢視或連線層級。 |
 | 新工作階段與重複工作階段報告 | 先前使用造訪編號維度完成。新工作階段與重複工作階段支援 [13 個月的回溯期](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html?lang=zh-Hant)。 |
-| 處理規則、VISTA 規則、行銷管道處理規則 | 支援將 Adobe Experience Platform Data Prep 功能用於 WebSDK 式資料集和來自 Analytics 來源連接器的資料。 |
+| 處理規則、VISTA 規則、行銷管道處理規則 | 支援使用Adobe Experience Platform資料準備功能和 [衍生欄位](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/derived-fields.html) 適用於以WebSDK為基礎的資料集，以及來自Analytics來源聯結器的資料。 |
 | Products 變數 | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件陣列，以符合此使用案例。在 Customer Journey Analytics 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
 | 專案共用 | 專案共用功能僅支援在 Customer Journey Analytics 的使用者之間使用 - Customer Journey Analytics 和傳統 Analysis Workspace 之間沒有專案共用。 |
 | Report Builder | 支援用於 Excel 的新 Office 365 外掛程式。 |
-| 使用者權限/資料存取控制 | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hant) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。其他使用者權限可用於多種功能，例如建立計算量度、篩選器或註解等。 |
+| 使用者權限/資料存取控制 | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。其他使用者權限可用於多種功能，例如建立計算量度、篩選器或註解等。 |
 | 視覺效果 | 支援所有視覺效果，但地圖視覺效果除外。 |
+| 跨裝置/跨管道拼接 | 支援直接包含身分資訊的資料集 (也稱為「依欄位匯整」)。目前尚不支援圖表式拼接，但已規劃完成。請參閱[拼接](../../stitching/overview.md)。 |
 
 {style="table-layout:auto"}
 
@@ -81,11 +83,8 @@ ht-degree: 100%
 
 | 功能 | 附註 |
 | --- | --- |
-| 跨裝置/跨管道拼接 | 支援直接包含身分資訊的資料集 (也稱為「依欄位匯整」)。目前尚不支援圖表式拼接，但已規劃完成。請參閱[拼接](../../stitching/overview.md)。 |
 | 機器人篩選 | 對於以 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)為基礎的資料集，則會套用機器人篩選。[!UICONTROL Experience Platform] 或 Customer Journey Analytics 不會針對其他資料集執行一般機器人篩選邏輯。 |
-| 裝置、瀏覽器、推薦者、技術維度 | 支援 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)型資料集。請參閱[透過 ADC 支援 Analytics 變數的文件](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant)。<p>如果您使用 Experience Platform Web SDK 資料收集，則目前不支援基於裝置查詢裝置和維度。已規劃於未來支援。 |
 | 面板 | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。不支援區段比較面板和 Analytics for Target (A4T) 面板。 |
-| 處理規則 | 對於以 Analytics 來源連接器為基礎的資料集，仍會套用處理規則。[Adobe Experience Platform 中的資料準備功能](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)也可用來取代直接送到 Platform 的資料處理規則。 |
 | Analytics for Target (A4T) | 透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)中的欄位提供部分支援。已規劃目標活動和體驗支援 A4T 易記名稱。 |
 
 {style="table-layout:auto"}
@@ -137,6 +136,6 @@ ht-degree: 100%
 | SQL 存取 | 使用 Data Distiller 選項，Customer Journey Analytics 可以移除 Adobe 後端處理中收集資料的限制。您可以使用 SQL 修改資料、建立適合您業務的值和資料集，並繼續探索。Analytics 不支援對其資料進行任何類型的 SQL 存取。 |
 | 提升安全性和隱私權選項 - HIPAA 整備程度 | Customer Journey Analytics 符合 HIPAA 標準，並提供額外的安全性選項以實現法規合規性。Adobe Analytics 尚未符合 HIPAA 標準。 |
 | 組合資料集的能力 (例如 Adobe Analytics 報告套件) | Customer Journey Analytics 可讓您組合多個報告套件的資料，如同 Adobe Analytics 中的單一報告套件。 |
-| 衍生的欄位 | 衍生的欄位允許對您的資料進行報告時間轉換。資料可以動態組合、更正或建立，並追溯套用於所有的報告。 |
+| 衍生的欄位 | 衍生的欄位允許對您的資料進行報告時間轉換。您可以即時合併、更正或建立資料，並可回溯套用至所有報表。 |
 
 {style="table-layout:auto"}
