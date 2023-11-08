@@ -4,9 +4,9 @@ description: 銜接概觀。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
-source-git-commit: 058b8d997c7cb2e4e73d3c2026a4b9bf29db26bd
+source-git-commit: d0f7d5f2fe3cce869d413ca014d086e1a64665be
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1463'
 ht-degree: 21%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 21%
    * **永久 ID**，每列都會顯示這個識別碼，例如，Adobe AnalyticsAppMeasurement庫產生的訪客ID或Adobe Experience Cloud Identity Service產生的ECID。
    * **暫時 ID**，僅部分列會顯示這個識別碼，例如訪客驗證後雜湊的使用者名稱或電子郵件地址。您幾乎可以使用任何您喜歡的識別碼。 拼接會考量此欄位來儲存實際的人員ID資訊。 為獲得最佳拼接結果，每個永久ID應在資料集事件中至少傳送一次「暫時ID」 。 如果您打算將此資料集納入Customer Journey Analytics連線，最好讓其他資料集也具有類似的通用識別碼。
 
-  這兩欄（永久ID和暫時ID）都必須在您要拼接的資料集基礎結構描述中，定義為具有身分名稱空間的身分欄位。 在Real-time Customer Data Platform中使用身分拼接時，使用 [identityMap欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#identity)，您仍需要新增具有身分名稱空間的身分欄位，因為本節中討論的重播拼接不支援identityMap欄位群組。 在Real-time Customer Data Platform中根據identityMap欄位群組使用身分拼接時新增身分欄位時，請執行 *非* 將其他身分欄位設定為主要身分，因為這會干擾Real-time Customer Data Platform中以identityMap欄位群組為基礎的身分拼接。
+  這兩欄（永久ID和暫時ID）都必須在您要拼接的資料集基礎結構描述中，定義為具有身分名稱空間的身分欄位。 在Real-time Customer Data Platform中使用身分拼接時，使用 [identityMap欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#identity)，您仍需要新增具有身分名稱空間的身分欄位，因為本節討論的Customer Journey Analytics拼接不支援identityMap欄位群組。 在結構描述中新增身分欄位並同時使用identityMap欄位群組時，請勿將額外的身分欄位設定為主要身分，因為這會干擾用於Real-time Customer Data Platform的identityMap欄位群組。
 
 * 拼接包括合併已驗證和未驗證的使用者資料。 在事件資料集上啟用連結之前，請確定您遵守適用的法律和法規，包括取得必要的一般使用者許可權。 另請參閱 [在UI中定義身分欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#) 以取得詳細資訊。
 
