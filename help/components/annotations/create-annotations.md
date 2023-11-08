@@ -4,7 +4,7 @@ description: 如何在工作區中建立註解。
 role: User, Admin
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 2f5d1c6c90df8ccd9e792a870891a817e7c2a93d
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 76%
@@ -13,7 +13,7 @@ ht-degree: 76%
 
 # 建立註解
 
-根據預設，只有管理員才能建立註解。使用者有權檢視附註，就像檢視其他Analytics元件一樣（例如篩選器、計算量度等）。
+根據預設，只有管理員才能建立註解。使用者有權檢視註解，就像檢視其他Analytics元件一樣（例如篩選器、計算量度等）。
 
 但是，管理員可以透過 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant) 將「[!UICONTROL 註解建立]」權限 (Analytics 工具) 授予使用者。
 
@@ -28,6 +28,8 @@ ht-degree: 76%
 | **使用此快速鍵**&#x200B;來開啟註解產生器：(PC) `ctrl` `shift` + o，(Mac) `shift` + `command` + o | 請注意，使用快速鍵建立註解時，您會為目前日期建立單日註解，而不會預先選取任何範圍 (量度或維度)。 |
 | **使用 [Customer Journey Analytics註解API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | Customer Journey Analytics註解API可讓您透過Adobe Developer以程式設計方式建立、更新或擷取註解。 這些 API 使用 Adob&#x200B;&#x200B;e 在產品 UI 中使用的相同資料和方法。 |
 
+{style="table-layout:auto"}
+
 1. 填入[!UICONTROL 註解產生器]元素。
 
    ![](assets/ann-builder.png)
@@ -39,8 +41,8 @@ ht-degree: 76%
    | [!UICONTROL 標記] | (選用) 透過建立或套用標記來編排註解。 |
    | [!UICONTROL 套用的日期] | 選取需要出席的活動日期或日期範圍，使註解能夠顯示。 |
    | [!UICONTROL 顏色] | 在註解上套用顏色。註解會顯示在所選取顏色的專案中。顏色可用於將註解分類，例如，國定假日、外部活動、追蹤問題等。 |
-   | [!UICONTROL 範圍] | (選用) 拖放會觸發註解的量度。然後拖放作為篩選器的任何維度或篩選器（亦即註解將透過該維度或篩選器顯示）。 如果您不指定範圍，註解將套用至您所有的資料。<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發註解顯示的量度。</li><li>**[!UICONTROL 包含所有這些篩選器]**：最多拖放10個做為註解顯示時機之篩選器的維度或篩選器。</li></ul><p>使用案例：eVar 阻止了收集特定日期範圍的資料。將 eVar 拖曳至「**[!UICONTROL 出現這些量度的任一項]**」對話框中。否則您的[!UICONTROL 瀏覽]量度不會報告任何資料 - 遵循相同程序。<p>**注意：** 套用到元件然後當作計算量度或篩選器定義使用的任何註解都不會自動繼承該註解。 必須也將所需的計算量度新增到範圍區段中，才能顯示該註解。 不過，應該針對您想要加入相同資訊當作附註的任何篩選器建立新附註。<p>例如，您可將註解套用到特定日子的[!UICONTROL 訂單]。 然後您可將計算量度中的[!UICONTROL 訂單]用於相同日期範圍。 新的計算量度不會自動顯示訂單的註解；也必須也將計算量度新增到範圍區段中，才能顯示該註解。 |
-   | [!UICONTROL 套用至所有資料檢視] | 依預設，註解會套用至原始資料檢視。 若勾選此方框，您即可將註解套用至公司中的所有資料檢視。 |
+   | [!UICONTROL 範圍] | (選用) 拖放會觸發註解的量度。然後拖放作為篩選器的維度或篩選器（即註解將透過其顯示）。 如果您不指定範圍，註解將套用至您所有的資料。<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發註解顯示的量度。</li><li>**[!UICONTROL 包含所有這些篩選器]**：最多拖放10個做為註解顯示時機之篩選器的維度或篩選器。</li></ul><p>使用案例：eVar 阻止了收集特定日期範圍的資料。將 eVar 拖曳至「**[!UICONTROL 出現這些量度的任一項]**」對話框中。否則您的[!UICONTROL 瀏覽]量度不會報告任何資料 - 遵循相同程序。<p>**注意：** 套用到元件然後當作計算量度或篩選器定義使用的任何註解都不會自動繼承該註解。 必須也將所需的計算量度新增到範圍區段中，才能顯示該註解。 不過，應該針對您想要加入相同資訊當作註解的任何篩選器建立新的註解。<p>例如，您可將註解套用到特定日子的[!UICONTROL 訂單]。 然後您可將計算量度中的[!UICONTROL 訂單]用於相同日期範圍。 新的計算量度不會自動顯示訂單的註解；也必須也將計算量度新增到範圍區段中，才能顯示該註解。 |
+   | [!UICONTROL 套用至所有資料檢視] | 依預設，註解會套用至原始的資料檢視。 若勾選此方框，您即可將註解套用至公司中的所有資料檢視。 |
    | [!UICONTROL 套用於所有專案] | 預設情況下，註解會套用在目前的專案。若勾選此方框，您即可將註解套用在您擁有的所有專案。請注意，啟動 Annotation Builder 時，這個核取方塊才會出現。 |
 
    {style="table-layout:auto"}

@@ -3,9 +3,9 @@ description: 使用「摘要數字」和「摘要變更」視覺效果來呈現�
 title: 摘要數字和摘要變更
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '458'
+source-git-commit: 2f5d1c6c90df8ccd9e792a870891a817e7c2a93d
+workflow-type: tm+mt
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
@@ -30,16 +30,7 @@ ht-degree: 100%
 | 縮簡值 | 選擇以縮簡值，顯示最多小數點後 3 位。 |
 | 值摘要依據: | 選擇以顯示一系列資料的最大值、最小值、平均值、中間值或總計。 |
 
-
-按一下右上角的&#x200B;**「視覺效果設定」**&#x200B;齒輪，設定「摘要數字」設定：
-
-| 設定 | 定義 |
-|--- |--- |
-| 百分比 | 顯示百分比而非原始數據。 |
-| 可見圖例 | 顯示所顯示量度的相關資訊。 |
-| 縮簡值 | 選擇以縮簡值，顯示最多小數點後 3 位。 |
-| 值摘要依據: | 選擇以顯示一系列資料的最大值、最小值、平均值、中間值或總計。 |
-
+{style="table-layout:auto"}
 
 ## 摘要變更視覺效果 {#summary-change}
 
