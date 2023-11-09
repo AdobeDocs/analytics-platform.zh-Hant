@@ -4,10 +4,10 @@ description: 您可調整以建立或編輯資料檢視的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 27214e6fc896243c0d29632cb0242b0d2e4f4653
-workflow-type: ht
-source-wordcount: '1418'
-ht-degree: 100%
+source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
+workflow-type: tm+mt
+source-wordcount: '1431'
+ht-degree: 99%
 
 ---
 
@@ -77,6 +77,10 @@ ht-degree: 100%
 ## 元件
 
 接下來，您可以設定資料檢視的元件，這代表您可以從綱要元素建立量度和維度。您也可以使用標準元件。
+
+>[!IMPORTANT]
+>
+>一個資料檢視最多可以新增5,000個量度和5,000個維度。
 
 1. 選取「**[!UICONTROL 元件]**」索引標籤。
 
