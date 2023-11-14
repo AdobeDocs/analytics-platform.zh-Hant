@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 39e7ae1f77e00dfe58c7f9e9711d18a1cd4fc0ac
-workflow-type: ht
-source-wordcount: '209'
-ht-degree: 100%
+source-git-commit: 93969ea090960f676d33fc97063440f9b1265367
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 61%
 
 ---
 
@@ -28,6 +28,20 @@ ht-degree: 100%
 - macOS
 - Windows
 - 網頁瀏覽器
+
+## 常見使用實例
+
+- **資料擷取**：Adobe Report Builder可讓您將資料從Customer Journey Analytics擷取至Excel。 您可以建立自訂報表和查詢來擷取與您的分析相關的特定資料點。
+
+- **自訂報告**：您可以根據特定報表需求，在Excel中設計和格式化自訂報表。 這對於為不同的利害關係人量身打造報告特別有用。
+
+- **Ad Hoc Analysis**：使用者可以快速產生臨時報告，以回答特定問題或探索資料趨勢，而無需完成漫長的報告建立流程。
+
+- **儀表板**：從CJA擷取的資料可用於建立以Excel為基礎的儀表板和視覺效果，以概略瞭解關鍵績效指標(KPI)。
+
+- **共用深入分析**：您可以與團隊成員或可能沒有直接存取CJA的利害關係人共用Excel報告和見解。
+
+## 概述影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 
