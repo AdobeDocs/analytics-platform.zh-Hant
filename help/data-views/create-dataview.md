@@ -5,9 +5,9 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 source-git-commit: c106e178c5aecdaf061001247a1ee6ef183d043e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1431'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->一個資料檢視最多可以新增5,000個量度和5,000個維度。
+>單一資料檢視中最多可新增 5,000 個量度和 5,000 個維度。
 
 1. 選取「**[!UICONTROL 元件]**」索引標籤。
 
