@@ -3,15 +3,15 @@ description: 描述 Analysis Workspace 如何篩選及排序表格的文件。
 title: 篩選和排序表格
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
-source-git-commit: 2a60ed6dddf70b58c7c6e742eb01b9468cc2dd83
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '966'
 ht-degree: 67%
 
 ---
 
 
-# 篩選和排序自由表格
+# 篩選和排序自由格式表格
 
 Analysis Workspace 中的自由表格是互動式資料分析的基礎。因此，它們可包含數千列資訊。若要有效地展示最重要的資訊，對資料進行篩選和排序相當重要。
 
@@ -67,7 +67,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 1. 選取出現的&#x200B;**篩選**&#x200B;圖示。
 
-   ![表格中的篩選器圖示](assets/table-filter-icon.png)
+   ![反白顯示「篩選」圖示的自由格式表格。](assets/table-filter-icon.png)
 
    提供下列選項：
 
@@ -108,6 +108,6 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
    - 向下箭頭會以降序排列，而向上箭頭 (預設值) 則以升序排列。
    - 您可以依字母順序或數值排序維度。例如，您可能在工作流程中有編號的步驟，而且可能想要依步驟編號排序。您可以依日期排序與日期相關的維度。或者，您也可以依字母順序排序資料來源，如下圖所示。
 
-   ![](assets/sort-dimensions.png)
+   ![「資料來源」檢視會醒目顯示排序圖示。](assets/sort-dimensions.png)
 
 

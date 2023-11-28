@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 建立自訂日期範圍
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '248'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 85%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 100%
 
 下列自訂日期範圍會顯示「兩個月前」的日期範圍，而「摘要變更」視覺效果會顯示方向變化。
 
-![](assets/date-range-two-months-ago.png)
+![日期範圍產生器顯示兩個月前的使用滾動日期](assets/date-range-two-months-ago.png)
 
 自訂日期範圍會顯示在您專案中的「[!UICONTROL 日期範圍]」元件面板上方：
 
-![](assets/date-range-panel-two-months-ago.png)
+![日期範圍元件面板，其箭頭指向兩個月前。](assets/date-range-panel-two-months-ago.png)
 
 您可將此自訂日期範圍拖曳至使用「上個月」預設集之自訂每月滾動日期範圍旁的欄中，用以進行比較。新增「摘要變更」視覺效果並選取每個欄的總計，顯示方向變化：
 
-![](assets/date-range-two-months-table.png)
+![摘要變更顯示和增加14.45%。](assets/date-range-two-months-table.png)
 
 ## 使用 7 天滾動日期範圍
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 例如，您可以建立一個日期範圍，指定在一週前結束的 7 天滾動期間：
 
-![](assets/create_date_range.png)
+![日期範圍產生器，顯示指定7天遞延視窗的日期範圍。](assets/create_date_range.png)
 
-使用&#x200B;*`rolling daily`*。
+使用 *`rolling daily`*.
 
 * 開始設定是 *`current day minus 14 days`*。
 

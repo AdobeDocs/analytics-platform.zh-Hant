@@ -4,10 +4,10 @@ description: 檢視資料檢視元件的核心設定。
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: cc12f77d3a0cb9b27a5d0c6a92c35faf2b6e6e35
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 70%
+source-wordcount: '490'
+ht-degree: 69%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 70%
 
 資料檢視元件使用的核心設定。
 
-![元件設定](../assets/component-settings.png)
+![本節所述的元件設定](../assets/component-settings.png)
 
 | 設定 | 說明/使用案例 |
 | --- | --- |

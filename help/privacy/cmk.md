@@ -3,16 +3,16 @@ title: 客戶自控金鑰
 description: 瞭解如何設定客戶自控金鑰以進行Customer Journey Analytics。
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
 feature: Privacy
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 66%
+source-wordcount: '338'
+ht-degree: 64%
 
 ---
 
 # 客戶自控金鑰
 
-Adobe Customer Journey Analytics為以下專案提供選項： [Healthcare Shield](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html) 以及Privacy &amp; Security Shield客戶，將Azure客戶自控金鑰(CMK)套用至您的Customer Journey Analytics資料。  請注意，此過程與 [Adobe Experience Platform CMK 設定](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=zh-Hant)不同。
+Adobe Customer Journey Analytics為以下專案提供選項 [Health Shield](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html) 以及Privacy &amp; Security Shield客戶，將Azure客戶自控金鑰(CMK)套用至您的Customer Journey Analytics資料。  請注意，此過程與 [Adobe Experience Platform CMK 設定](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=zh-Hant)不同。
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Adobe Customer Journey Analytics為以下專案提供選項： [Healthcare Shiel
 1. 將 Adobe Azure 應用程式存取權限授予給您的金鑰 (金鑰保存庫中)。這是 Adobe 應用程式 ID：251e3919-1940-4296-bb8b-6b9a5e8a4805。[從 Microsoft 了解更多資訊](https://learn.microsoft.com/zh-tw/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&amp;tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)
 1. 建立要求 CMK 設定的 Adobe 客戶服務票證。在您的票證中包含 Azure URI。URI 可以在 Azure Key 的&#x200B;**金鑰識別碼**&#x200B;欄位中找到。
 
-   ![](assets/key-identifier.png)
+   ![顯示https://cmkoberontest.vault.azure.net URI的金鑰識別碼欄位](assets/key-identifier.png)
 
 1. Adobe客戶服務將確認您Customer Journey Analytics資料上的CMK應用程式已完成。
 

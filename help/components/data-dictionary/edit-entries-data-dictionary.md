@@ -4,16 +4,16 @@ title: 編輯資料字典中的條目
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 45%
+source-wordcount: '380'
+ht-degree: 69%
 
 ---
 
 # 編輯資料字典中的元件條目
 
-Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢視的元件專案。 資料檢視的所有使用者都能看見所做的任何變更。
+Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢視的元件專案。 所有資料檢視的使用者皆可檢視所做的任何變更。
 
 若要編輯資料字典中的元件條目：
 
@@ -23,17 +23,17 @@ Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢
 
 顯示資料字典視窗。
 
-![資料字典管理員檢視](assets/data-dictionary-admin.png)
+![顯示字典健全狀態的資料字典管理員檢視](assets/data-dictionary-admin.png)
 
-1. 確定在下拉式選單中選取了正確的資料檢視。 依預設，系統會顯示您已在的資料檢視。
+1. 確定在下拉式選單中選取了正確的資料檢視。 依預設，會顯示您已所在的資料檢視。
 
 1. (可選) 開始在搜尋欄位中鍵入要編輯的元件名稱。
 
-元件型別可由顏色和圖示識別。 **Dimension** ![Dimension圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 是橙色， **篩選器** ![「區段」圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 是藍色的， **日期範圍** ![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 是紫色的，並且 **量度** ![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 是綠色的。 Adobe圖示會指出計算量度範本或篩選器範本，而電腦圖示則會反白顯示 ![計算器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示貴組織中Analytics管理員建立的計算量度。
+元件的類型可依據顏色和圖示加以識別。**Dimension** ![Dimension圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 是橙色， **篩選器** ![「區段」圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 是藍色的， **日期範圍** ![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 為紫色，且 **量度** ![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 是綠色的。 Adobe圖示會指出計算量度範本或篩選器範本，而計算器圖示則會反白顯示 ![計算器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示貴組織中的Analytics管理員所建立的計算量度。
 
 {{dd-filter-criteria}}
 
-1. （可選）選取 **排序** 圖示 ![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取下列任一篩選選項來排序元件清單：
+1. (可選) 選取「**排序**」圖示 ![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取以下任一篩選器選項以將元件清單排序：
 
 {{components-sort-options}}
 

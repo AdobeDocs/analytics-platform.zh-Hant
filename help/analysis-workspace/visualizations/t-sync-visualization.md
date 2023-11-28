@@ -4,10 +4,10 @@ keywords: Analysis Workspace, 將視覺效果同步至資料來源
 title: 管理資料來源
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '609'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 1. 在資料表中，選取您想關聯至視覺效果的儲存格 (資料來源)。
 1. 在視覺效果中，按一下標題旁的點可開啟&#x200B;**[!UICONTROL 「資料來源」]**&#x200B;對話方塊。選取&#x200B;**[!UICONTROL 「顯示資料來源」]**&#x200B;或&#x200B;**[!UICONTROL 「鎖定選取項目」]**。
 
-   ![](assets/manage-data-source.png)
+   ![「資料來源」選項對話方塊會顯示下一節中說明的選項。](assets/manage-data-source.png)
 
    將視覺效果同步至某個表格儲存格，會建立新的 (隱藏) 表格，並為同步的視覺效果及該表格設定色彩代碼。
 
@@ -39,10 +39,10 @@ ht-degree: 100%
 
 * 您可以建立摘要視覺效果，並將其鎖定至您建立視覺效果所用的表格中的儲存格。啟用「顯示資料來源」，便會顯示此資訊在表格上的確切位置。來源資料會呈現灰色：
 
-   ![](assets/data-source2.png)>
+  ![工作表中的資料來源位置。](assets/data-source2.png)>
 * 您可以新增多個視覺效果，並使用相同表格中多個不同儲存格當成資料來源，如下所示。此表格與上方範例中的表格相同，但來源儲存格 (與量度) 不同：
 
-   ![](assets/data-source3.png)>
+  ![已新增來自多個儲存格的視覺效果的資料來源位置](assets/data-source3.png)>
 * 您可以按一下左上角的圓點 (「資料來源設定」)，查看是否有連接至自由表格或同類群組表格的視覺效果。游標暫留時會反白顯示連結的視覺效果，只要按一下，即可進入該視覺效果。
 
-   ![](assets/linked-visualizations.png)>
+  ![資料來源設定會醒目顯示最上層頁面檢視的連結視覺效果。](assets/linked-visualizations.png)>

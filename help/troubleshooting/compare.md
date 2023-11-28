@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: 查詢服務；查詢服務；sql語法
-source-git-commit: 5caae6c8dd38eb5c6ef9cf02cdff965add75b312
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 69%
+source-wordcount: '886'
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 69%
 
 Adobe Analytics Adobe Experience Platform假設您透過 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)，然後使用此資料集建立Customer Journey Analytics連線。
 
-![資料流](assets/compare.png)
+![資料從Adobe Analytics透過Data Connector傳輸至Adobe Experience Platform，並使用CJA連線傳輸至Customer Journey Analytics。](assets/compare.png)
 
 接著您建立資料檢視，然後在後續的Customer Journey Analytics上報告此資料時，您注意到Adobe Analytics中的報告結果不一致。
 

@@ -3,10 +3,10 @@ description: Analysis Workspace 中的「日期比較」可讓您挑選任何含
 title: 日期比較
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '638'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 1. 建立自由表格，加入您要用時段比較的任何維度和量度。
 1. 以滑鼠右鍵按一下表格列，然後選取&#x200B;**[!UICONTROL 「比較時段」]**。
 
-   ![](assets/compare-time.png)
+   ![已選取比較時段的表格列](assets/compare-time.png)
 
    >[!IMPORTANT]
    >
@@ -41,13 +41,13 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 
 1. 比較結果看起來像這樣：
 
-   ![](assets/compare-time-result.png)
+   ![自由表格，顯示日期範圍和百分比變更的比較。](assets/compare-time-result.png)
 
    「變化百分比」欄中的列呈紅色表示負值，綠色表示正值。
 
 1. (選用) 如同任何其他 Workspace 專案，您可以根據這些時間比較建立視覺效果。例如，這張長條圖：
 
-   ![](assets/compare-time-barchart.png)
+   ![Workspace專案橫條圖。](assets/compare-time-barchart.png)
 
    請注意，為了在橫條圖中顯示變化百分比，您必須選取「[!UICONTROL 視覺效果設定]」中的「[!UICONTROL 百分比]」設定。
 
@@ -55,7 +55,7 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 
 您現在可以在表格的每個欄中新增時段，以新增不同於行事曆設定的時段。這是另一種比較日期的方式。
 
-1. 以滑鼠右鍵按一下表格中的一欄，然後選取「**[!UICONTROL 新增時段欄」]**![](assets/add-time-period-column.png)
+1. 以滑鼠右鍵按一下表格中的一欄，然後選取「**[!UICONTROL 新增時段欄」]**![反白顯示「新增時段欄」的表格欄清單 ](assets/add-time-period-column.png)
 
 1. 您有以下這些比較選項，取決於您如何設定表格的日期範圍：
 
@@ -71,11 +71,11 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 
 1. 此時段會插入在您選取的欄之上：
 
-   ![](assets/add-time-period-column2.png)
+   ![自由表格，顯示目前日曆期間與上一個日曆月的發生次數。](assets/add-time-period-column2.png)
 
 1. 您可以新增任意數目的欄，以及混合及比對不同日期範圍：
 
-   ![](assets/add-time-period-column4.png)
+   ![自由格式表格，顯示本月、上個月、一年前和前一個月的一週的發生次數。](assets/add-time-period-column4.png)
 
 1. 此外，您可以排序各欄，這會變更天數的次序，取決於您排序的欄。
 
@@ -83,7 +83,7 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 
 這項所有表格皆適用的新設定可讓您&#x200B;**[!UICONTROL 「對齊各欄日期，讓所有開始日期在同一列 (套用至整個表格)」]**。「套用至整個表格」的意思是，舉例來說，如果您劃分表格，並且變更劃分的某項設定，則會變更整個表格的該項設定。
 
-![](assets/date-comparison-setting.png)
+![含有表格設定的自由表格快顯功能會顯示對齊日期（從每一欄對齊所有開始日期），且位於選取的同一列。](assets/date-comparison-setting.png)
 
 >[!IMPORTANT]
 >
@@ -91,7 +91,7 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 
 範例：當您選擇對齊日期，如果您進行 2016 年 10 月和 9 月間的月對月比較，左欄將從 10 月 1 日開始，右欄將從 9 月 1 日開始：
 
-![](assets/add-time-period-column3.png)
+![顯示逐月百分比的比較。](assets/add-time-period-column3.png)
 
 <!-- 
 

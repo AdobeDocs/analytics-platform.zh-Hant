@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 76%
+source-wordcount: '717'
+ht-degree: 74%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 76%
 為確保高階主管使用者能存取您在應用程式上的計分卡，請確定：
 
 * 使用者裝置的行動作業系統需為 iOS 10 (含) 以上版本或 Android 4.4 (KitKat) (含) 以上版本
-* 使用者具有有效的登入Customer Journey Analytics許可權。
+* 使用者處於Customer Journey Analytics的有效登入狀態。
 * 您已為使用者正確建立行動計分卡，並和他們共用這些計分卡。
 * 使用者可存取計分卡中的元件。請注意，您可在共用計分卡時選取&#x200B;**[!UICONTROL 共用內嵌元件]**&#x200B;的選項。
 
@@ -35,23 +35,23 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->雖然行動應用程式在應用程式商店中命名為Adobe Analytics控制面板，但該應用程式可與Customer Journey Analytics行動計分卡同等效用。
+>雖然行動應用程式在應用程式商店中的名稱為Adobe Analytics儀表板，但該應用程式可與Customer Journey Analytics行動計分卡同等使用。
 
 **若高階主管使用者使用 iOS：**
 
-按一下以下連結(也可從「 」下方的「Customer Journey Analytics」取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動OPP）]**)並依照提示下載、安裝和開啟應用程式：
+按一下以下連結(也可從下方的Customer Journey Analytics取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動操作平台）]**)並依照提示下載、安裝和開啟應用程式：
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **若高階主管使用者使用 Android：**
 
-按一下以下連結(也可從「 」下方的「Customer Journey Analytics」取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**)並依照提示下載、安裝和開啟應用程式：
+按一下以下連結(也可從下方的Customer Journey Analytics取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**)並依照提示下載、安裝和開啟應用程式：
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
 下載並安裝完畢後，主管使用者就可使用現有的Customer Journey Analytics憑證登入應用程式；系統可支援Adobe和Enterprise/Federated ID。
 
-![應用程式歡迎畫面](assets/welcome.png)
+![Adobe Analytics儀表板歡迎畫面](assets/welcome.png)
 
 ## 協助高階主管存取您的計分卡
 
@@ -74,7 +74,7 @@ ht-degree: 76%
 
 向高階主管使用者說明圖磚在您所共用的計分卡中顯示的方式。
 
-![說明圖磚](assets/newexplain.png)
+![說明圖磚，包括日期範圍、區段篩選，以及選取的量度和維度](assets/newexplain.png)
 
 ![計分卡範例](assets/intro_scorecard.png)
 
@@ -112,7 +112,7 @@ ht-degree: 76%
 
 ![無共用項目](assets/nothing.png)
 
-* 高階主管使用者可能選取了錯誤的Customer Journey Analytics沙箱，或
+* 高階主管使用者可能選取了錯誤的Customer Journey Analytics沙箱，或者
 * 可能尚未和該高階主管使用者共用任何計分卡。
 
-確認執行使用者可登入正確的Customer Journey Analytics沙箱，且已共用計分卡。
+確認執行使用者可登入正確的Customer Journey Analytics沙箱，且有與其共用的計分卡。

@@ -4,10 +4,10 @@ description: 說明如何在 Customer Journey Analytics 中使用基本視覺效
 feature: Workspace Basics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
-source-git-commit: ff71d21235bd37da73c0b6c628c395da6cda7659
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '153'
+ht-degree: 90%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 100%
 
 * 依資料來源描繪對象大小，例如廣告曝光資料、Customer Journey Analytics 資料、電子郵件資料、POS 資料、客服中心資料和調查資料。
 
-![](assets/cja-basic-analysis.png)
+![基本分析圖表的視覺效果範例。 ](assets/cja-basic-analysis.png)
 
-![](assets/cja-basic-analysis2.png)
+![基本分析圖表的更多視覺效果範例](assets/cja-basic-analysis2.png)

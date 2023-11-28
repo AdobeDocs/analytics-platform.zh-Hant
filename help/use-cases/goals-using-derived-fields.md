@@ -4,9 +4,9 @@ description: 瞭解如何使用衍生欄位來報告工作區專案中的目標�
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 5cd838f7-e394-4a67-9d2e-e1d08a864ca0
-source-git-commit: 150a46e59d7f76d90906c85332a94cd5974008c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 1. 使用CASE WHEN RULE設定每個月的靜態值，方法為設定 **[!UICONTROL 自訂數值]**. 請參閱下方的每月產品目標規則。
 
-   ![產品目標](assets/goals-derived-field-product-goals-1.png)
+   ![每月產品目標](assets/goals-derived-field-product-goals-1.png)
 
 
 ### 行銷管道收入目標

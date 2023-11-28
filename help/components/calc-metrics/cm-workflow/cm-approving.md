@@ -3,10 +3,10 @@ description: 在計算量度管理員中，您可以設定包含各應用程式�
 title: 核准計算量度
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 19%
+source-wordcount: '245'
+ht-degree: 18%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 19%
 
 1. （選用）與組織中的其他使用者共用量度，如所述 [共用計算量度](/help/components/calc-metrics/cm-workflow/cm-sharing.md).
 
-1. 按一下「**[!UICONTROL 確定]**」。
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
 
-   注意清單中該計算量度旁出現核准圖示:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
+   注意清單中該計算量度旁出現核准圖示：![核准圖示圓形中的核取記號。](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
 
 1. （可選）若要篩選計算量度管理員中的計算量度清單以僅顯示已核准的量度，請選取 **篩選** 圖示，展開 **[!UICONTROL 其他篩選器]**，然後選取 **[!UICONTROL 已核准]**.

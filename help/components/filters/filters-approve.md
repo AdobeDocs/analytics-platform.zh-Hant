@@ -2,10 +2,11 @@
 description: 您可以設定工作流程，其中包含各種應用層級、特定部門或群組，以及符合報表原則的核准篩選器。
 title: 核准篩選器
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+exl-id: 3892ef54-3f24-4c7a-868f-f566efaea400
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 79%
+source-wordcount: '131'
+ht-degree: 72%
 
 ---
 
@@ -25,6 +26,6 @@ ht-degree: 79%
 
    請注意清單中該篩選器旁會出現核准圖示。
 
-   ![](assets/seg_approved.png)
+   ![篩選管理器，顯示大於100的訂單已核准共用。](assets/seg_approved.png)
 
 1. 您也可以按一下「**[!UICONTROL 取消核准]**」，將核准的篩選器取消核准。

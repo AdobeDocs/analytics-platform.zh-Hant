@@ -4,10 +4,10 @@ description: 決定是否會在不同事件中儲存維度值或是如何儲存�
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 81%
+source-wordcount: '865'
+ht-degree: 80%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 [!UICONTROL 持續性]是給定維度值在其設定的事件之外與量度相關的能力。它使用配置和過期時間的組合。
 
-![持續性](../assets/persistence.png)
+![醒目提示持續性選項的資料檢視視窗](../assets/persistence.png)
 
 * **配置**&#x200B;可讓您確定當一個列中可以同時保留多個維度項時保留哪個值。
 

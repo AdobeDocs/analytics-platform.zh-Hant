@@ -3,9 +3,9 @@ description: 篩選器產生器提供的畫布可用來拖放量度Dimension、�
 title: 建立篩選器
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 6b79243a2f12936208f6f04c249a81315ba8901b
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1261'
 ht-degree: 24%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 24%
 
 您可以新增規則定義和容器以定義篩選器。 (如需有關存取篩選產生器的資訊，請參閱 [存取篩選產生器](#access-the-filter-builder).)
 
-![](assets/segment_builder_ui_2.png)
+![篩選產生器顯示本節所述的新篩選選項。](assets/segment_builder_ui_2.png)
 
 | UI 元素 | 說明 |
 | --- | --- |

@@ -4,10 +4,10 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 95%
+source-wordcount: '1382'
+ht-degree: 91%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 95%
 例如，在建立資料檢視時，您可以從字串「[!UICONTROL pageTitle]」結構欄位建立「[!UICONTROL 訂單]」量度。步驟如下：
 
 1. 在「元件」索引標籤上，將「[!UICONTROL pageTitle]」拖曳至「[!UICONTROL 已包含元件]」下的「[!UICONTROL 量度]」區段。
-   ![](../assets/use-case1a.png)
+   ![結構描述欄位，其箭頭指向元件名稱清單中的pageTitle。](../assets/use-case1a.png)
 1. 現在，在右側的「[!UICONTROL 元件設定] 」下反白標示您剛才拖曳的量度，並將其重新命名：
-   ![](../assets/orders.png)
+   ![結構描述欄位會醒目提示「元件設定」下的「訂單」。](../assets/orders.png)
 1. 開啟右側的「[!UICONTROL 包含/排除值]」對話框，並指定下列項目：
-   ![](../assets/orders2.png)
+   ![包含/排除選取了「設定包含/排除值」和「區分大小寫」的值。](../assets/orders2.png)
 
    「確認」短語表示這是訂單。在檢閱符合這些標準的所有頁面標題後，每個例項都會計為「1」。此結果是新量度 (而非計算量度)。具有包含/排除值的量度可用於任何其他量度也可使用的地方。它適用於 Attribution IQ、篩選器，以及您可使用標準量度的其他任何地方。
 1. 您可以進一步指定此量度的歸因模型，例如 「[!UICONTROL 上次接觸]」，並具有「[!UICONTROL 工作階段]」的 [!UICONTROL 「回顧」視窗]。您也可以從相同欄位建立另一個「[!UICONTROL 訂單]」量度，並為其指定不同的歸因模型，例如「[!UICONTROL 上次接觸]」，以及不同的[!UICONTROL 「回顧」視窗]，例如「[!UICONTROL 30天]」。
@@ -37,11 +37,11 @@ ht-degree: 95%
 
 1. 將「[!UICONTROL call_length_min]」整數拖曳至「[!UICONTROL 已包含元件]」下的「[!UICONTROL 維度]」區段：
 
-   ![](../assets/integers.png)
+   ![指向Dimension清單中call_length_mins的箭頭。](../assets/integers.png)
 
 1. 您現在可以新增「[!UICONTROL 值分組]」，在報告中以分組方式呈現此維度。(若未進行分組，此維度的每個例項都會顯示為 Workspace 報告中的條列項目。)
 
-   ![](../assets/bucketing.png)
+   ![值分組並選取貯體值。](../assets/bucketing.png)
 
 ## 3. 在流程圖表中使用數值維度當做「量度」 {#numeric}
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 1. 在「資料檢視[元件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html#configure-component-settings)」標籤上，將「行銷管道」]結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。[!UICONTROL 
 2. 在工作區報表中，此流量顯示流入[!UICONTROL 訂單]的[!UICONTROL 行銷管道]:
 
-![](../assets/flow.png)
+![行銷管道從電子郵件流向退出/訂單。](../assets/flow.png)
 
 ## 4. 執行子事件篩選 {#sub-event}
 
@@ -81,7 +81,7 @@ f. 指定「50」當做值。
 
 別忘了重新命名每個量度來反映差異，例如「演算法收入」：
 
-![](../assets/algo-revenue.png)
+![在「行為」清單下選取計數值的演演算法收入。](../assets/algo-revenue.png)
 
 有關其他資料檢視設定的詳細資訊，請參閱「[建立資料檢視](/help/data-views/create-dataview.md)」。有關資料檢視的概念性概觀，請參閱「[資料檢視概觀](/help/data-views/data-views.md)」。
 
@@ -97,9 +97,9 @@ f. 指定「50」當做值。
 
 * [工作階段類型](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) - 此維度有兩個值：1) [!UICONTROL 新的]和 2) [!UICONTROL 回訪]。[!UICONTROL 新的]條列項目包含已確定為個人定義的首次工作階段的工作階段中的所有行為 (亦即針對此維度的量度)。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
 
-* [首次工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional). 「首次工作階段」量度定義為個人在報告時段內定義的首次工作階段。
+* [首次工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional). 首次工作階段量度定義為個人在報告時段內定義的首次工作階段。
 
-* [回訪工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) 「回訪工作階段」量度是非個人首次工作階段的工作階段數量。—>
+* [回訪工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=zh-Hant#optional) 回訪工作階段量度是非個人首次工作階段的工作階段數量。—>
 
 若要存取這些元件：
 

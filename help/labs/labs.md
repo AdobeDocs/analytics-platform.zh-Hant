@@ -4,16 +4,16 @@ description: 預覽 Customer Journey Analytics 的原型專案
 role: Admin
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
-source-git-commit: 9a4ae8ae8c545589de0556059520b31364de367c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 91%
+source-wordcount: '425'
+ht-degree: 89%
 
 ---
 
 # [!UICONTROL Labs] 使用手冊
 
-[!UICONTROL Labs 可讓您更快速地建立早期構想的原型。]此功能結合了工具和程序，能夠以透明方式加速開發，並且以客戶為中心。 它讓用戶運用新興技術參與互動、發掘有價值的深入分析資料，並影響未來的功能開發與優先項目。 您可以透過Labs搶先使用Adobe Customer Journey Analytics創新功能，並根據您自己的業務使用案例和資料評估即將推出的功能。
+[!UICONTROL Labs 可讓您更快速地建立早期構想的原型。]此功能結合了工具和程序，能夠以透明方式加速開發，並且以客戶為中心。 它讓用戶運用新興技術參與互動、發掘有價值的深入分析資料，並影響未來的功能開發與優先項目。 透過Labs，您可以搶先使用Adobe Customer Journey Analytics創新功能，並根據您自己的業務使用案例和資料的內容評估即將推出的功能。
 
 ## 要求
 
@@ -55,13 +55,13 @@ ht-degree: 91%
 
 1. 使用原型時，隨時按一下&#x200B;**[!UICONTROL 提供意見反應]**，即可在訊息方塊中輸入意見反應。
 
-   ![feedback_box](assets/give_feedback.png)
+   ![意見回饋視窗](assets/give_feedback.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「提交」]**&#x200B;即可傳送您的意見。
 
 1. 若要嘗試不同的原型，或要退出原型環境，請按一下畫面右上方的&#x200B;**[!UICONTROL 離開原型]**，並填寫與原型相關的簡短問卷調查。 退出原型環境後，對原型專案所做的任何更改都將遺失。
 
-   ![新的意見回饋方塊](assets/short-survey.png)
+   ![智慧型路徑意見回饋視窗](assets/short-survey.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「提交」]**&#x200B;即可返回主預覽入口網站。
 

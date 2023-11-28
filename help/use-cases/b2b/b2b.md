@@ -4,9 +4,9 @@ description: 瞭解如何將以帳戶為基礎的資料，以查詢資料集的�
 exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: d2bb21939f861d83b6c306ac548e4fb35cbd19a4
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '821'
 ht-degree: 74%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 74%
 
 建立您自己的結構描述 [查詢](/help/getting-started/cja-glossary.md) 表格可確保所用的資料集能夠以正確設定（記錄型別）的Customer Journey Analytics使用。 最佳作法是以「Lookup」為名稱[建立自訂架構類別](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#create-new-class) (不含任何元素)，供所有查詢表格重複使用。
 
-![](../assets/create-new-class.png)
+![建立新類別對話方塊。](../assets/create-new-class.png)
 
 ## 2.建立查詢資料集(Experience Platform)
 

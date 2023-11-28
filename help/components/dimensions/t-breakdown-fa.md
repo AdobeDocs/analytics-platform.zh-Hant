@@ -5,10 +5,10 @@ title: 劃分維度
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '347'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 1. [建立專案](/help/analysis-workspace/home.md)並搭配資料表格。
 1. 在資料表格中，以滑鼠右鍵按一下某個條列項目，並選取&#x200B;**[!UICONTROL 劃分]** > *`<item>`*。
 
-   ![步驟結果](assets/fa_data_table_actions.png)
+   ![步驟結果顯示「從選取專案建立警報」。](assets/fa_data_table_actions.png)
 
    您可以跨所選時段，依維度項目或對象篩選器來劃分量度。您也可以更深入鑽研至更詳細的層級。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 表格中的任何劃分也可套用任何歸因模型。此歸因模型可與父欄相同或不同。舉例來說，您可以在「行銷管道」維度中分析線性訂單，但將「U 形訂單」套用至管道中的特定追蹤代碼。若要編輯套用到劃分的歸因模型，請將滑鼠移到劃分模型上方，然後按一下&#x200B;**[!UICONTROL 編輯]**：
 
-![劃分設定](assets/breakdown_settings.png)
+![顯示劃分設定的訂單歸因比較](assets/breakdown_settings.png)
 
 這是將歸因模型套用至劃分或編輯劃分時的預期行為：
 

@@ -1,12 +1,12 @@
 ---
 title: 引導式分析常見問題集
 description: 有關引導式分析的常見問題。
-exl-id: 32bfce23-a59c-45cb-b1cd-82f048fb13d2
+exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 * **引導式分析是以事件為中心的體驗。** 每個分析都從選取事件開始，然後可以新增維度和篩選器來調整該事件資料。
 
-![結構](assets/structure.png)
+![Analysis Workspace和引導式分析檢視](assets/structure.png)
 
 請考量下列範例，您專注在網站首頁的相關資料。 團隊會提出類似的問題，但分析方法可能不同。
 

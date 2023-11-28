@@ -4,10 +4,10 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: ed2de7ead2724a870fcd6ce1d32eb9b05e5f0576
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3218'
-ht-degree: 84%
+source-wordcount: '3228'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 
 1. 在Customer Journey Analytics中，前往 [!UICONTROL **專案**] 登陸頁面，然後選取 [!UICONTROL **編輯偏好設定**].
 
-   ![使用者偏好設定](assets/user-preferences.png)
+   ![工作區專案檢視會醒目顯示本頁面所述的「編輯」偏好設定選項。](assets/user-preferences.png)
 
    或
 
@@ -71,7 +71,7 @@ ht-degree: 84%
 | --- | --- | --- |
 | **顯示** | | |
 |  | [檢視密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hant) | 減少左側邊欄、自由表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
-| | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | 選擇在Analysis Workspace和引導式分析中使用的視覺化調色盤。 <ul><li> 類別調色盤：套用至Analysis Workspace和引導式分析中的許多視覺效果。 每種顏色代表不同的分類值。 從Adobe提供的選項中選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li> 差異色盤：套用至Analysis Workspace和「使用者成長」引導式分析中的「同類群組」表格。 此調色盤具有數值意義，其中有兩個極值，中間有一個基線。<li> 循序浮動面板：套用至頻率趨勢（棧疊長條圖）引導式分析。 此調色盤具有從淺到深的數值意義。</li></ul> |
+| | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | 選擇在Analysis Workspace和引導式分析中使用的視覺化調色盤。 <ul><li> 類別調色盤：套用至Analysis Workspace和引導式分析中的許多視覺效果。 每種顏色代表相異的類別值。從 Adobe 提供的選項中進行選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li> 差異色盤：套用至Analysis Workspace和「使用者成長」引導式分析中的「同類群組」表格。 該調色盤具有數值含義，其中包含兩個極端和中間的基線。<li> 循序調色盤：套用於頻率趨勢 (堆積長條) 引導的分析。該調色盤具有從淺到深的數值含義。</li></ul> |
 | **資料** | | |
 |  | [資料檢視](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#report-suite) | 從表格和視覺效果衍生其資料的位置進行選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定資料檢視</li></ul> |
 |  | [行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>自訂界定的範圍</li></ul> |
@@ -111,7 +111,7 @@ ht-degree: 84%
 | **[列](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 依位置劃分 | 如果您希望劃分保留在項目的位置，而非項目本身，請選取此選項。如需劃分的詳細資訊，請參閱[劃分維度](/help/components/dimensions/t-breakdown-fa.md)。 |
 | | 百分比計算 | <ul><li>欄</li><li>列</li></ul> |
-| | 欄總計（僅限靜態列） | <ul><li>顯示列的總和：顯示個別條列專案的總和 </li><li>顯示總量：顯示已去除重複資料列的加總。</li></ul> |
+| | 欄總計 (僅限靜態列) | <ul><li>顯示列總和：顯示各個條列項目的總和 </li><li>顯示全部總量：顯示已排除重複項目後的列總和。</li></ul> |
 
 ## 視覺效果偏好設定
 

@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 視覺效果概觀
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
-source-git-commit: 0022df4fa6022d5b045e47b606f4a6d1687f7244
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 84%
+source-wordcount: '1323'
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
    * 在左側邊欄中，選取 **視覺效果** 圖示 <!-- add icon -->，然後將視覺效果拖曳至您要新增的面板。
 
-     ![](assets/viz-rail.png)
+     ![視覺效果面板](assets/viz-rail.png)
 
    * 在您想要新增視覺效果的面板上，選取 **加號** 圖示，然後選擇代表您要新增之視覺效果的圖示。 將滑鼠指標暫留在每個視覺效果的圖示上，即可檢視其名稱。
 
@@ -81,14 +81,14 @@ Analysis Workspace 中有以下視覺效果類型：
 
 每個視覺效果都有各自的設定可供您管理。若要存取[!UICONTROL 視覺效果設定]，請按一下「[!UICONTROL 視覺效果設定]」齒輪圖示。
 
-![設定](assets/settings.png)
+![視覺效果設定顯示下節所述的設定選項。](assets/settings.png)
 
 | 設定 | 說明 |
 | --- | --- |
 | 視覺效果類型 | 變更用來描繪資料的視覺類型。 |
 | 詳細程度 | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的下拉式清單中的。 這項變更也適用於資料來源表。 |
 | 百分比 | 以百分比顯示值。 |
-| 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。例如：![堆疊 100%](assets/stacked_100_percent.png) |
+| 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。範例： ![顯示「棧疊100%」選項檢視的橫條圖。](assets/stacked_100_percent.png) |
 | 可見圖例 | 允許您隱藏詳細的圖例文字，以顯示累加數/累加變化的視覺效果。 |
 | 項目數上限 | 可讓您限制視覺效果顯示的項目數。 |
 | 將 Y 軸固定於零 | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
@@ -107,7 +107,7 @@ Analysis Workspace 中有以下視覺效果類型：
 1. 以滑鼠右鍵按一下圖例標籤。
 1. 按一下&#x200B;**[!UICONTROL 「編輯標籤」]**。
 
-   ![編輯標籤](assets/edit-label.png)
+   ![圖例標籤和「編輯標籤」選項。](assets/edit-label.png)
 
 1. 輸入新的標籤文字。
 1. 按下 **[!UICONTROL Enter]** 以儲存。
@@ -116,7 +116,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
 在視覺效果標題按一下右鍵，可以使用視覺效果的其他功能。 設定將依視覺效果而異。一些可用設定為：
 
-![按右鍵](assets/right-click.png)
+![其他視覺效果設定，並會顯示滑鼠右鍵選項。 下一節將說明選項。](assets/right-click.png)
 
 | 設定 | 說明 |
 | --- | --- |

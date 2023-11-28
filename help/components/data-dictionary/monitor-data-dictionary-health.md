@@ -4,16 +4,16 @@ title: 監視資料字典健康狀況
 feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
-source-git-commit: 74ec307b878b77a40ef1f5dbf54f2b59d88b41fe
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 89%
+source-wordcount: '241'
+ht-degree: 87%
 
 ---
 
 # 監視資料字典健康狀況
 
-Customer Journey Analytics管理員負責維護正常的資料字典。
+Customer Journey Analytics管理員負責維護健康的資料字典。
 
 ## 健康資料字典的特徵
 
@@ -37,9 +37,9 @@ Customer Journey Analytics管理員負責維護正常的資料字典。
 
    顯示資料字典視窗。
 
-   ![資料字典管理員檢視](assets/data-dictionary-admin.png)
+   ![顯示字典健全狀態的資料字典管理員檢視](assets/data-dictionary-admin.png)
 
-1. 請確定下拉式功能表中已選取正確的資料檢視。
+1. 確定在下拉式選單中選取了正確的資料檢視。
 
 1. 在 [!UICONTROL **字典健康**] 標籤上選擇以下任一選項旁邊的 [!UICONTROL **檢視**]：
 

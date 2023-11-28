@@ -3,9 +3,10 @@ title: 取消報告活動管理器中的報告請求
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1473'
 ht-degree: 14%
 
 ---
@@ -50,7 +51,7 @@ ht-degree: 14%
 
    1. 啟用選項以 [!UICONTROL **限制後續請求**].
 
-      ![限制後續請求](assets/restrict-subsequent-requests.png)
+      ![取消1個請求，其中顯示「限制選取的後續請求」與「取消」訊息。](assets/restrict-subsequent-requests.png)
 
    1. 從下列選項中選擇：
 
@@ -91,7 +92,7 @@ ht-degree: 14%
 
    1. 啟用選項以 [!UICONTROL **限制後續請求**]
 
-      ![依使用者限制後續請求](assets/restrict-subsequent-requests-user.png)
+      ![取消1個請求，其中顯示「依選取的使用者限制後續請求」。](assets/restrict-subsequent-requests-user.png)
 
    1. 從下列選項中選擇：
 
@@ -132,7 +133,7 @@ ht-degree: 14%
 
    1. 啟用選項以 [!UICONTROL **限制後續請求**].
 
-      ![依專案限制後續請求](assets/restrict-subsequent-requests-project.png)
+      ![取消1個顯示「依專案限制後續請求」的請求](assets/restrict-subsequent-requests-project.png)
 
    1. 從下列選項中選擇：
 
@@ -188,7 +189,7 @@ ht-degree: 14%
 
    1. 啟用選項以 [!UICONTROL **限制後續請求**]
 
-      ![依應用程式限制後續請求](assets/restrict-subsequent-requests-application.png)
+      ![取消1個請求，其中顯示「依選取的應用程式限制後續請求」。](assets/restrict-subsequent-requests-application.png)
 
    1. 從下列選項中選擇：
 

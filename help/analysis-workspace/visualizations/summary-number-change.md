@@ -3,10 +3,10 @@ description: 使用「摘要數字」和「摘要變更」視覺效果來呈現�
 title: 摘要數字和摘要變更
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
-source-git-commit: 2f5d1c6c90df8ccd9e792a870891a817e7c2a93d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 * 如果選取欄，會就第一個值的本身進行比較，顯示變更為 0。
 
 
-![](assets/summary-change.png)
+![摘要變更視覺效果顯示兩個數字間的差異](assets/summary-change.png)
 
 
 按一下右上角的&#x200B;**「視覺效果設定」**&#x200B;齒輪，設定「摘要變更」設定：

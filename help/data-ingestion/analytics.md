@@ -4,10 +4,10 @@ description: 說明如何從傳統 Adobe Analytics 擷取資料
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
-source-git-commit: fe3417836bc8efb81139304d9c1885691ba716be
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 86%
+source-wordcount: '1207'
+ht-degree: 82%
 
 ---
 
@@ -53,29 +53,29 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
 3. 在 Adobe Analytics 圖格中選取&#x200B;**[!UICONTROL 設定]**&#x200B;或&#x200B;**[!UICONTROL 新增資料]**。
 
-   ![來源](./assets/sources-overview.png)
+   ![已選取來源的Adobe Experience Platform視窗，同時反白顯示Adobe應用程式和新增資料。](./assets/sources-overview.png)
 
 4. 選取&#x200B;**[!UICONTROL 報告套裝]**。從報告套裝清單中，選取您要使用的套裝。
 
-   ![報告套裝](./assets/report-suites.png)
+   ![Adobe Experience Platform視窗顯示報表套裝清單](./assets/report-suites.png)
 
    選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 5. 選取&#x200B;**[!UICONTROL 預設結構]**&#x200B;作為[!UICONTROL 目標結構]。Adobe Experience Platform 會自動建立結構和對應的資料集，以對應所選 Adobe Analytics 報告套裝中的所有標準欄位。
 
-   ![預設結構](./assets/default-schema.png)
+   ![已選取預設結構的Adobe Experience Platform視窗](./assets/default-schema.png)
 
    選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 6. 為資料流命名，並 (可選) 提供說明。
 
-   ![資料流詳細資訊](./assets/dataflow-detail.png)
+   ![Adobe Experience Platform視窗中醒目提示資料流詳細資訊區段](./assets/dataflow-detail.png)
 
    選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 7. 查看連線並選取 **[!UICONTROL 完成]**。
 
-   ![請檢閱](./assets/review.png)
+   ![Adobe Experience Platform視窗中反白的「連線」和「資料型別」區段以供檢閱](./assets/review.png)
 
 
 建立連線後，系統會自動建立資料流，以使用報表套裝的Adobe Analytics資料填入資料集。 此資料流會擷取最多13個月的生產沙箱歷史資料。 非生產沙箱中的回填限製為三個月。
@@ -111,7 +111,7 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
    - 選取由 Adobe Analytics 來源連接器自動建立的資料集，以及您要納入連線的任何其他資料集。
 
-     ![新增資料集](./assets/cja-connections-2a.png)
+     ![新增資料集視窗](./assets/cja-connections-2a.png)
 
    - 選取&#x200B;**[!UICONTROL 「下一步」]**。
 

@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 8f64e0a31ed3bca7185674490fc36b78598f5b1c
-workflow-type: ht
-source-wordcount: '1479'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '1483'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Customer Journey Analytics 中的幾項功能都經過重新命名和重新設�
 
 您可以存取更多要分析的跨通道資料。例如，您可以建立一個工作區項目來分析多個通道的效能，前提是這些資料集由您的組織攝取，並包含在 Customer Journey Analytics 使用的資料檢視中 (請參閱下面的「資料體系結構的變動」)。
 
-![multi-channel-visualizations](assets/cross-channel.png)
+![顯示多管道視覺效果的資料來源檢視](assets/cross-channel.png)
 
 ## 資料架構的變動 {#architecture}
 

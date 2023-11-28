@@ -4,10 +4,10 @@ title: 組合圖表視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 95%
+source-wordcount: '843'
+ht-degree: 85%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
 1. 從左側邊欄中的「視覺效果」下拉式清單，將「[!UICONTROL 組合圖表]」視覺效果拖曳至空白面板。
 
-   ![建置](assets/combo-chart-build.png)
+   ![顯示X軸和Y軸及選項欄位的組合圖表](assets/combo-chart-build.png)
 
 1. 從下拉式清單，選取 X 軸的維度和 Y 軸的量度。
 
@@ -41,9 +41,9 @@ ht-degree: 95%
 
    | 折線比較類型 | 定義 |
    | --- | --- |
-   | **[!UICONTROL 時間比較]** | 最常見的比較類型 - 例如，將此時段與 4 週前進行比較。如果您已選取[!UICONTROL 時間比較]，請針對您要比較的時段進行次要比較。<p>![時段](assets/combo-time-period.png) |
-   | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。請參閱以下的支援函數清單。<p>![函數](assets/combo-functions.png) |
-   | **[!UICONTROL 次要量度]** | 例如，您可以將[!UICONTROL 收入]與另一個量度比較。<p>![兩個量度](assets/combo-2metrics.png) |
+   | **[!UICONTROL 時間比較]** | 最常見的比較類型 - 例如，將此時段與 4 週前進行比較。如果您已選取[!UICONTROL 時間比較]，請針對您要比較的時段進行次要比較。<p>![與選取的時段比較，以及時間時段的次要選取欄位。](assets/combo-time-period.png) |
+   | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。請參閱以下的支援函數清單。<p>![「LiNe比較」下拉式功能表會顯示選取的函式以及可用支援函式的清單。](assets/combo-functions.png) |
+   | **[!UICONTROL 次要量度]** | 例如，您可以將[!UICONTROL 收入]與另一個量度比較。<p>![比較兩個量度的組合圖表。](assets/combo-2metrics.png) |
 
    {style="table-layout:auto"}
 
@@ -51,7 +51,7 @@ ht-degree: 95%
 
    輸出將與下圖相似：
 
-   ![Output](assets/combo-output.png)
+   ![在長條圖中顯示目前期間的組合圖，在折線圖中顯示比較期間 ](assets/combo-output.png)
 
    目前期間會以條形圖顯示，而比較期間則以折線圖呈現。折線圖上的圓點稱為「槓鈴」。
 
@@ -73,17 +73,17 @@ ht-degree: 95%
 
 以下為收入量度的累積平均值範例：
 
-![累積平均值](assets/combo-cumul-avg.png)
+![顯示累積平均值的組合圖表](assets/combo-cumul-avg.png)
 
 以下為累積平均值和平均值函數的組合圖表範例：
 
-![兩個函數](assets/combo-two-functions.png)
+![同時顯示累積平均值和平均函式的組合圖表。](assets/combo-two-functions.png)
 
 ## 組合圖表設定
 
 按一下組合圖表右上角的齒輪圖示，以變更其設定。
 
-![設定](assets/combo-settings.png)
+![組合圖表設定檢視，顯示下列選項。](assets/combo-settings.png)
 
 | 設定 | 定義 |
 | --- | --- |
@@ -92,9 +92,9 @@ ht-degree: 95%
 | **[!UICONTROL 一般]** |  |
 | **[!UICONTROL 百分比]** | 以百分比顯示值。 |
 | **[!UICONTROL 可見圖例]** | 讓您隱藏組合圖表視覺效果的詳細圖例文字。 |
-| **[!UICONTROL 限制項目數量上限]** | 減少 X 軸上的項目數量。如果您有大型資料集，則只能顯示前10個專案（或您選取的任何值）。 |
+| **[!UICONTROL 限制項目數量上限]** | 減少 X 軸上的項目數量。如果您有大型資料集，則只能顯示前10個專案（或您挑選的任何值）。 |
 | **[!UICONTROL 重疊]** | 顯示或隱藏折線上的槓鈴。 |
-| **[!UICONTROL 軸]** |  |
+| **[!UICONTROL 軸]** | |
 | **[!UICONTROL 顯示雙軸]** | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。除非有多項比較，否則雙軸顏色會搭配表格的顏色。此時所有比較的顏色為灰色。 |
 | **[!UICONTROL 標準化]** | 強制量度為相同比例。當繪製的量度大小非常不同時，這項功能會很有用。 |
 | **[!UICONTROL 顯示 x 軸]** | 顯示或隱藏 x 軸。 |

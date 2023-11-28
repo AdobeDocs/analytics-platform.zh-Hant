@@ -1,13 +1,13 @@
 ---
 title: 將 Google Analytics 將歷史資料擷取至 Adobe Experience Platform
-description: 說明如何使用Adobe Customer Journey Analytics將您的Google Analytics資料擷取到Adobe Experience Platform。
+description: 說明如何使用Adobe Customer Journey Analytics將您的Google Analytics資料擷取至Adobe Experience Platform。
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 91%
+source-wordcount: '634'
+ht-degree: 90%
 
 ---
 
@@ -77,11 +77,11 @@ FROM
 
 >[!TIP]
 >
->如果您計畫同時匯入歷史與即時串流 Google Analytics 資料，這二個資料集請務必使用相同的結構描述。您可以使用合併Customer Journey Analytics中的資料集 [合併的資料集](/help/connections/combined-dataset.md).
+>如果您計畫同時匯入歷史與即時串流 Google Analytics 資料，這二個資料集請務必使用相同的結構描述。您可以使用來合併Customer Journey Analytics中的資料集 [合併的資料集](/help/connections/combined-dataset.md).
 
 您可以將 GA 事件資料對應到您之前建立的現有資料集中，或是使用您選擇的任何 XDM 結構描述建立新的資料集。 當您選取結構描述後，Experience Platform 會套用機器學習，自動地將 Google Analytics 資料中的每個欄位預先對應到您的 [XDM 結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)。
 
-![結構描述對應](../assets/schema-map.png)
+![醒目提示GA資料欄位和目標結構描述對應的結構描述對應](../assets/schema-map.png)
 
 當您完成將欄位對應到 XDM 結構描述中的作業後，您可以將這項匯入排程為定期進行，並在擷取過程中套用錯誤驗證。 此驗證可確保您已匯入的資料不會有任何問題。
 
@@ -97,7 +97,7 @@ FROM
 
   ![時間戳記](../assets/timestamp.png)
 
-* **`_id`**：此欄位中必須有值 — Customer Journey Analytics不在乎該值為何。 您可以新增「1」到欄位中：
+* **`_id`**：此欄位內必須有值 — Customer Journey Analytics不在乎該值為何。 您可以新增「1」到欄位中：
 
   ![ID](../assets/_id.png)
 

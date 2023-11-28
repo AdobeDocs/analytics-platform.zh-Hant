@@ -3,9 +3,9 @@ title: 參考資料 - 進階函數
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
-source-git-commit: 3f1112ebd2a4dfc881ae6cb7bd858901d2f38d69
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3123'
 ht-degree: 98%
 
 ---
@@ -61,11 +61,11 @@ Approximate Count Distinct (dimension)
 
 新「近似客戶」計算量度的定義：
 
-![](assets/approx-count-distinct.png)
+![近似的縣別不同新維度定義顯示客戶ID (eVar1)](assets/approx-count-distinct.png)
 
 這是可以在報表中使用「近似客戶」量度的方式：
 
-![](assets/approx-customers.png)
+![顯示不重複訪客與近似客戶的自由表格 ](assets/approx-customers.png)
 
 ## 超出不重複值
 

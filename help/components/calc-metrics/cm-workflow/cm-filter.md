@@ -2,10 +2,11 @@
 description: 依標籤、資料檢視、擁有者和其他篩選器（「全部顯示」、「我的」、「已共用給我」、「我的最愛」和「已核准」）進行篩選。
 title: 篩選計算量度
 feature: Calculated Metrics
-source-git-commit: 59b120022fcb149e6bfcab0039efc5a802995b92
+exl-id: 902da464-14de-45b9-bd92-d2db064cb095
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 29%
+source-wordcount: '216'
+ht-degree: 30%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 29%
 
 1. 在計算量度管理員中，按一下 **[!UICONTROL 篩選器]** 圖示：  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+   ![計算量度管理器會顯示「篩選器」圖示和可用的篩選器，例如「標籤」、「報表套裝」和「擁有者」。](assets/filtering.png)
 
 1. 下列為可使用的篩選：
 

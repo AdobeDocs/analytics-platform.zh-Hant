@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1307'
 ht-degree: 77%
 
 ---
@@ -37,23 +37,23 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->雖然行動應用程式在應用程式商店中命名為Adobe Analytics控制面板，但該應用程式可與Customer Journey Analytics行動計分卡同等效用。
+>雖然行動應用程式在應用程式商店中的名稱為Adobe Analytics儀表板，但該應用程式可與Customer Journey Analytics行動計分卡同等使用。
 
 **若高階主管使用者使用 iOS：**
 
-按一下以下連結(也可從「 」下方的「Customer Journey Analytics」取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**)並依照提示下載、安裝和開啟應用程式：
+按一下以下連結(也可從下方的Customer Journey Analytics取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**)並依照提示下載、安裝和開啟應用程式：
 
 [iOS 連結](https://apple.co/2zXq0aN)
 
 **若高階主管使用者使用 Android：**
 
-按一下以下連結(也可從「 」下方的「Customer Journey Analytics」取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**)並依照提示下載、安裝和開啟應用程式：
+按一下以下連結(也可從下方的Customer Journey Analytics取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**)並依照提示下載、安裝和開啟應用程式：
 
 [Android 連結](https://bit.ly/2LM38Oo)
 
 下載並安裝完畢後，主管使用者就可使用現有的Customer Journey Analytics憑證登入應用程式。
 
-![應用程式歡迎畫面](assets/welcome.png)
+![Customer Journey Analytics應用程式歡迎畫面](assets/welcome.png)
 
 ## 使用控制面板 {#use-dashboards}
 
@@ -63,15 +63,15 @@ ht-degree: 77%
 
    ![登入程序](assets/signseq.png)
 
-1. 選擇公司。 登入控制面板後，「**[!UICONTROL 選擇公司]**」的畫面會隨即顯示。 此畫面會列出您所屬的登入公司。 點選與您共用的計分卡相關聯的公司名稱。
+1. 選擇公司。 登入控制面板後，「**[!UICONTROL 選擇公司]**」的畫面會隨即顯示。 此畫面會列出您所屬的登入公司。 點選與您所共用計分卡相關聯的公司名稱。
 
    計分卡清單會顯示與您共用的所有計分卡。
 
 1. 點選您要檢視的計分卡。
 
-   如果您透過單一登入即可存取多個組織，則您組織中的所有計分卡都可在計分卡清單中使用。
+   如果您透過一次登入即可存取多個組織，則您組織中的所有計分卡都可在計分卡清單中使用。
 
-   您可以根據計分卡標題、組織名稱或最近檢視的計分卡清單來排序計分卡。 您甚至可以搜尋特定計分卡。
+   您可以根據計分卡標題、組織名稱或最近檢視的計分卡清單進行排序。 您甚至可以搜尋特定計分卡。
 
    ![選擇公司](assets/mobile-home-screen.png)
 
@@ -119,7 +119,7 @@ ht-degree: 77%
 
    ![區段篩選](assets/segment_filter.png)
 
-1. 更新計分卡。 如果計分卡並未包含您可能感興趣的所有量度或劃分，請聯絡您的Customer Journey Analytics團隊以更新計分卡。 更新後，您可以下拉畫面上的資訊卡，重新整理並載入最近新增的資料。
+1. 更新計分卡。 如果計分卡中沒有您可能感興趣的所有量度或劃分，請聯絡您的Customer Journey Analytics團隊以更新計分卡。 更新後，您可以下拉畫面上的資訊卡，重新整理並載入最近新增的資料。
 
 1. 在此應用程式上提供意見回饋：
 
@@ -152,8 +152,8 @@ ht-degree: 77%
 
 | 詞語 | 定義 |
 |--- |--- |
-| 消費者 | 從行動裝置上的Customer Journey Analytics檢視關鍵量度和深入分析的執行角色 |
-| 組織者 | 透過Customer Journey Analytics尋找和分發深入分析，並設定計分卡以供消費者檢視的資料識讀人員 |
+| 消費者 | 在行動裝置上檢視Customer Journey Analytics關鍵量度和深入分析的執行角色 |
+| 組織者 | 從Customer Journey Analytics尋找及分發深入分析，以及設定計分卡以供消費者檢視的資料識讀人員 |
 | 組織 | 為消費者建立或編輯行動計分卡的行為，計分卡內容包含相關量度、維度和其他項目 |
 | 計分卡 | 包含一或多個圖磚的控制面板畫面 |
 | 圖磚 | 計分卡檢視畫面呈現量度的形式 |

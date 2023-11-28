@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 管理匯出記錄檔
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: b0eff3702ce92bab8a3d75bc07e1b33c168805c2
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '835'
 ht-degree: 7%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 1. 選取 [!UICONTROL **記錄檔**] 標籤。
 
-   ![匯出記錄檔標籤](assets/export-logs-tab.png)
+   ![顯示[記錄]索引標籤的匯出視窗](assets/export-logs-tab.png)
 
    每個記錄的詳細資訊都會顯示在可用的欄中。
 
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 1. 選取 **篩選** 圖示。
 
-   ![篩選器資訊](assets/export-log-filters.png)
+   ![顯示依帳戶型別篩選清單的匯出視窗](assets/export-log-filters.png)
 
    您可以依下列條件篩選：
 

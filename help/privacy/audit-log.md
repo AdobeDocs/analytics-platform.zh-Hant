@@ -3,10 +3,10 @@ title: 稽核記錄
 description: 瞭解如何檢視和管理Customer Journey Analytics稽核記錄。
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: dcfc960019b1dbd1b0306f4a0f07d113ae3f1312
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 67%
+source-wordcount: '825'
+ht-degree: 64%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 67%
 
 系統依預設會顯示今天和昨天的稽核記錄。
 
-![稽核記錄](assets/audit_ui.png)
+![今天（2022年10月14日）和昨天（2022年10月13日）的稽核記錄重點提示。 ](assets/audit_ui.png)
 
 您可以使用右上方的欄選擇器來選擇要顯示哪些欄。
 
@@ -38,7 +38,7 @@ ht-degree: 67%
 
 按兩下說明旁邊的資訊 (i) 按鈕。
 
-![稽核記錄](assets/info-button-audit.png)
+![反白顯示資訊按鈕的稽核記錄。 ](assets/info-button-audit.png)
 
 系統會顯示以下項目：
 
@@ -91,7 +91,7 @@ ht-degree: 67%
 
 選擇漏斗圖示 (![篩選](assets/filter-icon.png)) 以顯示篩選控制項以幫助縮小結果範圍。僅顯示最後 1,000 條記錄，無論選擇的各種篩選器為何。
 
-![篩選器](assets/filters.png)
+![稽核記錄，顯示針對「資料範圍」顯示的篩選器。](assets/filters.png)
 
 以下篩選器可用於 UI 中的稽核事件：
 

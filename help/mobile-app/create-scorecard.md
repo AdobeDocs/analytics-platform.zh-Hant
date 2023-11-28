@@ -5,30 +5,30 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 9cffb57cc4a525c78ec171034adff0e02b936cbf
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 74%
+source-wordcount: '2672'
+ht-degree: 69%
 
 ---
 
 # 建立行動計分卡
 
-下列資訊可為Customer Journey Analytics資料的組織者說明如何為高階主管使用者設定和展示控制面板。 若要開始使用，您可以檢視Analytics儀表板計分卡產生器的影片：
+下列資訊可為Customer Journey Analytics資料的組織者說明如何設定控制面板並向高階主管使用者呈現。 若要開始使用，您可觀看Analytics儀表板計分卡產生器的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/343458)
 
 >[!NOTE]
 >
->此頁面的Analytics計分卡熒幕擷取畫面是從Adobe Analytics UI取得，而非從Customer Journey Analytics取得。 這些 UI 幾乎完全一樣。
+>此頁面的Analytics計分卡熒幕擷取畫面取自Adobe Analytics UI，而非Customer Journey Analytics。 這些 UI 幾乎完全一樣。
 
  Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資料的視覺效果，如下所示：
 
-![計分卡範例](assets/intro_scorecard.png)
+![顯示行動計分卡示範的Analytics計分卡範例](assets/intro_scorecard.png)
 
-此計分卡的組織者可利用計分卡產生器，設定要在高階主管消費者的計分卡上顯示哪些圖磚， 您也能設定，消費者點選圖磚後，詳細檢視或劃分可能如何調整。計分卡產生器的介面如下所示：
+此計分卡的組織者可利用計分卡產生器為高階主管消費者設定計分卡上要顯示哪些圖磚， 您也能設定，消費者點選圖磚後，詳細檢視或劃分可能如何調整。計分卡建立程式的介面如下所示：
 
-![計分卡建立程式](assets/scorecard_builder.png)
+![顯示新行動計分卡視窗的計分卡產生器。 ](assets/scorecard_builder.png)
 
 若要建立計分卡，您必須執行下列動作：
 
@@ -41,11 +41,11 @@ ht-degree: 74%
 
 ### 建立新專案 {#create}
 
-1. 開啟Customer Journey Analytics並按一下 **[!UICONTROL Workspace]** 標籤。
+1. 開啟Customer Journey Analytics並按一下 **[!UICONTROL 工作區]** 標籤。
 1. 按一下 **[!UICONTROL 建立專案]**，然後選取 **[!UICONTROL 空白行動計分卡]** 專案範本。
 1. 按一下 **[!UICONTROL 建立]**。
 
-![計分卡範本](assets/new_template.png)
+![已選取空白行動計分卡的「所有範本」視窗。](assets/new_template.png)
 
 ### 「工具」選單
 
@@ -54,15 +54,15 @@ ht-degree: 74%
 
 ## 使用資料設定計分卡並儲存 {#configure}
 
-若要實作計分卡範本：
+實作計分卡範本：
 
 1. 在「**[!UICONTROL 內容]**」下方 (右側邊欄中)，指定您要使用資料的「**[!UICONTROL 專案資料檢視]**」。
 
-   ![資料檢視選擇](assets/properties_save.png)
+   ![醒目提示資料檢視選取範圍的新行動計分卡視窗](assets/properties_save.png)
 
 1. 若要為計分卡新增圖磚，請從左側面板將量度拖放至 **[!UICONTROL 將量度拖放到這裡]** 區域。 您也可以使用類似的工作流程，跨圖磚插入量度。
 
-   ![新增圖磚](assets/build_list.png)
+   ![新行動計分卡視窗中，將指向量度（新KPI）的箭頭放入計分卡中。 ](assets/build_list.png)
 
 
 1. 您可以從每個圖磚存取顯示該量度其他資訊的詳細檢視畫面，例如相關維度清單排名最前的項目。
@@ -73,37 +73,37 @@ ht-degree: 74%
 
 例如，若要將適當的維度 (如本範例中的 **[!DNL Marketing Channel]**) 新增至&#x200B;**[!UICONTROL 不重複訪客]**&#x200B;量度，您可將其拖放至圖磚上。維度劃分會顯示在圖磚特定&#x200B;**[!UICONTROL 屬性]**&#x200B;的 [!UICONTROL Drill Ins] (劃分) 區段中。 每個圖磚可新增多個維度。
 
-![新增維度](assets/layer_dimensions.png)
+![新的行動計分卡視窗，其中包含從維度清單指向計分卡窗格的箭頭。](assets/layer_dimensions.png)
 
 ## 套用篩選器 {#filters}
 
 若要將篩選器套用至個別圖磚，請從左側面板將篩選器(區段是Customer Journey Analytics中的篩選器)直接拖曳至圖磚上。
 
-如果您想要將篩選器套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。 或者，您也可以在日期範圍下方的篩選器功能表中選取篩選器，以套用篩選器。您 [為您的計分卡設定和套用篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) 就像在Customer Journey Analytics Workspace中一樣。
+如果您想要將篩選器套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。 或者，您也可以在日期範圍下方的篩選器功能表中選取篩選器，以套用篩選器。您 [為您的計分卡設定並套用篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) 就像在Customer Journey Analytics Workspace中一樣。
 
-![建立篩選器](assets/segment_ui.png)
+![篩選器下拉式選擇器醒目提示組建篩選器](assets/segment_ui.png)
 
 ## 新增日期範圍 {#dates}
 
 新增和移除日期範圍組合，該組合可在計分卡中從日期範圍下拉式清單中選取。
 
-![新計分卡](assets/new_score_card.png)
+![強調昨天與上週同日的新行動計分卡](assets/new_score_card.png)
 
 每個新計分卡都始於 6 個以今日和昨日的資料為主日期範圍組合。您可以按一下 x 來移除不必要的日期範圍，也可以按一下鉛筆來編輯每個日期範圍組合。
 
-![新計分卡 2](assets/new_score_card2.png)
+![醒目提示鉛筆圖示的新行動計分卡](assets/new_score_card2.png)
 
 若要建立或變更主要日期，使用下拉式選單並選擇可用的日期範圍，或將右側邊欄的日期組合拖放至空投區。
 
-![新計分卡 3](assets/new_score_card3.png)
+![新的行動計分卡，重點顯示已選取主要日期/昨天的日期範圍](assets/new_score_card3.png)
 
 若要建立比較日期，可以在下拉式選單中選擇方便的預設集以便進行共同時間比較。您還可以從右側邊欄拖放一個日期元件。
 
-![新計分卡 4](assets/new_score_card4.png)
+![新行動計分卡，醒目顯示日期範圍，且比較日期已設定為選取的上週同日](assets/new_score_card4.png)
 
-如果您想要的日期範圍尚未建立，您可以按一下日曆圖示來建立一個新的日期範圍。
+如果您想要的日期範圍尚未建立，可以按一下日曆圖示建立一個新的日期範圍。
 
-![新計分卡 5](assets/new_score_card5.png)
+![行事曆圖示](assets/new_score_card5.png)
 
 這會將您帶到日期範圍產生器，您可在其中建立和儲存新的日期範圍元件。
 
@@ -111,11 +111,11 @@ ht-degree: 74%
 
 若要包含比較日期範圍，請切換&#x200B;**包含比較日期**&#x200B;設定。
 
-![包含比較日期](assets/include-comparison-dates.png)
+![強調昨天與前一天的新行動計分卡，並包含比較日期](assets/include-comparison-dates.png)
 
 此設定預設為&#x200B;*開啟*。如果您不想查看比較日期，可將其切換為&#x200B;*取消*。
 
-![取消選取比較日期設定](assets/no-comparison-dates.png)
+![新的行動計分卡昨天重點提示並包含比較日期](assets/no-comparison-dates.png)
 
 ## 套用視覺效果 {#viz}
 
@@ -131,25 +131,25 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 使用「摘要數字」視覺效果來強調專案中重要的大數字。
 
-![摘要數字](assets/summary-number.png)
+![新的行動計分卡，其摘要數字視覺效果強調了13,300次造訪](assets/summary-number.png)
 
 ### [!UICONTROL 環形圖]
 
 此視覺效果類似圓形圖，以整體的部分顯示資料。若要比較總數的百分比時，可使用環形圖。例如，假設您想檢視哪個廣告平台對不重複人員總數有貢獻：
 
-![環形圖視覺效果](assets/donut-viz.png)
+![顯示環形圖視覺效果的新行動計分卡](assets/donut-viz.png)
 
 ### [!UICONTROL 折線圖]
 
 折線圖視覺效果會使用線條代表量度，以顯示一段時間中值的變化。折線圖會顯示一段時間中的量度，但適用於任何視覺效果。您在此範例中將產品類別維度視覺化。
 
-![折線圖視覺效果](assets/line.png)
+![顯示線條視覺效果的新行動計分卡](assets/line.png)
 
 ### [!UICONTROL 橫條圖]
 
 此視覺效果會顯示代表一或多個量度多個值的橫條。例如，若想輕鬆了解您的熱賣產品是什麼，可將 [!UICONTROL 橫條圖] 用作您的首選視覺效果。
 
-![橫條圖](assets/horizontal.png)
+![顯示橫條圖的新行動計分卡](assets/horizontal.png)
 
 ### 移除 [!UICONTROL 未指定] 維度項目
 
@@ -158,13 +158,13 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 1. 選取正確圖磚。
 1. 在右側欄中，在 **[!UICONTROL Drill ins]** 下選取維度項目 (包含您想移除的 **[!UICONTROL 未指定]** 項目) 旁的右箭頭。
 
-   ![未指定](assets/unspecified.png)
+   ![屬性，其維度名稱旁的箭頭指向右箭頭。](assets/unspecified.png)
 
 1. 按一下 **[!UICONTROL 未指定]** 旁的圖示，即可從報表中移除未指定的資料。(您也可移除任何其他的維度項目。)
 
 ## 檢視和設定圖磚屬性 {#tiles}
 
-按一下計分卡產生器中的圖磚，右側欄會顯示與該圖磚及其詳細投影片相關聯的屬性和特性。 在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過套用篩選器來設定圖磚。區段是Customer Journey Analytics中的篩選器。
+按一下計分卡產生器中的圖磚，右側欄會顯示與該圖磚相關聯的屬性和特性以及其詳細投影片。 在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過套用篩選器來設定圖磚。區段是Customer Journey Analytics中的篩選器。
 
 ![「屬性」圖磚](assets/properties-tile-new.png)
 
@@ -212,7 +212,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ## 移除元件 {#remove}
 
-同樣地，若要移除套用至整個計分卡的元件，請在計分卡上按一下圖磚之外的任意位置，然後按一下 **x** 將游標停留在元件上時顯示，如下方的 **首次造訪**：
+同樣地，若要移除套用至整個計分卡的元件，請在計分卡上按一下圖磚之外的任意位置，然後按一下 **x** 將游標停留在元件上時顯示，如下方的 **首次瀏覽次數**：
 
 ![Remove_components](assets/new_remove.png)
 
@@ -220,7 +220,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 資料故事是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。
 
-例如，如果您專注於網路流量，最重要的量度可能是造訪，但您可能也會對新人員、不重複人員感興趣，並且您可能想要檢視依網頁或流量來自的裝置型別劃分的資料。 行動記分卡專案中的資料故事可讓您將最重要的量度放在首位和中心位置，並透過多個詳細資訊幻燈片描述量度背後的完整故事。
+例如，如果您著重在網頁流量，最重要的量度可能是造訪，但您也可能對新使用者、不重複人員感興趣，而且您可能想要依網頁或流量來自的裝置型別檢視劃分的資料。 行動記分卡專案中的資料故事可讓您將最重要的量度放在首位和中心位置，並透過多個詳細資訊幻燈片描述量度背後的完整故事。
 
 觀看影片，深入了解在 Analysis Workspace 的行動記分卡專案中建立資料故事的資訊。
 
@@ -257,7 +257,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
    ![建立資料故事](assets/data-story4.png)
 
 >[!NOTE]
->幻燈片會從圖磚繼承元件，但圖磚不會從幻燈片繼承元件。
+>幻燈片會繼承圖磚的元件，但圖磚不會繼承幻燈片的元件。
 
 **自訂個別幻燈片**
 
@@ -324,9 +324,9 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 如果您是以新增元件的方式更新計分卡，可再次共用計分卡 (並勾選 **[!UICONTROL 共用內嵌元件]** 選項)，以確保您的高階主管使用者有權存取這些變更。
 
-### 使用分享連結分享計分卡
+### 使用分享連結來分享計分卡
 
-使用可共用連結可讓您輕鬆在電子郵件、檔案或文字訊息應用程式中共用計分卡。 可共用連結可讓收件者在案頭或儀表板行動應用程式上開啟計分卡。 可共用的深層連結可讓您更輕鬆地共用專案，並促進與利害關係人的互動。
+使用可共用連結可讓您在電子郵件、檔案或簡訊應用程式中輕鬆共用計分卡。 可共用的連結可讓收件者在他們的案頭或儀表板行動應用程式上開啟計分卡。 可共用的深層連結可讓您更輕鬆地共用專案，並促進與利害關係人的互動。
 
 使用可共用連結來共用計分卡
 
@@ -334,11 +334,11 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
    ![Share_Scorecards](assets/share-scorecard.png)
 
-1. 複製連結並將其貼到電子郵件、檔案或即時訊息應用程式中。
+1. 複製連結並將其貼到電子郵件、檔案或IM應用程式中。
 
-   當收件者使用案頭應用程式或瀏覽器開啟連結時，行動計分卡專案將會在工作區中開啟。
+   收件者使用案頭應用程式或瀏覽器開啟連結時，行動計分卡專案將會在工作區中開啟。
 
    當收件者在行動裝置上開啟連結時，計分卡將直接在Adobe Analytics儀表板應用程式中開啟。
 
-   如果收件者尚未下載行動應用程式，系統會將他們導向至App Store或Google Play市集中的應用程式清單，他們便可從此處下載該應用程式。
+   如果收件者尚未下載行動應用程式，系統會將他們導向至App Store或Google Play市集中的應用程式清單，他們可以從該清單下載。
 

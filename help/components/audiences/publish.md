@@ -3,10 +3,10 @@ title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 58%
+source-wordcount: '1641'
+ht-degree: 57%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 58%
 
    請先配置設定，然後才能發佈對象。
 
-   ![如何建立受眾的熒幕擷圖](assets/create-audience.png)
+   ![建立下一節所述的對象傾斜設定的熒幕擷圖。](assets/create-audience.png)
 
    | 設定 | 說明 |
    | --- | --- |
@@ -52,7 +52,7 @@ ht-degree: 58%
 
    對象預覽會顯示在右側邊欄中。它允許對您建立的對象進行摘要分析。
 
-   ![資料預覽的熒幕擷圖](assets/data-preview.png)
+   ![顯示對象摘要分析的資料預覽熒幕擷圖。](assets/data-preview.png)
 
    | 預覽設定 | 說明 |
    | --- | --- |
@@ -108,7 +108,7 @@ Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和
 
 您可以將Customer Journey Analytics受眾拖曳至Adobe Experience Platform區段的區段定義。
 
-![](assets/audiences-aep.png)
+![Adobe Experience Platform UI在左窗格中醒目提示區段，並在主面板中醒目提示CJA對象。](assets/audiences-aep.png)
 
 ## 常見問題 {#faq}
 

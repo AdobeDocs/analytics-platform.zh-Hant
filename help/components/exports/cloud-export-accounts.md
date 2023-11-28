@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 設定雲端匯出帳戶
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
-source-git-commit: bbd916db1be05c5e52396ae0a6fa5cbaa368da38
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1836'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 1. 在 [!UICONTROL 匯出] 頁面，選取 [!UICONTROL **位置帳戶**] 標籤。
 1. 選取 [!UICONTROL **新增帳戶**].
 
-   ![新增帳戶](assets/account-add.png)
+   ![匯出頁面選項顯示新增另一個帳戶](assets/account-add.png)
 
    新增帳戶對話方塊隨即顯示。
 
@@ -86,7 +86,7 @@ ht-degree: 4%
       >您需要每7天執行此動作，因為SAS URI會在建立7天後過期。 您可以建立指令碼來自動化此程式。
 
 
-      ![SAS URL欄位](assets/blob-container-sas-uri.png)
+      ![輸入連線資訊視窗，顯示SAS URL欄位](assets/blob-container-sas-uri.png)
 
    1. 選取 [!UICONTROL **下一個**] > [!UICONTROL **連線**].
 

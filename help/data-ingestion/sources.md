@@ -4,10 +4,10 @@ description: 說明如何使用 Customer Journey Analytics 中的來源連接器
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 87%
+source-wordcount: '1997'
+ht-degree: 86%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 87%
 
    1. 選取 **[!UICONTROL 個別設定檔]**.
 
-      ![建立結構](./assets/create-pr-schema-wizard-step-1.png)
+      ![建立結構描述視窗，並選取個別設定檔](./assets/create-pr-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -69,7 +69,7 @@ ht-degree: 87%
 
    1. 輸入 **[!UICONTROL 結構描述顯示名稱]** 適用於您的結構描述和（選用） a **[!UICONTROL 說明]**.
 
-      ![命名結構](./assets/create-pr-schema-wizard-step-2.png)
+      ![建立結構描述視窗，其中顯示可命名結構描述的欄位 ](./assets/create-pr-schema-wizard-step-2.png)
 
    1. 選取&#x200B;**[!UICONTROL 「完成」]**。
 
@@ -77,7 +77,7 @@ ht-degree: 87%
 
    1. 在[!UICONTROL 「欄位群組」]中選取&#x200B;**[!UICONTROL 「+ 新增」]**。
 
-      ![新增欄位群組](./assets/add-field-group-button.png)
+      ![顯示新增欄位群組的建立結構描述視窗](./assets/add-field-group-button.png)
 
       欄位群組是可重複使用的物件和屬性集合，可讓您輕鬆擴充結構。
 

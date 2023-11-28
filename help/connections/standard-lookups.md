@@ -4,10 +4,10 @@ description: 在 Customer Journey Analytics 中使用標準查詢功能，透過
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: 675b3c24de2fdb47c8072d15fba168cc72feefbe
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 76%
+source-wordcount: '376'
+ht-degree: 73%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 76%
 
 在傳統Adobe Analytics中，這些維度會自行顯示，但在Customer Journey Analytics中，您必須在建立資料檢視時主動納入這些維度。 在連線工作流程中，您會選取被標記為有包含標準查詢索引鍵的資料集。 資料檢視 UI 會自動知道要納入可用於報告的所有標準查詢維度。 所有區域和帳戶的查詢檔案都會自動保持在最新狀態。這些檔案會儲存在與客戶相關聯區域的組織中。
 
-## 搭配Analytics來源聯結器資料集使用標準查詢
+## 搭配使用標準查詢與Analytics來源聯結器資料集
 
-標準查詢資料集會在報表時間自動套用。 如果您使用Analytics來源聯結器，並引進Adobe提供標準查詢的維度，我們就會自動套用此標準查詢。 如果事件資料集包含 XDM 欄位，我們就能為該資料集套用標準查詢。
+標準查詢資料集會在報表時間自動套用。 如果您使用Analytics來源聯結器，並引進Adobe為其提供標準查詢的維度，我們就會自動套用此標準查詢。 如果事件資料集包含 XDM 欄位，我們就能為該資料集套用標準查詢。
 
 <!--
 ### Specific IDs that need to be populated
@@ -74,8 +74,8 @@ The catch here is that they can only populate those IDs today if they have a dir
 
 若要使用標準查詢維度來建立報表，請在 Customer Journey Analytics 中建立資料檢視時將其加入：
 
-![](assets/global-lookup.png)
+![建立顯示「新增元件」清單的資料檢視](assets/global-lookup.png)
 
 您可以在 Analysis Workspace 中看見查詢資料：
 
-![](assets/gl-reporting.png)
+![顯示資料的自由表格](assets/gl-reporting.png)

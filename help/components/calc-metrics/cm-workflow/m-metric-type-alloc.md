@@ -3,10 +3,10 @@ description: 了解
 title: 量度類型和歸因
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 37%
+source-wordcount: '225'
+ht-degree: 36%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 37%
 
 1. 選取您要選取其型別的量度旁的齒輪圖示。
 
-   ![](assets/cm_type_alloc.png)
+   ![齒輪圖示，內含快顯視窗，顯示「量度型別」等於「標準」。](assets/cm_type_alloc.png)
 
 1. 從下列選項中選擇：
 

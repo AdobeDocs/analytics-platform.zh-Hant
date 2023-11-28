@@ -3,9 +3,9 @@ description: 計算量度管理員提供許多管理量度的方式，例如共�
 title: 計算量度管理員
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 2c9dfdf36e47b9467077310a31dc2c6258137d35
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '705'
 ht-degree: 17%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 計算量度管理員會顯示您所擁有以及已經與您共用的篩選器。 管理層級使用者可以查看組織中的所有自訂量度。此概觀會介紹計算量度管理員的使用者介面和功能。
 
-![](assets/calc-metric-manager.png)
+![顯示可用篩選器的計算量度視窗。](assets/calc-metric-manager.png)
 
 ## 存取計算量度管理員
 

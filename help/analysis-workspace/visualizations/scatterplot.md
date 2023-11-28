@@ -3,10 +3,10 @@ title: 散點圖
 description: 顯示與最多三個量度之間關係的視覺效果。
 feature: Visualizations
 exl-id: c01386c9-c51f-46f3-b1a2-41a8d8996d04
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 94%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 100%
 * 第三欄則決定點的半徑。
 * 散點圖視覺效果會忽略自由表格中所有後續的欄。
 
-![散點圖](assets/scatter.png)
+![顯示多個維度專案的散佈圖範例 ](assets/scatter.png)

@@ -1,12 +1,12 @@
 ---
-description: Adobe Analysis Workspace 及其相關元件的錯誤訊息清單
+description: 瞭解AdobeAnalysis Workspace及其相關元件的錯誤訊息
 title: Analysis Workspace 的常見錯誤訊息
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
-source-git-commit: c21eb39e0af36ad54fd675c147e2f50b6b00711a
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '299'
+ht-degree: 95%
 
 ---
 

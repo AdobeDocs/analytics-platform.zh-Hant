@@ -4,10 +4,10 @@ description: 根據其值有條件地包含或排除維度項目。
 exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: b353983b13cbbfb4c846e75aecc1b78da26ddeb2
-workflow-type: ht
-source-wordcount: '303'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 包含排除值允許您建立依賴於維度項目值的規則。不符合您設定的條件的值在 Analysis Workspace 中會被視為不曾存在過，儘管資料仍然存在於基礎資料集中。
 
-![包含排除](../assets/include-exclude.png)
+![醒目提示包含/排除值的資料檢視視窗](../assets/include-exclude.png)
 
 | 設定 | 說明/使用案例 |
 | --- | --- |
@@ -26,4 +26,4 @@ ht-degree: 100%
 | [!UICONTROL 匹配操作數] | 可讓您指定應套用匹配運算子的匹配操作數。<ul><li>**字串**：文字欄位</li><li>**雙/整數**：文字欄位，其上／下箭頭代表數值</li><li>**日期**：日詳細程度選擇器 (日曆)</li><li>**日期時間**：日期和時間詳細程度選擇器</li></ul> |
 | [!UICONTROL 新增規則] | 可讓您指定額外的匹配運算子和操作數。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -4,10 +4,10 @@ description: 了解 Customer Journey Analytics 可如何協助您將 Analysis Wo
 exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 9aa40a708adecdce76b623aa1d5647bd60286ef8
-workflow-type: ht
-source-wordcount: '934'
-ht-degree: 100%
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓�
 
 高層級 Customer Journey Analytics 架構如下所示：
 
-![架構](assets/cja-architecture.png)
+![本節中說明的Customer Journey Analytics架構](assets/cja-architecture.png)
 
 以下是 Customer Journey Analytics 的影片概觀：
 

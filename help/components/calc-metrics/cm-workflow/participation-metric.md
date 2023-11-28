@@ -3,9 +3,9 @@ description: 使用計算量度產生器，任何人都能建立參與率量度�
 title: 參與率量度
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: e7019722871dfac60408748aa183ca6d76f4993a
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '297'
 ht-degree: 6%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 6%
 
    在「定義」方塊中，會透過附加來更新選取的量度  **（參與|工作階段）** 至其名稱。
 
-   ![](assets/participation-setup.png)
+   ![欄歸因模型快顯視窗，其中顯示選取為模型的參與率，以及選取做為回顧視窗的工作階段。](assets/participation-setup.png)
 
 
 
 1. 選取 [!UICONTROL **儲存**] 以儲存量度。
 1. 在報表中使用計算量度。 例如，使用計算的 [!DNL Orders (Session Participation)] 量度（如步驟5中所定義），用於顯示哪個客戶層促成（或參與）了包含訂單的工作階段。
 
-   ![](assets/participation-pages-customer-tier.png)
+   ![顯示客戶層級和訂單的自由表格。](assets/participation-pages-customer-tier.png)
 
 1. （選用）與組織中的其他使用者共用量度，如所述 [共用計算量度](/help/components/calc-metrics/cm-workflow/cm-sharing.md).

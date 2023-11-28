@@ -4,9 +4,9 @@ description: 了解如何使用報告活動管理器在尖峰報告期間診斷�
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
-source-git-commit: 8e2605a18d7c8201122603c9f8ee381a2e97fb9f
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1944'
 ht-degree: 11%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 11%
 
    此時會顯示已啟用基本連線的清單。
 
-   ![報告佇列](assets/reporting-activity1.png)
+   ![顯示報表佇列的報表活動](assets/reporting-activity1.png)
 
 1. （選擇性）您可以搜尋或篩選連線清單：
 

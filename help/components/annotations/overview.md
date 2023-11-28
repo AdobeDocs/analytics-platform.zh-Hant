@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
-source-git-commit: 5bb7e04deb52e4805e7151afce0bad476df7f13d
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 57%
+source-wordcount: '314'
+ht-degree: 54%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 57%
 
 例如，假設您要將專案與您的組織分享。 如果您因為行銷活動而導致流量激增，您可以建立「行銷活動推出日期」註解，並將其範圍設定為整個資料檢視。 當您的使用者檢視包含該日期的任何資料集時，他們會在他們的專案中看到此附註，連同他們的資料。
 
-![](assets/multi-day.png)
+![標示附註的折線圖。](assets/multi-day.png)
 
 請記住以下事項：
 
@@ -46,6 +46,6 @@ ht-degree: 57%
 
 * 使用者等級：[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] > [!UICONTROL 資料] > [!UICONTROL 顯示註解]
 
-![](assets/show-ann.png)
+![視覺效果設定對話方塊，將註解反白顯示](assets/show-ann.png)
 
-![](assets/show-ann2.png)
+![反白顯示註解的使用者偏好設定。](assets/show-ann2.png)

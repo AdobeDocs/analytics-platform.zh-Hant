@@ -1,12 +1,12 @@
 ---
-description: 工作區常見問題集和疑難排解祕訣。
+description: 瞭解工作區常見問答和疑難排解提示。
 title: 常見問題集
 feature: FAQ
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 96%
+source-wordcount: '385'
+ht-degree: 94%
 
 ---
 

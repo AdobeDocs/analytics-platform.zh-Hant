@@ -3,10 +3,10 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建立量度
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 61%
+source-wordcount: '1069'
+ht-degree: 60%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics提供的畫布可拖放維度、量度、篩選器和
 
 下圖及隨附表格說明計算量度產生器的部分主要區域和功能。
 
-![](assets/cm_builder_ui.png)
+![新計算量度視窗會顯示本節所述的主要區域和功能。](assets/cm_builder_ui.png)
 
 | 欄位 | 說明 |
 | --- | --- |

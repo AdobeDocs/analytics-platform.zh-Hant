@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 設定雲端匯出位置
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1502'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
    選取 [!UICONTROL **位置帳戶**] 索引標籤中，選取現有帳戶上要新增位置的3點圖示，然後選取 [!UICONTROL **新增位置**].
 
-   ![將位置新增至現有帳戶](assets/add-location-existing-account.png)
+   ![GCP帳戶和省略符號下拉式功能表，其中顯示已選取新增位置](assets/add-location-existing-account.png)
 
    「位置」對話方塊隨即顯示。
 

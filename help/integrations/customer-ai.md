@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: 2429c60cab701017702e3312770232aa329e303c
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 49%
+source-wordcount: '980'
+ht-degree: 48%
 
 ---
 
@@ -73,7 +73,7 @@ Customer AI可與Customer Journey Analytics整合，以便在Customer Journey An
 
 在Customer Journey Analytics中，您現在可以繼續前往 [建立資料檢視](/help/data-views/create-dataview.md) 以及您在建立的連線中引進的維度（例如分數、評分日期、可能性等）和量度。
 
-![建立資料檢視](assets/create-dataview.png)
+![建立資料檢視視窗](assets/create-dataview.png)
 
 ## 步驟 4：在工作區中報告 CAI 分數
 

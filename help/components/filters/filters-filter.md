@@ -2,10 +2,11 @@
 description: 依標籤、擁有者和其他篩選器（「全部顯示」、「我的」、「已共用給我」、「我的最愛」和「已核准」）進行篩選。
 title: 篩選篩選器清單
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 31%
+source-wordcount: '194'
+ht-degree: 30%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 31%
 
 1. 在篩選器管理員中，按一下 **[!UICONTROL 篩選器]** 圖示：  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+   ![顯示「篩選器」圖示和可用篩選器的篩選器管理器。](assets/filtering.png)
 
 2. 下列為可使用的篩選：
 

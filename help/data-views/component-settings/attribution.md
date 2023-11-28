@@ -4,9 +4,9 @@ description: 允許您為量度設定預設歸因。
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1953'
 ht-degree: 35%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 35%
 
 歸因可讓您自訂維度項目如何獲得成功事件的貢獻度。
 
-![](../assets/attribution-settings.png)
+![醒目提示設定歸因選項的資料檢視視窗](../assets/attribution-settings.png)
 
 例如：
 
@@ -46,7 +46,7 @@ ht-degree: 35%
 
 1. 選取元件，然後展開畫面右側的「歸因」區段。
 
-   ![](../assets/attribution-settings.png)
+   ![醒目提示設定歸因選項的資料檢視視窗](../assets/attribution-settings.png)
 
 1. 選取 [!UICONTROL **設定歸因**]，然後選取中的歸因模型 [!UICONTROL **歸因模型**] 下拉式功能表。
 

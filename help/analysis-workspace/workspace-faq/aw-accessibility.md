@@ -3,10 +3,10 @@ description: Analysis Workspace 的協助工具支援功能
 title: Analysis Workspace 的協助工具
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: 82ba31eec1455bf3d0c746cf5eebc81ce6162a00
+source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 99%
+source-wordcount: '618'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 * `F6` 會瀏覽至專案中的第一個面板，並在該面板內的視覺化效果之間移動。 然後它會移到專案中的下一個面板，然後重複此程序。
 * 我們套用了焦點指標，讓視力不佳的鍵盤使用者能夠清楚看出目前取得焦點的 UI 元素。此指標是選定元素周圍的藍色邊框。
 
-   ![焦點指標](assets/focus-indicator.png)
+  ![自由表格，顯示自由表格周圍藍色邊框的焦點指標。](assets/focus-indicator.png)
 
 ### 功能表列的鍵盤導覽
 
@@ -98,7 +98,7 @@ ht-degree: 99%
 
 在元件通過驗證後，按 `Save` 即可關閉產生器。
 
-![錯誤驗證](assets/error-validation.png)
+![區段產生器和錯誤驗證指標。](assets/error-validation.png)
 
 ## 支援作業系統協助工具功能
 
