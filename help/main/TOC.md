@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 648acd49d6cc38531f50df0a7d78ec6dce533d01
+source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1046'
 ht-degree: 82%
 
 ---
@@ -167,12 +167,10 @@ ht-degree: 82%
       + [下載](../analysis-workspace/export/download-send.md)
       + [傳送給其他人](../analysis-workspace/export/t-schedule-report.md)
       + [匯出至雲端](../analysis-workspace/export/export-cloud.md)
-   + 虛擬分析人員 {#virtual-analyst}
-      + [虛擬分析人員總覽](../analysis-workspace/virtual-analyst/overview.md)
-      + 異常偵測 {#anomaly-detection}
-         + [異常偵測總覽](../analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [在 Analysis Workspace 中檢視異常](../analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [用於異常偵測的統計技術](../analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
+   + 異常偵測 {#anomaly-detection}
+      + [異常偵測總覽](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [在 Analysis Workspace 中檢視異常](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [用於異常偵測的統計技術](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [使用者偏好設定](../analysis-workspace/user-preferences.md)
    + 工作區常見問題 {#workspace-faq}
       + [常見問題](../analysis-workspace/workspace-faq/faq.md)

@@ -5,8 +5,8 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: dd83785ea67a48e2051c60568e6fe5b436edf4db
-workflow-type: ht
+source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
+workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Customer Journey Analytics 使用強大的專有架構，可將分析散佈到�
 
 這些視覺效果元件中內建了智慧功能，例如：
 
-* **虛擬分析師功能**&#x200B;例如[異常偵測](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)使用預測演算法和機器學習提供對於驅動資料中異常行為的因素的深入分析。
+* **虛擬分析師功能**&#x200B;例如[異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)使用預測演算法和機器學習提供對於驅動資料中異常行為的因素的深入分析。
 
 * **進階分析功能**&#x200B;專門針對客戶歷程的深入分析，例如[流程圖表](/help/analysis-workspace/visualizations/c-flow/flow.md)、[歸因面板](/help/analysis-workspace/c-panels/attribution.md)、[流失率圖表](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)，以及[維度劃分](/help/components/dimensions/t-breakdown-fa.md)。開箱即用的視覺效果範例包括：
 

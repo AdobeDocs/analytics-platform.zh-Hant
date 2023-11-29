@@ -4,7 +4,7 @@ description: 測量使用者在一段時間內的參與度.
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: e39ab8af98e2bf2a4e63ef49e0ebce472cc1f45f
+source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 2%
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 新增其他資料至圖表。 當圖表上顯示多個序列時，覆蓋圖只會顯示在暫留中。
 
-* **[!UICONTROL 異常偵測]**：執行 [異常偵測](/help/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 趨勢分析上的資訊。 離群值會顯示為點，您可以在其上暫留以取得詳細資訊。
+* **[!UICONTROL 異常偵測]**：執行 [異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) 趨勢分析上的資訊。 離群值會顯示為點，您可以在其上暫留以取得詳細資訊。
 * **[!UICONTROL 趨勢線覆蓋]**：新增趨勢線到圖表，以協助描繪出資料中更清晰的模式。
    * [!UICONTROL 線性]：建立直線回歸線。 最適合穩定增加或減少的簡單線性資料。 方程式：`y = a + b * x`
    * [!UICONTROL 對數]：建立曲線回歸線。 最適合快速增加或減少的資料，然後變得更加平準。 方程式：`y = a + b * log(x)`
