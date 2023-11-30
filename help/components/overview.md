@@ -4,10 +4,10 @@ description: 瞭解Customer Journey Analytics提供哪些元件，以及如何�
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 79%
+source-wordcount: '1146'
+ht-degree: 78%
 
 ---
 
@@ -36,7 +36,7 @@ Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度�
 
 若要存取「元件」面板，請按一下左側邊欄中的&#x200B;**[!UICONTROL 元件]**&#x200B;圖示。您可以利用左欄圖示或[快捷鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，在各面板 (空白面板、[自由表格面板](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)、[快速深入分析面板](/help/analysis-workspace/c-panels/quickinsight.md)或 [Attribution IQ](/help/analysis-workspace/c-panels/attribution.md) 面板)、[視覺化效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件之間來回切換。
 
-![元件圖示](assets/components.png)
+![工作區面板，在左側欄中醒目提示元件圖示](assets/components.png)
 
 請參閱[建立專案](/help/analysis-workspace/home.md)，以了解在專案中使用元件的詳細資訊。
 
@@ -75,7 +75,7 @@ Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度�
    >   按住 Shift 或按住 Command (Mac 版) 或 Ctrl (Windows 版)，即可選取多個元件。
 
 
-   ![元件動作清單](assets/component-actions.png)
+   ![元件動作清單顯示「標籤」、「我的最愛」、「核准」、「共用」和「刪除」。](assets/component-actions.png)
 
    | 元件動作 | 說明 |
    |--- |--- |

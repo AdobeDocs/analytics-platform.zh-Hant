@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 設定雲端匯出位置
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1510'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 1. 選取 [!UICONTROL **位置**] 索引標籤，然後選取 [!UICONTROL **新增位置**].
 
-   ![新增位置按鈕](assets/location-add.png)
+   ![匯出視窗，其中選取了「位置」標籤，並醒目提示新增位置按鈕](assets/location-add.png)
 
    或
 

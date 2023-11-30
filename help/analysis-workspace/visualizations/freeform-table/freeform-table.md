@@ -3,7 +3,7 @@ title: 自由表格
 description: 自由表格是 Analysis Workspace 中資料分析的基礎
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 91%
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 若要建立表格，直接將元件拖放至空白專案、面板或自由表格中是最快的方法。系統會自動以建議的格式為您建立自由表格。[觀看教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=zh-Hant)。
 
-![將造訪次數元件放置到工作空間的新面板。](assets/automated-table.png)
+![將瀏覽元件放置到工作空間的新面板。](assets/automated-table.png)
 
 ## 自由表格產生器
 
