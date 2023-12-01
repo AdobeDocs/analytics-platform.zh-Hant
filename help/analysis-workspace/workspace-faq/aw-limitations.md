@@ -3,10 +3,10 @@ description: 瞭解AdobeAnalysis Workspace及其相關元件的已知限制
 title: Analysis Workspace 的已知限制
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 412cb540af4fd7500821f42d9d89e146644997db
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 84%
+source-wordcount: '320'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 84%
 * 篩選器在表格中設為列時，「從選取項目建立量度」功能會遭停用。此外，「從選取項目建立量度」不可套用至對齊日期的欄。
 * 用於劃分列的條件式格式無法使用自訂範圍。
 * 採用「加總列中的值來計算總計」設定時 (通常與「靜態」列項目搭配使用)，表格總列數無法跟隨趨勢產生變化。
-* [!UICONTROL 貢獻分析]_只能_&#x200B;在[!UICONTROL 每日]粒度下執行，無法針對[!UICONTROL 每小時]、[!UICONTROL 每週]等粒度的資料執行。
 
 ## 視覺效果
 

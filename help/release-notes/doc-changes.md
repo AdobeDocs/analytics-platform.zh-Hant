@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 150a46e59d7f76d90906c85332a94cd5974008c2
+source-git-commit: 412cb540af4fd7500821f42d9d89e146644997db
 workflow-type: tm+mt
-source-wordcount: '2919'
-ht-degree: 95%
+source-wordcount: '2966'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2023 年 12 月** | |
+| 更新異常偵測檔案 | 異常偵測的檔案先前位於虛擬分析人員的相關區段。 已進行下列變更： <ul><li>虛擬分析人員一詞已從檔案中移除。</li><li>關於的區段 [異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) 直接移至Analysis Workspace區段下方。</li></ul> |
 | **2023 年 10 月** | |
 | 使用衍生欄位來設定目標/目標 | 已新增 [使用案例](../use-cases/goals-using-derived-fields.md) 說明如何使用衍生欄位來設定目標/目標及製作相關報表的文章。 |
 | 將完整表格匯出至雲端 | 新增有關將包含數百萬工作區列的完整表格匯出至雲端目的地的檔案。 <p>匯出完整表格可提供在 Workspace 中設計之資料表格的一次性或排程傳送，最多可支援五個劃分、五個量度、篩選器和計算量度，且全部都可以在串連表格中完成。這是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多經常要求且目前在 Data Warehouse 中尚未提供的新功能。</p><p>如需更多資訊，請參閱[將 Customer Journey Analytics 報告匯出至雲端](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)。 | 2023 年 10 月 4 日 |
