@@ -4,9 +4,9 @@ description: 了解 Adobe Experience Platform 中所定義的資料標籤和原�
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 94%
 
 再按一下左側邊欄中的「[!UICONTROL 篩選條件]」圖示，然後在「**[!UICONTROL 資料控管]**」下方按一下「**[!UICONTROL 原則]**」。
 
-![依顯示已選取強制分析之清單來篩選包含的元件](assets/filter-policies.png)
+![依清單篩選包含的元件，其顯示已選取強制執行 Analytics](assets/filter-policies.png)
 
 按一下「**[!UICONTROL 套用]**」，以查看已啟用哪些原則。
 
@@ -67,7 +67,7 @@ ht-degree: 94%
 
 這些元件會在左側邊欄「[!UICONTROL 結構描述」欄位]清單中反灰：
 
-![灰顯的元件和原則訊息，指出原則已套用至此欄位以限制資料的使用](assets/component-greyed.png)
+![反灰元件和原則訊息指出原則已套用到此限制資料使用的欄位](assets/component-greyed.png)
 
 您無法儲存當中有已封鎖欄位的資料檢視。
 

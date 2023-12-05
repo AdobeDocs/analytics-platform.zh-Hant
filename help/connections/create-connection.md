@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2798'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,10 +29,10 @@ ht-degree: 99%
 
 ## 建立和設定連線 {#create-connection}
 
-1. 在 Customer Journey Analytics 中按一下&#x200B;**[!UICONTROL 「連線」]**&#x200B;標籤。
-1. 按一下&#x200B;**[!UICONTROL 建立新連線]**。
+1. 在 Customer Journey Analytics 中按一下「**[!UICONTROL 連線]**」標籤。
+1. 按一下「**[!UICONTROL 建立新連線]**」。
 
-   ![未命名的連線設定](assets/create-conn1.png)
+   ![無標題連線設定](assets/create-conn1.png)
 
 1. 進行連線設定。
 
