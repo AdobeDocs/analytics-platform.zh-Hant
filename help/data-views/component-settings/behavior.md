@@ -4,16 +4,16 @@ description: 指定維度或量度在報告中的行為。
 exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 485160fe362330bafbc07f958c4ada51d4d30089
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '312'
+ht-degree: 90%
 
 ---
 
 # 行為元件設定
 
-行為設定可用於維度和量度。可用設定取決於元件類型和結構描述資料類型。
+行為設定可用於維度和量度。設定的可用性取決於元件型別和結構描述資料型別。
 
 ![行為設定](../assets/behavior-settings.png)
 
@@ -25,11 +25,11 @@ ht-degree: 94%
 
 {style="table-layout:auto"}
 
-![區分大小寫維度](../assets/case-sens-workspace.png)
-
 >[!NOTE]
 >
->如果在查閱資料集維度上啟用[!UICONTROL 小寫]，則同一識別碼可以存在多個查閱值。如果發生此衝突，Customer Journey Analytics會使用第一個ASCII整理值（大寫值在小寫值之前）。 Adobe 建議不要在啟用[!UICONTROL 小寫]時使用包含相同值的查閱資料集。
+>如果在查閱資料集維度上啟用[!UICONTROL 小寫]，則同一識別碼可以存在多個查閱值。如果發生這種衝突，Customer Journey Analytics會使用第一個ASCII整理值（大寫值在小寫值之前）。 Adobe 建議不要在啟用[!UICONTROL 小寫]時使用包含相同值的查閱資料集。
+
+![區分大小寫維度](../assets/case-sens-workspace.png)
 
 ## 量度行為設定
 
