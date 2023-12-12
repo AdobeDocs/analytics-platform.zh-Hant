@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 689235eb0b982f4e572282f1c73e4606f9d82b12
+source-git-commit: 3d53fbcfea341f0cf9c1cf7da5296565eafff0f9
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 82%
+source-wordcount: '1045'
+ht-degree: 80%
 
 ---
 
@@ -293,7 +293,7 @@ ht-degree: 82%
    + [受限制的標籤](../report-builder/restricted-labels.md)
    + [Report Builder 設定](../report-builder/report-builder-settings.md)
 
-+ 報告活動管理員 {#reporting-activity-manager}
++ 報告活動管理器 {#reporting-activity-manager}
    + [概觀](../reporting-activity-manager/reporting-activity-overview.md)
    + [檢視報告活動](../reporting-activity-manager/reporting-activity.md)
    + [取消報告請求](../reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -343,6 +343,7 @@ ht-degree: 82%
    + Adobe Analytics 資料 {#aa-data}
       + [使用行銷管道維度](../use-cases/aa-data/marketing-channels.md)
       + [結合報告套裝與不同的結構描述](../use-cases/aa-data/combine-report-suites.md)
+      + [模擬資料摘要](../use-cases/emulating-data-feeds.md)
    + 複雜的資料 {#complex-data}
       + [使用物件陣列](../use-cases/object-arrays.md)
    + 衍生欄位 {#derived-fields}

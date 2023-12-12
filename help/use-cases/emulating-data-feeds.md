@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: d6e10a00bf9afb2788f99800e09a7e80fd31e489
+source-git-commit: a4d9272b1e813a34f11e4b42c3369129b57c6ef0
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 1%
@@ -396,9 +396,4 @@ select identityMap,ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 >[!IMPORTANT]
 >
 >此使用案例涉及兩個排程器。 為確保模擬資料摘要功能可正常運作，請確定在查詢服務和資料匯出中設定的排程不會干預。
-
-
-
-
-
 
