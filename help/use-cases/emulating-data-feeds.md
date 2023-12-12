@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: a4d9272b1e813a34f11e4b42c3369129b57c6ef0
+source-git-commit: d5719dddfb4cefda761370951973d55b3904032f
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料
 
 您可以使用標準ANSI SQL for SELECT敘述句和其他有限命令的所有功能，來建立和執行產生資料摘要資料的查詢。 另請參閱 [SQL語法](https://experienceleague.adobe.com/docs/experience-platform/query/sql/syntax.html?lang=en) 以取得詳細資訊。 除了此SQL語法以外，Adobe還支援：
 
-* 預先建立 [Adobe定義函式(ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) 可協助您對儲存在Experience Platform資料湖中的事件資料執行常見的業務相關工作，包括 [工作階段化](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html?lang=zh-Hant) 和 [歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hant)，
+* 預先建立 [Adobe定義函式(ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) 可協助您對儲存在Experience Platform Data Lake中的事件資料執行常見的業務相關工作，包括 [工作階段化](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html?lang=zh-Hant) 和 [歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hant)，
 * 數個內建 [Spark SQL函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en)，
 * [中繼資料PostgreSQL命令](https://experienceleague.adobe.com/docs/experience-platform/query/sql/metadata.html?lang=en)，
 * [準備的陳述式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/prepared-statements.html?lang=en).
@@ -292,7 +292,7 @@ select explode(identityMap) from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 或者，您可以使用點標籤法來參照個別元素。 例如：
 
 ```sql
-select identityMap,ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
+select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 ```
 
 請參閱「[在 Query Service 中使用巢狀資料結構](https://experienceleague.adobe.com/docs/experience-platform/query/key-concepts/nested-data-structures.html?lang=en)」以了解更多資訊。
