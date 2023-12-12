@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 source-git-commit: 3482083fd5f99f133db79f682d3231cc75c969ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2044'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 96%
 | 報告 API 存取權 | 完整支援；可透過 [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/) 使用。 |
 | 排程報告/專案 | 完整支援 |
 | 區段 | 完整支援。現在稱為「篩選器」。請注意，傳統 Analysis Workspace 中任何現有的區段都不會移植至 Customer Journey Analytics。 |
-| 虛擬報告套裝 | 完整支援。現在稱為 [資料檢視](/help/data-views/create-dataview.md). |
+| 虛擬報告套裝 | 完整支援。現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | 虛擬報表套裝元件策劃 | 完整支援。現在是資料檢視的一部分。 |
-| 裝置、瀏覽器、推薦者、技術維度 | 支援 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)型資料集和 WebSDK 產生的資料集。請參閱 [透過ADC支援哪些Analytics變數的檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant).如果您使用Experience Platform Web SDK資料彙集，目前不支援根據裝置查詢的裝置和維度。 已規劃於未來支援。若要將裝置和瀏覽器查詢新增至 Web SDK 資料流，請參閱[本文件](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
+| 裝置、瀏覽器、推薦者、技術維度 | 支援 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)型資料集和 WebSDK 產生的資料集。請參閱[透過 ADC 支援 Analytics 變數的文件](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant)。如果您使用 Experience Platform Web SDK 資料收集，目前不支援根據裝置查詢的裝置和維度。已規劃於未來支援。若要將裝置和瀏覽器查詢新增至 Web SDK 資料流，請參閱[本文件](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
 | 串流媒體 Analytics | 媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢閱者」面板和「媒體播放時間」面板的一部分提供。 |
 
 {style="table-layout:auto"}
@@ -137,6 +137,6 @@ ht-degree: 96%
 | 提升安全性和隱私權選項 - HIPAA 整備程度 | Customer Journey Analytics 符合 HIPAA 標準，並提供額外的安全性選項以實現法規合規性。Adobe Analytics 尚未符合 HIPAA 標準。 |
 | 組合資料集的能力 (例如 Adobe Analytics 報告套件) | Customer Journey Analytics 可讓您組合多個報告套件的資料，如同 Adobe Analytics 中的單一報告套件。 |
 | 衍生的欄位 | 衍生的欄位允許對您的資料進行報告時間轉換。資料可以動態組合、更正或建立，並追溯套用於所有的報告。 |
-| 引導分析 | 引導式分析是一種報告格式，可讓使用者快速自助滿足其資料需求，以便他們可以快速取得高品質的深入分析，並做出更多資料導向式決策。 引導式分析是Adobe Product Analytics的一部分，是Customer Journey Analytics的附加元件。 |
+| 引導式分析 | 引導式分析是一種報告格式，可讓使用者快速自助滿足其資料需求，以便他們能夠快速獲得高品質的深入解析並做出更多資料導向的決策。引導式分析是 Adobe Product Analytics 的一部分，Adobe Product Analytics 是 Customer Journey Analytics 的附加元件。 |
 
 {style="table-layout:auto"}
