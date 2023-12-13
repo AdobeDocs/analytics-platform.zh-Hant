@@ -5,258 +5,127 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: d5719dddfb4cefda761370951973d55b3904032f
+source-git-commit: e49ea37f36d105e428bc6d04a6ed42a47e2d75fc
 workflow-type: tm+mt
-source-wordcount: '2107'
-ht-degree: 1%
+source-wordcount: '2555'
+ht-degree: 5%
 
 ---
 
 # 模擬資料摘要功能
 
-Adobe Analytics資料摘要是從Adobe Analytics中取得原始資料的有力方式。 此使用案例說明如何從Experience Platform中取得類似的原始資料，以便用於組織自行決定的其他Adobe之外的平台。
-
-## 先決條件
-
-使用此使用案例所述的功能之前，請確定您符合下列所有需求：
-
-* 將線上和離線資料傳送至Experience Platform資料湖的有效實作。
-* 存取查詢服務，此服務會封裝為平台式應用程式或資料Distiller附加元件的一部分。 另請參閱 [查詢服務封裝](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html?lang=en) 以取得詳細資訊。
-* 已購買Real-Time CDP Prime或Ultimate套件、Adobe Journey Optimizer或Customer Journey Analytics的客戶可存取匯出資料集功能。 另請參閱 [將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant) 以取得詳細資訊。
-* 一或多個目的地(例如：Amazon S3、Google Cloud Storage)已設定為可在其中匯出資料摘要的原始資料。
+Adobe Analytics資料摘要是從Adobe Analytics中取得原始資料的有力方式。 此使用案例說明如何從Experience Platform取得類似的原始資料型別，以便您可以在Adobe以外自行決定的其他平台和工具中使用資料。
 
 ## 簡介
 
 模擬Adobe Analytics資料摘要的過程包括：
 
-* 定義 **排定的查詢** ，為您的資料摘要產生資料，作為輸出資料集，使用 **查詢服務**.
+* 定義 **排定的查詢** ，為您的資料摘要產生資料作為輸出資料集 ![輸出資料集](assets/output-dataset.svg)，使用 **查詢服務**.
 * 定義 **排程的資料集匯出** ，會使用將輸出資料集匯出至雲端儲存空間目的地 **資料集匯出**.
-
 
 ![資料摘要](assets/data-feed.svg)
 
 
+## 先決條件
+
+使用此使用案例所述的功能之前，請確定您符合下列所有需求：
+
+* 將資料收集至Experience Platform資料湖的有效實作。
+* 存取資料Distiller附加元件，以確保您有權執行批次查詢。 另請參閱 [查詢服務封裝](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html?lang=en) 以取得詳細資訊。
+* 存取匯出資料集功能，此功能在您購買Real-Time CDP Prime或Ultimate套件、Adobe Journey Optimizer或Customer Journey Analytics時可用。 另請參閱 [將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant) 以取得詳細資訊。
+* 一或多個目的地(例如：Amazon S3、Google Cloud Storage)已設定為可在其中匯出資料摘要的原始資料。
+
+
 ## 查詢服務
 
-Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料湖中的任何資料集，就好像它是資料庫表格一樣。 然後，您可以將結果擷取為新資料集，以供進一步用於報告或匯出。
+Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料湖中的任何資料集，就像它是資料庫表格一樣。 然後，您可以將結果擷取為新資料集，以供進一步用於報告或匯出。
 
-您使用查詢服務 [使用者介面](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=en)， a [使用者端透過PostgresSQL通訊協定連線](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=en)，或 [RESTful API](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en) 以建立及排程收集資料摘要資料的查詢。
+您使用查詢服務 [使用者介面](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=en)， a [使用者端透過PostgresQL通訊協定連線](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=en)，或 [RESTful API](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en) 以建立及排程收集資料摘要資料的查詢。
 
 ### 建立查詢
 
 您可以使用標準ANSI SQL for SELECT敘述句和其他有限命令的所有功能，來建立和執行產生資料摘要資料的查詢。 另請參閱 [SQL語法](https://experienceleague.adobe.com/docs/experience-platform/query/sql/syntax.html?lang=en) 以取得詳細資訊。 除了此SQL語法以外，Adobe還支援：
 
-* 預先建立 [Adobe定義函式(ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) 可協助您對儲存在Experience Platform Data Lake中的事件資料執行常見的業務相關工作，包括 [工作階段化](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html?lang=zh-Hant) 和 [歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hant)，
+* 預先建立 [Adobe定義函式(ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) 可協助您對儲存在Experience Platform資料湖中的事件資料執行常見的業務相關工作，包括 [工作階段化](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html?lang=zh-Hant) 和 [歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hant)，
 * 數個內建 [Spark SQL函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en)，
 * [中繼資料PostgreSQL命令](https://experienceleague.adobe.com/docs/experience-platform/query/sql/metadata.html?lang=en)，
 * [準備的陳述式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/prepared-statements.html?lang=en).
 
 
-#### 範例
-
-以下列出為資料摘要收集資料的一些查詢範例。 這些範例使用 `demo_system_event_dataset_for_website_global_v1_1` 作為範例體驗事件資料集，其中包含從與網站互動的客戶所收集到的資料。
-
-+++前五大產品
-
-*網站上檢視的五大產品為何？*
-
-```sql
-select productListItems.name, count(*)
-from   demo_system_event_dataset_for_website_global_v1_1
-where  eventType = 'commerce.productViews'
-group  by productListItems.name
-order  by 2 desc
-limit 5;
-```
-
-+++
-
-+++產品互動漏斗
-
-*網站上的各種產品互動為何？*
-
-```sql
-select eventType, count(*)
-from   demo_system_event_dataset_for_website_global_v1_1
-where  eventType is not null
-and    eventType <> ''
-group  by eventType;
-```
-
-+++
-
-+++人們做什麼
-
-*使用者在進入「取消服務」頁面做為工作階段中的第三個頁面之前，會在網站上執行什麼動作？*
-
-此查詢使用Adobe定義的函式 `SESS_TIMEOUT` 和 `NEXT`.
-
-* 此 `SESS_TIMEOUT()` 會重現使用Adobe Analytics找到的造訪群組。 它執行類似的以時間為基礎的群組，但使用可自訂的引數。
-* `NEXT()` 和 `PREVIOUS()` 協助您瞭解客戶如何導覽您的網站。
-
-```sql
-SELECT
-  webPage,
-  webPage_2,
-  webPage_3,
-  webPage_4,
-  count(*) journeys
-FROM
-  (
-      SELECT
-        webPage,
-        NEXT(webPage, 1, true)
-          OVER(PARTITION BY ecid, session.num
-                ORDER BY timestamp
-                ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING).value
-          AS webPage_2,
-        NEXT(webPage, 2, true)
-          OVER(PARTITION BY ecid, session.num
-                ORDER BY timestamp
-                ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING).value
-          AS webPage_3,
-        NEXT(webPage, 3, true)
-           OVER(PARTITION BY ecid, session.num
-                ORDER BY timestamp
-                ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING).value
-          AS webPage_4,
-        session.depth AS SessionPageDepth
-      FROM (
-            select a._sampleorg.identification.core.ecid as ecid,
-                   a.timestamp,
-                   web.webPageDetails.name as webPage,
-                    SESS_TIMEOUT(timestamp, 60 * 30)
-                       OVER (PARTITION BY a._sampleorg.identification.core.ecid
-                             ORDER BY timestamp
-                             ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)
-                  AS session
-            from   demo_system_event_dataset_for_website_global_v1_1 a
-            where  a._sampleorg.identification.core.ecid in (
-                select b._sampleorg.identification.core.ecid
-                from   demo_system_event_dataset_for_website_global_v1_1 b
-                where  b.web.webPageDetails.name = 'Cancel Service'
-            )
-        )
-)
-WHERE SessionPageDepth=1
-and   webpage_3 = 'Cancel Service'
-GROUP BY webPage, webPage_2, webPage_3, webPage_4
-ORDER BY journeys DESC
-LIMIT 10;
-```
-
-+++
-
-+++多少時間
-
-*訪客造訪「取消服務」頁面後，多久之後才會致電客服中心？*
-
-若要回答這類查詢，請使用 `TIME_BETWEEN_NEXT_MATCH()` Adobe定義的函式。 上一個或下一個相符函式之間的時間提供一個新維度，可測量自特定事件以來經過的時間。
-
-```sql
-select * from (
-       select _sampleorg.identification.core.ecid as ecid,
-              web.webPageDetails.name as webPage,
-              TIME_BETWEEN_NEXT_MATCH(timestamp, web.webPageDetails.name='Call Start', 'seconds')
-              OVER(PARTITION BY _sampleorg.identification.core.ecid
-                  ORDER BY timestamp
-                  ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
-              AS contact_callcenter_after_seconds
-       from   demo_system_event_dataset_for_website_global_v1_1
-       where  web.webPageDetails.name in ('Cancel Service', 'Call Start')
-) r
-where r.webPage = 'Cancel Service'
-limit 15;
-```
-
-+++
-
-+++結果如何
-
-*客戶致電客服中心會有什麼結果？*
-
-對於此查詢， `demo_system_event_dataset_for_website_global_v1_1` 以範例聯結資料集 `demo_system_event_dataset_for_call_center_global_v1_1` 包含客服中心互動的資料集。
-
-```sql
-select distinct r.*,
-       c._sampleorg.interactionDetails.core.callCenterAgent.callFeeling,
-       c._sampleorg.interactionDetails.core.callCenterAgent.callTopic,
-       c._sampleorg.interactionDetails.core.callCenterAgent.callContractCancelled
-from (
-       select _sampleorg.identification.core.ecid ecid,
-              web.webPageDetails.name as webPage,
-              TIME_BETWEEN_NEXT_MATCH(timestamp, web.webPageDetails.name='Call Start', 'seconds')
-              OVER(PARTITION BY _sampleorg.identification.core.ecid
-                  ORDER BY timestamp
-                  ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING)
-              AS contact_callcenter_after_seconds
-       from   demo_system_event_dataset_for_website_global_v1_1
-       where  web.webPageDetails.name in ('Cancel Service', 'Call Start')
-) r
-, demo_system_event_dataset_for_call_center_global_v1_1 c
-where r.ecid = c._sampleorg.identification.core.ecid
-and r.webPage = 'Cancel Service'
-and c._sampleorg.interactionDetails.core.callCenterAgent.callContractCancelled IN (true,false)
-and c._sampleorg.interactionDetails.core.callCenterAgent.callTopic IN ('contract', 'invoice','complaint','wifi')
-limit 15;
-```
-
-+++
-
-+++行銷管道參與(Adobe Analytics資料)
-
-*對於義大利文焦點網路流量，各行銷管道的參與度為何？*
-
-例如，此範例使用由Adobe Analytics來源聯結器自動建立的資料集 `demo_data_sample_org_midvalues`.
-
-```sql
-select 
-    channel.typeAtSource, count(*) 
-from 
-    demo_data_sample_org_midvalues 
-where 
-    (channel.typeAtSource IS NOT NULL
-and
-    web.webPageDetails.URL LIKE '%/it/it/%')
-group by 
-    channel.typeAtSource
-order by 2 desc;
-```
-
-+++
-
-如需更多（進階）範例查詢，請參閱 [捨棄的瀏覽](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en)， [歸因分析](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en)， [機器人篩選](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en)、以及查詢服務指南中的其他範例。
-
-
 #### 身分
 
-在Experience Platform中，有多種身分可供使用。 請確定您正在正確查詢身分。 在上述範例中，ECID被定義為核心物件的一部分，而核心物件本身是識別物件的一部分，兩者都使用體驗事件核心欄位群組新增到結構描述(例如： `_sampleorg.identification.core.ecid`)。 ECID在結構中的組織方式可能有所不同。
+在Experience Platform中，有多種身分可供使用。 建立查詢時，請確定您正在正確查詢身分。
+
+您通常會在個別的欄位群組中找到身分。 在實作ECID (`ecid`)可定義為具有的欄位群組的一部分 `core` 物件，它本身就是物件的一部分， `identification` 物件。 (例如： `_sampleorg.identification.core.ecid`)。 ECID在結構中的組織方式可能有所不同。
 
 或者，您可以使用 `identityMap` 以查詢身分。 此物件的型別 `Map` 並使用 [巢狀資料結構](#nested-data-structure).
 
-對於使用Adobe Analytics來源聯結器擷取的資料，可能有多個身分可供使用。 主要識別碼取決於ECID或AAID是否存在。 另請參閱 [Adobe Analytics資料中的主要識別碼](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#how-the-analytics-source-treats-identities) 和 [AAID、ECID、AACUSTOMID和Analytics來源聯結器](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=zh-Hant) 以取得詳細資訊
 
 #### 資料摘要欄
 
-您可以在查詢中使用的欄位（欄）取決於資料集所依據的結構定義。 請確定您瞭解資料集所根據的結構描述。
+您可以在查詢中使用的XDM欄位取決於資料集所依據的結構描述定義。 請確定您瞭解資料集所根據的結構描述。
 
-例如，在一些 [範例查詢](#examples) 您已查詢 *頁面名稱*.
+若要簡化資料摘要欄和XDM欄位之間的對應，您應考慮包含 [Adobe Analytics ExperienceEvent范](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) 「體驗事件」結構描述中的欄位群組。 另請參閱 [資料模型化的最佳實務](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) 更具體地說 [Adobe應用程式結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
+
+例如，如果您想使用 *頁面名稱* 做為資料摘要的一部分：
 
 * 在Adobe Analytics資料摘要的UI中，您可以選取 **[!UICONTROL pagename]** 作為欄，以新增至您的資料摘要定義。
-* 在查詢服務中，您包括 `web.webPageDetails.name` 從 `demo_system_event_dataset_for_website_global_v1_1` 資料集(根據 **示範系統 — 網站的事件結構(Gobal v1.1)** 體驗事件結構描述)。 請參閱 [Web詳細資料結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) 以取得詳細資訊。
+* 在查詢服務中，您包括 `web.webPageDetails.name` 從 `sample_event_dataset_for_website_global_v1_1` 資料集(根據 **網站的範例事件結構描述(Gobal v1.1)** 體驗事件結構描述)。 請參閱 [Web詳細資料結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) 以取得詳細資訊。
 
-若要瞭解體驗事件資料集和基礎結構描述中，前Adobe Analytics資料欄和XDM欄位之間的對應，請參閱 [Analytics欄位對映](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant) 和 [Adobe Analytics ExperienceEvent完整擴充功能結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) 以取得詳細資訊。
+若要瞭解體驗事件資料集和基礎結構描述中，前Adobe Analytics資料摘要欄和XDM欄位之間的對應，請參閱 [Analytics欄位對映](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant) 和 [Adobe Analytics ExperienceEvent完整擴充功能結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) 以取得詳細資訊。
 
-此外，Experience Platform Web SDK自動收集的資訊（現成可用）也可能與識別查詢的欄有關。 另請參閱 [自動收集的資訊](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) 以取得詳細資訊。
+此外， [由Experience PlatformWeb SDK自動收集的資訊（立即可用）](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) 可能與識別查詢的欄相關。
 
+#### 點選層級資料和識別
+
+根據實作，傳統上在Adobe Analytics中收集的點選層級資料現在會儲存為Experience Platform中的時間戳記事件資料。 下表摘錄自 [分析欄位對應](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en#generated-mapping-fields) 和顯示如何將點選層級特定的Adobe Analytics資料摘要欄與查詢中的對應XDM欄位的範例。 此表格也顯示如何使用XDM欄位識別點選、造訪和訪客的範例。
+
+| 資料摘要欄 | XDM欄位 | 類型 | 說明 |
+|---|---|---|---|
+| hitid_high + hitid_low | _id | 字串 | 用於識別點選的唯一識別碼。 |
+| hitid_low | _id | 字串 | 搭配hitid_high使用以專門識別點選。 |
+| hitid_high | _id | 字串 | 搭配hitid_high使用以專門識別點選。 |
+| hit_time_gmt | receivedTimestamp | 字串 | 點選的時間戳記，根據Unix時間。 |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 字串 | 訪客初次點擊的時間戳記，格式為 Unix 時間。 |
+| cust_hit_time_gmt | timestamp | 字串 | 這僅用於啟用時間戳記的資料集。 這是根據Unix時間而隨其傳送的時間戳記。 |
+| visid_high + visid_low | identityMap | 物件 | 造訪的唯一識別碼。 |
+| visid_high + visid_low | endUserIDs。_experience.aaid.id | 字串 | 造訪的唯一識別碼。 |
+| visid_high | endUserIDs。_experience.aaid.primary | 布林值 | 搭配visid_low使用以專門識別造訪。 |
+| visid_high | endUserIDs。_experience.aaid.namespace.code | 字串 | 搭配visid_low使用以專門識別造訪。 |
+| visid_low | identityMap | 物件 | 搭配visid_high使用以專門識別造訪。 |
+| cust_visid | identityMap | 物件 | 客戶訪客ID |
+| cust_visid | endUserIDs。_experience.aacustomid.id | 物件 | 客戶訪客ID。 |
+| cust_visid | endUserIDs。_experience.aacustomid.primary | 布林值 | 客戶訪客ID名稱空間程式碼。 |
+| cust_visid | endUserIDs。_experience.aacustomid.namespace.code | 搭配visid_low使用以專門識別客戶訪客id。 |
+| 地理\_* | placeContext.geo.* | 字串，數字 | 地理位置資料，例如國家、地區、城市等 |
+| visit_page_num | _experience.analytics.session.depth | 數字 | 用於點選深度維度的變數。 此值會因使用者產生的每次點選而增加1，並在每次造訪後重設。 |
+| event_list | commerce.purchases， commerce.productViews， commerce.productListOpens， commerce.checkouts， commerce.productListAdds， commerce.productListRemovals， commerce.productListViews， \_experience.analytics.event101to200。*， ...， \_experience.analytics.event901_1000。\* | 字串 | 標準商務和點選時觸發的自訂事件。 |
+| page_event | web.webInteraction.type | 字串 | 影像要求中傳送的點選型別（標準點選、下載連結、退出連結或自訂連結已點按）。 |
+| page_event | web.webInteraction.linkClicks.value | 數字 | 影像要求中傳送的點選型別（標準點選、下載連結、退出連結或自訂連結已點按）。 |
+| page_event_var_1 | web.webInteraction.URL | 字串 | 僅用於連結追蹤影像要求中的變數。 此變數包含下載連結、退出連結或自訂連結點選的URL。 |
+| page_event_var_2 | web.webInteraction.name | 字串 | 僅用於連結追蹤影像要求中的變數。 這會列出連結的自訂名稱（如果已指定）。 |
+| first_hit_ref_type | _experience.analytics.endUser.firstWeb.webReferrer.type | 字串 | 數值ID，代表訪客第一個反向連結的反向連結型別。 |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 整數 | 訪客初次點擊的時間戳記，格式為 Unix 時間。 |
+| paid_search | search.isPaid | 布林值 | 如果點選符合付費搜尋偵測，則會設定此旗標。 |
+| ref_type | web.webReferrertype | 字串 | 此數值 ID 表示點擊的反向連結類型。 |
+
+#### 張貼欄
+
+Adobe Analytics資料摘要會使用附有欄的概念 `post_` 前置詞，處理之後包含資料的欄。 如需詳細資訊，請參閱[資料摘要常見問題](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#post)。
+
+透過Experience Platform邊緣網路（Web SDK、Mobile SDK、伺服器API）在資料集中收集的資料不含 `post_` 欄位，說明原因 `post_` 前置詞和 *非* `post_` 在Analytics欄位中將資料摘要欄加上前置詞後，對應至相同的XDM欄位。 例如，兩者 `page_url` 和 `post_page_url` 資料摘要欄會對應至相同的 `web.webPageDetails.URL` XDM欄位。
+
+另請參閱 [比較Adobe Analytics和Customer Journey Analytics的資料處理](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=zh-Hant) 以取得資料處理差異的概觀。
+
+此 `post_` 在Experience Platform資料湖中收集資料時，為其資料欄型別加上前置詞，則不需要進階轉換，才能成功用於資料摘要使用案例。 在查詢中執行這些進階轉換涉及使用 [Adobe定義的函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) 用於工作階段化、歸因和重複資料刪除。 另請參閱 [範例](#examples) 這些函式的使用方式。
 
 #### 查詢
 
-若要從其他資料集查詢資料，請使用標準的SQL功能（WHERE子句、INNER JOIN、OUTER JOIN等）。 請參閱 [結果如何](#examples) 在範例中查詢。
+若要從其他資料集中查詢資料，請使用標準SQL功能(`WHERE` 子句， `INNER JOIN`， `OUTER JOIN`和其他)。
 
 #### 計算
 
-若要在欄位（欄）上執行計算，只需使用標準SQL函式(例如 `COUNT(*)` 在 [產品互動漏斗](#examples) 查詢)或 [數學和統計運運算元與函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) Spark SQL的一部分。
+若要在欄位（欄）上執行計算，請使用標準SQL函式(例如 `COUNT(*)` 或 [數學和統計運運算元與函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) Spark SQL的一部分。 此外， [視窗函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) 提供更新彙總的支援，並傳回有序子集中每一列的單一專案。 另請參閱 [範例](#examples) 這些函式的使用方式。
 
 #### 巢狀資料結構
 
@@ -281,9 +150,7 @@ order by 2 desc;
 }
 ```
 
-您可以使用 [`explode()` 或其他陣列功能](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#arrays) 從Spark SQL取得巢狀資料結構內的資料。
-
-例如：
+您可以使用 [`explode()` 或其他陣列功能](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#arrays) 從Spark SQL取得巢狀資料結構內的資料，例如：
 
 ```sql
 select explode(identityMap) from demosys_cja_ee_v1_website_global_v1_1 limit 15;
@@ -297,18 +164,29 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 請參閱「[在 Query Service 中使用巢狀資料結構](https://experienceleague.adobe.com/docs/experience-platform/query/key-concepts/nested-data-structures.html?lang=en)」以了解更多資訊。
 
+
+#### 範例
+
+例如，查詢若使用Experience Platform資料湖中資料集的資料，點選Adobe定義函式和/或Spark SQL的其他功能，而這會提供類似結果給對等的Adobe Analytics資料摘要，請參閱
+
+* [捨棄的瀏覽](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en)，
+* [歸因分析](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en)，
+* [機器人篩選](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en)，
+* 和查詢服務指南中的其他範例使用案例。
+
+
 ### 排程查詢
 
-您可以排程查詢，以確保查詢已執行，而且結果會以您偏好的間隔產生。 排程查詢時，您可以定義輸出資料集。
+您可以排程查詢，以確保查詢已執行，而且結果會以您偏好的間隔產生。
 
 #### 使用查詢編輯器
 
-您可以使用查詢編輯器排程查詢。 定義查詢的排程時，您可以定義輸出資料集。 另請參閱 [查詢排程](https://experienceleague.adobe.com/docs/experience-platform/query/ui/query-schedules.html?lang=en) 以取得詳細資訊。
+您可以使用查詢編輯器排程查詢。 排程查詢時，您可以定義輸出資料集。 另請參閱 [查詢排程](https://experienceleague.adobe.com/docs/experience-platform/query/ui/query-schedules.html?lang=en) 以取得詳細資訊。
 
 
 #### 使用查詢服務API
 
-或者，您可以使用RESTful API來定義查詢和排程查詢。 另請參閱 [查詢服務API指南](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en_) 以取得詳細資訊。
+或者，您可以使用RESTful API來定義查詢和排程查詢。 另請參閱 [查詢服務API指南](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en) 以取得詳細資訊。
 請確定您將輸出資料集定義為選用的一部分 `ctasParameters` 建立查詢時的屬性([建立查詢](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery))或建立查詢的排程時([建立排定的查詢](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule))。
 
 
