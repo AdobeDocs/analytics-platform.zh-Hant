@@ -3,10 +3,11 @@ title: 拼接常見問題集
 description: 銜接的常見問題
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-source-git-commit: d7dd5f4f0ef53e61755cf02c49c2f7f081ff4b39
+exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
+source-git-commit: 53d394feb7d1132ad6339bae0e980f32bfe2ee6f
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 42%
+source-wordcount: '1269'
+ht-degree: 34%
 
 ---
 
@@ -49,7 +50,7 @@ ht-degree: 42%
 
 +++
 
-+++**如果我連絡 Adobe 帳戶團隊，向對方索取所需資訊，需要多久才能使用金鑰已重設的資料集？**
++++**一旦我聯絡Adobe客戶團隊並提供所需資訊後，已重設金鑰的資料集需要多久才能使用？**
 
 Adobe啟用彙整功能後，需要約一週才能使用即時彙整。 能否使用回填功能取決於現有資料的數量。如果是小型資料集 (每天不到 100 萬個事件)，通常需要幾天後才能使用，大型資料集 (每天 10 億個事件) 則需等待一週或更久時間。
 
@@ -63,13 +64,13 @@ Adobe啟用彙整功能後，需要約一週才能使用即時彙整。 能否�
 
 +++
 
-+++**拼接如何處理GDPR和CCPA要求？**
++++**拼接如何處理隱私權請求？**
 
-Adobe會根據當地及國際法律規範處理GDPR和CCPA要求。 Adobe 提供 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)，以供提交資料存取及刪除要求。 這些要求會同時套用至原始資料集和已重設金鑰的資料集。
+Adobe會根據當地及國際法處理隱私權要求。 Adobe 提供 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)，以供提交資料存取及刪除要求。 這些要求會同時套用至原始資料集和已重設金鑰的資料集。
 
 +++
 
-+++**如果一個或多個事件中的 Persistent ID 欄位為空白，會發生什麼情況？**
++++**如果一個或多個事件中的「永久ID」欄位為空白，會發生什麼情況？**
 
 如果在正在拚接的資料集中的事件中，「永久ID」欄位為空白，則該事件的拚接ID會以下述兩種方式之一來確定：
 
