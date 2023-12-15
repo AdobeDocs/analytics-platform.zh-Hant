@@ -3,10 +3,10 @@ title: 稽核記錄
 description: 瞭解如何檢視和管理Customer Journey Analytics稽核記錄。
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 275d575d41a259bddb152074a55fedcdd6f9ecea
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 64%
+source-wordcount: '795'
+ht-degree: 65%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 64%
 
 系統依預設會顯示今天和昨天的稽核記錄。
 
-![今天（2022年10月14日）和昨天（2022年10月13日）的稽核記錄重點提示。 ](assets/audit_ui.png)
+![今日和昨日的稽核記錄重點提示。 ](assets/audit_ui.png)
 
 您可以使用右上方的欄選擇器來選擇要顯示哪些欄。
 

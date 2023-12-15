@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 98fc95bd5b8eb35dc3a7a88618c00a42f4efce1c
+source-git-commit: 275d575d41a259bddb152074a55fedcdd6f9ecea
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 80%
+source-wordcount: '1053'
+ht-degree: 79%
 
 ---
 
@@ -365,6 +365,9 @@ ht-degree: 80%
    + [比較 Adobe Analytics 資料與 Customer Journey Analytics 資料](../troubleshooting/compare.md)
    + [Real-time CDP與Customer Journey Analytics之間的量度一致性及受眾會籍數](../troubleshooting/consistency-rcdp-cja.md)
    + [缺少許可權](../troubleshooting/lack-of-permissions.md)
+
++ 技術備忘稿 {#technotes}
+   + [Customer Journey Analytics資料中心](../technotes/cja-datacenters.md)
 
 + [Customer Journey Analytics 術語](../getting-started/cja-glossary.md)
 

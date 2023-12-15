@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cf9e8c90eec78658e470d3a7a56cb2e3414591d4
+source-git-commit: 9f48c2870cff0aac392de9b50c6acea9763553d7
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2756'
 ht-degree: 91%
 
 ---
@@ -20,6 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 12 月** | |
+| 資料中心 | 已新增有關Customer Journey Analytics的文章 [託管位置](../technotes/cja-datacenters.md). |
 | 護欄 | 新增的文章清單Customer Journey Analytics [護欄](../admin/guardrails.md). |
 | 貨幣轉換更新 | 澄清關於如何 [設定貨幣轉換](/help/data-views/component-settings/format.md). |
 | 更新異常偵測檔案 | 異常偵測的檔案先前位於虛擬分析人員的相關區段。 以下是所做的變更： <ul><li>術語 Virtual Analyst 已從文件中刪除。</li><li>「[異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)」的區段直接移至 Analysis Workspace 區段下方。</li></ul> |
