@@ -4,10 +4,10 @@ description: 設定量度的格式。
 exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 045037867063f6bb5a6be60132f8d7b1bb54917e
+source-git-commit: cf9e8c90eec78658e470d3a7a56cb2e3414591d4
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 20%
+source-wordcount: '709'
+ht-degree: 19%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 20%
 1. 選取包含您要設定其格式設定的元件的資料檢視。
 
 1. 選取「[!UICONTROL **元件**]」索引標籤。
-
-   ![元件標籤](../assets/format-settings-component-tab.png)
 
 1. 選取要設定的元件，然後展開 [!UICONTROL **格式**] 區段。
 
