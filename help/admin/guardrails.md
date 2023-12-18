@@ -4,7 +4,7 @@ description: 瞭解Customer Journey Analytics的護欄
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: 37cb4cc9ecb58f31fdcd53deaadbd124bf6e894c
+source-git-commit: affe7fe57ba59a15458263afabe2715d4c5da5fe
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 10%
@@ -191,7 +191,7 @@ ht-degree: 10%
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
-| 每份報告的列數 | 300萬 — 1.5億 | 系統強制的護欄 | 每個報表的最大報表列數；根據授權套件的值。 |
+| 每份報告的列數 | 300萬 — 3億 | 系統強制的護欄 | 每個報表的最大報表列數；根據授權套件的值。 |
 | 每個表格的劃分 | 5 | 系統強制的護欄 | 每個表格的最大劃分數。 |
 | 每個表格的量度 | 5 | 系統強制的護欄 | 每個資料表的量度數上限。 |
 | 排程頻率 | 1 | 系統強制的護欄 | 匯出作業可以每天排程一次(1)，或以較長的排程進行（例如：每2天或每週排程一次）。 |
