@@ -4,9 +4,9 @@ description: 有關引導式分析的常見問題。
 exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 2fe26bb906600a1987d9f4a07c5863030d52173a
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 +++**如何布建我的組織以進行引導式分析？**
 
-引導式分析是Customer Journey Analytics的付費附加元件。 如果您想要開始使用此附加元件，請聯絡您的Adobe客戶團隊。
+引導式分析屬於Adobe Product Analytics的一部分，是Customer Journey Analytics的付費附加元件。 如果您想要開始使用此附加元件，請聯絡您的Adobe客戶團隊。
 
 +++
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 | 事件 | 量度 |
 | 使用者 | 人員 |
 | 屬性 | 維度 |
-| 值 | 維度項目 |
+| 值 | Dimension專案 |
 | 區段 | 篩選器 |
 
 {style="table-layout:auto"}
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 * **Analysis Workspace是以維度為中心的體驗。** 表格通常包含維度列，而欄通常是量度。 篩選條件可同時套用至列和欄，以取得所需的資料。
 
-* **引導式分析是以事件為中心的體驗。** 每個分析都從選取事件開始，然後可以新增維度和篩選器來調整該事件資料。
+* **引導式分析是事件和以使用者為中心的體驗。** 每個分析都從選取事件開始，然後可以新增維度和篩選器來調整該事件資料。
 
 ![Analysis Workspace和引導式分析檢視](assets/structure.png)
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
   ![Dimension置中](assets/dimension-centered.png)
 
-* 典型的以事件為中心的引導式分析方法會是：「有多少使用者檢視過首頁？」
+* 一般事件和以使用者為中心的引導式分析方法會是：「有多少使用者造訪過我們的首頁？」
 
   ![以事件為中心](assets/event-centered.png)
 
