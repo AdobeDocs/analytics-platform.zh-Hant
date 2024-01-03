@@ -1,14 +1,14 @@
 ---
 title: 如何在Customer Journey Analytics中選取Report Builder中的資料範圍
 description: 說明如何在Report Builder中使用行事曆、滾動日期和自訂運算式進行Customer Journey Analytics
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1091'
 ht-degree: 89%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 89%
 | tm-1d | 前一個月的最後一天 |
 | td-52w | 52 週前的同一天 |
 | tm-11m-1d | 去年同一個月的最後一天 |
-| “2020-09-06” | 2020 年 9 月 9 日 |
+| 「2020-09-06」 | 2020 年 9 月 9 日 |
 
 ## 儲存格的日期範圍
 

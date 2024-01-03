@@ -1,23 +1,23 @@
 ---
 title: 什麼是 Report Builder 中受限制的標籤
 description: 說明 Report Builder 中受限制的標籤
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 57%
+source-wordcount: '323'
+ht-degree: 70%
 
 ---
 
 # Report Builder 中受限制的標籤
 
-一般 Customer Journey Analytics 中的任何資料控管相關設定是從 Adobe Experience Platform 繼承的。Customer Journey Analytics與Adobe Experience Platform資料控管之間的整合可讓您標示敏感的Customer Journey Analytics資料強制執行隱私權原則。
+一般 Customer Journey Analytics 中的任何資料控管相關設定是從 Adobe Experience Platform 繼承的。Customer Journey Analytics 和 Adobe Experience Platform Data Governance 整合後，便可以標記敏感的 Customer Journey Analytics 資料以及執行隱私權原則。
 
-在Experience Platform使用的資料集上建立的隱私權標籤和原則，可以在Customer Journey Analytics資料檢視工作流程中顯示。 這些標籤會阻止或警告從敏感性欄位建立量度和/和維度的使用者。如需資料集的資訊，請參閱 [資料集總覽](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant)。
+在 Experience Platform 使用的資料集上所建立的隱私權標籤和原則，可以出現在 Customer Journey Analytics 資料檢視工作流程中。這些標籤會阻止或警告從敏感性欄位建立量度和/和維度的使用者。如需資料集的資訊，請參閱 [資料集總覽](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant)。
 
 此外，從Customer Journey Analytics （透過報告、匯出、API等）匯出資料時，便會新增警告或標籤，以通知使用者報告包含需要以特定方式處理敏感性資訊。
 

@@ -1,15 +1,15 @@
 ---
 title: 如何在Report Builder中選取資料檢視
 description: 說明如何在Adobe Report Builder中選取資料檢視
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 3%
+source-wordcount: '357'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 您可以從下拉式清單中選取資料檢視，或從儲存格中選取資料檢視，並使用新的資料檢視自動更新資料區塊。
 
-**選取來自儲存格的資料檢視**
+**從儲存格選取資料檢視**
 
 從儲存格中選取資料檢視，可讓您使用不同的資料檢視輕鬆重新整理資料區塊。 如果您的組織有多個結構上相似或相同的資料檢視，您就可以使用從儲存格中選取的資料檢視重新整理資料區塊，而不是使用個別資料區塊建立全新的報表。 如果您有包含自訂元件和配置圖的複雜資料區塊格式，這也很有幫助。
 

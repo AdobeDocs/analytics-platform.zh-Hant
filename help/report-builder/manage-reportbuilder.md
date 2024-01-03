@@ -1,15 +1,15 @@
 ---
 title: 如何在 Customer Journey Analytics 中使用 Report Builder 管理資料區塊
 description: 說明如何在 Report Builder 中使用管理功能
-role: Data Engineer, Data Architect, Admin, User
+role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: 49a35a256758b259dfb2133658bae617315774e4
+source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 73%
+ht-degree: 71%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 73%
 
 <img src="./assets/refresh-icon.png" width="15%" alt="重新整理圖示"/>
 
-若要確認某個資料區塊是否已重新整理，請按一下重新整理狀態圖示。 
+若要確認資料區塊是否已重新整理，請檢視重新整理狀態圖示。
 
 成功重新整理的資料區塊會以綠色圓圈顯示核取記號： <img src="./assets/refresh-success.png" width="5%" alt="綠色圓圈加上核取記號圖示"/>。
 
