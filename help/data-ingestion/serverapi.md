@@ -4,10 +4,11 @@ description: 說明如何透過Adobe Experience Platform Edge Network Server API
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+role: Admin
+source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
 workflow-type: tm+mt
-source-wordcount: '2353'
-ht-degree: 60%
+source-wordcount: '2351'
+ht-degree: 59%
 
 ---
 
@@ -100,6 +101,10 @@ ht-degree: 60%
    ![範例結構新增欄位按鈕](./assets/example-gamingschema-plus.png)
 
 1. 在 [!UICONTROL 欄位屬性] 面板，輸入 `identification` 作為 [!UICONTROL 欄位名稱]， **[!UICONTROL 識別]** 作為 [!UICONTROL 顯示名稱]，選取 **[!UICONTROL 物件]** 作為 [!UICONTROL 型別] 並選取 **[!UICONTROL ExperienceEvent Core v2.1]** 作為 [!UICONTROL 欄位群組].
+
+   >[!NOTE]
+   >
+   >如果該欄位群組無法使用，請尋找另一個包含身分欄位的欄位群組。 或 [建立新的欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) 和 [新增身分欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (按讚 `ecid`， `crmId`，以及您所需的其他欄位群組)並選取該新欄位群組。
 
    ![識別物件](./assets/identification-field-gaming.png)
 
@@ -227,7 +232,7 @@ ht-degree: 60%
 
 您的資料流現在已設定為將從遊戲中收集的資料轉送到Adobe Experience Platform中的資料集。
 
-請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
+請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=en)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
 ## 使用Edge Network Server API
 
@@ -375,4 +380,4 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
 >[!SUCCESS]
 >
->您已完成所有步驟。首先定義您要收集哪些資料（結構描述），以及要將資料儲存在Adobe Experience Platform中的何處（資料集）。您已在Edge Network上設定資料串流，以確保資料可轉送至該資料集。 接著您使用Edge Network Server API將該資料傳送至資料流。 您定義了Customer Journey Analytics連線，以便使用您的遊戲資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，並最終建立您的第一個專案，以視覺化呈現和分析您的遊戲資料。
+>您已完成所有步驟。首先定義您要收集哪些資料（結構描述），以及要將資料儲存在Adobe Experience Platform中的何處（資料集）。 您已在Edge Network上設定資料串流，以確保資料可轉送至該資料集。 接著您使用Edge Network Server API將該資料傳送至資料流。 您定義了Customer Journey Analytics連線，以便使用您的遊戲資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，並最終建立您的第一個專案，以視覺化呈現和分析您的遊戲資料。

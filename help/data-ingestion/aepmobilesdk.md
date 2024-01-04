@@ -4,10 +4,11 @@ description: 說明如何透過Adobe Experience Platform Mobile SDK和Edge Netwo
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+role: Admin
+source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
 workflow-type: tm+mt
-source-wordcount: '3435'
-ht-degree: 61%
+source-wordcount: '3385'
+ht-degree: 60%
 
 ---
 
@@ -100,6 +101,10 @@ ht-degree: 61%
    ![範例結構新增欄位按鈕](./assets/example-mobileschema-plus.png)
 
 1. 在 [!UICONTROL 欄位屬性] 面板，輸入 `identification` 作為 [!UICONTROL 欄位名稱]， **[!UICONTROL 識別]** 作為 [!UICONTROL 顯示名稱]，選取 **[!UICONTROL 物件]** 作為 [!UICONTROL 型別] 並選取 **[!UICONTROL ExperienceEvent Core v2.1]** 作為 [!UICONTROL 欄位群組].
+
+   >[!NOTE]
+   >
+   >如果該欄位群組無法使用，請尋找另一個包含身分欄位的欄位群組。 或 [建立新的欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) 和 [新增身分欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (按讚 `ecid`， `crmId`，以及您所需的其他欄位群組)並選取該新欄位群組。
 
    ![識別物件](./assets/identification-field-mobile.png)
 
@@ -258,7 +263,7 @@ ht-degree: 61%
 
 若要建立和設定Adobe Experience Platform Mobile SDK擴充功能：
 
-1. 選取左側邊欄中的&#x200B;**[!UICONTROL 「擴充功能」]**。您會看到行動核心和設定檔擴充功能已經可用。
+1. 選取 **[!UICONTROL 擴充功能]** 在左側邊欄中。 您會看到行動核心和設定檔擴充功能已經可用。
 
 1. 在頂端列中選取 **[!UICONTROL 「目錄」]**。
 
@@ -276,9 +281,9 @@ ht-degree: 61%
 
 您也想從目錄中設定下列其他擴充功能：
 
-- 身分.
+- 身分。
 - AEP保證。
-- 同意.
+- 同意。
 
 另請參閱 [設定標籤屬性](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=en) 在Experience Platform的行動應用程式教學課程中，取得擴充功能及其設定的詳細資訊。
 

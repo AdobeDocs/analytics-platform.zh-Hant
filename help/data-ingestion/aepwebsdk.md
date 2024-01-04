@@ -4,10 +4,11 @@ description: 說明如何透過 Adobe Experience Platform Web SDK 和 Edge Netwo
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
 workflow-type: tm+mt
-source-wordcount: '3616'
-ht-degree: 85%
+source-wordcount: '3603'
+ht-degree: 84%
 
 ---
 
@@ -100,6 +101,10 @@ ht-degree: 85%
    ![範例結構新增欄位按鈕](./assets/example-schema-plus.png)
 
 1. 在[!UICONTROL 「欄位屬性」]面板中，輸入 `Identification` 作為名稱，**[!UICONTROL 「識別」]**&#x200B;作為[!UICONTROL 顯示名稱]，選取&#x200B;**[!UICONTROL 「物件」]**&#x200B;作為[!UICONTROL 類型]，並選取&#x200B;**[!UICONTROL 「ExperienceEvent 核心 v2.1」]**&#x200B;作為[!UICONTROL 欄位群組]。
+
+   >[!NOTE]
+   >
+   >如果該欄位群組無法使用，請尋找另一個包含身分欄位的欄位群組。 或 [建立新的欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) 和 [新增身分欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (按讚 `ecid`， `crmId`，以及您所需的其他欄位群組)並選取該新欄位群組。
 
    ![識別物件](./assets/identification-field.png)
 
@@ -227,7 +232,7 @@ ht-degree: 85%
 
 您的資料流現在已設定為將從您網站收集的資料轉送至 Adobe Experience Platform 中的資料集。
 
-請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
+請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=en)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
 
 
