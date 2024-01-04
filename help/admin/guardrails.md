@@ -4,9 +4,9 @@ description: 瞭解Customer Journey Analytics的護欄
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: affe7fe57ba59a15458263afabe2715d4c5da5fe
+source-git-commit: f436084d71f19e9cf3dd67287e510e07586d58f6
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1478'
 ht-degree: 10%
 
 ---
@@ -210,8 +210,9 @@ ht-degree: 10%
 | Adobe Analytics來源聯結器以連線到即時客戶設定檔（A4T未啟用） | &lt; 2分鐘 |
 | Adobe Analytics來源聯結器以連線到即時客戶個人檔案（A4T已啟用） | &lt; 30分鐘 |
 | 資料從Edge Network擷取至Data Lake或串流擷取 | &lt; 60分鐘 |
-| 資料從Adobe Analytics來源聯結器擷取至資料湖 | &lt; 90分鐘 |
+| 資料從Adobe Analytics來源聯結器擷取至資料湖 | &lt; 2.25小時 |
 | 從資料湖將資料擷取至Customer Journey Analytics | &lt; 90分鐘 |
+| 拼接(選擇性功能；請參閱 [拼接概述](../stitching/overview.md) 以取得詳細資訊) | &lt; 3.25小時 |
 | Adobe Analytics來源聯結器回填少於100億個事件（最多13個月的歷史資料） | &lt; 4週 |
 | 對象發佈至即時客戶設定檔，包括自動建立串流區段並允許該區段準備接收資料。 | ≈ 60分鐘 |
 | 對象的重新整理頻率 | 一次性重新整理：延遲少於5分鐘。<br/>每4小時、每日、每週、每月重新整理一次（延遲與重新整理頻率同時發生）。 |
