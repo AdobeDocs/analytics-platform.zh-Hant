@@ -3,10 +3,11 @@ description: 依標籤、擁有者和其他篩選器（「全部顯示」、「�
 title: 篩選篩選器清單
 feature: Filters
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 30%
+source-wordcount: '187'
+ht-degree: 25%
 
 ---
 
@@ -31,5 +32,5 @@ ht-degree: 30%
    | 其他篩選器 > 我的 | 顯示您擁有的所有篩選器。 |
    | 其他篩選器 > 與我共用 | 顯示其他人的所有篩選器 [已共用](/help/components/filters/filters-share.md) 與您。 |
    | 其他篩選條件 > 我的最愛 | 顯示所有標示為的篩選器 [我的最愛](/help/components/filters/filters-favorite.md). |
-   | 其他篩選條件 > 批准 | 顯示所有已正式[核准](/help/components/filters/filters-approve.md)的區段。 |
+   | 其他篩選條件 > 批准 | 全部正式顯示 [已核准](/help/components/filters/filters-approve.md) 區段。 |
    | 搜尋區段 | 可讓您依名稱來搜尋區段。 |

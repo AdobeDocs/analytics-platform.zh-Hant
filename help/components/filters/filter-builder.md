@@ -3,10 +3,11 @@ description: 篩選器產生器提供的畫布可用來拖放量度Dimension、�
 title: 建立篩選器
 feature: Filters
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 24%
+source-wordcount: '1255'
+ht-degree: 21%
 
 ---
 
@@ -36,16 +37,16 @@ ht-degree: 24%
 | **[!UICONTROL 說明]** | 提供篩選的詳細說明。 |
 | **[!UICONTROL 標記]** | [標籤篩選器](/help/components/filters/manage-filters.md) 您是從現有標籤清單中挑選標籤或建立新標籤來建立。 |
 | **[!UICONTROL 定義]** | 這裡是您 [建立及設定篩選器](/help/components/filters/filters-overview.md)，新增規則，以及巢狀內嵌和排序容器。 |
-| **[!UICONTROL 包括]** | (頂層容器選擇器.) 讓您選取頂層 [容器](/help/components/filters/filters-overview.md) ( [!UICONTROL 個人]， [!UICONTROL 工作階段]， [!UICONTROL 事件])。 預設的頂層容器為「事件」容器。 |
+| **[!UICONTROL 包括]** | （頂端容器選擇器。） 讓您選取頂層 [容器](/help/components/filters/filters-overview.md) ( [!UICONTROL 個人]， [!UICONTROL 工作階段]， [!UICONTROL 事件])。 預設的頂層容器為「事件」容器。 |
 | **[!UICONTROL 選項]** | （齒輪）圖示 | <ul><li>**[!UICONTROL +新增容器]**：可讓您新增容器（在頂層容器下）至篩選定義。</li><li>**[!UICONTROL 排除]**：可讓您透過排除一或多個維度、篩選器或量度來定義篩選器。</li></ul> |
 | **[!UICONTROL 維度]** | 從「Dimension」清單拖放過來的元件（橘色側欄）。 |
-| **[!UICONTROL 運算子]** | 您可以使用選取的運算子來比較和限制值。（等於、不等於、包含、包含全部等） |
+| **[!UICONTROL 運算子]** | 您可以使用選取的運運算元來比較和限制值。 （等於、不等於、包含、包含全部等） |
 | **[!UICONTROL 值]** | 您針對維度、篩選器或量度所輸入或選取的值。 |
 | **[!UICONTROL 歸因模型]** | 這些模型僅適用於維度，可決定要篩選的維度值。 Dimension模型在循序篩選中特別有用。<ul><li>**[!UICONTROL 重複]** (預設值)：包含維度的例項和持續值。</li><li>**[!UICONTROL 例項]**：包含維度的例項。</li><li>**[!UICONTROL 非重複例項]**：包含維度的唯一例項 (非重複)。這是在排除重複例項時套用於「流量」中的模型。</li></ul>如需範例，請參閱下方的「歸因模型」一節。 |
-| **[!UICONTROL And/Or/Then]** | 指派容器或規則之間的 [!UICONTROL AND/OR/THEN] 運算子。THEN 運算子可讓您 [定義循序篩選器](/help/components/filters/filters-overview.md). |
+| **[!UICONTROL And/Or/Then]** | 指派容器或規則之間的 [!UICONTROL AND/OR/THEN] 運算子。THEN運運算元可讓您 [定義循序篩選器](/help/components/filters/filters-overview.md). |
 | **[!UICONTROL 量度]** | （綠色側欄）從量度清單拖放過來的量度。 |
 | **[!UICONTROL X]** | （刪除）可用來刪除這個部分的篩選定義。 |
-| **[!UICONTROL 透過篩選器建立對象]** | 從篩選器建立受眾時，可讓您與Adobe Experience Platform共用篩選器以供啟用。 [了解更多...](/help/components/audiences/audiences-overview.md) |
+| **[!UICONTROL 從篩選器建立對象]** | 從篩選器建立受眾時，可讓您與Adobe Experience Platform共用篩選器以供啟用。 [了解更多...](/help/components/audiences/audiences-overview.md) |
 | **[!UICONTROL 搜尋元件]** | 搜尋維度、篩選器或量度清單。 |
 | **[!UICONTROL 維度]** | （清單）可包含在篩選器中的維度清單。 按一下標題以展開。 |
 | **[!UICONTROL 量度]** | 您可以納入篩選器中的量度清單。 按一下標題以展開。 |

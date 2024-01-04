@@ -1,13 +1,14 @@
 ---
 title: 使用情況檢視
-description: 測量使用者在一段時間內的參與度.
+description: 測量一段時間內的使用者參與。
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 2%
+source-wordcount: '702'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +42,7 @@ ht-degree: 2%
 * **[!UICONTROL 量度]**：您要測量的量度。 選項包括事件、工作階段、使用者、每個工作階段的事件，以及每個使用者的事件。
 * **[!UICONTROL 圖表型別]**：您要使用的視覺效果型別。 選項包括折線圖、橫條圖、棧疊橫條圖和棧疊區域圖。
 
-## 重疊
+## 覆蓋
 
 新增其他資料至圖表。 當圖表上顯示多個序列時，覆蓋圖只會顯示在暫留中。
 

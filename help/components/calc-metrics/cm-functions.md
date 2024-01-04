@@ -3,10 +3,11 @@ title: 參考資料 - 基本函數
 description: 計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
-source-git-commit: 3348117a5a6007017735a95aec26e6a8c88ad248
-workflow-type: ht
-source-wordcount: '1044'
-ht-degree: 100%
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '1078'
+ht-degree: 98%
 
 ---
 
@@ -320,4 +321,4 @@ VARIANCE(metric)
 
 3
 
-欄平均值為 2。欄的變數將會是 ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3。
+欄平均值為 2。欄的變數將會是((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3。

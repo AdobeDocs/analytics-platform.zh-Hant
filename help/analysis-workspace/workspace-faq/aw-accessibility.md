@@ -3,10 +3,11 @@ description: Analysis Workspace 的協助工具支援功能
 title: Analysis Workspace 的協助工具
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 96%
+source-wordcount: '605'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 96%
 
 [!UICONTROL Analysis Workspace] 中的導覽可由上至下、由左至右運作。以下是可輔助協助工具的導覽元素：
 
-* `Tab` 鍵可讓您找出快速鍵，在 Workspace 內的較大區段之間移動。 在左側欄中，`Tab` 也可讓您在不同的可拖曳選項之間移動。
+* 此 `Tab` 鍵可讓您找出快速鍵，在工作區中較大的區段之間移動。 在左側欄中，`Tab` 也可讓您在不同的可拖曳選項之間移動。
 * 在 `Tab` 標示 `left/right arrows` 之後，它就會在個別元素之間移動。
 * `F6` 會瀏覽至專案中的第一個面板，並在該面板內的視覺化效果之間移動。 然後它會移到專案中的下一個面板，然後重複此程序。
 * 我們套用了焦點指標，讓視力不佳的鍵盤使用者能夠清楚看出目前取得焦點的 UI 元素。此指標是選定元素周圍的藍色邊框。

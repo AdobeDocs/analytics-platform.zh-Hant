@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: 查詢服務；查詢服務；sql語法
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 68%
+source-wordcount: '839'
+ht-degree: 64%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics Adobe Experience Platform假設您透過 [Analytics來源聯結�
 
 >[!NOTE]
 >
->這僅適用於一般中值資料集，而非拼接資料集 (透過[跨管道分析](/help/cca/overview.md))。請注意，在Customer Journey Analytics中使用的人員ID帳戶處理對於讓比較發揮作用至關重要。 在Adobe Analytics中復寫並不總是那麼容易，尤其是在已開啟銜接的情況下。
+>這僅適用於一般中值資料集，不適用於拼接資料集(透過 [拼接](/help/stitching/overview.md))。 請注意，在Customer Journey Analytics中使用的人員ID帳戶處理對於讓比較發揮作用至關重要。 在Adobe Analytics中復寫並不總是那麼容易，尤其是在已開啟銜接的情況下。
 
 1. 在 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)中，執行以下[!UICONTROL 依時間戳記區分的記錄總數]查詢：
 

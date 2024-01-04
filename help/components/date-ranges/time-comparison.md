@@ -3,10 +3,11 @@ description: Analysis Workspace 中的「日期比較」可讓您挑選任何含
 title: 日期比較
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 87%
+source-wordcount: '740'
+ht-degree: 86%
 
 ---
 
@@ -55,7 +56,7 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 
 您現在可以在表格的每個欄中新增時段，以新增不同於行事曆設定的時段。這是另一種比較日期的方式。
 
-1. 以滑鼠右鍵按一下表格中的一欄，然後選取「**[!UICONTROL 新增時段欄」]**![反白顯示「新增時段欄」的表格欄清單 ](assets/add-time-period-column.png)
+1. 以滑鼠右鍵按一下表格中的欄並選取「 」 **[!UICONTROL 新增時段欄]** ![反白顯示「新增時段欄」的表格欄清單 ](assets/add-time-period-column.png)
 
 1. 您有以下這些比較選項，取決於您如何設定表格的日期範圍：
 

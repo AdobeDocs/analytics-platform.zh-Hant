@@ -4,7 +4,8 @@ description: 允許您為量度設定預設歸因。
 exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: 485160fe362330bafbc07f958c4ada51d4d30089
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '2030'
 ht-degree: 28%
@@ -78,7 +79,7 @@ ht-degree: 28%
 | ![反向J](../assets/attribution-models/inverse_j.png) | 反向 J | 會將 60% 的評分給予第一個接觸點，再將 20% 的評分給予上個接觸點，剩下的 20% 則分給兩者之間的任何接觸點。只有單一接觸點的轉換則會獲得 100% 的評分。如果是具有兩個接觸點的轉換，第一次互動會獲得75%的評分，上次則獲得25%。 此歸因模型類似於J形，偏好第一次和最後一次互動，但較偏好第一次互動。 |
 | ![時間耗損](../assets/attribution-models/time_decay.png) | 時間耗損 | 會以自訂的半衰期參數 (預設為 7 天) 進行指數耗損。每個管道的權重須視接觸點啟動和最終轉換之間所經過的時間量而定。用於判斷評分的公式為 `2^(-t/halflife)`，`t` 代表接觸點和轉換之間的時間量。 所有接觸點隨後都會標準化為100%。 最適合您要針對特定且重要事件測量歸因的情況。 在此事件之後發生轉換的時間越長，獲得的評分就越少。 |
 | ![自訂](../assets/attribution-models/custom.png) | 自訂 | 可讓您指定要賦予給第一個接觸點、最後一個接觸點以及兩者之間的任何接觸點的權重。 如果您輸入的自訂數字加總並非 100，系統也會將指定值標準化為 100%。只有單一接觸點的轉換則會獲得 100% 的評分。如果是具有兩個接觸點的互動，系統會忽略中間參數，然後將第一個和最後一個接觸點標準化為100%，再據此指派評分。 如果您想要完整控制歸因模型，且具有其他歸因模型無法滿足的特定需求，則這個模型是分析師的理想選擇。 |
-| ![演算法](../assets/attribution-models/algorithmic.png) | 演算法 | 使用統計技術動態判斷所選量度的最佳評分配置。 用於歸因的演算法以合作賽局理論中的 Harsanyi 利益為基礎。Harsanyi 利益是 Shapley 值解法 (命名自諾貝爾經濟學獎得主 Lloyd Shapley) 的泛論，即在一場對結果貢獻不均等的賽局中，在玩家之間分配評分。<br>歸因的高層級計算方式為必須均等分配盈餘的玩家聯盟。 每個聯盟的盈餘分配則根據每個子聯盟先前產生的盈餘（或先前參與的維度專案）遞回決定。 如需詳細資訊，請參閱John Harsanyi和Lloyd Shapley的原稿：<br>夏普利，勞埃德(1953)。 A value for n-person games。*Contributions to the Theory of Games, 2(28)*, 307-317。<br>夏仙怡，約翰(1963)。 A simplified bargaining model for the n-person cooperative game。*International Economic Review 4(2)*, 194-220。 |
+| ![演算法](../assets/attribution-models/algorithmic.png) | 演算法 | 使用統計技術動態判斷所選量度的最佳評分配置。 用於歸因的演算法以合作賽局理論中的 Harsanyi 利益為基礎。Harsanyi 利益是 Shapley 值解法 (命名自諾貝爾經濟學獎得主 Lloyd Shapley) 的泛論，即在一場對結果貢獻不均等的賽局中，在玩家之間分配評分。<br>歸因的高層級計算方式為必須均等分配盈餘的玩家聯盟。 每個聯盟的盈餘分配則根據每個子聯盟先前產生的盈餘（或先前參與的維度專案）遞回決定。 如需詳細資訊，請參閱John Harsanyi和Lloyd Shapley的原稿：<br>Shapley，勞埃德(Lloyd S.) （1953年）。 A value for n-person games。*Contributions to the Theory of Games, 2(28)*, 307-317。<br>Harsanyi， John C. （1963年）。 A simplified bargaining model for the n-person cooperative game。*International Economic Review 4(2)*, 194-220。 |
 
 {style="table-layout:auto"}
 

@@ -3,13 +3,14 @@ title: 工作階段設定
 description: 您可使用資料檢視中的設定來定義工作階段長度，並定義啟動新工作階段的觸發器
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: bb2061f9119b8391bf3cedce4029685537d1e239
+exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
-
 
 # 工作階段設定
 
@@ -45,4 +46,3 @@ ht-degree: 100%
 
 
 4. 選取「**[!UICONTROL 儲存]**」或「**[!UICONTROL 儲存並完成]**」，以儲存工作階段設定定義。
-

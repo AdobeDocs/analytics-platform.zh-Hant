@@ -3,10 +3,11 @@ title: 篩選器管理器
 description: 瞭解如何在 Customer Journey Analytics 中管理篩選器
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
-source-git-commit: 8e04cdf67a365cb229660223547d60a4b8991f36
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 24%
+source-wordcount: '676'
+ht-degree: 20%
 
 ---
 
@@ -63,7 +64,7 @@ ht-degree: 24%
    | 標記 (未在欄選擇器中勾選，因此此欄不會出現) | 由您或共用篩選器給您的人員對篩選器套用的標記。 |
    | 共用對象 | 列出您共用篩選器的目標個人或群組 (僅限管理員使用) 或「全部」(僅限管理員使用)。 <p>當您共用篩選器或與您共用時，篩選器名稱旁會顯示共用圖示。</p> |
    | 修改日期 | 顯示上次修改篩選器的日期。 |
-   | 使用於 | 顯示篩選目前使用的元件數目。 <p>例如，如果篩選器用於40個專案和2個警報，則此欄的值顯示為 [!UICONTROL **42個元件**].</p> <p>選取此欄中的值，以檢視使用篩選器的劃分(例如， [!UICONTROL **專案(40)**]， [!UICONTROL **警報(2)**])。</p><p>篩選器可用於下列任何元件型別：</p> <ul><li>計算量度</li><li>專案</li><li>已排程的專案</li></ul><p>此資訊可協助您判斷某個元件對組織中的使用者是否有價值、其使用之處，以及是否需要刪除或修改。</p><p>檢視此欄時，請考量下列事項：</p><ul><li>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</li><li>此 [!UICONTROL **使用位置**] 預設不會顯示欄。 [設定欄](#configure-columns) 以顯示。</li><li>如果此欄中沒有指定元件的資料，但它有 [!UICONTROL **上次使用日期**] 日期，元件可能已用於分析中而未儲存。</li></ul><p>您可以使用 [資料字典](/help/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。</p> |
+   | 使用於 | 顯示篩選目前使用的元件數目。 <p>例如，如果篩選器用於40個專案和2個警報，則此欄的值顯示為 [!UICONTROL **42個元件**].</p> <p>選取此欄中的值，以檢視使用篩選器的劃分(例如， [!UICONTROL **專案(40)**]， [!UICONTROL **警報(2)**])。</p><p>篩選器可用於下列任何元件型別：</p> <ul><li>計算量度</li><li>專案</li><li>已排程的專案</li></ul><p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。</p><p>檢視此欄時，請考量下列事項：</p><ul><li>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</li><li>此 [!UICONTROL **使用位置**] 預設不會顯示欄。 [設定欄](#configure-columns) 以顯示。</li><li>如果此欄中沒有指定元件的資料，但它有 [!UICONTROL **上次使用日期**] 日期，元件可能已用於分析中而未儲存。</li></ul><p>您可以使用 [資料字典](/help/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。</p> |
    | 上次使用 | 顯示上次在下列任何元件型別中使用篩選器的日期： <ul><li>計算量度</li><li>專案</li><li>已排程的專案</li><li>篩選器</li></ul> <p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值，或是否應將其刪除。</p><p>檢視此欄時，請考量下列事項：</p><ul><li>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</li><li>對於某些元件，如果元件是在2023年9月之前最後一次使用，則此欄可能不包含資料。</li></ul><p>您可以使用 [資料字典](/help/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。 |
 
    {style="table-layout:auto"}

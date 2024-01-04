@@ -1,13 +1,14 @@
 ---
 title: 使用中檢視
-description: 識別哪些人是新的、保留的、回訪的或非活躍的使用者.
-exl-id: 0a300bb2-7620-4e29-a6b5-542476893009
+description: 識別新人、保留人、回訪者或休眠者。
+exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: 35e009ca6c21754fe7127fe63eea41f8ed00943d
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 2%
+source-wordcount: '597'
+ht-degree: 1%
 
 ---
 

@@ -6,10 +6,11 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 exl-id: 8820a093-e573-45f9-bcd2-0933e21c231b
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 2%
+source-wordcount: '726'
+ht-degree: 0%
 
 ---
 
@@ -73,13 +74,13 @@ ht-degree: 2%
 
         在 [!UICONTROL 使用範例值進行實驗] 對話方塊中，會顯示一個表格，其範例值為 [!UICONTROL timestamp]， [!UICONTROL 永久ID]， [!UICONTROL 暫時ID]， [!UICONTROL 彙整ID （即時）]， [!UICONTROL 彙整ID （1天重播）]、和 [!UICONTROL 彙整ID （7天重播）].
 
-            ![具有樣本值的實驗](./assets/experiment-sample-values.png)
+            ！[實驗範例值](./assets/experiment-sample-values.png)
             
             1.  輸入**的值[!UICONTROL **永久ID**]**。
             
             2.  選取**[!UICONTROL **重新整理拼接ID**]**一下以檢視彙整程式對資料集中資料的影響。
             
-            3.選取**[!UICONTROL **關閉**]**當您完成範例值的實驗時。
+            3.  選取**[!UICONTROL **關閉**]**當您完成範例值的實驗時。
         
 
         返回 [!UICONTROL 拼接資料集> _資料集名稱_] 畫面：
@@ -109,8 +110,8 @@ ht-degree: 2%
   | 值 | 解釋 |
   |-----|-----|
   | **[!UICONTROL **&#x200B;已排入佇列&#x200B;**]** | 已收到請求，很快就會處理。 |
-  | **[!UICONTROL **&#x200B;正在建立&#x200B;**]** | 正在建立資源和新拼接的資料集。 |
-  | **[!UICONTROL **&#x200B;正在拼接&#x200B;**]** | 資源和拼接的資料集存在，拼接正在進行中 |
+  | **[!UICONTROL **&#x200B;建立&#x200B;**]** 進行中 | 正在建立資源和新拼接的資料集。 |
+  | **[!UICONTROL **&#x200B;拼接進行中&#x200B;**]** | 資源和拼接的資料集存在，拼接正在進行中 |
   | **[!UICONTROL **&#x200B;錯誤&#x200B;**]** | 銜接時發生問題。 可能是結構描述在來源資料集和拼接資料集之間變更，每日數量太大或…… (_**此處需要更多資訊……**_) |
 
   >[!INFO]

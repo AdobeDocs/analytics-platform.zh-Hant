@@ -2,10 +2,12 @@
 description: 您可以將篩選器和整個組織、群組或個別使用者 (視您的權限而定) 共用。
 title: 共用篩選器
 feature: Filters
-source-git-commit: 620f190e8b8a6947af019ee1e39c7db8614a5502
+exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 97%
+source-wordcount: '280'
+ht-degree: 96%
 
 ---
 
@@ -31,6 +33,6 @@ ht-degree: 97%
 
 1. 在篩選器管理工具列中，按一下「**[!UICONTROL 共用]**」。
 
-1. 如果您是管理員，可以選取「全部」或選取貴組織中的「群組」和「使用者」。身為非管理員，您只能看見個人使用者。使用「搜尋」欄位來搜尋群組或使用者。按一下「**[!UICONTROL 共用]**」。「已共用」圖示會出現在該篩選器旁：![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+1. 如果您是管理員，可以選取「全部」或選取貴組織中的「群組」和「使用者」。身為非管理員，您只能看見個人使用者。使用「搜尋」欄位來搜尋群組或使用者。按一下「**[!UICONTROL 共用]**」。「共用」圖示會出現在篩選器旁： ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
 1. 您可以前往「篩選 > 其他篩選器 > 已和我共用」，依已和您共用的篩選器來篩選。

@@ -4,10 +4,11 @@ description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 91%
+source-wordcount: '1360'
+ht-degree: 90%
 
 ---
 
@@ -130,5 +131,5 @@ Adobe Experience Platform 中的結構描述包含「[!UICONTROL 日期]」和�
 * 日期-時間：零售公司正在收集店內銷售點 (POS) 每次購買的時間。在指定的月份內，他們可能想要依[!UICONTROL 當天特定時間]，了解做防鰻的購物期間。
 
 >[!MORELIKETHIS]
->[在格式元件設定](/help/data-views/component-settings/format.md)中的日期和日期-時間
+>[格式元件設定中的日期和日期 — 時間](/help/data-views/component-settings/format.md)
 

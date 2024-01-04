@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1974'
 ht-degree: 3%
 
 ---
@@ -69,7 +70,7 @@ ht-degree: 3%
    | 資料表 | 顯示您正在匯出的自由表格。 您可以從左側邊欄將元件拖曳至表格來修改資料表格。 表格會在您新增元件至畫布時動態更新。  <p>套用至專案中完整表格的任何區段都會顯示在表格中每個個別欄的頂端。</p> |
    | 清除 | 清除資料表的內容。 這可讓您直接在「新增完整表格」匯出對話方塊中開始建立新表格。 |
    | 匯出頻率 | 設定匯出發生的頻率排程。 <p>您可以選擇 [!UICONTROL **立即傳送（一次）**] 僅傳送一次匯出。 選取此選項時，會立即起始匯出。<p>或者，您可以選擇按照定義的排程傳送匯出。 依排程傳送時，選項包括 [!UICONTROL **每日**]， [!UICONTROL **每週**]， [!UICONTROL **按一週的第幾天，每月一次**]， [!UICONTROL **每月按日期**]， [!UICONTROL **每年按日期**]、和 [!UICONTROL **每年依特定日期**]. </p><p>選取匯出頻率時，請考量下列事項：</p><ul><li>中的選項 [!UICONTROL **回顧期間**] 欄位會依您在此選取的專案而變更。<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>系統會根據您選擇的選項，顯示其他設定欄位。</li></ul> |
-   | 開始於 | 排程匯出應該開始的日期和時間。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
+   | 開始日期 | 排程匯出應該開始的日期和時間。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 結束日期 | 排定的匯出到期的日期和時間。 排定的匯出在您設定的日期和時間後不再執行。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 檔案格式 | 選擇匯出的資料應該是.csv還是.json格式。 |
    | 帳戶 | 選取您要傳送資料的雲端匯出帳戶。 <p>如需詳細資訊，請參閱 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md).</p> |
@@ -221,5 +222,5 @@ ht-degree: 3%
 | Azure | 有 | 有 |
 | Amazon S3 | 有 | 有 |
 | Google Cloud Platform | 有 | 有 |
-| Snowflake | 有 | 否 |
+| Snowflake | 有 | 無 |
 | 傳遞頻率 | 每日 | 每小時 |

@@ -3,10 +3,11 @@ title: 瞭解Customer Journey Analytics對象發佈概觀
 description: 了解 Customer Journey Analytics 中發佈對象的概念
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 54%
+source-wordcount: '493'
+ht-degree: 50%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 54%
 * 透過 Experience Platform 目的地功能，將對象匯出給第三方。
 * 使用衍生自Customer Journey Analytics中事件型資料的有用屬性，來擴充即時客戶個人檔案。
 * 在發佈對象後以最小的延遲完成所有這些動作。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)
-* 發佈單次對象或重複對象.
+* 發佈一次性對象或循環對象。
 
 您在Customer Journey Analytics中建立的對象不必以為設定檔啟用的資料集為基礎。 您可以將歷史資料擷取至Experience Platform，無需為設定檔啟用關聯的資料集和結構描述。 然後，使用這些資料集探索Customer Journey Analytics中的相關受眾，並將這些受眾發佈到Experience Platform中的即時客戶個人檔案以進行啟用。
 

@@ -2,14 +2,16 @@
 description: 在 Analysis Workspace 中使用量度有兩種方式。
 title: 量度
 feature: Components
-source-git-commit: 6f3ae14e4d34de17ed64ae30cee4611e4d6f3226
+exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 96%
 
 ---
 
-# 計劃的專案
+# 已排程的專案
 
 可在「**[!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 排程專案]**」中管理已排程 Analysis Workspace 專案。
 

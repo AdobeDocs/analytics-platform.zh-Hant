@@ -4,16 +4,17 @@ title: 日曆和日期範圍概述
 feature: Calendar
 solution: Customer Journey Analytics
 exl-id: 4afdc68b-97f8-4d8a-9d13-e2f3986873f1
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 76%
+source-wordcount: '895'
+ht-degree: 73%
 
 ---
 
 # 日曆和日期範圍概述
 
-您可以使用日曆指定日期和日期範圍，或選取預設集。 日期範圍是您可以在 Workspace 專案中使用的元件類型。它們讓您能看到資料的長期趨勢或事件最常發生的時間。日期範圍標示為紫色。自訂日期範圍可讓您自訂在 Workspace 專案中看到的日期。
+您可以使用日曆指定日期和日期範圍，或選取預設集。 日期範圍是您可以在 Workspace 專案中使用的元件類型。它們讓您能看到資料的長期趨勢或事件最常發生的時間。日期範圍標示為紫色。 自訂日期範圍可讓您自訂在Workspace專案中看到的日期。
 
 行事曆選取範圍會套用至面板層級，但您也可以選擇將其套用至所有面板。 按一下工作區中的日期範圍時，介面會顯示目前的日曆月份和上一個日曆月份。按一下這兩個日曆各自上方角落的向右和向左箭頭，即可進行調整。
 

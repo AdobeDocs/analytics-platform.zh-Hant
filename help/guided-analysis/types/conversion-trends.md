@@ -3,9 +3,11 @@ title: 轉換趨勢檢視
 description: 追蹤轉換率在一段時間內的變化。
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: a40cfa2498bed03c169eed10cea091574bf90730
+exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---

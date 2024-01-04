@@ -3,10 +3,11 @@ title: 篩選運算子
 description: 決定元件如何與篩選器中的值互動。
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 feature: Filters
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 94%
+source-wordcount: '600'
+ht-degree: 93%
 
 ---
 
@@ -38,7 +39,7 @@ ht-degree: 94%
 
 ## Distinct Count 運算子
 
-您可以依維度中專案的相異計數來篩選。 例如，您可以為檢視5個以上不重複產品或造訪（已檢視5個以上不重複頁面）的人員建立篩選器。
+您可以篩選維度內專案的不重複計數。 例如，您可以為檢視5個以上不重複產品的人或瀏覽過5個以上不重複頁面的造訪建立篩選器。
 
 | 運算子 | 說明 |
 | --- | --- |

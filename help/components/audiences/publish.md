@@ -3,9 +3,10 @@ title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1631'
 ht-degree: 57%
 
 ---

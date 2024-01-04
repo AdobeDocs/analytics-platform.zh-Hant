@@ -4,9 +4,10 @@ description: 說明如何在 Customer Journey Analytics 中擷取和使用批次
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
-source-git-commit: caf2db9ae0b550ce47fa196a955fcceddf8bf2b7
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1948'
 ht-degree: 87%
 
 ---
@@ -222,7 +223,7 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 - 當您的傳入資料與XDM結構描述不相容時，如何對應資料。
 - 使用對應範本，
 - 使用計算欄位以確保您的批次資料符合結構描述預期，
-- 及更多內容.
+- 及更多內容。
 
 
 ## 設定連線

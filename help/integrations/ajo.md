@@ -3,10 +3,11 @@ title: 將 Adobe Journey Optimizer 與 Customer Journey Analytics 整合
 description: 引進Adobe Journey Optimizer產生的資料，並在Customer Journey Analytics中使用Analysis Workspace加以分析。
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
-source-git-commit: 2429c60cab701017702e3312770232aa329e303c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 68%
+source-wordcount: '862'
+ht-degree: 63%
 
 ---
 
@@ -28,10 +29,10 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 
 | 資料集 | 資料集類型 | 連線設定 | 說明 |
 | --- | --- | --- | --- |
-| AJO訊息回饋事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含訊息傳遞事件，例如&#39;[!UICONTROL 傳送]&#39;和&#39;[!UICONTROL 跳出數]&#39;. |
-| AJO電子郵件追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含電子郵件追蹤事件，例如[!UICONTROL 開啟次數]&#39;， &#39;[!UICONTROL 點按次數]&#39;和&#39;[!UICONTROL 取消訂閱]&#39;. |
-| AJO推播追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含推播追蹤事件，例如[!UICONTROL 應用程式啟動次數]&#39;. |
-| 歷程步驟事件 | 事件 | 人員 ID: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 包含顯示哪些設定檔參與歷程每個節點的事件。 |
+| AJO訊息回饋事件資料集 | 事件 | 人員ID： `IdentityMap` | 包含訊息傳遞事件，例如&#39;[!UICONTROL 傳送]&#39;和&#39;[!UICONTROL 跳出數]&#39;. |
+| AJO電子郵件追蹤體驗事件資料集 | 事件 | 人員ID： `IdentityMap` | 包含電子郵件追蹤事件，例如[!UICONTROL 開啟次數]&#39;， &#39;[!UICONTROL 點按次數]&#39;和&#39;[!UICONTROL 取消訂閱]&#39;. |
+| AJO推播追蹤體驗事件資料集 | 事件 | 人員ID： `IdentityMap` | 包含推播追蹤事件，例如[!UICONTROL 應用程式啟動次數]&#39;. |
+| 歷程步驟事件 | 事件 | 人員ID： `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 包含顯示哪些設定檔參與歷程每個節點的事件。 |
 | AJO實體資料集 | 查詢 | 索引鍵： `_id`<br>比對索引鍵： `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 包含將Journey和Campaign中繼資料與所有Adobe Journey Optimizer事件資料建立關聯的分類。 |
 
 {style="table-layout:auto"}
@@ -75,7 +76,7 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 
 | 量度 | 說明 | 綱要元素 | 元件設定 |
 | --- | --- | --- | --- |
-| 退回數 | 退回的訊息數，包括立即退回和傳遞後退回。 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 元件類型：計量<br>包括排除值：如果任何條件滿足<br>等於：`bounce`，等於：`denylist` |
+| 退回數 | 跳出的訊息數，包括立即跳出和傳送後的跳出。 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 元件類型：計量<br>包括排除值：如果任何條件滿足<br>等於：`bounce`，等於：`denylist` |
 | 傳遞後退回 | 有些電子郵件服務會報告電子郵件已傳遞，然後再將其退回。 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.messageFailure.category` | 元件類型：計量<br>包括排除值：等於 `async` |
 | 電子郵件點擊計數 | 訊息內的點擊計數。 | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：計量<br>包括排除值：等於 `click` |
 | 電子郵件開啟次數 | 開啟的訊息數。 | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：計量<br>包括排除值：等於 `open` |

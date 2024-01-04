@@ -5,9 +5,11 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 hidefromtoc: true
-source-git-commit: ec2778396f5090fb2ce71a991aa7a7bcaa913762
+exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1755'
 ht-degree: 15%
 
 ---
@@ -22,10 +24,10 @@ ht-degree: 15%
 
 您可以考慮新增至連線的資料集：
 
-| 資料集 | 綱要 | 結構類型 | 基底類別 | 說明 |
+| 資料集 | 綱要 | 結構描述類型 | 基底類別 | 說明 |
 |---|---|---|---|---|
 | B2B活動資料集 | B2B活動結構描述 | 事件 | XDM ExperienceEvent | ExperienceEvent是所發生情況的事實記錄，包括時間點和所涉及個人的身分。 ExperienceEvents可以是明確的（可直接觀察的人類動作）或內隱的（在沒有直接人類動作的情況下引發），並且記錄時不會進行彙總或解譯。 它們對於時間網域分析至關重要，因為它們允許觀察和分析在給定時間範圍內發生的變化，並比較多個時間範圍以追蹤趨勢。 |
-| B2B個人資料集 | B2B個人綱要 | 設定檔 | XDM 個別設定檔 | XDM個人資料會形成已識別和部分識別個人的屬性和興趣的單一表示。 識別較少的設定檔可能僅包含匿名行為訊號，例如瀏覽器Cookie，而高度識別的設定檔可能包含詳細的個人資訊，例如姓名、出生日期、位置和電子郵件地址。 隨著個人檔案成長，它會成為個人資訊、身分資訊、聯絡詳細資料和個人通訊偏好設定的健全存放庫。 |
+| B2B個人資料集 | B2B個人綱要 | 設定檔 | XDM個別設定檔 | XDM個人資料會形成已識別和部分識別個人的屬性和興趣的單一表示。 識別較少的設定檔可能僅包含匿名行為訊號，例如瀏覽器Cookie，而高度識別的設定檔可能包含詳細的個人資訊，例如姓名、出生日期、位置和電子郵件地址。 隨著個人檔案成長，它會成為個人資訊、身分資訊、聯絡詳細資料和個人通訊偏好設定的健全存放庫。 |
 | B2B促銷活動成員資料集 | B2B促銷活動成員結構描述 | 查詢 | XDM商業活動會員 | XDM商業促銷活動成員是一個標準的體驗資料模型(XDM)類別，可描述與商業促銷活動相關聯的聯絡人或銷售機會。 |
 | B2B帳戶資料集 | B2B帳戶結構描述 | 查詢 | XDM商業帳戶 | XDM企業帳戶是一個標準的體驗資料模型(XDM)類別，可擷取企業帳戶的最低要求屬性。 |
 | B2B帳戶個人關係資料集 | B2B帳戶個人關係結構描述 | 查詢 | XDM商業帳戶個人關係 | XDM商業帳戶個人關係是一個標準的體驗資料模型(XDM)類別，可擷取與商業帳戶相關聯之個人的最低要求屬性。 |
@@ -307,4 +309,3 @@ The B2B Marketing List Member dataset contains member of marketing lists.
 ![視覺效果](assets/visualizations.png)
 
 +++
-

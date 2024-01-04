@@ -3,10 +3,11 @@ title: Customer Journey Analytics 和資料控管
 description: 說明資料控管如何在 Customer Journey Analytics 中運作。
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 68%
+source-wordcount: '377'
+ht-degree: 74%
 
 ---
 
@@ -16,11 +17,11 @@ ht-degree: 68%
 
 ## 資料控管
 
-Adobe Customer Journey Analytics與的整合 [Adobe Experience Platform資料控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant) 可標籤敏感的Customer Journey Analytics資料強制執行隱私權原則。
+Adobe Customer Journey Analytics與之間的整合 [Adobe Experience Platform資料控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant) 可標籤敏感Customer Journey Analytics資料強制執行隱私權原則。
 
-在Experience Platform使用的資料集上建立的隱私權標籤和原則，可以在Customer Journey Analytics資料檢視工作流程中顯示。 這些標籤會阻止或警告從敏感性欄位建立量度和/和維度的使用者。
+在 Experience Platform 使用的資料集上所建立的隱私權標籤和原則，可以出現在 Customer Journey Analytics 資料檢視工作流程中。這些標籤會阻止或警告從敏感性欄位建立量度和/和維度的使用者。
 
-此外，從Customer Journey Analytics（透過報告、匯出、API等）匯出資料時，也會新增警告或標籤，以通知使用者報告包含需要以特定方式處理敏感性資訊。
+此外，從Customer Journey Analytics （透過報告、匯出、API等）匯出資料時，便會新增警告或標籤，以通知使用者報告包含需要以特定方式處理敏感性資訊。
 
 此整合可讓您更輕鬆地管理合規性。在您組織中的資料監管員可以設定限制使用的原則。因此，您的Customer Journey Analytics使用者可以更自信地使用資料，瞭解資料符合資料管理員定義的原則。
 

@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: 管理匯出記錄檔
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 7%
+source-wordcount: '837'
+ht-degree: 4%
 
 ---
 
@@ -55,8 +56,8 @@ ht-degree: 7%
 
    | 篩選器 | 說明 |
    |---------|----------|
-   | [!UICONTROL **匯出 ID**] | 指定您要檢視之匯出日誌的匯出ID。 |
-   | [!UICONTROL **帳戶類型**] | 與記錄關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **AEP 資料登陸區域**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
+   | [!UICONTROL **匯出ID**] | 指定您要檢視之匯出日誌的匯出ID。 |
+   | [!UICONTROL **帳戶型別**] | 與記錄關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3角色ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud平台**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
    | [!UICONTROL **狀態**] | 匯出的狀態。 可使用下列狀態： <ul><li>[!UICONTROL **擱置中**]：匯出的特定執行個體已開始，但尚未完成。<p>重新執行狀態為「擱置中」的匯出作業將會延遲匯出程式。</p></li><li>[!UICONTROL **完成**]：匯出的特定執行個體已完成處理，並可在匯出帳戶中使用。</li><li>[!UICONTROL **已失敗**]<p>各種情況都可能導致匯出失敗。 將滑鼠懸停在失敗狀態上可檢視有關失敗的詳細資訊。<p>如需失敗可能原因的詳細資訊，請參閱 [疑難排解失敗的匯出](/help/components/exports/troubleshoot-exports.md).</p> |
 
    {style="table-layout:auto"}

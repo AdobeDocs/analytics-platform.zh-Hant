@@ -3,7 +3,8 @@ description: 若要從 Analysis Workspace 下載資料，請複製該資料或�
 title: 下載Customer Journey Analytics資料
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 55%

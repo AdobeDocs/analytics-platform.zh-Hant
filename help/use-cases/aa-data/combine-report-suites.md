@@ -3,22 +3,23 @@ title: 結合報告套裝與不同的結構描述
 description: 了解如何使用「資料準備」來結合報告套裝與不同的結構描述
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 59%
+source-wordcount: '1322'
+ht-degree: 57%
 
 ---
 
 # 結合報告套裝與不同的結構描述
 
-此 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 將來自Adobe Analytics的報表套裝資料帶入Adobe Experience Platform，以供Adobe Experience Platform應用程式(例如Real-time Customer Data Platform和Customer Journey Analytics (Customer Journey Analytics))使用。 帶入Adobe Experience Platform的每個報告套裝都會設定為個別來源連線資料流，而每個資料流都會當作Adobe Experience Platform資料湖中的資料集。 Analytics來源聯結器會為每個報告套裝建立一個資料集。
+此 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 將報表套裝資料從Adobe Analytics帶入Adobe Experience Platform，以供Adobe Experience Platform應用程式使用，例如Real-time Customer Data Platform和Customer Journey Analytics (Customer Journey Analytics)。 引入Adobe Experience Platform的每個報告套裝都會設定為個別來源連線資料流，而每個資料流都會當作Adobe Experience Platform資料湖中的資料集。 Analytics來源聯結器會為每個報告套裝各建立一個資料集。
 
-客戶使用的Customer Journey Analytics [連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) 將來自Adobe Experience Platform data lake的資料集整合到Customer Journey AnalyticsAnalysis Workspace中。 不過，在連線中組合報告套裝時，需要使用Adobe Experience Platform解決報告套裝之間的結構描述差異 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant) 功能。 目的是確保prop和eVar等Adobe Analytics變數在Customer Journey Analytics中具有一致的意義。
+客戶使用的Customer Journey Analytics [連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) 將資料集從Adobe Experience Platform資料湖整合到Customer Journey AnalyticsAnalysis Workspace中。 但是，在連線中組合報告套裝時，需要使用Adobe Experience Platform解決報告套裝之間的結構描述差異 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant) 功能。 目的是確保Adobe Analytics變數（例如prop和eVar）在Customer Journey Analytics中具有一致的意義。
 
 ## 報告套裝之間的結構描述差異有問題
 
-假設您的公司想要將兩個不同報告套裝的資料帶入Adobe Experience Platform以供Customer Journey Analytics使用，並假設兩個報告套裝的結構描述有所差異：
+假設您的公司想要將來自兩個不同報告套裝的資料引入Adobe Experience Platform以供Customer Journey Analytics使用，並假設兩個報告套裝的結構描述有所差異：
 
 | 報告套裝 A | 報告套裝 B |
 | --- | --- |
@@ -31,8 +32,8 @@ ht-degree: 59%
 
 - 建立可內嵌的Analytics來源連線（不使用資料準備） **報告套裝A** 進入Adobe Experience Platform資料湖做為 **資料集A**.
 - 建立可內嵌的Analytics來源連線（不使用資料準備） **報告套裝B** 進入Adobe Experience Platform資料湖做為 **資料集B**.
-- 建立 [Customer Journey Analytics連線](/help/connections/create-connection.md) 已呼叫 **所有報表套裝** ，結合了資料集A和資料集B。
-- 建立 [Customer Journey Analytics資料檢視](/help/data-views/create-dataview.md) 已呼叫 **全域檢視** 這是以「所有報表套裝」連線為基礎。
+- 建立 [Customer Journey Analytics連線](/help/connections/create-connection.md) 已呼叫 **所有報表套裝** 結合資料集A和資料集B的資料來源。
+- 建立 [Customer Journey Analytics資料檢視](/help/data-views/create-dataview.md) 已呼叫 **全域檢視** 這是根據所有報表套裝連線。
 
 如果不使用「資料準備」來解決資料集 A 和資料集 B 之間的結構描述差異，則「全域檢視」資料檢視中的 eVar 將包含混合值：
 
@@ -49,9 +50,9 @@ ht-degree: 59%
 
 ## 使用「Adobe Experience Platform資料準備」解決報告套裝之間的結構描述差異
 
-「Experience Platform資料準備」功能與Analytics來源聯結器整合，可用於解決上述案例中描述的結構描述差異。 這會導致eVar在Customer Journey Analytics資料檢視中具有一致的意義。 (下面使用的命名慣例，可以根據您的需求加以自訂。)
+「Experience Platform資料準備」功能與Analytics來源聯結器整合，可用於解決上述案例中說明的結構描述差異。 這會產生在Customer Journey Analytics資料檢視中具有一致意義的eVar。 (下面使用的命名慣例，可以根據您的需求加以自訂。)
 
-1. 在為報告套裝A和報告套裝B建立來源連線資料流之前， [建立新結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant) 在Adobe Experience Platform中（我們稱之為） **統一結構描述** 在我們的範例中。) 將以下內容新增到結構描述中：
+1. 在為報告套裝A和報告套裝B建立來源連線資料流之前， [建立新結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant) 在Adobe Experience Platform中(我們稱之為 **統一結構描述** 在我們的範例中。) 將以下內容新增到結構描述中：
 
    | 「統一結構描述」 |
    | --- |
@@ -86,7 +87,7 @@ ht-degree: 59%
 
 1. 現在建立 **所有報表套裝** 連線以進行Customer Journey Analytics，結合資料集A和資料集B。
 
-1. 建立 **全域檢視** 以Customer Journey Analytics檢視資料。 忽略原始 eVar 欄位，僅包括「統一欄位」欄位群組中的欄位。
+1. 建立 **全域檢視** Customer Journey Analytics中的資料檢視。 忽略原始 eVar 欄位，僅包括「統一欄位」欄位群組中的欄位。
 
    **全域檢視** Customer Journey Analytics中的資料檢視：
 
@@ -147,7 +148,7 @@ ht-degree: 59%
 
 1. 使用您剛建立的Customer Journey Analytics連線，在Customer Journey Analytics中建立資料檢視。 忽略原始 eVar 欄位，僅包括「客戶資訊」欄位群組中的欄位。
 
-   以Customer Journey Analytics檢視資料：
+   Customer Journey Analytics中的資料檢視：
 
    | 來源欄位 | 包括在資料檢視中？ |
    |---|---|
@@ -157,6 +158,6 @@ ht-degree: 59%
 
 ## 「資料準備」與「元件 ID」的比較
 
-如上所述，「資料準備」可讓您將不同的欄位對應到多個 Adobe Analytics 報告套裝中。 當您想要將多個資料集的資料合併到單一Customer Journey Analytics連線中時，這在Customer Journey Analytics中很有幫助。 不過，如果您打算將報告套裝保留在單獨的Customer Journey Analytics連線中，但希望在這些連線和資料檢視中使用一組報告，則變更Customer Journey Analytics中的基礎「元件ID」提供了即使結構描述不同，也能讓報告相容的方法。 如需詳細資訊，請參閱[元件設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=zh-Hant)。
+如上所述，「資料準備」可讓您將不同的欄位對應到多個 Adobe Analytics 報告套裝中。 當您想要將來自多個資料集的資料合併到單一Customer Journey Analytics連線時，這在Customer Journey Analytics中很有幫助。 但是，如果您打算將報表套裝保留在單獨的Customer Journey Analytics連線中，但希望在這些連線和資料檢視中使用一組報表，則變更Customer Journey Analytics中的基礎「元件ID」提供了即使結構描述不同，也能讓報表相容的方法。 如需詳細資訊，請參閱[元件設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=zh-Hant)。
 
-變更元件ID是僅限Customer Journey Analytics的功能，不會影響從Analytics來源聯結器傳送至即時客戶設定檔和RTCDP的資料。
+變更「元件ID」是僅限Customer Journey Analytics的功能，不會影響從Analytics來源聯結器傳送到「即時客戶個人檔案」和RTCDP的資料。

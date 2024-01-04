@@ -2,12 +2,12 @@
 description: 在適用於 Customer Journey Analytics 的 Analysis Workspace 中使用快速篩選
 title: 快速篩選
 feature: Workspace Basics
-role: User, Admin
+role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 3d55105a7d4f4687ed0fc6d857c906eec707f6a6
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 37%
+source-wordcount: '1145'
+ht-degree: 33%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 37%
 
 建立快速篩選時，請考量下列事項：
 
-* 快速篩選只適用於建立所在的專案。 您無法在其他專案中取得這些篩選器，且無法和其他使用者共用。
+* 快速篩選只適用於建立所在的專案。 您無法在其他專案中取得這些區段，且無法和其他使用者共用。
 * 最多允許3個規則。
 * 不支援巢狀容器或循序規則。
 
@@ -127,7 +127,8 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-   該篩選現在會顯示在所有專案的篩選元件清單中。您也可以和組織中的其他人[共用篩選](/help/components/filters/filters-share.md)。
+   該篩選器現在會顯示在您所有專案的篩選器元件清單中。
+您也可以和組織中的其他人[共用篩選](/help/components/filters/filters-share.md)。
 
 ## 快速篩選範例
 

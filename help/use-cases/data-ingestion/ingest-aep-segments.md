@@ -1,13 +1,14 @@
 ---
-title: 將Adobe Experience Platform對象擷取至Customer Journey Analytics
+title: 將Adobe Experience Platform受眾擷取至Customer Journey Analytics
 description: 說明如何將Adobe Experience Platform受眾擷取至Customer Journey Analytics以供進一步分析。
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 52%
+source-wordcount: '968'
+ht-degree: 50%
 
 ---
 
@@ -17,9 +18,9 @@ ht-degree: 52%
 
 ## 先決條件
 
-* 存取 Adobe Experience Platform (Adobe Experience Platform)，尤其是即時客戶個人檔案。
-* 存取以建立/管理Adobe Experience Platform結構描述和資料集。
-* 存取Adobe Experience Platform查詢服務（以及撰寫SQL的能力）或其他工具來執行一些輕度轉換。
+* 存取Adobe Experience Platform (Adobe Experience Platform)，尤其是即時客戶個人檔案。
+* 存取以建立/管理Adobe Experience Platform結構和資料集。
+* 存取Adobe Experience Platform查詢服務（以及撰寫SQL的能力）或其他工具，以執行一些輕度轉換。
 * 存取 Customer Journey Analytics。您必須是Customer Journey Analytics產品管理員才能建立/修改Customer Journey Analytics連線和資料檢視。
 * 能夠使用 Adobe APIs (分段，可選用其他)
 
@@ -27,7 +28,7 @@ ht-degree: 52%
 
 Adobe Experience Platform [即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant?lang=tw) (RTCP) 讓您透過合併來自多個管道 (包括線上、離線、CRM 和協力廠商) 的資料，查看每個個別客戶的整體檢視。
 
-您在 RTCP 中可能已經擁有來自不同來源的對象。挑選一或多個對象以擷取至Customer Journey Analytics。
+您在 RTCP 中可能已經擁有來自不同來源的對象。挑選一或多個受眾以擷取至Customer Journey Analytics。
 
 ## 步驟 2：為匯出建立設定檔聯合資料集
 
@@ -85,7 +86,7 @@ Adobe Experience Platform [即時客戶設定檔](https://experienceleague.adobe
 
 ## 其他附註
 
-* 您應定期執行此程式，以便在Customer Journey Analytics內持續重新整理對象資料。
+* 您應該定期執行此流程，以便在Customer Journey Analytics中持續重新整理對象資料。
 * 您可以在單一Customer Journey Analytics連線中匯入多個對象。 這對流程新增了更多複雜性，但這是可能的。為了辦到這點，您需要對上述流程進行一些修改：
    1. 對 RTCP 中對象集合中的每個所需對象執行此流程。
    1. Customer Journey Analytics支援設定檔資料集中的陣列/物件陣列。 為 audienceMembershipId 或 audienceMembershipIdName 使用[物件陣列](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=zh-Hant)是最佳選項。

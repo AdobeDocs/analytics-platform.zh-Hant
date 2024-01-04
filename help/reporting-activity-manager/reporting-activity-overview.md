@@ -3,18 +3,20 @@ title: 報告活動管理器總覽
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 252b9849b904754fcf5841df51d01510ba9df53f
+exl-id: c3964147-06f1-462a-aea1-e681c4ef15b1
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 23%
+ht-degree: 15%
 
 ---
 
-# 報告活動管理器概述
+# 報告活動管理器總覽
 
 此 [!UICONTROL 報告活動管理器] 可供管理員使用。
 
-如果您的組織在報告高峰期遇到報告效能降低的情況，報告活動管理器可讓您自行診斷和修正容量問題，無需Adobe客戶服務的介入。 您可以在單一介面中輕鬆管理報告佇列並立即採取行動，以改善使用者體驗。
+如果您的組織在報告高峰期遇到報告效能降低的情況，報告活動管理器可讓您自行診斷和修正容量問題，無需Adobe客戶服務的介入。 您可以在單一介面中輕鬆管理報告佇列，並立即採取行動&#x200B;&#x200B;以改善使用者體驗。
 
 ## 優點
 

@@ -2,12 +2,12 @@
 description: 瞭解如何在Analysis Workspace中建立專案
 title: 建立專案
 feature: Workspace Basics
-role: User, Admin
+role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 14%
    * **空白專案** 如果您打算從瀏覽器共用分析
    * [**空白行動計分卡**](/help/mobile-app/curator.md) 如果您打算從Adobe Analytics儀表板行動應用程式共用分析。
 
-1. 選擇 [!UICONTROL **建立**]。
+1. 選取「[!UICONTROL **建立**]」。
 
 1. 接下來，您需要將面板、視覺效果和元件新增至專案。 首先，在Analysis Workspace中新增面板至您的專案，如所述 [將面板新增至專案](#add-panels-to-the-project). 然後您可以在任何面板中新增視覺效果。 最後，您可以將元件新增至任何面板或視覺效果。
 
@@ -38,7 +38,7 @@ ht-degree: 14%
 
 [面板](/help/analysis-workspace/c-panels/panels.md) 是Analysis Workspace中任何專案的基礎。 面板是用來組織專案的內容（視覺效果和元件）。
 
-Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內容，產生完整的分析集。
+Analysis Workspace中提供的許多面板皆可根據使用者輸入的少量內容，產生完整的分析集。
 
 若要新增面板：
 

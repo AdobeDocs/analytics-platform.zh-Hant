@@ -2,11 +2,11 @@
 description: 使用關鍵量度摘要視覺效果，比較兩個時間軸的量度成效。
 title: 關鍵量度摘要
 feature: Visualizations
-role: User, Admin
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '642'
 ht-degree: 85%
 
 ---
@@ -44,7 +44,7 @@ The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量
    | **[!UICONTROL 量度]** | 選取想要檢查的量度。支援所有量度。 |
    | **[!UICONTROL 主要日期範圍]** | 任意形狀表格目前的日期範圍。 |
    | **[!UICONTROL 比較日期範圍]** | 您要與主要日期範圍進行比較的日期範圍。 |
-   | **[!UICONTROL 篩選器 (選擇性)]** | 您對此摘要特別感興趣的任何篩選器。 |
+   | **[!UICONTROL 篩選（選擇性）]** | 您對此摘要特別感興趣的任何篩選器。 |
 
    {style="table-layout:auto"}
 

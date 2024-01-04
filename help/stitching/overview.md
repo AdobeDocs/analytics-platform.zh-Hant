@@ -4,10 +4,11 @@ description: 銜接概觀。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
-source-git-commit: d0f7d5f2fe3cce869d413ca014d086e1a64665be
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 21%
+source-wordcount: '1428'
+ht-degree: 18%
 
 ---
 
@@ -58,8 +59,8 @@ ht-degree: 21%
 1. 請聯絡 Adobe 客戶支援，提供下列資訊：
 
    * 啟用銜接的要求。
-   * 您要重設金鑰之資料集的資料集 ID.
-   * 所需資料集的永久 ID 欄名稱 (顯示於每列的識別碼).
+   * 您要重新輸入金鑰之資料集的資料集ID。
+   * 所需資料集的永久ID欄名稱（顯示於每列的識別碼）。
    * 所需資料集的暫時ID欄名稱（人員識別碼，也會做為連線內容中資料集之間的連結）。
    * 您的[重播](explained.md)頻率和回顧時間長度偏好設定，包括每週重播一次，回顧期間為 7 天，或每天重播一次，回顧期間為 1 天。
    * 沙箱名稱。

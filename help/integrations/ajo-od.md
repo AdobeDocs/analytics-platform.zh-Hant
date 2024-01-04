@@ -3,10 +3,11 @@ title: 將Adobe Journey Optimizer決策管理與Adobe Customer Journey Analytics
 description: 引進Adobe Journey Optimizer決策管理產生的資料，並在Customer Journey Analytics內使用Analysis Workspace加以分析。
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
-source-git-commit: 2429c60cab701017702e3312770232aa329e303c
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 20%
+source-wordcount: '710'
+ht-degree: 17%
 
 ---
 
@@ -31,17 +32,17 @@ Adobe Experience Platform會當作中央資料來源，以及介於決定管理�
 
 | 資料集 | 資料集類型 | 連線設定 | 說明 |
 | --- | --- | --- | --- |
-| ODE Decisionevents - _沙箱_ 決策 | 事件 | 人員 ID: `IdentityMap` | 包含用於決定管理決定事件的自動產生資料。 _Sandbox_ 是指特定的沙箱名稱。 |
-| Adobe Journey Optimizer訊息回饋事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含訊息傳遞事件。 |
-| Adobe Journey Optimizer電子郵件追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含電子郵件追蹤事件。 |
-| Adobe Journey Optimizer推播追蹤體驗事件資料集 | 事件 | 人員 ID: `IdentityMap` | 包含推播追蹤事件。 |
+| ODE Decisionevents - _沙箱_ 決策 | 事件 | 人員ID： `IdentityMap` | 包含用於決定管理決定事件的自動產生資料。 _Sandbox_ 是指特定的沙箱名稱。 |
+| Adobe Journey Optimizer訊息回饋事件資料集 | 事件 | 人員ID： `IdentityMap` | 包含訊息傳遞事件。 |
+| Adobe Journey Optimizer電子郵件追蹤體驗事件資料集 | 事件 | 人員ID： `IdentityMap` | 包含電子郵件追蹤事件。 |
+| Adobe Journey Optimizer推播追蹤體驗事件資料集 | 事件 | 人員ID： `IdentityMap` | 包含推播追蹤事件。 |
 | Adobe Journey Optimizer實體資料集 | 查詢 | 索引鍵： `_id`<br>比對索引鍵： `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 包含將Journey和Campaign中繼資料與所有Adobe Journey Optimizer事件資料建立關聯的分類。 |
 
 {style="table-layout:auto"}
 
 ## 建立資料檢視
 
-在建立連線後，您可以建立一個或多個[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant)來設定 Customer Journey Analytics 中可用的所需維度和量度。
+在建立連線後，您可以建立一個或多個[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en)來設定 Customer Journey Analytics 中可用的所需維度和量度。
 
 >[!NOTE]
 >

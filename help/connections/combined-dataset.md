@@ -4,10 +4,11 @@ description: 瞭解Customer Journey Analytics如何透過合併資料集來建�
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
-source-git-commit: cf6da1f126933f17e05fb458f52dff93c1601891
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 61%
+source-wordcount: '581'
+ht-degree: 60%
 
 ---
 
@@ -78,9 +79,9 @@ ht-degree: 61%
 | 藍色 | 3 |
 | 紅色 | 2 |
 
-## 跨管道分析
+## 跨頻道分析
 
-合併資料集的下一個層級是跨管道分析，其中根據通用識別碼（人員ID）合併來自不同管道的資料集。 跨管道分析可受益於拼接功能，允許您重新鍵入資料集的人員ID，以便資料集正確更新，實現多個資料集的無縫合併。 拼接會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接ID。
+合併資料集的下一個層級是跨管道分析，也就是根據通用識別碼（人員ID）來合併來自不同管道的資料集。 跨管道分析可藉由拼接功能受益，讓您為資料集的人員ID重設金鑰，讓資料集可正確更新，以順暢地合併多個資料集。 拼接會檢視已驗證和未驗證工作階段的使用者資料，以產生拼接ID。
 
 跨管道分析可讓您回答下列問題：
 
@@ -94,11 +95,11 @@ ht-degree: 61%
 
 如需跨管道分析的詳細資訊，請參閱特定使用案例：
 
-* [跨管道分析](../use-cases/cross-channel/cross-channel.md)
+* [跨頻道分析](../use-cases/cross-channel/cross-channel.md)
 
 如需更深入的討論拼接功能，請前往：
 
 * [拼接概述](/help/stitching/overview.md)
-* [彙整的運作方式](../stitching/explained.md)
+* [銜接的運作方式](../stitching/explained.md)
 * [常見問題](/help/stitching/faq.md)
 

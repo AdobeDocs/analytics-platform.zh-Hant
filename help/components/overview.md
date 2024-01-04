@@ -4,10 +4,11 @@ description: 瞭解Customer Journey Analytics提供哪些元件，以及如何�
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
-source-git-commit: dbc0210936e8205fbe97b3c88e6c37597e7e43e3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 78%
+source-wordcount: '1068'
+ht-degree: 75%
 
 ---
 
@@ -25,10 +26,10 @@ ht-degree: 78%
 * [**篩選器**](filters/filters-overview.md)：建立、管理、共用功能強大、具針對性的對象篩選器，並將其套用至您的報表。 篩選器可讓您根據特性或互動來識別人員的子集。
 * [**計算量度**](calc-metrics/calc-metr-overview.md)：將量度和公式作為新元件用於報告中
 * [**資料字典**](/help/components/data-dictionary/data-dictionary-overview.md)：協助使用者和管理員追蹤並更能瞭解其Analytics環境中的元件。
-* [**日期範圍**](date-ranges/create.md)：自訂和調整 Analysis Workspace 提供的日期範圍.
+* [**日期範圍**](date-ranges/create.md)：自訂和調整Analysis Workspace提供的日期範圍。
 * [**Dimension**](/help/components/dimensions/view-dimensions.md)：Dimension是通常包含字串值的變數。 常見的維度包括頁面和反向連結網域。
 * [**量度**](/help/components/apply-create-metrics.md)：可讓您量化Analysis Workspace中的資料點。
-* [**專案**](/help/analysis-workspace/home.md)：在 Analysis Workspace 中組織和維護專案.
+* [**專案**](/help/analysis-workspace/home.md)：在Analysis Workspace中組織和維護專案。
 
 ## Analysis Workspace 元件
 

@@ -4,10 +4,11 @@ description: 在 Customer Journey Analytics 中顯示有關 Google Analytics 資
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 86%
+source-wordcount: '690'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +28,7 @@ ht-degree: 86%
 
 ![來電數量](../assets/call-volume.png)
 
-使用「來電原因」維度可以指出改善網路體驗的方法，從一開始就防止人們來電。 上述的範例顯示「商品損壞」的每通來電的平均通話時間將近 3 分鐘，提供貴組織精準的方式以改善客戶體驗並降低客服中心成本。
+使用維度「來電原因」可以指出改善網路體驗的方式，從一開始就防止人們來電。 上述的範例顯示「商品損壞」的每通來電的平均通話時間將近 3 分鐘，提供貴組織精準的方式以改善客戶體驗並降低客服中心成本。
 
 您可以檢視客服中心最常接到有關哪些商品來電，以及有多少客戶撥打了這類電話。 泡泡圖指出有 20,000 人打了電話，一共花了超過 4 小時又 30 分鐘的時間，並且退回了 33 件「男士短袖 T 恤」商品。
 
@@ -35,7 +36,7 @@ ht-degree: 86%
 
 套用「通話原因」的維度劃分，該範例顯示「商品損壞」的維度項目。 下一步是聯絡品質控制部門，並了解為何客戶會收到損壞的 T 恤。
 
-您可以審視哪些網站頁面造成客服中心來電增加。 此份報告可讓您知道網站上表現不佳的體驗位在何處，並幫助產品經理解決這些難題。 以下範例使用包含參與率歸因模型的計算量度，將資料篩選為僅以客服中心電話結尾的互動。
+您可以審視哪些網站頁面造成客服中心來電增加。 此份報告可讓您知道網站上表現不佳的體驗位在何處，並幫助產品經理解決這些難題。 以下範例使用具參與率歸因模型的計算量度，將資料篩選為僅限以客服中心電話結尾的互動。
 
 以下範例顯示「購物車」和「結帳資訊」頁面造成了大多數的來電。
 
@@ -47,7 +48,7 @@ ht-degree: 86%
 
 ## 使用進階行銷歸因
 
-Customer Journey Analytics可讓您對跨管道資料使用複雜的歸因模型。 在以下範例中，您可以看到將收入的最後接觸、首次接觸、U 型及演算法歸因套用到 Google Analytics 管道分組維度的比較。
+Customer Journey Analytics可讓您針對跨管道資料使用複雜的歸因模型。 在以下範例中，您可以看到將收入的最後接觸、首次接觸、U 型及演算法歸因套用到 Google Analytics 管道分組維度的比較。
 
 ![行銷歸因](../assets/mktg-attribution.png)
 
@@ -63,6 +64,6 @@ Attribution IQ 也可讓您篩選資料。 您可以查看僅限特定組使用�
 
 ![Google 廣告](../assets/google-ad.png)
 
-合併Customer Journey Analytics中的資料集可讓您在此範例中看到線上廣告對於您在行動應用程式上購買的產品有任何影響。 以下視覺化顯示，相較於網頁本身的收入，來自 Google Ads 的行動應用程式收入增加了 14000 美元到 15000 美元。
+結合Customer Journey Analytics中的資料集，您可在此範例中看到線上廣告對於使用行動應用程式購買的產品有任何影響。 以下視覺化顯示，相較於網頁本身的收入，來自 Google Ads 的行動應用程式收入增加了 14000 美元到 15000 美元。
 
 ![Google 廣告 2](../assets/google-ad2.png)

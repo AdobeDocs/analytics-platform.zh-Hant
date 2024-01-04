@@ -3,16 +3,17 @@ title: 瞭解如何管理在Customer Journey Analytics中建立的對象
 description: 了解如何在 Customer Journey Analytics 中管理對象
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 70%
+source-wordcount: '285'
+ht-degree: 68%
 
 ---
 
 # 在 Customer Journey Analytics 中管理對象
 
-管理先前建立的對象，可讓您：
+管理先前建立的對象可讓您：
 
 * 為自動對象重新整理/更新進行&#x200B;**排程或取消排程**。 排程的最長到期時間為 1 年。
 * 在對象重新整理排程快到期時，**續訂對象重新整理排程**。系統處理即將到期對象的方法與即將到期的排程報告相似，管理員會在排程到期的一個月前收到電子郵件。

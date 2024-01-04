@@ -1,14 +1,14 @@
 ---
 title: 行動計分卡註解
 description: 了解如何在行動計分卡上移動註解。
-role: User, Admin
 solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 91%
+ht-degree: 84%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 91%
 
 ![計分卡產生器會醒目顯示註解圖示。](assets/view-annotations.png)
 
-如果可以看到註解圖示，就無法在產生器畫布中完整看到註解或與註解互動。使用「預覽」模式，可在註解顯示於應用程式時檢視及互動。![預覽圖示](assets/preview-icon.png)
+如果可以看到註解圖示，就無法在產生器畫布中完整看到註解或與註解互動。使用「預覽」模式，可在註解顯示於應用程式時檢視及互動。 ![預覽圖示](assets/preview-icon.png)
 
-在工作區建立註解時，需選擇註解顏色。灰色註解代表註解不只一個。![註解圖示](assets/gray-annotations1.png) ![行動計分卡上的註解圖示會強調顯示。](assets/gray-annotations2.png)
+在工作區建立註解時，需選擇註解顏色。灰色註解表示註解不只一個。 ![註解圖示](assets/gray-annotations1.png) ![行動計分卡上的註解圖示會強調顯示。](assets/gray-annotations2.png)
 
 ## 檢檢視表註解
 

@@ -4,10 +4,11 @@ description: 您可以設定使用者的一般和專案偏好設定。
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
-source-git-commit: 170737214fea4dbd4d90d33ebf770920c8344fb1
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '3228'
-ht-degree: 87%
+source-wordcount: '3191'
+ht-degree: 86%
 
 ---
 
@@ -43,7 +44,7 @@ ht-degree: 87%
 
 | 偏好設定 | 選項 |
 | --- | --- |
-| 登陸頁面 | 選擇存取 Adobe Analytics 時顯示為預設頁面的頁面： <ul><li>專案清單 (預設)</li><li>空白專案</li><li>特定專案(從清單中選取)</li></ul> |
+| 登陸頁面 | 選擇存取 Adobe Analytics 時顯示為預設頁面的頁面： <ul><li>專案清單 (預設)</li><li>空白專案</li><li>從清單中選取的特定專案</li></ul> |
 | 顯示提示 | 在 Analysis Workspace 右下方區域的藍色框中顯示提示。 <p>此選項已預設啟用。</p> |
 | 左側邊欄群組中顯示的元件 | 在左側邊欄的「元件」選單中，選取每個元件的顯示數量。 <p>如果選擇 0，則無法再從工作區的左側邊欄存取元件。</p><p>根據預設，會針對下列各項顯示 5 個元件：</p> <ul><li>維度</li><li>量度</li><li>篩選器</li><li>日期範圍</li></ul> <p>如需有關 Analysis Workspace 中元件的詳細資訊，請參閱[元件概觀](/help/components/overview.md)。</p> |
 
@@ -71,14 +72,14 @@ ht-degree: 87%
 | --- | --- | --- |
 | **顯示** | | |
 |  | [檢視密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hant) | 減少左側邊欄、自由表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
-| | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | 選擇在Analysis Workspace和引導式分析中使用的視覺化調色盤。 <ul><li> 類別調色盤：套用至Analysis Workspace和引導式分析中的許多視覺效果。 每種顏色代表相異的類別值。從 Adobe 提供的選項中進行選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li> 差異色盤：套用至Analysis Workspace和「使用者成長」引導式分析中的「同類群組」表格。 該調色盤具有數值含義，其中包含兩個極端和中間的基線。<li> 循序調色盤：套用於頻率趨勢 (堆積長條) 引導的分析。該調色盤具有從淺到深的數值含義。</li></ul> |
+| | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | 選擇在Analysis Workspace和引導式分析中使用的視覺化調色盤。 <ul><li> 類別調色盤：套用至Analysis Workspace和引導式分析中的許多視覺效果。 每種顏色代表相異的類別值。從 Adobe 提供的選項中進行選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li> 差異色盤：套用至Analysis Workspace和「使用者成長」引導式分析中的「同類群組」表格。 該調色盤具有數值含義，其中包含兩個極端和中間的基線。<li> 循序浮動面板：套用至頻率趨勢（棧疊長條圖）引導式分析。 該調色盤具有從淺到深的數值含義。</li></ul> |
 | **資料** | | |
 |  | [資料檢視](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#report-suite) | 從表格和視覺效果衍生其資料的位置進行選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定資料檢視</li></ul> |
 |  | [行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>自訂界定的範圍</li></ul> |
 |  | [面板類型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant) | <ul><li>自由形式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
 |  | 計算重複實例數 | 指定是否要將重複例項計入報告。例如，此設定 (啟動時) 會將多個連續頁面檢視視為同一個頁面的多次頁面檢視。關閉後，則會計為單次頁面檢視。 <p>**注意：**&#x200B;此設定只會影響特定量度 (例如單次頁面造訪次數)，不適用於「流量」或「流失」視覺效果。</p> |
 |  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
-|  | CSV 分隔符號字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
+|  | CSV分隔符號字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
 |  | 顯示註解 | 選取專案中是否顯示註解。如需註解的詳細資訊，請參閱[註解概觀](/help/components/annotations/overview.md)。 |
 
 

@@ -2,11 +2,11 @@
 description: 讓您在 Analysis Workspace 中輕鬆地將比較資料視覺化，例如建置和上個月、去年等的比較資料。
 title: 組合圖表視覺效果
 feature: Visualizations
-role: User, Admin
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '847'
 ht-degree: 85%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 [!UICONTROL 組合圖表]視覺效果可讓您快速建立比較視覺效果，而不用先建立表格。您可以在折線/條形組合中輕鬆地檢視資料中的趨勢。
 
-使用[!UICONTROL 組合圖表]：
+使用 [!UICONTROL 組合圖表] 至：
 
 * 比較本週的訂單與上個月 (以及去年) 同時間的訂單 - 全都按幾下就能完成。
 * 在相同圖表上快速逐一分析和比較多項量度 (例如[!UICONTROL 不重複訪客]和[!UICONTROL 收入])。

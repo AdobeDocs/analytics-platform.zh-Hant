@@ -5,10 +5,11 @@ title: 透過電子郵件傳送Customer Journey Analytics資料給其他人
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
-source-git-commit: 88cbea4ebebe68314a5de471bdf13a4d7760db0e
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 59%
+source-wordcount: '1018'
+ht-degree: 57%
 
 ---
 
@@ -81,7 +82,8 @@ ht-degree: 59%
 | **[!UICONTROL 檢視過期的排程]** | 導覽至左側邊欄 >「其他篩選器 > 過期」，查看過期的排程。按一下排程標題，以設定新的傳送排程。 |
 | **[!UICONTROL 檢視排程 ID]** | 導覽至右上角的欄選項，然後將「排程 ID」欄新增至表格。排程的 ID 對除錯而言通常很實用。 |
 
-「排程專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已被停用，所有已安排的傳送將停止。如需詳細資訊，請參閱 [排程專案](/help/components/scheduled-projects-manager.md).
+「排程專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已停用，所有已排程的傳送將停止。
+如需詳細資訊，請參閱 [排程專案](/help/components/scheduled-projects-manager.md).
 
 ## 密碼保護排程專案 {#password}
 

@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: 管理雲端匯出位置和帳戶
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+role: User, Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 5%
+ht-degree: 1%
 
 ---
 
@@ -35,7 +36,7 @@ ht-degree: 5%
 
    | 篩選器 | 說明 |
    |---------|----------|
-   | [!UICONTROL **位置類型**]<!--should this be changed to Account type?--> | 與位置關聯的帳戶型別。 可使用下列帳戶型別： <ul><li>[!UICONTROL **AEP 資料登陸區域**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **位置型別**]<!--should this be changed to Account type?--> | 與位置關聯的帳戶型別。 可使用下列帳戶型別： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3角色ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud平台**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **帳戶**] | 與位置關聯的帳戶名稱。 |
    | [!UICONTROL **建立者**] | 建立位置之使用者的電子郵件地址。 |
 

@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: 專案概觀
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 72%
+source-wordcount: '1336'
+ht-degree: 68%
 
 ---
 
@@ -29,7 +30,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 | 元素 | 說明 |
 |---|---|
-| [編輯偏好設定](/help/analysis-workspace/user-preferences.md) | 為您建立的所有新專案或面板，管理 Analysis Workspace 及其相關元件的設定。 |
+| [編輯偏好設定](/help/analysis-workspace/user-preferences.md) | 管理您建立的所有新專案或面板的Analysis Workspace設定及其相關元件。 |
 | [建立資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 將新的資料夾或子資料夾新增至專案和資料夾清單。 |
 | [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md) | 從頭開始新專案。 |
 | 顯示更多 | 顯示建立空白專案或行動計分卡的選項， [檢視訓練教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=zh-Hant)，或 [檢視發行說明](/help/release-notes/latest.md). |
@@ -46,7 +47,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 | 共用對象 | 已共用專案的使用者。 |
 | 上次修改時間 | 上次修改專案的日期和時間。 |
 | 上次開啟時間 | 專案上次開啟的日期和時間。 |
-| 專案 ID | 專案的ID。 |
+| 專案ID | 專案的ID。 |
 | 最大日期範圍 | 專案的最長日期範圍。 |
 | 查詢數 | 專案中包含的查詢總數。 |
 | 位置 | 專案所在的資料夾。 |
@@ -69,7 +70,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 ### 專案資訊和設定 {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]** 提供目前使用中專案的專案層級資訊。
+**[!UICONTROL 工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]** 提供目前使用中專案的專案層級資訊。
 
 ![「專案資訊和設定」視窗。](assets/projectinfo.png)
 

@@ -3,9 +3,10 @@ title: 建立篩選器
 description: 了解建立篩選器的使用者介面。
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters
-source-git-commit: 202a726dc68853f55a24e566c656c92785e3b3f0
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 55%
 
 ---
@@ -14,16 +15,16 @@ ht-degree: 55%
 
 您可以在工作區中建立不同型別的篩選器，實際型別將依據這些篩選器需要的複雜程度、是否應僅套用至目前專案或套用至所有專案等因素而定。
 
-以下是可用篩選器型別的摘要，其中包含有關如何建立這些型別的相關資訊連結：
+以下為可用篩選器型別的摘要，其中包含建立篩選器型別相關資訊的連結：
 
 | 篩選器類型 | 在哪裡建立？ | 適用於何處？ | 何時使用 |
 | --- | --- | --- | --- |
 | 元件清單篩選器 | 按一下「+」(加號)，系統即會將您帶至「[篩選產生器](/help/components/filters/filter-builder.md)」 | 您所有的工作區專案 | 適用於較複雜的篩選器、循序篩選器 |
-| 快速篩選 | [快速篩選產生器](/help/components/filters/quick-filters.md) | 僅限專案，但可以儲存並新增至您的分段清單中。 | 可用於臨時單一規則篩選（使用拖放），或新增/編輯多個規則（透過按一下「篩選」圖示） |
+| 快速篩選 | [快速篩選產生器](/help/components/filters/quick-filters.md) | 僅限專案，但可以儲存並新增至您的分段清單中。 | 可用於臨時單一規則篩選（透過拖放），或新增/編輯多個規則（透過按一下「篩選」圖示） |
 | 流失分析中的篩選器 | Analysis Workspace 中的[流失視覺效果](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) | 對於個別的流失視覺效果 | 從接觸點建立篩選器，將篩選器新增為觸控點，並比較各種篩選器之間的關鍵工作流程 |
 | 計算量度篩選器 | [計算量度產生器](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) | 至個別計算量度 | 在您的量度定義中套用篩選器 |
 
-將篩選條件套用至自由格式專案時，也可使用數種其他方法：
+將篩選器套用至自由格式專案時，也可使用數種其他方法：
 
 | 動作 | 說明 |
 | --- | --- |

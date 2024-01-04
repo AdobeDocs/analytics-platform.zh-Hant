@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 title: 設定同類群組分析報表
 feature: Visualizations
 exl-id: c3fd9fbf-b2c8-4703-92de-e6fdc141ebc6
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1010'
 ht-degree: 89%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 89%
 
 1. 按一下&#x200B;**[!UICONTROL 建置]**。
 
-   ![同類群組表格檢視，顯示選取的包含條件和回訪條件。 按一下「建立」。](assets/cohort-report.png)
+   ![同類群組表格檢視，顯示選取的包含條件和回訪條件。 按一下「建置」。](assets/cohort-report.png)
 
    報表會顯示下訂單的人( *`Included`* 欄)，以及在後續造訪中回訪您網站的訪客。 隨時間減少的造訪次數可讓您找出問題並採取行動。
 1. (選用) 從選取項目建立篩選器。

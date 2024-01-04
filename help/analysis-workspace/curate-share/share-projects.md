@@ -4,10 +4,11 @@ keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
-source-git-commit: 16f1a732260ace8393d7303134fc351740fd1661
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 36%
+source-wordcount: '1966'
+ht-degree: 34%
 
 ---
 
@@ -50,7 +51,7 @@ ht-degree: 36%
 
 * 專案角色(**[!UICONTROL 編輯原始檔案]**， **[!UICONTROL 編輯副本]**、和 **[!UICONTROL 唯讀]**)與使用者和特定專案ID相連結。 專案角色不受 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant) 中管理的使用者權限影響。
 
-* 在 Customer Journey Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant) 中的產品設定檔所定義。管理員可將任何群組當作共用對象，包括「全部」。非管理員則可與其所屬的任何群組共用，但「全部」除外。
+* 在Customer Journey Analytics中，群組由中的產品設定檔定義 [Adobe Experience Cloud admin console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant). 管理員可將任何群組當作共用對象，包括「全部」。非管理員則可與其所屬的任何群組共用，但「全部」除外。
 
 * 獲得多個角色的使用者一律會有最高體驗。如果同時以個人和群組成員的身分新增使用者，就可能發生此狀況。例如，如果使用者收到 **[!UICONTROL 編輯原始檔案]** 個人角色和 **[!UICONTROL 唯讀]** 身為群組成員的角色將獲得 **[!UICONTROL 編輯原始檔案]** 專案體驗。
 
@@ -95,7 +96,7 @@ ht-degree: 36%
 
 若要與組織中的使用者共用專案連結：
 
-1. 儲存專案。如果有未儲存的變更，系統會提示您先儲存專案，然後再共用連結。
+1. 儲存專案。 如果有未儲存的變更，系統會提示您先儲存專案，然後再共用連結。
 
 1. 選取 **[!UICONTROL 共用]** > **[!UICONTROL 與Workspace使用者共用]**，然後選取 **[!UICONTROL 複製]** 在 **[!UICONTROL 透過連結共用]** 欄位。
 
@@ -149,7 +150,7 @@ ht-degree: 36%
 
 1. 選擇是否啟用下列安全性選項(此選項可由您的Customer Journey Analytics管理員控制)：
 
-   * **[!UICONTROL 需要 Experience Cloud 驗證]:**
+   * **[!UICONTROL 需要Experience Cloud驗證]：**
 
      啟用此選項後，唯一可存取專案的使用者就是可登入建立您共用專案的Adobe Experience Cloud組織。 不過，您共用的使用者不需要擁有Adobe Analytics的存取權。
 

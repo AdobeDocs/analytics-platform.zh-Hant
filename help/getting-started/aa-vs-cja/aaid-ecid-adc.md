@@ -3,9 +3,10 @@ title: AAID、ECID、AACUSTOMID 和 Analytics 來源連接器
 description: 瞭解 Analytics 來源連接器如何處理 Adobe Analytics 身分識別欄位。
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 feature: Basics
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '503'
 ht-degree: 100%
 
 ---

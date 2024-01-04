@@ -3,9 +3,11 @@ title: 淨成長檢視
 description: 您正在獲得還是失去使用者?
 feature: Guided Analysis
 keywords: 產品分析
-source-git-commit: 4aed07568d345770183d18041a762adc441e6bc3
+exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---

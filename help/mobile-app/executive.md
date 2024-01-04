@@ -2,13 +2,13 @@
 description: 控制面板計分卡的使用說明。
 title: Analytics 控制面板執行指南
 feature: Analytics Dashboards
-role: User, Admin
+role: User
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 77%
+source-wordcount: '1294'
+ht-degree: 75%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 77%
    如果您登入後看到未共用任何內容的訊息，請向組織者確認下列事項：
 
    * 您可以登入正確的Customer Journey Analytics沙箱。
-   * 已與您共用計分卡.
+   * 已與您共用計分卡。
 
    ![無共用項目](assets/nothing.png)
 
@@ -115,7 +115,7 @@ ht-degree: 77%
 
    * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。 點選其中一個選項，並選取第一個範圍。 在&#x200B;**[!UICONTROL 比較對象]**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。 點選畫面右上方的&#x200B;**[!UICONTROL 「完成」]**。 **[!UICONTROL 「日期範圍」]**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
-1. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。 應用程式中的[篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)運作方式與 Workspace 中相同。
+1. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。 [篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) 與在Workspace中的功能相同。
 
    ![區段篩選](assets/segment_filter.png)
 

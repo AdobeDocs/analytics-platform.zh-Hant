@@ -2,18 +2,18 @@
 description: 瞭解如何在Workspace專案中使用流量視覺效果。
 title: 如何設定流量視覺效果
 feature: Visualizations
-role: User, Admin
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '1581'
-ht-degree: 57%
+source-wordcount: '1595'
+ht-degree: 56%
 
 ---
 
 # 設定流量視覺效果
 
-流量視覺效果可協助您瞭解源自或導致網站或應用程式上特定轉換事件的歷程。 它透過您的維度 (和維度項目) 或量度追蹤路徑。
+流量視覺效果可協助您瞭解源自或導致網站或應用程式上特定轉換事件的歷程。 它透過您的維度（和維度專案）或量度追蹤路徑。
 
 流量視覺效果可讓您設定感興趣的路徑的起點或終點，或分析流經維度或維度專案的所有路徑。
 
@@ -57,7 +57,7 @@ ht-degree: 57%
    | **[!UICONTROL 包含重複例項]** | 「流量」視覺效果是根據維度的例項而定。此設定可讓您選擇要包含或排除重複例項，如頁面重新載入次數。不過，無法從包含多值維度 (例如 listVars、listProps、s.product、銷售 eVars 等) 的「流量」視覺效果中移除重複項目。 <p>此選項預設為停用。</p> |
    | **[!UICONTROL 僅限於第一次/最後一次發生]** | 將路徑限制為開頭/結束於維度/項目/量度的第一次/最後一次發生次數。請參閱以下小節， [「僅限於第一次/最後一次發生」的範例情境](#example-scenario-for-limit-to-firstlast-occurrence)，以取得更詳細的說明。 |
    | **[!UICONTROL 欄數]** | 流量圖中想要的欄數。 您最多可以指定5欄。 |
-   | **[!UICONTROL 每欄展開的項目]** | 每欄中想要的專案數。 您可以指定每欄最多展開10個專案。 |
+   | **[!UICONTROL 每欄展開的專案]** | 每欄中想要的專案數。 您可以指定每欄最多展開10個專案。 |
    | **[!UICONTROL 流量容器]** | <ul><li>瀏覽</li><li>訪客</li></ul> 可讓您切換瀏覽和訪客，分析訪客路徑。這些設定可協助您了解訪客層級的訪客參與程度 (跨越造訪)，或是將分析限制在單一造訪。 |
 
    >[!IMPORTANT]

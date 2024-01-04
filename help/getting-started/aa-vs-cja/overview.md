@@ -3,9 +3,11 @@ title: 與 Adobe Analytics 比較
 description: 概述如何比較 Customer Journey Analytics 和 Adobe Analytics。
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 4cbf01d397e7f89e67ae20702790129478d45cce
-workflow-type: ht
-source-wordcount: '863'
+exl-id: bde36283-86af-4b1a-9cbe-e251676b2951
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+workflow-type: tm+mt
+source-wordcount: '777'
 ht-degree: 100%
 
 ---
@@ -66,8 +68,3 @@ Adobe Analytics 使用一組更明確的身分欄位，例如 Adobe Analytics ID
 ## 支援的功能
 
 有關 Adobe Analytics 功能以及 Customer Journey Analytics 如何支援這些功能的概觀，請參閱「[Customer Journey Analytics 功能支援](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/cja-aa.html?lang=zh-Hant)」。
-
-
-
-
-

@@ -3,9 +3,10 @@ title: 自由表格中的動態與靜態維度項目
 description: 如何與表格中的動態和靜態維度項目互動
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
-source-git-commit: ab30cd4e884dbf92d4148e8f81a638a8ea0b63f3
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '550'
 ht-degree: 81%
 
 ---

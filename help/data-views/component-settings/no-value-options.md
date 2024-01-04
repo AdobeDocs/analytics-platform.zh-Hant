@@ -4,10 +4,11 @@ description: 決定如果維度為空，應如何處理維度。
 exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+role: Admin
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 91%
+source-wordcount: '242'
+ht-degree: 92%
 
 ---
 
@@ -30,4 +31,4 @@ ht-degree: 91%
 
 ## 部落格貼文
 
-以下是有關以下內容的相關部落格： [處理Customer Journey Analytics中的「無值」](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).
+以下是有關下列內容的相關部落格： [處理Customer Journey Analytics中的「無值」](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339).

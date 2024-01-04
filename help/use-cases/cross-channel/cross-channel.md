@@ -4,16 +4,17 @@ description: 從整個客戶歷程的客戶互動中，分析及擷取見解。
 exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
-source-git-commit: a49ef8b35b9d5464df2c5409339b33eacb90cd9c
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 62%
+source-wordcount: '482'
+ht-degree: 61%
 
 ---
 
-# 跨管道分析
+# 跨頻道分析
 
-跨管道分析可透過統一來自各種Web、行動和離線屬性的資料，啟用跨不同管道的客戶行為的單一整合檢視。 例如，您可以使用此整合檢視來分析跨桌面和行動裝置的客戶互動，以了解客戶行為並提取洞察以最佳化數位客戶體驗。您還可以分析跨管道的客戶互動，包括數位和離線管道，例如支援互動和店內購買，以更好地了解和最佳化客戶旅程。
+跨管道分析可透過統一來自各種網路、行動和離線屬性的資料，啟用跨不同管道的客戶行為單一整合檢視。 例如，您可以使用此整合檢視來分析跨桌面和行動裝置的客戶互動，以了解客戶行為並提取洞察以最佳化數位客戶體驗。您還可以分析跨管道的客戶互動，包括數位和離線管道，例如支援互動和店內購買，以更好地了解和最佳化客戶旅程。
 
 ## 實施步驟
 
@@ -21,18 +22,18 @@ ht-degree: 62%
 
 1. 為要擷取的資料[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
 1. 為要擷取的資料[建立資料集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)。
-1. [將資料內嵌至 Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
-   1. 事件型資料 ![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) 從網站或行動應用程式透過Edge Network或Analytics來源聯結器。
-   2. 設定檔資料 ![設定檔](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) （例如，從CRM系統、客服中心應用程式、忠誠度應用程式）。
+1. [將資料擷取至Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html)：
+   1. 事件型資料 ![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) 透過Edge Network或Analytics來源聯結器，從網站或行動應用程式存取。
+   2. 設定檔資料 ![設定檔](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) （例如從CRM系統、客服中心應用程式、忠誠度應用程式）。
    3. 查詢資料 ![查詢](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) （例如產品名稱、產品資訊系統的類別）。
 
-1. 在資料集間使用通用名稱空間ID。 使用 [拼接](../../stitching/overview.md) 提升任何事件型資料集 ![資料重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) 關於在每一列上提供通用ID。 請注意，Customer Journey Analytics 目前不使用 Experience Platform 設定檔或身份識別服務進行拼接。
+1. 跨資料集使用通用名稱空間ID。 使用 [拼接](../../stitching/overview.md) 提升任何事件型資料集 ![資料重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) 有關在每一列提供通用ID的問題。 請注意，Customer Journey Analytics 目前不使用 Experience Platform 設定檔或身份識別服務進行拼接。
 1. 執行任何自訂資料準備，以確保跨時間序列資料集的公用鍵被引入 Customer Journey Analytics。
 1. 為查閱資料提供一個可以連結到事件資料中欄位的主要 ID。計為授權中的列。
 1. 將設定檔資料的主要 ID 設定為事件資料的主要 ID。
 1. [建立連線](../../connections/overview.md) 從Experience Platform擷取相關資料集至Customer Journey Analytics。
 1. 在連線上[建立資料檢視](/help/data-views/create-dataview.md)以選擇要包含在檢視中的特定維度和量度。歸因和配置設定也在資料檢視中設定。這些設定是在報告時計算的。
-1. [建立專案，以在 Analysis Workspace 中設定儀表板和報告。](/help/analysis-workspace/home.md)
+1. [建立專案](/help/analysis-workspace/home.md) 若要在Analysis Workspace中設定儀表板和報表。
 
 ## 考量事項
 

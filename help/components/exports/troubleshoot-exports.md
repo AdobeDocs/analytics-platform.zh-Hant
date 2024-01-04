@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 title: 疑難排解失敗的匯出
 feature: Components
 exl-id: fbc25150-4390-40a2-9f17-aadf254258ad
-source-git-commit: 05cc65f3a463bc71db85d85292a172784c3d7c75
+role: User
+source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 7%
+source-wordcount: '390'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
 
 | 失敗原因 | 建議的動作 | 詳細資訊 |
 |---------|----------|---------|
-| 無效的位置或帳戶資訊 | 請確定您的憑證和其他資訊對於您要匯出的雲端帳戶和位置而言是正確的。 | [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md) 和 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md). |
+| 位置或帳戶資訊無效 | 請確定您的憑證和其他資訊對於您要匯出的雲端帳戶和位置而言是正確的。 | [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md) 和 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md). |
 | 報表中的維度或量度已從資料檢視中移除 | 請聯絡您的系統管理員，檢視已從資料檢視中移除哪些元件。 您可能需要在匯出中使用不同的資料檢視，或從表格中移除不再可用的元件。 | [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md) |
 | 超出列數限制 | 根據您的授權型別，您最多可以匯出300萬、3000萬、1.5億或3億列。 更新您正在匯出的表格以減少總列數。 | [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md) |
 | 排程的匯出到期日 | 您設定的排程匯出已過期。 更新匯出的到期日。 | [管理匯出](/help/components/exports/manage-exports.md) |
