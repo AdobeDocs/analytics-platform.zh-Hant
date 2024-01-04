@@ -5,7 +5,7 @@ title: 管理匯出
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: ad43b199d4174894f0e428bcaf1748ca80bddb45
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 3%
@@ -37,7 +37,7 @@ ht-degree: 3%
    | 篩選器 | 說明 |
    |---------|----------|
    | [!UICONTROL **帳戶型別**] | 與匯出相關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3角色ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud平台**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
-   | [!UICONTROL **狀態**] | 匯出的狀態。 可使用下列狀態： <ul><li>[!UICONTROL **作用中**]：指出排程的匯出尚未過期，或一次性匯出尚未完成。 </li><li>[!UICONTROL **完成**]：表示匯出已成功匯出。 對於排程的匯出，這表示排程已過期。</li><li>[!UICONTROL **已失敗**]<p>下列情況可能會導致匯出失敗。 將游標暫留在 [!UICONTROL **已失敗**] 狀態，以檢視有關失敗的詳細資訊。 <ul><li>排程的匯出到期日</li><li>已達排程匯出的列數限制 </li></ul> </p></li></ul> |
+   | [!UICONTROL **狀態**] | 匯出的狀態。 可使用下列狀態： <ul><li>[!UICONTROL **作用中**]：指出排程的匯出尚未過期，或一次性匯出尚未完成。 </li><li>[!UICONTROL **已完成**]：表示匯出已成功匯出。 對於排程的匯出，這表示排程已過期。</li><li>[!UICONTROL **已失敗**]<p>下列情況可能會導致匯出失敗。 將游標暫留在 [!UICONTROL **已失敗**] 狀態，以檢視有關失敗的詳細資訊。 <ul><li>排程的匯出到期日</li><li>已達排程匯出的列數限制 </li></ul> </p></li></ul> |
    | [!UICONTROL **頻率**] | 匯出的頻率。 可使用下列頻率： <ul><li>[!UICONTROL **一次**]</li><li>[!UICONTROL **每日**]</li><li>[!UICONTROL **每週**]</li><li>[!UICONTROL **每月**]</li><li>[!UICONTROL **每年**]</li></ul> |
 
    {style="table-layout:auto"}
