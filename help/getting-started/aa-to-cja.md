@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1394'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 * ID 不包含 PII。對任何可能的敏感內容套用雜湊處理。
 * ID 在所有來源上使用相同格式 (相同長度、相同雜湊方法等)
 
-在像 Adobe Analytics 這樣的資料集，身分不一定存在於每個資料列中，但是次要身分一定存在。在這種情況下，當客戶僅由其ECID識別以及收集身分時（例如當客戶驗證時），跨管道分析（也稱為「拼接」）可用於彌補列之間的差距。 [了解更多](../stitching/overview.md)。
+在像 Adobe Analytics 這樣的資料集，身分不一定存在於每個資料列中，但是次要身分一定存在。在這種情況下，在只由 ECID 識別客戶和在收集身分 (例如，當客戶驗證時) 時，跨管道分析 (也稱為「拼接」) 可用於彌合資料列之間的差距。[了解更多](../stitching/overview.md)。
 
 ### 2. 對應變數 {#variables}
 
@@ -71,7 +71,7 @@ Adobe Analytics 客戶可以使用 Analytics 來源連接器輕鬆地在 Adobe E
 * 靈活的綱要，可定義所需的任何欄位
 * 不依賴 Adobe Analytics 命名法 (prop、eVar 和 event 等)
 * 無字元限制問題 (prop 有 100 個字元)
-* 加快提供Adobe Experience Platform的資料可用性 [即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=zh-Hant)
+* Adobe Experience Platform 的資料可用性更快，可支援[即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=zh-Hant)
 * [第一方裝置 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=zh-Hant)，用於強化訪客識別的準確性
 
 **使用 Experience Platform SDK 的缺點**

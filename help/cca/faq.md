@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe 啟用跨頻道分析後，需要約一週才能使用即時彙整功能�
 
 [跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)是傳統 Adobe Analytics 的專屬功能，可讓您了解人們如何跨裝置運作。 它提供兩個將裝置資料連結在一起的工作流程：欄位式拚接和裝置圖表。
 
-[跨管道分析](/help/stitching/overview.md) 是Customer Journey Analytics特有的功能，可讓您同時瞭解人們如何跨裝置和管道運作。 它會重新輸入資料集的人員 ID，讓該資料集可順暢地與其他資料集合併。此功能在設計上的運作類似於 CDA 的欄位式拚接，但實作方式不同，因為 Adobe Analytics 和 Customer Journey Analytics 之間的資料架構不同。
+[跨管道分析](/help/stitching/overview.md)是 Customer Journey Analytics 的專屬功能，可讓您同時了解使用者如何跨裝置和管道作業。它會重新輸入資料集的人員 ID，讓該資料集可順暢地與其他資料集合併。此功能在設計上的運作類似於 CDA 的欄位式拚接，但實作方式不同，因為 Adobe Analytics 和 Customer Journey Analytics 之間的資料架構不同。
 
 ## 跨管道分析如何處理 GDPR 和 CCPA 要求？
 
