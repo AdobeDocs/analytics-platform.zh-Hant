@@ -6,9 +6,9 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 77f3c1c0f179ede05d9a10c50f74184953a16a84
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2558'
 ht-degree: 5%
 
 ---
@@ -66,7 +66,7 @@ Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料
 
 您可以在查詢中使用的XDM欄位取決於資料集所依據的結構描述定義。 請確定您瞭解資料集所根據的結構描述。
 
-若要簡化資料摘要欄和XDM欄位之間的對應，您應考慮包含 [Adobe Analytics ExperienceEvent范](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) 「體驗事件」結構描述中的欄位群組。 另請參閱 [資料模型化的最佳實務](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) 更具體地說 [Adobe應用程式結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
+若要定義資料摘要欄和XDM欄位之間的對應，您應考慮檢查並可能會（重新）使用 [Adobe Analytics ExperienceEvent范](https://github.com/adobe/xdm/blob/master/extensions/adobe/experience/analytics/experienceevent-all.schema.json) 欄位群組。 另請參閱 [資料模型化的最佳實務](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en) 更具體地說 [Adobe應用程式結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=en#adobe-application-schema-field-groups).
 
 例如，如果您想使用 *頁面名稱* 做為資料摘要的一部分：
 
