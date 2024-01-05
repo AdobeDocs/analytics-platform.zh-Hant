@@ -5,7 +5,7 @@ title: 管理匯出
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: ad43b199d4174894f0e428bcaf1748ca80bddb45
+source-git-commit: 6f8a43acfba23d6faeff078873742315f1506699
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 3%
@@ -137,7 +137,7 @@ ht-degree: 3%
    | 名稱 | 匯出的名稱。 使用者在建立匯出時為其命名，如所述 [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
    | ID | 建立匯出時自動指派的ID。 <!-- True? --> |
    | 資料檢視名稱 | 與匯出相關聯的資料檢視名稱。 使用者可在建立匯出時選取資料檢視，如所述 [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
-   | 狀態 | 匯出的狀態。 可用的狀態包括 [!UICONTROL 作用中]， [!UICONTROL 完成]、和 [!UICONTROL 已失敗].<p> **注意：** 如需疑難排解匯出失敗的相關資訊，請參閱 [疑難排解失敗的匯出](/help/components/exports/troubleshoot-exports.md).</p> |
+   | 狀態 | 匯出的狀態。 可用的狀態包括 [!UICONTROL 作用中]， [!UICONTROL 已完成]、和 [!UICONTROL 已失敗].<p> **注意：** 如需疑難排解匯出失敗的相關資訊，請參閱 [疑難排解失敗的匯出](/help/components/exports/troubleshoot-exports.md).</p> |
    | 標記 | 顯示套用至匯出的任何標籤。 如需如何將標籤套用至匯出的詳細資訊，請參閱 [標籤匯出](#tag-an-export). |
    | 表格大小 (上次傳送) | 上次傳送匯出的大小。 |
    | 建立者 | 建立匯出的使用者。 |
