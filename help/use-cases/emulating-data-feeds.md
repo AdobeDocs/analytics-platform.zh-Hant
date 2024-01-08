@@ -6,10 +6,10 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 77f3c1c0f179ede05d9a10c50f74184953a16a84
+source-git-commit: a402c4b03c9d30235f2697e1b6ad5b1b22024c66
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 5%
+source-wordcount: '2537'
+ht-degree: 4%
 
 ---
 
@@ -57,7 +57,7 @@ Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料
 
 在Experience Platform中，有多種身分可供使用。 建立查詢時，請確定您正在正確查詢身分。
 
-您通常會在個別的欄位群組中找到身分。 在實作ECID (`ecid`)可定義為具有的欄位群組的一部分 `core` 物件，它本身就是物件的一部分， `identification` 物件。 (例如： `_sampleorg.identification.core.ecid`)。 ECID在結構中的組織方式可能有所不同。
+您通常會在個別的欄位群組中找到身分。 在實作ECID (`ecid`)可定義為具有的欄位群組的一部分 `core` 物件，它本身就是物件的一部分， `identification` 物件(例如： `_sampleorg.identification.core.ecid`)。 ECID在結構中的組織方式可能有所不同。
 
 或者，您可以使用 `identityMap` 以查詢身分。 此物件的型別 `Map` 並使用 [巢狀資料結構](#nested-data-structure).
 
@@ -71,9 +71,9 @@ Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料
 例如，如果您想使用 *頁面名稱* 做為資料摘要的一部分：
 
 * 在Adobe Analytics資料摘要的UI中，您可以選取 **[!UICONTROL pagename]** 作為欄，以新增至您的資料摘要定義。
-* 在查詢服務中，您包括 `web.webPageDetails.name` 從 `sample_event_dataset_for_website_global_v1_1` 資料集(根據 **網站的範例事件結構描述(Gobal v1.1)** 體驗事件結構描述)。 請參閱 [Web詳細資料結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) 以取得詳細資訊。
+* 在查詢服務中，您包括 `web.webPageDetails.name` 從 `sample_event_dataset_for_website_global_v1_1` 資料集(根據 **網站的範例事件結構描述（全域v1.1）** 體驗事件結構描述)。 請參閱 [Web詳細資料結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) 以取得詳細資訊。
 
-若要瞭解體驗事件資料集和基礎結構描述中，前Adobe Analytics資料摘要欄和XDM欄位之間的對應，請參閱 [Analytics欄位對映](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant) 和 [Adobe Analytics ExperienceEvent完整擴充功能結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) 以取得詳細資訊。
+若要瞭解體驗事件資料集和基礎結構描述中，Adobe Analytics資料摘要欄和XDM欄位之間的對應，請參閱 [Analytics欄位對映](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant) 和 [Adobe Analytics ExperienceEvent完整擴充功能結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) 以取得詳細資訊。
 
 此外， [由Experience PlatformWeb SDK自動收集的資訊（立即可用）](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) 可能與識別查詢的欄相關。
 
@@ -86,18 +86,18 @@ Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料
 | hitid_high + hitid_low | _id | 字串 | 用於識別點選的唯一識別碼。 |
 | hitid_low | _id | 字串 | 搭配hitid_high使用以專門識別點選。 |
 | hitid_high | _id | 字串 | 搭配hitid_high使用以專門識別點選。 |
-| hit_time_gmt | receivedTimestamp | 字串 | 點選的時間戳記，根據Unix時間。 |
-| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 字串 | 訪客初次點擊的時間戳記，格式為 Unix 時間。 |
-| cust_hit_time_gmt | timestamp | 字串 | 這僅用於啟用時間戳記的資料集。 這是根據Unix時間而隨其傳送的時間戳記。 |
+| hit_time_gmt | receivedTimestamp | 字串 | 點選的時間戳記，根據UNIX®時間。 |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 字串 | 訪客第一次點選的時間戳記，格式為UNIX®時間。 |
+| cust_hit_time_gmt | timestamp | 字串 | 這僅用於啟用時間戳記的資料集。 這是根據UNIX®時間，隨點選傳送的時間戳記。 |
 | visid_high + visid_low | identityMap | 物件 | 造訪的唯一識別碼。 |
 | visid_high + visid_low | endUserIDs。_experience.aaid.id | 字串 | 造訪的唯一識別碼。 |
 | visid_high | endUserIDs。_experience.aaid.primary | 布林值 | 搭配visid_low使用以專門識別造訪。 |
 | visid_high | endUserIDs。_experience.aaid.namespace.code | 字串 | 搭配visid_low使用以專門識別造訪。 |
-| visid_low | identityMap | 物件 | 搭配visid_high使用以專門識別造訪。 |
+| visid_low | identityMap | 物件 | 與visid_high搭配使用，以專門識別造訪。 |
 | cust_visid | identityMap | 物件 | 客戶訪客ID |
 | cust_visid | endUserIDs。_experience.aacustomid.id | 物件 | 客戶訪客ID。 |
 | cust_visid | endUserIDs。_experience.aacustomid.primary | 布林值 | 客戶訪客ID名稱空間程式碼。 |
-| cust_visid | endUserIDs。_experience.aacustomid.namespace.code | 字串 | 搭配visid_low使用以專門識別客戶訪客id。 |
+| cust_visid | endUserIDs。_experience.aacustomid.namespace.code | 字串 | 與visid_low搭配使用，用來唯一識別客戶訪客id。 |
 | 地理\_* | placeContext.geo.* | 字串，數字 | 地理位置資料，例如國家、地區、城市等 |
 | visit_page_num | _experience.analytics.session.depth | 數字 | 用於點選深度維度的變數。 此值會因使用者產生的每次點選而增加1，並在每次造訪後重設。 |
 | event_list | commerce.purchases， commerce.productViews， commerce.productListOpens， commerce.checkouts， commerce.productListAdds， commerce.productListRemovals， commerce.productListViews， \_experience.analytics.event101to200。*， ...， \_experience.analytics.event901_1000。\* | 字串 | 標準商務和點選時觸發的自訂事件。 |
@@ -106,7 +106,7 @@ Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料
 | page_event_var_1 | web.webInteraction.URL | 字串 | 僅用於連結追蹤影像要求中的變數。 此變數包含下載連結、退出連結或自訂連結點選的URL。 |
 | page_event_var_2 | web.webInteraction.name | 字串 | 僅用於連結追蹤影像要求中的變數。 這會列出連結的自訂名稱（如果已指定）。 |
 | first_hit_ref_type | _experience.analytics.endUser.firstWeb.webReferrer.type | 字串 | 數值ID，代表訪客第一個反向連結的反向連結型別。 |
-| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 整數 | 訪客初次點擊的時間戳記，格式為 Unix 時間。 |
+| first_hit_time_gmt | _experience.analytics.endUser.firstTimestamp | 整數 | 訪客第一次點選的時間戳記，格式為UNIX®時間。 |
 | paid_search | search.isPaid | 布林值 | 如果點選符合付費搜尋偵測，則會設定此旗標。 |
 | ref_type | web.webReferrertype | 字串 | 此數值 ID 表示點擊的反向連結類型。 |
 
@@ -114,7 +114,7 @@ Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料
 
 Adobe Analytics資料摘要會使用附有欄的概念 `post_` 前置詞，處理之後包含資料的欄。 如需詳細資訊，請參閱[資料摘要常見問題](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#post)。
 
-透過Experience Platform邊緣網路（Web SDK、Mobile SDK、伺服器API）在資料集中收集的資料不含 `post_` 欄位，說明原因 `post_` 前置詞和 *非* `post_` 在Analytics欄位中將資料摘要欄加上前置詞後，對應至相同的XDM欄位。 例如，兩者 `page_url` 和 `post_page_url` 資料摘要欄會對應至相同的 `web.webPageDetails.URL` XDM欄位。
+透過Experience Platform邊緣網路（Web SDK、Mobile SDK、伺服器API）在資料集中收集的資料不含 `post_` 欄位。 因此， `post_` 前置詞和 *非*-`post_` 有首碼的資料摘要欄會對應至相同的XDM欄位。 例如，兩者 `page_url` 和 `post_page_url` 資料摘要欄會對應至相同的 `web.webPageDetails.URL` XDM欄位。
 
 另請參閱 [比較Adobe Analytics和Customer Journey Analytics的資料處理](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=zh-Hant) 以取得資料處理差異的概觀。
 
@@ -126,7 +126,7 @@ Adobe Analytics資料摘要會使用附有欄的概念 `post_` 前置詞，處�
 
 #### 計算
 
-若要在欄位（欄）上執行計算，請使用標準SQL函式(例如 `COUNT(*)` 或 [數學和統計運運算元與函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) Spark SQL的一部分。 此外， [視窗函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) 提供更新彙總的支援，並傳回有序子集中每一列的單一專案。 另請參閱 [範例](#examples) 這些函式的使用方式。
+若要在欄位（欄）上執行計算，請使用標準SQL函式(例如 `COUNT(*)` 或 [數學和統計運運算元與函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) Spark SQL的一部分。 另外， [視窗函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) 提供更新彙總的支援，並傳回有序子集中每一列的單一專案。 另請參閱 [範例](#examples) 這些函式的使用方式。
 
 #### 巢狀資料結構
 
@@ -168,11 +168,11 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 #### 範例
 
-例如，查詢若使用Experience Platform資料湖中資料集的資料，點選Adobe定義函式和/或Spark SQL的其他功能，而這會提供類似結果給對等的Adobe Analytics資料摘要，請參閱
+對於使用Experience Platform資料湖中資料集的查詢，點選Adobe定義函式和/或Spark SQL的其他功能，這會提供類似結果給對等的Adobe Analytics資料摘要，請參閱
 
-* [捨棄的瀏覽](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en)，
-* [歸因分析](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en)，
-* [機器人篩選](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en)，
+* [捨棄的瀏覽](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en)
+* [歸因分析](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en)
+* [機器人篩選](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en)
 * 和查詢服務指南中的其他範例使用案例。
 
 
@@ -238,7 +238,7 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 #### 開始使用
 
-確定您擁有 [必要許可權](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#permissions) 若要匯出資料集，以及您要將輸出資料集傳送到的目的地支援匯出資料集。 然後，您必須 [收集必要和選用標題的值](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-values-headers) 您可在API呼叫中使用，也可以 [識別目的地的連線規格和流程規格ID](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-connection-spec-flow-spec) 您打算將資料集匯出至。
+若要匯出資料集，請確定您已 [必要許可權](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#permissions). 同時確認您要傳送輸出資料集的目的地支援匯出資料集。 然後，您必須 [收集必要和選用標題的值](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-values-headers) 用於API呼叫的內容。 您也需要 [識別目的地的連線規格和流程規格ID](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#gather-connection-spec-flow-spec) 您打算將資料集匯出至。
 
 #### 擷取合格的資料集
 
