@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 1d248ebfef9c5f31662f74535a005b6cd7ccea15
 workflow-type: tm+mt
-source-wordcount: '5783'
+source-wordcount: '5933'
 ht-degree: 12%
 
 ---
@@ -1280,6 +1280,34 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 - 為衍生欄位定義規則時，您最多可以使用十個不同的結構描述欄位（不包括標準欄位）。
    - 根據此最多10個不同的結構描述欄位，只允許最多3個查詢結構描述或設定檔結構描述欄位。
 - 每個Customer Journey Analytics連線最多可以有100個衍生欄位。
+
+
+### 函式限制的摘要
+
+| 函數 | 限制 |
+|---|---|
+| <p>情況</p> | <ul><li>5案例當每個衍生欄位有函式時</li><li>每個衍生欄位200個運運算元</li></ul> |
+| <p>分類</p> | <ul><li>5依衍生欄位分類函式</li><li>每個函式100列</li></ul> |
+| <p>串連</p> | <ul><li>每個衍生欄位2個串連函式</li></ul> |
+| <p>尋找和取代</p> | <ul><li>每個衍生欄位2個尋找和取代函式</li></ul> |
+| <p>查詢</p> | <ul><li>每個衍生欄位5個查詢函式</li></ul> |
+| <p>小寫</p> | <ul><li>每個衍生欄位2個小寫函式</li></ul> |
+| <p>合併欄位</p> | <ul><li>每個衍生欄位有2個合併欄位函式</li></ul> |
+| <p>規則運算式取代</p> | <ul><li>每個衍生欄位有1個Regex取代函式</li></ul> |
+| <p>Split</p> | <ul><li>每個衍生欄位5個分割函式</li></ul> |
+| <p>修剪</p> | <ul><li>每個衍生欄位1個修剪函式</li></ul> |
+| <p>URL 剖析</p> | <ul><li>每個衍生欄位有5個URL剖析函式</li></ul> |
+
+{style="table-layout:auto"}
+
+### 運算子
+
+If或Else If中的運運算元在Case When函式是條件與的組合 **一** 值。 條件的每個額外值都會增加運運算元的數量。
+
+例如，底下的條件使用13個運運算元。
+
+![運運算元範例](assets/operators-sample.png)
+
 
 ## 詳細資訊
 
