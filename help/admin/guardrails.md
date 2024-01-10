@@ -4,9 +4,9 @@ description: 瞭解Customer Journey Analytics的護欄
 solution: Customer Journey Analytics
 feature: Administration
 role: Admin
-source-git-commit: f436084d71f19e9cf3dd67287e510e07586d58f6
+source-git-commit: 85aea47146d4079606ccdeb1bcc29d41bbf49837
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1480'
 ht-degree: 10%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 10%
 | 對象重新整理頻率 | 4 | 系統強制的護欄 | 最大頻率（小時an） [對象](../components/audiences/audiences-overview.md) 可能會重新整理。 | |
 | 對象重新整理回顧期間 | 90 | 系統強制的護欄 | 重新整理回顧期間的最大天數。 |
 | 重新整理對象到期日 | 13 | 系統強制的護欄 | 對象從建立日期起停止重新整理的最大月數。 客戶可再延長13個月。 |
-| 重新整理對象的數量 | 75， 100， 150 | 系統強制的護欄 | 重新整理對象的最大數量，值會依套件而異。 |
+| 重新整理對象的數量 | 75， 100 | 系統強制的護欄 | 重新整理對象的最大數量，值會依封裝而異（請參閱產品說明）。 |
 
 {style="table-layout:auto"}
 
