@@ -4,16 +4,26 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 6ae65a3356df4ce1b72cd30b055d4db734488235
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 90%
+source-wordcount: '2781'
+ht-degree: 89%
 
 ---
 
 # Customer Journey Analytics - 文件更新
 
 Customer Journey Analytics 文件從開始建立以來完成以下更新。
+
+## 2024
+
+| 功能 | 說明 |
+| --- | --- |
+| **2024 年 1 月** | |
+| 衍生欄位 | 新增函式摘要 [限制](/help/data-views/derived-fields/derived-fields.md#limitations) 及如何決定數目的說明 [運運算元](/help/data-views/derived-fields/derived-fields.md#operators) 用於函式中。 |
+
+{style="table-layout:auto"}
+
 
 ## 2023
 
@@ -94,6 +104,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 登陸頁面 | 新的登陸頁面更新[登陸頁面](/help/getting-started/landing.md)。 |
 | 排程活頁簿 | 說明如何在 Report Builder 中[排程活頁簿](/help/report-builder/schedule-reportbuilder.md)的專用頁面。 |
 | 針對設定檔及查閱資料集提供物件陣列支援 | 已更新[使用物件陣列](/help/use-cases/object-arrays.md)和[擷取 Adobe Experience Platform 對象](/help/use-cases/data-ingestion/ingest-aep-segments.md)，以反映針對設定檔及查閱資料集的物件陣列支援。 |
+
+{style="table-layout:auto"}
 
 ## 2022
 

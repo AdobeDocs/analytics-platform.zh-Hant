@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 1d248ebfef9c5f31662f74535a005b6cd7ccea15
+source-git-commit: cdc82ee0b6562879afa2b955aa05f330e5cd225c
 workflow-type: tm+mt
-source-wordcount: '5933'
+source-wordcount: '5932'
 ht-degree: 12%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 12%
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 如果]， [!UICONTROL Else If] 容器：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 條件] （請參閱包含的運運算元，根據選取的值型別）</li></ul></li><li>[!UICONTROL 然後將值設為]， [!UICONTROL 否則將值設為]：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul></li></ul> | <p>字串</p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>以任何字詞開始</li><li>終止於</li><li>以任何字詞結尾</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>開頭不是任何詞語</li><li>不終止於</li><li>結尾不是任何詞語</li><li>已設定</li><li>未設定</li></ul><p>數值</p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p>日期</p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>早於</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <ul><li>每個衍生欄位5個函式</li><li>每個衍生欄位200個運運算元。 「反向連結網域包含Google」是單一運運算元的範例。 </li></ul> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 如果]， [!UICONTROL Else If] 容器：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 條件] （請參閱包含的運運算元，根據選取的值型別）</li></ul></li><li>[!UICONTROL 然後將值設為]， [!UICONTROL 否則將值設為]：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul></li></ul> | <p>字串</p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>以任何字詞開始</li><li>終止於</li><li>以任何字詞結尾</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>開頭不是任何詞語</li><li>不終止於</li><li>結尾不是任何詞語</li><li>已設定</li><li>未設定</li></ul><p>數值</p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p>日期</p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>早於</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <ul><li>每個衍生欄位5個函式</li><li>200 [運運算元](#operators) 每個衍生欄位。 「反向連結網域包含Google」是單一運運算元的範例。 </li></ul> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -1282,11 +1282,11 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 - 每個Customer Journey Analytics連線最多可以有100個衍生欄位。
 
 
-### 函式限制的摘要
+### 函式限制摘要
 
 | 函數 | 限制 |
 |---|---|
-| <p>情況</p> | <ul><li>5案例當每個衍生欄位有函式時</li><li>每個衍生欄位200個運運算元</li></ul> |
+| <p>情況</p> | <ul><li>5案例當每個衍生欄位有函式時</li><li>200 [運運算元](#operators) 每個衍生欄位</li></ul> |
 | <p>分類</p> | <ul><li>5依衍生欄位分類函式</li><li>每個函式100列</li></ul> |
 | <p>串連</p> | <ul><li>每個衍生欄位2個串連函式</li></ul> |
 | <p>尋找和取代</p> | <ul><li>每個衍生欄位2個尋找和取代函式</li></ul> |
@@ -1302,7 +1302,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 運算子
 
-If或Else If中的運運算元在Case When函式是條件與的組合 **一** 值。 條件的每個額外值都會增加運運算元的數量。
+If或Else If中的運運算元在Case When函式是條件與 **一** 值。 條件的每個額外值都會增加運運算元的數量。
 
 例如，底下的條件使用13個運運算元。
 
