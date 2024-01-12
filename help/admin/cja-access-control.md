@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 05bd88ea215d0b41c58221b42581a8fd09a019b3
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 81%
+source-wordcount: '969'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,7 @@ Customer Journey Analytics由三個存取層級或三個角色管理：產品管
 
 ## 產品管理員角色
 
-產品管理員有權完成Customer Journey Analytics內任何必要的工作。 您必須在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 的 [!UICONTROL Customer Journey Analytics] > [!UICONTROL 管理員] 索引標籤 > [!UICONTROL 新增管理員] 底下，將自己新增為 **Customer Journey Analytics 產品設定檔**&#x200B;的產品管理員。產品管理員可獲得下列權限：
+產品管理員有權完成Customer Journey Analytics內任何必要的工作。 您必須新增為的產品管理員，才能加入 **Customer Journey Analytics產品設定檔** 在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 在 [!UICONTROL Customer Journey Analytics] > [!UICONTROL 管理員] 標籤> [!UICONTROL 新增管理員]. 產品管理員可獲得下列權限：
 
 * 建立/更新/刪除連線或資料檢視
 * 更新/刪除專案、篩選器、計算量度、對象、註解或其他使用者建立的篩選器
@@ -93,7 +93,7 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 | **[!UICONTROL 稽核記錄存取權]** | 此權限會強制對 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 及稽核記錄 UI 進行權限檢查。 |
 | **[!UICONTROL 報告使用情況管理員]** | 可讓使用者查看和刪除在其公司中執行的任何報告。 |
 | **[!UICONTROL 報告使用情況檢視]** | 可讓使用者查看所有並行報告要求。 |
-| [!UICONTROL **完整表格匯出**] | 允許使用者 [將完整的表格匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
+| [!UICONTROL **完整表格匯出**] | 允許使用者 [將完整的表格匯出至雲端](/help/analysis-workspace/export/export-cloud.md). <p>如需如何在Adobe Experience Platform中為Customer Journey Analytics使用者新增目的地存取權的相關資訊，請參閱 [目的地和存取控制](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en#access-controls) 在 [目的地概觀](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en)</p> |
 | **[!UICONTROL 建立計算量度]** | 可讓使用者建立[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 |
 | **[!UICONTROL 建立篩選器]** | 可讓使用者建立[篩選器](/help/components/filters/filters-overview.md)。 |
 | **[!UICONTROL Labs 存取]** | 可讓使用者存取 [Labs](/help/labs/labs.md) 標籤中的Customer Journey Analytics。 |
