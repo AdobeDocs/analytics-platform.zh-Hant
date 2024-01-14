@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 05bd88ea215d0b41c58221b42581a8fd09a019b3
+source-git-commit: 75413a38b9291cc8c31de3f2389ae74a31e7b00c
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 76%
+source-wordcount: '942'
+ht-degree: 78%
 
 ---
 
@@ -93,7 +93,7 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 | **[!UICONTROL 稽核記錄存取權]** | 此權限會強制對 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 及稽核記錄 UI 進行權限檢查。 |
 | **[!UICONTROL 報告使用情況管理員]** | 可讓使用者查看和刪除在其公司中執行的任何報告。 |
 | **[!UICONTROL 報告使用情況檢視]** | 可讓使用者查看所有並行報告要求。 |
-| [!UICONTROL **完整表格匯出**] | 允許使用者 [將完整的表格匯出至雲端](/help/analysis-workspace/export/export-cloud.md). <p>如需如何在Adobe Experience Platform中為Customer Journey Analytics使用者新增目的地存取權的相關資訊，請參閱 [目的地和存取控制](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en#access-controls) 在 [目的地概觀](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en)</p> |
+| [!UICONTROL **完整表格匯出**] | 允許使用者 [將完整的表格匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
 | **[!UICONTROL 建立計算量度]** | 可讓使用者建立[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 |
 | **[!UICONTROL 建立篩選器]** | 可讓使用者建立[篩選器](/help/components/filters/filters-overview.md)。 |
 | **[!UICONTROL Labs 存取]** | 可讓使用者存取 [Labs](/help/labs/labs.md) 標籤中的Customer Journey Analytics。 |
