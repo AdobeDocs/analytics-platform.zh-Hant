@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 60%
+source-wordcount: '393'
+ht-degree: 58%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 60%
 
 ## 步驟3：在Customer Journey Analytics中設定此資料集的連線
 
-若要針對Experience Platform資料集製作報表，必須先為Experience Platform和Customer Journey Analytics的資料集建立連線。 在[建立連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=tw)項下可找到更多資訊。
+若要針對Experience Platform資料集製作報表，必須先為Experience Platform和Customer Journey Analytics的資料集建立連線。 如需詳細資訊，請參閱 [建立或編輯連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=tw).
 
 ## 步驟 4：建立一個或多個資料檢視
 

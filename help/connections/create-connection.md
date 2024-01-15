@@ -1,18 +1,18 @@
 ---
-title: 建立連線
-description: 說明如何在 Customer Journey Analytics 中建立與 Platform 資料集的連線。
+title: 建立或編輯連線
+description: 說明如何在Customer Journey Analytics中建立或編輯與Experience Platform資料集的連線。
 exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '2741'
-ht-degree: 100%
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
+workflow-type: tm+mt
+source-wordcount: '2748'
+ht-degree: 99%
 
 ---
 
-# 建立連線
+# 建立或編輯連線
 
 透過輔助工作流程，連線建立和編輯工作流程體驗可將所有資料集和連線組態設定彙整到畫面中央處。其提供詳細的資料集選擇、設定和檢閱體驗，包含資料集類型、大小、結構描述、資料集 ID、批次狀態、回填狀態、人員 ID 等重要資訊，以降低連線設定錯誤的風險。以下是功能概觀：
 

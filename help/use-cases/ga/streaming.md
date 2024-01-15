@@ -4,10 +4,10 @@ description: 了解如何設定您的實作，以傳送 Google 資料階層至 A
 exl-id: 58854f4b-ae28-424e-a2cf-0e76219cb802
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -21,4 +21,4 @@ ht-degree: 100%
 1. 安裝 [Google Data Layer 延伸產品](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/google-data-layer/overview.html)。 本延伸產品取代安裝 Web SDK 延伸產品，是特別針對 Google 資料階層所搭配的。
 1. [在 Adobe Experience Platform Data Collection 中](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) 建立 Datastream。 設定 Datastream 以傳送資料至 Adobe Experience Platform。 您目前必須將每個 Google 資料階層物件對應到此處相關的 XDM 欄位。 Adobe 計畫在未來簡化此對應工作流程。
 
-在您的網站上實作與發布想要的標籤之後，您可以繼續[建立連線](/help/connections/create-connection.md)，然後[建立資料檢視](/help/data-views/create-dataview.md)。
+在您的網站上實作與發佈想要的標籤後，您就可以繼續前往 [建立連線](/help/connections/create-connection.md)，然後 [建立資料檢視](/help/data-views/create-dataview.md).
