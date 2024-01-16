@@ -4,10 +4,10 @@ description: 了解 Adobe Experience Platform 中所定義的資料標籤和原�
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '498'
-ht-degree: 100%
+source-git-commit: 3b089a3d358a1a39a4b572576e911faaa4ceb1d5
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 ## 啟用的原則如何影響資料檢視
 
-如果已開啟&#x200B;**[!UICONTROL 強制執行分析]**&#x200B;或&#x200B;**[!UICONTROL 強制執行下載]**&#x200B;原則，這些關聯某些資料標籤 (C8 或 C12) 的結構描述元件無法新增到資料檢視。
+如果 **[!UICONTROL 強制執行分析]** 原則已啟用，無法將具有特定資料標籤（例如C8）的結構描述元件新增到資料檢視。
 
 這些元件會在左側邊欄「[!UICONTROL 結構描述」欄位]清單中反灰：
 
