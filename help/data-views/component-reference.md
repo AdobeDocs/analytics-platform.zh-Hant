@@ -5,8 +5,8 @@ exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: 20f48259881bade1978909610055d6b20b894092
+workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
 
@@ -36,6 +36,9 @@ Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experie
 | [!UICONTROL 月] | 維度 | 指定量度發生的月。第一個維度項目是日期範圍中的第一個月，最後一個維度項目是日期範圍中的最後一個月。 |
 | [!UICONTROL 季度] | 維度 | 指定量度發生的季。第一個維度項目是日期範圍中的第一季，最後一個維度項目是日期範圍中的最後一季。 |
 | [!UICONTROL 年] | 維度 | 指定量度發生的年。第一個維度項目是日期範圍中的第一年，最後一個維度項目是日期範圍中最近的一年。 |
+| [!UICONTROL 工作階段開始] | 量度 | 工作階段中第一個事件的事件數。在用於篩選條件定義時 (例如「[!UICONTROL 工作階段開始]存在」)，它只篩選出每個工作階段的第一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段開始率</li></p> |
+| [!UICONTROL 工作階段結束] | 量度 | 工作階段中最後一個事件的事件數。它類似於[!UICONTROL 工作階段開始]，也可用於篩選定義中，以篩選至每個工作階段的最後一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段結束率</li></p> |
+| [!UICONTROL 逗留時間 (秒)] | 量度 | 為維度加總兩個不同值之間的時間。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>每人逗留時間</li><li>每工作階段逗留時間</li></p> |
 
 {style="table-layout:auto"}
 
@@ -59,10 +62,7 @@ Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experie
 | [!UICONTROL 人員 ID 命名空間] | 維度 | 組成[!UICONTROL 人員 ID] 的 ID 類型。範例有：`email address`、`cookie ID`、`Analytics ID` |
 | [!UICONTROL 季別] | 時間分段維度 | 第 1 季、第 2 季、第 3 季、第 4 季 |
 | [!UICONTROL 重複工作階段] | 量度 | 不是個人的首次工作階段的工作階段數量。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) |
-| [!UICONTROL 工作階段開始] | 量度 | 工作階段中第一個事件的事件數。在用於篩選條件定義時 (例如「[!UICONTROL 工作階段開始]存在」)，它只篩選出每個工作階段的第一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段開始率</li></p> |
-| [!UICONTROL 工作階段結束] | 量度 | 工作階段中最後一個事件的事件數。它類似於[!UICONTROL 工作階段開始]，也可用於篩選定義中，以篩選至每個工作階段的最後一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段結束率</li></p> |
 | [!UICONTROL 工作階段類型] | 維度 | 此維度有兩個值：1) [!UICONTROL 首次] 和 2) 回訪。 [!UICONTROL 首次]條列項目包含已確定為個人定義的首次工作階段之工作階段中所有行為，即此維度的量度。所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) |
-| [!UICONTROL 逗留時間 (秒)] | 量度 | 為維度加總兩個不同值之間的時間。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>每人逗留時間</li><li>每工作階段逗留時間</li></p> |
 | [!UICONTROL 每個事件逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 事件]」值區。 |
 | [!UICONTROL 每個工作階段逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 工作階段]」值區。 |
 | [!UICONTROL 每人逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 人員]」值區。 |
