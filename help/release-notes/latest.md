@@ -3,40 +3,43 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: a5710e2d978661837016db5ed1bab5a53fb2d63e
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 3ed1c411781295d7137b52dea60cd2bf74a9824f
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 26%
 
 ---
 
-# 最新的 Adobe Customer Journey Analytics 發行說明 (2023 年 10/11 月)
+# 目前的Adobe Customer Journey Analytics發行說明（2024年1月）
 
+**上次更新**：2024年1月12日
 
-**上次更新日期**：2023 年 10 月 26 日
-
-這些發行說明涵蓋 2023 年 10 月 16 日至 2023 年 11 月底的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2023年10月底至2024年1月的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Product Analytics 中「[!UICONTROL 使用情況]」檢視的新功能** | 以下功能已新增至「[使用情況檢視](/help/guided-analysis/types/usage.md)」：<ul><li>**趨勢線**：現在支援趨勢線。點擊圖表上方的「[!UICONTROL 覆蓋]」以啟用它們。</li><li>**查詢劃分**：您現在可以將劃分套用到此檢視類型。其會顯示為查詢邊欄中的選項。</li></ul> | 不適用 | 2023 年 10 月 25 日 |
-| **CJA 資料檢視 API 的文件** | 請參閱「[資料檢視 API](https://developer.adobe.com/cja-apis/docs/endpoints/dataviews/)」，了解如何以程式設計方式建立、修改或刪除資料檢視。 | 不適用 | 2023 年 10 月 16 日 |
-| **將完整表格匯出至雲端** | 「Customer Journey Analytics 完整表格匯出」可讓您將數百萬個 Workspace 列匯出至雲端目標。 <p>匯出完整表格可提供在 Workspace 中設計之資料表格的一次性或排程傳送，最多可支援五個劃分、五個量度、篩選器和計算量度，且全部都可以在串連表格中完成。這是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多經常要求且目前在 Data Warehouse 中尚未提供的新功能。</p><p> 雲端匯出選項包括：</p><ul><li>Adobe Experience Platform 資料登錄區</li><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Snowflake</li></ul>如需更多資訊，請參閱[將 Customer Journey Analytics 報告匯出至雲端](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)。 | 2023 年 10 月 4 日 | 2023 年 10 月 19 日 |
-| **報告活動管理員** | 報告活動管理器可讓您查看組織中每個連線的報告產能。它為管理員提供報告使用量的詳細可見度，以便在尖峰報告期間輕鬆診斷和修正產能問題。報告活動管理員的主要功能包括：<ul><li>取消目前的報告請求 (包括引導式分析和完整表格匯出的請求)</li><li>限制已定義時段的後續請求</li></ul>除了取消目前的請求之外，管理員現在還可以限制定義時段內的請求。管理員可依據請求、專案或使用者來限制請求。[了解更多](/help/reporting-activity-manager/reporting-activity-overview.md) | 2023 年 10 月 17 日 | 2023 年 10 月 24 日 |
+| **引導式分析 — 保留率** | 一種新檢視型別，可顯示使用者在所需日期範圍內初次參與後回訪的百分比。 [了解更多](../guided-analysis/types/retention-rates.md) | 不適用 | 2024年1月8日 |
+| **時間序列預測** | 預測是Analysis Workspace的一項新功能，可讓您使用任何支援的時間詳細程度（每小時、每日、每週、每月和每年）來預測標準或計算量度。 | 不適用 | 2024年1月17日 |
+| **引導式分析 — 趨勢線** | 趨勢線覆蓋圖現在可在 [使用狀況](/help/guided-analysis/types/usage.md) 檢視，有助於描繪更清楚的資料模式。 | 不適用 | 2024年1月17日 |
+| **查閱和設定檔資料集的列計數量度** | 在此版本之前，列計數量度僅適用於事件資料集。 現在列計數量度也可用於查詢和設定檔資料集。 | 不適用 | 2024年1月17日 |
+| **連線詳細資料頁面 — 略過的記錄** | 您現在可以在定義連線時，檢查略過記錄的原因。 [了解更多](../connections/manage-connections.md) | 不適用 | 2024年1月17日 |
+| **關鍵量度摘要視覺效果的更新** | 使用「關鍵量度摘要」視覺效果時，比較日期範圍現在可以根據您選擇的「比較日期範圍」選項是相對於主要日期範圍還是固定日期範圍自動更新。 [了解更多](/help/analysis-workspace/visualizations/key-metric.md)。 | 不適用 | 2024年1月17日 |
+| **引導式分析 — 串流** | 新的檢視型別，可讓您探索個別使用者事件資料流。 此分析可讓您尋找體驗模式並訴說更好的使用者故事。 | 不適用 | 2024年1月31日 |
+| **引導式分析 — 改善查詢邊欄** | 部分元件設定現已納入查詢邊欄，以提升可用性。 | 不適用 | 2024年1月31日 |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics 中的修正
 
-AN-327661；AN-329282；AN-329383；AN-329808；AN-331030；AN-331087；AN-331105
+AN-310972、AN-332774、AN-332793、AN-332796、AN-333157、AN-334067、AN-334134、AN-334968、AN-335315、AN-335518、AN-335533、AN-335736；
 
 ## 給 Customer Journey Analytics 管理員的重要通知
 
 | 通知 | 新增或更新通知 | 說明 |
 | --- | --- | --- |
-| 不適用 | 不適用 | 不適用 |
+| 新增AdobeAPI物件成員 | 2024年1月17日 | Adobe可將選用的請求和回應成員（名稱/值組）新增到現有API物件，而不需要通知或變更版本設定。 這類新增專案應該是實施作業的不間斷變更。 Adobe建議您參考與API整合的協力廠商工具的API檔案，以便在處理時若無法瞭解這類新增內容，將予以忽略。 若未先透過發行說明提供標準通知，Adobe將不會移除引數或新增必要引數。 |
 
 {style="table-layout:auto"}
 
