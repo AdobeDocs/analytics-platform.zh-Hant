@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: ae968e46c5822c9209ecf78735df0914f33cb0d2
+source-git-commit: 5e4367c1e5dd8654ae888cf9b4258f9c06fe2961
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 61%
+source-wordcount: '1167'
+ht-degree: 58%
 
 ---
 
@@ -122,6 +122,9 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 | **[!UICONTROL 資料檢視]** | 如果您將&#x200B;**[!UICONTROL 自動包含]**&#x200B;切換為&#x200B;**[!UICONTROL 開啟]**，則屬於此產品設定檔的使用者可以查看所有現有和新建立的資料檢視。如果此項設定為&#x200B;**[!UICONTROL 關閉]**，您可以選擇使用者有權存取的特定資料檢視。 |
 | **[!UICONTROL 報告工具]**： |   |
 | **[!UICONTROL 稽核記錄存取權]** | 此權限會強制對 [API](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) 及稽核記錄 UI 進行權限檢查。 |
+| **[!UICONTROL Analysis Workspace 存取]** | 可讓使用者在Customer Journey Analytics中存取Analysis Workspace。 |
+| [!UICONTROL **引導式分析存取**] | 可讓使用者建立 [引導式分析專案](/help/guided-analysis/overview.md). |
+| [!UICONTROL **預測**] | 可讓使用者存取Analysis Workspace中的預測功能 |
 | **[!UICONTROL 報告使用情況管理員]** | 可讓使用者查看和刪除在其公司中執行的任何報告。 |
 | **[!UICONTROL 報告使用情況檢視]** | 可讓使用者查看所有並行報告要求。 |
 | [!UICONTROL **完整表格匯出**] | 允許使用者 [將完整的表格匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
@@ -131,5 +134,9 @@ Customer Journey Analytics 中的使用者無法建立、編輯、查看資料�
 | **[!UICONTROL 建立註解]** | 可讓使用者建立[註解](/help/components/annotations/overview.md)。 |
 | **[!UICONTROL 建立對象]** | 可讓使用者建立[對象](/help/components/audiences/audiences-overview.md)。 |
 | **[!UICONTROL 對象檢視]** | 可讓使用者查看[對象](/help/components/audiences/audiences-overview.md)。 |
+| [!UICONTROL **與任何人共用專案連結**] | 允許使用者 [與任何人共用專案。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=zh-Hant#share-public-link) |
+| **[!UICONTROL 資料檢視工具]**： |   |
+| [!UICONTROL **完整表格匯出**] | 允許使用者 [將完整的表格匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
+| [!UICONTROL **SQL查詢服務存取權**] | 可讓使用者存取 [aep中的查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant). |
 
 {style="table-layout:auto"}
