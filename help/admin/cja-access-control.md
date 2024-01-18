@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 75413a38b9291cc8c31de3f2389ae74a31e7b00c
+source-git-commit: 24d8d03867cf9619bbee1dd647b2a2a57a36492b
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 78%
+source-wordcount: '1047'
+ht-degree: 63%
 
 ---
 
@@ -21,21 +21,48 @@ Customer Journey Analytics由三個存取層級或三個角色管理：產品管
 
 ## 產品管理員角色
 
-產品管理員有權完成Customer Journey Analytics內任何必要的工作。 您必須新增為的產品管理員，才能加入 **Customer Journey Analytics產品設定檔** 在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 在 [!UICONTROL Customer Journey Analytics] > [!UICONTROL 管理員] 標籤> [!UICONTROL 新增管理員]. 產品管理員可獲得下列權限：
+根據預設，獲指派產品管理員角色的使用者可獲得在Customer Journey Analytics內執行大部分工作的必要許可權。 但是，有些工作需要額外的許可權。
 
-* 建立/更新/刪除連線或資料檢視
-* 更新/刪除專案、篩選器、計算量度、對象、註解或其他使用者建立的篩選器
+若要將使用者新增為產品管理員：
+
+1. 前往 [Admin Console](https://adminconsole.adobe.com/enterprise/).
+
+1. 選取 [!UICONTROL **Customer Journey Analytics**] > [!UICONTROL **管理員**] 標籤> [!UICONTROL **新增管理員**].
+
+   您新增的使用者將獲得 [產品管理員預設許可權](#product-admin-default-permissions). 您也可以授與他們 [其他許可權](#product-admin-additional-permissions) 如有需要。
+
+### 產品管理員預設許可權
+
+產品管理員有權完成Customer Journey Analytics中的大部分任務。
+
+產品管理員預設會獲得執行下列工作的必要許可權：
+
+* 建立、更新和刪除資料檢視
+* 更新和刪除專案、篩選器、計算量度、對象、註解或其他使用者建立的篩選器
 * 與所有使用者共用 Workspace 專案
 * 在中管理報告活動 [報告活動管理器](/help/reporting-activity-manager/reporting-activity-overview.md)
 
-光是成為 Customer Journey Analytics 中的產品管理員仍無法建立、更新或刪除[連線](/help/connections/overview.md)。若要建立與 Experience Platform 資料集的連線，您還需要 Experience Platform 權限。具體來說，您必須成為 **Experience Platform 產品設定檔**&#x200B;的管理員，進而取得下列權限：
+### 產品管理員其他許可權
 
-* 資料模型製作：檢視綱要、管理綱要
-* 資料管理：檢視資料集、管理資料集
-* 資料擷取：管理來源
-* 檢視身分命名空間
+除了在中被新增為產品管理員 **Customer Journey Analytics產品設定檔** 在 [Admin Console](https://adminconsole.adobe.com/enterprise/)，您必須有其他許可權，才能在Customer Journey Analytics中完成下列工作：
 
-如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant)。
+* 建立、更新和刪除資料 [連線](/help/connections/overview.md)
+
+  為了執行此任務，使用者必須屬於 **Experience Platform產品設定檔** 提供下列許可權：
+   * 資料模型製作：檢視綱要、管理綱要
+   * 資料管理：檢視資料集、管理資料集
+   * 資料擷取：管理來源
+   * 檢視身分命名空間
+
+     如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant)。
+
+* 從AEP目的地匯出資料集
+
+  為了執行此工作，使用者還需要下列Experience Platform許可權：
+   * 管理目的地
+   * 啟用目的地
+
+     如需Experience Platform目的地許可權的詳細資訊，請參閱 [目的地概觀](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant).
 
 ## 產品設定檔管理員角色
 

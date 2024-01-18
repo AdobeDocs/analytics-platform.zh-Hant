@@ -5,9 +5,9 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b76f534a01326b911ffbf93f089d46c6fc860979
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1973'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 3%
    | 回顧視窗 | 選取要包含在每個匯出檔案中的報表時間範圍。 選項包括 [!UICONTROL **今天**]， [!UICONTROL **昨天**]， [!UICONTROL **過去7天**]， [!UICONTROL **過去30天**]， [!UICONTROL **本週**]、和 [!UICONTROL **本月**]. <p>此選項不會在 [!UICONTROL **匯出頻率**] 設為 [!UICONTROL **立即傳送（一次性）**]. |
    | 資料表 | 顯示您正在匯出的自由表格。 您可以從左側邊欄將元件拖曳至表格來修改資料表格。 表格會在您新增元件至畫布時動態更新。  <p>套用至專案中完整表格的任何區段都會顯示在表格中每個個別欄的頂端。</p> |
    | 清除 | 清除資料表的內容。 這可讓您直接在「新增完整表格」匯出對話方塊中開始建立新表格。 |
-   | 匯出頻率 | 設定匯出發生的頻率排程。 <p>您可以選擇 [!UICONTROL **立即傳送（一次）**] 僅傳送一次匯出。 選取此選項時，會立即起始匯出。<p>或者，您可以選擇按照定義的排程傳送匯出。 依排程傳送時，選項包括 [!UICONTROL **每日**]， [!UICONTROL **每週**]， [!UICONTROL **按一週的第幾天，每月一次**]， [!UICONTROL **每月按日期**]， [!UICONTROL **每年按日期**]、和 [!UICONTROL **每年依特定日期**]. </p><p>選取匯出頻率時，請考量下列事項：</p><ul><li>中的選項 [!UICONTROL **回顧期間**] 欄位會依您在此選取的專案而變更。<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>系統會根據您選擇的選項，顯示其他設定欄位。</li></ul> |
+   | 匯出頻率 | 設定匯出發生的頻率排程。 <p>您可以選擇 [!UICONTROL **立即傳送（一次性）**] 僅傳送一次匯出。 選取此選項時，會立即起始匯出。<p>或者，您可以選擇按照定義的排程傳送匯出。 依排程傳送時，選項包括 [!UICONTROL **每日**]， [!UICONTROL **每週**]， [!UICONTROL **按一週的第幾天，每月一次**]， [!UICONTROL **每月按日期**]， [!UICONTROL **每年按日期**]、和 [!UICONTROL **每年依特定日期**]. </p><p>選取匯出頻率時，請考量下列事項：</p><ul><li>中的選項 [!UICONTROL **回顧期間**] 欄位會依您在此選取的專案而變更。<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>系統會根據您選擇的選項，顯示其他設定欄位。</li></ul> |
    | 開始日期 | 排程匯出應該開始的日期和時間。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 結束日期 | 排定的匯出到期的日期和時間。 排定的匯出在您設定的日期和時間後不再執行。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 檔案格式 | 選擇匯出的資料應該是.csv還是.json格式。 |
@@ -130,7 +130,7 @@ ht-degree: 3%
 
 * 將資料輸出結構為串連值。
 
-* 匯出臨時或依排程。 (也可搭配 [其他匯出選項](/help/analysis-workspace/export/export-project-overview.md).)
+* 匯出單次或依排程。 (也可搭配 [其他匯出選項](/help/analysis-workspace/export/export-project-overview.md).)
 
 * 匯出CSV或JSON格式的檔案。 (也可搭配 [其他匯出選項](/help/analysis-workspace/export/export-project-overview.md).)
 
@@ -215,7 +215,7 @@ ht-degree: 3%
 | 量度 | 限製為5 | 無限制 |
 | 報告列 | 根據層級，限製為300萬、3000萬、1.5億或3億 | 無限制 |
 | 報告數量 | 無限制 | 無限制 |
-| 隨機傳遞 | 有 | 有 |
+| 臨機（一次性）傳遞 | 有 | 有 |
 | 排程循環傳遞 | 有 | 有 |
 | 電子郵件傳遞 | 無 | 是 |
 | FTP / SFTP | 否 | 舊版支援 |
