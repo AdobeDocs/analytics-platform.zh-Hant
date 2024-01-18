@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 7021e4cfc9275402ce175bf8dfa8a3993ac438dd
+source-git-commit: ae968e46c5822c9209ecf78735df0914f33cb0d2
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 63%
+source-wordcount: '1099'
+ht-degree: 61%
 
 ---
 
@@ -60,7 +60,7 @@ Customer Journey Analytics由三個存取層級或三個角色管理：產品管
 
   >[!AVAILABILITY]
   >
-  >本文中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。此功能開放使用時，便會刪除此備註。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).
+  >將資料集匯出至雲端的功能目前處於發行的「有限測試」階段，可能在您的環境中尚未提供使用。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).
 
   為了執行此工作，使用者還需要下列Experience Platform許可權：
    * 管理目的地
