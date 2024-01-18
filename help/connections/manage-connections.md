@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 0b41cc80310c49bd1b0c73f1323f86c8b280e15f
+source-git-commit: 852dbce716e151d5feee52e813c9db9d76d9ccea
 workflow-type: tm+mt
-source-wordcount: '2487'
+source-wordcount: '2485'
 ht-degree: 27%
 
 ---
@@ -118,17 +118,11 @@ ht-degree: 27%
 
 ![顯示Widget和設定的所有資料集視窗](assets/conn-details.png)
 
-連線詳細資訊畫面提供連線狀態的詳細檢視。 您可以：
+連線詳細資訊介面提供連線狀態的詳細檢視。 您可以：
 
 * 檢查連線的資料集及擷取程序的狀態。
 * 識別可能導致略過或刪除記錄的設定問題。
 * 了解資料何時可用來報告。
-
->[!IMPORTANT]
->
->2021年8月13日之前擷取的任何資料都不會反映在此中 [!UICONTROL 連線] 對話方塊。
-
-### 連線詳細資料
 
 | 使用者介面 | 說明 |
 | --- | --- |
@@ -154,6 +148,10 @@ ht-degree: 27%
 | 結構描述 | 資料集所根據的Experience Platform結構描述。 |
 | [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新的資料匯入。 |
 | [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**回填失敗的數目，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**對於處理的回填數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防未設定回填。 |
+
+>[!IMPORTANT]
+>
+>2021年8月13日之前擷取的任何資料都不會反映在 [!UICONTROL 連線] 介面。
 
 ### 「連線」面板
 
