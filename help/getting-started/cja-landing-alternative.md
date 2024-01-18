@@ -5,15 +5,18 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 171eb52940fabd422288d0f4f9eae512aafe3308
+source-git-commit: ef46598db68372b8b3b58dc06aa7d5faacca6cc2
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 13%
+source-wordcount: '520'
+ht-degree: 19%
 
 ---
 
 # Customer Journey Analytics 指南
 
+本技術文件指南提供 Customer Journey Analytics 的自助協助。Customer Journey Analytics可將您選擇之任何管道的客戶資料（線上及離線皆可）整合到Adobe Experience Platform中，接著依您目前使用Analysis Workspace分析現有數位資料的方式加以分析。
+
+Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接任何常見客戶 ID 的線上和離線資料，進而允許您所有客戶資料。
 
 ## 新增功能
 
@@ -21,23 +24,23 @@ ht-degree: 13%
 
 >[!BEGINTABS]
 
->[!TAB Workspace：時間序列預測]
+>[!TAB 引導式分析 — 保留率]
 
-預測是Analysis Workspace的一項新功能，可讓您使用任何支援的時間詳細程度（每小時、每日、每週、每月和每年）來預測標準或計算量度。 預測僅適用於時間序列相關資料。
+一種新檢視型別，可顯示使用者在所需日期範圍內初次參與後回訪的百分比
 
-[![影像](assets/learn-more-button.svg)](../analysis-workspace/export/export-cloud.md)
+[![影像](assets/learn-more-button.svg)](/help//guided-analysis/types/retention-rates.md)
 
->[!TAB 連線：略過的記錄]
+>[!TAB 引導式分析 — 趨勢線]
 
-您現在可以檢查定義連線時，略過事件資料集記錄的原因。 您可以取得有關略過記錄之原因的詳細資料，例如空白訪客ID、資料保留及其他。
-
-[![影像](assets/learn-more-button.svg)](/help/connections/manage-connections.md)
-
->[!TAB Product Analytics：趨勢線]
-
-趨勢線覆蓋圖現在可在引導式分析使用檢視中使用，這有助於描繪出資料中更清晰的模式。
+趨勢線覆蓋圖現在可在「使用情況」檢視中使用，以協助描繪出資料中更清晰的模式。
 
 [![影像](assets/learn-more-button.svg)](/help/guided-analysis/types/usage.md)
+
+>[!TAB 關鍵量度摘要視覺效果]
+
+使用「關鍵量度摘要」視覺效果時，比較日期範圍現在可以根據您選擇的「比較日期範圍」選項是相對於主要日期範圍還是固定日期範圍自動更新。
+
+[![影像](assets/learn-more-button.svg)](/help/analysis-workspace/visualizations/key-metric.md)
 
 >[!ENDTABS]
 
