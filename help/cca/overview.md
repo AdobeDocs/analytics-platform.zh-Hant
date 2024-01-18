@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 hide: true
 hidefromtoc: true
 source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 98%
    * 沙箱名稱。
 1. Adobe 客戶支援將與 Adobe 工程部門合作，以便在收到您的請求後啟用跨管道分析。啟用後，Adobe Experience Platform 會顯示一個包含新人員 ID 欄的新的重設金鑰資料集。Adobe 客戶支援可提供新資料集 ID 和人員 ID 欄名稱。
 1. 首次打開時，Adobe 將提供回填的彙整資料，其回溯時間可追溯到上個月初 (最多 60 天)。為了執行此回填，暫時性 ID 必須在未回溯的時間中存在於未彙整的資料中。
-1. [建立或編輯連線](/help/connections/create-connection.md) 使用新產生的資料集和您要加入的其他資料集進行Customer Journey Analytics。 為每個資料集選擇正確的人員 ID。
+1. 使用新產生的資料集和您要加入的其他資料集，在 Customer Journey Analytics 中[建立或編輯連線](/help/connections/create-connection.md)。為每個資料集選擇正確的人員 ID。
 1. 根據連線[建立資料檢視](/help/data-views/create-dataview.md)。
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
