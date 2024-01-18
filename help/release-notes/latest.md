@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3ed1c411781295d7137b52dea60cd2bf74a9824f
+source-git-commit: efae6138159820414004a21de7c05b4373257876
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 26%
+source-wordcount: '450'
+ht-degree: 28%
 
 ---
 
@@ -21,10 +21,9 @@ ht-degree: 26%
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **引導式分析 — 保留率** | 一種新檢視型別，可顯示使用者在所需日期範圍內初次參與後回訪的百分比。 [了解更多](../guided-analysis/types/retention-rates.md) | 不適用 | 2024年1月8日 |
-| **時間序列預測** | 預測是Analysis Workspace的一項新功能，可讓您使用任何支援的時間詳細程度（每小時、每日、每週、每月和每年）來預測標準或計算量度。 | 不適用 | 2024年1月17日 |
+| **時間序列預測** | 預測是Analysis Workspace的一項新功能，可讓您使用任何支援的時間詳細程度（每小時、每日、每週、每月和每年）來預測標準或計算量度。 | 不適用 | 2024年1月31日 |
 | **引導式分析 — 趨勢線** | 趨勢線覆蓋圖現在可在 [使用狀況](/help/guided-analysis/types/usage.md) 檢視，有助於描繪更清楚的資料模式。 | 不適用 | 2024年1月17日 |
-| **查閱和設定檔資料集的列計數量度** | 在此版本之前，列計數量度僅適用於事件資料集。 現在列計數量度也可用於查詢和設定檔資料集。 | 不適用 | 2024年1月17日 |
-| **連線詳細資料頁面 — 略過的記錄** | 您現在可以在定義連線時，檢查略過記錄的原因。 [了解更多](../connections/manage-connections.md) | 不適用 | 2024年1月17日 |
+| **連線詳細資料頁面 — 略過的記錄** | 您現在可以在定義連線時，檢查略過記錄的原因。 [了解更多](../connections/manage-connections.md) | 不適用 | 2024年1月31日 |
 | **關鍵量度摘要視覺效果的更新** | 使用「關鍵量度摘要」視覺效果時，比較日期範圍現在可以根據您選擇的「比較日期範圍」選項是相對於主要日期範圍還是固定日期範圍自動更新。 [了解更多](/help/analysis-workspace/visualizations/key-metric.md)。 | 不適用 | 2024年1月17日 |
 | **引導式分析 — 串流** | 新的檢視型別，可讓您探索個別使用者事件資料流。 此分析可讓您尋找體驗模式並訴說更好的使用者故事。 | 不適用 | 2024年1月31日 |
 | **引導式分析 — 改善查詢邊欄** | 部分元件設定現已納入查詢邊欄，以提升可用性。 | 不適用 | 2024年1月31日 |
