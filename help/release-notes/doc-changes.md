@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9beeb2013eb3b94dc55fb721233096f1813e2bf3
+source-git-commit: 227e1ca7f9652730c849a03fcf4e87f1c9ba98d7
 workflow-type: tm+mt
-source-wordcount: '2792'
+source-wordcount: '2809'
 ht-degree: 89%
 
 ---
@@ -20,6 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 1 月** | |
+| 匯出資料集所需的許可權 | 已新增說明 [需要的許可權](/help/admin/cja-access-control.md) 將資料集匯出至雲端目的地。 |
 | 管理連線 | 已更新 [管理連線](../connections/manage-connections.md) 文章，根據客戶回饋意見。 |
 | 衍生欄位 | 新增函式摘要 [限制](/help/data-views/derived-fields/derived-fields.md#limitations) 及如何決定數目的說明 [運運算元](/help/data-views/derived-fields/derived-fields.md#operators) 用於函式中。 |
 

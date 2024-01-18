@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 24d8d03867cf9619bbee1dd647b2a2a57a36492b
+source-git-commit: 7021e4cfc9275402ce175bf8dfa8a3993ac438dd
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1097'
 ht-degree: 63%
 
 ---
@@ -56,13 +56,17 @@ Customer Journey Analytics由三個存取層級或三個角色管理：產品管
 
      如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant)。
 
-* 從AEP目的地匯出資料集
+* 將資料集匯出至雲端 [目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant)
+
+  >[!AVAILABILITY]
+  >
+  >本文中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。此功能開放使用時，便會刪除此備註。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).
 
   為了執行此工作，使用者還需要下列Experience Platform許可權：
    * 管理目的地
    * 啟用目的地
 
-     如需Experience Platform目的地許可權的詳細資訊，請參閱 [目的地概觀](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hant).
+     如需Experience Platform目的地許可權的詳細資訊，請參閱 [目的地概觀](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en#access-controls).
 
 ## 產品設定檔管理員角色
 
