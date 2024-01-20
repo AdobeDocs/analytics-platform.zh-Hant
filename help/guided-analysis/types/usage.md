@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: 產品分析
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '701'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
    * [!UICONTROL 對數]：建立曲線回歸線。 最適合快速增加或減少的資料，然後變得更加平準。 方程式：`y = a + b * log(x)`
    * [!UICONTROL 移動平均]：根據一組平均值建立平滑趨勢線。 移動平均也稱為滾動平均，會使用特定數量的先前資料點（由您的選擇決定）、求取其平均值，並將平均值當做線條中的點。 例如七天移動平均值或四周移動平均值。 可用的移動平均選項取決於您選取的間隔和日期範圍。
 
-## 套用時間比較
+## 時間比較
 
 {{apply-time-comparison}}
 

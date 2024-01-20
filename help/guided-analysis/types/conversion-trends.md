@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -30,22 +30,23 @@ ht-degree: 1%
 
 查詢邊欄可讓您設定以下元件：
 
+* **[!UICONTROL 檢視]**：在此檢視型別與之間切換 [摩擦](friction.md).
 * **[!UICONTROL 步驟]**：您要追蹤的事件接觸點。 圖表中的每個長條代表一個步驟。 您最多可以包含十個步驟。
-* **[!UICONTROL 人員]**：您要比較漏斗的區段。 選取的每個區段會將每個步驟分割成多個長條。 每種顏色代表不同的區段。 您最多可以包含三個區段。
+* **[!UICONTROL 計為]**：您要測量的量度。 選項包括 [!UICONTROL 使用者] 和 [!UICONTROL 工作階段].
+* **[!UICONTROL 區段]**：您要比較漏斗的區段。 選取的每個區段會將每個步驟分割成多個長條。 每種顏色代表不同的區段。 您最多可以包含三個區段。
 
 ## 圖表設定
 
-「轉換趨勢」檢視提供下列圖表設定，您可在圖表上方的功能表中調整這些設定：
+此 [!UICONTROL 轉換趨勢] 檢視提供下列圖表設定，可在圖表上方的功能表中調整：
 
-* **[!UICONTROL 量度]**：您要測量的量度。 選項包括工作階段和使用者。
-* **[!UICONTROL 圖表型別]**：您要使用的視覺效果型別。 選項包括Line。
-* **[!UICONTROL 轉換自]**：決定每一步的百分比計算。 選項包括計算第一個步驟或上一個步驟的轉換。
+* **[!UICONTROL 圖表型別]**：您要使用的視覺效果型別。 選項包括 [!UICONTROL 折線圖].
+* **[!UICONTROL 轉換自]**：決定每一步的百分比計算。 選項包括計算轉換 [!UICONTROL 第一步] 或 [!UICONTROL 上一步].
 
 >[!NOTE]
 >
 >此 **平均** 「轉換趨勢」檢視表格中的欄不同於 **總計** 中的欄 [摩擦檢視](friction.md) 表格。 前者是間隔欄的平均值（例如，每日轉換率的平均值），而後者則是整個日期範圍的彙總計算。
 
-## 套用時間比較
+## 時間比較
 
 {{apply-time-comparison}}
 

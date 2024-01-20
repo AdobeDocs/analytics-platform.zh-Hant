@@ -5,10 +5,10 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 2%
+source-wordcount: '556'
+ht-degree: 1%
 
 ---
 
@@ -31,14 +31,15 @@ ht-degree: 2%
 
 查詢邊欄可讓您設定以下元件：
 
+* **[!UICONTROL 檢視]**：在此檢視型別與之間切換 [使用狀況](usage.md).
 * **[!UICONTROL 活動]**：您要測量的事件。 每個選取的事件都會以個別的圖表呈現。 表格中會新增代表趨勢事件的列。 您最多可以包含五個事件。
-* **[!UICONTROL 人員]**：您要測量的區段。 每個選取的區段都會將圖表中的橫條數和表格中的列數加倍。 您最多可以包含五個區段。
+* **[!UICONTROL 計為]**：您要測量的量度。 選項包括 [!UICONTROL 使用者]，  [!UICONTROL 工作階段]，  [!UICONTROL 使用者百分比] 和  [!UICONTROL 工作階段百分比]. 此檢視中百分比型量度的分母是執行所選事件的使用者或工作階段，而非產品的所有作用中使用者。
+* **[!UICONTROL 區段]**：您要測量的區段。 每個選取的區段都會將圖表中的橫條數和表格中的列數加倍。 您最多可以包含五個區段。
 
 ## 圖表設定
 
 此 [!UICONTROL 頻率] 檢視提供下列圖表設定，可在圖表上方的功能表中調整：
 
-* **[!UICONTROL 量度]**：您要測量的量度。 選項包括 [!UICONTROL 使用者]，  [!UICONTROL 工作階段]，  [!UICONTROL 使用者百分比] 和  [!UICONTROL 工作階段百分比]. 此檢視中百分比型量度的分母是執行所選事件的使用者或工作階段，而非產品的所有作用中使用者。
 * **[!UICONTROL 圖表型別]**：您要使用的視覺效果型別。 選項包括 [!UICONTROL 橫條圖] 和 [!UICONTROL 棧疊長條圖].
 
 ## 分區設定
@@ -51,7 +52,7 @@ ht-degree: 2%
    * [!UICONTROL 至]：大於此值的頻率會分組到最後一個貯體。
    * [!UICONTROL 大小]：貯體間隔。
 
-## 套用時間比較
+## 時間比較
 
 {{apply-time-comparison}}
 

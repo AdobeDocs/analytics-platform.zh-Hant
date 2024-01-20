@@ -1,8 +1,8 @@
 ---
-source-git-commit: fb624689c91bfa25f9676a5823b800d918e24e18
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 # 程式碼片段
@@ -43,7 +43,7 @@ ht-degree: 66%
    | [!UICONTROL **缺少說明**] | 僅顯示在說明欄位中還沒有說明的元件。此選項僅提供給管理員使用。 |
    | [!UICONTROL **顯示重複項目**] | 僅顯示與所選資料檢視中其他元件具有相同名稱或相同說明的元件。 這包括您建立的元件以及Adobe提供的元件。 名稱或說明必須完全相符，才能顯示為重複專案。 此選項僅提供給管理員使用。 |
    | [!UICONTROL **無最近的資料**] | 僅顯示在過去 90 天內未收集任何資料的元件。此選項僅提供給管理員使用。 |
-   | [!UICONTROL **建立者：Adobe**] <!-- I don't see this option--> | 僅顯示由 Adobe 建立的元件。並不會顯示由管理員或您組織中的其他使用者建立的元件。 |
+   | [!UICONTROL **由Adobe建立**] <!-- I don't see this option--> | 僅顯示由 Adobe 建立的元件。並不會顯示由管理員或您組織中的其他使用者建立的元件。 |
 
    {style="table-layout:auto"}
 
@@ -74,7 +74,7 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-## 套用時間比較 {#apply-time-comparison}
+## 時間比較 {#apply-time-comparison}
 
 您可以將目前的時段與先前的時段進行比較。 如果您在此選單中選取選項，每個資料點都會收到類似顏色的虛線對應專案。 此對應專案代表所選先前日期範圍內的相同量度。 設定此選項可將圖表上的專案數和表格中的列數加倍。
 

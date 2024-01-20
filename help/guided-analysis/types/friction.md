@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Guided Analysis
 keywords: 產品分析
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -31,18 +31,21 @@ ht-degree: 1%
 
 查詢邊欄可讓您設定以下元件：
 
+* **[!UICONTROL 檢視]**：在此檢視型別與之間切換 [轉換趨勢](conversion-trends.md).
 * **[!UICONTROL 步驟]**：您要追蹤的事件接觸點。 圖表中的每個長條代表一個步驟。 您最多可以包含十個步驟。
-* **[!UICONTROL 人員]**：您要比較漏斗的區段。 選取的每個區段會將每個步驟分割成多個長條。 每種顏色代表不同的區段。 您最多可以包含三個區段。
+* **[!UICONTROL 計為]**：您要套用至漏斗的範圍。 選項包括 [!UICONTROL 工作階段] 和 [!UICONTROL 使用者].
+   * [!UICONTROL 工作階段]：所有步驟必須發生在相同工作階段內才會計入。
+   * [!UICONTROL 使用者]：所有步驟都必須在選取的報表期間發生，才能計算。
+* **[!UICONTROL 區段]**：您要比較漏斗的區段。 選取的每個區段會將每個步驟分割成多個長條。 每種顏色代表不同的區段。 您最多可以包含三個區段。
 
 ## 圖表設定
 
 摩擦檢視提供下列圖表設定，可在圖表上方的功能表中調整：
 
-* **[!UICONTROL 量度]**：您要套用至漏斗的範圍。 選項包括工作階段和使用者。 選取工作階段後，所有步驟必須發生在相同的工作階段中才會計入。 選取使用者後，所有步驟都必須在選取要計數的報告時段內發生。
-* **[!UICONTROL 圖表型別]**：您要使用的視覺效果型別。 選項包括步驟。
-* **[!UICONTROL 轉換自]**：決定每一步的百分比計算。 選項包括計算第一個步驟或上一個步驟的轉換。
+* **[!UICONTROL 圖表型別]**：您要使用的視覺效果型別。 選項包括 [!UICONTROL 步驟].
+* **[!UICONTROL 轉換自]**：決定每一步的百分比計算。 選項包括計算轉換 [!UICONTROL 第一步] 或 [!UICONTROL 上一步].
 
-## 套用時間比較
+## 時間比較
 
 {{apply-time-comparison}}
 

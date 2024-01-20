@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 2%
 
 ---
@@ -32,14 +32,14 @@ ht-degree: 2%
 查詢邊欄可讓您設定以下元件：
 
 * **[!UICONTROL 關鍵指標]**：您要為每個使用者測量的事件。 每個選取的關鍵指標都會以彩色線條表示。 表格中會新增代表事件的列。 您最多可以包含三個事件。
+* **[!UICONTROL 計為]**：您要測量的量度。 選項包括 [!UICONTROL 每位使用者的事件]， [!UICONTROL 使用者百分比]， [!UICONTROL 活動]， [!UICONTROL 工作階段]、和 [!UICONTROL 使用者].
 * **[!UICONTROL 因素]**：您要比較前後的日期。
-* **[!UICONTROL 人員]**：您要測量的區段。 所選的區段會篩選您的資料，以僅聚焦於符合您區段條件的個人。
+* **[!UICONTROL 區段]**：您要測量的區段。 所選的區段會篩選您的資料，以僅聚焦於符合您區段條件的個人。
 
 ## 圖表設定
 
 「版本」檢視提供下列圖表設定，您可在圖表上方的功能表中調整這些設定：
 
-* **[!UICONTROL 量度]**：您要測量的量度。 選項包括 [!UICONTROL 每位使用者的事件]， [!UICONTROL 使用者百分比]， [!UICONTROL 活動]， [!UICONTROL 工作階段]、和 [!UICONTROL 使用者].
 * **[!UICONTROL 圖表型別]**：您要使用的視覺效果型別。 選項包括 [!UICONTROL 折線圖] 和 [!UICONTROL 長條圖].
 
 ## 日期範圍
