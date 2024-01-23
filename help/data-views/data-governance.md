@@ -5,9 +5,9 @@ exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
 source-git-commit: 3b089a3d358a1a39a4b572576e911faaa4ceb1d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '493'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,9 +64,9 @@ ht-degree: 94%
 
 ## 啟用的原則如何影響資料檢視
 
-如果 **[!UICONTROL 強制執行分析]** 原則已啟用，無法將具有特定資料標籤（例如C8）的結構描述元件新增到資料檢視。
+如果已開啟&#x200B;**[!UICONTROL 強制執行 Analytics]** 原則，則無法將這些與某些資料標籤 (如 C8) 相關聯的方案元件新增到資料檢視。
 
-這些元件會在左側邊欄「[!UICONTROL 結構描述」欄位]清單中反灰：
+這些元件會在左側邊欄[!UICONTROL 「方案」欄位]清單中顯示為灰色：
 
 ![反灰元件和原則訊息指出原則已套用到此限制資料使用的欄位](assets/component-greyed.png)
 
