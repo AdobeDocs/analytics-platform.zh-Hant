@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '1394'
-ht-degree: 100%
+source-git-commit: e84010b9ea9e6385574e8b1a04f7eccbba3ebc90
+workflow-type: tm+mt
+source-wordcount: '1462'
+ht-degree: 95%
 
 ---
 
@@ -81,6 +81,12 @@ Adobe Analytics 客戶可以使用 Analytics 來源連接器輕鬆地在 Adobe E
 * 機器人篩選
 * 串流媒體測量
 * 直播串流或直播串流觸發器
+
+### 5.將專案和元件從Adobe Analytics對應至Customer Journey Analytics
+
+將您的專案及其相關元件從Adobe Analytics移轉至Customer Journey Analytics。
+
+在您組織中的任何人開始移轉專案之前，請依照中的說明開始移轉專案 [將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html)，第一個 [準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)
 
 ## 為重大差異做好準備
 
