@@ -5,9 +5,9 @@ keywords: 產品分析
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 6f80a1aa4ec9142d75fe1abb2f268dc60c7dd245
+source-git-commit: a5c2003a593917bce67346279a033a6041aff959
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1302'
 ht-degree: 2%
 
 ---
@@ -24,14 +24,15 @@ Adobe Product Analytics可讓產品團隊透過引導式Customer Journey Analyti
 
 | 分析類型 | 檢視類型 | 說明 |
 | --- | --- | --- |
-| [!UICONTROL 影響] | [版本](types/release.md) | 比較發行前後的相同期間效能。 |
-| [!UICONTROL 影響] | [首次使用](types/first-use.md) | 測量首次功能使用對關鍵指標的影響。 |
 | [!UICONTROL 漏斗] | [摩擦](types/friction.md) | 比較步驟之間的轉換率。 |
 | [!UICONTROL 漏斗] | [轉換趨勢](types/conversion-trends.md) | 追蹤轉換率在一段時間內的變化。 |
-| [!UICONTROL 使用者成長] | [作用中](types/active.md) | 識別新人、保留人、回訪者或休眠者。 |
-| [!UICONTROL 使用者成長] | [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
+| [!UICONTROL 影響] | [版本](types/release.md) | 比較發行前後的相同期間效能。 |
+| [!UICONTROL 影響] | [首次使用](types/first-use.md) | 測量首次功能使用對關鍵指標的影響。 |
+| [!UICONTROL 保留] | [保留率](types/retention-rates.md) | 衡量使用者持續的回訪習慣。 |
 | [!UICONTROL 趨勢] | [使用狀況](types/usage.md) | 測量一段時間內的使用者參與。 |
 | [!UICONTROL 趨勢] | [頻率](types/frequency.md) | 透過使用頻率測量參與度。 |
+| [!UICONTROL 使用者成長] | [作用中](types/active.md) | 識別新人、保留人、回訪者或休眠者。 |
+| [!UICONTROL 使用者成長] | [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
 
 {style="table-layout:auto"}
 
