@@ -5,10 +5,10 @@ title: 設定雲端匯出位置
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 3%
+source-wordcount: '1635'
+ht-degree: 4%
 
 ---
 
@@ -38,11 +38,18 @@ ht-degree: 3%
 
    「位置」對話方塊隨即顯示。
 
-1. 指定下列資訊： |欄位 | 函式 | ---------|----------| | [!UICONTROL **名稱**] | 位置的名稱。  | | [!UICONTROL **說明**] | 提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 | | [!UICONTROL **位置帳戶**] | 選取您要建立位置的帳戶。 如需有關如何建立帳戶的資訊，請參閱 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md). |
+1. 指定下列資訊： |欄位 | 函式 | ---------|----------| | [!UICONTROL **名稱**] | 位置的名稱。  | | [!UICONTROL **說明**] | 提供位置的簡短說明，以協助將其與帳戶上的其他位置區分開來。 | | [!UICONTROL **位置帳戶**] | 選取您要建立位置的帳戶。 如需有關如何建立帳戶的資訊，請參閱 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md). |
 
 1. 在 [!UICONTROL **位置屬性**] 區段，指定您位置帳戶之帳戶型別的專屬資訊。
 
    繼續以下對應至您在所選帳戶型別的區段 [!UICONTROL **位置帳戶**] 欄位。
+
+   * [AEP 資料登陸區域](#aep-data-landing-zone)
+   * [Amazon S3 Role ARN](#amazon-s3-role-arn)
+   * [Google Cloud Platform](#google-cloud-platform)
+   * [Azure SAS](#azure-sas)
+   * [Azure RBAC](#azure-rbac)
+   * [Snowflake](#snowflake)
 
 ### AEP 資料登陸區域
 
@@ -50,7 +57,11 @@ ht-degree: 3%
 >
 >將Customer Journey Analytics報表匯出至Adobe Experience Platform資料登陸區域時，請務必在7天內下載資料，然後從AEP資料登陸區域將其刪除。 7天後，資料會自動從AEP資料登陸區域刪除。
 
-1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+1. 透過下列任一種方式開始建立雲端匯出位置：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Adobe Experience Platform資料登陸區域的位置：
 
@@ -83,7 +94,11 @@ ht-degree: 3%
 
 ### Amazon S3 Role ARN
 
-1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+1. 透過下列任一種方式開始建立雲端匯出位置：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Amazon S3角色ARN位置：
 
@@ -102,7 +117,11 @@ ht-degree: 3%
 
 ### Google Cloud Platform
 
-1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+1. 透過下列任一種方式開始建立雲端匯出位置：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Google Cloud平台位置：
 
@@ -121,7 +140,11 @@ ht-degree: 3%
 
 ### Azure SAS
 
-1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+1. 透過下列任一種方式開始建立雲端匯出位置：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Azure SAS位置：
 
@@ -138,7 +161,11 @@ ht-degree: 3%
 
 ### Azure RBAC
 
-1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+1. 透過下列任一種方式開始建立雲端匯出位置：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Azure RBAC位置：
 
@@ -156,7 +183,11 @@ ht-degree: 3%
 
 ### Snowflake
 
-1. [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)，如上所述。
+1. 透過下列任一種方式開始建立雲端匯出位置：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出位置](#begin-creating-a-cloud-export-location)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Snowflake位置：
 

@@ -5,9 +5,9 @@ title: 設定雲端匯出帳戶
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: c60b48fa7bdc141e41a1df9ab9f9383cd2332713
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1877'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,11 @@ ht-degree: 3%
 >
 >將Customer Journey Analytics報表匯出至Adobe Experience Platform資料登陸區域時，請務必在7天內下載資料，然後從AEP資料登陸區域將其刪除。 7天後，資料會自動從AEP資料登陸區域刪除。
 
-1. [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)，如上所述。
+1. 透過下列其中一種方式開始建立雲端匯出帳戶：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
@@ -100,7 +104,11 @@ ht-degree: 3%
 
 ### Amazon S3 Role ARN
 
-1. [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)，如上所述。
+1. 透過下列其中一種方式開始建立雲端匯出帳戶：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
 
@@ -124,7 +132,11 @@ ht-degree: 3%
 
 ### Google Cloud Platform
 
-1. [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)，如上所述。
+1. 透過下列其中一種方式開始建立雲端匯出帳戶：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
 
@@ -148,7 +160,11 @@ ht-degree: 3%
 
 ### Azure SAS
 
-1. [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)，如上所述。
+1. 透過下列其中一種方式開始建立雲端匯出帳戶：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
 
@@ -176,7 +192,11 @@ ht-degree: 3%
 
 ### Azure RBAC
 
-1. [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)，如上所述。
+1. 透過下列其中一種方式開始建立雲端匯出帳戶：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
 
@@ -202,7 +222,11 @@ ht-degree: 3%
 
 ### Snowflake
 
-1. [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)，如上所述。
+1. 透過下列其中一種方式開始建立雲端匯出帳戶：
+
+   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+
+   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
 1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
 

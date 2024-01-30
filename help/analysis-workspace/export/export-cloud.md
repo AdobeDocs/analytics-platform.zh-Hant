@@ -5,9 +5,9 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: b76f534a01326b911ffbf93f089d46c6fc860979
+source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '2182'
 ht-degree: 3%
 
 ---
@@ -73,8 +73,8 @@ ht-degree: 3%
    | 開始日期 | 排程匯出應該開始的日期和時間。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 結束日期 | 排定的匯出到期的日期和時間。 排定的匯出在您設定的日期和時間後不再執行。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 檔案格式 | 選擇匯出的資料應該是.csv還是.json格式。 |
-   | 帳戶 | 選取您要傳送資料的雲端匯出帳戶。 <p>如需詳細資訊，請參閱 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md).</p> |
-   | 位置名稱 | 選取您要將匯出資料傳送到的帳戶位置。 <p>如需詳細資訊，請參閱 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).</p><p>您可以選取 [!UICONTROL **新增位置**] 按鈕來建立現有匯出帳戶的新位置。 |
+   | 帳戶 | 選取您要傳送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，您可以設定新帳戶：<ol><li>選取 [!UICONTROL **新增帳戶**]，然後指定下列資訊：<ul><li>[!UICONTROL **位置帳戶名稱**]：指定位置帳戶的名稱。 建立位置時會顯示此名稱 </li><li>[!UICONTROL **位置帳戶說明**]：提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。</li><li>[!UICONTROL **帳戶型別**]：選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake和AEP資料登陸區域。</li></ul><li>若要完成帳戶的設定，請繼續使用以下對應至 [!UICONTROL **帳戶型別**] 您已選取：<ul><li>[AEP資料登陸區域](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3角色ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud平台](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
+   | 位置名稱 | 選取您要將匯出資料傳送到的帳戶位置。<p>或者，如果您尚未在選取的帳戶上設定您要使用的位置，您可以設定新的位置：<ol><li>選取 [!UICONTROL **新增位置**]，然後指定下列資訊： <ul><li>[!UICONTROL **名稱**]：位置名稱。</li><li>[!UICONTROL **說明**]：提供位置的簡短說明，以協助將其與帳戶上的其他位置區分開來。</li><li>[!UICONTROL **位置帳戶**]：選取您要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續以下連結，對應至您在 [!UICONTROL **位置帳戶**] 欄位：<ul><li>[AEP資料登陸區域](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[Amazon S3角色ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud平台](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
 
    {style="table-layout:auto"}
 
