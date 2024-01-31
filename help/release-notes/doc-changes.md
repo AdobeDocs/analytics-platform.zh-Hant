@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: 7fdaf5868fd1aacbfec526749729be1fb5486cf7
 workflow-type: tm+mt
 source-wordcount: '2984'
 ht-degree: 84%
@@ -20,7 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 1 月** | |
-| 預測 | 已新增有關以下專案的檔案： [預測](../analysis-workspace/c-forecast/forecasting.md)，新的Analysis Workspace功能可針對自由表格和連結圖，使用任何支援的時間詳細程度（每小時、每日、每週、每月和每年）來預測標準或計算量度。 |
+| 預測 | 已新增有關以下專案的檔案： [預測](../analysis-workspace/c-forecast/forecasting.md)，新的Analysis Workspace功能可針對自由表格和折線圖，使用任何支援的時間詳細程度（每小時、每日、每週、每月和每年）來預測標準或計算量度。 |
 | 更新匯出完整表格時新增帳戶和位置的檔案 | 更新說明檔案，以反映在設定新帳戶或位置時 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>新 [!UICONTROL **新增帳戶**] 選項現在可在 [!UICONTROL **帳戶**] 下拉式功能表。 此 [!UICONTROL **新增位置**] 之前作為按鈕提供的選項 [!UICONTROL **位置名稱**] 功能表本身現在提供下拉式功能表。 |
 | 從Adobe Analytics移轉時的新元件移轉資訊 | 已新增資訊至 [Adobe Analytics的演化](/help/getting-started/aa-to-cja.md) 會參照新的 [元件移轉](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics管理指南中記錄的功能。 |
 | 澄清某些資訊僅供管理員使用 | 新增資訊以陳述中說明的「上次使用」和「用於」欄。 [計算量度管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md) 和 [篩選器管理器](/help/components/filters/manage-filters.md) 僅供系統管理員使用。 |
