@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1587f98d0650d07a2f496c239d7b6bf69611535e
+source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2984'
 ht-degree: 84%
 
 ---
@@ -20,6 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 1 月** | |
+| 預測 | 已新增有關以下專案的檔案： [預測](../analysis-workspace/c-forecast/forecasting.md)，新的Analysis Workspace功能可針對自由表格和連結圖，使用任何支援的時間詳細程度（每小時、每日、每週、每月和每年）來預測標準或計算量度。 |
 | 更新匯出完整表格時新增帳戶和位置的檔案 | 更新說明檔案，以反映在設定新帳戶或位置時 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>新 [!UICONTROL **新增帳戶**] 選項現在可在 [!UICONTROL **帳戶**] 下拉式功能表。 此 [!UICONTROL **新增位置**] 之前作為按鈕提供的選項 [!UICONTROL **位置名稱**] 功能表本身現在提供下拉式功能表。 |
 | 從Adobe Analytics移轉時的新元件移轉資訊 | 已新增資訊至 [Adobe Analytics的演化](/help/getting-started/aa-to-cja.md) 會參照新的 [元件移轉](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics管理指南中記錄的功能。 |
 | 澄清某些資訊僅供管理員使用 | 新增資訊以陳述中說明的「上次使用」和「用於」欄。 [計算量度管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md) 和 [篩選器管理器](/help/components/filters/manage-filters.md) 僅供系統管理員使用。 |
@@ -41,7 +42,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 更新異常偵測檔案 | 異常偵測的檔案先前位於虛擬分析人員的相關區段。 以下是所做的變更： <ul><li>術語 Virtual Analyst 已從文件中刪除。</li><li>「[異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)」的區段直接移至 Analysis Workspace 區段下方。</li></ul> |
 | **2023 年 10 月** | |
 | 使用衍生欄位來設定目標/目標 | 已新增 [使用案例](../use-cases/goals-using-derived-fields.md) 說明如何使用衍生欄位來設定目標/目標及製作相關報表的文章。 |
-| 將完整的表格匯出至雲端 | 新增有關將包含數百萬工作區列的完整表格匯出至雲端目的地的檔案。 <p>匯出完整表格可提供在 Workspace 中設計之資料表格的一次性或排程傳送，最多可支援五個劃分、五個量度、篩選器和計算量度，且全部都可以在串連表格中完成。這是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多經常要求且目前在 Data Warehouse 中尚未提供的新功能。</p><p>如需更多資訊，請參閱[將 Customer Journey Analytics 報告匯出至雲端](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)。 | 2023 年 10 月 4 日 |
+| 將完整的表格匯出至雲端 | 新增有關將包含數百萬工作區列的完整表格匯出至雲端目的地的檔案。 <p>匯出完整表格可提供在 Workspace 中設計之資料表格的一次性或排程傳送，最多可支援五個劃分、五個量度、篩選器和計算量度，且全部都可以在串連表格中完成。這是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多經常要求且目前在 Data Warehouse 中尚未提供的新功能。</p><p>如需更多資訊，請參閱[將 Customer Journey Analytics 報告匯出至雲端](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)。 |
 | 報告活動管理員 | 新增報告活動管理器的檔案。 <p>報告活動管理器可讓您查看組織中每個連線的報告產能。它為管理員提供了報告消耗的詳細可見度，以便在尖峰報告期間輕鬆診斷和修復容量問題。</p> <p>已新增下列新文章：<ul><li>[報告活動管理器總覽](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[在報告活動管理器中檢視報告活動](/help/reporting-activity-manager/reporting-activity.md)</li><li>[取消報告活動管理器中的請求](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
 | 管理頁面上的新欄 | 已記錄的新欄現在可在 [計算量度管理員](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html) 和 [篩選器管理器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html). |
 | 與 Adobe Analytics 比較 | 已新增 [概觀頁面](../getting-started/aa-vs-cja/overview.md) 以介紹如何比較和瞭解Customer Journey Analytics與Adobe Analytics之間的差異。 |

@@ -4,10 +4,10 @@ title: 折線圖
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 30f3e24533ab0e03ee7f819c7f94592776603764
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 84%
+source-wordcount: '524'
+ht-degree: 81%
 
 ---
 
@@ -21,13 +21,14 @@ ht-degree: 84%
 
 ![線條圖視覺效果](assets/line-viz.png)
 
-按一下線條圖視覺效果右上角的齒輪圖示，即可存取可用的&#x200B;[**視覺效果設定**](freeform-analysis-visualizations.md)。設定可歸類為：
+選取設定圖示 ![設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) 要存取的線條圖視覺效果頂端列中 [視覺效果設定](freeform-analysis-visualizations.md) 可用。 設定可歸類為：
+
+<img src="./assets/viz-settings-line.png" alt="視覺效果設定" width="50%" />
 
 * **一般**：在各種視覺效果類型中都很常見的設定
 * **軸**：影響線條圖視覺效果 X 或 Y 軸的設定
 * **覆蓋**：用於將其他內容新增至線條圖視覺效果中所顯示系列的選項。
 
-![視覺效果設定](assets/viz-settings-modal.png)
 
 ## 變更詳細程度
 

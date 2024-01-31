@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1e024f7f84f96be446a2a922bd026bc70a6edf7e
+source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 71%
+ht-degree: 65%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 71%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **時間序列預測** | 預測是 Analysis Workspace 的新功能，用於以任何支援的時間詳細程度 (每小時、每天、每週、每月和每年) 預測標準或計算量度。 | 2024 年 1 月 31 日 | 2024 年 2 月 21 日 |
+| **時間序列預測** | [預測](../analysis-workspace/c-forecast/forecasting.md) 是新的Analysis Workspace功能，可針對任何支援的時間詳細程度（每小時、每日、每週、每月及每年）預測標準或計算量度。 | 2024 年 1 月 31 日 | 2024 年 2 月 21 日 |
 | **關鍵量度摘要視覺效果更新** | 使用關鍵量度摘要視覺效果時，比較日期範圍現在可以自動更新，具體取決於您選擇的比較日期範圍選項是相對於主要日期範圍還是固定的。[了解更多](/help/analysis-workspace/visualizations/key-metric.md)。 | 不適用 | 2024 年 1 月 17 日 |
 | **Adobe Product Analytics — 保留率分析** | 保留率是新的引導式分析，可讓您衡量使用者持續的回訪習慣。 [了解更多](../guided-analysis/types/retention-rates.md) | 不適用 | 2024 年 1 月 8 日 |
 | **Adobe Product Analytics — 趨勢線覆蓋** | 趨勢線是新的覆蓋設定，可在 [使用趨勢](/help/guided-analysis/types/usage.md) 檢視和協助以更清晰的資料模式描述。 | 不適用 | 2024 年 1 月 17 日 |

@@ -5,10 +5,10 @@ title: 視覺效果概觀
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 81%
+source-wordcount: '1326'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
 | 視覺效果名稱 | 說明 |
 | --- | --- | 
-| [區域](/help/analysis-workspace/visualizations/area.md)<p>![區域圖示](assets/Smock_GraphArea_18_N.svg)</p> | 類似線圖，但在線圖下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可使用區域圖。 | 回答的問題如下： <ul><li> |
+| [區域](/help/analysis-workspace/visualizations/area.md)<p>![區域圖示](assets/Smock_GraphArea_18_N.svg)</p> | 類似線圖，但在線圖下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可使用區域圖。 |
 | [長條圖](/help/analysis-workspace/visualizations/bar.md) <p>![長條圖示](assets/Smock_GraphBarVertical_18_N.svg)</p> | 顯示代表一或多個量度多個值的垂直長條。 |
 | [項目圖表](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![專案符號圖示](assets/Smock_GraphBullet_18_N.svg)</p> | 顯示您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。 |
 | [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![同類群組表格圖示](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`*&#x200B;是指一段指定時間內，共享相同特徵的一組人。Cohort Analysis (同類群組分析) 對保留、攪動或延遲分析很有用處。 |
@@ -80,9 +80,9 @@ Analysis Workspace 中有以下視覺效果類型：
 
 ## 設定 {#settings}
 
-每個視覺效果都有各自的設定可供您管理。若要存取[!UICONTROL 視覺效果設定]，請按一下「[!UICONTROL 視覺效果設定]」齒輪圖示。
+每個視覺效果都有各自的設定可供您管理。若要存取視覺效果設定，請選取設定圖示 ![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg).
 
-![視覺效果設定顯示下節所述的設定選項。](assets/settings.png)
+<img src="./assets/viz-settings-line.png" alt="視覺效果設定" width="50%" />
 
 | 設定 | 說明 |
 | --- | --- |
@@ -95,7 +95,8 @@ Analysis Workspace 中有以下視覺效果類型：
 | 將 Y 軸固定於零 | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
 | 標準化 | 強制量度為相同比例。當繪製的量度大小非常不同時，這項功能會很有用。 |
 | 顯示雙軸 | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。 |
-| 顯示異常 | 以顯示異常偵測方法來強化線圖和自由圖形表格。線圖視覺效果內的異常偵測包含一個預期值 (虛線) 和一個預期範圍 (陰影帶)。 |
+| 顯示異常狀況 | 以顯示異常偵測方法來強化線圖和自由圖形表格。線圖視覺效果內的異常偵測包含一個預期值 (虛線) 和一個預期範圍 (陰影帶)。 |
+| 顯示預測 | 藉由顯示預測值來強化線圖和自由格式表格。 |
 
 ## 圖例 {#legend}
 
