@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 90d91f07296f8c961d1b60ddbdc3d6b086958141
+source-git-commit: 1e024f7f84f96be446a2a922bd026bc70a6edf7e
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 74%
+source-wordcount: '439'
+ht-degree: 71%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 74%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Product Analytics — 保留率** | 保留率是新的引導式分析，可顯示使用者在所需日期範圍內初次參與後回訪的百分比。 [了解更多](../guided-analysis/types/retention-rates.md) | 不適用 | 2024 年 1 月 8 日 |
-| **Adobe Product Analytics — 趨勢線** | 趨勢線是新的引導式分析，可在 [使用狀況](/help/guided-analysis/types/usage.md) 檢視，有助於描繪更清楚的資料模式。 | 不適用 | 2024 年 1 月 17 日 |
-| **關鍵量度摘要視覺效果更新** | 使用關鍵量度摘要視覺效果時，比較日期範圍現在可以自動更新，具體取決於您選擇的比較日期範圍選項是相對於主要日期範圍還是固定的。[了解更多](/help/analysis-workspace/visualizations/key-metric.md)。 | 不適用 | 2024 年 1 月 17 日 |
-| **Adobe Product Analytics — 使用者資料流** | 「使用者資料流」是新的引導式分析，可讓您探索個別使用者事件資料流。 透過此分析，您可以找到體驗模式並講述更好的使用者故事。 | 不適用 | 2024年2月7 |
-| **Adobe Product Analytics — 查詢邊欄改善** | 在引導式分析中，查詢邊欄現在包含一些元件設定，可改善可用性。 | 不適用 | 2024 年 1 月 31 日 |
 | **時間序列預測** | 預測是 Analysis Workspace 的新功能，用於以任何支援的時間詳細程度 (每小時、每天、每週、每月和每年) 預測標準或計算量度。 | 2024 年 1 月 31 日 | 2024 年 2 月 21 日 |
+| **關鍵量度摘要視覺效果更新** | 使用關鍵量度摘要視覺效果時，比較日期範圍現在可以自動更新，具體取決於您選擇的比較日期範圍選項是相對於主要日期範圍還是固定的。[了解更多](/help/analysis-workspace/visualizations/key-metric.md)。 | 不適用 | 2024 年 1 月 17 日 |
+| **Adobe Product Analytics — 保留率分析** | 保留率是新的引導式分析，可讓您衡量使用者持續的回訪習慣。 [了解更多](../guided-analysis/types/retention-rates.md) | 不適用 | 2024 年 1 月 8 日 |
+| **Adobe Product Analytics — 趨勢線覆蓋** | 趨勢線是新的覆蓋設定，可在 [使用趨勢](/help/guided-analysis/types/usage.md) 檢視和協助以更清晰的資料模式描述。 | 不適用 | 2024 年 1 月 17 日 |
+| **Adobe Product Analytics — 查詢邊欄增強功能** | 在引導式分析中，左側的查詢邊欄現在包含檢視型別和計為設定，這些設定先前可在視覺效果設定中使用。 | 不適用 | 2024 年 1 月 31 日 |
+| **Adobe Product Analytics — 使用者資料流分析** | 「使用者資料流」是新的引導式分析，可讓您探索個別使用者事件資料流，協助您尋找體驗模式並訴說更好的使用者故事。 | 不適用 | 2024年2月7 |
 
 {style="table-layout:auto"}
 
