@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 37d9e8e84e1982d63f2173601d75f0b7fa552b73
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1495'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -82,19 +82,19 @@ Adobe Analytics 客戶可以使用 Analytics 來源連接器輕鬆地在 Adobe E
 * 串流媒體測量
 * 直播串流或直播串流觸發器
 
-### 5.將專案和元件從Adobe Analytics對應至Customer Journey Analytics
+### 5. 將 Adobe Analytics 的專案和元件對應到 Customer Journey Analytics
 
-Adobe Analytics管理員可將Adobe Analytics專案及其相關元件移轉至Customer Journey Analytics。
+Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移轉到 Customer Journey Analytics。
 
-移轉程式包括：
+移轉過程包括：
 
-* 在Customer Journey Analytics中重新建立Adobe Analytics專案。
+* 在 Customer Journey Analytics 中重新建立 Adobe Analytics 專案。
 
-* 從Adobe Analytics報表套裝對應維度和量度至Customer Journey Analytics資料檢視中的維度和量度。
+* 將 Adobe Analytics 報表套件中的維度和指標對應到 Customer Journey Analytics 資料視圖中的維度和指標。
 
-開始移轉之前，請先執行 [準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html).
+在開始移轉之前，首先[準備將元件和專案從 Adobe Analytics 移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)。
 
-完成所有必要的準備工作後，您可以 [將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html).
+完成所有必要的準備工作後，您可以[將元件和專案從 Adobe Analytics 移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/component-migration.html)。
 
 ## 為重大差異做好準備
 
