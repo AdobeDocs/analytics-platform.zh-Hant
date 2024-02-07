@@ -4,16 +4,16 @@ description: 探索工作階段活動中的模式。
 feature: Guided Analysis
 keywords: 產品分析
 role: User
-source-git-commit: 5cd54973b08285badbedce273ac28371158f194c
+source-git-commit: ecdbe1b68aa0824bd9db4acefd3ef9059d9ac927
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '390'
 ht-degree: 2%
 
 ---
 
 # [!UICONTROL 時間表] 檢視
 
-此 **[!UICONTROL 時間表]** 檢視可讓您分析個別工作階段，以判斷行為模式。 右側邊欄可讓您選取人員ID以進行分析。 中心區域會顯示該人員的時間、屬性值和持續時間。
+此 **[!UICONTROL 時間表]** 檢視可讓您分析個別工作階段，以判斷行為模式。 右側邊欄可讓您選取要分析的人員ID。 中心區域會顯示該人員每個事件的時間、選取的屬性值及持續時間。
 
 此分析需要您新增 **[!UICONTROL 人員ID]** 將標準元件移至 [資料檢視](/help/data-views/component-reference.md#optional). 如果您沒有 [!UICONTROL 人員ID] 元件新增至資料檢視時，會顯示下列訊息：
 
@@ -47,5 +47,5 @@ ht-degree: 2%
 
 分析所需的日期範圍。 此設定包含兩個元件：
 
-* **[!UICONTROL 間隔]**：您要用來檢視趨勢資料的日期詳細程度。 此設定不會影響非趨勢檢視，例如頻率。
+* **[!UICONTROL 間隔]**：您要用來檢視趨勢資料的日期詳細程度。 此設定不會影響非趨勢檢視，例如時間軸。
 * **[!UICONTROL 日期]**：開始和結束日期。 您可方便使用滾動日期範圍預設集和先前儲存的自訂範圍，或使用日曆選擇器來選擇固定日期範圍。
