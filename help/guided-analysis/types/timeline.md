@@ -4,9 +4,9 @@ description: 探索體驗模式並訴說更好的使用者故事。
 feature: Guided Analysis
 keywords: 產品分析
 role: User
-source-git-commit: 2836582b13ae9aa971b521db7ed1c54805eb0e94
+source-git-commit: d7e1092e1b2b4e9decd8d601c4b6415b13f1e02a
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -17,10 +17,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->「時間軸」檢視需要 **[!UICONTROL 人員ID]** 標準元件可在 [資料檢視](/help/data-views/component-reference.md#optional). 在資料檢視中加入人員ID是由Adobe Analytics資料管理員管理，這讓組織可以完全控制誰可以存取此資料的隱私權。 如果資料檢視沒有 [!UICONTROL 人員ID] 新增元件後，會顯示下列訊息：
+>「時間軸」檢視需要 **[!UICONTROL 人員ID]** 標準元件可在 [資料檢視](/help/data-views/component-reference.md#optional). 在資料檢視中加入人員ID是由Adobe Analytics資料管理員管理，這讓組織可以完全控制誰可以存取此資料的隱私權。
 
-* **管理員**：此分析需要PersonID屬性。 請新增人員ID至資料檢視。
-* **非管理員**：此分析需要PersonID屬性。 請洽詢您的Adobe Analytics管理員。
+如果資料檢視沒有 [!UICONTROL 人員ID] 新增元件後，會顯示下列訊息：
+* **管理員**：此分析需要PersonID屬性。 請將人員ID新增至資料檢視。
+* **非管理員**：此分析需要PersonID屬性。 請與您的Customer Journey Analytics管理員合作，將人員ID新增至資料檢視。
 
 ## 使用案例
 
