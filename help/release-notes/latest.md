@@ -3,36 +3,36 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 9f60d83673591aebeffeb6442bf9f8b897ab2f20
-workflow-type: ht
-source-wordcount: '470'
-ht-degree: 100%
+source-git-commit: 29c124da55842bcb9085059a9008f7a7d6baf44e
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 43%
 
 ---
 
-# 最新的 Adobe Customer Journey Analytics 發行說明 (2024 年 1 月)
+# 最新Adobe Customer Journey Analytics發行說明（2024年2月）
 
-**上次更新日期**：2024 年 1 月 30 日
+**上次更新**：2024年2月14日
 
-這些發行說明涵蓋 2024 年 1 月 8 日至 2024 年 2 月 13 日的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2024年2月14日到2024年3月11日的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **略過的記錄詳細資料** | 您可以擷取為什麼在設定連線時會略過記錄的詳細原因。如需詳細資訊，請參閱[連線詳細資料](../connections/manage-connections.md#connection-details)。 | 2024 年 2 月 5 日 | 2024 年 2 月 5 日 |
-| **時間序列預測** | [預測](../analysis-workspace/c-forecast/forecasting.md)是 Analysis Workspace 的新功能，可以自由格式表格和線圖支援的任何時間詳細程度 (每小時、每天、每週、每月和每年) 來預測標準或計算量度。 | 2024 年 1 月 31 日 | 2024 年 2 月 21 日 |
-| **關鍵量度摘要視覺效果更新** | 使用關鍵量度摘要視覺效果時，比較日期範圍現在可以自動更新，具體取決於您選擇的比較日期範圍選項是相對於主要日期範圍還是固定的。[了解更多](/help/analysis-workspace/visualizations/key-metric.md)。 | 不適用 | 2024 年 1 月 17 日 |
-| **Adobe Product Analytics - 保留率分析** | 保留率是一種全新的引導分析，可讓您衡量使用者的持續回訪習慣。[了解更多](../guided-analysis/types/retention-rates.md) | 不適用 | 2024 年 1 月 8 日 |
-| **Adobe Product Analytics - 趨勢線覆蓋** | 趨勢線是[使用趨勢](/help/guided-analysis/types/usage.md) 視圖中提供的全新覆蓋設定，有助於描繪更清晰的資料模式。 | 不適用 | 2024 年 1 月 17 日 |
-| **Adobe Product Analytics - 查詢邊欄加強功能** | 在引導分析中，左側查詢邊欄現在包括「視圖類型」和「計為」的設定；這些設定以前是在「視覺化」設定中提供。 | 不適用 | 2024 年 1 月 31 日 |
-| **Adobe Product Analytics - 使用者資料流分析** | 使用者資料流是一種全新的引導分析，可讓您探索單一使用者事件的資料流，進而幫助您找到體驗模式並講述更好的使用者故事。 | 不適用 | 2024 年 2 月 7 日 |
+| **時間序列預測** | [預測](../analysis-workspace/c-forecast/forecasting.md) 是新的Analysis Workspace功能，可用來預測自由表格和折線圖的標準或計算量度以及任何支援的時間詳細程度（每小時、每日、每週、每月及每年）。 | 2024 年 1 月 31 日 | 2024 年 2 月 21 日 |
+| **Media Analytics報表 — 平均每分鐘觀眾數(AMA)** | 「平均每分鐘觀眾數」面板現在可在CJA中使用。 Media Analytics客戶可以使用「平均每分鐘觀眾數」面板來更瞭解其內容的平均使用量。 「平均每分鐘觀眾數」可比較任何長度或類型的節目。 此外，觀眾也可以比較這個數位「平均每分鐘觀眾數」，或是將其附加到線性電視的平均每分鐘指標。此面板提供較大的彈性來測量自訂時段的平均觀眾數，以及事後更新了持續時間分類時的平均觀眾數。 |  | 2024年2月16日 |
+| **查閱和設定檔資料的列計數量度** | 資料集的列計數量度，已設定為連線的一部分，現在包含從設定檔和查詢資料集中新增、略過或刪除的記錄。 |  | 2024年2月14日 |
+| **體驗邊緣機器人偵測** | [機器人偵測](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 可讓您將Web SDK、Mobile SDK和伺服器API產生的事件識別為已知編目程式和機器人產生的事件。 | | 2024 年 2 月 21 日 |
+| **使用量度** | 使用量度介面會顯示所有連線中擷取和可報告資料列的使用情形。 此介面可讓您確定您的Customer Journey Analytics使用方式是否符合合約所同意的內容。 | 2024年2月20日 | 2024年3月初 |
+| **Adobe Product Analytics：與任何人共用** | 可讓您與沒有Adobe Product Analytics存取許可權的人共用指向Product Analytics專案的唯讀連結。 |  | 2024 年 2 月 21 日 |
+| **Adobe Product Analytics：套用計算量度** | 您現在可以存取在Analysis Workspace中建立的計算量度，或在「趨勢：使用情況」檢視中存取計算量度產生器，讓您能夠分析一段時間內的量度趨勢並加以比較。 |  | 2024年2月16日 |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics 中的修正
 
-AN-310972；AN-332774；AN-332793；AN-332796；AN-333157；AN-334067；AN-334134；AN-334968；AN-335315；AN-335518；AN-335533；AN-335736；
+AN-333172、AN-336887、AN-337402、AN-337593、AN-338482、AN-338684、AN-339883、AN-340200
 
 ## 給 Customer Journey Analytics 管理員的重要通知
 
