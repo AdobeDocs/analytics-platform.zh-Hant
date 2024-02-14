@@ -4,7 +4,7 @@ description: 觀察一段時間內的使用者層級工作階段事件，以尋�
 feature: Guided Analysis
 keywords: 產品分析
 role: User
-source-git-commit: 6f3725653453e31244bfed34670782fe9d9c0c2f
+source-git-commit: 2eeaedd1c478fb9ae7a264a0af4a35327268c499
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 
 此 **[!UICONTROL 時間表]** 檢視可讓您觀察一段時間內的使用者層級工作階段事件，以尋找體驗模式並訴說更好的使用者故事。 左側邊欄可讓您依據屬性值和區段來篩選資料流。 右側欄可讓您從符合篩選條件的隨機使用者清單中選取。 中央區域會依工作階段顯示所選使用者的資料流，包含時間戳記、屬性值和持續時間。 持續時間不適用於指定工作階段中的最後一個事件。
 
+![時間軸熒幕擷圖](../assets/timeline.png)
+
 >[!NOTE]
 >
 >「時間軸」檢視需要 **[!UICONTROL 人員ID]** 標準元件可在 [資料檢視](/help/data-views/component-reference.md#optional). 在資料檢視中加入人員ID是由Customer Journey Analytics管理員管理，讓您的組織能夠完全控制誰可以存取此資料的隱私權。
@@ -23,8 +25,6 @@ ht-degree: 1%
 
 * **管理員**： *此分析需要PersonID屬性。 請將人員ID新增至資料檢視。*
 * **非管理員**： *此分析需要PersonID屬性。 請與您的Customer Journey Analytics管理員合作，將人員ID新增至資料檢視。*
-
-![時間軸熒幕擷圖](../assets/timeline.png)
 
 ## 使用案例
 
