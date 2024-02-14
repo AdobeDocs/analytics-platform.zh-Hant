@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
+source-git-commit: b49db376cb62c0668b8433c5dc5f66481966c333
 workflow-type: tm+mt
 source-wordcount: '3065'
 ht-degree: 82%
@@ -20,7 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 2 月** | |
-| 澄清產品管理員一律可以匯出完整的表格 | 進行下列變更，以釐清獲指派產品管理員角色的使用者預設擁有從Analysis Workspace匯出完整表格的許可權： <ul><li>新增專案符號至 [產品管理員預設許可權](/help/admin/cja-access-control.md#product-admin-default-permissions). <p>在底下新增附註 [將完整表格匯出至雲端的最低需求](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</p> |
+| 澄清產品管理員一律可以匯出完整的表格 | 進行下列變更，以釐清獲指派產品管理員角色的使用者預設擁有從Analysis Workspace匯出完整表格的許可權： <ul><li>新增專案符號至 [產品管理員預設許可權](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>在底下新增附註 [將完整表格匯出至雲端的最低需求](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
 | 略過的記錄詳細資料 | 新增有關「連線」中略過的記錄詳細資料功能的檔案。 如需詳細資訊，請參閱[連線詳細資料](../connections/manage-connections.md#connection-details)。 |
 | **2024 年 1 月** | |
 | 預測 | 已新增有關以下專案的檔案： [預測](../analysis-workspace/c-forecast/forecasting.md)，新的Analysis Workspace功能可針對自由表格和折線圖，使用任何支援的時間詳細程度（每小時、每日、每週、每月和每年）來預測標準或計算量度。 |
