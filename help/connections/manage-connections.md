@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f9f42f3c069177338fe62eb90cccf0e12f5b9d2a
+source-git-commit: 0cf1f69d5623a827cba64427c8db614b690968a0
 workflow-type: tm+mt
-source-wordcount: '2535'
-ht-degree: 25%
+source-wordcount: '2484'
+ht-degree: 26%
 
 ---
 
@@ -131,9 +131,9 @@ ht-degree: 25%
 | 日期範圍選擇器 | 編輯開始和/或結束日期或選取 ![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 以開啟資料範圍選擇器。 在日期範圍選取器中，使用其中一個預先定義的期間來選取日期範圍(例如 **[!UICONTROL 過去6個月]**)或使用日曆來選取開始和結束日期。 選取 **[!UICONTROL 套用]** 以套用新的資料範圍。 |
 | [!UICONTROL 可用的事件資料記錄] | 代表在&#x200B;**整個連線**&#x200B;中可用來報告的總事件資料集列數。 此計數與任何行事曆設定皆無關。 如果您從資料集選擇器選取資料集，或在表格中選取資料集，則計數會變更。 新增資料後，會延遲1-2小時讓資料出現在報告中。 |
 | [!UICONTROL 量度] | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;彙總已新增/略過/刪除的事件記錄，以及已新增的批次數量。<p>選取 **[!UICONTROL 檢查詳細資訊]** 以顯示 **[!UICONTROL 檢查略過的詳細資訊]** 快顯視窗，為所有事件資料集或選取的資料集列出略過的記錄數量和原因。<p><img src="./assets/skipped-records.png" width="70%"/><p>選取 ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 包含更多資訊的快顯視窗。 由於某些略過的原因，例如 [!UICONTROL 空的訪客ID]，快顯視窗會顯示您可在其中使用的EQS範例PSQL (查詢服務Experience Platform) [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) 以查詢資料集中略過的記錄。 選取 ![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL 複製EQS的範例PSQL]** 複製SQL。 |
-| [!UICONTROL 新增的記錄] | 指出在選取的時段內，針對您選取的資料集和日期範圍&#x200B;**新增了多少列。**&#x200B;每 10 分鐘更新一次。 <p>**注意**：資料 **[!UICONTROL 新增的記錄]** 目前僅包括事件資料，不包括設定檔或查詢資料。 |
-| [!UICONTROL 略過的記錄] | 針對您選取的資料集和日期範圍&#x200B;**，指出在選取的時段內已略過多少列。**&#x200B;略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人ID等。 每 10 分鐘更新一次。 <p>人員 ID 無效 (例如「未定義」、「00000000」，或[!UICONTROL 人員 ID] 在指定月份中出現超過 100 萬次的事件) 無法歸因於任何特定使用者或人員。無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用 [拼接](/help/stitching/overview.md) 以使用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間將略過該使用者ID （偏好使用無效或全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> <p>**注意**：資料 **[!UICONTROL 略過的記錄]** 目前僅包括事件資料，不包括設定檔或查詢資料。 |
-| [!UICONTROL 記錄] 已刪除 | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;指示在所選的時段內刪除了多少列。 例如，可能有人已刪除 Experience Platform 中的資料集。 每 10 分鐘更新一次。<p>**注意**：資料 **[!UICONTROL 刪除的記錄]** 目前僅包括事件資料，不包括設定檔或查詢資料。 |
+| [!UICONTROL 新增的記錄] | 指出在選取的時段內，針對您選取的資料集和日期範圍&#x200B;**新增了多少列。**&#x200B;每 10 分鐘更新一次。 |
+| [!UICONTROL 略過的記錄] | 針對您選取的資料集和日期範圍&#x200B;**，指出在選取的時段內已略過多少列。**&#x200B;略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人ID等。 每 10 分鐘更新一次。 <p>人員 ID 無效 (例如「未定義」、「00000000」，或[!UICONTROL 人員 ID] 在指定月份中出現超過 100 萬次的事件) 無法歸因於任何特定使用者或人員。無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用 [拼接](/help/stitching/overview.md) 以使用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間將略過該使用者ID （偏好使用無效或全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> |
+| [!UICONTROL 記錄] 已刪除 | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;指示在所選的時段內刪除了多少列。 例如，可能有人已刪除 Experience Platform 中的資料集。 每 10 分鐘更新一次。 |
 | ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) _搜尋資料集名稱或識別碼_ | 資料集搜尋欄位。 您可以依資料集名稱或頁面名稱 [!UICONTROL 資料集ID]. |
 | [!UICONTROL 資料集表格] | 顯示屬於連線之一部分的資料集。 |
 | [!UICONTROL 資料集] | 顯示屬於連線之一部分的資料集名稱。 您可以選取超連結，在新標籤的Experience PlatformUI中開啟資料集。 您可以選取列或核取方塊，僅顯示所選資料集的詳細資訊。 |
