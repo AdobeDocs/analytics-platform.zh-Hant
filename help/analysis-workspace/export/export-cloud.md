@@ -5,9 +5,9 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: e16d071df04d91ec6627efd250515fb2d54515bb
+source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2210'
 ht-degree: 3%
 
 ---
@@ -147,6 +147,11 @@ ht-degree: 3%
 * **環境：** 管理員應確保IP位址列在 [Customer Journey Analytics使用的IP位址](/help/admin/ip-addresses.md) 包含在防火牆允許清單中。
 
 * **許可權：** 在Adobe Admin Console中，必須為使用者指派產品設定檔，該設定檔必須 [!UICONTROL **完整表格匯出**] 為其指派許可權以匯出完整的表格。 如需在Admin Console中指派許可權給產品設定檔的相關資訊，請參閱 [Admin Console中的Customer Journey Analytics許可權](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) 在 [Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+
+  >[!NOTE]
+  >
+  >  指派的使用者 [產品管理員角色](/help/admin/cja-access-control.md#product-admin-role) 一律具有匯出完整表格的存取權；不需要為這些使用者指派 [!UICONTROL **完整表格匯出**] 許可權。
+
 
 ### 不支援的功能
 
