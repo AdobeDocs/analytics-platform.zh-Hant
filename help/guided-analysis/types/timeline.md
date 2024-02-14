@@ -1,23 +1,23 @@
 ---
 title: 時間表檢視
-description: 探索體驗模式並訴說更好的使用者故事。
+description: 觀察一段時間內的使用者層級工作階段事件，以尋找體驗模式。
 feature: Guided Analysis
 keywords: 產品分析
 role: User
-source-git-commit: fef60995e9241eaad99f6f536b1f329757ea0830
+source-git-commit: 6f3725653453e31244bfed34670782fe9d9c0c2f
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL 時間表] 檢視
 
-此 **[!UICONTROL 時間表]** 檢視可讓您觀察一段時間內的使用者層級工作階段事件，以尋找體驗模式並訴說更好的使用者故事。 左側邊欄可讓您篩選您要串流的屬性值。 右側邊欄可讓您選取要分析的人員ID。 中心區域會依工作階段顯示資料流，包含時間戳記、屬性值和持續時間。 持續時間不適用於指定工作階段中的最後一個事件。
+此 **[!UICONTROL 時間表]** 檢視可讓您觀察一段時間內的使用者層級工作階段事件，以尋找體驗模式並訴說更好的使用者故事。 左側邊欄可讓您依據屬性值和區段來篩選資料流。 右側欄可讓您從符合篩選條件的隨機使用者清單中選取。 中央區域會依工作階段顯示所選使用者的資料流，包含時間戳記、屬性值和持續時間。 持續時間不適用於指定工作階段中的最後一個事件。
 
 >[!NOTE]
 >
->「時間軸」檢視需要 **[!UICONTROL 人員ID]** 標準元件可在 [資料檢視](/help/data-views/component-reference.md#optional). 在資料檢視中加入人員ID是由Adobe Analytics資料管理員管理，這讓組織可以完全控制誰可以存取此資料的隱私權。
+>「時間軸」檢視需要 **[!UICONTROL 人員ID]** 標準元件可在 [資料檢視](/help/data-views/component-reference.md#optional). 在資料檢視中加入人員ID是由Customer Journey Analytics管理員管理，讓您的組織能夠完全控制誰可以存取此資料的隱私權。
 
 如果資料檢視沒有 [!UICONTROL 人員ID] 新增元件後，會顯示下列訊息：
 
