@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 715d6f33b3cd3f1188e0bd3e6aa3785346c4c302
+source-git-commit: b8e01079411d8a3edacb7e69a7bc529bf639c2b8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 4%
 
 ---
@@ -44,13 +44,13 @@ ht-degree: 4%
 查詢邊欄可讓您設定以下元件：
 
 * **[!UICONTROL 開始和傳回事件]**：使用者必須符合事件條件，才能符合納入您分析的資格。 支援一個事件，但您可以包含屬性篩選器。
-* **[!UICONTROL 人員]**：您要測量的區段。 每個選取的區段都會在同類群組表格中新增一列。 您最多可以包含三個區段。
+* **[!UICONTROL 計為]**：您希望如何測量保留的使用者。 選項包括 [!UICONTROL 使用者已保留] 和 [!UICONTROL 保留的使用者百分比].
+* **[!UICONTROL 區段]**：您要測量的區段。 每個選取的區段都會在同類群組表格中新增一列。 您最多可以包含三個區段。
 
 ## 圖表設定
 
 此 [!UICONTROL 保留率] 檢視提供下列圖表設定，可在圖表上方的功能表中調整：
 
-* **[!UICONTROL 量度]**：您希望如何測量保留的使用者。 選項包括 [!UICONTROL 使用者已保留] 和 [!UICONTROL 保留的使用者百分比].
 * **[!UICONTROL 圖表型別]**：您要使用的視覺效果型別。 選項包括 [!UICONTROL 長條圖] 和 [!UICONTROL 折線圖].
 
 ## 持續時間設定
