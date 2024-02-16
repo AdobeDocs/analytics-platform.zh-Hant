@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b49db376cb62c0668b8433c5dc5f66481966c333
+source-git-commit: 5f96aa52562c2281e4a0c8fa97fb8b4dff04042e
 workflow-type: tm+mt
-source-wordcount: '3065'
-ht-degree: 82%
+source-wordcount: '3106'
+ht-degree: 81%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 2 月** | |
+| 新增在設定雲端匯出位置時，將檔案上傳至Amazon S3角色ARN和GCP貯體的許可權要求 | 新增當檔案上傳至Amazon S3角色ARN和Google Cloud Platform貯體時的確切許可權要求 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md). |
 | 澄清產品管理員一律可以匯出完整的表格 | 進行下列變更，以釐清獲指派產品管理員角色的使用者預設擁有從Analysis Workspace匯出完整表格的許可權： <ul><li>新增專案符號至 [產品管理員預設許可權](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>在底下新增附註 [將完整表格匯出至雲端的最低需求](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
 | 略過的記錄詳細資料 | 新增有關「連線」中略過的記錄詳細資料功能的檔案。 如需詳細資訊，請參閱[連線詳細資料](../connections/manage-connections.md#connection-details)。 |
 | **2024 年 1 月** | |
