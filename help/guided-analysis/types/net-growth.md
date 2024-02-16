@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 檢視]**：在此檢視型別與之間切換 [作用中](active.md).
 * **[!UICONTROL 活動]**：您要測量的事件。 由於此檢視型別是以使用者為基礎，在期間內與事件互動一次的使用者會計為作用中使用者。 您可以在查詢中包含一個事件。
-* **[!UICONTROL 計為]**：您要測量的量度。 選項包括 [!UICONTROL 使用者人數] 和 [!UICONTROL 使用者百分比].
+* **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括 [!UICONTROL 使用者人數] 和 [!UICONTROL 使用者百分比].
 * **[!UICONTROL 區段]**：您要測量的區段。 您可以在查詢中包含一個區段。
 
 ## 時間比較

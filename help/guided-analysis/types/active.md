@@ -5,9 +5,9 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Guided Analysis
 keywords: 產品分析
 role: User
-source-git-commit: 60f1c20b4188b5363619af49b85373d081db6cc3
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '609'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 檢視]**：在此檢視型別與之間切換 [淨增長](net-growth.md).
 * **[!UICONTROL 活動]**：您要測量的事件。 由於此檢視型別是以使用者為基礎，在期間內與事件互動一次的使用者會計為作用中使用者。 您可以在查詢中包含一個事件。
-* **[!UICONTROL 計為]**：您要測量的量度。 選項包括 [!UICONTROL 使用者人數] 和 [!UICONTROL 使用者百分比].
+* **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括 [!UICONTROL 使用者人數] 和 [!UICONTROL 使用者百分比].
 * **[!UICONTROL 區段]**：您要用來篩選資料的區段。 您可以在查詢中包含一個區段。
 
 ## 圖表設定

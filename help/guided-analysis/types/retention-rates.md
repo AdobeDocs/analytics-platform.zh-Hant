@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: b8e01079411d8a3edacb7e69a7bc529bf639c2b8
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '894'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 4%
 查詢邊欄可讓您設定以下元件：
 
 * **[!UICONTROL 開始和傳回事件]**：使用者必須符合事件條件，才能符合納入您分析的資格。 支援一個事件，但您可以包含屬性篩選器。
-* **[!UICONTROL 計為]**：您希望如何測量保留的使用者。 選項包括 [!UICONTROL 使用者已保留] 和 [!UICONTROL 保留的使用者百分比].
+* **[!UICONTROL 計為]**：您要套用至保留使用者的計數方法。 選項包括 [!UICONTROL 使用者已保留] 和 [!UICONTROL 保留的使用者百分比].
 * **[!UICONTROL 區段]**：您要測量的區段。 每個選取的區段都會在同類群組表格中新增一列。 您最多可以包含三個區段。
 
 ## 圖表設定

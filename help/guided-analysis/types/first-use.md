@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: de78569389f5a9d74603870e72b4f3871ef4aa92
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 檢視]**：在此檢視型別與之間切換 [版本](release.md).
 * **[!UICONTROL 關鍵指標]**：您要為每個使用者測量的事件。 每個選取的關鍵指標都會以彩色線條表示。 表格中會新增代表事件的列。 您最多可以包含三個事件。
-* **[!UICONTROL 計為]**：您要測量的量度。 選項包括 [!UICONTROL 每位使用者的事件]， [!UICONTROL 活動]， [!UICONTROL 工作階段]、和 [!UICONTROL 使用者].
+* **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括 [!UICONTROL 每位使用者的事件]， [!UICONTROL 活動]， [!UICONTROL 工作階段]、和 [!UICONTROL 使用者].
 * **[!UICONTROL 因素]**：此檢視表有兩個因素：
    * **[!UICONTROL 日期]**：您想要回溯多久的時間，以尋找已發生的首次使用事件。
    * **[!UICONTROL 事件]**：您要尋找首次使用的事件，以集中分析。

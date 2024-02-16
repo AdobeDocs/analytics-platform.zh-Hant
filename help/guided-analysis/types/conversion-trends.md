@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 檢視]**：在此檢視型別與之間切換 [摩擦](friction.md).
 * **[!UICONTROL 步驟]**：您要追蹤的事件接觸點。 圖表中的每個長條代表一個步驟。 您最多可以包含十個步驟。
-* **[!UICONTROL 計為]**：您要測量的量度。 選項包括 [!UICONTROL 使用者] 和 [!UICONTROL 工作階段].
+* **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括 [!UICONTROL 使用者] 和 [!UICONTROL 工作階段].
 * **[!UICONTROL 區段]**：您要比較漏斗的區段。 選取的每個區段會將每個步驟分割成多個長條。 每種顏色代表不同的區段。 您最多可以包含三個區段。
 
 ## 圖表設定
