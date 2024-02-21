@@ -5,7 +5,7 @@ exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: 產品分析
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 2%
@@ -22,11 +22,11 @@ ht-degree: 2%
 
 +++
 
-+++**使用引導式分析需要哪些實施變更？**
++++**使用引導式分析需要哪些實作變更？**
 
 如果您目前已在使用Customer Journey Analytics，則不需要進行額外的實施變更。 引導式分析使用相同的 [資料檢視](../data-views/data-views.md) 和 [連線](../connections/overview.md) 作為其他CJA介面，例如 [Analysis Workspace](../analysis-workspace/home.md).
 
-若要讓您的使用者在引導式分析上取得最大成功，建議您在Adobe Experience Platform中建立強大的事件結構描述和管理策略，並 [資料檢視](../data-views/data-views.md).
+若要讓一般使用者在引導式分析上取得最大成功，建議您在Adobe Experience Platform中建立強大的事件結構描述和管理策略，並 [資料檢視](../data-views/data-views.md).
 
 +++
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 +++**引導式分析和Analysis Workspace的術語有何不同？**
 
-引導式分析使用產品團隊中最常使用的術語。 在「引導分析」和「參照分析」之間切換時，可參照此表格 [Analysis Workspace](../analysis-workspace/home.md).
+引導式分析使用產品團隊中最常使用的術語。 在引導分析與之間切換時，可參考此表格 [Analysis Workspace](../analysis-workspace/home.md).
 
 | 引導式分析詞語 | Analysis Workspace詞語 |
 | --- | --- |
@@ -62,16 +62,16 @@ ht-degree: 2%
 
 * **引導式分析是事件和以使用者為中心的體驗。** 每個分析都從選取事件開始，然後可以新增維度和篩選器來調整該事件資料。
 
-![Analysis Workspace和引導式分析檢視](assets/structure.png)
+![Analysis Workspace和引導式分析檢視](assets/structure.png){style="border:1px solid gray"}
 
 請考量下列範例，您專注在網站首頁的相關資料。 團隊會提出類似的問題，但分析方法可能不同。
 
 * 典型的以維度為中心的Analysis Workspace方法是，「讓我們看看首頁，看看它收到多少頁面檢視。」
 
-  ![Dimension置中](assets/dimension-centered.png)
+  ![Dimension置中](assets/dimension-centered.png){style="border:1px solid gray"}
 
-* 一般事件和以使用者為中心的引導式分析方法會是：「有多少使用者造訪過我們的首頁？」
+* 一個典型的事件和以使用者為中心的引導式分析方法是：「有多少使用者造訪過我們的首頁？」
 
-  ![以事件為中心](assets/event-centered.png)
+  ![以事件為中心](assets/event-centered.png){style="border:1px solid gray"}
 
 +++

@@ -5,7 +5,7 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 4%
@@ -29,7 +29,7 @@ ht-degree: 4%
 * 如果使用者在最初符合納入分析的資格數天後參與事件，他們會出現在最新的資格認定持續時間貯體和所有導致該事件的持續時間貯體。 這類計算有時稱為「無限制的保留」。
 * 如果使用者在設定的日期範圍內參與事件多次，則分析中只會包含第一個和最後一個事件。
 
-![保留率熒幕擷圖](../assets/retention-rates.png)
+![保留率熒幕擷圖](../assets/retention-rates.png){style="border:1px solid gray"}
 
 ## 使用案例
 

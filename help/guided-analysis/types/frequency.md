@@ -5,7 +5,7 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 此 **[!UICONTROL 頻率]** 檢視依事件在您的產品中發生的頻率分組事件資料。 此檢視的垂直軸包含代表事件頻率的貯體。 水平軸會測量每個時段的使用者或工作階段數量。
 
-![頻率熒幕擷圖](../assets/frequency-stacked.png)
+![頻率熒幕擷圖](../assets/frequency-stacked.png){style="border:1px solid gray"}
 
 ## 使用案例
 

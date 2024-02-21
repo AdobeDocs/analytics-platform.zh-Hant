@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![零售的摩擦檢視](assets/retail-funnel-friction.png)
+![零售的摩擦檢視](assets/retail-funnel-friction.png){style="border:1px solid gray"}
 
-![零售的使用情況檢視](assets/retail-trends-usage.png)
+![零售的使用情況檢視](assets/retail-trends-usage.png){style="border:1px solid gray"}
 
 +++
 
@@ -44,11 +44,11 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![金融服務的摩擦檢視](assets/fsi-funnel-friction.png)
+![金融服務的摩擦檢視](assets/fsi-funnel-friction.png){style="border:1px solid gray"}
 
-![金融服務的使用情況檢視](assets/fsi-trends-usage.png)
+![金融服務的使用情況檢視](assets/fsi-trends-usage.png){style="border:1px solid gray"}
 
-![金融服務的作用中檢視](assets/fsi-user-growth-active.png)
+![金融服務的作用中檢視](assets/fsi-user-growth-active.png){style="border:1px solid gray"}
 
 +++
 
@@ -63,11 +63,11 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![旅遊和酒店業的摩擦檢視](assets/th-funnel-friction.png)
+![旅遊和酒店業的摩擦檢視](assets/th-funnel-friction.png){style="border:1px solid gray"}
 
-![旅遊業及旅館業的使用狀況檢視](assets/th-trends-usage.png)
+![旅遊業及旅館業的使用狀況檢視](assets/th-trends-usage.png){style="border:1px solid gray"}
 
-![旅遊業及旅館業的轉換趨勢](assets/th-funnel-conversion-trends.png)
+![旅遊業及旅館業的轉換趨勢](assets/th-funnel-conversion-trends.png){style="border:1px solid gray"}
 
 +++
 
@@ -83,11 +83,11 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![媒體和娛樂的摩擦檢視](assets/me-funnel-friction.png)
+![媒體和娛樂的摩擦檢視](assets/me-funnel-friction.png){style="border:1px solid gray"}
 
-![使用中檢視媒體與娛樂](assets/me-user-growth-active.png)
+![使用中檢視媒體與娛樂](assets/me-user-growth-active.png){style="border:1px solid gray"}
 
-![](assets/me-trends-usage.png)
+![媒體和娛樂的使用量檢視](assets/me-trends-usage.png){style="border:1px solid gray"}
 
 +++
 
@@ -102,7 +102,7 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![醫療保健的摩擦檢視](assets/healthcare-funnel-friction.png)
+![醫療保健的摩擦檢視](assets/healthcare-funnel-friction.png){style="border:1px solid gray"}
 
 +++
 
@@ -117,6 +117,6 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![B2B的使用情況檢視](assets/b2b-trends-usage.png)
+![B2B的使用情況檢視](assets/b2b-trends-usage.png){style="border:1px solid gray"}
 
 +++
