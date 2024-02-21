@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
+source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 57%
+source-wordcount: '1247'
+ht-degree: 52%
 
 ---
 
@@ -79,7 +79,18 @@ Customer Journey Analytics由三個存取層級或三個角色管理：產品管
 
 ## 使用者層級存取權
 
-Customer Journey Analytics 中的使用者無法建立、編輯、查看資料檢視或連線。使用者可以在 Admin Console 中建立具有特殊權限的篩選器、專案、對象和計算量度。
+下表概述非產品管理員和CJA產品管理員各種Customer Journey Analytics功能的主要存取許可權。 瞭解這些許可權可協助使用者根據其在組織內的角色和職責，有效導覽及利用CJA。
+
+| CJA產品功能 | 非產品管理員（使用者） | 產品管理員 |
+| --- | --- | --- |
+| **資料檢視** | 無法檢視/更新/建立/刪除 | 可以建立/更新/刪除 |
+| **連線** | 無法檢視/更新/建立/刪除 | 可以建立/更新/刪除 |
+| **篩選條件** | 可以建立 | 可以建立 |
+| **專案** | 可以建立 | 可以建立/更新/刪除 |
+| **對象** | 可以在Admin Console中使用特殊許可權來建立 | 可以建立 |
+| **計算量度** | 可以在Admin Console中使用特殊許可權來建立 | 可以建立 |
+
+{style="table-layout:auto"}
 
 ## Workspace 專案管理
 
