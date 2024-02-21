@@ -3,20 +3,20 @@ description: 瞭解Analysis Workspace中的預測。
 title: 預測概觀
 feature: Visualizations
 role: User
-source-git-commit: 6ea1cf5c59dd527ba1bed966b994a3c966c899d4
+source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # 預測概觀
 
-{{release-limited-testing}}
+
 
 {{select-package}}
 
-預測是Analysis Workspace的一項新功能，可讓您使用任何支援的時間詳細程度（每小時、每日、每週、每月和每年）來預測標準或計算量度。 預測僅適用於時間序列相關資料。
+預測功能是一項Analysis Workspace功能，可針對任何支援的時間詳細程度（每小時、每日、每週、每月及每年）預測標準或計算量度。 預測僅適用於時間序列相關資料。
 
 您可以善用預測功能：
 

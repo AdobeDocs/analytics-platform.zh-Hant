@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 79234ee442e49ebf7f5a08bd0214e8c9d547485e
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 94%
 
 ---
 
@@ -23,15 +23,20 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 >[!BEGINTABS]
 
+>[!TAB 預測]
+
+預測功能是一項Analysis Workspace功能，可針對任何支援的時間詳細程度（每小時、每日、每週、每月及每年）預測標準或計算量度。 預測僅適用於時間序列相關資料。
+
+[![影像](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
+
+
 >[!TAB 引導式分析* - 保留率]
 
 一種新的視圖類型，顯示在所需日期範圍內初次參與後傳回的使用者百分比。橫軸表示自使用者初次參與以來的天數。縱軸表示再次參與使用者的百分比。
 
-[![影像](assets/learn-more-button.svg)](/help//guided-analysis/types/retention-rates.md)
+[![影像](assets/learn-more-button.svg)](/help/guided-analysis/types/retention-rates.md)
 
 <span style="color:gray">*_引導式分析是 Adobe Product Analytics 的一部分；Adobe Product Analytics 是 Customer Journey Analytics 的付費附加元件。_</span>
-
-
 
 
 >[!TAB 引導式分析* - 趨勢線]
