@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Guided Analysis
 keywords: 產品分析
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: e7e3b4a64ded8af3fa8137194c160044da74db62
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '760'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 1%
 
 查詢邊欄可讓您設定以下元件：
 
+* **[!UICONTROL 檢視]**：在此檢視型別與之間切換 [頻率](frequency.md).
 * **[!UICONTROL 事件與量度]**：您要測量的事件或度量。 每個選取範圍都會呈現為圖表序列和表格列。 事件和量度無法在查詢中合併；當您完成第一個選擇後，其餘的查詢選擇必須屬於相同型別。 您最多可以包含五個選取專案。
 * **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括事件、工作階段、使用者、使用者百分比、每個工作階段的事件，以及每個使用者的事件。 計為選項僅適用於事件查詢，並會為量度查詢而移除。
 * **[!UICONTROL 區段]**：您要測量的區段。 每個選取的區段都會將圖表數列和表格列數加倍。 您最多可以包含五個區段。

@@ -5,9 +5,9 @@ feature: Guided Analysis
 keywords: 產品分析
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: e7e3b4a64ded8af3fa8137194c160044da74db62
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '499'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 2%
 
 查詢邊欄可讓您設定以下元件：
 
+* **[!UICONTROL 檢視]**：在此檢視型別與之間切換 [首次使用](first-use.md).
 * **[!UICONTROL 關鍵指標]**：您要為每個使用者測量的事件。 每個選取的關鍵指標都會以彩色線條表示。 表格中會新增代表事件的列。 您最多可以包含三個事件。
 * **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括 [!UICONTROL 每位使用者的事件]， [!UICONTROL 使用者百分比]， [!UICONTROL 活動]， [!UICONTROL 工作階段]、和 [!UICONTROL 使用者].
 * **[!UICONTROL 因素]**：您要比較前後的日期。
