@@ -1,8 +1,8 @@
 ---
-source-git-commit: 486cd26bfacbae0072e14ec078ceca66909ac0ec
+source-git-commit: 2f7e11106334560d3c4b54e6c5eaf84d5e1d4fb6
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 65%
+source-wordcount: '1158'
+ht-degree: 61%
 
 ---
 # 程式碼片段
@@ -23,7 +23,19 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->您必須擁有 **選取** 封裝，以使用本節中說明的功能。 如果您不確定您擁有哪個Customer Journey Analytics套件，請聯絡管理員。
+>您必須擁有 **選取** 封裝或更新版本，以便使用本節中說明的功能。 如果您不確定您擁有哪個Customer Journey Analytics套件，請聯絡管理員。
+
+## Prime套件 {#prime-package}
+
+>[!NOTE]
+>
+>您必須擁有 **Prime** 封裝或更新版本，以便使用本節中說明的功能。 如果您不確定您擁有哪個Customer Journey Analytics套件，請聯絡管理員。
+
+## Ultimate套件 {#ultimate-package}
+
+>[!NOTE]
+>
+>您必須擁有 **Ultimate** 封裝，以使用本節中說明的功能。 如果您不確定您擁有哪個Customer Journey Analytics套件，請聯絡管理員。
 
 
 ## 資料字典篩選條件 {#dd-filter-criteria}
