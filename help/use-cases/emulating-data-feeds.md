@@ -6,7 +6,8 @@ feature: Use Cases
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: f062f8599dcc22b792369c310ceebcb283447d76
+exl-id: 71dd9e4e-1d71-424b-b984-492a3e39af5f
+source-git-commit: 744c8cfc903ed841dd39b29fd3fef68ef2e7b7cb
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 2%
@@ -128,7 +129,7 @@ Adobe Analytics資料摘要會使用附有欄的概念 `post_` 前置詞，處�
 
 #### 計算
 
-若要在欄位（欄）上執行計算，請使用標準SQL函式(例如 `COUNT(*)` 或 [數學和統計運運算元與函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) Spark SQL的一部分。 另外， [視窗函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) 提供更新彙總的支援，並傳回有序子集中每一列的單一專案。 另請參閱 [範例](#examples) 這些函式的使用方式。
+若要在欄位（欄）上執行計算，請使用標準SQL函式(例如 `COUNT(*)`)或 [數學和統計運運算元與函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) Spark SQL的一部分。 另外， [視窗函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) 提供更新彙總的支援，並傳回有序子集中每一列的單一專案。 另請參閱 [範例](#examples) 這些函式的使用方式。
 
 #### 巢狀資料結構
 
@@ -277,4 +278,3 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 >[!IMPORTANT]
 >
 >此使用案例涉及兩個排程器。 為確保模擬資料摘要功能可正常運作，請確定在查詢服務和資料匯出中設定的排程不會干預。
-
