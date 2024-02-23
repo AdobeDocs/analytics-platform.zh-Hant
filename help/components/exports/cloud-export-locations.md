@@ -5,10 +5,10 @@ title: 設定雲端匯出位置
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 5f96aa52562c2281e4a0c8fa97fb8b4dff04042e
+source-git-commit: dadb22558c93d0f528986dfc033b6668467d1c01
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 4%
+source-wordcount: '1738'
+ht-degree: 3%
 
 ---
 
@@ -151,7 +151,7 @@ ht-degree: 4%
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **容器名稱**] | 您指定要將Customer Journey Analytics資料傳送到的帳戶中的容器。 |
-   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/` |
+   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/`<p>設定Azure SAS帳戶時，請確定您在「金鑰儲存庫機密名稱」欄位中指定的SAS權杖存放區具有 `Write` 許可權。 這可讓SAS權杖在您的Azure容器中建立檔案。 <p>如果您也希望SAS權杖覆寫檔案，請確定SAS權杖存放區具有 `Delete` 許可權。</p><p>如需詳細資訊，請參閱 [Blob儲存資源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) Azure Blob儲存檔案。</p> |
 
    {style="table-layout:auto"}
 
@@ -172,7 +172,7 @@ ht-degree: 4%
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **容器**] | 您指定要將Adobe Analytics資料傳送至何處的帳戶中的容器。 請確定您授與許可權，可以將檔案上傳至您先前建立的Azure應用程式。 |
-   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/` |
+   | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/`<p>請確定您在設定Azure RBAC帳戶時指定的應用程式ID已被授予 `Storage Blob Data Contributor` 角色以存取容器（資料夾）。</p> <p>如需詳細資訊，請參閱 [Azure內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
    | [!UICONTROL **帳戶**] | Azure儲存體帳戶。 |
 
    {style="table-layout:auto"}
