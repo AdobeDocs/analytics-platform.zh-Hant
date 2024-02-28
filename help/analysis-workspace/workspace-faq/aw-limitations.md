@@ -1,13 +1,13 @@
 ---
-description: 瞭解AdobeAnalysis Workspace及其相關元件的已知限制
+description: 了解 Adobe Analysis Workspace 及其相關元件的已知限制
 title: Analysis Workspace 的已知限制
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 83%
 ## 元件 > 篩選器
 
 * [!UICONTROL 「發生次數」]、[!UICONTROL 「不重複訪客」]等特定量度和維度無法進行篩選。
-* 在中建立的臨時篩選 [面板下拉區域](/help/analysis-workspace/c-panels/panels.md) 是快速篩選的型別。 除非加以公開，否則不會顯示在Workspace的左側邊欄或「篩選器」元件管理員中。 如需詳細資訊，請參閱 [快速篩選](/help/components/filters/quick-filters.md).
+* 在[面板放置區](/help/analysis-workspace/c-panels/panels.md)中建立的臨時篩選器是一種快速篩選器。除非設定為公開，否則它們不會顯示在 Workspace 或「篩選器」元件管理器的左側邊欄中。如需更多資訊，請參閱「[快速篩選器](/help/components/filters/quick-filters.md)」。
 
 ## 元件 > 計算量度
 

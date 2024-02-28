@@ -1,14 +1,14 @@
 ---
-description: 瞭解Analysis Workspace提供的鍵盤互動、快速鍵和指向與點選行為。
+description: 了解 Analysis Workspace 中提供的鍵盤互動、快速鍵以及指向和點按行為。
 keywords: Analysis Workspace
 feature: Workspace Basics
-title: 如何使用工作區快捷鍵
+title: 如何使用 Workspace 快捷鍵
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -55,9 +55,9 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，以順暢導覽、分�
 |---|---|
 | 新增歸因面版 | Alt+E |
 | 新增空白面板 | Alt+B |
-| 新增自由格式面板 | Alt+A |
+| 新增自由形式面板 | Alt+A |
 | 新增快速深入分析面板 | Alt+F |
-| 新增自由表格 | Alt+1 |
+| 新增自由形式表格 | Alt+1 |
 | 新增折線圖 | Alt+2 |
 | 新增長條圖 | Alt+3 |
 

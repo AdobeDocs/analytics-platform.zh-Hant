@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 91%
 
 您可以將專案從一個資料夾移動至您建立的另一個資料夾。
 
-1. 從專案資料夾中，選擇專案名稱旁邊的省略符號 **...**。
+1. 從專案資料夾中，選取專案名稱旁邊的「**...**」省略符號。
 
    ![省略符號選項。](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. 選取「**移至**」，然後選擇要將專案移動到的資料夾。
+1. 選取「**移至**」，然後選取要將專案移動到哪個資料夾。
 
    ![「選取位置」視窗。](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
@@ -36,9 +36,9 @@ ht-degree: 91%
 
    ![按一下「移動」。](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
-   快顯通知確認專案已移動。
+   此時會顯示快顯通知，確認專案已移動。
 
-   ![移動確認快顯通知。 ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+   ![移動確認快顯通知。](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
 ## 從專案資料夾中刪除專案 {#delete-project-in-folder}
 

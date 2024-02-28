@@ -7,9 +7,9 @@ type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
 source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -29,19 +29,19 @@ ht-degree: 60%
 - Windows
 - 網頁瀏覽器
 
-## 常見使用實例
+## 常見使用案例
 
-- **資料擷取**：Adobe Report Builder可讓您將資料從Customer Journey Analytics擷取至Excel。 您可以建立自訂報表和查詢來擷取與您的分析相關的特定資料點。
+- **資料擷取**：Adobe Report Builder 可讓您將 Customer Journey Analytics 中的資料擷取到 Excel 中。您可以建立自訂報告和查詢，以擷取與您的分析相關的特定資料點。
 
-- **自訂報告**：您可以根據特定報表需求，在Excel中設計和格式化自訂報表。 這對於為不同的利害關係人量身打造報告特別有用。
+- **自訂報告**：您可以在 Excel 中設計和格式化自訂報告，以滿足您的特定報告需求。為不同利害關係人量身訂做報告時，此功能特別實用。
 
-- **Ad Hoc Analysis**：使用者可以快速產生臨時報告，以回答特定問題或探索資料趨勢，而無需完成漫長的報告建立流程。
+- **臨時分析**：使用者可以快速產生臨時報告來回答特定問題或探索資料趨勢，無需經歷冗長的報告建立過程。
 
-- **儀表板**：從CJA擷取的資料可用於建立以Excel為基礎的儀表板和視覺效果，以概略瞭解關鍵績效指標(KPI)。
+- **儀表板**：從 CJA 擷取的資料可用來建立以 Excel 為基礎的儀表板和視覺效果，以取得關鍵績效指標 (KPI) 的高階概觀。
 
-- **共用深入分析**：您可以與團隊成員或可能沒有直接存取CJA的利害關係人共用Excel報告和見解。
+- **共用深入分析**：您可以與可能無法直接存取 CJA 的團隊成員或利害關係人共用 Excel 報告和深入分析。
 
-## 概述影片
+## 概觀影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 
