@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: aa0a6715c216730e0768cfa870ea75f315455101
+source-git-commit: 53ce86d0009f2f5d7602ce55b938006c2600d2ca
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 78%
+source-wordcount: '1058'
+ht-degree: 79%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 78%
 
 + 發行說明 {#releases}
    + [最新版本](../release-notes/latest.md)
+   + [2024 版本](../release-notes/2024.md)
    + [2023 版本](../release-notes/2023.md)
    + [2022 版本](../release-notes/2022.md)
    + [2021 版本](../release-notes/2021.md)
@@ -298,7 +299,7 @@ ht-degree: 78%
    + [受限制的標籤](../report-builder/restricted-labels.md)
    + [Report Builder 設定](../report-builder/report-builder-settings.md)
 
-+ 報告活動管理器 {#reporting-activity-manager}
++ 報告活動管理員 {#reporting-activity-manager}
    + [概觀](../reporting-activity-manager/reporting-activity-overview.md)
    + [檢視報告活動](../reporting-activity-manager/reporting-activity.md)
    + [取消報告請求](../reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -311,7 +312,7 @@ ht-degree: 78%
 
 + Adobe 整合 {#integrations}
    + [將Adobe解決方案與Customer Journey Analytics整合概覽](/help/integrations/overview.md)
-   + [將 Adobe Analytics 與 Customer Journey Analytics 整合](/help/integrations/aa.md)
+   + [整合 Adobe Analytics 與 Customer Journey Analytics](/help/integrations/aa.md)
    + [將Journey Optimizer資料與Customer Journey Analytics整合](/help/integrations/ajo.md)
    + [將決定管理資料與Customer Journey Analytics整合](/help/integrations/ajo-od.md)
    + [將Customer AI與Customer Journey Analytics整合](/help/integrations/customer-ai.md)
