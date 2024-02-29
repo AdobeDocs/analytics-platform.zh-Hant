@@ -3,7 +3,7 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 70705430e578ad49a919bc8ad172adf7d28c4887
+source-git-commit: fd12f9b90c3240d10bf2fd5e22a2983b844051b5
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 82%
@@ -21,7 +21,7 @@ ht-degree: 82%
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **時間序列預測** | [預測](../analysis-workspace/c-forecast/forecasting.md)是 Analysis Workspace 的新功能，用於以任何支援的時間詳細程度 (每小時、每天、每週、每月和每年) 為自由形式表格和折線圖預測標準或計算量度。 | 2024 年 1 月 31 日 | 2024 年 2 月 21 日 |
-| **Media Analytics 報告 - 平均每分鐘對象數 (AMA)** | CJA 現已提供「平均每分鐘對象數」面板。Media Analytics 客戶可以使用「平均每分鐘對象數」面板來更了解其內容的平均使用量。「平均每分鐘對象數」可比較任何長度或類型的節目。 此外，對象也可以比較這個數位「平均每分鐘對象數」，或是將其附加到線性電視的平均每分鐘指標。此面板提供較大的彈性來測量自訂時段的平均對象數，以及事後更新了持續時間分類時的平均對象數。 |  | 2024 年 2 月 |
+| **Media Analytics 報告 - 平均每分鐘對象數 (AMA)** | CJA 現已提供「平均每分鐘對象數」面板。Media Analytics 客戶可以使用「平均每分鐘對象數」面板來更了解其內容的平均使用量。「平均每分鐘對象數」可比較任何長度或類型的節目。 此外，對象也可以比較這個數位「平均每分鐘對象數」，或是將其附加到線性電視的平均每分鐘指標。此面板提供較大的彈性來測量自訂時段的平均對象數，以及事後更新了持續時間分類時的平均對象數。 |  | 2024 年 3 月 |
 | **查詢和設定檔資料的列計數量度** | 資料集的列計數量度，設定為連線的一部分，現在包含從設定檔和查詢資料集中新增、略過或刪除的記錄。 |  | 2024 年 2 月 14 日 |
 | **體驗邊緣機器人偵測** | [機器人偵測](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html)可讓您將 Web SDK、Mobile SDK 和伺服器 API 產生的事件識別為由已知編目程式和機器人產生。 | | 2024年4月29日 |
 | **使用情況量度** | 使用情況量度介面顯示所有連線中擷取和可報告的行的使用情況。此介面可讓您確定您的 Customer Journey Analytics 使用情況是否符合合約約定。 | 2024 年 2 月 20 日 | 2024 年 3 月初 |
