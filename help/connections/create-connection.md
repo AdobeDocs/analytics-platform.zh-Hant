@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
-workflow-type: ht
-source-wordcount: '2748'
-ht-degree: 100%
+source-git-commit: 2be283e0abd32229be1921b106d166f47fb410a8
+workflow-type: tm+mt
+source-wordcount: '2763'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## 先決條件
 
-您必須擁有&#x200B;**選取**&#x200B;套件，才能將不限數量的資料集新增到連線中。**基礎**&#x200B;套件僅限於一個資料集。如果您不確定您擁有的 Customer Journey Analytics 套件是哪一種，請聯絡您的管理員。&#x200B;
+您必須擁有 **選取** 套裝，以新增不限數量的事件資料集至連線。 此 **Foundation** 套件僅限一個事件資料集。 您可以對連線新增不限數量的設定檔或查詢資料集。 如果您不確定您擁有的 Customer Journey Analytics 套件是哪一種，請聯絡您的管理員。&#x200B;
 
 ## 建立和設定連線 {#create-connection}
 
