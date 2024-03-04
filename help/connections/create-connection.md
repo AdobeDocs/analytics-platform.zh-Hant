@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 2be283e0abd32229be1921b106d166f47fb410a8
+source-git-commit: 8303043d46365195d9ffde6eaa06f49c9d22101d
 workflow-type: tm+mt
-source-wordcount: '2763'
+source-wordcount: '2749'
 ht-degree: 98%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 98%
    | **[!UICONTROL 索引鍵]** | 僅適用於查詢資料集 (例如 _id)。 |
    | **[!UICONTROL 比對索引鍵]** | 僅適用於查詢資料集 (例如 _id)。 |
    | **[!UICONTROL 匯入新資料]** | 設定為開啟或關閉。 |
-   | **[!UICONTROL 回填資料]** | 您可以要求根據事件時間戳記，將資料回填到資料集。 舉例來說，您可以要求回填最近 7 天的資料、設定適用的人員 ID，並測試連線是否設定正確。 如果一切正常，您就能放心回填剩餘的資料。<p>此外，您也可以啟用按資料集匯入新資料。 例如，啟用匯入新資料僅供查看資料用途。 |
+   | **[!UICONTROL 回填資料]** | 您可以要求根據事件時間戳記，將資料回填到資料集。 舉例來說，您可以要求回填最近 7 天的資料、設定適用的人員 ID，並測試連線是否設定正確。 如果一切正常，您就能放心回填剩餘的資料。<p>此外，您可以啟用依資料集匯入新資料。 |
    | **[!UICONTROL 回填狀態]** | 指出是否有任何回填資料在處理中。 |
 
    {style="table-layout:auto"}
