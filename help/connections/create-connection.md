@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 8303043d46365195d9ffde6eaa06f49c9d22101d
+source-git-commit: 449aa54d1a1dd1ff2ce9e7408926f61533fc3c02
 workflow-type: tm+mt
-source-wordcount: '2749'
-ht-degree: 98%
+source-wordcount: '2765'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,16 @@ ht-degree: 98%
 
 ## 先決條件
 
-您必須擁有 **選取** 套裝，以新增不限數量的事件資料集至連線。 此 **Foundation** 套件僅限一個事件資料集。 您可以對連線新增不限數量的設定檔或查詢資料集。 如果您不確定您擁有的 Customer Journey Analytics 套件是哪一種，請聯絡您的管理員。&#x200B;
+您可以新增到連線的資料集數量上限為100。 混合取決於貴公司已購買的Customer Journey Analytics套件。
+
+| **選取** 封裝 | **Foundation** 封裝 |
+| --- | --- |
+| 事件/設定檔/查詢資料集的任意組合，最多可新增100個 | 每個連線一個事件資料集 |
+|  | 每個連線最多99個設定檔或查詢資料集 |
+
+{style="table-layout:auto"}
+
+如果您不確定您擁有哪個Customer Journey Analytics套件，請聯絡管理員&#x200B;。
 
 ## 建立和設定連線 {#create-connection}
 
