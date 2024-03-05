@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 9314aae4c62e5c7a21495beeea0a5d69c6e113a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包�
 
 ## 區段概念的變動
 
-雖然技術上區段不會從Adobe Analytics移轉至Customer Journey Analytics，但您可以使用元件移轉工具在Customer Journey Analytics中重新建立Adobe Analytics區段。 區段會根據對應的維度和量度在Customer Journey Analytics中重新建立。 如需詳細資訊，請參閱 [準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html).
+嚴格來說，區段並未從 Adobe Analytics 移轉到 Customer Journey Analytics，但您可以使用元件移轉工具在 Customer Journey Analytics 中重新建立 Adobe Analytics 區段。根據對應的維度和計量在 Customer Journey Analytics 中重新建立區段。如需更多資訊，請參閱[準備將元件和專案從 Adobe Analytics 移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)。
 
 雖然您尚不能從 [!DNL Customer Journey Analytics]共用或發佈[!UICONTROL 篩選器] ([!UICONTROL 區段]) 至 Experience Platform 統一設定檔，但此功能正在開發中。
 

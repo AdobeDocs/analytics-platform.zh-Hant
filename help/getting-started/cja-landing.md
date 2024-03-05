@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 >[!TAB 預測]
 
-預測功能是一項Analysis Workspace功能，可針對任何支援的時間詳細程度（每小時、每日、每週、每月及每年）預測標準或計算量度。 預測僅適用於時間序列相關資料。
+預測是 Analysis Workspace 的功能，用於以任何支援的時間詳細程度 (每小時、每天、每週、每月和每年) 預測標準或計算量度。預測僅適用於時間序列相關資料。
 
 [![影像](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
 

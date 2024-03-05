@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: c1e6279d8e2f0b31a82c2588fce8b3c2e614e440
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1106'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * 建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集連線](/help/connections/create-connection.md)。
 * 若要建立或管理資料檢視，您需要在 [Adobe Admin Console 中設定一組權限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions)。
-* 如果您使用 [Adobe Analytics來源聯結器](/help/data-ingestion/analytics.md) 或者您確實有Adobe Analytics背景知識，但您可能想要瞭解結構描述和資料集（連線的一部分）中的欄位如何與其Adobe Analytics對應專案產生關聯。 另請參閱 [Analytics欄位對應](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant) 以取得詳細資訊。
+* 如果您有使用 [Adobe Analytics 來源連接器](/help/data-ingestion/analytics.md)或確實具備 Adobe Analytics 背景知識，您可能會想了解綱要和資料集中的欄位 (連線的一部分) 如何與其 Adobe Analytics 對應項相關聯。如需更多資訊，請參閱 [Analytics 欄位對應](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant)。
 
 ## 您可以在 Workspace 中覆寫資料檢視設定 {#settings-override}
 

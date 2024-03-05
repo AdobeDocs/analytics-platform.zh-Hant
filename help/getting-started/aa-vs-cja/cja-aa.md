@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 2ed8f4c3768312bb8f6c108ef8b8b052acbfa574
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2032'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 94%
 | --- | --- |
 | 異常偵測 | 完整支援 |
 | Attribution IQ | 完整支援 |
-| 機器人偵測 | *即將推出！* 的 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)以資料集為基礎，系統會套用機器人篩選。 其他資料集的一般機器人偵測邏輯是由執行 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=en). |
+| 機器人偵測 | *即將推出！*&#x200B;對於[以 Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)為基礎的資料集，則會套用機器人篩選。其他資料集的一般機器人偵測邏輯由 [Experience Edge](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=zh-Hant) 執行。 |
 | 計算量度 | 完整支援。任何傳統 Analysis Workspace 中的現有計算量度都不會移植到 Customer Journey Analytics。 |
-| 行事曆事件 | 完整支援。已將行事曆活動實作為工作區內的[註解](/help/components/annotations/overview.md)。 |
+| 行事曆事件 | 完整支援。已將行事曆活動實作為 Workspace 內的[註解](/help/components/annotations/overview.md)。 |
 | CSV 下載 | 完整支援 |
 | 自訂行事曆 | 完整支援 |
 | 日期比較 | 完整支援 |
 | 日期範圍 | 所有日期範圍功能都受到支援。 |
 | 維度 | 完整支援。Customer Journey Analytics 使用 XDM 並支援無限制維度。Customer Journey Analytics 並未繫結到傳統 Adobe Analytics 的自訂 eVar 或 props。 |
-| 刪除 GDPR | 完整支援；請注意GDPR現在與協調處理 [!UICONTROL Adobe Experience Platform]. Customer Journey Analytics 會繼承 [!UICONTROL Experience Platform] 對基礎資料集所做的任何資料變更。 |
-| 提升度和可信度報告 | 完整支援，透過 [實驗面板](/help/analysis-workspace/c-panels/experimentation.md) |
+| 刪除 GDPR | 完整支援；請注意，GDPR 目前是協同 [!UICONTROL Adobe Experience Platform] 處理。Customer Journey Analytics 會繼承 [!UICONTROL Experience Platform] 對基礎資料集所做的任何資料變更。 |
+| 提升度和可信度報告 | 透過[實驗面板](/help/analysis-workspace/c-panels/experimentation.md)提供完整支援 |
 | 清單變數/清單屬性 | 完整支援。Customer Journey Analytics 使用 XDM 並支援無限制字串陣列，其使用方式與 listVars 類似。 |
-| 銷售 eVar | 完整支援，透過 [繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) |
-| 量度 | 完整支援；Customer Journey Analytics使用Experience Data Model (XDM)並支援不限數量的量度，且不會與Adobe Analytics的自訂成功事件繫結。 Adobe Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
+| 銷售 eVar | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)提供完整支援 |
+| 量度 | 完整支援；Customer Journey Analytics 使用體驗資料模型 (XDM) 並支援無限制的量度，且未繫結到 Adobe Analytics 的自訂成功事件。Adobe Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
 | 將專案、篩選器與計算量度從 Adobe Analytics 移轉至 Customer Journey Analytics | 完整支援。 |
 | 行動計分卡/儀表板 | 完整支援 |
 | 面板 | 空白面板、歸因面板、自由表格面板和快速深入分析全都受到支援。 |
@@ -77,7 +77,7 @@ ht-degree: 94%
 | 專案共用 | 專案共用功能僅支援在 Customer Journey Analytics 的使用者之間使用 - Customer Journey Analytics 和傳統 Analysis Workspace 之間沒有專案共用。 |
 | Report Builder | 支援用於 Excel 的新 Office 365 外掛程式。 |
 | 使用者權限/資料存取控制 | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。其他使用者權限可用於多種功能，例如建立計算量度、篩選器或註解等。 |
-| 視覺效果 | 支援所有Workspace視覺效果，但地圖視覺效果除外。 |
+| 視覺效果 | 支援所有 Workspace 視覺效果，但地圖視覺效果除外。 |
 | 跨裝置/跨管道拼接 | 支援直接包含身分資訊的資料集 (也稱為「依欄位匯整」)。目前尚不支援圖表式拼接，但已規劃完成。請參閱[拼接](../../stitching/overview.md)。 |
 
 {style="table-layout:auto"}

@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: 949f0870c8607879d4f685f4fbeb838ddb68f80a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1016'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experie
 | [!UICONTROL 人員] | 量度 | 根據[!UICONTROL 連線]中所指定的人員 ID。 |
 | [!UICONTROL 工作階段] | 量度 | 根據資料檢視的工作階段設定。 |
 | [!UICONTROL 事件] | 量度 | [!UICONTROL 連線]中所有事件資料集的列數。 |
-| [!UICONTROL 秒] | 維度 | 指定事件發生的第二個（無條件舍去）。 第一個維度專案是日期範圍中的第一秒，最後一個維度專案是日期範圍中的最後一秒。 |
+| [!UICONTROL 秒] | 維度 | 指定事件發生的秒數 (無條件捨去)。第一個維度項目是日期範圍中的第一秒，最後一個維度項目是日期範圍中的最後一秒。 |
 | [!UICONTROL 分鐘] | 維度 | 指定事件發生的分鐘 (無條件捨去)。第一個維度項目是日期範圍中的第一分鐘，最後一個維度項目是日期範圍中的最後一分鐘。 |
 | [!UICONTROL 小時] | 維度 | 指定事件發生的小時 (無條件捨去)。第一個維度項目是日期範圍中的第一小時，最後一個維度項目是日期範圍中的最後一小時。 |
 | [!UICONTROL 日] | 維度 | 指定事件發生的天。第一個維度項目是日期範圍中的第一天，最後一個維度項目是日期範圍中的最後一天。 |
