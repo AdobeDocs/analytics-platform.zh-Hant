@@ -1,10 +1,10 @@
 ---
 title: 時間表檢視
 description: 觀察一段時間內的使用者層級工作階段事件，以尋找體驗模式。
-feature: Guided Analysis
-keywords: 產品分析
+feature: Adobe Product Analytics, Guided Analysis
+keywords: Product Analytics
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 1%

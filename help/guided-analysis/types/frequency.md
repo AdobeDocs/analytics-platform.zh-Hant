@@ -1,14 +1,14 @@
 ---
 title: 頻率檢視
-description: 透過使用頻率測量參與度。
-feature: Guided Analysis
-keywords: 產品分析
+description: 依照使用頻率來測量參與度。
+feature: Adobe Product Analytics, Guided Analysis
+keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 1%
 查詢邊欄可讓您設定以下元件：
 
 * **[!UICONTROL 檢視]**：在此檢視型別與之間切換 [使用狀況](usage.md).
-* **[!UICONTROL 活動]**：您要測量的事件。 每個選取的事件都會以個別的圖表呈現。 表格中會新增代表趨勢事件的列。 您最多可以包含五個事件。
+* **[!UICONTROL 事件]**：您要測量的事件。每個選取的事件都會以個別的圖表呈現。 表格中會新增代表趨勢事件的列。 您最多可以包含五個事件。
 * **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括 [!UICONTROL 使用者]，  [!UICONTROL 工作階段]，  [!UICONTROL 使用者百分比] 和  [!UICONTROL 工作階段百分比]. 此檢視中百分比型量度的分母是執行所選事件的使用者或工作階段，而非產品的所有作用中使用者。
-* **[!UICONTROL 區段]**：您要測量的區段。 每個選取的區段都會將圖表中的橫條數和表格中的列數加倍。 您最多可以包含五個區段。
+* **[!UICONTROL 區段]**：您要測量的區段。每個選取的區段都會將圖表中的橫條數和表格中的列數加倍。 您最多可以包含五個區段。
 
 ## 圖表設定
 

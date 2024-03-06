@@ -1,14 +1,14 @@
 ---
 title: 使用情況檢視
-description: 測量一段時間內的使用者參與。
+description: 測量使用者在一段時間內的參與度。
 exl-id: b632475f-371e-4156-9ffc-b138325aa120
-feature: Guided Analysis
-keywords: 產品分析
+feature: Adobe Product Analytics, Guided Analysis
+keywords: Product Analytics
 role: User
-source-git-commit: e7e3b4a64ded8af3fa8137194c160044da74db62
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 * **[!UICONTROL 檢視]**：在此檢視型別與之間切換 [頻率](frequency.md).
 * **[!UICONTROL 事件與量度]**：您要測量的事件或度量。 每個選取範圍都會呈現為圖表序列和表格列。 事件和量度無法在查詢中合併；當您完成第一個選擇後，其餘的查詢選擇必須屬於相同型別。 您最多可以包含五個選取專案。
 * **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括事件、工作階段、使用者、使用者百分比、每個工作階段的事件，以及每個使用者的事件。 計為選項僅適用於事件查詢，並會為量度查詢而移除。
-* **[!UICONTROL 區段]**：您要測量的區段。 每個選取的區段都會將圖表數列和表格列數加倍。 您最多可以包含五個區段。
+* **[!UICONTROL 區段]**：您要測量的區段。每個選取的區段都會將圖表數列和表格列數加倍。 您最多可以包含五個區段。
 * **[!UICONTROL 劃分屬性]**：依照所選屬性的值來劃分圖表數列和表格列。 支援單一劃分屬性。 前20個值會顯示在表格中，最多可在圖表中檢視10個值。 您可以透過切換圖表 ![顯示隱藏圖示](../assets/hide-in-chart.png) 圖示。
 
 ## 圖表設定

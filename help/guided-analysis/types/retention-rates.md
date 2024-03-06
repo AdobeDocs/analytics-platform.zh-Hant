@@ -1,14 +1,14 @@
 ---
 title: 保留率
 description: 測量有多少使用者繼續使用您的產品。
-feature: Guided Analysis
-keywords: 產品分析
+feature: Adobe Product Analytics, Guided Analysis
+keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 開始和傳回事件]**：使用者必須符合事件條件，才能符合納入您分析的資格。 支援一個事件，但您可以包含屬性篩選器。
 * **[!UICONTROL 計為]**：您要套用至保留使用者的計數方法。 選項包括 [!UICONTROL 使用者已保留] 和 [!UICONTROL 保留的使用者百分比].
-* **[!UICONTROL 區段]**：您要測量的區段。 每個選取的區段都會在同類群組表格中新增一列。 您最多可以包含三個區段。
+* **[!UICONTROL 區段]**：您要測量的區段。每個選取的區段都會在同類群組表格中新增一列。 您最多可以包含三個區段。
 
 ## 圖表設定
 

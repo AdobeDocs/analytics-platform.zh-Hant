@@ -1,14 +1,14 @@
 ---
 title: 首次使用檢視
-description: 測量首次功能使用對關鍵指標的影響。
-feature: Guided Analysis
-keywords: 產品分析
+description: 測量功能首次使用對關鍵指標的影響。
+feature: Adobe Product Analytics, Guided Analysis
+keywords: Product Analytics
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: e448f6ddbff2673abbd2920aacf41d4268f3ce07
+source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
