@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: d6837178bccc1a80130ec3fc282d2b44858d06b1
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 8%
@@ -81,7 +81,7 @@ ht-degree: 8%
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en).
+另請參閱Experience Platform [Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant).
 
 
 ## 自動化資料集有效期
@@ -101,7 +101,7 @@ ht-degree: 8%
 | 專案 | 2,000 | 系統強制的護欄 | 組織的最大專案數量。 |
 | 資料檢視 | 2,000 | 系統強制的護欄 | 最大數量 [資料檢視](../data-views/data-views.md) 適用於組織。 |
 | 資料檢視 | 50 | 系統強制的護欄 | 連線的最大資料檢視數量 |
-| 資料集 | 100 | 系統強制的護欄 | 最大數量 [資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=en) 每個連線。 |
+| 資料集 | 100 | 系統強制的護欄 | 最大數量 [資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant) 每個連線。 |
 | 連線 | 1000 | 系統強制的護欄 | 最大數量 [連線](../connections/overview.md) 適用於組織。 |
 | 連線標題 | 500 | 系統強制的護欄 | 連線標題的最大字元數。 |
 | 量度 | 5,000 | 系統強制的護欄 | 資料檢視中的最大量度數量。 |
@@ -126,7 +126,7 @@ ht-degree: 8%
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en).
+另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## 資料登陸區域
@@ -181,7 +181,7 @@ ht-degree: 8%
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
 | 活頁簿檔案大小 | 5 | 系統強制的護欄 | 排程活頁簿的檔案大小上限（以MB為單位）。 |
-| 資料區塊 | 1000 | 系統強制的護欄 | 最大數量 [個資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=en) 每個活頁簿。 |
+| 資料區塊 | 1000 | 系統強制的護欄 | 最大數量 [個資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=zh-Hant) 每個活頁簿。 |
 | 量度 | 20 | 系統強制的護欄 | 每個資料區塊的最大量度數。 |
 | 日期範圍範圍 | 13 | 系統強制的護欄 | 每個資料區塊可跨越之日期範圍的最大月數。 |
 | 「行」 | 50,000 | 系統強制的護欄 | 每個資料區塊的最大列數。 |
@@ -204,7 +204,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，瞭解您的特定合約條款和SLA。 請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html?lang=en) 以取得詳細資訊。
+>以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，瞭解您的特定合約條款和SLA。 請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/Guardrails.html) 以取得詳細資訊。
 
 | 資料流程 | 預期延遲 |
 |---|---|

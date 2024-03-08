@@ -5,8 +5,8 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 100%
 
@@ -114,7 +114,7 @@ Analysis Workspace 中的元件包含量度、維度、篩選器及時間粒度�
 
 3. 選取以下任一篩選器選項以篩選元件清單：
 
-   | 選項 | 功能 |
+   | 選項 | 函數 |
    |---------|----------|
    | [!UICONTROL **已核准**] | 僅顯示標記為由管理員核准的元件。 |
    | [!UICONTROL **我的最愛**] | 僅顯示「我的最愛」清單中的元件。如需有關將元件新增到「我的最愛」清單的資訊，請參閱[管理元件](#manage-components)。 |

@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 42232ff87ee822ceccf624ad8655c2dce8776814
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 98%
+source-wordcount: '627'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 | ----------- | ---------- | ------- | ---- |
 | **時間序列預測** | [預測](../analysis-workspace/c-forecast/forecasting.md)是 Analysis Workspace 的新功能，用於以任何支援的時間詳細程度 (每小時、每天、每週、每月和每年) 為自由形式表格和折線圖預測標準或計算量度。 | 2024 年 1 月 31 日 | 2024 年 2 月 21 日 |
 | **查詢和設定檔資料的列計數量度** | 資料集的列計數量度，設定為連線的一部分，現在包含從設定檔和查詢資料集中新增、略過或刪除的記錄。 |  | 2024 年 2 月 14 日 |
-| **Experience Edge 機器人偵測** | [機器人偵測](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html)可讓您將 Web SDK、Mobile SDK 和伺服器 API 產生的事件識別為由已知編目程式和機器人產生。 | | 2024 年 4 月 29 日 |
+| **邊緣網路機器人偵測** | [機器人偵測](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 可讓您將Web SDK、Mobile SDK和伺服器API產生的事件識別為已知編目程式和機器人產生的事件。 | | 2024 年 4 月 29 日 |
 | **使用情況量度** | 使用情況量度介面顯示所有連線中擷取和可報告的行的使用情況。此介面可讓您確定您的 Customer Journey Analytics 使用情況是否符合合約約定。 | 2024 年 2 月 20 日 | 2024年3月13日 |
 | **Adobe Product Analytics：與任何人分享** | 您現在可以與無 Product Analytics 存取權的人員共用 Adobe Product Analytics 專案的唯讀連結。 |  | 2024年3月底 |
 | **Adobe Product Analytics：套用計算量度** | 現在您可以存取在 Analysis Workspace 中建立的計算量度或趨勢中的計算量度產生器：使用情況視圖，使您能夠基於一段時間進行趨勢分析和比較量度。 |  | 2024 年 2 月 16 日 |

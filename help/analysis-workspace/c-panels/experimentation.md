@@ -4,7 +4,7 @@ title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 58%
@@ -17,7 +17,7 @@ ht-degree: 58%
 
 >[!IMPORTANT]
 >
->此時， [目標的Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant) (A4T)資料 *無法* 在Experimentation面板中分析。
+>此時， [目標的Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) (A4T)資料 *無法* 在Experimentation面板中分析。
 
 ## 存取控制 {#access}
 
@@ -29,7 +29,7 @@ ht-degree: 58%
 
 ## 步驟 1：建立與實驗資料集的連接 {#connection}
 
-建議的資料結構描述是針對在[「物件」陣列](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html?lang=zh-Hant) 中的實驗資料，其中包含在二個獨立維度中的實驗與變數資料。 兩個維度都必須位於 **單一** 物件陣列。 如果您的實驗資料是在一個單獨的維度內，實驗與變數資料在分隔字串內，您可以使用資料檢視中的[子字串](/help/data-views/component-settings/substring.md)將它們一分為二，以便用於面板中。
+建議的資料結構描述是針對在[「物件」陣列](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/array.html) 中的實驗資料，其中包含在二個獨立維度中的實驗與變數資料。 兩個維度都必須位於 **單一** 物件陣列。 如果您的實驗資料是在一個單獨的維度內，實驗與變數資料在分隔字串內，您可以使用資料檢視中的[子字串](/help/data-views/component-settings/substring.md)將它們一分為二，以便用於面板中。
 
 在您的實驗資料完成後 [已內嵌](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) 移至Adobe Experience Platform， [在Customer Journey Analytics中建立連線](/help/connections/create-connection.md) 到一個或多個實驗資料集。
 

@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 exl-id: 1827a637-6c0f-43f2-862a-928089340d30
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+workflow-type: tm+mt
 source-wordcount: '2789'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Customer Journey Analytics SQL Connector] 讓 SQL 可以存取您在 Customer Journey Analytics 中定義的[資料檢視](./data-views.md)。您的資料工程師和分析師可能更熟悉 Power BI、Tableau 或其他企業情報和視覺化工具 (也稱為 BI 工具)。他們現在可以根據 Customer Journey Analytics 使用者在建立 Analysis Workspace 專案時所使用的相同資料檢視來建立報告和儀表板。
 
-Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en) 是 SQL 與 Experience Platform 資料湖中可用資料之間的介面。啟用 [!DNL Customer Journey Analytics SQL Connector] 之後即可延伸 [!DNL Query Service] 的功能，讓您在 [!DNL Query Service] 工作階段中以表格或視圖形式查看 Customer Journey Analytics 資料檢視。因此，使用 [!DNL Query Service] 作為 PostgresSQL 介面的企業情報工具，可以直接立即受益於這項延伸功能。
+Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant) 是 SQL 與 Experience Platform 資料湖中可用資料之間的介面。啟用 [!DNL Customer Journey Analytics SQL Connector] 之後即可延伸 [!DNL Query Service] 的功能，讓您在 [!DNL Query Service] 工作階段中以表格或視圖形式查看 Customer Journey Analytics 資料檢視。因此，使用 [!DNL Query Service] 作為 PostgresSQL 介面的企業情報工具，可以直接立即受益於這項延伸功能。
 
 主要優點包括：
 
@@ -44,7 +44,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/doc
    - Customer Journey Analytics Workspace 專案，以及
    - 他們想要使用的 Customer Journey Analytics 資料檢視。
 
-- 使用有到期日或無到期日的認證將 BI 工具連接到 Customer Journey Analytics SQL 連接器。[認證指南](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html?lang=en)提供關於設定有到期日的認證或無到期日的認證之詳細資訊。
+- 使用有到期日或無到期日的認證將 BI 工具連接到 Customer Journey Analytics SQL 連接器。[認證指南](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html)提供關於設定有到期日的認證或無到期日的認證之詳細資訊。
 
 如需其他資訊，請參閱 Customer Journey Analytics 管理區段的「[存取控制](../admin/cja-access-control.md)」。
 
@@ -86,7 +86,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/doc
 
 +++
 
-請參閱「[查詢編輯器 UI 指南](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=en)」以了解更多資訊。
+請參閱「[查詢編輯器 UI 指南](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=zh-Hant)」以了解更多資訊。
 
 
 ### BI 工具
@@ -117,7 +117,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/doc
 
       2. 將「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」文字欄位。
 
-         將 `?FLATTEN` 新增到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數，以便讀起來像 `prod:cja?FLATTEN`。請參閱「[將巢狀資料結構展平以供協力廠商 BI 工具使用](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en)」以了解更多資訊。
+         將 `?FLATTEN` 新增到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數，以便讀起來像 `prod:cja?FLATTEN`。請參閱「[將巢狀資料結構展平以供協力廠商 BI 工具使用](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html)」以了解更多資訊。
 
       3. 在出現「**[!UICONTROL **&#x200B;資料連線&#x200B;**]**」模式的提示時，選取「**[!UICONTROL ** DirectQuery **]**」以確保資料結構適當地展平。
 
@@ -131,7 +131,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/doc
 
    與一個或多個所選表格關聯的所有維度和指標顯示在右窗格，您隨時可以用於視覺化。
 
-   請參閱「[將 Power BI 連接到 Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/power-bi.html?lang=en)」以了解更多資訊。
+   請參閱「[將 Power BI 連接到 Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/power-bi.html)」以了解更多資訊。
 
 +++
 
@@ -159,7 +159,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/doc
 
       3. 將「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」文字欄位。
 
-         將 `%3FFLATTEN` 新增到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數，以便讀起來像 `prod:cja%3FFLATTEN`。請參閱「[將巢狀資料結構展平以供協力廠商 BI 工具使用](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en)」以了解更多資訊。
+         將 `%3FFLATTEN` 新增到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數，以便讀起來像 `prod:cja%3FFLATTEN`。請參閱「[將巢狀資料結構展平以供協力廠商 BI 工具使用](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html)」以了解更多資訊。
 
       4. 選取「**[!UICONTROL **&#x200B;使用者名稱和密碼&#x200B;**]**」(從「**[!UICONTROL **&#x200B;驗證&#x200B;**]**」清單)。
 
@@ -175,11 +175,11 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/doc
 
    現在您可以使用資料檢視表格中的資料建立報告和視覺化。
 
-   請參閱「[將 Tableau 連線到 Query Service ](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html?lang=en)」以了解更多資訊。
+   請參閱「[將 Tableau 連線到 Query Service ](https://experienceleague.adobe.com/docs/experience-platform/query/clients/tableau.html)」以了解更多資訊。
 
 +++
 
-如需關於各種可用工具的概觀與更多資訊，請參閱「[將用戶端連接到 Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=en)」。
+如需關於各種可用工具的概觀與更多資訊，請參閱「[將用戶端連接到 Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html)」。
 
 ## 功能
 
@@ -219,11 +219,11 @@ prod:all=> \dv
 
 ### 巢狀與展平
 
-依預設，資料檢視的綱要使用巢狀結構，就像原始的 XDM 綱要一樣。該整合也支援 `FLATTEN` 選項。您可以使用此選項強制展平資料檢視 (以及工作階段中的任何其他表格) 的綱要。展平能讓不支援結構化綱要的 BI 工具變得更容易使用。請參閱「[在 Query Service 中使用巢狀資料結構](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html?lang=en)」以了解更多資訊。
+依預設，資料檢視的綱要使用巢狀結構，就像原始的 XDM 綱要一樣。該整合也支援 `FLATTEN` 選項。您可以使用此選項強制展平資料檢視 (以及工作階段中的任何其他表格) 的綱要。展平能讓不支援結構化綱要的 BI 工具變得更容易使用。請參閱「[在 Query Service 中使用巢狀資料結構](https://experienceleague.adobe.com/docs/experience-platform/query/essential-concepts/flatten-nested-data.html)」以了解更多資訊。
 
 ### 支援 SQL
 
-有關支援哪些 SQL 類型的完整參考，請參閱「[Query Service SQL 參考](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html?lang=en)」。
+有關支援哪些 SQL 類型的完整參考，請參閱「[Query Service SQL 參考](https://experienceleague.adobe.com/docs/experience-platform/query/sql/overview.html)」。
 
 有關可以使用的 SQL 範例，請參閱下表。
 

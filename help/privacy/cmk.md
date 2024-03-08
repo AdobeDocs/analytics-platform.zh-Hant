@@ -4,7 +4,7 @@ description: 瞭解如何設定客戶自控金鑰以進行Customer Journey Analy
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
 feature: Privacy
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 57%
@@ -17,7 +17,7 @@ Adobe Customer Journey Analytics為以下專案提供選項 [Health Shield](http
 
 >[!NOTE]
 >
->客戶自控金鑰目前僅適用於已購買 [Healthcare Shield 或 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html?lang=zh-Hant) 附加產品的組織。
+>客戶自控金鑰目前僅適用於已購買 [Healthcare Shield 或 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/governance/healthcare-shield.html) 附加產品的組織。
 
 ## 設定CMK以進行Customer Journey Analytics
 

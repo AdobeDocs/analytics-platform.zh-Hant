@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: 71dd9e4e-1d71-424b-b984-492a3e39af5f
-source-git-commit: 744c8cfc903ed841dd39b29fd3fef68ef2e7b7cb
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 2%
@@ -33,8 +33,8 @@ Adobe Analytics資料摘要是從Adobe Analytics中取得原始資料的有力�
 使用此使用案例所述的功能之前，請確定您符合下列所有需求：
 
 * 將資料收集至Experience Platform資料湖的有效實作。
-* 存取資料Distiller附加元件，以確保您有權執行批次查詢。 另請參閱 [查詢服務封裝](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html?lang=en) 以取得詳細資訊。
-* 存取匯出資料集功能，此功能在您購買Real-Time CDP Prime或Ultimate套件、Adobe Journey Optimizer或Customer Journey Analytics時可用。 另請參閱 [將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant) 以取得詳細資訊。
+* 存取資料Distiller附加元件，以確保您有權執行批次查詢。 另請參閱 [查詢服務封裝](https://experienceleague.adobe.com/docs/experience-platform/query/packaging.html) 以取得詳細資訊。
+* 存取匯出資料集功能，此功能在您購買Real-Time CDP Prime或Ultimate套件、Adobe Journey Optimizer或Customer Journey Analytics時可用。 另請參閱 [將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) 以取得詳細資訊。
 * 一或多個目的地(例如：Amazon S3、Google Cloud Storage)已設定為可在其中匯出資料摘要的原始資料。
 
 
@@ -42,32 +42,32 @@ Adobe Analytics資料摘要是從Adobe Analytics中取得原始資料的有力�
 
 Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料湖中的任何資料集，就像它是資料庫表格一樣。 然後，您可以將結果擷取為新資料集，以供進一步用於報告或匯出。
 
-您使用查詢服務 [使用者介面](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=en)， a [使用者端透過PostgresQL通訊協定連線](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=en)，或 [RESTful API](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en) 以建立及排程收集資料摘要資料的查詢。
+您使用查詢服務 [使用者介面](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=zh-Hant)， a [使用者端透過PostgresQL通訊協定連線](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html)，或 [RESTful API](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) 以建立及排程收集資料摘要資料的查詢。
 
 ### 建立查詢
 
-您可以使用標準ANSI SQL for SELECT敘述句和其他有限命令的所有功能，來建立和執行產生資料摘要資料的查詢。 另請參閱 [SQL語法](https://experienceleague.adobe.com/docs/experience-platform/query/sql/syntax.html?lang=en) 以取得詳細資訊。 除了此SQL語法以外，Adobe還支援：
+您可以使用標準ANSI SQL for SELECT敘述句和其他有限命令的所有功能，來建立和執行產生資料摘要資料的查詢。 另請參閱 [SQL語法](https://experienceleague.adobe.com/docs/experience-platform/query/sql/syntax.html) 以取得詳細資訊。 除了此SQL語法以外，Adobe還支援：
 
-* 預先建立 [Adobe定義函式(ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) 可協助您對儲存在Experience Platform資料湖中的事件資料執行常見的業務相關工作，包括 [工作階段化](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html?lang=zh-Hant) 和 [歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hant)，
-* 數個內建 [Spark SQL函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en)，
-* [中繼資料PostgreSQL命令](https://experienceleague.adobe.com/docs/experience-platform/query/sql/metadata.html?lang=en)，
-* [準備的陳述式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/prepared-statements.html?lang=en).
+* 預先建立 [Adobe定義函式(ADF)](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html) 可協助您對儲存在Experience Platform資料湖中的事件資料執行常見的業務相關工作，包括 [工作階段化](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing.html) 和 [歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hant)，
+* 數個內建 [Spark SQL函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html)，
+* [中繼資料PostgreSQL命令](https://experienceleague.adobe.com/docs/experience-platform/query/sql/metadata.html)，
+* [準備的陳述式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/prepared-statements.html).
 
 #### 資料摘要欄
 
 您可以在查詢中使用的XDM欄位取決於資料集所依據的結構描述定義。 請確定您瞭解資料集所根據的結構描述。 請參閱 [資料集UI指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant) 以取得詳細資訊。
 
-若要協助您定義資料摘要欄位與XDM欄位之間的對應，請參閱 [分析欄位對應](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=zh-Hant). 另請參閱 [結構描述UI總覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en#defining-xdm-fields) 有關如何管理XDM資源（包括結構描述、類別、欄位群組和資料型別）的詳細資訊。
+若要協助您定義資料摘要欄位與XDM欄位之間的對應，請參閱 [分析欄位對應](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html). 另請參閱 [結構描述UI總覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html#defining-xdm-fields) 有關如何管理XDM資源（包括結構描述、類別、欄位群組和資料型別）的詳細資訊。
 
 例如，如果您想使用 *頁面名稱* 做為資料摘要的一部分：
 
 * 在Adobe Analytics資料摘要的UI中，您可以選取 **[!UICONTROL pagename]** 作為欄，以新增至您的資料摘要定義。
-* 在查詢服務中，您包括 `web.webPageDetails.name` 從 `sample_event_dataset_for_website_global_v1_1` 資料集(根據 **網站的範例事件結構描述（全域v1.1）** 體驗事件結構描述)。 請參閱 [Web詳細資料結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html?lang=en) 以取得詳細資訊。
+* 在查詢服務中，您包括 `web.webPageDetails.name` 從 `sample_event_dataset_for_website_global_v1_1` 資料集(根據 **網站的範例事件結構描述（全域v1.1）** 體驗事件結構描述)。 請參閱 [Web詳細資料結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/web-details.html) 以取得詳細資訊。
 
 <!--
-To understand the mapping between Adobe Analytics data feed columns and XDM fields in your experience event dataset and underlying schema, see [Analytics fields mapping](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en) and [Adobe Analytics ExperienceEvent Full Extension schema field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) for more information.
+To understand the mapping between Adobe Analytics data feed columns and XDM fields in your experience event dataset and underlying schema, see [Analytics fields mapping](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html) and [Adobe Analytics ExperienceEvent Full Extension schema field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) for more information.
 
-Furthermore, the [automatically collected information by the Experience Platform Web SDK (out of the box)](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=en) might be relevant to identify columns for your query.
+Furthermore, the [automatically collected information by the Experience Platform Web SDK (out of the box)](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html) might be relevant to identify columns for your query.
 -->
 
 #### 身分
@@ -79,14 +79,14 @@ Furthermore, the [automatically collected information by the Experience Platform
 
 或者，您可以使用 `identityMap` 以查詢身分。 此物件的型別 `Map` 並使用 [巢狀資料結構](#nested-data-structure).
 
-另請參閱 [在UI中定義身分欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en) 以取得如何在Experience Platform中定義身分欄位的詳細資訊。
+另請參閱 [在UI中定義身分欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html) 以取得如何在Experience Platform中定義身分欄位的詳細資訊。
 
-請參閱 [Analytics資料中的主要識別碼](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#primary-identifiers-in-analytics-data) 瞭解在使用Analytics來源聯結器時，Adobe Analytics身分如何對應到Experience Platform身分。 如此一來，即使未使用Analytics來源聯結器，仍可協助您設定身分識別。
+請參閱 [Analytics資料中的主要識別碼](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#primary-identifiers-in-analytics-data) 瞭解在使用Analytics來源聯結器時，Adobe Analytics身分如何對應到Experience Platform身分。 如此一來，即使未使用Analytics來源聯結器，仍可協助您設定身分識別。
 
 
 #### 點選層級資料和識別
 
-根據實作，傳統上在Adobe Analytics中收集的點選層級資料現在會儲存為Experience Platform中的時間戳記事件資料。 下表摘錄自 [分析欄位對應](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html?lang=en#generated-mapping-fields) 和顯示如何將點選層級特定的Adobe Analytics資料摘要欄與查詢中的對應XDM欄位的範例。 此表格也顯示如何使用XDM欄位識別點選、造訪和訪客的範例。
+根據實作，傳統上在Adobe Analytics中收集的點選層級資料現在會儲存為Experience Platform中的時間戳記事件資料。 下表摘錄自 [分析欄位對應](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html#generated-mapping-fields) 和顯示如何將點選層級特定的Adobe Analytics資料摘要欄與查詢中的對應XDM欄位的範例。 此表格也顯示如何使用XDM欄位識別點選、造訪和訪客的範例。
 
 | 資料摘要欄 | XDM欄位 | 類型 | 說明 |
 |---|---|---|---|
@@ -115,13 +115,13 @@ Furthermore, the [automatically collected information by the Experience Platform
 
 #### 張貼欄
 
-Adobe Analytics資料摘要會使用附有欄的概念 `post_` 前置詞，處理之後包含資料的欄。 如需詳細資訊，請參閱[資料摘要常見問題](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#post)。
+Adobe Analytics資料摘要會使用附有欄的概念 `post_` 前置詞，處理之後包含資料的欄。 如需詳細資訊，請參閱[資料摘要常見問題](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html#post)。
 
 透過Experience Platform邊緣網路（Web SDK、Mobile SDK、伺服器API）在資料集中收集的資料不含 `post_` 欄位。 因此， `post_` 前置詞和 *非*-`post_` 有首碼的資料摘要欄會對應至相同的XDM欄位。 例如，兩者 `page_url` 和 `post_page_url` 資料摘要欄會對應至相同的 `web.webPageDetails.URL` XDM欄位。
 
-另請參閱 [比較Adobe Analytics和Customer Journey Analytics的資料處理](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html?lang=zh-Hant) 以取得資料處理差異的概觀。
+另請參閱 [比較Adobe Analytics和Customer Journey Analytics的資料處理](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons.html) 以取得資料處理差異的概觀。
 
-此 `post_` 在Experience Platform資料湖中收集資料時，為其資料欄型別加上前置詞，則不需要進階轉換，才能成功用於資料摘要使用案例。 在查詢中執行這些進階轉換涉及使用 [Adobe定義的函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en) 用於工作階段化、歸因和重複資料刪除。 另請參閱 [範例](#examples) 這些函式的使用方式。
+此 `post_` 在Experience Platform資料湖中收集資料時，為其資料欄型別加上前置詞，則不需要進階轉換，才能成功用於資料摘要使用案例。 在查詢中執行這些進階轉換涉及使用 [Adobe定義的函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html) 用於工作階段化、歸因和重複資料刪除。 另請參閱 [範例](#examples) 這些函式的使用方式。
 
 #### 查詢
 
@@ -129,7 +129,7 @@ Adobe Analytics資料摘要會使用附有欄的概念 `post_` 前置詞，處�
 
 #### 計算
 
-若要在欄位（欄）上執行計算，請使用標準SQL函式(例如 `COUNT(*)`)或 [數學和統計運運算元與函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#math) Spark SQL的一部分。 另外， [視窗函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html?lang=en#window-functions) 提供更新彙總的支援，並傳回有序子集中每一列的單一專案。 另請參閱 [範例](#examples) 這些函式的使用方式。
+若要在欄位（欄）上執行計算，請使用標準SQL函式(例如 `COUNT(*)`)或 [數學和統計運運算元與函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html#math) Spark SQL的一部分。 另外， [視窗函式](https://experienceleague.adobe.com/docs/experience-platform/query/sql/adobe-defined-functions.html#window-functions) 提供更新彙總的支援，並傳回有序子集中每一列的單一專案。 另請參閱 [範例](#examples) 這些函式的使用方式。
 
 #### 巢狀資料結構
 
@@ -154,7 +154,7 @@ Adobe Analytics資料摘要會使用附有欄的概念 `post_` 前置詞，處�
 }
 ```
 
-您可以使用 [`explode()` 或其他陣列功能](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html?lang=en#arrays) 從Spark SQL取得巢狀資料結構內的資料，例如：
+您可以使用 [`explode()` 或其他陣列功能](https://experienceleague.adobe.com/docs/experience-platform/query/sql/spark-sql-functions.html#arrays) 從Spark SQL取得巢狀資料結構內的資料，例如：
 
 ```sql
 select explode(identityMap) from demosys_cja_ee_v1_website_global_v1_1 limit 15;
@@ -166,16 +166,16 @@ select explode(identityMap) from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 ```
 
-請參閱「[在 Query Service 中使用巢狀資料結構](https://experienceleague.adobe.com/docs/experience-platform/query/key-concepts/nested-data-structures.html?lang=en)」以了解更多資訊。
+請參閱「[在 Query Service 中使用巢狀資料結構](https://experienceleague.adobe.com/docs/experience-platform/query/key-concepts/nested-data-structures.html)」以了解更多資訊。
 
 
 #### 範例
 
 對於使用Experience Platform資料湖中資料集的查詢，點選Adobe定義函式和/或Spark SQL的其他功能，這會提供類似結果給對等的Adobe Analytics資料摘要，請參閱
 
-* [捨棄的瀏覽](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=en)
-* [歸因分析](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html?lang=en)
-* [機器人篩選](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html?lang=en)
+* [捨棄的瀏覽](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html)
+* [歸因分析](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/attribution-analysis.html)
+* [機器人篩選](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/bot-filtering.html)
 * 和查詢服務指南中的其他範例使用案例。
 
 
@@ -185,28 +185,28 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 #### 使用查詢編輯器
 
-您可以使用查詢編輯器排程查詢。 排程查詢時，您可以定義輸出資料集。 另請參閱 [查詢排程](https://experienceleague.adobe.com/docs/experience-platform/query/ui/query-schedules.html?lang=en) 以取得詳細資訊。
+您可以使用查詢編輯器排程查詢。 排程查詢時，您可以定義輸出資料集。 另請參閱 [查詢排程](https://experienceleague.adobe.com/docs/experience-platform/query/ui/query-schedules.html) 以取得詳細資訊。
 
 
 #### 使用查詢服務API
 
-或者，您可以使用RESTful API來定義查詢和排程查詢。 另請參閱 [查詢服務API指南](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=en) 以取得詳細資訊。
+或者，您可以使用RESTful API來定義查詢和排程查詢。 另請參閱 [查詢服務API指南](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) 以取得詳細資訊。
 請確定您將輸出資料集定義為選用的一部分 `ctasParameters` 建立查詢時的屬性([建立查詢](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery))或建立查詢的排程時([建立排定的查詢](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule))。
 
 
 
 ## 資料集匯出
 
-一旦您建立並排程查詢，且已驗證輸出資料集中的結果符合您的要求，您就可以將原始資料集匯出至雲端儲存空間目的地。 此匯出位於「Experience Platform目的地」術語中，稱為「資料集匯出目的地」。 另請參閱 [將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant) 以取得概覽。
+一旦您建立並排程查詢，且已驗證輸出資料集中的結果符合您的要求，您就可以將原始資料集匯出至雲端儲存空間目的地。 此匯出位於「Experience Platform目的地」術語中，稱為「資料集匯出目的地」。 另請參閱 [將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) 以取得概覽。
 
 支援下列雲端儲存空間目的地：
 
-* [Azure Data Lake Storage Gen2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=en)
-* [資料登陸區域](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=en)
-* [Google雲端儲存空間](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=en)
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=en#changelog)
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=en#changelog)
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=en#changelog)
+* [Azure Data Lake Storage Gen2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html)
+* [資料登陸區域](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html)
+* [Google雲端儲存空間](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html#changelog)
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html#changelog)
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html#changelog)
 
 
 ### EXPERIENCE PLATFORMUI
@@ -215,25 +215,25 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 #### 選取目的地
 
-當您決定要匯出輸出資料集的雲端儲存空間目的地時， [選取目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#select-destination). 如果您尚未設定偏好雲端儲存空間的目的地，您必須 [建立新的目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=en).
+當您決定要匯出輸出資料集的雲端儲存空間目的地時， [選取目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#select-destination). 如果您尚未設定偏好雲端儲存空間的目的地，您必須 [建立新的目的地連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html).
 
 在設定目的地時，您可以定義檔案型別（JSON或Parquet）、產生的檔案是否應壓縮，以及資訊清單檔案是否應包含在內。
 
 
 #### 選取資料集
 
-當您選取目的地時，在下一個 **[!UICONTROL 選取資料集]** 您必須從資料集清單中選取輸出資料集的步驟。 如果您建立了多個排程的查詢，且希望輸出資料集傳送至相同的雲端儲存空間目的地，則可選取對應的輸出資料集。 另請參閱 [選取您的資料集](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#select-datasets) 以取得詳細資訊。
+當您選取目的地時，在下一個 **[!UICONTROL 選取資料集]** 您必須從資料集清單中選取輸出資料集的步驟。 如果您建立了多個排程的查詢，且希望輸出資料集傳送至相同的雲端儲存空間目的地，則可選取對應的輸出資料集。 另請參閱 [選取您的資料集](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#select-datasets) 以取得詳細資訊。
 
 #### 排程資料集匯出
 
-最後，您想要將資料集匯出排程為 **[!UICONTROL 正在排程]** 步驟。 在該步驟中，您可以定義排程，以及輸出資料集匯出是否應為增量式的。 另請參閱 [排程資料集匯出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#scheduling) 以取得詳細資訊。
+最後，您想要將資料集匯出排程為 **[!UICONTROL 正在排程]** 步驟。 在該步驟中，您可以定義排程，以及輸出資料集匯出是否應為增量式的。 另請參閱 [排程資料集匯出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#scheduling) 以取得詳細資訊。
 
 
 #### 最後步驟
 
-[檢閱](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#review) 您的選取範圍以及正確後，開始將輸出資料集匯出至雲端儲存空間目的地。
+[檢閱](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#review) 您的選取範圍以及正確後，開始將輸出資料集匯出至雲端儲存空間目的地。
 
-您必須 [驗證](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#verify) 資料匯出成功。 匯出資料集時，Experience Platform會建立一或多個 `.json` 或 `.parquet` 存放位置中定義的檔案。 預期會根據您設定的匯出排程，將新檔案儲存在您的儲存位置。 Experience Platform會在您指定為所選目的地一部分的儲存位置中建立資料夾結構，並存放匯出的檔案。 每次匯出時都會建立一個新資料夾，其模式如下： `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. 預設檔案名稱是隨機產生的，並確保匯出的檔案名稱是唯一的。
+您必須 [驗證](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify) 資料匯出成功。 匯出資料集時，Experience Platform會建立一或多個 `.json` 或 `.parquet` 存放位置中定義的檔案。 預期會根據您設定的匯出排程，將新檔案儲存在您的儲存位置。 Experience Platform會在您指定為所選目的地一部分的儲存位置中建立資料夾結構，並存放匯出的檔案。 每次匯出時都會建立一個新資料夾，其模式如下： `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. 預設檔案名稱是隨機產生的，並確保匯出的檔案名稱是唯一的。
 
 ### 流程服務API
 
@@ -269,7 +269,7 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 至 [檢查資料流的成功執行](https://experienceleague.adobe.com/docs/experience-platform/destinations/api/export-datasets.html#get-dataflow-runs)，使用 [`GET /runs`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Dataflow-runs/operation/getFlowRuns) API，將資料流ID指定為查詢引數。 此資料流ID是您設定資料流時傳回的識別碼。
 
-[驗證](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en#verify) 資料匯出成功。 匯出資料集時，Experience Platform會建立一或多個 `.json` 或 `.parquet` 存放位置中定義的檔案。 預期會根據您設定的匯出排程，將新檔案儲存在您的儲存位置。 Experience Platform會在您指定為所選目的地一部分的儲存位置中建立資料夾結構，並存放匯出的檔案。 每次匯出時都會建立一個新資料夾，其模式如下： `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. 預設檔案名稱是隨機產生的，並確保匯出的檔案名稱是唯一的。
+[驗證](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify) 資料匯出成功。 匯出資料集時，Experience Platform會建立一或多個 `.json` 或 `.parquet` 存放位置中定義的檔案。 預期會根據您設定的匯出排程，將新檔案儲存在您的儲存位置。 Experience Platform會在您指定為所選目的地一部分的儲存位置中建立資料夾結構，並存放匯出的檔案。 每次匯出時都會建立一個新資料夾，其模式如下： `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. 預設檔案名稱是隨機產生的，並確保匯出的檔案名稱是唯一的。
 
 ## 結論
 

@@ -4,7 +4,7 @@ description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 57%
@@ -64,7 +64,7 @@ ht-degree: 57%
    | [!UICONTROL 預估回訪] | 此數字可提供從下拉式清單中所選時間範圍內的回訪客戶估計數量。我們查看該對象的歷史流失率來預測這個數字。 |
    | [!UICONTROL 預覽量度] | 此設定可讓您查看特定量度，以了解此對象是否對此量度貢獻了不成比例的數量，例如「[!UICONTROL 收入]」或「[!UICONTROL 網站平均逗留時間]」。它為您提供量度的彙總計數，以及它所代表的總數的百分比。您可以選取資料檢視中可用的任何量度。 |
    | [!UICONTROL 包含的命名空間] | 與對象中的人員相關聯的特定命名空間。範例包括 ECID、CRM ID、電子郵件地址等。 |
-   | [!UICONTROL 沙箱] | 此對象所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。當您將此對象發佈到 Platform 時，您只能在此沙箱的範圍內使用它。 |
+   | [!UICONTROL 沙箱] | 此對象所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)。當您將此對象發佈到 Platform 時，您只能在此沙箱的範圍內使用它。 |
 
    {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ Customer Journey Analytics會透過管道將資料串流到RTCP中，而且這�
 
 +++**Customer Journey Analytics會傳送哪些身分？**
 
-中指定的任何身分/名稱空間配對 [連線設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant#create-connection). 具體而言，就是使用者選取要作為其「人員 ID」之欄位時的步驟。
+中指定的任何身分/名稱空間配對 [連線設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection). 具體而言，就是使用者選取要作為其「人員 ID」之欄位時的步驟。
 
 +++
 

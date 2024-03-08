@@ -4,10 +4,10 @@ description: 學習關於如何將資料從 Google Analytics 移轉到 Adobe Exp
 exl-id: 10c485c9-66ab-4925-a357-a66a374d4c6f
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 87%
+source-wordcount: '311'
+ht-degree: 79%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 87%
 
 ## 設定既存的 Google Analytics 實作，以用於 Adobe Experience Platform {#configure}
 
-擷取最新的 (串流) 資料涉及將資料傳送至 Adobe Experience Edge，然後再將資料轉傳至 Adobe Experience Platform。 請參閱[在 Adobe Experience Platform 設定 Google Analytics 資料](streaming.md)。
+擷取目前（串流）資料涉及將資料傳送至Adobe Experience Platform Edge Network，然後再將資料轉送至Adobe Experience Platform。 請參閱[在 Adobe Experience Platform 設定 Google Analytics 資料](streaming.md)。
 
 ## 在Customer Journey Analytics中設定連線和資料檢視
 

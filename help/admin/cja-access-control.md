@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 52%
@@ -57,7 +57,7 @@ Customer Journey Analytics由三個存取層級或三個角色管理：產品管
 
      如需 Experience Platform 權限的詳細資訊，請參閱[存取 Adobe Experience Platform 控制項](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant)。
 
-* 將資料集匯出至雲端 [目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant)
+* 將資料集匯出至雲端 [目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)
 
   >[!AVAILABILITY]
   >
@@ -67,7 +67,7 @@ Customer Journey Analytics由三個存取層級或三個角色管理：產品管
    * 管理目的地
    * 啟用目的地
 
-     如需Experience Platform目的地許可權的詳細資訊，請參閱 [目的地概觀](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en#access-controls).
+     如需Experience Platform目的地許可權的詳細資訊，請參閱 [目的地概觀](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html#access-controls).
 
 ## 產品設定檔管理員角色
 
@@ -85,7 +85,7 @@ Customer Journey Analytics由三個存取層級或三個角色管理：產品管
 | --- | --- | --- |
 | **資料檢視** | 無法檢視/更新/建立/刪除 | 可以建立/更新/刪除 |
 | **連線** | 無法檢視/更新/建立/刪除 | 可以建立/更新/刪除 |
-| **篩選條件** | 可以建立 | 可以建立 |
+| **篩選器** | 可以建立 | 可以建立 |
 | **專案** | 可以建立 | 可以建立/更新/刪除 |
 | **對象** | 可以在Admin Console中使用特殊許可權來建立 | 可以建立 |
 | **計算量度** | 可以在Admin Console中使用特殊許可權來建立 | 可以建立 |
@@ -146,7 +146,7 @@ Customer Journey Analytics由三個存取層級或三個角色管理：產品管
 | **[!UICONTROL 建立註解]** | 可讓使用者建立[註解](/help/components/annotations/overview.md)。 |
 | **[!UICONTROL 建立對象]** | 可讓使用者建立[對象](/help/components/audiences/audiences-overview.md)。 |
 | **[!UICONTROL 對象檢視]** | 可讓使用者查看[對象](/help/components/audiences/audiences-overview.md)。 |
-| [!UICONTROL **與任何人共用專案連結**] | 允許使用者 [與任何人共用專案。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html?lang=zh-Hant#share-public-link) |
+| [!UICONTROL **與任何人共用專案連結**] | 允許使用者 [與任何人共用專案。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/share-projects.html#share-public-link) |
 | **[!UICONTROL 資料檢視工具]**： |   |
 | [!UICONTROL **完整表格匯出**] | 允許使用者 [將完整的表格匯出至雲端](/help/analysis-workspace/export/export-cloud.md). |
 | [!UICONTROL **SQL查詢服務存取權**] | 可讓使用者存取 [aep中的查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant). |

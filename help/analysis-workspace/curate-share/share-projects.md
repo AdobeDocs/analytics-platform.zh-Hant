@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 534f163230ea7cafc97948fe0e8196d1dea47fa8
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2091'
-ht-degree: 57%
+ht-degree: 68%
 
 ---
 
@@ -59,22 +59,22 @@ ht-degree: 57%
 
 * 如果選取了多個要共用的專案，收件者將會新增至每個專案的現有收件者清單。
 
-  例如，專案A已和收件者1、2和3共用，而專案B已和收件者4、5和6共用。
+  例如，專案 A 已有收件者 1、2 和 3 共用，而專案 B 已有收件者 4、5 和 6 共用。
 
-  然後與收件者4和7共用專案A和B。 專案A的新共用清單現在是1、2、3、4和7，而專案B的新共用清單是4、5、6和7。
+  然後，專案 A 以及 B 有收件者 4 和 7 共用。新的專案 A 共用清單現在為 1、2、3、4 和 7，而新的專案 B 共用清單為 4、5、6 和 7。
 
 若要與組織中的使用者或群組共用特定專案角色：
 
 1. 在Customer Journey Analytics中，選取 [!UICONTROL **工作區**] 索引標籤，然後選取 [!UICONTROL **專案**] 在左側邊欄中。
 
-1. 選取一或多個要共用的專案旁的核取方塊，然後選取 [!UICONTROL **共用**].
+1. 選取您要共用的一個或多個專案旁邊的勾選方框，然後選取「[!UICONTROL **共用**]」。
 
    或
 
-   若只要共用個別專案，您可以開啟要共用的專案，然後選取 **[!UICONTROL 共用]** > **[!UICONTROL 與Workspace使用者共用]**.
+   若只要共用單一專案，您可以開啟要共用的專案，然後選取「**[!UICONTROL 共用]** > **[!UICONTROL 與 Workspace 使用者共用]**」。
 如果有未儲存的變更，系統會提示您先儲存專案。
 
-   共用專案對話方塊隨即顯示。 此 [!UICONTROL **透過連結共用**] 和 [!UICONTROL **設定**] 對話方塊的區段僅在共用單一專案時可見。
+   共用專案對話框會顯示。對話框的「[!UICONTROL **透過連結共用**]」和「[!UICONTROL **設定**]」部份只會在共用單一專案時可見到。
 
    ![共用專案視窗。](assets/share-proj-modal.png)
 
@@ -92,11 +92,11 @@ ht-degree: 57%
 
    * **設定為收件者的登陸頁面：** 將此頁面設定為收件者的登陸頁面。系統不會沿用此設定，此動作僅在單次共用中有效。
 
-1. 選取 **[!UICONTROL 共用]**. (如果專案已共用，請選取 [!UICONTROL **更新**].)
+1. 選取「**[!UICONTROL 共用]**」。(如果專案已有人共用，請選取「[!UICONTROL **更新**]」。)
 
    或
 
-   選取 **[!UICONTROL 組織與共用]** 以自動套用專案組織。 (如果專案已共用，請選取 **[!UICONTROL 組織與更新]**.) 深入了解[專案監管](curate.md)。
+   選取「**[!UICONTROL 監管與共用]**」以自動套用專案監管。(如果專案已有人共用，請選取「**[!UICONTROL 監管與更新]**」。)深入了解[專案監管](curate.md)。
 
 ## 共用專案的連結
 
@@ -158,7 +158,7 @@ ht-degree: 57%
 
    選取此選項後，會建立一個可以與任何人共用的專案連結。您可以隨時透過停用此選項來停用對專案的存取權。
 
-   該專案的所有者也是該連結的所有者。只有在專案所有權轉移時，連結所有權才能轉移給其他使用者，如 Analytics 管理員指南中的[轉移使用者資產或設定帳戶到期日](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=zh-Hant)中所述。
+   該專案的所有者也是該連結的所有者。只有在專案所有權轉移時，連結所有權才能轉移給其他使用者，如 Analytics 管理員指南中的[轉移使用者資產或設定帳戶到期日](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html)中所述。
 
 1. 選擇是否啟用下列安全性選項(此選項可由您的Customer Journey Analytics管理員控制)：
 
@@ -182,11 +182,11 @@ ht-degree: 57%
 
 1. 選取「**[!UICONTROL 關閉]**」以關閉共用對話框。您的變更會自動儲存。
 
-## 檢視與您共用的專案
+## 查看與您共用的專案
 
-當有人透過以下方式與您共用專案時 [共用特定專案角色](#share-a-specific-project-role)，您可從以下位置存取共用專案： [Analytics登陸頁面上的專案標籤](/help/getting-started/landing.md#navigate-the-projects-tab).
+當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [ Analytics 登陸頁面上的專案標籤](/help/getting-started/landing.md#navigate-the-projects-tab)存取共用專案。
 
-當有人透過共用連結(來自 [共用專案索引標籤](#share-a-link-to-a-project) 或使用 [與任何人共用連結](#share-a-project-with-anyone-no-login-required))，您必須使用與您共用的連結才能存取專案。 例如，該連結可能已透過電子郵件、內部網站等共用。
+當有人透過共用連結(來自 [共用專案索引標籤](#share-a-link-to-a-project) 或使用 [與任何人共用連結](#share-a-project-with-anyone-no-login-required))，您必須使用與您共用的連結才能存取專案。 例如，該連結可能已在電子郵件、內部網站等中提供。
 
 ## 共用內嵌元件
 

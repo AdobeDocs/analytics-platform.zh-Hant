@@ -5,7 +5,7 @@ exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 89%
@@ -50,7 +50,7 @@ Adobe Experience Platform 將來自多個來源的資料彙集在一起，以協
 
 ## 將 Google Analytics 資料匯入，在 Customer Journey Analytics 中進行分析
 
-請參閱本教學課程，瞭解如何[使用 Customer Journey Analytics 分析 Google Analytics 資料](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial-v22/module12/ex5.html?lang=zh-Hant)，以取得詳細步驟。
+請參閱本教學課程，瞭解如何[使用 Customer Journey Analytics 分析 Google Analytics 資料](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial-v22/module12/ex5.html)，以取得詳細步驟。
 
 ## 使用大量資料插入API將資料匯入Analytics，然後透過Experience Platform中的Analytics來源聯結器擷取
 

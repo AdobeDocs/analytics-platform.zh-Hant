@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 15%
@@ -37,7 +37,7 @@ ht-degree: 15%
 | B2B行銷清單資料集 | B2B行銷清單結構描述 | 查詢 | XDM行銷清單 | XDM業務行銷清單是一個標準的體驗資料模型(XDM)類別，可擷取行銷清單的最低要求屬性。 行銷清單可讓您優先處理最可能購買您產品的潛在客戶。 |
 | B2B行銷清單成員資料集 | B2B行銷清單成員結構 | 查詢 | XDM行銷清單成員 | XDM業務行銷清單成員是一個標準的體驗資料模型(XDM)類別，可描述與行銷清單相關聯的成員、個人或聯絡人。 |
 
-查詢結構描述、設定檔結構描述和事件結構描述之間的關係在Experience Platform內的B2B設定中定義。 請參閱結構描述 [Real-time Customer Data Platform B2B版本](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html?lang=en) 和 [在Real-time Customer Data Platform B2B Edition中定義兩個結構描述之間的多對一關係](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html?lang=en) 以取得更多詳細資料。
+查詢結構描述、設定檔結構描述和事件結構描述之間的關係在Experience Platform內的B2B設定中定義。 請參閱結構描述 [Real-time Customer Data Platform B2B版本](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html) 和 [在Real-time Customer Data Platform B2B Edition中定義兩個結構描述之間的多對一關係](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html) 以取得更多詳細資料。
 
 ![B2B結構描述之間的關係](assets/classes.png)
 

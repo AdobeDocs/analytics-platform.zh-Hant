@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
 exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 確定您擁有正確的存取控制：
 
-   * 您必須擁有擁有Experience Platform產品的組織的系統或產品管理員許可權。 另請參閱 [存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#platform-permissions) 以取得詳細資訊。
+   * 您必須擁有擁有Experience Platform產品的組織的系統或產品管理員許可權。 另請參閱 [存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#platform-permissions) 以取得詳細資訊。
 
-   * 您必須是AEP-Default-All-Users產品設定檔中的使用者。 如果您沒有將您自己新增至此設定檔的許可權，請詢問您的管理員。 另請參閱 [存取控制階層與工作流程](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#access-control-hierarchy-and-workflow) 以取得詳細資訊。
+   * 您必須是AEP-Default-All-Users產品設定檔中的使用者。 如果您沒有將您自己新增至此設定檔的許可權，請詢問您的管理員。 另請參閱 [存取控制階層與工作流程](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#access-control-hierarchy-and-workflow) 以取得詳細資訊。
 
 
 1. 導覽至AdobeExperience Platform UI。

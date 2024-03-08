@@ -4,7 +4,7 @@ description: 了解 Customer Journey Analytics 中發佈對象的概念
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: e1815cad331b47b281f61d427ef342ea3b5b5d87
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 50%
@@ -13,14 +13,14 @@ ht-degree: 50%
 
 # Customer Journey Analytics對象發佈概觀
 
-您現在可以建立在Customer Journey Analytics中發現的對象，並將其發佈到 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant?lang=tw) Adobe Experience Platform中用於客戶目標定位和個人化。
+您現在可以建立在Customer Journey Analytics中發現的對象，並將其發佈到 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant) Adobe Experience Platform中用於客戶目標定位和個人化。
 
 發佈對象有助於理解情況，並據以啟用Customer Journey Analytics中的見解並據以採取行動。 這些動作可能包括：
 
 * 將對象用在 Adobe Journey Optimizer 中的歷程。
 * 透過 Experience Platform 目的地功能，將對象匯出給第三方。
 * 使用衍生自Customer Journey Analytics中事件型資料的有用屬性，來擴充即時客戶個人檔案。
-* 在發佈對象後以最小的延遲完成所有這些動作。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)
+* 在發佈對象後以最小的延遲完成所有這些動作。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
 * 發佈一次性對象或循環對象。
 
 您在Customer Journey Analytics中建立的對象不必以為設定檔啟用的資料集為基礎。 您可以將歷史資料擷取至Experience Platform，無需為設定檔啟用關聯的資料集和結構描述。 然後，使用這些資料集探索Customer Journey Analytics中的相關受眾，並將這些受眾發佈到Experience Platform中的即時客戶個人檔案以進行啟用。

@@ -4,7 +4,7 @@ description: 了解如何使用「資料準備」來結合報告套裝與不同�
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 57%
@@ -59,7 +59,7 @@ ht-degree: 57%
    | **XDM ExperienceEvent** 類別 |
    | **「Adobe Analytics ExperienceEvent 範本」**&#x200B;欄位群組 |
 
-1. 將另一個欄位群組新增到結構描述或[建立自訂欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail)並將其新增到結構描述。 我們將建立一個新的欄位群組，並將其稱為&#x200B;**「統一欄位」**。 然後我們將以下欄位新增到新的欄位群組中：
+1. 將另一個欄位群組新增到結構描述或[建立自訂欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail)並將其新增到結構描述。 我們將建立一個新的欄位群組，並將其稱為&#x200B;**「統一欄位」**。 然後我們將以下欄位新增到新的欄位群組中：
 
    | 「統一欄位」自訂欄位群組  |
    | --- |
@@ -158,6 +158,6 @@ ht-degree: 57%
 
 ## 「資料準備」與「元件 ID」的比較
 
-如上所述，「資料準備」可讓您將不同的欄位對應到多個 Adobe Analytics 報告套裝中。 當您想要將來自多個資料集的資料合併到單一Customer Journey Analytics連線時，這在Customer Journey Analytics中很有幫助。 但是，如果您打算將報表套裝保留在單獨的Customer Journey Analytics連線中，但希望在這些連線和資料檢視中使用一組報表，則變更Customer Journey Analytics中的基礎「元件ID」提供了即使結構描述不同，也能讓報表相容的方法。 如需詳細資訊，請參閱[元件設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=zh-Hant)。
+如上所述，「資料準備」可讓您將不同的欄位對應到多個 Adobe Analytics 報告套裝中。 當您想要將來自多個資料集的資料合併到單一Customer Journey Analytics連線時，這在Customer Journey Analytics中很有幫助。 但是，如果您打算將報表套裝保留在單獨的Customer Journey Analytics連線中，但希望在這些連線和資料檢視中使用一組報表，則變更Customer Journey Analytics中的基礎「元件ID」提供了即使結構描述不同，也能讓報表相容的方法。 如需詳細資訊，請參閱[元件設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html)。
 
 變更「元件ID」是僅限Customer Journey Analytics的功能，不會影響從Analytics來源聯結器傳送到「即時客戶個人檔案」和RTCDP的資料。

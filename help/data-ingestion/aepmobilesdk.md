@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: 59da35ddbdf06da354af4ab469a357caae41bd26
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '3385'
 ht-degree: 60%
@@ -104,7 +104,7 @@ ht-degree: 60%
 
    >[!NOTE]
    >
-   >如果該欄位群組無法使用，請尋找另一個包含身分欄位的欄位群組。 或 [建立新的欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=en) 和 [新增身分欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=en#define-a-identity-field) (按讚 `ecid`， `crmId`，以及您所需的其他欄位群組)並選取該新欄位群組。
+   >如果該欄位群組無法使用，請尋找另一個包含身分欄位的欄位群組。 或 [建立新的欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 和 [新增身分欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (按讚 `ecid`， `crmId`，以及您所需的其他欄位群組)並選取該新欄位群組。
 
    ![識別物件](./assets/identification-field-mobile.png)
 
@@ -134,7 +134,7 @@ ht-degree: 60%
 
    系統會提示您啟用設定檔的結構。啟用後，根據此結構將資料擷取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
@@ -232,7 +232,7 @@ ht-degree: 60%
 
 您的資料流現在已設定為將從行動應用程式收集的資料轉送到Adobe Experience Platform中的資料集。
 
-請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
+請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
 
 
@@ -275,7 +275,7 @@ ht-degree: 60%
 
 1. 輸入您的 **[!UICONTROL 邊緣網路網域]** 底下 [!UICONTROL 網域設定]. 通常會使用 `<organizationName>.data.adobedc.net`.
 
-1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+1. 選取「**[!UICONTROL 儲存]**」。
 
 另請參閱 [設定Adobe Experience Platform Edge Network擴充功能](https://developer.adobe.com/client-sdks/documentation/edge-network) 以取得詳細資訊。
 
@@ -285,7 +285,7 @@ ht-degree: 60%
 - AEP保證。
 - 同意。
 
-另請參閱 [設定標籤屬性](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=en) 在Experience Platform的行動應用程式教學課程中，取得擴充功能及其設定的詳細資訊。
+另請參閱 [設定標籤屬性](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html) 在Experience Platform的行動應用程式教學課程中，取得擴充功能及其設定的詳細資訊。
 
 #### **資料元素**
 
@@ -310,7 +310,7 @@ ht-degree: 60%
 
      ![使用頁面資訊建立資料元素](./assets/create-dataelement-mobile.png)
 
-   - 選取&#x200B;**[!UICONTROL 「儲存」]**。
+   - 選取「**[!UICONTROL 儲存]**」。
 
 您可以建立所需數量的資料元素，並在規則中使用這些元素。
 

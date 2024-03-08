@@ -4,10 +4,10 @@ title: 快速篩選
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 33%
+ht-degree: 40%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 33%
 
 建立快速篩選時，請考量下列事項：
 
-* 快速篩選只適用於建立所在的專案。 您無法在其他專案中取得這些區段，且無法和其他使用者共用。
-* 最多允許3個規則。
+* 快速篩選只適用於建立所在的專案。 您無法在其他專案中取得這些區段，且無法和其他使用者共用這些區段。
+* 最多允許訂定 3 條規則。
 * 不支援巢狀容器或循序規則。
 
 下列影片示範如何使用快速篩選。 (注意：本影片使用「快速區段」一詞而非「快速篩選」。 但功能相同。)
@@ -35,7 +35,7 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
 
    * **臨機（拖放）：** 從左側邊欄，將元件拖曳至 **篩選** 圖示中選取，然後選取 **編輯** 圖示可調整篩選。
 
-     ![編輯臨時篩選](assets/filter-adhoc-edit.png)
+     ![編輯臨時篩選器](assets/filter-adhoc-edit.png)
 
      >[!NOTE]
      >
@@ -49,7 +49,7 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
 
      ![區段篩選](assets/quick-seg1.png)
 
-1. 調整下列任一設定：
+1. 調整以下任何設定：
 
    | 設定 | 說明 |
    | --- | --- |
@@ -61,21 +61,21 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
    | 加 (+) 號 | 新增另一個規則 |
    | AND/OR 限定詞 | 您可以對規則加入「AND」或「OR」的限定詞，但不能在單一篩選定義中混合使用「AND」和「OR」。 |
    | [!UICONTROL 套用] | 將此篩選套用在面板上。如果篩選不包含任何資料，系統會詢問您是否要繼續。 |
-   | [!UICONTROL 開啟產生器] | 開啟篩選產生器。在篩選產生器中儲存或套用篩選後，將無法再考慮「快速篩選」。 它會成為元件清單篩選資料庫的一部分。 <p>若要讓元件可在您的所有專案中及左側邊欄中使用，請選取選項 [!UICONTROL **將此篩選器設為可用於所有專案，並將其新增至您的元件清單**].</p><p>如需詳細資訊，請參閱區段 [將快速篩選儲存為元件清單篩選](#save-a-quick-filter-as-a-component-list-filter) 本文章內容。</p><p>**注意：** 僅限在中具有區段建立許可權的使用者。 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant) 可以開啟「篩選產生器」。</p> |
+   | [!UICONTROL 開啟產生器] | 開啟篩選產生器。在篩選產生器中儲存或套用篩選後，將無法再考慮「快速篩選」。 它會成為元件清單篩選資料庫的一部分。 <p>若要讓元件可在您的所有專案中及左側邊欄中使用，請選取選項 [!UICONTROL **將此篩選器設為可用於所有專案，並將其新增至您的元件清單**].</p><p>如需詳細資訊，請參閱區段 [將快速篩選儲存為元件清單篩選](#save-a-quick-filter-as-a-component-list-filter) 本文章內容。</p><p>**注意：** 僅限在中具有區段建立許可權的使用者。 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html) 可以開啟「篩選產生器」。</p> |
    | [!UICONTROL 取消] | 取消此快速篩選（不要套用它）。 |
    | [!UICONTROL 日期範圍] | 驗證器使用面板日期範圍進行資料查詢。但是在快速篩選中套用的任何日期範圍都會覆寫面板頂端的面板日期範圍。 |
    | 預覽 (右上角) | 讓您查看是否有有效的篩選以及篩選的範圍。代表您套用此篩選器時可預期看到的資料集劃分。 您可能會收到一則通知，指出此篩選器沒有資料。這種情況下，您可繼續或變更篩選器定義。 |
 
-1. 選取 [!UICONTROL **套用**] 以儲存變更。
+1. 選取「[!UICONTROL **套用**]」以儲存您的變更。
 
 ## 編輯快速篩選 {#edit}
 
 1. 將游標停留在您要編輯的快速篩選器上，然後選取 **編輯** 圖示。
 
-   ![編輯臨時篩選](assets/filter-adhoc-edit.png)
+   ![編輯臨時篩選器](assets/filter-adhoc-edit.png)
 
 1. 編輯篩選定義或篩選名稱。
-1. 選取 [!UICONTROL **套用**] 以儲存變更。
+1. 選取「[!UICONTROL **套用**]」以儲存您的變更。
 
 ## 將快速篩選儲存為元件清單篩選 {#save}
 
@@ -83,13 +83,13 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
 >
 > 儲存快速篩選時，請考量下列事項：
 > 
-> * 若要儲存快速篩選，您需要 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant).
+> * 若要儲存快速篩選，您需要 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 > 
 > * 儲存或套用篩選後，無法在快速篩選產生器中對其進行編輯。 您必須改用一般篩選產生器。
 
 您可以選擇將快速篩選儲存為元件清單篩選。 元件清單篩選器的優點包括：
 
-* 所有Workspace專案的可用性
+* 所有 Workspace 專案的適用性
 * 支援更複雜的篩選器以及循序篩選器
 
 您可以從快速篩選產生器或儲存篩選 [!UICONTROL 篩選產生器].
@@ -97,9 +97,9 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
 ### 儲存在快速篩選產生器中 {#save2}
 
 1. 套用快速篩選後，將滑鼠懸停在其上並選取資訊(「i」)圖示。
-1. 選取 **[!UICONTROL 使其可用於所有專案並將其新增至您的元件清單中]**.
+1. 選取「**[!UICONTROL 設為可用於所有專案，並新增至您的元件清單]**」。
 1. (選擇性) 重新命名篩選。
-1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+1. 選取「**[!UICONTROL 儲存]**」。
 
    該篩選器現在會顯示在左側欄的元件清單中。 另請注意，篩選的側邊欄會從淺藍色變更為深藍色，表示無法在快速篩選產生器中再編輯或開啟篩選。
 
@@ -117,7 +117,7 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
 
 1. 將滑鼠懸停在已儲存的篩選上，並選取鉛筆圖示。
 
-1. 選取 [!UICONTROL **開啟產生器**].
+1. 選取「[!UICONTROL **開啟產生器**]」。
 
 1. 在篩選產生器頂端，請注意這個對話框：
 
@@ -125,7 +125,7 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
 
 1. 選取旁邊的核取方塊 **[!UICONTROL 將此篩選器設為可用於所有專案，並將其新增至您的元件清單。]**
 
-1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+1. 選取「**[!UICONTROL 儲存]**」。
 
    該篩選器現在會顯示在您所有專案的篩選器元件清單中。
 您也可以和組織中的其他人[共用篩選](/help/components/filters/filters-share.md)。

@@ -4,16 +4,16 @@ description: 了解 Adobe Experience Platform 中所定義的資料標籤和原�
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
-source-git-commit: 3b089a3d358a1a39a4b572576e911faaa4ceb1d5
-workflow-type: ht
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # 標籤和原則
 
-在 Experience Platform 中建立資料集時，您可以針對資料集中的部分或全部元素建立[資料使用標籤](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=en)。您可以在 Customer Journey Analytics 中檢視這些標籤和原則。
+在 Experience Platform 中建立資料集時，您可以針對資料集中的部分或全部元素建立[資料使用標籤](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html)。您可以在 Customer Journey Analytics 中檢視這些標籤和原則。
 
 以下是對 Customer Journey Analytics 特別重要的標籤：
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >
 >資料使用標籤不會自動傳播到合成資料集。不過可以手動新增。
 
-加上標籤並不表示已強制執行這些資料使用標籤。使用標籤的方式由各項原則決定。您可以使用 [Experience Platform UI](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en) 或透過 Experience Platform 上的[原則服務 API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html?lang=zh-Hant) 建立您的原則。
+加上標籤並不表示已強制執行這些資料使用標籤。使用標籤的方式由各項原則決定。您可以使用 [Experience Platform UI](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html) 或透過 Experience Platform 上的[原則服務 API](https://experienceleague.adobe.com/docs/experience-platform/data-governance/api/overview.html) 建立您的原則。
 
 兩個 Adobe 定義的原則會在 Customer Journey Analytics 中出現，並影響報告和下載/共用：
 
@@ -76,6 +76,6 @@ ht-degree: 100%
 >[下載敏感性資料](/help/analysis-workspace/export/download-send.md)
 
 >[!MORELIKETHIS]
->[什麼是 Report Builder 中受限制的標籤？](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html?lang=zh-Hant)
+>[什麼是 Report Builder 中受限制的標籤？](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/restricted-labels.html)
 
 

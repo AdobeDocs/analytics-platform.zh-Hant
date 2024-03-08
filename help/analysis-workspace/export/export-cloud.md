@@ -5,7 +5,7 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 4f9878372f05da86b08449eeb17efb79b7432341
+source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2210'
 ht-degree: 3%
@@ -73,7 +73,7 @@ ht-degree: 3%
    | 開始日期 | 排程匯出應該開始的日期和時間。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 結束日期 | 排定的匯出到期的日期和時間。 排定的匯出在您設定的日期和時間後不再執行。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 檔案格式 | 選擇匯出的資料應該是.csv還是.json格式。 |
-   | 帳戶 | 選取您要傳送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，您可以設定新帳戶：<ol><li>選取 [!UICONTROL **新增帳戶**]，然後指定下列資訊：<ul><li>[!UICONTROL **位置帳戶名稱**]：指定位置帳戶的名稱。 建立位置時會顯示此名稱 </li><li>[!UICONTROL **位置帳戶說明**]：提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。</li><li>[!UICONTROL **帳戶型別**]：選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake和AEP資料登陸區域。</li></ul><li>若要完成帳戶的設定，請繼續使用以下對應至 [!UICONTROL **帳戶型別**] 您已選取：<ul><li>[AEP資料登陸區域](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3角色ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud平台](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
+   | 帳戶 | 選取您要傳送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，您可以設定新帳戶：<ol><li>選取「[!UICONTROL **新增帳戶**]」，然後註明下列資訊：<ul><li>[!UICONTROL **位置帳戶名稱**]：指定位置帳戶的名稱。 建立位置時會顯示此名稱 </li><li>[!UICONTROL **位置帳戶說明**]：提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。</li><li>[!UICONTROL **帳戶型別**]：選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake和AEP資料登陸區域。</li></ul><li>若要完成帳戶的設定，請繼續使用以下對應至 [!UICONTROL **帳戶型別**] 您已選取：<ul><li>[AEP資料登陸區域](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3角色ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud平台](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
    | 位置名稱 | 選取您要將匯出資料傳送到的帳戶位置。<p>或者，如果您尚未在選取的帳戶上設定您要使用的位置，您可以設定新的位置：<ol><li>選取 [!UICONTROL **新增位置**]，然後指定下列資訊： <ul><li>[!UICONTROL **名稱**]：位置名稱。</li><li>[!UICONTROL **說明**]：提供位置的簡短說明，以協助將其與帳戶上的其他位置區分開來。</li><li>[!UICONTROL **位置帳戶**]：選取您要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續以下連結，對應至您在 [!UICONTROL **位置帳戶**] 欄位：<ul><li>[AEP資料登陸區域](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[Amazon S3角色ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud平台](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
 
    {style="table-layout:auto"}
@@ -146,7 +146,7 @@ ht-degree: 3%
 
 * **環境：** 管理員應確保IP位址列在 [Customer Journey Analytics使用的IP位址](/help/admin/ip-addresses.md) 包含在防火牆允許清單中。
 
-* **許可權：** 在Adobe Admin Console中，必須為使用者指派產品設定檔，該設定檔必須 [!UICONTROL **完整表格匯出**] 為其指派許可權以匯出完整的表格。 如需在Admin Console中指派許可權給產品設定檔的相關資訊，請參閱 [Admin Console中的Customer Journey Analytics許可權](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) 在 [Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+* **許可權：** 在Adobe Admin Console中，必須為使用者指派產品設定檔，該設定檔必須 [!UICONTROL **完整表格匯出**] 為其指派許可權以匯出完整的表格。 如需在Admin Console中指派許可權給產品設定檔的相關資訊，請參閱 [Admin Console中的Customer Journey Analytics許可權](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) 在 [Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
   >[!NOTE]
   >
