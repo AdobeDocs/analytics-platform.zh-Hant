@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 2380d1c176f2d0d6672714ee068ec198734bcdaf
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 8%
@@ -98,7 +98,7 @@ ht-degree: 8%
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
-| 專案 | 2,000 | 系統強制的護欄 | 組織的最大專案數量。 |
+| 專案 | 50,000 | 系統強制的護欄 | 組織的最大專案數量。 |
 | 資料檢視 | 2,000 | 系統強制的護欄 | 最大數量 [資料檢視](../data-views/data-views.md) 適用於組織。 |
 | 資料檢視 | 50 | 系統強制的護欄 | 連線的最大資料檢視數量 |
 | 資料集 | 100 | 系統強制的護欄 | 最大數量 [資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant) 每個連線。 |
