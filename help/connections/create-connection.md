@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '2766'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 ## 先決條件
 
-您可以新增到連線的資料集數量上限為100。 該組合取決於您公司購買的 Customer Journey Analytics 套件。
+您可以新增至連線的最大資料集數量上限為 100。該組合取決於您公司購買的 Customer Journey Analytics 套件。
 
 | **選取**&#x200B;套件 | **基礎**&#x200B;套件 |
 | --- | --- |
