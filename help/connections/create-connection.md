@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 948f5d986d9cde2b2994165896e0a22baace88ab
 workflow-type: tm+mt
-source-wordcount: '2766'
-ht-degree: 100%
+source-wordcount: '2888'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-如果您不確定您擁有的 Customer Journey Analytics 套件是哪一種，請聯絡您的管理員。&#x200B;
+如果您不確定您擁有哪個Customer Journey Analytics套件，請聯絡管理員。
 
 ## 建立和設定連線 {#create-connection}
 
@@ -185,3 +185,12 @@ Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身�
    在此範例中，「analytics_demo_data」是資料集名稱。
 
 2. 若要顯示 Adobe Experience Platform 中的所有資料集，請執行 `Show Tables` 查詢。
+
+
+## 大型查詢資料集的演演算法刪減
+
+建立連線時，您可以新增大型資料集以進行查詢。 例如，代表產品目錄的資料集，可在建立報表和視覺效果時查詢描述性產品資訊。 如此大型的查詢資料集可能會超過目前作為護欄實作的最大1000萬個唯一查詢，導致其他資料被略過。
+
+您可以要求演演算法刪減這樣一個大型查詢資料集。 此刪減只會載入查詢資料集中的資料，而該資料集的索引鍵可在您連線的事件資料集部分中使用。 演演算法中使用的參考計數會回溯至90天，且每週會重新整理一次。
+
+請聯絡您的Adobe代表以取得進一步資訊。

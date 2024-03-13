@@ -3,16 +3,16 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1b39449fa58157fb61d619de82235cba326ffe2c
+source-git-commit: 7f0a348738d2f3a53ec57558d321a3501afe8d00
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 54%
+source-wordcount: '841'
+ht-degree: 48%
 
 ---
 
 # 最新Adobe Customer Journey Analytics發行說明（2024年3月）
 
-**上次更新**：2024年3月8日
+**上次更新**：2024年3月13日
 
 這些發行說明涵蓋2024年3月13日到2024年4月的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,9 +20,9 @@ ht-degree: 54%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **「專案」登陸頁面上可用的新欄** | 此 **[!UICONTROL 上次使用日期]** 現在當您在檢視專案標籤時 [Customer Journey Analytics登陸頁面](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html). 此資訊可顯示專案上次開啟的日期和時間，以協助您判斷專案是否對貴組織中的使用者有用。 先前， **[!UICONTROL 上次使用日期]** 欄僅在計算量度管理員、區段管理員和警報管理員中可用。 |  | 2024 年 3 月 13 日 |
-| **使用情況量度** | 使用情況量度介面顯示所有連線中擷取和可報告的行的使用情況。此介面可讓您確定您的 Customer Journey Analytics 使用情況是否符合合約約定。 |  | 2024 年 3 月 13 日 |
-| **Media Analytics 報告 - 平均每分鐘對象數 (AMA)** | CJA 現已提供「平均每分鐘對象數」面板。Media Analytics 客戶可以使用「平均每分鐘對象數」面板來更了解其內容的平均使用量。「平均每分鐘對象數」可比較任何長度或類型的節目。 此外，對象也可以比較這個數位「平均每分鐘對象數」，或是將其附加到線性電視的平均每分鐘指標。此面板提供較大的彈性來測量自訂時段的平均對象數，以及事後更新了持續時間分類時的平均對象數。 |  | 2024 年 3 月 12 日 |
+| **「專案」登陸頁面上可用的新欄** | 此 **[!UICONTROL 上次使用日期]** 現在當您在檢視專案標籤時 [Customer Journey Analytics登陸頁面](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html). <p>此資訊可顯示專案上次開啟的日期和時間，以協助您判斷專案是否對貴組織中的使用者有用。 先前， **[!UICONTROL 上次使用日期]** 欄僅在計算量度管理員、區段管理員和警報管理員中可用。</p> |  | 2024 年 3 月 13 日 |
+| **使用情況量度** | 此 [使用量度介面](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant) 顯示所有連線中擷取及可報告資料列的使用情形。 此介面可讓您確定您的 Customer Journey Analytics 使用情況是否符合合約約定。 |  | 2024 年 3 月 13 日 |
+| **Media Analytics 報告 - 平均每分鐘對象數 (AMA)** | CJA 現已提供「平均每分鐘對象數」面板。Media Analytics客戶可以使用「平均每分鐘觀眾數」面板來更瞭解其內容的平均使用量。 <p>「平均每分鐘對象數」可比較任何長度或類型的節目。 此外，客戶也可以比較這個數位平均每分鐘觀眾數和線性電視的平均每分鐘量度，或是將前者附加到後者。</p><p> 此面板提供較大的彈性來測量自訂時段的平均對象數，以及事後更新了持續時間分類時的平均對象數。</p><p>如需詳細資訊，請參閱 [「媒體平均每分鐘觀眾數」面板](/help/analysis-workspace/c-panels/average-minute-audience-panel.md).</p> |  | 2024 年 3 月 12 日 |
 | **個人對帳戶的B2B結構描述轉換** | 可讓您轉換資料集，以便在Customer Journey AnalyticsB2B報表情境中更支援以人物為基礎的查詢。 此功能適用於根據下列類別的B2B結構描述資料集：<ul><li>XDM商業帳戶個人關係</li><li>XDM商業機會個人關係</li><li>XDM業務行銷清單成員</li><li>XDM商業活動會員</li></ul> | | 2024年3月26日 |
 | **Adobe Product Analytics：比較單一漏斗步驟中的事件** | 在「漏斗：摩擦」檢視中，您現在可以在單一漏斗步驟中比較事件。 如果您的歷程有步驟選項或A/B實驗執行的步驟，這會特別有用。 | 2024年3月29日 | 2024年4月12日 |
 | **管理員可以管理其組織中的所有位置** | 「位置」頁面上的新選項可讓管理員檢視及管理組織中的所有位置。 以前，管理員只能檢視和管理他們建立的位置。 | | 2024 年 4 月 |

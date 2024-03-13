@@ -3,20 +3,19 @@ description: 瞭解Analysis Workspace中的預測。
 title: 預測概觀
 feature: Visualizations
 role: User
-source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
+exl-id: 9ec920c4-3273-4497-83a4-6a2e2fc92e2f
+source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
 
 # 預測概觀
 
-
-
 {{select-package}}
 
-預測功能是一項Analysis Workspace功能，可針對任何支援的時間詳細程度（每小時、每日、每週、每月及每年）預測標準或計算量度。 預測僅適用於時間序列相關資料。
+預測是Analysis Workspace的一項功能，可協助預測具有任何受支援時間粒度（每小時、每日、每週、每月及每年）的標準或計算量度。 預測僅適用於時間序列相關的資料。
 
 您可以善用預測功能：
 
@@ -25,5 +24,3 @@ ht-degree: 0%
 * **風險管理**：透過預測未來事件和趨勢，您可以採取主動步驟來降低風險並將潛在損失降至最低。
 * **資源配置**：透過預測未來需求，您可以確保提供滿足客戶需求所需的資源，並避免缺貨或庫存過剩。
 * **績效評估**：透過比較實際結果與預測結果，您可以找出需要改善的領域並進行必要的調整。
-
-

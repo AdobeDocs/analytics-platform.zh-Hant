@@ -3,7 +3,8 @@ description: 瞭解如何在表格或折線圖中檢視預測。
 title: 如何在Analysis Workspace中檢視預測
 feature: Visualizations
 role: User
-source-git-commit: e52cee369be75785a99798d5acfa9cfc5aba2986
+exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
+source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 ## 在表格中檢視預測
 
-您可以在時間序列自由表格中檢視預測。 當中的自由格式表格已啟用顯示預測時 [使用者偏好設定](../user-preferences.md)，則會針對新增至表格的第一個量度欄自動顯示預測。 對於任何其他欄：
+您可以在時間序列自由表格中檢視預測。 時間 [!UICONTROL 顯示預測] 已為中的自由格式表格啟用 [使用者偏好設定](../user-preferences.md)，則會針對新增至表格的第一個量度欄自動顯示預測。 對於任何其他欄：
 
 1. 選取欄設定圖示 ![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) 在欄標題中，然後確定 **[!UICONTROL 顯示預測]** 在選項清單中選取。 如需詳細資訊，請參閱[欄設定](../visualizations/freeform-table/column-row-settings/column-settings.md)。
 
@@ -51,4 +52,3 @@ ht-degree: 1%
    * 量度的預測值上限
    * 量度的預測值下限
 * 著色區域會顯示預測的信賴範圍。
-
