@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 17956f66d0bed46b876ba83aba8782c664fe2530
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 26%
+source-wordcount: '2764'
+ht-degree: 23%
 
 ---
 
@@ -24,9 +24,16 @@ ht-degree: 26%
 * 檢視連線中的所有資料集。
 * 檢查連線資料集的狀態和擷取程式的狀態。 例如，您的資料何時可用，以便從Analysis Workspace的報告與分析開始。
 * 識別因設定錯誤所導致的任何資料差異。 您是否有遺漏任何資料列？如果有的話，遺漏了哪些資料列以及為什麼遺漏？ 您是否將連線設定錯誤並導致Customer Journey Analytics中資料遺失？
+* 深入瞭解所有連線中使用已擷取及可報告資料列的情況。
+
+[!UICONTROL 連線] 有兩個介面： [[!UICONTROL 清單]](#list) 和 [[!UICONTROL 使用狀況]](#usage).
 
 
-表格會顯示所有可用的連線。 您可以使用搜尋快速搜尋連線 ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 方塊。
+## 清單
+
+此 [!UICONTROL 清單] 介面是Connections的預設介面。 如果未選取，請選取 **[!UICONTROL 清單]** 標籤以存取介面。
+
+此 [!UICONTROL 清單] 介面會顯示所有可用連線的表格。 您可以使用搜尋快速搜尋連線 ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 方塊。
 
 表格中有以下欄/圖示。
 
@@ -46,7 +53,7 @@ ht-degree: 26%
 
 您可以使用來設定要顯示哪些欄 ![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). 這會顯示 **自訂表格** 對話方塊可讓您開啟/關閉表格中的欄。
 
-## 編輯連線
+### 編輯連線
 
 可讓管理員編輯連線。
 
@@ -69,7 +76,7 @@ ht-degree: 26%
 另請參閱 [建立或編輯連線](create-connection.md) 以取得詳細資訊。
 
 
-## 刪除連線 {#connections-delete}
+### 刪除連線 {#connections-delete}
 
 允許管理員刪除連線。
 
@@ -91,7 +98,7 @@ ht-degree: 26%
 另請參閱 [刪除關聯](/help/admin/cja-deletion.md) 有關刪除連線之影響的詳細資訊。
 
 
-## 建立資料視圖
+### 建立資料視圖
 
 可讓管理員為連線建立資料檢視。
 
@@ -112,7 +119,7 @@ ht-degree: 26%
 
 如需詳細資訊，請參閱[建立或編輯資料檢視](/help/data-views/create-dataview.md)。
 
-## 連線詳細資料 {#connection-detail}
+### 連線詳細資料 {#connection-detail}
 
 若要移至連線的詳細資訊，請在連線表格中選取連線名稱。
 
@@ -153,7 +160,7 @@ ht-degree: 26%
 >
 >2021年8月13日之前擷取的任何資料都不會反映在 [!UICONTROL 連線] 介面。
 
-### 「連線」面板
+#### 「連線」面板
 
 在資料集表格中未選取資料集時，「連線」介面右側的面板會顯示連線選項和詳細資訊。
 
@@ -173,7 +180,7 @@ ht-degree: 26%
 | [!UICONTROL 上次修改日期] | 顯示上次變更連線的時間戳記。 |
 | [!UICONTROL 上次修改者] | 顯示上次修改連線的使用者。 |
 
-### 資料集面板
+#### 資料集面板
 
 在資料集表格中選取資料集時，「連線」介面右側的面板會顯示所選資料集的詳細資訊。
 
@@ -195,6 +202,31 @@ ht-degree: 26%
 | [!UICONTROL 資料集類型] | 可能是[!UICONTROL 事件]、[!UICONTROL 查詢]或[!UICONTROL 描述檔]。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | [!UICONTROL 結構描述] | 顯示此資料集所根據的Experience Platform結構描述。 |
 | [!UICONTROL 資料集 ID] | 此資料集ID會以Experience Platform產生。 |
+
+
+## 使用情況
+
+此 [!UICONTROL 使用狀況] 介面會顯示所有連線中擷取及可報告資料列的使用情形。 此介面可協助您判斷您的Customer Journey Analytics使用方式是否符合合約所議定的內容。
+
+選取 **[!UICONTROL 使用狀況]** 標籤以存取介面。
+
+若要報告使用量：
+
+1. 選取 **[!UICONTROL 時間範圍]**. 您可以選取 **[!UICONTROL 過去6個月]**， **[!UICONTROL 年初至今]**，或 **[!UICONTROL 過去2年]**.
+1. 選取 **[!UICONTROL 間隔]**. 您可以選取 **[!UICONTROL 每月]** 或 **[!UICONTROL 每季]**.
+
+的 [!UICONTROL 擷取的列]：
+
+* 方塊會顯示 [!UICONTROL 總計] 擷取的列數。
+* 方塊會顯示以下專案的擷取列數： [!UICONTROL 上個月] 和%的變更(以 <span style="color:green">▲</span> 或 <span style="color:c64545">▼</span>)。
+* 折線圖會顯示  <span style="color:53b2ad">◼︎</span> 累計擷取的列和 <span style="color:4046c3">◼︎</span> 每月擷取的列。<br/>您可以將滑鼠停留在折線圖中每行的任何資料點上，以檢視顯示所選資料點之日期和列數的快顯視窗。
+
+
+的 [!UICONTROL 可報告列]：
+
+* 方塊隨即顯示 [!UICONTROL 總計] 可報告列數。
+* 方塊會顯示以下專案的可報告列數： [!UICONTROL 上個月] 和%的變更(以 <span style="color:green">▲</span> 或 <span style="color:c64545">▼</span>)。
+* 折線圖會顯示  <span style="color:53b2ad">◼︎</span> 累積可報告列和 <span style="color:4046c3">◼︎</span> 每月可報告列。<br/>您可以將滑鼠停留在折線圖中每行的任何資料點上，以檢視顯示所選資料點之日期和列數的快顯視窗。
 
 
 >[!MORELIKETHIS]
