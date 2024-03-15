@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 0fb09e9a7d23c88fb3d18f39816dfae32b131469
 workflow-type: tm+mt
-source-wordcount: '3208'
-ht-degree: 78%
+source-wordcount: '3246'
+ht-degree: 77%
 
 ---
 
@@ -19,6 +19,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2024 年 3 月** | |
+| 有關「用於」欄的使用資訊僅從2023年9月起提供。 | 澄清以下用途資訊： **使用位置** 上的欄 [專案登陸頁面](/help/getting-started/landing.md) 最早可追溯至2023年9月。 |
 | **2024 年 2 月** | |
 | 專案共用文件更新 | 已新增如何操作的資訊 [檢視與您共用的專案](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>同時也簡化有關[共用個別或多個專案](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)的資訊。</p> |
 | 新增在設定雲端匯出位置時，將檔案上傳至Azure SAS和Azure RBAC的許可權要求 | 新增在下列情況下將檔案上傳至Azure SAS和Azure RBAC的確切許可權要求 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md) 和 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md). |
