@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1443'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleagu
 
 Adobe Analytics 客戶可以使用 Analytics 來源連接器輕鬆地在 Adobe Experience Platform 和 Customer Journey Analytics 中利用他們的報告套裝。有關使用 Analytics 來源連接器的資訊，請參閱快速入門指南：如何[從 Adobe Analytics 擷取資料並在 Customer Journey Analytics 中使用](../data-ingestion/analytics.md)。另請參閱[在 UI 中建立 Adobe Analytics 來源連接](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)以取得更多資訊。
 
-Adobe也可讓您使用實作資料收集 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=zh-Hant) 或 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hant). 這些方法大幅擴展了資料收集的可能性。 欄位數不再有限制，也無須將資料元素對應至Analytics中的prop、eVar和事件。 可以使用不同類型的無限制綱要元素，並使用 Customer Journey Analytics [資料檢視](/help/data-views/data-views.md)以多種方式表示它們。當直接傳送到 Adobe Experience Platform 時，資料可用性的速度會加快，因為移除了透過 Adobe Analytics 進行資料處理的時間。
+Adobe 也提供使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=zh-Hant) 或 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hant) 實作資料收集的功能。這些方法大幅擴展了資料收集的可能性。欄位數不再有限制，也不再需要將資料元素對應到 Analytics 中的 prop、eVar 和 event 等變數。可以使用不同類型的無限制綱要元素，並使用 Customer Journey Analytics [資料檢視](/help/data-views/data-views.md)以多種方式表示它們。當直接傳送到 Adobe Experience Platform 時，資料可用性的速度會加快，因為移除了透過 Adobe Analytics 進行資料處理的時間。
 
 **使用 Experience Platform SDK 的優勢:**
 

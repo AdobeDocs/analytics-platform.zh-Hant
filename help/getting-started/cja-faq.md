@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: FAQ
 role: User
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -267,4 +267,4 @@ RDC 目前包括下列位置 (可能隨時變更)：
 Customer Journey Analytics 需要來自 Adobe Experience Platform 的資料集，因此您的資料流/事件轉送設定需要 Adobe Experience Platform 服務將資料從區域資料中心路由到 Adobe Experience Platform 執行個體所在的資料中心。Customer Journey Analytics 及其支援服務和基礎架構都部署在同一個 Adobe Experience Platform 執行個體中。
 
 
-另請參閱 [資料收集概觀](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html) 以進一步瞭解Adobe Experience Platform Edge Network及其地區資料中心以外的資料收集程式。
+請參閱[資料收集概觀](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html)，深入了解有關在 Adobe Experience Platform Edge Network 及其區域資料中心之外執行資料收集程序的資訊。
