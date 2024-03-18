@@ -4,10 +4,10 @@ title: 篩選和排序表格
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 772fa17f013ef0543027a7f60be780e9cf8f634a
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 67%
+source-wordcount: '924'
+ht-degree: 69%
 
 ---
 
@@ -53,12 +53,15 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
    按住Shift鍵以選取一定範圍的列，或按住Command鍵(在Mac上)或Ctrl鍵（在Windows上）以選取多個列。
 
-### 按一下右鍵>刪除選取的列
+<!--### Right-click > Delete selected rows
 
-1. 選取1或多個列。
-1. 按一下右鍵並選取 **[!UICONTROL 刪除選取的列]**.
+Note: this option does not seem to work. AN-338422
 
-   此動作將從表格中移除列並套用表格篩選器。
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
+
 
 ### 套用簡單或進階篩選器至表格
 
@@ -72,7 +75,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
    提供下列選項：
 
-   | 選項 | 功能 |
+   | 選項 | 函數 |
    |---------|----------|
    | [!UICONTROL **搜尋字詞或片語**] | 指定您要用來篩選的字詞或片語。 只顯示包含指定字詞或確切片語的行。 |
    | [!UICONTROL **包含未指定 (無)**] | 選擇此選項可在表格中顯示不屬於任何表格維度的資料。<!--what is this?--> |
