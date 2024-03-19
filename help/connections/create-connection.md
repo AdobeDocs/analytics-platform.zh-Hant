@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: 948f5d986d9cde2b2994165896e0a22baace88ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2888'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 {style="table-layout:auto"}
 
-如果您不確定您擁有哪個Customer Journey Analytics套件，請聯絡管理員。
+如果您不確定自己擁有哪一種 Customer Journey Analytics 套件，請聯絡您的管理員。
 
 ## 建立和設定連線 {#create-connection}
 
@@ -50,12 +50,12 @@ ht-degree: 95%
    | --- | --- |
    | **[!UICONTROL 連線名稱]** | 為連線輸入唯一名稱。 |
    | **[!UICONTROL 連線說明]** | 說明此連線的用途。 |
-   | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)可將單一 Platform 執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。 您可將沙箱視為內含資料集的「資料獨立單位」。沙箱可用於控制資料集的存取權限。<p>當您選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。 |
+   | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇您要連線之資料集所屬的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)可將單一 Platform 執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。 您可將沙箱視為內含資料集的「資料獨立單位」。沙箱可用於控制資料集的存取權限。<p>當您選取沙箱後，左側欄會顯示您可以從該沙箱提取的所有資料集。 |
    | **[!UICONTROL 啟用滾動資料時間窗口]** | 勾選這個核取方塊可讓您在連線層級將 Customer Journey Analytics 資料保留定義為以月為單位的滾動時段 (1 個月、3 個月、6 個月等)。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此基本資料或查詢資料集不存在滾動資料時間窗口設定。不過，如果您的連線在一個或多個事件資料集之外還包含任何設定檔或查詢資料集，則會為相同時段保留該資料。<p> 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。<p>如果您保留預設值 (未勾選)，保留期間將由 Adobe Experience Platform 資料保留設定取代。如果您在 Experience Platform 中有 25 個月的資料，Customer Journey Analytics 會透過回填取得 25 個月的資料。如果您在 Platform 中刪除其中 10 個月的資料，Customer Journey Analytics 則會保留剩餘 15 個月的資料。 |
    | **[!UICONTROL 新增資料集]** (請參閱底下) | 如果沒有資料集出現在您的資料集清單中，請新增資料集。 |
    | **[!UICONTROL 資料集名稱]** | 選取一個或多個要拉進 Customer Journey Analytics 中的資料集，然後按一下「**[!UICONTROL 新增]**」。<p>(如果有很多資料集可選擇，可使用資料集清單上方的「搜尋資料集」搜尋列，搜尋合適的資料集)。 |
    | **[!UICONTROL 上次更新時間]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的綱要中的預設時間戳記欄位。 「不適用」代表此資料集不含任何資料。 |
-   | **[!UICONTROL 綱要]** | 在 Adobe Experience Platform 中建立資料集所根據的[綱要](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)。 |
+   | **[!UICONTROL 綱要]** | 在 Adobe Experience Platform 中建立資料集所根據的[綱要](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)。 |
    | **[!UICONTROL 資料集類型]** | Customer Journey Analytics 會針對您新增至此連線的各個資料集，根據傳入的資料自動設定資料集類型。 有 3 種不同的資料集類型：事件資料、個人基本資料和查詢資料。 請參閱下表提供的資料集類型說明。 |
    | **[!UICONTROL 人員 ID]** | 從可用身分識別的下拉式清單中選取人員 ID。這些身分識別是在 Experience Platform 的資料集結構中所定義。 若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。<p>重要事項：如果沒有人員 ID 可供選擇，表示綱要中尚未定義一個或多個人員 ID。 請觀看[這部影片](https://www.youtube.com/watch?v=G_ttmGl_LRU)，了解如何在 Experience Platform 中定義身分識別。 |
    | **[!UICONTROL 索引鍵]** | 僅適用於查詢資料集 (例如 _id)。 |
@@ -187,10 +187,10 @@ Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身�
 2. 若要顯示 Adobe Experience Platform 中的所有資料集，請執行 `Show Tables` 查詢。
 
 
-## 大型查詢資料集的演演算法刪減
+## 大型查詢資料集的演算法修剪
 
-建立連線時，您可以新增大型資料集以進行查詢。 例如，代表產品目錄的資料集，可在建立報表和視覺效果時查詢描述性產品資訊。 如此大型的查詢資料集可能會超過目前作為護欄實作的最大1000萬個唯一查詢，導致其他資料被略過。
+在建立連線時，可以新增大型資料集以進行查詢。例如，代表產品目錄的資料集，可以在建立報告和視覺化時尋找描述性的產品資訊。如此大的查詢資料集可能會超過目前以護欄方式實作的最大 1000 萬個唯一查詢，導致跳過其他的資料。
 
-您可以要求演演算法刪減這樣一個大型查詢資料集。 此刪減只會載入查詢資料集中的資料，而該資料集的索引鍵可在您連線的事件資料集部分中使用。 演演算法中使用的參考計數會回溯至90天，且每週會重新整理一次。
+您可以要求對如此大的查詢資料集進行演算法修剪。此修剪將僅載入查詢資料集中的資料，其金鑰可用於連線的事件資料集部分。演算法中使用的參考計數可以追溯到 90 天，且每週重新整理一次。
 
-請聯絡您的Adobe代表以取得進一步資訊。
+如需詳細資訊，請聯絡您的 Adobe 代表。
