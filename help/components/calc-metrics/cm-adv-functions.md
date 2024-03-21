@@ -4,9 +4,9 @@ description: 勾選函數下拉式清單中的顯示進階即可存取這些函�
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: cfaf29b8dd92325a4e5fdd2a960de798178db933
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3024'
 ht-degree: 98%
 
 ---
@@ -67,10 +67,6 @@ Approximate Count Distinct (dimension)
 這是可以在報表中使用「近似客戶」量度的方式：
 
 ![顯示不重複訪客與近似客戶的自由表格 ](assets/approx-customers.png)
-
-## 超出不重複值
-
-就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
 
 ## 比較計數函數
 
