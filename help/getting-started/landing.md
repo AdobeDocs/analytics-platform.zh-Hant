@@ -5,9 +5,9 @@ role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: 0fb09e9a7d23c88fb3d18f39816dfae32b131469
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1388'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Customer Journey Analytics 登陸頁面包含以下子索引標籤：專案與�
 | [!UICONTROL **共用對象**] | 顯示目前共用專案的人員。 |
 | [!UICONTROL **上次修改日期**] | 上次修改專案的日期和時間。 |
 | [!UICONTROL **上次開啟**] | 確定目前正在查看「專案」頁面的使用者上次開啟專案的日期。 |
-| [!UICONTROL **上次使用**] | 透過顯示組織內任何使用者上次開啟專案的日期和時間，幫助確定專案對組織中的使用者是否重要。<p>檢視此欄時，請考量下列事項：</p><ul><li>自2023年9月起，即可使用相關資訊。</li><li>本欄僅適用於系統管理員。</li></ul> |
+| [!UICONTROL **上次使用**] | 透過顯示組織內任何使用者上次開啟專案的日期和時間，幫助確定專案對組織中的使用者是否重要。<p>檢視此欄時請考慮以下事項：</p><ul><li>使用情況資訊從 2023 年 9 月開始提供。</li><li>本欄僅適用於系統管理員。</li></ul> |
 | [!UICONTROL **專案 ID**] | 可用來為專案偵錯。 |
 | [!UICONTROL **最大日期範圍**] | 更長的日期範圍會增加專案複雜性，並可能增加處理和載入次數。 |
 | [!UICONTROL **查詢數**] | 專案載入時，向 Analytics 提出的請求總數。較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 |
