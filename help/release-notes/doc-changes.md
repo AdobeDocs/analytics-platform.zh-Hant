@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 0fb09e9a7d23c88fb3d18f39816dfae32b131469
+source-git-commit: 12007130027d152038b1210070f6ebd5de15c762
 workflow-type: tm+mt
 source-wordcount: '3246'
 ht-degree: 77%
@@ -20,7 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 3 月** | |
-| 有關「用於」欄的使用資訊僅從2023年9月起提供。 | 澄清以下用途資訊： **使用位置** 上的欄 [專案登陸頁面](/help/getting-started/landing.md) 最早可追溯至2023年9月。 |
+| 關於「使用於」欄的使用情況資訊，僅從 2023 年 9 月開始提供。 | 澄清[專案登陸頁面](/help/getting-started/landing.md)上的「**使用於**」欄的使用情況資訊只能追溯到 2023 年 9 月。 |
 | **2024 年 2 月** | |
 | 專案共用文件更新 | 已新增如何操作的資訊 [檢視與您共用的專案](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>同時也簡化有關[共用個別或多個專案](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)的資訊。</p> |
 | 新增在設定雲端匯出位置時，將檔案上傳至Azure SAS和Azure RBAC的許可權要求 | 新增在下列情況下將檔案上傳至Azure SAS和Azure RBAC的確切許可權要求 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md) 和 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md). |
@@ -76,7 +76,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | Edge Network地理查閱 | [資料流設定](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant) 地理查閱服務如何提供統一的地理資料。 |
 | **2023 年 6 月** | |
 | 跨管道分析與彙整 | 因為預期即將進行的變更會啟用彙整並進一步釐清如何使用彙整來提升跨管道分析，我們編輯了與跨管道分析功能相關的文件，以便參照[跨管道分析](../use-cases/cross-channel/cross-channel.md)做為 Customer Journey Analytics 功能和使用案例，並參照[彙整](../stitching/overview.md)做為完成此目標的重要功能。 |
-| PowerBI 和 Tableau 可存取 Customer Journey Analytics 資料檢視 | Customer Journey Analytics SQL 連接器可讓 SQL 存取您在 Customer Journey Analytics 中已定義的資料檢視。[了解更多](/help/data-views/sql-connector.md) |
+| PowerBI 和 Tableau 可存取 Customer Journey Analytics 資料檢視 | Customer Journey AnalyticsBI擴充功能可讓SQL存取您在Customer Journey Analytics中定義的資料檢視。 [了解更多](/help/data-views/bi-extension.md) |
 | Adobe Journey Optimizer 資料檢視 | Customer Journey Analytics 管理員可以存取 Customer Journey Analytics 中一些額外的資料檢視，標題為「AJO 資料檢視 (沙箱名稱)」。[了解更多](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html)。 |
 | 貨幣轉換 | 已更新[貨幣轉換](../data-views/component-settings/format.md#currency)支援的文件。 |
 | 計算量度更新 | 已針對計算量度文件進行以下更新，使其與目前的 Customer Journey Analytics 功能維持一致： <ul><li>已更新 Customer Journey Analytics 中可用的[預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)清單</li><li>已更新各種計算量度文章中的螢幕擷取畫面和程序 </li></ul> |
