@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 exl-id: 1827a637-6c0f-43f2-862a-928089340d30
 role: Admin
-source-git-commit: 9489868fdf8de416c061239de1c0719f263288d1
+source-git-commit: a932d0d364761d949831ee261907b923a79a1f56
 workflow-type: tm+mt
-source-wordcount: '2731'
-ht-degree: 77%
+source-wordcount: '2730'
+ht-degree: 75%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 1. 選取「![建立查詢](assets/Smock_AddCircle_18_N.svg)**[!UICONTROL **&#x200B;建立查詢&#x200B;**]**」。
 
-1. 選取 `"cja"` **[!UICONTROL **&#x200B;資料庫&#x200B;**]**.
+1. 選取 `cja` **[!UICONTROL **&#x200B;資料庫&#x200B;**]**.
 
 1. 若要執行查詢，請輸入您的SQL陳述式，然後選取 ![播放](assets/Smock_Play_18_N.svg) 按鈕(或按 `[SHIFT]` + `[ENTER]`)。
 
@@ -78,7 +78,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 選取 `"cja"` **[!UICONTROL **&#x200B;資料庫&#x200B;**]**.
+   1. 選取 `cja` **[!UICONTROL **&#x200B;資料庫&#x200B;**]**.
 
    1. 若要複製命令字串，請使用 ![複製](assets/Smock_Copy_18_N.svg) 在 **[!UICONTROL ** PSQL命令&#x200B;**]** 區段。
 
@@ -103,7 +103,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 選取 `"cja"` **[!UICONTROL **&#x200B;資料庫&#x200B;**]**.
+   1. 選取 `cja` **[!UICONTROL **&#x200B;資料庫&#x200B;**]**.
 
    1. 在 Power BI 中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
@@ -146,7 +146,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 選取「cja」 **[!UICONTROL **&#x200B;資料庫&#x200B;**]**.
+   1. 選取 ` cja` **[!UICONTROL **&#x200B;資料庫&#x200B;**]**.
 
    1. 在 Tableau 中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
@@ -233,7 +233,7 @@ prod:all=> \dv
 | 多維度<br/>分解<br/>和頂端不重複 | <pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1, dim2</pre><pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY 1, 2<br/>ORDER BY 1, 2</pre><pre>SELECT DISTINCT dim1, dim2<br/>FROM dv1</pre> |
 | 子選取：<br/>篩選其他<br/>個結果 | <pre>SELECT dim1, m1<br/>FROM (<br/>  SELECT dim1, SUM(metric1) AS m1<br/>  FROM dv1<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;</br>  GROUP BY dim1<br/>)<br/>WHERE dim1 in (&#39;A&#39;, &#39;B&#39;)</pre> |
 | 子選取：<br/>正在查詢<br/>資料檢視 | <pre>SELECT key, SUM(m1) AS total<br/>FROM (<br/>  SELECT dim1 AS key, SUM(metric1) AS m1<br/>  FROM dv1<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  GROUP BY dim1<br/><br/>  UNION<br/><br/>  SELECT dim2 AS key, SUM(m1) AS m1<br/>  FROM dv2<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  GROUP BY dim2<br/>GROUP BY key<br/>ORDER BY total</pre> |
-| 子選取： <br/>分層來源， <br/>篩選， <br/>和彙總 | 使用子選擇分層：<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>FROM (<br/>  SELECT \_.dim1,\_.m1<br/>  FROM (<br/>    SELECT \* FROM dv1<br/>    WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rows<br/>GROUP BY 1<br/>ORDER BY total</pre><br/>使用 CTE WITH 的分層：<br/><pre>WITH rows AS (<br/>  WITH \_ AS (<br/>    SELECT * FROM data_ares<br/>    WHERE \`timestamp\` BETWEEN &#39;2021-01-01&#39; AND &#39;2021-02-01&#39;<br/>  )<br/>  SELECT _.item, _.units FROM _<br/>  WHERE _.item IS NOT NULL<br/>)<br/>SELECT rows.item, SUM(rows.units) AS units<br/>FROM rows WHERE rows.item in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>GROUP BY rows.item</pre> |
+| 子選取： <br/>分層來源， <br/>篩選， <br/>和彙總 | 使用子選擇分層：<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>FROM (<br/>  SELECT \_.dim1,\_.m1<br/>  FROM (<br/>    SELECT \* FROM dv1<br/>    WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rows<br/>GROUP BY 1<br/>ORDER BY total</pre><br/>使用 CTE WITH 的分層：<br/><pre>列為(<br/>  以\_ AS (<br/>    選取*從data_ares<br/>    其中「時間戳記」介於「2021-01-01」和「2021-02-01」之間<br/>  )<br/>  選取\_.item， \_.units FROM \_<br/>  其中\_.item不是NULL<br/>)<br/>SELECT rows.item， SUM(rows.units) AS units<br/>FROM列，其中rows.item位於(&#39;A&#39;， &#39;B&#39;， &#39;C&#39;)<br/>GROUP BY rows.item</pre> |
 | 選取<br/>量度先於<br/>或混合於<br/>維度者 | <pre>SELECT SUM(metric1) AS m1, dim1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY 2</pre> |
 
 {style="table-layout:auto"}
