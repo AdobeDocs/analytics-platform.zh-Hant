@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 948f5d986d9cde2b2994165896e0a22baace88ab
-workflow-type: ht
-source-wordcount: '2888'
-ht-degree: 100%
+source-git-commit: 18f7f4ab3ef368afb73445c5b6dccc3c4f468ef7
+workflow-type: tm+mt
+source-wordcount: '2910'
+ht-degree: 97%
 
 ---
 
@@ -191,6 +191,6 @@ Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身�
 
 在建立連線時，可以新增大型資料集以進行查詢。例如，代表產品目錄的資料集，可以在建立報告和視覺化時尋找描述性的產品資訊。如此大的查詢資料集可能會超過目前以護欄方式實作的最大 1000 萬個唯一查詢，導致跳過其他的資料。
 
-您可以要求對如此大的查詢資料集進行演算法修剪。此修剪將僅載入查詢資料集中的資料，其金鑰可用於連線的事件資料集部分。演算法中使用的參考計數可以追溯到 90 天，且每週重新整理一次。
+您可以請求對大型查詢資料集進行演演算法刪減。 此演演算法刪減只會保留查詢資料集中符合事件資料集中索引鍵的資料。 如此一來，您就不需要載入整個未刪節的查詢資料集。 移除舊有或不太常用的專案，這可能會對報表造成輕微影響，但會有顯著的好處。 演演算法會回顧90天，並每週更新。
 
-如需詳細資訊，請聯絡您的 Adobe 代表。
+請聯絡您的Adobe支援團隊，以取得進一步資訊並啟用此功能。
