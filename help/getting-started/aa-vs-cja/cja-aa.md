@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: ht
-source-wordcount: '1964'
-ht-degree: 100%
+source-git-commit: 5333034f70ca9ca8252af2874d443bd09e746384
+workflow-type: tm+mt
+source-wordcount: '1969'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 | 功能 | 附註 |
 | --- | --- |
 | 面板 | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。不支援區段比較面板和 Analytics for Target (A4T) 面板。 |
-| Analytics for Target (A4T) | 透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)中的欄位提供部分支援。已規劃目標活動和體驗支援 A4T 易記名稱。 |
+| Analytics for Target (A4T) | 目前處於Beta版。 透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)中的欄位提供部分支援。已規劃目標活動和體驗支援 A4T 易記名稱。 |
 
 {style="table-layout:auto"}
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-## 從未支援 {#never}
+## 永遠不提供支援 {#never}
 
 * 使用 Cross-Device Coop 的人員量度
 
