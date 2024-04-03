@@ -3,9 +3,9 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 880bec05dbc14093f711ef54ee06ad2c8b178a7d
+source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1007'
 ht-degree: 94%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **變更工作區專案的刪除通訊協定** | 以前，刪除的專案從不會從系統中清除。 我們現在會在180天後開始清除已刪除的專案。 刪除後的180天內，如果使用者擁有直接專案的URL，他們仍可透過Web介面存取專案。 | | 2024 年 3 月 14 日 |
+| **變更工作區專案的刪除通訊協定** | 以前刪除的工作區專案從未從系統中清除。 我們現在會在180天後開始清除已刪除的專案。 刪除後的180天內，如果使用者擁有直接專案的URL，仍可透過Web介面存取已刪除的專案。 | | 2024 年 3 月 14 日 |
 | **專案登陸頁面珼在提供新欄** | 現在，在 [Customer Journey Analytics 登陸頁面](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=zh-Hant)上檢視「專案」標籤時，會提供&#x200B;**[!UICONTROL 「上次使用」]**&#x200B;欄。 <p>這項資訊可顯示專案上次開啟的日期和時間，幫助您確定此專案對您組織中的使用者是否重要。以前，**[!UICONTROL 「上次使用」]**&#x200B;欄只適用於計算量度管理器、區段管理器以及警報管理器。</p> |  | 2024 年 3 月 13 日 |
 | **使用情況量度** | [使用情況量度介面](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant)顯示所有連線中擷取和可報告的行的使用情況。此介面可讓您確定 Customer Journey Analytics 使用情況是否與合約的協議相符。 |  | 2024 年 3 月 13 日 |
 | **Media Analytics 報告 - 平均每分鐘對象數 (AMA)** | CJA 現已提供「平均每分鐘對象數」面板。Media Analytics 客戶可以使用「平均每分鐘對象數」面板來更了解其內容的平均使用量。 <p>「平均每分鐘對象數」可比較任何長度或類型的節目。此外，客戶也可以比較將此「數位平均每分鐘對象數」與「線性電視平均每分鐘量度」進行比較，或是把前者附加到後者上。</p><p> 此面板提供較大的彈性來測量自訂時段的平均對象數，以及事後已更新持續時間分類時的平均對象數。</p><p>有關詳細資訊，請參閱「[媒體平均每分鐘對象數面板](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)」。</p> |  | 2024 年 3 月 12 日 |
