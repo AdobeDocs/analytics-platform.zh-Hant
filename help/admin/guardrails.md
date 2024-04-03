@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 56b909a542915cd64251fb8849e55df920668025
+source-git-commit: eca9b101cea489b77af0ec5287ff96907e637d1e
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1523'
 ht-degree: 8%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 8%
 |---|--:|---|---|
 | 欄位 | 10,000 | 系統強制的護欄 | 資料集中每列的屬性或欄位數上限。 |
 | 唯一字串 | 1000萬 | 系統強制的護欄 | 每個查詢資料集的最大唯一索引鍵數。 |
-| 「行」 | 100萬 | 系統強制的護欄 | 連線中每個不重複人員ID的最大列數。 |
+| 「行」 | 100萬 | 系統強制的護欄 | 連線中指定月份每個不重複人員ID的最大列數。 |
 | 列大小 | 2 | 效能護欄/系統強制的護欄 | 擷取到Customer Journey Analytics的每列資料的平均大小(KB) （軟性限制）。 資料列大小的靜態限制由Experience Platform中資料擷取的護欄決定。 |
 
 {style="table-layout:auto"}
