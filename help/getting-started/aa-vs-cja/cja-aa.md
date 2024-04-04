@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 5333034f70ca9ca8252af2874d443bd09e746384
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1969'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 99%
 | 功能 | 附註 |
 | --- | --- |
 | 面板 | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。不支援區段比較面板和 Analytics for Target (A4T) 面板。 |
-| Analytics for Target (A4T) | 目前處於Beta版。 透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)中的欄位提供部分支援。已規劃目標活動和體驗支援 A4T 易記名稱。 |
+| Analytics for Target (A4T) | 目前處於測試階段。透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)中的欄位提供部分支援。已規劃目標活動和體驗支援 A4T 易記名稱。 |
 
 {style="table-layout:auto"}
 
