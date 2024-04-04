@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: eca9b101cea489b77af0ec5287ff96907e637d1e
+source-git-commit: 8af2c48c4895e6015c16e3973b6cd213aff38441
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1606'
 ht-degree: 8%
 
 ---
@@ -127,6 +127,18 @@ ht-degree: 8%
 {style="table-layout:auto"}
 
 另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
+
+
+## 目的地資料匯出
+
+| 名稱 | 值 | 限制型別 | 說明 |
+|---|--:|---|---|
+| 資料匯出 | 授權的資料湖儲存空間總數 | 效能護欄 | 客戶可使用目的地資料集匯出，將資料湖中的客戶資料匯出至授權的資料湖儲存空間總數。 |
+| 可用的資料集 | 設定檔和事件 | 系統強制的護欄 | 透過Sources、Web SDK、Mobile SDK、Analytics Data Connector和Audience Manager擷取或收集資料後，在Experience Platform UI中建立的設定檔和體驗事件資料集。 |
+
+{style="table-layout:auto"}
+
+另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## 資料登陸區域
