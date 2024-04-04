@@ -4,9 +4,9 @@ title: 智慧型註解
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 02e98b5ec1932e822c8d3805948d390eccc2b750
+source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
@@ -71,3 +71,7 @@ ht-degree: 2%
 如果您不想產生智慧型字幕，您可以前往「視覺效果」偏好設定並取消勾選，將此功能切換為關閉 **[!UICONTROL 顯示智慧型字幕]**.
 
 ![線條視覺效果選項，顯示取消勾選「顯示智慧型字幕」的選項。](assets/toggle-captions.png)
+
+## 行動計分卡上的智慧型字幕
+
+如需詳細資訊，請參閱 [管理計分卡](/help/mobile-app/manage-scorecard.md)
