@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 12007130027d152038b1210070f6ebd5de15c762
+source-git-commit: dd4a2e4770e0ead4c7b4c578acd2ceacdfaa856c
 workflow-type: tm+mt
-source-wordcount: '3246'
+source-wordcount: '3277'
 ht-degree: 77%
 
 ---
@@ -19,6 +19,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2024 年 4 月** | |
+| 新增建議為高基數維度匯出完整表格的資訊 | 在中新增專案符號 [高基數維度的最佳做法](/help/components/dimensions/high-cardinality.md) 建議針對高基數維度使用完整表格匯出。 |
 | **2024 年 3 月** | |
 | 關於「使用於」欄的使用情況資訊，僅從 2023 年 9 月開始提供。 | 澄清[專案登陸頁面](/help/getting-started/landing.md)上的「**使用於**」欄的使用情況資訊只能追溯到 2023 年 9 月。 |
 | **2024 年 2 月** | |

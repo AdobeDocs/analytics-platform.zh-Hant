@@ -5,9 +5,9 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: aaab21ef817e3acf67ca83cb6f9258b812625c8e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '544'
 ht-degree: 6%
 
 ---
@@ -39,3 +39,4 @@ Customer Journey Analytics會在執行報表時加以處理，將合併的資料
 * 使用查詢資料集維度。 查詢資料集維度結合了事件資料集維度項目，這會限制傳回的唯一值數量。
 * 使用 [包含/排除](/help/data-views/component-settings/include-exclude-values.md) 資料檢視管理器中的元件設定。
 * 縮短請求的日期範圍。 如果許多唯一值隨著時間累積，縮短工作區報表的日期範圍可能會限制伺服器要處理的唯一值數量。
+* 考慮使用 [完整表格匯出](/help/analysis-workspace/export/export-cloud.md) 以傳回表格的所有列。
