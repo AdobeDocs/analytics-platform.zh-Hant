@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 5078d10fe55123e45c1b890cded36965bb5e039f
+source-git-commit: 1d2a6258554712aa244aede182d12627fdd61857
 workflow-type: tm+mt
-source-wordcount: '2764'
-ht-degree: 23%
+source-wordcount: '2939'
+ht-degree: 22%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 23%
 | [!UICONTROL 量度] | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;彙總已新增/略過/刪除的事件記錄，以及已新增的批次數量。<p>選取 **[!UICONTROL 檢查詳細資訊]** 以顯示 **[!UICONTROL 檢查略過的詳細資訊]** 快顯視窗，為所有事件資料集或選取的資料集列出略過的記錄數量和原因。<p><img src="./assets/skipped-records.png" width="500"/><p>選取 ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 包含更多資訊的快顯視窗。 由於某些略過的原因，例如 [!UICONTROL 空的訪客ID]，快顯視窗會顯示您可在其中使用的EQS範例PSQL (查詢服務Experience Platform) [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant) 以查詢資料集中略過的記錄。 選取 ![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL 複製EQS的範例PSQL]** 複製SQL。 |
 | [!UICONTROL 新增的記錄] | 指出在選取的時段內，針對您選取的資料集和日期範圍&#x200B;**新增了多少列。**&#x200B;每 10 分鐘更新一次。 |
 | [!UICONTROL 略過的記錄] | 針對您選取的資料集和日期範圍&#x200B;**，指出在選取的時段內已略過多少列。**&#x200B;略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人ID等。 每 10 分鐘更新一次。 <p>人員 ID 無效 (例如「未定義」、「00000000」，或[!UICONTROL 人員 ID] 在指定月份中出現超過 100 萬次的事件) 無法歸因於任何特定使用者或人員。無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用 [拼接](/help/stitching/overview.md) 以使用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間將略過該使用者ID （偏好使用無效或全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> |
-| [!UICONTROL 記錄] 已刪除 | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;指示在所選的時段內刪除了多少列。 例如，可能有人已刪除 Experience Platform 中的資料集。 每 10 分鐘更新一次。 |
+| [!UICONTROL 記錄] 已刪除 | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;指示在所選的時段內刪除了多少列。 例如，可能有人已刪除 Experience Platform 中的資料集。 每 10 分鐘更新一次。<p>在某些情況下，此值還可以包含取代的記錄，例如拼接或某些查詢資料集更新。 請參考此範例：</p><ul><li>您上傳一筆記錄到XDM個別設定檔資料集，CJA會將其設定為擷取為設定檔查詢資料。 在連線詳細資料中，此資料集將顯示已新增1筆記錄。</li><li>您將原始記錄的副本上傳到同一個AEP資料集，該資料集現在將包含兩個記錄。 CJA會從設定檔查詢資料集中擷取其他記錄。 CJA發現其已擷取該人員ID的連線設定檔記錄，會刪除其舊版並新增設定檔資料。 在連線詳細資料中，這會表示新增1筆記錄及刪除1筆記錄，因為CJA只會保留任何內嵌人員ID的最新設定檔查詢資料。</li><li>AEP資料集總共將包含兩個剛好相同的記錄。 另外，CJA連線詳細資料將顯示其擷取資料的狀態：為此設定檔資料集新增了2筆記錄並刪除了1筆記錄。 </li></ul> |
 | ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) _搜尋資料集名稱或識別碼_ | 資料集搜尋欄位。 您可以依資料集名稱或頁面名稱 [!UICONTROL 資料集ID]. |
 | [!UICONTROL 資料集表格] | 顯示屬於連線之一部分的資料集。 |
 | [!UICONTROL 資料集] | 顯示屬於連線之一部分的資料集名稱。 您可以選取超連結，在新標籤的Experience PlatformUI中開啟資料集。 您可以選取列或核取方塊，僅顯示所選資料集的詳細資訊。 |
