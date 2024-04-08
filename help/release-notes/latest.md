@@ -4,15 +4,15 @@ description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: e27e2ad81ed997c5aa19a270a9d682ac6a03ce2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 最新的 Adobe Customer Journey Analytics 發行說明 (2024 年 3 月)
 
-**上次更新**：2024年4月3日
+**上次更新日期**：2024 年 4 月 3 日
 
 這些發行說明涵蓋 2024 年 3 月 13 日至 2024 年 4 月的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,11 +20,11 @@ ht-degree: 94%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **變更工作區專案的刪除通訊協定** | 以前刪除的工作區專案從未從系統中清除。 我們現在會在180天後開始清除已刪除的專案。 刪除後的180天內，如果使用者擁有直接專案的URL，仍可透過Web介面存取已刪除的專案。 | | 2024 年 3 月 14 日 |
+| **變更 Workspace 專案的刪除通訊協定** | 在以前，已刪除的 Workspace 專案不會從系統中清除。我們現在將於 180 天後開始清除已刪除的專案。在刪除後的 180 天內，如果使用者有專案的直接 URL，他們仍然可以透過 Web 介面存取已刪除的專案。 | | 2024 年 3 月 14 日 |
 | **專案登陸頁面珼在提供新欄** | 現在，在 [Customer Journey Analytics 登陸頁面](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=zh-Hant)上檢視「專案」標籤時，會提供&#x200B;**[!UICONTROL 「上次使用」]**&#x200B;欄。 <p>這項資訊可顯示專案上次開啟的日期和時間，幫助您確定此專案對您組織中的使用者是否重要。以前，**[!UICONTROL 「上次使用」]**&#x200B;欄只適用於計算量度管理器、區段管理器以及警報管理器。</p> |  | 2024 年 3 月 13 日 |
 | **使用情況量度** | [使用情況量度介面](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant)顯示所有連線中擷取和可報告的行的使用情況。此介面可讓您確定 Customer Journey Analytics 使用情況是否與合約的協議相符。 |  | 2024 年 3 月 13 日 |
 | **Media Analytics 報告 - 平均每分鐘對象數 (AMA)** | CJA 現已提供「平均每分鐘對象數」面板。Media Analytics 客戶可以使用「平均每分鐘對象數」面板來更了解其內容的平均使用量。 <p>「平均每分鐘對象數」可比較任何長度或類型的節目。此外，客戶也可以比較將此「數位平均每分鐘對象數」與「線性電視平均每分鐘量度」進行比較，或是把前者附加到後者上。</p><p> 此面板提供較大的彈性來測量自訂時段的平均對象數，以及事後已更新持續時間分類時的平均對象數。</p><p>有關詳細資訊，請參閱「[媒體平均每分鐘對象數面板](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)」。</p> |  | 2024 年 3 月 12 日 |
-| **對於人員到帳戶的 B2B 方案轉換** | 讓您轉換資料集，以便進一步支援 Customer Journey Analytics B2B 報告情境中基於人員的查詢。此功能可用於基於以下類別的 B2B 方案資料集：<ul><li>XDM 商業帳戶個人關係</li><li>XDM 商業機會個人關係</li><li>XDM 業務行銷清單會員</li><li>XDM 商業活動會員</li></ul> | | 2024年4月17日 |
+| **對於人員到帳戶的 B2B 方案轉換** | 讓您轉換資料集，以便進一步支援 Customer Journey Analytics B2B 報告情境中基於人員的查詢。此功能可用於基於以下類別的 B2B 方案資料集：<ul><li>XDM 商業帳戶個人關係</li><li>XDM 商業機會個人關係</li><li>XDM 業務行銷清單會員</li><li>XDM 商業活動會員</li></ul> | | 2024 年 4 月 17 日 |
 | **Report Builder 使用情況包含在計算量度管理器和篩選器管理器的「使用於」欄中** | 現在，在計算量度管理器或篩選器管理器中檢視「**使用於**」欄時，可以看到 Report Builder 使用情況資料。<p>之前，篩選器管理器僅提供警報、專案、已排程專案和計算量度的使用情況資料；而計算量度管理器僅提供警報、專案、已排程專案的使用情況資料。</p> |  | 7 月 |
 | **Adobe Product Analytics：比較單一漏斗步驟中的事件** | 在漏斗中：摩擦視圖，現在您可以比較單一漏斗步驟內的事件。當您的歷程有步驟選項或有一個執行 A/B 實驗的步驟時，此功能尤其實用。 | 2024 年 3 月 29 日 | 2024 年 4 月 12 日 |
 | **管理員可以管理其組織中的所有位置和帳戶** | 「位置」標籤 (在「元件 > 輸出」頁面上) 上的新選項可以讓管理員檢視和管理組織中的所有位置。 <p>「位置」帳戶標籤 (在「元件 > 輸出」頁面上) 上的新選項可以讓管理員檢視和管理組織中的所有帳戶。</p><p>以前，管理員只能檢視和管理他們建立的位置和帳戶。</p> | | 2024 年 4 月 |

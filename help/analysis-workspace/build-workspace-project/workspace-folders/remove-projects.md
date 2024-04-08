@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
 source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 80%
 
 ## 從專案資料夾中刪除專案 {#delete-project-in-folder}
 
-當您從資料夾中刪除專案時，會在180天後從系統中清除該專案。 在刪除後的180天內，如果使用者擁有專案的直接URL，他們仍可透過Web介面存取已刪除的專案。
+當您從資料夾中刪除專案時，該專案會在 180 天後從系統中清除。在刪除後的 180 天內，如果使用者有專案的直接 URL，他們仍然可以透過 Web 介面存取已刪除的專案。
 
 1. 從專案資料夾中，選取專案名稱旁邊的「**...**」省略符號。
 
