@@ -5,8 +5,8 @@ exl-id: 90746eb0-99df-463a-8f01-330fd460a4a8
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: f078bf7b9b9d87335f435db2bbba87b078412738
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 
@@ -21,4 +21,4 @@ Customer Journey Analytics 可用於下列主要使用案例：
 * **為您的分析師運用資料科學的力量**：Customer Journey Analytics 可讓一般人使用資料科學獲得深入見解及分析。
 * **使用臨時報告將資料集視覺化並與其互動**：Workspace 可使用 Adobe Experience Platform 中符合某些基本規則的任何資料集。
 * **檢視非 Web 資料**：Workspace 不再局限於「點擊」或「事件」的硬性定義。自訂結構描述可完全控制資料和定義。
-* **對資料操控發揮更大控制力**：變更已上傳的資料、建立新的資料集，並將其匯入 Workspace 中。Adobe Experience Platform 透過 Experience Cloud Query Service 提供查詢、擷取、轉換和載入工具。
+* **對資料操控發揮更大控制力**：變更已上傳的資料、建立新的資料集，並將其匯入 Workspace 中。Adobe Experience Platform 透過 Experience Platform Query Service 提供查詢、擷取、轉換和載入工具。
