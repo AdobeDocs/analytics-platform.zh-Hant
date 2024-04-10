@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
+source-git-commit: 135d1832a1c22248e3c52e3f7cb9f05293626522
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1073'
 ht-degree: 79%
 
 ---
@@ -176,6 +176,7 @@ ht-degree: 79%
    + 預測 {#forecasting}
       + [預測概觀](../analysis-workspace/c-forecast/forecasting.md)
       + [在Analysis Workspace中檢視預測](../analysis-workspace/c-forecast/view-forecasts.md)
+      + [預測服務中使用的統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md)
    + [使用者偏好設定](../analysis-workspace/user-preferences.md)
    + 工作區常見問題 {#workspace-faq}
       + [常見問題](../analysis-workspace/workspace-faq/faq.md)
