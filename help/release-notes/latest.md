@@ -3,23 +3,24 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e27e2ad81ed997c5aa19a270a9d682ac6a03ce2a
-workflow-type: ht
-source-wordcount: '1007'
-ht-degree: 100%
+source-git-commit: 542cbb35d3870b8eef6fe252d1ac20962a1b2b8f
+workflow-type: tm+mt
+source-wordcount: '1037'
+ht-degree: 95%
 
 ---
 
 # 最新的 Adobe Customer Journey Analytics 發行說明 (2024 年 3 月)
 
-**上次更新日期**：2024 年 4 月 3 日
+**上次更新**：2024年4月10日
 
-這些發行說明涵蓋 2024 年 3 月 13 日至 2024 年 4 月的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2024年3月13日至2024年4月的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **行動計分卡上的智慧型字幕** | [智慧型字幕](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) 可協助非分析人員更瞭解其資料，無需分析人員協助。 現在可在Customer Journey Analytics計分卡中使用。 |  | 2024年4月10日 |
 | **變更 Workspace 專案的刪除通訊協定** | 在以前，已刪除的 Workspace 專案不會從系統中清除。我們現在將於 180 天後開始清除已刪除的專案。在刪除後的 180 天內，如果使用者有專案的直接 URL，他們仍然可以透過 Web 介面存取已刪除的專案。 | | 2024 年 3 月 14 日 |
 | **專案登陸頁面珼在提供新欄** | 現在，在 [Customer Journey Analytics 登陸頁面](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=zh-Hant)上檢視「專案」標籤時，會提供&#x200B;**[!UICONTROL 「上次使用」]**&#x200B;欄。 <p>這項資訊可顯示專案上次開啟的日期和時間，幫助您確定此專案對您組織中的使用者是否重要。以前，**[!UICONTROL 「上次使用」]**&#x200B;欄只適用於計算量度管理器、區段管理器以及警報管理器。</p> |  | 2024 年 3 月 13 日 |
 | **使用情況量度** | [使用情況量度介面](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant)顯示所有連線中擷取和可報告的行的使用情況。此介面可讓您確定 Customer Journey Analytics 使用情況是否與合約的協議相符。 |  | 2024 年 3 月 13 日 |
