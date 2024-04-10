@@ -4,13 +4,13 @@ title: 管理計分卡
 feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: c5f4ddd2f0a2840e7c0d456475f95d891863666e
+exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
+source-git-commit: 6149d2cf23eb31f0aaa37546d3150017e155053c
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 72%
+source-wordcount: '1792'
+ht-degree: 66%
 
 ---
-
 
 # 管理計分卡
 
@@ -202,12 +202,30 @@ ht-degree: 72%
 
 1. 按一下 **[!UICONTROL 未指定]** 旁的圖示，即可從報表中移除未指定的資料。(您也可移除任何其他的維度項目。)
 
-## 在計分卡上檢視智慧型字幕
+## 在計分卡上檢視智慧型字幕 {#captions}
 
 智慧型字幕可協助非分析人員更瞭解其資料，無需分析人員協助。 智慧型字幕使用進階機器學習和創作AI，為視覺效果提供有價值的自然語言見解。
 
-若要檢視智慧型字幕：
+這些註解會挑選出資料中重要的統計深入分析，並以自然語言短語，因此有助於非分析人員提升其資料素養。
 
-1. 按一下圖磚。
+智慧型註解可用於行動應用程式中的所有視覺效果，包括折線圖、環圈圖、長條圖和摘要數字。
 
-1. more
+若要在行動計分卡上檢視智慧型字幕：
+
+1. 在計分卡中，按一下圖磚。 例如，在此計分卡中，按一下滑鼠左下方的線圖。
+
+   ![含有線條圖視覺效果的計分卡](assets/caption1.png)
+
+1. 點選右上方的藍色圖示以產生註解。 註解會顯示線上圖下方。
+
+   ![線條視覺效果中的智慧型註解](assets/caption2.png)
+
+1. 向右撥動以檢視所有智慧型字幕。
+
+   智慧型字幕可指出資料尖峰、異常、趨勢、下降、關聯和其他現象。
+
+1. 點選註解內的黑色旗標可報告問題，例如有害或非法的內容。
+
+   ![回報標題問題](assets/caption-report.png)
+
+1. 按一下X以退出 **[!UICONTROL 報告結果]** 對話方塊。
