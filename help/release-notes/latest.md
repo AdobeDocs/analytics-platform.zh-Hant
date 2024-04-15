@@ -20,7 +20,7 @@ ht-degree: 94%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **行動計分卡中智慧型註解** | [智慧型註解](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)可協助非分析師在沒有分析師幫助的情況下更好地理解他們的數據。現在可在 Customer Journey Analytics 計分卡中使用。 |  | 2024 年 4 月 17 日 |
+| **行動計分卡中智慧型註解** | [智慧型註解](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)可協助非分析師在沒有分析師幫助下更能了解他們的資料。現在可在 Customer Journey Analytics 計分卡中使用。 |  | 2024 年 4 月 17 日 |
 | **變更 Workspace 專案的刪除通訊協定** | 在以前，已刪除的 Workspace 專案不會從系統中清除。我們現在將於 180 天後開始清除已刪除的專案。在刪除後的 180 天內，如果使用者有專案的直接 URL，他們仍然可以透過 Web 介面存取已刪除的專案。 | | 2024 年 3 月 14 日 |
 | **專案登陸頁面珼在提供新欄** | 現在，在 [Customer Journey Analytics 登陸頁面](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/landing.html?lang=zh-Hant)上檢視「專案」標籤時，會提供&#x200B;**[!UICONTROL 「上次使用」]**&#x200B;欄。 <p>這項資訊可顯示專案上次開啟的日期和時間，幫助您確定此專案對您組織中的使用者是否重要。以前，**[!UICONTROL 「上次使用」]**&#x200B;欄只適用於計算量度管理器、區段管理器以及警報管理器。</p> |  | 2024 年 3 月 13 日 |
 | **Media Edge API的使用案例檔案** | 兩種新使用案例適用於使用Media Edge API。 第一個使用案例說明如何追蹤包含下列專案的媒體工作階段 [包含廣告插播的兩個章節](https://developer.adobe.com/cja-apis/docs/use-cases/media-edge/chapters-with-ad-timeline/). 第二個使用案例說明如何追蹤包含下列專案的媒體工作階段 [緩衝狀態和暫停](https://developer.adobe.com/cja-apis/docs/use-cases/media-edge/buffer-and-pause-timeline/). |  | 2024 年 3 月 13 日 |
