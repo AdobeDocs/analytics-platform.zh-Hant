@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: d6f2d7129b472b32edc30dadfeb2303a92d790de
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2001'
 ht-degree: 7%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 7%
    此時會顯示已啟用基本連線的清單。
 
    ![顯示報表佇列的報表活動](assets/reporting-activity1.png)
+
+1. 若要檢視貴組織中所有連線的報表請求總數，請展開 [!UICONTROL **顯示更多**] 若要檢視 [!UICONTROL **每月報表請求**] 圖表。
+
+   您可以檢視貴組織內當月與上個月的報告請求數量。
 
 1. （選擇性）您可以搜尋或篩選連線清單：
 
