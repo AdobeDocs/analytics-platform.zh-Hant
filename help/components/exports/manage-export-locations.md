@@ -5,9 +5,9 @@ title: 管理雲端匯出位置和帳戶
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: cdf99e31790f089950de8063445b6264158131dd
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -48,13 +48,19 @@ ht-degree: 1%
 
 1. 選取 [!UICONTROL **位置**] 標籤。
 
+1. （視條件而定）如果您是系統管理員，則可以啟用 [!UICONTROL **檢視所有使用者的位置**] 用來檢視組織中所有使用者建立的位置的選項。
+
 1. 在搜尋欄位中，開始輸入與您要搜尋的位置相關聯的任何資訊。 您可以從表格中任何可用的欄搜尋資料。
 
 ## 編輯位置
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
-1. 選取 [!UICONTROL **位置**] 標籤，然後選取要編輯的位置。
+1. 選取 [!UICONTROL **位置**] 標籤。
+
+1. （視條件而定）如果您是系統管理員，則可以啟用 [!UICONTROL **檢視所有使用者的位置**] 用來檢視組織中所有使用者建立的位置的選項。
+
+1. 選取您要編輯的位置。
 
    ![顯示位置標籤和位置清單的匯出視窗。](assets/locations-edit.png)
 
@@ -70,7 +76,11 @@ ht-degree: 1%
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
-1. 選取 [!UICONTROL **位置**] 標籤，然後選取一或多個要刪除的位置。
+1. 選取 [!UICONTROL **位置**] 標籤。
+
+1. （視條件而定）如果您是系統管理員，則可以啟用 [!UICONTROL **檢視所有使用者的位置**] 用來檢視組織中所有使用者建立的位置的選項。
+
+1. 選取一或多個要刪除的位置。
 
    ![顯示[位置]索引標籤和位置清單的[匯出]視窗](assets/locations-edit.png)
 
@@ -92,6 +102,8 @@ ht-degree: 1%
 
    ![顯示[Location accounts]索引標籤的[Exports]視窗](assets/account-add.png)
 
+1. （視條件而定）如果您是系統管理員，則可以啟用 [!UICONTROL **檢視所有使用者的帳戶**] 用來檢視組織中所有使用者建立的位置的選項。
+
 1. 選取 [!UICONTROL **檢視詳細資料**] 在您想要編輯的帳戶上。
 
 1. 進行任何需要的變更，然後選取「 」 [!UICONTROL **儲存**].
@@ -108,6 +120,8 @@ ht-degree: 1%
 
    ![顯示[Location accounts]索引標籤的[Exports]視窗](assets/account-add.png)
 
+1. （視條件而定）如果您是系統管理員，則可以啟用 [!UICONTROL **檢視所有使用者的帳戶**] 用來檢視組織中所有使用者建立的位置的選項。
+
 1. 在您要編輯的帳戶上選取3點圖示，然後選取「 」 [!UICONTROL **帳戶金鑰**].
 
 ## 刪除帳戶
@@ -117,6 +131,8 @@ ht-degree: 1%
 1. 選取 [!UICONTROL **位置帳戶**] 標籤。
 
    ![顯示[Location accounts]索引標籤的[Exports]視窗](assets/account-add.png)
+
+1. （視條件而定）如果您是系統管理員，則可以啟用 [!UICONTROL **檢視所有使用者的帳戶**] 用來檢視組織中所有使用者建立的位置的選項。
 
 1. 在您要編輯的帳戶上選取3點圖示，然後選取「 」 [!UICONTROL **刪除帳戶**].
 

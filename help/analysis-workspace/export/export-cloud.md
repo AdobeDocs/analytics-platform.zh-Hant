@@ -5,9 +5,9 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: cf9920eb45803ff105e0d411475ee3df2a676cd1
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2217'
 ht-degree: 3%
 
 ---
@@ -175,7 +175,7 @@ ht-degree: 3%
 * 在量度定義中使用基本或進階函式的計算量度(請參閱 [基本函式](/help/components/calc-metrics/cm-functions.md) 和 [進階函式](/help/components/calc-metrics/cm-adv-functions.md) 以取得詳細資訊)
 * 管理員限制無法匯出的元件(請參閱 *篩選資料檢視中的資料控管原則* 中的區段 [標籤和原則](/help/data-views/data-governance.md) 以取得詳細資訊)
 * 符合下列所有條件的任何維度：
-   * 是從屬於的欄位建立的 [物件陣列](/help/use-cases/object-arrays.md)
+   * 是從屬於的欄位建立的 [物件陣列](/help/use-cases/object-arrays.md) (類似Adobe Analytics中的多值變數)
    * 有 [已啟用持續性](/help/data-views/component-settings/persistence.md)
    * 未使用 [繫結維度](/help/use-cases/data-views/binding-dimensions-metrics.md)
 * 每個報表超過5個維度和5個量度（最多支援5個維度和5個量度）
