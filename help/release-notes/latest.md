@@ -3,7 +3,7 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 9c89f05c85ce7232bece6de08efbab222d51a644
+source-git-commit: 69566b840301f87a6362d6bd16b1e255a14d4e23
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 46%
@@ -27,8 +27,8 @@ ht-degree: 46%
 | **管理員可以管理他乞組織中的所有位置** | 上的新選項 [位置頁面](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 可讓管理員檢視及管理組織中的所有位置。 以前，管理員只能查看和管理他們建立的位置。 |  | 2024 年 4 月 17 日 |
 | **Adobe Product Analytics：功能對照表** | 瞭解您的核心、效能、一次性和可疑功能，有助於做出投資決策。 [!UICONTROL 功能矩陣] 會依使用頻率vs %作用中使用者來測量事件，並與使用中值比較。 | 2024 年 4 月 17 日 | 2024 年 4 月 30 日 |
 | **Adobe Product Analytics：漏斗中的增強型深入分析** | 在 [摩擦](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction) 檢視，已增強書面深入分析，其中包含類別、增量及說明，以進一步瞭解圖表和表格。 | 2024 年 4 月 17 日 | 2024年4月26日 |
-| **Adobe Product Analytics：增強的保留檢視** | 幾項功能已新增至 [保留](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates) 費率檢視，以推動更深入且可自訂的保留率深入分析：<ul><li>解除連結開始和返回事件</li><li>在單一檢視中比較多個傳回事件</li><li>自訂套用在（無限制）上或之後、在每個（有限制）和括弧設定上的保留模型</li><li>在圖表中顯示和隱藏個別同類群組列</li></ul> | 2024 年 4 月 10 日 | 2024年4月26日 |
-| **Adobe Product Analytics：比較單一漏斗步驟中的事件** | 您現在可以在的單一漏斗步驟中比較事件 [摩擦](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction) 檢視。 當您的歷程有步驟選項或有一個執行 A/B 實驗的步驟時，此功能尤其實用。 | 2024 年 4 月 12 日 | 2024年4月26日 |
+| **Adobe Product Analytics：增強的保留檢視** | 幾項功能已新增至 [保留](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates) 費率檢視，以推動更深入且可自訂的保留率深入分析：<ul><li>解除連結開始和返回事件</li><li>在單一檢視中比較多個傳回事件</li><li>自訂套用在（無限制）上或之後、在每個（有限制）和括弧設定上的保留模型</li><li>在圖表中顯示和隱藏個別同類群組列</li></ul> | 2024年4月24日 | 2024年5月8日 |
+| **Adobe Product Analytics：比較單一漏斗步驟中的事件** | 您現在可以在的單一漏斗步驟中比較事件 [摩擦](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction) 檢視。 當您的歷程有步驟選項或有一個執行 A/B 實驗的步驟時，此功能尤其實用。 | 2024年4月23日 | 2024年5月3日 |
 | **對於人員到帳戶的 B2B 方案轉換** | 讓您轉換資料集，以便進一步支援 Customer Journey Analytics B2B 報告情境中基於人員的查詢。此功能可用於基於以下類別的 B2B 方案資料集：<ul><li>XDM 商業帳戶個人關係</li><li>XDM 商業機會個人關係</li><li>XDM 業務行銷清單會員</li><li>XDM 商業活動會員</li></ul> | | 2024年5月1日 |
 | **Experience Edge 機器人偵測** | [機器人偵測](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=zh-Hant)可讓您將 Web SDK、Mobile SDK 和伺服器 API 產生的事件識別為由已知編目程式和機器人產生。 | | 2024年5月1日 |
 | **衍生欄位： Next或Previous函式** | 這些新功能可讓您以欄位作為輸入，然後識別n個上一個或n個下一個值，以取得使用者歷程的更佳檢視。 此功能也可以與中的其他功能結合 [!UICONTROL 衍生欄位]，例如 [!UICONTROL 串連]，以建立新維度。 |  | 2024年5月1日 |
