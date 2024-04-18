@@ -4,7 +4,7 @@ description: 了解如何從 Customer Journey Analytics 發佈對象
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 91ab1d3160db83979e1550f8f1b5135065cc6707
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 57%
@@ -86,7 +86,7 @@ ht-degree: 57%
 
 在對象發佈之前、期間和之後的數個時間點，可能會發生延遲。 以下是可能的延遲的概觀。
 
-![本章節所述的對象發佈延遲。](assets/latency-diagram.png)
+![本章節所述的對象發佈延遲。](/help/components/audiences/assets/latency-diagram.png)
 
 | # | 延遲點 | 延遲期間 |
 | --- | --- | --- |
