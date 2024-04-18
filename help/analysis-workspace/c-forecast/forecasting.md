@@ -4,9 +4,9 @@ title: 預測概觀
 feature: Visualizations
 role: User
 exl-id: 9ec920c4-3273-4497-83a4-6a2e2fc92e2f
-source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
+source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 {{select-package}}
 
-預測是Analysis Workspace的一項功能，可協助預測具有任何受支援時間粒度（每小時、每日、每週、每月及每年）的標準或計算量度。 預測僅適用於時間序列相關的資料。
+預測包括根據Customer Journey Analytics中已存在的歷史資料的時間序列相關資料的統計預測。 預測可以出現在自由表格和折線圖視覺效果中。 使用者可以控制是否透過他們在Customer Journey AnalyticsUI中的使用者偏好設定自動包含預測。 他們可以在欄設定中為每個欄開啟和關閉這些設定。 只有新增到表格的第一欄已經開啟預測。
+
+「選取」和更高的Customer Journey Analytics授權層級提供預測功能。
 
 您可以善用預測功能：
 

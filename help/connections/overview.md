@@ -5,17 +5,18 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 14cdc7bd8817dbf1d7a9950fa6ff62aedff82640
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 55%
 
 ---
 
 # 連線概觀
 
-連線可讓 Customer Journey Analytics 產品管理員與其他 AEP 資料來源 (例如事件、查詢和設定檔資料集) 建立連線。這些連線可以將連線中的資料整合到衍生資料視圖中。建議將連線管理的存取權限制為核心管理群組。連線層級的設定對於引入 Customer Journey Analytics 的資料量分配具有合約影響。
-連線是 CJA 的基礎，是根據 AEP 來源資料集建立的。存取連線還提供了查看連線管理器的功能，其可讓您查看構成連線的基礎資料集，以及進行關鍵編輯和設定的選項。
+連線可讓Customer Journey Analytics產品管理員與其他人建立連線 [!DNL Adobe Experience Platform] 資料來源，例如事件、查詢和設定檔資料集。 這些連線可以將連線中的資料整合到衍生資料視圖中。連線是CJA的基礎，建立來源為 [!DNL Experience Platform] 來源資料集。 存取連線也可讓您檢視連線管理員，您可以在其中檢視組成連線的基礎資料集，以及進行重要的編輯和組態選擇。
+
+建議將連線管理的存取權限制為核心管理群組。「連線」層級的設定對於引入Customer Journey Analytics之資料的磁碟區配置具有合約意涵。
 
 以下是影片概觀：
 

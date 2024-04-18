@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 18f7f4ab3ef368afb73445c5b6dccc3c4f468ef7
-workflow-type: ht
+source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
+workflow-type: tm+mt
 source-wordcount: '2910'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -189,7 +189,7 @@ Customer Journey Analytics 支援以「身分對應」作為人員 ID。 「身�
 
 ## 大型查詢資料集的演算法修剪
 
-在建立連線時，可以新增大型資料集以進行查詢。例如，代表產品目錄的資料集，可以在建立報告和視覺化時尋找描述性的產品資訊。如此大的查詢資料集可能會超過目前以護欄方式實作的最大 1000 萬個唯一查詢，導致跳過其他的資料。
+在建立連線時，可以新增大型資料集以進行查詢。例如，代表產品目錄的資料集，可在建立報表和視覺效果時，查詢描述性產品資訊。 如此大的查詢資料集可能會超過目前以護欄方式實作的最大 1000 萬個唯一查詢，導致跳過其他的資料。
 
 您可以要求對大型查詢資料集進行演算法修剪。此演算法修剪僅保留查詢資料集中與事件資料集內索引鍵相符的資料。這樣，您便不需要載入整個未修剪的查詢資料集。舊的或不常用的項目被刪除，這可能會對報告產生輕微影響，但會帶來顯著的好處。該演算法會回顧 90 天並每週更新。
 
