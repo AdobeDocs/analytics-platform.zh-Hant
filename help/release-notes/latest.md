@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 69566b840301f87a6362d6bd16b1e255a14d4e23
+source-git-commit: abaa747934ff2cdd0a3dab867165afb46fbc71db
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 46%
+source-wordcount: '945'
+ht-degree: 42%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 46%
 | **對於人員到帳戶的 B2B 方案轉換** | 讓您轉換資料集，以便進一步支援 Customer Journey Analytics B2B 報告情境中基於人員的查詢。此功能可用於基於以下類別的 B2B 方案資料集：<ul><li>XDM 商業帳戶個人關係</li><li>XDM 商業機會個人關係</li><li>XDM 業務行銷清單會員</li><li>XDM 商業活動會員</li></ul> | | 2024年5月1日 |
 | **Experience Edge 機器人偵測** | [機器人偵測](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=zh-Hant)可讓您將 Web SDK、Mobile SDK 和伺服器 API 產生的事件識別為由已知編目程式和機器人產生。 | | 2024年5月1日 |
 | **衍生欄位： Next或Previous函式** | 這些新功能可讓您以欄位作為輸入，然後識別n個上一個或n個下一個值，以取得使用者歷程的更佳檢視。 此功能也可以與中的其他功能結合 [!UICONTROL 衍生欄位]，例如 [!UICONTROL 串連]，以建立新維度。 |  | 2024年5月1日 |
+| **對象已經發佈到 Experience Platform 中新的「對象」部分** | 從Customer Journey Analytics發佈的對象現在可在Adobe Experience Platform的新「對象」區段中取得。<p>之前，從Customer Journey Analytics發佈的對象可在「區段」區段下的Experience Platform中使用。</p><p>此改善提供以下優點：</p><ul><li>對象在Experience Platform出現前不再有1小時的延遲；發佈後幾秒即可使用。</li><li>可以使用「來源」欄（顯示對象最初發佈來源的應用程式）按Experience Platform排序對象。</li><li>Experience Platform中的篩選和排序選項可讓您更快找到相關的對象。</li></ul> |  | 2024 年 5 月 |
 
 {style="table-layout:auto"}
 
