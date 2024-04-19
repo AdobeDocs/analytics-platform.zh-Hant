@@ -4,9 +4,9 @@ title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 68289e274c8ea985b6d07bca228f5e6654e05aa4
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1889'
 ht-degree: 58%
 
 ---
@@ -15,9 +15,7 @@ ht-degree: 58%
 
 此 **[!UICONTROL Experimentation]** 面板可讓分析師比較不同的使用者體驗、行銷或傳送訊息變化，以確定哪一個產生特定結果的績效最好。您可以從任何實驗平台 (線上、離線、Adobe 解決方案、Adobe Journey Optimizer，甚至 BYO (自帶) 資料) 評估任何 A/B 實驗的提升度和信賴度。
 
->[!IMPORTANT]
->
->此時， [目標的Adobe Analytics](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) (A4T)資料 *無法* 在Experimentation面板中分析。
+深入瞭解 [Adobe Customer Journey Analytics與Adobe Target的整合](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja4t/cja4t).
 
 ## 存取控制 {#access}
 
@@ -33,7 +31,7 @@ ht-degree: 58%
 
 在您的實驗資料完成後 [已內嵌](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant) 移至Adobe Experience Platform， [在Customer Journey Analytics中建立連線](/help/connections/create-connection.md) 到一個或多個實驗資料集。
 
-## 步驟 2：在資料檢視中新增內容標籤 {#contect-labels}
+## 步驟 2：在資料檢視中新增內容標籤 {#context-labels}
 
 在Customer Journey Analytics資料檢視設定中，管理員可以新增 [內容標籤](/help/data-views/component-settings/overview.md) 變更為維度或量度以及Customer Journey Analytics服務，例如 [!UICONTROL 實驗] 面板可針對其用途使用這些標籤。 Experimentation 面板使用了兩個預先定義的標籤：
 
