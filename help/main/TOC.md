@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 135d1832a1c22248e3c52e3f7cb9f05293626522
+source-git-commit: 9450ecdce53088b008f3a5a5413d3e824fbd9b13
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 79%
+source-wordcount: '1111'
+ht-degree: 76%
 
 ---
 
@@ -42,6 +42,16 @@ ht-degree: 79%
 + Customer Journey Analytics 和 Adobe Analytics {#compare-aa-cja}
    + [從 Adobe Analytics 發展而來](../getting-started/aa-to-cja.md)
    + [Adobe Analytics 使用者的使用手冊](../getting-started/aa-to-cja-user.md)
+   + 移轉至Customer Journey Analytics {#migrate-to-cja}
+      + [開始使用](/help/getting-started/cja-migration/cja-migration-getstarted.md)
+      + [選擇移轉方法](/help/getting-started/cja-migration/cja-migration-method.md)
+      + [傳送資料至Platform](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)
+      + [將資料對應至XDM](/help/getting-started/cja-migration/cja-migration-xdm.md)
+      + [保留歷史資料](/help/getting-started/cja-migration/cja-migration-historical-data.md)
+      + [計畫使用者上線](/help/getting-started/cja-migration/cja-migration-onboarding.md)
+      + [連線埠API使用狀況](/help/getting-started/cja-migration/cja-migration-api.md)
+      + [取代資料摘要和Data Warehouse](/help/getting-started/cja-migration/cja-migration-export-options.md)
+      + [移轉專案和元件](/help/getting-started/cja-migration/cja-migration-projects.md)
    + 與 Adobe Analytics 比較{#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
       + [在 Customer Journey Analytics 中利用 Adobe Analytics 資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
