@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 19923592c8c50d93e150ba908f23313513d3450b
 workflow-type: tm+mt
-source-wordcount: '2091'
-ht-degree: 68%
+source-wordcount: '2040'
+ht-degree: 69%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 68%
 >
 >* 如果有多位使用者同時嘗試存取所提供的連結，專案可能會變得無法存取。根據預設，每 5 分鐘可以有超過 190 人存取單一連結。如果您的組織達到此限制，請等待 5 分鐘，然後再次嘗試存取該連結。
 >
->* 如果您的組織授權Healthcare Shield，您只能與已透過單一登入(SSO)或Adobe ID驗證的使用者共用專案；您無法與未驗證的使用者共用專案。 您有責任根據公司的內部資料控管政策使用此功能，且僅與具有適當許可權的使用者共用包含個人健康資訊(PHI)的專案連結。
+>* 此 [!UICONTROL 與任何人共用] Healthcare Shield和Privacy &amp; Security Shield授權已封鎖此功能。
 
 以下影片示範和隨附文件說明了有關與任何人共用連結的選項：
 
