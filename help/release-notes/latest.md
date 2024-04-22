@@ -22,7 +22,7 @@ ht-degree: 42%
 | ----------- | ---------- | ------- | ---- |
 | **串流媒體：將Roku資料傳送至Adobe Experience Platform Edge** | 現在，當 [使用Experience Platform Edge安裝Media Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge)，您可以使用Adobe Experience Platform Roku SDK傳送串流媒體資料給Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
 | **在報告活動管理器中顯示每月報告** | 在報告活動管理器中檢視所有連線的報告活動時，現在可以使用圖形來顯示 [每月報表/請求](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity#view-all-report-suites) 目前和上個月在IMS組織層級執行的專案。<p>**注意：** 在2024年3月期間開始提供資料。 | | 2024年4月15日 |
-| **行動計分卡中智慧型註解** | [智慧型註解](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)可協助非分析師在沒有分析師幫助下更能了解他們的資料。現在可在 Customer Journey Analytics 計分卡中使用。 |  | 2024 年 4 月 17 日 |
+| **行動計分卡中智慧型註解** | [智慧型註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)可協助非分析師在沒有分析師幫助下更能了解他們的資料。現在可在 Customer Journey Analytics 計分卡中使用。 |  | 2024 年 4 月 17 日 |
 | **僅限專案的許可權增強功能 [!UICONTROL 工作區] 元件** | 先前，如果一位使用者（使用者A）與另一位使用者（使用者B）共用專案，並授與使用者B專案的編輯存取權，則使用者B將能夠編輯專案。 但是，使用者B無法編輯 [!UICONTROL 快速區段] 內嵌在專案中。 該限制現已移除 — 使用者B可以編輯 [!UICONTROL 快速區段] 和嵌入共用專案的其他僅限專案元件。 |  | 2024 年 4 月 17 日 |
 | **管理員可以管理他乞組織中的所有位置** | 上的新選項 [位置頁面](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 可讓管理員檢視及管理組織中的所有位置。 以前，管理員只能查看和管理他們建立的位置。 |  | 2024 年 4 月 17 日 |
 | **Adobe Product Analytics：功能對照表** | 瞭解您的核心、效能、一次性和可疑功能，有助於做出投資決策。 [!UICONTROL 功能矩陣] 會依使用頻率vs %作用中使用者來測量事件，並與使用中值比較。 | 2024 年 4 月 17 日 | 2024 年 4 月 30 日 |
