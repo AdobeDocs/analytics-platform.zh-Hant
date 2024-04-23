@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 86ce60cf-b3c7-43b5-aa18-9e16fa942e54
-source-git-commit: 923dfac33fcde368392fe29c6530069cc0d8fb9d
+source-git-commit: 3e362a62d2ffd6d15e3028706e3704264df80222
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 +++
 
-下表顯示實作方法需要您將資料對應至XDM結構描述：
+並非所有移轉方法都需要您將您的Adobe Analytics資料對應到XDM結構描述。 下表顯示哪些實作方法需要XDM結構描述對應：
 
 
 | 移轉方法 | 需要XDM對應？ | 詳細資訊 |
