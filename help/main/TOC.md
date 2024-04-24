@@ -9,7 +9,7 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 9450ecdce53088b008f3a5a5413d3e824fbd9b13
+source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 76%
@@ -44,7 +44,7 @@ ht-degree: 76%
    + [Adobe Analytics 使用者的使用手冊](../getting-started/aa-to-cja-user.md)
    + 移轉至Customer Journey Analytics {#migrate-to-cja}
       + [開始使用](/help/getting-started/cja-migration/cja-migration-getstarted.md)
-      + [選擇移轉方法](/help/getting-started/cja-migration/cja-migration-method.md)
+      + [選擇移轉路徑](/help/getting-started/cja-migration/cja-migration-path.md)
       + [傳送資料至Platform](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)
       + [將資料對應至XDM](/help/getting-started/cja-migration/cja-migration-xdm.md)
       + [保留歷史資料](/help/getting-started/cja-migration/cja-migration-historical-data.md)

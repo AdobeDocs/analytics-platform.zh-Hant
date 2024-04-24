@@ -3,62 +3,46 @@ title: 移轉至Customer Journey Analytics時傳送資料至Adobe Experience Pla
 description: 移轉至Customer Journey Analytics時傳送資料至Adobe Experience Platform
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: d9d7f186-9077-4372-94ad-8dd5b97779ca
-source-git-commit: 3e362a62d2ffd6d15e3028706e3704264df80222
+source-git-commit: 7bc4425f11980780ab64a201029cd63e4bd7849c
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '778'
 ht-degree: 1%
 
 ---
 
-# 步驟3：移轉至Customer Journey Analytics時傳送資料至Adobe Experience Platform
+# 步驟3：移轉時傳送資料至Adobe Experience Platform
 
 +++展開本區段，瞭解本頁資訊適用於大型移轉程式的位置。 請確定所有先前的移轉步驟均已完成。
 
 繼續本節之前，請先確認您已完成所有先前的移轉工作。
 
-本頁資訊涵蓋步驟3，如下表所示：
+本頁資訊涵蓋移轉的步驟3，如下表標示之處：
 
 | 移轉任務 | 詳細資料 |
 |---------|----------|
 | **步驟1： [開始使用移轉](/help/getting-started/cja-migration/cja-migration-getstarted.md)** | 瞭解移轉至Adobe Analytics的好處及基本移轉程式。 |
-| **步驟2： [選擇移轉方法](/help/getting-started/cja-migration/cja-migration-method.md)** | 有多種方法可用來移轉至Customer Journey Analytics。 根據您組織目前的Adobe Analytics環境和長期目標，選擇最適合您組織的方法。 |
-| <span class="preview">**步驟3： [傳送資料至Adobe Experience Platform](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)**</span> | <span class="preview">傳送資料至Adobe Experience Platform的程式會依您在步驟1中選擇的移轉方法而有所不同。</span> |
-| **步驟4： [將資料對應至XDM結構描述](/help/getting-started/cja-migration/cja-migration-xdm.md)** | [XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas) 在Adobe Experience Platform中使用，以一致且可重複使用的方式說明資料結構。 藉由定義跨系統的一致資料，將更容易保留意義，進而從資料中獲得價值。<p>大部分的移轉方法都需要您建立新的XDM結構描述，或使用資料流對應將現有的Adobe Analytics結構描述對應到XDM。</p> |
-| **步驟5： [保留歷史資料](/help/getting-started/cja-migration/cja-migration-historical-data.md)** | 大多陣列織都需將其歷史Adobe Analytics資料保留一段時間。 有多種選項可達成此目的。 |
-| **步驟6： [計畫使用者上線](/help/getting-started/cja-migration/cja-migration-onboarding.md)** | 您應該給予使用者充裕的時間（3至6個月），以熟悉Analysis Workspace在Customer Journey Analytics中的主要差異。 |
-| **步驟7： [連線報表API使用情況](/help/getting-started/cja-migration/cja-migration-api.md)** | Customer Journey Analytics報表API採用相同格式，但使用不同的端點。 將報表API使用量從Adobe Analytics報表API移轉到Customer Journey Analytics報表API。 |
-| **步驟8： [取代資料摘要和Data Warehouse](/help/getting-started/cja-migration/cja-migration-export-options.md)** | 決定如何使用Customer Journey Analytics中可用的匯出選項，以取代您在Adobe Analytics中使用的資料摘要和Data Warehouse功能。 |
-| **步驟9： [移轉專案和元件](/help/getting-started/cja-migration/cja-migration-projects.md)** | Adobe Analytics中的「元件移轉」區域可讓您將專案及其相關元件從Adobe Analytics移轉到Customer Journey Analytics。 |
+| **步驟2： [選擇移轉路徑](/help/getting-started/cja-migration/cja-migration-path.md)** | 有多種方法可用來移轉至Customer Journey Analytics。 根據您組織目前的Adobe Analytics環境和長期目標，選擇最適合您組織的方法。 |
+| <span class="preview">**步驟3：傳送資料至Adobe Experience Platform**</span> | <span class="preview">傳送資料至Adobe Experience Platform的程式會依您在步驟2中選擇的移轉路徑而有所不同。</span> |
+| **步驟4： [保留歷史資料](/help/getting-started/cja-migration/cja-migration-historical-data.md)** | 大多陣列織都需將其歷史Adobe Analytics資料保留一段時間。 有多種選項可達成此目的。 |
+| **步驟5： [執行其他實作工作](/help/getting-started/cja-getting-started.md)** | 在移轉程式中的這個階段，您需要在Customer Journey Analytics環境準備好使用之前執行各種工作。<p>這些額外的工作適用於從Adobe Analytics的移轉以及新的Customer Journey Analytics實作。</p><p>這些工作包括：</p><ul><li>將其他資料帶入Experience Platform</li><li>在Platform資料集和Customer Journey Analytics之間建立連線</li><li>建立資料檢視</li><li>移植報表API使用量</li><li>資料摘要和Data Warehouse的帳戶處理</li><li>移轉專案和元件</li><li>Planning使用者上線</li></ul> <p>如需詳細資訊，請參閱 [Customer Journey Analytics快速入門](/help/getting-started/cja-getting-started.md). |
 
 {style="table-layout:auto"}
 
 +++
 
 
-在您之後 [選擇移轉方法](#step-2-choose-your-customer-journey-analytics-migration-method) 這是最適合您組織的作法，您可以開始將資料傳送至Adobe Experience Platform，以便在Customer Journey Analytics中使用。
+在您之後 [選擇移轉路徑](#step-2-choose-your-customer-journey-analytics-migration-method) 這是最適合您組織的作法，您可以開始將資料傳送至Adobe Experience Platform，以便在Customer Journey Analytics中使用。
 
-針對每種移轉方法傳送資料至Experience Platform的程式如下所示。 請依照下表中的連結取得更多詳細資訊。
+針對每個移轉路徑將資料傳送至Experience Platform的程式如下所示。 請依照表格中的連結取得詳細的組態資訊。
 
-| 移轉方法 | 將資料傳送至Platform的程式 |
-|---------|----------|
-| Web SDK的新實作 | 由於這是Web SDK的新實作，因此您必須遵循中說明的所有步驟 [透過Adobe Experience Platform Web SDK內嵌資料](/help/data-ingestion/aepwebsdk.md). |
-| 移轉您的Adobe Analytics實作以使用Web SDK | 根據您目前的實施為Analytics擴充功能或AppMeasurement，移轉至Adobe Analytics Web SDK的步驟會有所不同。 <p>如果您使用Analytics標籤擴充功能： [從Adobe Analytics標籤擴充功能移轉至Web SDK標籤擴充功能](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)</p><p>或</p><p>如果您使用AppMeasurement： [從AppMeasurement移轉至Web SDK](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) |
-| 設定您現有的Adobe Analytics Web SDK實作，將資料傳送至Customer Journey Analytics | 由於您的Adobe Analytics實作已使用Web SDK，因此您只需要 [設定資料串流](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-datastream). 您可以忽略中的其他區段 [透過Adobe Experience Platform Web SDK內嵌資料](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk). |
-| Analytics來源聯結器 | [從傳統 Adobe Analytics 擷取和使用資料](/help/data-ingestion/analytics.md) |
+| 移轉路徑 | 將資料傳送至Platform的程式 | 其他資訊 |
+|---------|----------|----------|
+| Experience Platform Web SDK的新實作 | <ol><li>為您的組織建立XDM結構描述。<p>與您的資料團隊合作，識別您組織適用於Customer Journey Analytics的理想結構描述設計。</p></li><li>實作Experience PlatformWeb SDK。</li><li>傳送資料至Platform。</li></ol><p>如需上述各步驟的詳細資訊，請參閱 [透過Adobe Experience Platform Web SDK內嵌資料](/help/data-ingestion/aepwebsdk.md). | 由於這是Experience Platform Web SDK的新實作，因此不需要進行結構描述對應，因為您必須建立結構描述作為實作期間的第一個步驟之一。 |
+| 移轉您的Adobe Analytics實作以使用Web SDK | <ol><li>將現有的Adobe Analytics實作專案移至Experience Platform Web SDK，然後驗證一切都在Adobe Analytics中正常運作。<p>如需如何執行此動作的詳細資訊，請根據您目前的實施為Analytics標籤擴充功能或AppMeasurement，使用下列資源：</p><ul><li>如果您使用Analytics標籤擴充功能，請參閱 [從Adobe Analytics標籤擴充功能移轉至Web SDK標籤擴充功能](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)</li><li>如果您使用AppMeasurement，請參閱 [從AppMeasurement移轉至Web SDK](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk)</li></ul><li>[為您的組織建立XDM結構描述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-schema-and-dataset).<p>與您的資料團隊合作，識別您組織適用於Customer Journey Analytics的理想結構描述設計。</p></li><li>[使用「資料準備」將資料物件中的所有欄位對應到您的XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/data-prep/home).</li><li>開始傳送資料至Platform的方法有： [設定資料串流](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-datastream).</li></ol> |  |
+| 設定您現有的Adobe Analytics Web SDK實作，將資料傳送至Customer Journey Analytics | <ol><li>開始傳送資料至Platform的方法有： [設定資料串流](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-datastream).<p>由於您的Adobe Analytics實作已使用Experience Platform Web SDK，因此您可以忽略下列其他區段 [透過Adobe Experience Platform Web SDK內嵌資料](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk).</li><li>（可選） [為您的組織建立XDM結構描述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-schema-and-dataset).<p>與您的資料團隊合作，識別您組織適用於Customer Journey Analytics的理想結構描述設計。</p><p>注意：如需建立XDM結構描述優點的相關資訊，請參閱 [針對使用的Adobe Analytics實作： Web SDK](/help/getting-started/cja-migration/cja-migration-path.md#for-adobe-analytics-implementations-using-web-sdk).</li><li>（視條件而定）如果您已建立XDM結構描述， [使用「資料準備」將資料物件中的所有欄位對應到您的XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/data-prep/home).</li></ol> |
+| 使用Analytics來源聯結器 | [從傳統 Adobe Analytics 擷取和使用資料](/help/data-ingestion/analytics.md) | 當您使用Adobe Analytics來源聯結器時，Analytics資料會自動對應至XDM結構描述。 不需要其他對應。 |
 
-## 接下來，將資料對應至XDM結構描述
+## 接下來，保留歷史資料
 
-按照上表中的連結傳送資料給Experience Platform後，您可能需要 [將資料對應至XDM結構描述](/help/getting-started/cja-migration/cja-migration-xdm.md)，視您選擇的實作方法而定。
-
-下列實作方法需要您將資料對應至XDM結構描述：
-
-* 從Adobe Analytics標籤擴充功能移轉至Web SDK標籤擴充功能
-
-* 設定您現有的Adobe Analytics Web SDK實作，將資料傳送至Customer Journey Analytics
-
-或者，如果您選擇執行Web SDK的新實作，則不需要進行對應，因為您已經 [設定新的XDM結構描述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk#set-up-a-schema) 做為新實作的一部分。
-
-如果您選擇使用Analytics來源聯結器進行移轉，則不需要進行對應，因為Analytics來源聯結器會使用您現有的Adobe Analytics結構描述，而非XDM結構描述。
+接下來，決定要如何進行 [保留Adobe Analytics歷史資料](/help/getting-started/cja-migration/cja-migration-historical-data.md).
