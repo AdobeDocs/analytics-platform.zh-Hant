@@ -5,14 +5,14 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1d17151b-3a12-468e-9a4f-9e5994599570
-source-git-commit: 7bc4425f11980780ab64a201029cd63e4bd7849c
+source-git-commit: 2d35e49ca9afe37ed53d7c5da5aafd31dd2da632
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
 
 ---
 
-# 步驟5：移轉時保留歷史資料
+# 步驟4：移轉時保留歷史資料
 
 +++展開本區段，瞭解本頁資訊適用於大型移轉程式的位置。 請確定所有先前的移轉步驟均已完成。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 |---------|----------|
 | **步驟1： [開始使用移轉](/help/getting-started/cja-migration/cja-migration-getstarted.md)** | 瞭解移轉至Adobe Analytics的好處及基本移轉程式。 |
 | **步驟2： [選擇移轉路徑](/help/getting-started/cja-migration/cja-migration-path.md)** | 有多種方法可用來移轉至Customer Journey Analytics。 根據您組織目前的Adobe Analytics環境和長期目標，選擇最適合您組織的方法。 |
-| **步驟4： [傳送資料至Adobe Experience Platform](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)** | 傳送資料至Adobe Experience Platform的程式會依您在步驟2中選擇的移轉路徑而有所不同。 |
+| **步驟3： [傳送資料至Adobe Experience Platform](/help/getting-started/cja-migration/cja-migration-send-to-platform.md)** | 傳送資料至Adobe Experience Platform的程式會依您在步驟2中選擇的移轉路徑而有所不同。 |
 | <span class="preview">**步驟4：保留歷史資料**</span> | <span class="preview">大多陣列織都需將其歷史Adobe Analytics資料保留一段時間。 有多種選項可達成此目的。</span> |
 | **步驟5： [執行其他實作工作](/help/getting-started/cja-getting-started.md)** | 在移轉程式中的這個階段，您需要在Customer Journey Analytics環境準備好使用之前執行各種工作。<p>這些額外的工作適用於從Adobe Analytics的移轉以及新的Customer Journey Analytics實作。</p><p>這些工作包括：</p><ul><li>將其他資料帶入Experience Platform</li><li>在Platform資料集和Customer Journey Analytics之間建立連線</li><li>建立資料檢視</li><li>移植報表API使用量</li><li>資料摘要和Data Warehouse的帳戶處理</li><li>移轉專案和元件</li><li>Planning使用者上線</li></ul> <p>如需詳細資訊，請參閱 [Customer Journey Analytics快速入門](/help/getting-started/cja-getting-started.md). |
 
