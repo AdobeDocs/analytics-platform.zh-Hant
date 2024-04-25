@@ -4,10 +4,10 @@ title: 快速篩選
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 40%
+source-wordcount: '1170'
+ht-degree: 39%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 40%
 * 快速篩選只適用於建立所在的專案。 您無法在其他專案中取得這些區段，且無法和其他使用者共用這些區段。
 * 最多允許訂定 3 條規則。
 * 不支援巢狀容器或循序規則。
+* 如果您與其他使用者共用專案，這些使用者可以編輯快速篩選以及內嵌在共用專案中的其他僅限專案元件。
 
 下列影片示範如何使用快速篩選。 (注意：本影片使用「快速區段」一詞而非「快速篩選」。 但功能相同。)
 

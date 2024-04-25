@@ -3,42 +3,42 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: abaa747934ff2cdd0a3dab867165afb46fbc71db
+source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 42%
+source-wordcount: '946'
+ht-degree: 96%
 
 ---
 
-# 最新Adobe Customer Journey Analytics發行說明（2024年4月）
+# 最新的 Adobe Customer Journey Analytics 發行說明 (2024 年 4 月)
 
-**上次更新**：2024年4月17日
+**上次更新日期**：2024 年 4 月 17 日
 
-這些發行說明涵蓋2024年4月10日至2024年5月的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋 2024 年 4 月 10 日至 2024 年 5 月的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **串流媒體：將Roku資料傳送至Adobe Experience Platform Edge** | 現在，當 [使用Experience Platform Edge安裝Media Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge)，您可以使用Adobe Experience Platform Roku SDK傳送串流媒體資料給Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
-| **在報告活動管理器中顯示每月報告** | 在報告活動管理器中檢視所有連線的報告活動時，現在可以使用圖形來顯示 [每月報表/請求](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity#view-all-report-suites) 目前和上個月在IMS組織層級執行的專案。<p>**注意：** 在2024年3月期間開始提供資料。 | | 2024年4月15日 |
-| **行動計分卡中智慧型註解** | [智慧型註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)可協助非分析師在沒有分析師幫助下更能了解他們的資料。現在可在 Customer Journey Analytics 計分卡中使用。 |  | 2024 年 4 月 17 日 |
-| **僅限專案的許可權增強功能 [!UICONTROL 工作區] 元件** | 先前，如果一位使用者（使用者A）與另一位使用者（使用者B）共用專案，並授與使用者B專案的編輯存取權，則使用者B將能夠編輯專案。 但是，使用者B無法編輯 [!UICONTROL 快速區段] 內嵌在專案中。 該限制現已移除 — 使用者B可以編輯 [!UICONTROL 快速區段] 和嵌入共用專案的其他僅限專案元件。 |  | 2024 年 4 月 17 日 |
-| **管理員可以管理他乞組織中的所有位置** | 上的新選項 [位置頁面](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 可讓管理員檢視及管理組織中的所有位置。 以前，管理員只能查看和管理他們建立的位置。 |  | 2024 年 4 月 17 日 |
-| **Adobe Product Analytics：功能對照表** | 瞭解您的核心、效能、一次性和可疑功能，有助於做出投資決策。 [!UICONTROL 功能矩陣] 會依使用頻率vs %作用中使用者來測量事件，並與使用中值比較。 | 2024 年 4 月 17 日 | 2024 年 4 月 30 日 |
-| **Adobe Product Analytics：漏斗中的增強型深入分析** | 在 [摩擦](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction) 檢視，已增強書面深入分析，其中包含類別、增量及說明，以進一步瞭解圖表和表格。 | 2024 年 4 月 17 日 | 2024年4月26日 |
-| **Adobe Product Analytics：增強的保留檢視** | 幾項功能已新增至 [保留](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates) 費率檢視，以推動更深入且可自訂的保留率深入分析：<ul><li>解除連結開始和返回事件</li><li>在單一檢視中比較多個傳回事件</li><li>自訂套用在（無限制）上或之後、在每個（有限制）和括弧設定上的保留模型</li><li>在圖表中顯示和隱藏個別同類群組列</li></ul> | 2024年4月24日 | 2024年5月8日 |
-| **Adobe Product Analytics：比較單一漏斗步驟中的事件** | 您現在可以在的單一漏斗步驟中比較事件 [摩擦](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction) 檢視。 當您的歷程有步驟選項或有一個執行 A/B 實驗的步驟時，此功能尤其實用。 | 2024年4月23日 | 2024年5月3日 |
-| **對於人員到帳戶的 B2B 方案轉換** | 讓您轉換資料集，以便進一步支援 Customer Journey Analytics B2B 報告情境中基於人員的查詢。此功能可用於基於以下類別的 B2B 方案資料集：<ul><li>XDM 商業帳戶個人關係</li><li>XDM 商業機會個人關係</li><li>XDM 業務行銷清單會員</li><li>XDM 商業活動會員</li></ul> | | 2024年5月1日 |
-| **Experience Edge 機器人偵測** | [機器人偵測](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=zh-Hant)可讓您將 Web SDK、Mobile SDK 和伺服器 API 產生的事件識別為由已知編目程式和機器人產生。 | | 2024年5月1日 |
-| **衍生欄位： Next或Previous函式** | 這些新功能可讓您以欄位作為輸入，然後識別n個上一個或n個下一個值，以取得使用者歷程的更佳檢視。 此功能也可以與中的其他功能結合 [!UICONTROL 衍生欄位]，例如 [!UICONTROL 串連]，以建立新維度。 |  | 2024年5月1日 |
-| **對象已經發佈到 Experience Platform 中新的「對象」部分** | 從Customer Journey Analytics發佈的對象現在可在Adobe Experience Platform的新「對象」區段中取得。<p>之前，從Customer Journey Analytics發佈的對象可在「區段」區段下的Experience Platform中使用。</p><p>此改善提供以下優點：</p><ul><li>對象在Experience Platform出現前不再有1小時的延遲；發佈後幾秒即可使用。</li><li>可以使用「來源」欄（顯示對象最初發佈來源的應用程式）按Experience Platform排序對象。</li><li>Experience Platform中的篩選和排序選項可讓您更快找到相關的對象。</li></ul> |  | 2024 年 5 月 |
+| **串流媒體：將 Roku 資料傳送至 Adobe Experience Platform Edge** | 現在，[透過 Experience Platform Edge 安裝 Media Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) 時，您可以使用 Adobe Experience Platform Roku SDK 將串流媒體資料傳送至 Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
+| **在報告活動管理員中公開每月報告** | 在報告活動管理員中檢視所有連線的報告活動時，現在可以使用一個圖表來顯示在 IMS 組織層級執行的 [每月報告/請求](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity#view-all-report-suites) (當月和上個月)。<p>**備註：**&#x200B;資料從 2024 年 3 月中開始提供。 | | 2024 年 4 月 15 日 |
+| **行動計分卡中智慧型註解** | [智慧型註解](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)可協助非分析師在沒有分析師幫助下更能了解他們的資料。現在可在 Customer Journey Analytics 計分卡中使用。 |  | 2024 年 4 月 17 日 |
+| **僅限專案 [!UICONTROL Workspace] 元件的權限增強** | 在過去，如果某位使用者 (使用者 A) 與另一位使用者 (使用者 B) 共用專案，並授予使用者 B 對專案的編輯存取權，則使用者 B 將可編輯該專案。但是，使用者B無法編輯 [!UICONTROL 快速篩選] 內嵌在專案中。 該限制現已移除 — 使用者B可以編輯 [快速篩選](/help/components/filters/quick-filters.md) 和嵌入共用專案的其他僅限專案元件。 |  | 2024 年 4 月 17 日 |
+| **管理員可以管理其組織中的所有位置** | [「位置」頁面](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager)上的新選項可讓管理員檢視和管理組織中的所有位置。以前，管理員只能查看和管理他們建立的位置。 |  | 2024 年 4 月 |
+| **Adobe Product Analytics 功能矩陣** | 了解您的核心、優勢、一次性和有疑問的功能是什麼，從而推動投資決策。[!UICONTROL 功能矩陣]是透過使用頻率與作用中使用者百分比來衡量事件，並與使用中位數進行比較。 | 2024 年 4 月 17 日 | 2024 年 4 月 30 日 |
+| **Adobe Product Analytics：強化漏斗中的深入解析** | 在「[摩擦](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)」視圖中，書面深入解析已強化，以包括類別、增量和說明，從而進一步了解圖表和表格。 | 2024 年 4 月 17 日 | 2024 年 4 月 26 日 |
+| **Adobe Product Analytics：強化保留視圖** | 「[保留率](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)」視圖中新增了多項功能，以推動更深入且可自訂的保留深入解析：<ul><li>解除連結開始和返回事件</li><li>在單一視圖中比較多個返回事件</li><li>自訂已套用在或晚於 (未繫結)、每個 (繫結) 和階層分類設定的保留模型</li><li>顯示和隱藏圖表中的各個同類群組列</li></ul> | 2024 年 4 月 24 日 | 2024 年 5 月 8 日 |
+| **Adobe Product Analytics：比較單一漏斗步驟中的事件** | 現在起，您可以在[摩擦](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)視圖中比較單一漏斗步驟內的事件。您的歷程有步驟選項或有一個執行 A/B 實驗的步驟時，此功能特別實用。 | 2024 年 4 月 23 日 | 2024 年 5 月 3 日 |
+| **對於人員到帳戶的 B2B 方案轉換** | 讓您轉換資料集，以便進一步支援 Customer Journey Analytics B2B 報告情境中基於人員的查詢。此功能可用於基於以下類別的 B2B 方案資料集：<ul><li>XDM 商業帳戶個人關係</li><li>XDM 商業機會個人關係</li><li>XDM 業務行銷清單會員</li><li>XDM 商業活動會員</li></ul> | | 2024 年 5 月 1 日 |
+| **Experience Edge 機器人偵測** | [機器人偵測](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=zh-Hant)可讓您將 Web SDK、Mobile SDK 和伺服器 API 產生的事件識別為由已知編目程式和機器人產生。 | | 2024 年 5 月 1 日 |
+| **衍生欄位：「下一個」或「上一個」函數** | 這些新功能可讓您將欄位作為輸入，然後識別前 n 個或下 n 個值，以便更完善地檢視使用者歷程。此功能還可以與「[!UICONTROL 衍生欄位]」中的其他函數 (例如「[!UICONTROL 串連]」) 結合使用，以建立新維度。 |  | 2024 年 5 月 1 日 |
+| **對象已經發佈到 Experience Platform 中新的「對象」區段** | 現在起，從 Customer Journey Analytics 發佈的對象，可在 Adobe Experience Platform 的新「對象」區段中取得。<p>以前，從 Customer Journey Analytics 發佈的對象是在 Experience Platform 的「區段」部分下方取得。</p><p>此改善提供以下優點：</p><ul><li>對象出現在 Experience Platform 之前，不會再有 1 小時的延遲，而是在發佈之後幾秒鐘即可使用。</li><li>可以使用「來源」欄對 Experience Platform 中的對象進行排序，其中會顯示最初發佈對象的應用程式。</li><li>Experience Platform 中的篩選和排序選項可讓您更快找到相關的對象。</li></ul> |  | 2024 年 5 月 |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics 中的修正
 
-AN-319662、AN-337894、AN-338469、AN-340147、AN-340200、AN-340443、AN-341594、AN-342442、AN-342976、AN-343020、AN-343469、AN-343703、AN-343938、AN-344614、AN-344677；
+AN-319662；AN-337894；AN-338469；AN-340147；AN-340200；AN-340443；AN-341594；AN-342442；AN-342976；AN-343020；AN-343469；AN-343703；AN-343938；AN-344614；AN-344677；
 
 ## 給 Customer Journey Analytics 管理員的重要通知
 
