@@ -1,14 +1,14 @@
 ---
 title: 選擇您的Customer Journey Analytics移轉路徑
-description: 瞭解移轉至Customer Journey Analytics時可能採用的移轉路徑的優點和缺點
+description: 瞭解移轉至Customer Journey Analytics時可能採用的移轉路徑的優缺點
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 7d17ef31053bbf0d480bfa923fc961aeba4fc15e
+source-git-commit: d734e5daf9b5c9a559c0390622ab5aa15f2aa7a2
 workflow-type: tm+mt
-source-wordcount: '1965'
-ht-degree: 2%
+source-wordcount: '2662'
+ht-degree: 0%
 
 ---
 
@@ -60,9 +60,9 @@ ht-degree: 2%
 
 | 移轉路徑 | 所需投入的精力 | 長期生存能力 |
 |---------|----------|---------|
-| **Experience Platform Web SDK的新實作**</br>&#x200B;雖然這從技術上講並非移轉，但您可以透過執行新的Customer Journey AnalyticsWeb SDK實作來開始使用Experience Platform，以開始將資料傳送至Adobe Experience PlatformEdge Network。 <p>對於尚未使用Web SDK的組織，此移轉路徑可能是將資料Edge Network的最簡單方法，因為只需最少的步驟即可；但是，由於所有工作都是預先完成（例如建立XDM結構描述），因此初期所需的工作量會比較大。</p><p>基本步驟為：</p><ol><li>為您的組織建立XDM結構描述。</li><li>實作Web SDK。</li><li>傳送資料至Platform。</li></ol> | 高 | 高 |
-| **移轉您的Adobe Analytics實作以使用Web SDK**</br>&#x200B;如果您的Adobe Analytics實作是AppMeasurement或Analytics擴充功能，您可以將其移轉為使用Adobe Experience Platform Web SDK，開始將資料傳送至Edge Network和Adobe Analytics，然後再傳送至Customer Journey Analytics。<p>這是將資料匯入Edge Network的最簡單且最流暢的方式；它需要更多步驟，但可提供從Adobe Analytics到Customer Journey Analytics的更有條理的轉變，並具有更具體的里程碑。</p><p>基本步驟為：</p><ol><li>將您現有的Adobe Analytics實作專案移至Web SDK，並驗證一切都在Adobe Analytics中正常運作。</li><li>儘可能為您的組織建立XDM結構描述。</li><li>使用資料流對應將資料物件中的所有欄位對應到您的XDM結構描述。</li><li>傳送資料至Platform。</li></ol> | 稽核 | 高 |
-| **設定您現有的Adobe Analytics Web SDK實作**</br>&#x200B;如果您的Adobe Analytics實作已使用Adobe Experience Platform Web SDK，您即可開始將資料輕鬆傳送至Customer Journey Analytics。<p>在將資料傳送至Customer Journey Analytics之前，請考慮根據您組織的特定需求以及您將使用的任何其他平台應用程式，更新您的Adobe Analytics結構描述。</p><p>基本步驟為：</p><ol><li>開始傳送資料給Customer Journey Analytics。<!-- What's involved here? Just point it at CJA? --></li><li>（選用）隨時為您的組織建立XDM結構描述。</li><li>（條件式）如果您已建立XDM結構描述，請使用資料流對應來將資料物件中的所有欄位對應到您的XDM結構描述。</li></ol> | 低 | 高 |
+| **Experience Platform Web SDK的新實作**</br>&#x200B;雖然這從技術上講並非移轉，但您可以透過執行新的Customer Journey AnalyticsWeb SDK實作來開始使用Experience Platform。 這可讓您開始傳送資料給Adobe Experience PlatformEdge Network和Customer Journey Analytics。 <p>對於尚未使用Web SDK的組織，此移轉路徑可能是將資料Edge Network的最簡單方法，因為只需最少的步驟即可；但是，由於所有工作都是預先完成（例如建立XDM結構描述），因此初期所需的工作量會比較大。</p><p>基本步驟為：</p><ol><li>為您的組織建立XDM結構描述。</li><li>實作Web SDK。</li><li>傳送資料至Platform。</li></ol> | 高 | 高 |
+| **移轉您的Adobe Analytics實作以使用Web SDK**</br>&#x200B;如果您的Adobe Analytics實作是AppMeasurement或Analytics擴充功能，您可以將其移轉為使用Adobe Experience Platform Web SDK，開始將資料傳送至Edge Network和Adobe Analytics，然後再傳送至Customer Journey Analytics。<p>對於尚未使用Web SDK的組織來說，這是將資料匯入Edge Network最簡單且最順暢的方式；它需要更多步驟，但可提供從Adobe Analytics到Customer Journey Analytics的更有條理的轉變，並具有更具體的里程碑。</p><p>基本步驟為：</p><ol><li>將您現有的Adobe Analytics實作專案移至Web SDK，並驗證一切都在Adobe Analytics中正常運作。</li><li>儘可能為您的組織建立XDM結構描述。</li><li>使用資料流對應將資料物件中的所有欄位對應到您的XDM結構描述。</li><li>傳送資料至Platform。</li></ol> | 稽核 | 高 |
+| **設定您現有的Adobe Analytics Web SDK實作**</br>&#x200B;如果您的Adobe Analytics實作已使用Adobe Experience Platform Web SDK，您即可開始將資料輕鬆傳送至Customer Journey Analytics。<p>在將資料傳送至Customer Journey Analytics之前，請考慮根據您的組織的特定需求以及您使用的任何其他平台應用程式，更新您的Adobe Analytics結構。</p><p>基本步驟為：</p><ol><li>開始傳送資料給Customer Journey Analytics。<!-- What's involved here? Just point it at CJA? --></li><li>（選用）隨時為您的組織建立XDM結構描述。</li><li>（條件式）如果您已建立XDM結構描述，請使用資料流對應來將資料物件中的所有欄位對應到您的XDM結構描述。</li></ol> | 低 | 高 |
 | **使用Analytics來源聯結器**</br>&#x200B;如果您的Adobe Analytics實作是AppMeasurement或Analytics擴充功能，您可以開始以Customer Journey Analytics傳送資料至資料檢視。<p>這是將資料匯入Customer Journey Analytics的最簡單方法，但長遠而言是最不可行的方法。</p> | 低 | 低 |
 
 {style="table-layout:auto"}
@@ -103,17 +103,17 @@ ht-degree: 2%
 
 | 優勢 | 缺點 |
 |----------|---------|
-| <ul><li>使用XDM結構描述、彈性的結構描述來定義您需要的任何欄位，並且僅定義相關的欄位(可讓您離開Adobe Analytics體驗事件欄位群組)</li><li>不依賴Adobe Analytics命名法(屬性、eVar、事件等)</li><li>無字元限制問題 (prop 有 100 個字元)</li><li>高效能的報告與資料可用性，因為Adobe Experience Platform是專為提供強大功能而打造 [即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>經得起未來考驗（將獲得所有最新功能）</li><li>在其他Experience Cloud產品（AJO、RTCDP等）之間合併Adobe Experience Cloud資料收集的標籤</li><li>[第一方裝置 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)，用於強化訪客識別的準確性</li></ul> | <ul><li>最耗時、最繁重的移轉路徑<p>您必須在XDM中重新建立完整結構描述，才能開始實作Web SDK</p></li></ul> |
+| <ul><li>**提供在Experience Edge Network中託管資料的所有優點**： <p>這些優點包括：</p><ul><li>高效能的報告與資料可用性，因為Adobe Experience Platform是專為提供強大功能而打造 [即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>在其他Experience Cloud產品（AJO、RTCDP等）之間合併Adobe Experience Cloud資料收集的標籤</li><li>不依賴Adobe Analytics命名法(屬性、eVar、事件等)</li></ul></li><li>**使用XDM結構描述**： [XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas) 是有彈性的結構描述，可定義您需要的任何欄位，而且僅限於相關的欄位。 使用XDM結構描述可讓您離開Adobe Analytics體驗事件欄位群組。</li><li>**無字元限制**： XDM結構描述沒有字元限制。</li><li>**經得起未來考驗**：Experience Platform Web SDK會收到所有最新功能。</li><li>**提高訪客識別的準確性**：Web SDK使用的Experience Platform [第一方裝置ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html) 以提高訪客識別的準確性。</li></ul> | <ul><li>**需要從頭開始的新實作**：從頭開始進行新實作的需求代表下列缺點： </li><ul><li>**耗時**：這是最耗時、也最耗力的移轉路徑，因為您必須重新開始新的實作。</li><li>**必須在XDM中重新建立完整結構描述**：您必須在XDM中重新建立完整結構描述，才能開始實作Web SDK。</li><li>**必須重新建立規則和資料元素**：您必須從Adobe Analytics實作重新建立任何規則條件和資料元素，才能開始實作Web SDK。</li></ul></ul> |
 
 {style="table-layout:auto"}
 
 +++
 
-+++將Adobe Analytics移轉至Web SDK
++++將Adobe Analytics移轉至Experience PlatformWeb SDK
 
 | 優勢 | 缺點 |
 |----------|---------|
-| <ul><li>可讓您改用Web SDK，而不會影響現有的Adobe Analytics報表。</li><li>保留已在您的Adobe Analytics實作中設定的規則和資料元素（適用於使用Analytics擴充功能的組織）。</li><li>提供彈性，以便日後為您的組織建立XDM結構描述：彈性的結構描述可定義您需要的任何欄位，而且僅限於相關的欄位。</br>不需要Adobe Experience Platform中的「Adobe Analytics體驗事件欄位」群組。 <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>不依賴Adobe Analytics命名法(屬性、eVar、事件等)</li><li>無字元限制問題 (prop 有 100 個字元)</li><li>高效能的報告與資料可用性，因為Adobe Experience Platform是專為提供強大功能而打造 [即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>經得起未來考驗（將獲得所有最新功能）</li><li>在其他Experience Cloud產品（AJO、RTCDP等）之間合併Adobe Experience Cloud資料收集的標籤</li><li>[第一方裝置 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)，用於強化訪客識別的準確性</li></ul> | <ul><li>未來某個時候必須符合XDM結構描述，使用資料流對應。</li><li>產生一些技術債。 例如，可以保留舊版AppMeasurement或Analytics擴充功能程式碼。 </li></ul> |
+| <ul><li>**提供在Experience Edge Network中託管資料的所有優點**： <p>這些優點包括：</p><ul><li>高效能的報告與資料可用性，因為Adobe Experience Platform是專為提供強大功能而打造 [即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>在其他Experience Cloud產品（AJO、RTCDP等）之間合併Adobe Experience Cloud資料收集的標籤</li><li>不依賴Adobe Analytics命名法(屬性、eVar、事件等)</li></ul><li>**使用您現有的實施**：雖然此方法需要一些實作變更，但不需要從頭開始全新的實作。 您可以使用現有的資料層和程式碼，只需對實作邏輯進行最低限度的變更，而不會影響現有的Adobe Analytics報表。</li><li>**提供彈性，以便日後為您的組織建立XDM結構描述**：您可以移轉現有的Adobe Analytics實作以使用Web SDK並驗證一切都在Adobe Analytics中正常運作，然後建立XDM結構描述。 此彈性可讓移轉程式更加有條不紊、考慮周到。</li><li>**使用XDM結構描述**： [XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas) 是有彈性的結構描述，可定義您需要的任何欄位，而且僅限於相關的欄位。 使用XDM結構描述可讓您離開Adobe Analytics體驗事件欄位群組。</li><li>(從Adobe Analytics標籤擴充功能移轉時) **保留規則和資料元素**：雖然確實需要新規則動作，但您可以以最小的變更重複使用現有的資料元素和規則條件。</li><li>**無字元限制**： XDM結構描述沒有字元限制。</li><li>**經得起未來考驗**：Experience Platform Web SDK會收到所有最新功能。</li><li>**提高訪客識別的準確性**：Web SDK使用的Experience Platform [第一方裝置ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html) 以提高訪客識別的準確性。</li></ul> | <ul><li>**需要對應才能將資料傳送至Platform**：當您的組織準備好使用Customer Journey Analytics時，您必須將資料傳送至Adobe Experience Platform中的資料集。 此動作要求資料物件中的每個欄位都必須是資料流對應工具中的專案，才能將其指派給XDM結構描述欄位。 此工作流程只需對應一次，不需要變更實作。 不過，這是在XDM物件中傳送資料時不需要的額外步驟。</li><li>**技術債務**：由於此方法使用您現有實作的修改形式，日後追蹤實作邏輯並視需要執行變更會較為困難。 </li><li>(僅從AppMeasurement移轉時) **實作變更需要開發人員干預**：如果您想要變更Web SDK實作，必須與開發團隊合作，編輯網站上的程式碼。 從Analytics標籤擴充功能移轉至Web SDK時，不適用此原則。</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -123,7 +123,7 @@ ht-degree: 2%
 
 | 優勢 | 缺點 |
 |----------|---------|
-| <ul><li>最省時又省力的移轉路徑。 <p>以最少的投資將資料快速移轉至Customer Journey Analytics</p></li></ul> | <ul><li>資料不會傳送至Edge Network，且無法與其他Adobe Experience Platform應用程式共用；其僅限於Customer Journey Analytics<li>日後難以改用Web SDK</li><li>使用結構描述中的「Analytics體驗事件」欄位群組。</br>此欄位群組新增許多Customer Journey Analytics結構描述中不需要的Adobe Analytics事件。  這可能會導致Customer Journey Analytics所需的結構描述更雜亂、更複雜。</li><li>最高級別 [延遲](/help/admin/guardrails.md#latencies) 橫跨所有實作方法</li></ul> |
+| <ul><li>最省時又省力的移轉路徑。 <p>以最少的投資將資料快速移轉至Customer Journey Analytics</p></li></ul> | <ul><li>**資料未傳送至Edge Network**： <p>這會導致下列缺點：</p><ul><li>最高級別 [延遲](/help/admin/guardrails.md#latencies) 用於所有移轉路徑的報告；未針對即時個人化使用案例進行最佳化。</li><li>資料無法與其他Adobe Experience Platform應用程式共用；僅限於Customer Journey Analytics</li><li>依賴Adobe Analytics命名法(屬性、eVar、事件等)</li></ul><li>**日後難以改用Web SDK**： </li><li>**在您的結構描述中使用Analytics體驗事件欄位群組**：此欄位群組新增許多Customer Journey Analytics結構描述中不需要的Adobe Analytics事件。  這可能會導致Customer Journey Analytics所需的結構描述更雜亂、更複雜。</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -139,7 +139,7 @@ ht-degree: 2%
 
 | 優勢 | 缺點 |
 |----------|---------|
-| 如果您的Adobe Analytics實作已使用Web SDK，這是慣用的移轉路徑。 <p>使用此實作方法時，您可以選擇是否使用現有的Adobe Analytics結構描述，或是更新為XDM結構描述，以便在您開始使用其他Platform應用程式時更符合組織的需求。</p><p>**使用Adobe Analytics結構描述**</p><p>使用Adobe Analytics結構描述的優點包括：</p><ul><li>輕鬆移轉<p>如果您已透過Adobe Experience Platform Web SDK將資料傳送至Adobe Analytics，您可以新增其他服務至您的資料串流，以將資料傳送至Adobe Experience Platform (然後可在您的Customer Journey Analytics設定中使用)。</p></li></ul><p>使用Adobe Analytics結構的缺點包括：</p><ul><li>雖然使用Adobe Analytics結構描述在其可搭配其他Platform應用程式使用方面不會限制您，但它的確會讓結構描述比其他應用程式更複雜。 這是因為Adobe Analytics結構描述包含許多專屬於Adobe Analytics的物件，您的組織可能不會使用。<p>當需要變更結構描述時，您必須篩選數千個未使用的欄位，以尋找需要更新的欄位。</p></li></ul><p>**使用XDM結構描述**</p><p>更新XDM結構描述的優點包括：</p><ul><li>根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化方案。</li><p>當需要變更結構描述時，您不必在數千個未使用的欄位中篩選，以尋找需要更新的欄位。</p></ul><p>更新XDM結構的缺點包括：</p><ul><li>在開始將資料傳送到Customer Journey Analytics之前，需要更新您的結構描述是耗時的過程。</li></ul> | 無 |
+| 如果您的Adobe Analytics實作已使用Web SDK，這是慣用的移轉路徑。<ul><li>**提供在Experience Edge Network中託管資料的所有優點**： <p>這些優點包括：</p><ul><li>高效能的報告與資料可用性，因為Adobe Experience Platform是專為提供強大功能而打造 [即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>在其他Experience Cloud產品（AJO、RTCDP等）之間合併Adobe Experience Cloud資料收集的標籤</li><li>不依賴Adobe Analytics命名法(屬性、eVar、事件等)</li></ul><li>**使用您現有的實施**：雖然此方法需要一些實作變更，但不需要從頭開始全新的實作。 您可以使用現有的資料層和程式碼，只需對實作邏輯進行最低限度的變更，而不會影響現有的Adobe Analytics報表。</li><li>**提供彈性，以便日後為您的組織建立XDM結構描述**：您可以移轉現有的Adobe Analytics實作以使用Web SDK並驗證一切都在Adobe Analytics中正常運作，然後建立XDM結構描述。 此彈性可讓移轉程式更加有條不紊、考慮周到。</li><li>**使用XDM結構描述**： [XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home#xdm-schemas) 是有彈性的結構描述，可定義您需要的任何欄位，而且僅限於相關的欄位。 使用XDM結構描述可讓您離開Adobe Analytics體驗事件欄位群組。</li><li>(從Adobe Analytics標籤擴充功能移轉時) **保留規則和資料元素**：雖然確實需要新規則動作，但您可以以最小的變更重複使用現有的資料元素和規則條件。</li><li>**無字元限制**： XDM結構描述沒有字元限制。</li><li>**經得起未來考驗**：Experience Platform Web SDK會收到所有最新功能。</li><li>**提高訪客識別的準確性**：Web SDK使用的Experience Platform [第一方裝置ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html) 以提高訪客識別的準確性。</li></ul><p>**選擇您的結構描述**</p><p>使用此移轉路徑時，您可以選擇是否使用現有的Adobe Analytics結構描述，或是更新為XDM結構描述，以便在您開始使用其他Platform應用程式時更符合組織的需求。</p><p>**使用Adobe Analytics結構描述**</p><p>使用Adobe Analytics結構描述的優點包括：</p><ul><li>輕鬆移轉<p>如果您已透過Adobe Experience Platform Web SDK將資料傳送至Adobe Analytics，您可以新增其他服務至您的資料串流，以將資料傳送至Adobe Experience Platform (然後可在您的Customer Journey Analytics設定中使用)。</p></li></ul><p>使用Adobe Analytics結構的缺點包括：</p><ul><li>雖然使用Adobe Analytics結構描述在其可搭配其他Platform應用程式使用方面不會限制您，但它的確會讓結構描述比其他應用程式更複雜。 這是因為Adobe Analytics結構描述包含許多專屬於Adobe Analytics的物件，您的組織不太可能使用。<p>當需要變更結構描述時，您必須篩選數千個未使用的欄位，以尋找需要更新的欄位。</p></li></ul><p>**使用XDM結構描述**</p><p>更新XDM結構描述的優點包括：</p><ul><li>根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化方案。</li><p>當需要變更結構描述時，您不必在數千個未使用的欄位中篩選，以尋找需要更新的欄位。</p></ul><p>更新XDM結構的缺點包括：</p><ul><li>在開始將資料傳送到Customer Journey Analytics之前，需要更新您的結構描述是耗時的過程。</li></ul> | 無 |
 
 {style="table-layout:auto"}
 
