@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 2d35e49ca9afe37ed53d7c5da5aafd31dd2da632
+source-git-commit: 7d17ef31053bbf0d480bfa923fc961aeba4fc15e
 workflow-type: tm+mt
 source-wordcount: '1965'
 ht-degree: 2%
@@ -109,13 +109,21 @@ ht-degree: 2%
 
 +++
 
-+++將Adobe Analytics移轉至Web SDK | 優點 | 缺點 | ----------|---------| | <ul><li>可讓您改用Web SDK，而不會影響現有的Adobe Analytics報表。</li><li>保留已在您的Adobe Analytics實作中設定的規則和資料元素（適用於使用Analytics擴充功能的組織）。</li><li>提供彈性，以便日後為您的組織建立XDM結構描述：彈性的結構描述可定義您需要的任何欄位，而且僅限於相關的欄位。</br>不需要Adobe Experience Platform中的「Adobe Analytics體驗事件欄位」群組。 <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>不依賴Adobe Analytics命名法(屬性、eVar、事件等)</li><li>無字元限制問題 (prop 有 100 個字元)</li><li>高效能的報告與資料可用性，因為Adobe Experience Platform是專為提供強大功能而打造 [即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>經得起未來考驗（將獲得所有最新功能）</li><li>在其他Experience Cloud產品（AJO、RTCDP等）之間合併Adobe Experience Cloud資料收集的標籤</li><li>[第一方裝置 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)，用於強化訪客識別的準確性</li></ul> | <ul><li>未來某個時候必須符合XDM結構描述，使用資料流對應。</li><li>產生一些技術債。 例如，可以保留舊版AppMeasurement或Analytics擴充功能程式碼。 </li></ul> |
++++將Adobe Analytics移轉至Web SDK
+
+| 優勢 | 缺點 |
+|----------|---------|
+| <ul><li>可讓您改用Web SDK，而不會影響現有的Adobe Analytics報表。</li><li>保留已在您的Adobe Analytics實作中設定的規則和資料元素（適用於使用Analytics擴充功能的組織）。</li><li>提供彈性，以便日後為您的組織建立XDM結構描述：彈性的結構描述可定義您需要的任何欄位，而且僅限於相關的欄位。</br>不需要Adobe Experience Platform中的「Adobe Analytics體驗事件欄位」群組。 <!-- With the new implementation, you're double-counting with 2 implementation; with the migration, you're double-counting, but both of them are through Edge Network. --></li><li>不依賴Adobe Analytics命名法(屬性、eVar、事件等)</li><li>無字元限制問題 (prop 有 100 個字元)</li><li>高效能的報告與資料可用性，因為Adobe Experience Platform是專為提供強大功能而打造 [即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>經得起未來考驗（將獲得所有最新功能）</li><li>在其他Experience Cloud產品（AJO、RTCDP等）之間合併Adobe Experience Cloud資料收集的標籤</li><li>[第一方裝置 ID](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)，用於強化訪客識別的準確性</li></ul> | <ul><li>未來某個時候必須符合XDM結構描述，使用資料流對應。</li><li>產生一些技術債。 例如，可以保留舊版AppMeasurement或Analytics擴充功能程式碼。 </li></ul> |
 
 {style="table-layout:auto"}
 
 +++
 
-+++使用Analytics來源聯結器 | 優點 | 缺點 | ----------|---------| | <ul><li>最省時又省力的移轉路徑。 <p>以最少的投資將資料快速移轉至Customer Journey Analytics</p></li></ul> | <ul><li>資料不會傳送至Edge Network，且無法與其他Adobe Experience Platform應用程式共用；其僅限於Customer Journey Analytics<li>日後難以改用Web SDK</li><li>使用結構描述中的「Analytics體驗事件」欄位群組。</br>此欄位群組新增許多Customer Journey Analytics結構描述中不需要的Adobe Analytics事件。  這可能會導致Customer Journey Analytics所需的結構描述更雜亂、更複雜。</li><li>最高級別 [延遲](/help/admin/guardrails.md#latencies) 橫跨所有實作方法</li></ul> |
++++使用Analytics來源聯結器
+
+| 優勢 | 缺點 |
+|----------|---------|
+| <ul><li>最省時又省力的移轉路徑。 <p>以最少的投資將資料快速移轉至Customer Journey Analytics</p></li></ul> | <ul><li>資料不會傳送至Edge Network，且無法與其他Adobe Experience Platform應用程式共用；其僅限於Customer Journey Analytics<li>日後難以改用Web SDK</li><li>使用結構描述中的「Analytics體驗事件」欄位群組。</br>此欄位群組新增許多Customer Journey Analytics結構描述中不需要的Adobe Analytics事件。  這可能會導致Customer Journey Analytics所需的結構描述更雜亂、更複雜。</li><li>最高級別 [延遲](/help/admin/guardrails.md#latencies) 橫跨所有實作方法</li></ul> |
 
 {style="table-layout:auto"}
 
