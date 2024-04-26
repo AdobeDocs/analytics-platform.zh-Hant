@@ -8,7 +8,7 @@ role: User
 source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
 workflow-type: tm+mt
 source-wordcount: '2034'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -131,9 +131,9 @@ ht-degree: 96%
 | 衍生的欄位 | 衍生的欄位允許對您的資料進行報告時間轉換。資料可以動態組合、更正或建立，並追溯套用於所有的報告。 |
 | 提升安全性和隱私權選項 - HIPAA 整備程度 | Customer Journey Analytics 符合 HIPAA 標準，並提供額外的安全性選項以實現法規合規性。Adobe Analytics 尚未符合 HIPAA 標準。 |
 | 實驗分析 | 對於任何定義為連線一部分之資料來源的實驗，Customer Journey Analytics 都可以評估其提升度和可信度。透過此評估，您可以了解任意管道中客戶互動之間的因果關係。Analytics 僅限於透過 A4T 進行的實驗分析。 |
-| 預測 | 預測是一種AI/ML功能，包括根據Customer Journey Analytics中已存在的歷史資料對時間序列相關資料的統計預測。 預測可以出現在自由表格和折線圖視覺效果中。 |
+| 預測 | 預測是一種 AI/ML 功能，包括根據 Customer Journey Analytics 中已有的歷史資料，對時間序列相關資料進行統計預測。預測可以顯示在自由格式表格和折線圖視覺效果中。 |
 | 引導式分析 | 引導式分析是一種報告格式，可讓使用者快速自助滿足其資料需求，以便他們能夠快速獲得高品質的深入解析並做出更多資料導向的決策。引導式分析是 Adobe Product Analytics 的一部分，Adobe Product Analytics 是 Customer Journey Analytics 的附加元件。 |
-| 智慧型註解 | 智慧型字幕使用進階機器學習和創作AI，為Workspace視覺效果提供有價值的自然語言見解。 初始版本為「 」提供自動產生的分析 [折線圖](/help/analysis-workspace/visualizations/line.md) 視覺效果。 |
+| 智慧型註解 | 智慧型註解使用進階的機器學習和生成式 AI，為 Workspace 視覺效果提供有價值的自然語言深入解析。初始版本為[折線圖](/help/analysis-workspace/visualizations/line.md)視覺效果提供自動產生的深入解析。 |
 | 報告時間轉換 | Customer Journey Analytics 中的資料檢視可讓您進一步詮釋來自連線的資料。您可以變更或移除資料而無需變更實作、使用子字串操作維度、從任何值建立量度，或是篩選子事件。以上所有轉換的進行都是非破壞性。Adobe Analytics 透過虛擬報告套裝和自訂工作階段長度提供有限的功能。 |
 | SQL 存取 | 使用 Data Distiller 選項，Customer Journey Analytics 可以移除 Adobe 後端處理中收集資料的限制。您可以使用 SQL 修改資料、建立適合您業務的值和資料集，並繼續探索。Analytics 不支援對其資料進行任何類型的 SQL 存取。 |
 | 無限制的客戶維度和量度 | Customer Journey Analytics 維度是無限制的；值可以是數值、文字、物件、清單或混合所有前項。維度可以是嵌套式或階層式。Analytics 最多支援 75 個 props 和 250 個 eVar。 |
