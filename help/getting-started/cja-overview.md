@@ -5,10 +5,10 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '919'
-ht-degree: 100%
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+workflow-type: tm+mt
+source-wordcount: '916'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Customer Journey Analytics 可用來：
 * **讓每個人都能查看深入分析**：將資料存取大眾化，透過資料衍生的深入分析協助更多人進行商業決策。組織中負責任何客戶體驗相關事務的所有人，都可根據更完整的資料更快速做出真正的決策。
 * **為您的分析師運用資料科學的力量**：Customer Journey Analytics 可讓一般人使用資料科學獲得深入見解及分析。
 * **使用隨選報告將資料集視覺化並與其互動**：工作區可使用 Adobe Experience Platform 中符合某些基本規則的任何資料集。
-* **檢視非 Web 資料**：工作區不再局限於「點擊」或「事件」的硬性定義。自訂綱要可完全控制資料和定義。
+* **檢視非 Web 資料**：Workspace 不再局限於「點擊」或「事件」的硬性定義。自訂綱要可完全控制資料和定義。
 * **對資料操控發揮更大控制力**：變更已上傳的資料、建立新的資料集，並將其匯入工作區中。Adobe Experience Platform 透過 Experience Platform Query Service 提供查詢、擷取、轉換和載入工具。
 
 ## 先決條件
@@ -60,7 +60,7 @@ Customer Journey Analytics 可用來：
 
 ## 存取控制
 
-請參閱[存取控制](/help/admin/cja-access-control.md)主題。
+另請參閱 [存取控制](/help/technotes/access-control.md).
 
 ## 術語更新
 

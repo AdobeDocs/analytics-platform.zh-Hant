@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2937'
 ht-degree: 21%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 21%
 
 選取 **[!UICONTROL 繼續]** 以刪除連線。
 
-另請參閱 [刪除關聯](/help/admin/cja-deletion.md) 有關刪除連線之影響的詳細資訊。
+另請參閱 [刪除關聯](/help/technotes/deletion.md) 有關刪除連線的詳細資訊。
 
 
 ### 建立資料視圖

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 4ab43b345adabb1add21294f5bf1f7858d08a11a
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 77%
+source-wordcount: '1081'
+ht-degree: 78%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 77%
    + [2022 版本](../release-notes/2022.md)
    + [2021 版本](../release-notes/2021.md)
    + [2020 版本](../release-notes/2020.md)
-   + [Customer Journey Analytics版本](../release-notes/releases.md)
-   + [Customer Journey Analytics 文件更新](../release-notes/doc-changes.md)
+   + [功能發行策略](../release-notes/releases.md)
+   + [文件更新](../release-notes/doc-changes.md)
 
 + 快速入門 {#cja-overview}
    + [Customer Journey Analytics 總覽](../getting-started/cja-overview.md)
@@ -358,15 +358,6 @@ ht-degree: 77%
    + 衍生欄位 {#derived-fields}
       + [使用衍生欄位來報告目標](../use-cases/goals-using-derived-fields.md)
 
-
-+ 管理 {#cja-admin}
-   + [護欄](../admin/guardrails.md)
-   + [存取控制](../admin/cja-access-control.md)
-   + [檢視和管理使用情況](../admin/estimate-usage.md)
-   + [刪除關聯](../admin/cja-deletion.md)
-   + [最佳化Customer Journey Analytics效能](../admin/optimizing-performance.md)
-   + [IP 位址](../admin/ip-addresses.md)
-
 + Labs {#labs}
    + [Labs 使用手冊](../labs/labs.md)
 
@@ -376,8 +367,14 @@ ht-degree: 77%
    + [缺少許可權](../troubleshooting/lack-of-permissions.md)
 
 + 技術備忘稿 {#technotes}
-   + [Customer Journey Analytics資料中心](../technotes/cja-datacenters.md)
-
-+ [Customer Journey Analytics 術語](../getting-started/cja-glossary.md)
+   + [存取控制](../technotes/access-control.md)
+   + [資料中心](../technotes/data-centers.md)
+   + [刪除關聯](../technotes/deletion.md)
+   + [網域](../technotes/domains.md)
+   + [字彙表](../technotes/glossary.md)
+   + [護欄](../technotes/guardrails.md)
+   + [IP 位址](../technotes/ip-addresses.md)
+   + [最佳化Customer Journey Analytics效能](../technotes/optimizing-performance.md)
+   + [檢視和管理使用情況](../technotes/estimate-usage.md)
 
 + [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)

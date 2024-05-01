@@ -1,16 +1,16 @@
 ---
 description: 說明 Customer Journey Analytics 的持續功能發行策略
-title: Customer Journey Analytics 功能發行
+title: Customer Journey Analytics功能發行策略
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 88%
 
 ---
 
-# Customer Journey Analytics 功能發行
+# Customer Journey Analytics功能發行策略
 
 Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調整、分階段的方法進行未來部署。
 
@@ -28,7 +28,7 @@ Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調�
 
 ## 功能旗標
 
-功能旗標可用於控制新功能在發行期間的可見度。Adobe 建議將 `app.launchdarkly.com` 新增到防火牆的[允許清單](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant)中，以便在發行期間提供最佳體驗。 正式發行後不久，旗標將會移除。
+功能旗標可用於控制新功能在發行期間的可見度。Adobe建議允許 `app.launchdarkly.com` 穿過貴組織的防火牆，在發行期間提供最佳體驗。 這些標幟會在功能發行給每個人後移除。 另請參閱 [Customer Journey Analytics使用的網域](../technotes/domains.md) 以取得詳細資訊。
 
 您可以隨時在&#x200B;**「說明 > 關於 Workspace > 有效功能旗標」**&#x200B;檢視有效的功能旗標。
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: c3964147-06f1-462a-aea1-e681c4ef15b1
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 15%
+source-wordcount: '272'
+ht-degree: 16%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 15%
 
 <!-- update for CJA -->
 
-若要管理報告活動，您必須具備產品管理員角色。 如需詳細資訊，請參閱 [產品管理員角色](/help/admin/cja-access-control.md#product-admin-role) 在 [Customer Journey Analytics存取控制](/help/admin/cja-access-control.md).
+若要管理報告活動，您必須具備產品管理員角色。 如需詳細資訊，請參閱 [Customer Journey Analytics存取控制](/help/technotes/access-control.md).
 
 ## 檢視報告活動
 

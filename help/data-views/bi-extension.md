@@ -6,7 +6,8 @@ feature: SQL Connector
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: 98d99dd3a25b8e6f9d9366dd2f4ff44ca132ee9e
+exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '2730'
 ht-degree: 98%
@@ -41,9 +42,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
    * 所需使用的 CJA 資料檢視
    * 在資料來視工具中存取 BI 擴充功能
 
-* 使用有到期日或無到期日的認證能將 BI 工具連接到 [!DNL Customer Journey Analytics BI extension]。[認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)提供關於設定有到期日的認證或無到期日的認證之詳細資訊。
+* 使用有到期日或無到期日的認證能將 BI 工具連接到 [!DNL Customer Journey Analytics BI extension]。「[認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)」提供關於設定有到期日的認證或無到期日的認證之詳細資訊。
 
-如需其他資訊，請參閱 Customer Journey Analytics 管理區段的「[存取控制](../admin/cja-access-control.md)」。
+如需其他資訊，請參閱 Customer Journey Analytics 管理區段的「[存取控制](../technotes/access-control.md)」。
 
 
 ## 使用情況

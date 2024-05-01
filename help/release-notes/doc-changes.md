@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c55daff7e2d96c96b985b0ec9609eb4db0370a45
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '3375'
 ht-degree: 74%
@@ -22,8 +22,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2024 年 4 月** | |
 | 預測統計技術 | 新增文章以說明 [預測服務中使用的統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | 新增建議為高基數維度匯出完整表格的資訊 | 在中新增專案符號 [高基數維度的最佳做法](/help/components/dimensions/high-cardinality.md) 建議針對高基數維度使用完整表格匯出。 |
-| 新增有關行動計分卡中智慧型字幕的檔案 | [智慧型字幕](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) 可協助非分析人員更瞭解其資料，無需分析人員協助。 |
-| 新Adobe Product Analytics功能的檔案 | <ul><li>[功能矩陣](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>增強功能 [保留率](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[漏斗中的增強型深入分析](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>比較單一漏斗步驟中的事件</li></ul> |
+| 新增有關行動計分卡中智慧型字幕的檔案 | [智慧型字幕](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions) 可協助非分析人員更瞭解其資料，無需分析人員協助。 |
+| 新Adobe Product Analytics功能的檔案 | <ul><li>[功能矩陣](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>增強功能 [保留率](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[漏斗中的增強型深入分析](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>比較單一漏斗步驟中的事件</li></ul> |
 | **2024 年 3 月** | |
 | 關於「使用於」欄的使用情況資訊，僅從 2023 年 9 月開始提供。 | 澄清[專案登陸頁面](/help/getting-started/landing.md)上的「**使用於**」欄的使用情況資訊只能追溯到 2023 年 9 月。 |
 | 新增僅限專案工作區元件的許可權增強相關檔案 | 如果您與其他使用者共用專案，這些使用者可以編輯 [快速篩選](/help/components/filters/quick-filters.md) 和嵌入共用專案的其他僅限專案元件。 |
@@ -31,7 +31,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 專案共用文件更新 | 已新增如何操作的資訊 [檢視與您共用的專案](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>同時也簡化有關[共用個別或多個專案](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)的資訊。</p> |
 | 新增在設定雲端匯出位置時，將檔案上傳至Azure SAS和Azure RBAC的許可權要求 | 新增在下列情況下將檔案上傳至Azure SAS和Azure RBAC的確切許可權要求 [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md) 和 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md). |
 | 新增在設定雲端匯出位置時，將檔案上傳至Amazon S3角色ARN和GCP貯體的許可權要求 | 新增當檔案上傳至Amazon S3角色ARN和Google Cloud Platform貯體時的確切許可權要求 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md). |
-| 澄清產品管理員一律可以匯出完整的表格 | 進行下列變更，以釐清獲指派產品管理員角色的使用者預設擁有從Analysis Workspace匯出完整表格的許可權： <ul><li>新增專案符號至 [產品管理員預設許可權](/help/admin/cja-access-control.md#product-admin-default-permissions).</li><li>在底下新增附註 [將完整表格匯出至雲端的最低需求](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
+| 澄清產品管理員一律可以匯出完整的表格 | 進行下列變更，以釐清獲指派產品管理員角色的使用者預設擁有從Analysis Workspace匯出完整表格的許可權： <ul><li>新增專案符號至 [產品管理員預設許可權](/help/technotes/access-control.md#product-admin-default-permissions).</li><li>在底下新增附註 [將完整表格匯出至雲端的最低需求](/help/analysis-workspace/export/export-cloud.md#minimum-requirements).</li></ul> |
 | 澄清在元件從Adobe Analytics移轉期間會重新建立區段 | 在 [Adobe Analytics使用者使用指南](/help/getting-started/aa-to-cja-user.md)，澄清了區段是作為元件移轉程式的一部分在Adobe Analytics中自動重新建立，不需要手動重新建立。 |
 | 略過的記錄詳細資料 | 新增有關「連線」中略過的記錄詳細資料功能的檔案。 如需詳細資訊，請參閱[連線詳細資料](../connections/manage-connections.md#connection-details)。 |
 | **2024 年 1 月** | |
@@ -39,7 +39,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 更新匯出完整表格時新增帳戶和位置的檔案 | 更新說明檔案，以反映在設定新帳戶或位置時 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>新 [!UICONTROL **新增帳戶**] 選項現在可在 [!UICONTROL **帳戶**] 下拉式功能表。 此 [!UICONTROL **新增位置**] 之前作為按鈕提供的選項 [!UICONTROL **位置名稱**] 功能表本身現在提供下拉式功能表。 |
 | 從Adobe Analytics移轉時的新元件移轉資訊 | 已新增資訊至 [Adobe Analytics的演化](/help/getting-started/aa-to-cja.md) 會參照新的 [元件移轉](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics管理指南中記錄的功能。 |
 | 澄清某些資訊僅供管理員使用 | 新增資訊以陳述中說明的「上次使用」和「用於」欄。 [計算量度管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md) 和 [篩選器管理器](/help/components/filters/manage-filters.md) 僅供系統管理員使用。 |
-| 匯出資料集所需的許可權 | 已新增說明 [需要的許可權](/help/admin/cja-access-control.md) 將資料集匯出至雲端目的地。 |
+| 匯出資料集所需的許可權 | 已新增說明 [需要的許可權](/help/technotes/access-control.md) 將資料集匯出至雲端目的地。 |
 | 管理連線 | 已更新 [管理連線](../connections/manage-connections.md) 文章，根據客戶回饋意見。 |
 | 衍生欄位 | 新增函式摘要 [限制](/help/data-views/derived-fields/derived-fields.md#limitations) 及如何決定數目的說明 [運運算元](/help/data-views/derived-fields/derived-fields.md#operators) 用於函式中。 |
 
@@ -51,8 +51,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 12 月** | |
-| 資料中心 | 已新增有關Customer Journey Analytics的文章 [託管位置](../technotes/cja-datacenters.md). |
-| 護欄 | 新增的文章清單Customer Journey Analytics [護欄](../admin/guardrails.md). |
+| 資料中心 | 已新增有關Customer Journey Analytics的文章 [託管位置](../technotes/data-centers.md). |
+| 護欄 | 新增的文章清單Customer Journey Analytics [護欄](../technotes/guardrails.md). |
 | 貨幣轉換更新 | 澄清關於如何 [設定貨幣轉換](/help/data-views/component-settings/format.md). |
 | 更新異常偵測檔案 | 異常偵測的檔案先前位於虛擬分析人員的相關區段。 以下是所做的變更： <ul><li>術語 Virtual Analyst 已從文件中刪除。</li><li>「[異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)」的區段直接移至 Analysis Workspace 區段下方。</li></ul> |
 | **2023 年 10 月** | |
@@ -90,7 +90,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 深度連結 (行動應用程式) 文件 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
 | Report Builder 中關於「從儲存格中選取資料檢視」的文件 | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
 | Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
-| 最佳化更新 | 已更新關於[最佳化 Customer Journey Analytics 效能](/help/admin/optimizing-performance.md)的文章 |
+| 最佳化更新 | 已更新關於[最佳化 Customer Journey Analytics 效能](/help/technotes/optimizing-performance.md)的文章 |
 | Analysis Workspace 概觀 | 更新 [Analysis Workspace 概觀](/help/analysis-workspace/home.md)以包含更多一般概觀資訊和相關內容的連結。 |
 | 建立專案 | 建立新文章，其中詳細說明如何在 Analysis Workspace [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)。 |
 | 排序左側邊欄中的元件 | 已新增排序左側邊欄中元件清單的資訊。請參閱[元件概觀](/help/components/overview.md)中的「搜尋、篩選和排序元件清單」一節。 |
@@ -133,7 +133,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 日期 | 更新說明 |
 | --- | --- |
 | **2022 年 12 月** |  |
-| 2022 年 12 月 16 日 | 新增有關[測量及管理 Customer Journey Analytics 資料使用情況](/help/admin/estimate-usage.md)的主題。 |
+| 2022 年 12 月 16 日 | 新增有關[測量及管理 Customer Journey Analytics 資料使用情況](/help/technotes/estimate-usage.md)的主題。 |
 | **2022 年 10 月** | |
 | 2022 年 10 月 | 有關[排程專案的密碼保護](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=zh-Hant#password)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
 | 2022 年 10 月 | 有關[客戶自控金鑰](/help/privacy/cmk.md)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
@@ -148,7 +148,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 2022 年 9 月 | Workspace [實驗面板](/help/analysis-workspace/c-panels/experimentation.md)的新主題。 |
 | **2022 年 8 月** | |
 | 2022 年 8 月 | 有關 [Analytics 來源連接器的跨區域支援](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)的 Adobe Experience Platform 文章 |
-| 2022 年 8 月 | 大幅更新有關 [Customer Journey Analytics 存取控制](/help/admin/cja-access-control.md)的文章。 |
+| 2022 年 8 月 | 大幅更新有關 [Customer Journey Analytics 存取控制](/help/technotes/access-control.md)的文章。 |
 | 2022 年 8 月 | 新增有關 [Customer Journey Analytics 支援資料控管標籤和原則](/help/data-views/data-governance.md)的文章。 |
 | 2022 年 8 月 | 新增[比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](/help/getting-started/aa-vs-cja/terminology.md)的文章 |
 | 2022 年 8 月 | 有關的新檔案 [將對象發佈到即時客戶個人檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/audiences-overview.html?lang=zh-Hant). |

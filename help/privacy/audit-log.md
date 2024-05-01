@@ -4,7 +4,7 @@ description: 瞭解如何檢視和管理Customer Journey Analytics稽核記錄�
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 65%
@@ -23,7 +23,7 @@ ht-degree: 65%
 
 為您的組織啟用此功能後，活動發生時系統自動收集稽核記錄。您無需手動啟用記錄收集。
 
-若要檢視和匯出稽核記錄，您必須已被授予 Adobe Console 中的&#x200B;**[!UICONTROL 稽核記錄存取權]**&#x200B;存取控制權限。若要瞭解如何管理Customer Journey Analytics功能的個別許可權，請參閱 [存取控制檔案](../admin/cja-access-control.md).
+若要檢視和匯出稽核記錄，您必須已被授予 Adobe Console 中的&#x200B;**[!UICONTROL 稽核記錄存取權]**&#x200B;存取控制權限。若要瞭解如何管理Customer Journey Analytics功能的個別許可權，請參閱 [存取控制檔案](../technotes/access-control.md).
 
 ## 在 UI 中檢視稽核記錄
 

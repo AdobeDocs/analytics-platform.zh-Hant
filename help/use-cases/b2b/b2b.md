@@ -5,7 +5,7 @@ exl-id: d345f680-b657-4b87-9560-a50fc59bb7a7
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b4c77c3ef4d57aac6e914a2373b6a9169f4872df
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 73%
@@ -22,7 +22,7 @@ ht-degree: 73%
 * 與其他帳戶相比，此帳戶在特定行銷活動的整體成效如何？
 * 某帳戶中特定角色 (例如 IT 主管) 的行為是否與其他帳戶中的同一角色有所差異？
 
-您可以將帳戶層級資訊做為一個[查詢](/help/getting-started/cja-glossary.md)資料集，即可做到這一切。
+您可以將帳戶層級資訊做為一個[查詢](/help/technotes/glossary.md)資料集，即可做到這一切。
 
 首先，您要在Adobe Experience Platform中建立查詢結構，接著內嵌.csv格式的帳戶層級資料以建立查詢表格資料集。 接下來，您需要繼續建立結合不同資料集的Customer Journey Analytics(Customer Journey Analytics)連線，包括您建立的查詢資料集。 您之後會建立資料檢視，最後就能夠在 Workspace 中運用上述的所有資料。
 
@@ -32,7 +32,7 @@ ht-degree: 73%
 
 ## 1. 建立查詢結構 (Experience Platform)
 
-建立您自己的結構描述 [查詢](/help/getting-started/cja-glossary.md) 表格可確保所用的資料集能夠以正確設定（記錄型別）的Customer Journey Analytics使用。 最佳作法是以「Lookup」為名稱[建立自訂架構類別](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#create-new-class) (不含任何元素)，供所有查詢表格重複使用。
+建立您自己的結構描述 [查詢](/help/technotes/glossary.md) 表格可確保所用的資料集能夠以正確設定（記錄型別）的Customer Journey Analytics使用。 最佳作法是以「Lookup」為名稱[建立自訂架構類別](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#create-new-class) (不含任何元素)，供所有查詢表格重複使用。
 
 ![建立新類別對話方塊。](../assets/create-new-class.png)
 

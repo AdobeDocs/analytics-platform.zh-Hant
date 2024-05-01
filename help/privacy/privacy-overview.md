@@ -4,10 +4,10 @@ description: 說明資料控管如何在 Customer Journey Analytics 中運作。
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 74%
+source-wordcount: '375'
+ht-degree: 56%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Customer Journey Analytics與之間的整合 [Adobe Experience Platform資
 
 ## GDPR
 
-Customer Journey Analytics 不會直接訂閱一般資料保護規 (GDPR) 集中服務，而是繼承自 Experience Platform 中所有資料集的變更內容。我們仰賴 Platform Data Lake 強制執行 GDPR 刪除請求，並於這些請求在 Pipeline 上完成時通知我們。我們會監聽 Pipeline，並針對事件資料集，同步 Customer Journey Analytics 中對受影響批次所作的所有變更內容。在每次刪除請求後，受 GDPR 刪除請求所影響的設定檔和查詢資料集都會完全重新內嵌。我們可以保證刪除請求會在 Data Lake 中發生刪除事件後的 7 天內執行。
+Customer Journey Analytics 不會直接訂閱一般資料保護規 (GDPR) 集中服務，而是繼承自 Experience Platform 中所有資料集的變更內容。Customer Journey Analytics依賴Platform Data Lake來強制執行GDPR刪除請求，並在請求完成時通知Customer Journey Analytics。 事件資料集Customer Journey Analytics中對受影響批次所做的所有變更都會與Platform資料同步。 在每次刪除請求後，受GDPR刪除請求影響的設定檔和查詢資料集都會完全重新內嵌。 刪除請求通常會在Data Lake中發生刪除事件後的7天內完成。
 
 ## CCPA
 

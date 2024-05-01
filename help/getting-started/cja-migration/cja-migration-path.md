@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 1c789264a9867279f58a3ad139207fec8db29c1b
+source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 0%
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 | 優勢 | 缺點 |
 |----------|---------|
-| <ul><li>最省時又省力的移轉路徑。 <p>以最少的投資將資料快速移轉至Customer Journey Analytics</p></li></ul> | <ul><li>**資料未傳送至Edge Network**： <p>這會導致下列缺點：</p><ul><li>最高級別 [延遲](/help/admin/guardrails.md#latencies) 用於所有移轉路徑的報告；未針對即時個人化使用案例進行最佳化。</li><li>資料無法與其他Adobe Experience Platform應用程式共用；僅限於Customer Journey Analytics</li><li>依賴Adobe Analytics命名法(屬性、eVar、事件等)</li></ul><li>**日後難以改用Web SDK**： </li><li>**在您的結構描述中使用Analytics體驗事件欄位群組**：此欄位群組新增許多Customer Journey Analytics結構描述中不需要的Adobe Analytics事件。  這可能會導致Customer Journey Analytics所需的結構描述更雜亂、更複雜。</li></ul> |
+| <ul><li>最省時又省力的移轉路徑。 <p>以最少的投資將資料快速移轉至Customer Journey Analytics</p></li></ul> | <ul><li>**資料未傳送至Edge Network**： <p>這會導致下列缺點：</p><ul><li>最高級別 [延遲](/help/technotes/guardrails.md#latencies) 用於所有移轉路徑的報告；未針對即時個人化使用案例進行最佳化。</li><li>資料無法與其他Adobe Experience Platform應用程式共用；僅限於Customer Journey Analytics</li><li>依賴Adobe Analytics命名法(屬性、eVar、事件等)</li></ul><li>**日後難以改用Web SDK**： </li><li>**在您的結構描述中使用Analytics體驗事件欄位群組**：此欄位群組新增許多Customer Journey Analytics結構描述中不需要的Adobe Analytics事件。  這可能會導致Customer Journey Analytics所需的結構描述更雜亂、更複雜。</li></ul> |
 
 {style="table-layout:auto"}
 
