@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 355052289c5e613212030b7748b6116a12455953
+source-git-commit: 3d2ce208e468a68a45d900c4437639ad5145b8cb
 workflow-type: tm+mt
-source-wordcount: '3375'
-ht-degree: 74%
+source-wordcount: '3481'
+ht-degree: 72%
 
 ---
 
@@ -19,6 +19,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2024 年 5 月** | |
+| 有關從Adobe Analytics升級至Customer Journey Analytics的新檔案 | 對於從Adobe Analytics升級至Customer Journey Analytics的組織，根據組織目前的Adobe Analytics實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的檔案資源，協助您更清楚瞭解：</p><ul><li>現有的各種升級路徑</li><li>根據組織目前的Adobe Analytics實作，提供哪些升級路徑</li><li>每個升級路徑的優缺點</li><li>各升級路徑的逐步指引</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
 | **2024 年 4 月** | |
 | 預測統計技術 | 新增文章以說明 [預測服務中使用的統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | 新增建議為高基數維度匯出完整表格的資訊 | 在中新增專案符號 [高基數維度的最佳做法](/help/components/dimensions/high-cardinality.md) 建議針對高基數維度使用完整表格匯出。 |
