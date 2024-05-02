@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2034'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 99%
 | 區段 | 完整支援。現在稱為「篩選器」。請注意，傳統 Analysis Workspace 中任何現有的區段都不會移植至 Customer Journey Analytics。 |
 | 虛擬報告套裝 | 完整支援。現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | 虛擬報表套裝元件策劃 | 完整支援。現在是資料檢視的一部分。 |
-| 裝置、瀏覽器、推薦者、技術維度 | 支援 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)型資料集和 WebSDK 產生的資料集。請參閱[透過 ADC 支援 Analytics 變數的文件](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html)。如果您使用 Experience Platform Web SDK 資料收集，目前不支援根據裝置查詢的裝置和維度。已規劃於未來支援。如需將裝置和瀏覽器查詢新增至您的Web SDK資料流，請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
+| 裝置、瀏覽器、推薦者、技術維度 | 支援 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)型資料集和 WebSDK 產生的資料集。請參閱[透過 ADC 支援 Analytics 變數的文件](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html)。如果您使用 Experience Platform Web SDK 資料收集，目前不支援根據裝置查詢的裝置和維度。已規劃於未來支援。若要將裝置和瀏覽器查詢新增至 Web SDK 資料流，請參閱[本文件](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
 | 串流媒體 Analytics | 媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢閱者」面板和「媒體播放時間」面板的一部分提供。 |
 
 {style="table-layout:auto"}

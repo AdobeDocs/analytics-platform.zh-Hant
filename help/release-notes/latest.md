@@ -4,9 +4,9 @@ description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '946'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 | **串流媒體：將 Roku 資料傳送至 Adobe Experience Platform Edge** | 現在，[透過 Experience Platform Edge 安裝 Media Analytics](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) 時，您可以使用 Adobe Experience Platform Roku SDK 將串流媒體資料傳送至 Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
 | **在報告活動管理員中公開每月報告** | 在報告活動管理員中檢視所有連線的報告活動時，現在可以使用一個圖表來顯示在 IMS 組織層級執行的 [每月報告/請求](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/reporting-activity-manager/reporting-activity#view-all-report-suites) (當月和上個月)。<p>**備註：**&#x200B;資料從 2024 年 3 月中開始提供。 | | 2024 年 4 月 15 日 |
 | **行動計分卡中智慧型註解** | [智慧型註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)可協助非分析師在沒有分析師幫助下更能了解他們的資料。現在可在 Customer Journey Analytics 計分卡中使用。 |  | 2024 年 4 月 17 日 |
-| **僅限專案 [!UICONTROL Workspace] 元件的權限增強** | 在過去，如果某位使用者 (使用者 A) 與另一位使用者 (使用者 B) 共用專案，並授予使用者 B 對專案的編輯存取權，則使用者 B 將可編輯該專案。但是，使用者B無法編輯 [!UICONTROL 快速篩選] 內嵌在專案中。 該限制現已移除 — 使用者B可以編輯 [快速篩選](/help/components/filters/quick-filters.md) 和嵌入共用專案的其他僅限專案元件。 |  | 2024 年 4 月 17 日 |
+| **僅限專案 [!UICONTROL Workspace] 元件的權限增強** | 在過去，如果某位使用者 (使用者 A) 與另一位使用者 (使用者 B) 共用專案，並授予使用者 B 對專案的編輯存取權，則使用者 B 將可編輯該專案。但是，使用者 B 無法編輯專案中嵌入的[!UICONTROL 快速篩選器]。該項限制現已移除 - 使用者 B 可以編輯共用專案中嵌入的[快速篩選器](/help/components/filters/quick-filters.md)以及其他限專案使用的元件。 |  | 2024 年 4 月 17 日 |
 | **管理員可以管理其組織中的所有位置** | [「位置」頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/locations-manager)上的新選項可讓管理員檢視和管理組織中的所有位置。以前，管理員只能查看和管理他們建立的位置。 |  | 2024 年 4 月 |
 | **Adobe Product Analytics 功能矩陣** | 了解您的核心、優勢、一次性和有疑問的功能是什麼，從而推動投資決策。[!UICONTROL 功能矩陣]是透過使用頻率與作用中使用者百分比來衡量事件，並與使用中位數進行比較。 | 2024 年 4 月 17 日 | 2024 年 4 月 30 日 |
 | **Adobe Product Analytics：強化漏斗中的深入解析** | 在「[摩擦](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/funnel/friction)」視圖中，書面深入解析已強化，以包括類別、增量和說明，從而進一步了解圖表和表格。 | 2024 年 4 月 17 日 | 2024 年 4 月 26 日 |

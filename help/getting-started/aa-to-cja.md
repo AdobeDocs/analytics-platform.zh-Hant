@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 source-git-commit: d20655293a8248d26fed675d6f38e5a8a49a15c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 ## 準備您的現有資料
 
-準備您的 Adobe Analytics 資料以無縫移前往 Customer Journey Analytics，對資料完整性和報告一致性至關重要。
+準備您的 Adobe Analytics 資料以利無縫移動至 Customer Journey Analytics，對資料完整性和報告一致性至關重要。
 
 ### 收集身分
 
@@ -28,11 +28,11 @@ ht-degree: 91%
 * ID 不包含 PII。對任何可能的敏感內容套用雜湊處理。
 * ID 在所有來源上使用相同格式 (相同長度、相同雜湊方法等)
 
-在像 Adobe Analytics 這樣的資料集，身分不一定存在於每個資料列中，但是次要身分一定存在。在這種情況下， [跨管道分析（也稱為「拼接」）](/help/stitching/overview.md) 當客戶僅由其ECID識別，以及在收集身分時（例如，當客戶驗證時），可用來彌補資料列之間的差距。
+在像 Adobe Analytics 這樣的資料集，身分不一定存在於每個資料列中，但是次要身分一定存在。在這種情況下，在僅使用 ECID 來識別客戶以及在收集身分 (例如當客戶驗證時) 時，可使用[跨管道分析 (也稱為「拼接」)](/help/stitching/overview.md) 來彌合資料列之間的差距。
 
-### 對齊變數
+### 對應變數
 
-將Adobe Analytics資料轉換為Customer Journey Analytics資料的最直接方法是擷取 [全域報告套裝](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hant) 使用Experience Platform [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant). 此連接器會將您的 Adobe Analytics 變數直接對應到 Experience Platform 中的 XDM 綱要和資料集，這些綱要和資料集可輕鬆連接到 Customer Journey Analytics。
+將 Adobe Analytics 資料轉換為 Customer Journey Analytics 資料的最直接方法，是使用 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將[全域報告套裝](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hant)收錄到 Experience Platform。此連接器會將您的 Adobe Analytics 變數直接對應到 Experience Platform 中的 XDM 綱要和資料集，這些綱要和資料集可輕鬆連接到 Customer Journey Analytics。
 
 完整的全域報告套裝並不總能用於實施。如果您計劃將多個報表套件引入 Customer Journey Analytics，則有 2 個選項：
 
@@ -56,7 +56,7 @@ Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleagu
 
 除了介紹[衍生欄位](../data-views/derived-fields/derived-fields.md)作為 Customer Journey Analytics 資料檢視的一部分，還能用[行銷管道功能範本](../data-views/derived-fields/derived-fields.md#function-templates)，以不具破壞性且可回溯的方式支援行銷管道。
 
-## 移轉至Customer Journey Analytics時，為重大差異做好準備
+## 遷移到 Customer Journey Analytics 時為關鍵差異做好準備
 
 隨著您的組織發展為使用 Customer Journey Analytics，請探索這些步驟以準備您的資料，並了解這兩種技術之間的關鍵差異。本文內容主要針對管理員對象。
 
