@@ -4,8 +4,8 @@ description: 導入 Adobe Journey Optimizer 決策管理產生的資料，並使
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: ht
+source-git-commit: 734751f94a5d066de80182eb1ca3668aa311a4c1
+workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 100%
 
@@ -73,12 +73,12 @@ Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Cu
 | 事件類型 (重新命名以參照特定事件，例如 `Feedback` (用於 `message.feedback`)) [ 1] | 特定事件類型的數量 | `eventType` | 元件類型：量度<br/>**[!UICONTROL 設定包含排除值&#x200B;]**：開啟<br/>**[!UICONTROL 符合]**：[!UICONTROL 如果所有條件都滿足]<br/>**[!UICONTROL 標準&#x200B;]**：**[!UICONTROL &#x200B;等於&#x200B;]**`message.feedback` |
 | 決策選項分數 | 單一範圍情境中決策選項的計算值。 | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | 元件類型：量度 |
 | 備援決策選項分數 | 單一範圍情境中備援決策選項的計算值。 | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | 元件類型：量度 |
-| 優惠關閉 | 在沒有任何其他直接互動的情況下關閉或拒絕的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
+| 優惠關閉 | 在沒有任何其他直接互動的情況下關閉或拒絕的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 元件類型：量度 |
 | 優惠顯示 | 對設定檔顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
 | 優惠互動 | 對設定檔顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件類型：量度 |
 | 優惠傳送 | 對設定檔傳送的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.send` | 元件類型：量度 |
 | 優惠觸發 | 選擇透過用戶端 SDK 顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件類型：量度 |
-| 優惠取消訂閱 | 設定檔要求未來不要顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件類型：量度 |
+| 優惠取消訂閱 | 設定檔要求未來不要顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | 元件類型：量度 |
 
 {style="table-layout:auto"}
 
