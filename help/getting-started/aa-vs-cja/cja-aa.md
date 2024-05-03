@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 8b7fedb9625ba60af1fea0b1580d32d2366081b8
-workflow-type: ht
-source-wordcount: '2034'
-ht-degree: 100%
+source-git-commit: c8796834de6b566783d53ba1602e44a8c91127bf
+workflow-type: tm+mt
+source-wordcount: '2138'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 | 量度 | 完整支援；Customer Journey Analytics 使用體驗資料模型 (XDM) 並支援無限制的量度，且未繫結到 Adobe Analytics 的自訂成功事件。Adobe Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
 | 將專案、篩選器與計算量度從 Adobe Analytics 移轉至 Customer Journey Analytics | 完整支援。 |
 | 行動計分卡/儀表板 | 完整支援 |
-| 面板 | 空白面板、歸因面板、自由表格面板和快速深入分析全都受到支援。 |
+| 面板 | 完整支援下列面板：空白面板、歸因、自由格式、快速深入分析，以及下一個或上一個專案。 |
 | PDF 匯出 | 完整支援 |
 | 專案策劃 | 完整支援 |
 | 專案連結 | 完整支援 |
@@ -128,6 +128,7 @@ ht-degree: 100%
 | 組合資料集的能力 (例如 Adobe Analytics 報告套件) | Customer Journey Analytics 可讓您組合多個報告套件的資料，如同 Adobe Analytics 中的單一報告套件。 |
 | 可容納任何類型的資料 | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料綱要和類型。使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)，能以統一方式呈現和組織資料，可進行組合和探索。Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=zh-Hant)的功能。 |
 | 跨裝置分析 | Customer Journey Analytics 支援無縫組合來自未經身分驗證和經過身分驗證工作階段的特定裝置資料集。Customer Journey Analytics 可以將歷史資料回填到已知裝置。在 Analytics 中，此功能僅限於單一報告套裝和裝置圖使用。 |
+| Dimension增強功能 | Customer Journey Analytics可在使用維度時提供更大的彈性： <ul><li>**自訂數值維度**： [在資料檢視中建立您自己的數值型維度](/help/data-views/create-dataview.md#components).</li><li>**排序字串型維度**： [在自由表格中依字母順序排序字串型維度。](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables) </li></ul><p>在Adobe Analytics中，只有少數幾個內建數值維度可用，且無法依字串型維度排序。</p> |
 | 衍生的欄位 | 衍生的欄位允許對您的資料進行報告時間轉換。資料可以動態組合、更正或建立，並追溯套用於所有的報告。 |
 | 提升安全性和隱私權選項 - HIPAA 整備程度 | Customer Journey Analytics 符合 HIPAA 標準，並提供額外的安全性選項以實現法規合規性。Adobe Analytics 尚未符合 HIPAA 標準。 |
 | 實驗分析 | 對於任何定義為連線一部分之資料來源的實驗，Customer Journey Analytics 都可以評估其提升度和可信度。透過此評估，您可以了解任意管道中客戶互動之間的因果關係。Analytics 僅限於透過 A4T 進行的實驗分析。 |
@@ -137,6 +138,6 @@ ht-degree: 100%
 | 報告時間轉換 | Customer Journey Analytics 中的資料檢視可讓您進一步詮釋來自連線的資料。您可以變更或移除資料而無需變更實作、使用子字串操作維度、從任何值建立量度，或是篩選子事件。以上所有轉換的進行都是非破壞性。Adobe Analytics 透過虛擬報告套裝和自訂工作階段長度提供有限的功能。 |
 | SQL 存取 | 使用 Data Distiller 選項，Customer Journey Analytics 可以移除 Adobe 後端處理中收集資料的限制。您可以使用 SQL 修改資料、建立適合您業務的值和資料集，並繼續探索。Analytics 不支援對其資料進行任何類型的 SQL 存取。 |
 | 無限制的客戶維度和量度 | Customer Journey Analytics 維度是無限制的；值可以是數值、文字、物件、清單或混合所有前項。維度可以是嵌套式或階層式。Analytics 最多支援 75 個 props 和 250 個 eVar。 |
-| 無限制的唯一值 | Customer Journey Analytics 支援可在單一維度中報告的無限制唯一值或維度項目。Adobe Analytics 最多 500,000 個唯一值。無限制的唯一值或維度消除了大規模分析實施中目前存在的報告和分析限制。 |
+| 無限制的唯一值 | Customer Journey Analytics支援可以在單一維度中報告的無限唯一值或維度專案。<p>沒有 [維度的基數限制](/help/components/dimensions/high-cardinality.md)，允許出現及計算任何唯一值。</p><p>此方法移除大型Adobe Analytics實作可能存在的報表和分析限制，進而導致 [!UICONTROL 低流量] 標籤。</p><p>在Customer Journey Analytics中，您可能會看到 [!UICONTROL 超出不重複值] 標籤，但這些情況的發生頻率較低，且可以透過套用篩選器或區段至資料來緩解。</p> |
 
 {style="table-layout:auto"}
