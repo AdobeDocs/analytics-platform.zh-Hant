@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 172d80a832356b59df875336c15865c9bacdd837
 workflow-type: tm+mt
-source-wordcount: '2522'
-ht-degree: 99%
+source-wordcount: '2536'
+ht-degree: 98%
 
 ---
 
@@ -174,9 +174,9 @@ Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
 ## 8. [!UICONTROL Adobe Analytics] 元件
 
-+++**我可以將[!UICONTROL 篩選器]從 [!DNL Customer Journey Analytics] 共用/發佈到 Experience Platform Real-Time CDP 或其他 Experience Cloud 應用程式嗎？**
++++**我可以共用/發佈嗎 [!UICONTROL 對象] 從 [!DNL Customer Journey Analytics] Experience PlatformReal-Time CDP或其他Experience Cloud應用程式？**
 
-還不行，Adobe 正在積極努力地提供此功能。
+您可以 [建立和發佈對象](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish) 在Adobe Experience Platform中對即時客戶個人檔案的Customer Journey Analytics中識別，用於客戶目標定位和個人化。
 
 +++
 
