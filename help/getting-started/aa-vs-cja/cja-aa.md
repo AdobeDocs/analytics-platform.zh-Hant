@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: c8796834de6b566783d53ba1602e44a8c91127bf
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 92%
+source-wordcount: '2141'
+ht-degree: 91%
 
 ---
 
@@ -137,7 +137,7 @@ ht-degree: 92%
 | 智慧型註解 | 智慧型註解使用進階的機器學習和生成式 AI，為 Workspace 視覺效果提供有價值的自然語言深入解析。初始版本為[折線圖](/help/analysis-workspace/visualizations/line.md)視覺效果提供自動產生的深入解析。 |
 | 報告時間轉換 | Customer Journey Analytics 中的資料檢視可讓您進一步詮釋來自連線的資料。您可以變更或移除資料而無需變更實作、使用子字串操作維度、從任何值建立量度，或是篩選子事件。以上所有轉換的進行都是非破壞性。Adobe Analytics 透過虛擬報告套裝和自訂工作階段長度提供有限的功能。 |
 | SQL 存取 | 使用 Data Distiller 選項，Customer Journey Analytics 可以移除 Adobe 後端處理中收集資料的限制。您可以使用 SQL 修改資料、建立適合您業務的值和資料集，並繼續探索。Analytics 不支援對其資料進行任何類型的 SQL 存取。 |
-| 無限制的客戶維度和量度 | Customer Journey Analytics 維度是無限制的；值可以是數值、文字、物件、清單或混合所有前項。維度可以是嵌套式或階層式。Analytics 最多支援 75 個 props 和 250 個 eVar。 |
+| 無限制的客戶維度和量度 | Customer Journey Analytics 維度是無限制的；值可以是數值、文字、物件、清單或混合所有前項。Dimension可以是巢狀或階層式。 <p>相較之下，Adobe Analytics最多可支援75個prop和250個eVar。</p> |
 | 無限制的唯一值 | Customer Journey Analytics支援可以在單一維度中報告的無限唯一值或維度專案。<p>沒有 [維度的基數限制](/help/components/dimensions/high-cardinality.md)，允許出現及計算任何唯一值。</p><p>此方法移除大型Adobe Analytics實作可能存在的報表和分析限制，進而導致 [!UICONTROL 低流量] 標籤。</p><p>在Customer Journey Analytics中，您可能會看到 [!UICONTROL 超出不重複值] 標籤，但這些情況的發生頻率較低，且可以透過套用篩選器或區段至資料來緩解。</p> |
 
 {style="table-layout:auto"}

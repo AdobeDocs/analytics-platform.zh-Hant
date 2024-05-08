@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
 workflow-type: tm+mt
-source-wordcount: '1967'
-ht-degree: 85%
+source-wordcount: '1978'
+ht-degree: 84%
 
 ---
 
-# 使用來源連接器擷取和使用資料。
+# 使用來源連接器擷取和使用資料
 
 本快速入門指南說明如何使用資料提供者的來源連接器將資料擷取至 Adobe Experience Platform，然後在 Customer Journey Analytics 中使用該資料。
 
@@ -218,43 +218,43 @@ ht-degree: 85%
 
 1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「連線」]**。
 
-2. 選取&#x200B;**[!UICONTROL 「建立新連線」]**。
+1. 選取&#x200B;**[!UICONTROL 「建立新連線」]**。
 
-3. 在[!UICONTROL 「無標題連線」]畫面中：
+1. 在&#x200B;**[!UICONTROL 「無標題連線」]**&#x200B;畫面中：
 
-   在[!UICONTROL 「連線設定」]中為連線命名並提供說明。
+   1. 在&#x200B;**[!UICONTROL 「連線設定」]**&#x200B;中為連線命名並提供說明。
 
-   從[!UICONTROL 「資料設定」]的[!UICONTROL 「沙箱」]清單中選取正確沙箱，並從[!UICONTROL 「每日事件平均數」]清單中選取每日事件數。
+   1. 從&#x200B;**[!UICONTROL 「資料設定」]**&#x200B;的&#x200B;**[!UICONTROL 「沙箱」]**&#x200B;清單中選取正確沙箱，並從&#x200B;**[!UICONTROL 「每日事件平均數」]**&#x200B;清單中選取每日事件數。
 
-   ![連線設定](./assets/cja-connections-1.png)
+      ![連線設定](./assets/cja-connections-1.png)
 
-   選取&#x200B;**[!UICONTROL 「新增資料集」]**。
+   1. 選取&#x200B;**[!UICONTROL 「新增資料集」]**。
 
-   在[!UICONTROL 新增資料集]的[!UICONTROL 選取資料集]步驟：
+1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;的&#x200B;**[!UICONTROL 選取資料集]**&#x200B;步驟：
 
-   - 選取您先前建立的資料集 (`Example Loyalty Dataset`) 和您要加入連線的任何其他資料集。
+   1. 選取您先前建立的資料集 (`Example Loyalty Dataset`) 和您要加入連線的任何其他資料集。
 
-     ![新增資料集](./assets/cja-connections-2.png)
+      ![新增資料集](./assets/cja-connections-2.png)
 
-   - 選取&#x200B;**[!UICONTROL 「下一步」]**。
+   1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
-   在[!UICONTROL 新增資料集]的[!UICONTROL 資料集設定]步驟：
+1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;的&#x200B;**[!UICONTROL 資料集設定]**&#x200B;步驟：
 
-   - 對於每個資料集：
+   對於每個資料集：
 
-      - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分中選取[!UICONTROL 人員 ID]。
+   1. 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分中選取[!UICONTROL 人員 ID]。
 
-      - 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
+   1. 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
 
-      - 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
+   1. 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
 
-     ![設定資料集](./assets/cja-connections-3.png)
+      ![設定資料集](./assets/cja-connections-3.png)
 
-   - 選取&#x200B;**[!UICONTROL 「新增資料集」]**。
+   1. 選取&#x200B;**[!UICONTROL 「新增資料集」]**。
 
-   選取&#x200B;**[!UICONTROL 「儲存」]**。
+   1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-如需如何建立和管理連線，以及如何選取和合併資料集的詳細資訊，請參閱[連線概觀](../connections/overview.md)。
+在您建立 [連線](/help/connections/overview.md)，您可以執行各種管理工作，例如 [選取及合併資料集](/help/connections/combined-dataset.md)， [檢查連線資料集的狀態和資料擷取的狀態](/help/connections/manage-connections.md)、等等。
 
 ## 設定資料檢視
 

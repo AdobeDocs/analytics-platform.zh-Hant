@@ -5,20 +5,20 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+workflow-type: tm+mt
+source-wordcount: '411'
+ht-degree: 90%
 
 ---
 
 # 工作階段設定
 
-資料檢視中的工作階段設定會改變 Customer Journey Analytics 根據連線中的資料計算工作階段的方式。
+在Customer Journey Analytics中，您可以透過任何方式來定義工作階段，以符合個人與您的數位體驗的互動方式。 您可以在資料檢視中設定工作階段設定。
 
-在資料檢視的「**[!UICONTROL 設定]**」索引標籤中，您能夠以任何方式定義工作階段，以符合使用者與您數位體驗的互動方式。工作階段定義是非破壞性的，不會改變底層資料。您可以將多個資料檢視設定為 Workspace 專案的基礎 (每個資料檢視都有其各自具體的工作階段定義)。
+工作階段定義是非破壞性的，不會改變底層資料。您可以將多個資料檢視設定為 Workspace 專案的基礎 (每個資料檢視都有其各自具體的工作階段定義)。
 
-若要定義資料檢視之工作階段的內容：
+若要在資料檢視中定義工作階段的前後關聯：
 
 1. 在 Customer Journey Analytics 中，選取「**[!UICONTROL 資料檢視]**」。
 

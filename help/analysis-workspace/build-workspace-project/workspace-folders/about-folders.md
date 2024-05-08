@@ -5,10 +5,10 @@ title: 資料夾總覽
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Workspace 中有兩種類型資料夾：公司資料夾和個人資料夾。
 
 當您登入 Workspace 時，「專案」首頁會顯示您的專案清單，以及您建立的公司資料夾和任何個人資料夾。
 
-![列出您的專案和公司資料夾的專案首頁。](/help/analysis-workspace/build-workspace-project/assets/landing-page2.png)
+![專案首頁](../assets/landing-page2.png)
 
 ## 關於公司資料夾 {#company-folder}
 
@@ -34,7 +34,6 @@ Workspace 中有兩種類型資料夾：公司資料夾和個人資料夾。
 
 當使用者登入 Workspace 時，公司資料夾會自動新增到他們的專案和資料夾清單中。 「公司」資料夾中不包含專案的特定權限。
 
-
 ### 管理員選項 {#admin-options}
 
 管理員擁有指派至公司資料夾的特殊權限。 例如，只有管理員可以在公司資料夾中新增或移除資料夾或專案。 沒有管理員存取權限的使用者可以檢視公司資料夾的內容。
@@ -43,7 +42,7 @@ Workspace 中有兩種類型資料夾：公司資料夾和個人資料夾。
 
 非管理員的選項有限。
 
-![顯示資料夾之非管理選項的專案頁面。](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
+![顯示資料夾之非管理選項的專案頁面。](/help/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png)
 
 ### 公司資料夾準則 {#company-folder-guidelines}
 
@@ -53,6 +52,6 @@ Workspace 中有兩種類型資料夾：公司資料夾和個人資料夾。
 
 - 管理員可以刪除公司資料夾中其他管理員建立的資料夾。管理員可能需要與其他管理員協調，以保持資料夾和專案存取權的一致性。
 
-- 當管理員將專案移動到公司資料夾時，即使原始共用權限受到限制，該專案仍會與所有人共用。
+- 當管理員將專案移動到公司資料夾時，該專案與所有人共用 **編輯副本** 角色，即使原始共用許可權被限制亦然。
 
 - 當管理員將專案移出公司資料夾時，會遵守原始或先前的共用權限。
