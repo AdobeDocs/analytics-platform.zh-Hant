@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 73b9aa3bc7568c90c3e92b6fa8197577a904a6a2
 workflow-type: tm+mt
-source-wordcount: '2937'
-ht-degree: 21%
+source-wordcount: '2993'
+ht-degree: 14%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 21%
 
 此 [!UICONTROL 清單] 介面會顯示所有可用連線的表格。 您可以使用搜尋快速搜尋連線 ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 方塊。
 
-表格中有以下欄/圖示。
+表格中有以下欄或圖示。
 
-| 欄/圖示 | 說明 |
+| 欄或圖示 | 說明 |
 | --- | --- |
 | [!UICONTROL 名稱] | 連線的易記名稱。 若要檢視連線的詳細資訊，請選取超連結的名稱。 另請參閱 [連線詳細資料](#connection-details). |
 | ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | 若要檢視以下資訊： [!UICONTROL 包含的資料集]， [!UICONTROL Sandbox]， [!UICONTROL 所有者]，等等，選取 ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 連線名稱旁。<p>快顯視窗會顯示詳細資訊。 <p><img src="./assets/conn-info.png" alt="檢視連線資訊" width="400"/> |
-| ![資料視圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | 至 [建立資料檢視](#create-a-data-view) 針對連線，選取 ![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) . 只有在尚未有任何資料檢視與連線相關聯時，此圖示才會顯示。 |
-| ![更多內容](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選取 ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 至： <p>![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [編輯](#edit-a-connection) 連線。<p>![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) [刪除](#delete-a-connection) 連線。<p>![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) [建立新的資料檢視](#create-a-data-view). 使用這個專案來建立連線的其他資料檢視。 |
+| ![資料視圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | 至 [建立資料檢視](#create-a-data-view) 針對連線，選取 ![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg). 只有在尚未有任何資料檢視與連線相關聯時，此圖示才會顯示。 |
+| ![更多內容](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選取 ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 至： <p>![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [編輯](#edit-a-connection) 連線。<p>![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) [刪除](#delete-a-connection) 連線。<p>![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) [建立新的資料檢視](#create-a-data-view). 為連線建立其他資料檢視。 |
 | [!UICONTROL 資料集] | 顯示連線中資料集的一或多個連結。 您可以選取資料集超連結來檢視連線中的資料集。 如果所選連線包含更多資料集，請選取 **[!UICONTROL +*x* 更多]** 以顯示 **[!UICONTROL 包含的資料集]** 面板。 此面板會顯示所有資料集的連結，以及搜尋屬於連線之特定資料集的選項。<p><img src="./assets/datasets-included.png" alt="包含的資料資產" width="400"/><p>選取資料集名稱，即可在新索引標籤的Experience PlatformUI中開啟資料集。 |
 | [!UICONTROL 沙箱] | 顯示 [Experience Platform沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) 此連線從中提取其資料集的。 當您初次建立連線時，就會選取這個沙箱。 此沙箱無法變更。 |
 | [!UICONTROL 所有者] | 建立連線的人。 |
@@ -51,11 +51,9 @@ ht-degree: 21%
 | [!UICONTROL 上次修改日期] | 上次更新連線時的時間戳記。 |
 | [!UICONTROL 回填資料] | 跨資料集顯示回填資料的狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**如需資料集間失敗的回填數，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**如需跨資料集處理回填的次數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**資料集的已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防連線中的資料集未定義回填。 |
 
-您可以使用來設定要顯示哪些欄 ![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). 這會顯示 **自訂表格** 對話方塊可讓您開啟/關閉表格中的欄。
+若要設定要顯示哪些欄，請選取 ![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)，會顯示 **自訂表格** 對話方塊可讓您開啟或關閉表格中的欄。
 
 ### 編輯連線
-
-可讓管理員編輯連線。
 
 1. 選取 ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 連線名稱旁
 1. 選取 ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 編輯]** 從內容功能表。
@@ -78,8 +76,6 @@ ht-degree: 21%
 
 ### 刪除連線 {#connections-delete}
 
-允許管理員刪除連線。
-
 1. 選取 ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 連線名稱旁。
 1. 選取 ![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 刪除]**.
 
@@ -98,9 +94,7 @@ ht-degree: 21%
 另請參閱 [刪除關聯](/help/technotes/deletion.md) 有關刪除連線的詳細資訊。
 
 
-### 建立資料視圖
-
-可讓管理員為連線建立資料檢視。
+### 建立連線的資料檢視
 
 * 如果沒有資料檢視與連線相關聯：
 
@@ -133,27 +127,27 @@ ht-degree: 21%
 
 | 使用者介面 | 說明 |
 | --- | --- |
-| ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [!UICONTROL 編輯連線] | 若要編輯連線的詳細資訊，請選取 ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 編輯連線]** . 另請參閱 [建立或編輯連線](create-connection.md) 以取得詳細資訊。 |
+| ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [!UICONTROL 編輯連線] | 若要編輯連線的詳細資訊，請選取 ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 編輯連線]**. 另請參閱 [建立或編輯連線](create-connection.md) 以取得詳細資訊。 |
 | 資料集選擇器 | 可讓您選擇連線中的一個或所有資料集。 您無法多重選取資料集。 預設為「[!UICONTROL 所有資料集]」。 |
-| 日期範圍選擇器 | 編輯開始和/或結束日期或選取 ![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 以開啟資料範圍選擇器。 在日期範圍選取器中，使用其中一個預先定義的期間來選取日期範圍(例如 **[!UICONTROL 過去6個月]**)或使用日曆來選取開始和結束日期。 選取 **[!UICONTROL 套用]** 以套用新的資料範圍。 |
-| [!UICONTROL 可用的事件資料記錄] | 代表在&#x200B;**整個連線**&#x200B;中可用來報告的總事件資料集列數。 此計數與任何行事曆設定皆無關。 如果您從資料集選擇器選取資料集，或在表格中選取資料集，則計數會變更。 新增資料後，會延遲1-2小時讓資料出現在報告中。 |
-| [!UICONTROL 量度] | 彙總已新增/略過/刪除的事件/查詢/設定檔資料集記錄，以及已新增的批次數量， **針對您選取的資料集和日期範圍**.<p>選取 **[!UICONTROL 檢查詳細資訊]** 以顯示 **[!UICONTROL 檢查略過的詳細資訊]** 快顯視窗，為所有事件資料集或選取的資料集列出略過的記錄數量和原因。<p><img src="./assets/skipped-records.png" width="500"/><p>選取 ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 包含更多資訊的快顯視窗。 由於某些略過的原因，例如 [!UICONTROL 空的訪客ID]，快顯視窗會顯示您可在其中使用的EQS範例PSQL (查詢服務Experience Platform) [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant) 以查詢資料集中略過的記錄。 選取 ![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL 複製EQS的範例PSQL]** 複製SQL。 |
+| 日期範圍選擇器 | 編輯開始日期、結束日期或選取 ![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 以開啟資料範圍選擇器。 在日期範圍選取器中，使用其中一個預先定義的期間來選取日期範圍(例如 **[!UICONTROL 過去6個月]**)或使用日曆來選取開始和結束日期。 選取 **[!UICONTROL 套用]** 以套用新的資料範圍。 |
+| [!UICONTROL 可用的事件資料記錄] | 可用於報告的事件資料集列總數， **整個連線**. 此計數與任何行事曆設定皆無關。 如果您從資料集選擇器選取資料集，或在表格中選取資料集，則計數會變更。 新增資料後，會延遲1-2小時讓資料出現在報告中。 |
+| [!UICONTROL 量度] | 彙總已新增、略過和刪除的事件、查詢和設定檔資料集記錄，以及新增的批次數量。 **針對您選取的資料集和日期範圍**.<p>選取 **[!UICONTROL 檢查詳細資訊]** 以顯示 **[!UICONTROL 檢查略過的詳細資訊]** 快顯視窗。 快顯視窗會列出略過的記錄數，以及所有事件資料集或所選資料集的原因。<p><img src="./assets/skipped-records.png" width="500"/><p>選取 ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 包含更多資訊的快顯視窗。 由於某些略過的原因，例如 [!UICONTROL 空的訪客ID]，快顯視窗會顯示您可在其中使用的EQS範例PSQL (查詢服務Experience Platform) [查詢服務](https://experienceleague.adobe.com/tw/docs/experience-platform/query/home.html?lang=zh-Hant) 以查詢資料集中略過的記錄。 選取 ![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL 複製EQS的範例PSQL]** 複製SQL。 |
 | [!UICONTROL 新增的記錄] | 指出在選取的時段內，針對您選取的資料集和日期範圍&#x200B;**新增了多少列。**&#x200B;每 10 分鐘更新一次。 |
-| [!UICONTROL 略過的記錄] | 針對您選取的資料集和日期範圍&#x200B;**，指出在選取的時段內已略過多少列。**&#x200B;略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人ID等。 每 10 分鐘更新一次。 <p>人員 ID 無效 (例如「未定義」、「00000000」，或[!UICONTROL 人員 ID] 在指定月份中出現超過 100 萬次的事件) 無法歸因於任何特定使用者或人員。無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用 [拼接](/help/stitching/overview.md) 以使用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間將略過該使用者ID （偏好使用無效或全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> |
-| [!UICONTROL 記錄] 已刪除 | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;指示在所選的時段內刪除了多少列。 有人可能已刪除中的資料集 [!DNL Experience Platform]例如， 每 10 分鐘更新一次。<p>在某些情況下，此值還可以包含取代的記錄，例如拼接或某些查詢資料集更新。 請參考此範例：</p><ul><li>您上傳一筆記錄到XDM個別設定檔資料集，CJA會將其設定為擷取為設定檔查詢資料。 在連線詳細資料中，此資料集將顯示已新增1筆記錄。</li><li>您將原始記錄的副本上傳到同一個AEP資料集，該資料集現在將包含兩個記錄。 CJA會從設定檔查詢資料集中擷取其他記錄。 CJA發現其已擷取該人員ID的連線設定檔記錄，會刪除其舊版並新增設定檔資料。 在連線詳細資料中，這會表示新增1筆記錄及刪除1筆記錄，因為CJA只會保留任何內嵌人員ID的最新設定檔查詢資料。</li><li>AEP資料集總共將包含兩個剛好相同的記錄。 另外，CJA連線詳細資料將顯示其擷取資料的狀態：為此設定檔資料集新增了2筆記錄並刪除了1筆記錄。 </li></ul> |
+| [!UICONTROL 略過的記錄] | 針對您選取的資料集和日期範圍&#x200B;**，指出在選取的時段內已略過多少列。**&#x200B;略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人ID等。 每 10 分鐘更新一次。 <p>無效的人員ID (例如 `undefined`，或 `00000000`，或a中任何數字和字母的組合 [!UICONTROL 人員ID] （在指定月份中出現超過100萬次的事件）是無法歸因於任何特定使用者或個人的ID。 這些列無法擷取到系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用 [拼接](/help/stitching/overview.md) 以使用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間這些使用者ID會遭截斷（偏好使用無效或全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> |
+| [!UICONTROL 記錄] 已刪除 | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;指示在所選的時段內刪除了多少列。 有人可能已刪除中的資料集 [!DNL Experience Platform]例如， 每 10 分鐘更新一次。<p>在某些情況下，此值還可以包含取代的記錄，例如拼接或某些查詢資料集更新。 請參考此範例：</p><ul><li>您上傳一筆記錄到XDM個別設定檔資料集，CJA會將其設定為擷取為設定檔查詢資料。 在連線詳細資料中，此資料集將顯示已新增1筆記錄。</li><li>您將原始記錄的副本上傳到同一個AEP資料集，該資料集現在包含兩個記錄。 CJA會從設定檔查詢資料集中擷取其他記錄。 CJA發現其已擷取該人員ID的連線設定檔記錄，會刪除其舊版並新增設定檔資料。 在連線詳細資料中，此動作將代表1筆新增記錄和1筆刪除記錄，因為CJA只會保留任何內嵌人員ID的最新設定檔查詢資料。</li><li>AEP資料集總共包含兩個剛好相同的記錄。 另外，CJA連線詳細資料會顯示其擷取資料的狀態：為此設定檔資料集新增了2筆記錄並刪除1筆記錄。 </li></ul> |
 | ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) _搜尋資料集名稱或識別碼_ | 資料集搜尋欄位。 您可以依資料集名稱或頁面名稱 [!UICONTROL 資料集ID]. |
 | [!UICONTROL 資料集表格] | 顯示屬於連線之一部分的資料集。 |
 | [!UICONTROL 資料集] | 顯示屬於連線之一部分的資料集名稱。 您可以選取超連結，在新標籤的Experience PlatformUI中開啟資料集。 您可以選取列或核取方塊，僅顯示所選資料集的詳細資訊。 |
 | [!UICONTROL 資料集 ID] | 由Experience Platform自動產生。 |
-| [!UICONTROL 新增的記錄] | 在選取的時間間隔內新增到連線的資料集記錄/列數。 |
-| [!UICONTROL 略過的記錄] | 在選取的時間間隔內，針對連線在資料傳輸期間略過的資料集記錄/列數。 |
-| [!UICONTROL 刪除的記錄] | 在選取的時間間隔內，從連線中移除的資料集記錄/列數。 |
+| [!UICONTROL 新增的記錄] | 在選取的時間間隔內新增到連線的資料集記錄（列）數。 |
+| [!UICONTROL 略過的記錄] | 在選取的時間間隔內，資料傳輸期間為連線略過的資料集記錄（列）數。 |
+| [!UICONTROL 刪除的記錄] | 在選取的時間間隔內，從連線中移除的資料集記錄（列）數。 |
 | [!UICONTROL 批次已新增] | 已新增到連線的資料集批次數量。 |
-| [!UICONTROL 上次新增時間] | 從資料集新增到連線的最新批次時間戳記。 |
+| [!UICONTROL 上次新增時間] | 來自資料集（已新增至連線）的最新批次時間戳記。 |
 | [!UICONTROL 資料來源類型] | 資料集的來源型別。 建立連線時，您可以定義來源型別。 |
 | [!UICONTROL 資料集類型] | 此資料集的資料集型別。 型別可以是 [!UICONTROL 事件]， [!UICONTROL 查詢]，或 [!UICONTROL 個人資料]. [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | 結構描述 | 資料集所根據的Experience Platform結構描述。 |
-| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新的資料匯入。 |
+| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新資料。 |
 | [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**回填失敗的數目，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**對於處理的回填數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防未設定回填。 |
 
 >[!IMPORTANT]
@@ -186,17 +180,17 @@ ht-degree: 21%
 
 | 詳細資料 | 說明 |
 | --- | --- |
-| [!UICONTROL 人員 ID] | 顯示在 Experience Platform 的最新結構描述中所定義的身分識別。 這是您在建立連線時所選取的人員ID 。 如果您建立的連線包含具有不同ID的資料集，報表會反映這一點。 若要合併資料集，您需要在不同資料集中使用相同的人員ID。 |
+| [!UICONTROL 人員 ID] | 顯示在 Experience Platform 的最新結構描述中所定義的身分識別。 此身分識別是您在建立連線時所選取的人員ID。 如果您建立的連線包含具有不同ID的資料集，報表會反映這一點。 若要合併資料集，您必須在資料集中使用相同的人員ID。 |
 | [!UICONTROL 索引鍵] | 顯示您已為查詢資料集指定的金鑰。 |
 | [!UICONTROL 比對索引鍵] | 顯示您已為查詢資料集指定的相符索引鍵。 |
 | [!UICONTROL 時間戳記] | 顯示為事件資料集定義的時間戳記。 |
-| [!UICONTROL 可用記錄] | 代表在透過行事曆選取的特定時段中，為此資料集擷取的總列數。 在新增資料後，資料會立即出現在報告中，不需要等候。 不過，當您建立全新連線時， [延遲](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#3.-getting-data-into-customer-journey-analytics). |
-| [!UICONTROL 新增的記錄] | 表示在選取的時段內新增了多少列。 |
-| [!UICONTROL 刪除的記錄] | 表示在選取的時段內刪除了多少記錄。 |
-| [!UICONTROL 批次已新增] | 表示已將多少資料批次新增到這個資料集內。 |
-| [!UICONTROL 略過的記錄] | 表示在選取的時段內擷取資料時，略過了多少列。<p>略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人ID等。 每 10 分鐘更新一次。<p>人員 ID 無效 (例如「未定義」、「00000000」，或[!UICONTROL 人員 ID] 在指定月份中出現超過 100 萬次的事件) 無法歸因於任何特定使用者或人員。無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用 [拼接](/help/stitching/overview.md) 以使用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間會略過該使用者ID （偏好使用無效或全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> |
-| [!UICONTROL 上次新增時間] | 表示上次新增批次的時間。 |
-| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新的資料匯入。 |
+| [!UICONTROL 可用記錄] | 顯示在透過行事曆選取的特定時段中，為此資料集擷取的總列數。 在新增資料後，資料會立即出現在報告中，不需要等候。 不過，當您建立全新連線時， [延遲](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#3.-getting-data-into-customer-journey-analytics). |
+| [!UICONTROL 新增的記錄] | 顯示在選取的時段內新增了多少列。 |
+| [!UICONTROL 刪除的記錄] | 顯示選取的時段內刪除了多少記錄。 |
+| [!UICONTROL 批次已新增] | 顯示已將多少資料批次新增到此資料集。 |
+| [!UICONTROL 略過的記錄] | 顯示在選取的時段內擷取資料時，略過了多少列。<p>略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人ID等。 每 10 分鐘更新一次。<p>無效的人員ID (例如 `undefined`，或 `00000000`，或a中任何數字和字母的組合 [!UICONTROL 人員ID] （在指定月份中出現超過100萬次的事件）是無法歸因於任何特定使用者或個人的ID。 這些列無法擷取到系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用 [拼接](/help/stitching/overview.md) 以使用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間會略過該使用者ID （偏好使用無效或全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> |
+| [!UICONTROL 上次新增時間] | 顯示上次新增批次的時間。 |
+| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新資料。 |
 | [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**回填失敗的數目，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**對於處理的回填數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防未設定回填。<p>若要顯示對話方塊以概覽資料集過去的回填，請選取「 」 <img src="./assets/pastbackfill.svg" alt="過去的回填" width="15"/> **[!UICONTROL 過去的回填]**. |
 | [!UICONTROL 資料來源類型] | 將資料集新增至連線時所定義的資料來源型別。 |
 | [!UICONTROL 資料集類型] | 可能是[!UICONTROL 事件]、[!UICONTROL 查詢]或[!UICONTROL 描述檔]。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
@@ -206,7 +200,7 @@ ht-degree: 21%
 
 ## 使用情況
 
-此 [!UICONTROL 使用狀況] 介面會顯示所有連線中擷取及可報告資料列的使用情形。 此介面可協助您判斷您的Customer Journey Analytics使用方式是否符合合約所議定的內容。
+此 [!UICONTROL 使用狀況] 介面會顯示所有連線中擷取及可報告資料列的使用情形。 此介面可支援您判斷您的Customer Journey Analytics使用方式是否符合合約所議定的內容。
 
 選取 **[!UICONTROL 使用狀況]** 標籤以存取介面。
 
@@ -217,16 +211,18 @@ ht-degree: 21%
 
 的 [!UICONTROL 擷取的列]：
 
-* 方塊會顯示 [!UICONTROL 總計] 擷取的列數。
-* 方塊會顯示以下專案的擷取列數： [!UICONTROL 上個月] 和%的變更(以 <span style="color:green">▲</span> 或 <span style="color:c64545">▼</span>)。
-* 折線圖會顯示  <span style="color:53b2ad">◼︎</span> 累計擷取的列和 <span style="color:4046c3">◼︎</span> 每月擷取的列。<br/>您可以將滑鼠停留在折線圖中每行的任何資料點上，以檢視顯示所選資料點之日期和列數的快顯視窗。
+* 面板會顯示擷取的總列數，其中包含所有連線的所有事件資料，每個月的第2天會更新一次。 在面板內：
+   * 方塊會顯示上個月內嵌的列數和% (由以下專案指示： <span style="color:green">▲</span> 或 <span style="color:c64545">▼</span>)。
+   * 折線圖會顯示 <span style="color:53b2ad">◼︎</span> [!UICONTROL 每月擷取的列].<br/>若要檢視顯示一個月每月擷取列數的快顯視窗，請將滑鼠指標暫留線上圖中的任何資料點上。
 
 
 的 [!UICONTROL 可報告列]：
 
-* 方塊隨即顯示 [!UICONTROL 總計] 可報告列數。
-* 方塊會顯示以下專案的可報告列數： [!UICONTROL 上個月] 和%的變更(以 <span style="color:green">▲</span> 或 <span style="color:c64545">▼</span>)。
-* 折線圖會顯示  <span style="color:53b2ad">◼︎</span> 累積可報告列和 <span style="color:4046c3">◼︎</span> 每月可報告列。<br/>您可以將滑鼠停留在折線圖中每行的任何資料點上，以檢視顯示所選資料點之日期和列數的快顯視窗。
+* 面板會顯示可報告列總數，其中包含每個月第2天更新之所有連線中的所有事件資料。 在面板內：
+   * 方塊會顯示可報告列的累計總數。
+   * 方塊會顯示上個月可報告列的總數和%的變更(由以下專案指示： <span style="color:green">▲</span> 或 <span style="color:c64545">▼</span>)。
+   * 折線圖會顯示 <span style="color:53b2ad">◼︎</span> [!UICONTROL 每月可報告列].<br/>若要檢視顯示特定月份累計可報告列數的快顯視窗，請將滑鼠游標停留在折線圖的任何資料點上。
+   * 折線圖會顯示 <span style="color:53b2ad">◼︎</span> [!UICONTROL 累積可報告列].<br/>若要檢視顯示每月可報告列數的快顯視窗，請將滑鼠指標暫留線上圖中的任何資料點上。
 
 
 >[!MORELIKETHIS]
