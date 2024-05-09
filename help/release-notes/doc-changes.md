@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 3d2ce208e468a68a45d900c4437639ad5145b8cb
+source-git-commit: 47b7747b37f82e4d75d5272ce1d8d37f4e497bb5
 workflow-type: tm+mt
-source-wordcount: '3481'
+source-wordcount: '3515'
 ht-degree: 72%
 
 ---
@@ -21,6 +21,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | --- | --- |
 | **2024 年 5 月** | |
 | 有關從Adobe Analytics升級至Customer Journey Analytics的新檔案 | 對於從Adobe Analytics升級至Customer Journey Analytics的組織，根據組織目前的Adobe Analytics實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的檔案資源，協助您更清楚瞭解：</p><ul><li>現有的各種升級路徑</li><li>根據組織目前的Adobe Analytics實作，提供哪些升級路徑</li><li>每個升級路徑的優缺點</li><li>各升級路徑的逐步指引</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
+| 更新自訂日期範圍的相關檔案 | 更新相關熒幕擷取畫面和程式 [建立自訂日期範圍](/help/components/date-ranges/custom-date-ranges.md) 以符合目前的產品功能與設計。 |
+| Dimension的概觀資訊 | 已新增以下資訊： [維度](/help/components/dimensions/overview.md). |
 | **2024 年 4 月** | |
 | 預測統計技術 | 新增文章以說明 [預測服務中使用的統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | 新增建議為高基數維度匯出完整表格的資訊 | 在中新增專案符號 [高基數維度的最佳做法](/help/components/dimensions/high-cardinality.md) 建議針對高基數維度使用完整表格匯出。 |
@@ -39,7 +41,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2024 年 1 月** | |
 | 預測 | 已新增有關以下專案的檔案： [預測](../analysis-workspace/c-forecast/forecasting.md)，新的Analysis Workspace功能可針對自由表格和折線圖，使用任何支援的時間詳細程度（每小時、每日、每週、每月和每年）來預測標準或計算量度。 |
 | 更新匯出完整表格時新增帳戶和位置的檔案 | 更新說明檔案，以反映在設定新帳戶或位置時 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace).<p>新 [!UICONTROL **新增帳戶**] 選項現在可在 [!UICONTROL **帳戶**] 下拉式功能表。 此 [!UICONTROL **新增位置**] 之前作為按鈕提供的選項 [!UICONTROL **位置名稱**] 功能表本身現在提供下拉式功能表。 |
-| 從Adobe Analytics移轉時的新元件移轉資訊 | 已新增資訊至 [Adobe Analytics的演化](/help/getting-started/aa-to-cja.md) 會參照新的 [元件移轉](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics管理指南中記錄的功能。 |
+| 從Adobe Analytics移轉時的新元件移轉資訊 | 已新增資訊至 [Adobe Analytics的演化](/help/getting-started/aa-to-cja.md) 會參照新的 [元件移轉](https://experienceleague.adobe.com/tw/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) Adobe Analytics管理指南中記錄的功能。 |
 | 澄清某些資訊僅供管理員使用 | 新增資訊以陳述中說明的「上次使用」和「用於」欄。 [計算量度管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md) 和 [篩選器管理器](/help/components/filters/manage-filters.md) 僅供系統管理員使用。 |
 | 匯出資料集所需的許可權 | 已新增說明 [需要的許可權](/help/technotes/access-control.md) 將資料集匯出至雲端目的地。 |
 | 管理連線 | 已更新 [管理連線](../connections/manage-connections.md) 文章，根據客戶回饋意見。 |
