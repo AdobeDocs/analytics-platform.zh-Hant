@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
-source-git-commit: 8118435a3982c405f76de9070afa05b8fd71ebf3
+source-git-commit: 40e4c3bd8f3c37e9a6143200b85ffe0ac4bcb2ca
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
 
 # 資料匯出使用案例
 
-本節提供資料匯出使用案例。 每個使用案例都在自己的文章中說明。 對於某些使用案例，會提供多個解決方案。
+本節提供資料匯出使用案例，以及如何使用一或多個Customer Journey Analytics或Experience Platform功能實施這些使用案例。 每項功能都將在另一篇文章中進一步詳細說明。
 
 ## 簡介
 
@@ -67,7 +67,7 @@ Adobe Analytics和Customer Journey Analytics之間的其中一項獨特差異，
    * 設定傳送問題的警示以及排程傳送期間的限制。
 
 
-## 使用案例和解決方案
+## 使用案例和功能
 
 一般而言，資料匯出支援許多使用案例。 就所需的資料以及如何存取和匯出該資料而言，每個使用案例都不同。 Experience Platform和Customer Journey Analytics提供許多功能，不論是獨立或結合使用，皆可解決各種使用案例。 下表概略介紹已識別的資料匯出使用案例，以及實施這些使用案例的Experience Platform和Customer Journey Analytics功能。
 
