@@ -1,16 +1,16 @@
 ---
-title: 資料摘要使用案例
+title: 資料匯出使用案例
 description: 瞭解用於Customer Journey Analytics的各種資料匯出使用案例
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 19018e31bb2a46e88a27643fe10c388b40de243e
+exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
+source-git-commit: 8118435a3982c405f76de9070afa05b8fd71ebf3
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
 
 ---
-
 
 # 資料匯出使用案例
 
@@ -77,4 +77,3 @@ Adobe Analytics和Customer Journey Analytics之間的其中一項獨特差異，
 | **資料驗證**<br/>&#x200B;評估點按資料流資料的資料收集準確度。 | **Experience Platform**： [**查詢服務(資料Distiller)和匯出資料集**](queryservice-export-datasets.md)<br/> Interactive PostgreSQL介面使用您最愛的SQL工具執行臨機SQL查詢，以驗證資料集中的資料。<br/><br/>**Customer Journey Analytics**： [**匯出完整表格**](export-full-table.md)<br/>&#x200B;驗證來自CJA的處理資料，並套用歸因和工作階段化。 |
 | **Data Lake、Data Warehouse或BI工具**<br/>&#x200B;將數位資料帶入您自己的BI工具或資料湖，以搭配其他資料集使用。 | **Customer Journey Analytics**： [**BI擴充功能**](bi-extension.md)<br/>&#x200B;將Customer Journey Analytics處理的量度新增至資料視覺化工具(例如Power BI)，並與自訂報表的其他資料結合&#x200B;<br/><br/>**Experience Platform**： [**查詢服務(資料Distiller)和匯出資料集**](queryservice-export-datasets.md)<br>&#x200B;使用SQL產生自訂的點按資料流資料，以傳送至雲端目的地。 |
 | **AI/ML整備**<br/>&#x200B;使用Customer Journey Analytics資料增強人工智慧/機器學習模型和任務。 | **Customer Journey Analytics**： [**匯出完整表格**](export-full-table.md)<br/>&#x200B;將Customer Journey Analytics處理的維度和量度一次性或循環匯出至雲端目的地，包括計算量度和細分。<br/><br/>**Experience Platform**： [**查詢服務(資料Distiller)和匯出資料集**](queryservice-export-datasets.md)<br/>&#x200B;使用SQL產生自訂的點按資料流資料，以豐富AI/ML模型。 |
-
