@@ -9,9 +9,9 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: d1497c20c0e986ae27fd7c64a14fd92630081650
+source-git-commit: a968ab150ed5fe3df9c0759c186b01444583cedf
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1102'
 ht-degree: 77%
 
 ---
@@ -344,6 +344,12 @@ ht-degree: 77%
    + 資料檢視 {#data-views}
       + [資料檢視使用案例](../use-cases/data-views/data-views-usecases.md)
       + [使用繫結維度和量度](../use-cases/data-views/binding-dimensions-metrics.md)
+   + 資料匯出 {#data-export}
+      + [概觀](../use-cases/data-export/overview.md)
+      + [BI副檔名](../use-cases/data-export/bi-extension.md)
+      + [匯出資料集](../use-cases/data-export/export-datasets.md)
+      + [匯出完整表格](../use-cases/data-export/export-full-table.md)
+      + [查詢服務和匯出資料集](../use-cases/data-export/queryservice-export-datasets.md)
    + B2B {#b2b}
       + [範例B2B專案](../use-cases/b2b/example.md)
       + [新增帳戶層級資料當作查詢資料集](../use-cases/b2b/b2b.md)
@@ -353,7 +359,6 @@ ht-degree: 77%
    + Adobe Analytics 資料 {#aa-data}
       + [使用行銷管道維度](../use-cases/aa-data/marketing-channels.md)
       + [結合報告套裝與不同的結構描述](../use-cases/aa-data/combine-report-suites.md)
-      + [模擬資料摘要](../use-cases/emulating-data-feeds.md)
    + 複雜的資料 {#complex-data}
       + [使用物件陣列](../use-cases/object-arrays.md)
    + 衍生欄位 {#derived-fields}
