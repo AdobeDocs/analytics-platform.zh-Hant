@@ -5,16 +5,16 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
+source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 2%
 
 ---
 
-# 轉換趨勢檢視
+# [!UICONTROL 轉換趨勢] 檢視
 
-此 **轉換趨勢** 檢視可提供一段時間內轉換率的趨勢視覺效果。 水平軸是時間間隔，而垂直軸則代表轉換率。
+此 **[!UICONTROL 轉換趨勢]** 檢視可提供一段時間內轉換率的趨勢視覺效果。 水平軸是時間間隔，而垂直軸則代表轉換率。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421662/?learn=on)
 

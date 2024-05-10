@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: a968ab150ed5fe3df9c0759c186b01444583cedf
+source-git-commit: 300868a88cf8ea3c345c5a211076f632dd9d0bbc
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 77%
+source-wordcount: '1105'
+ht-degree: 76%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 77%
       + [保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
    + 與 Adobe Analytics 比較{#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
-      + [在 Customer Journey Analytics 中利用 Adobe Analytics 資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [在Customer Journey Analytics中使用Adobe Analytics資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Customer Journey Analytics 功能支援](../getting-started/aa-vs-cja/cja-aa.md)
       + [比較透過 Analytics 來源連接器傳遞的 Analytics 資料術語](../getting-started/aa-vs-cja/terminology.md)
       + [比較 Adobe Analytics 和 Customer Journey Analytics 之間的資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
@@ -200,6 +200,8 @@ ht-degree: 77%
 
 + 引導式分析 {#guided-analysis}
    + [概觀](../guided-analysis/overview.md)
+   + 功能矩陣 {#feature-matrix}
+      + [參與](../guided-analysis/types/engagement.md)
    + 漏斗 {#funnel}
       + [摩擦檢視](../guided-analysis/types/friction.md)
       + [轉換趨勢檢視](../guided-analysis/types/conversion-trends.md)
