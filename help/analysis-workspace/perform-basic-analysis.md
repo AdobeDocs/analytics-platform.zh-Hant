@@ -5,16 +5,22 @@ feature: Workspace Basics
 exl-id: b013f9ce-6a6c-4a33-8081-5133557cf0b6
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 70%
 
 ---
 
 # 執行基本分析
 
-建立連線和資料檢視後，使用 Analysis Workspace 的強大功能與彈性來分析您所匯入的資料。您可以嘗試拖曳維度和量度，以及變更維度和量度歸因設定、好記的名稱、時區、工作階段設定等項目。
+Customer Journey Analytics可讓您運用Analysis Workspace的強大功能與彈性分析資料。
+
+>[!TIP]
+>
+>如果Analysis Workspace中沒有可用的資料，請務必遵循 [資料擷取程式](/help/data-ingestion/data-ingestion.md)，包括下列專案：<ul><li>[建立連線](/help/connections/create-connection.md#create-and-configure-the-connection) </br>請確定連線已設定為匯入新資料、回填資料或兩者。</li><li>[新增資料集](/help/connections/create-connection.md#add-and-configure-datasets)</li><li>[建立資料檢視](/help/data-views/create-dataview.md)</li></ul>
+
+您可以嘗試拖曳維度和量度，以及變更維度和量度歸因設定、好記的名稱、時區、工作階段設定等項目。
 
 以下是 Workspace 中基本視覺效果的範例。例如，您可以
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 84%
+source-wordcount: '2041'
+ht-degree: 78%
 
 ---
 
@@ -173,37 +173,45 @@ ht-degree: 84%
 
 您需根據從何處接收忠誠度資料，挑選 Adobe Experience Platform 中可用的相關來源連接器。
 
+您可以從多種來源擷取資料。 以下只是眾多可用來源中的幾個：
+
+- Adobe應用程式(來源聯結器包括 [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)， [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager)，等等)
+
+- 雲端儲存空間(來源聯結器包括 [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3)， [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob)，等等)
+
+- 資料庫(來源聯結器包括 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)， [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server)，等等)
+
 若要設定來源連接器，請執行以下操作：
 
-1. 在 Adobe Experience Platform UI 中，在左側邊欄的[!UICONTROL 「連線」]中選取&#x200B;**[!UICONTROL 「來源」]**。
+1. 在Adobe Experience Platform中，選取 **[!UICONTROL 來源]** 從 [!UICONTROL 連線] 在左側邊欄中。
 
-2. 從可用來源連接器清單中選擇您的來源連接器。每個連接器都遵循類似的工作流程：
+1. 從可用的來源聯結器清單中選取您的來源聯結器。
 
-   - **[!UICONTROL 驗證]**。您提供驗證詳細資訊以存取資料來源。
+   每個連接器都遵循類似的工作流程：
 
-   - **[!UICONTROL 選取資料]**：選取要擷取的來源資料。
+   1. **[!UICONTROL 驗證]**。您提供驗證詳細資訊以存取資料來源。
 
-   - **[!UICONTROL 資料流詳細資料]**：您可以提供資料流的其他詳細資料，例如名稱和要使用的資料集。
+   1. **[!UICONTROL 選取資料]**：選取要擷取的來源資料。
 
-   - **[!UICONTROL 對應]**：將傳入的來源資料欄位對應至與您所選資料集關聯之結構中的屬性。
+   1. **[!UICONTROL 資料流詳細資料]**：您可以提供資料流的其他詳細資料，例如名稱和要使用的資料集。
 
-   - **[!UICONTROL 排程]**：如果可用，您可以排程資料擷取。
+   1. **[!UICONTROL 對應]**：將傳入的來源資料欄位對應至與您所選資料集關聯之結構中的屬性。
 
-   - **[!UICONTROL 檢閱]**：您會看到來源連接器定義的檢閱。
+   1. **[!UICONTROL 排程]**：如果可用，您可以排程資料擷取。
 
-   每個連接器都提供了詳細的文件。
+   1. **[!UICONTROL 檢閱]**：您會看到來源連接器定義的檢閱。
 
-   若要存取此文件：
+1. 每個聯結器都提供詳細檔案。 若要存取此文件：
 
-   - 在連接器圖格上，選取[!UICONTROL 「設定」]或[!UICONTROL 「新增資料」]旁邊的&#x200B;**[!UICONTROL 「...」]**。
+   1. 在連接器圖格上，選取[!UICONTROL 「設定」]或[!UICONTROL 「新增資料」]旁邊的&#x200B;**[!UICONTROL 「...」]**。
 
-     ![檢視文件](./assets/sourceconnector-documentation.png)
+      ![檢視文件](./assets/sourceconnector-documentation.png)
 
-   - 選取&#x200B;**[!UICONTROL 「檢視文件」]**。
+   1. 選取&#x200B;**[!UICONTROL 「檢視文件」]**。
 
-請參閱[從傳統 Adobe Analytics 擷取和使用資料](./analytics.md)，了解如何使用 Adobe Analytics 來源連接器。
+另請參閱 [從傳統Adobe Analytics內嵌及使用資料](./analytics.md) 有關如何使用Adobe Analytics來源聯結器的資訊。
 
-請參閱[擷取和使用串流資料](./streaming.md)，了解如何使用 HTTP API 來源連接器。
+另請參閱 [擷取及使用串流資料](./streaming.md) 有關如何使用HTTP API來源聯結器的資訊。
 
 請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions)，了解來源連接器 (包括每個連接器的詳細資訊連結) 的概述。
 

@@ -5,8 +5,8 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: dc3a109f162adfe48f621ba3ece95fedead3c6e1
-workflow-type: ht
+source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
+workflow-type: tm+mt
 source-wordcount: '2910'
 ht-degree: 100%
 
@@ -28,14 +28,14 @@ ht-degree: 100%
 
 您可以新增至連線的最大資料集數量上限為 100。該組合取決於您公司購買的 Customer Journey Analytics 套件。
 
+如果您不確定自己擁有哪一種 Customer Journey Analytics 套件，請聯絡您的管理員。
+
 | **選取**&#x200B;套件 | **基礎**&#x200B;套件 |
 | --- | --- |
 | 事件/設定檔/查詢資料集的任意組合，總計最多 100 個 | 每個連線一個事件資料集 |
 |  | 每個連線最多 99 個設定檔或查詢資料集 |
 
 {style="table-layout:auto"}
-
-如果您不確定自己擁有哪一種 Customer Journey Analytics 套件，請聯絡您的管理員。
 
 ## 建立和設定連線 {#create-connection}
 

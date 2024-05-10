@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ea3ea6ad387300e2efcafb8e49efcafdfc011ba9
+source-git-commit: 0014515b29885bf3eb44e8e49fc605fc76e4b439
 workflow-type: tm+mt
-source-wordcount: '3544'
+source-wordcount: '3567'
 ht-degree: 71%
 
 ---
@@ -24,6 +24,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 有關從Adobe Analytics升級至Customer Journey Analytics的新檔案 | 對於從Adobe Analytics升級至Customer Journey Analytics的組織，根據組織目前的Adobe Analytics實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的檔案資源，協助您更清楚瞭解：</p><ul><li>現有的各種升級路徑</li><li>根據組織目前的Adobe Analytics實作，提供哪些升級路徑</li><li>每個升級路徑的優缺點</li><li>各升級路徑的逐步指引</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md).</p> |
 | 更新自訂日期範圍的相關檔案 | 更新相關熒幕擷取畫面和程式 [建立自訂日期範圍](/help/components/date-ranges/custom-date-ranges.md) 以符合目前的產品功能與設計。 |
 | Dimension的概觀資訊 | 已新增以下資訊： [維度](/help/components/dimensions/overview.md). |
+| 來源聯結器的範例 | 新增說明如何運作時可用的來源聯結器範例。 [使用來源聯結器](/help/data-ingestion/sources.md#use-a-source-connector) 用於擷取資料。 |
 | **2024 年 4 月** | |
 | 預測統計技術 | 新增文章以說明 [預測服務中使用的統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md). |
 | 新增建議為高基數維度匯出完整表格的資訊 | 在中新增專案符號 [高基數維度的最佳做法](/help/components/dimensions/high-cardinality.md) 建議針對高基數維度使用完整表格匯出。 |
