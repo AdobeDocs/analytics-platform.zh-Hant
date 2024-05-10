@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: ad7f748fb7aa684d134cf110460a84d1b9ec3895
 workflow-type: tm+mt
-source-wordcount: '2730'
-ht-degree: 98%
+source-wordcount: '2748'
+ht-degree: 97%
 
 ---
 
@@ -312,6 +312,11 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 `daterange` 欄位也可以用於「日期時間」函數以剖析或截斷事件日期。
 
  `daterangeName` 特殊欄可用來使用命名的日期範圍 (例如 `Last Quarter`) 來篩選查詢。
+
+>[!NOTE]
+>
+>PowerBI不支援 `daterange` 少於一天的量度（小時、30分鐘、5分鐘等）。
+
 
 #### 篩選器 ID
 
