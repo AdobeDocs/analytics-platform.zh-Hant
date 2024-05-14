@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: 6cceeaa3b57808a82012b124435aa1b7dbf1b3f2
+source-git-commit: f1e1fdd5ca8aa51a28de13cdb028bf585a0324e7
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2475'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 |---------|----------|
 | AppMeasurement | <ul><li>Experience Platform Web SDK的新實作</li><li>將Adobe Analytics移轉至Web SDK</li><li>Analytics來源聯結器</li></ul> |
 | Adobe Analytics 擴充功能 | <ul><li>Experience Platform Web SDK的新實作</li><li>將Adobe Analytics移轉至Web SDK</li><li>Analytics來源聯結器</li></ul> |
-| Web SDK | <ul><li>設定Adobe Analytics Web SDK實作，將資料傳送至Customer Journey Analytics</li></ul> |
+| Web SDK | <ul><li>設定Adobe Analytics Web SDK實作，將資料傳送至Platform</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 #### 升級路徑
 
-+++設定Adobe Analytics Web SDK實作，將資料傳送至Customer Journey Analytics
++++設定Adobe Analytics Web SDK實作，將資料傳送至Platform
 
 | 優勢 | 缺點 |
 |----------|---------|
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 #### 選擇您的結構描述
 
-如果您選取的升級路徑可讓您設定Adobe Analytics Web SDK實作以傳送資料給Customer Journey Analytics，您可以選擇要使用的結構描述。
+如果您選取的升級路徑可讓您設定Adobe Analytics Web SDK實作以傳送資料至Platform，您可以選擇要使用的結構描述。
 
 您可以選擇是否使用現有的Adobe Analytics結構描述，或是在您開始使用其他Platform服務時，更新為自己的XDM結構描述以更符合組織的需求。
 
@@ -165,7 +165,7 @@ ht-degree: 0%
 
 | 優勢 | 缺點 |
 |----------|---------|
-| <ul><p>更新至您自己的XDM結構描述的優點包括：</p><ul><li>根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化方案。</li><p>當需要變更結構描述時，您不必在數千個未使用的欄位中篩選，以尋找需要更新的欄位。</p></ul> | <p>更新至您自己的XDM結構的缺點包括：</p><ul><li>在開始將資料傳送到Customer Journey Analytics之前，需要更新您的結構描述是耗時的過程。</li></ul> |
+| <ul><p>更新至您自己的XDM結構描述的優點包括：</p><ul><li>根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化方案。</li><p>當需要變更結構描述時，您不必在數千個未使用的欄位中篩選，以尋找需要更新的欄位。</p></ul> | <p>更新至您自己的XDM結構的缺點包括：</p><ul><li>在開始將資料傳送至Platform之前，需要先更新您的結構描述，這是一個耗時的過程。</li></ul> |
 
 +++
 
