@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 4ad92a72f0ced81f84198da744fef9fe4c0a6b0b
+source-git-commit: cc74a8fdb3e44c5fa46e82a5111619970f090870
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 43%
+source-wordcount: '622'
+ht-degree: 47%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 43%
 | **用於Customer Journey Analytics的AI助理** | 可讓您在Customer Journey AnalyticsUI中詢問自然語言問題，並根據Customer Journey Analytics檔案取得答案。 (後續文件連結) | | 2024年5月30日 |
 | **串流媒體：使用Web SDK傳送Web資料至Adobe Experience Platform Edge Network** | 您現在可以使用Adobe Experience Platform Web SDK將串流媒體網頁資料傳送到Adobe Experience Platform Edge Network，讓您建立更個人化的行銷活動並提供更個人化的內容，從而得到更多要報告的追蹤資料。<p>此增強功能為跨所有平台解決方案(例如Customer Journey Analytics、RT-CDP、AJO和事件轉送)的Web實施提供統一的收集方法。 過去，將串流媒體網頁資料傳送至Edge Network的唯一方式是使用Media Edge API。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) | | 2024 年 5 月 31 日 |
 | **衍生欄位 — 數學函式** | 可讓您在資料檢視中執行簡單的數學運運算元，以回答有關使用者的問題。 例如，您可以將產品、保固和送貨收入結合在一起。 (後續文件連結) | | 2024年6月5日 |
-| **衍生欄位 — 下一個或上一個函式** | 讓您檢視下一個或上一個值。 例如，在選取的行銷管道之前，某人先前互動的行銷管道為何？ 或者，使用者在選取頁面之前或之後互動的頁面為何？ 使用者在進店前互動最熱門的頻道為何？  (後續文件連結) | | 2024年6月12日 |
 | **有關從Adobe Analytics升級至Customer Journey Analytics的新檔案** | 對於從Adobe Analytics升級至Customer Journey Analytics的組織，根據組織目前的Adobe Analytics實作和長期目標，有多種升級選項和許多需要牢記的考量事項。 現在提供新的文件資源來協助您更加瞭解：<ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li></ul>[開始升級至Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 現在可用 |
 | **有關的新檔案 [資料匯出使用案例](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-export/overview)** | 本節概述資料匯出使用案例，例如<ul><li>資料備份</li><li>資料驗證</li><li>Data Lake、Data Warehouse或BI工具</li><li>AI/ML整備</li></ul> 以及如何使用Experience Platform和Customer Journey Analytics功能實作這些方法。 | | 現在可用 |
 
