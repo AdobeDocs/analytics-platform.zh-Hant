@@ -3,48 +3,43 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
-workflow-type: ht
-source-wordcount: '946'
-ht-degree: 100%
+source-git-commit: 36badebf0710131b2f831feb645f20d8dd888b9b
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 43%
 
 ---
 
-# 最新的 Adobe Customer Journey Analytics 發行說明 (2024 年 4 月)
+# 最新Adobe Customer Journey Analytics發行說明（2024年5月）
 
-**上次更新日期**：2024 年 4 月 17 日
+**上次更新**：2024年5月9日
 
-這些發行說明涵蓋 2024 年 4 月 10 日至 2024 年 5 月的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2024年5月15日至2024年6月的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **串流媒體：將 Roku 資料傳送至 Adobe Experience Platform Edge** | 現在，[透過 Experience Platform Edge 安裝 Media Analytics](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) 時，您可以使用 Adobe Experience Platform Roku SDK 將串流媒體資料傳送至 Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
-| **在報告活動管理員中公開每月報告** | 在報告活動管理員中檢視所有連線的報告活動時，現在可以使用一個圖表來顯示在 IMS 組織層級執行的 [每月報告/請求](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/reporting-activity-manager/reporting-activity#view-all-report-suites) (當月和上個月)。<p>**備註：**&#x200B;資料從 2024 年 3 月中開始提供。 | | 2024 年 4 月 15 日 |
-| **行動計分卡中智慧型註解** | [智慧型註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)可協助非分析師在沒有分析師幫助下更能了解他們的資料。現在可在 Customer Journey Analytics 計分卡中使用。 |  | 2024 年 4 月 17 日 |
-| **僅限專案 [!UICONTROL Workspace] 元件的權限增強** | 在過去，如果某位使用者 (使用者 A) 與另一位使用者 (使用者 B) 共用專案，並授予使用者 B 對專案的編輯存取權，則使用者 B 將可編輯該專案。但是，使用者 B 無法編輯專案中嵌入的[!UICONTROL 快速篩選器]。該項限制現已移除 - 使用者 B 可以編輯共用專案中嵌入的[快速篩選器](/help/components/filters/quick-filters.md)以及其他限專案使用的元件。 |  | 2024 年 4 月 17 日 |
-| **管理員可以管理其組織中的所有位置** | [「位置」頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/locations-manager)上的新選項可讓管理員檢視和管理組織中的所有位置。以前，管理員只能查看和管理他們建立的位置。 |  | 2024 年 4 月 |
-| **Adobe Product Analytics 功能矩陣** | 了解您的核心、優勢、一次性和有疑問的功能是什麼，從而推動投資決策。[!UICONTROL 功能矩陣]是透過使用頻率與作用中使用者百分比來衡量事件，並與使用中位數進行比較。 | 2024 年 4 月 17 日 | 2024 年 4 月 30 日 |
-| **Adobe Product Analytics：強化漏斗中的深入解析** | 在「[摩擦](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/funnel/friction)」視圖中，書面深入解析已強化，以包括類別、增量和說明，從而進一步了解圖表和表格。 | 2024 年 4 月 17 日 | 2024 年 4 月 26 日 |
-| **Adobe Product Analytics：強化保留視圖** | 「[保留率](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/retention/retention-rates)」視圖中新增了多項功能，以推動更深入且可自訂的保留深入解析：<ul><li>解除連結開始和返回事件</li><li>在單一視圖中比較多個返回事件</li><li>自訂已套用在或晚於 (未繫結)、每個 (繫結) 和階層分類設定的保留模型</li><li>顯示和隱藏圖表中的各個同類群組列</li></ul> | 2024 年 4 月 24 日 | 2024 年 5 月 8 日 |
-| **Adobe Product Analytics：比較單一漏斗步驟中的事件** | 現在起，您可以在[摩擦](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/funnel/friction)視圖中比較單一漏斗步驟內的事件。您的歷程有步驟選項或有一個執行 A/B 實驗的步驟時，此功能特別實用。 | 2024 年 4 月 23 日 | 2024 年 5 月 3 日 |
-| **對於人員到帳戶的 B2B 方案轉換** | 讓您轉換資料集，以便進一步支援 Customer Journey Analytics B2B 報告情境中基於人員的查詢。此功能可用於基於以下類別的 B2B 方案資料集：<ul><li>XDM 商業帳戶個人關係</li><li>XDM 商業機會個人關係</li><li>XDM 業務行銷清單會員</li><li>XDM 商業活動會員</li></ul> | | 2024 年 5 月 1 日 |
-| **Experience Edge 機器人偵測** | [機器人偵測](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=zh-Hant)可讓您將 Web SDK、Mobile SDK 和伺服器 API 產生的事件識別為由已知編目程式和機器人產生。 | | 2024 年 5 月 1 日 |
-| **衍生欄位：「下一個」或「上一個」函數** | 這些新功能可讓您將欄位作為輸入，然後識別前 n 個或下 n 個值，以便更完善地檢視使用者歷程。此功能還可以與「[!UICONTROL 衍生欄位]」中的其他函數 (例如「[!UICONTROL 串連]」) 結合使用，以建立新維度。 |  | 2024 年 5 月 1 日 |
-| **對象已經發佈到 Experience Platform 中新的「對象」區段** | 現在起，從 Customer Journey Analytics 發佈的對象，可在 Adobe Experience Platform 的新「對象」區段中取得。<p>以前，從 Customer Journey Analytics 發佈的對象是在 Experience Platform 的「區段」部分下方取得。</p><p>此改善提供以下優點：</p><ul><li>對象出現在 Experience Platform 之前，不會再有 1 小時的延遲，而是在發佈之後幾秒鐘即可使用。</li><li>可以使用「來源」欄對 Experience Platform 中的對象進行排序，其中會顯示最初發佈對象的應用程式。</li><li>Experience Platform 中的篩選和排序選項可讓您更快找到相關的對象。</li></ul> |  | 2024 年 5 月 |
+| **BI擴充功能** | BI擴充功能可讓SQL存取您在Customer Journey Analytics中定義的資料檢視。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/bi-extension) | | 2024年5月15日 |
+| **對象已經發佈到 Experience Platform 中新的「對象」區段** | 現在起，從 Customer Journey Analytics 發佈的對象，可在 Adobe Experience Platform 的新「對象」區段中取得。<p>以前，從 Customer Journey Analytics 發佈的對象是在 Experience Platform 的「區段」部分下方取得。</p><p>此改善提供以下優點：</p><ul><li>對象出現在 Experience Platform 之前，不會再有 1 小時的延遲，而是在發佈之後幾秒鐘即可使用。</li><li>可以使用「來源」欄對 Experience Platform 中的對象進行排序，其中會顯示最初發佈對象的應用程式。</li><li>Experience Platform 中的篩選和排序選項可讓您更快找到相關的對象。</li></ul> [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/audiences/publish) |  | 2024年5月15日 |
+| **用於Customer Journey Analytics的AI助理** | 可讓您在Customer Journey AnalyticsUI中詢問自然語言問題，並根據Customer Journey Analytics檔案取得答案。 (後續文件連結) | | 2024年5月30日 |
+| **串流媒體：使用Web SDK傳送Web資料至Adobe Experience Platform Edge Network** | 您現在可以使用Adobe Experience Platform Web SDK將串流媒體網頁資料傳送到Adobe Experience Platform Edge Network，讓您建立更個人化的行銷活動並提供更個人化的內容，從而得到更多要報告的追蹤資料。<p>此增強功能為跨所有平台解決方案(例如Customer Journey Analytics、RT-CDP、AJO和事件轉送)的Web實施提供統一的收集方法。 過去，將串流媒體網頁資料傳送至Edge Network的唯一方式是使用Media Edge API。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) | | 2024 年 5 月 31 日 |
+| **衍生欄位 — 數學函式** | 可讓您在資料檢視中執行簡單的數學運運算元，以回答有關使用者的問題。 例如，您可以將產品、保固和送貨收入結合在一起。 (後續文件連結) | | 2024年6月5日 |
+| **衍生欄位 — 下一個或上一個函式** | 讓您檢視下一個或上一個值。 例如，在選取的行銷管道之前，某人先前互動的行銷管道為何？ 或者，使用者在選取頁面之前或之後互動的頁面為何？ 使用者在進店前互動最熱門的頻道為何？  (後續文件連結) | | 2024年6月12日 |
+| **有關從Adobe Analytics升級至Customer Journey Analytics的新檔案** | 對於從Adobe Analytics升級至Customer Journey Analytics的組織，根據組織目前的Adobe Analytics實作和長期目標，有多種升級選項和許多需要牢記的考量事項。 現在提供新的文件資源來協助您更加瞭解：<ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li></ul>[開始升級至Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 現在可用 |
+| **有關的新檔案 [資料匯出使用案例](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-export/overview)** | 本節概述資料匯出使用案例，例如<ul><li>資料備份</li><li>資料驗證</li><li>Data Lake、Data Warehouse或BI工具</li><li>AI/ML整備</li></ul> 以及如何使用Experience Platform和Customer Journey Analytics功能實作這些方法。 | | 現在可用 |
 
 {style="table-layout:auto"}
 
 ## Customer Journey Analytics 中的修正
 
-AN-319662；AN-337894；AN-338469；AN-340147；AN-340200；AN-340443；AN-341594；AN-342442；AN-342976；AN-343020；AN-343469；AN-343703；AN-343938；AN-344614；AN-344677；
+AN-342309、AN-342312、AN-345267、AN-345909、AN-346016、AN-346049、AN-346052、AN-346287、AN-346624、AN-347919
 
 ## 給 Customer Journey Analytics 管理員的重要通知
 
 | 通知 | 新增或更新通知 | 說明 |
 | --- | --- | --- |
-| **資料視圖和連線 UI 中的連結已更新** | 2 月 15 日 | Adobe 計劃於三月初更新以下 Customer Journey Analytics 產品使用者介面中的連結。請據以更新您的書籤。<ul><li>**資料視圖頁面，資料視圖管理器**：[現有連結](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/dataViewsCJA/manager) > [新連結](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/data-views)</li><li>**建立新資料視圖**：[現有連結](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/dataViewsCJA/new) > [新連結](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/data-views/new)</li><li>**編輯資料視圖**：[現有連結](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/dataViewsCJA/edit/dv_65b9f6eba2c6554743236e88) > [新連結](https://experience.adobe.com/#/@aresemeavalidationco/platform/analytics/#/apps/data-management/data-views/dv_62fde2e158324f2803c9e5d6/edit)</li><li>**連線管理器**：[現有連結](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/connections2/manager) > [新連結](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/connections)</li><li>**連線資訊**：[現有連結](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/connections2/view/dg_66749c92-784b-45bb-b114-e9e8377a2fc1) > [新連結](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/connections/dg_a2b297a6-9220-440d-a403-ee8fbf627cd8)</li><li>**編輯連線**：[現有連結](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/connections2/edit/dg_66749c92-784b-45bb-b114-e9e8377a2fc1) > [新連結](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/connections/dg_a2b297a6-9220-440d-a403-ee8fbf627cd8/edit)</li><li>**建立新連線**：[現有連結](https://experience.adobe.com/#/@aresstagevalidationco/platform/analytics/#/connections2/new) > [新連結](https://experience.adobe.com/#/@org/platform/analytics/#/apps/data-management/connections/new/edit)</li></ul> |
+| 不適用 | | |
 
 {style="table-layout:auto"}
 
