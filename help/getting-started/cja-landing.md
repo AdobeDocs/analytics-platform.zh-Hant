@@ -4,31 +4,55 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 2f5bd8bec1580077675d249fa0431d84ee2269fa
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+source-git-commit: 6b5a9050d6c13e3c9d637a3ed992840a46058cee
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 59%
 
 ---
 
 # Customer Journey Analytics 指南
 
-本技術文件指南提供 Customer Journey Analytics 的自助協助。Customer Journey Analytics 可將您所選任何管道的客戶資料 (線上及離線皆可) 整合到 Adobe Experience Platform 中，接著依您目前使用 Analysis Workspace 分析現有數位資料的方式加以分析。
+本技術文件指南提供 Customer Journey Analytics 的自助協助。Customer Journey Analytics可讓您將您選擇之任何管道的客戶資料（線上及離線皆可）整合到Adobe Experience Platform中。 接著依您目前使用Analysis Workspace分析現有數位資料的方式來分析這些資料。
 
-Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接任何常見客戶 ID 的線上和離線資料，進而允許您歸因、篩選器、流量與流失等分析。進行全部客戶資料的歸因、篩選器、流量與流失等分析。
+Customer Journey Analytics可讓您控制如何在Analysis Workspace中連線任何常見客戶ID的線上和離線資料，讓您進行歸因、篩選、流量與流失等分析。 進行全部客戶資料的歸因、篩選器、流量與流失等分析。
 
 ## 新增功能？
 
-快速一覽 Customer Journey Analytics 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../release-notes/latest.md)。請瀏覽[文件更新頁面](../release-notes/doc-changes.md)，了解文件的最新變更。
+快速一覽 Customer Journey Analytics 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../release-notes/latest.md)。造訪 [檔案更新頁面](../release-notes/doc-changes.md) 以掌握最新變更。
 
 >[!BEGINTABS]
+
+>[!TAB BI擴充功能*]
+
+BI擴充功能可讓SQL存取您在Customer Journey Analytics中定義的資料檢視。 您現在可以使用您最愛的BI工具，根據Customer Journey Analytics使用者在其Analysis Workspace專案中使用的相同資料檢視建立報告和儀表板。
+
+[![影像](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
+
+<span style="color:gray">*_您必須有Select套件或更高版本才能使用BI擴充功能。_</span>
+
+
+<!--
+>[!TAB Improved Audience Publising] 
+
+Audiences that are published from Customer Journey Analytics are now available in the new **Audiences** section in Adobe Experience Platform. Audiences are now available in Experience Platform seconds after they are published from Customer Journey Analytics. Improved sorting and filter options in Experience Platform for Customer Journey Analytics audiences. 
+
+[![image](assets/learn-more-button.svg)](/help/components/audiences/publish.md)
+
+-->
+
+
+>[!TAB 新檔案]
+
+新檔案現在可從以下網址取得：<ul><li>如何從Adobe Analytics升級至Customer Journey Analytics。</li><li>資料匯出使用案例和必要的Experience Platform及Customer Journey功能。 </li></ul>選取 **[!UICONTROL 瞭解更多]** 本檔案和其他檔案的更新內容。
+
+[![影像](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
 >[!TAB 預測]
 
 預測是 Analysis Workspace 的功能，用於以任何支援的時間詳細程度 (每小時、每天、每週、每月和每年) 預測標準或計算量度。預測僅適用於時間序列相關資料。
 
 [![影像](assets/learn-more-button.svg)](/help/analysis-workspace/c-forecast/forecasting.md)
-
 
 >[!TAB 引導式分析* - 保留率]
 
@@ -47,13 +71,6 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 <span style="color:gray">*_引導式分析是 Adobe Product Analytics 的一部分；Adobe Product Analytics 是 Customer Journey Analytics 的付費附加元件。_</span>
 
-
->[!TAB 關鍵量度摘要視覺效果]
-
-使用關鍵量度摘要視覺效果時，比較日期範圍現在可以自動更新，具體取決於您選擇的比較日期範圍選項是相對於主要日期範圍還是固定的。
-
-[![影像](assets/learn-more-button.svg)](/help/analysis-workspace/visualizations/key-metric.md)
-
 >[!ENDTABS]
 
 ## 從基礎知識開始
@@ -68,7 +85,7 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
     </td>
     <td>
     <a href="/help/data-ingestion/data-ingestion.md"><img src="./assets/data-ingestion.png"></a>
-    <div><strong>擷取和使用資料</strong><br/>了解將資料擷取到 Experience Platform 並將其用於 Customer Journey Analytics 分析和報告的選項。</div>
+    <div><strong>擷取及使用資料</strong><br/>瞭解您必須將資料內嵌至Experience Platform並使用於Customer Journey Analytics中的分析和報表的選項。</div>
     </td>
     <td>
     <a href="/help/guided-analysis/overview.md"><img src="./assets/product-analytics.png"></a>
@@ -90,7 +107,7 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 ## 探索文件
 
-了解 Customer Journey Analytics 與 Adob&#x200B;&#x200B;e Analytics 的比較，以及如何在解決方案中取得資料，然後準備、檢視、分析和普及化這些資料以及產生分析和報告。
+瞭解Customer Journey Analytics與Adobe Analytics的落差。 以及如何在解決方案中取得資料，然後準備、檢視、分析這些資料，並將其大眾化，最後形成分析和報告。
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -104,14 +121,14 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
     </td>
      <td>
       <img src="./assets/dataviews.svg" width="35px"><br/>
-      <strong>資料視圖</strong><br/><a href="/help/data-views/data-views.md">概述</a> - <a href="/help/data-views/create-dataview.md">建立或編輯</a> - <a href="/help/data-views/session-settings.md">工作階段設定</a> - <a href="/help/data-views/derived-fields/derived-fields.md">衍生欄位</a> - <a href="/help/data-views/component-reference.md">元件引用</a>
+      <strong>資料檢視</strong><br/><a href="/help/data-views/data-views.md">概觀</a> - <a href="/help/data-views/create-dataview.md">建立或編輯</a> - <a href="/help/data-views/session-settings.md">工作階段設定</a> - <a href="/help/data-views/derived-fields/derived-fields.md">衍生欄位</a> - <a href="/help/data-views/component-reference.md">元件參考</a>
     </td>
 
 </tr>
   <tr style="border: 0;">
     <td>
       <img src="./assets/workspace.svg" width="35px"><br/>
-      <strong>Workspace 專案</strong><br/><a href="/help/analysis-workspace/home.md">Analysis Workspace</a> - <a href="/help/analysis-workspace/perform-basic-analysis.md">基本 </a>及<a href="/help/analysis-workspace/perform-adv-analysis.md">進階分析</a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md">專案</a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md">視覺化</a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md">面板</a>
+      <strong>Workspace專案</strong><br/><a href="/help/analysis-workspace/home.md">Analysis Workspace</a> - <a href="/help/analysis-workspace/perform-basic-analysis.md">基本</a> &amp; <a href="/help/analysis-workspace/perform-adv-analysis.md">進階分析</a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md">專案</a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md">視覺效果</a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md">面板</a>
     </td>
     <td>
       <img src="./assets/guided-analysis.svg" width="35px"><br/>
@@ -128,7 +145,7 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Customer Journey Analytics</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Customer Journey Analytics 產品說明</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics (Customer Journey Analytics 附加元件) 產品說明</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics API</a>
+<a href="https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Customer Journey Analytics 產品說明</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics (Customer Journey Analytics 附加元件) 產品說明</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics API</a>
 </td>
 <td><strong>資料擷取</strong><br/><a href="/help/data-ingestion/data-ingestion.md">概述</a> - <a href="/help/data-ingestion/analytics.md">Analytics</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a>  - <a href="/help/data-ingestion/aepmobilesdk.md">行動 SDK</a> - <a href="/help/data-ingestion/batch.md">批次</a> - <a href="/help/data-ingestion/streaming.md">串流</a> -  <a href="/help/data-ingestion/sources.md">來源</a> - <a href="/help/data-ingestion/serverapi.md">伺服器 API</a>
 </td>
@@ -136,4 +153,4 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>隨時掌握情況、為社群做出貢獻並提升您的 Customer Journey Analytics 體驗！</b><br>瀏覽 Adob​​e Analytics 社群，以便與其他從業者討論功能。<a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">立即加入社群！</a></td></tr></tbody></table>
+<b>隨時掌握情況、為社群做出貢獻並提升您的 Customer Journey Analytics 體驗！</b><br>請造訪Adobe Analytics社群，與其他從業人員討論此功能。 <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">立即加入社群！</a></td></tr></tbody></table>
