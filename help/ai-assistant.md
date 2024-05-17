@@ -4,9 +4,9 @@ title: Adobe Customer Journey Analytics的AI助理
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: 02a0ad53d8c3ef0c10e2b9c2b11bb75a6a962cf0
+source-git-commit: 49f2c393bbd0bff28dd8bc166b3c60bc49d4df37
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,16 @@ AI助理是UI功能，可用來導覽及瞭解Adobe Customer Journey Analytics�
 >[!IMPORTANT]
 >
 >目前，用於Customer Journey Analytics的AI助理無法回答有關您組織內資料物件的使用問題。
+
+## 功能存取
+
+在這個第一版中，對AI助理功能的存取受下列引數控制：
+
+* **解決方案存取權**： AI助理可在Customer Journey Analytics中使用，但無法在Adobe Analytics中使用。 Adobe Experience Platform、Adobe Journey Optimizer、Adobe Real-Time CDP及其他Experience Platform應用程式也提供此功能。
+
+* **合約存取**：您的Adobe銷售合約必須包含一項條款，允許Adobe在AI/ML模型開發中使用您的資料（條款6.2）。
+
+* **許可權**：此 [!UICONTROL Adobe Admin Console] [!UICONTROL 報告工具] 「AI助理檔案」許可權決定此工具的存取權。 此許可權將於5月中旬新增至「報表工具」區段。 您必須確保建立 [產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html) 以授予此許可權的Admin Console使用，並手動將使用者新增至此設定檔。
 
 ## 在Customer Journey AnalyticsUI中存取AI助理
 
