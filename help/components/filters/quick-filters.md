@@ -4,9 +4,9 @@ title: 快速篩選
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 284c73374ca3fdfc4afbc2824209bebdc764fb64
+source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1173'
 ht-degree: 39%
 
 ---
@@ -34,9 +34,11 @@ Analysis Workspace中的任何使用者都可以建立快速篩選。
 
 1. 選擇下列其中一種方法，開始建立快速篩選：
 
-   * **臨機（拖放）：** 從左側邊欄，將元件拖曳至 **篩選** 圖示中選取，然後選取 **編輯** 圖示可調整篩選。
+   * **臨機（拖放）：** 從左側邊欄，將元件拖曳至面板標頭中的篩選器拖放區域。
 
-     ![編輯臨時篩選器](assets/filter-adhoc-edit.png)
+     ![將區段拖放至拖放區域](assets/filter-dropzone.png)
+
+     您可以依照中的說明編輯快速篩選 [編輯快速篩選](#edit-a-quick-filter).
 
      >[!NOTE]
      >

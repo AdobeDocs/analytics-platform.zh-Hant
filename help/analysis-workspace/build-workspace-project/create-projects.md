@@ -4,10 +4,10 @@ title: 建立專案
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
-source-wordcount: '602'
-ht-degree: 100%
+source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)可讓您檢視可與組織內部或外部利害關係人共用的關鍵業務分析。
 
-如需有關如何開始使用 Analysis Workspace 的一般資訊，請參閱 [Analysis Workspace 概觀](/help/analysis-workspace/home.md)。
+如需有關如何開始使用 Analysis Workspace 的一般資訊，請參閱「[Analysis Workspace 概觀](/help/analysis-workspace/home.md)」。
 
 以下小節將說明如何建立專案，以及如何為任何 Analysis Workspace 專案開始新增關鍵建置區塊：面板、視覺效果和元件。
 
@@ -38,7 +38,7 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 
 [面板](/help/analysis-workspace/c-panels/panels.md)是 Analysis Workspace 中任何專案的基礎。面板是用來組織專案的內容 (視覺效果和元件)。
 
-Analysis Workspace 中提供的許多面板，可依據使用者輸入的少量內容來產生完整的分析集。
+Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內容，產生完整的分析集。
 
 若要新增面板：
 
@@ -54,11 +54,11 @@ Analysis Workspace 中提供的許多面板，可依據使用者輸入的少量�
 
 ## 將視覺效果新增到專案
 
-[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) (例如自由形式表格、長條圖或折線圖) 可用來生動地呈現資料。
+[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) (例如自由格式表格、長條圖或折線圖) 可用來生動地呈現資料。
 
 >[!TIP]
 >
->自由形式表格是最常見的視覺效果類型，是互動式資料分析的基礎。如需更多有關如何在 Analysis Workspace 中使用自由形式表格的詳細資料，請參閱[自由形式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)。
+>自由格式表格是最常見的視覺效果類型，是互動式資料分析的基礎。如需更多有關如何在 Analysis Workspace 中使用自由格式表格的詳細資料，請參閱「[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)」。
 
 若要新增視覺效果：
 
@@ -78,13 +78,21 @@ Analysis Workspace 中提供的許多面板，可依據使用者輸入的少量�
 >
 >如需有關各個元件的資訊，請選取左側邊欄中元件名稱旁邊的「資訊」圖示，或參閱[元件概觀](/help/components/overview.md)。
 
-若要新增元件：
+以下是如何在Analysis Workspace中新增元件至專案的基本資訊。 如需新增各種元件型別（維度、量度、篩選器和日期範圍）的詳細資訊，請參閱 [在Analysis Workspace中使用元件](/help/components/use-components-in-workspace.md).
+
+若要在Analysis Workspace中新增元件至專案：
 
 1. 選取左側邊欄中的「**[!UICONTROL 元件]**」圖示。
 
    ![選取的元件圖示和可用維度清單。](assets/build-components.png)
 
-1. 搜尋您要新增的元件。它出現在左側邊欄時，請將其拖曳到專案中的面板或視覺效果中。
+1. 捲動至或搜尋您要新增的元件，然後將其拖曳至專案中的面板或視覺效果。
+
+   例如，您可以將篩選器拖曳至面板標頭中的篩選器拖放區域。
+
+   ![在拖放區域中放置篩選器](assets/filter-dropzone.png)
+
+   如需有關將元件新增至專案的詳細資訊，請參閱 [在Analysis Workspace中使用元件](/help/components/use-components-in-workspace.md).
 
 1. (選用) 依照[儲存和共用專案](#save-and-share-the-project)中所述共用專案。
 
