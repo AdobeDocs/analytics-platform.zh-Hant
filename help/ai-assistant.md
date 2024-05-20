@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: d993f46821e6236f4536fea953585219ec8096b5
+source-git-commit: 9659ebfc267be769c7a87c01b129245c97b82a95
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ AI助理是UI功能，可用來導覽及瞭解Adobe Customer Journey Analytics�
 
 * **解決方案存取權**： AI助理可在Customer Journey Analytics中使用，但無法在Adobe Analytics中使用。 Adobe Experience Platform、Adobe Journey Optimizer、Adobe Real-Time CDP及其他Experience Platform應用程式也提供此功能。
 
-* **合約存取**：您的Adobe銷售合約必須包含條款6.2，以允許Adobe在AI/ML模型開發中使用您的資料。
+* **合約存取**：如果您無法使用AI助理，請聯絡您組織的管理員或Adobe客戶代表。 貴公司必須同意特定的GenAI相關法律條款，組織才能使用AI Assistant。
 
 * **許可權**：此 [!UICONTROL Adobe Admin Console] [!UICONTROL 報告工具] 「AI助理檔案」許可權決定此工具的存取權。 此許可權將於5月中旬新增至「報表工具」區段。 您必須確保建立 [產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html) 以授予此許可權的Admin Console使用，並手動將使用者新增至此設定檔。
 
