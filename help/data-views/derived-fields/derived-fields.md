@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 17ffd1865c9d24a6ed99577b4679b72ef855e898
 workflow-type: tm+mt
-source-wordcount: '5932'
-ht-degree: 13%
+source-wordcount: '5986'
+ht-degree: 12%
 
 ---
 
@@ -255,7 +255,7 @@ ht-degree: 13%
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` |
+| `https://google.com` | |
 
 {style="table-layout:auto"}
 
@@ -445,13 +445,13 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 >[!NOTE]
 >
->此函式原本名為Lookup ，但已重新命名為Classification ，以因應即將推出的不同功能Lookup函式。
+>此函式原本名為Lookup ，但已重新命名為Classification ，以因應不同功能的Lookup函式。
 
 ## 規格 {#classify-io}
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要分類的欄位]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 當值等於] 和 [!UICONTROL 將值取代為]：</p><ul><li>字串</li></ul><li>顯示原始值<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式<br/>每個函式100列</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要分類的欄位]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 當值等於] 和 [!UICONTROL 將值取代為]：</p><ul><li>字串</li></ul><li>顯示原始值<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <ul><li>每個衍生欄位5個函式</li><li>200 [運運算元](#operators) 每個衍生欄位。 每個專案 [!UICONTROL 當值等於原始值時] [!UICONTROL 以新值取代值] 視為作業。</li></ul> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -1308,8 +1308,14 @@ If或Else If中的運運算元在Case When函式是條件與 **一** 值。 條�
 
 ![運運算元範例](assets/operators-sample.png)
 
+Classification函式中的運運算元是以下專案的單一專案 [!UICONTROL 當值等於原始值時] [!UICONTROL 以新值取代值].
 
-## 詳細資訊
+例如，底下的「分類」規則使用3個運運算元。
+
+![分類規則1的熒幕擷圖](assets/classify-1.png)
+
+
+## 更多資訊
 
 [`Trim`](#trim) 和 [`Lowercase`](#lowercase) 的元件設定中已提供哪些功能 [資料檢視](../component-settings/overview.md). 使用衍生欄位可讓您結合這些函式，直接在Customer Journey Analytics中進行更複雜的資料轉換。 例如，您可以使用 `Lowercase` 移除事件欄位中的區分大小寫功能，然後使用 [`Lookup`](#lookup) 比對新的小寫欄位與只有小寫查詢索引鍵的查詢資料集。 或者，您可以使用 `Trim` 若要在設定之前移除字元 `Lookup` 在新欄位上。
 
