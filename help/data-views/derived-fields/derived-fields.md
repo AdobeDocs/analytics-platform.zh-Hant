@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 09da072a3863a2d0a0ed7d90802f65b64f6f753c
+source-git-commit: d9ec1dfe99ad77f7b995ef97b71eb31f28eafd35
 workflow-type: tm+mt
 source-wordcount: '5987'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -1315,7 +1315,7 @@ Classification函式中的運運算元是以下專案的單一專案 [!UICONTROL
 ![分類規則1的熒幕擷圖](assets/classify-1.png)
 
 
-## 更多資訊
+## 詳細資訊
 
 [`Trim`](#trim) 和 [`Lowercase`](#lowercase) 的元件設定中已提供哪些功能 [資料檢視](../component-settings/overview.md). 使用衍生欄位可讓您結合這些函式，直接在Customer Journey Analytics中進行更複雜的資料轉換。 例如，您可以使用 `Lowercase` 移除事件欄位中的區分大小寫功能，然後使用 [`Lookup`](#lookup) 比對新的小寫欄位與只有小寫查詢索引鍵的查詢資料集。 或者，您可以使用 `Trim` 若要在設定之前移除字元 `Lookup` 在新欄位上。
 
