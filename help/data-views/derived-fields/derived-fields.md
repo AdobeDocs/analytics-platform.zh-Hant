@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 17ffd1865c9d24a6ed99577b4679b72ef855e898
+source-git-commit: 09da072a3863a2d0a0ed7d90802f65b64f6f753c
 workflow-type: tm+mt
-source-wordcount: '5986'
+source-wordcount: '5987'
 ht-degree: 12%
 
 ---
@@ -1287,7 +1287,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 | 函數 | 限制 |
 |---|---|
 | <p>情況</p> | <ul><li>5案例當每個衍生欄位有函式時</li><li>200 [運運算元](#operators) 每個衍生欄位</li></ul> |
-| <p>分類</p> | <ul><li>5依衍生欄位分類函式</li><li>每個函式100列</li></ul> |
+| <p>分類</p> | <ul><li>5依衍生欄位分類函式</li><li>200 [運運算元](#operators) 每個衍生欄位</li></ul> |
 | <p>串連</p> | <ul><li>每個衍生欄位2個串連函式</li></ul> |
 | <p>尋找和取代</p> | <ul><li>每個衍生欄位2個尋找和取代函式</li></ul> |
 | <p>查詢</p> | <ul><li>每個衍生欄位5個查詢函式</li></ul> |
