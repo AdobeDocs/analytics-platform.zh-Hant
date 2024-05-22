@@ -5,10 +5,10 @@ title: 設定雲端匯出位置
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: d1fc7c0ab95e43a20cdfba8d0948c188fda8bec8
+source-git-commit: cfc019133473cb7509677d03e897d4eeb934ef38
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 16%
+source-wordcount: '1823'
+ht-degree: 18%
 
 ---
 
@@ -106,7 +106,7 @@ ht-degree: 16%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **貯體**] | 您想要將Customer Journey Analytics資料傳送至的Amazon S3帳戶中的貯體。 <p>請確定Adobe提供的使用者ARN具有 `S3:PutObject` 許可權可將檔案上傳至此貯體。 </p><p>貯體名稱必須符合特定的命名規則。 例如，其長度必須介於3到63個字元之間，只能由小寫字母、數字、點(.)和連字型大小(-)組成，而且開頭和結尾必須是字母或數字。 [AWS檔案中提供完整的命名規則清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **貯體**] | 您想要將Customer Journey Analytics資料傳送至的Amazon S3帳戶中的貯體。 <p>請確定Adobe提供的使用者ARN具有 `S3:PutObject` 許可權可將檔案上傳至此貯體。 </p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如，folder_name/ |
 
    {style="table-layout:auto"}
@@ -125,11 +125,9 @@ ht-degree: 16%
 
 1. 在 [!UICONTROL **位置屬性**] 的區段 [!UICONTROL **新增位置**] 對話方塊中，指定下列資訊以設定Google Cloud平台位置：
 
-   <!-- still need to update; can't create GCP account -->
-
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **貯體**] | 您想要傳送Customer Journey Analytics資料的GCP帳戶中的貯體。 <p>確認您已授予 `roles/storage.objectCreator` 由Adobe提供的主體許可權。 (本金提供於 [設定Google Cloud Platform帳戶](/help/components/exports/cloud-export-accounts.md).) <p>有關授予權限的資訊，請參閱 Google Cloud 文件中的「[新增主體至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)」。</p> |
+   | [!UICONTROL **貯體**] | 您想要傳送Customer Journey Analytics資料的GCP帳戶中的貯體。 <p>確認您已授予 `roles/storage.objectCreator` 由Adobe提供的主體許可權。 (本金提供於 [設定Google Cloud Platform帳戶](/help/components/exports/cloud-export-accounts.md).) <p>有關授予權限的資訊，請參閱 Google Cloud 文件中的「[新增主體至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)」。</p><p>如果您的組織使用 [組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints) 若要在允許清單中僅允許Google Cloud Platform帳戶，您需要下列Adobe擁有的Google Cloud Platform組織ID： <ul><li>`DISPLAY_NAME`： `adobe.com`</li><li>`ID`： `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`： `C02jo8puj`</li></ul> </p> |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如，folder_name/ |
 
    {style="table-layout:auto"}
