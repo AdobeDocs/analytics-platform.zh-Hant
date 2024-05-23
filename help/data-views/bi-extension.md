@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: SQL Connector
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 87661e0000d050652d9510bb4830ca6f30bfeae9
+source-git-commit: 5ed1622d4e9f1bcc25931cbf3d3cbd6796d0ac15
 workflow-type: tm+mt
-source-wordcount: '2747'
-ht-degree: 97%
+source-wordcount: '2770'
+ht-degree: 96%
 
 ---
 
@@ -184,7 +184,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 ## 功能
 
-依預設設定，您的資料檢視具有根據其易記名稱產生的表格適用名稱。例如，名為「[!UICONTROL 我的網路資料檢視]」的資料檢視具有檢視名稱「`my_web_data_view`」。
+依預設設定，您的資料檢視具有根據其易記名稱產生的表格適用名稱。例如，資料檢視命名為 [!UICONTROL 我的Web資料檢視] 具有檢視名稱 `my_web_data_view`. 您可以為資料檢視定義在BI工具中使用的偏好名稱。 另請參閱 [資料檢視設定](create-dataview.md#settings) 以取得詳細資訊。
 
 如果想要使用資料檢視 ID 作為表格名稱，可以在連線時於資料庫名稱新增選用的 `CJA_USE_IDS` 設定。例如，`prod:cja?CJA_USE_IDS` 使用如「`dv_ABC123`」這樣的名稱來顯示您的資料檢視。
 
