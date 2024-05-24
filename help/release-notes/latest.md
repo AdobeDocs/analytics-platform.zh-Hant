@@ -3,16 +3,16 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: cb3fa165901f9df658709e5118d2cc2d7367d9de
+source-git-commit: b02a3954e7b531caabfbea1f7df4e322eb4af741
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 78%
+source-wordcount: '712'
+ht-degree: 86%
 
 ---
 
 # 最新的 Adobe Customer Journey Analytics 發行說明 (2024 年 5 月)
 
-**上次更新**：2024年5月21日
+**上次更新日期**：2024 年 5 月 21 日
 
 這些發行說明涵蓋 2024 年 5 月 15 日至 2024 年 6 月的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -25,7 +25,7 @@ ht-degree: 78%
 | **適用於 Customer Journey Analytics 的 AI 助理** | 可讓您在Customer Journey AnalyticsUI中詢問自然語言問題，並根據Customer Journey Analytics檔案取得答案。 <p>（更新說明檔案連結，請前往）</p> | | 2024 年 5 月 30 日 |
 | **串流媒體：使用 Web SDK，將 Web 資料傳送至 Adobe Experience Platform Edge Network** | 現在，您可以使用 Adobe Experience Platform Web SDK 將串流媒體 Web 資料傳送至 Adobe Experience Platform Edge Network，讓您能夠建立更個人化的行銷活動並提供更個人化的內容，最後獲得更多可供報告的追蹤資料。<p>此增強功能可為所有平台解決方案 (例如 Customer Journey Analytics、RT-CDP、AJO 和事件轉送) 的 Web 實施提供統一的資料收集方法。過去，將串流媒體網頁資料傳送至Edge Network的唯一方式是使用Media Edge API。 <p>（更新說明檔案連結，請前往）</p> | | 2024 年 5 月 31 日 |
 | **衍生欄位 - 數學函數** | 讓您在資料視圖中執行簡單的數學運算子，以便回答有關使用者的問題。例如，您可以將產品、保固和送貨收入結合在一起。 <p>（更新說明檔案連結，請前往）</p> | | 2024 年 6 月 5 日 |
-| **共用用於匯出和匯入的帳戶和位置** | 使用者現在可以將他們建立的帳戶和位置提供給組織中的所有使用者。 只有帳戶和位置擁有者和系統管理員可以編輯和刪除帳戶和位置。<p>以前，帳戶和位置只能由建立它們的使用者使用。</p><p>使用者設定雲端匯出帳戶及設定雲端匯出位置時，可使用這些設定。</p> <p>（更新說明檔案連結，請前往）</p> | 2024 年 6 月 | 2024 年 6 月 |
+| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員才能編輯和刪除帳戶與位置。<p>先前，帳戶和位置只能由建立它們的使用者使用。</p><p>使用者設定雲端匯出帳戶及設定雲端匯出位置時，可使用這些設定。</p> <p>（更新說明檔案連結，請前往）</p> | 2024年6月12日 | 2024年6月30日 |
 | **關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件** | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。現在提供新的文件資源來協助您更加瞭解：<ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li></ul>[開始升級到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 現已提供 |
 | **有關[資料匯出使用案例](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-export/overview)的文件** | 此全新部分列有資料匯出的使用案例，例如<ul><li>資料備份</li><li>資料驗證</li><li>資料湖、Data Warehouse 或 BI 工具</li><li>為 AI/ML 做好準備</li></ul> 以及如何使用 Experience Platform 和 Customer Journey Analytics 功能來實施。 | | 現已提供 |
 

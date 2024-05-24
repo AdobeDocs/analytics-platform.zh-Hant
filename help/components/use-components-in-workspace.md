@@ -3,16 +3,16 @@ description: 瞭解如何在Analysis Workspace中新增元件至專案
 title: 在Analysis Workspace中使用元件
 feature: Components
 role: User
-source-git-commit: d3f90414494b52aba9736fef83423e4a1b2508b5
+source-git-commit: b02a3954e7b531caabfbea1f7df4e322eb4af741
 workflow-type: tm+mt
 source-wordcount: '963'
-ht-degree: 16%
+ht-degree: 23%
 
 ---
 
 # 在Analysis Workspace中使用元件
 
-元件構成Analysis Workspace中任何專案的實際資料。 元件包含維度、量度、區段和日期範圍。 您可以將元件拖曳至視覺效果或面板中，藉此新增元件至專案。
+元件構成Analysis Workspace中任何專案的實際資料。 元件包含維度、量度、篩選器和日期範圍。 您可以將元件拖曳至視覺效果或面板中，藉此新增元件至專案。
 
 如需可新增之元件型別的概觀資訊，請參閱 [元件概觀](/help/components/overview.md).
 
@@ -32,11 +32,11 @@ ht-degree: 16%
 
    ![](assets/build-components.png)
 
-1. 捲動至或搜尋您要新增的元件，然後將其拖曳至專案中的面板或視覺效果。
+1. 捲動至或搜尋要新增的元件，然後將其拖曳到專案中的面板或視覺化效果中。
 
-   例如，您可以將區段拖曳至面板標頭中的區段放置區。
+   例如，您可以將篩選器拖曳到面板標題中的篩選器放置區域。
 
-   ![將區段拖放至拖放區域](assets/filter-dropzone.png)
+   ![將篩選器放入放置區](assets/filter-dropzone.png)
 
 1. 如需更多詳細資訊，請根據您新增的元件型別，繼續下列其中一節：
 
@@ -44,7 +44,7 @@ ht-degree: 16%
 
    * [將量度新增至專案](#add-metrics-to-a-project)
 
-   * [將區段新增至專案](#add-segments-to-a-project)
+   * [將篩選器新增至專案](#add-filters-to-a-project)
 
    * [新增日期範圍至專案](#add-date-ranges-to-a-project)
 
@@ -60,7 +60,7 @@ ht-degree: 16%
 
      ![將維度新增至專案](assets/add-dimensions.png)
 
-   * 從左側邊欄將一或多個維度拖曳至區段托放區以建立臨機區段，如所述 [將區段新增至專案](#add-segments-to-a-project).
+   * 從左側邊欄將一或多個維度拖曳至篩選器拖放區域以建立臨時篩選器，如所述 [將篩選器新增至專案](#add-filters-to-a-project).
 
 如需如何在Analysis Workspace中使用維度的詳細資訊，請參閱 [預覽維度](/help/components/dimensions/view-dimensions.md)， [劃分維度](/help/components/dimensions/t-breakdown-fa.md)、和 [時間分段維度](/help/components/dimensions/time-parting-dimensions.md).
 
@@ -96,11 +96,11 @@ ht-degree: 16%
 
 1. 選擇下列其中一個方法，開始篩選面板：
 
-   * 從左側邊欄將個別篩選器拖曳至區段托放區。
+   * 將個別篩選器從左側邊欄拖曳至篩選器拖放區域。
 
-     ![在拖放區域中放置篩選器](assets/filter-dropzone.png)
+     ![將篩選器放入放置區](assets/filter-dropzone.png)
 
-   * 按住Shift或Ctrl鍵，在左側邊欄中選取多個區段，然後按住Shift鍵，將區段拖放至區段拖放區域。
+   * 按住Shift或Ctrl鍵，在左側邊欄中選取多個篩選器，然後按住Shift鍵，將篩選器拖放至篩選器拖放區域。
 
      ![在拖放區域中拖放多個篩選器](assets/filter-dropzone-multiple.png)
 
@@ -108,13 +108,13 @@ ht-degree: 16%
 
      您可以從下拉式選單中選取(x)以移除任何選項。 如果您移除 [!UICONTROL **無篩選器**] 選項，則需要篩選。
 
-   * 將非區段元件拖放至拖放區域，以建立臨時區段。 這可讓您節省前往「區段產生器」的時間和精力。 以此方法建立的區段會自動被定義為點擊層級的區段。若要編輯此定義，可按一下區段旁邊的資訊圖示 (i)，然後按一下筆狀編輯圖示並在，即可在區段產生器內進行編輯。
+   * 將非篩選元件拖放至拖放區域，建立臨時篩選。 這可讓您節省前往篩選產生器的時間和精力。 以這種方式建立的篩選器會被自動定義為點擊層級的篩選器。若要修改此定義，可按一下篩選器旁的資訊圖示 (i)，然後按一下筆狀編輯圖示，即可在篩選產生器中進行編輯。
 
-     臨時區段是一種快速區段，屬於專案的本機型別。 除非您將其公開，否則它們不會顯示在左側邊欄中。
+     臨時篩選器是一種快速篩選器，而且是專案的本機篩選器。除非您將其公開，否則它們不會顯示在左側邊欄中。
 
      如需更多資訊，請參閱「[快速篩選器](/help/components/filters/quick-filters.md)」。
 
-如需有關如何使用面板上的區段放置區域來篩選面板的詳細資訊，請參閱 [拖放區域](/help/analysis-workspace/c-panels/panels.md#drop-zone) 在 [面板概觀](/help/analysis-workspace/c-panels/panels.md).
+如需如何在面板上使用篩選器拖放區域來篩選面板的詳細資訊，請參閱 [拖放區域](/help/analysis-workspace/c-panels/panels.md#drop-zone) 在 [面板概觀](/help/analysis-workspace/c-panels/panels.md).
 
 ## 新增日期範圍至專案
 
