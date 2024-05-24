@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -78,21 +78,21 @@ Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內�
 >
 >如需有關各個元件的資訊，請選取左側邊欄中元件名稱旁邊的「資訊」圖示，或參閱[元件概觀](/help/components/overview.md)。
 
-以下是如何在Analysis Workspace中新增元件至專案的基本資訊。 如需新增各種元件型別（維度、量度、篩選器和日期範圍）的詳細資訊，請參閱 [在Analysis Workspace中使用元件](/help/components/use-components-in-workspace.md).
+以下基本資訊說明如何將元件新增至 Analysis Workspace 中的專案。如需進一步瞭解如何新增各種類型的元件 (維度、指標、篩選器和日期範圍)，請參閱[在 Analysis Workspace 中使用元件](/help/components/use-components-in-workspace.md)。
 
-若要在Analysis Workspace中新增元件至專案：
+若要將元件新增至 Analysis Workspace 中的專案：
 
 1. 選取左側邊欄中的「**[!UICONTROL 元件]**」圖示。
 
    ![選取的元件圖示和可用維度清單。](assets/build-components.png)
 
-1. 捲動至或搜尋您要新增的元件，然後將其拖曳至專案中的面板或視覺效果。
+1. 捲動至或搜尋要新增的元件，然後將其拖曳到專案中的面板或視覺化效果中。
 
-   例如，您可以將篩選器拖曳至面板標頭中的篩選器拖放區域。
+   例如，您可以將篩選器拖曳到面板標題中的篩選器放置區域。
 
-   ![在拖放區域中放置篩選器](assets/filter-dropzone.png)
+   ![將篩選器放入放置區](assets/filter-dropzone.png)
 
-   如需有關將元件新增至專案的詳細資訊，請參閱 [在Analysis Workspace中使用元件](/help/components/use-components-in-workspace.md).
+   有關將元件新增至專案的詳細資訊，請參閱[在 Analysis Workspace 中使用元件](/help/components/use-components-in-workspace.md)。
 
 1. (選用) 依照[儲存和共用專案](#save-and-share-the-project)中所述共用專案。
 
