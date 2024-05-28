@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 5ad3f9c85c583390e6c5ba933ee59c3d0b3f8c59
+source-git-commit: bba51d1354d14d6e7eb236b787b419571fea6423
 workflow-type: tm+mt
-source-wordcount: '2996'
+source-wordcount: '2995'
 ht-degree: 14%
 
 ---
@@ -208,7 +208,7 @@ ht-degree: 14%
 
 選取 **[!UICONTROL 使用狀況]** 標籤以存取介面。
 
-若要報告使用量：
+### 使用量報表
 
 1. 選取 **[!UICONTROL 時間範圍]**. 您可以選取 **[!UICONTROL 過去6個月]**， **[!UICONTROL 年初至今]**，或 **[!UICONTROL 過去2年]**.
 1. 選取 **[!UICONTROL 間隔]**. 您可以選取 **[!UICONTROL 每月]** 或 **[!UICONTROL 每季]**.
