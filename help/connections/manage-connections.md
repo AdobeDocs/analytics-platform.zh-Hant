@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 73b9aa3bc7568c90c3e92b6fa8197577a904a6a2
+source-git-commit: 5ad3f9c85c583390e6c5ba933ee59c3d0b3f8c59
 workflow-type: tm+mt
-source-wordcount: '2993'
+source-wordcount: '2996'
 ht-degree: 14%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 14%
 
 此 [!UICONTROL 清單] 介面是Connections的預設介面。 如果未選取，請選取 **[!UICONTROL 清單]** 標籤以存取介面。
 
+![清單檢視](assets/list-view.png)
+
 此 [!UICONTROL 清單] 介面會顯示所有可用連線的表格。 您可以使用搜尋快速搜尋連線 ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 方塊。
 
 表格中有以下欄或圖示。
@@ -44,7 +46,7 @@ ht-degree: 14%
 | ![資料視圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | 至 [建立資料檢視](#create-a-data-view) 針對連線，選取 ![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg). 只有在尚未有任何資料檢視與連線相關聯時，此圖示才會顯示。 |
 | ![更多內容](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選取 ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 至： <p>![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [編輯](#edit-a-connection) 連線。<p>![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) [刪除](#delete-a-connection) 連線。<p>![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) [建立新的資料檢視](#create-a-data-view). 為連線建立其他資料檢視。 |
 | [!UICONTROL 資料集] | 顯示連線中資料集的一或多個連結。 您可以選取資料集超連結來檢視連線中的資料集。 如果所選連線包含更多資料集，請選取 **[!UICONTROL +*x* 更多]** 以顯示 **[!UICONTROL 包含的資料集]** 面板。 此面板會顯示所有資料集的連結，以及搜尋屬於連線之特定資料集的選項。<p><img src="./assets/datasets-included.png" alt="包含的資料資產" width="400"/><p>選取資料集名稱，即可在新索引標籤的Experience PlatformUI中開啟資料集。 |
-| [!UICONTROL 沙箱] | 顯示 [Experience Platform沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) 此連線從中提取其資料集的。 當您初次建立連線時，就會選取這個沙箱。 此沙箱無法變更。 |
+| [!UICONTROL 沙箱] | 顯示 [Experience Platform沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant) 此連線從中提取其資料集的。 當您初次建立連線時，就會選取這個沙箱。 此沙箱無法變更。 |
 | [!UICONTROL 所有者] | 建立連線的人。 |
 | [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**關於有多少資料集已設定為匯入新資料，以及&lt;/<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 針對已關閉多少資料集的新資料匯入。 |
 | [!UICONTROL 建立日期] | 建立連線時的時間戳記。 |
@@ -131,7 +133,7 @@ ht-degree: 14%
 | 資料集選擇器 | 可讓您選擇連線中的一個或所有資料集。 您無法多重選取資料集。 預設為「[!UICONTROL 所有資料集]」。 |
 | 日期範圍選擇器 | 編輯開始日期、結束日期或選取 ![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 以開啟資料範圍選擇器。 在日期範圍選取器中，使用其中一個預先定義的期間來選取日期範圍(例如 **[!UICONTROL 過去6個月]**)或使用日曆來選取開始和結束日期。 選取 **[!UICONTROL 套用]** 以套用新的資料範圍。 |
 | [!UICONTROL 可用的事件資料記錄] | 可用於報告的事件資料集列總數， **整個連線**. 此計數與任何行事曆設定皆無關。 如果您從資料集選擇器選取資料集，或在表格中選取資料集，則計數會變更。 新增資料後，會延遲1-2小時讓資料出現在報告中。 |
-| [!UICONTROL 量度] | 彙總已新增、略過和刪除的事件、查詢和設定檔資料集記錄，以及新增的批次數量。 **針對您選取的資料集和日期範圍**.<p>選取 **[!UICONTROL 檢查詳細資訊]** 以顯示 **[!UICONTROL 檢查略過的詳細資訊]** 快顯視窗。 快顯視窗會列出略過的記錄數，以及所有事件資料集或所選資料集的原因。<p><img src="./assets/skipped-records.png" width="500"/><p>選取 ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 包含更多資訊的快顯視窗。 由於某些略過的原因，例如 [!UICONTROL 空的訪客ID]，快顯視窗會顯示您可在其中使用的EQS範例PSQL (查詢服務Experience Platform) [查詢服務](https://experienceleague.adobe.com/tw/docs/experience-platform/query/home.html?lang=zh-Hant) 以查詢資料集中略過的記錄。 選取 ![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL 複製EQS的範例PSQL]** 複製SQL。 |
+| [!UICONTROL 量度] | 彙總已新增、略過和刪除的事件、查詢和設定檔資料集記錄，以及新增的批次數量。 **針對您選取的資料集和日期範圍**.<p>選取 **[!UICONTROL 檢查詳細資訊]** 以顯示 **[!UICONTROL 檢查略過的詳細資訊]** 快顯視窗。 快顯視窗會列出略過的記錄數，以及所有事件資料集或所選資料集的原因。<p><img src="./assets/skipped-records.png" width="500"/><p>選取 ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 包含更多資訊的快顯視窗。 由於某些略過的原因，例如 [!UICONTROL 空的訪客ID]，快顯視窗會顯示您可在其中使用的EQS範例PSQL (查詢服務Experience Platform) [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant) 以查詢資料集中略過的記錄。 選取 ![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL 複製EQS的範例PSQL]** 複製SQL。 |
 | [!UICONTROL 新增的記錄] | 指出在選取的時段內，針對您選取的資料集和日期範圍&#x200B;**新增了多少列。**&#x200B;每 10 分鐘更新一次。 |
 | [!UICONTROL 略過的記錄] | 針對您選取的資料集和日期範圍&#x200B;**，指出在選取的時段內已略過多少列。**&#x200B;略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人ID等。 每 10 分鐘更新一次。 <p>無效的人員ID (例如 `undefined`，或 `00000000`，或a中任何數字和字母的組合 [!UICONTROL 人員ID] （在指定月份中出現超過100萬次的事件）是無法歸因於任何特定使用者或個人的ID。 這些列無法擷取到系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用 [拼接](/help/stitching/overview.md) 以使用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間這些使用者ID會遭截斷（偏好使用無效或全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> |
 | [!UICONTROL 記錄] 已刪除 | 針對&#x200B;**資料集以及您選取的日期範圍**&#x200B;指示在所選的時段內刪除了多少列。 有人可能已刪除中的資料集 [!DNL Experience Platform]例如， 每 10 分鐘更新一次。<p>在某些情況下，此值還可以包含取代的記錄，例如拼接或某些查詢資料集更新。 請參考此範例：</p><ul><li>您上傳一筆記錄到XDM個別設定檔資料集，CJA會將其設定為擷取為設定檔查詢資料。 在連線詳細資料中，此資料集將顯示已新增1筆記錄。</li><li>您將原始記錄的副本上傳到同一個AEP資料集，該資料集現在包含兩個記錄。 CJA會從設定檔查詢資料集中擷取其他記錄。 CJA發現其已擷取該人員ID的連線設定檔記錄，會刪除其舊版並新增設定檔資料。 在連線詳細資料中，此動作將代表1筆新增記錄和1筆刪除記錄，因為CJA只會保留任何內嵌人員ID的最新設定檔查詢資料。</li><li>AEP資料集總共包含兩個剛好相同的記錄。 另外，CJA連線詳細資料會顯示其擷取資料的狀態：為此設定檔資料集新增了2筆記錄並刪除1筆記錄。 </li></ul> |
@@ -202,6 +204,8 @@ ht-degree: 14%
 
 此 [!UICONTROL 使用狀況] 介面會顯示所有連線中擷取及可報告資料列的使用情形。 此介面可支援您判斷您的Customer Journey Analytics使用方式是否符合合約所議定的內容。
 
+![usage-view](assets/usage-view.png)
+
 選取 **[!UICONTROL 使用狀況]** 標籤以存取介面。
 
 若要報告使用量：
@@ -211,14 +215,14 @@ ht-degree: 14%
 
 的 [!UICONTROL 擷取的列]：
 
-* 面板會顯示擷取的總列數，其中包含所有連線的所有事件資料，每個月的第2天會更新一次。 在面板內：
+* 面板會顯示擷取的總列數，其中包含所有連線中在每月第2天更新的所有事件資料。 在面板內：
    * 方塊會顯示上個月內嵌的列數和% (由以下專案指示： <span style="color:green">▲</span> 或 <span style="color:c64545">▼</span>)。
    * 折線圖會顯示 <span style="color:53b2ad">◼︎</span> [!UICONTROL 每月擷取的列].<br/>若要檢視顯示一個月每月擷取列數的快顯視窗，請將滑鼠指標暫留線上圖中的任何資料點上。
 
 
 的 [!UICONTROL 可報告列]：
 
-* 面板會顯示可報告列總數，其中包含每個月第2天更新之所有連線中的所有事件資料。 在面板內：
+* 面板會顯示可報告的總列數，其中包含每個月第2天更新之所有連線中的所有事件資料。 在面板內：
    * 方塊會顯示可報告列的累計總數。
    * 方塊會顯示上個月可報告列的總數和%的變更(由以下專案指示： <span style="color:green">▲</span> 或 <span style="color:c64545">▼</span>)。
    * 折線圖會顯示 <span style="color:53b2ad">◼︎</span> [!UICONTROL 每月可報告列].<br/>若要檢視顯示特定月份累計可報告列數的快顯視窗，請將滑鼠游標停留在折線圖的任何資料點上。
