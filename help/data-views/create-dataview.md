@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 162d1c6878a906d831a4f27f0b2c5105171e16e8
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 97%
 | --- | --- |
 | [!UICONTROL 連線] | 此欄位會將資料檢視連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
 | [!UICONTROL 名稱] | 必填。資料檢視的名稱。此值顯示在 Analysis Workspace 的右上角下拉式清單中。 |
-| [!UICONTROL 外部ID] | 必填。可用於外部來源（例如商業智慧工具）的資料檢視名稱。 預設為 `unspecified`. 如果您未指定外部ID，名稱會從資料檢視的「名稱」產生，並以底線取代空格。 |
+| [!UICONTROL 外部ID] | 必填。您可以在外部來源 (例如商業智慧工具) 中使用的資料視圖名稱。預設值為 `unspecified`。如果不指定外部 ID，則將從資料視圖的名稱產生該名稱，並以底線取代空格。 |
 | [!UICONTROL 說明] | 選填。Adobe 建議使用詳細說明，讓用戶了解資料檢視存在的原因及其設計對象。 |
 
 {style="table-layout:auto"}
