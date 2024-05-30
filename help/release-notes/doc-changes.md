@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cfc019133473cb7509677d03e897d4eeb934ef38
+source-git-commit: dcce03959018a34362d8f6cc1d3f44d4ffde916b
 workflow-type: tm+mt
-source-wordcount: '3650'
-ht-degree: 72%
+source-wordcount: '3667'
+ht-degree: 73%
 
 ---
 
@@ -20,8 +20,9 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 5 月** | |
-| 使用組織原則限制將Customer Journey Analytics報表匯出至Google Cloud Platform時的必要資訊 | 將Adobe擁有的Google Cloud Platform組織ID新增至 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md) 將Customer Journey Analytics報表匯出至Google Cloud Platform的檔案。 <p>只有使用下列專案的組織才需要此資訊： [組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints) 在Google Cloud Platform中。</p> |
-| 有關新增元件至專案的檔案 | 已新增關於如何 [將各種型別的元件新增到Analysis Workspace中的專案](/help/components/use-components-in-workspace.md). |
+| Target整合 | 已新增 [文章至Adobe整合區段](/help/integrations/cja4t.md) 如何整合Target與Customer Journey Analytics。 |
+| 使用組織原則限制將Customer Journey Analytics報表匯出至Google Cloud Platform時的必要資訊 | 將Adobe擁有的Google Cloud Platform組織ID新增至 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md) 將Customer Journey Analytics報表匯出至Google Cloud Platform的檔案。 <p>只有當組織在 Google Cloud Platform 中使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)時才需要此資訊。</p> |
+| 有關將元件新增至專案的文件 | 新增了有關如何[將各種類型的元件新增至 Analysis Workspace 中的專案](/help/components/use-components-in-workspace.md)的一般資訊。 |
 | 資料匯出使用案例 | 一組新文章描述 [資料匯出使用案例](/help/use-cases/data-export/overview.md) 以及如何使用Experience Platform和Customer Journey Analytics功能來實作這些使用案例 |
 | 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)。</p> |
 | 關於自訂日期範圍的更新文件 | 與[建立自訂日期範圍](/help/components/date-ranges/custom-date-ranges.md)相關的最新螢幕擷圖與程序，以利符合目前的產品特徵與設計。 |
