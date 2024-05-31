@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 8e6f16acc475fb89c9b9ba50ccef174d3c7b10ea
+source-git-commit: 5db0a92a94d9683a414813ac302b49f908c3e324
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2201'
 ht-degree: 96%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 96%
 | 引導式分析 | 引導式分析是一種報告格式，可讓使用者快速自助滿足其資料需求，以便他們能夠快速獲得高品質的深入解析並做出更多資料導向的決策。引導式分析是 Adobe Product Analytics 的一部分，Adobe Product Analytics 是 Customer Journey Analytics 的附加元件。 |
 | 智慧型註解 | 智慧型註解使用進階的機器學習和生成式 AI，為 Workspace 視覺效果提供有價值的自然語言深入解析。初始版本為[折線圖](/help/analysis-workspace/visualizations/line.md)視覺效果提供自動產生的深入解析。 |
 | 報告時間轉換 | Customer Journey Analytics 中的資料檢視可讓您進一步詮釋來自連線的資料。您可以變更或移除資料而無需變更實作、使用子字串操作維度、從任何值建立量度，或是篩選子事件。以上所有轉換的進行都是非破壞性。Adobe Analytics 透過虛擬報告套裝和自訂工作階段長度提供有限的功能。 |
-| BI擴充功能 | BI擴充功能可讓您直接將CJA連線至常用的BI視覺化工具，例如PowerBI或Tableau，好讓您的BI報告完全符合您在Analysis Workspace和其他CJA報告介面中看到的內容。 這是取得CJA的BI報告更簡單的方法，而不需要從原始資料重新建立報告/量度。 |
+| BI擴充功能 | 此 [BI擴充功能](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-export/bi-extension) 可讓您直接將CJA連線至常用的BI視覺化工具，例如PowerBI或Tableau。 使用此擴充功能，您可以讓BI報表完全符合您在Analysis Workspace和其他CJA報表介面中看到的內容。 這是取得CJA的BI報告更簡單的方法，而不需要從原始資料重新建立報告/量度。 |
 | SQL 存取 | 使用 Data Distiller 選項，Customer Journey Analytics 可以移除 Adobe 後端處理中收集資料的限制。您可以使用 SQL 修改資料、建立適合您業務的值和資料集，並繼續探索。Analytics 不支援對其資料進行任何類型的 SQL 存取。 |
 | 無限制的客戶維度和量度 | Customer Journey Analytics 的維度無限制；值可以是數值、文字、物件、清單或混合所有前項。維度可能是嵌套式或階層式。 <p>相對的，Adobe Analytics 最多支援 75 個 props 和 250 個 eVar。</p> |
 | 唯一值無數量限制 | Customer Journey Analytics 支援可在單一維度中報告的無限制唯一值或維度項目。<p>[維度的基數限制](/help/components/dimensions/high-cardinality.md)不存在，允許出現任何唯一值並進行計數。</p><p>這種方法消除了大規模 Adobe Analytics 實施中可能存在的報告和分析限制，從而導致[!UICONTROL 低流量]標籤。</p><p>在 Customer Journey Analytics，可以看到[!UICONTROL 超出不重複值]標籤，但這種情況發生的頻率要低得多，可以對資料套用篩選器或分段來緩解。</p> |
