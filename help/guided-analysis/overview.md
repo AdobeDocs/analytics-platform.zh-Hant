@@ -5,10 +5,10 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 2b8afe1dbac5057f867437e2bfce27f3bd752d57
-workflow-type: ht
+source-git-commit: a55224d91dbcf7323ccd481b4a7469d5b80f12c4
+workflow-type: tm+mt
 source-wordcount: '1397'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 | 分析類型 | 檢視類型 | 說明 |
 | --- | --- | --- |
-| [!UICONTROL 功能矩陣] | [參與](types/engagement.md) | 了解功能參與的廣度與寬度。 |
+| [!UICONTROL 功能矩陣] | [參與](types/engagement.md) | 瞭解功能參與的廣度和深度。 |
 | [!UICONTROL 漏斗] | [摩擦](types/friction.md) | 比較步驟之間的轉換率。 |
 | [!UICONTROL 漏斗] | [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化。 |
 | [!UICONTROL 影響] | [發行](types/release.md) | 比較發佈前和發佈後同期的績效。 |
