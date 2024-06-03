@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 481e52bbfe06268642522b908f9b7ac66c882433
+source-git-commit: 70c274819eaef46627bf66d05ef8f790f61906a4
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 6%
+source-wordcount: '629'
+ht-degree: 5%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 6%
 
 ## 分區設定
 
-決定如何將事件分類為群組。
+決定如何將事件分類為群組（貯體）。 在趨勢表格檢視中，使用者是根據總計的使用頻率以及在每個間隔中進行分組，這表示1個使用者可以在不同的間隔中計入不同的分組。
 
 * **[!UICONTROL 自動值區]**：根據資料分佈，自動識別最佳貯體大小。
 * **[!UICONTROL 自訂值區]**：自訂資料分組到貯體的方式。
@@ -60,5 +60,5 @@ ht-degree: 6%
 
 分析所需的日期範圍。 此設定包含兩個元件：
 
-* **[!UICONTROL 間隔]**：您要用來檢視趨勢資料的日期詳細程度。 此設定不會影響非趨勢檢視，例如頻率。
+* **[!UICONTROL 間隔]**：您要用來檢視趨勢資料的日期詳細程度。 圖表和表格預設會顯示彙總資料，並可以選擇將表格展開至趨勢檢視。 在趨勢檢視中，使用者是根據總計的使用頻率以及在每個間隔中分組的，這表示1個使用者可以在不同的間隔中計入不同的貯體。
 * **[!UICONTROL 日期]**：開始和結束日期。 您可方便使用滾動日期範圍預設集和先前儲存的自訂範圍，或使用日曆選擇器來選擇固定日期範圍。
