@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 24b2cdcc2ab2c56775191950af0603f7bedf102b
-workflow-type: ht
-source-wordcount: '2913'
-ht-degree: 100%
+source-git-commit: ce1a6b631baefaccf7daac5ebaf272bd5c7ed88a
+workflow-type: tm+mt
+source-wordcount: '3027'
+ht-degree: 96%
 
 ---
 
@@ -91,8 +91,9 @@ ht-degree: 100%
    | **[!UICONTROL 索引鍵]** | 僅適用於查找資料集。用於查找資料集的索引鍵。 |
    | **[!UICONTROL 比對索引鍵]** | 僅適用於查找資料集。要加入其中一個事件資料集的索引鍵。如果這是空白的清單，您可能尚未新增或設定事件資料集。 |
    | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。<br/>資料來源的類型包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
-   | **[!UICONTROL 匯入新資料]** | 如果您想建立持續的連線，請[!UICONTROL 開啟]此選項。選取此連線中新增至資料集的任何新資料批次時，都會自動流入工作區。 |
-   | **[!UICONTROL 資料集回填]** | 選取「**[!UICONTROL 要求回填]**」以回填歷史資料。<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。歷史資料多寡會影響延遲長度。</li><li>Analytics 來源連接器可為生產沙箱可匯入最多 13 個月的資料 (不論資料量多寡)。非生產沙箱的回填期限為 3 個月。</li></ul> |
+   | **[!UICONTROL 匯入新資料]** | 如果您要建立持續連線，請選取此選項，如此一來，新增到此連線中資料集的任何新資料批次都會自動流入工作區。 可以設定為[!UICONTROL 開啟]或[!UICONTROL 關閉]。 |
+   | **[!UICONTROL 資料集回填]** | 啟用 **[!UICONTROL 回填所有現有資料]** 以確保所有現有資料都已回填。<br/><br/>選取 **[!UICONTROL 請求回填]** 以回填特定期間的歷史資料。 您最多可以定義10個資料集回填期間。<ol><li>透過輸入開始和結束資料或選取日期來定義期間，使用 ![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>選取 **[!UICONTROL 將回填排入佇列]** 將回填新增至清單，或 **[!UICONTROL 取消]** 以取消。</li></ol>針對每個專案，選取 ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) 以編輯期間，或選取 ![刪除](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) 以刪除專案。<br/><br/>在回填中：<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。延遲程度取決於您有多少歷史資料。</li><li> Analytics 來源連接器可為生產沙箱可匯入最多 13 個月的資料 (不論資料量多寡)。非生產沙箱的回填期限為 3 個月。</li></ul> |
+   | **[!UICONTROL 轉換資料集]** | 對於特定B2B查詢資料集，您可以啟用資料集轉換，以適當的B2B人員型報表案例。 另請參閱 [轉換B2B查詢的資料集](transform-datasets-b2b-lookups.md) 以取得詳細資訊。 |
    | **[!UICONTROL 回填狀態]** | 可能的狀態指標包括：<ul><li>成功</li><li>正在處理 X 個回填</li><li>關閉</li></ul> |
    | **[!UICONTROL 資料集 ID]** | 此 ID 是自動產生的。 |
    | **[!UICONTROL 說明]** | 建立資料集時為其提供的說明。 |

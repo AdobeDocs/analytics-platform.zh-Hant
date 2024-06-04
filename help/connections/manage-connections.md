@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: bba51d1354d14d6e7eb236b787b419571fea6423
+source-git-commit: ce1a6b631baefaccf7daac5ebaf272bd5c7ed88a
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '3155'
 ht-degree: 14%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 14%
 | [!UICONTROL 資料集] | 顯示連線中資料集的一或多個連結。 您可以選取資料集超連結來檢視連線中的資料集。 如果所選連線包含更多資料集，請選取 **[!UICONTROL +*x* 更多]** 以顯示 **[!UICONTROL 包含的資料集]** 面板。 此面板會顯示所有資料集的連結，以及搜尋屬於連線之特定資料集的選項。<p><img src="./assets/datasets-included.png" alt="包含的資料資產" width="400"/><p>選取資料集名稱，即可在新索引標籤的Experience PlatformUI中開啟資料集。 |
 | [!UICONTROL 沙箱] | 顯示 [Experience Platform沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant) 此連線從中提取其資料集的。 當您初次建立連線時，就會選取這個沙箱。 此沙箱無法變更。 |
 | [!UICONTROL 所有者] | 建立連線的人。 |
-| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**關於有多少資料集已設定為匯入新資料，以及&lt;/<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 針對已關閉多少資料集的新資料匯入。 |
+| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**針對設定為匯入新資料的資料集，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 針對未設定為匯入新資料的資料集。 |
 | [!UICONTROL 建立日期] | 建立連線時的時間戳記。 |
 | [!UICONTROL 上次修改日期] | 上次更新連線時的時間戳記。 |
 | [!UICONTROL 回填資料] | 跨資料集顯示回填資料的狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**如需資料集間失敗的回填數，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**如需跨資料集處理回填的次數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**資料集的已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防連線中的資料集未定義回填。 |
@@ -149,6 +149,9 @@ ht-degree: 14%
 | [!UICONTROL 資料來源類型] | 資料集的來源型別。 建立連線時，您可以定義來源型別。 |
 | [!UICONTROL 資料集類型] | 此資料集的資料集型別。 型別可以是 [!UICONTROL 事件]， [!UICONTROL 查詢]，或 [!UICONTROL 個人資料]. [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | 結構描述 | 資料集所根據的Experience Platform結構描述。 |
+| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新的資料匯入。 |
+| [!UICONTROL 轉換資料] | 顯示適用B2B查詢資料集的轉換狀態。 另請參閱 [轉換B2B查詢的資料集](transform-datasets-b2b-lookups.md) 以取得詳細資訊。<p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**針對已啟用轉換的適用資料集， <p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 未啟用轉換的適用資料集，以及<p>**[!UICONTROL 不適用]** 適用於所有其他資料集，不適用於轉換。 |
+| [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**回填失敗的數目，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**對於處理的回填數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防未設定回填。 |
 | [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新資料。 |
 | [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**回填失敗的數目，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**對於處理的回填數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防未設定回填。 |
 
@@ -172,6 +175,7 @@ ht-degree: 14%
 | [!UICONTROL 使用連線的資料檢視] | 列出所有使用此連線的資料檢視。 |
 | [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**瞭解有多少資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 針對已關閉多少資料集的新資料匯入。 |
 | [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**如需資料集間失敗的回填數，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**如需跨資料集處理回填的次數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**資料集的已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防連線中的資料集未定義回填。 |
+| 轉換資料 | 顯示適用B2B查詢資料集的轉換狀態。 另請參閱 [轉換B2B查詢的資料集](transform-datasets-b2b-lookups.md) 以取得詳細資訊。<p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**用於啟用轉換的資料集數目。 |
 | [!UICONTROL 建立者] | 顯示建立連線的使用者名稱。 |
 | [!UICONTROL 上次修改日期] | 顯示上次變更連線的時間戳記。 |
 | [!UICONTROL 上次修改者] | 顯示上次修改連線的使用者。 |
