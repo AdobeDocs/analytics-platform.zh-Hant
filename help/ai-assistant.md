@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: 7e2a372d6e1fcbcfc26a63ddc804a592d6ee1725
+source-git-commit: fb9b0d2c8d2333aba83598ab1e1aea2370636002
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -32,6 +32,10 @@ Customer Journey Analytics中的AI助理已接受其Adobe Experience League檔�
 * Customer Journey Analytics的最佳用途為何？
 * 如何設定資料檢視？
 
+Customer Journey Analytics範圍以外的問題，例如Adobe Target和Adobe Creative Cloud Suite等其他Adobe產品的相關問題，則無法回答。
+
+適用於Customer Journey Analytics的AI助理可用於所有產品層。
+
 ## 產品知識 {#knowledge}
 
 產品知識擷取模型是針對Customer Journey Analytics進行訓練。 其他功能（例如資料分析）將在日後推出。
@@ -41,10 +45,6 @@ Customer Journey Analytics中的AI助理已接受其Adobe Experience League檔�
 | 點式學習 | <ul><li>Adobe Analytics和Customer Journey Analytics之間有何差異？</li><li>如何建立計算量度？</li></ul> |
 | 開啟探索 | <ul><li>如何匯出Workspace專案？</li><li>如何找到重複的工作區元件？</li></ul> |
 | 疑難排解 | <ul><li>資料需要多久才能進入CJA？</li><li>Customer Journey Analytics連線中可以有幾個衍生欄位？</li></ul> |
-
-Customer Journey Analytics範圍以外的問題，例如Adobe Target和Adobe Creative Cloud Suite等其他Adobe產品的相關問題，則無法回答。
-
-適用於Customer Journey Analytics的AI助理可用於所有產品層。
 
 ## 功能存取
 
