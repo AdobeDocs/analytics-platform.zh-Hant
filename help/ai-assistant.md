@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: c0ed9f09f9fc0c9bb1e4c002986866677aebfb1f
+source-git-commit: 7e2a372d6e1fcbcfc26a63ddc804a592d6ee1725
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,15 @@ Customer Journey Analytics中的AI助理已接受其Adobe Experience League檔�
 * Customer Journey Analytics的最佳用途為何？
 * 如何設定資料檢視？
 
+## 產品知識 {#knowledge}
+
 產品知識擷取模型是針對Customer Journey Analytics進行訓練。 其他功能（例如資料分析）將在日後推出。
+
+| 產品知識 | 範例 |
+| --- | --- |
+| 點式學習 | <ul><li>Adobe Analytics和Customer Journey Analytics之間有何差異？</li><li>如何建立計算量度？</li></ul> |
+| 開啟探索 | <ul><li>如何匯出Workspace專案？</li><li>如何找到重複的工作區元件？</li></ul> |
+| 疑難排解 | <ul><li>資料需要多久才能進入CJA？</li><li>Customer Journey Analytics連線中可以有幾個衍生欄位？</li></ul> |
 
 Customer Journey Analytics範圍以外的問題，例如Adobe Target和Adobe Creative Cloud Suite等其他Adobe產品的相關問題，則無法回答。
 
@@ -46,7 +54,10 @@ Customer Journey Analytics範圍以外的問題，例如Adobe Target和Adobe Cre
 
 * **合約存取**：如果您無法使用AI助理，請聯絡您組織的管理員或Adobe客戶代表。 貴公司必須同意特定的GenAI相關法律條款，組織才能使用AI Assistant。
 
-* **許可權**：此 [!UICONTROL Adobe Admin Console] [!UICONTROL 報告工具] 「AI助理：產品知識」許可權決定了此工具的存取權。 此許可權將於5月中旬新增至「報表工具」區段。 產品設定檔管理員需要建立 [產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html) 以授予此許可權的Admin Console使用，並手動將使用者新增至此設定檔。
+* **許可權**：在 [!UICONTROL Adobe Admin Console]，則 [!UICONTROL 報告工具] 「AI助理：產品知識」許可權決定了此工具的存取權。
+A [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html) 需要在Admin Console中遵循下列步驟：
+   1. 瀏覽至 [!UICONTROL Admin Console] > [!UICONTROL 產品和服務] > [!UICONTROL Customer Journey Analytics] > [!UICONTROL 產品設定檔] > [!UICONTROL 許可權] > [!UICONTROL 編輯報告工具].
+   1. 新增「AI助理：產品知識」。
 
 ## 在Customer Journey AnalyticsUI中存取AI助理
 
