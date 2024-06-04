@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 hide: true
 hidefromtoc: true
-source-git-commit: fb9b0d2c8d2333aba83598ab1e1aea2370636002
+source-git-commit: f73e7e9be8593c3bbcad02925ab8b525694a4a15
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,7 @@ Customer Journey Analytics範圍以外的問題，例如Adobe Target和Adobe Cre
 A [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html) 需要在Admin Console中遵循下列步驟：
    1. 瀏覽至 [!UICONTROL Admin Console] > [!UICONTROL 產品和服務] > [!UICONTROL Customer Journey Analytics] > [!UICONTROL 產品設定檔] > [!UICONTROL 許可權] > [!UICONTROL 編輯報告工具].
    1. 新增「AI助理：產品知識」。
+      ![新增許可權](assets/image.png)
 
 ## 在Customer Journey AnalyticsUI中存取AI助理
 
