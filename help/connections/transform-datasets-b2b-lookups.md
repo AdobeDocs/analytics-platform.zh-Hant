@@ -4,10 +4,11 @@ description: 說明如何轉換特定B2B查詢結構描述資料集中的資料
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: ffa57c19174bf1618957efe7191c8486c8e3a900
+exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
+source-git-commit: 6e50e9341c2eedd6e4882cc3eb943cbcb8dfc332
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 5%
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -17,10 +18,10 @@ ht-degree: 5%
 
 根據下列類別，此轉換僅適用於包含B2B查詢結構描述資料的資料集：
 
-* XDM 商業帳戶個人關係
-* XDM 商業機會個人關係
-* XDM 業務行銷清單會員
-* XDM 商業活動會員
+* [XDM商業帳戶個人關係](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [XDM商業機會個人關係](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [XDM業務行銷清單成員](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [XDM商業活動會員](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 若要啟用這類資料集的轉換：
 
