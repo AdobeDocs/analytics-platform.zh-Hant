@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: d9ec1dfe99ad77f7b995ef97b71eb31f28eafd35
+source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
 workflow-type: tm+mt
-source-wordcount: '5987'
-ht-degree: 13%
+source-wordcount: '6717'
+ht-degree: 12%
 
 ---
 
@@ -160,13 +160,193 @@ ht-degree: 13%
 
 ### 行銷管道
 
-此範本設定為使用 [Url剖析](#dnl-url-parse) 和 [案例條件](#dnl-case-when) 函式多次，以從URL取得適當的值。 接著，系統就會對這些值套用邏輯，將URL與特定行銷管道建立關聯。
+此函式範本使用規則集合來建立行銷管道。
 
 +++ 詳細資料
 
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
 
-![行銷管道範本規則產生器的熒幕擷圖](assets/marketing-channel-template.png)
+![行銷管道範本規則產生器的熒幕擷圖](assets/function-template-marketing-channel-template.png)
+
++++
+
+### 退回數
+
+此函式範本使用規則集合來識別網站跳出。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![彈回規則產生器的熒幕擷圖](assets/function-template-bounces.png)
+
++++
+
+### 多維度合併
+
+此函式範本將兩個值合併為一個。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![多Dimension合併規則產生器的熒幕擷圖](assets/function-template-multi-dimension-combine.png)
+
++++
+
+### 易記的資料集名稱
+
+此函式範本提供可讀的資料集名稱。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![易記資料集名稱規則產生器的熒幕擷圖](assets/function-template-friendly-dataset-name.png)
+
++++
+
+### URL 中的頁面名稱
+
+此函式範本會建立簡單的頁面名稱。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![URL規則產生器頁面名稱的熒幕擷圖](assets/function-template-page-name-from-url.png)
+
++++
+
+### 假期季節
+
+此函式範本將一年中的關鍵時間分類。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![Holiday Season規則產生器的熒幕擷圖](assets/function-template-holiday-season.png)
+
++++
+
+### 每月目標
+
+此函式範本設定自訂的每月目標。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![每月目標規則產生器的熒幕擷圖](assets/function-template-monthly-goals.png)
+
++++
+
+### 取得分隔清單中的所有值
+
+此函式範本將有限的清單轉換為陣列。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![取得分隔清單規則產生器中的所有值的熒幕擷圖](assets/function-template-get-all-values-in-delimited-list.png)
+
++++
+
+### 取得分隔清單中的第一個值
+
+此函式範本取得分隔清單中的第一個值。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![取得分隔清單規則產生器中第一個值的熒幕擷圖](assets/function-template-get-first-value-in-delimited-list.png)
+
++++
+
+### 取得分隔清單中的最後一個值
+
+此函式範本取得分隔清單中的最後一個值。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![取得分隔清單規則產生器中最後一個值的熒幕擷圖](assets/function-template-get-last-value-in-delimited-list.png)
+
++++
+
+### 網域名稱
+
+此函式範本使用規則運算式擷取網域名稱。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![網域名稱規則產生器的熒幕擷圖](assets/function-template-domain-name.png)
+
++++
+
+### 取得查詢字串參數
+
+此函式範本會擷取查詢字串值。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![取得查詢字串引數規則產生器的熒幕擷圖](assets/function-template-get-query-string-parameter.png)
+
++++
+
+### 轉變欄位
+
+此函式範本將報告從一個欄位轉移到另一個欄位。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![轉變欄位規則產生器的熒幕擷圖](assets/function-template-transition-field.png)
+
++++
+
+### 簡單的機器人偵測
+
+此函式範本實作簡易機器人識別。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![簡易機器人偵測規則產生器的熒幕擷圖](assets/function-template-simple-bot-detection.png)
+
++++
+
+### 退出連結
+
+此函式範本會識別工作階段中最後一個點按的連結。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![退出連結規則產生器的熒幕擷圖](assets/function-template-exit-link.png)
+
++++
+
+### 下載連結
+
+此函式範本會標籤常見的下載連結。
+
++++ 詳細資料
+
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+
+![下載連結規則產生器的熒幕擷圖](assets/function-template-download-link.png)
 
 +++
 

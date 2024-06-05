@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: dcce03959018a34362d8f6cc1d3f44d4ffde916b
+source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
 workflow-type: tm+mt
-source-wordcount: '3667'
-ht-degree: 73%
+source-wordcount: '3711'
+ht-degree: 72%
 
 ---
 
@@ -19,6 +19,9 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2024 年 6 月** | |
+| 轉換B2B查詢的資料集 | 如何支援的檔案 [對B2B資料進行以人員為基礎的查閱](/help/connections//transform-datasets-b2b-lookups.md) （包括帳戶、商機、行銷清單和行銷活動），需要轉換B2B查詢資料集。 |
+| 衍生欄位函式範本 | 的相關檔案 [衍生欄位的其他函式範本](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **2024 年 5 月** | |
 | Target整合 | 已新增 [文章至Adobe整合區段](/help/integrations/cja4t.md) 如何整合Target與Customer Journey Analytics。 |
 | 使用組織原則限制將Customer Journey Analytics報表匯出至Google Cloud Platform時的必要資訊 | 將Adobe擁有的Google Cloud Platform組織ID新增至 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md) 將Customer Journey Analytics報表匯出至Google Cloud Platform的檔案。 <p>只有當組織在 Google Cloud Platform 中使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)時才需要此資訊。</p> |
