@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 4d3d53ecb44a69bcf3f46ca0c358ef794a437add
+source-git-commit: 81554c8fd48d3aa34976347c0c0cc2e52f4db2ad
 workflow-type: tm+mt
-source-wordcount: '7147'
+source-wordcount: '7542'
 ht-degree: 12%
 
 ---
@@ -435,7 +435,7 @@ ht-degree: 12%
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` |  |
+| `https://google.com` | |
 
 {style="table-layout:auto"}
 
@@ -1002,6 +1002,85 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 +++
 
+<!-- MATH -->
+
+### Math
+
+在數值欄位上使用基本的數學運運算元（加、減、乘、除與加冪）。
+
++++ 詳細資料
+
+## 規格 {#math-io}
+
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
+|---|---|---|---|---|
+| <ul><li>數值</li></ul> | <ul><li>一或多個數值欄位</li><li>一或多個運運算元（加、減、乘、除、升冪）</li><li>使用者輸入值</li></ul> | <ul><li>`+` （新增）</li><li>`-` （減）</li><li>`*` （乘）</li><li>`/` （除）</li><li>`^` （提升至電源）</li></ul> | <ul><li>每個衍生欄位25個作業</li><li>每個衍生欄位5個數學函式</li></ul> | <p>新增衍生欄位</p> |
+
+{style="table-layout:auto"}
+
+## 使用案例 {#math-uc}
+
+由於膨脹，您想要以5%的膨脹率來更正已擷取的CRM資料的收入數。
+
+### 在此之前的資料 {#math-uc-databefore}
+
+| CRM ID | 年收入 |
+|---|---:|
+| 1234 | 35,070,000 |
+| 4133 | 7,500,000 |
+| 8110 | 10,980 |
+| 2201 | 42,620 |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#math-uc-derivedfield}
+
+您定義 `Corrected Annual Revenue` 衍生欄位。 您使用 [!UICONTROL MATH] 函式來定義將原始年度收入數字乘以1.05的規則。
+
+![數學規則的熒幕擷圖](assets/math.png)
+
+
+### 之後的資料 {#math-uc-dataafter}
+
+| CRM ID | 更正的年度收入 |
+|---|---:|
+| 1234 | 36,823,500 |
+| 4133 | 7,875,000 |
+| 8110 | 11,529,00 |
+| 2201 | 44,751 |
+
+{style="table-layout:auto"}
+
+## 更多資訊 {#math-more-info}
+
+若要建立公式：
+
+1. 只要開始輸入公式欄位和符合您輸入內容的數值欄位，就會出現在快顯功能表中。 或者，您可以從左窗格的可用欄位中拖放數值欄位。
+   ![數學更多資訊1](assets/math-more-info-1.png)
+
+1. 新增運算元(例如 `*` 乘以)後接著另一個欄位或靜態值。 您可以使用括弧來定義更複雜的公式。
+
+1. 插入靜態值(例如 `1.05`)，輸入值並選取 **[!UICONTROL 新增 *x* 作為靜態值]** 或 **[!UICONTROL 新增 — *x* 作為負靜態值]** 從躍現式選單中。
+   ![數學更多資訊2](assets/math-more-info-2.png)
+
+1. 綠色核取標籤 ![核取記號](./assets/checkmark.svg)</span> 指出數學公式是否有效，否則會顯示警告 <span style="color:red">![警報](./assets/alert.svg)</span> 和訊息 <span style="color:#ea3829">[!UICONTROL 無效的公式運算式].</span>
+   ![數學更多資訊3](assets/math-more-info-3.png)
+
+在中使用靜態數字時，有一些重要的考量 [!UICONTROL MATH] 函式：
+
+- 靜態值需與欄位相關聯。 例如，使用 [!UICONTROL MATH] 不支援只包含靜態欄位的函式。
+- 您不能使用raise to power運運算元(`ˆ`)。
+- 如果您在公式中使用多個靜態值，這些靜態值應該使用括弧分組，公式才有效。 例如：
+
+   - 此公式傳回錯誤。
+     ![數學更多資訊4](assets/math-more-info-4.png)
+
+   - 此公式有效。
+     ![數學更多資訊5](assets/math-more-info-5.png)
+
++++
+
+
 <!-- MERGE FIELDS -->
 
 ### 合併欄位
@@ -1544,7 +1623,9 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 | <p>尋找和取代</p> | <ul><li>每個衍生欄位2個尋找和取代函式</li></ul> |
 | <p>查詢</p> | <ul><li>每個衍生欄位5個查詢函式</li></ul> |
 | <p>小寫</p> | <ul><li>每個衍生欄位2個小寫函式</li></ul> |
+| <p>Math</p> | <ul><li>每個衍生欄位25個作業</li><li>每個衍生欄位5個數學函式</li></ul> |
 | <p>合併欄位</p> | <ul><li>每個衍生欄位有2個合併欄位函式</li></ul> |
+| <p>下一個或上一個</p> | <ul><li>每個衍生欄位3個下一個或上一個函式</li></ul> |
 | <p>規則運算式取代</p> | <ul><li>每個衍生欄位有1個Regex取代函式</li></ul> |
 | <p>Split</p> | <ul><li>每個衍生欄位5個分割函式</li></ul> |
 | <p>修剪</p> | <ul><li>每個衍生欄位1個修剪函式</li></ul> |
