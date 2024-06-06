@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 4396f6046f8a7aa27f04d2327c5b3c0ee967774b
+source-git-commit: 4d3d53ecb44a69bcf3f46ca0c358ef794a437add
 workflow-type: tm+mt
-source-wordcount: '6717'
+source-wordcount: '7147'
 ht-degree: 12%
 
 ---
@@ -435,7 +435,7 @@ ht-degree: 12%
 |  | `https://site.com/?cid=em_12345678` |
 | `https://google.com` | `https://site.com/?cid=ps_abc098765` |
 | `https://google.com` | `https://site.com/?cid=em_765544332` |
-| `https://google.com` | |
+| `https://google.com` |  |
 
 {style="table-layout:auto"}
 
@@ -1067,6 +1067,78 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 +++
 
+
+<!-- NEXT OR PREVIOUS -->
+
+### 下一個或上一個
+
+以欄位作為輸入，並解析工作階段或使用範圍內該欄位的下一個或上一個值。 這僅適用於「造訪」和「事件」表格欄位。
+
++++ 詳細資料
+
+## 規格 {#prevornext-io}
+
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
+|---|---|---|---|---|
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 方法]：<ul><li>上一個值</li><li>下一個值</li></ul></li><li>[!UICONTROL 範圍]：<ul><li>「人」</li><li>工作階段</li></ul></li><li>[!UICONTROL 索引]：<ul><li>數值</li></ul><li>[!UICONTROL 包含重複專案]：<ul><li>布林值</li></ul></li><li>[!UICONTROL 包含「無值」]：<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位3個函式</p> | <p>新增衍生欄位</p> |
+
+{style="table-layout:auto"}
+
+## 使用案例 {#prevornext-uc1}
+
+您想要瞭解 **下一個** 或 **上一個** 值是您收到的資料，已考慮重複值。
+
+### 資料 {#prevornext-uc1-databefore}
+
+**範例1 — 處理包含重複**
+
+| 已接收資料 | 下一個值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 下一個值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 | 上一個值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 上一個值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 |
+|---|---|---|---|---|
+| 首頁 | 首頁 | 搜尋 | *沒有值* | *沒有值* |
+| 首頁 | 搜尋 | 搜尋 | 首頁 | *沒有值* |
+| 搜尋 | 搜尋 | 產品詳細資料 | 首頁 | 首頁 |
+| 搜尋 | 產品詳細資料 | 產品詳細資料 | 搜尋 | 首頁 |
+| 產品詳細資料 | 搜尋 | 搜尋 | 搜尋 | 搜尋 |
+| 搜尋 | 產品詳細資料 | 產品詳細資料 | 產品詳細資料 | 產品詳細資料 |
+| 產品詳細資料 | 搜尋 | 搜尋 | 搜尋 | 搜尋 |
+| 搜尋 | 搜尋 | *沒有值* | 產品詳細資料 | 產品詳細資料 |
+| 搜尋 | *沒有值* | *沒有值* | 搜尋 | 產品詳細資料 |
+
+{style="table-layout:auto"}
+
+**範例2 — 處理在收到的資料中包含具有空白值的重複專案**
+
+| 已接收資料 | 下一個值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 下一個值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 | 上一個值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 上一個值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 |
+|---|---|---|---|---|
+| 首頁 | 首頁 | 搜尋 | *沒有值* | *沒有值* |
+| 首頁 | 首頁 | 搜尋 | 首頁 | *沒有值* |
+| 首頁 | 搜尋 | 搜尋 | 首頁 | *沒有值* |
+| 搜尋 | 搜尋 | 產品詳細資料 | 首頁 | 首頁 |
+|   |   |   |   |   |
+| 搜尋 | 搜尋 | 產品詳細資料 | 搜尋 | 首頁 |
+| 搜尋 | 產品詳細資料 | 產品詳細資料 | 搜尋 | 首頁 |
+| 產品詳細資料 | *沒有值* | *沒有值* | 搜尋 | 搜尋 |
+|   |   |   |   |   |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#prevnext-uc1-derivedfield}
+
+您定義 `Next Value` 或 `Previous value` 衍生欄位。 您使用 [!UICONTROL 下一個或上一個] 函式來定義規則，以選取 [!UICONTROL 已接收資料] 欄位，選取 [!UICONTROL 下一個值] 或 [!UICONTROL 上一個值] 作為 [!UICONTROL 方法]， [!UICONTROL 工作階段] 作為範圍，並設定值 [!UICONTROL 索引] 至 `1`.
+
+![合併欄位規則的熒幕擷圖](assets/prevnext-next.png)
+
+## 詳細資訊 {#prevnext-moreinfo}
+
+您只能選取屬於「造訪」或「事件」表格的欄位。
+
+[!UICONTROL 包含重複專案] 決定如何處理重複值 [!UICONTROL 下一個或上一個] 函式。
+
+- 包含重複專案外觀和下一個或上一個值。 如果 [!UICONTROL 包含重複專案] 選取，則會忽略目前點選中下一個或上一個值的任何連續重複專案。
+
+- 選取欄位中沒有（空白）值的列，將不會有下一個或上一個值傳回作為 [!UICONTROL 下一個或上一個] 函式輸出。
+
++++
 
 <!-- REGEX REPLACE -->
 
