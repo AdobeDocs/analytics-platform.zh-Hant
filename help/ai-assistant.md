@@ -4,9 +4,9 @@ title: Adobe Customer Journey Analytics的AI助理
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: c3fbf86e06e47583165a661683bc7490ecd1b17f
+source-git-commit: 3ed6eabae8607a10920c8917a818f0497b337893
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,5 @@ Customer Journey Analytics範圍以外的問題，例如Adobe Target和Adobe Cre
 1. （可選）若要顯示來源，請按一下 **[!UICONTROL 顯示來源]**，並顯示通知答案的檔案來源或來源。
 
 1. （選擇性）您也可以對任何特定答案的效用提供豎起大拇指或豎起大拇指的投票選項。
+
+1. （選擇性）您可以針對不適當或有害的內容標示答案。
