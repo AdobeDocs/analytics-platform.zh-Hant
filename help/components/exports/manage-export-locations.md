@@ -5,9 +5,9 @@ title: 管理雲端匯出位置和帳戶
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: cdf99e31790f089950de8063445b6264158131dd
+source-git-commit: 6e36885cfba60c808b9f069159670db6834fe41f
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -54,6 +54,10 @@ ht-degree: 1%
 
 ## 編輯位置
 
+位置只能由建立該位置的使用者或系統管理員編輯。
+
+若要編輯位置：
+
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
 1. 選取 [!UICONTROL **位置**] 標籤。
@@ -95,6 +99,10 @@ ht-degree: 1%
 1. 選取 [!UICONTROL **刪除**] 再次確認。
 
 ## 編輯帳戶
+
+只有建立帳號的使用者或系統管理員才能編輯帳號。
+
+若要編輯帳戶：
 
 1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
 
