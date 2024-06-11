@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: f078bf7b9b9d87335f435db2bbba87b078412738
+source-git-commit: 1ded359997c4915f1b5ea6237aceb4d3d922b3a9
 workflow-type: tm+mt
-source-wordcount: '3603'
-ht-degree: 84%
+source-wordcount: '3546'
+ht-degree: 83%
 
 ---
 
@@ -279,21 +279,7 @@ ht-degree: 84%
 
 如需詳細資訊，請參閱[設定 Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html)。
 
-您也想要設定 Experience Cloud ID 服務擴充功能，以便輕鬆使用 Experience Cloud ID。Experience CloudID服務可識別所有Adobe Experience Cloud解決方案中的人員。
-
-若要建立及設定 Experience Cloud ID 服務擴充功能：
-
-1. 選取左側邊欄中的&#x200B;**[!UICONTROL 「擴充功能」]**。
-
-2. 在頂端列中選取 **[!UICONTROL 「目錄」]**。
-
-3. 搜尋或捲動至 Experience Cloud ID 服務擴充功能，然後選取&#x200B;**[!UICONTROL 「安裝」]**&#x200B;以進行安裝。
-
-   <img src="./assets/ecid-extension.png" width="35%"/>
-
-4. 將所有設定保留為預設值。
-
-5. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+Web SDK包含 [!UICONTROL Adobe Experience Cloud ID服務] 本機，因此您不需要將ID服務擴充功能新增至標籤。
 
 #### **資料元素**
 
