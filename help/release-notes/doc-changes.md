@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
+source-git-commit: cfdbbacc1c6f280e8959513d8073cd17c8699962
 workflow-type: tm+mt
-source-wordcount: '3732'
+source-wordcount: '3731'
 ht-degree: 72%
 
 ---
@@ -21,14 +21,14 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | --- | --- |
 | **2024 年 6 月** | |
 | AI 助理 | 已新增 [檔案](../ai-assistant.md) 用於Customer Journey Analytics的AI助理上。 |
-| 轉換B2B查詢的資料集 | 已新增如何支援的檔案 [對B2B資料進行以人員為基礎的查閱](/help/connections//transform-datasets-b2b-lookups.md) （包括帳戶、商機、行銷清單和行銷活動），需要轉換B2B查詢資料集。 |
+| 轉換B2B查詢的資料集 | 已新增如何支援的檔案 [對B2B資料進行以人員為基礎的查閱](/help/connections//transform-datasets-b2b-lookups.md) （包括帳戶、商機、行銷清單和行銷活動）使用轉換B2B查詢資料集。 |
 | 衍生欄位函式和函式範本 | 新增其他衍生欄位函式([Math](/help/data-views/derived-fields/derived-fields.md#math)， [下一個或上一個](/help/data-views/derived-fields/derived-fields.md#next-or-previous))和 [函式範本](/help/data-views/derived-fields/derived-fields.md#function-templates). |
 | **2024 年 5 月** | |
 | Target整合 | 已新增 [文章至Adobe整合區段](/help/integrations/cja4t.md) 如何整合Target與Customer Journey Analytics。 |
 | 使用組織原則限制將Customer Journey Analytics報表匯出至Google Cloud Platform時的必要資訊 | 將Adobe擁有的Google Cloud Platform組織ID新增至 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md) 將Customer Journey Analytics報表匯出至Google Cloud Platform的檔案。 <p>只有當組織在 Google Cloud Platform 中使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)時才需要此資訊。</p> |
 | 有關將元件新增至專案的文件 | 新增了有關如何[將各種類型的元件新增至 Analysis Workspace 中的專案](/help/components/use-components-in-workspace.md)的一般資訊。 |
 | 資料匯出使用案例 | 一組新文章描述 [資料匯出使用案例](/help/use-cases/data-export/overview.md) 以及如何使用Experience Platform和Customer Journey Analytics功能來實作這些使用案例 |
-| 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)。</p> |
+| 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實施可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)。</p> |
 | 關於自訂日期範圍的更新文件 | 與[建立自訂日期範圍](/help/components/date-ranges/custom-date-ranges.md)相關的最新螢幕擷圖與程序，以利符合目前的產品特徵與設計。 |
 | Dimension的概觀資訊 | 已新增以下資訊： [維度](/help/components/dimensions/overview.md). |
 | 來源聯結器的範例 | 新增說明如何運作時可用的來源聯結器範例。 [使用來源聯結器](/help/data-ingestion/sources.md#use-a-source-connector) 用於擷取資料。 |

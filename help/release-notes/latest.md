@@ -3,9 +3,9 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e71fe4bc1b854dcb904dfbfd770233cdadd5c8eb
+source-git-commit: 61209c4f86052059ab2f1ef3a3d68e9c16f8e621
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '995'
 ht-degree: 38%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 38%
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **適用於 Customer Journey Analytics 的 AI 助理** | 允許您在 Customer Journey Analytics UI 中提出自然語言的問題，並根據 Customer Journey Analytics 文件獲得答案。[了解更多](/help/ai-assistant.md) | | 2024 年 6 月 6 日 |
-| **圖表式拚接：使用UIS圖表匯出進行拚接** | 透過圖表式拼接，我們使用身分圖表透過以下方式更能瞭解客戶歷程：<ul><li>使用不同的識別碼聯結資料集，而不必ETL資料以反映單一識別碼。</li><li>跨資料集共用身分，藉此改善單一資料集的偏好或黃金身分涵蓋範圍。</li><li>將Adobe Real-time CDP和Adobe Journey Optimizer中建立的設定檔與Adobe Customer Journey Analytics中的人員整合。</li></ul>(後續文件連結) |  | 2024年6月28日 |
-| **對於人員到帳戶的 B2B 方案轉換** | 為了支援對B2B資料（包括帳戶、商機、行銷清單和行銷活動）進行以人員為基礎的查詢，我們現在提供轉換B2B查詢資料集的功能。 根據下列類別，此轉換僅適用於包含B2B查詢結構描述資料的資料集：<ul><li>XDM 商業帳戶個人關係</li><li>XDM 商業機會個人關係</li><li>XDM 業務行銷清單會員</li><li>XDM 商業活動會員</li></ul>[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/transform-datasets-b2b-lookups) |  | 2024 年 6 月 5 日 |
+| **圖表式拚接：使用UIS圖表匯出進行拚接** | 透過圖表式拼接，您可以使用身分圖表透過以下方式取得客戶歷程的更好檢視：<ul><li>使用不同的識別碼加入資料集，而不需擷取、轉換和載入其他資料以反映單一識別碼。</li><li>跨資料集共用身分，藉此改善單一資料集的偏好或黃金身分涵蓋範圍。</li><li>將Real-time Customer Data Platform和Journey Optimizer中建立的設定檔與Customer Journey Analytics中的人員整合。</li></ul>(後續文件連結) |  | 2024年6月28日 |
+| **對於人員到帳戶的 B2B 方案轉換** | 若要支援對B2B資料（包括帳戶、商機、行銷清單和行銷活動）進行以人員為基礎的查詢，您可以轉換B2B查詢資料集。 根據下列類別，此轉換僅適用於包含B2B查詢結構描述資料的資料集：<ul><li>XDM 商業帳戶個人關係</li><li>XDM 商業機會個人關係</li><li>XDM 業務行銷清單會員</li><li>XDM 商業活動會員</li></ul>[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/transform-datasets-b2b-lookups) |  | 2024 年 6 月 5 日 |
 | **衍生欄位 - 數學函數** | 讓您在資料視圖中執行簡單的數學運算子，以便回答有關使用者的問題。例如，您可以合併產品、保固和運送等收入。 <p>[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields#math)</p> | | 2024 年 6 月 5 日 |
-| **衍生欄位 — 衍生欄位 — 下一個或上一個函式** | 讓您檢視下一個或上一個值。 例如，在選取的行銷管道之前，某人先前互動的行銷管道為何？ 或者，使用者在選取頁面之前或之後互動的頁面為何？ 使用者在進店前互動最熱門的頻道為何？ [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields#next-or-previous) | | 2024 年 6 月 12 日 |
+| **衍生欄位 — 衍生欄位 — 下一個或上一個函式** | 讓您檢視下一個或上一個值。 例如，在選取的行銷管道之前，某人先前互動的行銷管道為何？ 或者，使用者在選取頁面之前或之後互動的頁面為何？ 使用者在進店前互動最熱門的頻道為何？ <p>[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields#next-or-previous)</p> | | 2024 年 6 月 12 日 |
 | **衍生欄位 — 摘要函式** | 提供在事件、工作階段和使用者層級，將彙總型別函式套用至量度或維度的功能。 (後續文件連結) | | 2024年6月26日 |
-| **衍生欄位 — 進階重複資料刪除功能** | 協助防止重複計算值。 可在使用者或工作階段層級，或根據維度的唯一值套用。 (後續文件連結) |  | 2024年6月26日 |
+| **衍生欄位 — 重複資料刪除功能** | 協助防止重複計算值。 可在使用者或工作階段層級，或根據維度的唯一值套用。 (後續文件連結) |  | 2024年6月26日 |
 | **擷取優先順序和延遲** | 您現在可以在90分鐘(SLT)內以Customer Journey Analytics擷取事件資料，無論資料是24小時、48小時還是7天前。 請注意，此功能因您公司購買的SKU套件而異：<ul><li>CJA優先擷取基本：90分鐘SLT處理內24小時前的資料（適用於CJA Foundation和CJA Select）</li><li>CJA優先擷取中繼：90分鐘SLT處理內72小時前的資料（適用於CJA Prime）</li><li>CJA優先擷取進階：90分鐘SLT處理內1週前的資料（適用於CJA Ultimate）</li></ul> |  | 2024 年 6 月 12 日 |
 | **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者和系統管理員可以編輯和刪除帳戶和位置。 以前，帳戶和位置只能由建立它們的使用者使用。 當使用者[設定雲端匯出帳戶](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)和[設定雲端匯出位置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)時，可使用這些設定。 | 2024 年 6 月 12 日 | 2024年6月18日 |
 | **自由表格的下拉式選單中提供多個篩選器時，請選取這些篩選器** | 當多個篩選器以下拉式選單形式新增至自由表格時，自由表格的使用者現在可以一次選取多個篩選器。 自由表格會經過篩選，加入任何選取的篩選器。 <p>過去，使用者只能在篩選器下拉式選單中一次選取一個篩選器。</p><p>（請遵循檔案連結。）<!--For more information, see "Add filters to a project" in "Use components in Analysis Workspace."--> |  | 2024年6月19日 |
