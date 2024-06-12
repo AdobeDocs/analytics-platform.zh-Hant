@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 43e160aa68ca0eed08027be18cdab74083be3a10
+source-git-commit: e71fe4bc1b854dcb904dfbfd770233cdadd5c8eb
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 37%
+source-wordcount: '994'
+ht-degree: 38%
 
 ---
 
@@ -28,11 +28,10 @@ ht-degree: 37%
 | **衍生欄位 — 摘要函式** | 提供在事件、工作階段和使用者層級，將彙總型別函式套用至量度或維度的功能。 (後續文件連結) | | 2024年6月26日 |
 | **衍生欄位 — 進階重複資料刪除功能** | 協助防止重複計算值。 可在使用者或工作階段層級，或根據維度的唯一值套用。 (後續文件連結) |  | 2024年6月26日 |
 | **擷取優先順序和延遲** | 您現在可以在90分鐘(SLT)內以Customer Journey Analytics擷取事件資料，無論資料是24小時、48小時還是7天前。 請注意，此功能因您公司購買的SKU套件而異：<ul><li>CJA優先擷取基本：90分鐘SLT處理內24小時前的資料（適用於CJA Foundation和CJA Select）</li><li>CJA優先擷取中繼：90分鐘SLT處理內72小時前的資料（適用於CJA Prime）</li><li>CJA優先擷取進階：90分鐘SLT處理內1週前的資料（適用於CJA Ultimate）</li></ul> |  | 2024 年 6 月 12 日 |
-| **管理員設定，控制用於匯出和匯入的帳戶和位置** | 新 [位置管理員中的「管理員設定」索引標籤](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/locations-manager) 可讓管理員控制使用者是否可以建立和編輯帳戶與位置。 這些設定適用於使用者 [設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts) 和 [設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations). 管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。<p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。 |  | 2024年6月18日 |
-| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者和系統管理員可以編輯和刪除帳戶和位置。 以前，帳戶和位置只能由建立它們的使用者使用。 當使用者[設定雲端匯出帳戶](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)和[設定雲端匯出位置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)時，可使用這些設定。 |  | 2024年6月18日 |
-| **自由表格的下拉式選單中提供多個篩選器時，請選取這些篩選器** | 當多個篩選器以下拉式選單形式新增至自由表格時，自由表格的使用者現在可以一次選取多個篩選器。 自由表格會經過篩選，加入任何選取的篩選器。 過去，使用者只能在篩選器下拉式選單中一次選取一個篩選器。<p>（請遵循檔案連結。）&lt;! — 如需詳細資訊，請參閱在Analysis Workspace中使用元件中的「將篩選器新增至專案」。—> |  | 2024年6月19日 |
-| **工作區專案的目錄** | 專案現在有新的目錄可用。 目錄提供的連結可讓使用者快速跳至專案內的面板和視覺效果。 目錄可為個別專案或特定使用者的所有專案啟用。<p>（請遵循檔案連結。）&lt;! — 如需詳細資訊，請參閱「建立專案」中的「顯示專案目錄」。—> |  | 2024年6月19日 |
-| **在自由表格中建立維度專案的超連結** | <ul><li>您可以為一或多個維度專案建立超連結，以便在Analysis Workspace的自由格式表格內點選這些專案。 </li><li>您可以為具有URL值的維度專案建立超連結，或為具有非URL值的維度專案建立自訂URL。</li><li>您可以使用變數，為多個維度專案建立動態自訂URL。 變數可參考維度專案的值，也可以參考劃分維度。</li></ul>（請遵循檔案連結。）&lt;! — 如需詳細資訊，請參閱「在自由表格中新增超連結至維度」。—> |  | 2024年6月19日 |
+| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者和系統管理員可以編輯和刪除帳戶和位置。 以前，帳戶和位置只能由建立它們的使用者使用。 當使用者[設定雲端匯出帳戶](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)和[設定雲端匯出位置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)時，可使用這些設定。 | 2024 年 6 月 12 日 | 2024年6月18日 |
+| **自由表格的下拉式選單中提供多個篩選器時，請選取這些篩選器** | 當多個篩選器以下拉式選單形式新增至自由表格時，自由表格的使用者現在可以一次選取多個篩選器。 自由表格會經過篩選，加入任何選取的篩選器。 <p>過去，使用者只能在篩選器下拉式選單中一次選取一個篩選器。</p><p>（請遵循檔案連結。）<!--For more information, see "Add filters to a project" in "Use components in Analysis Workspace."--> |  | 2024年6月19日 |
+| **工作區專案的目錄** | 專案現在有新的目錄可用。 目錄提供的連結可讓使用者快速跳至專案內的面板和視覺效果。 <p>目錄可為個別專案或特定使用者的所有專案啟用。</p><p>（請遵循檔案連結。）<!--For more information, see "Display the project table of contents" in "Create projects".--> |  | 2024年6月19日 |
+| **在自由表格中建立維度專案的超連結** | 您可以為一或多個維度專案建立超連結，以便在Analysis Workspace的自由格式表格內點選這些專案。 <p>您可以為具有URL值的維度專案建立超連結，或為具有非URL值的維度專案建立自訂URL。</p><p>您可以使用變數，為多個維度專案建立動態自訂URL。 變數可參考維度專案的值，也可以參考劃分維度。</p><p>（請遵循檔案連結。）<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | 2024年6月19日 |
 | **對象已經發佈到 Experience Platform 中新的「對象」區段** | 現在起，從 Customer Journey Analytics 發佈的對象，可在 Adobe Experience Platform 的新「對象」區段中取得。<p>以前，從 Customer Journey Analytics 發佈的對象是在 Experience Platform 的「區段」部分下方取得。</p><p>此改善提供以下優點：</p><ul><li>對象出現在 Experience Platform 之前，不會再有 1 小時的延遲，而是在發佈之後幾秒鐘即可使用。</li><li>可以使用「來源」欄對 Experience Platform 中的對象進行排序，其中會顯示最初發佈對象的應用程式。</li><li>Experience Platform 中的篩選和排序選項可讓您更快找到相關的對象。</li></ul> <p>(後續文件連結)</p> |  | 2024年7月14日 |
 
 {style="table-layout:auto"}
