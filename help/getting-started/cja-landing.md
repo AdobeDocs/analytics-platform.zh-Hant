@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,21 +23,21 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 >[!BEGINTABS]
 
->[!TAB AI助理]
+>[!TAB AI 助理]
 
-AI Assistant是一種對話式體驗，可讓從業人員快速執行工作，無論是瞭解概念、疑難排解問題或搜尋資訊。 它也能讓非專家執行專家任務，並提高整體工作品質。
+AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包括理解概念、對問題進行疑難排解或搜尋資訊等。它也可讓非專家執行專家任務，並提高整體工作品質。
 
 [![影像](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
->[!TAB B2B查閱]
+>[!TAB B2B 查詢]
 
-在設定連線時，您可以轉換特定B2B查詢結構描述的資料集，以更支援以「人員」為基礎查詢B2B資料。
+在設定連線時，您可以轉換特定 B2B 查詢結構描述的資料集，以便在 B2B 資料上更完善地支援人員型查詢。
 
 [![影像](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
 
 >[!TAB 衍生欄位]
 
-新衍生的欄位函式（數學、下一個或上一個）和其他函式範本（例如跳出數、易記資料集名稱、假日季節、每月目標、簡單機器人偵測等）現已推出。
+新的衍生欄位函數 (數學、下一個或上一個) 和附加函數範本 (如彈回數、易記的資料集名稱、假期季節、每月目標、簡單的機器人偵測等) 現已推出。
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
@@ -67,7 +67,7 @@ Audiences that are published from Customer Journey Analytics are now available i
 
 >[!TAB 新文件]
 
-新檔案章節現已開放瀏覽：<ul><li>如何從 Adobe Analytics 升級至 Customer Journey Analytics。</li><li>資料匯出使用案例以及所需的 Experience Platform 和 Customer Journey 功能。 </li></ul>選取「**[!UICONTROL 了解更多]**」，取得本文件和其他文件更新。
+有關以下內容的新文件章節現已提供：<ul><li>如何從 Adobe Analytics 升級至 Customer Journey Analytics。</li><li>資料匯出使用案例以及所需的 Experience Platform 和 Customer Journey 功能。 </li></ul>選取「**[!UICONTROL 了解更多]**」，取得本文件和其他文件更新。
 
 [![影像](assets/learn-more-button.svg)](/help/release-notes/doc-changes.md)
 
@@ -146,7 +146,7 @@ Audiences that are published from Customer Journey Analytics are now available i
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Customer Journey Analytics</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Customer Journey Analytics產品說明</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics (Customer Journey Analytics附加元件)產品說明</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">CUSTOMER JOURNEY ANALYTICSAPI</a> - <a href="/help/ai-assistant.md">AI助理</a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Customer Journey Analytics 產品說明</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics (Customer Journey Analytics 附加元件) 產品說明</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics API</a> - <a href="/help/ai-assistant.md">AI 助理</a>
 </td>
 <td><strong>資料擷取</strong><br/><a href="/help/data-ingestion/data-ingestion.md">概述</a> - <a href="/help/data-ingestion/analytics.md">Analytics</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a>  - <a href="/help/data-ingestion/aepmobilesdk.md">行動 SDK</a> - <a href="/help/data-ingestion/batch.md">批次</a> - <a href="/help/data-ingestion/streaming.md">串流</a> -  <a href="/help/data-ingestion/sources.md">來源</a> - <a href="/help/data-ingestion/serverapi.md">伺服器 API</a>
 </td>

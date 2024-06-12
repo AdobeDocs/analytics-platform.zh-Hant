@@ -5,29 +5,29 @@ role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
-keywords: 查詢服務；查詢服務；sql語法
+keywords: 查詢服務;查詢服務;SQL 語法
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # 比較 Adobe Analytics 資料與 Customer Journey Analytics 資料
 
-隨著您的組織採用Customer Journey Analytics，您可能會注意到Adobe Analytics和Customer Journey Analytics之間的資料差異。 這是正常的現象，發生原因有很多種。Customer Journey Analytics的設計可讓您改善AA中資料的部分限制。 但是，可能會出現意外和意外的差異。 本文章旨在協助您診斷並解決這些差異，以便於您和您的團隊可以使用Customer Journey Analytics，不會受到資料完整性疑慮所阻礙。
+您的組織採用 Customer Journey Analytics 時，您可能會注意到 Adobe Analytics 和 Customer Journey Analytics 之間的資料存在一些差異。這是正常的現象，發生原因有很多種。Customer Journey Analytics 的設計可讓您改善 AA 中資料的部分限制。但可能會發生未預期/意外的不一致情況。本文章旨在協助您診斷並解決這些差異，讓您和團隊能夠使用 Customer Journey Analytics 而不會受到資料完整性疑慮所阻礙。
 
-Adobe Analytics Adobe Experience Platform假設您透過 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)，然後使用此資料集建立Customer Journey Analytics連線。
+假設您透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)將 Adobe Analytics 資料擷取至 Adobe Experience Platform，然後使用該資料集建立了 Customer Journey Analytics 連線。
 
-![資料從Adobe Analytics透過Data Connector傳輸至Adobe Experience Platform，並使用CJA連線傳輸至Customer Journey Analytics。](assets/compare.png)
+![資料透過資料連接器從 Adobe Analytics 流向 Adobe Experience Platform，並透過 CJA 連線流向 Customer Journey Analytics。](assets/compare.png)
 
-接著您建立資料檢視，然後在後續的Customer Journey Analytics上報告此資料時，您注意到Adobe Analytics中的報告結果不一致。
+接著您建立資料檢視，然後之後報告這筆在 Customer Journey Analytics 上的資料時，您注意到 Adobe Analytics 中的報告結果不一致。
 
 以下為將您的原始 Adobe Analytics 資料與 Customer Journey Analytics 中的資料進行比較的部分步驟。
 
 ## 先決條件
 
-* 確認Adobe Experience Platform中的Analytics資料集包含您正在調查的日期範圍的資料。
+* 確認 Adobe Experience Platform 中的 Analytics 資料集包含您正在調查之日期範圍的資料。
 
 * 確認您在 Analytics 中選擇的報告套裝符合擷取到 Adobe Experience Platform 的報告套裝。
 
@@ -41,7 +41,7 @@ Adobe Analytics Adobe Experience Platform假設您透過 [Analytics來源聯結�
 
 1. 請儲存此專案，以便於在比較時使用。
 
-## 步驟2：比較結果和 [!UICONTROL 依時間戳記區分的記錄總數] 在Customer Journey Analytics中
+## 步驟 2：將結果與 Customer Journey Analytics 中[!UICONTROL 依時間戳記區分的記錄總數]進行比較
 
 現在請將 Analytics 中的「[!UICONTROL 發生次數]」與 Customer Journey Analytics 中依時間戳記區分的記錄總數進行比較。
 
@@ -49,7 +49,7 @@ Adobe Analytics Adobe Experience Platform假設您透過 [Analytics來源聯結�
 
 >[!NOTE]
 >
->這僅適用於一般中值資料集，不適用於拼接資料集(透過 [拼接](/help/stitching/overview.md))。 請注意，在Customer Journey Analytics中使用的人員ID帳戶處理對於讓比較發揮作用至關重要。 在Adobe Analytics中復寫並不總是那麼容易，尤其是在已開啟銜接的情況下。
+>這僅適用於一般中值資料集，而非拼接資料集 (透過[拼接](/help/stitching/overview.md))。請注意，用於 Customer Journey Analytics 的人員 ID 計量是進行比較工作的關鍵。在 Adobe Analytics 中複寫可能不是每次都那麼容易，尤其是已開啟「拼接」時。
 
 1. 在 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)中，執行以下[!UICONTROL 依時間戳記區分的記錄總數]查詢：
 
@@ -83,11 +83,11 @@ Adobe Analytics Adobe Experience Platform假設您透過 [Analytics來源聯結�
 
 1. 如果連接器已篩選列，請將這幾列減去[!UICONTROL 發生次數]量度。得到的數字應符合在 Adobe Experience Platform 資料集中的事件數。
 
-## 為何可能會在從Adobe Experience Platform擷取期間篩選或略過記錄
+## 為什麼從 Adobe Experience Platform 擷取期間可能會篩選或略過記錄
 
-Customer Journey Analytics [連線](/help/connections/create-connection.md) 可讓您根據資料集內的通用人員ID帶入並聯結多筆資料集。 在後端，我們會套用重複資料刪除：根據時間戳記完全外部聯結或聯集事件資料集，然後根據人員 ID 內部聯結個人資料和查詢資料集。
+Customer Journey Analytics [連線](/help/connections/create-connection.md)可讓您根據資料集內的通用人員 ID 帶入並聯結多筆資料集。在後端，我們會套用重複資料刪除：根據時間戳記在外部完整聯結或聯合事件資料集，然後根據人員 ID 在內部聯結設定檔和查詢資料集。
 
-以下是從Adobe Experience Platform擷取資料時可能會略過記錄的部分原因。
+以下是從 Adobe Experience Platform 時可能略過記錄的部分原因。
 
 * **遺失時間戳記** – 如果事件資料集遺失時間戳記，則會在擷取期間完全忽略或略過這些記錄。
 
