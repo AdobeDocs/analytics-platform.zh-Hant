@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: f4a235d90ad44dbb192b74a03accc7ad4a39e986
+source-git-commit: 6b8d9abf7d807a1e19aa86386eb2dae9bb18f472
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1234'
 ht-degree: 2%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 2%
 
 此 **[!UICONTROL 保留率]** 檢視可測量使用者如何隨著時間繼續使用您的產品，這有助於您瞭解您的產品市場契合度。 此分析會根據兩個重要事件計算使用者：
 
-* 開始事件：使用者第一次在日期範圍內參與開始事件
-* 回訪事件：使用者在分析日期範圍內參與回訪事件的最近時間
+* 開始事件：用來決定分析可包含之使用者資格的事件。
+* 回訪事件：使用者必須參與的事件，才能在您的分析中計為回訪使用者。
 
 在此檢視中，圖表的x軸代表從使用者起始事件以來的時間，y軸代表與回訪事件互動的使用者百分比。 您可以跨期間檢視保留率和流失率，並可透過查詢設定自訂顯示的期間。 在圖表下方，表格會提供彙總資料，而且可以選擇顯示個別同類群組，也就是在同一日期執行開始事件的一群人員。
 
