@@ -4,8 +4,8 @@ description: 導入 Adobe Journey Optimizer 產生的資料，並使用 Customer
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
-workflow-type: ht
+source-git-commit: 5d89d6c3dae4964bc4085110d7baa51199e27044
+workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 
 ## 設定資料檢視，以容納 Journey Optimizer 維度和量度
 
-在建立連線後，您可以建立一個或多個[資料檢視](/help/data-views/create-dataview.md)來設定 Customer Journey Analytics 中可用的所需維度和量度。
+建立連線後，您可以建立一或多個[資料視圖](/help/data-views/create-dataview.md)，以設定可在 Customer Journey Analytics 中使用的所需維度和量度。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 | --- | --- | --- |
 | 歷程名稱 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | 元件類型：維度 |
 | 歷程名稱和版本 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNameAndVersion` | 元件類型：維度 |
-| 歷程節點名稱 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyName` | 元件類型：維度 |
+| 歷程節點名稱 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeName` | 元件類型：維度 |
 | 歷程節點類型 | `_experience.customerJourneyManagement.`<br>`entities.journey.journeyNodeType` | 元件類型：維度 |
 | 行銷活動名稱 | `_experience.customerJourneyManagement.`<br>`entities.campaign.name` | 元件類型：維度 |
 | 管道 | `_experience.customerJourneyManagement.`<br>`entities.channelDetails.channel._id` | 元件類型：維度 |
@@ -85,11 +85,11 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 | 傳送數 | 電子郵件提供者接受的訊息數。 | `_experience.customerJourneyManagement.`<br>`messageDeliveryfeedback.feedbackStatus` | 元件類型：計量<br>包括排除值：等於 `sent` |
 | 垃圾郵件投訴 | 垃圾郵件投訴計數。 | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：計量<br>包括排除值：等於 `spam_complaint` |
 | 取消訂閱數 | 取消訂閱的計數。 | `_experience.customerJourneyManagement.`<br>`messageInteraction.interactionType` | 元件類型：量度<br>包括排除值：等於 `unsubscribe` |
-| 邊緣傳送次數 | 邊緣網路傳送訊息至 Web 或 Mobile SDK 的次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.send` |
-| 傳入顯示次數 | 對使用者顯示 Web 或應用程式內訊息的次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.display` |
-| 傳入點擊數 | Web 或應用程式內訊息點擊的計數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.interact` |
-| 應用程式內觸發次數 | 決策引擎建議應顯示訊息的次數。Mobile SDK 可能會覆寫決策，使實際的顯示次數減少。 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.trigger` |
-| 應用程式內關閉次數 | SDL 從 UI 中移除應用程式內訊息的次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.dismiss` |
+| 邊緣傳送次數 | 邊緣網路傳送訊息至 Web 或 Mobile SDK 的次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.send` | |
+| 傳入顯示次數 | 對使用者顯示 Web 或應用程式內訊息的次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.display` | |
+| 傳入點擊數 | Web 或應用程式內訊息點擊的計數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.interact` | |
+| 應用程式內觸發次數 | 決策引擎建議應顯示訊息的次數。Mobile SDK 可能會覆寫決策，使實際的顯示次數減少。 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.trigger` | |
+| 應用程式內關閉次數 | SDL 從 UI 中移除應用程式內訊息的次數 | 使用結構描述字串元素 `_experience.decisioning.propositionEventType.dismiss` | |
 
 {style="table-layout:auto"}
 
