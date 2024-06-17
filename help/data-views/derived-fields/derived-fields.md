@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 6a77107680b4882a64b01bf1606761d4f6d5a3d1
+source-git-commit: 6f99a732688f59e3950fc9b4336ad5b0434f24a7
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8377'
 ht-degree: 12%
 
 ---
@@ -593,7 +593,7 @@ ht-degree: 12%
 | [!DNL long trip] |
 
 
-## 詳細資訊
+## 詳細資訊 {#casewhen-more-info}
 
 Customer Journey Analytics使用巢狀容器結構，並按照Adobe Experience Platform的範例建模 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) （體驗資料模型）。 另請參閱 [容器](../create-dataview.md#containers) 和 [篩選容器](../../components/filters/filters-overview.md#filter-containers) 以取得更多背景資訊。 此容器模型雖然本身有彈性，但在使用規則產生器時施加了一些限制。
 
@@ -841,6 +841,8 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 +++ 詳細資料
 
+{{release-limited-testing}}
+
 ## 規格 {#deduplicate-io}
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
@@ -1022,7 +1024,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 ![小寫規則的熒幕擷圖](assets/lookup.png)
 
-## 更多資訊
+## 詳細資訊 {#lookup-more-info}
 
 您可以快速插入 [!UICONTROL 查詢] 函式中，已包含一或多個其他函式。
 
@@ -1135,7 +1137,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 {style="table-layout:auto"}
 
-## 更多資訊 {#math-more-info}
+## 詳細資訊 {#math-more-info}
 
 若要建立公式：
 
@@ -1161,6 +1163,8 @@ Customer Journey Analytics會使用以下預設容器模型：
 
    - 此公式有效。
      ![數學更多資訊5](assets/math-more-info-5.png)
+
+使用Math函式進行點選層級的計算。 使用 [摘要](#summarize) 用於以事件、工作階段或人員範圍為基礎的計算的函式。
 
 +++
 
@@ -1350,7 +1354,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 | customer-journey-analytics.html |
 | adobe-experience-platform.html |
 
-## 詳細資訊
+## 詳細資訊 {#regex-replace-more-info}
 
 Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下列運算式：
 
@@ -1492,6 +1496,75 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 +++
 
+<!-- SUMMARIZE -->
+
+### 總結
+
+在事件、工作階段和使用者層級，將彙總型別函式套用至量度或維度。
+
++++ 詳細資料
+
+{{release-limited-testing}}
+
+## 規格 {#summarize-io}
+
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
+|---|---|---|---|---|
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>值<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>摘要方法</li><li>範圍<ul><li>事件</li><li>工作階段</li><li>「人」</li></ul></li></ul> | <ul><li>數值<ul><li>MAX — 從一組值傳回最大值</li><li>MIN — 從一組值傳回最小值</li><li>MEDIAN — 傳回一組值的中位數</li><li>MEAN — 傳回一組值的平均值</li><li>SUM — 傳回一組值的和</li><li>COUNT — 傳回收到的值數目</li><li>DISTINCT — 傳回不同值集</li></ul></li><li>字串<ul><li>DISTINCT — 傳回不同值集</li><li>COUNT DISTINCT — 傳回不同值的數量</li><li>MOST COMMON — 傳回最常收到的字串值</li><li>LEAST COMMON — 傳回最不常收到的字串值</li><li>FIRST — 收到的第一個值；僅適用於工作階段和事件表格</li><li>LAST — 收到的最後一個值；僅適用於工作階段和事件表格</li></ul></li><li>日期<ul><li>DISTINCT — 傳回不同值集</li><li>COUNT DISTINCT — 傳回不同值的數量</li><li>MOST COMMON — 傳回最常收到的字串值</li><li>LEAST COMMON — 傳回最不常收到的字串值</li><li>FIRST — 收到的第一個值；僅適用於工作階段和事件表格</li><li>LAST — 收到的最後一個值；僅適用於工作階段和事件表格</li><li>EARLIEST — 收到的最早值（由時間決定）；僅適用於工作階段與事件表格</li><li>LATEST — 收到的最新值（由時間決定）；僅適用於工作階段和事件表格</li></ul></li></ul> | 每個衍生欄位3個函式 | 新增衍生欄位 |
+
+{style="table-layout:auto"}
+
+## 使用案例 {#summarize-uc}
+
+您要將新增到購物車收入分為三個不同的類別：小、中和大。 這可讓您分析和識別高價值客戶的特徵。
+
+### 在此之前的資料 {#summarize-uc-databefore}
+
+假設：
+
+- 「加入購物車收入」會以數值欄位收集。
+
+情境：
+
+- CustomerABC123在購物車中為ProductABC新增35美元，然後單獨新增ProductDEF到購物車中新增75美元。
+- CustomerDEF456在購物車中新增50美元購買ProductGHI，然後在購物車中另外新增ProductJKL，價格為275美元。
+- CustomerGHI789為ProductMNO的購物車新增$500。
+
+邏輯：
+
+- 如果訪客的購物車收入總計不到$150，則設定為小。
+- 如果訪客的購物車收入總計大於$150但小於$500，則設定為中。
+- 如果訪客的購物車收入總計大於或等於$500，則設定為大。
+
+結果：
+
+- CustomerABC123加到購物車收入的總計$110。
+- CustomerDEF456的購物車總收入為$325。
+- CustomerGHI789加到購物車收入的總和$500。
+
+### 衍生欄位 {#summarize-uc-derivedfield}
+
+您建立 `Add To Cart Revenue Size` 衍生欄位。 您使用 [!UICONTROL 摘要] 函式和 [!UICONTROL Sum] [!UICONTROL 摘要方法] 替換為 [!UICONTROL 範圍] 設為 [!UICONTROL 個人] 來加總 [!UICONTROL cart_add] 欄位。 然後您使用秒 [!UICONTROL 案例條件] 將結果分割成樹狀目錄類別大小的規則。
+
+![摘要規則1的熒幕擷圖](assets/summarize.png)
+
+
+
+### 之後的資料 {#summarize-uc-dataafter}
+
+| 新增至購物車收入大小 | 訪客 |
+|---|--:|
+| 小 | 1 |
+| 媒體 | 1 |
+| 大 | 1 |
+
+{style="table-layout:auto"}
+
+## 詳細資訊 {#summarize-more-info}
+
+使用摘要函式進行以事件、工作階段或人員範圍為基礎的計算。 使用 [Math](#math) 用於點選層級計算的函式。
+
++++
 
 <!-- TRIM -->
 
@@ -1507,7 +1580,6 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 |---|---|---|---|---|
 | <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 欄位]<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>修剪空白字元</li><li>修剪特殊字元<ul><li>特殊字元的輸入</li></ul></li><li>從左側修剪<ul><li>從 <ul><li>字串開始</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li></ul></li><li>結束日期<ul><li>字串結束</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li><li>長度</li></ul></li></ul></li><li>從右側修剪<ul><li>從 <ul><li>字串結束</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li></ul></li><li>結束日期<ul><li>字串開始</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li><li>長度</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位1個函式</p> | <p>新增衍生欄位</p> |
 
-{style="table-layout:auto"}
 
 ## 使用案例1 {#trim-uc1}
 
@@ -1713,6 +1785,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 | <p>下一個或上一個</p> | <ul><li>每個衍生欄位3個下一個或上一個函式</li></ul> |
 | <p>規則運算式取代</p> | <ul><li>每個衍生欄位有1個Regex取代函式</li></ul> |
 | <p>Split</p> | <ul><li>每個衍生欄位5個分割函式</li></ul> |
+| <p>總結</p> | <ul><li>3每個衍生欄位的函式摘要</li></ul> |
 | <p>修剪</p> | <ul><li>每個衍生欄位1個修剪函式</li></ul> |
 | <p>URL 剖析</p> | <ul><li>每個衍生欄位有5個URL剖析函式</li></ul> |
 
@@ -1733,7 +1806,7 @@ Classification函式中的運運算元是以下專案的單一專案 [!UICONTROL
 ![分類規則1的熒幕擷圖](assets/classify-1.png)
 
 
-## 詳細資訊
+## 詳細資訊 {#trim-more-info}
 
 [`Trim`](#trim) 和 [`Lowercase`](#lowercase) 的元件設定中已提供哪些功能 [資料檢視](../component-settings/overview.md). 使用衍生欄位可讓您結合這些函式，直接在Customer Journey Analytics中進行更複雜的資料轉換。 例如，您可以使用 `Lowercase` 移除事件欄位中的區分大小寫功能，然後使用 [`Lookup`](#lookup) 比對新的小寫欄位與只有小寫查詢索引鍵的查詢資料集。 或者，您可以使用 `Trim` 若要在設定之前移除字元 `Lookup` 在新欄位上。
 
