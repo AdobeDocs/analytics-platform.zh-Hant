@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
+source-git-commit: 6a77107680b4882a64b01bf1606761d4f6d5a3d1
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7843'
 ht-degree: 12%
 
 ---
@@ -441,7 +441,7 @@ ht-degree: 12%
 
 ### 衍生欄位 {#casewhen-uc1-derivedfield}
 
-您定義新的 `Marketing Channel` 衍生欄位。 您使用 [!UICONTROL 案例條件] 函式來定義規則，這些規則會根據兩者的現有值為建立值 `Page URL` 和 `Referring URL` 欄位。
+您定義 `Marketing Channel` 衍生欄位。 您使用 [!UICONTROL 案例條件] 函式來定義規則，這些規則會根據兩者的現有值為建立值 `Page URL` 和 `Referring URL` 欄位。
 
 請注意函式的使用情況 [!UICONTROL URL解析] 以定義擷取值的規則 `Page Url` 和 `Referring Url` 早於 [!UICONTROL 案例條件] 規則已套用。
 
@@ -814,7 +814,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 ### 衍生欄位 {#concatenate-derivedfield}
 
-您定義新的 [!UICONTROL 來源 — 目的地] 衍生欄位。 您使用 [!UICONTROL 串連] 定義規則以串連 [!UICONTROL 原始] 和 [!UICONTROL 目的地] 欄位使用 `-` [!UICONTROL 分隔符號].
+您定義 `Origin - Destination` 衍生欄位。 您使用 [!UICONTROL 串連] 定義規則以串連 [!UICONTROL 原始] 和 [!UICONTROL 目的地] 欄位使用 `-` [!UICONTROL 分隔符號].
 
 ![串連規則的熒幕擷圖](assets/concatenate.png)
 
@@ -827,6 +827,90 @@ Customer Journey Analytics會使用以下預設容器模型：
 | SLC-SEA |
 | SLC-SJO |
 | SLC-MCO |
+
+{style="table-layout:auto"}
+
++++
+
+
+<!-- DEDUPLICATE -->
+
+### 去除重複
+
+避免多次計算值。
+
++++ 詳細資料
+
+## 規格 {#deduplicate-io}
+
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
+|---|---|---|---|---|
+| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 值]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul></li><li>[!UICONTROL 範圍]：<ul><li>「人」</li><li>工作階段</li></ul></li><li>[!UICONTROL 重複資料刪除ID]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul><li>[!UICONTROL 要保留的值]：<ul><li>保留第一個執行個體</li><li>保留最後一個執行個體</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+
+{style="table-layout:auto"}
+
+
+## 使用案例1 {#deduplicate-uc1}
+
+您想要防止在使用者重新載入預訂確認頁面時計算重複收入。 在相同事件上收到收入時，您可以在識別碼處使用預訂確認ID來避免再次計算收入。
+
+### 在此之前的資料 {#deduplicate-uc1-databefore}
+
+| 預訂確認ID | 收入 |
+|----|---:|
+| ABC123456789 | 359 |
+| ABC123456789 | 359 |
+| ABC123456789 | 359 |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#deduplicate-uc1-derivedfield}
+
+您定義 `Booking Confirmation` 衍生欄位。 您使用 [!UICONTROL 重複資料刪除] 定義規則以去除重複資料的功能 [!UICONTROL 值] [!DNL Booking] 的 [!UICONTROL 範圍] [!DNL Person] 使用 [!UICONTROL 重複資料刪除ID] [!UICONTROL 預訂確認ID]. 您選取 [!UICONTROL 保留第一個執行個體] 作為 [!UICONTROL 要保留的值].
+
+![串連規則的熒幕擷圖](assets/deduplicate-1.png)
+
+### 之後的資料 {#deduplicate-uc1-dataafter}
+
+| 預訂確認ID | 收入 |
+|----|---:|
+| ABC123456789 | 359 |
+| ABC123456789 | 0 |
+| ABC123456789 | 0 |
+
+{style="table-layout:auto"}
+
+## 使用案例2 {#deduplicate-uc2}
+
+您可以使用事件作為搭配外部行銷活動的促銷活動點進代理。 重新載入和重新導向會造成事件量度膨脹。 您想要刪除追蹤程式碼維度的重複專案，以便只收集第一個專案，並將事件過度計數最小化。
+
+### 在此之前的資料 {#deduplicate-uc2-databefore}
+
+| 訪客 ID | 行銷管道 | 活動 |
+|----|---|---:|
+| ABC123 | 付費搜尋 | 1 |
+| ABC123 | 付費搜尋 | 1 |
+| ABC123 | 付費搜尋 | 1 |
+| DEF123 | 電子郵件 | 1 |
+| DEF123 | 電子郵件 | 1 |
+| JKL123 | 免費搜尋 | 1 |
+| JKL123 | 免費搜尋 | 1 |
+
+{style="table-layout:auto"}
+
+### 衍生欄位 {#deduplicate-uc2-derivedfield}
+
+您定義新的 `Tracking Code (deduplicated)` 衍生欄位。 您使用 [!UICONTROL 重複資料刪除] 定義規則以去除重複資料的功能 [!UICONTROL 追蹤程式碼] 與 [!UICONTROL 重複資料刪除範圍] 之 [!UICONTROL 工作階段] 和 [!UICONTROL 保留第一個執行個體] 作為 [!UICONTROL 要保留的值].
+
+![串連規則的熒幕擷圖](assets/deduplicate-2.png)
+
+### 之後的資料 {#deduplicate-uc2-dataafter}
+
+| 訪客 ID | 行銷管道 | 活動 |
+|----|---|---:|
+| ABC123 | 付費搜尋 | 1 |
+| DEF123 | 電子郵件 | 1 |
+| JKL123 | 免費搜尋 | 1 |
 
 {style="table-layout:auto"}
 
@@ -1620,6 +1704,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 | <p>情況</p> | <ul><li>5案例當每個衍生欄位有函式時</li><li>200 [運運算元](#operators) 每個衍生欄位</li></ul> |
 | <p>分類</p> | <ul><li>5依衍生欄位分類函式</li><li>200 [運運算元](#operators) 每個衍生欄位</li></ul> |
 | <p>串連</p> | <ul><li>每個衍生欄位2個串連函式</li></ul> |
+| <p>去除重複</p> | <ul><li>5每個衍生欄位刪除重複函式</li></ul> |
 | <p>尋找和取代</p> | <ul><li>每個衍生欄位2個尋找和取代函式</li></ul> |
 | <p>查詢</p> | <ul><li>每個衍生欄位5個查詢函式</li></ul> |
 | <p>小寫</p> | <ul><li>每個衍生欄位2個小寫函式</li></ul> |
