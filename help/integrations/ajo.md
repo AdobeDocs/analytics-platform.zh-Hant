@@ -4,10 +4,10 @@ description: 導入 Adobe Journey Optimizer 產生的資料，並使用 Customer
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 5d89d6c3dae4964bc4085110d7baa51199e27044
+source-git-commit: 6e1db2351aa9fcc4682b892334430c1896cee914
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '1006'
+ht-degree: 83%
 
 ---
 
@@ -15,13 +15,21 @@ ht-degree: 100%
 
 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 可幫助您提供連線、情境式和個人化的體驗。 它有助於讓您的客戶了解其客戶歷程中的下一步。
 
-您可以匯入 Journey Optimizer 產生的資料，以透過以下步驟在 Customer Journey Analytics 中執行進階分析：
+您可以匯入Journey Optimizer產生的資料，以在Customer Journey Analytics中執行進階分析。 您可以自動執行此動作。 如有需要，您可以對資料集、維度或量度進行其他手動自訂，這些資料可在您用於Adobe Journey Optimizer和Customer Journey Analytics的資料檢視中使用。
 
-## 將 Journey Optimizer 中的資料傳送到 Adobe Experience Platform
+## 自動設定Customer Journey Analytics資料檢視以與Journey Optimizer搭配使用
+
+Customer Journey Analytics中的設定選項可讓您指定要與Journey Optimizer搭配使用的Customer Journey Analytics資料檢視，而不需要手動設定。 <p>如需如何啟用此組態選項的相關資訊，請參閱 [相容性](/help/data-views/create-dataview.md#compatibility) 中的區段 [建立或編輯資料檢視](/help/data-views/create-dataview.md).
+
+## 手動設定Customer Journey Analytics資料檢視以與Journey Optimizer搭配使用
+
+以下小節說明如何手動匯入Journey Optimizer產生的資料，以在Customer Journey Analytics中執行進階分析。 只有在 [自動組態選項](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer) 無法滿足您的需求。
+
+### 將 Journey Optimizer 中的資料傳送到 Adobe Experience Platform
 
 Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer 與 Customer Journey Analytics 之間的連結。 請參閱 Journey Optimizer 使用手冊中的[開始使用資料集](https://experienceleague.adobe.com/docs/journey-optimizer/using/data-management/datasets/get-started-datasets.html)，以取得如何將 Journey Optimizer 資料當作資料集傳送給 Platform 的相關步驟。
 
-## 在 Customer Journey Analytics 中建立連線
+### 在 Customer Journey Analytics 中建立連線
 
 將 Journey Optimizer 資料導入 Adobe Experience Platform 後，您就可以根據 Journey Optimizer 資料集來[建立連線](/help/connections/create-connection.md)。您也可以將 Journey Optimizer 資料集新增到現有的連線中。
 
@@ -38,7 +46,7 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 {style="table-layout:auto"}
 
 
-## 設定資料檢視，以容納 Journey Optimizer 維度和量度
+### 設定資料檢視，以容納 Journey Optimizer 維度和量度
 
 建立連線後，您可以建立一或多個[資料視圖](/help/data-views/create-dataview.md)，以設定可在 Customer Journey Analytics 中使用的所需維度和量度。
 
@@ -47,7 +55,7 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 >Adobe Journey Optimizer 和 Customer Journey Analytics 之間的資料差異通常小於 1 到 2%。過去兩小時內收集的資料可能存在較大差異。使用不包括今天的日期範圍來減少與處理時間有關的差異。
 
 
-### 在資料檢視中設定維度
+#### 在資料檢視中設定維度
 
 您可以在資料檢視中建立以下維度，以實現與 Journey Optimizer 中類似維度的近似同位。請參閱資料檢視管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關維度自訂選項的詳細資料。
 
@@ -70,7 +78,7 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 
 {style="table-layout:auto"}
 
-### 在資料檢視中設定量度
+#### 在資料檢視中設定量度
 
 您可以在資料檢視中建立以下量度，以實現與 Journey Optimizer 中類似量度的近似同位。請參閱資料檢視管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關量度自訂選項的詳細資料。
 
@@ -93,7 +101,7 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 
 {style="table-layout:auto"}
 
-### 設定 Analysis Workspace 中的計算量度
+#### 設定 Analysis Workspace 中的計算量度
 
 為 Journey Optimizer 資料集設定所需的維度和量度後，您也可以設定[計算量度](/help/components/calc-metrics/calc-metr-overview.md)以取得有關該資料的其他見解。 計算量度是根據上面在資料檢視管理器中建立的量度。
 

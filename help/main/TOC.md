@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: cf399df3a8043f5ec9fe723a531bf2f8af68799a
-workflow-type: ht
-source-wordcount: '1093'
-ht-degree: 100%
+source-git-commit: cef43e45a647674c6f2472e9402224b5cbc617da
+workflow-type: tm+mt
+source-wordcount: '1105'
+ht-degree: 98%
 
 ---
 
@@ -105,6 +105,7 @@ ht-degree: 100%
       + [專案概觀](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [儲存專案](../analysis-workspace/build-workspace-project/save-projects.md)
+      + [專案目錄](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace 資料夾{#workspace-folders}
          + [關於 Workspace 資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [建立資料夾和子資料夾](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -120,6 +121,7 @@ ht-degree: 100%
       + [管理資料來源](../analysis-workspace/visualizations/t-sync-visualization.md)
       + 自由表格 {#freeform-table}
          + [自由表格](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [在自由表格中建立維度的超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 欄和列的設定 {#column-row-settings}
             + [欄設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)

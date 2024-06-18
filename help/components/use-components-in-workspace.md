@@ -1,16 +1,17 @@
 ---
 description: 瞭解如何在Analysis Workspace中新增元件至專案
-title: 在Analysis Workspace中使用元件
+title: 在 Analysis Workspace 中使用元件
 feature: Components
 role: User
-source-git-commit: b02a3954e7b531caabfbea1f7df4e322eb4af741
+exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
+source-git-commit: 697503bba56f44159df7a2f6a0e60a0a4178266d
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 23%
+source-wordcount: '849'
+ht-degree: 16%
 
 ---
 
-# 在Analysis Workspace中使用元件
+# 在 Analysis Workspace 中使用元件
 
 元件構成Analysis Workspace中任何專案的實際資料。 元件包含維度、量度、篩選器和日期範圍。 您可以將元件拖曳至視覺效果或面板中，藉此新增元件至專案。
 
@@ -34,7 +35,11 @@ ht-degree: 23%
 
 1. 捲動至或搜尋要新增的元件，然後將其拖曳到專案中的面板或視覺化效果中。
 
-   例如，您可以將篩選器拖曳到面板標題中的篩選器放置區域。
+1. （可選）將元件拖曳至面板標頭中的篩選器拖放區域。
+
+   篩選器會套用至面板中的所有內容。
+
+   如需如何在面板上使用篩選器拖放區域來篩選面板的相關資訊，請參閱 [拖放區域](/help/analysis-workspace/c-panels/panels.md#drop-zone) 在 [面板概觀](/help/analysis-workspace/c-panels/panels.md).
 
    ![將篩選器放入放置區](assets/filter-dropzone.png)
 
@@ -61,6 +66,10 @@ ht-degree: 23%
      ![將維度新增至專案](assets/add-dimensions.png)
 
    * 從左側邊欄將一或多個維度拖曳至篩選器拖放區域以建立臨時篩選器，如所述 [將篩選器新增至專案](#add-filters-to-a-project).
+
+1. （選用）您可以在Analysis Workspace中搭配其他元件來劃分維度和維度專案。
+
+   如需詳細資訊，請參閱 [在工作區中劃分維度](/help/components/dimensions/t-breakdown-fa.md).
 
 如需如何在Analysis Workspace中使用維度的詳細資訊，請參閱 [預覽維度](/help/components/dimensions/view-dimensions.md)， [劃分維度](/help/components/dimensions/t-breakdown-fa.md)、和 [時間分段維度](/help/components/dimensions/time-parting-dimensions.md).
 
@@ -90,31 +99,23 @@ ht-degree: 23%
 
 [篩選器](/help/components/filters/filters-overview.md) 可讓您根據特性或特定互動來識別訪客的子集。
 
-若要在Analysis Workspace中新增篩選器至專案：
+您可以透過下列任何方式在Analysis Workspace中使用篩選器：
 
-1. 開始在Analysis Workspace中將篩選器新增至您的專案，如所述 [開始新增元件至專案](#begin-adding-components-to-a-project).
+### 將篩選器新增至面板
 
-1. 選擇下列其中一個方法，開始篩選面板：
+將篩選器新增至面板時，篩選器會套用至面板內的所有內容。
 
-   * 將個別篩選器從左側邊欄拖曳至篩選器拖放區域。
+如需如何在面板上使用篩選器拖放區域來篩選面板的相關資訊，請參閱 [拖放區域](/help/analysis-workspace/c-panels/panels.md#drop-zone) 在 [面板概觀](/help/analysis-workspace/c-panels/panels.md).
 
-     ![將篩選器放入放置區](assets/filter-dropzone.png)
+### 將篩選器新增至自由格式表格中的欄
 
-   * 按住Shift或Ctrl鍵，在左側邊欄中選取多個篩選器，然後按住Shift鍵，將篩選器拖放至篩選器拖放區域。
+當您將篩選器新增至自由格式表格中的欄時，篩選器會套用至表格欄內的所有內容。
 
-     ![在拖放區域中拖放多個篩選器](assets/filter-dropzone-multiple.png)
+### 建立計算量度時使用篩選器
 
-     這會建立下拉式功能表，讓面板的使用者選擇要套用的篩選器。 下拉式功能表包含 [!UICONTROL **無篩選器**] 使用者可選取的選項，此選項會讓面板保持未篩選狀態。
+在計算量度產生器中，您可以在量度定義中套用篩選器。
 
-     您可以從下拉式選單中選取(x)以移除任何選項。 如果您移除 [!UICONTROL **無篩選器**] 選項，則需要篩選。
-
-   * 將非篩選元件拖放至拖放區域，建立臨時篩選。 這可讓您節省前往篩選產生器的時間和精力。 以這種方式建立的篩選器會被自動定義為點擊層級的篩選器。若要修改此定義，可按一下篩選器旁的資訊圖示 (i)，然後按一下筆狀編輯圖示，即可在篩選產生器中進行編輯。
-
-     臨時篩選器是一種快速篩選器，而且是專案的本機篩選器。除非您將其公開，否則它們不會顯示在左側邊欄中。
-
-     如需更多資訊，請參閱「[快速篩選器](/help/components/filters/quick-filters.md)」。
-
-如需如何在面板上使用篩選器拖放區域來篩選面板的詳細資訊，請參閱 [拖放區域](/help/analysis-workspace/c-panels/panels.md#drop-zone) 在 [面板概觀](/help/analysis-workspace/c-panels/panels.md).
+如需詳細資訊，請參閱 [篩選量度](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md).
 
 ## 新增日期範圍至專案
 

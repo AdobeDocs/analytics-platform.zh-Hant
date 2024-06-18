@@ -5,10 +5,10 @@ title: 專案概觀
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 10751991e3c40cfefac7d32cea0b5cc557133232
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 68%
+source-wordcount: '1342'
+ht-degree: 64%
 
 ---
 
@@ -89,11 +89,19 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 ## 左側欄 {#left-rail}
 
-在專案中，可以從左側欄存取[面板](/help/analysis-workspace/c-panels/panels.md)、表格、[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和[元件]。這些都是專案的組成要素。
+在專案中，左側邊欄中有各種圖示，每個圖示都代表專案的重要部分：
 
-您也可以從[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)存取視覺效果和面板。
+* [面板](/help/analysis-workspace/c-panels/panels.md) ![面板圖示](assets/panels-icon.png)
 
-左側欄的元件 (維度、量度、篩選器、日期範圍) 與作用中面板資料檢視有關。 作用中面板的周圍有藍色邊框，而且作用中資料檢視將會列在元件邊欄的最上方。
+* [視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![視覺效果圖示](assets/visualizations-icon.png)
+
+* [元件](/help/components/overview.md)![元件圖示](assets/components-icon.png)
+
+* [資料字典](/help/components/data-dictionary/data-dictionary-overview.md)![資料字典圖示](assets/data-dictionary-icon.png)
+
+* [目錄](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![目錄圖示](assets/toc-icon.png)
+
+左側欄的元件 (維度、量度、篩選器、日期範圍) 與作用中面板資料檢視有關。 作用中面板是以其周圍的藍色邊框來識別，而作用中資料檢視會列在元件邊欄的最上方。
 
 ![和跨產業示範資料檢視的使用中面板資料檢視相關的元件。](assets/left-rail.png)
 

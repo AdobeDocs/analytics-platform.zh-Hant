@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 162d1c6878a906d831a4f27f0b2c5105171e16e8
-workflow-type: ht
-source-wordcount: '1468'
-ht-degree: 100%
+source-git-commit: 161dbfe828f83899ae2652513fbb90c21634becc
+workflow-type: tm+mt
+source-wordcount: '1713'
+ht-degree: 85%
 
 ---
 
@@ -43,10 +43,20 @@ ht-degree: 100%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL 連線] | 此欄位會將資料檢視連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
-| [!UICONTROL 名稱] | 必填。資料檢視的名稱。此值顯示在 Analysis Workspace 的右上角下拉式清單中。 |
-| [!UICONTROL 外部 ID] | 必填。您可以在外部來源 (例如商業智慧工具) 中使用的資料視圖名稱。預設值為 `unspecified`。如果不指定外部 ID，則將從資料視圖的名稱產生該名稱，並以底線取代空格。 |
-| [!UICONTROL 說明] | 選填。Adobe 建議使用詳細說明，讓用戶了解資料檢視存在的原因及其設計對象。 |
+| [!UICONTROL **連線**] | 此欄位會將資料檢視連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
+| [!UICONTROL **名稱**] | 必填。資料檢視的名稱。此值顯示在 Analysis Workspace 的右上角下拉式清單中。 |
+| [!UICONTROL **外部 ID**] | 必填。您可以在外部來源 (例如商業智慧工具) 中使用的資料視圖名稱。預設值為 `unspecified`。如果不指定外部 ID，則將從資料視圖的名稱產生該名稱，並以底線取代空格。 |
+| [!UICONTROL **說明**] | 選填。Adobe 建議使用詳細說明，讓用戶了解資料檢視存在的原因及其設計對象。 |
+
+{style="table-layout:auto"}
+
+### 相容性
+
+提供在Customer Journey Analytics以外使用Adobe Journey Optimizer時適用的設定。
+
+| 設定 | 說明 |
+| --- | --- |
+| [!UICONTROL **在Adobe Journey Optimizer中設為預設資料檢視**] | 此設定選項可標準化Journey Optimizer與Customer Journey Analytics之間的報表。 它也可讓您在Customer Journey Analytics中對Adobe Journey Optimizer資料執行進階分析(透過選取 [!UICONTROL **在CJA中分析**] Journey Optimizer按鈕)。<p>若要執行這類分析，Journey Optimizer需要存取Customer Journey Analytics資料檢視。<p>啟用此選項以使其成為Journey Optimizer報表中使用的預設資料檢視。</p><p>此組態選項會自動執行下列動作：</p><ul><li>在Customer Journey Analytics中設定關聯連線中所有必要的Journey Optimizer資料集，以與Journey Optimizer搭配使用。</li><li>在資料檢視中建立一組Journey Optimizer量度和維度（包括衍生欄位和計算量度）。 上下文標籤會在所有這些量度和維度上自動設定。<!--do we need to provide a list somewhere? See https://wiki.corp.adobe.com/display/CJM/Required+Metrics+and+Dimensions--></li><p>**注意：** 如有需要，您可以對資料檢視(用於Journey Optimizer和Customer Journey Analytics)中可用的資料集、維度或量度進行其他手動自訂，如中所述 [將Adobe Journey Optimizer與Adobe Customer Journey Analytics整合](/help/integrations/ajo.md). </p></ul><p>您可以稍後變更預設資料檢視，但這麼做可能會變更Journey Optimizer報表資料。 如果您選擇在啟用後將其停用，系統將提示您選取新的預設資料檢視。</p> |
 
 {style="table-layout:auto"}
 
@@ -56,9 +66,9 @@ ht-degree: 100%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL 人員容器名稱] | 「[!UICONTROL 人員]」(預設)。「[!UICONTROL 人員]」容器包含指定時間段內人員的每個工作階段和事件。如果您的組織使用不同的術語（例如，「訪客」或「用戶」），您可以在此處重新命名容器。 |
-| [!UICONTROL 工作階段容器名稱] | 「[!UICONTROL 工作階段]」(預設)。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「Visit」或您組織偏好的其他任何詞語。 |
-| [!UICONTROL 事件容器名稱] | [!UICONTROL 事件] (預設)。[!UICONTROL 事件]容器定義資料集中的單個事件。如果您的組織使用不同的術語（例如，「點擊次數」或「頁面檢視量」），您可以在此處重新命名容器。 |
+| [!UICONTROL **人員容器名稱**] | 「[!UICONTROL 人員]」(預設)。「[!UICONTROL 人員]」容器包含指定時間段內人員的每個工作階段和事件。如果您的組織使用不同的術語（例如，「訪客」或「用戶」），您可以在此處重新命名容器。 |
+| [!UICONTROL **工作階段容器名稱**] | 「[!UICONTROL 工作階段]」(預設)。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「Visit」或您組織偏好的其他任何詞語。 |
+| [!UICONTROL **事件容器名稱**] | [!UICONTROL 事件] (預設)。[!UICONTROL 事件]容器定義資料集中的單個事件。如果您的組織使用不同的術語（例如，「點擊次數」或「頁面檢視量」），您可以在此處重新命名容器。 |
 
 {style="table-layout:auto"}
 
@@ -68,11 +78,11 @@ ht-degree: 100%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL 時區] | 選擇要顯示資料的時區。如果您選擇實行夏令時間的時區，則會自動調整資料以反映這一點。在春天，當時鐘向前調快一小時，會出現一小時的缺口。在秋天，當時鐘向後調慢一小時，會在夏令偏移期間重複一小時。 |
-| [!UICONTROL 行事曆類型] | 決定一個月中的週如何分組。<br>**西曆：**&#x200B;標準行事曆格式。季依照月分組。<br>**4-5-4 零售業：**&#x200B;標準化的 4-5-4 零售業行事曆。本季的第一個月和最後一個月為 4 週，而本季的第二個月為 5 週。<br>**自訂 (4-5-4)：**&#x200B;類似於 4-5-4 行事曆，但您可以選取一年的第一天以及「額外」週發生的年份。<br>**自訂 (4-4-5)：**&#x200B;每個季的第一個月和第二個月為 4 週，而每個季的最後一週為 5 週。<br>**自訂 (5-4-4)：**&#x200B;每個季的第一個月為 5 週，而每個季的第二和第三個月為 4 週。 |
-| [!UICONTROL 一年的第一個月]和[!UICONTROL 一週的第一天] | 對西曆行事曆類型可見。指定您希望行事曆年從哪一個月開始，以及您希望每週從哪一天開始。 |
-| [!UICONTROL 當年的第一天] | 對自訂行事曆類型可見。指定您希望目前年份在一年中的哪一天開始。行事曆會根據此值自動設定每週第一天的格式。 |
-| [!UICONTROL 「額外」週發生的年份] | 對於大多數 364 天行事曆 (52 週，每週 7 天)，每年都會累積剩餘的天數，直到加起來多出一週。然後將這個額外的一週新增到該年的最後一個月。指定您希望將額外一週新增到哪一年。 |
+| [!UICONTROL **時區**] | 選擇要顯示資料的時區。如果您選擇實行夏令時間的時區，則會自動調整資料以反映這一點。在春天，當時鐘向前調快一小時，會出現一小時的缺口。在秋天，當時鐘向後調慢一小時，會在夏令偏移期間重複一小時。 |
+| [!UICONTROL **行事曆類型**] | 決定一個月中的週如何分組。<br>**西曆：**&#x200B;標準行事曆格式。季依照月分組。<br>**4-5-4 零售業：**&#x200B;標準化的 4-5-4 零售業行事曆。本季的第一個月和最後一個月為 4 週，而本季的第二個月為 5 週。<br>**自訂 (4-5-4)：**&#x200B;類似於 4-5-4 行事曆，但您可以選取一年的第一天以及「額外」週發生的年份。<br>**自訂 (4-4-5)：**&#x200B;每個季的第一個月和第二個月為 4 週，而每個季的最後一週為 5 週。<br>**自訂 (5-4-4)：**&#x200B;每個季的第一個月為 5 週，而每個季的第二和第三個月為 4 週。 |
+| [!UICONTROL **一年的第一個月**]&#x200B;和&#x200B;[!UICONTROL **一週的第一天**] | 對西曆行事曆類型可見。指定您希望行事曆年從哪一個月開始，以及您希望每週從哪一天開始。 |
+| [!UICONTROL **當年的第一天**] | 對自訂行事曆類型可見。指定您希望目前年份在一年中的哪一天開始。行事曆會根據此值自動設定每週第一天的格式。 |
+| [!UICONTROL **「額外」週發生的年份**] | 對於大多數 364 天行事曆 (52 週，每週 7 天)，每年都會累積剩餘的天數，直到加起來多出一週。然後將這個額外的一週新增到該年的最後一個月。指定您希望將額外一週新增到哪一年。 |
 
 {style="table-layout:auto"}
 
