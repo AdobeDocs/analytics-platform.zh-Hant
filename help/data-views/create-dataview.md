@@ -5,9 +5,9 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 161dbfe828f83899ae2652513fbb90c21634becc
+source-git-commit: 8ff130a20c719a594207f854ff3b85619f38b512
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1714'
 ht-degree: 85%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 85%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL **在Adobe Journey Optimizer中設為預設資料檢視**] | 此設定選項可標準化Journey Optimizer與Customer Journey Analytics之間的報表。 它也可讓您在Customer Journey Analytics中對Adobe Journey Optimizer資料執行進階分析(透過選取 [!UICONTROL **在CJA中分析**] Journey Optimizer按鈕)。<p>若要執行這類分析，Journey Optimizer需要存取Customer Journey Analytics資料檢視。<p>啟用此選項以使其成為Journey Optimizer報表中使用的預設資料檢視。</p><p>此組態選項會自動執行下列動作：</p><ul><li>在Customer Journey Analytics中設定關聯連線中所有必要的Journey Optimizer資料集，以與Journey Optimizer搭配使用。</li><li>在資料檢視中建立一組Journey Optimizer量度和維度（包括衍生欄位和計算量度）。 上下文標籤會在所有這些量度和維度上自動設定。<!--do we need to provide a list somewhere? See https://wiki.corp.adobe.com/display/CJM/Required+Metrics+and+Dimensions--></li><p>**注意：** 如有需要，您可以對資料檢視(用於Journey Optimizer和Customer Journey Analytics)中可用的資料集、維度或量度進行其他手動自訂，如中所述 [將Adobe Journey Optimizer與Adobe Customer Journey Analytics整合](/help/integrations/ajo.md). </p></ul><p>您可以稍後變更預設資料檢視，但這麼做可能會變更Journey Optimizer報表資料。 如果您選擇在啟用後將其停用，系統將提示您選取新的預設資料檢視。</p> |
+| [!UICONTROL **在Adobe Journey Optimizer中設為預設資料檢視**] | 此設定選項可標準化Journey Optimizer與Customer Journey Analytics之間的報表。 它也可讓您在Customer Journey Analytics中對Adobe Journey Optimizer資料執行進階分析(透過選取 [!UICONTROL **在CJA中分析**] Journey Optimizer按鈕)。<p>若要執行這類分析，Journey Optimizer需要存取Customer Journey Analytics資料檢視。<p>啟用此選項以使其成為Journey Optimizer報表中使用的預設資料檢視。</p><p>此組態選項會自動執行下列動作：</p><ul><li>在Customer Journey Analytics中設定關聯連線中所有必要的Journey Optimizer資料集，以與Journey Optimizer搭配使用。</li><li>在資料檢視中建立一組Journey Optimizer量度和維度（包括衍生欄位和計算量度）。 上下文標籤會在所有這些量度和維度上自動設定。<p>**注意：** 如有需要，您可以對資料檢視(用於Journey Optimizer和Customer Journey Analytics)中可用的資料集、維度或量度進行其他手動自訂，如中所述 [將Adobe Journey Optimizer與Adobe Customer Journey Analytics整合](/help/integrations/ajo.md). </p></li></ul><p>您可以稍後變更預設資料檢視，但這麼做可能會變更Journey Optimizer報表資料。 如果您選擇在啟用此選項後將其停用，系統會提示您選取新的預設資料檢視。</p> |
 
 {style="table-layout:auto"}
 

@@ -3,7 +3,7 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 55f917530b2b3d6117b631738c125cf27a43bee4
+source-git-commit: f01e6c1f4abe57b8af42fc3939c312ff79785a06
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 34%
@@ -30,7 +30,7 @@ ht-degree: 34%
 | **擷取優先順序和延遲** | 您現在可以在90分鐘(SLT)內以Customer Journey Analytics擷取事件資料，無論資料是24小時、48小時還是7天前。 請注意，此功能因您公司購買的SKU套件而異：<ul><li>CJA優先擷取基本：90分鐘SLT處理內24小時前的資料（適用於CJA Foundation和CJA Select）</li><li>CJA優先擷取中繼：90分鐘SLT處理內72小時前的資料（適用於CJA Prime）</li><li>CJA優先擷取進階：90分鐘SLT處理內1週前的資料（適用於CJA Ultimate）</li></ul> |  | 2024 年 6 月 12 日 |
 | **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者和系統管理員可以編輯和刪除帳戶和位置。 以前，帳戶和位置只能由建立它們的使用者使用。 當使用者[設定雲端匯出帳戶](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)和[設定雲端匯出位置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)時，可使用這些設定。 | 2024 年 6 月 12 日 | 2024年6月18日 |
 | **在下拉式篩選器中選取多個欄位** | 將多個欄位新增至下拉篩選器時，使用者現在可以一次選取多個欄位。 會篩選面板以包含任何選取的欄位。 <p>以前，使用者在下拉式篩選器中一次只能選取一個欄位。</p><p>在下拉式篩選器上按一下滑鼠右鍵時，要求在下拉式篩選器中進行選取的選項已移至功能表。</p><p>之前，使用者可以按一下下拉式功能表中「沒有篩選器」選項旁的(x)。</p><p>如需詳細資訊，請參閱 [靜態下拉式篩選器](/help/analysis-workspace/c-panels/panels.md#static-drop-down-filters) 在 [面板概觀](/help/analysis-workspace/c-panels/panels.md).</p> |  | 2024年6月19日 |
-| **工作區專案的目錄** | 專案現在有新的目錄可用。 目錄提供的連結可讓使用者快速跳至專案內的面板和視覺效果。 <p>目錄可在所有專案的左側邊欄中使用。</p><p>如需詳細資訊，請參閱 [專案目錄](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md). |  | 2024年6月19日 |
+| **工作區專案的目錄** | 專案現在有新的目錄可用。 目錄提供的連結可讓使用者在專案內的面板和視覺效果之間快速移動。 <p>目錄可在所有專案的左側邊欄中使用。</p><p>如需詳細資訊，請參閱 [專案目錄](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md). |  | 2024年6月19日 |
 | **在自由表格中建立維度專案的超連結** | 您可以為一或多個維度專案建立超連結，以便在Analysis Workspace的自由格式表格內點選這些專案。 <p>您可以為具有URL值的維度專案建立超連結，或為具有非URL值的維度專案建立自訂URL。</p><p>您可以使用變數，為多個維度專案建立動態自訂URL。 變數可參考維度專案的值，也可以參考劃分維度。</p><p>如需詳細資訊，請參閱 [在自由表格中建立維度的超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p> |  | 2024年6月19日 |
 | **透過Adobe Journey Optimizer使用您的Customer Journey Analytics資料檢視** | Customer Journey Analytics中的新設定選項可讓您指定要與Adobe Journey Optimizer搭配使用的Customer Journey Analytics資料檢視，而不需要手動設定。 <p>如需如何啟用此組態選項的相關資訊，請參閱 [相容性](/help/data-views/create-dataview.md#compatibility) 中的區段 [建立或編輯資料檢視](/help/data-views/create-dataview.md).</p><p>先前，在Customer Journey Analytics中檢視Journey Optimizer資料時，您必須手動設定連線和資料檢視。</p> |  | 2024年6月19日 |
 | **對象已經發佈到 Experience Platform 中新的「對象」區段** | 現在起，從 Customer Journey Analytics 發佈的對象，可在 Adobe Experience Platform 的新「對象」區段中取得。<p>以前，從 Customer Journey Analytics 發佈的對象是在 Experience Platform 的「區段」部分下方取得。</p><p>此改善提供以下優點：</p><ul><li>對象出現在 Experience Platform 之前，不會再有 1 小時的延遲，而是在發佈之後幾秒鐘即可使用。</li><li>可以使用「來源」欄對 Experience Platform 中的對象進行排序，其中會顯示最初發佈對象的應用程式。</li><li>Experience Platform 中的篩選和排序選項可讓您更快找到相關的對象。</li></ul> <p>(後續文件連結)</p> |  | 2024年7月14日 |
