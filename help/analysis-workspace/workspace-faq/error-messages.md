@@ -4,9 +4,9 @@ title: Analysis Workspace 的常見錯誤訊息
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
-source-git-commit: 51a20b0a1f003d2e6ce8baf4d7cec16bfa2fe5b3
-workflow-type: ht
-source-wordcount: '332'
+source-git-commit: caf53fe1727c77b4dcb5a9f7b67c368fade2f86c
+workflow-type: tm+mt
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 | 錯誤訊息 | 為何發生這項錯誤？ | 最佳化 |
 | --- | --- | --- |
-| [!UICONTROL 資料檢視目前超出了其報告容量。請簡化要求或稍後重試。] | 您的報告要求過於複雜，請進行簡化。 | 請縮小報告，然後再次嘗試傳送要求。 |
+| [!UICONTROL 資料檢視目前超出了其報告容量。請簡化要求或稍後重試。] |   |   |
 | [!UICONTROL 發生系統錯誤。請在「**[!UICONTROL 說明 > 提交支援票證]**」中提出客戶服務請求，並附上錯誤代碼。] | Adobe 遇到需要解決的問題。 | 將錯誤代碼提交給客戶服務。 |
 | [!UICONTROL 錯誤 500：無法載入頁面] | 您的本機網路問題 (例如公司[防火牆設定](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-hant)) 是造成此錯誤的因素。此外，Adobe 可能遇到需要解決的問題。 | 請在幾分鐘後再次嘗試登入。如果問題持續發生，請將 EIM 例項 ID 代碼提交給客戶服務。 |
 | [!UICONTROL 此視覺效果中，有一個篩選器或是搜尋包含文字搜尋，並傳回太多結果。] | 您的篩選器條件或報告篩選條件太廣泛。 | 請縮小搜尋文字條件，然後再次嘗試傳送請求。 |
