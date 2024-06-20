@@ -4,10 +4,10 @@ title: 下載Customer Journey Analytics資料
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: a3fc89ed08102d57ce3cfaadde96ade843cd8f8b
+source-git-commit: cd4722cc2eb95d7d5e4000361c8f96a30a3589e9
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 72%
+source-wordcount: '1194'
+ht-degree: 64%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 72%
 您也可以使用其他匯出Customer Journey Analytics資料的方法，如中所述 [匯出概觀](/help/analysis-workspace/export/export-project-overview.md).
 
 ## 下載為CSV或PDF {#download-project}
+
+下載專案時，請考量下列事項：
+
+* 將專案下載為CSV或PDF時，可在您請求專案下載時儲存或取消儲存專案。 但只有已儲存的專案才可以[排程](/help/analysis-workspace/export/t-schedule-report.md)。
+
+* 將專案下載為PDF時：
+   * 匯出下載可能需要幾分鐘的時間，因為專案會先在Adobe伺服器上重新執行，然後才會以PDF格式呈現。 建議您在 PDF 下載到瀏覽器之前不要退出專案。 不過，您可以在等待時繼續變更專案。 如果呈現 PDF 需要 5 分鐘以上的時間，系統將提示您改為透過電子郵件發送。
+   * 下載內容會呈現為單一頁面，未套用任何分頁。
+   * PDF轉譯包含Workspace頁面上的內容。 如果專案有自訂大小的視覺效果和面板，您必須將其變更為自動縮放 (右上角按鈕)，內容才不會遭截斷。
+   * 任何 [超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) 存在於自由表格中的無法在下載的PDF中運作。
+
+若要將專案下載為CSV或PDF檔案：
 
 1. 請根據您想要使用的下載格式，執行下列任一項作業：
 
@@ -32,13 +44,6 @@ ht-degree: 72%
    ![「專案」下拉式選單中會反白顯示「下載CSV」和「下載PDF」選項。](assets/download-project.png)
 
 1. (視情況而定) 如果您選擇下載 PDF，則在專案準備好下載後會顯示一則訊息。選取 [!UICONTROL **下載**].
-
-針對專案的下載，請牢記以下事項：
-
-* 當您要求下載專案時，該專案可以是已儲存或未儲存的狀態。 但只有已儲存的專案才可以[排程](/help/analysis-workspace/export/t-schedule-report.md)。
-* 在瀏覽器中下載的 PDF 可能需要幾分鐘的時間才能匯出，因為專案會先在 Adobe 伺服器上重新執行，然後才會以 PDF 格式呈現。 建議您在 PDF 下載到瀏覽器之前不要退出專案。 不過，您可以在等待時繼續變更專案。 如果呈現 PDF 需要 5 分鐘以上的時間，系統將提示您改為透過電子郵件發送。
-* PDF 下載將呈現為單一頁面，而不套用任何分頁。
-* 當專案呈現到 PDF 時，我們呈現頁面上的內容。 如果專案有自訂大小的視覺效果和面板，您必須將其變更為自動縮放 (右上角按鈕)，內容才不會遭截斷。
 
 ## 複製到剪貼簿（快速鍵：Ctrl+C） {#copy-data}
 

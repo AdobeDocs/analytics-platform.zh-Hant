@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 7280bd21882e2baa31e76dbb6f983ccaf1af8633
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 52%
+source-wordcount: '1195'
+ht-degree: 53%
 
 ---
 
@@ -59,11 +59,7 @@ Customer Journey Analytics由三個存取層級或三個角色管理：產品管
 
 * 將資料集匯出至雲端 [目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)
 
-  >[!AVAILABILITY]
-  >
-  >將資料集匯出至雲端的功能目前處於發行的「有限測試」階段，可能在您的環境中尚未提供使用。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).
-
-  為了執行此工作，使用者還需要下列Experience Platform許可權：
+  為了執行此任務，使用者需要以下Experience Platform許可權：
    * 管理目的地
    * 啟用目的地
 
