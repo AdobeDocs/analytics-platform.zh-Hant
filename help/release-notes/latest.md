@@ -3,9 +3,9 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: f01e6c1f4abe57b8af42fc3939c312ff79785a06
+source-git-commit: 4c6578d500ccd86c9e64256aebb65e27de7896be
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1108'
 ht-degree: 48%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 48%
 | **衍生欄位 — 摘要函式** | 提供在事件、工作階段和使用者層級，將彙總型別函式套用至量度或維度的功能。 (後續文件連結) | | 2024年6月26日 |
 | **衍生欄位 — 重複資料刪除功能** | 協助防止重複計算值。 可在使用者或工作階段層級，或根據維度的唯一值套用。 (後續文件連結) |  | 2024年6月26日 |
 | **擷取優先順序和延遲** | 您現在可以在90分鐘(SLT)內以Customer Journey Analytics擷取事件資料，無論資料是24小時、48小時還是7天前。 請注意，此功能因您公司購買的SKU套件而異：<ul><li>CJA優先擷取基本：90分鐘SLT處理內24小時前的資料（適用於CJA Foundation和CJA Select）</li><li>CJA優先擷取中繼：90分鐘SLT處理內72小時前的資料（適用於CJA Prime）</li><li>CJA優先擷取進階：90分鐘SLT處理內1週前的資料（適用於CJA Ultimate）</li></ul> |  | 2024 年 6 月 12 日 |
-| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者和系統管理員可以編輯和刪除帳戶和位置。 以前，帳戶和位置只能由建立它們的使用者使用。 當使用者[設定雲端匯出帳戶](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)和[設定雲端匯出位置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)時，可使用這些設定。 | 2024 年 6 月 12 日 | 2024年6月18日 |
+| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者和系統管理員可以編輯和刪除帳戶和位置。 以前，帳戶和位置只能由建立它們的使用者使用。 當使用者[設定雲端匯出帳戶](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)和[設定雲端匯出位置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)時，可使用這些設定。 | 2024 年 6 月 12 日 | 2024年7月中旬 |
 | **在下拉篩選器中選擇多個欄位** | 當多個欄位新增至下拉篩選器時，使用者便可以一次選擇多個欄位。此面板經過篩選，以包含任何已選取的欄位。 <p>先前，使用者在下拉篩選器中一次只能選擇一個欄位。</p><p>在下拉式篩選器上按一下滑鼠右鍵時，要求在下拉式篩選器中進行選取的選項已移至功能表。</p><p>之前，使用者可以按一下下拉式功能表中「沒有篩選器」選項旁的(x)。</p><p>如需詳細資訊，請參閱 [靜態下拉式篩選器](/help/analysis-workspace/c-panels/panels.md#static-drop-down-filters) 在 [面板概觀](/help/analysis-workspace/c-panels/panels.md).</p> |  | 2024 年 6 月 19 日 |
 | **Workspace 專案的目錄** | 現在可為專案提供新的目錄。目錄提供的連結可讓使用者在專案內的面板和視覺效果之間快速移動。 <p>目錄可在所有專案的左側邊欄中使用。</p><p>如需詳細資訊，請參閱 [專案目錄](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md). |  | 2024 年 6 月 19 日 |
 | **為自由格式表格中的維度項目建立超連結** | 您可以為一個或多個維度項目建立超連結，以使它們在 Analysis Workspace 的自由格式表格中可進行點選。 <p>您可以為具有 URL 值的維度項目建立超連結，也可以為具有非 URL 值的維度項目建立自訂 URL。</p><p>您可以使用變數，為多個維度項目建立動態自訂 URL。變數可以參考維度項目的值，也可以參考劃分維度。</p><p>如需詳細資訊，請參閱 [在自由表格中建立維度的超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p> |  | 2024 年 6 月 19 日 |
