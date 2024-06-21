@@ -4,10 +4,10 @@ description: 瞭解 Analytics 來源連接器如何處理 Adobe Analytics 身分
 exl-id: c983cf50-0b6c-4daf-86a8-bcd6c01628f7
 feature: Basics
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: 0dc99750126ed5b88b1d1f2d4afc28acad0fe84e
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,12 @@ Analytics 來源連接器將這些身分識別以 XDM 形式傳遞到 Adobe Expe
 * 如果 ECID 存在，則將其標記為事件的主要身分識別。請注意，在這種情況下，AAID 可能會以上述 ECID 為基礎。
 否則，AAID 將標記為事件的主要身分識別。
 * AACUSTOMID 永遠不會標記為事件的主要 ID。但是，如果 AACUSTOMID 存在，則 AAID 會以上述 AACUSTOMID 為基礎。
+
+當身分或身分複製到時 `identityMap`， `endUserIDs._experience.mcid.namespace.code` 也設定在相同事件上：
+
+* 如果AAID存在， `endUserIDs._experience.aaid.namespace.code` 設為&quot;AAID&quot;。
+* 如果ECID存在， `endUserIDs._experience.mcid.namespace.code` 設為&quot;ECID&quot;。
+* 如果AACUSTOMID存在， `endUserIDs._experience.aacustomid.namespace.code` 設為&quot;AACUSTOMID&quot;。
 
 ## Customer Journey Analytics 和主要 ID
 
