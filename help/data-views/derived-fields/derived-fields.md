@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: ca7e8db5f439d5447725473cb5c3a47c4d801ffa
+source-git-commit: a0515c68407b01dd39bed9f0bf9121b575d02dea
 workflow-type: tm+mt
-source-wordcount: '8377'
+source-wordcount: '8373'
 ht-degree: 12%
 
 ---
@@ -1247,7 +1247,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 方法]：<ul><li>上一個值</li><li>下一個值</li></ul></li><li>[!UICONTROL 範圍]：<ul><li>「人」</li><li>工作階段</li></ul></li><li>[!UICONTROL 索引]：<ul><li>數值</li></ul><li>[!UICONTROL 包含重複專案]：<ul><li>布林值</li></ul></li><li>[!UICONTROL 包含「無值」]：<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位3個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 方法]：<ul><li>上一個值</li><li>下一個值</li></ul></li><li>[!UICONTROL 範圍]：<ul><li>「人」</li><li>工作階段</li></ul></li><li>[!UICONTROL 索引]：<ul><li>數值</li></ul><li>[!UICONTROL 包含重複專案]：<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位3個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
