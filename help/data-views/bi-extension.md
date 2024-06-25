@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics BI 擴充功能
-description: 了解如何使用查詢服務、Power BI、Tableau 或其他 BI 和 SQL 工具，透過 Customer Journey Analytics BI 擴充功能來存取資料檢視。
+description: 瞭解如何使用Power BI或Tableau，透過Customer Journey AnalyticsBI擴充功能存取資料檢視。
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 963b8788f9657844d56449bf315abc5018deb5d8
+source-git-commit: 483f74408cfb81f2cbbbb25df9402aa829be09b1
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 96%
+source-wordcount: '2797'
+ht-degree: 86%
 
 ---
 
@@ -28,19 +28,17 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 ## 先決條件
 
-若要使用此功能，您必須：
+若要使用此功能，您必須具備：
 
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
 
-* 設定相關產品設定檔、使用者群組和/或個別使用者的功能。存取要求包括：
-   * Adobe Experience Platform 查詢服務
-   * Customer Journey Analytics 中的 Workspace 專案
-   * 所需使用的 CJA 資料檢視
-   * 在資料來視工具中存取 BI 擴充功能
-
+* 已授與Experience Platform和Customer Journey Analytics的存取權。
+* 已授與產品管理員對Customer Journey Analytics的存取權，因此您可以檢視、編輯、更新或刪除連線和資料檢視。
+* 已授予您要存取之資料檢視的存取權。
+* 已授與CJA BI擴充功能的存取權。
 * 使用有到期日或無到期日的認證能將 BI 工具連接到 [!DNL Customer Journey Analytics BI extension]。「[認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)」提供關於設定有到期日的認證或無到期日的認證之詳細資訊。
 
-如需其他資訊，請參閱 Customer Journey Analytics 管理區段的「[存取控制](../technotes/access-control.md)」。
+另請參閱 [客戶歷程存取控制](../technotes/access-control.md) 如需詳細資訊，請參閱 [產品管理員其他許可權](../technotes/access-control.md#product-admin-additional-permissions) 和 [Admin Console中的Customer Journey Analytics許可權](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
 
 ## 使用情況
@@ -84,7 +82,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 +++
 
-請參閱「[查詢編輯器 UI 指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)」以了解更多資訊。
+請參閱 [查詢編輯器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide) 以取得詳細資訊。
 
 
 ### BI 工具
@@ -113,9 +111,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 在「**[!UICONTROL ** PostgressSQL 資料庫&#x200B;**]**」對話方塊中：
 
-      1. 將「**[!UICONTROL **&#x200B;主機&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;伺服器&#x200B;**]**」文字欄位。
+      1. 貼上 **[!UICONTROL **&#x200B;主機&#x200B;**]** Experience Platform查詢中的引數 [!UICONTROL 認證] 在  **[!UICONTROL **&#x200B;伺服器&#x200B;**]** 文字欄位。
 
-      1. 將「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」文字欄位。
+      1. 貼上 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** Experience Platform查詢中的引數 [!UICONTROL 認證] 在 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** 文字欄位。
 
          將 `?FLATTEN` 新增到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數，以便讀起來像 `prod:cja?FLATTEN`。請參閱「[將巢狀資料結構展平以供協力廠商 BI 工具使用](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)」以了解更多資訊。
 
@@ -124,7 +122,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
       1. 系統會提示您輸入「**[!UICONTROL 使用者名稱]**」和「**[!UICONTROL 密碼]**」。使用 Experience Platform 查詢[!UICONTROL 認證]的同等參數。
 
 
-   1. 成功登入之後，Power BI 的&#x200B;**[!UICONTROL **&#x200B;導覽器&#x200B;**]**&#x200B;中會顯示 Customer Journey Analytics 資料檢視表格。
+   1. 成功登入後，Customer Journey Analytics資料檢視表會顯示在Power BI中 **[!UICONTROL **&#x200B;導覽器&#x200B;**]**.
 
    1. 選取您要使用的資料檢視表格並選取「**[!UICONTROL **&#x200B;載入&#x200B;**]**」。
 
@@ -154,11 +152,11 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 在「[!UICONTROL PostgresSQL]」對話方塊中：
 
-      1. 將「**[!UICONTROL **&#x200B;主機&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;伺服器&#x200B;**]**」文字欄位。
+      1. 貼上 **[!UICONTROL **&#x200B;主機&#x200B;**]** Experience Platform查詢中的引數 [!UICONTROL 認證] 到 **[!UICONTROL **&#x200B;伺服器&#x200B;**]** 文字欄位。
 
-      1. 將「**[!UICONTROL **&#x200B;連接埠&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;連接埠&#x200B;**]**」文字欄位。
+      1. 貼上 **[!UICONTROL **&#x200B;連線埠&#x200B;**]** Experience Platform查詢中的引數 [!UICONTROL 認證] 到 **[!UICONTROL **&#x200B;連線埠&#x200B;**]** 文字欄位。
 
-      1. 將「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」文字欄位。
+      1. 貼上 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** Experience Platform查詢中的引數 [!UICONTROL 認證] 到 **[!UICONTROL **&#x200B;資料庫&#x200B;**]** 文字欄位。
 
          將 `%3FFLATTEN` 新增到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數，以便讀起來像 `prod:cja%3FFLATTEN`。請參閱「[將巢狀資料結構展平以供協力廠商 BI 工具使用](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)」以了解更多資訊。
 
@@ -166,9 +164,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
       1. 將「**[!UICONTROL **&#x200B;使用者名稱&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;使用者名稱&#x200B;**]**」文字欄位。
 
-      1. 將「**[!UICONTROL **&#x200B;密碼&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;密碼&#x200B;**]**」文字欄位。
+      1. 貼上 **[!UICONTROL **&#x200B;密碼&#x200B;**]** Experience Platform查詢中的引數 [!UICONTROL 認證] 到 **[!UICONTROL **&#x200B;密碼&#x200B;**]** 文字欄位。
 
-      1. 選取「**[!UICONTROL **&#x200B;登入&#x200B;**]**」。
+      1. 選取 **[!UICONTROL **&#x200B;登入&#x200B;**]**.
 
    1. Customer Journey Analytics 資料檢視顯示為「**[!UICONTROL **&#x200B;表格&#x200B;**]**」清單中的表格。
 
@@ -215,14 +213,14 @@ prod:all=> \dv
 
 有關支援哪些 SQL 類型的完整參考，請參閱「[Query Service SQL 參考](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)」。
 
-有關可以使用的 SQL 範例，請參閱下表。
+請參閱下表，以取得您可以使用的SQL範例。
 
 +++ 範例
 
 | 模式 | 範例 |
 |---|---|
 | 結構探索 | <pre>SELECT * FROM dv1 WHERE 1=0</pre> |
-| 排名/分解 | <pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39; AND<br/>  filterId = &#39;12345&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39; AND<br/>  AND (dim2 = &#39;A&#39; OR dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>GROUP BY dim1</pre> |
+| 排名或劃分 | <pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39; AND<br/>  filterId = &#39;12345&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39; AND<br/>  AND (dim2 = &#39;A&#39; OR dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>GROUP BY dim1</pre> |
 | `HAVING` 子句 | <pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1<br/>HAVING m1 > 100</pre> |
 | 不重複，頂端<br/>維度值 | <pre>SELECT DISTINCT dim1 FROM dv1</pre><pre>SELECT dim1 AS dv1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1 AS dv1<br/>FROM dv1<br/>WHERE \`timestamp\` >= &#39;2022-01-01&#39; AND \`timestamp\` &lt; &#39;2022-01-02&#39;<br/>GROUP BY dim1<br/>ORDER BY SUM(metric1)<br/>LIMIT 15</pre> |
 | 量度總計 | <pre>SELECT SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;</pre> |
@@ -258,7 +256,7 @@ prod:all=> \dv
 
 #### 計算不重複值
 
-由於 Customer Journey Analytics 運作原理的根本性質，可以獲得精確不重複計數的唯一維度是 `adobe_personid` 維度。以下 SQL 陳述式 `SELECT COUNT(DISTINCT adobe_personid)` 或者 `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` 傳回預設人員量度的數值，即不重複人員的計數。對於其他維度，傳回近似的不重複計數。
+由於 Customer Journey Analytics 運作原理的根本性質，可以獲得精確不重複計數的唯一維度是 `adobe_personid` 維度。下列SQL敘述句 `SELECT COUNT(DISTINCT adobe_personid)` 或 `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` 傳回預設人員量度的值，該量度為不同人員的計數。 對於其他維度，傳回近似的不重複計數。
 
 #### 條件式量度
 
@@ -276,7 +274,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 #### 內聯計算
 
-您可以額外套用數學函數到 `SELECT` 的量度運算式，而不是在計算量度中定義數學。下表列出所支援的運算式類型。
+您可以將其他數學套用至中的量度運算式 `SELECT`. 您可以使用此數學，而不用定義計算量度中的數學。 下表列出所支援的運算式類型。
 
 | 運算子或函數 | 詳細資料 |
 |---|---|
@@ -304,19 +302,19 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 #### 日期範圍
 
-`daterange` 特別欄的運作原理類似於 `timestamp`，但是篩選僅限於全天。`daterange` 也是選用的，而且具有和 `timestamp` 相同的預設範圍。
+此 `daterange` 特殊欄的作用類似於 `timestamp`；不過篩選時間限製為整天。 `daterange` 也是選用的，而且具有和 `timestamp` 相同的預設範圍。
 `daterange` 欄位也可以用於「日期時間」函數以剖析或截斷事件日期。
 
  `daterangeName` 特殊欄可用來使用命名的日期範圍 (例如 `Last Quarter`) 來篩選查詢。
 
 >[!NOTE]
 >
->PowerBI不支援 `daterange` 少於一天的量度（小時、30分鐘、5分鐘等）。
+>Power BI不支援 `daterange` 少於一天的量度（小時、30分鐘、5分鐘等）。
 
 
 #### 篩選器 ID
 
-`filterId` 特殊欄是選用的，且用於將外部定義的篩選條件套用至查詢。將外部定義的篩選器套用至查詢，類似於將篩選條件拖曳到工作區的面板上。您可以透過 `AND` 的方式提供多個篩選條件 ID。
+`filterId` 特殊欄是選用的，且用於將外部定義的篩選條件套用至查詢。將外部定義的篩選器套用至查詢，類似於將篩選條件拖曳到工作區的面板上。可使用多個篩選器ID `AND` — 正在執行它們。
 
 有 `filterId` 時，您可以使用 `filterName` 來使用篩選器名稱而非 ID。
 
