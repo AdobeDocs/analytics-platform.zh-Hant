@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: 6e50e9341c2eedd6e4882cc3eb943cbcb8dfc332
+source-git-commit: eef9b420f1016254dece0a916b82bc99e2ca866e
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,11 @@ ht-degree: 0%
 * [XDM商業機會個人關係](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
 * [XDM業務行銷清單成員](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
 * [XDM商業活動會員](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+
+>[!NOTE]
+>
+>每個ID最多有10,000個專案的限制。 此限制表示在任何特定人員ID中，您只能有10,000個帳戶、10,000個機會、10,000個行銷清單或10,000個行銷活動。
+
 
 若要啟用這類資料集的轉換：
 
@@ -44,7 +49,7 @@ ht-degree: 0%
 
 1. 從連線中移除資料集。
 1. 儲存連線。
-1. 開啟資料集的轉換時，將資料集新增到連線
+1. 開啟資料集的轉換時，將資料集新增到連線。
 
 ## 背景資訊
 
