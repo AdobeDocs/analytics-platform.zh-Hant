@@ -1,14 +1,14 @@
 ---
 title: 參與檢視
-description: 瞭解功能參與的廣度和深度。
+description: 了解功能參與的廣度與深度。
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: a4c35466b225d44130bb55204e2fdb155fa7dee6
+source-git-commit: 670443a8caf6b71f49fc63a23b5328609864a9be
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 3%
+source-wordcount: '721'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 * 矩陣左下角的功能為 **低影響** 功能；並未廣泛使用或經常使用。
 * 矩陣右下方的功能是您的 **單次** 功能；它們被廣泛採用，但不常使用。
 
-![Engagement熒幕擷圖](../assets/feature-matrix.png)
+>[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
 
 ## 使用案例
 
