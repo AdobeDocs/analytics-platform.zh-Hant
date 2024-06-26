@@ -6,7 +6,7 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
+source-git-commit: 71931b85de6b238c0c6c6fd7b72d06f25103b906
 workflow-type: tm+mt
 source-wordcount: '3188'
 ht-degree: 14%
@@ -51,7 +51,7 @@ ht-degree: 14%
 | [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p>![狀態綠色](assets/status-green.svg))    **[!UICONTROL _x _開啟]**針對設定為匯入新資料的資料集，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _x關閉_]** 針對未設定為匯入新資料的資料集。 |
 | [!UICONTROL 建立日期] | 建立連線時的時間戳記。 |
 | [!UICONTROL 上次修改日期] | 上次更新連線時的時間戳記。 |
-| [!UICONTROL 回填資料] | 跨資料集顯示回填資料的狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**如需資料集間失敗的回填數，<p>![狀態橘色](assets/status-orange.svg)   **[!UICONTROL _x _正在處理回填]**如需跨資料集處理回填的次數，<p>![狀態綠色](assets/status-green.svg))   **[!UICONTROL _x _回填已完成]**資料集的已完成回填數，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _關閉_]** 以防連線中的資料集未定義回填。 |
+| [!UICONTROL 回填資料] | 跨資料集顯示回填資料的狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**如需資料集間失敗的回填數，<p>![狀態橘色](assets/status-orange.svg)   **[!UICONTROL _x _正在處理回填]**如需跨資料集處理回填的次數，<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _回填已完成]**資料集的已完成回填數，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _關閉_]** 以防連線中的資料集未定義回填。 |
 
 若要設定要顯示哪些欄，請選取 ![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)，會顯示 **自訂表格** 對話方塊可讓您開啟或關閉表格中的欄。
 
@@ -89,7 +89,7 @@ ht-degree: 14%
 
 當您刪除連線時， **[!UICONTROL 刪除連線]** 面板會指出哪些資料檢視已刪除，以及哪些工作區專案會受到影響。
 
-<img src="./assets/delete-connection.png" alt="刪除連線" width="400"/>
+![刪除連線](assets/delete-connection.png)
 
 選取 **[!UICONTROL 繼續]** 以刪除連線。
 
