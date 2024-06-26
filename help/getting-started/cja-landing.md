@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 67a249ab291201926eb50df296e031b616de6e6f
-workflow-type: ht
-source-wordcount: '677'
-ht-degree: 100%
+source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 85%
 
 ---
 
@@ -29,6 +29,12 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 [![影像](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
+>[!TAB 圖表式銜接]
+
+透過圖表式拼接，您可以使用Experience Platform身分服務中的身分圖表，透過以下方式取得客戶歷程的更好檢視： <ul><li>使用不同的識別碼加入資料集，而不需擷取、轉換和載入其他資料以反映單一識別碼。</li> <li>透過在資料集間共用身分，改善單一資料集的偏好或黃金身分的涵蓋範圍，</li><li>將Real-time Customer Data Platform和Journey Optimizer中建立的設定檔與Customer Journey Analytics中的人員整合。</li></ul>
+
+[![影像](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
+
 >[!TAB B2B 查詢]
 
 在設定連線時，您可以轉換特定 B2B 查詢結構描述的資料集，以便在 B2B 資料上更完善地支援人員型查詢。
@@ -37,7 +43,7 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 >[!TAB 衍生欄位]
 
-新的衍生欄位函數 (數學、下一個或上一個) 和附加函數範本 (如彈回數、易記的資料集名稱、假期季節、每月目標、簡單的機器人偵測等) 現已推出。
+新衍生的欄位函式（數學、下一個或上一個、摘要）和其他函式範本（例如彈回數、易記資料集名稱、假日季節、每月目標、簡單機器人偵測等）現在已可供使用。
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
