@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 >[!TAB 圖表式銜接]
 
-透過圖表式拼接，您可以使用Experience Platform身分服務中的身分圖表，透過以下方式取得客戶歷程的更好檢視： <ul><li>使用不同的識別碼加入資料集，而不需擷取、轉換和載入其他資料以反映單一識別碼。</li> <li>透過在資料集間共用身分，改善單一資料集的偏好或黃金身分的涵蓋範圍，</li><li>將Real-time Customer Data Platform和Journey Optimizer中建立的設定檔與Customer Journey Analytics中的人員整合。</li></ul>
+透過圖表式拼接，您可以使用Experience Platform身分服務中的身分圖表，透過以下方式取得客戶歷程的更好檢視： <ul><li>無需擷取、轉換並載入額外資料來反映單一識別碼，即可連接不同識別碼的資料集。</li> <li>透過在資料集間共用身分，改善單一資料集的偏好或黃金身分的涵蓋範圍，</li><li>讓 Real-Time Customer Data Platform 和 Journey Optimizer 中建立的輪廓與 Customer Journey Analytics 中的人員保持一致。</li></ul>
 
 [![影像](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
@@ -53,7 +53,7 @@ BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的�
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
-<span style="color:gray">*_您必須擁有 Select 套件或更高版本才能使用 BI 擴充功能。_</span>
+*_您必須有Select套件或更高版本才能使用BI擴充功能。_*
 
 
 <!--

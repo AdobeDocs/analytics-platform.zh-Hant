@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: efa7aaf80f0f7c6b232f7024a556e0e54504c0be
+source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
 workflow-type: tm+mt
 source-wordcount: '8075'
 ht-degree: 12%
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # 衍生欄位
 
-衍生欄位是Adobe Customer Journey Analytics中即時報告功能的重要方面。 衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後您可以將該衍生欄位當做中的元件（量度或維度） [工作區](../../analysis-workspace/home.md) 甚至進一步將衍生欄位定義為中的元件 [資料檢視](../data-views.md).
+衍生欄位是Adobe Customer Journey Analytics中即時報告功能的重要方面。 衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後您可以將該衍生欄位當做中的元件（量度或維度） [Workspace](../../analysis-workspace/home.md) 甚至進一步將衍生欄位定義為中的元件 [資料檢視](../data-views.md).
 
 相較於在Customer Journey Analytics以外的其他位置轉換或操控資料，衍生欄位可節省大量時間和精力。 例如 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)， [資料Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)，或在您自己的提取轉換載入(ETL) /提取載入轉換(ELT)程式內。
 
@@ -607,9 +607,9 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 |  | 限制 |
 |:---:|----|
-| **<span style='color: red'>A</span>** | 您的值 *選取* 在相同 [!UICONTROL 如果]， [!UICONTROL Else If] 建構(使用 [!UICONTROL 與] 或 [!UICONTROL 或])且必須源自相同容器，可以是任何型別（字串） ![字串](assets/Smock_ABC_18_N.svg)，數值 ![數值](assets/Smock_123_18_N.svg)，依此類推)。 <br/>![相依性A的熒幕擷圖](assets/dependency-a.png) |
-| **<span style='color: red'>B</span>** | 您所有的值 *設定* 跨規則必須來自相同容器，且具有相同型別或相同型別的衍生值。 <br/> ![相依性B的熒幕擷圖](assets/dependency-b.png) |
-| **<span style='color: blue'>C</span>** | 您的值 *選取* 橫向 [!UICONTROL 如果]， [!UICONTROL Else If] 規則中的建構do *非* 必須源自相同的容器，並 *非* 必須是相同型別。 <br/> ![相依性C的熒幕擷圖](assets/dependency-c.png) |
+| **A** | 您的值 *選取* 在相同 [!UICONTROL 如果]， [!UICONTROL Else If] 建構(使用 [!UICONTROL 與] 或 [!UICONTROL 或])且必須源自相同容器，可以是任何型別（字串） ![字串](assets/Smock_ABC_18_N.svg)，數值 ![數值](assets/Smock_123_18_N.svg)，依此類推)。 <br/>![相依性A的熒幕擷圖](assets/dependency-a.png) |
+| **B** | 您所有的值 *設定* 跨規則必須來自相同容器，且具有相同型別或相同型別的衍生值。 <br/> ![相依性B的熒幕擷圖](assets/dependency-b.png) |
+| **C** | 您的值 *選取* 橫向 [!UICONTROL 如果]， [!UICONTROL Else If] 規則中的建構do *非* 必須源自相同的容器，並 *非* 必須是相同型別。 <br/> ![相依性C的熒幕擷圖](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -1151,7 +1151,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 1. 插入靜態值(例如 `1.05`)，輸入值並選取 **[!UICONTROL 新增 *x* 作為靜態值]** 或 **[!UICONTROL 新增 — *x* 作為負靜態值]** 從躍現式選單中。
    ![數學更多資訊2](assets/math-more-info-2.png)
 
-1. 綠色核取標籤 ![核取記號](./assets/checkmark.svg)</span> 指出數學公式是否有效，否則會顯示警告 <span style="color:red">![警報](./assets/alert.svg)</span> 和訊息 <span style="color:#ea3829">[!UICONTROL 無效的公式運算式].</span>
+1. 綠色核取標籤 ![核取記號](./assets/checkmark.svg)</span> 指出數學公式是否有效，否則會顯示警告 ![警報](./assets/alert.svg) 和訊息 [!UICONTROL 無效的公式運算式].
    ![數學更多資訊3](assets/math-more-info-3.png)
 
 在中使用靜態數字時，有一些重要的考量 [!UICONTROL MATH] 函式：
@@ -1516,7 +1516,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ## 使用案例 {#summarize-uc}
 
-您要將新增到購物車收入分為三個不同的類別：小、中和大。 這可讓您分析和識別高價值客戶的特徵。
+您想要將「新增至購物車收入」分類為三種不同的類別：「小」、「Medium」和「大」。 這可讓您分析和識別高價值客戶的特徵。
 
 ### 在此之前的資料 {#summarize-uc-databefore}
 
@@ -1533,7 +1533,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 邏輯：
 
 - 如果訪客的購物車收入總計不到$150，則設定為小。
-- 如果訪客的購物車收入總計大於$150但小於$500，則設定為中。
+- 如果訪客的購物車收入總計大於$150但小於$500，請設為Medium。
 - 如果訪客的購物車收入總計大於或等於$500，則設定為大。
 
 結果：

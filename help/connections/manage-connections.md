@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: ce1a6b631baefaccf7daac5ebaf272bd5c7ed88a
+source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
 workflow-type: tm+mt
-source-wordcount: '3155'
+source-wordcount: '3188'
 ht-degree: 14%
 
 ---
@@ -48,10 +48,10 @@ ht-degree: 14%
 | [!UICONTROL 資料集] | 顯示連線中資料集的一或多個連結。 您可以選取資料集超連結來檢視連線中的資料集。 如果所選連線包含更多資料集，請選取 **[!UICONTROL +*x* 更多]** 以顯示 **[!UICONTROL 包含的資料集]** 面板。 此面板會顯示所有資料集的連結，以及搜尋屬於連線之特定資料集的選項。<p><img src="./assets/datasets-included.png" alt="包含的資料資產" width="400"/><p>選取資料集名稱，即可在新索引標籤的Experience PlatformUI中開啟資料集。 |
 | [!UICONTROL 沙箱] | 顯示 [Experience Platform沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant) 此連線從中提取其資料集的。 當您初次建立連線時，就會選取這個沙箱。 此沙箱無法變更。 |
 | [!UICONTROL 所有者] | 建立連線的人。 |
-| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**針對設定為匯入新資料的資料集，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 針對未設定為匯入新資料的資料集。 |
+| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p>![狀態綠色](assets/status-green.svg))    **[!UICONTROL _x _開啟]**針對設定為匯入新資料的資料集，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _x關閉_]** 針對未設定為匯入新資料的資料集。 |
 | [!UICONTROL 建立日期] | 建立連線時的時間戳記。 |
 | [!UICONTROL 上次修改日期] | 上次更新連線時的時間戳記。 |
-| [!UICONTROL 回填資料] | 跨資料集顯示回填資料的狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**如需資料集間失敗的回填數，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**如需跨資料集處理回填的次數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**資料集的已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防連線中的資料集未定義回填。 |
+| [!UICONTROL 回填資料] | 跨資料集顯示回填資料的狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**如需資料集間失敗的回填數，<p>![狀態橘色](assets/status-orange.svg)   **[!UICONTROL _x _正在處理回填]**如需跨資料集處理回填的次數，<p>![狀態綠色](assets/status-green.svg))   **[!UICONTROL _x _回填已完成]**資料集的已完成回填數，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _關閉_]** 以防連線中的資料集未定義回填。 |
 
 若要設定要顯示哪些欄，請選取 ![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)，會顯示 **自訂表格** 對話方塊可讓您開啟或關閉表格中的欄。
 
@@ -149,11 +149,11 @@ ht-degree: 14%
 | [!UICONTROL 資料來源類型] | 資料集的來源型別。 建立連線時，您可以定義來源型別。 |
 | [!UICONTROL 資料集類型] | 此資料集的資料集型別。 型別可以是 [!UICONTROL 事件]， [!UICONTROL 查詢]，或 [!UICONTROL 個人資料]. [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | 結構描述 | 資料集所根據的Experience Platform結構描述。 |
-| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新的資料匯入。 |
-| [!UICONTROL 轉換資料] | 顯示適用B2B查詢資料集的轉換狀態。 另請參閱 [轉換B2B查詢的資料集](transform-datasets-b2b-lookups.md) 以取得詳細資訊。<p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**針對已啟用轉換的適用資料集， <p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 未啟用轉換的適用資料集，以及<p>**[!UICONTROL 不適用]** 適用於所有其他資料集，不適用於轉換。 |
-| [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**回填失敗的數目，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**對於處理的回填數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防未設定回填。 |
-| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新資料。 |
-| [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**回填失敗的數目，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**對於處理的回填數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防未設定回填。 |
+| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新的資料匯入。 |
+| [!UICONTROL 轉換資料] | 顯示適用B2B查詢資料集的轉換狀態。 請參閱[轉換資料集以進行 B2B 查詢](transform-datasets-b2b-lookups.md)，了解更多資訊。<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _開啟]**針對已啟用轉換的適用資料集， <p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _x關閉_]** 未啟用轉換的適用資料集，以及<p>**[!UICONTROL 不適用]** 適用於所有其他資料集，不適用於轉換。 |
+| [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**回填失敗的數目，<p>![狀態紅色](assets/status-orange.svg)   **[!UICONTROL _x _正在處理回填]**對於處理的回填數，<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _回填已完成]**已完成回填數，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _關閉_]** 以防未設定回填。 |
+| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新資料。 |
+| [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**回填失敗的數目，<p>![狀態紅色](assets/status-orange.svg)   **[!UICONTROL _x _正在處理回填]**對於處理的回填數，<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _回填已完成]**已完成回填數，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _關閉_]** 以防未設定回填。 |
 
 >[!IMPORTANT]
 >
@@ -173,9 +173,9 @@ ht-degree: 14%
 | [!UICONTROL 沙箱] | 此 [Experience Platform沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) 此連線從中提取其資料集。當您初次建立連線時，就會選取這個沙箱。 此沙箱無法變更。 |
 | [!UICONTROL 連線 ID] | 此ID會以Experience Platform產生。 您可以使用 ![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) 以複製ID。 |
 | [!UICONTROL 使用連線的資料檢視] | 列出所有使用此連線的資料檢視。 |
-| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**瞭解有多少資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 針對已關閉多少資料集的新資料匯入。 |
-| [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**如需資料集間失敗的回填數，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**如需跨資料集處理回填的次數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**資料集的已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防連線中的資料集未定義回填。 |
-| 轉換資料 | 顯示適用B2B查詢資料集的轉換狀態。 另請參閱 [轉換B2B查詢的資料集](transform-datasets-b2b-lookups.md) 以取得詳細資訊。<p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**用於啟用轉換的資料集數目。 |
+| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _開啟]**瞭解有多少資料集已設定為匯入新資料，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _x關閉_]** 針對已關閉多少資料集的新資料匯入。 |
+| [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**如需資料集間失敗的回填數，<p>![狀態紅色](assets/status-orange.svg)   **[!UICONTROL _x _正在處理回填]**如需跨資料集處理回填的次數，<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _回填已完成]**資料集的已完成回填數，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _關閉_]** 以防連線中的資料集未定義回填。 |
+| 轉換資料 | 顯示適用B2B查詢資料集的轉換狀態。 請參閱[轉換資料集以進行 B2B 查詢](transform-datasets-b2b-lookups.md)，了解更多資訊。<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _開啟]**用於啟用轉換的資料集數目。 |
 | [!UICONTROL 建立者] | 顯示建立連線的使用者名稱。 |
 | [!UICONTROL 上次修改日期] | 顯示上次變更連線的時間戳記。 |
 | [!UICONTROL 上次修改者] | 顯示上次修改連線的使用者。 |
@@ -196,8 +196,8 @@ ht-degree: 14%
 | [!UICONTROL 批次已新增] | 顯示已將多少資料批次新增到此資料集。 |
 | [!UICONTROL 略過的記錄] | 顯示在選取的時段內擷取資料時，略過了多少列。<p>略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人ID等。 每 10 分鐘更新一次。<p>無效的人員ID (例如 `undefined`，或 `00000000`，或a中任何數字和字母的組合 [!UICONTROL 人員ID] （在指定月份中出現超過100萬次的事件）是無法歸因於任何特定使用者或個人的ID。 這些列無法擷取到系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用 [拼接](/help/stitching/overview.md) 以使用有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間會略過該使用者ID （偏好使用無效或全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> |
 | [!UICONTROL 上次新增時間] | 顯示上次新增批次的時間。 |
-| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p><span style="color:green">●</span>   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p><span style="color:gray">●</span>   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新資料。 |
-| [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p><span style="color:red">●</span>   **[!UICONTROL _x _回填失敗]**回填失敗的數目，<p><span style="color:orange">●</span>   **[!UICONTROL _x _正在處理回填]**對於處理的回填數，<p><span style="color:green">●</span>   **[!UICONTROL _x _回填已完成]**已完成回填數，以及<p><span style="color:grey">●</span>   **[!UICONTROL _關閉_]** 以防未設定回填。<p>若要顯示對話方塊以概覽資料集過去的回填，請選取「 」 <img src="./assets/pastbackfill.svg" alt="過去的回填" width="15"/> **[!UICONTROL 過去的回填]**. |
+| [!UICONTROL 匯入新資料] | 顯示匯入資料集新資料的狀態： <p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _開啟]**如果資料集已設定為匯入新資料，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _x關閉_]** 如果資料集已設定為不匯入新資料。 |
+| [!UICONTROL 回填資料] | 顯示資料集的回填資料狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**回填失敗的數目，<p>![狀態紅色](assets/status-orange.svg)   **[!UICONTROL _x _正在處理回填]**對於處理的回填數，<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _回填已完成]**已完成回填數，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _關閉_]** 以防未設定回填。<p>若要顯示對話方塊以概覽資料集過去的回填，請選取「 」 <img src="./assets/pastbackfill.svg" alt="過去的回填" width="15"/> **[!UICONTROL 過去的回填]**. |
 | [!UICONTROL 資料來源類型] | 將資料集新增至連線時所定義的資料來源型別。 |
 | [!UICONTROL 資料集類型] | 可能是[!UICONTROL 事件]、[!UICONTROL 查詢]或[!UICONTROL 描述檔]。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#configure-dataset) |
 | [!UICONTROL 結構描述] | 顯示此資料集所根據的Experience Platform結構描述。 |
@@ -220,17 +220,17 @@ ht-degree: 14%
 的 [!UICONTROL 擷取的列]：
 
 * 面板會顯示擷取的總列數，其中包含所有連線中在每月第2天更新的所有事件資料。 在面板內：
-   * 方塊會顯示上個月內嵌的列數和% (由以下專案指示： <span style="color:green">▲</span> 或 <span style="color:c64545">▼</span>)。
-   * 折線圖會顯示 <span style="color:53b2ad">◼︎</span> [!UICONTROL 每月擷取的列].<br/>若要檢視顯示一個月每月擷取列數的快顯視窗，請將滑鼠指標暫留線上圖中的任何資料點上。
+   * 方塊會顯示上個月的內嵌列數，以及上個月的% (以▲或▼表示)變更。
+   * 折線圖顯示◼︎ [!UICONTROL 每月擷取的列].<br/>若要檢視顯示一個月每月擷取列數的快顯視窗，請將滑鼠指標暫留線上圖中的任何資料點上。
 
 
 的 [!UICONTROL 可報告列]：
 
 * 面板會顯示可報告的總列數，其中包含每個月第2天更新之所有連線中的所有事件資料。 在面板內：
    * 方塊會顯示可報告列的累計總數。
-   * 方塊會顯示上個月可報告列的總數和%的變更(由以下專案指示： <span style="color:green">▲</span> 或 <span style="color:c64545">▼</span>)。
-   * 折線圖會顯示 <span style="color:53b2ad">◼︎</span> [!UICONTROL 每月可報告列].<br/>若要檢視顯示特定月份累計可報告列數的快顯視窗，請將滑鼠游標停留在折線圖的任何資料點上。
-   * 折線圖會顯示 <span style="color:53b2ad">◼︎</span> [!UICONTROL 累積可報告列].<br/>若要檢視顯示每月可報告列數的快顯視窗，請將滑鼠指標暫留線上圖中的任何資料點上。
+   * 方塊會顯示上個月的可報告列總數，以及上個月的變更% (以▲或▼表示)。
+   * 折線圖顯示◼︎ [!UICONTROL 每月可報告列].<br/>若要檢視顯示特定月份累計可報告列數的快顯視窗，請將滑鼠游標停留在折線圖的任何資料點上。
+   * 折線圖顯示◼︎ [!UICONTROL 累積可報告列].<br/>若要檢視顯示每月可報告列數的快顯視窗，請將滑鼠指標暫留線上圖中的任何資料點上。
 
 
 >[!MORELIKETHIS]
