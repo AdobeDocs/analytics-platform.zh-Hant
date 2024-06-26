@@ -3,9 +3,10 @@ title: 「媒體平均每分鐘觀眾數」面板
 description: 如何使用和解讀 Analysis Workspace 中的「媒體平均每分鐘觀眾數」面板。
 feature: Panels
 role: User, Admin
-source-git-commit: 907a627720910794d77f016d797f1b95d2d3ce13
+exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
+source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1664'
 ht-degree: 31%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->「媒體平均每分鐘觀眾數」面板僅適用於已購買Media Analytics附加元件進行Customer Journey Analytics的客戶。
+>「媒體平均每分鐘觀眾數」面板僅適用於已購買串流媒體收集附加元件進行Customer Journey Analytics的客戶。
 >
->請聯絡您的Adobe銷售代表或Adobe客戶團隊，以購買Media Analytics。
+>請聯絡您的Adobe銷售代表或Adobe客戶團隊，以購買串流媒體收集附加元件。
 
 在 Analysis Workspace 中，「平均每分鐘觀眾數」是指觀看您的媒體串流所花的時間除以內容的持續時間或是時段總選擇和所選的粒度。
 
@@ -34,7 +35,7 @@ ht-degree: 31%
 
 ## 存取「媒體平均每分鐘觀眾數」面板
 
-1. 在Analysis Workspace中，前往已啟用Media Analytics元件的報表套裝。
+1. 在Analysis Workspace中，前往具有從串流媒體收集附加元件啟用的元件的報表套裝。
 
 1. 在左側導覽中，選取 **面板** 圖示。
 

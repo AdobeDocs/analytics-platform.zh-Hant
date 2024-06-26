@@ -4,10 +4,10 @@ description: 如何使用和解讀 Analysis Workspace 中的「媒體同時檢�
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: d5d81caff62d4fb56a57739ddffb81787f684e23
+source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 76%
+source-wordcount: '1052'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 76%
 
 在Analysis Workspace中，「同時檢閱者」指的是在特定時間點檢視您媒體串流的不重複人數，而不計工作階段數量。
 
-「媒體同時檢閱者」面板可啟用長時間進行的同時檢閱者分析，並可提供尖峰同時檢閱的詳細資訊，以及具備分項和比較的能力。若要存取「媒體同時檢閱者」面板，可瀏覽至啟用Media Analytics元件的資料檢視。 然後，按一下最左側的面板圖示，並將面板拖放到您的 Analysis Workspace 專案中。
+「媒體同時檢閱者」面板可啟用長時間進行的同時檢閱者分析，並可提供尖峰同時檢閱的詳細資訊，以及具備分項和比較的能力。若要存取「媒體同時檢閱者」面板，可瀏覽至具有從串流媒體收集附加元件啟用的元件的資料檢視。 然後，按一下最左側的面板圖示，並將面板拖放到您的 Analysis Workspace 專案中。
 
 以下是這個面板的影片概觀：
 
