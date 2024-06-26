@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 34%
+source-wordcount: '1428'
+ht-degree: 29%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 34%
 
 +++**拼接重播訪客可追溯到多久之前？**
 
-金鑰重設的回望時間取決於您需要的資料[重播](explained.md)頻率。例如，如果您設定拚接每週重播資料一次，則金鑰重設的回顧期間為七天。 如果您將拼接設定為每天重播資料一次，則金鑰重設的回顧期間為一天。
+金鑰重設的回顧期間取決於您需要的資料重播頻率。 例如，如果您設定拚接每週重播資料一次，則金鑰重設的回顧期間為七天。 如果您將拼接設定為每天重播資料一次，則金鑰重設的回顧期間為一天。
 
 +++
 
@@ -47,7 +47,9 @@ ht-degree: 34%
 
 在某些情況下，個別使用者可以關聯至多個永久 ID。 例如，個人經常清除瀏覽器的Cookie或使用瀏覽器的私人/無痕模式。
 
-永久 ID 的數量與暫時 ID 無關。 單一使用者可屬於任意數量裝置，不會影響Customer Journey Analytics跨裝置彙整的能力。
+對於欄位式拚接，永久ID的數量與暫時ID無關。 單一使用者可屬於任意數量裝置，不會影響Customer Journey Analytics跨裝置彙整的能力。
+
+對於圖表式拚接，身分圖表中的單一人員可以有許多永久ID。 圖表式拚接會根據指定的名稱空間使用永久ID。 如果相同名稱空間有較多的永久ID，則會使用字典第一個永久ID。
 
 +++
 
@@ -120,3 +122,21 @@ Customer Journey Analytics和Adobe Analytics中的其他量度可能類似。 �
 否，Customer Journey Analytics目前無法使用「身分對應」欄位進行拼接。
 
 +++
+
++++**是否需要重新內嵌資料，才能從欄位式拚接切換為圖表式拚接？**
+資料不必重新擷取至Experience Platform，但需要在Customer Journey Analytics中重新設定。 請依照下列步驟操作：
+
+1. 設定新的圖表式銜接資料集。
+1. 在Customer Journey Analytics中將新資料集設定為新連線的一部分。
+1. 切換您現有的資料檢視以使用新連線（以及新的圖表式銜接資料集）
+1. 移除使用依欄位彙整資料集的舊連線。
+
++++
+
++++**現有報告是否會造成任何中斷？**
+
+如果您依照上述步驟進行，則不然。 否則，請向Adobe諮詢尋求其他支援。
+
++++
+
+

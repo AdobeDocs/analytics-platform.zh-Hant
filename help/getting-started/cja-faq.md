@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 172d80a832356b59df875336c15865c9bacdd837
+source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
 workflow-type: tm+mt
 source-wordcount: '2536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,14 +58,14 @@ Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.c
 
 +++**拼接中的「重播」是如何運作的？**
 
-拼接會根據所掌握的唯一識別碼來「重播」資料。重播的目的是從已識別的裝置中拼接最初未經身分驗證的事件。[了解更多](../stitching/explained.md)
+拼接會根據所掌握的唯一識別碼來「重播」資料。重播的目的是從已識別的裝置中拼接最初未經身分驗證的事件。[了解更多](../stitching/overview.md)
 
 +++
 
 
 +++**拼接歷史 (回填) 資料是如何運作的？**
 
-初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。[了解更多](../stitching/explained.md)
+初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。[了解更多](../stitching/overview.md)
 
 +++
 
@@ -174,9 +174,9 @@ Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
 ## 8. [!UICONTROL Adobe Analytics] 元件
 
-+++**我可以共用/發佈嗎 [!UICONTROL 對象] 從 [!DNL Customer Journey Analytics] Experience PlatformReal-Time CDP或其他Experience Cloud應用程式？**
++++**我可以將[!UICONTROL 對象]從 [!DNL Customer Journey Analytics] 共用/發佈到 Experience Platform Real-Time CDP 或其他 Experience Cloud 應用程式嗎？**
 
-您可以 [建立和發佈對象](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish) 在Adobe Experience Platform中對即時客戶個人檔案的Customer Journey Analytics中識別，用於客戶目標定位和個人化。
+您可以將 Customer Journey Analytics 中發現的[對象建立並發佈](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/audiences/publish)到 Adobe Experience Platform 中的即時客戶個人檔案，以用於客戶目標定位和個人化。
 
 +++
 

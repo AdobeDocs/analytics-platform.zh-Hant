@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 81ad9a41f1fa323f2e0149ce634904ceb1bc3198
+source-git-commit: bad5e71a51d9bf5f2155ea5c711763fafebc1bcf
 workflow-type: tm+mt
-source-wordcount: '3731'
+source-wordcount: '3742'
 ht-degree: 72%
 
 ---
@@ -20,6 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 6 月** | |
+| 圖表式銜接 | 已更新彙整檔案，推出圖表式彙整。 |
 | AI 助理 | 已新增 [檔案](../ai-assistant.md) 用於Customer Journey Analytics的AI助理上。 |
 | 轉換B2B查詢的資料集 | 已新增如何支援的檔案 [對B2B資料進行以人員為基礎的查閱](/help/connections//transform-datasets-b2b-lookups.md) （包括帳戶、商機、行銷清單和行銷活動）使用轉換B2B查詢資料集。 |
 | 衍生欄位函式和函式範本 | 新增其他衍生欄位函式([Math](/help/data-views/derived-fields/derived-fields.md#math)， [下一個或上一個](/help/data-views/derived-fields/derived-fields.md#next-or-previous))和 [函式範本](/help/data-views/derived-fields/derived-fields.md#function-templates). |
