@@ -4,9 +4,9 @@ description: 導入 Adobe Journey Optimizer 產生的資料，並使用 Customer
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 529dd2ed2af60f8b417a5bf7d728a201dad70218
+source-git-commit: 5185c28c7a2cf1a0690e783633bbfbf851a1dcd1
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1541'
 ht-degree: 54%
 
 ---
@@ -45,7 +45,7 @@ Journey Optimizer支援使用Customer Journey Analytics做為報表引擎。 另
 
 | 資料集名稱 | 綱要 | 資料集類型 | 資料來源類型 | 人員Id | 金鑰 | 比對索引鍵 | 匯入新資料 | 回填資料 |
 |---|---|---|---|---|---|---|---|---|
-| [!UICONTROL AJO實體資料集] | [!UICONTROL AJO實體記錄結構描述] | [!UICONTROL 查詢] | [!UICONTROL 其他] | - | ` _id` | `_experience.decisioning.`<br/>`propositions.scopeDetails.`<br/>`correlationID` | ![狀態綠色](assets/../../connections/assets/status-green.svg) 開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg) 關閉 |
+| [!UICONTROL AJO實體資料集] | [!UICONTROL AJO實體記錄結構描述] | [!UICONTROL 查詢] | [!UICONTROL 其他] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![狀態綠色](assets/../../connections/assets/status-green.svg) 開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg) 關閉 |
 | [!UICONTROL 歷程步驟事件] | [!UICONTROL Journey Orchestration的歷程步驟事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL  IdentityMap(\&lt;primary>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg) 開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg) 關閉 |
 | [!UICONTROL AJO電子郵件追蹤體驗事件資料集] | [!UICONTROL AJO電子郵件追蹤體驗事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg) 開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg) 關閉 |
 | [!UICONTROL AJO電子郵件追蹤體驗事件資料集] | [!UICONTROL AJO電子郵件追蹤體驗事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg) 開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg) 關閉 |
@@ -87,10 +87,10 @@ Journey Optimizer支援使用Customer Journey Analytics做為報表引擎。 另
 
 
 - 在 **元件** 標籤：
-   - 所有具備以下條件的量度和維度 **[!UICONTROL (AJO)]** 附加至其名稱的專案會自動新增為此自動設定的一部分。
-   - 有些已自動新增的量度或維度是根據衍生欄位。 這些衍生欄位是專門為此整合建立的。 例如，量度登陸頁麵點按次數(AJO)是根據登陸頁麵點按次數衍生欄位。
-   - 部分量度或維度有其他設定。 例如，垃圾訊息申訴(AJO)已套用格式和包含排除值設定。
-   - 所有自動新增的量度和維度都有名為的內容標籤 **[!UICONTROL ：*metric_or_dimension的名稱&#x200B;*]**. 例如，[!UICONTROL 登陸頁麵點按次數(AJO)] 量度具有內容標籤 [!UICONTROL ：登陸頁麵點按次數(AJO)].
+   - 所有具備以下條件的量度和維度 [!UICONTROL (AJO)] 附加至其名稱的專案會自動新增為此自動設定的一部分。
+   - 部分已自動新增的量度或維度是根據衍生欄位。 這些衍生欄位是專門為此整合建立的。 例如，量度 [!UICONTROL 登陸頁麵點按次數(AJO)] 是根據 [!UICONTROL 登陸頁麵點按次數] 衍生欄位。
+   - 部分量度或維度擁有其他設定。 例如， [!UICONTROL 垃圾訊息申訴(AJO)] 有 [!UICONTROL 格式] 和 [!UICONTROL 包含排除值] 設定已套用。
+   - 所有自動新增的量度和維度都有名為的內容標籤 `:`*`name_of_metric_or_dimension`*. 例如， [!UICONTROL 登陸頁麵點按次數(AJO)] 量度具有內容標籤 `: Landing page clicks (AJO)`.
 
 - 在 **[!UICONTROL 設定]** 索引標籤中，不會套用任何特定設定值
 
