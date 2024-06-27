@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
+source-git-commit: 466bcd2d790dae9eccb5d9114a375c5b9666c435
 workflow-type: tm+mt
 source-wordcount: '3810'
 ht-degree: 71%
@@ -98,7 +98,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2023 年 6 月** | |
 | 跨管道分析與彙整 | 因為預期即將進行的變更會啟用彙整並進一步釐清如何使用彙整來提升跨管道分析，我們編輯了與跨管道分析功能相關的文件，以便參照[跨管道分析](../use-cases/cross-channel/cross-channel.md)做為 Customer Journey Analytics 功能和使用案例，並參照[彙整](../stitching/overview.md)做為完成此目標的重要功能。 |
 | PowerBI 和 Tableau 可存取 Customer Journey Analytics 資料檢視 | Customer Journey AnalyticsBI擴充功能可讓SQL存取您在Customer Journey Analytics中定義的資料檢視。 [了解更多](/help/data-views/bi-extension.md) |
-| Adobe Journey Optimizer 資料檢視 | Customer Journey Analytics 管理員可以存取 Customer Journey Analytics 中一些額外的資料檢視，標題為「AJO 資料檢視 (沙箱名稱)」。[了解更多](https://experienceleague.adobe.com/docs/journey-optimizer/using/campaigns/content-experiment/reporting-configuration.html)。 |
+| Adobe Journey Optimizer 資料檢視 | Customer Journey Analytics 管理員可以存取 Customer Journey Analytics 中一些額外的資料檢視，標題為「AJO 資料檢視 (沙箱名稱)」。[了解更多](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/reporting-configuration)。 |
 | 貨幣轉換 | 已更新[貨幣轉換](../data-views/component-settings/format.md#currency)支援的文件。 |
 | 計算量度更新 | 已針對計算量度文件進行以下更新，使其與目前的 Customer Journey Analytics 功能維持一致： <ul><li>已更新 Customer Journey Analytics 中可用的[預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)清單</li><li>已更新各種計算量度文章中的螢幕擷取畫面和程序 </li></ul> |
 | **2023 年 5 月** | |
