@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: e4d4ff530d28e692301ca0671e055a164b9f7035
+source-git-commit: f091dda08391bad3974493e93dce942b8a2fc4d3
 workflow-type: tm+mt
-source-wordcount: '2258'
-ht-degree: 98%
+source-wordcount: '2287'
+ht-degree: 97%
 
 ---
 
@@ -62,15 +62,16 @@ ht-degree: 98%
 | 分類規則產生器 | 支援在 Customer Journey Analytics 中使用[子字串](/help/data-views/component-settings/substring.md)。在報告時間使用字串操控，而不是查詢資料集。 |
 | 自訂工作階段長度 | 工作階段長度可以透過資料檢視中的[「工作階段」設定](../../data-views/create-dataview.md#session-settings)進行設定。如需詳細資訊，請參閱[工作階段設定](../../data-views/session-settings.md)。<br/>使用 Adobe Experience Platform Mobile SDK 支援，處理行動背景事件。更多資訊，請參閱[邊緣網路的生命週期](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/)。 |
 | 貨幣轉換 | 支援做為資料檢視中[量度元件格式](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/format.html#currency)的一部分。 |
-| 銷售變數持續性 | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)提供完整支援 |
 | 客戶屬性 | 現在稱為「設定檔資料集」；這些資料不會自動從 Experience Cloud 匯入，但必須上傳到 Experience Platform，才能在 Customer Journey Analytics 中使用。 |
 | 資料摘要 | 可透過 [Experience Platform Data Access API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html) 和 [Experience Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) 匯出資料集的第一代資料。這些選項提供收集或擷取至 Experience Platform Data Lake 中的所有資料事件/列層級匯出。後處理資料欄無法使用，因為後處理欄是在查詢時計算的。可透過報告匯出發佈欄。 |
 | Data Warehouse 報告 | [Customer Journey Analytics 完整表格匯出](/help/analysis-workspace/export/export-cloud.md)是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多使用者經常要求且目前 Data Warehouse 目前尚未提供的新功能。 |
 | 進入、退出及逗留的時間等維度和量度 | 系統可支援 (進入與退出現在稱為「工作階段開始」和「工作階段結束」)，不過計算方式稍有不同。 |
 | eVar 持續性設定 | eVar 不再是 Customer Journey Analytics 的一部分。不過持續性設定現在是資料檢視的一部分，可用於所有維度。 請記得，持續性是依據報表時間處理，而非資料收集處理。 「資料檢視」中設定的維度上限為 90 天的持續性，不支援無限制的持續性。 |
 | 地域劃分維度 | [完整支援](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
+| 圖表式銜接 | 到 [圖表式銜接](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview#graph-based-stitching)，您可以運用身分圖表在 [Adobe Experience Platform Identity服務](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) 將資料集提升至其偏好的身分識別。 |
 | IP 模糊化 | 對於使用 Analytics 來源連接器將 Adobe Analytics 的資料填入到 Customer Journey Analytics 中的 Customer Journey Analytics 客戶：Adobe Analytics 中套用的 IP 模糊化設定也會套用至 Customer Journey Analytics 資料。您可以視需要在 Adobe Analytics 中控制這些設定。<p>對於使用 Experience Platform Web SDK 將資料直接填入 Platform 和 Customer Journey Analytics 中的 Customer Journey Analytics 客戶，您可以使用 Platform 中「資料收集」的「資料準備」，根據公司的要求設定模糊 IP 位址規則。 |
 | 行銷管道 | 使用 Analytics 來源連接器時，行銷管道資料會透過該連接器流入 Customer Journey Analytics。行銷管道規則是在傳統 Adobe Analytics 中設定，且部分規則不受支援。如需更多資訊，請參閱 [Customer Journey Analytics 行銷管道](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html)。<br/>對於 WebSDK 實施，會透過[衍生欄位](../../data-views/derived-fields/derived-fields.md)支援報告時間行銷管道處理規則。 |
+| 銷售變數持續性 | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)提供完整支援 |
 | 量度去重複化 | 現在於資料檢視中的量度上設定。量度去重複化發生在人員或工作階段層級，而不是資料集、資料檢視或連線層級。 |
 | 新工作階段與重複工作階段報告 | 先前使用造訪編號維度完成。新工作階段與重複工作階段支援 [13 個月的回溯期](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html)。 |
 | 處理規則、VISTA 規則、行銷管道處理規則 | 支援將 Adobe Experience Platform Data Prep 功能以及[衍生欄位](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/derived-fields.html)用於 WebSDK 式資料集和來自 Analytics 來源連接器的資料。 |
