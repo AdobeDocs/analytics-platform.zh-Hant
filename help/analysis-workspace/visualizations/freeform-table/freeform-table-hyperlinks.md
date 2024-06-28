@@ -4,9 +4,9 @@ description: 瞭解如何在Analysis Workspace的自由格式表格中建立維�
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: afa6a3cf8763a2d6419ec859385abc4cf095f214
+source-git-commit: e1e57eaa9445fc4d553aa7804c4038c03fbe65cd
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,11 @@ ht-degree: 1%
 
 * Dimension含有您要連結至URL之值的一部分的專案或劃分（例如，屬於URL一部分的「頁面名稱」維度）
 
-以下是此功能的影片示範：
++++觀看此功能的示範影片。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+
++++
 
 ## 建立一或多個維度專案的超連結
 
