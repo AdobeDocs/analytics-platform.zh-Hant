@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 71931b85de6b238c0c6c6fd7b72d06f25103b906
+source-git-commit: c0599526e6a6a9ac9788a4ce29bcf44256b6c4df
 workflow-type: tm+mt
-source-wordcount: '3188'
+source-wordcount: '3277'
 ht-degree: 14%
 
 ---
@@ -206,7 +206,12 @@ ht-degree: 14%
 
 ## 使用情況
 
-此 [!UICONTROL 使用狀況] 介面會顯示所有連線中擷取及可報告資料列的使用情形。 此介面可支援您判斷您的Customer Journey Analytics使用方式是否符合合約所議定的內容。
+此 [!UICONTROL 使用狀況] 介面會顯示所有連線中擷取及可報告資料列的使用情形。 此介面可支援您判斷您的Customer Journey Analytics使用方式是否符合合約所議定的內容。 除了監控用途以外，您還可以使用使用情況UI來更有效地規劃Customer Journey Analytics授權續約。
+
+您可以選取時間範圍（介於最近6個月、年初至今或最近2年之間）和間隔（介於每月或每季之間）來監控Customer Journey Analytics使用情況。 介面分為兩個區段：
+
+* 擷取的列：從所有CJA連線的事件資料集擷取/傳送的總列數，包括擷取期間略過的記錄
+* 可報告列：包含所有CJA連線之所有事件資料的可報告列總數
 
 ![usage-view](assets/usage-view.png)
 
