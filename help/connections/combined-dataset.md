@@ -5,20 +5,20 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
+source-git-commit: 2f2e4ac68f7a410b8046daae2f90af75ffdedab5
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 61%
+source-wordcount: '676'
+ht-degree: 41%
 
 ---
 
 
 # 合併事件資料集
 
-當您建立連線時，Customer Journey Analytics會將所有結構描述和資料集合併到單一資料集中。 Customer Journey Analytics會使用這個「合併事件資料集」來製作報表。 在連線中納入多個結構或資料集時：
+當您建立連線時，Customer Journey Analytics會將所有事件資料集合併到單一資料集中。 Customer Journey Analytics會使用此合併事件資料集製作報表（以及設定檔和查詢資料集）。 當您在連線中包含多個事件資料集時：
 
-* 結構會合併。重複的結構欄位會合併。
-* 每個資料集的「人員 ID」欄會合併為一欄，不論其名稱為何。此欄是識別Customer Journey Analytics中不重複人員的基礎。
+* 資料集中的欄位資料，根據 **相同結構描述路徑** 都會合併至合併資料集中的單一欄。
+* 為每個資料集指定的「人員ID」欄，會合併至合併資料集中的單一欄， **無論其名稱為何**. 此欄是識別Customer Journey Analytics中不重複人員的基礎。
 * 會根據時間戳記處理列。
 * 事件會解析至毫秒層級。
 
@@ -28,7 +28,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->Adobe Experience Platform 通常以 Unix 毫秒為單位儲存時間戳記。此範例會使用日期和時間，以便閱讀。
+>Adobe Experience Platform通常以UNIX®毫秒為單位儲存時間戳記。 此範例會使用日期和時間，以便閱讀。
 
 | `example_id` | `timestamp` | `string_color` | `string_animal` | `metric_a` |
 | --- | --- | --- | --- | --- |
@@ -45,7 +45,12 @@ ht-degree: 61%
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | `Square` | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` | | `Triangle` | `3.1` |
 
-使用這兩個事件資料集建立連線時，系統會使用下表來製作報表。
+使用這兩個事件資料集建立連線時，且已識別
+
+* `example_id` 做為第一個資料集的人員ID，並且
+* `different_id` 做為第二個資料集的人員ID，
+
+下列合併資料集用於製作報表。
 
 | `id` | `timestamp` | `string_color` | `string_animal` | `string_shape` | `metric_a` | `metric_b` |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -59,7 +64,9 @@ ht-degree: 61%
 | `alternateid_656` | `2 Jan 8:58 PM` | `Red` | | `Square` | | `4.2` |
 | `alternateid_656` | `2 Jan 9:03 PM` | | | `Triangle` | | `3.1` |
 
-這個合併事件資料集會用來製作報表。某列是來自哪個資料集並不重要；Customer Journey Analytics將所有資料視為位於相同資料集中。 如果兩個資料集中都出現相符的人員ID，則會將其視為同一個不重複人員。 如果兩個資料集中都出現相符的人員 ID，且時間戳記在 30 分鐘內，則視為同一工作階段的一部分。
+為了說明結構描述路徑的重要性，請考慮此情境。 在第一個資料集中， `string_color` 是以結構描述路徑為基礎 `_experience.whatever.string_color` 和結構描述路徑上的第二個資料集  `_experience.somethingelse.string_color`. 在此案例中，資料為 **非** 已合併至所產生合併資料集中的一欄。 結果改為兩個 `string_color` 合併資料集中的欄。
+
+這個合併事件資料集會用來製作報表。某列是來自哪個資料集並不重要。 Customer Journey Analytics將所有資料視為在相同資料集中。 如果兩個資料集中都出現相符的人員ID，則會將其視為同一個不重複人員。 如果兩個資料集中都出現相符的人員 ID，且時間戳記在 30 分鐘內，則視為同一工作階段的一部分。
 
 此概念也適用於歸因。某列是來自哪個資料集並不重要；歸因的運作方式與所有事件都來自單一資料集的情形完全相同。以上表為例：
 
@@ -97,7 +104,7 @@ ht-degree: 61%
 
 * [跨頻道分析](../use-cases/cross-channel/cross-channel.md)
 
-如需更深入的討論拼接功能，請前往：
+如需有關拼接功能的更深入討論，請前往：
 
 * [拼接概述](/help/stitching/overview.md)
 * [常見問題](/help/stitching/faq.md)
