@@ -4,9 +4,9 @@ description: 瞭解如何在Analysis Workspace的自由格式表格中建立維�
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: 1534b628841a5b4588379b944822073f3288d710
+source-git-commit: afa6a3cf8763a2d6419ec859385abc4cf095f214
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1737'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 以下是此功能的影片示範：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
 
 ## 建立一或多個維度專案的超連結
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
      | 欄位 | 說明 |
      |---------|----------|
-     | [!UICONTROL **自訂URL**] | 指定您要用於超連結的自訂URL。 URL必須以完整限定的URL輸入。 例如： https://www.example.com<p>您建立的自訂URL可以是靜態或動態：</p> <ul><li>**靜態URL：** 如果您為個別維度專案建立超連結，靜態URL可能就足夠了。 <p>請考量下列範例：例如，如果您有「頁面名稱」維度專案，您可以建立靜態URL，將使用者連結至您要與頁面名稱建立關聯的特定網頁。</p><p>假設您想要為維度專案清單建立超連結，每個連結都會連結至內部Wiki頁面中檔案內的個別定義。</p><p>您可以為每個維度專案建立靜態URL來達到此目的。 例如：</p><p>https://wiki.internal.company_name/page_name#item_definition</p></li><li>**動態URL：** 如果您要針對多個維度專案或維度欄中的所有維度專案建立超連結，則動態URL可能更實用。 <p>若要讓自訂URL成為動態的，請在URL中加入變數，讓URL可依據維度本身的值或劃分維度的值動態變更。</p><p>使用變數時，任何包含在URL中無效字元的維度專案（例如空格）都會使用URL編碼。</p><p>可使用下列變數： (**注意**：雖然您可以在相同URL中使用這些變數，但分開使用它們可能會比較常見。)</p> <ul><li>**`$value`：** 可讓您將維度專案的值插入您指定的URL中。 <p>以下列案例為例：</p><p>假設您想為自由表格中的所有「頁面名稱」維度專案建立超連結，每個維度專案的值都是網頁URL的一部分。 在此情況下，您可以建構單一自訂URL，以動態方式調整每個維度專案。 </p><p>您可以透過新增 `$value` 變數加到您指定的自訂URL結尾。 例如：</p> <p>https://company-name.com/browse/product#$value</p><p>當此自訂URL套用至值為「ProductY」和「ProductZ」的「頁面名稱」維度專案時，產生的超連結看起來會像這樣： </p><p>https://company-name.com/browse/product#ProductY</p><p>與</p><p> https://company-name.com/browse/product#ProductZ </p><p>![在超連結中使用值](assets/table-hyperlinks-vaule.png)</p><p>**秘訣**：如果您只新增 `$value` 變數填入「自訂URL」欄位中，其效果與選取 [!UICONTROL **使用維度專案的值**] 選項。</p></li><li>**`$breakdown`：** 可讓您將劃分維度專案的值插入您指定的URL。 這可讓您在根據可能不怎麼好記的劃分維度（例如產品ID或頁面URL維度）建立超連結時，使用報表中具有好記名稱的維度（例如產品名稱維度）。<p>參考劃分維度時，指定維度專案通常只有一個劃分專案。 如果指定的維度專案有多個劃分專案，則會在URL中使用第一個劃分專案的值。 如果未列出任何劃分專案，則URL將無效。 與套用至表格一樣，套用至劃分專案的排序順序也相同。</p><p>您可在「 」中指定劃分維度 [!UICONTROL **劃分維度**] 下方的欄位。</p> <p>請考量以下專案的範例情境 [!UICONTROL **劃分維度**] 下方的欄位。</p></li></ul> |
+     | [!UICONTROL **自訂URL**] | 指定您要用於超連結的自訂URL。 URL必須以完整限定的URL輸入。 例如︰<https://www.example.com><p>您建立的自訂URL可以是靜態或動態：</p> <ul><li>**靜態URL：** 如果您為個別維度專案建立超連結，靜態URL可能就足夠了。 <p>請考量下列範例：例如，如果您有「頁面名稱」維度專案，您可以建立靜態URL，將使用者連結至您要與頁面名稱建立關聯的特定網頁。</p><p>假設您想要為維度專案清單建立超連結，每個連結都會連結至內部Wiki頁面中檔案內的個別定義。</p><p>您可以為每個維度專案建立靜態URL來達到此目的。 例如：</p><p>https://wiki.internal.company_name/page_name#item_definition</p></li><li>**動態URL：** 如果您要針對多個維度專案或維度欄中的所有維度專案建立超連結，則動態URL可能更實用。 <p>若要讓自訂URL成為動態的，請在URL中加入變數，讓URL可依據維度本身的值或劃分維度的值動態變更。</p><p>使用變數時，任何包含在URL中無效字元的維度專案（例如空格）都會使用URL編碼。</p><p>可使用下列變數： (**注意**：雖然您可以在相同URL中使用這些變數，但分開使用它們可能會比較常見。)</p> <ul><li>**`$value`：** 可讓您將維度專案的值插入您指定的URL中。 <p>以下列案例為例：</p><p>假設您想為自由表格中的所有「頁面名稱」維度專案建立超連結，每個維度專案的值都是網頁URL的一部分。 在此情況下，您可以建構單一自訂URL，以動態方式調整每個維度專案。 </p><p>您可以透過新增 `$value` 變數加到您指定的自訂URL結尾。 例如：</p> <p>https://company-name.com/browse/product#\$value</p><p>當此自訂URL套用至值為「ProductY」和「ProductZ」的「頁面名稱」維度專案時，產生的超連結看起來會像這樣： </p><p>https://company-name.com/browse/product#ProductY</p><p>與</p><p> https://company-name.com/browse/product#ProductZ </p><p>![在超連結中使用值](assets/table-hyperlinks-vaule.png)</p><p>**秘訣**：如果您只新增 `$value` 變數填入「自訂URL」欄位中，其效果與選取 [!UICONTROL **使用維度專案的值**] 選項。</p></li><li>**`$breakdown`：** 可讓您將劃分維度專案的值插入您指定的URL。 這可讓您在根據可能不怎麼好記的劃分維度（例如產品ID或頁面URL維度）建立超連結時，使用報表中具有好記名稱的維度（例如產品名稱維度）。<p>參考劃分維度時，指定維度專案通常只有一個劃分專案。 如果指定的維度專案有多個劃分專案，則會在URL中使用第一個劃分專案的值。 如果未列出任何劃分專案，則URL將無效。 與套用至表格一樣，套用至劃分專案的排序順序也相同。</p><p>您可在「 」中指定劃分維度 [!UICONTROL **劃分維度**] 下方的欄位。</p> <p>請考量以下專案的範例情境 [!UICONTROL **劃分維度**] 下方的欄位。</p></li></ul> |
      | [!UICONTROL **劃分維度（選擇性）**] | 開始輸入您要使用的劃分維度名稱，然後從下拉式清單中選取。 <p>如果您在此欄位中選取劃分維度，您必須使用 `$breakdown` 變數中的資料 [!UICONTROL **自訂URL**] 欄位。</p><p>以下列案例為例：</p><p>假設您想為自由表格中的所有產品名稱維度專案建立超連結。 每個「產品名稱」維度專案都包含「產品ID」維度的劃分。</p></p>在此情況下，您可以使用產品ID劃分維度的值，為每個產品名稱維度建立超連結，將使用者導向至產品頁面。 </p><p>您可以透過新增 `$breakdown` 變數填入至您在中指定的自訂URL結尾 [!UICONTROL **自訂URL**] 欄位。 例如：</p><p>https://company-name.com/browse/product/$breakdown</p><p>當此自訂URL套用至具有劃分維度專案（其值為「ProductY」和「ProductZ」）的產品名稱維度專案時，產生的超連結看起來會像這樣：</p><p>https://company-name.com/browse/product/ProductY</p><p>與</p><p>https://company-name.com/browse/product/ProductZ</p><p>然後，您可以選取「 」中的「產品ID 」維度 [!UICONTROL **劃分維度**] 欄位 </p><p>![在超連結中使用劃分](assets/table-hyperlinks-breakdown.png)</p> |
 
 1. 選取「[!UICONTROL **建立**]」。
