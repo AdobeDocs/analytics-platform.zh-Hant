@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5c5f276711f39abb1b3f3b955ad99e17cb0ac09c
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -53,11 +53,11 @@ Analytics 來源連接器將這些身分識別以 XDM 形式傳遞到 Adobe Expe
 否則，AAID 將標記為事件的主要身分識別。
 * AACUSTOMID 永遠不會標記為事件的主要 ID。但是，如果 AACUSTOMID 存在，則 AAID 會以上述 AACUSTOMID 為基礎。
 
-當身分或身分複製到時 `identityMap`， `endUserIDs._experience.mcid.namespace.code` 也設定在相同事件上：
+當身分複製到 `identityMap` 時，同一事件上也會設定 `endUserIDs._experience.mcid.namespace.code`：
 
-* 如果AAID存在， `endUserIDs._experience.aaid.namespace.code` 設為&quot;AAID&quot;。
-* 如果ECID存在， `endUserIDs._experience.mcid.namespace.code` 設為&quot;ECID&quot;。
-* 如果AACUSTOMID存在， `endUserIDs._experience.aacustomid.namespace.code` 設為&quot;AACUSTOMID&quot;。
+* 如果存在 AAID，則 `endUserIDs._experience.aaid.namespace.code` 設定為「AAID」。
+* 如果存在 ECID，則 `endUserIDs._experience.mcid.namespace.code` 設定為「ECID」。
+* 如果存在 AACUSTOMID，則 `endUserIDs._experience.aacustomid.namespace.code` 設定為「AACUSTOMID」。
 
 ## Customer Journey Analytics 和主要 ID
 
