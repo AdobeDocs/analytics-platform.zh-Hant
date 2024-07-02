@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 328939daf3e4dfe7f586d6c3822ce331cf24b97d
+source-git-commit: 32f0da9ea54952dbe3a765661b800e061ac5f039
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3723'
 ht-degree: 12%
 
 ---
@@ -345,13 +345,13 @@ Customer Journey Analytics支援兩種彙整型別：欄位式彙整和圖表式
 
 ### 選項
 
-選取拼接選項。 Customer Journey Analytics套件會決定初始回填持續時間、回顧期間、重播頻率以及拼接時允許的資料集數目上限的可用選項。
+選取拼接選項。 Customer Journey Analytics套件會決定初始回填持續時間、回顧期間、重播頻率以及拼接時允許的資料集數目上限的可用選項。 請參閱 [Customer Journey Analytics產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html) 以取得更多詳細資料。
 
 | | Customer Journey Analytics<br/>選取 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
 | 一次性拼接回填持續時間 | 13 個月 | 13 個月 | 25 個月 |
 | 回顧期間和重播頻率 | <li>1天，每天</li><li>最長7天，每週</li> | <li>1天，每天</li><li>最長14天，每週</li> | <li>1天，每天</li><li>最長30天，每週</li> |
-| 拼接允許的資料集數量上限 | 5 | 10 | 15 |
+| 拼接允許的資料集數量上限 | 5 | 10 | 50 |
 
 ### 要求支援
 

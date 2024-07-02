@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: ffa7899b8ece8c39079ed64401ec6cad111e9a84
+source-git-commit: a0124ee6c4534cbaf607367ee3ae79f1cbfc239c
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1747'
 ht-degree: 7%
 
 ---
@@ -58,8 +58,6 @@ ht-degree: 7%
 
 <!--
 ## Attribution AI
-
-
 
 | Name |  Value | Description | PD? |
 |---|--:|---|:---:|
@@ -112,7 +110,7 @@ ht-degree: 7%
 | 附註說明 | 250 | 系統強制的護欄 | 附註說明的最大字元數。 |
 | 結構描述欄位 | 10 | 系統強制的護欄 | 為定義規則時結構描述欄位的最大數量（不包括標準欄位） [衍生欄位](../data-views/derived-fields/derived-fields.md). |
 | 查詢/設定檔欄位 | 3 | 系統強制的護欄 | 為衍生欄位定義規則時，結構描述欄位（不包括標準欄位）數量上限內的查閱或設定檔結構描述欄位數量上限。 |
-| 衍生的欄位 | 100 - 500 | 系統強制的護欄 | 每個連線的最大衍生欄位數；值視Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 衍生欄位 | 100 - 500 | 系統強制的護欄 | 每個連線的最大衍生欄位數；值視Customer Journey Analytics套件而異（請參閱產品說明）。 |
 
 {style="table-layout:auto"}
 
@@ -158,9 +156,19 @@ ht-degree: 7%
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
 | 拼接資料集 | 5 - 50 | 系統強制的護欄 | 每位客戶的最大拼接資料集數量；值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
-| 回填資料 | 60 - 395 | 系統強制的護欄 | 回填資料的最大天數；值會因Customer Journey Analytics封裝而異（請參閱產品說明）。 |
+| 回填長度 | 6 - 25 | 系統強制的護欄 | 回填資料的最大月數；值視Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 回顧期間/重播頻率 | 1/1 - 30/7 | 系統強制的護欄 | 最大回顧期間（天/重播頻率）；值因Customer Journey Analytics套件而異（請參閱產品說明）。 |
 
 {style="table-layout:auto"}
+
+
+## 圖表式銜接
+
+| 名稱 | 值 | 限制型別 | 說明 |
+|---|--:|---|---|
+| 拼接資料集 | 10 - 50 | 系統強制的護欄 | 每位客戶的最大拼接資料集數量；值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 回填長度 | 13 - 25 | 系統強制的護欄 | 回填資料的最大月數；值視Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 回顧期間/重播頻率 | 1/1 - 30/7 | 系統強制的護欄 | 最大回顧期間（天/重播頻率）；值因Customer Journey Analytics套件而異（請參閱產品說明）。 |
 
 
 ## 篩選器和計算量度
@@ -222,14 +230,14 @@ ht-degree: 7%
 
 | 資料流程 | 預期延遲 |
 |---|---|
-| Adobe Analytics至Adobe Analytics來源聯結器（啟用A4T） | &lt; 30分鐘 |
-| Adobe Analytics來源聯結器到即時客戶個人檔案（A4T未啟用） | &lt; 2分鐘 |
-| Adobe Analytics來源聯結器到即時客戶個人檔案（A4T已啟用） | &lt; 30分鐘 |
+| Adobe Analytics到Adobe Analytics Source聯結器（啟用A4T） | &lt; 30分鐘 |
+| Adobe Analytics Source Connector到即時客戶個人檔案（A4T未啟用） | &lt; 2分鐘 |
+| Adobe Analytics Source Connector到即時客戶個人檔案（A4T已啟用） | &lt; 30分鐘 |
 | 資料從Edge Network擷取或串流擷取擷取擷取至Data Lake | &lt; 60分鐘 |
-| 資料從Adobe Analytics來源聯結器擷取至資料湖 | &lt; 2.25小時 |
+| 資料從Adobe Analytics Source Connector擷取至Data Lake | &lt; 2.25小時 |
 | 從資料湖將資料擷取至Customer Journey Analytics | &lt; 90分鐘 |
 | 拼接(選擇性功能；請參閱 [拼接概述](../stitching/overview.md) 以取得詳細資訊) | &lt; 3.25小時 |
-| 少於100億個事件的Adobe Analytics來源聯結器回填（最多13個月的歷史資料） | &lt; 4週 |
+| Adobe Analytics Source Connector回填少於100億個事件（最多13個月的歷史資料） | &lt; 4週 |
 | 將對象發佈到即時客戶個人檔案，包括自動建立串流區段，並允許區段準備好接收資料。 | ≈ 60分鐘 |
 | 重新整理對象的頻率 | 一次性重新整理：延遲少於5分鐘。<br/>每4小時、每日、每週、每月重新整理一次（延遲與重新整理頻率同時發生）。 |
 
