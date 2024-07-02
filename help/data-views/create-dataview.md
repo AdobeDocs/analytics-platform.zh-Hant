@@ -1,52 +1,52 @@
 ---
-title: 建立或編輯資料檢視
-description: 您可調整以建立或編輯資料檢視的所有設定。
+title: 建立或編輯資料視圖
+description: 您可調整以建立或編輯資料視圖的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: f6b0088522a821a006d1c7fb4c55b4b2e11ff310
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1761'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# 建立或編輯資料檢視
+# 建立或編輯資料視圖
 
-建立資料檢視需要從綱要元素建立量度和維度或使用標準元件。大多數綱要元素可以是維度或量度，具體取決於您的業務需求。將綱要元素拖到資料檢視中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
+建立資料視圖需要從綱要元素建立量度和維度或使用標準元件。大多數綱要元素可以是維度或量度，具體取決於您的業務需求。將綱要元素拖到資料視圖中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
 
 以下是有關該主題的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
-建立或編輯資料檢視的方法：
+建立或編輯資料視圖的方法：
 
-1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 並移至「**[!UICONTROL 資料檢視]**」索引標籤。
-1. 若要建立資料檢視，請選取「**[!UICONTROL 建立新的資料檢視]**」。或者，您可以從資料檢視清單中選取現有資料檢視進行編輯。
+1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 並移至「**[!UICONTROL 資料視圖]**」索引標籤。
+1. 若要建立資料視圖，請選取「**[!UICONTROL 建立新的資料視圖]**」。或者，您可以從資料視圖清單中選取現有資料視圖進行編輯。
 
 
 ## 設定
 
-設定新的或現有的資料檢視的方法：
+設定新的或現有的資料視圖的方法：
 
 1. 選取「**[!UICONTROL 設定]**」標籤 (如果尚未啟動)。
 
-   ![設定資料檢視](assets/dataview-configure.png)
+   ![設定資料視圖](assets/dataview-configure.png)
 1. 指定「[!UICONTROL 設定]」、「[!UICONTROL 容器]」，然後指定「[!UICONTROL 行事曆]」詳細資料 (見下文)。
-1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料檢視。選取「**[!UICONTROL 儲存]**」，儲存現有資料檢視的設定。
+1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
 
 ### 設定
 
-為資料檢視提供總體設定。
+為資料視圖提供總體設定。
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL **連線**] | 此欄位會將資料檢視連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
-| [!UICONTROL **名稱**] | 必填。資料檢視的名稱。此值顯示在 Analysis Workspace 的右上角下拉式清單中。 |
+| [!UICONTROL **連線**] | 此欄位會將資料視圖連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
+| [!UICONTROL **名稱**] | 必填。資料視圖的名稱。此值顯示在 Analysis Workspace 的右上角下拉式清單中。 |
 | [!UICONTROL **外部 ID**] | 必填。您可以在外部來源 (例如商業智慧工具) 中使用的資料視圖名稱。預設值為 `unspecified`。如果不指定外部 ID，則將從資料視圖的名稱產生該名稱，並以底線取代空格。 |
-| [!UICONTROL **說明**] | 選填。Adobe 建議使用詳細說明，讓用戶了解資料檢視存在的原因及其設計對象。 |
+| [!UICONTROL **說明**] | 選填。Adobe 建議使用詳細說明，讓用戶了解資料視圖存在的原因及其設計對象。 |
 
 {style="table-layout:auto"}
 
@@ -56,29 +56,29 @@ ht-degree: 92%
 
 提供同時適用於 Adobe Journey Optimizer 和 Customer Journey Analytics 的設定。
 
-此區段僅對已布建Journey Optimizer的管理員可見。
+只有已佈建 Journey Optimizer 的管理員才能看到此部分。
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL **設為 Adobe Journey Optimizer 中的預設資料視圖**] | 您可使用此設定選項，讓 Journey Optimizer 和 Customer Journey Analytics 共用標準化報告，它也可讓您在Customer Journey Analytics中對Adobe Journey Optimizer資料執行進階分析(透過選取 ![開啟](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) [!UICONTROL **在CJA中分析**] 在Journey Optimizer中時)。<p>Journey Optimizer 需擁有 Customer Journey Analytics 資料視圖的存取權，才能執行此類分析。<p>啟用此選項以使其成為在Journey Optimizer報告中用於沙箱的預設資料檢視。</p><p>此設定選項會自動完成以下操作：</p><ul><li>在 Customer Journey Analytics 的相關連線中，設定所有必要的 Journey Optimizer 資料集，以供 Journey Optimizer 使用。</li><li>在資料視圖中建立一組 Journey Optimizer 量度和維度 (包括衍生欄位和計算量度)。系統會為所有這些指標和維度自動設定內容標籤。</li></ul><p><p>啟用此選項時請考慮以下事項： <ul><li>您可於日後變更預設資料視圖，但這麼做可能會對 Journey Optimizer 報告資料造成影響。如果您在啟用此選項後又選擇停用，系統將提示您選取新的預設資料視圖。</li><li>如果您已在Customer Journey Analytics資料檢視中手動自訂資料集、維度或量度，則啟用此設定選項時，手動自訂會維持不變。 此選項提供其他自訂功能，可進一步標準化Journey Optimizer和Customer Journey Analytics的報表。 啟用此選項後，您也可以進行手動自訂。</li></ul>另請參閱 [將Adobe Journey Optimizer與Adobe Customer Journey Analytics整合](/help/integrations/ajo.md) 以取得詳細資訊。 |
+| [!UICONTROL **設為 Adobe Journey Optimizer 中的預設資料視圖**] | 您可使用此設定選項，讓 Journey Optimizer 和 Customer Journey Analytics 共用標準化報告，並在 Customer Journey Analytics 中對 Adobe Journey Optimizer 資料執行進階分析 (在 Journey Optimizer 中選取 ![開啟](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg)「[!UICONTROL **在 CJA 中分析**]」按鈕)。<p>Journey Optimizer 需擁有 Customer Journey Analytics 資料視圖的存取權，才能執行此類分析。<p>啟用此選項可使其成為您沙箱的 Journey Optimizer 報告中的預設資料視圖。</p><p>此設定選項會自動完成以下操作：</p><ul><li>在 Customer Journey Analytics 的相關連線中，設定所有必要的 Journey Optimizer 資料集，以供 Journey Optimizer 使用。</li><li>在資料視圖中建立一組 Journey Optimizer 量度和維度 (包括衍生欄位和計算量度)。系統會為所有這些指標和維度自動設定內容標籤。</li></ul><p><p>啟用此選項時請考慮以下事項： <ul><li>您可於日後變更預設資料視圖，但這麼做可能會對 Journey Optimizer 報告資料造成影響。如果您在啟用此選項後又選擇停用，系統將提示您選取新的預設資料視圖。</li><li>如果您已對 Customer Journey Analytics 資料視圖中的資料集、維度或量度進行了手動自訂，則在啟用此設定選項時，您的手動自訂將保持不變。此選項可進行額外的自訂，進一步標準化跨 Journey Optimizer 和 Customer Journey Analytics 的報告。您也可以在啟用此選項後進行手動自訂。</li></ul>如需詳細資訊，請參閱[整合 Adobe Journey Optimizer 與 Adobe Customer Journey Analytics](/help/integrations/ajo.md)。 |
 
 {style="table-layout:auto"}
 
 ### 容器
 
-指定資料檢視的容器名稱。容器名稱在[篩選](/help/components/filters/filters-overview.md#Filter-containers)中經常使用。
+指定資料視圖的容器名稱。容器名稱在[篩選](/help/components/filters/filters-overview.md#Filter-containers)中經常使用。
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL **人員容器名稱**] | 「[!UICONTROL 人員]」(預設)。「[!UICONTROL 人員]」容器包含指定時間段內人員的每個工作階段和事件。如果您的組織使用不同的術語（例如，「訪客」或「用戶」），您可以在此處重新命名容器。 |
+| [!UICONTROL **人員容器名稱**] | 「[!UICONTROL 人員]」(預設)。「[!UICONTROL 人員]」容器包含指定時間段內人員的每個工作階段和事件。如果您的組織使用不同的術語 (例如，「訪客」或「用戶」)，您可以在此處重新命名容器。 |
 | [!UICONTROL **工作階段容器名稱**] | 「[!UICONTROL 工作階段]」(預設)。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「Visit」或您組織偏好的其他任何詞語。 |
-| [!UICONTROL **事件容器名稱**] | [!UICONTROL 事件] (預設)。[!UICONTROL 事件]容器定義資料集中的單個事件。如果您的組織使用不同的術語（例如，「點擊次數」或「頁面檢視量」），您可以在此處重新命名容器。 |
+| [!UICONTROL **事件容器名稱**] | [!UICONTROL 事件] (預設)。[!UICONTROL 事件]容器定義資料集中的單個事件。如果您的組織使用不同的術語 (例如，「點擊次數」或「頁面檢視量」)，您可以在此處重新命名容器。 |
 
 {style="table-layout:auto"}
 
 ### 行事曆
 
-指示您希望資料檢視遵循的行事曆格式。您可以根據同一個[連線](/help/connections/create-connection.md)擁有多個資料檢視，並為它們提供不同的行事曆類型或時區。這些資料檢視可以讓使用不同行事曆類型的團隊，透過相同的基礎資料滿足各自的需求。
+指示您希望資料視圖遵循的行事曆格式。您可以根據同一個[連線](/help/connections/create-connection.md)擁有多個資料視圖，並為它們提供不同的行事曆類型或時區。這些資料視圖可以讓使用不同行事曆類型的團隊，透過相同的基礎資料滿足各自的需求。
 
 | 設定 | 說明 |
 | --- | --- |
@@ -92,17 +92,17 @@ ht-degree: 92%
 
 ## 元件
 
-接下來，您可以設定資料檢視的元件，這代表您可以從綱要元素建立量度和維度。您也可以使用標準元件。
+接下來，您可以設定資料視圖的元件，這代表您可以從綱要元素建立量度和維度。您也可以使用標準元件。
 
 >[!IMPORTANT]
 >
->單一資料檢視中最多可新增 5,000 個量度和 5,000 個維度。
+>單一資料視圖中最多可新增 5,000 個量度和 5,000 個維度。
 
 1. 選取「**[!UICONTROL 元件]**」索引標籤。
 
    ![元件標籤](assets/dataview-components.png)
 
-   您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「綱要」欄位]。已包含的元件是所有資料檢視 (如事件、人員、工作階段量度以及分鐘、季度、週維度) 所需的標準元件 (系統產生)。Adobe 預設會套用篩選器「**[!UICONTROL 包含資料]**」和「**[!UICONTROL 未淘汰]**」，以僅顯示包含資料且未淘汰的綱要欄位。
+   您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「綱要」欄位]。已包含的元件是所有資料視圖 (如事件、人員、工作階段量度以及分鐘、季度、週維度) 所需的標準元件 (系統產生)。Adobe 預設會套用篩選器「**[!UICONTROL 包含資料]**」和「**[!UICONTROL 未淘汰]**」，以僅顯示包含資料且未淘汰的綱要欄位。
 
 1. 使用「![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」**[!UICONTROL 搜尋綱要欄位]**&#x200B;來搜尋綱要欄位，或者移動到任意資料集集合來尋找欄位，例如![資料夾圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg)「**[!UICONTROL 事件資料集]**」。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)「**建立衍生欄位**」來建立衍生欄位。請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
@@ -110,7 +110,7 @@ ht-degree: 92%
 
 1. 選取元件後，右側會出現設定。
 
-   ![已選取資料檢視元件](assets/dataview-component-pagename.png)
+   ![已選取資料視圖元件](assets/dataview-component-pagename.png)
 
    使用[元件設定](component-settings/overview.md)來設定元件。可用的元件設定取決於元件是維度/量度以及綱要資料類型。設定包括：
 
@@ -123,7 +123,7 @@ ht-degree: 92%
    * [[!UICONTROL 持續性]](component-settings/persistence.md)
    * [[!UICONTROL 值分組]](component-settings/value-bucketing.md)
 
-1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料檢視。選取「**[!UICONTROL 儲存]**」，儲存現有資料檢視的設定。
+1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
 「**複製量度或維度**」
 
@@ -137,20 +137,20 @@ ht-degree: 92%
 
 >[!TIP]
 >
->如果資料檢視中未能正確載入元件，而且您看到錯誤訊息，請參閱「[缺乏權限](../troubleshooting/lack-of-permissions.md)」尋找解決方案。
+>如果資料視圖中未能正確載入元件，而且您看到錯誤訊息，請參閱「[缺乏權限](../troubleshooting/lack-of-permissions.md)」尋找解決方案。
 
 
 
 ## 設定
 
 1. 選取「**[!UICONTROL 設定]**」索引標籤。
-1. 設定篩選器以套用於整個資料檢視。請參閱下方的「[設定 (篩選器)](#settings-filters)」。
+1. 設定篩選器以套用於整個資料視圖。請參閱下方的「[設定 (篩選器)](#settings-filters)」。
 1. 設定工作階段逾時和量度。請參閱下方的「[工作階段設定](#session-settings)」。
-1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料檢視。選取「**[!UICONTROL 儲存]**」，儲存現有資料檢視的設定。
+1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
 ### 設定 (篩選器)
 
-您可以新增套用至整個資料檢視的篩選器。此篩選器將套用至您在 Workspace 中執行的任何報告。從左側邊欄的清單拖曳篩選器至「[!UICONTROL 新增篩選器]」欄位。
+您可以新增套用至整個資料視圖的篩選器。此篩選器將套用至您在 Workspace 中執行的任何報告。從左側邊欄的清單拖曳篩選器至「[!UICONTROL 新增篩選器]」欄位。
 
 ### 工作階段設定
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 [![影像](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
->[!TAB 圖表式銜接]
+>[!TAB 圖表式匯整]
 
-透過圖表式拼接，您可以使用Experience Platform身分服務中的身分圖表，透過以下方式取得客戶歷程的更好檢視： <ul><li>無需擷取、轉換並載入額外資料來反映單一識別碼，即可連接不同識別碼的資料集。</li> <li>透過在資料集間共用身分，改善單一資料集的偏好或黃金身分的涵蓋範圍，</li><li>讓 Real-Time Customer Data Platform 和 Journey Optimizer 中建立的輪廓與 Customer Journey Analytics 中的人員保持一致。</li></ul>
+圖表式匯整功能可讓您使用 Experience Platform Identity Service 中的身分識別圖來更清楚地掌握客戶歷程，方法包括： <ul><li>無需擷取、轉換並載入額外資料來反映單一識別碼，即可連接不同識別碼的資料集。</li> <li>在資料集之間共用身分，以提高單一資料集的首選或黃金身分涵蓋範圍，</li><li>讓 Real-Time Customer Data Platform 和 Journey Optimizer 中建立的輪廓與 Customer Journey Analytics 中的人員保持一致。</li></ul>
 
 [![影像](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
@@ -43,7 +43,7 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 >[!TAB 衍生欄位]
 
-新衍生的欄位函式（數學、下一個或上一個、摘要）和其他函式範本（例如彈回數、易記資料集名稱、假日季節、每月目標、簡單機器人偵測等）現在已可供使用。
+新的衍生欄位函數 (數學、下一個或上一個、總結) 和附加函數範本 (如彈回數、易記的資料集名稱、假期季節、每月目標、簡單的機器人偵測等) 現已推出。
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
@@ -53,7 +53,7 @@ BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的�
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
-*_您必須有Select套件或更高版本才能使用BI擴充功能。_*
+*_您必須擁有 Select 套件或更高版本才能使用 BI 擴充功能。_*
 
 
 <!--
