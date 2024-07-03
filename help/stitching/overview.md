@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 805eb9dc9ab287934dd15eb56d3ac35187c979d7
+source-git-commit: 38bcb262023773763c0ff710a6aba4e06b864d01
 workflow-type: tm+mt
 source-wordcount: '3752'
 ht-degree: 11%
@@ -326,7 +326,7 @@ Customer Journey Analytics支援兩種彙整型別：欄位式彙整和圖表式
 
 >[!NOTE]
 >
->您需要 **非** 需要Real-time Customer Data Platform授權才能使用圖表式拚接。 此 **選取** 或更高的Customer Journey Analytics套件包含必要的使用者Identity服務權益。
+>您需要 **非** 需要Real-time Customer Data Platform授權才能使用圖表式拚接。 此 **選取** 或更高版本的Customer Journey Analytics套件包含必要的使用者Identity Service權益。
 
 
 
