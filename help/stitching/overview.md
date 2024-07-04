@@ -5,16 +5,19 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 38bcb262023773763c0ff710a6aba4e06b864d01
+source-git-commit: 195659d6665e5a3c0e4bf5a4f02ce2af5b95749c
 workflow-type: tm+mt
-source-wordcount: '3752'
-ht-degree: 11%
+source-wordcount: '3793'
+ht-degree: 12%
 
 ---
 
 # 拼接
 
-{{select-package}}
+>[!NOTE]
+>
+>您必須擁有 **選取** 套件或更高版本（適用於依欄位彙整）或 **Prime** 封裝或更高版本（適用於圖表式拚接），以使用本節中說明的功能。 如果您不確定自己擁有哪一種 Customer Journey Analytics 套件，請聯絡您的管理員。
+
 
 身分拼接（或簡單地說，拼接）是一項強大的功能，可提升事件資料集對於跨管道分析的適用性。 跨管道分析是Customer Journey Analytics可以處理的主要使用案例，可讓您根據通用識別碼（人員ID），針對不同管道的多個資料集無縫合併和執行報表。
 
@@ -189,7 +192,7 @@ Customer Journey Analytics支援兩種彙整型別：欄位式彙整和圖表式
 
 - Adobe Experience Platform中的事件資料集（您想要套用拼接）必須有兩個協助識別訪客的欄：
 
-   - A **永久ID**，每列都可使用的識別碼。 例如，Adobe AnalyticsAppMeasurement庫產生的訪客ID或Adobe Experience Cloud Identity Service產生的ECID。
+   - A **永久ID**，每列都可使用的識別碼。 例如，Adobe AnalyticsAppMeasurement庫產生的訪客ID或Adobe Experience Platform Identity Service產生的ECID。
    - A **暫時ID**，此識別碼僅可用於部分列。 例如訪客驗證後雜湊的使用者名稱或電子郵件地址。您幾乎可以使用任何您喜歡的識別碼。 拼接會將此欄位視為儲存實際人員ID資訊。 為獲得最佳拼接結果，每個永久ID應在資料集事件中至少傳送一次「暫時ID」 。 如果您打算將此資料集納入Customer Journey Analytics連線，最好讓其他資料集也具有類似的通用識別碼。
 
 - 針對您要拼接的資料集，資料行（永久ID和暫時ID）都必須定義為在結構描述中具有身分名稱空間的身分欄位。 在Real-time Customer Data Platform中使用身分拼接時，使用 [`identityMap` 欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)，您仍需新增具有身分名稱空間的身分欄位。 由於Customer Journey Analytics拼接不支援 `identityMap` 欄位群組。 在結構描述中新增身分欄位時，同時使用 `identityMap` 欄位群組，請勿將其他身分欄位設定為主要身分。 設定其他身分欄位作為主要身分會干擾 `identityMap` Real-time Customer Data Platform使用的欄位群組。
@@ -321,13 +324,12 @@ Customer Journey Analytics支援兩種彙整型別：欄位式彙整和圖表式
 
 下列先決條件尤其適用於圖表式銜接：
 
-- Adobe Experience Platform中的事件資料集（您想要套用拼接）必須有一欄可識別每列的訪客，且 **永久ID**. 例如，Adobe AnalyticsAppMeasurement庫產生的訪客ID或Adobe Experience Cloud Identity Service產生的ECID。
-- 來自Experience Cloud身分服務的身分圖表必須具有名稱空間(例如 `Email`，或 `Phone`)，您想在連結期間使用來解析 **暫時ID**. 另請參閱 [Experience PlatformIdentity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) 以取得詳細資訊。
+- Adobe Experience Platform中的事件資料集（您想要套用拼接）必須有一欄可識別每列的訪客，且 **永久ID**. 例如，Adobe AnalyticsAppMeasurement庫產生的訪客ID或Adobe Experience Platform Identity Service產生的ECID。
+- 來自Experience Platform身分服務的身分圖表必須具有名稱空間(例如 `Email`，或 `Phone`)，您想在連結期間使用來解析 **暫時ID**. 另請參閱 [Experience PlatformIdentity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) 以取得詳細資訊。
 
 >[!NOTE]
 >
->您需要 **非** 需要Real-time Customer Data Platform授權才能使用圖表式拚接。 此 **選取** 或更高版本的Customer Journey Analytics套件包含必要的使用者Identity Service權益。
-
+>您需要 **非** 需要Real-time Customer Data Platform授權才能使用圖表式拚接。 此 **Prime** 套件或更高Customer Journey Analytics包含必要的Experience Platform身分識別服務權益。
 
 
 ### 限制
