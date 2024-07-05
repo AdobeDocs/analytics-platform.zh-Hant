@@ -4,19 +4,25 @@ description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 4ed05334a3866ec784901d273fcb13bd24b2d449
+source-git-commit: c89a28323c9d40a7265cd22994a0d1c484f4c7ee
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 75%
+source-wordcount: '620'
+ht-degree: 70%
 
 ---
 
 # 歸因面板 {#attribution-panel}
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_attribution"
+>id="cja_workspace_attribution_button"
 >title="歸因"
 >abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型"
+>additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ面板"
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_attribution_panel"
+>title="歸因面板"
+>abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模式。<br/><br/>**引數&#x200B;**<br/>**頻道**<br/>&#x200B;要歸因的維度。 這可以是行銷管道、行銷活動或任何其他維度。<br/>**模型**<br/>&#x200B;此模型會決定如何將評分指派給接觸點。<br/>**回顧期間**<br/>&#x200B;此設定會決定針對每次轉換套用的資料歸因視窗。"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ面板"
 
 
