@@ -5,9 +5,9 @@ exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: 13c3f99dba7725553c775df4492803f759ebead5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -88,9 +88,9 @@ Journey Optimizer 支援使用 Customer Journey Analytics 作為報告引擎。�
 
 - 在&#x200B;**元件**&#x200B;索引標籤中：
    - 名稱後面附加有 [!UICONTROL (AJO)] 的所有量度和維度都會自動新增為此自動設定的一部分。
-   - 部分已自動新增的量度或維度是根據衍生欄位。 這些衍生欄位是專門為此整合而建立的。例如，量度 [!UICONTROL 登陸頁麵點按次數(AJO)] 是根據 [!UICONTROL 登陸頁麵點按次數] 衍生欄位。
-   - 部分量度或維度擁有其他設定。 例如， [!UICONTROL 垃圾訊息申訴(AJO)] 有 [!UICONTROL 格式] 和 [!UICONTROL 包含排除值] 設定已套用。
-   - 所有自動新增的量度和維度都有名為的內容標籤 `:`*`name_of_metric_or_dimension`*. 例如， [!UICONTROL 登陸頁麵點按次數(AJO)] 量度具有內容標籤 `:Landing page clicks (AJO)`.
+   - 一些自動新增的量度和維度是以衍生欄位為基礎。這些衍生欄位是專門為此整合而建立的。例如，量度[!UICONTROL 「登陸頁面點按」(AJO)] 是以[!UICONTROL 「登陸頁面點按」]衍生欄位為基礎。
+   - 某些量度或維度具有額外的設定。例如，[!UICONTROL 「垃圾郵件投訴計數」(AJO)] 有套用「[!UICONTROL 格式]」和「[!UICONTROL 包含排除值]」設定。
+   - 所有自動新增的量度或維度都有名稱為 `:`*`name_of_metric_or_dimension`*的內容標籤。例如，[!UICONTROL 「登陸頁面點按」(AJO)] 量度具有內容標籤 `:Landing page clicks (AJO)`。
 
 - 在&#x200B;**[!UICONTROL 設定]**&#x200B;標籤中，未套用任何特定設定值
 
