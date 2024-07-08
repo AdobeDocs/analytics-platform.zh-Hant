@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: ce1a6b631baefaccf7daac5ebaf272bd5c7ed88a
-workflow-type: ht
-source-wordcount: '3027'
-ht-degree: 100%
+source-git-commit: 3176be3fe1a117718cd675a4ed79df978d1f33f6
+workflow-type: tm+mt
+source-wordcount: '3174'
+ht-degree: 95%
 
 ---
 
@@ -72,15 +72,33 @@ ht-degree: 100%
 
 1. 在「連線設定」對話框中，選取「**[!UICONTROL 新增資料集]**」。
 
-2. 在「[!UICONTROL 選取資料集]」步驟中，選取一個或多個資料集並選取「**[!UICONTROL 下一步]**」。連線中必須至少包含一個事件資料集。
+1. 在 [!UICONTROL 選取資料集] 步驟，您會看到Experience Platform資料集的清單。
+
+   ![選取資料集](assets/select-datasets.png)
+
+   對於每個資料集，清單會顯示：
+
+   | 欄 | 說明 |
+   |---|---|
+   | 資料集 | 資料集的名稱。 選取名稱，以將您導向至Experience Platform中的資料集。 選取 ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 以顯示包含資料集詳細資料的快顯視窗。 在快顯視窗中，您可以選取 **[!UICONTROL 在Platform中編輯]** 直接在Experience Platform中編輯資料集。 |
+   | 資料集類型 | 資料集型別：事件、設定檔或查詢。 |
+   | 記錄數量 | Experience Platform資料集的最後批次中可用的記錄數。 |
+   | 結構描述 | 資料集所根據的結構描述。 選取名稱，以將您導向至Experience Platform中的結構描述。 |
+   | 上一個批次 | Experience Platform中擷取的最後一個批次的狀態。 另請參閱 [批次狀態](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) 詳細資訊。 |
+   | 資料集 ID | 資料集的識別碼。 |
+   | 上次更新時間 | 資料集的上次更新時間戳記。 |
+
+
+1. 選取一或多個資料集並選取 **[!UICONTROL 下一個]**. 連線中必須至少包含一個事件資料集。
    * 若要變更資料集清單中顯示的欄，請選取「![欄位設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)」並選取要在「[!UICONTROL 自訂表格]」對話框中顯示的欄。
    * 要搜尋特定資料集，請使用搜尋欄位「![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」。
    * 要讓所選資料集切換為顯示或隱藏，請選取「![選取](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg)」「**[!UICONTROL 隱藏已選取]**」或者「**[!UICONTROL 顯示已選取]**」。
    * 要將已選取資料集清單中的資料集刪除，請使用「![關閉](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)」。要刪除所有已選取的資料集，請選取「**[!UICONTROL 全部清除]**」。
 
-   ![選取資料集](assets/select-datasets.png)
 
-3. 現在，請逐一設定資料集。
+
+
+1. 現在，請逐一設定資料集。
 
    ![設定資料集](assets/add-dataset.png)
 
