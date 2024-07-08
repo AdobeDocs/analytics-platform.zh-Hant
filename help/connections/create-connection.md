@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3176be3fe1a117718cd675a4ed79df978d1f33f6
+source-git-commit: 8fe3fb966f559aa12f3203e02a1766436e45a24a
 workflow-type: tm+mt
-source-wordcount: '3174'
+source-wordcount: '3172'
 ht-degree: 95%
 
 ---
@@ -72,24 +72,24 @@ ht-degree: 95%
 
 1. 在「連線設定」對話框中，選取「**[!UICONTROL 新增資料集]**」。
 
-1. 在 [!UICONTROL 選取資料集] 步驟，您會看到Experience Platform資料集的清單。
+1. 在“選擇數據集”步驟中，可以看到Experience Platform數據集的清單。
 
    ![選取資料集](assets/select-datasets.png)
 
-   對於每個資料集，清單會顯示：
+   對於每個資料集，清單顯示：
 
    | 欄 | 說明 |
    |---|---|
-   | 資料集 | 資料集的名稱。 選取名稱，以將您導向至Experience Platform中的資料集。 選取 ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 以顯示包含資料集詳細資料的快顯視窗。 在快顯視窗中，您可以選取 **[!UICONTROL 在Platform中編輯]** 直接在Experience Platform中編輯資料集。 |
-   | 資料集類型 | 資料集型別：事件、設定檔或查詢。 |
-   | 記錄數量 | Experience Platform資料集的最後批次中可用的記錄數。 |
-   | 結構描述 | 資料集所根據的結構描述。 選取名稱，以將您導向至Experience Platform中的結構描述。 |
-   | 上一個批次 | Experience Platform中擷取的最後一個批次的狀態。 另請參閱 [批次狀態](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) 詳細資訊。 |
-   | 資料集 ID | 資料集的識別碼。 |
-   | 上次更新時間 | 資料集的上次更新時間戳記。 |
+   | 資料集 | 資料集的名稱。 選取名稱以引導您前往 Experience Platform 中的資料集。 選擇「資訊」![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)以顯示包含資料集更多詳細信息的彈出視窗。在彈出視窗中，您可在 **[!UICONTROL Platform]** 中選擇 編輯，直接在 Experience Platform 中編輯資料集。 |
+   | 資料集類型 | 資料集類型： 事件、配置文件或查閱。 |
+   | 記錄數量 | Experience Platform 中資料集在上個月的總記錄。 |
+   | 結構描述 | 資料集所依據的綱要。 選取名稱以將您導向至「Experience Platform」中的綱要。 |
+   | 上一個批次 | Experience Platform中引入的最後一個批次的狀態。 請參閱 [批次狀態](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/batch/troubleshooting#batch-states) 詳細資訊。 |
+   | 資料集 ID | 資料集的 ID。 |
+   | 上次更新時間 | 資料集的最後更新時間戳。 |
 
 
-1. 選取一或多個資料集並選取 **[!UICONTROL 下一個]**. 連線中必須至少包含一個事件資料集。
+1. 選擇一個或多個數據集，然後選擇“ **[!UICONTROL 下一個]**”。 連線中必須至少包含一個事件資料集。
    * 若要變更資料集清單中顯示的欄，請選取「![欄位設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)」並選取要在「[!UICONTROL 自訂表格]」對話框中顯示的欄。
    * 要搜尋特定資料集，請使用搜尋欄位「![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」。
    * 要讓所選資料集切換為顯示或隱藏，請選取「![選取](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg)」「**[!UICONTROL 隱藏已選取]**」或者「**[!UICONTROL 顯示已選取]**」。
