@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 195659d6665e5a3c0e4bf5a4f02ce2af5b95749c
+source-git-commit: d8487c48b4ca4c2a7e5f407d73e71d227aa0de1c
 workflow-type: tm+mt
-source-wordcount: '3793'
+source-wordcount: '3809'
 ht-degree: 12%
 
 ---
@@ -211,7 +211,7 @@ Customer Journey Analytics支援兩種彙整型別：欄位式彙整和圖表式
 - 請小心暫時ID包含預留位置值的情況，例如 `Undefined`. 請參閱 [常見問題集](faq.md) 以取得詳細資訊。
 
 
-## 圖表式銜接
+## 圖表式匯整
 
 您可以指定事件資料集，以及該資料集的永久ID (Cookie)和暫時ID （人員ID）的名稱空間。 圖表式拚接會在新的拚接資料集中為拚接ID建立新欄。 然後使用永久ID來查詢來自Experience Platform身分服務的身分圖表，使用指定的名稱空間來更新拼接的ID。
 
@@ -325,7 +325,7 @@ Customer Journey Analytics支援兩種彙整型別：欄位式彙整和圖表式
 下列先決條件尤其適用於圖表式銜接：
 
 - Adobe Experience Platform中的事件資料集（您想要套用拼接）必須有一欄可識別每列的訪客，且 **永久ID**. 例如，Adobe AnalyticsAppMeasurement庫產生的訪客ID或Adobe Experience Platform Identity Service產生的ECID。
-- 來自Experience Platform身分服務的身分圖表必須具有名稱空間(例如 `Email`，或 `Phone`)，您想在連結期間使用來解析 **暫時ID**. 另請參閱 [Experience PlatformIdentity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) 以取得詳細資訊。
+- 來自Experience Platform身分服務的身分圖表必須具有名稱空間(例如 `Email`，或 `Phone`)，您想在連結期間使用來解析 **暫時ID**. 另請參閱 [Experience PlatformIdentity Service](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home) 以取得詳細資訊。
 
 >[!NOTE]
 >
@@ -352,10 +352,11 @@ Customer Journey Analytics支援兩種彙整型別：欄位式彙整和圖表式
 
 ### 選項
 
-選取拼接選項。 Customer Journey Analytics套件會決定初始回填持續時間、回顧期間、重播頻率以及拼接時允許的資料集數目上限的可用選項。 請參閱 [Customer Journey Analytics產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html) 以取得更多詳細資料。
+選取拼接選項。 Customer Journey Analytics套件會決定可用的拼接方法、初始回填持續時間、回顧視窗、重播頻率以及拼接允許的最大資料集數量。 請參閱 [Customer Journey Analytics產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html) 以取得更多詳細資料。
 
 | | Customer Journey Analytics<br/>選取 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
+| 可用的拼接方法 | <li>欄位式拚接</li> | <li>欄位式拚接</li><li>圖表式匯整</li> | <li>欄位式拚接</li><li>圖表式匯整</li> |
 | 一次性拼接回填持續時間 | 13 個月 | 13 個月 | 25 個月 |
 | 回顧期間和重播頻率 | <li>1天，每天</li><li>最長7天，每週</li> | <li>1天，每天</li><li>最長14天，每週</li> | <li>1天，每天</li><li>最長30天，每週</li> |
 | 拼接允許的資料集數量上限 | 5 | 10 | 50 |
