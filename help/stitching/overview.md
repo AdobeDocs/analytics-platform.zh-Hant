@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: d8487c48b4ca4c2a7e5f407d73e71d227aa0de1c
+source-git-commit: ca2387c2dd4c6c0ccdf6cec245c5d66ecea93bd5
 workflow-type: tm+mt
-source-wordcount: '3809'
+source-wordcount: '3817'
 ht-degree: 12%
 
 ---
@@ -350,9 +350,9 @@ Customer Journey Analytics支援兩種彙整型別：欄位式彙整和圖表式
 
 當您的組織滿足所有條件時 [必備條件](#prerequisites) 並瞭解常見問題 [限制](#limitations) 和拼接方法特定的([欄位型](#limitations-1) 和 [圖表式](#limitations-2))限制下，您可以依照下列步驟，開始在Customer Journey Analytics中使用拼接。
 
-### 選項
+### 選取選項
 
-選取拼接選項。 Customer Journey Analytics套件會決定可用的拼接方法、初始回填持續時間、回顧視窗、重播頻率以及拼接允許的最大資料集數量。 請參閱 [Customer Journey Analytics產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html) 以取得更多詳細資料。
+您有權使用的Customer Journey Analytics套件會決定可用的拼接方法、初始回填持續時間、回顧視窗、重播頻率以及允許拼接的資料集數目上限。 請參閱 [Customer Journey Analytics產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html) 以取得更多詳細資料。 在請求支援之前，請先決定可用的選項。
 
 | | Customer Journey Analytics<br/>選取 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
