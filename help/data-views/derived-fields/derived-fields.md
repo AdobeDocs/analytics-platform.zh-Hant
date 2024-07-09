@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 6d5877b59dcc625e6cf324109bcb8162fb194187
+source-git-commit: 543443fa6483034f5604fca082fcb75f409006a1
 workflow-type: tm+mt
-source-wordcount: '8075'
+source-wordcount: '8068'
 ht-degree: 12%
 
 ---
@@ -381,9 +381,6 @@ ht-degree: 12%
 
 - 限制（如果適用）。
 
->[!NOTE]
->
->Lookup函式已重新命名為 [分類](#classify). 請參閱 [分類](#classify) 函式以取得詳細資訊。
 
 <!-- CASE WHEN -->
 
@@ -622,10 +619,6 @@ Customer Journey Analytics會使用以下預設容器模型：
 定義一組值，在新衍生欄位中以對應值取代。
 
 +++ 詳細資料
-
->[!NOTE]
->
->此函式原本名為Lookup ，但已重新命名為Classification ，以因應不同功能的Lookup函式。
 
 ## 規格 {#classify-io}
 
@@ -1027,6 +1020,8 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 ![小寫規則的熒幕擷圖](assets/lookup.png)
 
 ## 詳細資訊 {#lookup-more-info}
+
+查詢函式會在報表時間套用至Customer Journey Analytics從您設定為連線一部分的查詢資料集中擷取的資料。
 
 您可以快速插入 [!UICONTROL 查詢] 函式中，已包含一或多個其他函式。
 
