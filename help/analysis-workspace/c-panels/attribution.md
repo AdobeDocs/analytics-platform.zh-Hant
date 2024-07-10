@@ -7,7 +7,7 @@ role: User
 source-git-commit: c89a28323c9d40a7265cd22994a0d1c484f4c7ee
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 70%
+ht-degree: 73%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 70%
 >id="cja_workspace_attribution_button"
 >title="歸因"
 >abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型"
->additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ面板"
+>additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_panel"
 >title="歸因面板"
 >abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模式。<br/><br/>**引數&#x200B;**<br/>**頻道**<br/>&#x200B;要歸因的維度。 這可以是行銷管道、行銷活動或任何其他維度。<br/>**模型**<br/>&#x200B;此模型會決定如何將評分指派給接觸點。<br/>**回顧期間**<br/>&#x200B;此設定會決定針對每次轉換套用的資料歸因視窗。"
->additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ面板"
+>additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 
 建立比較各種歸因模型的分析時，[!UICONTROL 歸因]面板是可採用的簡單方式。此功能為您提供專屬的工作區，以便使用和比較歸因模型。
