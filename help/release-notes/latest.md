@@ -3,16 +3,16 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 1534b628841a5b4588379b944822073f3288d710
-workflow-type: ht
-source-wordcount: '1129'
-ht-degree: 100%
+source-git-commit: 2ea7c9ec4d02685164a10da3e3f3a38526fc9730
+workflow-type: tm+mt
+source-wordcount: '1232'
+ht-degree: 92%
 
 ---
 
 # 最新的 Adobe Customer Journey Analytics 發行說明 (2024 年 6 月)
 
-**上次更新日期**：2024 年 6 月 18 日
+**上次更新日期**：2024年7月12日
 
 這些發行說明涵蓋的發行期間為 2024 年 6 月 6 日至 7 月。Adobe Customer Journey Analytics 版本會在[持續傳遞模型](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **管理員設定，可控制將報告匯出至雲端時使用的帳戶和位置** | 在位置管理員](/help/components/exports/manage-export-locations.md#configure-company-wide-settings-administrators-only)中新增的[「管理員設定」索引標籤，可讓管理員控制使用者是否可以建立和編輯帳戶與位置。<p>這些設定適用於使用者[設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)和[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)時。</p><p>管理員也可以限制使用者可以建立和使用的帳戶型別。 帳戶型別包括Google Cloud Platform、Azure RBAC、Amazon S3、AEP Data Landing Zone、Snowflake等。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024年7月11日 | 2024年7月19日 |
 | **適用於 Customer Journey Analytics 的 AI 助理** | 允許您在 Customer Journey Analytics UI 中提出自然語言的問題，並根據 Customer Journey Analytics 文件獲得答案。[了解更多](/help/ai-assistant.md) | | 2024 年 6 月 6 日 |
 | **圖表式匯整** | 圖表式匯整功能可讓您使用 Experience Platform Identity Service 中的身分識別圖來更清楚地掌握客戶歷程，方法包括：<ul><li>無需擷取、轉換並載入額外資料來反映單一識別碼，即可連接不同識別碼的資料集。</li><li>在資料集之間共用身分，以提高單一資料集的首選或黃金身分涵蓋範圍。</li><li>讓 Real-Time Customer Data Platform 和 Journey Optimizer 中建立的輪廓與 Customer Journey Analytics 中的人員保持一致。</li></ul>[了解更多](/help/stitching/overview.md) |  | 2024 年 6 月 28 日 |
 | **人員到帳戶的 B2B 方案轉換** | 您可以轉換 B2B 查詢資料集，以支援基於人員的 B2B 資料查詢 (包括帳戶、商機、行銷名單和行銷活動)。此轉換僅適用於基於下列類別的 B2B 查詢結構描述資料集：<ul><li>XDM 商業帳戶個人關係</li><li>XDM 商業機會個人關係</li><li>XDM 業務行銷清單會員</li><li>XDM 商業活動會員</li></ul>[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/transform-datasets-b2b-lookups) |  | 2024 年 6 月 5 日 |
