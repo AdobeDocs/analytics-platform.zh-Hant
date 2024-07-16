@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 52021e557171754901fe6a64c7fa544243af70f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 [![影像](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
->[!TAB 圖表式銜接*]
+>[!TAB 圖表式匯整*]
 
 圖表式匯整功能可讓您使用 Experience Platform Identity Service 中的身分識別圖來更清楚地掌握客戶歷程，方法包括： <ul><li>無需擷取、轉換並載入額外資料來反映單一識別碼，即可連接不同識別碼的資料集。</li> <li>在資料集之間共用身分，以提高單一資料集的首選或黃金身分涵蓋範圍，</li><li>讓 Real-Time Customer Data Platform 和 Journey Optimizer 中建立的輪廓與 Customer Journey Analytics 中的人員保持一致。</li></ul>
 
 [![影像](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
-*_您必須有Prime套件才能使用圖表式拚接。_*
+*_您必須擁有 Prime 套件才能進行圖表式匯整。_*
 
 >[!TAB B2B 查詢]
 
