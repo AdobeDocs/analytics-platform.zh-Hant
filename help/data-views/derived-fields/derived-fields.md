@@ -5,20 +5,20 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 543443fa6483034f5604fca082fcb75f409006a1
+source-git-commit: 0a046a89e1742d3470a78ebad4f93cb3b4ea7f4c
 workflow-type: tm+mt
-source-wordcount: '8068'
+source-wordcount: '8366'
 ht-degree: 12%
 
 ---
 
 # 衍生欄位
 
-衍生欄位是Adobe Customer Journey Analytics中即時報告功能的重要方面。 衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後您可以將該衍生欄位當做中的元件（量度或維度） [Workspace](../../analysis-workspace/home.md) 甚至進一步將衍生欄位定義為中的元件 [資料檢視](../data-views.md).
+衍生欄位是Adobe Customer Journey Analytics中即時報告功能的重要方面。 衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以在[Workspace](../../analysis-workspace/home.md)中使用該衍生欄位作為元件（量度或維度），甚至在[資料檢視](../data-views.md)中進一步將該衍生欄位定義為元件。
 
-相較於在Customer Journey Analytics以外的其他位置轉換或操控資料，衍生欄位可節省大量時間和精力。 例如 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)， [資料Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)，或在您自己的提取轉換載入(ETL) /提取載入轉換(ELT)程式內。
+相較於在Customer Journey Analytics以外的其他位置轉換或操控資料，衍生欄位可節省大量時間和精力。 例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)或您自己的擷取轉換載入(ETL) /擷取載入轉換(ELT)程式。
 
-衍生欄位定義於 [資料檢視](../data-views.md)是以定義為規則的一組函式為基礎，並套用至可用的標準及/或結構描述欄位。
+衍生欄位是在[資料檢視](../data-views.md)中定義，是根據定義為規則的一組函式，並套用至可用的標準和/或結構描述欄位。
 
 範例使用案例包括：
 
@@ -35,8 +35,8 @@ ht-degree: 12%
 
 |  | 名稱 | 說明 |
 |---------|----------|--------|
-| 1 | **選擇器** | 您可使用選取器區域來選取您的函式、函式範本、結構描述欄位或標準欄位，並將其拖放至規則產生器。 <br/>使用下拉式清單來選取： <br/>![函式](assets/Smock_Function_18_N.svg) [!UICONTROL 函式]  — 可用清單 [函式](#function-reference)， </br>![函式範本圖示](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL 函式範本]  — 可用清單 [函式範本](#function-templates)， <br/>![結構欄點陣圖示](assets/Smock_Folder_18_N.svg)  [!UICONTROL 結構描述欄位]  — 列出資料集類別（事件、設定檔、查詢）的可用欄位和先前定義的衍生欄位，以及 <br/>![標準欄點陣圖示](assets/Smock_DragHandle_18_N.svg) [!UICONTROL 標準欄位]  — 標準可用欄位（如平台資料集ID）。 選擇器中只會顯示字串和數值標準欄位。 如果函式支援其他資料型別，則可以為規則介面中的值或欄位選取具有這些其他資料型別的標準欄位。<br/>您可以使用以下專案搜尋函式、函式範本、結構描述和標準欄位： ![搜尋圖示](assets/Smock_Search_18_N.svg) 搜尋方塊。 <br/>您可以透過選取來篩選所選物件清單 ![篩選圖示](assets/Smock_Filter_18_N.svg) 在中篩選和指定篩選器 [!UICONTROL 欄位篩選依據] 對話方塊。 您可使用以下工具輕鬆移除篩選器 ![關閉圖示](assets/CrossSize75.svg) 用於每個篩選器。 |
-| 2 | **規則產生器** | 您可使用一或多個規則依序建置衍生欄位。 規則是函式的特定實作，因此一律只與一個函式相關聯。 將函式拖放至規則產生器，即可建立規則。 函式型別會決定規則的介面。<br/>請參閱 [規則介面](#rule-interface) 以取得詳細資訊。 <br/>您可以在規則產生器中現有的規則開始、結束或之間插入函式。 規則產生器中的最後一個規則會決定衍生欄位的最終輸出。 |
+| 1 | **選取器** | 您可使用選取器區域來選取您的函式、函式範本、結構描述欄位或標準欄位，並將其拖放至規則產生器。 <br/>使用下拉式清單來選取： <br/>![函式](assets/Smock_Function_18_N.svg) [!UICONTROL 函式] — 列出可用的[函式](#function-reference)，</br>![函式範本圖示](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL 函式範本] — 列出可用的[函式範本](#function-templates)，<br/>![結構描述欄點陣圖示](assets/Smock_Folder_18_N.svg) [!UICONTROL 結構描述欄位] — 列出資料集類別（事件、設定檔、查詢）和先前定義的衍生欄位中可用的欄位，以及<br/>![標準欄點陣圖示](assets/Smock_DragHandle_18_N.svg) [!UICONTROL 標準欄位] — 可用欄位例如Platform資料集ID)。 選擇器中只會顯示字串和數值標準欄位。 如果函式支援其他資料型別，則可以為規則介面中的值或欄位選取具有這些其他資料型別的標準欄位。<br/>您可以使用![搜尋圖示](assets/Smock_Search_18_N.svg)搜尋方塊來搜尋功能、功能範本、結構描述和標準欄位。 <br/>您可以選取![篩選圖示](assets/Smock_Filter_18_N.svg)篩選來篩選選取的物件清單，並在[!UICONTROL 篩選欄位中指定]對話方塊。 您可以對每個篩選器使用![關閉圖示](assets/CrossSize75.svg)，輕鬆移除篩選器。 |
+| 2 | **規則產生器** | 您可使用一或多個規則依序建置衍生欄位。 規則是函式的特定實作，因此一律只與一個函式相關聯。 將函式拖放至規則產生器，即可建立規則。 函式型別會決定規則的介面。<br/>如需詳細資訊，請參閱[規則介面](#rule-interface)。 <br/>您可以在規則產生器中已有可用的規則開始、結束或之間插入函式。 規則產生器中的最後一個規則會決定衍生欄位的最終輸出。 |
 | 3 | **[!UICONTROL **&#x200B;欄位設定&#x200B;**]** | 您可以命名和描述衍生欄位，並檢查其欄位型別。 |
 | 4 | **[!UICONTROL **&#x200B;最終輸出&#x200B;**]** | 此區域會根據過去30天的資料以及您在規則產生器中對衍生欄位所做的變更，顯示輸出值的即時更新預覽。 |
 
@@ -44,108 +44,108 @@ ht-degree: 12%
 
 ## 欄位範本精靈
 
-第一次存取衍生欄位介面時， [!UICONTROL 從欄位範本開始] 精靈隨即顯示。
+第一次存取衍生欄位介面時，會顯示[!UICONTROL 以欄位範本開始]精靈。
 
 1. 選取最能描述您嘗試建立的欄位型別的範本。
-2. 選取 **[!UICONTROL **&#x200B;選取&#x200B;**]** 按鈕以繼續。
+2. 選取&#x200B;**[!UICONTROL **&#x200B;選取&#x200B;**]**&#x200B;按鈕以繼續。
 
-衍生欄位對話方塊會填入規則（和函式），對於您選取的欄位型別而言是必要或有用的。 另請參閱 [函式範本](#function-templates) 以取得可用範本的詳細資訊。
+衍生欄位對話方塊會填入規則（和函式），對於您選取的欄位型別而言是必要或有用的。 如需可用範本的詳細資訊，請參閱[函式範本](#function-templates)。
 
 ## 規則介面
 
-在規則產生器中定義規則時，您會使用規則介面。
+在規則構建器中定義規則時，可以使用規則介面。
 
-![衍生欄位規則介面的熒幕擷圖](assets/rule-interface.png)
+![派生欄位規則介面的螢幕截圖](assets/rule-interface.png)
 
 |  | 名稱 | 說明 |
 |---------|----------|--------|
-| A | **規則名稱** | 依預設，規則名稱為 **規則X** （X代表序號）。 若要編輯規則的名稱，請選取其名稱，然後輸入新名稱，例如 `Query Parameter`. |
-| B | **函式名稱** | 規則的選定函式名稱，例如 [!UICONTROL URL解析]. 當函式是函式序列中的最後一個並決定最終輸出值時，函式名稱后面會接著一個 [!UICONTROL  — 最終輸出]，例如 [!UICONTROL URL剖析 — 最終輸出]. <br/>若要顯示包含函式詳細資訊的快顯視窗，請選取 ![說明圖示](assets/Smock_HelpOutline_18_N.svg). |
-| C | **規則說明** | 您可以選擇新增說明至規則。<br/>選取 ![「更多」圖示](assets/More.svg)，然後選取 **[!UICONTROL **&#x200B;新增說明&#x200B;**]** 新增說明或 **[!UICONTROL **&#x200B;編輯說明&#x200B;**]** 以編輯現有的說明。<br/>使用編輯器輸入說明。 您可以使用工具列來格式化文字（使用樣式選擇器、粗體、斜體、底線、右側、左側、置中、顏色、數字清單、專案符號清單），以及新增連結至外部資訊。 <br/>若要完成說明的編輯，請在編輯器外按一下「 」。 |
-| D | **功能區域** | 定義函式的邏輯。 介面取決於函式的型別。 的下拉式清單 [!UICONTROL 欄位] 或 [!UICONTROL 值] 根據函式預期的輸入型別，顯示所有可用欄位類別（規則、標準欄位、欄位）。 或者，您也可以將欄位從架構和標準欄位選擇器拖放至欄位或值。 當該拖曳欄位源自查閱資料集時，查閱函式會自動插入在您定義的函式之前。 <br/>另請參閱 [函式參考](#function-reference) 每個支援函式的詳細資訊。 |
+| A | **規則名稱** | 依預設，規則名稱為&#x200B;**規則X** （X代表序號）。 若要編輯規則的名稱，請選取其名稱，然後輸入新名稱，例如`Query Parameter`。 |
+| B | **函數名稱** | 為規則選擇的函數名稱，例如[!UICONTROL URL PARSE。]當函數是函數序列中的最後一個並確定最終輸出值時，函數名稱後跟 [!UICONTROL - FINAL OUTPUT] URL[!UICONTROL  例如 PARSE - FINAL OUTPUT。]<br/>若要顯示包含函式詳細資訊的快顯視窗，請選取![說明圖示](assets/Smock_HelpOutline_18_N.svg)。 |
+| C | **規則描述** | 您可以選擇新增說明至規則。<br/>選取![更多圖示](assets/More.svg)，然後選取&#x200B;**[!UICONTROL **&#x200B;新增描述&#x200B;**]**&#x200B;以新增描述，或選取&#x200B;**[!UICONTROL **&#x200B;編輯描述&#x200B;**]**&#x200B;以編輯現有的描述。<br/>使用編輯器輸入說明。 您可以使用工具列來格式化文字（使用樣式選擇器、粗體、斜體、底線、右側、左側、置中、顏色、數字清單、專案符號清單），以及新增連結至外部資訊。 <br/>若要完成說明的編輯，請在編輯器外按一下。 |
+| D | **功能區域** | 定義函式的邏輯。 介面取決於函式的型別。 [!UICONTROL 欄位]或[!UICONTROL 值]的下拉式清單會根據函式預期的輸入型別，顯示所有可用的欄位類別（規則、標準欄位、欄位）。 或者，您也可以將欄位從架構和標準欄位選擇器拖放至欄位或值。 當該拖曳欄位源自查閱資料集時，查閱函式會自動插入在您定義的函式之前。 <br/>如需每個支援函式的詳細資訊，請參閱[函式參考](#function-reference)。 |
 
 {style="table-layout:auto"}
 
 ## 建立衍生欄位
 
-1. 選取現有的資料檢視或建立資料檢視。 另請參閱 [資料檢視](../data-views.md) 以取得詳細資訊。
+1. 選取現有的資料檢視或建立資料檢視。 如需詳細資訊，請參閱[資料檢視](../data-views.md)。
 
-2. 選取 **[!UICONTROL **&#x200B;元件&#x200B;**]** 資料檢視的索引標籤。
+2. 選取資料檢視的&#x200B;**[!UICONTROL **&#x200B;元件&#x200B;**]**&#x200B;標籤。
 
-3. 選取 **[!UICONTROL **&#x200B;建立衍生欄位&#x200B;**]** 從左側邊欄。
+3. 從左側邊欄選取&#x200B;**[!UICONTROL **&#x200B;建立衍生欄位&#x200B;**]**。
 
-4. 若要定義衍生欄位，請使用 [!UICONTROL 建立衍生欄位] 介面。 另請參閱 [衍生欄位介面](#derived-field-interface).
+4. 若要定義衍生欄位，請使用[!UICONTROL 建立衍生欄位]介面。 請參閱[衍生欄位介面](#derived-field-interface)。
 
-   若要儲存新的衍生欄位，請選取 **[!UICONTROL **&#x200B;儲存&#x200B;**]**.
+   若要儲存您的新衍生欄位，請選取&#x200B;**[!UICONTROL **&#x200B;儲存&#x200B;**]**。
 
-5. 您的新衍生欄位將新增至 [!UICONTROL 衍生欄位>] 容器，為的一部分 **[!UICONTROL **&#x200B;結構描述欄位&#x200B;**]** 位於資料檢視的左側邊欄中。
+5. 您的新衍生欄位已新增到[!UICONTROL 衍生欄位>]容器，做為資料檢視左側邊欄中&#x200B;**[!UICONTROL **&#x200B;結構描述欄位&#x200B;**]**&#x200B;的一部分。
 
 
 ## 編輯衍生欄位
 
-1. 選取現有的資料檢視。 另請參閱 [資料檢視](../data-views.md) 以取得詳細資訊。
+1. 選取現有的資料檢視。 如需詳細資訊，請參閱[資料檢視](../data-views.md)。
 
-2. 選取 **[!UICONTROL **&#x200B;元件&#x200B;**]** 資料檢視的索引標籤。
+2. 選取資料檢視的&#x200B;**[!UICONTROL **&#x200B;元件&#x200B;**]**&#x200B;標籤。
 
-3. 選取 **[!UICONTROL **&#x200B;結構描述欄位&#x200B;**]** 索引標籤中的 [!UICONTROL 連線] 窗格於左側。
+3. 選取左側[!UICONTROL 連線]窗格中的&#x200B;**[!UICONTROL **&#x200B;結構描述欄位&#x200B;**]**&#x200B;索引標籤。
 
-4. 選取 **[!UICONTROL **&#x200B;衍生欄位>**]** 容器。
+4. 選取&#x200B;**[!UICONTROL **&#x200B;衍生欄位>**]**&#x200B;容器。
 
-5. 將游標停留在您要編輯的衍生欄位上，然後選取 ![編輯圖示](assets/Smock_Edit_18_N.svg).
+5. 將滑鼠停留在您要編輯的衍生欄位上，並選取![編輯圖示](assets/Smock_Edit_18_N.svg)。
 
-6. 若要編輯衍生欄位，請使用 [!UICONTROL 編輯衍生欄位] 介面。 另請參閱 [衍生欄位介面](#derived-field-interface).
+6. 若要編輯衍生欄位，請使用[!UICONTROL 編輯衍生欄位]介面。 請參閱[衍生欄位介面](#derived-field-interface)。
 
-   - 選取 **[!UICONTROL **&#x200B;儲存&#x200B;**]** 以儲存更新的衍生欄位。
+   - 選取&#x200B;**[!UICONTROL **&#x200B;儲存&#x200B;**]**&#x200B;以儲存更新的衍生欄位。
 
-   - 選取 **[!UICONTROL **&#x200B;取消&#x200B;**]** 取消您對衍生欄位所做的任何變更。
+   - 選取&#x200B;**[!UICONTROL **&#x200B;取消&#x200B;**]**&#x200B;以取消您對衍生欄位所做的任何變更。
 
-   - 選取 **[!UICONTROL **&#x200B;另存為&#x200B;**]** 將衍生欄位另存為新衍生欄位。 新衍生欄位的名稱與原始編輯的衍生欄位相同，其名稱為 `(copy)` 新增至此頁面。
+   - 選取&#x200B;**[!UICONTROL **&#x200B;另存新檔&#x200B;**]**，將衍生欄位另存為新衍生欄位。 新的衍生欄位與新增了`(copy)`的原始已編輯衍生欄位同名。
 
 或者，如果您已在資料檢視中使用衍生欄位做為維度或量度的元件：
 
 1. 選取元件。 請注意，元件的名稱可能與衍生欄位不同。
 
-1. 在「元件」面板中，選取 ![編輯圖示](assets/Smock_Edit_18_N.svg) 位於衍生欄位旁邊、結構描述欄位名稱下方。
+1. 在「元件」面板中，選取「結構描述」欄位名稱底下衍生欄位旁的![編輯圖示](assets/Smock_Edit_18_N.svg)。
 
-1. 若要編輯衍生欄位，請使用 [!UICONTROL 編輯衍生欄位] 介面。 另請參閱 [衍生欄位介面](#derived-field-interface).
+1. 若要編輯衍生欄位，請使用[!UICONTROL 編輯衍生欄位]介面。 請參閱[衍生欄位介面](#derived-field-interface)。
 
-   - 選取 **[!UICONTROL **&#x200B;儲存&#x200B;**]** 以儲存更新的衍生欄位。
+   - 選取&#x200B;**[!UICONTROL **&#x200B;儲存&#x200B;**]**&#x200B;以儲存更新的衍生欄位。
 
-   - 選取 **[!UICONTROL **&#x200B;取消&#x200B;**]** 取消您對衍生欄位所做的任何變更。
+   - 選取&#x200B;**[!UICONTROL **&#x200B;取消&#x200B;**]**&#x200B;以取消您對衍生欄位所做的任何變更。
 
-   - 選取 **[!UICONTROL **&#x200B;另存為&#x200B;**]** 將衍生欄位另存為新衍生欄位。 新衍生欄位的名稱與原始編輯的衍生欄位相同，其名稱為 `(copy)` 新增至此頁面。
+   - 選取&#x200B;**[!UICONTROL **&#x200B;另存新檔&#x200B;**]**，將衍生欄位另存為新衍生欄位。 新的衍生欄位與新增了`(copy)`的原始已編輯衍生欄位同名。
 
 
 
 ## 刪除衍生欄位
 
-1. 選取現有的資料檢視。 另請參閱 [資料檢視](../data-views.md) 以取得詳細資訊。
+1. 選取現有的資料檢視。 如需詳細資訊，請參閱[資料檢視](../data-views.md)。
 
-2. 選取 **[!UICONTROL **&#x200B;元件&#x200B;**]** 資料檢視的索引標籤。
+2. 選取資料檢視的&#x200B;**[!UICONTROL **&#x200B;元件&#x200B;**]**&#x200B;標籤。
 
-3. 選取 **[!UICONTROL **&#x200B;結構描述欄位&#x200B;**]** 定位於 [!UICONTROL 連線] 窗格。
+3. 在[!UICONTROL 連線]窗格中選取&#x200B;**[!UICONTROL **&#x200B;結構描述欄位&#x200B;**]**&#x200B;索引標籤。
 
-4. 選取 **[!UICONTROL **&#x200B;衍生欄位>**]** 容器。
+4. 選取&#x200B;**[!UICONTROL **&#x200B;衍生欄位>**]**&#x200B;容器。
 
-5. 將游標停留在您要刪除的衍生欄位上，然後選取 ![編輯圖示](assets/Smock_Edit_18_N.svg).
+5. 將滑鼠停留在您要刪除的衍生欄位上，並選取![編輯圖示](assets/Smock_Edit_18_N.svg)。
 
-6. 在 [!UICONTROL 編輯衍生欄位] 介面，選取 **[!UICONTROL 刪除]**.
+6. 在[!UICONTROL 編輯衍生欄位]介面中，選取&#x200B;**[!UICONTROL 刪除]**。
 
-   A [!UICONTROL 刪除元件] 對話方塊會要求您確認刪除。 考慮任何外部參考，這些參考可能存在於資料檢視之外的衍生欄位。
+   [!UICONTROL 刪除元件]對話方塊會要求您確認刪除。 考慮任何外部參考，這些參考可能存在於資料檢視之外的衍生欄位。
 
-   - 選取 **[!UICONTROL **&#x200B;繼續&#x200B;**]** 以刪除衍生欄位。
+   - 選取&#x200B;**[!UICONTROL **&#x200B;繼續&#x200B;**]**&#x200B;以刪除衍生欄位。
 
 或者，如果您已在資料檢視中使用衍生欄位做為維度或量度的元件：
 
 1. 選取元件。 請注意，元件的名稱可能與衍生欄位不同。
 
-1. 在「元件」面板中，選取 ![編輯圖示](assets/Smock_Edit_18_N.svg) 位於衍生欄位旁邊、結構描述欄位名稱下方。
+1. 在「元件」面板中，選取「結構描述」欄位名稱底下衍生欄位旁的![編輯圖示](assets/Smock_Edit_18_N.svg)。
 
-1. 在 [!UICONTROL 編輯衍生欄位] 介面，選取 **[!UICONTROL 刪除]**.
+1. 在[!UICONTROL 編輯衍生欄位]介面中，選取&#x200B;**[!UICONTROL 刪除]**。
 
-   A [!UICONTROL 刪除元件] 對話方塊會要求您確認刪除。 考慮任何外部參考，這些參考可能存在於資料檢視之外的衍生欄位。
+   [!UICONTROL 刪除元件]對話方塊會要求您確認刪除。 考慮任何外部參考，這些參考可能存在於資料檢視之外的衍生欄位。
 
-   - 選取 **[!UICONTROL **&#x200B;繼續&#x200B;**]** 以刪除衍生欄位。
+   - 選取&#x200B;**[!UICONTROL **&#x200B;繼續&#x200B;**]**&#x200B;以刪除衍生欄位。
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ ht-degree: 12%
 
 ## 函數範本
 
-若要快速建立特定使用案例的衍生欄位，可使用函式範本。 這些函式範本可從衍生欄位介面的選取器區域存取，或首次使用時顯示於 [!UICONTROL 從欄位範本開始] 精靈。
+若要快速建立特定使用案例的衍生欄位，可使用函式範本。 這些函式範本可從衍生欄位介面的選取器區域存取，或在[!UICONTROL 以欄位範本開始]精靈中第一次使用時顯示。
 
 
 ### 行銷管道
@@ -164,7 +164,7 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![行銷管道範本規則產生器的熒幕擷圖](assets/function-template-marketing-channel-template.png)
 
@@ -176,7 +176,7 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![彈回規則產生器的熒幕擷圖](assets/function-template-bounces.png)
 
@@ -188,9 +188,9 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
-![多Dimension合併規則產生器的熒幕擷圖](assets/function-template-multi-dimension-combine.png)
+![多Dimension組合規則產生器的熒幕擷圖](assets/function-template-multi-dimension-combine.png)
 
 +++
 
@@ -200,7 +200,7 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![易記資料集名稱規則產生器的熒幕擷圖](assets/function-template-friendly-dataset-name.png)
 
@@ -212,9 +212,9 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
-![URL規則產生器頁面名稱的熒幕擷圖](assets/function-template-page-name-from-url.png)
+![來自URL規則產生器的頁面名稱熒幕擷圖](assets/function-template-page-name-from-url.png)
 
 +++
 
@@ -224,9 +224,9 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
-![Holiday Season規則產生器的熒幕擷圖](assets/function-template-holiday-season.png)
+![假日季節規則產生器的熒幕擷圖](assets/function-template-holiday-season.png)
 
 +++
 
@@ -236,7 +236,7 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![每月目標規則產生器的熒幕擷圖](assets/function-template-monthly-goals.png)
 
@@ -244,13 +244,13 @@ ht-degree: 12%
 
 ### 取得分隔清單中的所有值
 
-此函式範本將有限的清單轉換為陣列。
+此函數範本將有限的清單轉換為數位。
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 有關詳細資訊，請參閱 [函數參考](#function-reference) 。
 
-![取得分隔清單規則產生器中的所有值的熒幕擷圖](assets/function-template-get-all-values-in-delimited-list.png)
+![在分隔清單規則產生器中取得所有值的熒幕擷圖](assets/function-template-get-all-values-in-delimited-list.png)
 
 +++
 
@@ -260,21 +260,21 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
-![取得分隔清單規則產生器中第一個值的熒幕擷圖](assets/function-template-get-first-value-in-delimited-list.png)
+![「在分隔清單規則產生器中取得第一個值」的屏幕截圖](assets/function-template-get-first-value-in-delimited-list.png)
 
 +++
 
 ### 取得分隔清單中的最後一個值
 
-此函式範本取得分隔清單中的最後一個值。
+此函數範本獲取分隔清單中的最後一個值。
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 有關詳細資訊，請參閱 [函數參考](#function-reference) 。
 
-![取得分隔清單規則產生器中最後一個值的熒幕擷圖](assets/function-template-get-last-value-in-delimited-list.png)
+![在分隔清單規則產生器中取得最後一個值的熒幕擷圖](assets/function-template-get-last-value-in-delimited-list.png)
 
 +++
 
@@ -284,9 +284,9 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用該範本，必須為作為範本規則的一部分列出的每個函數指定正確的參數。 有關詳細資訊，請參閱 [函數參考](#function-reference) 。
 
-![網域名稱規則產生器的熒幕擷圖](assets/function-template-domain-name.png)
+![域名規則構建器的屏幕截圖](assets/function-template-domain-name.png)
 
 +++
 
@@ -296,7 +296,7 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![取得查詢字串引數規則產生器的熒幕擷圖](assets/function-template-get-query-string-parameter.png)
 
@@ -308,9 +308,9 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
-![轉變欄位規則產生器的熒幕擷圖](assets/function-template-transition-field.png)
+![轉換欄位規則產生器的熒幕擷圖](assets/function-template-transition-field.png)
 
 +++
 
@@ -320,7 +320,7 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![簡易機器人偵測規則產生器的熒幕擷圖](assets/function-template-simple-bot-detection.png)
 
@@ -332,7 +332,7 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![退出連結規則產生器的熒幕擷圖](assets/function-template-exit-link.png)
 
@@ -344,7 +344,7 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 另請參閱 [函式參考](#function-reference) 以取得詳細資訊。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![下載連結規則產生器的熒幕擷圖](assets/function-template-download-link.png)
 
@@ -394,7 +394,7 @@ ht-degree: 12%
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 如果]， [!UICONTROL Else If] 容器：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 條件] （請參閱包含的運運算元，根據選取的值型別）</li></ul></li><li>[!UICONTROL 然後將值設為]， [!UICONTROL 否則將值設為]：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul></li></ul> | <p>字串</p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>以任何字詞開始</li><li>終止於</li><li>以任何字詞結尾</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>開頭不是任何詞語</li><li>不終止於</li><li>結尾不是任何詞語</li><li>已設定</li><li>未設定</li></ul><p>數值</p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p>日期</p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>早於</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <ul><li>每個衍生欄位5個函式</li><li>200 [運運算元](#operators) 每個衍生欄位。 「反向連結網域包含Google」是單一運運算元的範例。 </li></ul> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL If]， [!UICONTROL Else If]容器：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 條件] （根據選取的值型別，檢視包含的運運算元）</li></ul></li><li>[!UICONTROL 然後將值設為]，[!UICONTROL 否則將值設為]：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul></li></ul> | <p>字串</p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>以任何字詞開始</li><li>終止於</li><li>以任何字詞結尾</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>開頭不是任何詞語</li><li>不終止於</li><li>結尾不是任何詞語</li><li>已設定</li><li>未設定</li></ul><p>數值</p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p>日期</p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>早於</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <ul><li>每個衍生欄位5個函式</li><li>每個衍生欄位有200個[運運算元](#operators)。 「反向連結網域包含Google」是單一運運算元的範例。 </li></ul> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -402,15 +402,15 @@ ht-degree: 12%
 
 若要定義規則以識別各種行銷管道，請套用階層式邏輯以將行銷管道欄位設定為適當的值：
 
-- 如果反向連結來自搜尋引擎，且頁面具有查詢字串值，其中 `cid` 包含 `ps_`，則行銷管道應識別為 [!DNL *付費搜尋*].
-- 如果反向連結來自搜尋引擎，而頁面沒有查詢字串 `cid`，則行銷管道應識別為 [!DNL *免費搜尋*].
-- 如果頁面有查詢字串值，其中 `cid` 包含 `em_`，則行銷管道應識別為 [!DNL *電子郵件*].
-- 如果頁面有查詢字串值，其中 `cid` 包含 `ds_`，則行銷管道應識別為 [!DNL *顯示廣告*].
-- 如果頁面有查詢字串值，其中 `cid` 包含 `so_`，則行銷管道應識別為 [!DNL *付費社交*].
-- 如果反向連結來自的反向連結網域 [!DNL twitter.com]， [!DNL facebook.com]， [!DNL linkedin.com]，或 [!DNL tiktok.com]，則行銷管道應識別為 [!DNL *自然社交*].
-- 如果上述規則均不符合，則行銷管道應識別為 [!DNL *其他反向連結*].
+- 如果推薦者來自某個搜尋引擎，並且該頁面具有查詢字串值，其中`cid``ps_`包含 ，則該行銷頻道應標識為&#x200B;[!DNL *付費Search*]。
+- 如果推薦者來自搜尋引擎而頁面沒有查詢字串 `cid`，則該行銷頻道應被識別為 [!DNL *自然Search*]。
+- 如果頁面的查詢字串值 `cid` 包含 `em_`，則該行銷頻道應標識為 [!DNL *電子郵件*]。
+- 如果頁面具有查詢字串值，其中`cid``ds_`包含 ，則該行銷頻道應識別為&#x200B;[!DNL *顯示廣告*]。
+- 如果頁面的查詢字串值 `cid` 包含 `so_`，則該行銷頻道應標識為 [!DNL *付費Social*]。
+- 如果反向連結來自[!DNL twitter.com]、[!DNL facebook.com]、[!DNL linkedin.com]或[!DNL tiktok.com]的反向連結網域，則行銷管道應識別為&#x200B;[!DNL *自然社交*]。
+- 如果上述規則都不相符，則行銷管道應識別為&#x200B;[!DNL *其他反向連結*]。
 
-如果您的網站收到以下範例事件，包含 [!UICONTROL 反向連結] 和 [!UICONTROL 頁面URL]，這些事件的識別方式如下：
+如果您的網站收到下列範例事件（包含[!UICONTROL 反向連結]和[!UICONTROL 頁面URL]），這些事件的識別方式如下：
 
 | [!DNL Event] | [!DNL Referrer] | [!DNL Page URL] | [!DNL Marketing Channel] |
 |:--:|----|----|----|
@@ -438,11 +438,11 @@ ht-degree: 12%
 
 ### 衍生欄位 {#casewhen-uc1-derivedfield}
 
-您定義 `Marketing Channel` 衍生欄位。 您使用 [!UICONTROL 案例條件] 函式來定義規則，這些規則會根據兩者的現有值為建立值 `Page URL` 和 `Referring URL` 欄位。
+您定義`Marketing Channel`衍生欄位。 您使用[!UICONTROL CASE WHEN]函式來定義規則，這些規則會根據`Page URL`和`Referring URL`欄位的現有值為建立值。
 
-請注意函式的使用情況 [!UICONTROL URL解析] 以定義擷取值的規則 `Page Url` 和 `Referring Url` 早於 [!UICONTROL 案例條件] 規則已套用。
+請注意，在套用[!UICONTROL CASE WHEN]規則之前，使用函式[!UICONTROL URL PARSE]來定義規則以擷取`Page Url`和`Referring Url`的值。
 
-![規則1時案例的熒幕擷圖](assets/case-when-1.png)
+規則1](assets/case-when-1.png)時的![案例熒幕擷圖
 
 ### 之後的資料 {#casewhen-uc1-dataafter}
 
@@ -460,9 +460,9 @@ ht-degree: 12%
 
 ## 使用案例2 {#casewhen-uc2}
 
-您已收集內多種不同的搜尋變體 [!DNL Product Finding Methods] 維度。 若要瞭解搜尋與瀏覽的整體效能，您必須花大量時間手動結合結果。
+您已在您的[!DNL Product Finding Methods]維度中收集數個不同的搜尋變體。 若要瞭解搜尋與瀏覽的整體效能，您必須花大量時間手動結合結果。
 
-您的網站為收集以下值 [!DNL Product Finding Methods] 維度。 最後，所有這些值都表示搜尋。
+您的網站會收集您[!DNL Product Finding Methods]維度的下列值。 最後，所有這些值都表示搜尋。
 
 | 收集的值 | 實際值 |
 |---|---|
@@ -494,9 +494,9 @@ ht-degree: 12%
 
 ### 衍生欄位 {#casewhen-uc2-derivedfield}
 
-您定義 `Product Finding Methods (new)` 衍生欄位。 您可建立下列專案 [!UICONTROL 案例條件] 規則產生器中的規則。 這些規則會將邏輯套用至舊版本的所有可能變體 [!UICONTROL 產品尋找方法] 的欄位值 `search` 和 `browse` 使用 [!UICONTROL 包含片語] 條件。
+您定義`Product Finding Methods (new)`衍生欄位。 您在規則產生器中建立下列[!UICONTROL CASE WHEN]規則。 這些規則會使用[!UICONTROL 包含片語]條件，將邏輯套用至`search`和`browse`的舊[!UICONTROL 產品尋找方法]欄位值的所有可能變化。
 
-![規則2時的案例熒幕擷圖](assets/case-when-2.png)
+![規則2](assets/case-when-2.png)時案例的熒幕擷圖
 
 ### 之後的資料 {#casewhen-uc2-dataafter}
 
@@ -522,9 +522,9 @@ ht-degree: 12%
 假設：
 
 - 組織正在將運送航程期間收集到數值欄位中。
-- 他們想要將1-3天的期間貯體放入名為&#39;的貯體中[!DNL short trip]『
-- 他們想要將4-7天的期間貯體放入名為&#39;的貯體中[!DNL medium trip]『
-- 他們想要將8天以上的期間貯體放入名為&#39;的貯體[!DNL long trip]『
+- 他們想要將1-3天的期間儲存在名為&#39;[!DNL short trip]&#39;的貯體中
+- 他們想要將4-7天期間儲存至名為&#39;[!DNL medium trip]&#39;的貯體
+- 他們想要將8天以上的期間儲存至名為&#39;[!DNL long trip]&#39;的貯體
 - 1天期間預訂了132次行程
 - 已預訂110次旅行，為期2天
 - 已預訂105次行程，為期3天
@@ -567,9 +567,9 @@ ht-degree: 12%
 
 ### 衍生欄位 {#casewhen-uc3-derivedfield}
 
-您定義 `Trip Duration (bucketed)` 衍生欄位。 您可建立下列專案 [!UICONTROL 案例條件] 規則產生器中的規則。 此規則會將邏輯套用至舊的 [!UICONTROL 行程期間] 將欄位值分為三個值： `short trip`， `medium  trip`、和 `long trip`.
+您定義`Trip Duration (bucketed)`衍生欄位。 您在規則產生器中建立下列[!UICONTROL CASE WHEN]規則。 此規則套用邏輯至將舊的[!UICONTROL 行程持續時間]欄位值儲存為三個值： `short trip`、`medium  trip`和`long trip`。
 
-![規則3時案例的熒幕擷圖](assets/case-when-3.png)
+規則3](assets/case-when-3.png)時的![案例熒幕擷圖
 
 
 ### 之後的資料 {#casewhen-uc3-dataafter}
@@ -592,7 +592,7 @@ ht-degree: 12%
 
 ## 詳細資訊 {#casewhen-more-info}
 
-Customer Journey Analytics使用巢狀容器結構，並按照Adobe Experience Platform的範例建模 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) （體驗資料模型）。 另請參閱 [容器](../create-dataview.md#containers) 和 [篩選容器](../../components/filters/filters-overview.md#filter-containers) 以取得更多背景資訊。 此容器模型雖然本身有彈性，但在使用規則產生器時施加了一些限制。
+Customer Journey Analytics使用巢狀容器結構，仿照Adobe Experience Platform的[XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) (Experience Data Model)建模。 如需詳細背景資訊，請參閱[容器](../create-dataview.md#containers)和[篩選容器](../../components/filters/filters-overview.md#filter-containers)。 此容器模型雖然本身有彈性，但在使用規則產生器時施加了一些限制。
 
 Customer Journey Analytics會使用以下預設容器模型：
 
@@ -600,13 +600,13 @@ Customer Journey Analytics會使用以下預設容器模型：
 <img src="./assets/containers.png" width="50%" valign="middle">
 </p>
 
-下列限制適用，且會在下列情況下強制執行： *選取* 和 *設定* 值。
+下列限制套用，並在&#x200B;*選取*&#x200B;和&#x200B;*設定*&#x200B;值時強制執行。
 
 |  | 限制 |
 |:---:|----|
-| **A** | 您的值 *選取* 在相同 [!UICONTROL 如果]， [!UICONTROL Else If] 建構(使用 [!UICONTROL 與] 或 [!UICONTROL 或])且必須源自相同容器，可以是任何型別（字串） ![字串](assets/Smock_ABC_18_N.svg)，數值 ![數值](assets/Smock_123_18_N.svg)，依此類推)。 <br/>![相依性A的熒幕擷圖](assets/dependency-a.png) |
-| **B** | 您所有的值 *設定* 跨規則必須來自相同容器，且具有相同型別或相同型別的衍生值。 <br/> ![相依性B的熒幕擷圖](assets/dependency-b.png) |
-| **C** | 您的值 *選取* 橫向 [!UICONTROL 如果]， [!UICONTROL Else If] 規則中的建構do *非* 必須源自相同的容器，並 *非* 必須是相同型別。 <br/> ![相依性C的熒幕擷圖](assets/dependency-c.png) |
+| **A** | 您&#x200B;*選取相同[!UICONTROL If]、[!UICONTROL Else If]建構（使用[!UICONTROL And]或[!UICONTROL Or]）的值必須源自相同的容器，而且可以是任何型別（字串![String](assets/Smock_ABC_18_N.svg)、數值![Numeric](assets/Smock_123_18_N.svg)等等）。*&#x200B;相依性A](assets/dependency-a.png)的<br/>![熒幕擷圖 |
+| **B** | 您&#x200B;*在規則中設定*&#x200B;的所有值都必須來自相同的容器，且必須具有相同的型別或相同型別的衍生值。<br/> 相依性B](assets/dependency-b.png)的![熒幕擷圖 |
+| **C** | 您&#x200B;*在[!UICONTROL If]，[!UICONTROL Else If]規則中的建構值*&#x200B;不&#x200B;*必須源自相同的容器，而且*&#x200B;不&#x200B;*必須是相同的型別。<br/>* 相依性C](assets/dependency-c.png)的![熒幕擷圖 |
 
 {style="table-layout:auto"}
 
@@ -624,15 +624,15 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要分類的欄位]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 當值等於] 和 [!UICONTROL 將值取代為]：</p><ul><li>字串</li></ul><li>顯示原始值<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <ul><li>每個衍生欄位5個函式</li><li>200 [運運算元](#operators) 每個衍生欄位。 每個專案 [!UICONTROL 當值等於原始值時] [!UICONTROL 以新值取代值] 視為作業。</li></ul> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 要分類的欄位]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 當值等於]且[!UICONTROL 將值取代為]時：</p><ul><li>字串</li></ul><li>顯示原始值<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <ul><li>每個衍生欄位5個函式</li><li>每個衍生欄位有200個[運運算元](#operators)。 [!UICONTROL 當值等於原始值]時[!UICONTROL 將值取代為新值]的每個專案都視為作業。</li></ul> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
 
 ## 使用案例1 {#classify-uc1}
 
-您的CSV檔案確實包含索引鍵欄， `hotelID` 以及一或多個與關聯的其他欄 `hotelID`： `city`， `rooms`， `hotel name`.
-您正在收集 [!DNL Hotel ID] 但想要建立 [!DNL Hotel Name] 維度衍生自 `hotelID` CSV檔案中的。
+CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯的一或多個其他資料行： `city`、`rooms`、`hotel name`。
+您正在收集維度中的[!DNL Hotel ID]，但想要建立衍生自CSV檔案中`hotelID`的[!DNL Hotel Name]維度。
 
 **CSV檔案結構和內容**
 
@@ -657,7 +657,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 {style="table-layout:auto"}
 
 
-**所需報告**
+**所要的報告**
 
 | [!DNL Hotel Name] | 產品檢視 |
 |----|----:|
@@ -681,11 +681,11 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 ### 衍生欄位 {#classify-uc1-derivedfield}
 
-您定義 `Hotel Name` 衍生欄位。 您使用 [!UICONTROL 分類] 函式以定義規則，您可在其中分類 [!UICONTROL 飯店ID] 欄位並取代為新值。
+您定義`Hotel Name`衍生欄位。 您使用[!UICONTROL CLASSIFY]函式來定義規則，您可以在其中分類[!UICONTROL 飯店ID]欄位的值，並以新值取代。
 
-如果您想要包含尚未定義成分類值一部分的原始值（例如飯店ID AMS789），請務必選取 **[!UICONTROL 顯示原始值]**. 這可確保AMS789是衍生欄位輸出的一部分，儘管該值未分類。
+如果您想要包含尚未定義成要分類之值的一部分的原始值（例如飯店ID AMS789），請務必選取&#x200B;**[!UICONTROL 顯示原始值]**。 這可確保AMS789是衍生欄位輸出的一部分，儘管該值未分類。
 
-![分類規則1的熒幕擷圖](assets/classify-1.png)
+![分類規則1](assets/classify-1.png)的熒幕擷圖
 
 ### 之後的資料 {#classify-uc1-dataafter}
 
@@ -718,9 +718,9 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 ### 衍生欄位 {#classify-uc2-derivedfield}
 
-您定義 `Page Name (updated)` 衍生欄位。 您使用 [!UICONTROL 分類] 函式以定義規則，您可在其中分類現有值 [!UICONTROL 頁面名稱] 欄位並取代為更新的正確值。
+您定義`Page Name (updated)`衍生欄位。 您使用[!UICONTROL CLASSIFY]函式來定義規則，您可以在其中將現有[!UICONTROL 頁面名稱]欄位的值分類，並以更新的正確值取代。
 
-![分類規則2的熒幕擷圖](assets/classify-2.png)
+![分類規則2](assets/classify-2.png)的熒幕擷圖
 
 ### 之後的資料 {#classify-uc2-dataafter}
 
@@ -739,10 +739,10 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 「分類」規則介面中提供下列額外功能：
 
-- 若要快速清除所有表格值，請選取 ![擦除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL 清除所有表格值]**.
-- 若要上傳包含「當值等於時」的原始值和「取代為」的新值的CSV檔案，請選取 ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL 上傳CSV]**.
-- 若要下載範本，以建立具有要上傳的原始值和新值的CSV檔案，請選取 ![下載](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL 下載CSV範本]**.
-- 若要下載CSV檔案，並在規則介面中填入所有原始值和新值，請選取「 」 ![下載](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL 下載CSV值]**.
+- 若要快速清除所有表格值，請選取![清除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL 清除所有表格值]**。
+- 若要上傳包含「當值等於時」的原始值和取代值的新值的CSV檔案，請選取![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL 上傳CSV]**。
+- 若要下載範本，以建立具有原始值和新值的CSV檔案來上傳，請選取![下載](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL 下載CSV範本]**。
+- 若要下載CSV檔案，並在規則介面中填入所有原始值和新值，請選取![下載](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL 下載CSV值]**。
 
 
 +++
@@ -807,7 +807,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 
 ### 衍生欄位 {#concatenate-derivedfield}
 
-您定義 `Origin - Destination` 衍生欄位。 您使用 [!UICONTROL 串連] 定義規則以串連 [!UICONTROL 原始] 和 [!UICONTROL 目的地] 欄位使用 `-` [!UICONTROL 分隔符號].
+您定義`Origin - Destination`衍生欄位。 您使用[!UICONTROL CONCATENATE]函式定義規則，以使用`-` [!UICONTROL 分隔符號]串連[!UICONTROL Original]和[!UICONTROL Destination]欄位。
 
 ![串連規則的熒幕擷圖](assets/concatenate.png)
 
@@ -826,32 +826,29 @@ Customer Journey Analytics會使用以下預設容器模型：
 +++
 
 
-<!-- DEDUPLICATE
+### 重複資料刪除
 
-### Deduplicate
+避免多次計算值。
 
-Prevents counting a value multiple times.
++++ 詳細資料
 
-+++ Details
 
-{{release-limited-testing-section}}
+## 規格 {#deduplicate-io}
 
-## Specifications {#deduplicate-io}
-
-| Input Data Type | Input | Included Operators | Limitations | Output |
+| 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>String</li><li>Numeric</li></ul> | <ul><li>[!UICONTROL Value]:<ul><li>Rules</li><li>Standard fields</li><li>Fields</li><li>String</li></ul></li><li>[!UICONTROL Scope]:<ul><li>Person</li><li>Session</li></ul></li><li>[!UICONTROL Deduplication ID]:<ul><li>Rules</li><li>Standard fields</li><li>Fields</li><li>String</li></ul><li>[!UICONTROL Value to keep]:<ul><li>Keep first instance</li><li>Keep last instance</li></ul></li></ul> | <p>N/A</p>| <p>5 functions per derived field</p> | <p>New derived field</p> |
+| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 值]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul></li><li>[!UICONTROL 領域]：<ul><li>「人」</li><li>工作階段</li></ul></li><li>[!UICONTROL 重複資料刪除ID]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul><li>[!UICONTROL 要保留的值]：<ul><li>保留第一個執行個體</li><li>保留最後一個執行個體</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
 
-## Use case 1 {#deduplicate-uc1}
+## 使用案例1 {#deduplicate-uc1}
 
-You want to prevent counting duplicate revenue when a user reloads the booking confirmation page. You use the booking confirmation ID at the identifier to not count the revenue again, when received on the same event.
+您想要防止在使用者重新載入預訂確認頁面時計算重複收入。 在相同事件上收到收入時，您可以在識別碼處使用預訂確認ID來避免再次計算收入。
 
-### Data before {#deduplicate-uc1-databefore}
+### 在此之前的資料 {#deduplicate-uc1-databefore}
 
-| Booking Confirmation ID | Revenue |
+| 預訂確認ID | 收入 |
 |----|---:|
 | ABC123456789 | 359 |
 | ABC123456789 | 359 |
@@ -859,15 +856,15 @@ You want to prevent counting duplicate revenue when a user reloads the booking c
 
 {style="table-layout:auto"}
 
-### Derived field {#deduplicate-uc1-derivedfield}
+### 衍生欄位 {#deduplicate-uc1-derivedfield}
 
-You define a `Booking Confirmation` derived field. You use the [!UICONTROL DEDUPLICATE] function to define a rule to deduplicate the [!UICONTROL Value] [!DNL Booking] for [!UICONTROL Scope] [!DNL Person] using [!UICONTROL Deduplication ID] [!UICONTROL Booking Confirmation ID]. You select [!UICONTROL Keep first instance] as [!UICONTROL Value to keep].
+您定義`Booking Confirmation`衍生欄位。 您使用[!UICONTROL DEDUPLICATE]函式定義規則，以使用[!UICONTROL 重複資料刪除ID] [!UICONTROL 預約確認ID]為[!UICONTROL 範圍] [!DNL Person]重複資料刪除[!UICONTROL 值] [!DNL Booking]。 您選取[!UICONTROL 保留第一個執行個體]作為[!UICONTROL 要保留的值]。
 
-![Screenshot of the Concatenate rule](assets/deduplicate-1.png)
+![串連規則的熒幕擷圖](assets/deduplicate-1.png)
 
-### Data after {#deduplicate-uc1-dataafter}
+### 之後的資料 {#deduplicate-uc1-dataafter}
 
-| Booking Confirmation ID | Revenue |
+| 預訂確認ID | 收入 |
 |----|---:|
 | ABC123456789 | 359 |
 | ABC123456789 | 0 |
@@ -875,43 +872,42 @@ You define a `Booking Confirmation` derived field. You use the [!UICONTROL DEDUP
 
 {style="table-layout:auto"}
 
-## Use case 2 {#deduplicate-uc2}
+## 使用案例2 {#deduplicate-uc2}
 
-You use events as a proxy for campaign click-throughs with external marketing campaigns. Reloads & redirects are causing the event metric to be inflated. You would like to deduplicate the tracking code dimension so only the first is collected and minimize the event overcounting.
+您可以使用事件作為搭配外部行銷活動的促銷活動點進代理。 重新載入和重新導向會造成事件量度膨脹。 您想要刪除追蹤程式碼維度的重複專案，以便只收集第一個專案，並將事件過度計數最小化。
 
-### Data before {#deduplicate-uc2-databefore}
+### 在此之前的資料 {#deduplicate-uc2-databefore}
 
-| Visitor ID | Marketing Channel | Events |
+| 訪客 ID | 行銷管道 | 活動 |
 |----|---|---:|
-| ABC123 | paid search | 1 |
-| ABC123 | paid search | 1 |
-| ABC123 | paid search | 1 |
-| DEF123 | email | 1 |
-| DEF123 | email | 1 |
-| JKL123 | natural search | 1 |
-| JKL123 | natural search | 1 |
+| ABC123 | 付費搜尋 | 1 |
+| ABC123 | 付費搜尋 | 1 |
+| ABC123 | 付費搜尋 | 1 |
+| DEF123 | 電子郵件 | 1 |
+| DEF123 | 電子郵件 | 1 |
+| JKL123 | 免費搜尋 | 1 |
+| JKL123 | 免費搜尋 | 1 |
 
 {style="table-layout:auto"}
 
-### Derived field {#deduplicate-uc2-derivedfield}
+### 衍生欄位 {#deduplicate-uc2-derivedfield}
 
-You define a new `Tracking Code (deduplicated)` derived field. You use the [!UICONTROL DEDUPLICATE] function to define a rule to deduplicate the [!UICONTROL Tracking Code] with a [!UICONTROL Deduplication scope] of [!UICONTROL Session] and [!UICONTROL Keep first instance] as the [!UICONTROL Value to keep].
+您定義新的`Tracking Code (deduplicated)`衍生欄位。 您使用[!UICONTROL DEDUPLICATE]函式來定義規則，以重複刪除具有[!UICONTROL 工作階段]的[!UICONTROL 重複刪除範圍]和[!UICONTROL 保留第一個執行個體]的[!UICONTROL 追蹤代碼]，作為[!UICONTROL 要保留的值]。
 
-![Screenshot of the Concatenate rule](assets/deduplicate-2.png)
+![串連規則的熒幕擷圖](assets/deduplicate-2.png)
 
-### Data after {#deduplicate-uc2-dataafter}
+### 之後的資料 {#deduplicate-uc2-dataafter}
 
-| Visitor ID | Marketing Channel | Events |
+| 訪客 ID | 行銷管道 | 活動 |
 |----|---|---:|
-| ABC123 | paid search | 1 |
-| DEF123 | email | 1 |
-| JKL123 | natural search | 1 |
+| ABC123 | 付費搜尋 | 1 |
+| DEF123 | 電子郵件 | 1 |
+| JKL123 | 免費搜尋 | 1 |
 
 {style="table-layout:auto"}
 
 +++
 
--->
 
 <!-- FIND AND REPLACE -->
 
@@ -925,14 +921,14 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 值]<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 尋找全部]， [!UICONTROL 並全部取代為]：<ul><li>字串</li></ul></li></ul></ul> | <p>字串</p><ul><li>[!UICONTROL 尋找全部]， [!UICONTROL 並全部取代為]</li></ul> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 值]<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>[!UICONTROL 尋找全部]、[!UICONTROL 並以]取代全部：<ul><li>字串</li></ul></li></ul></ul> | <p>字串</p><ul><li>[!UICONTROL 尋找全部]、[!UICONTROL 並以]取代全部</li></ul> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
 
 ## 使用案例 {#findreplace-uc}
 
-例如，您收到的外部行銷管道報表值格式錯誤 `email%20 marketing` 而非 `email marketing`. 這些格式錯誤的值會割裂您的報表，並使您更難以檢視電子郵件的執行情形。 您想要取代 `email%20marketing` 替換為 `email marketing`.
+您收到一些外部行銷管道報表的格式錯誤值，例如`email%20 marketing`而非`email marketing`。 這些格式錯誤的值會割裂您的報表，並使您更難以檢視電子郵件的執行情形。 您想要將`email%20marketing`取代為`email marketing`。
 
 **原始報告**
 
@@ -964,9 +960,9 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 衍生欄位 {#findreplace-uc-derivedfield}
 
-您定義 `Email Marketing (updated)` 衍生欄位。 您使用 [!UICONTROL 尋找和取代] 定義規則以尋找及取代所有出現位置的函式 `email%20marketing` 替換為 `email marketing`.
+您定義`Email Marketing (updated)`衍生欄位。 您使用[!UICONTROL FIND AND REPLACE]函式定義規則，尋找並以`email marketing`取代`email%20marketing`的所有具體值。
 
-![尋找和取代規則的熒幕擷圖](assets/find-and-replace.png)
+![尋找與取代規則的熒幕擷圖](assets/find-and-replace.png)
 
 ### 之後的資料 {#findreplace-uc-dataafter}
 
@@ -1015,7 +1011,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 衍生欄位 {#lookup-uc-derivedfield}
 
-您定義 `Activity Name` 衍生欄位。 您使用 [!UICONTROL 查詢] 定義規則以從收集資料中查詢值的函式，值的指定位置為 [!UICONTROL 要套用查閱的欄位] 欄位(例如 **[!DNL ActivityIdentifier]**)。 您可以從中選擇查詢資料集 [!UICONTROL 查詢資料集] 清單(例如 **[!DNL New CJA4T Activities]**)。 接著選取識別碼欄位(例如 **[!DNL ActivityIdentifier]**)從 [!UICONTROL 比對索引鍵] 清單和要從傳回的欄位 [!UICONTROL 要傳回的值] 清單(例如 **[!DNL ActivityName]**)。
+您定義`Activity Name`衍生欄位。 您使用[!UICONTROL LOOKUP]函式定義規則，以從您收集的資料（在[!UICONTROL 要套用查詢的欄位]欄位中指定）中查詢值（例如&#x200B;**[!DNL ActivityIdentifier]**）。 您從[!UICONTROL 查詢資料集]清單中選取查詢資料集（例如&#x200B;**[!DNL New CJA4T Activities]**）。 然後您從[!UICONTROL 比對索引鍵]清單中選取識別碼欄位（例如&#x200B;**[!DNL ActivityIdentifier]**），並從[!UICONTROL 要傳回]的值清單中選取要傳回的欄位（例如&#x200B;**[!DNL ActivityName]**）。
 
 ![小寫規則的熒幕擷圖](assets/lookup.png)
 
@@ -1023,12 +1019,12 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 查詢函式會在報表時間套用至Customer Journey Analytics從您設定為連線一部分的查詢資料集中擷取的資料。
 
-您可以快速插入 [!UICONTROL 查詢] 函式中，已包含一或多個其他函式。
+您可以在規則產生器中快速插入[!UICONTROL 查詢]函式，該函式已包含一或多個其他函式。
 
-1. 選取 **[!UICONTROL 結構描述欄位]** 從選取器。
-1. 選取 ![結構欄點陣圖示](assets/Smock_Folder_18_N.svg) **[!UICONTROL 查詢資料集]**.
+1. 從選取器中選取&#x200B;**[!UICONTROL 結構描述欄位]**。
+1. 選取![結構描述欄點陣圖示](assets/Smock_Folder_18_N.svg) **[!UICONTROL 查詢資料集]**。
 1. 選取您的查詢資料集，並尋找您要用於查詢的欄位。
-1. 將查詢欄位拖放至函式的任何可用輸入欄位上（例如Case When）。 有效時，會顯示藍色方塊，標籤為 **[!UICONTROL +新增]**，可讓您放置欄位，並在您放置查閱欄位的函式之前自動插入查閱函式。 插入的Lookup函式會自動填入所有欄位的相關值。
+1. 將查詢欄位拖放至函式的任何可用輸入欄位上（例如Case When）。 有效時，藍色方塊（標示為&#x200B;**[!UICONTROL + Add]**）可讓您放置欄位，並在您放置查閱欄位的函式之前自動插入Lookup函式。 插入的Lookup函式會自動填入所有欄位的相關值。
    ![查詢拖曳](assets/lookup-drag.png)
 
 +++
@@ -1046,7 +1042,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul> | <p>不適用</p> | <p>每個衍生欄位2個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]..</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul> | <p>不適用</p> | <p>每個衍生欄位2個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -1054,7 +1050,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 您想要將所有收集的產品名稱轉換為小寫，以便正確製作報表。
 
-### 在此之前的資料 {#lowercase-uc-databefore}
+### 數據之前 {#lowercase-uc-databefore}
 
 | 收集的產品名稱 | 產品檢視 |
 |---|---:|
@@ -1069,7 +1065,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 衍生欄位 {#lowercase-uc-derivedfield}
 
-您定義 `Product Names` 衍生欄位。 您使用 [!UICONTROL 小寫] 函式來定義規則，以將 [!UICONTROL 收集的產品名稱] 欄位轉換為小寫，並將其儲存在新的衍生欄位中。
+您定義`Product Names`衍生欄位。 您使用[!UICONTROL LOWERCASE]函式定義規則，將[!UICONTROL 收集的產品名稱]欄位的值轉換為小寫，並儲存在新的衍生欄位中。
 
 ![小寫規則的熒幕擷圖](assets/lowercase.png)
 
@@ -1118,7 +1114,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 衍生欄位 {#math-uc-derivedfield}
 
-您定義 `Corrected Annual Revenue` 衍生欄位。 您使用 [!UICONTROL MATH] 函式來定義將原始年度收入數字乘以1.05的規則。
+您定義`Corrected Annual Revenue`衍生欄位。 您使用[!UICONTROL MATH]函式來定義將原始年度收入數字乘以1.05的規則。
 
 ![數學規則的熒幕擷圖](assets/math.png)
 
@@ -1141,18 +1137,18 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 1. 只要開始輸入公式欄位和符合您輸入內容的數值欄位，就會出現在快顯功能表中。 或者，您可以從左窗格的可用欄位中拖放數值欄位。
    ![數學更多資訊1](assets/math-more-info-1.png)
 
-1. 新增運算元(例如 `*` 乘以)後接著另一個欄位或靜態值。 您可以使用括弧來定義更複雜的公式。
+1. 新增運算元（例如`*`要相乘），然後加上另一個欄位或靜態值。 您可以使用括弧來定義更複雜的公式。
 
-1. 插入靜態值(例如 `1.05`)，輸入值並選取 **[!UICONTROL 新增 *x* 作為靜態值]** 或 **[!UICONTROL 新增 — *x* 作為負靜態值]** 從躍現式選單中。
+1. 若要插入靜態值（例如`1.05`），請輸入值並從快顯功能表選取&#x200B;**[!UICONTROL 將&#x200B;*x*新增為靜態值]**&#x200B;或將&#x200B;**[!UICONTROL 新增 — *x*為負靜態值]**。
    ![數學更多資訊2](assets/math-more-info-2.png)
 
-1. 綠色核取標籤 ![核取記號](./assets/checkmark.svg)</span> 指出數學公式是否有效，否則會顯示警告 ![警報](./assets/alert.svg) 和訊息 [!UICONTROL 無效的公式運算式].
+1. 綠色核取記號![核取記號](./assets/checkmark.svg)</span>表示您的數學公式是否有效，否則您將會看到警告![警示](./assets/alert.svg)和訊息[!UICONTROL 公式運算式無效]。
    ![數學更多資訊3](assets/math-more-info-3.png)
 
-在中使用靜態數字時，有一些重要的考量 [!UICONTROL MATH] 函式：
+在[!UICONTROL MATH]函式中使用靜態數字時，有一些重要的考量：
 
-- 靜態值需與欄位相關聯。 例如，使用 [!UICONTROL MATH] 不支援只包含靜態欄位的函式。
-- 您不能使用raise to power運運算元(`ˆ`)。
+- 靜態值需與欄位相關聯。 例如，不支援只搭配靜態欄位使用[!UICONTROL MATH]函式。
+- 您無法在靜態值上使用raise to power運運算元(`ˆ`)。
 - 如果您在公式中使用多個靜態值，這些靜態值應該使用括弧分組，公式才有效。 例如：
 
    - 此公式傳回錯誤。
@@ -1161,7 +1157,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
    - 此公式有效。
      ![數學更多資訊5](assets/math-more-info-5.png)
 
-使用Math函式進行點選層級的計算。 使用 [摘要](#summarize) 用於以事件、工作階段或人員範圍為基礎的計算的函式。
+使用Math函式進行點選層級的計算。 針對以事件、工作階段或人員範圍為基礎的計算，使用[Summarize](#summarize)函式。
 
 +++
 
@@ -1178,27 +1174,27 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul> | <p>不適用</p> | <p>每個派生欄位 5 個函數</p> | <p>新衍生欄位</p> |
 
 {style="table-layout:auto"}
 
 ## 使用案例 {#merge-fields-uc}
 
-您想要建立由頁面名稱欄位和來電原因欄位組成的維度，其目的在於跨管道分析歷程。
+您將按讚創建由頁面名稱字段和呼叫原因字段組成的維度，目的是分析跨管道的旅程。
 
 ### 在此之前的資料 {#merge-fields-uc-databefore}
 
 | 頁面名稱 | 工作階段 | 訪客 |
 |---|--:|--:|
 | 說明頁面 | 250 | 200 |
-| 首頁 | 500 | 250 |
-| 產品詳細資料頁面 | 300 | 200 |
+| 主頁 | 500 | 250 |
+| 產品詳情頁面 | 300 | 200 |
 
 {style="table-layout:auto"}
 
 | 來電原因 | 工作階段 | 訪客 |
 |---|--:|--:|
-| 關於我訂單的問題 | 275 | 250 |
+| 關於我的訂單的問題 | 275 | 250 |
 | 變更我的訂單 | 150 | 145 |
 | 訂購時發生問題 | 100 | 95 |
 
@@ -1206,7 +1202,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 衍生欄位 {#merge-fields-uc-derivedfield}
 
-您定義 `Cross Channel Interactions` 衍生欄位。 您使用 [!UICONTROL 合併欄位] 函式來定義規則，以合併來自 [!UICONTROL 頁面名稱] 欄位和 [!UICONTROL 來電原因] 欄位並將其儲存在新的衍生欄位中。
+您定義`Cross Channel Interactions`衍生欄位。 您使用[!UICONTROL MERGE FIELDS]函式定義規則，以合併[!UICONTROL 頁面名稱]欄位和[!UICONTROL 來電原因]欄位的值，並將其儲存在新的衍生欄位中。
 
 ![合併欄位規則的熒幕擷圖](assets/merge-fields.png)
 
@@ -1227,7 +1223,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 您必須在「合併欄位」規則中選取相同型別的欄位。 例如，如果您選取「日期」欄位，則您要合併的所有其他欄位都必須是「日期」欄位。
 
-![合併欄位限制的熒幕擷圖](assets/merge-fields-constraint.png)
+![合併欄位上限制的熒幕擷圖](assets/merge-fields-constraint.png)
 
 +++
 
@@ -1244,35 +1240,35 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 方法]：<ul><li>上一個值</li><li>下一個值</li></ul></li><li>[!UICONTROL 範圍]：<ul><li>「人」</li><li>工作階段</li></ul></li><li>[!UICONTROL 索引]：<ul><li>數值</li></ul><li>[!UICONTROL 包含重複專案]：<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位3個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 方法]：<ul><li>上一個值</li><li>下一個值</li></ul></li><li>[!UICONTROL 領域]：<ul><li>「人」</li><li>工作階段</li></ul></li><li>[!UICONTROL 索引]：<ul><li>數值</li></ul><li>[!UICONTROL 包含重複專案]：<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位3個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
 ## 使用案例 {#prevornext-uc1}
 
-您想要瞭解 **下一個** 或 **上一個** 值是您收到的資料，已考慮重複值。
+您想要瞭解&#x200B;**next**&#x200B;或&#x200B;**previous**&#x200B;值是您收到的資料，並考慮到重複值。
 
 ### 資料 {#prevornext-uc1-databefore}
 
 **範例1 — 處理包含重複**
 
-| 已接收資料 | 下一個值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 下一個值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 | 上一個值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 上一個值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 |
+| 已接收資料 | 下一個值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 下一個值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 | 先前的值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 先前的值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 |
 |---|---|---|---|---|
 | 首頁 | 首頁 | 搜尋 | *沒有值* | *沒有值* |
 | 首頁 | 搜尋 | 搜尋 | 首頁 | *沒有值* |
 | 搜尋 | 搜尋 | 產品詳細資料 | 首頁 | 首頁 |
 | 搜尋 | 產品詳細資料 | 產品詳細資料 | 搜尋 | 首頁 |
 | 產品詳細資料 | 搜尋 | 搜尋 | 搜尋 | 搜尋 |
-| 搜尋 | 產品詳細資料 | 產品詳細資料 | 產品詳細資料 | 產品詳細資料 |
+| 搜尋 | 產品詳情 | 產品詳細資料 | 產品詳細資料 | 產品詳細資料 |
 | 產品詳細資料 | 搜尋 | 搜尋 | 搜尋 | 搜尋 |
 | 搜尋 | 搜尋 | *沒有值* | 產品詳細資料 | 產品詳細資料 |
 | 搜尋 | *沒有值* | *沒有值* | 搜尋 | 產品詳細資料 |
 
 {style="table-layout:auto"}
 
-**範例2 — 處理在收到的資料中包含具有空白值的重複專案**
+**範例2 — 處理收到的資料中包含空白值的重複專案**
 
-| 已接收資料 | 下一個值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 下一個值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 | 上一個值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 上一個值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 |
+| 已接收資料 | 下一個值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 下一個值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 | 先前的值<br/>工作階段<br/>索引= 1<br/>包含重複專案 | 先前的值<br/>工作階段<br/>索引= 1<br/>不包含重複專案 |
 |---|---|---|---|---|
 | 首頁 | 首頁 | 搜尋 | *沒有值* | *沒有值* |
 | 首頁 | 首頁 | 搜尋 | 首頁 | *沒有值* |
@@ -1288,7 +1284,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 衍生欄位 {#prevnext-uc1-derivedfield}
 
-您定義 `Next Value` 或 `Previous value` 衍生欄位。 您使用 [!UICONTROL 下一個或上一個] 函式來定義規則，以選取 [!UICONTROL 已接收資料] 欄位，選取 [!UICONTROL 下一個值] 或 [!UICONTROL 上一個值] 作為 [!UICONTROL 方法]， [!UICONTROL 工作階段] 作為範圍，並設定值 [!UICONTROL 索引] 至 `1`.
+您定義`Next Value`或`Previous value`衍生欄位。 您使用[!UICONTROL NEXT或PREVIOUS]函式來定義選取已接收[!UICONTROL 資料]欄位的規則，選取[!UICONTROL 下一個值]或[!UICONTROL 上一個值]做為[!UICONTROL 方法]，[!UICONTROL 工作階段]做為Scope，並將[!UICONTROL Index]的值設定為`1`。
 
 ![合併欄位規則的熒幕擷圖](assets/prevnext-next.png)
 
@@ -1296,11 +1292,11 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 您只能選取屬於「造訪」或「事件」表格的欄位。
 
-[!UICONTROL 包含重複專案] 決定如何處理重複值 [!UICONTROL 下一個或上一個] 函式。
+[!UICONTROL 包含重複專案]決定如何處理[!UICONTROL NEXT或PREVIOUS]函式的重複值。
 
-- 包含重複專案外觀和下一個或上一個值。 如果 [!UICONTROL 包含重複專案] 選取，則會忽略目前點選中下一個或上一個值的任何連續重複專案。
+- 包含重複專案外觀和下一個或上一個值。 如果選取[!UICONTROL 包含重複專案]，它將忽略目前點選中下一個或上一個值的所有循序重複專案。
 
-- 選取欄位中沒有（空白）值的列，將不會有下一個或上一個值傳回作為 [!UICONTROL 下一個或上一個] 函式輸出。
+- 選取欄位中沒有（空白）值的列，將不會在[!UICONTROL NEXT或PREVIOUS]函式輸出中傳回下一個或上一個值。
 
 +++
 
@@ -1322,7 +1318,7 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ## 使用案例 {#regex-replace-uc}
 
-您想要擷取URL的一部分，並作為唯一頁面識別碼來分析流量。 您使用 `[^/]+(?=/$|$)` 用於擷取URL結尾的規則運算式 `$1` 作為輸出模式。
+您想要擷取URL的一部分，並作為唯一頁面識別碼來分析流量。 您針對規則運算式使用`[^/]+(?=/$|$)`來擷取URL的結尾，並將`$1`作為輸出模式。
 
 ### 在此之前的資料 {#regex-replace-uc-databefore}
 
@@ -1337,9 +1333,9 @@ You define a new `Tracking Code (deduplicated)` derived field. You use the [!UIC
 
 ### 衍生欄位 {#regex-replace-uc-derivedfield}
 
-您建立 `Page Identifier` 衍生欄位。 您使用 [!UICONTROL REGEX取代] 函式來定義規則以取代 [!UICONTROL 反向連結URL] 使用 [!UICONTROL 規則運算式] 之 `[^/]+(?=/$|$)` 和 [!UICONTROL 輸出格式] 之 `$1`.
+您建立`Page Identifier`衍生欄位。 您使用[!UICONTROL REGEX REPLACE]函式定義規則，以使用`[^/]+(?=/$|$)`的[!UICONTROL Regex]和`$1`的[!UICONTROL 輸出格式]來取代[!UICONTROL 反向連結URL]欄位的值。
 
-![Regex Replace規則的熒幕擷圖](assets/regex-replace.png)
+![Regex Replac規則的熒幕擷圖](assets/regex-replace.png)
 
 
 ### 之後的資料 {#regex-replace-uc-dataafter}
@@ -1392,7 +1388,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 | 輸出預留位置序列 | 說明 |
 | --- | --- |
 | `$&` | 和全部運算式相符的輸出。 |
-| `$n` | 和第n個子運算式相符的輸出。 例如， `$1` 輸出第一個子運算式。 |
+| `$n` | 和第n個子運算式相符的輸出。 例如，`$1`輸出第一個子運算式。 |
 | ``$` `` | 輸出找到的最後一個相符項的結尾 (如果沒有找到之前的相符項，則為文字的開頭) 和目前相符項的開頭之間的文字。 |
 | `$+` | 輸出和規則運算式中最後一個標籤的子運算式相符的內容。 |
 | `$$` | 輸出字串字元 `"$"`。 |
@@ -1433,9 +1429,9 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 衍生欄位 {#split-u1-derivedfield}
 
-您建立 `Responses` 衍生欄位。 您使用 [!UICONTROL SPLIT] 函式來定義使用  [!UICONTROL 轉換為陣列] 轉換下列專案之值的方法： [!UICONTROL 語音應用程式回應] 欄位使用 `,` 作為 [!UICONTROL 分隔符號].
+您建立`Responses`衍生欄位。 您使用[!UICONTROL SPLIT]函式定義規則，以使用[!UICONTROL Convert to array]方法，以`,`作為[!UICONTROL 分隔符號]，轉換[!UICONTROL 語音應用程式回應]欄位的值。
 
-![分割規則1的熒幕擷圖](assets/split-1.png)
+![分割規則1](assets/split-1.png)的熒幕擷圖
 
 ### 之後的資料 {#split-uc1-dataafter}
 
@@ -1467,13 +1463,13 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 衍生欄位 {#split-u2-derivedfield}
 
-您建立  `First Response` 衍生欄位。 您使用 [!UICONTROL SPLIT] 函式來定義規則，以取自 [!UICONTROL 回應] 回應左側的欄位 `,` 做為分隔字元。
+您建立`First Response`衍生欄位。 您使用[!UICONTROL SPLIT]函式定義規則，以從回應`,`左側的[!UICONTROL 回應]欄位取得第一個值做為分隔符號。
 
 ![分割規則的熒幕擷圖 — 第一個值](assets/split-2.png)
 
-您建立 `Second Response` 衍生欄位，用以取得下列欄位的最後一個值： [!UICONTROL 回應] 欄位，方法是選取右側的「從」、1作為「分隔符號」、1作為「索引」。
+您可以建立一個`Second Response`衍生欄位，以從[!UICONTROL 回應]欄位取得最後一個值，方法是選取「從右側」、「1」作為「分隔符號」、「1」作為「索引」。
 
-![分割規則 — 最後一個值的熒幕擷圖](assets/split-3.png)
+![分割規則的熒幕擷圖 — 最後一個值](assets/split-3.png)
 
 ### 之後的資料 {#split-uc2-dataafter}
 
@@ -1522,8 +1518,8 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 情境：
 
 - CustomerABC123在購物車中為ProductABC新增35美元，然後單獨新增ProductDEF到購物車中新增75美元。
-- CustomerDEF456在購物車中新增50美元購買ProductGHI，然後在購物車中另外新增ProductJKL，價格為275美元。
-- CustomerGHI789為ProductMNO的購物車新增$500。
+- CustomerDEF456 為其 ProductGHI 購物車增加 50 美元，然後以 275 美元的價格單獨將 ProductJKL 新增至其購物車。
+- CustomerGHI789 為其 ProductMNO 購物車增加了 500 美元。
 
 邏輯：
 
@@ -1534,14 +1530,14 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 結果：
 
 - CustomerABC123加到購物車收入的總計$110。
-- CustomerDEF456的購物車總收入為$325。
-- CustomerGHI789加到購物車收入的總和$500。
+- 新增到購物車的總收入為 $325 （針對 CustomerDEF456）。
+- 新增到購物車的總收入為 $500 的客戶GHI789。
 
 ### 衍生欄位 {#summarize-uc-derivedfield}
 
-您建立 `Add To Cart Revenue Size` 衍生欄位。 您使用 [!UICONTROL 摘要] 函式和 [!UICONTROL Sum] [!UICONTROL 摘要方法] 替換為 [!UICONTROL 範圍] 設為 [!UICONTROL 個人] 來加總 [!UICONTROL cart_add] 欄位。 然後您使用秒 [!UICONTROL 案例條件] 將結果分割成樹狀目錄類別大小的規則。
+創建一個 `Add To Cart Revenue Size` 派生欄位。 您使用[!UICONTROL SUMMARIZE]函式和[!UICONTROL Sum] [!UICONTROL Summarize方法]，並將[!UICONTROL 範圍]設定為[!UICONTROL 人員]，來加總[!UICONTROL cart_add]欄位的值。 然後，使用第二個 [!UICONTROL CASE WHEN] 規則將結果拆分為樹類別大小。
 
-![摘要規則1的熒幕擷圖](assets/summarize.png)
+![摘要規則1](assets/summarize.png)的熒幕擷圖
 
 
 
@@ -1557,7 +1553,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ## 詳細資訊 {#summarize-more-info}
 
-使用摘要函式進行以事件、工作階段或人員範圍為基礎的計算。 使用 [Math](#math) 用於點選層級計算的函式。
+使用摘要函式進行以事件、工作階段或人員範圍為基礎的計算。 使用[Math](#math)函式進行點選層級的計算。
 
 +++
 
@@ -1592,9 +1588,9 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 衍生欄位 {#trim-u1-derivedfield}
 
-您建立 `Product Identifier` 衍生欄位。 您使用 [!UICONTROL TRIM] 定義規則的函式 **[!UICONTROL 修剪空白]** 從 **[!UICONTROL 產品ID]** 欄位。
+您建立`Product Identifier`衍生欄位。 您使用[!UICONTROL TRIM]函式定義規則以從&#x200B;**[!UICONTROL 產品識別碼]**&#x200B;欄位&#x200B;**[!UICONTROL 修剪空白字元]**。
 
-![分割規則1的熒幕擷圖](assets/trim-1.png)
+![分割規則1](assets/trim-1.png)的熒幕擷圖
 
 ### 之後的資料 {#trim-uc1-dataafter}
 
@@ -1622,7 +1618,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 衍生欄位 {#trim-u2-derivedfield}
 
-您建立  `Page Name` 衍生欄位。 您使用 [!UICONTROL TRIM] 定義規則的函式 [!UICONTROL 修剪特殊字元] 從 [!UICONTROL 名稱] 欄位使用 [!UICONTROL 特殊字元] `#?%&/`.
+您建立`Page Name`衍生欄位。 您使用[!UICONTROL TRIM]函式定義規則，以使用[!UICONTROL 特殊字元] `#?%&/`從[!UICONTROL 名稱]欄位修剪特殊字元]。[!UICONTROL 
 
 ![分割規則的熒幕擷圖 — 第一個值](assets/trim-2.png)
 
@@ -1637,7 +1633,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ## 使用案例3 {#trim-uc3}
 
-您收集包括storeID的資料。 storeID包含縮寫後的美國州碼，做為前兩個字元。 您只想在報告中使用該州碼。
+您收集包括 storeID 在內的數據。 storeID 包含縮寫的美國州代碼作為前兩個字元。 您只想在報告中使用該州碼。
 
 ### 在此之前的資料 {#trim-uc3-databefore}
 
@@ -1655,7 +1651,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 衍生欄位 {#trim-u3-derivedfield}
 
-您建立  `Store Identifier` 衍生欄位。 您使用 [!UICONTROL TRIM] 定義規則的函式 [!UICONTROL 從右側截斷] 此 [!UICONTROL storeID] 從字串結尾到位置的欄位 `3`.
+您建立`Store Identifier`衍生欄位。 您使用[!UICONTROL TRIM]函式定義規則以[!UICONTROL 從右側]截斷[!UICONTROL storeID]欄位（從字串結尾到位置`3`）。
 
 ![分割規則的熒幕擷圖 — 第一個值](assets/trim-3.png)
 
@@ -1707,9 +1703,9 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義  `Referring Domain` 衍生欄位。 您使用 [!UICONTROL URL解析] 定義規則以從擷取主機的函式 [!UICONTROL 反向連結URL] 欄位並將其儲存在新的衍生欄位中。
+您定義`Referring Domain`衍生欄位。 您使用[!UICONTROL URL PARSE]函式定義規則，以便從[!UICONTROL 反向連結URL]欄位擷取主機，並將其儲存在新的衍生欄位中。
 
-![Url剖析規則1的熒幕擷圖](assets/url-parse-1.png)
+![URL剖析規則1](assets/url-parse-1.png)的熒幕擷圖
 
 ### 之後的資料 {#urlparse-uc1-dataafter}
 
@@ -1725,7 +1721,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ## 使用案例2 {#urlparse-uc2}
 
-您想要使用 `cid` 中查詢字串的引數 [!DNL Page URL] 做為衍生追蹤程式碼報表輸出的一部分。
+您想要在[!DNL Page URL]中使用查詢字串的`cid`引數值，做為衍生追蹤程式碼報表輸出的一部分。
 
 ### 在此之前的資料 {#urlparse-uc2-databefore}
 
@@ -1739,9 +1735,9 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 衍生欄位 {#urlparse-uc2-derivedfield}
 
-您定義 `Query String CID` 衍生欄位。 您使用 [!UICONTROL URL解析] 定義規則以擷取中查詢字串引數值的函式 [!UICONTROL 頁面URL] 欄位，指定 `cid` 作為查詢引數。 輸出值會儲存在新的衍生欄位中。
+您定義`Query String CID`衍生欄位。 您使用[!UICONTROL URL PARSE]函式定義規則，以擷取[!UICONTROL 頁面URL]欄位中查詢字串引數的值，並將`cid`指定為查詢引數。 輸出值會儲存在新的衍生欄位中。
 
-![Url剖析規則2的熒幕擷圖](assets/url-parse-2.png)
+![URL剖析規則2](assets/url-parse-2.png)的熒幕擷圖
 
 ### 之後的資料 {#urlparse-uc2-dataafter}
 
@@ -1768,8 +1764,8 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 | 函數 | 限制 |
 |---|---|
-| <p>情況</p> | <ul><li>5案例當每個衍生欄位有函式時</li><li>200 [運運算元](#operators) 每個衍生欄位</li></ul> |
-| <p>分類</p> | <ul><li>5依衍生欄位分類函式</li><li>200 [運運算元](#operators) 每個衍生欄位</li></ul> |
+| <p>情況</p> | <ul><li>5案例當每個衍生欄位有函式時</li><li>每個衍生欄位有200個[運運算元](#operators)</li></ul> |
+| <p>分類</p> | <ul><li>5依衍生欄位分類函式</li><li>每個衍生欄位有200個[運運算元](#operators)</li></ul> |
 | <p>串連</p> | <ul><li>每個衍生欄位2個串連函式</li></ul> |
 | <p>重複資料刪除</p> | <ul><li>5每個衍生欄位刪除重複函式</li></ul> |
 | <p>尋找和取代</p> | <ul><li>每個衍生欄位2個尋找和取代函式</li></ul> |
@@ -1788,27 +1784,27 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 運算子
 
-If或Else If中的運運算元在Case When函式是條件與 **一** 值。 條件的每個額外值都會增加運運算元的數量。
+Case When 函數中的 If 或 Else If 構造中的運算子是條件與 **一個** 值的組合。 條件的每個附加值都會增加運算子的數量。
 
-例如，底下的條件使用13個運運算元。
+舉例來說，下面的條件使用 13 個運算符。
 
-![運運算元範例](assets/operators-sample.png)
+![範例運運算元](assets/operators-sample.png)
 
-Classification函式中的運運算元是以下專案的單一專案 [!UICONTROL 當值等於原始值時] [!UICONTROL 以新值取代值].
+分類函數中的運算符是“當值等於原始值時”的[!UICONTROL 單個條目，原始值][!UICONTROL 取代具有新值]的值。
 
 例如，底下的「分類」規則使用3個運運算元。
 
-![分類規則1的熒幕擷圖](assets/classify-1.png)
+![分類規則1](assets/classify-1.png)的熒幕擷圖
 
 
 ## 詳細資訊 {#trim-more-info}
 
-[`Trim`](#trim) 和 [`Lowercase`](#lowercase) 的元件設定中已提供哪些功能 [資料檢視](../component-settings/overview.md). 使用衍生欄位可讓您結合這些函式，直接在Customer Journey Analytics中進行更複雜的資料轉換。 例如，您可以使用 `Lowercase` 移除事件欄位中的區分大小寫功能，然後使用 [`Lookup`](#lookup) 比對新的小寫欄位與只有小寫查詢索引鍵的查詢資料集。 或者，您可以使用 `Trim` 若要在設定之前移除字元 `Lookup` 在新欄位上。
+[`Trim`](#trim)和[`Lowercase`](#lowercase)是[資料檢視](../component-settings/overview.md)中元件設定可用的功能。 使用派生欄位可以組合這些函數，直接在 Customer Journey Analytics 中執行更複雜的數據轉換。 例如，您可以使用`Lowercase`移除事件欄位中的區分大小寫功能，然後使用[`Lookup`](#lookup)將新的小寫欄位與只有小寫查詢索引鍵的查詢資料集進行比對。 或者，在新欄位設定`Lookup`之前，您可以使用`Trim`來移除字元。
 
 衍生欄位中支援查閱和設定檔欄位，可讓您根據事件查閱和設定檔屬性來轉換資料。 在有查詢或設定檔資料集中的帳戶層級資料的B2B案例中，這會特別有用。 此外，這項支援對於在查閱資料（如行銷活動資訊和選件型別）或設定檔資料（如成員層級和帳戶型別）的常見欄位中操作資料非常有用。
 
 如需衍生欄位的詳細背景資訊，請參閱：
 
-- [充分利用資料：在Customer Journey Analytics中使用衍生欄位的架構](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+- [充分利用您的資料：在Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)中使用衍生欄位的架構
 
-- [Customer Journey Analytics的衍生欄位使用案例](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+- Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)的[衍生欄位使用案例
