@@ -5,16 +5,16 @@ feature: Guided Analysis
 keywords: Product Analytics
 exl-id: 2e004894-dc1b-42a7-a060-240f0151b2f2
 role: User
-source-git-commit: 2b503ba784762d60efe8581c9ee06587aed416eb
+source-git-commit: 5752d3952987f8447cd12f953a57921044fa3c65
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1483'
 ht-degree: 98%
 
 ---
 
 # 產業使用案例
 
-本頁提供幾個說明性範例，說明不同產業的產品團隊透過引導式分析可以達成哪些目標。
+此頁面提供幾個說明性的業界範例，說明從分析師到產品團隊和行銷人員等客戶體驗團隊透過引導式分析可以達成哪些目標。
 
 +++**零售業**
 
