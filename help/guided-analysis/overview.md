@@ -5,20 +5,16 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: a55224d91dbcf7323ccd481b4a7469d5b80f12c4
-workflow-type: ht
-source-wordcount: '1397'
-ht-degree: 100%
+source-git-commit: 2addd3d17f62da69eb6636d987931fc21df07af5
+workflow-type: tm+mt
+source-wordcount: '1399'
+ht-degree: 92%
 
 ---
 
 # 引導式分析概觀
 
 引導式分析可讓使用者透過引導式工作流程 (在 Customer Journey Analytics 的跨管道資料上建置)，自助提供有關客戶歷程的高品質資料和深入分析。從行銷到產品的跨職能團隊可以即時連結以使用和了解這些報告。
-
->[!NOTE]
->
-> 引導式分析目前僅在 Adobe Product Analytics 中提供；而 Adobe Product Analytics 是 Customer Journey Analytics 的付費附加元件。如果您的組織想要開始使用這組功能，請聯絡您的 Adobe 帳戶團隊。
 
 與 Analysis Workspace 和行動計分卡類似，引導式分析使用來自[資料視圖](../data-views/data-views.md)的資料，透過[連線](../connections/overview.md)參考 Adobe Experience Platform 中的資料。多種在引導式分析中建立的報告可以無縫轉移到 Analysis Workspace 以進行其他研究。
 
@@ -72,9 +68,19 @@ ht-degree: 100%
 
 ## 佈建
 
-引導式分析是 Adobe Product Analytics 的一部分；而 Adobe Product Analytics 是 Customer Journey Analytics 的付費附加元件。如果您的組織想要開始使用這組功能，請聯絡您的 Adobe 帳戶團隊。
+引導式分析檢視會以下列方式納入Customer Journey Analytics套件中：
 
-一旦您的組織佈建為使用引導式分析，產品設定檔管理員就可以在 Adobe Admin Console 中新增或移除對它的存取權。
+| 封裝 | 可用檢視 |
+| --- | --- |
+| [!UICONTROL CJA附加元件] | 趨勢：使用、趨勢：頻率、漏斗：摩擦、漏斗：轉換趨勢、保留率：保留率、使用者成長：作用中、使用者成長：淨成長 |
+| [!UICONTROL CJA Foundation] | 趨勢：使用情況 |
+| [!UICONTROL CJA選取] | 基礎檢視+趨勢：頻率，漏斗：摩擦，漏斗：轉換趨勢，保留：保留率，使用者成長：作用中，使用者成長：淨成長 |
+| [!UICONTROL CJA Prime] | 選取檢視+使用者資料流：時間表，功能矩陣：參與，影響：發行，影響：首次使用 |
+| [!UICONTROL CJA Ultimate] | Prime檢視 |
+
+{style="table-layout:auto"}
+
+產品設定檔管理員可新增或移除對Adobe Admin Console中引導式分析的存取權。
 
 1. 登入 [Adobe Admin Console](https://adminconsole.adobe.com)。
 1. 在產品清單中選取「**[!UICONTROL Customer Journey Analytics]**」。
