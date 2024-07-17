@@ -7,7 +7,7 @@ role: User
 source-git-commit: c89a28323c9d40a7265cd22994a0d1c484f4c7ee
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 73%
+ht-degree: 80%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_button"
 >title="歸因"
->abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型"
+>abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的屬性模式"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_panel"
 >title="歸因面板"
->abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模式。<br/><br/>**引數&#x200B;**<br/>**頻道**<br/>&#x200B;要歸因的維度。 這可以是行銷管道、行銷活動或任何其他維度。<br/>**模型**<br/>&#x200B;此模型會決定如何將評分指派給接觸點。<br/>**回顧期間**<br/>&#x200B;此設定會決定針對每次轉換套用的資料歸因視窗。"
+>abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模式。<br/><br/>**參數&#x200B;**<br/>**管道**<br/>&#x200B;屬性依據的維度。這可以是行銷管道、活動或任何其他維度。<br/>**模式**<br/>&#x200B;此模式可決定如何將積分指派給接觸點。<br/>**回顧視窗**<br/>&#x200B;此設定可決定每個轉換要套用的資料屬性期間。"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 
@@ -44,7 +44,7 @@ Customer Journey Analytics 強化了歸因功能，讓您可以：
 1. 按一下左側的面板圖示。
 1. 將[!UICONTROL 歸因]拖曳到您的 Analysis Workspace 專案中。
 
-   ![「新增專案」視窗會醒目提示「歸因」面板。](assets/Attribution_Panel_1.png)
+   ![醒目提示歸因面板的新專案視窗。](assets/Attribution_Panel_1.png)
 
 1. 新增要歸因的量度，並新增任何作為歸因依據的維度。其範例包括行銷管道或自訂維度，例如內部促銷。
 
@@ -64,4 +64,4 @@ Customer Journey Analytics 強化了歸因功能，讓您可以：
 * **重疊圖**：文氏圖表會顯示前三大維項目，及其共同參與轉換的頻率。例如，重疊的泡泡圖大小代表某人接觸到兩個維度專案時發生轉換的頻率。 選取相鄰自由表格中的其他列，可依據您的選取項目更新視覺效果。
 * **效能詳細資料**：可讓您使用散布圖以視覺效果方式比較最多三個歸因模型。
 * **趨勢效能**：顯示排名前面的維度項目的歸因轉換趨勢。選取相鄰自由表格中的其他列，可依據您的選取項目更新視覺效果。
-* **流量**：可讓您檢視互動最頻繁的管道，及其在使用者歷程中的順序。
+* **流量**：可讓您檢視哪些頻道最常互動，以及在使用者歷程中的順序。
