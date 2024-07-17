@@ -1,24 +1,24 @@
 ---
 title: 引導式分析常見問題集
-description: 有關引導式分析的常見問題。
+description: 引導式分析的常見問題。
 exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: a8ead81a8de8dcab4c12cbbe9cba56c4ce8417a3
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: df00d954de5db89f0ccc40f7eb2474523d9e774e
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 71%
 
 ---
 
 # 引導式分析常見問題集
 
-有關引導式分析的常見問題。
+引導式分析的常見問題。
 
-+++**如何為我的組織佈建引導式分析？**
++++**我的組織是否可存取引導式分析？**
 
-引導式分析是 Adobe Product Analytics 的一部分；而 Adobe Product Analytics 是 Customer Journey Analytics 的付費附加元件。如果您想開始使用此附加元件，請聯絡您的 Adobe 帳戶團隊。
+所有Customer Journey Analytics套件都包含引導式分析檢視。 請參閱總覽頁面上的[布建](overview.md#provisioning)區段，深入瞭解您的CJA套件解除鎖定的檢視。
 
 +++
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 如果您現在已經在使用 Customer Journey Analytics，就無需進行額外的實作變更。引導式分析會使用與其他 CJA 介面相同的[資料視圖](../data-views/data-views.md)和[連線](../connections/overview.md)，例如 [Analysis Workspace](../analysis-workspace/home.md)。
 
-為了讓您的一般使用者能夠透過引導式分析取得最大成功，建議您在 Adobe Experience Platform 和[資料視圖](../data-views/data-views.md)中製定穩健的事件綱要和管理策略。
+若要讓一般使用者在引導式分析上取得最大成功，建議您在Adobe Experience Platform和[資料檢視](../data-views/data-views.md)中建立強大的事件結構描述和管理策略。
 
 +++
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 +++
 
-+++**引導式分析和 Analysis Workspace 之間的術語如何比較？**
++++**引導式分析和Analysis Workspace之間的術語比較結果如何？**
 
 引導式分析會使用產品團隊中較常用的字詞。在引導式分析和 [Analysis Workspace](../analysis-workspace/home.md) 之間切換時，您可以參考此表格。
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 +++
 
-+++**引導式分析和 Analysis Workspace 處理報告的方式有哪些差異？**
++++**引導式分析和Analysis Workspace方法報告的方式有何差異？**
 
 雖然 [Analysis Workspace](../analysis-workspace/home.md) 和引導式分析使用相同的基礎資料，各個工具支援您形成該資料查詢的方式依然有所不同。
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
   ![以維度為中心](assets/dimension-centered.png){style="border:1px solid gray"}
 
-* 以事件和使用者為中心的典型引導式分析方法會：「有多少使用者造訪過我們的首頁？」
+* 一般的事件和以使用者為中心的引導式分析方法會是：「有多少使用者造訪過首頁？」
 
   ![以事件為中心](assets/event-centered.png){style="border:1px solid gray"}
 
