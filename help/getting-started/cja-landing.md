@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 52021e557171754901fe6a64c7fa544243af70f1
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 7d915fc9b50163b7ec9c48232b99a85a3b063a77
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 >[!TAB 衍生欄位]
 
-新的衍生欄位函數 (數學、下一個或上一個、總結) 和附加函數範本 (如彈回數、易記的資料集名稱、假期季節、每月目標、簡單的機器人偵測等) 現已推出。
+新衍生的欄位函式（數學、下一個或上一個、摘要、重複資料刪除）和其他函式範本（例如彈回數、易記資料集名稱、假日季數、每月目標、簡單機器人偵測等）現已推出。
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
