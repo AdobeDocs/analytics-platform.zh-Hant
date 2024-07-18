@@ -20,7 +20,7 @@ ht-degree: 98%
 
 ## 介面
 
-![反白顯示範例範圍的日期範圍。](../assets/date-range-ui.png)
+![標示範例範圍的日期範圍。](../assets/date-range-ui.png)
 
 日期範圍管理器包括以下選項：
 

@@ -13,9 +13,9 @@ ht-degree: 57%
 
 # 建立及發佈對象
 
-本主題說明如何建立及發佈Customer Journey Analytics中識別的對象，並傳遞至 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant) Adobe Experience Platform中用於客戶目標定位和個人化。
+此主題討論如何將在Customer Journey Analytics中識別的對象建立並發佈到Adobe Experience Platform中的[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)，以用於客戶目標定位和個人化。
 
-閱讀此 [概述](/help/components/audiences/audiences-overview.md) 以熟悉Customer Journey Analytics對象的概念。
+請閱讀此[總覽](/help/components/audiences/audiences-overview.md)，熟悉Customer Journey Analytics對象的概念。
 
 ## 建立對象 {#create}
 
@@ -33,7 +33,7 @@ ht-degree: 57%
 
    請先配置設定，然後才能發佈對象。
 
-   ![建立下一節所述的對象傾斜設定的熒幕擷圖。](assets/create-audience.png)
+   ![建立下一節所述對象傾斜設定的熒幕擷圖。](assets/create-audience.png)
 
    | 設定 | 說明 |
    | --- | --- |
@@ -64,7 +64,7 @@ ht-degree: 57%
    | [!UICONTROL 預估回訪] | 此數字可提供從下拉式清單中所選時間範圍內的回訪客戶估計數量。我們查看該對象的歷史流失率來預測這個數字。 |
    | [!UICONTROL 預覽量度] | 此設定可讓您查看特定量度，以了解此對象是否對此量度貢獻了不成比例的數量，例如「[!UICONTROL 收入]」或「[!UICONTROL 網站平均逗留時間]」。它為您提供量度的彙總計數，以及它所代表的總數的百分比。您可以選取資料檢視中可用的任何量度。 |
    | [!UICONTROL 包含的命名空間] | 與對象中的人員相關聯的特定命名空間。範例包括 ECID、CRM ID、電子郵件地址等。 |
-   | [!UICONTROL 沙箱] | 此對象所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)。當您將此對象發佈到 Platform 時，您只能在此沙箱的範圍內使用它。 |
+   | [!UICONTROL 沙箱] | 此對象所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。當您將此對象發佈到 Platform 時，您只能在此沙箱的範圍內使用它。 |
 
    {style="table-layout:auto"}
 
@@ -86,7 +86,7 @@ ht-degree: 57%
 
 在對象發佈之前、期間和之後的數個時間點，可能會發生延遲。 以下是可能的延遲的概觀。
 
-![本章節所述的對象發佈延遲。](/help/components/audiences/assets/latency-diagram.png)
+![此章節中所述的對象發佈延遲。](/help/components/audiences/assets/latency-diagram.png)
 
 | # | 延遲點 | 延遲期間 |
 | --- | --- | --- |
@@ -101,11 +101,11 @@ ht-degree: 57%
 
 ## 在Experience Platform中使用Customer Journey Analytics對象 {#audiences-aep}
 
-Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流傳送到即時客戶個人檔案(RTCP)。 Customer Journey Analytics會根據所選作為，將受眾傳送至已設定主要身分的Experience Platform [!UICONTROL 人員ID] 設定連線時。
+Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流傳送到即時客戶個人檔案(RTCP)。 根據設定連線時選取的[!UICONTROL 人員ID]，Customer Journey Analytics會將對象傳送至已設定主要身分的Experience Platform。
 
-接著 RTCP 會檢查每個命名空間/ID 組合，並尋找它可能屬於的個人檔案。個人檔案基本上是一組連結的命名空間、ID 和裝置。如果找到個人檔案，則會將命名空間和 ID 新增到此個人檔案中的其他 ID，做為區段會籍屬性。例如，現在， <user@adobe.com> 可以跨其所有裝置和管道進行定位。 如果找不到個人檔案，則會建立一個新的。
+接著 RTCP 會檢查每個命名空間/ID 組合，並尋找它可能屬於的個人檔案。個人檔案基本上是一組連結的命名空間、ID 和裝置。如果找到個人檔案，則會將命名空間和 ID 新增到此個人檔案中的其他 ID，做為區段會籍屬性。例如，現在可以跨其所有裝置和管道以<user@adobe.com>為目標。 如果找不到個人檔案，則會建立一個新的。
 
-您可以在Platform中檢視Customer Journey Analytics對象，方法是前往 **[!UICONTROL 區段]** > **[!UICONTROL 建立區段]** > **[!UICONTROL 受眾]** 標籤> **[!UICONTROL CJA對象]**.
+您可以在Platform中檢視Customer Journey Analytics對象，方法是前往&#x200B;**[!UICONTROL 區段]** > **[!UICONTROL 建立區段]** > **[!UICONTROL 對象]**&#x200B;標籤> **[!UICONTROL CJA對象]**。
 
 您可以將Customer Journey Analytics受眾拖曳至Adobe Experience Platform區段的區段定義。
 
@@ -121,7 +121,7 @@ Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和
 
 +++
 
-+++**如果您刪除Customer Journey Analytics中的對象，會發生什麼情況？**
++++**如果您刪除Customer Journey Analytics中的對象，會發生什麼事？**
 
 刪除Customer Journey Analytics對象時，該對象不會在Experience PlatformUI中顯示。 然而，實際上不會刪除在 Platform 中與該對象相關聯的設定檔。
 
@@ -133,15 +133,15 @@ Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和
 
 +++
 
-+++**Customer Journey Analytics會將對象資料以管道事件傳送，還是以也會傳送至資料湖的平面檔案傳送？**
++++**Customer Journey Analytics是以管線事件還是同樣會傳送至資料湖的平面檔案的形式傳送對象資料？**
 
 Customer Journey Analytics會透過管道將資料串流到RTCP中，而且這些資料也會收集到資料湖的系統資料集中。
 
 +++
 
-+++**Customer Journey Analytics會傳送哪些身分？**
++++**Customer Journey Analytics傳送哪些身分？**
 
-中指定的任何身分/名稱空間配對 [連線設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection). 具體而言，就是使用者選取要作為其「人員 ID」之欄位時的步驟。
+在[連線設定](https://experienceleague.adobe.com/tw/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)中指定的任何識別/名稱空間配對。 具體而言，就是使用者選取要作為其「人員 ID」之欄位時的步驟。
 
 +++
 
@@ -151,19 +151,19 @@ Customer Journey Analytics會透過管道將資料串流到RTCP中，而且這�
 
 +++
 
-+++**RTCP是否也會處理Customer Journey Analytics訊息？ Customer Journey Analytics是否可透過受眾共用將身分新增至設定檔身分圖表？**
++++**RTCP是否也會處理Customer Journey Analytics訊息？ Customer Journey Analytics是否可透過對象共用將身分新增至設定檔身分圖表？**
 
 否。我們只會為每個「人員」發送一個身分，因此 RTCP 將沒有圖形邊可供使用。
 
 +++
 
-+++**一天中的哪個時間會進行每日、每週和每月的重新整理？ 每週的哪一天會進行每週重新整理？**
++++**一天中的哪個時間進行每日、每週和每月的重新整理？ 每週的哪一天會進行每週重新整理？**
 
 重新整理的時間會根據原始對象的發佈時間以及當天時間的錨點（以及一週中的某天或一個月中的某天）來確定。
 
 +++
 
-+++**使用者可以設定每日、每週和每月的重新整理時間嗎？**
++++**使用者是否可以設定每日、每週和每月的重新整理時間？**
 
 不可以，使用者無法設定它們。
 

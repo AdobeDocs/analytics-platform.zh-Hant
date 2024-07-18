@@ -41,13 +41,13 @@ ht-degree: 75%
 
 **若高階主管使用者使用 iOS：**
 
-按一下以下連結(也可從下方的Customer Journey Analytics取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**)並依照提示下載、安裝和開啟應用程式：
+按一下以下連結(也可從&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**&#x200B;底下的Customer Journey Analytics取得)，然後依照提示下載、安裝和開啟應用程式：
 
 [iOS 連結](https://apple.co/2zXq0aN)
 
 **若高階主管使用者使用 Android：**
 
-按一下以下連結(也可從下方的Customer Journey Analytics取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**)並依照提示下載、安裝和開啟應用程式：
+按一下以下連結(也可從&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**&#x200B;底下的Customer Journey Analytics取得)，然後依照提示下載、安裝和開啟應用程式：
 
 [Android 連結](https://bit.ly/2LM38Oo)
 
@@ -115,7 +115,7 @@ ht-degree: 75%
 
    * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。 點選其中一個選項，並選取第一個範圍。 在&#x200B;**[!UICONTROL 比較對象]**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。 點選畫面右上方的&#x200B;**[!UICONTROL 「完成」]**。 **[!UICONTROL 「日期範圍」]**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
-1. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。 [篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) 與在Workspace中的功能相同。
+1. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。 應用程式中的[篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)運作方式與Workspace中相同。
 
    ![區段篩選](assets/segment_filter.png)
 

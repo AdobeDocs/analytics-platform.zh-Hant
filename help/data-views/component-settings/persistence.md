@@ -17,15 +17,15 @@ ht-degree: 80%
 
 [!UICONTROL 持續性]是給定維度值在其設定的事件之外與量度相關的能力。它使用配置和過期時間的組合。
 
-![醒目提示持續性選項的資料檢視視窗](../assets/persistence.png)
+![醒目提示持續性選項的資料檢視視視窗](../assets/persistence.png)
 
 * **配置**&#x200B;可讓您確定當一個列中可以同時保留多個維度項時保留哪個值。
 
   >[!NOTE]
   >
-  >如果您擁有 [非預設歸因模型](/help/data-views/component-settings/attribution.md) 如果在報表的量度上設定，歸因模型會忽略您為相同報表在維度上設定的配置。
+  >如果您在報表的量度上設定了[非預設歸因模型](/help/data-views/component-settings/attribution.md)，則歸因模型會忽略您在相同報表的維度上設定的配置。
   >
-  >然而，當執行 [完整表格匯出](/help/analysis-workspace/export/export-cloud.md) 歸因包含多個維度，會保留套用至每個維度的配置模型。
+  >但是，執行包含多個維度的[完整資料表匯出](/help/analysis-workspace/export/export-cloud.md)時，歸因會保留套用至每個維度的配置模型。
 
 * **到期日**&#x200B;可讓您確定維度項目在其設定的事件之後持續多長時間。
 
@@ -86,7 +86,7 @@ ht-degree: 80%
 
 一個下拉式清單，可讓您將維度值的持續性繫結到另一個維度中的維度值。 有效選項包含在資料檢視中的其他維度。
 
-另請參閱 [在Customer Journey Analytics中使用繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md) 有關如何有效使用繫結維度的範例。
+如需有關如何有效使用繫結維度的範例，請參閱[在Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md)中使用繫結維度和量度。
 
 >[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
 
@@ -96,4 +96,4 @@ ht-degree: 80%
 
 此項設定只會在繫結維度在物件陣列中小於元件時出現。繫結量度存在於事件中時，維度值會從事件水準維度複製到繫結維度的下層結構描述。
 
-請參閱下的第二個範例 [在Customer Journey Analytics中使用繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md) 有關如何有效使用繫結量度的詳細資訊。
+如需有關如何有效使用繫結維度的詳細資訊，請參閱[在Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md)中使用繫結維度和量度下的第二個範例。

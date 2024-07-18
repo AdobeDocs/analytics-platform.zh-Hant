@@ -1,5 +1,5 @@
 ---
-title: 將Adobe Experience Platform受眾擷取至Customer Journey Analytics
+title: 將 Adobe Experience Platform 對象擷取到 Customer Journey Analytics。
 description: 說明如何將Adobe Experience Platform受眾擷取至Customer Journey Analytics以供進一步分析。
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -8,13 +8,13 @@ role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
 # 將Adobe Experience Platform受眾擷取至Adobe Customer Journey Analytics
 
-此使用案例探索將Adobe Experience Platform (Adobe Experience Platform)對象帶入Customer Journey Analytics的臨時手動方式。 這些受眾可能已建立在Adobe Experience Platform區段產生器、Adobe Audience Manager或其他工具中，並儲存在即時客戶個人檔案(RTCP)中。 對象由一組設定檔 ID 以及任何適用的屬性/事件/等組成而且我們想要將它們帶入Customer Journey Analytics Workspace進行分析。
+此使用案例探索將Adobe Experience Platform (Adobe Experience Platform)對象帶入Customer Journey Analytics的臨時手動方式。 這些受眾可能已建立在Adobe Experience Platform區段產生器、Adobe Audience Manager或其他工具中，並儲存在即時客戶個人檔案(RTCP)中。 對象由一組設定檔 ID 以及任何適用的屬性/事件/等組成我們想把它們帶到Customer Journey AnalyticsWorkspace中進行分析。
 
 ## 先決條件
 
@@ -32,7 +32,7 @@ Adobe Experience Platform [即時客戶設定檔](https://experienceleague.adobe
 
 ## 步驟 2：為匯出建立設定檔聯合資料集
 
-為了將受眾匯出至可最終新增至Customer Journey Analytics中連線的資料集，您需要建立其結構描述是設定檔的資料集 [聯合結構描述](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
+為了將對象匯出至可最終新增至Customer Journey Analytics中連線的資料集，您需要建立其結構描述是設定檔[聯合結構描述](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas)的資料集。
 
 聯合結構描述由共用相同類別並已為設定檔啟用的多個結構描述組成。聯合結構描述讓您能夠查看共用相同類別的結構描述中包含的所有欄位的合併。即時客戶設定檔使用聯合結構描述，以建立每個個別客戶的整體檢視。
 
@@ -44,7 +44,7 @@ Adobe Experience Platform [即時客戶設定檔](https://experienceleague.adobe
 
 ## 步驟 4：編輯匯出輸出
 
-匯出作業的結果需要轉換為單獨的設定檔資料集，才能被攝取到Customer Journey Analytics中。  此轉換可透過以下方式完成： [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)，或是您選擇的其他轉換工具。 我們只需要設定檔ID (將符合Customer Journey Analytics中的人員ID)和一個或多個對象ID，即可在Customer Journey Analytics中製作報表。
+匯出作業的結果需要轉換為單獨的設定檔資料集，才能被攝取到Customer Journey Analytics中。  此轉換可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)或您選擇的其他轉換工具來完成。 我們只需要設定檔ID (將符合Customer Journey Analytics中的人員ID)和一個或多個對象ID，即可在Customer Journey Analytics中製作報表。
 
 然而，標準匯出作業包含更多資料，因此我們需要編輯此輸出以移除無關的資料，並將一些東西四處移動。此外，您需要先建立結構描述/資料集，才能對其新增轉換的資料。
 
@@ -91,4 +91,4 @@ Adobe Experience Platform [即時客戶設定檔](https://experienceleague.adobe
    1. 對 RTCP 中對象集合中的每個所需對象執行此流程。
    1. Customer Journey Analytics支援設定檔資料集中的陣列/物件陣列。 為 audienceMembershipId 或 audienceMembershipIdName 使用[物件陣列](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=zh-Hant)是最佳選項。
    1. 在您的資料檢視中，利用 `audienceMembershipId`欄位上的子字串轉換建立新的維度，以將逗號分隔的值字串轉換成陣列。注意：目前陣列中的上限為 10 個值。
-   1. 您現在可以報告此新維度 `audienceMembershipIds` 在Customer Journey Analytics Workspace中。
+   1. 您現在可以在Customer Journey AnalyticsWorkspace中報告此新維度`audienceMembershipIds`。

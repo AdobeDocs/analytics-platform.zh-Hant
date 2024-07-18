@@ -23,7 +23,7 @@ ht-degree: 81%
 
 例如，將「瀏覽器類型」維度拖曳至表格時，頂端的「瀏覽器類型」維度項目 (例如 Microsoft、Apple、Google 等)會以動態方式傳回表格列。如果放入欄中，排名前 5 的「瀏覽器類型」維度項目會以動態方式傳回。
 
-動態維度專案具有列篩選選項和X圖示，可以 **非** 出現鎖定圖示。 <!--do they have the lock icon? --> 當您按一下動態維度專案旁的x時，會自動套用篩選器。 如需將篩選器套用至表格的詳細資訊，請參閱 [篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+動態維度專案具有列篩選選項和X圖示，並且&#x200B;**不會**&#x200B;出現鎖定圖示。 <!--do they have the lock icon? -->當您按一下動態維度專案旁的x時，會自動套用篩選器。 如需將篩選套用至表格的詳細資訊，請參閱[篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
 
 
 ![反白顯示篩選圖示的自由表格。](assets/dynamic-items.png)
@@ -41,13 +41,13 @@ ht-degree: 81%
 
 靜態維度項目&#x200B;**沒有**&#x200B;列篩選選項。而是每個項目都會顯示鎖定和 X 圖示。按一下 X 圖示即可從表格中刪除該維度項目。
 
-![顯示瀏覽器型別和Microsoft列（含鎖定圖示）的自由格式表格注意：此維度專案為靜態且不會隨時間變更。](assets/static-items.png)
+![顯示瀏覽器型別和Microsoft列（含鎖定圖示）的自由格式表格注意：此維度專案是靜態的，不會隨時間變更。](assets/static-items.png)
 
 ## 混合維度項目
 
 可以將來自不同維度的維度項目新增至相同的表格。在這類情況下，列標題會顯示「混合維度」。這些維度項目為靜態。例如，新增來自「瀏覽器類型」維度的特定維度項目，而其他維度項目來自「瀏覽器」維度。
 
-![自由表格，醒目顯示混合Dimension欄。](assets/mixed-dimensions.png)
+![反白顯示混合Dimension資料行的自由表格。](assets/mixed-dimensions.png)
 
 ## 自由表格總計列
 

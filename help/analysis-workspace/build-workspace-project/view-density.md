@@ -19,7 +19,7 @@ ht-degree: 93%
 - **[!UICONTROL 舒適]**：此版本比「緊密」版本有更多邊框間距。
 - **[!UICONTROL 展開]** (預設): 此版本為常用的工作區檢視畫面。
 
-![緊湊、舒適和展開的檢視密度。](assets/view-density.png)
+![精簡、舒適和展開的檢視密度。](assets/view-density.png)
 
 若要設定檢視密度:
 

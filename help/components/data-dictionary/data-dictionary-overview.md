@@ -47,11 +47,11 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 * 識別尚未核准的元件。
 
-* 直接在 Analysis Workspace 中更新元件說明。資料字典中元件說明的任何更新都會反映在資料檢視中。
+* 直接在 Analysis Workspace 中更新元件說明。對資料字典中元件說明所做的任何更新都會反映在資料檢視中。
 
   同樣地，資料檢視中元件說明的任何更新都會反映在Analysis Workspace中。
 
-  如需有關在Analysis Workspace或資料檢視中新增元件說明的詳細資訊，請參閱 [新增元件說明](/help/components/add-component-descriptions.md).
+  如需有關在Analysis Workspace或資料檢視中新增元件說明的詳細資訊，請參閱[新增元件說明](/help/components/add-component-descriptions.md)。
 
 ## 存取資料字典
 
@@ -72,9 +72,9 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 ## 更新和整理資料字典
 
-Customer Journey Analytics管理員負責為其組織維護健康的資料字典，如中所述 [監視資料字典健康情況](/help/components/data-dictionary/monitor-data-dictionary-health.md).
+Customer Journey Analytics管理員負責維護其組織的健康資料字典，如[監視資料字典健康狀況](/help/components/data-dictionary/monitor-data-dictionary-health.md)中所述。
 
-在此程式中，Customer Journey Analytics管理員可以編輯資料字典中每個元件的相關資訊，如所述 [在資料字典中編輯元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md).
+在此程式中，Customer Journey Analytics管理員可以編輯資料字典中每個元件的相關資訊，如[編輯資料字典中的元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md)中所述。
 
 ## 移動、最小化或關閉資料字典
 

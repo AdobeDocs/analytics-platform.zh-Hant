@@ -25,7 +25,7 @@ ht-degree: 87%
 
 1. 按一下&#x200B;**「套用」**。
 
-   ![顯示[取消並套用]按鈕的Report Builder日期範圍窗格。](./assets/image38.png)
+   顯示[取消並套用]按鈕的![Report Builder日期範圍窗格。](./assets/image38.png)
 
 ## 離線模式
 

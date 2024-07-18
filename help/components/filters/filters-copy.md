@@ -7,7 +7,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 7%
 
 若要在「篩選器管理器」中複製篩選器：
 
-1. 在Customer Journey Analytics中，選取 **[!UICONTROL 元件]** 索引標籤，然後選取 **[!UICONTROL 篩選]**.
+1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;標籤，然後選取&#x200B;**[!UICONTROL 篩選器]**。
 
 1. 在「篩選器管理器」中，選取您要複製的篩選器。
 
    篩選器管理工具列隨即出現。
 
-1. 選取 **[!UICONTROL 複製]**.
+1. 選取&#x200B;**[!UICONTROL 複製]**。

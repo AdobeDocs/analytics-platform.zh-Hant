@@ -13,7 +13,7 @@ ht-degree: 57%
 
 # 客戶自控金鑰
 
-Adobe Customer Journey Analytics為以下專案提供選項 [Health Shield](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html) 以及Privacy &amp; Security Shield客戶，將Azure客戶自控金鑰(CMK)套用至您的Customer Journey Analytics資料。  請注意，此過程與 [Adobe Experience Platform CMK 設定](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=zh-Hant)不同。
+Adobe Customer Journey Analytics可讓[Healthcare Shield](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)和Privacy &amp; Security Shield客戶選擇將Azure客戶自控金鑰(CMK)套用至您的Customer Journey Analytics資料。  請注意，此過程與 [Adobe Experience Platform CMK 設定](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=zh-Hant)不同。
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Adobe Customer Journey Analytics為以下專案提供選項 [Health Shield](http
 1. 將 Adobe Azure 應用程式存取權限授予給您的金鑰 (金鑰保存庫中)。這是 Adobe 應用程式 ID：251e3919-1940-4296-bb8b-6b9a5e8a4805。[從 Microsoft 了解更多資訊](https://learn.microsoft.com/zh-tw/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&amp;tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)
 1. 建立要求 CMK 設定的 Adobe 客戶服務票證。在您的票證中包含 Azure URI。URI 可以在 Azure Key 的&#x200B;**金鑰識別碼**&#x200B;欄位中找到。
 
-   ![顯示https://cmkoberontest.vault.azure.net URI的金鑰識別碼欄位](assets/key-identifier.png)
+   顯示https://cmkoberontest.vault.azure.net](assets/key-identifier.png)之URI的![金鑰識別碼欄位
 
 1. Adobe客戶服務將確認您Customer Journey Analytics資料上的CMK應用程式已完成。
 

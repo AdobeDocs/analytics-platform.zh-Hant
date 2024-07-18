@@ -18,7 +18,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 ## 專案清單 {#project-list}
 
-當您第一次前往 **[!UICONTROL Analytics]** > **[!UICONTROL 工作區]**，頁面會列出您擁有的所有專案或您共用的專案。 這也是 Adobe Analytics 的登陸頁面，除非您之前已設定自訂登陸頁面。
+當您第一次前往&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**&#x200B;時，此頁面會列出您擁有的所有專案或您共用的專案。 這也是 Adobe Analytics 的登陸頁面，除非您之前已設定自訂登陸頁面。
 
 ![顯示專案清單的專案登陸頁面。](assets/sample-project.png)
 
@@ -26,22 +26,22 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 >[!NOTE]
 >
->預設不會顯示某些欄。 若要自訂您看到的欄，請按一下 **自訂表格** 圖示 ![自訂表格](assets/projects-page-customize-columns-icon.png).
+>預設不會顯示某些欄。 若要自訂您看到的欄，請按一下&#x200B;**自訂表格**&#x200B;圖示![自訂表格](assets/projects-page-customize-columns-icon.png)。
 
 | 元素 | 說明 |
 |---|---|
 | [編輯偏好設定](/help/analysis-workspace/user-preferences.md) | 管理您建立的所有新專案或面板的Analysis Workspace設定及其相關元件。 |
 | [建立資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 將新的資料夾或子資料夾新增至專案和資料夾清單。 |
 | [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md) | 從頭開始新專案。 |
-| 顯示更多 | 顯示建立空白專案或行動計分卡的選項， [檢視訓練教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=zh-Hant)，或 [檢視發行說明](/help/release-notes/latest.md). |
+| 顯示更多 | 顯示建立空白專案或行動計分卡的選項、[檢視訓練教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=zh-Hant)或[檢視發行說明](/help/release-notes/latest.md)。 |
 | 顯示資料夾和專案 | 選擇是否要顯示專案的資料夾結構。 如需詳細資訊，請參閱[關於 Analytics 資料夾](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。 |
 | 自訂表格（圖示） | 可讓您自訂針對「專案」頁面上的每個專案顯示的資訊。 |
 | 名稱 | Workspace 專案名稱。 |
-| 類型 | 指示這是Workspace專案、資料夾還是 [行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hant). |
+| 類型 | 指出這是Workspace專案、資料夾還是[行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hant)。 |
 | 標記 | 已套用到專案中的標籤。 |
-| 已排程 | 表示專案是否已排程依排程傳送電子郵件給收件者。 另請參閱 [傳送專案資料給其他人](/help/analysis-workspace/export/t-schedule-report.md). |
-| 共用連結 (任何人) | 您可與任何人共用專案，即使對方無權存取Analysis Workspace。 此欄顯示是否已以這種方式共用專案。 另請參閱 [與任何人共用專案（不需要登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用專案](/help/analysis-workspace/curate-share/share-projects.md) 以取得詳細資訊。 |
-| 資料檢視 | 與專案相關聯的資料檢視。 |
+| 已排程 | 表示專案是否已排程依排程傳送電子郵件給收件者。 請參閱[將專案資料傳送給其他人](/help/analysis-workspace/export/t-schedule-report.md)。 |
+| 共用連結 (任何人) | 您可與任何人共用專案，即使對方無權存取Analysis Workspace。 此欄顯示是否已以這種方式共用專案。 如需詳細資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案（不需要登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)。 |
+| 資料視圖 | 與專案相關聯的資料檢視。 |
 | [專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) | 指示您在專案中的角色 - 所有者、編輯、複製、檢視。 |
 | 所有者 | 建立此專案的人 (您或與您共用專案的人)。 |
 | 共用對象 | 已共用專案的使用者。 |
@@ -56,11 +56,11 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 在專案中，功能表會提供管理專案、新增元件、尋找說明等功能的選項。每個功能表選項也都可以使用鍵盤[快速鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)進行存取。
 
-![新專案選項包括專案、編輯、插入、元件、共用和說明選項。](assets/menu.png)
+![新專案選項，包括[專案]、[編輯]、[插入]、[元件]、[共用]和[說明]選項。](assets/menu.png)
 
 | 功能表項目 | 說明 |
 |---|---|
-| 專案 | 包含專案管理的常見動作，例如新增、開啟、儲存和另存新檔。 您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。[下載專案資料](/help/analysis-workspace/export/download-send.md) 選項可讓您從Workspace匯出資料。 「**專案資訊和設定** (請參閱下圖) 提供管理專案的多個選項。 |
+| 專案 | 包含專案管理的常見動作，例如新增、開啟、儲存和另存新檔。 您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。[下載專案資料](/help/analysis-workspace/export/download-send.md)選項可讓您從Workspace匯出資料。 「**專案資訊和設定** (請參閱下圖) 提供管理專案的多個選項。 |
 | 編輯 | 還原或重做您的上一個操作。「全部清除」會將您的專案重設為空白起點。 |
 | 插入 | 從此功能表插入新面板或視覺效果。您也可以從左側欄插入新面板和視覺效果。 |
 | [元件](/help/components/overview.md) | 從您的專案建立新篩選器、計算量度、日期範圍或警報元件。 您也可以從左側欄建立新元件。如果您的元件定義在最近有了變更，「重新整理元件」將會擷取最新的定義。 |
@@ -70,9 +70,9 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 ### 專案資訊和設定 {#info-settings}
 
-**[!UICONTROL 工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]** 提供目前使用中專案的專案層級資訊。
+**[!UICONTROL Workspace]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊與設定]**&#x200B;提供目前作用中專案的專案層級資訊。
 
-![「專案資訊和設定」視窗。](assets/projectinfo.png)
+![專案資訊和設定視窗。](assets/projectinfo.png)
 
 設定包括：
 
@@ -103,7 +103,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 左側欄的元件 (維度、量度、篩選器、日期範圍) 與作用中面板資料檢視有關。 作用中面板是以其周圍的藍色邊框來識別，而作用中資料檢視會列在元件邊欄的最上方。
 
-![和跨產業示範資料檢視的使用中面板資料檢視相關的元件。](assets/left-rail.png)
+![與跨產業示範資料檢視之使用中面板資料檢視相關的元件。](assets/left-rail.png)
 
 ## 專案畫布 {#canvas}
 
@@ -113,15 +113,15 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 根據您為專案選擇的起點，您一開始可以在畫布中使用[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)或[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)。開始分析的最快速方法是選取一個或多個元件，然後將其拖放到專案畫布上。系統將會自動為您呈現資料表格。[深入了解](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)建立表格的不同選項，或利用我們的[訓練教學課程](/help/analysis-workspace/home.md)以取得建立您的第一個專案的更多指南。
 
-![適用於專案的自由表格。](assets/canvas.png)
+專案的![自由表格。](assets/canvas.png)
 
 ## Project Manager {#manager}
 
-您可以在 **Analytics > 元件 > 專案** 底下管理 Analysis Workspace 專案。Project Manager會顯示特定使用者建立的專案。 您可以在「管理員> Analytics使用者和資產>轉移資產」底下將專案所有權轉移給新使用者。
+您可以在 **Analytics > 元件 > 專案** 底下管理 Analysis Workspace 專案。Project Manager會顯示特定使用者建立的專案。 您可以在「管理員> Analytics使用者與Assets >轉移Assets」底下將專案所有權轉移給新使用者。
 
 在Projects Manager中，您可以新增、標籤、共用、複製/複製等。 在搜尋列中搜尋專案，或使用左側欄中的篩選選項進行搜尋。您可以依標籤、所有者、專案類型等條件進行篩選。
 
-![專案經理標籤搜尋欄位和標題搜尋欄位。](assets/project-manager.png)
+![專案管理員標籤搜尋欄位和標題搜尋欄位。](assets/project-manager.png)
 
 以下是 Projects Manager 中的常見操作，您可以一次針對一個或多個專案進行這些操作：
 

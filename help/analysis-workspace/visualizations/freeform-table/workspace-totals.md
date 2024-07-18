@@ -15,25 +15,25 @@ ht-degree: 75%
 
 在自由表格中，每個劃分層級都會顯示總列數，當中會顯示兩個總計數字：
 
-* **[!UICONTROL 全部總計]** （在其他數字中顯示為灰色） — 這項總計代表已收集到的所有事件。 當篩選器套用至面板層級或自由表格時，此總計會經過調整，以反映符合篩選條件的所有事件。
-* **[!UICONTROL 表格總計]** (黑色數字) - 此總計通常等於[!UICONTROL 總量]或為總量的子集。它反映的是在自由表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。
+* **[!UICONTROL 全部總計]** （灰色的「共」數字） — 此總計代表已收集的所有事件。 當篩選器套用至面板層級或自由表格時，此總計會經過調整，以反映符合篩選條件的所有事件。
+* **[!UICONTROL 表格總計]** (黑色數字) - 此總計通常等於[!UICONTROL 總量]或為總量的子集。它反映的是在自由形式表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。
 
-![自由格式表格會醒目顯示總計和表格總計。](assets/total-row.png)
+![自由格式表格強調顯示總計與表格總計。](assets/total-row.png)
 
 ## 顯示總計設定
 
 **[!UICONTROL 「欄設定」]**&#x200B;下方有&#x200B;**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項。如果取消勾選這些設定，總計就會從表格中遭到移除。在使用某些[計算量度的情況](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=zh-Hant)下，總計可能會不符常理，此時就需要用到這項操作。
 
-![「欄設定」選項會顯示「顯示總計」和「顯示授權總計」的核取標籤。](assets/column-settings-total.png)
+![欄設定選項顯示顯示顯示總計和顯示授權總計的核取標籤。](assets/column-settings-total.png)
 
 ## 靜態列總計設定
 
 [靜態列](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)總計的行為方式不同，且須經由&#x200B;**[!UICONTROL 「列設定」]**&#x200B;控制。
 
-* **[!UICONTROL 將目前列的總和顯示為總計]**  — 這個選項會顯示表格中的使用者端列數加總，因此總計會 **非** 去除重複的量度，例如造訪或人員。
-* **[!UICONTROL 顯示總量]**  — 這個選項會顯示伺服器端的加總，因此總計會刪除「造訪次數」或「人數」等重複量度。
+* **[!UICONTROL 將目前的資料列總和顯示為總計]** — 這個選項會顯示表格中的使用者端資料列總和，因此總計&#x200B;**不會**&#x200B;刪除重複的量度，例如造訪次數或人員。
+* **[!UICONTROL 顯示總量]** — 這個選項會顯示伺服器端的加總，因此總計會刪除「造訪次數」或「人數」等重複量度。
 
-![列設定顯示選取的「顯示總量」。](assets/static-rows.png)
+![列設定顯示選取的[顯示總量]。](assets/static-rows.png)
 
 ## 常見問答
 

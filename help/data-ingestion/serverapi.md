@@ -1,6 +1,6 @@
 ---
-title: 透過Adobe Experience Platform Edge Network Server API內嵌資料
-description: 說明如何透過Adobe Experience Platform Edge Network Server API和Edge Network將資料擷取到Customer Journey Analytics
+title: 透過Adobe Experience PlatformEdge Network伺服器API內嵌資料
+description: 說明如何透過Adobe Experience PlatformEdge Network伺服器API和Edge Network將資料擷取至Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 6bfb7254-5bb7-45c6-86a2-0651a0d222fa
@@ -12,9 +12,9 @@ ht-degree: 59%
 
 ---
 
-# 透過Adobe Experience Platform Edge Network Server API內嵌資料
+# 透過Adobe Experience PlatformEdge Network伺服器API內嵌資料
 
-本快速入門手冊說明如何使用Adobe Experience Platform Edge Network Server API和Edge Network，將追蹤資料從IoT裝置、機上盒、遊戲主機、案頭應用程式等裝置直接擷取到Adobe Experience Platform。 然後將這些資料用於Customer Journey Analytics。
+本快速入門手冊說明如何使用Adobe Experience PlatformEdge Network伺服器API和Edge Network，將追蹤資料從裝置（例如IoT裝置、機上盒、遊戲主機、案頭應用程式）直接擷取到Adobe Experience Platform。 然後將這些資料用於Customer Journey Analytics。
 
 若要完成此作業，您必須：
 
@@ -22,7 +22,7 @@ ht-degree: 59%
 
 - **設定資料流**&#x200B;以設定 Adobe Experience Platform Edge Network，將收集的資料路由至您在 Adobe Experience Platform 中設定的資料集。
 
-- **使用伺服器API** 將資料從案頭、遊戲主機、IoT裝置或機上盒上執行的應用程式或遊戲直接傳送至資料流。
+- **使用Server API**，直接從案頭、遊戲主機、IoT裝置或機上盒上執行的應用程式或遊戲傳送資料至您的資料流。
 
 - **部署和驗證**。有一個讓您可反複進行開發程式的環境，一旦一切通過驗證，就可在您的生產環境中上線發佈。
 
@@ -54,23 +54,24 @@ ht-degree: 59%
 
 1. 在 Adobe Experience Platform UI 的左側邊欄中，選取[!UICONTROL 「資料管理」]中的&#x200B;**[!UICONTROL 「結構」]**。
 
-1. 選取 **[!UICONTROL 建立結構描述]**..
+1. 選取&#x200B;**[!UICONTROL 建立結構描述]**。
+.
 1. 在建立架構精靈的選取類別步驟中：
 
-   1. 選取 **[!UICONTROL 體驗事件]**.
+   1. 選取&#x200B;**[!UICONTROL 體驗事件]**。
 
       ![建立結構](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    體驗事件結構描述是用來建立 _行為_ 的設定檔（像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+      >    體驗事件結構描述可用來模型化設定檔的&#x200B;_行為_ （像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 
-1. 在 [!UICONTROL 名稱和稽核步驟] 的 [!UICONTROL 建立結構描述] 精靈：
+1. 在[!UICONTROL 建立結構描述]精靈的[!UICONTROL 名稱和檢閱步驟]中：
 
-   1. 輸入 **[!UICONTROL 結構描述顯示名稱]** 適用於您的結構描述和（選用） a **[!UICONTROL 說明]**.
+   1. 為您的結構描述輸入&#x200B;**[!UICONTROL 結構描述顯示名稱]**&#x200B;和（選擇性） **[!UICONTROL 描述]**。
 
       ![命名結構](./assets/create-ee-schema-wizard-step-2.png)
 
@@ -84,27 +85,27 @@ ht-degree: 59%
 
       欄位群組是可重複使用的物件和屬性集合，可讓您輕鬆擴充結構。
 
-   1. 在 [!UICONTROL 新增欄位群組] 對話方塊中，選取 **[!UICONTROL 閃爍的光]** 欄位群組。 此欄位群組的建立是為了追蹤使用者在主機上玩名為Blinding Light的虛構遊戲的進度。
+   1. 在[!UICONTROL 新增欄位群組]對話方塊中，從清單中選取&#x200B;**[!UICONTROL 遮光燈]**&#x200B;欄位群組。 此欄位群組的建立是為了追蹤使用者在主機上玩名為Blinding Light的虛構遊戲的進度。
 
       ![遮光燈欄位群組](assets/schema-fieldgroup-blindinglight.png)
 
       您可以選取預覽按鈕，以查看屬於此欄位群組之欄位的預覽，例如 `scores > afterMatch`。
 
-      ![遮色燈欄位群組預覽](assets/schema-fieldgroup-blindinglight-preview.png)
+      ![閃爍的燈光欄位群組預覽](assets/schema-fieldgroup-blindinglight-preview.png)
 
       選取&#x200B;**[!UICONTROL 「返回」]**&#x200B;來關閉預覽。
 
    1. 選取&#x200B;**[!UICONTROL 「新增欄位群組」]**。
 
-1. 選取 **[!UICONTROL +]** 位於結構描述名稱旁。
+1. 選取結構描述名稱旁的&#x200B;**[!UICONTROL +]**。
 
    ![範例結構新增欄位按鈕](./assets/example-gamingschema-plus.png)
 
-1. 在 [!UICONTROL 欄位屬性] 面板，輸入 `identification` 作為 [!UICONTROL 欄位名稱]， **[!UICONTROL 識別]** 作為 [!UICONTROL 顯示名稱]，選取 **[!UICONTROL 物件]** 作為 [!UICONTROL 型別] 並選取 **[!UICONTROL ExperienceEvent Core v2.1]** 作為 [!UICONTROL 欄位群組].
+1. 在[!UICONTROL 欄位屬性]面板中，輸入`identification`作為[!UICONTROL 欄位名稱]，**[!UICONTROL 識別]**&#x200B;作為[!UICONTROL 顯示名稱]，選取&#x200B;**[!UICONTROL 物件]**&#x200B;作為[!UICONTROL 型別]，並選取&#x200B;**[!UICONTROL ExperienceEvent Core v2.1]**&#x200B;作為[!UICONTROL 欄位群組]。
 
    >[!NOTE]
    >
-   >如果該欄位群組無法使用，請尋找另一個包含身分欄位的欄位群組。 或 [建立新的欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) 和 [新增身分欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (按讚 `ecid`， `crmId`，以及您所需的其他欄位群組)並選取該新欄位群組。
+   >如果該欄位群組無法使用，請尋找另一個包含身分欄位的欄位群組。 或者[建立新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html)和[新增新的身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) （例如`ecid`、`crmId`和其他您需要的欄位）至欄位群組，並選取該新欄位群組。
 
    ![識別物件](./assets/identification-field-gaming.png)
 
@@ -200,7 +201,7 @@ ht-degree: 59%
 
 ## 設定資料流
 
-資料流代表實作Adobe Experience Platform Web和Mobile SDK以及Adobe Experience Platform Edge Network伺服器API時的伺服器端設定。 使用Adobe Experience Platform SDK和Edge Network Server API收集資料時，資料會傳送至Adobe Experience Platform Edge Network。 是決定要將資料轉送至哪些服務的資料流。
+資料流代表實作Adobe Experience Platform Web和Mobile SDK以及Adobe Experience PlatformEdge Network伺服器API時的伺服器端設定。 使用Adobe Experience Platform SDK和Edge Network伺服器API收集資料時，資料會傳送至Adobe Experience PlatformEdge Network。 是決定要將資料轉送至哪些服務的資料流。
 
 在設定中，您想要將從遊戲中收集的資料傳送到Adobe Experience Platform中的資料集。
 
@@ -234,9 +235,9 @@ ht-degree: 59%
 
 請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
-## 使用Edge Network Server API
+## 使用Edge Network伺服器API
 
-在遊戲開發中，您可以視情況將相關呼叫新增至Adobe Experience Platform Edge Network Server API。
+在遊戲開發中，您可以視情況將相關呼叫新增至Adobe Experience PlatformEdge Network伺服器API。
 
 例如，若要更新播放器的分數，您可使用：
 
@@ -269,15 +270,15 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 }'
 ```
 
-在範例POST請求中， `{DATASTREAM_ID}` 指向您先前設定的範例資料流的識別碼。 `{sandbox}` 是沙箱的唯一名稱，用於識別自訂遮光欄位群組的路徑。
+在範例POST要求中，`{DATASTREAM_ID}`指向您先前設定的範例資料流的識別碼。 `{sandbox}`是您的沙箱的唯一名稱，可識別自訂遮光燈欄位群組的路徑。
 
-另請參閱 [互動式資料收集](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) 和 [非互動式資料集合](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html) 有關如何使用Edge Network Server API的詳細資訊。
+如需如何使用Edge Network伺服器API的詳細資訊，請參閱[互動式資料集合](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html)和[非互動式資料集合](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html)。
 
 ## 設定連線
 
 若要在 Customer Journey Analytics 中使用 Adobe Experience Platform 資料，您可以建立連線，其中包含設定結構、資料集和工作流程所產生的資料。
 
-連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報表，必須先為Adobe Experience Platform和工作區的資料集建立連線。
+連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報表，必須先為Adobe Experience Platform和Workspace中的資料集建立連線。
 
 若要建立連線，請執行以下操作：
 
@@ -374,10 +375,10 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 若要建立您的第一個報表，請開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板].
+5. 若要建立您的第一個報表，請在[!UICONTROL 面板]的[!UICONTROL 自由表格]上開始拖放維度和量度。
 
 如需如何使用元件、視覺效果和面板建立專案和建立分析的詳細資訊，請參閱 [Analysis Workspace 概觀](../analysis-workspace/home.md)。
 
 >[!SUCCESS]
 >
->您已完成所有步驟。首先定義您要收集哪些資料（結構描述），以及要將資料儲存在Adobe Experience Platform中的何處（資料集）。 您已在Edge Network上設定資料串流，以確保資料可轉送至該資料集。 接著您使用Edge Network Server API將該資料傳送至資料流。 您定義了Customer Journey Analytics連線，以便使用您的遊戲資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，並最終建立您的第一個專案，以視覺化呈現和分析您的遊戲資料。
+>您已完成所有步驟。首先定義您要收集哪些資料（結構描述），以及要將資料儲存在Adobe Experience Platform中的何處（資料集）。 您已在Edge Network上設定資料串流，以確保資料可轉送至該資料集。 接著，您使用Edge Network伺服器API將該資料傳送至資料流。 您定義了Customer Journey Analytics連線，以便使用您的遊戲資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，並最終建立您的第一個專案，以視覺化呈現和分析您的遊戲資料。

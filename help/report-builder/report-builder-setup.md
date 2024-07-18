@@ -72,7 +72,7 @@ ht-degree: 87%
 
 和您的 IT 或安全小組洽詢，要求核准使用 Report Builder 增益集。取得核准後，在 Office 增益集對話框中，選取「由系統管理員管理」索引標籤。
 
-![「Office增益集」對話方塊中的「管理員管理」索引標籤。](./assets/image1.png)
+![Office增益集對話方塊中的[管理員管理]索引標籤。](./assets/image1.png)
 
 在安裝此 Report Builder 增益集後，「首頁」索引標籤下的 Excel 功能區中會顯示 Report Builder 圖示。
 
@@ -104,7 +104,7 @@ ht-degree: 87%
 
 1. 從可用組織清單中選取一個組織。只會列出您有存取權限的組織。
 
-   ![您可存取的組織清單。](./assets/image5.png)
+   ![您可以存取的組織清單。](./assets/image5.png)
 
 ## 登出
 
@@ -114,6 +114,6 @@ ht-degree: 87%
 
 1. 按一下個人頭像圖示，以顯示您的使用者基本資料。
 
-   ![您的使用者設定檔頭像和「登出」按鈕。](./assets/image6.png)
+   ![您的使用者設定檔頭像和[登出]按鈕。](./assets/image6.png)
 
 1. 按一下「**登出**」。

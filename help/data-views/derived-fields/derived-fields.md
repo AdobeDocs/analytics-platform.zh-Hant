@@ -53,14 +53,14 @@ ht-degree: 12%
 
 ## 規則介面
 
-在規則構建器中定義規則時，可以使用規則介面。
+在規則產生器中定義規則時，您會使用規則介面。
 
-![派生欄位規則介面的螢幕截圖](assets/rule-interface.png)
+![衍生欄位規則介面的熒幕擷圖](assets/rule-interface.png)
 
 |  | 名稱 | 說明 |
 |---------|----------|--------|
 | A | **規則名稱** | 依預設，規則名稱為&#x200B;**規則X** （X代表序號）。 若要編輯規則的名稱，請選取其名稱，然後輸入新名稱，例如`Query Parameter`。 |
-| B | **函數名稱** | 為規則選擇的函數名稱，例如[!UICONTROL URL PARSE。]當函數是函數序列中的最後一個並確定最終輸出值時，函數名稱後跟 [!UICONTROL - FINAL OUTPUT] URL[!UICONTROL  例如 PARSE - FINAL OUTPUT。]<br/>若要顯示包含函式詳細資訊的快顯視窗，請選取![說明圖示](assets/Smock_HelpOutline_18_N.svg)。 |
+| B | **函式名稱** | 規則的選取函式名稱，例如[!UICONTROL URL PARSE]。 當函式是函式序列中的最後一個並決定最終輸出值時，函式名稱后面會有[!UICONTROL - FINAL OUTPUT]，例如[!UICONTROL URL PARSE - FINAL OUTPUT]。 <br/>若要顯示包含函式詳細資訊的快顯視窗，請選取![說明圖示](assets/Smock_HelpOutline_18_N.svg)。 |
 | C | **規則描述** | 您可以選擇新增說明至規則。<br/>選取![更多圖示](assets/More.svg)，然後選取&#x200B;**[!UICONTROL **&#x200B;新增描述&#x200B;**]**&#x200B;以新增描述，或選取&#x200B;**[!UICONTROL **&#x200B;編輯描述&#x200B;**]**&#x200B;以編輯現有的描述。<br/>使用編輯器輸入說明。 您可以使用工具列來格式化文字（使用樣式選擇器、粗體、斜體、底線、右側、左側、置中、顏色、數字清單、專案符號清單），以及新增連結至外部資訊。 <br/>若要完成說明的編輯，請在編輯器外按一下。 |
 | D | **功能區域** | 定義函式的邏輯。 介面取決於函式的型別。 [!UICONTROL 欄位]或[!UICONTROL 值]的下拉式清單會根據函式預期的輸入型別，顯示所有可用的欄位類別（規則、標準欄位、欄位）。 或者，您也可以將欄位從架構和標準欄位選擇器拖放至欄位或值。 當該拖曳欄位源自查閱資料集時，查閱函式會自動插入在您定義的函式之前。 <br/>如需每個支援函式的詳細資訊，請參閱[函式參考](#function-reference)。 |
 
@@ -244,11 +244,11 @@ ht-degree: 12%
 
 ### 取得分隔清單中的所有值
 
-此函數範本將有限的清單轉換為數位。
+此函式範本將有限的清單轉換為陣列。
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 有關詳細資訊，請參閱 [函數參考](#function-reference) 。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![在分隔清單規則產生器中取得所有值的熒幕擷圖](assets/function-template-get-all-values-in-delimited-list.png)
 
@@ -262,17 +262,17 @@ ht-degree: 12%
 
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
-![「在分隔清單規則產生器中取得第一個值」的屏幕截圖](assets/function-template-get-first-value-in-delimited-list.png)
+![在分隔清單規則產生器中取得第一個值的熒幕擷圖](assets/function-template-get-first-value-in-delimited-list.png)
 
 +++
 
 ### 取得分隔清單中的最後一個值
 
-此函數範本獲取分隔清單中的最後一個值。
+此函式範本取得分隔清單中的最後一個值。
 
 +++ 詳細資料
 
-若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 有關詳細資訊，請參閱 [函數參考](#function-reference) 。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![在分隔清單規則產生器中取得最後一個值的熒幕擷圖](assets/function-template-get-last-value-in-delimited-list.png)
 
@@ -284,9 +284,9 @@ ht-degree: 12%
 
 +++ 詳細資料
 
-若要使用該範本，必須為作為範本規則的一部分列出的每個函數指定正確的參數。 有關詳細資訊，請參閱 [函數參考](#function-reference) 。
+若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
-![域名規則構建器的屏幕截圖](assets/function-template-domain-name.png)
+![網域名稱規則產生器的熒幕擷圖](assets/function-template-domain-name.png)
 
 +++
 
@@ -402,11 +402,11 @@ ht-degree: 12%
 
 若要定義規則以識別各種行銷管道，請套用階層式邏輯以將行銷管道欄位設定為適當的值：
 
-- 如果推薦者來自某個搜尋引擎，並且該頁面具有查詢字串值，其中`cid``ps_`包含 ，則該行銷頻道應標識為&#x200B;[!DNL *付費Search*]。
-- 如果推薦者來自搜尋引擎而頁面沒有查詢字串 `cid`，則該行銷頻道應被識別為 [!DNL *自然Search*]。
-- 如果頁面的查詢字串值 `cid` 包含 `em_`，則該行銷頻道應標識為 [!DNL *電子郵件*]。
-- 如果頁面具有查詢字串值，其中`cid``ds_`包含 ，則該行銷頻道應識別為&#x200B;[!DNL *顯示廣告*]。
-- 如果頁面的查詢字串值 `cid` 包含 `so_`，則該行銷頻道應標識為 [!DNL *付費Social*]。
+- 如果反向連結來自搜尋引擎，且頁面具有查詢字串值，其中`cid`包含`ps_`，則行銷管道應識別為&#x200B;[!DNL *付費搜尋*]。
+- 如果反向連結來自搜尋引擎，而頁面沒有查詢字串`cid`，則行銷管道應識別為&#x200B;[!DNL *免費搜尋*]。
+- 如果頁面有`cid`包含`em_`的查詢字串值，則行銷管道應識別為&#x200B;[!DNL *電子郵件*]。
+- 如果頁面有`cid`包含`ds_`的查詢字串值，則行銷管道應識別為&#x200B;[!DNL *顯示廣告*]。
+- 如果頁面有`cid`包含`so_`的查詢字串值，則行銷管道應識別為&#x200B;[!DNL *付費社交*]。
 - 如果反向連結來自[!DNL twitter.com]、[!DNL facebook.com]、[!DNL linkedin.com]或[!DNL tiktok.com]的反向連結網域，則行銷管道應識別為&#x200B;[!DNL *自然社交*]。
 - 如果上述規則都不相符，則行銷管道應識別為&#x200B;[!DNL *其他反向連結*]。
 
@@ -1042,7 +1042,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]..</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul> | <p>不適用</p> | <p>每個衍生欄位2個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul> | <p>不適用</p> | <p>每個衍生欄位2個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -1050,7 +1050,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 您想要將所有收集的產品名稱轉換為小寫，以便正確製作報表。
 
-### 數據之前 {#lowercase-uc-databefore}
+### 在此之前的資料 {#lowercase-uc-databefore}
 
 | 收集的產品名稱 | 產品檢視 |
 |---|---:|
@@ -1174,27 +1174,27 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul> | <p>不適用</p> | <p>每個派生欄位 5 個函數</p> | <p>新衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
 ## 使用案例 {#merge-fields-uc}
 
-您將按讚創建由頁面名稱字段和呼叫原因字段組成的維度，目的是分析跨管道的旅程。
+您想要建立由頁面名稱欄位和來電原因欄位組成的維度，其目的在於跨管道分析歷程。
 
 ### 在此之前的資料 {#merge-fields-uc-databefore}
 
 | 頁面名稱 | 工作階段 | 訪客 |
 |---|--:|--:|
 | 說明頁面 | 250 | 200 |
-| 主頁 | 500 | 250 |
-| 產品詳情頁面 | 300 | 200 |
+| 首頁 | 500 | 250 |
+| 產品詳細資料頁面 | 300 | 200 |
 
 {style="table-layout:auto"}
 
 | 來電原因 | 工作階段 | 訪客 |
 |---|--:|--:|
-| 關於我的訂單的問題 | 275 | 250 |
+| 關於我訂單的問題 | 275 | 250 |
 | 變更我的訂單 | 150 | 145 |
 | 訂購時發生問題 | 100 | 95 |
 
@@ -1259,7 +1259,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 | 搜尋 | 搜尋 | 產品詳細資料 | 首頁 | 首頁 |
 | 搜尋 | 產品詳細資料 | 產品詳細資料 | 搜尋 | 首頁 |
 | 產品詳細資料 | 搜尋 | 搜尋 | 搜尋 | 搜尋 |
-| 搜尋 | 產品詳情 | 產品詳細資料 | 產品詳細資料 | 產品詳細資料 |
+| 搜尋 | 產品詳細資料 | 產品詳細資料 | 產品詳細資料 | 產品詳細資料 |
 | 產品詳細資料 | 搜尋 | 搜尋 | 搜尋 | 搜尋 |
 | 搜尋 | 搜尋 | *沒有值* | 產品詳細資料 | 產品詳細資料 |
 | 搜尋 | *沒有值* | *沒有值* | 搜尋 | 產品詳細資料 |
@@ -1518,8 +1518,8 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 情境：
 
 - CustomerABC123在購物車中為ProductABC新增35美元，然後單獨新增ProductDEF到購物車中新增75美元。
-- CustomerDEF456 為其 ProductGHI 購物車增加 50 美元，然後以 275 美元的價格單獨將 ProductJKL 新增至其購物車。
-- CustomerGHI789 為其 ProductMNO 購物車增加了 500 美元。
+- CustomerDEF456在購物車中新增50美元購買ProductGHI，然後在購物車中另外新增ProductJKL，價格為275美元。
+- CustomerGHI789為ProductMNO的購物車新增$500。
 
 邏輯：
 
@@ -1530,12 +1530,12 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 結果：
 
 - CustomerABC123加到購物車收入的總計$110。
-- 新增到購物車的總收入為 $325 （針對 CustomerDEF456）。
-- 新增到購物車的總收入為 $500 的客戶GHI789。
+- CustomerDEF456的購物車總收入為$325。
+- CustomerGHI789加到購物車收入的總和$500。
 
 ### 衍生欄位 {#summarize-uc-derivedfield}
 
-創建一個 `Add To Cart Revenue Size` 派生欄位。 您使用[!UICONTROL SUMMARIZE]函式和[!UICONTROL Sum] [!UICONTROL Summarize方法]，並將[!UICONTROL 範圍]設定為[!UICONTROL 人員]，來加總[!UICONTROL cart_add]欄位的值。 然後，使用第二個 [!UICONTROL CASE WHEN] 規則將結果拆分為樹類別大小。
+您建立`Add To Cart Revenue Size`衍生欄位。 您使用[!UICONTROL SUMMARIZE]函式和[!UICONTROL Sum] [!UICONTROL Summarize方法]，並將[!UICONTROL 範圍]設定為[!UICONTROL 人員]，來加總[!UICONTROL cart_add]欄位的值。 然後使用第二個[!UICONTROL CASE WHEN]規則將結果分割為樹狀目錄類別大小。
 
 ![摘要規則1](assets/summarize.png)的熒幕擷圖
 
@@ -1633,7 +1633,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ## 使用案例3 {#trim-uc3}
 
-您收集包括 storeID 在內的數據。 storeID 包含縮寫的美國州代碼作為前兩個字元。 您只想在報告中使用該州碼。
+您收集包括storeID的資料。 storeID包含縮寫後的美國州碼，做為前兩個字元。 您只想在報告中使用該州碼。
 
 ### 在此之前的資料 {#trim-uc3-databefore}
 
@@ -1784,13 +1784,13 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 運算子
 
-Case When 函數中的 If 或 Else If 構造中的運算子是條件與 **一個** 值的組合。 條件的每個附加值都會增加運算子的數量。
+If或Else If建構中的運運算元（在Case When函式中）是條件與&#x200B;**one**&#x200B;值的組合。 條件的每個額外值都會增加運運算元的數量。
 
-舉例來說，下面的條件使用 13 個運算符。
+例如，底下的條件使用13個運運算元。
 
 ![範例運運算元](assets/operators-sample.png)
 
-分類函數中的運算符是“當值等於原始值時”的[!UICONTROL 單個條目，原始值][!UICONTROL 取代具有新值]的值。
+Classification函式中的運運算元是[!UICONTROL 當值等於原始值]時[!UICONTROL 以新值取代值]的單一專案。
 
 例如，底下的「分類」規則使用3個運運算元。
 
@@ -1799,7 +1799,7 @@ Case When 函數中的 If 或 Else If 構造中的運算子是條件與 **一個
 
 ## 詳細資訊 {#trim-more-info}
 
-[`Trim`](#trim)和[`Lowercase`](#lowercase)是[資料檢視](../component-settings/overview.md)中元件設定可用的功能。 使用派生欄位可以組合這些函數，直接在 Customer Journey Analytics 中執行更複雜的數據轉換。 例如，您可以使用`Lowercase`移除事件欄位中的區分大小寫功能，然後使用[`Lookup`](#lookup)將新的小寫欄位與只有小寫查詢索引鍵的查詢資料集進行比對。 或者，在新欄位設定`Lookup`之前，您可以使用`Trim`來移除字元。
+[`Trim`](#trim)和[`Lowercase`](#lowercase)是[資料檢視](../component-settings/overview.md)中元件設定可用的功能。 使用衍生欄位可讓您結合這些函式，直接在Customer Journey Analytics中進行更複雜的資料轉換。 例如，您可以使用`Lowercase`移除事件欄位中的區分大小寫功能，然後使用[`Lookup`](#lookup)將新的小寫欄位與只有小寫查詢索引鍵的查詢資料集進行比對。 或者，在新欄位設定`Lookup`之前，您可以使用`Trim`來移除字元。
 
 衍生欄位中支援查閱和設定檔欄位，可讓您根據事件查閱和設定檔屬性來轉換資料。 在有查詢或設定檔資料集中的帳戶層級資料的B2B案例中，這會特別有用。 此外，這項支援對於在查閱資料（如行銷活動資訊和選件型別）或設定檔資料（如成員層級和帳戶型別）的常見欄位中操作資料非常有用。
 

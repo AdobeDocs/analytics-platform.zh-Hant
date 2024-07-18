@@ -36,12 +36,12 @@ ht-degree: 75%
 
 ### 預設視圖
 
-![「媒體同時檢閱者」預設檢視。](assets/concurrent-viewers-default.png)
+![媒體同時檢閱者預設檢視。](assets/concurrent-viewers-default.png)
 
 
 ### 序列劃分檢視
 
-![「媒體同時檢閱者系列」劃分檢視畫面顯示10個維度、區段或日期範圍中的7個。](assets/concurrent-viewers-series-breakdown.png)
+![媒體同時檢閱者系列劃分檢視畫面顯示10個維度、區段或日期範圍中的7個。](assets/concurrent-viewers-series-breakdown.png)
 
 ## 面板輸出 {#Output}
 
@@ -64,7 +64,7 @@ ht-degree: 75%
 本檢視中不提供自由表格。為了查看資料來源，您可以在線圖按一下右鍵並下載為 .csv 檔。系列劃分會包含在內。
 
 
-![同時檢閱者輸出選項中的「將資料下載為CSV檔」會強調顯示。](assets/concurrent-viewers-download-csv.png)
+![反白顯示「將資料下載為CSV檔」的「同時檢閱者」輸出選項。](assets/concurrent-viewers-download-csv.png)
 
 ## 常見問題 {#FAQ}
 

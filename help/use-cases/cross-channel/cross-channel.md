@@ -22,18 +22,18 @@ ht-degree: 61%
 
 1. 為要擷取的資料[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
 1. 為要擷取的資料[建立資料集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)。
-1. [將資料擷取至Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html)：
-   1. 事件型資料 ![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) 透過Edge Network或Analytics來源聯結器，從網站或行動應用程式存取。
-   2. 設定檔資料 ![設定檔](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) （例如從CRM系統、客服中心應用程式、忠誠度應用程式）。
-   3. 查詢資料 ![查詢](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) （例如產品名稱、產品資訊系統的類別）。
+1. [將資料內嵌至Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html)：
+   1. 透過Edge Network或Analytics來源聯結器，從網站或行動應用程式取得事件型資料![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg)。
+   2. 設定檔資料![設定檔](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) （例如，來自CRM系統、客服中心應用程式、忠誠度應用程式）。
+   3. 查詢資料![查詢](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) （例如產品名稱、產品資訊系統中的類別）。
 
-1. 跨資料集使用通用名稱空間ID。 使用 [拼接](../../stitching/overview.md) 提升任何事件型資料集 ![資料重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) 有關在每一列提供通用ID的問題。 請注意，Customer Journey Analytics 目前不使用 Experience Platform 設定檔或身份識別服務進行拼接。
+1. 跨資料集使用通用名稱空間ID。 使用[拼接](../../stitching/overview.md)提升任何事件型資料集![資料重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg)，以便在每一列提供通用ID。 請注意，Customer Journey Analytics 目前不使用 Experience Platform 設定檔或身份識別服務進行拼接。
 1. 執行任何自訂資料準備，以確保跨時間序列資料集的公用鍵被引入 Customer Journey Analytics。
 1. 為查閱資料提供一個可以連結到事件資料中欄位的主要 ID。計為授權中的列。
 1. 將設定檔資料的主要 ID 設定為事件資料的主要 ID。
-1. [建立連線](../../connections/overview.md) 從Experience Platform擷取相關資料集至Customer Journey Analytics。
+1. [建立連線](../../connections/overview.md)以將相關的資料集從Experience Platform擷取到Customer Journey Analytics。
 1. 在連線上[建立資料檢視](/help/data-views/create-dataview.md)以選擇要包含在檢視中的特定維度和量度。歸因和配置設定也在資料檢視中設定。這些設定是在報告時計算的。
-1. [建立專案](/help/analysis-workspace/home.md) 若要在Analysis Workspace中設定儀表板和報表。
+1. [建立專案](/help/analysis-workspace/home.md)以在Analysis Workspace中設定儀表板和報表。
 
 ## 考量事項
 

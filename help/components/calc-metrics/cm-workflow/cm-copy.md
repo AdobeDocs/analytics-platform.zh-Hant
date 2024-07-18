@@ -2,10 +2,11 @@
 description: 說明如何在計算量度管理員中複製計算量度
 title: 複製計算量度
 feature: Calculated Metrics
-source-git-commit: 124834d0ad1c53fd5930b07a9aa0893a15a49875
+exl-id: b1cc1171-aebf-4b97-99db-9bbcef5ea9d7
+source-git-commit: b0ddfbb4d018e6d563bef639a31f31e09700fbc2
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -15,10 +16,10 @@ ht-degree: 0%
 
 若要在計算量度管理員中複製計算量度：
 
-1. 在Customer Journey Analytics中，選取 **[!UICONTROL 元件]** 索引標籤，然後選取 **[!UICONTROL 計算量度]**.
+1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;標籤，然後選取&#x200B;**[!UICONTROL 計算量度]**。
 
 1. 在計算量度管理員中，選取您要複製的計算量度。
 
    計算量度管理工具列隨即顯示。
 
-1. 選取 **[!UICONTROL 複製]**.
+1. 選取&#x200B;**[!UICONTROL 複製]**。

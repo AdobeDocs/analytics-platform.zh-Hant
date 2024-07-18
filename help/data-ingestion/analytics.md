@@ -58,25 +58,25 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
 4. 選取&#x200B;**[!UICONTROL 報告套裝]**。從報告套裝清單中，選取您要使用的套裝。
 
-   ![Adobe Experience Platform視窗顯示報表套裝清單](./assets/report-suites.png)
+   顯示報告套裝清單的![Adobe Experience Platform視窗](./assets/report-suites.png)
 
    選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 5. 選取&#x200B;**[!UICONTROL 預設結構]**&#x200B;作為[!UICONTROL 目標結構]。Adobe Experience Platform 會自動建立結構和對應的資料集，以對應所選 Adobe Analytics 報告套裝中的所有標準欄位。
 
-   ![已選取預設結構的Adobe Experience Platform視窗](./assets/default-schema.png)
+   已選取預設結構描述的![Adobe Experience Platform視窗](./assets/default-schema.png)
 
    選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 6. 為資料流命名，並 (可選) 提供說明。
 
-   ![Adobe Experience Platform視窗中醒目提示資料流詳細資訊區段](./assets/dataflow-detail.png)
+   ![Adobe Experience Platform視窗醒目提示資料流詳細資料區段](./assets/dataflow-detail.png)
 
    選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 7. 查看連線並選取 **[!UICONTROL 完成]**。
 
-   ![Adobe Experience Platform視窗中反白的「連線」和「資料型別」區段以供檢閱](./assets/review.png)
+   ![Adobe Experience Platform視窗醒目提示要檢閱的連線和資料型別區段](./assets/review.png)
 
 
 建立連線後，系統會自動建立資料流，以使用報表套裝的Adobe Analytics資料填入資料集。 此資料流會擷取最多13個月的生產沙箱歷史資料。 非生產沙箱中的回填限製為三個月。
@@ -90,7 +90,7 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
 若要在 Customer Journey Analytics 中使用 Adobe Experience Platform 資料，您可以建立連線，其中包含設定結構、資料集和工作流程所產生的資料。
 
-連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報表，必須先為Adobe Experience Platform和工作區的資料集建立連線。
+連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報表，必須先為Adobe Experience Platform和Workspace中的資料集建立連線。
 
 若要建立連線，請執行以下操作：
 
@@ -193,7 +193,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 若要建立您的第一個報表，請開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] . 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
+5. 若要建立您的第一個報表，請開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
 
    ![工作區 – 第一份報告](./assets/cja-projects-5.png)
 

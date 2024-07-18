@@ -7,7 +7,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 86%
 
 ## 設定流量視覺效果
 
-如需關於如何設定流量視覺效果的資訊，請參閱 [設定流量視覺效果](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
+有關如何設定流量視覺效果的資訊，請參閱「[設定流量視覺效果](/help/analysis-workspace/visualizations/c-flow/create-flow.md)」。
 
 ## 匯出包含流量圖表的專案 .CSV 檔案 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 

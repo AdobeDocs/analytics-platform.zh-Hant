@@ -21,7 +21,7 @@ ht-degree: 74%
 
 ## 編輯[!UICONTROL 「欄設定」]  {#edit-column-settings}
 
-若要存取 [!UICONTROL 欄設定]，將自由表格拖曳至專案，然後按一下「設定」圖示 ![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) 欄標題中。
+若要存取[!UICONTROL 欄設定]，請拖曳自由表格至專案，然後按一下欄標題中的設定圖示![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)。
 
 <img src="./assets/column-settings.png" alt="顯示「總計」儲存格、「表格」儲存格和「表格」儲存格預覽的「欄」設定。" width="50%" />
 
@@ -56,29 +56,29 @@ ht-degree: 74%
 
 ## 使用非預設歸因模式 {#attribution}
 
-可讓您覆寫在中設定的預設歸因模型 [資料檢視](/help/data-views/component-settings/attribution.md).
+允許您覆寫[資料檢視](/help/data-views/component-settings/attribution.md)中設定的預設歸因模型。
 
 >[!NOTE]
 >
 >將元件的歸因更新為非預設歸因模型時，請考量下列事項：
 >
->* **在報表中使用元件搭配 *單一維度*：** 使用非預設歸因模型時，元件的歸因會忽略配置模型。
+>* **在具有&#x200B;*單一維度*：**&#x200B;的報表中使用元件時，如果使用非預設歸因模型，元件的歸因會忽略配置模型。
 >
->* **在報表中使用元件搭配 *多個維度*：** 使用非預設歸因模型時，元件的歸因會保留配置模型。
+>* **在具有&#x200B;*多個維度的報表中使用元件時*：**&#x200B;使用非預設歸因模型時，元件的歸因會保留配置模型。
 >
->   多個維度僅在以下情況下才可用 [將資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md).
+>   只有在[將資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md)時，才能使用多個維度。
 >
-> 如需配置的詳細資訊，請參閱 [持續性元件設定](/help/data-views/component-settings/persistence.md).
+> 如需配置的詳細資訊，請參閱[持續性元件設定](/help/data-views/component-settings/persistence.md)。
 
 若要對Analysis Workspace中的量度使用非預設歸因模型：
 
 1. 按一下「自由格式表格」欄中量度上的「設定」（齒輪）圖示。
 
-   ![「欄設定」選項醒目提示「資料設定」選項：使用非預設歸因模式。](assets/attribution-checkbox.png)
+   ![醒目提示「資料設定」選項的欄設定選項：使用非預設歸因模式。](assets/attribution-checkbox.png)
 
 2. 在&#x200B;**[!UICONTROL 資料設定]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 使用非預設歸因模式]**。如需不同歸因模式的詳細資訊，請參閱[歸因模式](/help/data-views/component-settings/attribution.md)。
 
-   ![「欄歸因模型」選項顯示「線性」已選取。](assets/attribution-select.png)
+   ![顯示線性選取的資料行歸因模型選項。](assets/attribution-select.png)
 
 >[!MORELIKETHIS]
 >

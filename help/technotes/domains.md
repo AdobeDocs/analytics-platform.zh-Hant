@@ -2,7 +2,8 @@
 title: Customer Journey Analytics使用的網域
 description: 如果貴組織的防火牆封鎖來自 Adobe 的 IP 位址，請使用此清單來更新您的防火牆設定。
 role: Admin
-source-git-commit: 43bda939a5464c5f65b0a050ccfdb5ba17f7d34b
+exl-id: 0c3e7b2e-cb48-4e14-ae18-65258ebce1b4
+source-git-commit: 8ffbca5dd83987a90d7b744d236e0556314000dd
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 20%
@@ -27,10 +28,10 @@ ht-degree: 20%
 
 ## Adobe Experience Cloud 網域
 
-除了上述網域外，Adobe Experience Cloud還仰賴數個網域進行資料收集和匯出報表。 另請參閱 [Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) 用於此網域清單。
+除了上述網域外，Adobe Experience Cloud還仰賴數個網域進行資料收集和匯出報表。 如需此網域清單，請參閱[Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)。
 
 >[!MORELIKETHIS]
 >
->[Customer Journey Analytics使用的IP位址](ip-addresses.md)
+>Customer Journey Analytics](ip-addresses.md)使用的[IP位址
 >
 >[Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

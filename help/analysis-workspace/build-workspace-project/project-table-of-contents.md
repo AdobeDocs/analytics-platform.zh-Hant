@@ -26,10 +26,10 @@ ht-degree: 7%
 
 1. 在Analysis Workspace中，前往您要檢視目錄的專案。
 
-1. 在左側導覽中，選取目錄圖示 ![目錄圖示](assets/toc-icon.png).
+1. 在左側導覽中，選取目錄圖示![目錄圖示](assets/toc-icon.png)。
 
    隨即顯示專案的目錄，每個面板依預設都會展開。
 
-   ![展開的專案目錄](assets/project-toc-expanded.png)
+   ![專案目錄已展開](assets/project-toc-expanded.png)
 
 1. 在目錄中，選取要在專案中前往的視覺效果。

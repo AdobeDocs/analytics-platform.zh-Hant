@@ -22,7 +22,7 @@ ht-degree: 65%
 
 請參閱前面[概觀](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)中所示的高階 Customer Journey Analytics：
 
-![本節所述的Customer Journey Analytics架構](./assets/cja-architecture.png)
+本節中說明的![Customer Journey Analytics架構](./assets/cja-architecture.png)
 
 上述架構中的資料集可能來自各種來源：
 
@@ -48,11 +48,11 @@ ht-degree: 65%
 
 請注意，此功能的內容將根據貴公司購買的 SKU 封裝而有所不同。
 
-- 優先擷取基本：90分鐘SLT處理內24小時前的資料(適用於 **CJA Foundation** 和 **CJA選取**)
+- 優先擷取基本：90分鐘SLT處理內24小時前的資料（適用於&#x200B;**CJA Foundation**&#x200B;和&#x200B;**CJA Select**）
 
-- 優先擷取中繼：90分鐘SLT處理內72小時前的資料(適用於 **CJA Prime**)
+- 優先擷取中繼： 90分鐘SLT處理內72小時前的資料（適用於&#x200B;**CJA Prime**）
 
-- 優先擷取進階： 90分鐘SLT處理內1週前的資料(適用於 **CJA Ultimate**)
+- 優先擷取進階： 90分鐘SLT處理內1週前的資料（適用於&#x200B;**CJA Ultimate**）
 
 ## 從傳統 Adobe Analytics 擷取和使用資料
 
@@ -67,19 +67,19 @@ ht-degree: 65%
 
 您想要使用Adobe技術分析您的網站，可能從其他解決方案移轉，或開始追蹤您的人員行為。 您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
-另請參閱 [透過Adobe Experience Platform Web SDK擷取及使用資料](./aepwebsdk.md) 以取得詳細資訊。
+如需詳細資訊，請參閱[透過Adobe Experience Platform Web SDK擷取及使用資料](./aepwebsdk.md)。
 
 ### 使用Adobe Experience Platform Mobile SDK
 
 您想要使用Adobe技術分析行動應用程式，可能從其他解決方案移轉，或是開始從頭開始追蹤使用者在應用程式中的行為。 您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
-另請參閱 [透過Adobe Experience Platform Mobile SDK擷取及使用資料](./aepmobilesdk.md) 以取得詳細資訊。
+如需詳細資訊，請參閱[透過Adobe Experience Platform Mobile SDK擷取及使用資料](./aepmobilesdk.md)。
 
 ### 使用Adobe Experience PlatformEdge Network伺服器API
 
 您想要分析您的案頭應用程式、在遊戲機上玩的遊戲、在機上盒或透過Adobe技術的IoT裝置上使用視訊串流應用程式。 可能從其他解決方案移轉，或從頭開始追蹤使用者在這些裝置上的行為。 您想要遵循Adobe的最佳實作方法，也就是使用Adobe Experience PlatformEdge Network伺服器API和Edge Network來擷取資料。 接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
-另請參閱 [透過Adobe Experience PlatformEdge Network伺服器API擷取及使用資料](./serverapi.md) 以取得詳細資訊。
+如需詳細資訊，請參閱[透過Adobe Experience PlatformEdge Network伺服器API擷取及使用資料](./serverapi.md)。
 
 ## 擷取和使用批次資料
 

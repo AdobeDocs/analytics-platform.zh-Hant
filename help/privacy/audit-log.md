@@ -23,15 +23,15 @@ ht-degree: 65%
 
 為您的組織啟用此功能後，活動發生時系統自動收集稽核記錄。您無需手動啟用記錄收集。
 
-若要檢視和匯出稽核記錄，您必須已被授予 Adobe Console 中的&#x200B;**[!UICONTROL 稽核記錄存取權]**&#x200B;存取控制權限。若要瞭解如何管理Customer Journey Analytics功能的個別許可權，請參閱 [存取控制檔案](../technotes/access-control.md).
+若要檢視和匯出稽核記錄，您必須已被授予 Adobe Console 中的&#x200B;**[!UICONTROL 稽核記錄存取權]**&#x200B;存取控制權限。若要瞭解如何管理Customer Journey Analytics功能的個別許可權，請參閱[存取控制檔案](../technotes/access-control.md)。
 
 ## 在 UI 中檢視稽核記錄
 
-在Customer Journey Analytics中，導覽至 **[!UICONTROL 工具]** > **[!UICONTROL 稽核記錄]**.
+在Customer Journey Analytics中，導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 稽核記錄]**。
 
 系統依預設會顯示今天和昨天的稽核記錄。
 
-![今日和昨日的稽核記錄重點提示。 ](assets/audit_ui.png)
+![今天和昨天的稽核記錄醒目提示。](assets/audit_ui.png)
 
 您可以使用右上方的欄選擇器來選擇要顯示哪些欄。
 
@@ -39,7 +39,7 @@ ht-degree: 65%
 
 按兩下說明旁邊的資訊 (i) 按鈕。
 
-![反白顯示資訊按鈕的稽核記錄。 ](assets/info-button-audit.png)
+![反白顯示資訊按鈕的稽核記錄。](assets/info-button-audit.png)
 
 系統會顯示以下項目：
 
@@ -58,10 +58,10 @@ ht-degree: 65%
    * 取消核准
    * 取消共用
 * **[!UICONTROL 建立日期]**：執行動作的日期和時間。
-* **[!UICONTROL 說明]**：動作摘要。
+* **[!UICONTROL 描述]**：動作摘要。
 * **[!UICONTROL 使用者名稱]**：執行此動作的使用者。
-* **[!UICONTROL 電子郵件]**：執行此動作之使用者的電子郵件地址。
-* **[!UICONTROL 元件名稱]**：使用者對其採取動作的元件。
+* **[!UICONTROL 電子郵件]**：執行動作之使用者的電子郵件地址。
+* **[!UICONTROL 元件名稱]**：使用者對其執行動作的元件。
 * **[!UICONTROL 元件型別]**：元件的型別。 可能的值包括：
    * 註解
    * 對象
@@ -80,10 +80,10 @@ ht-degree: 65%
    * 排程專案
    * 使用者
    * 使用者群組
-* **[!UICONTROL 元件ID]**：使用者對其採取動作的元件的ID。
-* **[!UICONTROL IMS組織ID]**：組織的IMS ID，格式為 `ABC123@AdobeOrg`.
-* **[!UICONTROL 記錄ID]**：識別此記錄專案的唯一ID。
-* **[!UICONTROL 使用者ID]**：識別採取動作之使用者的唯一ID。
+* **[!UICONTROL 元件ID]**：使用者對其執行動作的元件識別碼。
+* **[!UICONTROL IMS組織ID]**：組織的IMS ID，格式為`ABC123@AdobeOrg`。
+* **[!UICONTROL 記錄識別碼]**：識別此記錄專案的唯一識別碼。
+* **[!UICONTROL 使用者ID]**：識別執行動作之使用者的唯一識別碼。
 * **[!UICONTROL 使用者型別]**：使用的驗證型別。 有效值包括：
    * IMS
    * OKTA
@@ -92,7 +92,7 @@ ht-degree: 65%
 
 選擇漏斗圖示 (![篩選](assets/filter-icon.png)) 以顯示篩選控制項以幫助縮小結果範圍。僅顯示最後 1,000 條記錄，無論選擇的各種篩選器為何。
 
-![稽核記錄，顯示針對「資料範圍」顯示的篩選器。](assets/filters.png)
+![稽核記錄檔顯示資料範圍所顯示的篩選器。](assets/filters.png)
 
 以下篩選器可用於 UI 中的稽核事件：
 
@@ -139,4 +139,4 @@ ht-degree: 65%
 
 ## 管理 API 中的稽核記錄
 
-所有可以在 UI 中執行的動作，也可以使用 API 呼叫來完成。請參閱 [Customer Journey Analytics API參考檔案](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) 以取得詳細資訊。
+所有可以在 UI 中執行的動作，也可以使用 API 呼叫來完成。如需詳細資訊，請參閱[Customer Journey Analytics API參考檔案](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs)。

@@ -21,11 +21,11 @@ ht-degree: 79%
 
 擷取歷史 (回填) 資料涉及將資料從 Google 匯出，並將資料匯入 Adobe Experience Platform。 請參閱[將 Google Analytics 資料擷取至 Adobe Experience Platform ](backfill.md)。
 
-將歷史資料成功攜入平台後，您可以 [設定串流目前的資料](streaming.md)，或立即開始回報Customer Journey Analytics中的回填資料，回報者： [建立連線](/help/connections/create-connection.md).
+成功將歷史資料帶入Platform後，您可以[設定串流最新的資料](streaming.md)，或立即開始報告Customer Journey Analytics中的回填資料，方法是[建立連線](/help/connections/create-connection.md)。
 
 ## 設定既存的 Google Analytics 實作，以用於 Adobe Experience Platform {#configure}
 
-擷取目前（串流）資料涉及將資料傳送至Adobe Experience Platform Edge Network，然後再將資料轉送至Adobe Experience Platform。 請參閱[在 Adobe Experience Platform 設定 Google Analytics 資料](streaming.md)。
+擷取目前（串流）資料涉及將資料傳送至Adobe Experience PlatformEdge Network，然後再將該資料轉送至Adobe Experience Platform。 請參閱[在 Adobe Experience Platform 設定 Google Analytics 資料](streaming.md)。
 
 ## 在Customer Journey Analytics中設定連線和資料檢視
 

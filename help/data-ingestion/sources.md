@@ -52,25 +52,26 @@ ht-degree: 78%
 
 1. 在 Adobe Experience Platform UI 的左側邊欄中，選取[!UICONTROL 「資料管理」]中的&#x200B;**[!UICONTROL 「結構」]**。
 
-1. 選取 **[!UICONTROL 建立結構描述]**..
+1. 選取&#x200B;**[!UICONTROL 建立結構描述]**。
+.
 1. 在建立架構精靈的選取類別步驟中：
 
-   1. 選取 **[!UICONTROL 個別設定檔]**.
+   1. 選取&#x200B;**[!UICONTROL 個別設定檔]**。
 
-      ![建立結構描述視窗，並選取個別設定檔](./assets/create-pr-schema-wizard-step-1.png)
+      ![使用選取的個別設定檔建立結構描述視窗](./assets/create-pr-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    體驗事件結構描述是用來建立 _行為_ 的設定檔（像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+      >    體驗事件結構描述可用來模型化設定檔的&#x200B;_行為_ （像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 
-1. 在 [!UICONTROL 名稱和稽核步驟] 的 [!UICONTROL 建立結構描述] 精靈：
+1. 在[!UICONTROL 建立結構描述]精靈的[!UICONTROL 名稱和檢閱步驟]中：
 
-   1. 輸入 **[!UICONTROL 結構描述顯示名稱]** 適用於您的結構描述和（選用） a **[!UICONTROL 說明]**.
+   1. 為您的結構描述輸入&#x200B;**[!UICONTROL 結構描述顯示名稱]**&#x200B;和（選擇性） **[!UICONTROL 描述]**。
 
-      ![建立結構描述視窗，其中顯示可命名結構描述的欄位 ](./assets/create-pr-schema-wizard-step-2.png)
+      ![建立結構描述視窗，顯示用來命名結構描述](./assets/create-pr-schema-wizard-step-2.png)的欄位
 
    1. 選取&#x200B;**[!UICONTROL 「完成」]**。
 
@@ -78,7 +79,7 @@ ht-degree: 78%
 
    1. 在[!UICONTROL 「欄位群組」]中選取&#x200B;**[!UICONTROL 「+ 新增」]**。
 
-      ![顯示新增欄位群組的建立結構描述視窗](./assets/add-field-group-button.png)
+      ![建立顯示[新增]欄位群組的結構描述視窗](./assets/add-field-group-button.png)
 
       欄位群組是可重複使用的物件和屬性集合，可讓您輕鬆擴充結構。
 
@@ -175,15 +176,15 @@ ht-degree: 78%
 
 您可以從多種來源擷取資料。 以下只是眾多可用來源中的幾個：
 
-- Adobe應用程式(來源聯結器包括 [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)， [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager)，等等)
+- Adobe應用程式(來源聯結器包括[Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)、[Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager)等)
 
-- 雲端儲存空間(來源聯結器包括 [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3)， [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob)，等等)
+- 雲端儲存空間(來源聯結器包括[Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3)、[Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob)等)
 
-- 資料庫(來源聯結器包括 [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)， [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server)，等等)
+- 資料庫(來源聯結器包含[Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)、[Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server)等)
 
 若要設定來源連接器，請執行以下操作：
 
-1. 在Adobe Experience Platform中，選取 **[!UICONTROL 來源]** 從 [!UICONTROL 連線] 在左側邊欄中。
+1. 在Adobe Experience Platform中，從左側邊欄的[!UICONTROL CONNECTIONS]中選取&#x200B;**[!UICONTROL 來源]**。
 
 1. 從可用的來源聯結器清單中選取您的來源聯結器。
 
@@ -193,7 +194,7 @@ ht-degree: 78%
 
    1. **[!UICONTROL 選取資料]**：選取要擷取的來源資料。
 
-   1. **[!UICONTROL 資料流詳細資料]**：您可以提供資料流的其他詳細資料，例如名稱和要使用的資料集。
+   1. **[!UICONTROL 資料流詳細資料]**：您提供了資料流的其他詳細資料，例如名稱和要使用的資料集。
 
    1. **[!UICONTROL 對應]**：將傳入的來源資料欄位對應至與您所選資料集關聯之結構中的屬性。
 
@@ -209,9 +210,9 @@ ht-degree: 78%
 
    1. 選取&#x200B;**[!UICONTROL 「檢視文件」]**。
 
-另請參閱 [從傳統Adobe Analytics內嵌及使用資料](./analytics.md) 有關如何使用Adobe Analytics來源聯結器的資訊。
+如需如何使用Adobe Analytics來源聯結器的詳細資訊，請參閱[從傳統Adobe Analytics擷取及使用資料](./analytics.md)。
 
-另請參閱 [擷取及使用串流資料](./streaming.md) 有關如何使用HTTP API來源聯結器的資訊。
+如需如何使用HTTP API來源聯結器的資訊，請參閱[擷取及使用串流資料](./streaming.md)。
 
 請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions)，了解來源連接器 (包括每個連接器的詳細資訊連結) 的概述。
 
@@ -220,7 +221,7 @@ ht-degree: 78%
 
 若要在 Customer Journey Analytics 中使用 Adobe Experience Platform 資料，您可以建立連線，其中包含設定結構、資料集和工作流程所產生的資料。
 
-連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報表，必須先為Adobe Experience Platform和工作區的資料集建立連線。
+連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報表，必須先為Adobe Experience Platform和Workspace中的資料集建立連線。
 
 若要建立連線，請執行以下操作：
 
@@ -262,7 +263,7 @@ ht-degree: 78%
 
    1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-在您建立 [連線](/help/connections/overview.md)，您可以執行各種管理工作，例如 [選取及合併資料集](/help/connections/combined-dataset.md)， [檢查連線資料集的狀態和資料擷取的狀態](/help/connections/manage-connections.md)、等等。
+建立[連線](/help/connections/overview.md)之後，您可以執行各種管理工作，例如[選取並合併資料集](/help/connections/combined-dataset.md)、[檢查連線資料集的狀態和資料擷取的狀態](/help/connections/manage-connections.md)等等。
 
 ## 設定資料檢視
 
@@ -323,7 +324,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 若要建立您的第一個報表，請開始將維度和量度拖放至 [!UICONTROL 自由表格] 在 [!UICONTROL 面板] . 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
+5. 若要建立您的第一個報表，請開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
 
    ![工作區 – 第一份報告](./assets/cja-projects-5.png)
 

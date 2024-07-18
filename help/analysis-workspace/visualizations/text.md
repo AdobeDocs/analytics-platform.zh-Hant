@@ -19,7 +19,7 @@ ht-degree: 86%
 
 編輯文字方框或說明時，您可以調整字體大小 (標題層級)、顏色、樣式 (粗體、斜體、下底線)，以及對齊所選的文字。您還可新增項目符號和自動編號清單。
 
-![Workspace專案中反白文字調色盤的文字選項。](assets/format.png)
+![醒目提示文字調色盤的Workspace專案文字選項。](assets/format.png)
 
 ## 新增超連結 {#hyperlinks}
 

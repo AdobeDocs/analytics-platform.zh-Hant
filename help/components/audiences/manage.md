@@ -18,8 +18,8 @@ ht-degree: 68%
 * 為自動對象重新整理/更新進行&#x200B;**排程或取消排程**。 排程的最長到期時間為 1 年。
 * 在對象重新整理排程快到期時，**續訂對象重新整理排程**。系統處理即將到期對象的方法與即將到期的排程報告相似，管理員會在排程到期的一個月前收到電子郵件。
 * 查看&#x200B;**重新整理間隔**&#x200B;和&#x200B;**上次更新對象的時間**
-* 深入瞭解 **產生對象所需的時間** Customer Journey Analytics以及讓對象出現在即時客戶個人檔案以供啟動所需的時間長度。
-* 檢視Customer Journey Analytics中的對象是否為 **由即時客戶個人檔案主動使用** 或（理想情況下）任何消耗Customer Journey Analytics所建立對象的Experience Platform應用程式。
+* 深入瞭解從Customer Journey Analytics產生對象&#x200B;**所花費的**&#x200B;時間，以及讓對象出現在即時客戶個人檔案以供啟動所花費的時間。
+* 檢視Customer Journey Analytics中的對象是&#x200B;**由即時客戶個人檔案**&#x200B;主動使用，或（理想情況下）由任何使用Customer Journey Analytics所建立對象的Experience Platform應用程式主動使用。
 
 ## 管理 UI
 

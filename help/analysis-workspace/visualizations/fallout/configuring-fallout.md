@@ -19,13 +19,13 @@ ht-degree: 67%
 
 對於可新增的步驟數或是可使用的維度數並沒有限制。
 
-您可以在eVar上執行路徑分析，包括銷售eVar和 [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=zh-Hant) （每個事件可以有多個值的變數，例如產品、listVar、銷售eVar和清單prop）。 舉例來說，假設某人正在同一頁面上查看鞋子和上衣，而在下一頁改為查看上衣和襪子。來自鞋子的下一個產品流量報表會是上衣和襪子，「而非」上衣。
+您可以在eVar上執行路徑分析，包括銷售eVar和[listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=zh-Hant) （每個事件可以有多個值的變數，例如產品、listVars、銷售eVars和清單prop）。 舉例來說，假設某人正在同一頁面上查看鞋子和上衣，而在下一頁改為查看上衣和襪子。來自鞋子的下一個產品流量報表會是上衣和襪子，「而非」上衣。
 
 1. 從「視覺效果」下拉式清單將[!UICONTROL 「流失」]視覺效果拖曳至[!UICONTROL 「自由表格」]中。
 
 1. 將「頁面」維度拖曳至「自由表格」中，然後從那裡將頁面 (在此例中是「首頁 - JJEsquire」) 拖曳至&#x200B;**[!UICONTROL 「新增接觸點」]**&#x200B;欄位，作為第一個接觸點。
 
-   ![「所有造訪」下拉式清單會顯示拖曳至「新增接觸點」欄位的JJEsquire。](assets/fallout1.png)
+   ![顯示JJEsquire拖曳至「新增接觸點」欄位的「所有造訪」下拉式清單。](assets/fallout1.png)
 
    將滑鼠停留在接觸點上可檢視流失和該層級的其他相關資訊，例如接觸點的名稱、該接觸點的人員計數，並可檢視該接觸點的成功率（以及比較其他接觸點的成功率）。
 
@@ -43,9 +43,9 @@ ht-degree: 67%
 
    ![頁面：CamerRoll或頁面：反白的相機接觸點。](assets/multiple_obj_touchpoint.png)
 
-1. 您也可以 **將個別接觸點限製為下一個事件** （而非「最終」）路徑中。 在各接觸點下方，為含有「最終路徑」和「下一次點擊」選項的選擇器，如下所示：
+1. 您也可以在路徑內&#x200B;**將個別接觸點限製為下一個事件** （而非「最終」）。 在各接觸點下方，為含有「最終路徑」和「下一次點擊」選項的選擇器，如下所示：
 
-   ![顯示「最終路徑」選項的「所有造訪」檢視會反白顯示。 ](assets/next-hit-eventually.png)
+   ![顯示「最終路徑」選項的「所有造訪」檢視會反白顯示。](assets/next-hit-eventually.png)
 
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 

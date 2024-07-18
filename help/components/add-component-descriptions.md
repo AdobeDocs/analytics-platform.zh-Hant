@@ -15,9 +15,9 @@ ht-degree: 39%
 
 在 Analysis Workspace 中建置專案或檢視報表時，說明可幫助使用者了解如何善用各種元件。
 
-Customer Journey Analytics管理員可以在資料檢視中新增元件(Dimension、量度、篩選器和日期範圍)的說明，或直接在Analysis Workspace中使用資料字典進行新增。
+Customer Journey Analytics管理員可以在資料檢視中新增元件(Dimension、量度、篩選器和日期範圍)的說明，或直接在Analysis Workspace中使用資料字典來新增。
 
-## 在資料檢視中新增元件說明
+## 在資料檢視中為元件新增說明
 
 以下影片說明如何在資料檢視中新增維度和量度說明：
 
@@ -25,7 +25,7 @@ Customer Journey Analytics管理員可以在資料檢視中新增元件(Dimensio
 
 ## 對 Analysis Workspace 中的元件新增說明 (使用資料字典) {#add-descriptions}
 
-Analysis Workspace中的資料字典可協助使用者和管理員追蹤及更瞭解其Customer Journey Analytics環境中的元件。 這包括Customer Journey Analytics管理員直接在Analysis Workspace中新增元件說明的功能。
+Analysis Workspace中的資料字典可協助使用者和管理員追蹤及更瞭解其Customer Journey Analytics環境中的元件。 包括讓Customer Journey Analytics管理員直接在Analysis Workspace中新增元件說明的功能。
 
 如需有關如何在資料字典中新增元件的資訊，請參閱[在資料字典中編輯元件條目](/help/components/data-dictionary/edit-entries-data-dictionary.md)。
 

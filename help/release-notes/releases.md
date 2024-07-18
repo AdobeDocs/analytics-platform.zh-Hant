@@ -1,16 +1,16 @@
 ---
 description: 說明 Customer Journey Analytics 的持續功能發行策略
-title: Customer Journey Analytics功能發行策略
+title: Customer Journey Analytics 功能發行策略
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
 source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics功能發行策略
+# Customer Journey Analytics 功能發行策略
 
 Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調整、分階段的方法進行未來部署。
 
@@ -28,7 +28,7 @@ Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調�
 
 ## 功能旗標
 
-功能旗標可用於控制新功能在發行期間的可見度。Adobe建議允許 `app.launchdarkly.com` 穿過貴組織的防火牆，在發行期間提供最佳體驗。 這些標幟會在功能發行給每個人後移除。 另請參閱 [Customer Journey Analytics使用的網域](../technotes/domains.md) 以取得詳細資訊。
+功能旗標可用於控制新功能在發行期間的可見度。Adobe 建議允許 `app.launchdarkly.com` 通過您組織的防火牆，以便在發行期間獲得最佳體驗。在向所有人發行功能後，這些旗標將被刪除。如需更多資訊，請參閱 [Customer Journey Analytics 使用的網域](../technotes/domains.md)。
 
 您可以隨時在&#x200B;**「說明 > 關於 Workspace > 有效功能旗標」**&#x200B;檢視有效的功能旗標。
 
@@ -40,5 +40,5 @@ Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調�
 
 | 問題 | 回答 |
 | --- | --- |
-| 我是否可要求搶先使用功能？ | 否。 我們不授與搶先使用的權限。<br>如果您想要搶先體驗 Analytics 的概念，建議您嘗試透過 [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/labs.html?lang=zh-Hant) 對我們領先業界的創新能力提供意見反應。 |
+| 我是否可要求搶先使用功能？ | 否。 我們不授與搶先使用的權限。<br>如果您想要搶先體驗 Analytics 的概念，建議您嘗試透過 [Adobe Analytics Labs](https://experienceleague.adobe.com/tw/docs/analytics/analyze/labs.html?lang=zh-Hant) 對我們領先業界的創新能力提供意見反應。 |
 | 此發行策略是否會影響我使用功能？ | 否。 功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。 |

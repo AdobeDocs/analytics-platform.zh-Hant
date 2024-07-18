@@ -13,9 +13,9 @@ ht-degree: 57%
 
 # 結合報告套裝與不同的結構描述
 
-此 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant) 將報表套裝資料從Adobe Analytics帶入Adobe Experience Platform，以供Adobe Experience Platform應用程式使用，例如Real-time Customer Data Platform和Customer Journey Analytics (Customer Journey Analytics)。 引入Adobe Experience Platform的每個報告套裝都會設定為個別來源連線資料流，而每個資料流都會當作Adobe Experience Platform資料湖中的資料集。 Analytics來源聯結器會為每個報告套裝各建立一個資料集。
+[Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將來自Adobe Analytics的報告套裝資料帶入Adobe Experience Platform，以供Adobe Experience Platform應用程式使用，例如Real-time Customer Data Platform和Customer Journey Analytics (Customer Journey Analytics)。 引入Adobe Experience Platform的每個報告套裝都會設定為個別來源連線資料流，而每個資料流都會當作Adobe Experience Platform資料湖中的資料集。 Analytics來源聯結器會為每個報告套裝各建立一個資料集。
 
-客戶使用的Customer Journey Analytics [連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant) 將資料集從Adobe Experience Platform資料湖整合到Customer Journey AnalyticsAnalysis Workspace中。 但是，在連線中組合報告套裝時，需要使用Adobe Experience Platform解決報告套裝之間的結構描述差異 [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant) 功能。 目的是確保Adobe Analytics變數（例如prop和eVar）在Customer Journey Analytics中具有一致的意義。
+Customer Journey Analytics客戶使用[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant)將資料集從Adobe Experience Platform資料湖整合到Customer Journey AnalyticsAnalysis Workspace中。 不過，在連線中組合報告套裝時，需要使用Adobe Experience Platform [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)功能解決報告套裝之間的結構描述差異。 目的是確保Adobe Analytics變數（例如prop和eVar）在Customer Journey Analytics中具有一致的意義。
 
 ## 報告套裝之間的結構描述差異有問題
 
@@ -30,10 +30,10 @@ ht-degree: 57%
 
 此外，假設您執行下列動作：
 
-- 建立可內嵌的Analytics來源連線（不使用資料準備） **報告套裝A** 進入Adobe Experience Platform資料湖做為 **資料集A**.
-- 建立可內嵌的Analytics來源連線（不使用資料準備） **報告套裝B** 進入Adobe Experience Platform資料湖做為 **資料集B**.
-- 建立 [Customer Journey Analytics連線](/help/connections/create-connection.md) 已呼叫 **所有報表套裝** 結合資料集A和資料集B的資料來源。
-- 建立 [Customer Journey Analytics資料檢視](/help/data-views/create-dataview.md) 已呼叫 **全域檢視** 這是根據所有報表套裝連線。
+- 建立Analytics來源連線（不使用資料準備），將&#x200B;**報告套裝A**&#x200B;擷取至Adobe Experience Platform資料湖，做為&#x200B;**資料集A**。
+- 建立Analytics來源連線（不使用資料準備），將&#x200B;**報告套裝B**&#x200B;擷取至Adobe Experience Platform資料湖，做為&#x200B;**資料集B**。
+- 建立名為&#x200B;**所有報告套裝**&#x200B;的[Customer Journey Analytics連線](/help/connections/create-connection.md)，結合了資料集A和資料集B。
+- 建立名為&#x200B;**全域檢視**&#x200B;的[Customer Journey Analytics資料檢視](/help/data-views/create-dataview.md)，其基礎為全部報表套裝連線。
 
 如果不使用「資料準備」來解決資料集 A 和資料集 B 之間的結構描述差異，則「全域檢視」資料檢視中的 eVar 將包含混合值：
 
@@ -52,7 +52,7 @@ ht-degree: 57%
 
 「Experience Platform資料準備」功能與Analytics來源聯結器整合，可用於解決上述案例中說明的結構描述差異。 這會產生在Customer Journey Analytics資料檢視中具有一致意義的eVar。 (下面使用的命名慣例，可以根據您的需求加以自訂。)
 
-1. 在為報告套裝A和報告套裝B建立來源連線資料流之前， [建立新結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant) 在Adobe Experience Platform中(我們稱之為 **統一結構描述** 在我們的範例中。) 將以下內容新增到結構描述中：
+1. 在為報告套裝A和報告套裝B建立來源連線資料流之前，請在Adobe Experience Platform中[建立新的結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant) （在我們的範例中將其稱為&#x200B;**統一結構描述**。） 將以下內容新增到結構描述中：
 
    | 「統一結構描述」 |
    | --- |
@@ -85,11 +85,11 @@ ht-degree: 57%
    | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;路徑>_.Business_unit |
    | _experience.analytics.customDimensions.eVars.eVar2 | _\&lt;路徑>_.Search_term |
 
-1. 現在建立 **所有報表套裝** 連線以進行Customer Journey Analytics，結合資料集A和資料集B。
+1. 現在建立&#x200B;**所有報告套裝**&#x200B;連線以進行Customer Journey Analytics，結合資料集A和資料集B。
 
-1. 建立 **全域檢視** Customer Journey Analytics中的資料檢視。 忽略原始 eVar 欄位，僅包括「統一欄位」欄位群組中的欄位。
+1. 以Customer Journey Analytics建立&#x200B;**全域檢視**&#x200B;資料檢視。 忽略原始 eVar 欄位，僅包括「統一欄位」欄位群組中的欄位。
 
-   **全域檢視** Customer Journey Analytics中的資料檢視：
+   Customer Journey Analytics中的&#x200B;**全域檢視**&#x200B;資料檢視：
 
    | 來源欄位 | 包括在資料檢視中？ |
    | --- | --- | 

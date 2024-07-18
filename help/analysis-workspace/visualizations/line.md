@@ -15,13 +15,13 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->線條視覺效果即將推出 [智慧型字幕](/help/analysis-workspace/visualizations/intelligent-captions.md).
+>線條視覺效果即將提供[智慧型字幕](/help/analysis-workspace/visualizations/intelligent-captions.md)。
 
 線條圖視覺效果使用線條圖表示量度，以顯示一段時間中值的變化。僅可在使用時間當作維度時，才使用折線圖。
 
 ![線條圖視覺效果](assets/line-viz.png)
 
-選取設定圖示 ![設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) 要存取的線條圖視覺效果頂端列中 [視覺效果設定](freeform-analysis-visualizations.md) 可用。 設定可歸類為：
+選取線條圖視覺效果頂端列中的設定圖示![設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)，即可存取可用的[視覺效果設定](freeform-analysis-visualizations.md)。 設定可歸類為：
 
 <img src="./assets/viz-settings-line.png" alt="視覺效果設定" width="50%" />
 

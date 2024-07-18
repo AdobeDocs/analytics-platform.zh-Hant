@@ -15,19 +15,19 @@ ht-degree: 90%
 
 在 Analysis Workspace 中，自由表格是互動式資料分析的基礎。您可以將各種[元件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hant)拖放至行和欄中，建立自訂表格供分析之用。表格會在您放置元件後立即更新，以便您快速分析，深入探討。
 
-![自由表格，以行和欄顯示元件，包含多個網頁的造訪和線上訂單。](assets/opening-section.png)
+![自由表格，以列與欄顯示元件，包含多個網頁的造訪與線上訂單。](assets/opening-section.png)
 
 ## 自動化表格
 
 若要建立表格，直接將元件拖放至空白專案、面板或自由表格中是最快的方法。系統會自動以建議的格式為您建立自由表格。[觀看教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=zh-Hant)。
 
-![將瀏覽元件放置到工作空間的新面板。](assets/automated-table.png)
+![含有造訪元件的新面板已拖放到工作空間。](assets/automated-table.png)
 
 ## 自由表格產生器
 
 如果您偏好先將數個元件新增至表格，然後再轉譯資料，則可啟用「自由表格產生器」。啟用產生器後，許多維度、劃分、量度和篩選器都可直接拖放使用，方便建立表格以供回答更複雜的問題。資料不會即時更新，但當您按一下「**[!UICONTROL 建立]**」，資料就會更新。
 
-![自由表格產生器顯示 ](assets/table-builder.png)
+![顯示](assets/table-builder.png)的自由格式表格產生器
 
 ## 表格互動
 

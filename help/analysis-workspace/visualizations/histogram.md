@@ -23,7 +23,7 @@ ht-degree: 80%
 1. 將&#x200B;**[!UICONTROL 「長條圖」]**&#x200B;拖曳至面板。
 1. 選擇要拖曳至長條圖視覺效果的量度並按一下&#x200B;**[!UICONTROL 「建立」]**。
 
-![空白長條圖面板顯示「將量度放置在下方」欄位。](assets/histogram.png)
+![空白長條圖面板顯示[將量度拖放到欄位下方]。](assets/histogram.png)
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 80%
 
 若要檢視或變更長條圖的資料來源，請按一下長條圖標頭旁的點，前往「**[!UICONTROL 資料來源設定]** > **[!UICONTROL 顯示資料來源]**」。
 
-![已選取「顯示資料來源」和「鎖定選取專案」的「資料來源設定」選項。](assets/manage-data-source.png)
+![已選取[顯示資料Source]和[鎖定選取專案]的[資料Source設定]選項。](assets/manage-data-source.png)
 
 此表格中顯示的預先建立篩選器是內部篩選器，不會顯示在篩選器選取器中。 按一下篩選器名稱旁的「i」圖示，然後按一下&#x200B;**[!UICONTROL 「設為公用」]**，將該篩選器設為公用。
 
@@ -65,4 +65,4 @@ ht-degree: 80%
 
 ## 部落格貼文
 
-請參閱這篇部落格，瞭解以下資訊： [使用長條圖來識別非預期的資料值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168).
+請參閱這篇部落格，瞭解[使用長條圖識別非預期資料值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)的相關資訊。

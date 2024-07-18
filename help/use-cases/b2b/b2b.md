@@ -32,7 +32,7 @@ ht-degree: 73%
 
 ## 1. 建立查詢結構 (Experience Platform)
 
-建立您自己的結構描述 [查詢](/help/technotes/glossary.md) 表格可確保所用的資料集能夠以正確設定（記錄型別）的Customer Journey Analytics使用。 最佳作法是以「Lookup」為名稱[建立自訂架構類別](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#create-new-class) (不含任何元素)，供所有查詢表格重複使用。
+為[lookup](/help/technotes/glossary.md)資料表建立您自己的結構描述，以確保使用的資料集能夠以正確設定（記錄型別）的Customer Journey Analytics提供。 最佳作法是以「Lookup」為名稱[建立自訂架構類別](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#create-new-class) (不含任何元素)，供所有查詢表格重複使用。
 
 ![建立新類別對話方塊。](../assets/create-new-class.png)
 
@@ -63,8 +63,8 @@ ht-degree: 73%
 | 資料集名稱 | 說明 | Adobe Experience Platform結構描述類別 | 資料集詳細資訊 |
 | --- | --- | --- | --- |
 | B2B 曝光數 | 包含點按資料流 (帳戶層級的事件層級資料)。舉例來說，其中包含刊登行銷廣告所需的電子郵件 ID、對應的帳戶 ID 及行銷名稱。此外，資料中也包含這些廣告的每位使用者曝光數。 | 以 XDM ExperienceEvent 架構類別為基礎 | `emailID`設為主要身分識別，並獲指派 `Customer ID` 命名空間。因此，系統會以預設的&#x200B;**[!UICONTROL 人員 ID]** 形式顯示於 Customer Journey Analytics。![曝光數](../assets/impressions-mixins.png) |
-| B2B 設定檔 | 此設定檔資料集能協助您深入了解帳戶中使用者的相關資訊，例如其職稱、所屬帳戶、LinkedIn 個人檔案等。 | 以 XDM 個別設定檔架構類別為基礎 | 選取 `emailID` 做為此結構描述中的主要ID。 |
-| B2B 資訊 | 請參閱上述「建立查詢資料集」。 | B2BAccount (自訂查詢結構類別) | 兩者之間的關係 `accountID` 而且，透過將B2B資訊資料集與Customer Journey Analytics中的B2B曝光數資料集連結，B2B曝光數資料集已自動建立，如以下步驟所述。 ![查詢](../assets/lookup-mixins.png) |
+| B2B 設定檔 | 此設定檔資料集能協助您深入了解帳戶中使用者的相關資訊，例如其職稱、所屬帳戶、LinkedIn 個人檔案等。 | 以 XDM 個別設定檔架構類別為基礎 | 選取`emailID`作為此結構描述中的主要ID。 |
+| B2B 資訊 | 請參閱上述「建立查詢資料集」。 | B2BAccount (自訂查詢結構類別) | 將B2B資訊資料集與Customer Journey Analytics中的B2B曝光數資料集連結，已自動建立`accountID`和B2B曝光數資料集之間的關係，如以下步驟所述。 ![查詢](../assets/lookup-mixins.png) |
 
 合併資料集的方法說明如下：
 

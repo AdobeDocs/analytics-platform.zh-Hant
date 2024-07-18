@@ -7,7 +7,7 @@ exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '712'
 ht-degree: 74%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 74%
 
 ## 確認應用程式使用者有 Adobe Analytics 存取權
 
-1. 在 [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant) 中設定新使用者。
+1. 在 [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) 中設定新使用者。
 
 1. 為了能共用計分卡，您必須授予應用程式使用者權限，使其能存取 Analysis Workspace 之類的計分卡元件、計分卡根據的資料檢視以及篩選器、量度和維度。
 
@@ -39,13 +39,13 @@ ht-degree: 74%
 
 **若高階主管使用者使用 iOS：**
 
-按一下以下連結(也可從下方的Customer Journey Analytics取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動操作平台）]**)並依照提示下載、安裝和開啟應用程式：
+按一下以下連結(也可從&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**&#x200B;底下的Customer Journey Analytics取得)，然後依照提示下載、安裝和開啟應用程式：
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **若高階主管使用者使用 Android：**
 
-按一下以下連結(也可從下方的Customer Journey Analytics取得) **[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**)並依照提示下載、安裝和開啟應用程式：
+按一下以下連結(也可從&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Analytics儀表板（行動應用程式）]**&#x200B;底下的Customer Journey Analytics取得)，然後依照提示下載、安裝和開啟應用程式：
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
@@ -74,7 +74,7 @@ ht-degree: 74%
 
 向高階主管使用者說明圖磚在您所共用的計分卡中顯示的方式。
 
-![說明圖磚，包括日期範圍、區段篩選，以及選取的量度和維度](assets/newexplain.png)
+![說明圖磚，包括選取的日期範圍、區段篩選器、量度和維度](assets/newexplain.png)
 
 ![計分卡範例](assets/intro_scorecard.png)
 

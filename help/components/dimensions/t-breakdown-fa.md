@@ -22,7 +22,7 @@ ht-degree: 95%
 1. [建立專案](/help/analysis-workspace/home.md)並搭配資料表格。
 1. 在資料表格中，以滑鼠右鍵按一下某個條列項目，並選取&#x200B;**[!UICONTROL 劃分]** > *`<item>`*。
 
-   ![步驟結果顯示「從選取專案建立警報」。](assets/fa_data_table_actions.png)
+   ![顯示從選取專案建立警示的步驟結果。](assets/fa_data_table_actions.png)
 
    您可以跨所選時段，依維度項目或對象篩選器來劃分量度。您也可以更深入鑽研至更詳細的層級。
 

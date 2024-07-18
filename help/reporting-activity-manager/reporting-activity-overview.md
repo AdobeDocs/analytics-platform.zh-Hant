@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # 報告活動管理器總覽
 
-此 [!UICONTROL 報告活動管理器] 可供管理員使用。
+[!UICONTROL 報告活動管理員]可供管理員使用。
 
 如果您的組織在報告高峰期遇到報告效能降低的情況，報告活動管理器可讓您自行診斷和修正容量問題，無需Adobe客戶服務的介入。 您可以在單一介面中輕鬆管理報告佇列，並立即採取行動&#x200B;&#x200B;以改善使用者體驗。
 
@@ -32,12 +32,12 @@ ht-degree: 16%
 
 <!-- update for CJA -->
 
-若要管理報告活動，您必須具備產品管理員角色。 如需詳細資訊，請參閱 [Customer Journey Analytics存取控制](/help/technotes/access-control.md).
+若要管理報告活動，您必須具備產品管理員角色。 如需詳細資訊，請參閱[Customer Journey Analytics存取控制](/help/technotes/access-control.md)。
 
 ## 檢視報告活動
 
-如需在報告活動管理器中檢視報告活動的相關資訊，請參閱 [在報告活動管理器中檢視報告活動](/help/reporting-activity-manager/reporting-activity.md).
+如需有關檢視報告活動管理器中的報告活動的資訊，請參閱[檢視報告活動管理器中的報告活動](/help/reporting-activity-manager/reporting-activity.md)。
 
 ## 取消報告請求
 
-如需有關在報告活動管理器中取消報告請求的資訊，請參閱 [取消報告活動管理器中的報告請求](/help/reporting-activity-manager/reporting-activity-cancel-requests.md).
+如需有關取消報告活動管理器中的報告請求的資訊，請參閱報告活動管理器中的[取消報告請求](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)。

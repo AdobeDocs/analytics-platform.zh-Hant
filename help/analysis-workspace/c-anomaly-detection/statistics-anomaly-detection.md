@@ -56,7 +56,7 @@ Analysis Workspace 中的異常偵測使用一系列先進的統計技術來判�
 
 注意以下範例中聖誕節和新年當天效能的大幅改善：
 
-![兩個折線圖顯示有或沒有假日效能時的效能變化。](assets/anomaly_statistics.png)
+![兩個折線圖顯示有或沒有假日效能的效能變更。](assets/anomaly_statistics.png)
 
 ## 每小時詳細程度的異常偵測
 

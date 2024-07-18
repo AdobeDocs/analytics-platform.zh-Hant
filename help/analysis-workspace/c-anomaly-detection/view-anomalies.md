@@ -47,7 +47,7 @@ ht-degree: 89%
 
 1. 按一下離開設定選單以檢視更新的折線圖。
 
-   ![折線圖偵測到異常訊息，指出比預期高出15%。](assets/anomaly_linechart.png)
+   ![偵測到異常訊息的折線圖，指出比預期高出15%。](assets/anomaly_linechart.png)
 
    異常情況在折線圖中顯示如下：
 

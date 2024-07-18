@@ -62,11 +62,11 @@ Approximate Count Distinct (dimension)
 
 新「近似客戶」計算量度的定義：
 
-![近似的縣別不同新維度定義顯示客戶ID (eVar1)](assets/approx-count-distinct.png)
+![顯示客戶ID (eVar1)的近似縣別不同新維度定義](assets/approx-count-distinct.png)
 
 這是可以在報表中使用「近似客戶」量度的方式：
 
-![顯示不重複訪客與近似客戶的自由表格 ](assets/approx-customers.png)
+![顯示不重複訪客與近似客戶的自由表格](assets/approx-customers.png)
 
 ## 比較計數函數
 

@@ -26,13 +26,13 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 您可以在篩選產生器中建立和儲存篩選器，或從「流失」視覺效果 (在工作區中) 產生篩選器。此外，多個篩選器可作為堆疊篩選器搭配使用。
 
-篩選包含 [篩選產生器](/help/components/filters/filter-builder.md) 建構篩選器並執行預先測試，以及 [篩選器管理器](/help/components/filters/manage-filters.md) 來收集、標籤、核准、設定安全性，以及在整個組織內共用篩選器。
+篩選包含可建構篩選器並執行預先測試的[篩選產生器](/help/components/filters/filter-builder.md)，以及可收集、標籤、核准、設定安全性及為整個組織共用篩選器的[篩選管理器](/help/components/filters/manage-filters.md)。
 
 每個 IMS 組織最多可以建立 50,000 個篩選器。
 
 ## 篩選器類型 {#types}
 
-如需可用篩選器型別以及如何建立篩選器的詳細資訊，請參閱 [建立篩選器](/help/components/filters/create-filters.md).
+如需可用篩選器型別以及如何建立篩選器的相關資訊，請參閱[建立篩選器](/help/components/filters/create-filters.md)。
 
 ## 循序篩選器 {#sequential}
 
@@ -40,7 +40,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 >[!IMPORTANT]
 >
->您必須擁有 **選取** 套裝，以建立跨管道循序篩選器。 如果您不確定您擁有哪個Customer Journey Analytics套件，請聯絡管理員。
+>您必須有&#x200B;**Select**&#x200B;封裝，才能建立跨管道循序篩選器。 如果您不確定您擁有哪個Customer Journey Analytics套件，請聯絡管理員。
 
 其範例如下：
 
@@ -102,7 +102,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 - 參與率量度
 - 線性配置的量度
 
-Customer Journey Analytics中的資料檢視可讓您決定工作階段持續的時間長度，以及建立新工作階段的時間。 例如，您可以根據每次使用者啟動您的行動應用程式來定義新的行動應用程式工作階段。 另請參閱 [工作階段設定](/help/data-views/session-settings.md) 以取得詳細資訊。
+Customer Journey Analytics中的資料檢視可讓您決定工作階段持續的時間長度，以及建立新工作階段的時間。 例如，您可以根據每次使用者啟動您的行動應用程式來定義新的行動應用程式工作階段。 如需詳細資訊，請參閱[工作階段設定](/help/data-views/session-settings.md)。
 
 ### 事件容器 {#event}
 

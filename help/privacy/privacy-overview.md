@@ -17,7 +17,7 @@ ht-degree: 56%
 
 ## 資料控管
 
-Adobe Customer Journey Analytics與之間的整合 [Adobe Experience Platform資料控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant) 可標籤敏感Customer Journey Analytics資料強制執行隱私權原則。
+Adobe Customer Journey Analytics與[Adobe Experience Platform資料控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant)之間的整合可讓您標示敏感的Customer Journey Analytics資料強制執行隱私權原則。
 
 在 Experience Platform 使用的資料集上所建立的隱私權標籤和原則，可以出現在 Customer Journey Analytics 資料檢視工作流程中。這些標籤會阻止或警告從敏感性欄位建立量度和/和維度的使用者。
 

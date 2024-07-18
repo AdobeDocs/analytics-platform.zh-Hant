@@ -16,16 +16,16 @@ ht-degree: 24%
 
 ## 堆疊篩選器 {#stack-filter}
 
-1. 開始建立量度，如所述 [建立量度](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. 開始建立量度，如[建立量度](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中所述。
 
 1. 在「定義」畫布中，將新篩選器投放至現有篩選器旁：
 
-![「定義」畫布會顯示「美國訪客」量度落在現有的國際訪客旁邊。](assets/cm_stack_seg.png)
+![定義畫布顯示「美國訪客」量度落在現有的國際訪客旁邊。](assets/cm_stack_seg.png)
 
 ## 以另一個篩選器來取代 {#replace-filter}
 
-1. 開始建立量度，如所述 [建立量度](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. 開始建立量度，如[建立量度](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中所述。
 
 1. 在「定義」畫布中，將新篩選器投放至現有篩選器上方：
 
-![定義畫布顯示「美國訪客」掉到「國際訪客」量度上方。](assets/cm_replace_seg.png)
+![定義畫布顯示美國訪客掉到「國際訪客」量度上方。](assets/cm_replace_seg.png)

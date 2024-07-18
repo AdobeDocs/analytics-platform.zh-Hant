@@ -7,13 +7,13 @@ role: User
 source-git-commit: 542cbb35d3870b8eef6fe252d1ac20962a1b2b8f
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 # 智慧型註解
 
-智慧型字幕使用進階機器學習和創作AI，為Workspace視覺效果提供有價值的自然語言見解。 初始版本為「 」提供自動產生的分析 [折線圖](line.md) 視覺效果。 （隨後將提供其他視覺效果。）
+智慧型註解使用進階的機器學習和生成式 AI，為 Workspace 視覺效果提供有價值的自然語言深入解析。初始發行提供自動產生的[線條](line.md)視覺化前瞻分析。 （隨後將提供其他視覺效果。）
 
 智慧型字幕的目標為：
 
@@ -24,9 +24,9 @@ ht-degree: 2%
 
 ## 啟動智慧型字幕 {#launch}
 
-若要啟動自動產生的線條圖視覺效果註解，請按一下 **[!UICONTROL 智慧型字幕]** 圖示加以識別。
+若要為線條視覺效果啟動自動產生的註解，請按一下視覺效果右上角的&#x200B;**[!UICONTROL 智慧型註解]**&#x200B;圖示。
 
-![啟動「分析」視窗，顯示「產品檢視趨勢」的智慧型註解。 ](assets/intell-caps-1.png)
+![啟動顯示產品檢視趨勢智慧型字幕的分析視窗。](assets/intell-caps-1.png)
 
 自然語言見解正在產生中。
 
@@ -44,17 +44,17 @@ ht-degree: 2%
 
 以下是註解的範例：
 
-![折線圖視覺效果的智慧型字幕，包括季節性、最小值、最大值、尖峰和下降。](assets/captions.png)
+![線條視覺效果的智慧型字幕，包括季節性、最小值、最大值、尖峰與下降。](assets/captions.png)
 
 ## 複製到剪貼簿 {#copy}
 
-您可以將註解複製到剪貼簿，然後貼到Powerpoint或其他工具中。 尋找 **[!UICONTROL 將註解複製到剪貼簿]** 圖示加以顯示。
+您可以將註解複製到剪貼簿，然後貼到Powerpoint或其他工具中。 在註解對話方塊右上角找到&#x200B;**[!UICONTROL 將註解複製到剪貼簿]**&#x200B;圖示。
 
 ## 編輯註解 {#edit}
 
 您可以編輯註解，例如隱藏或取消隱藏特定類別的深入分析。 例如，如果您不想要瞭解最小訂購，您可以直接隱藏它，然後按一下「套用」，它就不會再顯示。
 
-1. 按一下 **[!UICONTROL 編輯智慧型字幕顯示]** 圖示加以存取。
+1. 按一下剪貼簿圖示旁的&#x200B;**[!UICONTROL 編輯智慧型註解顯示]**&#x200B;圖示。
 
 1. 在編輯對話方塊中，按一下您要隱藏之分析旁的眼睛圖示。
 
@@ -64,14 +64,14 @@ ht-degree: 2%
 
 ## 匯出註解 {#export}
 
-您可以 **透過PDF匯出註解**，只要專案儲存時產生註解。
+您可以透過PDF **匯出**&#x200B;註解，只要專案儲存時已產生註解即可。
 
 ## 關閉註解 {#toggle}
 
-如果您不想產生智慧型字幕，您可以前往「視覺效果」偏好設定並取消勾選，將此功能切換為關閉 **[!UICONTROL 顯示智慧型字幕]**.
+如果您不想產生智慧型字幕，您可以移至視覺效果偏好設定並取消勾選&#x200B;**[!UICONTROL 顯示智慧型字幕]**，以關閉此功能。
 
-![線條視覺效果選項，顯示取消勾選「顯示智慧型字幕」的選項。](assets/toggle-captions.png)
+![顯示取消勾選「顯示智慧型字幕」選項的線條視覺效果選項。](assets/toggle-captions.png)
 
 ## 行動計分卡上的智慧型字幕
 
-Customer Journey Analytics中也提供智慧型字幕 [行動計分卡](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
+智慧型字幕也適用於Customer Journey Analytics[行動計分卡](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)。

@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
 source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 53%
 
 ---
@@ -26,27 +26,27 @@ ht-degree: 53%
 
 建立並儲存名為「德國訪客」的量度，以及名為「國際訪客」的量度：
 
-1. 在計算量度產生器中建立一個名為「德國訪客」的臨時篩選器，其中「國家/地區」等於「德國」。 將「國家/地區」維度拖曳至「定義」畫布並選取「 」 [!UICONTROL **德國**] 作為值：
+1. 在計算量度產生器中建立一個名為「德國訪客」的臨時篩選器，其中「國家/地區」等於「德國」。 將「國家/地區」維度拖曳至「定義」畫布，並選取&#x200B;[!UICONTROL **Germany**]&#x200B;作為值：
 
-   ![顯示國家/地區等於德國的臨機篩選器](assets/segment-from-dimension.png)
+   顯示國家/地區等於德國的![臨機篩選器](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >您也可以在以下位置執行此操作： [篩選產生器](/help/components/filters/create-filters.md)，但我們已透過在計算量度產生器中提供維度簡化了工作流程。 「臨時」表示該篩選器在 **[!UICONTROL 篩選器]** 清單。 但您可以將滑鼠游標停留在該區段旁的「i」圖示上，並按一下&#x200B;**[!UICONTROL 「設為公開」]**&#x200B;以公開該區段。
+   >您也可以在[篩選產生器](/help/components/filters/create-filters.md)中進行此步驟。但我們已透過在計算量度產生器中提供維度簡化了工作流程。 「臨時」表示左側邊欄的&#x200B;**[!UICONTROL 篩選器]**&#x200B;清單中不會顯示此篩選器。 但您可以將滑鼠游標停留在該區段旁的「i」圖示上，並按一下&#x200B;**[!UICONTROL 「設為公開」]**&#x200B;以公開該區段。
 
 1. 將「德國」篩選器拖曳至「定義」畫布，並將「不重複訪客」量度拖曳至其中：
 
    ![德國和不重複訪客所在國家/地區的摘要和定義](assets/german-visitors.png)
 
-1. 選取 [!UICONTROL **儲存**] 以儲存計算量度。
+1. 選取&#x200B;[!UICONTROL **儲存**]&#x200B;以儲存計算量度。
 
 1. 在計算量度產生器中建立一個名為「國際訪客」的臨時篩選器，其中「國家/地區」不等於「德國」。
 
-   將「國家/地區」維度拖曳至「定義」畫布，然後選取「 」 [!UICONTROL **德國**] 作為值，然後選取 [!UICONTROL **不等於**] 作為運運算元。
+   將「國家/地區」維度拖曳至「定義」畫布，選取&#x200B;[!UICONTROL **Germany**]&#x200B;作為值，然後選取&#x200B;[!UICONTROL **does not equal**]&#x200B;作為運運算元。
 
 1. 將「不重複訪客」量度拖曳至其中。
 
-1. 選取 [!UICONTROL **儲存**] 以儲存計算量度。
+1. 選取&#x200B;[!UICONTROL **儲存**]&#x200B;以儲存計算量度。
 
 1. 在 Analysis Workspace 中，將&#x200B;**[!UICONTROL 「頁面]**&#x200B;維度」拖曳至「自由表格」中，並將 2 個相鄰的新計算量度拖曳到最上方：
 
@@ -67,4 +67,4 @@ ht-degree: 53%
 
 1. 將此量度套用至專案：
 
-   ![包含頁面和德國訪客總人數百分比的自由格式表格](assets/cm_percent_total.png)
+   ![自由表格，包含頁面和德國訪客總數的%](assets/cm_percent_total.png)

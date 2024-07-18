@@ -36,7 +36,7 @@ ht-degree: 89%
 
 您可選擇在任何選取的日期範圍中排除當天。
 
-![已選取行事曆並選取排除當天的「Report Builder快速編輯」窗格。](./assets/image17.png)
+![已選取行事曆且已選取「排除當天」的「Report Builder快速編輯」窗格。](./assets/image17.png)
 
 ## 使用「行事曆」
 
@@ -62,7 +62,7 @@ ht-degree: 89%
 
 若要反向設定日期範圍，先按一下結束日期，然後再按一下開始日期。
 
-![Report Builder日期範圍窗格，顯示選取的行事曆與結束日期以及開始日期。](./assets/image18.png)
+![Report Builder日期範圍窗格，顯示選取的行事曆與結束日期及開始日期。](./assets/image18.png)
 
 ### 預設下拉式選單
 
@@ -76,7 +76,7 @@ ht-degree: 89%
 
 1. 為您的開始和/或結束日期選取滾動運算式。
 
-   ![Report Builder日期範圍窗格，顯示使用選取的滾動日期和滾動運算式。](./assets/image19.png)
+   ![Report Builder日期範圍窗格，顯示選取的使用滾動日期與滾動運算式。](./assets/image19.png)
 
    **開始時間** — 可讓您選取一天、週、月、季或年的開始。
 
@@ -86,11 +86,11 @@ ht-degree: 89%
 
 1. 選擇日、週、月、季或年作為滾動期間。
 
-   ![Report Builder日期範圍窗格，顯示選取的當天。](./assets/image20.png)
+   ![Report Builder日期範圍窗格，顯示選取的目前日期。](./assets/image20.png)
 
 1. 從您的滾動日期加上或減去日數、週數、月數、季數或年數。
 
-   ![Report Builder日期範圍窗格，顯示選取的當天加14天。](./assets/image21.png)
+   ![Report Builder日期範圍窗格，顯示目前日期加上選取的14天。](./assets/image21.png)
 
 1. 按一下「下一步」以定義資料範圍。
 
@@ -106,7 +106,7 @@ ht-degree: 89%
 
    當您選取&#x200B;**使用自訂運算式**&#x200B;選項時，會停用標準滾動日期範圍控制項。
 
-   ![選取「使用自訂運算式」，顯示tm-1m到td-1d。](./assets/custom_expression.png)
+   ![選取使用自訂運算式，顯示tm-1m到td-1d。](./assets/custom_expression.png)
 
 1. 輸入自訂運算式。
 

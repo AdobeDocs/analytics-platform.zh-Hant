@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: 027ff3983c67481dd8284667d97f59f427b18928
 workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Cu
 
 ### 設定度量
 
-您可以在資料視圖中建立以下量度，以實現與決策管理中類似量度的近似同位。請參閱資料檢視管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關量度自訂選項的詳細資料。
+您可以在資料視圖中建立以下量度，以實現與決策管理中類似量度的近似同位。請參閱資料視圖管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關量度自訂選項的詳細資料。
 
 | 量度 | 說明 | 結構描述元素 | 元件設定 |
 | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Cu
 | 備援決策選項分數 | 單一範圍情境中備援決策選項的計算值。 | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | 元件類型：量度 |
 | 優惠關閉 | 在沒有任何其他直接互動的情況下關閉或拒絕的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 元件類型：量度 |
 | 優惠顯示 | 對設定檔顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
-| 優惠互動 | 設定檔互動的優惠方案數量。 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件類型：量度 |
+| 優惠互動 | 與設定檔互動的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件類型：量度 |
 | 優惠傳送 | 對設定檔傳送的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.send` | 元件類型：量度 |
 | 優惠觸發 | 選擇透過用戶端 SDK 顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件類型：量度 |
 | 優惠取消訂閱 | 設定檔要求未來不要顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | 元件類型：量度 |

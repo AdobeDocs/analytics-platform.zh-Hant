@@ -15,7 +15,7 @@ ht-degree: 71%
 
 若要檢視您的Customer Journey Analytics使用情況，您可以使用數種方法：
 
-* 為每個連線新增事件資料列。另請參閱 [預估連線規模](#estimate-connection-size) 底下。 透過這個簡單的方式，您就可以依照連線查看特定時間戳記的事件列資料。
+* 為每個連線新增事件資料列。請參閱下面的[連線大小預估](#estimate-connection-size)。 透過這個簡單的方式，您就可以依照連線查看特定時間戳記的事件列資料。
 
 * 透過三種方式檢視您的使用情況，其中各項將於下文詳細說明：
    * 使用 Analysis Workspace 報告上個月的事件。
@@ -56,7 +56,7 @@ ht-degree: 71%
 
    * 變更您的[資料保留設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant#set-rolling-window-for-connection-data-retention)。
    * [刪除任何未使用的連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#implications-of-deleting-data-components)。
-   * [刪除Adobe Experience Platform中的資料集](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#implications-of-deleting-data-components).
+   * [刪除Adobe Experience Platform中的資料集](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#implications-of-deleting-data-components)。
    * 請聯絡您的Adobe客戶團隊，以授權額外的容量。
 
 ## 使用所有事件資料建立工作區專案 {#workspace-event-data}
@@ -69,7 +69,7 @@ ht-degree: 71%
 >
 >    請勿僅為了測量使用情況而建立包含所有資料的新連線，因為這實際上會使您的使用量增加一倍。
 
-1. 在工作區中，根據每個資料檢視建立新專案並提取所有事件(從 **[!UICONTROL 量度]** 下拉式清單)，從您目前的Customer Journey Analytics合約的第一天開始，開始當月第一個星期五。
+1. 在Workspace中，根據每個資料檢視建立新專案，並提取所有事件（從&#x200B;**[!UICONTROL Metrics]**&#x200B;下拉式清單），一直到當月第一個星期五，從您目前Customer Journey Analytics合約的第一天開始。
 
    ![自由表格顯示事件。](./assets/events-usage.png)
 
@@ -83,7 +83,7 @@ ht-degree: 71%
 
 ## 在Customer Journey Analytics API中建立自動化報表 {#api-report}
 
-1. 使用 [Customer Journey Analytics報表API](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API) 若要針對所有事件資料執行報表， **適用於每個連線**. 設定此設定，以便執行報告
+1. 使用[Customer Journey Analytics報告API](https://developer.adobe.com/cja-apis/docs/api/#tag/Reporting-API)針對您的所有事件資料執行報告，針對每個連線&#x200B;**執行**。 設定此設定，以便執行報告
 
    * 每個月的第一個星期五。
    * 回到您目前Customer Journey Analytics合約的第一天。
@@ -94,7 +94,7 @@ ht-degree: 71%
 
 ## 定義滾動資料時間窗口以管理您的使用情況 {#rolling}
 
-若要管理您的使用情形，請 [連線UI](/help/connections/create-connection.md) 可讓您在連線層級將Customer Journey Analytics資料保留定義為單位為月數的滾動時段（1個月、3個月、6個月等）。
+若要管理您的使用情形，[連線UI](/help/connections/create-connection.md)可讓您在連線層級將Customer Journey Analytics資料保留定義為單位為月數的滾動時段（1個月、3個月、6個月等）。
 
 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。
 

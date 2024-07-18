@@ -37,14 +37,14 @@ The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量
 
 1. 選取量度、主要日期範圍、比較日期範圍及篩選器（如有需要），以設定視覺效果：
 
-   ![顯示量度、主要日期範圍、比較日期範圍和區段選項的關鍵量度設定。](assets/key-metric-config.png)
+   ![關鍵量度組態顯示量度、主要日期範圍、比較日期範圍和區段的選項。](assets/key-metric-config.png)
 
    | 組態設定 | 定義 |
    | --- | --- |
    | **[!UICONTROL 量度]** | 選取想要檢查的量度。支援所有量度。 |
    | **[!UICONTROL 主要日期範圍]** | 任意形狀表格目前的日期範圍。 |
    | **[!UICONTROL 比較日期範圍]** | 您要與主要日期範圍進行比較的日期範圍。 |
-   | **[!UICONTROL 篩選（選擇性）]** | 您對此摘要特別感興趣的任何篩選器。 |
+   | **[!UICONTROL 篩選器（選擇性）]** | 您對此摘要特別感興趣的任何篩選器。 |
 
    {style="table-layout:auto"}
 
@@ -79,7 +79,7 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ## 檢視輸出
 
-![顯示量度、摘要變更、摘要編號和折線圖的關鍵量度輸出。](assets/key-metric-output.png)
+![顯示量度、摘要變更、摘要數字和折線圖的關鍵量度輸出。](assets/key-metric-output.png)
 
 請注意：
 
@@ -95,7 +95,7 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 關鍵量度摘要提供多種彈性設定，以為重要量度提供更佳的報告和溝通。您可以透過視覺效果右上角的齒輪圖示存取設定。
 
-![顯示「摘要」顯示型別、一般和顯示選項的關鍵量度摘要設定。](assets/key-metric-settings.png)
+![顯示摘要顯示型別、一般和顯示選項的關鍵量度摘要設定。](assets/key-metric-settings.png)
 
 | 設定 | 說明 |
 | --- | --- |
@@ -116,7 +116,7 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 1. 按一下視覺效果右上角的鉛筆圖示 (設定齒輪圖示旁)。
 
-   ![視覺效果編輯圖示](assets/edit-icon.png)
+   ![視覺效果編輯圖示.s](assets/edit-icon.png)
 
    現在您會返回原始設定檢視。
 

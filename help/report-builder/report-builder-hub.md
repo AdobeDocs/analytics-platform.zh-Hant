@@ -59,7 +59,7 @@ Report Builder 中心包含「建立」和「管理」按鈕、「命令」清�
 
 若要變更資料檢視，請從下拉式選單中選取新的資料檢視。
 
-![Report Builder中心會顯示資料檢視下拉式功能表。](./assets/image16.png)
+![Report Builder中心顯示資料檢視下拉式功能表。](./assets/image16.png)
 
 ### 日期範圍
 

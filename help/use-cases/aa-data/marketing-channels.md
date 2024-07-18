@@ -14,18 +14,18 @@ ht-degree: 61%
 
 # 在 Adobe Experience Platform 中使用行銷頻道維度
 
-如果您的組織使用 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant) 若要將報表套裝資料帶入Customer Journey Analytics，您可以在Customer Journey Analytics中設定連線，製作行銷管道維度的相關報表。
+如果您的組織使用[Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)將報表套裝資料匯入Customer Journey Analytics，您可以在Customer Journey Analytics中設定連線，製作行銷管道維度的相關報表。
 
 ## 先決條件
 
-* 您必須先使用將報表套裝資料匯入Adobe Experience Platform [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant). 由於行銷管道需仰賴 Analytics 報告套裝中的處理規則來運作，因此不支援其他資料來源。
-* 行銷管道處理規則須完成設定。另請參閱 [行銷管道的處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html) Adobe Analytics元件指南中的。
+* 必須已使用[Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)將報表套裝資料匯入Adobe Experience Platform。 由於行銷管道需仰賴 Analytics 報告套裝中的處理規則來運作，因此不支援其他資料來源。
+* 行銷管道處理規則須完成設定。請參閱Adobe Analytics元件指南中的[行銷管道的處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html)。
 
 ## 行銷管道結構元素
 
 您在所需的報告套裝建立Analytics來源聯結器後，系統就會隨即建立XDM結構描述。 此結構包含所有 Analytics 維度和量度，這些原始資料都不具歸因或持續性，而是由系統使用各個行銷管道處理規則逐一檢驗每個事件，並記錄相符的第一個規則。在Customer Journey Analytics中建立資料檢視時，您可以指定歸因和持續性。
 
-1. [建立連線](/help/connections/create-connection.md) 其中包括以Analytics來源聯結器為基礎的資料集。
+1. [建立連線](/help/connections/create-connection.md)，其中包含以Analytics來源聯結器為基礎的資料集。
 2. [建立資料檢視](/help/data-views/create-dataview.md)，其中包含下列維度：
    * **`channel.typeAtSource`**：相當於[行銷管道](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-channel.html?lang=zh-Hant)維度。
    * **`channel._id`**：相當於[行銷管道詳細資訊](https://experienceleague.adobe.com/docs/analytics/components/dimensions/marketing-detail.html?lang=zh-Hant)。
@@ -36,7 +36,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
-> Analytics來源聯結器需要 `channel.typeAtSource` （行銷管道）和 `channel._id` （行銷管道詳細資料）填入，否則兩者都不會傳遞到XDM ExperienceEvent。 如果來源報告套裝中的行銷管道詳細資料為空白，這將導致空白 `channel._id` 而且Analytics來源聯結器會變成空白 `channel.typeAtSource` 以及。 這可能會導致 Adobe Analytics 和 Customer Journey Analytics 之間的報告差異。
+> Analytics來源聯結器要求填入`channel.typeAtSource` （行銷管道）和`channel._id` （行銷管道詳細資料），否則兩者都不會傳遞到XDM ExperienceEvent。 如果來源報告套裝中的行銷管道詳細資料為空白，這將導致空白`channel._id`，並且Analytics來源聯結器也將使`channel.typeAtSource`空白。 這可能會導致 Adobe Analytics 和 Customer Journey Analytics 之間的報告差異。
 
 ## 處理與架構差異
 
@@ -55,12 +55,12 @@ ht-degree: 61%
   ![瀏覽的第一個頁面](../assets/first-page-of-visit.png)
 
 * **覆寫最近一次接觸管道**：這項設定位於「行銷管道管理員」，一旦啟用，通常某些管道就無法取得最近一次接觸管道的評分。Platform 會忽略這項設定，導致「直接」或「內部」等各種管道以您不樂見的方式歸因至量度。Adobe 建議您移除未勾選「覆寫最近一次接觸管道」的管道。
-   * 您可以在「行銷管道管理員」中刪除「直接」行銷管道，然後仰賴Customer Journey Analytics的「沒有值」維度專案來建立該管道。 您也可以將此維度項目重新命名為「直接」，或在設定資料檢視時完全排除此維度項目。
+   * 您可以在「行銷管道管理員」中刪除「直接」行銷管道，然後仰賴Customer Journey Analytics的「無值」維度專案來建立該管道。 您也可以將此維度項目重新命名為「直接」，或在設定資料檢視時完全排除此維度項目。
    * 或者，您也可以建立行銷管道分類，除了您想在Customer Journey Analytics中排除的管道外，每個值都會自行分類。 接著您就可以在建立資料檢視時使用此分類維度，而非使用 `channel.typeAtSource`。
 
   ![覆寫最近一次接觸管道](../assets/override-last-touch-channel.png)
 
-* **行銷管道有效期**：此參與期間設定會決定使用者要在閒置多久，才能在報表套裝資料中取得新的首次接觸管道。 Platform會使用自己的歸因設定，因此在Customer Journey Analytics中會完全忽略此設定。
+* **行銷管道有效期**：此參與期間設定會決定某人要在閒置多久之後才能在報表套裝資料中取得新的首次接觸管道。 Platform會使用自己的歸因設定，因此在Customer Journey Analytics中會完全忽略此設定。
 
   ![行銷管道有效期](../assets/marketing-channel-expiration.png)
 

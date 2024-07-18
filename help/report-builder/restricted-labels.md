@@ -34,10 +34,10 @@ ht-degree: 70%
 
 受這些原則影響的元件會顯示為灰色。當您將滑鼠懸停在套用了原則的元件上時，會顯示一個包含以下內容的註解：**原則已套用於此欄位，禁止使用此資料。**&#x200B;如需詳細資訊，請參閱 [標籤與原則](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html)。
 
-![指示禁止使用資料的原則注意事項。](assets/rb-restricted-label.png)
+![指示禁止使用資料的原則備註。](assets/rb-restricted-label.png)
 
 ## 更新報告包含受限制的資料
 
 如果使用者建立的 Report Builder 報告包含後來受到限制的資料元素，則重新整理報告時會顯示錯誤訊息。
 
-![在資料元素稍後受限制後顯示的錯誤訊息。](assets/error-restricted-data.png)
+![資料元素稍後受到限制後所顯示的錯誤訊息。](assets/error-restricted-data.png)

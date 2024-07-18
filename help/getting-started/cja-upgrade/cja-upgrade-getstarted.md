@@ -8,7 +8,7 @@ exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
 source-git-commit: c64f7a1676f4fd3712e618e26357f430e7d9f019
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ Customer Journey Analytics是新一代的分析產品。 它允許多管道資�
 
 ## 瞭解Customer Journey Analytics的好處
 
-以下是一些主要優點：(如需完整清單，以及這些主要功能各自的相關詳細資訊，請參閱 [僅適用於Customer Journey Analytics的功能](/help/getting-started/aa-vs-cja/cja-aa.md#adobe-customer-journey-analytics-features-not-available-in-adobe-analytics).)
+以下是一些主要優點： (如需完整清單，以及這些主要功能的詳細資訊，請參閱[僅適用於Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md#adobe-customer-journey-analytics-features-not-available-in-adobe-analytics)的功能。)
 
 * [多頻道報告](/help/getting-started/aa-to-cja-user.md#changes-to-data-architecture)
 
@@ -44,7 +44,7 @@ Customer Journey Analytics是新一代的分析產品。 它允許多管道資�
 
 * [無限制的客戶維度和量度](/help/getting-started/aa-to-cja-user.md#changes-to-the-concept-of-evars-and-props)
 
-  值可以是數值、文字、物件、清單或所有專案的混合。 Dimension可以是巢狀或階層式。
+  值可以是數值、文字、物件、清單或所有專案的混合。 維度可能是嵌套式或階層式。
 
 ## 瞭解升級程式
 
@@ -53,16 +53,16 @@ Customer Journey Analytics是新一代的分析產品。 它允許多管道資�
 
 | 升級任務 | 詳細資料 |
 |---------|----------|
-| <span class="preview">**步驟1：開始升級**</span> | <span class="preview">瞭解升級至Customer Journey Analytics的好處和基本升級程式。</span> |
-| **步驟2： [選擇升級路徑](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | 升級至Customer Journey Analytics有多種方法。 根據您組織目前的Adobe Analytics環境和長期目標，選擇最適合您組織的方法。 |
-| **步驟3： [傳送資料至Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)** | 傳送資料至Adobe Experience Platform的程式會依您在步驟2中選擇的升級路徑而有所不同。 |
-| **步驟4： [保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)** | 大多陣列織都需將其歷史Adobe Analytics資料保留一段時間。 有多種選項可達成此目的。 |
-| **步驟5： [執行其他實作工作](/help/getting-started/cja-getting-started.md)** | 在升級流程的這個階段，您需要在Customer Journey Analytics環境準備好使用之前執行各種工作。<p>這些額外工作適用於從Adobe Analytics升級以及新的Customer Journey Analytics實作。</p><p>這些工作包括：</p><ul><li>將其他資料帶入Experience Platform</li><li>在Platform資料集和Customer Journey Analytics之間建立連線</li><li>建立資料檢視</li><li>移植報表API使用量</li><li>資料摘要和Data Warehouse的帳戶處理</li><li>移轉專案和元件</li><li>Planning使用者上線</li></ul> <p>如需詳細資訊，請參閱 [Customer Journey Analytics快速入門](/help/getting-started/cja-getting-started.md). |
+| <span class="preview">**步驟1：開始升級**</span> | <span class="preview">瞭解升級至Customer Journey Analytics的好處及基本的升級程式。</span> |
+| **步驟2：[選擇升級路徑](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | 升級至Customer Journey Analytics有多種方法。 根據您組織目前的Adobe Analytics環境和長期目標，選擇最適合您組織的方法。 |
+| **步驟3：[傳送資料至Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)** | 傳送資料至Adobe Experience Platform的程式會依您在步驟2中選擇的升級路徑而有所不同。 |
+| **步驟4：[保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)** | 大多陣列織都需將其歷史Adobe Analytics資料保留一段時間。 有多種選項可達成此目的。 |
+| **步驟5：[執行其他實作工作](/help/getting-started/cja-getting-started.md)** | 在升級流程的這個階段，您需要在Customer Journey Analytics環境準備好使用之前執行各種工作。<p>這些額外工作適用於從Adobe Analytics升級以及新的Customer Journey Analytics實作。</p><p>這些工作包括：</p><ul><li>將其他資料帶入Experience Platform</li><li>在Platform資料集和Customer Journey Analytics之間建立連線</li><li>建立資料檢視</li><li>移植報表API使用量</li><li>資料摘要和Data Warehouse的帳戶處理</li><li>移轉專案和元件</li><li>Planning使用者上線</li></ul> <p>如需詳細資訊，請參閱[Customer Journey Analytics快速入門](/help/getting-started/cja-getting-started.md)。 |
 
 {style="table-layout:auto"}
 
 ## 首先，選擇升級路徑
 
-升級至Customer Journey Analytics有多種方法。 [選擇最適合您組織的方法](/help/getting-started/cja-upgrade/cja-upgrade-path.md).
+升級至Customer Journey Analytics有多種方法。 [選擇最適合您組織的方法](/help/getting-started/cja-upgrade/cja-upgrade-path.md)。
 
 您選擇的升級路徑取決於貴組織目前的Adobe Analytics環境和長期目標。

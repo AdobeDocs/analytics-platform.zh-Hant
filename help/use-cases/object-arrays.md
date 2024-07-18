@@ -84,7 +84,7 @@ ht-degree: 66%
 
 ### 相同事件範例（報表行為）
 
-僅使用上述事件，下表顯示具有某些維度和量度組合的工作區報表。
+下表僅採計上述事件，顯示包含某些維度和量度組合的Workspace報表。
 
 | `product : name` | `product : orders` | `product : revenue` |
 | --- | --- | --- |

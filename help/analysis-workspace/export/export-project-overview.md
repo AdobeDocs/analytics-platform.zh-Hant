@@ -8,7 +8,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 您可以將Customer Journey Analytics報表匯出為PDF、CSV或JSON檔案。
 
-* **PDF：** 提供與利害關係人共用視覺資料的簡單方法。 PDF檔案包含專案中所有顯示的（可見）表格和視覺效果。
+* **PDF：**&#x200B;提供可與利害關係人共用視覺資料的簡易方式。 PDF檔案包含專案中所有顯示的（可見）表格和視覺效果。
 
-* **CSV：** 可讓您檢視試算表應用程式（例如Excel）中的原始資料。 CSV檔案包含純文字資料。
+* **CSV：**&#x200B;可讓您檢視試算表應用程式（例如Excel）中的原始資料。 CSV檔案包含純文字資料。
 
-* **JSON：** 提供開放標準檔案格式以共用資料。
+* **JSON：**&#x200B;提供開放標準檔案格式以共用資料。
 
 ## 匯出方法
 
@@ -36,6 +36,6 @@ ht-degree: 0%
 |---------|----------|
 | [下載至您的工作站](/help/analysis-workspace/export/download-send.md) | 如果您想要： <ul><li>將專案下載至您的個人工作站。</li><li>下載僅供臨機操作（無法排程）。</li> <li>總共下載50,000列。</li> <!--true? Are there 2 different options to download to your workstation?--> <!-- is this emailing it? --> |
 | [傳送給其他使用者](/help/analysis-workspace/export/t-schedule-report.md) | 如果您想要： <ul><li>透過電子郵件將匯出的Customer Journey Analytics資料傳送給組織中的其他使用者。</li><li>可以是臨時或依排程。</li> <li>總共包含50,000列。</li> <!--true?--> |
-| [傳送至雲端應用程式](/help/analysis-workspace/export/export-cloud.md) | 如果您想要： <ul><li>匯出至共用位置，例如Adobe Experience Platform Data Landing Zone、Google Cloud Platform、Microsoft Azure、Amazon S3或Snowflake。</li><li>可以是臨時或依排程。</li><li>儲存大量的Customer Journey Analytics資料。</li><li>匯出包含數千或數百萬列的完整表格。<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
+| [傳送至雲端應用程式](/help/analysis-workspace/export/export-cloud.md) | 如果您想要： <ul><li>匯出至共用位置，例如Adobe Experience Platform Data Landing Zone、Google Cloud Platform、Microsoft Azure、Amazon S3或Snowflake。</li><li>可以是臨時或依排程。</li><li>儲存大量的Customer Journey Analytics資料。</li><li>匯出包含數千或數百萬列的完整資料表。<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}

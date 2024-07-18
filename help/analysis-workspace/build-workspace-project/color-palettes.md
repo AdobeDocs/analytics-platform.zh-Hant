@@ -19,7 +19,7 @@ ht-degree: 88%
 >
 >Internet Explorer 11 並不支援調色盤。
 
-![「專案資訊和設定」視窗。](assets/color_palettes.png)
+![專案資訊和設定視窗。](assets/color_palettes.png)
 
 請記住：
 
@@ -29,7 +29,7 @@ ht-degree: 88%
 ## 若要變更調色盤：
 
 1. 導覽至&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定」]**。
-1. 從 **[!UICONTROL 專案調色盤]** 從下拉式清單中，您可以從5種預先設定的色彩配置中選擇一種。
+1. 從&#x200B;**[!UICONTROL 專案調色盤]**&#x200B;下拉式清單中，您可以從五個預先設定的色彩配置中選擇其一。
 
    ![五種預設色彩配置。](assets/custom_palette.png)
 

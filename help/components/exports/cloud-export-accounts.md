@@ -14,29 +14,29 @@ ht-degree: 30%
 
 # 設定雲端匯出帳戶
 
-在您可以將Customer Journey Analytics報表匯出至雲端目的地之前（如所述） [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)，您需要新增並設定要傳送資料的目的地。
+在您可以依照[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中的說明將Customer Journey Analytics報表匯出至雲端目的地之前，您必須新增並設定您要傳送資料的目的地。
 
-此程式包含依照本文所述新增及設定帳戶(例如Amazon S3、Google Cloud Platform等)，然後依照所述新增及設定該帳戶內的位置（例如帳戶內的資料夾） [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
+此程式包含依照本文所述新增及設定帳戶(例如Amazon S3、Google Cloud Platform等)，然後依照[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)所述，新增及設定該帳戶內的位置（例如帳戶內的資料夾）。
 
-如需有關如何管理現有帳戶（包括檢視、編輯和刪除帳戶）的資訊，請參閱 [管理雲端匯出位置和帳戶](/help/components/exports/manage-export-locations.md).
+如需有關如何管理現有帳戶的資訊，包括檢視、編輯和刪除帳戶，請參閱[管理雲端匯出位置和帳戶](/help/components/exports/manage-export-locations.md)。
 
 ## 開始建立雲端匯出帳戶
 
-1. 請確定您符合 [最低需求](/help/analysis-workspace/export/export-cloud.md#minimum-requirements) 用於將報表匯出至雲端。
-1. 在Customer Journey Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **匯出**].
-1. 在 [!UICONTROL 匯出] 頁面，選取 [!UICONTROL **位置帳戶**] 標籤。
+1. 請確定您符合將報表匯出至雲端的[最低需求](/help/analysis-workspace/export/export-cloud.md#minimum-requirements)。
+1. 在Customer Journey Analytics中，選取&#x200B;[!UICONTROL **元件**] > [!UICONTROL **匯出**]。
+1. 在[!UICONTROL 匯出]頁面上，選取&#x200B;[!UICONTROL **位置帳戶**]&#x200B;標籤。
 
    ![匯出頁面選項顯示新增另一個帳戶](assets/account-add.png)
 
-1. 選取 [!UICONTROL **新增帳戶**].
+1. 選取&#x200B;[!UICONTROL **新增帳戶**]。
 
    新增帳戶對話方塊隨即顯示。
 
-1. 在 [!UICONTROL **位置帳戶名稱**] 欄位，指定位置帳戶的名稱。 建立位置時會顯示此名稱。
+1. 在&#x200B;[!UICONTROL **位置帳戶名稱**]&#x200B;欄位中，指定位置帳戶的名稱。 建立位置時會顯示此名稱。
 
-1. 在 [!UICONTROL **位置帳戶說明**] 欄位，提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。
+1. 在&#x200B;[!UICONTROL **位置帳戶說明**]&#x200B;欄位中，提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。
 
-1. 啟用選項以 [!UICONTROL **讓您組織中的所有使用者都可以使用帳戶**] 如果您想要允許組織中的其他使用者使用該帳戶。
+1. 啟用選項&#x200B;[!UICONTROL **如果您想要允許組織中的其他使用者使用該帳戶，則讓組織中的所有使用者都可以使用該帳戶**]。
 
    共用帳戶時，請考量下列事項：
 
@@ -46,11 +46,11 @@ ht-degree: 30%
 
    * 任何人都可以建立共用帳戶的位置。
 
-   **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
+   **注意：**&#x200B;此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
 
-1. 在 [!UICONTROL **帳戶型別**] 欄位中，選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake和AEP資料登陸區域。
+1. 在&#x200B;[!UICONTROL **帳戶型別**]&#x200B;欄位中，選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake和AEP資料登陸區域。
 
-1. 繼續下列對應至的區段 [!UICONTROL **帳戶型別**] 您已選取「 」。
+1. 繼續下列對應至您選取之&#x200B;[!UICONTROL **帳戶型別**]&#x200B;的區段。
 
    * [AEP 資料登陸區域](#aep-data-landing-zone)
 
@@ -72,17 +72,17 @@ ht-degree: 30%
 
 1. 透過下列其中一種方式開始建立雲端匯出帳戶：
 
-   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+   * 從如上所述的[匯出]頁面，在[開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
 
-   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [從Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)匯出完整資料表時
 
 1. 選取「[!UICONTROL **儲存**]」。
 
-   此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
+   [!UICONTROL **已建立匯出帳戶**]&#x200B;對話方塊隨即顯示。
 
    ![匯出帳戶對話方塊AEP資料登陸區域](assets/export-account-aep.png)
 
-1. 複製 [!UICONTROL **SAS URI**] 欄位至您的剪貼簿。 您將使用此SAS URI來存取從Analysis Workspace從AEP資料登陸區域匯出的資料。
+1. 將&#x200B;[!UICONTROL **SAS URI**]&#x200B;欄位的內容複製到剪貼簿。 您將使用此SAS URI來存取從Analysis Workspace從AEP資料登陸區域匯出的資料。
 
    如果此欄位為空，您需要被授予存取Adobe Experience Platform的許可權。
 
@@ -92,38 +92,38 @@ ht-degree: 30%
    >
    >由於AEP資料登陸區域帳戶是以Azure為基礎，存取您匯出至AEP資料登陸區域之報告的最簡單方式，就是使用Azure儲存體總管。 下列步驟會使用此方法。
 
-   1. 如果沒有，請下載 [Microsoft Azure儲存體總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
+   1. 如果沒有，請下載[Microsoft Azure儲存體總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)。
 
-   1. 在Adobe Experience Platform檔案中，請遵循中所述的步驟 [將您的資料登陸區域容器連線至Azure儲存體總管](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer).
+   1. 在Adobe Experience Platform檔案中，請依照[將您的資料登陸區域容器連線到Azure儲存體總管](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer)中所述的步驟操作。
 
-      您可以略過一節中說明的任務 [擷取資料登陸區域的認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) 和 [更新資料登陸區域認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials)，因為您複製的URI包含這些認證。
+      您可以略過[擷取資料登陸區域的認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials)和[更新資料登陸區域認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials)小節中說明的工作，因為您複製的URI包含這些認證。
 
-   1. 閱讀Adobe Experience Platform檔案後，您會前往 [!UICONTROL **Blob容器SAS URL**] 欄位貼上您在步驟3中複製的SAS URI。
+   1. 遵循Adobe Experience Platform檔案並前往&#x200B;[!UICONTROL **Blob容器SAS URL**]&#x200B;欄位時，請貼上您在步驟3中複製的SAS URI。
 
       >[!NOTE]
       >
       >您需要每7天執行此動作，因為SAS URI會在建立7天後過期。 您可以建立指令碼來自動化此程式。
 
 
-      ![輸入連線資訊視窗，顯示SAS URL欄位](assets/blob-container-sas-uri.png)
+      ![輸入顯示SAS URL欄位的連線資訊視窗](assets/blob-container-sas-uri.png)
 
-   1. 選取 [!UICONTROL **下一個**] > [!UICONTROL **連線**].
+   1. 選取&#x200B;[!UICONTROL **下一步**] > [!UICONTROL **連線**]。
 
-1. 在Customer Journey Analytics中，在 [!UICONTROL **已建立匯出帳戶**] 對話方塊，選取 [!UICONTROL **確定**].
+1. 在Customer Journey Analytics的&#x200B;[!UICONTROL **已建立匯出帳戶**]&#x200B;對話方塊中，選取&#x200B;[!UICONTROL **確定**]。
 
    ![匯出帳戶對話方塊AEP資料登陸區域](assets/export-account-aep.png)
 
-1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
+1. 繼續[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)。
 
 ### Amazon S3 Role ARN
 
 1. 透過下列其中一種方式開始建立雲端匯出帳戶：
 
-   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+   * 從如上所述的[匯出]頁面，在[開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
 
-   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [從Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)匯出完整資料表時
 
-1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
+1. 在&#x200B;[!UICONTROL **新增帳戶**]&#x200B;對話方塊的&#x200B;[!UICONTROL **帳戶屬性**]&#x200B;區段中，指定下列資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
@@ -133,25 +133,25 @@ ht-degree: 30%
 
 1. 選取「[!UICONTROL **儲存**]」。
 
-   此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
+   [!UICONTROL **已建立匯出帳戶**]&#x200B;對話方塊隨即顯示。
 
-   ![匯出帳戶建立對話方塊Amazon S3角色ARN](assets/export-account-amazons3.png)
+   ![匯出帳戶建立的對話方塊Amazon S3角色ARN](assets/export-account-amazons3.png)
 
-1. 複製 [!UICONTROL **使用者ARN**] 欄位至您的剪貼簿。 使用者 ARN (Amazon 資源名稱) 是由 Adob&#x200B;&#x200B;e 提供。您必須將此使用者附加至您在Amazon S3角色ARN中建立的原則。
+1. 將&#x200B;[!UICONTROL **使用者ARN**]&#x200B;欄位的內容複製到剪貼簿。 使用者 ARN (Amazon 資源名稱) 是由 Adob&#x200B;&#x200B;e 提供。您必須將此使用者附加至您在Amazon S3角色ARN中建立的原則。
 
-1. 選取 [!UICONTROL **確定**].
+1. 選取&#x200B;[!UICONTROL **確定**]。
 
-1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
+1. 繼續[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)。
 
 ### Google Cloud Platform
 
 1. 透過下列其中一種方式開始建立雲端匯出帳戶：
 
-   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+   * 從如上所述的[匯出]頁面，在[開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
 
-   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [從Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)匯出完整資料表時
 
-1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
+1. 在&#x200B;[!UICONTROL **新增帳戶**]&#x200B;對話方塊的&#x200B;[!UICONTROL **帳戶屬性**]&#x200B;區段中，指定下列資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
@@ -161,25 +161,25 @@ ht-degree: 30%
 
 1. 選取「[!UICONTROL **儲存**]」。
 
-   此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
+   [!UICONTROL **已建立匯出帳戶**]&#x200B;對話方塊隨即顯示。
 
    ![匯出帳戶建立的對話方塊](assets/export-account-gcp.png)
 
-1. 複製 [!UICONTROL **主體**] 欄位到您的剪貼簿，然後確定您授予主體許可權，以便在Google Cloud Platform中將檔案上傳到此貯體。 <!-- add link to Google Cloud docs on how to do this -->
+1. 將&#x200B;[!UICONTROL **主體**]&#x200B;欄位的內容複製到剪貼簿，然後確定您授予主體許可權，以便在Google Cloud Platform中將檔案上傳到此貯體。<!-- add link to Google Cloud docs on how to do this -->
 
-1. 選取 [!UICONTROL **確定**].
+1. 選取&#x200B;[!UICONTROL **確定**]。
 
-1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
+1. 繼續[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)。
 
 ### Azure SAS
 
 1. 透過下列其中一種方式開始建立雲端匯出帳戶：
 
-   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+   * 從如上所述的[匯出]頁面，在[開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
 
-   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [從Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)匯出完整資料表時
 
-1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
+1. 在&#x200B;[!UICONTROL **新增帳戶**]&#x200B;對話方塊的&#x200B;[!UICONTROL **帳戶屬性**]&#x200B;區段中，指定下列資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
@@ -187,31 +187,31 @@ ht-degree: 30%
    | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
    | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS URI 的路徑。若要設定 Azure SAS，需要使用 Azure Key Vault 將 SAS URI 儲存為密碼。若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。</p><p>建立金鑰保存庫 URI 後：<ul><li>在 Key Vault 上新增存取權原則，以便向您建立的 Azure 應用程式授予權限。</li><li>確保已將應用程式 ID 授予 `Key Vault Certificate User` 內建角色，以便存取金鑰保存庫 URI。</br><p>若要了解更多資訊，請參閱「[Azure 內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)」。</p></li></ul><p>若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何指定 Key Vault 存取權原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)」。</p> |
    | [!UICONTROL **金鑰保存庫祕密名稱**] | 您將密碼新增至 Azure Key Vault 時建立的密碼名稱。在 Microsoft Azure 中，此資訊位於您建立的 Key Vault 中，位於 **Key Vault** 設定頁面。若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。 |
-   | [!UICONTROL **位置帳戶密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). <!-- need to grant permission to the bucket. Jun will send info on where that is documented) --> |
+   | [!UICONTROL **位置帳戶密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。如需詳細資訊，請參閱[Microsoft Azure檔案，瞭解如何向Microsoft身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。<!-- need to grant permission to the bucket. Jun will send info on where that is documented) --> |
 
    {style="table-layout:auto"}
 
 1. 選取「[!UICONTROL **儲存**]」。
 
-   此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
+   [!UICONTROL **已建立匯出帳戶**]&#x200B;對話方塊隨即顯示。
 
    ![匯出帳戶建立的對話方塊](assets/export-account-azure.png)
 
-1. 如果您尚未這麼做，請確定您已授與Azure SAS中儲存貯體的許可權。 <!-- add link to Google Cloud docs on how to do this -->
+1. 如果您尚未這樣做，請確定您已授與許可權給Azure SAS中的儲存貯體。<!-- add link to Google Cloud docs on how to do this -->
 
-1. 選取 [!UICONTROL **確定**].
+1. 選取&#x200B;[!UICONTROL **確定**]。
 
-1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
+1. 繼續[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)。
 
 ### Azure RBAC
 
 1. 透過下列其中一種方式開始建立雲端匯出帳戶：
 
-   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+   * 從如上所述的[匯出]頁面，在[開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
 
-   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [從Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)匯出完整資料表時
 
-1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
+1. 在&#x200B;[!UICONTROL **新增帳戶**]&#x200B;對話方塊的&#x200B;[!UICONTROL **帳戶屬性**]&#x200B;區段中，指定下列資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
@@ -223,41 +223,41 @@ ht-degree: 30%
 
 1. 選取「[!UICONTROL **儲存**]」。
 
-   此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
+   [!UICONTROL **已建立匯出帳戶**]&#x200B;對話方塊隨即顯示。
 
    ![匯出帳戶建立的對話方塊](assets/export-account-azure.png)
 
-1. 如果您尚未這麼做，請確定您已授與Azure RBAC中儲存貯體的許可權。 <!-- add link to Google Cloud docs on how to do this -->
+1. 如果您尚未這樣做，請確定您已授與許可權給Azure RBAC中的儲存貯體。<!-- add link to Google Cloud docs on how to do this -->
 
-1. 選取 [!UICONTROL **確定**].
+1. 選取&#x200B;[!UICONTROL **確定**]。
 
-1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
+1. 繼續[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)。
 
 ### Snowflake
 
 1. 透過下列其中一種方式開始建立雲端匯出帳戶：
 
-   * 從「匯出」頁面（如上所述），在 [開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
+   * 從如上所述的[匯出]頁面，在[開始建立雲端匯出帳戶](#begin-creating-a-cloud-export-account)
 
-   * 時間 [從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * [從Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)匯出完整資料表時
 
-1. 在 [!UICONTROL **帳戶屬性**] 的區段 [!UICONTROL **新增帳戶**] 對話方塊中，指定下列資訊：
+1. 在&#x200B;[!UICONTROL **新增帳戶**]&#x200B;對話方塊的&#x200B;[!UICONTROL **帳戶屬性**]&#x200B;區段中，指定下列資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **帳戶識別碼**] | 可唯一識別組織內，以及Snowflake支援的雲端平台和雲端區域的全球網路中的Snowflake帳戶。 <p>您必須從Snowflake帳戶取得帳戶識別碼，然後在此處貼上資訊。</p><p>若要瞭解從何處取得此資訊，請參閱 [Snowflake檔案中的帳戶識別碼頁面](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
-   | [!UICONTROL **使用者**] | 用於連線的使用者登入名稱。 我們建議您建立專門用於Adobe的新使用者。 在此處指定名稱，然後以Snowflake建立具有相同名稱的使用者。 您可以使用在Snowflake中建立使用者 `CREATE USER` 命令。  <p>如需詳細資訊，請參閱 [使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
-   | [!UICONTROL **角色**] | 將指派給使用者的角色。 我們建議您建立專門用於Adobe的新角色。 在此處指定角色，然後以相同名稱在Snowflake中建立角色，並將角色授予使用者。 您可以使用在Snowflake中建立角色 `CREATE ROLE` 命令。 <p>如需詳細資訊，請參閱 [使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **帳戶識別碼**] | 可唯一識別組織內，以及Snowflake支援的雲端平台和雲端區域的全球網路中的Snowflake帳戶。 <p>您必須從Snowflake帳戶取得帳戶識別碼，然後在此處貼上資訊。</p><p>若要瞭解從何處取得此資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/user-guide/admin-account-identifier)中的[帳戶識別碼頁面。</p> |
+   | [!UICONTROL **使用者**] | 用於連線的使用者登入名稱。 我們建議您建立專門用於Adobe的新使用者。 在此處指定名稱，然後以Snowflake建立具有相同名稱的使用者。 您可以使用`CREATE USER`命令在Snowflake中建立使用者。  <p>如需詳細資訊，請參閱[使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role)。</p> |
+   | [!UICONTROL **角色**] | 將指派給使用者的角色。 我們建議您建立專門用於Adobe的新角色。 在此處指定角色，然後以相同名稱在Snowflake中建立角色，並將角色授予使用者。 您可以使用`CREATE ROLE`命令在Snowflake中建立角色。 <p>如需詳細資訊，請參閱[使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role)。</p> |
 
    {style="table-layout:auto"}
 
 1. 選取「[!UICONTROL **儲存**]」。
 
-   此 [!UICONTROL **已建立匯出帳戶**] 對話方塊隨即顯示。
+   [!UICONTROL **已建立匯出帳戶**]&#x200B;對話方塊隨即顯示。
 
    ![匯出帳戶建立的對話方塊](assets/export-account-snowflake.png)
 
-1. 複製 [!UICONTROL **公開金鑰**] 欄位至您的剪貼簿。 公開金鑰由Adobe提供。
+1. 將&#x200B;[!UICONTROL **公開金鑰**]&#x200B;欄位的內容複製到剪貼簿。 公開金鑰由Adobe提供。
 
    在Snowflake中使用公開金鑰來連線至您的Snowflake帳戶。 您必須將您建立的使用者與此公開金鑰建立關聯。
 
@@ -267,8 +267,8 @@ ht-degree: 30%
    CREATE USER <your_adobe_user> RSA_PUBLIC_KEY = '<your_public_key>';
    ```
 
-   如需詳細資訊，請參閱 [Snowflake檔案中的金鑰組驗證和金鑰組輪換頁面](https://docs.snowflake.com/en/user-guide/key-pair-auth).
+   如需詳細資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/user-guide/key-pair-auth)中的[金鑰組驗證與金鑰組輪換頁面。
 
-1. 選取 [!UICONTROL **確定**].
+1. 選取&#x200B;[!UICONTROL **確定**]。
 
-1. 繼續使用 [設定雲端匯出位置](/help/components/exports/cloud-export-locations.md).
+1. 繼續[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)。

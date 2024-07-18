@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Customer Journey Analytics護欄
 
-本檔案提供Customer Journey Analytics各種元件的限制。 如需護欄、範圍引數和權益，請參閱 [Customer Journey Analytics的產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html) 或 [Adobe Analytics附加元件的產品說明：Customer Journey Analytics](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html).
+本檔案提供Customer Journey Analytics各種元件的限制。 如需護欄、範圍設定引數和權益，請參閱[Customer Journey Analytics](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html)的產品說明或[Adobe Analytics附加元件的產品說明：Customer Journey Analytics](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)。
 
 ## 限制型別
 
@@ -50,8 +50,8 @@ ht-degree: 7%
 |---|--:|---|---|
 | 每個表格的可見列數 | 400 | 系統強制的護欄 | Analysis Workspace專案中任何自由表格的可見列數上限。 |
 | 每個資料表的可匯出資料列 | 50,000 | 系統強制的護欄 | 每個單一維度可匯出的最大列數。 |
-| 每個專案的面板 | 15 | 系統強制的護欄 | 最大數量 [面板](../analysis-workspace/home.md#panels) 每個專案。 |
-| 每個面板的視覺效果 | 25 | 系統強制的護欄 | 最大數量 [視覺效果](../analysis-workspace/home.md#visualizations) 每個面板。 |
+| 每個專案的面板 | 15 | 系統強制的護欄 | 每個專案最多[個面板](../analysis-workspace/home.md#panels)個。 |
+| 每個面板的視覺效果 | 25 | 系統強制的護欄 | 每個面板最多[個視覺效果](../analysis-workspace/home.md#visualizations)個。 |
 | 每個自由表格的衍生欄位 | 5 | 系統強制的護欄 | 單一自由表格中不同衍生欄位的最大數量。 |
 
 {style="table-layout:auto"}
@@ -72,16 +72,16 @@ ht-degree: 7%
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
-| 對象篩選器 | 20 | 系統強制的護欄 | 最大數量 [篩選器](../components/filters/filters-overview.md) 每個對象。 |
+| 對象篩選器 | 20 | 系統強制的護欄 | 每個對象最多[個篩選器](../components/filters/filters-overview.md)。 |
 | 對象身分的數量 | 2000萬 | 系統強制的護欄 | 每個對象的最大身分數量。 |
-| 對象重新整理頻率 | 4 | 系統強制的護欄 | 最大頻率（小時an） [對象](../components/audiences/audiences-overview.md) 可能會重新整理。 |
+| 對象重新整理頻率 | 4 | 系統強制的護欄 | 可以重新整理[對象](../components/audiences/audiences-overview.md)的頻率上限（小時）。 |
 | 對象重新整理回顧期間 | 90 | 系統強制的護欄 | 重新整理回顧期間的最大天數。 |
 | 重新整理對象到期日 | 13 | 系統強制的護欄 | 對象從建立日期起停止重新整理的最大月數。 客戶可再延長13個月。 |
 | 重新整理對象的數量 | 75， 150 | 系統強制的護欄 | 重新整理對象的最大數量，值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant).
+另請參閱Experience Platform[Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hant)。
 
 
 ## 自動化資料集有效期
@@ -99,16 +99,16 @@ ht-degree: 7%
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
 | 專案 | 50,000 | 系統強制的護欄 | 組織的最大專案數量。 |
-| 資料檢視 | 2,000 | 系統強制的護欄 | 最大數量 [資料檢視](../data-views/data-views.md) 適用於組織。 |
+| 資料檢視 | 2,000 | 系統強制的護欄 | 組織最多[個資料檢視](../data-views/data-views.md)個。 |
 | 資料檢視 | 50 | 系統強制的護欄 | 連線的最大資料檢視數量 |
-| 資料集 | 100 | 系統強制的護欄 | 最大數量 [資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant) 每個連線。 |
-| 連線 | 1000 | 系統強制的護欄 | 最大數量 [連線](../connections/overview.md) 適用於組織。 |
+| 資料集 | 100 | 系統強制的護欄 | 每個連線最多[個資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant)個。 |
+| 連線 | 1000 | 系統強制的護欄 | 組織的[連線](../connections/overview.md)數目上限。 |
 | 連線標題 | 500 | 系統強制的護欄 | 連線標題的最大字元數。 |
 | 量度 | 5,000 | 系統強制的護欄 | 資料檢視中的最大量度數量。 |
 | 維度 | 5,000 | 系統強制的護欄 | 資料檢視中的最大維度數量。 |
 | 附註標題 | 100 | 系統強制的護欄 | 附註標題的最大字元數。 |
 | 附註說明 | 250 | 系統強制的護欄 | 附註說明的最大字元數。 |
-| 結構描述欄位 | 10 | 系統強制的護欄 | 為定義規則時結構描述欄位的最大數量（不包括標準欄位） [衍生欄位](../data-views/derived-fields/derived-fields.md). |
+| 結構描述欄位 | 10 | 系統強制的護欄 | 定義[衍生欄位](../data-views/derived-fields/derived-fields.md)的規則時，結構描述欄位的最大數量（不包括標準欄位）。 |
 | 查詢/設定檔欄位 | 3 | 系統強制的護欄 | 為衍生欄位定義規則時，結構描述欄位（不包括標準欄位）數量上限內的查閱或設定檔結構描述欄位數量上限。 |
 | 衍生欄位 | 100 - 500 | 系統強制的護欄 | 每個連線的最大衍生欄位數；值視Customer Journey Analytics套件而異（請參閱產品說明）。 |
 
@@ -126,7 +126,7 @@ ht-degree: 7%
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
+另請參閱Experience Platform[資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 
 ## 目的地資料匯出
@@ -138,7 +138,7 @@ ht-degree: 7%
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
+另請參閱Experience Platform[資料集匯出護欄](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## 資料登陸區域
@@ -162,7 +162,7 @@ ht-degree: 7%
 {style="table-layout:auto"}
 
 
-## 圖表式銜接
+## 圖表式匯整
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
@@ -203,7 +203,7 @@ ht-degree: 7%
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
 | 活頁簿檔案大小 | 5 | 系統強制的護欄 | 排程活頁簿的檔案大小上限（以MB為單位）。 |
-| 資料區塊 | 1000 | 系統強制的護欄 | 最大數量 [個資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=zh-Hant) 每個活頁簿。 |
+| 資料區塊 | 1000 | 系統強制的護欄 | 每個活頁簿最多[個資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=zh-Hant)個。 |
 | 量度 | 20 | 系統強制的護欄 | 每個資料區塊的最大量度數。 |
 | 日期範圍範圍 | 13 | 系統強制的護欄 | 每個資料區塊可跨越之日期範圍的最大月數。 |
 | 「行」 | 50,000 | 系統強制的護欄 | 每個資料區塊的最大列數。 |
@@ -226,7 +226,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，瞭解您的特定合約條款和SLA。 請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) 以取得詳細資訊。
+>以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，瞭解您的特定合約條款和SLA。 如需詳細資訊，請參閱Experience Platform[資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 | 資料流程 | 預期延遲 |
 |---|---|
@@ -236,9 +236,9 @@ ht-degree: 7%
 | 資料從Edge Network擷取或串流擷取擷取擷取至Data Lake | &lt; 60分鐘 |
 | 資料從Adobe Analytics Source Connector擷取至Data Lake | &lt; 2.25小時 |
 | 從資料湖將資料擷取至Customer Journey Analytics | &lt; 90分鐘 |
-| 拼接(選擇性功能；請參閱 [拼接概述](../stitching/overview.md) 以取得詳細資訊) | &lt; 3.25小時 |
+| 彙整（選擇性功能；如需詳細資訊，請參閱[彙整概觀](../stitching/overview.md)） | &lt; 3.25小時 |
 | Adobe Analytics Source Connector回填少於100億個事件（最多13個月的歷史資料） | &lt; 4週 |
 | 將對象發佈到即時客戶個人檔案，包括自動建立串流區段，並允許區段準備好接收資料。 | ≈ 60分鐘 |
-| 重新整理對象的頻率 | 一次性重新整理：延遲少於5分鐘。<br/>每4小時、每日、每週、每月重新整理一次（延遲與重新整理頻率同時發生）。 |
+| 重新整理對象的頻率 | 一次性重新整理：延遲少於5分鐘。<br/>每4小時、每天、每週、每月重新整理一次（延遲與重新整理頻率同步進行）。 |
 
 {style="table-layout:auto"}

@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # Customer Journey Analytics對象發佈概觀
 
-您現在可以建立在Customer Journey Analytics中發現的對象，並將其發佈到 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant) Adobe Experience Platform中用於客戶目標定位和個人化。
+您現在可以在Adobe Experience Platform中建立並在Customer Journey Analytics中發現的對象，並發佈到[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)，以用於客戶目標定位和個人化。
 
 發佈對象有助於理解情況，並據以啟用Customer Journey Analytics中的見解並據以採取行動。 這些動作可能包括：
 
@@ -31,7 +31,7 @@ ht-degree: 50%
 
 **篩選器**：一組規則，用來評估一段時間的資料組合時會產生資料子集。 搭配其他支援服務時，篩選器可用於建立對象流量。 篩選器是以Customer Journey Analytics來定義和維護。
 
-**篩選器** 與 **區段**：Customer Journey Analytics並未使用「區段」的概念，而是採用「篩選器」。 雖然兩者都是包含相似邏輯的一組規則，但產生的輸出內容有所不同。 篩選器是用來縮小資料集的範圍，以做為分析用途。 區段是用來產生身分識別清單，然後可用來進行啟動。 區段會在即時客戶個人檔案中產生對象，而篩選器 (單獨使用) 則不會。 Customer Journey Analytics對象發佈是指一種流程，其中使用Customer Journey Analytics篩選器建立對象，該對象可提供即時客戶個人檔案使用。
+**篩選器**&#x200B;與&#x200B;**區段**： Customer Journey Analytics未使用「區段」的概念，而是使用「篩選器」。 雖然兩者都是包含相似邏輯的一組規則，但產生的輸出內容有所不同。 篩選器是用來縮小資料集的範圍，以做為分析用途。 區段是用來產生身分識別清單，然後可用來進行啟動。 區段會在即時客戶個人檔案中產生對象，而篩選器 (單獨使用) 則不會。 Customer Journey Analytics對象發佈是指一種流程，其中使用Customer Journey Analytics篩選器建立對象，該對象可提供即時客戶個人檔案使用。
 
 ## 權限
 

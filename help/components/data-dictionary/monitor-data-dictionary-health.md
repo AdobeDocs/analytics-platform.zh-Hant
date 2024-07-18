@@ -37,7 +37,7 @@ Customer Journey Analytics管理員負責維護健康的資料字典。
 
    顯示資料字典視窗。
 
-   ![顯示字典健全狀態的資料字典管理員檢視](assets/data-dictionary-admin.png)
+   ![資料字典管理員的檢視，顯示字典健康狀態](assets/data-dictionary-admin.png)
 
 1. 確定在下拉式選單中選取了正確的資料檢視。
 

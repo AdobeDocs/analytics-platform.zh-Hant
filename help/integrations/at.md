@@ -33,6 +33,6 @@ Customer Journey Analytics中的Target報表功能可讓您直接在Customer Jou
 
 ## 更多詳細資訊
 
-請參閱 Target 文件中的 [Adobe Customer Journey Analytics 的 Target 報告](https://experienceleague.adobe.com/tw/docs/target/using/integrate/cja/target-reporting-in-cja)，了解更多資訊。
+請參閱 Target 文件中的 [Adobe Customer Journey Analytics 的 Target 報告](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja)，了解更多資訊。
 
 請參閱[實驗面板](../analysis-workspace/c-panels/experimentation.md)，深入了解分析師如何比較不同的使用者體驗、行銷或傳送訊息變化等資訊，確定哪一個產生特定結果的績效最好。您可以透過任何實驗平台 (線上、離線、Target 或 Journey Optimizer 等 Adobe 解決方案，甚至 BYO (自備) 資料) 評估任何 A/B 實驗的提升度和信賴度。

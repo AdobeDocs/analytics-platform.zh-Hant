@@ -1,6 +1,6 @@
 ---
 description: 這會顯示非時間維度的前 5 個值 (而時間維度則是前 15 個值)。
-title: 如何在Customer Journey Analytics工作區中預覽維度
+title: 如何在Customer Journey AnalyticsWorkspace中預覽維度
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
 role: User
@@ -23,7 +23,7 @@ ht-degree: 90%
 * 已複製或移動的動態維度欄將變為靜態。
 * 滑鼠游標暫留在靜態維度欄時，您會看到一個鎖定圖示，表示該維度是靜態的。
 
-![反白鎖定圖示的Dimension欄快顯視窗。](assets/dimension_static.png)
+![Dimension欄快顯功能表，醒目提示鎖定圖示。](assets/dimension_static.png)
 
 ## 顯示維度項目
 

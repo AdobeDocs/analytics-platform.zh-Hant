@@ -1,5 +1,5 @@
 ---
-title: 範例B2B專案
+title: B2B 專案範例
 description: 瞭解如何設定、設定和報告B2B資料
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -10,21 +10,21 @@ role: User
 source-git-commit: 9c60c00818e82a6ca891ab9d90260922437c6cca
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
-# 範例B2B專案
+# B2B 專案範例
 
 本文說明如何在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級的B2B資料。
 
 ## 連線
 
-定義您的連線以包含Experience Platform中所有相關的B2B資料集。 確保您包含並轉換典型B2B以人員為基礎的報告案例所需的所有相關查詢資料集。 另請參閱 [轉換B2B查詢資料集](/help/connections/transform-datasets-b2b-lookups.md) 以取得詳細資訊。
+定義您的連線以包含Experience Platform中所有相關的B2B資料集。 確保您包含並轉換典型B2B以人員為基礎的報告案例所需的所有相關查詢資料集。 如需詳細資訊，請參閱[轉換B2B查詢資料集](/help/connections/transform-datasets-b2b-lookups.md)。
 
 您可以考慮新增至連線的資料集：
 
-| 資料集 | 綱要 | 結構描述類型 | 基底類別 | 說明 |
+| 資料集 | 結構描述 | 結構描述類型 | 基底類別 | 說明 |
 |---|---|---|---|---|
 | B2B活動資料集 | B2B活動結構描述 | 事件 | XDM ExperienceEvent | ExperienceEvent是所發生情況的事實記錄，包括時間點和所涉及個人的身分。 ExperienceEvents可以是明確的（可直接觀察的人類動作）或內隱的（在沒有直接人類動作的情況下引發），並且記錄時不會進行彙總或解譯。 它們對於時間網域分析至關重要，因為它們允許觀察和分析在給定時間範圍內發生的變化，並比較多個時間範圍以追蹤趨勢。 |
 | B2B個人資料集 | B2B個人綱要 | 設定檔 | XDM個別設定檔 | XDM個人資料會形成已識別和部分識別個人的屬性和興趣的單一表示。 識別較少的設定檔可能僅包含匿名行為訊號，例如瀏覽器Cookie，而高度識別的設定檔可能包含詳細的個人資訊，例如姓名、出生日期、位置和電子郵件地址。 隨著個人檔案成長，它會成為個人資訊、身分資訊、聯絡詳細資料和個人通訊偏好設定的健全存放庫。 |
@@ -40,11 +40,11 @@ ht-degree: 8%
 -->
 
 
-查詢結構描述、設定檔結構描述和事件結構描述之間的關係在Experience Platform內的B2B設定中定義。 請參閱結構描述 [Real-time Customer Data Platform B2B版本](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html) 和 [在Real-time Customer Data Platform B2B Edition中定義兩個結構描述之間的多對一關係](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html) 以取得更多詳細資料。
+查詢結構描述、設定檔結構描述和事件結構描述之間的關係在Experience Platform內的B2B設定中定義。 如需詳細資訊，請參閱[Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/schemas/b2b.html)中的結構描述，以及[在Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-b2b.html)中定義兩個結構描述之間的多對一關係。
 
 ![B2B結構描述之間的關係](assets/classes.png)
 
-對於您新增至連線的每個查詢資料集，您必須使用明確定義與事件資料集的關係 **[!UICONTROL 索引鍵]** 和 **[!UICONTROL 比對索引鍵]** 在 **[!UICONTROL 編輯資料集]** 對話方塊。 例如：
+對於您新增至連線的每個查詢資料集，您必須在&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊中使用&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 相符的索引鍵]**，明確定義與事件資料集的關聯。 例如：
 
 ![索引鍵 — 相符的索引鍵](assets/key-matchingkey.png)
 
@@ -55,9 +55,9 @@ ht-degree: 8%
 * XDM 業務行銷清單會員
 * XDM 商業活動會員
 
-對於每個查詢資料集，如果是基於此類結構描述類別的結構描述，您也要啟用 **[!UICONTROL 轉換資料集]** 以確保轉換資料以進行人員型查詢。 另請參閱 [轉換B2B查詢的資料集](/help/connections/transform-datasets-b2b-lookups.md) 以取得詳細資訊。
+對於每個查詢資料集，對於以此類結構描述類別為基礎的結構描述，您也會啟用&#x200B;**[!UICONTROL 轉換資料集]**，以確保轉換資料以進行人員型查詢。 請參閱[轉換資料集以進行 B2B 查詢](/help/connections/transform-datasets-b2b-lookups.md)，了解更多資訊。
 
-下表提供範例概述 [!UICONTROL 人員ID]， [!UICONTROL 索引鍵]、和 [!UICONTROL 比對索引鍵] 每個資料集的值。
+下表提供每個資料集的[!UICONTROL 人員ID]、[!UICONTROL 索引鍵]和[!UICONTROL 相符的索引鍵]值的範例概觀。
 
 
 | 資料集 | 人員 ID | 金鑰 | 相符的索引鍵（在事件資料集中） |
@@ -71,12 +71,12 @@ ht-degree: 8%
 
 {style="table-layout:auto"}
 
-另請參閱 [新增和設定資料集](../../connections/create-connection.md) 如需如何設定資料集設定的詳細資訊。
+如需如何設定資料集設定的詳細資訊，請參閱[新增及設定資料集](../../connections/create-connection.md)。
 
 
-## 資料檢視
+## 資料視圖
 
-若要在建置工作區專案時存取相關的B2B維度和量度，您必須相應地定義資料檢視。
+若要在建置Workspace專案時存取相關的B2B維度和量度，您必須相應地定義資料檢視。
 
 您可以將下列元件新增為資料檢視的維度，以確保您可以根據B2B資料製作以人員為基礎的層級報表。 為了清楚起見，元件名稱會經過修改。
 
@@ -298,7 +298,7 @@ No metric components are defined as part of this dataset.
 
 ## Workspace
 
-現在，只要在資料檢視中正確定義元件，您就可以在工作區專案中建置特定的B2B報表和視覺效果。
+現在，只要在資料檢視中正確定義元件，您就可以在Workspace專案中建置特定的B2B報告和視覺效果。
 
 以下是依賴上述連線和資料檢視的範例專案。
 

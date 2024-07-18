@@ -16,7 +16,7 @@ ht-degree: 97%
 
 包含排除值允許您建立依賴於維度項目值的規則。不符合您設定的條件的值在 Analysis Workspace 中會被視為不曾存在過，儘管資料仍然存在於基礎資料集中。
 
-![醒目提示包含/排除值的資料檢視視窗](../assets/include-exclude.png)
+![醒目提示包含排除值的資料檢視視窗](../assets/include-exclude.png)
 
 | 設定 | 說明/使用案例 |
 | --- | --- |

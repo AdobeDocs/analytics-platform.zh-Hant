@@ -15,7 +15,7 @@ ht-degree: 85%
 
 [!UICONTROL 組合圖表]視覺效果可讓您快速建立比較視覺效果，而不用先建立表格。您可以在折線/條形組合中輕鬆地檢視資料中的趨勢。
 
-使用 [!UICONTROL 組合圖表] 至：
+使用[!UICONTROL 組合圖表]可以：
 
 * 比較本週的訂單與上個月 (以及去年) 同時間的訂單 - 全都按幾下就能完成。
 * 在相同圖表上快速逐一分析和比較多項量度 (例如[!UICONTROL 不重複訪客]和[!UICONTROL 收入])。
@@ -33,7 +33,7 @@ ht-degree: 85%
 
 1. 從左側邊欄中的「視覺效果」下拉式清單，將「[!UICONTROL 組合圖表]」視覺效果拖曳至空白面板。
 
-   ![顯示X軸和Y軸及選項欄位的組合圖表](assets/combo-chart-build.png)
+   ![顯示X軸與Y軸及選項欄位的組合圖表](assets/combo-chart-build.png)
 
 1. 從下拉式清單，選取 X 軸的維度和 Y 軸的量度。
 
@@ -41,8 +41,8 @@ ht-degree: 85%
 
    | 折線比較類型 | 定義 |
    | --- | --- |
-   | **[!UICONTROL 時間比較]** | 最常見的比較類型 - 例如，將此時段與 4 週前進行比較。如果您已選取[!UICONTROL 時間比較]，請針對您要比較的時段進行次要比較。<p>![與選取的時段比較，以及時間時段的次要選取欄位。](assets/combo-time-period.png) |
-   | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。請參閱以下的支援函數清單。<p>![「LiNe比較」下拉式功能表會顯示選取的函式以及可用支援函式的清單。](assets/combo-functions.png) |
+   | **[!UICONTROL 時間比較]** | 最常見的比較類型 - 例如，將此時段與 4 週前進行比較。如果您已選取[!UICONTROL 時間比較]，請針對您要比較的時段進行次要比較。<p>![已選取時間週期與時間週期的次要選取欄位比較。](assets/combo-time-period.png) |
+   | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。請參閱以下的支援函數清單。<p>![LIne比較下拉式功能表，顯示選取的函式以及可用的支援函式清單。](assets/combo-functions.png) |
    | **[!UICONTROL 次要量度]** | 例如，您可以將[!UICONTROL 收入]與另一個量度比較。<p>![比較兩個量度的組合圖表。](assets/combo-2metrics.png) |
 
    {style="table-layout:auto"}
@@ -51,7 +51,7 @@ ht-degree: 85%
 
    輸出將與下圖相似：
 
-   ![在長條圖中顯示目前期間的組合圖，在折線圖中顯示比較期間 ](assets/combo-output.png)
+   ![組合圖表，在長條圖中顯示目前期間，在折線圖](assets/combo-output.png)中顯示比較期間
 
    目前期間會以條形圖顯示，而比較期間則以折線圖呈現。折線圖上的圓點稱為「槓鈴」。
 
@@ -77,7 +77,7 @@ ht-degree: 85%
 
 以下為累積平均值和平均值函數的組合圖表範例：
 
-![同時顯示累積平均值和平均函式的組合圖表。](assets/combo-two-functions.png)
+![同時顯示累積平均和平均函式的組合圖表。](assets/combo-two-functions.png)
 
 ## 組合圖表設定
 

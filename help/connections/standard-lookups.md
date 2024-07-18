@@ -77,8 +77,8 @@ The catch here is that they can only populate those IDs today if they have a dir
 
 若要使用標準查詢維度來建立報表，請在 Customer Journey Analytics 中建立資料檢視時將其加入：
 
-![建立顯示「新增元件」清單的資料檢視](assets/global-lookup.png)
+![建立顯示[新增元件]清單的資料檢視](assets/global-lookup.png)
 
 您可以在 Analysis Workspace 中看見查詢資料：
 
-![顯示資料的自由表格](assets/gl-reporting.png)
+![顯示資料的自由格式表格](assets/gl-reporting.png)

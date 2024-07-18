@@ -6,7 +6,7 @@ exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 39486d83a446c8bcfe93824c06bee3c681922ff4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3259'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ ht-degree: 100%
 | --- | --- | --- |
 | **表格** | | |
 | | 表格類型 | <ul><li>自由形式</li><li>表格產生器</li></ul> |
-| | 預設表格量度 | <ul><li>發生次數</li><li>不重複訪客</li><li>瀏覽</li></ul> |
+| | 預設表格量度 | <ul><li>發生次數</li><li>不重複訪客</li><li>造訪</li></ul> |
 | | 預設表格維度 | 從分鐘、小時、日、週、月、季度或年中選擇。 |
 | | 統一日期 | 選取此選項，讓每一欄的日期與同一列中所有開始日期一致。 |
 | **[欄](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
@@ -162,9 +162,9 @@ ht-degree: 100%
 | | 顯示比較 | 顯示比較資料。隱藏時，比較折線圖和摘要變更物件將會隱藏起來。 |
 | | 數字值選項 | 在&#x200B;[!UICONTROL **關鍵量度摘要**] 一節 <ul><li>顯示百分比變化</li><li>顯示原始差異</li>主要日期範圍與次要日期範圍中量度總值之間的原始差異</ul> |
 | **[流失](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
-| | 容器 | 可讓您切換瀏覽和訪客，分析訪客路徑。預設為「訪客」。這些設定可協助您了解人員層級的人員參與程度 (跨工作階段)，或是將分析限制為單一工作階段。 <p>提供下列選項：</p> <ul><li>瀏覽</li><li>訪客</li></ul> |
+| | 容器 | 可讓您切換瀏覽和訪客，分析訪客路徑。預設為「訪客」。這些設定可協助您了解人員層級的人員參與程度 (跨工作階段)，或是將分析限制為單一工作階段。 <p>提供下列選項：</p> <ul><li>造訪</li><li>訪客</li></ul> |
 | **[流量](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
-| | 容器 | 在&#x200B;[!UICONTROL **流量**]&#x200B;一節 <ul><li>瀏覽</li><li>訪客</li></ul> |
+| | 容器 | 在&#x200B;[!UICONTROL **流量**]&#x200B;一節 <ul><li>造訪</li><li>訪客</li></ul> |
 | | 繞排標籤 | 一般而言，系統會截斷「流量」元素的標籤以節省螢幕空間，但您可勾選此方塊以完整顯示標籤。預設 = 未勾選。 |
 | | 包含重複例項 | 「流量」視覺效果是根據維度的例項而定。此設定可讓您選擇要包含或排除重複例項，如頁面重新載入次數。不過，無法從包含多值維度 (例如 listVars、listProps、s.product、銷售 eVars 等) 的「流量」視覺效果中移除重複項目。預設 = 未勾選。 |
 | | 顯示工具提示 | 決定將滑鼠游標暫留在流量視覺效果內的個別節點上時，是否顯示包含節點資料的工具提示。 |
@@ -174,7 +174,7 @@ ht-degree: 100%
 | | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。 <p>如需詳細資訊，請參閱[長條圖和堆疊長條圖](/help/analysis-workspace/visualizations/bar.md)。</p> |
 | **[長條圖](/help/analysis-workspace/visualizations/histogram.md)** | | |
 | | 貯體數 | 在視覺效果中選擇資料範圍 (貯體) 的數量。貯體的最大數量是 50。 <p>如需詳細資訊，請參閱[長條圖](/help/analysis-workspace/visualizations/histogram.md)。</p> |
-| | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>瀏覽</li><li>訪客</li></ul> <p>例如，與頁面瀏覽次數搭配使用時，您可以選擇每個人員的頁面瀏覽次數、造訪的頁面瀏覽次數，或是每個事件的頁面瀏覽次數。若為點擊，自由形式表格會將「發生次數」設為 Y 軸的量度。</p> |
+| | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>造訪</li><li>訪客</li></ul> <p>例如，與頁面瀏覽次數搭配使用時，您可以選擇每個人員的頁面瀏覽次數、造訪的頁面瀏覽次數，或是每個事件的頁面瀏覽次數。若為點擊，自由形式表格會將「發生次數」設為 Y 軸的量度。</p> |
 | **[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變更</li><li>原始差異</li></ul> |
 | | 百分比 | 以百分比顯示摘要變更視覺效果的值。 |

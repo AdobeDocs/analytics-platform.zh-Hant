@@ -1,5 +1,5 @@
 ---
-title: 將Marketo Engage資料擷取至Adobe Experience Platform並以Customer Journey Analytics報告
+title: 將 Marketo Engage 資料提取到 Adobe Experience Platform 中，並在 Customer Journey Analytics 中報告
 description: 瞭解如何將Marketo Engage資料帶入Customer Journey Analytics
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -8,11 +8,11 @@ role: Admin
 source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 57%
+ht-degree: 64%
 
 ---
 
-# 將Marketo Engage資料擷取至Adobe Experience Platform並以Customer Journey Analytics報告
+# 將 Marketo Engage 資料提取到 Adobe Experience Platform 中，並在 Customer Journey Analytics 中報告
 
 您可以善用Adobe Experience Platform (Adobe Experience Platform)中新推出的Marketo Engage資料集，為B2B行銷人員提供有價值的分析和報告解決方案。 然後在Adobe Customer Journey Analytics中報告這些資料集。
 
@@ -26,7 +26,7 @@ ht-degree: 57%
 
 ## 步驟3：在Customer Journey Analytics中設定此資料集的連線
 
-若要針對Experience Platform資料集製作報表，必須先為Experience Platform和Customer Journey Analytics的資料集建立連線。 如需詳細資訊，請參閱 [建立或編輯連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant).
+若要針對Experience Platform資料集製作報表，必須先為Experience Platform和Customer Journey Analytics的資料集建立連線。 請參閱以取得詳細資訊[建立或編輯連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant)。
 
 ## 步驟 4：建立一個或多個資料檢視
 
@@ -40,7 +40,7 @@ ht-degree: 57%
 
 1. 依下列方式建立網頁頁面檢視的[篩選器](/help/components/filters/create-filters.md) - 事件類型 = web.webpagedetails.pageViews：
 
-   ![顯示事件和事件型別的定義視窗](../assets/marketo-filter.png)
+   顯示事件和事件型別的![定義視窗](../assets/marketo-filter.png)
 
 1. 進入 Freeform 表格中，提取您建立的篩選器 - 網頁頁面檢視，然後提取「月份」日期範圍。這會為您提供每個月潛在客戶的網頁瀏覽次數：
 
@@ -48,4 +48,4 @@ ht-degree: 57%
 
 1. 或提取以下維度：人員金鑰或工作電子郵件地址。這會為您提供每個潛在客戶的網頁瀏覽次數：
 
-   ![自由表格，顯示事件和workEmail.Address與網頁檢視。](../assets/marketo-freeform2.png)
+   ![顯示事件和workEmail.Address及網頁檢視的自由格式表格。](../assets/marketo-freeform2.png)

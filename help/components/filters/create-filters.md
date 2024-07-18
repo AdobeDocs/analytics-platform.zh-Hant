@@ -13,7 +13,7 @@ ht-degree: 55%
 
 # 建立篩選器
 
-您可以在工作區中建立不同型別的篩選器，實際型別將依據這些篩選器需要的複雜程度、是否應僅套用至目前專案或套用至所有專案等因素而定。
+您可以在Workspace中建立不同型別的篩選器，實際型別將依據這些篩選器需要的複雜程度、是否應僅套用至目前專案或套用至所有專案等因素而定。
 
 以下為可用篩選器型別的摘要，其中包含建立篩選器型別相關資訊的連結：
 
@@ -30,5 +30,5 @@ ht-degree: 55%
 | --- | --- |
 | 從選取項目建立篩選條件 | 建立內嵌篩選條件。此篩選器僅套用至開啟的專案，不會儲存為Customer Journey Analytics篩選器。<p> 1. 請選取您要哪些表格列成為篩選器的一部分。  2. 以滑鼠右鍵按一下選取項目。  3. 按一下&#x200B;*「從選取項目建立篩選條件」*。 |
 | 「工作區 [!UICONTROL 元件] > [!UICONTROL 新增篩選器]」 | 顯示篩選條件產生器。 如需篩選功能的詳細資訊，請參閱[篩選條件產生器](/help/components/filters/filter-builder.md)。 |
-| 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在 [共用專案](/help/analysis-workspace/curate-share/share-projects.md) 或 [組織專案](/help/analysis-workspace/curate-share/curate.md)，瞭解套用至專案的篩選器可如何供收件者使用於共用分析中。 |
+| 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)或[組織專案](/help/analysis-workspace/curate-share/curate.md)中，瞭解您套用至專案的篩選器可如何供收件者使用於共用分析中。 |
 | 將篩選條件作為維度使用 | 下列影片示範如何使用篩選器作為維度：  <p>[在 Analysis Workspace 中將篩選器用作維度](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)</p> |

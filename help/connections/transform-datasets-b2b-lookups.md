@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ![啟用轉換資料集](assets/transform-dataset.gif)
 
-* 請確定您選取正確的識別碼 **[!UICONTROL 索引鍵]** 和 **[!UICONTROL 比對索引鍵]**，例如 `personKey.sourceKey`.
+* 請確定您為&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 相符的索引鍵]**&#x200B;選取正確的識別碼，例如`personKey.sourceKey`。
 
 * 選取匯入新資料和資料集回填的選項。
 
-* 選取 **[!UICONTROL 轉換B2B查詢的資料集]**.
+* 選取&#x200B;**[!UICONTROL 轉換資料集以進行B2B查詢]**。
 
   此選項會轉換資料集，以便用於B2B案例中的人員型查詢。
 

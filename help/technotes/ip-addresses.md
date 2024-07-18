@@ -16,7 +16,7 @@ ht-degree: 31%
 
 有些防火牆設定會封鎖來自 Adobe 的資料收集伺服器或負責存取資料的伺服器 IP 位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。
 
-此頁面包含您需要新增至允許清單的IP位址，以便傳出系統正常運作，例如 [將資料匯出至雲端提供者](/help/analysis-workspace/export/export-cloud.md).
+此頁面包含您需要新增至允許清單的IP位址，以便讓輸出系統運作，例如[將資料匯出至雲端提供者](/help/analysis-workspace/export/export-cloud.md)。
 
 >[!IMPORTANT]
 >
@@ -143,4 +143,4 @@ ht-degree: 31%
 >
 >[Customer Journey Analytics使用的網域](domains.md)
 >
->[Adobe Experience Cloud使用的IP位址](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>Adobe Experience Cloud使用的[個IP位址](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)

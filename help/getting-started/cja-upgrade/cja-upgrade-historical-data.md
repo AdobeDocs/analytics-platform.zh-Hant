@@ -22,11 +22,11 @@ ht-degree: 0%
 
 | 升級任務 | 詳細資料 |
 |---------|----------|
-| **步驟1： [開始升級](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)** | 瞭解升級至Customer Journey Analytics的好處和基本升級程式。 |
-| **步驟2： [選擇升級路徑](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | 升級至Customer Journey Analytics有多種方法。 根據您組織目前的Adobe Analytics環境和長期目標，選擇最適合您組織的方法。 |
-| **步驟3： [傳送資料至Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)** | 傳送資料至Adobe Experience Platform的程式會依您在步驟2中選擇的升級路徑而有所不同。 |
-| <span class="preview">**步驟4：保留歷史資料**</span> | <span class="preview">大多陣列織都需將其歷史Adobe Analytics資料保留一段時間。 有多種選項可達成此目的。</span> |
-| **步驟5： [執行其他實作工作](/help/getting-started/cja-getting-started.md)** | 在升級流程的這個階段，您需要在Customer Journey Analytics環境準備好使用之前執行各種工作。<p>這些額外工作適用於從Adobe Analytics升級以及新的Customer Journey Analytics實作。</p><p>這些工作包括：</p><ul><li>將其他資料帶入Experience Platform</li><li>在Platform資料集和Customer Journey Analytics之間建立連線</li><li>建立資料檢視</li><li>移植報表API使用量</li><li>資料摘要和Data Warehouse的帳戶處理</li><li>移轉專案和元件</li><li>Planning使用者上線</li></ul> <p>如需詳細資訊，請參閱 [Customer Journey Analytics快速入門](/help/getting-started/cja-getting-started.md). |
+| **步驟1：[開始升級](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)** | 瞭解升級至Customer Journey Analytics的好處和基本升級程式。 |
+| **步驟2：[選擇升級路徑](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | 升級至Customer Journey Analytics有多種方法。 根據您組織目前的Adobe Analytics環境和長期目標，選擇最適合您組織的方法。 |
+| **步驟3：[傳送資料至Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)** | 傳送資料至Adobe Experience Platform的程式會依您在步驟2中選擇的升級路徑而有所不同。 |
+| <span class="preview">**步驟4：保留歷史資料**</span> | <span class="preview">大多陣列織都需要保留其歷史Adobe Analytics資料一段時間。 有各種選項可完成此作業。</span> |
+| **步驟5：[執行其他實作工作](/help/getting-started/cja-getting-started.md)** | 在升級流程的這個階段，您需要在Customer Journey Analytics環境準備好使用之前執行各種工作。<p>這些額外工作適用於從Adobe Analytics升級以及新的Customer Journey Analytics實作。</p><p>這些工作包括：</p><ul><li>將其他資料帶入Experience Platform</li><li>在Platform資料集和Customer Journey Analytics之間建立連線</li><li>建立資料檢視</li><li>移植報表API使用量</li><li>資料摘要和Data Warehouse的帳戶處理</li><li>移轉專案和元件</li><li>Planning使用者上線</li></ul> <p>如需詳細資訊，請參閱[Customer Journey Analytics快速入門](/help/getting-started/cja-getting-started.md)。 |
 
 {style="table-layout:auto"}
 
@@ -38,13 +38,13 @@ ht-degree: 0%
 >
 >選擇如何保留歷史資料時，請聯絡您的Adobe客戶代表以決定價格。
 
-## 使用Analytics來源聯結器
+## 使用Analytics Source聯結器
 
-您可以使用 [Analytics來源聯結器](/help/data-ingestion/analytics.md) 以保留歷史資料。 無論您選擇哪種升級路徑（即使您使用Web SDK升級），都可使用Analytics來源聯結器保留Adobe Analytics環境的歷史資料。
+您可以使用[Analytics Source Connector](/help/data-ingestion/analytics.md)來保留歷史資料。 無論您選擇哪種升級路徑（即使您使用Web SDK升級），都可使用Analytics Source Connector保留Adobe Analytics環境的歷史資料。
 
-您可以使用Analytics來源聯結器將歷史資料匯入其專屬位置（與您目前的資料分開），以保留歷史資料。
+您可以使用Analytics Source Connector將歷史資料引進其專屬位置（與您目前的資料分開），以保留歷史資料。
 
-只要您需要存取歷史資料，Analytics來源聯結器就能正常運作。
+只要您需要存取歷史資料，Analytics Source Connector就能繼續運作。
 
 <!-- Another possibility in the future: Map historical data in a way that allows you to tie it to your new data.  Possible? Explain -->
 
@@ -78,4 +78,4 @@ ht-degree: 0%
 
 * Planning使用者上線
 
-如需詳細資訊，請從中的步驟2開始 [Customer Journey Analytics快速入門](/help/getting-started/cja-getting-started.md).
+如需詳細資訊，請從[Customer Journey Analytics快速入門](/help/getting-started/cja-getting-started.md)中的步驟2開始。
