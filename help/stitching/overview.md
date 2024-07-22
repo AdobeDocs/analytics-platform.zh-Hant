@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: ca2387c2dd4c6c0ccdf6cec245c5d66ecea93bd5
+source-git-commit: f390789287721a777947093123f672e0a854540a
 workflow-type: tm+mt
-source-wordcount: '3817'
+source-wordcount: '3830'
 ht-degree: 12%
 
 ---
@@ -324,7 +324,8 @@ Customer Journey Analytics支援兩種彙整型別：欄位式彙整和圖表式
 
 下列先決條件尤其適用於圖表式銜接：
 
-- Adobe Experience Platform中您要套用拼接的事件資料集，必須有一欄可識別每列的訪客，**永久ID**。 例如，Adobe AnalyticsAppMeasurement庫產生的訪客ID或Adobe Experience Platform Identity Service產生的ECID。
+- Adobe Experience Platform中您要套用拼接的事件資料集，必須有一欄可識別每列的訪客，**永久ID**。 例如，Adobe AnalyticsAppMeasurement程式庫產生的訪客ID或Experience PlatformIdentity服務產生的ECID。
+- 永久識別碼也必須在結構描述中定義為[身分識別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。
 - 來自Experience Platform身分服務的身分圖表必須有名稱空間（例如`Email`或`Phone`），您可在拼接期間用來解析&#x200B;**暫時性識別碼**。 如需詳細資訊，請參閱[Experience Platform識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)。
 
 >[!NOTE]
