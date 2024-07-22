@@ -5,10 +5,10 @@ title: 設定雲端匯出位置
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 1bf36f60b0b3aec04bb1452e5f63f97051d9bb50
+source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 21%
+source-wordcount: '1888'
+ht-degree: 20%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 21%
 ---------|----------|
 | [!UICONTROL **名稱**] | 位置的名稱。  |
 | [!UICONTROL **描述**] | 提供位置的簡短說明，以協助將其與帳戶上的其他位置區分開來。 |
-| [!UICONTROL **讓位置可供您組織中的所有使用者使用**] | **注意：**&#x200B;此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。 <p>啟用此選項可允許組織中的其他使用者使用該位置。</p> <p>共用位置時，請考量下列事項：</p><ul><li>您無法取消共用您共用的位置。</li><li>共用位置只能由位置擁有者編輯。</li><li>只有在與位置關聯的帳戶也共用時，才能共用位置。</li></ul> |
+| [!UICONTROL **讓位置可供您組織中的所有使用者使用**] | 啟用此選項可允許組織中的其他使用者使用該位置。 <p>共用位置時，請考量下列事項：</p><ul><li>您無法取消共用您共用的位置。</li><li>共用位置只能由位置擁有者編輯。</li><li>只有在與位置關聯的帳戶也共用時，才能共用位置。</li></ul> |
 | [!UICONTROL **位置帳戶**] | 選取您要建立位置的帳戶。 如需有關如何建立帳戶的資訊，請參閱[設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)。 |
 
 1. 在「[!UICONTROL **位置屬性**]」部分，指明您位置帳戶特定的帳戶類型資訊。

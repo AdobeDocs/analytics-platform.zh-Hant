@@ -5,10 +5,10 @@ title: 設定雲端匯出帳戶
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 9a0e6ed66a20eac1fa5f94efd378842a579826c0
+source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
 workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 30%
+source-wordcount: '1965'
+ht-degree: 29%
 
 ---
 
@@ -45,8 +45,6 @@ ht-degree: 30%
    * 共用帳戶只能由帳戶擁有者編輯。
 
    * 任何人都可以建立共用帳戶的位置。
-
-   **注意：**&#x200B;此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
 
 1. 在&#x200B;[!UICONTROL **帳戶型別**]&#x200B;欄位中，選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake和AEP資料登陸區域。
 
