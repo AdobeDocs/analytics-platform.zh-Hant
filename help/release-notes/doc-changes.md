@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7d915fc9b50163b7ec9c48232b99a85a3b063a77
+source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
 workflow-type: tm+mt
-source-wordcount: '3836'
-ht-degree: 71%
+source-wordcount: '3940'
+ht-degree: 70%
 
 ---
 
@@ -20,8 +20,9 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 7 月** | |
+| 新增快速計算量度的相關資訊 | 更新[量度](/help/components/apply-create-metrics.md)中的資訊，以釐清在計算量度產生器](/help/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)中建立的[計算量度與單一專案](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)中建立為快速計算量度的[計算量度之間的差異。 也新增了建立快速計算量度的相關詳細資訊。<p>在計算量度產生器中建立的計算量度可在元件清單中取得，並可套用至整個組織的專案，而建立為快速計算量度的計算量度只能在其建立所在的專案中使用。</p><p>也更新了[建置量度](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中的資訊，以進行類似的澄清。</p> |
 | 衍生欄位重複資料刪除函式 | 已新增有關衍生欄位[重複資料刪除](/help/data-views/derived-fields/derived-fields.md#deduplicate)函式的檔案。 |
-| 更新常見錯誤訊息 | 已對[常見錯誤訊息](/help/analysis-workspace/workspace-faq/error-messages.md)進行小幅更新。 |
+| 已更新常見錯誤訊息 | 對[常見錯誤訊息](/help/analysis-workspace/workspace-faq/error-messages.md)進行了小幅更新。 |
 | **2024 年 6 月** | |
 | 已更新提及串流媒體功能的產品名稱 | 當提到專門收集串流媒體資料並將其顯示在 Analysis Workspace 的一組串流媒體功能時，出現「媒體分析」和「串流媒體」的地方將替換為名稱「串流媒體收集附加元件」。 <p>這些更新可在Customer Journey Analytics檔案以及[串流媒體收集附加元件檔案](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中取得。</p> |
 | 圖表式匯整 | 更新並重新建構[拼接檔案](/help/stitching/overview.md)，並引進圖表式拼接。 |
