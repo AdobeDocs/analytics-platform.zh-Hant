@@ -3,7 +3,7 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 7d915fc9b50163b7ec9c48232b99a85a3b063a77
+source-git-commit: fa6f549c83f8b91907f1bb174f061cbe32aeb13c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 52%
@@ -12,7 +12,7 @@ ht-degree: 52%
 
 # 最新的 Adobe Customer Journey Analytics 發行說明 (2024 年 7 月)
 
-**上次更新日期**：2024年7月17日
+**上次更新日期**： 2024年7月24日
 
 這些發行說明涵蓋2024年7月17日至2024年8月的發行期。 Adobe Customer Journey Analytics發行會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。 因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,7 +20,7 @@ ht-degree: 52%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **智慧型警報** | 智慧型警報現在可在Customer Journey Analytics中使用，讓您在資料中發生異常事件時立即收到通知。<p>您可以設定要根據異常臨界值、變更的百分比或特定資料點觸發的警報。 警報提供與「異常偵測」整合的精細控制項，會在您最需要時觸發。</p><p>在Customer Journey Analytics中使用智慧型警報的程式幾乎與在Adobe Analytics中使用智慧型警報相同。 其中一個主要差異在於Customer Journey Analytics不提供每小時警報。 此差異是因為可擷取的各種事件資料的資料擷取作業僅會在延遲後完成，延遲時間通常比資料事件時間晚3至9小時。</p><p>（更新說明檔案連結，請前往）</p><!--<p>[Learn more](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)</p> --> |  | 2024年7月26日 |
+| **智慧型警報** | 智慧型警報現在可在Customer Journey Analytics中使用，讓您在資料中發生異常事件時立即收到通知。<p>您可以設定要根據異常臨界值、變更的百分比或特定資料點觸發的警報。 警報提供與「異常偵測」整合的精細控制項，會在您最需要時觸發。</p><p>在Customer Journey Analytics中使用智慧型警報的程式幾乎與在Adobe Analytics中使用智慧型警報相同。 其中一個主要差異在於Customer Journey Analytics不提供每小時警報。 此差異是因為可擷取的各種事件資料的資料擷取作業僅會在延遲後完成，延遲時間通常比資料事件時間晚3至9小時。</p><p>（更新說明檔案連結，請前往）</p><!--<p>[Learn more](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)</p> --> |  | 待定 |
 | **將報告匯出至雲端時，用來控制帳戶和位置的管理員設定** | [位置管理器中的新「管理設定」標籤](/help/components/exports/manage-export-locations.md#configure-company-wide-settings-administrators-only)可讓管理員控制使用者是否可以建立和編輯帳戶和位置。<p>使用者[設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)及[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)時會套用這些設定。</p><p>管理員也能限制使用者可以建立和使用的帳戶類型。帳戶類型包括 Google Cloud Platform、Azure RBAC、Amazon S3、AEP Data Landing Zone、Snowflake 等。</p><p>以前，任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024 年 7 月 11 日 | 2024 年 7 月 19 日 |
 | **摘要層級資料來源** | 可讓您匯入沒有人員ID的時間序列資料。 此時間序列資料可用於支援各種使用案例，例如：<ul><li>將高階績效指標呈現為事件層級資料的一部分或旁邊。 這可能包括簡單的日期和單一量度值，也可能包括多個維度和量度，例如廣告曝光數、電子郵件開啟、廣告支出、銷售商品成本等。</li><li>每日、每週、每月或每季上傳目標或指標，並依據事件層級的量度來定位這些目標或指標，以便視覺化量度相對於組織目標或目標的趨勢。</li></ul><p>（更新說明檔案連結，請前往）</p> |  | 2024年7月31日 |
 | **衍生欄位 — 重複資料刪除函式** | 衍生欄位中的[重複資料刪除函式](/help/data-views/derived-fields/derived-fields.md#deduplicate)可協助您避免重複計算值。 |  | 2024年7月17日 |
