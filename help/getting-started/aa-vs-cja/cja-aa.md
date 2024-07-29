@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: f091dda08391bad3974493e93dce942b8a2fc4d3
+source-git-commit: 1abd23ded188697a910d4e6d04675f96f51e9b0e
 workflow-type: tm+mt
-source-wordcount: '2287'
-ht-degree: 100%
+source-wordcount: '2273'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 | Report Builder | 支援用於 Excel 的新 Office 365 外掛程式。 |
 | 使用者權限/資料存取控制 | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hant) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。其他使用者權限可用於多種功能，例如建立計算量度、篩選器或註解等。 |
 | 視覺效果 | 支援所有 Workspace 視覺效果，但地圖視覺效果除外。 |
-| 跨裝置/跨管道拼接 | 支援直接包含身分資訊的資料集 (也稱為「依欄位匯整」)。目前尚不支援圖表式拼接，但已規劃完成。請參閱[拼接](../../stitching/overview.md)。 |
+| 跨裝置/跨管道拼接 | 支援包含身分資訊的事件資料集。 請參閱[拼接](../../stitching/overview.md)。 |
 
 {style="table-layout:auto"}
 
