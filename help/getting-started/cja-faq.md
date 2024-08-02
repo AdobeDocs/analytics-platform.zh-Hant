@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 80d5a864e063911b46ff248f2ea89c1ed0d14e32
+source-git-commit: 252ddfd3a321d94d14fbe2593b942ac36bf932a5
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 100%
+source-wordcount: '2547'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.c
 
 +++**拼接歷史 (回填) 資料是如何運作的？**
 
-初次開啟此功能時，Adobe 將提供回填的拼接資料，其回溯時間可追溯到上個月初 (最長 60 天)。為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。[了解更多](../stitching/overview.md)
+首次開啟時，Adobe會提供回填的拼接資料，其回溯時間可追溯到您選取的部分(最多25個月，視您有權使用的Customer Journey Analytics套件而定)。 為了執行此回填，當時的未拼接資料中必須存在暫時性 ID。[了解更多](../stitching/overview.md)
 
 +++
 
