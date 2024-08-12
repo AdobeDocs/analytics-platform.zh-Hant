@@ -4,15 +4,15 @@ description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: 466b4e22ba39197208a191a7298bf37a0b3e36c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '777'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 最新的 Adobe Customer Journey Analytics 發行說明 (2024 年 7 月)
 
-**上次更新日期**：2024年8月7日
+**上次更新日期**：2024 年 8 月 7 日
 
 這些發行說明涵蓋 2024 年 7 月 17 日至 2024 年 8 月的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | **衍生欄位 -「重複資料刪除 - 重複」功能** | 衍生欄位中的[「重複資料刪除 - 重複」功能](/help/data-views/derived-fields/derived-fields.md#deduplicate)可協助您避免對某個值進行多次計數。 |  | 2024 年 7 月 17 日 |
 | **替 CJA 客戶佈建引導式分析** | 引導式分析可讓使用者透過建置在 Customer Journey Analytics 跨管道資料上的引導式工作流程，自行取得有關客戶歷程的高品質資料和深入分析。 <p>從行銷到產品的跨職能團隊可以即時連結以使用和了解這些報告。</p><p>CJA 套件中現已提供多達 11 個引導式分析視圖。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/overview)</p> |  | 2024 年 7 月 17 日 |
 | **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員，才能編輯和刪除帳戶與位置。先前，帳戶和位置只能由建立它們的使用者使用。這些設定可於使用者[設定雲端匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/exports/cloud-export-accounts)及[設定雲端匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/exports/cloud-export-locations)時使用。 | 2024 年 6 月 12 日 | 2024 年 7 月 19 日 |
-| **對象已經發佈到 Experience Platform 中新的「對象」區段** | 現在起，從 Customer Journey Analytics 發佈的對象，可在 Adobe Experience Platform 的新「對象」區段中取得。<p>以前，從 Customer Journey Analytics 發佈的對象是在 Experience Platform 的「區段」部分下方取得。</p><p>此改善提供以下優點：</p><ul><li>對象出現在 Experience Platform 之前，不會再有 1 小時的延遲，而是在發佈之後幾秒鐘即可使用。</li><li>可以使用「來源」欄對 Experience Platform 中的對象進行排序，其中會顯示最初發佈對象的應用程式。</li><li>Experience Platform 中的篩選器和排序選項，可讓您更快找到相關的對象。</li></ul> <p>(文件連結待補充)</p> | 2024年8月14日 | 2024年8月22日 |
+| **對象已經發佈到 Experience Platform 中新的「對象」區段** | 現在起，從 Customer Journey Analytics 發佈的對象，可在 Adobe Experience Platform 的新「對象」區段中取得。<p>以前，從 Customer Journey Analytics 發佈的對象是在 Experience Platform 的「區段」部分下方取得。</p><p>此改善提供以下優點：</p><ul><li>對象出現在 Experience Platform 之前，不會再有 1 小時的延遲，而是在發佈之後幾秒鐘即可使用。</li><li>可以使用「來源」欄對 Experience Platform 中的對象進行排序，其中會顯示最初發佈對象的應用程式。</li><li>Experience Platform 中的篩選器和排序選項，可讓您更快找到相關的對象。</li></ul> <p>(文件連結待補充)</p> | 2024 年 8 月 14 日 | 2024 年 8 月 22 日 |
 
 {style="table-layout:auto"}
 
