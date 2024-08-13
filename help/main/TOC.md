@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 6d4dd1cd0e2c9b89ed37ca713ecc6d5db7d9e745
+source-git-commit: 9c022dba63fd837aee28393aceb4eac851a993ec
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 100%
+source-wordcount: '1099'
+ht-degree: 98%
 
 ---
 
@@ -91,10 +91,12 @@ ht-degree: 100%
       + [沒有值選項](../data-views/component-settings/no-value-options.md)
       + [持續性](../data-views/component-settings/persistence.md)
       + [子字串](../data-views/component-settings/substring.md)
+      + [摘要資料群組](../data-views/component-settings/summary-data-group.md)
       + [值分組](../data-views/component-settings/value-bucketing.md)
    + [標準元件參考](../data-views/component-reference.md)
    + [BI 擴充功能](../data-views/bi-extension.md)
    + [衍生欄位](../data-views/derived-fields/derived-fields.md)
+   + [摘要資料](../data-views/summary-data.md)
    + [標籤和原則](../data-views/data-governance.md)
 
 + 工作區專案 {#cja-workspace}
@@ -162,7 +164,7 @@ ht-degree: 100%
       + [空白面板](../analysis-workspace/c-panels/blank-panel.md)
       + [實驗面板](../analysis-workspace/c-panels/experimentation.md)
       + [自由面板](../analysis-workspace/c-panels/freeform-panel.md)
-      + [媒體平均每分鐘觀眾數面板](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [媒體平均分鐘觀眾數面板](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [快速深入分析面板](../analysis-workspace/c-panels/quickinsight.md)
       + [媒體同時檢閱者面板](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [「媒體播放時間」面板](../analysis-workspace/c-panels/media-playback-time-spent.md)
@@ -235,10 +237,10 @@ ht-degree: 100%
       + [檢視註解](../components/annotations/view-annotations.md)
       + [行動註解](../components/annotations/mobile-annotations.md)
    + [排程的專案](../components/scheduled-projects-manager.md)
-   + 對象 {#audiences}
-      + [對象概覽](../components/audiences/audiences-overview.md)
-      + [建立及發佈對象](../components/audiences/publish.md)
-      + [管理對象](../components/audiences/manage.md)
+   + 客群 {#audiences}
+      + [客群概觀](../components/audiences/audiences-overview.md)
+      + [建立及發佈客群](../components/audiences/publish.md)
+      + [管理客群](../components/audiences/manage.md)
    + 維度 {#dimensions}
       + [維度概觀](../components/dimensions/overview.md)
       + [預覽維度](../components/dimensions/view-dimensions.md)
@@ -346,11 +348,12 @@ ht-degree: 100%
       + [將串流的 Google Analytics 資料設定至 Platform](../use-cases/ga/streaming.md)
       + [在 Customer Journey Analytics 中報告 Google Analytics 資料](../use-cases/ga/report.md)
    + 資料擷取 {#data-ingestion}
-      + [將 Marketo Engage 資料提取到 Adobe Experience Platform 中，並在 Customer Journey Analytics 中報告](../use-cases/data-ingestion/marketo.md)
-      + [將 Adobe Experience Platform 對象擷取到 Customer Journey Analytics。](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [擷取和使用Marketo Engage資料](../use-cases/data-ingestion/marketo.md)
+      + [擷取和使用Experience Platform對象](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 資料檢視 {#data-views}
       + [資料檢視使用案例](../use-cases/data-views/data-views-usecases.md)
       + [使用繫結維度和量度](../use-cases/data-views/binding-dimensions-metrics.md)
+      + [使用摘要資料](../use-cases/data-views/summary-data.md)
    + 匯出資料 {#data-export}
       + [概觀](../use-cases/data-export/overview.md)
       + [BI 擴充功能](../use-cases/data-export/bi-extension.md)
@@ -376,7 +379,7 @@ ht-degree: 100%
 
 + 疑難排解 {#troubleshooting}
    + [比較 Adobe Analytics 資料與 Customer Journey Analytics 資料](../troubleshooting/compare.md)
-   + [Real-time CDP 與 Customer Journey Analytics 之間的量度一致性及對象會籍數](../troubleshooting/consistency-rcdp-cja.md)
+   + [Real-time CDP 與 Customer Journey Analytics 之間的量度及客群會籍數的一致性](../troubleshooting/consistency-rcdp-cja.md)
    + [缺乏權限](../troubleshooting/lack-of-permissions.md)
 
 + 技術說明 {#technotes}
