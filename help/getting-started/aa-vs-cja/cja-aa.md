@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 1abd23ded188697a910d4e6d04675f96f51e9b0e
-workflow-type: ht
-source-wordcount: '2273'
+source-git-commit: 835be84fd5f1398b88e265a21fe6f9665c758dce
+workflow-type: tm+mt
+source-wordcount: '2272'
 ht-degree: 100%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 100%
 | 報告 API 存取權 | 完整支援；可透過 [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/) 使用。 |
 | 排程報告/專案 | 完整支援 |
 | 區段 | 完整支援。現在稱為「篩選器」。請注意，傳統 Analysis Workspace 中任何現有的區段都不會移植至 Customer Journey Analytics。 |
+| 摘要層級資料來源 | 完整支援 |
 | 虛擬報告套裝 | 完整支援。現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | 虛擬報表套裝元件策劃 | 完整支援。現在是資料檢視的一部分。 |
 | 裝置、瀏覽器、推薦者、技術維度 | 支援 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)型資料集和 WebSDK 產生的資料集。請參閱[透過 ADC 支援 Analytics 變數的文件](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics.html)。如果您使用 Experience Platform Web SDK 資料收集，目前不支援根據裝置查詢的裝置和維度。已規劃於未來支援。若要將裝置和瀏覽器查詢新增至 Web SDK 資料流，請參閱[本文件](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
@@ -57,7 +58,7 @@ ht-degree: 100%
 | 功能 | 附註 |
 | --- | --- |
 | Analytics for Target (A4T) | [Adobe Customer Journey Analytics 與 Target 之間的整合](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja)，為您的最佳化程式提供強大的分析與省時的工具。 |
-| 對象發佈 | 如果具有 Adobe 的 Customer Data Platform 或 Journey Optimizer 產品授權則提供支援。[對象發佈](/help/components/audiences/audiences-overview.md)會將對象發佈到 Experience Platform 中的「即時客戶個人資料」。 |
+| 客群發佈 | 如果具有 Adobe 的 Customer Data Platform 或 Journey Optimizer 產品授權則提供支援。[客群發佈](/help/components/audiences/audiences-overview.md)會將客群發佈到 Experience Platform 中的「即時客戶輪廓」。 |
 | 分類 | 現在稱為「查閱資料集」。 Analytics 中使用的分類，可以使用 Analytics 分類來源連接器匯入至 Experience Platform 和 Customer Journey Analytics。查詢資料集也可以直接上傳到 Experience Platform，並在 Customer Journey Analytics 中使用。 |
 | 分類規則產生器 | 支援在 Customer Journey Analytics 中使用[子字串](/help/data-views/component-settings/substring.md)。在報告時間使用字串操控，而不是查詢資料集。 |
 | 自訂工作階段長度 | 工作階段長度可以透過資料檢視中的[「工作階段」設定](../../data-views/create-dataview.md#session-settings)進行設定。如需詳細資訊，請參閱[工作階段設定](../../data-views/session-settings.md)。<br/>使用 Adobe Experience Platform Mobile SDK 支援，處理行動背景事件。更多資訊，請參閱[邊緣網路的生命週期](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/)。 |
@@ -103,7 +104,6 @@ ht-degree: 100%
 | 即時報告 | 已規劃提供支援。 |
 | 區段 IQ | 已規劃提供支援。 |
 | 交易 ID 資料來源 | 已規劃提供支援。 |
-| 摘要層級資料來源 | 已規劃提供支援。 |
 
 {style="table-layout:auto"}
 
