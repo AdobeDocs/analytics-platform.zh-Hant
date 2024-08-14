@@ -4,7 +4,7 @@ description: 有關如何在資料檢視中使用和設定摘要資料的詳細�
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: cba5904191b0602557903b5b9f32a2b793c8207d
+source-git-commit: 9517d698acf41a25fa972ced32faa75de540a080
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 4%
@@ -13,6 +13,8 @@ ht-degree: 4%
 
 
 # 摘要資料
+
+{{release-limited-testing}}
 
 摘要資料是不繫結至個別人員ID的時間序列資料。 摘要資料代表不同彙總層級的彙總資料，例如促銷活動。 您可以在Customer Journey Analytics中使用此資料來支援各種使用案例。 例如，包含日期和單一量度值的資料，或包含多個維度和量度的資料。
 
