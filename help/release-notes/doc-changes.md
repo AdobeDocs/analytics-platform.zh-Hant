@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: cdab5d8b674527a1c3f950284daac65d0ab01900
+source-git-commit: 3568aad27001b322da77f5d1fb762db5ba6d433d
 workflow-type: tm+mt
-source-wordcount: '3940'
-ht-degree: 70%
+source-wordcount: '3990'
+ht-degree: 72%
 
 ---
 
@@ -19,8 +19,11 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| 2024 年 8 月 | |
+| 更新資料匯出使用案例 | 在[查詢服務(資料Distiller)和匯出資料集](/help/use-cases/data-export/queryservice-export-datasets.md)中新增了更詳細的查詢範例，以說明如何使用回顧期間跨工作階段正確套用歸因。 |
+| 摘要資料 | 已新增有關[摘要資料](/help/data-views/summary-data.md)、[摘要資料群組元件設定](/help/data-views/component-settings/summary-data-group.md)和[摘要資料使用案例](/help/use-cases/data-views/summary-data.md)的檔案。 |
 | **2024 年 7 月** | |
-| 新增快速計算量度的相關資訊 | 更新[量度](/help/components/apply-create-metrics.md)中的資訊，以釐清在計算量度產生器](/help/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)中建立的[計算量度與單一專案](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)中建立為快速計算量度的[計算量度之間的差異。 也新增了建立快速計算量度的相關詳細資訊。<p>在計算量度產生器中建立的計算量度可在元件清單中取得，並可套用至整個組織的專案，而建立為快速計算量度的計算量度只能在其建立所在的專案中使用。</p><p>也更新了[建置量度](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中的資訊，以進行類似的澄清。</p> |
+| 已新增快速計算量度的相關資訊。 | 已更新[量度](/help/components/apply-create-metrics.md)中的資訊，以釐清這兩者之間的差異：[在計算量度產生器中建立的計算量度](/help/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)，[在單一專案中作為快速計算量度建立的計算量度](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)。也新增更多有關如何建立快速計算量度的詳細資料。<p>在計算量度產生器中建立的計算量度可在元件清單中使用，並可套用到整個組織的專案，而作為快速計算量度建立的計算量度只能在建立它們的專案中使用。</p><p>也更新[建立量度](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中的資訊以做出類似的釐清。</p> |
 | 衍生欄位重複資料刪除函式 | 已新增有關衍生欄位[重複資料刪除](/help/data-views/derived-fields/derived-fields.md#deduplicate)函式的檔案。 |
 | 已更新常見錯誤訊息 | 對[常見錯誤訊息](/help/analysis-workspace/workspace-faq/error-messages.md)進行了小幅更新。 |
 | **2024 年 6 月** | |
@@ -132,7 +135,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2023 年 2 月** | |
 | 比較 Customer Journey Analytics 和 BI 解決方案 | Customer Journey Analytics 與典型 BI 解決方案[比較](../getting-started/cja-vs-bi.md)的新文件。 |
 | 更新至 Audiences 文件 | 有關[延遲的注意事項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)的新章節。 |
-| Audiences 文件的更新 | 建立對象之後，Adobe 會[為每個新的 Customer Journey Analytics 對象建立一個 Experience Platform 串流分段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#after-audience-created)。 |
+| Audiences 文件的更新 | 建立客群之後，Adobe 會[為每個新的 Customer Journey Analytics 客群建立一個 Experience Platform 串流細分群體](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#after-audience-created)。 |
 | Workspace 行事曆和日期範圍 | 更新內容以說明相對日期範圍、公式計算更新和行事曆 UI 變更。查看[關於相對面板日期範圍](/help/components/date-ranges/calendar.md#relative-panel-dates)。 |
 | Mobile 計分卡 | 新文件部分會說明如何顯示和隱藏比較日期範圍。請參閱 Customer Journey Analytics 中的「[顯示比較日期範圍](/help/mobile-app/create-scorecard.md#show-comparison-dates)」。 |
 | **2023 年 1 月** | |
@@ -143,7 +146,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 自動儲存工作區專案 | 已更新內容，在[儲存專案](/help/analysis-workspace/build-workspace-project/save-projects.md)中加入自動儲存功能。 |
 | 登陸頁面 | 新的登陸頁面更新[登陸頁面](/help/getting-started/landing.md)。 |
 | 排程活頁簿 | 說明如何在 Report Builder 中[排程活頁簿](/help/report-builder/schedule-reportbuilder.md)的專用頁面。 |
-| 針對設定檔及查閱資料集提供物件陣列支援 | 已更新[使用物件陣列](/help/use-cases/object-arrays.md)和[擷取 Adobe Experience Platform 對象](/help/use-cases/data-ingestion/ingest-aep-segments.md)，以反映針對設定檔及查閱資料集的物件陣列支援。 |
+| 針對設定檔及查閱資料集提供物件陣列支援 | 已更新[使用物件陣列](/help/use-cases/object-arrays.md)和[攝取 Adobe Experience Platform 客群](/help/use-cases/data-ingestion/ingest-aep-segments.md)，以反映針對輪廓及查閱資料集的物件陣列支援。 |
 
 {style="table-layout:auto"}
 
@@ -188,7 +191,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2022 年 5 月** | |
 | 2022 年 5 月 | 大幅更新有關在 Customer Journey Analytics 中[建立連線](/help/connections/create-connection.md)的文章。 |
 | 2022 年 5 月 | 新增有關如何[在 Customer Journey Analytics Report Builder 中管理資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=zh-Hant)的文章。 |
-| 2022 年 5 月 | 新增有關[將 Adobe Experience Platform 對象帶進 Customer Journey Analytics](/help/use-cases/data-ingestion/ingest-aep-segments.md) 的文章。 |
+| 2022 年 5 月 | 新增有關[將 Adobe Experience Platform 客群帶進 Customer Journey Analytics](/help/use-cases/data-ingestion/ingest-aep-segments.md) 的文章。 |
 | **2022 年 4 月** | |
 | 2022 年 4 月 | [維度子字串](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/substring.html?lang=zh-Hant)文件。 |
 | 2022 年 4 月 | 新增 [Adobe Analytics 使用者適用的 Customer Journey Analytics 使用指南](/help/getting-started/aa-to-cja-user.md)。 |
