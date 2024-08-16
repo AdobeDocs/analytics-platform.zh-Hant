@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 20756b289912dfcc4e0539db4d1ae36d1496a266
+source-git-commit: 3f83b4c141324a7b255ac5af039fa1d7607f3b15
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1223'
 ht-degree: 7%
 
 ---
@@ -58,16 +58,16 @@ B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關�
 
    | 資料集 | 人員 ID | 金鑰 | 比對索引鍵<br/> （在事件資料集中） |
    |---|---|---|---| 
-   | B2B活動資料集 | `personKey.sourceKey` | | |
-   | B2B個人資料集 | `b2b.personKey.sourceKey` | | |
-   | B2B帳戶資料集 | | `accountKey.sourceKey`❶<br/>Source金鑰 | `b2b.accountKey.sourceKey`❶<br/>（B2B人員資料集） |
-   | B2B機會資料集 | | `opportunityKey.sourceKey`❷<br/>Source金鑰 | `opportunityKey.sourceKey`❷<br/>（B2B機會關係資料集） |
-   | B2B促銷活動資料集 | | `campaignKey.sourceKey`❸<br/>Source金鑰 | `campaignKey.sourceKey`❸<br/>（B2B行銷活動成員資料集） |
-   | B2B行銷清單資料集 | | `marketingListKey.sourceKey`❹<br/>Source金鑰 | `marketingListKey.sourceKey`❹<br/>（B2B行銷清單成員資料集） |
-   | B2B帳戶個人關係資料集 | | `personKey.sourceKey`❺<br/>Source金鑰 | `personKey.sourceKey`❺<br/>Source金鑰（事件資料集） |
-   | B2B機會個人關係資料集 | | `personKey.sourceKey`❻<br/>Source金鑰 | `personKey.sourceKey`❻<br/>Source金鑰（事件資料集） |
-   | B2B促銷活動成員資料集 | | `personKey.sourceKey`❼<br/>Source金鑰 | `personKey.sourceKey`❼<br/>Source金鑰（事件資料集） |
-   | B2B行銷清單成員資料集 | | `personKey.sourceKey`❽<br/>Source金鑰 | `personKey.sourceKey`❽<br/>Source金鑰（事件資料集） |
+   | B2B活動資料集 | SourceKey <br/>**personKey.sourceKey** | | |
+   | B2B個人資料集 | SourceKey <br/>**b2b.personKey.sourceKey** | | |
+   | B2B帳戶資料集 | | SourceKey <br/>**accountKey.sourceKey**❶ | SourceKey<br>（B2B人員資料集）<br/>**b2b.accountKey.sourceKey**❶ |
+   | B2B機會資料集 | | Source Key <br/>**opportunityKey.sourceKey**❷ | SourceKey<br/>（B2B機會關係資料集）<br/>**opportunityKey.sourceKey**❷ |
+   | B2B促銷活動資料集 | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>（B2B促銷活動成員資料集）<br/>c **ampaignKey.sourceKey**❸<br/> |
+   | B2B行銷清單資料集 | | SourceKey <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>（B2B行銷清單成員資料集）<br/>**marketingListKey.sourceKey**❹ |
+   | B2B帳戶個人關係資料集 | | SourceKey <br/>**personKey.sourceKey**❺ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❺ |
+   | B2B機會個人關係資料集 | | SourceKey <br/>**personKey.sourceKe**❻y | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❻ |
+   | B2B促銷活動成員資料集 | | SourceKey <br/>**personKey.sourceKey**❼ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❼ |
+   | B2B行銷清單成員資料集 | | SourceKey <br/>**personKey.sourceKey**❽ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❽ |
 
 {style="table-layout:auto"}
 
