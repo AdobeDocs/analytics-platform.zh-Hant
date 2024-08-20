@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hide-from-toc: true
 role: Admin
-source-git-commit: 97fcb5f16962b85aa4f95bfbe2f16295d8bb3452
+source-git-commit: f17d2ebdf9a45ebb3a4e923a34c4b9b3d629f038
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '993'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 6%
 
 #### 上次驗證歸因
 
-上次驗證會將共用裝置中的所有未知活動，歸因於上次驗證的使用者。 上次驗證用於Audience Manager，且是即時客戶資料設定檔使用案例的偏好方法。 Experience PlatformIdentity服務會根據上次驗證歸因建立圖表，因此會用於圖表式拚接。
+上次驗證會將共用裝置中的所有未知活動，歸因於上次驗證的使用者。 上次驗證用於Audience Manager，且是即時客戶資料設定檔使用案例的偏好方法。 Experience PlatformIdentity服務會根據上次驗證歸因建立圖表，因此會用於圖表式拚接。 如需詳細資訊，請參閱[身分圖表連結規則總覽](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview)。
 
 在拼接中使用上次驗證歸因時，拼接ID會解析，如下表所示。
 
@@ -65,7 +65,7 @@ ht-degree: 6%
 
 #### 裝置分割
 
-裝置分割會將共用裝置的匿名活動歸因於最接近匿名活動的使用者。 裝置分割是分析使用案例的偏好方法，因為裝置分割會將未驗證和已驗證活動的評分給予最接近的已知人員。 裝置分割目前用於依欄位彙整。
+裝置分割會將共用裝置的匿名活動歸因於最接近匿名活動的使用者。 裝置分割目前用於依欄位彙整。 裝置分割是分析使用案例的偏好方法，因為裝置分割會將未驗證和已驗證活動的評分給予最接近的已知人員。 裝置分割目前用於依欄位彙整。
 
 在拼接中使用裝置分割歸因時，拼接ID會解析，如下表所示。
 
