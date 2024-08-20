@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: a0124ee6c4534cbaf607367ee3ae79f1cbfc239c
+source-git-commit: a80b20eb2e0395445e8f2e7fd0e76e2eef40522a
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1760'
 ht-degree: 7%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 7%
 {style="table-layout:auto"}
 -->
 
-## 對象
+## 客群
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
@@ -77,7 +77,7 @@ ht-degree: 7%
 | 對象重新整理頻率 | 4 | 系統強制的護欄 | 可以重新整理[對象](../components/audiences/audiences-overview.md)的頻率上限（小時）。 |
 | 對象重新整理回顧期間 | 90 | 系統強制的護欄 | 重新整理回顧期間的最大天數。 |
 | 重新整理對象到期日 | 13 | 系統強制的護欄 | 對象從建立日期起停止重新整理的最大月數。 客戶可再延長13個月。 |
-| 重新整理對象的數量 | 75， 150 | 系統強制的護欄 | 重新整理對象的最大數量，值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 重新整理對象的數量 | 75， 150 | 系統強制的護欄 | 重新整理對象的最大數量。 值會因Customer Journey Analytics封裝而異（請參閱產品說明）。 |
 
 {style="table-layout:auto"}
 
@@ -100,7 +100,7 @@ ht-degree: 7%
 |---|--:|---|---|
 | 專案 | 50,000 | 系統強制的護欄 | 組織的最大專案數量。 |
 | 資料檢視 | 2,000 | 系統強制的護欄 | 組織最多[個資料檢視](../data-views/data-views.md)個。 |
-| 資料檢視 | 50 | 系統強制的護欄 | 連線的最大資料檢視數量 |
+| 資料檢視 | 500-1000 | 系統強制的護欄 | 連線的最大資料檢視數量。 值會因Customer Journey Analytics封裝而異（請參閱產品說明）。 |
 | 資料集 | 100 | 系統強制的護欄 | 每個連線最多[個資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant)個。 |
 | 連線 | 1000 | 系統強制的護欄 | 組織的[連線](../connections/overview.md)數目上限。 |
 | 連線標題 | 500 | 系統強制的護欄 | 連線標題的最大字元數。 |
@@ -110,7 +110,7 @@ ht-degree: 7%
 | 附註說明 | 250 | 系統強制的護欄 | 附註說明的最大字元數。 |
 | 結構描述欄位 | 10 | 系統強制的護欄 | 定義[衍生欄位](../data-views/derived-fields/derived-fields.md)的規則時，結構描述欄位的最大數量（不包括標準欄位）。 |
 | 查詢/設定檔欄位 | 3 | 系統強制的護欄 | 為衍生欄位定義規則時，結構描述欄位（不包括標準欄位）數量上限內的查閱或設定檔結構描述欄位數量上限。 |
-| 衍生欄位 | 100 - 500 | 系統強制的護欄 | 每個連線的最大衍生欄位數；值視Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 衍生欄位 | 100 - 500 | 系統強制的護欄 | 每個連線的最大衍生欄位數。 值會因Customer Journey Analytics封裝而異（請參閱產品說明）。 |
 
 {style="table-layout:auto"}
 
@@ -155,9 +155,9 @@ ht-degree: 7%
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
-| 拼接資料集 | 5 - 50 | 系統強制的護欄 | 每位客戶的最大拼接資料集數量；值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
-| 回填長度 | 6 - 25 | 系統強制的護欄 | 回填資料的最大月數；值視Customer Journey Analytics套件而異（請參閱產品說明）。 |
-| 回顧期間/重播頻率 | 1/1 - 30/7 | 系統強制的護欄 | 最大回顧期間（天/重播頻率）；值因Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 拼接資料集 | 5 - 50 | 系統強制的護欄 | 每個客戶的最大拼接資料集數量。 值會因Customer Journey Analytics封裝而異（請參閱產品說明）。 |
+| 回填長度 | 6 - 25 | 系統強制的護欄 | 回填資料的最大月數。 值會因Customer Journey Analytics封裝而異（請參閱產品說明）。 |
+| 回顧期間/重播頻率 | 1/1 - 30/7 | 系統強制的護欄 | 最大回顧期間（以天為單位）/重播頻率。 值會因Customer Journey Analytics封裝而異（請參閱產品說明）。 |
 
 {style="table-layout:auto"}
 
@@ -166,9 +166,9 @@ ht-degree: 7%
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
-| 拼接資料集 | 10 - 50 | 系統強制的護欄 | 每位客戶的最大拼接資料集數量；值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
-| 回填長度 | 13 - 25 | 系統強制的護欄 | 回填資料的最大月數；值視Customer Journey Analytics套件而異（請參閱產品說明）。 |
-| 回顧期間/重播頻率 | 1/1 - 30/7 | 系統強制的護欄 | 最大回顧期間（天/重播頻率）；值因Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 拼接資料集 | 10 - 50 | 系統強制的護欄 | 每個客戶的最大拼接資料集數量。 值會因Customer Journey Analytics封裝而異（請參閱產品說明）。 |
+| 回填長度 | 13 - 25 | 系統強制的護欄 | 回填資料的最大月數。 值會因Customer Journey Analytics封裝而異（請參閱產品說明）。 |
+| 回顧期間/重播頻率 | 1/1 - 30/7 | 系統強制的護欄 | 最大回顧期間（以天為單位）/重播頻率。 值會因Customer Journey Analytics封裝而異（請參閱產品說明）。 |
 
 
 ## 篩選器和計算量度
@@ -215,7 +215,7 @@ ht-degree: 7%
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
-| 每份報告的列數 | 300萬 — 3億 | 系統強制的護欄 | 每個報表的最大報表列數；值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 每份報告的列數 | 300萬 — 3億 | 系統強制的護欄 | 每個報表的最大報表列數。 值會因Customer Journey Analytics封裝而異（請參閱產品說明）。 |
 | 每個表格的劃分 | 5 | 系統強制的護欄 | 每個表格的最大劃分數。 |
 | 每個表格的量度 | 5 | 系統強制的護欄 | 每個資料表的量度數上限。 |
 | 排程頻率 | 1 | 系統強制的護欄 | 匯出作業可以每天排程一次(1)，或以較長的排程進行（例如：每2天或每週排程一次）。 |
