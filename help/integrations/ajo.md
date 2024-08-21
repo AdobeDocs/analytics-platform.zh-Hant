@@ -4,9 +4,9 @@ description: 導入 Adobe Journey Optimizer 產生的資料，並使用 Customer
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: eda523204ec40a5660621cfd9e96ba77b61aa22c
+source-git-commit: 5434b8432608ba5ee49f7062070fa1624af1b46a
 workflow-type: tm+mt
-source-wordcount: '3036'
+source-wordcount: '3028'
 ht-degree: 71%
 
 ---
@@ -106,7 +106,7 @@ Journey Optimizer 支援使用 Customer Journey Analytics 作為報告引擎。�
 
 Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer 與 Customer Journey Analytics 之間的連結。請參閱 Journey Optimizer 使用手冊中的[開始使用資料集](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/data-management/datasets/get-started-datasets)，以取得如何將 Journey Optimizer 資料當作資料集傳送給 Experience Platform 的相關步驟。
 
-### 在 Customer Journey Analytics 中建立連線
+### 建立連線
 
 將 Journey Optimizer 資料導入 Adobe Experience Platform 後，您就可以根據 Journey Optimizer 資料集來[建立連線](/help/connections/create-connection.md)。您也可以將 Journey Optimizer 資料集新增到現有的連線中。
 
@@ -174,7 +174,7 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 
 {style="table-layout:auto"}
 
-#### 在資料視圖中設定量度
+#### 設定度量
 
 您可以在資料視圖中建立以下量度，以實現與 Journey Optimizer 中類似量度的近似同位。請參閱資料視圖管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關量度自訂選項的詳細資料。
 
