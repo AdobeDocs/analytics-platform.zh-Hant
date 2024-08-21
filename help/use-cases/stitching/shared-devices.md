@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: d94f6d6b592b2ddecfa0b1024b9ae045b3c3ce11
+source-git-commit: 63bdb36f7c33a129f294157a814f9fb15868006e
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 6%
+source-wordcount: '950'
+ht-degree: 7%
 
 ---
 
@@ -102,7 +102,9 @@ ht-degree: 6%
 
 若要瞭解共用裝置的曝光度，您可以考慮執行下列查詢。
 
-1. 瞭解共用的裝置數量。 您可以使用查詢來計算擁有兩個以上與裝置ID相關聯之人員ID的裝置ID。 範例查詢可能如下所示：
+1. **識別共用裝置**
+
+   若要瞭解共用的裝置數，請執行查詢，以計算與兩個或多個相關聯之人員ID的裝置ID。 這有助於識別多人使用的裝置。
 
    ```sql
    SELECT COUNT(*)
@@ -116,7 +118,9 @@ ht-degree: 6%
    ```
 
 
-2. 對於透過第一次查詢而得到的共用裝置，您需要瞭解可將總事件中的多少個事件歸因於這些共用裝置。 此歸因可讓您更清楚瞭解共用裝置對資料的影響，以及執行分析時的影響。 範例查詢可能如下所示：
+2. **事件歸因至共用裝置**
+
+   針對已識別的共用裝置，決定總計中有多少事件可歸因於這些裝置。 此功能可讓您深入瞭解共用裝置對您資料的影響，以及這項分析的影響。
 
    ```sql
    SELECT COUNT(*) AS total_events,
@@ -141,7 +145,9 @@ ht-degree: 6%
    ON events.persistent_id = shared_persistent_ids.persistent_id; 
    ```
 
-3. 對於歸因於共用裝置的事件（第二個查詢的結果），您需要瞭解其中有多少事件沒有人員ID。 若未指定，共用的裝置事件中有多少是匿名事件。 最後，您選取用來改善資料品質的演演算法（上次驗證、裝置分割、ECID重設）確實會影響這些匿名共用裝置事件。 範例查詢可能如下所示：
+3. **識別共用裝置上的匿名事件**
+
+   在歸因於共用裝置的事件中，找出多少沒有人員ID，以表示匿名事件。 您選擇用來增強資料品質的演演算法（例如last-auth、device-split或ECID-reset）將會影響這些匿名事件。
 
    ```sql
    SELECT COUNT(IF(shared_persistent_ids.persistent_id IS NOT NULL, 1, null)) shared_persistent_ids_events,
@@ -166,7 +172,9 @@ ht-degree: 6%
    ON events.persistent_id = shared_persistent_ids.persistent_id; 
    ```
 
-4. 最後，您想要瞭解每位客戶因事件錯誤分類而遇到的曝光度。 若要取得此曝光度，您必須針對每個共用裝置計算與事件總數相關的匿名事件百分比。 範例查詢可能如下所示：
+4. **根據事件錯誤分類計算曝光率**
+
+   最後，評估每位客戶因事件分類錯誤而可能面臨的曝光率。 計算每個共用裝置的匿名事件佔事件總數的百分比。 這有助於瞭解對客戶資料正確性的潛在影響。
 
    ```sql
    SELECT COUNT(*) AS total_events,
