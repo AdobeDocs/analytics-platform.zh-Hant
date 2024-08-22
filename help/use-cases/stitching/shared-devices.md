@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 hide: true
 hidefromtoc: true
 role: Admin
-source-git-commit: c1ed707f63db87566331783ea24f33cc69721af9
+source-git-commit: 1a5646700dba6362a35158890f2917fc472fbddd
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 5%
+source-wordcount: '977'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 ## 改善以人為中心的分析
 
-若要改善共用裝置以人為中心的分析，您有兩個選擇：您可以使用拼接，或實施ECID重設功能。 以下各節將更詳細地討論這兩種方法。
+範例資料混合了相同裝置的已驗證和未驗證活動。 難題是將人員指派給未驗證的流量，以便您執行以人員為中心的分析，並防止Customer Journey Analytics捨棄沒有人員ID值的活動。 若要解決此難題，您有兩個選擇：您可以使用拼接，或實施ECID重設功能。 以下各節將更詳細地討論這兩個選項。
 
 ### 拼接
 
