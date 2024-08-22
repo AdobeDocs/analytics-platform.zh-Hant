@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 20756b289912dfcc4e0539db4d1ae36d1496a266
+source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
 workflow-type: tm+mt
 source-wordcount: '4026'
 ht-degree: 71%
@@ -19,7 +19,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 | 功能 | 說明 |
 | --- | --- |
-| 2024 年 8 月 | |
+| **2024 年 8 月** | |
 | B2B 專案範例 | 新增[使用案例](/help/use-cases/b2b/example.md)，說明如何使用新的[轉換資料集進行B2B查詢](/help/connections/transform-datasets-b2b-lookups.md)功能，在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級的B2B資料。 |
 | 更新資料匯出使用案例 | 在[查詢服務(資料Distiller)和匯出資料集](/help/use-cases/data-export/queryservice-export-datasets.md)中新增了更詳細的查詢範例，以說明如何使用回顧期間跨工作階段正確套用歸因。 |
 | 摘要資料 | 已新增有關[摘要資料](/help/data-views/summary-data.md)、[摘要資料群組元件設定](/help/data-views/component-settings/summary-data-group.md)和[摘要資料使用案例](/help/use-cases/data-views/summary-data.md)的檔案。 |
