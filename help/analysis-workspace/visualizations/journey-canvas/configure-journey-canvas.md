@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: e06793a0ce73fa8d6aa9b798209bfc044e696931
+source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
 workflow-type: tm+mt
-source-wordcount: '4087'
+source-wordcount: '4138'
 ht-degree: 1%
 
 ---
@@ -220,6 +220,12 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 ### 連線節點
 
 您可以連線畫布上已存在的節點，也可以在將節點新增至畫布時連線節點。
+
+#### 連線節點時的邏輯
+
+當您連線Journey Canvas中的節點時，會使用THEN運運算元將它們連線。 這也稱為[循序篩選](/help/components/filters/seg-sequential-build.md)。
+
+您可以用滑鼠右鍵按一下節點，然後選取&#x200B;[!UICONTROL **從節點**]&#x200B;建立篩選器，以檢視連線節點的邏輯。 此邏輯會顯示在&#x200B;[!UICONTROL **定義**]&#x200B;區段中。
 
 #### 連線現有節點
 
