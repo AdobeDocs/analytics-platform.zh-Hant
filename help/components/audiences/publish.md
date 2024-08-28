@@ -4,10 +4,10 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: c384c4cdd1a63fd26e6eff0ff3394a089105275c
+source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 53%
+source-wordcount: '1696'
+ht-degree: 52%
 
 ---
 
@@ -24,10 +24,12 @@ ht-degree: 53%
    | 建立方法 | 詳細資料 |
    | --- | --- |
    | 從主要&#x200B;**[!UICONTROL 「元件] > [!UICONTROL 客群」]**&#x200B;選單 | 系統會開啟 Audience Manager 頁面。按一下「**[!UICONTROL 建立客群]**」，[!UICONTROL 客群產生器]隨即開啟。 |
-   | 從自由格式表格 | 右鍵按一下自由格式表格中的項目，然後選擇「**[!UICONTROL 從選取項目建立客群]**」。此方法會使用您在表格中選擇的維度或維度項目預先填入篩選器。 |
+   | 從自由格式表格 | 以滑鼠右鍵按一下自由格式表格中的專案，然後選取&#x200B;**[!UICONTROL 從選取專案建立對象]**。 此方法會使用您在表格中選擇的維度或維度項目預先填入篩選器。 |
    | 從篩選器建立/編輯 UI | 勾選顯示「**[!UICONTROL 通過此篩選建立客群]**」的方塊。使用此方法預先填入篩選器。 |
 
    {style="table-layout:auto"}
+
+   <!-- add beneath the Freeform table row above: | From within a Journey canvas visualization | Right-click a node in a Journey canvas visualization and select **[!UICONTROL Create audience]**. Using this method pre-populates the filter with the dimension or dimension item you selected in the table. | -->
 
 1. 建置客群。
 

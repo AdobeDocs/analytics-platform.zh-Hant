@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2f7e11106334560d3c4b54e6c5eaf84d5e1d4fb6
+source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 64%
+source-wordcount: '1253'
+ht-degree: 60%
 
 ---
 # 程式碼片段
@@ -68,6 +68,7 @@ ht-degree: 64%
 | [!UICONTROL **說明**] | 描述元件的預定功能。(此資訊由 Analytics 管理員新增，如[新增元件說明](/help/components/add-component-descriptions.md)中所述。) |
 | [!UICONTROL **經常與下列項目搭配使用**] | <p>顯示您正在查看的元件最常與哪些元件一起使用。</p><p>在這5種主要元件型別中最多可顯示5種元件：量度、計算量度、Dimension、篩選和日期範圍。</p><p>此清單顯示過去 90 天的資料。只會顯示您有權檢視的元件。</p><p>管理員可以在「[!UICONTROL **永遠包含**]」和「[!UICONTROL **永遠排除**]」下拉式欄位中選取所需的元件，來管理使用者在此區段中看到的元件。在您組織使用者看到的元件之前，請先套用&#x200B;**全部顯示**&#x200B;篩選器，以確保您看到任何未與您共用的元件，這些元件可能已由其他管理員新增。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
 | [!UICONTROL **類似於**] | <p>顯示與您正在查看的元件具有相似名稱的元件。</p><p>在這5種主要元件型別中最多可顯示5種元件：量度、計算量度、Dimension、篩選和日期範圍。</p><p>只會顯示您有權檢視的元件。</p><p>資料檢視中的任何重複元件都會顯示在這裡。 Analytics 管理員應識別並移除所有重複的元件，如[監視資料字典健康情況](/help/components/data-dictionary/monitor-data-dictionary-health.md)中所述。</p><p>管理員可以在「[!UICONTROL **永遠包含**]」和「[!UICONTROL **永遠排除**]」下拉式欄位中選取所需的元件，來管理使用者在此區段中看到的元件。在您組織使用者看到的元件之前，請先套用&#x200B;**全部顯示**&#x200B;篩選器，以確保您看到任何未與您共用的元件，這些元件可能已由其他管理員新增。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**注意：**&#x200B;目前，「**類似於**」區段僅包括您建立的元件，不包括 Adobe 提供的元件。Adobe 提供的元件會在未來版本中新增。</p> |
+| [!UICONTROL **產品相容性**] | 指出此計算量度可在Customer Journey Analytics中使用的位置。 <p>可能的值包括：</p><ul><li>[!UICONTROL **Customer Journey Analytics中的所有位置**]：計算量度可用於所有Customer Journey Analytics，包括Analysis Workspace、Report Builder等。</li><li>[!UICONTROL **Customer Journey Analytics中的所有位置（實驗除外）**]：計算度量可用於所有Customer Journey Analytics，實驗面板除外。</li> <p>如需判斷計算量度是否可用於實驗之條件的詳細資訊，請參閱[實驗面板](/help/analysis-workspace/c-panels/experimentation.md)中的[在Experimentation面板](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel)中使用計算量度。</p></ul> |
 | [!UICONTROL **標記**] | 顯示套用於元件的所有標記。具有管理員存取權限的使用者可以在編輯元件時新增標記。 |
 | [!UICONTROL **元件類型**] | 列出其元件型別，不論是Dimension、量度、篩選器或日期範圍。 |
 | [!UICONTROL **建立者**] | 顯示建立元件的使用者名稱。 |

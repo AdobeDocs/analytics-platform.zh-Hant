@@ -5,10 +5,10 @@ title: 視覺效果概觀
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: c22f2d81eddbf9ee2fb3600fd5b727fb838de740
+source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 80%
+source-wordcount: '1344'
+ht-degree: 78%
 
 ---
 
@@ -27,7 +27,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | [項目圖表](/help/analysis-workspace/visualizations/bullet-graph.md) <p>![專案符號圖示](assets/Smock_GraphBullet_18_N.svg)</p> | 顯示您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。 |
 | [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![同類群組表格圖示](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`*&#x200B;是指一段指定時間內，共享相同特徵的一組人。Cohort Analysis (同類群組分析) 對保留、攪動或延遲分析很有用處。 |
 | [環形圖](/help/analysis-workspace/visualizations/donut.md) <p>![環形圖示](assets/Smock_GraphDonut_18_N.svg)</p> | 此視覺效果類似圓形圖，以整體的部分或篩選器顯示資料。 |
-| [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![流失圖示](assets/Smock_ConversionFunnel_18_N.svg)</p> | 流失報表可顯示在一系列預先定義的連續頁面中，人員從何處離開（流失）或繼續通過（流過）。 可以設定為最終或精確的序列 |
+| [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![流失圖示](assets/Smock_ConversionFunnel_18_N.svg)</p> | <!-- Similar to Journey canvas, -->「流失」視覺效果可顯示在一系列預先定義的連續頁面中，人員從何處離開（流失）或繼續通過（流過）。 流失視覺效果可設為最終或確切的序列。 <p><!-- Unlike Journey canvas, -->「流失」視覺效果僅提供具有單一已知開始和結束線性歷程的分析。</p> |
 | [流量](/help/analysis-workspace/visualizations/c-flow/flow.md)<p>![流量圖示](assets/flow-icon.png)</p> | 顯示使用您網站和應用程式的正確客戶路徑。 |
 | [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![自由表格圖示](assets/Smock_ViewTable_18_N.svg)</p> | 自由表格不僅是資料表格，也是互動式視覺效果。這是 Workspace 的資料分析基礎。 |
 | [長條圖](/help/analysis-workspace/visualizations/histogram.md)<p>![長條圖圖示](assets/Smock_GraphHistogram_18_N.svg)</p> | 長條圖會根據量度數量，將人員、造訪或事件放入值區中。 |
@@ -39,6 +39,8 @@ Analysis Workspace 中有以下視覺效果類型：
 | [Text](/help/analysis-workspace/visualizations/text.md)<p>![散佈圖示](assets/Smock_Text_18_N.svg)</p> | 可讓您將使用者定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
 | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md)<p>![樹狀圖圖示](assets/Smock_GraphTree_18_N.svg)</p> | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
 | [Venn](/help/analysis-workspace/visualizations/venn.md)<p>![文氏圖示](assets/venn-icon.png)</p> | 使用圓圈描繪最多 3 個篩選器的量度重疊。 |
+
+<!-- Add beneath Horizontal bar in the table above: | [Journey canvas](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Similar to Fallout, Journey canvas shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. <p>Unlike Fallout, Journey canvas supports not only linear journeys, but any number of entry points and paths. Furthermore, journeys can be created in Adobe Journey Optimizer and then analyzed in Journey canvas.</p> | -->
 
 ## 將視覺效果新增至面板
 
