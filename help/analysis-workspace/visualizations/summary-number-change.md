@@ -4,7 +4,7 @@ title: 摘要數字和摘要變更
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 3a63c22c080b0d4d4848d707c6219902de687abd
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 97%
@@ -35,7 +35,7 @@ ht-degree: 97%
 
 ## 摘要變更視覺效果 {#summary-change}
 
-使用「摘要變更」視覺效果以顯示兩個數字間的差異 (變更)。可透過[自訂事件極性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=zh-Hant)，或計算量度的[「顯示上升趨勢的方式」](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)選項，控制「摘要變更」的綠色和紅色。
+使用「摘要變更」視覺效果以顯示兩個數字間的差異 (變更)。可透過[自訂事件極性](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)，或計算量度的[「顯示上升趨勢的方式」](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)選項，控制「摘要變更」的綠色和紅色。
 
 此視覺效果的運作方式如下：
 
