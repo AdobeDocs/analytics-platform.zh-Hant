@@ -5,14 +5,17 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 777c37dbd8bc678021ced5f1697058dc7812f5a8
+exl-id: 53984934-6fba-4f15-aeeb-d91039260553
+source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4276'
 ht-degree: 1%
 
 ---
 
 # 設定歷程畫布視覺效果
+
+{{release-limited-testing}}
 
 Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和客戶的歷程。
 
@@ -78,9 +81,9 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
    | 設定 | 函數 |
    |---------|----------|
    | [!UICONTROL **節點型別**] | 可讓您設定哪些節點型別會顯示在視覺效果中。 若要隱藏視覺效果中的節點型別，請選取節點型別旁的(x)，或從下拉式選單中取消選取。 若要顯示隱藏的節點型別，請從下拉式選單中選取它。 <p>根據視覺效果的內容，可能的節點型別包括：</p><ul><li>[!UICONTROL **讀取區段**]</li><li>[!UICONTROL **結束**]</li><li>[!UICONTROL **維度**]</li><li>[!UICONTROL **量度**]</li></ul><p>**注意**：使用此欄位時，請考慮下列事項：</p><ul><li>只有在您新增視覺效果的Analysis Workspace面板中選取的資料檢視中偵測到Journey Optimizer資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</li><li>在歷程畫布中修改Journey Optimizer歷程後，此選項將不再可用。 如需詳細資訊，請參閱[在歷程畫布中修改歷程後的視覺差異](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
-   | [!UICONTROL **百分比值**] | 從下列選項中選擇： <ul><li>總數的&#x200B;[!UICONTROL **百分比**]：面板日期範圍內包含在資料檢視中的所有人員的百分比。</li><li>[!UICONTROL **開始節點的百分比**]：開始節點中包含之所有人員的百分比。<p>此選項僅在您有單一起始節點時可用。 如果您有多個開始節點，則會隱藏節點。</p></li></ul> |
+   | [!UICONTROL **百分比值**] | 從下列選項中選擇： <ul><li>總數的&#x200B;[!UICONTROL **百分比**]：面板日期範圍內包含在資料檢視中的所有人員的百分比。</li><li>[!UICONTROL **開始節點的百分比**]：在面板的日期範圍內，包含在資料檢視中，同時也符合歷程開始節點條件的所有人員的百分比。 (此選項僅適用於具有單一開始節點的歷程；此選項在具有多個開始節點的歷程中停用。 起始節點定義為沒有任何連線的節點。)</li></ul> |
    | [!UICONTROL **箭頭設定**] | 從下列選項中選擇：<ul><li>[!UICONTROL **無**]： </li><li>[!UICONTROL **條件**]： </li><li>[!UICONTROL **所有標籤**]： </li></ul><p>**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的資料檢視中偵測到Analysis Workspace資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p> |
-   | [!UICONTROL **顯示流失**] | 顯示每個節點的流失資料，顯示在指定節點離開歷程的人數及百分比。 |
+   | [!UICONTROL **顯示流失**] | 顯示每個節點的流失資料。 這會顯示在指定節點離開歷程的人數與百分比。 <p>離開歷程的人可能已在該網站上執行其他動作，但他們從未符合歷程中下一個節點所定義的條件。</p> |
 
 1. 繼續[新增節點](#add-a-node)。
 
@@ -92,7 +95,7 @@ Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。
 
 1. 在Analysis Workspace中，開啟現有的Journey Canvas視覺效果，或[開始建立新的視覺效果](#begin-building-a-journey-canvas-visualization)。
 
-1. 從左側邊欄將量度、維度、維度專案、篩選器或日期範圍拖曳至畫布上。 不支援計算量度。 此外，不支援任何以[摘要資料集](/help/data-views/summary-data.md)為基礎的量度或維度。
+1. 從左側邊欄將量度、維度、維度專案、篩選器或日期範圍拖曳至畫布上。 支援以[衍生欄位](/help/data-views/derived-fields/derived-fields.md)為基礎的量度。 但是，不支援計算量度，以及任何以[摘要資料集](/help/data-views/summary-data.md)為基礎的量度或維度。
 
    您可以按住Shift鍵或按住Command鍵(在Mac上)或Ctrl鍵（在Windows上），在左側邊欄中選取多個元件。
 
@@ -221,15 +224,25 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 您可以連線畫布上已存在的節點，也可以在將節點新增至畫布時連線節點。
 
+#### 節點之間的箭頭
+
+節點會以箭頭連線。 箭頭方向和寬度都有意義：
+
+* **方向**：表示歷程的事件順序
+
+* **寬度**：表示從一個節點到另一個節點的磁碟區百分比
+
 #### 連線節點時的邏輯
 
 當您連線Journey Canvas中的節點時，會使用THEN運運算元將它們連線。 這也稱為[循序篩選](/help/components/filters/seg-sequential-build.md)。
+
+節點會連線為「最終路徑」，這表示只要訪客最終從某個節點移至另一個節點，就會計算訪客，無論這2個節點之間發生任何事件。
 
 您可以用滑鼠右鍵按一下節點，然後選取&#x200B;[!UICONTROL **從節點**]&#x200B;建立篩選器，以檢視連線節點的邏輯。 此邏輯會顯示在&#x200B;[!UICONTROL **定義**]&#x200B;區段中。
 
 #### 連線現有節點
 
-Journey Canvas中節點之間的箭頭會決定歷程中的事件順序。
+歷程不能是循環的，會循環回到先前連線的節點。
 
 若要連線Journey Canvas中的節點：
 
@@ -239,7 +252,7 @@ Journey Canvas中節點之間的箭頭會決定歷程中的事件順序。
 
 1. 將4個藍點中的任何一個拖曳至您要連線之節點的4個側邊中的任何一個。
 
-   會出現一個箭頭，連線這2個節點。 箭頭會指出使用者在歷程中移動的方向。
+   會出現一個箭頭，連線這2個節點。 如需詳細資訊，請參閱節點](#arrows-between-nodes)之間的[箭頭。
 
 #### 新增節點時連線節點
 
@@ -249,7 +262,7 @@ Journey Canvas中節點之間的箭頭會決定歷程中的事件順序。
 
 ### 變更節點或箭頭的顏色
 
-您可以變更畫布上節點或箭頭的顏色。
+您可以透過變更畫布上任何節點或箭頭的顏色，以視覺化方式自訂歷程。 例如，您可以調整顏色來指示所要或不想要的事件。
 
 變更顏色的選項適用於畫布上的下列物件：
 
@@ -339,7 +352,7 @@ Journey Canvas中節點之間的箭頭會決定歷程中的事件順序。
 
 ### 檢視趨勢資料
 
-您可以在Journey Canvas中的線圖檢視物件的趨勢資料。 &lt;！—，其中包含一些預先建立的異常偵測資料（這是「流失」中的定義）>
+您可以在Journey Canvas中的線圖檢視物件的趨勢資料。<!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
 趨勢選項可用於畫布上的下列物件：
 
@@ -474,4 +487,3 @@ from Travis: You can set time to be within X amount of time or after X amount of
 在Journey Optimizer中，開啟您要在Journey Canvas中分析的歷程。
 
 1. 選取&#x200B;[!UICONTROL **在CJA**]&#x200B;中分析。<!-- ?? -->
-
