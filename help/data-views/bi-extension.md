@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 79efab0baf9c44603a7aad7383f42a9d9c0b63cb
+source-git-commit: 81bde9f61f208fd01b3ba1c3df57609104109800
 workflow-type: tm+mt
-source-wordcount: '2931'
+source-wordcount: '2928'
 ht-degree: 82%
 
 ---
@@ -197,7 +197,7 @@ Customer Journey Analytics 中的任何資料控管相關設定，都是繼承�
 基於資料控管的原因，下列其他預設值和限制適用。
 
 * BI擴充功能需要查詢結果的列數限制。 預設值為50，但您可以使用`LIMIT n`在SQL中覆寫此值，其中`n`為1 - 50000。
-* BI擴充功能需要日期範圍，以限制用於計算的列。 預設為過去30天，但您可以使用特殊的[`timestamp`](#timestamp)或[`daterange`](#date-range)資料行覆寫SQL `WHERE`子句中的預設值（請參閱其他檔案）。
+* BI擴充功能需要日期範圍，以限制用於計算的列。 預設為過去30天，但您可以使用特殊的[`timestamp`](#timestamp)或[`daterange`](#date-range)資料行覆寫SQL `WHERE`子句中的預設值。
 * BI擴充功能需要彙總查詢。 您不能使用`SELECT * FROM ...`之類的SQL來取得原始的基礎資料列。 整體而言，您的彙總查詢應使用：
    * 使用`SUM`和/或`COUNT`選取總計。<br/>例如，`SELECT SUM(metric1), COUNT(*) FROM ...`
    * 選取依維度劃分的量度。 <br/>例如，`SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
