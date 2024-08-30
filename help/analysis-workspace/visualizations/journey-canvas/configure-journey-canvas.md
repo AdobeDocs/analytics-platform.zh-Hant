@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
+source-git-commit: bd50c5bdcce0617da78eed918338e44474419e31
 workflow-type: tm+mt
-source-wordcount: '4276'
+source-wordcount: '4359'
 ht-degree: 1%
 
 ---
@@ -65,16 +65,20 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
    <!-- add screen shot -->
 
-1. 無論您是從空白畫布建立新的分析，還是要分析Journey Optimizer歷程，都可以依照[設定歷程畫布視覺效果](#begin-building-a-journey-canvas-visualization)中所述來設定歷程。
+1. 無論您是從空白畫布建立新的分析，還是要分析Journey Optimizer歷程，都可以依照[設定視覺效果設定](#configure-visualization-settings)中所述來設定歷程。
 
 
-## 設定歷程畫布視覺效果
+## 設定視覺效果設定
 
-您必須[開始建立Journey Canvas視覺效果](#begin-building-a-journey-canvas-visualization)，才能依照下列章節所述進行設定。
+歷程畫布標題中有各種設定選項。
 
-### 設定設定
+若要設定Journey Canvas視覺效果的設定：
 
 1. 在Analysis Workspace中，開啟現有的Journey Canvas視覺效果，或[開始建立新的視覺效果](#begin-building-a-journey-canvas-visualization)。
+
+   可讓您設定Journey Canvas視覺效果的選項可在標題中使用：
+
+   ![歷程畫布標題選項](assets/journey-canvas-header.png)
 
 1. 設定下列任一項在視覺效果上方顯示的設定：
 
@@ -83,15 +87,17 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
    | [!UICONTROL **節點型別**] | 可讓您設定哪些節點型別會顯示在視覺效果中。 若要隱藏視覺效果中的節點型別，請選取節點型別旁的(x)，或從下拉式選單中取消選取。 若要顯示隱藏的節點型別，請從下拉式選單中選取它。 <p>根據視覺效果的內容，可能的節點型別包括：</p><ul><li>[!UICONTROL **讀取區段**]</li><li>[!UICONTROL **結束**]</li><li>[!UICONTROL **維度**]</li><li>[!UICONTROL **量度**]</li></ul><p>**注意**：使用此欄位時，請考慮下列事項：</p><ul><li>只有在您新增視覺效果的Analysis Workspace面板中選取的資料檢視中偵測到Journey Optimizer資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</li><li>在歷程畫布中修改Journey Optimizer歷程後，此選項將不再可用。 如需詳細資訊，請參閱[在歷程畫布中修改歷程後的視覺差異](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
    | [!UICONTROL **百分比值**] | 從下列選項中選擇： <ul><li>總數的&#x200B;[!UICONTROL **百分比**]：面板日期範圍內包含在資料檢視中的所有人員的百分比。</li><li>[!UICONTROL **開始節點的百分比**]：在面板的日期範圍內，包含在資料檢視中，同時也符合歷程開始節點條件的所有人員的百分比。 (此選項僅適用於具有單一開始節點的歷程；此選項在具有多個開始節點的歷程中停用。 起始節點定義為沒有任何連線的節點。)</li></ul> |
    | [!UICONTROL **箭頭設定**] | 從下列選項中選擇：<ul><li>[!UICONTROL **無**]： </li><li>[!UICONTROL **條件**]： </li><li>[!UICONTROL **所有標籤**]： </li></ul><p>**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的資料檢視中偵測到Analysis Workspace資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p> |
-   | [!UICONTROL **顯示流失**] | 顯示每個節點的流失資料。 這會顯示在指定節點離開歷程的人數與百分比。 <p>離開歷程的人可能已在該網站上執行其他動作，但他們從未符合歷程中下一個節點所定義的條件。</p> |
+   | [!UICONTROL **顯示流失**] | 顯示每個節點的流失資料。 這顯示在指定節點後離開歷程的人數與百分比。 <p>離開歷程的人可能已在該網站上執行其他動作，但他們從未符合歷程中下一個節點所定義的條件。</p> |
 
-1. 繼續[新增節點](#add-a-node)。
+1. 繼續[新增節點](#add-nodes)。
 
-### 新增節點
+## 新增節點
 
-Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。 您可以將Workspace元件從左側邊欄拖曳至畫布，藉此建立節點。
+Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。
 
-若要將節點新增至Journey Canvas視覺效果：
+您可以透過將Workspace元件從左側邊欄拖曳至畫布、允許Journey畫布根據現有節點選擇下一個或上一個頂端節點，或複製現有節點來建立節點。
+
+### 從左側邊欄拖曳元件
 
 1. 在Analysis Workspace中，開啟現有的Journey Canvas視覺效果，或[開始建立新的視覺效果](#begin-building-a-journey-canvas-visualization)。
 
@@ -180,6 +186,24 @@ Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。
 
    前3個節點會新增至2個現有節點之間，每個節點都會以個別分支的方式連線。
 
+### 複製節點
+
+複製選項適用於畫布上的下列物件：
+
+* 多個節點
+
+若要複製節點：
+
+1. 選取多個要複製的節點。
+
+1. 以滑鼠右鍵按一下其中一個選取的節點，然後選取&#x200B;[!UICONTROL **複製**]。
+
+## 設計歷程
+
+節點順序及其間的連線會影響Journey Canvas資料。 歷程應該視覺化且準確地反映您要報告的事件順序。
+
+將節點新增至畫布後，您可以重新排列節點、組合節點、連線節點，以及在節點之間新增時間限制。
+
 ### 重新排列節點
 
 Journey Canvas中的歷程由彈性的節點和箭頭圖表組成，代表事件、維度專案和篩選器的任何組合。
@@ -260,9 +284,30 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 如需詳細資訊，請參閱[新增節點](#add-a-node)。
 
+### 在節點之間新增時間限制
+
+您可以在節點之間設定時間限制。 當時間限制已設定時，如果人員依照定義的歷程移動，但花在節點之間分配的時間較長，則被視為已離開歷程。
+
+新增時間限制的選項適用於畫布上的下列物件：
+
+* 節點之間的箭頭
+
+若要新增時間限制：
+
+1. 以滑鼠右鍵按兩節點之間的箭頭，然後選取&#x200B;[!UICONTROL **新增時間限制**]。
+
+<!-- 
+
+from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
+1. Choose from the following options: 
+
+-->
+
+## 管理節點或箭頭
+
 ### 變更節點或箭頭的顏色
 
-您可以透過變更畫布上任何節點或箭頭的顏色，以視覺化方式自訂歷程。 例如，您可以調整顏色來指示所要或不想要的事件。
+您可以透過變更畫布上任何節點或箭頭的顏色，以視覺化方式自訂歷程。 例如，您可以調整顏色，以指出想要或不想要的事件。
 
 變更顏色的選項適用於畫布上的下列物件：
 
@@ -310,7 +355,7 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 * 節點之間的多個箭頭
 
-### 將劃分套用至一或多個節點或箭頭
+#### 將劃分套用至一或多個節點或箭頭
 
 1. 選取一或多個要套用劃分的節點，然後以滑鼠右鍵按一下其中一個選取的節點。
 
@@ -320,7 +365,7 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 1. 選取&#x200B;[!UICONTROL **劃分**]。
 
-### 將劃分套用至個別節點
+#### 將劃分套用至個別節點
 
 您可以從左側邊欄將維度拖曳至畫布上您要套用劃分的節點。
 
@@ -374,37 +419,6 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 1. 選取&#x200B;[!UICONTROL **趨勢**]。
 
-### 複製節點
-
-複製選項適用於畫布上的下列物件：
-
-* 多個節點
-
-若要複製節點：
-
-1. 選取多個要複製的節點。
-
-1. 以滑鼠右鍵按一下其中一個選取的節點，然後選取&#x200B;[!UICONTROL **複製**]。
-
-
-### 在節點之間新增時間限制
-
-您可以在節點之間設定時間限制。 當時間限制已設定時，如果人員依照定義的歷程移動，但花在節點之間分配的時間較長，則被視為已離開歷程。
-
-新增時間限制的選項適用於畫布上的下列物件：
-
-* 節點之間的箭頭
-
-若要新增時間限制：
-
-1. 以滑鼠右鍵按兩節點之間的箭頭，然後選取&#x200B;[!UICONTROL **新增時間限制**]。
-
-<!-- 
-
-from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
-1. Choose from the following options: 
-
--->
 
 ### 根據節點或箭頭建立篩選器
 
