@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: bd50c5bdcce0617da78eed918338e44474419e31
+source-git-commit: 6fc4645bba82e0f844dbf98df9f1cc7f05455bef
 workflow-type: tm+mt
-source-wordcount: '4359'
+source-wordcount: '4484'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和客戶的歷程。
 
-## 歷程畫布概述
+## 歷程畫布概觀
 
 檢視[歷程畫布總覽](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)以進一步瞭解歷程畫布，包括：
 
@@ -47,7 +47,7 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
    |---------|----------|
    | [!UICONTROL **主要量度**] | 主要量度會影響Journey Canvas視覺效果的下列方面：  <ul><li>定義人們如何移動歷程。</li><li>每個節點上顯示的總數。<p>例如，如果人員是主要量度，則每個節點會顯示到達歷程中該節點的人員數量。</p></li><li>每個節點上顯示的百分比。 （建立視覺效果後，您可以選擇顯示總數百分比或起始節點）。</li><p>例如，如果人員是主要量度，則每個節點會顯示到達歷程中該節點的使用者百分比（總數的百分比或起始節點的百分比）。</p></li><li>將維度新增至視覺效果時，會根據主要量度新增視覺效果的前3個節點。</li></ul> |
    | [!UICONTROL **次要量度**] | 次要量度為選用。 選取其中一個時，主要量度下方的每個節點會顯示下列資訊： <ul><li>總數<p>例如，如果階段作業是次要量度，則每個節點會顯示到達歷程中該節點的工作階段數量。</p></li><li>百分比（建立視覺效果後，您可以選擇顯示總數百分比或起始節點百分比）。</li><p>例如，如果階段作業是次要量度，則每個節點會顯示到達歷程中該節點的工作階段百分比（總數的百分比或起始節點的百分比）。</p></li></ul> |
-   | [!UICONTROL **Journey Optimizer歷程**]<!-- name? --> | 選取您要用作Journey Canvas中分析基礎的Journey Optimizer歷程。 (或者，如果您想要在Analysis Workspace中建立分析的空白畫布，可將此選項保留空白。)</p> <p>當您在Journey Canvas中分析Journey Optimizer歷程時，該歷程的顯示順序、順序和結構與Journey Optimizer中相同。 如需詳細資訊，請參閱[歷程畫布總覽](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)中的[分析Journey Optimizer歷程](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys)。</p><p>**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的資料檢視中偵測到Analysis Workspace資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p> |
+   | [!UICONTROL **Journey Optimizer歷程**]<!-- name? --> | 選取您要用作Journey Canvas中分析基礎的Journey Optimizer歷程。 (或者，如果您想要在Analysis Workspace中建立分析的空白畫布，可將此選項保留空白。)</p> <p>當您在Journey Canvas中分析Journey Optimizer歷程時，該歷程的顯示順序、順序和結構與Journey Optimizer中相同。 如需詳細資訊，請參閱[歷程畫布總覽](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)中的[分析Journey Optimizer歷程](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys)。</p><p>**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的相同資料檢視中偵測到Analysis Workspace資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p> |
 
 1. （選擇性）選取「[!UICONTROL **顯示進階設定**]」，然後指定下列資訊：
 
@@ -84,10 +84,11 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
    | 設定 | 函數 |
    |---------|----------|
-   | [!UICONTROL **節點型別**] | 可讓您設定哪些節點型別會顯示在視覺效果中。 若要隱藏視覺效果中的節點型別，請選取節點型別旁的(x)，或從下拉式選單中取消選取。 若要顯示隱藏的節點型別，請從下拉式選單中選取它。 <p>根據視覺效果的內容，可能的節點型別包括：</p><ul><li>[!UICONTROL **讀取區段**]</li><li>[!UICONTROL **結束**]</li><li>[!UICONTROL **維度**]</li><li>[!UICONTROL **量度**]</li></ul><p>**注意**：使用此欄位時，請考慮下列事項：</p><ul><li>只有在您新增視覺效果的Analysis Workspace面板中選取的資料檢視中偵測到Journey Optimizer資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</li><li>在歷程畫布中修改Journey Optimizer歷程後，此選項將不再可用。 如需詳細資訊，請參閱[在歷程畫布中修改歷程後的視覺差異](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
+   | [!UICONTROL **節點型別**] | 可讓您設定哪些節點型別會顯示在視覺效果中。 若要隱藏視覺效果中的節點型別，請選取節點型別旁的(x)，或從下拉式選單中取消選取。 若要顯示隱藏的節點型別，請從下拉式選單中選取它。 <p>根據視覺效果的內容，可能的節點型別包括：</p><ul><li>[!UICONTROL **讀取區段**]</li><li>[!UICONTROL **結束**]</li><li>[!UICONTROL **維度**]</li><li>[!UICONTROL **量度**]</li></ul><p>**注意**：使用此欄位時，請考慮下列事項：</p><ul><li>只有在您新增視覺效果的Analysis Workspace面板中選取的相同資料檢視中偵測到Journey Optimizer資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</li><li>在歷程畫布中修改Journey Optimizer歷程後，此選項將不再可用。 如需詳細資訊，請參閱[在歷程畫布中修改歷程後的視覺差異](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li></ul></p> |
    | [!UICONTROL **百分比值**] | 從下列選項中選擇： <ul><li>總數的&#x200B;[!UICONTROL **百分比**]：面板日期範圍內包含在資料檢視中的所有人員的百分比。</li><li>[!UICONTROL **開始節點的百分比**]：在面板的日期範圍內，包含在資料檢視中，同時也符合歷程開始節點條件的所有人員的百分比。 (此選項僅適用於具有單一開始節點的歷程；此選項在具有多個開始節點的歷程中停用。 起始節點定義為沒有任何連線的節點。)</li></ul> |
-   | [!UICONTROL **箭頭設定**] | 從下列選項中選擇：<ul><li>[!UICONTROL **無**]： </li><li>[!UICONTROL **條件**]： </li><li>[!UICONTROL **所有標籤**]： </li></ul><p>**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的資料檢視中偵測到Analysis Workspace資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p> |
+   | [!UICONTROL **箭頭設定**] | 從下列選項中選擇：<ul><li>[!UICONTROL **無**]： </li><li>[!UICONTROL **條件**]： </li><li>[!UICONTROL **所有標籤**]： </li></ul><p>**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的相同資料檢視中偵測到Analysis Workspace資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p> |
    | [!UICONTROL **顯示流失**] | 顯示每個節點的流失資料。 這顯示在指定節點後離開歷程的人數與百分比。 <p>離開歷程的人可能已在該網站上執行其他動作，但他們從未符合歷程中下一個節點所定義的條件。</p> |
+   | **縮放控制項** | 下列縮放控制項位於畫布的右上角：<ul><li>**放大** ![放大圖示](assets/zoom-in-icon.png)：放大視覺效果的特定區域。<p>您也可以使用滑鼠控制項，例如在觸控板上捏合。</p></li><li>**縮小** ![縮小圖示](assets/zoom-out-icon.png)：縮小視覺效果，讓畫布有更多空間。<p>您也可以使用滑鼠控制項，例如在觸控板上捏合。</p></li><li>**符合熒幕** ![符合熒幕圖示](assets/fill-screen-icon.png)：調整目前的縮放和平移設定，以完整視覺效果填滿熒幕。</li></ul><p>若要在放大或縮小後橫跨畫布進行平移，請按一下滑鼠並拖曳至所需的位置。</p> |
 
 1. 繼續[新增節點](#add-nodes)。
 
@@ -208,7 +209,9 @@ Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。
 
 Journey Canvas中的歷程由彈性的節點和箭頭圖表組成，代表事件、維度專案和篩選器的任何組合。
 
-您可以在畫布上拖曳節點，以重新排列歷程的事件和條件。 如同您所做的，資料會據此更新。
+您可以在畫布上拖曳節點，以重新排列歷程的事件和條件。 按住Command鍵(在Mac上)或Ctrl鍵（在Windows上）可選取多個節點。
+
+當您重新安排歷程中節點的順序時，資料會據此更新。
 
 ### 合併節點
 
@@ -282,7 +285,7 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 將節點新增至畫布時，您可以將其置於兩個連線的節點之間。 節點會新增至2個現有節點之間的歷程流量中。
 
-如需詳細資訊，請參閱[新增節點](#add-a-node)。
+如需詳細資訊，請參閱[新增節點](#add-nodes)。
 
 ### 在節點之間新增時間限制
 
@@ -369,7 +372,7 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 您可以從左側邊欄將維度拖曳至畫布上您要套用劃分的節點。
 
-如需詳細資訊，請參閱[新增節點](#add-a-node)。
+如需詳細資訊，請參閱[新增節點](#add-nodes)。
 
 ### 建立客群
 
