@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 81bde9f61f208fd01b3ba1c3df57609104109800
+source-git-commit: 27749382a311330e6ece76c663f4c610ef20d8c1
 workflow-type: tm+mt
 source-wordcount: '2928'
 ht-degree: 82%
@@ -192,19 +192,6 @@ Customer Journey Analytics 中的任何資料控管相關設定，都是繼承�
 
 在 Experience Platform 使用的資料集上所建立的隱私權標籤和原則，可以出現在 Customer Journey Analytics 資料檢視工作流程中。因此，使用 [!DNL Customer Journey Analytics BI extension] 查詢的資料，若發生不符合所定義的隱私權標籤和原則的情況，便會顯示適當的警告或錯誤。
 
-#### 預設值和限制
-
-基於資料控管的原因，下列其他預設值和限制適用。
-
-* BI擴充功能需要查詢結果的列數限制。 預設值為50，但您可以使用`LIMIT n`在SQL中覆寫此值，其中`n`為1 - 50000。
-* BI擴充功能需要日期範圍，以限制用於計算的列。 預設為過去30天，但您可以使用特殊的[`timestamp`](#timestamp)或[`daterange`](#date-range)資料行覆寫SQL `WHERE`子句中的預設值。
-* BI擴充功能需要彙總查詢。 您不能使用`SELECT * FROM ...`之類的SQL來取得原始的基礎資料列。 整體而言，您的彙總查詢應使用：
-   * 使用`SUM`和/或`COUNT`選取總計。<br/>例如，`SELECT SUM(metric1), COUNT(*) FROM ...`
-   * 選取依維度劃分的量度。 <br/>例如，`SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
-   * 選取不同的量度值。<br/>例如，`SELECT DISTINCT dimension1 FROM ...`
-
-     檢視更多詳細資料[支援的SQL](#supported-sql)。
-
 ### 清單資料檢視
 
 在標準 PostgreSQL CLI 中，可以使用 `\dv` 列出您的檢視
@@ -221,6 +208,21 @@ prod:all=> \dv
 ### 巢狀與展平
 
 依預設，資料檢視的綱要使用巢狀結構，就像原始的 XDM 綱要一樣。該整合也支援 `FLATTEN` 選項。您可以使用此選項強制展平資料檢視 (以及工作階段中的任何其他表格) 的綱要。展平能讓不支援結構化綱要的 BI 工具變得更容易使用。請參閱「[在 Query Service 中使用巢狀資料結構](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)」以了解更多資訊。
+
+
+### 預設值和限制
+
+使用BI擴充功能時，適用下列其他預設值和限制：
+
+* BI擴充功能需要查詢結果的列數限制。 預設值為50，但您可以使用`LIMIT n`在SQL中覆寫此值，其中`n`為1 - 50000。
+* BI擴充功能需要日期範圍，以限制用於計算的列。 預設為過去30天，但您可以使用特殊的[`timestamp`](#timestamp)或[`daterange`](#date-range)資料行覆寫SQL `WHERE`子句中的預設值。
+* BI擴充功能需要彙總查詢。 您不能使用`SELECT * FROM ...`之類的SQL來取得原始的基礎資料列。 整體而言，您的彙總查詢應使用：
+   * 使用`SUM`和/或`COUNT`選取總計。<br/>例如，`SELECT SUM(metric1), COUNT(*) FROM ...`
+   * 選取依維度劃分的量度。 <br/>例如，`SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
+   * 選取不同的量度值。<br/>例如，`SELECT DISTINCT dimension1 FROM ...`
+
+     檢視更多詳細資料[支援的SQL](#supported-sql)。
+
 
 ### 支援 SQL
 
