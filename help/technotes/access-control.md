@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 30133a5d825c3623a5f46a972e787cf60626edf3
+source-git-commit: c6800f1fa36298f3d2aa53c36c78398d9d3fd670
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 14%
@@ -92,7 +92,7 @@ ht-degree: 14%
       * 存取相關資料檢視的許可權。 在[使用者層級存取](#user-level-access)中檢視[!UICONTROL 資料檢視]。
       * 存取Customer Journey AnalyticsBI擴充功能的許可權。 在[使用者層級存取](#user-level-access)中檢視[!UICONTROL 資料檢視工具]。
 
-## 產品設定檔管理員角色
+### 產品設定檔管理員角色
 
 產品設定檔是一組權限。產品管理員可建立產品設定檔，並可指派產品設定檔管理員來管理一或多個產品設定檔。 然後，產品設定檔管理員可以：
 
@@ -100,7 +100,7 @@ ht-degree: 14%
 
 * 在Customer Journey Analytics中，編輯屬於已指派產品設定檔一部分的資料檢視。 產品設定檔管理員無法建立新的資料檢視。
 
-## 使用者層級存取權
+### 使用者層級存取權
 
 下表概述您可以為相關使用者設定的不同Customer Journey Analytics功能的主要存取許可權。 您可以透過產品設定檔管理不同的使用者存取層級。 產品設定檔結合了大量許可權，您可以將其指派給個別使用者或使用者群組。
 
