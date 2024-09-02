@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: fb106077949cc5a1a2fbaf7702bd0c872152499f
+source-git-commit: 30133a5d825c3623a5f46a972e787cf60626edf3
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1463'
 ht-degree: 14%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 14%
 
 | 類別 | 權限 | 說明 |
 | --- | --- | ---|
-| [!UICONTROL 資料檢視] | *資料檢視的名稱* | 如果您將&#x200B;**[!UICONTROL 自動包含]**&#x200B;切換為&#x200B;**[!UICONTROL 開啟]**，則屬於此產品設定檔的使用者可以查看所有現有和新建立的資料檢視。如果此項設定為&#x200B;**[!UICONTROL 關閉]**，您可以選擇使用者有權存取的特定資料檢視。 |
+| [!UICONTROL 資料檢視] | *資料檢視名稱* | 如果您將&#x200B;**[!UICONTROL 自動包含]**&#x200B;切換為&#x200B;**[!UICONTROL 開啟]**，則屬於此產品設定檔的使用者可以查看所有現有和新建立的資料檢視。如果此項設定為&#x200B;**[!UICONTROL 關閉]**，您可以選擇使用者有權存取的特定資料檢視。 |
 | [!UICONTROL 報告工具] | [!UICONTROL Analysis Workspace 存取] | 允許使用者存取[Analysis Workspace](/help/analysis-workspace/home.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 引導式分析存取] | 讓使用者存取[引導式分析](/help/guided-analysis/overview.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 建立計算量度] | 讓使用者建立[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 使用者只能標籤、共用、刪除、重新命名、核准、取消核准其建立的計算量度或與其共用的計算量度。 |
