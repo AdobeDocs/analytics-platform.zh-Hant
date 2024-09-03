@@ -4,7 +4,7 @@ title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 36718581c9a070bb5f5547f18be643ca91838bae
+source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 29%
@@ -148,6 +148,6 @@ Customer Journey Analytics中的Experimentation面板可讓您依人員的狀態
 
 與Experimentation面板不相容的計算量度在建立計算量度時，[!UICONTROL **產品相容性**]&#x200B;欄位中的Customer Journey Analytics（不包括實驗）**]的值為[!UICONTROL ** Everywhere in experimentation。 如需建立計算量度的相關資訊，請參閱[建立量度](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)。
 
-## 在Experimentation面板中使用衍生度量
+## 在Experimentation面板中使用計算量度
 
-請參閱這篇部落格，瞭解在Experimentation面板](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119)中使用衍生量度[的相關資訊。
+請參閱這篇部落格，瞭解在Experimentation面板](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119)中使用計算量度的[相關資訊。
