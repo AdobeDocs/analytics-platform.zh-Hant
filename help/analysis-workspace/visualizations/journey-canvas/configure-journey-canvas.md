@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 6fc4645bba82e0f844dbf98df9f1cc7f05455bef
+source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
 workflow-type: tm+mt
-source-wordcount: '4484'
+source-wordcount: '4526'
 ht-degree: 1%
 
 ---
@@ -145,6 +145,10 @@ Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。
 
 ### 根據現有節點新增排名最前的節點
 
+>[!AVAILABILITY]
+>
+>此功能尚無法使用。
+
 您可以根據畫布上已存在的節點，自動新增排名最前的節點。
 
 此選項適用於畫布上的下列物件：
@@ -188,6 +192,10 @@ Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。
    前3個節點會新增至2個現有節點之間，每個節點都會以個別分支的方式連線。
 
 ### 複製節點
+
+>[!AVAILABILITY]
+>
+>此功能尚無法使用。
 
 複製選項適用於畫布上的下列物件：
 
@@ -289,6 +297,10 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 ### 在節點之間新增時間限制
 
+>[!AVAILABILITY]
+>
+>此功能尚無法使用。
+
 您可以在節點之間設定時間限制。 當時間限制已設定時，如果人員依照定義的歷程移動，但花在節點之間分配的時間較長，則被視為已離開歷程。
 
 新增時間限制的選項適用於畫布上的下列物件：
@@ -310,6 +322,10 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ### 變更節點或箭頭的顏色
 
+>[!AVAILABILITY]
+>
+>此功能尚無法使用。
+
 您可以透過變更畫布上任何節點或箭頭的顏色，以視覺化方式自訂歷程。 例如，您可以調整顏色，以指出想要或不想要的事件。
 
 變更顏色的選項適用於畫布上的下列物件：
@@ -329,6 +345,10 @@ from Travis: You can set time to be within X amount of time or after X amount of
    下列色彩可供使用： <!--look into this interaction and color list-->
 
 ### 重新命名節點或箭頭
+
+>[!AVAILABILITY]
+>
+>此功能尚無法使用。
 
 將元件拖曳至「歷程」畫布視覺效果時，會建立與元件名稱同名的節點。 您可以重新命名節點，以更符合節點代表的歷程步驟。
 
@@ -359,6 +379,10 @@ from Travis: You can set time to be within X amount of time or after X amount of
 * 節點之間的多個箭頭
 
 #### 將劃分套用至一或多個節點或箭頭
+
+>[!AVAILABILITY]
+>
+>此功能尚無法使用。
 
 1. 選取一或多個要套用劃分的節點，然後以滑鼠右鍵按一下其中一個選取的節點。
 
@@ -400,6 +424,10 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ### 檢視趨勢資料
 
+>[!AVAILABILITY]
+>
+>此功能尚無法使用。
+
 您可以在Journey Canvas中的線圖檢視物件的趨勢資料。<!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
 趨勢選項可用於畫布上的下列物件：
@@ -421,7 +449,6 @@ from Travis: You can set time to be within X amount of time or after X amount of
    在2個您要檢視趨勢資料的節點之間選取一或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
 
 1. 選取&#x200B;[!UICONTROL **趨勢**]。
-
 
 ### 根據節點或箭頭建立篩選器
 

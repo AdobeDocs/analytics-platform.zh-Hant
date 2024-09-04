@@ -1,19 +1,19 @@
 ---
-description: 歷程畫布概述
+description: 歷程畫布概觀
 title: 歷程畫布
 feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 707bfbf6d34d999bc1b275b24cd6a78b8ef65e74
+source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# 歷程畫布概述
+# 歷程畫布概觀
 
 {{release-limited-testing}}
 
@@ -147,7 +147,7 @@ Journey Canvas提供在Journey Optimizer中無法提供的深入徹底分析。
 
 對Journey Optimizer中的歷程所做的變更，只有在歷程在Journey Canvas中保持未修改狀態時，才會同步至Journey Canvas。
 
-在歷程畫布中修改Journey Optimizer歷程後，您在Journey Optimizer中對歷程所做的任何變更都不會反映在歷程畫布中。 若要檢視反映在歷程畫布中的變更，您可以在Journey畫布中刪除並重新建立歷程[](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+在歷程畫布中修改Journey Optimizer歷程後，您對Journey Optimizer中的歷程所做的任何變更都不會反映在歷程畫布中。 若要檢視反映在歷程畫布中的變更，您可以在Journey畫布中刪除並重新建立歷程[](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
 
 ### Journey Optimizer和Customer Journey Analytics之間的術語差異
 
