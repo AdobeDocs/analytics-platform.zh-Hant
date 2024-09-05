@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 835be84fd5f1398b88e265a21fe6f9665c758dce
-workflow-type: ht
-source-wordcount: '2272'
-ht-degree: 100%
+source-git-commit: 75edfb09e3d2d4673d4c7f86b53eb5a620e77cbc
+workflow-type: tm+mt
+source-wordcount: '2260'
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,6 @@ ht-degree: 100%
 | --- | --- |
 | 警報 | 已規劃提供支援。 |
 | 貢獻分析 | 已規劃提供支援。 |
-| 使用裝置圖表進行 ID 拼接 | 已規劃提供支援。 |
 | 專案範本 | 已規劃提供支援。 |
 | 即時報告 | 已規劃提供支援。 |
 | 區段 IQ | 已規劃提供支援。 |
@@ -139,8 +138,8 @@ ht-degree: 100%
 | 報告時間轉換 | Customer Journey Analytics 中的[資料檢視](/help/data-views/data-views.md)可讓您進一步詮釋來自連線的資料。您可以變更或移除資料而無需變更實施、使用子字串操作維度、從任何值建立量度，或是篩選子事件。以上所有轉換的進行都是非破壞性。Adobe Analytics 透過虛擬報表套裝和自訂工作階段長度提供有限的功能。 |
 | BI 擴充功能 | [BI 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)可讓您將 CJA 直接連接到熱門的 BI 視覺效果工具，例如 PowerBI 或 Tableau。透過使用此擴充功能，您可以讓 BI 報表與您在 Analysis Workspace 和其他 CJA 報表介面中看到的內容精確相符。這是更輕鬆為 CJA 取得 BI 報告的方法，無需從原始資料重新建立報告/指標。 |
 | SQL 存取 | 使用 Data Distiller 選項，Customer Journey Analytics 可以移除 Adobe 後端處理中收集資料的限制。您可以使用 SQL 修改資料、建立適合您業務的值和資料集，並繼續探索。Analytics 不支援對其資料進行任何類型的 SQL 存取。 |
-| 拼接 | [身分拼接](/help/stitching/overview.md) (或簡稱拼接) 是強大的功能，可提高事件資料集的適用性，以進行跨管道分析。跨管道分析是 Customer Journey Analytics 可處理的一個主要使用案例，可讓您根據共同識別碼 (人員 ID) 順暢地組合來自不同管道的多個資料集並執行報告。 |
-| 無限制的客戶維度和量度 | Customer Journey Analytics 的維度無限制；值可以是數值、文字、物件、清單或混合所有前項。維度可能是嵌套式或階層式。 <p>相對的，Adobe Analytics 最多支援 75 個 props 和 250 個 eVar。</p> |
+| 拼接 | [彙整](/help/stitching/overview.md)是一項強大的功能，可提升事件資料集進行跨管道分析的適用性。 跨管道分析是 Customer Journey Analytics 可處理的一個主要使用案例，可讓您根據共同識別碼 (人員 ID) 順暢地組合來自不同管道的多個資料集並執行報告。 |
+| 無限制的客戶維度和量度 | Customer Journey Analytics 的維度無限制；值可以是數值、文字、物件、清單或混合所有前項。維度可以是嵌套式或階層式。<br/>相較之下，Adobe Analytics最多可支援75個Prop和250個eVar。 |
 | 唯一值無數量限制 | Customer Journey Analytics 支援可在單一維度中報告的無限制唯一值或維度項目。<p>[維度的基數限制](/help/components/dimensions/high-cardinality.md)不存在，允許出現任何唯一值並進行計數。</p><p>這種方法消除了大規模 Adobe Analytics 實施中可能存在的報告和分析限制，從而導致[!UICONTROL 低流量]標籤。</p><p>在 Customer Journey Analytics，可以看到[!UICONTROL 超出不重複值]標籤，但這種情況發生的頻率要低得多，可以對資料套用篩選器或分段來緩解。</p> |
 
 {style="table-layout:auto"}
