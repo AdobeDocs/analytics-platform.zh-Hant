@@ -1,19 +1,19 @@
 ---
-title: 計算量度總覽
+title: 計算量度概觀
 description: 了解衍生自報告執行時間的篩選量度。
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
 source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # 計算量度概觀
 
-計算量度和進階計算量度是自訂量度，您可以從現有量度建立。 我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。 無論您是行銷人員、產品經理或分析人員，不需變更實作就能詢問資料相關問題。
+計算與進階計算量度為您可從現有量度建立的自訂量度。我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。 無論您是行銷人員、產品經理或分析人員，不需變更實作就能詢問資料相關問題。
 
 您可以
 
