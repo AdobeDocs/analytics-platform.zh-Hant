@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 91e28c2919ab5ace21ae9407ca758288370c7eca
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: f25c6e2bb7a9644a7356b3a1fc42a3b383d6f5e6
+workflow-type: tm+mt
+source-wordcount: '1128'
+ht-degree: 99%
 
 ---
 
@@ -190,6 +190,12 @@ ht-degree: 100%
       + [預測概觀](../analysis-workspace/c-forecast/forecasting.md)
       + [在 Analysis Workspace 中檢視預測](../analysis-workspace/c-forecast/view-forecasts.md)
       + [預測服務中使用的統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md)
+   + 智慧型警報 {#alerts}
+      + [智慧型警報總覽](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
+      + [Customer Journey Analytics差異](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [建立警報](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md)
+      + [管理警報](/help/analysis-workspace/c-intelligent-alerts/alert-manager.md)
+      + [使用案例](/help/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [使用者偏好設定](../analysis-workspace/user-preferences.md)
    + 工作區常見問題 {#workspace-faq}
       + [常見問題](../analysis-workspace/workspace-faq/faq.md)
