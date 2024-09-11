@@ -3,9 +3,9 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b74b2dce2f392fe45ba03b213a3a10af877ea0a5
+source-git-commit: 7b368f81c4036a3992fdfc34b983f344a61dc2fb
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 40%
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **在計算量度管理員和篩選器管理員的「用於」欄中的其他資訊** | 計算量度管理員和篩選器管理員中的「使用位置」欄包含下列新報表區域：<ul><li>**Report Builder**：顯示Report Builder中使用的計算量度或篩選器數目。</li><li>**臨時元件**：顯示專案中使用的臨時計算量度或臨時篩選數目。 這些臨時計算量度和篩選器（又稱為「快速計算量度」和「快速篩選器」）只能用於建立它們的專案中，因此會與「用於」欄中的「專案」報告區域分開報告。</li></ul>如需詳細資訊，請參閱[計算量度管理員](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager)和[篩選器管理員](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/manage-filters)。 |  | 2024年9月11日 |
-| **智慧型警報** | Customer Journey Analytics 中的智慧型警報，讓您在資料發生異常事件時能立即收到通知。<p>您可以根據異常臨界值、變化百分比或特定資料點設定警報觸發。警報具有整合異常偵測的精細控制，在您最需要時觸發。</p><p>在 Customer Journey Analytics 中使用智慧型警報的流程，與在 Adobe Analytics 中使用智慧型警報幾乎相同。一個主要差異是 Customer Journey Analytics 未提供每小時警報。此差異是因為可擷取的各種事件資料的資料擷取作業僅會在延遲後完成，延遲時間通常比資料事件時間晚3至9小時。 [了解更多](/help/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |  | 2024年9月中旬 |
+| **智慧型警報** | Customer Journey Analytics 中的智慧型警報，讓您在資料發生異常事件時能立即收到通知。<p>您可以根據異常臨界值、變化百分比或特定資料點設定警報觸發。警報具有整合異常偵測的精細控制，在您最需要時觸發。</p><p>在 Customer Journey Analytics 中使用智慧型警報的流程，與在 Adobe Analytics 中使用智慧型警報幾乎相同。一個主要差異是 Customer Journey Analytics 未提供每小時警報。此差異是因為可擷取的各種事件資料的資料擷取作業僅會在延遲後完成，延遲時間通常比資料事件時間晚3至9小時。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/c-intelligent-alerts/intellligent-alerts) |  | 2024年9月中旬 |
 | **更新Adobe Analytics來源聯結器** | 資料集活動頁面不會顯示批次相關資訊，因為Analytics Source Connector完全由Adobe管理。 您可以檢視所擷取記錄周圍的量度，以監控資料流程。 如需詳細資訊，請參閱[建立Analytics資料的來源連線](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)指南。 |  | 現已提供 |
 | **使用情況分析** | 瞭解您的組織如何使用Customer Journey Analytics。 啟用此功能會在Adobe Experience Platform中建立資料集，當貴組織中的任何人使用Analysis Workspace時便會收集資料。 系統也會自動建立連線和資料檢視，讓您存取熱門專案型別、最活躍的使用者及專案中最常用的元件等維度。 (文件連結待補充) |  | 2024 年 9 月 18 日 |
 | **引導式分析：內嵌於Workspace** | 在Analysis Workspace中將多個引導式分析結合為單一檢視。 (文件連結待補充) | 2024年9月22日 | 2024年10月2日 |
