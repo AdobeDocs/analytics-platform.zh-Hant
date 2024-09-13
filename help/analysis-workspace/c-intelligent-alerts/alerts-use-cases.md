@@ -3,7 +3,7 @@ description: 智慧型警報的使用案例。
 title: 智慧型警報 - 使用案例
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 2dbd2dd614decb6b72c667297bba24f949197aa9
+source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 55%
@@ -11,8 +11,6 @@ ht-degree: 55%
 ---
 
 # 智慧型警報 - 使用案例
-
-{{release-limited-testing}}
 
 您可以依照[建立警報](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md)中的說明建立智慧型警報。
 

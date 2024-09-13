@@ -3,7 +3,7 @@ description: 新的智慧型警報系統可提供更細微的警報控制能力�
 title: 智慧型警報概述
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 74ad39f6ccc6436f7c8540b7d8b69b20b93d2b5c
+source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 56%
@@ -11,8 +11,6 @@ ht-degree: 56%
 ---
 
 # 智慧型警報概述
-
-{{release-limited-testing}}
 
 Customer Journey Analytics中的智慧型警報（或只是「警報」）可讓您在資料中發生異常事件時收到通知。
 

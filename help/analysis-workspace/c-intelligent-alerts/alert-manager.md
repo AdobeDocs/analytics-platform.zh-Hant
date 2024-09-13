@@ -3,7 +3,7 @@ description: 建立、編輯或刪除警報。
 title: 警報管理器(Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 2dbd2dd614decb6b72c667297bba24f949197aa9
+source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 7%
@@ -11,8 +11,6 @@ ht-degree: 7%
 ---
 
 # 管理警報
-
-{{release-limited-testing}}
 
 您可以在「警報管理員」中管理現有警報。 您可以對警示執行各種管理工作，例如標籤、重新命名、刪除等等。
 
