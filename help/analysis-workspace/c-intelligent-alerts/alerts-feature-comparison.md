@@ -3,9 +3,9 @@ description: 瞭解智慧型警報與Adobe Analytics的Customer Journey Analytic
 title: 智慧型警報功能比較Customer Journey Analytics與Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
+source-git-commit: d6f800a6e3e79556026291387e984a35949b3c46
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 您可以將9小時的預設延遲調整為0到24小時之間的任何時間。 但是，將延遲減少到9小時以下可能表示您報告的是不完整的資料，這會導致不準確的警報資訊。
 
-如需有關如何調整延遲的詳細資訊，以及調整延遲時應考慮的因素，請參閱<!--add link -->。
+如需有關如何調整延遲的詳細資訊，以及調整延遲時應考慮的因素，請參閱[建立警示](/help/analysis-workspace/c-intelligent-alerts/alert-builder.md)。
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
