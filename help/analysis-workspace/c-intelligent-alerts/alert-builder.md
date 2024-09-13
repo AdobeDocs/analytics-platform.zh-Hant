@@ -3,10 +3,10 @@ description: 當專案元件達到特定臨界值時，收到警報。
 title: 建立警報(Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
+source-git-commit: 8f866d47ef0caccb91bd0e9cb9043bb1e16e0d89
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 22%
+source-wordcount: '1001'
+ht-degree: 21%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->智慧型警報僅供 Adobe Analytics Prime 與 Adobe Analytics Ultimate 的客戶使用。
+>智慧型警報可供所有客戶使用。 不過，若要在智慧型警報中使用異常偵測，您必須有Customer Journey AnalyticsSelect、Prime或Ultimate。
 
 Customer Journey Analytics中的智慧型警報（或只是「警報」）可讓您在資料中發生異常事件時立即收到通知。
 

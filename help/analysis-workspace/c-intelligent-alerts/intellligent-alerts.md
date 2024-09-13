@@ -3,14 +3,18 @@ description: 新的智慧型警報系統可提供更細微的警報控制能力�
 title: 智慧型警報概述
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1613b3fc7e9cce1fb74b86bb7435612b2d469eb1
+source-git-commit: 17a7e794533c1536e362ca1fd11f45b053954c0a
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 56%
+source-wordcount: '356'
+ht-degree: 52%
 
 ---
 
 # 智慧型警報概述
+
+>[!NOTE]
+>
+>智慧型警報可供所有客戶使用。 不過，若要在智慧型警報中使用異常偵測，您必須有Customer Journey AnalyticsSelect、Prime或Ultimate。
 
 Customer Journey Analytics中的智慧型警報（或只是「警報」）可讓您在資料中發生異常事件時收到通知。
 
