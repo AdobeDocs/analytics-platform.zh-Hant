@@ -5,7 +5,7 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 33602a2c82d14463ebe4317704dbfa47b7b8ae35
+source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
 workflow-type: tm+mt
 source-wordcount: '2321'
 ht-degree: 85%
@@ -78,7 +78,7 @@ ht-degree: 85%
 
 | 功能 | 附註 |
 | --- | --- |
-| **警報** | 在Customer Journey Analytics](/help/analysis-workspace/c-intelligent-alerts/alerts-feature-comparison.md)中使用智慧型警報的[程式，與Adobe Analytics中使用智慧型警報的程式幾乎相同。 <p>但由於Customer Journey Analytics中資料收集的時間，無法使用每小時警報。 在Customer Journey Analytics中，可設定每日、每週或每月警報。</p> |
+| **警報** | 在Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)中使用智慧型警報的[程式，與Adobe Analytics中使用智慧型警報的程式幾乎相同。 <p>但由於Customer Journey Analytics中資料收集的時間，無法使用每小時警報。 在Customer Journey Analytics中，可設定每日、每週或每月警報。</p> |
 | **目標分析(A4T)** | [Adobe Customer Journey Analytics 與 Target 之間的整合](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja)，為您的最佳化程式提供強大的分析與省時的工具。 |
 | **對象發佈** | 如果具有 Adobe 的 Customer Data Platform 或 Journey Optimizer 產品授權則提供支援。[客群發佈](/help/components/audiences/audiences-overview.md)會將客群發佈到 Experience Platform 中的「即時客戶輪廓」。 |
 | **分類** | 現在稱為「查閱資料集」。 Analytics 中使用的分類，可以使用 Analytics 分類來源連接器匯入至 Experience Platform 和 Customer Journey Analytics。查詢資料集也可以直接上傳到 Experience Platform，並在 Customer Journey Analytics 中使用。 |
