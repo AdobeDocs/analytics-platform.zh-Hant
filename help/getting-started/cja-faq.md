@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 252ddfd3a321d94d14fbe2593b942ac36bf932a5
-workflow-type: ht
-source-wordcount: '2547'
-ht-degree: 100%
+source-git-commit: 64a05e72f512bc68cfd324ab20810ade8c0c5f66
+workflow-type: tm+mt
+source-wordcount: '2566'
+ht-degree: 98%
 
 ---
 
@@ -136,7 +136,7 @@ Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.c
 
 Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
-<ul><li>任何時間戳記不到 24 小時的事件資料都會串流進入。</li><li>任何時間戳記超過 24 小時的事件資料 (即使與較新的資料屬於同一批次) 都視為回填，並以較低的優先順序擷取。</li></ul>
+<ul><li>「當天」的事件資料會以即時資料的形式串流傳入。 事件時間早於前一天11:59:59 (23:59:59)的任何資料都會被視為回填。</li><li>任何時間戳記超過 24 小時的事件資料 (即使與較新的資料屬於同一批次) 都視為回填，並以較低的優先順序擷取。</li></ul>
 
 ## 5. 設定「[!UICONTROL 連線]」資料保留的滾動時段 {#data-retention}
 
@@ -174,9 +174,9 @@ Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
 ## 8. [!UICONTROL Adobe Analytics] 元件
 
-+++**我可以將[!UICONTROL 對象]從 [!DNL Customer Journey Analytics] 共用/發佈到 Experience Platform Real-Time CDP 或其他 Experience Cloud 應用程式嗎？**
++++**我可以將[!UICONTROL 客群]從 [!DNL Customer Journey Analytics] 共用/發佈到 Experience Platform Real-Time CDP 或其他 Experience Cloud 應用程式嗎？**
 
-您可以將 Customer Journey Analytics 中發現的[對象建立並發佈](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/audiences/publish)到 Adobe Experience Platform 中的即時客戶個人檔案，以用於客戶目標定位和個人化。
+您可以將 Customer Journey Analytics 中發現的[客群建立並發佈](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/audiences/publish)到 Adobe Experience Platform 中的即時客戶輪廓，以用於客戶目標選擇和個人化。
 
 +++
 
