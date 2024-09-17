@@ -3,7 +3,7 @@ description: 當專案元件達到特定臨界值時，收到警報。
 title: 建立警報(Analysis Workspace)
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: 4155f486c8398b75c2bed41d93562483d35c1477
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 22%
@@ -18,7 +18,7 @@ ht-degree: 22%
 
 Customer Journey Analytics中的智慧型警報（或只是「警報」）可讓您在資料中發生異常事件時立即收到通知。
 
-如需智慧型警報的詳細概觀資訊，請參閱[智慧型警報概觀](/help/components/c-intelligent-alerts/intellligent-alerts.md)。
+如需智慧型警報的詳細概觀資訊，請參閱[智慧型警報概觀](/help/components/c-intelligent-alerts/intelligent-alerts.md)。
 
 若要建立警示：
 
