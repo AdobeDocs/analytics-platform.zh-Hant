@@ -1,18 +1,18 @@
 ---
-description: 瞭解智慧型警報與Adobe Analytics的Customer Journey Analytics有何不同
-title: 智慧型警報功能比較Customer Journey Analytics與Adobe Analytics
+description: 瞭解警示與Adobe Analytics的Customer Journey Analytics有何不同
+title: 警報功能比較Customer Journey Analytics與Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 640624ab017d8fc0e7b942c2f00c71cf255c4296
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 3%
+source-wordcount: '566'
+ht-degree: 0%
 
 ---
 
-# 智慧型警報功能比較：Customer Journey Analytics和Adobe Analytics
+# 警報功能比較：Customer Journey Analytics和Adobe Analytics
 
-在 Customer Journey Analytics 中使用智慧型警報的流程，與在 Adobe Analytics 中使用智慧型警報幾乎相同。不過，兩者之間還是有重大差異。
+在Customer Journey Analytics中使用警報的程式幾乎與在Adobe Analytics中使用警報的程式相同。 不過，兩者之間還是有重大差異。
 
 以下各節將說明主要差異。
 

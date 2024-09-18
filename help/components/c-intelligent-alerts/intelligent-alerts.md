@@ -1,41 +1,41 @@
 ---
-description: 新的智慧型警報系統可提供更細微的警報控制能力，並可與警報系統的異常偵測整合。
-title: 智慧型警報概述
+description: 警報可讓您精細地控制通知，並整合異常偵測。
+title: 警報概觀
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8017754adfde8a7d6ecea6d17138368d5430c1a6
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 52%
+source-wordcount: '359'
+ht-degree: 27%
 
 ---
 
-# 智慧型警報概述
+# 警報概觀
 
->[!NOTE]
->
->智慧型警報可供所有客戶使用。 不過，若要在智慧型警報中使用異常偵測，您必須有Customer Journey AnalyticsSelect、Prime或Ultimate。
+Customer Journey Analytics中的警報可讓您根據變更的百分比或特定資料點收到通知。
 
-Customer Journey Analytics中的智慧型警報（或只是「警報」）可讓您在資料中發生異常事件時收到通知。
+視您的Customer Journey Analytics封裝而定，您也可以使用要根據異常臨界值觸發的警報。 這些警報（也稱為「智慧型警報」）提供與[異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)整合的精細控制項，在您最需要時觸發。
 
-您可以根據異常臨界值、變化百分比或特定資料點設定警報觸發。警示提供與[異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)整合的精細控制項，在您最需要時觸發。
+警示可讓您：
 
-智慧型警報可讓您：
-
-* 根據異常 (90％、95％、99%、99.75% 或 99.9% 臨界值；% 變化；以上/以下) 建立警報
 * 預覽警報觸發的頻率
 * 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結
 * 建立在單一警報中擷取多個量度的「堆疊」警報
+* 根據異常（90%、95%、99%、99.75%和99.9%臨界值；%變更；以上/以下）建立警報(僅適用於Select、Prime或Ultimate套件的Customer Journey Analytics客戶)
 
-下列影片教學課程提供警示的基本概觀： [智慧型警示](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+下列影片教學課程提供警示的基本概觀： [警示](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## 瞭解警示與Adobe Analytics的Customer Journey Analytics有何不同
 
-在 Customer Journey Analytics 中使用智慧型警報的流程，與在 Adobe Analytics 中使用智慧型警報幾乎相同。不過，兩者之間還是有重大差異。
+在Customer Journey Analytics中使用警報的程式幾乎與在Adobe Analytics中使用警報的程式相同。 不過，兩者之間還是有重大差異。
 
-如需詳細資訊，請參閱[智慧型警報功能比較：Customer Journey Analytics和Adobe Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)。
+如需詳細資訊，請參閱[警示功能比較：Customer Journey Analytics和Adobe Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)。
 
 ## 警報的異常回顧
+
+>[!NOTE]
+>
+>使用具有異常偵測的警報（也稱為&#x200B;_智慧型警報_）僅適用於具有Select、Prime或UltimateCustomer Journey Analytics封裝的組織。
 
 如果警報使用異常偵測，訓練期會依您為警報選擇的粒度而有所不同。
 
@@ -52,7 +52,7 @@ Customer Journey Analytics中的智慧型警報（或只是「警報」）可讓
 
 >[!IMPORTANT]
 >
->使用時間戳記資料建立警報，可能導致錯誤觸發警報。Adobe 建議您為智慧型警報使用非時間戳記資料。
+>使用時間戳記資料建立警報，可能導致錯誤觸發警報。Adobe建議對警報使用非時間戳記資料。
 
 ## 管理警報
 

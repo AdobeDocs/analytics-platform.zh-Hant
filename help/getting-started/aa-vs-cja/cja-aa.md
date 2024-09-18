@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 8017754adfde8a7d6ecea6d17138368d5430c1a6
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '2320'
+source-wordcount: '2315'
 ht-degree: 85%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 85%
 
 | 功能 | 附註 |
 | --- | --- |
-| **警報** | 在Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)中使用智慧型警報的[程式，與Adobe Analytics中使用智慧型警報的程式幾乎相同。 <p>但由於Customer Journey Analytics中資料收集的時間，無法使用每小時警報。 在Customer Journey Analytics中，可設定每日、每週或每月警報。</p> |
+| **警報** | 在Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)中使用警示的[程式幾乎與在Adobe Analytics中使用警示的程式相同。 <p>但由於Customer Journey Analytics中資料收集的時間，無法使用每小時警報。 在Customer Journey Analytics中，可設定每日、每週或每月警報。</p> |
 | **目標分析(A4T)** | [Adobe Customer Journey Analytics 與 Target 之間的整合](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja)，為您的最佳化程式提供強大的分析與省時的工具。 |
 | **對象發佈** | 如果具有 Adobe 的 Customer Data Platform 或 Journey Optimizer 產品授權則提供支援。[客群發佈](/help/components/audiences/audiences-overview.md)會將客群發佈到 Experience Platform 中的「即時客戶輪廓」。 |
 | **分類** | 現在稱為「查閱資料集」。 Analytics 中使用的分類，可以使用 Analytics 分類來源連接器匯入至 Experience Platform 和 Customer Journey Analytics。查詢資料集也可以直接上傳到 Experience Platform，並在 Customer Journey Analytics 中使用。 |
@@ -92,7 +92,7 @@ ht-degree: 85%
 | **eVar持續性設定** | eVar 不再是 Customer Journey Analytics 的一部分。不過持續性設定現在是資料檢視的一部分，可用於所有維度。 請記得，持續性是依據報表時間處理，而非資料收集處理。 「資料檢視」中設定的維度上限為 90 天的持續性，不支援無限制的持續性。 |
 | **地域劃分維度** | [完整支援](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
 | **圖表式匯整** | 透過[圖表式匯整](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview#graph-based-stitching)，您可以利用[身分服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)的身分圖強大功能，將資料集提升至其偏好身分。 |
-| **智慧型警報** | 在Customer Journey Analytics中使用[智慧型警報](/help/components/c-intelligent-alerts/intelligent-alerts.md)的程式與在Adobe Analytics中使用智慧型警報的程式幾乎相同。 但是，有[個重要差異](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/alerts/alerts-feature-comparison)。 |
+| **警報** | 在Customer Journey Analytics中使用[警示](/help/components/c-intelligent-alerts/intelligent-alerts.md)的程式與在Adobe Analytics中使用警示的程式幾乎相同。 但是，有[個重要差異](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/alerts/alerts-feature-comparison)。 |
 | **IP模糊化** | 對於使用 Analytics 來源連接器將 Adobe Analytics 的資料填入到 Customer Journey Analytics 中的 Customer Journey Analytics 客戶：Adobe Analytics 中套用的 IP 模糊化設定也會套用至 Customer Journey Analytics 資料。您可以視需要在 Adobe Analytics 中控制這些設定。<p>對於使用 Experience Platform Web SDK 將資料直接填入 Platform 和 Customer Journey Analytics 中的 Customer Journey Analytics 客戶，您可以使用 Platform 中「資料收集」的「資料準備」，根據公司的要求設定模糊 IP 位址規則。 |
 | **行銷管道** | 使用 Analytics 來源連接器時，行銷管道資料會透過該連接器流入 Customer Journey Analytics。行銷管道規則是在傳統 Adobe Analytics 中設定，且部分規則不受支援。如需更多資訊，請參閱 [Customer Journey Analytics 行銷管道](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html)。<br/>對於 WebSDK 實施，會透過[衍生欄位](../../data-views/derived-fields/derived-fields.md)支援報告時間行銷管道處理規則。 |
 | **銷售變數持續性** | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)提供完整支援 |

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1497'
 ht-degree: 13%
 
 ---
@@ -160,9 +160,9 @@ ht-degree: 13%
 * Analysis Workspace UI
 * Workspace 排程專案
 * Report Builder
-* 產生器 UI：區段、計算量度、註解、對象等。
+* 產生器 UI：細分群體、計算量度、註解、客群等。
 * 來自2.0 API的API呼叫
-* 智慧型警報
+* 警報
 * 完整表格匯出
 * 與任何人共用連結
 * 引導式分析
