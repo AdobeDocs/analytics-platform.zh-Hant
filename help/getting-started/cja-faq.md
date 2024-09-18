@@ -5,9 +5,9 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 64a05e72f512bc68cfd324ab20810ade8c0c5f66
+source-git-commit: 22ae84479142d45f400f6ae39fe1416c9aaf7229
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2567'
 ht-degree: 98%
 
 ---
@@ -136,7 +136,7 @@ Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.c
 
 Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
-<ul><li>「當天」的事件資料會以即時資料的形式串流傳入。 事件時間早於前一天11:59:59 (23:59:59)的任何資料都會被視為回填。</li><li>任何時間戳記超過 24 小時的事件資料 (即使與較新的資料屬於同一批次) 都視為回填，並以較低的優先順序擷取。</li></ul>
+<ul><li>「當天」的事件資料會以即時資料的形式串流傳入。 事件時間早於前一天晚上11:59:59 (23:59:59)的任何資料都會被視為回填。</li><li>任何時間戳記超過 24 小時的事件資料 (即使與較新的資料屬於同一批次) 都視為回填，並以較低的優先順序擷取。</li></ul>
 
 ## 5. 設定「[!UICONTROL 連線]」資料保留的滾動時段 {#data-retention}
 
@@ -150,7 +150,7 @@ Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
 | 若您... | 就會發生下列情形... |
 | --- | --- |
-| 刪除 [!UICONTROL Adobe Experience Platform] 中的沙箱 | 刪除沙箱時，資料會停止流向該沙箱中資料集的任何 [!UICONTROL Customer Journey Analytics] 連線。現在，Customer Journey Analytics 中與已刪除沙箱相關聯的[!UICONTROL 連線]不會自動刪除。 |
+| 刪除 [!UICONTROL Adobe Experience Platform] 中的沙箱 | 刪除沙箱時，資料會停止流向該沙箱中資料集的任何 [!UICONTROL Customer Journey Analytics] 連線。與此已刪除的沙箱相關的連線、資料檢視、量度和維度也會刪除。 | |
 | 刪除 [!UICONTROL Adobe Experience Platform] 中的綱要，但不刪除與此綱要相關聯的資料集 | [!UICONTROL Adobe Experience Platform] 不允許刪除與一或多個[!UICONTROL 資料集]相關聯的[!UICONTROL 綱要]。不過，擁有適當權限的管理員可以先刪除資料集，再刪除綱要。 |
 | 刪除 [!UICONTROL Adobe Experience Platform] Data Lake 中的資料集 | 刪除 Adobe Experience Platform Data Lake 的資料集時，資料會停止從該資料集流向包含該資料集的任何 Customer Journey Analytics 連線。系統會從相關聯的 Customer Journey Analytics 連線自動刪除該資料集中的任何資料。 |
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的資料集 | 請與您的 Adobe 帳戶團隊聯絡，以便展開刪除已儲存連線中的資料集流程。 |
