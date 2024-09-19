@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -295,7 +295,7 @@ ht-degree: 99%
       + [日期比較](../components/date-ranges/time-comparison.md)
    + 警報 {#alerts}
       + [概觀](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-      + [Customer Journey Analytics差異](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [Customer Journey Analytics 中的差異](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [建立](/help/components/c-intelligent-alerts/alert-builder.md)
       + [管理](/help/components/c-intelligent-alerts/alert-manager.md)
       + [使用案例](/help/components/c-intelligent-alerts/alerts-use-cases.md)

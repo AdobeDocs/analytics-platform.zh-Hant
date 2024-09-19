@@ -8,7 +8,7 @@ role: User
 source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
 workflow-type: tm+mt
 source-wordcount: '2315'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 85%
 | 功能 | 更多詳細資料 |
 | --- | --- |
 | **可合併資料集(例如Adobe Analytics報表套裝)** | Customer Journey Analytics 可讓您[組合多個報告套件的資料](/help/connections/combined-dataset.md)，如同 Adobe Analytics 中的單一報告套件。 |
-| **適用於任何型別的資料** | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料綱要和類型。使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)，能以統一方式呈現和組織資料，可進行組合和探索。Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=zh-Hant)的功能。 |
+| **適用於任何型別的資料** | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料綱要和類型。使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-hant)，能以統一方式呈現和組織資料，可進行組合和探索。Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=zh-hant)的功能。 |
 | **跨裝置分析** | Customer Journey Analytics 支援無縫組合來自未經身分驗證和經過身分驗證工作階段的特定裝置資料集。Customer Journey Analytics 可以將歷史資料回填到已知裝置。在 Adobe Analytics 中，此功能僅限於單一報告套裝和裝置圖使用。 |
 | **Dimension增強功能** | Customer Journey Analytics 在使用維度時提供了更大的靈活性： <ul><li>**自訂數值型維度**：[在資料視圖中建立您自己的數值型維度](/help/data-views/create-dataview.md#components)。</li><li>**排序字串型維度**：[在自由格式表格中按字母順序排序字串型維度](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables)。 </li></ul><p>在 Adobe Analytics 中，只有少數內建數值維度可用，且無法按字串型維度排序。</p> |
 | **衍生欄位** | [衍生欄位](/help/data-views/derived-fields/derived-fields.md)允許對您的資料進行報告時間轉換。您可以即時合併、更正或建立資料，而這些轉換會回溯套用至所有報表。 |
@@ -78,7 +78,7 @@ ht-degree: 85%
 
 | 功能 | 附註 |
 | --- | --- |
-| **警報** | 在Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)中使用警示的[程式幾乎與在Adobe Analytics中使用警示的程式相同。 <p>但由於Customer Journey Analytics中資料收集的時間，無法使用每小時警報。 在Customer Journey Analytics中，可設定每日、每週或每月警報。</p> |
+| **警報** | 在Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)中使用警示的[程式幾乎與在Adobe Analytics中使用警示的程式相同。 <p>但是，由於 Customer Journey Analytics 中資料彙集需要時間進行，每小時發出警報並不適用。在 Customer Journey Analytics 中，可以將警報設定為每日、每週或每月。</p> |
 | **目標分析(A4T)** | [Adobe Customer Journey Analytics 與 Target 之間的整合](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja)，為您的最佳化程式提供強大的分析與省時的工具。 |
 | **對象發佈** | 如果具有 Adobe 的 Customer Data Platform 或 Journey Optimizer 產品授權則提供支援。[客群發佈](/help/components/audiences/audiences-overview.md)會將客群發佈到 Experience Platform 中的「即時客戶輪廓」。 |
 | **分類** | 現在稱為「查閱資料集」。 Analytics 中使用的分類，可以使用 Analytics 分類來源連接器匯入至 Experience Platform 和 Customer Journey Analytics。查詢資料集也可以直接上傳到 Experience Platform，並在 Customer Journey Analytics 中使用。 |
@@ -102,7 +102,7 @@ ht-degree: 85%
 | **Products 變數** | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件陣列，以符合此使用案例。在 Customer Journey Analytics 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
 | **專案共用** | 專案共用功能僅支援在 Customer Journey Analytics 的使用者之間使用 - Customer Journey Analytics 和傳統 Analysis Workspace 之間沒有專案共用。 |
 | **Report Builder** | 支援用於 Excel 的新 Office 365 外掛程式。 |
-| **使用者許可權/資料存取控制** | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hant) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。其他使用者權限可用於多種功能，例如建立計算量度、篩選器或註解等。 |
+| **使用者許可權/資料存取控制** | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-hant) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。其他使用者權限可用於多種功能，例如建立計算量度、篩選器或註解等。 |
 | **視覺效果** | 支援所有 Workspace 視覺效果，但地圖視覺效果除外。 |
 | **跨裝置/跨頻道彙整** | 支援包含身分資訊的事件資料集。請參閱[拼接](../../stitching/overview.md)。 |
 
