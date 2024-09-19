@@ -4,10 +4,10 @@ description: 瞭解如何在 Customer Journey Analytics 中管理篩選器
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: a1e94f3a35abbfea8b3eeed52f0db576c98c8bed
+source-git-commit: e994a53934ae25802fb16e912d0fdee32d5ea524
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 20%
+source-wordcount: '873'
+ht-degree: 19%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 20%
    | 標記 (未在欄選擇器中勾選，因此此欄不會出現) | 由您或共用篩選器給您的人員對篩選器套用的標記。 |
    | 共用對象 | 列出您共用篩選器的目標個人或群組 (僅限管理員使用) 或「全部」(僅限管理員使用)。 <p>當您共用篩選器或與您共用時，篩選器名稱旁會顯示共用圖示。</p> |
    | 修改日期 | 顯示上次修改篩選器的日期。 |
-   | 使用於 | 顯示目前使用篩選器的位置，以及在每個區域使用篩選器的次數。 <p>例如，如果篩選器用於40個專案和2個警示，則此欄的值顯示為&#x200B;[!UICONTROL **42個元件**]。</p> <p>選取此欄中的值，以檢視使用篩選器的位置劃分(例如，[!UICONTROL **專案(40)**]、[!UICONTROL **行動計分卡(2)**])。 此外，您也可以檢視使用篩選器的專案清單。 例如，檢視使用它們的專案清單，選取&#x200B;[!UICONTROL **專案(40)**]&#x200B;連結。</p><p>下列各區顯示在該區中使用的篩選器例項數目：</p>  <ul><li>[!UICONTROL **專案**]<p>包含已在篩選產生器](/help/components/filters/filter-builder.md#)中建立[且可用於所有專案的篩選器。</p></li><li>[!UICONTROL **臨時元件**]<p>包含[建立為快速篩選](/help/components/filters/quick-filters.md)的篩選器，且僅可在單一專案中使用。</p></li><li>[!UICONTROL **已排程的專案**]</li><li>[!UICONTROL **行動計分卡**]</li><li>[!UICONTROL **註解**]</li><li>[!UICONTROL **計算量度**]</li><li>[!UICONTROL **Report Builder**]<p>選取此選項可下載包含下列資料欄的CSV檔案：</p><ul><li>Report Builder名稱</li><li>上次存取</li><li>上次存取IMS使用者ID</li><li>上次存取的使用者名稱</li></ul></li></ul><p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。</p><p>檢視此欄時請考慮以下事項：</p><ul><li>此資訊僅供系統管理員使用。</li><li>預設不會顯示&#x200B;**]資料行中使用的[!UICONTROL **。 [設定資料行](#configure-columns)以顯示它。</li><li>此資訊不包括來自API或Data Warehouse的使用情況。</li><li>如果此欄中沒有指定元件的資料，但具有&#x200B;[!UICONTROL **上次使用**]&#x200B;日期，則表示該元件可能已用於分析而未儲存。</li><li>使用情況資訊從 2023 年 9 月開始提供。</li></ul><p>您可以搭配此資訊使用[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)，協助您追蹤並更清楚瞭解組織中如何使用元件。</p> |
+   | 使用於 | 顯示目前使用篩選器的位置，以及在每個區域使用篩選器的次數。 <p>例如，如果篩選器用於40個專案和2個警示，則此欄的值顯示為&#x200B;[!UICONTROL **42個元件**]。</p> <p>選取此欄中的值，以檢視使用篩選器的位置劃分(例如，[!UICONTROL **專案(40)**]、[!UICONTROL **行動計分卡(2)**])。 此外，您也可以檢視使用篩選器的專案清單。 例如，檢視使用它們的專案清單，選取&#x200B;[!UICONTROL **專案(40)**]&#x200B;連結。</p><p>下列各區顯示在該區中使用的篩選器例項數目：</p>  <ul><li>[!UICONTROL **專案**]<p>包含已在篩選產生器](/help/components/filters/filter-builder.md#)中建立[且可用於所有專案的篩選器。</p></li><li>[!UICONTROL **臨時元件**]<p>包含[建立為快速篩選](/help/components/filters/quick-filters.md)的篩選器，且僅可在單一專案中使用。</p></li><li>[!UICONTROL **已排程的專案**]</li><li>[!UICONTROL **行動計分卡**]</li><li>[!UICONTROL **註解**]</li><li>[!UICONTROL **計算量度**]</li><li>[!UICONTROL **Report Builder**]<p>選取此選項可下載包含下列資料欄的CSV檔案：</p><ul><li>Report Builder名稱</li><li>上次存取</li><li>上次存取IMS使用者ID</li><li>上次存取的使用者名稱</li></ul></li><p>檢視Report Builder的資訊時，自2024年9月起即可使用相關資訊。</p></ul><p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。</p><p>檢視此欄時請考慮以下事項：</p><ul><li>此資訊僅供系統管理員使用。</li><li>預設不會顯示&#x200B;**]資料行中使用的[!UICONTROL **。 [設定資料行](#configure-columns)以顯示它。</li><li>如果篩選器在其定義中包含另一個篩選器，則該篩選器的任何使用不會顯示在&#x200B;[!UICONTROL **Used in**]&#x200B;欄中。 如果篩選器包含在另一種元件型別（例如計算量度）的定義中，則使用情況會顯示在&#x200B;[!UICONTROL **用於**]&#x200B;欄中。</li><li>此資訊不包括來自API或Data Warehouse的使用情況。</li><li>如果此欄中沒有指定元件的資料，但具有&#x200B;[!UICONTROL **上次使用**]&#x200B;日期，則表示該元件可能已用於分析而未儲存。</li><li>使用情況資訊從 2023 年 9 月開始提供。</li></ul><p>您可以搭配此資訊使用[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)，協助您追蹤並更清楚瞭解組織中如何使用元件。</p> |
    | 上次使用 | 顯示上次在下列任何元件型別中使用篩選器的日期： <ul><li>計算量度</li><li>專案</li><li>已排程的專案</li><li>篩選器</li></ul> <p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值，或是否應將其刪除。</p><p>檢視此欄時請考慮以下事項：</p><ul><li>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</li><li>對於某些元件，如果元件是在2023年9月之前最後一次使用，則此欄可能不包含資料。</li><li>此資訊僅供系統管理員使用。</li></ul><p>您可以搭配此資訊使用[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)，協助您追蹤並更清楚瞭解組織中如何使用元件。 |
 
    {style="table-layout:auto"}
