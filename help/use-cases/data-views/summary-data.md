@@ -4,9 +4,10 @@ description: 說明有關如何將摘要資料帶入Customer Journey Analytics�
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 1590b7fbdedfacf4665d191220156c887f9c562a
+exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
+source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
 workflow-type: tm+mt
-source-wordcount: '4974'
+source-wordcount: '5187'
 ht-degree: 8%
 
 ---
@@ -277,7 +278,7 @@ ht-degree: 8%
 | 17 | def321 | def-adgroup | 321行銷活動 |
 | 18 | ghi321 | ghi-adgroup | 321行銷活動 |
 
-[![DataDownload](/help/assets/icons/DataDownload.svg)下載範例登入資料](./assets/lookup-data.csv)
+[![DataDownload](/help/assets/icons/DataDownload.svg)下載範例查閱資料](./assets/lookup-data.csv)
 +++
 
 >[!INFO]
@@ -487,6 +488,26 @@ ht-degree: 8%
             1. 在&#x200B;**[!UICONTROL 行銷活動]**&#x200B;清單中選取&#x200B;**[!UICONTROL 行銷活動ID]** Dimension。
             1. 您注意到&#x200B;**[!UICONTROL 元件設定]**&#x200B;中的&#x200B;**[!UICONTROL 隱藏報表中的元件]**&#x200B;現在已自動啟用。
 
+      1. 建立新的衍生欄位，例如`Campaign Name (Lookup Derived Field)`，以確保您可以使用範例查詢資料集中的促銷活動名稱（查詢）維度在Workspace中報告。
+
+         行銷活動名稱](../aa-data/../assets/summary-derived-field.png)的![衍生欄位
+
+         1. 選取&#x200B;**[!UICONTROL 值]**&#x200B;的&#x200B;**[!UICONTROL campaign_id]**。
+         1. 從&#x200B;**[!UICONTROL 查詢資料集]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 範例查詢資料集]**。
+         1. 從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL tracking_code]**。
+         1. 從&#x200B;**[!UICONTROL 要傳回]**&#x200B;的值下拉式選單中選取&#x200B;**[!UICONTROL campaign_name]**。
+         1. 選取「**[!UICONTROL 儲存]**」。
+
+      1. 將新建立的衍生欄位&#x200B;**[!UICONTROL 促銷活動名稱（查閱衍生欄位）]**&#x200B;新增至&#x200B;**[!UICONTROL Dimension]**&#x200B;元件清單。
+
+      1. 在&#x200B;**[!UICONTROL 行銷活動]**&#x200B;清單中選取&#x200B;**[!UICONTROL 行銷活動名稱（查閱）]** Dimension。 在元件面板中：
+
+         ![衍生欄位摘要資料群組](../assets/derived-field-summary-data-group.png)
+
+         1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 摘要資料群組]**。
+         1. 啟用&#x200B;**[!UICONTROL 建立群組]**。
+         1. 從&#x200B;**[!UICONTROL 促銷活動]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 促銷活動名稱（查閱衍生欄位）]**。Dimension 此步驟可確保範例查詢資料集中的行銷活動名稱（查詢）可安全地用於報告中(請參閱[Workspace](#workspace))。
+
       1. 從&#x200B;**[!UICONTROL 度量]**&#x200B;清單中選取&#x200B;**[!UICONTROL 收入]**&#x200B;度量。 在元件面板中：
 
          ![收入摘要資料](../assets/revenue-summary-data.png)
@@ -566,6 +587,14 @@ ht-degree: 8%
          1. 選取偏好的&#x200B;**[!UICONTROL 條件式格式化調色盤]**。
    1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存您的專案。
 
+如果要報告促銷活動名稱而非追蹤代碼（事件），請執行以下步驟：
+
+1. 複製&#x200B;**[!UICONTROL 摘要資料報表]**&#x200B;自由表格視覺效果。
+1. 將複製的視覺效果重新命名為`Summary Data Report (using Campaign Name)`。
+1. 將![Switch](/help/assets/icons/Switch.svg)的&#x200B;**[!UICONTROL 追蹤代碼（事件）]**&#x200B;維度取代為&#x200B;**[!UICONTROL 促銷活動名稱（查閱）]**&#x200B;維度。
+
+因為您建立的衍生欄位，以及促銷活動名稱（查詢）的摘要資料群組元件設定，所以您可以在促銷活動名稱（查詢）上正確報告。 檢視[資料檢視](#data-view)。
+
 您的最終專案看起來應該類似以下所示。
 
 ![使用摘要資料的專案範例，顯示摘要資料面板和摘要資料報告](../assets/summary-workspace.png)
@@ -575,4 +604,3 @@ ht-degree: 8%
 >
 >[摘要資料](/help/data-views/summary-data.md)
 >[摘要資料群組元件設定](/help/data-views/component-settings/summary-data-group.md)
-
