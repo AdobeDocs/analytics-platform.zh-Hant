@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: bdf13331967a1b2e51ce9d1dab650fb3dba1606d
+source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
 workflow-type: tm+mt
-source-wordcount: '4026'
+source-wordcount: '4016'
 ht-degree: 71%
 
 ---
@@ -262,7 +262,6 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 2020 年 10 月 7 日 | 新增有關[合併事件資料集](/help/connections/combined-dataset.md)的主題。 |
 | 2020 年 9 月 15 日 | 新增有關[資料擷取](/help/data-ingestion/data-ingestion.md)的主題。 |
 | 2020 年 9 月 2 日 | 更新有關[使用者權限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)的區段。 |
-| 2020 年 8 月 7 日 | 有關[B2B 使用案例 - 查詢資料集](/help/use-cases/b2b/b2b.md)的新主題已新增。 |
 | 2020 年 7 月 | 新增有關[使用者 ID 恆等映射選項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant)的資訊。 |
 | 2020 年 7 月 | 有關[物件陣列](/help/use-cases/object-arrays.md)或「資料階層」的新主題已新增。 |
 | 2020 年 4 月 14 日 | 對[建立連線](/help/connections/create-connection.md)主題中最新 UI 的更新。 |
