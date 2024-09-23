@@ -6,10 +6,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 2f42c64443cc5798388287e6f84b125fb8694812
+source-git-commit: 5d65f2cee34741d985ae7b85ad62f65a68c6289a
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 3%
+source-wordcount: '1300'
+ht-degree: 2%
 
 ---
 
@@ -127,6 +127,16 @@ Journey Canvas提供在Journey Optimizer中無法提供的深入徹底分析。
 
 在歷程畫布中修改Journey Optimizer歷程後，資料處理、可用功能和同步行為可能會變更。
 
+如果您對Journey Canvas中的Journey Optimizer歷程進行重大修改，資料處理、可用功能和同步行為可能會發生變更。 重大修改包括下列任一項作業：
+
+* 新增或移除節點
+
+* 在節點之間新增或移除箭頭
+
+* 變更節點上的元件
+
+如果您對「歷程」畫布中的Journey Optimizer歷程進行其他變更，例如拖曳節點或新增劃分，則以下各節所述的差異不適用。
+
 >[!NOTE]
 >
 >若要將歷程恢復為原始狀態，您可以在歷程畫布中進行首次變更後按下Ctrl+z。 或者，您可以在歷程畫布中刪除並[重新建立歷程](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
@@ -139,9 +149,13 @@ Journey Canvas提供在Journey Optimizer中無法提供的深入徹底分析。
 
 #### 功能差異
 
-在歷程畫布中修改Journey Optimizer歷程後，[!UICONTROL **節點型別**]&#x200B;下拉式欄位將不再可用。
+在歷程畫布中修改Journey Optimizer歷程後，下列功能的功能可能會隨著您的修改而變更：
 
-如需此欄位的詳細資訊，請參閱[設定設定](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+* [!UICONTROL **節點型別**]&#x200B;欄位中顯示的值已變更。
+
+* [!UICONTROL **箭頭設定**]&#x200B;下拉式欄位中可用的選項變更。
+
+如需這些欄位的詳細資訊，請參閱[設定設定](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
 
 #### 同步化差異
 

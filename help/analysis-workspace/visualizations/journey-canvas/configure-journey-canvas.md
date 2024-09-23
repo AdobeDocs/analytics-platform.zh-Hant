@@ -6,9 +6,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: c94544baf4c934b16b2fc9ce837dd41e07a3dcac
+source-git-commit: 90180e1231ab8b50f1f6b8552e00d1c251d10a2f
 workflow-type: tm+mt
-source-wordcount: '5141'
+source-wordcount: '5408'
 ht-degree: 1%
 
 ---
@@ -84,9 +84,9 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
    | 設定 | 函數 |
    |---------|----------|
-   | [!UICONTROL **節點型別**] | 可讓您設定哪些節點型別會顯示在視覺效果中。 若要隱藏視覺效果中的節點型別，請選取節點型別旁的(x)，或從下拉式選單中取消選取。 若要顯示隱藏的節點型別，請從下拉式選單中選取它。 <p>根據視覺效果的內容，可能的節點型別包括：</p><ul><li>[!UICONTROL **讀取區段**]</li><li>[!UICONTROL **結束**]</li><li>[!UICONTROL **維度**]</li><li>[!UICONTROL **量度**]</li></ul><p>**注意**：使用此欄位時，請考慮下列事項：</p><ul><li>只有在您新增視覺效果的Analysis Workspace面板中選取的相同資料檢視中偵測到Journey Optimizer資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</li><li>在歷程畫布中修改Journey Optimizer歷程後，此選項不再可用。 如需詳細資訊，請參閱[在歷程畫布中修改歷程後的視覺差異](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#visual-differences-after-modifying-a-journey-in-journey-canvas)</li><li>隱藏節點時，不會從歷程中刪除節點。 如需有關如何刪除節點的資訊，請參閱[刪除節點](#delete-nodes)。</li></ul></p> |
-   | [!UICONTROL **百分比值**] | 從下列選項中選擇： <ul><li>總數的&#x200B;[!UICONTROL **百分比**]：面板日期範圍內包含在資料檢視中的所有人員的百分比。</li><li>[!UICONTROL **開始節點的百分比**]：在面板的日期範圍內，包含在資料檢視中，且符合歷程開始節點條件的所有人員的百分比。 (此選項僅適用於具有單一開始節點的歷程；此選項在具有多個開始節點的歷程中停用。 起始節點定義為沒有任何連線的節點。)</li></ul> |
-   | [!UICONTROL **箭頭設定**] | 在Journey Canvas中的節點之間顯示的箭頭可包含自訂名稱、Journey Optimizer標籤和Journey Optimizer條件。 從下列選項中選擇，以決定要顯示的選項：<ul><li>[!UICONTROL **無**]：歷程畫布的箭頭上不會顯示自訂名稱、Journey Optimizer標籤或Journey Optimizer條件。 </li><li>[!UICONTROL **條件**]：在Journey Optimizer中設定的任何條件標籤都會顯示在Journey Canvas的箭頭上。 任何自訂名稱或其他Journey Optimizer標籤都不會顯示。</li><li>[!UICONTROL **所有標籤**]：如果箭頭包含自訂名稱、標籤或條件，則會顯示在歷程畫布的箭頭上。 每個箭頭只會顯示一個名稱、標籤或條件，其排列順序如下： <ol><li>從歷程畫布新增的自訂名稱（如[重新命名節點或箭頭](#rename-a-node-or-arrow)中所述）</li><li>Journey Optimizer標籤</li><li>Journey Optimizer條件</li></ol></li></ul><p>**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的相同資料檢視中偵測到Analysis Workspace資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p> |
+   | [!UICONTROL **節點型別**] | 可讓您設定哪些節點型別會顯示在視覺效果中。<p>若要隱藏視覺效果中的節點型別，請選取節點型別旁的(x)，或從下拉式選單中取消選取。 若要顯示隱藏的節點型別，請從下拉式選單中選取它。 (隱藏節點時，不會從歷程中刪除節點。 如需有關如何刪除節點的資訊，請參閱[刪除節點](#delete-nodes)。</p><p>此欄位可包含Journey Optimizer節點型別（[!UICONTROL **讀取區段**]、[!UICONTROL **結束**]&#x200B;等）和元件節點型別([!UICONTROL **Dimension**]、[!UICONTROL **量度**]、[!UICONTROL **篩選器**]&#x200B;和&#x200B;[!UICONTROL **日期範圍**])，如下所示： </p><ul><li>**如果歷程是Journey Optimizer歷程，且未在Journey Canvas中透過下列任何修改加以修改，則只會顯示Journey Optimizer節點型別**：<ul><li>新增或移除的節點</li><li>新增或移除的箭頭</li><li>已變更節點上的元件</li></ul></li><li>**如果歷程是Journey Optimizer歷程，且已在Journey Canvas中透過下列任何修改加以修改，則**&#x200B;會同時顯示Journey Optimizer節點型別和元件節點型別：<ul><li>新增或移除的節點</li><li>新增或移除的箭頭</li><li>已變更節點上的元件</li></ul></li><li>**如果歷程不是Journey Optimizer歷程，則只會顯示元件節點型別**。</li></ul></p> |
+   | [!UICONTROL **百分比值**] | 在歷程中的每個節點上顯示的百分比值。 此百分比僅包含面板日期範圍內包含在資料檢視中的人員。 <p>從下列選項中選擇：</p> <ul><li>[!UICONTROL **開始節點的百分比**]：符合歷程中開始節點條件的所有人員的百分比。 <p>_啟動節點_&#x200B;是之前沒有連線節點的節點。</p><p>歷程可包含多個開始節點。 但是，如果歷程包含2個或多個導致共同節點的開始節點，則會使用總數的&#x200B;[!UICONTROL **百分比**]。 如果您想要使用起始節點&#x200B;**]的[!UICONTROL **&#x200B;百分比，請更新歷程，以便歷程中的每個節點都可以追蹤回單一起始節點。</p></li><li>[!UICONTROL **上一個節點的百分比**]：上一個節點的所有人員的百分比。</li><li>總數的&#x200B;[!UICONTROL **百分比**]：面板日期範圍內包含在資料檢視中的所有人員的百分比。</li></ul> |
+   | [!UICONTROL **箭頭設定**] | Journey Canvas中節點之間顯示的箭頭可設定為顯示自訂標籤和值。 <p>_標籤_&#x200B;是出現在箭頭上的自訂名稱。 指定箭頭上只顯示單一標籤。 標籤可以是下列任一專案，並依照下列偏好順序顯示：</p><ol><li>從歷程畫布新增的自訂名稱（如[重新命名節點或箭頭](#rename-a-node-or-arrow)中所述）</li><li>Journey Optimizer標籤</li><li>Journey Optimizer條件</li></ol><p>_值_&#x200B;是顯示在箭頭上的數字和百分比，表示從歷程中一個節點移至下一個節點的人員或工作階段。 （換言之，是指在指定步驟沒有離開歷程的使用者。） </p><p>下列選項適用於並非源自Journey Optimizer的歷程以及在Journey Canvas中未大幅修改的Journey Optimizer歷程： （重大修改包括新增或移除節點、新增或移除箭頭，或變更節點的元件。）</p><ul><li>[!UICONTROL **沒有標籤**]：歷程中的箭頭未顯示任何標籤。 </br>此選項只有在歷程已修改時才能使用 </li><li>[!UICONTROL **僅標籤**]：標籤會顯示在歷程的箭頭上。</li></ul><p>下列選項適用於在Journey Canvas中經過重大修改的Journey Optimizer歷程：（重大修改包括新增或移除節點、新增或移除箭頭，或變更節點的元件）。(**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的相同資料檢視中偵測到Analysis Workspace資料時，才會顯示這些選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p><ul><li>[!UICONTROL **沒有標籤或值**]：歷程中的箭頭未顯示標籤或值。</li><li>[!UICONTROL **僅標籤**]：歷程中的箭頭上只顯示標籤。 值不會顯示。</li><li>[!UICONTROL **僅限值**]：歷程中的箭頭上只顯示值。 未顯示標籤。</li><li>[!UICONTROL **值和標籤**]：標籤和值都會顯示在歷程的箭頭上。</li></ul> |
    | [!UICONTROL **顯示流失**] | 顯示每個節點的流失資料。 這顯示在指定節點後離開歷程的人數與百分比。 <p>離開歷程的人可能已在該網站上執行其他動作，但他們從未符合歷程中下一個節點所定義的條件。</p> |
    | **縮放控制項** | 下列縮放控制項位於畫布的右上角：<ul><li>**放大** ![放大圖示](assets/zoom-in-icon.png)：放大視覺效果的特定區域。<p>您也可以使用滑鼠控制項，例如在觸控板上捏合。</p></li><li>**縮小** ![縮小圖示](assets/zoom-out-icon.png)：縮小視覺效果，讓畫布有更多空間。<p>您也可以使用滑鼠控制項，例如在觸控板上捏合。</p></li><li>**符合熒幕** ![符合熒幕圖示](assets/fill-screen-icon.png)：調整目前的縮放和平移設定，以完整視覺效果填滿熒幕。</li></ul><p>若要在放大或縮小後橫跨畫布進行平移，請按一下滑鼠並拖曳至所需的位置。</p> |
 
@@ -273,7 +273,8 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 | 要組合的元件型別 | 使用的邏輯（運運算元） |
 |---------|----------|
 | 度量+度量 | 已使用OR連結 |
-| Dimension+Dimension | 已使用OR連結 |
+| Dimension專案+ Dimension專案（來自相同的父維度） | 已使用OR連結 |
+| Dimension專案+ Dimension專案（來自不同的父維度） | 使用AND聯結 |
 | 篩選+篩選 | 使用AND聯結 |
 | Dimension+量度、日期範圍或篩選 | 使用AND聯結 |
 | 日期範圍+量度、篩選器或Dimension | 使用AND聯結 |
