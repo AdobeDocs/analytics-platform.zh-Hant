@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
+source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
 workflow-type: tm+mt
-source-wordcount: '4016'
-ht-degree: 71%
+source-wordcount: '4065'
+ht-degree: 70%
 
 ---
 
@@ -19,6 +19,10 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2024 年 9 月** | |
+| 摘要資料更新 | 已更新摘要資料文章，其中包含報告摘要資料時如何正確使用[查詢資料](/help/data-views/summary-data.md#lookup-data)的相關資訊。 |
+| BI擴充功能更新 | 已將[預設值和限制](/help/data-views/bi-extension.md#defaults-and-limitations)區段新增至BI擴充功能檔案。 |
+| 警報 | 新增現在可在Customer Journey Analytics中取得的[警示](/help/components/c-intelligent-alerts/intelligent-alerts.md)功能的檔案。 |
 | **2024 年 8 月** | |
 | B2B 專案範例 | 新增[使用案例](/help/use-cases/b2b/example.md)，說明如何使用新的[轉換資料集進行B2B查詢](/help/connections/transform-datasets-b2b-lookups.md)功能，在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級的B2B資料。 |
 | 更新資料匯出使用案例 | 在[查詢服務(資料Distiller)和匯出資料集](/help/use-cases/data-export/queryservice-export-datasets.md)中新增了更詳細的查詢範例，以說明如何使用回顧期間跨工作階段正確套用歸因。 |
@@ -100,7 +104,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 工作階段設定 | 新增此資料檢視設定的主題。[了解更多](/help/data-views/session-settings.md) |
 | Adobe Product Analytics | Adobe Product Analytics 是一種與 Customer Journey Analytics 跨管道資料和深入見解進行互動的新方式。這些新功能使產品團隊能夠透過[引導式分析](/help/guided-analysis/overview.md)工作流程取得有關其產品體驗的自助資料和深入見解。 |
 | 衍生欄位 | [衍生欄位](/help/data-views/derived-fields/derived-fields.md)可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。 |
-| 已擴大對設定檔和查詢資料的查詢支援 | 提供功能，可將資料集新增為設定檔或查詢資料集內的欄位查詢。之前僅支援事件資料集。[了解更多](/help/connections/create-connection.md) |
+| 已擴大對輪廓和查詢資料的查詢支援 | 提供功能，可將資料集新增為輪廓或查詢資料集內的欄位查詢。之前僅支援事件資料集。[了解更多](/help/connections/create-connection.md) |
 | Report Builder 改良功能 | <ul><li>[從儲存格篩選多個資料區塊](/help/report-builder/select-data-view.md)</li><li>[顯示和隱藏行與欄標題](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html#build-the-data-block)</li></ul> |
 | Edge Network地理查閱 | [資料流設定](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant)如何提供地理查詢服務，以提供統一的地理資料。 |
 | **2023 年 6 月** | |
@@ -147,7 +151,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 自動儲存工作區專案 | 已更新內容，在[儲存專案](/help/analysis-workspace/build-workspace-project/save-projects.md)中加入自動儲存功能。 |
 | 登陸頁面 | 新的登陸頁面更新[登陸頁面](/help/getting-started/landing.md)。 |
 | 排程活頁簿 | 說明如何在 Report Builder 中[排程活頁簿](/help/report-builder/schedule-reportbuilder.md)的專用頁面。 |
-| 針對設定檔及查閱資料集提供物件陣列支援 | 已更新[使用物件陣列](/help/use-cases/object-arrays.md)和[攝取 Adobe Experience Platform 客群](/help/use-cases/data-ingestion/ingest-aep-segments.md)，以反映針對輪廓及查閱資料集的物件陣列支援。 |
+| 針對輪廓及查閱資料集提供物件陣列支援 | 已更新[使用物件陣列](/help/use-cases/object-arrays.md)和[攝取 Adobe Experience Platform 客群](/help/use-cases/data-ingestion/ingest-aep-segments.md)，以反映針對輪廓及查閱資料集的物件陣列支援。 |
 
 {style="table-layout:auto"}
 

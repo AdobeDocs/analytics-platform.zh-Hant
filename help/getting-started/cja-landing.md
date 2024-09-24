@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: a9dd06a7b9d7c1ee6d5be5b944564e971cfe5192
-workflow-type: ht
-source-wordcount: '842'
-ht-degree: 100%
+source-git-commit: 0325b48e7144ac3e334ab57448b9adba9fcea21d
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,12 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包括理解概念、對問題進行疑難排解或搜尋資訊等。它也可讓非專家執行專家任務，並提高整體工作品質。
 
 [![影像](assets/learn-more-button.svg)](/help/ai-assistant.md)
+
+>[!TAB 警報]
+
+警報可讓您根據變更的百分比或特定資料點收到通知。 您可以預覽警報觸發的頻率、透過電子郵件或簡訊傳送警報、建立棧疊警報等。
+
+[![影像](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 
 >[!TAB 摘要資料]
 
