@@ -4,9 +4,9 @@ description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 81%
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **計算量度管理器和篩選器管理器的「使用於」欄中的額外資訊** | 計算量度管理器和篩選器管理器的「使用於」欄包含以下新報告區域：<ul><li>**Report Builder**：顯示在 Report Builder 中使用的計算量度或篩選器數量。</li><li>**臨時元件**：顯示專案中使用的臨時計算量度或臨時篩選器的數量。這些臨時計算量度和篩選器 (也稱為「快速計算量度」和「快速篩選器」) 只能在建立這些量度和區段的專案中使用，因此在「使用於」欄中，這些量度和區段會與「專案」報告區域分開報告。</li></ul>若要了解更多資訊，請參閱[計算量度管理器](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager)和[篩選器管理器](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-filters/manage-filters)。 |  | 2024 年 9 月 11 日 |
-| **警報** | Customer Journey Analytics中的警報可讓您根據變更的百分比或特定資料點收到通知。<p>視您的Customer Journey Analytics封裝而定，您也可以使用要根據異常臨界值觸發的警報。 這些警報（也稱為「智慧型警報」）提供與異常偵測整合的精細控制項，會在您最需要時觸發。</p><p>在Customer Journey Analytics中使用警報的程式幾乎與在Adobe Analytics中使用警報的程式相同。 一個主要差異是 Customer Journey Analytics 未提供每小時警報。會有此項差異是因為可擷取的各種事件資料，僅能以延遲方式完成資料擷取 (通常在資料事件時間之後 3 至 9 小時)。</p><p>如需有關在Adobe Analytics的Customer Journey Analytics中使用警示時差異的詳細資訊，請參閱[警示功能比較](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)。</p><p>若要深入瞭解警示，請參閱[警示概述](/help/components/c-intelligent-alerts/intelligent-alerts.md) |  | 2024年9月13日 |
+| **警報** | Customer Journey Analytics 中的警報可讓您根據變更的百分比或特定資料點來接收通知<p>根據您的 Customer Journey Analytics 套件，您還可以使用根據異常臨界值觸發的警報。這些警報 (也稱為「智慧型警報」) 具有整合異常偵測的精細控制，在您最需要時觸發。</p><p>在 Customer Journey Analytics 中使用警報的流程，與在 Adobe Analytics 中使用警報的流程幾乎相同。一個主要差異是 Customer Journey Analytics 未提供每小時警報。會有此項差異是因為可擷取的各種事件資料，僅能以延遲方式完成資料擷取 (通常在資料事件時間之後 3 至 9 小時)。</p><p>如需關於在 Customer Journey Analytics 中使用警報和在 Adobe Analytics 中使用警報之差異的詳細資訊，請參閱 [警報功能比較](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)。</p><p>若要深入了解警報，請參閱[警報概觀](/help/components/c-intelligent-alerts/intelligent-alerts.md)。 |  | 2024 年 9 月 13 日 |
 | **Adobe Analytics 來源連接器的更新** | 由於 Analytics 來源連接器完全由 Adobe 管理，因此資料集活動頁面不會顯示有關批次的資訊。您可以透過查看已收錄記錄的相關指標來監控資料的流動。如需詳細資訊，請閱讀建立 [Analytics 資料之來源連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)的指南。 |  | 現已提供 |
 | **使用情況分析** | 了解您的組織如何使用 Customer Journey Analytics。啟用此功能會在 Adob&#x200B;&#x200B;e Experience Platform 中建立資料集；該資料集會收集組織中使用 Analysis Workspace 的任何人資料。連線和資料視圖也會自動建立，讓您可以存取最熱門專案類型、最活躍使用者以及專案最多使用的元件等維度。(文件連結待補充) |  | 2024 年 9 月 18 日 |
 | **引導式分析：內建在 Workspace 中** | 將多個引導分析合併到 Analysis Workspace 中的單一視圖中。(文件連結待補充) | 2024 年 9 月 22 日 | 2024 年 10 月 2 日 |
