@@ -1,19 +1,19 @@
 ---
-title: 建立客群並將客群發佈到即時客戶輪廓
+title: 建立對象並將對象發佈到即時客戶個人檔案
 description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: d903745e105edb11ef6f43b6137e1e03d43e5e07
+source-git-commit: 7d21f6816412b45b795d223d351d4b48bd679c6d
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
 # 建立及發佈客群
 
-此主題討論如何將在Customer Journey Analytics中識別的對象建立並發佈到Adobe Experience Platform中的[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)，以用於客戶目標定位和個人化。
+本主題說明如何將在Customer Journey Analytics中識別的對象建立並發佈到Adobe Experience Platform中的[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)，以用於客戶目標定位和個人化。
 
 請閱讀此[總覽](/help/components/audiences/audiences-overview.md)，熟悉Customer Journey Analytics對象的概念。
 
@@ -95,7 +95,7 @@ ht-degree: 52%
 | 未顯示 | Adobe Analytics至Analytics來源聯結器(A4T) | 最多需 30 分鐘 |
 | 1 | 將資料擷取至Data Lake （從Analytics來源聯結器或其他來源） | 最多需 90 分鐘 |
 | 2 | 從Experience Platform Data Lake將資料擷取至Customer Journey Analytics | 最多需 90 分鐘 |
-| 3 | 客群發佈至即時客戶輪廓，包括自動建立串流細分群體並允許該細分群體準備接收資料。 | 幾秒鐘 |
+| 3 | 將對象發佈到即時客戶個人檔案，包括自動建立串流區段，並允許區段準備好接收資料。 | 幾秒鐘 |
 | 4 | 客群的更新頻率 | <ul><li>一次性重新整理 (延遲時間小於 5 分鐘)</li><li>每 4 小時、每天、每週、每月重新整理一次 (延遲與重新整理頻率息息相關) |
 | 5 | 在Adobe Experience Platform中建立目的地：啟用新區段 | 1-2 小時 |
 
@@ -105,7 +105,7 @@ ht-degree: 52%
 
 Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流傳送到即時客戶個人檔案(RTCP)。 根據設定連線時選取作為[!UICONTROL 人員ID]的專案，Customer Journey Analytics會將對象傳送至已設定主要身分的Experience Platform。
 
-接著 RTCP 會檢查每個命名空間/ID 組合，並尋找它可能屬於的個人檔案。個人檔案基本上是一組連結的命名空間、ID 和裝置。如果找到設定檔，則會將名稱空間和ID新增到此設定檔中的其他ID，做為區段會籍屬性。 例如，<user@adobe.com>可以跨其所有裝置和管道進行定位。 如果找不到個人檔案，則會建立一個新的。
+接著 RTCP 會檢查每個命名空間/ID 組合，並尋找它可能屬於的輪廓。輪廓基本上是一組連結的命名空間、ID 和裝置。如果找到設定檔，則會將名稱空間和ID新增到此設定檔中的其他ID，做為區段會籍屬性。 例如，<user@adobe.com>可以跨其所有裝置和管道進行定位。 如果找不到輪廓，則會建立一個新的。
 
 若要在Platform中檢視Customer Journey Analytics對象：
 
@@ -148,7 +148,7 @@ Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和
 
 +++
 
-+++**如果 RTCDP 中沒有對應的設定檔，是否會建立新的設定檔？**
++++**如果 RTCDP 中沒有對應的輪廓，是否會建立新的輪廓？**
 
 是，會建立。
 
@@ -162,7 +162,7 @@ Customer Journey Analytics會透過管道將資料串流到RTCP中，而且這�
 
 +++**Customer Journey Analytics傳送哪些身分？**
 
-在[連線設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)中指定的任何識別/名稱空間配對。 具體而言，就是使用者選取要作為其「人員 ID」之欄位時的步驟。
+在[連線設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)中指定的任何識別/名稱空間配對。 具體而言，就是使用者選取要作為其「人員 ID」之欄位時的步驟。
 
 +++
 
