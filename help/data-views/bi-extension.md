@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 27749382a311330e6ece76c663f4c610ef20d8c1
+source-git-commit: b2e165e5bb2c15fecaba1c8b14daeb727c0cead5
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 82%
+source-wordcount: '3044'
+ht-degree: 79%
 
 ---
 
@@ -399,5 +399,15 @@ ORDER BY -metric1 DESC
 | [擷取](https://spark.apache.org/docs/latest/api/sql/index.html#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | 在傳入的欄位上產生動態的維度識別。對於此函數的某些部分，請使用項目 ID 而不是值，因為您需要的是數字而不是易記名稱。<br/>支援的部份有：<br> - 關鍵字：`YEAR`、`MONTH`、`DAYOFMONTH`、`DAYOFWEEK`、`DAYOFYEAR`、`WEEK`、`QUARTER`、`HOUR`、`MINUTE`。<br/>- 字串：`'YEAR'`、`'Y'`、`'MONTH'`、`'M'`、`'DAYOFMONTH'`、`'DAY'`、`'D'`、`'DAYOFWEEK'`、`'DOW'`、`'DAYOFYEAR'`、`'DOY'`、`'WEEK'`、`'WOY`、`'W'`、`'QUARTER'`、`'QOY'`、`'Q'`、`'HOUR'` 或 `'MINUTE'`。 |
 | [日期 (部分)](https://spark.apache.org/docs/latest/api/sql/index.html#date_part) | ``SELECT DATE_PART('month', `timestamp`)`` | 在傳入的欄位上產生動態的維度識別。對於此函數的某些部分，請使用項目 ID 而不是值，因為您需要的是數字而不是易記名稱。<br/>支援的字串部分有：`'YEAR'`、`'Y'`、`'MONTH'`、`'M'`、`'DAYOFMONTH'`、`'DAY'`、`'D'`、`'DAYOFWEEK'`、`'DOW'`、`'DAYOFYEAR'`、`'DOY'`、`'WEEK'`、`'WOY`、`'W'`、`'QUARTER'`、`'QOY'`、`'Q'`、`'HOUR'` 或 `'MINUTE'`。 |
 | [日期 (截斷)](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | 在傳入的欄位上產生動態的維度識別。<br/>支援的字串詳細程度有：`'YEAR'`、`'Y'`、`'MONTH'`、`'M'`、`'DAYOFMONTH'`、`'DAY'`、`'D'`、`'DAYOFWEEK'`、`'DOW'`、`'DAYOFYEAR'`、`'DOY'`、`'WEEK'`、`'WOY`、`'W'`、`'QUARTER'`、`'QOY'`、`'Q'`、`'HOUR'` 或 `'MINUTE'`。 |
+
+{style="table-layout:auto"}
+
+### 部分支援
+
+部分SQL功能僅部分支援BI擴充功能，不會傳回您在其他資料庫中看到的相同結果。  此特定功能用於各種BI工具產生的SQL中，而BI擴充功能沒有完全相符專案。 因此，BI擴充功能著重於有限實施，這涵蓋了最低BI工具使用量，而不會擲回錯誤。 如需詳細資訊，請參閱下表。
+
+| 函數 | 範例 | 詳細資料 |
+|---|---|---|
+| MIN()和MAX() | ``MIN(daterange)`` 或 <br/> ``MAX(daterange)`` | `timestamp`、`daterange`或任何`daterangeX` （如`daterangeday`）上的`MIN()`將在2年前傳回。<br/><br/> `timestamp`、`daterange`上的`MAX()`或任何`daterangeX` （如`daterangeday`）將傳回目前的日期/時間。任何其他維度、量度或運算式上的<br/><br/>`MIN()`或`MAX()`將傳回0。 |
 
 {style="table-layout:auto"}
