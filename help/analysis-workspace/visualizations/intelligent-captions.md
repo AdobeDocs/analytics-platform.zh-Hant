@@ -4,9 +4,9 @@ title: 智慧型註解
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 6a193f2fd179809afac6808f3fb958c020f53a8d
+source-git-commit: 9d94d52b14a4f119193696c1e5fc6df9538f77cb
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '632'
 ht-degree: 5%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 5%
 
 * 需要與其他使用者分享敘述的分析師。 分析師需要這些見解才能為其使用者提供內容。
 * 想要快速探索高階內容的企業使用者。
-
-註解可供所有Customer Journey Analytics使用者使用，且不需要特殊許可權。
 
 ## 啟動智慧型字幕 {#launch}
 
@@ -101,7 +99,7 @@ ht-degree: 5%
 
 * **解決方案存取**：智慧型字幕功能可在Customer Journey Analytics中使用，但不適用於Adobe Analytics。
 
-* **合約存取**：如果您無法使用智慧型字幕，請連絡您組織的管理員或Adobe帳戶代表。 您必須同意特定的GenAI相關法律條款，才能在組織中使用Intelligent。
+* **合約存取**：如果您無法使用智慧型字幕，請聯絡貴組織的管理員或Adobe客戶代表。 您必須同意特定的GenAI相關法律條款，才能在組織中使用智慧型字幕。
 
 * **許可權**：在[!UICONTROL Adobe Admin Console]中，[!UICONTROL 報告工具] **[!UICONTROL 智慧型字幕]**&#x200B;許可權會決定存取權。 [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)需要在[!UICONTROL Admin Console]中遵循下列步驟：
    1. 導覽至&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 產品及服務]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 產品設定檔]**。
