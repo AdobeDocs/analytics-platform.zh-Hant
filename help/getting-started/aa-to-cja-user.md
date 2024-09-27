@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1442'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包�
 
 嚴格來說，區段並未從 Adobe Analytics 移轉到 Customer Journey Analytics，但您可以使用元件移轉工具在 Customer Journey Analytics 中重新建立 Adobe Analytics 區段。根據對應的維度和計量在 Customer Journey Analytics 中重新建立區段。如需更多資訊，請參閱[準備將元件和專案從 Adobe Analytics 移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)。
 
-雖然您尚不能從 [!DNL Customer Journey Analytics]共用或發佈[!UICONTROL 篩選器] ([!UICONTROL 區段]) 至 Experience Platform 統一設定檔，但此功能正在開發中。
+雖然您尚不能從 [!DNL Customer Journey Analytics]共用或發佈[!UICONTROL 篩選] ([!UICONTROL 區段]) 至 Experience Platform 統一輪廓，但此功能正在開發中。
 
 除了區段概念有變動，區段容器也已更新。
 
@@ -92,11 +92,11 @@ Adobe Analytics 和 Customer Journey Analytics 之間的計算量度名稱類似
 
 ## 分類概念的變動
 
-「分類」現在稱為&#x200B;*查詢資料集*。 查詢資料集是用來查詢在事件或設定檔資料中找到的數值或索引鍵。例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查找資料。
+「分類」現在稱為&#x200B;*查找資料集*。查詢資料集是用來查詢在事件或輪廓資料中找到的數值或索引鍵。例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查找資料。
 
 ## 客戶屬性概念的變動
 
-「客戶屬性」現在稱為「設定檔資料集」。設定檔資料集包含套用於[!UICONTROL 事件]資料中的人員、使用者或客戶的資料。例如，這可讓您上傳有關客戶的 CRM 資料。您可以挑選要包含的人員 ID。[!DNL Experience Platform]中定義的每個資料集有其自己一組已定義的一或多名人員 ID。
+「客戶屬性」現在稱為「輪廓資料集」。輪廓資料集包含套用於[!UICONTROL 事件]資料中的人員、使用者或客戶的資料。例如，這可讓您上傳有關客戶的 CRM 資料。您可以挑選要包含的人員 ID。[!DNL Experience Platform]中定義的每個資料集有其自己一組已定義的一或多名人員 ID。
 
 ## Adobe 如何識別訪客的變動
 
