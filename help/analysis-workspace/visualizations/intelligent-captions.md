@@ -4,7 +4,7 @@ title: 智慧型註解
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 9d94d52b14a4f119193696c1e5fc6df9538f77cb
+source-git-commit: 93b4426bc3e46540d3b4c9d6ae816a6d1f96f6ed
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 5%
@@ -18,7 +18,7 @@ ht-degree: 5%
 智慧型字幕的目標為：
 
 * 需要與其他使用者分享敘述的分析師。 分析師需要這些見解才能為其使用者提供內容。
-* 想要快速探索高階內容的企業使用者。
+* 想要快速探索高階外賣產品的商務使用者。
 
 ## 啟動智慧型字幕 {#launch}
 
