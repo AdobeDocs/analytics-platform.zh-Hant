@@ -3,7 +3,7 @@ title: 產品使用選擇退出設定
 description: 管理組織內個別使用者的選擇退出設定。
 hide: true
 hidefromtoc: true
-source-git-commit: 60c53b29f8e4105f96bf312462610024517605b8
+source-git-commit: 18686285efbdbc9e8fdac93e215adc4061bb0022
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
