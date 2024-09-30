@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
-workflow-type: ht
-source-wordcount: '2315'
-ht-degree: 100%
+source-git-commit: 6820adc70412f6abeae81bf8389227999d13f0d5
+workflow-type: tm+mt
+source-wordcount: '2306'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 | **提升安全性和隱私權選項** - HIPAA 整備程度 | Customer Journey Analytics 符合 HIPAA 標準，並提供[額外的安全性選項](/help/privacy/cmk.md)以實現法規合規性。Adobe Analytics 尚未符合 HIPAA 標準。 |
 | **實驗分析** | 對於任何定義為連線一部分之資料來源的實驗，Customer Journey Analytics 都可以[評估其提升度和可信度](/help/analysis-workspace/c-panels/experimentation.md)。透過此評估，您可以了解任意管道中客戶互動之間的因果關係。Analytics 僅限於透過 A4T 進行的實驗分析。 |
 | **預測** | [預測](/help/analysis-workspace/c-forecast/forecasting.md)是一種 AI/ML 功能，包括根據 Customer Journey Analytics 中已有的歷史資料，對時間序列相關資料進行統計預測。預測可以顯示在自由格式表格和折線圖視覺效果中。 |
-| **引導式分析** | [引導式分析](/help/guided-analysis/overview.md)是一種報告格式，可讓使用者快速自助滿足其資料需求，以便他們快速獲得高品質的深入解析並做出更多資料導向的決策。引導式分析是 Adobe Product Analytics 的一部分。 |
+| **引導式分析** | [引導式分析](/help/guided-analysis/overview.md)可讓使用者透過引導式工作流程(以Customer Journey Analytics的跨管道資料為基礎)，自助提供客戶歷程的高品質資料和深入分析。 |
 | **智慧型註解** | 智慧型註解使用進階的機器學習和生成式 AI，為 Workspace 視覺效果提供有價值的自然語言深入解析。初始版本為[折線圖](/help/analysis-workspace/visualizations/line.md)視覺效果提供自動產生的深入解析。 |
 | **報告時間轉換** | Customer Journey Analytics 中的[資料檢視](/help/data-views/data-views.md)可讓您進一步詮釋來自連線的資料。您可以變更或移除資料而無需變更實施、使用子字串操作維度、從任何值建立量度，或是篩選子事件。以上所有轉換的進行都是非破壞性。Adobe Analytics 透過虛擬報表套裝和自訂工作階段長度提供有限的功能。 |
 | **BI 擴充功能** | [BI 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)可讓您將 CJA 直接連接到熱門的 BI 視覺效果工具，例如 PowerBI 或 Tableau。透過使用此擴充功能，您可以讓 BI 報表與您在 Analysis Workspace 和其他 CJA 報表介面中看到的內容精確相符。這是更輕鬆為 CJA 取得 BI 報告的方法，無需從原始資料重新建立報告/指標。 |
