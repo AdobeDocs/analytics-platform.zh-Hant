@@ -4,9 +4,9 @@ description: 在 Analysis Workspace 中共用、重新命名或刪除日期範�
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
 role: User
-source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
+source-git-commit: 19d2130f4fae736a8553c1a3dd573706d4fb8083
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '606'
 ht-degree: 9%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 9%
 | ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | 使用[日期範圍產生器](create.md#date-range-builder)新增另一個日期範圍。 |
 | ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *依標題搜尋*] | 當清單中未選取日期範圍時，請使用此搜尋欄位來搜尋日期範圍。 |
 | ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標籤]** | 標籤選取的日期範圍。 在&#x200B;**[!UICONTROL 標籤日期範圍]**&#x200B;對話方塊中，選取或取消選取所選日期範圍的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選日期範圍的標籤。 |
-| ![共用](/help/assets/icons/Share.svg) **[!UICONTROL 共用]** | 共用選取的日期範圍。 在&#x200B;**[!UICONTROL 共用日期範圍]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選日期範圍的共用詳細資料。 |
+| ![共用](/help/assets/icons/ShareLight.svg) **[!UICONTROL 共用]** | 共用選取的日期範圍。 在&#x200B;**[!UICONTROL 共用日期範圍]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選日期範圍的共用詳細資料。 |
 | ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除所選的日期範圍。 系統會提示您進行確認。 |
 | ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名單一選取的日期範圍。 選取後，您可以重新命名內嵌日期範圍。 |
 | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]** | 核准所選的日期範圍。 |
@@ -64,7 +64,7 @@ ht-degree: 9%
 
 ### 篩選器面板
 
-您可以使用![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 篩選器]**&#x200B;左側面板來篩選日期范➍圍。 篩選器面板會顯示篩選器的型別和遵循該篩選器的日期範圍數。 選取![篩選器](/help/assets/icons/Filter.svg)以切換篩選器面板的顯示。
+您可以使用&#x200B;**[!UICONTROL 篩選器]**&#x200B;左側面板來篩選日期范➍圍。 篩選器面板會顯示篩選器的型別和遵循該篩選器的日期範圍數。 選取![篩選器](/help/assets/icons/Filter.svg)以切換篩選器面板的顯示。
 
 若要篩選篩選清單：
 
