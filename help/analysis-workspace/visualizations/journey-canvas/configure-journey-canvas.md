@@ -3,12 +3,10 @@ description: 設定歷程畫布視覺效果
 title: 歷程畫布
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 90180e1231ab8b50f1f6b8552e00d1c251d10a2f
+source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
 workflow-type: tm+mt
-source-wordcount: '5408'
+source-wordcount: '6520'
 ht-degree: 1%
 
 ---
@@ -41,19 +39,19 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
    以[視覺效果概觀](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)的[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)區段中所述的任何方式新增「歷程畫布」視覺效果。
 
-1. 指定下列基本資訊：
+1. 指定下列基本資訊以設定歷程畫布：
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **主要量度**] | 主要量度會影響Journey Canvas視覺效果的下列方面：  <ul><li>定義人們如何移動歷程。</li><li>每個節點上顯示的總數。<p>例如，如果人員是主要量度，則每個節點會顯示到達歷程中該節點的人員數量。</p></li><li>每個節點上顯示的百分比。 （建立視覺效果後，您可以選擇顯示總數百分比或起始節點）。</li><p>例如，如果人員是主要量度，則每個節點會顯示到達歷程中該節點的使用者百分比（總數的百分比或起始節點的百分比）。</p></li><li>將維度新增至視覺效果時，會根據主要量度新增視覺效果的前3個節點。</li></ul> |
-   | [!UICONTROL **次要量度**] | 次要量度為選用。 選取其中一個時，主要量度下方的每個節點會顯示下列資訊： <ul><li>總數<p>例如，如果階段作業是次要量度，則每個節點會顯示到達歷程中該節點的工作階段數量。</p></li><li>百分比（建立視覺效果後，您可以選擇顯示總數百分比或起始節點百分比）。</li><p>例如，如果階段作業是次要量度，則每個節點會顯示到達歷程中該節點的工作階段百分比（總數的百分比或起始節點的百分比）。</p></li></ul> |
-   | [!UICONTROL **Journey Optimizer歷程**]<!-- name? --> | 選取您要用作Journey Canvas中分析基礎的Journey Optimizer歷程。 (或者，如果您想要在Analysis Workspace中建立分析的空白畫布，可將此選項保留空白。)</p> <p>當您在Journey Canvas中分析Journey Optimizer歷程時，該歷程的顯示順序、順序和結構與Journey Optimizer中相同。 如需詳細資訊，請參閱[歷程畫布總覽](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)中的[分析Journey Optimizer歷程](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys)。</p><p>**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的相同資料檢視中偵測到Analysis Workspace資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p> |
+   | [!UICONTROL **主要量度**] | 決定計算歷程中每個節點上的百分比和數字值時所使用的量度。 <p>**注意**：包含在每個百分比和數值中的資料範圍，由您在&#x200B;**[!UICONTROL 歷程畫布容器]**&#x200B;欄位中選擇的量度決定。 例如，如果將&#x200B;**[!UICONTROL 人員]**&#x200B;設定為容器，則歷程中顯示的統計資料會跨越指定人員的多個工作階段。 如果將&#x200B;**[!UICONTROL 工作階段]**&#x200B;設定為容器，則歷程中顯示的統計資料會限製為特定人員的單一已定義工作階段。</p><p>考量下列範例:</p><ul><li>如果&#x200B;_People_&#x200B;為主要量度，而&#x200B;_Person_&#x200B;為容器，則只有事件符合歷程中每個後續節點之條件的人會在整個歷程中移動。 當個人從未到達歷程中任何緊接的下一個節點時，就會在節點上發生流失。 他們可能會在網站上執行其他動作，但他們不符合任何緊隨其後的節點所定義的條件。</li><li>如果&#x200B;_人員_&#x200B;是主要量度，而&#x200B;_工作階段_&#x200B;是容器，則只有那些其事件符合單一工作階段內歷程中每個節點的條件的人員，才會在整個歷程中移動。 流失發生在節點上，當使用者從未在單一工作階段中到達歷程中的緊接下一個節點時。 他們可能在作業階段內的網站上執行了其他動作，但不符合立即緊隨其後的任何節點所定義的條件。</li></ul> <p>主要量度會影響Journey Canvas視覺效果的下列方面：</p><ul><li>每個節點上顯示的總數。  <p>例如，如果事件是主要量度，則每個節點會顯示其事件符合該節點之條件（以及在歷程中導向該節點的每個先前節點）的人員數量。</p></li><li>每個節點上顯示的百分比。 （建立視覺效果後，您可以使用&#x200B;**[!UICONTROL 百分比值]**&#x200B;下拉式功能表來選擇顯示總數百分比、前一個節點的百分比或起始節點的百分比。）</li><p>例如，如果事件是主要量度，則每個節點會顯示其事件符合該節點之條件（以及在歷程中導致該節點的每個先前節點）的人員百分比。</p></li><li>將維度新增至視覺效果時，會根據主要量度新增視覺效果的前3個節點。</li></ul> |
+   | [!UICONTROL **次要量度**] | 決定計算歷程中每個節點上的百分比和數字值時使用的次要量度。 次要量度為選用。 <p>**注意**：包含在每個百分比和數值中的資料範圍，由您在&#x200B;**[!UICONTROL 歷程畫布容器]**&#x200B;欄位中選擇的量度決定。 例如，如果將&#x200B;**[!UICONTROL 人員]**&#x200B;設定為容器，則歷程中顯示的統計資料會跨越指定人員的多個工作階段。 如果將&#x200B;**[!UICONTROL 工作階段]**&#x200B;設定為容器，則歷程中顯示的統計資料會限製為特定人員的單一已定義工作階段。</p><p>選取次要量度時，這會影響Journey Canvas視覺效果的下列方面：</p><ul><li>顯示在主要量度下方的每個節點上的總數。 <p>例如，如果「帳戶」是次要量度，則會在節點上顯示到達該節點的所有使用者的帳戶數量，而只有那些到達該節點的使用者會顯示歷程中到達該節點的工作階段數量。</p></li><li>顯示在主要量度下方的每個節點上的百分比。 （建立視覺效果後，您可以選擇顯示總數百分比或起始節點）。</li><p>例如，如果階段作業是次要量度，則每個節點會顯示到達歷程中該節點的工作階段百分比（總數的百分比或起始節點的百分比）。</p></li></ul> |
+   | [!UICONTROL **Journey Optimizer歷程**]<!-- name? --> | 選取您要用作Journey Canvas中分析基礎的Journey Optimizer歷程。 具有下列任一狀態的歷程可供使用：「即時」、「已停止」或「已完成」 <p>或者，如果您想在Analysis Workspace中取得用來建立分析的空白畫布，可將此選項保留空白。</p> <p>當您在Journey Canvas中分析Journey Optimizer歷程時，該歷程的顯示順序、順序和結構與Journey Optimizer中相同。 如需詳細資訊，請參閱[歷程畫布總覽](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)中的[分析Journey Optimizer歷程](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md#analyze-journey-optimizer-journeys)。</p><p>**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的相同資料檢視中偵測到Analysis Workspace資料時，才會顯示此選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p> |
 
 1. （選擇性）選取「[!UICONTROL **顯示進階設定**]」，然後指定下列資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **歷程畫布容器**] | 選擇您想要在整個歷程中著重處理的容器。 您選擇的容器會決定視覺效果中顯示的統計資料。 （如果您的容器名稱與下方顯示的預設名稱不同，則這些名稱會在您的資料檢視中自訂。）<ul><li>**工作階段：**&#x200B;將視覺效果的統計資料限制在指定人員的單一已定義工作階段內。 這表示每個節點上顯示的數字和百分比（根據主要和次要量度），必須發生在每個人的單一工作階段中。</li><li>**人員：**&#x200B;允許視覺效果的統計資料跨越指定人員的多個工作階段。 這表示每個節點上顯示的數字和百分比（根據主要和次要量度）可發生在任意數量的工作階段中，只要這些工作階段屬於同一個使用者。 這是預設設定。</li></ul> |
+   | [!UICONTROL **歷程畫布容器**] | 選擇您想要在整個歷程中著重處理的容器。 您選擇的容器會決定歷程中擷取的資料範圍。 這會影響視覺效果中顯示的統計資料。 （如果您的容器名稱與下方顯示的預設名稱不同，則這些名稱會在您的資料檢視中自訂。）<ul><li>**工作階段：**&#x200B;將視覺效果的統計資料限制在指定人員的單一已定義工作階段內。 這表示每個節點上顯示的數字和百分比（根據主要和次要量度），必須發生在每個人的單一工作階段中。 換言之，一個人在單一歷程中可以多次表示。<p>此容器使用工作階段量度。</p></li><li>**人員：** （預設）允許視覺效果的統計資料跨越指定人員的多個工作階段。 這表示每個節點上顯示的數字和百分比（根據主要和次要量度）可發生在任意數量的工作階段中，只要這些工作階段屬於同一個使用者。 換言之，一個人在單一歷程中只能呈現一次。<p>此容器使用人員量度。</p></li></ul> |
 
 1. 選取「[!UICONTROL **建立**]」。
 
@@ -61,7 +59,7 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
    <!-- add screen shot -->
 
-   如果您沒有Journey Optimizer或未選取Journey Optimizer歷程，則會顯示空白畫布，讓您開始填入歷程。
+   如果您沒有Journey Optimizer或您未選取Journey Optimizer歷程，則會顯示空白畫布，您可在其中開始將節點新增至歷程。
 
    <!-- add screen shot -->
 
@@ -85,9 +83,9 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
    | 設定 | 函數 |
    |---------|----------|
    | [!UICONTROL **節點型別**] | 可讓您設定哪些節點型別會顯示在視覺效果中。<p>若要隱藏視覺效果中的節點型別，請選取節點型別旁的(x)，或從下拉式選單中取消選取。 若要顯示隱藏的節點型別，請從下拉式選單中選取它。 (隱藏節點時，不會從歷程中刪除節點。 如需有關如何刪除節點的資訊，請參閱[刪除節點](#delete-nodes)。</p><p>此欄位可包含Journey Optimizer節點型別（[!UICONTROL **讀取區段**]、[!UICONTROL **結束**]&#x200B;等）和元件節點型別([!UICONTROL **Dimension**]、[!UICONTROL **量度**]、[!UICONTROL **篩選器**]&#x200B;和&#x200B;[!UICONTROL **日期範圍**])，如下所示： </p><ul><li>**如果歷程是Journey Optimizer歷程，且未在Journey Canvas中透過下列任何修改加以修改，則只會顯示Journey Optimizer節點型別**：<ul><li>新增或移除的節點</li><li>新增或移除的箭頭</li><li>已變更節點上的元件</li></ul></li><li>**如果歷程是Journey Optimizer歷程，且已在Journey Canvas中透過下列任何修改加以修改，則**&#x200B;會同時顯示Journey Optimizer節點型別和元件節點型別：<ul><li>新增或移除的節點</li><li>新增或移除的箭頭</li><li>已變更節點上的元件</li></ul></li><li>**如果歷程不是Journey Optimizer歷程，則只會顯示元件節點型別**。</li></ul></p> |
-   | [!UICONTROL **百分比值**] | 在歷程中的每個節點上顯示的百分比值。 此百分比僅包含面板日期範圍內包含在資料檢視中的人員。 <p>從下列選項中選擇：</p> <ul><li>[!UICONTROL **開始節點的百分比**]：符合歷程中開始節點條件的所有人員的百分比。 <p>_啟動節點_&#x200B;是之前沒有連線節點的節點。</p><p>歷程可包含多個開始節點。 但是，如果歷程包含2個或多個導致共同節點的開始節點，則會使用總數的&#x200B;[!UICONTROL **百分比**]。 如果您想要使用起始節點&#x200B;**]的[!UICONTROL **&#x200B;百分比，請更新歷程，以便歷程中的每個節點都可以追蹤回單一起始節點。</p></li><li>[!UICONTROL **上一個節點的百分比**]：上一個節點的所有人員的百分比。</li><li>總數的&#x200B;[!UICONTROL **百分比**]：面板日期範圍內包含在資料檢視中的所有人員的百分比。</li></ul> |
-   | [!UICONTROL **箭頭設定**] | Journey Canvas中節點之間顯示的箭頭可設定為顯示自訂標籤和值。 <p>_標籤_&#x200B;是出現在箭頭上的自訂名稱。 指定箭頭上只顯示單一標籤。 標籤可以是下列任一專案，並依照下列偏好順序顯示：</p><ol><li>從歷程畫布新增的自訂名稱（如[重新命名節點或箭頭](#rename-a-node-or-arrow)中所述）</li><li>Journey Optimizer標籤</li><li>Journey Optimizer條件</li></ol><p>_值_&#x200B;是顯示在箭頭上的數字和百分比，表示從歷程中一個節點移至下一個節點的人員或工作階段。 （換言之，是指在指定步驟沒有離開歷程的使用者。） </p><p>下列選項適用於並非源自Journey Optimizer的歷程以及在Journey Canvas中未大幅修改的Journey Optimizer歷程： （重大修改包括新增或移除節點、新增或移除箭頭，或變更節點的元件。）</p><ul><li>[!UICONTROL **沒有標籤**]：歷程中的箭頭未顯示任何標籤。 </br>此選項只有在歷程已修改時才能使用 </li><li>[!UICONTROL **僅標籤**]：標籤會顯示在歷程的箭頭上。</li></ul><p>下列選項適用於在Journey Canvas中經過重大修改的Journey Optimizer歷程：（重大修改包括新增或移除節點、新增或移除箭頭，或變更節點的元件）。(**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的相同資料檢視中偵測到Analysis Workspace資料時，才會顯示這些選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p><ul><li>[!UICONTROL **沒有標籤或值**]：歷程中的箭頭未顯示標籤或值。</li><li>[!UICONTROL **僅標籤**]：歷程中的箭頭上只顯示標籤。 值不會顯示。</li><li>[!UICONTROL **僅限值**]：歷程中的箭頭上只顯示值。 未顯示標籤。</li><li>[!UICONTROL **值和標籤**]：標籤和值都會顯示在歷程的箭頭上。</li></ul> |
-   | [!UICONTROL **顯示流失**] | 顯示每個節點的流失資料。 這顯示在指定節點後離開歷程的人數與百分比。 <p>離開歷程的人可能已在該網站上執行其他動作，但他們從未符合歷程中下一個節點所定義的條件。</p> |
+   | [!UICONTROL **百分比值**] | 在歷程中的每個節點上顯示的百分比值。 <p>設定歷程中節點顯示的百分比值時，請考量下列事項：</p><ul><li>主要量度的每個節點都會顯示百分比。 如果設定次要量度，也會顯示其百分比。 （如需主要和次要量度設定的詳細資訊，請參閱[開始建立歷程畫布視覺效果](#begin-building-a-journey-canvas-visualization)。）</li><li>百分比包含面板日期範圍內資料檢視中包含的所有人員或工作階段。 是否使用&#x200B;_人員_&#x200B;或&#x200B;_工作階段_&#x200B;取決於容器設定。 （如需容器設定的詳細資訊，請參閱[開始建立歷程畫布視覺效果](#begin-building-a-journey-canvas-visualization)。）</li></ul> <p>從下列選項中選擇：</p> <ul><li>[!UICONTROL **開始節點的百分比**]：計算每個節點上顯示的與開始節點相關的百分比。 百分比是根據您選取的主要和次要量度。 <p>_啟動節點_&#x200B;是之前沒有連線節點的節點。</p><p>歷程可包含多個開始節點。 但是，如果歷程包含2個或多個導致共同節點的開始節點，則會使用總數的&#x200B;[!UICONTROL **百分比**]。 如果您想要使用起始節點&#x200B;**]的[!UICONTROL **&#x200B;百分比，請更新歷程，以便歷程中的每個節點都可以追蹤回單一起始節點。</p></li><li>[!UICONTROL **前一個節點的百分比**]：計算每個節點上顯示的相對於前一個節點的百分比。 百分比是根據您選取的主要和次要量度。</li><li>[!UICONTROL **總數百分比**]：計算每個節點上顯示的與資料檢視中所有資料相關的百分比。 百分比是根據您選取的主要和次要量度。</li></ul> |
+   | [!UICONTROL **箭頭設定**] | Journey Canvas中節點之間顯示的箭頭可設定為顯示自訂標籤和值。 <p>_標籤_&#x200B;是出現在箭頭上的自訂名稱。 指定箭頭上只顯示單一標籤。 標籤可以是下列任一專案，並依照下列偏好順序顯示：</p><ol><li>從歷程畫布新增的自訂名稱（如[在箭頭](#add-or-update-a-label-on-an-arrow)上新增或更新標籤中所述）</li><li>Journey Optimizer標籤</li><li>Journey Optimizer條件</li></ol><p>_值_&#x200B;是顯示在箭頭上的數字和百分比，表示從歷程中一個節點移至下一個節點的人員或工作階段。 （換言之，是指在指定步驟沒有離開歷程的使用者。） </p><p>下列選項適用於並非源自Journey Optimizer的歷程以及在Journey Canvas中未大幅修改的Journey Optimizer歷程： （重大修改包括新增或移除節點、新增或移除箭頭，或變更節點的元件。）</p><ul><li>[!UICONTROL **沒有標籤**]：歷程中的箭頭未顯示任何標籤。 </br>此選項只有在歷程已修改時才能使用 </li><li>[!UICONTROL **僅標籤**]：標籤會顯示在歷程的箭頭上。</li></ul><p>下列選項適用於在Journey Canvas中經過重大修改的Journey Optimizer歷程：（重大修改包括新增或移除節點、新增或移除箭頭，或變更節點的元件）。(**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的相同資料檢視中偵測到Analysis Workspace資料時，才會顯示這些選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p><ul><li>[!UICONTROL **沒有標籤或值**]：歷程中的箭頭未顯示標籤或值。</li><li>[!UICONTROL **僅標籤**]：歷程中的箭頭上只顯示標籤。 值不會顯示。</li><li>[!UICONTROL **僅限值**]：歷程中的箭頭上只顯示值。 未顯示標籤。</li><li>[!UICONTROL **值和標籤**]：標籤和值都會顯示在歷程的箭頭上。</li></ul> |
+   | [!UICONTROL **顯示流失**] | 流失資料顯示從歷程的每個節點流失的百分比和數量。 流失資料是根據與歷程的容器設定相關聯的量度，而非根據主要或次要量度。<p>依預設，容器是&#x200B;_人員_，因此用於流失資料的量度是&#x200B;_人員_。 如果容器變更為&#x200B;_工作階段_，則用於流失資料的量度為&#x200B;_工作階段_，以此類推。</p><p>例如，以&#x200B;_人員_&#x200B;作為容器設定，「流失」會顯示歷程中每個節點上從未到達任何緊接下一個節點的人數的百分比和人數。 他們可能會在網站上執行其他動作，但他們不符合任何緊隨其後的節點所定義的條件。</p> <p>如需Journey Canvas容器設定的詳細資訊，請參閱[開始建立Journey Canvas視覺效果](#begin-building-a-journey-canvas-visualization)。 |
    | **縮放控制項** | 下列縮放控制項位於畫布的右上角：<ul><li>**放大** ![放大圖示](assets/zoom-in-icon.png)：放大視覺效果的特定區域。<p>您也可以使用滑鼠控制項，例如在觸控板上捏合。</p></li><li>**縮小** ![縮小圖示](assets/zoom-out-icon.png)：縮小視覺效果，讓畫布有更多空間。<p>您也可以使用滑鼠控制項，例如在觸控板上捏合。</p></li><li>**符合熒幕** ![符合熒幕圖示](assets/fill-screen-icon.png)：調整目前的縮放和平移設定，以完整視覺效果填滿熒幕。</li></ul><p>若要在放大或縮小後橫跨畫布進行平移，請按一下滑鼠並拖曳至所需的位置。</p> |
 
 1. 繼續[新增節點](#add-nodes)。
@@ -96,7 +94,7 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
 Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。
 
-您可以透過將Workspace元件從左側邊欄拖曳至畫布、允許Journey畫布根據現有節點選擇下一個或上一個頂端節點，或複製現有節點來建立節點。
+您可以透過下列方式建立節點：透過將Workspace元件從左側邊欄拖曳至畫布；允許Journey Canvas根據現有節點選擇頂端下一個或上一個節點；或複製現有節點。
 
 ### 從左側邊欄拖曳元件
 
@@ -138,6 +136,8 @@ Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。
    * 主要量度統計資料（總計和百分比）
 
    * 次要量度統計資料（總計和百分比）
+
+   脈衝或發光節點表示正在為該節點載入資料。
 
 1. 重複此程式以繼續新增節點來建置您的歷程。
 
@@ -241,7 +241,7 @@ Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。
 
 Journey Canvas中的歷程由彈性的節點和箭頭圖表組成，代表事件、維度專案和篩選器的任何組合。
 
-您可以在畫布上拖曳節點，以重新排列歷程的事件和條件。 按住Command鍵(在Mac上)或Ctrl鍵（在Windows上）可選取多個節點。
+您可以在畫布上拖曳節點，以重新排列歷程的事件和條件。
 
 當您重新安排歷程中節點的順序時，資料會據此更新。
 
@@ -251,7 +251,7 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 #### 建立合併的節點
 
-您可以執行下列任一項作業，在Journey Canvas中建立合併節點：
+您可以執行下列任一項作業，在Journey Canvas中合併節點：
 
 * 從左側邊欄，將單一元件拖曳至畫布上的節點。
 
@@ -306,7 +306,7 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 若要連線Journey Canvas中的節點：
 
-1. 在畫布上，暫留在您要連線至其他節點的歷程式列中排在第一位的節點上。
+1. 在歷程畫布視覺效果中，暫留在您要連線至其他節點的歷程式列中排在第一位的節點上。
 
    所選節點的兩側會出現4個藍色點。
 
@@ -334,7 +334,7 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 若要新增時間限制：
 
-1. 以滑鼠右鍵按兩節點之間的箭頭，然後選取&#x200B;[!UICONTROL **新增時間限制**]。
+1. 在歷程畫布視覺效果中，以滑鼠右鍵按一下2個節點之間的箭頭，然後選取「[!UICONTROL **新增時間限制**]」。
 
 <!-- 
 
@@ -361,7 +361,7 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 若要變更節點或箭頭的顏色：
 
-1. 以滑鼠右鍵按一下您要變更其顏色的節點或箭頭。
+1. 在Journey Canvas視覺效果中，以滑鼠右鍵按一下您要變更其顏色的節點或箭頭。
 
 1. 選取&#x200B;[!UICONTROL **變更顏色**]。<!--make sure "color" isn't capitalized. It is in the req doc-->
 
@@ -369,7 +369,7 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
    下列色彩可供使用： <!--look into this interaction and color list-->
 
-### 重新命名節點或箭頭
+### 重新命名節點
 
 >[!AVAILABILITY]
 >
@@ -381,15 +381,45 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 * 個別節點
 
-* 節點之間的箭頭
-
 若要重新命名節點，請執行下列動作：
 
-1. 以滑鼠右鍵按一下要重新命名的節點。
+1. 在「歷程」畫布視覺效果中，以滑鼠右鍵按一下您要重新命名的節點。
 
 1. 選取&#x200B;[!UICONTROL **重新命名**]。
 
 1. 指定新名稱，然後按Enter。<!--is that right?-->
+
+### 新增或更新箭頭上的標籤
+
+Journey Canvas中節點之間顯示的箭頭可設定為顯示自訂標籤和值。
+
+標籤是出現在箭頭上的自訂名稱。 指定箭頭上只顯示單一標籤。
+
+如需有關箭頭上顯示的標籤和值的詳細資訊，請參閱[設定視覺效果設定](#configure-visualization-settings)中的「箭頭設定」。
+
+新增或更新標籤的選項適用於畫布上的下列物件：
+
+* 節點之間的箭頭
+
+若要將標籤新增至箭頭：
+
+1. 在Journey Canvas視覺效果中，以滑鼠右鍵按一下您要新增標籤的箭頭。
+
+1. 選取&#x200B;**[!UICONTROL 新增標籤]**。
+
+1. 指定標籤的名稱，然後按Enter鍵。
+
+   如果箭頭設定目前設定為隱藏標籤，則會顯示訊息，提示您顯示標籤。
+
+若要更新箭頭上的現有標籤：
+
+1. 在Journey Canvas視覺效果中，以滑鼠右鍵按一下您要新增標籤的箭頭。
+
+1. 選取&#x200B;**[!UICONTROL 更新標籤]**。
+
+1. 指定標籤的名稱，然後按Enter鍵。
+
+   如果箭頭設定目前設定為隱藏標籤，則會顯示訊息，提示您顯示標籤。
 
 ### 套用劃分
 
@@ -419,21 +449,25 @@ from Travis: You can set time to be within X amount of time or after X amount of
 >
 >此功能尚無法使用。
 
-1. 選取一或多個要套用劃分的節點，然後以滑鼠右鍵按一下其中一個選取的節點。
+1. 在「歷程畫布」視覺效果中，選取一或多個要套用劃分的節點，然後以滑鼠右鍵按一下其中一個選取的節點。
 
    或
 
-   在2個要套用劃分的節點之間選取一或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
+   在「歷程畫布」視覺效果中，選取您要套用劃分的2個節點之間的一個或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
 
 1. 選取&#x200B;[!UICONTROL **劃分**]。
 
-<!-- 1. Choose where you want to view the breakdown:
+1. 選擇要檢視劃分的位置：
 
-        * [!UICONTROL **In Journey canvas**]
+   * [!UICONTROL **在歷程畫布中**]
 
-        * [!UICONTROL **In a freeform table**]
+   * [!UICONTROL **在自由格式表格中**]
 
--->
+1. 選取您要用於劃分的維度。
+
+   如果您選擇在歷程畫布中檢視劃分，則前5個維度專案會顯示在節點上。 節點上有可在自由表格中開啟劃分的選項。
+
+   如果您選擇在自由表格中檢視劃分，排名最前的維度專案會顯示在新的自由表格中，緊接在「歷程」畫布視覺效果上方。
 
 #### 將劃分套用至個別節點
 
@@ -457,21 +491,17 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 若要建立對象：
 
-1. 選取一或多個要建立對象的節點，然後以滑鼠右鍵按一下其中一個選取的節點。
+1. 在Journey Canvas視覺效果中，選取一或多個要建立對象的節點，然後以滑鼠右鍵按一下其中一個選取的節點。
 
    或
 
-   在2個要建立受眾的節點之間選取一或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
+   在「歷程畫布」視覺效果中，選取您要建立受眾的2個節點之間的一個或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
 
-1. 選取&#x200B;[!UICONTROL **建立對象**]。
+   >[!NOTE]
+   >
+   >對象不能包含計算量度或任何以[摘要資料集](/help/data-views/summary-data.md)為基礎的量度。 如果您嘗試從Journey畫布的任何區域建立受眾，該區域包含計算量度或根據摘要資料集的量度，則計算量度不會包含在受眾定義中。
 
-<!-- 1. Choose where you want to create the audience:
-
-        * [!UICONTROL **In Journey canvas**]
-
-        * [!UICONTROL **In a freeform table**]
-
--->
+1. 選取&#x200B;[!UICONTROL **從節點**]&#x200B;建立對象，或選取&#x200B;[!UICONTROL **從箭頭**]&#x200B;建立對象。
 
 1. 繼續建立和發佈對象，如[建立和發佈對象](/help/components/audiences/publish.md)中所述。
 
@@ -495,11 +525,11 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 若要檢視趨勢資料：
 
-1. 選取您要檢視趨勢資料的一或多個節點，然後以滑鼠右鍵按一下其中一個選取的節點。
+1. 在「歷程畫布」視覺效果中，選取一或多個您要檢視趨勢資料的節點，然後以滑鼠右鍵按一下其中一個選取的節點。
 
    或
 
-   在2個您要檢視趨勢資料的節點之間選取一或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
+   在「歷程畫布」視覺效果中，選取2個節點之間的一或多個箭頭（您想要檢視這些節點的趨勢資料），然後以滑鼠右鍵按一下其中一個選取的箭頭。
 
 1. 選取&#x200B;[!UICONTROL **趨勢**]。
 
@@ -513,7 +543,7 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 若要建立篩選器：
 
-1. 在畫布上，以滑鼠右鍵按一下要用來建立篩選的節點或箭頭。
+1. 在「歷程」畫布視覺效果中，以滑鼠右鍵按一下您要用來建立篩選的節點或箭頭。
 
 1. 選取&#x200B;[!UICONTROL **從節點**]&#x200B;建立篩選器，或&#x200B;[!UICONTROL **從箭頭**]&#x200B;建立篩選器。
 
@@ -529,7 +559,7 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 若要刪除Journey Canvas中的節點：
 
-1. 選取一或多個要刪除的節點，然後以滑鼠右鍵按一下其中一個選取的節點。
+1. 在「歷程畫布」視覺效果中，選取一或多個要刪除的節點，然後以滑鼠右鍵按一下其中一個選取的節點。
 
 1. 選取「[!UICONTROL **刪除**]」。
 
@@ -539,48 +569,14 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 若要刪除Journey Canvas中節點之間的箭頭：
 
-1. 在2個要刪除的節點之間選取一或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
+1. 在「歷程畫布」視覺效果中，選取2個要刪除的節點之間的一個或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
 
 1. 選取「[!UICONTROL **刪除**]」。
 
-
-<!-- Delete this after I decide I don't want to do it this way. Will probably use sections like I hav above.
-
-### Manage existing nodes
-
-1. In Analysis Workspace, open an existing Journey canvas visualization, or [begin building a new one](#begin-building-a-journey-canvas-visualization).
-
-1. Right-click an **individual node** on the canvas, then select any of the following options:
-   
-   | Option | Function | 
-   |---------|----------|
-   | [!UICONTROL **Create segment**] | B1 |
-   | [!UICONTROL **Publish audience**] | B2 |
-   | [!UICONTROL **Trend**] | B3 | 
-   | [!UICONTROL **Breakdown**] | B2 |
-   | [!UICONTROL **Get top next ...**] | B2 |
-   | [!UICONTROL **Change color**] | B2 |
-   | [!UICONTROL **Rename**] | B2 |
-   | [!UICONTROL **Delete**] | B2 |
-
-1. Select **multiple nodes** on the canvas, right-click one of the selected nodes, then select any of the following options:
-
-   | Option | Function | 
-   |---------|----------|
-   | [!UICONTROL **Combine**] | B1 |
-   | [!UICONTROL **Delete**] | B2 |
-   | [!UICONTROL **Duplicate**] | B3 | 
-   | [!UICONTROL **Trend**] | B2 |
-   | [!UICONTROL **Breakdown**] | B2 |
-   | [!UICONTROL **Create segment**] | B2 |
-   | [!UICONTROL **Publish audience**] | B2 |
-
-   -->
-
-
 ## 從Journey Optimizer開啟歷程
 
+在Journey Optimizer中檢視歷程時，您可以選擇在歷程畫布中檢視歷程。
 
-在Journey Optimizer中，開啟您要在Journey Canvas中分析的歷程。
+1. 在Journey Optimizer中，開啟您要在Journey Canvas中分析的歷程。
 
 1. 選取&#x200B;[!UICONTROL **在CJA**]&#x200B;中分析。<!-- ?? -->

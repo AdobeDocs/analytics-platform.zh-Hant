@@ -3,12 +3,10 @@ description: 歷程畫布概觀
 title: 歷程畫布
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 5d65f2cee34741d985ae7b85ad62f65a68c6289a
+source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1318'
 ht-degree: 2%
 
 ---
@@ -35,7 +33,7 @@ Journey Canvas視覺效果的主要功能包括：
 
 ## 可能的深入分析
 
-以下範例為Journey Canvas可協助提供的深入分析型別。 您可以選擇這些見解是根據資料檢視中的所有人員還是所有開始歷程的人。
+以下範例為Journey Canvas可協助提供的深入分析型別。 您可以選擇這些見解是根據資料檢視中的所有人員、所有開始歷程的人員，還是歷程先前節點的所有人員。
 
 **區間**
 
@@ -47,7 +45,7 @@ Journey Canvas視覺效果的主要功能包括：
 
 **流失**
 
-* 人們最常離開歷程的點（節點）
+* 人們最常離開歷程的點（節點） （從未到達任何緊接的下一個節點）
 
 **其他**
 
