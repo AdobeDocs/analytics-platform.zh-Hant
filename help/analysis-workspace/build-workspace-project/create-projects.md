@@ -4,14 +4,24 @@ title: 建立專案
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '412'
 ht-degree: 40%
 
 ---
 
-# 建立專案
+# 建立專案 {#create-projects}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_project_countrepeatinstances"
+>title="計算重複實例數"
+>abstract="指定是否要將重複實例計入報表中。<br/><br/>注意：此設定不適用於「流量」或「流失」視覺效果。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 Analysis Workspace中的[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)可讓您建立和檢視關鍵業務分析。  這些分析可與組織內部或外部的利害關係人分享。
 

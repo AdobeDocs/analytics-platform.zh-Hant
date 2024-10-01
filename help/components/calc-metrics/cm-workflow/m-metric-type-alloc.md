@@ -3,10 +3,10 @@ description: 瞭解量度型別和歸因
 title: 量度型別和歸因
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 32%
+source-wordcount: '947'
+ht-degree: 31%
 
 ---
 
@@ -148,8 +148,8 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_custom"
->title="時間耗損"
->abstract="與轉換時間最接近的維度值會獲得最多的貢獻度。"
+>title="自訂"
+>abstract="根據歸因加權定義您自己的位置。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -161,7 +161,6 @@ ht-degree: 32%
 >abstract="評分是根據統計演演算法以動態方式決定。"
 
 <!-- markdownlint-enable MD034 -->
-
 
 
 {{attribution-models-details}}

@@ -4,14 +4,24 @@ title: 儲存專案
 feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 18%
+source-wordcount: '851'
+ht-degree: 17%
 
 ---
 
-# 儲存專案
+# 儲存專案 {#save-projects}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_project_addnotes"
+>title="新增附註"
+>abstract="新增有關正在儲存的專案版本的附註。 這些筆記將與版本一起儲存，並可在&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 開啟先前版本]**&#x200B;功能表下存取。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 Analysis Workspace中的專案會每兩分鐘自動儲存一次。 您也可以自行儲存專案、將專案儲存為重複專案，或儲存含有版本注意事項的專案。
 

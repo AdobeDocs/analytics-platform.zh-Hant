@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
-source-wordcount: '3507'
+source-wordcount: '3526'
 ht-degree: 97%
 
 ---
@@ -58,6 +58,16 @@ ht-degree: 97%
 >abstract="在連線層級將資料保留定義為以月為單位的滾動窗口。"
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_averagenumberofdailyuses"
+>title="平均每日使用次數"
+>abstract="選取整個連線的預期每日事件數範圍。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 透過輔助工作流程，建立連線和編輯工作流程體驗可將所有資料集和連線組態設定彙整到畫面中央處。它提供詳細的資料集選擇、設定和檢閱體驗。可讓您指定資料集類型、大小、綱要、資料集 ID、批次狀態、回填狀態、人員 ID 等重要資訊，以降低連線設定錯誤的風險。以下是功能概觀：
