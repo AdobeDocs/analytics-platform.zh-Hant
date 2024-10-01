@@ -1,19 +1,41 @@
 ---
-description: 可讓您將用戶定義文字新增至您的 Workspace。
+description: 將使用者定義文字新增至您的Workspace。
 title: 文字
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 86%
+source-wordcount: '243'
+ht-degree: 25%
 
 ---
 
-# 文字
+# 文字 {#text-visualization}
 
-您可以將用戶定義的文字新增至您的 Workspace 專案，方法是使用文字視覺效果或面板/視覺效果說明 (在標題按一下右鍵 > **[!UICONTROL 編輯說明]**)。您還可以變更文字格式、新增超連結，並新增影像。
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_text_button"
+>title="文字"
+>abstract="將使用者定義的RTF視覺效果新增至您的專案。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+若要將使用者定義的RTF文字新增至您的Workspace專案，您可以使用![文字](/help/assets/icons/Text.svg) **[!UICONTROL 文字]**&#x200B;視覺效果，或使用視覺效果和面板的說明。
+
+## 使用
+
+您可以透過下列方式使用「文字」視覺效果：
+
+1. 新增![文字](/help/assets/icons/Text.svg) **[!UICONTROL 文字]**&#x200B;視覺效果。 請參閱[將視覺效果新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
+
+1. 在面板或視覺效果中，從內容功能表選取&#x200B;**[!UICONTROL 編輯說明]**。
+
+   選取![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)完成編輯說明時，選取![CloseCircle](/help/assets/icons/CloseCircle.svg)以取消。
+
+您可以變更文字格式、新增超連結及新增影像。
 
 ## 調整格式 {#format}
 
@@ -23,12 +45,12 @@ ht-degree: 86%
 
 ## 新增超連結 {#hyperlinks}
 
-若要新增超連結，請醒目顯示文字並按一下功能表中的超連結圖示。超連結可連結到外部網站、文件頁面、[Workspace 專案/面板/視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hant)以及其他等，進一步協助您的項目收件者。
+若要新增超連結，請醒目顯示文字並在功能表中選取![連結](/help/assets/icons/Link.svg)。 您可以使用超連結來進一步協助您的專案收件者。 超連結可連結到外部網站、檔案頁面、[Workspace專案、面板或視覺效果](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links)等等。
 
 ![反白顯示連結圖示的文字選項。](assets/hyperlink.png)
 
 ## 新增影像 {#images}
 
-若要在專案中新增影像，請按一下功能表中的影像圖示並插入公開的影像 URL。影像 URL 必須可公開存取、以 `https` 開頭，且格式為 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持靜態和動畫影像。
+若要新增影像至專案，請在功能表中選取![影像](/help/assets/icons/Image.svg)，然後插入公開的影像URL。 影像 URL 必須可公開存取、以 `https` 開頭，且格式為 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持靜態和動畫影像。
 
 ![選取影像圖示的文字選項。](assets/image.png)

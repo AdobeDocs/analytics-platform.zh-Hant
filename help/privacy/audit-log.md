@@ -4,14 +4,33 @@ description: 瞭解如何檢視和管理Customer Journey Analytics稽核記錄�
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 65%
+source-wordcount: '837'
+ht-degree: 66%
 
 ---
 
-# 稽核記錄
+# 稽核記錄 {#audit-logs}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_auditlog_userid"
+>title="使用者 ID"
+>abstract="在包含所要使用者的記錄項目上點擊「資訊」按鈕，即可找到使用者 ID。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_auditlog_componentid"
+>title="元件 ID"
+>abstract="在包含所要元件的記錄項目上點擊「資訊」按鈕，即可找到元件 ID。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 為了提高系統中所執行活動的透明度和可見度，Adobe Customer Journey Analytics可讓您以「稽核記錄」的形式，稽核各種服務和功能的使用者活動。 這些記錄形成了稽核軌跡，可以幫助解決問題，並幫助您的企業有效地遵守公司資料管理原則和監管要求，例如健康保險便利和責任法案 (HIPAA)。
 
@@ -114,7 +133,7 @@ ht-degree: 65%
 | 元件類型 | 動作 |
 | --- | --- |
 | [!UICONTROL 註解] | <ul><li>建立</li><li>刪除</li><li>編輯</li></ul> |
-| [!UICONTROL 對象] | <ul><li>API 要求</li><li>建立</li><li>刪除</li><li>編輯</li><li>匯出</li><li>重新整理</li></ul> |
+| [!UICONTROL 客群] | <ul><li>API 要求</li><li>建立</li><li>刪除</li><li>編輯</li><li>匯出</li><li>重新整理</li></ul> |
 | [!UICONTROL 計算量度] | <ul><li>API 要求</li><li>建立</li><li>刪除</li><li>編輯</li></ul> |
 | [!UICONTROL 連線] | <ul><li>API 要求</li><li>建立</li><li>刪除</li><li>編輯</li></ul> |
 | [!UICONTROL 資料檢視] | <ul><li>API 要求</li><li>建立</li><li>刪除</li><li>編輯</li></ul> |

@@ -1,41 +1,58 @@
 ---
-description: 使用「摘要數字」和「摘要變更」視覺效果來呈現專案中的重要資料點。
+description: 使用「摘要編號」和「摘要變更」視覺效果來顯示專案中的重要資料點。
 title: 摘要數字和摘要變更
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 94%
+source-wordcount: '467'
+ht-degree: 44%
 
 ---
 
 # 摘要數字和摘要變更
 
-## 摘要數字視覺效果 {#summary-number}
+## 摘要數字 {#summary-number}
 
-使用「摘要數字」視覺效果來強調專案中重要的大數字。此視覺效果的運作方式如下：
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_summarynumber_button"
+>title="摘要數字"
+>abstract="建立顯示總計和小計的視覺效果。"
+
+<!-- markdownlint-enable MD034 -->
+
+使用![摘要](/help/assets/icons/123.svg) **[!UICONTROL 摘要數字]**&#x200B;視覺效果來強調專案中重要的大數字。 此視覺效果的運作方式如下，使用相關聯的資料來源：
 
 * 如果未選取儲存格，則會選取該欄的總計。
 * 如果選取單一儲存格，則會顯示該儲存格的摘要。
 * 如果選取多個儲存格，則會顯示第一個選取的儲存格。
 * 如果選取欄，則會挑選欄中第一個儲存格的值。
 
-按一下右上角的&#x200B;**「視覺效果設定」**&#x200B;齒輪，設定「摘要數字」設定：
+![摘要數字視覺效果](asses/../assets/summary-number.png)
 
-| 設定 | 定義 |
+視覺效果設定中有提供特定摘要數字選項。
+
+| 選項 | 定義 |
 |--- |--- |
-| 百分比 | 顯示百分比而非原始數據。 |
-| 可見圖例 | 顯示所顯示量度的相關資訊。 |
-| 縮簡值 | 選擇以縮簡值，顯示最多小數點後 3 位。 |
-| 值摘要依據: | 選擇以顯示一系列資料的最大值、最小值、平均值、中間值或總計。 |
+| **[!UICONTROL 縮簡值]** | 選取&#x200B;**[!UICONTROL Abbreviate value]**&#x200B;以智慧地縮簡數字值。 選取時，輸入數字以定義縮寫金額。 例如：<br/><table><tr><td>**原始值**</td><td>**縮寫值**</td><td>**結果**</td></tr><tr><td>12,011,141.25美元</td><td>未選取</td><td  align="right">12,011,141.25美元</td></tr><tr><td>12,011,141.25美元</td><td>已選取，設定為`0`</td><td align="right">1200萬美元</td></tr><tr><td>12,011,141.25美元</td><td> 已選取，設定為`1`</td><td  align="right">1200萬美元</td></tr><tr><td>12,011,141.25美元</td><td>已選取，設定為`2`</td><td align="right">1201萬美元</td></tr><tr><td>12,011,141.25美元</td><td>已選取，設定為`3`</td><td align="right">1201.1萬美元</td></tr></table> |
+| **[!UICONTROL 值摘要依據]** | 選擇此選項即可顯示一系列資料的最大值、最小值、平均值、中間值或總和。 |
 
-{style="table-layout:auto"}
+## 摘要變更 {#summary-change}
 
-## 摘要變更視覺效果 {#summary-change}
+<!-- markdownlint-disable MD034 -->
 
-使用摘要變更視覺效果可顯示兩個數字間的差異（變更）。
+>[!CONTEXTUALHELP]
+>id="cja_workspace_summarychange_button"
+>title="摘要變更"
+>abstract="建立視覺效果，顯示兩個數字間的差異（變更）"
+
+<!-- markdownlint-enable MD034 -->
+
+
+使用![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL 摘要變更]**&#x200B;視覺效果來顯示兩個數字間的差異（變更）。<!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
 
 <!--
 The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
@@ -54,11 +71,17 @@ The green and red color of the Summary Change can be controlled through [custom 
 ![摘要變更視覺效果顯示兩個數字間的差異。s](assets/summary-change.png)
 
 
-按一下右上角的&#x200B;**「視覺效果設定」**&#x200B;齒輪，設定「摘要變更」設定：
+作為視覺效果設定的一部分，可以使用特定的&#x200B;**[!UICONTROL 摘要變更選項]**。
 
-| 設定 | 定義 |
+| 選項 | 定義 |
 |--- |--- |
-| 百分比 | 顯示百分比而非原始數據。 |
-| 可見圖例 | 顯示所顯示量度的相關資訊。 |
-| 顯示百分比變化 | 顯示 2 個數字之間的百分比變化。 |
-| 顯示原始資料差異 | 顯示 2 個數字之間的原始差異。您也可以縮簡值，使用此選項顯示最多小數點後 3 位。 |
+| **[!UICONTROL 顯示百分比變更]** | 顯示2個數字之間的百分比變化。 |
+| **[!UICONTROL 顯示原始差異]** | 顯示2個數字之間的原始差異。 您也可以縮簡值，使用此選項顯示最多小數點後 3 位。 |
+| **[!UICONTROL 縮簡值]** | 選取&#x200B;**[!UICONTROL Abbreviate value]**&#x200B;以智慧地縮簡變更的值。 選取時，輸入數字以定義縮寫金額。 例如：<br/><table><tr><td>**原始值**</td><td>**縮寫值**</td><td>**結果**</td></tr><tr><td>12,011,141.25美元</td><td>未選取</td><td  align="right">12,011,141.25美元</td></tr><tr><td>12,011,141.25美元</td><td>已選取，設定為`0`</td><td align="right">1200萬美元</td></tr><tr><td>12,011,141.25美元</td><td> 已選取，設定為`1`</td><td  align="right">1200萬美元</td></tr><tr><td>12,011,141.25美元</td><td>已選取，設定為`2`</td><td align="right">1201萬美元</td></tr><tr><td>12,011,141.25美元</td><td>已選取，設定為`3`</td><td align="right">1201.1萬美元</td></tr></table> |
+
+>[!MORELIKETHIS]
+>
+>[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

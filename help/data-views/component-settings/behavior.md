@@ -5,14 +5,24 @@ exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 90%
+source-wordcount: '340'
+ht-degree: 82%
 
 ---
 
-# 行為元件設定
+# 行為元件設定 {#behavior-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_behavior"
+>title="行為"
+>abstract="決定如何彙總此維度中的條列專案。<br/><br/>**引數&#x200B;**<br/>**小寫**：可讓您指定欄位中的字串值是否應為小寫。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 行為設定可用於維度和量度。設定的可用性取決於元件型別和結構描述資料型別。
 

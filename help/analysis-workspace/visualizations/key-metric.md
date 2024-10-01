@@ -4,24 +4,32 @@ title: 關鍵量度摘要
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: b196b8c05ba05a3f46d71c10fdcaa2ad8ef0dcd6
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 84%
+source-wordcount: '585'
+ht-degree: 35%
 
 ---
 
-# 關鍵量度摘要
+# 關鍵量度摘要 {#key-metric-summary}
 
-The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。它提供多個視覺效果合併成單一視覺效果的優勢。
+<!-- markdownlint-disable MD034 -->
 
-* **[!UICONTROL 線段]**&#x200B;視覺效果會顯示主要和比較日期範圍的趨勢分析
+>[!CONTEXTUALHELP]
+>id="cja_workspace_keymetricsummary_button"
+>title="關鍵量度摘要"
+>abstract="建立視覺效果，就像折線圖、摘要變化圖和摘要數字圖的組合。 使用此視覺效果來比較兩個時段之間的重要量度趨勢。"
 
-* **[!UICONTROL 摘要百分比變更]**&#x200B;會顯示主要和比較日期範圍之間的量度增減
+<!-- markdownlint-enable MD034 -->
+
+
+![關鍵量度](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 關鍵量度摘要]**&#x200B;視覺化可讓您檢視一項重要的量度在單一時間範圍內的趨勢分析。 也能讓您比較兩個時間範圍內的量度成效。它提供多個視覺效果合併成單一視覺效果的優勢。
+
+* **[!UICONTROL 線]**&#x200B;視覺效果顯示主要和比較日期範圍的趨勢分析
+
+* **[!UICONTROL 摘要百分比變更]**&#x200B;顯示主要和比較日期範圍之間的量度增減
 
 * 量度目前的總值 ([!UICONTROL **摘要數字**])
-
-## 使用案例
 
 此視覺效果處理各種常見的使用案例，包括：
 
@@ -31,15 +39,15 @@ The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量
 
 * 高階主管想要了解本季與上一季之間的新預約變化。
 
-## 設定關鍵量度摘要
+## 使用
 
-1. 從左側邊欄的「**[!UICONTROL 視覺效果]**」選單，將&#x200B;**[!UICONTROL 關鍵量度摘要]**&#x200B;視覺效果拖曳至面板。
+1. 新增![關鍵量度](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 關鍵量度摘要]**&#x200B;視覺效果。 請參閱[將視覺效果新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
 
-1. 選取量度、主要日期範圍、比較日期範圍及篩選器（如有需要），以設定視覺效果：
+1. 選取&#x200B;**[!UICONTROL 量度]**、**[!UICONTROL 主要日期範圍]**、**[!UICONTROL 比較日期範圍]** （選用）和&#x200B;**[!UICONTROL 篩選器]** （選用），以設定視覺效果：
 
-   ![關鍵量度組態顯示量度、主要日期範圍、比較日期範圍和區段的選項。](assets/key-metric-config.png)
+   ![關鍵量度組態顯示量度、主要日期範圍、比較日期範圍和區段的選項。](assets/key-metrics-config.png)
 
-   | 組態設定 | 定義 |
+   | 選項 | 說明 |
    | --- | --- |
    | **[!UICONTROL 量度]** | 選取想要檢查的量度。支援所有量度。 |
    | **[!UICONTROL 主要日期範圍]** | 任意形狀表格目前的日期範圍。 |
@@ -48,7 +56,7 @@ The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量
 
    {style="table-layout:auto"}
 
-1. 按一下&#x200B;**[!UICONTROL 「建置」]**。
+1. 選取「**[!UICONTROL 建立]**」。
 
 <!--## How the Key Metric Summary visualization handles the comparison date range
 
@@ -77,49 +85,43 @@ Comparison date range is set to a non-relative date range, such as 'Feb 2nd, 202
 
 When you change the panel's date range to '4 days ago', the comparison date range remains at the previous selection. -->
 
-## 檢視輸出
+關鍵量度摘要的輸出如下所示：
 
-輸出應該如下所示：
+![顯示量度、摘要變更、摘要數字和折線圖的關鍵量度輸出。](assets/key-metrics.png)
 
-![顯示量度、摘要變更、摘要數字和折線圖的關鍵量度輸出。](assets/key-metric-output.png)
+* **[!UICONTROL 上一期]**&#x200B;線圖（一律以灰色顯示）對應於設定步驟中的&#x200B;**[!UICONTROL 比較日期範圍]**。
 
-請注意：
-
-* **[!UICONTROL 前一期]**&#x200B;線圖 (總是以灰色顯示) 對應於設定步驟中的&#x200B;**[!UICONTROL 比較日期範圍]**。
-
-* 如果未在設定期間指定比較日期範圍，或在視覺效果設定中隱藏日期比較範圍，僅會顯示主要日期範圍的線圖。將會隱藏摘要變更。
+* 如果未在設定期間指定比較日期範圍，或在視覺效果設定中隱藏日期比較範圍，僅會顯示主要日期範圍的線圖。摘要變更已隱藏。
 
 * 您可以從此處將指標停留在線圖上，以查看個別天數的統計資料：
 
-![造訪統計資料](assets/key-metric-output2.png)
 
-## 視覺效果設定
+## 設定
 
-關鍵量度摘要提供多種彈性設定，以為重要量度提供更佳的報告和溝通。您可以透過視覺效果右上角的齒輪圖示存取設定。
+建立視覺效果後，您可以編輯原始設定。
 
-![顯示摘要顯示型別、一般和顯示選項的關鍵量度摘要設定。](assets/key-metric-settings.png)
+1. 在視覺效果頂端選取「![編輯](/help/assets/icons/Edit.svg)」**[!UICONTROL 設定視覺效果]**。
+
+   系統會將您帶回原始設定對話方塊。
+
+1. 依偏好變更設定。 選取&#x200B;**[!UICONTROL 重設]**&#x200B;以重設目前的設定。 選取&#x200B;**[!UICONTROL 建置]**&#x200B;以重建視覺效果。
+
+## 設定
+
+在視覺效果設定中，可以使用特定的關鍵量度摘要設定。
 
 | 設定 | 說明 |
-| --- | --- |
-| **[!UICONTROL 強調百分比變化]** | 在視覺效果中心，以顯著粗體顯示摘要變更 |
-| **[!UICONTROL 強調數字值]** | 在視覺效果中心，以顯著粗體顯示摘要數字 |
-| **[!UICONTROL 可見圖例]** | 顯示或隱藏視覺效果底部的圖例 |
-| **[!UICONTROL 顯示註解]** | 顯示或隱藏管理員新增的註解 |
-| **[!UICONTROL 顯示走勢圖]** | 顯示或隱藏圖表底部的折線圖。隱藏時，圖例將會變更，以不再參考線條 |
-| **[!UICONTROL 在走勢圖上顯示最小值和最大值]** | 在主要和比較折線圖上顯示或隱藏最小值和最大值 |
-| **[!UICONTROL 顯示比較]** | 顯示或隱藏比較資料。隱藏時，比較折線圖和摘要變更物件將會隱藏起來。 |
-| **[!UICONTROL 顯示總數]** | 顯示或隱藏摘要數字 |
-| **[!UICONTROL 顯示原始差異]** | 顯示主要日期範圍與次要日期範圍中量度總值之間的原始差異 |
-| **[!UICONTROL 縮簡值]** | 縮簡數字值，以簡化傳達的見解 (例如 20,000 -> 20K) |
+|---|---|
+| **[!UICONTROL 摘要顯示型別]** | 在&#x200B;**[!UICONTROL 強調百分比變化]**&#x200B;或&#x200B;**[!UICONTROL 強調數值]**&#x200B;之間選取。 |
+| **[!UICONTROL 顯示趨勢線]** | 在視覺效果中顯示趨勢線。 |
+| **[!UICONTROL 在趨勢線上顯示最大值和最小值]** | 在趨勢線上顯示最大值和最小值。 |
+| **[!UICONTROL 顯示比較百分比與趨勢線]** | 顯示與趨勢線的比較百分比。 如果未選取，則會同時隱藏兩者。 |
+| **[!UICONTROL 數值選項]** | **[!UICONTROL 顯示數字值的總數]**&#x200B;或&#x200B;**[!UICONTROL 顯示原始差異]**。 |
+| **[!UICONTROL 縮簡值]** | 選取&#x200B;**[!UICONTROL Abbreviate value]**&#x200B;以智慧地縮簡數字值。 選取時，輸入數字以定義縮寫金額。 例如：<br/><table><tr><td>**原始值**</td><td>**縮寫**</td><td>**結果**</td></tr><tr><td>12,011,141.25美元</td><td>未選取</td><td  align="right">12,011,141.25美元</td></tr><tr><td>12,011,141.25美元</td><td>已選取，設為1</td><td align="right">1200萬美元</td></tr><tr><td>12,011,141.25美元</td><td>已選取，設定為2</td><td  align="right">1200萬美元</td></tr><tr><td>12,011,141.25美元</td><td>已選取，設定為2</td><td align="right">1201.1萬美元</td></tr><tr><td>12,011,141.25美元</td><td>選取，設為3</td><td align="right">1201.1萬美元</td></tr></table> |
 
-## 編輯視覺效果
-
-建置視覺效果後，您仍可編輯原始的設定。
-
-1. 按一下視覺效果右上角的鉛筆圖示 (設定齒輪圖示旁)。
-
-   ![視覺效果編輯圖示.s](assets/edit-icon.png)
-
-   現在您會返回原始設定檢視。
-
-1. 依偏好變更量度、主要日期範圍、比較日期範圍或篩選。
+>[!MORELIKETHIS]
+>
+>[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

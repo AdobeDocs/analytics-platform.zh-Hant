@@ -5,14 +5,24 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 1fddf0e8421b35021a1f1641a684cacbc0ec1f0d
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '8366'
-ht-degree: 12%
+source-wordcount: '8842'
+ht-degree: 16%
 
 ---
 
-# 衍生欄位
+# 衍生欄位 {#derived-fields}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields"
+>title="衍生欄位"
+>abstract="衍生欄位可讓您透過可自訂的規則產生器來即時定義資料操作。然後，您可以將該衍生欄位用作工作區中的元件 (量度或維度)，或甚至進一步定義為資料檢視中的元件。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 衍生欄位是Adobe Customer Journey Analytics中即時報告功能的重要方面。 衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以在[Workspace](../../analysis-workspace/home.md)中使用該衍生欄位作為元件（量度或維度），甚至在[資料檢視](../data-views.md)中進一步將該衍生欄位定義為元件。
 
@@ -32,6 +42,8 @@ ht-degree: 12%
 
 ![衍生欄位對話方塊的熒幕擷圖](assets/derived-field-dialog.png)
 
+
+![方案總覽](/help/assets/icons/ProgramOverview.svg)
 
 |  | 名稱 | 說明 |
 |---------|----------|--------|
@@ -386,6 +398,16 @@ ht-degree: 12%
 
 ### 情況 {#casewhen}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_casewhen"
+>title="情況"
+>abstract="此函數提供了以下功能：根據一個或多個欄位中定義的標準來套用條件。接著會根據條件的順序，使用這些標準來定義新衍生欄位中的值。"
+
+<!-- markdownlint-enable MD034 -->
+
+
 根據一或多個欄位的定義條件套用條件。 然後，系統會根據條件的順序，使用這些條件來定義新衍生欄位中的值。
 
 +++ 詳細資料
@@ -592,7 +614,7 @@ ht-degree: 12%
 
 ## 詳細資訊 {#casewhen-more-info}
 
-Customer Journey Analytics使用巢狀容器結構，仿照Adobe Experience Platform的[XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) (Experience Data Model)建模。 如需詳細背景資訊，請參閱[容器](../create-dataview.md#containers)和[篩選容器](../../components/filters/filters-overview.md#filter-containers)。 此容器模型雖然本身有彈性，但在使用規則產生器時施加了一些限制。
+Customer Journey Analytics使用巢狀容器結構，仿照Adobe Experience Platform的[XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-hant) (Experience Data Model)建模。 如需詳細背景資訊，請參閱[容器](../create-dataview.md#containers)和[篩選容器](../../components/filters/filters-overview.md#filter-containers)。 此容器模型雖然本身有彈性，但在使用規則產生器時施加了一些限制。
 
 Customer Journey Analytics會使用以下預設容器模型：
 
@@ -615,6 +637,16 @@ Customer Journey Analytics會使用以下預設容器模型：
 <!-- CLASSIFY -->
 
 ### 分類 {#classify}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_classify"
+>title="分類"
+>abstract="此函數可用文字輸入定義一組值，並將其取代為對應的值。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 定義一組值，在新衍生欄位中以對應值取代。
 
@@ -751,6 +783,16 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 ### 串連 {#concatenate}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_concatenate"
+>title="串連"
+>abstract="此函數提供將兩個或多個欄位、衍生欄位或使用者輸入字串值組合到具有已定義分隔符號的單一欄位的能力"
+
+<!-- markdownlint-enable MD034 -->
+
+
 將欄位值結合至具有已定義分隔字元的單一新衍生欄位。
 
 +++ 詳細資料
@@ -827,6 +869,16 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 
 ### 重複資料刪除 {#dedup}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_deduplicate"
+>title="重複資料刪除"
+>abstract="此函數功能可以將欄位設定成在工作階段或人員層級上僅計算不重複值。此外，重複資料刪除 ID 可用於確保：根據給定 ID (例如購買 ID)，僅會使用一個值 (第一個實例或最後一個實例)。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 避免多次計算值。
 
@@ -911,7 +963,17 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 <!-- FIND AND REPLACE -->
 
-### 尋找並取代 {#find-replace}
+### 尋找並取代 {#find-and-replace}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_findandreplace"
+>title="尋找和取代"
+>abstract="此函數提供了以下功能：在選定欄位中尋找所有值，並將這些值取代為新衍生欄位中的不同值。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 尋找所選欄位中的所有值，並在新的衍生欄位中以不同的值取代這些值。
 
@@ -983,6 +1045,16 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 ### 查詢 {#lookup}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_lookup"
+>title="查詢"
+>abstract="此函數提供了使用資料集之間的比對索引鍵來使用查詢資料集中的欄位的功能。"
+
+<!-- markdownlint-enable MD034 -->
+
+
 使用查詢資料集中的欄位來查詢值，並在新的衍生欄位中傳回值或用於進一步的規則處理。
 
 +++ 詳細資料
@@ -1034,6 +1106,16 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 ### 小寫 {#lowercase}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_lowercase"
+>title="小寫"
+>abstract="此函式將整個字串文字轉換為小寫值。"
+
+<!-- markdownlint-enable MD034 -->
+
+
 將欄位中的值轉換為小寫，並將其儲存到新的衍生欄位中。
 
 +++ 詳細資料
@@ -1084,6 +1166,16 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- MATH -->
 
 ### Math {#math}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_math"
+>title="Math"
+>abstract="此函數提供了在欄位上執行數學運算的能力。此函數可用於執行基本算術運算，例如加法、減法、乘法和除法。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 在數值欄位上使用基本的數學運運算元（加、減、乘、除與加冪）。
 
@@ -1166,6 +1258,16 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 ### 合併欄位 {#merge}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_mergefields"
+>title="合併欄位"
+>abstract="此函數能夠從兩個不同的欄位獲取值，並將其各自的值包含在單一維度中。此規則會先檢查是否已設定第一個值。如果沒有，則它將使用第二個值，依此類推。"
+
+<!-- markdownlint-enable MD034 -->
+
+
 將兩個不同欄位的值合併到新的衍生欄位。
 
 +++ 詳細資料
@@ -1231,6 +1333,16 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- NEXT OR PREVIOUS -->
 
 ### 下一個或上一個 {#next-previous}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_nextprevious"
+>title="下一個或上一個"
+>abstract="此函式提供檢視針對指定欄位收集的下一個或上一個值的功能。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 以欄位作為輸入，並解析工作階段或使用範圍內該欄位的下一個或上一個值。 這僅適用於「造訪」和「事件」表格欄位。
 
@@ -1303,6 +1415,16 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- REGEX REPLACE -->
 
 ### 規則運算式取代 {#regex-replace}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_regexreplace"
+>title="規則運算式取代"
+>abstract="此函數提供了使用規則運算式擷取字串部分的功能。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 使用規則運算式將欄位中的值取代為新的衍生欄位。
 
@@ -1401,6 +1523,16 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### Split {#split}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_split"
+>title="Split"
+>abstract="此函數提供了根據分隔符號將一個欄位分割為多個欄位的功能。"
+
+<!-- markdownlint-enable MD034 -->
+
+
 將欄位中的值分割成新的衍生欄位。
 
 +++ 詳細資料
@@ -1493,6 +1625,16 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 總結 {#summarize}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_summarize"
+>title="總結"
+>abstract="此函數提供了在事件、工作階段或人員層級上彙總值的功能。根據所選欄位的欄位類型，將提供不同的選項。"
+
+<!-- markdownlint-enable MD034 -->
+
+
 在事件、工作階段和使用者層級，將彙總型別函式套用至量度或維度。
 
 +++ 詳細資料
@@ -1561,6 +1703,16 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 ### 修剪
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_trim"
+>title="修剪"
+>abstract="此函數提供以下功能：從字串的開頭或結尾修剪空白字元或特殊字元；從字串的開頭或結尾指定用於傳回值的字元數。"
+
+<!-- markdownlint-enable MD034 -->
+
+
 從欄位值的開頭或結尾，將空格、特殊字元或字元數修剪成新的衍生欄位。
 
 +++ 詳細資料
@@ -1569,7 +1721,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 欄位]<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>修剪空白字元</li><li>修剪特殊字元<ul><li>特殊字元的輸入</li></ul></li><li>從左側修剪<ul><li>從 <ul><li>字串開始</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li></ul></li><li>結束日期<ul><li>字串結束</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li><li>長度</li></ul></li></ul></li><li>從右側修剪<ul><li>從 <ul><li>字串結束</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li></ul></li><li>結束日期<ul><li>字串開始</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li><li>長度</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位1個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 欄位]<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>修剪空白字元</li><li>修剪特殊字元<ul><li>特殊字元的輸入</li></ul></li><li>從左側修剪<ul><li>從 <ul><li>字串開始</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li></ul></li><li>結束日期<ul><li>字串結尾</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li><li>長度</li></ul></li></ul></li><li>從右側修剪<ul><li>從 <ul><li>字串結尾</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li></ul></li><li>結束日期<ul><li>字串開始</li><li>位置<ul><li>位置#</li></ul></li><li>字串<ul><li>字串值</li><li>索引</li><li>標幟以包含字串</li></ul></li><li>長度</li></ul></li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位1個函式</p> | <p>新增衍生欄位</p> |
 
 
 ## 使用案例1 {#trim-uc1}
@@ -1672,6 +1824,16 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 <!-- URL PARSE -->
 
 ### URL 剖析
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_derivedfields_urlparse"
+>title="URL 剖析"
+>abstract="此函數提供剖析 URL 不同部分的能力，包括主機、路徑或查詢參數。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 剖析URL的不同部分，包括通訊協定、主機、路徑或查詢引數。
 

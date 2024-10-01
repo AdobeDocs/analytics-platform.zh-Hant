@@ -4,141 +4,207 @@ title: 建立篩選器
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: e1f1e37293f1a18616b11fea685d372ec499c407
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 21%
+source-wordcount: '1450'
+ht-degree: 4%
 
 ---
 
-# 篩選產生器
+# 建立篩選器 {#build-filters}
 
-[!UICONTROL 篩選器產生器]可讓您建立簡單或複雜的篩選器，用於識別跨造訪及事件的人員屬性和動作。 它提供畫布來拖放量度維度、事件或其他篩選器，以便根據階層邏輯、規則和運運算元來篩選人員。
+<!-- markdownlint-disable MD034 -->
 
-如需有關如何建立僅套用至建立篩選之專案的快速篩選的資訊，請參閱[快速篩選](/help/components/filters/quick-filters.md)。
+>[!CONTEXTUALHELP]
+>id="cja_components_filters_createaudience"
+>title="建立客群"
+>abstract="您可以透過篩選建立客群，並與 Adobe Experience Platform 共用以啟用客群。"
 
-## 存取篩選產生器
+<!-- markdownlint-enable MD034 -->
 
-您可以透過下列任何方式存取篩選產生器：
 
-* **上層導覽**：按一下&#x200B;**[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 篩選器]**。
-* **[!UICONTROL Analysis Workspace]**：在Analysis Workspace中開啟專案時，選取&#x200B;**[!UICONTROL +元件]** > **[!UICONTROL 建立篩選器]**。
-* **[!UICONTROL Report Builder]**： [使用Report Builder](/help/report-builder/work-with-filters.md)中的篩選器。
+**[!UICONTROL 篩選器產生器]**&#x200B;對話方塊可用來建立新篩選器或編輯現有篩選器。 對話方塊的標題為&#x200B;**[!UICONTROL 新篩選器]**&#x200B;或&#x200B;**[!UICONTROL 編輯篩選器]**，篩選條件為您從[[!UICONTROL 篩選器]管理員](/help/components/filters/manage-filters.md)建立或管理的篩選器。
 
-## 產生器條件概觀 {#section_F61C4268A5974C788629399ADE1E6E7C}
+>[!BEGINTABS]
 
-您可以新增規則定義和容器以定義篩選器。 （如需有關存取篩選產生器的資訊，請參閱[存取篩選產生器](#access-the-filter-builder)。）
+>[!TAB 篩選產生器]
 
-![篩選器產生器，顯示本節所述的新篩選器選項。](assets/segment_builder_ui_2.png)
+![顯示下一節中說明的欄位和選項的篩選器詳細資料視窗。](assets/filter-builder.png)
 
-| UI 元素 | 說明 |
-| --- | --- |
-| **[!UICONTROL 標題]** | 為篩選器命名 |
-| **[!UICONTROL 說明]** | 提供篩選的詳細說明。 |
-| **[!UICONTROL 標記]** | [標籤您正在建立的篩選器](/help/components/filters/manage-filters.md)，方法為選擇現有標籤清單中的標籤或是建立新標籤。 |
-| **[!UICONTROL 定義]** | 您可以[在此建立和設定篩選器](/help/components/filters/filters-overview.md)、新增規則、巢狀內嵌及排序容器。 |
-| **[!UICONTROL 包括]** | （頂端容器選擇器。） 可讓您選取最上層[容器](/help/components/filters/filters-overview.md) （[!UICONTROL 人員]，[!UICONTROL 工作階段]，[!UICONTROL 事件]）。 預設的頂層容器為「事件」容器。 |
-| **[!UICONTROL 選項]** | （齒輪）圖示 | <ul><li>**[!UICONTROL +新增容器]**：可讓您新增新的容器（在頂層容器下）至篩選定義。</li><li>**[!UICONTROL 排除]**：可讓您透過排除一或多個維度、篩選器或量度來定義篩選器。</li></ul> |
-| **[!UICONTROL 維度]** | 從「Dimension」清單拖放過來的元件（橘色側欄）。 |
-| **[!UICONTROL 運算子]** | 您可以使用選取的運運算元來比較和限制值。 （等於、不等於、包含、包含全部等） |
-| **[!UICONTROL 值]** | 您針對維度、篩選器或量度所輸入或選取的值。 |
-| **[!UICONTROL 歸因模型]** | 這些模型僅適用於維度，可決定要篩選的維度值。 Dimension模型在循序篩選中特別有用。<ul><li>**[!UICONTROL 重複]** (預設值)：包含維度的例項和持續值。</li><li>**[!UICONTROL 例項]**：包含維度的例項。</li><li>**[!UICONTROL 非重複例項]**：包含維度的唯一例項 (非重複)。這是在排除重複例項時套用於「流量」中的模型。</li></ul>如需範例，請參閱下方的「歸因模型」一節。 |
-| **[!UICONTROL And/Or/Then]** | 指派容器或規則之間的 [!UICONTROL AND/OR/THEN] 運算子。THEN運運算元可讓您[定義循序篩選器](/help/components/filters/filters-overview.md)。 |
-| **[!UICONTROL 量度]** | （綠色側欄）從量度清單拖放過來的量度。 |
-| **[!UICONTROL X]** | （刪除）可用來刪除這個部分的篩選定義。 |
-| **[!UICONTROL 從篩選器建立對象]** | 從篩選器建立受眾時，可讓您與Adobe Experience Platform共用篩選器以供啟用。 [了解更多...](/help/components/audiences/audiences-overview.md) |
-| **[!UICONTROL 搜尋元件]** | 搜尋維度、篩選器或量度清單。 |
-| **[!UICONTROL 維度]** | （清單）可包含在篩選器中的維度清單。 按一下標題以展開。 |
-| **[!UICONTROL 量度]** | 您可以納入篩選器中的量度清單。 按一下標題以展開。 |
-| **[!UICONTROL 篩選器]** | 可包含在篩選器中的現有篩選器清單。 按一下標題以展開。 |
-| **[!UICONTROL 資料檢視選擇器]** | 可讓您選取要將此篩選器儲存哪個報表套裝底下。 您仍可在所有資料檢視中使用該篩選器。 |
-| **[!UICONTROL 篩選器預覽]** | 可讓您預覽關鍵量度，以檢視您是否具備有效的篩選器以及篩選器的廣度。 代表資料集的劃分，您可以預期資料集將會顯示您是否套用此篩選器。 顯示3個同心圓和一個清單，針對資料集執行篩選時，顯示[!UICONTROL 人員]、[!UICONTROL 工作階段]和[!UICONTROL 報告執行]的相符數目和百分比。<p>此圖表會在您建立或變更篩選器定義後立即更新。 |
-| **[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 取消]** | 儲存或取消篩選器。 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;之後，您會進入「篩選器管理器」，您可在此管理篩選器。 |
+>[!TAB 建立或編輯篩選器]
 
-## 建立篩選器 {#build-filters}
+![顯示下一節中說明的欄位和選項的篩選器詳細資料視窗。](assets/create-edit-filter.png)
 
-1. 只要將Dimension、篩選器或量度事件從左窗格拖曳至[!UICONTROL 定義]欄位即可。
+>[!ENDTABS]
 
-   ![](assets/drag_n_drop_dimension.png)
+1. 指定下列詳細資料（![必要](/help/assets/icons/Required.svg)為必要）：
 
-1. 從下拉式選單中設定[運算子](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=zh-Hant)。
-1. 針對選取的項目輸入或選取值。
-1. 必要時使用 **[!UICONTROL And]**、**[!UICONTROL Or]** 或 **[!UICONTROL Then]** 規則新增額外的限制。
-1. 放置容器並設定規則後，可在右上角的驗證圖表中檢視篩選結果。 驗證器會指出與您建立之篩選器相符之頁面檢視、造訪次數和不重複人員的百分比與絕對數量。
-1. 在&#x200B;**[!UICONTROL 「標記」]**&#x200B;底下，選取現有標記或建立新標記即可[標記](/help/components/filters/filters-tag.md)容器。
-1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存篩選。
+   | 元素 | 說明 |
+   | --- | --- |
+   | **[!UICONTROL 資料視圖]** | 您可以選取篩選的資料檢視。  您定義的篩選器可在資料檢視的[設定](/help/data-views/create-dataview.md#settings-filters)索引標籤中作為篩選器使用。 |
+   | **[!UICONTROL 僅限專案的篩選器]** | 資訊方塊，說明篩選僅會顯示在建立該篩選的專案中，且不會將該篩選新增至您的元件清單中。 啟用&#x200B;**[!UICONTROL 讓此篩選器可用於您的所有專案，並將其新增至您的元件清單]**&#x200B;以變更該設定。 只有當您使用[!UICONTROL 快速篩選]介面中的&#x200B;**[!UICONTROL 開啟產生器]**&#x200B;來建立[快速篩選](quick-filters.md)，並將快速篩選資訊轉換為一般篩選時，才會顯示此資訊方塊。 |
+   | **[!UICONTROL 標題]** ![必要](/help/assets/icons/Required.svg) | 為篩選器命名，例如`Last month mobile customers`。 |
+   | **[!UICONTROL 說明]** | 提供篩選的說明，例如，`Filter to define the mobile customers for the last month`。 |
+   | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標籤來組織篩選器。 開始輸入以尋找現有可選取的標籤。 或按&#x200B;**[!UICONTROL ENTER]**&#x200B;以新增標籤。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標籤。 |
+   | **[!UICONTROL 定義]** ![必要](/help/assets/icons/Required.svg) | 使用[定義產生器](#definition-builder)定義您的篩選器。 |
 
-   您會進入[篩選器管理器](/help/components/filters/manage-filters.md)，您可在此透過多種方式標籤、共用及管理您的篩選器。
+   {style="table-layout:auto"}
 
-## 新增容器 {#containers}
+1. 若要驗證您的篩選器定義是否正確，請使用右上方的持續更新篩選器結果預覽。
+1. 若要從篩選器建立對象並與Experience Platform共用對象，請選取&#x200B;**[!UICONTROL 從篩選器建立對象]**。 如需詳細資訊，請參閱[建立和發佈對象](/help/components/audiences/publish.md)。
+1. 選取：
+   * **[!UICONTROL 儲存]**&#x200B;以儲存篩選。
+   * **[!UICONTROL 另存新檔]**&#x200B;以儲存篩選的復本。
+   * **[!UICONTROL 刪除]**&#x200B;以刪除篩選器。
+   * **[!UICONTROL 取消]**&#x200B;以取消您對篩選器所做的任何變更，或取消建立新的篩選器。
 
-您可以[建立容器的架構](/help/components/filters/filters-overview.md)，然後在當中放置邏輯規則和運算子。
 
-1. 按一下&#x200B;**[!UICONTROL 選項>新增容器]**。
+## 定義產生器
 
-   新的&#x200B;[!UICONTROL **Event**]&#x200B;容器開啟，但未識別&#x200B;[!UICONTROL **Event**] （頁面檢視）。
+您可以使用定義產生器來建構您的篩選器定義。 在該建構中，您會使用元件、容器、運運算元和邏輯。
 
-   ![](assets/new_container.png)
+您可以設定定義的型別和範圍：
 
-1. 視需要變更容器類型。
-1. 從左窗格將Dimension、篩選器或事件拖曳至容器。
-1. 繼續從定義上方的頂層「**[!UICONTROL 選項]**」>「**[!UICONTROL 新增容器]**」按鈕新增容器，或從容器內新增容器以巢狀內嵌邏輯。
+1. 若要指定定義的型別，請指定您要讓組建成為包含或排除定義。 選取![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 選項]**，並從下拉式清單切換&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**。
+1. 若要指定定義範圍，請從&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉式清單中選取，以決定定義範圍是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 工作階段]**&#x200B;或&#x200B;**[!UICONTROL 人員]**。
 
-   **或**
+您稍後一律可以變更這些設定。
 
-   選取一或多個規則，然後按一下「**[!UICONTROL 選項]**」>「**[!UICONTROL 從選項新增容器]**」。這會將您的選項轉變成個別容器。
+### 元件
 
-## 使用日期範圍 {#date-ranges}
+建構篩選定義的重要部分是使用維度、量度、現有篩選器和日期範圍。 這些元件都可從篩選產生器的元件面板使用。
 
-您可以建立包含滾動日期範圍的篩選器，以回答與持續性促銷活動或事件有關的問題。
+![開始建立定義](assets/start-building-filter.gif){width=100%}
 
-例如，您可以輕鬆建立包含「過去60天內購買過一次的人」的篩選器。
+若要新增元件：
 
-您建立「工作階段」容器，並在其中加入[!UICONTROL 最近60天]時間範圍及量度[!UICONTROL 訂單大於或等於1] （含AND運運算元）。
+1. 將元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、篩選器和/或Dimension拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
+1. 指定元件的詳細資料。 例如，從&#x200B;**[!UICONTROL 選取值]**&#x200B;中選取值。 或輸入值。 指定一或多個值的內容和方式取決於元件和運運算元。
+1. 選擇性地修改預設運運算元。 例如，從&#x200B;**[!UICONTROL 等於]**&#x200B;到&#x200B;**[!UICONTROL 等於任何]**。 如需可用運運算元的詳細概觀，請參閱[運運算元](operators.md)。
 
-以下是有關在篩選器中使用滾動式日期範圍的影片：
+若要編輯元件：
+
+* 從運運算元下拉式選單中選取元件的新運運算元。
+* 視需要選取或指定不同的運運算元值。
+* 如果元件型別是尺寸，您可以定義歸因模型。 如需詳細資訊，請參閱[歸因模型](#attribution-models)。
+
+若要刪除元件：
+
+* 在元件中選取![CrossSize75](/help/assets/icons/CrossSize75.svg)。
+
+### 容器
+
+您可以將多個元件群組在一個或多個容器中，並定義容器內和容器之間的邏輯。 容器可讓您為篩選器建置複雜的定義。
+
+![新增容器](assets/add-container.gif){Width=100%}
+
+* 若要新增容器，請從![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 選項]**&#x200B;中選取&#x200B;**[!UICONTROL 新增容器]**。
+* 若要將現有元件新增至容器，請將該元件拖放至容器中。
+* 若要將另一個元件新增至容器，請將元件面板中的元件拖放至容器中。 使用藍色插入線作為參考線。
+* 若要在容器外部新增另一個元件，請從元件面板將元件拖放至容器外部、主要定義容器內。 使用藍色插入線作為參考線。
+* 若要修改容器中元件之間、容器之間或容器與元件之間的邏輯，請選取適當的&#x200B;**[!UICONTROL 和]**、**[!UICONTROL 或]**、**[!UICONTROL 然後]**。 選取「Then」時，可將篩選器轉換為循序篩選器。 如需詳細資訊，請參閱[建立循序篩選器](seg-sequential-build.md)。
+* 若要切換容器層級，請選取![網頁頁面](/help/assets/icons/WebPage.svg) **[!UICONTROL 事件]**、![造訪](/help/assets/icons/Visit.svg) **[!UICONTROL 工作階段]**&#x200B;或![使用者](/help/assets/icons/User.svg) **[!UICONTROL 人員]**。
+
+您可以在容器中使用![Setting](/help/assets/icons/Setting.svg)進行下列動作：
+
+| 容器動作 | 說明 |
+|---|---|
+| **[!UICONTROL 新增容器]** | 將巢狀容器新增至容器。 |
+| **[!UICONTROL 排除]** | 從篩選器定義中的容器排除結果。 薄紅色左列可識別排除容器。 |
+| **[!UICONTROL 包括]** | 在篩選定義中包含來自容器的結果。 包含為預設值。 薄灰色左列可識別包含容器。 |
+| **[!UICONTROL 名稱容器]** | 從容器的預設描述重新命名容器。 在文字欄位中輸入名稱。 如果您未提供任何輸入，則會使用預設說明。 |
+| **[!UICONTROL 刪除容器]** | 從定義中刪除容器。 |
+
+
+## 日期範圍
+
+您可以建立包含滾動日期範圍的篩選器。 因此，您可以回答與持續性促銷活動或事件有關的問題。 例如，您可以建立篩選器，包含&#x200B;*過去60天內進行線上購買的所有人*。
+
+![使用滾動日期範圍篩選](assets/filter-rolling-date-range.gif)
+
++++ 以下是有關在篩選器中使用滾動式日期範圍的影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
+{{videoaa}}
+
++++
+
 ## 堆疊篩選器 {#stack}
 
-棧疊篩選器的運作方式是使用&#39;and&#39;運運算元結合每個篩選器中的准則，然後套用結合後的准則。 您可以直接在Workspace專案中或在篩選產生器中完成此作業。
+您可以使用篩選器來建立篩選器。 當您在篩選器中使用篩選器時，可以最佳化篩選器並降低複雜性。
 
-例如，棧疊「行動電話使用者」篩選器和「美國地理」篩選器只會傳回美國行動電話使用者的資料。
+想像您想要依裝置型別(2)和美國狀態(50)的組合進行篩選。 您可以建立100個篩選器，每個篩選器分別代表裝置型別（行動電話與平板電腦）和美國州別的唯一組合。 若要取得Californian平板電腦使用者，您可以使用100個篩選器之一：
 
-您可以將這些篩選器視為建置區塊或模組，您可將其納入篩選器庫中，讓使用者自行選擇使用。 如此一來，您就可以大幅減少所需的篩選器數量。 例如，假設您有40個篩選器：
+![CA和平板電腦的簡單篩選器](assets/filter-ca-tablet-single.png)
 
-* 20 個代表不同國家/地區的行動電話使用者 (US_mobile、Germany_mobile、France_mobile、Brazil_mobile 等等)
-* 20 個代表不同國家/地區的平板電腦使用者 (US_tablet、Germany_tablet、France_tablet、Brazil_tablet 等等)
+或者，您可以定義52個篩選器：50個篩選器適用於美國各州，一個適用於行動電話，一個適用於平板電腦。 然後棧疊篩選器以取得相同的結果。 若要取得Californian平板電腦使用者，您可棧疊兩個篩選器：
 
-透過使用篩選器棧疊，您可以將篩選器數量減少到22個，然後視需要棧疊。 您需要建立下列篩選器：
+CA和平板電腦的![棧疊篩選器](assets/filter-ca-tablet-stacked.png)
 
-* 適用於行動使用者的單一篩選器
-* 平板電腦使用者適用一個篩選器
-* 適用於不同地理區域的20個篩選器
 
->[!NOTE]
->
->將兩個篩選器棧疊在一起時，預設會使用AND陳述式加以連結。 無法將其變更為 OR 陳述式。
+## 歸因 {#attribution}
 
-1. 前往篩選產生器。
+<!-- markdownlint-disable MD034 -->
 
-1. 提供篩選的標題和說明。
+>[!CONTEXTUALHELP]
+>id="cja_components_filters_attribution_repeating"
+>title="重複"
+>abstract="包含維度的例項和持續值。"
 
-1. 按一下&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;以在左側導覽中顯示篩選器清單。
+<!-- markdownlint-enable MD034 -->
 
-1. 將您要棧疊的篩選器拖曳至篩選器定義畫布。
+<!-- markdownlint-disable MD034 -->
 
-1. 選取「[!UICONTROL **儲存**]」。
+>[!CONTEXTUALHELP]
+>id="cja_components_filters_attribution_instance"
+>title="例項"
+>abstract="包含維度的例項和持續值。"
 
-## 歸因模型 {#attribution}
+<!-- markdownlint-enable MD034 -->
 
-![](assets/attribution-models.jpg)
+<!-- markdownlint-disable MD034 -->
 
-**範例：eVar1 = A**&#x200B;的事件篩選器
+>[!CONTEXTUALHELP]
+>id="cja_components_filters_attribution_nonrepeatinginstance"
+>title="非重複的例項"
+>abstract="包含維度的唯一（非重複）例項。"
 
-| 範例 | A | A | A (持續) | B | A | C |
-|---|---|---|---|---|---|---|
-| 重複 | X | X | X | - | X | - |
-| 例項 | X | X | - | - | X | - |
-| 非重複的例項 | X | - | - | - | X | - |
+<!-- markdownlint-enable MD034 -->
+
+
+
+當您在篩選產生器中使用維度時，您有選項可指定該維度的歸因模型。 您選取的歸因模型會決定資料是否符合您為維度元件指定的條件。
+
+在維度元件中選取![設定](/help/assets/icons/Setting.svg)，然後從快顯視窗中選取其中一個歸因模型：
+
+| 模型 | 說明 |
+|---|---|
+| **[!UICONTROL 重複模型（預設）]** | 納入維度的例項和持續值以判斷資格。 |
+| **[!UICONTROL 例項]** | 僅包含維度的例項值以判斷資格。 |
+| **[!UICONTROL 非重複的執行個體]** | 納入維度的唯一例項（非重複）值以判斷資格。 |
+
+
+建立篩選器時![維度上的歸因模型](assets/filter-dimension-attribution.png)
+
+### 範例
+
+在篩選定義中，您已指定下列條件：「頁面名稱」等於「女性」。 與上述範例類似。 您會使用其他兩個歸因模型來重複此篩選定義。 因此，您有三個篩選器，每個都有各自的歸因模型：
+
+* 女性頁面 — 歸因 — 重複（預設）
+* 女性頁面 — 歸因 — 例項
+* 女性頁面 — 歸因 — 非重複例項
+
+
+下錶針對每個歸因模型，說明哪些傳入事件符合該條件的![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)。
+
+
+| 女性頁面 — 歸因 — <br/>*歸因模型* | 事件1：<br/>頁面名稱等於<br/>女性 | 事件2：<br/>頁面名稱等於<br/>人 | 事件3：<br/>頁面名稱等於<br/>女性 | 事件4：<br/>頁面名稱等於<br/>女性<br/>（持續） | 事件5：<br/>頁面名稱等於<br/>簽出 | 事件6：<br/>頁面名稱等於<br/>女性 | 事件7：<br/>頁面名稱等於<br/>首頁 |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
+| 重複（預設） | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
+| 例項 | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
+| 非重複的例項 | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
+
+使用三個篩選器的事件報告範例看起來如下所示：
+
+![篩選歸因模型結果](assets/filter-dimension-attribution-results.png)

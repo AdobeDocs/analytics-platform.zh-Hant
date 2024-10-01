@@ -5,14 +5,34 @@ exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 97%
+source-wordcount: '353'
+ht-degree: 94%
 
 ---
 
-# 包含/排除值元件設定
+# 包含/排除值元件設定 {#include-exclude-values-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_metric_includeexcludevalues"
+>title="包含排除值"
+>abstract="篩選量度以僅對符合特定條件的值進行計數。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_includeexcludevalues"
+>title="包含排除值"
+>abstract="縮小維度範圍以僅包含符合特定條件的值。在報告中，包含和排除會發生在配置和篩選之前。<br/><br/>**引數&#x200B;**<br/>**區分大小寫**：判斷下列篩選邏輯是否區分大小寫。"
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 包含排除值允許您建立依賴於維度項目值的規則。不符合您設定的條件的值在 Analysis Workspace 中會被視為不曾存在過，儘管資料仍然存在於基礎資料集中。
 

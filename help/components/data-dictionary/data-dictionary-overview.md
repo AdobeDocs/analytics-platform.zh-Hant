@@ -4,20 +4,37 @@ title: 資料字典概觀
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: e7e3affbc710ec4fc8d6b1d14d17feb8c556befc
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 80%
+source-wordcount: '564'
+ht-degree: 69%
 
 ---
 
-# 資料字典概觀
+# 資料字典概觀 {#data-dictionary-overview}
 
-Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤並深入了解在其 Analytics 環境中的元件。
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_component_datadictionary"
+>title="資料字典"
+>abstract="資料字典可協助使用者和管理員追蹤及更瞭解其Analytics環境中的元件。 <br/>Analytics管理員負責為使用者組織資料字典中每個元件的相關資訊。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤和深入了解其 Analytics 環境中的元件。
 
 Analytics 管理員負責整理關於資料字典中每個元件的資訊，並將其提供給使用者。
 
+
++++ 觀看示範資料字典的影片
+
 >[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
+
+{{videoaa}}
+
++++
 
 ## 對使用者的好處
 
@@ -57,16 +74,14 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 您可以在 Analysis Workspace 中透過以下任何方式存取資料字典：
 
-* 從左邊欄的&#x200B;**資料字典**&#x200B;圖示。
+左側面板中的![資料字典圖示](assets/data-dictionary-access.png)
 
-  ![左邊欄的資料字典圖示](assets/data-dictionary-access-icon.png)
+* 從按鈕面板中的![書籤](/help/assets/icons/Bookmark.svg)。
 
-* 從元件資訊彈出視窗內的&#x200B;**資料字典**&#x200B;圖示。
 
-  ![資訊彈出視窗中的資料字典圖示](assets/data-dictionary-access-infopopover.png)
-  <!--update screenshot; this was taken from a mock-->
 
-* 從選單：[!UICONTROL **說明**] > [!UICONTROL **資料字典**]。
+* 從元件資訊彈出視窗中的![書籤](/help/assets/icons/Bookmark.svg)。
+
 
 有關資料字典中可用的各種選項詳細資訊，請參閱[查看資料字典中的元件資訊](/help/components/data-dictionary/view-data-dictionary.md)。
 

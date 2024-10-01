@@ -4,14 +4,32 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 7d21f6816412b45b795d223d351d4b48bd679c6d
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 50%
+source-wordcount: '1726'
+ht-degree: 49%
 
 ---
 
-# 建立及發佈客群
+# 建立及發佈客群 {#create-and-publish-audiences}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_audiences_refreshfrequency"
+>title="重新整理頻率"
+>abstract="檢視重新評估對象成員資格的頻率。<br/>一次性對象只會評估一次。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_audiences_audiencelimit"
+>title="客群限制"
+>abstract="重新整理客群作業會受到重新整理頻率的限制。"
+
+<!-- markdownlint-enable MD034 -->
 
 本主題說明如何將在Customer Journey Analytics中識別的對象建立並發佈到Adobe Experience Platform中的[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)，以用於客戶目標定位和個人化。
 
@@ -53,7 +71,7 @@ ht-degree: 50%
 
 1. 解讀資料預覽。
 
-   客群預覽會顯示在右側邊欄中。它允許對您建立的客群進行摘要分析。
+   對象預覽會顯示在右側面板中。 它允許對您建立的客群進行摘要分析。
 
    ![顯示對象摘要分析的資料預覽熒幕擷圖。](assets/data-preview.png)
 
@@ -115,7 +133,7 @@ Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和
 >
 >當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱[Customer Journey Analytics功能發行](/help/release-notes/releases.md)。
 
-1. 展開左側邊欄中的&#x200B;[!UICONTROL **客戶**]，然後選取&#x200B;[!UICONTROL **對象**]。<!-- is there a folder called "Customer Journey Analytics? -->
+1. 展開左側面板中的&#x200B;[!UICONTROL **客戶**]，然後選取&#x200B;[!UICONTROL **對象**]。<!-- is there a folder called "Customer Journey Analytics? -->
 
 1. 選取&#x200B;[!UICONTROL **瀏覽**]&#x200B;標籤。
 

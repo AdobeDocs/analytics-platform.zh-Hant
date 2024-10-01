@@ -5,20 +5,30 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 7%
+source-wordcount: '2016'
+ht-degree: 8%
 
 ---
 
-# 在報告活動管理器中檢視報告活動
+# 檢視報告活動 {#view-reporting-activity}
 
 [!UICONTROL 報告活動管理員]可讓管理員在尖峰報告期間快速診斷和修正報告容量問題。
 
 如需報告活動管理員的詳細資訊，包括主要權益和許可權要求，請參閱[報告活動管理員概觀](/help/reporting-activity-manager/reporting-activity-overview.md)。
 
-## 檢視所有連線的報告活動 {#view-all-report-suites}
+## 針對所有連線 {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="連線"
+>abstract="此表格會顯示您有權管理報告活動的連線。表格的每一欄中都提供了有關每個連線的資訊。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 1. 在Customer Journey Analytics中，移至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 報告活動管理員]**。
 
@@ -36,7 +46,7 @@ ht-degree: 7%
 
    * 使用搜尋欄位來搜尋特定連線。 開始輸入連線名稱或ID，並在您輸入時輸入連線更新清單。
 
-   * 選取&#x200B;[!UICONTROL **篩選器**]&#x200B;圖示![篩選器圖示](assets/filter-icon.png)以展開篩選器選項清單。 您可以依&#x200B;[!UICONTROL **我的最愛**]&#x200B;或&#x200B;[!UICONTROL **狀態**]&#x200B;篩選。
+   * 選取![篩選器](/help/assets/icons/Filter.svg)以展開篩選器選項清單。 您可以依&#x200B;[!UICONTROL **我的最愛**]&#x200B;或&#x200B;[!UICONTROL **狀態**]&#x200B;篩選。
 
      若要將連線標示為我的最愛，請選取連線名稱左側的星形圖示。
 
@@ -57,7 +67,7 @@ ht-degree: 7%
 
    {style="table-layout:auto"}
 
-## 檢視單一連線的報告活動
+## 針對單一連線
 
 1. 在Customer Journey Analytics中，選取&#x200B;[!UICONTROL **工具**] > [!UICONTROL **報告活動管理員**]。
 

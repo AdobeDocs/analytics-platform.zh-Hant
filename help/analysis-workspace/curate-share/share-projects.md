@@ -5,14 +5,24 @@ title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 19923592c8c50d93e150ba908f23313513d3450b
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 69%
+source-wordcount: '2047'
+ht-degree: 65%
 
 ---
 
-# 共用專案
+# 共用專案 {#share-projects}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_shareprojects"
+>title="共用專案"
+>abstract="您可以與組織中的其他使用者共用這些專案角色。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 您可以與以下類型的人員共用 Analysis Workspace 專案：
 
@@ -30,10 +40,13 @@ ht-degree: 69%
 
 收件者開啟專案時，系統會反映出您在共用之前套用的任何[監管](curate.md)。
 
-以下是專案共用的影片概觀：
++++ 觀看如何使用專案共用的影片。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
+{{videoaa}}
+
++++
 
 ## 與您組織中的Customer Journey Analytics使用者和群組共用 {#Add}
 
@@ -65,7 +78,7 @@ ht-degree: 69%
 
 若要與組織中的使用者或群組共用特定專案角色：
 
-1. 在Customer Journey Analytics中，選取&#x200B;[!UICONTROL **Workspace**]&#x200B;索引標籤，然後在左側邊欄中選取&#x200B;[!UICONTROL **專案**]。
+1. 在Customer Journey Analytics中，選取&#x200B;[!UICONTROL **Workspace**]&#x200B;索引標籤，然後在左側面板中選取&#x200B;[!UICONTROL **專案**]。
 
 1. 選取您要共用的一個或多個專案旁邊的勾選方框，然後選取「[!UICONTROL **共用**]」。
 
@@ -82,9 +95,9 @@ ht-degree: 69%
 
    **編輯原始項目：**&#x200B;收件者可以&#x200B;**[!UICONTROL 儲存]**&#x200B;對專案的變更，並以共同擁有者的身分操作。如果您想要與其他同事共同管理專案，此角色將有其效用；包括編輯、刪除和修改共用專案的收件者清單。<br>注意：Analysis Workspace 目前不支援即時共同作業，因此我們建議不要有多名使用者同時編輯一個專案。如果同時儲存專案，將會保留最後一個版本。
 
-   **複製副本：**&#x200B;收件者可以&#x200B;**[!UICONTROL 另存新檔]**，且擁有左側邊欄的存取權。此角色的專案互動不受限制。如果您想要與瞭解組織資料，且知道如何使用 Analysis Workspace 的使用者共用專案，但不想讓專案遭到變更，就可以使用此角色。
+   **編輯復本：**&#x200B;收件者可以&#x200B;**[!UICONTROL 另存新檔]**&#x200B;並存取左側面板。 此角色的專案互動不受限制。如果您想要與瞭解組織資料，且知道如何使用 Analysis Workspace 的使用者共用專案，但不想讓專案遭到變更，就可以使用此角色。
 
-   **唯讀：**&#x200B;收件者無法&#x200B;**[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 另存新檔]**，也無法存取左側邊欄。專案互動也有所限制。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace或Customer Journey Analytics的使用者共用專案，此角色會很有用。 但您仍希望他們能在安全的環境中使用資料和深入分析，就可以使用此角色。深入了解[唯讀專案體驗](/help/analysis-workspace/curate-share/view-only-projects.md)。
+   **唯讀：**&#x200B;收件者無法&#x200B;**[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 另存新檔]**，而且沒有左側面板的存取權。 專案互動也有所限制。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace或Customer Journey Analytics的使用者共用專案，此角色會很有用。 但您仍希望他們能在安全的環境中使用資料和深入分析，就可以使用此角色。深入了解[唯讀專案體驗](/help/analysis-workspace/curate-share/view-only-projects.md)。
 
 1. （條件）如果您要共用單一專案，請選擇在共用專案時是否啟用下列選項：
 
@@ -148,7 +161,7 @@ ht-degree: 69%
 
 1. 開啟您要共用的 Analysis Workspace 專案。
 
-1. 按一下「**[!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**」。
+1. 選取「**[!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**」。
 
    如果有未儲存的變更，系統會提示您儲存專案。
 
@@ -164,7 +177,7 @@ ht-degree: 69%
 
    * **[!UICONTROL 需要 Experience Cloud 驗證]：**
 
-     啟用此選項後，唯一可存取專案的使用者就是可登入建立您共用專案的Adobe Experience Cloud組織。 但是，您與之共用的使用者不需要擁有 Adobe Analytics 的存取權。
+     啟用此選項後，唯一可存取專案的使用者就是可登入建立您共用專案的Adobe Experience Cloud組織。 不過，您共用的使用者不需要擁有Customer Journey Analytics的存取權。
 
      Customer Journey Analytics管理員可以設定公司的喜好設定，如[喜好設定](/help/analysis-workspace/user-preferences.md)中所述。 視管理員設定此選項的方式而定，您可能會遇到以下情況：
 
@@ -172,13 +185,13 @@ ht-degree: 69%
 
       * 如果已啟用此選項且您無法將其停用，則表示您的Customer Journey Analytics管理員需要對存取Analysis Workspace專案的任何人進行Experience Cloud驗證。 授權Healthcare Shield的組織一律都是如此。
 
-1. 在&#x200B;**[!UICONTROL 與任何人共用（不需要登入）]**&#x200B;欄位旁邊，按一下&#x200B;**複製連結**&#x200B;圖示![複製連結圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg))以將連結複製到您的系統剪貼簿。
+1. 在&#x200B;**[!UICONTROL 與任何人共用（不需要登入）]**&#x200B;欄位旁邊，選取![連結](/help/assets/icons/Link.svg)以將連結複製到您的系統剪貼簿。
 
 1. 與您希望有該專案存取權的人員共用連結。例如，您可以將連結貼上到電子郵件中。
 
    您與之共用連結的任何人都可以檢視 Analysis Workspace 專案。
 
-1. (選用) 您可以按一下「**產生新連結**」圖示 ![產生連結圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)，將先前收到專案連結之使用者的存取權移除。此時會產生一個新連結；您可以與您希望存取該專案的使用者共用該連結。
+1. （選擇性）您可以選取![產生新連結圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)，移除先前收到專案連結的使用者存取許可權。 此時會產生一個新連結；您可以與您希望存取該專案的使用者共用該連結。
 
 1. 選取「**[!UICONTROL 關閉]**」以關閉共用對話框。您的變更會自動儲存。
 

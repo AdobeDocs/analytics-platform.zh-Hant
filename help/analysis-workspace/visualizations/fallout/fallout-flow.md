@@ -4,24 +4,42 @@ title: 關於流失報表和視覺效果
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: b38e9052618f7326cd5ea22b6cda8b96624a3f84
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 79%
+source-wordcount: '244'
+ht-degree: 46%
 
 ---
 
-# 流失概觀
+# 流失概觀 {#fallout-overview}
 
-流失報表可顯示在一系列預先定義的連續頁面中，人員從何處離開（流失）或繼續通過（流過）。
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_fallout_button"
+>title="流失"
+>abstract="建立視覺效果，檢視人們如何成功前往所需的查核點。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) [!UICONTROL 流失]視覺效果可顯示人員從何處離開（流失）或繼續通過（流過）預先定義的頁面順序。
+
++++ 檢視[!UICONTROL 流失視覺效果]的影片示範。
+
+>[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+
+{{videoaa}}
+
++++
 
 「流失」視覺效果提供更多選項，供您建立流失報表。流失視覺效果可讓您：
 
 * 在同一份報表中，執行兩個不同篩選器的並排比較。
-* 拖曳、放置和重新安排漏斗步驟 (接觸點)
-* 混合搭配來自不同維度和量度的值
-* 建立多維度流失報表
-* 識別客戶在流失後立即前往何處
+* 拖放（並重新排列）漏斗步驟（接觸點）。
+* 混合併比對來自不同維度和量度的值。
+* 建立多維度流失報表。
+* 識別客戶在吵架後立即前往何處。
 
 流失會顯示一序列中每個步驟或接觸點之間的轉換和流失率。
 
@@ -30,8 +48,12 @@ ht-degree: 79%
 流失視覺效果很適合用於分析：
 
 * 網站特定過程的轉換率 (例如購買或註冊過程)。
-* 更廣泛的一般流量流程：此流量可顯示在瀏覽過首頁的人當中，有多少人接下來執行了搜尋操作，接著又有多少人最終瀏覽至某一特定項目。
+* 更廣泛的一般流量流程：此流量可顯示在造訪首頁的使用者中，執行了多少次搜尋。 最後有多少人檢視了特定專案。
 * 網站上事件之間的關聯。關聯顯示在瀏覽過隱私政策的人當中，有百分之幾的人接下來執行了購買操作。
 
-[流失視覺化教學課程影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=zh-Hant) (4:15)
+>[!MORELIKETHIS]
+>
+>[設定流失視覺效果](configuring-fallout.md)
+
+
 

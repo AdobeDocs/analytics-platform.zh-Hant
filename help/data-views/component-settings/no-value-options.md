@@ -5,14 +5,24 @@ exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 92%
+source-wordcount: '258'
+ht-degree: 93%
 
 ---
 
-# 沒有值選項元件設定
+# 沒有值選項元件設定 {#no-value-options-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_novalueoptions"
+>title="沒有值選項"
+>abstract="設定當維度中不存在任何值時的預設行為。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 沒有值選項可讓您確定 Analysis Workspace 如何處理資料集中的事件包含量度但維度不包含值的情況。您可以選擇該維度項的名稱，將其完全隱藏，甚至將其視為實際值。
 

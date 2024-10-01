@@ -1,24 +1,34 @@
 ---
-description: 讓您在 Analysis Workspace 中輕鬆地將比較資料視覺化，例如建置和上個月、去年等的比較資料。
+description: 在Analysis Workspace中輕鬆地將比較資料視覺化，例如建置和上個月、去年等的比較資料。
 title: 組合圖表視覺效果
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 85%
+source-wordcount: '580'
+ht-degree: 42%
 
 ---
 
-# 組合圖表
+# 組合 {#combo}
 
-[!UICONTROL 組合圖表]視覺效果可讓您快速建立比較視覺效果，而不用先建立表格。您可以在折線/條形組合中輕鬆地檢視資料中的趨勢。
+<!-- markdownlint-disable MD034 -->
 
-使用[!UICONTROL 組合圖表]可以：
+>[!CONTEXTUALHELP]
+>id="cja_workspace_combo_button"
+>title="組合"
+>abstract="快速建立組合圖表視覺效果，而不需要先建立自由表格。"
 
-* 比較本週的訂單與上個月 (以及去年) 同時間的訂單 - 全都按幾下就能完成。
-* 在相同圖表上快速逐一分析和比較多項量度 (例如[!UICONTROL 不重複訪客]和[!UICONTROL 收入])。
+<!-- markdownlint-enable MD034 -->
+
+
+![Comment](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]**&#x200B;視覺效果可讓您快速建立比較視覺效果，而不需要先建立表格。 您可以透過線條/條形組合，輕鬆檢視資料中的趨勢。
+
+使用[!UICONTROL 組合]來：
+
+* 將本週的訂單與上個月（以及去年）同時間的訂單進行比較。
+* 在相同圖表上快速分析和比較多個量度（例如[!UICONTROL 人員]和[!UICONTROL 收入]）。
 * 根據一段時間範圍內的函數，分析量度 (例如[!UICONTROL 累積平均值])。
 
 請記住以下事項：
@@ -29,41 +39,39 @@ ht-degree: 85%
 * 一個量度最多可以套用3個篩選器。
 * 組合圖表中不支援計算量度。
 
-## 建置組合圖表
+## 使用
 
-1. 從左側邊欄中的「視覺效果」下拉式清單，將「[!UICONTROL 組合圖表]」視覺效果拖曳至空白面板。
-
-   ![顯示X軸與Y軸及選項欄位的組合圖表](assets/combo-chart-build.png)
+1. 新增![註解](/help/assets/icons/ComboChart.svg) [!UICONTROL 組合]視覺效果。 請參閱[將視覺效果新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 
 1. 從下拉式清單，選取 X 軸的維度和 Y 軸的量度。
 
-1. 選取您要使用的[!UICONTROL 折線比較]類型。
+1. 選取您要使用的[!UICONTROL 折線比較]型別。
 
    | 折線比較類型 | 定義 |
    | --- | --- |
    | **[!UICONTROL 時間比較]** | 最常見的比較類型 - 例如，將此時段與 4 週前進行比較。如果您已選取[!UICONTROL 時間比較]，請針對您要比較的時段進行次要比較。<p>![已選取時間週期與時間週期的次要選取欄位比較。](assets/combo-time-period.png) |
    | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。請參閱以下的支援函數清單。<p>![LIne比較下拉式功能表，顯示選取的函式以及可用的支援函式清單。](assets/combo-functions.png) |
-   | **[!UICONTROL 次要量度]** | 例如，您可以將[!UICONTROL 收入]與另一個量度比較。<p>![比較兩個量度的組合圖表。](assets/combo-2metrics.png) |
+   | **[!UICONTROL 次要量度]** | 例如，您可以將[!UICONTROL 收入]與另一個量度比較。<p>![比較兩個量度的組合圖表。](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}
 
-1. 按一下&#x200B;**[!UICONTROL 建置]**。
+1. 選取「**[!UICONTROL 建立]**」。
 
-   輸出將與下圖相似：
+   輸出內容類似於：
 
    ![組合圖表，在長條圖中顯示目前期間，在折線圖](assets/combo-output.png)中顯示比較期間
 
-   目前期間會以條形圖顯示，而比較期間則以折線圖呈現。折線圖上的圓點稱為「槓鈴」。
+   目前期間會顯示在長條圖中。 折線圖代表比較期間。 折線圖上的點稱為&#x200B;*槓鈴*。
 
 ## 支援的函數
 
-如果您選擇&#x200B;**[!UICONTROL 函數]**&#x200B;作為[!UICONTROL 折線比較類型]，則會傳回您已選擇的量度函數。
+若您選取&#x200B;**[!UICONTROL 函式]**&#x200B;作為[!UICONTROL 折線比較型別]，則會傳回所選量度的函式。
 
 | 函數 | 定義 |
 | --- | --- |
-| **[!UICONTROL 欄總和]** | 將某一欄中量度的所有數值 (所有維度元素) 相加。 |
-| **[!UICONTROL 累積平均值]** | 傳回最後 N 列的平均值。 |
-| **[!UICONTROL 中位數]** | 傳回一欄中量度的中位數。中位數是位於一組數字中間的數字，也就是一半數字的值大於或等於中位數，另一半數字的值小於或等於中位數。 |
+| **[!UICONTROL 欄總和]** | 將某一欄中量度的所有數值相加（涵蓋維度的各個元素） |
+| **[!UICONTROL 累積平均值]** | 傳回最後N列的平均值。 |
+| **[!UICONTROL 中位數]** | 傳回一欄中量度的中位數。中位數是一組數字中間的數字。 一半數字的值大於或等於中位數，另一半數字的值小於或等於中位數。 |
 | **[!UICONTROL 累積]** | N 列的累積總和。 |
 | **[!UICONTROL 欄最大值]** | 傳回量度欄中一組維度元素的最大值。 |
 | **[!UICONTROL 平均值]** | 傳回量度的算術平均值或平均值。 |
@@ -77,28 +85,11 @@ ht-degree: 85%
 
 以下為累積平均值和平均值函數的組合圖表範例：
 
-![同時顯示累積平均和平均函式的組合圖表。](assets/combo-two-functions.png)
+![同時顯示累積平均和平均函式的組合圖表。](assets/combo-three-functions.png)
 
-## 組合圖表設定
-
-按一下組合圖表右上角的齒輪圖示，以變更其設定。
-
-![組合圖表設定檢視，顯示下列選項。](assets/combo-settings.png)
-
-| 設定 | 定義 |
-| --- | --- |
-| **[!UICONTROL 視覺效果類型]** | 讓您切換至另一個視覺效果類型。 |
-| **[!UICONTROL 粒度]** | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的下拉式清單中的。 |
-| **[!UICONTROL 一般]** |  |
-| **[!UICONTROL 百分比]** | 以百分比顯示值。 |
-| **[!UICONTROL 可見圖例]** | 讓您隱藏組合圖表視覺效果的詳細圖例文字。 |
-| **[!UICONTROL 限制項目數量上限]** | 減少 X 軸上的項目數量。如果您有大型資料集，則只能顯示前10個專案（或您挑選的任何值）。 |
-| **[!UICONTROL 重疊]** | 顯示或隱藏折線上的槓鈴。 |
-| **[!UICONTROL 軸]** | |
-| **[!UICONTROL 顯示雙軸]** | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。除非有多項比較，否則雙軸顏色會搭配表格的顏色。此時所有比較的顏色為灰色。 |
-| **[!UICONTROL 標準化]** | 強制量度為相同比例。當繪製的量度大小非常不同時，這項功能會很有用。 |
-| **[!UICONTROL 顯示 x 軸]** | 顯示或隱藏 x 軸。 |
-| **[!UICONTROL 顯示 y 軸]** | 顯示或隱藏 y 軸。 |
-| **[!UICONTROL 將 y 軸固定於零]** | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
-
-{style="table-layout:auto"}
+>[!MORELIKETHIS]
+>
+>[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

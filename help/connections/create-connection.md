@@ -5,14 +5,60 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
-workflow-type: ht
-source-wordcount: '3300'
-ht-degree: 100%
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+workflow-type: tm+mt
+source-wordcount: '3507'
+ht-degree: 97%
 
 ---
 
-# 建立或編輯連線
+# 建立或編輯連線 {#create-or-edit-a-connection}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsadded"
+>title="新增的記錄"
+>abstract="所選資料集在所選時間間隔內新增到連線的記錄數（列）。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsskipped"
+>title="略過的記錄"
+>abstract="在所選資料集的所選時間間隔內，在連線的資料傳輸期間略過的記錄數（列）。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_recordsdeleted"
+>title="刪除的記錄"
+>abstract="在選取的資料集時間間隔內，從連線中移除的記錄（列）數目"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_lastadded"
+>title="上次新增時間"
+>abstract="從任何資料集中傳輸至連線的最後批次的時間戳記。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_enablerollingdatawindow"
+>title="啟用滾動資料窗口"
+>abstract="在連線層級將資料保留定義為以月為單位的滾動窗口。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 透過輔助工作流程，建立連線和編輯工作流程體驗可將所有資料集和連線組態設定彙整到畫面中央處。它提供詳細的資料集選擇、設定和檢閱體驗。可讓您指定資料集類型、大小、綱要、資料集 ID、批次狀態、回填狀態、人員 ID 等重要資訊，以降低連線設定錯誤的風險。以下是功能概觀：
 
@@ -22,7 +68,11 @@ ht-degree: 100%
 * 例如，您可以編輯資料集來請求另一次回填。
 * 您可以為每個資料集匯入現有的資料。
 
++++ 說明建立和編輯連線體驗的影片
+
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+
++++
 
 ## 先決條件
 
@@ -70,6 +120,42 @@ ht-degree: 100%
    {style="table-layout:auto"}
 
 ## 新增及設定資料集 {#add-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_matchingkey"
+>title="比對索引鍵"
+>abstract="在其中一個事件資料集中選取要聯結的欄位。如果此清單是空的，您可能尚未新增或設定事件資料集。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_importnewdata"
+>title="匯入新資料"
+>abstract="任何新增至Experience Platform資料集的新批次，都會自動新增至此連線，並可供分析。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_datasetbackfill"
+>title="資料集回填"
+>abstract="此選項將從 Experience Platform 回填連線中此資料集的現有 (歷史) 資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_transformdataset"
+>title="轉換資料集"
+>abstract="此選項將會轉換資料集，使其可用於 B2B 情境中基於人員的查詢。一旦開啟，資料集的轉換是不可逆的。"
+
+<!-- markdownlint-enable MD034 -->
 
 當您建立連線時，新工作流程可讓您新增 Experience Platform 資料集。
 

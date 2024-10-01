@@ -4,14 +4,25 @@ description: 詳細資訊以及如何設定資料集的維度，以確保您可�
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: cba5904191b0602557903b5b9f32a2b793c8207d
+exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
+source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 9%
+source-wordcount: '343'
+ht-degree: 17%
 
 ---
 
-# [!UICONTROL 摘要資料群組]元件設定
+# [!UICONTROL 摘要資料群組]元件設定 {#summary-data-group-component-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_summarydatagroup"
+>title="摘要資料群組"
+>abstract="摘要資料群組會在分組中的所有維度之間建立關聯，並用於將摘要資料集中的維度與其他維度合併以進行報告。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 摘要資料群組會在分組中的所有維度之間建立關聯，並用於將摘要資料集中的維度與其他維度合併以進行報告。
 
@@ -40,5 +51,3 @@ ht-degree: 9%
 >
 >確保您僅從一個維度對維度進行分組，而不套用來自多個維度的分組。 例如，如果您透過將`campaign_name`維度新增到`tracking_code`維度來建立群組，請不要也為`campaign_name`維度建立群組。
 >
-
-

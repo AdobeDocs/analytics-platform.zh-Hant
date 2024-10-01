@@ -1,21 +1,21 @@
 ---
 description: 透過電子郵件傳送Analysis Workspace專案，或排程進行傳送。
 keywords: Analysis Workspace
-title: 透過電子郵件傳送Customer Journey Analytics資料給其他人
+title: 透過電子郵件傳送報告給其他人
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 63%
+source-wordcount: '1034'
+ht-degree: 60%
 
 ---
 
-# 透過電子郵件傳送Customer Journey Analytics資料給其他人
+# 傳送檔案給其他人
 
-您可以透過電子郵件將Customer Journey Analytics報表傳送給選取的收件者，以匯出報表。 您可以隨選傳送檔案，也可以設定要依排程傳送的檔案。 能以 CSV 或 PDF 格式傳送檔案。
+您可以透過電子郵件將Customer Journey Analytics報表以檔案形式傳送給所選使用者。 您可以隨選傳送檔案，也可以設定要依排程傳送的檔案。 能以 CSV 或 PDF 格式傳送檔案。
 
 套用至專案的任何標籤都會自動套用至匯出。
 
@@ -56,7 +56,7 @@ ht-degree: 63%
 
 可在「**[!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 排程專案]**」中管理已排程 Analysis Workspace 專案。
 
-在「排程專案管理員」中，您可以編輯和刪除周期性專案排程。在搜尋列中或使用左側邊欄中的篩選選項來搜尋排程。您可以依標籤、核准的排程、擁有者等篩選。
+在「排程專案管理員」中，您可以編輯和刪除周期性專案排程。在搜尋列中或使用左側面板中的篩選選項來搜尋排程。 您可以依標籤、核准的排程、擁有者等篩選。
 
 | 欄位 | 說明 |
 | --- | --- |
@@ -78,14 +78,24 @@ ht-degree: 63%
 | **[!UICONTROL 編輯排程]** | 按一下排程的標題以更新傳送設定。 |
 | **[!UICONTROL 刪除排程]** | 選取清單中的排程專案，然後在功能表按一下「刪除」。這會刪除專案選取的排程，不會刪除專案本身。 |
 | **[!UICONTROL 新增標籤]** | 選取清單中的排程專案，然後選擇「標籤」或「核准」來組織排程，更能輕鬆搜尋。 |
-| **[!UICONTROL 檢視失敗的排程]** | 導覽至左側邊欄 >「其他篩選器 > 失敗」，查看失敗的排程。 |
-| **[!UICONTROL 檢視過期的排程]** | 導覽至左側邊欄 >「其他篩選器 > 過期」，查看過期的排程。按一下排程標題，以設定新的傳送排程。 |
+| **[!UICONTROL 檢視失敗的排程]** | 導覽至左側面板>「其他篩選器>失敗」，檢視失敗的排程。 |
+| **[!UICONTROL 檢視過期的排程]** | 導覽至左側面板>「其他篩選器>過期」，檢視過期的排程。 按一下排程標題，以設定新的傳送排程。 |
 | **[!UICONTROL 檢視排程 ID]** | 導覽至右上角的欄選項，然後將「排程 ID」欄新增至表格。排程的 ID 對除錯而言通常很實用。 |
 
 「排程專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已停用，所有已排程的傳送將停止。
 如需詳細資訊，請參閱[排程專案](/help/components/scheduled-projects-manager.md)。
 
 ## 密碼保護排程專案 {#password}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_sendfile_password"
+>title="密碼加密"
+>abstract="提供的密碼將用於加密已排程專案的檔案。貴組織的安全要求已要求進行密碼加密。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 >[!NOTE]
 >

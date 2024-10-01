@@ -4,59 +4,71 @@ title: 折線圖
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: 30f3e24533ab0e03ee7f819c7f94592776603764
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 81%
+source-wordcount: '508'
+ht-degree: 18%
 
 ---
 
-# 折線圖
+# 折線圖 {#line}
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_line_button"
+>title="折線圖"
+>abstract="建立線條圖視覺效果，顯示一段時間內值的變化。 折線圖視覺效果只可以在當做維度時使用。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 線條]**&#x200B;視覺效果使用線條來表示量度，以顯示一段時間內值的變化。 折線圖視覺效果只可以在當做維度時使用。
+
+<!--
 >[!NOTE]
 >
->線條視覺效果即將提供[智慧型字幕](/help/analysis-workspace/visualizations/intelligent-captions.md)。
+>The Line visualization soon feature [intelligent captions](/help/analysis-workspace/visualizations/intelligent-captions.md).
 
-線條圖視覺效果使用線條圖表示量度，以顯示一段時間中值的變化。僅可在使用時間當作維度時，才使用折線圖。
+The Line visualization represents metrics using a line to show how values change over a period of time. A line chart can be used only when time is used as a dimension.
+-->
 
-![線條圖視覺效果](assets/line-viz.png)
-
-選取線條圖視覺效果頂端列中的設定圖示![設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)，即可存取可用的[視覺效果設定](freeform-analysis-visualizations.md)。 設定可歸類為：
-
-<img src="./assets/viz-settings-line.png" alt="視覺效果設定" width="50%" />
-
-* **一般**：在各種視覺效果類型中都很常見的設定
-* **軸**：影響線條圖視覺效果 X 或 Y 軸的設定
-* **覆蓋**：用於將其他內容新增至線條圖視覺效果中所顯示系列的選項。
+![折線圖視覺效果](assets/line-viz.png)
 
 
-## 變更詳細程度
+## 設定
 
-[視覺效果設定](freeform-analysis-visualizations.md)中的詳細程度下拉式清單可讓您將趨勢視覺效果 (例如折線圖、長條圖) 從每日變更為每週、每月等。詳細程度也會在資料來源表格中更新。
+作為[視覺效果設定](freeform-analysis-visualizations.md#settings)的一部分，可以使用特定的線條視覺效果設定。
 
-## 顯示最小值或最大值
-
-在&#x200B;**[!UICONTROL 「視覺效果設定]** >**[!UICONTROL 覆蓋]** > **[!UICONTROL 顯示最小值/最大值」]**&#x200B;下方，您可以覆蓋最小值和最大值標籤，以便快速反白標示量度中的尖峰和低谷。注意：最小值/最大值是從視覺效果中的可見資料點衍生而來，而非維度中的完整數值集。
-
-![具有最小值和最大值標籤的覆蓋。](assets/min-max-labels.png)
-
-## 顯示趨勢線覆蓋
-
-在「**[!UICONTROL 視覺效果設定]** > **[!UICONTROL 覆蓋圖]** > **[!UICONTROL 顯示趨勢線]**」中，您可以選擇新增迴歸或移動平均趨勢線到您的線圖序列。趨勢線有助於描繪出資料中更清晰的模式。
+| 設定 | 說明 |
+|---|---|
+| **[!UICONTROL 粒度]** | 從詳細程度下拉式清單中選取，將趨勢視覺效果從每日變更為每週、每月等。 詳細程度也會在資料來源表格中更新。 |
+| **[!UICONTROL 顯示最小值]** <br/>**[!UICONTROL 顯示最大值&#x200B;]** | 您可以覆蓋最小值和最大值標籤，以反白標示量度中的最小值和最大值。 最小/最大值是從視覺效果中的可見資料點衍生而來，而非維度中的完整值集。<br/>![具有最小值和最大值標籤的覆蓋。](assets/min-max-labels.png) |
+| **[!UICONTROL 顯示趨勢線]** | 您可以選擇新增回歸或移動平均趨勢線到您的線圖序列。 趨勢線有助於描繪出資料中更清晰的模式。 選取後，從清單中選取模型。 請參閱[模型](#models)，以取得可用模型的概觀和說明。<br/>![線性趨勢線](assets/show-linear-trendline.png)。 |
 
 >[!TIP]
 >
->建議將趨勢線套用至不包含今天 (部分資料) 或未來日期的資料，因為這些資料會扭曲趨勢線。但是，如果您需要包含未來日期，請從資料中移除零，以防止這些日期出現偏差。若要這麼做，請前往視覺效果的資料來源表格，選擇您的量度欄，然後啟用「**[!UICONTROL 欄位設定]** > **[!UICONTROL 將零解譯為無值]**。
+>建議將趨勢線套用至不包含今天（部分資料）或未來日期的資料。 今天或未來的日期會扭曲趨勢線。 但是，如果您需要包含未來日期，請從資料中移除零，以防止這些日期出現偏差。前往視覺效果的資料來源表格，選擇您的量度欄，然後啟用&#x200B;**[!UICONTROL 欄設定]** > **[!UICONTROL 將零解譯為無值]**。
 
-![線性趨勢線](assets/show-linear-trendline.png)
+
+
+### 模型
 
 所有回歸模型趨勢線都適合使用普通最小二乘法：
 
 | 模型 | 說明 |
 | --- | --- |
-| 線性 | 為簡單的線性資料集建立最合適的直線，當資料以穩定速率增加或減少時非常有用。 方程式：`y = a + b * x` |
-| 對數 | 建立最合適的曲線，當資料變更率快速增加或減少，然後穩定下來時相當有用。對數趨勢線可使用負值和正值。方程式：`y = a + b * log(x)` |
-| 指數 | 建立曲線，當資料以不斷提高的速率上升或下降時相當有用。如果您的資料包含零或負值，則不應使用此選項。方程式：`y = a + e^(b * x)` |
-| 乘冪 | 建立曲線，比較以特定速率增加的測量之資料集時相當有用。 如果您的資料包含零或負值，則不應使用此選項。方程式：`y = a * x^b` |
-| 二次方 | 找出拋物線形（向上或向下凹入）的資料集最適合的造型。 方程式：`y = a + b * x + c * x^2` |
-| 移動平均 | 根據一組平均值建立平滑趨勢線。移動平均也稱為滾動平均，它會使用特定數量的資料點 (取決於「期間」選擇)、求取其平均值，並將平均值當做線條中的某個點。 例如包含 7 天移動平均值或 4 週移動平均值。 |
+| **[!UICONTROL 線性]** | 為簡單的線性資料集建立最合適的直線，當資料以穩定速率增加或減少時非常有用。 方程式：`y = a + b * x` |
+| **[!UICONTROL 對數]** | 建立最合適的曲線，當資料變更率快速增加或減少，然後穩定下來時相當有用。 對數趨勢線可使用負值和正值。方程式：`y = a + b * log(x)` |
+| **[!UICONTROL 指數]** | 建立曲線，當資料以不斷提高的速率上升或下降時相當有用。 如果您的資料包含零或負值，則不應使用此選項。方程式：`y = a + e^(b * x)` |
+| **[!UICONTROL 電源]** | 建立曲線，比較以特定速率增加的測量之資料集時相當實用。 如果您的資料包含零或負值，則不應使用此選項。方程式：`y = a * x^b` |
+| **[!UICONTROL 二次方]** | 找出拋物線形（向上或向下凹入）的資料集最適合的造型。 方程式：`y = a + b * x + c * x^2` |
+| **[!UICONTROL 移動平均]** | 根據一組平均值建立平滑趨勢線。 移動平均也稱為滾動平均，會使用特定數量的資料點（由您的[!UICONTROL 粒度]選取範圍決定）、求取其平均值，並將平均值當做線條中的某個點。 例如七天移動平均值或四周移動平均值。 |
+
+>[!MORELIKETHIS]
+>
+>[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

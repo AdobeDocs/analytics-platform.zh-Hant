@@ -4,100 +4,75 @@ title: 建立專案
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 53d367e51f739ebf324390ba4114ddb58138fac8
+source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 40%
 
 ---
 
 # 建立專案
 
-Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)可讓您檢視可與組織內部或外部利害關係人共用的關鍵業務分析。
+Analysis Workspace中的[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)可讓您建立和檢視關鍵業務分析。  這些分析可與組織內部或外部的利害關係人分享。
 
-如需有關如何開始使用 Analysis Workspace 的一般資訊，請參閱「[Analysis Workspace 概觀](/help/analysis-workspace/home.md)」。
+1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL Workspace]**。
 
-以下小節將說明如何建立專案，以及如何為任何 Analysis Workspace 專案開始新增關鍵建置區塊：面板、視覺效果和元件。
+1. 在左側面板中選取&#x200B;**[!UICONTROL 專案]**，然後選取&#x200B;**[!UICONTROL 建立專案]**。
 
-## 開始建立專案
+1. 選取&#x200B;**空白Workspace專案**&#x200B;以使用瀏覽器建立您的Workspace專案。
 
-1. 在 Adobe Analytics 中，選取「[!UICONTROL **Workspace**]」。
-
-1. 在「[!UICONTROL **Workspace**]」標籤上，選取頁面左側的「[!UICONTROL **專案**]」標籤，然後選取「[!UICONTROL **建立專案**]」。
-
-1. 選擇要建立空白專案或行動計分卡
-
-   * 如果您打算從瀏覽器共用分析，請建立&#x200B;**空白專案**
-   * 如果您打算從 Adobe Analytics 儀表板行動應用程式共用分析，請建立&#x200B;[**空白行動計分卡**](/help/mobile-app/curator.md)。
+   請參閱[空白行動計分卡](/help/mobile-app/curator.md)，以取得有關如何建立行動計分卡專案的詳細資訊，而您可使用行動應用程式與其他利害關係人共用。 請參閱[引導分析](/help/guided-analysis/overview.md)，以取得建立引導分析專案的各種可用選項的詳細資訊。
 
 1. 選取「[!UICONTROL **建立**]」。
 
-1. 接下來，您需要為專案新增面板、視覺效果和元件。首先，將面板新增到 Analysis Workspace 中的專案，如[將面板新增到專案](#add-panels-to-the-project)中所述。接著，您可以將視覺效果新增到任何面板。最後，您可以將元件新增到任何面板或視覺效果。
 
-## 將面板新增到專案 {#panels}
+現在您已建立空白Workspace專案，請務必熟悉[Analysis Workspace](/help/analysis-workspace/home.md)使用者介面。 一旦完成，您就可以建置專案。 若要這麼做：
 
-[面板](/help/analysis-workspace/c-panels/panels.md)是 Analysis Workspace 中任何專案的基礎。面板是用來組織專案的內容 (視覺效果和元件)。
+![範例專案](assets/example-project.png)
 
-Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內容，產生完整的分析集。
+* 新增[面板](/help/analysis-workspace/c-panels/panels.md)至您的專案。 例如，**[!DNL Example Panel]**➊。
 
-若要新增面板：
+* 新增[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)至您的面板。 例如：
+   * **[!DNL Line Graph]** [線](/help/analysis-workspace/visualizations/line.md)視覺效果➋
+   * **[!DNL Countries]** [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺效果➌
+* 新增[元件](/help/components/overview.md)至您的視覺效果。 例如：
+   * **[!DNL Store Country]** [維度](/help/components/dimensions/overview.md)➍
+   * **[!DNL People]** [量度](/help/components/apply-create-metrics.md)➎
+   * **[!DNL Avg Order Value]** [計算量度](/help/components/calc-metrics/calc-metr-overview.md)➏
+   * **[!DNL Mobile App Sessions]** [篩選器](/help/components/filters/filters-overview.md)➐
+   * **[!DNL Last Month]** [日期範圍](/help/components/date-ranges/overview.md)➑
+   * **[!DNL Example]** [註解](/help/components/annotations/overview.md)➒
 
-1. 選取左側邊欄中的「[!UICONTROL **面板**]」圖示。
 
-   ![選取的「面板」圖示和可用面板清單。](assets/build-panels.png)
+## 專案資訊和設定 {#project-info-settings}
 
-1. 搜尋您要新增的面板。它顯示在左側邊欄時，請將其拖曳到專案中。
+<!-- markdownlint-disable MD034 -->
 
-1. 將視覺效果新增到面板，如[將視覺效果新增到專案](#add-visualizations-to-the-project)中所述。
+>[!CONTEXTUALHELP]
+>id="cja_workspace_project_repeatinstances"
+>title="計算重複實例數"
+>abstract="指定是否要將重複實例計入報表中。<br/>注意：此設定不適用於「流量」或「流失」視覺效果。"
 
-   您也可以將元件直接新增到面板，如[將元件新增到專案](#add-components-to-the-project)中所述。
+<!-- markdownlint-enable MD034 -->
 
-## 將視覺效果新增到專案
 
-[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) (例如自由格式表格、長條圖或折線圖) 可用來生動地呈現資料。
+專案設定提供目前使用中專案的專案層級資訊。
 
->[!TIP]
->
->自由格式表格是最常見的視覺效果類型，是互動式資料分析的基礎。如需更多有關如何在 Analysis Workspace 中使用自由格式表格的詳細資料，請參閱「[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)」。
+![專案資訊和設定視窗。](./assets/projectinfo.png)
 
-若要新增視覺效果：
+設定包括：
 
-1. 選取左側邊欄中的「**[!UICONTROL 視覺效果]**」圖示。
+| 設定 | 說明 |
+|---|---|
+| 專案名稱 | 提供給專案的名稱。按兩下名稱即可進行編輯。 |
+| 所有者 | 專案所有者名稱 |
+| 修改時間 | 上次修改專案的日期。 |
+| 標記 | 列出為了方便分類而套用至專案的所有標籤。 |
+| 說明 | 說明可用於釐清專案的用途。按兩下說明即可進行編輯。 |
+| 計算重複執行個體數 | 指定是否要將重複例項計入報表中。 注意，此設定不適用於「流量」或「流失」視覺效果。 |
+| 顯示註解 | 指定是否顯示此專案的註解。 |
+| [專案調色盤](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 您可以變更用於 Workspace 的分類調色盤，其方式為選擇已針對色盲人士最佳化的立即可用調色盤或指定您的自訂調色盤。此功能會影響工作區中的許多項目，包括大部分的視覺效果。 |
+| [檢視密度](/help/analysis-workspace/build-workspace-project/view-density.md) | 可減少左側面板、自由表格和同類群組表格的垂直邊框間距，讓您在畫面上檢視更多資料。 |
 
-   ![選取的視覺效果圖示和可用的視覺效果清單。](assets/build-visualizations.png)
 
-1. 搜尋您要新增的視覺效果。它出現在左側邊欄時，請將其拖曳到專案中的面板中。
 
-1. 將元件新增到視覺效果中，如[將元件新增到專案](#add-components-to-the-project)中所述。
-
-## 將元件新增到專案
-
-[元件](/help/components/overview.md)會組成任何專案的實際資料。您可以將元件新增到視覺效果或面板。
-
->[!TIP]
->
->如需有關各個元件的資訊，請選取左側邊欄中元件名稱旁邊的「資訊」圖示，或參閱[元件概觀](/help/components/overview.md)。
-
-以下基本資訊說明如何將元件新增至 Analysis Workspace 中的專案。如需進一步瞭解如何新增各種類型的元件 (維度、指標、篩選器和日期範圍)，請參閱[在 Analysis Workspace 中使用元件](/help/components/use-components-in-workspace.md)。
-
-若要將元件新增至 Analysis Workspace 中的專案：
-
-1. 選取左側邊欄中的「**[!UICONTROL 元件]**」圖示。
-
-   ![選取的元件圖示和可用維度清單。](assets/build-components.png)
-
-1. 捲動至或搜尋要新增的元件，然後將其拖曳到專案中的面板或視覺化效果中。
-
-   例如，您可以將篩選器拖曳到面板標題中的篩選器放置區域。
-
-   ![將篩選器放入放置區](assets/filter-dropzone.png)
-
-   有關將元件新增至專案的詳細資訊，請參閱[在 Analysis Workspace 中使用元件](/help/components/use-components-in-workspace.md)。
-
-1. (選用) 依照[儲存和共用專案](#save-and-share-the-project)中所述共用專案。
-
-## 儲存和共用專案
-
-您在 Analysis Workspace 中建立分析時，您的工作會[自動儲存](/help/analysis-workspace/build-workspace-project/save-projects.md)。
-
-完成專案建置並開始收集可操作分析時，該專案就可供其他人使用。您可以與組織中的使用者和群組 (或甚至組織外部的人員) 共用該專案。如需有關共用專案的資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)。

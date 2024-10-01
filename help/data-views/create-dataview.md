@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: f6b0088522a821a006d1c7fb4c55b4b2e11ff310
+source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 100%
+source-wordcount: '1832'
+ht-degree: 96%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 100%
 
 建立資料視圖需要從綱要元素建立量度和維度或使用標準元件。大多數綱要元素可以是維度或量度，具體取決於您的業務需求。將綱要元素拖到資料視圖中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
 
-以下是有關該主題的影片：
++++ 觀看說明Customer Journey Analytics中資料檢視的影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
+
++++
 
 建立或編輯資料視圖的方法：
 
@@ -26,7 +28,17 @@ ht-degree: 100%
 1. 若要建立資料視圖，請選取「**[!UICONTROL 建立新的資料視圖]**」。或者，您可以從資料視圖清單中選取現有資料視圖進行編輯。
 
 
-## 設定
+## 設定 {#configure}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_externalid"
+>title="外部 ID"
+>abstract="變更外部 ID 可能會影響資料檢視名稱在外部來源 (例如商業智慧工具) 中的顯示方式。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 設定新的或現有的資料視圖的方法：
 
@@ -50,9 +62,20 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-### 相容性
+### 相容性 {#compatibility}
 
 {{release-limited-testing-section}}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_dataviewsinadobejourneyoptimizer"
+>title="Journey Optimizer中的資料檢視"
+>abstract="Journey Optimizer需要使用已設定Customer Journey Analytics的資料檢視。<br/>啟用此選項可讓此檢視成為Adobe Journey Optimizer報表中使用的預設資料檢視。"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="新增哪些元件和資料集。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 提供同時適用於 Adobe Journey Optimizer 和 Customer Journey Analytics 的設定。
 

@@ -4,25 +4,44 @@ title: 文氏圖表
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 79%
+source-wordcount: '136'
+ht-degree: 17%
 
 ---
 
-# 文氏圖表
+# 文氏圖表 {#venn}
 
-文氏圖表視覺效果可讓您拖曳至最多 3 個篩選器 (從「元件」) 及一個量度來建立文氏圖表。
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_venn_button"
+>title="文氏圖表"
+>abstract="建立文氏圖表視覺效果，以快速視覺化比較兩個元素及其重疊的大小。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+![型別](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]**&#x200B;視覺效果可讓您拖曳至最多3個篩選器和一個量度（從「元件」面板），以建立Venn圖表。
 
 ![包含三個篩選器的Venn視覺效果。](assets/venn.png)
 
-然後您可以在篩選器上暫留，以取得百分比等計量的更多深入解析。
+您可以將滑鼠停留在篩選器上，以取得百分比等計量的更多深入解析。
 
-![Venn視覺效果，其中包含有關2015年室外秋季參與者篩選器的擴充資訊。](assets/venn_hover.png)
+若要從[!UICONTROL Venn]視覺效果產生[!UICONTROL 自由表格]，請選取&#x200B;**[!UICONTROL Venn]**&#x200B;標題旁的彩色![StatusOrange](/help/assets/icons/StatusOrange.svg)，並選取&#x200B;**[!UICONTROL 顯示資料來源]**。 您將會看到&#x200B;**[!UICONTROL Venn資料]**&#x200B;自由表格，其中包含用來建立[!UICONTROL Venn]視覺效果的資料。
 
-若要將 Venn 圖表轉換為自由表格，請按一下 **[!UICONTROL Venn]** 標頭旁的彩色點，並選取&#x200B;**[!UICONTROL 「管理資料來源]** > **[!UICONTROL 可用的資料來源]** > **[!UICONTROL 自由表格」]**。
+<!--
+To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
 
-若要標準化 Venn 圖表 (將大小移除)，請前往其「視覺效果設定」圖示並選取&#x200B;**[!UICONTROL 「標準化」]**。
+![Visualization Settings option for Visualization type: Venn diagram.](assets/normalization.png)
 
-![視覺效果型別的視覺效果設定選項：文氏圖表。](assets/normalization.png)
+-->
+
+>[!MORELIKETHIS]
+>
+>[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+
