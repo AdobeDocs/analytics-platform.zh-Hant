@@ -3,7 +3,7 @@ title: 產品使用概述
 description: 檢視有關貴組織如何使用Customer Journey Analytics的深入分析和報表。
 hide: true
 hidefromtoc: true
-source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
+source-git-commit: dcd3ee5f3db5af434b87bfded0e360c66643793e
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 7%
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->此功能會計入Adobe Experience Platform中的合約資料限制。 在啟用此功能之前，請確定您的組織可以容納此功能產生的資料。
+>此功能會計入Adobe Experience Platform中的合約列限制。 在啟用此功能之前，請確定您的組織可以容納此功能產生的資料。
 
 ## 可用維度
 
