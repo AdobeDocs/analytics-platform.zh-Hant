@@ -3,14 +3,14 @@ title: 產品使用選擇退出設定
 description: 管理組織內個別使用者的選擇退出設定。
 hide: true
 hidefromtoc: true
-source-git-commit: 18686285efbdbc9e8fdac93e215adc4061bb0022
+source-git-commit: 5c18fd78a71ddffef62dc3ac69f1abc3b42bddda
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# 產品使用選擇退出設定
+# 產品使用選擇退出設定 {#product-usage-opt-out-settings}
 
 _選擇退出設定_&#x200B;頁面可讓您從產品使用追蹤中排除或重新包含組織內的使用者。
 
@@ -22,3 +22,8 @@ _選擇退出設定_&#x200B;頁面可讓您從產品使用追蹤中排除或重�
 * **[!UICONTROL 選擇退出使用者清單]**：此表格顯示目前選擇退出產品使用追蹤的所有使用者。 若要選擇讓使用者重新加入產品使用追蹤，請選取指定使用者旁的核取方塊，然後選取&#x200B;**[!UICONTROL 選擇加入]**&#x200B;按鈕。
 
 Adobe會結合使用使用者端和伺服器端追蹤，收集您組織的產品使用情況資料。 當使用者最初選擇退出時，在他們登出並返回Customer Journey Analytics之前，該使用者可能仍然會在他們的除錯工具中看到使用者端追蹤資料。 Adobe的伺服器端驗證可確保針對選擇退出的使用者捨棄使用者端追蹤資料。
+
+>[!CONTEXTUALHELP]
+>id="cja_product_usage_opt_out_settings"
+>title="選擇退出使用者"
+>abstract="從產品使用情況追蹤中排除使用者。"
