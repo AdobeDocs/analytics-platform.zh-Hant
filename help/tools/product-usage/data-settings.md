@@ -3,7 +3,7 @@ title: 產品使用資料設定
 description: 啟用、停用或設定產品使用設定。
 hide: true
 hidefromtoc: true
-source-git-commit: 5c18fd78a71ddffef62dc3ac69f1abc3b42bddda
+source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # 產品使用資料設定 {#product-usage-data-settings}
+
+{{release-limited-testing}}
 
 _資料設定_&#x200B;頁面會處理您的產品使用設定。 您可以使用此頁面來啟用或停用貴組織的產品使用情形。 您也可以設定要在哪個Adobe Experience Platform沙箱下建立資料集，並視需要覆寫資料保留視窗。 只有產品管理員能看見。
 
