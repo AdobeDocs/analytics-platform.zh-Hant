@@ -4,16 +4,17 @@ description: 計算量度產生器可讓您套用統計和數學函數，以建�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 100%
+source-wordcount: '1071'
+ht-degree: 97%
 
 ---
 
 # 參考資料 - 基本函數
 
-計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
+
+[計算量度產生器](cm-workflow/cm-build-metrics.md)可讓您套用統計和數學函式。
 
 以下是函數及其定義的字母順序清單。
 
@@ -21,9 +22,12 @@ ht-degree: 100%
 >
 >此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[!DNL MAXV(metrics)] 也允許用於 [!DNL MAXV(PageViews + Visits).]
 
+
 ## 表格函數和列函數
 
 表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
+
+
 
 ## 絕對值 (列)
 
@@ -101,9 +105,9 @@ EXP(metric)
 
 乘冪運算子
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (乘以 y 次)
-</pre>
+
+pow(x，y) = x<sup>y</sup> = x *x* x*... （y次）
+
 
 ## 平均值 (表格)
 
@@ -313,7 +317,7 @@ VARIANCE(metric)
 
 反覆運算整欄之後，會得到單一合計。接著將合計除以欄中的項目數。該數字會是欄的變數。一個單一的數字。但是，它會顯示為一欄數字。
 
-舉例來說，假設您的欄中有三個項目：
+如果是三專案欄：
 
 1
 

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 8310e67ea42c44e9cc6d9cfcbd27642b068ef1ed
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 99%
+source-wordcount: '1041'
+ht-degree: 91%
 
 ---
 
@@ -47,13 +47,13 @@ ht-degree: 99%
       + [保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
-      + [在 Customer Journey Analytics 中使用 Adobe Analytics 資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
-      + [Customer Journey Analytics 功能支援](../getting-started/aa-vs-cja/cja-aa.md)
-      + [比較透過 Analytics 來源連接器傳遞的 Analytics 資料術語](../getting-started/aa-vs-cja/terminology.md)
-      + [比較 Adobe Analytics 和 Customer Journey Analytics 之間的資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
-      + [虛擬報告環境和沙箱環境](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
-      + [處理規則、VISTA 和分類與資料準備的比較](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
-      + [AAID、ECID、AACUSTOMID 和 Analytics 來源連接器](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
+      + [使用Adobe Analytics資料](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [功能支援](../getting-started/aa-vs-cja/cja-aa.md)
+      + [比較術語](../getting-started/aa-vs-cja/terminology.md)
+      + [比較資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
+      + [環境](../getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
+      + [Analytics處理與資料準備](../getting-started/aa-vs-cja/pr-vista-dataprep.md)
+      + [Analytics身分](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [從 Adobe Analytics 發展而來](../getting-started/aa-to-cja.md)
    + [Adobe Analytics 使用者的使用手冊](../getting-started/aa-to-cja-user.md)
 
@@ -112,24 +112,23 @@ ht-degree: 99%
    + 專案 {#build-workspace-project}
       + [專案概觀](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)
+      + [開啟專案](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [儲存專案](../analysis-workspace/build-workspace-project/save-projects.md)
-      + [專案目錄](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace 資料夾{#workspace-folders}
-         + [關於 Workspace 資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [關於Workspace資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [建立資料夾和子資料夾](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [刪除資料夾](../analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-         + [新增專案](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [移除專案](../analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [儲存新專案](../analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [管理資料夾](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [將專案新增或移動至資料夾](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [快速鍵](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](../analysis-workspace/build-workspace-project/view-density.md)
    + 視覺效果 {#visualizations}
       + [視覺效果概觀](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理資料來源](../analysis-workspace/visualizations/t-sync-visualization.md)
+      + [智慧型註解](../analysis-workspace/visualizations/intelligent-captions.md)
       + 自由表格 {#freeform-table}
-         + [自由表格](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
-         + [為自由格式表格中的維度建立超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [自由表格概述](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [建立超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 欄和列的設定 {#column-row-settings}
             + [欄設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
@@ -137,46 +136,44 @@ ht-degree: 99%
          + [篩選和排序表格](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [工作區總計](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
-         + [什麼是同類群組分析？](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [設定同類群組分析報表](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [同類群組表格概觀](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [設定同類群組表格](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [同類群組分析使用案例](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 流失 {#fallout}
          + [流失概觀](../analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [設定流失視覺效果](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [設定流失](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [維度間流失](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [在流失分析中套用篩選](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 流量 {#flow}
          + [流量概觀](../analysis-workspace/visualizations/c-flow/flow.md)
-         + [設定流量視覺效果](../analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [設定流量](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [維度間流量](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + 歷程畫布 {#journey-canvas}
-         + [歷程畫布概觀](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
-         + [設定歷程畫布視覺效果](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
-      + [區域圖和堆疊區域圖](../analysis-workspace/visualizations/area.md)
-      + [長條圖和堆疊長條圖](../analysis-workspace/visualizations/bar.md)
-      + [項目符號圖表](../analysis-workspace/visualizations/bullet-graph.md)
-      + [組合圖表](../analysis-workspace/visualizations/combo-charts.md)
+      + [區域圖（棧疊）](../analysis-workspace/visualizations/area.md)
+      + [橫條圖（棧疊）](../analysis-workspace/visualizations/bar.md)
+      + [項目符號](../analysis-workspace/visualizations/bullet-graph.md)
+      + [組合](../analysis-workspace/visualizations/combo-charts.md)
       + [環形圖](../analysis-workspace/visualizations/donut.md)
       + [長條圖](../analysis-workspace/visualizations/histogram.md)
-      + [橫條圖和堆疊橫條圖](../analysis-workspace/visualizations/horizontal-bar.md)
-      + [智慧型註解](../analysis-workspace/visualizations/intelligent-captions.md)
+      + [水準橫條圖（棧疊）](../analysis-workspace/visualizations/horizontal-bar.md)
       + [關鍵量度摘要](../analysis-workspace/visualizations/key-metric.md)
       + [折線圖](../analysis-workspace/visualizations/line.md)
       + [散佈圖](../analysis-workspace/visualizations/scatterplot.md)
-      + [摘要數字和摘要變更](../analysis-workspace/visualizations/summary-number-change.md)
+      + [摘要數字和變更](../analysis-workspace/visualizations/summary-number-change.md)
+      + [區段標題](/help/analysis-workspace/visualizations/section-header.md)
       + [文字](../analysis-workspace/visualizations/text.md)
       + [樹狀圖](../analysis-workspace/visualizations/treemap.md)
       + [文氏圖表](../analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
       + [面板概觀](../analysis-workspace/c-panels/panels.md)
-      + [歸因面板](../analysis-workspace/c-panels/attribution.md)
       + [空白面板](../analysis-workspace/c-panels/blank-panel.md)
-      + [實驗面板](../analysis-workspace/c-panels/experimentation.md)
-      + [自由面板](../analysis-workspace/c-panels/freeform-panel.md)
-      + [媒體平均分鐘觀眾數面板](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [快速深入分析面板](../analysis-workspace/c-panels/quickinsight.md)
-      + [媒體同時檢閱者面板](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [「媒體播放時間」面板](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [歸因](../analysis-workspace/c-panels/attribution.md)
+      + [實驗](../analysis-workspace/c-panels/experimentation.md)
+      + [自由形式](../analysis-workspace/c-panels/freeform-panel.md)
+      + [媒體平均分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [媒體同時檢閱者](../analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [媒體播放時間](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [下一個或上一個專案](../analysis-workspace/c-panels/next-previous.md)
+      + [快速深入分析](../analysis-workspace/c-panels/quickinsight.md)
    + 策劃、共用及排程專案 {#curate-share}
       + [共用功能表](../analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](../analysis-workspace/curate-share/curate.md)
@@ -196,6 +193,7 @@ ht-degree: 99%
       + [預測概觀](../analysis-workspace/c-forecast/forecasting.md)
       + [在 Analysis Workspace 中檢視預測](../analysis-workspace/c-forecast/view-forecasts.md)
       + [預測服務中使用的統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md)
+      + [目錄](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [使用者偏好設定](../analysis-workspace/user-preferences.md)
    + 工作區常見問題 {#workspace-faq}
       + [常見問題](../analysis-workspace/workspace-faq/faq.md)
@@ -245,7 +243,7 @@ ht-degree: 99%
       + [管理註解](../components/annotations/manage-annotations.md)
       + [檢視註解](../components/annotations/view-annotations.md)
       + [行動註解](../components/annotations/mobile-annotations.md)
-   + [排程的專案](../components/scheduled-projects-manager.md)
+   + [已排程的專案](../components/scheduled-projects-manager.md)
    + 客群 {#audiences}
       + [客群概觀](../components/audiences/audiences-overview.md)
       + [建立及發佈客群](../components/audiences/publish.md)
@@ -260,28 +258,27 @@ ht-degree: 99%
    + 篩選 {#cja-filters}
       + [篩選概觀](../components/filters/filters-overview.md)
       + [建立篩選器](../components/filters/create-filters.md)
-      + [建立循序篩選器](../components/filters/seg-sequential-build.md)
+      + [建立篩選器](../components/filters/filter-builder.md)
+      + [快速篩選](../components/filters/quick-filters.md)
+      + [循序篩選器](../components/filters/seg-sequential-build.md)
       + [共用篩選器](../components/filters/filters-share.md)
       + [標記篩選器](../components/filters/filters-tag.md)
       + [過濾篩選器清單](../components/filters/filters-filter.md)
       + [將篩選器標示為我的最愛](../components/filters/filters-favorite.md)
       + [核准篩選器](../components/filters/filters-approve.md)
       + [複製篩選器](../components/filters/filters-copy.md)
-      + [快速篩選](../components/filters/quick-filters.md)
-      + [篩選產生器](../components/filters/filter-builder.md)
       + [管理篩選](../components/filters/manage-filters.md)
       + [運算子](../components/filters/operators.md)
    + 計算量度 {#cja-calcmetrics}
       + [計算量度概觀](../components/calc-metrics/calc-metr-overview.md)
       + 計算量度工作流程 {#cm-workflow}
-         + [計算量度工作流程](../components/calc-metrics/cm-workflow/cm-workflow.md)
+         + [建立計算量度](../components/calc-metrics/cm-workflow/cm-workflow.md)
+         + [建立計算量度](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [尋找量度](../components/calc-metrics/cm-workflow/cm-finding.md)
-         + [建置量度](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [量度類型和歸因](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
          + [建立參與率量度](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [篩選量度](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [堆疊和取代篩選器](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
-         + [篩選和加權的量度](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
          + [篩選計算量度](../components/calc-metrics/cm-workflow/cm-filter.md)
          + [將計算量度標示為我的最愛](../components/calc-metrics/cm-workflow/cm-favorite.md)
          + [複製計算量度](../components/calc-metrics/cm-workflow/cm-copy.md)
@@ -289,21 +286,22 @@ ht-degree: 99%
          + [標記計算量度](../components/calc-metrics/cm-workflow/cm-tagging.md)
          + [核准計算量度](../components/calc-metrics/cm-workflow/cm-approving.md)
          + [共用計算量度](../components/calc-metrics/cm-workflow/cm-sharing.md)
-         + [計算量度管理員](../components/calc-metrics/cm-workflow/cm-manager.md)
+         + [管理計算量度](../components/calc-metrics/cm-workflow/cm-manager.md)
+         + [範例](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
       + [預設計算量度](../components/calc-metrics/default-calcmetrics.md)
       + [基本函數](../components/calc-metrics/cm-functions.md)
       + [進階函數](../components/calc-metrics/cm-adv-functions.md)
-   + 日曆和日期範圍 {#cja-date-ranges}
-      + [日曆和日期範圍概觀](../components/date-ranges/calendar.md)
+   + 日期範圍 {#cja-date-ranges}
+      + [概觀](../components/date-ranges/overview.md)
       + [建立日期範圍](../components/date-ranges/create.md)
       + [管理日期範圍](../components/date-ranges/manage.md)
-      + [建立自訂日期範圍](../components/date-ranges/custom-date-ranges.md)
       + [日期比較](../components/date-ranges/time-comparison.md)
+      + [範例](../components/date-ranges/custom-date-ranges.md)
    + 警報 {#alerts}
       + [概觀](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-      + [Customer Journey Analytics 中的差異](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
-      + [建立](/help/components/c-intelligent-alerts/alert-builder.md)
-      + [管理](/help/components/c-intelligent-alerts/alert-manager.md)
+      + [建立警報](/help/components/c-intelligent-alerts/alert-builder.md)
+      + [管理警報](/help/components/c-intelligent-alerts/alert-manager.md)
+      + [功能比較](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [使用案例](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + 匯出 {#exports}
       + [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)

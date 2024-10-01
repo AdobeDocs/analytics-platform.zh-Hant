@@ -4,31 +4,32 @@ description: 了解建立篩選器的使用者介面。
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 55%
+source-wordcount: '262'
+ht-degree: 3%
 
 ---
 
 # 建立篩選器
 
-您可以在Workspace中建立不同型別的篩選器，實際型別將依據這些篩選器需要的複雜程度、是否應僅套用至目前專案或套用至所有專案等因素而定。
+您可以在Customer Journey Analytics中建立不同型別的篩選器。  您選取的型別取決於篩選器需要有多複雜，以及篩選器是否應僅套用至目前的Workspace專案或套用至所有專案。 您可以在Customer Journey Analytics的主要介面中或在Workspace專案中工作時，直接建立篩選器。
 
-以下為可用篩選器型別的摘要，其中包含建立篩選器型別相關資訊的連結：
+依預設，只有管理員可以建立篩選器。 使用者有權檢視篩選器，類似於使用者檢視其他元件的方式（例如註解、計算量度等）。
 
-| 篩選器類型 | 在哪裡建立？ | 適用於何處？ | 何時使用 |
-| --- | --- | --- | --- |
-| 元件清單篩選器 | 按一下「+」(加號)，系統即會將您帶至「[篩選產生器](/help/components/filters/filter-builder.md)」 | 您所有的工作區專案 | 適用於較複雜的篩選器、循序篩選器 |
-| 快速篩選 | [快速篩選產生器](/help/components/filters/quick-filters.md) | 僅限專案，但可以儲存並新增至您的分段清單中。 | 可用於臨時單一規則篩選（透過拖放），或新增/編輯多個規則（透過按一下「篩選」圖示） |
-| 流失分析中的篩選器 | Analysis Workspace 中的[流失視覺效果](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) | 對於個別的流失視覺效果 | 從接觸點建立篩選器，將篩選器新增為觸控點，並比較各種篩選器之間的關鍵工作流程 |
-| 計算量度篩選器 | [計算量度產生器](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) | 至個別計算量度 | 在您的量度定義中套用篩選器 |
+但是，管理員可以透過[Admin Console](/help/technotes/access-control.md#user-level-access)將&#x200B;**[!UICONTROL CJA Workspace存取權]**&#x200B;中&#x200B;**[!UICONTROL 報告工具]**&#x200B;的&#x200B;**[!UICONTROL 篩選器建立]**&#x200B;許可權授予使用者。
 
-將篩選器套用至自由格式專案時，也可使用數種其他方法：
+您可以透過下列方式建立篩選器：
 
-| 動作 | 說明 |
-| --- | --- |
-| 從選取項目建立篩選條件 | 建立內嵌篩選條件。此篩選器僅套用至開啟的專案，不會儲存為Customer Journey Analytics篩選器。<p> 1. 請選取您要哪些表格列成為篩選器的一部分。  2. 以滑鼠右鍵按一下選取項目。  3. 按一下&#x200B;*「從選取項目建立篩選條件」*。 |
-| 「工作區 [!UICONTROL 元件] > [!UICONTROL 新增篩選器]」 | 顯示篩選條件產生器。 如需篩選功能的詳細資訊，請參閱[篩選條件產生器](/help/components/filters/filter-builder.md)。 |
-| 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)或[組織專案](/help/analysis-workspace/curate-share/curate.md)中，瞭解您套用至專案的篩選器可如何供收件者使用於共用分析中。 |
-| 將篩選條件作為維度使用 | 下列影片示範如何使用篩選器作為維度：  <p>[在 Analysis Workspace 中將篩選器用作維度](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)</p> |
+![建立篩選器的方式](assets/create-filter.png)
+
+* ??在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 篩選器]**。 從[[!UICONTROL 篩選器]管理員](/help/components/filters/manage-filters.md)中選取![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**]。
+* ??在Workspace專案中，從「元件」左側面板選取![區段](/help/assets/icons/Segmentation.svg) **篩選器**&#x200B;的![新增](/help/assets/icons/Add.svg)。
+* ??在Workspace專案中，從視覺效果的內容功能表中，選取&#x200B;**[!UICONTROL 從選取專案建立篩選器]**。
+* ??在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立篩選器]**。
+* ??在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL shift+cmd+e]** (macOS)或&#x200B;**[!UICONTROL shift+ctrl+e]** (Windows)。
+* ??選取![在&#x200B;***將篩選器放置在此處（或任何其他元件）***&#x200B;放置區域中新增](/help/assets/icons/Add.svg)。 此動作會建立僅限專案的篩選器。
+
+若要定義新的篩選器，請使用[篩選器產生器](/help/components/filters/filter-builder.md)。
+
+當您在Workspace專案中時，您也可以使用[快速篩選](/help/components/filters/quick-filters.md)來快速建立篩選。

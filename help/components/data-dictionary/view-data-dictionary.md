@@ -4,10 +4,10 @@ title: 檢視資料字典
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 79%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 79%
 
 1. 前往包含要檢視之元件的 Analysis Workspace 專案。
 
-1. 選取 Analysis Workspace 左邊欄的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。(存取資料字典的替代方法說明請見[資料字典概觀](/help/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」。)
+1. 選取Analysis Workspace左側面板中的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。 (存取資料字典的替代方法說明請見[資料字典概觀](/help/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」。)
 
    顯示資料字典視窗。
 

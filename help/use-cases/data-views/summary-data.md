@@ -1,13 +1,13 @@
 ---
 title: 在Customer Journey Analytics中使用摘要資料
-description: 說明有關如何將摘要資料帶入Customer Journey Analytics的所有詳細資訊
+description: 說明如何將摘要資料帶入Customer Journey Analytics之所有詳細資訊的使用案例
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: e6f57b03689bd9aaaec12c13fc95da5b079b901e
+source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
 workflow-type: tm+mt
-source-wordcount: '5187'
+source-wordcount: '5188'
 ht-degree: 8%
 
 ---
@@ -512,7 +512,7 @@ ht-degree: 8%
 
          ![收入摘要資料](../assets/revenue-summary-data.png)
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 歸因]**。
-            1. 從&#x200B;**[!UICONTROL 歸因模型]**&#x200B;下拉式清單中選取![AttributionLastTouch](/help/assets/icons/AttributionLastTouch.svg) **[!UICONTROL 上次接觸]**。
+            1. 從&#x200B;**[!UICONTROL 歸因模型]**&#x200B;下拉式清單中選取![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL 上次接觸]**。
             1. 從&#x200B;**[!UICONTROL 回顧期間]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 30天]**。
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **格式**。
             1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 貨幣]**。
@@ -522,7 +522,7 @@ ht-degree: 8%
 
          ![訂單摘要資料](../assets/orders-summary-data.png)
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 歸因]**。
-            1. 從&#x200B;**[!UICONTROL 歸因模型]**&#x200B;下拉式清單中選取![AttributionLastTouch](/help/assets/icons/AttributionLastTouch.svg) **[!UICONTROL 上次接觸]**。
+            1. 從&#x200B;**[!UICONTROL 歸因模型]**&#x200B;下拉式清單中選取![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL 上次接觸]**。
             1. 從&#x200B;**[!UICONTROL 回顧期間]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 30天]**。
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 格式]**。
             1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 十進位]**。

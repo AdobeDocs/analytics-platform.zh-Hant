@@ -1,24 +1,21 @@
 ---
-description: 了解如何從資料夾中移除專案
+description: 瞭解如何從資料夾重新命名專案
 keywords: Analysis Workspace
 title: 從資料夾中移除專案
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: 7ba5a1d4d9f93cd15b76d26a880abe723120de72
+source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 94%
 
 ---
 
-# 從資料夾中移除專案
+# 刪除專案
 
-若要從資料夾中移除專案，您可以將專案移動到另一個位置或刪除專案。
+<!-- Is this article still needed -->
 
->[!NOTE]
->
->當管理員將專案移動到公司資料夾時，即使原始共用權限被禁止，該資料夾也可以與所有人共用。當管理員將專案移出公司資料夾時，原始或以前的共用權限就會啟用。
 
 ## 移動專案 {#move-project-in-folder}
 

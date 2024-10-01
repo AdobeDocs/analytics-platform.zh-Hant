@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: d20655293a8248d26fed675d6f38e5a8a49a15c1
+source-git-commit: e93f4875bbb5940d9182aadcefcc7166644434c4
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 100%
@@ -58,7 +58,7 @@ Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleagu
 
 ## 遷移到 Customer Journey Analytics 時為關鍵差異做好準備
 
-隨著您的組織發展為使用 Customer Journey Analytics，請探索這些步驟以準備您的資料，並了解這兩種技術之間的關鍵差異。本文內容主要針對管理員對象。
+隨著您的組織發展為使用 Customer Journey Analytics，請探索這些步驟以準備您的資料，並了解這兩種技術之間的關鍵差異。本文內容主要針對管理員客群。
 
 ### 適應報告時間處理 {#report-time}
 
@@ -90,7 +90,7 @@ Adobe Analytics 區段 (在 Customer Journey Analytics 中稱為[!UICONTROL 篩�
 
 * 使用 Customer Journey Analytics 資料檢視的力量，您會有更大的彈性來定義 Customer Journey Analytics 的量度和維度。例如，維度值可做為量度的定義。[了解更多](/help/use-cases/data-views/data-views-usecases.md)
 
-* 如果您在 Adobe Analytics 定義了自訂行事曆，則 Customer Journey Analytics 中將具有類似的[自訂行事曆功能](/help/components/date-ranges/custom-date-ranges.md)。您需要確保行事曆已正確定義。
+* 如果您在 Adobe Analytics 定義了自訂行事曆，則 Customer Journey Analytics 中將具有類似的[自訂行事曆功能](/help/components/date-ranges/overview.md)。您需要確保行事曆已正確定義。
 
 * 在 Customer Journey Analytics 中，可以定義自訂造訪/工作階段逾時，並定義將啟動新工作階段的量度。您可以建立具有不同工作階段定義的資料檢視，以獲得超越 Adobe Analytics 可能的見解。此功能對行動資料集尤其有益。
 

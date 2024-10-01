@@ -4,23 +4,23 @@ title: 預設計算量度
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: a507417c945f827ebb8bc92f7b5f54a9c4e6faa0
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 28%
+source-wordcount: '387'
+ht-degree: 9%
 
 ---
 
 # 預設計算量度
 
-Customer Journey Analytics提供下列計算量度，以涵蓋最常見的使用案例：
+Customer Journey Analytics提供下列預設計算量度，以涵蓋最常見的使用案例。 這些Adobe定義的預設計算量度以小型![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)標誌識別。 若要快速篩選這些量度，請在[元件篩選器](/help/components/overview.md#filter)中選取![標籤](/help/assets/icons/Label.svg) **[!UICONTROL Adobe範本]**。
 
-| 計算量度名稱 | 說明 | 公式 |
-|---------|----------|---------|
-| 工作階段開始率 | 任何維度專案在工作階段的第一個事件發生百分比。<p>當您在[資料檢視](/help/data-views/create-dataview.md)中包含`[Session Starts]` [標準元件](/help/data-views/component-reference.md)時，此計算量度會自動新增至Workspace。</p> | `[Session Starts] / [Sessions]` |
-| 每人逗留時間 | 一個人在任何特定維度項目上的平均逗留時間。<p>當您在[資料檢視](/help/data-views/create-dataview.md)中包含`[Time Spent (seconds)]` [標準元件](/help/data-views/component-reference.md)時，此計算量度會自動新增至Workspace。</p> | `[Time Spent (seconds)] / [Users]` |
-| 每人工作階段數 | 每人平均工作階段數。 | `[Sessions] / [Users]` |
-| 每工作階段逗留時間 | 一個人每工作階段在任何特定維度項目上的平均逗留時間。<p>當您在[資料檢視](/help/data-views/create-dataview.md)中包含`[Time Spent (seconds)]` [標準元件](/help/data-views/component-reference.md)時，此計算量度會自動新增至Workspace。</p> | `[Time Spent (seconds)] / [Sessions]` |
-| 工作階段結束率 | 任何維度專案在工作階段的最後一個事件發生百分比。 <p>當您在[資料檢視](/help/data-views/create-dataview.md)中包含`[Session Ends]` [標準元件](/help/data-views/component-reference.md)時，此計算量度會自動新增至Workspace。</p> | `[Session Ends] / [Sessions]` |
+| 計算量度名稱 | 描述<br/>公式 |
+|---------|----------|
+| **[!UICONTROL 工作階段開始速率]** | 任何維度專案在工作階段的第一個事件發生百分比。<p>當您在[資料檢視](/help/data-views/create-dataview.md)中加入[!UICONTROL 工作階段開始] [標準元件](/help/data-views/component-reference.md)時，此計算量度會自動新增至Workspace。</p>摘要： **（** ![事件](/help/assets/icons/Event.svg) **工作階段開始** ![分割](/help/assets/icons/Divide.svg) ![事件](/help/assets/icons/Event.svg) **工作階段** **）** |
+| 每個人&#x200B;**[!UICONTROL 逗留時間]** | 一個人在任何特定維度項目上的平均逗留時間。<p>當您在[資料檢視](/help/data-views/create-dataview.md)中加入[!UICONTROL 逗留時間（秒）] [標準元件](/help/data-views/component-reference.md)時，此計算量度會自動新增至Workspace。 篩選工作階段排除最後一個事件會套用至「人物」量度。 篩選器會排除資料集中每個工作階段的最後一個事件。 此排除可協助您分析導致事件或動作（例如購買或表單提交）的使用者行為，同時排除最終動作本身。</p>摘要： **(** ![事件](/help/assets/icons/Event.svg) **逗留時間（秒）** ![除](/help/assets/icons/Divide.svg) ![分段](/help/assets/icons/Segmentation.svg) **排除工作階段的最後一個事件（** ![事件](/help/assets/icons/Event.svg) **人員） )** |
+| 每個人的&#x200B;**[!UICONTROL 個工作階段]** | 每人平均工作階段數。<p>摘要： **（** ![事件](/help/assets/icons/Event.svg) **工作階段** ![分割](/help/assets/icons/Divide.svg) ![事件](/help/assets/icons/Event.svg) **人員** **）** |
+| 每個工作階段逗留時間&#x200B;**** | 一個人每工作階段在任何特定維度項目上的平均逗留時間。<p>當您在[資料檢視](/help/data-views/create-dataview.md)中加入[!UICONTROL 逗留時間（秒）] [標準元件](/help/data-views/component-reference.md)時，此計算量度會自動新增至Workspace。 「工作階段排除最後一個事件」篩選器會套用至「工作階段」量度。 篩選器會排除資料集中每個工作階段的最後一個事件。 此排除可協助您分析導致事件或動作（例如購買或表單提交）的使用者行為，同時排除最終動作本身。</p>摘要： **(** ![事件](/help/assets/icons/Event.svg) **逗留時間（秒）** ![除](/help/assets/icons/Divide.svg) ![分段](/help/assets/icons/Segmentation.svg) **排除工作階段的最後一個事件（** ![事件](/help/assets/icons/Event.svg) **工作階段） )** |
+| **[!UICONTROL 工作階段結束率]** | 任何維度專案在工作階段的最後一個事件發生百分比。 <p>當您在[資料檢視](/help/data-views/create-dataview.md)中加入[!UICONTROL 工作階段結束] [標準元件](/help/data-views/component-reference.md)時，此計算量度會自動新增至Workspace。</p>摘要： **（** ![事件](/help/assets/icons/Event.svg) **工作階段結束** ![分割](/help/assets/icons/Divide.svg) ![事件](/help/assets/icons/Event.svg) **工作階段** **）** |
 
 {style="table-layout:auto"}

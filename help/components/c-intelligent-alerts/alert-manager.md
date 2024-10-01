@@ -1,107 +1,118 @@
 ---
 description: 建立、編輯或刪除警報。
-title: 警報管理器(Analysis Workspace)
+title: 管理警報
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: bd58af0680fc9524453e072ecb60e3ada72ce634
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 7%
+source-wordcount: '566'
+ht-degree: 4%
 
 ---
 
 # 管理警報
 
-您可以在「警報管理員」中管理現有警報。 您可以對警示執行各種管理工作，例如標籤、重新命名、刪除等等。
+
+您可以從中央[!UICONTROL 警示]管理介面篩選、標籤、刪除、重新命名、複製、啟用、停用更新及匯出警示。 若要管理警報：
+
+* 在主介面中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 警示]**。
 
 警示管理員的結構相當類似於[篩選器管理員](/help/components/filters/manage-filters.md)和[計算量度管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md)。
 
-## 建立警報
 
-若要從「警示管理員」建立警示，請執行下列動作：
+## 警報管理器
 
-1. 選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 警示]**&#x200B;以存取Customer Journey Analytics中的警示管理員。
+「警報」管理員具有下列介面元素：
 
-   ![](assets/alert-manager.png)
+![篩選器介面](assets/alerts-manager.png)
 
-1. 選取「[!UICONTROL **新增**]」（或如果您沒有任何現有的警示，則選取「[!UICONTROL **建立新警示**]」）。
+### 警示清單
 
-1. 繼續進行[建立警示](/help/components/c-intelligent-alerts/alert-builder.md)，以取得建立警示的詳細資訊。
+警示清單➊會顯示您擁有的所有警示、已設定至您所有專案的警示，以及已與您共用的警示。 此清單包含下列欄：
 
-## 管理現有警報
+| 欄 | 說明 |
+|---|---|
+| ![星形大綱](/help/assets/icons/StarOutline.svg) | 選取以偏好![Star](/help/assets/icons/Star.svg)或取消偏好![StarOutline](/help/assets/icons/StarOutline.svg)警報。 |
+| **[!UICONTROL 標題和說明]** | 若要編輯警報，請選取標題連結，以開啟[警報產生器](alert-builder.md#alert-builder)。 |
+| **[!UICONTROL 類型]** | 顯示警示是Customer Journey Analytics資料警示還是伺服器呼叫使用量警示。 |
+| **[!UICONTROL 已啟用]** | 指出警示是啟用還是停用。 |
+| **[!UICONTROL 資料視圖]** | 套用此警報的資料檢視。 |
+| **[!UICONTROL 所有者]** | 警示的擁有者。 如果您不是管理員，您只會看到自己所擁有或他人與您共用的警示。 |
+| **[!UICONTROL 標記]** | 此警示的標籤。 |
+| **[!UICONTROL 到期日]** | 警示設為到期的日期和時間。 |
+| **[!UICONTROL 修改日期]** | 上次修改警示的日期和時間。 |
 
-若要在「警報管理員」中管理現有警報：
+<!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
 
-1. 選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 警示]**&#x200B;以存取Customer Journey Analytics中的警示管理員。
+使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)指定您要顯示哪些欄。
 
-   ![](assets/alert-manager.png)
+### 動作列
 
-1. 選取一或多個您要管理的警示。
+您可以使用動作列對警報進➋行動作。 動作列包含下列動作：
 
-   ![](assets/alert-manager-tasks.png)
+| 動作 | 說明 |
+|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | 使用[警報產生器](alert-builder.md#alert-builder)新增另一個警報。 |
+| ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *依標題搜尋*] | 當清單中未選取警示時，請使用此搜尋欄位來搜尋警示。 |
+| ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標籤]** | 標籤選取的警報。 在&#x200B;**[!UICONTROL 標籤警示]**&#x200B;對話方塊中，選取或取消選取所選警示的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選警示的標籤。 |
+| ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除選取的警示。 系統會提示您進行確認。 |
+| ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名單一選取的警報。 選取後，您可以重新命名內嵌警報。 |
+| ![副本](/help/assets/icons/Copy.svg) **[!UICONTROL 副本]** | 複製選取的警報。 已建立具有相同名稱與尾碼`(Copy)`的新警示。 |
+| ![核取記號圓圈](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 啟用]**&#x200B;或&#x200B;**[!UICONTROL 停用]** | 啟用或停用選取的警示。 |
+| ![重新整理](/help/assets/icons/Refresh.svg) **[!UICONTROL 續約]** | 更新警示到期日。 無論原始到期日為何，到期日都會從您選取此選項的當天算起延長1年。 |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出至CSV]** | 將警示匯出至`Alerts List.csv`檔案。 |
 
-1. 在動作列中，選取下列任一選項：
 
-   | 動作 | 函數 |
-   |---------|----------|
-   | [!UICONTROL **標記**] | 將標籤套用至警報。 這可協助您組織警報以方便使用。 |
-   | [!UICONTROL **刪除**] | 刪除警示。 |
-   | [!UICONTROL **重新命名**] | 重新命名警報。 |
-   | [!UICONTROL **核准**] | 將警報標示為「已核准」。 |
-   | [!UICONTROL **副本**] | 建立警示的復本（重複）。 |
-   | [!UICONTROL **停用**] | 停用目前啟用的警示。 |
-   | [!UICONTROL **啟用**] | 啟用目前停用的警示。 |
-   | [!UICONTROL **續約**] | 更新警示到期日。 如此一來，到期日將從您選取此選項之日算起延長1年，無論原始到期日為何。 |
-   | [!UICONTROL **匯出至 CSV**] | 將警報匯出至.CSV檔案。 |
+### 作用中的篩選器列
+
+篩選器列會顯➌示從篩選器面板套用至警報清單的作用中篩選器（如果有的話）。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選器。 如果指定了多個篩選器，您可以使用&#x200B;**[!UICONTROL 全部移除]**&#x200B;來移除所有篩選器。
+
+
+### 篩選器面板
+
+您可以使用![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 篩選器]**&#x200B;左側面板➍來篩選警示清單。 篩選器面板會顯示篩選器的型別，以及遵循特定篩選器的警示數目。
+
+{{filterspanel}}
+
+
+#### 標籤篩選區段
+
+{{tagfiltersection}}
+
+
+#### 資料檢視篩選區段
+
+{{dataviewfiltersection}}
+
+
+#### 「擁有者」篩選器區段
+
+{{ownerfiltersection}}
+
+
+#### 已啟用狀態篩選區段
+
+{{enabledstatusfiltersection}}
+
+
+#### 輸入篩選區段
+
+{{typefiltersection}}
+
+
+#### 其他篩選器篩選器區段
+
+{{otherfiltersfiltersection}}
+
+
 
 ## 編輯警報
 
-若要編輯現有警示，請執行下列動作：
+您可以編輯警報
 
-1. 選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 警報]**&#x200B;以存取Adobe Analytics中的警報管理器。
+* 在[[!UICONTROL 警示]清單](#alerts-list)中，選取警示的標題。
 
-   ![](assets/alert-manager.png)
-
-1. 在&#x200B;[!UICONTROL **標題和說明**]&#x200B;欄中選取警示名稱。
-
-1. 視需要編輯警報。
-
-   以下是編輯警報時您可以進行的部分操作：
-
-   * 將警報新增至其他報表套裝
-   * 變更擁有者
-   * 更新篩選器
-   * 更新到期日
-
-1. 編輯警示，然後選取&#x200B;[!UICONTROL **儲存**]。
-
-## 設定欄
-
-您可以設定顯示的資料欄，以設定「警示管理員」中每個警示顯示的資訊。
-
-若要在「警報管理員」中設定可見欄：
-
-1. 在Adobe Analytics中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;標籤，然後選取&#x200B;**[!UICONTROL 警示]**。
-
-1. 在警示管理員中，選取&#x200B;**自訂欄**&#x200B;圖示![自訂欄圖示](assets/customize-columns-icon.png)，然後選取您要顯示在警示管理員中的欄。
-
-   可使用下列欄:
-
-   | 欄標題 | 說明 |
-   |---|---|
-   | 標題和說明 | 這些值會在警報產生器中提供。 若要編輯標題和說明，請選取標題連結以開啟警報產生器。 |
-   | 我的最愛 | 在每一個警示旁邊顯示星號圖示，讓您將警示標示為我的最愛。<!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
-   | 類型 | 顯示警示是Analytics資料警示還是伺服器呼叫使用量警示。 |
-   | 已啟用 | 顯示警示目前是啟用還是停用。 |
-   | 報表套裝 | 指出上次將警報儲存到的目標報表套裝。 |
-   | 所有者 | 指出警報的擁有者。 如果您不是管理員，就只能看見自己所擁有或已共用給您的警報。 |
-   | 標記 | 顯示套用至警示的標籤，這些標籤是由您自己或與您共用警示的人員所設定。 |
-   | 到期日 | 顯示警示設為到期的日期和時間。 |
-   | 修改日期 | 表示上次修改警示的日期。 |
-
-   {style="table-layout:auto"}
-
-   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
+您使用[警報產生器](alert-builder.md#alert-builder)來編輯警報。
 
 ## 疑難排解警報
 

@@ -4,14 +4,14 @@ description: 如何與表格中的動態和靜態維度項目互動
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 388042e24a7b9d33ac88e05a68689308e6258339
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
-# 自由表格中的動態與靜態維度項目
+# 自由表格中的動態和靜態維度專案
 
 在自由表格中，列和欄可以包含各種元件值。這些值可以是動態 (隨時間變動) 或靜態 (不隨時間變動)，視您要建立的分析而定。
 

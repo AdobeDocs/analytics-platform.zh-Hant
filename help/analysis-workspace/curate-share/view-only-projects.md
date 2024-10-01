@@ -5,10 +5,10 @@ title: 僅供檢視的專案
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 80%
 
 在僅限檢視專案中停用的互動功能包括：
 
-* 隱藏左側邊欄
+* 隱藏的左側面板
 * 面板日曆日期範圍。注意：如果您想要將日曆控制授權給收件者，請[將其新增至包含日期範圍的下拉式篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
 * 自由格式篩選
 * 可見列的自由格式編號

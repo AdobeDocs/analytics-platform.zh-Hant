@@ -1,25 +1,46 @@
 ---
-description: 瞭解建立計算量度的步驟。
-title: 計算量度工作流程
+description: 瞭解如何建立計算量度。
+title: 建立計算量度
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: c36dddb31261a3a5e37be9c4566f5e7ec212f53c
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
-# 計算量度工作流程
+# 建立計算量度
 
-瞭解建立計算量度的步驟。
+依預設，只有管理員可以建立計算量度。 使用者有權檢視計算量度，類似於使用者檢視其他元件的方式（例如篩選器、註解等）。
 
-| 工作流程工作 | 說明 |
+不過，管理員可以透過[Admin Console](/help/technotes/access-control.md#user-level-access)，將&#x200B;**[!UICONTROL 編輯CJA Workspace存取許可權]**&#x200B;中&#x200B;**[!UICONTROL 報告工具]**&#x200B;的&#x200B;**[!UICONTROL 計算量度建立]**&#x200B;許可權授予使用者。
+
+
+您可以透過下列方式建立計算量度：
+
+![建立篩選器的方式](assets/create-metric.png)
+
+* ??在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 計算量度]**。 從[[!UICONTROL 計算量度]管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md)選取![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**]。
+* ??在Workspace專案中，從「元件」左側面板選取![事件](/help/assets/icons/Event.svg) **量度**&#x200B;的![新增](/help/assets/icons/Add.svg)。
+* ??在Workspace專案中，從量度欄標題的內容功能表中，選取「**[!UICONTROL 從選取專案建立量度]**」。 您可以從子功能表中選取函式，或選取&#x200B;**[!UICONTROL 在計算量度產生器中開啟]**。 <br/>如果您選取函式，計算量度會定義為僅限專案的量度。 當您稍後透過[元件資訊](/help/components/use-components-in-workspace.md#component-info)快顯視窗編輯此量度時，會在[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中看到通知。
+* ??在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立量度]**。
+* ??在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL shift+cmd+c]** (macOS)或&#x200B;**[!UICONTROL shift+ctrl+c]** (Windows)。
+
+若要定義新的計算量度，請使用[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)。
+
+<!--
+
+Learn about the steps to take for creating calculated metrics.
+
+| Workflow Task | Description |
 | --- | --- |
-| 規劃計算量度 | 對於要正式「核准」的量度來說，您尤其有必要先概述將廣泛使用的計算量度及其定義方式。 |
-| [建立](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)計算量度 | 建立和編輯計算量度與進階計算量度，以用於 [!DNL Customer Journey Analytics] 元件。 |
-| [](cm-tagging.md)標記計算量度 | 標記計算量度以方便進行組織和共用。請參閱如何規劃和指派標記來進行簡易與進階的搜尋及組織。 |
-| [](cm-approving.md)核准計算量度 | 核准計算量度可讓它們成為遵循標準。 |
-| 套用計算量度 | 您可從報表、量度選擇器 (若要存取，請按一下「[!UICONTROL 顯示量度]」) 直接套用量度。 |
-| 篩選器計算量度 | 在量度選擇器中，按一下「[!UICONTROL 進階選擇]」並依標記、擁有者及其他篩選器 (全部顯示、我的、與我共用、我的最愛與已核准) 進行篩選。 |
-| 將計算量度標示為[我的最愛](cm-finding.md) | 要組織量度以方便使用，將量度標記為我的最愛是另一種方法。 |
+| Plan Calculated Metrics | Especially for metrics that are going to be officially "approved", it makes sense to outline which calculated metrics will be widely used and how they will be defined. |
+| [Build](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) Calculated Metrics | Build and edit calculated and advanced calculated metrics for use in [!DNL Customer Journey Analytics] components. |
+| [Tag](cm-tagging.md) Calculated Metrics | Tag calculated metrics for ease of organization and sharing. See how to plan and assign tags for simple and advanced searches and organization. |
+| [Approve](cm-approving.md) Calculated Metrics | Approve calculated metrics to make them canonical. |
+| Apply Calculated Metrics | You can apply metrics directly from a report, from the Metric Selector (to access it, click [!UICONTROL Show Metrics]). |
+| Filter Calculated Metrics | In the Metric Selector, click [!UICONTROL Advanced Selection] and filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.) |
+| Mark Calculated Metrics as [Favorites](cm-finding.md) | Marking metrics as favorites is another way to organize them for ease of use.|
+
+-->

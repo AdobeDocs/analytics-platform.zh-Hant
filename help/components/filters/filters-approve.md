@@ -4,29 +4,26 @@ title: 核准篩選器
 feature: Filters
 exl-id: 3892ef54-3f24-4c7a-868f-f566efaea400
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 71%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
-# 核准篩選器 {#approve}
+# 核准篩選器
 
-在「篩選器管理器」內，您可以設立工作流程來核准適合各種應用層級、適合特定部門或群組，以及符合報表原則的篩選器。
+在[篩選器管理員](manage-filters.md)中，您可以核准和取消核准篩選器。 只有管理員可以核准篩選器。
 
-以下說明將篩選器標幟為已核准的程序：
+若要核准篩選器：
 
-1. 在「篩選器管理器」中，勾選篩選器標題左側的核取方塊。
+1. 在[篩選器管理員](manage-filters.md)中，選取一或多個要核准的篩選器。
+1. 從動作列中選取![核取記號圓圈](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]**。 已核准的篩選器以![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)表示
 
-1. 按一下篩選器管理工作列中的「**[!UICONTROL 核准]**」。
+若要取消核准篩選器：
 
-1. 考慮將核准的篩選器和組織共用。
+1. 在[篩選器管理員](manage-filters.md)中，選取一或多個要取消核准的篩選器。
+1. 從動作列中選取![核取記號圓形](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 取消核准]**。
 
-1. 按一下「**[!UICONTROL 確定]**」。
 
-   請注意清單中該篩選器旁會出現核准圖示。
-
-   ![篩選器管理員顯示超過100個訂單已核准共用。](assets/seg_approved.png)
-
-1. 您也可以按一下「**[!UICONTROL 取消核准]**」，將核准的篩選器取消核准。
+您可以依核准的篩選器來篩選篩選器清單。 從![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 篩選器]**&#x200B;面板中選取&#x200B;**[!UICONTROL 其他篩選器]**，然後選取&#x200B;**[!UICONTROL 已核准]**。 如需詳細資訊，請參閱[篩選篩選清單](/help/components/filters/filters-filter.md)。

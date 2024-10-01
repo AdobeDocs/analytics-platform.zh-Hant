@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 22ae84479142d45f400f6ae39fe1416c9aaf7229
-workflow-type: ht
-source-wordcount: '2567'
-ht-degree: 100%
+source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+workflow-type: tm+mt
+source-wordcount: '2565'
+ht-degree: 99%
 
 ---
 
@@ -70,9 +70,9 @@ Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.c
 +++
 
 
-+++**非拼接設定檔資料集記錄的預期行為是什麼？**
++++**非拼接輪廓資料集記錄的預期行為是什麼？**
 
-**範例情境**：透過將 `CRMid` 用作人員 ID，在 Customer Journey Analytics 連線中連結兩個資料集。一種是在所有記錄中具有 `CRMid`的 Web 事件資料集。另一個資料集是 CRM 設定檔資料集。40% 的 CRM 資料集在 Web 事件資料集中存在 `CRMid`。其他 60% 不存在於 Web 事件資料集中 - 這些記錄是否出現在 Analysis Workspace 的報告中？<p> **答案**：沒有事件關聯的設定檔列儲存在 Customer Journey Analytics 中。但是，在與該 ID 關聯的事件出現之前，您無法在 Analysis Workspace 中查看它們。
+**範例情境**：透過將 `CRMid` 用作人員 ID，在 Customer Journey Analytics 連線中連結兩個資料集。一種是在所有記錄中具有 `CRMid`的 Web 事件資料集。另一個資料集是 CRM 輪廓資料集。40% 的 CRM 資料集在 Web 事件資料集中存在 `CRMid`。其他 60% 不存在於 Web 事件資料集中 - 這些記錄是否出現在 Analysis Workspace 的報告中？<p> **答案**：沒有事件關聯的輪廓列儲存在 Customer Journey Analytics 中。但是，在與該 ID 關聯的事件出現之前，您無法在 Analysis Workspace 中查看它們。
 
 +++
 
@@ -140,7 +140,7 @@ Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
 ## 5. 設定「[!UICONTROL 連線]」資料保留的滾動時段 {#data-retention}
 
-「[**[!UICONTROL 啟用滾動資料時段&#x200B;]**」設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)可讓您將 Customer Journey Analytics 資料保留定義為單位為幾個月的滾動時段 (三個月、六個月等)。這是在[!UICONTROL 連接]層級設定，而不是[!UICONTROL 資料集]層級。資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此基本資料或查詢資料集不存在資料保留設定。
+「[**[!UICONTROL 啟用滾動資料時段&#x200B;]**」設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)可讓您將 Customer Journey Analytics 資料保留定義為單位為幾個月的滾動時段 (三個月、六個月等)。這是在[!UICONTROL 連接]層級設定，而不是[!UICONTROL 資料集]層級。資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。由於無適用的時間戳記，因此輪廓或查詢資料集不存在資料保留設定。
 
 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。
 
@@ -218,7 +218,7 @@ Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
 Adobe 會定期監控和執行使用量限額。「資料列」指可用於 Customer Journey Analytics 中分析的每日平均資料列。
 
-例如，如果您的合約讓您有權使用 100 萬筆資料列。假設在使用 Customer Journey Analytics 的第 1 天，您可以上傳 200 萬筆資料列。您在第 2 天刪除 100 萬筆資料列，並在剩餘的授權期限內將使用量維持在承諾的最大使用量 (亦即 100 萬筆資料列) 以內。根據您的合約條款，由於您超出了「資料列」授權權利，您仍然可能需支付按比例計算的第 1 天超額使用費。
+例如，您的合約讓您有權使用100萬筆資料列。 假設在使用 Customer Journey Analytics 的第 1 天，您可以上傳 200 萬筆資料列。您在第 2 天刪除 100 萬筆資料列，並在剩餘的授權期限內將使用量維持在承諾的最大使用量 (亦即 100 萬筆資料列) 以內。根據您的合約條款，由於您超出了「資料列」授權權利，您仍然可能需支付按比例計算的第 1 天超額使用費。
 
 ## 11. 診斷資料差異 {#discrepancies}
 

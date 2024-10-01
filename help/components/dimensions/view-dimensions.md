@@ -4,29 +4,34 @@ title: 如何在Customer Journey AnalyticsWorkspace中預覽維度
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 90%
+source-wordcount: '113'
+ht-degree: 18%
 
 ---
 
 # 在 Analysis Workspace 中預覽維度
 
-將滑鼠移到維度旁的資訊 (i) 圖示上，即會顯示非時間維度的前 5 個值 (而時間維度則是前 15 個值)。我們之前會將這些值保持為靜態 (亦即，所選的 5 個值從未變更)。
+您可以使用元件的[元件資訊](/help/components/use-components-in-workspace.md#component-info)來顯示維度的排名最前的專案。
 
-![非時間維度的前5個值。](assets/dimension-preview.png)
+![元件資訊](../assets/component-info.png)
 
-現在，我們會預設顯示動態值而不是靜態值，並可以選擇將這些值轉換為靜態值。其他注意事項：
+<!--
+Now, by default, we show dynamic values instead of static ones, with the option to turn them into static values. Other things to note:
 
-* 隨著資料更新，動態維度欄也會隨之更新以顯示目前的 5/15 維度項目。
-* 已複製或移動的動態維度欄將變為靜態。
-* 滑鼠游標暫留在靜態維度欄時，您會看到一個鎖定圖示，表示該維度是靜態的。
+* As your data updates, the dynamic dimension columns will update to show the current 5/15 dimension items.
+* A dynamic dimension column that is copied or moved will become static.
+* When hovering a static dimension column you will see a lock icon, indicating that the dimension is static.
 
-![Dimension欄快顯功能表，醒目提示鎖定圖示。](assets/dimension_static.png)
+![Dimension column popup highlighting the lock icon.](assets/dimension_static.png)
+
+-->
+
 
 ## 顯示維度項目
 
-當您將游標停留在維度上，並按一下旁邊的灰色向右箭頭，即會出現維度項目清單。任何維度項目清單通常會顯示最近 30 天排名最前的項目。
+當您在元件面板中為維度選取![V形右側](/help/assets/icons/ChevronRight.svg)時，會顯示其維度專案清單。 維度專案清單通常會顯示過去30天排名最前的專案。 當更多專案可供使用時，在面板的所選日期範圍之外，選取連結以顯示更多專案。 例如，**[!UICONTROL 顯示上個月]**&#x200B;的專案。
 
-如果您向下捲動至清單底部，會看見&#x200B;**[!UICONTROL 「顯示最近 6 個月排名最前的項目」]**&#x200B;選項。按一下此選項，即可檢視最近 180 天排名最前的維度項目。
+![顯示維度專案](assets/dimension-items.png)
+

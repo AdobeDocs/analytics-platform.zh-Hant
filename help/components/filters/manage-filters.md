@@ -1,70 +1,77 @@
 ---
-title: 篩選器管理器
-description: 瞭解如何在 Customer Journey Analytics 中管理篩選器
+title: 管理篩選
+description: 瞭解如何管理Customer Journey Analytics中的篩選器
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: e994a53934ae25802fb16e912d0fdee32d5ea524
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 19%
+source-wordcount: '884'
+ht-degree: 4%
 
 ---
 
-# 篩選器管理器
+# 管理篩選
 
-篩選器管理器提供許多策劃篩選器的方式，例如共用、標籤、核准、複製、刪除和標示為我的最愛。
 
-篩選器管理器會顯示您所擁有以及已經與您共用的篩選器。 管理員層級的使用者可以查看組織中的所有篩選器。此概觀會介紹「篩選器」管理員的使用者介面和功能。
+您可以從中央的[!UICONTROL 篩選器]管理介面[共用](filters-share.md)、[篩選器](filters-filter.md)、[標籤](filters-tag.md)、[核准](filters-approve.md)、重新命名、[複製](filters-copy.md)、刪除、匯出篩選器並將篩選器標示為[我的最愛](filters-favorite.md)。 若要管理篩選器：
 
-![](assets/filter-manager-ui.png)
+* 在主介面中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 篩選器]**。
 
-## 存取篩選器管理器
 
-1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL 篩選器]**。
+>[!NOTE]
+>
+>您在特定Workspace專案中建立的快速篩選不會出現在[!UICONTROL 篩選器]管理員中，除非您讓此篩選器可用於您的所有專案。
+>
 
-## 篩選器管理器中的可用動作
+## 篩選器管理器
 
-在「篩選器管理器」中，您可以：
+「篩選器」管理員具有下列介面元素：
 
-* [過濾篩選器清單](/help/components/filters/filters-filter.md)
+![篩選器介面](assets/filters-manager.png)
 
-* [將篩選器標示為我的最愛](/help/components/filters/filters-favorite.md)
+### 篩選器清單
 
-* [核准篩選器](/help/components/filters/filters-approve.md)
+篩選器清單會顯➊示您擁有的所有篩選器、已設定至您所有專案的篩選器，以及已與您共用的篩選器。 此清單包含下列欄：
 
-* [標記篩選器](/help/components/filters/filters-tag.md)
+| 欄 | 說明 |
+| --- | --- | 
+| ![星形大綱](/help/assets/icons/StarOutline.svg) | 選取以偏好![Star](/help/assets/icons/Star.svg)或取消偏好![StarOutline](/help/assets/icons/StarOutline.svg)篩選器。 檢視[將篩選器標示為我的最愛](/help/components/filters/filters-favorite.md) |
+| **[!UICONTROL 標題和說明]** | 若要編輯篩選器，請選取標題連結，這會開啟[篩選器產生器](filter-builder.md)。 共用篩選器以![共用](/help/assets/icons/Share.svg)表示。 |
+| **[!UICONTROL 資料視圖]** | 套用此篩選器的資料檢視。 |
+| **[!UICONTROL 所有者]** | 篩選的擁有者。 身為使用者，您只會看見自己擁有的篩選器或與您共用的註解。 |
+| **[!UICONTROL 標記]** | 此篩選的標籤。 |
+| **[!UICONTROL 共用對象]** | 您與之共用篩選器的個人或群組數。 選取以開啟&#x200B;**[!UICONTROL 共用元件]**&#x200B;對話方塊。 如需詳細資訊，請參閱[共用篩選器](filters-share.md)。 |
+| **[!UICONTROL 修改日期]** | 上次修改篩選器的日期和時間。 |
+| **[!UICONTROL 用於]** | 顯示目前使用篩選器的位置，以及在每個區域使用篩選器的次數。 <p>例如，如果篩選器用於40個專案和2個警示，則此欄的值顯示為&#x200B;[!UICONTROL **42個元件**]。</p> <p>選取此欄中的值，以檢視使用篩選器的位置劃分(例如，[!UICONTROL **專案(40)**]、[!UICONTROL **行動計分卡(2)**])。 此外，您也可以檢視使用篩選器的專案清單。 例如，檢視使用它們的專案清單，選取&#x200B;[!UICONTROL **專案(40)**]&#x200B;連結。</p><p>下列各區顯示在該區中使用的篩選器例項數目：</p>  <ul><li>[!UICONTROL **專案**]<p>包含已在篩選產生器](/help/components/filters/filter-builder.md#)中建立[且可用於所有專案的篩選器。</p></li><li>[!UICONTROL **臨時元件**]<p>包含[建立為快速篩選](/help/components/filters/quick-filters.md)的篩選器，且僅可在單一專案中使用。</p></li><li>[!UICONTROL **已排程的專案**]</li><li>[!UICONTROL **行動計分卡**]</li><li>[!UICONTROL **註解**]</li><li>[!UICONTROL **計算量度**]</li><li>[!UICONTROL **Report Builder**]<p>選取此選項可下載包含下列資料欄的CSV檔案：</p><ul><li>Report Builder名稱</li><li>上次存取</li><li>上次存取IMS使用者ID</li><li>上次存取的使用者名稱</li></ul></li></ul><p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件的使用位置以及元件是否需要刪除或修改。</p><p>檢視此欄時請考慮以下事項：</p><ul><li>此資訊僅供系統管理員使用。</li><li>預設不會顯示&#x200B;**]資料行中使用的[!UICONTROL **。 使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)設定此資料行的顯示。</li><li>此資訊不包括來自API或Data Warehouse的使用情況。</li><li>如果此欄中沒有指定元件的資料，但元件有&#x200B;[!UICONTROL **上次使用日期**]，表示元件可能用於分析而未儲存。</li><li>使用情況資訊從 2023 年 9 月開始提供。</li></ul><p>您可以搭配此資訊使用[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)，協助您追蹤並更清楚瞭解組織中如何使用元件。</p> |
+| **[!UICONTROL 上次使用]** | 上次使用篩選器的時間。 |
 
-* [共用篩選器](/help/components/filters/filters-share.md)
+{style="table-layout:auto"}
 
-* 將篩選器匯出至CSV檔案。
+使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)指定您要顯示哪些欄。
 
-* [複製篩選器](/help/components/filters/filters-copy.md)
+### 動作列
 
-* 刪除篩選器
+您可以使用動作列對篩選器進➋行動作。 動作列包含下列動作：
 
-## 設定欄
+| 動作 | 說明 |
+|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | 使用[篩選器產生器](filter-builder.md)新增另一個篩選器。 |
+| ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *依標題搜尋*] | 當清單中未選取篩選器時，請使用此搜尋欄位搜尋篩選器。 |
+| ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標籤]** | 標籤選取的篩選器。 在&#x200B;**[!UICONTROL 標籤篩選器]**&#x200B;對話方塊中，選取或取消選取所選篩選器的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選篩選器的標籤。 如需詳細資訊，請參閱[標籤篩選器](/help/components/filters/filters-tag.md)。 |
+| ![共用](/help/assets/icons/Share.svg) **[!UICONTROL 共用]** | 共用選取的篩選器。 在&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選篩選器的共用詳細資料。 如需詳細資訊，請參閱[共用篩選器](filters-share.md)。 |
+| ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除選取的篩選器。 系統會提示您進行確認。 |
+| ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名單一選取的篩選器。 選取後，您可以重新命名內嵌篩選器。 |
+| ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]** | 核准所選的篩選器。 如需詳細資訊，請參閱[核准篩選器](filters-approve.md)。 |
+| ![副本](/help/assets/icons/Copy.svg) **[!UICONTROL 副本]** | 複製選取的篩選器。 已建立具有相同名稱和尾碼`(Copy)`的新篩選器。 |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出至CSV]** | 將篩選器匯出至`Filters List.csv`檔案。 |
 
-您可以設定顯示的欄，以設定「篩選器管理器」中每個篩選器的顯示資訊。
+### 作用中的篩選器列
 
-若要在「篩選器管理器」中設定可見欄：
+篩選器列會顯➌示從篩選器面板套用至篩選器清單（如果有的話）的作用中篩選器。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選器。 如果指定了多個篩選器，您可以使用&#x200B;**[!UICONTROL 全部移除]**&#x200B;來移除所有篩選器。
 
-1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL 檔案管理員]**。
+### 篩選器面板
 
-1. 在篩選器管理員中，選取&#x200B;**自訂欄**&#x200B;圖示![自訂欄圖示](assets/customize-columns-icon.png)，然後選取您要顯示在篩選器管理員中的欄。
+您可以使用![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 篩選器]**&#x200B;左側面板➍來篩選篩選器清單。 篩選器面板會顯示篩選器的型別，以及遵循特定篩選器的篩選器數目。 選取![篩選器](/help/assets/icons/Filter.svg)以切換篩選器面板的顯示。
 
-   可使用下列欄:
-
-   | 欄標題 | 說明 |
-   |---|---|
-   | 標題和說明 | 這些值會在篩選產生器中提供。 若要編輯標題和說明，請選取標題連結以開啟篩選產生器。 |
-   | 我的最愛 | 在每個篩選器旁顯示星號圖示，讓您標示篩選器為我的最愛。 如需詳細資訊，請參閱[將篩選器標示為我的最愛](/help/components/filters/filters-favorite.md)。 |
-   | 資料視圖 | 此欄指出上次儲存篩選器的資料檢視。 |
-   | 所有者 | 指出篩選器的擁有者。如果您不是管理員，就只能看見自己所擁有或已和您共用的篩選器。 |
-   | 標記 (未在欄選擇器中勾選，因此此欄不會出現) | 由您或共用篩選器給您的人員對篩選器套用的標記。 |
-   | 共用對象 | 列出您共用篩選器的目標個人或群組 (僅限管理員使用) 或「全部」(僅限管理員使用)。 <p>當您共用篩選器或與您共用時，篩選器名稱旁會顯示共用圖示。</p> |
-   | 修改日期 | 顯示上次修改篩選器的日期。 |
-   | 使用於 | 顯示目前使用篩選器的位置，以及在每個區域使用篩選器的次數。 <p>例如，如果篩選器用於40個專案和2個警示，則此欄的值顯示為&#x200B;[!UICONTROL **42個元件**]。</p> <p>選取此欄中的值，以檢視使用篩選器的位置劃分(例如，[!UICONTROL **專案(40)**]、[!UICONTROL **行動計分卡(2)**])。 此外，您也可以檢視使用篩選器的專案清單。 例如，檢視使用它們的專案清單，選取&#x200B;[!UICONTROL **專案(40)**]&#x200B;連結。</p><p>下列各區顯示在該區中使用的篩選器例項數目：</p>  <ul><li>[!UICONTROL **專案**]<p>包含已在篩選產生器](/help/components/filters/filter-builder.md#)中建立[且可用於所有專案的篩選器。</p></li><li>[!UICONTROL **臨時元件**]<p>包含[建立為快速篩選](/help/components/filters/quick-filters.md)的篩選器，且僅可在單一專案中使用。</p></li><li>[!UICONTROL **已排程的專案**]</li><li>[!UICONTROL **行動計分卡**]</li><li>[!UICONTROL **註解**]</li><li>[!UICONTROL **計算量度**]</li><li>[!UICONTROL **Report Builder**]<p>選取此選項可下載包含下列資料欄的CSV檔案：</p><ul><li>Report Builder名稱</li><li>上次存取</li><li>上次存取IMS使用者ID</li><li>上次存取的使用者名稱</li></ul></li><p>檢視Report Builder的資訊時，自2024年9月起即可使用相關資訊。</p></ul><p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。</p><p>檢視此欄時請考慮以下事項：</p><ul><li>此資訊僅供系統管理員使用。</li><li>預設不會顯示&#x200B;**]資料行中使用的[!UICONTROL **。 [設定資料行](#configure-columns)以顯示它。</li><li>如果篩選器在其定義中包含另一個篩選器，則該篩選器的任何使用不會顯示在&#x200B;[!UICONTROL **Used in**]&#x200B;欄中。 如果篩選器包含在另一種元件型別（例如計算量度）的定義中，則使用情況會顯示在&#x200B;[!UICONTROL **用於**]&#x200B;欄中。</li><li>此資訊不包括來自API或Data Warehouse的使用情況。</li><li>如果此欄中沒有指定元件的資料，但具有&#x200B;[!UICONTROL **上次使用**]&#x200B;日期，則表示該元件可能已用於分析而未儲存。</li><li>使用情況資訊從 2023 年 9 月開始提供。</li></ul><p>您可以搭配此資訊使用[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)，協助您追蹤並更清楚瞭解組織中如何使用元件。</p> |
-   | 上次使用 | 顯示上次在下列任何元件型別中使用篩選器的日期： <ul><li>計算量度</li><li>專案</li><li>已排程的專案</li><li>篩選器</li></ul> <p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值，或是否應將其刪除。</p><p>檢視此欄時請考慮以下事項：</p><ul><li>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</li><li>對於某些元件，如果元件是在2023年9月之前最後一次使用，則此欄可能不包含資料。</li><li>此資訊僅供系統管理員使用。</li></ul><p>您可以搭配此資訊使用[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)，協助您追蹤並更清楚瞭解組織中如何使用元件。 |
-
-   {style="table-layout:auto"}
+如需詳細資訊，請參閱[篩選篩選清單](filters-filter.md)。

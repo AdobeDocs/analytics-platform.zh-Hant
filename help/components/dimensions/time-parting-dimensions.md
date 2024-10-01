@@ -4,10 +4,10 @@ title: 時間分隔維度
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: e3b80438f5bffc94efd24b80a93d2e4674906780
+source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 61%
+ht-degree: 58%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 61%
 
 | 維度 | 範例值 |
 |--- |--- |
-| 小時 | 0-23 |
-| 上午/下午 | 上午、下午 |
-| 星期 | 星期一、星期二、星期三、星期四、星期五、星期六、星期日 |
-| 平日/週末 | 平日、週末 |
-| 日期 | 1-31 |
-| 月份 | 1月至 12 月 |
-| 一年當中的第幾天 | 1-366 |
-| 季別 | 第 1 季、第 2 季、第 3 季、第 4 季 |
+| **[!UICONTROL 小時]** | 0-23 |
+| **[!UICONTROL 上午/下午]** | 上午、下午 |
+| **[!UICONTROL 星期]** | 星期一、星期二、星期三、星期四、星期五、星期六、星期日 |
+| **[!UICONTROL 平日/週末]** | 平日、週末 |
+| **[!UICONTROL 日期]** | 1-31 |
+| **[!UICONTROL 月份]** | 1月至 12 月 |
+| **[!UICONTROL 一年當中的第幾天]** | 1-366 |
+| **[!UICONTROL 季別]** | 第 1 季、第 2 季、第 3 季、第 4 季 |

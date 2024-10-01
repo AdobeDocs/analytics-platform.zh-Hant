@@ -1,12 +1,12 @@
 ---
-description: 使用智慧型字幕來產生自然語言見解，以快速在視覺效果中呈現趨勢。
+description: 使用智慧型字幕來產生自然語言的深入分析，以顯示視覺效果中的趨勢。
 title: 智慧型註解
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 93b4426bc3e46540d3b4c9d6ae816a6d1f96f6ed
+source-git-commit: c65efad313df660467f5738d3fcbbb327060a502
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '630'
 ht-degree: 5%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 5%
 
 ## 啟動智慧型字幕 {#launch}
 
-若要為線條視覺效果啟動自動產生的註解，請按一下視覺效果右上角的&#x200B;**[!UICONTROL 智慧型註解]**&#x200B;圖示。
+若要啟動自動產生的線條圖視覺效果標題，請選取視覺效果右上角的![AEMScreen](/help/assets/icons/AI.svg) **[!UICONTROL 智慧型標題]**。
 
 ![啟動顯示產品檢視趨勢智慧型字幕的分析視窗。](assets/intell-caps-1.png)
 
 自然語言見解正在產生中。
 
-請記住：
+請記住以下事項：
 
 * 您至少需要3個資料點才能成功產生註解。 否則，您可能會收到&#x200B;**[!UICONTROL 資料不足]**&#x200B;等錯誤訊息。
 

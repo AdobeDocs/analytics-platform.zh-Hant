@@ -5,16 +5,16 @@ feature: Workspace Basics
 exl-id: 17f50618-54eb-4d60-9f5e-62aab9a3c49b
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
+source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 100%
+source-wordcount: '71'
+ht-degree: 73%
 
 ---
 
 # 執行進階分析
 
-在進行如下所述的進階分析之前，請確保您了解[基本分析](/help/analysis-workspace/perform-basic-analysis.md)。
+開始建立進階分析報表和視覺效果之前（如下所述），請確定您瞭解[基本分析](/help/analysis-workspace/perform-basic-analysis.md)。
 
 進階分析會運用[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)圖、[歸因](/help/analysis-workspace/c-panels/attribution.md)、[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)圖和[維度劃分](/help/components/dimensions/t-breakdown-fa.md)等功能。
 

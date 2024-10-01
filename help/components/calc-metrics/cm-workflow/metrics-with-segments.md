@@ -3,68 +3,94 @@ description: 篩選個別量度可讓您在同一份報表中比較量度。
 title: 篩選量度
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 53%
+source-wordcount: '487'
+ht-degree: 1%
 
 ---
 
 # 篩選量度
 
-在計算量度產生器中，您可以在量度定義中套用篩選器。如果您想導出新的量度以便在分析中使用，這會很有幫助。請記住，篩選器定義可透過篩選產生器進行更新。如果完成變更，該篩選器將自動更新任何套用此篩選條件的地方，包括如果此篩選器屬於計算量度定義的一部分。
+在[計算量度產生器](cm-build-metrics.md#definition-builder)中，您可以在量度定義中套用篩選器。 如果您想要在分析中將量度用於資料的子集，套用篩選器會很有幫助。
 
-![國家/地區=德國和不重複訪客的篩選器摘要和定義](assets/german-visitors.png)
+>[!NOTE]
+>
+>已透過[篩選產生器](/help/components/filters/filter-builder.md)更新篩選定義。 如果您變更篩選器，則篩選器會在任何使用篩選器的地方自動更新，包括該篩選器是否為計算量度定義的一部分。
+>
 
-## 建立篩選量度 {#create}
+您想要比較和您的品牌互動的德國人員與德國以外人員的量度。 因此，您可以回答以下問題：
 
-假設您想比較「德國訪客」篩選器和「國際訪客」篩選器的不同面向。您可以建立能提供下列深入分析的量度：
+1. 有多少德國和國際人士造訪您最受歡迎的[頁面](#popular-pages)。
+1. 本月[總計](#totals)有多少德國和國際人士與您的品牌進行線上互動。
+1. 造訪過您熱門頁面的德國人和海外人士的[百分比](#percentages)為何？
 
-* 這兩個群組的內容瀏覽行為相較之下的結果為何？(另一個範例是: 這兩個篩選器之間的轉換率比較結果如何？)
-* 相較於國際人士，德國人瀏覽特定頁面佔總人數的百分比為多少？
-* 就這兩個不同篩選器所存取的內容來說，最大差異為何？
+請參閱下列各節，說明篩選量度如何協助您回答這些問題。 在適當的情況下，會參考更詳細的檔案。
 
-建立並儲存名為「德國訪客」的量度，以及名為「國際訪客」的量度：
+## 受歡迎頁面
 
-1. 在計算量度產生器中建立一個名為「德國訪客」的臨時篩選器，其中「國家/地區」等於「德國」。 將「國家/地區」維度拖曳至「定義」畫布，並選取&#x200B;[!UICONTROL **Germany**]&#x200B;作為值：
+1. [從名為`German people`的Workspace專案建立計算量度](cm-workflow.md)。
+1. 在[計算量度產生器](cm-build-metrics.md)中，[建立標題為`Germany`的篩選器](/help/components/filters/filter-builder.md)，此篩選器使用您CRM資料中的CRM國家/地區欄位來判斷人員的來源。
 
-   顯示國家/地區等於德國的![臨機篩選器](assets/segment-from-dimension.png)
-
-   >[!NOTE]
+   >[!TIP]
    >
-   >您也可以在[篩選產生器](/help/components/filters/create-filters.md)中進行此步驟。但我們已透過在計算量度產生器中提供維度簡化了工作流程。 「臨時」表示左側邊欄的&#x200B;**[!UICONTROL 篩選器]**&#x200B;清單中不會顯示此篩選器。 但您可以將滑鼠游標停留在該區段旁的「i」圖示上，並按一下&#x200B;**[!UICONTROL 「設為公開」]**&#x200B;以公開該區段。
+   >在計算量度產生器中，您可以使用「元件」面板直接建立篩選器。
+   >   
 
-1. 將「德國」篩選器拖曳至「定義」畫布，並將「不重複訪客」量度拖曳至其中：
+   您的篩選器可能如下所示。
 
-   ![德國和不重複訪客所在國家/地區的摘要和定義](assets/german-visitors.png)
+   ![篩選器德國](assets/filter-germany.png)
 
-1. 選取&#x200B;[!UICONTROL **儲存**]&#x200B;以儲存計算量度。
+1. 返回計算量度產生器，使用篩選器更新計算量度。
 
-1. 在計算量度產生器中建立一個名為「國際訪客」的臨時篩選器，其中「國家/地區」不等於「德國」。
+   ![計算量度Germany](assets/calculated-metric-germany.png)
 
-   將「國家/地區」維度拖曳至「定義」畫布，選取&#x200B;[!UICONTROL **Germany**]&#x200B;作為值，然後選取&#x200B;[!UICONTROL **does not equal**]&#x200B;作為運運算元。
+針對計算量度的國際版本重複上述步驟。
 
-1. 將「不重複訪客」量度拖曳至其中。
+1. 從您的Workspace專案中建立標題為`International people`的計算量度。
+1. 在計算量度產生器中，建立標題為`Not Germany`的篩選器，使用您CRM資料中的CRM國家/地區欄位來判斷人員的來源。
 
-1. 選取&#x200B;[!UICONTROL **儲存**]&#x200B;以儲存計算量度。
+   您的篩選器應該看起來像。
 
-1. 在 Analysis Workspace 中，將&#x200B;**[!UICONTROL 「頁面]**&#x200B;維度」拖曳至「自由表格」中，並將 2 個相鄰的新計算量度拖曳到最上方：
+   ![篩選器德國](assets/filter-not-germany.png)
 
-   ![顯示德國訪客和國際訪客頁面維度的自由表格](assets/workspace-pages.png)
+1. 返回計算量度產生器，使用篩選器更新計算量度。
 
-以下是影片概觀：
+   ![計算量度Germany](assets/calculated-metric-notgermany.png)
+
+
+1. 在Analysis Workspace中建立專案，在那裡您可以檢視德國和國際人士造訪的頁面。
+
+   ![Workspace自由格式表格視覺效果顯示德國人員與國際人員](assets/workspace-german-vs-international.png)
+
+
+## 總計
+
+1. 根據總計建立兩個新篩選器。 開啟先前建立的每個篩選器、重新命名篩選器、將&#x200B;**[!UICONTROL 人員]**&#x200B;的&#x200B;**[!UICONTROL 量度型別]**&#x200B;設定為&#x200B;**[!UICONTROL 總計]**，並使用&#x200B;**[!UICONTROL 另存新檔]**&#x200B;以新名稱儲存篩選器。 例如：
+
+   德國的![總計量度](assets/calculated-metric-germany-total.png)
+
+1. 新增自由表格視覺效果至您的Workspace專案，顯示當月的總頁數。
+
+   ![Workspace自由格式表格視覺效果顯示德文人員與國際人員總數](assets/workspace-german-vs-international-totals.png)
+
+
+## 百分比
+
+1. 建立兩個新計算量度，用於根據您先前建立的計算量度計算百分比。
+
+   ![Workspace自由格式表格視覺效果顯示德文人員與國際總人員百分比](assets/calculated-metric-germany-total-percentage.png)
+
+
+1. 更新您的Workspace專案。
+
+   ![Workspace自由格式表格視覺效果顯示德文人員與國際人員總數](assets/workspace-german-vs-international-totals-percentage.png)
+
+
++++ 以下影片會說明如何將篩選的計算量度作為無實作量度。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
-## 佔總量度的百分比 {#percent-total}
+{{videoaa}}
 
-您可以透過將您的篩選器與總人口進行比較，進一步分析上述範例。若要這麼做，請先建立兩個新量度，「德國訪客總數 %」和「國際訪客總數 %」:
-
-1. 將德國 (或國際) 訪客篩選器投放至畫布中。
-1. 將另一個德國 (或國際) 訪客篩選器投放至下方。但這次按一下其設定 (齒輪) 圖示，選取量度類型「總計」。格式應為「百分比」。運算元應為「除以」。結果會產生此量度定義：
-
-   ![國家等於德國和不重複訪客總數](assets/cm_metric_total.png)
-
-1. 將此量度套用至專案：
-
-   ![自由表格，包含頁面和德國訪客總數的%](assets/cm_percent_total.png)
++++

@@ -5,10 +5,10 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 2addd3d17f62da69eb6636d987931fc21df07af5
+source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 92%
+source-wordcount: '1392'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 92%
 
 ## 存取
 
-如果您的組織佈建了引導式分析，您可以從 Customer Journey Analytics 首頁加以存取。
+您可以從「分析」首頁存取「引導式Customer Journey Analytics」。
 
 1. 從首頁按一下「**[!UICONTROL 引導式分析]**」，系統就會將您直接帶到[使用趨勢視圖](types/usage.md)。
 
@@ -68,19 +68,19 @@ ht-degree: 92%
 
 ## 佈建
 
-引導式分析檢視會以下列方式納入Customer Journey Analytics套件中：
+引導式分析視圖會以下列方式納入 Customer Journey Analytics 套件中：
 
-| 封裝 | 可用檢視 |
+| 套件 | 可用視圖 |
 | --- | --- |
-| [!UICONTROL CJA附加元件] | 趨勢：使用、趨勢：頻率、漏斗：摩擦、漏斗：轉換趨勢、保留率：保留率、使用者成長：作用中、使用者成長：淨成長 |
+| [!UICONTROL CJA 附加元件] | 趨勢：使用情況、趨勢：頻率、漏斗：摩擦、漏斗：轉換趨勢、保留：保留率、使用者成長：活躍、使用者成長：淨成長 |
 | [!UICONTROL CJA Foundation] | 趨勢：使用情況 |
-| [!UICONTROL CJA選取] | 基礎檢視+趨勢：頻率，漏斗：摩擦，漏斗：轉換趨勢，保留：保留率，使用者成長：作用中，使用者成長：淨成長 |
-| [!UICONTROL CJA Prime] | 選取檢視+使用者資料流：時間表，功能矩陣：參與，影響：發行，影響：首次使用 |
-| [!UICONTROL CJA Ultimate] | Prime檢視 |
+| [!UICONTROL CJA Select] | 基礎視圖 + 趨勢：頻率、漏斗：摩擦、漏斗：轉換趨勢、保留：保留率、使用者成長：活躍、使用者成長：淨成長 |
+| [!UICONTROL CJA Prime] | 選取視圖 + 使用者串流：時間軸、功能矩陣：參與度、影響：發行、影響：首次使用 |
+| [!UICONTROL CJA Ultimate] | Prime 視圖 |
 
 {style="table-layout:auto"}
 
-產品設定檔管理員可新增或移除對Adobe Admin Console中引導式分析的存取權。
+產品設定檔管理員可以在 Adobe Admin Console 中新增或移除對引導式分析的存取權。
 
 1. 登入 [Adobe Admin Console](https://adminconsole.adobe.com)。
 1. 在產品清單中選取「**[!UICONTROL Customer Journey Analytics]**」。

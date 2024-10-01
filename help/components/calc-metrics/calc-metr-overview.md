@@ -4,51 +4,38 @@ description: 了解衍生自報告執行時間的篩選量度。
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 61c1fe48ebe8ebff5b7104cebae1ce7b62289b7d
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 12%
 
 ---
 
 # 計算量度概觀
 
-計算與進階計算量度為您可從現有量度建立的自訂量度。我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。 無論您是行銷人員、產品經理或分析人員，不需變更實作就能詢問資料相關問題。
+計算量度是自訂量度，您可以從現有量度建立。 計算量度提供彈性方式可建立、管理和組織自訂量度，讓您無需變更實施即可分析資料。
 
-您可以
++++ 請觀看這部影片，瞭解如何使用計算量度。
 
-* 無須變更實作，即可建立衍生自報告執行時間的篩選量度。 由於這些量度的根據是篩選器，所以可查看其歷史資料。
-* (僅限進階計算量度) 量度上的篩選器。 例如，您可以為「新人員」建立量度，計算這是他們第一次使用此工作階段的人員數量。
-* (僅限進階計算量度) 納入統計函數以協助您說明資料。 例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
+>[!VIDEO](https://video.tv.adobe.com/v/31787/?learn=on)
 
-## 計算量度與進階計算量度
++++
 
-以下為計算量度與進階計算量度功能比較：
+計算量度的典型工作流程包含這些工作
 
-| 產生器選項 | 計算量度 | 進階計算量度 |
-|---|---|---|
-| 格式類型 (小數、時間、百分比、貨幣) | 有 | 有 |
-| 歸因變更 (預設、線性、參與率等) | 有 | 有 |
-| 量度類型 (標準、總計) | 有 | 是 |
-| 基本運算元 (加、減、乘、除) | 是 | 有 |
-| 套用篩選器 | 無 | 是 |
-| [基本函數 (計數、abs 值、平均值等)](/help/components/calc-metrics/cm-functions.md) | 無 | 是 |
-| [進階函數 (迴歸、if/then、t 分數等)](/help/components/calc-metrics/cm-adv-functions.md) | 無 | 是 |
-
-## 工具
-
-| 工具 | 功能 |
-|--- |--- |
-| 計算量度產生器 | <ul><li>使用進階配置模型建立計算量度和進階計算量度。</li><li>新增篩選器內嵌至量度公式。</li><li>比較同一份報表中的篩選器。 例如，比較當地人員和國際人員。</li><li>使用統計函數。</li><li> 提供詳細的量度說明 (顯示其用途、使用位置、不應使用的位置)。</li><li>複製定義至新量度。</li><li>提供內嵌量度預覽。</li><li>設定量度極性，指定當特定自訂事件 (量度) 上升時是好事還是壞事。</li><li>標記量度。</li></ul> |
-| 計算量度管理員 | <ul><li>與他人共用量度。</li><li>核准和管理量度。</li><li>組織 (標記) 量度，讓別人找得到。</li><li>刪除量度。</li><li>重新命名量度。</li></ul> |
-| 計算量度的 API | Customer Journey Analytics API 集的一部分。 |
-
-## Customer Journey Analytics 中的計算量度範本
-
-| 計算量度名稱 | 計算量度說明 |
+| 工作 | 說明 |
 | --- | --- |
-| 每人工作階段數 | 每人平均工作階段數 |
-| 工作階段開始率 | 任何維度項目在工作階段的第一個事件發生的時間百分比。 |
-| 工作階段結束率 | 任何維度項目在工作階段的最後一個事件發生的時間百分比。 |
-| 每人逗留時間 | 一個人在任何特定維度項目上的平均逗留時間。 |
-| 每工作階段逗留時間 | 一個人每工作階段在任何特定維度項目上的平均逗留時間。 |
+| 計劃 | 尤其對於即將正式核准的量度![核取記號](/help/assets/icons/Checkmark.svg)，請謹慎規劃和建構您預計會經常使用的計算量度。 |
+| [建置](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) | 建立、修改和儲存計算量度。 |
+| [套用](/help/components/use-components-in-workspace.md) | 直接在您的Workspace專案中套用計算量度。 |
+| [管理](/help/components/calc-metrics/cm-workflow/cm-manager.md) | 管理計算量度。 您可以[標籤](/help/components/calc-metrics/cm-workflow/cm-tagging.md)、[核准](/help/components/calc-metrics/cm-workflow/cm-approving.md)、[取消核准](/help/components/calc-metrics/cm-workflow/cm-approving.md)、[篩選器](/help/components/calc-metrics/cm-workflow/cm-filter.md)、[優惠](/help/components/calc-metrics/cm-workflow/cm-favorite.md)或[取消優惠](/help/components/calc-metrics/cm-workflow/cm-favorite.md)、[共用](/help/components/calc-metrics/cm-workflow/cm-sharing.md)或[複製](/help/components/calc-metrics/cm-workflow/cm-copy.md)一或多個計算量度。 |
+
+請參閱[建立計算量度](/help/components/calc-metrics/cm-workflow/cm-workflow.md)，以瞭解建立計算量度的各種可用選項。 您可以在[計算量度產生器](cm-workflow/cm-build-metrics.md)中建立、修改及儲存計算量度的定義。
+
+您直接在Analysis Workspace中使用計算量度。 檢視[在Analysis Workspace中使用元件](/help/components/use-components-in-workspace.md)
+
+您在[計算量度管理員](cm-workflow/cm-manager.md)中管理計算量度。
+
+## 預設計算量度
+
+Adobe提供數個預設計算量度，由![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)識別。 如需詳細資訊，請參閱[預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)。

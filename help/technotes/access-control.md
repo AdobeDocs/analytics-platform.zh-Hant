@@ -6,9 +6,9 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: c6800f1fa36298f3d2aa53c36c78398d9d3fd670
+source-git-commit: 664576605b8be098a751609536e388c304c65513
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1461'
 ht-degree: 14%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 14%
 
 ### 列層級存取控制
 
-假設您只想讓使用者存取一天內的資料。 您可以用以下方法限制這些特定列的存取：
+您只想讓使用者存取一天內的資料。 您可以用以下方法限制這些特定列的存取：
 
 1. 在特定資料檢視的[!UICONTROL 設定]中建立篩選器，其中[!UICONTROL 天]等於您希望他們存取資料的日期。 如需詳細資訊，請參閱[建立資料檢視](/help/data-views/create-dataview.md#settings-filters)。
 1. 儲存資料檢視，這會將篩選器套用至基礎連線中資料集的資料部分。 任何不符合篩選器定義的列都會自動從資料檢視中排除，且無法在此資料檢視用於Analysis Workspace。

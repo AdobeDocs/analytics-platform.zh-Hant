@@ -4,10 +4,10 @@ description: 了解如何使用「資料準備」來結合報告套裝與不同�
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 664576605b8be098a751609536e388c304c65513
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 57%
+source-wordcount: '1321'
+ht-degree: 55%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics客戶使用[連線](https://experienceleague.adobe.co
 | eVar1 = 搜尋字詞 | eVar1 = 事業單位 |
 | eVar2 = 客戶類別 | eVar2 = 搜尋字詞 |
 
-為了簡單起見，假設兩個報告套裝僅定義了這些 eVar。
+為了簡單起見，假設兩個報表套裝僅定義了這些eVar。
 
 此外，假設您執行下列動作：
 

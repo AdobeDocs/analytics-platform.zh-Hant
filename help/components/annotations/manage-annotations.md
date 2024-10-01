@@ -4,78 +4,114 @@ description: 如何在 Workspace 中管理註解。
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 01f862997503cb36502145eddb47873bc7cb28fe
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '764'
+ht-degree: 6%
 
 ---
 
 # 管理註解
 
-[!UICONTROL 元件] > [!UICONTROL 註解]管理員提供許多管理註解的方法，例如，共用、篩選、標記、核准、複製、刪除和標記為我的最愛。
+您可以從中央[!UICONTROL 註解]管理介面共用、篩選、標籤、核准、複製、刪除註解以及將註解標示為我的最愛。 若要管理註解：
 
-[!UICONTROL 註解]管理員會向您顯示您所擁有並在您所有專案範圍中以及和您共用的所有註解。
+* 在主介面中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 註解]**。
+
 
 >[!NOTE]
 >
->您為特定專案所建立的[!UICONTROL 註解]不會在管理員中顯示。
+>您在特定Workspace專案中建立的註解不會顯示在[!UICONTROL 註解]管理員中，除非您讓註解可供所有專案使用。
+>
 
-## 註解管理員使用者介面
+## 註解管理員
 
-![註解選項，例如共用、標記或複製 (將在下一節中介紹)。](assets/annotation-mgr.png)
+註解管理員有下列介面元素：
 
-| UI 元素 | 說明 |
+![註解介面](assets/annotations-manager.png)
+
+### 註解清單
+
+註解清單➊會顯示您擁有的所有註解、已設定至您所有專案範圍的註解，以及已與您共用的註解。 此清單包含下列欄：
+
+| 欄 | 說明 |
 | --- | --- | 
-| [!UICONTROL 標題和說明] | 在註解產生器中提供。若要編輯標題和說明，請按一下標題連結，回到註解產生器。 |
-| [!UICONTROL 資料視圖] | 此註解所套用的資料視圖。 |
-| [!UICONTROL 所有者] | 指出註解的擁有者。如果您不是管理員，就只能看見自己所擁有或別人與您共用的註解。 |
-| [!UICONTROL 套用的日期範圍] | 套用此註解的日期或日期範圍。 |
-| [!UICONTROL 共用對象] | 列出您與之共用註解的個人或群組數。按一下以取得詳細資訊。 |
-| [!UICONTROL 修改日期] | 顯示上次修改註解的日期和時間。 |
+| ![星形大綱](/help/assets/icons/StarOutline.svg) | 選取以偏好![Star](/help/assets/icons/Star.svg)或取消偏好![StarOutline](/help/assets/icons/StarOutline.svg)註釋。 |
+| **[!UICONTROL 標題和說明]** | 在註解產生器中提供。若要編輯標題和說明，請選取標題連結 — 開啟[註解產生器](/help/components/annotations/create-annotations.md#annotation-builder)。 共用註解以![共用](/help/assets/icons/Share.svg)表示。 |
+| **[!UICONTROL 資料視圖]** | 套用此註解的資料檢視。 |
+| **[!UICONTROL 所有者]** | 附註的擁有者。 身為使用者，您只會看見自己擁有的註解或與您共用的註解。 |
+| **[!UICONTROL 套用的日期範圍]** | 套用此註解的日期或日期範圍。 |
+| **[!UICONTROL 標記]** | 此註解的標籤。 |
+| **[!UICONTROL 共用對象]** | 您與之共用註解的個人或群組。 選取以開啟&#x200B;**[!UICONTROL 共用元件]**&#x200B;對話方塊。 |
+| **[!UICONTROL 修改日期]** | 顯示上次修改註解的日期和時間。 |
 
 {style="table-layout:auto"}
+
+使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)指定您要顯示哪些欄。
+
+### 動作列
+
+您可以使用動作列對註解進➋行動作。 動作列包含下列動作：
+
+| 動作 | 說明 |
+|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | 使用[Annotation Builder](create-annotations.md#annotation-builder)新增另一個附註。 |
+| ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *依標題搜尋*] | 當清單中未選取註解時，請使用此搜尋欄位搜尋註解。 |
+| ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標籤]** | 標籤選取的註解。 在&#x200B;**[!UICONTROL 標籤元件]**&#x200B;對話方塊中，選取或取消選取所選註解的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選註解的標籤。 |
+| ![共用](/help/assets/icons/Share.svg) **[!UICONTROL 共用]** | 共用選取的註解。 在&#x200B;**[!UICONTROL 共用元件]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選註解的共用詳細資料。 如需詳細資訊，請參閱[共用註解](#share-annotations)。 |
+| ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除選取的註解。 系統會提示您進行確認。 |
+| ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名單一選取的註解。 選取後，您可以重新命名註釋內嵌。 |
+| ![副本](/help/assets/icons/Copy.svg) **[!UICONTROL 副本]** | 複製選取的註解。 新註解會以相同名稱和字尾建立（複製） |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出至CSV]** | 將註解匯出至`Annotations List.csv`檔案。 |
+
+### 作用中的篩選器列
+
+篩選列➌會顯示作用中的篩選（如果有的話）。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選器。 如果指定了多個篩選器，您可以使用&#x200B;**[!UICONTROL 全部移除]**&#x200B;來移除所有篩選器。
+
+### 篩選器面板
+
+您可以使用![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 篩選器]**&#x200B;左側面板來篩選註➍解。 篩選器面板會顯示篩選器的型別以及遵循該篩選器的註釋數量。 選取![篩選器](/help/assets/icons/Filter.svg)以切換篩選器面板的顯示。
+
+若要篩選篩選清單：
+
+1. 選取![篩選器](/help/assets/icons/Filter.svg)以開啟「篩選器」面板。 如果您需要更多空間以儲存篩選器清單，可以再選取![篩選器](/help/assets/icons/Filter.svg)以關閉面板。
+1. 您可以使用任何可用的[篩選區段](#filter-sections)來篩選附註。
+
+   >[!INFO]
+   >
+   >*專案*&#x200B;參考[註解清單](manage-annotations.md#annotations-list)中顯示的註解專案。
+   > 
+
+#### 篩選區段
+
+{{tagfiltersection}}
+{{dataviewfiltersection}}
+{{ownerfiltersection}}
+{{daterangefiltersection}}
+{{otherfiltersfiltersection}}
+
+
+[註解清單](manage-annotations.md#annotations-list)會根據您的篩選器設定自動更新。 您可以在[作用中的篩選器列](manage-annotations.md#active-filter-bar)中看到已設定的篩選器。
+
 
 ## 編輯註解
 
-編輯註解意味著您可以調整日期範圍、顏色、範圍，或者註解是否套用至所有資料視圖或專案。編輯註解有兩個方法：
+編輯註解有兩個方法：
 
-* 在折線圖中，將滑鼠游標停留在註解上，然後在彈出視窗內按一下鉛筆圖示。
+* 在Workspace專案中使用[元件資訊](/help/components/use-components-in-workspace.md#component-info)圖示。
 
-* 在[!UICONTROL 註解管理員]中，按一下註解標題。
+* 在[[!UICONTROL 註解]清單](#annotations-list)中，選取註解的標題。
 
-這兩個選項都會帶您回到 Annotation Builder。在這裡，您可以進行必要調整並儲存新版本。
+您使用[註解產生器](/help/components/annotations/create-annotations.md#annotation-builder)來編輯註解。
 
 ## 共用註解
 
-共用註解或使用與您共用的註解時，請記住這一點：
+共用註解或使用與您共用的註解時，以下是適用的：
 
-* 假設您建立了一個包含僅限專案註解的專案，然後與其他使用者共用該專案。這些註解將會顯示，但與您共用該專案的任何人都不能對其進行編輯或刪除。
+* 您與其他使用者共用的專案中僅限專案的註解會針對這些使用者顯示。 使用者無法編輯或刪除這些僅限專案的註解。
+* 如果您儲存註解並直接和使用者共用註解，則該使用者只有在具有管理員許可權的情況下才能編輯和刪除註解。
 
-* 如果您儲存註解並直接和使用者共用，則他們只有在具有管理員權限的情況下才能編輯/刪除該註解。
-
-* 總結一下重點，如果您共用該專案，它將只會出現在該專案中。如果您直接共用該註解，則它將在所有可以顯示註解的專案中出現。
+* 如果專案與您共用，則該專案中建立的註解只會顯示在該專案中。 如果註解直接與您共用，該註解會顯示在可以顯示該註解的所有專案中。
 
 ## 註解和時區
 
-所有註解都使用時間戳記建立，但沒有「小時」或「時區」資訊。在報告時間，則一律套用面板的資料視圖時區。因此，為聖誕節建立的註解會在 12 月 25 日發生，無論您在哪個資料視圖時區亦然。
-
-另一個範例是新年元旦。隨著新年的開始，每個小時，在不同的時區都會燃放煙火。美國山區時間晚上 10 點時，美國東岸正在放煙火，因為已經是東部時間凌晨 12 點。
-
-## 其他註解工作
-
-「註解管理器」可以讓管理員編輯、新增、標記、刪除、重新命名、核准、複製、匯出以及篩選註解。但不會顯示給非管理員使用者。
-
-選取一個或多個註解，「工作」列隨即出現。
-
-| 工作 | 說明 |
-| --- | --- |
-| 新增 | 帶您前往 Annotation Builder 以建立新註解。 |
-| 標記 | 所有使用者均可為註解建立標記，也可對註解套用一個或多個標記。但是，您只看得到您擁有之篩選器的標記。您應該建立什麼樣的標記？以下是一些建議的實用標記：<ul><li>以團隊名稱為基礎的標記，例如「社交行銷」、「手機行銷」</li><li>專案標記 (分析標記)，例如「登入頁面分析」</li><li>類別標記：「男性」、地理區</li><li>工作流程標記：為 (特定業務部門) 所組織、已批准</li></ul> |
-| 刪除 | 刪除註解會將其從整個組織的所有專案中移除。 |
-| 重新命名 | 重新命名註解會在套用註解的所有專案中予以重新命名。 |
-| 複製 | 以專屬的註解 ID 建立不同的副本，但具有相同的名稱和定義。 |
-| 匯出至 CSV | 將註解定義匯出至 .csv 檔案。 |
-| 篩選 (左側邊欄) | 依照標記、資料視圖、所有者和其他篩選器 (「我的」、「已核准」、「我的最愛」、「與我共用」和「全部顯示」) 進行篩選。 |
-
-{style="table-layout:auto"}
+所有註解都使用時間戳記建立，但沒有小時或時區資訊。 在報表時間，會使用為面板設定的資料檢視的時區。
