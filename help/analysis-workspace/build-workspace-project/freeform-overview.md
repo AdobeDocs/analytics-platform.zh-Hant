@@ -5,7 +5,7 @@ title: 專案概觀
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
+source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 6%
@@ -52,7 +52,7 @@ Workspace專案可讓您合併面板、視覺效果和元件，以進行分析�
 | --- | --- | 
 | ![SelectBox](/help/assets/icons/SelectBox.svg) | 選取一或多個專案時，Project介面的底部會出現一個藍色動作列。 如需詳細資訊，請參閱[動作](#actions)。 |
 | ![星形大綱](/help/assets/icons/StarOutline.svg) | 選取以偏好![Star](/help/assets/icons/Star.svg)或取消偏好![StarOutline](/help/assets/icons/StarOutline.svg)專案。 |
-| **[!UICONTROL 標題和說明]** | 若要編輯專案，請選取標題連結，以開啟[Workspace專案](/help/analysis-workspace/home.md)。 與您共用的專案以![共用](/help/assets/icons/Share.svg)表示。 選取![資訊大綱](/help/assets/icons/InfoOutline.svg)以顯示包含專案詳細資訊的快顯功能表。 選取![更多](/help/assets/icons/More.svg)以開啟包含動作的內容功能表。 如需詳細資訊，請參閱[動作](#actions)。 |
+| **[!UICONTROL 標題和說明]** | 若要編輯專案，請選取標題連結，以開啟[Workspace專案](/help/analysis-workspace/home.md)。 與您共用的專案以![共用](/help/assets/icons/ShareLight.svg)表示。 選取![資訊大綱](/help/assets/icons/InfoOutline.svg)以顯示包含專案詳細資訊的快顯功能表。 選取![更多](/help/assets/icons/More.svg)以開啟包含動作的內容功能表。 如需詳細資訊，請參閱[動作](#actions)。 |
 | **[!UICONTROL 類型]** | Workspace專案、![FolderUser](/help/assets/icons/FolderUser.svg)資料夾或[行動計分卡](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home)。 |
 | **[!UICONTROL 標記]** | 套用至專案的標籤。 |
 | 已排程 | 專案是否已排程以電子郵件傳送給收件者。 選項為![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]**&#x200B;或![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**。 請參閱[將專案資料傳送給其他人](/help/analysis-workspace/export/t-schedule-report.md)。 |
@@ -82,7 +82,7 @@ Workspace專案可讓您合併面板、視覺效果和元件，以進行分析�
 |---|---|
 | 已選取![CrossSize75](/help/assets/icons/CrossSize75.svg) **[!UICONTROL *x *]** | 取消選取您選取的專案和資料夾，並移除藍色動作列。 |
 | ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除一或多個專案或資料夾。 系統會提示您進行確認。 |
-| ![共用](/help/assets/icons/Share.svg) **[!UICONTROL 共用]** | 共用專案。 如需詳細資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)。 |
+| ![共用](/help/assets/icons/ShareLight.svg) **[!UICONTROL 共用]** | 共用專案。 如需詳細資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)。 |
 | ![編輯](/help/assets/icons/Edit.svg)重新命名 | 重新命名專案。 開啟&#x200B;**[!UICONTROL 重新命名： *專案名稱對話方塊&#x200B;*]**。 輸入新名稱並選取**[!UICONTROL 儲存&#x200B;]**。 |
 | ![副本](/help/assets/icons/Copy.svg) **[!UICONTROL 副本]** | 複製一或多個專案。 專案確實有相同的名稱和尾碼`(Copy)`。 |
 | ![PinOnff](/help/assets/icons/PinOff.svg) **[!UICONTROL Pin]**&#x200B;或&#x200B;**[!UICONTROL 取消釘選]** | 釘選或取消釘選一個或多個專案或資料夾。 釘選專案和資料夾會出現在清單頂端，並忽略您指定的排序順序。 |

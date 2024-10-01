@@ -5,7 +5,7 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 33%
@@ -75,7 +75,7 @@ Analysis Workspace中的元件包含量度、維度、篩選器和日期範圍�
    | ![星星](/help/assets/icons/Star.svg) [!UICONTROL **我的最愛**] | 將元件新增至我的最愛清單。如同標籤，您可以依左側面板中的「我的最愛」搜尋，並在元件管理員中這些條件篩選。 |
    | ![星形大綱](/help/assets/icons/StarOutline.svg) **[!UICONTROL 取消最愛]** | 從您的最愛清單中移除元件。 |
    | ![核取記號](/help/assets/icons/Checkmark.svg) [!UICONTROL **核准**] | 將元件標示為「已核准」，向您的使用者表示此元件已獲得組織核准。如同標籤，您可以依左側面板的「已核准」進行搜尋和篩選。 ![核取記號](/help/assets/icons/Checkmark.svg)可識別核准的元件。 |
-   | ![共用](/help/assets/icons/Share.svg) [!UICONTROL **共用**] | 與組織中的使用者共用元件。此選項僅適用於自訂元件，例如篩選器或計算量度。 |
+   | ![共用](/help/assets/icons/ShareLight.svg) [!UICONTROL **共用**] | 與組織中的使用者共用元件。此選項僅適用於自訂元件，例如篩選器或計算量度。 |
    | ![刪除](/help/assets/icons/Delete.svg) [!UICONTROL **刪除**] | 刪除您不再需要的元件。此選項僅適用於自訂元件，例如篩選器或計算量度。 |
 
 自訂元件也可透過其各自的元件管理員來管理。例如，請參閱[管理篩選器](/help/components/filters/manage-filters.md)。

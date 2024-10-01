@@ -3,7 +3,7 @@ description: 您可以將量度共用給整個組織、群組或個別使用者 
 title: 共用計算量度
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
+source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 10%
@@ -20,7 +20,7 @@ ht-degree: 10%
 若要共用一或多個計算量度：
 
 1. 在[計算量度管理員](cm-manager.md)中，選取一或多個要共用的計算量度。
-1. 從動作列中選取![共用](/help/assets/icons/Share.svg) **[!UICONTROL 共用]**。
+1. 從動作列中選取![共用](/help/assets/icons/ShareLight.svg) **[!UICONTROL 共用]**。
 1. 在&#x200B;**[!UICONTROL 共用計算量度]**&#x200B;對話方塊中：
 
    ![共用計算量度對話方塊](assets/share-calculated-metrics-dialog.png)
