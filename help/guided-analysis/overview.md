@@ -5,10 +5,10 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: cfc48aea3f474fedece022898f224ee68fb2b649
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 99%
+source-wordcount: '1435'
+ht-degree: 91%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 99%
 
 可以使用以下引導式分析視圖：
 
-| 分析類型 | 檢視類型 | 說明 |
-| --- | --- | --- |
-| [!UICONTROL 功能矩陣] | [參與](types/engagement.md) | 了解功能參與的廣度與深度。 |
-| [!UICONTROL 漏斗] | [摩擦](types/friction.md) | 比較步驟之間的轉換率。 |
-| [!UICONTROL 漏斗] | [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化。 |
-| [!UICONTROL 影響] | [發行](types/release.md) | 比較發行前和發行後同期的績效。 |
-| [!UICONTROL 影響] | [首次使用](types/first-use.md) | 測量功能首次使用對關鍵指標的影響。 |
-| [!UICONTROL 保留] | [保留率](types/retention-rates.md) | 測量使用者持續的回訪習慣。 |
-| [!UICONTROL 趨勢] | [使用狀況](types/usage.md) | 測量使用者在一段時間內的參與度。 |
-| [!UICONTROL 趨勢] | [頻率](types/frequency.md) | 依照使用頻率來測量參與度。 |
-| [!UICONTROL 使用者增長] | [作用中](types/active.md) | 識別哪些使用者是新的、保留的、回訪的或非活躍的。 |
-| [!UICONTROL 使用者增長] | [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
-| [!UICONTROL 使用者串流] | [時間表](types/timeline.md) | 探索工作階段活動的模式。 |
+| 檢視類型 | 說明 |
+| --- | --- |
+| [參與](types/engagement.md) | 了解功能參與的廣度與深度。 |
+| [摩擦](types/friction.md) | 比較步驟之間的轉換率。 |
+| [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化。 |
+| [發行](types/release.md) | 比較發行前和發行後同期的績效。 |
+| [首次使用](types/first-use.md) | 測量功能首次使用對關鍵指標的影響。 |
+| [保留率](types/retention-rates.md) | 測量使用者持續的回訪習慣。 |
+| [使用狀況](types/usage.md) | 測量使用者在一段時間內的參與度。 |
+| [頻率](types/frequency.md) | 依照使用頻率來測量參與度。 |
+| [作用中](types/active.md) | 識別哪些使用者是新的、保留的、回訪的或非活躍的。 |
+| [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
+| [時間表](types/timeline.md) | 探索工作階段活動的模式。 |
 
 {style="table-layout:auto"}
 
@@ -40,15 +40,27 @@ ht-degree: 99%
 
 您可以從「分析」首頁存取「引導式Customer Journey Analytics」。
 
-1. 從首頁按一下「**[!UICONTROL 引導式分析]**」，系統就會將您直接帶到[使用趨勢視圖](types/usage.md)。
+1. 從首頁中選取&#x200B;**[!UICONTROL 引導式分析]**，這會直接將您導向[使用趨勢檢視](types/usage.md)。
 
    ![登陸頁面圖磚](assets/landing-page-tile.png){style="border:1px solid gray"}
 
-1. 按一下「**[!UICONTROL 新建]**」可查看不同的視圖選項，並選擇不同的分析起始點。
+1. 選取「新建&#x200B;****」以檢視不同的檢視選項，並選擇不同的分析起點。
 
    ![「新建」強制回應視窗](assets/create-new-modal.png){style="border:1px solid gray"}
 
-如果您的組織尚未佈建引導式分析，請聯絡您的 Adobe 帳戶團隊。
+您也可以從Analysis Workspace專案存取引導式分析。
+
+1. 從首頁中選取&#x200B;**[!UICONTROL 空白專案]**&#x200B;以建立空白的Workspace專案。
+
+   ![建立空白專案](assets/blank-project.png){style="border:1px solid gray"}
+
+1. 在左側邊欄中選取![引導分析](/help/assets/icons/GuidedAnalysis.svg) **[!UICONTROL 引導分析]**。
+
+   ![Workspace左側邊欄](assets/workspace-left-rail.png){style="border:1px solid gray"}
+
+1. 將任何檢視型別拖曳到Workspace畫布上，然後選取「**[!UICONTROL 建立]**」按鈕以產生所需的分析。 您也可以從&#x200B;**[!UICONTROL 已儲存]**&#x200B;區段底下，將現有的分析拖曳至Workspace畫布上。
+
+   ![建立面板](assets/create-panel.png)
 
 ## 介面
 

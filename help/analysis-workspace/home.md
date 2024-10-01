@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: cfc48aea3f474fedece022898f224ee68fb2b649
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1493'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,6 @@ Analysis Workspace可讓您快速建立分析，以收集見解，然後與其�
 
 {{videoaa}}
 
-
 +++
 
 ## 介面
@@ -36,7 +35,7 @@ Analysis Workspace可讓您快速建立分析，以收集見解，然後與其�
 | 位置 | 名稱與功能 |
 |:---------:|----------|
 | ?? | 包含專案名稱、存取功能的功能表結構、返回專案清單的按鈕![ChevronLeft](/help/assets/icons/ChevronLeft.svg)，以及共用您的Workspace專案的&#x200B;**[!UICONTROL 共用]**&#x200B;按鈕。 <br/>隨時選取專案名稱（例如：範例專案）以變更名稱。 <br/>選取![StarOutline](/help/assets/icons/StarOutline.svg)，將您的專案新增為最愛的專案![Star](/help/assets/icons/Star.svg)。 |
-| ?? | **按鈕面板：**&#x200B;包含用於存取Analysis Workspace的索引鍵[功能](#features)的按鈕： ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL 面板]**、![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 視覺效果]**&#x200B;和![組織](/help/assets/icons/Curate.svg) **[!UICONTROL 元件]**&#x200B;至您在Analysis Workspace中的專案。 面板也包含![ViewList](/help/assets/icons/ViewList.svg) **[!UICONTROL 目錄]**&#x200B;和![書籤](/help/assets/icons/Bookmark.svg) **[!UICONTROL 資料字典]**&#x200B;按鈕以開啟資料字典。 |
+| ?? | **按鈕面板：**&#x200B;包含存取Analysis Workspace索引鍵[功能](#features)的按鈕：<br/>![網頁頁面](/help/assets/icons/WebPage.svg) **[!UICONTROL 面板]**<br/>![引導式分析](/help/assets/icons/GuidedAnalysis.svg)**[!UICONTROL &#x200B;引導式分析]**<br/>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 視覺效果]**<br/>![組織](/help/assets/icons/Curate.svg)**[!UICONTROL &#x200B;元件]**<br/>![檢視清單](/help/assets/icons/ViewList.svg) **[!UICONTROL 目錄]**<br/>![書籤](/help/assets/icons/Bookmark.svg)**[!UICONTROL &#x200B;資料字典&#x200B;]** |
 | ?? | **左側面板：**&#x200B;此區域包含個別面板、視覺效果、元件或清單。 內容取決於在按鈕面板中選取的按鈕。 |
 | ?? | **畫布：**&#x200B;從左側面板拖曳內容以建置專案的主要區域。 當您新增面板、新增視覺效果至面板，以及新增元件至視覺效果時，專案會動態更新。 您可以建立多個面板，而在每個面板中可建立多個視覺效果。<br/>每個面板都是以選取的資料檢視為基礎。 選取的資料檢視會決定可用的元件，例如量度和維度。 如需詳細資訊，請參閱[面板 — 資料檢視](/help/analysis-workspace/c-panels/panels.md#data-view)。 |
 
@@ -46,11 +45,12 @@ Analysis Workspace的主要功能可透過按鈕面板取得：
 
 | 圖示 | 功能 | 說明 |
 |:---:|---|---|
-| ![網頁](/help/assets/icons/WebPage.svg) | **[!UICONTROL 面板]** | 面板可包含許多表格和視覺效果，可用來在專案中組織您的分析。 Analysis Workspace 中提供的許多面板皆可根據使用者輸入的少量內容，產生完整的分析集。在按鈕面板上，選取![WebPage](/help/assets/icons/WebPage.svg)以檢視完整的可用面板清單。<br/>若要深入瞭解面板，請參閱[面板概觀](/help/analysis-workspace/c-panels/panels.md)。 |
-| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 視覺效果]** | 視覺效果（例如長條圖或折線圖）可讓資料以視覺化方式呈現。 在最左側的面板中，選取中間的&#x200B;**[!UICONTROL 視覺效果]**&#x200B;圖示，即可檢視完整的可用視覺效果清單。 <br/>若要深入瞭解視覺效果，請參閱[視覺效果概述](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。 |
-| ![組織](/help/assets/icons/Curate.svg) | **[!UICONTROL 元件]** | Analysis Workspace 中的元件包含以下內容：<ul><li>![Dimension](/help/assets/icons/Dimensions.svg) [Dimension](/help/components/dimensions/overview.md)</li><li>![事件](/help/assets/icons/Event.svg) [量度](/help/components/apply-create-metrics.md)</li><li>![分段](/help/assets/icons/Segmentation.svg) [篩選器](/help/components/filters/filters-overview.md)</li><li>![行事曆](/help/assets/icons/Calendar.svg) [日期範圍](/help/components/date-ranges/overview.md)</li></ul>若要深入瞭解這些元件型別，請參閱[元件概觀](/help/components/overview.md)。 |
-| ![檢視清單](/help/assets/icons/ViewList.svg) | **[!UICONTROL 目錄]** | 目錄會以可摺疊的清單來組織所有面板和視覺效果，讓您快速存取特定面板或視覺效果。 |
-| ![書籤](/help/assets/icons/Bookmark.svg) | **資料字典** | Analysis Workspace中的資料字典可協助使用者和管理員追蹤及更瞭解其Analytics環境中的元件。<br/>若要進一步瞭解資料字典，請參閱[資料字典概觀](/help/components/data-dictionary/data-dictionary-overview.md)。 |
+| ![網頁](/help/assets/icons/WebPage.svg) | **[!UICONTROL 面板]** | [面板](/help/analysis-workspace/c-panels/panels.md)是用來在專案中整理可能包含許多表格和視覺效果的分析。Analysis Workspace 中提供的許多面板皆可根據使用者輸入的少量內容，產生完整的分析集。在按鈕面板上，選取![WebPage](/help/assets/icons/WebPage.svg)以檢視完整的可用面板清單。 |
+| ![引導式分析](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL 引導式分析]** | [引導式分析](../guided-analysis/overview.md)可讓您透過引導式工作流程，自助提供客戶歷程的高品質資料和深入分析。 您可以建立要包含在Workspace專案中的分析，或包含先前儲存的現有分析。 |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 視覺效果]** | [視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) （例如長條圖或折線圖）可用來以視覺化方式呈現資料。 在最左側的面板中，選取中間的&#x200B;**[!UICONTROL 視覺效果]**&#x200B;圖示，即可檢視完整的可用視覺效果清單。 |
+| ![組織](/help/assets/icons/Curate.svg) | **[!UICONTROL 元件]** | [元件](/help/components/overview.md)包含下列元素：<ul><li>![Dimension](/help/assets/icons/Dimensions.svg) [Dimension](/help/components/dimensions/overview.md)</li><li>![事件](/help/assets/icons/Event.svg) [量度](/help/components/apply-create-metrics.md)</li><li>![分段](/help/assets/icons/Segmentation.svg) [篩選器](/help/components/filters/filters-overview.md)</li><li>![行事曆](/help/assets/icons/Calendar.svg) [日期範圍](/help/components/date-ranges/overview.md)</li></ul> |
+| ![檢視清單](/help/assets/icons/ViewList.svg) | **[!UICONTROL 目錄]** | 目錄會將專案中包含的所有面板和視覺效果整理成可摺疊的清單，讓您快速存取特定面板或視覺效果。 |
+| ![書籤](/help/assets/icons/Bookmark.svg) | **資料字典** | [資料字典](/help/components/data-dictionary/data-dictionary-overview.md)可協助使用者和管理員追蹤及更清楚瞭解其Analytics環境中的元件。 |
 
 
 ## 選單
