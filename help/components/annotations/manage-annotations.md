@@ -4,7 +4,7 @@ description: 如何在 Workspace 中管理註解。
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 19d2130f4fae736a8553c1a3dd573706d4fb8083
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 6%
@@ -36,7 +36,7 @@ ht-degree: 6%
 | 欄 | 說明 |
 | --- | --- | 
 | ![星形大綱](/help/assets/icons/StarOutline.svg) | 選取以偏好![Star](/help/assets/icons/Star.svg)或取消偏好![StarOutline](/help/assets/icons/StarOutline.svg)註釋。 |
-| **[!UICONTROL 標題和說明]** | 在註解產生器中提供。若要編輯標題和說明，請選取標題連結 — 開啟[註解產生器](/help/components/annotations/create-annotations.md#annotation-builder)。 共用註解以![共用](/help/assets/icons/ShareLight.svg)表示。 |
+| **[!UICONTROL 標題和說明]** | 在註解產生器中提供。若要編輯標題和說明，請選取標題連結 — 開啟[註解產生器](/help/components/annotations/create-annotations.md#annotation-builder)。 共用註解以![共用](/help/assets/icons/ShareAlt.svg)表示。 |
 | **[!UICONTROL 資料視圖]** | 套用此註解的資料檢視。 |
 | **[!UICONTROL 所有者]** | 附註的擁有者。 身為使用者，您只會看見自己擁有的註解或與您共用的註解。 |
 | **[!UICONTROL 套用的日期範圍]** | 套用此註解的日期或日期範圍。 |
@@ -57,7 +57,7 @@ ht-degree: 6%
 | ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | 使用[Annotation Builder](create-annotations.md#annotation-builder)新增另一個附註。 |
 | ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *依標題搜尋*] | 當清單中未選取註解時，請使用此搜尋欄位搜尋註解。 |
 | ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標籤]** | 標籤選取的註解。 在&#x200B;**[!UICONTROL 標籤元件]**&#x200B;對話方塊中，選取或取消選取所選註解的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選註解的標籤。 |
-| ![共用](/help/assets/icons/ShareLight.svg) **[!UICONTROL 共用]** | 共用選取的註解。 在&#x200B;**[!UICONTROL 共用元件]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選註解的共用詳細資料。 如需詳細資訊，請參閱[共用註解](#share-annotations)。 |
+| ![共用](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]** | 共用選取的註解。 在&#x200B;**[!UICONTROL 共用元件]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選註解的共用詳細資料。 如需詳細資訊，請參閱[共用註解](#share-annotations)。 |
 | ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除選取的註解。 系統會提示您進行確認。 |
 | ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名單一選取的註解。 選取後，您可以重新命名註釋內嵌。 |
 | ![副本](/help/assets/icons/Copy.svg) **[!UICONTROL 副本]** | 複製選取的註解。 新註解會以相同名稱和字尾建立（複製） |

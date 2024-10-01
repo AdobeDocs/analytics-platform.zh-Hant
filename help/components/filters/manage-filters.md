@@ -4,7 +4,7 @@ description: 瞭解如何管理Customer Journey Analytics中的篩選器
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 4%
@@ -37,7 +37,7 @@ ht-degree: 4%
 | 欄 | 說明 |
 | --- | --- | 
 | ![星形大綱](/help/assets/icons/StarOutline.svg) | 選取以偏好![Star](/help/assets/icons/Star.svg)或取消偏好![StarOutline](/help/assets/icons/StarOutline.svg)篩選器。 檢視[將篩選器標示為我的最愛](/help/components/filters/filters-favorite.md) |
-| **[!UICONTROL 標題和說明]** | 若要編輯篩選器，請選取標題連結，這會開啟[篩選器產生器](filter-builder.md)。 共用篩選器以![共用](/help/assets/icons/ShareLight.svg)表示。 |
+| **[!UICONTROL 標題和說明]** | 若要編輯篩選器，請選取標題連結，這會開啟[篩選器產生器](filter-builder.md)。 共用篩選器以![共用](/help/assets/icons/ShareAlt.svg)表示。 |
 | **[!UICONTROL 資料視圖]** | 套用此篩選器的資料檢視。 |
 | **[!UICONTROL 所有者]** | 篩選的擁有者。 身為使用者，您只會看見自己擁有的篩選器或與您共用的註解。 |
 | **[!UICONTROL 標記]** | 此篩選的標籤。 |
@@ -59,7 +59,7 @@ ht-degree: 4%
 | ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | 使用[篩選器產生器](filter-builder.md)新增另一個篩選器。 |
 | ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *依標題搜尋*] | 當清單中未選取篩選器時，請使用此搜尋欄位搜尋篩選器。 |
 | ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標籤]** | 標籤選取的篩選器。 在&#x200B;**[!UICONTROL 標籤篩選器]**&#x200B;對話方塊中，選取或取消選取所選篩選器的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選篩選器的標籤。 如需詳細資訊，請參閱[標籤篩選器](/help/components/filters/filters-tag.md)。 |
-| ![共用](/help/assets/icons/ShareLight.svg) **[!UICONTROL 共用]** | 共用選取的篩選器。 在&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選篩選器的共用詳細資料。 如需詳細資訊，請參閱[共用篩選器](filters-share.md)。 |
+| ![共用](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]** | 共用選取的篩選器。 在&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選篩選器的共用詳細資料。 如需詳細資訊，請參閱[共用篩選器](filters-share.md)。 |
 | ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除選取的篩選器。 系統會提示您進行確認。 |
 | ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名單一選取的篩選器。 選取後，您可以重新命名內嵌篩選器。 |
 | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]** | 核准所選的篩選器。 如需詳細資訊，請參閱[核准篩選器](filters-approve.md)。 |

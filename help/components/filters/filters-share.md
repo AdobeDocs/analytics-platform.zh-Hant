@@ -4,7 +4,7 @@ title: 共用篩選器
 feature: Filters
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: e07197325e992cd85b852899c2f7cef60637f532
+source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 10%
@@ -21,7 +21,7 @@ ht-degree: 10%
 若要共用一或多個篩選器：
 
 1. 在[篩選器管理員](manage-filters.md)中，選取一或多個要共用的篩選器。
-1. 從動作列中選取![共用](/help/assets/icons/ShareLight.svg) **[!UICONTROL 共用]**。
+1. 從動作列中選取![共用](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]**。
 1. 在&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;對話方塊中：
 
    ![共用篩選器對話方塊](assets/share-filter-dialog.png)
