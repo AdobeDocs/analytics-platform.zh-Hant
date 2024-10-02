@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 057c9f4a0e8fb163bfb23cea1870f949ad4ae1c0
+source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -41,10 +41,23 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
 下列設定可產生顯示超過100%百分比的節點：
 
-* 當&#x200B;**[!UICONTROL 百分比值]**&#x200B;欄位設定為總計&#x200B;]**的**[!UICONTROL &#x200B;百分比，且選取的主要量度導致起始節點的資料少於後續節點。
+* 當&#x200B;**[!UICONTROL 百分比值]**&#x200B;欄位設定為總計&#x200B;]**的**[!UICONTROL &#x200B;百分比或起始節點&#x200B;]**的**[!UICONTROL &#x200B;百分比，且選取的主要量度導致起始節點的資料少於後續節點。
 
   例如，如果選擇「收入」作為主要量度，且沒有在主要量度上實現收入，則在實現收入的任何節點上，將顯示超過100%。
 
+## 百分比或值高於先前節點的節點
+
+## 百分比或值比前一個節點高的節點
+
+## 在歷程中較晚進入的節點比較早進入的節點具有更高的百分比或值
+
+## 一個節點，其百分比或值高於歷程中其前面的節點
+
+## 百分比或值高於先前節點的節點
+
+## 節點
+
+## 後續節點中的較高百分比或值
 
 ## 非漏斗形狀的歷程
 

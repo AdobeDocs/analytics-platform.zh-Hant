@@ -4,10 +4,10 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: 17b684a3662caf68b4c4a097caad9cf6d0eb3d9f
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 49%
+source-wordcount: '1651'
+ht-degree: 51%
 
 ---
 
@@ -126,12 +126,6 @@ Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和
 接著 RTCP 會檢查每個命名空間/ID 組合，並尋找它可能屬於的輪廓。輪廓基本上是一組連結的命名空間、ID 和裝置。如果找到設定檔，則會將名稱空間和ID新增到此設定檔中的其他ID，做為區段會籍屬性。 例如，<user@adobe.com>可以跨其所有裝置和管道進行定位。 如果找不到輪廓，則會建立一個新的。
 
 若要在Platform中檢視Customer Journey Analytics對象：
-
->[!AVAILABILITY]
->
->下列步驟中說明的功能處於發行的有限測試階段，可能尚未在您的環境中提供。 如果這些步驟與您在環境中看到的不相符，請改用以下步驟：移至&#x200B;[!UICONTROL **區段**] > [!UICONTROL **建立區段**] > [!UICONTROL **對象**]&#x200B;索引標籤> [!UICONTROL **CJA對象**]。
->
->當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱[Customer Journey Analytics功能發行](/help/release-notes/releases.md)。
 
 1. 展開左側面板中的&#x200B;[!UICONTROL **客戶**]，然後選取&#x200B;[!UICONTROL **對象**]。<!-- is there a folder called "Customer Journey Analytics? -->
 

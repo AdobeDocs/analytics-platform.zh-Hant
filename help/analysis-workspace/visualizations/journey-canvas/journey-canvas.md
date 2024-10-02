@@ -4,9 +4,9 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: c42858908aa8e73c5f3b622b9911ff9e9724f2dc
+source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 2%
 Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和客戶的歷程。 它可讓您從頭開始定義歷程，或從Journey Optimizer檢視歷程，然後檢視人們如何離開（流失）或繼續通過（流過）歷程。
 
 您可以[使用任何事件、維度專案、篩選器和日期範圍的組合，建立使用者歷程](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)的分析，以建立歷程節點。 連線節點以建立歷程的流程，並包含多個路徑和決定點。 拖曳畫布上的節點以重新排列歷程的事件和條件。 變更時即時更新資料。
+
+[節點已連線](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)為「最終路徑」，這表示無論這2個節點之間發生任何事件，只要訪客最終從一個節點移至另一個節點即會計入訪客。 為使用者沿路徑移動所分配的時間取決於容器設定。
+
+![歷程畫布](assets/journey-canvas.png)
 
 ## 主要功能
 
@@ -39,13 +43,13 @@ Journey Canvas視覺效果的主要功能包括：
 
 * 完成歷程（到達結束節點）的人數與百分比
 
-* 到達歷程指定點（節點）的人數與百分比
+* 到達歷程指定節點的人員數目和百分比
 
-* 在歷程的指定點（節點）之後或之前的最常見步驟
+* 在歷程的指定節點之後或之前的最常見步驟
 
 **流失**
 
-* 人們最常離開歷程的點（節點） （從未到達任何緊接的下一個節點）
+* 人們最常離開歷程的歷程節點（從未到達任何緊接的下一個節點）
 
 **其他**
 

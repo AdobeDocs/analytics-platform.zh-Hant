@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: 04a95b6e502a8a1c1e686738d490d2a40936e738
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 90%
+source-wordcount: '1021'
+ht-degree: 92%
 
 ---
 
@@ -127,31 +127,31 @@ ht-degree: 90%
       + [管理資料來源](../analysis-workspace/visualizations/t-sync-visualization.md)
       + [智慧型註解](../analysis-workspace/visualizations/intelligent-captions.md)
       + 自由表格 {#freeform-table}
-         + [自由表格概述](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [概觀](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [建立超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 欄和列的設定 {#column-row-settings}
             + [欄設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [篩選和排序表格](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [工作區總計](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Workspace 總計](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
-         + [同類群組表格概觀](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [設定同類群組表格](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [同類群組分析使用案例](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [概觀](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [設定](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [使用案例](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 流失 {#fallout}
-         + [流失概觀](../analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [設定流失](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [概觀](../analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [設定](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [維度間流失](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [在流失分析中套用篩選](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [套用篩選器](../analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 流量 {#flow}
-         + [流量概觀](../analysis-workspace/visualizations/c-flow/flow.md)
-         + [設定流量](../analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [概觀](../analysis-workspace/visualizations/c-flow/flow.md)
+         + [設定](../analysis-workspace/visualizations/c-flow/create-flow.md)
          + [維度間流量](../analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + 歷程畫布 {#journey-canvas}
-         + [歷程畫布概觀](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
-         + [設定歷程畫布視覺效果](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
-         + [歷程畫布疑難排解](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
+         + [概觀](../analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + [設定](../analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+         + [疑難排解](../analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
       + [區域圖（棧疊）](../analysis-workspace/visualizations/area.md)
       + [橫條圖（棧疊）](../analysis-workspace/visualizations/bar.md)
       + [項目符號](../analysis-workspace/visualizations/bullet-graph.md)
@@ -168,7 +168,7 @@ ht-degree: 90%
       + [樹狀圖](../analysis-workspace/visualizations/treemap.md)
       + [文氏圖表](../analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
-      + [面板概觀](../analysis-workspace/c-panels/panels.md)
+      + [概觀](../analysis-workspace/c-panels/panels.md)
       + [空白面板](../analysis-workspace/c-panels/blank-panel.md)
       + [歸因](../analysis-workspace/c-panels/attribution.md)
       + [實驗](../analysis-workspace/c-panels/experimentation.md)
@@ -185,16 +185,16 @@ ht-degree: 90%
       + [建立分享連結](../analysis-workspace/curate-share/shareable-links.md)
       + [僅供檢視的專案](../analysis-workspace/curate-share/view-only-projects.md)
    + 匯出 {#export}
-      + [匯出概觀](../analysis-workspace/export/export-project-overview.md)
+      + [概觀](../analysis-workspace/export/export-project-overview.md)
       + [下載](../analysis-workspace/export/download-send.md)
       + [傳送給其他人](../analysis-workspace/export/t-schedule-report.md)
       + [匯出到雲端](../analysis-workspace/export/export-cloud.md)
    + 異常偵測 {#anomaly-detection}
-      + [異常偵測概觀](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [概觀](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [在 Analysis Workspace 中檢視異常](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [用於異常偵測的統計技術](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + 預測 {#forecasting}
-      + [預測概觀](../analysis-workspace/c-forecast/forecasting.md)
+      + [概觀](../analysis-workspace/c-forecast/forecasting.md)
       + [在 Analysis Workspace 中檢視預測](../analysis-workspace/c-forecast/view-forecasts.md)
       + [預測服務中使用的統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md)
       + [目錄](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
