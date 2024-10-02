@@ -4,9 +4,9 @@ title: 篩選和排序表格
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a9976a053021b2b0ac26daaad2cfe89f8af61a96
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 42%
 
 ---
@@ -47,7 +47,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 1. 將游標停留在要排除的列上，然後選取![關閉](/help/assets/icons/Close.svg)。
 
-   按住Shift鍵以選取一定範圍的列，或按住Command鍵(在Mac上)或Ctrl鍵（在Windows上）以選取多個列。
+   按住&#x200B;***shift***&#x200B;以選取一範圍的資料列，或按住&#x200B;***cmd***&#x200B;鍵(在Mac上)或&#x200B;***ctrl***&#x200B;鍵（在Windows上）以選取多個資料列。
 
 <!--### Right-click > Delete selected rows
 

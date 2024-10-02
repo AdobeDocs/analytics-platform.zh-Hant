@@ -3,10 +3,10 @@ description: 建立、編輯或刪除警報。
 title: 管理警報
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: bd58af0680fc9524453e072ecb60e3ada72ce634
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 4%
+source-wordcount: '567'
+ht-degree: 7%
 
 ---
 
@@ -50,17 +50,17 @@ ht-degree: 4%
 
 您可以使用動作列對警報進➋行動作。 動作列包含下列動作：
 
-| 動作 | 說明 |
-|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | 使用[警報產生器](alert-builder.md#alert-builder)新增另一個警報。 |
-| ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *依標題搜尋*] | 當清單中未選取警示時，請使用此搜尋欄位來搜尋警示。 |
-| ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標籤]** | 標籤選取的警報。 在&#x200B;**[!UICONTROL 標籤警示]**&#x200B;對話方塊中，選取或取消選取所選警示的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選警示的標籤。 |
-| ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除選取的警示。 系統會提示您進行確認。 |
-| ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名單一選取的警報。 選取後，您可以重新命名內嵌警報。 |
-| ![副本](/help/assets/icons/Copy.svg) **[!UICONTROL 副本]** | 複製選取的警報。 已建立具有相同名稱與尾碼`(Copy)`的新警示。 |
-| ![核取記號圓圈](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 啟用]**&#x200B;或&#x200B;**[!UICONTROL 停用]** | 啟用或停用選取的警示。 |
-| ![重新整理](/help/assets/icons/Refresh.svg) **[!UICONTROL 續約]** | 更新警示到期日。 無論原始到期日為何，到期日都會從您選取此選項的當天算起延長1年。 |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出至CSV]** | 將警示匯出至`Alerts List.csv`檔案。 |
+| 圖示 | 動作 | 說明 |
+|:---:|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 新增]** | 使用[警報產生器](alert-builder.md#alert-builder)新增另一個警報。 |
+| ![搜尋](/help/assets/icons/Search.svg) | [!UICONTROL *依標題搜尋*] | 當清單中未選取警示時，請使用此搜尋欄位來搜尋警示。 |
+| ![標籤](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標籤選取的警報。 在&#x200B;**[!UICONTROL 標籤警示]**&#x200B;對話方塊中，選取或取消選取所選警示的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選警示的標籤。 |
+| ![刪除](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除選取的警示。 系統會提示您進行確認。 |
+| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名單一選取的警報。 選取後，您可以重新命名內嵌警報。 |
+| ![副本](/help/assets/icons/Copy.svg) | **[!UICONTROL 副本]** | 複製選取的警報。 已建立具有相同名稱與尾碼`(Copy)`的新警示。 |
+| ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 啟用]**&#x200B;或&#x200B;**[!UICONTROL 停用]** | 啟用或停用選取的警示。 |
+| ![重新整理](/help/assets/icons/Refresh.svg) | **[!UICONTROL 續約]** | 更新警示到期日。 無論原始到期日為何，到期日都會從您選取此選項的當天算起延長1年。 |
+| ![檔案CSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出至 CSV]** | 將警示匯出至`Alerts List.csv`檔案。 |
 
 
 ### 作用中的篩選器列

@@ -4,7 +4,7 @@ title: 時間分隔維度
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 58%
@@ -13,7 +13,7 @@ ht-degree: 58%
 
 # Analysis Workspace中的時間分段維度
 
-「時間分段」功能會擷取所收集事件的時間戳記，並採用更有意義的維度加以分段，例如「小時」或「星期」。
+「時間分段」功能會擷取所收集事件的時間戳記，並採用更有意義的維度加以分段，例如&#x200B;**小時**&#x200B;或&#x200B;**星期**。
 
 時間分段維度是以資料檢視的時區為基礎。這類維度是由 Analysis Workspace 所提供，並且可以協助回答以下問題：
 

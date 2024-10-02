@@ -4,10 +4,10 @@ description: 在 Analysis Workspace 中共用、重新命名或刪除日期範�
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
 role: User
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 9%
+source-wordcount: '607'
+ht-degree: 12%
 
 ---
 
@@ -46,17 +46,17 @@ ht-degree: 9%
 
 您可以使用動作列對日期範圍進➋行動作。 動作列包含下列動作：
 
-| 動作 | 說明 |
-|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | 使用[日期範圍產生器](create.md#date-range-builder)新增另一個日期範圍。 |
-| ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *依標題搜尋*] | 當清單中未選取日期範圍時，請使用此搜尋欄位來搜尋日期範圍。 |
-| ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標籤]** | 標籤選取的日期範圍。 在&#x200B;**[!UICONTROL 標籤日期範圍]**&#x200B;對話方塊中，選取或取消選取所選日期範圍的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選日期範圍的標籤。 |
-| ![共用](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]** | 共用選取的日期範圍。 在&#x200B;**[!UICONTROL 共用日期範圍]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選日期範圍的共用詳細資料。 |
-| ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除所選的日期範圍。 系統會提示您進行確認。 |
-| ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名單一選取的日期範圍。 選取後，您可以重新命名內嵌日期範圍。 |
-| ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]** | 核准所選的日期範圍。 |
-| ![副本](/help/assets/icons/Copy.svg) **[!UICONTROL 副本]** | 複製所選的日期範圍。 新日期範圍會以相同名稱和尾碼建立（複製） |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出至CSV]** | 將選取的日期範圍匯出至`Date ranges List.csv`檔案。 |
+| 圖示 | 動作 | 說明 |
+|:---:|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 新增]** | 使用[日期範圍產生器](create.md#date-range-builder)新增另一個日期範圍。 |
+| ![搜尋](/help/assets/icons/Search.svg) | [!UICONTROL *依標題搜尋*] | 當清單中未選取日期範圍時，請使用此搜尋欄位來搜尋日期範圍。 |
+| ![標籤](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標籤選取的日期範圍。 在&#x200B;**[!UICONTROL 標籤日期範圍]**&#x200B;對話方塊中，選取或取消選取所選日期範圍的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選日期範圍的標籤。 |
+| ![共用](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共用]** | 共用選取的日期範圍。 在&#x200B;**[!UICONTROL 共用日期範圍]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選日期範圍的共用詳細資料。 |
+| ![刪除](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選的日期範圍。 系統會提示您進行確認。 |
+| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名單一選取的日期範圍。 選取後，您可以重新命名內嵌日期範圍。 |
+| ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 核准]** | 核准所選的日期範圍。 |
+| ![副本](/help/assets/icons/Copy.svg) | **[!UICONTROL 副本]** | 複製所選的日期範圍。 新日期範圍會以相同名稱和尾碼建立（複製） |
+| ![檔案CSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出至 CSV]** | 將選取的日期範圍匯出至`Date ranges List.csv`檔案。 |
 
 ### 作用中的篩選器列
 

@@ -3,10 +3,10 @@ description: 計算量度管理員可讓您共用、篩選、標籤、核准、�
 title: 計算量度管理員
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 5%
+source-wordcount: '901'
+ht-degree: 6%
 
 ---
 
@@ -51,17 +51,17 @@ ht-degree: 5%
 
 您可以使用動作列對篩選器進➋行動作。 動作列包含下列動作：
 
-| 動作 | 說明 |
-|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | 使用[計算量度產生器](cm-build-metrics.md)新增另一個計算量度。 |
-| ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *依標題搜尋*] | 當清單中未選取任何計算量度時，請使用此搜尋欄位搜尋篩選器。 |
-| ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標籤]** | 標籤所選的計算量度。 在&#x200B;**[!UICONTROL 標籤計算量度]**&#x200B;對話方塊中，選取或取消選取所選計算量度的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選計算量度的標籤。 如需詳細資訊，請參閱[標籤計算量度](cm-tagging.md)。 |
-| ![共用](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]** | 共用選取的計算量度。 在&#x200B;**[!UICONTROL 共用計算量度]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選計算量度的共用詳細資料。 如需詳細資訊，請參閱[共用計算量度](cm-sharing.md)。 |
-| ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除所選的計算量度。 系統會提示您進行確認。 |
-| ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名單一選取的計算量度。 選取後，您可以重新命名內嵌計算量度。 |
-| ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]** | 核准所選的計算量度。 請參閱[核准計算量度](cm-approving.md)。 |
-| ![副本](/help/assets/icons/Copy.svg) **[!UICONTROL 副本]** | 複製所選的計算量度。 已建立具有相同名稱和尾碼的新計算量度`(Copy)` |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出至CSV]** | 將計算量度匯出至`Calculated  metric List.csv`檔案。 |
+| 圖示 | 動作 | 說明 |
+|:---:|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 新增]** | 使用[計算量度產生器](cm-build-metrics.md)新增另一個計算量度。 |
+| ![搜尋](/help/assets/icons/Search.svg) | [!UICONTROL *依標題搜尋*] | 當清單中未選取任何計算量度時，請使用此搜尋欄位搜尋篩選器。 |
+| ![標籤](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標籤所選的計算量度。 在&#x200B;**[!UICONTROL 標籤計算量度]**&#x200B;對話方塊中，選取或取消選取所選計算量度的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選計算量度的標籤。 如需詳細資訊，請參閱[標籤計算量度](cm-tagging.md)。 |
+| ![共用](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共用]** | 共用選取的計算量度。 在&#x200B;**[!UICONTROL 共用計算量度]**&#x200B;對話方塊中，您可以![搜尋](/help/assets/icons/Search.svg) *搜尋個人或群組*，也可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選計算量度的共用詳細資料。 如需詳細資訊，請參閱[共用計算量度](cm-sharing.md)。 |
+| ![刪除](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選的計算量度。 系統會提示您進行確認。 |
+| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名單一選取的計算量度。 選取後，您可以重新命名內嵌計算量度。 |
+| ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 核准]** | 核准所選的計算量度。 請參閱[核准計算量度](cm-approving.md)。 |
+| ![副本](/help/assets/icons/Copy.svg) | **[!UICONTROL 副本]** | 複製所選的計算量度。 已建立具有相同名稱和尾碼的新計算量度`(Copy)` |
+| ![檔案CSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出至 CSV]** | 將計算量度匯出至`Calculated  metric List.csv`檔案。 |
 
 ### 作用中的篩選器列
 

@@ -4,9 +4,9 @@ title: 列設定
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: bc03cd75c03d41c5d0f8c2bc54bedc115b723211
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1019'
 ht-degree: 15%
 
 ---
@@ -80,8 +80,8 @@ ht-degree: 15%
 | 選項 | 說明 |
 |---|---|
 | **[!UICONTROL 從選取專案建立量度]** | 從選取的量度建立新的量度。 量度可以是平均值、媒體、欄最大值、欄最小值、欄總和。 您也可以選取「在計算量度產生器中開啟」來建立計算量度。 |
-| **[!UICONTROL 新增時段欄]** | 新增時段欄。 提供您幾個選項，其中面板的行事曆範圍會決定&#x200B;*日期範圍*： <li>**[!UICONTROL 在此資料範圍]**&#x200B;之前&#x200B;*的日期範圍*</li><li>**[!UICONTROL 這些&#x200B;*日期範圍*至此日期範圍]**。</li><li>**[!UICONTROL 自訂資料範圍到此日期範圍]**。 開啟&#x200B;**[!UICONTROL 日期範圍產生器]**&#x200B;以指定日期範圍。</li> |
-| **[!UICONTROL 比較時段]** | 新增比較時段欄。 僅當維度不是以時間為基準時可用。 提供您幾個決定&#x200B;*日期範圍*&#x200B;的選項： <li>**[!UICONTROL 在此資料範圍]**&#x200B;之前&#x200B;*的日期範圍*</li><li>**[!UICONTROL 自訂資料範圍到此日期範圍]**。 開啟&#x200B;**[!UICONTROL 日期範圍產生器]**&#x200B;以指定日期範圍。</li> |
+| **[!UICONTROL 新增時段欄]** | 新增時段欄。 提供您幾個選項，其中面板的行事曆範圍會決定&#x200B;*日期範圍*： <li>**[!UICONTROL 在此資料範圍]**&#x200B;之前&#x200B;*的日期範圍*</li><li>**[!UICONTROL 這些&#x200B;*日期範圍*至此日期範圍]**。</li><li>**[!UICONTROL 自訂資料範圍到此日期範圍]**。 開啟&#x200B;**[!UICONTROL 日期範圍產生器]**&#x200B;以指定日期範圍。</li>如需詳細資訊，請參閱[日期比較](/help/components/date-ranges/time-comparison.md)。 |
+| **[!UICONTROL 比較時段]** | 新增比較時段欄。 僅當維度不是以時間為基準時可用。 提供您幾個決定&#x200B;*日期範圍*&#x200B;的選項： <li>**[!UICONTROL 在此資料範圍]**&#x200B;之前&#x200B;*的日期範圍*</li><li>**[!UICONTROL 自訂資料範圍到此日期範圍]**。 開啟&#x200B;**[!UICONTROL 日期範圍產生器]**&#x200B;以指定日期範圍。</li>如需詳細資訊，請參閱[日期比較](/help/components/date-ranges/time-comparison.md)。 |
 | **[!UICONTROL 修改歸因模型]** | 修改欄的歸因模型。 |
 | **[!UICONTROL 比較歸因模型]** | 指定新的歸因模型，並將其與所選欄的歸因模型比較。 會新增一個欄，其中包含新的歸因模型量度。 此外，也會新增「百分比變更」欄以進行比較。 |
 | **[!UICONTROL 重設資料行寬度]** | 將欄寬重設為預設寬度。 |

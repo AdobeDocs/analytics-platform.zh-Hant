@@ -4,7 +4,7 @@ description: 瞭解如何在Analysis Workspace中使用同類群組表格進行�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 25%
@@ -32,7 +32,7 @@ ht-degree: 25%
 <!-- markdownlint-enable MD034 -->
 
 
-*同類群組*&#x200B;是指一段指定時間內，共用相同特徵的一組人。 例如，當您想要瞭解同類群組與品牌的互動關係時，![TextNumbered](/help/assets/icons/TextNumbered.svg) [!UICONTROL 同類群組表格]視覺效果就很實用。 您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis)。)
+*同類群組*&#x200B;是指一段指定時間內，共用相同特徵的一組人。 例如，當您想要瞭解同類群組與品牌的互動關係時，![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL 同類群組表格]**&#x200B;視覺效果就很實用。 您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis)。)
 
 建立同類群組報表後，您可以組織其元件 (特定的維度、量度和篩選器)，接著將同類群組報表與他人共用。 請參閱[監管與共用](/help/analysis-workspace/curate-share/curate.md)。
 

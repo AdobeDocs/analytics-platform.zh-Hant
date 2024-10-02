@@ -4,9 +4,9 @@ title: 在 Analysis Workspace 中使用元件
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '952'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!TIP]
 >
->如需有關每個元件的資訊，請選取元件名稱旁的![資訊大綱](/help/assets/icons/InfoOutline.svg)圖示。
+>如需有關每個元件的資訊，請使用![資訊大綱](/help/assets/icons/InfoOutline.svg)。 如需詳細資訊，請參閱[元件資訊](#component-info)
 
 ## 將元件新增至專案
 

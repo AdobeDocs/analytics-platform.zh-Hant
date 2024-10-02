@@ -1,12 +1,12 @@
 ---
 description: 警示的使用案例。
-title: 警報 — 使用案例
+title: 警示使用案例
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 38%
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 38%
 
 以下幾節將說明建立警報時要考慮的範例使用案例。
 
-## 建立依兩個篩選器篩選的簡單警報 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## 篩選警報
+
+您可以使用篩選器建立簡單警報。 例如，為透過行動應用程式工作階段造訪首頁的使用者定義工作階段數警報。
 
 <!-- 
 
@@ -24,12 +26,12 @@ Update screenshots for better readability.
 
  -->
 
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## 合併 (堆疊) 警報，而非建立多個警報 {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 棧疊警報
 
-堆疊警報可確保結合警報，以免您收到大量的單獨警報。
+您可以合併（棧疊）警報，而非建立多個警報。 棧疊警報可確保結合警報，以免您收到大量個別警報。 在以下範例中，當任一量度主動變更觸發時，就會傳送警報。
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

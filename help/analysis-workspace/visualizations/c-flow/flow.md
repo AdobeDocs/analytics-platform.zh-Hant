@@ -4,7 +4,7 @@ title: 流量概觀
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 30%
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 
 
-![GraphPathing](/help/assets/icons/GraphPathing.svg) [!UICONTROL 流量]視覺效果可顯示客戶使用您網站和應用程式的路徑。
+![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 流量]**&#x200B;視覺效果可顯示客戶使用您網站和應用程式的路徑。
 
 您可以使用視覺效果來：
 
@@ -37,7 +37,7 @@ ht-degree: 30%
 * 分析客戶在所指定查核點（例如登入、特定維度或退出）之前和之後的前往位置。
 * 指定選定路徑中的特定點，建立篩選器
 
-+++ 檢視[!UICONTROL 流量]視覺效果的影片示範。
++++ 觀看流量視覺效果的影片示範。
 
 >[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
 

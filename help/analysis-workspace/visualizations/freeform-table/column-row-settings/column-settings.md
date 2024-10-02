@@ -4,9 +4,9 @@ title: 欄設定
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '882'
 ht-degree: 19%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 19%
 
 條件式格式會將格式套用至您可定義的上限、中點和下限。除非選取[!UICONTROL 自訂]限制，否則系統也會在資料劃分時自動在自由表格中套用條件式格式。
 
-<img src="./assets/conditional-formatting.png" alt="已選取「自訂」的「條件式」格式選項" width="40%" />
+![條件式格式](./assets/conditional-formatting.png)
 
 | 條件式格式選項 | 說明 |
 | --- | --- |
@@ -67,9 +67,19 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_column_usenondefaultattributionmodel"
 >title="使用非預設歸因模式"
->abstract="為選取的欄啟用非預設歸因模型"
+>abstract="為選取的欄啟用非預設歸因模型。"
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
+>title="使用非預設歸因模式"
+>abstract="非預設歸因模式不適用於此量度。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 您可以覆寫在[資料檢視](/help/data-views/component-settings/attribution.md)中設定的預設歸因模型。

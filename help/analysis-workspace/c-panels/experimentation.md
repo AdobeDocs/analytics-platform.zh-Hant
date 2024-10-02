@@ -4,9 +4,9 @@ title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2167'
 ht-degree: 23%
 
 ---
@@ -180,7 +180,6 @@ Customer Journey Analytics中的實驗面板可讓您依人員的狀態將資料
 * 在基礎量度中新增或減去的常數（例如，`Revenue+50`）
 * 下列任一基本量度：
    * 人員
-   * （還有什麼？）
 
 與Experimentation面板不相容的計算量度在建立計算量度時，[!UICONTROL **產品相容性**]&#x200B;欄位中的Customer Journey Analytics（不包括實驗）**]的值為[!UICONTROL ** Everywhere in experimentation。 如需建立計算量度的相關資訊，請參閱[建立量度](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)。
 
