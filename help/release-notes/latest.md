@@ -3,31 +3,32 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: b7e8c535d178ef406e1563408cee83c638d6858b
+source-git-commit: c403e2bbf20de3dca4440160ef3f69a9d0d60a2f
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 99%
+source-wordcount: '485'
+ht-degree: 51%
 
 ---
 
-# 目前的 Adobe Customer Journey Analytics 發行說明 (2024 年 9 月)
+# 最新的 Adobe Customer Journey Analytics 版本注意事項 (2024 年 10 月)
 
-**上次更新日期**：2024 年 11 月 11 日
+**上次更新日期**：2024年10月2日
 
-這些發行說明涵蓋 2024 年 9 月 11 日至 10 月初的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2024年10月2日至2024年10月22日的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **計算量度管理器和篩選器管理器的「使用於」欄中的額外資訊** | 計算量度管理器和篩選器管理器的「使用於」欄包含以下新報告區域：<ul><li>**Report Builder**：顯示在 Report Builder 中使用的計算量度或篩選器數量。</li><li>**臨時元件**：顯示專案中使用的臨時計算量度或臨時篩選器的數量。這些臨時計算量度和篩選器 (也稱為「快速計算量度」和「快速篩選器」) 只能在建立這些量度和區段的專案中使用，因此在「使用於」欄中，這些量度和區段會與「專案」報告區域分開報告。</li></ul>若要了解更多資訊，請參閱[計算量度管理器](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager)和[篩選器管理器](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-filters/manage-filters)。 |  | 2024 年 9 月 11 日 |
-| **警報** | Customer Journey Analytics 中的警報可讓您根據變更的百分比或特定資料點來接收通知<p>根據您的 Customer Journey Analytics 套件，您還可以使用根據異常臨界值觸發的警報。這些警報 (也稱為「智慧型警報」) 具有整合異常偵測的精細控制，在您最需要時觸發。</p><p>在 Customer Journey Analytics 中使用警報的流程，與在 Adobe Analytics 中使用警報的流程幾乎相同。一個主要差異是 Customer Journey Analytics 未提供每小時警報。會有此項差異是因為可擷取的各種事件資料，僅能以延遲方式完成資料擷取 (通常在資料事件時間之後 3 至 9 小時)。</p><p>如需關於在 Customer Journey Analytics 中使用警報和在 Adobe Analytics 中使用警報之差異的詳細資訊，請參閱 [警報功能比較](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)。</p><p>若要深入了解警報，請參閱[警報概觀](/help/components/c-intelligent-alerts/intelligent-alerts.md)。 |  | 2024 年 9 月 13 日 |
-| **Adobe Analytics 來源連接器的更新** | 由於 Analytics 來源連接器完全由 Adobe 管理，因此資料集活動頁面不會顯示有關批次的資訊。您可以透過查看已收錄記錄的相關指標來監控資料的流動。如需詳細資訊，請閱讀建立 [Analytics 資料之來源連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)的指南。 |  | 現已提供 |
-| **引導式分析：內建在 Workspace 中** | 將多個引導分析合併到 Analysis Workspace 中的單一視圖中。(文件連結待補充) | 2024 年 10 月 2 日 | 2024年10月31日 |
+| **引導式分析：內建在 Workspace 中** | [引導式分析](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/overview)現在可直接在Analysis Workspace中使用，讓使用者從面板、視覺效果和引導式分析建立具有完整深入分析的儀表板。 從新的左側邊欄區段，您可以建立新的引導式分析以新增至專案。 您也可以存取已儲存的引導式分析，這些分析可在許多專案中重複作為建置區塊。 | 2024 年 10 月 2 日 | 2024 年 10 月 31 日 |
+| **產品使用量** | 了解您的組織如何使用 Customer Journey Analytics。啟用此功能會在 Adob&#x200B;&#x200B;e Experience Platform 中建立資料集；該資料集會收集組織中使用 Analysis Workspace 的任何人資料。連線和資料視圖也會自動建立，讓您可以存取最熱門專案類型、最活躍使用者以及專案最多使用的元件等維度。[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) | 2024年10月3日 | 2024年10月23日 |
+| **歷程畫布視覺效果** | 歷程畫布是Analysis Workspace中的視覺效果，可讓您分析人們如何進行或離開定義的歷程。 透過建立代表事件、維度項目和篩選器的任意組合的彈性節點和箭頭圖表，建立使用者歷程分析。拖曳畫布上的節點以重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<p>有權存取 Adobe Journey Optimizer 的客戶可以分析現有的 Journey Optimizer 歷程。<p>若要深入瞭解歷程畫布，請參閱[歷程畫布概觀](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)。<p>若要瞭解如何建立Journey Canvas視覺效果，請參閱[設定Journey Canvas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。 | 2024 年 10 月 2 日 | 2024年10月14日 |
+| **建立對象時，現在已包含面板篩選器和欄篩選器** | 從Analysis Workspace內的視覺效果建立受眾時，現在納入面板篩選器和欄篩選器作為其他條件。 如果不需要篩選器，則可在發佈對象前將其移除。 過去，套用至Analysis Workspace中面板或視覺效果欄的任何篩選器在建立受眾時會遭到忽略。<p>如需有關如何從Customer Journey Analytics建立對象的資訊，請參閱[建立和發佈對象](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/audiences/publish)。 |  | 2024 年 10 月 2 日 |
+
 
 ## Customer Journey Analytics 中的修正
 
-(AN-352461；AN-355446；AN-355665)
+AN-354085、AN-355870、AN-356037、AN-356881、AN-357100、AN-358193、AN-358364、AN-358911、AN-359000、AN-359160
 
 ## 給 Customer Journey Analytics 管理員的重要通知
 
@@ -35,7 +36,6 @@ ht-degree: 99%
 | --- | --- | --- |
 | 不適用 | | |
 
-{style="table-layout:auto"}
 
 ## 相關資源
 
