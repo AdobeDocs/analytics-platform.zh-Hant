@@ -4,9 +4,9 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: c79d1174d78c0bfb1c9b082eb93855bdab4283e4
+source-git-commit: 3b9f477001747a96359f77f2e48baf7589b7a1e4
 workflow-type: tm+mt
-source-wordcount: '6593'
+source-wordcount: '6391'
 ht-degree: 1%
 
 ---
@@ -149,10 +149,6 @@ Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。
 
 ### 根據現有節點顯示排名最前的節點
 
->[!AVAILABILITY]
->
->此功能尚無法使用。
-
 您可以根據畫布上已存在的節點，自動顯示排名最前的節點。 您可以將最上層節點新增至歷程畫布，或在自由表格中檢視它們。
 
 此選項適用於畫布上的下列物件：
@@ -221,17 +217,17 @@ Journey Canvas視覺效果中的節點代表使用者歷程的事件或動作。
 
 ### 複製節點
 
->[!AVAILABILITY]
->
->此功能尚無法使用。
-
 複製選項適用於畫布上的下列物件：
+
+* 個別節點
 
 * 多個節點
 
 若要複製節點：
 
-1. 選取多個要複製的節點。
+1. 選取一或多個要複製的節點。
+
+   若要選取多個節點，請按住Command (在Mac上)或Ctrl （在Windows上）。
 
 1. 以滑鼠右鍵按一下其中一個選取的節點，然後選取&#x200B;[!UICONTROL **複製**]。
 
@@ -263,7 +259,7 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 * 從左側邊欄中，同時拖曳多個元件至畫布的空白區域，同時按住Shift鍵。
 
-* 在畫布上，選取您要合併的節點，用滑鼠右鍵按一下其中一個選取的節點，然後選取&#x200B;**合併**。<!--Is there a limit on how many you can combine? -->
+<!-- * On the canvas, select the nodes that you want to combine, right-click one of the selected nodes, then select **Combine**. Is there a limit on how many you can combine? -->
 
 #### 合併節點時的邏輯
 
@@ -304,7 +300,7 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 當您連線Journey Canvas中的節點時，會使用THEN運運算元將它們連線。 這也稱為[循序篩選](/help/components/filters/seg-sequential-build.md)。
 
-節點會連線為「最終路徑」，這表示只要訪客最終從某個節點移至另一個節點，就會計算訪客，無論這2個節點之間發生任何事件。 為使用者沿路徑移動所分配的時間取決於容器設定。 也可由[新增時間限制](#add-a-time-constraint-between-nodes)來控制。
+節點會連線為「最終路徑」，這表示只要訪客最終從某個節點移至另一個節點，就會計算訪客，無論這2個節點之間發生任何事件。 為使用者沿路徑移動所分配的時間取決於容器設定。<!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
 您可以用滑鼠右鍵按一下節點，然後選取&#x200B;[!UICONTROL **從節點**]&#x200B;建立篩選器，以檢視連線節點的邏輯。 此邏輯會顯示在&#x200B;[!UICONTROL **定義**]&#x200B;區段中。
 
@@ -328,23 +324,23 @@ Journey Canvas中的組合節點是使用者歷程（節點）中的單一點，
 
 如需詳細資訊，請參閱[新增節點](#add-nodes)。
 
-### 在節點之間新增時間限制
+<!--
+
+### Add a time constraint between nodes
 
 >[!AVAILABILITY]
 >
->此功能尚無法使用。
+>This feature is not yet available.
 
-您可以在節點之間設定時間限制。 當時間限制到位時，如果人員依照定義的歷程移動，但花在節點之間移動的時間超過分配的時段，則被視為已離開歷程。
+You can set a time constraint between nodes. When a time constraint is in place, people are considered to have fallen out of the journey if they follow the defined journey but take longer than the allotted time period to move between the nodes.
 
-新增時間限制的選項適用於畫布上的下列物件：
+The option to add a time constraint is available for the following objects on the canvas:
 
-* 節點之間的箭頭
+* The arrow between nodes
 
-若要新增時間限制：
+To add a time constraint:
 
-1. 在歷程畫布視覺效果中，以滑鼠右鍵按一下2個節點之間的箭頭，然後選取「[!UICONTROL **新增時間限制**]」。
-
-<!-- 
+1. In a Journey canvas visualization, right-click the arrow between 2 nodes, then select [!UICONTROL **Add time constraint**].
 
 from Travis: You can set time to be within X amount of time or after X amount of time (those are the only two options I think, but we can check with Brandon). 
 1. Choose from the following options: 
@@ -353,35 +349,35 @@ from Travis: You can set time to be within X amount of time or after X amount of
 
 ## 管理節點或箭頭
 
-### 變更節點或箭頭的顏色
+<!--
+
+### Change the color of a node or arrow
 
 >[!AVAILABILITY]
 >
->此功能尚無法使用。
+>This feature is not yet available.
 
-您可以透過變更畫布上任何節點或箭頭的顏色，以視覺化方式自訂歷程。 例如，您可以調整顏色，以指出想要或不想要的事件。
+You can visually customize a journey by changing the color of any node or arrow on the canvas. For example, you could adjust colors to indicate a desirable or undesirable event.
 
-變更顏色的選項適用於畫布上的下列物件：
+The option to change the color is available for the following objects on the canvas:
 
-* 個別節點
+* Individual nodes
 
-* 節點之間的箭頭
+* The arrow between nodes
 
-若要變更節點或箭頭的顏色：
+To change the color of a node or arrow:
 
-1. 在Journey Canvas視覺效果中，以滑鼠右鍵按一下您要變更其顏色的節點或箭頭。
+1. In a Journey canvas visualization, right-click the node or arrow whose color you want to change.
 
-1. 選取&#x200B;[!UICONTROL **變更顏色**]。<!--make sure "color" isn't capitalized. It is in the req doc-->
+1. Select [!UICONTROL **Change color**]. 
 
-1. 選取所需的顏色。
+1. Select the desired color. 
 
-   下列色彩可供使用： <!--look into this interaction and color list-->
+   The following colors are available: 
+
+-->
 
 ### 重新命名節點
-
->[!AVAILABILITY]
->
->此功能尚無法使用。
 
 將元件拖曳至「歷程」畫布視覺效果時，會建立與元件名稱同名的節點。 您可以重新命名節點，以更符合節點代表的歷程步驟。
 
@@ -453,15 +449,13 @@ Journey Canvas中節點之間顯示的箭頭可設定為顯示自訂標籤和值
 
 #### 將劃分套用至一或多個節點或箭頭
 
->[!AVAILABILITY]
->
->此功能尚無法使用。
-
 1. 在「歷程畫布」視覺效果中，選取一或多個要套用劃分的節點，然後以滑鼠右鍵按一下其中一個選取的節點。
 
    或
 
    在「歷程畫布」視覺效果中，選取您要套用劃分的2個節點之間的一個或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
+
+   若要選取多個節點或箭頭，請按住Command (在Mac上)或Ctrl （在Windows上）。
 
 1. 選取&#x200B;[!UICONTROL **劃分**]。
 
@@ -513,6 +507,8 @@ Journey Canvas中節點之間顯示的箭頭可設定為顯示自訂標籤和值
 
    在「歷程畫布」視覺效果中，選取您要建立受眾的2個節點之間的一個或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
 
+   若要選取多個節點或箭頭，請按住Command (在Mac上)或Ctrl （在Windows上）。
+
    >[!NOTE]
    >
    >對象不能包含計算量度或任何以[摘要資料集](/help/data-views/summary-data.md)為基礎的量度。 如果您嘗試從Journey畫布的任何區域建立受眾，該區域包含計算量度或根據摘要資料集的量度，則計算量度不會包含在受眾定義中。
@@ -522,10 +518,6 @@ Journey Canvas中節點之間顯示的箭頭可設定為顯示自訂標籤和值
 1. 繼續建立和發佈對象，如[建立和發佈對象](/help/components/audiences/publish.md)中所述。
 
 ### 檢視趨勢資料
-
->[!AVAILABILITY]
->
->此功能尚無法使用。
 
 您可以在Journey Canvas中的線圖檢視物件的趨勢資料。<!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
@@ -546,6 +538,8 @@ Journey Canvas中節點之間顯示的箭頭可設定為顯示自訂標籤和值
    或
 
    在「歷程畫布」視覺效果中，選取2個節點之間的一或多個箭頭（您想要檢視這些節點的趨勢資料），然後以滑鼠右鍵按一下其中一個選取的箭頭。
+
+   若要選取多個節點或箭頭，請按住Command (在Mac上)或Ctrl （在Windows上）。
 
 1. 選取&#x200B;[!UICONTROL **趨勢**]。
 
