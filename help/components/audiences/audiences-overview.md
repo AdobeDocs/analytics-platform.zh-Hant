@@ -4,14 +4,14 @@ description: 了解 Customer Journey Analytics 中發佈客群的概念
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: 4d71aaaaa0ac0162588dd6767e6c6209676dfc18
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 50%
+source-wordcount: '506'
+ht-degree: 42%
 
 ---
 
-# Customer Journey Analytics對象發佈概觀
+# 對象發佈概觀
 
 您現在可以在Adobe Experience Platform中建立並在Customer Journey Analytics中發現的對象，並發佈到[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)，以用於客戶目標定位和個人化。
 
@@ -31,15 +31,15 @@ ht-degree: 50%
 
 **篩選器**：一組規則，用來評估一段時間的資料組合時會產生資料子集。 搭配其他支援服務時，篩選條件可用於建立客群。 篩選器是以Customer Journey Analytics來定義和維護。
 
-**篩選器**&#x200B;與&#x200B;**區段**： Customer Journey Analytics未使用「區段」的概念，而是使用「篩選器」。 雖然兩者都是包含相似邏輯的一組規則，但產生的輸出內容有所不同。 篩選器是用來縮小資料集的範圍，以做為分析用途。 區段是用來產生身分識別清單，然後可用來進行啟動。 細分群體會在即時客戶輪廓中產生客群，而篩選條件 (單獨使用) 則不會。 Customer Journey Analytics對象發佈是指一種流程，其中使用Customer Journey Analytics篩選器建立對象，該對象可提供即時客戶個人檔案使用。
+**篩選器**&#x200B;與&#x200B;**區段**：Customer Journey Analytics不使用&#x200B;*區段*&#x200B;的概念，而是使用&#x200B;*篩選器*。 雖然兩者都是包含相似邏輯的一組規則，但產生的輸出內容有所不同。 篩選器是用來縮小資料集的範圍，以做為分析用途。 區段是用來產生身分識別清單，然後可用來進行啟動。 細分群體會在即時客戶輪廓中產生客群，而篩選條件 (單獨使用) 則不會。 Customer Journey Analytics對象發佈是指一種流程，其中使用Customer Journey Analytics篩選器建立對象，該對象可提供即時客戶個人檔案使用。
 
 ## 權限
 
-* 系統會自動授予管理員在 Adobe Admin Console 中的&#x200B;**[!UICONTROL 客群發佈]**&#x200B;權限。 
+* 系統會自動授予管理員在Adobe Admin Console中的&#x200B;**[!UICONTROL 對象發佈]**&#x200B;許可權。
 
-* 管理員可以將此權限授予給個別使用者。
+* 管理員和產品設定檔管理員可以授與個別使用者的&#x200B;**[!UICONTROL 對象建立]**&#x200B;和&#x200B;**[!UICONTROL 對象檢視]**&#x200B;許可權。 如需詳細資訊，請參閱[使用者層級存取控制](/help/technotes/access-control.md#user-level-access)。
 
-* 管理員也需要 Experience Platform 中的&#x200B;**[!UICONTROL 管理輪廓]**。
+* 管理員也需要Adobe Experience Platform中的&#x200B;**[!UICONTROL 管理設定檔]**&#x200B;許可權。
 
 ## 資料控管和同意
 

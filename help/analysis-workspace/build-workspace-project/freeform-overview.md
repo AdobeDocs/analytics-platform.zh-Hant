@@ -5,10 +5,10 @@ title: 專案概觀
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
-source-wordcount: '1627'
-ht-degree: 6%
+source-wordcount: '1628'
+ht-degree: 7%
 
 ---
 
@@ -78,21 +78,21 @@ Workspace專案可讓您合併面板、視覺效果和元件，以進行分析�
 
 您可以使用內容功能表![More](/help/assets/icons/More.svg)或藍色動作列，對一或多個專案執行動作。
 
-| 動作 | 說明 |
-|---|---|
-| 已選取![CrossSize75](/help/assets/icons/CrossSize75.svg) **[!UICONTROL *x *]** | 取消選取您選取的專案和資料夾，並移除藍色動作列。 |
-| ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除一或多個專案或資料夾。 系統會提示您進行確認。 |
-| ![共用](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]** | 共用專案。 如需詳細資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)。 |
-| ![編輯](/help/assets/icons/Edit.svg)重新命名 | 重新命名專案。 開啟&#x200B;**[!UICONTROL 重新命名： *專案名稱對話方塊&#x200B;*]**。 輸入新名稱並選取**[!UICONTROL 儲存&#x200B;]**。 |
-| ![副本](/help/assets/icons/Copy.svg) **[!UICONTROL 副本]** | 複製一或多個專案。 專案確實有相同的名稱和尾碼`(Copy)`。 |
-| ![PinOnff](/help/assets/icons/PinOff.svg) **[!UICONTROL Pin]**&#x200B;或&#x200B;**[!UICONTROL 取消釘選]** | 釘選或取消釘選一個或多個專案或資料夾。 釘選專案和資料夾會出現在清單頂端，並忽略您指定的排序順序。 |
-| ![向上箭號](/help/assets/icons/ArrowUp.svg) **[!UICONTROL 向上移動]** | 將釘選的專案或資料夾在專案清單中上移。 |
-| ![向下箭號](/help/assets/icons/ArrowDown.svg) **[!UICONTROL 向下移動]** | 在專案清單中向下移動釘選專案或資料夾。 |
-| ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標籤]** | 標籤一或多個專案或資料夾。 顯示&#x200B;**[!UICONTROL 標籤元件]**&#x200B;對話方塊以選取一或多個標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選專案或資料夾的標籤。 |
-| ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]**&#x200B;或&#x200B;**[!UICONTROL 取消核准]** | 核准或取消核准專案。 只有管理員可以核准專案。 |
-| ![檔案CSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出CSV]** | 將選取的專案匯出至名稱為`Project List.csv`的CSV檔案。 |
-| ![ProjectAdd](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL 新增專案]** | 將一或多個專案新增至選取的資料夾。 您可以在&#x200B;**[!UICONTROL 新增專案]**&#x200B;中選取一或多個專案。 選取&#x200B;**[!UICONTROL 新增]**&#x200B;以將專案新增至資料夾。 如需詳細資訊，請參閱[將專案新增至資料夾](workspace-folders/add-projects.md#from-inside-a-folder)。 |
-| ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) **[!UICONTROL 移至]** | 將一或多個選取的專案移至資料夾。 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;中，選取要移動選取專案的資料夾，並選取&#x200B;**[!UICONTROL 移動]**。 如需詳細資訊，請參閱[將專案新增至資料夾](workspace-folders/add-projects.md#from-the-project-list)。 |
+| 圖示 | 動作 | 說明 |
+|:---:| ---|---|
+| ![CrossSize75](/help/assets/icons/Close.svg) | 已選取&#x200B;**[!UICONTROL *x *]** | 取消選取您選取的專案和資料夾，並移除藍色動作列。 |
+| ![刪除](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除一或多個專案或資料夾。 系統會提示您進行確認。 |
+| ![共用](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共用]** | 共用專案。 如需詳細資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)。 |
+| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名專案。 開啟&#x200B;**[!UICONTROL 重新命名： *專案名稱對話方塊&#x200B;*]**。 輸入新名稱並選取**[!UICONTROL 儲存&#x200B;]**。 |
+| ![副本](/help/assets/icons/Copy.svg) | **[!UICONTROL 副本]** | 複製一或多個專案。 專案確實有相同的名稱和尾碼`(Copy)`。 |
+| ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL 釘選]**&#x200B;或&#x200B;**[!UICONTROL 取消釘選]** | 釘選或取消釘選一個或多個專案或資料夾。 釘選專案和資料夾會出現在清單頂端，並忽略您指定的排序順序。 |
+| ![向上鍵](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL 上移]** | 將釘選的專案或資料夾在專案清單中上移。 |
+| ![向下箭號](/help/assets/icons/ArrowDown.svg) | **[!UICONTROL 下移]** | 在專案清單中向下移動釘選專案或資料夾。 |
+| ![標籤](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標籤一或多個專案或資料夾。 顯示&#x200B;**[!UICONTROL 標籤元件]**&#x200B;對話方塊以選取一或多個標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選專案或資料夾的標籤。 |
+| ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 核准]**&#x200B;或&#x200B;**[!UICONTROL 取消核准]** | 核准或取消核准專案。 只有管理員可以核准專案。 |
+| ![檔案CSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出CSV]** | 將選取的專案匯出至名稱為`Project List.csv`的CSV檔案。 |
+| ![專案新增](/help/assets/icons/ProjectAdd.svg) | **[!UICONTROL 新增專案]** | 將一或多個專案新增至選取的資料夾。 您可以在&#x200B;**[!UICONTROL 新增專案]**&#x200B;中選取一或多個專案。 選取&#x200B;**[!UICONTROL 新增]**&#x200B;以將專案新增至資料夾。 如需詳細資訊，請參閱[將專案新增至資料夾](workspace-folders/add-projects.md#from-inside-a-folder)。 |
+| ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) | **[!UICONTROL 移至]** | 將一或多個選取的專案移至資料夾。 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;中，選取要移動選取專案的資料夾，並選取&#x200B;**[!UICONTROL 移動]**。 如需詳細資訊，請參閱[將專案新增至資料夾](workspace-folders/add-projects.md#from-the-project-list)。 |
 
 
 

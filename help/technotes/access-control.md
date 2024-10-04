@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 664576605b8be098a751609536e388c304c65513
+source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 14%
+source-wordcount: '1469'
+ht-degree: 15%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 14%
 | [!UICONTROL 報告工具] | [!UICONTROL 建立篩選器] | 讓使用者建立[篩選器](/help/components/filters/filters-overview.md)。 使用者只能標籤、共用、刪除、重新命名、核准、取消核准他們建立的篩選器或與他們共用的篩選器。 |
 | [!UICONTROL 報告工具] | [!UICONTROL Labs 存取] | 讓使用者存取Customer Journey Analytics中的[Labs](/help/labs/labs.md)索引標籤。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 建立註解] | 讓使用者建立[註解](/help/components/annotations/overview.md)。 使用者只能標籤、共用、刪除和重新命名他們建立的註解或與他們共用的註解。 |
+| [!UICONTROL 報告工具] | [!UICONTROL 客群檢視] | 讓使用者檢視[對象](/help/components/audiences/audiences-overview.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 建立客群] | 讓使用者建立[對象](/help/components/audiences/audiences-overview.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 稽核記錄存取權] | 強制對[API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/)和稽核記錄UI進行許可權檢查。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 與任何人共用專案連結] | 讓使用者[與任何人共用專案。](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
