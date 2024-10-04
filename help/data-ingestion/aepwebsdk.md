@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 1ded359997c4915f1b5ea6237aceb4d3d922b3a9
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '3546'
+source-wordcount: '3543'
 ht-degree: 83%
 
 ---
 
-# 透過Adobe Experience Platform Web SDK內嵌資料
+# 透過Web SDK內嵌資料
 
 本快速入門指南說明如何使用 Adobe Experience Platform Web SDK 和 Edge Network，將網站追蹤資料直接擷取至 Adobe Experience Platform，然後在 Customer Journey Analytics 中使用該資料。
 
@@ -47,7 +47,7 @@ ht-degree: 83%
 
 ### 設定結構
 
-您想要追蹤來自造訪您網站之設定檔的一些最少量資料，例如頁面名稱、身分識別。
+您想要追蹤來自造訪您網站之輪廓的一些最少量資料，例如頁面名稱、身分識別。
 您必須先定義用來模型化此資料的結構描述。
 
 若要設定您的結構：
@@ -64,7 +64,7 @@ ht-degree: 83%
 
       >[!INFO]
       >
-      >    體驗事件結構描述可用來模型化設定檔的&#x200B;_行為_ （像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+      >    體驗事件結構描述可用來模型化設定檔的&#x200B;_行為_ （像是場景名稱、要新增至購物車的推播按鈕）。 個體輪廓結構可用來建立輪廓&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
@@ -117,7 +117,7 @@ ht-degree: 83%
 
    ![指定 ECID 作為身分](./assets/specify-identity.png)
 
-   您正在指定 Experience Cloud Identity 作為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 設定檔行為與相同 ECID 的主要身分。
+   您將 Experience Cloud Identity 指定為 Adobe Experience Platform Identity 服務可用於組合 (拼接) 具有相同 ECID 的輪廓的行為的主要身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在 ecid 屬性中。
 
@@ -125,41 +125,41 @@ ht-degree: 83%
 
    ![指定電子郵件作為身分](./assets/specify-email-identity.png)
 
-   您正在指定電子郵件地址作為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 設定檔行為的另一個身分。
+   您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 輪廓行為的另一個身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在電子郵件屬性中。
 
    選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-1. 選取顯示結構名稱之結構的根元素，然後選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
+1. 選取顯示結構名稱之結構的根元素，然後選取&#x200B;**[!UICONTROL 「輪廓」]**&#x200B;切換。
 
-   系統會提示您啟用設定檔的結構。啟用後，根據此結構將資料擷取至資料集時，該資料就會合併至即時客戶設定檔中。
+   系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶輪廓中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
-   >    儲存啟用設定檔的結構後，便無法再為設定檔停用該結構。
+   >    儲存啟用輪廓的結構後，便無法再為輪廓停用該結構。
 
-   ![啟用設定檔結構](./assets/enable-for-profile.png)
+   ![啟用輪廓結構](./assets/enable-for-profile.png)
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-您已建立最小結構，以建立可從您網站擷取的資料的模型。該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。透過啟用設定檔的結構，即可確保將從您網站擷取的資料新增至即時客戶設定檔。
+您已建立最小結構，以建立可從您網站擷取的資料的模型。該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別輪廓。透過啟用輪廓的結構，即可確保將從您網站擷取的資料新增至即時客戶輪廓。
 
-除了行為資料之外，您也可以從您的網站擷取設定檔屬性資料 (例如訂閱電子報的設定檔詳細資訊)。
+除了行為資料之外，您也可以從您的網站擷取輪廓屬性資料 (例如訂閱電子報的輪廓詳細資訊)。
 
-若要擷取此設定檔資料，您可以：
+若要擷取此輪廓資料，您可以：
 
-- 根據 XDM 個別設定檔架構類別建立結構。
+- 根據 XDM 個體輪廓架構類別建立結構。
 
-- 將「設定檔核心 v2」欄位群組新增至結構。
+- 將「輪廓核心 v2」欄位群組新增至結構。
 
-- 根據「設定檔核心 v2」欄位群組新增識別物件。
+- 根據「輪廓核心 v2」欄位群組新增識別物件。
 
 - 將Experience CloudID定義為主要識別碼，並將電子郵件定義為識別碼。
 
-- 啟用該設定檔結構
+- 啟用該輪廓結構
 
 請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
@@ -187,17 +187,17 @@ ht-degree: 83%
 
 6. 選取&#x200B;**[!UICONTROL 「完成」]**。
 
-7. 選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
+7. 選取&#x200B;**[!UICONTROL 「輪廓」]**&#x200B;切換。
 
-   系統會提示您啟用設定檔的資料集。資料集一經啟用，即可透過擷取的資料豐富即時客戶設定檔。
+   系統會提示您啟用輪廓的資料集。資料集一經啟用，即可透過攝取的資料豐富即時客戶輪廓。
 
    >[!IMPORTANT]
    >
-   >    只有當資料集所遵循的結構同樣啟用設定檔時，您才能啟用設定檔的資料集。
+   >    只有當資料集所遵循的結構同樣啟用輪廓時，您才能啟用輪廓的資料集。
 
-   ![啟用設定檔結構](./assets/aepwebsdk-dataset-profile.png)
+   ![啟用輪廓結構](./assets/aepwebsdk-dataset-profile.png)
 
-請參閱[資料集 UI 指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)，了解如何檢視、預覽、建立、刪除資料集的詳細資訊。以及為即時客戶設定檔啟用資料集的方法。
+請參閱[資料集 UI 指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)，了解如何檢視、預覽、建立、刪除資料集的詳細資訊。以及為即時客戶輪廓啟用資料集的方法。
 
 ## 設定資料流
 
@@ -592,7 +592,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 若要建立您的第一個報表，請在[!UICONTROL 面板]的[!UICONTROL 自由表格]上開始拖放維度和量度。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
+5. 若要建立您的第一個報表，請在[!UICONTROL 面板]的[!UICONTROL 自由表格]上開始拖放維度和量度。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的輪廓。
 
    ![工作區 – 第一份報告](./assets/cja-projects-5.png)
 

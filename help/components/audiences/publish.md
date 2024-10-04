@@ -4,10 +4,10 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
 workflow-type: tm+mt
-source-wordcount: '1931'
-ht-degree: 17%
+source-wordcount: '1952'
+ht-degree: 16%
 
 ---
 
@@ -147,25 +147,25 @@ ht-degree: 17%
 
 ## 在Experience Platform中使用Customer Journey Analytics對象 {#audiences-aep}
 
-Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流傳送到即時客戶個人檔案(RTCP)。 根據設定連線時選取作為[!UICONTROL 人員ID]的專案，Customer Journey Analytics會將對象傳送至已設定主要身分的Experience Platform。
+Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流至Real-time Customer Data Platform 。 根據設定連線時選取作為[!UICONTROL 人員ID]的專案，Customer Journey Analytics會將對象傳送至已設定主要身分的Experience Platform。
 
-接著 RTCP 會檢查每個命名空間/ID 組合，並尋找它可能屬於的輪廓。輪廓基本上是一組連結的命名空間、ID 和裝置。如果找到設定檔，則會將名稱空間和ID新增到此設定檔中的其他ID，做為區段會籍屬性。 例如，<user@adobe.com>可以跨其所有裝置和管道進行定位。 如果找不到輪廓，則會建立一個新的。
+Real-time Customer Data Platform接著會檢查每個名稱空間/ID組合，並尋找它可能屬於的個人檔案。 輪廓基本上是一組連結的命名空間、ID 和裝置。如果找到設定檔，則會將名稱空間和ID新增到此設定檔中的其他ID，做為區段會籍屬性。 例如，<user@adobe.com>可以跨其所有裝置和管道進行定位。 如果找不到輪廓，則會建立一個新的。
 
 若要在Platform中檢視Customer Journey Analytics對象：
 
-1. 展開左側面板中的&#x200B;[!UICONTROL **客戶**]，然後選取&#x200B;[!UICONTROL **對象**]。<!-- is there a folder called "Customer Journey Analytics? -->
+1. 展開左側面板中的&#x200B;**[!UICONTROL 客戶]**，然後選取&#x200B;**[!UICONTROL 對象]**。<!-- is there a folder called "Customer Journey Analytics? -->
 
-1. 選取&#x200B;[!UICONTROL **瀏覽**]&#x200B;標籤。
-
-   左側面板中的![對象選項](assets/audiences-aep.png)
+1. 選取&#x200B;**[!UICONTROL 瀏覽]**&#x200B;標籤。
 
 1. 若要找出您從Customer Journey Analytics發佈的對象，請執行下列任一項作業：
 
-   * 依&#x200B;[!UICONTROL **Origin**]&#x200B;資料行排序資料表，以檢視將&#x200B;[!UICONTROL **Customer Journey Analytics**]&#x200B;顯示為來源的受眾。
+   左側面板中的![對象選項](assets/aep-audiences.png)
 
-   * 選取篩選器圖示。
+   * 依&#x200B;**[!UICONTROL Origin]**&#x200B;資料行排序資料表，以檢視將&#x200B;[!UICONTROL **Customer Journey Analytics**]&#x200B;顯示為來源的受眾。
 
-   * 使用搜尋欄位。
+   * 篩選&#x200B;**[!UICONTROL 來源]**&#x200B;上的![篩選器](/help/assets/icons/Filter.svg)並選取&#x200B;**[!UICONTROL Customer Journey Analytics]**。
+
+   * 使用![搜尋](/help/assets/icons/Search.svg)搜尋欄位。
 
 如需在Platform中使用對象的詳細資訊，請參閱Experience Platform檔案之[區段產生器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)中的[對象](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)區段。
 
@@ -186,7 +186,7 @@ Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和
 
 +++
 
-+++**如果RTCDP中不存在對應的設定檔，是否會建立新的設定檔？**
++++**如果Real-time Customer Data Platform中不存在對應的設定檔，是否會建立新的設定檔？**
 
 是，會建立。
 
@@ -194,7 +194,7 @@ Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和
 
 +++**Customer Journey Analytics是否會將對象資料以管線事件或同樣進入資料湖的純資料檔傳送？**
 
-Customer Journey Analytics會透過管道將資料串流到RTCP中，而且這些資料也會收集到資料湖的系統資料集中。
+Customer Journey Analytics會透過pipeline將資料串流至Real-time Customer Data Platform，這些資料也會收集到資料湖的系統資料集中。
 
 +++
 
@@ -210,9 +210,9 @@ Customer Journey Analytics會透過管道將資料串流到RTCP中，而且這�
 
 +++
 
-+++**RTCP是否也會處理Customer Journey Analytics訊息？ Customer Journey Analytics是否可透過對象共用將身分新增至設定檔身分圖表？**
++++**Real-time Customer Data Platform是否也會處理Customer Journey Analytics訊息？ Customer Journey Analytics是否可透過對象共用將身分新增至設定檔身分圖表？**
 
-否。每人只會傳送一個身分，因此RTCP不會使用任何圖表邊緣。
+否。每人只會傳送一個身分，因此Real-time Customer Data Platform不會有任何圖表邊緣可供使用。
 
 +++
 

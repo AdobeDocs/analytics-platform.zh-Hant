@@ -1,19 +1,19 @@
 ---
-title: 比較 Adobe Analytics 資料與 Customer Journey Analytics 資料
+title: 與您的Adobe Analytics資料比較
 description: 了解如何將您的 Adobe Analytics 資料與 Customer Journey Analytics 中的資料進行比較
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: 查詢服務;查詢服務;SQL 語法
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '831'
+ht-degree: 98%
 
 ---
 
-# 比較 Adobe Analytics 資料與 Customer Journey Analytics 資料
+# 與您的Adobe Analytics資料比較
 
 您的組織採用 Customer Journey Analytics 時，您可能會注意到 Adobe Analytics 和 Customer Journey Analytics 之間的資料存在一些差異。這是正常的現象，發生原因有很多種。Customer Journey Analytics 的設計可讓您改善 AA 中資料的部分限制。但可能會發生未預期/意外的不一致情況。本文章旨在協助您診斷並解決這些差異，讓您和團隊能夠使用 Customer Journey Analytics 而不會受到資料完整性疑慮所阻礙。
 
@@ -85,12 +85,12 @@ ht-degree: 100%
 
 ## 為什麼從 Adobe Experience Platform 擷取期間可能會篩選或略過記錄
 
-Customer Journey Analytics [連線](/help/connections/create-connection.md)可讓您根據資料集內的通用人員 ID 帶入並聯結多筆資料集。在後端，我們會套用重複資料刪除：根據時間戳記在外部完整聯結或聯合事件資料集，然後根據人員 ID 在內部聯結設定檔和查詢資料集。
+Customer Journey Analytics [連線](/help/connections/create-connection.md)可讓您根據資料集內的通用人員 ID 帶入並聯結多筆資料集。在後端，我們會套用重複資料刪除：根據時間戳記在外部完整聯結或聯合事件資料集，然後根據人員 ID 在內部聯結輪廓和查詢資料集。
 
 以下是從 Adobe Experience Platform 時可能略過記錄的部分原因。
 
 * **遺失時間戳記** – 如果事件資料集遺失時間戳記，則會在擷取期間完全忽略或略過這些記錄。
 
-* **遺失人員 ID** – 遺失人員 ID (來自於事件資料集和/或個人檔案/查詢資料集) 會導致這些記錄遭到忽略或略過。原因是無聯結記錄的通用 ID 或相符的索引鍵。
+* **遺失人員 ID** – 遺失人員 ID (來自於事件資料集和/或輪廓/查詢資料集) 會導致這些記錄遭到忽略或略過。原因是無聯結記錄的通用 ID 或相符的索引鍵。
 
 * **無效或大筆人員 ID** – 如是無效 ID，系統無法在資料集間找到可以聯結的有效通用 ID。在某些情況下，人員 ID 欄會包含無效的人員 ID，例如「未定義」或「00000000」。在事件中每月出現超過 100 萬次的人員 ID (數字與字母的任何組合) 無法歸因於任何特定使用者或人員。 它將歸類為無效。這些記錄無法將擷取資料擷取至系統中，並導致容易出錯的擷取和報告。 

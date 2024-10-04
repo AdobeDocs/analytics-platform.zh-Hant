@@ -1,18 +1,18 @@
 ---
-title: 將 Marketo Engage 資料提取到 Adobe Experience Platform 中，並在 Customer Journey Analytics 中報告
-description: 瞭解如何將Marketo Engage資料帶入Customer Journey Analytics
+title: Marketo Engage資料報表
+description: 瞭解如何在Customer Journey Analytics中報告Marketo Engage資料
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 64%
+source-wordcount: '376'
+ht-degree: 59%
 
 ---
 
-# 將 Marketo Engage 資料提取到 Adobe Experience Platform 中，並在 Customer Journey Analytics 中報告
+# Marketo Engage資料報表
 
 您可以善用Adobe Experience Platform (Adobe Experience Platform)中新推出的Marketo Engage資料集，為B2B行銷人員提供有價值的分析和報告解決方案。 然後在Adobe Customer Journey Analytics中報告這些資料集。
 

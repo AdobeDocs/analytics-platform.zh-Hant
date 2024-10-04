@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 04a95b6e502a8a1c1e686738d490d2a40936e738
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 92%
+source-wordcount: '964'
+ht-degree: 87%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 92%
    + [資料擷取概觀](../data-ingestion/data-ingestion.md)
    + 擷取和使用快速入門指南{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + Adobe Experience Platform Edge Network {#edge-network}
+      + Experience PlatformEdge Network{#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
          + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
          + [伺服器 API](../data-ingestion/serverapi.md)
@@ -115,7 +115,7 @@ ht-degree: 92%
       + [開啟專案](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [儲存專案](../analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace 資料夾{#workspace-folders}
-         + [關於Workspace資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [關於資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [建立資料夾和子資料夾](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [管理資料夾](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [將專案新增或移動至資料夾](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -132,7 +132,7 @@ ht-degree: 92%
          + 欄和列的設定 {#column-row-settings}
             + [欄設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-            + [動態與靜態項目](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+            + [動態和靜態專案](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [篩選和排序表格](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Workspace 總計](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
@@ -175,7 +175,7 @@ ht-degree: 92%
       + [自由形式](../analysis-workspace/c-panels/freeform-panel.md)
       + [媒體平均分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [媒體同時檢閱者](../analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [媒體播放時間](../analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [花費的媒體播放時間](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [下一個或上一個專案](../analysis-workspace/c-panels/next-previous.md)
       + [快速深入分析](../analysis-workspace/c-panels/quickinsight.md)
    + 策劃、共用及排程專案 {#curate-share}
@@ -191,20 +191,20 @@ ht-degree: 92%
       + [匯出到雲端](../analysis-workspace/export/export-cloud.md)
    + 異常偵測 {#anomaly-detection}
       + [概觀](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-      + [在 Analysis Workspace 中檢視異常](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [用於異常偵測的統計技術](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [檢視異常](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [統計技術](../analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + 預測 {#forecasting}
       + [概觀](../analysis-workspace/c-forecast/forecasting.md)
-      + [在 Analysis Workspace 中檢視預測](../analysis-workspace/c-forecast/view-forecasts.md)
-      + [預測服務中使用的統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md)
-      + [目錄](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
+      + [檢視預測](../analysis-workspace/c-forecast/view-forecasts.md)
+      + [統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md)
+   + [目錄](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [使用者偏好設定](../analysis-workspace/user-preferences.md)
-   + 工作區常見問題 {#workspace-faq}
+   + Workspace常見問題集和更多內容{#workspace-faq}
       + [常見問題](../analysis-workspace/workspace-faq/faq.md)
       + [錯誤訊息](../analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace 限制](../analysis-workspace/workspace-faq/aw-limitations.md)
+      + [限制](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理需求](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Analysis Workspace 的協助工具](../analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [協助工具](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Analytics 儀表板 {#cja-dashboards}
    + [Analytics 儀表板 - 概觀](../mobile-app/home.md)
@@ -360,10 +360,10 @@ ht-degree: 92%
 + 使用案例 {#cja-usecases}
    + [Customer Journey Analytics 使用案例](../use-cases/cja-usecases.md)
    + Google Analytics 資料 {#ga}
-      + [將資料從 Google Analytics 移轉到 Customer Journey Analytics 概觀](../use-cases/ga/overview.md)
-      + [將 Google Analytics 歷史資料擷取至 Platform](../use-cases/ga/backfill.md)
-      + [將串流的 Google Analytics 資料設定至 Platform](../use-cases/ga/streaming.md)
-      + [在 Customer Journey Analytics 中報告 Google Analytics 資料](../use-cases/ga/report.md)
+      + [從Google Analytics移轉資料](../use-cases/ga/overview.md)
+      + [擷取Google Analytics歷史資料](../use-cases/ga/backfill.md)
+      + [設定串流Google Analytics資料](../use-cases/ga/streaming.md)
+      + [Google Analytics資料報表](../use-cases/ga/report.md)
    + 資料擷取 {#data-ingestion}
       + [收錄並使用 Marketo Engage 資料](../use-cases/data-ingestion/marketo.md)
       + [收錄並使用 Experience Platform 對象](../use-cases/data-ingestion/ingest-aep-segments.md)
@@ -390,14 +390,14 @@ ht-degree: 92%
    + 拼接 {#stitching}
       + [共用裝置](/help/use-cases/stitching/shared-devices.md)
    + 衍生欄位 {#derived-fields}
-      + [使用衍生欄位報告目標](../use-cases/goals-using-derived-fields.md)
+      + [目標報表](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Labs 使用手冊](../labs/labs.md)
 
 + 疑難排解 {#troubleshooting}
-   + [比較 Adobe Analytics 資料與 Customer Journey Analytics 資料](../troubleshooting/compare.md)
-   + [Real-time CDP 與 Customer Journey Analytics 之間的量度及客群會籍數的一致性](../troubleshooting/consistency-rcdp-cja.md)
+   + [比較資料](../troubleshooting/compare.md)
+   + [量度和受眾的一致性](../troubleshooting/consistency-rcdp-cja.md)
    + [缺乏權限](../troubleshooting/lack-of-permissions.md)
 
 + 技術說明 {#technotes}
@@ -408,7 +408,7 @@ ht-degree: 92%
    + [字彙表](../technotes/glossary.md)
    + [護欄](../technotes/guardrails.md)
    + [IP 位址](../technotes/ip-addresses.md)
-   + [最佳化 Customer Journey Analytics 效能](../technotes/optimizing-performance.md)
+   + [最佳化效能](../technotes/optimizing-performance.md)
    + [檢視和管理使用情況](../technotes/estimate-usage.md)
 
 + [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)

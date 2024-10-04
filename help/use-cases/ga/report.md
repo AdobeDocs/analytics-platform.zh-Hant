@@ -1,18 +1,18 @@
 ---
-title: 在 Customer Journey Analytics 中報告 Google Analytics 資料
+title: Google Analytics資料報表
 description: 在 Customer Journey Analytics 中顯示有關 Google Analytics 資料的實用報表
 exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 87%
+source-wordcount: '682'
+ht-degree: 85%
 
 ---
 
-# 在 Customer Journey Analytics 中報告 Google Analytics 資料
+# Google Analytics資料報表
 
 在您可以使用 Customer Journey Analytics 中的資料後，以下範例提供關於該資料報告的一些實用情境。
 

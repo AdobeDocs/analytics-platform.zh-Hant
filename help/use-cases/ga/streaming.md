@@ -1,17 +1,17 @@
 ---
-title: 在 Adobe Experience Platform 設定串流的 Google Analytics 資料
+title: 設定串流Google Analytics資料
 description: 了解如何設定您的實作，以傳送 Google 資料階層至 Adobe Experience Platform
 exl-id: 58854f4b-ae28-424e-a2cf-0e76219cb802
 feature: Use Cases
 role: Admin
-source-git-commit: bfaf76fa5f225e9aa3153fc4ee10c5be8f3164e7
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 89%
+source-wordcount: '226'
+ht-degree: 84%
 
 ---
 
-# 在 Adobe Experience Platform 設定串流的 Google Analytics 資料
+# 設定串流Google Analytics資料
 
 此頁面著重於將您的即時 Google Analytics 資料擷取到 Adobe Experience Platform，讓您參照在 Customer Journey Analytics 之內「資料檢視」中的資料集。 您可以結合此頁面的步驟與[將 Google Analytics 歷史資料擷取至 Adobe Experience Platform](backfill.md)，這會產生包含歷史資料的資料集。結合串流的資料集與回填的資料集，以便在 Customer Journey Analytics 中取得過去與現在資料的無縫接軌檢視。
 

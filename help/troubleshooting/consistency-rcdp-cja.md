@@ -1,26 +1,26 @@
 ---
-description: 說明哪些因素影響 Real-time Customer Data Platform (Real-time CDP) 與 Customer Journey Analytics 之間的量度一致性及對象會籍數。
-title: Real-time CDP 與 Customer Journey Analytics 之間的量度一致性及對象會籍數
+description: 說明哪些因素影響 Real-time Customer Data Platform (Real-time CDP) 與 Customer Journey Analytics 之間的量度及客群會籍數的一致性。
+title: 量度和受眾會籍的一致性
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 97%
 
 ---
 
 
-# Real-time CDP 與 Adobe Customer Journey Analytics 之間的量度一致性及對象會籍數
+# 量度和受眾會籍的一致性
 
-在真實世界的情境中，無法保證 Real-time Customer Data Platform (Real-time CDP) 與 Customer Journey Analytics 之間的量度一致性及對象會籍數。本文件將說明原因。
+在現實情境中，無法保證 Real-time Customer Data Platform (Real-time CDP) 與 Customer Journey Analytics 之間的量度及客群會籍數的一致性。本文件將說明原因。
 
-在比較 Real-time CDP 與 Customer Journey Analytics 之間的對象會籍數時，一定要牢記這兩個工具有不同的用途。Real-time CDP 會使用客戶設定檔資料來針對個別消費者提供數位體驗，而 Customer Journey Analytics 的設計目的則是幫助使用者了解關鍵商業量度和區段的模式。雖然從 Customer Journey Analytics 到 Real-time CDP 的對象發佈可讓這些工具的使用者利用在 Customer Journey Analytics 中獲得的知識，以原生方式輕鬆地「啟用」深入分析，但這些工具還是有截然不同的用途。
+在比較 Real-time CDP 與 Customer Journey Analytics 之間的客群會籍數時，一定要牢記這兩個工具有不同的用途。Real-time CDP 使用客戶輪廓資料來針對個別消費者提供數位體驗，而 Customer Journey Analytics 的設計目的則是幫助使用者了解關鍵商業量度和區段的模式。雖然從 Customer Journey Analytics 到 Real-time CDP 的客群發佈可讓這些工具的使用者利用在 Customer Journey Analytics 中獲得的知識，以原生方式輕鬆地「啟用」深入分析，但這些工具還是有截然不同的用途。
 
 ## 身分設定的差異
 
-Real-time CDP 和 Customer Journey Analytics 目前對個人的定義不同。Real-time CDP 完全仰賴[識別圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html)中的資訊來建立合併的設定檔。
+Real-time CDP 和 Customer Journey Analytics 目前對個人的定義不同。Real-time CDP 完全仰賴[識別圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html)中的資訊來建立合併的輪廓。
 
 Customer Journey Analytics 可設定為使用[拼接](../stitching/overview.md)，以便從資料湖中的資料集擷取識別碼，並套用自訂邏輯將它們連結在一起。
 
@@ -42,14 +42,14 @@ Real-time CDP 提供一組不同的資料操作工具。它會套用[合併原�
 
 * Customer Journey Analytics 和 Real-time CDP 客戶可以設定資料的自訂保留期間，且彼此獨立。
 
-* Real-time CDP 和 Customer Journey Analytics 具有不同的資料擷取邏輯。Customer Journey Analytics 會忽略沒有個人 ID 或時間戳記的記錄，而且對於單一設定檔/個人可能擁有的記錄數量有嚴格的限制。
+* Real-time CDP 和 Customer Journey Analytics 具有不同的資料擷取邏輯。Customer Journey Analytics 會忽略沒有個人 ID 或時間戳記的記錄，而且對於單一輪廓/個人可能擁有的記錄數量有嚴格的限制。
 
-* Real-time CDP 客戶可在 7 天內存取資料湖中的資料，主要是為了協助資料上線到設定檔中及進行臨時查詢。
+* Real-time CDP 客戶可在 7 天內存取資料湖中的資料，主要是為了協助資料上線到輪廓中及進行臨時查詢。
 
 * 對 Customer Journey Analytics 客戶而言，資料湖中的資料沒有 TTL。然而，Customer Journey Analytics 使用者可以在建立連線時，自行在 Customer Journey Analytics 中設定自訂保留期間。
 
-* Real-time CDP 中的個人檔案存放區允許使用可供客戶設定的 TTL。客戶可以將此 TTL 變更為他們保留在授權範圍內所需的任何時間。
+* Real-time CDP 中的輪廓存放區允許使用可供客戶設定的 TTL。客戶可以將此 TTL 變更為他們保留在授權範圍內所需的任何時間。
 
 ## 資料擷取延遲的差異
 
-Customer Journey Analytics 還沒有 Real-time CDP 的即時功能，因此在資料可用於報告或建立對象之前，Customer Journey Analytics 報告會包含一些延遲。Real-time CDP 會經由具有不同延遲的不同系統來處理資料。
+Customer Journey Analytics 還沒有 Real-time CDP 的即時功能，因此在資料可用於報告或建立客群之前，Customer Journey Analytics 報告會包含一些延遲。Real-time CDP 會經由具有不同延遲的不同系統來處理資料。

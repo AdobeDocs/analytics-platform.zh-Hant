@@ -1,19 +1,19 @@
 ---
-title: 將 Google Analytics 將歷史資料擷取至 Adobe Experience Platform
+title: 擷取Google Analytics歷史資料
 description: 說明如何使用Adobe Customer Journey Analytics將您的Google Analytics資料擷取至Adobe Experience Platform。
 exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 90%
+source-wordcount: '618'
+ht-degree: 88%
 
 ---
 
 
-# 將 Google Analytics 將歷史資料擷取至 Adobe Experience Platform
+# 擷取Google Analytics歷史資料
 
 此頁面著重於將您的 Google Analytics 歷史資料擷取到 Adobe Experience Platform 做為資料集，讓您參照在 Customer Journey Analytics 之內「資料檢視」中的資料集。 您可以結合此頁面的步驟與[設定一個 Google Analytics 實作](streaming.md)，這會產生反覆出現的資料集。 結合此歷史資料集與最新實作的資料集，以便在 Customer Journey Analytics 中取得現在與回填資料的無縫接軌檢視。
 

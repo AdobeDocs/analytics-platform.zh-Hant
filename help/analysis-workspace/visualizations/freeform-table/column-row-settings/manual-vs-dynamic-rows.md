@@ -1,17 +1,17 @@
 ---
-title: 自由表格中的動態與靜態維度項目
+title: 動態與靜態維度專案
 description: 如何與表格中的動態和靜態維度項目互動
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 50%
+source-wordcount: '543'
+ht-degree: 49%
 
 ---
 
-# 自由表格中的動態和靜態維度專案
+# 動態和靜態維度專案
 
 在自由表格中，列和欄可以包含各種元件值。這些值可以是動態（隨時間而改變）或靜態（不隨時間而改變），具體取決於您要建立的分析。
 
@@ -53,4 +53,4 @@ ht-degree: 50%
 自由表格總計列中動態和靜態列的行為不相同。根據預設：
 
 * 動態列在伺服器端加總，並去除重複量度，例如工作階段或人員。
-* 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hant)
+* 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-hant)

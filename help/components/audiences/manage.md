@@ -4,9 +4,9 @@ description: 了解如何在 Customer Journey Analytics 中管理客群
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 20%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 20%
 * 檢視Customer Journey Analytics中的對象是否正由Real-time Customer Platform **主動使用**。 或（理想情況下）任何消耗Customer Journey Analytics所建立對象的Experience Platform應用程式。
 
 如果您有[對象檢視](/help/technotes/access-control.md#user-level-access)存取權，則可以檢視對象。 如果您有[對象建立](/help/technotes/access-control.md#user-level-access)存取權，您可以編輯和刪除對象。 [對象清單](#audiences-list)會顯示對象。
+
+![對象管理員](assets/audiences-manager.png)
 
 ## 對象清單
 
