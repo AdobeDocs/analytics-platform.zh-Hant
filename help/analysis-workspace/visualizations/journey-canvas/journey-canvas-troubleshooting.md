@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 82f8ba3fb04b50e352b76fd1ce866c0615971335
+source-git-commit: 2fc2bd660b017140b8dfa660cf71054af9efb87e
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
@@ -48,21 +48,21 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
 #### 案例1 — 使用者A在第一個工作階段中追蹤歷程路徑，然後在後續工作階段中僅追蹤後續節點
 
-假設使用者A造訪網站並遵循歷程路徑（節點1：造訪網站>節點2：檢視產品A >節點3：結帳）。 在此案例中，事件會計入歷程的每個節點上。
+假設使用者A造訪網站並完成歷程（節點1：「造訪網站」>節點2：「檢視產品A」>節點3：「結帳」）。 由於使用者A已完成歷程，因此事件會計入歷程的每個節點上。
 
-現在，假設使用者A在之後的工作階段中再次造訪網站。 由於使用者A已依照先前工作階段中的歷程路徑符合歷程需求，這表示每當使用者A簽出時（即使使用者A在其目前工作階段中未依照歷程路徑），事件就會計入歷程的第三個節點「簽出」上。 這會導致「出庫」節點上的百分比和數目高於前一個節點「檢視產品A」上的百分比和數目。
+現在，假設使用者A在之後的工作階段中再次造訪網站。 由於使用者A已透過遵循歷程路徑而在先前的工作階段中完成歷程，這表示每當使用者A發生符合歷程中任何節點的事件（即使使用者A未在其目前工作階段中遵循歷程路徑）時，事件就會計入歷程中的相關節點上。 例如，如果使用者A取出，則事件會計入「取出」節點中。 這會導致「出庫」節點上的百分比和數目高於前一個節點「檢視產品A」上的百分比和數目。
 
-在此範例中，歷程的容器設定在判斷第三個節點上的事件（「簽出」）是否計入後續工作階段中時，扮演關鍵角色。
+在此範例中，歷程的「人員」容器設定在判斷第三個節點上的事件（「取出」）是否計入後續工作階段中時，扮演關鍵角色。
 
-或者，如果「工作階段」已設定為容器（而不是「人員」），則後續造訪中僅發生在第三個節點上的事件將不會計入歷程中，因為歷程中顯示的統計資料將限製為特定人員的單一已定義工作階段。 若要深入瞭解容器設定，請參閱文章[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)中的[開始建立歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)
+或者，如果容器設定已設為「工作階段」，則後續造訪中僅發生在第三個節點上的事件將不會計入歷程中，因為歷程中顯示的統計資料將限製為給定人員的單一已定義工作階段。 若要深入瞭解容器設定，請參閱文章[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)中的[開始建立歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
 #### 案例2 — 使用者B離開歷程
 
-假設使用者B造訪網站且不遵循歷程路徑（造訪網站、檢視產品B，然後結帳），事件會計入歷程的開始節點「造訪網站」，但事件不計入剩餘節點，且使用者B落在歷程之外。 即使使用者B已結帳，事件也不會計入第三個節點「結帳」中，因為使用者B並未透過檢視產品A來遵循歷程路徑。
+假設使用者B造訪網站但未完成歷程（造訪網站、檢視產品B，然後結帳）。 在這種情況下，事件會計入歷程的開始節點「造訪網站」，但事件不會計入其餘節點，且使用者B會離開歷程。 即使使用者B已簽出，事件也不會計入第三個節點（「簽出」）上，因為使用者B在簽出前並未透過檢視產品A來完成歷程。
 
-這是因為，只有在人們遵循歷程的「最終路徑」時，才會計算每個節點的事件，這表示只要個人最終從某個節點移動到另一個節點，就會計算事件，而不考慮2個節點之間發生的任何事件。
+這是因為，只有在人們遵循歷程的「最終路徑」時，才會計算每個節點的事件，這表示只有在人們最終從某個節點移動到另一個節點時，才會計算事件，而不管這2個節點之間發生什麼事件。
 
 ### 歷程有多個路徑會聚至單一節點
 
