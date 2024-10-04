@@ -4,10 +4,10 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 905d8e0bfe2e0dbc9c6a03d9eb9a6efd4926fbbf
+source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 48%
+source-wordcount: '1931'
+ht-degree: 17%
 
 ---
 
@@ -31,74 +31,102 @@ ht-degree: 48%
 
 <!-- markdownlint-enable MD034 -->
 
-本主題說明如何將在Customer Journey Analytics中識別的對象建立並發佈到Adobe Experience Platform中的[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)，以用於客戶目標定位和個人化。
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_component_audiences_refreshlookbackwindow"
+>title="重新整理回顧期間"
+>abstract="定義從今天開始評估對象的回顧天數。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_component_audiences_audiencesizelimit"
+>title="客群規模限制"
+>abstract="對象人數不得超過2千萬個成員。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_component_audiences_namespacesincluded"
+>title="包含的命名空間"
+>abstract="此客群中的身分是由以下命名空間組成。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+
+
+本主題說明如何將在Customer Journey Analytics中識別的對象建立並發佈到Adobe Experience Platform中的[即時客戶個人檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)，以用於客戶目標定位和個人化。
 
 請閱讀此[總覽](/help/components/audiences/audiences-overview.md)，熟悉Customer Journey Analytics對象的概念。
 
 ## 建立及發佈對象 {#create}
 
-1. 若要開始建立和發佈對象，請執行下列任一項作業：
+1. 若要建立並發佈對象，請執行下列任一項作業：
 
    | 建立方法 | 詳細資料 |
    | --- | --- |
-   | 從主要&#x200B;**[!UICONTROL 「元件] > [!UICONTROL 客群」]**&#x200B;選單 | 系統會開啟 Audience Manager 頁面。按一下「**[!UICONTROL 建立客群]**」，[!UICONTROL 客群產生器]隨即開啟。 |
-   | 從Analysis Workspace中的視覺效果 | Analysis Workspace中的許多視覺效果都可讓您使用滑鼠右鍵功能表建立對象。 例如，您可以在自由表格中的專案上按一下滑鼠右鍵，或者在Journey Canvas中的節點上按一下滑鼠右鍵，然後選取「**[!UICONTROL 建立對象]**」。 <p>此方法會使用您在表格中選擇的維度或維度項目預先填入篩選器。</p><p>下列視覺效果可讓您使用滑鼠右鍵功能表建立對象：</p><ul><li>同類群組</li><li>流失</li><li>流量</li><li>自由表格</li><li>歷程畫布</li><li>文氏圖表</li></ul><p>**注意：**&#x200B;對象不能包含計算量度。 如果您嘗試建立包含計算量度的對象，該計算量度將不會包含在對象定義中。</p> |
-   | 從篩選器建立/編輯 UI | 勾選顯示「**[!UICONTROL 通過此篩選建立客群]**」的方塊。使用此方法預先填入篩選器。 |
+   | 從&#x200B;**[!UICONTROL 對象]**&#x200B;介面中。 | 從主要Customer Journey Analytics功能表中選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 對象]**。 Audiences介面隨即顯示。 選取「**[!UICONTROL 建立對象]**」，並開啟[!UICONTROL 對象產生器]。 |
+   | 從Analysis Workspace中的視覺效果 | Analysis Workspace中的許多視覺效果都可讓您使用內容功能表建立對象。 例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)中專案的內容功能表或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)中的節點選取&#x200B;**[!UICONTROL 建立對象]**。<p>使用此方法時，會使用您選取的維度或維度專案預先填入對象產生器中的篩選器。</p><p>下列視覺效果可讓您使用滑鼠右鍵功能表建立對象：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：**&#x200B;對象不能包含計算量度。 如果您嘗試建立包含計算量度的對象，則該計算量度不會包含在對象定義中。</p> |
+   | 從篩選器建立/編輯 UI | 勾選顯示「**[!UICONTROL 通過此篩選建立客群]**」的方塊。使用此方法預先填入篩選器。 如需詳細資訊，請參閱[建立篩選器](/help/components/filters/create-filters.md)。 |
 
    {style="table-layout:auto"}
 
-1. 建置客群。
+1. 使用[對象產生器](#audience-builder)建立對象。
 
-   請先配置設定，然後才能發佈客群。
+1. 使用[日期預覽](#data-preview)面板解譯資料。
 
-   ![建立下一節所述對象傾斜設定的熒幕擷圖。](assets/create-audience.png)
+1. 選取&#x200B;**[!UICONTROL [!UICONTROL 檢視範例ID]]**&#x200B;以檢視此對象中的ID範例。 在&#x200B;**[!UICONTROL 範例ID]**&#x200B;對話方塊中，您可以使用![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *搜尋範例ID*]&#x200B;來搜尋範例ID。
 
-   | 設定 | 說明 |
-   | --- | --- |
-   | [!UICONTROL 名稱] | 客群名稱。 |
-   | [!UICONTROL 標記] | 任何您針對組織目的想要套用到客群的標籤。您可以使用現有的標籤或輸入新的標籤。 |
-   | [!UICONTROL 說明] | 新增客群的優質說明，以與其他客群區分開來。 |
-   | [!UICONTROL 重新整理頻率] | 您想要重新整理客群的頻率。<ul><li>您可以選擇建立一次性的、不需更新的客群 (預設)。例如，這可能適合用於特定單次行銷活動。</li><li>您也可以選擇其他重新整理間隔。在4小時的重新整理頻率中，有75到150個對象重新整理的限制，具體取決於您的Customer Journey Analytics權益。</li></ul> |
-   | 到期日 | 客群停止更新的時間。預設到期日是從建立日期算起的 1 年後。系統處理即將到期客群的方法與即將到期的排程報告相似，管理員會在客群到期前的一個月收到通知電子郵件。 |
-   | 重新整理回顧期間 | 在建立此客群時，指定資料回溯期間的長度。最長 90 天。 |
-   | [!UICONTROL 一次性日期範圍] | 您想要發佈一次性客群的日期範圍。 |
-   | [!UICONTROL 篩選器] | 篩選條件是客群的主要輸入項目。可最多新增 20 個篩選器。這些篩選器可以加入 `And`或 `Or` 運算子。<p>從Analysis Workspace中的視覺效果（例如自由表格或歷程畫布）建立受眾時，套用至面板或欄的任何篩選器都會保留。 您可以移除任何自動套用的篩選器。</p> |
-   | [!UICONTROL 檢視範例 ID] | 此客群中的範例 ID。使用搜尋列來搜尋範例 ID。 |
+1. 仔細檢查您的對象組態，並選取&#x200B;**[!UICONTROL Publish]**。
+您會收到一則對象已發佈的確認訊息。 只需一兩分鐘，此對象就會在Experience Platform中顯示。
 
-   {style="table-layout:auto"}
+1. 在同一則訊息中選取「**[!UICONTROL 在AEP中檢視對象]**」，您就會進入Adobe Experience Platform中的[區段UI](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview)。 請參閱下方以了解更多資訊。
 
-1. 解讀資料預覽。
+## 對象產生器
 
-   對象預覽會顯示在右側面板中。 它允許對您建立的客群進行摘要分析。
+進行這些設定以定義或更新您的對象。
 
-   ![顯示對象摘要分析的資料預覽熒幕擷圖。](assets/data-preview.png)
+![建立下一節所述對象傾斜設定的熒幕擷圖。](assets/create-audience.png)
 
-   | 預覽設定 | 說明 |
-   | --- | --- |
-   | [!UICONTROL 資料預覽]視窗 | 客群的日期範圍。 |
-   | [!UICONTROL 總人數] | 此客群中總人數的摘要數字。最多可以高達 2 千萬人。如果您的客群超過 2 千萬人，您必須先減少客群規模，才能發佈。 |
-   | [!UICONTROL 客群規模限制] | 顯示此客群規模距離 2 千萬人限制還差多少。 |
-   | [!UICONTROL 預估的客群回訪] | 此設定對於將此對象中回訪您網站、行動應用程式或其他管道（換言之，又會在此資料集中看到）的客戶做為目標很有用。 <p>在這裡，您可以選取可能回訪的估計客戶數量的時間範圍 (接下來 7 天、接下來 2 週、下個月)。 |
-   | [!UICONTROL 預估回訪] | 此數字可提供從下拉式清單中所選時間範圍內的回訪客戶估計數量。我們查看該客群的歷史流失率來預測這個數字。 |
-   | [!UICONTROL 預覽量度] | 此設定可讓您查看特定量度，以了解此客群是否對此量度貢獻了不成比例的數量，例如「[!UICONTROL 收入]」或「[!UICONTROL 網站平均逗留時間]」。它為您提供量度的彙總計數，以及它所代表的總數的百分比。您可以選取資料檢視中可用的任何量度。 |
-   | [!UICONTROL 包含的命名空間] | 與客群中的人員相關聯的特定命名空間。範例包括 ECID、CRM ID、電子郵件地址等。 |
-   | [!UICONTROL 沙箱] | 此客群所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。當您將此客群發佈到 Platform 時，您只能在此沙箱的範圍內使用它。 |
+| 設定 | 說明 |
+| --- | --- |
+| ![資料](/help/assets/icons/Data.svg) | 選取要用於建立受眾的資料檢視。 |
+| **[!UICONTROL 名稱]** | 對象名稱。 例如， `Really Interested in Potential Car Buyers` |
+| **[!UICONTROL 標記]** | 您針對組織目的想要指派給對象的任何標籤。 您可以選取一或多個預先存在的標籤或輸入新標籤。 |
+| **[!UICONTROL 說明]** | 對象的說明，用於與其他對象區分開來。 例如， `Build an audience of really interested potential car buyers` |
+| **[!UICONTROL 重新整理頻率]** | 您想要重新整理客群的頻率。<p/>您可以選擇 <ul><li>**[!UICONTROL 一次]**&#x200B;對象：不需要重新整理的對象（預設）。 例如，此選項可能有助於特定的一次性行銷活動。<br/>您必須指定&#x200B;**[!UICONTROL 單次日期範圍]**。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來輸入日期範圍。</li><li>重新整理的對象。 您可選取下列選項：<ul><li>**[!UICONTROL 每4小時]**&#x200B;秒：每4小時重新整理一次的受眾。</li><li>**[!UICONTROL 每日]**：每日重新整理的對象</li><li>**[!UICONTROL 每週]**：每週重新整理的對象。</li><li>**[!UICONTROL 每月]**：每月重新整理的對象</li></ul></li><br/>若要重新整理對象，您必須指定：<ul><li>**[!UICONTROL 重新整理回顧期間]**。 定義從今天開始評估對象的回顧天數。 您可以從選項中選取或定義自訂時間。 最長90天。</li><li>**[!UICONTROL 到期日]**：定義對象停止重新整理的時間。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期。 預設到期日是從建立日期算起的 1 年後。系統處理即將到期對象的方法與即將到期的排程報告相似。 管理員會在對象過期前一個月收到電子郵件。</li></ul> 請注意，根據您的Customer Journey Analytics權益，對象重新整理限製為75至150個。</li></ul> |
+| **[!UICONTROL 篩選器]** | 篩選條件是客群的主要輸入項目。從左側![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 篩選器]**&#x200B;面板拖放一或多個篩選器至篩選器區域。 您可以使用![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *搜尋篩選器*]&#x200B;來搜尋篩選器。 可最多新增 20 個篩選器。篩選器可以加入&#x200B;**[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**&#x200B;運運算元。<p>從Analysis Workspace中的視覺效果（例如自由表格或歷程畫布）建立受眾時，套用至面板或欄的任何篩選器都會保留。 您可以移除任何自動套用的篩選器。</p> |
+| **[!UICONTROL 資料預覽]** | 選取![資訊](/help/assets/icons/Info.svg)以顯示或隱藏所選日期範圍的[資料預覽](#data-preview)。 |
 
-   {style="table-layout:auto"}
+## 資料預覽
 
-1. 仔細檢查您的客群組態，然後按一下&#x200B;**[!UICONTROL 「發佈」]**。
+「資料預覽」面板提供下列資訊。
 
-   如果一切順利，您會收到一則客群已發佈的確認訊息。只需一兩分鐘，此客群就會出現在 Experience Platform 中。(即使是擁有數百萬成員的客群，應該也不超過 5 分鐘。)
+| 元素 | 說明 |
+| --- | --- |
+| **[!UICONTROL 總人數]** | 此客群中總人數的摘要數字。最大人數為2000萬人。 如果您的對象超過2,000萬人，您必須先減少對象規模，然後才能發佈。 |
+| **[!UICONTROL 客群規模限制]** | 視覺效果會顯示此對象與2000萬上限的差距。 |
+| **[!UICONTROL 預估的客群回訪]** | 您可以使用此值，重新鎖定此對象中回訪您網站、行動應用程式或其他頻道的人員。<p>您可以為可能回訪的估計客戶數選取時間範圍（**[!UICONTROL 接下來7天]**、**[!UICONTROL 接下來2週]**&#x200B;或&#x200B;**[!UICONTROL 下一個月]**）。 |
+| **[!UICONTROL 預估回訪]** | 此數字可提供所選時段內回訪客戶的估計數量。 此數字會使用這個對象的歷史流失率來預測。 |
+| **[!UICONTROL 預覽量度]** | 您可以選取特定量度，以檢視該量度的資料如何以您定義的對象為基礎。  每個預覽量度都會根據對象顯示量度的總計。 以及資料檢視定義的量度總和中，以對象為基礎的量度百分比。 例如，381人（您選取的量度）是您的對象定義的結果，佔資料檢視中可用總人數的5%。 您可以選取資料檢視中可用的任何量度。 |
+| **[!UICONTROL 包含的命名空間]** | 與客群中的人員相關聯的特定命名空間。範例包括 ECID、CRM ID、電子郵件地址等。 |
+| **[!UICONTROL 沙箱]** | 此客群所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)。當您將此對象發佈到Platform時，您只能在此沙箱的範圍內使用對象。 |
 
-1. 按一下同一則訊息中的&#x200B;**[!UICONTROL 「在 AEP 中檢視客群」]**，您將被帶到 Adobe Experience Platform 中的[「細分群體 UI」](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant)。請參閱下方以了解更多資訊。
+{style="table-layout:auto"}
 
 ## 建立及發佈對象後會發生什麼事？ {#after-audience-created}
 
-在Customer Journey Analytics中建立並發佈對象後，您就能在Experience Platform中使用該對象。 只有貴組織設為串流區隔時，才會建立Adobe Experience Platform串流區隔。
+在Customer Journey Analytics中建立並發佈對象後，您就能在Experience Platform中使用該對象。 Adobe Experience Platform串流區段只會在您的組織設為串流區段時建立。
 
-* Platform中的對象會與Customer Journey Analytics對象共用相同的名稱/說明，但名稱會附加Customer Journey Analytics對象ID，以確保其是唯一的。
-* 在Customer Journey Analytics中對對象名稱或說明所做的任何變更都會反映在Platform中。
-* 若對象已在Customer Journey Analytics中刪除，對象仍可在Platform中使用。
+* Platform中的對象會與Customer Journey Analytics對象共用相同的名稱和說明。 名稱會附加至Customer Journey Analytics對象ID，以確保對象是唯一的。
+* 在Customer Journey Analytics中對對象名稱或說明所做的任何變更都會反映在Experience Platform中。
+* 如果在Customer Journey Analytics中刪除了對象，則該對象會繼續可在Experience Platform中使用。
 
 ## 延遲的注意事項 {#latency}
 
@@ -106,7 +134,7 @@ ht-degree: 48%
 
 ![此章節中所述的對象發佈延遲。](assets/latency-diagram.svg)
 
-| # | 延遲點 | 延遲期間 |
+|  | 延遲點 | 延遲期間 |
 | --- | --- | --- |
 | 未顯示 | Adobe Analytics至Analytics來源聯結器(A4T) | 最多需 30 分鐘 |
 | 1 | 將資料擷取至Data Lake （從Analytics來源聯結器或其他來源） | 最多需 90 分鐘 |
@@ -139,7 +167,7 @@ Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和
 
    * 使用搜尋欄位。
 
-如需在Platform中使用對象的詳細資訊，請參閱Experience Platform檔案之[區段產生器UI指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)中的[對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#audiences)區段。
+如需在Platform中使用對象的詳細資訊，請參閱Experience Platform檔案之[區段產生器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)中的[對象](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)區段。
 
 
 ## 常見問題 {#faq}
@@ -154,17 +182,17 @@ Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和
 
 +++**如果您刪除Customer Journey Analytics中的對象，會發生什麼事？**
 
-刪除Customer Journey Analytics對象時，該對象不會在Experience PlatformUI中顯示。 然而，實際上不會刪除在 Platform 中與該客群相關聯的輪廓。
+刪除Customer Journey Analytics對象時，該對象不再顯示在Experience PlatformUI中。 不過，與該對象相關聯的設定檔不會在Experience Platform中刪除。
 
 +++
 
-+++**如果 RTCDP 中沒有對應的輪廓，是否會建立新的輪廓？**
++++**如果RTCDP中不存在對應的設定檔，是否會建立新的設定檔？**
 
 是，會建立。
 
 +++
 
-+++**Customer Journey Analytics是以管線事件還是同樣會傳送至資料湖的平面檔案的形式傳送對象資料？**
++++**Customer Journey Analytics是否會將對象資料以管線事件或同樣進入資料湖的純資料檔傳送？**
 
 Customer Journey Analytics會透過管道將資料串流到RTCP中，而且這些資料也會收集到資料湖的系統資料集中。
 
@@ -172,19 +200,19 @@ Customer Journey Analytics會透過管道將資料串流到RTCP中，而且這�
 
 +++**Customer Journey Analytics傳送哪些身分？**
 
-在[連線設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection)中指定的任何識別/名稱空間配對。 具體而言，就是使用者選取要作為其「人員 ID」之欄位時的步驟。
+在[連線設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)中指定的任何識別/名稱空間配對。 具體來說，就是使用者選取要當作人員ID使用的欄位時的步驟。
 
 +++
 
 +++**選擇哪個 ID 作為主要身分？**
 
-請參閱上述內容。我們只會針對每個Customer Journey Analytics「人員」傳送一個身分。
+請參閱上述內容。每個Customer Journey Analytics個人僅會傳送一個身分。
 
 +++
 
 +++**RTCP是否也會處理Customer Journey Analytics訊息？ Customer Journey Analytics是否可透過對象共用將身分新增至設定檔身分圖表？**
 
-否。我們只會為每個「人員」發送一個身分，因此 RTCP 將沒有圖形邊可供使用。
+否。每人只會傳送一個身分，因此RTCP不會使用任何圖表邊緣。
 
 +++
 
@@ -194,9 +222,9 @@ Customer Journey Analytics會透過管道將資料串流到RTCP中，而且這�
 
 +++
 
-+++**使用者是否可以設定每日、每週和每月的重新整理時間？**
++++**您可以設定每日、每週和每月的重新整理時間嗎？**
 
-不可以，使用者無法設定它們。
+否，使用者無法設定重新整理的時間。
 
 +++
 
