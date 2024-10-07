@@ -5,10 +5,10 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: c403a660e1d60b1ee2e5552d615dffc2b52930a4
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 83%
+source-wordcount: '1454'
+ht-degree: 82%
 
 ---
 
@@ -84,11 +84,11 @@ ht-degree: 83%
 
 | 套件 | 可用視圖 |
 | --- | --- |
-| [!UICONTROL CJA 附加元件] | 趨勢：使用情況、趨勢：頻率、漏斗：摩擦、漏斗：轉換趨勢、保留：保留率、使用者成長：活躍、使用者成長：淨成長 |
-| [!UICONTROL CJA Foundation] | 趨勢：使用情況 |
-| [!UICONTROL CJA Select] | 基礎檢視+趨勢：頻率，漏斗：摩擦，漏斗：轉換趨勢，保留：保留率，使用者成長：作用中，使用者成長：淨成長 |
-| [!UICONTROL CJA Prime] | 選取檢視+使用者資料流：時間表，功能矩陣：參與，影響：發行，影響：首次使用 |
-| [!UICONTROL CJA Ultimate] | Prime 視圖 |
+| [!UICONTROL Customer Journey Analytics附加元件] | 趨勢：使用情況、趨勢：頻率、漏斗：摩擦、漏斗：轉換趨勢、保留：保留率、使用者成長：活躍、使用者成長：淨成長 |
+| [!UICONTROL Customer Journey Analytics基礎] | 趨勢：使用情況 |
+| [!UICONTROL Customer Journey AnalyticsSelect] | 基礎檢視+趨勢：頻率，漏斗：摩擦，漏斗：轉換趨勢，保留：保留率，使用者成長：作用中，使用者成長：淨成長 |
+| [!UICONTROL Customer Journey AnalyticsPrime] | 選取檢視+使用者資料流：時間表，功能矩陣：參與，影響：發行，影響：首次使用 |
+| [!UICONTROL Customer Journey AnalyticsUltimate] | Prime 視圖 |
 
 {style="table-layout:auto"}
 
