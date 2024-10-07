@@ -3,14 +3,14 @@ description: 警示的使用案例。
 title: 警示使用案例
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# 警報 — 使用案例
+# 警示使用案例
 
 您可以依照[建立警示](/help/components/c-intelligent-alerts/alert-builder.md)中的說明建立警示。
 
@@ -20,11 +20,6 @@ ht-degree: 0%
 
 您可以使用篩選器建立簡單警報。 例如，為透過行動應用程式工作階段造訪首頁的使用者定義工作階段數警報。
 
-<!-- 
-
-Update screenshots for better readability.
-
- -->
 
 ![](assets/alerts-example1.png)
 

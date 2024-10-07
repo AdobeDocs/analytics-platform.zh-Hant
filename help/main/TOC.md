@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 87%
+source-wordcount: '950'
+ht-degree: 86%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 87%
    + [執行基本分析](../analysis-workspace/perform-basic-analysis.md)
    + [執行進階分析](../analysis-workspace/perform-adv-analysis.md)
    + 專案 {#build-workspace-project}
-      + [專案概觀](../analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [概觀](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [開啟專案](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [儲存專案](../analysis-workspace/build-workspace-project/save-projects.md)
@@ -123,7 +123,7 @@ ht-degree: 87%
       + [調色盤](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](../analysis-workspace/build-workspace-project/view-density.md)
    + 視覺效果 {#visualizations}
-      + [視覺效果概觀](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [概觀](../analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理資料來源](../analysis-workspace/visualizations/t-sync-visualization.md)
       + [智慧型註解](../analysis-workspace/visualizations/intelligent-captions.md)
       + 自由表格 {#freeform-table}
@@ -179,7 +179,7 @@ ht-degree: 87%
       + [下一個或上一個專案](../analysis-workspace/c-panels/next-previous.md)
       + [快速深入分析](../analysis-workspace/c-panels/quickinsight.md)
    + 策劃、共用及排程專案 {#curate-share}
-      + [共用功能表](../analysis-workspace/curate-share/send-schedule-files.md)
+      + [概觀](../analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](../analysis-workspace/curate-share/curate.md)
       + [共用專案](../analysis-workspace/curate-share/share-projects.md)
       + [建立分享連結](../analysis-workspace/curate-share/shareable-links.md)
@@ -207,7 +207,7 @@ ht-degree: 87%
       + [協助工具](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Analytics 儀表板 {#cja-dashboards}
-   + [Analytics 儀表板 - 概觀](../mobile-app/home.md)
+   + [概觀](../mobile-app/home.md)
    + [組織者任務](../mobile-app/curator.md)
    + [建立行動計分卡](../mobile-app/create-scorecard.md)
    + [管理行動計分卡](../mobile-app/manage-scorecard.md)
@@ -238,7 +238,7 @@ ht-degree: 87%
    + [常見問題](../guided-analysis/faq.md)
 
 + 元件 {#cja-components}
-   + [元件概觀](../components/overview.md)
+   + [概觀](../components/overview.md)
    + [在 Analysis Workspace 中使用元件](../components/use-components-in-workspace.md)
    + [新增元件說明](../components/add-component-descriptions.md)
    + 註解 {#annotations}
@@ -260,7 +260,7 @@ ht-degree: 87%
       + [高基數維度](../components/dimensions/high-cardinality.md)
    + [量度](../components/apply-create-metrics.md)
    + 篩選 {#cja-filters}
-      + [篩選概觀](../components/filters/filters-overview.md)
+      + [概觀](../components/filters/filters-overview.md)
       + [建立篩選器](../components/filters/create-filters.md)
       + [建立篩選器](../components/filters/filter-builder.md)
       + [快速篩選](../components/filters/quick-filters.md)
@@ -274,7 +274,7 @@ ht-degree: 87%
       + [管理篩選](../components/filters/manage-filters.md)
       + [運算子](../components/filters/operators.md)
    + 計算量度 {#cja-calcmetrics}
-      + [計算量度概觀](../components/calc-metrics/calc-metr-overview.md)
+      + [概觀](../components/calc-metrics/calc-metr-overview.md)
       + 計算量度工作流程 {#cm-workflow}
          + [建立計算量度](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [建立計算量度](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
@@ -315,13 +315,13 @@ ht-degree: 87%
       + [管理匯出記錄](/help/components/exports/manage-export-logs.md)
       + [疑難排解匯出](/help/components/exports/troubleshoot-exports.md)
    + 資料字典 {#data-dictionary}
-      + [資料字典概觀](../components/data-dictionary/data-dictionary-overview.md)
+      + [概觀](../components/data-dictionary/data-dictionary-overview.md)
       + [檢視資料字典中的元件資訊](../components/data-dictionary/view-data-dictionary.md)
       + [編輯資料字典中的元件條目](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [監視資料字典健康狀況](../components/data-dictionary/monitor-data-dictionary-health.md)
 
 + Report Builder {#cja-reportbuilder}
-   + [Report Builder 概觀](../report-builder/report-buider-overview.md)
+   + [概觀](../report-builder/report-buider-overview.md)
    + [Report Builder 設定](../report-builder/report-builder-setup.md)
    + [建立資料區塊](../report-builder/create-a-data-block.md)
    + [Report Builder 中心](../report-builder/report-builder-hub.md)

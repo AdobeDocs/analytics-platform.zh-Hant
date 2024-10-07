@@ -1,17 +1,17 @@
 ---
 description: Analysis Workspace 中的資料字典允許使用者對 Analysis Workspace 中的各種元件建立目錄和追蹤，包括其預定用途、已核准的元件、重複的元件等等。
-title: 編輯資料字典中的條目
+title: 編輯元件專案
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 60%
+source-wordcount: '317'
+ht-degree: 57%
 
 ---
 
-# 編輯資料字典中的元件條目
+# 編輯元件專案
 
 Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢視的元件專案。 所有資料檢視的使用者皆可檢視所做的任何變更。
 

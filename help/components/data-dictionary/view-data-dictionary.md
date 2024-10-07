@@ -1,17 +1,17 @@
 ---
 description: Analysis Workspace 中的資料字典允許使用者對 Analysis Workspace 中的各種元件建立目錄和追蹤，包括其預定用途、已核准的元件、重複的元件等等。
-title: 檢視資料字典
+title: 檢視元件資訊
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 75%
+source-wordcount: '315'
+ht-degree: 73%
 
 ---
 
-# 檢視資料字典中的元件資訊
+# 檢視元件資訊
 
 資料字典允許您檢視有關元件的資訊，包括元件說明、類似的元件、經常搭配元件使用的其他元件等。
 

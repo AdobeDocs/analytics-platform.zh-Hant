@@ -1,12 +1,12 @@
 ---
-title: 建立對象並將對象發佈到即時客戶個人檔案
+title: 建立及發佈客群
 description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: e131fd78ceee67a05a1ea7256e58b4b34ce44ae5
+source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1948'
 ht-degree: 16%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 16%
 | **[!UICONTROL 名稱]** | 對象名稱。 例如， `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL 標記]** | 您針對組織目的想要指派給對象的任何標籤。 您可以選取一或多個預先存在的標籤或輸入新標籤。 |
 | **[!UICONTROL 說明]** | 對象的說明，用於與其他對象區分開來。 例如， `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL 重新整理頻率]** | 您想要重新整理客群的頻率。<p/>您可以選擇 <ul><li>**[!UICONTROL 一次]**&#x200B;對象：不需要重新整理的對象（預設）。 例如，此選項可能有助於特定的一次性行銷活動。<br/>您必須指定&#x200B;**[!UICONTROL 單次日期範圍]**。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來輸入日期範圍。</li><li>重新整理的對象。 您可選取下列選項：<ul><li>**[!UICONTROL 每4小時]**&#x200B;秒：每4小時重新整理一次的受眾。</li><li>**[!UICONTROL 每日]**：每日重新整理的對象</li><li>**[!UICONTROL 每週]**：每週重新整理的對象。</li><li>**[!UICONTROL 每月]**：每月重新整理的對象</li></ul></li><br/>若要重新整理對象，您必須指定：<ul><li>**[!UICONTROL 重新整理回顧期間]**。 定義從今天開始評估對象的回顧天數。 您可以從選項中選取或定義自訂時間。 最長90天。</li><li>**[!UICONTROL 到期日]**：定義對象停止重新整理的時間。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期。 預設到期日是從建立日期算起的 1 年後。系統處理即將到期對象的方法與即將到期的排程報告相似。 管理員會在對象過期前一個月收到電子郵件。</li></ul> 請注意，根據您的Customer Journey Analytics權益，對象重新整理限製為75至150個。</li></ul> |
+| **[!UICONTROL 重新整理頻率]** | 您想要重新整理客群的頻率。<p/>您可以選擇 <ul><li>**[!UICONTROL 一次]**&#x200B;對象：不需要重新整理的對象（預設）。 例如，此選項可能有助於特定的一次性行銷活動。<br/>您必須指定&#x200B;**[!UICONTROL 單次日期範圍]**。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來輸入日期範圍。</li><li>重新整理的對象。 您可選取下列選項：<ul><li>**[!UICONTROL 每4小時]**&#x200B;秒：每4小時重新整理一次的受眾。</li><li>**[!UICONTROL 每日]**：每日重新整理的對象</li><li>**[!UICONTROL 每週]**：每週重新整理的對象。</li><li>**[!UICONTROL 每月]**：每月重新整理的對象</li></ul></li>若要重新整理對象，您必須指定：<ul><li>**[!UICONTROL 重新整理回顧期間]**。 定義從今天開始評估對象的回顧天數。 您可以從選項中選取或定義自訂時間。 最長90天。</li><li>**[!UICONTROL 到期日]**：定義對象停止重新整理的時間。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期。 預設到期日是從建立日期算起的 1 年後。系統處理即將到期對象的方法與即將到期的排程報告相似。 管理員會在對象過期前一個月收到電子郵件。</li></ul> 請注意，根據您的Customer Journey Analytics權益，對象重新整理限製為75至150個。</li></ul> |
 | **[!UICONTROL 篩選器]** | 篩選條件是客群的主要輸入項目。從左側![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 篩選器]**&#x200B;面板拖放一或多個篩選器至篩選器區域。 您可以使用![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *搜尋篩選器*]&#x200B;來搜尋篩選器。 可最多新增 20 個篩選器。篩選器可以加入&#x200B;**[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**&#x200B;運運算元。<p>從Analysis Workspace中的視覺效果（例如自由表格或歷程畫布）建立受眾時，套用至面板或欄的任何篩選器都會保留。 您可以移除任何自動套用的篩選器。</p> |
 | **[!UICONTROL 資料預覽]** | 選取![資訊](/help/assets/icons/Info.svg)以顯示或隱藏所選日期範圍的[資料預覽](#data-preview)。 |
 
