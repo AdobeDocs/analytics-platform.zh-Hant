@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 2fc2bd660b017140b8dfa660cf71054af9efb87e
+source-git-commit: cbe713c08269fd3cc4e1076181020ff3fdc947b3
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,15 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
 ![包含百分比高於先前節點](assets/journey-canvas-higher-percentage.png)之節點的歷程
 
-以下案例中使用的歷程已設定為下列設定：
+以下案例中使用的歷程已使用這些設定進行設定：
 
 * **[!UICONTROL 人員]**&#x200B;已設定為容器
 
 * **[!UICONTROL 事件]**&#x200B;已設定為主要量度
 
-#### 案例1 — 使用者A在第一個工作階段中追蹤歷程路徑，然後在後續工作階段中僅追蹤後續節點
+#### 案例1：使用者A會依循第一個工作階段的歷程路徑。 在後續的工作階段中，使用者有一個事件只符合較新的節點。
 
-假設使用者A造訪網站並完成歷程（節點1：「造訪網站」>節點2：「檢視產品A」>節點3：「結帳」）。 由於使用者A已完成歷程，因此事件會計入歷程的每個節點上。
+假設使用者A造訪網站並完成歷程（節點1：「造訪網站」>節點2：「檢視產品A」>節點3：「結帳」）。 由於使用者A有一個事件依序符合歷程的每個節點，因此事件會計入歷程的每個節點上。
 
 現在，假設使用者A在之後的工作階段中再次造訪網站。 由於使用者A已透過遵循歷程路徑而在先前的工作階段中完成歷程，這表示每當使用者A發生符合歷程中任何節點的事件（即使使用者A未在其目前工作階段中遵循歷程路徑）時，事件就會計入歷程中的相關節點上。 例如，如果使用者A取出，則事件會計入「取出」節點中。 這會導致「出庫」節點上的百分比和數目高於前一個節點「檢視產品A」上的百分比和數目。
 
@@ -58,11 +58,11 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
-#### 案例2 — 使用者B離開歷程
+#### 案例2：使用者B離開歷程
 
 假設使用者B造訪網站但未完成歷程（造訪網站、檢視產品B，然後結帳）。 在這種情況下，事件會計入歷程的開始節點「造訪網站」，但事件不會計入其餘節點，且使用者B會離開歷程。 即使使用者B已簽出，事件也不會計入第三個節點（「簽出」）上，因為使用者B在簽出前並未透過檢視產品A來完成歷程。
 
-這是因為，只有在人們遵循歷程的「最終路徑」時，才會計算每個節點的事件，這表示只有在人們最終從某個節點移動到另一個節點時，才會計算事件，而不管這2個節點之間發生什麼事件。
+這是因為只有在使用者遵循歷程的「最終路徑」時，才會計算每個節點的事件。 也就是說，無論在這2個節點之間發生任何事件，人員最終都從某個節點移至另一個節點時，才會計算事件。
 
 ### 歷程有多個路徑會聚至單一節點
 
