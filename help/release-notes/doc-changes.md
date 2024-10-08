@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: ba7b16bd7bae75c3ecb72797236405519d361921
 workflow-type: tm+mt
-source-wordcount: '4094'
+source-wordcount: '4108'
 ht-degree: 69%
 
 ---
@@ -21,6 +21,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | --- | --- |
 | **2024 年 10 月** | |
 | Workspace和元件 | 重新整理有關Analysis Workspace專案（專案、視覺效果和面板）和元件(附註、維度、（計算）量度、篩選器、日期範圍、警報、排程專案和對象)的檔案。 |
+| 引導式分析 | 更新檔案，提供Analysis Workspace中的[引導分析](/help/guided-analysis/overview.md)。 |
 | **2024 年 9 月** | |
 | 摘要資料更新 | 已更新摘要資料文章，其中包含報告摘要資料時如何正確使用[查詢資料](/help/data-views/summary-data.md#lookup-data)的相關資訊。 |
 | BI擴充功能更新 | 已將[預設值和限制](/help/data-views/bi-extension.md#defaults-and-limitations)區段新增至BI擴充功能檔案。 |
