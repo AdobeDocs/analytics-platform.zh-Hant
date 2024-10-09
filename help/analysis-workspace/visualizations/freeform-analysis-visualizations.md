@@ -5,9 +5,9 @@ title: 視覺效果概觀
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 714e37433b12713e45a66ebd64771c050edb89a5
+source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1617'
 ht-degree: 15%
 
 ---
@@ -35,6 +35,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | ![GraphHistogram](/help/assets/icons/Histogram.svg) | [長條圖](/help/analysis-workspace/visualizations/histogram.md) | 長條圖視覺效果會根據量度數量，將人員、造訪或事件放入值區中。 |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | 橫條圖視覺效果會顯示代表一或多個量度多個值的橫條。 |
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [棧疊的水準橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | 棧疊橫條圖視覺效果會顯示代表一或多個量度多個值的橫條。 |
+| ![分支3](/help/assets/icons/Branch3.svg) | [歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | 歷程畫布視覺效果可協助您分析歷程，並針對您提供給使用者和客戶的歷程獲得深入見解。 |
 | ![關鍵量度](/help/assets/icons/KeyMetrics.svg) | [關鍵量度摘要](/help/analysis-workspace/visualizations/key-metric.md) | 關鍵量度摘要視覺效果結合了折線圖、摘要變更和摘要數字視覺效果。 |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [折線圖](/help/analysis-workspace/visualizations/line.md) | 線條圖視覺效果使用線條圖表示量度，以顯示一段時間中值的變化。 線形圖會延 X 軸使用時間。 |
 | ![圖表散佈圖](/help/assets/icons/GraphScatter.svg) | [散佈圖](/help/analysis-workspace/visualizations/scatterplot.md) | 散佈圖視覺效果顯示維度專案與最多三個量度之間的關係。 |

@@ -4,10 +4,10 @@ description: 計算量度產生器可讓您套用統計和數學函數，以建�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 97%
+source-wordcount: '1060'
+ht-degree: 31%
 
 ---
 
@@ -20,130 +20,417 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[!DNL MAXV(metrics)] 也允許用於 [!DNL MAXV(PageViews + Visits).]
+>此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[COLUMN MAXIMUM（量度）](#column-maximum)也允許使用[COLUMN MAXIMUM（頁面檢視+造訪）](#column-maximum)。
 
 
-## 表格函數和列函數
+## 表格函式和列函式
 
-表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
+表格函數是表格每一列的輸出都相同。列函式是表格每一列的輸出都不同的函式。 在適用和相關的情況下，函式會使用函式型別進行註解。
+
+
+## 絕對值
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 絕對值（量度）]**
+
+[!BADGE 列]{type="Neutral"}
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 您要計算其絕對值的量度。 |
+
+
+## 欄最大值
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄最大值（量度，包括_零）]**
+
+傳回量度欄中一組維度元素的最大值。MAXV 會垂直評估單一欄 (量度) 中的維度元素。
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
+| include_zeros | 是否在計算中包含零值。 |
+
+
+## 欄最小值
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄最小值（量度，include_zeros）]**
+
+傳回量度欄中一組維度元素的最小值。MINV 會垂直評估單一欄 (量度) 中的維度元素。
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
+| include_zeros | 是否在計算中包含零值。 |
+
+
+## 欄總和
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 資料行總和（量度）]**
+
+將某一欄中量度的所有數值相加（涵蓋維度的各個元素）。
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
+
+
+## 計數
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 計數（量度）]**
+
+[!BADGE 表格]{type="Neutral"}
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 您要計數的量度。 |
+
+
+## 指數
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 指數（量度）]**
+
+[!BADGE 列]{type="Neutral"}
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 套用至基底e的指數。 |
+
+
+## 平均值
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric， include_zeros)]**
+
+[!BADGE 表格]{type="Neutral"}
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 您要計算平均值的量度。 |
+| include_zeros | 是否在計算中包含零值。 |
+
+
+## 中間值
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric， include_zeros)]**
+
+[!BADGE 表格]{type="Neutral"}
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 您要計算中間值的量度。 |
+| include_zeros | 是否在計算中包含零值。 |
+
+
+## 模數
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 模數(metric_X， metric_Y)]**
+
+使用歐幾里得除法，將x除以y之後傳回餘數。
+
+| 引數 | 說明 |
+|---|---|
+| metric_X | 您要除的第一個量度。 |
+| metric_Y | 您要除的第二個量度。 |
+
+### 範例
+
+傳回值的正負號與輸入相同 (或等於零)。
+
+```
+MODULO(4,3) = 1
+MODULO(-4,3) = -1
+MODULO(-3,3) = 0
+```
+
+為了確保您一律得到正數，請使用
+
+```
+MODULO(MODULO(x,y)+y,y)
+```
+
+## 百分位數
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 百分位數(metric， k， include_zeros)]**
+
+[!BADGE 表格]{type="Neutral"}
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 0 至 100 (含) 範圍內的百分位數值。 |
+| k | 定義相對位置的量度欄。 |
+| include_zeros | 是否在計算中包含零值。 |
 
 
 
-## 絕對值 (列)
+## 乘冪運運算元
 
-傳回數字的絕對值。數字的絕對值是正值的數字。
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 乘冪運運算元(metric_X， metrix_Y)]**
+
+傳回x提升至y次方。
+
+| 引數 | 說明 |
+|---|---|
+| metric_X | 您要提升至metric_Y次方的量度。 |
+| metric_Y | 您希望將metric_X提升到的能力。 |
+
+
+## 四分位數
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric， quartile， include_zeros)]**
+
+[!BADGE 表格]{type="Neutral"}當QUARTILE分別等於`0` （零）、`2`和`4`時，[COLUMN MINIMUM](#column-minimum)、[MEDIAN](#median)和[COLUMN MAXIMUM](#column-maximum)會傳回與[QUARTILE](#quartile)相同的值。
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 您要計算四分位數值的量度。 |
+| 四分位數 | 指出要傳回的四分位數值。 |
+| include_zeros | 是否在計算中包含零值。 |
+
+
+## 四捨五入
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(metric， number)]**
+
+不含&#x200B;*number*&#x200B;引數的四捨五入與含&#x200B;*number*&#x200B;引數為0的四捨五入相同，也就是四捨五入到最接近的整數。  使用&#x200B;*number*&#x200B;引數時，ROUND會傳回小數點右邊的&#x200B;*number*&#x200B;位數。  如果&#x200B;*number*&#x200B;為負數，則會傳回小數點左邊的0。
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 您要四捨五入的量度。 |
+| 數字 | 要傳回的小數點右邊的位數。 （如果為負數，會在小數點左邊傳回零）。 |
+
+### 範例
+
+```
+ROUND( 314.15, 0) = 314
+ROUND( 314.15, 1) = 314.1
+ROUND( 314.15, -1) = 310
+ROUND( 314.15, -2) = 300
+```
+
+
+## 列計數
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列計數()]**
+
+傳回指定欄的列計數 (維度中報告的唯一元素數)。超過&#x200B;*個不重複值*&#x200B;計為1。
+
+
+## 列最大值
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列MAX（量度，include_zeros）]**
+
+每一列的最大欄數。
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
+| include_zeros | 是否在計算中包含零值。 |
+
+## 列最小值
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列最小值（量度，包含_零）]**
+
+每一列的最小欄數。
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
+| include_zeros | 是否在計算中包含零值。 |
+
+
+
+## 列總和
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 資料列總和（量度，包含_零）]**
+
+每一列的欄總和。
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
+
+
+## 平方根
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平方根（量度，包含_零）]**
+
+[!BADGE 列]{type="Neutral"}
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 您要計算平方根的量度。 |
+
+
+## 標準差
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 標準差（量度，包括_零）]**
+
+[!BADGE 表格]{type="Neutral"}
+
+| 引數 | 說明 |
+|---|---|
+| | 您要計算其標準差的量度。 |
+| include_zeros | 是否在計算中包含零值。 |
+
+
+## 變數
+
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric， include_zeros)]**
+
+[!BADGE 表格]{type="Neutral"}
+
+| 引數 | 說明 |
+|---|---|
+| 量度 | 您要計算變異數的量度。 |
+| include_zeros | 是否在計算中包含零值。 |
+
+
+VARIANCE 的方程式為：
+
+![](assets/variance_eq.png){width="100"}
+
+其中&#x200B;*x*&#x200B;為樣本平均值，[MEAN（*量度*）](#mean)且&#x200B;*n*&#x200B;為樣本大小。
+
+
+若要計算變數，您可以檢視整欄的數字。 請先從那列數字計算平均值。取得平均值後，請逐一檢視每個專案，並執行下列作業：
+
+1. 將數字減去平均值。
+
+1. 取結果的平方。
+
+1. 將其加入總計。
+
+一旦您疊代了整個欄，您就會有單一總計。 接著將合計除以欄中的項目數。該數字會是欄的變數。一個單一的數字。但是，它會顯示為一欄數字。
+
+在下列三個專案欄的範例中：
+
+| 欄 |
+|:---:|
+| 1 |
+| 2 |
+| 3 |
+
+欄平均值為 2。資料行的變數是((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3) = 2/3。
+
+
+
+
+<!--
+
+## Absolute Value (Row)
+
+Returns the absolute value of a number. The absolute value of a number is the number with a positive value.
 
 ```
 ABS(metric)
 ```
 
-| 引數 | 說明 |
+|  Argument  | Description  |
 |---|---|
-| *量度* | 您要擷取其絕對值的量度。 |
+|  *metric* | The metric for which you want the absolute value.  |
 
-## 欄最大值
+## Column Maximum
 
-傳回量度欄中一組維度元素的最大值。MAXV 會垂直評估單一欄 (量度) 中的維度元素。
+Returns the largest value in a set of dimension elements for a metric column. MAXV evaluates vertically within a single column (metric) across dimension elements.
 
 ```
 MAXV(metric)
 ```
 
-| 引數 | 說明 |
+|  Argument  | Description  |
 |---|---|
-| *量度* | 您想評估的量度。 |
+|  *metric* | A metric that you would like to have evaluated.  |
 
-## 欄最小值
+## Column Minimum 
 
-傳回量度欄中一組維度元素的最小值。MINV 會垂直評估單一欄 (量度) 中的維度元素。
+Returns the smallest value in a set of dimension elements for a metric column. MINV evaluates vertically within a single column (metric) across dimension elements.
 
 ```
 MINV(metric)
 ```
 
-| 引數 | 說明 |
+|  Argument  | Description  |
 |---|---|
-| *量度* | 您想評估的量度。 |
+|  *metric* | A metric that you would like to have evaluated.  |
 
-## 欄總和
+## Column Sum 
 
-將一欄中量度的所有數值 (所有維度元素) 相加。
+Adds all of the numeric values for a metric within a column (across the elements of a dimension).
 
 ```
 SUM(metric)
 ```
 
-| 引數 | 說明 |
+|  Argument  | Description  |
 |---|---|
-| *量度* | 您要計算總值或總和的量度。 |
+|  *metric* | The metric for which you want the total value or sum.  |
 
-## 計數 (表格)
+## Count (Table) 
 
-傳回一欄中量度的非零值數目 (或計數) (在一個維度中報告的獨特元素數目)。
+Returns the number, or count, of non-zero values for a metric within a column (the number of unique elements reported within a dimension).
 
 ```
 COUNT(metric)
 ```
 
-| 引數 | 說明 |
+|  Argument  | Description  |
 |---|---|
-| *量度* | 您想計數的量度。 |
+|  *metric* | The metric that you want to count.  |
 
-## 指數 (列)
+## Exponent (Row) 
 
-傳回給定數字的 *e* 乘冪。常數 *e* 是自然對數的底數，等於 2.71828182845904。EXP 是 LN (一個數字的自然對數) 的反函數。
+Returns *e* raised to the power of a given number. The constant *e* equals 2.71828182845904, the base of the natural logarithm. EXP is the inverse of LN, the natural logarithm of a number.
 
 ```
 EXP(metric)
 ```
 
-| 引數 | 說明 |
+|  Argument  | Description  |
 |---|---|
-| *量度* | 套用至底數 *e* 的指數。 |
+|  *metric* | The exponent applied to the base *e*.  |
 
-## 乘冪
+## Exponentiation 
 
-乘冪運算子
-
-
-pow(x，y) = x<sup>y</sup> = x *x* x*... （y次）
+Power Operator
 
 
-## 平均值 (表格)
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
 
-傳回一欄中量度的算術平均值。
+
+## Mean (Table) 
+
+Returns the arithmetic mean, or average, for a metric in a column.
 
 ```
 MEAN(metric)
 ```
 
-| 引數 | 說明 |
+|  Argument  | Description  |
 |---|---|
-| *量度* | 您要擷取平均值的量度。 |
+|  *metric* | The metric for which you want the average.  |
 
-## 中位數 (表格)
+## Median (Table) 
 
-傳回一欄中量度的中位數。中位數是位於一組數字中間的數字，也就是一半數字的值大於或等於中位數，另一半數字的值小於或等於中位數。
+Returns the median for a metric in a column. The median is the number in the middle of a set of numbers—that is, half the numbers have values that are greater than or equal to the median, and half are less than or equal to the median.
 
 ```
 MEDIAN(metric)
 ```
 
-| 引數 | 說明 |
+|  Argument  | Description  |
 |---|---|
-| *量度* | 您要擷取中位數的量度。 |
+|  *metric* | The metric for which you want the median.  |
 
-## 模數
+## Modulo 
 
-col1 / col2 的餘數，使用歐幾里德輾轉相除法。
+The remainder of col1 / col2, using Euclidean division.
 
-傳回將 x 除以 y 之後的餘數。
+Returns the remainder after dividing x by y.
 
 ```
 x = floor(x/y) + modulo(x,y)
 ```
 
-傳回值的正負號與輸入相同 (或等於零)。
+The return value has the same sign as the input (or is zero).
 
 ```
 modulo(4,3) = 1 
@@ -151,15 +438,15 @@ modulo(-4,3) = -1
 modulo(-3,3) = 0
 ```
 
-若想一律取得正數，請使用
+To always get a positive number, use 
 
 ```
 modulo(modulo(x,y)+y,y)
 ```
 
-## 百分位數 (表格)
+## Percentile (Table) 
 
-傳回量度值的第 k 個百分位數。您可使用此函數來建立接受臨界值。例如，您可以決定檢驗分數高於第 90 個百分位數的維度元素。
+Returns the k-th percentile of values for a metric. You can use this function to establish a threshold of acceptance. For example, you can decide to examine dimension elements who score above the 90  percentile.
 
 ```
 PERCENTILE(metric,k)
@@ -168,25 +455,25 @@ PERCENTILE(metric,k)
 <table id="table_35CD840ACFB44CD9979881DB8823CC53"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 引數 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
+   <th colname="col1" class="entry"> Argument </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>量度</i> </td> 
-   <td colname="col2"> 定義相對位置的量度欄。 </td> 
+   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col2"> The metric column that defines relative standing. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> 0 至 100 (含) 範圍內的百分位數值。 </td> 
+   <td colname="col2"> The percentile value in the range 0 to 100, inclusive. </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 四分位數 (表格)
+## Quartile (Table) 
 
-傳回量度值的四分位數。例如，四分位數可用來尋找推動最高收入的前 25% 產品。當 quart 分別等於 0 (零)、2 和 4 時，MINV、MEDIAN 和 MAXV 會傳回與 QUARTILE 相同的值。
+Returns the quartile of values for a metric. For example, quartiles can be used to find the top 25% of products driving the most revenue. MINV, MEDIAN, and MAXV return the same value as QUARTILE when quart is equal to 0 (zero), 2, and 4, respectively.
 
 ```
 QUARTILE(metric,quart)
@@ -195,37 +482,37 @@ QUARTILE(metric,quart)
 <table id="table_64EA3DAAE77541439D59FAF0353F83A2"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 引數 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
+   <th colname="col1" class="entry"> Argument </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>量度</i> </td> 
-   <td colname="col2"> 您要擷取四分位數值的量度。 </td> 
+   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col2"> The metric for which you want the quartile value. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>quart </p> </td> 
-   <td colname="col2"> 指出傳回哪個值*。 </td> 
+   <td colname="col2"> Indicates which *value to return. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;如果 *quart* = 0，QUARTILE 會傳回最小值。 如果 *quart* = 1，QUARTILE 會傳回第一個四分位數 (第 25 個百分位數)。如果 *quart* = 2，QUARTILE 會傳回第一個四分位數 (第 50 個百分位數)。如果 *quart* = 3，QUARTILE 會傳回第一個四分位數 (第 75 個百分位數)。如果 *quart* = 4，QUARTILE 會傳回最大值。
+&#42;If *quart* = 0, QUARTILE returns the minimum value. If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). If *quart* = 4, QUARTILE returns the maximum value.
 
-## 四捨五入
+## Round 
 
-傳回給定值的最接近整數。例如，如果您不想報表中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 Round(*Revenue*) 可將收入四捨五入至最接近的美金 $569。價格 $569.51 的產品則會四捨五入至最接近的美金 $570。
+Returns the nearest integer for a given value. For example, if you want to avoid reporting currency decimals for revenue and a product has $569.34, use the formula Round( *Revenue*) to round revenue to the nearest dollar, or $569. A product reporting $569.51 will be round to the nearest dollar, or $570.
 
 ```
 ROUND(metric)
 ```
 
-| 引數 | 說明 |
+|  Argument  | Description  |
 |---|---|
-| *數字* | 您要四捨五入的量度。 |
+|  *number* | The metric you want to round.  |
 
-沒有小數參數的四捨五入值等於小數參數為 0 的四捨五入值，也就是四捨五入到最接近的整數。具有小數參數時，則會在小數點右側傳回與此值一樣多的小數位數。如果小數參數為負，則會在小數點左側傳回 0。
+Round without a digits parameter is the same as round with a digits parameter of 0, namely round to the nearest integer. With a digits parameter it returns that many digits to the right of the decimal. If digits is negative, it returns 0's to the left of the decimal.
 
 ```
 round( 314.15, 0) = 314 
@@ -234,43 +521,43 @@ round( 314.15, -1) = 310
 round( 314.15, -2) = 300
 ```
 
-## 列計數
+## Row Count 
 
-傳回指定欄的列數 (在一個維度中報告的唯一元素數)。「超出不重複值」計為 1。
+Returns the count of rows for a given column (the number of unique elements reported within a dimension). "Uniques exceeded" is counted as 1.
 
-## 列最大值
+## Row Max 
 
-每一列的最大欄數。
+The maximum of the columns in each row.
 
-## 列最小值
+## Row Min 
 
-每一列的最小欄數。
+The minimum of the columns in each row.
 
-## 列總和
+## Row Sum
 
-每一列的欄總和。
+The sum of the columns of each row.
 
-## 平方根 (列)
+## Square Root (Row) 
 
-傳回數字的正平方根。數字的平方根是該數字的 1/2 乘冪值。
+Returns the positive square root of a number. The square root of a number is the value of that number raised to the power of 1/2.
 
 ```
 SQRT(metric)
 ```
 
-| 引數 | 說明 |
+|  Argument  | Description  |
 |---|---|
-| *數字* | 您要擷取平方根的量度。 |
+|  *number* | The metric for which you want the square root.  |
 
-## 標準差 (表格)
+## Standard Deviation (Table) 
 
-根據一組資料樣本，傳回標準差 (或變異數的平方根)。
+Returns the standard deviation, or square root of the variance, based on a sample population of data.
 
-STDEV 的方程式為：
+The equation for STDEV is:
 
 ![](assets/std_dev.png)
 
-其中 x 是樣本平均值 (*量度*) 而 *n* 是樣本大小。
+where x is the sample mean (*metric*) and *n* is the sample size.
 
 ```
 STDEV(metric)
@@ -279,45 +566,45 @@ STDEV(metric)
 <table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
  <tbody> 
   <tr> 
-   <td> <b> 引數</b> </td> 
-   <td> <b> 說明</b> </td> 
+   <td> <b> Argument</b> </td> 
+   <td> <b> Description</b> </td> 
   </tr> 
   <tr> 
-   <td> <b> <i> 量度</i> </b> </td> 
-   <td> <p> 您要擷取標準差的量度。 </p> </td> 
+   <td> <b> <i> metric</i> </b> </td> 
+   <td> <p> The metric for which you want for standard deviation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 變異數 (表格)
+## Variance (Table) 
 
-根據一組資料樣本，傳回變異數。
+Returns the variance based on a sample population of data.
 
-VARIANCE 的方程式為：
+The equation for VARIANCE is:
 
 ![](assets/variance_eq.png)
 
-其中 x 是樣本平均值 MEAN(*量度*)，而 *n* 是樣本大小。
+where x is the sample mean, MEAN(*metric*), and *n* is the sample size.
 
 ```
 VARIANCE(metric)
 ```
 
-| 引數 | 說明 |
+|  Argument  | Description  |
 |---|---|
-| *量度* | 您要擷取變異數的量度。 |
+|  *metric* | The metric for which you want the variance.  |
 
-為了計算變數，請查看整欄的數字。請先從那列數字計算平均值。取得平均值後，請陸續處理每個項目，然後進行下列步驟：
+In order to calculate a variance you look at an entire column of numbers. From that list of numbers you first calculate the average. Once you have the average you go through each entry and do the following:
 
-1. 將數字減去平均值。
+1. Subtract the average from the number.
 
-2. 取結果的平方。
+2. Square the result.
 
-3. 將其加入總計。
+3. Add that to the total.
 
-反覆運算整欄之後，會得到單一合計。接著將合計除以欄中的項目數。該數字會是欄的變數。一個單一的數字。但是，它會顯示為一欄數字。
+Once you have iterated over the entire column you have a single total. You then divide that total by the number of items in the column. That number is the variance for the column. It is a single number. It is, however, displayed as a column of numbers.
 
-如果是三專案欄：
+In case of a three-item column:
 
 1
 
@@ -325,4 +612,6 @@ VARIANCE(metric)
 
 3
 
-欄平均值為 2。欄的變數將是 ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3。
+The average of this column is 2. The variance for the column will be ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.
+
+-->

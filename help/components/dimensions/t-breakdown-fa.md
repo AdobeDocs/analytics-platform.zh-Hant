@@ -6,9 +6,9 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '523'
 ht-degree: 58%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 58%
 
 * 如果欄樹中已有歸因，則變更歸因只會影響正在編輯的歸因。
 
-+++ 觀看說明劃分的影片
++++ 觀看說明維度和維度劃分的影片
 
 Analysis Workspace中的Dimension
 
