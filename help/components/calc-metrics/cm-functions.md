@@ -1,31 +1,41 @@
 ---
-title: 參考資料 - 基本函數
+title: 基本函數
 description: 計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
+source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 31%
+source-wordcount: '1185'
+ht-degree: 29%
 
 ---
 
-# 參考資料 - 基本函數
+# 基本函數
 
 
-[計算量度產生器](cm-workflow/cm-build-metrics.md)可讓您套用統計和數學函式。
-
-以下是函數及其定義的字母順序清單。
+[計算量度產生器](cm-workflow/cm-build-metrics.md)可讓您套用統計和數學函式。 本文記錄函式及其定義的字母順序清單。
 
 >[!NOTE]
 >
 >此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[COLUMN MAXIMUM（量度）](#column-maximum)也允許使用[COLUMN MAXIMUM（頁面檢視+造訪）](#column-maximum)。
 
 
+
 ## 表格函式和列函式
 
-表格函數是表格每一列的輸出都相同。列函式是表格每一列的輸出都不同的函式。 在適用和相關的情況下，函式會使用函式型別進行註解。
+表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
+
+在適用和相關的情況下，函式會以函式型別註釋： [!BADGE 表格]{type="Neutral"}[!BADGE 列]{type="Neutral"}
+
+## 「包含零」引數的意義是什麼？
+
+此參數指出是否在計算中包括零。有時零表示&#x200B;*無*，但有時很重要。
+
+例如，如果您有收入量度，然後新增頁面檢視量度至報表，您的收入會突然有更多的列，而且全都是零。 您可能不想讓額外的量度影響任何&#x200B;**[MEAN](cm-functions.md#mean)**、**[ROW MINIMUM](cm-functions.md#row-min)**、**[QUARTILE](cm-functions.md#quartile)**&#x200B;以及您在收入欄中擁有的其他計算。 在此情況下，您需要檢查`include-zeros`引數。
+
+另一種情況是，您有兩個相關量度，且其中一個的平均值或最小值較高，因為有些列是零。  在這種情況下，您可以選擇不檢查引數以包含零
+
 
 
 ## 絕對值

@@ -1,29 +1,33 @@
 ---
-title: 參考資料 - 進階函數
+title: 進階函數
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: ecf8156df0b31e81f1a5546829c6100831b2a600
+source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
 workflow-type: tm+mt
-source-wordcount: '3100'
+source-wordcount: '3126'
 ht-degree: 20%
 
 ---
 
-# 參考資料 - 進階函數
+# 進階函數
 
-在[元件]面板中選取![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 函式]**&#x200B;清單下的&#x200B;**[!UICONTROL 顯示全部]**，以存取這些函式。 向下捲動以檢視進階函式清單。
+[計算量度產生器](cm-workflow/cm-build-metrics.md)可讓您套用統計和數學函式。 本文記錄進階函式及其定義的字母順序清單。
+
+在[元件]面板中選取![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 函式]**&#x200B;清單下的&#x200B;**[!UICONTROL 顯示全部]**，以存取這些函式。 向下捲動以檢視&#x200B;**[!UICONTROL 進階函式]**&#x200B;的清單。
 
 ## 表格函式和列函式
 
-表格函數是表格每一列的輸出都相同。列函式是表格每一列的輸出都不同的函式。 在適用和相關的情況下，函式會使用函式型別進行註解。
+表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
+
+在適用和相關的情況下，函式會以函式型別註釋： [!BADGE 表格]{type="Neutral"}[!BADGE 列]{type="Neutral"}
 
 ## 「包含零」引數的意義是什麼？
 
 此參數指出是否在計算中包括零。有時零表示&#x200B;*無*，但有時很重要。
 
-例如，如果您有收入量度，然後新增頁面檢視量度至報表，您的收入會突然有更多的列，而且全都是零。 您可能不想讓額外的量度影響任何[MEAN](cm-functions.md#mean)、[MIN](cm-functions.md#row-min)、[QUARTILE](cm-functions.md#quartile)以及您在收入欄中擁有的其他計算。 在此情況下，您需要檢查`include-zeros`引數。
+例如，如果您有收入量度，然後新增頁面檢視量度至報表，您的收入會突然有更多的列，而且全都是零。 您可能不想讓額外的量度影響任何&#x200B;**[MEAN](cm-functions.md#mean)**、**[ROW MINIMUM](cm-functions.md#row-min)**、**[QUARTILE](cm-functions.md#quartile)**&#x200B;以及您在收入欄中擁有的其他計算。 在此情況下，您需要檢查`include-zeros`引數。
 
 另一種情況是，您有兩個相關量度，且其中一個的平均值或最小值較高，因為有些列是零。  在這種情況下，您可以選擇不檢查引數以包含零。
 
@@ -918,13 +922,13 @@ CDF-Z(-3) ? 0.0013499
 
 **範例：**
 
-1. 用其找出極端值：
+1. 使用函式來尋找離群值：
 
    ```
    T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2)
    ```
 
-1. 將其與&#x200B;**[IF](#if)**&#x200B;合併，以忽略非常高或非常低的反彈率，然後統計其他專案上的工作階段：
+1. 結合函式與&#x200B;**[IF](#if)**&#x200B;以忽略非常高或非常低的反彈率，然後統計其他專案的工作階段：
 
    ```
    IF(T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2) < 0.01, 0, sessions )
