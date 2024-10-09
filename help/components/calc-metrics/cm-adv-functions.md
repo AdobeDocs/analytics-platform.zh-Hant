@@ -4,7 +4,7 @@ description: 勾選函數下拉式清單中的顯示進階即可存取這些函�
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
+source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
 workflow-type: tm+mt
 source-wordcount: '3126'
 ht-degree: 20%
@@ -168,7 +168,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 信賴度(normalizing-container， success-metric， control， implementation-treshold)]**
 
-使用WASKR方法計算隨時有效的信賴度&#x200B;**下限**，如[時間統一中心限制理論和漸近信賴序列](http://arxiv.org/pdf/2103.06476)中所述。
+使用WASKR方法計算隨時有效的信賴度&#x200B;**下限**，如[時間統一中心限制理論和漸近信賴序列](https://arxiv.org/pdf/2103.06476)中所述。
 
 信賴度指有多少證據顯示指定變體與控制變體相同的機率測度。 信賴度越高表示控制和非控制變體具有相同績效假設的證據越少。
 
@@ -183,7 +183,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 信賴度(normalizing-container， success-metric， control， implementation-treshold)]**
 
-使用WASKR方法計算隨時有效的信賴度&#x200B;**上限**，如[時間統一中心限制理論和漸近信賴序列](http://arxiv.org/pdf/2103.06476)中所述。
+使用WASKR方法計算隨時有效的信賴度&#x200B;**上限**，如[時間統一中心限制理論和漸近信賴序列](https://arxiv.org/pdf/2103.06476)中所述。
 
 信賴度指有多少證據顯示指定變體與控制變體相同的機率測度。 信賴度越高表示控制和非控制變體具有相同績效假設的證據越少。
 
