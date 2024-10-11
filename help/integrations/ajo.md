@@ -1,17 +1,17 @@
 ---
-title: 將 Adobe Journey Optimizer 與 Customer Journey Analytics 整合
+title: 整合Adobe Journey Optimizer
 description: 導入 Adobe Journey Optimizer 產生的資料，並使用 Customer Journey Analytics 中的 Analysis Workspace 進行分析。
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 5434b8432608ba5ee49f7062070fa1624af1b46a
-workflow-type: ht
-source-wordcount: '3028'
-ht-degree: 100%
+source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
+workflow-type: tm+mt
+source-wordcount: '3020'
+ht-degree: 99%
 
 ---
 
-# 將 Journey Optimizer 與 Customer Journey Analytics 整合
+# 整合Journey Optimizer
 
 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/get-started) 可幫助您提供連線、情境式和個人化的體驗。 它有助於讓您的客戶了解其客戶歷程中的下一步。
 
@@ -117,7 +117,7 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 | AJO 訊息意見回饋事件資料集 | 事件 | 人員 ID：`IdentityMap` | 包含訊息傳送事件，例如「[!UICONTROL 傳送數]」和「[!UICONTROL 退回數]」。 |
 | AJO 電子郵件追蹤體驗事件資料集 | 事件 | 人員 ID：`IdentityMap` | 包含電子郵件追蹤事件，例如「[!UICONTROL 開啟數]」、「[!UICONTROL 點擊數]」和「[!UICONTROL 取消訂閱數]」。 |
 | AJO 推播追蹤體驗事件資料集 | 事件 | 人員 ID：`IdentityMap` | 包含推播追蹤事件，例如「[!UICONTROL 應用程式啟動數]」。 |
-| 歷程步驟事件 | 事件 | 人員 ID：`_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 包含顯示哪個設定檔參與過歷程各個節點的事件。 |
+| 歷程步驟事件 | 事件 | 人員 ID：`_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 包含顯示哪個輪廓參與過歷程各個節點的事件。 |
 | AJO 實體資料集 | 查詢 | 索引鍵：`_id`<br>相符的索引鍵：`_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | 包含將 Journey 和 Campaign 中繼資料與所有 Journey Optimizer 事件資料建立關聯的分類。 |
 
 {style="table-layout:auto"}
@@ -194,14 +194,14 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 | 傳入點按次數 (AJO) | 跨傳入管道的點按總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件類型：量度 |
 | 傳入解除次數 (AJO) | 跨傳入管道的關閉總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 元件類型：量度 |
 | 傳入曝光 (AJO) | 跨傳入管道的曝光總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
-| 歷程結束 (AJO) | 如果目前步驟會結束歷程執行個體，則為 True。該特定設定檔歷程的最後一個步驟已成功執行。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.instanceEnded` | 元件類型：量度 |
-| 歷程進入 (AJO) | 如果步驟事件是設定檔的歷程進入事件，則為真。 | 歷程步驟事件 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
-| 歷程退出 (AJO) | 如果目前步驟會結束歷程執行個體，則為 True。該特定設定檔歷程的最後一個步驟已成功執行。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.instanceEnded` | 元件類型：量度 |
+| 歷程結束 (AJO) | 如果目前步驟會結束歷程執行個體，則為 True。該特定輪廓歷程的最後一個步驟已成功執行。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.instanceEnded` | 元件類型：量度 |
+| 歷程進入 (AJO) | 如果步驟事件是輪廓的歷程進入事件，則為真。 | 歷程步驟事件 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
+| 歷程退出 (AJO) | 如果目前步驟會結束歷程執行個體，則為 True。該特定輪廓歷程的最後一個步驟已成功執行。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.instanceEnded` | 元件類型：量度 |
 | 歷程失敗 (AJO) | 給予已完成執行之步驟的目前狀態。可能的值：`Transitions` (下一個步驟將在事件轉變時發生)、`EndStep` (此歷程執行個體中的最後步驟已執行)、`Error` (此步驟遇到錯誤條件，並結束目前歷程執行個體)、`TimedOut` (目前步驟因擷取或動作逾時而結束)。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.stepStatus` | 元件類型：量度 |
 | 登陸頁面點按 (AJO) | 登陸頁面的點按總數。 | AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
 | 登陸頁面轉換 (AJO) | 登陸頁面的轉換總數。 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 元件類型：量度 |
 | 登陸頁面檢視 (AJO) | 登陸頁面的檢視總數。 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 元件類型：量度 |
-| 節點進入 (AJO) | 如果步驟事件是設定檔的節點進入事件，則為真。 | 歷程步驟事件 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
+| 節點進入 (AJO) | 如果步驟事件是輪廓的節點進入事件，則為真。 | 歷程步驟事件 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
 | 傳出點按次數 (AJO) | 跨傳出管道的點按總數 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 元件類型：量度 |
 | 傳出錯誤 (AJO) | 跨傳出管道出現錯誤的訊息總數 | AJO 訊息意見回饋事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度 |
 | 傳出排除 (AJO) | 跨傳出管道的排除事件總數 | AJO 訊息意見回饋事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度 |

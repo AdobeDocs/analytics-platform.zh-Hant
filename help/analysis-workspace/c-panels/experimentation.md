@@ -4,10 +4,10 @@ title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 835f061a5fdc52b39a7c8fee1e3ce474118d0e68
 workflow-type: tm+mt
-source-wordcount: '2167'
-ht-degree: 23%
+source-wordcount: '2145'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_experimentation_button"
 >title="實驗"
->abstract="建立面板來比較不同的使用者體驗、行銷或傳送訊息變化。 並決定哪些變異最適合推動特定結果。"
+>abstract="建立一個面板來比較不同的使用者體驗、行銷或傳送訊息變化版本。並確定哪種變化版本最能產生特定結果。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_experimentation_panel"
 >title="實驗"
->abstract="比較不同的使用者體驗、行銷或傳送訊息變化，以確定哪一個產生特定結果的績效最好。<br/><br/>**引數&#x200B;**<br/>**實驗**：將要分析的實驗。<br>**控制變體**：所選實驗的控制變體。<br/>**成功量度**：最多5個可分析實驗的標準（非計算）成功量度。<br/>**標準化量度**：人員、工作階段或事件。 此量度 (也稱為計數方法) 會成為提升度計算的分母。此量度也會影響在套用可信度計算之前彙總資料的方式。"
+>abstract="比較不同的使用者體驗、行銷或傳送訊息變化版本，以確定哪一個最能產生特定結果。<br/><br/>**引數&#x200B;**<br/>**實驗**：已分析的實驗。<br>**對照變化版本**：所選實驗的對照變化版本。<br/>**成功量度**：最多可使用 5 個標準 (非計算) 成功量度來分析實驗。<br/>**標準化量度**：人員、工作階段或事件。 此量度 (也稱為計數方法) 會成為提升度計算的分母。此量度也會影響在套用可信度計算前彙總資料的方式。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ ht-degree: 23%
 
 ## 存取控制 {#access}
 
-實驗面板可供所有Customer Journey Analytics使用者使用。 不需要管理員權限或其他權限。不過，[必要條件](#prerequisites)需要只有系統管理員才能執行的動作。
+實驗面板可供所有Customer Journey Analytics使用者使用。 不需要管理員權限或其他權限。不過，先決條件需要只有管理員才能執行的動作。
 
 ## 計算量度中的新函式
 
@@ -52,6 +52,7 @@ ht-degree: 23%
 ### 建立與實驗資料集的連線
 
 建議的資料結構描述是針對在[「物件」陣列](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) 中的實驗資料，其中包含在二個獨立維度中的實驗與變數資料。 兩個維度都必須在&#x200B;**單一**&#x200B;物件陣列中。 如果您的實驗資料在單一維度中（實驗與變數資料在分隔字串中），您可以使用資料檢視中的[substring](/help/data-views/component-settings/substring.md)設定將維度一分為二，以便用於面板中。
+
 
 在您的實驗資料已[擷取](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)到Adobe Experience Platform之後，[在Customer Journey Analytics](/help/connections/create-connection.md)中建立與一個或多個實驗資料集的連線。
 
@@ -79,8 +80,6 @@ Experimentation和Experimentation Variant的![內容標籤選項。](assets/cont
 
 1. 觀察面板的[輸出](#panel-output)。
 
-   ![Experiention面板拖曳到專案中。](assets/experiment.png)
-
    >[!IMPORTANT]
    >
    >如果尚未完成Customer Journey Analytics資料檢視中的必要設定，在可以繼續之前，您會收到此訊息： [!UICONTROL 請在資料檢視中設定實驗與變體維度]。
@@ -92,13 +91,15 @@ Experimentation和Experimentation Variant的![內容標籤選項。](assets/cont
 
 1. 設定面板輸入設定：
 
+   ![Experiention面板拖曳到專案中。](assets/experiment-input.png)
+
    | 設定 | 定義 |
    | --- | --- |
    | **[!UICONTROL 日期範圍]** | Experimentation面板的日期範圍會根據所選取實驗在Customer Journey Analytics中收到的第一個事件自動設定。 如果需要，您可以更具體的時間範圍來限制或擴大日期範圍。 |
    | **[!UICONTROL 實驗]** | 一組向一般使用者展示的體驗變體，用來決定要永久儲存的最佳變體。 一個實驗由兩個或多個變體組成，其中一個會視為控制變體。此設定預先填入了資料檢視中已用&#x200B;**[!UICONTROL Experiment]**&#x200B;標籤標籤的維度，以及過去3個月的實驗資料。 |
    | **[!UICONTROL 控制變體]** | 一般使用者體驗中的兩個或多個變動之一，它們會被比較以找出較好的替代方案。必須選擇一種變體作為對照，並且只能將一種變體視為控制變體。此設定預先填入了資料檢視中已用&#x200B;**[!UICONTROL 變體]**&#x200B;標籤標籤的維度。 此設定會提取與此實驗關聯的變體資料。 |
-   | **[!UICONTROL 成功量度]** | 使用者用來比較變體的一個或多個量度。轉換量度 (無論是最高還是最低) 具有最理想結果的變體會宣告為實驗的「最佳表現變體」。可最多新增 5 個量度。 |
-   | **[!UICONTROL 標準化量度]** | 執行測試的基礎（[!UICONTROL 人員]、[!UICONTROL 工作階段]或[!UICONTROL 事件]）。 例如，測試可能會比較幾種變體的轉換率，其中&#x200B;**[!UICONTROL 轉換率]**&#x200B;是以&#x200B;**[!UICONTROL 每個工作階段轉換次數]**&#x200B;或&#x200B;**[!UICONTROL 每人轉換次數]**&#x200B;計算。 |
+   | **[!UICONTROL 成功量度]**➊ | 使用者用來比較變體的一個或多個量度。轉換量度（最高或最低）具有最理想結果的變體會宣告為實驗的&#x200B;*最佳表現變體*。 可最多新增 5 個量度。 |
+   | **[!UICONTROL 標準化量度]**➋ | 執行測試的基礎（[!UICONTROL 人員]、[!UICONTROL 工作階段]或[!UICONTROL 事件]）。 例如，測試可能會比較幾種變體的轉換率，其中&#x200B;**[!UICONTROL 轉換率]**&#x200B;是以頁面檢視計算 |
    | **[!UICONTROL 包含信賴上/下限]** | 啟用此選項可顯示信賴水準的上限和下限。 |
 
 
@@ -106,17 +107,14 @@ Experimentation和Experimentation Variant的![內容標籤選項。](assets/cont
 
 ### 面板輸出
 
-Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助您更好地了解實驗的執行情況。面板頂端會提供一個摘要行，提示您所選取的面板設定。您可以隨時選取右上方的編輯鉛筆來編輯面板。
+Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助您更好地了解實驗的執行情況。面板頂端會提供[摘要變更](../visualizations/summary-number-change.md)視覺效果，提醒您所選取的面板設定。 您可以隨時選取右上方的編輯鉛筆來編輯面板。
 
 您還將收到文字摘要，以表示實驗是否具有結論性，並總結結果。結論性是以統計顯著性為基礎（請參閱[統計方法](#adobes-statistical-methodology)）。 您可以查看具有最高提升度和信賴度的最佳表現變體總結數字。
 
-對於您所選取的每個成功量度，都會顯示一個自由表格和一個轉換率趨勢。
+針對您選取的每個成功量度，都會顯示[自由表格](../visualizations/freeform-table/freeform-table.md)視覺效果和轉換率[行](../visualizations/line.md)視覺效果。
 
-![實驗輸出顯示一個自由表格和一個轉換率趨勢。](assets/exp-output1.png)
+![實驗輸出顯示一個自由表格和一個轉換率趨勢。](assets/experiment-output.png)
 
-[!UICONTROL 折線圖]可提供[!UICONTROL 控制]與[!UICONTROL 控制變體]的績效：
-
-![線圖輸出顯示控制與控制變體效能。](assets/exp-output2.png)
 
 >[!NOTE]
 >
@@ -124,11 +122,11 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 
 #### 解讀結果
 
-1. **實驗已有結果**：每次檢視實驗報告時，都會分析到目前為止在實驗中累積的資料。 對於&#x200B;*至少一個*&#x200B;變體，當隨時有效的信賴度超過95%的臨界值時，分析會宣告實驗為具有結論性。 如果有兩個以上的手臂，會套用Benjamini-Hochberg校正，以校正多個假設檢驗。
+1. **實驗已有結果**：每次檢視實驗報告時，都會分析到目前為止在實驗中累積的資料。 當&#x200B;*至少一個*&#x200B;變體的&#x200B;*anytime*&#x200B;有效信賴度超過95%臨界值時，分析會宣告實驗為具有結論性。 如果有兩個以上的手臂，會套用Benjamini-Hochberg校正，以校正多個假設檢驗。
 
-2. **最佳表現變體**：當一個實驗宣告為具有結論性時，具有最高轉換率的變體將標籤為最佳表現變體。 請注意，此變體必須是控制變體或基線變體，或者是超過95%隨時有效信賴度臨界值的變體之一（套用Benjamini-Hochberg校正）。
+2. **最佳表現變體**：當一個實驗宣告為具有結論性時，具有最高轉換率的變體將標籤為最佳表現變體。 請注意，此變體必須是控制變體或基線變體，或是超過95% *anytime*&#x200B;有效信賴度臨界值的變體之一（套用Benjamini-Hochberg校正）。
 
-3. **轉換率**：顯示的轉換率是成功量度值與標準化量度值的比例。 請注意，如果量度不是二進位（實驗中的每個單位為1或0），此值有時可能大於1
+3. **轉換率**：顯示的轉換率是成功量度值➊與標準化量度值的比➋率。 請注意，如果量度不是二進位（實驗中的每個單位為1或0），此值可以大於1
 
 4. **提升度**：實驗報告摘要會顯示提升基線，它衡量了指定變體的轉換率相對於基線的增進百分比。 準確來說，這是指定變體與基線之間的績效差異，除以基線的績效 (以百分比表示)。
 

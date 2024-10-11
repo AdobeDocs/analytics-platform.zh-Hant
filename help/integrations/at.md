@@ -1,17 +1,17 @@
 ---
-title: Adobe Customer Journey Analytics中的Target報表
+title: Target報告
 description: 將Adobe Target與Customer Journey Analytics整合
 feature: Experience Platform Integration
 role: User
 exl-id: 0b52af5b-b65c-4929-9ca3-547a640936f3
-source-git-commit: b189776de8cadae3a93c717b6814f2130ab1be43
+source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 40%
+source-wordcount: '375'
+ht-degree: 41%
 
 ---
 
-# Adobe Customer Journey Analytics中的Target報表
+# Target報告
 
 Customer Journey Analytics中的Target報表功能可讓您直接在Customer Journey Analytics中測量及報告Adobe Target活動。 此功能相當於Adobe Analytics (AA)中透過Analytics for Target (A4T)所執行的工作，但與Adobe Experience Platform (AEP)連線。
 

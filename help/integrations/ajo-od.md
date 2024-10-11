@@ -1,20 +1,20 @@
 ---
-title: 整合 Adobe Journey Optimizer 決策管理和 Adobe Customer Journey Analytics
+title: 整合Adobe Journey Optimizer決定管理
 description: 導入 Adobe Journey Optimizer 決策管理產生的資料，並使用 Customer Journey Analytics 中的 Analysis Workspace 進行分析。
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 027ff3983c67481dd8284667d97f59f427b18928
+source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 100%
+source-wordcount: '701'
+ht-degree: 98%
 
 ---
 
-# 整合決策管理和 Adobe Customer Journey Analytics
+# 整合決定管理
 
 
-Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)透過集中行銷優惠資料庫和決策引擎來輕鬆實現個人化；該決策引擎會將規則和限制套用至 Adobe Experience Platform 建立的豐富即時設定檔，協助您在適當的時間向客戶傳送適合的優惠。
+Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)透過集中行銷產品建議資料庫和決策引擎來輕鬆實現個人化；該決策引擎會將規則和限制套用至 Adobe Experience Platform 建立的豐富即時輪廓，協助您在適當的時間向客戶傳送適合的產品建議。
 
 決策管理是 Adobe Journey Optimizer 的一部分，且與其整合。它也可以在 Adobe Journey Optimizer 定義的歷程和行銷活動以外獨立使用，從而運用其豐富的 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html) 支援。
 
@@ -74,11 +74,11 @@ Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Cu
 | 決策選項分數 | 單一範圍情境中決策選項的計算值。 | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | 元件類型：量度 |
 | 備援決策選項分數 | 單一範圍情境中備援決策選項的計算值。 | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | 元件類型：量度 |
 | 優惠關閉 | 在沒有任何其他直接互動的情況下關閉或拒絕的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 元件類型：量度 |
-| 優惠顯示 | 對設定檔顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
-| 優惠互動 | 與設定檔互動的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件類型：量度 |
-| 優惠傳送 | 對設定檔傳送的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.send` | 元件類型：量度 |
+| 優惠顯示 | 對輪廓顯示的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
+| 優惠互動 | 與輪廓互動的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件類型：量度 |
+| 優惠傳送 | 對輪廓傳送的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.send` | 元件類型：量度 |
 | 優惠觸發 | 選擇透過用戶端 SDK 顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件類型：量度 |
-| 優惠取消訂閱 | 設定檔要求未來不要顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | 元件類型：量度 |
+| 優惠取消訂閱 | 輪廓要求未來不要顯示的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | 元件類型：量度 |
 
 {style="table-layout:auto"}
 

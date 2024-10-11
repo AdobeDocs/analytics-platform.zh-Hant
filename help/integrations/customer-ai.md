@@ -1,18 +1,18 @@
 ---
 description: 了解 Adobe Experience Platform Customer AI 資料如何與 Customer Journey Analytics 中的 Workspace 整合。
-title: 整合 Customer AI 資料與 Customer Journey Analytics
+title: 整合Customer AI資料
 role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: c26829d7a53e9ba8d5faf731a8a1dca2e741bf21
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 100%
+source-wordcount: '959'
+ht-degree: 99%
 
 ---
 
-# 整合 Customer AI 資料與 Adobe Customer Journey Analytics
+# 整合Customer AI資料
 
 {{release-limited-testing}}
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 在影響因子的協助下，Customer AI 可告知您客戶可能會有什麼行為以及原因何在。 此外，行銷人員可受益於 Customer AI 預測和洞見，藉由提供最適合的方案和訊息來打造個人化客戶體驗。
 
-Customer AI 需要使用個別行為資料和個人資料來處理傾向分數。 Customer AI 具有靈活彈性，可接收多個資料來源，包括 Adobe Analytics、Adobe Audience Manager、取用者體驗事件資料和體驗事件資料。 如果您使用 Experience Platform 來源連接器引進 Adobe Audience Manager 和 Adobe Analytics 資料，模型會自動挑選標準事件類型來訓練及評分模型。 如果您引進自己的體驗事件資料集，但不包含標準事件類型，如果您想在模型中使用任何相關欄位，則需要將其對應為自訂事件或個人資料屬性。 此動作可以在 Experience Platform 中的 Customer AI 設定步驟中完成。
+Customer AI 需要使用個別行為資料和輪廓來處理傾向分數。 Customer AI 具有靈活彈性，可接收多個資料來源，包括 Adobe Analytics、Adobe Audience Manager、取用者體驗事件資料和體驗事件資料。 如果您使用 Experience Platform 來源連接器引進 Adobe Audience Manager 和 Adobe Analytics 資料，模型會自動挑選標準事件類型來訓練及評分模型。 如果您引進自己的體驗事件資料集，但不包含標準事件類型，如果您想在模型中使用任何相關欄位，則需要將其對應為自訂事件或輪廓屬性。 此動作可以在 Experience Platform 中的 Customer AI 設定步驟中完成。
 
 Customer AI 可以與 Customer Journey Analytics 整合到一定的程度，以便具備 Customer AI 功能的資料集能夠在 Customer Journey Analytics 的資料視圖和報告中運用。您可以：
 
@@ -57,7 +57,7 @@ Customer AI 可以與 Customer Journey Analytics 整合到一定的程度，以�
 
 >[!IMPORTANT]
 >
->如果在步驟 1 的設定期間對 Customer Journey Analytics 開啟了分數功能，則每個 Customer AI 執行個體都會有兩個輸出資料集。其中一個輸出資料集為個人資料 XDM 格式，另一個為體驗事件 XDM 格式。
+>如果在步驟 1 的設定期間對 Customer Journey Analytics 開啟了分數功能，則每個 Customer AI 執行個體都會有兩個輸出資料集。其中一個輸出資料集為輪廓 XDM 格式，另一個為體驗事件 XDM 格式。
 
 ![CAI 分數](assets/cai-scores.png)
 
@@ -67,7 +67,7 @@ Customer AI 可以與 Customer Journey Analytics 整合到一定的程度，以�
 
 ![CAI 結構描述](assets/cai-schema.png)
 
-(請注意，此範例為設定檔資料集；相同一組結構描述物件將成為 Customer Journey Analytics 擷取之 Experience Event 資料集的一部分。體驗事件資料集會包含時間戳記當作評分日期。) 在此模型中被評分的每個客戶都會有與其相關的分數、評分日期等。
+(請注意，此範例為輪廓資料集；相同一組結構描述物件將成為 Customer Journey Analytics 擷取之 Experience Event 資料集的一部分。體驗事件資料集會包含時間戳記當作評分日期。) 在此模型中被評分的每個客戶都會有與其相關的分數、評分日期等。
 
 ## 步驟 3：根據這些連線建立資料檢視
 

@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 94%
+source-wordcount: '570'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_settings"
 >title="元件設定"
->abstract="檢視及設定名稱、說明和與元件相關的其他設定。<br/><br/>**引數&#x200B;**<br/>**隱藏報告中的元件**：核取此方塊會在報告中隱藏此元件，使非管理員使用者無法檢視。 管理員仍可以透過在Workspace專案中選取「**[!UICONTROL 顯示所有元件]**」來存取它。"
+>abstract="檢視及設定名稱、說明和與元件相關的其他設定。<br/><br/>**參數&#x200B;**<br/>**隱藏報告中的元件**：在報告中選取此方塊向非管理員使用者隱藏此元件。管理員仍可以選取 Workspace 專案中的「**[!UICONTROL 顯示所有元件]**」來進行存取。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -43,7 +43,7 @@ ht-degree: 94%
 | [!UICONTROL 元件名稱] | 必填。可讓您指定在 Analysis Workspace 中顯示的友好名稱。您可以重新命名元件，給它一個特定於資料檢視的名稱。 |
 | [!UICONTROL 說明] | 選填，但建議。為其他使用者提供有關元件的資訊。 |
 | [!UICONTROL 標籤] | 選填。可讓您使用自訂或現成可用的標籤來標記元件，以便在 Analysis Workspace UI 中更輕鬆地進行搜尋/篩選。 |
-| [!UICONTROL 內容標籤] | 選填。可套用至元件之可用系統定義標籤的下拉式清單。可能需要用這些標籤來定義一組用於在 Analysis Workspace 專案或面板中報告的元件。 |
+| [!UICONTROL 內容標籤] | 選填。可套用至元件之可用系統定義標籤的下拉式清單。可能需要這些標籤來定義一組元件，您可以在Analysis Workspace專案中使用[實驗面板](/help/analysis-workspace/c-panels/experimentation.md)在實驗報表中使用。 如需詳細資訊，請參閱[與Journey Optimizer](/help/integrations/ajo.md#data-view)和[Target報告](/help/integrations/at.md)整合。 |
 | [!UICONTROL 結構描述欄位名稱] | 結構描述欄位的名稱。 |
 | [!UICONTROL 資料集類型] | 必填。不可編輯的欄位，顯示元件來自的資料集類型 (事件、查詢或輪廓)。 |
 | [!UICONTROL 資料集] | 不可編輯的欄位，顯示元件來自的資料集。此欄位可包含多個資料集。 |
