@@ -4,10 +4,10 @@ title: 流量概觀
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 73%
+source-wordcount: '362'
+ht-degree: 53%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 73%
 
 +++
 
-## 維度間流量
+## 維度間流程
 
 您可以顯示[維度之間的流量](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在此例中，您的流量可能來自首頁、前往「男性」頁面，接著前往「鞋子」部門。
 
@@ -56,3 +56,22 @@ ht-degree: 73%
 >[設定流量視覺效果](/help/analysis-workspace/visualizations/c-flow/create-flow.md)。
 >
 
+## 在「流量」、「流失」或「歷程畫布」視覺效果之間選擇
+
+流量視覺效果與[流失視覺效果](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)和[歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)有共同之處，但有重要的差異。
+
+### 瞭解差異
+
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
+
+{{journey-visualization-comparisons}}
+
+### 何時使用流量
+
+流量視覺效果最適合用於：
+
+* 探索性的Ad Hoc Analysis，用於路徑上的下一個直接接觸點。 （對於具有預先定義的頁面順序或使用最終路徑的歷程，請使用歷程畫布。）
+
+* 具有多個入口點和路徑的非線性歷程。 （對於具有預先定義之頁面順序的歷程，請使用歷程畫布。）
+
+使用[上表](#understand-the-differences)瞭解流量、流失和歷程畫布之間的差異。

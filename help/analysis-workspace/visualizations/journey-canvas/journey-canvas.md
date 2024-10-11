@@ -4,10 +4,10 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 7a8c1dd1135f827acfe09f39823c6fbefbcd444d
+source-git-commit: 609aac6e0a2231b15296945dbf9dd4f917fb9a19
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 2%
+source-wordcount: '1606'
+ht-degree: 1%
 
 ---
 
@@ -82,32 +82,31 @@ Journey畫布中最顯著的深入分析會顯示為畫布本身的頂端標題�
 
 * 在歷程的任何節點上新增劃分維度，以檢視該特定節點的其他資料
 
-## 在歷程畫布和流失視覺效果之間選擇
+## 在歷程畫布、流失或流量視覺效果之間選擇
 
-歷程畫布視覺效果類似[流失視覺效果](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)，這兩個視覺效果都顯示人員從何處離開（流失）或繼續通過（流過）預先定義的頁面序列。
-
-不過，兩者之間還是有重大差異。
+歷程畫布視覺效果與[流失視覺效果](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)和[流量視覺效果](/help/analysis-workspace/visualizations/c-flow/flow.md)有共同之處，但有重要的差異。
 
 ### 瞭解差異
 
-下表顯示「歷程」畫布視覺效果和「流失」視覺效果中支援的分析型別：
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
 
-| 函數 | 歷程畫布視覺效果 | 流失視覺效果 |
-|---------|----------|---------|
-| 線性歷程 | 有 | 有 |
-| 具有多個入口點和路徑的非線性歷程 | 有 | 無 |
-| Adobe Journey Optimizer歷程 | 有 | 無 |
-| 主要量度 | 任何量度，包括計算量度 | 只能使用「工作階段」或「使用者」量度 |
-| 次要量度 | 是<p>任何量度，包括計算量度</p> | 否 |
-| 比較篩選器 | 無 | 是<p>比較[不限數量的篩選器](/help/analysis-workspace/visualizations/fallout/compare-segments-fallout.md#compare-filters-in-fallout)</p> |
+{{journey-visualization-comparisons}}
 
-### 選擇要使用的視覺效果
+### 何時使用歷程畫布
 
-在選擇使用歷程畫布或流失之前，請務必[瞭解兩者之間的差異](#understand-the-differences)。
+歷程畫布對以下專案至關重要：
 
-如果您的流失分析只涉及具有單一已知開始和結束的線性歷程，請考慮使用[流失視覺效果](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)作為這些更直接的使用者歷程的更簡單選項。
+* 涉及具有多個進入點和路徑的歷程的流失分析。
 
-歷程畫布對於包含具有多個入口點和路徑的歷程的流失分析，或對於分析在Journey Optimizer中建立的歷程至關重要。
+* 具有多個入口點和路徑的非線性歷程，具有預先定義的頁面順序。
+
+* 探索性的Ad Hoc Analysis，根據預先定義的歷程。
+
+* 分析需要「工作階段」、「人員」或「發生次數」以外的主要量度。
+
+* 對源自Adobe Journey Optimizer的歷程進行更深入的分析。
+
+使用[上表](#understand-the-differences)來瞭解「歷程」畫布、「流失」和「流量」視覺效果之間的差異。
 
 ## 分析Journey Optimizer歷程
 

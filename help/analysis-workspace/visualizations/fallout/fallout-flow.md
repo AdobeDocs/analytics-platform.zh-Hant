@@ -4,10 +4,10 @@ title: 關於流失報表和視覺效果
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 02055bd9e6c7bb7b909d6ac0e3822a98ff147443
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 51%
+source-wordcount: '331'
+ht-degree: 32%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 51%
 
 +++
 
-「流失」視覺效果提供更多選項，供您建立流失報表。流失視覺效果可讓您：
+流失視覺效果可讓您：
 
 * 在同一份報表中，執行兩個不同篩選器的並排比較。
 * 拖放（並重新排列）漏斗步驟（接觸點）。
@@ -45,11 +45,31 @@ ht-degree: 51%
 
 例如，您可以在購買程式期間追蹤個人的流失點。 只要選取起始接觸點和結論接觸點，然後新增中間接觸點即可建立網站導覽路徑。但您也可以執行多維度流失。
 
-流失視覺效果很適合用於分析：
+## 在流失、流量和歷程畫布視覺效果之間選擇
+
+流失視覺效果與[流量視覺效果](/help/analysis-workspace/visualizations/c-flow/flow.md)和[歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)有共同之處。
+
+### 瞭解差異
+
+<!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
+
+{{journey-visualization-comparisons}}
+
+### 流失使用時機
+
+流失和[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)視覺效果都有助於分析：
 
 * 網站特定過程的轉換率 (例如購買或註冊過程)。
 * 更廣泛的一般流量流程：此流量可顯示在造訪首頁的使用者中，執行了多少次搜尋。 最後有多少人檢視了特定專案。
 * 網站上事件之間的關聯。關聯顯示在瀏覽過隱私政策的人當中，有百分之幾的人接下來執行了購買操作。
+
+流失視覺效果最適合下列用途：
+
+* 包含具有預先定義頁面順序和單一進入點與路徑的歷程的流失分析。 （使用歷程畫布處理具有多個入口點和路徑的歷程。）
+
+* 需要在同一份報告中執行兩個不同篩選器的並排比較的歷程。
+
+使用[上表](#understand-the-differences)來瞭解「歷程」畫布、「流失」和「流量」視覺效果之間的差異。
 
 >[!MORELIKETHIS]
 >
