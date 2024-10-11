@@ -1,24 +1,24 @@
 ---
 description: 篩選器產生器提供的畫布可用來拖放量度Dimension、篩選器和事件，以便根據容器階層邏輯、規則和運運算元來篩選人員。 此整合式開發工具可讓您建立並儲存簡單或複雜的篩選器，用於識別跨造訪和事件的人員屬性和動作。
-title: 建立篩選器
+title: 建置篩選器
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
 source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
 source-wordcount: '1450'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# 建立篩選器 {#build-filters}
+# 建置篩選器 {#build-filters}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_createaudience"
 >title="建立客群"
->abstract="您可以透過篩選建立客群，並與 Adobe Experience Platform 共用以啟用客群。"
+>abstract="客群可以透過篩選器建立，並與 Adobe Experience Platform 共用以進行啟用。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -150,7 +150,7 @@ CA和平板電腦的![棧疊篩選器](assets/filter-ca-tablet-stacked.png)
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_attribution_repeating"
 >title="重複"
->abstract="包含維度的例項和持續值。"
+>abstract="包括維度的例項和持續值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -159,7 +159,7 @@ CA和平板電腦的![棧疊篩選器](assets/filter-ca-tablet-stacked.png)
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_attribution_instance"
 >title="例項"
->abstract="包含維度的例項和持續值。"
+>abstract="包括維度的例項和持續值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -168,7 +168,7 @@ CA和平板電腦的![棧疊篩選器](assets/filter-ca-tablet-stacked.png)
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_attribution_nonrepeatinginstance"
 >title="非重複的例項"
->abstract="包含維度的唯一（非重複）例項。"
+>abstract="包括維度的唯一例項 (非重複) 例項。"
 
 <!-- markdownlint-enable MD034 -->
 

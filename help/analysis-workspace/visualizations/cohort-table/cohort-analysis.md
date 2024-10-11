@@ -7,7 +7,7 @@ role: User
 source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 25%
+ht-degree: 37%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_cohorttable_button"
 >title="同類群組表格"
->abstract="建立同類群組視覺效果，根據事件完成情況將使用者分組，並分析一段時間的持續參與和流失率。"
+>abstract="建立同類群組視覺效果，根據事件的完成情形將使用者分組，並分析一段時間內的持續參與度和流失情況。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_cohorttable_panel"
->title="群組表格"
->abstract="根據事件的完成情況分組使用者，然後分析他們在一段時間內的持續參與和流失率。<br/><br/>**引數&#x200B;**<br/>**包含條件**：用來定義初始訪客同類群組的元件。<br/>**回訪條件**：用來判斷訪客是否已回訪的元件。"
+>title="同類群組表格"
+>abstract="根據事件的完成情形將使用者分組，然後分析他們在一段時間內的持續參與度及流失情況。<br/><br/>**參數&#x200B;**<br/>**包含條件**：這些元件用以定義初始訪客同類群組。<br/>**回訪條件**：這些元件用以判斷訪客是否已回訪。"
 
 <!-- markdownlint-enable MD034 -->
 

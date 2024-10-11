@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 14%
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_donut_button"
 >title="環形圖"
->abstract="建立環形圖視覺效果來比較整體所佔百分比，通常包含專案較少。"
+>abstract="建立環形圖視覺效果來比較整體的百分比，通常包含的項目較少。"
 
 <!-- markdownlint-enable MD034 -->
 

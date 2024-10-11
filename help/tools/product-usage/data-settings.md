@@ -6,7 +6,7 @@ hidefromtoc: true
 source-git-commit: 40b761928697d1d55e1177aa7b2b3c056739ecc9
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -30,10 +30,10 @@ _資料設定_&#x200B;頁面會處理您的產品使用設定。 您可以使用
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_sandbox"
->title="Adobe Experience Platform沙箱"
->abstract="決定要在其下建立結構描述和資料集的Adobe Experience Platform沙箱。"
+>title="Adobe Experience Platform 沙箱"
+>abstract="確定在其下建立結構描述和資料集的 Adobe Experience Platform 沙箱。"
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_data_retention"
 >title="覆寫資料保留期間"
->abstract="縮短產品使用資料的可用性，以協助降低成本或遵守隱私權指引。"
+>abstract="縮短產品使用資料的可用性，以幫助降低成本或遵守隱私權準則。"

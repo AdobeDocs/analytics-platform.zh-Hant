@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 23%
+ht-degree: 64%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_bullet_goalvalue"
 >title="目標值"
->abstract="**[!UICONTROL 高目標]**&#x200B;是您瞄準的主要目標。 **[!UICONTROL 低目標]**&#x200B;和&#x200B;**[!UICONTROL 中間目標]**&#x200B;建立低於[!UICONTROL 高目標]的範圍。 注意：核取&#x200B;**[!UICONTROL 百分比]**&#x200B;選項時，請將目標輸入為整數。 例如：如果您的目標是百分之二十，則為`20`。"
+>abstract="**[!UICONTROL 高目標]**&#x200B;是您的主要目標。**[!UICONTROL 低目標]**&#x200B;和&#x200B;**[!UICONTROL 中目標]**&#x200B;會建立低於[!UICONTROL 高目標]的範圍。注意：當勾選「**[!UICONTROL 百分比]**」選項時，請以整數形式輸入目標。例如：如果您的目標是百分之二十，輸入 `20`。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_bullet_button"
 >title="項目符號"
->abstract="建立專案符號圖表視覺效果，顯示量度與效能範圍（目標）相比較或進行測量的結果。"
+>abstract="建立項目符號圖視覺效果以顯示量度與效能範圍 (目標) 相比較或進行衡量的結果。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +44,7 @@ ht-degree: 23%
 
 | 設定 | 說明 |
 |---|---|
-| **[!UICONTROL 專案符號選項]** | 在[!UICONTROL 專案符號]視覺效果中，指定&#x200B;**[!UICONTROL 高目標]**、**[!UICONTROL 中目標]**&#x200B;和&#x200B;**[!UICONTROL 低目標]**&#x200B;的值。 <br/>**[!UICONTROL 高目標&#x200B;]**是您瞄準的主要目標。**[!UICONTROL &#x200B;低目標&#x200B;]**和**[!UICONTROL &#x200B;中間目標&#x200B;]**會在高目標下方建立範圍。 注意：核取**[!UICONTROL &#x200B;百分比&#x200B;]**選項時，請將目標輸入為整數。 例如：如果您的目標是百分之二十，則為`20`。 |
+| **[!UICONTROL 專案符號選項]** | 在[!UICONTROL 專案符號]視覺效果中，指定&#x200B;**[!UICONTROL 高目標]**、**[!UICONTROL 中目標]**&#x200B;和&#x200B;**[!UICONTROL 低目標]**&#x200B;的值。 <br/>**[!UICONTROL 高目標&#x200B;]**是您的主要目標。**[!UICONTROL &#x200B;低目標&#x200B;]**和**[!UICONTROL &#x200B;中間目標&#x200B;]**會在高目標下方建立範圍。 注意：當勾選「**[!UICONTROL &#x200B;百分比&#x200B;]**」選項時，請以整數形式輸入目標。例如：如果您的目標是百分之二十，輸入 `20`。 |
 
 >[!MORELIKETHIS]
 >

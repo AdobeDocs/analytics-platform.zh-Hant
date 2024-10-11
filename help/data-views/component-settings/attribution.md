@@ -19,7 +19,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_metric_attribution"
 >title="歸因"
->abstract="設定套用至報告中量度的預設歸因模式。"
+>abstract="設定套用至報告中量度的預設歸因模型。"
 
 <!-- markdownlint-enable MD034 -->
 

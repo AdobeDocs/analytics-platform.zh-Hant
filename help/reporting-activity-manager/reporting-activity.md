@@ -18,14 +18,14 @@ ht-degree: 8%
 
 如需報告活動管理員的詳細資訊，包括主要權益和許可權要求，請參閱[報告活動管理員概觀](/help/reporting-activity-manager/reporting-activity-overview.md)。
 
-## 針對所有連線 {#view-all-report-suites}
+## 對於所有連線 {#view-all-report-suites}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_tools_reportingactivitymanager_connections"
 >title="連線"
->abstract="此表格會顯示您有權管理報告活動的連線。表格的每一欄中都提供了有關每個連線的資訊。"
+>abstract="此表顯示您有權管理報告活動的連線。表格的每一欄中都提供了有關每個連線的資訊。"
 
 <!-- markdownlint-enable MD034 -->
 

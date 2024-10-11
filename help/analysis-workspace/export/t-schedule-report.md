@@ -92,7 +92,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_sendfile_password"
 >title="密碼加密"
->abstract="提供的密碼將用於加密已排程專案的檔案。貴組織的安全要求已要求進行密碼加密。"
+>abstract="提供的密碼將用於加密已排程專案的檔案。您組織的安全要求要求使用密碼加密。"
 
 <!-- markdownlint-enable MD034 -->
 

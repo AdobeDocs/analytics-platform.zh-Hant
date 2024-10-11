@@ -7,7 +7,7 @@ exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_project_addnotes"
->title="新增附註"
->abstract="新增有關正在儲存的專案版本的附註。 這些筆記將與版本一起儲存，並可在&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 開啟先前版本]**&#x200B;功能表下存取。"
+>title="新增註釋"
+>abstract="新增有關正在儲存之專案目版本的註釋。這些註釋將與版本一起儲存，並可在「**[!UICONTROL 專案]** > **[!UICONTROL 開啟先前版本]**」選單下存取。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
 source-wordcount: '1832'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -70,9 +70,9 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_dataviewsinadobejourneyoptimizer"
->title="Journey Optimizer中的資料檢視"
->abstract="Journey Optimizer需要使用已設定Customer Journey Analytics的資料檢視。<br/>啟用此選項可讓此檢視成為Adobe Journey Optimizer報表中使用的預設資料檢視。"
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="新增哪些元件和資料集。"
+>title="Journey Optimizer 中的資料檢視"
+>abstract="Journey Optimizer 需要使用透過 Customer Journey Analytics 設定的資料檢視。<br/>啟用此選項可使其成為 Adobe Journey Optimizer 報告中使用的預設資料檢視。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo#connection" text="新增了哪些元件和資料集。"
 
 <!-- markdownlint-enable MD034 -->
 

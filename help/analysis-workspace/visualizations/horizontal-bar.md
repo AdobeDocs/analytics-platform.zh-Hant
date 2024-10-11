@@ -7,7 +7,7 @@ role: User
 source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 11%
+ht-degree: 36%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_horizontalbar_button"
 >title="橫條圖"
->abstract="建立橫條圖視覺效果來代表一或多個量度的各種值。"
+>abstract="建立橫條圖視覺效果來表示一個或多個量度的各種值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,14 +31,14 @@ ht-degree: 11%
 
 ![水準長條圖，顯示包含頁面檢視、頁面速度、造訪、登入與退出的量度。](assets/horizontal-bar.png)
 
-## 棧疊橫條圖 {#horizontal-bar-stacked}
+## 堆疊橫條圖 {#horizontal-bar-stacked}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_horizontalbarstacked_button"
->title="棧疊橫條圖"
->abstract="建立橫條圖視覺效果，呈現一或多個棧疊量度的各種值。"
+>title="堆疊橫條圖"
+>abstract="建立橫條圖視覺效果來表示一個或多個堆疊量度的各種值。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_button"
 >title="歸因"
->abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的屬性模式"
+>abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_attribution_panel"
 >title="歸因面板"
->abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模式。<br/><br/>**參數&#x200B;**<br/>**管道**<br/>&#x200B;屬性依據的維度。此維度可以是行銷管道、行銷活動或任何其他維度。<br/>**模式**<br/>&#x200B;此模式可決定如何將積分指派給接觸點。<br/>**回顧期間**<br/>&#x200B;此設定會決定套用至每個轉換的資料歸因期間。"
+>abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模式。<br/><br/>**參數&#x200B;**<br/>**管道**<br/>&#x200B;屬性依據的維度。此維度可以是行銷管道、活動或任何其他維度。<br/>**模型**<br/>&#x200B;此模型可決定如何將積分指派給接觸點。<br/>**回顧視窗**<br/>&#x200B;此設定可決定套用至每個轉換的資料歸因期間。"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 <!-- markdownlint-enable MD034 -->

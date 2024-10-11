@@ -7,7 +7,7 @@ role: User
 source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 13%
+ht-degree: 21%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_bar_button"
 >title="長條圖"
->abstract="建立長條圖視覺效果以代表一或多個量度的各種值。"
+>abstract="建立長條圖視覺效果來表示一個或多個量度的各種值。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="cja_components_alerts_timegranularity"
->title="時間粒度"
->abstract="時間詳細程度是指系統檢查警報的頻率，以及要納入的專案"
+>title="時間詳細程度"
+>abstract="時間詳細程度指的是警報的檢查頻率以及包含的內容"
 
 <!-- markdownlint-enable MD034 -->
 

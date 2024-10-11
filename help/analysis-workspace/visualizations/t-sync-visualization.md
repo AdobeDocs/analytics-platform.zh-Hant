@@ -8,7 +8,7 @@ role: User
 source-git-commit: 388e008f4ee092dd8224bfacd020cdf762d4fb82
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 17%
+ht-degree: 27%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_lockselection"
->title="鎖定選取範圍"
->abstract="啟用此設定可將視覺效果鎖定至資料來源中的選定位置或選定專案。"
+>title="鎖定選取項目"
+>abstract="啟用此設定，即可將視覺效果鎖定在資料來源中所選的位置或所選的項目。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,7 +28,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_lockselection_showtable"
 >title="顯示表格"
->abstract="選取&#x200B;**[!UICONTROL 顯示表格]**&#x200B;將會為您目前的視覺效果產生新的資料來源，與原始資料來源分開。"
+>abstract="選取「**[!UICONTROL 顯示表格]**」將為您目前的視覺效果產生新的資料來源，並將其與原始資料來源分開。"
 
 <!-- markdownlint-enable MD034 -->
 

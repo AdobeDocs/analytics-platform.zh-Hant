@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
 workflow-type: tm+mt
 source-wordcount: '8842'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields"
 >title="衍生欄位"
->abstract="衍生欄位可讓您透過可自訂的規則產生器來即時定義資料操作。然後，您可以將該衍生欄位用作工作區中的元件 (量度或維度)，或甚至進一步定義為資料檢視中的元件。"
+>abstract="衍生欄位可讓您透過可自訂的規則產生器，迅速定義資料操作。您接著可以將衍生欄位用作為 Workspace 中的元件 (量度或維度)，甚至進一步在資料檢視中定義為元件。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -403,7 +403,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_casewhen"
 >title="情況"
->abstract="此函數提供了以下功能：根據一個或多個欄位中定義的標準來套用條件。接著會根據條件的順序，使用這些標準來定義新衍生欄位中的值。"
+>abstract="此函數提供了根據一個或多個欄位中定義的標準來套用條件的功能。然後，使用這些標準根據條件的順序定義新衍生欄位中的值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -643,7 +643,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_classify"
 >title="分類"
->abstract="此函數可用文字輸入定義一組值，並將其取代為對應的值。"
+>abstract="此函數提供了定義一組值的功能，這些值可透過文字輸入取代為對應的值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -788,7 +788,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_concatenate"
 >title="串連"
->abstract="此函數提供將兩個或多個欄位、衍生欄位或使用者輸入字串值組合到具有已定義分隔符號的單一欄位的能力"
+>abstract="此函數提供將兩個或多個欄位、衍生欄位或使用者輸入字串值組合到具有已定義分隔符號的單一欄位的功能"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -875,7 +875,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_deduplicate"
 >title="重複資料刪除"
->abstract="此函數功能可以將欄位設定成在工作階段或人員層級上僅計算不重複值。此外，重複資料刪除 ID 可用於確保：根據給定 ID (例如購買 ID)，僅會使用一個值 (第一個實例或最後一個實例)。"
+>abstract="此函數提供了將欄位設定為僅在工作階段或個人層級不重複地計算值的功能。此外，重複資料刪除 ID 可用於確保根據特定 ID (例如購買 ID) 僅使用一個值 (第一個例項或最後一個例項)。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -969,8 +969,8 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_findandreplace"
->title="尋找和取代"
->abstract="此函數提供了以下功能：在選定欄位中尋找所有值，並將這些值取代為新衍生欄位中的不同值。"
+>title="尋找並取代"
+>abstract="此函數提供了在選定欄位中尋找所有值，並將這些值取代為新衍生欄位中不同值的功能。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1111,7 +1111,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_lowercase"
 >title="小寫"
->abstract="此函式將整個字串文字轉換為小寫值。"
+>abstract="此函數會將整個字串文字轉換為小寫值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1172,7 +1172,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_math"
 >title="Math"
->abstract="此函數提供了在欄位上執行數學運算的能力。此函數可用於執行基本算術運算，例如加法、減法、乘法和除法。"
+>abstract="此函數提供在欄位上執行數學運算的功能。此函數可用於執行基本算術運算，例如加減乘除。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1263,7 +1263,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_mergefields"
 >title="合併欄位"
->abstract="此函數能夠從兩個不同的欄位獲取值，並將其各自的值包含在單一維度中。此規則會先檢查是否已設定第一個值。如果沒有，則它將使用第二個值，依此類推。"
+>abstract="此函數提供從兩個不同欄位取得值並將其各自的值包含在單一維度中的功能。這個規則會先檢查是否已設定第一個值。如果未設定，則將使用第二個值，依此類推。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1339,7 +1339,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_nextprevious"
 >title="下一個或上一個"
->abstract="此函式提供檢視針對指定欄位收集的下一個或上一個值的功能。"
+>abstract="此函數提供查看為特定欄位收集的下一個或上一個值的功能。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1421,7 +1421,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_regexreplace"
 >title="規則運算式取代"
->abstract="此函數提供了使用規則運算式擷取字串部分的功能。"
+>abstract="此函數提供了使用規則運算式擷取部分字串的功能。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1630,7 +1630,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_summarize"
 >title="總結"
->abstract="此函數提供了在事件、工作階段或人員層級上彙總值的功能。根據所選欄位的欄位類型，將提供不同的選項。"
+>abstract="此函數提供了在事件、工作階段或人員層級彙總值的功能。根據所選欄位的欄位類型，將提供不同的選項。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1708,7 +1708,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 >[!CONTEXTUALHELP]
 >id="cja_dataview_derivedfields_trim"
 >title="修剪"
->abstract="此函數提供以下功能：從字串的開頭或結尾修剪空白字元或特殊字元；從字串的開頭或結尾指定用於傳回值的字元數。"
+>abstract="此函數提供了從字串的開頭或結尾修剪空格或特殊字元的功能。也能夠指定用於傳回值的字元數 (從字串的前面或末尾開始)。"
 
 <!-- markdownlint-enable MD034 -->
 

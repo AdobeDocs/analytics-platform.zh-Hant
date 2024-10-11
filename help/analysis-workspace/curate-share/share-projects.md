@@ -8,7 +8,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 65%
+ht-degree: 66%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_shareprojects"
 >title="共用專案"
->abstract="您可以與組織中的其他使用者共用這些專案角色。"
+>abstract="您可以與組織中的其他使用者共用這些專案角色中的任一個。"
 
 <!-- markdownlint-enable MD034 -->
 

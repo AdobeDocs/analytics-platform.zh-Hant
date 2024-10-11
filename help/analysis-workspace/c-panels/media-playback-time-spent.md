@@ -7,18 +7,18 @@ role: User
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 42%
+ht-degree: 54%
 
 ---
 
-# 「媒體播放時間」面板 {#media-playback-time-spent-panel}
+# 媒體播放時間面板 {#media-playback-time-spent-panel}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaplaybacktimespent_button"
->title="花費的媒體播放時間"
->abstract="建立面板以分析一段時間內的視訊觀看量，具備各種層級的詳細程度，並可加以劃分和比較。"
+>title="媒體播放時間"
+>abstract="建立一個面板來分析一段時間內的視訊觀看量，包括各種詳細程度等級以及劃分和比較的功能。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 42%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaplaybacktimespent_panel"
->title="花費的媒體播放時間"
->abstract="分析一段時間內的視訊觀看量，選取各種粒度、劃分並比較。<br/><br/>**粒度**：選取檢視同時檢視者所依據的時段。<br/>**面板摘要數字（選擇性）**：顯示每行具有日期或時間詳細資訊的摘要數字的選項。 最大值將顯示尖峰播放時間點的詳細資訊。 「最小值」會顯示低谷期的詳細資訊。 「總和」會顯示播放時間總和的詳細資料。<br/>**序列劃分（選用）**：依區段、維度、維度專案或日期範圍劃分視覺效果。 一次最多可檢視10行。 劃分限於單一層級。<br/>**時間格式**：以小時或分鐘顯示視覺效果時間格式的選項。"
+>title="媒體播放時間"
+>abstract="分析一段時間內的視訊觀看量，選取各種詳細程度，劃分和比較。<br/><br/>**詳細程度**：選取要查看同時檢閱者的時段。<br/>**面板摘要數字 (可選)**：顯示摘要數字以及每行日期或時間詳細資料的選項。最大值將顯示尖峰播放時間的詳細資料。最小值將顯示低谷期的詳細資料。總和將顯示播放時間總計的詳細資料。<br/>**序列劃分 (可選)**：按區段、維度、維度項目或日期範圍劃分視覺效果。一次最多可檢視 10 行。劃分限於單一層級。<br/>**時間格式**：顯示視覺效果之時間格式的選項，以小時或分鐘為單位。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
 workflow-type: tm+mt
 source-wordcount: '1948'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_components_audiences_refreshfrequency"
 >title="重新整理頻率"
->abstract="檢視重新評估對象成員資格的頻率。<br/>一次性對象只會評估一次。"
+>abstract="檢視重新評估對象成員資格的頻率。<br/>一次性客群僅會評估一次。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_components_audiences_audiencelimit"
 >title="客群限制"
->abstract="重新整理客群作業會受到重新整理頻率的限制。"
+>abstract="重新整理客群作業會受到其重新整理頻率的限制。"
 
 <!-- markdownlint-enable MD034 -->
 

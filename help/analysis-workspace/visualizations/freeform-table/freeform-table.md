@@ -1,5 +1,5 @@
 ---
-title: 自由表格概述
+title: 自由格式表格概觀
 description: 自由表格是 Analysis Workspace 中資料分析的基礎
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
@@ -7,18 +7,18 @@ role: User
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 21%
+ht-degree: 26%
 
 ---
 
-# 自由表格概述 {#freeform-table-overview}
+# 自由格式表格概觀 {#freeform-table-overview}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_button"
 >title="自由表格"
->abstract="建立空白的自由格式表格視覺效果，讓您使用維度、區段、量度和日期範圍來建立。 您可以將自由表格當作其他視覺效果的基礎。"
+>abstract="建立一個空白的自由格式表格視覺效果，您可以使用維度、區段、量度和日期範圍進一步建置。您可以使用自由格式表格作為其他視覺效果的基礎。"
 
 <!-- markdownlint-enable MD034 -->
 

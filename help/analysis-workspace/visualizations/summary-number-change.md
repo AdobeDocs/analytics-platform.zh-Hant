@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 44%
+ht-degree: 50%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_summarychange_button"
 >title="摘要變更"
->abstract="建立視覺效果，顯示兩個數字間的差異（變更）"
+>abstract="建立顯示兩個數字之間的差異 (變化) 的視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
 

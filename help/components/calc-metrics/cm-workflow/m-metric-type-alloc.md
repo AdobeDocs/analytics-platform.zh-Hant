@@ -6,7 +6,7 @@ exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 31%
+ht-degree: 39%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_lasttouch"
 >title="上次接觸"
->abstract="訪客看到的最後一個維度值會獲得 100% 的貢獻度。"
+>abstract="100% 功勞歸於訪客看到的最後一個維度值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -77,7 +77,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_firsttouch"
 >title="首次接觸"
->abstract="訪客看到的第一個維度值會獲得 100% 的貢獻度。"
+>abstract="100% 功勞會歸於訪客看到的第一個維度值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -86,7 +86,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_linear"
 >title="線性"
->abstract="評分會平均分攤至所有維度值。"
+>abstract="功勞平均分佈在所有維度值上。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,7 +95,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_participation"
 >title="參與率"
->abstract="100%功勞歸於訪客看到的每個維度值。<br/>欄總數被誇大。"
+>abstract="100% 功勞歸於訪客看到的每個維度值。<br/>欄總計會出現浮報現象。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -104,7 +104,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_sametouch"
 >title="同一次接觸"
->abstract="評分僅給予與轉換發生於相同事件的維度值。"
+>abstract="功勞僅給予與轉換同一事件中發生的維度值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -113,7 +113,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_ushaped"
 >title="U 型"
->abstract="第一個維度值會獲得 40% 的貢獻度，最後一個會獲得 40%，而剩餘的 20% 則分佈於中間的維度值。"
+>abstract="40% 功勞歸於第一個維度值，40% 歸於最後一個維度值，20% 則分配到中間的維度值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -122,7 +122,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_jcurve"
 >title="J 曲線"
->abstract="60%點數歸於最後一個維度值，20%歸於第一個維度值，20%則分配到中間的維度值。"
+>abstract="60% 功勞歸於最後一個維度值，20% 歸於第一個維度值，20% 則分配到中間的維度值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -131,7 +131,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_inversej"
 >title="反向 J"
->abstract="第一個維度值會獲得 60% 的貢獻度，最後一個會獲得 20%，而剩餘的 20% 則分佈於中間的維度值。"
+>abstract="60% 功勞歸於第一個維度值，20% 歸於最後一個維度值，20% 則分配到中間的維度值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -140,7 +140,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_timedecay"
 >title="時間耗損"
->abstract="與轉換時間最接近的維度值會獲得最多的貢獻度。"
+>abstract="在時間上最接近轉換的維度值獲得最多功勞。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -158,7 +158,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_algorithmic"
 >title="演算法"
->abstract="評分是根據統計演演算法以動態方式決定。"
+>abstract="功勞是根據統計演算法動態決定的。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -173,7 +173,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_attribution_lookbackwindow"
 >title="回顧視窗"
->abstract="此設定會決定要套用至每次轉換的資料歸因期間。"
+>abstract="此設定可決定要為每個轉換套用的資料歸因期間。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
 workflow-type: tm+mt
 source-wordcount: '3526'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsadded"
 >title="新增的記錄"
->abstract="所選資料集在所選時間間隔內新增到連線的記錄數（列）。"
+>abstract="所選資料集在所選的時間間隔中新增至連線的記錄 (列) 數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsskipped"
 >title="略過的記錄"
->abstract="在所選資料集的所選時間間隔內，在連線的資料傳輸期間略過的記錄數（列）。"
+>abstract="所選資料集在所選的時間間隔中為連線的資料傳輸期間略過的記錄 (列) 數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsdeleted"
 >title="刪除的記錄"
->abstract="在選取的資料集時間間隔內，從連線中移除的記錄（列）數目"
+>abstract="所選資料集在所選的時間間隔內從連線中移除的記錄 (列) 數"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -63,7 +63,7 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_averagenumberofdailyuses"
->title="平均每日使用次數"
+>title="平均每日使用數"
 >abstract="選取整個連線的預期每日事件數範圍。"
 
 <!-- markdownlint-enable MD034 -->
@@ -136,7 +136,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="比對索引鍵"
->abstract="在其中一個事件資料集中選取要聯結的欄位。如果此清單是空的，您可能尚未新增或設定事件資料集。"
+>abstract="選取要加入其中一個事件資料集的欄位。如果這是空白的清單，您可能尚未新增或設定事件資料集。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -145,7 +145,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
 >title="匯入新資料"
->abstract="任何新增至Experience Platform資料集的新批次，都會自動新增至此連線，並可供分析。"
+>abstract="在 Experience Platform 資料集中新增的任何新批次都會自動新增至此連線中，並可供分析。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -163,7 +163,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_connection_transformdataset"
 >title="轉換資料集"
->abstract="此選項將會轉換資料集，使其可用於 B2B 情境中基於人員的查詢。一旦開啟，資料集的轉換是不可逆的。"
+>abstract="此選項將轉換資料集，使其可用於 B2B 情境中基於人員的查詢。資料集一旦開啟轉換便無法復原。"
 
 <!-- markdownlint-enable MD034 -->
 

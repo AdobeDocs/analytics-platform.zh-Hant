@@ -1,23 +1,23 @@
 ---
 description: 計算量度產生器提供的畫布可用來拖放維度、量度、篩選器和函數，讓您根據容器階層邏輯、規則和運算子來建立自訂量度。此整合性開發工具可讓您建立並儲存簡單的計算量度或複雜的進階計算量度。
-title: 建立計算量度
+title: 建置計算量度
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
 source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
 workflow-type: tm+mt
 source-wordcount: '1526'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
-# 建立計算量度 {#build-metrics}
+# 建置計算量度 {#build-metrics}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_productcompatibility"
 >title="產品相容性"
->abstract="指出此計算量度可在Customer Journey Analytics中使用的位置，例如Analysis Workspace、Report Builder等。 有些計算量度無法用於實驗。"
+>abstract="指出可以在 Customer Journey Analytics 的何處使用此計算量度，例如在 Analysis Workspace、Report Builder 等。一些計算量度不能用於實驗。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="在實驗中使用計算量度"
 
 <!-- markdownlint-enable MD034 -->
@@ -27,7 +27,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="cja_components_calculatedmetrics_externalid"
 >title="外部 ID"
->abstract="變更外部ID可能會影響計算量度在外部來源（例如商業智慧工具）中的顯示方式"
+>abstract="變更外部 ID 可能會影響計算量度在外部來源 (例如商業智慧工具) 中的顯示方式"
 
 <!-- markdownlint-enable MD034 -->
 

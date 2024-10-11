@@ -7,7 +7,7 @@ role: User
 source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 37%
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_histogram_button"
 >title="長條圖"
->abstract="建立長條圖視覺效果來代表範圍群組中的數值資料分佈。"
+>abstract="建立長條圖視覺效果來表示數值資料在範圍組中的分佈情形。"
 
 <!-- markdownlint-enable MD034 -->
 

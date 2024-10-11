@@ -7,18 +7,18 @@ role: User
 source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 41%
+ht-degree: 44%
 
 ---
 
-# 組合 {#combo}
+# 組合圖 {#combo}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_combo_button"
->title="組合"
->abstract="快速建立組合圖表視覺效果，而不需要先建立自由表格。"
+>title="組合圖"
+>abstract="快速建立組合圖視覺效果，無需先建立自由格式表格。"
 
 <!-- markdownlint-enable MD034 -->
 

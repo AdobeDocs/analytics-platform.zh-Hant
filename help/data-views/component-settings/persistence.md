@@ -20,7 +20,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_persistence"
 >title="持續性"
->abstract="設定套用至維度的預設配置模式。在報告中會先套用配置，然後再套用篩選器。"
+>abstract="設定套用至維度的預設配置模式。配置會在報告中的篩選器之前套用。"
 
 <!-- markdownlint-enable MD034 -->
 

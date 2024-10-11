@@ -6,7 +6,7 @@ hidefromtoc: true
 source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -28,4 +28,4 @@ Adobe會結合使用使用者端和伺服器端追蹤，收集您組織的產品
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_opt_out_settings"
 >title="選擇退出使用者"
->abstract="從產品使用情況追蹤中排除使用者。"
+>abstract="將使用者排除在產品使用追蹤之外。"

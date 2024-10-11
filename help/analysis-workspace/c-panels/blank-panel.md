@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 18%
+ht-degree: 28%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_blankpanel_button"
 >title="空白面板"
->abstract="顯示一系列面板或視覺效果，您可建立這些面板或視覺效果以建置完全自訂的分析。"
->additional-url="https://www.youtube.com/watch?v=SYaioiwBTrk" text="Analysis Workspace中的面板"
+>abstract="顯示您可以建立的一系列面板或視覺效果，以建置完全自訂的分析。"
+>additional-url="https://www.youtube.com/watch?v=SYaioiwBTrk" text="Analysis Workspace 中的面板"
 
 <!-- markdownlint-enable MD034 -->
 

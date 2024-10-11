@@ -7,7 +7,7 @@ role: User
 source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_quickinsights_button"
 >title="快速深入分析"
->abstract="建立面板以快速建立自由格式表格和隨附的視覺效果，從而更快速地分析和發掘深入分析。"
+>abstract="建立一個面板來快速建置自由格式表格和隨附的視覺效果，以更快速分析及揭秘深入分析。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 35%
+ht-degree: 38%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_keymetricsummary_button"
 >title="關鍵量度摘要"
->abstract="建立結合了折線圖、摘要變化圖和摘要數字圖的視覺效果。 使用此視覺效果來比較兩個時段之間的重要量度趨勢。"
+>abstract="建立結合了折線圖、摘要變化圖和摘要數字圖的視覺效果。 使用此視覺效果來比較兩個時段之間重要量度的趨勢。"
 
 <!-- markdownlint-enable MD034 -->
 

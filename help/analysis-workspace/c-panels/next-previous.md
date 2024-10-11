@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 5%
+ht-degree: 31%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_nextorpreviousitem_button"
->title="下一個或上一個專案"
->abstract="建立面板來瞭解人員來自的先前維度或前往的下一個維度。"
+>title="下一個或上一個項目"
+>abstract="建立一個面板來了解人們來自的前一個維度或人們前往的下一個維度。"
 
 <!-- markdownlint-disable MD034 -->
 
@@ -25,8 +25,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_nextorpreviousitem_panel"
->title="巢狀內嵌或上一個專案"
->abstract="分析訪客先前來自或前往下一個的最常見位置。<br/><br/>**Dimension**：選取維度。 例如&#x200B;**頁面**。<br/>**Dimension專案**：選取特定的維度專案。 例如&#x200B;**首頁**。<br/>**方向**：選取&#x200B;**下一步**，可緊接在您選取的維度專案後面檢視維度專案。 選取&#x200B;**上一步**，以檢視通往您所選維度專案的維度專案。<br/>**容器**：選取「**工作階段**」可檢視相同工作階段中的下一個/上一個維度專案，或選取「**人員**」可檢視相同人員的下一個/上一個維度專案。"
+>title="下一個或上一個項目"
+>abstract="分析訪客之前最常來自什麼地方或接下來最常造訪什麼地方。<br/><br/>**維度**：選取維度。例如，**頁面**。<br/>**維度項目**：選取特定維度項目。例如，**首頁**。<br/>**方向**：選取「**下一個**」可查看緊接在所選維度項目之後的維度項目。選取「**上一個**」以查看您所選維度項目之前的維度項目。<br/>**容器**：選取「**工作階段**」以查看同一工作階段中的下一個/上一個維度項目，或選取「**人員**」查看同一個人的下一個/上一個維度項目。"
 
 <!-- markdownlint-enable MD034 -->
 
