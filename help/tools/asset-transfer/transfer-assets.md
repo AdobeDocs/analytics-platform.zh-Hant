@@ -3,9 +3,9 @@ title: 轉移資產
 description: 瞭解如何將元件從一個使用者轉讓給另一個使用者
 role: Admin
 solution: Customer Journey Analytics
-source-git-commit: faa9545fa3928a19aeaaf7285a9643e7dc253cea
+source-git-commit: 9663a24c2430d3822cb83876ea048b6423405215
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Assets通常會與個別所有者繫結，而且在某些情況下（例如篩�
 
 ## 權限
 
-資產轉移需要Customer Journey Analytics的產品管理員許可權。
+「資產轉移」需要「產品管理員」許可權才能進行Customer Journey Analytics。
 
 ## 轉移資產
 
@@ -44,7 +44,14 @@ Assets通常會與個別所有者繫結，而且在某些情況下（例如篩�
 
 1. 現在，請瀏覽左側導覽的每個元件資料夾，以選取要傳輸的資料夾中的個別元件或所有資產。
 
-   請注意，將資產從管理員轉讓給非管理員不會將收件者升級為管理員。
+   >[!NOTE]
+   >
+   >將資產從管理員轉讓給非管理員不會將收件者升級為管理員。
+
+
+   >[!NOTE]
+   >
+   >    傳輸參考其他元件的資產（例如參考其他篩選器和計算量度的專案）時，專案目前所有者未擁有的元件將只會與收件者共用。 所有其他元件的擁有權將轉移給收件者。
 
 1. 若要選取資料夾中的&#x200B;_所有_&#x200B;資產，請核取表格頂端&#x200B;**[!UICONTROL Name]**&#x200B;旁的方塊。
 
@@ -58,17 +65,31 @@ Assets通常會與個別所有者繫結，而且在某些情況下（例如篩�
    >
    >請勿在傳輸期間關閉熒幕，以避免流程中止。 這可確保順暢的傳輸體驗。
 
+## 傳輸結果
+
+傳輸有三種可能的結果：
+
+- **傳輸成功**：「Assets已成功傳輸」。
+
+- **部分成功**：「部分資產已成功轉移。」
+
+- **傳輸失敗**：「無法傳輸資產。 請再試一次。」
+
 ## 從Adobe Analytics升級至Customer Journey Analytics期間轉移資產
 
 資產轉移的主要使用案例之一是從Adobe Analytics升級至Customer Journey Analytics期間。
 
 Adobe Analytics中的[元件移轉](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration)功能可讓您將管理員擁有的專案移轉給其他管理員。 然後會在Customer Journey Analytics中重新建立組成這些專案的所有元件，且收件者管理員會擁有所有這些元件，無論這些元件的建立者為何。
 
-此「資產轉移」工具隨後可讓管理員將元件重新指派給其合法擁有者。
+此「資產轉移」工具隨後可讓管理員將元件重新指派給其合法擁有者，無論他們是否為管理員。
+
+>[!IMPORTANT]
+>
+>雖然您可以使用此工具傳輸元件，但身為管理員的您仍需確保收件者有權存取檢視/使用這些元件所需的資料檢視。 您可以在[Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)中檢視及指派許可權。
 
 ## 匯出至 CSV
 
-您可以將從一個使用者傳輸到另一個使用者的資產清單匯出到.csv檔案。
+「**[!UICONTROL 匯出至CSV]**」選項僅可讓管理員下載顯示為.csv檔案的使用者清單。 它不允許他們將已轉移資產的清單匯出至.csv檔案。
 
 <!---## Unknown users
 
