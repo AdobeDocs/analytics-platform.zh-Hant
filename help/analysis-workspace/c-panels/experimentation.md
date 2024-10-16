@@ -4,10 +4,10 @@ title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 835f061a5fdc52b39a7c8fee1e3ce474118d0e68
+source-git-commit: 3e2d92003f8b89a20edfcfb8358854c7fbd15577
 workflow-type: tm+mt
-source-wordcount: '2145'
-ht-degree: 22%
+source-wordcount: '2144'
+ht-degree: 21%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_experimentation_panel"
 >title="實驗"
->abstract="比較不同的使用者體驗、行銷或傳送訊息變化版本，以確定哪一個最能產生特定結果。<br/><br/>**引數&#x200B;**<br/>**實驗**：已分析的實驗。<br>**對照變化版本**：所選實驗的對照變化版本。<br/>**成功量度**：最多可使用 5 個標準 (非計算) 成功量度來分析實驗。<br/>**標準化量度**：人員、工作階段或事件。 此量度 (也稱為計數方法) 會成為提升度計算的分母。此量度也會影響在套用可信度計算前彙總資料的方式。"
+>abstract="比較不同的使用者體驗、行銷或傳送訊息變化版本，以確定哪一個產生特定結果的表現最好。<br/><br/>**參數&#x200B;**<br/>**實驗**：進行分析的實驗。<br>**對照變化版本**：所選實驗的對照變化版本。<br/>**成功量度**：最多可使用 5 個標準 (非計算) 成功量度來分析實驗。<br/>**標準化量度**：人員、工作階段或事件。此量度 (也稱為計數方法) 會成為提升度計算的分母。此量度也會影響在套用可信度計算前彙總資料的方式。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 
-此 **[!UICONTROL Experimentation]** 面板可讓分析師比較不同的使用者體驗、行銷或傳送訊息變化，以確定哪一個產生特定結果的績效最好。您可以從任何實驗平台評估任何A/B實驗的提升度和信賴度：線上、離線、來自Target或Journey Optimizer等Adobe解決方案，甚至BYO （自備）資料。
+**[!UICONTROL Experimentation]**&#x200B;面板可讓分析師比較不同的使用者體驗、行銷或傳送訊息變化，以確定哪一個產生特定結果的績效最好。 您可以從任何實驗平台評估任何A/B實驗的提升度和信賴度：線上、離線、來自Target或Journey Optimizer等Adobe解決方案，甚至BYO （自備）資料。
 
 深入瞭解Adobe Customer Journey Analytics與Adobe Target之間的[整合](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja)。
 
@@ -41,9 +41,9 @@ ht-degree: 22%
 
 實驗面板可供所有Customer Journey Analytics使用者使用。 不需要管理員權限或其他權限。不過，先決條件需要只有管理員才能執行的動作。
 
-## 計算量度中的新函式
+## 計算量度中的函式
 
-已新增兩個進階函式：提升度和可信度。 如需詳細資訊，請參閱「[參考 - 進階函數](/help/components/calc-metrics/cm-adv-functions.md)」。
+提供兩種進階函式：提升度和信賴度。 如需詳細資訊，請參閱「[參考 - 進階函數](/help/components/calc-metrics/cm-adv-functions.md)」。
 
 ## 先決條件
 
@@ -51,7 +51,7 @@ ht-degree: 22%
 
 ### 建立與實驗資料集的連線
 
-建議的資料結構描述是針對在[「物件」陣列](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) 中的實驗資料，其中包含在二個獨立維度中的實驗與變數資料。 兩個維度都必須在&#x200B;**單一**&#x200B;物件陣列中。 如果您的實驗資料在單一維度中（實驗與變數資料在分隔字串中），您可以使用資料檢視中的[substring](/help/data-views/component-settings/substring.md)設定將維度一分為二，以便用於面板中。
+建議的資料結構描述是針對在[物件陣列](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array)中的實驗資料，其中包含在二個獨立維度中的實驗與變數資料。 兩個維度都必須在&#x200B;**單一**&#x200B;物件陣列中。 如果您的實驗資料在單一維度中（實驗與變數資料在分隔字串中），您可以在資料檢視中使用[substring](/help/data-views/component-settings/substring.md)設定將維度一分為二，以用於面板中。
 
 
 在您的實驗資料已[擷取](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)到Adobe Experience Platform之後，[在Customer Journey Analytics](/help/connections/create-connection.md)中建立與一個或多個實驗資料集的連線。
@@ -63,7 +63,7 @@ ht-degree: 22%
 * [!UICONTROL 實驗中的實驗]
 * [!UICONTROL 實驗中的變體]
 
-在包含實驗資料的資料檢視中，選擇兩個維度，一個包含實驗資料，一個包含變體資料。然後使用&#x200B;**[!UICONTROL 實驗中的實驗]**&#x200B;和&#x200B;**[!UICONTROL 實驗中的變體]**&#x200B;標籤標籤這些維度。
+在包含實驗資料的資料檢視中，選擇兩個維度，一個包含實驗資料，另一個包含變體資料。 然後使用&#x200B;**[!UICONTROL 實驗中的實驗]**&#x200B;和&#x200B;**[!UICONTROL 實驗中的變體]**&#x200B;標籤標籤這些維度。
 
 Experimentation和Experimentation Variant的![內容標籤選項。](assets/context-label.png)
 
@@ -73,7 +73,7 @@ Experimentation和Experimentation Variant的![內容標籤選項。](assets/cont
 
 若要使用&#x200B;**[!UICONTROL Experimentation]**&#x200B;面板：
 
-1. 建立&#x200B;**[!UICONTROL 實驗中]**&#x200B;面板。 如需如何建立面板的詳細資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立&#x200B;**[!UICONTROL 實驗中]**&#x200B;面板。 有關如何建立面板的資訊，請參閱「[建立面板](panels.md#create-a-panel)」。
 
 
 1. 指定面板的[輸入](#panel-input)。
@@ -91,7 +91,7 @@ Experimentation和Experimentation Variant的![內容標籤選項。](assets/cont
 
 1. 設定面板輸入設定：
 
-   ![Experiention面板拖曳到專案中。](assets/experiment-input.png)
+   ![Experimentation面板拖曳到專案中。](assets/experiment-input.png)
 
    | 設定 | 定義 |
    | --- | --- |
@@ -168,12 +168,11 @@ Customer Journey Analytics中的實驗面板可讓您依人員的狀態將資料
 >
 >對於同時使用Customer Journey Analytics和Adobe Journey Optimizer的組織，本節中的資訊也適用於Journey Optimizer中的實驗功能。
 
-
 並非所有計算量度都與Experimentation面板相容。
 
 包含下列任何量度或常數的計算量度與Experimentation面板不相容：
 
-* 摘要資料集<!--add link to Rob's "Summary data" doc when it's published -->中的基礎量度
+* 來自[摘要資料集](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/summary-data)的基本量度
 * 基礎量度彼此相除或相乘（例如，`Revenue`/`Orders`）
 * 在基礎量度中新增或減去的常數（例如，`Revenue+50`）
 * 下列任一基本量度：

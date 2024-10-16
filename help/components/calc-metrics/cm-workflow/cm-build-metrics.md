@@ -3,10 +3,10 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建置計算量度
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 37209097327ffb142068b5df184c07c7c8021442
 workflow-type: tm+mt
 source-wordcount: '1526'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -46,20 +46,20 @@ ht-degree: 9%
 
 >[!ENDTABS]
 
-1. 指定下列詳細資料（![必要](/help/assets/icons/Required.svg)為必要）：
+1. 指定以下詳細資料 (![必填](/help/assets/icons/Required.svg) 是必要的)：
 
    | 元素 | 說明 |
    | --- | --- |
    | **[!UICONTROL 資料視圖]** | 您可以選取計算量度的資料檢視。  根據所選的資料檢視，您定義的計算量度可用於Workspace專案中。 |
    | **[!UICONTROL 僅限專案的量度]** | 資訊方塊，說明量度僅會顯示在建立該量度的專案中，且不會將該量度新增至您的元件清單中。 啟用&#x200B;**[!UICONTROL 讓此量度可用於您的所有專案，並將其新增至您的元件清單]**&#x200B;以變更該設定。 只有當您在Workspace中使用&#x200B;**[!UICONTROL 從選取範圍建立量度]**&#x200B;建立量度，並已選取函式（例如&#x200B;**[!UICONTROL 平均值]**&#x200B;或&#x200B;**[!UICONTROL 中位數]**）時，才會看到此資訊方塊。 稍後再使用[元件資訊](/help/components/use-components-in-workspace.md#component-info)來編輯該已建立的量度。 |
-   | **[!UICONTROL 標題]** ![必要](/help/assets/icons/Required.svg) | 為計算量度命名，例如`Conversion Rate`。 |
+   | **[!UICONTROL 標題]**![必要](/help/assets/icons/Required.svg) | 為計算量度命名，例如`Conversion Rate`。 |
    | **[!UICONTROL 外部ID]** ![必要](/help/assets/icons/Required.svg) | 使用外部BI工具和BI擴充功能時計算量度的名稱。 除非您覆寫值，否則值會自動定義為`undefined_xxx`。 |
    | **[!UICONTROL 說明]** | 提供篩選的說明，例如，`Calculated metric to define the conversion rate.`。不需要說明計算量度的公式，因為公式已可在[!UICONTROL 摘要]中自動使用。 |
    | **[!UICONTROL 格式]** | 選取計算量度的格式：您可以選取介於&#x200B;**[!UICONTROL 小數]**、**[!UICONTROL 時間]**、**[!UICONTROL 百分比]**&#x200B;和&#x200B;**[!UICONTROL 貨幣]**&#x200B;之間。 |
    | **[!UICONTROL 小數位數]** | 指定所選格式的小數位數。 僅當選取的格式為小數、貨幣和百分比時啟用。 |
    | **[!UICONTROL 顯示上升趨勢的方式]** | 指定計算量度的上升趨勢顯示為▲ **[!UICONTROL 好（綠色）]**&#x200B;或▼ **[!UICONTROL 壞（紅色）]**。 |
    | **[!UICONTROL 貨幣]** | 指定計算量度的貨幣。 只有當選取的格式為貨幣時才會啟用。 |
-   | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標籤來組織計算量度。 開始輸入以尋找現有可選取的標籤。 或按&#x200B;**[!UICONTROL ENTER]**&#x200B;以新增標籤。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標籤。 |
+   | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標籤來組織計算量度。 開始輸入內容以尋找您可以選取的現有標記。或按&#x200B;**[!UICONTROL ENTER]**&#x200B;以新增標籤。 選取![交叉大小75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
    | **[!UICONTROL 預覽]** | 預覽涵蓋過去90天，可讓您評估量度定義是否正確。 |
    | **[!UICONTROL 摘要]** | 顯示計算量度定義的摘要。 <br/>例如： ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 訂單總數]** ![除](/help/assets/icons/Divide.svg) ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 工作階段]**。 |
    | **[!UICONTROL 定義]** ![必要](/help/assets/icons/Required.svg) | 使用[定義產生器](#definition-builder)定義您的篩選器。 |
@@ -67,8 +67,8 @@ ht-degree: 9%
 1. 若要驗證您的計算量度定義是否正確，請使用持續更新的計算量度結果&#x200B;**[!UICONTROL 預覽]**。 **[!UICONTROL 預覽]**&#x200B;涵蓋過去90天，並持續評估您計算量度的定義。
 
    **[!UICONTROL 產品相容性]**&#x200B;指出計算量度是否可用於實驗。 可能的值包括：
-   * **[!UICONTROL Customer Journey Analytics中的所有位置]**：計算度量可用於所有Customer Journey Analytics（Experimentation面板除外）。
-   * **[!UICONTROL Customer Journey Analytics中的所有位置（不包括實驗）]**：計算量度可在所有Customer Journey Analytics中使用。
+   * **[!UICONTROL Customer Journey Analytics中的所有位置]**：計算量度可在所有Customer Journey Analytics中使用。
+   * **[!UICONTROL Customer Journey Analytics中的所有位置（實驗除外）]**：計算度量可用於所有Customer Journey Analytics，實驗面板除外。
 
 1. 選取：
    * **[!UICONTROL 儲存]**&#x200B;以儲存計算量度。
