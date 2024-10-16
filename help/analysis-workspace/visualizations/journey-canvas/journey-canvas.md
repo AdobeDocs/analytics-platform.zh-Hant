@@ -4,9 +4,9 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 3abe8fd0e43d9ab8810e7166cbdb463bc9244223
+source-git-commit: 5e4666b81f23e09a4208f0efed17a7bc44dff0fc
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1607'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和客戶的歷程。 它可讓您從頭開始定義歷程，或從Journey Optimizer檢視歷程，然後檢視人們如何離開（流失）或繼續通過（流過）歷程。
 
-您可以[使用任何事件、維度專案、篩選器和日期範圍的組合，建立使用者歷程](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)的分析，以建立歷程節點。 連線節點以建立歷程的流程，並包含多個路徑和決定點。 拖曳畫布上的節點以重新排列歷程的事件和條件。 變更時即時更新資料。
+您可以[使用任何事件、維度專案、篩選器和日期範圍的組合，建立使用者歷程](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)的分析，以建立歷程節點。 連線節點以建立歷程的流程，並包含多個路徑和決定點。 拖曳畫布上的節點以重新排列歷程的事件和條件。 當您進行變更時，資料會即時更新。
 
 [節點已連線](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)為「最終路徑」，這表示無論這2個節點之間發生任何事件，只要訪客最終從一個節點移至另一個節點即會計入訪客。 為使用者沿路徑移動所分配的時間取決於容器設定。
 
