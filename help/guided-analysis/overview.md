@@ -5,9 +5,9 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 6497a73aaf7ab7ab597d7a9b00315d126ce402f8
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1393'
 ht-degree: 79%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 79%
 
 下列引導式分析可供使用：
 
-| 分析 | 說明 |
-| --- | --- |
-| [主動式成長](types/active.md) | 識別哪些使用者是新的、保留的、回訪的或非活躍的。 |
-| [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化。 |
-| [參與](types/engagement.md) | 了解功能參與的廣度與深度。 |
-| [首次使用影響](types/first-use.md) | 測量功能首次使用對關鍵指標的影響。 |
-| [頻率](types/frequency.md) | 依照使用頻率來測量參與度。 |
-| [漏斗](types/friction.md) | 比較步驟之間的轉換率。 |
-| [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
-| [發行影響](types/release.md) | 比較發行前和發行後同期的績效。 |
-| [保留](types/retention-rates.md) | 測量使用者持續的回訪習慣。 |
-| [時間表](types/timeline.md) | 探索工作階段活動的模式。 |
-| [趨勢](types/usage.md) | 測量使用者在一段時間內的參與度。 |
+| 圖示 | 分析 | 說明 |
+| :----:|--- | --- |
+| ![人員群組](/help/assets/icons/PeopleGroup.svg) | [主動式成長](types/active-growth.md) | 識別哪些使用者是新的、保留的、回訪的或非活躍的。 |
+| ![轉換趨勢](/help/assets/icons/ConversionTrends.svg) | [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化。 |
+| ![參與圖形](/help/assets/icons/EngagementGraph.svg) | [參與](types/engagement.md) | 了解功能參與的廣度與深度。 |
+| ![FirstUse](/help/assets/icons/FirstUse.svg) | [首次使用影響](types/first-use-impact.md) | 測量功能首次使用對關鍵指標的影響。 |
+| ![長條圖](/help/assets/icons/Histogram.svg) | [頻率](types/frequency.md) | 依照使用頻率來測量參與度。 |
+| ![轉換漏斗](/help/assets/icons/ConversionFunnel.svg) | [漏斗](types/funnel.md) | 比較步驟之間的轉換率。 |
+| ![淨增長](/help/assets/icons/NetGrowth.svg) | [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
+| ![發行](/help/assets/icons/Release.svg) | [發行影響](types/release-impact.md) | 比較發行前和發行後同期的績效。 |
+| ![保留](/help/assets/icons/Retention.svg) | [保留](types/retention.md) | 測量使用者持續的回訪習慣。 |
+| ![時間表](/help/assets/icons/Timeline.svg) | [時間表](types/timeline.md) | 探索工作階段活動的模式。 |
+| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [趨勢](types/trends.md) | 測量使用者在一段時間內的參與度。 |
 
 {style="table-layout:auto"}
 
@@ -38,7 +38,7 @@ ht-degree: 79%
 
 您可以從 Customer Journey Analytics 首頁存取引導式分析。
 
-1. 從首頁選取「**[!UICONTROL 引導式分析]**」，系統就會讓您直接前往[使用趨勢視圖](types/usage.md)。
+1. 從首頁選取「**[!UICONTROL 引導式分析]**」，系統就會讓您直接前往[使用趨勢視圖](types/trends.md)。
 
    ![登陸頁面圖磚](assets/landing-page-tile.png){style="border:1px solid gray"}
 

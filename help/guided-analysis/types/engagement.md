@@ -5,16 +5,16 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: 670443a8caf6b71f49fc63a23b5328609864a9be
+source-git-commit: 39f9ef07088eb9595e5057d21008ecd2f5ea44fe
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '722'
 ht-degree: 4%
 
 ---
 
 # [!UICONTROL 參與]檢視
 
-**[!UICONTROL 參與]**&#x200B;檢視可提供功能使用頻率與使用者人數的分析。 將數個功能相互比較時，此分析效果最佳。 瞭解您的核心、效能、一次性和可疑功能，有助於促進投資決策。
+![EngagementGraph](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]**&#x200B;檢視可提供功能使用頻率與人數的分析。 將數個功能相互比較時，此分析效果最佳。 瞭解您的核心、效能、一次性和可疑功能，有助於促進投資決策。
 
 繪製於此視覺效果頂端的功能表示它們經常用於參與的使用者。 繪製於此視覺效果右側的功能表示這些功能已在您的作用中使用者中廣泛採用。 使用特徵的中位數水準分割圖形。 作用中使用者的中位數百分比會垂直分割圖表。 媒體會根據查詢中選取的事件進行計算，而非所有資料。
 

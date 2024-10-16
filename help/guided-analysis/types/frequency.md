@@ -5,16 +5,16 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: 70c274819eaef46627bf66d05ef8f790f61906a4
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 6%
 
 ---
 
 # [!UICONTROL 頻率]檢視
 
-**[!UICONTROL 頻率]**&#x200B;檢視會依產品中發生事件的頻率將事件資料分組。 此檢視的垂直軸包含代表事件頻率的貯體。 水平軸會測量每個時段的使用者或工作階段數量。
+![頻率](/help/assets/icons/Histogram.svg) **[!UICONTROL 頻率]**&#x200B;檢視會依產品中發生事件的頻率將事件資料分組。 此檢視的垂直軸包含代表事件頻率的貯體。 水平軸會測量每個時段的使用者或工作階段數量。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428089/?learn=on)
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 查詢邊欄可讓您設定以下元件：
 
-* **[!UICONTROL 檢視]**：在此檢視型別與[使用狀況](usage.md)之間切換。
+* **[!UICONTROL 檢視]**：在此檢視型別與[使用狀況](trends.md)之間切換。
 * **[!UICONTROL 事件]**：您要測量的事件。每個選取的事件都會以個別的圖表呈現。 表格中會新增代表趨勢事件的列。 您最多可以包含五個事件。
 * **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括[!UICONTROL 使用者]、[!UICONTROL 工作階段]、[!UICONTROL 使用者百分比]和[!UICONTROL 工作階段百分比]。 此檢視中百分比型量度的分母是執行所選事件的使用者或工作階段，而非產品的所有作用中使用者。
 * **[!UICONTROL 區段]**：您要測量的區段。每個選取的區段都會將圖表中的橫條數和表格中的列數加倍。 您最多可以包含五個區段。

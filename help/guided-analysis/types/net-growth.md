@@ -5,16 +5,16 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: 240a17923b55479865affaafb098b56e32d083a3
+source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '653'
 ht-degree: 2%
 
 ---
 
 # [!UICONTROL 淨增長]檢視
 
-**[!UICONTROL 淨成長]**&#x200B;檢視型別提供您特定期間使用者得失速率的深入分析。 水平軸是時間間隔，垂直軸是增長的測量值。
+![NetGrowth](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]**&#x200B;檢視型別提供您特定期間使用者獲益或損失率的相關資訊。 水平軸是時間間隔，垂直軸是增長的測量值。
 
 每個資料點代表淨增長，其計算公式如下：
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 此公式的結果為比率。 `1`的淨成長代表平衡；產品獲得與它失去的使用者數量相同的數量。 淨成長大於`1`代表正成長；新增+回訪使用者多於休眠使用者。 同樣地，淨成長率小於`1`表示減少；休眠使用者多於新回訪使用者。
 
-與[作用中](active.md)檢視型別類似，使用者的定義如下：
+與[作用中](active-growth.md)檢視型別類似，使用者的定義如下：
 
 * **[!UICONTROL 新]**：使用者在目前期間處於作用中狀態，但先前未啟用。 檢視分析在圖表圖例中暫留在&#39;[!UICONTROL 新使用者]&#39;上以判斷新使用者的回顧範圍。 回顧範圍會根據選取的日期範圍和間隔動態決定。
 * **[!UICONTROL Return]**：使用者在目前時段處於作用中狀態，在先前時段未處於作用中狀態，但在某個時間點之前處於作用中狀態。 檢視分析在圖表圖例中暫留在&#39;[!UICONTROL 回訪使用者]&#39;上以判斷回訪使用者的回顧範圍。 回顧範圍會根據選取的日期範圍和間隔動態決定。
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 查詢邊欄可讓您設定以下元件：
 
-* **[!UICONTROL 檢視]**：在此檢視型別和[使用中](active.md)之間切換。
+* **[!UICONTROL 檢視]**：在此檢視型別和[使用中](active-growth.md)之間切換。
 * **[!UICONTROL 事件]**：您要測量的事件。 由於此檢視型別是以使用者為基礎，在期間內與事件互動一次的使用者會計為作用中使用者。 您可以在查詢中包含一個事件。
 * **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括[!UICONTROL 使用者數目]和[!UICONTROL 使用者百分比]。
 * **[!UICONTROL 區段]**：您要測量的區段。 您可以在查詢中包含一個區段。

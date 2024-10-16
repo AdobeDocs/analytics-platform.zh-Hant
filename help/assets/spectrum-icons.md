@@ -5,10 +5,10 @@ role: User, Admin
 feature: Basics
 hide: true
 hide-from-toc: true
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: 39f9ef07088eb9595e5057d21008ecd2f5ea44fe
 workflow-type: tm+mt
-source-wordcount: '1956'
-ht-degree: 13%
+source-wordcount: '1954'
+ht-degree: 14%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 13%
 | AdDisplay | `![AdDisplay](/help/assets/icons/AdDisplay.svg)` | ![AdDisplay](/help/assets/icons/AdDisplay.svg) |
 | AdPrint | `![AdPrint](/help/assets/icons/AdPrint.svg)` | ![AdPrint](/help/assets/icons/AdPrint.svg) |
 | 新增 | `![Add](/help/assets/icons/Add.svg)` | ![新增](/help/assets/icons/Add.svg) |
-| 新增圓 | `![AddCircle](/help/assets/icons/AddCircle.svg)` | ![AddCircle](/help/assets/icons/AddCircle.svg) |
+| 新增圓 | `![AddCircle](/help/assets/icons/AddCircle.svg)` | ![加號圓圈](/help/assets/icons/AddCircle.svg) |
 | AddTo | `![AddTo](/help/assets/icons/AddTo.svg)` | ![AddTo](/help/assets/icons/AddTo.svg) |
 | AddToSelection | `![AddToSelection](/help/assets/icons/AddToSelection.svg)` | ![AddToSelection](/help/assets/icons/AddToSelection.svg) |
 | AdobeLogo | `![AdobeLogo](/help/assets/icons/AdobeLogo.svg)` | ![AdobeLogo](/help/assets/icons/AdobeLogo.svg) |
@@ -104,7 +104,7 @@ ht-degree: 13%
 | AttributeUShaped | `![AttributeUShaped](/help/assets/icons/AttributeUShaped.svg)` | ![AttributeUShaped](/help/assets/icons/AttributeUShaped.svg) |
 | 音訊 | `![Audio](/help/assets/icons/Audio.svg)` | ![音訊](/help/assets/icons/Audio.svg) |
 | 自動化區段 | `![AutomatedSegment](/help/assets/icons/AutomatedSegment.svg)` | ![自動化區段](/help/assets/icons/AutomatedSegment.svg) |
-| 上一頁 | `![Back](/help/assets/icons/Back.svg)` | ![上一步](/help/assets/icons/Back.svg) |
+| 返回 | `![Back](/help/assets/icons/Back.svg)` | ![上一步](/help/assets/icons/Back.svg) |
 | 後30秒 | `![Back30Second](/help/assets/icons/Back30Second.svg)` | ![上一步30秒](/help/assets/icons/Back30Second.svg) |
 | BackAndroid | `![BackAndroid](/help/assets/icons/BackAndroid.svg)` | ![BackAndroid](/help/assets/icons/BackAndroid.svg) |
 | 燒杯 | `![Beaker](/help/assets/icons/Beaker.svg)` | ![燒杯](/help/assets/icons/Beaker.svg) |
@@ -216,7 +216,7 @@ ht-degree: 13%
 | 對比 | `![Contrast](/help/assets/icons/Contrast.svg)` | ![對比](/help/assets/icons/Contrast.svg) |
 | 轉換漏斗 | `![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)` | ![轉換漏斗](/help/assets/icons/ConversionFunnel.svg) |
 | ConversionTrends | `![ConversionTrends](/help/assets/icons/ConversionTrends.svg)` | ![ConversionTrends](/help/assets/icons/ConversionTrends.svg) |
-| 複製 | `![Copy](/help/assets/icons/Copy.svg)` | ![副本](/help/assets/icons/Copy.svg) |
+| 複製 | `![Copy](/help/assets/icons/Copy.svg)` | ![複製](/help/assets/icons/Copy.svg) |
 | 封面影像 | `![CoverImage](/help/assets/icons/CoverImage.svg)` | ![封面影像](/help/assets/icons/CoverImage.svg) |
 | 信用卡 | `![CreditCard](/help/assets/icons/CreditCard.svg)` | ![信用卡](/help/assets/icons/CreditCard.svg) |
 | 裁切 | `![Crop](/help/assets/icons/Crop.svg)` | ![裁切](/help/assets/icons/Crop.svg) |
@@ -408,7 +408,6 @@ ht-degree: 13%
 | 預測 | `![Forecast](/help/assets/icons/Forecast.svg)` | ![預測](/help/assets/icons/Forecast.svg) |
 | 表單 | `![Form](/help/assets/icons/Form.svg)` | ![表單](/help/assets/icons/Form.svg) |
 | 前進 | `![Forward](/help/assets/icons/Forward.svg)` | ![轉寄](/help/assets/icons/Forward.svg) |
-| 頻率 | `![Frequency](/help/assets/icons/Frequency.svg)` | ![頻率](/help/assets/icons/Frequency.svg) |
 | 全熒幕 | `![FullScreen](/help/assets/icons/FullScreen.svg)` | ![全熒幕](/help/assets/icons/FullScreen.svg) |
 | FullScreenExit | `![FullScreenExit](/help/assets/icons/FullScreenExit.svg)` | ![FullScreenExit](/help/assets/icons/FullScreenExit.svg) |
 | 函數 | `![Function](/help/assets/icons/Function.svg)` | ![函數](/help/assets/icons/Function.svg) |
@@ -439,29 +438,29 @@ ht-degree: 13%
 | 政府 | `![Government](/help/assets/icons/Government.svg)` | ![政府](/help/assets/icons/Government.svg) |
 | 漸層 | `![Gradient](/help/assets/icons/Gradient.svg)` | ![漸層](/help/assets/icons/Gradient.svg) |
 | 圖表區域 | `![GraphArea](/help/assets/icons/GraphArea.svg)` | ![GraphArea](/help/assets/icons/GraphArea.svg) |
-| GraphAreaStacked | `![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg)` | ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) |
+| GraphAreaStacked | `![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg)` | ![堆疊區域圖](/help/assets/icons/GraphAreaStacked.svg) |
 | 圖表橫條水準 | `![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg)` | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) |
 | 圖表橫條水準新增 | `![GraphBarHorizontalAdd](/help/assets/icons/GraphBarHorizontalAdd.svg)` | ![GraphBarHorizontalAdd](/help/assets/icons/GraphBarHorizontalAdd.svg) |
 | GraphBarHorizontalStacked | `![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg)` | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) |
-| 圖表橫條垂直 | `![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)` | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) |
+| 圖表橫條垂直 | `![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)` | ![條狀圖垂直](/help/assets/icons/GraphBarVertical.svg) |
 | GraphBarVerticalAdd | `![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg)` | ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) |
 | GraphBarVerticalStacked | `![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg)` | ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) |
 | 圖表氣泡 | `![GraphBubble](/help/assets/icons/GraphBubble.svg)` | ![圖形氣泡](/help/assets/icons/GraphBubble.svg) |
-| GraphBullet | `![GraphBullet](/help/assets/icons/GraphBullet.svg)` | ![GraphBullet](/help/assets/icons/GraphBullet.svg) |
+| GraphBullet | `![GraphBullet](/help/assets/icons/GraphBullet.svg)` | ![圖項目符號](/help/assets/icons/GraphBullet.svg) |
 | GraphConfidenceBand | `![GraphConfidenceBand](/help/assets/icons/GraphConfidenceBand.svg)` | ![GraphConfidenceBand](/help/assets/icons/GraphConfidenceBand.svg) |
-| 環形圖 | `![GraphDonut](/help/assets/icons/GraphDonut.svg)` | ![GraphDonut](/help/assets/icons/GraphDonut.svg) |
+| 環形圖 | `![GraphDonut](/help/assets/icons/GraphDonut.svg)` | ![圖中空圓](/help/assets/icons/GraphDonut.svg) |
 | GraphDonutAdd | `![GraphDonutAdd](/help/assets/icons/GraphDonutAdd.svg)` | ![GraphDonutAdd](/help/assets/icons/GraphDonutAdd.svg) |
 | 圖表甘特圖 | `![GraphGantt](/help/assets/icons/GraphGantt.svg)` | ![GraphGantt](/help/assets/icons/GraphGantt.svg) |
 | 圖表長條圖 | `![GraphHistogram](/help/assets/icons/GraphHistogram.svg)` | ![GraphHistogram](/help/assets/icons/GraphHistogram.svg) |
 | GraphPathing | `![GraphPathing](/help/assets/icons/GraphPathing.svg)` | ![GraphPathing](/help/assets/icons/GraphPathing.svg) |
 | 圖形圓形 | `![GraphPie](/help/assets/icons/GraphPie.svg)` | ![GraphPie](/help/assets/icons/GraphPie.svg) |
 | GraphProfitCurve | `![GraphProfitCurve](/help/assets/icons/GraphProfitCurve.svg)` | ![GraphProfitCurve](/help/assets/icons/GraphProfitCurve.svg) |
-| 圖表散佈圖 | `![GraphScatter](/help/assets/icons/GraphScatter.svg)` | ![圖表散佈圖](/help/assets/icons/GraphScatter.svg) |
+| 圖表散佈圖 | `![GraphScatter](/help/assets/icons/GraphScatter.svg)` | ![散佈圖](/help/assets/icons/GraphScatter.svg) |
 | Graphstream | `![GraphStream](/help/assets/icons/GraphStream.svg)` | ![GraphStream](/help/assets/icons/GraphStream.svg) |
 | GraphStreamRanking | `![GraphStreamRanked](/help/assets/icons/GraphStreamRanked.svg)` | ![GraphStreamRanking](/help/assets/icons/GraphStreamRanked.svg) |
 | GraphStreamRankingAdd | `![GraphStreamRankedAdd](/help/assets/icons/GraphStreamRankedAdd.svg)` | ![GraphStreamRankingAdd](/help/assets/icons/GraphStreamRankedAdd.svg) |
 | 圖表散射環 | `![GraphSunburst](/help/assets/icons/GraphSunburst.svg)` | ![GraphSunburst](/help/assets/icons/GraphSunburst.svg) |
-| 圖表樹 | `![GraphTree](/help/assets/icons/GraphTree.svg)` | ![GraphTree](/help/assets/icons/GraphTree.svg) |
+| 圖表樹 | `![GraphTree](/help/assets/icons/GraphTree.svg)` | ![樹狀圖](/help/assets/icons/GraphTree.svg) |
 | Graphtrend | `![GraphTrend](/help/assets/icons/GraphTrend.svg)` | ![GraphTrend](/help/assets/icons/GraphTrend.svg) |
 | GraphTrendAdd | `![GraphTrendAdd](/help/assets/icons/GraphTrendAdd.svg)` | ![GraphTrendAdd](/help/assets/icons/GraphTrendAdd.svg) |
 | GraphTrendAlert | `![GraphTrendAlert](/help/assets/icons/GraphTrendAlert.svg)` | ![GraphTrendAlert](/help/assets/icons/GraphTrendAlert.svg) |
@@ -535,7 +534,7 @@ ht-degree: 13%
 | 了解 | `![Learn](/help/assets/icons/Learn.svg)` | ![學習](/help/assets/icons/Learn.svg) |
 | LeftRight | `![LeftRight](/help/assets/icons/LeftRight.svg)` | ![LeftRight](/help/assets/icons/LeftRight.svg) |
 | 淺色 | `![Light](/help/assets/icons/Light.svg)` | ![亮](/help/assets/icons/Light.svg) |
-| 折線圖 | `![Line](/help/assets/icons/Line.svg)` | ![折線圖](/help/assets/icons/Line.svg) |
+| 折線圖 | `![Line](/help/assets/icons/Line.svg)` | ![線](/help/assets/icons/Line.svg) |
 | 行高 | `![LineHeight](/help/assets/icons/LineHeight.svg)` | ![LineHeight](/help/assets/icons/LineHeight.svg) |
 | 線性漸層 | `![LinearGradient](/help/assets/icons/LinearGradient.svg)` | ![線性漸層](/help/assets/icons/LinearGradient.svg) |
 | 連結 | `![Link](/help/assets/icons/Link.svg)` | ![連結](/help/assets/icons/Link.svg) |
@@ -588,7 +587,7 @@ ht-degree: 13%
 | 移動 | `![Move](/help/assets/icons/Move.svg)` | ![移動](/help/assets/icons/Move.svg) |
 | 左移 | `![MoveLeftRight](/help/assets/icons/MoveLeftRight.svg)` | ![MoveLeftRight](/help/assets/icons/MoveLeftRight.svg) |
 | 移至 | `![MoveTo](/help/assets/icons/MoveTo.svg)` | ![移至](/help/assets/icons/MoveTo.svg) |
-| 上移下移 | `![MoveUpDown](/help/assets/icons/MoveUpDown.svg)` | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) |
+| 上移下移 | `![MoveUpDown](/help/assets/icons/MoveUpDown.svg)` | ![移動上下](/help/assets/icons/MoveUpDown.svg) |
 | MovieCamera | `![MovieCamera](/help/assets/icons/MovieCamera.svg)` | ![MovieCamera](/help/assets/icons/MovieCamera.svg) |
 | 多個 | `![Multiple](/help/assets/icons/Multiple.svg)` | ![多個](/help/assets/icons/Multiple.svg) |
 | 多重新增 | `![MultipleAdd](/help/assets/icons/MultipleAdd.svg)` | ![MultipleAdd](/help/assets/icons/MultipleAdd.svg) |
@@ -706,6 +705,7 @@ ht-degree: 13%
 | 必填 | `![Required](/help/assets/icons/Required.svg)` | ![必要](/help/assets/icons/Required.svg) |
 | 調整大小 | `![Resize](/help/assets/icons/Resize.svg)` | ![調整大小](/help/assets/icons/Resize.svg) |
 | 已解析的註解 | `![ResolvedComment](/help/assets/icons/ResolvedComment.svg)` | ![已解析的註解](/help/assets/icons/ResolvedComment.svg) |
+| 保留 | `![Retention](/help/assets/icons/Retention.svg)` | ![保留](/help/assets/icons/Retention.svg) |
 | 保留率 | `![RetentionRates](/help/assets/icons/RetentionRates.svg)` | ![保留率](/help/assets/icons/RetentionRates.svg) |
 | 回推 | `![Retweet](/help/assets/icons/Retweet.svg)` | ![轉推](/help/assets/icons/Retweet.svg) |
 | 重複使用 | `![Reuse](/help/assets/icons/Reuse.svg)` | ![重複使用](/help/assets/icons/Reuse.svg) |
@@ -739,8 +739,8 @@ ht-degree: 13%
 | 授權 | `![Seat](/help/assets/icons/Seat.svg)` | ![名額](/help/assets/icons/Seat.svg) |
 | SeatAdd | `![SeatAdd](/help/assets/icons/SeatAdd.svg)` | ![名額新增](/help/assets/icons/SeatAdd.svg) |
 | 區段 | `![Segment](/help/assets/icons/Segment.svg)` | ![區段](/help/assets/icons/Segment.svg) |
-| 區段 | `![Segmentation](/help/assets/icons/Segmentation.svg)` | ![區段](/help/assets/icons/Segmentation.svg) |
-| 選擇 | `![Select](/help/assets/icons/Select.svg)` | ![選取](/help/assets/icons/Select.svg) |
+| 區段 | `![Segmentation](/help/assets/icons/Segmentation.svg)` | ![分段](/help/assets/icons/Segmentation.svg) |
+| 選取 | `![Select](/help/assets/icons/Select.svg)` | ![選取](/help/assets/icons/Select.svg) |
 | SelectAdd | `![SelectAdd](/help/assets/icons/SelectAdd.svg)` | ![SelectAdd](/help/assets/icons/SelectAdd.svg) |
 | SelectBox | `![SelectBox](/help/assets/icons/SelectBox.svg)` | ![SelectBox](/help/assets/icons/SelectBox.svg) |
 | 選取方塊 | `![SelectBoxAll](/help/assets/icons/SelectBoxAll.svg)` | ![SelectBoxAll](/help/assets/icons/SelectBoxAll.svg) |
@@ -792,8 +792,8 @@ ht-degree: 13%
 | 體育場 | `![Stadium](/help/assets/icons/Stadium.svg)` | ![體育場](/help/assets/icons/Stadium.svg) |
 | 階段 | `![Stage](/help/assets/icons/Stage.svg)` | ![階段](/help/assets/icons/Stage.svg) |
 | 印章 | `![Stamp](/help/assets/icons/Stamp.svg)` | ![戳記](/help/assets/icons/Stamp.svg) |
-| 星形 | `![Star](/help/assets/icons/Star.svg)` | ![顆星](/help/assets/icons/Star.svg) |
-| 星形外框 | `![StarOutline](/help/assets/icons/StarOutline.svg)` | ![星形大綱](/help/assets/icons/StarOutline.svg) |
+| 星形 | `![Star](/help/assets/icons/Star.svg)` | ![星形](/help/assets/icons/Star.svg) |
+| 星形外框 | `![StarOutline](/help/assets/icons/StarOutline.svg)` | ![星形輪廓](/help/assets/icons/StarOutline.svg) |
 | 星暴 | `![Starburst](/help/assets/icons/Starburst.svg)` | ![星暴](/help/assets/icons/Starburst.svg) |
 | 狀態藍色 | `![StatusBlue](/help/assets/icons/StatusBlue.svg)` | ![狀態藍色](/help/assets/icons/StatusBlue.svg) |
 | 狀態灰色 | `![StatusGray](/help/assets/icons/StatusGray.svg)` | ![狀態灰色](/help/assets/icons/StatusGray.svg) |
@@ -852,7 +852,7 @@ ht-degree: 13%
 | TestABGear | `![TestABGear](/help/assets/icons/TestABGear.svg)` | ![TestABGear](/help/assets/icons/TestABGear.svg) |
 | TestABRemove | `![TestABRemove](/help/assets/icons/TestABRemove.svg)` | ![TestABRemove](/help/assets/icons/TestABRemove.svg) |
 | TestProfile | `![TestProfile](/help/assets/icons/TestProfile.svg)` | ![測試設定檔](/help/assets/icons/TestProfile.svg) |
-| 文字 | `![Text](/help/assets/icons/Text.svg)` | ![Text](/help/assets/icons/Text.svg) |
+| 文字 | `![Text](/help/assets/icons/Text.svg)` | ![文字](/help/assets/icons/Text.svg) |
 | 文字新增 | `![TextAdd](/help/assets/icons/TextAdd.svg)` | ![文字新增](/help/assets/icons/TextAdd.svg) |
 | 文字對齊中心 | `![TextAlignCenter](/help/assets/icons/TextAlignCenter.svg)` | ![TextAlignCenter](/help/assets/icons/TextAlignCenter.svg) |
 | 文字對齊對齊 | `![TextAlignJustify](/help/assets/icons/TextAlignJustify.svg)` | ![TextAlignJustify](/help/assets/icons/TextAlignJustify.svg) |
@@ -875,7 +875,7 @@ ht-degree: 13%
 | 文字字距微調 | `![TextKerning](/help/assets/icons/TextKerning.svg)` | ![文字字距微調](/help/assets/icons/TextKerning.svg) |
 | TextLetterLowerCase | `![TextLetteredLowerCase](/help/assets/icons/TextLetteredLowerCase.svg)` | ![TextLetterLowerCase](/help/assets/icons/TextLetteredLowerCase.svg) |
 | TextLetterUpperCase | `![TextLetteredUpperCase](/help/assets/icons/TextLetteredUpperCase.svg)` | ![TextLetterUpperCase](/help/assets/icons/TextLetteredUpperCase.svg) |
-| 文字編號 | `![TextNumbered](/help/assets/icons/TextNumbered.svg)` | ![文字編號](/help/assets/icons/TextNumbered.svg) |
+| 文字編號 | `![TextNumbered](/help/assets/icons/TextNumbered.svg)` | ![文字附數字](/help/assets/icons/TextNumbered.svg) |
 | 文欄位落 | `![TextParagraph](/help/assets/icons/TextParagraph.svg)` | ![文欄位落](/help/assets/icons/TextParagraph.svg) |
 | TextRomanLowercase | `![TextRomanLowercase](/help/assets/icons/TextRomanLowercase.svg)` | ![TextRomanLowercase](/help/assets/icons/TextRomanLowercase.svg) |
 | 文字羅馬大寫 | `![TextRomanUppercase](/help/assets/icons/TextRomanUppercase.svg)` | ![文字羅馬大寫](/help/assets/icons/TextRomanUppercase.svg) |
@@ -911,14 +911,13 @@ ht-degree: 13%
 | 類型 | `![Type](/help/assets/icons/Type.svg)` | ![類型](/help/assets/icons/Type.svg) |
 | 美國 | `![USA](/help/assets/icons/USA.svg)` | ![美國](/help/assets/icons/USA.svg) |
 | 底線 | `![Underline](/help/assets/icons/Underline.svg)` | ![加底線](/help/assets/icons/Underline.svg) |
-| 還原 | `![Undo](/help/assets/icons/Undo.svg)` | ![復原](/help/assets/icons/Undo.svg) |
+| 還原 | `![Undo](/help/assets/icons/Undo.svg)` | ![還原](/help/assets/icons/Undo.svg) |
 | 取消群組 | `![Ungroup](/help/assets/icons/Ungroup.svg)` | ![取消群組](/help/assets/icons/Ungroup.svg) |
 | 取消連結 | `![Unlink](/help/assets/icons/Unlink.svg)` | ![取消連結](/help/assets/icons/Unlink.svg) |
 | 取消合併 | `![Unmerge](/help/assets/icons/Unmerge.svg)` | ![取消合併](/help/assets/icons/Unmerge.svg) |
 | 未解析的註解 | `![UnresolvedComment](/help/assets/icons/UnresolvedComment.svg)` | ![UnresolvedComment](/help/assets/icons/UnresolvedComment.svg) |
 | UploadToCloud | `![UploadToCloud](/help/assets/icons/UploadToCloud.svg)` | ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) |
 | UploadToCloudOutline | `![UploadToCloudOutline](/help/assets/icons/UploadToCloudOutline.svg)` | ![UploadToCloudOutline](/help/assets/icons/UploadToCloudOutline.svg) |
-| 使用情況 | `![Usage](/help/assets/icons/Usage.svg)` | ![使用狀況](/help/assets/icons/Usage.svg) |
 | 使用者 | `![User](/help/assets/icons/User.svg)` | ![使用者](/help/assets/icons/User.svg) |
 | 使用者活動 | `![UserActivity](/help/assets/icons/UserActivity.svg)` | ![使用者活動](/help/assets/icons/UserActivity.svg) |
 | UserAdd | `![UserAdd](/help/assets/icons/UserAdd.svg)` | ![UserAdd](/help/assets/icons/UserAdd.svg) |
