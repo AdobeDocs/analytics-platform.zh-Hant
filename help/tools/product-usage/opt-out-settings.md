@@ -3,7 +3,7 @@ title: 產品使用選擇退出設定
 description: 管理組織內個別使用者的選擇退出設定。
 hide: true
 hidefromtoc: true
-source-git-commit: 8f2a340f59d8cdf97a5309ec20dc36f49b8f1129
+source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 7%
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 _選擇退出設定_&#x200B;頁面可讓您從產品使用追蹤中排除或重新包含組織內的使用者。 只有產品管理員能看見。
 
-**Customer Journey Analytics** > **[!UICONTROL 工具]** > **[!UICONTROL 產品使用情形]** > **[!UICONTROL 選擇退出設定]**
+**[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL 產品使用情形]** > **[!UICONTROL 選擇退出設定]**
 
 此頁面提供下列設定：
 
