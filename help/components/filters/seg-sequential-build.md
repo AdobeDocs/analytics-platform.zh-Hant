@@ -3,16 +3,16 @@ description: 循序篩選器是指使用THEN運運算元定義篩選條件順序
 title: 循序篩選器
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: d6ea541de7c8b97151f16a01f61a002c5b877e7c
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2460'
 ht-degree: 2%
 
 ---
 
 # 循序篩選器
 
-您可以使用Then邏輯運運算元，而不是元件、容器和元件或容器之間的And或Or邏輯運運算元，來建立循序篩選器。 Then邏輯運運算元表示有一個篩選條件發生，接著是另一個篩選條件。
+在元件、容器和元件或容器之間，您可使用Then邏輯運運算元建立循序篩選器。 Then邏輯運運算元表示有一個篩選條件發生，接著是另一個篩選條件。
 
 +++ 以下是示範循序分段的影片。
 
@@ -29,10 +29,10 @@ ht-degree: 2%
 
 * 序列篩選定義中Then邏輯的[After和within](#after-and-within)限制：
 
-* [要包含哪些資料作為篩選定義整體順序的一部分](#include)。 或針對定義為容器一部分的序列。 依預設，所有符合的資料都會被考慮，由![使用者群組](/help/assets/icons/UserGroup.svg) [!UICONTROL 包含所有人]識別。
+* [要包含哪些資料作為篩選定義整體順序的一部分](#include)。 或針對定義為容器一部分的序列。 依預設，會考量所有相符的資料。 該資料由![UserGroup](/help/assets/icons/UserGroup.svg) [!UICONTROL 包含所有人]識別。
 
-   * 選取![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**，僅考慮序列之前的資料。
-   * 選取![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After After After]**，只考慮序列之後的資料。
+   * 選取![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**，只考慮序列之前的資料。
+   * 選取![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After After After]**，僅考慮序列之後的資料。
 
 * 要將[排除](#exclude)的哪些資料視為循序篩選器定義的一部分。
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 #### 簡單順序
 
-識別檢視了某個頁面然後又檢視另一個頁面的人員。 事件層級資料會篩選此序列，不論先前、過去或臨時人員工作階段，或工作階段之間發生的時間或頁面檢視次數。
+識別檢視了某個頁面然後又檢視另一個頁面的人員。 事件層級資料會使用此序列進行篩選。 無論先前、過去或臨時人員工作階段，或工作階段之間發生的時間或頁面檢視次數。
 
 ![循序篩選器包含所有人](assets/sequence-include-everyone.png)
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 #### 巢狀內嵌序列
 
-識別某人先造訪另一個頁面的一個頁面，接著再進行涉及其他兩個頁面的後續工作階段的所有工作階段。 例如，識別某人先造訪首頁，接著造訪類別1頁面，接著又在每個工作階段中造訪類別2和類別3頁面的所有工作階段。
+識別某人先造訪一個頁面再造訪另一個頁面，然後具有涉及其他兩個頁面的後續工作階段的所有工作階段。 例如，識別某人先造訪首頁，接著類別1頁面接著有其他工作階段，其中每個工作階段都會造訪類別2和類別3頁面的所有工作階段。
 
 ![巢狀序列](assets/sequence-nested.png)
 
@@ -98,8 +98,8 @@ ht-degree: 2%
 
 | 運算子 | 說明 |
 |--- |--- |
-| **[!UICONTROL After]** | [!UICONTROL After]運運算元用來指定兩個查核點之間時間量的下限。 設定After值時，時間限制將在套用篩選器時開始。 例如，如果在容器上設定After運運算元，以識別造訪頁面A但直到一天後才返回造訪頁面B的人，則該日將從訪客離開頁面A時開始。 若要將訪客納入篩選器中，離開頁面A後必須至少經過1440分鐘（一天）才能檢視頁面B。 |
-| **[!UICONTROL Within]** | [!UICONTROL Within]運運算元用於指定兩個查核點之間時間量的上限。 例如，如果在容器上設定[!UICONTROL Within]運運算元，以識別在一天內造訪頁面A然後返回造訪頁面B的人，則該日將從該人離開頁面A開始。若要納入篩選器中，此人開啟頁面B前的時間長度上限為一天。若要將人員納入篩選器中，在離開頁面A檢視頁面B後，最多必須在1440分鐘（一天）內開啟頁面B。 |
+| **[!UICONTROL After]** | [!UICONTROL After]運運算元用來指定兩個查核點之間時間量的下限。 設定After值時，時間限制從套用篩選器時開始。 例如，如果在容器上設定[!UICONTROL After]運運算元，以識別造訪頁面A、但直到一天後才返回造訪頁面B的人，則當訪客離開頁面A時，該日就會開始。 若要將訪客納入篩選器中，離開頁面A後必須至少經過1440分鐘（一天）才能檢視頁面B。 |
+| **[!UICONTROL Within]** | [!UICONTROL Within]運運算元用於指定兩個查核點之間時間量的上限。 例如，如果在容器上設定[!UICONTROL Within]運運算元，以識別造訪頁面A，然後在一天內返回造訪頁面B的人，則該日從該人離開頁面A時開始。若要納入篩選器中，此人開啟頁面B前的時間上限為一天。若要將人員納入篩選器中，在離開頁面A檢視頁面B後，最多必須在1440分鐘（一天）內開啟頁面B。 |
 | **[!UICONTROL 晚於]**&#x200B;但以內 | 同時使用[!UICONTROL After]和[!UICONTROL Within]運運算元時，兩個運運算元會同時開始和結束，而非連續進行。 <br/>例如，您建置容器設為`After = 1 Week(s) and Within = 2 Week(s)`的篩選器。<br/>在此篩選中識別訪客的條件僅符合一週到兩週之間。 這兩個條件都會從第一個頁面檢視的時間開始執行。 |
 
 
@@ -113,7 +113,7 @@ ht-degree: 2%
 
 ![序列在](assets/sequence-after.png)之後
 
-如果首頁的頁面檢視發生於2024年6月1日00:01，則對頁面的頁面檢視為女性 | 只要2024年6月15日00:01之後發生頁面檢視，鞋子就會符合。
+如果首頁的頁面檢視發生在2024年6月1日00:01，則為頁面女性提供頁面檢視 | 只要2024年6月15日00:01之後發生頁面檢視，鞋子就會符合。
 
 ##### Within運運算元
 
@@ -163,18 +163,18 @@ ht-degree: 2%
 
 以下範例序列符合或不符合：
 
-| 序列 | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
-|--- | --- |
-| A然後B在同一工作階段中 | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
-| A然後C然後D然後B （跨不同的工作階段） | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
-| B 然後 A | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) |
+| | 序列 | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
+|---:|--- | --- |
+| 1 | 在相同工作階段中`Women \| Shoes`然後`Checkout \| Thank You` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
+| 2 | `Women \| Shoes`然後`Men \| Shoes`然後`Checkout \| Thank You` （跨不同的工作階段） | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
+| 3 | `Checkout \| Thank You`然後`Women \| Shoes` | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) |
 
 ### 「僅限序列之前」與「僅限序列之後」
 
 選項![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**&#x200B;與![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]**&#x200B;在指定的序列之前或之後，將資料篩選為子集。
 
-* ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **Only Before Sequence**：包含序列之前的所有資料以及序列本身的第一個資料（請參閱範例1、3）。 如果序列作為資料的一部分出現多次，則[!UICONTROL 僅於序列之前]包括最後一個出現序列的首次點選和所有先前的點選（請參閱範例2）。
-* ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **Only After Sequence**：包含序列之後的所有點選，以及序列本身的最後資料（請參閱範例1、3）。 如果序列在資料中出現多次，則「僅限序列之後」包括第一個出現序列的最後點選，以及之後的所有點選（請參閱範例2）。
+* ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **Only Before Sequence**：包含序列之前的所有資料，以及序列本身的第一個資料。 如果序列作為資料的一部分出現多次，則[!UICONTROL 僅在序列之前]包括最後一個出現序列的首次點選和所有先前的點選。
+* ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **Only After Sequence**：包含序列之後的所有點選，以及序列本身的最後資料。 如果序列作為資料的一部分出現多次，則[!UICONTROL 僅在序列之後]包含第一個出現序列的最後點選，以及之後的所有點選。
 
 請考慮使用以B識別之條件指定元件順序的定義，接著使用以D識別之條件指定(Then)的元件。三個選項可識別資料，如下所示：
 
@@ -199,7 +199,7 @@ ht-degree: 2%
 
 ![順序篩選器](assets/site-section-filters.png)
 
-使用這三個篩選條件製作網站區段報表時，這會是自由表格中的範例輸出。
+使用這三個篩選條件在網站區段上產生報表時，自由表格中的範例輸出看起來會像這樣：
 
 ![循序篩選器報告](assets/sequential-filter-freeform-table.png)
 
@@ -215,7 +215,7 @@ ht-degree: 2%
 * **排除反向連結網域**。請使用僅包含來自Google.com的反向連結網域並排除所有其他網域的定義。
 * **找出未購買者**。識別訂單大於零的時間，然後排除[!UICONTROL 人員]。
 
-[!UICONTROL 排除]可用來識別特定工作階段或事件未由人員執行的順序。 [!UICONTROL 排除]也可以包含在邏輯群組中（請參閱下文）。
+[!UICONTROL 排除]可用來識別特定工作階段或事件未由人員執行的順序。 [!UICONTROL 排除]也可以包含在[!UICONTROL 邏輯群組]中（請參閱下文）。
 
 您可以排除容器，而非元件。
 
@@ -225,7 +225,7 @@ ht-degree: 2%
 
 #### 排除範圍：
 
-識別造訪過某個頁面、未造訪其他頁面，然後又造訪其他頁面的人員。 您使用![設定](/help/assets/icons/Setting.svg)排除來排除容器。 排除的容器以左側的紅色細列表示。
+識別造訪過某個頁面、未造訪其他頁面，然後又造訪其他頁面的人員。 您使用![設定](/help/assets/icons/Setting.svg) [!UICONTROL 排除]來排除容器。 排除的容器以左側的紅色細列表示。
 
 ![排除序列](assets/sequence-exclude.png)
 
@@ -252,7 +252,7 @@ ht-degree: 2%
 
 邏輯群組可讓您將條件群組至單一循序篩選器查核點。 作為序列的一部分，在任何先前的循序查核點之後，任何後續的循序查核點之前，都會評估識別為邏輯群組的容器中定義的邏輯。
 
-邏輯群組本身內的條件可依任何順序符合。 相較之下，非循序容器（事件、工作階段、人員）不要求其條件在整個序列中均符合，如果搭配使用Then運運算元可能會產生非直覺式結果。
+邏輯群組本身內的條件可依任何順序符合。 相較之下，非循序容器（事件、工作階段、人員）不要求其條件在整個序列中均符合，如果與Then運運算元一起使用，可能會產生非直覺式結果。
 
 [!UICONTROL 邏輯群組]設計成將&#x200B;*數個條件視為群組，在群組條件中沒有任何排序*。 若另有說明，邏輯群組中條件的順序並不相關。
 
@@ -267,9 +267,9 @@ ht-degree: 2%
 
 #### 任何訂單
 
-識別瀏覽一個頁面，然後以任意順序從另一組頁面中檢視每個頁面的使用者。 例如，無論順序為何，訪客造訪首頁，接著造訪每個「男性」頁面、「女性」頁面和「孩子」頁面。
+識別造訪過一個頁面，然後以任意順序從另一組頁面檢視每個頁面的使用者。 例如，無論順序為何，訪客造訪首頁，接著造訪每個「男性」頁面、「女性」頁面和「孩子」頁面。
 
-您可以在不使用[!UICONTROL 邏輯群組]的情況下建置此篩選器，但建置將會是複雜而費力的工作。 您必須指定訪客可檢視的每個頁面順序。 為清楚起見，只有第一個容器開啟![V形Down](/help/assets/icons/ChevronDown.svg)，而其他容器關閉![V形Right](/help/assets/icons/ChevronRight.svg)。 您可以透過標題衍生出其他容器的內容。
+您可以在不使用[!UICONTROL 邏輯群組]的情況下建置此篩選器，但建置將會是複雜而費力的工作。 指定訪客可檢視的每個頁面順序。 為清楚起見，只有第一個容器開啟![V形Down](/help/assets/icons/ChevronDown.svg)，而其他容器關閉![V形Right](/help/assets/icons/ChevronRight.svg)。 您可以透過標題衍生出其他容器的內容。
 
 ![不使用邏輯群組的範例](assets/logicgroup-example-notusing.png)
 
@@ -285,13 +285,13 @@ ht-degree: 2%
 
 #### 排除和
 
-識別造訪過某個頁面，但明確未造訪其他頁面集，但已造訪其他頁面的人員。 例如，造訪過首頁的人，沒有造訪男性或女性頁面，但造訪了兒童頁面。
+識別造訪過某個頁面，接著又明確未造訪其他頁面集，但確實造訪其他頁面的人員。 例如，造訪過首頁的人，沒有造訪男性或女性頁面，但造訪了兒童頁面。
 
 ![邏輯群組排除和](assets/logicgroup-exclude-and.png)
 
 #### 排除或
 
-識別造訪過某個頁面，但明確未造訪一組頁面中的任何頁面，但確實造訪了另一個頁面的人員。 例如，訪客造訪了首頁，沒有造訪男性與女性頁面，但造訪了兒童頁面。
+識別造訪過某個頁面，接著又明確未造訪一組頁面中的任何頁面，但確實造訪了另一個頁面的人員。 例如，訪客造訪了首頁，沒有造訪男性與女性頁面，但造訪了兒童頁面。
 
 ![邏輯群組排除和](assets/logicgroup-exclude-or.png)
 
@@ -307,7 +307,7 @@ An example of a complex sequential filter if you want to find the persons that
 
 ## 最後一個範例
 
-最後，您想要識別瞭解特定產品頁面的使用者，不讓這些使用者受到您的「啟用您的移動」行銷活動的影響。 第一次造訪您的線上商店時，他們檢視了首頁，但並未進一步檢視「男性」類別的任何健身（裝備）產品。 不過在之後的下一個工作階段中，他們直接前往產品頁面下線訂單，而未先瀏覽首頁。
+最後一個範例，您想要識別瞭解特定產品頁面的使用者，不讓這些使用者受到您的「啟用您的移動」行銷活動的影響。 第一次造訪您的線上商店時，他們檢視了首頁，但並未進一步檢視「男性」類別的任何健身（裝備）產品。 但是，在之後他們直接進行的下一個工作階段中，他們前往產品頁面並下達線上訂單，而未先瀏覽首頁。
 
 
 ![複雜循序篩選器範例](assets/sequential-complex.png)
