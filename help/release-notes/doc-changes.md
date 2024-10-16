@@ -4,9 +4,9 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e355194d6699128ac817ea564940c0afdea61efc
+source-git-commit: 18131b0ccabbc8043e2638c735a4a603029f4b93
 workflow-type: tm+mt
-source-wordcount: '4108'
+source-wordcount: '4104'
 ht-degree: 69%
 
 ---
@@ -53,7 +53,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 預測統計技術 | 新增描述預測服務](../analysis-workspace/c-forecast/statistics-forecasting.md)中所用[統計技術的文章。 |
 | 新增建議為高基數維度匯出完整表格的資訊 | 在[高基數維度最佳實務](/help/components/dimensions/high-cardinality.md)中新增專案符號，以建議使用高基數維度的完整表格匯出。 |
 | 新增有關行動計分卡中智慧型字幕的檔案 | [智慧型字幕](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)可協助非分析人員更瞭解其資料，無需分析人員的協助。 |
-| 有關Adobe Product Analytics功能的新檔案 | <ul><li>[功能矩陣](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>增強的[保留率](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/retention/retention-rates)</li><li>[漏斗中的增強型深入分析](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/funnel/friction)</li><li>比較單一漏斗步驟中的事件</li></ul> |
+| 有關Adobe Product Analytics功能的新檔案 | <ul><li>[功能矩陣](/help/guided-analysis/types/funnel.md)</li><li>增強的[保留](/help/guided-analysis/types/retention.md)</li><li>[漏斗中的增強型深入分析](/help/guided-analysis/types/funnel.md)</li><li>比較單一漏斗步驟中的事件</li></ul> |
 | **2024 年 3 月** | |
 | 關於「使用於」欄的使用情況資訊，僅從 2023 年 9 月開始提供。 | 澄清[專案登陸頁面](/help/getting-started/landing.md)上的「**使用於**」欄的使用情況資訊只能追溯到 2023 年 9 月。 |
 | 新增僅限專案的Workspace元件許可權增強功能的相關檔案 | 如果您與其他使用者共用專案，這些使用者可以編輯[快速篩選](/help/components/filters/quick-filters.md)以及內嵌在共用專案中的其他僅限專案元件。 |
