@@ -3,10 +3,10 @@ title: 維度概觀
 description: 瞭解什麼是維度以及如何在Customer Journey Analytics中使用維度
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: d37734ae415722fc609715868c37a36f2becdbf6
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 28%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +34,29 @@ Customer Journey Analytics中的基本報表會針對量度欄（通常是數值
 ## 建立維度
 
 Customer Journey Analytics管理員可以[在資料檢視中建立維度](/help/data-views/create-dataview.md#components)。
+
+## 預設維度
+
+建立資料檢視時，系統會預設將下列以時間為基礎的元件新增為資料檢視的維度：
+
+- 15 分鐘
+- 30 分鐘
+- 5 分鐘
+- 日
+- 當月日期
+- 星期
+- 年中的日
+- 小時
+- 小時
+- 分鐘
+- 小時制的分鐘
+- 月
+- 月份
+- 季
+- 季別
+- 秒
+- 年度內的第幾週
+- 年
 
 ## 新增維度說明
 

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 2311e216eb2bc4aa2150bdb0771ab3e71bf1b8c5
+source-git-commit: 29869538b2f2475b707fd3c088b5715f44de319a
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 93%
 
 + [Adobe Customer Journey Analytics 指南](../getting-started/cja-landing.md)
 + [適用於 Adobe Customer Journey Analytics 的 AI 助理](../ai-assistant.md)
+
 + 發行說明 {#releases}
    + [最新版本](../release-notes/latest.md)
    + [2024 年版本](../release-notes/2024.md)
@@ -287,7 +288,7 @@ ht-degree: 93%
          + [共用計算量度](../components/calc-metrics/cm-workflow/cm-sharing.md)
          + [管理計算量度](../components/calc-metrics/cm-workflow/cm-manager.md)
          + [範例](../components/calc-metrics/cm-workflow/cm-weighted-metric.md)
-      + [預設計算量度](../components/calc-metrics/default-calcmetrics.md)
+      + [計算量度範本](../components/calc-metrics/default-calcmetrics.md)
       + [基本函數](../components/calc-metrics/cm-functions.md)
       + [進階函數](../components/calc-metrics/cm-adv-functions.md)
    + 日期範圍 {#cja-date-ranges}
