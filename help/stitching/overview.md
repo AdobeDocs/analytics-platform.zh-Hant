@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 50019cc5c66eee98f02d24bc55f3d993d9114dd0
+source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
 workflow-type: tm+mt
 source-wordcount: '4009'
 ht-degree: 13%
@@ -17,7 +17,6 @@ ht-degree: 13%
 >[!NOTE]
 >
 >您必須有&#x200B;**Select**&#x200B;封裝或更新版本（用於欄位式拼接）或&#x200B;**Prime**&#x200B;封裝或更新版本（用於圖形式拼接），才能使用本節中說明的功能。 如果您不確定自己擁有哪一種 Customer Journey Analytics 套件，請聯絡您的管理員。
-
 
 身分拼接（或簡單地說，拼接）是一項強大的功能，可提升事件資料集對於跨管道分析的適用性。 跨管道分析是Customer Journey Analytics可以處理的主要使用案例，可讓您根據通用識別碼（人員ID），針對不同管道的多個資料集無縫合併和執行報表。
 

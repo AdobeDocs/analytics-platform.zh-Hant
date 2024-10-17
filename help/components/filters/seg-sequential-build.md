@@ -3,16 +3,16 @@ description: 循序篩選器是指使用THEN運運算元定義篩選條件順序
 title: 循序篩選器
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: d6ea541de7c8b97151f16a01f61a002c5b877e7c
+source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 2%
+source-wordcount: '2459'
+ht-degree: 3%
 
 ---
 
 # 循序篩選器
 
-在元件、容器和元件或容器之間，您可使用Then邏輯運運算元建立循序篩選器。 Then邏輯運運算元表示有一個篩選條件發生，接著是另一個篩選條件。
+您在元件、容器和元件或容器之間使用[!UICONTROL Then]邏輯運運算元建立循序篩選器。 [!UICONTROL Then]邏輯運運算元表示有一個篩選條件發生，接著是另一個篩選條件。
 
 +++ 以下是示範循序分段的影片。
 
@@ -21,7 +21,6 @@ ht-degree: 2%
 {{videoaa}}
 
 +++
-
 
 循序篩選器具有某些[基本功能](#basics)以及您可以設定的其他選項，以增加循序篩選器的複雜性：
 
@@ -42,7 +41,7 @@ ht-degree: 2%
 
 
 
-建立循序篩選的基本原理與使用[篩選產生器](filter-builder.md)建立一般篩選並無不同。 您使用[定義產生器](filter-builder.md#definition-builder)來建構您的篩選器定義。 在該建構中，您會使用元件、容器、運運算元和邏輯。 只要您在主要定義或您在[定義產生器](filter-builder.md#definition-builder)內使用的任何容器中選取&#x200B;**[!UICONTROL Then]**&#x200B;運運算元，一般篩選器就會自動變成循序篩選器。
+建立循序篩選的基本原理與使用[篩選產生器](filter-builder.md)建立一般篩選並無不同。 您可以使用[定義產生器](filter-builder.md#definition-builder)來建構您的篩選器定義。 在該建構中，您會使用元件、容器、運運算元和邏輯。 只要您在主要定義或您在[定義產生器](filter-builder.md#definition-builder)內使用的任何容器中選取&#x200B;**[!UICONTROL Then]**&#x200B;運運算元，一般篩選器就會自動變成循序篩選器。
 
 ### 範例
 
@@ -79,7 +78,7 @@ ht-degree: 2%
 
 ![巢狀序列](assets/sequence-nested.png)
 
-## After和within
+## [!UICONTROL After]和[!UICONTROL Within]
 
 您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** **[!UICONTROL Then]**&#x200B;運運算元來定義事件、工作階段或Dimension](#event-session-and-dimension-constraints)的其他[時間限制](#time-constraints)或[限制。
 
@@ -99,7 +98,7 @@ ht-degree: 2%
 | 運算子 | 說明 |
 |--- |--- |
 | **[!UICONTROL After]** | [!UICONTROL After]運運算元用來指定兩個查核點之間時間量的下限。 設定After值時，時間限制從套用篩選器時開始。 例如，如果在容器上設定[!UICONTROL After]運運算元，以識別造訪頁面A、但直到一天後才返回造訪頁面B的人，則當訪客離開頁面A時，該日就會開始。 若要將訪客納入篩選器中，離開頁面A後必須至少經過1440分鐘（一天）才能檢視頁面B。 |
-| **[!UICONTROL Within]** | [!UICONTROL Within]運運算元用於指定兩個查核點之間時間量的上限。 例如，如果在容器上設定[!UICONTROL Within]運運算元，以識別造訪頁面A，然後在一天內返回造訪頁面B的人，則該日從該人離開頁面A時開始。若要納入篩選器中，此人開啟頁面B前的時間上限為一天。若要將人員納入篩選器中，在離開頁面A檢視頁面B後，最多必須在1440分鐘（一天）內開啟頁面B。 |
+| **[!UICONTROL Within]** | [!UICONTROL Within] 運算子用來指定兩個查核點之間時間量的上限。例如，如果在容器上設定[!UICONTROL Within]運運算元，以識別造訪頁面A，然後在一天內返回造訪頁面B的人，則該日從該人離開頁面A時開始。若要納入篩選器中，此人開啟頁面B前的時間上限為一天。若要將人員納入篩選器中，在離開頁面A檢視頁面B後，最多必須在1440分鐘（一天）內開啟頁面B。 |
 | **[!UICONTROL 晚於]**&#x200B;但以內 | 同時使用[!UICONTROL After]和[!UICONTROL Within]運運算元時，兩個運運算元會同時開始和結束，而非連續進行。 <br/>例如，您建置容器設為`After = 1 Week(s) and Within = 2 Week(s)`的篩選器。<br/>在此篩選中識別訪客的條件僅符合一週到兩週之間。 這兩個條件都會從第一個頁面檢視的時間開始執行。 |
 
 
@@ -107,7 +106,7 @@ ht-degree: 2%
 
 使用時間限制的一些範例。
 
-##### After運運算元
+##### [!UICONTROL After]運運算元
 
 識別兩週後造訪過一個頁面然後造訪另一個頁面的人員。 例如，造訪過首頁的人員，但 | 僅於兩週後顯示鞋頁面。
 
@@ -115,7 +114,7 @@ ht-degree: 2%
 
 如果首頁的頁面檢視發生在2024年6月1日00:01，則為頁面女性提供頁面檢視 | 只要2024年6月15日00:01之後發生頁面檢視，鞋子就會符合。
 
-##### Within運運算元
+##### [!UICONTROL Within]運運算元
 
 識別在五分鐘內造訪一個頁面然後造訪另一個頁面的人員。 例如，造訪過首頁的人，然後造訪了女性 | 在5分鐘內完成「鞋子」頁面。
 
@@ -123,7 +122,7 @@ ht-degree: 2%
 
 如果首頁的頁面檢視發生於2024年6月1日12:01，則對頁面的頁面檢視為「女性」 | 只要2024年6月15日12:16之前發生該頁面檢視，鞋子就會相符。
 
-##### After but Within運運算元
+##### [!UICONTROL After]但[!UICONTROL Within]運運算元
 
 識別在兩週後但在一個月內造訪過一個頁面然後造訪另一個頁面的人員。 例如，訪客造訪首頁，然後在兩週後及一個月內造訪女性網站的人 | 鞋子頁面。
 
@@ -132,7 +131,7 @@ ht-degree: 2%
 任何在2024年6月1日點選首頁及回訪女性網站的人 | 2019年6月15日之後00:01，但2019年7月1日之前的「鞋子」頁面符合該區段的資格。
 
 
-### 事件、工作階段和Dimension限制
+### [!UICONTROL 事件]、[!UICONTROL 工作階段]和[!UICONTROL Dimension]限制
 
 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;與![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]**&#x200B;限制不僅可讓您指定時間限制，也可指定事件、工作階段或維度限制。 選取&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 工作階段]**&#x200B;或&#x200B;**[!UICONTROL 其他維度]** ![右側V形](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension名稱&#x200B;*]**。 您可以使用&#x200B;[!UICONTROL *搜尋*]欄位來搜尋維度。
 
@@ -149,11 +148,11 @@ ht-degree: 2%
 | 頁面`Women \| Shoes`後面接著頁面`Checkout \| Thank You` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
 | 頁面`Women \| Shoes`後接頁面`Women \| Tops`後接頁面`Checkout \| Thank You` | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) |
 
-## 包含
+## [!UICONTROL 包括]
 
 您可以指定要納入循序篩選器或循序篩選器所屬循序容器的資料。
 
-### 每個人 {#include_everyone}
+### [!UICONTROL 所有人] {#include_everyone}
 
 若要建立包含每個人的循序篩選器，請選取![使用者群組](/help/assets/icons/UserGroup.svg) **[!UICONTROL 包含每個人]**&#x200B;選項。
 
@@ -169,7 +168,7 @@ ht-degree: 2%
 | 2 | `Women \| Shoes`然後`Men \| Shoes`然後`Checkout \| Thank You` （跨不同的工作階段） | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
 | 3 | `Checkout \| Thank You`然後`Women \| Shoes` | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) |
 
-### 「僅限序列之前」與「僅限序列之後」
+### [!UICONTROL 僅於序列之前]且[!UICONTROL 僅於序列之後]
 
 選項![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**&#x200B;與![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]**&#x200B;在指定的序列之前或之後，將資料篩選為子集。
 
@@ -203,7 +202,7 @@ ht-degree: 2%
 
 ![循序篩選器報告](assets/sequential-filter-freeform-table.png)
 
-## 排除
+## [!UICONTROL 排除]
 
 篩選器定義包含所有資料，除非您使用&#x200B;**[!UICONTROL 排除]**&#x200B;明確排除![使用者](/help/assets/icons/User.svg) [!UICONTROL 人員]、![造訪](/help/assets/icons/Visit.svg) [!UICONTROL 工作階段]或![網頁](/help/assets/icons/WebPage.svg) [!UICONTROL 事件]資料。
 
@@ -215,7 +214,7 @@ ht-degree: 2%
 * **排除反向連結網域**。請使用僅包含來自Google.com的反向連結網域並排除所有其他網域的定義。
 * **找出未購買者**。識別訂單大於零的時間，然後排除[!UICONTROL 人員]。
 
-[!UICONTROL 排除]可用來識別特定工作階段或事件未由人員執行的順序。 [!UICONTROL 排除]也可以包含在[!UICONTROL 邏輯群組]中（請參閱下文）。
+[!UICONTROL 排除]可用來識別人員不屬於特定工作階段或執行特定事件的順序。 [!UICONTROL 排除]也可以包含在[!UICONTROL 邏輯群組]中（請參閱下文）。
 
 您可以排除容器，而非元件。
 
@@ -223,28 +222,28 @@ ht-degree: 2%
 
 請參閱下列範例以取得使用[!UICONTROL 排除]的範例。
 
-#### 排除範圍：
+#### [!UICONTROL 排除]於
 
 識別造訪過某個頁面、未造訪其他頁面，然後又造訪其他頁面的人員。 您使用![設定](/help/assets/icons/Setting.svg) [!UICONTROL 排除]來排除容器。 排除的容器以左側的紅色細列表示。
 
 ![排除序列](assets/sequence-exclude.png)
 
 
-#### 開頭排除
+#### 開始時[!UICONTROL 排除]
 
 識別造訪過一個頁面而從未造訪過另一個頁面的人。 例如，訪客結帳後從未造訪過首頁。
 
 ![序列排除開始](assets/sequence-exclude-start.png)
 
 
-#### 在結尾處排除
+#### [!UICONTROL 排除]於結尾
 
 識別造訪過一個頁面但從未造訪過其他頁面的人員。 例如，有人造訪您的首頁，但從未造訪過您的任何結帳頁面。
 
 ![序列排除結束](assets/sequence-exclude-end.png)
 
 
-## 邏輯群組中
+## [!UICONTROL 邏輯群組]
 
 >[!NOTE]
 >
@@ -283,13 +282,13 @@ ht-degree: 2%
 
 ![使用邏輯群組的第一個比對的範例](assets/logicgroup-example-firstmatch.png)
 
-#### 排除和
+#### [!UICONTROL 排除] [!UICONTROL 和]
 
 識別造訪過某個頁面，接著又明確未造訪其他頁面集，但確實造訪其他頁面的人員。 例如，造訪過首頁的人，沒有造訪男性或女性頁面，但造訪了兒童頁面。
 
 ![邏輯群組排除和](assets/logicgroup-exclude-and.png)
 
-#### 排除或
+#### [!UICONTROL 排除] [!UICONTROL 或]
 
 識別造訪過某個頁面，接著又明確未造訪一組頁面中的任何頁面，但確實造訪了另一個頁面的人員。 例如，訪客造訪了首頁，沒有造訪男性與女性頁面，但造訪了兒童頁面。
 
