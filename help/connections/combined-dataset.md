@@ -5,7 +5,7 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 8241bcc4a2653da456c1577eb95d5504ca118cd9
+source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 33%
@@ -67,7 +67,7 @@ ht-degree: 33%
 為了說明結構描述路徑的重要性，請考慮此情境。 在第一個資料集中，`string_color`是以結構描述路徑`_experience.whatever.string_color`為基礎，而在結構描述路徑`_experience.somethingelse.string_color`的第二個資料集中為基礎。 在此案例中，資料是&#x200B;**不是**&#x200B;合併到結果合併資料集中的一欄。 結果是在合併資料集中是兩個`string_color`欄：
 
 | id | timestamp | 體驗(_E)。<br/>任何專案。<br/>string_color | 體驗(_E)。<br/>其他專案。<br/>string_color | string_animal | string_shop | metric_a | metric_b |
-| --- | --- | --- | --- | --- | --- | ---: | ---:|
+|---|---|---|---|---|---|---:|---:|
 | user_310 | 1月1日上午7:02 | 紅色 | | Fox | | | |
 | user_310 | 1月1日上午7:04 | | | | | 2 | |
 | user_310 | 1月1日上午7:08 | 藍色 | | | | 3 | |
