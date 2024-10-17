@@ -3,10 +3,10 @@ title: 產品使用資料設定
 description: 啟用、停用或設定產品使用設定。
 hide: true
 hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 13%
+source-wordcount: '318'
+ht-degree: 14%
 
 ---
 
@@ -19,8 +19,7 @@ _資料設定_&#x200B;頁面會處理您的產品使用設定。 您可以使用
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL 產品使用量]** > **[!UICONTROL 資料設定]**
 
 >[!IMPORTANT]
->
->啟用此功能時，您必須先接受條款與條件，才能加以使用。 接受這些條款與條件時，代表整個組織進行。 接受這些條款與條件的個人擁有啟用此功能時自動建立的資料檢視。
+>啟用此功能時，您必須先接受條款與條件，才能加以使用。 接受這些條款與條件時，代表整個組織進行。
 
 此頁面提供下列設定：
 

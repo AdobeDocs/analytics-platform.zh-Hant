@@ -3,9 +3,9 @@ title: 產品使用概述
 description: 檢視有關貴組織如何使用Customer Journey Analytics的深入分析和報表。
 hide: true
 hidefromtoc: true
-source-git-commit: f337dfbd780aab4ae40534c5c1151dba35681b21
+source-git-commit: b3d33561cc29aa1d37efa9f943bc145c16be814c
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '336'
 ht-degree: 6%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 6%
 
 {{release-limited-testing}}
 
-產品使用情況讓貴組織能夠檢視有關貴組織如何使用Customer Journey Analytics的分析資料。 它適用於使用Customer Journey Analytics的所有組織。 啟用後，系統會自動建立下列Adobe Experience Platform元件並加以連結：
+產品使用情況讓貴組織能夠檢視有關貴組織如何使用Customer Journey Analytics的分析資料。 它適用於使用Customer Journey Analytics的所有組織。 下列Adobe Experience Platform元件啟用後，系統會自動為您建立和連結。 這些元件均為系統擁有、唯讀，且無法編輯。
 
-* Adobe Experience Platform中的結構描述。 此結構描述是系統擁有的、唯讀的，無法編輯。
-* Adobe Experience Platform中的資料集。 此資料集為系統擁有、唯讀，無法編輯。
-* Customer Journey Analytics中的連線。 此連線屬於系統所有、唯讀，無法編輯。
-* Customer Journey Analytics的資料檢視。 您可以使用上述連線編輯此資料檢視或建立更多資料檢視。 資料檢視的所有者是可讓您組織使用產品的個人。
+* Adobe Experience Platform中的結構描述
+* Adobe Experience Platform中的資料集
+* Customer Journey Analytics中的連線
+* Customer Journey Analytics中的資料檢視
 
 啟用後，所有資料收集和設定都會自動為您設定。 每當使用者在Analysis Workspace中執行動作時，該動作就會受到追蹤並可用於報表。
 
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 ## 可用維度
 
-當您啟用產品使用時，可使用下列維度：
+當您啟用產品使用時，可使用下列維度。 如果您想要變更任何維度設定，請建立系統擁有的資料檢視的復本，並在Analysis Workspace中使用複製的資料檢視。
 
 | 維度 | 說明 |
 | --- | --- |
