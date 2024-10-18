@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 17%
+ht-degree: 30%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_venn_button"
 >title="文氏圖表"
->abstract="建立文氏圖表視覺效果，以快速視覺化比較兩個元素及其重疊的大小。"
+>abstract="建立文氏圖表視覺效果，以快速在視覺上比較兩個元素及其重疊的大小。"
 
 <!-- markdownlint-enable MD034 -->
 

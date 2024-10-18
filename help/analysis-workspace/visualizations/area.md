@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 25%
+ht-degree: 32%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_areastacked_button"
 >title="堆疊區域圖"
->abstract="建立區域圖視覺效果來代表多個量度的棧疊。"
+>abstract="建立區域圖視覺效果來表示多個量度的堆疊。"
 
 <!-- markdownlint-enable MD034 -->
 

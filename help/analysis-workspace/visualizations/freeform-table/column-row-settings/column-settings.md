@@ -7,7 +7,7 @@ role: User
 source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
 >title="使用非預設歸因模式"
->abstract="非預設歸因模式不適用於此量度。"
+>abstract="此量度無法使用非預設歸因模型。"
 
 <!-- markdownlint-enable MD034 -->
 

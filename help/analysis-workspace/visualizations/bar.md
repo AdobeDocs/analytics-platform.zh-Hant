@@ -7,11 +7,11 @@ role: User
 source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 21%
+ht-degree: 30%
 
 ---
 
-# 橫條圖（棧疊）
+# 條狀圖 (堆疊)
 
 橫條圖視覺效果有標準和棧疊選項。
 
@@ -40,7 +40,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_barstacked_button"
 >title="堆疊長條圖"
->abstract="建立橫條圖視覺效果，以呈現一或多個棧疊量度的各種值。"
+>abstract="建立長條圖視覺效果來表示一個或多個堆疊量度的各種值。"
 
 <!-- markdownlint-enable MD034 -->
 

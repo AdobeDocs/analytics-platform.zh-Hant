@@ -7,7 +7,7 @@ exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
 source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
 workflow-type: tm+mt
 source-wordcount: '1796'
-ht-degree: 27%
+ht-degree: 30%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="cja_workspace_mediaminuteaverageaudience_button"
 >title="媒體平均分鐘觀眾數"
->abstract="建立面板來分析特定內容或特定時段內的平均每分鐘觀眾數。"
+>abstract="建立一個面板來分析特定內容或特定時段內的每分鐘平均客群數。"
 
 
 <!-- markdownlint-enable MD034 -->
@@ -63,7 +63,7 @@ ht-degree: 27%
 
 若要使用&#x200B;**[!UICONTROL 媒體平均每分鐘觀眾數]**&#x200B;面板：
 
-1. 建立&#x200B;**[!UICONTROL 媒體平均每分鐘觀眾數]**&#x200B;面板。 如需如何建立面板的詳細資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立&#x200B;**[!UICONTROL 媒體平均每分鐘觀眾數]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
 1. 確保您為面板選取資料檢視，該面板具有從Streaming Media Collection附加元件設定的元件。
 
@@ -185,7 +185,7 @@ ht-degree: 27%
 
 >[!MORELIKETHIS]
 >
-> [建立面板](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+> [Create a panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 > [媒體同時檢閱者面板](media-concurrent-viewers.md)
 > [媒體播放時間面板](media-playback-time-spent.md)
 >
