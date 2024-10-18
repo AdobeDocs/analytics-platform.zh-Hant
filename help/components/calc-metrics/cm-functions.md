@@ -88,7 +88,7 @@ ht-degree: 29%
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 計數（量度）]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
@@ -110,7 +110,7 @@ ht-degree: 29%
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric， include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
@@ -122,7 +122,7 @@ ht-degree: 29%
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric， include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
@@ -161,7 +161,7 @@ MODULO(MODULO(x,y)+y,y)
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 百分位數(metric， k， include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
@@ -187,7 +187,7 @@ MODULO(MODULO(x,y)+y,y)
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric， quartile， include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}當QUARTILE分別等於`0` （零）、`2`和`4`時，[COLUMN MINIMUM](#column-minimum)、[MEDIAN](#median)和[COLUMN MAXIMUM](#column-maximum)會傳回與[QUARTILE](#quartile)相同的值。
+[!BADGE Table]{type="Neutral"}當QUARTILE分別等於`0` （零）、`2`和`4`時，[COLUMN MINIMUM](#column-minimum)、[MEDIAN](#median)和[COLUMN MAXIMUM](#column-maximum)會傳回與[QUARTILE](#quartile)相同的值。
 
 | 引數 | 說明 |
 |---|---|
@@ -274,7 +274,7 @@ ROUND( 314.15, -2) = 300
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 標準差（量度，包括_零）]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
@@ -286,7 +286,7 @@ ROUND( 314.15, -2) = 300
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric， include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|

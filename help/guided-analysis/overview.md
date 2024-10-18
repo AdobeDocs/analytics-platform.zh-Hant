@@ -22,10 +22,10 @@ ht-degree: 79%
 | :----:|--- | --- |
 | ![人員群組](/help/assets/icons/PeopleGroup.svg) | [主動式成長](types/active-growth.md) | 識別哪些使用者是新的、保留的、回訪的或非活躍的。 |
 | ![轉換趨勢](/help/assets/icons/ConversionTrends.svg) | [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化。 |
-| ![參與圖形](/help/assets/icons/EngagementGraph.svg) | [參與](types/engagement.md) | 了解功能參與的廣度與深度。 |
+| ![參與圖形](/help/assets/icons/EngagementGraph.svg) | [參與度](types/engagement.md) | 了解功能參與的廣度與深度。 |
 | ![FirstUse](/help/assets/icons/FirstUse.svg) | [首次使用影響](types/first-use-impact.md) | 測量功能首次使用對關鍵指標的影響。 |
-| ![長條圖](/help/assets/icons/Histogram.svg) | [頻率](types/frequency.md) | 依照使用頻率來測量參與度。 |
-| ![轉換漏斗](/help/assets/icons/ConversionFunnel.svg) | [漏斗](types/funnel.md) | 比較步驟之間的轉換率。 |
+| ![Histogram](/help/assets/icons/Histogram.svg) | [頻率](types/frequency.md) | 依照使用頻率來測量參與度。 |
+| ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [漏斗](types/funnel.md) | 比較步驟之間的轉換率。 |
 | ![淨增長](/help/assets/icons/NetGrowth.svg) | [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
 | ![發行](/help/assets/icons/Release.svg) | [發行影響](types/release-impact.md) | 比較發行前和發行後同期的績效。 |
 | ![保留](/help/assets/icons/Retention.svg) | [保留](types/retention.md) | 測量使用者持續的回訪習慣。 |
@@ -38,17 +38,17 @@ ht-degree: 79%
 
 您可以從 Customer Journey Analytics 首頁存取引導式分析。
 
-1. 從首頁選取「**[!UICONTROL 引導式分析]**」，系統就會讓您直接前往[使用趨勢視圖](types/trends.md)。
+1. 從首頁選取&#x200B;**[!UICONTROL 引導式分析]**，系統就會讓您直接前往[使用趨勢視圖](types/trends.md)。
 
    ![登陸頁面圖磚](assets/landing-page-tile.png){style="border:1px solid gray"}
 
-1. 選取「**[!UICONTROL 新建]**」可查看不同的視圖選項，並選擇不同的分析起始點。
+1. 選取&#x200B;**[!UICONTROL 新建]**&#x200B;可查看不同的視圖選項，並選擇不同的分析起始點。
 
    ![建立強制回應視窗](assets/create-new-modal.png){style="border:1px solid gray"}
 
 您也可以從 Analysis Workspace 專案中存取引導式分析。
 
-1. 從首頁中選取「**[!UICONTROL 空白專案]**」以建立一個空的 Workspace 專案。
+1. 從首頁中選取&#x200B;**[!UICONTROL 空白專案]**&#x200B;以建立一個空的 Workspace 專案。
 
    ![建立空白專案](assets/blank-project.png){style="border:1px solid gray"}
 
@@ -56,7 +56,7 @@ ht-degree: 79%
 
    ![Workspace 左側邊欄](assets/workspace-left-rail.png){style="border:1px solid gray"}
 
-1. 將任何新的分析拖曳到Workspace畫布上，然後選取「**[!UICONTROL 建立]**」以產生所需的分析（例如： **[!UICONTROL 建立趨勢]**）。 您也可以從「**[!UICONTROL 已儲存]**」區段下將現有分析拖曳至 Workspace 版面上。
+1. 將任何新的分析拖曳到Workspace畫布上，然後選取「**[!UICONTROL 建立]**」以產生所需的分析（例如： **[!UICONTROL 建立趨勢]**）。 您也可以從&#x200B;**[!UICONTROL 已儲存]**&#x200B;區段下將現有分析拖曳至 Workspace 版面上。
 
    ![建立面板](assets/create-guided-analysis-panel.gif)
 
