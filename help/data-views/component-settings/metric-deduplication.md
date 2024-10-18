@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -18,8 +18,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_metric_deduplication"
->title="量度去重複化"
->abstract="設定量度以僅對非重複出現的值進行計數。"
+>title="量度重複資料刪除"
+>abstract="設定量度，僅對非重複出現的值進行計數。"
 
 <!-- markdownlint-enable MD034 -->
 

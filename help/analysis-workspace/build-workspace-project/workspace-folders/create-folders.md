@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
 role: User
 source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,16 @@ ht-degree: 41%
 
 若要建立新資料夾，
 
-1. 確定您已選取[顯示資料夾與專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md#show-selector)。
+1. 確保您已選取[顯示資料夾和專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md#show-selector)。
 
-1. 請確定[標題區域](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)和[專案清單](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)顯示您要建立新資料夾的資料夾。
+1. 確保[標題區域](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)和[專案清單](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)顯示您要在其中建立新資料夾的資料夾。
 
 1. 按一下&#x200B;**建立資料夾**。
 
-1. 在&#x200B;**[!UICONTROL 建立新資料夾]**&#x200B;對話方塊中，輸入新資料夾的名稱。 例如: `Second Week Reports`。
+1. `在&#x200B;**[!UICONTROL 建立新資料夾]**&#x200B;對話框中，輸入新資料夾的名稱。例如：`Second Week Reports`。
 
-1. 從&#x200B;**[!UICONTROL 標籤]**&#x200B;下拉式清單中選取標籤或輸入新標籤。
+1. 從下拉式清單中選取&#x200B;**[!UICONTROL 標記]**&#x200B;或輸入新標記。
 
-   ![建立新資料夾](../assets/create-new-folder.png)
+   ![Create new folder](../assets/create-new-folder.png)
 
-1. 按一下&#x200B;**建立**。
-新資料夾將新增至目前資料夾。
+1. 按一下&#x200B;**建立**。新資料夾會新增至目前資料夾中。

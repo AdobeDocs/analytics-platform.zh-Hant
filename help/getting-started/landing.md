@@ -1,13 +1,13 @@
 ---
-description: 說明新登陸頁面的功能。
+description: 說明全新登陸頁面的功能。
 title: Customer Journey Analytics 登陸頁面
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: 373d0c9989fb692da23efe371c65344093801140
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 Customer Journey Analytics 登陸頁面標示[!DNL Analysis Workspace]並設有專案管理員首頁，以及可幫助您更有效地管理客戶歷程資料的學習區段。 
 
-+++ 如需簡介，請參閱影片。
++++ 請觀看簡介影片。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -33,18 +33,18 @@ Customer Journey Analytics 登陸頁面包含以下子索引標籤：專案與�
 
 >[!TAB 專案]
 
-![專案登陸頁面](assets/landing-projects.png)
+![Projects landing page](assets/landing-projects.png)
 
 >[!TAB 學習]
 
-![學習登陸頁面](assets/landing-learning.png)
+![Learning landing page](assets/landing-learning.png)
 
 
 >[!ENDTABS]
 
 ## 專案
 
-「[!UICONTROL 專案]」可用作  [!UICONTROL 工作區] 首頁。**[!UICONTROL 專案]**&#x200B;索引標籤會顯示公司資料夾、您建立的任何個人資料夾、您的Workspace專案以及行動計分卡。 使用此頁面來檢視、建立和修改資料夾、專案和行動計分卡。 如需詳細資訊，請參閱[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)。
+[!UICONTROL 專案]可用作 [!UICONTROL Workspace] 首頁。**[!UICONTROL 專案]**&#x200B;索引標籤會顯示公司資料夾、您建立的任何個人資料夾、您的 Workspace 專案和行動計分卡。使用此頁面來檢視、建立和修改資料夾、專案和行動計分卡。請參閱[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)以了解更多資訊。
 
 
 **[!UICONTROL 專案]**&#x200B;是自訂的設計，可結合您所建立或其他人所建立並與您共用的資料元件、表格和視覺效果。[!UICONTROL 專案]也指空白專案和空白行動計分卡。
@@ -53,7 +53,7 @@ Customer Journey Analytics 登陸頁面包含以下子索引標籤：專案與�
 >
 >下列數項設定會在工作階段和跨工作階段期間持續存在。例如，您選取的索引標籤、選取的篩選器、選取的欄，以及欄排序方向。 搜尋結果不會持續存在。
 
-如需詳細資訊，請參閱[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)。
+請參閱[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)以了解更多資訊。
 
 <!--
 
@@ -113,27 +113,27 @@ The available columns are:
 
 使用 Customer Journey Analytics 中的「學習」頁面來學習：
 
-* Customer Journey Analytics中的初級、中間或進階功能和使用案例
-* 如何更順暢地從Adobe Analytics轉換至Customer Journey Analytics
+* Customer Journey Analytics 中的初級、中級或進階功能和使用案例
+* 如何更順暢地從 Adobe Analytics 轉換至 Customer Journey Analytics。
 
 若要存取學習內容：
 
-* 在Customer Journey Analytics中，從頂端功能表選取&#x200B;[!UICONTROL **Workspace**]，然後從左側面板選取&#x200B;[!UICONTROL **學習**]。
+* 在 Customer Journey Analytics 中，從上方選單選取 [!UICONTROL **Workspace**]，並從左側面板中選取&#x200B;[!UICONTROL **學習**]。
 
 ### 功能
 
-學習頁面提供下列功能
+學習頁面提供以下功能
 
-* **篩選內容：**&#x200B;使用![篩選器](/help/assets/icons/Filter.svg)依&#x200B;**[!UICONTROL 型別]** （**[!UICONTROL 檔案]**、**[!UICONTROL 影片]**&#x200B;和&#x200B;**[!UICONTROL 導覽與教學課程]**）和&#x200B;**[!UICONTROL 體驗層級]** （**[!UICONTROL 初級]**、**[!UICONTROL 中級]**&#x200B;或&#x200B;**[!UICONTROL 進階]**）篩選學習內容。
-* **追蹤進度：**&#x200B;選取內容後，會顯示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 已檢視]**&#x200B;標籤。 此標記可幫助您透過學習內容追蹤您的進度。您可以選取![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 已檢視]**&#x200B;標籤，將其從內容片段中移除。
-* **檢視其他內容：**&#x200B;檢視任何影片時，請選取&#x200B;**[!UICONTROL 深入瞭解]**&#x200B;檢視Experience League的相關檔案內容。 或者，從「學習」頁面中選取以下任一選項，以檢視其他內容：
+* **篩選內容：** 使用![Filter](/help/assets/icons/Filter.svg)來篩選學習內容，可依據&#x200B;**[!UICONTROL 類型]** (**[!UICONTROL 文件]**、**[!UICONTROL 影片]**&#x200B;和&#x200B;**[!UICONTROL 導覽與教學課程]**) 和&#x200B;**[!UICONTROL 經驗等級]** (**[!UICONTROL 初級]**、**[!UICONTROL 中級]**&#x200B;或&#x200B;**[!UICONTROL 進階]**) 篩選。
+* **追蹤進度：** 在選取一段內容後，會出現![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL 已檢視]**&#x200B;標記。此標記可幫助您透過學習內容追蹤您的進度。您可以選取![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL 已檢視]**&#x200B;標記，將其從內容中移除。
+* **檢視其他的內容：**&#x200B;在觀看任何影片時，選取&#x200B;**[!UICONTROL 了解更多]**&#x200B;以檢視 Experience League 上相關的文件內容。或者，從「學習」頁面中選取以下任一選項，以檢視其他內容：
    * **[!UICONTROL 造訪 YouTube]：**&#x200B;檢視完整的 Analysis Workspace YouTube 播放清單。
-   * [!UICONTROL **造訪Experience League**]：檢視有關Experience League的完整Customer Journey Analytics檔案。
-* **新使用者的基礎知識：**&#x200B;建議新使用者參加[!UICONTROL Workspace基礎知識學習]導覽。 此導覽將直接帶您進入工作區並引導您完成最常見的操作。此導覽也可以隨時在Workspace中重新啟動，方法是透過[自由面板](/help/analysis-workspace/c-panels/freeform-panel.md)或[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)標題的工具提示。
+   * [!UICONTROL **造訪 Experience League**]：檢視 Experience League 上的全套 Customer Journey Analytics 文件。
+* **適用於新使用者的基礎知識：**&#x200B;建議給新使用者的[!UICONTROL 學習 Workspace 基礎知識]導覽。此導覽將直接帶您進入 Workspace 並引導您完成最常見的動作。也可透過[自由格式面板](/help/analysis-workspace/c-panels/freeform-panel.md)或[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)標題的工具提示，隨時在 Workspace 中重新啟動此導覽。
 
-## 偏好的登陸頁面
+## 首選的登陸頁面
 
-您可以設定您偏好的登陸頁面。 如需詳細資訊，請參閱[使用者偏好設定](/help/analysis-workspace/user-preferences.md#general-preferences)。
+您可以設定您的首選登陸頁面。請參閱[使用者偏好設定](/help/analysis-workspace/user-preferences.md#general-preferences)了解更多資訊。
 
 <!--
 ## Landing page FAQ {#landing-faq}

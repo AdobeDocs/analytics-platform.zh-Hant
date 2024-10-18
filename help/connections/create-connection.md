@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsskipped"
 >title="略過的記錄"
->abstract="所選資料集在所選的時間間隔中為連線的資料傳輸期間略過的記錄 (列) 數。"
+>abstract="所選資料集在所選的時間間隔中於連線的資料傳輸期間略過的記錄 (列) 數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -54,8 +54,8 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_enablerollingdatawindow"
->title="啟用滾動資料窗口"
->abstract="在連線層級將資料保留定義為以月為單位的滾動窗口。"
+>title="啟用滾動資料時間範圍"
+>abstract="在連線層級將資料保留定義為以月為單位的滾動時間範圍。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -78,7 +78,7 @@ ht-degree: 99%
 * 例如，您可以編輯資料集來請求另一次回填。
 * 您可以為每個資料集匯入現有的資料。
 
-+++ 說明建立和編輯連線體驗的影片
++++ 用於說明建立和編輯連線體驗的影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
 
@@ -136,7 +136,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="比對索引鍵"
->abstract="選取要加入其中一個事件資料集的欄位。如果這是空白的清單，您可能尚未新增或設定事件資料集。"
+>abstract="在其中一個事件資料集中選取要聯結的欄位。如果此清單是空的，您可能尚未新增或設定事件資料集。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -163,7 +163,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="cja_connection_transformdataset"
 >title="轉換資料集"
->abstract="此選項將轉換資料集，使其可用於 B2B 情境中基於人員的查詢。資料集一旦開啟轉換便無法復原。"
+>abstract="此選項將會轉換資料集，使其可用於 B2B 情境中基於人員的查詢。一旦開啟，資料集的轉換是不可逆的。"
 
 <!-- markdownlint-enable MD034 -->
 

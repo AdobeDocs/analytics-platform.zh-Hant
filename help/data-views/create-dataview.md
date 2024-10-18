@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1832'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 建立資料視圖需要從綱要元素建立量度和維度或使用標準元件。大多數綱要元素可以是維度或量度，具體取決於您的業務需求。將綱要元素拖到資料視圖中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
 
-+++ 觀看說明Customer Journey Analytics中資料檢視的影片
++++ 觀看說明 Customer Journey Analytics 資料釋圖的影片
 
 >[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_externalid"
 >title="外部 ID"
->abstract="變更外部 ID 可能會影響資料檢視名稱在外部來源 (例如商業智慧工具) 中的顯示方式。"
+>abstract="變更外部 ID 可能會影響資料釋圖名稱在外部來源 (例如商業智慧工具) 中的顯示方式。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -70,14 +70,14 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="cja_dataview_dataviewsinadobejourneyoptimizer"
->title="Journey Optimizer 中的資料檢視"
->abstract="Journey Optimizer 需要使用透過 Customer Journey Analytics 設定的資料檢視。<br/>啟用此選項可使其成為 Adobe Journey Optimizer 報告中使用的預設資料檢視。"
+>title="Journey Optimizer 的資料釋圖"
+>abstract="Journey Optimizer 需要使用透過 Customer Journey Analytics 設定的資料釋圖。<br/>啟用此選項，使其成為 Adobe Journey Optimizer 報告中使用的預設資料釋圖。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo#connection" text="新增了哪些元件和資料集。"
 
 <!-- markdownlint-enable MD034 -->
 
 
-提供同時適用於 Adobe Journey Optimizer 和 Customer Journey Analytics 的設定。
+提供 Customer Journey Analytics 搭配使用 Adobe Journey Optimizer 時適用的設定。
 
 只有已佈建 Journey Optimizer 的管理員才能看到此部分。
 
@@ -148,7 +148,7 @@ ht-degree: 99%
 
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
-「**複製量度或維度**」
+**複製量度或維度**
 
 複製量度或維度，然後修改特定的設定，是從單一綱要欄位建立多個量度或維度的簡易方式。選取右上方的量度或維度名稱底下的「[!UICONTROL 複製]」設定。 修改新的量度或維度，並使用更具說明性的名稱來儲存它。
 

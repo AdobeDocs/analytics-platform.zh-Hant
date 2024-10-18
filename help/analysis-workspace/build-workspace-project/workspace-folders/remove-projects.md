@@ -1,14 +1,14 @@
 ---
-description: 瞭解如何從資料夾重新命名專案
+description: 了解如何從資料夾中重新命名專案
 keywords: Analysis Workspace
 title: 從資料夾中移除專案
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
 source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

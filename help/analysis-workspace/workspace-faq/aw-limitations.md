@@ -5,9 +5,9 @@ feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
 source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -30,21 +30,21 @@ ht-degree: 89%
 
 ## 篩選器
 
-* 無法篩選某些量度和維度，例如[!UICONTROL 事件]、[!UICONTROL 人員]等。
-* 在[面板放置區](/help/analysis-workspace/c-panels/panels.md)中建立的臨時篩選器是一種快速篩選器。除非加以公開，否則不會出現在Workspace的左側面板或篩選器元件管理員中。 如需更多資訊，請參閱「[快速篩選器](/help/components/filters/quick-filters.md)」。
+* [!UICONTROL 「事件」]、[!UICONTROL 「人員」]等特定量度和維度無法進行篩選。
+* 在[面板放置區](/help/analysis-workspace/c-panels/panels.md)中建立的臨時篩選器是一種快速篩選器。除非設定為公開，否則它們不會顯示在 Workspace 或篩選器元件管理器的左側面板中。如需更多資訊，請參閱[快速篩選器](/help/components/filters/quick-filters.md)。
 
-## 計算量度
+## 計算的量度
 
-* 計算量度無法使用於特定視覺效果中。請參閱[視覺效果](#visualizations)。
-* 計算量度無法用於[!UICONTROL 「歸因」]面板，因為計算量度本身就可包含個別的歸因模型。
+* 特定視覺化呈現中無法使用計算量度。請參閱[視覺化呈現](#visualizations)。
+* 「[!UICONTROL 歸因]」面板中無法使用計算量度，因為計算量度本身可能包含個別的歸因模型。
 * 如果從 Workspace 中建立計算量度，而非經由[!UICONTROL 「元件 > 篩選器」]建立，則某些元件和運算子將無法使用。 例如 [!UICONTROL IP 位址]。
 
 ## 日期範圍
 
-* 自訂日期範圍不支援[!UICONTROL 「去年的今天」]、[!UICONTROL 「上個月的今天」]等。
+* 自訂日期範圍不支援「[!UICONTROL 去年的今天]」、「[!UICONTROL 上個月的今天]」等。
 
 
-## 報表設定
+## 報告設定
 
 * [!UICONTROL 「報表設定」]頁面上的某些設定並不適用。Analysis Workspace 僅會使用以下幾種位於底部的[!UICONTROL 「語言/貨幣/編碼」]設定：[!UICONTROL 「千位分隔符號」]、[!UICONTROL 「排程報表編碼」]和[!UICONTROL 「CSV 分隔符號字元」]。
 

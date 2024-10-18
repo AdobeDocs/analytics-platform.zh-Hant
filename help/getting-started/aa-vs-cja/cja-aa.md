@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 6820adc70412f6abeae81bf8389227999d13f0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2306'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 | **提升安全性和隱私權選項** - HIPAA 整備程度 | Customer Journey Analytics 符合 HIPAA 標準，並提供[額外的安全性選項](/help/privacy/cmk.md)以實現法規合規性。Adobe Analytics 尚未符合 HIPAA 標準。 |
 | **實驗分析** | 對於任何定義為連線一部分之資料來源的實驗，Customer Journey Analytics 都可以[評估其提升度和可信度](/help/analysis-workspace/c-panels/experimentation.md)。透過此評估，您可以了解任意管道中客戶互動之間的因果關係。Analytics 僅限於透過 A4T 進行的實驗分析。 |
 | **預測** | [預測](/help/analysis-workspace/c-forecast/forecasting.md)是一種 AI/ML 功能，包括根據 Customer Journey Analytics 中已有的歷史資料，對時間序列相關資料進行統計預測。預測可以顯示在自由格式表格和折線圖視覺效果中。 |
-| **引導式分析** | [引導式分析](/help/guided-analysis/overview.md)可讓使用者透過引導式工作流程(以Customer Journey Analytics的跨管道資料為基礎)，自助提供客戶歷程的高品質資料和深入分析。 |
+| **引導式分析** | [引導式分析](/help/guided-analysis/overview.md)讓使用者透過建置在 Customer Journey Analytics 跨管道資料上的引導式工作流程，自行取得有關客戶歷程的高品質資料和深入分析。 |
 | **智慧型註解** | 智慧型註解使用進階的機器學習和生成式 AI，為 Workspace 視覺效果提供有價值的自然語言深入解析。初始版本為[折線圖](/help/analysis-workspace/visualizations/line.md)視覺效果提供自動產生的深入解析。 |
 | **報告時間轉換** | Customer Journey Analytics 中的[資料檢視](/help/data-views/data-views.md)可讓您進一步詮釋來自連線的資料。您可以變更或移除資料而無需變更實施、使用子字串操作維度、從任何值建立量度，或是篩選子事件。以上所有轉換的進行都是非破壞性。Adobe Analytics 透過虛擬報表套裝和自訂工作階段長度提供有限的功能。 |
 | **BI 擴充功能** | [BI 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)可讓您將 CJA 直接連接到熱門的 BI 視覺效果工具，例如 PowerBI 或 Tableau。透過使用此擴充功能，您可以讓 BI 報表與您在 Analysis Workspace 和其他 CJA 報表介面中看到的內容精確相符。這是更輕鬆為 CJA 取得 BI 報告的方法，無需從原始資料重新建立報告/指標。 |
@@ -68,7 +68,7 @@ ht-degree: 98%
 | **報告 API 存取權** | 完整支援；可透過 [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/) 使用。 |
 | **排程報告/專案** | 完整支援 |
 | **區段** | 完整支援。現在稱為「篩選器」。請注意，傳統 Analysis Workspace 中任何現有的區段都不會移植至 Customer Journey Analytics。 |
-| **串流媒體收集附加元件** | 串流媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢閱者」面板和「媒體播放時間」面板的一部分提供。 |
+| **串流媒體收集附加元件** | 串流媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢視者」面板和「媒體播放時間」面板的一部分提供。 |
 | **摘要層級資料來源** | 完整支援 |
 | **虛擬報表套裝** | 完整支援。現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | **虛擬報表套裝元件策劃** | 完整支援。現在是資料視圖的一部分。 |
@@ -99,7 +99,7 @@ ht-degree: 98%
 | **量度重複資料刪除** | 現在於資料視圖中的量度上設定。量度去重複化發生在人員或工作階段層級，而不是資料集、資料檢視或連線層級。 |
 | **新工作階段與重複工作階段報告** | 先前使用造訪編號維度完成。新工作階段與重複工作階段支援 [13 個月的回溯期](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases.html)。 |
 | **處理規則、VISTA 規則、行銷管道處理規則** | 支援將 Adobe Experience Platform Data Prep 功能以及[衍生欄位](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/derived-fields.html)用於 WebSDK 式資料集和來自 Analytics 來源連接器的資料。 |
-| **Products 變數** | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件陣列，以符合此使用案例。在 Customer Journey Analytics 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
+| **產品變數** | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件陣列，以符合此使用案例。在 Customer Journey Analytics 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
 | **專案共用** | 專案共用功能僅支援在 Customer Journey Analytics 的使用者之間使用 - Customer Journey Analytics 和傳統 Analysis Workspace 之間沒有專案共用。 |
 | **Report Builder** | 支援用於 Excel 的新 Office 365 外掛程式。 |
 | **使用者權限/資料存取控制** | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-hant) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。其他使用者權限可用於多種功能，例如建立計算量度、篩選器或註解等。 |
