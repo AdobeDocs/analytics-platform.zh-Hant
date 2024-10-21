@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
-workflow-type: ht
-source-wordcount: '3526'
-ht-degree: 100%
+source-git-commit: ea95b576a9d8309d2c6c2aeba589db1fd28ce499
+workflow-type: tm+mt
+source-wordcount: '3676'
+ht-degree: 95%
 
 ---
 
@@ -134,11 +134,67 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_matchingkey"
->title="比對索引鍵"
->abstract="在其中一個事件資料集中選取要聯結的欄位。如果此清單是空的，您可能尚未新增或設定事件資料集。"
+>id="cja_connection_primaryID"
+>title="主要 ID"
+>abstract="為您的連線選取適當的主要ID： B2C案例的Person 。 B2B情境的帳戶。"
 
 <!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_optionalContainers"
+>title="選擇性容器"
+>abstract="選取其他容器。<br/><br/>**[!UICONTROL 全域帳戶&#x200B;]**：啟用連線中全域帳戶的設定。<br/>**[!UICONTROL 機會]**：啟用連線中的機會設定。<br/>**[!UICONTROL 購買群組&#x200B;]**：啟用連線中購買群組的組態。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_personID"
+>title="人員 ID"
+>abstract="在 Experience Platform 中，從資料集結構描述中所定義的可用身分中選取人員 ID。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_accountID"
+>title="帳戶 ID"
+>abstract="從Experience Platform的資料集結構描述中定義的可用身分中，選取帳戶ID （帳戶的唯一識別碼）。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_globalAccountID"
+>title="全域帳戶ID"
+>abstract="從Experience Platform的資料集結構描述中定義的可用身分中，選取全域帳戶ID （全域帳戶的唯一識別碼）。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_opportunityID"
+>title="機會 ID"
+>abstract="從Experience Platform的資料集結構描述中定義的可用身分中，選取機會ID （機會的唯一識別碼）。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_buyingGroupID"
+>title="購買群組ID"
+>abstract="從Experience Platform資料集結構描述中定義的可用身分中，選取購買群組ID （購買群組的唯一識別碼）。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 <!-- markdownlint-disable MD034 -->
 
