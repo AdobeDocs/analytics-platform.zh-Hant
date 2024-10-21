@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1259'
 ht-degree: 2%
 
 ---
@@ -21,13 +21,8 @@ ht-degree: 2%
 
 在此分析中，圖表的x軸代表從使用者起始事件以來的時間，而y軸代表與一或多個回訪事件互動的使用者百分比。 您可以跨期間檢視保留率和流失率，並可透過查詢設定自訂顯示的期間。 在圖表下方，表格會提供彙總資料，而且可以選擇顯示個別同類群組，也就是在同一日期執行開始事件的一群人員。
 
-+++ 示範影片
-
 >[!VIDEO](https://video.tv.adobe.com/v/3430503/?learn=on)
 
-+++
-
-![保留](../assets/retention.png)
 
 ## 使用案例
 
@@ -78,3 +73,9 @@ ht-degree: 2%
 
 * **[!UICONTROL 分析在[日期間隔]]**&#x200B;內執行開始事件的使用者：如果使用者參與此日期範圍內的事件，則將其納入分析。 此日期範圍可確保所有使用者有足夠的時間符合所有期間值區的資格。 如果此日期範圍接近當天，則可能與您的選取範圍不同。
 * **[!UICONTROL 保留來自[日期間隔]的資料以完成分析]**：如果使用者在此期間首次參與，則&#x200B;**不包括在分析中**。 對於最近的日期範圍，這些使用者將沒有機會取得所有期間值區的資格。 若為過去的日期範圍，這些使用者在所選日期範圍以外處於作用中狀態。
+
+## 範例
+
+如需分析的範例，請參閱下文。
+
+![保留](../assets/retention.png)

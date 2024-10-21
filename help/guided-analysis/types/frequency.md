@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: ad181b5ba3de1a038c661159a159d234da6c3edf
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '647'
 ht-degree: 5%
 
 ---
@@ -16,13 +16,7 @@ ht-degree: 5%
 
 ![頻率](/help/assets/icons/Histogram.svg) **[!UICONTROL 頻率]**&#x200B;分析會依產品中發生事件的頻率來分組事件資料。 此分析的垂直軸包含代表事件頻率的貯體。 水平軸會測量每個時段的使用者或工作階段數量。
 
-+++ 示範影片
-
 >[!VIDEO](https://video.tv.adobe.com/v/3428089/?learn=on)
-
-+++
-
-![頻率](../assets/frequency.png)
 
 ## 使用案例
 
@@ -72,3 +66,13 @@ ht-degree: 5%
 
 * **[!UICONTROL 間隔]**：您要檢視趨勢資料的日期詳細程度。 圖表和表格預設會顯示彙總資料，並可以選擇將表格展開至趨勢檢視。 在趨勢檢視中，使用者是根據總計的使用頻率以及在每個間隔中分組的，這表示1個使用者可以在不同的間隔中計入不同的貯體。
 * **[!UICONTROL 日期]**：開始和結束日期。 您可方便使用滾動日期範圍預設集和先前儲存的自訂範圍，或使用日曆選擇器來選擇固定日期範圍。
+
+
+<!--
+## Example
+
+See below foran example of the analysis.
+
+![Frequency](../assets/frequency.png)
+
+-->

@@ -5,9 +5,9 @@ exl-id: c8b0b71f-8ed3-4aad-a0f8-4d5ad8d7a7bd
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: f71abfb76a22171004a6f2a501c8ec70d8485478
+source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '664'
 ht-degree: 2%
 
 ---
@@ -16,13 +16,7 @@ ht-degree: 2%
 
 ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel ]**分析可提供產品中重要使用者歷程的視覺化表示。 水平軸代表使用者必須通過的每個步驟。 垂直軸代表每個步驟的使用者或工作階段百分比。 所有步驟最終必須依序完成，但可在報告期間內隨時執行。
 
-+++ 示範影片
-
 >[!VIDEO](https://video.tv.adobe.com/v/3421663/?learn=on){width="90%"}
-
-+++
-
-![漏斗時間比較](../assets/funnel-compare.png)
 
 ## 使用案例
 
@@ -69,3 +63,12 @@ ht-degree: 2%
 
 * **[!UICONTROL 間隔]**：您要檢視趨勢資料的日期詳細程度。 此設定不會影響非趨勢分析，例如[漏斗](funnel.md)。
 * **[!UICONTROL 日期]**：開始和結束日期。 您可方便使用滾動日期範圍預設集和先前儲存的自訂範圍，或使用日曆選擇器來選擇固定日期範圍。
+
+<!--
+## Example
+
+See below for an example of the analysis.
+
+![Funnel time compare](../assets/funnel-compare.png)
+
+-->
