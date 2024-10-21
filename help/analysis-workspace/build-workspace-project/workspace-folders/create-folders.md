@@ -26,7 +26,7 @@ ht-degree: 100%
 
 1. 按一下&#x200B;**建立資料夾**。
 
-1. `在&#x200B;**[!UICONTROL 建立新資料夾]**&#x200B;對話框中，輸入新資料夾的名稱。例如：`Second Week Reports`。
+1. 在&#x200B;**[!UICONTROL 建立新資料夾]**&#x200B;對話框中，輸入新資料夾的名稱。例如：`Second Week Reports`。
 
 1. 從下拉式清單中選取&#x200B;**[!UICONTROL 標記]**&#x200B;或輸入新標記。
 
