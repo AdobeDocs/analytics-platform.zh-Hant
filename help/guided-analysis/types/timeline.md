@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 2%
+source-wordcount: '570'
+ht-degree: 1%
 
 ---
 
@@ -65,8 +65,12 @@ ht-degree: 2%
 * **[!UICONTROL 日期]**：開始和結束日期。 您可方便使用滾動日期範圍預設集和先前儲存的自訂範圍，或使用日曆選擇器來選擇固定日期範圍。
 
 
-## 範例
+<!--
 
-如需分析的範例，請參閱下文。
+## Example
 
-![時間表](../assets/timeline-new.png)
+See below for an example of the analysis.
+
+![Timeline](../assets/timeline-new.png)
+
+-->

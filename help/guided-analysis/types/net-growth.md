@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -67,9 +67,11 @@ ht-degree: 2%
 * **[!UICONTROL 間隔]**：您要檢視趨勢資料的日期詳細程度。 有效的選項包括每小時、每日、每週、每月和每季。 相同日期範圍可以有不同的間隔，這會影響圖表中的資料點數以及表格中的欄數。 例如，以每日詳細程度檢視橫跨3天的分析只會顯示3個資料點，而以每小時詳細程度橫跨3天的分析則會顯示72個資料點。
 * **[!UICONTROL 日期]**：開始和結束日期。 您可方便使用滾動日期範圍預設集和先前儲存的自訂範圍，或使用日曆選擇器來選擇固定日期範圍。
 
+<!-- 
+## Example
 
-## 範例
+See below for an example of the analysis.
 
-如需分析的範例，請參閱下文。
+![Net growth compare](../assets/net-growth-compare.png)
 
-![淨成長比較](../assets/net-growth-compare.png)
+-->
