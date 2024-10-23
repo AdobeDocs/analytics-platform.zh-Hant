@@ -6,7 +6,7 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: bafe2bfdd62065b58ebe5ea6f54a892e0177bbce
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 14%
@@ -43,7 +43,7 @@ ht-degree: 14%
 | --- | --- |
 | [!UICONTROL 名稱] | 連線的易記名稱。 若要檢視連線的詳細資訊，請選取超連結的名稱。 請參閱[連線詳細資料](#connection-details)。 |
 | ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | 若要檢視有關[!UICONTROL 包含的資料集]、[!UICONTROL 沙箱]、[!UICONTROL 所有者]等專案的資訊，請選取連線名稱旁的![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)。<p>快顯視窗會顯示詳細資訊。 <p><img src="./assets/conn-info.png" alt="檢視連線資訊" width="400"/> |
-| ![資料視圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | 若要[建立連線的資料檢視](#create-a-data-view)，請選取![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg)。 只有在尚未有任何資料檢視與連線相關聯時，此圖示才會顯示。 |
+| ![資料釋圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | 若要[建立連線的資料檢視](#create-a-data-view)，請選取![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg)。 只有在尚未有任何資料檢視與連線相關聯時，此圖示才會顯示。 |
 | ![更多內容](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選取![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)以： <p>![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [編輯](#edit-a-connection)連線。<p>![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) [刪除](#delete-a-connection)連線。<p>![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) [建立新的資料檢視](#create-a-data-view)。 為連線建立其他資料檢視。 |
 | [!UICONTROL 資料集] | 連線中資料集的一個或多個連結。 您可以選取資料集超連結來檢視連線中的資料集。 如果選取的連線中有更多資料集，請選取&#x200B;**[!UICONTROL +*x*更多]**&#x200B;以顯示&#x200B;**[!UICONTROL 包含的資料集]**&#x200B;面板。 此面板會顯示所有資料集的連結，以及搜尋屬於連線之特定資料集的選項。<p><img src="./assets/datasets-included.png" alt="包含的資料資產" width="400"/><p>選取資料集名稱，即可在新索引標籤的Experience PlatformUI中開啟資料集。 |
 | [!UICONTROL 沙箱] | 此連線從中提取其資料集的[Experience Platform沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)。 當您初次建立連線時，就會選取這個沙箱。 此沙箱無法變更。 |
@@ -131,7 +131,7 @@ ht-degree: 14%
 | --- | --- |
 | ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) [!UICONTROL 編輯連線] | 若要編輯連線的詳細資料，請選取![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 編輯連線]**。 如需詳細資訊，請參閱[建立或編輯連線](create-connection.md)。 |
 | 資料集選擇器 | 可讓您選擇連線中的一個或所有資料集。 您無法多重選取資料集。 預設為「[!UICONTROL 所有資料集]」。 |
-| 日期範圍選擇器 | 編輯開始日期、結束日期，或選取![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)以開啟資料範圍選取器。 在日期範圍選取器中，使用預先定義的期間之一（例如&#x200B;**[!UICONTROL 最近6個月]**）來選取日期範圍，或使用日曆來選取開始和結束日期。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;以套用新的資料範圍。 |
+| 日期範圍選擇器 | 編輯開始日期、結束日期，或選取![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)以開啟日期範圍選取器。 在日期範圍選取器中，使用預先定義的期間之一（例如&#x200B;**[!UICONTROL 最近6個月]**）來選取日期範圍，或使用日曆來選取開始和結束日期。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;以套用新的日期範圍。 |
 | [!UICONTROL 可用的事件資料記錄] | 可用於報告的事件資料集列總數，整個連線&#x200B;**為**。 此計數與任何行事曆設定皆無關。 如果您從資料集選擇器選取資料集，或在表格中選取資料集，則計數會變更。 新增資料後，會延遲1-2小時讓資料出現在報告中。 |
 | [!UICONTROL 量度] | 彙總已新增、略過和刪除的事件、查詢、設定檔和摘要資料集記錄，以及新增的批次數量。 這些量度是根據&#x200B;**您選取的資料集和日期範圍**。<p>選取&#x200B;**[!UICONTROL 檢查詳細資料]**&#x200B;以顯示&#x200B;**[!UICONTROL 檢查略過的詳細資料]**&#x200B;快顯視窗。 快顯視窗會列出略過的記錄數，以及所有事件資料集或所選資料集的原因。<p><img src="./assets/skipped-records.png" width="500"/><p>選取包含更多資訊的![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)快顯視窗。 由於某些略過的原因，例如[!UICONTROL 空白的訪客ID]，快顯視窗會顯示EQS的範例PSQL (查詢服務的Experience Platform)，您可以在[查詢服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home)中查詢資料集中略過的記錄。 選取![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL 複製EQS的範例PSQL]**&#x200B;以複製SQL。 |
 | [!UICONTROL 新增的記錄] | 指出在選取的時段內，針對您選取的資料集和日期範圍&#x200B;**新增了多少列。**&#x200B;每 10 分鐘更新一次。 |
@@ -166,7 +166,7 @@ ht-degree: 14%
 | 選項 | 說明 |
 | --- | --- |
 | ![重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) [!UICONTROL 重新整理] | 若要重新整理連線並允許反映最近新增的記錄，請選取![重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 重新整理]**。 |
-| ![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 刪除]** | [刪除](#delete-a-connection)此連線。 |
+| ![Delete](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg)**[!UICONTROL 刪除]** | [刪除](#delete-a-connection)此連線。 |
 | ![新增資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL 建立資料檢視]** | [根據此連線建立資料檢視](#create-a-data-view)。 如需詳細資訊，請參閱[資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)。 |
 | [!UICONTROL 連線名稱] | 連線的易記名稱。 |
 | [!UICONTROL 連線說明] | 更詳細的說明，說明此連線的用途。 |

@@ -4,10 +4,10 @@ title: 快速深入分析面板
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
-workflow-type: ht
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 * **[!UICONTROL 分析]**  - 指定維度 (橘色)
 * **[!UICONTROL 依據]**  - 指定量度 (綠色)
 * **[!UICONTROL 篩選條件]**  - 指定篩選 (藍色)
-* **[!UICONTROL 在]**  - 指定資料範圍 (紫色)。
+* **[!UICONTROL 於]** — 指定日期範圍（紫色）。
 
 您必須至少選取一個維度和一個量度才能使視覺化呈現正常運作。
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 
   ![The Quick Insights Panel notification displayed after you select the Help icon.](assets/qibuilder4.png)
 
-* 您可以分析多個維度和量度、結合或比較篩選以及指定資料範圍：
+* 您可以分析多個維度和量度、合併或比較篩選器，以及指定日期範圍：
 
   ![Quick Insights Builder Result](assets/qibuilder-result.png)
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 篩選條件]**：您最多可以再增加 2 個篩選條件。例如，新增「預訂」作為篩選條件，並結合您所比較的「預訂常客」和「首次搭機者」篩選條件。請參閱➏、➐和➑。
 
-   * 在：您可以指定資料範圍。請參閱➒。
+   * 開啟：您可以指定日期範圍。 請參閱➒。
 
 ## 已知限制
 

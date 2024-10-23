@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
-workflow-type: ht
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+workflow-type: tm+mt
 source-wordcount: '3466'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -229,7 +229,7 @@ ht-degree: 100%
 | **堆疊圖** | | |
 | | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。 <p>如需詳細資訊，請參閱[長條圖和堆疊長條圖](/help/analysis-workspace/visualizations/bar.md)。</p> |
 | **[長條圖](/help/analysis-workspace/visualizations/histogram.md)** | | |
-| | 貯體數 | 在視覺效果中選擇資料範圍 (貯體) 的數量。貯體的最大數量是 50。 <p>如需詳細資訊，請參閱[長條圖](/help/analysis-workspace/visualizations/histogram.md)。</p> |
+| | 貯體數 | 選擇視覺效果中日期範圍（貯體）的數量。 貯體的最大數量是 50。 <p>如需詳細資訊，請參閱[長條圖](/help/analysis-workspace/visualizations/histogram.md)。</p> |
 | | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>工作階段</li><li>人員</li></ul> <p>例如，與頁面瀏覽次數搭配使用時，您可以選擇每個人員的頁面瀏覽次數、造訪的頁面瀏覽次數，或是每個事件的頁面瀏覽次數。若為點擊，自由格式表格會將「發生次數」設為 Y 軸的量度。</p> |
 | **[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變更</li><li>原始差異</li></ul> |

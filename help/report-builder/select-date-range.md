@@ -1,15 +1,15 @@
 ---
-title: 如何在Customer Journey Analytics中選取Report Builder中的資料範圍
+title: 如何在Customer Journey Analytics中選取Report Builder中的日期範圍
 description: 說明如何在Report Builder中使用行事曆、滾動日期和自訂運算式進行Customer Journey Analytics
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 89%
 
 ## 使用「行事曆」
 
-當您使用&#x200B;**行事曆**&#x200B;時，日期範圍欄位會顯示資料區塊要求的目前日期範圍。您可在日期範圍中直接輸入日期，或是使用資料範圍選取選項。
+當您使用&#x200B;**行事曆**&#x200B;時，日期範圍欄位會顯示資料區塊要求的目前日期範圍。您可以直接在日期範圍欄位中輸入日期，或使用日期範圍選取選項。
 
 ### 日期範圍欄位
 
@@ -92,7 +92,7 @@ ht-degree: 89%
 
    ![Report Builder日期範圍窗格，顯示目前日期加上選取的14天。](./assets/image21.png)
 
-1. 按一下「下一步」以定義資料範圍。
+1. 按一下「下一步」以定義日期範圍。
 
    使用日期預覽以確認產生的日期範圍是所需範圍。
 

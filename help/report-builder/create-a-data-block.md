@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: cbb48623212c2f3d8968dc6daca491761e2f4a9e
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 69%
 
 1. 設定&#x200B;**日期範圍**。
 
-   「日期範圍」選項可讓您選擇日期範圍。日期範圍可以是固定或滾動式。如需更多有關日期範圍選項的資訊，請參閱[選取日期範圍](select-date-range.md)。
+   「日期範圍」選項可讓您選擇日期範圍。日期範圍可以是固定或滾動式。如需日期範圍選項的詳細資訊，請參閱[選取日期範圍](select-date-range.md)。
 
 1. 按一下「**下一步**」。
 

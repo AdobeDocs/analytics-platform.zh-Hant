@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '5188'
 ht-degree: 8%
@@ -430,7 +430,7 @@ ht-degree: 8%
 1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
 1. 從頂端功能表選取&#x200B;**[!UICONTROL 連線]**。
 1. 選取您的連線，例如&#x200B;**[!UICONTROL 使用摘要資料的連線範例]**。
-1. 在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 使用摘要資料的範例連線]**&#x200B;詳細資料中選取適當的資料範圍。
+1. 在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 使用摘要資料的範例連線]**&#x200B;詳細資料中選取適當的日期範圍。
    1. 選取![行事曆](/help/assets/icons/Calendar.svg)，然後選取&#x200B;**[!UICONTROL 最近7天]**。
    1. 選取&#x200B;**[!UICONTROL 「套用」]**。
 
@@ -463,7 +463,7 @@ ht-degree: 8%
          | 訂購 | 範例事件資料集 | 整數 | *_tenant*.orders |
          | 收入 | 範例事件資料集 | 雙倍 | *_tenant*.revenue_amount |
 
-         **維度**
+         **Dimensions**
 
          | 元件名稱 | 資料集 | 結構描述資料類型 | 結構描述路徑 |
          |---|---|---|---|
@@ -545,12 +545,12 @@ ht-degree: 8%
 1. 從頂端功能表選取&#x200B;**[!UICONTROL Workspace]**。
 1. 選取&#x200B;**[!UICONTROL 「建立專案」]**。
 1. 從包含建立空白Workspace專案的選項的對話方塊中選取&#x200B;**[!UICONTROL 空白Workspace專案]**。
-1. 選取「**[!UICONTROL 建立]**」。
+1. 選取&#x200B;**[!UICONTROL 建立]**。
 
 您看到包含[!UICONTROL 自由格式]面板的空白畫布，其中包含空白的[!UICONTROL 自由格式表格]。
 
 1. 確保為面板選取的資料檢視是指包含摘要資料設定的資料檢視。 例如，**[!UICONTROL 使用摘要資料的資料檢視範例。]**
-1. 請確認資料範圍對您要報告的資料有效。 例如： **[!UICONTROL 最近2個整月]**。
+1. 請確認日期範圍對您要報告的資料有效。 例如： **[!UICONTROL 最近2個整月]**。
 1. 從&#x200B;**[!UICONTROL 事件]**&#x200B;拖曳&#x200B;**[!UICONTROL 追蹤代碼(Dimension)]**，並將維度拖放到空的自由格式表格上。
 1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 訂單]**，並將量度拖放至&#x200B;**[!UICONTROL 事件]**&#x200B;欄，以取代自由表格中的該欄。
 1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 收入]**，並放置量度，以新增為自由表格的其他欄。

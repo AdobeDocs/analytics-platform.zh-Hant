@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '1479'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -34,8 +34,8 @@ Analysis Workspace 可讓您快速建置分析以收集深入分析，然後與�
 
 | 位置 | 名稱與功能 |
 |:---------:|----------|
-| ?? | 包含專案名稱、存取功能的功能表結構、返回專案清單的按鈕![ChevronLeft](/help/assets/icons/ChevronLeft.svg)，以及[共用您的Workspace專案](/help/analysis-workspace/curate-share/share-projects.md)的&#x200B;**[!UICONTROL 共用]**&#x200B;按鈕。 <br/>隨時選取專案名稱（例如：新增專案）以變更名稱。 <br/>選取![StarOutline](/help/assets/icons/StarOutline.svg)將專案標示為最愛的專案![Star](/help/assets/icons/Star.svg)。 |
-| ?? | **按鈕面板：**&#x200B;包含用於存取Analysis Workspace的按鍵[功能](#features)的按鈕：<ul><li>![網頁](/help/assets/icons/WebPage.svg) [[!UICONTROL 面板]](/help/analysis-workspace/c-panels/panels.md)</li><li>![引導分析](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 引導分析]](/help/guided-analysis/overview.md)</li><li>![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 視覺效果]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![組織](/help/assets/icons/Curate.svg) [[!UICONTROL 元件]](/help/components/overview.md)</li><li>![檢視清單](/help/assets/icons/ViewList.svg) [[!UICONTROL 目錄]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![書籤](/help/assets/icons/Bookmark.svg) [[!UICONTROL 資料字典]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| ?? | 包含專案名稱、用於存取功能的選單結構、用於返回專案清單的 ![ChevronLeft](/help/assets/icons/ChevronLeft.svg) 按鈕，以及用於[分享 Workspace 專案](/help/analysis-workspace/curate-share/share-projects.md)的&#x200B;**[!UICONTROL 共用]**&#x200B;按鈕。<br/>隨時選取您的專案名稱 (例如：New project) 以變更名稱。<br/>選取 ![StarOutline](/help/assets/icons/StarOutline.svg) 將您的專案標記為最愛專案 ![Star](/help/assets/icons/Star.svg)。 |
+| ?? | **按鈕面板：** 包含用於存取 Analysis Workspace 主要[功能](#features)的按鈕：<ul><li>![網頁](/help/assets/icons/WebPage.svg) [[!UICONTROL 面板]](/help/analysis-workspace/c-panels/panels.md)</li><li>![引導分析](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 引導分析]](/help/guided-analysis/overview.md)</li><li>![直條圖](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 視覺效果]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![組織](/help/assets/icons/Curate.svg) [[!UICONTROL 元件]](/help/components/overview.md)</li><li>![檢視清單](/help/assets/icons/ViewList.svg) [[!UICONTROL 目錄]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![書籤](/help/assets/icons/Bookmark.svg) [[!UICONTROL 資料字典]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | ?? | **左側面板：** 此區域包含個人面板、視覺化呈現、元件或清單。內容取決於按鈕面板中選取的按鈕。 |
 | ?? | **版本：**&#x200B;從左側面板拖曳內容以建置專案的主要區域。當您新增面板、新增視覺化呈現至面板，以及新增元件至視覺化呈現時，專案會動態更新。您可以建立多個面板，並且您可以在每個面板中建立多個視覺化呈現。<br/>每個面板皆根據所選取的資料釋圖。已選取的資料釋圖決定可用的元件，例如量度和維度。請參閱[面板 - 資料釋圖](/help/analysis-workspace/c-panels/panels.md#data-view)了解更多資訊。 |
 
@@ -111,7 +111,7 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 |---|---|---|---|
 | **[!UICONTROL 建立篩選器...]** | **[!UICONTROL *Shift+Cmd+E *]** | **[!UICONTROL *Shift+Ctrl+ E *]** | 建立新的[篩選器](/help/components/filters/create-filters.md)。 |
 | **[!UICONTROL 建立量度...]** | **[!UICONTROL *Shift+Cmd+C *]** | **[!UICONTROL *Shift+Ctrl+C *]** | 建立新的[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 |
-| **[!UICONTROL 建立日期範圍...]** | **[!UICONTROL *Shift+Cmd+D *]** | **[!UICONTROL *Shift+Ctrl+D *]** | 建立新的[資料範圍](/help/components/date-ranges/overview.md) |
+| **[!UICONTROL 建立日期範圍...]** | **[!UICONTROL *Shift+Cmd+D *]** | **[!UICONTROL *Shift+Ctrl+D *]** | 建立新的[日期範圍](/help/components/date-ranges/overview.md)。 |
 | **[!UICONTROL 建立註解…]** | **[!UICONTROL *Shift+Cmd+O *]** | **[!UICONTROL *Shift+Ctrl+O *]** | 建立新的[註解](/help/components/annotations/overview.md) |
 | **[!UICONTROL 建立客群...]** | **[!UICONTROL *Shift+Cmd+U *]** | **[!UICONTROL *Shift+Ctrl+U *]** | 建立新[客群](/help/components/audiences/audiences-overview.md)。 |
 | **[!UICONTROL 重新整理元件]** | **[!UICONTROL *Opt+Shift+R *]** | **[!UICONTROL *Alt+Shift+R *]** | 重新整理專案中的元件。 |

@@ -4,7 +4,7 @@ description: 瞭解如何檢視和管理Customer Journey Analytics稽核記錄�
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 31381cd397a821cc3ff1b3c15ae968a7260a6e9e
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 66%
@@ -111,7 +111,7 @@ ht-degree: 66%
 
 選擇漏斗圖示 (![篩選](assets/filter-icon.png)) 以顯示篩選控制項以幫助縮小結果範圍。僅顯示最後 1,000 條記錄，無論選擇的各種篩選器為何。
 
-![稽核記錄檔顯示資料範圍所顯示的篩選器。](assets/filters.png)
+![稽核記錄檔顯示日期範圍所顯示的篩選器。](assets/filters.png)
 
 以下篩選器可用於 UI 中的稽核事件：
 

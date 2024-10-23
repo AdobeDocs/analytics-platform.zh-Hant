@@ -4,7 +4,7 @@ title: 在 Analysis Workspace 中使用元件
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 7%
@@ -120,7 +120,7 @@ ht-degree: 7%
 
      ![卸除日期範圍](assets/add-date-range.gif)
 
-   * 自由表格視覺效果中的量度或維度。 如需詳細資訊，請參閱[使用資料範圍](/help/components/date-ranges/overview.md#use-date-ranges)。
+   * 自由表格視覺效果中的量度或維度。 如需詳細資訊，請參閱[使用日期範圍](/help/components/date-ranges/overview.md#use-date-ranges)。
 
 如需有關如何在Analysis Workspace中使用和管理日期範圍的詳細資訊，請參閱[日期範圍概觀](/help/components/date-ranges/overview.md)。
 

@@ -6,7 +6,7 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 58%
@@ -21,7 +21,7 @@ ht-degree: 58%
 
    ![顯示從選取專案建立警示的步驟結果。](assets/breakdown.png)
 
-1. 從子功能表中選取&#x200B;**[!UICONTROL Dimension]**、**[!UICONTROL 量度]**、**[!UICONTROL 篩選器]**&#x200B;或&#x200B;**[!UICONTROL 資料範圍]**，然後選取專案。
+1. 從子功能表中選取&#x200B;**[!UICONTROL Dimension]**、**[!UICONTROL 量度]**、**[!UICONTROL 篩選器]**&#x200B;或&#x200B;**[!UICONTROL 日期範圍]**，然後選取專案。
 
 您可以跨所選時段，依維度項目或客群篩選條件來劃分量度。您也可以更深入鑽研至更詳細的層級。
 

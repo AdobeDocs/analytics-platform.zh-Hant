@@ -4,7 +4,7 @@ title: 長條圖
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 42%
@@ -38,7 +38,7 @@ ht-degree: 42%
 >
 >長條圖僅支援標準量度，不支援計算量度。
 
-在以下範例中，長條圖可用來儲存人數的工作階段。 長條圖顯示大多數人確實在所選資料範圍內有16至21個工作階段。
+在以下範例中，長條圖可用來儲存人數的工作階段。 長條圖顯示大多數人確實在所選日期範圍內有16至21個工作階段。
 
 ![](assets/histogram.png)
 
