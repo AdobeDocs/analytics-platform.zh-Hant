@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
+source-git-commit: e5d66bfbc39d3b20b2833b6a83485b106b3d4231
 workflow-type: tm+mt
-source-wordcount: '3078'
+source-wordcount: '3091'
 ht-degree: 77%
 
 ---
@@ -34,16 +34,22 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 ### 到期的認證
 
-* 已授與Experience Platform和Customer Journey Analytics的存取權。
-* 已授與產品管理員對Customer Journey Analytics的存取權，因此您可以檢視、編輯、更新或刪除連線和資料檢視。
-* OR
-* 已授予您要存取之資料檢視的存取權。
-* 已授與CJA BI擴充功能的存取權。
+若要使用即將到期的認證，您可以：
+
+* 授予Experience Platform和Customer Journey Analytics的存取權。
+* 授與產品管理員對Customer Journey Analytics的存取權，以便您可以檢視、編輯、更新或刪除連線和資料檢視。
+
+或者，您可以：
+
+* 授予您要存取之資料檢視的存取權。
+* 授予Customer Journey AnalyticsBI擴充功能的存取權。
 
 ### 不會到期的認證
 
-* 在Adobe Experience Platform中建立不會到期的認證。
-* 依照[即將到期的認證](#Expiring-credentials)中提及的相同步驟，授與未到期認證的存取權。
+若要使用不會到期的認證：
+
+* 在Experience Platform中建立不會到期的認證。
+* 依照[到期認證](#Expiring-credentials)中提及的步驟來授與未到期認證的存取權。
 
 如需詳細資訊，請參閱[客戶歷程存取控制](../technotes/access-control.md)，特別是[產品管理員額外許可權](../technotes/access-control.md#product-admin-additional-permissions)和Admin Console[Customer Journey Analytics許可權](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)。
 
