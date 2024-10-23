@@ -5,9 +5,9 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 1e7d61f05a8351a1bd9e4d289c9d31906676f909
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1806'
 ht-degree: 47%
 
 ---
@@ -15,11 +15,6 @@ ht-degree: 47%
 # 引導式分析概觀
 
 引導式分析可讓從行銷到產品再到分析師的使用者透過建置在 Customer Journey Analytics 跨管道資料上的引導式工作流程，自行取得有關客戶歷程的高品質資料和深入分析。與 Analysis Workspace 和行動計分卡類似，引導式分析使用來自[資料視圖](/help/data-views/data-views.md)的資料，透過[連線](../connections/overview.md)參考 Adobe Experience Platform 中的資料。多種在引導式分析中建立的報告可以無縫轉移到 Analysis Workspace 以進行其他研究。
-
->[!NOTE]
->
->請參閱[常見問題集](faq.md)以瞭解引導式分析和Analysis Workspace在術語（區段、篩選器等）上的差異。
-
 
 可以使用以下引導式分析：
 
