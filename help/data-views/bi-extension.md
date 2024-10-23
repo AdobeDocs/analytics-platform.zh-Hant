@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: b2e165e5bb2c15fecaba1c8b14daeb727c0cead5
+source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
 workflow-type: tm+mt
-source-wordcount: '3044'
-ht-degree: 79%
+source-wordcount: '3078'
+ht-degree: 77%
 
 ---
 
@@ -28,15 +28,22 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 ## 先決條件
 
-若要使用此功能，您必須具備：
-
+若要使用此功能，您可以使用即將到期或未到期的認證來將BI工具連線至[!DNL Customer Journey Analytics BI extension]。 [認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)提供設定到期認證或不到期認證的詳細資訊。
+以下是設定CJA許可權的其他步驟
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
+
+### 到期的認證
 
 * 已授與Experience Platform和Customer Journey Analytics的存取權。
 * 已授與產品管理員對Customer Journey Analytics的存取權，因此您可以檢視、編輯、更新或刪除連線和資料檢視。
+* OR
 * 已授予您要存取之資料檢視的存取權。
 * 已授與CJA BI擴充功能的存取權。
-* 使用有到期日或無到期日的認證能將 BI 工具連接到 [!DNL Customer Journey Analytics BI extension]。「[認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)」提供關於設定有到期日的認證或無到期日的認證之詳細資訊。
+
+### 不會到期的認證
+
+* 在Adobe Experience Platform中建立不會到期的認證。
+* 依照[即將到期的認證](#Expiring-credentials)中提及的相同步驟，授與未到期認證的存取權。
 
 如需詳細資訊，請參閱[客戶歷程存取控制](../technotes/access-control.md)，特別是[產品管理員額外許可權](../technotes/access-control.md#product-admin-additional-permissions)和Admin Console[Customer Journey Analytics許可權](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)。
 

@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: ea95b576a9d8309d2c6c2aeba589db1fd28ce499
+source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
 workflow-type: tm+mt
-source-wordcount: '3676'
-ht-degree: 95%
+source-wordcount: '3747'
+ht-degree: 94%
 
 ---
 
@@ -194,6 +194,16 @@ ht-degree: 95%
 >abstract="從Experience Platform資料集結構描述中定義的可用身分中，選取購買群組ID （購買群組的唯一識別碼）。"
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_matchingkey"
+>title="比對索引鍵"
+>abstract="選取如何聯結：根據比對索引鍵或比對容器。<br/><br/>**[!UICONTROL 相符的索引鍵&#x200B;]**：選取要與其中一個事件資料集聯結的欄位。 如果這是空白的清單，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 相符的容器]**：選取要用來聯結其中一個事件資料集的容器。 如果此清單為空白，表示您可能尚未設定一或多個容器。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 <!-- markdownlint-disable MD034 -->
