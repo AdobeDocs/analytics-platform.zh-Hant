@@ -4,9 +4,9 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 5e4666b81f23e09a4208f0efed17a7bc44dff0fc
+source-git-commit: 27c76e5090e4dfcfc00fd11c7a67574dc6af1c63
 workflow-type: tm+mt
-source-wordcount: '6404'
+source-wordcount: '6191'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,6 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
    | 設定 | 函數 |
    |---------|----------|
-   | [!UICONTROL **節點型別**] | 可讓您設定哪些節點型別會顯示在視覺效果中。<p>若要隱藏視覺效果中的節點型別，請選取節點型別旁的(x)，或從下拉式選單中取消選取。 若要顯示隱藏的節點型別，請從下拉式選單中選取它。 (隱藏節點時，不會從歷程中刪除節點。 如需有關如何刪除節點的資訊，請參閱[刪除節點](#delete-nodes)。</p><p>此欄位中可用的節點型別取決於下列因素：</p><ul><li>**對於源自歷程畫布**&#x200B;的歷程，可以使用下列節點型別：<ul><li>維度</li><li>量度</li><li>篩選器</li><li>日期範圍</li></ul></li><li>**對於源自Journey Optimizer並在Journey Canvas**&#x200B;中經過重大修改的歷程，可以使用下列節點型別： （重大修改包括新增或移除節點、新增或移除箭頭，或變更節點的元件。）<ul><li>維度</li><li>量度</li><li>篩選器</li><li>日期範圍</li><li>Journey Optimizer節點型別，例如讀取區段、結束等</li></ul></li><li>**對於源自Journey Optimizer且尚未在Journey Canvas**&#x200B;中大幅修改的歷程，可以使用下列節點型別： （大幅修改包括新增或移除節點、新增或移除箭頭，或變更節點的元件。）<ul><li>Journey Optimizer節點型別，例如讀取區段、結束等</li></ul></li></ul> |
    | [!UICONTROL **百分比值**] | 在歷程中的每個節點上顯示的百分比值。<p>![百分比值](assets/journey-canvas-percentage.png)</p> <p>設定歷程中節點顯示的百分比值時，請考量下列事項：</p><ul><li>主要量度的每個節點都會顯示百分比。 如果設定次要量度，也會顯示其百分比。 （如需主要和次要量度設定的詳細資訊，請參閱[開始建立歷程畫布視覺效果](#begin-building-a-journey-canvas-visualization)。）</li><li>百分比包含面板日期範圍內資料檢視中包含的所有人員或工作階段。 是否使用&#x200B;_人員_&#x200B;或&#x200B;_工作階段_&#x200B;取決於容器設定。 （如需容器設定的詳細資訊，請參閱[開始建立歷程畫布視覺效果](#begin-building-a-journey-canvas-visualization)。）</li></ul> <p>從下列選項中選擇：</p> <ul><li>[!UICONTROL **開始節點的百分比**]：計算每個節點上顯示的與開始節點相關的百分比。 百分比是根據您選取的主要和次要量度。 <p>_啟動節點_&#x200B;是之前沒有連線節點的節點。</p><p>歷程可包含多個開始節點。 但是，如果歷程包含2個或多個導致共同節點的開始節點，則會使用總數的&#x200B;[!UICONTROL **百分比**]。 如果您想要使用起始節點&#x200B;**]的[!UICONTROL **&#x200B;百分比，請更新歷程，以便歷程中的每個節點都可以追蹤回單一起始節點。</p></li><li>[!UICONTROL **前一個節點的百分比**]：計算每個節點上顯示的相對於前一個節點的百分比。 百分比是根據您選取的主要和次要量度。</li><li>[!UICONTROL **總數百分比**]：計算每個節點上顯示的與資料檢視中所有資料相關的百分比。 百分比是根據您選取的主要和次要量度。</li></ul> |
    | [!UICONTROL **箭頭設定**] | Journey Canvas中節點之間顯示的箭頭可設定為顯示自訂標籤和值。 <p>![箭頭設定](assets/journey-canvas-arrow-settings.png)</p><p>_標籤_&#x200B;是出現在箭頭上的自訂名稱。 指定箭頭上只顯示單一標籤。 標籤可以是下列任一專案，並依照下列偏好順序顯示：</p><ol><li>從歷程畫布新增的自訂名稱（如[在箭頭](#add-or-update-a-label-on-an-arrow)上新增或更新標籤中所述）</li><li>Journey Optimizer標籤</li><li>Journey Optimizer條件</li></ol><p>_值_&#x200B;是顯示在箭頭上的數字和百分比，表示從歷程中一個節點移至下一個節點的人員或工作階段。 （換言之，是指在指定步驟沒有離開歷程的使用者。） </p><p>下列選項適用於並非源自Journey Optimizer的歷程以及在Journey Canvas中未大幅修改的Journey Optimizer歷程： （重大修改包括新增或移除節點、新增或移除箭頭，或變更節點的元件。）</p><ul><li>[!UICONTROL **沒有標籤**]：歷程中的箭頭未顯示任何標籤。 </br>此選項只有在歷程已修改時才能使用 </li><li>[!UICONTROL **僅標籤**]：標籤會顯示在歷程的箭頭上。</li></ul><p>下列選項適用於在Journey Canvas中經過重大修改的Journey Optimizer歷程：（重大修改包括新增或移除節點、新增或移除箭頭，或變更節點的元件）。(**注意**：只有在您新增視覺效果的Journey Optimizer面板中選取的相同資料檢視中偵測到Analysis Workspace資料時，才會顯示這些選項。 如需有關變更Analysis Workspace中面板上的資料檢視的資訊，請參閱[Analysis Workspace概觀](/help/analysis-workspace/home.md)。</p><ul><li>[!UICONTROL **沒有標籤或值**]：歷程中的箭頭未顯示標籤或值。</li><li>[!UICONTROL **僅標籤**]：歷程中的箭頭上只顯示標籤。 值不會顯示。</li><li>[!UICONTROL **僅限值**]：歷程中的箭頭上只顯示值。 未顯示標籤。</li><li>[!UICONTROL **值和標籤**]：標籤和值都會顯示在歷程的箭頭上。</li></ul> |
    | [!UICONTROL **顯示流失**] | 流失資料顯示從歷程的每個節點流失的百分比和數量。 流失資料是根據與歷程的容器設定相關聯的量度，而非根據主要或次要量度。 <p>![流失](assets/journey-canvas-fallout.png)</p><p>依預設，容器是&#x200B;_人員_，因此用於流失資料的量度是&#x200B;_人員_。 如果容器變更為&#x200B;_工作階段_，則用於流失資料的量度為&#x200B;_工作階段_，以此類推。</p><p>例如，以&#x200B;_人員_&#x200B;作為容器設定，「流失」會顯示歷程中每個節點上從未到達任何緊接下一個節點的人數的百分比和人數。 他們可能會在網站上執行其他動作，但他們不符合任何緊隨其後的節點所定義的條件。</p> <p>如需Journey Canvas容器設定的詳細資訊，請參閱[開始建立Journey Canvas視覺效果](#begin-building-a-journey-canvas-visualization)。 |
