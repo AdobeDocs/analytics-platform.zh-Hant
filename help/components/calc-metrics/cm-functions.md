@@ -5,42 +5,42 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1185'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 # 基本函數
 
 
-[計算量度產生器](cm-workflow/cm-build-metrics.md)可讓您套用統計和數學函式。 本文記錄函式及其定義的字母順序清單。
+使用[計算量度產生器](cm-workflow/cm-build-metrics.md)可套用統計和數學函數。本文記錄了函數及其定義的清單，依字母順序排列。
 
 >[!NOTE]
 >
->此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[COLUMN MAXIMUM（量度）](#column-maximum)也允許使用[COLUMN MAXIMUM（頁面檢視+造訪）](#column-maximum)。
+>此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[欄最大值 (量度)](#column-maximum) 也允許使用 [欄最大值 (頁面檢視 + 造訪)](#column-maximum)。
 
 
 
-## 表格函式和列函式
+## 表格函數和列函數的比較
 
 表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
 
-在適用和相關的情況下，函式會以函式型別註釋： [!BADGE 表格]{type="Neutral"}[!BADGE 列]{type="Neutral"}
+在適用且相關的情況下，函數會以函數類型進行註解： [!BADGE 表格]{type="Neutral"}[!BADGE 列]{type="Neutral"}
 
-## 「包含零」引數的意義是什麼？
+## 「包括零」參數的意義是什麼? 
 
-此參數指出是否在計算中包括零。有時零表示&#x200B;*無*，但有時很重要。
+此參數指出是否在計算中包括零。有時候零&#x200B;*沒有意義*，有時候卻很重要。
 
-例如，如果您有收入量度，然後新增頁面檢視量度至報表，您的收入會突然有更多的列，而且全都是零。 您可能不想讓額外的量度影響任何&#x200B;**[MEAN](cm-functions.md#mean)**、**[ROW MINIMUM](cm-functions.md#row-min)**、**[QUARTILE](cm-functions.md#quartile)**&#x200B;以及您在收入欄中擁有的其他計算。 在此情況下，您需要檢查`include-zeros`引數。
+例如，如果您有「收入」量度，隨後新增「頁面檢視」量度至報表，您的收入會突然出現許多全都是零的列。您可能不希望該附加量度影響任何 **[平均值](cm-functions.md#mean)**、**[列最小值](cm-functions.md#row-min)**、**[四分位數](cm-functions.md#quartile)**，以及收入欄中的更多計算。在這種情況下，您可以勾選 `include-zeros` 參數。
 
-另一種情況是，您有兩個相關量度，且其中一個的平均值或最小值較高，因為有些列是零。  在這種情況下，您可以選擇不檢查引數以包含零
+另一種情況是，您有兩個感興趣的量度，其中一個具有較高的平均值或最小值，因為某些列是零。在這種情況下，您可以選擇不檢查參數是否包括零
 
 
 
 ## 絕對值
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 絕對值（量度）]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 絕對值 (量度)]**
 
 [!BADGE 列]{type="Neutral"}
 
@@ -51,95 +51,95 @@ ht-degree: 29%
 
 ## 欄最大值
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄最大值（量度，包括_零）]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄最大值 (量度，包括零)]**
 
 傳回量度欄中一組維度元素的最大值。MAXV 會垂直評估單一欄 (量度) 中的維度元素。
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
-| include_zeros | 是否在計算中包含零值。 |
+| 量度 | 需要至少一個量度，但可以採用任意數量的量度作為參數。 |
+| 包括零 | 計算中是否包括零值。 |
 
 
 ## 欄最小值
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄最小值（量度，include_zeros）]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄最小值 (量度，包括零)]**
 
 傳回量度欄中一組維度元素的最小值。MINV 會垂直評估單一欄 (量度) 中的維度元素。
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
-| include_zeros | 是否在計算中包含零值。 |
+| 量度 | 需要至少一個量度，但可以採用任意數量的量度作為參數。 |
+| 包括零 | 計算中是否包括零值。 |
 
 
 ## 欄總和
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 資料行總和（量度）]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄總和 (量度)]**
 
-將某一欄中量度的所有數值相加（涵蓋維度的各個元素）。
+將一欄中量度的所有數值 (所有維度元素) 相加。
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
+| 量度 | 需要至少一個量度，但可以採用任意數量的量度作為參數。 |
 
 
 ## 計數
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 計數（量度）]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 計數 (量度)]**
 
-[!BADGE Table]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 您要計數的量度。 |
+| 量度 | 您想計數的量度。 |
 
 
 ## 指數
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 指數（量度）]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 指數 (量度)]**
 
 [!BADGE 列]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 套用至基底e的指數。 |
+| 量度 | 套用至底數 e 的指數。 |
 
 
 ## 平均值
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric， include_zeros)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平均值 (量度，包括零)]**
 
-[!BADGE Table]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 您要計算平均值的量度。 |
-| include_zeros | 是否在計算中包含零值。 |
+| 量度 | 您要計算其平均值的量度。 |
+| 包括零 | 計算中是否包括零值。 |
 
 
 ## 中間值
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric， include_zeros)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 中間值 (量度，包括零)]**
 
-[!BADGE Table]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 您要計算中間值的量度。 |
-| include_zeros | 是否在計算中包含零值。 |
+| 量度 | 您要計算其中間值的量度。 |
+| 包括零 | 計算中是否包括零值。 |
 
 
 ## 模數
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 模數(metric_X， metric_Y)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 模數 (metric_X、metric_Y)]**
 
-使用歐幾里得除法，將x除以y之後傳回餘數。
+傳回使用歐幾里德輾轉相除法將 x 除以 y 後的餘數。
 
 | 引數 | 說明 |
 |---|---|
-| metric_X | 您要除的第一個量度。 |
-| metric_Y | 您要除的第二個量度。 |
+| metric_X | 您想要相除的第一個量度。 |
+| metric_Y | 您想要相除的第二個量度。 |
 
 ### 範例
 
@@ -151,7 +151,7 @@ MODULO(-4,3) = -1
 MODULO(-3,3) = 0
 ```
 
-為了確保您一律得到正數，請使用
+為了確保一律取得正數，請使用
 
 ```
 MODULO(MODULO(x,y)+y,y)
@@ -159,53 +159,53 @@ MODULO(MODULO(x,y)+y,y)
 
 ## 百分位數
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 百分位數(metric， k， include_zeros)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 百分位數 (量度，k，包括零)]**
 
-[!BADGE Table]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
 | 量度 | 0 至 100 (含) 範圍內的百分位數值。 |
 | k | 定義相對位置的量度欄。 |
-| include_zeros | 是否在計算中包含零值。 |
+| 包括零 | 計算中是否包括零值。 |
 
 
 
-## 乘冪運運算元
+## 乘冪運算子
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 乘冪運運算元(metric_X， metrix_Y)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 乘冪運算子 (metric_X、metrix_Y)]**
 
-傳回x提升至y次方。
+傳回 x 的 y 次方。
 
 | 引數 | 說明 |
 |---|---|
-| metric_X | 您要提升至metric_Y次方的量度。 |
-| metric_Y | 您希望將metric_X提升到的能力。 |
+| metric_X | 您想要以 metric_Y 作為次方連乘的量度。 |
+| metric_Y | 您想要將 metric_X 作為底數要連乘的次方。 |
 
 
 ## 四分位數
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric， quartile， include_zeros)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 四分位數 (量度、四分位數、包括零)]**
 
-[!BADGE Table]{type="Neutral"}當QUARTILE分別等於`0` （零）、`2`和`4`時，[COLUMN MINIMUM](#column-minimum)、[MEDIAN](#median)和[COLUMN MAXIMUM](#column-maximum)會傳回與[QUARTILE](#quartile)相同的值。
+[!BADGE 表格]{type="Neutral"}當四分位數分別等於 `0` (零)、`2` 和 `4` 時，[欄最小值](#column-minimum)、[中間值](#median)和[欄最大值](#column-maximum)傳回與[四分位數](#quartile)相同的值。
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 您要計算四分位數值的量度。 |
-| 四分位數 | 指出要傳回的四分位數值。 |
-| include_zeros | 是否在計算中包含零值。 |
+| 量度 | 您要計算其四分位數值的量度。 |
+| 四分位數 | 指出要傳回哪個四分位數值。 |
+| 包括零 | 計算中是否包括零值。 |
 
 
 ## 四捨五入
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(metric， number)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 四捨五入 (量度，數值)]**
 
-不含&#x200B;*number*&#x200B;引數的四捨五入與含&#x200B;*number*&#x200B;引數為0的四捨五入相同，也就是四捨五入到最接近的整數。  使用&#x200B;*number*&#x200B;引數時，ROUND會傳回小數點右邊的&#x200B;*number*&#x200B;位數。  如果&#x200B;*number*&#x200B;為負數，則會傳回小數點左邊的0。
+沒有&#x200B;*數值*&#x200B;參數的四捨五入值等於&#x200B;*數值*&#x200B;參數為 0 的四捨五入值，也就是四捨五入到最接近的整數。具有&#x200B;*數值*&#x200B;參數時，則會在小數點右側傳回與&#x200B;*數值*&#x200B;一樣多的小數位數。如果&#x200B;*數值*&#x200B;為負，則會在小數點左側傳回 0。
 
 | 引數 | 說明 |
 |---|---|
 | 量度 | 您要四捨五入的量度。 |
-| 數字 | 要傳回的小數點右邊的位數。 （如果為負數，會在小數點左邊傳回零）。 |
+| 數字 | 要傳回小數點右邊的多少位數字。(如果為負數，則會在小數點左側傳回零)。 |
 
 ### 範例
 
@@ -219,89 +219,89 @@ ROUND( 314.15, -2) = 300
 
 ## 列計數
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列計數()]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列計數 ()]**
 
-傳回指定欄的列計數 (維度中報告的唯一元素數)。超過&#x200B;*個不重複值*&#x200B;計為1。
+傳回指定欄的列計數 (維度中報告的唯一元素數)。*「超出唯一值*」計為 1。
 
 
 ## 列最大值
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列MAX（量度，include_zeros）]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列最大值 (量度，包括零)]**
 
-每一列的最大欄數。
+每一列的欄最大值。
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
-| include_zeros | 是否在計算中包含零值。 |
+| 量度 | 需要至少一個量度，但可以採用任意數量的量度作為參數。 |
+| 包括零 | 計算中是否包括零值。 |
 
 ## 列最小值
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列最小值（量度，包含_零）]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列最小值 (量度，包括零)]**
 
-每一列的最小欄數。
+每一列的欄最小值。
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
-| include_zeros | 是否在計算中包含零值。 |
+| 量度 | 需要至少一個量度，但可以採用任意數量的量度作為參數。 |
+| 包括零 | 計算中是否包括零值。 |
 
 
 
 ## 列總和
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 資料列總和（量度，包含_零）]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列總和 (量度，包括零)]**
 
 每一列的欄總和。
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 至少需要一個量度，但可使用任意數量的量度做為引數。 |
+| 量度 | 需要至少一個量度，但可以採用任意數量的量度作為參數。 |
 
 
 ## 平方根
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平方根（量度，包含_零）]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平方根 (量度，包括零)]**
 
 [!BADGE 列]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 您要計算平方根的量度。 |
+| 量度 | 您要計算其平方根的量度。 |
 
 
 ## 標準差
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 標準差（量度，包括_零）]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 標準差 (量度，包括零)]**
 
-[!BADGE Table]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
 | | 您要計算其標準差的量度。 |
-| include_zeros | 是否在計算中包含零值。 |
+| 包括零 | 計算中是否包括零值。 |
 
 
 ## 變數
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric， include_zeros)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 變數 (量度，包括零)]**
 
-[!BADGE Table]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 您要計算變異數的量度。 |
-| include_zeros | 是否在計算中包含零值。 |
+| 量度 | 您要計算其變數的量度。 |
+| 包括零 | 計算中是否包括零值。 |
 
 
-VARIANCE 的方程式為：
+變數的方程式為：
 
 ![](assets/variance_eq.png){width="100"}
 
-其中&#x200B;*x*&#x200B;為樣本平均值，[MEAN（*量度*）](#mean)且&#x200B;*n*&#x200B;為樣本大小。
+其中 *x* 是樣本平均值 [MEAN(*量度*)](#mean)，而 *n* 是樣本大小。
 
 
-若要計算變數，您可以檢視整欄的數字。 請先從那列數字計算平均值。取得平均值後，請逐一檢視每個專案，並執行下列作業：
+為了計算變數，請查看整欄的數字。請先從那列數字計算平均值。取得平均值後，請陸續處理每個項目，然後進行下列步驟:
 
 1. 將數字減去平均值。
 
@@ -309,9 +309,9 @@ VARIANCE 的方程式為：
 
 1. 將其加入總計。
 
-一旦您疊代了整個欄，您就會有單一總計。 接著將合計除以欄中的項目數。該數字會是欄的變數。一個單一的數字。但是，它會顯示為一欄數字。
+反覆運算整欄之後，會得到單一合計。接著將合計除以欄中的項目數。該數字會是欄的變數。一個單一的數字。但是，它會顯示為一欄數字。
 
-在下列三個專案欄的範例中：
+在以下三項目欄的範例中：
 
 | 欄 |
 |:---:|
@@ -319,7 +319,7 @@ VARIANCE 的方程式為：
 | 2 |
 | 3 |
 
-欄平均值為 2。資料行的變數是((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3) = 2/3。
+欄平均值為 2。欄的變數為 ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3) = 2/3。
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 與您的Adobe Analytics資料比較
+title: 與您的 Adobe Analytics 資料比較
 description: 了解如何將您的 Adobe Analytics 資料與 Customer Journey Analytics 中的資料進行比較
 role: Data Engineer, Data Architect, Admin
 solution: Customer Journey Analytics
@@ -7,13 +7,13 @@ exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: 查詢服務;查詢服務;SQL 語法
 source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 與您的Adobe Analytics資料比較
+# 與您的 Adobe Analytics 資料比較
 
 您的組織採用 Customer Journey Analytics 時，您可能會注意到 Adobe Analytics 和 Customer Journey Analytics 之間的資料存在一些差異。這是正常的現象，發生原因有很多種。Customer Journey Analytics 的設計可讓您改善 AA 中資料的部分限制。但可能會發生未預期/意外的不一致情況。本文章旨在協助您診斷並解決這些差異，讓您和團隊能夠使用 Customer Journey Analytics 而不會受到資料完整性疑慮所阻礙。
 

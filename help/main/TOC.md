@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '938'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 93%
    + [資料擷取概觀](../data-ingestion/data-ingestion.md)
    + 擷取和使用快速入門指南{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
-      + Experience PlatformEdge Network{#edge-network}
+      + Experience Platform Edge Network {#edge-network}
          + [Web SDK](../data-ingestion/aepwebsdk.md)
          + [Mobile SDK](../data-ingestion/aepmobilesdk.md)
          + [伺服器 API](../data-ingestion/serverapi.md)
@@ -134,7 +134,7 @@ ht-degree: 93%
          + 欄和列的設定 {#column-row-settings}
             + [欄設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-            + [動態和靜態專案](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+            + [動態與靜態項目](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [篩選和排序表格](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Workspace 總計](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格{#cohort-table}
@@ -201,7 +201,7 @@ ht-degree: 93%
       + [統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md)
    + [目錄](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [使用者偏好設定](../analysis-workspace/user-preferences.md)
-   + Workspace常見問題集和更多內容{#workspace-faq}
+   + 工作區常見問題及更多資訊 {#workspace-faq}
       + [常見問題](../analysis-workspace/workspace-faq/faq.md)
       + [錯誤訊息](../analysis-workspace/workspace-faq/error-messages.md)
       + [限制](../analysis-workspace/workspace-faq/aw-limitations.md)
@@ -210,7 +210,7 @@ ht-degree: 93%
 
 + Analytics 儀表板 {#cja-dashboards}
    + [概觀](../mobile-app/home.md)
-   + [組織者任務](../mobile-app/curator.md)
+   + [評選人任務](../mobile-app/curator.md)
    + [建立行動計分卡](../mobile-app/create-scorecard.md)
    + [管理行動計分卡](../mobile-app/manage-scorecard.md)
    + [設定使用儀表板的主管](../mobile-app/set-up-execs.md)
@@ -225,9 +225,9 @@ ht-degree: 93%
    + [頻率](../guided-analysis/types/frequency.md)
    + [漏斗](../guided-analysis/types/funnel.md)
    + [淨增長](../guided-analysis/types/net-growth.md)
-   + [發佈影響](../guided-analysis/types/release-impact.md)
+   + [發行影響](../guided-analysis/types/release-impact.md)
    + [保留](../guided-analysis/types/retention.md)
-   + [時間表](../guided-analysis/types/timeline.md)
+   + [時間軸](../guided-analysis/types/timeline.md)
    + [趨勢](../guided-analysis/types/trends.md)
    + [產業使用案例](../guided-analysis/industry-use-cases.md)
    + [常見問題](../guided-analysis/faq.md)
@@ -355,11 +355,11 @@ ht-degree: 93%
 + 使用案例 {#cja-usecases}
    + [Customer Journey Analytics 使用案例](../use-cases/cja-usecases.md)
    + Google Analytics 資料 {#ga}
-      + [從Google Analytics移轉資料](../use-cases/ga/overview.md)
-      + [擷取Google Analytics歷史資料](../use-cases/ga/backfill.md)
-      + [設定串流Google Analytics資料](../use-cases/ga/streaming.md)
-      + [Google Analytics資料報表](../use-cases/ga/report.md)
-   + 資料擷取 {#data-ingestion}
+      + [從 Google Analytics 移轉資料](../use-cases/ga/overview.md)
+      + [攝取 Google Analytics 歷史資料](../use-cases/ga/backfill.md)
+      + [設定 Google Analytics 串流資料](../use-cases/ga/streaming.md)
+      + [報告 Google Analytics 資料](../use-cases/ga/report.md)
+   + 資料攝取 {#data-ingestion}
       + [收錄並使用 Marketo Engage 資料](../use-cases/data-ingestion/marketo.md)
       + [收錄並使用 Experience Platform 對象](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 資料檢視 {#data-views}
@@ -385,14 +385,14 @@ ht-degree: 93%
    + 拼接 {#stitching}
       + [共用裝置](/help/use-cases/stitching/shared-devices.md)
    + 衍生欄位 {#derived-fields}
-      + [目標報表](../use-cases/goals-using-derived-fields.md)
+      + [報告目標](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Labs 使用手冊](../labs/labs.md)
 
 + 疑難排解 {#troubleshooting}
    + [比較資料](../troubleshooting/compare.md)
-   + [量度和受眾的一致性](../troubleshooting/consistency-rcdp-cja.md)
+   + [量度和客群的一致性](../troubleshooting/consistency-rcdp-cja.md)
    + [缺乏權限](../troubleshooting/lack-of-permissions.md)
 
 + 技術說明 {#technotes}
@@ -403,7 +403,7 @@ ht-degree: 93%
    + [字彙表](../technotes/glossary.md)
    + [護欄](../technotes/guardrails.md)
    + [IP 位址](../technotes/ip-addresses.md)
-   + [最佳化效能](../technotes/optimizing-performance.md)
+   + [效能最佳化](../technotes/optimizing-performance.md)
    + [檢視和管理使用情況](../technotes/estimate-usage.md)
 
 + [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)

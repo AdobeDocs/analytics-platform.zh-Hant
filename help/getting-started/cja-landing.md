@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 >[!TAB 引導式分析]
 
-現在，引導式分析可直接從Analysis Workspace內取得，讓使用者從面板、視覺效果和引導式分析建立具備全面深入見解的儀表板。
+引導式分析現在可以直接在 Analysis Workspace 中使用，讓使用者可以建立儀表板，呈現來自面板、視覺化呈現和引導式分析的全方位深入分析。
 
 [![影像](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
 

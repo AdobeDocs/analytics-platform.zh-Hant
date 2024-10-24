@@ -1,18 +1,18 @@
 ---
 description: 說明哪些因素影響 Real-time Customer Data Platform (Real-time CDP) 與 Customer Journey Analytics 之間的量度及客群會籍數的一致性。
-title: 量度和受眾會籍的一致性
+title: 量度和客群會籍的一致性
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
 source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# 量度和受眾會籍的一致性
+# 量度和客群會籍的一致性
 
 在現實情境中，無法保證 Real-time Customer Data Platform (Real-time CDP) 與 Customer Journey Analytics 之間的量度及客群會籍數的一致性。本文件將說明原因。
 

@@ -1,17 +1,17 @@
 ---
-title: 整合Adobe Journey Optimizer
+title: 整合 Adobe Journey Optimizer
 description: 導入 Adobe Journey Optimizer 產生的資料，並使用 Customer Journey Analytics 中的 Analysis Workspace 進行分析。
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3020'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 整合Journey Optimizer
+# 整合 Journey Optimizer
 
 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/get-started) 可幫助您提供連線、情境式和個人化的體驗。 它有助於讓您的客戶了解其客戶歷程中的下一步。
 

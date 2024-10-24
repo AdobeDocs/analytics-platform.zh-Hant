@@ -6,13 +6,13 @@ feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
 source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 關於Analysis Workspace資料夾
+# Analysis Workspace 中的關於資料夾
 
 當您已選取[顯示資料夾和專案](../freeform-overview.md#show-selector)時，可以在 Workspace 登陸頁面上使用 Customer Journey Analytics 資料夾。
 
