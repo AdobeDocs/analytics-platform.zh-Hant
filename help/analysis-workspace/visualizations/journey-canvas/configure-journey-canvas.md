@@ -4,7 +4,7 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 27c76e5090e4dfcfc00fd11c7a67574dc6af1c63
+source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
 workflow-type: tm+mt
 source-wordcount: '6191'
 ht-degree: 1%
@@ -12,8 +12,6 @@ ht-degree: 1%
 ---
 
 # 設定歷程畫布視覺效果
-
-{{release-limited-testing}}
 
 Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和客戶的歷程。
 

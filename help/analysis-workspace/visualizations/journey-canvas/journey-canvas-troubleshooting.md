@@ -3,9 +3,7 @@ description: 設定Journey Canvas視覺效果時的範例
 title: 歷程畫布範例
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
-source-git-commit: cbe713c08269fd3cc4e1076181020ff3fdc947b3
+source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
 workflow-type: tm+mt
 source-wordcount: '1287'
 ht-degree: 0%
@@ -13,8 +11,6 @@ ht-degree: 0%
 ---
 
 # 歷程畫布疑難排解
-
-{{release-limited-testing}}
 
 Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和客戶的歷程。
 
