@@ -3,10 +3,10 @@ title: 檢視目前的 Customer Journey Analytics 發行說明
 description: 最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3db41390781517932447ab5e67cf9ba8fe02d774
+source-git-commit: 0920203cc40cdf234186851a931492843182cf5c
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 83%
+source-wordcount: '377'
+ht-degree: 72%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 83%
 | **資產轉移** | 讓您可以將專案、篩選器和計算量度等元件的所有權轉移給其他使用者，以確保連續性和適當的存取權限。[了解更多](/help/tools/asset-transfer/transfer-assets.md) |  | 10 月 15 日 |
 | **引導式分析：嵌入在 Workspace 中** | [引導式分析](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/guided-analysis/overview)現在可以直接在 Analysis Workspace 中使用，讓使用者可以建立儀表板，呈現來自面板、視覺化呈現和引導式分析的全方位深入分析。從新的左邊欄區段，您可以建立新的引導式分析並新增至您的專案中。您還可以存取已儲存的引導式分析，可以作為建置要素在許多專案中重複使用。 | 2024 年 10 月 2 日 | 2024 年 10 月 23 日 |
 | **產品使用情況** | 了解您的組織如何使用 Customer Journey Analytics。啟用此功能會在 Adob&#x200B;&#x200B;e Experience Platform 中建立資料集；該資料集會收集組織中使用 Analysis Workspace 的任何人資料。連線和資料視圖也會自動建立，讓您可以存取最熱門專案類型、最活躍使用者以及專案最多使用的元件等維度。[後續文件連結] | 2024 年 10 月 23 日 | 2025 年 1 月 |
+| **Analysis Workspace效能中要求因素的新資訊** | 現在在Analysis Workspace中分析效能時，會提供新的「請求因數」區段。 若要進一步瞭解如何處理要求以及影響處理時間的各種因素，請參閱[最佳化Analysis Workspace效能](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/optimizing-performance#request-factors)中的「要求因素」。 |  | 2024年10月1日 |
 
 
 ## Customer Journey Analytics 中的修正
