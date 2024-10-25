@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
 workflow-type: tm+mt
 source-wordcount: '3747'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_primaryID"
 >title="主要 ID"
->abstract="為您的連線選取適當的主要ID： B2C案例的Person 。 B2B情境的帳戶。"
+>abstract="為您的連線選取正確的主要 ID：B2C 場景中的人員。考慮 B2B 場景。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -145,8 +145,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_optionalContainers"
->title="選擇性容器"
->abstract="選取其他容器。<br/><br/>**[!UICONTROL 全域帳戶&#x200B;]**：啟用連線中全域帳戶的設定。<br/>**[!UICONTROL 機會]**：啟用連線中的機會設定。<br/>**[!UICONTROL 購買群組&#x200B;]**：啟用連線中購買群組的組態。"
+>title="可選容器"
+>abstract="選取其他容器。<br/><br/>**[!UICONTROL 全域帳戶&#x200B;]**：允許在連線中設定全域帳戶。<br/>**[!UICONTROL 機會]**：允許在連線中設定機會。<br/>**[!UICONTROL 購買群組&#x200B;]**：允許在連線中設定購買群組。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -155,7 +155,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_personID"
 >title="人員 ID"
->abstract="在 Experience Platform 中，從資料集結構描述中所定義的可用身分中選取人員 ID。"
+>abstract="從 Experience Platform 的資料集結構描述中所定義的可用身分中選取人員 ID。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -164,7 +164,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountID"
 >title="帳戶 ID"
->abstract="從Experience Platform的資料集結構描述中定義的可用身分中，選取帳戶ID （帳戶的唯一識別碼）。"
+>abstract="從 Experience Platform 的資料集結構描述中所定義的可用身分中選取帳戶 ID (帳戶的唯一識別碼)。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -172,8 +172,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_globalAccountID"
->title="全域帳戶ID"
->abstract="從Experience Platform的資料集結構描述中定義的可用身分中，選取全域帳戶ID （全域帳戶的唯一識別碼）。"
+>title="全域帳戶 ID"
+>abstract="從 Experience Platform 的資料集結構描述中所定義的可用身分中選取全域帳戶 ID (全域帳戶的唯一識別碼)。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -182,7 +182,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_opportunityID"
 >title="機會 ID"
->abstract="從Experience Platform的資料集結構描述中定義的可用身分中，選取機會ID （機會的唯一識別碼）。"
+>abstract="從 Experience Platform 的資料集結構描述中所定義的可用身分中選取機會 ID (機會的唯一識別碼)。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -190,8 +190,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_buyingGroupID"
->title="購買群組ID"
->abstract="從Experience Platform資料集結構描述中定義的可用身分中，選取購買群組ID （購買群組的唯一識別碼）。"
+>title="購買群組 ID"
+>abstract="從 Experience Platform 的資料集結構描述中所定義的可用身分中選取購買群組 ID (購買群組的唯一識別碼)。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -200,7 +200,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="比對索引鍵"
->abstract="選取如何聯結：根據比對索引鍵或比對容器。<br/><br/>**[!UICONTROL 相符的索引鍵&#x200B;]**：選取要與其中一個事件資料集聯結的欄位。 如果這是空白的清單，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 相符的容器]**：選取要用來聯結其中一個事件資料集的容器。 如果此清單為空白，表示您可能尚未設定一或多個容器。"
+>abstract="選取加入方式：根據匹配鍵或匹配容器。<br/><br/>**[!UICONTROL 匹配鍵&#x200B;]**：選取一個欄位來與其中一個事件資料集進行連結。如果這是空白的清單，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 匹配容器]**：選取一個容器來與其中一個事件資料集進行連結。如果此清單為空，您可能尚未設定一個或多個容器。"
 
 <!-- markdownlint-enable MD034 -->
 
