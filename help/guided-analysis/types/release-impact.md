@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 5%
+source-wordcount: '530'
+ht-degree: 6%
 
 ---
 
-# [!UICONTROL 發行影響]分析
+# [!UICONTROL 發行影響]分析 {#release-impact}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_releaseimpact_button"
+>title="發行影響"
+>abstract="比較發行前和發行後同期的績效。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![版本](/help/assets/icons/Release.svg) **[!UICONTROL 版本影響]**&#x200B;分析會顯示指定日期之前與之後關鍵指標執行方式的比較。 此報表的水平軸是時間間隔，而垂直軸則測量所需的索引鍵。 圖表中央的垂直長條代表您要在前後比較的日期。 此日期通常表示您要測量的產品出現重大變更，例如產品更新或促銷活動啟動。
 

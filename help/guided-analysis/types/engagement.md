@@ -5,14 +5,24 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 5%
+source-wordcount: '748'
+ht-degree: 6%
 
 ---
 
-# [!UICONTROL 參與]分析
+# [!UICONTROL 參與]分析 {#engagement}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_engagement_button"
+>title="參與"
+>abstract="了解功能參與的廣度與深度。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![EngagementGraph](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]**&#x200B;分析可讓您深入瞭解功能的使用頻率與使用人數。 將數個功能相互比較時，此分析效果最佳。 瞭解您的核心、效能、一次性和可疑功能，有助於促進投資決策。
 

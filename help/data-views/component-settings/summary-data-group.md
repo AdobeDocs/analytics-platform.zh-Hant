@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: ad446f55855696cf7721f34f779883792b7958fa
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 18%
+source-wordcount: '376'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 18%
 >abstract="摘要資料群組會在分組中的所有維度之間建立關聯，並用於將摘要資料集中的維度與其他維度合併以進行報告。"
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_dimension_summarydatagroup_hideinreporting"
+>title="在報告中隱藏"
+>abstract="選取此選項將針對該維度啟用&#x200B;**[!UICONTROL 隱藏報表]**&#x200B;中的元件，且防止該元件顯示在Analysis Workspace和其他Customer Journey Analytics報表工具中。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 摘要資料群組會在分組中的所有維度之間建立關聯，並用於將摘要資料集中的維度與其他維度合併以進行報告。

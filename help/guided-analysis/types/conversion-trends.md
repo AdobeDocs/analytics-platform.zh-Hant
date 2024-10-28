@@ -5,14 +5,24 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 2%
+source-wordcount: '536'
+ht-degree: 4%
 
 ---
 
-# [!UICONTROL 轉換趨勢]分析
+# [!UICONTROL 轉換趨勢]分析 {#conversion-trends}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_conversiontrends_button"
+>title="轉換趨勢"
+>abstract="追蹤一段時間內的轉換率變化。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![轉換趨勢](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL 轉換趨勢]**&#x200B;分析可提供轉換率隨時間變化的趨勢視覺效果。 水平軸是時間間隔，而垂直軸則代表轉換率。
 

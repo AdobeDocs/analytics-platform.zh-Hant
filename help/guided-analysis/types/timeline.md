@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 1%
+source-wordcount: '577'
+ht-degree: 3%
 
 ---
 
-# [!UICONTROL 時間表]分析
+# [!UICONTROL 時間表]分析 {#timeline}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_timeline_button"
+>title="時間軸"
+>abstract="觀察一段時間內的使用者層級工作階段事件。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![時間表](/help/assets/icons/Timeline.svg) **[!UICONTROL 時間表]**&#x200B;分析可讓您觀察使用者層級工作階段事件在一段時間內的變化，以尋找體驗模式並訴說更好的使用者故事。 左側邊欄可讓您依據屬性值和區段來篩選資料流。 右側欄可讓您從符合篩選條件的隨機使用者清單中選取。 中央區域會依工作階段顯示所選使用者的資料流，包含時間戳記、屬性值和持續時間。 持續時間不適用於指定工作階段中的最後一個事件。
 

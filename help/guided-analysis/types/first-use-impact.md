@@ -5,14 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: 7ccc9f28acf08fb49d86005abb7fbb648a1564ce
+source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 4%
+source-wordcount: '674'
+ht-degree: 6%
 
 ---
 
-# [!UICONTROL 首次使用影響]分析
+# [!UICONTROL 首次使用影響]分析 {#first-use-impact}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_workspace_guidedanalysis_firstuseimpact_button"
+>title="首次使用影響"
+>abstract="測量功能首次使用對關鍵指標的影響。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL 首次使用影響]**&#x200B;分析會顯示使用者第一次使用產品功能之前和之後關鍵指標執行方式的比較。 此報表的水平軸是事件前後的相對時間間隔，垂直軸則測量所需的索引鍵指標。 圖表中央的垂直長條代表指定使用者首次使用功能時的第0天。 由於使用者不一定會在同一天採用功能，而您的轉出可能會持續數天，因此第0天對於每位使用者來說可能意味著不同的事情。
 
