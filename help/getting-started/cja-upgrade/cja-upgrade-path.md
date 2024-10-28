@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
-source-git-commit: f1e1fdd5ca8aa51a28de13cdb028bf585a0324e7
+source-git-commit: 01df8b8b55ff8e8c0826bf98adfbd85d3412e6bb
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '3043'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,11 @@ ht-degree: 0%
 
 | 升級路徑 | 所需投入的精力 | 長期生存能力 |
 |---------|----------|---------|
-| **新的Experience PlatformWeb SDK實作**</br>&#x200B;您可以透過執行Customer Journey AnalyticsWeb SDK的新實作來開始使用Experience Platform。 這可讓您開始傳送資料給Adobe Experience PlatformEdge Network和Customer Journey Analytics。 <p>對於尚未使用Web SDK的組織，此升級路徑可能是將資料Edge Network的最簡單方法，因為所需的步驟數最少；但是，由於所有工作都是預先完成（例如建立XDM結構描述），因此初始工作量會比較大。</p><p>基本步驟為：</p><ol><li>為您的組織建立XDM結構描述。</li><li>實作Web SDK。</li><li>傳送資料至Platform。</li></ol> | 高 | 高 |
+| （建議使用） **使用Analytics來源聯結器新實作Experience PlatformWeb SDK**</br>&#x200B;您可以透過新實作Experience PlatformWeb SDK來開始使用Customer Journey Analytics。 這可讓您開始傳送資料給Adobe Experience PlatformEdge Network和Customer Journey Analytics。 <p>對於尚未使用Web SDK的組織，此升級路徑可能是將資料Edge Network的最簡單方法，因為所需的步驟數最少；但是，由於所有工作都是預先完成（例如建立XDM結構描述），因此初始工作量會比較大。</p><p>基本步驟為：</p><ol><li>設定Analytics來源聯結器。</li><li>為您的組織建立XDM結構描述。</li><li>實作Web SDK。</li><li>傳送資料至Platform。</li></ol><p>**注意：**&#x200B;這是升級至Customer Journey Analytics時建議的升級路徑。 如需此建議升級路徑的詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。</p> | 高 | 高 |
+| **新的Experience PlatformWeb SDK實作**</br>&#x200B;您可以透過執行Customer Journey AnalyticsWeb SDK的新實作來開始使用Experience Platform。 這可讓您開始傳送資料給Adobe Experience PlatformEdge Network和Customer Journey Analytics。 <p>對於尚未使用Web SDK的組織，此升級路徑可能是將資料Edge Network的最簡單方法，因為所需的步驟數最少；但是，由於所有工作都是預先完成（例如建立XDM結構描述），因此初始工作量會比較大。</p><p>基本步驟為：</p><ol><li>為您的組織建立XDM結構描述。</li><li>實作Web SDK。</li><li>傳送資料至Platform。</li></ol><p>**注意：**&#x200B;此升級路徑可單獨使用。 不過，為達到最佳效果，我們建議將此升級路徑與Adobe Analytics來源聯結器搭配使用。 如需此建議升級路徑的詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。</p> | 高 | 高 |
 | **移轉您的Adobe Analytics實作以使用Web SDK**</br>&#x200B;如果您的Adobe Analytics實作是AppMeasurement或Analytics擴充功能，您可以移轉它以使用Adobe Experience Platform Web SDK開始傳送資料給Edge Network和Adobe Analytics，然後再傳送給Customer Journey Analytics。<p>對於尚未使用Web SDK的組織來說，這是將資料匯入Edge Network最簡單且最順暢的方式；它需要更多步驟，但可提供從Adobe Analytics到Customer Journey Analytics的更有條理的轉變，並具有更具體的里程碑。</p><p>基本步驟為：</p><ol><li>將您現有的Adobe Analytics實作專案移至Web SDK，並驗證一切都在Adobe Analytics中正常運作。</li><li>儘可能為您的組織建立XDM結構描述。</li><li>使用資料流對應將資料物件中的所有欄位對應到您的XDM結構描述。</li><li>傳送資料至Platform。</li></ol> | 稽核 | 高 |
 | **設定您現有的Adobe Analytics Web SDK實作**</br>&#x200B;如果您的Adobe Analytics實作已經在使用Adobe Experience Platform Web SDK，您可以透過設定資料串流開始傳送資料至Platform。 或者，如果您已將資料傳送至Platform，只需在Platform資料集和Customer Journey Analytics之間建立連線即可。<p>在將資料傳送至Platform以用於Customer Journey Analytics之前，請考慮根據您組織和您使用的任何其他平台應用程式的特定需求更新Adobe Analytics結構描述。</p><p>基本步驟為：</p><ol><li>開始傳送資料至Platform。<p>如果您已使用Adobe Analytics實作將資料傳送至Platform，則不需要執行此步驟。 您只需要在Platform資料集和Customer Journey Analytics之間建立連線，如本程式稍後所述。</p></li><li>（選用）隨時為您的組織建立XDM結構描述。</li><li>（條件式）如果您已建立XDM結構描述，請使用資料流對應來將資料物件中的所有欄位對應到您的XDM結構描述。</li></ol> | 低 | 高 |
-| **使用Analytics Source Connector**</br>&#x200B;如果您的Adobe Analytics實作AppMeasurement或Analytics擴充功能，可以開始以Customer Journey Analytics傳送資料至資料檢視。<p>這是將資料匯入Customer Journey Analytics的最簡單方法，但長遠而言是最不可行的方法。</p> | 低 | 低 |
+| **使用Analytics Source Connector**</br>&#x200B;如果您的Adobe Analytics實作AppMeasurement或Analytics擴充功能，可以開始以Customer Journey Analytics傳送資料至資料檢視。<p>這是將資料匯入Customer Journey Analytics的最簡單方法，但長遠而言是最不可行的方法。</p> <p>**注意：**&#x200B;此升級路徑可單獨使用。 不過，為達到最佳效果，我們建議將此升級路徑與Experience PlatformWebSDK的新實作搭配使用。 如需此建議升級路徑的詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。</p> | 低 | 低 |
 
 {style="table-layout:auto"}
 
@@ -81,9 +82,9 @@ ht-degree: 0%
 
 | 現有的Adobe Analytics實作 | 可用的升級路徑 |
 |---------|----------|
-| AppMeasurement | <ul><li>Experience Platform Web SDK的新實作</li><li>將Adobe Analytics移轉至Web SDK</li><li>Analytics Source聯結器</li></ul> |
-| Adobe Analytics 擴充功能 | <ul><li>Experience Platform Web SDK的新實作</li><li>將Adobe Analytics移轉至Web SDK</li><li>Analytics Source聯結器</li></ul> |
-| Web SDK | <ul><li>設定Adobe Analytics Web SDK實作，將資料傳送至Platform</li></ul> |
+| AppMeasurement | <ul><li>Experience Platform Web SDK的新實作</li><li>將Adobe Analytics移轉至Web SDK</li><li>Analytics Source聯結器</li><li>（建議）透過Analytics Source聯結器新實作Experience Platform Web SDK</li></ul> |
+| Adobe Analytics 擴充功能 | <ul><li>Experience Platform Web SDK的新實作</li><li>將Adobe Analytics移轉至Web SDK</li><li>Analytics Source聯結器</li><li>（建議）透過Analytics Source聯結器新實作Experience Platform Web SDK</li></ul> |
+| Web SDK | <ul><li>設定Adobe Analytics Web SDK實作，將資料傳送至Platform</li><li>（建議）透過Analytics Source聯結器新實作Experience Platform Web SDK</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -92,6 +93,12 @@ ht-degree: 0%
 特定升級路徑的優缺點會依您現有的Adobe Analytics實作而有所不同。
 
 在使用下列資訊來判斷適合您的升級路徑之前，請先檢閱[瞭解升級路徑](#understand-migration-methods)中的資訊（若尚未瞭解）。
+
+>[!NOTE]
+>
+>雖然以下幾節中說明的每個升級路徑都可以獨立使用，但Adobe建議在從Adobe Analytics升級至Customer Journey Analytics時採取兩頭並進的升級方法，無論您目前的Adobe Analytics實作為何： **Adobe Analytics來源聯結器**&#x200B;和&#x200B;**Experience PlatformWebSDK的新實作**。
+>
+>如需此建議升級路徑的詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
 
 ### 針對使用的Adobe Analytics實施：AppMeasurement和Adobe Analytics擴充功能
 
@@ -103,7 +110,7 @@ ht-degree: 0%
 
 | 優勢 | 缺點 |
 |----------|---------|
-| <ul><li>**提供在體驗Edge Network中託管資料的所有優點**： <p>這些優點包括：</p><ul><li>高效能的報告與資料可用性，因為Adobe Experience Platform是專為支援[即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)而建置</li><li>在其他Experience Cloud產品(AJO、RTCDP等)之間整合Adobe Experience Cloud資料收集實作</li><li>不依賴Adobe Analytics命名法(屬性、eVar、事件等)</li></ul></li><li>**未來校訂**：未來的實作更新更容易。</li></ul> | <ul><li>**需要從頭開始的新實作**：需要從頭開始執行新實作表示下列缺點： </li><ul><li>**耗時**：這是最耗時、要求最高的升級路徑，因為需要您重新開始新的實作。</li><li>**必須在XDM中重新建立完整結構描述**：您必須在XDM中重新建立完整結構描述，才能開始實作Web SDK。</li><li>**必須重新建立規則和資料元素**：您必須從Adobe Analytics實作重新建立任何規則條件和資料元素，才能開始實作Web SDK。</li></ul></ul> |
+| <ul><li>**提供在體驗Edge Network中託管資料的所有優點**： <p>這些優點包括：</p><ul><li>高效能的報告與資料可用性，因為Adobe Experience Platform是專為支援[即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)而建置</li><li>在其他Experience Cloud產品(AJO、RTCDP等)之間整合Adobe Experience Cloud資料收集實作</li><li>不依賴Adobe Analytics命名法(屬性、eVar、事件等)</li></ul></li><li>**未來校訂**：未來的實作更新更容易。</li></ul> | <ul><li>**需要從頭開始的新實作**：需要從頭開始執行新實作表示下列缺點： </li><ul><li>**耗時**：這是最耗時、要求最高的升級路徑，因為需要您重新開始新的實作。</li><li>**必須在XDM中重新建立完整結構描述**：您必須在XDM中重新建立完整結構描述，才能開始實作Web SDK。</li><li>**必須重新建立規則和資料元素**：您必須從Adobe Analytics實作重新建立任何規則條件和資料元素，才能開始實作Web SDK。</li></ul><li>**不考慮保留歷史資料：** Adobe建議將Analytics來源聯結器與Experience PlatformWeb SDK的新實作搭配使用，以便在升級至Customer Journey Analytics後保留歷史資料。 如需此建議升級路徑的詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>**不考慮將原始實作的資料與新實作的資料進行比較：** Adobe建議將Analytics來源聯結器與Experience PlatformWeb SDK的新實作搭配使用，以便在升級至Customer Journey Analytics後比較資料。 如需此建議升級路徑的詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -123,7 +130,7 @@ ht-degree: 0%
 
 | 優勢 | 缺點 |
 |----------|---------|
-| <ul><li>最省時又省力的升級路徑。 <p>以最少的投資將資料快速移轉至Customer Journey Analytics</p></li></ul> | <ul><li>**資料未傳送給Edge Network**： <p>這會導致下列缺點：</p><ul><li>所有升級路徑的報告中[延遲](/help/technotes/guardrails.md#latencies)的最高層級；未針對即時個人化使用案例進行最佳化。</li><li>資料無法與其他Adobe Experience Platform應用程式共用；僅限於Customer Journey Analytics</li><li>依賴Adobe Analytics命名法(屬性、eVar、事件等)</li></ul><li>**日後難以移至Web SDK**： </li><li>**在您的結構描述中使用Analytics Experience Event欄位群組**：此欄位群組新增許多Customer Journey Analytics結構描述中不需要的Adobe Analytics事件。  這可能會導致Customer Journey Analytics所需的結構描述更雜亂、更複雜。</li></ul> |
+| <ul><li>最省時又省力的升級路徑。 <p>以最少的投資將資料快速移轉至Customer Journey Analytics</p></li></ul> | <ul><li>**資料未傳送給Edge Network**： <p>這會導致下列缺點：</p><ul><li>所有升級路徑的報告中[延遲](/help/technotes/guardrails.md#latencies)的最高層級；未針對即時個人化使用案例進行最佳化。</li><li>資料無法與其他Adobe Experience Platform應用程式共用；僅限於Customer Journey Analytics</li><li>依賴Adobe Analytics命名法(屬性、eVar、事件等)</li></ul><li>**日後難以移至Web SDK**：最終，您可能會想要存取Experience PlatformWeb SDK提供的優點。 為了開始使用Experience Platform Web SDK，您必須進行新的實施。</li><li>**在您的結構描述中使用Analytics Experience Event欄位群組**：此欄位群組新增許多Customer Journey Analytics結構描述中不需要的Adobe Analytics事件。  這可能會導致Customer Journey Analytics所需的結構描述更雜亂、更複雜。</li></ul><p>由於這些缺點，Adobe建議將Analytics來源聯結器與Experience Platform Web SDK的新實作搭配使用。 如需此建議升級路徑的詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</p> |
 
 {style="table-layout:auto"}
 

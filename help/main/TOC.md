@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 925eae6eb1b23e761432081f0dbcdcada9ce9be4
+source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 99%
+source-wordcount: '975'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,16 @@ ht-degree: 99%
       + [選擇您的升級路徑](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
       + [將資料傳送到 Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
+      + [建議的程式](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
+      + [架構您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
+      + [建立您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
+      + [使用您現有的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
+      + [建立資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
+      + [建立資料串流](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
+      + [新增Platform as a service](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
+      + [建立連線](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
+      + [建立資料視圖](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
+      + [驗證資料流程](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
       + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)
