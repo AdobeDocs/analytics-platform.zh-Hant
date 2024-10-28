@@ -4,8 +4,8 @@ description: 導入 Adobe Journey Optimizer 產生的資料，並使用 Customer
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
-workflow-type: ht
+source-git-commit: 5e239753928f5c994245025c8b5d2aee3eee6091
+workflow-type: tm+mt
 source-wordcount: '3020'
 ht-degree: 100%
 
@@ -18,8 +18,6 @@ ht-degree: 100%
 您可以設定 Journey Optimizer 產生的資料，用於在 Customer Journey Analytics 中執行進階分析。您可以自動設定此整合。如果需要，您可以對連線或資料視圖中可用的資料集、維度或量度進行額外的手動自訂。
 
 ## 自動設定 Journey Optimizer 整合
-
-{{release-limited-testing-section}}
 
 Journey Optimizer 支援使用 Customer Journey Analytics 作為報告引擎。請參閱 Journey Optimizer 文件中的[開始使用新報告介面](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channel-report/report-gs-cja)。
 
