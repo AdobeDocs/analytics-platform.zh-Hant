@@ -5,7 +5,7 @@ exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bd89162aa81648133cbf05357fb7f8911ba91002
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 22%
@@ -22,16 +22,6 @@ ht-degree: 22%
 >abstract="判斷元件在報告中使用時的顯示方式。"
 
 <!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_dataview_component_metric_format_currencyconversion"
->title="貨幣轉換"
->abstract="選取一個貨幣代碼維度，以所選貨幣類型設定及顯示貨幣。"
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 格式可讓您決定指定量度在報表中使用的顯示方式。
@@ -64,7 +54,16 @@ ht-degree: 22%
 
    {style="table-layout:auto"}
 
-## 使用貨幣轉換
+## 使用貨幣轉換 {#use-currency-conversion}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_component_metric_format_currencyconversion"
+>title="貨幣轉換"
+>abstract="選取一個貨幣代碼維度，以所選貨幣類型設定及顯示貨幣。"
+
+<!-- markdownlint-enable MD034 -->
 
 Customer Journey Analytics的貨幣轉換對於在國際上營運的企業而言，是極為寶貴的。 透過移除手動貨幣轉換的複雜性，Customer Journey Analytics中的貨幣轉換為財務資料帶來一致性和明確性。 貨幣轉換會追蹤每日歷史匯率，並將這些每日匯率維持在4年。
 
