@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
 source-wordcount: '8842'
 ht-degree: 17%
@@ -889,7 +889,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 值]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul></li><li>[!UICONTROL 領域]：<ul><li>「人」</li><li>工作階段</li></ul></li><li>[!UICONTROL 重複資料刪除ID]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul><li>[!UICONTROL 要保留的值]：<ul><li>保留第一個執行個體</li><li>保留最後一個執行個體</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 值]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul></li><li>[!UICONTROL 領域]：<ul><li>人員</li><li>工作階段</li></ul></li><li>[!UICONTROL 重複資料刪除ID]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul><li>[!UICONTROL 要保留的值]：<ul><li>保留第一個執行個體</li><li>保留最後一個執行個體</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -1352,7 +1352,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 方法]：<ul><li>上一個值</li><li>下一個值</li></ul></li><li>[!UICONTROL 領域]：<ul><li>「人」</li><li>工作階段</li></ul></li><li>[!UICONTROL 索引]：<ul><li>數值</li></ul><li>[!UICONTROL 包含重複專案]：<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位3個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 方法]：<ul><li>上一個值</li><li>下一個值</li></ul></li><li>[!UICONTROL 領域]：<ul><li>人員</li><li>工作階段</li></ul></li><li>[!UICONTROL 索引]：<ul><li>數值</li></ul><li>[!UICONTROL 包含重複專案]：<ul><li>布林值</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位3個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -1643,7 +1643,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>值<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>摘要方法</li><li>範圍<ul><li>事件</li><li>工作階段</li><li>「人」</li></ul></li></ul> | <ul><li>數值<ul><li>MAX — 從一組值傳回最大值</li><li>MIN — 從一組值傳回最小值</li><li>MEDIAN — 傳回一組值的中位數</li><li>MEAN — 傳回一組值的平均值</li><li>SUM — 傳回一組值的和</li><li>COUNT — 傳回收到的值數目</li><li>DISTINCT — 傳回不同值集</li></ul></li><li>字串<ul><li>DISTINCT — 傳回不同值集</li><li>COUNT DISTINCT — 傳回不同值的數量</li><li>MOST COMMON — 傳回最常收到的字串值</li><li>LEAST COMMON — 傳回最不常收到的字串值</li><li>FIRST — 收到的第一個值；僅適用於工作階段和事件表格</li><li>LAST — 收到的最後一個值；僅適用於工作階段和事件表格</li></ul></li><li>日期<ul><li>DISTINCT — 傳回不同值集</li><li>COUNT DISTINCT — 傳回不同值的數量</li><li>MOST COMMON — 傳回最常收到的字串值</li><li>LEAST COMMON — 傳回最不常收到的字串值</li><li>FIRST — 收到的第一個值；僅適用於工作階段和事件表格</li><li>LAST — 收到的最後一個值；僅適用於工作階段和事件表格</li><li>EARLIEST — 收到的最早值（由時間決定）；僅適用於工作階段與事件表格</li><li>LATEST — 收到的最新值（由時間決定）；僅適用於工作階段和事件表格</li></ul></li></ul> | 每個衍生欄位3個函式 | 新增衍生欄位 |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>值<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>摘要方法</li><li>範圍<ul><li>事件</li><li>工作階段</li><li>人員</li></ul></li></ul> | <ul><li>數值<ul><li>MAX — 從一組值傳回最大值</li><li>MIN — 從一組值傳回最小值</li><li>MEDIAN — 傳回一組值的中位數</li><li>MEAN — 傳回一組值的平均值</li><li>SUM — 傳回一組值的和</li><li>COUNT — 傳回收到的值數目</li><li>DISTINCT — 傳回不同值集</li></ul></li><li>字串<ul><li>DISTINCT — 傳回不同值集</li><li>COUNT DISTINCT — 傳回不同值的數量</li><li>MOST COMMON — 傳回最常收到的字串值</li><li>LEAST COMMON — 傳回最不常收到的字串值</li><li>FIRST — 收到的第一個值；僅適用於工作階段和事件表格</li><li>LAST — 收到的最後一個值；僅適用於工作階段和事件表格</li></ul></li><li>日期<ul><li>DISTINCT — 傳回不同值集</li><li>COUNT DISTINCT — 傳回不同值的數量</li><li>MOST COMMON — 傳回最常收到的字串值</li><li>LEAST COMMON — 傳回最不常收到的字串值</li><li>FIRST — 收到的第一個值；僅適用於工作階段和事件表格</li><li>LAST — 收到的最後一個值；僅適用於工作階段和事件表格</li><li>EARLIEST — 收到的最早值（由時間決定）；僅適用於工作階段與事件表格</li><li>LATEST — 收到的最新值（由時間決定）；僅適用於工作階段和事件表格</li></ul></li></ul> | 每個衍生欄位3個函式 | 新增衍生欄位 |
 
 {style="table-layout:auto"}
 
@@ -1701,7 +1701,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 <!-- TRIM -->
 
-### 修剪
+### 修剪 {#trim}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -1823,7 +1823,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 <!-- URL PARSE -->
 
-### URL 剖析
+### URL 剖析 {#urlparse}
 
 <!-- markdownlint-disable MD034 -->
 

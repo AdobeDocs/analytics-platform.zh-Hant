@@ -6,10 +6,10 @@ feature: Data Views
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: b111a75041743e14a71d0df56b04c85ed4bae7b8
+source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 3%
+source-wordcount: '2575'
+ht-degree: 1%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 3%
 對於每個使用案例，**詳細資料**&#x200B;區段中的下列BI工具都有相關指示：
 
 * Power BI桌上型電腦(2.136.1478.0版64位元（2024年9月）)
-* Tableau Desktop (2022.3.5版(20223.23..0310) 64位元)
+* Tableau桌上型電腦(2024.1.5版，20241.24.0705.0334) 64位元
 
-指示參考名為&#x200B;**[!UICONTROL public.ares_sql_validation]**&#x200B;的範例資料檢視、兩個範例維度（**[!UICONTROL 產品名稱]**&#x200B;和&#x200B;**[!UICONTROL 產品類別]**）和兩個範例量度（**[!UICONTROL 購買]**&#x200B;和&#x200B;**[!UICONTROL 購買收入]**）。 依照指示操作時，請視需要修改您特定環境的這些範例物件。
+指示參考名為&#x200B;**[!UICONTROL public.cc_data_view]**&#x200B;的範例資料檢視、兩個範例維度（**[!UICONTROL 產品名稱]**&#x200B;和&#x200B;**[!UICONTROL 產品類別]**）和兩個範例量度（**[!UICONTROL 購買]**&#x200B;和&#x200B;**[!UICONTROL 購買收入]**）。 依照指示操作時，請視需要修改您特定環境的這些範例物件。
 
 
 ## 連線並列出資料檢視
@@ -81,13 +81,13 @@ ht-degree: 3%
    1. 選取&#x200B;**[!UICONTROL 連線]**。
 1. 在&#x200B;**[!UICONTROL 導覽器]**對話方塊中，會擷取資料檢視。 此擷取作業可能需要一些時間。 擷取之後：
    ![Power BIDestkop伺服器載入資料](assets/powerbi-navigator-load.png)
-   1. 從左側面板的清單中選取&#x200B;**[!UICONTROL public.ares_sql_validation]**。
+   1. 從左側面板的清單中選取&#x200B;**[!UICONTROL public.cc_data_view]**。
    1. 選取&#x200B;**[!UICONTROL 載入]**。
 1. 一段時間後，可用的量度和維度會顯示在&#x200B;**[!UICONTROL 資料]**窗格中。
    已載入![Power BIDestkop伺服器資料](assets/powerbi-navigator-loaded.png)
 
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 1. 從Experience Platform查詢服務UI存取所需的認證和引數。
 
@@ -118,8 +118,8 @@ ht-degree: 3%
    * **[!UICONTROL 資料庫]**&#x200B;底下的資料庫名稱。
    * **[!UICONTROL 表格]**下的表格清單。
      ![Tableau已連線](assets/tableau-connected.png)
-   1. 將&#x200B;**[!UICONTROL ares_sql_validation]**&#x200B;專案拖放到顯示&#x200B;**[!UICONTROL 將表格]**&#x200B;拖曳到此處的主要檢視上。
-1. 主視窗現在會顯示&#x200B;**[!UICONTROL ares_sql_validation]**資料檢視的詳細資料。
+   1. 將&#x200B;**[!UICONTROL cc_data_view]**&#x200B;專案拖放到顯示&#x200B;**[!UICONTROL 將表格]**&#x200B;拖曳到此處的主檢視上。
+1. 主視窗現在會顯示&#x200B;**[!UICONTROL cc_data_view]**資料檢視的詳細資料。
    ![Tableau已連線](assets/tableau-validation.png)
 
 >[!ENDTABS]
@@ -132,6 +132,11 @@ ht-degree: 3%
 在此使用案例中，您想要顯示一個表格和簡單的線條視覺效果，顯示從2023年1月1日到2023年1月31日的每日發生次數趨勢。
 
 +++ 詳細資料
+
+>[!PREREQUISITES]
+>
+>請確認您已驗證[成功的連線，並且可以列出您想要嘗試此使用案例之BI工具的資料檢視](#connect-and-list-data-views)。
+>
 
 >[!BEGINTABS]
 
@@ -169,7 +174,7 @@ ht-degree: 3%
 
    ![Power BI案頭使用案例2每日趨勢最終視覺效果](assets/uc2-pbi-filter-final.png)
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 1. 選取底部的&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤，以從&#x200B;**[!UICONTROL 資料來源]**&#x200B;切換。 在&#x200B;**[!UICONTROL 工作表1]**&#x200B;檢視中：
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格的&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖曳&#x200B;**[!UICONTROL 日期範圍]**&#x200B;專案，並將該專案拖放至&#x200B;**[!UICONTROL 篩選器]**&#x200B;托架。
@@ -196,11 +201,11 @@ ht-degree: 3%
    1. 將&#x200B;**[!UICONTROL DAY(Daterangeday)]**&#x200B;從&#x200B;**[!UICONTROL 欄]**&#x200B;拖曳至&#x200B;**[!UICONTROL 列]**。
    1. 從工具列的下拉式功能表，將&#x200B;**[!UICONTROL Standard]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
 
-      您的&#x200B;**[!UICONTROL Day]**&#x200B;檢視應如下所示。
+      您的&#x200B;**[!UICONTROL 資料]**&#x200B;檢視應如下所示。
 
       ![Tableau案頭資料](assets/uc2-tableau-data.png)
 
-1. 選取&#x200B;**[!UICONTROL 儀表板]**&#x200B;索引標籤以建立新的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。 在&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視中：
+1. 選取「**[!UICONTROL 新儀表板]**」索引標籤按鈕（在底部）以建立新的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。 在&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視中：
    1. 將&#x200B;**[!UICONTROL Graph]**&#x200B;工作表從&#x200B;**[!UICONTROL 工作表]**&#x200B;擱板拖放到&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視（顯示&#x200B;*將工作表拖放至此*）。
    1. 將&#x200B;**[!UICONTROL 資料]**&#x200B;工作表從&#x200B;**[!UICONTROL 圖形]**&#x200B;工作表下方的&#x200B;**[!UICONTROL 工作表]**&#x200B;托架拖放至&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。
    1. 在檢視中選取&#x200B;**[!UICONTROL 資料]**&#x200B;工作表，並將&#x200B;**[!UICONTROL 整個檢視]**&#x200B;修改為&#x200B;**[!UICONTROL 固定寬度]**。
@@ -209,7 +214,6 @@ ht-degree: 3%
 
       ![Tableau案頭儀表板1](assets/uc2-tableau-dashboard.png)
 
-
 >[!ENDTABS]
 
 +++
@@ -217,19 +221,61 @@ ht-degree: 3%
 
 ## 每小時趨勢
 
-使用案例的摘要
+在此使用案例中，您想要顯示表格和簡單的線條視覺效果，以顯示2023年1月1日發生次數的每小時趨勢。
 
 +++ 詳細資料
+
+>[!PREREQUISITES]
+>
+>請確認您已驗證[成功的連線，並且可以列出您想要嘗試此使用案例之BI工具的資料檢視](#connect-and-list-data-views)。
+>
 
 >[!BEGINTABS]
 
 >[!TAB Power BI案頭]
 
-步驟
+![警示](/help/assets/icons/Alert.svg)Power BI **不**&#x200B;瞭解如何處理日期時間欄，所以不支援&#x200B;**[!UICONTROL daterangehour]**&#x200B;和&#x200B;**[!UICONTROL daterangeminute]**&#x200B;等維度。
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
-步驟
+1. 選取底部的&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤，以從&#x200B;**[!UICONTROL 資料來源]**&#x200B;切換。 在&#x200B;**[!UICONTROL 工作表1]**&#x200B;檢視中：
+   1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格的&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖曳&#x200B;**[!UICONTROL 日期範圍]**&#x200B;專案，並將該專案拖放至&#x200B;**[!UICONTROL 篩選器]**&#x200B;托架。
+   1. 在&#x200B;**[!UICONTROL 篩選器欄位\[日期範圍\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並選取&#x200B;**[!UICONTROL 下一步>]**。
+   1. 在&#x200B;**[!UICONTROL 篩選器\[日期範圍]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並指定`01/01/2023` - `02/01/2023`的期間。
+
+      ![Tableau案頭篩選器](assets/uc3-tableau-filter.png)
+
+   1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格的&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖放&#x200B;**[!UICONTROL Daterangehour]**，並將專案拖放到&#x200B;**[!UICONTROL 欄]**&#x200B;旁的欄位中。
+      * 從&#x200B;**[!UICONTROL Daterangeday]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 小時]**，以便將值更新為&#x200B;**[!UICONTROL 小時(Daterangeday)]**。
+   1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中的&#x200B;**[!UICONTROL 資料表（*量值名稱*）]**&#x200B;清單拖放&#x200B;**[!UICONTROL 發生次數]**，並將專案拖放到&#x200B;**[!UICONTROL 資料列]**&#x200B;旁的欄位中。
+      * 值會自動轉換為&#x200B;**[!UICONTROL SUM（發生次數）]**。
+   1. 從工具列的下拉式功能表，將&#x200B;**[!UICONTROL Standard]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
+
+      您的工作表1檢視應如下所示。
+
+      ![Tableau案頭圖形](assets/uc3-tableau-graph.png)
+
+1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 複製]**&#x200B;以建立第二個工作表。
+1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 重新命名]**，以將工作表重新命名為`Graph`。
+1. 從&#x200B;**[!UICONTROL 工作表1 (2)]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 重新命名]**，以將工作表重新命名為`Data`。
+1. 請確定已選取&#x200B;**[!UICONTROL 資料]**&#x200B;工作表。 在資料檢視中：
+   1. 選取右上方的&#x200B;**[!UICONTROL 顯示我]**，並選取&#x200B;**[!UICONTROL 文字表格]** （左上方的視覺效果），將資料檢視的內容修改成表格。
+   1. 將&#x200B;**[!UICONTROL HOUR(Daterangeday)]**&#x200B;從&#x200B;**[!UICONTROL 欄]**&#x200B;拖曳至&#x200B;**[!UICONTROL 列]**。
+   1. 從工具列的下拉式功能表，將&#x200B;**[!UICONTROL Standard]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
+
+      您的&#x200B;**[!UICONTROL 資料]**&#x200B;檢視應如下所示。
+
+      ![Tableau案頭資料](assets/uc3-tableau-data.png)
+
+1. 選取「**[!UICONTROL 新儀表板]**」索引標籤按鈕（在底部）以建立新的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。 在&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視中：
+   1. 將&#x200B;**[!UICONTROL Graph]**&#x200B;工作表從&#x200B;**[!UICONTROL 工作表]**&#x200B;擱板拖放到&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視（顯示&#x200B;*將工作表拖放至此*）。
+   1. 將&#x200B;**[!UICONTROL 資料]**&#x200B;工作表從&#x200B;**[!UICONTROL 圖形]**&#x200B;工作表下方的&#x200B;**[!UICONTROL 工作表]**&#x200B;托架拖放至&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。
+   1. 在檢視中選取&#x200B;**[!UICONTROL 資料]**&#x200B;工作表，並將&#x200B;**[!UICONTROL 整個檢視]**&#x200B;修改為&#x200B;**[!UICONTROL 固定寬度]**。
+
+      您的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視應如下所示。
+
+      ![Tableau案頭儀表板1](assets/uc3-tableau-dashboard.png)
+
 
 >[!ENDTABS]
 
@@ -238,19 +284,90 @@ ht-degree: 3%
 
 ## 每月趨勢
 
-使用案例的摘要
+在此使用案例中，您想要顯示一個表格和簡單的線條視覺效果，以顯示2023年1月1日至2024年1月1日發生次數的每月趨勢。
 
 +++ 詳細資料
+
+>[!PREREQUISITES]
+>
+>請確認您已驗證[成功的連線，並且可以列出您想要嘗試此使用案例之BI工具的資料檢視](#connect-and-list-data-views)。
+>
 
 >[!BEGINTABS]
 
 >[!TAB Power BI案頭]
 
-步驟
+1. 在&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中：
+   1. 選取&#x200B;**[!UICONTROL daterangemonth]**&#x200B;維度。
+   1. 選取&#x200B;**[!UICONTROL 發生次數]**&#x200B;量度。
 
->[!TAB Tableau]
+   您會看到一個表格，其中顯示當月的發生次數。 為獲得更好的可見度，請放大表格視覺效果。
 
-步驟
+1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
+
+   1. 從這個視覺效果&#x200B;]**上的**[!UICONTROL &#x200B;篩選條件中選取&#x200B;**[!UICONTROL daterangemonth is (All)]**。
+   1. 選取&#x200B;**[!UICONTROL 進階篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
+   1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 位於或晚於]** `1/1/2023` **[!UICONTROL 且]** **[!UICONTROL 位於]** `1/1/2024.`時顯示專案。您可以使用行事曆圖示挑選和選取日期。
+   1. 選取&#x200B;**[!UICONTROL 套用篩選器]**。
+
+   您會看到已套用&#x200B;**[!UICONTROL daterangeday]**&#x200B;篩選器的資料表已更新。
+
+1. 在&#x200B;**[!UICONTROL 視覺效果]**&#x200B;窗格中：
+
+   1. 選取&#x200B;**[!UICONTROL 折線圖]**&#x200B;視覺效果。
+
+   使用與表格相同的資料時，折線圖視覺效果會取代表格。
+
+   ![Power BI案頭使用案例2日期範圍篩選器](assets/uc4-pbi-filter-daterange.png)
+
+1. 線上圖視覺效果上：
+
+   1. 選取![更多](/help/assets/icons/More.svg)。
+   1. 從內容功能表中，選取&#x200B;**[!UICONTROL 顯示為表格]**。
+
+   主要檢視已更新，顯示線條視覺效果和表格。
+
+   ![Power BI案頭使用案例2每日趨勢最終視覺效果](assets/uc4-pbi-filter-final.png)
+
+>[!TAB Tableau案頭]
+
+1. 選取底部的&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤，以從&#x200B;**[!UICONTROL 資料來源]**&#x200B;切換。 在&#x200B;**[!UICONTROL 工作表1]**&#x200B;檢視中：
+   1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格的&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖曳&#x200B;**[!UICONTROL 日期範圍]**&#x200B;專案，並將該專案拖放至&#x200B;**[!UICONTROL 篩選器]**&#x200B;托架。
+   1. 在&#x200B;**[!UICONTROL 篩選器欄位\[日期範圍\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並選取&#x200B;**[!UICONTROL 下一步>]**。
+   1. 在&#x200B;**[!UICONTROL 篩選器\[日期範圍]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並指定`01/01/2023` - `01/01/2024`的期間。
+
+      ![Tableau案頭篩選器](assets/uc4-tableau-filter.png)
+
+   1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格的&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖放&#x200B;**[!UICONTROL Daterangeday]**，並將專案拖放到&#x200B;**[!UICONTROL 欄]**&#x200B;旁的欄位中。
+      * 從&#x200B;**[!UICONTROL Daterangeday]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL MONTH]**，以便將值更新為&#x200B;**[!UICONTROL MONTH(Daterangeday)]**。
+   1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中的&#x200B;**[!UICONTROL 資料表（*量值名稱*）]**&#x200B;清單拖放&#x200B;**[!UICONTROL 發生次數]**，並將專案拖放到&#x200B;**[!UICONTROL 資料列]**&#x200B;旁的欄位中。
+      * 值會自動轉換為&#x200B;**[!UICONTROL SUM（發生次數）]**。
+   1. 從工具列的下拉式功能表，將&#x200B;**[!UICONTROL Standard]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
+
+      您的工作表1檢視應如下所示。
+
+      ![Tableau案頭圖形](assets/uc4-tableau-graph.png)
+
+1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 複製]**&#x200B;以建立第二個工作表。
+1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 重新命名]**，以將工作表重新命名為`Graph`。
+1. 從&#x200B;**[!UICONTROL 工作表1 (2)]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 重新命名]**，以將工作表重新命名為`Data`。
+1. 請確定已選取&#x200B;**[!UICONTROL 資料]**&#x200B;工作表。 在資料檢視中：
+   1. 選取右上方的&#x200B;**[!UICONTROL 顯示我]**，並選取&#x200B;**[!UICONTROL 文字表格]** （左上方的視覺效果），將資料檢視的內容修改成表格。
+   1. 將&#x200B;**[!UICONTROL MONTH(Daterangeday)]**&#x200B;從&#x200B;**[!UICONTROL 欄]**&#x200B;拖曳至&#x200B;**[!UICONTROL 列]**。
+   1. 從工具列的下拉式功能表，將&#x200B;**[!UICONTROL Standard]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
+
+      您的&#x200B;**[!UICONTROL 資料]**&#x200B;檢視應如下所示。
+
+      ![Tableau案頭資料](assets/uc4-tableau-data.png)
+
+1. 選取「**[!UICONTROL 新儀表板]**」索引標籤按鈕（在底部）以建立新的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。 在&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視中：
+   1. 將&#x200B;**[!UICONTROL Graph]**&#x200B;工作表從&#x200B;**[!UICONTROL 工作表]**&#x200B;擱板拖放到&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視（顯示&#x200B;*將工作表拖放至此*）。
+   1. 將&#x200B;**[!UICONTROL 資料]**&#x200B;工作表從&#x200B;**[!UICONTROL 圖形]**&#x200B;工作表下方的&#x200B;**[!UICONTROL 工作表]**&#x200B;托架拖放至&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。
+   1. 在檢視中選取&#x200B;**[!UICONTROL 資料]**&#x200B;工作表，並將&#x200B;**[!UICONTROL 整個檢視]**&#x200B;修改為&#x200B;**[!UICONTROL 固定寬度]**。
+
+      您的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視應如下所示。
+
+      ![Tableau案頭儀表板1](assets/uc4-tableau-dashboard.png)
 
 >[!ENDTABS]
 
@@ -263,13 +380,18 @@ ht-degree: 3%
 
 +++ 詳細資料
 
+>[!PREREQUISITES]
+>
+>請確認您已驗證[成功的連線，並且可以列出您想要嘗試此使用案例之BI工具的資料檢視](#connect-and-list-data-views)。
+>
+
 >[!BEGINTABS]
 
 >[!TAB Power BI案頭]
 
 步驟
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 步驟
 
@@ -290,7 +412,7 @@ ht-degree: 3%
 
 步驟
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 步驟
 
@@ -311,7 +433,7 @@ ht-degree: 3%
 
 步驟
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 步驟
 
@@ -333,7 +455,7 @@ ht-degree: 3%
 
 步驟
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 步驟
 
@@ -355,7 +477,7 @@ ht-degree: 3%
 
 步驟
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 步驟
 
@@ -377,7 +499,7 @@ ht-degree: 3%
 
 步驟
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 步驟
 
@@ -399,7 +521,7 @@ ht-degree: 3%
 
 步驟
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 步驟
 
@@ -421,7 +543,7 @@ ht-degree: 3%
 
 步驟
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 步驟
 
@@ -443,7 +565,7 @@ ht-degree: 3%
 
 步驟
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 步驟
 
@@ -465,7 +587,7 @@ ht-degree: 3%
 
 步驟
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 步驟
 
@@ -487,7 +609,7 @@ ht-degree: 3%
 
 步驟
 
->[!TAB Tableau]
+>[!TAB Tableau案頭]
 
 步驟
 

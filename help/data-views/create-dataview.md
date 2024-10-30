@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bab067f50e04b7eb1a211d8767cd2cd7a2acd9c5
+source-git-commit: 5aab46fbca8bf9638e238caa9dab34e391118139
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 97%
@@ -30,16 +30,6 @@ ht-degree: 97%
 
 ## 設定 {#configure}
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_dataview_externalid"
->title="外部 ID"
->abstract="變更外部 ID 可能會影響資料釋圖名稱在外部來源 (例如商業智慧工具) 中的顯示方式。"
-
-<!-- markdownlint-enable MD034 -->
-
-
 設定新的或現有的資料視圖的方法：
 
 1. 選取「**[!UICONTROL 設定]**」標籤 (如果尚未啟動)。
@@ -49,7 +39,16 @@ ht-degree: 97%
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
 
-### 設定
+### 設定 {#settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_externalid"
+>title="外部 ID"
+>abstract="變更外部 ID 可能會影響資料釋圖名稱在外部來源 (例如商業智慧工具) 中的顯示方式。"
+
+<!-- markdownlint-enable MD034 -->
 
 為資料視圖提供總體設定。
 
