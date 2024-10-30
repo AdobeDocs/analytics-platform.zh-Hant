@@ -6,9 +6,9 @@ exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
 source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3466'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -107,12 +107,12 @@ ht-degree: 99%
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **顯示** | | |
-|  | [檢視密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hant) | 減少左側面板、自由格式表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
-| | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | 選擇 Analysis Workspace 和引導式分析中使用的視覺效果調色盤。 <ul><li> 類別調色盤：套用至 Analysis Workspace 和引導式分析的多個視覺效果。每種顏色代表相異的類別值。從 Adobe 提供的選項中進行選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li> 偏離調色盤：套用至 Analysis Workspace 和使用者增長引導式分析中的同類群組表格。此調色盤具有數值含義，其中包含兩個極端和中間的基線。<li> 循序調色盤：套用至頻率趨勢 (堆疊長條) 引導式分析。該調色盤具有從淺到深的數值含義。</li></ul> |
+|  | [檢視密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-hant) | 減少左側面板、自由格式表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
+| | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-hant) | 選擇 Analysis Workspace 和引導式分析中使用的視覺效果調色盤。 <ul><li> 類別調色盤：套用至 Analysis Workspace 和引導式分析的多個視覺效果。每種顏色代表相異的類別值。從 Adobe 提供的選項中進行選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li> 偏離調色盤：套用至 Analysis Workspace 和使用者增長引導式分析中的同類群組表格。此調色盤具有數值含義，其中包含兩個極端和中間的基線。<li> 循序調色盤：套用至頻率趨勢 (堆疊長條) 引導式分析。該調色盤具有從淺到深的數值含義。</li></ul> |
 | **資料** | | |
-|  | [資料視圖](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#report-suite) | 從表格和視覺效果衍生其資料的位置進行資料選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定資料視圖</li></ul> |
-|  | [行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>您可以啟用[!UICONTROL 預設使日期範圍元件與面板行事曆相對應]。</li></ul> |
-|  | [面板類型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant) | <ul><li>自由格式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
+|  | [資料視圖](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-hant?#report-suite) | 從表格和視覺效果衍生其資料的位置進行資料選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定資料視圖</li></ul> |
+|  | [行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-hant?#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>您可以啟用[!UICONTROL 預設使日期範圍元件與面板行事曆相對應]。</li></ul> |
+|  | [面板類型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-hant) | <ul><li>自由格式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
 |  | 實例計數 | 啟用[!UICONTROL 計算重複實例數]以指定是否要將重複實例計入報告中。例如，若啟動，多次連續檢視相同頁面視為檢視多個頁面。停用後，多次連續檢視相同頁面將計為單次頁面檢視。 <p>**注意：**&#x200B;此設定只會影響特定量度 (例如工作階段)，不適用於「流程」或「流失」視覺效果。</p> |
 |  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
@@ -229,7 +229,7 @@ ht-degree: 99%
 | **堆疊圖** | | |
 | | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。 <p>如需詳細資訊，請參閱[長條圖和堆疊長條圖](/help/analysis-workspace/visualizations/bar.md)。</p> |
 | **[長條圖](/help/analysis-workspace/visualizations/histogram.md)** | | |
-| | 貯體數 | 選擇視覺效果中日期範圍（貯體）的數量。 貯體的最大數量是 50。 <p>如需詳細資訊，請參閱[長條圖](/help/analysis-workspace/visualizations/histogram.md)。</p> |
+| | 貯體數 | 在視覺效果中選擇日期範圍 (貯體) 的數量。貯體的最大數量是 50。 <p>如需詳細資訊，請參閱[長條圖](/help/analysis-workspace/visualizations/histogram.md)。</p> |
 | | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>工作階段</li><li>人員</li></ul> <p>例如，與頁面瀏覽次數搭配使用時，您可以選擇每個人員的頁面瀏覽次數、造訪的頁面瀏覽次數，或是每個事件的頁面瀏覽次數。若為點擊，自由格式表格會將「發生次數」設為 Y 軸的量度。</p> |
 | **[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變更</li><li>原始差異</li></ul> |
