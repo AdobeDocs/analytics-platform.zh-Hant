@@ -4,9 +4,9 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: 126d2213b97b71ff3116ff53e56217b8b6e7a479
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1973'
 ht-degree: 18%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 18%
 
 * Platform中的對象會與Customer Journey Analytics對象共用相同的名稱和說明。 名稱會附加至Customer Journey Analytics對象ID，以確保對象是唯一的。
 * 在Customer Journey Analytics中對對象名稱或說明所做的任何變更都會反映在Experience Platform中。
-* 如果在Customer Journey Analytics中刪除了對象，則該對象會繼續可在Experience Platform中使用。
+* 如果在Customer Journey Analytics中刪除了對象，則該對象會繼續在Experience Platform中使用，直到對象的設定檔成員資格過期為止。 一次性受眾的設定檔會籍將在420天後到期，而週期性受眾會在16天後到期。
 
 ## 延遲的注意事項 {#latency}
 
