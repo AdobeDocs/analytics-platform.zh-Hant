@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: 1442aa9be5e6a6dc283ba559a2ff6c46de862425
+source-git-commit: e723339831bf835b43096affd4e0f15f41462f54
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 3%
+source-wordcount: '1058'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Data Analysis AI Assistant是智慧型內容感知交談代理程式，可協助
 | 不支援的功能 | 說明 |
 | --- | --- |
 | 內嵌摘要或回應 | AI助理無法在聊天邊欄中以使用者提示的摘要回答內聯回應。範圍外提示範例：<ul><li>*提供上次提示的見解摘要。*</li><li>*從線條視覺效果摘要醒目提示。*</li></ul> |
-| 澄清問題 | 澄清的問題僅限於元件和維度專案。 AI Assistant無法釐清資料檢視、視覺效果、資料精細度、比較、範圍等。 如果沒有澄清問題，「助理員」會預設為使用者最可能要求的內容。 如果它傳回非預期的視覺效果或資料粒度，使用者就可以使用多圈/更新功能來調整視覺效果和資料。 |
+| 澄清問題 | 澄清的問題僅限於元件和維度專案。 AI Assistant無法釐清資料檢視、視覺效果、資料精細度、比較、範圍等。 如果沒有澄清問題，「助理」會預設為您最可能要求的內容。 如果它傳回非預期的視覺效果或資料詳細程度，您就可以使用多圈/更新功能來調整視覺效果和資料。 |
 | Workspace動作/功能 | 除了建置和更新視覺效果以外，AI助理無法在Workspace中為使用者執行動作。 例如，它無法執行下列任何動作：<ul><li>內容動作UI按鈕（新增至圖表、新面板、新表格）</li><li>共用</li><li>匯出</li><li>下載</li><li>管理使用者偏好設定</li><li>組織</li><li>管理資料檢視</li><li>Analytics儀表板應用程式</li><li>歸因</li></ul> |
 | 不支援的視覺效果型別 | <ul><li>流量</li><li>流失</li><li>同類群組表格</li><li>區域圖、棧疊區域圖</li><li>堆疊長條圖</li><li>項目符號</li><li>組合</li><li>長條圖</li><li>橫條圖、棧疊橫條圖</li><li>關鍵量度摘要</li><li>散佈圖</li><li>摘要變更</li><li>文字</li><li>樹狀圖</li><li>文氏圖表</li></ul> |
 | 可解釋性和可驗證性 | AI助理產生回應的方式透明描述或引文，並提供您確認答案正確的方法。 |
@@ -67,22 +67,40 @@ Adobe Experience Platform、Adobe Journey Optimizer、Adobe Real-Time CDP及其�
 
 如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md#access-control)。
 
-## 存取資料分析AI助理
+## 存取及使用資料分析AI助理
 
+1. 請移至此連結，在Labs IMS組織（階段中）中開啟Workspace，然後使用您的Adobe ID登入。
 
+1. 按一下專案頁面頂端橫幅中的&#x200B;**[!UICONTROL 空白專案]**，開啟新的空白專案。
 
+1. 按一下右上角的AI助理聊天圖示。
 
-## 使用資料分析AI助理
+   ![AI助理圖示](/help/assets/ai-asst-icon.png)
 
-1. 在Customer Journey Analytics中，導覽至已布建的沙箱。
+1. 在底部的&#x200B;**[!UICONTROL 詢問Customer Journey Analytics]**&#x200B;對話方塊中，在AI助理中詢問您的第一個資料分析問題。
 
-1. 開啟Workspace專案。
+   例如，假設您對您的企業在7月收到的訂單感興趣。 所以您可以輸入「七月顯示訂單」。
+
+   ![AI提示](/help/assets/ai-asst-prompt1.png)
 
 
 ## 範例資料分析提示
 
 以下是AI助理如何回應提示和預期視覺效果的一些範例：
 
+| 範例提示 | 預期的視覺效果 |
+| --- | --- |
+| 顯示[個月]的利潤 | 折線圖<p>依預設，在特定時間範圍要求趨勢或量度將會傳回線條視覺效果。 |
+| [個月]的趨勢訂單 | 折線圖 |
+| 在[個月]內依地區顯示收入 | 長條圖 |
+| 依產品類別劃分的收入份額 | 環形圖 |
+| 按周從1月到5月的訂單 | 長條圖 |
+| 依性別顯示三月至六月的訂單 | 長條圖 |
+| 從2月到5月，SKU利潤如何 | 長條圖 |
+| [個月]內依商店名稱區分的收入 | 長條圖 |
+| 我的[月]利潤前10名SKU為何？ | 長條圖 |
+| 按月份和年份的購買比例 | 環形圖 |
+| [個月]的總利潤 | 摘要數字<p>在特定時間範圍內詢問量度的「總計」時，應該會傳回「摘要數字」視覺效果。 |
 
 
 ## 提示最佳實務
@@ -91,7 +109,7 @@ Adobe Experience Platform、Adobe Journey Optimizer、Adobe Real-Time CDP及其�
 
 ## Alpha測試期望和要求的意見回饋
 
-TB D
+待定
 
 ## 問題與連絡人
 
