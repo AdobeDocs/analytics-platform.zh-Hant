@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 8ff3a1c874a0eb67e4b7a6edda6156c4d07edc9f
+source-git-commit: ad51c3cab669121e270603e133d53b6c97be8846
 workflow-type: tm+mt
 source-wordcount: '4173'
 ht-degree: 69%
@@ -20,7 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 10 月** | |
-| 共用裝置 | 新增使用案例文章，提供共用裝置上的內容、如何使用拼接處理及緩解共用裝置上的資料，以及使用查詢服務瞭解資料中的共用裝置曝光度。 |
+| 共用裝置 | 新增[使用案例文章](/help/use-cases/stitching/shared-devices.md)，提供共用裝置上的內容、如何使用拼接處理及緩解來自共用裝置的資料，以及使用查詢服務瞭解資料中的共用裝置曝光度。 |
 | 有關 Analysis Workspace Performance 請求因素的新資訊 | [Analysis Workspace 效能最佳化](/help/technotes/optimizing-performance.md)文章中的新[請求因素](/help/technotes/optimizing-performance.md#request-factors)部分介紹了如何處理請求以及影響處理時間的各種因素。 |
 | Workspace和元件 | 重新整理有關Analysis Workspace專案（專案、視覺效果和面板）和元件(附註、維度、（計算）量度、篩選器、日期範圍、警報、排程專案和對象)的檔案。 |
 | 引導式分析 | 更新檔案，提供Analysis Workspace中的[引導分析](/help/guided-analysis/overview.md)。 |
