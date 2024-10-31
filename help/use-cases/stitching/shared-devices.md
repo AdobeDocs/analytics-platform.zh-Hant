@@ -3,13 +3,11 @@ title: 共用裝置
 description: 說明如何使用拼接和其他技術處理共用裝置。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-hide: true
-hidefromtoc: true
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: c0dae5f1255a986df5ab2551aabdf1bd0727e949
+source-git-commit: 81d1c6abbda63c4ac8cdcc96d1b730974b137ad9
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '659'
 ht-degree: 6%
 
 ---
@@ -67,7 +65,7 @@ The order success (purchase) events assign the data accurately to the correct em
 
 ### 裝置分割
 
-裝置分割會將共用裝置的匿名活動歸因於最接近匿名活動的使用者。 裝置分割是分析使用案例的偏好方法，因為裝置分割會將未驗證和已驗證活動的評分給予最接近的已知人員。 裝置分割目前用於依欄位彙整。
+裝置分割會將共用裝置的匿名活動歸因於最接近匿名活動的使用者。 裝置分割目前用於依欄位彙整。
 
 在拼接中使用裝置分割歸因時，拼接ID會解析，如下表所示。
 
