@@ -12,13 +12,13 @@ ht-degree: 6%
 
 ---
 
-# [!UICONTROL 參與]分析 {#engagement}
+# [!UICONTROL 參與度]分析 {#engagement}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_workspace_guidedanalysis_engagement_button"
->title="參與"
+>title="參與度"
 >abstract="了解功能參與的廣度與深度。"
 
 <!-- markdownlint-enable MD034 -->

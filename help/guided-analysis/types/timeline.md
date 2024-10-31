@@ -12,7 +12,7 @@ ht-degree: 3%
 
 ---
 
-# [!UICONTROL 時間表]分析 {#timeline}
+# [!UICONTROL 時間軸]分析 {#timeline}
 
 <!-- markdownlint-disable MD034 -->
 

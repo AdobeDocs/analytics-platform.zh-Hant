@@ -8,11 +8,11 @@ role: User
 source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
-# [!UICONTROL 作用中成長]分析 {#active-growth}
+# [!UICONTROL 積極成長]分析 {#active-growth}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -54,7 +54,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 檢視]**：在此分析與[淨增長](net-growth.md)之間切換。
 * **[!UICONTROL 事件]**：您要測量的事件。 由於此分析是以使用者為基礎，在期間內與事件互動一次的使用者會計為作用中使用者。 您可以在查詢中包含一個事件。
-* **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括[!UICONTROL 使用者數目]和[!UICONTROL 使用者百分比]。
+* **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。選項包括[!UICONTROL 使用者數目]和[!UICONTROL 使用者百分比]。
 * **[!UICONTROL 區段]**：您用來篩選資料的區段。 您可以在查詢中包含一個區段。
 
 ### 圖表設定

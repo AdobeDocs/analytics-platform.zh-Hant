@@ -8,7 +8,7 @@ exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
 source-git-commit: ad446f55855696cf7721f34f779883792b7958fa
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 17%
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_summarydatagroup_hideinreporting"
 >title="在報告中隱藏"
->abstract="選取此選項將針對該維度啟用&#x200B;**[!UICONTROL 隱藏報表]**&#x200B;中的元件，且防止該元件顯示在Analysis Workspace和其他Customer Journey Analytics報表工具中。"
+>abstract="選取此選項將啟用該維度的「**[!UICONTROL 在報告中隱藏元件]**」，並阻止元件顯示在 Analysis Workspace 和其他 Customer Journey Analytics 報告工具中。"
 
 <!-- markdownlint-enable MD034 -->
 
