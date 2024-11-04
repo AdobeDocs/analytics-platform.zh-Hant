@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
+source-git-commit: 64df8670418524be8879aa6362bb8b7c229025b6
 workflow-type: tm+mt
-source-wordcount: '8842'
+source-wordcount: '8841'
 ht-degree: 17%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 17%
 ![衍生欄位對話方塊的熒幕擷圖](assets/derived-field-dialog.png)
 
 
-![方案總覽](/help/assets/icons/ProgramOverview.svg)
 
 |  | 名稱 | 說明 |
 |---------|----------|--------|
@@ -188,6 +187,8 @@ ht-degree: 17%
 
 +++ 詳細資料
 
+{{select-package}}
+
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![彈回規則產生器的熒幕擷圖](assets/function-template-bounces.png)
@@ -199,6 +200,8 @@ ht-degree: 17%
 此函式範本將兩個值合併為一個。
 
 +++ 詳細資料
+
+{{select-package}}
 
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
@@ -212,6 +215,8 @@ ht-degree: 17%
 
 +++ 詳細資料
 
+{{select-package}}
+
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![易記資料集名稱規則產生器的熒幕擷圖](assets/function-template-friendly-dataset-name.png)
@@ -223,6 +228,8 @@ ht-degree: 17%
 此函式範本會建立簡單的頁面名稱。
 
 +++ 詳細資料
+
+{{select-package}}
 
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
@@ -236,6 +243,8 @@ ht-degree: 17%
 
 +++ 詳細資料
 
+{{select-package}}
+
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![假日季節規則產生器的熒幕擷圖](assets/function-template-holiday-season.png)
@@ -247,6 +256,8 @@ ht-degree: 17%
 此函式範本設定自訂的每月目標。
 
 +++ 詳細資料
+
+{{select-package}}
 
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
@@ -260,6 +271,8 @@ ht-degree: 17%
 
 +++ 詳細資料
 
+{{select-package}}
+
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![在分隔清單規則產生器中取得所有值的熒幕擷圖](assets/function-template-get-all-values-in-delimited-list.png)
@@ -271,6 +284,8 @@ ht-degree: 17%
 此函式範本取得分隔清單中的第一個值。
 
 +++ 詳細資料
+
+{{select-package}}
 
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
@@ -284,6 +299,8 @@ ht-degree: 17%
 
 +++ 詳細資料
 
+{{select-package}}
+
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![在分隔清單規則產生器中取得最後一個值的熒幕擷圖](assets/function-template-get-last-value-in-delimited-list.png)
@@ -295,6 +312,8 @@ ht-degree: 17%
 此函式範本使用規則運算式擷取網域名稱。
 
 +++ 詳細資料
+
+{{select-package}}
 
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
@@ -308,6 +327,8 @@ ht-degree: 17%
 
 +++ 詳細資料
 
+{{select-package}}
+
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![取得查詢字串引數規則產生器的熒幕擷圖](assets/function-template-get-query-string-parameter.png)
@@ -319,6 +340,8 @@ ht-degree: 17%
 此函式範本將報告從一個欄位轉移到另一個欄位。
 
 +++ 詳細資料
+
+{{select-package}}
 
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
@@ -332,6 +355,8 @@ ht-degree: 17%
 
 +++ 詳細資料
 
+{{select-package}}
+
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![簡易機器人偵測規則產生器的熒幕擷圖](assets/function-template-simple-bot-detection.png)
@@ -344,6 +369,8 @@ ht-degree: 17%
 
 +++ 詳細資料
 
+{{select-package}}
+
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
 ![退出連結規則產生器的熒幕擷圖](assets/function-template-exit-link.png)
@@ -355,6 +382,8 @@ ht-degree: 17%
 此函式範本會標籤常見的下載連結。
 
 +++ 詳細資料
+
+{{select-package}}
 
 若要使用範本，您必須為列示為範本規則一部分的每個函式指定正確的引數。 如需詳細資訊，請參閱[函式參考](#function-reference)。
 
