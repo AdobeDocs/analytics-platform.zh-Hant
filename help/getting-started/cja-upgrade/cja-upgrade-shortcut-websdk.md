@@ -28,11 +28,11 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-When upgrading to Customer Journey Analytics, Adobe [recommends a new implementation of the Experience Platform Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md). 不過，根據數個因素（例如時間表和資源限制），建議的升級步驟可能對您的組織而言不實用。
+升級至Customer Journey Analytics時，Adobe[建議Experience PlatformWeb SDK](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)的新實作。 不過，根據數個因素（例如時間表和資源限制），建議的升級步驟可能對您的組織而言不實用。
 
-If your Adobe Analytics implementation is AppMeasurement or the Analytics extension, an upgrade shortcut is available that allows you to migrate your Adobe Analytics implementation to use the Adobe Experience Platform Web SDK to begin sending data to Edge Network and Adobe Analytics, prior to sending it to Customer Journey Analytics.
+如果您的Adobe Analytics實作AppMeasurement或Analytics擴充功能，有升級捷徑可讓您移轉Adobe Analytics實作，以便使用Adobe Experience Platform Web SDK開始傳送資料給Edge Network和Adobe Analytics，然後再傳送給Customer Journey Analytics。
 
-## Advantages and disadvantages
+## 優點與缺點
 
 請考量下列升級捷徑的優缺點，以移轉您的AppMeasurement或Analytics擴充功能實作來使用Web SDK：
 
@@ -42,11 +42,11 @@ If your Adobe Analytics implementation is AppMeasurement or the Analytics extens
 
 {style="table-layout:auto"}
 
-## Basic steps
+## 基本步驟
 
-If you decide to take the upgrade shortcut to migrate your AppMeasurement or Analytics extension implementation to use the Web SDK, a new step is added to the dynamically generated steps for your organization in the [Adobe Analytics to Customer Journey Analytics upgrade questionnaire](https://gigazelle.github.io/cja-ttv/).
+如果您決定採取升級捷徑來移轉您的AppMeasurement或Analytics擴充功能實作，以使用Web SDK，則會在[Adobe Analytics中為貴組織新增動態產生的步驟，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
 
-The basic steps for migrating an AppMeasurement or Analytics extension implementation to use the Web SDK are:
+移轉AppMeasurement或Analytics擴充功能實作以使用Web SDK的基本步驟如下：
 
 1. 開始傳送資料至Platform。
 
