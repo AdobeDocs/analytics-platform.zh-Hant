@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: 7f5eddcf1ceaa6228411867f5794bfe72b2ad6ab
+source-git-commit: 37be5b159b756db2c8b523db6602f274541e2a81
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1541'
 ht-degree: 4%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 4%
 Data Analysis AI Assistant是智慧型內容感知交談代理程式，可協助您更快速、有效率地回答有關Customer Journey Analytics中Analysis Workspace資料的問題。
 
 「小幫手」會檢視資料檢視中的所有資料，包括不同型別的量度和元件，並將您的提示轉譯為適合分析的維度、量度和日期範圍。 您不必熟悉資料檢視元件，並以最佳組合拖放這些元件來回答您的問題，只要在AI Assistant中輸入問題即可。
+
+![Data Analysis AI助理](assets/cja-ai-asst-da.gif)
 
 ## Alpha版本的範圍內與範圍外功能
 
