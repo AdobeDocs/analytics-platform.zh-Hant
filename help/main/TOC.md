@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 64662195842ae799d2020c226ca34293905d13ae
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -46,16 +46,16 @@ ht-degree: 95%
       + [選擇您的升級路徑](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
       + [將資料傳送到 Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
-      + [建議的程式](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
-      + [架構您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
+      + [推薦程序](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
+      + [建立您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [建立您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
       + [使用您現有的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
       + [建立資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)
-      + [建立資料串流](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
-      + [新增Platform as a service](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
+      + [建立資料流](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)
+      + [新增平台即服務](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)
       + [建立連線](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
       + [建立資料視圖](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
-      + [驗證資料流程](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
+      + [驗證資料流](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
       + [升級捷徑：移轉至Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
@@ -379,7 +379,7 @@ ht-degree: 95%
       + [資料檢視使用案例](/help/use-cases/data-views/data-views-usecases.md)
       + [使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)
       + [使用摘要資料](/help/use-cases/data-views/summary-data.md)
-      + [BI擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)
+      + [BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)
    + 匯出資料 {#data-export}
       + [概觀](../use-cases/data-export/overview.md)
       + [BI 擴充功能](../use-cases/data-export/bi-extension.md)
