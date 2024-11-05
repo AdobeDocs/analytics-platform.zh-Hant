@@ -5,19 +5,19 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: 37be5b159b756db2c8b523db6602f274541e2a81
+source-git-commit: 376ad62c3883eef675f9b1df639e8c46ee259229
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 4%
+source-wordcount: '1596'
+ht-degree: 3%
 
 ---
 
 
 # Customer Journey Analytics中的Data Analysis AI助理 — Alpha
 
-Data Analysis AI Assistant是智慧型內容感知交談代理程式，可協助您更快速、有效率地回答有關Customer Journey Analytics中Analysis Workspace資料的問題。
+Data Analysis AI Assistant是Generative AI交談代理程式，可以協助您更快且更有效率地回答Customer Journey Analytics中有關Analysis Workspace資料的問題。
 
-「小幫手」會檢視資料檢視中的所有資料，包括不同型別的量度和元件，並將您的提示轉譯為適合分析的維度、量度和日期範圍。 您不必熟悉資料檢視元件，並以最佳組合拖放這些元件來回答您的問題，只要在AI Assistant中輸入問題即可。
+當您在AI Assistant中提出問題時，AI Assistant會掃描資料檢視中的所有元件，包括不同型別的量度和元件，並將您的提示轉譯為適合分析的維度、量度和日期範圍。 您不必熟悉資料檢視元件，並以最佳組合拖放這些元件來回答您的問題，只要在AI Assistant中輸入問題即可。
 
 ![Data Analysis AI助理](assets/cja-ai-asst-da.gif)
 
@@ -32,6 +32,7 @@ Data Analysis AI Assistant是智慧型內容感知交談代理程式，可協助
 | **範圍外提示偵測** | 如果您提交超出範圍的提示（例如「匯出此專案」），「助理員」會通知您問題超出範圍。 |
 | **澄清問題** | 如果您要問的問題沒有足夠內容可供AI助理回答或過於寬泛，則AI助理會以澄清問題和/或建議的選項回應。 範例： <p>**元件**<ul><li>量度： *您指的是哪個「收入」量度？*</li><li>Dimension： *您想要著重下列哪個「地區」？*</li><li>篩選器： *您要套用哪個「帳戶」篩選器？*</li><li>日期範圍： *以「上個月」表示，您是指「上個月」還是「過去30天」？*</li></ul>**Dimension專案**：您指的是哪個「商店名稱」？ (例如，商店#5274、商店#2949等) |
 | **多圈** | AI助理以先前提示的內容回應提示，讓使用者可以更新視覺效果和提出後續問題。範例： <ul><li>提示1： *自3月*&#x200B;起的趨勢事件</li><li>提示2： *改為顯示三月到四月的資料*</li></ul> |
+| **可驗證性** | 可透過產生的自由表格和資料視覺效果確認資料可驗證性和正確性。 例如，如果使用者詢問&#x200B;*上個月*&#x200B;的趨勢訂單，您可以確認在新產生的面板、資料視覺效果和自由表格中選取了正確的量度（「訂單」）和日期範圍（「上個月」）。 |
 | **意見反應** | <ul><li>豎起大拇指</li><li>向下拇指</li><li>標幟</li></ul> |
 
 ### 範圍外的Alpha功能
@@ -42,7 +43,6 @@ Data Analysis AI Assistant是智慧型內容感知交談代理程式，可協助
 | **澄清問題** | 澄清的問題僅限於元件和維度專案。 AI Assistant無法釐清資料檢視、視覺效果、資料精細度、比較、範圍等。 如果沒有澄清問題，「助理」會預設為您最可能要求的內容。 如果它傳回非預期的視覺效果或資料詳細程度，您就可以使用多圈/更新功能來調整視覺效果和資料。 |
 | **Workspace動作/功能** | 除了建置和更新視覺效果以外，AI助理無法在Workspace中為使用者執行動作。 例如，它無法執行下列任何動作：<ul><li>內容動作UI按鈕（新增至圖表、新面板、新表格）</li><li>共用</li><li>匯出</li><li>下載</li><li>管理使用者偏好設定</li><li>組織</li><li>管理資料檢視</li><li>Analytics儀表板應用程式</li><li>歸因</li></ul> |
 | **不支援的視覺效果型別** | <ul><li>流量</li><li>流失</li><li>同類群組表格</li><li>區域圖、棧疊區域圖</li><li>堆疊長條圖</li><li>項目符號</li><li>組合</li><li>長條圖</li><li>橫條圖、棧疊橫條圖</li><li>關鍵量度摘要</li><li>散佈圖</li><li>摘要變更</li><li>文字</li><li>樹狀圖</li><li>文氏圖表</li></ul> |
-| **可說明性和可驗證性** | AI助理產生回應的方式透明描述或引文，並提供您確認答案正確的方法。 |
 
 <!---## Feature access in the Customer Journey Analytics UI
 
@@ -77,7 +77,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 3. 按一下專案頁面頂端橫幅中的&#x200B;**[!UICONTROL 空白專案]**，開啟新的空白專案。
 
-4. 確保面板的所選資料檢視是已針對AI Assistant啟用以進行Alpha測試的資料檢視(如果您不確定，請聯絡taylorb@adobe.com或在AlphaSlack頻道中)
+4. 確保面板的所選資料檢視是已針對AI Assistant啟用以進行Alpha測試的資料檢視(如果您不確定，請聯絡AlphaSlack頻道)
 
 5. 按一下右上角的AI助理聊天圖示。
 
@@ -111,23 +111,23 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 ### 範例 3
 
-現在來依照產品類別檢視收入。
+接著，除了瞭解按地區劃分的收入之外，您還要檢視依地區劃分的利潤資料。 與其重新輸入上一個提示，您可以要求AI助理更新最新的視覺效果和自由表格。
+
+1. 在提示視窗中，輸入&#x200B;*「新增利潤」*。
+
+2. **[!UICONTROL 橫條圖]**&#x200B;仍提供最簡明的答案，但利潤量度已新增為自由表格中的欄：
+
+   ![長條圖](/help/assets/ai-asst-result4.png)
+
+### 範例 4
+
+最後，我們來依照產品類別檢視收入。
 
 1. 在提示視窗中，輸入&#x200B;*「依產品類別的收入比例」。*
 
 2. 再次強調，Data Analysis AI Assistant會挑選最適合的視覺效果（在此案例中為&#x200B;**[!UICONTROL 環形圖]**&#x200B;視覺效果）來回答問題。
 
    ![環形圖](/help/assets/ai-asst-result3.png)
-
-### 範例 4
-
-最後，您想知道哪個SKU最有利可圖，以及您應該將行銷資源投資於何處。
-
-1. 在提示視窗中，詢問&#x200B;*「從2月到5月，SKU間的利潤是多少？」*
-
-2. 簡單的&#x200B;**[!UICONTROL 橫條圖]**&#x200B;提供最簡明的答案：
-
-   ![長條圖](/help/assets/ai-asst-result4.png)
 
 ## 範例資料分析提示
 
@@ -180,7 +180,6 @@ AI Assistant會處理每個使用者提示所提供的內容，並嘗試以自�
 
 ## 問題與連絡人
 
-* 電子郵件`taylorb@adobe.com` （下午）
 * 在AlphaSlack頻道中傳送問題和意見回饋： #aep-cja-ai-assistant-testers ???
 
 
