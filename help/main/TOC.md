@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 64662195842ae799d2020c226ca34293905d13ae
+source-git-commit: dcb01aa4ca885e00c5fe8b4c3373f0b57bace1e4
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 98%
+source-wordcount: '1003'
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,9 @@ ht-degree: 98%
       + [將資料傳送到 Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [推薦程序](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
+      + [瞭解Analytics實施](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
+      + [建立分類的查詢資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+      + [使用標籤進行升級](/help/getting-started/cja-upgrade/cja-upgrade-websdk-tags.md)
       + [建立您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [建立您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
       + [使用您現有的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)

@@ -6,22 +6,20 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
+source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 53%
+source-wordcount: '987'
+ht-degree: 50%
 
 ---
 
 # 建立要與Customer Journey Analytics搭配使用的XDM結構描述
 
 >[!NOTE]
->
->完成[Adobe Analytics以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)後，應使用此檔案。
 > 
->您必須先完成先前為您的組織動態產生的所有步驟，才能依照本頁面的步驟操作。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
 >
->完成此頁面上的步驟後，請繼續依照為您的組織從[Adobe Analytics動態產生的升級步驟來Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
 >[!IMPORTANT]
 >
@@ -62,13 +60,13 @@ Adobe建議在升級至Customer Journey Analytics時建立Experience Data Model 
 
    1. 選取&#x200B;**[!UICONTROL 「完成」]**。
 
-1. 在範例結構描述的結構標籤中：
+1. 在結構描述的&#x200B;[!UICONTROL **結構**]&#x200B;標籤中：
 
-   1. 在[!UICONTROL 「欄位群組」]中選取&#x200B;**[!UICONTROL 「+ 新增」]**。
-
-      ![新增欄位群組](assets/add-field-group-button.png)
+   1. 在&#x200B;**[!UICONTROL 欄位群組]**&#x200B;區段中，選取&#x200B;**[!UICONTROL +新增]**。
 
       欄位群組是可重複使用的物件和屬性集合，可讓您輕鬆擴充結構。
+
+      ![新增欄位群組](assets/add-field-group-button.png)
 
    1. 在[!UICONTROL 「新增欄位群組」]對話框中，從清單中選取&#x200B;**[!UICONTROL 「AEP Web SDK ExperienceEvent」]**&#x200B;欄位群組。
 
@@ -116,7 +114,7 @@ Adobe建議在升級至Customer Journey Analytics時建立Experience Data Model 
 
    選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-1. 選取顯示結構名稱之結構的根元素，然後選取&#x200B;**[!UICONTROL 「輪廓」]**&#x200B;切換。
+1. （選擇性）如果要將Customer Journey Analytics與RTCDP整合，請選取顯示結構描述名稱的結構描述根元素，然後選取&#x200B;**[!UICONTROL 設定檔]**&#x200B;引數。
 
    系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶輪廓中。
 
@@ -124,7 +122,7 @@ Adobe建議在升級至Customer Journey Analytics時建立Experience Data Model 
 
    >[!IMPORTANT]
    >
-   >    儲存啟用輪廓的結構後，便無法再為輪廓停用該結構。
+   >為設定檔啟用結構描述後，無法為設定檔停用它。
 
    ![啟用輪廓結構](./assets/enable-for-profile.png)
 
@@ -148,5 +146,5 @@ Adobe建議在升級至Customer Journey Analytics時建立Experience Data Model 
 
    請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
-1. 繼續依照從[Adobe Analytics為您的組織動態產生的升級步驟來Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
 

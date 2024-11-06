@@ -8,12 +8,12 @@ hide: true
 hidefromtoc: true
 source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 27%
+source-wordcount: '240'
+ht-degree: 0%
 
 ---
 
-# 建立資料串流以用於Customer Journey Analytics
+# 建立查詢資料集以分類Customer Journey Analytics中的資料
 
 >[!NOTE]
 > 
@@ -21,23 +21,18 @@ ht-degree: 27%
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
-<!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
+與Adobe Analytics中的分類資料類似，查詢資料集是將資料分類Customer Journey Analytics的方法。
 
-資料流代表實作 Adobe Experience Platform Web 和 Mobile SDK 時的伺服器端設定。使用 Adobe Experience Platform SDK 收集資料時，資料會傳送至 Adobe Experience Platform Edge Network。是決定要將資料轉送至哪些服務的資料流。
+使用Analytics來源聯結器時，某些標準查詢資料集會在報告時自動套用。 如需詳細資訊，請參閱[將標準查詢新增至資料集](/help/connections/standard-lookups.md)。
 
-在您的設定中，您想要設定資料串流，以將收集的資料傳送至Adobe Experience Platform中的資料集。
+若要使用Experience Platform Web SDK的新實作方式分類資料，您必須為包含您要分類之資料的每個維度建立查詢資料集。
 
-若要設定您的資料流：
+若要建立查詢資料集以用於Customer Journey Analytics：
 
-1. 在Adobe Experience Platform中，從左側邊欄的[!UICONTROL 資料彙集]中選取&#x200B;**[!UICONTROL 資料串流]**。
+1. 在AEP中，建立新結構描述。 這是專用於查詢資料集的新結構描述。 您無法使用現有的結構描述。
 
-1. 選取「**[!UICONTROL 新資料流]**」。
+1. 您必須建立用於查閱的新結構描述類別。
 
-1. 命名並描述您的資料流。從[!UICONTROL 「事件結構」]清單中選取您的結構。
-
-   ![新資料流](assets/new-datastream.png)
-
-1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+1. 從中建立查詢資料集。
 
 1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
-
