@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: d65171873f68835de0628b95158f01713eaacb6b
+source-git-commit: ce1f27b00b55d5c3780907c50107b081264000bd
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 81%
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_component_dimension_persistence"
 >title="持續性"
->abstract="設定套用至維度的預設配置模式。配置會在報告中的篩選器之前套用。如要了解更多資訊，請參閱[配置設定](/help/data-views/component-settings/persistence.md#allocation-settings)、[過期設定](/help/data-views/component-settings/persistence.md#expiration-settings)、[繫結維度](/help/data-views/component-settings/persistence.md#binding-dimension)和繫結量度。"
+>abstract="設定套用至維度的預設配置模式。配置會在報告中的篩選器之前套用。檢視詳細資訊[配置設定](/help/data-views/component-settings/persistence.md#allocation-settings)、[到期設定](/help/data-views/component-settings/persistence.md#expiration-settings)、[繫結維度](/help/data-views/component-settings/persistence.md#binding-dimension)和[繫結量度](/help/data-views/component-settings/persistence.md#binding-metric)。"
 
 <!-- markdownlint-enable MD034 -->
 
