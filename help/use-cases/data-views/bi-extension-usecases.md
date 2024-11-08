@@ -7,16 +7,16 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: adc9e888eece72031ed234e634b206475d1539d7
+source-git-commit: 7fc625fcca51deebf860829ac67ca1b88b64cd1a
 workflow-type: tm+mt
-source-wordcount: '9056'
+source-wordcount: '9048'
 ht-degree: 2%
 
 ---
 
 # BI 擴充功能使用案例
 
-本文記錄如何使用Customer Journey AnalyticsBI擴充功能完成許多使用案例。 針對每個使用案例說明Customer Journey Analytics功能，然後說明支援的每個BI工具的詳細資料：
+本文記錄如何使用Customer Journey AnalyticsBI擴充功能完成許多使用案例。 每個使用案例都會說明Customer Journey Analytics功能，以及支援的每個BI工具的詳細資訊：
 
 * **Power BI案頭**。 使用的版本是2.137.1102.0 64位元（2024年10月）。
 * **Tableau案頭**。 使用的版本為2024.1.5 (20241.24.0705.0334) 64位元。
@@ -1473,18 +1473,18 @@ Customer Journey Analytics物件可在&#x200B;**[!UICONTROL 資料]**&#x200B;窗
 您在Customer Journey Analytics中定義的篩選器可作為**[!UICONTROL filterName]**&#x200B;欄位的一部分使用。 當您在Power BI案頭中使用&#x200B;**[!UICONTROL filterName]**&#x200B;欄位時，您可以指定要使用的篩選器。
 
 **計算量度**
-您在Customer Journey Analytics中定義的計算量度由您為計算量度定義的[!UICONTROL 外部ID]識別。 例如，計算量度&#x200B;**[!UICONTROL 產品名稱（相異計數）]**&#x200B;具有[!UICONTROL 外部識別碼] **[!UICONTROL product_name_count_distinct]**，並在Power BI案頭中顯示為**[!UICONTROL cm_product_name_count_distinc]**t。
+您在Customer Journey Analytics中定義的計算量度，會由您為計算量度定義的[!UICONTROL 外部ID]識別。 例如，計算量度&#x200B;**[!UICONTROL 產品名稱（相異計數）]**&#x200B;具有[!UICONTROL 外部識別碼] **[!UICONTROL product_name_count_distinct]**，並在Power BI案頭中顯示為**[!UICONTROL cm_product_name_count_distinc]**t。
 
 **日期範圍**
 您在Customer Journey Analytics中定義的日期範圍可做為**[!UICONTROL daterangeName]**&#x200B;欄位的一部分。 當您使用&#x200B;**[!UICONTROL daterangeName]**&#x200B;欄位時，您可以指定要使用的日期範圍。
 
 **自訂轉換**
-Power BI案頭提供使用[資料分析運算式(DAX)](https://learn.microsoft.com/en-us/dax/dax-overview)的自訂轉換功能。 舉例來說，您想要執行以小寫字母顯示產品名稱的單一維度排名使用案例。 執行方法：
+Power BI案頭提供使用[資料分析運算式(DAX)](https://learn.microsoft.com/en-us/dax/dax-overview)的自訂轉換功能。 舉例來說，您想要執行以小寫字母顯示產品名稱的單一維度排名使用案例。
 
 1. 在報表檢視中，選取長條圖視覺效果。
 1. 在「資料」窗格中選取product_name。
 1. 選取工具列中的「新增欄」 。
-1. 在公式編輯器中定義名稱為`product_name_lower`的新欄，例如`product_name_lower = LOWER('public.cc_data_view[product_name])`。
+1. 在公式編輯器中，定義名稱為`product_name_lower`的新欄，如`product_name_lower = LOWER('public.cc_data_view[product_name])`。
    ![Power BI案頭轉換至Lower](assets/uc14-powerbi-transformation.png)
 1. 請務必在「資料」窗格中選取新的product_name_lower欄，而非product_name欄。
 1. 在表格視覺效果中，從![更多](/help/assets/icons/More.svg)中選取以表格顯示的報告。
@@ -1548,13 +1548,13 @@ limit 1000001
 您在Customer Journey Analytics中定義的篩選器可作為**[!UICONTROL 篩選器名稱]**&#x200B;欄位的一部分使用。 當您在Tableau中使用&#x200B;**[!UICONTROL 篩選器名稱]**&#x200B;欄位時，可以指定要使用的篩選器。
 
 **計算量度**
-您在Customer Journey Analytics中定義的計算量度由您為計算量度定義的[!UICONTROL 標題]識別。 例如，計算量度&#x200B;**[!UICONTROL 產品名稱（相異計數）]**&#x200B;有[!UICONTROL 標題] **[!UICONTROL 產品名稱（相異計數）]**，並在Tableau中顯示為&#x200B;**[!UICONTROL Cm產品名稱相異計數]**。
+您在Customer Journey Analytics中定義的計算量度會由您為計算量度定義的[!UICONTROL 標題]識別。 例如，計算量度&#x200B;**[!UICONTROL 產品名稱（相異計數）]**&#x200B;有[!UICONTROL 標題] **[!UICONTROL 產品名稱（相異計數）]**，並在Tableau中顯示為&#x200B;**[!UICONTROL Cm產品名稱相異計數]**。
 
 **日期範圍**
 您在Customer Journey Analytics中定義的日期範圍可做為**[!UICONTROL 日期範圍名稱]**&#x200B;欄位的一部分。 當您使用&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;欄位時，您可以指定要使用的日期範圍。
 
 **自訂轉換**
-Tableau Desktop提供使用[計算欄位](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm)的自訂轉換功能。 舉例來說，您想要執行以小寫字母顯示產品名稱的單一維度排名使用案例。 執行方法：
+Tableau Desktop提供使用[計算欄位](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm)的自訂轉換功能。 舉例來說，您想要執行以小寫字母顯示產品名稱的單一維度排名使用案例。
 
 1. 從主功能表選取&#x200B;**[!UICONTROL 分析]** > **[!UICONTROL 建立計算欄位]**。
    1. 使用函式`LOWER([Product Name])`定義&#x200B;**[!UICONTROL 小寫的產品名稱]**。
