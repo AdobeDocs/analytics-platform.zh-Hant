@@ -1,15 +1,15 @@
 ---
-title: 建立結構描述以進行Customer Journey Analytics
-description: 瞭解從Adobe Analytics升級為Customer Journey Analytics時的建議路徑
+title: 建立查詢資料集以分類Customer Journey Analytics中的資料
+description: 瞭解如何建立查詢資料集以分類Customer Journey Analytics中的資料
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 3827bafd85a03e8574667095b372aa61afb6756b
+source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
