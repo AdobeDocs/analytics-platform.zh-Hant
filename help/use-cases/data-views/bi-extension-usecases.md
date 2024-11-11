@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: 7fc625fcca51deebf860829ac67ca1b88b64cd1a
+source-git-commit: ae07aa8a275a37f88d7626bac2f59e21d4c40e5a
 workflow-type: tm+mt
-source-wordcount: '9048'
-ht-degree: 2%
+source-wordcount: '9752'
+ht-degree: 1%
 
 ---
 
@@ -23,31 +23,38 @@ ht-degree: 2%
 
 已記錄下列使用案例：
 
-* [連線並列出資料檢視](#connect-and-validate)
-* [每日趨勢](#daily-trend)
-* [每小時趨勢](#hourly-trend)
-* [每月趨勢](#monthly-trend)
-* [單一維度排名](#single-dimension-ranked)
-* [多個維度排名](#multiple-dimension-ranked)
-* [計算不同的維度值](#count-distinct-dimension-values)
-* [使用日期範圍名稱進行篩選](#use-date-range-names-to-filter)
-* [使用篩選器名稱來篩選](#use-filter-names-to-filter)
-* [使用維度值來篩選](#use-dimension-values-to-filter)
-* [排序](#sort)
-* [限制](#limits)
-* [是否平面化](#to-flatten-or-not)
-* [轉換](#transformations)
-* [視覺效果](#visualizations)
+* **連線**
+   * [連線並列出資料檢視](#connect-and-validate)
+   * [是否平面化](#to-flatten-or-not)
 
-第一個使用案例聚焦於如何使用Customer Journey AnalyticsBI擴充功能連線BI工具。
+* **報告和分析**
+   * [每日趨勢](#daily-trend)
+   * [每小時趨勢](#hourly-trend)
+   * [每月趨勢](#monthly-trend)
+   * [單一維度排名](#single-dimension-ranked)
+   * [多個維度排名](#multiple-dimension-ranked)
+   * [計算不同的維度值](#count-distinct-dimension-values)
+   * [使用日期範圍名稱進行篩選](#use-date-range-names-to-filter)
+   * [使用篩選器名稱來篩選](#use-filter-names-to-filter)
+   * [使用維度值來篩選](#use-dimension-values-to-filter)
+   * [排序](#sort)
+   * [限制](#limits)
 
-使用案例2至12中，提供如何在目前支援的BI工具中完成類似Customer Journey Analytics視覺化的相關指示。
+* **瞭解**
 
-使用案例13至15提供以下專案的詳細資訊：
+   * [轉換](#transformations)
+   * [視覺效果](#visualizations)
+   * [注意事項](#caveats)
 
-* 連線至BI工具的不同方式。
+**connect**&#x200B;使用案例著重於如何使用Customer Journey AnalyticsBI擴充功能連線BI工具。
+
+**報表和分析**&#x200B;使用案例會指示如何在目前支援的BI工具中完成類似的Customer Journey Analytics視覺效果。
+
+**瞭解**&#x200B;使用案例提供以下詳細資訊：
+
 * 當您使用BI工具來報告和分析時所發生的轉換。
 * Customer Journey Analytics和BI工具之間的視覺效果異同。
+* 您應留意的每個BI工具注意事項。
 
 
 ## 連線並驗證
@@ -147,6 +154,57 @@ ht-degree: 2%
       1. 將&#x200B;**[!UICONTROL cc_data_view]**&#x200B;專案拖放到顯示&#x200B;**[!UICONTROL 將表格]**&#x200B;拖曳到此處的主檢視上。
    1. 主視窗會顯示&#x200B;**[!UICONTROL cc_data_view]**資料檢視的詳細資料。
       ![Tableau已連線](assets/tableau-validation.png)
+
+>[!ENDTABS]
+
++++
+
+## 是否平面化
+
+在此使用案例中，您想要瞭解在使用BI擴充功能連線至Customer Journey Analytics時，是否必須為資料庫使用額外的`FLATTEN`引數。
+
++++ Customer Journey Analytics
+
+Customer Journey Analytics提供有關如何在Experience Platform介面中連線的資訊。
+
+1. 導覽至您的Experience Platform沙箱。
+1. 從左側邊欄選取![查詢](/help/assets/icons/DataSearch.svg) **[!UICONTROL 查詢]**。
+1. 在&#x200B;**[!UICONTROL 查詢]**&#x200B;介面中選取&#x200B;**[!UICONTROL 認證]**&#x200B;標籤。
+1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表中選取`prod:cja`。
+
+![查詢服務認證](assets/queryservice-credentials.png)
+
+
++++
+
++++ BI 工具
+
+>[!PREREQUISITES]
+>
+>確定您已驗證[連線成功，可以列出資料檢視，並針對您想要嘗試此使用案例的BI工具使用資料檢視](#connect-and-validate)。 請參閱BI工具一節，瞭解正確連線所需的明確`FLATTEN`引數選項。
+>
+
+>[!BEGINTABS]
+
+>[!TAB Power BI案頭]
+
+Power BI案頭支援下列`FLATTEN`引數案例。
+
+| FLATTEN引數 | 範例 | 支援 | 備註 |
+|---|---|:---:|---|
+| 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCycle](/help/assets/icons/CloseCircle.svg) | Power BI案頭顯示錯誤： **[!UICONTROL 無法使用提供的認證進行驗證。 請再試一次。]** |
+
+>[!TAB Tableau案頭]
+
+Tableau Desktop支援下列`FLATTEN`引數案例。
+
+| FLATTEN引數 | 範例 | 支援 | 備註 |
+|---|---|:---:|---|
+| 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
 
 >[!ENDTABS]
 
@@ -862,8 +920,8 @@ ht-degree: 2%
 1. 選取底部的&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤，以從&#x200B;**[!UICONTROL 資料來源]**&#x200B;切換。 在&#x200B;**[!UICONTROL 工作表1]**&#x200B;檢視中：
    1. 從&#x200B;**[!UICONTROL 篩選器]**&#x200B;托架中的&#x200B;**[!UICONTROL 表格]**&#x200B;清單拖曳&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;專案。
    1. 在&#x200B;**[!UICONTROL 篩選器\[日期範圍名稱\]]**&#x200B;對話方塊中，確定已選取&#x200B;**[!UICONTROL 從清單中選取]**，並從清單中選取&#x200B;**[!UICONTROL 去年的2023]**。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;及&#x200B;**[!UICONTROL 確定]**。
-   1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單將&#x200B;**[!UICONTROL Daterangemonth]**&#x200B;專案拖曳到&#x200B;**[!UICONTROL 列]**。 選取&#x200B;**[!UICONTROL Daterangemonth]**&#x200B;並選取&#x200B;**[!UICONTROL 月]**。 值變更為&#x200B;**[!UICONTROL MONTH(Daterangemonth)]**。
-   1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單將&#x200B;**[!UICONTROL 發生次數]**&#x200B;專案拖曳到&#x200B;**[!UICONTROL 欄]**。 值變更為&#x200B;**[!UICONTROL SUM（發生次數）]**。
+   1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單拖曳&#x200B;**[!UICONTROL Daterangemonth]**&#x200B;專案，並將該專案拖放至&#x200B;**[!UICONTROL 列]**&#x200B;旁的欄位中。 選取&#x200B;**[!UICONTROL Daterangemonth]**&#x200B;並選取&#x200B;**[!UICONTROL 月]**。 值變更為&#x200B;**[!UICONTROL MONTH(Daterangemonth)]**。
+   1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單拖曳&#x200B;**[!UICONTROL 發生次數]**&#x200B;專案，並將該專案拖放至&#x200B;**[!UICONTROL 欄]**&#x200B;旁的欄位中。 值變更為&#x200B;**[!UICONTROL SUM（發生次數）]**。
    1. 從&#x200B;**[!UICONTROL 顯示我]**&#x200B;中選取&#x200B;**[!UICONTROL 文字表]**。
    1. 從工具列選取&#x200B;**[!UICONTROL 交換列與欄]**。
    1. 從&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 符合寬度]**。
@@ -938,7 +996,7 @@ Inspect您要用於Customer Journey Analytics的篩選器。
    1. 在&#x200B;**[!UICONTROL 篩選欄位\[日期範圍\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並選取&#x200B;**[!UICONTROL 下一步>]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[日期範圍]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**，然後選取`01/01/2023` - `01/02/2023`。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;及&#x200B;**[!UICONTROL 確定]**。
    1. 將&#x200B;**[!UICONTROL 產品名稱]**&#x200B;從&#x200B;**[!UICONTROL 表格]**&#x200B;清單拖曳至&#x200B;**[!UICONTROL 列]**。
-   1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單將&#x200B;**[!UICONTROL 發生次數]**&#x200B;專案拖曳到&#x200B;**[!UICONTROL 欄]**。 值變更為&#x200B;**[!UICONTROL SUM（發生次數）]**。
+   1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單拖曳&#x200B;**[!UICONTROL 發生次數]**&#x200B;專案，並將該專案拖放至&#x200B;**[!UICONTROL 欄]**&#x200B;旁的欄位中。 值變更為&#x200B;**[!UICONTROL SUM（發生次數）]**。
    1. 從&#x200B;**[!UICONTROL 顯示我]**&#x200B;中選取&#x200B;**[!UICONTROL 文字表]**。
    1. 從&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 符合寬度]**。
 
@@ -1014,7 +1072,7 @@ Inspect您要用於Customer Journey Analytics的篩選器。
    1. 在&#x200B;**[!UICONTROL 篩選欄位\[日期範圍\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並選取&#x200B;**[!UICONTROL 下一步>]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[日期範圍]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**，然後選取`01/01/2023` - `1/2/2023`。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;及&#x200B;**[!UICONTROL 確定]**。
    1. 將&#x200B;**[!UICONTROL 產品名稱]**&#x200B;從&#x200B;**[!UICONTROL 表格]**&#x200B;清單拖曳至&#x200B;**[!UICONTROL 列]**。
-   1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單將&#x200B;**[!UICONTROL 發生次數]**&#x200B;專案拖曳到&#x200B;**[!UICONTROL 欄]**。 值變更為&#x200B;**[!UICONTROL SUM（發生次數）]**。
+   1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單拖曳&#x200B;**[!UICONTROL 發生次數]**&#x200B;專案，並將該專案拖放至&#x200B;**[!UICONTROL 欄]**&#x200B;旁的欄位中。 值變更為&#x200B;**[!UICONTROL SUM（發生次數）]**。
    1. 從&#x200B;**[!UICONTROL 顯示我]**&#x200B;中選取&#x200B;**[!UICONTROL 文字表]**。
    1. 從&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 符合寬度]**。
 
@@ -1168,7 +1226,7 @@ limit 1000001
    1. 在&#x200B;**[!UICONTROL 篩選欄位\[日期範圍\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並選取&#x200B;**[!UICONTROL 下一步>]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[日期範圍]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**，然後選取`01/01/2023` - `1/2/2023`。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;及&#x200B;**[!UICONTROL 確定]**。
    1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖曳&#x200B;**[!UICONTROL 產品名稱]**，並將專案拖放至&#x200B;**[!UICONTROL 列]**&#x200B;旁的欄位中。
-   1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單將&#x200B;**[!UICONTROL 購買]**&#x200B;專案拖曳到&#x200B;**[!UICONTROL 欄]**。 值變更為&#x200B;**[!UICONTROL SUM（購買）]**。
+   1. 從&#x200B;**[!UICONTROL 資料表]**&#x200B;清單拖曳&#x200B;**[!UICONTROL 購買]**&#x200B;專案，並將該專案拖放至&#x200B;**[!UICONTROL 資料行]**&#x200B;旁的欄位中。 值變更為&#x200B;**[!UICONTROL SUM（購買）]**。
    1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖曳&#x200B;**[!UICONTROL Purchase Revenue]**&#x200B;專案，並將該專案拖放至&#x200B;**[!UICONTROL 欄]**、**[!UICONTROL SUM(Purchases)]**&#x200B;旁邊的欄位中。 值變更為&#x200B;**[!UICONTROL SUM（購買收入）]**。
    1. 從&#x200B;**[!UICONTROL 顯示我]**&#x200B;中選取&#x200B;**[!UICONTROL 文字表]**。
    1. 從&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 符合寬度]**。
@@ -1333,7 +1391,7 @@ limit 1000001
    1. 在&#x200B;**[!UICONTROL 篩選欄位\[日期範圍\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並選取&#x200B;**[!UICONTROL 下一步>]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[日期範圍]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 相對日期]**，選取&#x200B;**[!UICONTROL 年]**，然後選取&#x200B;**[!UICONTROL 先前的年]**。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;及&#x200B;**[!UICONTROL 確定]**。
    1. 將&#x200B;**[!UICONTROL 產品名稱]**&#x200B;從&#x200B;**[!UICONTROL 表格]**&#x200B;清單拖曳至&#x200B;**[!UICONTROL 列]**。
-   1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單將&#x200B;**[!UICONTROL 發生次數]**&#x200B;專案拖曳到&#x200B;**[!UICONTROL 欄]**。 值變更為&#x200B;**[!UICONTROL SUM（發生次數）]**。
+   1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;清單拖曳&#x200B;**[!UICONTROL 發生次數]**&#x200B;專案，並將該專案拖放至&#x200B;**[!UICONTROL 欄]**&#x200B;旁的欄位中。 值變更為&#x200B;**[!UICONTROL SUM（發生次數）]**。
    1. 從&#x200B;**[!UICONTROL 顯示我]**&#x200B;中選取&#x200B;**[!UICONTROL 文字表]**。
    1. 從&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 符合寬度]**。
    1. 在&#x200B;**[!UICONTROL 列]**&#x200B;中選取&#x200B;**[!UICONTROL 產品名稱]**。 從下拉式功能表中選取&#x200B;**[!UICONTROL 篩選器]**。
@@ -1383,60 +1441,6 @@ GROUP BY 1
 >[!ENDTABS]
 
 +++
-
-
-## 是否平面化
-
-您想要瞭解在使用BI擴充功能連線至Customer Journey Analytics時，是否必須為資料庫使用額外的`FLATTEN`引數。
-
-+++ Customer Journey Analytics
-
-Customer Journey Analytics提供有關如何在Experience Platform介面中連線的資訊。
-
-1. 導覽至您的Experience Platform沙箱。
-1. 從左側邊欄選取![查詢](/help/assets/icons/DataSearch.svg) **[!UICONTROL 查詢]**。
-1. 在&#x200B;**[!UICONTROL 查詢]**&#x200B;介面中選取&#x200B;**[!UICONTROL 認證]**&#x200B;標籤。
-1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表中選取`prod:cja`。
-
-![查詢服務認證](assets/queryservice-credentials.png)
-
-
-+++
-
-+++ BI 工具
-
->[!PREREQUISITES]
->
->確定您已驗證[連線成功，可以列出資料檢視，並針對您想要嘗試此使用案例的BI工具使用資料檢視](#connect-and-validate)。 請參閱BI工具一節，瞭解正確連線所需的明確`FLATTEN`引數選項。
->
-
->[!BEGINTABS]
-
->[!TAB Power BI案頭]
-
-Power BI案頭支援下列`FLATTEN`引數案例。
-
-| FLATTEN引數 | 範例 | 支援 | 備註 |
-|---|---|:---:|---|
-| 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCycle](/help/assets/icons/CloseCircle.svg) | Power BI案頭顯示錯誤： **[!UICONTROL 無法使用提供的認證進行驗證。 請再試一次。]** |
-
->[!TAB Tableau案頭]
-
-Tableau Desktop支援下列`FLATTEN`引數案例。
-
-| FLATTEN引數 | 範例 | 支援 | 備註 |
-|---|---|:---:|---|
-| 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-
->[!ENDTABS]
-
-+++
-
-
 
 ## 轉換
 
@@ -1603,7 +1607,9 @@ Customer Journey Analytics有許多視覺效果。 請參閱[視覺效果](/help
 
 >[!TAB Power BI案頭]
 
-下列Customer Journey Analytics視覺效果是在Power BI案頭提供的類似體驗。
+### 比較
+
+針對大多數Customer Journey Analytics視覺效果，Power BI Desktop提供同等體驗。 請參閱下表。
 
 | 圖示 | Customer Journey Analytics視覺效果 | Power BI案頭視覺效果 |
 | :---: | --- | ---| 
@@ -1631,10 +1637,62 @@ Customer Journey Analytics有許多視覺效果。 請參閱[視覺效果](/help
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md)<p> | [樹狀圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#treemaps) |
 | ![Type](/help/assets/icons/TwoDots.svg) | [文氏圖表](/help/analysis-workspace/visualizations/venn.md) | |
 
+
+### 深入研究
+
+Power BI支援[鑽研模式](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill)，以深入探索特定視覺效果的詳細資料。 在以下範例中，您會分析產品類別的購買收入。 從代表產品類別之條的內容功能表中，您可以選取&#x200B;**[!UICONTROL 向下切入]**。
+
+![Power BI深入研究](assets/uc15-powerbi-drilldown.png)
+
+深入研究將會以所選產品類別中產品的購買收入更新視覺效果。
+
+![Power BI向上鑽研](assets/uc15-powerbi-drillup.png)
+
+向下鑽研會在下列使用`WHERE`子句的SQL查詢中產生：
+
+```sql
+select "_"."product_category" as "c25",
+    "_"."product_name" as "c26",
+    "_"."a0" as "a0"
+from 
+(
+    select "_"."product_category",
+        "_"."product_name",
+        "_"."a0"
+    from 
+    (
+        select "_"."product_category",
+            "_"."product_name",
+            "_"."a0"
+        from 
+        (
+            select "rows"."product_category" as "product_category",
+                "rows"."product_name" as "product_name",
+                sum("rows"."purchase_revenue") as "a0"
+            from 
+            (
+                select "_"."product_category",
+                    "_"."product_name",
+                    "_"."purchase_revenue"
+                from "public"."cc_data_view" "_"
+                where ("_"."daterange" >= date '2023-01-01' and "_"."product_category" = 'Fishing') and "_"."daterange" < date '2024-01-01'
+            ) "rows"
+            group by "product_category",
+                "product_name"
+        ) "_"
+        where not "_"."a0" is null
+    ) "_"
+) "_"
+order by "_"."product_category",
+        "_"."product_name"
+limit 1001
+```
+
 >[!TAB Tableau案頭]
 
+### 比較
 
-下列Customer Journey Analytics視覺效果是在Tableau中提供的類似體驗。
+針對大多數Customer Journey Analytics視覺效果，Tableau會提供同等體驗。 請參閱下表。
 
 | 圖示 | Customer Journey Analytics視覺效果 | Power BI案頭視覺效果 |
 | :---: | --- | ---| 
@@ -1661,6 +1719,67 @@ Customer Journey Analytics有許多視覺效果。 請參閱[視覺效果](/help
 | ![Text](/help/assets/icons/Text.svg) | [文字](/help/analysis-workspace/visualizations/text.md) | |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md)<p> | [樹狀圖](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_treemap.htm) |
 | ![Type](/help/assets/icons/TwoDots.svg) | [文氏圖表](/help/analysis-workspace/visualizations/venn.md) | |
+
+
+### 深入研究
+
+Tableau支援[鑽研模式](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill)到[階層](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm)。 在以下範例中，當您在表格中選取「產品名稱」欄位並將其拖曳至「產品類別」頂端時，就會建立階層。 然後，從代表產品類別之條的內容功能表中，選取&#x200B;**[!UICONTROL +向下鑽研]**。
+
+![Tableau向下鑽研](assets/uc15-tableau-drilldown.png)
+
+深入研究將會以所選產品類別中產品的購買收入更新視覺效果。
+
+![Tableau向上鑽研](assets/uc15-tableau-drillup.png)
+
+向下鑽研會產生下列使用GROUP BY子句的SQL查詢：
+
+```sql
+SELECT CAST("cc_data_view"."product_category" AS TEXT) AS "product_category",
+  CAST("cc_data_view"."product_name" AS TEXT) AS "product_name",
+  SUM("cc_data_view"."purchase_revenue") AS "sum:purchase_revenue:ok"
+FROM "public"."cc_data_view" "cc_data_view"
+WHERE (("cc_data_view"."daterange" >= (TIMESTAMP '2023-01-01 00:00:00.000')) AND ("cc_data_view"."daterange" < (TIMESTAMP '2024-01-01 00:00:00.000')))
+GROUP BY 1,
+  2
+```
+
+查詢&#x200B;**不會**&#x200B;將結果限製為所選的產品類別；只有視覺效果會顯示所選的產品類別。
+
+![Tableau向上鑽研](assets/uc15-tableau-drillup2.png)
+
+或者，您可以建立一個向下鑽研圖示板，其中一個視覺效果是另一個視覺效果中選取的結果。 在下列範例中，**[!UICONTROL 產品類別]**&#x200B;視覺效果已用作更新&#x200B;**[!UICONTROL 產品名稱]**&#x200B;表格的篩選條件。 此視覺效果篩選器僅供使用者端使用，不會產生額外的SQL查詢。
+
+![Tableau視覺效果篩選器](assets/uc15-tableau-visualizationfilter.png)
+
+
+>[!ENDTABS]
+
++++
+
+
+## 注意事項
+
+每種支援的BI工具在使用Customer Journey AnalyticsBI擴充功能時都有一些注意事項。
+
++++ BI 工具
+
+>[!BEGINTABS]
+
+>[!TAB Power BI案頭]
+
+* Power BI Desktop Advanced日期範圍篩選是專屬的。  對於您的結束日期，您需要選取要報告的一天之後的日期。 例如，**[!UICONTROL 在]** `1/1/2023` **[!UICONTROL 上或之後，並在]** `1/2/2023`之前。
+* 建立連線時，Power BI案頭預設為&#x200B;**[!UICONTROL 匯入]**。 請確定您使用&#x200B;**[!UICONTROL 直接查詢]**。
+* Power BI Desktop透過Power Query公開資料轉換。  Power Query主要適用於「匯入」型別連線，因此許多您套用的轉換（如日期或字串函式）會擲回錯誤，指出您需要切換至「匯入」型別連線。  如果您需要在查詢時轉換資料，應使用衍生的維度和量度，因此Power BI不需要自行轉換。
+* Power BI Desktop不瞭解如何處理日期 — 時間型別欄，所以不支援&#x200B;**[!UICONTROL daterange *X *]**維度，例如**[!UICONTROL daterangehour ]**和**[!UICONTROL daterangeminute ]**。
+* Power BI案頭預設會嘗試使用更多查詢服務工作階段建立多個連線。  您應該進入專案的Power BI設定並停用平行查詢。
+* Power BI Desktop會執行所有排序和限制使用者端，而且對於前&#x200B;*X*&#x200B;個篩選也有不同的語意，其中包含繫結值，因此您無法建立與在Analysis Workspace中完全相同的排序和限制。
+* 舊版Power BI案頭2024年10月發行版本中斷PostgreSQL資料來源。 請確定您使用本文中提及的版本。
+
+>[!TAB Tableau案頭]
+
+* Tableau案頭日期範圍篩選不適用。 對於您的結束日期，您需要選取要報告的一天之後的日期。
+* 根據預設，當您新增日期或日期時間維度（例如&#x200B;**[!UICONTROL Daterangemonth]**）至工作表的列時，Tableau Desktop會以&#x200B;**[!UICONTROL YEAR()]**&#x200B;函式包住欄位。  若要取得您想要的結果，您必須選取該維度，然後從下拉式選單中選取您要使用的日期函式。  例如，當您嘗試使用&#x200B;**[!UICONTROL Daterangemonth]**&#x200B;時，將&#x200B;**[!UICONTROL 年]**&#x200B;變更為&#x200B;**[!UICONTROL 月]**。
+* 在Tableau Desktop中，將結果限制在前&#x200B;*X*&#x200B;是不明顯的。 您可以明確限制結果，或使用計算欄位和&#x200B;**[!UICONTROL INDEX()]**&#x200B;函式。  將Top *X*&#x200B;篩選器新增至維度，會使用不支援的內部聯結產生複雜的SQL。
 
 >[!ENDTABS]
 
