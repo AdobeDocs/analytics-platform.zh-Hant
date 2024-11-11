@@ -5,19 +5,19 @@ role: User, Admin
 solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
-source-git-commit: 376ad62c3883eef675f9b1df639e8c46ee259229
+exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
+source-git-commit: d0507dab387b9174aa3a119bdb22139edd0e8ca4
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 3%
 
 ---
 
+# 資料視覺化現在可在CJA的AI助理中使用
 
-# Customer Journey Analytics中的Data Analysis AI助理 — Alpha
+Customer Journey Analytics中的AI助理(CJA)是創作AI交談代理程式，可以協助您更快且更有效率地回答您在CJA中可能有Analysis Workspace資料的問題。
 
-Data Analysis AI Assistant是Generative AI交談代理程式，可以協助您更快且更有效率地回答Customer Journey Analytics中有關Analysis Workspace資料的問題。
-
-當您在AI Assistant中提出問題時，AI Assistant會掃描資料檢視中的所有元件，包括不同型別的量度和元件，並將您的提示轉譯為適合分析的維度、量度和日期範圍。 您不必熟悉資料檢視元件，並以最佳組合拖放這些元件來回答您的問題，只要在AI Assistant中輸入問題即可。
+當您提出資料視覺化問題時，AI Assistant會掃描資料檢視中的所有元件，包括不同型別的量度和元件，並將您的提示轉譯為適合分析的維度、量度和日期範圍。 您不必熟悉資料檢視元件，並以最佳組合拖放這些元件來回答您的問題，只要在AI Assistant中輸入問題即可。
 
 ![Data Analysis AI助理](assets/cja-ai-asst-da.gif)
 
@@ -48,20 +48,20 @@ Data Analysis AI Assistant是Generative AI交談代理程式，可以協助您�
 
 [Do we even need this section for the Alpha?]
 
-The following parameters govern access to the Data Analysis AI Assistant feature:
+The following parameters govern access to Data visualization in AI Assistant:
 
-* **Solution access**: The Data Analysis AI Assistant is available for Customer Journey Analytics Prime and Ultimate customers. It is not available in Adobe Analytics. 
+* **Solution access**: Data visualization in AI Assistant is available for Customer Journey Analytics Prime and Ultimate customers. It is not available in Adobe Analytics. 
 
 It is also available in Adobe Experience Platform, Adobe Journey Optimizer, Adobe Real-Time CDP and additional Experience Platform apps.
 
-* **Contractual access**: If you are not able to use AI Assistant, please contact your organization's administrator or Adobe Account Representative. Before your organization can use Data Analysis AI Assistant, your must agree to certain GenAI-related legal terms.
+* **Contractual access**: If you are not able to use AI Assistant, please contact your organization's administrator or Adobe Account Representative. Before your organization can use Data visualization in AI Assistant, your must agree to certain GenAI-related legal terms.
 
-* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Data Analysis]** permission determines access to this tool. A [product profile admin](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) needs to follow these steps in the [!UICONTROL Admin Console]:
+* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Data visualization]** permission determines access to this tool. A [product profile admin](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) needs to follow these steps in the [!UICONTROL Admin Console]:
    1. Navigate to **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
    1. Select the title of the product profile for which you want to provide access to [!UICONTROL AI Assistant: Product Knowledge].
    1. In the specific product profile, select **[!UICONTROL Permissions]**.
    1. Select ![Edit](/help/assets/icons/Edit.svg) to edit **[!UICONTROL Reporting Tools]**.
-   1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) to add **AI Assistant: Data Analysis** to **[!UICONTROL Included permission items]**.
+   1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) to add **AI Assistant: Data visualization** to **[!UICONTROL Included permission items]**.
    
       ![Add permission](assets/ai-assistant-permissions.png).
 
@@ -69,7 +69,7 @@ It is also available in Adobe Experience Platform, Adobe Journey Optimizer, Adob
 
 See [Access control](/help/technotes/access-control.md#access-control) for more information.--->
 
-## 存取及使用資料分析AI助理
+## 在AI Assistant中存取和使用資料視覺效果
 
 1. 前往[experience.adobe.com](https://experience.adobe.com/)，並使用您的Adobe ID登入。
 
@@ -83,7 +83,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
    ![AI助理圖示](/help/assets/ai-asst-icon.png)
 
-6. 在底部的&#x200B;**[!UICONTROL 詢問Customer Journey Analytics]**&#x200B;對話方塊中，在AI助理中詢問資料分析問題。
+6. 在底部的&#x200B;**[!UICONTROL 詢問Customer Journey Analytics]**&#x200B;對話方塊中，在AI助理中詢問資料視覺效果問題。
 
 ### 範例 1
 
@@ -125,11 +125,11 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 1. 在提示視窗中，輸入&#x200B;*「依產品類別的收入比例」。*
 
-2. 再次強調，Data Analysis AI Assistant會挑選最適合的視覺效果（在此案例中為&#x200B;**[!UICONTROL 環形圖]**&#x200B;視覺效果）來回答問題。
+2. 同樣地，AI Assistant中的資料視覺效果會挑選最適合的視覺效果（在此案例中是&#x200B;**[!UICONTROL 環形圖]**&#x200B;視覺效果）來回答問題。
 
    ![環形圖](/help/assets/ai-asst-result3.png)
 
-## 範例資料分析提示
+## 範例資料視覺效果提示
 
 以下是常見提示的一些範例，以及AI協助用於回應這些提示的視覺效果。
 
@@ -152,7 +152,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 AI Assistant會處理每個使用者提示所提供的內容，並嘗試以自由格式表格方式，以最適當的視覺效果和元件來聰明地回應。 不過，AI Assistant的回應可能會因提示中所使用的特定字詞和短語而有所不同，因此語言的微小變化可能會導致不同的結果。 以下說明如何充分運用此功能： <ul><li>明確：納入確切的辭彙（例如「上個月的加州銷售額」），以縮小回應範圍。</li><li>使用清除量度和篩選器：新增特定量度（例如「收入」）、維度（例如「網站名稱」）、篩選器(例如「iPhone使用者」)和日期範圍（例如「過去三個月」），有助於AI助理聚焦於正確的資料。</li><li>直接提問：直接措辭問題，例如「今年按產品類別的平均收入是多少？」 讓AI助理更易提供清晰、相關的深入分析。</li></ul>
 
-請檢閱下表，瞭解在CJA中使用Data Analysis AI助理的提示中可以使用的辭彙和短語範例，以及您可以預期的回應型別。 這些範例旨在協助您熟悉特定字詞或結構如何影響AI Assistant的輸出，以確保更精確和有價值的見解。 請注意，AI Assistant使用Generative AI，因此視覺效果或選取的資料可能會因類似提示而略有不同。
+請檢閱下表，瞭解在AI Assistant的資料視覺化提示中，您可以使用的辭彙和短語範例，以及您可以預期的回應型別。 這些範例旨在協助您熟悉特定字詞或結構如何影響AI Assistant的輸出，以確保更精確和有價值的見解。 請注意，AI Assistant使用Generative AI，因此視覺效果或選取的資料可能會因類似提示而略有不同。
 
 | 想要的結果 | 辭彙和短語範例 |
 | --- | --- |
@@ -181,5 +181,3 @@ AI Assistant會處理每個使用者提示所提供的內容，並嘗試以自�
 ## 問題與連絡人
 
 * 在AlphaSlack頻道中傳送問題和意見回饋： #aep-cja-ai-assistant-testers ???
-
-
