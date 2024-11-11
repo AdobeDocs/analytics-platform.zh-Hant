@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 1e4c14334da54a5a6e4a0f36b3538c6e4d1a0b6f
+source-git-commit: 261396f3a63e3356f100b860324b2e8bb9702800
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 98%
+source-wordcount: '1036'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,10 @@ ht-degree: 98%
       + [瞭解Analytics實施](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [建立分類的查詢資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [建立行銷管道衍生欄位](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
-      + [使用標籤進行升級](/help/getting-started/cja-upgrade/cja-upgrade-websdk-tags.md)
+      + [實作Web SDK擴充功能的載入器標籤](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md)
+      + [為屬性建立標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
+      + [將Web SDK擴充功能新增至您的標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+      + [將XDM資料收集邏輯新增至您的標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
       + [建立您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [建立您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
       + [使用您現有的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
