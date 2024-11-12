@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: ae07aa8a275a37f88d7626bac2f59e21d4c40e5a
+source-git-commit: 552b7fe20759036a0919fa622019e87b2722bb31
 workflow-type: tm+mt
 source-wordcount: '9752'
 ht-degree: 1%
@@ -70,7 +70,7 @@ ht-degree: 1%
 * 量度： **[!UICONTROL 購買收入]**??和&#x200B;**[!UICONTROL 購買]**??。
 * 篩選器： **[!UICONTROL 釣魚產品]**??。
 
-![Customer Journey Analytics基底設定](assets/cja-base.png)
+![Customer Journey Analytics基底設定](assets/cja-base.png){zoomable="yes"}
 
 當您進行使用案例時，請將這些範例物件取代為您特定環境的物件。
 
@@ -89,7 +89,7 @@ ht-degree: 1%
    1. 在&#x200B;**[!UICONTROL 查詢]**&#x200B;介面中選取&#x200B;**[!UICONTROL 認證]**&#x200B;標籤。
    1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表中選取`prod:cja`。
 
-      ![查詢服務認證](assets/queryservice-credentials.png)
+      ![查詢服務認證](assets/queryservice-credentials.png){width="100" zoomable="yes"}
 
 1. 啟動Power BI案頭。
    1. 從主介面中，選取&#x200B;**[!UICONTROL 從其他來源取得資料]**。
@@ -129,7 +129,7 @@ ht-degree: 1%
    1. 在&#x200B;**[!UICONTROL 查詢]**&#x200B;介面中選取&#x200B;**[!UICONTROL 認證]**&#x200B;標籤。
    1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表中選取`prod:cja`。
 
-      ![查詢服務認證](assets/queryservice-credentials.png)
+      ![查詢服務認證](assets/queryservice-credentials.png){zoomable="yes"}
 
 1. 啟動Tableau。
    1. 從&#x200B;**[!UICONTROL 下的左側邊欄選取**[!UICONTROL  PostgreSQL ]**以連線至伺服器]**。 如果無法取得，請選取&#x200B;**[!UICONTROL 更多……]**，然後從&#x200B;**[!UICONTROL 安裝的聯結器]**&#x200B;中選取&#x200B;**[!UICONTROL PostgreSQL]**。
