@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: 552b7fe20759036a0919fa622019e87b2722bb31
+source-git-commit: 749fbd5ae370995d772b6880c9949cf14042ed8c
 workflow-type: tm+mt
 source-wordcount: '9752'
 ht-degree: 1%
@@ -89,35 +89,35 @@ ht-degree: 1%
    1. 在&#x200B;**[!UICONTROL 查詢]**&#x200B;介面中選取&#x200B;**[!UICONTROL 認證]**&#x200B;標籤。
    1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表中選取`prod:cja`。
 
-      ![查詢服務認證](assets/queryservice-credentials.png){width="100" zoomable="yes"}
+      ![查詢服務認證](assets/queryservice-credentials.png){zoomable="yes"}
 
 1. 啟動Power BI案頭。
    1. 從主介面中，選取&#x200B;**[!UICONTROL 從其他來源取得資料]**。
    1. 在&#x200B;**[!UICONTROL 取得資料]**對話方塊中：
-      ![PowerBI PostgreSQL資料庫](assets/powerbi-postgresql.png)
+      ![PowerBI PostgreSQL資料庫](assets/powerbi-postgresql.png){zoomable="yes"}
       1. 搜尋並選取&#x200B;**[!UICONTROL PostgreSQL資料庫]**。
       1. 選取&#x200B;**[!UICONTROL 連線]**。
    1. 在&#x200B;**[!UICONTROL PostgreSQL資料庫]**對話方塊中：
-      ![PowerBI案頭伺服器和資料庫設定](assets/powerbi-serverdatabase.png)
+      ![PowerBI案頭伺服器和資料庫設定](assets/powerbi-serverdatabase.png){zoomable="yes"}
       1. 使用![複製](/help/assets/icons/Copy.svg)從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼上&#x200B;**[!UICONTROL 主機]**&#x200B;和&#x200B;**[!UICONTROL 連線埠]**&#x200B;值，以`:`分隔，作為&#x200B;**[!UICONTROL 伺服器]**&#x200B;的值。 例如：`examplecompany.platform-query.adobe.io:80`。
       1. 使用![複製](/help/assets/icons/Copy.svg)從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼上&#x200B;**[!UICONTROL 資料庫]**&#x200B;值。 將`?FLATTEN`新增至您貼上的值。 例如，`prod:cja?FLATTEN`。
       1. 選取&#x200B;**[!UICONTROL DirectQuery]**&#x200B;作為&#x200B;**[!UICONTROL 資料連線模式]**。
       1. 選取&#x200B;**[!UICONTROL 確定]**。
    1. 在&#x200B;**[!UICONTROL PostgreSQL資料庫]** - **[!UICONTROL 資料庫]**對話方塊中：
-      ![PowerBI案頭使用者和密碼](assets/powerbi-userpassword.png)
+      ![PowerBI案頭使用者和密碼](assets/powerbi-userpassword.png){zoomable="yes"}
       1. 使用![複製](/help/assets/icons/Copy.svg)從&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;欄位的Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板中複製&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;值。 如果您使用[不會到期的認證](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)，請使用不會到期的認證的密碼。
       1. 確定&#x200B;**[!UICONTROL 的下拉式功能表選取要套用這些設定至]**&#x200B;的層級，已設定為您先前定義的&#x200B;**[!UICONTROL 伺服器]**。
       1. 選取&#x200B;**[!UICONTROL 連線]**。
    1. 在&#x200B;**[!UICONTROL 導覽器]**對話方塊中，會擷取資料檢視。 此擷取作業可能需要一些時間。 擷取後，您會在Power BI案頭中看到以下內容。
-      ![Power BIDestkop載入資料](assets/powerbi-navigator-load.png)
+      ![Power BIDestkop載入資料](assets/powerbi-navigator-load.png){zoomable="yes"}
       1. 從左側面板的清單中選取&#x200B;**[!UICONTROL public.cc_data_view]**。
       1. 您有兩個選項:
          1. 選取&#x200B;**[!UICONTROL 載入]**&#x200B;以繼續並完成設定。
          1. 選取&#x200B;**[!UICONTROL 轉換資料]**。 您會看到一個對話方塊，您可以選擇將轉換套用為組態的一部分。
-            ![Power BI案頭轉換資料](assets/powerbi-transform-data.png)
+            ![Power BI案頭轉換資料](assets/powerbi-transform-data.png){zoomable="yes"}
             * 選取&#x200B;**[!UICONTROL 關閉並套用]**。
    1. 一段時間後，**[!UICONTROL public.cc_data_view]**&#x200B;會顯示在&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中。 選取![V形右側](/help/assets/icons/ChevronRight.svg)以顯示維度和量度。
-      已載入![Power BIDestkop伺服器資料](assets/powerbi-navigator-loaded.png)
+      已載入![Power BIDestkop伺服器資料](assets/powerbi-navigator-loaded.png){zoomable="yes"}
 
 
 >[!TAB Tableau案頭]
@@ -133,9 +133,9 @@ ht-degree: 1%
 
 1. 啟動Tableau。
    1. 從&#x200B;**[!UICONTROL 下的左側邊欄選取**[!UICONTROL  PostgreSQL ]**以連線至伺服器]**。 如果無法取得，請選取&#x200B;**[!UICONTROL 更多……]**，然後從&#x200B;**[!UICONTROL 安裝的聯結器]**&#x200B;中選取&#x200B;**[!UICONTROL PostgreSQL]**。
-      ![Tableau聯結器](assets/tableau-connectors.png)
+      ![Tableau聯結器](assets/tableau-connectors.png){zoomable="yes"}
    1. 在&#x200B;**[!UICONTROL PostgreSQL]**&#x200B;對話方塊的&#x200B;**[!UICONTROL 一般]**索引標籤中：
-      ![Tableau登入對話方塊](assets/tableau-signin.png)
+      ![Tableau登入對話方塊](assets/tableau-signin.png){zoomable="yes"}
       1. 使用![複製](/help/assets/icons/Copy.svg)將&#x200B;**[!UICONTROL 主機]**&#x200B;從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼到&#x200B;**[!UICONTROL 伺服器]**。
       1. 使用![複製](/help/assets/icons/Copy.svg)將&#x200B;**[!UICONTROL 連線埠]**&#x200B;從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼到&#x200B;**[!UICONTROL 連線埠]**。
       1. 使用![複製](/help/assets/icons/Copy.svg)將&#x200B;**[!UICONTROL 資料庫]**&#x200B;從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼到&#x200B;**[!UICONTROL 資料庫]**。 將`%3FFLATTEN`新增至您貼上的值。 例如：`prod:cja%3FFLATTEN`。
@@ -150,10 +150,10 @@ ht-degree: 1%
       * **[!UICONTROL 連線]**&#x200B;下的連線名稱。
       * **[!UICONTROL 資料庫]**&#x200B;底下的資料庫名稱。
       * **[!UICONTROL 表格]**下的表格清單。
-        ![Tableau已連線](assets/tableau-connected.png)
+        ![Tableau已連線](assets/tableau-connected.png){zoomable="yes"}
       1. 將&#x200B;**[!UICONTROL cc_data_view]**&#x200B;專案拖放到顯示&#x200B;**[!UICONTROL 將表格]**&#x200B;拖曳到此處的主檢視上。
    1. 主視窗會顯示&#x200B;**[!UICONTROL cc_data_view]**資料檢視的詳細資料。
-      ![Tableau已連線](assets/tableau-validation.png)
+      ![Tableau已連線](assets/tableau-validation.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -172,7 +172,7 @@ Customer Journey Analytics提供有關如何在Experience Platform介面中連�
 1. 在&#x200B;**[!UICONTROL 查詢]**&#x200B;介面中選取&#x200B;**[!UICONTROL 認證]**&#x200B;標籤。
 1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表中選取`prod:cja`。
 
-![查詢服務認證](assets/queryservice-credentials.png)
+![查詢服務認證](assets/queryservice-credentials.png){zoomable="yes"}
 
 
 +++
@@ -219,7 +219,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
 使用案例的範例&#x200B;**[!UICONTROL 每日趨勢]**&#x200B;面板：
 
-![Customer Journey Analytics每日趨勢面板](assets/cja_daily_trend.png)
+![Customer Journey Analytics每日趨勢面板](assets/cja_daily_trend.png){zoomable="yes"}
 
 +++
 
@@ -253,7 +253,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    使用與表格相同的資料時，折線圖視覺效果會取代表格。 您的Power BI案頭應該如下所示。
 
-   ![Power BI案頭使用案例2日期範圍篩選器](assets/uc2-pbi-daterange.png)
+   ![Power BI案頭使用案例2日期範圍篩選器](assets/uc2-pbi-daterange.png){zoomable="yes"}
 
 1. 線上圖視覺效果上：
 
@@ -262,7 +262,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    主要檢視已更新，顯示線條視覺效果和表格。 您的Power BI案頭應該如下所示。
 
-   ![Power BI案頭使用案例2每日趨勢最終視覺效果](assets/uc2-pbi-final.png)
+   ![Power BI案頭使用案例2每日趨勢最終視覺效果](assets/uc2-pbi-final.png){zoomable="yes"}
 
 >[!TAB Tableau案頭]
 
@@ -271,7 +271,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
    1. 在&#x200B;**[!UICONTROL 篩選器欄位\[日期範圍\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並選取&#x200B;**[!UICONTROL 下一步>]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[日期範圍]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並指定`01/01/2023` - `01/02/2023`的期間。
 
-      ![Tableau案頭篩選器](assets/uc2-tableau-filter.png)
+      ![Tableau案頭篩選器](assets/uc2-tableau-filter.png){zoomable="yes"}
 
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格的&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖放&#x200B;**[!UICONTROL Daterangeday]**，並將專案拖放到&#x200B;**[!UICONTROL 欄]**&#x200B;旁的欄位中。
       * 從&#x200B;**[!UICONTROL Daterangeday]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL Day]**，以便將值更新為&#x200B;**[!UICONTROL DAY(Daterangeday)]**。
@@ -281,7 +281,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭圖形](assets/uc2-tableau-graph.png)
+      ![Tableau案頭圖形](assets/uc2-tableau-graph.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 複製]**&#x200B;以建立第二個工作表。
 1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 重新命名]**，以將工作表重新命名為`Graph`。
@@ -293,7 +293,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭資料](assets/uc2-tableau-data.png)
+      ![Tableau案頭資料](assets/uc2-tableau-data.png){zoomable="yes"}
 
 1. 選取「**[!UICONTROL 新儀表板]**」索引標籤按鈕（在底部）以建立新的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。 在&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視中：
    1. 將&#x200B;**[!UICONTROL Graph]**&#x200B;工作表從&#x200B;**[!UICONTROL 工作表]**&#x200B;擱板拖放到&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視（顯示&#x200B;*將工作表拖放至此*）。
@@ -302,7 +302,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭儀表板1](assets/uc2-tableau-dashboard.png)
+      ![Tableau案頭儀表板1](assets/uc2-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -317,7 +317,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
 使用案例的範例&#x200B;**[!UICONTROL 每小時趨勢]**&#x200B;面板：
 
-![Customer Journey Analytics每小時趨勢視覺效果](assets/cja_hourly_trend.png)
+![Customer Journey Analytics每小時趨勢視覺效果](assets/cja_hourly_trend.png){zoomable="yes"}
 
 +++
 
@@ -341,7 +341,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
    1. 在&#x200B;**[!UICONTROL 篩選器欄位\[日期範圍\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並選取&#x200B;**[!UICONTROL 下一步>]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[日期範圍]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並指定`01/01/2023` - `02/01/2023`的期間。
 
-      ![Tableau案頭篩選器](assets/uc3-tableau-filter.png)
+      ![Tableau案頭篩選器](assets/uc3-tableau-filter.png){zoomable="yes"}
 
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格的&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖放&#x200B;**[!UICONTROL Daterangehour]**，並將專案拖放到&#x200B;**[!UICONTROL 欄]**&#x200B;旁的欄位中。
       * 從&#x200B;**[!UICONTROL Daterangeday]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 小時]**，以便將值更新為&#x200B;**[!UICONTROL 小時(Daterangeday)]**。
@@ -351,7 +351,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭圖形](assets/uc3-tableau-graph.png)
+      ![Tableau案頭圖形](assets/uc3-tableau-graph.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 複製]**&#x200B;以建立第二個工作表。
 1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 重新命名]**，以將工作表重新命名為`Graph`。
@@ -363,7 +363,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭資料](assets/uc3-tableau-data.png)
+      ![Tableau案頭資料](assets/uc3-tableau-data.png){zoomable="yes"}
 
 1. 選取「**[!UICONTROL 新儀表板]**」索引標籤按鈕（在底部）以建立新的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。 在&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視中：
    1. 將&#x200B;**[!UICONTROL Graph]**&#x200B;工作表從&#x200B;**[!UICONTROL 工作表]**&#x200B;擱板拖放到&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視（顯示&#x200B;*將工作表拖放至此*）。
@@ -372,7 +372,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視應如下所示。
 
-      ![Tableau案頭儀表板1](assets/uc3-tableau-dashboard.png)
+      ![Tableau案頭儀表板1](assets/uc3-tableau-dashboard.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -388,7 +388,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
 使用案例的範例&#x200B;**[!UICONTROL 每月趨勢]**&#x200B;面板：
 
-![Customer Journey Analytics每月趨勢視覺效果](assets/cja_monthly_trend.png)
+![Customer Journey Analytics每月趨勢視覺效果](assets/cja_monthly_trend.png){zoomable="yes"}
 
 +++
 
@@ -424,7 +424,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    使用與表格相同的資料時，折線圖視覺效果會取代表格。 您的Power BI案頭應該如下所示。
 
-   ![Power BI案頭使用案例2日期範圍篩選器](assets/uc4-pbi-filter-daterange.png)
+   ![Power BI案頭使用案例2日期範圍篩選器](assets/uc4-pbi-filter-daterange.png){zoomable="yes"}
 
 1. 線上圖視覺效果上：
 
@@ -433,7 +433,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    主要檢視已更新，顯示線條視覺效果和表格。 您的Power BI案頭應該如下所示。
 
-   ![Power BI案頭使用案例2每日趨勢最終視覺效果](assets/uc4-pbi-filter-final.png)
+   ![Power BI案頭使用案例2每日趨勢最終視覺效果](assets/uc4-pbi-filter-final.png){zoomable="yes"}
 
 >[!TAB Tableau案頭]
 
@@ -442,7 +442,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
    1. 在&#x200B;**[!UICONTROL 篩選器欄位\[日期範圍\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並選取&#x200B;**[!UICONTROL 下一步>]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[日期範圍]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並指定`01/01/2023` - `01/01/2024`的期間。
 
-      ![Tableau案頭篩選器](assets/uc4-tableau-filter.png)
+      ![Tableau案頭篩選器](assets/uc4-tableau-filter.png){zoomable="yes"}
 
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格的&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖放&#x200B;**[!UICONTROL Daterangeday]**，並將專案拖放到&#x200B;**[!UICONTROL 欄]**&#x200B;旁的欄位中。
       * 從&#x200B;**[!UICONTROL Daterangeday]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL MONTH]**，以便將值更新為&#x200B;**[!UICONTROL MONTH(Daterangeday)]**。
@@ -452,7 +452,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭圖形](assets/uc4-tableau-graph.png)
+      ![Tableau案頭圖形](assets/uc4-tableau-graph.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 複製]**&#x200B;以建立第二個工作表。
 1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 重新命名]**，以將工作表重新命名為`Graph`。
@@ -464,7 +464,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭資料](assets/uc4-tableau-data.png)
+      ![Tableau案頭資料](assets/uc4-tableau-data.png){zoomable="yes"}
 
 1. 選取「**[!UICONTROL 新儀表板]**」索引標籤按鈕（在底部）以建立新的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。 在&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視中：
    1. 將&#x200B;**[!UICONTROL Graph]**&#x200B;工作表從&#x200B;**[!UICONTROL 工作表]**&#x200B;擱板拖放到&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視（顯示&#x200B;*將工作表拖放至此*）。
@@ -473,7 +473,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭儀表板1](assets/uc4-tableau-dashboard.png)
+      ![Tableau案頭儀表板1](assets/uc4-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -488,7 +488,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
 使用案例的範例&#x200B;**[!UICONTROL 單一Dimension排名]**&#x200B;面板：
 
-![Customer Journey Analytics單一維度排名視覺效果](assets/cja-single-dimension-ranked.png)
+![Customer Journey Analytics單一維度排名視覺效果](assets/cja-single-dimension-ranked.png){zoomable="yes"}
 +++
 
 +++ BI 工具
@@ -528,7 +528,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    1. 選取&#x200B;**[!UICONTROL purchase_revenue總和]**，以遞減採購收入順序排序產品名稱。 您的Power BI案頭應該如下所示。
 
-   ![Power BI案頭使用案例5資料表狀態](assets/uc5-pbi-table.png)
+   ![Power BI案頭使用案例5資料表狀態](assets/uc5-pbi-table.png){zoomable="yes"}
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
 
@@ -550,7 +550,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    折線圖和棧疊直條圖已更新。 您的Power BI案頭應該如下所示。
 
-   ![Power BI案頭使用案例5圖表](assets/uc5-pbi-chart.png)
+   ![Power BI案頭使用案例5圖表](assets/uc5-pbi-chart.png){zoomable="yes"}
 
 1. 線上條圖和棧疊直條圖視覺效果上：
 
@@ -559,7 +559,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    主要檢視已更新，顯示線條視覺效果和表格。
 
-   ![Power BI案頭使用案例2每日趨勢最終視覺效果](assets/uc5-pbi-final.png)
+   ![Power BI案頭使用案例2每日趨勢最終視覺效果](assets/uc5-pbi-final.png){zoomable="yes"}
 
 >[!TAB Tableau案頭]
 
@@ -568,7 +568,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
    1. 在&#x200B;**[!UICONTROL 篩選器欄位\[日期範圍\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並選取&#x200B;**[!UICONTROL 下一步>]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[日期範圍]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 日期範圍]**&#x200B;並指定`01/01/2023` - `31/12/2024`的期間。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;及&#x200B;**[!UICONTROL 確定]**。
 
-      ![Tableau案頭篩選器](assets/uc5-tableau-filter.png)
+      ![Tableau案頭篩選器](assets/uc5-tableau-filter.png){zoomable="yes"}
 
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格的&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖放&#x200B;**[!UICONTROL 產品名稱]**，並將專案拖放到&#x200B;**[!UICONTROL 列]**&#x200B;旁的欄位中。
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中的&#x200B;**[!UICONTROL 資料表（*量值名稱*）]**&#x200B;清單拖放&#x200B;**[!UICONTROL 購買]**，並將專案拖放到&#x200B;**[!UICONTROL 資料列]**&#x200B;旁的欄位中。
@@ -585,7 +585,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    您的Tableau桌上型電腦應如下所示。
 
-   ![Tableau案頭圖形](assets/uc5-tableau-graph.png)
+   ![Tableau案頭圖形](assets/uc5-tableau-graph.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 複製]**&#x200B;以建立第二個工作表。
 1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 重新命名]**，以將工作表重新命名為`Data`。
@@ -597,7 +597,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    您的Tableau桌上型電腦應如下所示。
 
-   ![Tableau案頭資料](assets/uc5-tableau-data.png)
+   ![Tableau案頭資料](assets/uc5-tableau-data.png){zoomable="yes"}
 
 1. 選取「**[!UICONTROL 新儀表板]**」索引標籤按鈕（在底部）以建立新的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。 在&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視中：
    1. 將&#x200B;**[!UICONTROL Graph]**&#x200B;工作表從&#x200B;**[!UICONTROL 工作表]**&#x200B;擱板拖放到&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視（顯示&#x200B;*將工作表拖放至此*）。
@@ -606,7 +606,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    您的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視應如下所示。
 
-   ![Tableau案頭儀表板1](assets/uc5-tableau-dashboard.png)
+   ![Tableau案頭儀表板1](assets/uc5-tableau-dashboard.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -621,7 +621,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
 使用案例的&#x200B;**[!UICONTROL 多個Dimension排名]**&#x200B;面板範例：
 
-![Customer Journey Analytics多個Dimension排名面板](assets/cja-multiple-dimension-ranked.png)
+![Customer Journey Analytics多個Dimension排名面板](assets/cja-multiple-dimension-ranked.png){zoomable="yes"}
 
 +++
 
@@ -663,7 +663,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
 1. 若要劃分表格中的每個類別，請在產品類別層級選取&#x200B;**[!UICONTROL +]**。 您的Power BI案頭應該如下所示。
 
-   ![Power BI案頭多Dimension排名對照表](assets/uc6-powerbi-data.png)
+   ![Power BI案頭多Dimension排名對照表](assets/uc6-powerbi-data.png){zoomable="yes"}
 
 1. 從頂端功能表選取&#x200B;**[!UICONTROL 首頁]**，然後選取&#x200B;**[!UICONTROL 新增視覺效果]**。 新的視覺效果已新增至您的報表。
 
@@ -677,7 +677,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    您的Power BI案頭應該如下所示。
 
-   ![Power BI案頭多Dimension排名樹狀圖](assets/uc6-powerbi-treemap.png)
+   ![Power BI案頭多Dimension排名樹狀圖](assets/uc6-powerbi-treemap.png){zoomable="yes"}
 
 1. 從頂端功能表選取&#x200B;**[!UICONTROL 首頁]**，然後選取&#x200B;**[!UICONTROL 新增視覺效果]**。 新的視覺效果已新增至您的報表。
 
@@ -694,7 +694,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    您的Power BI案頭應該如下所示。
 
-   ![Power BI案頭多Dimension排名](assets/uc6-powerbi-final.png)
+   ![Power BI案頭多Dimension排名](assets/uc6-powerbi-final.png){zoomable="yes"}
 
 
 >[!TAB Tableau案頭]
@@ -706,7 +706,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭多Dimension排名篩選器](assets/uc6-tableau-filter.png)
+      ![Tableau案頭多Dimension排名篩選器](assets/uc6-tableau-filter.png){zoomable="yes"}
 
    1. 拖曳&#x200B;**[!UICONTROL 產品類別]**，並拖曳至&#x200B;**[!UICONTROL 欄]**&#x200B;旁。
    1. 拖曳&#x200B;**[!UICONTROL Purchase Revenue]**，並放置到&#x200B;**[!UICONTROL 列]**&#x200B;旁。 值變更為&#x200B;**[!UICONTROL SUM（購買收入）]**。
@@ -719,7 +719,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭多Dimension排名類別](assets/uc6-tableau-category.png)
+      ![Tableau案頭多Dimension排名類別](assets/uc6-tableau-category.png){zoomable="yes"}
 
 1. 將目前的&#x200B;**[!UICONTROL 工作表1]**&#x200B;重新命名為`Category`。
 1. 選取&#x200B;**[!UICONTROL 新增工作表]**&#x200B;以建立新工作表，並將它重新命名為`Data`。
@@ -738,7 +738,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭多Dimension排名資料](assets/uc6-tableau-data.png)
+      ![Tableau案頭多Dimension排名資料](assets/uc6-tableau-data.png){zoomable="yes"}
 
 1. 選取&#x200B;**[!UICONTROL 新工作表]**&#x200B;以建立新工作表，並將它重新命名為&#x200B;**[!UICONTROL 樹狀圖]**。
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格的&#x200B;**[!UICONTROL 表格]**&#x200B;清單中拖曳&#x200B;**[!UICONTROL 日期範圍]**&#x200B;專案，並將該專案拖放至&#x200B;**[!UICONTROL 篩選器]**&#x200B;托架。
@@ -755,7 +755,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭多Dimension排名資料](assets/uc6-tableau-treemap.png)
+      ![Tableau案頭多Dimension排名資料](assets/uc6-tableau-treemap.png){zoomable="yes"}
 
 1. 選取「**[!UICONTROL 新儀表板]**」索引標籤按鈕（在底部）以建立新的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。 在&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視中：
    1. 將&#x200B;**[!UICONTROL 類別]**&#x200B;工作表從&#x200B;**[!UICONTROL 工作表]**&#x200B;擱板拖放到&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視（顯示&#x200B;*將工作表拖放至此*）。
@@ -765,7 +765,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    您的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視應如下所示。
 
-   ![Tableau案頭儀表板1](assets/uc6-tableau-final.png)
+   ![Tableau案頭儀表板1](assets/uc6-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -780,11 +780,11 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
 若要報告產品名稱的相異計數，請在Customer Journey Analytics中設定計算量度，其中包含&#x200B;**[!UICONTROL Title]** `Product Name (Count Distinct)`和&#x200B;**[!UICONTROL 外部ID]** `product_name_count_distinct`。
 
-![Customer Journey Analytics的產品名稱（Distincr計數）計算量度](assets/cja-calc-metric-distinct-count-product-names.png)
+![Customer Journey Analytics的產品名稱（Distincr計數）計算量度](assets/cja-calc-metric-distinct-count-product-names.png){zoomable="yes"}
 
 然後您可以在使用案例的範例&#x200B;**[!UICONTROL Count DistinctDimension值]**&#x200B;面板中使用該量度：
 
-![Customer Journey Analytics的相異計數值](assets/cja-count-distinct-dimension-values.png)
+![Customer Journey Analytics的相異計數值](assets/cja-count-distinct-dimension-values.png){zoomable="yes"}
 
 +++
 
@@ -813,7 +813,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    您的Power BI案頭應該如下所示。
 
-   ![Power BI案頭多重計數相異資料表](assets/uc7-powerbi-table.png)
+   ![Power BI案頭多重計數相異資料表](assets/uc7-powerbi-table.png){zoomable="yes"}
 
 1. 選取表格視覺效果。 從內容功能表中，選取&#x200B;**[!UICONTROL 複製]** > **[!UICONTROL 複製視覺效果]**。
 1. 使用&#x200B;**[!UICONTROL ctrl-v]**&#x200B;貼上視覺效果。 視覺效果的精確副本會與原始副本重疊。 將其移至報告區域的右側。
@@ -821,7 +821,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    您的Power BI案頭應該如下所示。
 
-   ![Power BI案頭多重計數相異資料表](assets/uc7-powerbi-final.png)
+   ![Power BI案頭多重計數相異資料表](assets/uc7-powerbi-final.png){zoomable="yes"}
 
 >[!TAB Tableau案頭]
 
@@ -837,7 +837,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭多Dimension排名篩選器](assets/uc7-tableau-data.png)
+      ![Tableau案頭多Dimension排名篩選器](assets/uc7-tableau-data.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 複製]**&#x200B;以建立第二個工作表。
 1. 從&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 重新命名]**，以將工作表重新命名為`Data`。
@@ -852,7 +852,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    您的Tableau桌上型電腦應如下所示。
 
-   ![Tableau案頭多Dimension排名篩選器](assets/uc7-tableau-card.png)
+   ![Tableau案頭多Dimension排名篩選器](assets/uc7-tableau-card.png){zoomable="yes"}
 
 1. 選取「**[!UICONTROL 新儀表板]**」索引標籤按鈕（在底部）以建立新的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視。 在&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視中：
    1. 將&#x200B;**[!UICONTROL 卡片]**&#x200B;工作表從&#x200B;**[!UICONTROL 工作表]**&#x200B;擱板拖放到&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視，顯示&#x200B;*將工作表拖放到這裡*。
@@ -860,7 +860,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    您的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視應如下所示。
 
-   ![Tableau案頭儀表板1](assets/uc7-tableau-final.png)
+   ![Tableau案頭儀表板1](assets/uc7-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -876,11 +876,11 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
 若要使用日期範圍製作報表，請以&#x200B;**[!UICONTROL 標題]** `Last Year 2023`的Customer Journey Analytics設定日期範圍。
 
-![Customer Journey Analytics使用日期範圍名稱來篩選](assets/cja-daterange.png)
+![Customer Journey Analytics使用日期範圍名稱來篩選](assets/cja-daterange.png){zoomable="yes"}
 
 然後您可以在範例&#x200B;**[!UICONTROL 使用日期範圍名稱以篩選使用案例的]**&#x200B;面板中使用該日期範圍：
 
-![Customer Journey Analytics的相異計數值](assets/cja-using-date-range-filter-names-to-filter.png)
+![Customer Journey Analytics的相異計數值](assets/cja-using-date-range-filter-names-to-filter.png){zoomable="yes"}
 
 請注意，在自由表格視覺效果中定義的日期範圍會如何覆寫套用至面板的日期範圍。
 
@@ -913,7 +913,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    您會看到已套用&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;篩選器的資料表已更新。 您的Power BI案頭應該如下所示。
 
-   ![使用日期範圍名稱篩選的Power BI案頭](assets/uc8-powerbi-final.png)
+   ![使用日期範圍名稱篩選的Power BI案頭](assets/uc8-powerbi-final.png){zoomable="yes"}
 
 >[!TAB Tableau案頭]
 
@@ -928,7 +928,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭多Dimension排名篩選器](assets/uc8-tableau-final.png)
+      ![Tableau案頭多Dimension排名篩選器](assets/uc8-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -944,11 +944,11 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
 Inspect您要用於Customer Journey Analytics的篩選器。
 
-![Customer Journey Analytics使用篩選器名稱來篩選](assets/cja-fishing-products.png)
+![Customer Journey Analytics使用篩選器名稱來篩選](assets/cja-fishing-products.png){zoomable="yes"}
 
 然後，您可以在範例&#x200B;**[!UICONTROL 使用日期範圍名稱來篩選]**&#x200B;面板中以該篩選使用案例：
 
-![Customer Journey Analytics的相異計數值](assets/cja-using-filter-names-to-filter.png)
+![Customer Journey Analytics的相異計數值](assets/cja-using-filter-names-to-filter.png){zoomable="yes"}
 
 +++
 
@@ -984,7 +984,7 @@ Inspect您要用於Customer Journey Analytics的篩選器。
 
    您會看到已套用&#x200B;**[!UICONTROL filterName]**&#x200B;篩選器的資料表已更新。 您的Power BI案頭應該如下所示。
 
-   ![使用日期範圍名稱篩選的Power BI案頭](assets/uc9-powerbi-final.png)
+   ![使用日期範圍名稱篩選的Power BI案頭](assets/uc9-powerbi-final.png){zoomable="yes"}
 
 
 >[!TAB Tableau案頭]
@@ -1002,7 +1002,7 @@ Inspect您要用於Customer Journey Analytics的篩選器。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭多Dimension排名篩選器](assets/uc9-tableau-final.png)
+      ![Tableau案頭多Dimension排名篩選器](assets/uc9-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1017,11 +1017,11 @@ Inspect您要用於Customer Journey Analytics的篩選器。
 
 以Customer Journey Analytics建立&#x200B;**[!UICONTROL 標題]** `Hunting Products`的新篩選器。
 
-![Customer Journey Analytics使用Dimension值來篩選](assets/cja-hunting-products.png)
+![Customer Journey Analytics使用Dimension值來篩選](assets/cja-hunting-products.png){zoomable="yes"}
 
 然後您可以在範例&#x200B;**[!UICONTROL 使用Dimension值來篩選使用案例的]**&#x200B;面板中使用該篩選器：
 
-![Customer Journey Analytics的相異計數值](assets/cja-using-dimension-values-to-filter.png)
+![Customer Journey Analytics的相異計數值](assets/cja-using-dimension-values-to-filter.png){zoomable="yes"}
 
 +++
 
@@ -1058,7 +1058,7 @@ Inspect您要用於Customer Journey Analytics的篩選器。
 
    您會看到已套用&#x200B;**[!UICONTROL filterName]**&#x200B;篩選器的資料表已更新。 您的Power BI案頭應該如下所示。
 
-   ![使用日期範圍名稱篩選的Power BI案頭](assets/uc10-powerbi-final.png)
+   ![使用日期範圍名稱篩選的Power BI案頭](assets/uc10-powerbi-final.png){zoomable="yes"}
 
 
 
@@ -1078,7 +1078,7 @@ Inspect您要用於Customer Journey Analytics的篩選器。
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭多Dimension排名篩選器](assets/uc10-tableau-final.png)
+      ![Tableau案頭多Dimension排名篩選器](assets/uc10-tableau-final.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1094,7 +1094,7 @@ Inspect您要用於Customer Journey Analytics的篩選器。
 
 使用案例的範例&#x200B;**[!UICONTROL 排序]**&#x200B;面板：
 
-![Customer Journey Analytics排序面板](assets/cja-sort.png)
+![Customer Journey Analytics排序面板](assets/cja-sort.png){zoomable="yes"}
 
 +++
 
@@ -1128,7 +1128,7 @@ Inspect您要用於Customer Journey Analytics的篩選器。
 
    您的Power BI案頭應該如下所示。
 
-   ![使用日期範圍名稱篩選的Power BI案頭](assets/uc11-powerbi-final.png)
+   ![使用日期範圍名稱篩選的Power BI案頭](assets/uc11-powerbi-final.png){zoomable="yes"}
 
 Power BI案頭使用BI副檔名執行的查詢不包含`sort`陳述式。 缺少`sort`陳述式表示排序是在使用者端執行。
 
@@ -1234,7 +1234,7 @@ limit 1000001
 
       您的Tableau桌上型電腦應如下所示。
 
-      ![Tableau案頭排序](assets/uc11-tableau-final.png)
+      ![Tableau案頭排序](assets/uc11-tableau-final.png){zoomable="yes"}
 
 Tableau Desktop使用BI副檔名執行的查詢不包含`sort`陳述式。 缺少此`sort`陳述式表示排序是在使用者端執行。
 
@@ -1260,7 +1260,7 @@ GROUP BY 1
 
 使用案例的範例&#x200B;**[!UICONTROL 限制]**&#x200B;面板：
 
-![Customer Journey Analytics限制面板](assets/cja-limit.png)
+![Customer Journey Analytics限制面板](assets/cja-limit.png){zoomable="yes"}
 
 +++
 
@@ -1296,7 +1296,7 @@ GROUP BY 1
 
    您的Power BI案頭應該如下所示。
 
-   ![使用日期範圍名稱篩選的Power BI案頭](assets/uc12-powerbi-final.png)
+   ![使用日期範圍名稱篩選的Power BI案頭](assets/uc12-powerbi-final.png){zoomable="yes"}
 
 Power BI案頭使用BI副檔名執行的查詢包含`limit`陳述式，但不包含預期的陳述式。 Power BI案頭會使用明確的產品名稱結果，強制執行前5次發生的限制。
 
@@ -1407,7 +1407,7 @@ limit 1000001
 
          您的Tableau桌上型電腦應如下所示。
 
-         ![Tableau案頭限制](assets/uc12-tableau-final.png)
+         ![Tableau案頭限制](assets/uc12-tableau-final.png){zoomable="yes"}
 
 如上所示，在定義產品名稱的「前5個發生次數」篩選條件時，Tableau Desktop執行的此查詢會失敗。
 
@@ -1489,12 +1489,12 @@ Power BI案頭提供使用[資料分析運算式(DAX)](https://learn.microsoft.c
 1. 在「資料」窗格中選取product_name。
 1. 選取工具列中的「新增欄」 。
 1. 在公式編輯器中，定義名稱為`product_name_lower`的新欄，如`product_name_lower = LOWER('public.cc_data_view[product_name])`。
-   ![Power BI案頭轉換至Lower](assets/uc14-powerbi-transformation.png)
+   ![Power BI案頭轉換至Lower](assets/uc14-powerbi-transformation.png){zoomable="yes"}
 1. 請務必在「資料」窗格中選取新的product_name_lower欄，而非product_name欄。
 1. 在表格視覺效果中，從![更多](/help/assets/icons/More.svg)中選取以表格顯示的報告。
 
    您的Power BI案頭應該如下所示。
-   ![Power BI案頭轉換最終版](assets/uc14-powerbi-final.png)
+   ![Power BI案頭轉換最終版](assets/uc14-powerbi-final.png){zoomable="yes"}
 
 自訂轉換會導致SQL查詢的更新。 請參閱下列SQL範例中`lower`函式的使用：
 
@@ -1562,7 +1562,7 @@ Tableau Desktop提供使用[計算欄位](https://help.tableau.com/current/pro/d
 
 1. 從主功能表選取&#x200B;**[!UICONTROL 分析]** > **[!UICONTROL 建立計算欄位]**。
    1. 使用函式`LOWER([Product Name])`定義&#x200B;**[!UICONTROL 小寫的產品名稱]**。
-      ![Tableau計算欄位](assets/uc14-tableau-calculated-field.png)
+      ![Tableau計算欄位](assets/uc14-tableau-calculated-field.png){zoomable="yes"}
    1. 選取&#x200B;**[!UICONTROL 確定]**。
 1. 選取&#x200B;**[!UICONTROL 資料]**&#x200B;工作表。
    1. 從&#x200B;**[!UICONTROL 表格]**&#x200B;拖曳&#x200B;**[!UICONTROL 小寫產品名稱]**，並將專案拖放至&#x200B;**[!UICONTROL 列]**&#x200B;旁的欄位中。
@@ -1571,7 +1571,7 @@ Tableau Desktop提供使用[計算欄位](https://help.tableau.com/current/pro/d
 
 您的Tableau桌上型電腦應如下所示。
 
-轉換後的![Tableau案頭](assets/uc14-tableau-final.png)
+轉換後的![Tableau案頭](assets/uc14-tableau-final.png){zoomable="yes"}
 
 自訂轉換會導致SQL查詢的更新。 請參閱下列SQL範例中`LOWER`函式的使用：
 
@@ -1642,11 +1642,11 @@ Customer Journey Analytics有許多視覺效果。 請參閱[視覺效果](/help
 
 Power BI支援[鑽研模式](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill)，以深入探索特定視覺效果的詳細資料。 在以下範例中，您會分析產品類別的購買收入。 從代表產品類別之條的內容功能表中，您可以選取&#x200B;**[!UICONTROL 向下切入]**。
 
-![Power BI深入研究](assets/uc15-powerbi-drilldown.png)
+![Power BI深入研究](assets/uc15-powerbi-drilldown.png){zoomable="yes"}
 
 深入研究將會以所選產品類別中產品的購買收入更新視覺效果。
 
-![Power BI向上鑽研](assets/uc15-powerbi-drillup.png)
+![Power BI向上鑽研](assets/uc15-powerbi-drillup.png){zoomable="yes"}
 
 向下鑽研會在下列使用`WHERE`子句的SQL查詢中產生：
 
@@ -1725,11 +1725,11 @@ limit 1001
 
 Tableau支援[鑽研模式](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill)到[階層](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm)。 在以下範例中，當您在表格中選取「產品名稱」欄位並將其拖曳至「產品類別」頂端時，就會建立階層。 然後，從代表產品類別之條的內容功能表中，選取&#x200B;**[!UICONTROL +向下鑽研]**。
 
-![Tableau向下鑽研](assets/uc15-tableau-drilldown.png)
+![Tableau向下鑽研](assets/uc15-tableau-drilldown.png){zoomable="yes"}
 
 深入研究將會以所選產品類別中產品的購買收入更新視覺效果。
 
-![Tableau向上鑽研](assets/uc15-tableau-drillup.png)
+![Tableau向上鑽研](assets/uc15-tableau-drillup.png){zoomable="yes"}
 
 向下鑽研會產生下列使用GROUP BY子句的SQL查詢：
 
@@ -1745,11 +1745,11 @@ GROUP BY 1,
 
 查詢&#x200B;**不會**&#x200B;將結果限製為所選的產品類別；只有視覺效果會顯示所選的產品類別。
 
-![Tableau向上鑽研](assets/uc15-tableau-drillup2.png)
+![Tableau向上鑽研](assets/uc15-tableau-drillup2.png){zoomable="yes"}
 
 或者，您可以建立一個向下鑽研圖示板，其中一個視覺效果是另一個視覺效果中選取的結果。 在下列範例中，**[!UICONTROL 產品類別]**&#x200B;視覺效果已用作更新&#x200B;**[!UICONTROL 產品名稱]**&#x200B;表格的篩選條件。 此視覺效果篩選器僅供使用者端使用，不會產生額外的SQL查詢。
 
-![Tableau視覺效果篩選器](assets/uc15-tableau-visualizationfilter.png)
+![Tableau視覺效果篩選器](assets/uc15-tableau-visualizationfilter.png){zoomable="yes"}
 
 
 >[!ENDTABS]
