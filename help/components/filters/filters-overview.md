@@ -4,9 +4,9 @@ description: 了解篩選器的用途以及如何建立簡單篩選器。
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 5fbb228fc02304be2246f0b49cb49de7f160b227
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1423'
 ht-degree: 8%
 
 ---
@@ -50,7 +50,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 您可以建立三種型別的篩選器：
 
-### 快速篩選
+### 快速篩選器
 
 快速篩選可讓您在指定的Workspace專案中輕鬆探索資料，而不需要在[篩選產生器](/help/components/filters/create-filters.md)中建立篩選。 您可以直接在Workspace介面中定義篩選器。 如需詳細資訊，請參閱[快速篩選](quick-filters.md)。
 
@@ -83,7 +83,7 @@ An example of a complex sequential filter if you want to find the persons that
 <table style="table-layout: fixed; border: none;" width="100%">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 「人」</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 人員</td>
 </tr>
 
 <tr>
@@ -174,9 +174,13 @@ Customer Journey Analytics中的資料檢視可讓您決定工作階段持續的
 2. 將巢狀篩選定義套用至其餘資料。 巢狀篩選定義不適用於第一個定義捨棄的任何資料。
 3. 重複此步驟，直到所有巢狀容器篩選定義都已計算完畢。 剩餘的資料會包含在結果中，並用於報表。
 
+>[!NOTE]
+>
+>在篩選器中巢狀內嵌篩選時（例如，將篩選器從「元件」面板拖曳至篩選定義時），會以拖曳的篩選定義復本（而非參照）建立容器。
 
 <!--
 You can use nesting between containers and between conditions within a container. Here is what you can nest in each container:
+
 
 | Container | What container you can nest inside |
 | Event | Only event conditions |
