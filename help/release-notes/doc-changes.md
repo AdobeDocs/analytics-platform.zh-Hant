@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: a8d983255e3922bd619b614acedd21f66cc563b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4195'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 11 月** | |
-| 拼接和隱私權請求 | 已新增有關取消銜接程式](/help/stitching/faq.md#frequently-asked-questions)中因隱私權要求而即將進行的[變更的通知。 |
+| 拼接和隱私權要求 | 新增通知，說明因為隱私權要求而造成[拼接過程中即將發生的變更](/help/stitching/faq.md#frequently-asked-questions)。 |
 | **2024 年 10 月** | |
 | 共用裝置 | 新增了[使用案例文章](/help/use-cases/stitching/shared-devices.md)，提供有關共用裝置的背景、如何使用拼接處理和緩解來自共用裝置的資料，以及使用查詢服務了解資料中的共用裝置暴露情況。 |
 | 有關 Analysis Workspace Performance 請求因素的新資訊 | [Analysis Workspace 效能最佳化](/help/technotes/optimizing-performance.md)文章中的新[請求因素](/help/technotes/optimizing-performance.md#request-factors)部分介紹了如何處理請求以及影響處理時間的各種因素。 |
@@ -117,7 +117,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2023 年 6 月** | |
 | 跨管道分析與彙整 | 因為預期即將進行的變更會啟用彙整並進一步釐清如何使用彙整來提升跨管道分析，我們編輯了與跨管道分析功能相關的文件，以便參照[跨管道分析](../use-cases/cross-channel/cross-channel.md)做為 Customer Journey Analytics 功能和使用案例，並參照[彙整](../stitching/overview.md)做為完成此目標的重要功能。 |
 | PowerBI 和 Tableau 可存取 Customer Journey Analytics 資料檢視 | Customer Journey Analytics BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的資料視圖。[了解更多](/help/data-views/bi-extension.md) |
-| Adobe Journey Optimizer 資料檢視 | Customer Journey Analytics 管理員可以存取 Customer Journey Analytics 中一些額外的資料檢視，標題為「AJO 資料檢視 (沙箱名稱)」。[了解更多](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/reporting-configuration)。 |
+| Adobe Journey Optimizer 資料檢視 | Customer Journey Analytics 管理員可以存取 Customer Journey Analytics 中一些額外的資料檢視，標題為「AJO 資料檢視 (沙箱名稱)」。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/reporting/channel-report/reporting-configuration)。 |
 | 貨幣轉換 | 已更新[貨幣轉換](../data-views/component-settings/format.md#currency)支援的文件。 |
 | 計算量度更新 | 已針對計算量度文件進行以下更新，使其與目前的 Customer Journey Analytics 功能維持一致： <ul><li>已更新 Customer Journey Analytics 中可用的[預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)清單</li><li>已更新各種計算量度文章中的螢幕擷取畫面和程序 </li></ul> |
 | **2023 年 5 月** | |
