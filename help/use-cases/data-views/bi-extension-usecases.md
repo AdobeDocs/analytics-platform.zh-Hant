@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 07db28b8-b688-4a0c-8fb3-28a124342d25
-source-git-commit: 749fbd5ae370995d772b6880c9949cf14042ed8c
+source-git-commit: d6d6777f3d40a979eefecea6ab6d4bd818be2401
 workflow-type: tm+mt
-source-wordcount: '9752'
-ht-degree: 1%
+source-wordcount: '9736'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 1%
 
 * **連線**
    * [連線並列出資料檢視](#connect-and-validate)
-   * [是否平面化](#to-flatten-or-not)
 
 * **報告和分析**
    * [每日趨勢](#daily-trend)
@@ -120,6 +119,25 @@ ht-degree: 1%
       已載入![Power BIDestkop伺服器資料](assets/powerbi-navigator-loaded.png){zoomable="yes"}
 
 
+### 是否平面化
+
+Power BI案頭支援下列`FLATTEN`引數案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)。
+
+| FLATTEN引數 | 範例 | 支援 | 備註 |
+|---|---|:---:|---|
+| 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項！** |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCycle](/help/assets/icons/CloseCircle.svg) | Power BI案頭顯示錯誤： **[!UICONTROL 無法使用提供的認證進行驗證。 請再試一次。]** |
+
+### 詳細資訊
+
+* [先決條件](/help/data-views/bi-extension.md#prerequisites)
+* [認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [將Power BI連線至查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi)。
+
+
+
+
 >[!TAB Tableau案頭]
 
 1. 從Experience Platform查詢服務UI存取所需的認證和引數。
@@ -155,56 +173,23 @@ ht-degree: 1%
    1. 主視窗會顯示&#x200B;**[!UICONTROL cc_data_view]**資料檢視的詳細資料。
       ![Tableau已連線](assets/tableau-validation.png){zoomable="yes"}
 
->[!ENDTABS]
+### 是否平面化
 
-+++
-
-## 是否平面化
-
-在此使用案例中，您想要瞭解在使用BI擴充功能連線至Customer Journey Analytics時，是否必須為資料庫使用額外的`FLATTEN`引數。
-
-+++ Customer Journey Analytics
-
-Customer Journey Analytics提供有關如何在Experience Platform介面中連線的資訊。
-
-1. 導覽至您的Experience Platform沙箱。
-1. 從左側邊欄選取![查詢](/help/assets/icons/DataSearch.svg) **[!UICONTROL 查詢]**。
-1. 在&#x200B;**[!UICONTROL 查詢]**&#x200B;介面中選取&#x200B;**[!UICONTROL 認證]**&#x200B;標籤。
-1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表中選取`prod:cja`。
-
-![查詢服務認證](assets/queryservice-credentials.png){zoomable="yes"}
-
-
-+++
-
-+++ BI 工具
-
->[!PREREQUISITES]
->
->確定您已驗證[連線成功，可以列出資料檢視，並針對您想要嘗試此使用案例的BI工具使用資料檢視](#connect-and-validate)。 請參閱BI工具一節，瞭解正確連線所需的明確`FLATTEN`引數選項。
->
-
->[!BEGINTABS]
-
->[!TAB Power BI案頭]
-
-Power BI案頭支援下列`FLATTEN`引數案例。
+Tableau Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)。
 
 | FLATTEN引數 | 範例 | 支援 | 備註 |
 |---|---|:---:|---|
 | 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
 | `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCycle](/help/assets/icons/CloseCircle.svg) | Power BI案頭顯示錯誤： **[!UICONTROL 無法使用提供的認證進行驗證。 請再試一次。]** |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項**。 請注意，`%3FFLATTEN`是`?FLATTEN`的URL編碼版本。 |
 
->[!TAB Tableau案頭]
+### 詳細資訊
 
-Tableau Desktop支援下列`FLATTEN`引數案例。
+* [先決條件](/help/data-views/bi-extension.md#prerequisites)
+* [認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [將Tableau案頭連線至查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau)。
 
-| FLATTEN引數 | 範例 | 支援 | 備註 |
-|---|---|:---:|---|
-| 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
+
 
 >[!ENDTABS]
 
@@ -277,7 +262,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
       * 從&#x200B;**[!UICONTROL Daterangeday]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL Day]**，以便將值更新為&#x200B;**[!UICONTROL DAY(Daterangeday)]**。
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中的&#x200B;**[!UICONTROL 資料表（*量值名稱*）]**&#x200B;清單拖放&#x200B;**[!UICONTROL 發生次數]**，並將專案拖放到&#x200B;**[!UICONTROL 資料列]**&#x200B;旁的欄位中。
       * 值會自動轉換為&#x200B;**[!UICONTROL SUM（發生次數）]**。
-   1. 從工具列的&#x200B;**[IUICONTROL Fit]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
+   1. 從工具列的&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
 
       您的Tableau桌上型電腦應如下所示。
 
@@ -289,7 +274,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 1. 請確定已選取&#x200B;**[!UICONTROL 資料]**&#x200B;工作表。 在&#x200B;**[!UICONTROL 資料]**&#x200B;檢視中：
    1. 選取右上方的&#x200B;**[!UICONTROL 顯示我]**，並選取&#x200B;**[!UICONTROL 文字表格]** （左上方的視覺效果），將資料檢視的內容修改成表格。
    1. 從工具列選取&#x200B;**[!UICONTROL 交換列與欄]**。
-   1. 從工具列的&#x200B;**[IUICONTROL Fit]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
+   1. 從工具列的&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
 
       您的Tableau桌上型電腦應如下所示。
 
@@ -347,7 +332,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
       * 從&#x200B;**[!UICONTROL Daterangeday]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 小時]**，以便將值更新為&#x200B;**[!UICONTROL 小時(Daterangeday)]**。
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中的&#x200B;**[!UICONTROL 資料表（*量值名稱*）]**&#x200B;清單拖放&#x200B;**[!UICONTROL 發生次數]**，並將專案拖放到&#x200B;**[!UICONTROL 資料列]**&#x200B;旁的欄位中。
       * 值會自動轉換為&#x200B;**[!UICONTROL SUM（發生次數）]**。
-   1. 從工具列的&#x200B;**[IUICONTROL Fit]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
+   1. 從工具列的&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
 
       您的Tableau桌上型電腦應如下所示。
 
@@ -359,7 +344,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 1. 請確定已選取&#x200B;**[!UICONTROL 資料]**&#x200B;工作表。 在&#x200B;**[!UICONTROL 資料]**&#x200B;檢視中：
    1. 選取右上方的&#x200B;**[!UICONTROL 顯示我]**，並選取&#x200B;**[!UICONTROL 文字表格]** （左上方的視覺效果），將資料檢視的內容修改成表格。
    1. 將&#x200B;**[!UICONTROL HOUR(Daterangeday)]**&#x200B;從&#x200B;**[!UICONTROL 欄]**&#x200B;拖曳至&#x200B;**[!UICONTROL 列]**。
-   1. 從工具列的&#x200B;**[IUICONTROL Fit]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
+   1. 從工具列的&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
 
       您的Tableau桌上型電腦應如下所示。
 
@@ -448,7 +433,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
       * 從&#x200B;**[!UICONTROL Daterangeday]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL MONTH]**，以便將值更新為&#x200B;**[!UICONTROL MONTH(Daterangeday)]**。
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中的&#x200B;**[!UICONTROL 資料表（*量值名稱*）]**&#x200B;清單拖放&#x200B;**[!UICONTROL 發生次數]**，並將專案拖放到&#x200B;**[!UICONTROL 資料列]**&#x200B;旁的欄位中。
       * 值會自動轉換為&#x200B;**[!UICONTROL SUM（發生次數）]**。
-   1. 從工具列的&#x200B;**[IUICONTROL Fit]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
+   1. 從工具列的&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
 
       您的Tableau桌上型電腦應如下所示。
 
@@ -460,7 +445,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 1. 請確定已選取&#x200B;**[!UICONTROL 資料]**&#x200B;工作表。 在資料檢視中：
    1. 選取右上方的&#x200B;**[!UICONTROL 顯示我]**，並選取&#x200B;**[!UICONTROL 文字表格]** （左上方的視覺效果），將資料檢視的內容修改成表格。
    1. 將&#x200B;**[!UICONTROL MONTH(Daterangeday)]**&#x200B;從&#x200B;**[!UICONTROL 欄]**&#x200B;拖曳至&#x200B;**[!UICONTROL 列]**。
-   1. 從工具列的&#x200B;**[IUICONTROL Fit]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
+   1. 從工具列的&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表，將&#x200B;**[!UICONTROL 標準]**&#x200B;修改為&#x200B;**[!UICONTROL 整個檢視]**。
 
       您的Tableau桌上型電腦應如下所示。
 
@@ -823,6 +808,15 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
 
    ![Power BI案頭多重計數相異資料表](assets/uc7-powerbi-final.png){zoomable="yes"}
 
+或者，您可以使用與Power BI的相異計數功能。
+
+1. 選取&#x200B;**[!UICONTROL product_name]**&#x200B;維度。
+1. 在&#x200B;**[!UICONTROL 欄]**&#x200B;中的&#x200B;**[!UICONTROL product_name]**&#x200B;維度上套用&#x200B;**[!UICONTROL 計數（相異）]**&#x200B;函式。
+
+   ![個相異的Power BI計數](assets/uc7-powerbi-alternative.png){zoomable="yes"}
+
+
+
 >[!TAB Tableau案頭]
 
 1. 選取底部的&#x200B;**[!UICONTROL 工作表1]**&#x200B;索引標籤，以從&#x200B;**[!UICONTROL 資料來源]**&#x200B;切換。 在&#x200B;**[!UICONTROL 工作表1]**&#x200B;檢視中：
@@ -861,6 +855,14 @@ Tableau Desktop支援下列`FLATTEN`引數案例。
    您的&#x200B;**[!UICONTROL 儀表板1]**&#x200B;檢視應如下所示。
 
    ![Tableau案頭儀表板1](assets/uc7-tableau-final.png){zoomable="yes"}
+
+
+或者，您也可以使用Tableau Desktop的相異計數功能。
+
+1. 使用&#x200B;**[!UICONTROL 產品名稱]**，而非&#x200B;**[!UICONTROL Cm產品名稱計數相異]**。
+1. 在&#x200B;**[!UICONTROL 標籤]**&#x200B;中的&#x200B;**[!UICONTROL 產品名稱]**&#x200B;套用&#x200B;**[!UICONTROL 量值]** > **[!UICONTROL 計數（相異）]**。
+
+   ![個相異的Power BI計數](assets/uc7-tableau-alternative.png){zoomable="yes"}
 
 >[!ENDTABS]
 
