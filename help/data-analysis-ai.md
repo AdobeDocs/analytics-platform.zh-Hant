@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: d0507dab387b9174aa3a119bdb22139edd0e8ca4
+source-git-commit: 6f264ffd30bb1308f95a913a16fb587f36d95a04
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1637'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 4. 確保面板的所選資料檢視是已針對AI Assistant啟用以進行Alpha測試的資料檢視(如果您不確定，請聯絡AlphaSlack頻道)
 
-5. 按一下右上角的AI助理聊天圖示。
+5. 按一下右上角的AI助理聊天圖示。 注意：如果您沒有在右上角看到聊天圖示，請聯絡您的管理員，讓他們按照[這些指示](https://experienceleague.adobe.com/en/docs/analytics-platform/using/ai-assistant#feature-access)在Admin Console中啟用「AI助理：產品知識」和「AI助理：資料分析」。
 
    ![AI助理圖示](/help/assets/ai-asst-icon.png)
 
