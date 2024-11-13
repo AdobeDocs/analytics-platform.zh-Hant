@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 261396f3a63e3356f100b860324b2e8bb9702800
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 95%
       + [將資料傳送到 Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [推薦程序](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
-      + [瞭解Analytics實施](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
-      + [建立分類的查詢資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
-      + [建立行銷管道衍生欄位](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
+      + [了解 Analytics 實施](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
+      + [建立用於分類的查詢資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+      + [建立行銷通路衍生的欄位](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [實作Web SDK擴充功能的載入器標籤](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md)
       + [為屬性建立標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
       + [將Web SDK擴充功能新增至您的標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
