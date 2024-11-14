@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 6820adc70412f6abeae81bf8389227999d13f0d5
-workflow-type: ht
-source-wordcount: '2306'
-ht-degree: 100%
+source-git-commit: 1cf7ae6635f51f0ca06cbc235032525e3d9b3fec
+workflow-type: tm+mt
+source-wordcount: '2320'
+ht-degree: 99%
 
 ---
 
@@ -78,6 +78,7 @@ ht-degree: 100%
 
 | 功能 | 附註 |
 | --- | --- |
+| **Advertising Cloud** | 您可以[收集AMO ID和EF ID的歷史資料，以用於Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/planning/rvars-to-evars) |
 | **警報** | [在 Customer Journey Analytics 中使用警報](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)的流程，與在 Adobe Analytics 中使用警報的流程幾乎相同。 <p>但是，由於 Customer Journey Analytics 中資料彙集需要時間進行，每小時發出警報並不適用。在 Customer Journey Analytics 中，可以將警報設定為每日、每週或每月。</p> |
 | **Analytics for Target (A4T)** | [Adobe Customer Journey Analytics 與 Target 之間的整合](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja)，為您的最佳化程式提供強大的分析與省時的工具。 |
 | **客群發佈** | 如果具有 Adobe 的 Customer Data Platform 或 Journey Optimizer 產品授權則提供支援。[客群發佈](/help/components/audiences/audiences-overview.md)會將客群發佈到 Experience Platform 中的「即時客戶輪廓」。 |
@@ -127,9 +128,6 @@ ht-degree: 100%
 | 功能 | 附註 |
 | --- | --- |
 | **Activity Map** | 尚未規劃提供支援。 |
-| **Advertising Cloud** | 尚未規劃提供支援。 |
-
-{style="table-layout:auto"}
 
 ## 永遠不提供支援 {#never}
 
