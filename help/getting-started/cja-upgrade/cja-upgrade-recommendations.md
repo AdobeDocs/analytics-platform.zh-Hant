@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: ae2f9220829c897c8f1e0425ec192035dcf0097d
+source-git-commit: dbeb3cabeaa7586e8a024a46e7ae42984e9c1c09
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1499'
 ht-degree: 5%
 
 ---
@@ -90,9 +90,13 @@ ht-degree: 5%
 
 1. （選用）如果您想要將Customer Journey Analytics與Adobe Journey Optimizer整合，請在實施中使用個人化物件，以便用於Adobe Journey Optimizer。
 
-1. （選用）使用Analytics來源聯結器從Adobe Analytics匯入歷史資料。
+1. （選用）使用Analytics來源聯結器從Adobe Analytics匯入歷史資料：
 
-   如需詳細資訊，請參閱[在[使用來源聯結器](/help/data-ingestion/sources.md)擷取和使用資料](/help/data-ingestion/sources.md#use-a-source-connector)。
+   1. [建立Analytics來源聯結器的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)。
+
+   1. [建立Analytics來源聯結器並對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)。
+
+   1. [將Analytics來源聯結器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)。
 
 1. 展開說明要如何為Customer Journey Analytics實作實作Experience PlatformWeb SDK的區段，然後完成相關步驟：
 
@@ -106,7 +110,7 @@ ht-degree: 5%
 
    +++標籤
 
-   1. [在您的網站上實作載入器標籤](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md)。
+   1. [在您的網站上實作載入器標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)。
 
    1. [建立標籤屬性並新增Adobe Experience Platform Web SDK擴充功能](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)。
 

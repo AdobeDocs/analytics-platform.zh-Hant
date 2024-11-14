@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 261396f3a63e3356f100b860324b2e8bb9702800
+source-git-commit: 3d75dcc61d76a02f6cd77a62417fb775db959265
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 97%
+source-wordcount: '1062'
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 97%
       + [了解 Analytics 實施](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [建立用於分類的查詢資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [建立行銷通路衍生的欄位](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
-      + [實作Web SDK擴充功能的載入器標籤](/help/getting-started/cja-upgrade/cja-upgrage-tag-loader.md)
+      + [實作Web SDK擴充功能的載入器標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
       + [為屬性建立標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
       + [將Web SDK擴充功能新增至您的標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
       + [將XDM資料收集邏輯新增至您的標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
@@ -64,6 +64,9 @@ ht-degree: 97%
       + [建立資料視圖](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [驗證資料流](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
       + [升級捷徑：移轉至 Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
+      + [為Analytics來源聯結器建立XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+      + [建立Analytics來源聯結器和對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+      + [將Analytics來源聯結器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
       + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)

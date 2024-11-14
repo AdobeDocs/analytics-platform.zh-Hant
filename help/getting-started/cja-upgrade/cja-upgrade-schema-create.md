@@ -6,14 +6,15 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
+source-git-commit: ce19cf00d70220b6d7dcdfaeb1d4c9ec5c14e5dd
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 50%
+source-wordcount: '1072'
+ht-degree: 46%
 
 ---
 
-# 建立要與Customer Journey Analytics搭配使用的XDM結構描述
+# 建立XDM結構描述以與您的Customer Journey Analytics Web SDK實作搭配使用
 
 >[!NOTE]
 > 
@@ -39,7 +40,7 @@ Adobe建議在升級至Customer Journey Analytics時建立Experience Data Model 
 
 1. 選取&#x200B;**[!UICONTROL 建立結構描述]**。
 
-1. 在建立架構精靈的選取類別步驟中：
+1. 在建立結構描述精靈的&#x200B;**[!UICONTROL 選取類別]**&#x200B;步驟中：
 
    1. 選取&#x200B;**[!UICONTROL 體驗事件]**。
 
@@ -60,11 +61,11 @@ Adobe建議在升級至Customer Journey Analytics時建立Experience Data Model 
 
    1. 選取&#x200B;**[!UICONTROL 「完成」]**。
 
-1. 在結構描述的&#x200B;[!UICONTROL **結構**]&#x200B;標籤中：
+1. 新增包含您要納入結構描述中任何欄位的所有欄位群組。
+
+   欄位群組是可重複使用的物件和屬性集合，可讓您輕鬆擴充結構。
 
    1. 在&#x200B;**[!UICONTROL 欄位群組]**&#x200B;區段中，選取&#x200B;**[!UICONTROL +新增]**。
-
-      欄位群組是可重複使用的物件和屬性集合，可讓您輕鬆擴充結構。
 
       ![新增欄位群組](assets/add-field-group-button.png)
 
@@ -78,7 +79,19 @@ Adobe建議在升級至Customer Journey Analytics時建立Experience Data Model 
 
       選取&#x200B;**[!UICONTROL 「返回」]**&#x200B;來關閉預覽。
 
+   1. （選擇性）選取您要包含的任何其他欄位群組。
+
    1. 選取&#x200B;**[!UICONTROL 「新增欄位群組」]**。
+
+1. （可選）如果您有要包含在結構描述中的自訂欄位，請建立自訂欄位群組，並將自訂欄位新增到欄位群組中。
+
+   1. 在&#x200B;**[!UICONTROL 欄位群組]**&#x200B;區段中，選取&#x200B;**[!UICONTROL +新增]**。
+
+      ![新增欄位群組](assets/add-field-group-button.png)
+
+   1. 在[!UICONTROL 新增欄位群組]對話方塊中，選取&#x200B;**[!UICONTROL 建立新欄位群組]**。
+
+   1. 指定顯示名稱和選擇性說明，然後選取&#x200B;**[!UICONTROL 新增欄位群組]**。
 
 1. 在[!UICONTROL 「結構」]面板中，選取結構名稱旁的 **[!UICONTROL +]**。
 
@@ -147,4 +160,3 @@ Adobe建議在升級至Customer Journey Analytics時建立Experience Data Model 
    請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
 1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
-
