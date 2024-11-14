@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a8d983255e3922bd619b614acedd21f66cc563b9
-workflow-type: ht
-source-wordcount: '4195'
-ht-degree: 100%
+source-git-commit: 5f02b6eff63f7efcfbec586186506f2c50ec52d7
+workflow-type: tm+mt
+source-wordcount: '4216'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 11 月** | |
+| BI 擴充功能使用案例 | 針對BI工具(例如Power BI案頭版和Tableau案頭版)的多個[BI擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)的檔案。 |
 | 拼接和隱私權要求 | 新增通知，說明因為隱私權要求而造成[拼接過程中即將發生的變更](/help/stitching/faq.md#frequently-asked-questions)。 |
 | **2024 年 10 月** | |
 | 共用裝置 | 新增了[使用案例文章](/help/use-cases/stitching/shared-devices.md)，提供有關共用裝置的背景、如何使用拼接處理和緩解來自共用裝置的資料，以及使用查詢服務了解資料中的共用裝置暴露情況。 |

@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: ce04e69d2c933f893eeeff04abb0f56fb4000e6f
-workflow-type: ht
-source-wordcount: '820'
-ht-degree: 100%
+source-git-commit: 8b90f74d64ef35f4a9f0f1177dab27c9680ccb4c
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 95%
 
 ---
 
@@ -73,7 +73,7 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 >[!TAB BI 擴充功能*]
 
-BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的資料視圖。您現在可以使用常用的 BI 工具，根據 Customer Journey Analytics 使用者在建立 Analysis Workspace 專案時所使用的相同資料視圖來建立報告和儀表板。
+BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的資料視圖。您現在可以使用您最愛的BI工具，根據Customer Journey Analytics使用者在其Analysis Workspace專案中使用的相同資料檢視建立報告和儀表板。 提供[使用案例](/help/use-cases/data-views/bi-extension-usecases.md)。
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 

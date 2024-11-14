@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics BI 擴充功能
-description: 瞭解如何使用Power BI或Tableau，透過Customer Journey AnalyticsBI擴充功能存取資料檢視。
+description: 瞭解如何使用Power BI或Tableau Desktop，透過Customer Journey AnalyticsBI擴充功能存取資料檢視。
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: e5d66bfbc39d3b20b2833b6a83485b106b3d4231
+source-git-commit: 8b90f74d64ef35f4a9f0f1177dab27c9680ccb4c
 workflow-type: tm+mt
-source-wordcount: '3091'
-ht-degree: 77%
+source-wordcount: '3116'
+ht-degree: 74%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 {{select-package}}
 
-[!DNL Customer Journey Analytics BI extension] 讓 SQL 可以存取您在 Customer Journey Analytics 中定義的[資料檢視](./data-views.md)。您的資料工程師和分析師可能更熟悉 Power BI、Tableau 或其他企業情報和視覺化工具 (也稱為 BI 工具)。他們現在可以根據 Customer Journey Analytics 使用者在建立 Analysis Workspace 專案時所使用的相同資料檢視來建立報告和儀表板。
+[!DNL Customer Journey Analytics BI extension] 讓 SQL 可以存取您在 Customer Journey Analytics 中定義的[資料檢視](./data-views.md)。您的資料工程師和分析人員可能更熟悉Power BI、Tableau案頭或其他商業智慧和視覺化工具（進一步稱為BI工具）。 他們現在可以根據 Customer Journey Analytics 使用者在建立 Analysis Workspace 專案時所使用的相同資料檢視來建立報告和儀表板。
 
 Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) 是 SQL 與 Experience Platform 資料湖中可用資料之間的介面。啟用 [!DNL Customer Journey Analytics BI extension] 之後即可延伸 [!DNL Query Service] 的功能，讓您在 [!DNL Query Service] 工作階段中以表格或視圖形式查看 Customer Journey Analytics 資料檢視。因此，使用 [!DNL Query Service] 作為 PostgresSQL 介面的企業情報工具，可以直接立即受益於這項延伸功能。
 
@@ -100,7 +100,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 ### BI 工具
 
-目前， [!DNL Customer Journey Analytics BI extension] 僅支援 Power BI 和 Tableau 並經過測試。其他使用 PSQL 介面的 BI 工具可能也可以運作，但尚未得到正式支援。
+目前僅支援[!DNL Customer Journey Analytics BI extension]並針對Power BI和Tableau案頭進行測試。 其他使用 PSQL 介面的 BI 工具可能也可以運作，但尚未得到正式支援。
 
 +++ Power BI
 
@@ -145,7 +145,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 +++
 
-+++Tableau
++++Tableau案頭
 
 1. 在 Adobe Experience Platform 中，查詢 PostgresSQL 認證的詳細資訊：
 
@@ -155,9 +155,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 選取「` cja` **[!UICONTROL **&#x200B;資料庫&#x200B;**]**」。
 
-   1. 在 Tableau 中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
+   1. 在Tableau Desktop中視需要使用![Copy](assets/Smock_Copy_18_N.svg)來複製每個Postgres認證引數（[!UICONTROL 主機]、[!UICONTROL 連線埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]及其他）。
 
-1. 在 Tableau 中：
+1. 在Tableau案頭中：
 
    1. 在左側邊欄，選取「**[!UICONTROL **&#x200B;更多&#x200B;**]**」(從「**[!UICONTROL **&#x200B;至伺服器&#x200B;**]**」)。
 
@@ -192,6 +192,8 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 +++
 
 如需關於各種可用工具的概觀與更多資訊，請參閱「[將用戶端連接到 Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview)」。
+
+請參閱[使用案例](/help/use-cases/data-views/bi-extension-usecases.md)，瞭解如何使用Customer Journey AnalyticsBI擴充功能完成許多使用案例
 
 ## 功能
 

@@ -5,10 +5,10 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 62779154e889158c62e4713a951fb3633c16d5e1
+source-git-commit: 629935d66b0f2c5731806a68cc2fcda5fb11fc9a
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 35%
+source-wordcount: '1372'
+ht-degree: 33%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 35%
 
 如需詳細資訊，請參閱[使用摘要資料](summary-data.md)使用案例。
 
+## BI 擴充功能使用案例
+
+請參閱[BI擴充功能使用案例](bi-extension-usecases.md)，瞭解如何使用Customer Journey AnalyticsBI擴充功能完成許多使用案例。
+
 ## 從字串結構欄位建立量度 {#string}
 
 例如，在建立資料檢視時，您可以從字串「[!UICONTROL 頁面標題]」結構描述欄位建立[!UICONTROL 訂單]量度。
@@ -35,7 +39,7 @@ ht-degree: 35%
 1. 開啟&#x200B;**[!UICONTROL 包含/排除值]**&#x200B;區段並指定下列專案：
    1. 啟用&#x200B;**[!UICONTROL 設定包含排除值]**。
    1. 從&#x200B;**[!UICONTROL 符合]**&#x200B;中選取&#x200B;**[!UICONTROL 如果所有條件都符合]**。
-   1. 指定`confirmation`。 此page_title文字表示此頁面與下訂單有關。 在檢閱符合這些條件的所有頁面標題後，每個執行個體都會計算`1`。 此結果是新量度 (而非計算量度)。具有包含/排除值的量度可用於任何其他量度也可使用的地方。它適用於 Attribution IQ、篩選器，以及您可使用標準量度的其他任何地方。
+   1. 指定`confirmation`。 此page_title文字表示此頁面與下訂單有關。 在檢閱符合這些條件的所有頁面標題後，每個執行個體都會計算`1`。 此結果是新量度（而非計算量度）。具有包含/排除值的量度可用於任何其他量度的任何地方。 它適用於 Attribution IQ、篩選器，以及您可使用標準量度的其他任何地方。
 
    ![Dimension至量度](../assets/string-to-metric.gif){width=100%}
 1. 您可以進一步指定此量度的歸因模型，例如 「[!UICONTROL 上次接觸]」，並具有「[!UICONTROL 工作階段]」的 [!UICONTROL 「回顧」視窗]。您也可以從相同欄位建立另一個[!UICONTROL 訂單]量度，並指定不同的歸因模型。 例如[!UICONTROL 首次接觸]，以及不同的[!UICONTROL 回顧期間]，例如[!UICONTROL 30天]。
