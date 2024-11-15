@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d30a1a7cbe441529f5b094215c0ea1131c1f67fc
+exl-id: 424485a3-a076-4656-83b6-733f16cc2326
+source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 37%
+source-wordcount: '818'
+ht-degree: 25%
 
 ---
 
@@ -20,6 +21,30 @@ ht-degree: 37%
 >必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
+
+>[!NOTE]
+>
+>本頁資訊假設如下：
+>
+>* 您正在從Adobe Analytics升級至Customer Journey Analytics。
+>* 您正在使用Web SDK進行未來的Customer Journey Analytics資料收集。
+>* 您想要使用Analytics來源聯結器將歷史Adobe分析資料匯入Customer Journey Analytics。
+
+## 瞭解Analytics來源聯結器如何將歷史資料帶入Customer Journey Analytics
+
+您可以使用Analytics來源聯結器將Adobe Analytics報告套裝資料匯入Adobe Experience Platform。 然後，這些資料即可用作Customer Journey Analytics中的歷史資料。
+
+此程式假設您要在升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)時[建立XDM結構描述，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
+
+若要使用Analytics來源聯結器將歷史資料帶入Customer Journey Analytics，您需要：
+
+1. [為Analytics來源聯結器建立XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+
+1. [建立Analytics來源聯結器和對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+
+1. 將Analytics來源聯結器資料集新增至連線，如下所述。
+
+## 將Analytics來源聯結器資料集新增至連線
 
 在您[為歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)建立Analytics來源聯結器後，系統會自動為Analytics資料建立資料集。
 
@@ -68,7 +93,7 @@ ht-degree: 37%
 
 1. 輸入開始和結束日期，或選取行事曆圖示![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)，以定義要包含回填的期間。
 
-   Analytics 來源連接器可為生產沙箱可匯入最多 13 個月的資料 (不論資料量多寡)。非生產沙箱的回填期限制為 3 個月。
+   Analytics來源聯結器會為生產沙箱匯入13個月的資料（無論大小）。 非生產沙箱中的回填時間為3個月。
 
    >[!IMPORTANT]
    >
@@ -83,4 +108,3 @@ ht-degree: 37%
 1. 選取&#x200B;**[!UICONTROL 新增資料集]**，然後選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存連線。
 
 1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
-

@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8e51e97b0616a5406c5c3a29431fde87a551ab9f
+exl-id: f96565a2-f556-4b45-b88e-984613614d2e
+source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 3%
+source-wordcount: '636'
+ht-degree: 2%
 
 ---
 
@@ -21,13 +22,23 @@ ht-degree: 3%
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
+## 瞭解Analytics來源聯結器如何將歷史資料帶入Customer Journey Analytics
+
 您可以使用Analytics來源聯結器將Adobe Analytics報告套裝資料匯入Adobe Experience Platform。 然後，這些資料即可用作Customer Journey Analytics中的歷史資料。
 
-下列步驟假設您要在升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)時[建立XDM結構描述，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
+此程式假設您要在升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)時[建立XDM結構描述，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
 
-建立XDM結構描述後，您需要建立Adobe Analytics來源聯結器以用於歷史資料。
+若要使用Analytics來源聯結器將歷史資料帶入Customer Journey Analytics，您需要：
 
-如需建立來源聯結器的更完整的一般准則，請參閱[在UI中建立Adobe Analytics來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。
+1. [為Analytics來源聯結器建立XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+
+1. 建立Analytics來源聯結器和對應欄位，如下所述。
+
+1. [將Analytics來源聯結器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+
+## 建立Analytics來源聯結器和對應欄位
+
+建立XDM結構描述後，您需要建立Adobe Analytics來源聯結器以用於歷史資料。 (如需建立來源聯結器的更完整的一般准則，請參閱[在UI中建立Adobe Analytics來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。)
 
 若要建立用於歷史資料的Adobe Analytics來源聯結器：
 
@@ -78,7 +89,3 @@ ht-degree: 3%
    如果您使用Analytics來源聯結器將歷史資料匯入Customer Journey AnalyticsWeb SDK實作，則需要將此自動建立的資料集新增至您為Web SDK實作建立的連線。
 
 1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
-
-
-
-
