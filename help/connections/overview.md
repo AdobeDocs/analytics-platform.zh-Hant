@@ -6,9 +6,9 @@ feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
 source-git-commit: 2f78905c2a1e94174a52269becc15474baf59f71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -24,20 +24,20 @@ ht-degree: 69%
 
 ## 必要權限
 
-若要建立Customer Journey Analytics連線，您需要下列許可權。 如需許可權的其他詳細資訊，請參閱[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html)和[Adobe Experience Platform許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)的檔案。
+若要建立 Customer Journey Analytics 連線，您需要以下權限。有關權限的更多詳細資訊，請參閱 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-permissions-and-roles.ug.html) 和 [Adobe Experience Platform 權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)的文件。
 
-### 在Adobe Admin Console中：
+### 在 Adobe Admin Console 內：
 
 * Customer Journey Analytics：產品管理員
-* Adobe Experience Platform：已新增至名為&#x200B;*AEP-Default-All-Users*&#x200B;的產品設定檔
+* Adobe Experience Platform：新增至名為 *AEP-Default-All-Users* 的產品設定檔
 
-### 在Adobe Experience Platform許可權內：
+### 在 Adobe Experience Platform 權限內：
 
 * 資料模型製作：檢視綱要、管理綱要
 * 資料管理：檢視資料集、管理資料集
 * 資料擷取：管理來源
-* Identity Management：檢視身分識別名稱空間
-* 沙箱：相關Customer Journey Analytics連線中使用的沙箱
+* Identity Management：檢視身分命名空間
+* 沙箱：在相關 Customer Journey Analytics 連線中使用的沙箱
 
 >[!IMPORTANT]
 >
