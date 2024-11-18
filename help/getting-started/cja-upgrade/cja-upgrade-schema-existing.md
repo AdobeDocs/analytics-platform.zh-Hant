@@ -1,33 +1,49 @@
 ---
-title: 建立結構描述以進行Customer Journey Analytics
-description: 瞭解從Adobe Analytics升級為Customer Journey Analytics時的建議路徑
+title: 選擇要Customer Journey Analytics的結構描述
+description: 瞭解選擇Customer Journey Analytics結構時可用的選項，以及各個選項的優缺點
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 711e92db7084592dc562eda3d0dcf33bcb4a62d4
+exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
-# 透過Customer Journey Analytics使用您的Adobe Analytics結構描述
+# 選擇要Customer Journey Analytics的結構描述
 
 >[!NOTE]
 >
 >此檔案應該用作[Adobe Analytics的Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)的一部分。
 
-<!-- this page exists as the "Learn more" link in the info icon for the option "I am comfortable using my Adobe Analytics schema as a basis" -->
+<!-- this page exists as the "Learn more" link in the info icons for the options "I am comfortable using my Adobe Analytics schema as a basis" and "I want to use a schema tailored to my organization" -->
 
-若要搭配Customer Journey Analytics使用現有的Adobe Analytics結構描述，只有在您的Adobe Analytics實作已透過Adobe Experience Platform Web SDK設定時才可使用。<!-- correct? Or can you do this with an AppMeasurement implementation?-->
+升級至Customer Journey Analytics時，Adobe建議您在開始使用其他Platform服務時，建立新的XDM結構描述以更符合組織的需求。 或者，您也可以選擇使用現有的Adobe Analytics結構描述。
 
-請考量搭配Customer Journey Analytics使用您的Adobe Analytics結構描述的下列優缺點：
+考量每個專案的優缺點。
+
+## 建立為您的組織量身打造的XDM結構描述（建議）
+
+Adobe建議在升級至Customer Journey Analytics時建立新的XDM結構描述。
+
+| 優勢 | 缺點 |
+|----------|---------|
+| <ul><p>更新至您自己的XDM結構描述的優點包括：</p><ul><li>根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化方案。</li><p>當需要變更結構描述時，您不必在數千個未使用的欄位中篩選，以尋找需要更新的欄位。</p></ul> | <p>更新至您自己的XDM結構的缺點包括：</p><ul><li>在開始將資料傳送至Platform之前，需要先更新您的結構描述，這是一個耗時的過程。</li></ul> |
+
+## 使用您現有的Adobe Analytics結構描述
+
+若要將您現有的Adobe Analytics結構描述與Customer Journey Analytics搭配使用，選項只有在您的Adobe Analytics實作已透過Adobe Experience Platform Web SDK設定時才可用。<!-- correct? Or can you do this with an AppMeasurement implementation?-->
 
 | 優勢 | 缺點 |
 |----------|---------|
 | <p>使用Adobe Analytics結構描述的優點包括：</p><ul><li>容易升級<p>如果您已透過Adobe Experience Platform Web SDK將資料傳送至Adobe Analytics，您可以新增其他服務至您的資料串流，以將資料傳送至Adobe Experience Platform (然後可在您的Customer Journey Analytics設定中使用)。</p></li></ul> | <p>使用Adobe Analytics結構的缺點包括：</p><ul><li>雖然使用Adobe Analytics結構描述在其可搭配其他Platform應用程式使用方面不會限制您，但它的確會讓結構描述比其他應用程式更複雜。 這是因為Adobe Analytics結構描述包含許多專屬於Adobe Analytics的物件，您的組織不太可能使用。<p>當需要變更結構描述時，您必須篩選數千個未使用的欄位，以尋找需要更新的欄位。</p></li></ul> |
+
+
+
 
 <!-- Not sure about any of this: 
 

@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: dbeb3cabeaa7586e8a024a46e7ae42984e9c1c09
+source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1545'
 ht-degree: 5%
 
 ---
@@ -90,14 +90,6 @@ ht-degree: 5%
 
 1. （選用）如果您想要將Customer Journey Analytics與Adobe Journey Optimizer整合，請在實施中使用個人化物件，以便用於Adobe Journey Optimizer。
 
-1. （選用）使用Analytics來源聯結器從Adobe Analytics匯入歷史資料：
-
-   1. [建立Analytics來源聯結器的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)。
-
-   1. [建立Analytics來源聯結器並對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)。
-
-   1. [將Analytics來源聯結器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)。
-
 1. 展開說明要如何為Customer Journey Analytics實作實作Experience PlatformWeb SDK的區段，然後完成相關步驟：
 
    +++手動實施（JS檔案）
@@ -135,6 +127,20 @@ ht-degree: 5%
 1. [在Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)中建立資料檢視。
 
 1. [驗證資料是否流入Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)。
+
+1. （選用）使用Analytics來源聯結器從Adobe Analytics匯入歷史資料：
+
+   >[!NOTE]
+   >
+   >如果您先前未建立Analytics來源聯結器，請使用下列步驟。
+   >
+   >如果您已使用Analytics來源聯結器搭配Customer Journey Analytics，請依照[從Analytics來源聯結器移至Web SDK以進行Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)中的步驟操作。
+
+   1. [為Analytics來源聯結器建立XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)。
+
+   1. [建立Analytics來源聯結器並對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)。
+
+   1. [將Analytics來源聯結器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)。
 
 1. [移轉專案和元件](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)。
 
