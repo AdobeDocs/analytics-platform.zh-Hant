@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 3d75dcc61d76a02f6cd77a62417fb775db959265
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -50,10 +50,10 @@ ht-degree: 94%
       + [了解 Analytics 實施](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [建立用於分類的查詢資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [建立行銷通路衍生的欄位](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
-      + [實作Web SDK擴充功能的載入器標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
-      + [為屬性建立標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
-      + [將Web SDK擴充功能新增至您的標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
-      + [將XDM資料收集邏輯新增至您的標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
+      + [實作適用於 Web SDK 擴充功能的 Loader 標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
+      + [為您的屬性建立標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
+      + [將 Web SDK 擴充功能新增至您的標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+      + [將 XDM 資料彙集邏輯新增至您的標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
       + [建立您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [建立您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
       + [使用您現有的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
