@@ -6,14 +6,15 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 8ef60cc3918b79919674e3c0478a2c1b1bd21d27
+exl-id: 83927cf0-b3b4-42b4-9ca5-0c81c091383f
+source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# 升級捷徑：移轉AppMeasurement或Analytics擴充功能實施，以使用Web SDK {#shortcut-migrate-websdk}
+# 升級捷徑：移轉 AppMeasurement 或 Analytics 擴充功能實作以使用 Web SDK {#shortcut-migrate-websdk}
 
 >[!NOTE]
 >
@@ -23,8 +24,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cja_migrate_aa_to_websdk"
->title="移轉Analytics實作以使用Web SDK"
->abstract="您可以透過資料物件以AppMeasurement格式傳送所有變數，而不需透過XDM物件傳送資料。 此捷徑可讓您繼續使用AppMeasurement邏輯將資料傳送至Platform。"
+>title="移轉您的 Analytics 實作以使用 Web SDK"
+>abstract="您可以透過資料物件以 AppMeasurement 格式傳送所有變數，而非透過 XDM 物件傳送資料。您可以利用此捷徑，繼續使用 AppMeasurement 邏輯將資料傳送到 Platform。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -55,4 +56,3 @@ ht-degree: 0%
 1. （選用）隨時為您的組織建立XDM結構描述。
 
 1. （條件式）如果您已建立XDM結構描述，請使用資料流對應來將資料物件中的所有欄位對應到您的XDM結構描述。
-
