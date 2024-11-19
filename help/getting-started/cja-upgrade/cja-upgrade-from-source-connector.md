@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
+source-git-commit: a1feb2e8458169ed208da2c42fab62d25e1015bb
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -39,11 +40,11 @@ Adobe建議搭配使用Analytics來源聯結器（用於引進歷史資料），
 
    如需詳細資訊，請參閱[選擇您的Customer Journey Analytics結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)。
 
-1. （視條件而定）如果您打算使用Adobe Analytics結構描述，請將Analytics來源聯結器自動建立的資料集新增至您的Customer Journey Analytics連線。
+1. （條件性）如果您打算將Adobe Analytics結構描述用於Web SDK實作，請將Analytics來源聯結器自動建立的資料集新增到您的Customer Journey Analytics連線。
 
    如需詳細資訊，請參閱[將Analytics來源聯結器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)。
 
-1. （視條件而定）如果您打算建立XDM結構描述：
+1. （視條件而定）如果您打算建立XDM結構描述以搭配您的Web SDK實作使用：
 
    1. [為Analytics來源聯結器建立XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)。
 
@@ -54,11 +55,3 @@ Adobe建議搭配使用Analytics來源聯結器（用於引進歷史資料），
    1. 刪除您原始的Analytics來源聯結器。<!-- need to add steps somewhere about how to do this -->
 
    1. [建立新的Analytics來源聯結器並對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)。
-
-
-
-
-
-
-
-
