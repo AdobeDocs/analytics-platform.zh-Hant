@@ -3,10 +3,11 @@ description: 如何向Customer Journey Analytics檔案提出資料分析問題
 title: Customer Journey Analytics中的Data Analysis AI助理
 role: User, Admin
 solution: Customer Journey Analytics
+feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: cc743d74a98dae9029654add65d3e685320fe9f3
+source-git-commit: 20b578a6269aeaf54f6296b1f4337937887ecf05
 workflow-type: tm+mt
 source-wordcount: '1637'
 ht-degree: 3%
