@@ -4,10 +4,10 @@ description: 顯示兩種估計使用情況的方法，以及一種管理使用�
 role: Admin
 feature: Basics
 exl-id: 7a5d1173-8d78-4360-a97a-1ab0a60af135
-source-git-commit: 400dc032be5d491cade84b0e98d88ff8a5949a2f
+source-git-commit: 191d1b7a4b851e93a44487dad4794709cbbd0374
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 69%
+source-wordcount: '856'
+ht-degree: 68%
 
 ---
 
@@ -29,10 +29,6 @@ ht-degree: 69%
 ## 估算連線規模 {#estimate-size}
 
 您可能需要知道目前 [!UICONTROL Customer Journey Analytics] 中有多少列事件資料。為了準確說明組織的事件資料記錄 (資料列) 使用情況，請&#x200B;**為您組織所建立的每個連線執行以下操作**。
-
->[!NOTE]
->
->請在每個月的第一個星期五執行此動作，因為 Adobe 會在當天執行您的最新使用情況報告。
 
 1. 在 [!UICONTROL Customer Journey Analytics] 中按一下&#x200B;**[!UICONTROL 「連線」]**&#x200B;索引標籤。
 
