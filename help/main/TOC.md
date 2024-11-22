@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: a5425eccff643cd45fd630172b0113e646b2a9cc
+source-git-commit: 5af92d5eaaa671bfbe9d29ab2a336eab78a067cc
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 95%
+source-wordcount: '1085'
+ht-degree: 97%
 
 ---
 
@@ -65,11 +65,12 @@ ht-degree: 95%
       + [建立資料視圖](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
       + [驗證資料流](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)
       + [升級捷徑：移轉至 Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-shortcut-websdk.md)
-      + [為Analytics來源聯結器建立XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
-      + [建立Analytics來源聯結器和對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
-      + [將Analytics來源聯結器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+      + [建立 Analytics 來源連接器的 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+      + [建立 Analytics 來源連接器和對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+      + [將 Analytics 來源連接器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
       + [僅使用Analytics來源聯結器](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
       + [從Analytics來源聯結器移至Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
+      + [停用AppMeasurement資料收集](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
       + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)

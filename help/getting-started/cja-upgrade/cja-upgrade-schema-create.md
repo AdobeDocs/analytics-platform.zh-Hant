@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: ce19cf00d70220b6d7dcdfaeb1d4c9ec5c14e5dd
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1073'
 ht-degree: 46%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 46%
 >
 >在開始建立XDM結構描述之前，請與您的資料團隊和整個組織的其他利害關係人合作，找出您組織適用於Customer Journey Analytics的理想結構描述設計以及您使用的其他Adobe Experience Platform應用程式。 如需詳細資訊，請參閱[架構您的結構描述以搭配Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)使用。
 
-Adobe建議在升級至Customer Journey Analytics時建立Experience Data Model (XDM)結構描述。 XDM結構描述可讓您根據組織需求以及您使用的特定平台應用程式量身打造簡化的結構描述。 當需要變更結構描述時，您不必在數千個未使用的欄位中篩選，以尋找需要更新的欄位。
+Adobe建議在升級至Customer Journey Analytics時，建立自訂體驗資料模型(XDM)結構描述。 自訂結構描述可讓您根據組織需求以及您使用的特定平台應用程式量身打造簡化的結構描述。 當需要變更結構描述時，您不必在數千個未使用的欄位中篩選，以尋找需要更新的欄位。
 
 ## 建立結構
 
 您定義的XDM結構描述代表您收集到Adobe Experience Platform中的資料模式。
 
-若要建立綱要：
+若要建立自訂綱要：
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 

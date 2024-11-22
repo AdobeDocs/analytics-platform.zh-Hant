@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1595'
 ht-degree: 5%
 
 ---
@@ -22,19 +22,17 @@ ht-degree: 5%
 
 ## 針對大多陣列織建議的升級步驟
 
->[!NOTE]
->
->本節所述的升級步驟是建議的升級步驟，任何組織都可使用此步驟成功從Adobe Analytics升級至Customer Journey Analytics。
->
->不過，根據數個因素（例如時間表和資源限制），建議的升級步驟可能對您的組織而言不實用。 在這種情況下，請使用[Adobe AnalyticsCustomer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)，以動態產生針對貴組織獨特環境量身打造的升級步驟。
-
 建議的從Adobe Analytics升級為Customer Journey Analytics的程式是Experience Platform Web SDK的新實作，這是Customer Journey Analytics的偏好資料收集方法。 結合Web SDK使用，Adobe也建議使用Analytics來源聯結器來協助您轉換至Customer Journey Analytics。 使用Analytics來源聯結器可保留歷史Adobe Analytics資料，並執行並排資料比較。
 
-完全轉換為Customer Journey Analytics後，可以關閉Analytics來源聯結器，並專門使用Experience Platform Web SDK。
+使用Analytics Web SDK取得足夠的歷史資料，並完全轉換為Customer Journey Analytics後，即可關閉Experience Platform來源聯結器，且僅能使用Web SDK。
+
+>[!NOTE]
+>
+>本節所述的升級步驟對貴組織而言並不實際，請使用[Adobe Analytics來Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)，以動態方式產生針對貴組織獨特環境量身打造的升級步驟。
 
 ### 高階建議升級程式
 
-1. **實作Experience PlatformWeb SDK**
+1. **實作Experience PlatformWeb SDK （用於持續的資料收集）**
 
    新的實施Experience Platform Web SDK是收集資料以進行Customer Journey Analytics的最佳方式。 這是充份運用Customer Journey Analytics的最佳基礎，因為這是實作Customer Journey Analytics最具效能、最簡單明瞭、也最經得起未來考驗的方法。
 
@@ -44,7 +42,7 @@ ht-degree: 5%
 
    * 不依賴Adobe Analytics命名法(屬性、eVar、事件等)
 
-1. **設定Adobe Analytics來源聯結器**
+1. **設定Adobe Analytics來源聯結器（用於引進歷史資料）**
 
    為協助順利過渡到使用Experience Platform Web SDK搭配Customer Journey Analytics，Adobe也建議使用Adobe Analytics來源聯結器。 這可讓您保留現有Adobe Analytics實作的歷史資料並檢視其Customer Journey Analytics資料，並與新Experience Platform Web SDK實作的資料並排。
 
@@ -128,21 +126,9 @@ ht-degree: 5%
 
 1. [驗證資料是否流入Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)。
 
-1. （選用）使用Analytics來源聯結器從Adobe Analytics匯入歷史資料：
-
-   >[!NOTE]
-   >
-   >如果您先前未建立Analytics來源聯結器，請使用下列步驟。
-   >
-   >如果您已使用Analytics來源聯結器搭配Customer Journey Analytics，請依照[從Analytics來源聯結器移至Web SDK以進行Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)中的步驟操作。
-
-   1. [為Analytics來源聯結器建立XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)。
-
-   1. [建立Analytics來源聯結器並對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)。
-
-   1. [將Analytics來源聯結器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)。
-
 1. [移轉專案和元件](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)。
+
+   <!-- You might not want to do this, based on the schema? Ask Zach. Will it work if you have all new schema fields? What would you want to just build from scratch. Maybe everything? -->
 
 1. （選擇性）如果您在Adobe Analytics中使用行銷管道，您可以[在Customer Journey Analytics](/help/data-views/derived-fields/derived-fields.md#marketing-channels)中建立行銷管道衍生欄位。
 
@@ -152,9 +138,25 @@ ht-degree: 5%
 
    在衍生欄位中使用[行銷管道功能範本](/help/data-views/derived-fields/derived-fields.md#marketing-channels)，快速建立行銷管道的衍生欄位。
 
-1. 比較舊實作與新實作的資料，確定您瞭解所有差異及其存在原因。
+1. 比較Adobe Analytics中來自舊實作的資料與來自新實作的Customer Journey Analytics資料，並確定您瞭解任何差異及其存在原因。<!-- Expound on this. Link to somewhere? There will be a lot of differences. -->
 
-1. 瞭解Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md)中的[功能支援。 Customer Journey Analytics支援大部分的Adobe Analytics功能，Customer Journey Analytics也提供許多其他功能。
+1. （選用）使用Analytics來源聯結器從Adobe Analytics匯入歷史資料：
+
+   >[!NOTE]
+   >
+   >如果您先前未建立Analytics來源聯結器，請使用下列步驟。
+   >
+   >如果您已使用Analytics來源聯結器搭配Customer Journey Analytics，請依照[從Analytics來源聯結器移至Web SDK以進行Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)中的步驟操作。
+
+   1. [建立 Analytics 來源連接器的 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+
+   1. 如果您還沒有Analytics來源聯結器，請[建立Analytics來源聯結器，並將欄位對應到您的XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)。
+
+      或
+
+      如果您已有Analytics來源聯結器，請從來源聯結器[將欄位對應到您的XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)。
+
+   1. [將Analytics來源聯結器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)。
 
 1. 規劃使用者上線。
 
@@ -164,9 +166,11 @@ ht-degree: 5%
 
    有關 Adobe Analytics 和 Customer Journey Analytics 之間一些主要差異的資訊，請參閱「[Adobe Analytics 使用者的使用手冊](/help/getting-started/aa-to-cja-user.md)」。
 
-1. 停用AppMeasurement資料收集。
+1. 瞭解Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md)中的[功能支援。 Customer Journey Analytics支援大部分的Adobe Analytics功能，Customer Journey Analytics也提供許多其他功能。
 
-1. 停用Analytics來源聯結器。
+1. [當您的Web SDK實作完成並且您熟悉正在收集的資料時，請停用AppMeasurement資料收集](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)。
+
+1. 所有Analytics來源聯結器資料離開您的資料保留期間後，請停用Analytics來源聯結器。
 
    若使用Experience Platform Web SDK實作，Analytics來源聯結器僅適用於Adobe Analytics歷史資料，以及比較原始實作與新實作的資料。
 

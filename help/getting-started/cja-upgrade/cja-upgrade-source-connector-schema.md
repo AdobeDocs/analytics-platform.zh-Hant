@@ -1,5 +1,5 @@
 ---
-title: 為Analytics來源聯結器建立XDM結構描述
+title: 建立 Analytics 來源連接器的 XDM 結構描述
 description: 瞭解如何為Analytics來源聯結器建立XDM結構描述
 role: Admin
 solution: Customer Journey Analytics
@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: aedf7a2ad41b09521938b789dbaf1c193cdb661f
+source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '537'
+ht-degree: 8%
 
 ---
 
-# 為Analytics來源聯結器建立XDM結構描述
+# 建立 Analytics 來源連接器的 XDM 結構描述
 
 >[!NOTE]
 > 
@@ -32,19 +32,23 @@ ht-degree: 1%
 
 1. 建立Analytics來源聯結器的XDM結構描述，如下所述。
 
-1. [建立Analytics來源聯結器和對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+1. 如果您還沒有Analytics來源聯結器，請[建立Analytics來源聯結器，並將欄位對應到您的XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)。
 
-1. [將Analytics來源聯結器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+   或
 
-## 為Analytics來源聯結器建立XDM結構描述
+   如果您已有Analytics來源聯結器，請從來源聯結器[將欄位對應到您的XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)。
+
+1. [將 Analytics 來源連接器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
+
+## 建立 Analytics 來源連接器的 XDM 結構描述
 
 您應該已經[為您的Experience Platform Web SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)建立了新的XDM結構描述，以便與Customer Journey Analytics搭配使用。 此結構描述應包含您計畫收集資料之欄位的任何欄位群組。
 
-除了您已為Web SDK實作建立的XDM結構描述外，您現在需要建立第二個XDM結構描述以與Analytics來源聯結器搭配使用，以將歷史資料帶入Customer Journey Analytics。
+您現在需要使用您Web SDK結構描述中的相同欄位群組，並將其新增至可與Analytics來源聯結器搭配使用的新結構描述。
 
-此第二個結構描述必須包含：
+Analytics來源聯結器的此結構描述必須包含：
 
-* 您在為Web SDK實作建立的結構描述中包含的所有欄位群組（包括任何自訂欄位群組）。 （任何不屬於預設欄位群組的自訂欄位，都應作為自訂欄位群組的一部分新增到您的Web SDK結構描述中。）
+* 您在自訂結構描述中為Web SDK實作建立的所有欄位群組（包括您建立的任何自訂欄位群組）。 （任何不屬於預設欄位群組的自訂欄位，都應作為自訂欄位群組的一部分新增到您的Web SDK結構描述中。）
 
 * Adobe Analytics ExperienceEvent範本欄位群組
 
