@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 1345981ac78272935ffa8bfc50de8c41223a132f
+source-git-commit: 658fce422d8d5b59d113b5aa512eedee987afd06
 workflow-type: tm+mt
-source-wordcount: '15295'
+source-wordcount: '15373'
 ht-degree: 58%
 
 ---
@@ -33,9 +33,17 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 1. 在 Analysis Workspace 中，選取「[!UICONTROL **工作區**]」標籤。
 
-1. 選取&#x200B;[!UICONTROL **範本**]。
+   ![範本標籤](assets/view-prebuilt-templates.png)
 
-   ![「報告」標籤](assets/view-prebuilt-reports.png)
+1. 在&#x200B;[!UICONTROL **範本**]&#x200B;區段中，選取下列其中一個標籤：
+
+   * **[!UICONTROL Adobe範本]**：顯示Adobe提供的所有範本。
+
+   * **[!UICONTROL _login_company_name _範本]**：顯示組織中已建立的所有公司範本。
+
+     公司範本只能由管理員建立。
+
+1. 選取欄檢視![欄檢檢視示](assets/column-view-icon.png)或卡片檢視![卡片檢檢視示](assets/card-view-icon.png)圖示，選擇是在欄檢視或卡片檢視中檢視範本。
 
 1. 在搜尋欄位中，開始輸入您要尋找的範本名稱，然後從範本清單中選取它。
 
@@ -61,19 +69,19 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 1. 選取要根據所選範本建立報告的範本。
 
-## 自訂並儲存範本 {#use-reports}
+## 根據範本建立專案 {#use-reports}
 
-範本可能並不完全符合您的需求，但可讓您關閉。 在這些情況下，您可以使用範本作為起點，然後進行自訂以最符合您的特定目的。
+範本可能並不完全符合您的需求，但可讓您關閉。 在這些情況下，您可以使用範本作為專案的起點，然後加以自訂以最符合您的特定目的。
 
 如果您在進行變更後離開範本，系統會提示您儲存或捨棄變更。 將變更儲存到範本會將範本儲存為新專案。
 
-若要自訂並儲存範本：
+若要自訂範本並將其儲存為專案：
 
 1. 在 Adobe Analytics 中，選取「[!UICONTROL **工作區**]」索引標籤。
 
 1. 選取&#x200B;[!UICONTROL **範本**]&#x200B;索引標籤。
 
-1. 選取您要檢視的範本。 例如，在「[!UICONTROL **最常用**]」底下，選取「[!UICONTROL **頁面**]」報告。
+1. 選取您要檢視的範本。 例如，在&#x200B;[!UICONTROL **最受歡迎**]&#x200B;下，選取&#x200B;[!UICONTROL **頁面**]&#x200B;範本。
 
    Analysis Workspace中顯示的「頁面」範本會顯示兩個[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) （[橫條圖](/help/analysis-workspace/visualizations/bar.md)和[摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md)）以及一個[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 使用的量度為發生次數。
 
@@ -82,7 +90,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 1. 執行以下任一操作：
 
    * 檢視範本。
-   * 將一或多個區段拖曳到頂部的「區段」放置區。例如，拖曳「[!UICONTROL **Mobile 客戶**]」區段，然後檢視結果。
+   * 將一或多個篩選器拖曳至頂端的「篩選器」拖放區域。 例如，拖曳篩選器&#x200B;[!UICONTROL **行動客戶**]&#x200B;並檢視結果。
    * 前往右上方的行事暦，變更日期範圍。
    * 新增維度劃分、拖曳其他量度，且通常會根據您的需求自訂範本。
 
