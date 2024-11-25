@@ -7,7 +7,7 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 1%
@@ -26,11 +26,11 @@ ht-degree: 1%
 
 使用Analytics來源聯結器時，某些標準查詢資料集會在報告時自動套用。 如需詳細資訊，請參閱[將標準查詢新增至資料集](/help/connections/standard-lookups.md)。
 
-若要在使用Customer Journey Analytics Web SDK時分類Experience Platform中的資料，您需要針對包含您要分類之資料的每個維度建立XDM結構描述和查詢資料集。
+若要在使用Customer Journey Analytics Web SDK時分類Experience Platform中的資料，您需要針對包含您要分類之資料的每個維度建立自訂結構描述和查詢資料集。
 
-## 建立XDM結構描述以搭配查詢資料集使用
+## 建立自訂結構描述以搭配查詢資料集使用
 
-為每個維度建立新的XDM結構描述，其中包含您要在Customer Journey Analytics中分類的資料。 當您在稍後步驟中建立查詢資料集時，它將參考此結構描述。
+針對每個包含您要以Customer Journey Analytics分類的資料的維度建立新的自訂結構描述。 當您在稍後步驟中建立查詢資料集時，它將參考此結構描述。
 
 針對包含您要分類之資料的每個維度，重複此程式。
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 ## 建立查詢資料集
 
-在您[建立XDM結構描述](#create-an-xdm-schema-for-lookup-datasets)以用於查詢資料集後，您需要建立查詢資料集並將其對應到您的結構描述。
+在您[建立自訂結構描述](#create-a-custom-schema-to-use-with-the-lookup-dataset)以用於查詢資料集之後，您需要建立查詢資料集並將其對應到您的結構描述。
 
 針對包含您要分類之資料的每個維度，重複此程式。
 
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 ## 在Customer Journey Analytics中將查詢資料集新增到您的連線
 
-在您[建立XDM結構描述](#create-an-xdm-schema-for-lookup-datasets)並[建立查詢資料集](#create-a-lookup-dataset)之後，您需要將查詢資料集以Customer Journey Analytics新增到您的連線。
+在您[建立自訂結構描述](#create-a-custom-schema-to-use-with-the-lookup-dataset)並[建立查詢資料集](#create-a-lookup-dataset)之後，您需要在Customer Journey Analytics中將查詢資料集新增到您的連線。
 
 針對包含您要分類之資料的每個維度，重複此程式。
 

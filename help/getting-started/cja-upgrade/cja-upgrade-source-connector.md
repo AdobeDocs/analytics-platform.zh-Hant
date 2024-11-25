@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 8%
+source-wordcount: '700'
+ht-degree: 7%
 
 ---
 
@@ -26,23 +26,23 @@ ht-degree: 8%
 
 您可以使用Analytics來源聯結器將Adobe Analytics報告套裝資料匯入Adobe Experience Platform。 然後，這些資料即可用作Customer Journey Analytics中的歷史資料。
 
-此程式假設您要在升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)時[建立XDM結構描述，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
+此程式假設您要[建立自訂結構描述以搭配您的Customer Journey AnalyticsWeb SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
 
 若要使用Analytics來源聯結器將歷史資料帶入Customer Journey Analytics，您需要：
 
-1. [建立 Analytics 來源連接器的 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+1. [建立Analytics來源聯結器的自訂結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. 如果您還沒有Analytics來源聯結器，請建立Analytics來源聯結器並將欄位對應到您的XDM結構描述，如下所述。
+1. 如果您還沒有Analytics來源聯結器，請建立Analytics來源聯結器，並將欄位對應至您的自訂Web SDK結構描述，如下所述。
 
    或
 
-   如果您已有Analytics來源聯結器，請從來源聯結器[將欄位對應到您的XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)。
+   如果您已有Analytics來源聯結器，請從來源聯結器[將欄位對應到自訂Web SDK結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)。
 
 1. [將 Analytics 來源連接器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
 ## 建立 Analytics 來源連接器和對應欄位
 
-建立XDM結構描述後，您需要建立Adobe Analytics來源聯結器以用於歷史資料。 (如需建立來源聯結器的更完整的一般准則，請參閱[在UI中建立Adobe Analytics來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。)
+在建立自訂結構描述後，您需要建立Adobe Analytics來源聯結器以用於歷史資料。 (如需建立來源聯結器的更完整的一般准則，請參閱[在UI中建立Adobe Analytics來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。)
 
 若要建立用於歷史資料的Adobe Analytics來源聯結器：
 
@@ -60,11 +60,11 @@ ht-degree: 8%
 
 1. 選取畫面右上角的&#x200B;**[!UICONTROL 下一步]**。
 
-1. 選取&#x200B;**[!UICONTROL 自訂結構描述]**，然後選取您在[中建立的結構描述。建立包含Adobe Analytics欄位群組的XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)。<!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
+1. 選取&#x200B;**[!UICONTROL 自訂結構描述]**，然後選取您在[中建立的結構描述。建立包含Adobe Analytics欄位群組的自訂結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)。<!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
 
    <!-- add screenshot -->
 
-1. 將每個Adobe Analytics維度對應至自訂XDM結構描述維度。
+1. 將每個Adobe Analytics維度對應至自訂結構描述維度。
 
    1. 在&#x200B;**[!UICONTROL 對應標準欄位]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 自訂]**&#x200B;索引標籤。
 
@@ -72,7 +72,7 @@ ht-degree: 8%
 
    ![對應結構描述欄位](assets/schema-mapping.png)
 
-   1. 在&#x200B;**[!UICONTROL Source欄位]**&#x200B;中，從Adobe Analytics ExperienceEvent範本欄位群組中選取Adobe Analytics欄位。 然後，在&#x200B;**[!UICONTROL 目標欄位]**&#x200B;中，選取您要將它對應到的XDM欄位。
+   1. 在&#x200B;**[!UICONTROL Source欄位]**&#x200B;中，從Adobe Analytics ExperienceEvent範本欄位群組中選取Adobe Analytics欄位。 然後，在&#x200B;**[!UICONTROL 目標欄位]**&#x200B;中，在XDM結構描述中選取您要將它對應到的自訂欄位。
 
       由於AppMeasurement和XDM之間的固有架構差異，並非所有Adobe Analytics欄位在XDM中都擁有對應的欄位。
 

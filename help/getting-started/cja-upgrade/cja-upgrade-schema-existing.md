@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
-source-git-commit: 5ce69400a01566728f374d68ac08a981adfd8b6e
+source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 <!-- this page exists as the "Learn more" link in the info icons for the options "I am comfortable using my Adobe Analytics schema as a basis" and "I want to use a schema tailored to my organization" -->
 
-升級至Customer Journey Analytics時，Adobe建議您在開始使用其他Platform服務時，建立新的XDM結構描述以更符合組織的需求。 或者，您也可以選擇使用現有的Adobe Analytics結構描述。
+升級至Customer Journey Analytics時，Adobe建議建立自訂Experience Data Model (XDM)結構，以便在您開始使用其他Platform服務時更符合組織的需求。 或者，您也可以選擇使用現有的Adobe Analytics結構描述。
 
 考量每個專案的優缺點。
 
-## 建立為您的組織量身打造的XDM結構描述（建議）
+## 建立為您的組織量身打造的自訂結構描述（建議）
 
-Adobe建議在升級至Customer Journey Analytics時建立新的XDM結構描述。
+Adobe建議在升級至Customer Journey Analytics時建立自訂結構描述。
 
 | 優勢 | 缺點 |
 |----------|---------|
-| <ul><p>更新至您自己的XDM結構描述的優點包括：</p><ul><li>根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化方案。</li><p>當需要變更結構描述時，您不必在數千個未使用的欄位中篩選，以尋找需要更新的欄位。</p></ul> | <p>更新至您自己的XDM結構的缺點包括：</p><ul><li>在開始將資料傳送至Platform之前，需要先更新您的結構描述，這是一個耗時的過程。</li></ul> |
+| <ul><p>更新為您自己的自訂結構描述的優點包括：</p><ul><li>根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化方案。</li><p>當需要變更結構描述時，您不必在數千個未使用的欄位中篩選，以尋找需要更新的欄位。</p></ul> | <p>更新為您自己的自訂結構的缺點包括：</p><ul><li>在開始將資料傳送至Platform之前，需要先更新您的結構描述，這是一個耗時的過程。</li></ul> |
 
 ## 使用您現有的Adobe Analytics結構描述
 
