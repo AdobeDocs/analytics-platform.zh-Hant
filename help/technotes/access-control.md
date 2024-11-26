@@ -6,10 +6,10 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: 354bdb440e36dc990f54d887908f9fb9c0a50110
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 15%
+source-wordcount: '1549'
+ht-degree: 14%
 
 ---
 
@@ -65,6 +65,16 @@ ht-degree: 15%
   | [!UICONTROL Identity Management] | [!UICONTROL 檢視身分識別名稱空間] | 身分識別名稱空間的唯讀存取權。 |
 
   如需Experience Platform許可權的詳細資訊，請參閱[管理產品設定檔的許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions)。
+
+
+* 如果Adobe Journey Optimizer已與AJO連線所在的CJA整合，則也必須新增歷程許可權才能存取連線：
+
+  | 類別 | 權限 | 說明 |
+  |---|---|---|
+  | [!UICONTROL 歷程] | [!UICONTROL 檢視歷程事件、資料來源及動作] | 以唯讀方式存取歷程事件、歷程自訂動作和歷程資料來源。 |
+  | [!UICONTROL 歷程] | [!UICONTROL 管理歷程事件、資料來源及動作] | 讀取、建立、編輯和刪除事件、來源或動作。 |
+  | [!UICONTROL 歷程] | [!UICONTROL 檢視歷程] | 歷程的唯讀存取權。 |
+  | [!UICONTROL 歷程] | [!UICONTROL 管理歷程] | 讀取、建立、編輯和刪除歷程。 |
 
 * 將資料集匯出至[目的地](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets)
 
