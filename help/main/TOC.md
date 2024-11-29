@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 658fce422d8d5b59d113b5aa512eedee987afd06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1090'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 97%
       + [了解 Analytics 實施](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
       + [建立用於分類的查詢資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
       + [監視資料集擷取](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)
-      + [建立行銷通路衍生的欄位](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
+      + [建立行銷管道衍生的欄位](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)
       + [實作適用於 Web SDK 擴充功能的 Loader 標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
       + [為您的屬性建立標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
       + [將 Web SDK 擴充功能新增至您的標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
@@ -68,9 +68,9 @@ ht-degree: 97%
       + [建立 Analytics 來源連接器的 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
       + [建立 Analytics 來源連接器和對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
       + [將 Analytics 來源連接器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
-      + [僅使用Analytics來源聯結器](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
-      + [從Analytics來源聯結器移至Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
-      + [停用AppMeasurement資料收集](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
+      + [使用專用 Analytics 來源連接器](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
+      + [從 Analytics 來源連接器移至 Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
+      + [停用 AppMeasurement 資料彙集](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
       + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)
