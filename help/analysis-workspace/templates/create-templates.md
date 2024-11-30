@@ -5,9 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 96844fae07734e979e9dd4689d5eded6a7a3b926
+exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
+source-git-commit: b9ab9a7cb07759f4be8eae0f1d29eba4d5fa1be3
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '573'
 ht-degree: 4%
 
 ---
@@ -20,15 +21,13 @@ ht-degree: 4%
 
 ## 建立範本
 
-<!-- is this only admins? -->
-
 若要建立可供登入公司人員使用的新範本：
 
 1. 在Analysis Workspace中，將專案建置為您想要的狀態。
 
 1. 選取&#x200B;[!UICONTROL **專案**] > **[!UICONTROL 另存為範本……]**。
 
-   ![公司報告](assets/company-template-save.png)
+   ![公司範本](assets/company-template-save.png)
 
 1. 在[!UICONTROL 另存為範本]對話方塊中指定下列資訊：
 
@@ -45,11 +44,37 @@ ht-degree: 4%
 
 如需使用者如何根據範本建立專案的詳細資訊，請參閱[使用範本](/help/analysis-workspace/templates/use-templates.md)中的[根據範本建立專案](/help/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template)。
 
-## 管理公司範本
+## 編輯或刪除範本
 
-管理員可以刪除、重新命名、標籤及核准公司範本。
+管理員可以編輯或刪除公司範本。
 
-若要顯示和管理公司範本，請執行下列動作：
+1. 在Analysis Workspace中，選取&#x200B;[!UICONTROL **Workspace**]&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL _登入公司名稱&#x200B;_範本]**。
+
+1. 如果您在資料行檢視![資料行檢檢視示](assets/column-view-icon.png)中檢視範本：
+
+   1. 前往您要編輯或刪除的範本，選取範本名稱旁的資訊圖示。
+
+      ![公司範本資訊](assets/company-template-info.png)
+
+   1. 選取&#x200B;**[!UICONTROL 預覽]**。
+
+   1. 選取「更多」圖示，然後選取&#x200B;**[!UICONTROL 編輯]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**。
+
+      ![編輯或刪除範本](assets/company-template-edit-delete.png)
+
+1. 如果您正在卡片檢視中檢視範本![卡片檢檢視示](assets/card-view-icon.png)：
+
+   1. 找到您要編輯或刪除的範本。
+
+      ![公司範本卡片檢視](assets/company-template-cards.png)
+
+   1. 選取「更多」圖示，然後選取&#x200B;**[!UICONTROL 編輯]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**。
+
+      ![公司範本卡片編輯或刪除](assets/company-template-card-edit-delete.png)
+
+## 重新命名、標籤或核准範本
+
+管理員可以重新命名、標籤及核准公司範本。
 
 1. 在Analysis Workspace中，選取&#x200B;[!UICONTROL **Workspace**]&#x200B;標籤，然後在左側邊欄中選取&#x200B;**[!UICONTROL 專案標籤]**。
 
@@ -61,24 +86,20 @@ ht-degree: 4%
 
    公司範本可由範本名稱前面的![範本圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)識別。
 
-   <!-- Update screenshot -->
-
-   ![顯示公司範本篩選器](assets/company-reports-filter.png)
-
-1. 在範本清單中，選取一或多個公司範本。
+   ![顯示公司範本篩選器](assets/company-templates-filter.png)
 
 1. 按一下範本旁的&#x200B;**...**&#x200B;省略圖示以檢視可用的選項。
 
-   <!-- Update screenshot -->
+   ![公司範本動作](assets/company-templates-actions.png)
 
-   ![公司範本動作](assets/company-reports-actions.png)
+1. 選取「**[!UICONTROL 重新命名]**」、「**[!UICONTROL 標籤]**」或「**[!UICONTROL 核准]**」。
 
-1. 選取&#x200B;**[!UICONTROL 刪除]**、**[!UICONTROL 重新命名]**、**[!UICONTROL 標籤]**&#x200B;或&#x200B;**[!UICONTROL 核准]**)。
+   您也可以刪除範本，或者可以按照[編輯或刪除範本](#edit-or-delete-templates)中的說明刪除範本。
 
 1. （選擇性）若要返回一般檢視，請在篩選邊欄中取消選取&#x200B;**[!UICONTROL 公司範本]**。
 
 ## 存取公司範本
 
-就像使用Adobe提供的範本一樣，您可以存取組織中的人員建立的範本。
+就像Adobe提供的範本一樣，組織中的使用者可以存取管理員建立的範本。
 
 如需有關如何存取公司範本的資訊，請參閱[使用範本](/help/analysis-workspace/templates/use-templates.md)中的[存取並執行範本](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template)。
