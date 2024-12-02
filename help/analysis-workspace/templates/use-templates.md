@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: b9ab9a7cb07759f4be8eae0f1d29eba4d5fa1be3
+source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
 workflow-type: tm+mt
-source-wordcount: '15383'
-ht-degree: 79%
+source-wordcount: '15449'
+ht-degree: 78%
 
 ---
 
@@ -43,7 +43,11 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
      公司範本只能由管理員建立。 如需有關如何建立公司範本的資訊，請參閱[建立和管理範本](/help/analysis-workspace/templates/create-templates.md)。
 
-1. 選取欄檢視![欄檢檢視示](assets/column-view-icon.png)或卡片檢視![卡片檢檢視示](assets/card-view-icon.png)圖示，選擇是在欄檢視或卡片檢視中檢視範本。
+1. 使用下列任一選項來變更您檢視可用範本的方式：
+
+   * 選取欄檢視![欄檢檢視示](assets/column-view-icon.png)或卡片檢視![卡片檢檢視示](assets/card-view-icon.png)圖示，選擇是在欄檢視或卡片檢視中檢視範本。
+
+   * 使用卡片檢視![卡片檢檢視示](assets/card-view-icon.png)時，請從下列排序順序中選擇： **[!UICONTROL 最近使用]**、**[!UICONTROL 最受歡迎]**、**[!UICONTROL 字母順序]**、**[!UICONTROL 類別]**。
 
 1. 在搜尋欄位中，開始輸入您要尋找的範本名稱，然後從範本清單中選取它。
 
@@ -57,17 +61,23 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
    如需可用的範本清單，請參閱下方的[可用的範本](#available-templates)區段。
 
-1. （選用）檢視並使用包含資料檢視中無法使用之元件的範本。 （依預設，只會顯示使用資料檢視中可用元件的範本。）
+1. （選用）檢視並使用包含資料檢視中無法使用之元件的範本。 （根據預設，只有當範本使用資料檢視中可用的元件時，才會顯示範本。）
 
-   1. 選取（篩選器選項的名稱？） 來顯示需要其他元件的範本。
+   1. 選取篩選器圖示。
 
-      <!-- add screenshot -->
+   1. 選取&#x200B;**[!UICONTROL 未準備好使用]**&#x200B;以顯示需要其他元件的範本。
 
-   1. 選取您要使用的範本。
-
-   1. 如果範本包含資料檢視中不可用的元件，則會顯示訊息，指出缺少哪些元件。 按一下（按鈕？） 前往資料檢視，您可在其中自動建立它們。<!--how do you do this? Walk through the process -->
+      ![使用缺少元件的範本](assets/template-not-ready.png)
 
 1. 選取要根據所選範本建立報告的範本。
+
+1. （條件式）如果範本包含資料檢視中無法使用的元件，則會顯示「不相容的資料檢視」對話方塊，指出資料檢視與範本不相容，並顯示缺少哪些元件。
+
+   執行下列任一項作業：
+
+   * 在&#x200B;**[!UICONTROL 變更資料檢視]**&#x200B;下拉式功能表中選擇不同的資料檢視。
+
+   * 選取&#x200B;**[!UICONTROL 仍要繼續]**&#x200B;以檢視遺失元件的範本。
 
 ## 根據範本建立專案 {#use-reports}
 
