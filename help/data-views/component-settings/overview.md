@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
-workflow-type: ht
+source-git-commit: 1158064d46e09435ec2507c47e6e484306ac5a53
+workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 | [!UICONTROL 元件名稱] | 必填。可讓您指定在 Analysis Workspace 中顯示的友好名稱。您可以重新命名元件，給它一個特定於資料檢視的名稱。 |
 | [!UICONTROL 說明] | 選填，但建議。為其他使用者提供有關元件的資訊。 |
 | [!UICONTROL 標記] | 選填。可讓您使用自訂或現成可用的標籤來標記元件，以便在 Analysis Workspace UI 中更輕鬆地進行搜尋/篩選。 |
-| [!UICONTROL 內容標籤] | 選填。可套用至元件之可用系統定義標籤的下拉式清單。可能需要使用這些標籤來定義一組元件，您可以使用 Analysis Workspace 專案中的[實驗面板](/help/analysis-workspace/c-panels/experimentation.md)在實驗報告中使用這些元件。如需詳細資訊，請參閱[與 Journey Optimizer 整合](/help/integrations/ajo.md#data-view)和 [Target 報告](/help/integrations/at.md)。 |
+| [!UICONTROL 內容標籤] | 選填。可套用至元件之可用系統定義標籤的下拉式清單。可能需要用這些標籤來定義一組元件，您可以在Analysis Workspace專案中使用[Experimentation面板](/help/analysis-workspace/c-panels/experimentation.md)在實驗報表中使用。 如需詳細資訊，請參閱[與 Journey Optimizer 整合](/help/integrations/ajo.md#data-view)和 [Target 報告](/help/integrations/at.md)。 |
 | [!UICONTROL 結構描述欄位名稱] | 結構描述欄位的名稱。 |
 | [!UICONTROL 資料集類型] | 必填。不可編輯的欄位，顯示元件來自的資料集類型 (事件、查詢或輪廓)。 |
 | [!UICONTROL 資料集] | 不可編輯的欄位，顯示元件來自的資料集。此欄位可包含多個資料集。 |
