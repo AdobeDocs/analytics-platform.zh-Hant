@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 8561f14d5b428e55614fe1465f75d2be6660468d
+source-git-commit: d1aee7ccdcea2794efd9db5d6dbf46cba4087030
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 4%
+source-wordcount: '1041'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 4%
 
 管理員可以編輯或刪除公司範本。
 
-1. 在Analysis Workspace中，選取&#x200B;[!UICONTROL **Workspace**]&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL _登入公司名稱&#x200B;_範本]**。
+1. 在Analysis Workspace中，選取&#x200B;[!UICONTROL **Workspace**]&#x200B;索引標籤，然後在左側邊欄的&#x200B;**[!UICONTROL 範本]**&#x200B;下選取&#x200B;**[!UICONTROL _登入公司名稱&#x200B;_範本]**。
 
 1. 如果您在資料行檢視![資料行檢檢視示](assets/column-view-icon.png)中檢視範本：
 
@@ -67,6 +67,8 @@ ht-degree: 4%
    1. 找到您要編輯或刪除的範本。
 
       ![公司範本卡片檢視](assets/company-template-cards.png)
+
+   1. 將滑鼠停留在範本上，然後選取&#x200B;**[!UICONTROL 預覽]**。
 
    1. 選取「更多」圖示，然後選取&#x200B;**[!UICONTROL 編輯]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**。
 
@@ -97,6 +99,73 @@ ht-degree: 4%
    您也可以刪除範本，或者可以按照[編輯或刪除範本](#edit-or-delete-templates)中的說明刪除範本。
 
 1. （選擇性）若要返回一般檢視，請在篩選邊欄中取消選取&#x200B;**[!UICONTROL 公司範本]**。
+
+## 將缺少的元件新增至指定範本的資料檢視
+
+根據預設，Adobe提供的某些範本將無法運作，因為它們包含不在資料檢視中的元件。
+
+對於每一個遺失的元件，您的資料檢視中都有相符的內容標籤。 您需要將相符的內容標籤新增到資料檢視中已存在的元件，或者您需要將新的元件新增到資料檢視並將內容標籤新增到其中。
+
+若要將缺少的元件新增至範本：
+
+1. 在Analysis Workspace中，選取&#x200B;[!UICONTROL **Workspace**]&#x200B;索引標籤，然後在左側邊欄的&#x200B;**[!UICONTROL 範本]**&#x200B;下，選取&#x200B;**[!UICONTROL Adobe範本]**。
+
+1. 選取篩選圖示以篩選範本清單。
+
+1. 選取「**[!UICONTROL 未就緒]**」以顯示需要不在資料檢視中的元件的範本。
+
+   ![使用缺少元件的範本](assets/template-not-ready.png)
+
+1. 找出尚未準備好搭配資料檢視使用的範本。
+
+1. 執行下列任一項作業：
+
+   * **如果您正在資料行檢視中檢視範本** ![資料行檢檢視示](assets/column-view-icon.png)：
+
+      1. 前往尚未準備好搭配資料檢視使用的範本，然後選取範本名稱旁邊的資訊圖示。
+
+         ![公司範本資訊](assets/company-template-info.png)
+
+      1. 選取&#x200B;**[!UICONTROL 預覽]**。
+
+         ![範本預覽頁面](assets/template-preview.png)
+
+   * **如果您正在卡片檢視中檢視範本** ![卡片檢檢視示](assets/card-view-icon.png)：
+
+      1. 找出尚未準備好搭配資料檢視使用的範本。
+
+         ![公司範本卡片檢視](assets/company-template-cards.png)
+
+      1. 將滑鼠停留在範本上，然後選取&#x200B;**[!UICONTROL 預覽]**。
+
+         ![範本預覽頁面](assets/template-preview.png)
+
+1. 在&#x200B;**[!UICONTROL 缺少的元件]**&#x200B;區段中，會顯示資料檢視中缺少的元件清單。 選取&#x200B;**[!UICONTROL 將這些元件新增至您的資料檢視]**。
+
+   資料檢視的設定頁面會顯示在新的標籤中。
+
+1. 選取資料檢視的&#x200B;**[!UICONTROL 元件]**&#x200B;標籤。
+
+   ![資料檢視元件標籤](assets/template-dataview.png)
+
+1. 針對範本中列為遺失的每個元件，請在&#x200B;**[!UICONTROL 元件]**&#x200B;標籤上執行下列其中一項作業：
+
+   * 在&#x200B;**[!UICONTROL 包含的元件]**&#x200B;區段中，選取資料檢視中已包含的元件，您要用於遺失的元件。
+
+   * 將新元件新增至您要用於遺失元件的資料檢視，然後選取元件。
+
+     若要新增元件至資料檢視，請搜尋結構描述欄位清單，然後將其拖曳至&#x200B;**[!UICONTROL 包含的元件]**&#x200B;區段。
+
+1. 選取元件後，找到右欄中的&#x200B;**[!UICONTROL 內容標籤]**&#x200B;下拉式功能表。
+
+   ![資料檢視元件標籤](assets/template-dataview-context-label.png)
+
+1. 在&#x200B;**[!UICONTROL 內容標籤]**&#x200B;下拉式功能表中，選取與遺失元件同名的內容標籤。
+
+1. 選取&#x200B;**[!UICONTROL 「儲存並繼續」]**。
+
+1. 針對每個遺失的元件，重複將相符的內容標籤新增至資料檢視中元件的程式。
+
 
 ## 存取公司範本
 
