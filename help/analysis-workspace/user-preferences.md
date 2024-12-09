@@ -5,9 +5,9 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: ht
-source-wordcount: '3466'
+source-wordcount: '3461'
 ht-degree: 100%
 
 ---
@@ -107,12 +107,12 @@ ht-degree: 100%
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **顯示** | | |
-|  | [檢視密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-hant) | 減少左側面板、自由格式表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
-| | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-hant) | 選擇 Analysis Workspace 和引導式分析中使用的視覺效果調色盤。 <ul><li> 類別調色盤：套用至 Analysis Workspace 和引導式分析的多個視覺效果。每種顏色代表相異的類別值。從 Adobe 提供的選項中進行選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li> 偏離調色盤：套用至 Analysis Workspace 和使用者增長引導式分析中的同類群組表格。此調色盤具有數值含義，其中包含兩個極端和中間的基線。<li> 循序調色盤：套用至頻率趨勢 (堆疊長條) 引導式分析。該調色盤具有從淺到深的數值含義。</li></ul> |
+|  | [檢視密度](/help/analysis-workspace/build-workspace-project/view-density.md) | 減少左側面板、自由格式表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
+| | [調色盤](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 選擇 Analysis Workspace 和引導式分析中使用的視覺效果調色盤。 <ul><li> 類別調色盤：套用至 Analysis Workspace 和引導式分析的多個視覺效果。每種顏色代表相異的類別值。從 Adobe 提供的選項中進行選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li> 偏離調色盤：套用至 Analysis Workspace 和使用者增長引導式分析中的同類群組表格。此調色盤具有數值含義，其中包含兩個極端和中間的基線。<li> 循序調色盤：套用至頻率趨勢 (堆疊長條) 引導式分析。該調色盤具有從淺到深的數值含義。</li></ul> |
 | **資料** | | |
-|  | [資料視圖](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-hant?#report-suite) | 從表格和視覺效果衍生其資料的位置進行資料選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定資料視圖</li></ul> |
-|  | [行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-hant?#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>您可以啟用[!UICONTROL 預設使日期範圍元件與面板行事曆相對應]。</li></ul> |
-|  | [面板類型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-hant) | <ul><li>自由格式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
+|  | [資料視圖](/help/analysis-workspace/c-panels/panels.md#data-view) | 從表格和視覺效果衍生其資料的位置進行資料選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定資料視圖</li></ul> |
+|  | [行事曆](/help/analysis-workspace/c-panels/panels.md#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>您可以啟用[!UICONTROL 預設使日期範圍元件與面板行事曆相對應]。</li></ul> |
+|  | [面板類型](/help/analysis-workspace/c-panels/panels.md#panel-types) | <ul><li>自由格式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
 |  | 實例計數 | 啟用[!UICONTROL 計算重複實例數]以指定是否要將重複實例計入報告中。例如，若啟動，多次連續檢視相同頁面視為檢視多個頁面。停用後，多次連續檢視相同頁面將計為單次頁面檢視。 <p>**注意：**&#x200B;此設定只會影響特定量度 (例如工作階段)，不適用於「流程」或「流失」視覺效果。</p> |
 |  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
@@ -163,7 +163,7 @@ ht-degree: 100%
 | | 顯示異常狀況 <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> | 決定是否要在該欄的數值中執行異常偵測。 |
 | | 顯示預測 | 決定是否會對您建立之任何時間序列自由格式表格中的第一個量度欄自動顯示預測值。 |
 | | 將零解讀為沒有值 | 針對含有 0 值的儲存格，決定顯示 0 或空白儲存格。如果您要查看某月的每日資料，而當月有部分天數尚未發生，這個方法就相當實用。若不想在未來的日期中顯示 0 值，則可選擇顯示空白儲存格。圖表也會採用此設定 (意即選取此設定後，若圖表含有 0 值，則不會顯示折線圖或長條圖)。 |
-| | 背景 | 決定儲存格是否要顯示/隱藏所有儲存格格式，包括橫條圖和條件式格式 <ul><li>橫條圖</li> 顯示橫條圖，當中呈現相對於欄總數的儲存格數值。 <li>條件式格式</li>如需條件式格式的詳細資訊，請參閱[欄設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的「條件式格式」</ul> |
+| | 背景 | 決定儲存格是否要顯示/隱藏所有儲存格格式，包括長條圖和條件式格式 <ul><li>長條圖</li> 顯示長條圖，當中呈現相對於欄總數的儲存格數值。 <li>條件式格式</li>如需條件式格式的詳細資訊，請參閱[欄設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的「條件式格式」</ul> |
 | | 儲存格預覽 | 顯示目前已套用選定格式選項之各儲存格的呈現方式預覽。 |
 | **[列](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 依位置劃分 | 如果您希望劃分保留在項目的位置，而非項目本身，請選取此選項。如需劃分的詳細資訊，請參閱[劃分維度](/help/components/dimensions/t-breakdown-fa.md)。 |
@@ -228,8 +228,8 @@ ht-degree: 100%
 | | 每欄展開的項目 | 每欄中想要多少項目。 |
 | **堆疊圖** | | |
 | | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。 <p>如需詳細資訊，請參閱[長條圖和堆疊長條圖](/help/analysis-workspace/visualizations/bar.md)。</p> |
-| **[長條圖](/help/analysis-workspace/visualizations/histogram.md)** | | |
-| | 貯體數 | 在視覺效果中選擇日期範圍 (貯體) 的數量。貯體的最大數量是 50。 <p>如需詳細資訊，請參閱[長條圖](/help/analysis-workspace/visualizations/histogram.md)。</p> |
+| **[直方圖](/help/analysis-workspace/visualizations/histogram.md)** | | |
+| | 貯體數 | 在視覺效果中選擇日期範圍 (貯體) 的數量。貯體的最大數量是 50。 <p>如需詳細資訊，請參閱[直方圖](/help/analysis-workspace/visualizations/histogram.md)。</p> |
 | | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>工作階段</li><li>人員</li></ul> <p>例如，與頁面瀏覽次數搭配使用時，您可以選擇每個人員的頁面瀏覽次數、造訪的頁面瀏覽次數，或是每個事件的頁面瀏覽次數。若為點擊，自由格式表格會將「發生次數」設為 Y 軸的量度。</p> |
 | **[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變更</li><li>原始差異</li></ul> |

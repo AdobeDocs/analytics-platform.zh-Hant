@@ -4,9 +4,9 @@ title: Analysis Workspace 的協助工具
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
+source-git-commit: dca8b99dad97e939e8021a681cb21ab14ca1ff87
 workflow-type: ht
-source-wordcount: '544'
+source-wordcount: '542'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ### 鍵盤快速鍵 (熱鍵)
 
-[!UICONTROL Analysis Workspace] 提供了一組豐富的[鍵盤快速鍵](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys)，讓工作流程更加順暢。
+[!UICONTROL Analysis Workspace] 提供了一組豐富的[鍵盤快速鍵](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，讓工作流程更加順暢。
 
 ## 支援螢幕助讀程式和螢幕放大鏡
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 [!UICONTROL Analysis Workspace] 致力於達到 WCAG 2.1 AA 的要求，包括色彩對比的要求。
 
-此外，使用者可在&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 專案設定]** > [專案調色盤](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes)下，針對專案設定自己偏好的調色盤。
+此外，使用者可在&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 專案設定]** > [專案調色盤](/help/analysis-workspace/build-workspace-project/color-palettes.md)下，針對專案設定自己偏好的調色盤。
 
 ## 所需的驗證
 

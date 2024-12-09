@@ -4,9 +4,9 @@ title: Analysis Workspace 中的常見錯誤和疑難排解
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
-source-git-commit: ec32b7bca6fd4fc4b2652d1265048ec788f19718
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: ht
-source-wordcount: '590'
+source-wordcount: '589'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 | [!UICONTROL 這份報告過於複雜。請檢閱建置 Analysis Workspace 報告的最佳實務。] | 您的報告請求規模過大，無法執行。造成此錯誤的原因是由於請求的複雜性而導致的逾時。 | 簡化您的要求。例如，縮短日期範圍，或簡化篩選條件，或移除表格中的某些欄或列。您可能考慮將表格拆分為個別的請求。 |
 | [!UICONTROL 資料檢視目前超出了其報告容量。請簡化要求或稍後重試。] | 您的組織針對特定資料視圖同時執行過多請求。造成此錯誤的因素包括 API 請求、已排程專案，以及同時提出報告請求的用戶數量。 | 在一天中更平均地分佈資料視圖的請求和排程。 |
 | [!UICONTROL 發生系統錯誤。請在「**[!UICONTROL 說明 > 提交支援票證]**」中提出客戶服務請求，並附上錯誤代碼。] | Adobe 遇到需要解決的問題。 | 將錯誤代碼提交給客戶服務。 |
-| [!UICONTROL 錯誤 500：無法載入頁面] | 您的本機網路問題 (例如公司[防火牆設定](https://experienceleague.adobe.com/zh-hant/docs/analytics/technotes/ip-addresses)) 是造成此錯誤的因素。此外，Adobe 可能遇到需要解決的問題。 | 請在幾分鐘後再次嘗試登入。如果問題持續發生，請將 EIM 例項 ID 代碼提交給客戶服務。 |
+| [!UICONTROL 錯誤 500：無法載入頁面] | 您的本機網路問題 (例如公司[防火牆設定](/help/technotes/ip-addresses.md)) 是造成此錯誤的因素。此外，Adobe 可能遇到需要解決的問題。 | 請在幾分鐘後再次嘗試登入。如果問題持續發生，請將 EIM 例項 ID 代碼提交給客戶服務。 |
 | [!UICONTROL 您的請求失敗，因為有太多欄或預先設定的列。] | 表格有太多自由格式儲存格 (列數 * 欄數)。 | 移除表格中的欄或列，或考慮將表格分割為個別請求。 |
 
 
