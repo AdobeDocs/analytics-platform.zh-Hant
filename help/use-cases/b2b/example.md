@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: aa1615be6eaeb5c098659ec6b58829ca8efe64a4
+source-git-commit: 912e6a3200cdc8463667266f9cae75e4f6278337
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 7%
+source-wordcount: '1262'
+ht-degree: 6%
 
 ---
 
 # B2B 專案範例
 
-本文說明如何在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級的B2B資料。
+本文會說明一個使用案例，您想在Customer Journey Analytics中正確報告典型B2B設定內容中的個人資料。 此類設定是[Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)的一部分。  此使用案例說明如何在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級型的B2B資料。
 
 ## 連線
 
@@ -23,7 +23,7 @@ ht-degree: 7%
 | 資料集 | 結構描述 | 結構描述類型 | 基底類別 | 說明 |
 |---|---|---|---|---|
 | B2B活動資料集 | B2B活動結構描述 | 事件 | XDM ExperienceEvent | ExperienceEvent是所發生情況的事實記錄，包括時間點和所涉及個人的身分。 ExperienceEvents可以是明確的（可直接觀察的人類動作）或內隱的（在沒有直接人類動作的情況下引發），並且記錄時不會進行彙總或解譯。 體驗事件對時間網域分析至關重要，因為它們允許觀察和分析在給定時間範圍內發生的變化，並比較多個時間範圍以追蹤趨勢。 |
-| B2B個人資料集 | B2B個人綱要 | 設定檔 | XDM個別設定檔 | XDM個人資料會形成已識別和部分識別個人的屬性和興趣的單一表示。 識別較少的設定檔可能僅包含匿名行為訊號，例如瀏覽器Cookie，而高度識別的設定檔可能包含詳細的個人資訊，例如姓名、出生日期、位置和電子郵件地址。 隨著個人檔案成長，它會成為個人資訊、身分資訊、聯絡詳細資料和個人通訊偏好設定的健全存放庫。 |
+| B2B個人資料集 | B2B個人綱要 | 輪廓 | XDM個別設定檔 | XDM個人資料會形成已識別和部分識別個人的屬性和興趣的單一表示。 識別較少的設定檔可能僅包含匿名行為訊號，例如瀏覽器Cookie，而高度識別的設定檔可能包含詳細的個人資訊，例如姓名、出生日期、位置和電子郵件地址。 隨著個人檔案成長，它會成為個人資訊、身分資訊、聯絡詳細資料和個人通訊偏好設定的健全存放庫。 |
 | B2B帳戶資料集 | B2B帳戶結構描述 | 查詢 | XDM商業帳戶 | XDM企業帳戶是一個標準的體驗資料模型(XDM)類別，可擷取企業帳戶的最低要求屬性。 此XDM類別只能包含在擁有B2B或B2P版本之客戶的個人資料中。 |
 | B2B機會資料集 | B2B機會結構描述 | 查詢 | XDM商業機會 | XDM商業機會是一個標準的體驗資料模型(XDM)類別，可擷取商業機會的最低要求屬性。 此XDM類別只能包含在擁有B2B或B2P版本之客戶的個人資料中。 |
 | B2B促銷活動資料集 | B2B行銷活動結構描述 | 查詢 | XDM商業活動 | XDM商業促銷活動是一個標準的體驗資料模型(XDM)類別，可擷取商業促銷活動的最低要求屬性。 此XDM類別只能包含在擁有B2B或B2P版本之客戶的個人資料中。 |
@@ -41,7 +41,7 @@ ht-degree: 7%
 -->
 
 
-B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係會在Experience Platform內的B2B設定中定義。 檢視[Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
+B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係會在Experience Platform內的B2B設定中定義。 檢視[Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
 
 
 若要確保連線設定正確，可支援B2B資料的個人查詢功能，請使用下列圖例來概略瞭解情況，並依照下列步驟進行：
