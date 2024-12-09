@@ -4,9 +4,9 @@ description: 如何使用和解讀Analysis Workspace中的「媒體平均每分�
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: 28a43ef92bee1359509c0c3f92d51a08653830c3
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 30%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 30%
 >title="媒體平均分鐘觀眾數"
 >abstract="建立一個面板來分析特定內容或特定時段內的每分鐘平均客群數。"
 
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -29,8 +28,6 @@ ht-degree: 30%
 >id="cja_workspace_mediaaverageminuteaudience_panel"
 >title="媒體平均分鐘觀眾數"
 >abstract="顯示特定媒體內容或自訂時段內的效能。<br/><br/>**一般參數&#x200B;**<br/>**計算指標**：選取要用於面板的指標。選取&#x200B;**特定內容**&#x200B;可根據內容長度分析特定內容或事件的平均分鐘觀眾數。**選取自訂時段**&#x200B;可分析自訂選定時段內的平均分鐘觀眾數變化。<br/>**報告維度**：選取按&#x200B;**內容 ID** 維度的&#x200B;**影片名稱**&#x200B;進行報告。僅當您選取特定內容作為指標時才可用。<br/>**詳細程度**：選取報告的詳細程度。僅當您選取自訂時段作為指標時才可用。<br/>**篩選內容依據 (可選)**：選取特定節目、季別、劇集，或選取自訂維度來篩選內容。<br/><br/>**進階設定&#x200B;**<br/>**表格設定**：選取是否在表格中顯示計算值。<br/>**逗留時間量度**：選取您想要用於特定內容計算的逗留時間量度。僅當您選取特定內容作為指標時才可用。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel#specific-content" text="特定內容"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel#custom-time-period" text="自訂時段"
 
 <!-- markdownlint-enable MD034 -->
 
