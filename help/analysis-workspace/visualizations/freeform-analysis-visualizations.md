@@ -5,16 +5,16 @@ title: 視覺效果概觀
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: b85ad91a80f277aaf35f1e3aa3366a46f6478215
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 15%
+source-wordcount: '1616'
+ht-degree: 17%
 
 ---
 
 # 視覺效果概觀
 
-Workspace提供許多視覺效果，可讓您產生資料的視覺化表示法。 例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。
+Workspace提供許多視覺效果，可讓您產生資料的視覺化表示法。 例如長條圖、環形圖、直方圖、折線圖、地圖、散佈圖等。
 
 ## 型別
 
@@ -23,28 +23,28 @@ Analysis Workspace 中有以下視覺效果類型：
 | 圖示 | 名稱 | 說明 |
 | :---: | --- | ---| 
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [區域](/help/analysis-workspace/visualizations/area.md) | 區域圖視覺效果。 類似線圖，但在線圖下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可使用區域圖。 |
-| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [長條圖](/help/analysis-workspace/visualizations/bar.md) | 橫條圖視覺效果，其中包含代表一或多個量度多個值的垂直橫條。 |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [條狀圖](/help/analysis-workspace/visualizations/bar.md) | 橫條圖視覺效果，其中包含代表一或多個量度多個值的垂直橫條。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [棧疊長條圖](/help/analysis-workspace/visualizations/bar.md) | 棧疊長條圖視覺效果，其中包含代表一或多個量度多個值的垂直長條。 |
-| ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [專案符號](/help/analysis-workspace/visualizations/bullet-graph.md) | 專案符號圖表視覺效果，顯示您感興趣的值與其他效能範圍（目標）相比較或進行測量的結果。 |
-| ![文字編號](/help/assets/icons/TextNumbered.svg) | [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組視覺效果是指一段指定時間內，共用相同特徵的一組人。 同類群組表對於保留、流失或延遲分析相當實用。 |
+| ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [項目符號](/help/analysis-workspace/visualizations/bullet-graph.md) | 專案符號圖表視覺效果，顯示您感興趣的值與其他效能範圍（目標）相比較或進行測量的結果。 |
+| ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組視覺效果是指一段指定時間內，共用相同特徵的一組人。 同類群組表對於保留、流失或延遲分析相當實用。 |
 | ![組合](/help/assets/icons/ComboChart.svg) | [組合](combo-charts.md) | 組合圖表可讓您快速建立比較視覺效果，而無需先建立表格。 |
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [環形圖](/help/analysis-workspace/visualizations/donut.md) | 環形圖視覺效果類似圓形圖，以整體的部分或篩選器顯示資料。 |
-| ![轉換漏斗](/help/assets/icons/ConversionFunnel.svg) | [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失視覺效果可顯示在一系列預先定義的連續頁面中，人員從何處離開（流失）或繼續通過（流過）。 |
-| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流量](/help/analysis-workspace/visualizations/c-flow/flow.md) | 流量視覺效果可顯示使用您網站和應用程式的精確客戶路徑。 |
-| ![檢視表](/help/assets/icons/ViewTable.svg)</p> | [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由表格視覺效果是互動式視覺效果。 自由表格視覺效果是Workspace資料分析的基礎。 |
-| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [長條圖](/help/analysis-workspace/visualizations/histogram.md) | 長條圖視覺效果會根據量度數量，將人員、造訪或事件放入值區中。 |
+| ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失視覺效果可顯示在一系列預先定義的連續頁面中，人員從何處離開（流失）或繼續通過（流過）。 |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流程](/help/analysis-workspace/visualizations/c-flow/flow.md) | 流量視覺效果可顯示使用您網站和應用程式的精確客戶路徑。 |
+| ![檢視表](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由表格視覺效果是互動式視覺效果。 自由表格視覺效果是Workspace資料分析的基礎。 |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [直方圖](/help/analysis-workspace/visualizations/histogram.md) | 長條圖視覺效果會根據量度數量，將人員、造訪或事件放入值區中。 |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | 橫條圖視覺效果會顯示代表一或多個量度多個值的橫條。 |
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [棧疊的水準橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | 棧疊橫條圖視覺效果會顯示代表一或多個量度多個值的橫條。 |
 | ![分支3](/help/assets/icons/Branch3.svg) | [歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | 歷程畫布視覺效果可協助您分析歷程，並針對您提供給使用者和客戶的歷程獲得深入見解。 |
 | ![關鍵量度](/help/assets/icons/KeyMetrics.svg) | [關鍵量度摘要](/help/analysis-workspace/visualizations/key-metric.md) | 關鍵量度摘要視覺效果結合了折線圖、摘要變更和摘要數字視覺效果。 |
-| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [折線圖](/help/analysis-workspace/visualizations/line.md) | 線條圖視覺效果使用線條圖表示量度，以顯示一段時間中值的變化。 線形圖會延 X 軸使用時間。 |
-| ![圖表散佈圖](/help/assets/icons/GraphScatter.svg) | [散佈圖](/help/analysis-workspace/visualizations/scatterplot.md) | 散佈圖視覺效果顯示維度專案與最多三個量度之間的關係。 |
+| ![趨勢圖](/help/assets/icons/GraphTrend.svg) | [Line](/help/analysis-workspace/visualizations/line.md) | 線條圖視覺效果使用線條圖表示量度，以顯示一段時間中值的變化。 線形圖會延 X 軸使用時間。 |
+| ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散佈圖](/help/analysis-workspace/visualizations/scatterplot.md) | 散佈圖視覺效果顯示維度專案與最多三個量度之間的關係。 |
 | ![頁面規則](/help/assets/icons/PageRule.svg) | [區段標題](section-header.md) | 在面板中識別和連線截面。 |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md) | 摘要變更視覺效果會將所選儲存格之間的變更顯示為一個大的數字或百分比。 |
 | ![123](/help/assets/icons/123.svg)</p> | [摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md) | 摘要數字視覺效果會將選取的儲存格顯示為一個大數字。 |
-| ![Text](/help/assets/icons/Text.svg) | [Text](/help/analysis-workspace/visualizations/text.md) | 文字視覺效果可讓您將使用者定義文字新增至Workspace。 除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
+| ![Text](/help/assets/icons/Text.svg) | [文字](/help/analysis-workspace/visualizations/text.md) | 文字視覺效果可讓您將使用者定義文字新增至Workspace。 除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md)<p> | 樹狀圖視覺效果會將階層（樹狀結構）資料顯示為一組巢狀矩形。 |
-| ![類型](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | 文氏圖表視覺效果會使用圓圈描繪最多3個篩選器的量度重疊。 |
+| ![Type](/help/assets/icons/TwoDots.svg) | [文氏圖表](/help/analysis-workspace/visualizations/venn.md) | 文氏圖表視覺效果會使用圓圈描繪最多3個篩選器的量度重疊。 |
 
 <!-- Add beneath Horizontal bar in the table above: | [Journey canvas](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Similar to Fallout, Journey canvas shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. <p>Unlike Fallout, Journey canvas supports not only linear journeys, but any number of entry points and paths. Furthermore, journeys can be created in Adobe Journey Optimizer and then analyzed in Journey canvas.</p> | -->
 
@@ -60,7 +60,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
    * 在您想要新增視覺效果的面板上，選取![AddCircle](/help/assets/icons/AddCircle.svg)，然後選擇代表您要新增的視覺效果的圖示。 將滑鼠指標暫留在每個視覺效果的圖示上可檢視名稱。
 
-   * 新增[空白面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel)，然後選取您要新增的視覺效果。
+   * 新增[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)，然後選取您要新增的視覺效果。
 
    * 從您Analysis Workspace專案中現有視覺效果的內容功能表中，選取「**[!UICONTROL 複製視覺效果]**」或「**[!UICONTROL 複製視覺效果]**」。
 
@@ -73,7 +73,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
 視覺效果圖例可幫助您將來源表內的日期與視覺效果內的繪製序列產生關聯。此圖例是互動式 — 您可以選取圖例專案來顯示/隱藏視覺化效果中的序列，若要簡化資料的視覺化，這項功能相當實用。
 
-此外，您可以重命名圖例標籤，以幫助您讓視覺效果更易使用。注意：圖例編輯&#x200B;**不**&#x200B;適用於： 樹狀圖、項目符號、累加變化/累加數、文字、自由圖形、長條圖、同類群組圖 (Cohort) 或流量圖 (Flow) 等視覺效果。
+此外，您可以重命名圖例標籤，以幫助您讓視覺效果更易使用。注意：圖例編輯&#x200B;**不**&#x200B;適用於： 樹狀圖、項目符號、累加變化/累加數、文字、自由圖形、直方圖、同類群組圖 (Cohort) 或流量圖 (Flow) 等視覺效果。
 
 若要編輯圖例標籤：
 
@@ -132,7 +132,7 @@ Analysis Workspace 中有以下視覺效果類型：
 您可以自訂您建立的所有視覺效果設定。 如需詳細資訊，請參閱[使用者偏好設定](/help/analysis-workspace/user-preferences.md)。
 
 
-## 內容功能表 {#right-click}
+## 內容選單 {#right-click}
 
 在視覺效果標題上使用內容功能表（可透過替代選取取得，例如，使用滑鼠按一下右鍵）來存取視覺效果的其他功能。 並非所有選項都適用於所有視覺效果。
 
@@ -140,7 +140,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
 | 選項 | 說明 |
 | --- | --- |
-| **[!UICONTROL 插入複製的視覺效果]** | 將複製的視覺效果貼上（插入）專案內另一個位置或完全不同的專案中。 |
+| **[!UICONTROL 插入複製的視覺化呈現]** | 將複製的視覺效果貼上（插入）專案內另一個位置或完全不同的專案中。 |
 | **[!UICONTROL 將資料複製到剪貼簿]** | 將資料從視覺效果複製到剪貼簿。 |
 | **[!UICONTROL 將選取專案複製到剪貼簿]** | 將視覺效果中的選取範圍複製到剪貼簿。 |
 | **[!UICONTROL 將專案下載為CSV檔（*維度名稱*）]** | 將視覺效果的維度專案（最多50,000個）下載至您的本機裝置。 所選維度最多50,000個維度專案。 |

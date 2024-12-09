@@ -4,10 +4,10 @@ description: 如何與表格中的動態和靜態維度項目互動
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 49%
+source-wordcount: '542'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 49%
 
 將維度放入自由表格中時，會傳回動態列。動態列代表對應至指定量度和時段之維度的排名最前專案。 您也可以將維度放入自由表格欄中，維度會自動展開至排名前 5 的維度項目。
 
-例如，將「瀏覽器類型」維度拖曳至表格時，頂端的「瀏覽器類型」維度項目 (例如 Microsoft、Apple、Google 等)會以動態方式傳回表格列。如果放入欄中，排名前 5 的「瀏覽器類型」維度項目會以動態方式傳回。
+例如，將「瀏覽器型別」維度拖曳至表格時，頂端的「瀏覽器型別」維度專案(例如Microsoft、Apple、Google等)會動態傳回表格列。 如果放入欄中，排名前 5 的「瀏覽器類型」維度項目會以動態方式傳回。
 
 動態維度專案具有列篩選器選項![篩選器](/help/assets/icons/Filter.svg)和![關閉](/help/assets/icons/Close.svg)，並且&#x200B;**不**&#x200B;有鎖定![LockClosed](/help/assets/icons/LockClosed.svg)。 <!--do they have the lock icon? -->當您按一下動態維度專案旁的![關閉](/help/assets/icons/Close.svg)時，會自動套用篩選器。 如需將篩選套用至表格的詳細資訊，請參閱[篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
 
@@ -53,4 +53,4 @@ ht-degree: 49%
 自由表格總計列中動態和靜態列的行為不相同。根據預設：
 
 * 動態列在伺服器端加總，並去除重複量度，例如工作階段或人員。
-* 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-hant)
+* 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。[了解更多](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)

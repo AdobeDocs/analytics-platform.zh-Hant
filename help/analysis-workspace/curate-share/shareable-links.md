@@ -5,10 +5,10 @@ title: 建立分享連結
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 67%
+source-wordcount: '379'
+ht-degree: 61%
 
 ---
 
@@ -18,9 +18,9 @@ Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專�
 
 ## 取得專案連結，與其他 Workspace 使用者共用 {#project-link}
 
-若要共用專案的連結，請移至您要共用的專案，然後選取移至&#x200B;[!UICONTROL **共用**] > [!UICONTROL **取得專案連結**] (或&#x200B;**共用**] > [!UICONTROL **與Workspace使用者共用**] > [！UICONTROL **透過連結共用**)。 您與之共用連結的使用者必須登入。
+若要共用專案的連結，請移至您要共用的專案，然後選取移至&#x200B;**[!UICONTROL 共用]** > **[!UICONTROL 取得專案連結]** (或&#x200B;**[!UICONTROL 共用]** > **[!UICONTROL 與Workspace使用者共用]** > **[!UICONTROL 透過連結共用]**)。 您與之共用連結的使用者必須登入。
 
-如果連結的收件者未獲指派[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)，管理員會獲得「**[!UICONTROL 編輯原始項目]**」體驗，非管理員則會獲得「**[!UICONTROL 編輯副本]**」體驗。
+如果連結收件者尚未獲指派[專案角色](/help/analysis-workspace/curate-share/share-projects.md)，管理員會收到&#x200B;**[!UICONTROL 編輯原始專案]**，非管理員會收到&#x200B;**[!UICONTROL 編輯復本]**&#x200B;體驗。
 
 ## 取得唯讀連結，與任何人共用
 

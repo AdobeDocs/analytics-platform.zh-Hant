@@ -4,9 +4,9 @@ description: 自由表格是 Analysis Workspace 中資料分析的基礎
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '754'
 ht-degree: 26%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 26%
 <!-- markdownlint-enable MD034 -->
 
 
-在Analysis Workspace中，![表格](/help/assets/icons/Table.svg) **[!UICONTROL 自由表格]**&#x200B;視覺效果是互動式資料分析的基礎。 您可以將各種[元件](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components)拖放至行和欄中，建立自訂表格供分析之用。放置每個元件後，表格會立即更新，以便您快速分析及深入探索。
+在Analysis Workspace中，![表格](/help/assets/icons/Table.svg) **[!UICONTROL 自由表格]**&#x200B;視覺效果是互動式資料分析的基礎。 您可以將各種[元件](/help/components/overview.md)拖放至行和欄中，建立自訂表格供分析之用。放置每個元件後，表格會立即更新，以便您快速分析及深入探索。
 
 ![自由表格，以列與欄顯示元件，包含多個網頁的造訪與線上訂單。](assets/opening-section.png)
 
@@ -54,16 +54,16 @@ ht-degree: 26%
 ### 「行」
 
 * 您可以使用![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg)，從一或多個資料列快速[建立新的視覺效果](../freeform-analysis-visualizations.md#visualize)。
-* 您可以調整專案的[檢視密度](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density)，在單一畫面中放入更多列。
+* 您可以調整專案的[檢視密度](/help/analysis-workspace/build-workspace-project/view-density.md)，在單一畫面中放入更多列。
 * 分頁之前，每個維度列最多可顯示 400 列。選取第一個欄標題中&#x200B;**[!UICONTROL 列]**&#x200B;旁邊的數字，以在頁面上顯示更多列。 在第一欄標題中使用![V形右側](/help/assets/icons/ChevronRight.svg)瀏覽至其他頁面。
-* 您可以依其他元件來劃分列。 若要一次劃分許多列，請選取多列，然後將下一個元件拖曳至選取的列上方。 進一步了解[劃分](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa)。
-* 您可以[篩選](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort)列，以顯示縮減的項目集。[「列設定」](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings)底下提供其他設定。
+* 您可以依其他元件來劃分列。 若要一次劃分許多列，請選取多列，然後將下一個元件拖曳至選取的列上方。 進一步了解[劃分](/help/components/dimensions/t-breakdown-fa.md)。
+* 您可以[篩選](/help/components/filters/filters-overview.md)列，以顯示縮減的項目集。[「列設定」](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)底下提供其他設定。
 
 ### 欄
 
 * 元件可堆疊在欄內，以建立篩選量度、跨索引標籤分析等等。
-* [欄設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings)底下可調整每個欄的檢視方式。
-* 透過[內容功能表](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/right-click-for-workspace-efficiency)有數個動作可供使用。 功能表會根據您選取的表格標題、列或欄提供不同的動作。
+* [欄設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)底下可調整每個欄的檢視方式。
+* 透過[內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)有數個動作可供使用。 功能表會根據您選取的表格標題、列或欄提供不同的動作。
 
 
 ## 設定
@@ -84,7 +84,7 @@ ht-degree: 26%
 | **[!UICONTROL 對齊各欄日期，讓所有開始日期在同一列]** | 對齊或不對齊各欄日期，讓所有開始日期在同一列。 |
 
 
-## 內容功能表
+## 內容選單
 
 視覺效果標題中有下列[內容功能表](../freeform-analysis-visualizations.md#context-menu)選項：
 

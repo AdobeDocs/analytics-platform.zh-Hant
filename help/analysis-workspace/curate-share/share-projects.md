@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '2047'
-ht-degree: 66%
+source-wordcount: '2042'
+ht-degree: 64%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 66%
 
    或
 
-   選取「**[!UICONTROL 監管與共用]**」以自動套用專案監管。(如果專案已有人共用，請選取「**[!UICONTROL 監管與更新]**」。)深入了解[專案監管](curate.md)。
+   選取「**[!UICONTROL 監管與共用]**」以自動套用專案監管。（如果專案已共用，請選取&#x200B;**[!UICONTROL 組織與更新]**。）深入瞭解[專案組織](curate.md)。
 
 ## 共用專案的連結
 
@@ -171,7 +171,7 @@ ht-degree: 66%
 
    選取此選項後，會建立一個可以與任何人共用的專案連結。您可以隨時透過停用此選項來停用對專案的存取權。
 
-   該專案的所有者也是該連結的所有者。只有在專案所有權轉移時，連結所有權才能轉移給其他使用者，如 Analytics 管理員指南中的[轉移使用者資產或設定帳戶到期日](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html)中所述。
+   該專案的所有者也是該連結的所有者。只有在專案所有權轉移時，才能將連結所有權轉移給其他使用者，如Analytics管理員指南中的[轉移使用者資產](/help/tools/asset-transfer/transfer-assets.md)中所述。
 
 1. 選擇是否啟用下列安全性選項(此選項可由您的Customer Journey Analytics管理員控制)：
 

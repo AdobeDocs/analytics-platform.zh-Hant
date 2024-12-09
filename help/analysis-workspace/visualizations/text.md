@@ -4,9 +4,9 @@ title: 文字
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 29%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 29%
 
 ## 新增超連結 {#hyperlinks}
 
-若要新增超連結，請醒目顯示文字並在功能表中選取![連結](/help/assets/icons/Link.svg)。 您可以使用超連結來進一步協助您的專案收件者。 超連結可連結到外部網站、檔案頁面、[Workspace專案、面板或視覺效果](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links)等等。
+若要新增超連結，請醒目顯示文字並在功能表中選取![連結](/help/assets/icons/Link.svg)。 您可以使用超連結來進一步協助您的專案收件者。 超連結可連結到外部網站、檔案頁面、[Workspace專案、面板或視覺效果](/help/analysis-workspace/curate-share/shareable-links.md)等等。
 
 ![反白顯示連結圖示的文字選項。](assets/hyperlink.png)
 
