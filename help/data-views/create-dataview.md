@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 5aab46fbca8bf9638e238caa9dab34e391118139
-workflow-type: ht
-source-wordcount: '1884'
-ht-degree: 100%
+source-git-commit: 60daea2b6c376c417a998a986c8fdfdff85decd9
+workflow-type: tm+mt
+source-wordcount: '1899'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL **設為 Adobe Journey Optimizer 中的預設資料視圖**] | 您可使用此設定選項，讓 Journey Optimizer 和 Customer Journey Analytics 共用標準化報告，並在 Customer Journey Analytics 中對 Adobe Journey Optimizer 資料執行進階分析 (在 Journey Optimizer 中選取 ![開啟](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg)「[!UICONTROL **在 CJA 中分析**]」按鈕)。<p>Journey Optimizer 需擁有 Customer Journey Analytics 資料視圖的存取權，才能執行此類分析。<p>啟用此選項可使其成為您沙箱的 Journey Optimizer 報告中的預設資料視圖。</p><p>此設定選項會自動完成以下操作：</p><ul><li>在 Customer Journey Analytics 的相關連線中，設定所有必要的 Journey Optimizer 資料集，以供 Journey Optimizer 使用。</li><li>在資料視圖中建立一組 Journey Optimizer 量度和維度 (包括衍生欄位和計算量度)。系統會為所有這些指標和維度自動設定內容標籤。</li></ul><p><p>啟用此選項時請考慮以下事項： <ul><li>您可於日後變更預設資料視圖，但這麼做可能會對 Journey Optimizer 報告資料造成影響。如果您在啟用此選項後又選擇停用，系統將提示您選取新的預設資料視圖。</li><li>如果您已對 Customer Journey Analytics 資料視圖中的資料集、維度或量度進行了手動自訂，則在啟用此設定選項時，您的手動自訂將保持不變。此選項可進行額外的自訂，進一步標準化跨 Journey Optimizer 和 Customer Journey Analytics 的報告。您也可以在啟用此選項後進行手動自訂。</li></ul>如需詳細資訊，請參閱[整合 Adobe Journey Optimizer 與 Adobe Customer Journey Analytics](/help/integrations/ajo.md)。 |
+| [!UICONTROL **設為 Adobe Journey Optimizer 中的預設資料視圖**] | 您可使用此設定選項，讓 Journey Optimizer 和 Customer Journey Analytics 共用標準化報告，並在 Customer Journey Analytics 中對 Adobe Journey Optimizer 資料執行進階分析 (在 Journey Optimizer 中選取 ![開啟](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg)「[!UICONTROL **在 CJA 中分析**]」按鈕)。<p>Journey Optimizer 需擁有 Customer Journey Analytics 資料視圖的存取權，才能執行此類分析。<p>啟用此選項可使其成為您沙箱的 Journey Optimizer 報告中的預設資料視圖。</p><p>此設定選項會自動完成以下操作：</p><ul><li>在 Customer Journey Analytics 的相關連線中，設定所有必要的 Journey Optimizer 資料集，以供 Journey Optimizer 使用。</li><li>在資料視圖中建立一組 Journey Optimizer 量度和維度 (包括衍生欄位和計算量度)。系統會為所有這些指標和維度自動設定內容標籤。</li></ul><p><p>啟用此選項時請考慮以下事項： <ul><li>您可於日後變更預設資料視圖，但這麼做可能會對 Journey Optimizer 報告資料造成影響。如果您在啟用此選項後又選擇停用，系統將提示您選取新的預設資料視圖。</li><li>如果您已對 Customer Journey Analytics 資料視圖中的資料集、維度或量度進行了手動自訂，則在啟用此設定選項時，您的手動自訂將保持不變。此選項可進行額外的自訂，進一步標準化跨 Journey Optimizer 和 Customer Journey Analytics 的報告。您也可以在啟用此選項後進行手動自訂。</li><li>選取此選項時，無法刪除與資料檢視相關聯的連線。</li></ul>如需詳細資訊，請參閱[整合 Adobe Journey Optimizer 與 Adobe Customer Journey Analytics](/help/integrations/ajo.md)。 |
 
 {style="table-layout:auto"}
 

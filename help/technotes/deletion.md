@@ -5,10 +5,10 @@ exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 928c79f9ccf30cc33e0f334f715bf3190a257019
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 71%
+source-wordcount: '418'
+ht-degree: 64%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 71%
 
 | 當您... | 就會發生下列情形... |
 | --- | --- |
-| 刪除 [!UICONTROL Customer Journey Analytics] 中的連線 | 錯誤訊息會指出：<ul><li>針對已刪除連線所建立的任何資料檢視都將停止運作。</li><li> 同樣地，如果有任何「工作區」專案與所刪除連線中的資料檢視相依，也將停止運作。</li></ul>請注意，您無法刪除繫結至您沒有許可權的Adobe Experience Platform沙箱的Customer Journey Analytics連線。 即使您擁有這些連線所建置之資料檢視的許可權，必須先取得基礎Adobe Experience Platform沙箱的許可權，才能刪除連線。 |
+| 刪除 [!UICONTROL Customer Journey Analytics] 中的連線 | 錯誤訊息會指出：<ul><li>針對已刪除連線所建立的任何資料檢視都將停止運作。</li><li> 同樣地，如果有任何「工作區」專案與所刪除連線中的資料檢視相依，也將停止運作。</li></ul>請注意，您無法刪除符合以下條件的Customer Journey Analytics連線： <ul><li>繫結至您沒有許可權的Adobe Experience Platform沙箱。 即使您擁有這些連線所建置之資料檢視的許可權，必須先取得基礎Adobe Experience Platform沙箱的許可權，才能刪除連線。</li><li>為與連線關聯的資料檢視選取下列相容性選項： **[!UICONTROL 在Adobe Journey Optimizer中設定為預設資料檢視]**<p>如需此組態選項的詳細資訊，請參閱[建立或編輯資料檢視](/help/data-views/create-dataview.md)中的[相容性](/help/data-views/create-dataview.md#compatibility)</p></li></ul> |
 | 刪除[!UICONTROL Adobe Experience Platform]中的資料集 | 如果刪除 AEP 中的資料集，該資料集的資料將不再傳輸至包含該資料集的任何連線。系統會從關聯的Customer Journey Analytics連線中自動刪除該資料集中的任何資料。 |
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的資料集 | 當您從Customer Journey Analytics中的連線中刪除資料集時，任何依賴該資料集的資料檢視和專案都將不再運作。 |
 | 從資料集中刪除批次 (在 [!UICONTROL Adobe Experience Platform] 中) | 如果從 [!UICONTROL Adobe Experience Platform] 資料集中刪除批次資料，該批次資料會從包含該特定批次資料的所有 [!UICONTROL Customer Journey Analytics] 連線中移除。[!UICONTROL Customer Journey Analytics] 會收到批次資料已從 [!UICONTROL Adobe Experience Platform] 中刪除的通知。 |
