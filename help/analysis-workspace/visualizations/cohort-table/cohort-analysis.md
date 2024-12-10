@@ -4,10 +4,10 @@ description: 瞭解如何在Analysis Workspace中使用同類群組表格進行�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 590a3ddbe988d27341fe96a3fa866960d1641e24
+source-git-commit: c16ad9f490abed1e15e1012a5a9347e2628b7642
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 37%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,6 +56,8 @@ ht-degree: 37%
 >[!IMPORTANT]
 >
 >[!UICONTROL 同類群組分析]不支援無法篩選的量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可以在篩選器中使用的量度才能用於[!UICONTROL 同類群組分析]，而且這些量度一次只能增加1。
+
+Customer Journey Analytics中的同類群組表格支援雙向（或任何數值型）量度。 例如，Purchase.Value (a double)可作為包含/傳回量度使用。 此外，所有透過Analytics Source Connector傳入Adobe Experience Platform的量度也是兩倍。
 
 ## 同類群組表格功能
 

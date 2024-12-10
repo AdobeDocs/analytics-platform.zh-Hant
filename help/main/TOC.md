@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 658fce422d8d5b59d113b5aa512eedee987afd06
-workflow-type: ht
-source-wordcount: '1090'
-ht-degree: 100%
+source-git-commit: 06e4346effcde3e2bec66cfdba801fc2420dcc81
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -188,7 +188,7 @@ ht-degree: 100%
       + [項目符號](../analysis-workspace/visualizations/bullet-graph.md)
       + [組合](../analysis-workspace/visualizations/combo-charts.md)
       + [環形圖](../analysis-workspace/visualizations/donut.md)
-      + [長條圖](../analysis-workspace/visualizations/histogram.md)
+      + [直方圖](../analysis-workspace/visualizations/histogram.md)
       + [橫條圖 (堆疊)](../analysis-workspace/visualizations/horizontal-bar.md)
       + [關鍵量度摘要](../analysis-workspace/visualizations/key-metric.md)
       + [折線圖](../analysis-workspace/visualizations/line.md)
@@ -364,9 +364,12 @@ ht-degree: 100%
    + [取消報告請求](../reporting-activity-manager/reporting-activity-cancel-requests.md)
 
 + 拼接 {#stitching}
-   + [概觀](../stitching/overview.md)
-   + [建立和管理拼接資料集](../stitching/stitching-ui.md)
-   + [常見問題](../stitching/faq.md)
+   + [概觀](/help/stitching/overview.md)
+   + [依欄位彙整](/help/stitching/fbs.md)
+   + [圖表式銜接](/help/stitching/gbs.md)
+   + [使用拼接](/help/stitching/use-stitching.md)
+   + [建立和管理拼接資料集](/help/stitching/stitching-ui.md)
+   + [常見問題](/help/stitching/faq.md)
 
 + Adobe 整合 {#integrations}
    + [概觀](/help/integrations/overview.md)
