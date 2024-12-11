@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 059a091fb41efee6f508b4260b1d943f881f5087
+source-git-commit: ae0e7a906700522d7babc1d573a0b4cdbf1be6fc
 workflow-type: tm+mt
-source-wordcount: '1871'
-ht-degree: 26%
+source-wordcount: '1910'
+ht-degree: 28%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 26%
 
 以下是有關拼接的一些常見問題：
 
-+++**如何使用拼接來瞭解人們如何從一個頻道移動到另一個頻道？**
+## 跨頻道移動
+
++++ 如何使用拼接來瞭解人們如何從一個管道移至另一個管道？
 
 您可以搭配「資料集 ID」維度使用「流量」視覺效果。
 
@@ -29,13 +31,17 @@ ht-degree: 26%
 
 +++
 
-+++**拼接重播訪客可追溯到多久之前？**
+### 重播
+
++++ 拼接重播訪客可追溯到多久之前？
 
 金鑰重設的回顧期間取決於您需要的資料重播頻率。 例如，如果您設定拚接每週重播資料一次，則金鑰重設的回顧期間為七天。 如果您將拼接設定為每天重播資料一次，則金鑰重設的回顧期間為一天。
 
 +++
 
-+++**如何處理共用裝置？**
+## 共用裝置
+
++++ 如何處理共用裝置？
 
 某些情況下，同一部裝置可能會由不同人登入。 例如家中的共用裝置、資料庫中的共用 PC 或零售門市的資訊站。
 
@@ -43,7 +49,9 @@ ht-degree: 26%
 
 +++
 
-+++**拼接如何處理單一人員擁有多個永久ID的情況？**
+## 許多永久ID
+
++++ 拼接如何處理單一人員擁有多個永久ID的情況？
 
 在某些情況下，個別使用者可以關聯至多個永久 ID。 例如，個人經常清除瀏覽器的Cookie或使用瀏覽器的私人/無痕模式。
 
@@ -53,13 +61,17 @@ ht-degree: 26%
 
 +++
 
-+++**如果我連絡我的Adobe客戶團隊並提供所需的資訊，需要多久才能使用金鑰已重設的資料集？**
+## 拼接過程
+
++++ 如果我連絡 Adobe 帳戶團隊，向對方索取所需資訊，需要多久才能使用金鑰已重設的資料集？
 
 Adobe啟用彙整功能後，需要約一週才能使用即時彙整。 能否使用回填功能取決於現有資料的數量。如果是小型資料集 (每天不到 100 萬個事件)，通常需要幾天後才能使用，大型資料集 (每天 10 億個事件) 則需等待一週或更久時間。
 
 +++
 
-+++**跨裝置分析（傳統Analytics中的一項功能）和跨管道分析之間有何差異？**
+## 跨裝置分析對比跨頻道分析
+
++++ 跨裝置分析（傳統Analytics中的一項功能）和跨管道分析有何不同？
 
 [跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)是傳統Adobe Analytics的專屬功能，可讓您瞭解人們如何跨裝置運作。 它提供兩個將裝置資料連結在一起的工作流程：欄位式拚接和裝置圖表。
 
@@ -67,7 +79,9 @@ Adobe啟用彙整功能後，需要約一週才能使用即時彙整。 能否�
 
 +++
 
-+++**拼接如何處理隱私權請求？**
+## 隱私權
+
++++ 拼接如何處理隱私權請求？
 
 Adobe會根據當地及國際法處理隱私權要求。 Adobe 提供 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)，以供提交資料存取及刪除要求。 這些要求會同時套用至原始資料集和已重設金鑰的資料集。
 
@@ -147,7 +161,9 @@ Adobe會根據當地及國際法處理隱私權要求。 Adobe 提供 [Adobe Exp
 
 +++
 
-+++**如果一或多個事件中的永久ID欄位為空白，會發生什麼情況？**
+## 空白的永久ID值
+
++++ 如果一個或多個事件中的 Persistent ID 欄位為空白，會發生什麼情況？
 
 如果在正在拚接的資料集中的事件中，「永久ID」欄位為空白，則該事件的拚接ID會以下述兩種方式之一來確定：
 
@@ -157,7 +173,9 @@ Adobe會根據當地及國際法處理隱私權要求。 Adobe 提供 [Adobe Exp
 +++
 
 
-+++**如果一或多個事件中的暫時ID欄位有預留位置值（例如「未定義」），會發生什麼情況？**
+## 未定義的暫時ID值
+
++++ 如果一或多個事件中的暫時ID欄位有預留位置值（例如`Undefined`），會發生什麼情況？
 
 請留意「人員摺疊」，拼接套用至使用暫時ID預留位置值的資料時，就會發生這種情況。 在下列範例表格中，來源於CRM系統的資料集所產生的「未定義」人員ID會填入「未定義」值，導致人員表示不正確。
 
@@ -177,7 +195,9 @@ Adobe會根據當地及國際法處理隱私權要求。 Adobe 提供 [Adobe Exp
 
 +++
 
-+++**Customer Journey Analytics拼接資料集中的量度與Customer Journey Analytics非拼接資料集中的類似量度以及與Adobe Analytics相比如何？**
+## 量度比較
+
++++ Customer Journey Analytics拼接資料集中的量度與Customer Journey Analytics非拼接資料集中的類似量度相比，以及與Adobe Analytics相比如何？
 
 Customer Journey Analytics中的某些量度與傳統Analytics中的量度類似，但其他量度則有所不同，端視您要比較的內容而定。 下表比較了幾個常見的量度：
 
@@ -191,13 +211,18 @@ Customer Journey Analytics和Adobe Analytics中的其他量度可能類似。 �
 
 +++
 
-+++**Customer Journey Analytics可以使用身分對應欄位嗎？**
+## 身分對應
+
++++ Customer Journey Analytics可以使用「身分對應」欄位嗎？
 
 否，Customer Journey Analytics目前無法使用「身分對應」欄位進行拼接。
 
 +++
 
-+++**是否需要重新內嵌資料，才能從欄位式拚接切換為圖表式拚接？**
+## 切換到圖表式銜接
+
++++ 是否需要重新內嵌資料，才能從欄位式拚接切換為圖表式拚接？
+
 資料不必重新擷取至Experience Platform，但需要在Customer Journey Analytics中重新設定。 請依照下列步驟操作：
 
 1. 設定新的圖表式銜接資料集。
@@ -207,7 +232,9 @@ Customer Journey Analytics和Adobe Analytics中的其他量度可能類似。 �
 
 +++
 
-+++**現有報告是否會發生任何中斷情形？**
+## 報告中斷
+
++++ 現有報告是否會造成任何中斷？
 
 如果您依照上述步驟進行，則不然。 否則，請向Adobe Consulting尋求其他支援。
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
-source-git-commit: 40e4c3bd8f3c37e9a6143200b85ffe0ac4bcb2ca
+source-git-commit: ae0e7a906700522d7babc1d573a0b4cdbf1be6fc
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 0%
+source-wordcount: '766'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ Adobe Analytics和Customer Journey Analytics之間的其中一項獨特差異，
 
 | 資料匯出使用案例 | Experience Platform和Customer Journey Analytics功能 |
 |---|---|
-| **資料備份**<br/>&#x200B;保留您的數位資料完整復本，以供法規遵循之用。 | **Experience Platform**： [**匯出資料集**](export-datasets.md)<br/>&#x200B;依排程或臨機將以Experience Platform收集的資料直接匯出至雲端目的地。<br/>*目前限量發行，Customer Journey Analytics客戶的完整發行預計在2024年6月進行。* |
+| **資料備份**<br/>&#x200B;保留您的數位資料完整復本，以供法規遵循之用。 | **Experience Platform**： [**匯出資料集**](export-datasets.md)<br/>&#x200B;依排程或臨機將以Experience Platform收集的資料直接匯出至雲端目的地。 |
 | **資料驗證**<br/>&#x200B;評估點按資料流資料的資料收集正確性。 | **Experience Platform**： [**查詢服務(Data Distiller)與匯出資料集**](queryservice-export-datasets.md)<br/> Interactive PostgreSQL介面使用您最愛的SQL工具執行臨機SQL查詢，以驗證資料集中的資料。<br/><br/>**Customer Journey Analytics**： [**匯出完整的資料表**](export-full-table.md)<br/>&#x200B;驗證來自CJA且已套用歸因和工作階段化的已處理資料。 |
 | **Data Lake、Data Warehouse或BI工具**<br/>&#x200B;將數位資料帶入您自己的BI工具或Data Lake以搭配其他資料集使用。 | **Customer Journey Analytics**： [**BI延伸模組**](bi-extension.md)<br/>&#x200B;將Customer Journey Analytics處理的量度加入Power BI等資料視覺化工具，並結合自訂報表的其他資料&#x200B;<br/><br/>**Experience Platform**： [**查詢服務(資料Distiller)與匯出資料集**](queryservice-export-datasets.md)<br>&#x200B;使用SQL產生自訂點按資料流資料，以傳送至雲端目的地。 |
 | **AI / ML整備**<br/>&#x200B;增強人工智慧/機器學習模型和任務與Customer Journey Analytics資料。 | **Customer Journey Analytics**： [**匯出完整資料表**](export-full-table.md)<br/>&#x200B;將Customer Journey Analytics處理的維度和量度一次或循環匯出至雲端目的地，包括計算量度和細分。<br/><br/>**Experience Platform**： [**查詢服務(Data Distiller)和匯出資料集**](queryservice-export-datasets.md)<br/>&#x200B;使用SQL產生自訂的點按資料流資料，以擴充AI/ML模型。 |
