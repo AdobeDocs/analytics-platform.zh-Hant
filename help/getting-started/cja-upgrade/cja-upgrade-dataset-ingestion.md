@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: a5425eccff643cd45fd630172b0113e646b2a9cc
+exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
+source-git-commit: f71f5b863a024d882a116a5fd3bf0fc433e5fe99
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-設定Web SDK實作後，您需要檢查個別批次的狀態，以確認資料正在擷取至資料集中。
+設定網頁SDK實作後，您需要檢查個別批次的狀態，以確認資料正在擷取至資料集中。
 
 1. 在Experience PlatformUI中，選取左側導覽中的&#x200B;**[!UICONTROL 監視]**。
 
@@ -33,7 +34,7 @@ ht-degree: 0%
 
 1. 選取&#x200B;**[!UICONTROL 批次端對端]**&#x200B;以檢視批次清單。
 
-   如果未顯示任何批次，請檢查您的Web SDK實作，以確保其可正確傳送資料至Adobe。
+   如果未顯示任何批次，請檢查您的Web SDK實作，以確保其可正確地傳送資料給Adobe。
 
    <!-- insert screenshot -->
 
@@ -43,6 +44,5 @@ ht-degree: 0%
 
    重複此步驟以驗證每個批次的狀態。
 
-
-
+1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
 

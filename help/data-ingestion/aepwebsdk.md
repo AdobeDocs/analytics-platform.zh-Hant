@@ -1,18 +1,18 @@
 ---
-title: 透過Adobe Experience Platform Web SDK內嵌資料
+title: 透過Adobe Experience Platform Web SDK擷取資料
 description: 說明如何透過 Adobe Experience Platform Web SDK 和 Edge Network 將資料擷取至 Customer Journey Analytics。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '3543'
 ht-degree: 83%
 
 ---
 
-# 透過Web SDK內嵌資料
+# 透過網頁SDK擷取資料
 
 本快速入門指南說明如何使用 Adobe Experience Platform Web SDK 和 Edge Network，將網站追蹤資料直接擷取至 Adobe Experience Platform，然後在 Customer Journey Analytics 中使用該資料。
 
@@ -113,17 +113,17 @@ ht-degree: 83%
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
 
-1. 在剛剛新增的識別物件中選取 **[!UICONTROL ecid]** 欄位，然後在右側面板的[!UICONTROL 「身分命名空間」]清單中，選取&#x200B;**[!UICONTROL 「身分」]**&#x200B;和&#x200B;**[!UICONTROL 「主要身分」]**&#x200B;和 **[!UICONTROL ECID]**。
+1. 在剛剛新增的身分識別物件中選取 **[!UICONTROL ecid]** 欄位，然後在右側面板的[!UICONTROL 「身分識別命名空間」]清單中，選取&#x200B;**[!UICONTROL 「身分識別」]**&#x200B;和&#x200B;**[!UICONTROL 「主要身分識別」]**&#x200B;和 **[!UICONTROL ECID]**。
 
-   ![指定 ECID 作為身分](./assets/specify-identity.png)
+   ![指定 ECID 作為身分識別](./assets/specify-identity.png)
 
    您將 Experience Cloud Identity 指定為 Adobe Experience Platform Identity 服務可用於組合 (拼接) 具有相同 ECID 的輪廓的行為的主要身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在 ecid 屬性中。
 
-1. 在剛剛新增的識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板的[!UICONTROL 「身分命名空間」]清單中選取&#x200B;**[!UICONTROL 「身分」]**&#x200B;和&#x200B;**[!UICONTROL 「電子郵件」]**。
+1. 在剛剛新增的身分識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板的[!UICONTROL 「身分識別命名空間」]清單中選取&#x200B;**[!UICONTROL 「身分識別」]**&#x200B;和&#x200B;**[!UICONTROL 「電子郵件」]**。
 
-   ![指定電子郵件作為身分](./assets/specify-email-identity.png)
+   ![指定電子郵件作為身分識別](./assets/specify-email-identity.png)
 
    您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 輪廓行為的另一個身分。
 
@@ -260,7 +260,7 @@ ht-degree: 83%
 
 #### **擴充功能**
 
-為確保您能傳送資料至Adobe Experience Platform （透過資料流），請將Adobe Platform Web SDK擴充功能新增至您的標籤。
+為確保您能傳送資料至Adobe Experience Platform （透過資料流），請將Adobe平台Web SDK擴充功能新增至您的標籤。
 
 若要建立及設定 Adobe Experience Platform Web SDK 擴充功能：
 
@@ -444,7 +444,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
    - 選取&#x200B;**[!UICONTROL 「儲存並建置至開發」]**。
 
-   您的標籤已儲存並為您的開發環境建置。 綠色圓點表示在開發環境中成功建置標籤。
+   您的標籤已儲存並為開發環境建置。 綠色圓點表示在開發環境中成功建置標籤。
 
 4. 您可以選取&#x200B;**[!UICONTROL 「...」]**&#x200B;來重建程式庫或將程式庫移至中繼環境或生產環境。
 
@@ -519,7 +519,7 @@ Adobe Experience Platform 標籤支援簡單到複雜的發佈工作流程，以
 
    - 對於每個資料集：
 
-      - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分中選取[!UICONTROL 人員 ID]。
+      - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取[!UICONTROL 人員 ID]。
 
       - 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
 

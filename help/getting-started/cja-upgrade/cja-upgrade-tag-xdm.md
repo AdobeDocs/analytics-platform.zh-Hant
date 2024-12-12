@@ -1,19 +1,20 @@
 ---
-title: 將XDM資料收集邏輯新增至您的標籤
+title: 將 XDM 資料彙集邏輯新增至您的標記
 description: 瞭解如何將XDM資料收集邏輯新增至您的標籤
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: ccc6df56771cd9f83bbd7a8570e32d7ed63a0ced
+exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
+source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
 workflow-type: tm+mt
 source-wordcount: '1224'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
-# 將XDM資料收集邏輯新增至您的標籤
+# 將 XDM 資料彙集邏輯新增至您的標記
 
 >[!NOTE]
 > 
@@ -220,9 +221,8 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 1. 選取&#x200B;**[!UICONTROL 「儲存並建置至開發」]**。
 
-   您的標籤已儲存並為您的開發環境建置。 綠色圓點表示在開發環境中成功建置標籤。
+   您的標籤已儲存並為開發環境建置。 綠色圓點表示在開發環境中成功建置標籤。
 
 1. 您可以選取&#x200B;**[!UICONTROL 「...」]**&#x200B;來重建程式庫或將程式庫移至中繼環境或生產環境。
 
    ![發佈 – 建置資料庫](assets/build-library.png)
-

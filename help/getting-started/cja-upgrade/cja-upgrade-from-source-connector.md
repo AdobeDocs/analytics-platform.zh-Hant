@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 8bcc6b3b2a1e6f75bd0c868f77a375913412f988
+source-git-commit: f4fd3c1932a736577d480e86cad70f55de75cb21
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 使用Analytics來源聯結器作為Customer Journey Analytics的唯一實作時，有其固有的缺點。
 
-如果您的組織已升級為僅使用Analytics來源聯結器實作的Customer Journey Analytics，您應考慮轉型為使用Analytics來源聯結器的實作（用於引進歷史資料），並結合Web SDK的新實作（用於持續性資料收集）。
+如果您的組織已升級為僅使用Analytics來源聯結器實作的Customer Journey Analytics，Adobe建議轉換為使用Analytics來源聯結器的實作（適用於歷史資料），並搭配使用Web SDK的新實作（適用於持續的資料收集）。
 
 ## 瞭解僅使用Analytics來源聯結器的優缺點
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 從Analytics來源聯結器轉換至Web SDK
 
-以下是從專門使用Analytics來源聯結器轉換為同時包含Analytics來源聯結器和Web SDK實作的高階程式：
+以下是有關從專門使用Analytics來源聯結器轉換為同時包含Analytics來源聯結器和Web SDK實作的高階程式：
 
 1. 建立Web SDK實作，如[詳細建議升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) (在文章中，[從Adobe Analytics升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md))中所述。
 
