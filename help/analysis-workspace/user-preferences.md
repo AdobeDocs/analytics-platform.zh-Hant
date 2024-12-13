@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
@@ -43,7 +43,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_shareonlyworkspace"
+>id="workspace_prefs_shareonlyworkspace"
 >title="僅允許與 Workspace 使用者共用"
 >abstract="啟用後，在共用 Analysis Workspace 專案時，使用者將無法再使用&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。先前透過此共用選項獲得專案存取權的人員無法再存取該專案。"
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_requireexperiencecloudauth"
+>id="workspace_prefs_requireexperiencecloudauth"
 >title="需要 Experience Cloud 驗證"
 >abstract="啟用後，透過 Analysis Workspace 中的「與任何人共用」選項取得專案存取權限的人員，就必須使用其 Experience Cloud 認證進行驗證。"
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 | --- | --- | --- |
 | **專案共用** | | |
 | | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。這表示使用者無法與組織中沒有 Analysis Workspace 帳戶的人員共用專案，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入) ](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。<br/>依照預設，除了擁有已授權之 Healthcare Shield 的客戶以外，所有組織均停用此選項 (亦即使用者可以與組織外部的人員共用專案)。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。在這種情況下，共用專案的使用者與任何人共用專案時，就必須啟用可用的&#x200B;[!UICONTROL **連結使用中**]&#x200B;選項&#x200B;**([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**)，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。在您停用此選項讓使用者可以使用[!UICONTROL 與任何人共用]共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。新增權限後，您可以停用此選項，然後接受所產生的法律注意事項。如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
-| | 需要 Experience Cloud 驗證 | 啟用後，透過 Analysis Workspace 中的「與任何人共用」選項取得專案存取權限的人員，就必須使用其 Experience Cloud 認證進行驗證。<p>啟用此選項後，每當使用者使用[!UICONTROL 與任何人共用]共用選項共用專案時，共用對話框就會啟用[!UICONTROL 需要 Experience Cloud 驗證]選項，且共用專案的使用者無法停用該選項。如需有關使用者如何與任何人共用專案的資訊，請參閱[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) (在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項共用，以及未啟用[!UICONTROL 需要 Experience Cloud 驗證]選項的所有專案都會停用。<p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後再停用 (允許擁有該連結的任何人存取專案)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權。在這種情況下，共用專案的使用者與任何人共用專案時，必須啟用可用的[!UICONTROL 連結使用中]*選項&#x200B;**([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]** > **[!UICONTROL 連結使用中]**)，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。</li><li>您的組織實作 SSO 時才可使用這個選項。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
+| | 需要 Experience Cloud 驗證 | 啟用後，透過 Analysis Workspace 中的「與任何人共用」選項取得專案存取權限的人員，就必須使用其 Experience Cloud 認證進行驗證。<p>啟用此選項後，每當使用者使用[!UICONTROL 與任何人共用]共用選項共用專案時，共用對話框就會啟用[!UICONTROL 需要 Experience Cloud 驗證]選項，且共用專案的使用者無法停用該選項。如需有關使用者如何與任何人共用專案的資訊，請參閱[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) (在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項共用，以及未啟用[!UICONTROL 需要 Experience Cloud 驗證]選項的所有專案都會停用。<p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後再停用 (允許擁有該連結的任何人存取專案)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權。在這種情況下，共用專案的使用者與任何人共用專案時，必須啟用可用的[!UICONTROL 連結使用中]*選項&#x200B;**([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]** > **[!UICONTROL 連結使用中]**)，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。</li><li>您的組織實作 SSO 時才可使用這個選項。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_categoricalpalette"
+>id="workspace_prefs_categoricalpalette"
 >title="分類調色盤"
 >abstract="適用於 Analysis Workspace 和引導式分析中的許多視覺效果。每種顏色代表不同的類別值。"
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_divergingpalette"
+>id="workspace_prefs_divergingpalette"
 >title="發散調色盤"
 >abstract="適用於 Analysis Workspace 和使用者增長引導分析中的同類群組表格。此調色盤具有數值含意，有兩個極端和中間的基準線。"
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_sequentialpalette"
+>id="workspace_prefs_sequentialpalette"
 >title="序列調色盤"
 >abstract="適用於頻率趨勢 (堆疊條狀圖) 引導式分析。此調色盤具有從淺到深的數值含意。"
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_showanomalies"
+>id="workspace_prefs_showanomalies"
 >title="顯示異常狀況"
 >abstract="選取&#x200B;**[!UICONTROL 顯示異常狀況]**&#x200B;將自動對新增至時間序列自由格式表格視覺效果的第一個量度欄執行異常偵測。"
 
@@ -133,7 +133,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_prefs_showforecast"
+>id="workspace_prefs_showforecast"
 >title="顯示預測"
 >abstract="選取&#x200B;**[!UICONTROL 顯示預測]**&#x200B;將自動對新增至時間序列自由格式表格視覺效果的第一個量度欄進行預測。"
 

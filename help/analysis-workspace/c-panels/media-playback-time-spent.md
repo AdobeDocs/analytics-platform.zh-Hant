@@ -4,10 +4,10 @@ description: 如何使用和解讀Analysis Workspace中的「媒體播放時間�
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 54%
+ht-degree: 56%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 54%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaplaybacktimespent_button"
+>id="workspace_mediaplaybacktimespent_button"
 >title="媒體播放時間"
 >abstract="建立一個面板來分析一段時間內的視訊觀看量，包括各種詳細程度等級以及劃分和比較的功能。"
 
@@ -25,7 +25,7 @@ ht-degree: 54%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaplaybacktimespent_panel"
+>id="workspace_mediaplaybacktimespent_panel"
 >title="媒體播放時間"
 >abstract="分析一段時間內的視訊觀看量，選取各種詳細程度，劃分和比較。<br/><br/>**詳細程度**：選取要查看同時檢閱者的時段。<br/>**面板摘要數字 (可選)**：顯示摘要數字以及每行日期或時間詳細資料的選項。最大值將顯示尖峰播放時間的詳細資料。最小值將顯示低谷期的詳細資料。總和將顯示播放時間總計的詳細資料。<br/>**序列劃分 (可選)**：按區段、維度、維度項目或日期範圍劃分視覺效果。一次最多可檢視 10 行。劃分限於單一層級。<br/>**時間格式**：顯示視覺效果之時間格式的選項，以小時或分鐘為單位。"
 
@@ -61,7 +61,7 @@ ht-degree: 54%
 
 若要使用&#x200B;**[!UICONTROL 媒體播放時間]**&#x200B;面板：
 
-1. 建立&#x200B;**[!UICONTROL 媒體播放時間]**&#x200B;面板。 如需如何建立面板的詳細資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立&#x200B;**[!UICONTROL 媒體播放時間]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
 1. 確保您為面板選取資料檢視，該面板具有從Streaming Media Collection附加元件設定的元件。
 
@@ -118,7 +118,7 @@ ht-degree: 54%
 
 >[!MORELIKETHIS]
 >
->[建立面板](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Create a panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >[媒體平均每分鐘觀眾數面板](average-minute-audience-panel.md)
 >[媒體同時檢閱者面板](media-concurrent-viewers.md)
 >

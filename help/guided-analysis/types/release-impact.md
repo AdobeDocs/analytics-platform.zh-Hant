@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_guidedanalysis_releaseimpact_button"
+>id="workspace_guidedanalysis_releaseimpact_button"
 >title="發行影響"
 >abstract="比較發行前和發行後同期的績效。"
 
@@ -46,7 +46,7 @@ ht-degree: 6%
 
 * **[!UICONTROL 檢視]**：在此分析和[首次使用影響](first-use-impact.md)之間切換。
 * **[!UICONTROL 索引鍵]**：您想要依使用者測量的事件。 每個選取的關鍵指標都會以彩色線條表示。 表格中會新增代表事件的列。 您最多可以包含三個事件。
-* **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括[!UICONTROL 每位使用者的事件]、[!UICONTROL 使用者百分比]、[!UICONTROL 事件]、[!UICONTROL 工作階段]和[!UICONTROL 使用者]。
+* **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。選項包括[!UICONTROL 每位使用者的事件]、[!UICONTROL 使用者百分比]、[!UICONTROL 事件]、[!UICONTROL 工作階段]和[!UICONTROL 使用者]。
 * **[!UICONTROL 因數]**：您要比較前後的日期。
 * **[!UICONTROL 區段]**：您要測量的區段。 所選的區段會篩選您的資料，以僅聚焦於符合您區段條件的個人。
 

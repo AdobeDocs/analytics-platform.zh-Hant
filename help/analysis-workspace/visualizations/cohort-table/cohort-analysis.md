@@ -4,10 +4,10 @@ description: 瞭解如何在Analysis Workspace中使用同類群組表格進行�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: c16ad9f490abed1e15e1012a5a9347e2628b7642
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '641'
+ht-degree: 34%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_cohorttable_button"
+>id="workspace_cohorttable_button"
 >title="同類群組表格"
 >abstract="建立同類群組視覺效果，根據事件的完成情形將使用者分組，並分析一段時間內的持續參與度和流失情況。"
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_cohorttable_panel"
+>id="workspace_cohorttable_panel"
 >title="同類群組表格"
 >abstract="根據事件的完成情形將使用者分組，然後分析他們在一段時間內的持續參與度及流失情況。<br/><br/>**參數&#x200B;**<br/>**包含條件**：這些元件用以定義初始訪客同類群組。<br/>**回訪條件**：這些元件用以判斷訪客是否已回訪。"
 

@@ -3,10 +3,11 @@ description: 顯示特定維度的下一個或上一個維度專案的面板。
 title: 下一個或上一個項目面板
 feature: Panels
 role: User, Admin
-source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
+exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 31%
+ht-degree: 38%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 31%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_nextorpreviousitem_button"
+>id="workspace_nextorpreviousitem_button"
 >title="下一個或上一個項目"
 >abstract="建立一個面板來了解人們來自的前一個維度或人們前往的下一個維度。"
 
@@ -24,7 +25,7 @@ ht-degree: 31%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_nextorpreviousitem_panel"
+>id="workspace_nextorpreviousitem_panel"
 >title="下一個或上一個項目"
 >abstract="分析訪客之前最常來自什麼地方或接下來最常造訪什麼地方。<br/><br/>**維度**：選取維度。例如，**頁面**。<br/>**維度項目**：選取特定維度項目。例如，**首頁**。<br/>**方向**：選取「**下一個**」可查看緊接在所選維度項目之後的維度項目。選取「**上一個**」以查看您所選維度項目之前的維度項目。<br/>**容器**：選取「**工作階段**」以查看同一工作階段中的下一個/上一個維度項目，或選取「**人員**」查看同一個人的下一個/上一個維度項目。"
 
@@ -38,7 +39,7 @@ ht-degree: 31%
 
 若要使用&#x200B;**[!UICONTROL 下一個或上一個專案]**&#x200B;面板：
 
-1. 建立&#x200B;**[!UICONTROL 下一個或上一個專案]**&#x200B;面板。 如需如何建立面板的詳細資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立&#x200B;**[!UICONTROL 下一個或上一個專案]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
 1. 指定面板的[輸入](#panel-input)。
 
@@ -73,12 +74,12 @@ ht-degree: 31%
 | --- | --- |
 | **[!UICONTROL 橫條圖]** | 根據您選取的維度專案列出下一個（或上一個）專案。 將滑鼠懸停在個別長條上，會醒目顯示自由格式表格中的對應專案。 |
 | **[!UICONTROL 摘要數字]** | 目前月份（到目前為止）所有下一個或上一個維度專案發生次數的高層級摘要數字。 |
-| **[!UICONTROL 自由表格]** | 根據您選取的維度專案，以表格格式列出下一個（或上一個）專案。 例如，在首頁或Workspace頁面之後（或之前），人們最常前往的頁面（依發生次數而定）。 |
+| **[!UICONTROL 自由格式表格]** | 根據您選取的維度專案，以表格格式列出下一個（或上一個）專案。 例如，在首頁或Workspace頁面之後（或之前），人們最常前往的頁面（依發生次數而定）。 |
 
 {style="table-layout:auto"}
 
 
 >[!MORELIKETHIS]
 >
->[建立面板](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Create a panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >

@@ -5,7 +5,7 @@ title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 64%
@@ -17,7 +17,7 @@ ht-degree: 64%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_shareprojects"
+>id="workspace_shareprojects"
 >title="共用專案"
 >abstract="您可以與組織中的其他使用者共用這些專案角色中的任一個。"
 

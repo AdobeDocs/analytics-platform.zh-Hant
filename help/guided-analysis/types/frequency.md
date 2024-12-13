@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_guidedanalysis_frequency_button"
+>id="workspace_guidedanalysis_frequency_button"
 >title="頻率"
 >abstract="檢視特定事件的重複使用者活動分佈。"
 
@@ -46,7 +46,7 @@ ht-degree: 7%
 
 * **[!UICONTROL 檢視]**：在此分析和[趨勢](trends.md)之間切換。
 * **[!UICONTROL 事件]**：您要測量的事件。每個選取的事件都會以個別的圖表呈現。 表格中會新增代表趨勢事件的列。 您最多可以包含五個事件。
-* **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括[!UICONTROL 使用者]、[!UICONTROL 工作階段]、[!UICONTROL 使用者百分比]和[!UICONTROL 工作階段百分比]。 此分析中百分比型量度的分母是執行所選事件的使用者或工作階段，而非產品的所有作用中使用者。
+* **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。選項包括[!UICONTROL 使用者]、[!UICONTROL 工作階段]、[!UICONTROL 使用者百分比]和[!UICONTROL 工作階段百分比]。 此分析中百分比型量度的分母是執行所選事件的使用者或工作階段，而非產品的所有作用中使用者。
 * **[!UICONTROL 區段]**：您要測量的區段。每個選取的區段都會將圖表中的橫條數和表格中的列數加倍。 您最多可以包含五個區段。
 
 ### 圖表設定

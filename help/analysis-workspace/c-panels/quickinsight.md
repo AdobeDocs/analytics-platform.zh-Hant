@@ -4,8 +4,8 @@ title: 快速深入分析面板
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: ht
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_quickinsights_button"
+>id="workspace_quickinsights_button"
 >title="快速深入分析"
 >abstract="建立一個面板來快速建置自由格式表格和伴隨的視覺化描繪，加快分析及揭露深入分析的速度。"
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 | **[!UICONTROL 維度]** | 維度是量度資料的描述或特性，您可以在專案中加以檢視、劃分及比較。這是可劃分為維度項目的非數值和日期。例如，*瀏覽器*&#x200B;或&#x200B;*頁面*&#x200B;是維度。 |
 | **[!UICONTROL 維度項目]** | 維度項目是維度的個別值。例如，瀏覽器維度的維度項目為 *Chrome*、*Firefox*、*Edge*&#x200B;等。 |
 | [!UICONTROL 量度] | 量度是有關人員活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。 |
-| **[!UICONTROL 視覺化呈現]** | Workspace 提供[一些視覺化呈現](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，方便您建置資料的視覺呈現方式。例如條狀圖、環形圖、長條圖、折線圖、地圖、散佈圖等。 |
+| **[!UICONTROL 視覺化呈現]** | Workspace 提供[一些視覺化呈現](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，方便您建置資料的視覺呈現方式。例如長條圖、環形圖、直方圖、折線圖、地圖、散佈圖等。 |
 | **[!UICONTROL 維度劃分]** | 維度劃分是用其他維度來劃分某個維度。例如，您可以將「依行動裝置劃分美國各州」劃分為每個州的行動裝置造訪次數。或者，您可以依行動裝置類型、區域、內部促銷活動等來劃分行動裝置。 |
 | **[!UICONTROL 篩選]** | 篩選讓您根據特性或網站互動來識別人員子集。例如，您可以建置[!UICONTROL 人員]篩選，根據 <li>屬性：瀏覽器類型、裝置、造訪次數、國家/地區、性別；或</li><li>互動：促銷活動、關鍵字搜尋、搜尋引擎；或</li><li>進入和退出：訪客來自 Facebook、已定義的登陸頁面、反向連結網域；或</li><li> 自訂變數：表單欄位、已定義的類別、客戶 ID。 |
 

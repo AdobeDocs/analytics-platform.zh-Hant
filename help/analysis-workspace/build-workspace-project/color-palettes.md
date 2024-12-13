@@ -4,10 +4,10 @@ title: 視覺化調色盤
 feature: Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 role: User
-source-git-commit: 383fad799944f7405af6de1754aa2e0af83e2cab
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 33%
+ht-degree: 35%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 33%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_project_colorpalette"
+>id="workspace_project_colorpalette"
 >title="專案調色盤"
 >abstract="變更在此專案中使用的調色盤。"
 
@@ -29,7 +29,7 @@ ht-degree: 33%
 >
 >Internet Explorer 11 並不支援調色盤。
 
-![專案資訊和設定視窗。](assets/color-palettes.png)
+![The Project Info &amp; Settings window.](assets/color-palettes.png)
 
 請記住：
 

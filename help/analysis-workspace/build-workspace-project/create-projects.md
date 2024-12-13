@@ -4,8 +4,8 @@ title: 建立專案
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 519e7d583edc1eab9b6dd10fec024ac4bb2b93cf
-workflow-type: ht
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_project_countrepeatinstances"
+>id="workspace_project_countrepeatinstances"
 >title="計算重複實例數"
 >abstract="指定是否要將重複實例計入報表中。<br/><br/>注意，此設定不適用於「流程」或「流失」視覺效果。"
 
@@ -59,7 +59,7 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_project_repeatinstances"
+>id="workspace_project_repeatinstances"
 >title="計算重複實例數"
 >abstract="指定是否要將重複實例計入報表中。<br/>注意，此設定不適用於「流程」或「流失」視覺效果。"
 

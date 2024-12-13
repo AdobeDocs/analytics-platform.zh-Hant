@@ -54,7 +54,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="cja_component_audiences_namespacesincluded"
 >title="包含的命名空間"
->abstract="此客群中的身分是由以下命名空間組成的。"
+>abstract="此客群中的身分識別是由以下命名空間組成的。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -204,7 +204,7 @@ Customer Journey Analytics會透過pipeline將資料串流至Real-time Customer 
 
 +++
 
-+++**選擇哪個 ID 作為主要身分？**
++++**選擇哪個 ID 作為主要身分識別？**
 
 請參閱上述內容。每個Customer Journey Analytics個人僅會傳送一個身分。
 

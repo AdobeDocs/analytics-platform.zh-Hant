@@ -4,7 +4,7 @@ title: 項目符號圖表
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 64%
@@ -16,7 +16,7 @@ ht-degree: 64%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_bullet_goalvalue"
+>id="workspace_bullet_goalvalue"
 >title="目標值"
 >abstract="**[!UICONTROL 高目標]**&#x200B;是您的主要目標。**[!UICONTROL 低目標]**&#x200B;和&#x200B;**[!UICONTROL 中目標]**&#x200B;會建立低於[!UICONTROL 高目標]的範圍。注意：當勾選「**[!UICONTROL 百分比]**」選項時，請以整數形式輸入目標。例如：如果您的目標是百分之二十，輸入 `20`。"
 
@@ -25,7 +25,7 @@ ht-degree: 64%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_bullet_button"
+>id="workspace_bullet_button"
 >title="項目符號"
 >abstract="建立項目符號圖視覺效果以顯示量度與效能範圍 (目標) 相比較或進行衡量的結果。"
 

@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_guidedanalysis_conversiontrends_button"
+>id="workspace_guidedanalysis_conversiontrends_button"
 >title="轉換趨勢"
 >abstract="追蹤一段時間內的轉換率變化。"
 
@@ -48,7 +48,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 檢視]**：在此分析和[漏斗](funnel.md)之間切換。
 * **[!UICONTROL 步驟]**：您要追蹤的事件接觸點。 圖表中的每個長條代表一個步驟。 您最多可以包含十個步驟。
-* **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括[!UICONTROL 使用者]和[!UICONTROL 工作階段]。
+* **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。選項包括[!UICONTROL 使用者]和[!UICONTROL 工作階段]。
 * **[!UICONTROL 區段]**：您要比較漏斗的區段。 選取的每個區段會將每個步驟分割成多個長條。 每種顏色代表不同的區段。 您最多可以包含三個區段。
 
 ### 圖表設定

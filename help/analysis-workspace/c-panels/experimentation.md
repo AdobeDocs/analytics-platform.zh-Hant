@@ -4,10 +4,10 @@ title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 3e2d92003f8b89a20edfcfb8358854c7fbd15577
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '2144'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 21%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_experimentation_button"
+>id="workspace_experimentation_button"
 >title="實驗"
 >abstract="建立一個面板來比較不同的使用者體驗、行銷或傳送訊息變化版本。並確定哪種變化版本最能產生特定結果。"
 
@@ -25,7 +25,7 @@ ht-degree: 21%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_experimentation_panel"
+>id="workspace_experimentation_panel"
 >title="實驗"
 >abstract="比較不同的使用者體驗、行銷或傳送訊息變化版本，以確定哪一個產生特定結果的表現最好。<br/><br/>****<br/>**參數實驗**：進行分析的實驗。<br>**對照變化版本**：所選實驗的對照變化版本。<br/>**成功量度**：最多可使用 5 個標準 (非計算) 成功量度來分析實驗。<br/>**標準化量度**：人員、工作階段或事件。此量度 (也稱為計數方法) 會成為提升度計算的分母。此量度也會影響在套用可信度計算前彙總資料的方式。"
 
@@ -109,7 +109,7 @@ Experimentation和Experimentation Variant的![內容標籤選項。](assets/cont
 
 Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助您更好地了解實驗的執行情況。面板頂端會提供[摘要變更](../visualizations/summary-number-change.md)視覺效果，提醒您所選取的面板設定。 您可以隨時選取右上方的編輯鉛筆來編輯面板。
 
-您還將收到文字摘要，以表示實驗是否具有結論性，並總結結果。結論性是以統計顯著性為基礎（請參閱[統計方法](#adobes-statistical-methodology)）。 您可以查看具有最高提升度和信賴度的最佳表現變體總結數字。
+您還將收到文字摘要，以表示實驗是否具有結論性，並總結結果。結論性是以統計顯著性為基礎（請參閱[統計方法](#adobes-statistical-methodology)）。您可以看到具有最高提升度和信賴度的最佳表現變體摘要數字。
 
 針對您選取的每個成功量度，都會顯示[自由表格](../visualizations/freeform-table/freeform-table.md)視覺效果和轉換率[行](../visualizations/line.md)視覺效果。
 

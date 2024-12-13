@@ -5,10 +5,10 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: d492220eaf12242a870f3826b31edd3d1ea99a3b
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_guidedanalysis_trends_button"
+>id="workspace_guidedanalysis_trends_button"
 >title="趨勢"
 >abstract="測量使用者在一段時間內的參與度。"
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 檢視]**：在此分析和[頻率](frequency.md)之間切換。
 * **[!UICONTROL 事件和量度]**：您要測量的事件或量度。 每個選取範圍都會呈現為圖表序列和表格列。 事件和量度無法在查詢中合併；當您完成第一個選擇後，其餘的查詢選擇必須屬於相同型別。 您最多可以包含五個選取專案。
-* **[!UICONTROL 計為]**：您要套用至所選事件的計數方法。 選項包括事件、工作階段、使用者、使用者百分比、每個工作階段的事件，以及每個使用者的事件。 計為選項僅適用於事件查詢，並會為量度查詢而移除。
+* **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。選項包括事件、工作階段、使用者、使用者百分比、每個工作階段的事件，以及每個使用者的事件。 計為選項僅適用於事件查詢，並會為量度查詢而移除。
 * **[!UICONTROL 區段]**：您要測量的區段。每個選取的區段都會將圖表數列和表格列數加倍。 您最多可以包含五個區段。
 * **[!UICONTROL 劃分屬性]**：依據選取屬性的值劃分圖表數列與表格列。 支援單一劃分屬性。 前20個值會顯示在表格中，最多可在圖表中檢視10個值。 您可以切換![顯示隱藏圖示](../assets/hide-in-chart.png)圖示，以隱藏或顯示圖表中的列。
 

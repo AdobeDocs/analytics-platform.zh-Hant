@@ -4,7 +4,7 @@ title: 關鍵量度摘要
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 40%
@@ -16,7 +16,7 @@ ht-degree: 40%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_keymetricsummary_button"
+>id="workspace_keymetricsummary_button"
 >title="關鍵量度摘要"
 >abstract="建立折線圖、摘要變更和摘要數字圖表組合的視覺效果。使用此視覺效果來比較兩個時段之間重要量度的趨勢。"
 

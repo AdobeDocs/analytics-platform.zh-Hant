@@ -4,7 +4,7 @@ description: 如何使用和解讀Analysis Workspace中的「媒體同時檢閱�
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 1dff53e244e5d231e7075ce087705e33e0978096
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 47%
@@ -16,7 +16,7 @@ ht-degree: 47%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaconcurrentviewers_button"
+>id="workspace_mediaconcurrentviewers_button"
 >title="媒體同時檢視者"
 >abstract="建立一個面板來分析特定內容或特定時段內的每分鐘平均客群數。"
 
@@ -25,7 +25,7 @@ ht-degree: 47%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_mediaconcurrentviewers_panel"
+>id="workspace_mediaconcurrentviewers_panel"
 >title="媒體同時檢視者"
 >abstract="分析一段時間內的同時檢閱者、查看尖峰同時觀看人數或進行劃分和比較。<br/><br>**詳細程度**：選取要查看同時檢閱者的時段。<br/>**面板摘要數字**：<br/>顯示摘要數字以及每行日期或時間詳細資料的選項。最大值將顯示尖峰同時觀看人數的詳細資料。最小值將顯示低谷期的詳細資料。<br/>**序列劃分 (可選)**：按區段、維度、維度項目或日期範圍劃分視覺效果。一次最多可檢視 10 行。劃分限於單一層級。"
 

@@ -4,7 +4,7 @@ title: 樹狀圖
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 32%
@@ -16,7 +16,7 @@ ht-degree: 32%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_treemap_button"
+>id="workspace_treemap_button"
 >title="樹狀圖"
 >abstract="建立樹狀圖視覺效果以顯示具有嵌套矩形的階層式 (樹形結構) 資料。"
 

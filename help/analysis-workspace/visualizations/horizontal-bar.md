@@ -4,14 +4,14 @@ title: 橫條圖和堆疊橫條圖
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: e8d9132ec9920d649f6694f02f987deadb93b77d
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 36%
+ht-degree: 38%
 
 ---
 
-# 水準橫條圖（棧疊）
+# 橫條圖 (堆疊)
 
 橫條圖視覺效果有標準和棧疊選項。
 
@@ -20,7 +20,7 @@ ht-degree: 36%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_horizontalbar_button"
+>id="workspace_horizontalbar_button"
 >title="橫條圖"
 >abstract="建立橫條圖視覺效果來表示一個或多個量度的各種值。"
 
@@ -36,7 +36,7 @@ ht-degree: 36%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_horizontalbarstacked_button"
+>id="workspace_horizontalbarstacked_button"
 >title="堆疊橫條圖"
 >abstract="建立橫條圖視覺效果來表示一個或多個堆疊量度的各種值。"
 

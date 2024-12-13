@@ -4,7 +4,7 @@ title: 流量概觀
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 3abe8fd0e43d9ab8810e7166cbdb463bc9244223
+source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 53%
@@ -16,12 +16,12 @@ ht-degree: 53%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_flow_button"
+>id="workspace_flow_button"
 >title="流量"
 >abstract="建立視覺效果以查看從某一接觸點到下一個接觸點的人員流量。"
 
 >[!CONTEXTUALHELP]
->id="cja_workspace_flow_panel"
+>id="workspace_flow_panel"
 >title="流量"
 >abstract="分析從某一接觸點到下一個接觸點的造訪或訪客流量。<br/><br/>**參數&#x200B;**<br/>**開始於**：新增維度、維度項目或量度，以查看在所選元件出現之後出現最多的接觸點。<br/>**包含**：新增維度或維度項目，以查看在所選元件出現之前和之後出現最多的接觸點。<br/>**結束於**：新增維度、維度項目或量度，以查看在所選元件出現之前出現最多的接觸點。<br/>**路徑分析維度**：新增維度，以用作前往或離開您所選元件的路徑。"
 
