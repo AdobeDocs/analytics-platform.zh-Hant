@@ -4,9 +4,9 @@ description: 如何使用和解讀Analysis Workspace中的「媒體同時檢閱�
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1207'
 ht-degree: 47%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 47%
 
 1. 建立&#x200B;**[!UICONTROL 媒體同時檢閱者]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
-1. 確保您為面板選取資料檢視，該面板具有從Streaming Media Collection附加元件設定的元件。
+1. 請確定您為面板選取資料檢視，該面板具有從串流媒體收集設定的元件。
 
 1. 指定面板的[輸入](#panel-input)。
 

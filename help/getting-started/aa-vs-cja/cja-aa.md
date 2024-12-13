@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 221b73ef8dc0f7d28d13b8571955792367519849
-workflow-type: ht
-source-wordcount: '2320'
-ht-degree: 100%
+source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
+workflow-type: tm+mt
+source-wordcount: '2319'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 | **報告 API 存取權** | 完整支援；可透過 [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/) 使用。 |
 | **排程報告/專案** | 完整支援 |
 | **區段** | 完整支援。現在稱為「篩選器」。請注意，傳統 Analysis Workspace 中任何現有的區段都不會移植至 Customer Journey Analytics。 |
-| **串流媒體收集附加元件** | 串流媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢視者」面板和「媒體播放時間」面板的一部分提供。 |
+| **串流媒體集合** | 串流媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢視者」面板和「媒體播放時間」面板的一部分提供。 |
 | **摘要層級資料來源** | 完整支援 |
 | **虛擬報表套裝** | 完整支援。現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | **虛擬報表套裝元件策劃** | 完整支援。現在是資料視圖的一部分。 |
@@ -92,7 +92,7 @@ ht-degree: 100%
 | **進入、退出及逗留的時間等維度和量度** | 系統可支援 (進入與退出現在稱為「工作階段開始」和「工作階段結束」)，不過計算方式稍有不同。 |
 | **eVar 持續性設定** | eVar 不再是 Customer Journey Analytics 的一部分。不過持續性設定現在是資料檢視的一部分，可用於所有維度。 請記得，持續性是依據報表時間處理，而非資料收集處理。 「資料檢視」中設定的維度上限為 90 天的持續性，不支援無限制的持續性。 |
 | **地域劃分維度** | [完整支援](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html) |
-| **圖表式匯整** | 透過[圖表式匯整](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview#graph-based-stitching)，您可以利用[身分服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)的身分圖強大功能，將資料集提升至其偏好身分。 |
+| **圖表式匯整** | 透過[圖表式匯整](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview#graph-based-stitching)，您可以利用[身分識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)的身分識別圖強大功能，將資料集提升至其偏好身分識別。 |
 | **警報** | 在 Customer Journey Analytics 中使用[警報](/help/components/c-intelligent-alerts/intelligent-alerts.md)的流程，與在 Adobe Analytics 中使用警報的流程幾乎相同。儘管如此，還是有些[重要差異](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/alerts/alerts-feature-comparison)。 |
 | **IP 模糊化** | 對於使用 Analytics 來源連接器將 Adobe Analytics 的資料填入到 Customer Journey Analytics 中的 Customer Journey Analytics 客戶：Adobe Analytics 中套用的 IP 模糊化設定也會套用至 Customer Journey Analytics 資料。您可以視需要在 Adobe Analytics 中控制這些設定。<p>對於使用 Experience Platform Web SDK 將資料直接填入 Platform 和 Customer Journey Analytics 中的 Customer Journey Analytics 客戶，您可以使用 Platform 中「資料收集」的「資料準備」，根據公司的要求設定模糊 IP 位址規則。 |
 | **行銷管道** | 使用 Analytics 來源連接器時，行銷管道資料會透過該連接器流入 Customer Journey Analytics。行銷管道規則是在傳統 Adobe Analytics 中設定，且部分規則不受支援。如需更多資訊，請參閱 [Customer Journey Analytics 行銷管道](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels.html)。<br/>對於 WebSDK 實施，會透過[衍生欄位](../../data-views/derived-fields/derived-fields.md)支援報告時間行銷管道處理規則。 |
@@ -105,7 +105,7 @@ ht-degree: 100%
 | **Report Builder** | 支援用於 Excel 的新 Office 365 外掛程式。 |
 | **使用者權限/資料存取控制** | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-hant) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。其他使用者權限可用於多種功能，例如建立計算量度、篩選器或註解等。 |
 | **視覺效果** | 支援所有 Workspace 視覺效果，但地圖視覺效果除外。 |
-| **跨裝置/跨管道拼接** | 支援包含身分資訊的事件資料集。請參閱[拼接](../../stitching/overview.md)。 |
+| **跨裝置/跨管道拼接** | 支援包含身分識別資訊的事件資料集。請參閱[拼接](../../stitching/overview.md)。 |
 
 ## 部分支援 {#partial}
 

@@ -4,9 +4,9 @@ description: 如何使用和解讀Analysis Workspace中的「媒體平均每分�
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1787'
 ht-degree: 30%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->**[!UICONTROL 媒體平均每分鐘觀眾數]**&#x200B;面板僅適用於已購買串流媒體收集附加元件進行Customer Journey Analytics的客戶。
+>**[!UICONTROL 媒體平均每分鐘觀眾數]**&#x200B;面板僅適用於已購買串流媒體集合以進行Customer Journey Analytics的客戶。
 >
 >如需詳細資訊，請聯絡您的Adobe銷售代表或Adobe客戶團隊。
 >
@@ -62,8 +62,7 @@ ht-degree: 30%
 
 1. 建立&#x200B;**[!UICONTROL 媒體平均每分鐘觀眾數]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
-1. 確保您為面板選取資料檢視，該面板具有從Streaming Media Collection附加元件設定的元件。
-
+1. 請確定您為面板選取資料檢視，該面板具有從串流媒體收集設定的元件。
 
 1. 指定面板的[輸入](#panel-input)。
 

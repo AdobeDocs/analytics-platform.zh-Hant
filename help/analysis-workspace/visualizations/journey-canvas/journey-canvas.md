@@ -4,9 +4,9 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
+source-git-commit: 25969de61f23cf0690a130127fcc1442b9806a35
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1657'
 ht-degree: 1%
 
 ---
@@ -120,7 +120,7 @@ Journey畫布中最顯著的深入分析會顯示為畫布本身的頂端標題�
 
 在Journey Canvas中分析Journey Optimizer歷程可針對人們如何與歷程互動提供深入且可行的深入分析。
 
-當您在Journey Canvas中分析Journey Optimizer歷程時，該歷程的顯示順序、順序和結構與Journey Optimizer中相同。 如果您可以在Journey Canvas內變更歷程，[變更將不再從Journey Optimizer](#synchronization-between-journey-optimizer-and-journey-canvas)同步處理。
+當您在Journey Canvas中分析Journey Optimizer歷程時，該歷程的顯示順序、順序和結構與Journey Optimizer中相同。 如果您對Journey Canvas中的歷程進行重大變更，[變更將不再與Journey Optimizer](#synchronization-between-journey-optimizer-and-journey-canvas)同步。
 
 ### 使用歷程畫布分析Journey Optimizer歷程的好處
 
@@ -152,7 +152,7 @@ Journey Canvas提供在Journey Optimizer中無法提供的深入徹底分析。
 
 在Journey Canvas中建立Journey Optimizer歷程的分析後，資料只會以一個方向同步，從Journey Optimizer到Journey Canvas。 這表示對Journey Canvas中的歷程所做的變更絕不會反映在Journey Optimizer中。
 
-此外，只有在歷程在Journey Optimizer畫布中保持未修改狀態時，對歷程所做的變更才會同步至歷程畫布。 在您修改Journey Canvas中的歷程後，您在Journey Optimizer中對歷程所做的任何變更都不會反映在Journey Canvas中。 若要檢視反映在歷程畫布中的變更，您可以在Journey畫布中刪除並重新建立歷程[](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+此外，只有在歷程畫布](#differences-after-modifying-a-journey-in-journey-canvas)中未大幅修改歷程時，對Journey Optimizer中的歷程所做的變更才會同步至歷程畫布[。 在您修改Journey Canvas中的歷程後，您在Journey Optimizer中對歷程所做的任何變更都不會反映在Journey Canvas中。 若要檢視反映在歷程畫布中的變更，您可以在Journey畫布中刪除並重新建立歷程[](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
 
 ### 在歷程畫布中修改歷程後的差異 {#differences-after-modifying}
 
