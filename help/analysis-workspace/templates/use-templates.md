@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: bf3eb96ac3c764c73f4131b8ddd05809994f08df
+source-git-commit: 3ae10f81cb38500c035811542bc761f06688a130
 workflow-type: tm+mt
-source-wordcount: '15490'
-ht-degree: 78%
+source-wordcount: '17969'
+ht-degree: 81%
 
 ---
 
@@ -152,10 +152,23 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 ### 最受歡迎 {#most-popular}
 
+<!--AA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--training"
+>id="aa-template--unitsOvertimeReport"
+>title="檢視所有訂單中購買的單位總數。會顯示一段期間內的資料，並與先前的時段進行比較。"
+>abstract="**這有助於您**&#x200B;更加了解單位銷售量隨時間增加或減少的情況。您可以套用區段來了解哪些客戶或地區購買的單位最多，以及這些單位銷售量隨時間呈現的趨勢分析。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如比較行銷活動發起前與發起後的單位銷售量，評估最近發起之行銷活動的成效。或者您可以比較逐年的假期期間單位銷售量。<br/>此範本使用「日」維度和「單位」量度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!--both AA and CJA-->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--training"
 >title="培訓教學課程範本"
 >abstract="了解常見的 Analysis Workspace 術語，及建置首次分析所需的步驟。"
 
@@ -164,7 +177,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--pagesRankedReport"
+>id="template--pagesRankedReport"
 >title="找出最受歡迎和最不受歡迎頁面。"
 >abstract="**這有助於您**&#x200B;更加了解您的客群，以及他們最感興趣的資訊類型。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如調整頁面中繼資料來提高瀏覽數較少之頁面的可見度，或花時間改善瀏覽數最多之頁面的內容。<br/>此範本使用頁面維度和頁面瀏覽數量度。"
 
@@ -173,7 +186,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--pageViewsOvertimeReport"
+>id="template--pageViewsOvertimeReport"
 >title="檢視頁面總瀏覽數。會顯示一段期間內的資料，並與先前的期間進行比較。 "
 >abstract="**這有助於您**&#x200B;更加了解網站上的流量隨時間可能增加或減少的情況。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前與發起後的網站流量，評估最近發起之行銷活動的成效。或者您可以比較逐年的假期流量。<br/>此範本使用日維度和頁面瀏覽數量度。"
 
@@ -182,7 +195,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--visitsOvertimeReport"
+>id="template--visitsOvertimeReport"
 >title="檢視造訪總次數。會顯示一段期間內的資料，並與先前的期間進行比較。"
 >abstract="**這有助於您**&#x200B;更加了解網站上的流量隨時間可能增加或減少的情況。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前與發起後的網站流量，評估最近發起之行銷活動的成效。或者您可以比較逐年的假期流量。<br/>此範本使用日維度和造訪次數量度。"
 
@@ -191,7 +204,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--visitorsOvertimeReport"
+>id="template--visitorsOvertimeReport"
 >title="檢視不重複訪客總數。會顯示一段期間內的資料，並與先前的期間進行比較。 "
 >abstract="**這有助於您**&#x200B;更加了解網站的觸及範圍和客群規模，隨時間或與先前時期相比增加或減少的情況。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前和發起後的不重複訪客，評估最近發起之行銷活動是否成功吸引新使用者造訪網站。或者您可以比較逐年的假期期間造訪網站的人數。<br/>此範本使用日維度和不重複訪客量度。 "
 
@@ -200,7 +213,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--keyMetricsReport"
+>id="template--keyMetricsReport"
 >title="檢視以並排方式顯示頁面瀏覽數、造訪次數與不重複訪客量度的報告。會顯示一段期間內的資料，並與先前的期間進行比較。"
 >abstract="**這有助於您**&#x200B;比較這些重要量度，更全面地了解造訪網站的不重複訪客數量、頁面造訪次數，以及工作階段數量。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如評估每個人在特定一週或一個月內於造訪網站時檢視的頁面平均數量，以及在一年中的特定時期或行銷活動展開前與展開後的變化情況。<br/>此範本使用日維度、頁面瀏覽數量度、造訪次數量度，和不重複訪客量度。"
 
@@ -209,7 +222,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--siteSectionRankedReport"
+>id="template--siteSectionRankedReport"
 >title="檢視您網站上最受歡迎或績效最好的區段。"
 >abstract="**這有助於您**&#x200B;更加了解使用者最常造訪網站的哪些區段。<br>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如評估您提供的哪些產品或服務最能引起人們興趣。<br/>此範本使用網站區段維度和造訪次數量度。"
 
@@ -218,7 +231,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--next-page-report"
+>id="template--next-page-report"
 >title="檢視人們在造訪特定地點之前或之後最常去的地方。"
 >abstract="**這有助於您**&#x200B;了解流量如何從特定頁面移到網站的其他部分，並了解人們到達特定頁面的路徑。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如評估是否能夠將頁面設計或版面最佳化，引導人們前往更理想的頁面，例如購買或留下評論的頁面。或者評估目前頁面上的資訊，是否可能為從先前頁面到達這裡的人們提供所尋找的方向或動作。或者您可以評估那些並未像先前頁面一樣出現的頁面，其與目前頁面之間的連結是否需要更加顯眼。<br/>此範本使用下一個或上一個項目面板。"
 
@@ -227,7 +240,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--campaignRankedReport"
+>id="template--campaignRankedReport"
 >title="檢視將流量導向您的網站效果最好的連結。"
 >abstract="**這有助於您**&#x200B;更加了解在造訪您的網站時，哪些追蹤程式碼 (以及與其相關的連結) 最常被使用。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對在網站上新增連結的位置調整相關策略。<br/>此範本使用追蹤程式碼維度和造訪次數量度。"
 
@@ -236,7 +249,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--productsRankedReport"
+>id="template--productsRankedReport"
 >title="按照產品檢視訂單數目。會顯示一段期間內的資料。"
 >abstract="**這有助於您**&#x200B;了解哪些產品的需求量最高或最低。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如調整您的行銷策略推銷高績效產品，或是改善或停止績效不佳的產品。您也可以根據資料分析來調整產品庫存。<br/>此範本使用產品維度和訂單量度。"
 
@@ -245,7 +258,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--lastTouchChannelRankedReport"
+>id="template--lastTouchChannelRankedReport"
 >title="檢視訪客在參與期間 (預設為 30 天) 符合的最新行銷管道。"
 >abstract="**這有助於您**&#x200B;了解哪些行銷管道最能有效地吸引人們造訪您的網站並成功轉換為客戶。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如分配更多資源給績效好的管道，或分配較少資源給績效不佳的管道。<br/>此範本使用上次接觸管道維度和不重複訪客量度。"
 
@@ -254,7 +267,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--lastTouchChannelDetailRankedReport"
+>id="template--lastTouchChannelDetailRankedReport"
 >title="檢視訪客在參與期間 (預設為 30 天) 符合的最新行銷管道的詳細資訊。"
 >abstract="**這不僅有助於您**&#x200B;了解哪些行銷管道最能有效地吸引人們造訪您的網站並成功轉換為客戶，還可以了解這些行銷管道的詳細資訊。例如，當訪客進入您的網站，並找到相符的「付費搜尋」行銷管道時，您可以使用管道詳細資料來瞭解他們使用了哪個搜尋引擎，或搜尋了哪個關鍵字。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如分配更多資源給績效好的管道，或分配較少資源給績效不佳的管道。<br/>此範本使用上次接觸管道詳細資料維度和不重複訪客量度。 "
 
@@ -263,7 +276,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--revenueOvertimeReport"
+>id="template--revenueOvertimeReport"
 >title="檢視所有訂單中所購買產品的金額。會顯示一段期間內的資料，並與先前的期間進行比較。"
 >abstract="**這有助於您**&#x200B;了解收入隨時間增加或減少的情況。您可以將這個量度與任何維度結合，以了解哪些維度項目對收入有貢獻。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如根據先前的趨勢預測未來的收入。您還可以新增另一個維度，例如追蹤程式碼維度，以了解哪些行銷活動所產生的收入最多。<br/>此範本使用日維度和收入量度。"
 
@@ -272,7 +285,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--ordersOvertimeReport"
+>id="template--ordersOvertimeReport"
 >title="檢視購買事件總數。會顯示一段期間內的資料，並與先前的期間進行比較。"
 >abstract="**這有助於您**&#x200B;更加了解人們對您的產品和服務之興趣，隨時間而增加或減少的情況。您可以應用區段來了解哪些客戶或地區的訂單最多，以及這些訂單隨時間所呈現的趨勢。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如透過比較行銷活動發起前和發起後的訂單量，評估最近發起之行銷活動的成效。或者您可以比較逐年的假期訂單量。<br/>此範本使用日維度和訂單量度。"
 
@@ -299,6 +312,127 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 ### 網頁：參與度 {#web-engagement}
 
+<!--AA only-->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--timeSpentVisitOvertimeReport"
+>title="檢視訪客每次造訪期間平均在您網站上逗留的時間。會顯示一段期間內的資料，並與先前的時段進行比較。"
+>abstract="**這可以幫助您**&#x200B;更加了解訪客參與度以及訪客在網站上逗留的時間。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如評估網站的變更是否會讓訪客在網站上停留更長時間。<br/>此範本使用「日」維度和「每次造訪逗留時間 (秒)」量度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--timePriorRankedReport"
+>title="檢視使用者在成功事件之前的平均逗留時間。"
+>abstract="**這有助於您**&#x200B;更加了解訪客執行其所需動作 (例如進行購買) 所花的時間。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如評估網站的變更是否讓訪客更能夠快速達到成功事件。<br/>此範本使用「事件之前時間」維度和「不重複訪客」量度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--falloutReport"
+>title="檢視在一系列預先定義的連續頁面中，訪客在哪個位置離開和繼續通過。"
+>abstract="**這可以幫助您**&#x200B;更加了解人們在使用者歷程中的哪些位置流失。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如透過網站上的特定流程 (像是購買或註冊流程) 分析轉換率，或分析網站上事件之間的關聯。(例如，查看您的隱私權原則並繼續購買產品的人所佔的百分比)。您也可以使用此範本，在同一份報表中執行兩個不同區段的並排比較。<br/>此範本使用「流失」視覺效果。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--cross-device-analysis"
+>title="檢視訪客在歷程的所有時間點使用了哪些裝置。"
+>abstract="**這可以幫助您**&#x200B;更加了解有多少人與您的品牌互動、他們使用的裝置類型，以及他們對多種裝置的使用如何影響其體驗。舉例來說，人們在行動裝置上開始工作，且稍後再移至桌上型電腦完成工作的頻率為何？使用者在裝置間移動最常採取的路徑為何？他們在哪裡退出？他們在哪裡獲得成功？以此類推。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如針對行動體驗將使用者歷程的特定部分最佳化。<br/>此範本使用「流量」視覺效果、「流失」視覺效果、「同類群組」分析、「人員」量度和「不重複裝置」量度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--web-retention"
+>title="檢視誰是您的忠實使用者，以及他們在您的網站上做什麼。"
+>abstract="**這可以幫助您**&#x200B;更加了解使用者造訪您網站的平均次數、返回網站的頻率，以及回訪之間的天數。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如分析哪些內容最能有效地吸引人們返回網站。<br/>此範本使用「造訪次數」量度和「不重複訪客」量度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--audio-consumption-template"
+>title="檢視所有數位裝置上媒體音效消費的趨勢和熱門量度。"
+>abstract="**這可以幫助您**&#x200B;更加了解訪客如何在您的網站上使用音訊內容。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如分析哪些內容最常被使用。<br/>此範本使用「造訪次數」量度和「不重複訪客」量度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--media-recency-frequency-loyalty"
+>title="檢視所有數位裝置上媒體使用的趨勢和熱門量度。"
+>abstract="**這可以幫助您**&#x200B;更加了解使用者造訪您網站的平均次數、返回網站的頻率，以及回訪之間的天數。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如分析哪些內容最能有效地吸引人們返回網站。<br/>此範本使用「造訪次數」量度和「不重複訪客」量度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--reloadsRankedReport"
+>title="檢視重新載入期間維度項目出現的次數。訪客重新整理瀏覽器是觸發重新載入的最常見方式。"
+>abstract="**這可以幫助您**&#x200B;判別特定頁面上何時可能出現問題，且會提示訪客重新載入頁面。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如評估哪些頁面有需要解決的問題。<br/>此範本使用「重新載入」量度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--timeSpentPageRankedReport"
+>title="檢視訪客每次造訪期間平均在您網站上逗留的時間。會顯示一段期間內的資料，並與先前的時段進行比較。"
+>abstract="**這可以幫助您**&#x200B;更加了解訪客參與度以及訪客在網站上逗留的時間。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如評估網站的變更是否會讓訪客在網站上停留更長時間。<br/>此範本使用「日」維度和「每次造訪逗留時間 (秒)」量度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--entryPageOriginalRankedReport"
+>title="檢視訪客在期限中首次造訪您網站時的熱門存取頁面。"
+>abstract="**這有助於您**&#x200B;更加了解哪些頁面為您的網站帶來最多流量，或進一步了解訪客對於網站的第一印象。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如將人們登入網站的初始體驗最佳化，或確保人們登入您的網站時最先看到的頁面呈現良好的互動氛圍，並且提供前往網站其他區域的必要連結。<br/>此範本使用工作階段量度。此範本亦使用條狀圖視覺化圖像和自由格式表格視覺化圖像。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--singlePageVisitsRankedReport"
+>title="檢視包含單一不重複頁面的造訪次數。"
+>abstract="**這可以幫助您**&#x200B;更加了解訪客參與度以及訪客在網站上逗留的時間。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如評估網站的變更是否會讓訪客在網站上停留更長時間。<br/>此範本使用「單頁造訪次數」維度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--sitePerformanceOverview"
+>title="檢視 Adobe Experience Manager 網站的效能資料。"
+>abstract="**這可以幫助您**&#x200B;更加了解 Adobe Experience Manager 的價值實現。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如將 Experience Manager 設定最佳化。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--itp-impact"
+>title="檢視並分析智慧追蹤預防 (ITP) 對資料收集和報告的影響。"
+>abstract="**這可以幫助您**&#x200B;更加了解由於 ITP 施加的 Cookie 限制而導致的潛在資料遺失。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如調整您的分析設定以將 ITP 的影響降至最低。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!--Both AA and CJA-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
@@ -311,7 +445,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--web-content-consumption"
+>id="template--web-content-consumption"
 >title="檢視使用者最常使用以及對使用者有吸引力的網頁內容。"
 >abstract="**這有助於您**&#x200B;更加了解人們首次登入網站時會前往哪些部分、人們最常造訪網站的哪些區段，以及哪些頁面最有可能導致人們離開網站。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如評估網站上哪些路徑會將人們帶到最重要的頁面，以及哪些頁面更有可能促使人們離開網站。<br/>此範本使用頁面維度和頁面瀏覽數量度、造訪次數量度、不重複訪客量度、登入率量度、跳出率量度、退出率量度和內容速度量度。此範本亦使用流量視覺化圖像呈現進入、退出和熱門區段。"
 
@@ -320,7 +454,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--media-content-consumption"
+>id="template--media-content-consumption"
 >title="檢視使用者最常使用以及對使用者有吸引力的媒體內容。"
 >abstract="**這有助於您**&#x200B;更加了解人們首次登入網站時會前往哪些部分、人們最常造訪網站的哪些區段，以及哪些頁面最有可能導致人們離開網站。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如評估網站上哪些路徑會將人們帶到最重要的頁面，以及哪些頁面更有可能促使人們離開網站。<br/>此範本使用頁面維度和頁面瀏覽數量度、造訪次數量度、不重複訪客量度、登入率量度、跳出率量度、退出率量度和內容速度量度。此範本亦使用流量視覺化圖像呈現進入、退出和熱門區段；利用散佈圖視覺化圖像呈現最常用頁面的頁面瀏覽數；利用條狀圖視覺化圖像依分段時間呈現頁面瀏覽數；以及利用折線圖視覺化圖像呈現平均網站逗留時間的趨勢檢視。"
 
@@ -329,7 +463,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--page-summary-report"
+>id="template--page-summary-report"
 >title="檢視您各項屬性中任何頁面的重要資訊。呈現頁面瀏覽數、趨勢線、流量視覺化圖像等。"
 >abstract="**這有助於您**&#x200B;更加了解人們與特定頁面互動的情況。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如分析一段期間內頁面的績效，或加強了解是哪些因素將流量導向頁面。<br/>此範本使用頁面瀏覽數量度。此範本亦使用折線圖視覺化圖像和流量視覺化圖像。"
 
@@ -338,7 +472,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--entryPageRankedReport"
+>id="template--entryPageRankedReport"
 >title="檢視人們首次造訪您網站時最常存取的頁面。"
 >abstract="**這有助於您**&#x200B;更加了解哪些頁面為您的網站帶來最多流量，或進一步了解訪客對於網站的第一印象。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如將人們登入網站的初始體驗最佳化，或確保人們登入您的網站時最先看到的頁面呈現良好的互動氛圍，並且提供前往網站其他區域的必要連結。<br/>此範本使用工作階段量度。此範本亦使用條狀圖視覺化圖像和自由格式表格視覺化圖像。"
 
@@ -347,7 +481,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--exitPageRankedReport"
+>id="template--exitPageRankedReport"
 >title="檢視人們在離開您的網站前最常存取的頁面。"
 >abstract="**這有助於您**&#x200B;更加了解哪些頁面會導致人們離開網站。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如更新常見的退出頁面，將人們離開網站前的體驗最佳化，或包含鼓勵人們在您網站上逗留的內容或連結。<br/>此範本使用工作階段量度。此範本亦使用條狀圖視覺化圖像和自由格式表格視覺化圖像。"
 
@@ -373,10 +507,32 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 ### 網頁：轉換 {#web-conversion}
 
+<!--AA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--productConversionReport"
+>id="aa-template--categoryRankedReport"
+>title="。"
+>abstract=""
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--commerce-and-marketing-management"
+>title="檢視零售商對您商業活動的預先建立深入解析，以幫助您提高銷售量。這是針對 Magento 的使用者，但是任何線上零售商都可以運用。"
+>abstract="**這可以幫助您**&#x200B;更加了解您的商業活動如何協助提升銷售數字。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如將預算調整至 ROI 最高的活動上。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!--Both AA and CJA-->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--productConversionReport"
 >title="產品轉換漏斗範本"
 >abstract=""
 
@@ -385,7 +541,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--retail-products-template"
+>id="template--retail-products-template"
 >title="檢視哪些產品績效最佳。"
 >abstract="**這有助於您**&#x200B;更加了解哪些產品最成功。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如增加成功產品的資金，及減少不太成功產品的資金。<br/>此範本使用產品瀏覽數、購物車新增量、訂單、收入和單位量度。此範本亦使用產品維度。"
 
@@ -394,7 +550,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cartConversionReport"
+>id="template--cartConversionReport"
 >title="檢視人們執行關鍵結帳事件的次數，例如新增商品到購物車、檢視購物車、移除購物車中的商品以及結帳。"
 >abstract="**這有助於您**&#x200B;更加了解結帳程序漏斗的哪些部分會促成轉換，而哪些部分更容易導致購物車捨棄。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如減少結帳程序中某些步驟的摩擦。<br/>此範本使用"
 
@@ -403,7 +559,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cartsOvertimeReport"
+>id="template--cartsOvertimeReport"
 >title="檢視將產品加入購物車的人數。"
 >abstract="**這有助於您**&#x200B;更加了解將產品加入到購物車的人數，而非加入到購物車的產品總數。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如測量產品頁面的成效。<br/>此範本使用購物車量度。"
 
@@ -412,7 +568,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cartViewsOvertimeReport"
+>id="template--cartViewsOvertimeReport"
 >title="檢視人們檢視購物車的次數。"
 >abstract="**這有助於您**&#x200B;更加了解結帳體驗以降低購物車捨棄率，或分析不同產品間從加入購物車到結帳之間的時間。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對購物車中保留時間最長且捨棄風險最大的產品提供促銷活動。<br/>此範本使用購物車瀏覽數量度。"
 
@@ -421,7 +577,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cartAdditionsOvertimeReport"
+>id="template--cartAdditionsOvertimeReport"
 >title="檢視人們將商品加入購物車的次數。"
 >abstract="**這有助於您**&#x200B;更加了解在轉換漏斗中哪個部分，客戶對產品產生足夠興趣並將其加入到購物車。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如改善所有客戶的產品推薦內容。透過分析哪些產品經常加入到同一購物車，並根據已加入購物車的商品來建議相關產品，即可改善推薦內容。"
 
@@ -430,7 +586,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cartRemovalsOvertimeReport"
+>id="template--cartRemovalsOvertimeReport"
 >title="檢視人們移除購物車中某件商品的次數。"
 >abstract="**這有助於您**&#x200B;更加了解轉換漏斗中哪個部分讓客戶對產品不再感到興趣，或者可以幫助您了解結帳程序中哪個部分可能存在問題。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如移除結帳程序中可能存有的任何潛在阻礙，例如複雜的使用者體驗。<br/>此範本使用購物車移除數量度。"
 
@@ -439,7 +595,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--purchaseConversionReport"
+>id="template--purchaseConversionReport"
 >title="購買轉換漏斗範本"
 >abstract=""
 
@@ -463,10 +619,158 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 ### 網頁：客群 {#web-audience}
 
+<!--AA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--countryGeoReport"
+>id="aa-template--timeZoneRankedReport"
+>title="檢視存取您網站之訪客所在的熱門時區。"
+>abstract="**這可以幫助您**&#x200B;更加了解訪客居住的時區。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如將網站維修時間調整為受影響人數最少的時段。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--domainRankedReport"
+>title="檢視存取您網站之訪客使用的熱門網域。"
+>abstract="**這可以幫助您**&#x200B;更加了解您的訪客來自哪些組織。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如將最大的客戶群作為目標來進行內容設定。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--topLevelDomainRankedReport"
+>title="檢視存取您網站之訪客使用的熱門網域。"
+>abstract="**這可以幫助您**&#x200B;更加了解您的訪客來自哪些組織。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如將最大的客戶群作為目標來進行內容設定。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--browserWidthRankedReport"
+>title="檢視訪客用來存取您網站的熱門瀏覽器寬度。"
+>abstract="**這可以幫助您**&#x200B;更加了解內容呈現給訪客的方式。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如使用最常用的瀏覽器寬度來測試新版本的網站，以提升網站品質。這樣做可以讓品質控管工作發揮最大效果。<br/>此範本使用瀏覽器維度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--browserHeightRankedReport"
+>title="檢視訪客用來存取您網站的熱門瀏覽器高度。"
+>abstract="**這可以幫助您**&#x200B;更加了解內容呈現給訪客的方式。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如使用最常用的瀏覽器高度來測試新版本的網站，以提升網站品質。這樣做可以讓品質控管工作發揮最大效果。<br/>此範本使用瀏覽器維度。 "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--operatingSystemRankedReport"
+>title="檢視訪客存取您網站時使用的作業系統名稱與版本。"
+>abstract="**這可以幫助您**&#x200B;更加了解訪客使用的最常見作業系統及其版本。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如使用熱門作業系統及版本來測試新版本的網站，以提升網站品質。這樣做可以讓品質控管工作發揮最大效果。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--operatingSystemTypeRankedReport"
+>title="檢視訪客存取您網站時使用的作業系統名稱。"
+>abstract="**這能幫助您**&#x200B;更加了解訪客使用的最常見作業系統。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如使用熱門作業系統來測試新版本的網站，以提升網站品質。這樣做可以讓品質控管工作發揮最大效果。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--returnFrequencyRankedReport"
+>title="檢視人們用來存取您的網站之行動裝置，由哪些電信公司提供行動網路連線。"
+>abstract="**這有助於您**&#x200B;更加了解您的使用者群最常使用哪些行動電信業者。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如根據不同電信業者的網路功能自訂內容傳送方式，以確保流暢的使用者體驗。<br/>此範本使用行動電信業者維度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--returnVisitorsOvertimeReport"
+>title="檢視人們用來存取您的網站之行動裝置，由哪些電信公司提供行動網路連線。"
+>abstract="**這有助於您**&#x200B;更加了解您的使用者群最常使用哪些行動電信業者。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如根據不同電信業者的網路功能自訂內容傳送方式，以確保流暢的使用者體驗。<br/>此範本使用行動電信業者維度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--visitNumberRankedReport"
+>title="檢視個別訪客造訪網站的次數。"
+>abstract="**這可以幫助您**&#x200B;更加了解訪客返回您網站時的參與度。此維度會套用至訪客的期限，無論專案日期範圍為何。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如對常客調整行銷工作。<br/>此範本使用「造訪次數」維度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--customerLoyaltyRankedReport"
+>title="檢視您網站上先前購買 0 次、先前購買 1 次、先前購買 2 次或先前購買 3 次以上的訪客數量。"
+>abstract="**這可以幫助您**&#x200B;更加了解您的網站如何影響購買行為。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如將焦點放在返回購買的訪客，藉此鼓勵新訪客也採取類似的行為。<br/>此範本使用「客戶忠誠度」維度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--daysBeforeFirstPurchaseRankedReport"
+>title="檢視訪客首次瀏覽網站和進行購買之間的間隔天數。舉例來說，如果訪客在首次造訪一天後購買，則所有後續造訪或事件都屬於「1 天」維度項目。"
+>abstract="**這可以幫助您**&#x200B;更加了解訪客通常會在多久後進行購買。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如更新您的網站以促進訪客更快進行購買。<br/>此範本使用「首次購買間隔天數」維度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--daysSinceLastPurchaseRankedReport"
+>title="檢視訪客目前的點擊與他們先前最近一次購買之間所經過的時間。"
+>abstract="**這可以幫助您**&#x200B;更加了解在您網站上購買商品後的訪客行為。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如更新您的網站以鼓勵後續購買。<br/>此範本使用「上次購買間隔天數」維度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--mobileScreenSizeRankedReport"
+>title="檢視訪客存取您網站時最常使用的行動裝置螢幕尺寸。"
+>abstract="**這可以幫助您**&#x200B;更加了解內容呈現給訪客的方式。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如使用最常用的行動裝置螢幕尺寸來測試新版本的網站，以提升網站品質。這樣做可以讓品質控管工作發揮最大效果。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--mobileScreenHeightRankedReport"
+>title="檢視訪客存取您網站時最常使用的行動裝置螢幕長度。"
+>abstract="**這可以幫助您**&#x200B;更加了解內容呈現給訪客的方式。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如使用最常用的行動裝置螢幕長度來測試新版本的網站，以提升網站品質。這樣做可以讓品質控管工作發揮最大效果。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--mobileScreenWidthRankedReport"
+>title="檢視訪客存取您的網站時最常使用的行動裝置螢幕寬度。"
+>abstract="**這可以幫助您**&#x200B;更加了解內容呈現給訪客的方式。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如使用最常用的行動裝置螢幕寬度來測試新版本的網站，以提升網站品質。這樣做可以讓品質控管工作發揮最大效果。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!--Both AA and CJA-->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--countryGeoReport"
 >title="檢視造訪網站的人們來自哪個國家/地區。"
 >abstract="**這有助於您**&#x200B;更加了解造訪網站的訪客最常來自哪些國家/地區。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如利用資料來加強這些國家/地區的行銷工作，或者確保您的網站體驗在使用不同主要語言的國家/地區能達到最佳效果。<br/>此範本使用國家/地區維度。"
 
@@ -475,7 +779,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--stateGeoReport"
+>id="template--stateGeoReport"
 >title="檢視造訪網站的人們來自哪個州 (美國國內)。此範本與地理區域範本相似，差別僅在限定於美國。"
 >abstract="**這有助於您**&#x200B;更加了解造訪網站的訪客最常來自美國的哪些州。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如使用資料來加強這些州的行銷工作。<br/>此範本使用美國州別維度。"
 
@@ -484,7 +788,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--regionGeoReport"
+>id="template--regionGeoReport"
 >title="檢視造訪網站的人們來自哪個地理區域。區域指的是小於國家/地區但大於城市的地理範圍。在某些國家，區域是指一個州、省或府/州。在其他地方，則是指構成國、行政區或大都會區域。 "
 >abstract="**這有助於您**&#x200B;更加了解造訪網站的訪客最常來自哪些區域。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如使用資料加強這些區域的行銷工作，或者確保您的網站體驗在使用不同主要語言的區域能達到最佳效果。<br/>此範本使用 ID (變數/地理位置) 和區域維度。 "
 
@@ -493,7 +797,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--cityGeoReport"
+>id="template--cityGeoReport"
 >title="檢視造訪網站的人們來自哪個城市。"
 >abstract="**這有助於您**&#x200B;更加了解造訪網站的訪客最常來自哪些城市。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如使用資料加強這些城市的行銷工作。<br/>此範本使用城市維度。"
 
@@ -502,7 +806,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--dmaGeoReport"
+>id="template--dmaGeoReport"
 >title="檢視造訪網站的人們來自美國境內哪些指定行銷區域 (DMA)。"
 >abstract="**這有助於您**&#x200B;更加了解造訪網站的訪客最常來自哪些區域。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如使用資料加強最成功區域的行銷工作。 "
 
@@ -511,7 +815,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--languageRankedReport"
+>id="template--languageRankedReport"
 >title="檢視訪客查看內容時偏好的最常用語言。"
 >abstract="**這有助於您**&#x200B;更加了解訪客最常使用的語言。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對最常用的語言加強本地化工作或行銷工作。<br/>此範本使用語言維度。"
 
@@ -520,7 +824,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--web-technology-template"
+>id="template--web-technology-template"
 >title="技術概觀"
 >abstract=""
 
@@ -529,7 +833,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--browserRankedReport"
+>id="template--browserRankedReport"
 >title="檢視人們存取您的網站時最常使用的瀏覽器名稱與版本。"
 >abstract="**這有助於您**&#x200B;更加了解訪客最常用的瀏覽器。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如使用最常用的瀏覽器針對網站新版本進行測試，以提升網站品質。這樣做可以讓品質控管工作發揮最大效果。<br/>此範本使用瀏覽器維度。"
 
@@ -538,7 +842,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--browserTypeRankedReport"
+>id="template--browserTypeRankedReport"
 >title="檢視人們存取您的網站時最常使用的瀏覽器之製作組織名稱。這與瀏覽器範本不同，不會將相同瀏覽器的不同版本列為單獨的維度項目。"
 >abstract="**這有助於您**&#x200B;更加了解訪客最常用的瀏覽器&#x200B;<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如使用最常用的瀏覽器針對網站新版本進行測試，以提升網站品質。這樣做可以讓品質控管工作發揮最大效果。<br/>此範本使用瀏覽器類型維度。 "
 
@@ -563,10 +867,43 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 ### 網頁：贏取 {#web-acquisition}
 
+<!--CJA only-->
+
+<!--AA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--marketing-channel-overview-template"
+>id="aa-template--mobile-app-acquisition-template"
+>title="檢視您的網站如何吸引使用行動裝置的訪客。"
+>abstract="**這有助於您**&#x200B;更加了解促成贏取客戶的各種因素，例如搜尋關鍵字、反向連結網域等。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對最有成效的管道加強行銷工作。<br/>此範本使用跳出率量度和跳出次數量度。此範本亦使用搜尋引擎維度、搜尋關鍵字維度、登入頁面維度、反向連結網域維度、追蹤程式碼維度和反向連結維度。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--advertisingAnalyticsPaidSearch"
+>title="並排檢視您所有的 Google 和 Bing 付費搜尋資料。"
+>abstract="**這可以幫助您**&#x200B;更加了解傳送到您網站的流量，以及客戶是否正在轉換。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如預估廣告行銷活動的成本效益。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa-template--searchEngineRankRankedReport"
+>title="檢視訪客點擊了搜尋結果中的哪一個頁面來進入您的網站。例如，若您的網站出現在搜尋引擎搜尋結果的第二頁，此變數的維度項目就是「搜尋頁面 2」。"
+>abstract="**這可以幫助您**&#x200B;更加了解您的頁面在搜尋結果中的排名。<br/>**根據了解到的內容，您可以**&#x200B;採取各種動作、改進您的 SEO 策略，以確保您的內容顯示在搜尋結果的第一頁中。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!--Both AA and CJA-->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--marketing-channel-overview-template"
 >title="使用自訂歸因時，此範本會顯示訪客如何到達您的網站。"
 >abstract="**這有助於您**&#x200B;更加了解哪些行銷管道最有效。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對有效的行銷管道加重投資，並放棄投資效果較差的行銷管道。<br/>此範本使用 ID (變數/行銷管道) 維度和收入量度。"
 
@@ -575,7 +912,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--firstouchChannelRankedReport"
+>id="template--firstouchChannelRankedReport"
 >title="檢視訪客在參與期間 (預設為 30 天) 符合的第一個行銷管道。"
 >abstract="**這有助於您**&#x200B;更加了解哪些行銷管道將初始流量導向您的網站。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對最有成效的領域加強行銷工作。<br/>此範本使用首次接觸管道維度。"
 
@@ -584,7 +921,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--firstouchChannelDetailRankedReport"
+>id="template--firstouchChannelDetailRankedReport"
 >title="檢視訪客在參與期間 (預設為 30 天) 符合之第一個行銷管道的詳細資訊。"
 >abstract="**這有助於您**&#x200B;更加了解是什麼因素促成與行銷管道相符的點擊。例如，當訪客進入您的網站，並找到相符的「付費搜尋」行銷管道時，您可以使用管道詳細資料來瞭解他們使用了哪個搜尋引擎，或搜尋了哪個關鍵字。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對最有成效的領域加強行銷工作。<br/>此範本使用首次接觸管道詳細資訊維度。"
 
@@ -593,7 +930,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--campaignConversionReport"
+>id="template--campaignConversionReport"
 >title="行銷活動轉換漏斗"
 >abstract=""
 
@@ -602,7 +939,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--retail-campaign-performance-template"
+>id="template--retail-campaign-performance-template"
 >title="檢視您的行銷活動績效的詳細資訊。"
 >abstract="**這有助於您**&#x200B;更加了解與行銷活動相關的各種成功指標，例如收入、產品瀏覽數、訂單等。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對帶來最多收入的行銷活動加強行銷工作。<br/>此範本使用收入量度、產品瀏覽數量度、新增購物車量度、訂單量度和單位量度。此範本亦使用追蹤程式碼維度和反向連結網域維度。"
 
@@ -611,7 +948,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--web-acquisition-template"
+>id="template--web-acquisition-template"
 >title="檢視您的網站如何吸引訪客。"
 >abstract="**這有助於您**&#x200B;更加了解促成贏取客戶的各種因素，例如搜尋關鍵字、反向連結網域等。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對最有成效的管道加強行銷工作。<br/>此範本使用跳出率量度和跳出次數量度。此範本亦使用搜尋引擎維度、搜尋關鍵字維度、登入頁面維度、反向連結網域維度、追蹤程式碼維度和反向連結維度。"
 
@@ -620,7 +957,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchKeywordRankedReport"
+>id="template--searchKeywordRankedReport"
 >title="檢視訪客到達您網站所使用的搜尋關鍵字，無論是付費或免費。"
 >abstract="**這有助於您**&#x200B;更加了解人們搜尋哪些關鍵字而帶來網站流量。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如找出所使用的關鍵字和能夠帶來網站流量的關鍵字之間有哪些 SEO 差距，並彌補這些差距。<br/>此範本使用搜尋關鍵字維度。"
 
@@ -629,7 +966,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchPaidKeywordRankedReport"
+>id="template--searchPaidKeywordRankedReport"
 >title="檢視訪客用來到達您網站的搜尋關鍵字 (與付費搜尋偵測相符)。"
 >abstract="**這有助於您**&#x200B;更加了解人們搜尋哪些關鍵字而帶來網站流量。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如找出所使用的關鍵字和能夠帶來網站流量的關鍵字之間有哪些 SEO 差距，並彌補這些差距。<br/>此範本使用搜尋關鍵字 - 付費維度。 "
 
@@ -638,7 +975,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchNaturalKeywordRankedReport"
+>id="template--searchNaturalKeywordRankedReport"
 >title="檢視訪客用來到達您網站的搜尋關鍵字 (與付費搜尋偵測不符)。"
 >abstract="**這有助於您**&#x200B;更加了解人們搜尋哪些關鍵字而帶來網站流量。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如找出所使用的關鍵字和能夠帶來網站流量的關鍵字之間有哪些 SEO 差距，並彌補這些差距。<br/>此範本使用搜尋關鍵字 - 免費維度。 "
 
@@ -647,7 +984,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchRankedReport"
+>id="template--searchRankedReport"
 >title="檢視訪客到達您網站所使用的搜尋引擎，無論是付費或免費。"
 >abstract="**這有助於您**&#x200B;更加了解人們使用哪些搜尋引擎而帶來網站流量。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對為網站帶來最多流量的搜尋引擎加強 SEO 工作。<br/>此範本使用搜尋引擎維度。 "
 
@@ -656,7 +993,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchPaidRankedReport"
+>id="template--searchPaidRankedReport"
 >title="檢視訪客用來到達您網站的搜尋引擎 (與付費搜尋偵測相符)。"
 >abstract="**這有助於您**&#x200B;更加了解人們使用哪些搜尋引擎而帶來網站流量。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對為網站帶來最多流量的搜尋引擎加強 SEO 工作。<br/>此範本使用搜尋引擎 - 付費維度。"
 
@@ -665,7 +1002,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--searchNaturalRankedReport"
+>id="template--searchNaturalRankedReport"
 >title="檢視訪客用來到達您網站的搜尋關鍵字 (與付費搜尋偵測不符)。"
 >abstract="**這有助於您**&#x200B;更加了解人們使用哪些搜尋引擎而帶來網站流量。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對為網站帶來最多流量的搜尋引擎加強 SEO 工作。<br/>此範本使用搜尋引擎 - 免費維度。"
 
@@ -674,7 +1011,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--referringDomainRankedReport"
+>id="template--referringDomainRankedReport"
 >title="檢視人們點進哪些網域來到達您的網站。"
 >abstract="**這有助於您**&#x200B;更加了解哪些協力廠商網站為您的網站帶來最多流量。(外部網站上必須有連結，且訪客必須點選該連結，才會顯示維度項目。)<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如建立或調整內容使更加符合來自熱門反向連結網域的訪客之興趣。<br/>此範本使用反向連結網域維度。"
 
@@ -683,7 +1020,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--referringDomainOriginalRankedReport"
+>id="template--referringDomainOriginalRankedReport"
 >title="檢視人們到達您的網站前點進的第一個反向連結網域。(設定後，該訪客 ID 的整個期限內都會包含相同的值。)"
 >abstract="**這有助於您**&#x200B;更加了解哪些協力廠商網站會帶動原始流量到您的網站。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如建立或調整內容，使更加符合來自熱門原始反向連結網域的訪客之興趣。<br/>此範本使用原始反向連結網域維度。"
 
@@ -692,7 +1029,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--referrerRankedReport"
+>id="template--referrerRankedReport"
 >title="檢視訪客點進哪一個 URL 來到達您的網站。(外部 URL 上必須有連結，且訪客必須點選該連結，才會顯示維度項目。)"
 >abstract="**這有助於您**&#x200B;更加了解哪些特定 URL 為您的網站帶來最多流量。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如建立或調整內容，使更符合來自最常見 URL 的訪客之興趣。<br/>此範本使用反向連結網域維度。</p>"
 
@@ -701,7 +1038,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--referrerTypeRankedReport"
+>id="template--referrerTypeRankedReport"
 >title="檢視訪客點進哪個通用管道來到達您的網站。Adobe 會維護每個管道的規則。可能的管道包括搜尋引擎、社交網路、其他網站、硬碟或電子郵件。"
 >abstract="**這有助於您**&#x200B;更加了解哪種類型的反向連結能為您的網站帶來最多流量。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如建立或調整內容，使更加符合來自特定管道的訪客之興趣。<br/>此範本使用反向連結類型維度。"
 
@@ -735,10 +1072,12 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 <!-- add contextual help for Mobile app screens and mobile app actions -->
 
+<!--CJA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-lifecycle-metrics-app-usage-template"
+>id="template--mobile-lifecycle-metrics-app-usage-template"
 >title="檢視應用程式的使用者數量、啟動次數和首次啟動次數，以及平均作業長度。"
 >abstract="**這可以幫助您**&#x200B;更加了解應用程式的使用量。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如提升應用程式效能，使其能夠根據使用量進行擴展。"
 
@@ -747,7 +1086,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-app-journeys"
+>id="template--mobile-app-journeys"
 >title="檢視行動應用程式的主要使用模式。"
 >abstract="**這可以幫助您**&#x200B;更加了解人們如何使用您的應用程式。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如改進人們從一個螢幕轉到另一個螢幕的方式，以達到最常見的工作流程目標。"
 
@@ -756,7 +1095,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-app-key-metrics"
+>id="template--mobile-app-key-metrics"
 >title="檢視一些最常見的行動應用程式量度。"
 >abstract="**這可以幫助您**&#x200B;更加了解行動應用程式的基本效能。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如評估應用程式的整體健康和效能。"
 
@@ -765,7 +1104,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-app-messaging"
+>id="template--mobile-app-messaging"
 >title="檢視應用程式內傳送訊息和推播傳送訊息的效能資料。"
 >abstract="**這可以幫助您**&#x200B;更加了解人們如何使用應用程式內傳送訊息的功能，以及推播通知如何有效地為您的應用程式帶來流量。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如提升應用程式內傳送訊息推播通知的體驗。"
 
@@ -774,7 +1113,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-app-performance-template"
+>id="template--mobile-app-performance-template"
 >title="檢視應用程式的執行情況，以及使用者在何處遇到問題。"
 >abstract="**這可以幫助您**&#x200B;更加了解應用程式的使用者是否遇到速度緩慢或效能下降的問題。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如修復現有問題，或在問題發生之前提升應用程式效能。"
 
@@ -783,7 +1122,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobile-app-retention"
+>id="template--mobile-app-retention"
 >title="檢視哪些使用者是應用程式最忠實的使用者，以及他們在應用程式中執行哪些操作。"
 >abstract="**這可以幫助您**&#x200B;更加了解最忠實的使用者如何使用您的應用程式。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對最忠實使用者正在使用的功能來改善您的行銷工作。"
 
@@ -807,7 +1146,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobileCarrierRankedReport"
+>id="template--mobileCarrierRankedReport"
 >title="檢視人們用來存取您的網站之行動裝置，由哪些電信公司提供行動網路連線。"
 >abstract="**這有助於您**&#x200B;更加了解您的使用者群最常使用哪些行動電信業者。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如根據不同電信業者的網路功能自訂內容傳送方式，以確保流暢的使用者體驗。<br/>此範本使用行動電信業者維度。"
 
@@ -816,7 +1155,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobileDeviceNameRankedReport"
+>id="template--mobileDeviceNameRankedReport"
 >title="檢視人們存取您的網站所使用的行動裝置品牌和型號。"
 >abstract="**這有助於您**&#x200B;更加了解您的使用者群最喜歡使用哪些行動裝置。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對最常見的行動裝置將網站呈現最佳化。<br/>此範本使用行動裝置名稱維度。"
 
@@ -825,7 +1164,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobileDeviceTypeRankedReport"
+>id="template--mobileDeviceTypeRankedReport"
 >title="檢視人們使用哪些類型的行動裝置存取您的網站，例如手機和平板電腦。"
 >abstract="**這有助於您**&#x200B;更加了解人們存取您的網站所使用的各種行動裝置。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對最常用的行動裝置類型將您的網站最佳化。<br/>此範本使用行動裝置類型維度。"
 
@@ -834,7 +1173,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja-template--mobileManufacturerRankedReport"
+>id="template--mobileManufacturerRankedReport"
 >title="檢視人們存取您的網站所使用的行動裝置由哪些製造商製造，例如 Apple 和 Samsung。"
 >abstract="**這有助於您**&#x200B;更加了解您的使用者群最喜歡哪些製造商。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如根據不同製造商的能力自訂內容傳送方式，以確保流暢的使用者體驗。<br/>此範本使用行動製造商維度。"
 
@@ -850,6 +1189,8 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 | **製造商** | 檢視人們存取您的網站所使用的行動裝置由哪些製造商製造，例如 Apple 和 Samsung。<p>**這有助於您**&#x200B;更加了解您的使用者群最喜歡哪些製造商。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如根據不同製造商的能力自訂內容傳送方式，以確保流暢的使用者體驗。</p><p>此範本使用行動製造商維度。</p> |
 
 ### 時間分隔 {#time-parting}
+
+<!--CJA only-->
 
 <!-- markdownlint-disable MD034 -->
 
@@ -958,6 +1299,8 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 ### 跨管道 {#cross-channel}
 
+<!--CJA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
@@ -1016,6 +1359,8 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 ### AJO {#AJO-templates}
 
+<!--CJA only-->
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
@@ -1071,27 +1416,3 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 | **AJO概觀報告** | 檢視您環境中所有行銷活動和歷程的流量及參與量度完整摘要。<p>**這可協助您**&#x200B;更清楚瞭解行銷活動和歷程的高階成效。 </p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如根據目標對象的參與度調整您的行銷活動和歷程。</p> |
 | **AJO訂閱** | 檢視與特定清單關聯的設定檔訂閱和取消訂閱。<p>**這可以幫助您**&#x200B;更加了解不同訂閱行銷活動和行動方案在提高參與度及轉換方面的有效性。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如根據目標對象的參與度調整您的訂閱行銷活動。</p> |
 
-
-<!-- deleted: 
-
-| [!UICONTROL **Real-Time**] | View the dimensions and metrics that are currently being collected on your site. <p>**This can help you** better understand what is trending on your site.</p><p>**Based on what you learn, you might** respond to and actively manage the performance of your current marketing content and campaigns.</p> <p>This template uses the [Real-time report](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md).</p> | 
-| [!UICONTROL **Fallout**] | View where people leave or continue through a predefined sequence of pages.<p>**This can help you** better understand where people are falling out of the user journey.</p><p>**Based on what you learn, you might** do any number of things, like analyze conversion rates through specific processes on your site (such as a purchase or registration process), or analyze correlations between events on your site. (For example, what percentage of people who looked at your privacy policy went on to purchase a product.) You can also use this template to perform side-by-side comparisons of two different segments in the same report.</p> <p>This template uses the [Fallout visualization](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).</p> | 
-| [!UICONTROL **Cross-device analysis**] | View which devices people used across all points of the journey.<p>**This can help you** better understand how many people interact with your brand, the types of devices they use, and how their use of multiple devices affects their experience. For example, how often do people begin a task on a mobile device and then later move to a desktop to complete a task? What are the most common paths users take from one device to another? Where do they drop out? Where do they succeed? And so forth.</p><p>**Based on what you learn, you might** do any number of things, like optimize certain parts of the user journey for a mobile experience.</p> <p>This template uses the [Flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md), [Fallout visualization](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md), [Cohort analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), [the People metric](/help/components/metrics/people.md), and [the Unique devices metric](/help/components/metrics/unique-devices.md).</p> |
-| [!UICONTROL **Web retention**] | View who your loyal users are and what they are doing on your site.<p>**This can help you** better understand the number of times the average person visits your site, the frequency with which people return to the site, and the number of days between return visits.</p><p>**Based on what you learn, you might** do any number of things, like analyze what content is most effective at bringing people back to the site.<p>This template uses the [Visits metric](/help/components/metrics/visits.md) and the [Unique visitors metric](/help/components/metrics/unique-visitors.md).</p> | 
-| [!UICONTROL **Streaming Media Consumption**] | View  trends and top metrics of media consumption across all digital devices.<p>**This can help you** better understand the number of times the average person visits your site, the frequency with which people return to the site, and the number of days between return visits.</p><p>**Based on what you learn, you might** do any number of things, like analyze what content is most effective at bringing people back to the site.<p>This template uses the [Visits metric](/help/components/metrics/visits.md) and the [Unique visitors metric](/help/components/metrics/unique-visitors.md).</p> | 
-
--->
-
-<!--
-
-Ignore below this 
-
-| Menu item | Reports under this menu item |
-| --- | --- | 
-| **[!UICONTROL Most Popular]** | <ul><li>Training Tutorial (Pre-existing Workspace template)</li><li>Pages (What are my top pages?)</li><li>Page views (How many page views am I generating?)</li><li>Visits (How many visits am I getting?)</li><li>Visitors (How many visitors am I getting?)</li><li>Key metrics (How are my most important metrics performing?)</li><li>Site sections (Which sections of my site generated the most page views?)</li><li>Real-Time (What is trending on my site, and why?)</li><li>Next page (What are the next pages my visitors go to?)</li><li>Previous page (What are the previous pages my visitors went to?)</li><li>Campaigns (What campaigns are driving my key metrics?)</li><li>Products (What products are driving my key metrics?)</li><li>Last touch channel (Which last touch channel is performing best?</li><li>Last touch channel detail (Which specific last touch channel is outperforming others?)</li><li>Revenue (How is my revenue performing?)</li><li>Orders (How are my orders performing?)</li><li>Units (How many units am I selling?)</li></ul> | 
-| **[!UICONTROL Engagement]** | <ul><li>Key metrics (How are my most important metrics performing?)</li><li>Page views (How many page views am I generating?)</li><li>Pages (What are my top pages?)</li><li>Visits (How many visits am I getting?)</li><li>Visitors (How many visitors am I getting?)</li><li>Time spent per visit (How much time do my users spend per visit?)</li><li>Time prior to event (How much time do my users spend prior to a success event?)</li><li>Site sections (Which sections of my site generated the most page views?</li><li>Web content consumption (Which content is consumed most and is engaging users?)</li><li>Media content consumption (Which content is consumed most and is engaging users?)</li><li>Next and previous page flow (What are/were the next/previous paths my visitors take/took?)</li><li>Fallout (Where am I seeing fallout through my digital properties?)</li><li>Cross-device analysis (Using cross-device analysis in Analysis Workspace)</li><li>Web retention (Who are my loyal users and what do they do?)</li><li>Media audio consumption (What are trends and top metrics of audio consumption?)</li><li>Media recency, frequency, loyalty (Who are my loyal readers?)</li><li>Page analysis > Reloads (Which pages generate the most reloads?)</li><li>Page analysis > Time spent on page (How much time do my users spend on my pages?)</li><li>Entries & exits > Entry pages (What are my top entry pages?)</li><li>Entries & exits > Original entry pages (What page did my visitor originally enter from?)</li><li>Entries & exits > Single-page visits (Which pages generated the most single-page visits?)</li><li>Entries & exits > Exit pages (What are my top exit pages?)</li><li>Page Analysis > Page summary</li></ul> |
-| **[!UICONTROL Conversion]** | <ul><li>Products > Products (Which products are driving my key metrics?)</li><li>Products > Product performance (Which products are performing best?)</li><li>Products > Categories (What are my best performing product categories?</li><li>Shopping cart > Carts (How many users added a product to cart?</li><li>Shopping cart > Cart views (How many times did my visitors view their carts?)</li><li>Shopping cart > Cart additions (How often are users adding a product to their cart?)</li><li>Shopping cart > Cart removals (How often are users removing a product from their cart?)</li><li>Purchases > Revenue (How is my revenue performing?)</li><li>Purchases > Orders (How are my orders performing?)</li><li>Purchases > Units (How many units am I selling?)</li><li>[Magento: marketing and commerce](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#commerce)</li></ul> |
-| **[!UICONTROL Audience]** |<ul><li>People metric (How many people are interacting with my brand?)</li><li>Visitor profile > Location overview (Which locations are driving the most usage among users)</li><li>Visitor profile > Geosegmentation > Geo Counties, Geo US States, Geo Regions, Geo Cities, Geo US DMA (Which geographies are my users visiting from?)</li><li>Visitor profile > Languages (Which language do my users prefer?)</li><li>Visitor profile > Time zones (Which time zones are my users visiting from?)</li><li>Visitor profile > Domains (Which ISPs are my visitors using to access my site?)</li><li>Visitor profile > Top level domains (Which domains are driving traffic to my site?)</li><li>Visitor profile > Technology > Technology overview (What technologies are people using to access my site?)</li><li>Visitor profile > Technology > Browsers, Browser type, Browser width, Browser height (Which company's browser, browser version, and its width and height, are people using to access my site?)</li><li>Visitor profile > Technology > Operating system, Operating system types (Which OS and which version of it do my visitors use?)</li><li>Visitor profile > Technology > Mobile carrier (Which mobile carriers do my visitors use to access my site?)</li><li>Visitor retention > Return frequency (How much time passes between my user's current visit and previous visits?)</li><li>Visitor retention > Return visits (How many of my visits are returning users?)</li><li>Visitor retention > Visit number (Which visit number bucket drives most of my key metrics)</li><li>Visitor retention > Sales cycle > Customer loyalty (Which loyalty segment do my users belong to?)</li><li>Visitor retention > Sales cycle > Days before first purchase (How many days passed between my users' first visit and their first purchase?)</li><li>Visitor retention > Sales cycle > Days since last purchase (How many days have passed between my users' current visit and their last purchase? )</li><li>Visitor retention > Mobile > Devices and Device types (Which devices and device types are my visitors using?)</li><li>Visitor retention > Mobile > Manufacturer (Which mobile device manufacturer do my visitors use?)</li><li>Visitor retention > Mobile > Screen size, Screen height, Screen width (Which mobile screen size/height/width do my visitors have?)</li><li>Visitor retention > Mobile > [Mobile app usage](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>Visitor retention > Mobile > [Mobile app journeys](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>Visitor retention > Mobile > [Mobile app metrics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>Visitor retention > Mobile > [Mobile app messaging](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>Visitor retention > Mobile > [Mobile app performance](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>Visitor retention > Mobile > [Mobile app retention](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li></ul> |
-| **[!UICONTROL Acquisition]** |<ul><li>Marketing channels > First touch channel, First touch channel detail (Which first touch channel, and which specific first touch channel is performing best?)</li><li>Marketing channels > First last channel, First last channel detail (Which last touch channel, and which specific last touch channel is performing best?)</li><li>Campaigns > Campaigns (Which campaigns are driving my key metrics?)</li><li>Campaigns > Campaign performance (What campaigns are driving the most revenue?)</li><li>Campaigns > Tracking code (Which campaign tracking codes perform the best?)</li><li>[Web acquisition](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#web)</li><li>[Mobile acquisition](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile)</li><li>[Advertising Analytics: paid search](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#advertising)</li><li>Search keywords - all, paid, natural (Which search keywords and paid/natural search keywords drive my key metrics the best?)</li><li>Search engines - all, paid, natural (Which search engines and paid/natural search engines drive my key metrics the best?)</li><li>All search page ranking (Which search page are my users visiting from?)</li><li>Referring domains (Which domains are driving traffic to my site?)</li><li>Original referring domains (What was the first domain users were on before visiting my site?)</li><li>Referrers (Which URLs were my users on before clicking through to my site?)</li><li>Referrer types (Which category do my referring URLs belong to?)</li></ul> |
-
--->
