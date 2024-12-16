@@ -4,10 +4,10 @@ title: 建置篩選器
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 8772f2dcd5f9c20ca9d366b8c172218f45e4713c
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 6%
+source-wordcount: '1494'
+ht-degree: 7%
 
 ---
 
@@ -21,6 +21,16 @@ ht-degree: 6%
 >abstract="客群可以透過篩選器建立，並與 Adobe Experience Platform 共用以進行啟用。"
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_components_filter_datapreview"
+>title="資料預覽"
+>abstract="將此篩選器的資料與資料檢視的資料進行比較。 預覽百分比是根據&#x200B;**最近90天**&#x200B;的資料檢視總數。<br><br/>如果預覽未載入，您的連線可能仍在回填。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 **[!UICONTROL 篩選器產生器]**&#x200B;對話方塊可用來建立新篩選器或編輯現有篩選器。 對話方塊的標題為&#x200B;**[!UICONTROL 新篩選器]**&#x200B;或&#x200B;**[!UICONTROL 編輯篩選器]**，篩選條件為您從[[!UICONTROL 篩選器]管理員](/help/components/filters/manage-filters.md)建立或管理的篩選器。
@@ -37,15 +47,15 @@ ht-degree: 6%
 
 >[!ENDTABS]
 
-1. 指定下列詳細資料（![必要](/help/assets/icons/Required.svg)為必要）：
+1. 指定以下詳細資料 (![Required](/help/assets/icons/Required.svg) 是必要的)：
 
    | 元素 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 資料視圖]** | 您可以選取篩選的資料檢視。  您定義的篩選器可在資料檢視的[設定](/help/data-views/create-dataview.md#settings-filters)索引標籤中作為篩選器使用。 |
+   | **[!UICONTROL 資料釋圖]** | 您可以選取篩選的資料檢視。  您定義的篩選器可在資料檢視的[設定](/help/data-views/create-dataview.md#settings-filters)索引標籤中作為篩選器使用。 |
    | **[!UICONTROL 僅限專案的篩選器]** | 資訊方塊，說明篩選僅會顯示在建立該篩選的專案中，且不會將該篩選新增至您的元件清單中。 啟用&#x200B;**[!UICONTROL 讓此篩選器可用於您的所有專案，並將其新增至您的元件清單]**&#x200B;以變更該設定。 只有當您使用[!UICONTROL 快速篩選]介面中的&#x200B;**[!UICONTROL 開啟產生器]**&#x200B;來建立[快速篩選](quick-filters.md)，並將快速篩選資訊轉換為一般篩選時，才會顯示此資訊方塊。 |
-   | **[!UICONTROL 標題]** ![必要](/help/assets/icons/Required.svg) | 為篩選器命名，例如`Last month mobile customers`。 |
+   | **[!UICONTROL 標題]**![Required](/help/assets/icons/Required.svg) | 為篩選器命名，例如`Last month mobile customers`。 |
    | **[!UICONTROL 說明]** | 提供篩選的說明，例如，`Filter to define the mobile customers for the last month`。 |
-   | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標籤來組織篩選器。 開始輸入以尋找現有可選取的標籤。 或按&#x200B;**[!UICONTROL ENTER]**&#x200B;以新增標籤。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標籤。 |
+   | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標籤來組織篩選器。 開始輸入內容以尋找您可以選取的現有標記。或按&#x200B;**[!UICONTROL ENTER]**&#x200B;以新增標籤。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
    | **[!UICONTROL 定義]** ![必要](/help/assets/icons/Required.svg) | 使用[定義產生器](#definition-builder)定義您的篩選器。 |
 
    {style="table-layout:auto"}

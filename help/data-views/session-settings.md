@@ -5,14 +5,26 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 8a56f6182b0679d64b9e4ad82402f414eeb88055
+source-git-commit: edd49ea60901acc0bb4ba603bbb9377aeee423fd
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 91%
 
 ---
 
-# 工作階段設定
+# 工作階段設定 {#session-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_dataview_settings_datapreview"
+>title="資料預覽"
+>abstract="將此篩選器的資料與連線的資料進行比較。 預覽百分比是根據&#x200B;**最近90天**&#x200B;的連線總數。<br><br/>如果預覽未載入，您的連線可能仍在回填。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-enable MD034 -->
+
 
 在 Customer Journey Analytics 中，您可以用任何方式定義工作階段，來配合人員與您所有數位體驗的互動方式。您可以在資料視圖中配置工作階段設定。
 
@@ -28,14 +40,14 @@ ht-degree: 100%
 
    1. 輸入「**[!UICONTROL 工作階段逾時]**」的值，以[!UICONTROL 分鐘]、[!UICONTROL 小時]、[!UICONTROL 天]或[!UICONTROL 週]為單位。工作階段逾時決定在開始新工作階段之前工作階段可以閒置 (沒有事件發生) 多少時間。
 
-      如果您有興趣分析大部份的線上互動情形，請使用較短的工作階段逾時 (例如 30 分鐘)。例如，分析那些瀏覽您線上商店產品頁面的個人資料，了解他們是否確實將產品加入其購物車或甚至已在線上購買。
+      如果您有興趣分析大部份的線上互動情形，請使用較短的工作階段逾時 (例如 30 分鐘)。例如，分析那些瀏覽您線上商店產品頁面的輪廓，了解他們是否確實將產品加入其購物車或購買。
 
       如果您要結合線上和離線資料，並希望分析購買您一種或多種產品的客戶，了解他們是否在購買後的前三個月內打電話給您的聯絡中心，請使用較長的工作階段逾時 (例如 3 個月)。
 
 
    2. 在「**[!UICONTROL 以量度啟動新工作階段]**」下的「**[!UICONTROL 在這裡放置量度]**」清單中選取一個量度。或者，您可以從左側窗格中將量度拖放到「**[!UICONTROL 放置量度欄位]**」。所選量度定義新工作階段開始。您可以定義多個量度。
 
-      您可以使用任何類型的量度來定義新工作階段。例如，您希望個人資料每次啟動您的行動應用程式時，就要定義一個新的工作階段。在「**[!UICONTROL 資料檢視]**>**[!UICONTROL 元件]**」中，您定義一個類型度量的元件，並將其命名為「**[!UICONTROL 啟動]**」(根據 **[!UICONTROL appInteraction]****[!UICONTROL 名稱]**&#x200B;結構欄位)。您進一步指定「**[!UICONTROL 啟動]**」量度元件僅限在值符合 `launch` 時才計算該值。
+      您可以使用任何類型的量度來定義新工作階段。例如，假設您希望輪廓每次啟動您的行動應用程式時定義一個新的工作階段。在「**[!UICONTROL 資料檢視]**>**[!UICONTROL 元件]**」中，您定義一個類型度量的元件，並將其命名為「**[!UICONTROL 啟動]**」(根據 **[!UICONTROL appInteraction]****[!UICONTROL 名稱]**&#x200B;結構欄位)。您進一步指定「**[!UICONTROL 啟動]**」量度元件僅限在值符合 `launch` 時才計算該值。
 
       ![應用程式互動量度元件啟動](assets/component-launches.png)
 
