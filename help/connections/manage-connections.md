@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3364'
 ht-degree: 14%
 
 ---
@@ -205,6 +205,46 @@ ht-degree: 14%
 
 
 ## 使用情況
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_keyusagemetrics"
+>title="關鍵使用量度"
+>abstract="提供核心和歷史可報告列的每月和總計資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_monthlyingestedrows"
+>title="每月攝取的列"
+>abstract="測量每月新增到系統的記錄總數，以提供有關資料增長和擷取率的深入分析。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_monthlyreportablerows"
+>title="每月可報告的列"
+>abstract="追蹤可用於報告的列數。 可報告列是擷取的列減去擷取期間略過和刪除的列。 可報告列可作為計費和資料使用的關鍵量度。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_detailbreakdown"
+>title="詳細資料劃分。"
+>abstract="您可以依連線、資料集、沙箱和標籤檢視詳細的量度，並可以選擇下載資料的CSV檔案。"
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 [!UICONTROL Usage]介面會顯示所有連線中擷取及可報告資料列的使用情形。 此介面可支援您判斷您的Customer Journey Analytics使用方式是否符合合約所議定的內容。 除了監控用途以外，您還可以使用使用情況UI來規劃Customer Journey Analytics授權續約。
 

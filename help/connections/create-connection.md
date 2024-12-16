@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 7b51f9c0699a07051936e6e6ca493688d59e624e
+source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
 workflow-type: tm+mt
-source-wordcount: '3747'
-ht-degree: 98%
+source-wordcount: '3769'
+ht-degree: 97%
 
 ---
 
@@ -204,8 +204,6 @@ ht-degree: 98%
 
 <!-- markdownlint-enable MD034 -->
 
-
-
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
@@ -232,6 +230,16 @@ ht-degree: 98%
 >abstract="此選項將會轉換資料集，使其可用於 B2B 情境中基於人員的查詢。一旦開啟，資料集的轉換是不可逆的。"
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_connectionmap"
+>title="連線圖"
+>abstract="連線對應會將事件、人員、帳戶和相關查詢資料集（例如商機、促銷活動成員等）之間的關係視覺化。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 當您建立連線時，新工作流程可讓您新增 Experience Platform 資料集。
 
