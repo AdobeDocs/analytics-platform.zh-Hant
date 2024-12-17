@@ -6,9 +6,9 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
+source-git-commit: 94d3c5352d00269b760e8b7bdf5059eaaa9b0bd3
 workflow-type: tm+mt
-source-wordcount: '3364'
+source-wordcount: '3418'
 ht-degree: 14%
 
 ---
@@ -243,6 +243,25 @@ ht-degree: 14%
 >abstract="您可以依連線、資料集、沙箱和標籤檢視詳細的量度，並可以選擇下載資料的CSV檔案。"
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_otherdatasets"
+>title="其他資料集"
+>abstract="在2024年9月之前的幾個月中，資料會在資料集層級收集，並顯示為&#x200B;*其他資料集*&#x200B;以清楚說明。 從2024年9月開始，資料會在精細資料集層級收集，且&#x200B;*其他資料集*&#x200B;將不再出現。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_unknowndatasetsorconnections"
+>title="未知的資料集或連線"
+>abstract="使用其ID顯示未知的資料集或連線。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 
