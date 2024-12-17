@@ -4,7 +4,7 @@ description: 計算量度產生器可讓您套用統計和數學函數，以建�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2b6d7ba695390bd084fb3af7b5fa365f0bd90185
+source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 93%
@@ -191,7 +191,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_funcion_median"
+>id="calcmetrics_function_median"
 >title="中間值"
 >abstract="傳回一欄中量度的中位數。中位數是一組數字中間的數字。 也就是說，一半數字的值大於或等於中位數，而另一半則小於或等於中位數。"
 
@@ -426,7 +426,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_funcion_square_root"
+>id="calcmetrics_function_square_root"
 >title="平方根"
 >abstract="傳回數字的正平方根。數字的平方根是該數字的 1/2 乘冪值。"
 
