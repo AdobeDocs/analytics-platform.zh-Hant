@@ -4,10 +4,10 @@ description: 計算量度產生器可讓您套用統計和數學函數，以建�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
-workflow-type: ht
-source-wordcount: '1185'
-ht-degree: 100%
+source-git-commit: 2b6d7ba695390bd084fb3af7b5fa365f0bd90185
+workflow-type: tm+mt
+source-wordcount: '1636'
+ht-degree: 93%
 
 ---
 
@@ -38,7 +38,17 @@ ht-degree: 100%
 
 
 
-## 絕對值
+## 絕對值 {#absolute-value}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_absolute_value"
+>title="絕對值"
+>abstract="傳回數字的絕對值。數字的絕對值是正值的數字。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 絕對值 (量度)]**
 
@@ -49,7 +59,16 @@ ht-degree: 100%
 | 量度 | 您要計算其絕對值的量度。 |
 
 
-## 欄最大值
+## 欄最大值 {#column-maximum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_maximum"
+>title="欄最大值"
+>abstract="傳回量度欄中一組維度元素的最大值。MAXV 會垂直評估單一欄 (量度) 中的維度元素。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄最大值 (量度，包括零)]**
 
@@ -61,7 +80,17 @@ ht-degree: 100%
 | 包括零 | 計算中是否包括零值。 |
 
 
-## 欄最小值
+## 欄最小值 {#column-minimum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_minimum"
+>title="欄最小值"
+>abstract="傳回量度欄中一組維度元素的最小值。MINV 會垂直評估單一欄 (量度) 中的維度元素。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄最小值 (量度，包括零)]**
 
@@ -73,7 +102,17 @@ ht-degree: 100%
 | 包括零 | 計算中是否包括零值。 |
 
 
-## 欄總和
+## 欄總和 {#column-sum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_column_sum"
+>title="欄總和"
+>abstract="將一欄中量度的所有數值 (所有維度元素) 相加。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄總和 (量度)]**
 
@@ -84,7 +123,17 @@ ht-degree: 100%
 | 量度 | 需要至少一個量度，但可以採用任意數量的量度作為參數。 |
 
 
-## 計數
+## 計數 {#count}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_count"
+>title="計數"
+>abstract="傳回一欄中量度的非零值數目 (或計數) (在一個維度中報告的獨特元素數目)。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 計數 (量度)]**
 
@@ -95,7 +144,16 @@ ht-degree: 100%
 | 量度 | 您想計數的量度。 |
 
 
-## 指數
+## 指數 {#exponent}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_exponent"
+>title="指數"
+>abstract="傳回給定數字的 e 乘冪。常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT是LN的反值，LN是數字的自然對數。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 指數 (量度)]**
 
@@ -106,7 +164,17 @@ ht-degree: 100%
 | 量度 | 套用至底數 e 的指數。 |
 
 
-## 平均值
+## 平均值 {#mean}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_mean"
+>title="平均值"
+>abstract="傳回欄中量度的算術平均值或平均值"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平均值 (量度，包括零)]**
 
@@ -118,7 +186,17 @@ ht-degree: 100%
 | 包括零 | 計算中是否包括零值。 |
 
 
-## 中間值
+## 中間值 {#median}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_funcion_median"
+>title="中間值"
+>abstract="傳回一欄中量度的中位數。中位數是一組數字中間的數字。 也就是說，一半數字的值大於或等於中位數，而另一半則小於或等於中位數。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 中間值 (量度，包括零)]**
 
@@ -130,7 +208,17 @@ ht-degree: 100%
 | 包括零 | 計算中是否包括零值。 |
 
 
-## 模數
+## 模數 {#modulo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_modulo"
+>title="模數"
+>abstract="傳回使用歐幾里德輾轉相除法將 x 除以 y 後的餘數。 "
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 模數 (metric_X、metric_Y)]**
 
@@ -157,7 +245,17 @@ MODULO(-3,3) = 0
 MODULO(MODULO(x,y)+y,y)
 ```
 
-## 百分位數
+## 百分位數 {#percentile}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_percentile"
+>title="百分位數"
+>abstract="傳回第n個百分位數，該值介於0到100之間。 當n &lt; 0時，函式使用零。 當n > 100時，函式傳回100。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 百分位數 (量度，k，包括零)]**
 
@@ -171,7 +269,16 @@ MODULO(MODULO(x,y)+y,y)
 
 
 
-## 乘冪運算子
+## 乘冪運算子 {#power-operator}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_power_operator"
+>title="乘冪運算子"
+>abstract="傳回 x 的 y 次方。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 乘冪運算子 (metric_X、metrix_Y)]**
 
@@ -183,7 +290,17 @@ MODULO(MODULO(x,y)+y,y)
 | metric_Y | 您想要將 metric_X 作為底數要連乘的次方。 |
 
 
-## 四分位數
+## 四分位數 {#quartile}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_quartile"
+>title="四分位數"
+>abstract="傳回量度值的四分位數。例如，四分位數可用來尋找創造最多收入的前25%產品。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 四分位數 (量度、四分位數、包括零)]**
 
@@ -196,7 +313,16 @@ MODULO(MODULO(x,y)+y,y)
 | 包括零 | 計算中是否包括零值。 |
 
 
-## 四捨五入
+## 四捨五入 {#round}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_round"
+>title="四捨五入"
+>abstract="沒有&#x200B;*數值*&#x200B;參數的四捨五入值等於&#x200B;*數值*&#x200B;參數為 0 的四捨五入值，也就是四捨五入到最接近的整數。具有&#x200B;*數值*&#x200B;參數時，則會在小數點右側傳回與&#x200B;*數值*&#x200B;一樣多的小數位數。如果&#x200B;*數值*&#x200B;為負，則會在小數點左側傳回 0。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 四捨五入 (量度，數值)]**
 
@@ -216,15 +342,32 @@ ROUND( 314.15, -1) = 310
 ROUND( 314.15, -2) = 300
 ```
 
+## 列計數 {#row-count}
 
-## 列計數
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_count"
+>title="列計數"
+>abstract="傳回指定欄的列計數 (維度中報告的唯一元素數)。*「超出唯一值*」計為 1。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列計數 ()]**
 
 傳回指定欄的列計數 (維度中報告的唯一元素數)。*「超出唯一值*」計為 1。
 
 
-## 列最大值
+## 列最大值 {#row-max}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_max"
+>title="列最大值"
+>abstract="每一列的欄最大值。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列最大值 (量度，包括零)]**
 
@@ -235,7 +378,17 @@ ROUND( 314.15, -2) = 300
 | 量度 | 需要至少一個量度，但可以採用任意數量的量度作為參數。 |
 | 包括零 | 計算中是否包括零值。 |
 
-## 列最小值
+
+## 列最小值 {#row-min}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_min"
+>title="列最小值"
+>abstract="每一列的欄最小值。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列最小值 (量度，包括零)]**
 
@@ -248,7 +401,16 @@ ROUND( 314.15, -2) = 300
 
 
 
-## 列總和
+## 列總和 {#row-sum}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_row_sum"
+>title="列總和"
+>abstract="每一列的欄總和。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列總和 (量度，包括零)]**
 
@@ -259,7 +421,17 @@ ROUND( 314.15, -2) = 300
 | 量度 | 需要至少一個量度，但可以採用任意數量的量度作為參數。 |
 
 
-## 平方根
+## 平方根 {#square-root}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_funcion_square_root"
+>title="平方根"
+>abstract="傳回數字的正平方根。數字的平方根是該數字的 1/2 乘冪值。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平方根 (量度，包括零)]**
 
@@ -270,7 +442,16 @@ ROUND( 314.15, -2) = 300
 | 量度 | 您要計算其平方根的量度。 |
 
 
-## 標準差
+## 標準差 {#standard-deviation}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_standard_deviation"
+>title="標準差"
+>abstract="根據一組資料樣本，傳回標準差 (或變異數的平方根)。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 標準差 (量度，包括零)]**
 
@@ -282,7 +463,16 @@ ROUND( 314.15, -2) = 300
 | 包括零 | 計算中是否包括零值。 |
 
 
-## 變數
+## 變數 {#variance}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="calcmetrics_function_variance"
+>title="變數"
+>abstract="根據一組資料樣本，傳回變異數。"
+
+<!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 變數 (量度，包括零)]**
 
@@ -320,9 +510,6 @@ ROUND( 314.15, -2) = 300
 | 3 |
 
 欄平均值為 2。欄的變數為 ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3) = 2/3。
-
-
-
 
 <!--
 
