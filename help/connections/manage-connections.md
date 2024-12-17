@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 94d3c5352d00269b760e8b7bdf5059eaaa9b0bd3
+source-git-commit: 0b6a84820dc42b5e5009eaa254e5554712a952aa
 workflow-type: tm+mt
-source-wordcount: '3418'
-ht-degree: 14%
+source-wordcount: '3536'
+ht-degree: 13%
 
 ---
 
@@ -262,7 +262,32 @@ ht-degree: 14%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
 
+>[!CONTEXTUALHELP]
+>id="cja_connections_usage_datanotavailable"
+>title="資料不可用"
+>abstract="由於系統限制，2024年9月前的歷史資料無法使用。 自2024年9月起，系統會收集並顯示量度。 圖表顯示時間軸上的過去18個月，當資料可供使用時，將會顯示未來的資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_corereportablerows"
+>title="核心可報告列數"
+>abstract="顯示過去13個月可用的列總數。 例如，在2024年2月1日，數字會顯示從2023年1月到2024年1月具有事件時間戳記的總可用列數。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_historicalreportablerows"
+>title="歷史可報告列數"
+>abstract="顯示超過13個月期間的可用列總數。 例如，在2024年2月1日，該數字顯示事件時間戳記早於2023年1月的可用總列數。"
+
+<!-- markdownlint-enable MD034 -->
 
 
 [!UICONTROL Usage]介面會顯示所有連線中擷取及可報告資料列的使用情形。 此介面可支援您判斷您的Customer Journey Analytics使用方式是否符合合約所議定的內容。 除了監控用途以外，您還可以使用使用情況UI來規劃Customer Journey Analytics授權續約。
