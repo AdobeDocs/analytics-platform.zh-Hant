@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 3ae10f81cb38500c035811542bc761f06688a130
+source-git-commit: 34b94eeeeb501f6c0deb982351b7c65e0a97bc68
 workflow-type: tm+mt
-source-wordcount: '17969'
+source-wordcount: '18106'
 ht-degree: 81%
 
 ---
@@ -1347,6 +1347,24 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 | **線上/離線** | 同時檢視線上和離線流量。<p>**這可以幫助您**&#x200B;更加了解您網站的線上和離線流量分佈。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如當達到一定的流量時，投入更多資源在您的線上體驗上。</p><!-- This template uses the ... --> |
 
 ### 其他管道 {#other-channels}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--pointOfSale"
+>title="檢視銷售點(POS)交易資料，包括收入、已下訂單和售出件數。 此範本也包含顯示熱門商店、熱門產品和熱門產品類別，以及線上與離線銷售相關資訊的視覺效果。"
+>abstract="**這可協助您**&#x200B;更清楚瞭解哪些是您各商店位置和線上最暢銷的產品。<br/>**根據您瞭解的情況，您可能**&#x200B;會執行許多操作，例如為績效最高的產品和管道指派更多行銷資源。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-template--survey"
+>title="檢視調查的使用者參與。 檢視開始和完成的數目、最常見的問題和回答，以及首次與重複參與者的數目。"
+>abstract="**這可協助您**&#x200B;更瞭解您調查的參與層級和成功率。<br/>**根據您所學到的內容，您可能**&#x200B;會做許多事情，例如調整未來的調查，以產生更好的參與率。"
+
+<!-- markdownlint-enable MD034 -->
 
 下列範本可供使用：
 
