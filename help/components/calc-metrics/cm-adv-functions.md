@@ -4,7 +4,7 @@ description: 勾選函數下拉式清單中的顯示進階即可存取這些函�
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
+source-git-commit: 30fd026a948eab62b034033b4163d3e2b27c47c3
 workflow-type: tm+mt
 source-wordcount: '4438'
 ht-degree: 31%
@@ -37,7 +37,7 @@ ht-degree: 31%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_and"
+>id="functions-and"
 >title="和"
 >abstract="結合。 不等於零則視為true，等於零則視為false。 輸出為0 (false)或1 (true)。"
 
@@ -57,7 +57,7 @@ ht-degree: 31%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_approximate_count_distinct"
+>id="functions-count-distinct-metric"
 >title="近似計數相異"
 >abstract="針對選取的維度，傳回維度項目的近似相異計數。"
 
@@ -84,7 +84,7 @@ ht-degree: 31%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_cosine"
+>id="functions-acos"
 >title="反餘弦"
 >abstract="傳回量度的反餘弦 (或餘弦的反函數)。反餘弦是一種角度，其餘弦是數字。傳回的角度是限制在 0 (零) 到 pi 的弧度。如果要將結果從弧度轉換為度，請將其乘以180/PI()。"
 
@@ -107,7 +107,7 @@ ht-degree: 31%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_sine"
+>id="functions-asin"
 >title="反正弦"
 >abstract="傳回數字的反正弦。反正弦是正弦是數字的角度。 傳回的角度是限制在 -pi/2 到 pi/2 的弧度。若要以角度表示反正弦，請將結果乘以180/PI()"
 
@@ -130,7 +130,7 @@ ht-degree: 31%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_arc_tangent"
+>id="functions-atan"
 >title="反正切"
 >abstract="傳回數字的反正切。反正切是切線為數字的角度。 傳回的角度是限制在 -pi/2 到 pi/2 的弧度。若要以角度表示反正切，則將結果乘以180/PI()。"
 
@@ -153,7 +153,7 @@ ht-degree: 31%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cdf_t"
+>id="functions-cdf-t"
 >title="Cdf-T"
 >abstract="傳回自由度為n的學生t分佈中，隨機變數的z分數小於col的機率。"
 
@@ -184,7 +184,7 @@ CDF-T(x, ∞) ? cdf_z(x)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cdf_z"
+>id="functions-cdf-z"
 >title="Cdf-Z"
 >abstract="傳回常態分佈之隨機變數的z分數小於col的機率。"
 
@@ -213,7 +213,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_ceiling"
+>id="functions-ceil"
 >title="上限"
 >abstract="傳回不小於給定值的最小整數。例如，如果您不想報表中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 可將收入無條件進位至最接近的美金 $570。"
 
@@ -233,7 +233,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence"
+>id="functions-waskr-confidence"
 >title="信賴度"
 >abstract="使用WASKR方法計算隨時有效的信賴度，如[時間統一中心限制理論和漸近信賴序列](https://arxiv.org/pdf/2103.06476)中所述。"
 
@@ -258,7 +258,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence_lower"
+>id="functions-waskr-confidence-interval-lower"
 >title="信賴度 (下限)"
 >abstract="使用WASKR方法計算隨時有效的信賴度&#x200B;**下限**，如[時間統一中心限制理論和漸近信賴序列](https://arxiv.org/pdf/2103.06476)中所述。"
 
@@ -282,7 +282,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_confidence_upper"
+>id="functions-waskr-confidence-interval-upper"
 >title="信賴度 (上限)"
 >abstract="使用WASKR方法計算隨時有效的信賴度&#x200B;**上限**，如[時間統一中心限制理論和漸近信賴序列](https://arxiv.org/pdf/2103.06476)中所述。"
 
@@ -307,7 +307,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cosine"
+>id="functions-cos"
 >title="餘弦"
 >abstract="傳回給定角度的餘弦。如果角度以度為單位，則將角度乘以PI()/180。"
 
@@ -327,7 +327,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cube_root"
+>id="functions-cube-root"
 >title="立方根"
 >abstract="傳回數字的正立方根。數字的立方根是該數字的 1/3 乘冪值。"
 
@@ -350,7 +350,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cumulative"
+>id="functions-cumul"
 >title="累積"
 >abstract="傳回x欄最後n個元素的總和。如果n > 0，則會加總最後n個元素或x。如果n &lt; 0，則加總前面的元素。"
 
@@ -379,7 +379,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_cumulative_average"
+>id="functions-cumul-avg"
 >title="累積（平均）"
 >abstract="傳回欄x最後n個元素的平均值。如果n > 0，則會加總最後n個元素或x。如果n &lt; 0，則加總前面的元素。"
 
@@ -405,7 +405,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_equal"
+>id="functions-eq"
 >title="等於"
 >abstract="等於。 輸出為0 (false)或1 (true)。"
 
@@ -431,7 +431,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_correlation_coefficient"
+>id="functions-ls-corr-exp"
 >title="指數回歸：相關係數"
 >abstract="指數迴歸：Y = a exp(X) + b。傳回相關係數。"
 
@@ -454,7 +454,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_predicted_y"
+>id="functions-ls-pred-exp"
 >title="指數回歸：預計Y"
 >abstract="指數迴歸：Y = a exp(X) + b。傳回 Y。"
 
@@ -478,7 +478,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_intercept"
+>id="functions-ls-intercept-exp"
 >title="指數回歸：截距"
 >abstract="指數迴歸：Y = a exp(X) + b。傳回 b。"
 
@@ -501,7 +501,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponential_regression_slope"
+>id="functions-ls-slope-exp"
 >title="指數回歸：斜率"
 >abstract="指數迴歸：Y = a exp(X) + b。傳回 a。"
 
@@ -525,7 +525,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_floor"
+>id="functions-floor"
 >title="Floor"
 >abstract="傳回不大於給定值的最大整數。例如，如果您不想報表中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 可將收入無條件捨去至最接近的美金 $569。"
 
@@ -545,7 +545,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_greater_than"
+>id="functions-gt"
 >title="大於"
 >abstract="輸出為0 (false)或1 (true)。"
 
@@ -570,7 +570,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_greater_than_or_equal"
+>id="functions-ge"
 >title="大於或等於"
 >abstract="大於或等於。 輸出為0 (false)或1 (true)。"
 
@@ -596,7 +596,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_cosine"
+>id="functions-cosh"
 >title="雙曲餘弦"
 >abstract="傳回數字的雙曲餘弦。"
 
@@ -619,7 +619,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_sine"
+>id="functions-sinh"
 >title="雙曲正弦"
 >abstract="傳回數字的雙曲正弦。"
 
@@ -639,7 +639,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_hyperbolic_tangent"
+>id="functions-tanh"
 >title="雙曲正切"
 >abstract="傳回數字的雙曲正切。"
 
@@ -659,7 +659,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_if"
+>id="functions-if"
 >title="若  "
 >abstract="如果條件引數的值不是零(true)，則結果為value_if_true引數的值。 否則，它是value_if_false引數的值。"
 
@@ -683,7 +683,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_less_than"
+>id="functions-lt"
 >title="小於"
 >abstract="輸出為0 (false)或1 (true)。"
 
@@ -708,7 +708,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_less_than_or_equal"
+>id="functions-le"
 >title="小於或等於"
 >abstract="小於或等於。 輸出為0 (false)或1 (true)。"
 
@@ -734,7 +734,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_lift"
+>id="functions-waskr-lift"
 >title="提升度"
 >abstract="與控制值相比的提升率。"
 
@@ -753,7 +753,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_correlation_coefficient"
+>id="functions-ls-corr-linear"
 >title="線性回歸：相關係數"
 >abstract="線性回歸：Y = a X + b。傳回相關係數。"
 
@@ -778,7 +778,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_intercept"
+>id="functions-ls-intercept-linear"
 >title="線性回歸：截距"
 >abstract="線性迴歸：Y = a X + b。傳回 b。"
 
@@ -803,7 +803,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_predicted_y"
+>id="functions-ls-pred-linear"
 >title="線性回歸：預計Y"
 >abstract="線性迴歸：Y = a X + b。傳回 Y。"
 
@@ -828,7 +828,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_linear_regression_slope"
+>id="functions-ls-slope-linear"
 >title="線性回歸：斜率"
 >abstract="線性迴歸：Y = a X + b。傳回 a。"
 
@@ -850,7 +850,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_base_ten"
+>id="functions-log10"
 >title="以10為底的對數"
 >abstract="傳回數字的以 10 為底的對數。"
 
@@ -872,7 +872,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_coefficient"
+>id="functions-ls-corr-log"
 >title="對數回歸：相關係數"
 >abstract="對數迴歸：Y = a ln(X) + b。傳回相關係數。"
 
@@ -894,7 +894,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_intercept"
+>id="functions-ls-intercept-log"
 >title="對數回歸：截距"
 >abstract="對數迴歸：Y = a ln(X) + b。傳回 b。"
 
@@ -917,7 +917,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_predicted_y"
+>id="functions-ls-pred-log"
 >title="對數回歸：預計Y"
 >abstract="對數迴歸：Y = a ln(X) + b。傳回 Y。"
 
@@ -940,7 +940,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_log_regression_slope"
+>id="functions-ls-slope-log"
 >title="對數回歸：斜率"
 >abstract="對數迴歸：Y = a ln(X) + b。傳回 a。"
 
@@ -963,7 +963,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_natural_log"
+>id="functions-log"
 >title="自然對數"
 >abstract="傳回數字的自然對數。自然對數是以常數 e (2.71828182845904) 為底數。LN 是 EXP 函數的反函數。"
 
@@ -984,7 +984,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_not"
+>id="functions-not"
 >title="Not"
 >abstract="否定是一種布林值。 輸出為0 (false)或1 (true)。"
 
@@ -1005,7 +1005,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_not_equal"
+>id="functions-ne"
 >title="不等於"
 >abstract="不等於。 輸出為0 (false)或1 (true)。"
 
@@ -1032,7 +1032,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_or"
+>id="functions-or"
 >title="或"
 >abstract="分離。 不等於零則視為true，等於零則視為false。 輸出為0 (false)或1 (true)。"
 
@@ -1059,7 +1059,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_pi"
+>id="functions-pi"
 >title="Pi"
 >abstract="傳回 Pi：3.14159..."
 
@@ -1075,7 +1075,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_correlation_coefficient"
+>id="functions-ls-corr-power"
 >title="乘冪回歸：相關係數"
 >abstract="乘冪迴歸：Y = b X ^ a。傳回相關係數。"
 
@@ -1098,7 +1098,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_intercept"
+>id="functions-ls-intercept-power"
 >title="乘冪回歸：截距"
 >abstract="乘冪迴歸：Y = b X ^ a。傳回 b。"
 
@@ -1122,7 +1122,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_predicted_y"
+>id="functions-ls-pred-power"
 >title="乘冪回歸：預計Y"
 >abstract="乘冪迴歸：Y = b X ^ a。傳回 Y。"
 
@@ -1145,7 +1145,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_regression_slope"
+>id="functions-ls-slope-power"
 >title="乘冪回歸：斜率"
 >abstract="乘冪迴歸：Y = b X ^ a。傳回 a。"
 
@@ -1168,7 +1168,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_correlation_coefficient"
+>id="functions-ls-corr-quadratic"
 >title="二次回歸：相關係數"
 >abstract="二次回歸：Y = (a + bX) ^ 2。傳回相關係數。"
 
@@ -1189,7 +1189,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_intercept"
+>id="functions-ls-intercept-quadratic"
 >title="二次回歸：截距"
 >abstract="二次回歸：Y = (a + bX) ^ 2。傳回a。"
 
@@ -1211,7 +1211,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_predicted_y"
+>id="functions-ls-pred-quadratic"
 >title="二次回歸：預計Y"
 >abstract="二次回歸：Y = (a + bX) ^ 2。傳回Y。"
 
@@ -1233,7 +1233,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quadratic_regression_slope"
+>id="functions-ls-slope-quadratic"
 >title="二次回歸：斜率"
 >abstract="二次回歸：Y = (a + bX) ^ 2。傳回b。"
 
@@ -1256,7 +1256,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_correlation_coefficient"
+>id="functions-ls-corr-reciprocal"
 >title="倒數回歸：相關係數"
 >abstract="倒數迴歸：Y = a + b X ^ -1。傳回相關係數。"
 
@@ -1278,7 +1278,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_intercept"
+>id="functions-ls-intercept-reciprocal"
 >title="倒數回歸：截距"
 >abstract="倒數回歸：Y = a + b X ^ -1。 傳回。"
 
@@ -1300,7 +1300,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_predicted_y"
+>id="functions-ls-pred-reciprocal"
 >title="倒數回歸：預計Y"
 >abstract="倒數迴歸：Y = a + b X ^ -1。傳回 Y。"
 
@@ -1322,7 +1322,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_reciprocal_regression_slope"
+>id="functions-ls-slope-reciprocal"
 >title="倒數回歸：斜率"
 >abstract="倒數回歸：Y = a + b X ^ -1。 傳回b。"
 
@@ -1346,7 +1346,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_sine"
+>id="functions-sin"
 >title="正弦"
 >abstract="傳回給定角度的正弦。如果角度以度為單位，則將角度乘以PI()/180。"
 
@@ -1370,7 +1370,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_t_score"
+>id="functions-t-score"
 >title="T 分數"
 >abstract="[MEAN](cm-functions.md#mean)的偏差除以標準差。 [Z分數](#z-score)的別名。"
 
@@ -1391,7 +1391,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_t_test"
+>id="functions-t-test"
 >title="T 檢定"
 >abstract="執行m尾t檢定，x為t分數，n為自由度。"
 
@@ -1438,7 +1438,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_tangent"
+>id="functions-tan"
 >title="正切"
 >abstract="傳回給定角度的正切。如果角度以度為單位，則將角度乘以PI()/180。"
 
@@ -1459,7 +1459,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_z_score"
+>id="functions-z-score"
 >title="Z分數"
 >abstract="平均值偏差除以標準差。"
 
@@ -1493,7 +1493,7 @@ Z 分數的方程式為：
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_z_test"
+>id="functions-z-test"
 >title="Z 檢定"
 >abstract="執行n尾z檢定，z分數為x。"
 

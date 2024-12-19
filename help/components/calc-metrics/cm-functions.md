@@ -4,7 +4,7 @@ description: 計算量度產生器可讓您套用統計和數學函數，以建�
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 1804f3dc4126007c1ff553f844d691c80623bb90
+source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 93%
@@ -43,7 +43,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_absolute_value"
+>id="functions-abs"
 >title="絕對值"
 >abstract="傳回數字的絕對值。數字的絕對值是正值的數字。"
 
@@ -64,7 +64,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_maximum"
+>id="functions-col-max"
 >title="欄最大值"
 >abstract="傳回量度欄中一組維度元素的最大值。MAXV 會垂直評估單一欄 (量度) 中的維度元素。"
 
@@ -85,7 +85,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_minimum"
+>id="functions-col-min"
 >title="欄最小值"
 >abstract="傳回量度欄中一組維度元素的最小值。MINV 會垂直評估單一欄 (量度) 中的維度元素。"
 
@@ -107,7 +107,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_column_sum"
+>id="functions-col-sum"
 >title="欄總和"
 >abstract="將一欄中量度的所有數值 (所有維度元素) 相加。"
 
@@ -128,7 +128,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_count"
+>id="functions-count"
 >title="計數"
 >abstract="傳回一欄中量度的非零值數目 (或計數) (在一個維度中報告的獨特元素數目)。"
 
@@ -149,7 +149,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_exponent"
+>id="functions-exp"
 >title="指數"
 >abstract="傳回給定數字的 e 乘冪。常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT是LN的反值，LN是數字的自然對數。"
 
@@ -169,7 +169,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_mean"
+>id="functions-mean"
 >title="平均值"
 >abstract="傳回欄中量度的算術平均值或平均值"
 
@@ -191,7 +191,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_median"
+>id="functions-median"
 >title="中間值"
 >abstract="傳回一欄中量度的中位數。中位數是一組數字中間的數字。 也就是說，一半數字的值大於或等於中位數，而另一半則小於或等於中位數。"
 
@@ -213,7 +213,7 @@ ht-degree: 93%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_modulo"
+>id="functions-modulo"
 >title="模數"
 >abstract="傳回使用歐幾里德輾轉相除法將 x 除以 y 後的餘數。 "
 
@@ -250,7 +250,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_percentile"
+>id="functions-percentile"
 >title="百分位數"
 >abstract="傳回第n個百分位數，該值介於0到100之間。 當n &lt; 0時，函式使用零。 當n > 100時，函式傳回100。"
 
@@ -274,7 +274,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_power_operator"
+>id="functions-pow"
 >title="乘冪運算子"
 >abstract="傳回 x 的 y 次方。"
 
@@ -295,7 +295,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_quartile"
+>id="functions-quartile"
 >title="四分位數"
 >abstract="傳回量度值的四分位數。例如，四分位數可用來尋找創造最多收入的前25%產品。"
 
@@ -318,7 +318,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_round"
+>id="functions-round"
 >title="四捨五入"
 >abstract="沒有&#x200B;*數值*&#x200B;參數的四捨五入值等於&#x200B;*數值*&#x200B;參數為 0 的四捨五入值，也就是四捨五入到最接近的整數。具有&#x200B;*數值*&#x200B;參數時，則會在小數點右側傳回與&#x200B;*數值*&#x200B;一樣多的小數位數。如果&#x200B;*數值*&#x200B;為負，則會在小數點左側傳回 0。"
 
@@ -347,7 +347,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_count"
+>id="functions-count-rows"
 >title="列計數"
 >abstract="傳回指定欄的列計數 (維度中報告的唯一元素數)。*「超出唯一值*」計為 1。"
 
@@ -363,7 +363,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_max"
+>id="functions-row-max"
 >title="列最大值"
 >abstract="每一列的欄最大值。"
 
@@ -384,7 +384,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_min"
+>id="functions-row-min"
 >title="列最小值"
 >abstract="每一列的欄最小值。"
 
@@ -406,7 +406,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_row_sum"
+>id="functions-row-sum"
 >title="列總和"
 >abstract="每一列的欄總和。"
 
@@ -426,7 +426,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_square_root"
+>id="functions-sqrt"
 >title="平方根"
 >abstract="傳回數字的正平方根。數字的平方根是該數字的 1/2 乘冪值。"
 
@@ -447,7 +447,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_standard_deviation"
+>id="functions-stdev"
 >title="標準差"
 >abstract="根據一組資料樣本，傳回標準差 (或變異數的平方根)。"
 
@@ -468,7 +468,7 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="calcmetrics_function_variance"
+>id="functions-variance"
 >title="變數"
 >abstract="根據一組資料樣本，傳回變異數。"
 
