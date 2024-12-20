@@ -6,9 +6,9 @@ feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
 source-git-commit: edd49ea60901acc0bb4ba603bbb9377aeee423fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_settings_datapreview"
 >title="資料預覽"
->abstract="將此篩選器的資料與連線的資料進行比較。 預覽百分比是根據&#x200B;**最近90天**&#x200B;的連線總數。<br><br/>如果預覽未載入，您的連線可能仍在回填。"
+>abstract="將此篩選器的資料與連線的資料進行比較。此預覽百分比是根據連線中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3769'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -235,8 +235,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_connectionmap"
->title="連線圖"
->abstract="連線對應會將事件、人員、帳戶和相關查詢資料集（例如商機、促銷活動成員等）之間的關係視覺化。"
+>title="連接圖"
+>abstract="連接圖會以視覺化方式顯示事件、人員、帳戶和相關查詢資料集 (如機會、行銷活動成員等) 之間的關係。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -318,7 +318,7 @@ ht-degree: 97%
 | 資料集類型 | 說明 | 時間戳記 | 綱要 | 人員 ID |
 |---|---|---|---|---|
 | **[!UICONTROL 事件]** | 代表及時事件的資料。例如網站造訪、互動、交易、POS 資料、調查資料、廣告印象資料等。該資料可能是典型的點按資料流資料，包含客戶 ID 或 Cookie ID 以及時間戳記。若使用事件資料，您可以靈活地選取要將哪個 ID 當做人員 ID 使用。 | 系統會自動設定為 [!UICONTROL Experience Platform] 中，以事件為基礎的綱要之預設時間戳記欄位。 | 任何以具有「時間系列」行為的 XDM 類別為依據的內建或自訂結構。 例如「XDM 體驗事件」或「XDM 決策事件」。 | 您可以挑選要包含的人員 ID。 在 Experience Platform 中定義的每個資料集綱要，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分識別。任何一個身分識別碼都可當做人員 ID 使用。範例包括 Cookie ID、彙整 ID、使用者 ID、追蹤程式碼等。 |
-| **[!UICONTROL 查詢]** | 您可以新增資料集做為所有資料集類型中的查詢欄位：輪廓、查詢和事件資料集 (始終支援後者)。這項附加功能擴展了 Customer Journey Analytics 的功能，以支援複雜的資料模型，包括 B2B。此資料用於尋找在事件、輪廓或查詢資料中找到的值或索引鍵。您最多可以新增兩個查詢層級。（請注意，[衍生欄位](/help/data-views/derived-fields/derived-fields.md)不能做為連線中查閱的相符索引鍵。） 例如，您可以上傳將事件資料中的數值ID對應至產品名稱的查詢資料。 有關範例，請參閱「[B2B 範例](/help/use-cases/b2b/example.md)」。 | 不適用 | 除「XDM 個體輪廓」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
+| **[!UICONTROL 查詢]** | 您可以新增資料集做為所有資料集類型中的查詢欄位：輪廓、查詢和事件資料集 (始終支援後者)。這項附加功能擴展了 Customer Journey Analytics 的功能，以支援複雜的資料模型，包括 B2B。此資料用於尋找在事件、輪廓或查詢資料中找到的值或索引鍵。您最多可以新增兩個查詢層級。(請注意，[衍生欄位](/help/data-views/derived-fields/derived-fields.md)無法用作連線內查詢的比對索引鍵。) 例如，您可能會上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。有關範例，請參閱「[B2B 範例](/help/use-cases/b2b/example.md)」。 | 不適用 | 除「XDM 個體輪廓」類別外，任何以具有「記錄」行為的 XDM 類別為基礎的內建或自訂結構。 | 不適用 |
 | **[!UICONTROL 輪廓]** | 套用至[!UICONTROL 事件]人員、使用者或客戶的資料。例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以「XDM 個體輪廓」類別為基礎的內建或自訂模式。 | 您可以挑選要包含的人員 ID。 [!DNL Experience Platform] 中定義的每個資料集有其自己一組已定義的一或多名人員 ID。例如 Cookie ID、彙整 ID、使用者 ID、追蹤程式碼等。<br>![人員 ID ](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報告會反映出這一點。若要合併資料集，您需要使用相同的人員 ID。 |
 | **摘要** | 不與單獨人員 ID 綁定的時間序列資料。摘要資料代表不同彙總等級的彙總資料，例如行銷活動。您可以在 Customer Journey Analytics 中使用此資料來支援各種使用案例。如需詳細資訊，請參閱[摘要資料](/help/data-views/summary-data.md)。 | 系統會自動設定為 Experience Platform 中以事件為基礎的摘要量度結構描述之預設時間戳記欄位。僅支援每小時或每日粒度。 | 任何以「XDM 摘要量度」類別為基礎的內建或自訂結構描述。 | 不適用 |
 
@@ -349,7 +349,7 @@ Customer Journey Analytics 支援以「身分識別對應」作為人員 ID。 �
 | 選項 | 說明 |
 |---|---|
 | **[!UICONTROL 使用主要 ID 命名空間]** | 這選項會指示 Customer Journey Analytics 在標示 `primary=true` 屬性的「身分對應」中尋找身分識別，並且使用該身分識別作為該列的人員 ID。此身分識別是在 Experience Platform 中劃分資料的主要索引鍵，此身分識別也是當做 Customer Journey Analytics 人員 ID 的主要候選者 (取決於資料集在 Customer Journey Analytics 連線中的設定方式)。 |
-| **[!UICONTROL 命名空間]** | （未使用「主要ID名稱空間」時，才能使用此選項）。 身分識別名稱空間是[Experience Platform身分識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)的元件。 命名空間是作為身分識別相關內容的指標。如果您指定命名空間，Customer Journey Analytics 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。由於 Customer Journey Analytics 無法對所有列執行完整的資料集掃描，以判斷哪些命名空間實際存在，因此下拉式清單會列出所有可能的命名空間。了解資料中指定了哪些命名空間；系統不會自動偵測這些命名空間。 |
+| **[!UICONTROL 命名空間]** | (當您未使用主要 ID 命名空間時，才能使用此選項) 身分命名空間是 [Experience Platform 身分服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)的元件。命名空間是作為身分識別相關內容的指標。如果您指定命名空間，Customer Journey Analytics 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。由於 Customer Journey Analytics 無法對所有列執行完整的資料集掃描，以判斷哪些命名空間實際存在，因此下拉式清單會列出所有可能的命名空間。了解資料中指定了哪些命名空間；系統不會自動偵測這些命名空間。 |
 
 {style="table-layout:auto"}
 

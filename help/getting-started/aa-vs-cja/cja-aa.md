@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 99%
 | **報告 API 存取權** | 完整支援；可透過 [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/) 使用。 |
 | **排程報告/專案** | 完整支援 |
 | **區段** | 完整支援。現在稱為「篩選器」。請注意，傳統 Analysis Workspace 中任何現有的區段都不會移植至 Customer Journey Analytics。 |
-| **串流媒體集合** | 串流媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢視者」面板和「媒體播放時間」面板的一部分提供。 |
+| **串流媒體收集** | 串流媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢視者」面板和「媒體播放時間」面板的一部分提供。 |
 | **摘要層級資料來源** | 完整支援 |
 | **虛擬報表套裝** | 完整支援。現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
 | **虛擬報表套裝元件策劃** | 完整支援。現在是資料視圖的一部分。 |

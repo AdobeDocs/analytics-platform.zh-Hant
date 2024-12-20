@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4219'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 衍生欄位移除重複資料功能 | 新增有關衍生欄位[移除重複資料](/help/data-views/derived-fields/derived-fields.md#deduplicate)功能的文件。 |
 | 已更新常見錯誤訊息 | 對[常見錯誤訊息](/help/analysis-workspace/workspace-faq/error-messages.md)進行了小幅更新。 |
 | **2024 年 6 月** | |
-| 已更新提及串流媒體功能的產品名稱 | 在提及收集串流媒體資料並在Analysis Workspace中呈現的串流媒體功能集時，將「Media Analytics」和「串流媒體」的例項取代為「串流媒體收集附加元件」和「串流媒體收集」。 <p>這些更新可在Customer Journey Analytics檔案以及[串流媒體集合檔案](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中取得。</p> |
+| 已更新提及串流媒體功能的產品名稱 | 當提及用於收集串流媒體資料並將其顯示在 Analysis Workspace 的串流媒體功能集時，出現「媒體分析」和「串流媒體」的地方將替換為名稱「串流媒體收集附加元件」和「串流媒體收集」。 <p>這些更新可在 Customer Journey Analytics 文件以及[串流媒體收集文件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中取得。</p> |
 | 圖表式匯整 | 以圖表式匯整簡介更新和重組[匯整文件](/help/stitching/overview.md)。 |
 | AI 助理 | 新增有關 Customer Journey Analytics 之 AI 助理的[文件](../ai-assistant.md)。 |
 | 轉換資料集以進行 B2B 查詢 | 新增有關如何使用 B2B 查詢資料集的轉換來支援[在 B2B 資料上進行人員型查詢](/help/connections//transform-datasets-b2b-lookups.md) (包括帳戶、機會、行銷清單和行銷活動)。 |
