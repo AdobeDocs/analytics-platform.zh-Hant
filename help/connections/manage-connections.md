@@ -9,7 +9,7 @@ role: Admin
 source-git-commit: 0b6a84820dc42b5e5009eaa254e5554712a952aa
 workflow-type: tm+mt
 source-wordcount: '3536'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -210,8 +210,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_keyusagemetrics"
->title="關鍵使用量度"
->abstract="提供核心和歷史可報告列的每月和總計資料。"
+>title="關鍵使用情況量度"
+>abstract="提供核心和歷史可報告列數的每月資料和總資料。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -220,8 +220,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_monthlyingestedrows"
->title="每月攝取的列"
->abstract="測量每月新增到系統的記錄總數，以提供有關資料增長和擷取率的深入分析。"
+>title="每月攝取列數"
+>abstract="測量每月新增至系統的記錄總數，以提供對資料增長和攝取率的深入分析。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -229,8 +229,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_monthlyreportablerows"
->title="每月可報告的列"
->abstract="追蹤可用於報告的列數。 可報告列是擷取的列減去擷取期間略過和刪除的列。 可報告列可作為計費和資料使用的關鍵量度。"
+>title="每月可報告列數"
+>abstract="追蹤可供報告的列數。可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。可報告列數是計費和資料使用情況的關鍵量度。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -239,8 +239,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_detailbreakdown"
->title="詳細資料劃分。"
->abstract="您可以依連線、資料集、沙箱和標籤檢視詳細的量度，並可以選擇下載資料的CSV檔案。"
+>title="詳細劃分"
+>abstract="您可以依據連線、資料集、沙箱和標記來檢視詳細量度，並且可選擇下載資料的 CSV 檔案。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ exl-id: 160021f1-6942-4682-9114-d375307d9912
 source-git-commit: b1bf7dfa4b2b95c2b3c00b71719a93bc7394ed33
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="cja_components_filters_datapreview"
 >title="資料預覽"
->abstract="將此篩選器的資料與資料檢視的資料進行比較。 預覽百分比是根據&#x200B;**最近90天**&#x200B;的資料檢視總數。<br><br/>如果預覽未載入，您的連線可能仍在回填。"
+>abstract="將此篩選器的資料與資料檢視的資料進行比較。此預覽百分比是根據資料檢視中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
 
 <!-- markdownlint-enable MD034 -->
 
