@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1636'
 ht-degree: 100%
 
@@ -151,7 +151,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="functions-exp"
 >title="指數"
->abstract="傳回 e 的指定數字的次方。常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT 是 LN (一個數字的自然對數) 的反函數。"
+>abstract="傳回給定數字的 e 乘冪。常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT 是 LN (一個數字的自然對數) 的反函數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -428,7 +428,7 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-sqrt"
 >title="平方根"
->abstract="傳回數字的正平方根。數字的平方根是該數字的 1/2 次方。"
+>abstract="傳回數字的正平方根。數字的平方根是該數字的 1/2 乘冪值。"
 
 <!-- markdownlint-enable MD034 -->
 
