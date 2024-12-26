@@ -7,7 +7,7 @@ role: User
 source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
 workflow-type: tm+mt
 source-wordcount: '1636'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -109,14 +109,14 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="functions-col-sum"
 >title="欄總和"
->abstract="將一欄中量度的所有數值 (所有維度元素) 相加。"
+>abstract="將一欄中量度的所有數值 (涵蓋維度的所有元素) 相加。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄總和 (量度)]**
 
-將一欄中量度的所有數值 (所有維度元素) 相加。
+將一欄中量度的所有數值 (涵蓋維度的所有元素) 相加。
 
 | 引數 | 說明 |
 |---|---|
@@ -130,7 +130,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="functions-count"
 >title="計數"
->abstract="傳回一欄中量度的非零值數目 (或計數) (在一個維度中報告的獨特元素數目)。"
+>abstract="傳回一欄中量度的數目、計數或非零數值 (在一個維度中報告的唯一元素數目)。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -151,7 +151,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="functions-exp"
 >title="指數"
->abstract="傳回給定數字的 e 乘冪。常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT是LN的反值，LN是數字的自然對數。"
+>abstract="傳回 e 的指定數字的次方。常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT 是 LN (一個數字的自然對數) 的反函數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -171,7 +171,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="functions-mean"
 >title="平均值"
->abstract="傳回欄中量度的算術平均值或平均值"
+>abstract="傳回一欄中量度的算術平均數或平均值"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -186,14 +186,14 @@ ht-degree: 93%
 | 包括零 | 計算中是否包括零值。 |
 
 
-## 中間值 {#median}
+## 中位數 {#median}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-median"
->title="中間值"
->abstract="傳回一欄中量度的中位數。中位數是一組數字中間的數字。 也就是說，一半數字的值大於或等於中位數，而另一半則小於或等於中位數。"
+>title="中位數"
+>abstract="傳回一欄中量度的中位數。中位數是一組數字中位於中間的數字。意即，有一半的數字其值大於或等於中位數，另有一半的值小於或等於中位數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -252,7 +252,7 @@ MODULO(MODULO(x,y)+y,y)
 >[!CONTEXTUALHELP]
 >id="functions-percentile"
 >title="百分位數"
->abstract="傳回第n個百分位數，該值介於0到100之間。 當n &lt; 0時，函式使用零。 當n > 100時，函式傳回100。"
+>abstract="傳回第 n 個百分位數，該值介於 0 到 100 之間。當 n &lt; 0 時，則函數使用零。當 n > 100 時，函數傳回 100。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -297,7 +297,7 @@ MODULO(MODULO(x,y)+y,y)
 >[!CONTEXTUALHELP]
 >id="functions-quartile"
 >title="四分位數"
->abstract="傳回量度值的四分位數。例如，四分位數可用來尋找創造最多收入的前25%產品。"
+>abstract="傳回量度的數值四分位數。例如，四分位數可用於尋找創造最多營收的前 25% 產品。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -365,13 +365,13 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-row-max"
 >title="列最大值"
->abstract="每一列的欄最大值。"
+>abstract="每列的最大欄數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列最大值 (量度，包括零)]**
 
-每一列的欄最大值。
+每列的最大欄數。
 
 | 引數 | 說明 |
 |---|---|
@@ -386,13 +386,13 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-row-min"
 >title="列最小值"
->abstract="每一列的欄最小值。"
+>abstract="每列的最小欄數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列最小值 (量度，包括零)]**
 
-每一列的欄最小值。
+每列的最小欄數。
 
 | 引數 | 說明 |
 |---|---|
@@ -428,7 +428,7 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-sqrt"
 >title="平方根"
->abstract="傳回數字的正平方根。數字的平方根是該數字的 1/2 乘冪值。"
+>abstract="傳回數字的正平方根。數字的平方根是該數字的 1/2 次方。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -449,7 +449,7 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-stdev"
 >title="標準差"
->abstract="根據一組資料樣本，傳回標準差 (或變異數的平方根)。"
+>abstract="根據一組來自母體的樣本資料，傳回標準差或變異數的平方根。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -463,14 +463,14 @@ ROUND( 314.15, -2) = 300
 | 包括零 | 計算中是否包括零值。 |
 
 
-## 變數 {#variance}
+## 變異數 {#variance}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-variance"
->title="變數"
->abstract="根據一組資料樣本，傳回變異數。"
+>title="變異數"
+>abstract="根據來自母體的一組樣本資料，傳回變異數。"
 
 <!-- markdownlint-enable MD034 -->
 

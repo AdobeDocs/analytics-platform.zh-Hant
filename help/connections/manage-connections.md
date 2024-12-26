@@ -9,7 +9,7 @@ role: Admin
 source-git-commit: 0b6a84820dc42b5e5009eaa254e5554712a952aa
 workflow-type: tm+mt
 source-wordcount: '3536'
-ht-degree: 16%
+ht-degree: 21%
 
 ---
 
@@ -249,7 +249,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_otherdatasets"
 >title="其他資料集"
->abstract="在2024年9月之前的幾個月中，資料會在資料集層級收集，並顯示為&#x200B;*其他資料集*&#x200B;以清楚說明。 從2024年9月開始，資料會在精細資料集層級收集，且&#x200B;*其他資料集*&#x200B;將不再出現。"
+>abstract="2024 年 9 月之前的數月在資料集層級收集資料，為了清楚起見，資料顯示為「*其他資料集*」。從 2024 年 9 月開始在粒度資料集層級收集資料，*其他資料集*&#x200B;將不再顯示。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -258,7 +258,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_unknowndatasetsorconnections"
 >title="未知的資料集或連線"
->abstract="使用其ID顯示未知的資料集或連線。"
+>abstract="未知的資料集或連線使用其 ID 顯示。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -266,8 +266,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_datanotavailable"
->title="資料不可用"
->abstract="由於系統限制，2024年9月前的歷史資料無法使用。 自2024年9月起，系統會收集並顯示量度。 圖表顯示時間軸上的過去18個月，當資料可供使用時，將會顯示未來的資料。"
+>title="資料無法使用"
+>abstract="由於系統限制，無法取得 2024 年 9 月之前的歷史資料。從 2024 年 9 月起收集和顯示量度。此圖表在時間軸上顯示過去 18 個月，而取得可用資料之後將會顯示未來的資料。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -276,7 +276,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_connections_corereportablerows"
 >title="核心可報告列數"
->abstract="顯示過去13個月可用的列總數。 例如，在2024年2月1日，數字會顯示從2023年1月到2024年1月具有事件時間戳記的總可用列數。"
+>abstract="顯示過去 13 個月的可用總列數。例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -285,7 +285,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja_connections_historicalreportablerows"
 >title="歷史可報告列數"
->abstract="顯示超過13個月期間的可用列總數。 例如，在2024年2月1日，該數字顯示事件時間戳記早於2023年1月的可用總列數。"
+>abstract="顯示超過 13 個月以前可用的總列數。例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
 
 <!-- markdownlint-enable MD034 -->
 
