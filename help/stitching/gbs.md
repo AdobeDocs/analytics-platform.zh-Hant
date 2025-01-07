@@ -1,17 +1,18 @@
 ---
-title: 圖表式銜接
+title: 依圖表匯整
 description: 圖表式銜接的說明
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
+exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
+source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1385'
+ht-degree: 7%
 
 ---
 
-# 圖表式銜接
+# 依圖表匯整
 
 
 在圖表式拚接中，您可以指定事件資料集，以及該資料集的永久ID (Cookie)和暫時ID （人員ID）的名稱空間。 圖表式拚接會在新的拚接資料集中為拚接ID建立新欄。 然後使用永久ID來查詢來自Experience Platform身分服務的身分圖表，使用指定的名稱空間來更新拼接的ID。
@@ -146,7 +147,7 @@ ht-degree: 0%
 下列限制尤其適用於圖表式拚接：
 
 - 使用指定的名稱空間查詢暫時ID時，不會考慮時間戳記。 因此，永久性ID可能會從時間戳記較早的記錄拼接暫時ID。
-- 不支援共用裝置。 當傳回多個身分時，透過使用名稱空間查詢身分圖表，將使用第一個字典表型身分。
+- 在共用裝置情況中，其中圖表中的名稱空間包含多個身分，系統會使用第一個字典識別。 如果名稱空間限制和優先順序是在圖表連結規則發行時設定，則會使用最後驗證的使用者身分。 如需詳細資訊，請參閱[共用裝置](/help/use-cases/stitching/shared-devices.md)。
 - 在身分圖表中有三個月回填身分的硬性限制。 若您未使用Experience Platform應用程式(例如Real-time Customer Data Platform)填入身分圖表，您可以使用回填身分。
 - [Identity Service護欄](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)已套用。 檢視下列[靜態限制](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits)：
    - 圖表中的最大身分數量： 50。
