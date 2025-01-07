@@ -4,14 +4,34 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 25969de61f23cf0690a130127fcc1442b9806a35
+source-git-commit: acbe705647e508bbc85f596c3165b1acd8cb15bb
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 1%
+source-wordcount: '1766'
+ht-degree: 3%
 
 ---
 
-# 歷程畫布概觀
+# 歷程畫布概觀 {#journey-canvas-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_button"
+>title="歷程畫布"
+>abstract="與流失類似，此視覺效果顯示了人們如何通過或退出一系列接觸點。請使用歷程畫布來處理具有多個進入點和路徑的歷程，或分析在 Journey Optimizer 中建立的歷程。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_panel"
+>title="歷程畫布"
+>abstract="分析人們如何進行或離開定義的歷程。 透過建立代表任何事件、維度專案和篩選器組合的靈活節點和箭頭圖表，建立使用者歷程的分析。拖曳畫布上的節點以重新排列歷程的事件和條件。 如同您所做的，資料會據此更新。 <br/><br/>擁有Adobe Journey Optimizer存取權的客戶可以分析現有的Journey Optimizer歷程"
+
+<!-- markdownlint-enable MD034 -->
+
+
 
 Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和客戶的歷程。 它可讓您從頭開始定義歷程，或從Journey Optimizer檢視歷程，然後檢視人們如何離開（流失）或繼續通過（流過）歷程。
 
