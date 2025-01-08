@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 78803a2062b38b0f4a80837d18dbf3e9cc609cc8
+source-git-commit: 02026709480872216ee76e842045517822c59bff
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1919'
 ht-degree: 28%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 28%
 某些情況下，同一部裝置可能會由不同人登入。 例如家中的共用裝置、資料庫中的共用 PC 或零售門市的資訊站。
 
 暫時 ID 會覆寫永久 ID，因此系統會將共用裝置視為不同的使用者 (即便他們都是使用同一部裝置)。
+
+如需詳細資訊，請參閱[共用裝置](/help/use-cases/stitching/shared-devices.md)使用案例。
 
 +++
 
@@ -92,7 +94,7 @@ Adobe會根據當地及國際法處理隱私權要求。 Adobe 提供 [Adobe Exp
 
 舉例來說，您可以想像下列身分資料、銜接前和銜接後的事件。
 
-| 身分對應 | Id | timestamp | 永久ID | 永久名稱空間 | 暫時性id | 暫時性名稱空間 |
+| 身分識別對應 | Id | timestamp | 永久ID | 永久名稱空間 | 暫時性id | 暫時性名稱空間 |
 |---|---|---|---|---|---|---|
 |  | 1 | ts1 | 123 | ecid | 鮑伯 | CustId |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
@@ -116,7 +118,7 @@ Adobe會根據當地及國際法處理隱私權要求。 Adobe 提供 [Adobe Exp
 
 當收到具有CustID Bob的客戶的隱私權請求時，會刪除具有刪除線專案的列。 其他事件會使用身分對應來重新設定。 例如，彙整資料集中的第一個彙整ID已更新為&#x200B;**Alex**。
 
-| 身分對應 | Id | timestamp | 永久ID | 永久名稱空間 | 暫時性id | 暫時性名稱空間 |
+| 身分識別對應 | Id | timestamp | 永久ID | 永久名稱空間 | 暫時性id | 暫時性名稱空間 |
 |:---:|---|---|---|---|---|---|
 | ![DeleteOutline](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~CustId~~ |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
@@ -140,7 +142,7 @@ Adobe會根據當地及國際法處理隱私權要求。 Adobe 提供 [Adobe Exp
 
 當收到具有CustID Bob的客戶的隱私權請求時，會刪除具有刪除線專案的列。 其他事件會使用永久ID重新設定。 例如，彙整資料集中的第一個彙整ID已更新為&#x200B;**123**。
 
-| 身分對應 | Id | timestamp | 永久ID | 永久名稱空間 | 暫時性id | 暫時性名稱空間 |
+| 身分識別對應 | Id | timestamp | 永久ID | 永久名稱空間 | 暫時性id | 暫時性名稱空間 |
 |:---:|---|---|---|---|---|---|
 | ![DeleteOutline](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~CustId~~ |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
@@ -211,7 +213,7 @@ Customer Journey Analytics和Adobe Analytics中的其他量度可能類似。 �
 
 +++
 
-## 身分對應
+## 身分識別對應
 
 +++ Customer Journey Analytics可以使用「身分對應」欄位嗎？
 
