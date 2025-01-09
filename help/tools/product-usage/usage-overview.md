@@ -1,9 +1,10 @@
 ---
 title: 產品使用概述
 description: 檢視有關貴組織如何使用Customer Journey Analytics的深入分析和報表。
-source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
+exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
+source-git-commit: 9e29a16fc8d2cfe9a7a2e926b5f592280b2c1c7a
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '367'
 ht-degree: 6%
 
 ---
@@ -24,6 +25,12 @@ ht-degree: 6%
 >[!IMPORTANT]
 >
 >此功能會計入Adobe Experience Platform中的合約列限制。 在啟用此功能之前，請確定您的組織可以容納此功能產生的資料。
+
+## 啟用產品使用情況
+
+**[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL 產品使用量]**
+
+瀏覽至Customer Journey Analytics介面的這個區段，會帶您前往[資料設定](data-settings.md)，您可以在其中啟用此功能。
 
 ## 可用維度
 
