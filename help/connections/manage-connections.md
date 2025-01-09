@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 0b6a84820dc42b5e5009eaa254e5554712a952aa
+source-git-commit: c5e5963e6dc4d97de012f825bbea4445cc72d622
 workflow-type: tm+mt
-source-wordcount: '3536'
-ht-degree: 21%
+source-wordcount: '3749'
+ht-degree: 19%
 
 ---
 
@@ -151,9 +151,9 @@ ht-degree: 21%
 | 結構描述 | 資料集所根據的Experience Platform結構描述。 |
 | [!UICONTROL 匯入新資料] | 為資料集匯入新資料的狀態： <p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _On]**（如果資料集已設定為匯入新資料），並且<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _x關閉_]** （如果資料集已設定為不匯入新的資料匯入）。 |
 | [!UICONTROL 轉換資料] | 適用的B2B查詢資料集的轉換狀態。 請參閱[轉換資料集以進行 B2B 查詢](transform-datasets-b2b-lookups.md)，了解更多資訊。<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _On]**用於啟用轉換的適用資料集， <p>![狀態灰色](assets/status-gray.svg)   未啟用轉換的適用資料集有&#x200B;**[!UICONTROL _x關閉_]**，並且<p>所有其他資料集的&#x200B;**[!UICONTROL N/A]**，不適用於轉換。 |
-| [!UICONTROL 回填資料] | 資料集的回填資料狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _個回填失敗]**因為回填失敗的數目，<p>![狀態紅色](assets/status-orange.svg)   **[!UICONTROL _x _個回填正在處理]**個回填正在處理，<p>![狀態綠色](assets/status-green.svg)   已完成&#x200B;**[!UICONTROL _x _個回填]**個回填已完成，以及<p>![狀態灰色](assets/status-gray.svg)   未設定回填時&#x200B;**[!UICONTROL _關閉_]**。 |
+| [!UICONTROL 回填資料] | 資料集的回填資料狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _個回填失敗]**因為回填失敗的數目，<p>![狀態紅色](assets/status-orange.svg)   **[!UICONTROL _x _個正在處理]**個處理回填的回填，<p>![狀態綠色](assets/status-green.svg)   已完成&#x200B;**[!UICONTROL _x _個回填]**個回填已完成，以及<p>![狀態灰色](assets/status-gray.svg)   未設定回填時&#x200B;**[!UICONTROL _關閉_]**。 |
 | [!UICONTROL 匯入新資料] | 為資料集匯入新資料的狀態： <p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _On]**（如果資料集已設定為匯入新資料），並且<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _x關閉_]** （如果資料集已設定為不匯入新資料）。 |
-| [!UICONTROL 回填資料] | 資料集的回填資料狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _個回填失敗]**因為回填失敗的數目，<p>![狀態紅色](assets/status-orange.svg)   **[!UICONTROL _x _個回填正在處理]**個回填正在處理，<p>![狀態綠色](assets/status-green.svg)   已完成&#x200B;**[!UICONTROL _x _個回填]**個回填已完成，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _關閉_]**，以防未設定回填。 |
+| [!UICONTROL 回填資料] | 資料集的回填資料狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _個回填失敗]**因為回填失敗的數目，<p>![狀態紅色](assets/status-orange.svg)   **[!UICONTROL _x _個正在處理]**個處理回填的回填，<p>![狀態綠色](assets/status-green.svg)   已完成&#x200B;**[!UICONTROL _x _個回填]**個回填已完成，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _關閉_]**，以防未設定回填。 |
 
 >[!IMPORTANT]
 >
@@ -195,16 +195,16 @@ ht-degree: 21%
 | [!UICONTROL 刪除的記錄] | 在選取的時段內刪除了多少記錄。 |
 | [!UICONTROL 批次已新增] | 已將多少資料批次新增到這個資料集內。 |
 | [!UICONTROL 略過的記錄] | 在選取的時段內擷取資料時，略過了多少列。<p>略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人ID等。 每 10 分鐘更新一次。<p>無效的個人ID （例如`undefined`或`00000000`，或[!UICONTROL 個人ID]中任何數字與字母的組合，在指定月份中出現的次數超過100萬次）是無法歸因於任何特定使用者或個人的ID。 這些列無法擷取到系統中，並導致容易出錯的擷取和報告。 若要修正無效的人員 ID，請選擇下列 3 種方法：<ul><li>使用[拼接](/help/stitching/overview.md)以有效的使用者ID填入未定義或全零的使用者ID。</li><li>將使用者ID留空，在擷取期間會略過該使用者ID （偏好使用無效或全零的使用者ID）。</li><li>在擷取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> |
-| [!UICONTROL 上次新增時間] | 上次新增批次的時間。 |
+| [!UICONTROL 上次新增時間] | 上次新增批次的時間戳記。 |
 | [!UICONTROL 匯入新資料] | 為資料集匯入新資料的狀態： <p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _On]**（如果資料集已設定為匯入新資料），並且<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _x關閉_]** （如果資料集已設定為不匯入新資料）。 |
-| [!UICONTROL 回填資料] | 資料集的回填資料狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _個回填失敗]**因為回填失敗的數目，<p>![狀態紅色](assets/status-orange.svg)   **[!UICONTROL _x _個回填正在處理]**個回填正在處理，<p>![狀態綠色](assets/status-green.svg)   已完成&#x200B;**[!UICONTROL _x _個回填]**個回填已完成，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _關閉_]**，以防未設定回填。<p>若要顯示對話方塊以概覽資料集過去的回填，請選取「 」 <img src="./assets/pastbackfill.svg" alt="過去的回填" width="15"/> **[!UICONTROL 過去的回填]**。 |
+| [!UICONTROL 回填資料] | 資料集的回填資料狀態。<p>![狀態紅色](assets/status-red.svg)   **[!UICONTROL _x _個回填失敗]**因為回填失敗的數目，<p>![狀態紅色](assets/status-orange.svg)   **[!UICONTROL _x _個正在處理]**個處理回填的回填，<p>![狀態綠色](assets/status-green.svg)   已完成&#x200B;**[!UICONTROL _x _個回填]**個回填已完成，以及<p>![狀態灰色](assets/status-gray.svg)   **[!UICONTROL _關閉_]**，以防未設定回填。<p>若要顯示對話方塊以概覽資料集過去的回填，請選取「 」 <img src="./assets/pastbackfill.svg" alt="過去的回填" width="15"/> **[!UICONTROL 過去的回填]**。 |
 | [!UICONTROL 資料來源類型] | 將資料集新增至連線時所定義的資料來源型別。 |
 | [!UICONTROL 資料集類型] | [!UICONTROL 事件]、[!UICONTROL 設定檔]、[!UICONTROL 查詢]或[!UICONTROL 摘要]。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) |
 | [!UICONTROL 結構描述] | 此資料集所根據的Experience Platform結構描述。 |
 | [!UICONTROL 資料集 ID] | 此資料集ID會以Experience Platform產生。 |
 
 
-## 使用情況
+## 使用情況 {#connections-usage}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -212,7 +212,6 @@ ht-degree: 21%
 >id="cja_connections_usage_keyusagemetrics"
 >title="關鍵使用情況量度"
 >abstract="提供核心和歷史可報告列數的每月資料和總資料。"
-
 <!-- markdownlint-enable MD034 -->
 
 
@@ -222,7 +221,6 @@ ht-degree: 21%
 >id="cja_connections_usage_monthlyingestedrows"
 >title="每月攝取列數"
 >abstract="測量每月新增至系統的記錄總數，以提供對資料增長和攝取率的深入分析。"
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -231,7 +229,6 @@ ht-degree: 21%
 >id="cja_connections_usage_monthlyreportablerows"
 >title="每月可報告列數"
 >abstract="追蹤可供報告的列數。可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。可報告列數是計費和資料使用情況的關鍵量度。"
-
 <!-- markdownlint-enable MD034 -->
 
 
@@ -241,7 +238,6 @@ ht-degree: 21%
 >id="cja_connections_usage_detailbreakdown"
 >title="詳細劃分"
 >abstract="您可以依據連線、資料集、沙箱和標記來檢視詳細量度，並且可選擇下載資料的 CSV 檔案。"
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -249,8 +245,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_otherdatasets"
 >title="其他資料集"
->abstract="2024 年 9 月之前的數月在資料集層級收集資料，為了清楚起見，資料顯示為「*其他資料集*」。從 2024 年 9 月開始在粒度資料集層級收集資料，*其他資料集*&#x200B;將不再顯示。"
-
+>abstract="在2024年9月前的月份中，資料會在資料集層級收集，並顯示為&#x200B;*其他資料集*&#x200B;以清楚說明。 從 2024 年 9 月開始在粒度資料集層級收集資料，*其他資料集*&#x200B;將不再顯示。"
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -259,7 +254,6 @@ ht-degree: 21%
 >id="cja_connections_usage_unknowndatasetsorconnections"
 >title="未知的資料集或連線"
 >abstract="未知的資料集或連線使用其 ID 顯示。"
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -268,7 +262,6 @@ ht-degree: 21%
 >id="cja_connections_usage_datanotavailable"
 >title="資料無法使用"
 >abstract="由於系統限制，無法取得 2024 年 9 月之前的歷史資料。從 2024 年 9 月起收集和顯示量度。此圖表在時間軸上顯示過去 18 個月，而取得可用資料之後將會顯示未來的資料。"
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -277,7 +270,6 @@ ht-degree: 21%
 >id="cja_connections_corereportablerows"
 >title="核心可報告列數"
 >abstract="顯示過去 13 個月的可用總列數。例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
-
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -286,41 +278,94 @@ ht-degree: 21%
 >id="cja_connections_historicalreportablerows"
 >title="歷史可報告列數"
 >abstract="顯示超過 13 個月以前可用的總列數。例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
-
 <!-- markdownlint-enable MD034 -->
 
 
-[!UICONTROL Usage]介面會顯示所有連線中擷取及可報告資料列的使用情形。 此介面可支援您判斷您的Customer Journey Analytics使用方式是否符合合約所議定的內容。 除了監控用途以外，您還可以使用使用情況UI來規劃Customer Journey Analytics授權續約。
+[!UICONTROL Usage]介面會顯示所有連線中擷取及可報告資料列的使用情形。 如果未選取，請選取&#x200B;**[!UICONTROL 使用方式]**&#x200B;索引標籤以存取介面。
 
-您可以選取時間範圍（介於最近6個月、年初至今或最近2年之間）和間隔（介於每月或每季之間）來監控Customer Journey Analytics使用情況。 介面分為兩個區段：
+此介面可支援您判斷您的Customer Journey Analytics使用方式是否符合合約所議定的內容。 除了監控用途外，您也可以使用「使用情況」介面來規劃Customer Journey Analytics授權續約。
 
-* 擷取的列：從所有Customer Journey Analytics連線的事件資料集擷取/傳送的列總數，包括擷取期間略過的記錄
-* 可報告列：包含所有Customer Journey Analytics連線之所有事件資料的可報告列總數
+「使用情況」介面會使用下列量度
 
-![使用狀況檢視](assets/usage-view.png)
+| 量度名稱 | 說明 |
+|---|---|
+| 歷史可報告列數 | 超過13個月的期間列數。 |
+| 核心可報告列數 | 過去13個月的列數。 |
+| 攝取的列 | 特定期間擷取了多少列。 |
+| 可報告的列 | 在特定時段內，您有多少列資料屬於連線。 |
+| 累積列 | 到特定月份為止，擷取了多少列。 |
 
-選取&#x200B;**[!UICONTROL 使用方式]**&#x200B;標籤以存取介面。
-
-### 使用量報表
-
-1. 選取&#x200B;**[!UICONTROL 時間範圍]**。 您可以選取介於&#x200B;**[!UICONTROL 過去6個月]**、**[!UICONTROL 年初至今]**&#x200B;或&#x200B;**[!UICONTROL 過去2年]**&#x200B;之間。
-1. 選取&#x200B;**[!UICONTROL 間隔]**。 您可以選取&#x200B;**[!UICONTROL 每月]**&#x200B;或&#x200B;**[!UICONTROL 每季]**。
-
-針對[!UICONTROL 擷取的資料列]：
-
-* 面板會顯示擷取的總列數，其中包含所有連線中在每月第2天更新的所有事件資料。 在面板內：
-   * 方塊會顯示上個月的內嵌列數，以及上個月的% (以▲或▼表示)變更。
-   * 折線圖顯示[!UICONTROL 每月擷取的列]◼︎。<br/>若要檢視顯示一個月內每月擷取列數的快顯視窗，請將滑鼠游標停留在折線圖中的任何資料點上。
+>[!NOTE]
+>
+>系統會從2024年7月起，針對核心、歷史和總計記錄收集資料。 如需舊版歷史資料，請洽詢您的客戶經理。
+>
 
 
-針對[!UICONTROL 可報告資料列]：
 
-* 面板會顯示可報告的總列數，其中包含每個月第2天更新之所有連線中的所有事件資料。 在面板內：
-   * 方塊會顯示可報告列的累計總數。
-   * 方塊會顯示上個月的可報告列總數，以及上個月的變更% (以▲或▼表示)。
-   * 折線圖顯示◼︎[!UICONTROL 每月可報告的資料列]。<br/>若要檢視顯示特定月份累計可報告列數的快顯視窗，請將滑鼠游標停留在折線圖的任何資料點上。
-   * 折線圖顯示◼︎[!UICONTROL 累積可報告列]。<br/>若要檢視顯示每月可報告列數的快顯視窗，請將滑鼠游標停留在折線圖中的任何資料點上。
+「使用方式」介麵包含兩個面板：
 
+* **[!UICONTROL 金鑰使用量度]**&#x200B;面板：提供核心和歷史資料可報告列。 面板也會追蹤核心和歷史資料列與上個月相比的百分比變更。
+
+  該面板會顯示在視覺效果中：
+
+   * **[!UICONTROL 可報告的核心資料列]**。
+
+     您在過去13個月內有多少可報告列。 摘要數字是上個月的核心可報告列數（例如741M） （例如2024年12月）。
+
+   * **[!UICONTROL 歷史資料可報告資料列]**。
+
+     在超過13個月的期間中有多少可報告列。 摘要數字是上個月（例如2024年12月）的歷史可報告列數（例如127M）。
+
+  當您將滑鼠游標停留在視覺效果中的任何棧疊長條圖上時，快顯視窗會顯示該長條圖特定部分的列數（例如）。
+
+
+  ![金鑰使用量度](assets/usage-key-usage-metrics.png)
+
+* 顯示下列三個子面板的組合面板：
+
++++ 攝取的列
+
+  **[!UICONTROL 擷取的列]**&#x200B;子面板會測量每月新增到系統的記錄總數，提供資料成長與擷取率的深入分析。 子面板提供本月總擷取列數和上個月變更的摘要。
+
+  ![擷取的資料列](assets/usage-ingested-rows.png)
+
+  您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含更多詳細資訊的快顯視窗。
+
++++
+
++++ 可報告的列
+
+  **[!UICONTROL 可報告列]**&#x200B;視覺效果會從擷取的列減去略過和刪除的列，以作為計費和資料使用的關鍵量度，藉此追蹤可用於報告的列數。 子面板提供兩個摘要：
+
+   * **[!UICONTROL 上個月總計]**：截至本月為止可報告資料列總數的摘要。
+   * **[!UICONTROL 本月]**：本月可報告列總數及上個月變更的摘要。
+
+  ![可報告的資料列](assets/usage-reportable-rows.png)
+
+  您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含更多詳細資訊的快顯視窗。
+
++++
+
++++ 詳細劃分
+
+  您可以使用&#x200B;**[!UICONTROL 詳細資料劃分]**&#x200B;表格，依連線、資料集、沙箱和標籤來檢視詳細的量度。 資料集是使用ID而非名稱來報告，因為資料集名稱可以在報告期間修改。 使用id回報未知的資料集或連線。
+
+  在2024年9月前的月份中，資料會在資料集層級收集，並顯示為[!UICONTROL 其他資料集]以清楚說明。 從2024年9月開始，資料會在精細資料集層級收集，而[!UICONTROL 其他資料集]將不再出現。
+
+   * 若要變更劃分，請選取&#x200B;**[!UICONTROL 檢視依據]**&#x200B;和&#x200B;**[!UICONTROL 劃分依據]**&#x200B;的組合。
+
+     | **[!UICONTROL 檢視者]**&#x200B;選項 | **[!UICONTROL 劃分依據]**&#x200B;選項 |
+     |---|---|
+     | **[!UICONTROL 連線]** | **[!UICONTROL -]**&#x200B;和&#x200B;**[!UICONTROL 資料集]** |
+     | **[!UICONTROL 資料集]** | **[!UICONTROL -]** |
+     | **[!UICONTROL 沙箱]** | **[!UICONTROL 連線]** |
+     | **[!UICONTROL 標記]** | **[!UICONTROL 連線]** |
+
+  ![詳細資料劃分](assets/usage-detail-breakdown.png)
+
++++
+
+  您可以定義要報告的&#x200B;**[!UICONTROL 時間範圍]** （以月為單位）。 使用![行事曆](/help/assets/icons/Calendar.svg)選取時間範圍。
 
 >[!MORELIKETHIS]
 >
