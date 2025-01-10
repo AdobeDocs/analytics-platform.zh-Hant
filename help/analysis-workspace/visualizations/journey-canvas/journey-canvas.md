@@ -7,7 +7,7 @@ exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
 source-git-commit: 05e1b5e26d5a1dc1e46a675131185f0927c65f22
 workflow-type: tm+mt
 source-wordcount: '1759'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="歷程畫布"
->abstract="顯示人們如何通過或離開一系列接觸點。 用於具有多個入口點和路徑的歷程，或用於分析在Journey Optimizer中建立的歷程。"
+>abstract="顯示人們如何完成或退出一系列接觸點。用於具有多個進入點和路徑的歷程，或用來分析在 Journey Optimizer 中建立的歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="歷程畫布"
->abstract="分析人們如何進行或離開定義的歷程。 透過建立代表任何事件、維度專案和篩選器組合的靈活節點和箭頭圖表，建立使用者歷程的分析。拖曳畫布上的節點以重新排列歷程的事件和條件。 如同您所做的，資料會據此更新。 <br/><br/>擁有Adobe Journey Optimizer存取權的客戶可以分析現有的Journey Optimizer歷程"
+>abstract="分析人們如何完成或退出定義的歷程。透過建立代表事件、維度項目和篩選器之任意組合的節點和箭頭彈性圖表，藉此建置使用者歷程分析。拖曳畫布上的節點可重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>有權存取 Adobe Journey Optimizer 的客戶可以分析現有的 Journey Optimizer 歷程"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 614e15a492b247d98e4e32c0f06d8ae438ca6d45
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cja_dataview_settings_datapreview"
 >title="資料預覽"
->abstract="將此資料檢視的資料與連線的資料進行比較。 此預覽百分比是根據連線中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
+>abstract="將此資料檢視的資料與連線的資料進行比較。此預覽百分比是根據連線中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
 
 <!-- markdownlint-enable MD034 -->
 
