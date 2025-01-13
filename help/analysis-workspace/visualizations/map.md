@@ -3,10 +3,10 @@ description: 在 Workspace 專案中使用地圖視覺效果。
 title: 地圖
 feature: Visualizations
 role: User, Admin
-badgePremium: label="Adobe Analytics版本" url="https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization" tooltip="選取「 」即可檢視本文的Adobe Analytics版本。"
+badgePremium: label="Adobe Analytics版本" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization.html" tooltip="選取「 」即可檢視本文的Adobe Analytics版本。"
 hide: true
 hidefromtoc: true
-source-git-commit: d05990b0eac6b08530b8526b3b48b722139be018
+source-git-commit: 3c3ef1c79e5863b74a3b7458c87d1f83f7188e5a
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 13%
