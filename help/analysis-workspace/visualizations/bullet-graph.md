@@ -4,11 +4,10 @@ title: 項目符號圖表
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-badgePremium: label="Adobe Analytics版本" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" tooltip="選取「 」即可檢視本文的Adobe Analytics版本。"
-source-git-commit: 896c7be6f1cfa4b0b714eb08ac47c1b89edecb79
+source-git-commit: 9494d13d0f2d0205d2929796f5f0d8299fdefbc5
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 60%
+source-wordcount: '249'
+ht-degree: 59%
 
 ---
 
@@ -20,7 +19,6 @@ ht-degree: 60%
 >id="workspace_bullet_goalvalue"
 >title="目標值"
 >abstract="**[!UICONTROL 高目標]**&#x200B;是您的主要目標。**[!UICONTROL 低目標]**&#x200B;和&#x200B;**[!UICONTROL 中目標]**&#x200B;會建立低於[!UICONTROL 高目標]的範圍。注意：當勾選「**[!UICONTROL 百分比]**」選項時，請以整數形式輸入目標。例如：如果您的目標是百分之二十，輸入 `20`。"
->additional-url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" text="專案符號(Adobe Analytics)"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -32,6 +30,8 @@ ht-degree: 60%
 >abstract="建立項目符號圖視覺效果以顯示量度與效能範圍 (目標) 相比較或進行衡量的結果。"
 
 <!-- markdownlint-enable MD034 -->
+
+*本文以&#x200B;**Customer Journey Analytics**記錄專案符號視覺效果。 請參閱此文章的&#x200B;**AdobeAnaytics**版本的[專案符號](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)。*
 
 ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]**&#x200B;視覺效果會顯示量度與效能範圍（目標）的比較或測量方式。
 
