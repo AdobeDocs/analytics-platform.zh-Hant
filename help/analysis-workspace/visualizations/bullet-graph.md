@@ -4,7 +4,7 @@ title: 項目符號圖表
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 9494d13d0f2d0205d2929796f5f0d8299fdefbc5
+source-git-commit: 59b0462f114ca98289b4f7de92478d031d97fd31
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 59%
@@ -31,7 +31,11 @@ ht-degree: 59%
 
 <!-- markdownlint-enable MD034 -->
 
+>[!BEGINSHADEBOX]
+
 *本文以&#x200B;**Customer Journey Analytics**記錄專案符號視覺效果。 請參閱此文章的&#x200B;**AdobeAnaytics**版本的[專案符號](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)。*
+
+>[!ENDSHADEBOX]
 
 ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]**&#x200B;視覺效果會顯示量度與效能範圍（目標）的比較或測量方式。
 
