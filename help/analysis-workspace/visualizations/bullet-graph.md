@@ -4,11 +4,11 @@ title: 項目符號圖表
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-badgePremium: label="↗︎ Adobe Analytics版本" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" tooltip="選取「 」即可檢視本文的Adobe Analytics版本。"
-source-git-commit: 8278c29186f763729445928a41d5aa3ffe0d2eb4
+badgePremium: label="Adobe Analytics版本" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph.html" tooltip="選取「 」即可檢視本文的Adobe Analytics版本。"
+source-git-commit: 896c7be6f1cfa4b0b714eb08ac47c1b89edecb79
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 59%
+source-wordcount: '246'
+ht-degree: 60%
 
 ---
 
