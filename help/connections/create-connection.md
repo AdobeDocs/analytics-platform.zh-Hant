@@ -5,7 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
 workflow-type: tm+mt
 source-wordcount: '4260'
 ht-degree: 99%
@@ -187,7 +187,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_primaryID"
+>id="cja_connection_primaryid"
 >title="主要 ID"
 >abstract="為您的連線選取正確的主要 ID：B2C 情境的人員。B2B 情境適用的帳戶。"
 
@@ -196,7 +196,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_optionalContainers"
+>id="cja_connection_optionalcontainers"
 >title="選用容器"
 >abstract="選取其他容器。<br/><br/>**[!UICONTROL 全域帳戶&#x200B;]**：可以設定在連線中的全域帳戶。<br/>**[!UICONTROL 機會]**：可以設定在連線中的機會。<br/>**[!UICONTROL 購買群組&#x200B;]**：可以設定在連線中的購買群組。"
 
@@ -205,7 +205,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_personID"
+>id="cja_connection_personid"
 >title="人員 ID"
 >abstract="在 Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取人員 ID。"
 
@@ -214,7 +214,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_accountID"
+>id="cja_connection_accountid"
 >title="帳戶 ID"
 >abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個帳戶 ID (帳戶的唯一身分識別碼)。"
 
@@ -223,7 +223,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_accountField"
+>id="cja_connection_accountfield"
 >title="帳戶欄位"
 >abstract="選取代表帳戶ID （帳戶的唯一識別碼）的欄位。"
 
@@ -233,7 +233,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_globalAccountID"
+>id="cja_connection_globalaccountid"
 >title="全域帳戶 ID"
 >abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個全域帳戶 ID (全域帳戶的唯一身分識別碼)。"
 
@@ -242,7 +242,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_opportunityID"
+>id="cja_connection_opportunityid"
 >title="機會 ID"
 >abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個機會 ID (機會的唯一身分識別碼)。"
 
@@ -251,7 +251,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_connection_buyingGroupID"
+>id="cja_connection_buyinggroupid"
 >title="購買群組 ID"
 >abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個購買群組 ID (購買群組的唯一身分識別碼)。"
 
@@ -305,7 +305,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_primaryID"
+>id="connection_primaryid"
 >title="主要 ID"
 >abstract="為您的連線選取正確的主要 ID：B2C 情境的人員。B2B 情境適用的帳戶。"
 
@@ -314,7 +314,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_optionalContainers"
+>id="connection_optionalcontainers"
 >title="選用容器"
 >abstract="選取其他容器。<br/><br/>**[!UICONTROL 全域帳戶&#x200B;]**：可以設定在連線中的全域帳戶。<br/>**[!UICONTROL 機會]**：可以設定在連線中的機會。<br/>**[!UICONTROL 購買群組&#x200B;]**：可以設定在連線中的購買群組。"
 
@@ -323,7 +323,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_personID"
+>id="connection_personid"
 >title="人員 ID"
 >abstract="在 Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取人員 ID。"
 
@@ -332,14 +332,14 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_accountID"
+>id="connection_accountid"
 >title="帳戶 ID"
 >abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個帳戶 ID (帳戶的唯一身分識別碼)。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_accountField"
+>id="connection_accountfield"
 >title="帳戶欄位"
 >abstract="選取代表帳戶ID （帳戶的唯一識別碼）的欄位。"
 
@@ -348,7 +348,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_globalAccountID"
+>id="connection_globalaccountid"
 >title="全域帳戶 ID"
 >abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個全域帳戶 ID (全域帳戶的唯一身分識別碼)。"
 
@@ -357,7 +357,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_opportunityID"
+>id="connection_opportunityid"
 >title="機會 ID"
 >abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個機會 ID (機會的唯一身分識別碼)。"
 
@@ -366,7 +366,7 @@ ht-degree: 99%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="connection_buyingGroupID"
+>id="connection_buyinggroupid"
 >title="購買群組 ID"
 >abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個購買群組 ID (購買群組的唯一身分識別碼)。"
 
