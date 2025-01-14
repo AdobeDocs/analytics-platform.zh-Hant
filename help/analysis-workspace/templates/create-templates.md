@@ -4,9 +4,9 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: c5c05e17ad3b3e2bbf643d47bd58cde5ac2de0cb
+source-git-commit: 198d2670b2008cb669433753d5bfedd90f71c220
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1630'
 ht-degree: 2%
 
 ---
@@ -191,3 +191,10 @@ ht-degree: 2%
 就像Adobe提供的範本一樣，組織中的使用者可以存取管理員建立的範本。
 
 如需有關如何存取公司範本的資訊，請參閱[使用範本](/help/analysis-workspace/templates/use-templates.md)中的[存取並執行範本](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template)。
+
+## 隱藏「範本」標籤
+
+管理員可以為其組織內的所有使用者隱藏「範本」標籤。
+
+1. 移至&#x200B;**[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 偏好設定]** > **[!UICONTROL 公司]**。
+1. 選取&#x200B;**[!UICONTROL 隱藏範本索引標籤]**&#x200B;的選項。
