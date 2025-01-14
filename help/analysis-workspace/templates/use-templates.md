@@ -3,12 +3,10 @@ description: 概述如何使用Analysis Workspace中的預設範本。
 title: 使用範本
 feature: Workspace Basics
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: c5c05e17ad3b3e2bbf643d47bd58cde5ac2de0cb
 workflow-type: tm+mt
-source-wordcount: '19285'
+source-wordcount: '19294'
 ht-degree: 73%
 
 ---
@@ -65,7 +63,9 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
    >[!NOTE]
    >
-   >   管理員必須先將這些遺失元件的必要內容標籤新增到資料檢視，您才能使用這些範本。 如需詳細資訊，請參閱[使用範本](/help/analysis-workspace/templates/create-templates.md)中的[將缺少的元件新增到指定範本](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)的資料檢視。
+   >管理員必須先將這些遺失元件的必要內容標籤新增到資料檢視，您才能使用這些範本。 如需詳細資訊，請參閱[使用範本](/help/analysis-workspace/templates/create-templates.md)中的[將缺少的元件新增到指定範本](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)的資料檢視。
+   >
+   >如需內容標籤的詳細資訊，請參閱[元件設定](/help/data-views/component-settings/overview.md)。
 
    1. 選取篩選器圖示。
 

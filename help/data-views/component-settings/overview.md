@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: e326b5457c82a7b4789c68588546707fabca42f6
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 77%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 | [!UICONTROL 元件名稱] | 必填。可讓您指定在 Analysis Workspace 中顯示的友好名稱。您可以重新命名元件，給它一個特定於資料檢視的名稱。 |
 | [!UICONTROL 說明] | 選填，但建議。為其他使用者提供有關元件的資訊。 |
 | [!UICONTROL 標記] | 選填。可讓您使用自訂或現成可用的標籤來標記元件，以便在 Analysis Workspace UI 中更輕鬆地進行搜尋/篩選。 |
-| [!UICONTROL 內容標籤] | 選填。可套用至元件之可用系統定義標籤的下拉式清單。可能需要使用這些標籤來定義一組元件，您可以使用 Analysis Workspace 專案中的[實驗面板](/help/analysis-workspace/c-panels/experimentation.md)，在實驗報告中使用這些元件。如需詳細資訊，請參閱[與 Journey Optimizer 整合](/help/integrations/ajo.md#data-view)和 [Target 報告](/help/integrations/at.md)。 |
+| [!UICONTROL 內容標籤] | 選填。可套用至元件的可用系統定義標籤下拉式清單。 <p>在下列情況下可能需要這些標籤：</p> <ul><li>若要定義一組元件，您可以在Analysis Workspace專案中使用[Experimentation面板](/help/analysis-workspace/c-panels/experimentation.md)在Experimentation報表中使用。<p>如需詳細資訊，請參閱[與Journey Optimizer](/help/integrations/ajo.md#data-view)整合[目標報告](/help/integrations/at.md)。</p></li><li>使用Adobe提供的範本時。 根據預設，Adobe提供的某些範本將無法運作，因為它們包含不在資料檢視中的元件。<p>對於每一個遺失的元件，您的資料檢視中都有相符的內容標籤。 您需要將相符的內容標籤新增到資料檢視中已存在的元件，或者您需要將新的元件新增到資料檢視並將內容標籤新增到其中。</p><p>如需詳細資訊，請參閱文章[建立和管理範本](/help/analysis-workspace/templates/create-templates.md)中的[將缺少的元件新增到指定範本的資料檢視](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template)。</p> |
 | [!UICONTROL 結構描述欄位名稱] | 結構描述欄位的名稱。 |
 | [!UICONTROL 資料集類型] | 必填。不可編輯的欄位，顯示元件來自的資料集類型 (事件、查詢或輪廓)。 |
 | [!UICONTROL 資料集] | 不可編輯的欄位，顯示元件來自的資料集。此欄位可包含多個資料集。 |
