@@ -4,14 +4,77 @@ title: 智慧型註解
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: c65efad313df660467f5738d3fcbbb327060a502
+source-git-commit: de0eca21fa1b4ac71a8273676e851b596cf911a8
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 5%
+source-wordcount: '771'
+ht-degree: 20%
 
 ---
 
-# 智慧型註解
+# 智慧型註解 {#intelligent-captions}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_area"
+>title="智慧型字幕：區域"
+>abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_bar"
+>title="智慧型字幕：長條圖"
+>abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_donut"
+>title="智慧型字幕：環形圖"
+>abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_horizontalbar"
+>title="智慧型字幕：橫條圖"
+>abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_line"
+>title="智慧型字幕：線條"
+>abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_fallout"
+>title="智慧型字幕：流失"
+>abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_intelligentcaptions_flow"
+>title="智慧型字幕：流量"
+>abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
+
+<!-- markdownlint-enable MD034 -->
 
 智慧型註解使用進階的機器學習和生成式 AI，為 Workspace 視覺效果提供有價值的自然語言深入解析。初始發行提供自動產生的[線條](line.md)視覺化前瞻分析。 隨後將提供其他視覺效果。
 
