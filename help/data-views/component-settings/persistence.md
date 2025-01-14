@@ -5,7 +5,7 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: ce1f27b00b55d5c3780907c50107b081264000bd
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 81%
@@ -18,7 +18,7 @@ ht-degree: 81%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_persistence"
+>id="dataview_component_dimension_persistence"
 >title="持續性"
 >abstract="設定套用至維度的預設配置模式。配置會在報告中的篩選器之前套用。如要了解更多資訊，請參閱[配置設定](/help/data-views/component-settings/persistence.md#allocation-settings)、[過期設定](/help/data-views/component-settings/persistence.md#expiration-settings)、[繫結維度](/help/data-views/component-settings/persistence.md#binding-dimension) 和[繫結量度](/help/data-views/component-settings/persistence.md#binding-metric)。"
 
@@ -38,7 +38,7 @@ ht-degree: 81%
   >
   >但是，執行包含多個維度的[完整資料表匯出](/help/analysis-workspace/export/export-cloud.md)時，歸因會保留套用至每個維度的配置模型。
 
-* **到期日**&#x200B;可讓您確定維度項目在其設定的事件之後持續多長時間。
+* **期限**&#x200B;可讓您確定維度項目在其設定的事件之後持續多長時間。
 
 [!UICONTROL 持續性]僅在維度上可用，並且可追溯至套用到的資料。它是發生在套用篩選或其他分析作業之前的立即資料轉換。
 
@@ -46,7 +46,7 @@ ht-degree: 81%
 | --- | --- |
 | [!UICONTROL 設定持續性] | 啟用維度的持續性。如果未啟用持續性，則維度僅與同一事件中存在的量度相關。此設定預設為停用。 |
 | [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。2021 年 10 月 28 日起，一個最多 90 天的回顧期間會新增至[!UICONTROL 分配]設定中。 |
-| [!UICONTROL 有效期] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 自訂時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。您可以設定的最長到期時間為 90 天。如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]到期可用。 |
+| [!UICONTROL 期限] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 自訂時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。您可以設定的最長期限為 90 天。如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]期限可用。 |
 
 {style="table-layout:auto"}
 
@@ -54,21 +54,21 @@ ht-degree: 81%
 
 有關可用配置設定的詳細資料。
 
-* **[!UICONTROL 最近]**：儲存最近 (依時間戳記) 存在於維度中的值。維度到期期間內出現的任何後續值都會取代之前的保存值。如果在[「沒有值選項」](no-value-options.md)下在此維度上啟用了「將沒有值視為一個值」，則空值會覆寫以前保存的值。例如，考慮包含[!UICONTROL 最近]的配置和[!UICONTROL 工作階段]到期的下表：
+* **[!UICONTROL 最近]**：儲存最近 (依時間戳記) 存在於維度中的值。維度期限內出現的任何後續值都會取代之前的保存值。如果在[「沒有值選項」](no-value-options.md)下在此維度上啟用了「將沒有值視為一個值」，則空值會覆寫以前保存的值。例如，考慮包含[!UICONTROL 最近]的配置和[!UICONTROL 工作階段]期限的下表：
 
   | 維度 | 點擊 1 | 點擊 2 | 點擊 3 | 點擊 4 | 點擊 5 |
   | --- | --- | --- | --- | --- | --- |
   | 資料集的值 |  | C | B |  | A |
   | 最近配置 |  | C | B | B | A |
 
-* **[!UICONTROL 原始]**：在有效期內儲存存在於維度中的原始值 (依時間戳記)。 如果此維度具有值，則在後續事件中看到不同的值時不會覆寫該維度。例如，考慮包含[!UICONTROL 原始]配置和[!UICONTROL 工作階段]到期的下表：
+* **[!UICONTROL 原始]**：在期限內儲存存在於維度中的原始值 (依時間戳記)。 如果此維度具有值，則在後續事件中看到不同的值時不會覆寫該維度。例如，考慮包含[!UICONTROL 原始]配置和[!UICONTROL 工作階段]期限的下表：
 
   | 維度 | 點擊 1 | 點擊 2 | 點擊 3 | 點擊 4 | 點擊 5 |
   | --- | --- | --- | --- | --- | --- |
   | 資料集的值 |  | C | B |  | A |
   | 原始配置 |  | C | C | C | C |
 
-* **[!UICONTROL 全部]**：作用類似於量度的[!UICONTROL 參與率]歸因模式。 平等地保留所有值，因此每個值都可以完全歸功於報告中的量度。例如，考慮包含[!UICONTROL 全部]配置和[!UICONTROL 工作階段]到期的下表：
+* **[!UICONTROL 全部]**：作用類似於量度的[!UICONTROL 參與率]歸因模式。 平等地保留所有值，因此每個值都可以完全歸功於報告中的量度。例如，考慮包含[!UICONTROL 全部]配置和[!UICONTROL 工作階段]期限的下表：
 
   | 維度 | 點擊 1 | 點擊 2 | 點擊 3 | 點擊 4 | 點擊 5 |
   | --- | --- | --- | --- | --- | --- |
@@ -84,14 +84,14 @@ ht-degree: 81%
   | 最先已知 | C | C | C | C | C |
   | 最後已知 | A | A | A | A | A |
 
-## [!UICONTROL 到期]設定
+## [!UICONTROL 期限]設定
 
-有關可用到期設定的詳細資料。
+有關可用期限設定的詳細資料。
 
-* **工作階段**：在指定的工作階段後過期。預設到期窗口。
+* **工作階段**：在指定的工作階段後過期。預設期限窗口。
 * **人員**：在您的報告期間結束時到期。
-* **自訂時間**：在指定的時段 (最長 90 天) 後到期。這個到期選項僅適用於「原始」和「最近」配置模式。 在使用以時間為準的有效期時，將會考量您的報告期間 (最長 90 天) 開始前的值。
-* **量度**：在事件中看到此量度時，請讓維度中的儲存值立即過期。 您可以使用量度當做此維度的到期點。 這個到期選項僅適用於「原始」和「最近」配置設定。
+* **自訂時間**：在指定的時段 (最長 90 天) 後到期。這個期限選項僅適用於「原始」和「最近」配置模式。 在使用以時間為準的期限時，將會考量您的報告期間 (最長 90 天) 開始前的值。
+* **量度**：在事件中看到此量度時，請讓維度中的儲存值立即過期。 您可以使用量度當做此維度的過期點。 這個期限選項僅適用於「原始」和「最近」配置設定。
 
 ## [!UICONTROL 繫結維度]
 

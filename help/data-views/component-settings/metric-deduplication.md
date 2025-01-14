@@ -5,8 +5,8 @@ exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
-workflow-type: ht
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_metric_deduplication"
+>id="dataview_component_metric_deduplication"
 >title="量度重複資料刪除"
 >abstract="設定量度，僅對非重複出現的值進行計數。"
 

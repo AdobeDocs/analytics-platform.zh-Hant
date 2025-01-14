@@ -4,7 +4,7 @@ title: 建置篩選器
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 388708526204f0854b486643fa58d1f8504575aa
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 10%
@@ -16,7 +16,7 @@ ht-degree: 10%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_createaudience"
+>id="components_filters_createaudience"
 >title="建立客群"
 >abstract="客群可以透過篩選器建立，並與 Adobe Experience Platform 共用以進行啟用。"
 
@@ -25,7 +25,7 @@ ht-degree: 10%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_datapreview"
+>id="components_filters_datapreview"
 >title="資料預覽"
 >abstract="將此篩選器的資料與資料檢視的資料進行比較。此預覽百分比是根據資料檢視中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
 
@@ -158,7 +158,7 @@ CA和平板電腦的![棧疊篩選器](assets/filter-ca-tablet-stacked.png)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_repeating"
+>id="components_filters_attribution_repeating"
 >title="重複"
 >abstract="包括維度的例項和持續值。"
 
@@ -167,7 +167,7 @@ CA和平板電腦的![棧疊篩選器](assets/filter-ca-tablet-stacked.png)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_instance"
+>id="components_filters_attribution_instance"
 >title="例項"
 >abstract="包括維度的例項和持續值。"
 
@@ -176,7 +176,7 @@ CA和平板電腦的![棧疊篩選器](assets/filter-ca-tablet-stacked.png)
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_filters_attribution_nonrepeatinginstance"
+>id="components_filters_attribution_nonrepeatinginstance"
 >title="非重複的例項"
 >abstract="包括維度的唯一例項 (非重複) 例項。"
 

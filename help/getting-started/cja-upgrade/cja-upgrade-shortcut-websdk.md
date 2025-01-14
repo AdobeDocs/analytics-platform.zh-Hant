@@ -1,5 +1,5 @@
 ---
-title: 升級捷徑移轉AppMeasurement或Analytics擴充功能實作以使用Web SDK
+title: 升級捷徑移轉AppMeasurement或Analytics擴充功能實作，以使用網頁SDK
 description: 瞭解從Adobe Analytics升級為Customer Journey Analytics時的建議路徑
 role: Admin
 solution: Customer Journey Analytics
@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 83927cf0-b3b4-42b4-9ca5-0c81c091383f
-source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 9%
+source-wordcount: '690'
+ht-degree: 15%
 
 ---
 
@@ -29,13 +29,22 @@ ht-degree: 9%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="migrate_aa_to_websdk"
+>title="移轉您的 Analytics 實作以使用 Web SDK"
+>abstract="您可以透過資料物件以 AppMeasurement 格式傳送所有變數，而非透過 XDM 物件傳送資料。您可以利用此捷徑，繼續使用 AppMeasurement 邏輯將資料傳送到 Platform。"
+
+<!-- markdownlint-enable MD034 -->
+
 升級至Customer Journey Analytics時，Adobe[建議Experience PlatformWeb SDK](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)的新實作。 不過，根據數個因素（例如時間表和資源限制），建議的升級步驟可能對您的組織而言不實用。
 
-如果您的Adobe Analytics實作AppMeasurement或Analytics擴充功能，有升級捷徑可讓您移轉Adobe Analytics實作，以便使用Adobe Experience Platform Web SDK開始傳送資料給Edge Network和Adobe Analytics，然後再傳送給Customer Journey Analytics。
+如果您的Adobe Analytics實作AppMeasurement或Analytics擴充功能，有升級捷徑可讓您移轉Adobe Analytics實作，以便使用Adobe Experience Platform Web SDK開始將資料傳送至Edge Network和Adobe Analytics，然後再傳送至Customer Journey Analytics。
 
 ## 優點與缺點
 
-請考量下列升級捷徑的優缺點，以移轉您的AppMeasurement或Analytics擴充功能實作來使用Web SDK：
+請考量下列升級捷徑的優點和缺點，移轉您的AppMeasurement或Analytics擴充功能實作以使用Web SDK：
 
 | 優勢 | 缺點 |
 |----------|---------|

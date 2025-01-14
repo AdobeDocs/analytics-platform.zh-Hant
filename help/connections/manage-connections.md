@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: c5e5963e6dc4d97de012f825bbea4445cc72d622
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '3749'
-ht-degree: 19%
+source-wordcount: '4023'
+ht-degree: 24%
 
 ---
 
@@ -278,6 +278,82 @@ ht-degree: 19%
 >id="cja_connections_historicalreportablerows"
 >title="歷史可報告列數"
 >abstract="顯示超過 13 個月以前可用的總列數。例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_keyusagemetrics"
+>title="關鍵使用情況量度"
+>abstract="提供核心和歷史可報告列數的每月資料和總資料。"
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_monthlyingestedrows"
+>title="每月攝取列數"
+>abstract="測量每月新增至系統的記錄總數，以提供對資料增長和攝取率的深入分析。"
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_monthlyreportablerows"
+>title="每月可報告列數"
+>abstract="追蹤可供報告的列數。可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。可報告列數是計費和資料使用情況的關鍵量度。"
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_detailbreakdown"
+>title="詳細劃分"
+>abstract="您可以依據連線、資料集、沙箱和標記來檢視詳細量度，並且可選擇下載資料的 CSV 檔案。"
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_otherdatasets"
+>title="其他資料集"
+>abstract="在2024年9月前的月份中，資料會在資料集層級收集，並顯示為&#x200B;*其他資料集*&#x200B;以清楚說明。 從 2024 年 9 月開始在粒度資料集層級收集資料，*其他資料集*&#x200B;將不再顯示。"
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_unknowndatasetsorconnections"
+>title="未知的資料集或連線"
+>abstract="未知的資料集或連線使用其 ID 顯示。"
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_datanotavailable"
+>title="資料無法使用"
+>abstract="由於系統限制，無法取得 2024 年 9 月之前的歷史資料。從 2024 年 9 月起收集和顯示量度。此圖表在時間軸上顯示過去 18 個月，而取得可用資料之後將會顯示未來的資料。"
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_corereportablerows"
+>title="核心可報告列數"
+>abstract="顯示過去 13 個月的可用總列數。例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_historicalreportablerows"
+>title="歷史可報告列數"
+>abstract="顯示超過 13 個月以前可用的總列數。例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
+
 <!-- markdownlint-enable MD034 -->
 
 

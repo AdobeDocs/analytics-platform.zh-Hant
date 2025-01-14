@@ -4,7 +4,7 @@ title: 資料字典概觀
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 76%
@@ -16,7 +16,7 @@ ht-degree: 76%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_datadictionary"
+>id="component_datadictionary"
 >title="資料字典"
 >abstract="資料字典可協助使用者和管理員追蹤並進一步了解其 Analytics 環境中的元件。<br/>Analytics 管理員負責整理關於資料字典中提供給使用者的每個元件的資訊。"
 

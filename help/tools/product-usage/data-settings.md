@@ -1,10 +1,11 @@
 ---
 title: 產品使用資料設定
 description: 啟用、停用或設定產品使用設定。
-source-git-commit: 7d22c512e8e96963b288567704d2245e64411b10
+exl-id: 85e2b515-78e6-41e8-9947-369b1e65e4fd
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 14%
+source-wordcount: '356'
+ht-degree: 23%
 
 ---
 
@@ -32,5 +33,15 @@ _資料設定_&#x200B;頁面會處理您的產品使用設定。 您可以使用
 
 >[!CONTEXTUALHELP]
 >id="cja_product_usage_data_retention"
+>title="覆寫資料保留期間"
+>abstract="縮短產品使用資料的可用性，以幫助降低成本或遵守隱私權準則。"
+
+>[!CONTEXTUALHELP]
+>id="product_usage_sandbox"
+>title="Adobe Experience Platform 沙箱"
+>abstract="確定在其下建立結構描述和資料集的 Adobe Experience Platform 沙箱。"
+
+>[!CONTEXTUALHELP]
+>id="product_usage_data_retention"
 >title="覆寫資料保留期間"
 >abstract="縮短產品使用資料的可用性，以幫助降低成本或遵守隱私權準則。"

@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3a0c6c22422ca7f8d4f954f3d9711c5c3501cc03
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
-source-wordcount: '3769'
-ht-degree: 100%
+source-wordcount: '4260'
+ht-degree: 99%
 
 ---
 
@@ -68,6 +68,59 @@ ht-degree: 100%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_recordsadded"
+>title="新增的記錄"
+>abstract="所選資料集在所選的時間間隔中新增至連線的記錄 (列) 數。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_recordsskipped"
+>title="略過的記錄"
+>abstract="所選資料集在所選的時間間隔中於連線的資料傳輸期間略過的記錄 (列) 數。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connections_recordsdeleted"
+>title="刪除的記錄"
+>abstract="所選資料集在所選的時間間隔內從連線中移除的記錄 (列) 數"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_lastadded"
+>title="上次新增時間"
+>abstract="從任何資料集中傳輸至連線的最後批次的時間戳記。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_enablerollingdatawindow"
+>title="啟用滾動資料時間範圍"
+>abstract="在連線層級將資料保留定義為以月為單位的滾動時間範圍。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_averagenumberofdailyuses"
+>title="平均每日使用數"
+>abstract="選取整個連線的預期每日事件數範圍。"
+
+<!-- markdownlint-enable MD034 -->
 
 
 透過輔助工作流程，建立連線和編輯工作流程體驗可將所有資料集和連線組態設定彙整到畫面中央處。它提供詳細的資料集選擇、設定和檢閱體驗。可讓您指定資料集類型、大小、綱要、資料集 ID、批次狀態、回填狀態、人員 ID 等重要資訊，以降低連線設定錯誤的風險。以下是功能概觀：
@@ -140,7 +193,6 @@ ht-degree: 100%
 
 <!-- markdownlint-enable MD034 -->
 
-
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
@@ -167,6 +219,16 @@ ht-degree: 100%
 >abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個帳戶 ID (帳戶的唯一身分識別碼)。"
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_connection_accountField"
+>title="帳戶欄位"
+>abstract="選取代表帳戶ID （帳戶的唯一識別碼）的欄位。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 <!-- markdownlint-disable MD034 -->
 
@@ -235,6 +297,121 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_connectionmap"
+>title="連接圖"
+>abstract="連接圖會以視覺化方式顯示事件、人員、帳戶和相關查詢資料集 (如機會、行銷活動成員等) 之間的關係。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_primaryID"
+>title="主要 ID"
+>abstract="為您的連線選取正確的主要 ID：B2C 情境的人員。B2B 情境適用的帳戶。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_optionalContainers"
+>title="選用容器"
+>abstract="選取其他容器。<br/><br/>**[!UICONTROL 全域帳戶&#x200B;]**：可以設定在連線中的全域帳戶。<br/>**[!UICONTROL 機會]**：可以設定在連線中的機會。<br/>**[!UICONTROL 購買群組&#x200B;]**：可以設定在連線中的購買群組。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_personID"
+>title="人員 ID"
+>abstract="在 Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取人員 ID。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_accountID"
+>title="帳戶 ID"
+>abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個帳戶 ID (帳戶的唯一身分識別碼)。"
+
+<!-- markdownlint-enable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_accountField"
+>title="帳戶欄位"
+>abstract="選取代表帳戶ID （帳戶的唯一識別碼）的欄位。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_globalAccountID"
+>title="全域帳戶 ID"
+>abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個全域帳戶 ID (全域帳戶的唯一身分識別碼)。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_opportunityID"
+>title="機會 ID"
+>abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個機會 ID (機會的唯一身分識別碼)。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_buyingGroupID"
+>title="購買群組 ID"
+>abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個購買群組 ID (購買群組的唯一身分識別碼)。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_matchingkey"
+>title="比對索引鍵"
+>abstract="選取加入方式：根據比對索引鍵或比對索引容器。<br/><br/>**[!UICONTROL 比對索引鍵&#x200B;]**：選取要加入其中一個事件資料集的欄位。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 比對索引容器]**：選取一個用於加入其中一個事件資料集的容器。若此清單空白，您可能尚未設定一個或多個容器。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_importnewdata"
+>title="匯入新資料"
+>abstract="在 Experience Platform 資料集中新增的任何新批次都會自動新增至此連線中，並可供分析。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_datasetbackfill"
+>title="資料集回填"
+>abstract="此選項將從 Experience Platform 回填連線中此資料集的現有 (歷史) 資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_transformdataset"
+>title="轉換資料集"
+>abstract="此選項將會轉換資料集，使其可用於 B2B 情境中基於人員的查詢。一旦開啟，資料集的轉換是不可逆的。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="connection_connectionmap"
 >title="連接圖"
 >abstract="連接圖會以視覺化方式顯示事件、人員、帳戶和相關查詢資料集 (如機會、行銷活動成員等) 之間的關係。"
 

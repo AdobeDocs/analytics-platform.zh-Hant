@@ -4,8 +4,8 @@ description: 如何在 Workspace 中建立註解。
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
-workflow-type: ht
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_annotations_details"
+>id="components_annotations_details"
 >title="註解詳細資料"
 >abstract="註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。 註解讓您將行事曆事件和特定的維度/量度連結起來。"
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_annotations_scope"
+>id="components_annotations_scope"
 >title="範圍"
 >abstract="您可以透過範圍自訂將要新增註解的資料。計算量度和區段不會自動繼承套用至其定義中所用元件的註解。您可以將新的計算量度新增至現有註解的範圍區段。新區段需要新的註解。"
 

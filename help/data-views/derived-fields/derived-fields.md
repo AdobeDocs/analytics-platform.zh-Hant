@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 64df8670418524be8879aa6362bb8b7c229025b6
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '8841'
 ht-degree: 17%
@@ -17,7 +17,7 @@ ht-degree: 17%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields"
+>id="dataview_derivedfields"
 >title="衍生欄位"
 >abstract="衍生欄位可讓您透過可自訂的規則產生器，迅速定義資料操作。您接著可以將衍生欄位用作為 Workspace 中的元件 (量度或維度)，甚至進一步在資料釋圖中定義為元件。"
 
@@ -46,7 +46,7 @@ ht-degree: 17%
 
 |  | 名稱 | 說明 |
 |---------|----------|--------|
-| 1 | **選取器** | 您可使用選取器區域來選取您的函式、函式範本、結構描述欄位或標準欄位，並將其拖放至規則產生器。 <br/>使用下拉式清單來選取： <br/>![函式](assets/Smock_Function_18_N.svg) [!UICONTROL 函式] — 列出可用的[函式](#function-reference)，</br>![函式範本圖示](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL 函式範本] — 列出可用的[函式範本](#function-templates)，<br/>![結構描述欄點陣圖示](assets/Smock_Folder_18_N.svg) [!UICONTROL 結構描述欄位] — 列出資料集類別（事件、設定檔、查詢）和先前定義的衍生欄位中可用的欄位，以及<br/>![標準欄點陣圖示](assets/Smock_DragHandle_18_N.svg) [!UICONTROL 標準欄位] — 可用欄位例如Platform資料集ID)。 選擇器中只會顯示字串和數值標準欄位。 如果函式支援其他資料型別，則可以為規則介面中的值或欄位選取具有這些其他資料型別的標準欄位。<br/>您可以使用![搜尋圖示](assets/Smock_Search_18_N.svg)搜尋方塊來搜尋功能、功能範本、結構描述和標準欄位。 <br/>您可以選取![篩選圖示](assets/Smock_Filter_18_N.svg)篩選來篩選選取的物件清單，並在[!UICONTROL 篩選欄位中指定]對話方塊。 您可以對每個篩選器使用![關閉圖示](assets/CrossSize75.svg)，輕鬆移除篩選器。 |
+| 1 | **選取器** | 您可使用選取器區域來選取您的函式、函式範本、結構描述欄位或標準欄位，並將其拖放至規則產生器。 <br/>使用下拉式清單來選取： <br/>![函式](assets/Smock_Function_18_N.svg) [!UICONTROL 函式] — 列出可用的[函式](#function-reference)，</br>![函式範本圖示](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL 函式範本] — 列出可用的[函式範本](#function-templates)，<br/>![結構描述欄點陣圖示](assets/Smock_Folder_18_N.svg) [!UICONTROL 結構描述欄位] — 列出資料集類別（事件、設定檔、查詢）和先前定義的衍生欄位中可用的欄位，以及<br/>![標準欄點陣圖示](assets/Smock_DragHandle_18_N.svg) [!UICONTROL 標準欄位] — 可用欄位（如Platform資料集ID）。 選擇器中只會顯示字串和數值標準欄位。 如果函式支援其他資料型別，則可以為規則介面中的值或欄位選取具有這些其他資料型別的標準欄位。<br/>您可以使用![搜尋圖示](assets/Smock_Search_18_N.svg)搜尋方塊來搜尋功能、功能範本、結構描述和標準欄位。 <br/>您可以選取![篩選圖示](assets/Smock_Filter_18_N.svg)篩選來篩選選取的物件清單，並在[!UICONTROL 篩選欄位中指定]對話方塊。 您可以對每個篩選器使用![關閉圖示](assets/CrossSize75.svg)，輕鬆移除篩選器。 |
 | 2 | **規則產生器** | 您可使用一或多個規則依序建置衍生欄位。 規則是函式的特定實作，因此一律只與一個函式相關聯。 將函式拖放至規則產生器，即可建立規則。 函式型別會決定規則的介面。<br/>如需詳細資訊，請參閱[規則介面](#rule-interface)。 <br/>您可以在規則產生器中已有可用的規則開始、結束或之間插入函式。 規則產生器中的最後一個規則會決定衍生欄位的最終輸出。 |
 | 3 | **[!UICONTROL **&#x200B;欄位設定&#x200B;**]** | 您可以命名和描述衍生欄位，並檢查其欄位型別。 |
 | 4 | **[!UICONTROL **&#x200B;最終輸出&#x200B;**]** | 此區域會根據過去30天的資料以及您在規則產生器中對衍生欄位所做的變更，顯示輸出值的即時更新預覽。 |
@@ -430,7 +430,7 @@ ht-degree: 17%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_casewhen"
+>id="dataview_derivedfields_casewhen"
 >title="情況"
 >abstract="此函數提供了根據一個或多個欄位中定義的標準來套用條件的功能。然後，使用這些標準根據條件的順序定義新衍生欄位中的值。"
 
@@ -670,7 +670,7 @@ Customer Journey Analytics會使用以下預設容器模型：
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_classify"
+>id="dataview_derivedfields_classify"
 >title="分類"
 >abstract="此函數提供了定義一組值的功能，這些值可透過文字輸入取代為對應的值。"
 
@@ -815,7 +815,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_concatenate"
+>id="dataview_derivedfields_concatenate"
 >title="串連"
 >abstract="此函數提供將兩個或多個欄位、衍生欄位或使用者輸入字串值組合到具有已定義分隔符號的單一欄位的功能"
 
@@ -902,7 +902,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_deduplicate"
+>id="dataview_derivedfields_deduplicate"
 >title="重複資料刪除"
 >abstract="此函數提供了將欄位設定為僅在工作階段或個人層級不重複地計算值的功能。此外，重複資料刪除 ID 可用於確保根據特定 ID (例如購買 ID) 僅使用一個值 (第一個例項或最後一個例項)。"
 
@@ -997,7 +997,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_findandreplace"
+>id="dataview_derivedfields_findandreplace"
 >title="尋找並取代"
 >abstract="此函數提供了在選定欄位中尋找所有值，並將這些值取代為新衍生欄位中不同值的功能。"
 
@@ -1077,7 +1077,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_lookup"
+>id="dataview_derivedfields_lookup"
 >title="查詢"
 >abstract="此函數提供了使用資料集之間的比對索引鍵來使用查詢資料集中的欄位的功能。"
 
@@ -1138,7 +1138,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_lowercase"
+>id="dataview_derivedfields_lowercase"
 >title="小寫"
 >abstract="此函數會將整個字串文字轉換為小寫值。"
 
@@ -1199,7 +1199,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_math"
+>id="dataview_derivedfields_math"
 >title="Math"
 >abstract="此函數提供在欄位上執行數學運算的功能。此函數可用於執行基本算術運算，例如加減乘除。"
 
@@ -1290,7 +1290,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_mergefields"
+>id="dataview_derivedfields_mergefields"
 >title="合併欄位"
 >abstract="此函數提供從兩個不同欄位取得值並將其各自的值包含在單一維度中的功能。這個規則會先檢查是否已設定第一個值。如果未設定，則將使用第二個值，依此類推。"
 
@@ -1323,7 +1323,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 {style="table-layout:auto"}
 
-| 來電原因 | 工作階段 | 訪客 |
+| 呼叫原因 | 工作階段 | 訪客 |
 |---|--:|--:|
 | 關於我訂單的問題 | 275 | 250 |
 | 變更我的訂單 | 150 | 145 |
@@ -1366,7 +1366,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_nextprevious"
+>id="dataview_derivedfields_nextprevious"
 >title="下一個或上一個"
 >abstract="此函數提供查看為特定欄位收集的下一個或上一個值的功能。"
 
@@ -1448,7 +1448,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_regexreplace"
+>id="dataview_derivedfields_regexreplace"
 >title="規則運算式取代"
 >abstract="此函數提供了使用規則運算式擷取部分字串的功能。"
 
@@ -1555,7 +1555,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_split"
+>id="dataview_derivedfields_split"
 >title="Split"
 >abstract="此函數提供了根據分隔符號將一個欄位分割為多個欄位的功能。"
 
@@ -1657,7 +1657,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_summarize"
+>id="dataview_derivedfields_summarize"
 >title="總結"
 >abstract="此函數提供了在事件、工作階段或人員層級彙總值的功能。根據所選欄位的欄位類型，將提供不同的選項。"
 
@@ -1735,7 +1735,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_trim"
+>id="dataview_derivedfields_trim"
 >title="修剪"
 >abstract="此函數提供了從字串的開頭或結尾修剪空格或特殊字元的功能。也能夠指定用於傳回值的字元數 (從字串的前面或末尾開始)。"
 
@@ -1857,7 +1857,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_derivedfields_urlparse"
+>id="dataview_derivedfields_urlparse"
 >title="URL 剖析"
 >abstract="此函數提供剖析 URL 不同部分的能力，包括主機、路徑或查詢參數。"
 

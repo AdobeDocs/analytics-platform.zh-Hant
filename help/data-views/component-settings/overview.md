@@ -5,8 +5,8 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 1158064d46e09435ec2507c47e6e484306ac5a53
-workflow-type: ht
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_settings"
+>id="dataview_component_settings"
 >title="元件設定"
 >abstract="檢視和設定元件名稱、說明和其他相關設定。<br/><br/>**參數&#x200B;**<br/>**隱藏報告中的元件**: 在報告中選取此方塊向非管理員使用者隱藏此元件。管理員仍可以選取 Workspace 專案中的「**[!UICONTROL 顯示所有元件]**」來進行存取。"
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_contextlabels"
+>id="dataview_component_contextlabels"
 >title="內容標籤"
 >abstract="移除內容標籤可能會影響需要該元件的特定面板或報告。"
 

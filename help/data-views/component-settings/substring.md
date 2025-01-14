@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
-source-git-commit: a236b2126c4b998b4d97caab014556e3ee3a9e83
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 94%
@@ -17,9 +17,9 @@ ht-degree: 94%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_dataview_component_dimension_substring"
+>id="dataview_component_dimension_substring"
 >title="子字串"
->abstract="使用規則或規則運算式擷取字串部分。"
+>abstract="使用規則或規則運算式擷取部分字串。"
 
 <!-- markdownlint-enable MD034 -->
 

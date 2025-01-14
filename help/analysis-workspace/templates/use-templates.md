@@ -6,7 +6,7 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 15b278261cc24da46b209d1ce23f38745c06030b
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '19285'
 ht-degree: 73%
@@ -464,7 +464,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_template_time_spent"
+>id="template_time_spent"
 >title="檢視訪客每次造訪期間在您的網站上平均花費的時間，以及使用者在成功事件之前平均花費的時間。會顯示一段期間內的資料，並與先前的期間進行比較。"
 >abstract="**這有助於您**&#x200B;更加了解訪客參與度，以及訪客執行其目標動作 (例如進行購買) 所需的時間。<br/>**根據了解到的內容，您可以**&#x200B;採各種行動，例如評估網站的變更是否讓訪客更能夠快速達到成功事件。<br/>此範本使用日維度和每次造訪所花費的時間 (秒) 量度。"
 

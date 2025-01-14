@@ -4,7 +4,7 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 126d2213b97b71ff3116ff53e56217b8b6e7a479
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 18%
@@ -16,7 +16,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_audiences_refreshfrequency"
+>id="components_audiences_refreshfrequency"
 >title="重新整理頻率"
 >abstract="查看重新評估客群會籍的頻率。<br/>一次性客群僅會評估一次。"
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_audiences_audiencelimit"
+>id="components_audiences_audiencelimit"
 >title="客群限制"
 >abstract="重新整理客群作業會受到其重新整理頻率的限制。"
 
@@ -34,7 +34,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_refreshlookbackwindow"
+>id="component_audiences_refreshlookbackwindow"
 >title="重新整理回顧期間"
 >abstract="定義從評估客群的今天所開始的回顧天數。"
 
@@ -43,7 +43,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_audiencesizelimit"
+>id="component_audiences_audiencesizelimit"
 >title="客群規模限制"
 >abstract="客群不得超過 2000 萬個會員。"
 
@@ -52,7 +52,7 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_component_audiences_namespacesincluded"
+>id="component_audiences_namespacesincluded"
 >title="包含的命名空間"
 >abstract="此客群中的身分識別是由以下命名空間組成的。"
 

@@ -4,10 +4,10 @@ description: 選擇日期範圍，以便在報告中使用。
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: df0fd0af8a22c84705c3dea11065132359dd80ff
+source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 7%
+ht-degree: 39%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 任何人都能建立自訂日期範圍。 您可以透過下列方式建立日期範圍：
 
-![建立附註](assets/create-date-range.png)
+![Create an annotation](assets/create-date-range.png)
 
 * ??在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 日期範圍]**。 從[[!UICONTROL 日期範圍]管理員](/help/components/date-ranges/manage.md)中選取![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**]。
 * ??在Workspace專案中，從視覺效果的內容功能表中，選取&#x200B;**[!UICONTROL 自訂日期範圍至此日期範圍]**。
@@ -36,7 +36,7 @@ ht-degree: 7%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_components_dateranges_endtime"
+>id="components_dateranges_endtime"
 >title="結束時間"
 >abstract="結束時間始終會包含 59 秒。"
 
@@ -52,27 +52,27 @@ ht-degree: 7%
 
 1. 指定日期範圍的&#x200B;**[!UICONTROL 標題]**。 例如，**[!UICONTROL 每季]**。
 1. 選擇性地指定&#x200B;**[!UICONTROL 描述]**。
-1. 透過建立或套用一或多個&#x200B;**[!UICONTROL 標籤]**&#x200B;來組織篩選。 開始輸入以尋找現有可選取的標籤。 或按&#x200B;**[!UICONTROL ENTER]**&#x200B;以新增標籤。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標籤。 |
+1. 透過建立或套用一或多個&#x200B;**[!UICONTROL 標籤]**&#x200B;來組織篩選。 開始輸入內容以尋找您可以選取的現有標記。或按&#x200B;**[!UICONTROL ENTER]**&#x200B;以新增標籤。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標籤。 |
 1. 請先選取開始日期，然後再選取結束日期，以選取&#x200B;**[!UICONTROL 日期範圍]**。
-或者，您也可以從[!UICONTROL *選取預設集*]&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 預設集]**。
+或者，您可以從[!UICONTROL *選取預設集*]&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 預設集]** 。
 
-1. 選擇性地選取&#x200B;**[!UICONTROL 顯示進階設定]**&#x200B;以：
+1. 或者，選取&#x200B;**[!UICONTROL 顯示進階設定]**&#x200B;以進行：
 
-   * 指定預設`12:00 AM` (`0:00`)和`11:59 PM` (`23:59`)以外的開始時間&#x200B;]**和**[!UICONTROL &#x200B;結束時間&#x200B;]**。**[!UICONTROL &#x200B;結束時間一律包括59秒。 對於橫跨許多天的日期範圍，開始時間會套用至日期範圍的第一天，結束時間則套用至日期範圍中的最後一天。 使用&#x200B;**[!UICONTROL （重設時間值）]**&#x200B;將開始和結束時間重設為其預設值。
-   * **[!UICONTROL 使用遞延日期]**。 如果啟用，預設日期範圍（例如&#x200B;**[!UICONTROL 最近7天整]**）會動態更新為目前的日期和時間進度。 如果停用，這類預設集在套用後不會更新。
+   * 指定&#x200B;**[!UICONTROL 開始時間]**&#x200B;和&#x200B;**[!UICONTROL 結束時間]** (預設值 `12:00 AM` (`0:00`) 和 `11:59 PM` (`23:59`) 除外)。結束時間始終會包含 59 秒。對於涵蓋很多天的日期範圍，則開始時間適用於日期範圍的第一天，而結束時間則適用於日期範圍的最後一天。使用 **[!UICONTROL (重設時間值)]** 將開始和結束時間重設為預設值。
+   * **[!UICONTROL 使用遞延日期]**。如果啟用，預設日期範圍（例如&#x200B;**[!UICONTROL 最近7天整]**）會動態更新為目前的日期和時間進度。 如果停用，此類預設集一旦套用就不會更新。
 
      您可以選取方括弧中的文字（例如&#x200B;**[!UICONTROL 固定開始 — 每季滾動]**）來延伸面板，並指定&#x200B;**[!UICONTROL 開始]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;的詳細資料。
 
      ![遞回日期](assets/rolliing-dates.png)
 
-      1. 選取&#x200B;**[!UICONTROL 開始]**、**[!UICONTROL 結束]**&#x200B;或&#x200B;**[!UICONTROL 固定日]**。
-      1. 當您選取&#x200B;**[!UICONTROL Start of]**&#x200B;或&#x200B;**[!UICONTROL End of]**&#x200B;時，您可以建置完整的運算式。 例如： **[!UICONTROL 結束]** **[!UICONTROL 目前季度]** **[!UICONTROL 減去]** `20` **[!UICONTROL 天]**。 為運算式的每個個別部分選取適當的值。
-         * 選取目前值。 例如，**[!UICONTROL 目前季度]**。
-         * 選取額外計算的值。 例如，**[!UICONTROL 減]**。
+      1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
+      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如： **[!UICONTROL 結束]** **[!UICONTROL 目前季度]** **[!UICONTROL 減去]** `20` **[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
+         * 選取目前的值。例如，**[!UICONTROL 目前季度]**。
+         * 選取一個值進行其他計算。例如，**[!UICONTROL 減]**。
          * 當您指定其他計算時，請指定值。 例如，`20`。
          * 當您指定其他計算時，請選取用於計算的時間週期。 例如，**[!UICONTROL 天]**。
 
-     選取&#x200B;**[!UICONTROL 隱藏詳細資料]**&#x200B;以隱藏滾動日期計算的詳細資料。
+     選取&#x200B;**[!UICONTROL 隱藏詳細資訊]**&#x200B;以隱藏遞延日期計算的詳細資訊。
 
 1. 選取：
    * **[!UICONTROL 儲存]**&#x200B;以儲存日期範圍。
