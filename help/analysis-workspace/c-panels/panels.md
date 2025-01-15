@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
+source-git-commit: e61368765dde35e6d9beed7713a7a28db0c2af98
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 100%
+source-wordcount: '2159'
+ht-degree: 98%
 
 ---
 
@@ -145,19 +145,23 @@ ht-degree: 100%
 您也可以將非篩選元件直接拖曳到下拉區域來建立快速篩選器，以省下前往[篩選產生器](/help/components/filters/filter-builder.md)的時間和精力。以這種方式建立的篩選器會自動定義為事件層級的篩選器。透過選取篩選器名稱旁的![編輯](/help/assets/icons/Edit.svg)可以快速修改此定義。
 
 
-如需更多資訊，請參閱「[快速篩選器](/help/components/filters/quick-filters.md)」。
+如需更多資訊，請參閱[快速篩選器](/help/components/filters/quick-filters.md)。
 
-![公開且拖曳到放置區的臨時篩選器。](assets/adhoc-segment-filter.png)
+![已公開並放入拖放區域的臨時篩選](assets/adhoc-segment-filter.png)
 
 ### 下拉式篩選器
 
-+++ 觀看解釋下拉式篩選器的影片。
-
 >[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
 
-{{videoaa}}
+此影片示範使用Adobe Analytics的功能。 不過，Customer Journey Analytics也提供類似功能。 請注意下列術語差異。
 
-+++
+| Adobe Analytics | Customer Journey Alytics |
+| --- | --- |
+| 區段 | 篩選器 |
+| 訪客 | 人員 |
+| 造訪 | 工作階段 |
+| 點擊 | 事件 |
+
 
 #### 靜態下拉式篩選器
 
