@@ -4,9 +4,9 @@ title: 長條圖和堆疊長條圖
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 26%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-*本文記錄了![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**中的橫條圖和棧疊橫條圖視覺效果。<br/>檢視本文的![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**版本的[長條圖和棧疊長條圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar)。*
+*本文會以&#x200B;**Customer Journey Analytics**記錄橫條圖和棧疊橫條圖視覺效果。<br/>檢視此文章的&#x200B;**Adobe Analytics**版本[長條圖和棧疊長條圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar)。*
 
 >[!ENDSHADEBOX]
 

@@ -4,9 +4,9 @@ title: 文字
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 27%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 27%
 
 >[!BEGINSHADEBOX]
 
-*本文以![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**記錄文字視覺效果。<br/>檢視此文章的![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**版本的[文字](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/text)。*
+*本文以&#x200B;**Customer Journey Analytics**記錄文字視覺效果。<br/>檢視此文章的&#x200B;**Adobe Analytics**版本的[文字](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/text)。*
 
 >[!ENDSHADEBOX]
 

@@ -4,9 +4,9 @@ title: 區域圖和堆疊區域圖
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 27%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 27%
 
 >[!BEGINSHADEBOX]
 
-*本文記錄了![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**中的區域圖和棧疊區域圖視覺效果。<br/>檢視此文章的![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**版本的[區域圖和棧疊區域圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area)。*
+*本文會以&#x200B;**Customer Journey Analytics**記錄區域圖和棧疊區域圖視覺效果。<br/>請參閱本文的&#x200B;**Adobe Analytics**版本[區域圖和棧疊區域圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area)。*
 
 >[!ENDSHADEBOX]
 

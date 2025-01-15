@@ -4,9 +4,9 @@ title: 摘要數字和摘要變更
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
+source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '496'
 ht-degree: 47%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-*本文以![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**記錄摘要編號和摘要變更視覺效果。<br/>檢視此文章的![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**版本的[摘要編號和摘要變更](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)。*
+*本文以&#x200B;**Customer Journey Analytics**記錄摘要編號和摘要變更視覺效果。<br/>檢視此文章的&#x200B;**Adobe Analytics**版本[摘要編號和摘要變更](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)。*
 
 >[!ENDSHADEBOX]
 
