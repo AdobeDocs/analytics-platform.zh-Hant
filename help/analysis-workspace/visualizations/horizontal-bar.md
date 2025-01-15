@@ -4,10 +4,10 @@ title: 橫條圖和堆疊橫條圖
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 38%
+source-wordcount: '191'
+ht-degree: 31%
 
 ---
 
@@ -25,6 +25,13 @@ ht-degree: 38%
 >abstract="建立橫條圖視覺效果來表示一個或多個量度的各種值。"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文會以&#x200B;**Customer Journey Analytics**記錄水準橫條圖和棧疊水準橫條圖視覺效果。 請參閱本文的&#x200B;**Adobe Analytics**版本[棧疊的水準列和水準列](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar)。*
+
+>[!ENDSHADEBOX]
 
 
 此![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL 水準條]**&#x200B;視覺效果會顯示代表一或多個量度多個值的水準條。

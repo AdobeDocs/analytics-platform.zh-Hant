@@ -4,10 +4,10 @@ title: 折線圖
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 23%
+source-wordcount: '529'
+ht-degree: 22%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 23%
 >abstract="建立折線圖視覺效果，顯示值在一段時間內如何變化。僅在使用時間當作維度時，才使用折線圖視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文以&#x200B;**Customer Journey Analytics**記錄線條視覺效果。 請參閱此文章的&#x200B;**Adobe Analytics**版本的[行](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line)。*
+
+>[!ENDSHADEBOX]
 
 
 ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 線條]**&#x200B;視覺效果使用線條來表示量度，以顯示一段時間內值的變化。 折線圖視覺效果只可以在當做維度時使用。

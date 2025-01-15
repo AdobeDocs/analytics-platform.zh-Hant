@@ -4,10 +4,10 @@ description: 如何使用和解讀Analysis Workspace中的「媒體播放時間�
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 5121f0d395674ca3b9fed19278c5c0253354e9cc
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 56%
+source-wordcount: '1155'
+ht-degree: 55%
 
 ---
 
@@ -31,6 +31,12 @@ ht-degree: 56%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+*本文會以&#x200B;**Customer Journey Analytics**記錄媒體播放時間面板。 請參閱此文章的&#x200B;**Adobe Analytics**版本的[媒體播放時間面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)。*
+
+>[!ENDSHADEBOX]
 
 
 >[!NOTE]

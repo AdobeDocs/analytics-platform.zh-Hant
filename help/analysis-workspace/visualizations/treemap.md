@@ -4,10 +4,10 @@ title: 樹狀圖
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 32%
+source-wordcount: '154'
+ht-degree: 27%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 32%
 >abstract="建立樹狀圖視覺效果以顯示具有嵌套矩形的階層式 (樹形結構) 資料。"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文以&#x200B;**Customer Journey Analytics**記錄樹狀圖視覺效果。 請參閱此文章的&#x200B;**Adobe Analytics**版本的[樹狀圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap)。*
+
+>[!ENDSHADEBOX]
 
 
 使用![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL 樹狀圖]**&#x200B;視覺效果，將階層（樹狀結構）資料顯示為一組巢狀矩形。

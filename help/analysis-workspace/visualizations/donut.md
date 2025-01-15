@@ -4,10 +4,10 @@ title: 環形圖
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 32%
+source-wordcount: '117'
+ht-degree: 26%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 32%
 >abstract="建立環形圖視覺效果來比較整體的百分比，通常包含的項目較少。"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文以&#x200B;**Customer Journey Analytics**記錄環形圖視覺效果。 請參閱此文章的&#x200B;**Adobe Analytics**版本的[環形圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/donut)。*
+
+>[!ENDSHADEBOX]
 
 
 ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]**&#x200B;視覺效果類似圓形圖，以整體的部分或篩選器顯示資料。 比較整體所佔百分比時（通常包含專案較少），可使用環形圖視覺效果。

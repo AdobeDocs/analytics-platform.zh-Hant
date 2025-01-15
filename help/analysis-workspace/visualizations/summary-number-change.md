@@ -4,10 +4,10 @@ title: 摘要數字和摘要變更
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 50%
+source-wordcount: '496'
+ht-degree: 47%
 
 ---
 
@@ -23,6 +23,14 @@ ht-degree: 50%
 >abstract="建立顯示總計和小計的視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文以&#x200B;**Customer Journey Analytics**記錄摘要編號和摘要變更視覺效果。 檢視此文章的&#x200B;**Adobe Analytics**版本的[摘要編號和摘要變更](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)。*
+
+>[!ENDSHADEBOX]
+
 
 使用![摘要](/help/assets/icons/123.svg) **[!UICONTROL 摘要數字]**&#x200B;視覺效果來強調專案中重要的大數字。 此視覺效果的運作方式如下，使用相關聯的資料來源：
 

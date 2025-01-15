@@ -4,10 +4,10 @@ title: 關於流失報表和視覺效果
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 32%
+source-wordcount: '352'
+ht-degree: 30%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 32%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+*本文以&#x200B;**Customer Journey Analytics**記錄流失視覺效果。 請參閱此文章的&#x200B;**Adobe Analytics**版本的[流失](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)。*
+
+>[!ENDSHADEBOX]
 
 ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL 流失]**&#x200B;視覺效果可顯示人員從何處離開（流失）或繼續通過（流過）預先定義的頁面順序。
 

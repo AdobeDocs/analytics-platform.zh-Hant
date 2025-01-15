@@ -4,10 +4,10 @@ title: 組合圖表視覺效果
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 44%
+source-wordcount: '600'
+ht-degree: 45%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 44%
 >abstract="快速建立組合圖視覺效果，無需先建立自由格式表格。"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文以&#x200B;**Customer Journey Analytics**記錄組合視覺效果。 檢視此文章的&#x200B;**Adobe Analytics**版本的[組合](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)。*
+
+>[!ENDSHADEBOX]
 
 
 ![Comment](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]**&#x200B;視覺效果可讓您快速建立比較視覺效果，而不需要先建立表格。 您可以透過線條/條形組合，輕鬆檢視資料中的趨勢。
@@ -71,7 +78,7 @@ ht-degree: 44%
 | --- | --- |
 | **[!UICONTROL 欄總和]** | 將某一欄中量度的所有數值相加（涵蓋維度的各個元素） |
 | **[!UICONTROL 累積平均值]** | 傳回最後N列的平均值。 |
-| **[!UICONTROL 中位數]** | 傳回一欄中量度的中位數。中位數是一組數字中間的數字。 一半數字的值大於或等於中位數，另一半數字的值小於或等於中位數。 |
+| **[!UICONTROL 中位數]** | 傳回一欄中量度的中位數。中位數是一組數字中位於中間的數字。一半數字的值大於或等於中位數，另一半數字的值小於或等於中位數。 |
 | **[!UICONTROL 累積]** | N 列的累積總和。 |
 | **[!UICONTROL 欄最大值]** | 傳回量度欄中一組維度元素的最大值。 |
 | **[!UICONTROL 平均值]** | 傳回量度的算術平均值或平均值。 |

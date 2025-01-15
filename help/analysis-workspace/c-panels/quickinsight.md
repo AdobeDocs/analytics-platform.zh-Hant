@@ -4,10 +4,10 @@ title: 快速深入分析面板
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
-source-wordcount: '1127'
-ht-degree: 100%
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+workflow-type: tm+mt
+source-wordcount: '1151'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 100%
 >abstract="建立一個面板來快速建置自由格式表格和伴隨的視覺化描繪，加快分析及揭露深入分析的速度。"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文以&#x200B;**Customer Journey Analytics**記錄快速深入分析面板。 請參閱此文章的&#x200B;**Adobe Analytics**版本的[快速深入分析面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。*
+
+>[!ENDSHADEBOX]
 
 
 [!UICONTROL 快速深入分析]為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。對於想要快速解答簡單的問題而無須自行建立表格的進階使用者，這也是絕佳的工具。

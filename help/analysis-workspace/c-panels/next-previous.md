@@ -4,10 +4,10 @@ title: 下一個或上一個項目面板
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 38%
+source-wordcount: '467'
+ht-degree: 36%
 
 ---
 
@@ -31,7 +31,11 @@ ht-degree: 38%
 
 <!-- markdownlint-enable MD034 -->
 
+>[!BEGINSHADEBOX]
 
+*本文會記錄&#x200B;**Customer Journey Analytics**中的下一個或上一個專案面板。 檢視此文章的&#x200B;**Adobe Analytics**版本的[下一個或上一個專案面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous)。*
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 下一個或上一個專案]**&#x200B;面板包含許多表格和視覺效果，可識別特定維度的下一個或上一個維度專案。 例如，您可能會想要探索客戶在造訪首頁後最常前往哪些頁面。
 

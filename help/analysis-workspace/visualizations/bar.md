@@ -4,10 +4,10 @@ title: 長條圖和堆疊長條圖
 feature: Visualizations
 exl-id: a4458694-0c90-4e44-88d5-575737a61c36
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 30%
+source-wordcount: '201'
+ht-degree: 26%
 
 ---
 
@@ -25,6 +25,13 @@ ht-degree: 30%
 >abstract="建立長條圖視覺效果來表示一個或多個量度的各種值。"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文會以&#x200B;**Customer Journey Analytics**記錄橫條圖和棧疊橫條圖視覺效果。 檢視此文章的&#x200B;**Adobe Analytics**版本的[橫條圖和棧疊橫條圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bar)。*
+
+>[!ENDSHADEBOX]
 
 
 ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 橫條]**&#x200B;視覺效果會顯示代表一或多個量度多個值的直條。

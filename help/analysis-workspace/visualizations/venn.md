@@ -4,10 +4,10 @@ title: 文氏圖表
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 30%
+source-wordcount: '157'
+ht-degree: 26%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 30%
 >abstract="建立文氏圖表視覺效果，以快速在視覺上比較兩個元素及其重疊的大小。"
 
 <!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文以&#x200B;**Customer Journey Analytics**記錄文氏圖表視覺效果。 請參閱此文章的&#x200B;**Adobe Analytics**版本的[Venn](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/venn)。*
+
+>[!ENDSHADEBOX]
 
 
 ![型別](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]**&#x200B;視覺效果可讓您拖曳至最多3個篩選器和一個量度（從「元件」面板），以建立Venn圖表。

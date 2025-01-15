@@ -4,10 +4,10 @@ title: 流量概觀
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 53%
+source-wordcount: '383'
+ht-degree: 50%
 
 ---
 
@@ -27,6 +27,12 @@ ht-degree: 53%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+*本文以&#x200B;**Customer Journey Analytics**記錄流量視覺效果。 請參閱此文章的&#x200B;**Adobe Analytics**版本的[流量](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)。*
+
+>[!ENDSHADEBOX]
 
 
 ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 流量]**&#x200B;視覺效果可顯示客戶使用您網站和應用程式的路徑。

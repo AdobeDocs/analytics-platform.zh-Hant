@@ -4,9 +4,9 @@ title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2174'
 ht-degree: 20%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 20%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+*本文以&#x200B;**Customer Journey Analytics**記錄Experimentation面板。 如需如何在&#x200B;**Adobe Analytics**.*&#x200B;中分析Adobe Target活動和體驗的詳細資訊，請參閱[Analytics for Target面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)
+
+>[!ENDSHADEBOX]
 
 
 **[!UICONTROL Experimentation]**&#x200B;面板可讓分析師比較不同的使用者體驗、行銷或傳送訊息變化，以確定哪一個產生特定結果的績效最好。 您可以從任何實驗平台評估任何A/B實驗的提升度和信賴度：線上、離線、來自Target或Journey Optimizer等Adobe解決方案，甚至BYO （自備）資料。

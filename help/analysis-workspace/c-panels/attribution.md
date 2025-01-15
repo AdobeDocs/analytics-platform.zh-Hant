@@ -4,10 +4,10 @@ description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 49%
+source-wordcount: '691'
+ht-degree: 47%
 
 ---
 
@@ -29,6 +29,11 @@ ht-degree: 49%
 
 <!-- markdownlint-enable MD034 -->
 
+>[!BEGINSHADEBOX]
+
+*本文以&#x200B;**Customer Journey Analytics**記錄歸因面板。 請參閱此文章的&#x200B;**Adobe Analytics**版本的[歸因面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/attribution)。*
+
+>[!ENDSHADEBOX]
 
 建立比較各種歸因模型的分析時，**[!UICONTROL 歸因]**&#x200B;面板是可採用的簡單方式。面板提供專屬的工作區，供您使用和比較歸因模型。
 
