@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: c5e5963e6dc4d97de012f825bbea4445cc72d622
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4256'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2025 年 1 月** |  |
-| 使用量度 | 更新有關改善[使用量度](/help/connections/manage-connections.md#usage)介面的檔案。 |
+| 使用情況量度 | 有關已改善的[使用情況量度](/help/connections/manage-connections.md#usage)介面的更新文件。 |
 
 
 ## 2024
@@ -31,7 +31,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | BI 擴充功能使用案例 | Power BI Desktop 和 Tableau Desktop 等 BI 工具的多個 [BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)的文件。 |
 | 拼接和隱私權要求 | 新增通知，說明因為隱私權要求而造成[拼接過程中即將發生的變更](/help/stitching/faq.md#frequently-asked-questions)。 |
 | **2024 年 10 月** | |
-| 改善的使用介面 | 更新已改善介面上的文章，以顯示您在所有連線中[使用已擷取及可報告資料列的情形](/help/connections/manage-connections.md#usage) |
+| 已改善的使用情況介面 | 已更新有關已改善的介面之文章，顯示您在[所有連線中已擷取和可報告列的使用情況](/help/connections/manage-connections.md#usage) |
 | 共用裝置 | 新增了[使用案例文章](/help/use-cases/stitching/shared-devices.md)，提供有關共用裝置的背景、如何使用拼接處理和緩解來自共用裝置的資料，以及使用查詢服務了解資料中的共用裝置暴露情況。 |
 | 有關 Analysis Workspace Performance 請求因素的新資訊 | [Analysis Workspace 效能最佳化](/help/technotes/optimizing-performance.md)文章中的新[請求因素](/help/technotes/optimizing-performance.md#request-factors)部分介紹了如何處理請求以及影響處理時間的各種因素。 |
 | Workspace 和元件 | 重新整理了有關 Analysis Workspace 專案 (專案、視覺效果和面板) 與元件 (註解、維度、(經計算的) 量度、篩選器、日期範圍、警報、已排程專案和客群) 的文件。 |
