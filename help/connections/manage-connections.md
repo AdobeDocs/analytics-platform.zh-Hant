@@ -9,7 +9,7 @@ role: Admin
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
 workflow-type: tm+mt
 source-wordcount: '4023'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -245,7 +245,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_otherdatasets"
 >title="其他資料集"
->abstract="在2024年9月前的月份中，資料會在資料集層級收集，並顯示為&#x200B;*其他資料集*&#x200B;以清楚說明。 從 2024 年 9 月開始在粒度資料集層級收集資料，*其他資料集*&#x200B;將不再顯示。"
+>abstract="2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為「*其他資料集*」。從 2024 年 9 月開始在粒度資料集層級收集資料，*其他資料集*&#x200B;將不再顯示。"
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -320,7 +320,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="connections_usage_otherdatasets"
 >title="其他資料集"
->abstract="在2024年9月前的月份中，資料會在資料集層級收集，並顯示為&#x200B;*其他資料集*&#x200B;以清楚說明。 從 2024 年 9 月開始在粒度資料集層級收集資料，*其他資料集*&#x200B;將不再顯示。"
+>abstract="2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為「*其他資料集*」。從 2024 年 9 月開始在粒度資料集層級收集資料，*其他資料集*&#x200B;將不再顯示。"
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -426,7 +426,7 @@ ht-degree: 24%
 
   您可以使用&#x200B;**[!UICONTROL 詳細資料劃分]**&#x200B;表格，依連線、資料集、沙箱和標籤來檢視詳細的量度。 資料集是使用ID而非名稱來報告，因為資料集名稱可以在報告期間修改。 使用id回報未知的資料集或連線。
 
-  在2024年9月前的月份中，資料會在資料集層級收集，並顯示為[!UICONTROL 其他資料集]以清楚說明。 從2024年9月開始，資料會在精細資料集層級收集，而[!UICONTROL 其他資料集]將不再出現。
+  2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為「[!UICONTROL 其他資料集]」。從2024年9月開始，資料會在精細資料集層級收集，而[!UICONTROL 其他資料集]將不再出現。
 
    * 若要變更劃分，請選取&#x200B;**[!UICONTROL 檢視依據]**&#x200B;和&#x200B;**[!UICONTROL 劃分依據]**&#x200B;的組合。
 
