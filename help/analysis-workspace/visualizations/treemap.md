@@ -4,9 +4,9 @@ title: 樹狀圖
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: c7cdeb29729af35d7554b19e395047b364f0b547
+source-git-commit: f8abf388e0cb1e2e2eb9ff69fed2c542a26dcd66
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 27%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 27%
 
 >[!BEGINSHADEBOX]
 
-*本文以&#x200B;**Customer Journey Analytics**記錄樹狀圖視覺效果。 請參閱此文章的&#x200B;**Adobe Analytics**版本的[樹狀圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap)。*
+*本文以![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**記錄樹狀圖視覺效果。<br/>檢視此文章之![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**版本的[樹狀圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap)。*
 
 >[!ENDSHADEBOX]
 
