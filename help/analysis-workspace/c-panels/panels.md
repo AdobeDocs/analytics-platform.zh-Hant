@@ -4,8 +4,8 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
-workflow-type: ht
+source-git-commit: 450d47a2baa43340f4cb9740f9703fb396b6e3e2
+workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 100%
 
@@ -67,9 +67,9 @@ ht-degree: 100%
   | ![GraphBullet](/help/assets/icons/GraphBullet.svg) | [項目符號](/help/analysis-workspace/visualizations/bullet-graph.md) |
   | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [環形圖](/help/analysis-workspace/visualizations/donut.md) |
   | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md) |
-  | ![Histogram](/help/assets/icons/Histogram.svg) | [長條圖](/help/analysis-workspace/visualizations/histogram.md) |
+  | ![Histogram](/help/assets/icons/Histogram.svg) | [直方圖](/help/analysis-workspace/visualizations/histogram.md) |
   | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散佈圖](/help/analysis-workspace/visualizations/scatterplot.md) |
-  | ![Type](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) |
+  | ![Type](/help/assets/icons/TwoDots.svg) | [文氏圖表](/help/analysis-workspace/visualizations/venn.md) |
   | ![GraphTree](/help/assets/icons/GraphTree.svg) | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md) |
 
 * 選取![AddCircle](/help/assets/icons/AddCircle.svg)，在工作區最後一個面板的&#x200B;**外面**，以新增另一個[空白面板](blank-panel.md)。
@@ -153,7 +153,7 @@ ht-degree: 100%
 
 +++ 觀看解釋下拉式篩選器的影片。
 
->[!VIDEO](https://video.tv.adobe.com/v/23877?format=jpeg)
+>[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
 
 {{videoaa}}
 
