@@ -4,14 +4,22 @@ title: 區域圖和堆疊區域圖
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 27%
+source-wordcount: '202'
+ht-degree: 26%
 
 ---
 
 # 區域圖 (堆疊)
+
+>[!BEGINSHADEBOX]
+
+*本文會以&#x200B;**Customer Journey Analytics**記錄區域圖和棧疊區域圖視覺效果。<br/>請參閱本文的&#x200B;**Adobe Analytics**版本[區域圖和棧疊區域圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area)。*
+
+>[!ENDSHADEBOX]
+
+區域圖視覺效果有標準和棧疊選項。
 
 ## 區域 {#area}
 
@@ -25,11 +33,7 @@ ht-degree: 27%
 <!-- markdownlint-enable MD034 -->
 
 
->[!BEGINSHADEBOX]
 
-*本文會以&#x200B;**Customer Journey Analytics**記錄區域圖和棧疊區域圖視覺效果。<br/>請參閱本文的&#x200B;**Adobe Analytics**版本[區域圖和棧疊區域圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area)。*
-
->[!ENDSHADEBOX]
 
 
 ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]**&#x200B;視覺效果類似折線圖，但折線下方有一塊上色區域。 有多個量度且以要視覺化方式表示兩個或更多量度交集的區域時，請新增區域圖。

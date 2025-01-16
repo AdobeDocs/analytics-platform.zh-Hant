@@ -6,10 +6,11 @@ role: User, Admin
 badgePremium: label="Adobe Analytics版本" url="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization.html" tooltip="選取「 」即可檢視本文的Adobe Analytics版本。"
 hide: true
 hidefromtoc: true
-source-git-commit: 3c3ef1c79e5863b74a3b7458c87d1f83f7188e5a
+exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
+source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '79'
+ht-degree: 16%
 
 ---
 
@@ -43,11 +44,9 @@ ht-degree: 13%
 <!-- markdownlint-enable MD034 -->
 
 
->[!NOTE]
->
->Analysis Workspace不支援Customer Journey Analytics的地圖視覺效果。 如需有關如何在Adobe Analytics中使用Analysis Workspace中的地圖視覺效果的詳細資訊，請選取本文最上方的&#x200B;**Adobe Analytics version**。
->
+>[!BEGINSHADEBOX]
 
+***Customer Journey Analytics**中目前沒有可用的地圖視覺效果。
+如需Adobe Analytics中的地圖視覺效果檔案，請參閱[地圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)。*
 
-
-
+>[!ENDSHADEBOX]

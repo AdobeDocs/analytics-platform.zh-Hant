@@ -4,10 +4,10 @@ description: 在您的Workspace專案中插入區段標題的視覺效果。
 feature: Visualizations
 role: User
 exl-id: 7f815879-2b08-4650-a9ce-c55ca5824288
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: d556740383075b2ee4652a78d3d37d5bbc5f2225
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 18%
+source-wordcount: '93'
+ht-degree: 13%
 
 ---
 
@@ -23,16 +23,12 @@ ht-degree: 18%
 <!-- markdownlint-enable MD034 -->
 
 
-<!-- uncomment when section header page in AA is available.
 >[!BEGINSHADEBOX]
 
 
-*This article documents the Section header visualization in **Customer Journey Analytics**.<br/>See [Section header](...) for the **Adobe Analytics** version of this article.*
+*本文以&#x200B;**Customer Journey Analytics**記錄區段標題視覺效果。<br/>檢視此文章的&#x200B;**Adobe Analytics**版本的[章節標題](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/section-header)。*
 
 >[!ENDSHADEBOX]
-
--->
-
 
 若要在面板中識別並清楚表述區段，您可以在面板內的任何位置插入![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL 區段標題]**&#x200B;視覺效果。
 
