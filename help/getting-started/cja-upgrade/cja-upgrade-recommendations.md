@@ -7,18 +7,16 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: f4fd3c1932a736577d480e86cad70f55de75cb21
+source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1565'
 ht-degree: 5%
 
 ---
 
 # 從Adobe Analytics升級至Customer Journey Analytics
 
-從Adobe Analytics升級至Customer Journey Analytics時，Adobe建議結合Analytics來源聯結器來實作Experience PlatformWeb SDK，如[針對大多陣列織建議的升級步驟](#recommended-upgrade-steps-for-most-organizations)所述。
-
-根據數個因素（例如時間表和資源限制），建議的升級步驟可能對您的組織而言不實用。 在這種情況下，請使用[Adobe AnalyticsCustomer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)，以動態產生針對貴組織獨特環境量身打造的升級步驟。
+從Adobe Analytics升級至Customer Journey Analytics時，您可以依照[建議的升級步驟](#recommended-upgrade-steps-for-most-organizations)操作。 或者，您可以[針對貴組織的獨特情況，動態產生升級步驟](#dynamically-generate-upgrade-steps-for-your-organization)。
 
 ## 針對大多陣列織建議的升級步驟
 
@@ -100,9 +98,11 @@ ht-degree: 5%
 
    +++標籤
 
-   1. [在您的網站上實作載入器標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)。
-
    1. [建立標籤屬性並新增Adobe Experience Platform Web SDK擴充功能](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)。
+
+   1. [將Adobe Experience Platform Web SDK擴充功能新增至標籤屬性](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+
+   1. [在您的網站上實作載入器標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)。
 
    1. [將XDM資料收集邏輯新增至您的標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)。
 
@@ -120,11 +120,11 @@ ht-degree: 5%
 
 1. （選用）將網路資料與其他管道的資料（例如客服中心資料）連結。
 
-   您可以將其他資料集新增到您的Customer Journey Analytics連線，藉此達到此目的。
+   如[匯入客服中心和網路資料](/help/use-cases/cross-channel/call-center.md)中所述，透過將其他資料集新增到您的Customer Journey Analytics連線來完成此操作。
 
 1. [在Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)中建立資料檢視。
 
-1. [驗證資料是否流入Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)。
+1. [驗證資料是否流入Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)的資料檢視。
 
 1. [移轉專案和元件](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)。
 

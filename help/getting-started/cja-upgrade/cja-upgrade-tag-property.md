@@ -1,19 +1,20 @@
 ---
-title: 建立標籤屬性並新增Web SDK擴充功能
-description: 瞭解如何建立標籤屬性及新增Web SDK擴充功能
+title: 建立標籤屬性並新增網頁SDK擴充功能
+description: 瞭解如何建立標籤屬性並新增網頁SDK擴充功能
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: ccc6df56771cd9f83bbd7a8570e32d7ed63a0ced
+exl-id: 156df830-541d-4c92-9c49-98f346e040a7
+source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 22%
+source-wordcount: '315'
+ht-degree: 24%
 
 ---
 
-# 為屬性建立標籤
+# 為您的屬性建立標記
 
 >[!NOTE]
 > 
@@ -40,4 +41,3 @@ ht-degree: 22%
    ![建立屬性](assets/create-property.png)
 
 1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
-

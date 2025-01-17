@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: f76d098d-d223-40e4-be81-d28e7581396b
+source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 27%
+source-wordcount: '256'
+ht-degree: 23%
 
 ---
 
@@ -27,6 +28,12 @@ ht-degree: 27%
 
 在您的設定中，您想要設定資料串流，以將收集的資料傳送至Adobe Experience Platform中的資料集。
 
+>[!NOTE]
+>
+>只有使用AppMeasurement或Analytics擴充功能（標籤）的Adobe Analytics實作才需要下列步驟。
+>
+>如果您的Adobe Analytics實作使用Web SDK或Web SDK擴充功能，則Adobe Analytics環境中已存在資料流。
+
 若要設定您的資料流：
 
 1. 在Adobe Experience Platform中，從左側邊欄的[!UICONTROL 資料彙集]中選取&#x200B;**[!UICONTROL 資料串流]**。
@@ -40,4 +47,3 @@ ht-degree: 27%
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
-
