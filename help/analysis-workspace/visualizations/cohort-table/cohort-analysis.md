@@ -4,10 +4,10 @@ description: 瞭解如何在Analysis Workspace中使用同類群組表格進行�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: bf5853a1d23d6e648024016a64dc67d09da3fbb4
+source-git-commit: 353993c14103906553d87738ed3f7fc0926e123c
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 33%
+source-wordcount: '687'
+ht-degree: 30%
 
 ---
 
@@ -68,7 +68,9 @@ Customer Journey Analytics中的同類群組表格支援雙向（或任何數值
 
 ## 同類群組表格功能
 
-下列功能可讓您對您正在建立的同類群組進行微調控制：
+以下幾節將說明同類群組分析功能，這些功能可讓您對您正在建立的同類群組進行微調控制。
+
+如需建立同類群組及執行[!UICONTROL 同類群組分析]報表的詳細資訊，請參閱[設定同類群組表格](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
 
 ### [!UICONTROL 保留率]資料表
 
