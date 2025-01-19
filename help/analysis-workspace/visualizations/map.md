@@ -7,7 +7,7 @@ badgePremium: label="Adobe Analytics版本" url="https://experienceleague.adobe.
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: c0c02b8ae1a614f3e623642a8671bb25d8a26f4f
+source-git-commit: 834296485a1e21cf15fb5d8162e421d28e2fcd21
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 16%
@@ -43,10 +43,10 @@ ht-degree: 16%
 
 <!-- markdownlint-enable MD034 -->
 
-
 >[!BEGINSHADEBOX]
 
 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**中目前沒有可用的地圖視覺效果。
 請參閱![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;中的地圖視覺效果檔案[地圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)。
 
 >[!ENDSHADEBOX]
+
