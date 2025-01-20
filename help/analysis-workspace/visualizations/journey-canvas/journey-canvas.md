@@ -4,9 +4,9 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: c7828617d45991f9f3ba946fc12e248ac172141d
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1881'
 ht-degree: 11%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-*本文以&#x200B;**Customer Journey Analytics**記錄Journey Canvas視覺效果。<br/>**Adobe Analytics**中沒有對應的視覺效果。*
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄Journey Canvas視覺效果。<br/>**Adobe Analytics**&#x200B;中沒有對應的視覺效果。_
 
 >[!ENDSHADEBOX]
 

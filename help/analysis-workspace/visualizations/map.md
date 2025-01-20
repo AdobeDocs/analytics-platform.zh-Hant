@@ -7,10 +7,10 @@ badgePremium: label="Adobe Analytics版本" url="https://experienceleague.adobe.
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 834296485a1e21cf15fb5d8162e421d28e2fcd21
+source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 16%
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="地圖"
->abstract="此視覺效果會透過在地圖上覆蓋來代表量度。 這對於識別不同地理區域的資料非常有用。"
+>abstract="此視覺效果是透過將量度覆蓋在地圖上來表示量度。這相當實用，可辨識和不同地理區域之間的資料。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="workspace_map_bubbles"
 >title="泡泡圖"
->abstract="使用泡泡繪製事件。"
+>abstract="使用泡泡圖繪製事件。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,14 +39,13 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
 >title="熱度圖"
->abstract="使用熱度圖繪製事件。"
+>abstract="使用熱度圖繪圖事件。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**中目前沒有可用的地圖視覺效果。
-請參閱![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;中的地圖視覺效果檔案[地圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)。
+_目前在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中沒有可用的地圖視覺效果。_<br/>_在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中檢視地圖視覺效果檔案的[地圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)。_
 
 >[!ENDSHADEBOX]
 
