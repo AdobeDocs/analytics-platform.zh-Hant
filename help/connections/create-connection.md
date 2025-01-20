@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4260'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -225,7 +225,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountfield"
 >title="帳戶欄位"
->abstract="選取代表帳戶ID （帳戶的唯一識別碼）的欄位。"
+>abstract="選取代表帳戶 ID (帳戶的唯一身分識別碼) 的欄位。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -341,7 +341,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
 >title="帳戶欄位"
->abstract="選取代表帳戶ID （帳戶的唯一識別碼）的欄位。"
+>abstract="選取代表帳戶 ID (帳戶的唯一身分識別碼) 的欄位。"
 
 <!-- markdownlint-enable MD034 -->
 
