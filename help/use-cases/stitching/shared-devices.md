@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
+source-git-commit: f45a457d251767634e28984d7c75158dac6e51e8
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 6%
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 共用裝置是指由超過一個使用者使用的裝置。 常見的案例是平板電腦之類的裝置、資訊站中使用的裝置或客服中心代理程式共用的電腦裝置。
 
-當兩個人使用同一部裝置且都進行購買時，範例事件資料可能如下所示：
+當兩個人使用相同裝置且都進行驗證購買時，範例事件資料可能如下所示：
 
 | 事件 | 時間戳記 | 頁面名稱 | 裝置ID | 電子郵件 |
 |--:|---|---|---|---|
