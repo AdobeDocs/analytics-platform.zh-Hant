@@ -7,7 +7,7 @@ role: User
 source-git-commit: de0eca21fa1b4ac71a8273676e851b596cf911a8
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_area"
->title="智慧型字幕：區域"
+>title="智慧型註解：區域圖"
 >abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
 
 <!-- markdownlint-enable MD034 -->
@@ -26,7 +26,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_bar"
->title="智慧型字幕：長條圖"
+>title="智慧型註解：長條圖"
 >abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
 
 <!-- markdownlint-enable MD034 -->
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_donut"
->title="智慧型字幕：環形圖"
+>title="智慧型註解：環形圖"
 >abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
 
 <!-- markdownlint-enable MD034 -->
@@ -44,7 +44,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_horizontalbar"
->title="智慧型字幕：橫條圖"
+>title="智慧型註解：長條圖"
 >abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
 
 <!-- markdownlint-enable MD034 -->
@@ -53,7 +53,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_line"
->title="智慧型字幕：線條"
+>title="智慧型註解：折線圖"
 >abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
 
 <!-- markdownlint-enable MD034 -->
@@ -62,7 +62,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_fallout"
->title="智慧型字幕：流失"
+>title="智慧型註解：流失"
 >abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
 
 <!-- markdownlint-enable MD034 -->
@@ -71,7 +71,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions_flow"
->title="智慧型字幕：流量"
+>title="智慧型註解：流量"
 >abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
 
 <!-- markdownlint-enable MD034 -->
