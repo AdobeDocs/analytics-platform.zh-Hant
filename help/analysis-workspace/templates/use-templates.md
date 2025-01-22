@@ -4,9 +4,9 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 50d46d5b2d663e6f0b3951006db34bff0193417e
+source-git-commit: 91c982ac3a8b2286e3da78d50bdf1f378f75e7ec
 workflow-type: tm+mt
-source-wordcount: '19294'
+source-wordcount: '19288'
 ht-degree: 86%
 
 ---
@@ -31,7 +31,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 1. 在 Analysis Workspace 中，選取「[!UICONTROL **工作區**]」標籤。
 
-   ![範本標籤](assets/view-prebuilt-templates.png)
+   ![範本標籤](assets/view-prebuilt-templates-full.png)
 
 1. 在&#x200B;[!UICONTROL **範本**]&#x200B;區段中，選取下列其中一個標籤：
 
@@ -43,9 +43,9 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 1. 使用下列任一選項來變更您檢視可用範本的方式：
 
-   * 選取欄檢視![欄檢檢視示](assets/column-view-icon.png)或卡片檢視![卡片檢檢視示](assets/card-view-icon.png)圖示，選擇是在欄檢視或卡片檢視中檢視範本。
+   * 選取欄檢視![ViewColumn](/help/assets/icons/ViewColumn.svg)或卡片檢視![卡片](/help/assets/icons/Card.svg)圖示，選擇是在欄檢視或卡片檢視中檢視範本。
 
-   * 使用卡片檢視![卡片檢檢視示](assets/card-view-icon.png)時，請從下列排序順序中選擇： **[!UICONTROL 最近使用]**、**[!UICONTROL 最受歡迎]**、**[!UICONTROL 字母順序]**、**[!UICONTROL 類別]**。
+   * 使用卡片檢視![卡片](/help/assets/icons/Card.svg)時，請從下列排序順序中選擇： **[!UICONTROL 最近使用]**、**[!UICONTROL 最受歡迎]**、**[!UICONTROL 字母順序]**、**[!UICONTROL 類別]**。
 
 1. 在搜尋欄位中，開始輸入您要尋找的範本名稱，然後從範本清單中選取它。
 
