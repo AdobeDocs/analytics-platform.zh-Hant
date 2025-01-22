@@ -4,7 +4,7 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 91c982ac3a8b2286e3da78d50bdf1f378f75e7ec
+source-git-commit: 75a6db5fde167235a86241cb6065602d7157c390
 workflow-type: tm+mt
 source-wordcount: '19288'
 ht-degree: 86%
@@ -1548,4 +1548,3 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 | **Journey Optimizer登陸頁面** | 檢視使用者行為、參與模式、轉換率和其他關鍵量度。<p>**這可協助您**&#x200B;更瞭解登陸頁面的有效性。 </p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如將登陸頁面效能最佳化。</p> |
 | **Journey Optimizer概觀報告** | 檢視您環境中所有行銷活動和歷程的流量及參與量度完整摘要。<p>**這可協助您**&#x200B;更清楚瞭解行銷活動和歷程的高階成效。 </p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如根據目標對象的參與度調整您的行銷活動和歷程。</p> |
 | **Journey Optimizer訂閱** | 檢視與特定清單關聯的設定檔訂閱和取消訂閱。<p>**這可以幫助您**&#x200B;更加了解不同訂閱行銷活動和行動方案在提高參與度及轉換方面的有效性。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如根據目標對象的參與度調整您的訂閱行銷活動。</p> |
-

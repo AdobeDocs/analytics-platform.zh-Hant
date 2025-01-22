@@ -4,10 +4,10 @@ title: 智慧型註解
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: de0eca21fa1b4ac71a8273676e851b596cf911a8
+source-git-commit: 7d103e9d709ec076519360a4b43af44f061171e9
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 22%
+source-wordcount: '868'
+ht-degree: 19%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 22%
 
 <!-- markdownlint-enable MD034 -->
 
-智慧型註解使用進階的機器學習和生成式 AI，為 Workspace 視覺效果提供有價值的自然語言深入解析。初始發行提供自動產生的[線條](line.md)視覺化前瞻分析。 隨後將提供其他視覺效果。
+智慧型字幕功能使用進階的產生AI，針對最常使用的自然語言Workspace視覺效果提供關鍵深入分析。
 
 智慧型字幕的目標為：
 
@@ -85,11 +85,10 @@ ht-degree: 22%
 
 ## 啟動智慧型字幕 {#launch}
 
-若要啟動自動產生的線條圖視覺效果標題，請選取視覺效果右上角的![AEMScreen](/help/assets/icons/AI.svg) **[!UICONTROL 智慧型標題]**。
+若要啟動視覺效果自動產生的智慧型字幕，請選取視覺效果右上角的![智慧型字幕](/help/assets/icons/AI.svg)。 此選取範圍會產生自然語言深入分析。
 
-![啟動顯示產品檢視趨勢智慧型字幕的分析視窗。](assets/intell-caps-1.png)
+![啟動顯示產品檢視趨勢智慧型字幕的分析視窗。](assets/intelligent-captions.gif)
 
-自然語言見解正在產生中。
 
 請記住以下事項：
 
@@ -97,13 +96,28 @@ ht-degree: 22%
 
 * 每次在提供視覺效果功能的表格中變更基礎選取資料時，都會產生註解。
 
-* 如果表格中有多個量度，系統只會針對第一個量度或使用者目前選取的量度產生標題。
+* 如果相關的自由表格中有多個量度，系統只會針對第一個量度或使用者目前選取的量度產生註解。 不過，線條和區域的視覺效果中，有多個量度會產生註解。
 
 * 如果您在特定點儲存專案，並在稍後重新載入，則註解會自動以新資料更新。 這同樣適用於從專案匯出的排程專案和PDF檔案。
 
-以下是智慧型字幕的範例：
 
-![線條視覺效果的智慧型字幕，包括季節性、最小值、最大值、尖峰與下降。](assets/captions.png)
+## 視覺效果 {#visualizations}
+
+下列視覺效果支援智慧型字幕：
+
+* [行](line.md) （包括多行）
+* [長條圖](bar.md)
+* [橫條圖](horizontal-bar.md)
+* [區域](area.md) （包含多個區域線）
+* [環形圖](donut.md)
+* [流失](fallout/fallout-flow.md)
+* [流量](c-flow/flow.md)
+
+<!--
+Here is an example of what intelligent captions could look like:
+
+![Intelligent captions for Line visualization including Seasonality, Min, Max, Spike, and Decline.](assets/captions.png)
+-->
 
 ## 動作
 
@@ -111,15 +125,24 @@ ht-degree: 22%
 
 ### 複製到剪貼簿 {#copy}
 
-您可以將註解複製到剪貼簿，然後貼到PowerPoint或其他工具中。 在註解對話方塊右上角選取![將註解複製到剪貼簿](/help/assets/icons/Copy.svg)。
+您可以將註解複製到剪貼簿，然後貼到PowerPoint或其他工具中。 您可以在逐一檢視中複製個別註解，也可以在展開的註解檢視中一次複製所有註解。
+
+* 若要複製註解，請選取註解對話方塊右上角的![將註解複製到剪貼簿](/help/assets/icons/Copy.svg)。
+
+### 顯示所有或個別智慧型字幕  {#show-all-or-individual}
+
+您可以在展開檢視中一次顯示所有智慧型字幕，也可以依序在檢視中顯示個別智慧型字幕。
+
+* 若要顯示所有智慧型字幕，請選取![顯示所有智慧型字幕](/help/assets/icons/Maximize.svg)。
+* 若要逐一顯示個別智慧型字幕，請選取![顯示個別智慧型字幕](/help/assets/icons/Minimize.svg)。
 
 ### 編輯顯示區 {#edit}
 
 您可以編輯註解的顯示，例如隱藏或取消隱藏特定類別的深入分析。
 
-1. 選取「編輯智慧型字幕」對話方塊中的![智慧型字幕顯示](/help/assets/icons/EditInLight.svg)。
+1. 在「智慧型字幕」對話方塊中選取![編輯智慧型字幕的可見度](/help/assets/icons/EditInLight.svg)。
 
-1. 在![可見度](/help/assets/icons/Visibility.svg)之間切換以顯示特定分析（如&#x200B;**[!UICONTROL 分鐘]**），或在![可見度關閉](/help/assets/icons/VisibilityOff.svg)之間切換以隱藏特定分析（如&#x200B;**[!UICONTROL 尖峰]**）。
+1. 在![切換可見度](/help/assets/icons/Visibility.svg)之間切換以顯示特定分析（例如&#x200B;**[!UICONTROL 分鐘]**），或在![切換可見度](/help/assets/icons/VisibilityOff.svg)之間切換以隱藏特定分析（例如&#x200B;**[!UICONTROL 尖峰]**）。
 
    ![編輯智慧型字幕](assets/edit-intelligent-captions.png)
 
@@ -128,7 +151,7 @@ ht-degree: 22%
 
 ### 提供意見反應
 
-您可以對產生的智慧型字幕提供意見回饋。
+您可以針對產生的智慧型註解提供意見反應（意見反應只能在展開的註解檢視中提供）。
 
 1. 在「智慧型字幕」對話方塊中選取![其他動作](/help/assets/icons/More.svg)。
 
@@ -162,7 +185,7 @@ ht-degree: 22%
 
 * **解決方案存取**：智慧型字幕功能可在Customer Journey Analytics中使用，但不適用於Adobe Analytics。
 
-* **合約存取**：如果您無法使用智慧型字幕，請聯絡貴組織的管理員或Adobe客戶代表。 您必須同意特定的GenAI相關法律條款，才能在組織中使用智慧型字幕。
+* **合約存取**：如果您無法使用智慧型字幕，請聯絡貴組織的管理員或Adobe帳戶代表（管理員）。 您必須先同意特定的Generative AI相關法律條款，才能在組織中使用智慧型字幕。
 
 * **許可權**：在[!UICONTROL Adobe Admin Console]中，[!UICONTROL 報告工具] **[!UICONTROL 智慧型字幕]**&#x200B;許可權會決定存取權。 [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)需要在[!UICONTROL Admin Console]中遵循下列步驟：
    1. 導覽至&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 產品及服務]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 產品設定檔]**。
