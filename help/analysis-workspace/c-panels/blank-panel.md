@@ -26,7 +26,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;中記錄空白面板。<br/>_檢視此文章的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本的[空白面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel)。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;中記錄空白面板。<br/>_檢視此文章的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本的[空白面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/blank-panel)。_
 
 >[!ENDSHADEBOX]
 
