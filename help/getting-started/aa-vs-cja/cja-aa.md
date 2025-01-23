@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 532f3a30e65d715f5b5b4caea85885a13d82641c
-workflow-type: ht
-source-wordcount: '2319'
-ht-degree: 100%
+source-git-commit: 8c4b42c0046068ba45a47ecd9c7eab2ed89028e5
+workflow-type: tm+mt
+source-wordcount: '2386'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,8 @@ ht-degree: 100%
 | 功能 | 更多詳細資料 |
 | --- | --- |
 | **組合資料集的能力 (例如 Adobe Analytics 報告套件)** | Customer Journey Analytics 可讓您[組合多個報告套件的資料](/help/connections/combined-dataset.md)，如同 Adobe Analytics 中的單一報告套件。 |
-| **可容納任何類型的資料** | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料綱要和類型。使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-hant)，能以統一方式呈現和組織資料，可進行組合和探索。Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=zh-hant)的功能。 |
+| **可容納任何類型的資料** | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料結構描述和類型。使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-hant)，能以統一方式呈現和組織資料，可進行組合和探索。Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=zh-hant)的功能。 |
+| **BI 擴充功能** | [BI 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)可讓您將 CJA 直接連接到熱門的 BI 視覺效果工具，例如 PowerBI 或 Tableau。透過使用此擴充功能，您可以讓 BI 報表與您在 Analysis Workspace 和其他 CJA 報表介面中看到的內容精確相符。這是更輕鬆為 CJA 取得 BI 報告的方法，無需從原始資料重新建立報告/指標。 |
 | **跨裝置分析** | Customer Journey Analytics 支援無縫組合來自未經身分驗證和經過身分驗證工作階段的特定裝置資料集。Customer Journey Analytics 可以將歷史資料回填到已知裝置。在 Adobe Analytics 中，此功能僅限於單一報告套裝和裝置圖使用。 |
 | **維度增強** | Customer Journey Analytics 在使用維度時提供了更大的靈活性： <ul><li>**自訂數值型維度**：[在資料視圖中建立您自己的數值型維度](/help/data-views/create-dataview.md#components)。</li><li>**排序字串型維度**：[在自由格式表格中按字母順序排序字串型維度](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables)。 </li></ul><p>在 Adobe Analytics 中，只有少數內建數值維度可用，且無法按字串型維度排序。</p> |
 | **衍生欄位** | [衍生欄位](/help/data-views/derived-fields/derived-fields.md)允許對您的資料進行報告時間轉換。資料可以動態組合、更正或建立，且這些轉換會追溯套用至所有的報告。 |
@@ -31,11 +32,12 @@ ht-degree: 100%
 | **實驗分析** | 對於任何定義為連線一部分之資料來源的實驗，Customer Journey Analytics 都可以[評估其提升度和可信度](/help/analysis-workspace/c-panels/experimentation.md)。透過此評估，您可以了解任意管道中客戶互動之間的因果關係。Analytics 僅限於透過 A4T 進行的實驗分析。 |
 | **預測** | [預測](/help/analysis-workspace/c-forecast/forecasting.md)是一種 AI/ML 功能，包括根據 Customer Journey Analytics 中已有的歷史資料，對時間序列相關資料進行統計預測。預測可以顯示在自由格式表格和折線圖視覺效果中。 |
 | **引導式分析** | [引導式分析](/help/guided-analysis/overview.md)讓使用者透過建置在 Customer Journey Analytics 跨管道資料上的引導式工作流程，自行取得有關客戶歷程的高品質資料和深入分析。 |
-| **智慧型註解** | 智慧型註解使用進階的機器學習和生成式 AI，為 Workspace 視覺效果提供有價值的自然語言深入解析。初始版本為[折線圖](/help/analysis-workspace/visualizations/line.md)視覺效果提供自動產生的深入解析。 |
+| **智慧型註解** | [智慧型字幕](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)使用進階機器學習和Generative AI，為Workspace視覺效果提供有價值的自然語言深入分析。 智慧型字幕支援下列視覺效果：線條、多線條、橫條圖、水準橫條圖、環形圖、區域圖、流量圖和流失圖。 |
+| **產品使用量** | [產品使用狀況]https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview()會顯示貴組織使用Customer Journey Analytics的方式。 |
 | **報告時間轉換** | Customer Journey Analytics 中的[資料檢視](/help/data-views/data-views.md)可讓您進一步詮釋來自連線的資料。您可以變更或移除資料而無需變更實施、使用子字串操作維度、從任何值建立量度，或是篩選子事件。以上所有轉換的進行都是非破壞性。Adobe Analytics 透過虛擬報表套裝和自訂工作階段長度提供有限的功能。 |
-| **BI 擴充功能** | [BI 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)可讓您將 CJA 直接連接到熱門的 BI 視覺效果工具，例如 PowerBI 或 Tableau。透過使用此擴充功能，您可以讓 BI 報表與您在 Analysis Workspace 和其他 CJA 報表介面中看到的內容精確相符。這是更輕鬆為 CJA 取得 BI 報告的方法，無需從原始資料重新建立報告/指標。 |
-| **SQL 存取** | 使用 Data Distiller 選項，Customer Journey Analytics 可以移除 Adobe 後端處理中收集資料的限制。您可以使用 SQL 修改資料、建立適合您業務的值和資料集，並繼續探索。Analytics 不支援對其資料進行任何類型的 SQL 存取。 |
+| **SQL 存取** | 使用資料蒸餾器選項，Customer Journey Analytics 可以移除 Adobe 後端處理中收集資料的限制。您可以使用 SQL 修改資料、建立適合您業務的值和資料集，並繼續探索。Analytics 不支援對其資料進行任何類型的 SQL 存取。 |
 | **拼接** | [拼接](/help/stitching/overview.md)是一個強大的功能，可提高事件資料集的適用性，以進行跨管道分析。跨管道分析是 Customer Journey Analytics 可處理的一個主要使用案例，可讓您根據共同識別碼 (人員 ID) 順暢地組合來自不同管道的多個資料集並執行報告。 |
+| Adobe Journey Optimizer中的&#x200B;**範本** | 在Adobe Journey Optimizer中自訂新的報表介面，方法是在Customer Journey Analytics中建立或編輯[範本](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en)，然後儲存範本以用於Journey Optimizer中的報表頁面。 |
 | **無限制的客戶維度和量度** | Customer Journey Analytics 維度是無限制的；值可以是數值、文字、物件、清單或混合所有前項。維度可以是嵌套式或階層式。<br/>相對的，Adobe Analytics 最多支援 75 個 props 和 250 個 eVar。 |
 | **唯一值無數量限制** | Customer Journey Analytics 支援可在單一維度中報告的無限制唯一值或維度項目。<p>[維度的基數限制](/help/components/dimensions/high-cardinality.md)不存在，允許出現任何唯一值並進行計數。</p><p>這種方法消除了大規模 Adobe Analytics 實施中可能存在的報告和分析限制，從而導致[!UICONTROL 低流量]標籤。</p><p>在 Customer Journey Analytics，可以看到[!UICONTROL 超出不重複值]標籤，但這種情況發生的頻率要低得多，可以對資料套用篩選器或分段來緩解。</p> |
 
@@ -64,6 +66,7 @@ ht-degree: 100%
 | **PDF 匯出** | 完整支援 |
 | **專案策劃** | 完整支援 |
 | **專案連結** | 完整支援 |
+| **產品範本** | 包含[預先建立的範本](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates)和[公司範本](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#access-a-company-template)。 |
 | **報表時間處理功能** | 完整支援；Customer Journey Analytics 完全依靠報告時間處理。 |
 | **報告 API 存取權** | 完整支援；可透過 [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/) 使用。 |
 | **排程報告/專案** | 完整支援 |
@@ -118,7 +121,6 @@ ht-degree: 100%
 | 功能 | 附註 |
 | --- | --- |
 | **貢獻分析** | 已規劃提供支援。 |
-| **專案範本** | 已規劃提供支援。 |
 | **即時報告** | 已規劃提供支援。 |
 | **區段 IQ** | 已規劃提供支援。 |
 | **交易 ID 資料來源** | 已規劃提供支援。 |
