@@ -5,7 +5,7 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 55da4faa73d708a450274c2b4d44c246ef5feb49
+source-git-commit: c2e7b0595a719faa751e3cb39668006db0d89d48
 workflow-type: tm+mt
 source-wordcount: '2417'
 ht-degree: 94%
@@ -34,7 +34,7 @@ ht-degree: 94%
 | **引導式分析** | [引導式分析](/help/guided-analysis/overview.md)讓使用者透過建置在 Customer Journey Analytics 跨管道資料上的引導式工作流程，自行取得有關客戶歷程的高品質資料和深入分析。 |
 | **智慧型註解** | [智慧型字幕](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)使用進階機器學習和Generative AI，為Workspace視覺效果提供有價值的自然語言深入分析。 智慧型字幕支援下列視覺效果：線條、多線條、橫條圖、水準橫條圖、環形圖、區域圖、流量圖和流失圖。 |
 | **歷程畫布** | [歷程畫布](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en)是Analysis Workspace中的視覺效果，可讓您分析人們如何進行或離開定義的歷程。 |
-| **產品使用量** | [產品使用狀況](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview()顯示貴組織如何使用Customer Journey Analytics。 |
+| **產品使用量** | [產品使用量](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/product-usage/usage-overview)顯示貴組織如何使用Customer Journey Analytics。 |
 | **報告時間轉換** | Customer Journey Analytics 中的[資料檢視](/help/data-views/data-views.md)可讓您進一步詮釋來自連線的資料。您可以變更或移除資料而無需變更實施、使用子字串操作維度、從任何值建立量度，或是篩選子事件。以上所有轉換的進行都是非破壞性。Adobe Analytics 透過虛擬報表套裝和自訂工作階段長度提供有限的功能。 |
 | **SQL 存取** | 使用資料蒸餾器選項，Customer Journey Analytics 可以移除 Adobe 後端處理中收集資料的限制。您可以使用 SQL 修改資料、建立適合您業務的值和資料集，並繼續探索。Analytics 不支援對其資料進行任何類型的 SQL 存取。 |
 | **拼接** | [拼接](/help/stitching/overview.md)是一個強大的功能，可提高事件資料集的適用性，以進行跨管道分析。跨管道分析是 Customer Journey Analytics 可處理的一個主要使用案例，可讓您根據共同識別碼 (人員 ID) 順暢地組合來自不同管道的多個資料集並執行報告。 |
