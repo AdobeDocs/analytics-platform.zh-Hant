@@ -6,7 +6,7 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: f45a457d251767634e28984d7c75158dac6e51e8
+source-git-commit: 00c57793846d997dbfd80b413f3cf3b78a96097b
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 64%
@@ -47,4 +47,3 @@ ht-degree: 64%
 _目前在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中沒有可用的地圖視覺效果。_<br/>_在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中檢視地圖視覺效果檔案的[地圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)。_
 
 >[!ENDSHADEBOX]
-
