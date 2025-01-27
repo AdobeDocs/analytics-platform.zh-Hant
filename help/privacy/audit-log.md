@@ -4,10 +4,10 @@ description: 瞭解如何檢視和管理Customer Journey Analytics稽核記錄�
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: f3c95e57144037323bcc1dd212512b2dddeb833f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 66%
+source-wordcount: '932'
+ht-degree: 60%
 
 ---
 
@@ -63,22 +63,22 @@ ht-degree: 66%
 系統會顯示以下項目：
 
 * **[!UICONTROL 動作名稱]**：採取的動作。 可能的值包括：
-   * API要求
-   * 核准
-   * 建立
-   * DELETE
-   * 編輯
-   * 禁運
-   * 匯出
-   * 組織變更
-   * 重新整理
-   * 共用
-   * 轉移
-   * 取消核准
-   * 取消共用
+   * API_REQUEST：任何動作都會觸發後端API請求。 系統會顯示有關API請求的詳細資訊。
+   * 核准：已執行「核准」動作。
+   * CREATE：已執行「create」動作。
+   * DELETE：已執行「刪除」動作。
+   * 編輯：已執行「編輯」動作。
+   * 禁運：
+   * 匯出：已執行「匯出」動作。
+   * ORG_CHANGE：已執行組織變更動作。
+   * 重新整理：已執行「重新整理」動作。
+   * 共用：已執行「共用」動作。
+   * 轉移：已執行轉移動作。
+   * 取消核准：已執行「取消核准」動作。
+   * 取消共用：已執行「取消共用」動作。
 * **[!UICONTROL 建立日期]**：執行動作的日期和時間。
 * **[!UICONTROL 描述]**：動作摘要。
-* **[!UICONTROL 使用者名稱]**：執行此動作的使用者。
+* **[!UICONTROL 使用者名稱]**：執行此動作的使用者。 有時，使用者名稱可能會遺失。 請考慮使用[產品使用狀況](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/product-usage/usage-overview)功能，因為它一律包含登入使用者名稱。
 * **[!UICONTROL 電子郵件]**：執行動作之使用者的電子郵件地址。
 * **[!UICONTROL 元件名稱]**：使用者對其執行動作的元件。
 * **[!UICONTROL 元件型別]**：元件的型別。 可能的值包括：
@@ -94,7 +94,7 @@ ht-degree: 66%
    * 篩選
    * IMS組織
    * 行動
-   * 專案
+   * 專案(Workspace)
    * 報告
    * 排程專案
    * 使用者
