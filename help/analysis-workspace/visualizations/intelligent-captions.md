@@ -4,9 +4,9 @@ title: 智慧型註解
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 7d103e9d709ec076519360a4b43af44f061171e9
+source-git-commit: 763f2849afee98e704a9f231ed7e203dd3be73f6
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '876'
 ht-degree: 19%
 
 ---
@@ -82,6 +82,12 @@ ht-degree: 19%
 
 * 需要與其他使用者分享敘述的分析師。 分析師需要這些見解才能為其使用者提供內容。
 * 想要快速探索高階外賣產品的商務使用者。
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intellgent註解](https://video.tv.adobe.com/v/3420131/?learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## 啟動智慧型字幕 {#launch}
 
