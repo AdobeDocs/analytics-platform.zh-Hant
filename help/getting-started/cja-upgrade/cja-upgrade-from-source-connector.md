@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: f4fd3c1932a736577d480e86cad70f55de75cb21
+source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
-# 從Analytics來源聯結器轉換至Web SDK以進行Customer Journey Analytics
+# 從Analytics來源聯結器轉換至Web SDK以進行Customer Journey Analytics {#transition-from-source-connector}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector"
+>title="Analytics來源聯結器實施"
+>abstract="Analytics來源聯結器可讓您輕鬆從Customer Journey Analytics中獲得價值，但需要您同時為Adobe Analytics和Customer Journey Analytics付費。 本指南可協助您邁向獨立的Web SDK實作。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

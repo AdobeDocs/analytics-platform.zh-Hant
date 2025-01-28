@@ -6,14 +6,22 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 987d09a10da9cf972947fae99e5b88bfc8da135d
+source-git-commit: 4438f4f7bd2794f459a1f771b1685f2501838b5f
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 1%
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
 # 使用個人化物件以搭配Adobe Journey Optimizer使用
+
+個人化物件的結果會出現在資料集中。 實驗的結果。 當客戶透過Target使用AA時，這最終會進入與移轉至CJA且他們將會透過Adobe Target使用CJA完全不同的空間。
+
+Target是設定A/B測試或實驗的老方法。 然後確保Target中這些測試的結果最後以AA報告。 現在，如果您使用Target，不必再聲稱您想要Target中的資料，您可以選取CJA作為Adobe Target活動的報告來源。 所以如果客戶在AA中這麼做並且他們想要移至CJA...
+
+如果客戶有AJO，而且正在使用AJO中的優惠方案，他們可以設定優惠方案，並在Platform中建立資料集……但這與升級無關，確切地說。
+
+
 
 我們需要回答的問題：
 
@@ -29,6 +37,8 @@ ht-degree: 1%
 
 ## 手動實作網頁SDK
 
+
+## 行動SDK實施
 
 
 

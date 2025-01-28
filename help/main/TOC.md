@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 418c280ec3af1972373eba339e084b81c679f947
+source-git-commit: 0e3f15abbc904786c359160749d62754a9ebbe50
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1113'
+ht-degree: 98%
 
 ---
 
@@ -71,6 +71,8 @@ ht-degree: 0%
       + [使用專用 Analytics 來源連接器](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)
       + [從 Analytics 來源連接器移至 Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)
       + [停用 AppMeasurement 資料彙集](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
+      + [從協力廠商分析解決方案升級](/help/getting-started/cja-upgrade/cja-upgrade-third-party-solution.md)
+      + [升級時支援Adobe Analytics功能](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
       + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)
