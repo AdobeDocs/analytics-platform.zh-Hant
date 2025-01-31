@@ -4,10 +4,10 @@ description: 了解衍生自報告執行時間的篩選量度。
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 95%
 
 ---
 
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 計算量度是您可從現有量度建立的自訂量度。計算量度提供一種靈活的方式來建置、管理和策劃自訂量度，使您能夠分析資料而無需變更實施。
 
-+++ 請觀看此簡介影片，了解如何使用計算量度。
 
->[!VIDEO](https://video.tv.adobe.com/v/31787/?learn=on)
 
-+++
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [計算量度簡介](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 計算量度的典型工作流程由下列任務組成
 

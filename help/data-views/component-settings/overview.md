@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e326b5457c82a7b4789c68588546707fabca42f6
-workflow-type: ht
-source-wordcount: '674'
-ht-degree: 100%
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 98%
 
 ---
 
@@ -55,6 +55,12 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-以下為有關資料檢視中元件設定的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/333112/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件型別設定](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+

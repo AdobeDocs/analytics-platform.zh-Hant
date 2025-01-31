@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: b9fd070c03df2947947227feb2de9cc7a5baf2c7
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 96%
 
 ---
 
@@ -43,6 +43,11 @@ ht-degree: 100%
 
 ## 概觀影片
 
->[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analytics的Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 您可從 [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows) 下載適用於 Customer Journey Analytics 的 Report Builder。

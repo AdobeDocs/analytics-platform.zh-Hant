@@ -4,10 +4,10 @@ title: 項目符號圖表
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 58%
+source-wordcount: '263'
+ht-degree: 56%
 
 ---
 
@@ -39,9 +39,18 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]**&#x200B;視覺效果會顯示量度與效能範圍（目標）的比較或測量方式。
 
-![](assets/bullet.png)
+![專案符號圖表視覺效果](assets/bullet.png)
 
 項目符號圖表中含有單一的主要測量值 (例如今年至今的收入)，且可用於輸入質化的成效範圍 (例如與目標收入比較)。您可以指定高、中和低目標範圍。 您可以在![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**&#x200B;中指定目標範圍。
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [專案符號圖表視覺效果](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12&learn=on){target="_blank"}。
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## 設定
 

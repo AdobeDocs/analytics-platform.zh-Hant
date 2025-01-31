@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 10%
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 ![版本](/help/assets/icons/Release.svg) **[!UICONTROL 版本影響]**&#x200B;分析會顯示指定日期之前與之後關鍵指標執行方式的比較。 此報表的水平軸是時間間隔，而垂直軸則測量所需的索引鍵。 圖表中央的垂直長條代表您要在前後比較的日期。 此日期通常表示您要測量的產品出現重大變更，例如產品更新或促銷活動啟動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421665/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421665/?quality=12&learn=on)
 
 ## 使用案例
 

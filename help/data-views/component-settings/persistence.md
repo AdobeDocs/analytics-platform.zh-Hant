@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 81%
+source-wordcount: '921'
+ht-degree: 80%
 
 ---
 
@@ -99,7 +99,13 @@ ht-degree: 81%
 
 如需有關如何有效使用繫結維度的範例，請參閱[在Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md)中使用繫結維度和量度。
 
->[!VIDEO](https://video.tv.adobe.com/v/342694/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [繫結維度](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## [!UICONTROL 繫結量度]
 

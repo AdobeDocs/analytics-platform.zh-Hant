@@ -3,9 +3,9 @@ description: 篩選個別量度可讓您在同一份報表中比較量度。
 title: 篩選量度
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -87,10 +87,12 @@ ht-degree: 1%
    ![Workspace自由格式表格視覺效果顯示德文人員與國際人員總數](assets/workspace-german-vs-international-totals-percentage.png)
 
 
-+++ 以下影片會說明如何將篩選的計算量度作為無實作量度。
 
->[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+>[!BEGINSHADEBOX]
+
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用篩選的計算量度作為示範視訊的無實作量度](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+

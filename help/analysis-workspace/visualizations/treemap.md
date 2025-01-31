@@ -4,10 +4,10 @@ title: 樹狀圖
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 27%
+source-wordcount: '164'
+ht-degree: 26%
 
 ---
 
@@ -37,6 +37,13 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 ![樹狀圖範例，顯示代表子分支的較小矩形圖磚。](assets/treemap.png)
 
 使用樹狀圖，您可以看到用其他方法很難發現的模式。 使用維度的顏色和大小，您可以發現維度如何相互關聯，以及是否有特定維度特別相關。 樹狀圖的第二個優勢在於，透過結構化，樹狀圖可有效利用空間。
+
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [樹狀圖視覺效果](https://video.tv.adobe.com/v/334458/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]

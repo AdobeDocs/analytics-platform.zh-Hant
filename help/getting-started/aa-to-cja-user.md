@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: a4b838f7813d78681eba072e4febd90ba0c7111d
-workflow-type: ht
-source-wordcount: '1442'
-ht-degree: 100%
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
+workflow-type: tm+mt
+source-wordcount: '1454'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Customer Journey Analytics 中的幾項功能都經過重新命名和重新設�
 
 * 您仍然可以利用 [Analysis Workspace](/help/analysis-workspace/home.md) 的強大功能來分析資料。工作區與傳統 Adobe Analytics 的工作區一樣。
 * 可以使用相同版本的 [Adobe Analytics 儀表板](/help/mobile-app/home.md)，且 Customer Journey Analytics 和 Adobe Analytics 之間運作方式類似。
-* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，並在 MS Windows、MacOS 和 Excel 的 Web版本上執行。(在此版本的 Report Builder 之前，除非在 VMware 上執行，否則無法在 Mac 上使用。)此版本尚未支援傳統 AA 資料請求。
+* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，並在 MS Windows、MacOS 和 Excel 的 Web版本上執行。(在此版本的Report Builder之前，除非在VMware上執行，否則無法在Mac上使用。) 此版本尚未支援傳統AA資料請求。
 
 ## 報告的變動
 
@@ -36,19 +36,29 @@ Customer Journey Analytics 中的幾項功能都經過重新命名和重新設�
 
 Customer Journey Analytics 從 Adobe Experience Platform 取得資料。Experience Platform 可讓您集中並標準化來自任何系統或通道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
 
-Experience Platform 中的客戶資料以資料集形式儲存，資料集含有[綱要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant)和資料批次。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
+Experience Platform 中的客戶資料以資料集形式儲存，資料集含有[結構描述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant)和資料批次。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
 
 您的 Customer Journey Analytics 管理員會建立與 Experience Platform 中資料集的[連線](/help/connections/create-connection.md)。然後他們會使用這些連線來建置[資料檢視](/help/data-views/data-views.md)。資料檢視在概念上與虛擬報告套裝相似，是 Customer Journey Analytics 報告的基礎。由於 Experience Platform 會從是所有報告資料取得來源，因此報告套裝不再以資料容器存在。
 
-透過連線，Analytics 管理員可以將來自 Adobe Experience Platform 的資料集整合到 Customer Journey Analytics 中，如以下影片所示：
+透過連線，Analytics管理員可以將來自Adobe Experience Platform的資料集整合到Customer Journey Analytics中。
 
->[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12)
+
+<!-- Outdated UI
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/){target=&#34;_blank&#34;} for a demo video.
+
+>[!ENDSHADEBOX]
+
+-->
+
 
 Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包括透過 Adobe Analytics 來源連接器或 Web SDK 的報告套裝資料。可在 Experience Platform 中結合來自多個報告套裝的現有實作。基於這些資料集的連線和資料檢視可以合併先前存在於單獨報告套裝中的資料。
 
 ## 虛擬報告套裝概念的變動 {#data-views}
 
-[!UICONTROL 資料檢視]運用現有的虛擬報告套裝概念，並將其擴展以[啟用透過連接使資料成為可用的其他控制項](/help/data-views/create-dataview.md)。這些變動使一般設定 (如時區和工作階段超時間隔) 成為可設定且具有追溯性。也可以在報告或資料檢視級別上自定義個別變數設定，如屬性和到期。這些設定為不具損害性且可追溯。
+[!UICONTROL 資料檢視]運用現有的虛擬報告套裝概念，並將其擴展以[啟用透過連接使資料成為可用的其他控制項](/help/data-views/create-dataview.md)。這些變動使一般設定 (如時區和工作階段超時間隔) 成為可設定且具有追溯性。也可以在報告或資料檢視級別上自定義個別變數設定，如屬性和期限。這些設定為不具損害性且可追溯。
 
 請注意，右上方的報告套裝選擇器現在允許您從可用資料檢視中進行選擇：
 
@@ -60,9 +70,9 @@ Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包�
 
 [!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 舊版本的 [!UICONTROL eVar]、[!UICONTROL prop] 和[!UICONTROL 事件]概念。在 Adobe Analytics 中，eVars 和 props 會儲存內容、客戶、活動等的描述。而事件會計數營收、訂閱或產生的潛在客戶等。Customer Journey Analytics 保留了這兩種類型的資料，並且您能以相同的方式存取這些資料 — 分別從 Analysis Workspace 的左滑軌、在維度或量度下存取。
 
-在 Customer Journey Analytics 中，提供無限制的綱要元素，包括維度、量度和清單欄位。這些元素對應到無限綱要元素，包括 Experience Platform 中的維度、量度和清單欄位。在 Adobe Analytics 處理規則後套用的所有瀏覽和屬性設定，現在都會在 Customer Journey Analytics 中在查詢時套用。
+在 Customer Journey Analytics 中，提供無限制的結構描述元素，包括維度、量度和清單欄位。這些元素對應到無限結構描述元素，包括 Experience Platform 中的維度、量度和清單欄位。在 Adobe Analytics 處理規則後套用的所有瀏覽和屬性設定，現在都會在 Customer Journey Analytics 中在查詢時套用。
 
-使用這項靈活性，您可能會遇到這樣的情況：單一綱要欄位既可用作維度又可用作量度，以支援不同的追蹤需求。
+使用這項靈活性，您可能會遇到這樣的情況：單一結構描述欄位既可用作維度又可用作量度，以支援不同的追蹤需求。
 
 ## 區段概念的變動
 
@@ -78,9 +88,14 @@ Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包�
 
 ## 計算量度概念的變動
 
-Adobe Analytics 和 Customer Journey Analytics 之間的計算量度名稱類似。但是，[!UICONTROL Customer Journey Analytics] 不再使用 eVars、props 或事件，而是使用任何 Experience Platform 綱要元素。這項根本變動意味著，現有計算量度完全與 [!UICONTROL Customer Journey Analytics] 不相容。如果要將現有 Adobe Analytics 計算量度移至 Customer Journey Analytics，請參閱以下視頻：
+Adobe Analytics 和 Customer Journey Analytics 之間的計算量度名稱類似。但是，[!UICONTROL Customer Journey Analytics] 不再使用 eVars、props 或事件，而是使用任何 Experience Platform 結構描述元素。此根本變更表示現有計算量度完全與[!UICONTROL Customer Journey Analytics]不相容。
 
->[!VIDEO](https://video.tv.adobe.com/v/31788/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需有關如何移動計算量度的示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [將計算量度從Adobe Analytics移動至Customer Journey Analytics](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## 變數屬性和過期設定的變動
 
@@ -100,9 +115,14 @@ Adobe Analytics 和 Customer Journey Analytics 之間的計算量度名稱類似
 
 ## Adobe 如何識別訪客的變動
 
-Customer Journey Analytics 將識別的概念擴展到 ECID 之外，以包括要使用的任何 ID，包括客戶 ID、Cookie ID、拼接 ID、使用者 ID、追蹤程式碼等。跨資料集使用通用命名空間 ID，或使用[拼接](../stitching/overview.md)可協助將不同資料集的人們連結在一起。任何在 Customer Journey Analytics 中設定工作區專案的使用者都必須了解跨資料集使用的 ID。請觀看以下影片，其中重點介紹了 Customer Journey Analytics 中身分識別的使用方式：
+Customer Journey Analytics 將身分識別的概念擴展到 ECID 之外，以包括要使用的任何 ID，包括客戶 ID、Cookie ID、拼接 ID、使用者 ID、追蹤程式碼等。跨資料集使用通用命名空間 ID，或使用[拼接](../stitching/overview.md)可協助將不同資料集的人們連結在一起。任何在 Customer Journey Analytics 中設定工作區專案的使用者都必須了解跨資料集使用的 ID。請觀看以下影片，重點說明Customer Journey Analytics中身分識別的使用情況
 
->[!VIDEO](https://video.tv.adobe.com/v/30750/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Customer Journey Analytics中使用身分](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## 低流量維度項目概念的變動
 

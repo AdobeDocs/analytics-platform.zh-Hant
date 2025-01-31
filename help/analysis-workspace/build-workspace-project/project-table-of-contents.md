@@ -5,9 +5,9 @@ title: 目錄
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: 9d32100f28e8806cc30aaf52e30216cbce1a38b0
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '186'
 ht-degree: 4%
 
 ---
@@ -16,11 +16,12 @@ ht-degree: 4%
 
 您可以在Analysis Workspace中檢視專案的目錄，該目錄可讓您在任何面板和專案中存在的視覺效果之間快速移動。 目錄在檢視包含許多面板和視覺效果的大型專案時特別實用。
 
-+++ 觀看此功能的示範影片。
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/26990/?learn=on)
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立示範視訊的目錄](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}。
 
-+++
+>[!ENDSHADEBOX]
+
 
 >[!TIP]
 >

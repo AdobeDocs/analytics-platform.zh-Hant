@@ -4,10 +4,10 @@ title: Customer Journey Analytics 登陸頁面
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 373d0c9989fb692da23efe371c65344093801140
-workflow-type: ht
-source-wordcount: '496'
-ht-degree: 100%
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 97%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 Customer Journey Analytics 登陸頁面標示[!DNL Analysis Workspace]並設有專案管理員首頁，以及可幫助您更有效地管理客戶歷程資料的學習區段。 
 
-+++ 請觀看簡介影片。
 
->[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace中的登陸頁面](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 Customer Journey Analytics 登陸頁面包含以下子索引標籤：專案與學習。
 

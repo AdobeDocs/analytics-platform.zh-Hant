@@ -6,22 +6,28 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: cbb48623212c2f3d8968dc6daca491761e2f4a9e
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1178'
 ht-degree: 84%
 
 ---
 
 # 排程活頁簿
 
-儲存活頁簿並完成分析後，您就可以使用排程功能輕鬆與團隊中的其他人共用活頁簿。「排程」功能可讓您建立排程，自動重新整理活頁簿中的資料，並透過電子郵件將 Excel 活頁簿 .xlsx 檔案作為附件，在特定日期和時間傳送給您指定的對象。設定排程可讓收件者定期自動更新。您也可以使用排程功能來傳送一次活頁簿，而不排程自動更新。
+儲存活頁簿並完成分析後，您就可以使用排程功能輕鬆與團隊中的其他人共用活頁簿。「排程」功能可讓您建立排程，自動更新活頁簿中的資料，並透過電子郵件將 Excel 活頁簿 .xlsx 檔案作為附件，在特定日期和時間傳送給您指定的客群。設定排程可讓收件者定期自動更新。您也可以使用排程功能來傳送一次活頁簿，而不排程自動更新。
 
 您可以為單一活頁簿建立多個排程。例如，您可以每天將活頁簿傳送給您的團隊，也可以建立兩個不同的排程，每週將活頁簿傳送給主管一次。
 
 「排程」功能也可以讓您設定活頁簿的密碼保護，以及編輯先前排程的活頁簿。
 
->[!VIDEO](https://video.tv.adobe.com/v/3413079/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+檢視![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [排程活頁簿](https://video.tv.adobe.com/v/3413079/?quality=12&learn=on){target="_blank"}以取得示範影片。
+
+>[!ENDSHADEBOX]
+
 
 ## 排程活頁簿
 
@@ -41,7 +47,7 @@ ht-degree: 84%
 
 1. (選用) 輸入檔案名稱。
 
-   活頁簿檔案名稱會預設為活頁簿的名稱，但您可以視需要變更此名稱。如果您要將相同的活頁簿傳送給多個對象，而您想要將它命名為讓特定對象更好記的名稱，就可以變更名稱。
+   活頁簿檔案名稱會預設為活頁簿的名稱，但您可以視需要變更此名稱。如果您要將相同的活頁簿傳送給多個客群，而您想要將它命名為讓特定客群更好記的名稱，就可以變更名稱。
 
 1. (選用) 選取&#x200B;**「將時間戳記附加到檔案名稱」**。
 

@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '2042'
-ht-degree: 64%
+source-wordcount: '2053'
+ht-degree: 62%
 
 ---
 
@@ -40,13 +40,15 @@ ht-degree: 64%
 
 收件者開啟專案時，系統會反映出您在共用之前套用的任何[監管](curate.md)。
 
-+++ 觀看如何使用專案共用的影片。
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中共用專案](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## 與您組織中的Customer Journey Analytics使用者和群組共用 {#Add}
 
@@ -153,9 +155,13 @@ ht-degree: 64%
 >
 >* Healthcare Shield和Privacy &amp; Security Shield授權的[!UICONTROL 與任何人共用]功能皆遭封鎖。
 
-以下影片示範和隨附文件說明了有關與任何人共用連結的選項：
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}共用示範影片。
+
+>[!ENDSHADEBOX]
+
 
 若要與任何人共用Analysis Workspace專案：
 
@@ -203,9 +209,16 @@ ht-degree: 64%
 
 ## 共用內嵌元件
 
-以下是有關該主題的影片：
+您可以共用屬於專案一部分的內嵌元件。
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中共用內嵌元件](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"}。
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 ## 常見問題 {#FAQs}
 

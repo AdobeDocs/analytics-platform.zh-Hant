@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 2f78905c2a1e94174a52269becc15474baf59f71
-workflow-type: ht
-source-wordcount: '224'
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+workflow-type: tm+mt
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,15 @@ ht-degree: 100%
 
 建議將連線管理的存取權限制為核心管理群組。連線層級的設定對於導入 Customer Journey Analytics 的資料量分配具有合約影響。
 
-以下是影片概觀：
+<!-- Outdated interface 
 
->[!VIDEO](https://video.tv.adobe.com/v/35111/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring connections](https://video.tv.adobe.com/v/35111/?quality=12&learn=on){target=&#34;_blank&#34;} for a demo video.
+
+>[!ENDSHADEBOX]
+
+-->
 
 ## 必要權限
 
@@ -33,7 +39,7 @@ ht-degree: 100%
 
 ### 在 Adobe Experience Platform 權限內：
 
-* 資料模型製作：檢視綱要、管理綱要
+* 資料模型製作：檢視結構描述、管理結構描述
 * 資料管理：檢視資料集、管理資料集
 * 資料擷取：管理來源
 * Identity Management：檢視身分命名空間

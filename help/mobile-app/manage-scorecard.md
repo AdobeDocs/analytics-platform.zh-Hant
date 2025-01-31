@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: 6149d2cf23eb31f0aaa37546d3150017e155053c
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 66%
+source-wordcount: '1813'
+ht-degree: 65%
 
 ---
 
@@ -38,9 +38,14 @@ ht-degree: 66%
 
 ## 自訂詳細投影片 {#customize-detail-slide}
 
-自訂詳細投影片可讓您與對象分享的資訊更有針對性。
+自訂詳細投影片可讓您與客群分享的資訊更有針對性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 您可以修改每個詳細投影片的版面並新增文字，以更清楚地說明一般使用者可在資料中看到的內容。您還可以使用下拉式選單變更圖表類型。
 
@@ -78,7 +83,13 @@ ht-degree: 66%
 
 觀看影片，深入了解在 Analysis Workspace 的行動記分卡專案中建立資料故事的資訊。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [行動計分卡專案的資料故事](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 **若要建立資料故事** {#data-story-create}
 

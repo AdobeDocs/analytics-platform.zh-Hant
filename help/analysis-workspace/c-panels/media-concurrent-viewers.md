@@ -4,9 +4,9 @@ description: 如何使用和解讀Analysis Workspace中的「媒體同時檢閱�
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1238'
 ht-degree: 46%
 
 ---
@@ -53,13 +53,13 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 在Analysis Workspace中，「同時檢閱者」量度指的是在特定時間點檢視您媒體串流的不重複人數，而不計工作階段數量。
 
 
-+++ 觀看此功能的示範影片。
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [媒體同時檢閱者面板](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
 
 ## 使用
 

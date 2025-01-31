@@ -4,9 +4,9 @@ title: 欄設定
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '889'
 ht-degree: 21%
 
 ---
@@ -15,13 +15,15 @@ ht-degree: 21%
 
 [!UICONTROL 欄設定]可讓您設定欄格式，部分可設為條件式。
 
-+++ 觀看此功能的示範影片。
 
->[!VIDEO](https://video.tv.adobe.com/v/40382/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列與欄設定](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 若要存取[!UICONTROL 欄設定]，請在欄標題中選取![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)。
 

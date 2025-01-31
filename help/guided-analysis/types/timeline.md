@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 3%
@@ -34,7 +34,7 @@ ht-degree: 3%
 >* **管理員**： *此分析需要PersonID屬性。 請新增人員ID至資料檢視。*
 >* **非管理員**： *此分析需要PersonID屬性。 請與您的Customer Journey Analytics管理員合作，將人員ID新增至資料檢視。*
 
->[!VIDEO](https://video.tv.adobe.com/v/3427810/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3427810/?quality=12&learn=on)
 
 
 

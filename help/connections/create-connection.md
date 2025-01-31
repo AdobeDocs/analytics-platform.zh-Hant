@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a530738bb02888d637e5ff4edaa1aa2535a9034c
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '4260'
-ht-degree: 100%
+source-wordcount: '4261'
+ht-degree: 99%
 
 ---
 
@@ -131,11 +131,13 @@ ht-degree: 100%
 * 例如，您可以編輯資料集來請求另一次回填。
 * 您可以為每個資料集匯入現有的資料。
 
-+++ 用於說明建立和編輯連線體驗的影片
 
->[!VIDEO](https://video.tv.adobe.com/v/343044/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-+++
+檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立和編輯示範視訊的連線](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 先決條件
 

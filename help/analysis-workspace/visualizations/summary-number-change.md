@@ -4,14 +4,26 @@ title: 摘要數字和摘要變更
 feature: Visualizations
 exl-id: 8872fc58-0957-415d-9958-ce564612ce87
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 47%
+source-wordcount: '510'
+ht-degree: 46%
 
 ---
 
 # 摘要數字和摘要變更
+
+>[!BEGINSHADEBOX]
+
+_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中的摘要編號和摘要變更視覺效果。_<br/>_檢視此文章的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本的[摘要編號和摘要變更](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)。_
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [摘要數字與摘要變更視覺效果](https://video.tv.adobe.com/v/335564/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## 摘要數字 {#summary-number}
 
@@ -23,14 +35,6 @@ ht-degree: 47%
 >abstract="建立顯示總計和小計的視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
-
-
->[!BEGINSHADEBOX]
-
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中的摘要編號和摘要變更視覺效果。_<br/>_檢視此文章的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本的[摘要編號和摘要變更](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change)。_
-
->[!ENDSHADEBOX]
-
 
 使用![摘要](/help/assets/icons/123.svg) **[!UICONTROL 摘要數字]**&#x200B;視覺效果來強調專案中重要的大數字。 此視覺效果的運作方式如下，使用相關聯的資料來源：
 

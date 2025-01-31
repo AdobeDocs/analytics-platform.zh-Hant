@@ -4,9 +4,9 @@ description: 瞭解如何在Analysis Workspace中使用同類群組表格進行�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '692'
 ht-degree: 30%
 
 ---
@@ -52,13 +52,15 @@ _本文會記錄_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 [!UICONTROL 同類群組表格]適用於具有[!UICONTROL Analysis Workspace]存取許可權的所有Customer Journey Analytics客戶。
 
-+++ 觀看同類群組表格的影片示範。
 
->[!VIDEO](https://video.tv.adobe.com/v/23990/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace中的同類群組分析](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 >[!IMPORTANT]
 >

@@ -4,9 +4,9 @@ title: 關於流失報表和視覺效果
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '357'
 ht-degree: 30%
 
 ---
@@ -31,13 +31,15 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL 流失]**&#x200B;視覺效果可顯示人員從何處離開（流失）或繼續通過（流過）預先定義的頁面順序。
 
-+++ 檢視[!UICONTROL 流失視覺效果]的影片示範。
 
->[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+>[!BEGINSHADEBOX]
+
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [為示範影片建立流失視覺效果報告](https://video.tv.adobe.com/v/345883/?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 流失視覺效果可讓您：
 

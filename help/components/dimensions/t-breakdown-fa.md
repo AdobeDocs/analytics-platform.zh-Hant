@@ -6,10 +6,10 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 58%
+source-wordcount: '540'
+ht-degree: 52%
 
 ---
 
@@ -51,28 +51,49 @@ ht-degree: 58%
 
 * 如果欄樹中已有歸因，則變更歸因只會影響正在編輯的歸因。
 
-+++ 觀看說明維度和維度劃分的影片
+>[!BEGINSHADEBOX]
 
-Analysis Workspace中的Dimension
-
->[!VIDEO](https://video.tv.adobe.com/v/23971)
-
-Dimension劃分
-
->[!VIDEO](https://video.tv.adobe.com/v/23969)
-
-在 Analysis Workspace 中新增維度和量度至您的專案：
-
->[!VIDEO](https://video.tv.adobe.com/v/30606)
-
-在自由格式表格中使用維度：
-
->[!VIDEO](https://video.tv.adobe.com/v/40179)
-
-依位置的維度劃分：
-
->[!VIDEO](https://video.tv.adobe.com/v/24033)
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中的Dimension](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Dimension劃分](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"}。
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [新增維度和量度](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"}。
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [在自由格式表格中使用維度](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}。
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [依位置](https://video.tv.adobe.com/v/24033){target="_blank"}的Dimension劃分。
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
+
+

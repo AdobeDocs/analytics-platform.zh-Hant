@@ -5,9 +5,9 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
-workflow-type: ht
-source-wordcount: '923'
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+workflow-type: tm+mt
+source-wordcount: '915'
 ht-degree: 100%
 
 ---
@@ -44,12 +44,6 @@ Analysis Workspace 中的元件由量度、維度、篩選條件和日期範圍�
 
 請參閱[建立專案](/help/analysis-workspace/home.md)，以了解在專案中如何使用元件的詳細資訊。
 
-
-+++ 觀看展示元件可能性的影片：
-
->[!VIDEO](https://video.tv.adobe.com/v/23979)
-
-+++
 
 ## 管理元件 {#actions}
 

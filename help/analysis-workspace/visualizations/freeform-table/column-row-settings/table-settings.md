@@ -4,22 +4,21 @@ title: 列設定
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 347ab5b400fb8a5fddc02878f779be7112d693ab
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 15%
+source-wordcount: '1026'
+ht-degree: 14%
 
 ---
 
 # 列設定
 
-+++ 觀看此功能的示範影片。
 
->[!VIDEO](https://video.tv.adobe.com/v/40382/?quality=12)
+>[!BEGINSHADEBOX]
 
-{{videoaa}}
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列與欄設定](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}。
 
-+++
+>[!ENDSHADEBOX]
 
 列設定會依您拖放至表格中的元件而異。若要存取表格列設定，請選取維度、篩選器、量度、時段旁的![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**，或每個物件內的劃分。
 

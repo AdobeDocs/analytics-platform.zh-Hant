@@ -3,9 +3,9 @@ description: 循序篩選器是指使用THEN運運算元定義篩選條件順序
 title: 循序篩選器
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 8cf8af1d1d84f4db93ab627e76554f3fe618ef92
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2460'
 ht-degree: 3%
 
 ---
@@ -14,13 +14,15 @@ ht-degree: 3%
 
 您在元件、容器和元件或容器之間使用[!UICONTROL Then]邏輯運運算元建立循序篩選器。 [!UICONTROL Then]邏輯運運算元表示有一個篩選條件發生，接著是另一個篩選條件。
 
-+++ 以下是示範循序分段的影片。
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [循序分段](https://video.tv.adobe.com/v/25405/?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
 
 循序篩選器具有某些[基本功能](#basics)以及您可以設定的其他選項，以增加循序篩選器的複雜性：
 

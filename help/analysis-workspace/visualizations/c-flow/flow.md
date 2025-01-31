@@ -4,10 +4,10 @@ title: 流量概觀
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 49%
+source-wordcount: '387'
+ht-degree: 46%
 
 ---
 
@@ -41,15 +41,17 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 * 將客戶在您網站或應用程式中的歷程視覺化。
 * 分析客戶在所指定查核點（例如登入、特定維度或退出）之前和之後的前往位置。
-* 指定選定路徑中的特定點，建立篩選器
+* 指定所選路徑中的特定點，以建立篩選器。
 
-+++ 觀看流量視覺效果的影片示範。
 
->[!VIDEO](https://video.tv.adobe.com/v/346063/?quality=12)
+>[!BEGINSHADEBOX]
+
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立流量視覺效果](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 ## 維度間流程
 

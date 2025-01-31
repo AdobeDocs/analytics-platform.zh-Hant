@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 9%
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 ![頻率](/help/assets/icons/Histogram.svg) **[!UICONTROL 頻率]**&#x200B;分析會依產品中發生事件的頻率來分組事件資料。 此分析的垂直軸包含代表事件頻率的貯體。 水平軸會測量每個時段的使用者或工作階段數量。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428089/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428089/?quality=12&learn=on)
 
 ## 使用案例
 

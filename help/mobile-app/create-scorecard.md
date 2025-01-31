@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: f9b9dcf87d781e0702b51e536b7edb4644720fa5
 workflow-type: tm+mt
-source-wordcount: '2672'
-ht-degree: 68%
+source-wordcount: '2703'
+ht-degree: 67%
 
 ---
 
@@ -26,7 +26,13 @@ ht-degree: 68%
 
 下列資訊可為Customer Journey Analytics資料的組織者說明如何設定控制面板並向高階主管使用者呈現。 若要開始使用，您可觀看Analytics儀表板計分卡產生器的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/343458)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [建立行動計分卡](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >
@@ -202,7 +208,14 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 自訂詳細投影片可讓您與客群分享的資訊更有針對性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}。
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 您可以修改每個詳細投影片的版面並新增文字，以更清楚地說明一般使用者可在資料中看到的內容。您還可以使用下拉式選單變更圖表類型。
 
@@ -240,7 +253,15 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 觀看影片，深入了解在 Analysis Workspace 的行動記分卡專案中建立資料故事的資訊。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [行動計分卡專案的資料故事](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"}。
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
+
 
 **若要建立資料故事** {#data-story-create}
 

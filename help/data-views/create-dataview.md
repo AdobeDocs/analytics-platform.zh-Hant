@@ -5,22 +5,24 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '1899'
-ht-degree: 100%
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+workflow-type: tm+mt
+source-wordcount: '1900'
+ht-degree: 99%
 
 ---
 
 # 建立或編輯資料視圖
 
-建立資料視圖需要從綱要元素建立量度和維度或使用標準元件。大多數綱要元素可以是維度或量度，具體取決於您的業務需求。將綱要元素拖到資料視圖中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
+建立資料視圖需要從結構描述元素建立量度和維度或使用標準元件。大多數結構描述元素可以是維度或量度，具體取決於您的業務需求。將結構描述元素拖到資料視圖中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
 
-+++ 觀看說明 Customer Journey Analytics 資料釋圖的影片
 
->[!VIDEO](https://video.tv.adobe.com/v/35110/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-+++
+檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立或編輯示範視訊的資料檢視](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 建立或編輯資料視圖的方法：
 
@@ -112,7 +114,7 @@ ht-degree: 100%
 
 ## 元件
 
-接下來，您可以設定資料視圖的元件，這代表您可以從綱要元素建立量度和維度。您也可以使用標準元件。
+接下來，您可以設定資料視圖的元件，這代表您可以從結構描述元素建立量度和維度。您也可以使用標準元件。
 
 >[!IMPORTANT]
 >
@@ -122,17 +124,17 @@ ht-degree: 100%
 
    ![元件標籤](assets/dataview-components.png)
 
-   您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「綱要」欄位]。已包含的元件是所有資料視圖 (如事件、人員、工作階段量度以及分鐘、季度、週維度) 所需的標準元件 (系統產生)。Adobe 預設會套用篩選器「**[!UICONTROL 包含資料]**」和「**[!UICONTROL 未淘汰]**」，以僅顯示包含資料且未淘汰的綱要欄位。
+   您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「結構描述」欄位]。已包含的元件是所有資料視圖 (如事件、人員、工作階段量度以及分鐘、季度、週維度) 所需的標準元件 (系統產生)。Adobe 預設會套用篩選器「**[!UICONTROL 包含資料]**」和「**[!UICONTROL 未淘汰]**」，以僅顯示包含資料且未淘汰的結構描述欄位。
 
-1. 使用「![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」**[!UICONTROL 搜尋綱要欄位]**&#x200B;來搜尋綱要欄位，或者移動到任意資料集集合來尋找欄位，例如![資料夾圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg)「**[!UICONTROL 事件資料集]**」。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)「**建立衍生欄位**」來建立衍生欄位。請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
+1. 使用「![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」**[!UICONTROL 搜尋結構描述欄位]**&#x200B;來搜尋結構描述欄位，或者移動到任意資料集集合來尋找欄位，例如![資料夾圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg)「**[!UICONTROL 事件資料集]**」。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)「**建立衍生欄位**」來建立衍生欄位。請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
-1. 當您找到特定綱要欄位或定義衍生欄位時，拖動該欄位，例如![手柄圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg)「**[!UICONTROL 頁面名稱]**」，從左邊欄進入量度或維度區段。您可以多次將相同的綱要欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。例如，在 pageName 欄位，您可以使用右側不同的[元件設定](component-settings/overview.md)，以建立名為「產品頁面」的維度，以及「錯誤頁面」維度。如果從左側欄拖曳綱要欄位檔案夾，它們會自動排序為傳統區段。字串欄位會在「[!UICONTROL 維度]」區段中結束，而數字綱要類型最終出現在「[!UICONTROL 量度]」區段中。您也可以按一下「**[!UICONTROL 新增全部]**」，並新增所有綱要欄位至其各自的位置。
+1. 當您找到特定結構描述欄位或定義衍生欄位時，拖動該欄位，例如![手柄圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg)「**[!UICONTROL 頁面名稱]**」，從左邊欄進入量度或維度區段。您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。例如，在 pageName 欄位，您可以使用右側不同的[元件設定](component-settings/overview.md)，以建立名為「產品頁面」的維度，以及「錯誤頁面」維度。如果從左側欄拖曳結構描述欄位檔案夾，它們會自動排序為傳統區段。字串欄位會在「[!UICONTROL 維度]」區段中結束，而數字結構描述類型最終出現在「[!UICONTROL 量度]」區段中。您也可以按一下「**[!UICONTROL 新增全部]**」，並新增所有結構描述欄位至其各自的位置。
 
 1. 選取元件後，右側會出現設定。
 
    ![已選取資料視圖元件](assets/dataview-component-pagename.png)
 
-   使用[元件設定](component-settings/overview.md)來設定元件。可用的元件設定取決於元件是維度/量度以及綱要資料類型。設定包括：
+   使用[元件設定](component-settings/overview.md)來設定元件。可用的元件設定取決於元件是維度/量度以及結構描述資料類型。設定包括：
 
    * [[!UICONTROL 歸因]](component-settings/attribution.md)
    * [[!UICONTROL 行為]](component-settings/behavior.md)
@@ -147,11 +149,11 @@ ht-degree: 100%
 
 **複製量度或維度**
 
-複製量度或維度，然後修改特定的設定，是從單一綱要欄位建立多個量度或維度的簡易方式。選取右上方的量度或維度名稱底下的「[!UICONTROL 複製]」設定。 修改新的量度或維度，並使用更具說明性的名稱來儲存它。
+複製量度或維度，然後修改特定的設定，是從單一結構描述欄位建立多個量度或維度的簡易方式。選取右上方的量度或維度名稱底下的「[!UICONTROL 複製]」設定。 修改新的量度或維度，並使用更具說明性的名稱來儲存它。
 
-**篩選綱要欄位或資料集**
+**篩選結構描述欄位或資料集**
 
-您可以依照[!UICONTROL 資料類型], [!UICONTROL 資料集]、[!UICONTROL 資料治理] 和 [!UICONTROL 其他] 條件 ([!UICONTROL 包含資料]、[!UICONTROL 身分識別] 和 [!UICONTROL 未淘汰]) 篩選左邊欄中的![篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)綱要欄位：
+您可以依照[!UICONTROL 資料類型], [!UICONTROL 資料集]、[!UICONTROL 資料治理] 和 [!UICONTROL 其他] 條件 ([!UICONTROL 包含資料]、[!UICONTROL 身分識別] 和 [!UICONTROL 未淘汰]) 篩選左邊欄中的![篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)結構描述欄位：
 
 ![篩選欄位](assets/dataview-components-filter.png)
 

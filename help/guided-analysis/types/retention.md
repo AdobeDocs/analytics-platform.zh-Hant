@@ -5,7 +5,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 在此分析中，圖表的x軸代表從使用者起始事件以來的時間，而y軸代表與一或多個回訪事件互動的使用者百分比。 您可以跨期間檢視保留率和流失率，並可透過查詢設定自訂顯示的期間。 在圖表下方，表格會提供彙總資料，而且可以選擇顯示個別同類群組，也就是在同一日期執行開始事件的一群人員。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430503/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430503/?quality=12&learn=on)
 
 
 ## 使用案例

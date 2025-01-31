@@ -4,10 +4,10 @@ title: 環形圖
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 26%
+source-wordcount: '122'
+ht-degree: 25%
 
 ---
 
@@ -34,13 +34,15 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 ![將資料顯示為整體部分或篩選器的環形圖。](assets/donut.png)
 
-+++ 觀看此功能的示範影片。
 
->[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [新增環形圖視覺效果](https://video.tv.adobe.com/v/334309/?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 
-+++
+>[!ENDSHADEBOX]
+
 
 >[!MORELIKETHIS]
 >

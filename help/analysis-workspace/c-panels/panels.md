@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: e61368765dde35e6d9beed7713a7a28db0c2af98
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '2159'
-ht-degree: 98%
+source-wordcount: '2129'
+ht-degree: 99%
 
 ---
 
@@ -147,20 +147,17 @@ ht-degree: 98%
 
 如需更多資訊，請參閱[快速篩選器](/help/components/filters/quick-filters.md)。
 
-![已公開並放入拖放區域的臨時篩選](assets/adhoc-segment-filter.png)
+![設定為公開並拖曳到放置區的臨時篩選器](assets/adhoc-segment-filter.png)
 
 ### 下拉式篩選器
 
->[!VIDEO](https://video.tv.adobe.com/v/23877?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-此影片示範使用Adobe Analytics的功能。 不過，Customer Journey Analytics也提供類似功能。 請注意下列術語差異。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉式篩選器](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}。
 
-| Adobe Analytics | Customer Journey Alytics |
-| --- | --- |
-| 區段 | 篩選器 |
-| 訪客 | 人員 |
-| 造訪 | 工作階段 |
-| 點擊 | 事件 |
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 
 #### 靜態下拉式篩選器

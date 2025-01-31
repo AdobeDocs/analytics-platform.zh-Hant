@@ -4,9 +4,9 @@ title: 快速篩選
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
+source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1170'
 ht-degree: 2%
 
 ---
@@ -16,12 +16,13 @@ ht-degree: 2%
 快速篩選可讓您快速探索Workspace專案中的資料，而不需要在[篩選產生器](/help/components/filters/create-filters.md)中建立篩選。
 
 
-+++ 下列影片示範如何使用快速篩選。
 
->[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace中的快速區段](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"}。
 
-+++
+>[!ENDSHADEBOX]
+
 
 當您想要使用快速篩選器時，請注意：
 

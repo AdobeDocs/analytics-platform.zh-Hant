@@ -4,10 +4,10 @@ title: 直方圖
 feature: Visualizations
 exl-id: 5901eb15-51cf-45a0-a80b-5824adf33bdd
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 34%
+source-wordcount: '344'
+ht-degree: 36%
 
 ---
 
@@ -47,7 +47,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 在以下範例中，長條圖可用來儲存人數的工作階段。 長條圖顯示大多數人確實在所選日期範圍內有16至21個工作階段。
 
-![](assets/histogram.png)
+![直方圖](assets/histogram.png)
 
 ## 進階設定
 
@@ -74,9 +74,5 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 >[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->
+>[使用長條圖來識別非預期的資料值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 
-
-## 部落格貼文
-
-請參閱這篇部落格，瞭解[使用長條圖識別非預期資料值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)的相關資訊。

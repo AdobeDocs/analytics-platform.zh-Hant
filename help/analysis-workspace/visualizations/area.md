@@ -4,7 +4,7 @@ title: 區域圖和堆疊區域圖
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 5655c951422c4abbd7bd12686027968efea5c6ea
+source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 25%
@@ -51,8 +51,6 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 >abstract="建立區域圖視覺效果來表示多個量度的堆疊。"
 
 <!-- markdownlint-enable MD034 -->
-
-
 
 
 ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]**&#x200B;視覺效果類似於「區域」，但每個數列都從上一個數列的頂端開始。
