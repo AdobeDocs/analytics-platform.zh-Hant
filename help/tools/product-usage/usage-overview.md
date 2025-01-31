@@ -2,10 +2,10 @@
 title: 產品使用概述
 description: 檢視有關貴組織如何使用Customer Journey Analytics的深入分析和報表。
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: dbf4ff28f693085320c3e496ea99eede2ddb17d2
+source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 12%
+source-wordcount: '523'
+ht-degree: 13%
 
 ---
 
@@ -98,7 +98,6 @@ ht-degree: 12%
    * `workspace-projects`
    * `guided-analysis`
    * `mobile-scorecard-builder`
-* **[!UICONTROL 使用者識別碼]**：觸發事件的使用者識別碼。
 * **[!UICONTROL 使用的視覺效果]**：新增、移除或修改的視覺效果。 Dimension專案包括：
    * [!UICONTROL 自由格式表格]
    * [!UICONTROL 同類群組表格]
