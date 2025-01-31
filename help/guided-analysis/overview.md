@@ -5,10 +5,10 @@ keywords: Product Analytics
 exl-id: 1ac8157f-87e8-4d98-a2ca-f6beb68d9d6b
 feature: Guided Analysis
 role: User
-source-git-commit: 1e7d61f05a8351a1bd9e4d289c9d31906676f909
-workflow-type: ht
-source-wordcount: '1806'
-ht-degree: 100%
+source-git-commit: dbcc66e02f729547fcb129fe157af831ed6369f9
+workflow-type: tm+mt
+source-wordcount: '1849'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 | ![轉換趨勢](/help/assets/icons/ConversionTrends.svg) | [轉換趨勢](types/conversion-trends.md) | 追蹤一段時間內的轉換率變化。 |
 | ![參與度圖](/help/assets/icons/EngagementGraph.svg) | [參與度](types/engagement.md) | 了解功能參與的廣度與深度。 |
 | ![首次使用](/help/assets/icons/FirstUse.svg) | [首次使用影響](types/first-use-impact.md) | 測量功能首次使用對關鍵指標的影響。 |
-| ![長條圖](/help/assets/icons/Histogram.svg) | [頻率](types/frequency.md) | 依照使用頻率來測量參與度。 |
+| ![直方圖](/help/assets/icons/Histogram.svg) | [頻率](types/frequency.md) | 依照使用頻率來測量參與度。 |
 | ![轉換漏斗](/help/assets/icons/ConversionFunnel.svg) | [漏斗](types/funnel.md) | 比較步驟之間的轉換率。 |
 | ![淨成長](/help/assets/icons/NetGrowth.svg) | [淨增長](types/net-growth.md) | 您正在獲得還是失去使用者? |
 | ![發行](/help/assets/icons/Release.svg) | [發行影響](types/release-impact.md) | 比較發行前和發行後同期的績效。 |
@@ -72,7 +72,7 @@ ht-degree: 100%
 | ![圖表](assets/chart.png){style="border:1px solid gray"} | **[!UICONTROL 圖表]** | 根據查詢邊欄和設定的輸入內容傳回的資料視覺效果。您看到的視覺效果取決於圖表上方的視圖和設定。該圖表也包括： <ul><li>**工具提示**：將滑鼠停留在任何圖表資料點上，可顯示包含更多資訊的工具提示。</li><li>**圖例**：將滑鼠停留在圖表圖例系列上，可檢視可用的定義、聚焦於該系列，以及暫時隱藏其他系列。在圖例中選取一個系列以隱藏該系列。</li><li>**註解**：適用的[註解](../components/annotations/overview.md)會顯示在視覺效果和圖例之間。它會以註解設定的顏色顯示為 ![註解圖示](assets/annotation.png) 圖示。對於顯示隨時間變化之資料的分析，會在設定的日期或日期範圍下方出現![註解圖示](assets/annotation.png)圖示。對於未顯示隨時間變化之資料的分析，會在圖表的右下角顯示![註解圖示](assets/annotation.png)圖示。</li><li>**選取動作**：選取任何資料點，能顯示可用的後續動作。選項包括&#x200B;**儲存區段**。</li></ul> |
 | ![表格](assets/table.png){style="border:1px solid gray"} | **[!UICONTROL 表格]** | 用表格形式顯示根據查詢邊欄的輸入內容和設定傳回之資料。表格中的列使用事件 (1, 2, ...) 和區段識別碼 (A, B, ...) 作為參考。表格中的欄取決於圖表上方的分析。表格還在每一列中包含： <ul><li>**選取動作**：切換![顯示隱藏圖示](assets/hide-in-chart.png)以隱藏或顯示某一列的圖表系列。選取![更多](/help/assets/icons/More.svg)以執行其他動作。選項包括&#x200B;**儲存區段**。</li></ul> |
 | ![視覺效果設定](assets/visualization-settings.png){style="border:1px solid gray"} | **[!UICONTROL 視覺效果設定]** | 圖表上方的選項讓您可以提出下一個問題，以及自訂圖表和表格傳回資料的方式。以下選項適用於所有分析，而且每項分析都提供額外的設定。 <ul><li>![圖表趨勢](/help/assets/icons/GraphTrend.svg) **圖表設定**：微調圖表和表格顯示的內容。可用選項取決於選取的分析。</li><li>![圖層](/help/assets/icons/Layer.svg) **覆蓋設定**：新增覆蓋。可用選項取決於選取的分析。</li><li>![貯體](/help/assets/icons/Bucket.svg) **[!UICONTROL 貯體設定]**：自動存入貯體或將自訂貯體設定套用至資料。可用選項取決於選取的分析。<li>![資料互聯](/help/assets/icons/DataCorrelated.svg) **[!UICONTROL 比較設定]**：將資料與特定日期範圍進行比較。可用選項取決於選取的分析。</li><li>![足跡](/help/assets/icons/Footsteps.svg) **[!UICONTROL 顯示設定]**：選取如何顯示資料。可用選項取決於選取的分析。<li>![行事曆](/help/assets/icons/Calendar.svg) **日期範圍**：一種行事曆選擇器，可讓您決定分析的日期範圍。您也可以選取趨勢分析的時間間隔，例如每日、每週或每月。</li><li>![燈泡](/help/assets/icons/LightBulb.svg)**深入分析**：內容深入分析，取決於您所檢視的分析。這些分析見解是為目前的分析提供觀察結果。如果有多個分析見解，您可以使用右側的箭頭查看。您可以使用右上角的燈泡圖示切換此方框的可見度。</li></ul> |
-| ![選單](assets/menu.png){style="border:1px solid gray"} | **[!UICONTROL 選單]**<br/>在引導式分析專案中可使用 | 位於引導式分析專案右上角，會為您的分析提供總體動作的命令。<ul><li>![資料](/help/assets/icons/Data.svg)***資料視圖名稱***：變更分析所使用的資料視圖。您變更資料視圖時，查詢邊欄中的可用元件也會變更。</li><li>![連結](/help/assets/icons/Link.svg)**複製連結**：將分析的連結複製到剪貼簿。共用之前，系統會提示您先儲存。</li><li>**共用**：會開啟共用強制回應視窗，其中包含用來共用給個別使用者或群組的更多選項。您可以讓其他使用者共用分析內容，或產生讓任何人共用的連結。</li><li>**儲存**：儲存分析。如果您要儲存新的分析，便會出現「**[!UICONTROL 儲存分析]**」對話框，要求輸入名稱和說明。儲存後，您可以透過「**[!UICONTROL 分析已儲存]**」對話框分享您的分析。</li></ul>選取![更多](/help/assets/icons/More.svg)以執行更多操作，例如：<ul><li>**另存新檔**：將該分析與目前分析分開儲存，從而建立副本。此時顯示一個對話框，要求輸入新名稱和說明。</li><li>**匯出至 Workspace**：在 Analysis Workspace 中重新建立目前的引導式分析查詢。在新的索引標籤中建立 Workspace 專案，避免在引導式分析中使用時發生干擾。這是分析的副本，開啟後不會與原始的分析保持同步。您想要移交給分析師團隊，或在分析範圍以外更深入探討資料時，請使用此命令。</li><li>**複製圖表到剪貼簿**：將圖表圖形複製到剪貼簿，以便貼上至其他應用程式。查詢邊欄和表格不會包含在圖形中。</li><li>**下載 PNG**：將圖表圖形下載為 `.png`。查詢邊欄和表格不會包含在圖形中。</li><li>**下載 CSV**：將表格資料下載為 `.csv`。查詢邊欄和圖表不會包含在檔案中。</li></ul> |
+| ![功能表圖示](assets/menu.png){style="border:1px solid gray"} | **[!UICONTROL 選單]**<br/>在引導式分析專案中可使用 | 位於引導式分析專案右上角，會為您的分析提供總體動作的命令。<ul><li>![資料圖示](/help/assets/icons/Data.svg) ***資料檢視的名稱***：變更分析使用的資料檢視。 您變更資料視圖時，查詢邊欄中的可用元件也會變更。</li><li>![連結圖示](/help/assets/icons/Link.svg) **複製連結**：將分析連結複製到剪貼簿。 共用之前，系統會提示您先儲存。</li><li>**共用**：會開啟共用強制回應視窗，其中包含用來共用給個別使用者或群組的更多選項。您可以讓其他使用者共用分析內容，或產生讓任何人共用的連結。</li><li>**儲存**：儲存分析。如果您要儲存新的分析，便會出現「**[!UICONTROL 儲存分析]**」對話框，要求輸入名稱和說明。儲存後，您可以透過「**[!UICONTROL 分析已儲存]**」對話框分享您的分析。</li><li>![新增至Workspace圖示](/help/assets/icons/MultipleAdd.svg) **[!UICONTROL 新增至Workspace]**：顯示您可以新增此分析的可用Workspace專案。 選取Workspace專案即可在新標籤中開啟該Workspace專案，並在專案底部新增分析。</li></ul>選取![更多圖示](/help/assets/icons/More.svg)以取得更多動作，例如：<ul><li>**[!UICONTROL 另存新檔]**：將該分析與目前分析分開儲存，從而建立副本。此時顯示一個對話框，要求輸入新名稱和說明。</li><li>**[!UICONTROL 匯出至 Workspace]**：在 Analysis Workspace 中重新建立目前的引導式分析查詢。在新的索引標籤中建立 Workspace 專案，避免在引導式分析中使用時發生干擾。這是分析的副本，開啟後不會與原始的分析保持同步。您想要移交給分析師團隊，或在分析範圍以外更深入探討資料時，請使用此命令。</li><li>**[!UICONTROL 複製圖表到剪貼簿]**：將圖表圖形複製到剪貼簿，以便貼上至其他應用程式。查詢邊欄和表格不會包含在圖形中。</li><li>**[!UICONTROL 下載 PNG]**：將圖表圖形下載為 `.png`。查詢邊欄和表格不會包含在圖形中。</li><li>**[!UICONTROL 下載 CSV]**：將表格資料下載為 `.csv`。查詢邊欄和圖表不會包含在檔案中。</li></ul> |
 | ![選單視覺化](assets/menu-visualization.png){style="border:1px solid gray"} | **選單**<br/>&#x200B;在 Analysis Workspace 的引導式分析視覺化中可使用。 | Analysis Workspace 的引導式分析視覺化中的指令。<ul><li>![圖示散佈](/help/assets/icons/GraphScatter.svg)**[!UICONTROL 圖表]**：僅顯示分析的圖表。</li><li>![Table](/help/assets/icons/Table.svg)**[!UICONTROL 表格]**：僅顯示分析的表格。</li><li>![表格與圖表](/help/assets/icons/TableAndChart.svg)**[!UICONTROL 全部]**：顯示分析的表格和圖表。</li><li>![編輯](/help/assets/icons/Edit.svg)**[!UICONTROL 編輯]**：編輯分析的設定</li><li>![行事曆](/help/assets/icons/Calendar.svg)**[!UICONTROL *日期範圍&#x200B;*]**：設定分析的日期範圍。</li></ul> |
 
 
