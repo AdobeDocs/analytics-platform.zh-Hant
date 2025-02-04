@@ -9,7 +9,7 @@ role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace 可讓您快速建置分析以收集深入分析，然後與�
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace概觀](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概觀](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
