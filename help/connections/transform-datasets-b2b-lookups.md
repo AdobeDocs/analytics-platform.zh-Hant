@@ -1,18 +1,18 @@
 ---
-title: 轉換B2B查詢的資料集
+title: 轉換資料集以進行 B2B 查詢
 description: 說明如何轉換特定B2B查詢結構描述資料集中的資料
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: eef9b420f1016254dece0a916b82bc99e2ca866e
+source-git-commit: 32678fdedf1b384afce1998880af04f1af077943
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 2%
 
 ---
 
-# 轉換B2B查詢的資料集
+# 轉換資料集以進行 B2B 查詢
 
 若要支援對B2B資料（包括帳戶、商機、行銷清單和行銷活動）以人員為基礎的查詢，需要轉換B2B查詢資料集。
 
@@ -30,9 +30,12 @@ ht-degree: 0%
 
 若要啟用這類資料集的轉換：
 
-![啟用轉換資料集](assets/transform-dataset.gif)
+![啟用轉換資料集](/help/connections/assets/transform.gif)
 
-* 請確定您為&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 相符的索引鍵]**&#x200B;選取正確的識別碼，例如`personKey.sourceKey`。
+* 驗證每個資料集的&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 相符索引鍵]**&#x200B;的建議值。 如果您變更建議值的值，將會看到要求您繼續的警告。 您必須確定：
+
+   * 您為&#x200B;**Key**&#x200B;選取的值是以人員ID資料型別為基礎。
+   * 您為&#x200B;**比對索引鍵**&#x200B;選取的值已定義為事件資料集的主要身分欄位。
 
 * 選取匯入新資料和資料集回填的選項。
 
@@ -43,7 +46,7 @@ ht-degree: 0%
 
   >[!IMPORTANT]
   >
-  >一旦開啟，且儲存連線時，轉換便無法復原。 儲存連線後，您無法修改資料集的轉換設定，除非移除資料集並再次新增至連線。
+  >一旦開啟，且儲存連線時，轉換便無法復原。 您無法修改金鑰、比對金鑰和轉換資料集組態。 您只能移除、新增，然後重新設定資料集。
 
 若要為已經屬於現有連線的一或多個資料集啟用轉換：
 
