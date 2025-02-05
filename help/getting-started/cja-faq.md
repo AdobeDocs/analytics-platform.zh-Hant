@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+source-git-commit: edbe0a1b3354b17defb9aef90564f2e36586b181
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 99%
+source-wordcount: '2583'
+ht-degree: 98%
 
 ---
 
@@ -132,7 +132,7 @@ Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.c
 >[!NOTE]
 >Customer Journey Analytics 中沒有固定的資料大小，因此 Adobe 無法指定標準的擷取時間。Adobe 正在積極努力透過新的更新和擷取最佳化來減少這些延遲。
 
-<ul><li>即時資料或事件：資料可在 Adobe Experience Platform 上使用時，在 90 分鐘內完成處理和擷取。(批次大小 &gt; 5 千萬列：90 分鐘以上。)</li><li>小量回填：七天內<li>大量回填：30 天內</li></ul>
+<ul><li>即時資料或事件：資料可在 Adobe Experience Platform 上使用時，在 90 分鐘內完成處理和擷取。（批次大小&gt; 5千萬列：90分鐘以上。） **注意：**如果啟用拼接，則擷取可能需要3.25小時。 如需詳細資訊，請參閱[護欄](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails) 。</li><li>小量回填：七天內<li>大量回填：30 天內</li></ul>
 
 Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
@@ -146,12 +146,12 @@ Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
 ## 6. 刪除資料元件的影響 {#deletion}
 
-對於資料刪除，您應該考慮六種元件：沙箱、綱要、資料集、連線、資料檢視和 Workspace 專案。以下是刪除上述任何元件後的一些可能情況：
+對於資料刪除，您應該考慮六種元件：沙箱、結構描述、資料集、連線、資料檢視和 Workspace 專案。以下是刪除上述任何元件後的一些可能情況：
 
 | 若您... | 就會發生下列情形... |
 | --- | --- |
 | 刪除 [!UICONTROL Adobe Experience Platform] 中的沙箱 | 刪除沙箱時，資料會停止流向該沙箱中資料集的任何 [!UICONTROL Customer Journey Analytics] 連線。與此刪除的沙箱相關的連線、資料視圖、量度和維度也將被刪除。 | |
-| 刪除 [!UICONTROL Adobe Experience Platform] 中的綱要，但不刪除與此綱要相關聯的資料集 | [!UICONTROL Adobe Experience Platform] 不允許刪除與一或多個[!UICONTROL 資料集]相關聯的[!UICONTROL 綱要]。不過，擁有適當權限的管理員可以先刪除資料集，再刪除綱要。 |
+| 刪除 [!UICONTROL Adobe Experience Platform] 中的結構描述，但不刪除與此結構描述相關聯的資料集 | [!UICONTROL Adobe Experience Platform] 不允許刪除與一或多個[!UICONTROL 資料集]相關聯的[!UICONTROL 結構描述]。不過，擁有適當權限的管理員可以先刪除資料集，再刪除結構描述。 |
 | 刪除 [!UICONTROL Adobe Experience Platform] Data Lake 中的資料集 | 刪除 Adobe Experience Platform Data Lake 的資料集時，資料會停止從該資料集流向包含該資料集的任何 Customer Journey Analytics 連線。系統會從相關聯的 Customer Journey Analytics 連線自動刪除該資料集中的任何資料。 |
 | 刪除 [!UICONTROL Customer Journey Analytics] 中的資料集 | 請與您的 Adobe 帳戶團隊聯絡，以便展開刪除已儲存連線中的資料集流程。 |
 | 從資料集中刪除批次 (在 [!UICONTROL Adobe Experience Platform] 中) | 如果從 [!UICONTROL Adobe Experience Platform] 資料集中刪除某個批次，該批次資料就會從包含該特定批次的所有 Customer Journey Analytics 連線中移除。[!UICONTROL Adobe Experience Platform] 中的批次資料刪除後，Customer Journey Analytics 會收到相關通知。 |
@@ -182,7 +182,7 @@ Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
 +++**我的舊 [!UICONTROL eVar] 設定有何改變？**
 
-[!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 中的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL 事件]。您有不限數量的綱要元素 (維度、量度、清單欄位)。因此，您用來在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。
+[!UICONTROL Customer Journey Analytics] 中不再使用 Adobe Analytics 中的 [!UICONTROL eVar]、[!UICONTROL prop] 和 [!UICONTROL 事件]。您有不限數量的結構描述元素 (維度、量度、清單欄位)。因此，您用來在資料收集程序期間套用的所有歸因設定，現在都會在查詢時套用。
 
 +++
 
@@ -218,7 +218,7 @@ Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 
 Adobe 會定期監控和執行使用量限額。「資料列」指可用於 Customer Journey Analytics 中分析的每日平均資料列。
 
-例如，您的合約讓您有權使用100萬筆資料列。 假設在使用 Customer Journey Analytics 的第 1 天，您可以上傳 200 萬筆資料列。您在第 2 天刪除 100 萬筆資料列，並在剩餘的授權期限內將使用量維持在承諾的最大使用量 (亦即 100 萬筆資料列) 以內。根據您的合約條款，由於您超出了「資料列」授權權利，您仍然可能需支付按比例計算的第 1 天超額使用費。
+例如，您的合約讓您有權使用 100 萬筆資料列。假設在使用 Customer Journey Analytics 的第 1 天，您可以上傳 200 萬筆資料列。您在第 2 天刪除 100 萬筆資料列，並在剩餘的授權期限內將使用量維持在承諾的最大使用量 (亦即 100 萬筆資料列) 以內。根據您的合約條款，由於您超出了「資料列」授權權利，您仍然可能需支付按比例計算的第 1 天超額使用費。
 
 ## 11. 診斷資料差異 {#discrepancies}
 
