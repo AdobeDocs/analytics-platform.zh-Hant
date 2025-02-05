@@ -10,7 +10,7 @@ exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
 source-git-commit: 2d9475c4aa3ca9ba92856182e8c93f59180d833a
 workflow-type: tm+mt
 source-wordcount: '1587'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 5%
 >
 >如果本節所述的升級步驟對貴組織而言並不實際，請使用[Adobe Analytics來Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)，以動態方式產生針對貴組織獨特環境量身打造的升級步驟。
 
-### 高階建議升級程式 {#high-level-upgade-process}
+### 高階建議升級流程 {#high-level-upgade-process}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-historical-data"
->title="來自Adobe Analytics的歷史資料"
->abstract="將您的Adobe Analytics歷史報表套裝資料匯入Adobe Experience Platform並進行Customer Journey Analytics。"
+>title="Adobe Analytics 的歷史資料"
+>abstract="將歷史 Adobe Analytics 報告套裝資料匯入至 Adobe Experience Platform 和 Customer Journey Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -55,7 +55,7 @@ ht-degree: 5%
 
    Analytics來源聯結器可讓您：
 
-   * 將您的Adobe Analytics歷史報表套裝資料匯入Adobe Experience Platform並進行Customer Journey Analytics。
+   * 將歷史 Adobe Analytics 報告套裝資料匯入至 Adobe Experience Platform 和 Customer Journey Analytics。
 
      您可以將Analytics來源聯結器維持執行，只要您需要保留歷史Adobe Analytics資料即可。
 

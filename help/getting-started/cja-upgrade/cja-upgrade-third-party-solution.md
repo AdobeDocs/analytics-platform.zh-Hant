@@ -1,26 +1,27 @@
 ---
-title: 從協力廠商分析解決方案升級至Customer Journey Analytics
+title: 從第三方分析解決方案升級至 Customer Journey Analytics
 description: 瞭解如何從協力廠商分析解決方案升級至Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
+exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
+source-git-commit: 87df2fb92f238ce051ac5f6cc90e218737279471
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
-# 從協力廠商分析解決方案升級至Customer Journey Analytics {#upgrade-from-third-party}
+# 從第三方分析解決方案升級至 Customer Journey Analytics {#upgrade-from-third-party}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
->title="協力廠商分析產品"
->abstract="為協力廠商分析產品(例如Google Analytics)收集資料的實作。 選取此選項會停用調查問卷中的數個選項，這些選項在從協力廠商分析產品升級至Customer Journey Analytics時並不適用。"
+>title="第三方分析產品"
+>abstract="一種實作，會收集第三方分析產品 (例如 Google Analytics) 的資料。從第三方分析產品升級至 Customer Journey Analytics 時，選取此選項會停用問卷中多個不適用的選項。"
 
 <!-- markdownlint-enable MD034 -->
 

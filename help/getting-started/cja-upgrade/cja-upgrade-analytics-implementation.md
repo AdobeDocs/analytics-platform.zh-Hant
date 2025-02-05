@@ -1,5 +1,5 @@
 ---
-title: 瞭解您的Adobe Analytics實作及其對您升級至Customer Journey Analytics的影響
+title: 了解您的 Adobe Analytics 實作情況，以及它如何影響您升級至 Customer Journey Analytics
 description: 瞭解從Adobe Analytics升級為Customer Journey Analytics時的建議路徑
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
 source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 8%
+ht-degree: 27%
 
 ---
 
-# 瞭解您的Adobe Analytics實作及其對您升級至Customer Journey Analytics的影響 {#implementation-affects-upgrade}
+# 了解您的 Adobe Analytics 實作情況，以及它如何影響您升級至 Customer Journey Analytics {#implementation-affects-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement"
->title="AppMeasurement（手動JS檔案）"
->abstract="JavaScript實作，可在頁面上載入AppMeasurement.js，並使用s物件(例如s.eVar1)將資料傳送至Adobe。"
+>title="AppMeasurement (手動 JS 檔案)"
+>abstract="一種 JavaScript 實作，會在頁面上載入 AppMeasurement.js，並使用 s 物件 (例如 s.eVar1) 將資料傳送至 Adobe。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-analyticsextension"
->title="Adobe Analytics擴充功能（標籤）"
->abstract="載入了Adobe Experience Platform Data Collection （先前稱為Launch）的標籤實作。 標籤已安裝Adobe Analytics擴充功能。"
+>title="Adobe Analytics 擴充功能 (標籤)"
+>abstract="一種標籤實作，可載入 Adobe Experience Platform 資料彙集 (先前稱為 Launch)。此標籤已安裝 Adobe Analytics 擴充功能。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,8 +38,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk"
->title="網頁SDK (alloy.js)"
->abstract="JavaScript實作可在頁面上載入網路SDK程式庫(alloy.js)，並使用JSON裝載將資料傳送至Adobe。"
+>title="Web SDK (alloy.js)"
+>abstract="一種 JavaScript 實作，會在頁面上載入 Web SDK 資料庫 (alloy.js)，並使用 JSON 承載將資料傳送至 Adobe。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,8 +47,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdkextension"
->title="Web SDK擴充功能（標籤）"
->abstract="載入了Adobe Experience Platform Data Collection （先前稱為Launch）的標籤實作。 標籤已安裝Web SDK擴充功能。"
+>title="Web SDK 擴充功能 (標籤)"
+>abstract="一種標籤實作，會載入 Adobe Experience Platform 資料彙集 (先前稱為 Launch)。此標籤已安裝 Web SDK 擴充功能。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +57,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-api"
 >title="資料插入 API"
->abstract="使用資料插入API或大量資料插入API的實作。"
+>abstract="一種實作，會使用資料插入 API 或大量資料插入 API。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-mobilesdk"
 >title="Mobile SDK"
->abstract="使用Adobe Experience Platform Mobile SDK的實作。"
+>abstract="一種實作，會使用 Adobe Experience Platform Mobile SDK。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -75,7 +75,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-unknown"
 >title="未知的實作"
->abstract="如果您不是管理實施作業的人員，可暫時選取此選項。"
+>abstract="如果您不是管理實作的人員，可以暫時選取此選項。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -1,26 +1,27 @@
 ---
-title: 瞭解升級至Customer Journey Analytics時的Adobe Analytics功能支援
+title: 了解升級至 Customer Journey Analytics 時的 Adobe Analytics 功能支援
 description: 瞭解升級至Customer Journey Analytics時的Adobe Analytics功能支援
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1460cbd05cce793b25d026c413744508ab951147
+exl-id: 92053109-f80d-47ab-b011-c28a5411149c
+source-git-commit: 87df2fb92f238ce051ac5f6cc90e218737279471
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 29%
+ht-degree: 59%
 
 ---
 
-# 瞭解升級至Customer Journey Analytics時的Adobe Analytics功能支援 {#feature-support-upgrade}
+# 了解升級至 Customer Journey Analytics 時的 Adobe Analytics 功能支援 {#feature-support-upgrade}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-migrate-projects"
 >title="元件和專案"
->abstract="Adobe Analytics的元件包括：專案（及其相關自由表格和視覺效果）、區段和計算量度。"
+>abstract="Adobe Analytics 的元件包括：專案 (及其相關的自由格式表格和視覺效果)、區段和計算量度。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,8 +29,8 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-activity-map"
->title="Activity Map覆蓋和連結追蹤"
->abstract="瀏覽器擴充功能可讓您在網站上以覆蓋圖的形式檢視連結追蹤資料。"
+>title="Activity Map 覆蓋和連結追蹤"
+>abstract="一種瀏覽器擴充功能，可讓您在網站上查看以覆蓋形式顯示的連結追蹤資料。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,7 +39,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-classification"
 >title="分類資料"
->abstract="以個別維度將資料分組或分類。"
+>abstract="將資料分組或分類為個別的維度。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,7 +48,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-marketing-channels"
 >title="行銷管道"
->abstract="建立分類客戶如何到達您網站的規則。"
+>abstract="建立規則，將客戶造訪您網站的方式進行分類。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -56,7 +57,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-feeds"
 >title="資料摘要"
->abstract="從Adobe Analytics匯出原始資料，以用於外部工具和程式。"
+>abstract="從 Adobe Analytics 匯出原始資料以用於外部工具和流程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,7 +66,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-warehouse"
 >title="Data Warehouse"
->abstract="以試算表格式從Adobe Analytics匯出處理的資料。"
+>abstract="以試算表格式從 Adobe Analytics 匯出已處理的資料。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -74,7 +75,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="串流媒體資料"
->abstract="Adobe Analytics的附加元件，專門處理媒體的資料收集，例如音訊、視訊或串流內容。"
+>abstract="Adobe Analytics 的附加元件，專門用於媒體的資料彙集，例如音訊、視訊或串流內容。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,4 +96,3 @@ ht-degree: 29%
 | [資料摘要](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | 可透過 [Experience Platform Data Access API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html) 和 [Experience Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) 匯出資料集的第一代資料。這些選項提供收集或擷取至 Experience Platform Data Lake 中的所有資料事件/列層級匯出。後處理資料欄無法使用，因為後處理欄是在查詢時計算的。可透過報告匯出發佈欄。 |
 | [Data Warehouse](https://experienceleague.adobe.com/en/docs/analytics/export/data-warehouse/data-warehouse) | [Customer Journey Analytics 完整表格匯出](/help/analysis-workspace/export/export-cloud.md)是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多使用者經常要求且目前 Data Warehouse 目前尚未提供的新功能。 |
 | [串流媒體資料](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview) | 串流媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢視者」面板和「媒體播放時間」面板的一部分提供。 |
-

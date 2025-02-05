@@ -1,5 +1,5 @@
 ---
-title: 從Analytics來源聯結器轉換至Web SDK以進行Customer Journey Analytics
+title: 從 Analytics 來源連接器轉換至適用於 Customer Journey Analytics 的 Web SDK
 description: 瞭解在升級至Customer Journey Analytics時，如何從Analytics來源聯結器轉換至Web SDK
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
 source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# 從Analytics來源聯結器轉換至Web SDK以進行Customer Journey Analytics {#transition-from-source-connector}
+# 從 Analytics 來源連接器轉換至適用於 Customer Journey Analytics 的 Web SDK {#transition-from-source-connector}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector"
->title="Analytics來源聯結器實施"
->abstract="Analytics來源聯結器可讓您輕鬆從Customer Journey Analytics中獲得價值，但需要您同時為Adobe Analytics和Customer Journey Analytics付費。 本指南可協助您邁向獨立的Web SDK實作。"
+>title="Analytics 來源連接器實作"
+>abstract="Analytics 來源連接器可讓您輕鬆從 Customer Journey Analytics 中獲取價值，但會要求您同時支付 Adobe Analytics 和 Customer Journey Analytics 的費用。此指南可以協助您邁向獨立的 Web SDK 實作。"
 
 <!-- markdownlint-enable MD034 -->
 
