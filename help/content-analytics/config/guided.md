@@ -2,13 +2,14 @@
 title: 內容分析引導式設定
 description: 如何使用入門引導式設定來設定內容分析
 solution: Customer Journey Analytics
-feature: Data Views
+feature: Content Analytics
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 69e2f358398fd8d2646e5a3c1cb6dfd1b5b5efbb
+exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
+source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1699'
 ht-degree: 11%
 
 ---
@@ -200,6 +201,16 @@ ht-degree: 11%
 >title="資料收集"
 >abstract="在收集 Content Analytics 資料時，指明應&#x200B;**包含**&#x200B;或&#x200B;**排除**&#x200B;哪些資產"
 
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_experiences_edit_button"
+>title="資料收集"
+>abstract="您可以在Tag屬性的Adobe Content Analytics擴充功能中，編輯與所選設定相關聯的頁面設定。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_assets_edit_button"
+>title="資料收集"
+>abstract="您可以在Tag屬性的Adobe Content Analytics擴充功能中，編輯與所選設定相關聯的資產設定。"
+
 <!-- markdownlint-enable MD034 -->
 
 #### 新設定
@@ -272,5 +283,3 @@ ht-degree: 11%
       1. 如果沒有為Tags屬性設定Web SDK，則會建立新的Web SDK設定，以便僅傳送Content Analytics事件。
       1. 如果針對此標籤屬性設定了網頁SDK，則不會對現有的網頁SDK設定進行任何變更。
 * **[!UICONTROL 儲存]**：對實作組態所做的變更已儲存，且實作已更新。
-
-
