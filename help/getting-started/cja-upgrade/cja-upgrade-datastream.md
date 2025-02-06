@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f76d098d-d223-40e4-be81-d28e7581396b
-source-git-commit: 41965bcd5ae8252fbf2ceda0d2b633ec6dc0e9a3
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 23%
+source-wordcount: '300'
+ht-degree: 20%
 
 ---
 
-# 建立資料串流以用於Customer Journey Analytics
+# 建立資料串流以用於Customer Journey Analytics {#upgrade-create-datastream}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-datastream-create"
+>title="在Adobe Experience Platform中建立資料串流"
+>abstract="資料串流是中間位置，可將您的資料傳遞至所有已設定的服務。 在Adobe Experience Platform中建立此位置。<br><br>在Platform介面中初次建立資料串流只需要幾分鐘的時間。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

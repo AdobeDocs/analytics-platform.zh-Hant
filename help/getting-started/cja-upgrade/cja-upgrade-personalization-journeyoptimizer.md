@@ -6,14 +6,23 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 4438f4f7bd2794f459a1f771b1685f2501838b5f
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# 使用個人化物件以搭配Adobe Journey Optimizer使用
+# 使用個人化物件以搭配Adobe Journey Optimizer使用 {#upgrade-personalization}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-personalization"
+>title="針對Adobe Journey Optimizer使用個人化物件"
+>abstract="在您的實作中使用個人化物件，以用於Adobe Journey Optimizer。"
+
+<!-- markdownlint-enable MD034 -->
 
 個人化物件的結果會出現在資料集中。 實驗的結果。 當客戶透過Target使用AA時，這最終會進入與移轉至CJA且他們將會透過Adobe Target使用CJA完全不同的空間。
 

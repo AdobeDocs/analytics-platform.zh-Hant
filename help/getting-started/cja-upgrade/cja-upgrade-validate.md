@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# 驗證資料是否正在流入Customer Journey Analytics
+# 驗證資料是否正在流入Customer Journey Analytics {#validate-data}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-data-validate"
+>title="驗證資料是否正在流動"
+>abstract="使用連線詳細資料來驗證資料是否流入Customer Journey Analytics。<br><br>如果一切都已正確且完美地完成，這個步驟可以在一天內完成。 如果有多個資料收集問題，疑難排解可能需要更長的時間。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

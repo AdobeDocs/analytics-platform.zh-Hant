@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 156df830-541d-4c92-9c49-98f346e040a7
-source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 24%
+source-wordcount: '371'
+ht-degree: 20%
 
 ---
 
-# 為您的屬性建立標記
+# 為您的屬性建立標記 {#upgrade-tag-property}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-tag-property"
+>title="在Adobe Experience Platform資料彙集中建立標籤屬性"
+>abstract="使用標籤是資料收集的典型標準。 在Adobe Experience Platform介面中建立標籤，以便您隨時更新資料收集變數。<br><br>只要按幾下即可完成標籤屬性的建立，只需要幾分鐘的時間。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

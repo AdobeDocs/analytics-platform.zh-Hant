@@ -7,14 +7,32 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 7%
+source-wordcount: '824'
+ht-degree: 6%
 
 ---
 
-# 建立 Analytics 來源連接器和對應欄位
+# 建立 Analytics 來源連接器和對應欄位 {#create-source-connector}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-create"
+>title="建立Analytics來源聯結器"
+>abstract="使用Analytics來源聯結器來擷取報表套裝資料，以用於Customer Journey Analytics。<br><br>使用預設設定，只需幾分鐘即可建立Analytics來源聯結器。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-map-fields"
+>title="建立Analytics來源聯結器並對應結構描述欄位"
+>abstract="來源聯結器需要知道如何將Adobe Analytics欄位對應到您組織的結構描述。 使用此介面提供來源聯結器與該對應。 此步驟是將歷史資料新增到Customer Journey Analytics的一部分。<br><br>此步驟所花的時間取決於您必須對應的維度和量度數目。 這個步驟並不像繁瑣和重複那麼困難。 資料流對應大約需要一週的工作才能完成。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -26,7 +44,7 @@ ht-degree: 7%
 
 您可以使用Analytics來源聯結器將Adobe Analytics報告套裝資料匯入Adobe Experience Platform。 然後，這些資料即可用作Customer Journey Analytics中的歷史資料。
 
-此程式假設您要[建立自訂結構描述以搭配您的Customer Journey AnalyticsWeb SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
+此程式假設您要[建立自訂結構描述，以搭配您的Customer Journey AnalyticsWeb SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
 
 若要使用Analytics來源聯結器將歷史資料帶入Customer Journey Analytics，您需要：
 
@@ -36,7 +54,7 @@ ht-degree: 7%
 
    或
 
-   如果您已有Analytics來源聯結器，請從來源聯結器[將欄位對應到自訂Web SDK結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)。
+   如果您已有Analytics來源聯結器，請從來源聯結器[將欄位對應到您的自訂Web SDK結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)。
 
 1. [將 Analytics 來源連接器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 

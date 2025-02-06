@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: 5b440a8029aab392739e573a680123d0bd8a1318
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 32%
+source-wordcount: '1697'
+ht-degree: 31%
 
 ---
 
-# 將 XDM 資料彙集邏輯新增至您的標記
+# 將 XDM 資料彙集邏輯新增至您的標記 {#upgrade-tag-xdm}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-tag-xdm"
+>title="將 XDM 資料彙集邏輯新增至您的標記"
+>abstract="在網站上安裝Loader標籤後，您可以新增規則和資料元素以填入XDM物件並傳送給Adobe。 Adobe建議維護解決方案設計檔案，以追蹤標籤的設定方式。<br><br>此步驟需要大量工作，因為需要為屬性設定所有Analytics邏輯。 預計將花費一個月或更長時間建立正確的標籤規則、測試這些規則，並在您的網站上部署。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

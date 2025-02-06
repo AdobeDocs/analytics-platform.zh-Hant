@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
 
-# 建立查詢資料集以分類Customer Journey Analytics中的資料
+# 建立查詢資料集以分類Customer Journey Analytics中的資料 {#upgrade-lookup-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-lookup-dataset-create"
+>title="為每個包含分類資料的維度建立查詢資料集"
+>abstract="與Adobe Analytics中的分類資料類似，查詢資料集是將資料分類Customer Journey Analytics的方法。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -26,7 +35,7 @@ ht-degree: 1%
 
 使用Analytics來源聯結器時，某些標準查詢資料集會在報告時自動套用。 如需詳細資訊，請參閱[將標準查詢新增至資料集](/help/connections/standard-lookups.md)。
 
-若要在使用Customer Journey Analytics Web SDK時分類Experience Platform中的資料，您需要針對包含您要分類之資料的每個維度建立自訂結構描述和查詢資料集。
+若要在使用Experience Platform網頁SDK時分類Customer Journey Analytics中的資料，您需要針對包含您要分類之資料的每個維度建立自訂結構描述和查詢資料集。
 
 ## 建立自訂結構描述以搭配查詢資料集使用
 

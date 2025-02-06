@@ -7,14 +7,41 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 45f2097d2f0657f623b825acb8d06ec6972f757f
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 45%
+source-wordcount: '1335'
+ht-degree: 37%
 
 ---
 
-# 建立自訂結構以與您的Customer Journey Analytics Web SDK實作搭配使用
+# 建立自訂結構以與您的Customer Journey AnalyticsWeb SDK實作搭配使用 {#create-custom-schema}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-create"
+>title="在Adobe Experience Platform中建立所需的自訂結構描述"
+>abstract="使用Adobe Experience Platform UI建立結構描述，讓Adobe知道儲存資料的正確格式。<br><br>此步驟涉及實際建立貴組織同意的結構描述。 估計在Adobe Experience Platform介面中建立結構描述的時間大約為一週，視需要建立的維度和量度數量而定。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-create-default-aa"
+>title="使用Adobe Analytics ExperienceEvent欄位群組建立結構描述"
+>abstract="使用「Adobe Analytics ExperienceEvent」欄位群組，在Adobe Experience Platform中建立包含Adobe Analytics使用之所有欄位的結構描述。<br><br>根據Adobe Analytics ExperienceEvent欄位群組建立結構描述非常簡單，只需幾分鐘即可完成。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-schema-profile"
+>title="為設定檔啟用您的結構描述"
+>abstract="在您的結構描述中啟用設定檔，以用於Adobe Real-time CDP。 出現此步驟是因為您選取了與Adobe Real-time CDP整合的願望。<br><br>由於此步驟涉及按一下單一方塊，因此此步驟只需要幾分鐘的時間。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -26,11 +53,17 @@ ht-degree: 45%
 >
 >開始建立自訂結構之前，請與您的資料團隊和整個組織的其他利害關係人合作，識別您組織適用於Customer Journey Analytics的理想結構設計以及您使用的其他Adobe Experience Platform應用程式。 如需詳細資訊，請參閱[架構您的結構描述以搭配Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)使用。
 
-Adobe建議建立自訂Experience Data Model (XDM)結構描述，以便在升級至Customer Journey Analytics時與Web SDK搭配使用。 自訂結構描述可讓您根據組織需求以及您使用的特定平台應用程式量身打造簡化的結構描述。 當需要變更結構描述時，您不必在數千個未使用的欄位中篩選，以尋找需要更新的欄位。
+以下各節說明如何建立可與Customer Journey Analytics搭配使用的綱要。 下列結構選項可供使用：
+
+* **自訂XDM結構描述：** （建議）允許根據貴組織的需求以及您使用的特定平台應用程式量身打造精簡的結構描述。 任何必要的未來變更都相當簡單明瞭。
+
+* **使用Adobe Analytics ExperienceEvent欄位群組的Adobe Analytics結構描述：**&#x200B;需要新增數千個不需要的欄位。 日後要進行任何必要的變更都會比較困難。
+
+如需這些結構描述選項的詳細資訊，請參閱[選擇您的Customer Journey Analytics結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)。
 
 ## 建立結構
 
-您為Web SDK實作定義的自訂結構描述代表您收集到Adobe Experience Platform中的資料模型。
+您為網頁SDK實作定義的自訂結構描述代表您收集到Adobe Experience Platform中的資料模式。
 
 若要建立自訂綱要：
 
@@ -81,6 +114,10 @@ Adobe建議建立自訂Experience Data Model (XDM)結構描述，以便在升級
 
    1. （選擇性）選取您要包含的任何其他欄位群組。
 
+      如果您選擇使用預設的Adobe Analytics結構描述，而不是建立自訂XDM結構描述，您可以現在新增Adobe Analytics ExperienceEvent欄位群組。 不過，Adobe建議建立自訂XDM結構描述，而非新增此欄位群組。
+
+      如需這些結構描述選項的詳細資訊，請參閱[選擇您的Customer Journey Analytics結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)。
+
    1. 選取&#x200B;**[!UICONTROL 「新增欄位群組」]**。
 
 1. （可選）如果您有要包含在結構描述中的自訂欄位，請建立自訂欄位群組，並將自訂欄位新增到欄位群組中。
@@ -109,17 +146,17 @@ Adobe建議建立自訂Experience Data Model (XDM)結構描述，以便在升級
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
 
-1. 在剛剛新增的識別物件中選取 **[!UICONTROL ecid]** 欄位，然後在右側面板的[!UICONTROL 「身分命名空間」]清單中，選取&#x200B;**[!UICONTROL 「身分」]**&#x200B;和&#x200B;**[!UICONTROL 「主要身分」]**&#x200B;和 **[!UICONTROL ECID]**。
+1. 在剛剛新增的身分識別物件中選取 **[!UICONTROL ecid]** 欄位，然後在右側面板的[!UICONTROL 「身分識別命名空間」]清單中，選取&#x200B;**[!UICONTROL 「身分識別」]**&#x200B;和&#x200B;**[!UICONTROL 「主要身分識別」]**&#x200B;和 **[!UICONTROL ECID]**。
 
-   ![指定 ECID 作為身分](./assets/specify-identity.png)
+   ![指定 ECID 作為身分識別](./assets/specify-identity.png)
 
    您將 Experience Cloud Identity 指定為 Adobe Experience Platform Identity 服務可用於組合 (拼接) 具有相同 ECID 的輪廓的行為的主要身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在 ecid 屬性中。
 
-1. 在剛剛新增的識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板的[!UICONTROL 「身分命名空間」]清單中選取&#x200B;**[!UICONTROL 「身分」]**&#x200B;和&#x200B;**[!UICONTROL 「電子郵件」]**。
+1. 在剛剛新增的身分識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板的[!UICONTROL 「身分識別命名空間」]清單中選取&#x200B;**[!UICONTROL 「身分識別」]**&#x200B;和&#x200B;**[!UICONTROL 「電子郵件」]**。
 
-   ![指定電子郵件作為身分](./assets/specify-email-identity.png)
+   ![指定電子郵件作為身分識別](./assets/specify-email-identity.png)
 
    您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 輪廓行為的另一個身分。
 

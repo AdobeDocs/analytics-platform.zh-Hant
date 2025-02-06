@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 27%
+source-wordcount: '960'
+ht-degree: 25%
 
 ---
 
-# 將 Analytics 來源連接器資料集新增至連線
+# 將 Analytics 來源連接器資料集新增至連線 {#upgrade-source-connector-dataset}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-dataset"
+>title="將Analytics來源聯結器資料集新增至您的連線"
+>abstract="現在，Analytics報表套裝中的歷史資料已存放在Adobe Experience Platform中，請將該資料集新增至您最初設定Customer Journey Analytics時建立的現有連線。 完成此步驟後，Customer Journey Analytics中的歷史資料即可使用。<br><br>在Customer Journey Analytics中將資料集新增到連線很簡單，只需幾分鐘即可完成。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -44,13 +53,13 @@ ht-degree: 27%
 
 在您[為歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)建立Analytics來源聯結器後，系統會自動為Analytics資料建立資料集。
 
-您需要將此自動建立的資料集新增至您為Web SDK實作建立的相同連線。 這麼做會將Analytics資料帶入與您Web SDK資料相同的Customer Journey Analytics資料檢視。
+您需要將此自動建立的資料集新增至您為網站SDK實作建立的相同連線。 這麼做會將Analytics資料帶入Customer Journey Analytics中與網頁SDK資料相同的資料檢視。
 
-若要將自動建立的資料集新增至您為Web SDK實作建立的相同連線：
+若要將自動建立的資料集新增至您為網站SDK實作建立的相同連線：
 
 1. 在 Customer Journey Analytics 中選取&#x200B;**[!UICONTROL 「連線」]**&#x200B;索引標籤。
 
-1. 選取您[為您的Web SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)建立的連線。
+1. 選取您[為網頁SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)建立的連線。
 
 1. 選取&#x200B;**[!UICONTROL 編輯]**。
 
@@ -74,7 +83,7 @@ ht-degree: 27%
 
    | 設定 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 人員 ID]** | 僅適用於事件和輪廓資料集。從可用身分識別的下拉式清單中選取人員 ID。這些身分識別是在 Experience Platform 的資料集結構中所定義。 若要了解如何以「身分對應」作為人員 ID，請參閱以下說明。<p>如果沒有人員 ID 可以選擇，表示綱要中尚未定義一或多個人員 ID。有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選人員 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
+   | **[!UICONTROL 人員 ID]** | 僅適用於事件和輪廓資料集。從可用身分識別的下拉式清單中選取人員 ID。這些身分識別是在 Experience Platform 的資料集結構中所定義。 若要了解如何以「身分識別對應」作為人員 ID，請參閱以下說明。<p>如果沒有人員 ID 可以選擇，表示結構描述中尚未定義一或多個人員 ID。有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選人員 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
    | **[!UICONTROL 時間戳記]** | 僅適用於事件和摘要資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述之預設時間戳記欄位。 |
    | **[!UICONTROL 時區]** | 僅適用於摘要資料。為時間序列摘要資料選取適當的時區。 |
    | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。<br/>資料來源的類型包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
@@ -91,9 +100,9 @@ ht-degree: 27%
 
    指定要求回填的日期時請務必明確。 根據數個因素，您可能會想要執行下列任一項作業：
 
-   * 選擇與第一次開始透過Web SDK實作收集資料相同的結束日期。
+   * 選擇與您開始透過Web SDK實作收集資料時的相同結束日期。
 
-   * 選擇您初次開始透過Web SDK實作收集資料之日後不久的結束日期，然後使用資料檢視區段來篩選掉重疊的資料。
+   * 選擇您初次開始透過Web SDK實作收集資料之日期不久後的結束日期，然後使用資料檢視區段來篩選掉重疊的資料。
 
    * 選擇導致資料發生較大重疊的結束日期，然後使用資料檢視區段來篩選掉重疊的資料。
 
@@ -107,6 +116,6 @@ ht-degree: 27%
 
 1. （條件式）如果您使用查詢資料集，則必須建立查詢資料集並將其新增至您的連線。 如需詳細資訊，請參閱[建立查詢資料集以分類Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)中的資料。
 
-   只有在設定Web SDK實作時尚未這麼做的情況下，才需要設定此專案。
+   只有在設定網頁SDK實作時尚未執行此動作的情況下，才需要執行此動作。
 
 1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。

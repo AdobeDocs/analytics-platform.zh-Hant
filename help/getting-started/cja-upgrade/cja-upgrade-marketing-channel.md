@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
-source-git-commit: ef6afb2872b88c82801ceb279dd757e6e1f5e78c
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 5%
+source-wordcount: '368'
+ht-degree: 4%
 
 ---
 
-# 建立Customer Journey Analytics的行銷管道衍生欄位
+# 建立Customer Journey Analytics的行銷管道衍生欄位 {#create-marketing-channel-derived-field}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-marketing-channel"
+>title="建立行銷管道衍生欄位"
+>abstract="衍生欄位會在資料檢視中建立。<br><br>使用預設行銷管道設定只需要幾分鐘的時間；建立高度自訂的行銷管道設定可能需要數小時的時間。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -24,7 +33,7 @@ ht-degree: 5%
 
 使用Analytics來源聯結器時，行銷管道資料會通過該聯結器流入Customer Journey Analytics。 行銷管道規則是在傳統 Adobe Analytics 中設定，且部分規則不受支援。如需詳細資訊，請參閱[使用行銷管道維度](/help/use-cases/aa-data/marketing-channels.md)。
 
-若要在使用Experience Platform Web SDK時，在Customer Journey Analytics中使用行銷管道，您可以在資料檢視中使用衍生欄位，為Customer Journey Analytics重新建立相同的行銷管道和處理規則。
+若要在使用Experience Platform網頁SDK時，在Customer Journey Analytics中使用行銷管道，您可以在資料檢視中使用衍生欄位，為Customer Journey Analytics重新建立相同的行銷管道和處理規則。
 
 1. 在Customer Journey Analytics中，選取您要新增行銷管道的資料檢視。
 

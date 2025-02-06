@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 33cfff3f675fc03c3444531e8426cb806cdf8559
+exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 23%
+source-wordcount: '475'
+ht-degree: 20%
 
 ---
 
-# 在Customer Journey Analytics中建立資料檢視
+# 在Customer Journey Analytics中建立資料檢視 {#upgrade-create-dataview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-dataview"
+>title="在Customer Journey Analytics中建立資料檢視"
+>abstract="資料檢視是Customer Journey Analytics專屬的容器，可讓您決定如何詮釋來自連線的資料。<br><br>雖然資料檢視的初始建立需要幾分鐘的時間，但使用所需的元件設定來設定每個維度和量度可能需要數天的時間。 調整這些設定會回溯套用，讓您的組織可以隨著時間調整它們。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -23,7 +33,7 @@ ht-degree: 23%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-views/create-dataview.md -->
 
-建立資料視圖需要從綱要元素建立量度和維度或使用標準元件。大多數結構描述元素可以是維度或量度，具體取決於您的業務需求。 將綱要元素拖到資料視圖中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
+建立資料視圖需要從結構描述元素建立量度和維度或使用標準元件。大多數結構描述元素可以是維度或量度，具體取決於您的業務需求。 將結構描述元素拖到資料視圖中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
 
 若要建立資料檢視：
 
@@ -56,4 +66,3 @@ ht-degree: 23%
 1. 指定所有所需設定後，選取&#x200B;**[!UICONTROL 儲存並完成]**。
 
 1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
-

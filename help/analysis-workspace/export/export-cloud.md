@@ -5,14 +5,23 @@ title: 將Customer Journey Analytics報表匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 18a1cfcddfc8b2d1c70af57518c0b8d848b4ca5d
+source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
 workflow-type: tm+mt
-source-wordcount: '2226'
+source-wordcount: '2281'
 ht-degree: 3%
 
 ---
 
-# 將Customer Journey Analytics報表匯出至雲端
+# 將Customer Journey Analytics報表匯出至雲端 {#full-table-export}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-full-table-export"
+>title="建立與Data Warehouse類似的完整表格匯出專案"
+>abstract="一在Analysis Workspace中看到資料時，您就可以立即使用完整的表格匯出功能。 您可以視需要建立或排程完整表格匯出。<br><br>如果您已經知道匯出中要包含哪些資料，建立完整的表格匯出只需要幾分鐘即可完成。"
+
+<!-- markdownlint-enable MD034 -->
 
 您可以從Customer Journey Analytics匯出Workspace的完整表格，並將匯出內容傳送至指定的雲端目的地。
 
@@ -216,7 +225,7 @@ ht-degree: 3%
 |---------|----------|---------|
 | 建立自訂報表 | 有 | 有 |
 | 計算量度 | 有 | 無 |
-| 區段 | 是 | 有限 |
+| 客戶細分 | 是 | 有限 |
 | 維度 | 限製為5 | 無限制 |
 | 量度 | 限製為5 | 無限制 |
 | 報告列 | 根據層級，限製為300萬、3000萬、1.5億或3億 | 無限制 |

@@ -5,14 +5,23 @@ exl-id: 285532b1-eb37-4984-9559-054a18515ddf
 solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 61%
+source-wordcount: '582'
+ht-degree: 51%
 
 ---
 
-# 跨頻道分析
+# 跨頻道分析 {#cross-channel}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-additional-datasets"
+>title="將其他資料集新增到您的連線"
+>abstract="將資料新增至Adobe Experience Platform中的資料集後，您就可以將該資料集新增至Customer Journey Analytics中的連線。 從其他管道新增資料時，請確定這些管道的資料符合您的組織使用的結構描述。<br><br>您新增的每個資料集都需要大量工作，特別是要確保每個事件都有唯一識別碼，並確保整體資料結構符合您組織的自訂結構描述。 建立此工作流程可能需要在組織內橫跨數個月的許多團隊中進行協調。"
+
+<!-- markdownlint-enable MD034 -->
 
 跨管道分析可透過統一來自各種網路、行動和離線屬性的資料，啟用跨不同管道的客戶行為單一整合檢視。 例如，您可以使用此整合檢視來分析跨桌面和行動裝置的客戶互動，以了解客戶行為並提取洞察以最佳化數位客戶體驗。您還可以分析跨管道的客戶互動，包括數位和離線管道，例如支援互動和店內購買，以更好地了解和最佳化客戶旅程。
 
@@ -27,10 +36,10 @@ ht-degree: 61%
    2. 設定檔資料![設定檔](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) （例如，來自CRM系統、客服中心應用程式、忠誠度應用程式）。
    3. 查詢資料![查詢](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) （例如產品名稱、產品資訊系統中的類別）。
 
-1. 跨資料集使用通用名稱空間ID。 使用[拼接](../../stitching/overview.md)提升任何事件型資料集![資料重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg)，以便在每一列提供通用ID。 請注意，Customer Journey Analytics 目前不使用 Experience Platform 設定檔或身份識別服務進行拼接。
+1. 跨資料集使用通用名稱空間ID。 使用[拼接](../../stitching/overview.md)提升任何事件型資料集![資料重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg)，以便在每一列提供通用ID。 請注意，Customer Journey Analytics 目前不使用 Experience Platform 輪廓或身分識別服務進行拼接。
 1. 執行任何自訂資料準備，以確保跨時間序列資料集的公用鍵被引入 Customer Journey Analytics。
 1. 為查閱資料提供一個可以連結到事件資料中欄位的主要 ID。計為授權中的列。
-1. 將設定檔資料的主要 ID 設定為事件資料的主要 ID。
+1. 將輪廓資料的主要 ID 設定為事件資料的主要 ID。
 1. [建立連線](../../connections/overview.md)以將相關的資料集從Experience Platform擷取到Customer Journey Analytics。
 1. 在連線上[建立資料檢視](/help/data-views/create-dataview.md)以選擇要包含在檢視中的特定維度和量度。歸因和配置設定也在資料檢視中設定。這些設定是在報告時計算的。
 1. [建立專案](/help/analysis-workspace/home.md)以在Analysis Workspace中設定儀表板和報表。

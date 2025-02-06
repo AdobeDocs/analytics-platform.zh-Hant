@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
-source-git-commit: 701e3d3ce535318e3d3debcdcd591615ea9ca4a1
+source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 1%
 
 ---
 
-# 僅使用Analytics來源聯結器來升級至Customer Journey Analytics
+# 僅使用Analytics來源聯結器來升級至Customer Journey Analytics {#use-source-connector-exclusively}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-exclusively"
+>title="僅使用 Analytics 來源連接器"
+>abstract="（不建議）您無法透過Analytics來源聯結器與其他Adobe Experience Platform服務整合或離開Adobe Analytics。 繫結其他來源的資料可能需要繫結。 符合問卷中的所有這些要求，以選取此選項。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

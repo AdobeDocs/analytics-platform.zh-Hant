@@ -7,14 +7,23 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
-source-git-commit: cb6a439def7bf0fab1768fdd1c7d909b76b995d6
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 36%
+source-wordcount: '362'
+ht-degree: 28%
 
 ---
 
-# 實作適用於 Web SDK 擴充功能的 Loader 標記
+# 實作適用於 Web SDK 擴充功能的 Loader 標記 {#upgrade-tag-loader}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-tag-loader"
+>title="在您的網站上實作載入器標籤"
+>abstract="與您的網站開發團隊合作，在網站的每個頁面上安裝載入器標籤。<br><br>此任務的完成時間很大程度上取決於您部署程式碼時所合作之工程團隊的回應時間。 有些組織擁有高度適應性工程團隊可在數天內完成此步驟，而工程團隊若有大量待處理工作，則可能需要一個月或更長的時間。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 

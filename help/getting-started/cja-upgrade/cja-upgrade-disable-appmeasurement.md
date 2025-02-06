@@ -6,14 +6,24 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 0a47796a8b673ef7074a4f9fe865ff59fcf50aab
+exl-id: 71b9da74-3597-4536-9e47-f18097dd917b
+source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 8%
+source-wordcount: '182'
+ht-degree: 9%
 
 ---
 
-# 停用AppMeasurement資料收集
+# 停用 AppMeasurement 資料彙集 {#disable-appmeasurement}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-appmeasurement"
+>title="停用 AppMeasurement 資料彙集"
+>abstract="使用Web SDK資料完整運作的情況下，請與您的開發人員團隊合作，從您的網站或屬性中移除AppMeasurement.js。<br><br>從網站移除AppMeasurement的動作只需要幾分鐘的時間，但需要工程團隊的時間才能完成。 不過，請確定您的Analytics使用者是使用Customer Journey Analytics，而非Adobe Analytics；如果您尚未執行此佈告程式，讓所有人移動可能需要更長的時間。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -26,5 +36,3 @@ ht-degree: 8%
 * **標籤：**&#x200B;停用Adobe Analytics擴充功能
 
 * **AppMeasurment：**&#x200B;取代AppMeasurement.js程式庫s=newobject
-
-

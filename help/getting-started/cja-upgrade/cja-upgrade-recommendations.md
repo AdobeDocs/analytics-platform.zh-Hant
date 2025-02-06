@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 2d9475c4aa3ca9ba92856182e8c93f59180d833a
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1568'
 ht-degree: 8%
 
 ---
@@ -177,13 +177,11 @@ ht-degree: 8%
 
 1. 瞭解Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md)中的[功能支援。 Customer Journey Analytics支援大部分的Adobe Analytics功能，Customer Journey Analytics也提供許多其他功能。
 
-1. 當您的Web SDK實作完成且您熟悉所收集的資料時，[停用AppMeasurement資料收集](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)。
+1. 當您的Customer Journey AnalyticsWeb SDK實作完成，而且您熟悉所收集的資料時，請停用Adobe Analytics 。
 
-1. 所有Analytics來源聯結器資料離開您的資料保留期間後，請停用Analytics來源聯結器。
+   Adobe建議您在實作Customer Journey Analytics後，讓Adobe Analytics環境持續執行一段時間。
 
-   使用Experience Platform Web SDK實作時，Analytics來源聯結器只適用於Adobe Analytics歷史資料，以及比較原始實作與新實作的資料。
-
-   當您的新實作已有足夠的歷史資料，而且您熟悉Customer Journey Analytics中的報告差異時，您應該關閉Analytics來源聯結器。
+   如需有關升級期間和之後使用Adobe Analytics的詳細資訊，以及停用Adobe Analytics的建議時間，請參閱[評估升級至Customer Journey Analytics後需要Adobe Analytics多久](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)。
 
 ## 為您的組織動態產生升級步驟
 

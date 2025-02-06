@@ -1,19 +1,29 @@
 ---
-title: 建立標籤屬性並新增Web SDK擴充功能
-description: 瞭解如何建立標籤屬性及新增Web SDK擴充功能
+title: 建立標籤屬性並新增網頁SDK擴充功能
+description: 瞭解如何建立標籤屬性並新增網頁SDK擴充功能
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: ccc6df56771cd9f83bbd7a8570e32d7ed63a0ced
+exl-id: 382d2b00-939a-4fff-be02-7a98d457a455
+source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '381'
 ht-degree: 23%
 
 ---
 
-# 將Web SDK擴充功能新增至您的標籤
+# 將 Web SDK 擴充功能新增至您的標記 {#upgrade-tag-extension}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-tag-extension"
+>title="將Platform Web SDK擴充功能新增至標籤屬性"
+>abstract="將Adobe Experience Platform Web SDK擴充功能新增至標籤屬性。 將Web SDK擴充功能新增至您的標籤屬性已經簡化，只需要幾分鐘即可完成。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
@@ -23,11 +33,11 @@ ht-degree: 23%
 
 您可以使用Adobe Experience Platform中的標籤功能，在您的網站上實作程式碼以收集資料。 此標記管理解決方案可讓您部署程式碼以及其他標記需求。 標籤可使用 Adobe Experience Platform Web SDK 擴充功能與 Adobe Experience Platform 緊密整合。
 
-以下資訊說明如何將Web SDK擴充功能新增至您的標籤。 如需補充資訊，請參閱Experience Platform檔案中的[設定Web SDK標籤擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)。 Web SDK原生包含[!UICONTROL Adobe Experience Cloud ID服務]，因此您不需要將ID服務擴充功能新增至標籤。
+下列資訊說明如何將Web SDK擴充功能新增至您的標籤。 如需補充資訊，請參閱Experience Platform檔案中的[設定Web SDK標籤擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)。 Web SDK原生包含[!UICONTROL Adobe Experience Cloud ID服務]，因此您不需要將ID服務擴充功能新增至標籤。
 
-[建立標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)後，您必須使用Adobe Experience Platform Web SDK擴充功能加以設定。 這可確保您可以（透過資料流）將資料傳送至Adobe Experience Platform。
+在您[建立標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)之後，您必須使用Adobe Experience Platform Web SDK擴充功能來設定標籤。 這可確保您可以（透過資料流）將資料傳送至Adobe Experience Platform。
 
-若要將Web SDK擴充功能新增至您的標籤：
+若要將網頁SDK擴充功能新增至您的標籤：
 
 1. 使用您的Adobe ID憑證登入experience.adobe.com 。
 
