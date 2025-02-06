@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: c63fa8f776fcf3390d312fb44ae6c422e7fa7222
+source-git-commit: 171520c961fe1c77b4fa8466523e10a810074910
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1696'
 ht-degree: 11%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="資料視圖"
->abstract="從Customer Journey Analytics中選取您想要與內容分析資料合併的現有資料檢視。<br/>[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target=\"_blank\"}"
+>abstract="從Customer Journey Analytics中選取您想要與內容分析資料合併的現有資料檢視。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
@@ -119,7 +119,7 @@ ht-degree: 11%
 資料檢視繫結至Customer Journey Analytics[連線](/help/connections/overview.md)。 而連線是以您組織內的沙箱為基礎。 儲存設定後，**[!UICONTROL 沙箱]**&#x200B;會根據選取的資料檢視，自動填入適當的沙箱名稱。
 
 
-### 經驗擷取與定義
+### 經驗擷取與定義 {#onboarding-experiences}
 
 <!-- markdownlint-disable MD034 -->
 
