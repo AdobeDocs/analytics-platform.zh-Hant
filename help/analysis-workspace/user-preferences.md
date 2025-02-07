@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
-source-wordcount: '3461'
-ht-degree: 100%
+source-git-commit: f75d2ed5130889f648628d0eec34556a47f1479b
+workflow-type: tm+mt
+source-wordcount: '3498'
+ht-degree: 99%
 
 ---
 
@@ -138,6 +138,17 @@ ht-degree: 100%
 >abstract="選取&#x200B;**[!UICONTROL 顯示預測]**&#x200B;將自動對新增至時間序列自由格式表格視覺效果的第一個量度欄進行預測。"
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="預設表格量度"
+>abstract="選取用於自由表格的預設量度或容器。 如果選取的資料檢視未包含選取的預設量度或容器，表格會自動切換至另一個主要量度。"
+
+
+<!-- markdownlint-enable MD034 -->
+
 
 
 您可以為在 Analysis Workspace 中建立的所有新專案自訂自由格式表格偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
