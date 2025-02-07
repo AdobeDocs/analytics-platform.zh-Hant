@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: f75d2ed5130889f648628d0eec34556a47f1479b
+source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
 workflow-type: tm+mt
-source-wordcount: '3498'
-ht-degree: 99%
+source-wordcount: '3562'
+ht-degree: 97%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="預設表格量度"
->abstract="選取用於自由表格的預設量度或容器。 如果選取的資料檢視未包含選取的預設量度或容器，表格會自動切換至另一個主要量度。"
+>abstract="選取用於自由表格的預設量度。 如果選取的資料檢視不包含選取的預設量度，表格會自動切換到另一個主要量度。"
 
 
 <!-- markdownlint-enable MD034 -->
@@ -181,7 +181,17 @@ ht-degree: 99%
 | | 百分比計算 | <ul><li>欄</li><li>列</li></ul> |
 | | 欄總計 (僅限靜態列) | <ul><li>顯示列總和：顯示各個條列項目的總和 </li><li>顯示全部總量：顯示已排除重複項目後的列總和。</li></ul> |
 
-### 視覺效果偏好設定
+### 視覺效果偏好設定 {#visalization-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultflowcontainer"
+>title="預設表格量度"
+>abstract="選取要用於流量視覺效果的預設容器。 如果選取的資料檢視未包含選取的預設容器，則流量視覺效果會自動切換至另一個主要容器。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaultfalloutcontainer"
+>title="預設表格量度"
+>abstract="選取流失視覺效果所使用的預設容器。 如果選取的資料檢視未包含選取的預設容器，「流失」視覺效果會自動切換至另一個主要容器。"
 
 您可以為在 Analysis Workspace 中建立的所有新專案更新偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 

@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 171520c961fe1c77b4fa8466523e10a810074910
+source-git-commit: a2292c0c24aa86baedae0fe1835e552992eb0cae
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1715'
 ht-degree: 11%
 
 ---
@@ -283,3 +283,9 @@ ht-degree: 11%
       1. 如果沒有為Tags屬性設定Web SDK，則會建立新的Web SDK設定，以便僅傳送Content Analytics事件。
       1. 如果針對此標籤屬性設定了網頁SDK，則不會對現有的網頁SDK設定進行任何變更。
 * **[!UICONTROL 儲存]**：對實作組態所做的變更已儲存，且實作已更新。
+* **[!UICONTROL 結束]**。 退出引導式設定。 會捨棄對實作組態所做的所有變更。
+
+>[!MORELIKETHIS]
+>
+>[手動設定內容分析](manual.md)
+>
