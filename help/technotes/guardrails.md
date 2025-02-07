@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 2dd215b0fe689c9370e9f5867fd1bd5fdee83d42
+source-git-commit: 22b95bce42ee9f04b828cf5b765f40008a1534b1
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 7%
@@ -236,7 +236,7 @@ ht-degree: 7%
 | 資料從Edge Network擷取或串流擷取擷取擷取至Data Lake | &lt; 60分鐘 |
 | 資料從Adobe Analytics Source Connector擷取至Data Lake | &lt; 2.25小時 |
 | 從資料湖將資料擷取至Customer Journey Analytics | &lt; 90分鐘 |
-| 彙整（選擇性功能；如需詳細資訊，請參閱[彙整概觀](../stitching/overview.md)） | 4 小時 |
+| 彙整（選擇性功能；如需詳細資訊，請參閱[彙整概觀](../stitching/overview.md)） | &lt; 4小時 |
 | Adobe Analytics Source Connector回填少於100億個事件（最多13個月的歷史資料） | &lt; 4週 |
 | 將對象發佈到即時客戶個人檔案，包括自動建立串流區段，並允許區段準備好接收資料。 | ≈ 60分鐘 |
 | 重新整理對象的頻率 | 一次性重新整理：延遲少於5分鐘。<br/>每4小時、每天、每週、每月重新整理一次（延遲與重新整理頻率同步進行）。 |
