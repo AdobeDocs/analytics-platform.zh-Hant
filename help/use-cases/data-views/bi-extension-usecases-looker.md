@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 3930b3dd1ba4e058f1a89308dbd0ccec57208359
+source-git-commit: 739d92a3e9b623e3f04bf28de8213f1c76d5036b
 workflow-type: tm+mt
-source-wordcount: '13075'
+source-wordcount: '13066'
 ht-degree: 2%
 
 ---
@@ -236,7 +236,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參�
          1. 在&#x200B;**[!UICONTROL 中命名您的專案為此模型建立新的LookML專案]**。 針對`example: example_looker_project`。
          1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
       1. 在&#x200B;**[!UICONTROL ➋中選取資料表]**：
-         1. 選取&#x200B;**[!UICONTROL public]**，然後確定已選取您的Customer Journey Analytics資料檢視。 例如： ![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL cc_data_view]**。
+         1. 選取&#x200B;**[!UICONTROL public]**，然後確定已選取您的Customer Journey Analytics資料檢視。 例如： ![SelectBox](/help/assets/icons/SelectBox.svg) **[!UICONTROL cc_data_view]**。
          1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
       1. 在&#x200B;**[!UICONTROL ➌中選取主索引鍵]**：
          1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
@@ -244,7 +244,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參�
          1. 請確定您選取檢視。 例如： **[!UICONTROL cc_data_view.view]**。
          1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
       1. 在&#x200B;**[!UICONTROL 中➎輸入模型名稱]**：
-         1. 為您的模型命名。 例如： `example_looker_mode`l。
+         1. 為您的模型命名。 例如：`example_looker_model`。
       1. 選取&#x200B;**[!UICONTROL 完成並探索資料]**。
 
    系統會將您重新導向至Looker的&#x200B;**[!UICONTROL 探索]**&#x200B;介面，準備探索資料。
@@ -258,8 +258,8 @@ Looker支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平
 | FLATTEN引數 | 範例 | 支援 | 備註 |
 |---|---|:---:|---|
 | 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項！** |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCycle](/help/assets/icons/CloseCircle.svg) | Looker顯示錯誤： **[!UICONTROL 無法使用提供的認證進行驗證。 請再試一次。]** |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項**。 請注意，`%3FFLATTEN`是`?FLATTEN`的URL編碼版本。 |
 
 ### 詳細資訊
 
