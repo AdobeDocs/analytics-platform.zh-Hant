@@ -5,9 +5,9 @@ exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: 9149a072dc8af3fac0d5272fe84baabca7fb6058
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3514'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer 支援使用 Customer Journey Analytics 作為報告引擎。�
 | [!UICONTROL AJO 實體資料集] | [!UICONTROL AJO 實體記錄結構描述] | [!UICONTROL 查詢] | [!UICONTROL 其他] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
 | [!UICONTROL 歷程步驟事件] | [!UICONTROL Journey Orchestration 的歷程步驟事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL  IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
 | [!UICONTROL AJO 電子郵件追蹤體驗事件資料集] | [!UICONTROL AJO 電子郵件追蹤體驗事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
-| [!UICONTROL AJO 訊息意見回饋事件資料集] | [!UICONTROL AJO 訊息意見回饋事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
+| [!UICONTROL AJO 訊息意見反應事件資料集] | [!UICONTROL AJO 訊息意見反應事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
 | [!UICONTROL AJO 推播追蹤體驗事件資料集] | [!UICONTROL AJO 推播追蹤體驗事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
 
 
@@ -112,7 +112,7 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 
 | 資料集 | 資料集類型 | 連線設定 | 說明 |
 | --- | --- | --- | --- |
-| AJO 訊息意見回饋事件資料集 | 事件 | 人員 ID：`IdentityMap` | 包含訊息傳送事件，例如「[!UICONTROL 傳送數]」和「[!UICONTROL 退回數]」。 |
+| AJO 訊息意見反應事件資料集 | 事件 | 人員 ID：`IdentityMap` | 包含訊息傳送事件，例如「[!UICONTROL 傳送數]」和「[!UICONTROL 退回數]」。 |
 | AJO 電子郵件追蹤體驗事件資料集 | 事件 | 人員 ID：`IdentityMap` | 包含電子郵件追蹤事件，例如「[!UICONTROL 開啟數]」、「[!UICONTROL 點擊數]」和「[!UICONTROL 取消訂閱數]」。 |
 | AJO 推播追蹤體驗事件資料集 | 事件 | 人員 ID：`IdentityMap` | 包含推播追蹤事件，例如「[!UICONTROL 應用程式啟動數]」。 |
 | 歷程步驟事件 | 事件 | 人員 ID：`_experience.journeyOrchestration.`<br>`stepEvents.profileID` | 包含顯示哪個輪廓參與過歷程各個節點的事件。 |
@@ -137,31 +137,31 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 | 維度 | 說明 | 資料集 | 結構描述元素 | 元件設定 |
 | --- | --- | --- | --- | --- |
 | 動作執行錯誤 (AJO) | 阻止歷程執行階段執行動作的錯誤條件。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.actionExecutionError ` | 元件類型：維度 |
-| 動作標籤 (AJO) | 客戶為與一般使用者互動的元素所產生的顯示名稱。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionAction.label` | 元件類型：維度 |
-| 批次 ID (AJO) | GUID 在為排程的歷程或行銷活動動作調用每個新批次執行個體時建立。例如，如果排程的歷程或行銷活動動作在上午 8 點和 10 點執行，則會有兩個單獨且不同的 batchInstanceID。 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | ` _experience.customerJourneyManagement.`<br/>`messageExecution.batchInstanceID` | 元件類型：維度 |
-| 批次執行個體時間戳記 (AJO) | 批次執行個體的時間戳記。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：維度 (衍生欄位) |
+| 動作標籤 (AJO) | 客戶為與一般使用者互動的元素所產生的顯示名稱。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionAction.label` | 元件類型：維度 |
+| 批次 ID (AJO) | GUID 在為排程的歷程或行銷活動動作調用每個新批次執行個體時建立。例如，如果排程的歷程或行銷活動動作在上午 8 點和 10 點執行，則會有兩個單獨且不同的 batchInstanceID。 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | ` _experience.customerJourneyManagement.`<br/>`messageExecution.batchInstanceID` | 元件類型：維度 |
+| 批次執行個體時間戳記 (AJO) | 批次執行個體的時間戳記。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：維度 (衍生欄位) |
 | 行銷活動 ID (AJO) | 行銷活動的 ID。 | AJO 實體資料集 | `_experience.customerJourneyManagement.entities.`<br/>`campaign.campaignID` | 元件類型：維度 |
 | 行銷活動名稱 (AJO) | 行銷活動的名稱。 | AJO 實體資料集 | `_experience.customerJourneyManagement.entities.`<br/>`campaign.name` | 元件類型：維度 |
 | 行銷活動版本 ID (AJO) | 行銷活動的版本 ID。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.campaign.campaignVersionID` | 元件類型：維度 |
-| 管道 (AJO) | 此資料應關聯到的管道。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.channel._id` | 元件類型：維度 |
-| 關聯 ID (AJO) | 關聯 ID。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.propositions.`<br/>`scopeDetails.correlationID` | 元件類型：維度 |
-| 決定原則 ID (AJO) | 決定此提議中包含哪些項目時所使用的決定原則的 ID。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：維度 (衍生欄位) |
-| 電子郵件收件者網域 (AJO) | 電子郵件地址的網域 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`emailChannelContext.address` | 元件類型：維度 |
+| 管道 (AJO) | 應和此資料相關聯的管道。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.channel._id` | 元件類型：維度 |
+| 關聯 ID (AJO) | 關聯 ID。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.propositions.`<br/>`scopeDetails.correlationID` | 元件類型：維度 |
+| 決定原則 ID (AJO) | 決定此提議中包含哪些項目時所使用的決定原則的 ID。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：維度 (衍生欄位) |
+| 電子郵件收件者網域 (AJO) | 電子郵件地址的網域 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`emailChannelContext.address` | 元件類型：維度 |
 | 電子郵件主旨 (AJO) | 電子郵件主旨，非個人化 | AJO 實體資料集 | `_experience.customerJourneyManagement.entities.`<br/>`channelDetails.email.subject` | 元件類型：維度 |
-| 事件 ID (AJO) | 時間系列事件的唯一識別碼。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_id` | 元件類型：維度 (衍生欄位) |
+| 事件 ID (AJO) | 時間系列事件的唯一識別碼。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_id` | 元件類型：維度 (衍生欄位) |
 | 退出條件 ID (AJO) | 用於確定歷程是否應退出的退出條件 ID。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.exitCriteriaID` | 元件類型：維度 |
 | 退出條件名稱 (AJO) | 退出條件的名稱。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.exitCriteriaName` | 元件類型：維度 |
 | 實驗 ID (AJO) | 實驗的 ID。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.experiment.experimentId` | 元件類型：維度 |
 | 實驗名稱 (AJO) | 實驗的名稱。 | AJO 實體資料集 | `_experience.customerJourneyManagement.entities.`<br/>`experiment.experimentName` | 元件類型：維度內容標籤：實驗 |
 | 擷取錯誤 (AJO) | 阻止歷程執行階段執行擷取的錯誤條件。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.fetchError` | 元件類型：維度 |
-| 傳送時間是否已最佳化 (AJO) | 訊息執行的傳送時間是否已最佳化 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageProfile.isSendTimeOptimized` | 元件類型：維度 |
+| 傳送時間是否已最佳化 (AJO) | 訊息執行的傳送時間是否已最佳化 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageProfile.isSendTimeOptimized` | 元件類型：維度 |
 | 是測試歷程 (AJO) | 事件是否為測試歷程執行的一部分 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.inTest` | 元件類型：維度 |
-| 是測試訊息 (AJO) | 訊息是否作為測試執行傳送 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageProfile.isTestExecution` | 元件類型：維度 |
-| 項目 ID (AJO) | 項目的 ID。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositions.items.id` | 元件類型：維度 |
-| 項目名稱 (AJO) | 項目的名稱 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositions.items.name` | 元件類型：維度 |
-| 歷程動作 ID | 歷程動作 ID，為該 ID 觸發 MessageExecution。 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageExecution.journeyActionID` | 元件類型：維度 |
-| 歷程動作節點名稱 (AJO) | 歷程的動作節點名稱。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集、AJO 實體資料集 | 衍生欄位 | 元件類型：維度 (衍生欄位) |
-| 歷程事件節點名稱 (AJO) | 每當歷程中發生區段或外部事件時，都會設定此值。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集、AJO 實體資料集 | 衍生欄位 | 元件類型：維度 (衍生欄位) |
+| 是測試訊息 (AJO) | 訊息是否作為測試執行傳送 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageProfile.isTestExecution` | 元件類型：維度 |
+| 項目 ID (AJO) | 項目的 ID。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositions.items.id` | 元件類型：維度 |
+| 項目名稱 (AJO) | 項目的名稱 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositions.items.name` | 元件類型：維度 |
+| 歷程動作 ID | 歷程動作 ID，為該 ID 觸發 MessageExecution。 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageExecution.journeyActionID` | 元件類型：維度 |
+| 歷程動作節點名稱 (AJO) | 歷程的動作節點名稱。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集、AJO 實體資料集 | 衍生欄位 | 元件類型：維度 (衍生欄位) |
+| 歷程事件節點名稱 (AJO) | 每當歷程中發生區段或外部事件時，都會設定此值。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集、AJO 實體資料集 | 衍生欄位 | 元件類型：維度 (衍生欄位) |
 | 歷程 ID (AJO) | 歷程的 ID。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyID` | 元件類型：維度 |
 | 歷程名稱 (AJO) | 歷程的名稱。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyName` | 元件類型：維度 |
 | 歷程名稱和版本 (AJO) | 歷程的名稱和版本。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNameAndVersion` | 元件類型：維度 |
@@ -169,31 +169,31 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 | 登陸頁面 ID (AJO) | 登陸頁面的唯一識別碼。 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.landingpage.landingPageID` | 元件類型：維度 |
 | 登陸頁面來源 (AJO) | 登陸頁面的來源。 | AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：維度 (衍生欄位) |
 | 連結 URL (AJO) | 由使用者點按的 URL。 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.urlID` | 元件類型：維度 |
-| 訊息排除原因 (AJO) | 排除原因 | AJO 訊息意見回饋事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageExclusion.reason` | 元件類型：維度 |
-| 訊息失敗類別 (AJO) | 失敗類別 | AJO 訊息意見回饋事件資料集 | ` _experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.category` | 元件類型：維度 |
-| 訊息失敗原因 (AJO) | 失敗原因 | AJO 訊息意見回饋事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.reason` | 元件類型：維度 |
-| 訊息失敗類型 (AJO) | 失敗類型 | AJO 訊息意見回饋事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.type` | 元件類型：維度 |
-| 訊息失敗狀態(AJO) | 失敗狀態 | AJO 訊息意見回饋事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.status` | 元件類型：維度 |
-| 訊息 ID (AJO) | 此資料應關聯到的訊息 ID。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.messageID` | 元件類型：維度 |
-| 訊息重試 (AJO) | 重試次數 | AJO 訊息意見回饋事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.retryCount` | 元件類型：維度 |
-| 節點ID (AJO) | 歷程節點的節點 ID。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeID` | 元件類型：維度 |
+| 訊息排除原因 (AJO) | 排除原因 | AJO 訊息意見反應事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageExclusion.reason` | 元件類型：維度 |
+| 訊息失敗類別 (AJO) | 失敗類別 | AJO 訊息意見反應事件資料集 | ` _experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.category` | 元件類型：維度 |
+| 訊息失敗原因 (AJO) | 失敗原因 | AJO 訊息意見反應事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.reason` | 元件類型：維度 |
+| 訊息失敗類型 (AJO) | 失敗類型 | AJO 訊息意見反應事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.type` | 元件類型：維度 |
+| 訊息失敗狀態 (AJO) | 失敗狀態 | AJO 訊息意見反應事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.`<br/>`messageFailure.status` | 元件類型：維度 |
+| 訊息 ID (AJO) | 應和此資料相關聯的訊息 ID。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.messageID` | 元件類型：維度 |
+| 訊息重試 (AJO) | 重試次數 | AJO 訊息意見反應事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.retryCount` | 元件類型：維度 |
+| 節點 ID (AJO) | 歷程節點的節點 ID。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeID` | 元件類型：維度 |
 | 節點名稱 (AJO) | 歷程節點的節點名稱。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeName` | 元件類型：維度 |
 | 節點類型 (AJO) | 歷程節點的節點類型。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.journey.journeyNodeID` | 元件類型：維度 |
-| 作業系統(AJO) | 作業系統的名稱。 | AJO 推播追蹤體驗事件資料集 | `environment.operatingSystem` | 元件類型：維度 |
-| 作業系統版本(AJO) | 作業系統的版本。 | AJO 推播追蹤體驗事件資料集 | environment.operatingSystemVersion | 元件類型：維度 |
-| 推播平台 (AJO) | 推送提供者服務，例如apns或fcm。 | AJO電子郵件追蹤體驗事件資料集、AJO訊息回饋事件資料集、AJO推播追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`pushChannelContext.platform` | 元件類型：維度 |
-| 推播標題 (AJO) | 推播標題，非個人化。 | AJO實體資料集、AJO訊息回饋事件資料集、AJO推播追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.push.title | Component type: Dimension` |
-| 拒絕的同意原則(AJO) | 對應的拒絕同意原則的名稱。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.consent.rejectedPolicies.name` | 元件類型：維度 |
-| 簡訊傳入訊息 (AJO) | 簡訊傳入回覆，例如停止、開始、訂閱等 | AJO電子郵件追蹤體驗事件資料集、AJO訊息回饋事件資料集、AJO推播追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.inboundMessage` | 元件類型：維度 |
-| 簡訊型別(AJO) | 簡訊提供者，例如傳入、傳入回覆或傳送。 | AJO電子郵件追蹤體驗事件資料集、AJO訊息回饋事件資料集、AJO推播追蹤體驗事件資料集 | ` _experience.customerJourneyManagement.`<br/>`smsChannelContext.messageType` | 元件類型：維度 |
-| 簡訊提供者 (AJO) | 簡訊提供者，例如 sinch 或 twilio。 | AJO電子郵件追蹤體驗事件資料集、AJO訊息回饋事件資料集、AJO推播追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.messageType` | 元件類型：維度 |
-| 選擇類型 (AJO) | 顯示訊息的管道表面。 | 歷程步驟事件、AJO電子郵件追蹤體驗事件資料集、AJO訊息回饋事件資料集、AJO推播追蹤體驗事件資料集 | `_experience.decisioning.propositions.`<br/>`items.itemSelection.`<br/>`selectionDetail.selectionType` | 元件類型：維度 |
+| 作業系統 (AJO) | 作業系統的名稱。 | AJO 推播追蹤體驗事件資料集 | `environment.operatingSystem` | 元件類型：維度 |
+| 作業系統版本 (AJO) | 作業系統的版本。 | AJO 推播追蹤體驗事件資料集 | environment.operatingSystemVersion | 元件類型：維度 |
+| 推播平台 (AJO) | 推播提供者服務，例如 apns 或 fcm。 | AJO 電子郵件追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 推播追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`pushChannelContext.platform` | 元件類型：維度 |
+| 推播標題 (AJO) | 推播標題，非個人化。 | AJO 實體資料集、AJO 訊息意見反應事件資料集、AJO 推播追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`entities.channelDetails.push.title | Component type: Dimension` |
+| 拒絕同意原則 (AJO) | 對應的拒絕同意原則的名稱。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.consent.rejectedPolicies.name` | 元件類型：維度 |
+| 簡訊傳入訊息 (AJO) | 簡訊傳入回覆，例如停止、開始、訂閱等 | AJO 電子郵件追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 推播追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.inboundMessage` | 元件類型：維度 |
+| 簡訊類型 (AJO) | 簡訊提供者，例如傳入、傳入回覆或傳送。 | AJO 電子郵件追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 推播追蹤體驗事件資料集 | ` _experience.customerJourneyManagement.`<br/>`smsChannelContext.messageType` | 元件類型：維度 |
+| 簡訊提供者 (AJO) | 簡訊提供者，例如 sinch 或 twilio。 | AJO 電子郵件追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 推播追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.messageType` | 元件類型：維度 |
+| 選擇類型 (AJO) | 顯示訊息的管道表面。 | 歷程步驟事件、AJO 電子郵件追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 推播追蹤體驗事件資料集 | `_experience.decisioning.propositions.`<br/>`items.itemSelection.`<br/>`selectionDetail.selectionType` | 元件類型：維度 |
 | 訂閱清單 ID (AJO) | 訂閱清單的唯一識別碼。 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.subscription.`<br/>` subscriptionListID` | 元件類型：維度 |
-| 表面 (AJO) |  | 歷程步驟事件、AJO電子郵件追蹤體驗事件資料集、AJO訊息回饋事件資料集、AJO推播追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositions.scope` | 元件類型：維度 |
+| 表面 (AJO) |  | 歷程步驟事件、AJO 電子郵件追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 推播追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositions.scope` | 元件類型：維度 |
 | 處理 ID (AJO) | 實驗的選定處理的 ID。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.experiment.treatmentID` | 元件類型：維度 |
-| 處理名稱 (AJO) | 為實驗選取的處理方式名稱。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.experiment.treatmentName` | 元件類型：維度 |
+| 處理名稱 (AJO) | 實驗的選定處理的名稱。 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.experiment.treatmentName` | 元件類型：維度 |
 | URL ID (AJO) | 使用者點按的 URL 的唯一識別碼。 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.urlID` | 元件類型：維度 |
-| URL標籤(AJO) | URL的人類易記標籤。 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.label` | 元件類型：維度 |
+| URL 標籤 (AJO) | URL 的人類易記標籤。 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.label` | 元件類型：維度 |
 
 {style="table-layout:auto"}
 
@@ -205,18 +205,18 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 | --- | --- | --- | --- | --- |
 | 應用程式安裝次數 (AJO) | 應用程式安裝次數 | AJO 推播追蹤體驗事件資料集 | `application.installs.value` | 元件類型：量度 |
 | 應用程式啟動次數 (AJO) | 行動應用程式啟動的次數 | AJO 推播追蹤體驗事件資料集 | `application.launches.value` | 元件類型：量度 |
-| 傳出管道的退回 (AJO) | 跨傳出管道退回的訊息總數 | AJO 訊息意見回饋事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度 |
-| 點按 (AJO) | 跨所有管道的點按總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 電子郵件追蹤體驗事件資料集、AJO 訊息意見回饋事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
-| 後備產品建議的計數 (AJO) | 後備產品建議的計數。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.propositions.items.`<br/>`itemSelection.selectionDetail.selectionType` | 元件類型：量度 |
-| 產品建議的計數 (AJO) | 產品建議的計數。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | ` _experience.decisioning.`<br/>`propositions.items.id` | 元件類型：量度 |
-| 重複資料刪除量度 (AJO) | 重複資料刪除量度 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_id` | 元件類型：量度 |
-| 已傳遞 (AJO) | 已傳遞的訊息總數。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
-| 已關閉 (AJO) | 每次 Adobe SDK 關閉應用程式內訊息時都會進行計數，無論一般使用者選擇使用哪種動作來關閉它。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 元件類型：量度 |
-| 展示次數 (AJO) | 此計數會顯示 AJO 訊息數。這包括電子郵件開啟次數、網頁展示次數和應用程式內展示次數。行動平台不會報告簡訊和推播訊息展示次數，因此不計算在內。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 電子郵件追蹤體驗事件資料集、AJO 訊息意見回饋事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
+| 傳出管道的退回 (AJO) | 跨傳出管道退回的訊息總數 | AJO 訊息意見反應事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度 |
+| 點按 (AJO) | 跨所有管道的點按總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 電子郵件追蹤體驗事件資料集、AJO 訊息意見反應事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
+| 後備產品建議的計數 (AJO) | 後備產品建議的計數。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.propositions.items.`<br/>`itemSelection.selectionDetail.selectionType` | 元件類型：量度 |
+| 產品建議的計數 (AJO) | 產品建議的計數。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | ` _experience.decisioning.`<br/>`propositions.items.id` | 元件類型：量度 |
+| 重複資料刪除量度 (AJO) | 重複資料刪除量度 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_id` | 元件類型：量度 |
+| 已傳遞 (AJO) | 已傳遞的訊息總數。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
+| 已關閉 (AJO) | 每次 Adobe SDK 關閉應用程式內訊息時都會進行計數，無論一般使用者選擇使用哪種動作來關閉它。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 元件類型：量度 |
+| 展示次數 (AJO) | 此計數會顯示 AJO 訊息數。這包括電子郵件開啟次數、網頁展示次數和應用程式內展示次數。行動平台不會報告簡訊和推播訊息展示次數，因此不計算在內。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 電子郵件追蹤體驗事件資料集、AJO 訊息意見反應事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
 | 電子郵件開啟次數 (AJO) | 電子郵件開啟總數 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 元件類型：量度 |
-| 傳入點按次數 (AJO) | 跨傳入管道的點按總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件類型：量度 |
-| 傳入解除次數 (AJO) | 跨傳入管道的關閉總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 元件類型：量度 |
-| 傳入曝光 (AJO) | 跨傳入管道的曝光總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
+| 傳入點按次數 (AJO) | 跨傳入管道的點按總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件類型：量度 |
+| 傳入解除次數 (AJO) | 跨傳入管道的關閉總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 元件類型：量度 |
+| 傳入曝光 (AJO) | 跨傳入管道的曝光總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
 | 歷程結束 (AJO) | 如果目前步驟會結束歷程執行個體，則為 True。該特定輪廓歷程的最後一個步驟已成功執行。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.instanceEnded` | 元件類型：量度 |
 | 歷程進入 (AJO) | 如果步驟事件是輪廓的歷程進入事件，則為真。 | 歷程步驟事件 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
 | 歷程退出 (AJO) | 如果目前步驟會結束歷程執行個體，則為 True。該特定輪廓歷程的最後一個步驟已成功執行。 | 歷程步驟事件 | `_experience.journeyOrchestration.`<br/>`stepEvents.instanceEnded` | 元件類型：量度 |
@@ -226,18 +226,18 @@ Adobe Experience Platform 會當作中央資料來源，以及 Journey Optimizer
 | 登陸頁面檢視 (AJO) | 登陸頁面的檢視總數。 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 元件類型：量度 |
 | 節點進入 (AJO) | 如果步驟事件是輪廓的節點進入事件，則為真。 | 歷程步驟事件 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
 | 傳出點按次數 (AJO) | 跨傳出管道的點按總數 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 元件類型：量度 |
-| 傳出錯誤 (AJO) | 跨傳出管道出現錯誤的訊息總數 | AJO 訊息意見回饋事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度 |
-| 傳出排除 (AJO) | 跨傳出管道的排除事件總數 | AJO 訊息意見回饋事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度 |
-| 傳出傳送次數 (AJO) | 跨傳出管道傳送的訊息總數 | AJO 訊息意見回饋事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度 |
-| 推播自訂動作 (AJO) | 推播互動中的自訂動作總數。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `eventType` | 元件類型：量度 |
+| 傳出錯誤 (AJO) | 跨傳出管道出現錯誤的訊息總數 | AJO 訊息意見反應事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度 |
+| 傳出排除 (AJO) | 跨傳出管道的排除事件總數 | AJO 訊息意見反應事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度 |
+| 傳出傳送次數 (AJO) | 跨傳出管道傳送的訊息總數 | AJO 訊息意見反應事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageDeliveryfeedback.feedbackStatus` | 元件類型：量度 |
+| 推播自訂動作 (AJO) | 推播互動中的自訂動作總數。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `eventType` | 元件類型：量度 |
 | 推播互動次數 (AJO) | 因直接推播訊息互動而導致行動應用程式啟動的次數 | AJO 推播追蹤體驗事件資料集 | `application.launches.value` | 元件類型：量度 |
-| 傳送 (AJO) | 跨所有管道傳送的訊息總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
-| 簡訊傳入訊息 (AJO) | 簡訊傳入回覆。例如停止、啟動、訂閱等。 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.inboundMessage` | 元件類型：量度 |
+| 傳送 (AJO) | 跨所有管道傳送的訊息總數 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
+| 簡訊傳入訊息 (AJO) | 簡訊傳入回覆。例如停止、啟動、訂閱等。 | AJO 推播追蹤體驗事件資料集、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`smsChannelContext.inboundMessage` | 元件類型：量度 |
 | 垃圾訊息申訴 (AJO) | 垃圾訊息投訴總數 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 元件類型：量度 |
 | 訂閱清單新增 (AJO) | 新增到訂閱清單的總數。 | AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
 | 訂閱清單移除 (AJO) | 從訂閱清單中移除的總數。 | AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
-| 已鎖定 (AJO) | 這會計算針對某人展示某個提議的次數。這是考慮向某人展示某個提議的次數。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
-| 已觸發 (AJO) | 提議已被選擇由 Adobe SDK 顯示。其他因素可能會阻止其實際顯示。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見回饋事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件類型：量度 |
+| 已鎖定 (AJO) | 這會計算針對某人展示某個提議的次數。這是考慮向某人展示某個提議的次數。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | 衍生欄位 | 元件類型：量度 (衍生欄位) |
+| 已觸發 (AJO) | 提議已被選擇由 Adobe SDK 顯示。其他因素可能會阻止其實際顯示。 | AJO 推播追蹤體驗事件資料集、歷程步驟事件、AJO 訊息意見反應事件資料集、AJO 電子郵件追蹤體驗事件資料集 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件類型：量度 |
 | 實驗中的不重複訪客 (AJO) | 實驗中的不重複訪客 | AJO 實體資料集 | `_experience.customerJourneyManagement.`<br/>`entities.experiment.experimentId` | 元件類型：量度 |
 | 取消訂閱 (AJO) | 取消訂閱總數 | AJO 電子郵件追蹤體驗事件資料集 | `_experience.customerJourneyManagement.`<br/>`messageInteraction.interactionType` | 元件類型：量度 |
 
