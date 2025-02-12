@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
+source-git-commit: 3bf62bebebfe2ef52abbd29245ef6e8e65807491
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 19%
@@ -256,7 +256,7 @@ ht-degree: 19%
 
 * 若要編輯在收集內容分析資料時應包含或排除哪些資產，請選取&#x200B;**[!UICONTROL 資產]**&#x200B;下方的![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
 
-### 摘要
+### 摘要 {#summary}
 
 提供所有必要的詳細資訊後，摘要會提供已建立或修改之人工因素的詳細資訊。
 
@@ -266,7 +266,7 @@ ht-degree: 19%
 
 ![Content Analytics設定摘要](../assets/aca-configuration-summary.png)
 
-### 動作
+### 動作 {#actions}
 
 <!-- markdownlint-disable MD034 -->
 
