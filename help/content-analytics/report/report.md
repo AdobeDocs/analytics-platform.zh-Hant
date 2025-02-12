@@ -6,14 +6,22 @@ feature: Content Analytics
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: a2292c0c24aa86baedae0fe1835e552992eb0cae
+exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
+source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
 
 # Content Analytics報表概觀
+
+>[!WARNING]
+>
+>本文是即將推出之最終版本的初步非官方草稿版本，屬於內容分析檔案的一部分。 所有內容可能會有所變更，而目前的本文版本概不提供任何法律義務。
+>
+
+{{release-limited-testing}}
 
 在Analysis Workspace中製作內容分析報表。 有特定的Workspace [範本](#template)可供使用，因此您可以立即存取預先填入的Workspace專案，其中包含相關的內容深入分析。
 
