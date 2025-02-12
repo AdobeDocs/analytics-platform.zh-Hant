@@ -10,7 +10,7 @@ exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '1697'
-ht-degree: 31%
+ht-degree: 35%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-xdm"
 >title="將 XDM 資料彙集邏輯新增至您的標記"
->abstract="在網站上安裝Loader標籤後，您可以新增規則和資料元素以填入XDM物件並傳送給Adobe。 Adobe建議維護解決方案設計檔案，以追蹤標籤的設定方式。<br><br>此步驟需要大量工作，因為需要為屬性設定所有Analytics邏輯。 預計將花費一個月或更長時間建立正確的標籤規則、測試這些規則，並在您的網站上部署。"
+>abstract="在您的網站上安裝 Loader 標記後，您可以新增規則和資料元素來填入 XDM 物件以傳送至 Adobe。Adobe 建議維護解決方案設計文件，以追蹤您的標記設定。<br><br>此步驟有大量工作，因為其中包含設定您的屬性之所有 Analytics 邏輯。預計需要投入一個月或更長的時間來建立正確的標記規則、進行測試並將其部署至您的網站上。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
@@ -39,7 +39,7 @@ ht-degree: 31%
 
 以下各節將說明建議的資料元素以及您可以設定的其他常見資料元素。
 
-有多種型別的資料元素。 您可能會想要設定的兩個常見資料元素：一個擷取訪客在您的網站上檢視的頁面名稱，另一個擷取造訪您網站的每個訪客的Experience CloudID。
+有多種型別的資料元素。 您可能會想要設定的兩個常見資料元素：一個擷取訪客在您的網站上檢視的頁面名稱，另一個擷取造訪您網站的每個訪客的Experience Cloud ID。
 
 設定這兩個資料元素後，您可以針對要擷取的特定資料設定其他資料元素。
 
@@ -91,7 +91,7 @@ ht-degree: 31%
 
 #### ECID資料元素
 
-適用於大多陣列織的通用資料元素是資料元素，可擷取造訪您網站的每個人的Experience CloudID。
+適用於大多陣列織的通用資料元素是資料元素，可擷取造訪您網站的每個人的Experience Cloud ID。
 
 若要建立ECID資料元素：
 
@@ -101,15 +101,15 @@ ht-degree: 31%
 
 1. 從[!UICONTROL 「標籤屬性」]清單中選擇您新建立的標籤，並將其打開。
 
-1. （視條件而定）安裝Experience CloudID服務擴充功能（如果尚未安裝）：
+1. （視條件而定）安裝Experience Cloud ID服務擴充功能（如果尚未安裝）：
 
    1. 選取左側邊欄中的&#x200B;**[!UICONTROL 「擴充功能」]**。
 
-   1. 預設會選取&#x200B;**[!UICONTROL 已安裝]**&#x200B;標籤。 如果列出&#x200B;**[!UICONTROL Experience Cloud識別碼服務]**&#x200B;圖磚，請跳至步驟5。
+   1. 預設會選取&#x200B;**[!UICONTROL 已安裝]**&#x200B;標籤。 如果列出&#x200B;**[!UICONTROL Experience Cloud ID服務]**&#x200B;圖磚，請跳至步驟5。
 
-   1. 如果未列出&#x200B;**[!UICONTROL Experience CloudID服務]**&#x200B;圖磚，請選取&#x200B;**[!UICONTROL 目錄]**&#x200B;索引標籤。
+   1. 如果未列出&#x200B;**[!UICONTROL Experience Cloud ID服務]**&#x200B;圖磚，請選取&#x200B;**[!UICONTROL 目錄]**&#x200B;索引標籤。
 
-   1. 在搜尋欄位中，搜尋&#x200B;**[!UICONTROL Experience Cloud識別碼服務]**，然後選取出現時的圖磚
+   1. 在搜尋欄位中搜尋&#x200B;**[!UICONTROL Experience Cloud ID服務]**，然後在其出現時選取圖磚
 
    1. 選取&#x200B;**[!UICONTROL 安裝]** > **[!UICONTROL 儲存]**。
 
@@ -121,7 +121,7 @@ ht-degree: 31%
 
    * **[!UICONTROL Name]**：資料元素的名稱。 例如 `ECID`。
 
-   * **[!UICONTROL 延伸模組]**：從清單中選取&#x200B;**[!UICONTROL Experience Cloud識別碼服務]**。
+   * **[!UICONTROL 延伸模組]**：從清單中選取&#x200B;**[!UICONTROL Experience Cloud ID服務]**。
 
    * **[!UICONTROL 資料元素型別]**：從清單中選取&#x200B;**[!UICONTROL ECID]**。
 

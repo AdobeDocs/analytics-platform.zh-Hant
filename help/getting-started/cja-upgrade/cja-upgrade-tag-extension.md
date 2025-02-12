@@ -10,7 +10,7 @@ exl-id: 382d2b00-939a-4fff-be02-7a98d457a455
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 23%
+ht-degree: 33%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 23%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-extension"
->title="將Platform Web SDK擴充功能新增至標籤屬性"
->abstract="將Adobe Experience Platform Web SDK擴充功能新增至標籤屬性。 將Web SDK擴充功能新增至您的標籤屬性已經簡化，只需要幾分鐘即可完成。"
+>title="新增 Platform Web SDK 擴充功能至您的標記屬性"
+>abstract="新增 Adobe Experience Platform Web SDK 擴充功能至您的標記屬性。新增 Web SDK 擴充功能至您的標記屬性的程序已經簡化，只需幾分鐘即可完成。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 

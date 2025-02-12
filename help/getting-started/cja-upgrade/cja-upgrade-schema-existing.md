@@ -1,5 +1,5 @@
 ---
-title: 選擇要Customer Journey Analytics的結構描述
+title: 選擇您的 Customer Journey Analytics 結構描述
 description: 瞭解選擇Customer Journey Analytics結構時可用的選項，以及各個選項的優缺點
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
 source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
-# 選擇要Customer Journey Analytics的結構描述 {#choose-schema}
+# 選擇您的 Customer Journey Analytics 結構描述 {#choose-schema}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-tailored"
 >title="使用自訂結構描述"
->abstract="（建議）自訂您的結構描述可讓您的組織僅追蹤您需要的內容，並避免凌亂和不需要的欄位帶來的額外負荷。 此選項包括由網站SDK新增的欄位群組和自訂到您組織的欄位群組。"
+>abstract="(建議) 自訂結構描述可讓您的組織僅追蹤需要的內容，並避免產生與混亂和不必要欄位相關的經常性費用。此選項包括 Web SDK 新增的欄位群組和您的組織自訂的欄位群組。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,17 +30,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-default"
 >title="使用預設結構描述"
->abstract="（不建議） Adobe Analytics結構描述包含超過一千個欄位，導致結構描述複雜混亂。 您的組織將被迫繼續遵循prop和eVar的概念，這是Customer Journey Analytics中未使用的舊概念。 整合其他Adobe Experience Platform服務較為困難。"
+>abstract="(不建議) Adobe Analytics 結構描述包含超過一千個欄位，這可能會讓結構描述變得混亂和複雜。您的組織將被迫繼續遵守 prop 和 eVar 的概念，而這是 Customer Journey Analytics 中未使用的舊版概念。與其他 Adobe Experience Platform 服務的整合更加困難。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >
->此檔案應該用作[Adobe Analytics的Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)的一部分。
+>此檔案應該用作[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)的一部分。
 
 <!-- this page exists as the "Learn more" link in the info icons for the options "I am comfortable using my Adobe Analytics schema as a basis" and "I want to use a schema tailored to my organization" -->
 
-升級至Customer Journey Analytics時，Adobe建議建立自訂Experience Data Model (XDM)結構，以便在您開始使用其他Platform服務時更符合組織的需求。 或者，您也可以選擇使用現有的Adobe Analytics結構描述。
+升級至Customer Journey Analytics時，Adobe建議您建立自訂Experience Data Model (XDM)結構，以便在您開始使用其他Platform服務時更符合組織的需求。 或者，您也可以選擇使用現有的Adobe Analytics結構描述。
 
 考量每個專案的優缺點。
 

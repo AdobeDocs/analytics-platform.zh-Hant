@@ -1,31 +1,31 @@
 ---
 description: 瞭解如何將Analysis Workspace專案匯出至雲端位置。
 keywords: Analysis Workspace
-title: 將Customer Journey Analytics報表匯出至雲端
+title: 將 Customer Journey Analytics 報告匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
 source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
 workflow-type: tm+mt
 source-wordcount: '2281'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# 將Customer Journey Analytics報表匯出至雲端 {#full-table-export}
+# 將 Customer Journey Analytics 報告匯出至雲端 {#full-table-export}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-full-table-export"
->title="建立與Data Warehouse類似的完整表格匯出專案"
->abstract="一在Analysis Workspace中看到資料時，您就可以立即使用完整的表格匯出功能。 您可以視需要建立或排程完整表格匯出。<br><br>如果您已經知道匯出中要包含哪些資料，建立完整的表格匯出只需要幾分鐘即可完成。"
+>title="建立類似 Data Warehouse 的完整表格匯出"
+>abstract="您在 Analysis Workspace 中看到資料時，便可以馬上進行完整表格匯出。您可以根據需求建立或安排完整表格匯出。<br><br>如果您已經知道在此次匯出中要包含哪些資料，則建立完整表格匯出僅需幾分鐘即可完成。"
 
 <!-- markdownlint-enable MD034 -->
 
 您可以從Customer Journey Analytics匯出Workspace的完整表格，並將匯出內容傳送至指定的雲端目的地。
 
-也可以使用其他匯出Customer Journey Analytics報表的方法，如[匯出概觀](/help/analysis-workspace/export/export-project-overview.md)中所述。
+也可使用其他匯出Customer Journey Analytics報表的方法，如[匯出概觀](/help/analysis-workspace/export/export-project-overview.md)中所述。
 
 ## 瞭解完整的表格匯出
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 1. [從Workspace匯出完整表格](#export-full-tables-from-analysis-workspace)
 
-1. [存取雲端中的資料](#view-exported-data-and-manifest-file)和[管理Adobe中的匯出](/help/components/exports/manage-exports.md)
+1. [存取雲端中的資料](#view-exported-data-and-manifest-file)和[在Adobe中管理匯出](/help/components/exports/manage-exports.md)
 
 ![步驟1到4中說明的完整資料表匯出程式。](assets/export-full-table-process.png)
 
@@ -82,7 +82,7 @@ ht-degree: 3%
    | 開始日期 | 排程匯出應該開始的日期和時間。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 結束日期 | 排定的匯出到期的日期和時間。 排定的匯出在您設定的日期和時間後不再執行。 <p>只有在選擇排定的匯出頻率時，才能使用此選項。</p> |
    | 檔案格式 | 選擇匯出的資料應該是.csv還是.json格式。 |
-   | 帳戶 | 選取您要傳送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，您可以設定新帳戶：<ol><li>選取「[!UICONTROL **新增帳戶**]」，然後註明下列資訊：<ul><li>[!UICONTROL **位置帳戶名稱**]：指定位置帳戶的名稱。 建立位置時會顯示此名稱 </li><li>[!UICONTROL **位置帳戶描述**]：提供帳戶的簡短描述，以協助將其與相同帳戶型別的其他帳戶區分開來。</li><li>[!UICONTROL **帳戶型別**]：選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake和AEP資料登陸區域。</li></ul><li>若要完成設定帳戶，請繼續下列對應至您選取之&#x200B;[!UICONTROL **帳戶型別**]&#x200B;的連結：<ul><li>[AEP資料登陸區域](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3角色ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google雲端平台](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
+   | 帳戶 | 選取您要傳送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，您可以設定新帳戶：<ol><li>選取「[!UICONTROL **新增帳戶**]」，然後註明下列資訊：<ul><li>[!UICONTROL **位置帳戶名稱**]：指定位置帳戶的名稱。 建立位置時會顯示此名稱 </li><li>[!UICONTROL **位置帳戶描述**]：提供帳戶的簡短描述，以協助將其與相同帳戶型別的其他帳戶區分開來。</li><li>[!UICONTROL **帳戶型別**]：選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3角色ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake和AEP資料登陸區域。</li></ul><li>若要完成設定帳戶，請繼續下列對應至您選取之&#x200B;[!UICONTROL **帳戶型別**]&#x200B;的連結：<ul><li>[AEP資料登陸區域](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3角色ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google雲端平台](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
    | 位置名稱 | 選取您要將匯出資料傳送到的帳戶位置。<p>或者，如果您尚未在選取的帳戶上設定您要使用的位置，您可以設定新的位置：<ol><li>選取&#x200B;[!UICONTROL **新增位置**]，然後指定下列資訊： <ul><li>[!UICONTROL **名稱**]：位置的名稱。</li><li>[!UICONTROL **描述**]：提供位置的簡短描述，以協助將其與帳戶上的其他位置區分開來。</li><li>[!UICONTROL **位置帳戶**]：選取您要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續下列對應您在&#x200B;[!UICONTROL **位置帳戶**]&#x200B;欄位中所選帳戶型別的連結：<ul><li>[AEP資料登陸區域](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone)。</li><li>[Amazon S3角色ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google雲端平台](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
 
    {style="table-layout:auto"}
@@ -153,9 +153,9 @@ ht-degree: 3%
 
 * **資料表：**&#x200B;所有資料表都必須至少包含資料列中的一個維度，以及每個資料欄中的一個量度，才能支援完整的資料表匯出。
 
-* **環境：**&#x200B;請確定Customer Journey Analytics所使用的[IP位址](/help/technotes/ip-addresses.md)和[網域](/help/technotes/domains.md)允許通過其組織的防火牆。
+* **環境：**&#x200B;請確定Customer Journey Analytics使用的[IP位址](/help/technotes/ip-addresses.md)和[網域](/help/technotes/domains.md)允許通過其組織的防火牆。
 
-* **許可權：**&#x200B;在Adobe Admin Console中，必須為使用者指派具有&#x200B;[!UICONTROL **完整資料表匯出**]&#x200B;許可權的產品設定檔，才能匯出完整的資料表。 如需有關在Admin Console中指派許可權給產品設定檔的資訊，請參閱Admin Console](/help/technotes/access-control.md)中的[Customer Journey Analytics許可權。
+* **許可權：**&#x200B;在Adobe Admin Console中，必須為使用者指派具有&#x200B;[!UICONTROL **完整資料表匯出**]&#x200B;許可權的產品設定檔，才能匯出完整的資料表。 如需在Admin Console中指派許可權給產品設定檔的相關資訊，請參閱Admin Console中的[Customer Journey Analytics許可權](/help/technotes/access-control.md)。
 
   >[!NOTE]
   >
@@ -174,7 +174,7 @@ ht-degree: 3%
 * 動態維度
 
   如需詳細資訊，請參閱自由表格中的[動態與靜態維度專案](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
-* 第一個劃分中的Dimension會轉換，並新增為匯出表格列中的次要維度；表格中不包含任何其他劃分
+* 第一個劃分中的維度會進行轉換，並在匯出的表格列中將新增為次要維度；表格中不會包含任何其他劃分
 * 大部分的資料集不支援排序；可能會為小型資料集排序資料
 
 ### 不支援的元件
@@ -221,7 +221,7 @@ ht-degree: 3%
 如果您先前使用Data Warehouse匯出Adobe Analytics資料，下表可協助您瞭解在Customer Journey Analytics中匯出完整表格與在Adobe Analytics中使用Data Warehouse匯出資料之間的差異。
 
 
-| 功能 | 以Customer Journey Analytics匯出完整表格 | Adobe Analytics中的Data Warehouse |
+| 功能 | Customer Journey Analytics中的完整表格匯出 | Adobe Analytics中的Data Warehouse |
 |---------|----------|---------|
 | 建立自訂報表 | 有 | 有 |
 | 計算量度 | 有 | 無 |

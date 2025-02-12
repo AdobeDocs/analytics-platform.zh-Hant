@@ -1,6 +1,6 @@
 ---
-title: 架構您的結構以用於Customer Journey Analytics
-description: 瞭解從Adobe Analytics升級為Customer Journey Analytics時的建議路徑
+title: 設計您的結構描述以便與 Customer Journey Analytics 搭配使用
+description: 瞭解從Adobe Analytics升級至Customer Journey Analytics時的建議路徑
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,28 +10,28 @@ exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
 source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
-# 架構您的結構以用於Customer Journey Analytics {#upgrade-schema-architect}
+# 設計您的結構描述以便與 Customer Journey Analytics 搭配使用 {#upgrade-schema-architect}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-architect"
->title="架構方案"
->abstract="與貴組織討論資料收集的需求，並決定您要如何建立結構描述以用於Adobe Experience Platform。 之所以會出現此步驟，是因為您想要使用根據組織量身打造之結構的建議程式。 正確執行此步驟至關重要，因為組織內所有團隊對齊的結構可大幅簡化資料擷取。<br><br>將貴組織中所有相關人士召集在一起，以統一結構描述預計需要1-2個月的時間。 此時間範圍主要取決於協調所需的團隊數量，以及對齊所需的維度+量度數量。"
+>title="設計結構描述"
+>abstract="在您的組織內討論資料彙集的要求，並確定您想要如何建置在 Adobe Experience Platform 內使用的結構描述。之所以顯示這個步驟，是因為您要使用推薦流程，即使用針對您組織量身打造的結構描述。正確執行此步驟極為重要，因為組織內所有團隊均遵循一個結構描述，可以十分輕鬆地完成資料攝取。<br><br>將組織中所有相關方整合以便遵循統一的結構描述，預估要花費 1-2 個月時間。這個時間段極度依賴所要協調的團隊數量，以及要遵循的維度 + 量度數量。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
-Adobe建議建立自訂Experience Data Model (XDM)結構描述，以便在從Adobe Analytics升級為Customer Journey Analytics時與Web SDK搭配使用。 或者，您也可以使用預設的Adobe Analytics結構描述，此結構描述會使用Adobe Analytics ExperienceEvent欄位群組。
+Adobe建議建立自訂Experience Data Model (XDM)結構描述，以便在從Adobe Analytics升級至Customer Journey Analytics時與Web SDK搭配使用。 或者，您也可以使用預設的Adobe Analytics結構描述，此結構描述會使用Adobe Analytics ExperienceEvent欄位群組。
 
 自訂XDM結構描述可讓您根據組織需求以及您使用的特定平台應用程式量身打造簡化的結構描述。 與使用Adobe Analytics ExperienceEvent欄位群組的預設Adobe Analytics結構描述不同，當需要變更自訂XDM結構描述時，您不必在數千個未使用的欄位中尋找需要更新的欄位。
 
@@ -41,7 +41,7 @@ Adobe建議建立自訂Experience Data Model (XDM)結構描述，以便在從Ado
 
 ## 避免XDM結構描述中的Adobe Analytics限制
 
-Customer Journey Analytics的底層架構提供比Adobe Analytics更大的彈性。 建立新的XDM結構描述是解鎖靈活性的關鍵方式。 當您升級至Customer Journey Analytics，請務必避免在結構描述中沿用不必要的Adobe Analytics限制。
+Customer Journey Analytics的底層架構提供比Adobe Analytics更大的彈性。 建立新的XDM結構描述是解鎖靈活性的關鍵方式。 當您升級至Customer Journey Analytics時，請務必避免在結構描述中沿用不必要的Adobe Analytics限制。
 
 | Adobe Analytics資料架構 | XDM結構描述架構 |
 |---------|----------|

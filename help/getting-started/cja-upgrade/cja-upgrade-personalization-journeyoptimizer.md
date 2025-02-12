@@ -1,5 +1,5 @@
 ---
-title: 使用個人化物件以搭配Adobe Journey Optimizer使用
+title: 使用個人化物件以便與 Adobe Journey Optimizer 搭配使用
 description: 瞭解如何使用個人化物件來搭配Adobe Journey Optimizer使用
 role: Admin
 solution: Customer Journey Analytics
@@ -9,18 +9,18 @@ hidefromtoc: true
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
-# 使用個人化物件以搭配Adobe Journey Optimizer使用 {#upgrade-personalization}
+# 使用個人化物件以便與 Adobe Journey Optimizer 搭配使用 {#upgrade-personalization}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-personalization"
->title="針對Adobe Journey Optimizer使用個人化物件"
->abstract="在您的實作中使用個人化物件，以用於Adobe Journey Optimizer。"
+>title="使用個人化物件來執行 Adobe Journey Optimizer"
+>abstract="使用您的實作中的個人化物件以便在 Adobe Journey Optimizer 中使用。"
 
 <!-- markdownlint-enable MD034 -->
 

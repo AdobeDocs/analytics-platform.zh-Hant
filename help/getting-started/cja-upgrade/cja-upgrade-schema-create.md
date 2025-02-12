@@ -1,6 +1,6 @@
 ---
-title: 建立自訂結構描述以進行Customer Journey Analytics
-description: 瞭解如何建立自訂結構描述以進行Customer Journey Analytics
+title: 建立Customer Journey Analytics的自訂結構描述
+description: 瞭解如何建立Customer Journey Analytics的自訂結構
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,18 +10,18 @@ exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
 source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
 source-wordcount: '1335'
-ht-degree: 37%
+ht-degree: 51%
 
 ---
 
-# 建立自訂結構以與您的Customer Journey AnalyticsWeb SDK實作搭配使用 {#create-custom-schema}
+# 建立自訂結構描述以便與您的 Customer Journey Analytics Web SDK 實作搭配使用 {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create"
->title="在Adobe Experience Platform中建立所需的自訂結構描述"
->abstract="使用Adobe Experience Platform UI建立結構描述，讓Adobe知道儲存資料的正確格式。<br><br>此步驟涉及實際建立貴組織同意的結構描述。 估計在Adobe Experience Platform介面中建立結構描述的時間大約為一週，視需要建立的維度和量度數量而定。"
+>title="在 Adobe Experience Platform 中建立所需的自訂結構描述"
+>abstract="使用 Adobe Experience Platform 使用者介面建立結構描述，以便 Adobe 了解儲存資料的正確格式。<br><br>此步驟包含實際建立您組織所同意的結構描述。在 Adobe Experience Platform 介面中建立結構描述的預估時間約為一週，取決於需要建立的維度和量度的數量。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create-default-aa"
->title="使用Adobe Analytics ExperienceEvent欄位群組建立結構描述"
->abstract="使用「Adobe Analytics ExperienceEvent」欄位群組，在Adobe Experience Platform中建立包含Adobe Analytics使用之所有欄位的結構描述。<br><br>根據Adobe Analytics ExperienceEvent欄位群組建立結構描述非常簡單，只需幾分鐘即可完成。"
+>title="使用 Adobe Analytics ExperienceEvent 欄位群組建立結構描述"
+>abstract="使用「Adobe Analytics ExperienceEvent」欄位群組在 Adobe Experience Platform 中建立一個包含 Adobe Analytics 使用之所有欄位的結構描述。<br><br>根據 Adobe Analytics ExperienceEvent 欄位群組建立結構描述是簡單的操作，只需幾分鐘即可完成。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,22 +38,22 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
->title="為設定檔啟用您的結構描述"
->abstract="在您的結構描述中啟用設定檔，以用於Adobe Real-time CDP。 出現此步驟是因為您選取了與Adobe Real-time CDP整合的願望。<br><br>由於此步驟涉及按一下單一方塊，因此此步驟只需要幾分鐘的時間。"
+>title="讓您的結構描述啟用設定檔"
+>abstract="在您的結構描述中啟用設定檔以供 Adobe Real-time CDP 使用。之所以顯示此步驟是因為您選取希望與 Adobe Real-time CDP 整合。<br><br>由於這個步驟包含點選單一方塊，所以這個步驟只需幾分鐘。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
 >[!IMPORTANT]
 >
->開始建立自訂結構之前，請與您的資料團隊和整個組織的其他利害關係人合作，識別您組織適用於Customer Journey Analytics的理想結構設計以及您使用的其他Adobe Experience Platform應用程式。 如需詳細資訊，請參閱[架構您的結構描述以搭配Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)使用。
+>開始建立自訂結構描述之前，請與您的資料團隊和整個組織的其他利害關係人合作，識別您組織適用於Customer Journey Analytics和您使用的其他Adobe Experience Platform應用程式的理想結構描述設計。 如需詳細資訊，請參閱[架構您的結構描述以搭配Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)使用。
 
-以下各節說明如何建立可與Customer Journey Analytics搭配使用的綱要。 下列結構選項可供使用：
+以下章節說明如何建立可與Customer Journey Analytics搭配使用的結構描述。 下列結構選項可供使用：
 
 * **自訂XDM結構描述：** （建議）允許根據貴組織的需求以及您使用的特定平台應用程式量身打造精簡的結構描述。 任何必要的未來變更都相當簡單明瞭。
 
@@ -142,7 +142,7 @@ ht-degree: 37%
 
    ![識別物件](assets/identification-field.png)
 
-   識別物件會將識別功能新增至結構描述。 對於您的情況，您想要使用Experience CloudID和電子郵件地址來識別造訪您網站的設定檔。 有許多其他屬性可用來追蹤您的人員身分識別（例如客戶ID、忠誠度ID）。
+   識別物件會將識別功能新增至結構描述。 對於您的情況，您想要使用Experience Cloud ID和電子郵件地址來識別造訪您網站的設定檔。 有許多其他屬性可用來追蹤您的人員身分識別（例如客戶ID、忠誠度ID）。
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
 
@@ -164,7 +164,7 @@ ht-degree: 37%
 
    選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-1. （選擇性）如果要將Customer Journey Analytics與RTCDP整合，請選取顯示結構描述名稱的結構描述根元素，然後選取&#x200B;**[!UICONTROL 設定檔]**&#x200B;引數。
+1. （選擇性）如果您想要整合Customer Journey Analytics與RTCDP，請選取顯示結構描述名稱之結構描述的根元素，然後選取&#x200B;**[!UICONTROL 設定檔]**&#x200B;引數。
 
    系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶輪廓中。
 
@@ -190,7 +190,7 @@ ht-degree: 37%
 
    * 根據「輪廓核心 v2」欄位群組新增識別物件。
 
-   * 將Experience CloudID定義為主要識別碼，並將電子郵件定義為識別碼。
+   * 將Experience Cloud ID定義為主要識別碼，並將電子郵件定義為識別碼。
 
    * 啟用該輪廓結構
 

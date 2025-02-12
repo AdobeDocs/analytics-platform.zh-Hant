@@ -1,6 +1,6 @@
 ---
-title: 建立結構描述以進行Customer Journey Analytics
-description: 瞭解從Adobe Analytics升級為Customer Journey Analytics時的建議路徑
+title: 為Customer Journey Analytics建立結構描述
+description: 瞭解從Adobe Analytics升級至Customer Journey Analytics時的建議路徑
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,30 +10,30 @@ exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
 source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 0%
+ht-degree: 26%
 
 ---
 
-# 驗證資料是否正在流入Customer Journey Analytics {#validate-data}
+# 驗證資料是否流向 Customer Journey Analytics {#validate-data}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-validate"
 >title="驗證資料是否正在流動"
->abstract="使用連線詳細資料來驗證資料是否流入Customer Journey Analytics。<br><br>如果一切都已正確且完美地完成，這個步驟可以在一天內完成。 如果有多個資料收集問題，疑難排解可能需要更長的時間。"
+>abstract="使用連線詳細資訊來驗證資料是否流入 Customer Journey Analytics。<br><br>如果一切均正確無誤完成，只需不到一天的時間即可完成這個步驟。如果發生多個資料彙集問題，則進行疑難排解可能明顯花費更長時間。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
-您可以驗證連線是否作用中，資料是否以Customer Journey Analytics流向「資料檢視」。
+您可以驗證連線是否作用中，資料是否流入Customer Journey Analytics中的資料檢視。
 
-1. 在Customer Journey Analytics中，選取「連線」標籤。
+1. 在Customer Journey Analytics中，選取「連線」索引標籤。
 
    ![清單檢視](assets/list-view.png)
 

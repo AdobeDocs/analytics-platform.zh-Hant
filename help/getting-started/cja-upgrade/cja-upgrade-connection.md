@@ -1,6 +1,6 @@
 ---
-title: 建立結構描述以進行Customer Journey Analytics
-description: 瞭解從Adobe Analytics升級為Customer Journey Analytics時的建議路徑
+title: 為Customer Journey Analytics建立結構描述
+description: 瞭解從Adobe Analytics升級至Customer Journey Analytics時的建議路徑
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,30 +10,30 @@ exl-id: 22d3e7b8-4a4d-48a8-a98d-5172a9876286
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '1708'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
-# 建立並設定連線以用於Customer Journey Analytics {#upgrade-create-connection}
+# 建立並設定用於 Customer Journey Analytics 的連線 {#upgrade-create-connection}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-connection"
 >title="在 Customer Journey Analytics 中建立連線"
->abstract="連線可讓您將資料從Adobe Experience Platform轉譯為針對Customer Journey Analytics報表最佳化的格式。 在Customer Journey Analytics中建立連線很簡單，只需要幾分鐘即可完成。"
+>abstract="透過連線，您可以將 Adobe Experience Platform 中的資料翻譯成針對 Customer Journey Analytics 報告最佳化的格式。在 Customer Journey Analytics 中建立連線非常簡單，僅需幾分鐘即可完成。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/connections/create-connection.md -->
 
-以下資訊說明如何建立和設定連線，以及如何將Experience Platform資料集新增到您建立的連線。 如需建立及設定連線的詳細資訊，請參閱[建立或編輯連線](/help/connections/create-connection.md)。
+下列資訊說明如何建立和設定連線，以及如何將Experience Platform資料集新增到您建立的連線。 如需建立及設定連線的詳細資訊，請參閱[建立或編輯連線](/help/connections/create-connection.md)。
 
 ## 建立和設定連線 {#create-connection}
 

@@ -10,7 +10,7 @@ exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 28%
+ht-degree: 49%
 
 ---
 
@@ -20,20 +20,20 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-loader"
->title="在您的網站上實作載入器標籤"
->abstract="與您的網站開發團隊合作，在網站的每個頁面上安裝載入器標籤。<br><br>此任務的完成時間很大程度上取決於您部署程式碼時所合作之工程團隊的回應時間。 有些組織擁有高度適應性工程團隊可在數天內完成此步驟，而工程團隊若有大量待處理工作，則可能需要一個月或更長的時間。"
+>title="在您的網站上實作 Loader 標記"
+>abstract="與您的網站開發團隊合作，在您網站的每個頁面上安裝 Loader 標記。<br><br>此任務的完成時間在很大程度上取決於與您合作部署程式碼的工程團隊之回應時間。某些擁有高適應性工程團隊的組織可以在幾天內完成這個步驟，而擁有大量待辦任務的工程團隊可能需要一個月或更長的時間。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
 您必須在要追蹤的網站上安裝標籤，這表示要將程式碼放置在網站範本的標頭標籤中。
 
-以下程式說明如何取得參考您標籤的程式碼。 如需補充資訊，請參閱Experience Platform檔案中的[標籤和事件轉送的實作指南](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides)。
+以下程式說明如何取得參考您標籤的程式碼。 如需補充資訊，請參閱Experience Platform檔案中的[標籤和事件轉送實作指南](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides)。
 
 若要取得參考標籤的程式碼：
 

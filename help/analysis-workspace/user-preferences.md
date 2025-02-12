@@ -8,7 +8,7 @@ role: User
 source-git-commit: 501a9fbd7c8abd8a63348c2c8d11b88b31a0f6df
 workflow-type: tm+mt
 source-wordcount: '3562'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="預設表格量度"
->abstract="選取用於自由表格的預設量度。 如果選取的資料檢視不包含選取的預設量度，表格會自動切換到另一個主要量度。"
+>abstract="選取用於自由格式表格的預設量度。如果選取的資料檢視不包含已選取的預設量度，則表格將自動切換到另一個主要量度。"
 
 
 <!-- markdownlint-enable MD034 -->
@@ -186,12 +186,12 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
 >title="預設表格量度"
->abstract="選取要用於流量視覺效果的預設容器。 如果選取的資料檢視未包含選取的預設容器，則流量視覺效果會自動切換至另一個主要容器。"
+>abstract="選取用於流程視覺化的預設容器。如果選取的資料檢視不包含已選取的預設容器，則流程視覺化將自動切換到另一個主要容器。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
 >title="預設表格量度"
->abstract="選取流失視覺效果所使用的預設容器。 如果選取的資料檢視未包含選取的預設容器，「流失」視覺效果會自動切換至另一個主要容器。"
+>abstract="選取用於流失視覺化的預設容器。如果選取的資料檢視不包含已選取的預設容器，則流失視覺化將自動切換到另一個主要容器。"
 
 您可以為在 Analysis Workspace 中建立的所有新專案更新偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 

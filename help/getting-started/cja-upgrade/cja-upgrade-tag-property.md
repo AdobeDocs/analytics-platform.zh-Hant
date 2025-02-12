@@ -10,7 +10,7 @@ exl-id: 156df830-541d-4c92-9c49-98f346e040a7
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 20%
+ht-degree: 35%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-property"
->title="在Adobe Experience Platform資料彙集中建立標籤屬性"
->abstract="使用標籤是資料收集的典型標準。 在Adobe Experience Platform介面中建立標籤，以便您隨時更新資料收集變數。<br><br>只要按幾下即可完成標籤屬性的建立，只需要幾分鐘的時間。"
+>title="在 Adobe Experience Platform 資料彙集中建立標記屬性。"
+>abstract="使用標記是資料彙集的典型標準。在 Adobe Experience Platform 介面中建立標記，以便您可以隨時更新資料彙集的變數。<br><br>只需幾分鐘點選數次，標記屬性即可建立完成。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 

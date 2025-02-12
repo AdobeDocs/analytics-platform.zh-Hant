@@ -1,6 +1,6 @@
 ---
-title: 建立結構描述以進行Customer Journey Analytics
-description: 瞭解從Adobe Analytics升級為Customer Journey Analytics時的建議路徑
+title: 為Customer Journey Analytics建立結構描述
+description: 瞭解從Adobe Analytics升級至Customer Journey Analytics時的建議路徑
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,24 +10,24 @@ exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 26%
+ht-degree: 42%
 
 ---
 
-# 將Platform作為服務新增到您的資料流 {#upgrade-addplatform-datastream}
+# 新增平台即服務至您資料流 {#upgrade-addplatform-datastream}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-addplatform-datastream"
->title="將Adobe Experience Platform作為服務新增到資料流"
->abstract="資料串流需要一或多個服務才能將資料傳送至。 在您的資料流中設定Adobe Experience Platform即服務。<br><br>將服務新增至資料串流是一個簡單的程式，只需要幾分鐘即可完成。"
+>title="將 Adobe Experience Platform 即服務新增至資料流"
+>abstract="資料流需要一個或多個服務作為傳送資料的目的地。在您的資料流中設定 Adobe Experience Platform 即服務。<br><br>新增服務至資料流是簡單的流程，僅需幾分鐘即可完成。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 

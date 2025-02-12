@@ -1,6 +1,6 @@
 ---
-title: 在Customer Journey Analytics中建立資料檢視
-description: 瞭解從Adobe Analytics升級為Customer Journey Analytics時的建議路徑
+title: 在 Customer Journey Analytics 中建立資料視圖
+description: 瞭解從Adobe Analytics升級至Customer Journey Analytics時的建議路徑
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,24 +10,24 @@ exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 20%
+ht-degree: 38%
 
 ---
 
-# 在Customer Journey Analytics中建立資料檢視 {#upgrade-create-dataview}
+# 在 Customer Journey Analytics 中建立資料視圖 {#upgrade-create-dataview}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataview"
->title="在Customer Journey Analytics中建立資料檢視"
->abstract="資料檢視是Customer Journey Analytics專屬的容器，可讓您決定如何詮釋來自連線的資料。<br><br>雖然資料檢視的初始建立需要幾分鐘的時間，但使用所需的元件設定來設定每個維度和量度可能需要數天的時間。 調整這些設定會回溯套用，讓您的組織可以隨著時間調整它們。"
+>title="在 Customer Journey Analytics 中建立資料視圖"
+>abstract="資料視圖是 Customer Journey Analytics 的專用容器，讓您決定如何解讀來自連線的資料。<br><br>雖然初次建立資料視圖只需幾分鐘，但使用所需的元件設定來設定每個維度和量度則需要幾天的時間。調整這些設定會追溯適用，因此您的組織可以隨著時間調整設定。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
@@ -53,7 +53,7 @@ ht-degree: 20%
 
    ![元件標籤](assets/dataview-components.png)
 
-1. 從&#x200B;[!UICONTROL **元件**]&#x200B;索引標籤，將結構描述元素從左側邊欄拖曳至&#x200B;[!UICONTROL **Metrics**]&#x200B;區段或&#x200B;[!UICONTROL **Dimension**]&#x200B;區段。 新增的結構元素會在資料檢視中變成量度或維度。
+1. 從&#x200B;[!UICONTROL **元件**]&#x200B;索引標籤，將結構描述元素從左側邊欄拖曳至&#x200B;[!UICONTROL **Metrics**]&#x200B;區段或&#x200B;[!UICONTROL **Dimensions**]&#x200B;區段。 新增的結構元素會在資料檢視中變成量度或維度。
 
    如需有關將元件新增至資料檢視時可用選項的詳細資訊，請參閱[建立或編輯資料檢視](/help/data-views/create-dataview.md)中的[元件](/help/data-views/create-dataview.md#components)。
 

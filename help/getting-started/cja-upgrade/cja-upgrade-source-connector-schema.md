@@ -1,5 +1,5 @@
 ---
-title: 建立Analytics來源聯結器的自訂結構描述
+title: 建立 Analytics 來源連接器的自訂結構描述
 description: 瞭解如何建立Analytics來源聯結器的自訂結構描述
 role: Admin
 solution: Customer Journey Analytics
@@ -10,24 +10,24 @@ exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
 source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
-# 建立Analytics來源聯結器的自訂結構描述 {#create-custom-schema}
+# 建立 Analytics 來源連接器的自訂結構描述 {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-create-schema"
->title="建立Analytics來源聯結器的結構描述"
->abstract="此結構描述是Adobe Analytics ExperienceEvent欄位群組和所有欄位群組的組合，這些群組構成了貴組織的自訂結構描述。 它可讓您將Analytics來源聯結器使用的欄位對應到您組織的結構描述，並且僅用於歷史資料。<br><br>雖然本質上屬於技術性質，但建立此結構描述可以在數小時內完成，如果您確切知道哪些欄位群組組成您組織的自訂結構描述，則速度可能會更快。"
+>title="建立 Analytics 來源連接器的結構描述"
+>abstract="此結構描述是 Adobe Analytics ExperienceEvent 欄位群組，與構成您組織的自訂結構描述的所有欄位群組之組合。您可以將 Analytics 來源連接器使用的欄位對應至您組織的結構描述，並且僅用於歷史資料。<br><br>雖然本質上具有技術成分，但建立此結構描述可以在數小時內完成，如果您確切知道哪些欄位群組構成組織的自訂結構描述，則速度可能會更快。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 您可以使用Analytics來源聯結器將Adobe Analytics報告套裝資料匯入Adobe Experience Platform。 然後，這些資料即可用作Customer Journey Analytics中的歷史資料。
 
-此程式假設您要[建立自訂結構描述，以搭配您的Customer Journey AnalyticsWeb SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
+此程式假設您要[建立自訂結構描述，以搭配您的Customer Journey Analytics Web SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)使用，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
 
 若要使用Analytics來源聯結器將歷史資料帶入Customer Journey Analytics，您需要：
 
@@ -49,9 +49,9 @@ ht-degree: 3%
 
 1. [將 Analytics 來源連接器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
-## 建立Analytics來源聯結器的自訂結構描述
+## 建立 Analytics 來源連接器的自訂結構描述
 
-您應該已經[建立新的自訂結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，以供Experience Platform Web SDK實作與Customer Journey Analytics搭配使用。 此結構描述應包含您計畫收集資料之欄位的任何欄位群組。
+您應該已經[建立新的自訂結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，以便用於Experience Platform Web SDK實作，並與Customer Journey Analytics搭配使用。 此結構描述應包含您計畫收集資料之欄位的任何欄位群組。
 
 您現在需要使用您網站SDK結構描述中的相同欄位群組，並將其新增至可與Analytics來源聯結器搭配使用的新結構描述。
 
@@ -63,7 +63,7 @@ Analytics來源聯結器的此結構描述必須包含：
 
 若要建立要與Analytics來源聯結器搭配使用的自訂結構描述：
 
-1. 在Adobe Experience Platform中，開始建立新的自訂結構描述，如[建立自訂結構描述以搭配您的Customer Journey AnalyticsWeb SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)中所述。
+1. 在Adobe Experience Platform中，開始建立新的自訂結構描述，如[建立自訂結構描述以搭配您的Customer Journey Analytics Web SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)中所述。
 
 1. 新增您為網站SDK實作建立的結構描述中包含的所有欄位群組（包括任何自訂欄位群組）。
 

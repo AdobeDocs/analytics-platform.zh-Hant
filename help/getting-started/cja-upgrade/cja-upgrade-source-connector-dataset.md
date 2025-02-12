@@ -10,7 +10,7 @@ exl-id: 424485a3-a076-4656-83b6-733f16cc2326
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 25%
+ht-degree: 32%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-dataset"
->title="將Analytics來源聯結器資料集新增至您的連線"
->abstract="現在，Analytics報表套裝中的歷史資料已存放在Adobe Experience Platform中，請將該資料集新增至您最初設定Customer Journey Analytics時建立的現有連線。 完成此步驟後，Customer Journey Analytics中的歷史資料即可使用。<br><br>在Customer Journey Analytics中將資料集新增到連線很簡單，只需幾分鐘即可完成。"
+>title="新增 Analytics 來源連接器資料集至您的連線"
+>abstract="現在，Analytics 報告套裝的歷史資料已位於 Adobe Experience Platform，請將該資料集新增至您最初設定 Customer Journey Analytics 時所建立的現有連線。此步驟完成後，即可使用 Customer Journey Analytics 中的歷史資料。<br><br>在 Customer Journey Analytics 中新增資料集至連線是很簡單的操作，只需幾分鐘即可完成。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
@@ -96,7 +96,7 @@ ht-degree: 25%
 
 1. 在&#x200B;**[!UICONTROL 資料集回填]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 要求回填]**。
 
-1. 輸入開始和結束日期，或選取行事曆圖示![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)，以定義您要將連線回填納入Customer Journey Analytics的期間。
+1. 透過輸入開始和結束日期或選取行事曆圖示![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)，定義您希望Customer Journey Analytics中的連線回填包含的時間段。
 
    指定要求回填的日期時請務必明確。 根據數個因素，您可能會想要執行下列任一項作業：
 
@@ -114,7 +114,7 @@ ht-degree: 25%
 
 1. 選取&#x200B;**[!UICONTROL 新增資料集]**，然後選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存連線。
 
-1. （條件式）如果您使用查詢資料集，則必須建立查詢資料集並將其新增至您的連線。 如需詳細資訊，請參閱[建立查詢資料集以分類Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)中的資料。
+1. （條件式）如果您使用查詢資料集，則必須建立查詢資料集並將其新增至您的連線。 如需詳細資訊，請參閱[在Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)中建立查詢資料集以分類資料。
 
    只有在設定網頁SDK實作時尚未執行此動作的情況下，才需要執行此動作。
 

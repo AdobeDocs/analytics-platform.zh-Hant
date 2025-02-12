@@ -8,18 +8,18 @@ role: User
 source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 51%
+ht-degree: 68%
 
 ---
 
-# 跨頻道分析 {#cross-channel}
+# 跨管道分析 {#cross-channel}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-additional-datasets"
->title="將其他資料集新增到您的連線"
->abstract="將資料新增至Adobe Experience Platform中的資料集後，您就可以將該資料集新增至Customer Journey Analytics中的連線。 從其他管道新增資料時，請確定這些管道的資料符合您的組織使用的結構描述。<br><br>您新增的每個資料集都需要大量工作，特別是要確保每個事件都有唯一識別碼，並確保整體資料結構符合您組織的自訂結構描述。 建立此工作流程可能需要在組織內橫跨數個月的許多團隊中進行協調。"
+>title="新增其他資料集至您的連線"
+>abstract="您在 Adobe Experience Platform 中新增資料至資料集後，可以新增該資料集至 Customer Journey Analytics 的連線。從其他管道新增資料時，請確保相關資料符合您的組織使用的結構描述。<br><br>你所新增的每個資料集均需要大量工作，特別是要確保每個事件都有唯一識別碼，並確保整體資料結構符合組織的自訂結構描述。建立此工作流程需要組織中多個團隊進行長達數個月的協調。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -32,7 +32,7 @@ ht-degree: 51%
 1. 為要擷取的資料[建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
 1. 為要擷取的資料[建立資料集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)。
 1. [將資料內嵌至Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html)：
-   1. 透過Edge Network或Analytics來源聯結器，從網站或行動應用程式取得事件型資料![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg)。
+   1. 透過Edge Network或Analytics來源聯結器從網站或行動應用程式取得事件型資料![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg)。
    2. 設定檔資料![設定檔](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) （例如，來自CRM系統、客服中心應用程式、忠誠度應用程式）。
    3. 查詢資料![查詢](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) （例如產品名稱、產品資訊系統中的類別）。
 
@@ -40,7 +40,7 @@ ht-degree: 51%
 1. 執行任何自訂資料準備，以確保跨時間序列資料集的公用鍵被引入 Customer Journey Analytics。
 1. 為查閱資料提供一個可以連結到事件資料中欄位的主要 ID。計為授權中的列。
 1. 將輪廓資料的主要 ID 設定為事件資料的主要 ID。
-1. [建立連線](../../connections/overview.md)以將相關的資料集從Experience Platform擷取到Customer Journey Analytics。
+1. [建立連線](../../connections/overview.md)以將相關資料集從Experience Platform擷取到Customer Journey Analytics。
 1. 在連線上[建立資料檢視](/help/data-views/create-dataview.md)以選擇要包含在檢視中的特定維度和量度。歸因和配置設定也在資料檢視中設定。這些設定是在報告時計算的。
 1. [建立專案](/help/analysis-workspace/home.md)以在Analysis Workspace中設定儀表板和報表。
 

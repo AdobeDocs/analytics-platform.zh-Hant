@@ -10,7 +10,7 @@ exl-id: f96565a2-f556-4b45-b88e-984613614d2e
 source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 6%
+ht-degree: 22%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-create"
->title="建立Analytics來源聯結器"
->abstract="使用Analytics來源聯結器來擷取報表套裝資料，以用於Customer Journey Analytics。<br><br>使用預設設定，只需幾分鐘即可建立Analytics來源聯結器。"
+>title="建立 Analytics 來源連接器"
+>abstract="使用 Analytics 來源連接器攝取報告套裝資料，以便在 Customer Journey Analytics 中使用。<br><br>使用預設設定建立 Analytics 來源連接器只需幾分鐘。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,14 +29,14 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-map-fields"
->title="建立Analytics來源聯結器並對應結構描述欄位"
->abstract="來源聯結器需要知道如何將Adobe Analytics欄位對應到您組織的結構描述。 使用此介面提供來源聯結器與該對應。 此步驟是將歷史資料新增到Customer Journey Analytics的一部分。<br><br>此步驟所花的時間取決於您必須對應的維度和量度數目。 這個步驟並不像繁瑣和重複那麼困難。 資料流對應大約需要一週的工作才能完成。"
+>title="建立 Analytics 來源連接器和對應結構描述欄位"
+>abstract="來源連接器需要知道如何將 Adobe Analytics 欄位對應至您組織的結構描述。使用此介面為來源連接器提供該對應。此步驟是新增歷史資料至 Customer Journey Analytics 的環節之一。<br><br>此步驟所需時間在很大程度上取決於您必須對應的維度和量度的數量。此步驟並不困難，但是它十分繁瑣且重複性高。預計資料流對應大約需要一週的時間才能完成。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
@@ -44,11 +44,11 @@ ht-degree: 6%
 
 您可以使用Analytics來源聯結器將Adobe Analytics報告套裝資料匯入Adobe Experience Platform。 然後，這些資料即可用作Customer Journey Analytics中的歷史資料。
 
-此程式假設您要[建立自訂結構描述，以搭配您的Customer Journey AnalyticsWeb SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
+此程式假設您要[建立自訂結構描述，以搭配您的Customer Journey Analytics Web SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)使用，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
 
 若要使用Analytics來源聯結器將歷史資料帶入Customer Journey Analytics，您需要：
 
-1. [建立Analytics來源聯結器的自訂結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+1. [建立 Analytics 來源連接器的自訂結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
 1. 如果您還沒有Analytics來源聯結器，請建立Analytics來源聯結器，並將欄位對應至您的自訂Web SDK結構描述，如下所述。
 
@@ -72,7 +72,7 @@ ht-degree: 6%
 
    ![已選取來源的Adobe Experience Platform視窗，同時反白顯示Adobe應用程式和新增資料。](./assets/sources-overview.png)
 
-1. 選取&#x200B;**[!UICONTROL 報表套裝]**，然後從報表套裝清單中，選取包含您要用於Customer Journey Analytics之歷史資料的報表套裝。
+1. 選取&#x200B;**[!UICONTROL 報表套裝]**，然後從報表套裝清單中，選取包含您要在Customer Journey Analytics中使用的歷史資料的報表套裝。
 
    顯示報告套裝清單的![Adobe Experience Platform視窗](./assets/report-suites.png)
 
@@ -92,7 +92,7 @@ ht-degree: 6%
 
    1. 在&#x200B;**[!UICONTROL Source欄位]**&#x200B;中，從Adobe Analytics ExperienceEvent範本欄位群組中選取Adobe Analytics欄位。 然後，在&#x200B;**[!UICONTROL 目標欄位]**&#x200B;中，在XDM結構描述中選取您要將它對應到的自訂欄位。
 
-      由於AppMeasurement和XDM之間的固有架構差異，並非所有Adobe Analytics欄位在XDM中都擁有對應的欄位。
+      由於Adobe Analytics和XDM之間的固有架構差異，並非所有AppMeasurement欄位在XDM中都擁有對應的欄位。
 
    1. 為您在Adobe Analytics中用來收集資料的Adobe Analytics ExperienceEvent範本欄位群組中的每個欄位重複此程式。
 
@@ -110,6 +110,6 @@ ht-degree: 6%
 
    建立連線後，系統會自動建立資料流，以使用報表套裝中的Adobe Analytics資料填入資料集。 此資料流會擷取最多13個月的生產沙箱歷史資料。 非生產沙箱中的回填限製為三個月。
 
-   如果您使用Analytics來源聯結器將歷史資料匯入Customer Journey AnalyticsWeb SDK實作，則需要將此自動建立的資料集新增至您為Web SDK實作建立的連線。
+   如果您使用Analytics來源聯結器將歷史資料帶入Customer Journey Analytics Web SDK實作，則需要將此自動建立的資料集新增至您為Web SDK實作建立的連線。
 
 1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。

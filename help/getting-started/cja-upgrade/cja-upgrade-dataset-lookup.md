@@ -1,6 +1,6 @@
 ---
-title: 建立查詢資料集以分類Customer Journey Analytics中的資料
-description: 瞭解如何建立查詢資料集以分類Customer Journey Analytics中的資料
+title: 建立查詢資料集來將 Customer Journey Analytics 的資料分類
+description: 瞭解如何建立查詢資料集，以便在Customer Journey Analytics中分類資料
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -10,36 +10,36 @@ exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
 source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
-# 建立查詢資料集以分類Customer Journey Analytics中的資料 {#upgrade-lookup-dataset}
+# 建立查詢資料集來將 Customer Journey Analytics 的資料分類 {#upgrade-lookup-dataset}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-lookup-dataset-create"
->title="為每個包含分類資料的維度建立查詢資料集"
->abstract="與Adobe Analytics中的分類資料類似，查詢資料集是將資料分類Customer Journey Analytics的方法。"
+>title="針對包含分類資料的每個維度建立查詢資料集"
+>abstract="查詢資料集與 Adobe Analytics 中的分類資料類似，是在 Customer Journey Analytics 中進行資料分類的方法。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics為您的組織動態產生的升級步驟操作，以Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
-與Adobe Analytics中的分類資料類似，查詢資料集是將資料分類Customer Journey Analytics的方法。
+查詢資料集與 Adobe Analytics 中的分類資料類似，是在 Customer Journey Analytics 中進行資料分類的方法。
 
 使用Analytics來源聯結器時，某些標準查詢資料集會在報告時自動套用。 如需詳細資訊，請參閱[將標準查詢新增至資料集](/help/connections/standard-lookups.md)。
 
-若要在使用Experience Platform網頁SDK時分類Customer Journey Analytics中的資料，您需要針對包含您要分類之資料的每個維度建立自訂結構描述和查詢資料集。
+若要在使用Customer Journey Analytics Web SDK時分類Experience Platform中的資料，您需要為包含您要分類之資料的每個維度建立自訂結構描述和查詢資料集。
 
 ## 建立自訂結構描述以搭配查詢資料集使用
 
-針對每個包含您要以Customer Journey Analytics分類的資料的維度建立新的自訂結構描述。 當您在稍後步驟中建立查詢資料集時，它將參考此結構描述。
+針對包含您要在Customer Journey Analytics中分類之資料的每個維度，建立新的自訂結構描述。 當您在稍後步驟中建立查詢資料集時，它將參考此結構描述。
 
 針對包含您要分類之資料的每個維度，重複此程式。
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->以下程式會使用CSV檔案來建立資料集。 您也可以使用任何其他可將資料匯入Experience Platform的方法，例如設定資料流。
+>以下程式會使用CSV檔案來建立資料集。 您也可以使用任何其他可將資料匯入Experience Platform的方法，例如設定資料串流。
 
 1. 在Adobe Experience Platform中，選取左側邊欄中的&#x200B;**[!UICONTROL 工作流程]**。
 
@@ -107,9 +107,9 @@ ht-degree: 1%
 
 1. 繼續[在Customer Journey Analytics](#add-the-lookup-dataset-to-your-connection-in-customer-journey-analytics)中將查詢資料集新增到您的連線。
 
-## 在Customer Journey Analytics中將查詢資料集新增到您的連線
+## 將查詢資料集新增至您在Customer Journey Analytics中的連線
 
-在您[建立自訂結構描述](#create-a-custom-schema-to-use-with-the-lookup-dataset)並[建立查詢資料集](#create-a-lookup-dataset)之後，您需要在Customer Journey Analytics中將查詢資料集新增到您的連線。
+在您[建立自訂結構描述](#create-a-custom-schema-to-use-with-the-lookup-dataset)並[建立查詢資料集](#create-a-lookup-dataset)後，您需要在Customer Journey Analytics中將查詢資料集新增到您的連線。
 
 針對包含您要分類之資料的每個維度，重複此程式。
 
