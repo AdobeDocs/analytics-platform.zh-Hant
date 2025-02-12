@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: f8b984d2b429c731608b9774b44acea75ff1dfc7
+source-git-commit: 959e0b5d4a156d3ac81ac914612635880832ddd8
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 98%
+source-wordcount: '1129'
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 98%
       + [停用 AppMeasurement 資料彙集](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
       + [以協力廠商的分析解決方案進行升級](/help/getting-started/cja-upgrade/cja-upgrade-third-party-solution.md)
       + [升級過程中支援 Adobe Analytics 功能](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
-      + [升級期間和升級後的Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
+      + [升級期間和之後的 Adob&#x200B;&#x200B;e Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
       + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)
@@ -241,9 +241,9 @@ ht-degree: 98%
       + [管理需求](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [協助工具](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
-+ 內容分析{#content-analytics}
++ 內容分析 {#content-analytics}
    + [概觀](/help/content-analytics/content-analytics.md)
-   + 報告{#report}
+   + 報表 {#report}
       + [概觀](/help/content-analytics/report/report.md)
    + 設定 {#configuration}
       + [概觀](/help/content-analytics/config/configuration.md)
@@ -412,7 +412,6 @@ ht-degree: 98%
       + [使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)
       + [使用摘要資料](/help/use-cases/data-views/summary-data.md)
       + [BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)
-      + [BI延伸功能使用案例(Looker)](/help/use-cases/data-views/bi-extension-usecases-looker.md)
    + 匯出資料 {#data-export}
       + [概觀](../use-cases/data-export/overview.md)
       + [BI 擴充功能](../use-cases/data-export/bi-extension.md)
