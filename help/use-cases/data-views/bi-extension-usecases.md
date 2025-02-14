@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 5fbda947c847c803f95e5c3f412219b0af927d12
+source-git-commit: e2063ee571f78558c487f80041f9d28616138c61
 workflow-type: tm+mt
-source-wordcount: '14688'
+source-wordcount: '14697'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 2%
 * **Power BI案頭版**。 使用的版本是2.137.1102.0 64位元（2024年10月）。
 * **Tableau案頭**。 使用的版本為2024.1.5 (20241.24.0705.0334) 64位元。
 * **觀察者**。 線上版本25.0.23，透過[looker.com](https://looker.com){target="_blank"}提供
-* **Jupyter筆記本**。 使用的版本是7.3.2
+* **Jupyter筆記本**。 使用的版本是7.3.2。
+* **RStudio**。 使用的版本為2024.12.0，版本編號467。
 
 已記錄下列使用案例：
 
