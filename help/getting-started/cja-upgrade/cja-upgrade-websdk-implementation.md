@@ -29,7 +29,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-tags"
 >title="Web SDK 標記擴充功能"
->abstract="(建議) 如果您尚未使用標記，請在您的網站安裝標記 Loader。如果您已使用標記，則可以新增 Web SDK 擴充功能至您的標記屬性。此選項包括在 Adobe Experience Platform 資料彙集和第三方標記管理系統中使用標記的實作。"
+>abstract="(建議) 如果您尚未使用標記，請在您的網站安裝標記 Loader。如果您已使用標記，則可以新增 Web SDK 擴充功能至您的標記屬性。此選項包括在 Adobe Experience Platform 資料收集和第三方標記管理系統中使用標記的實作。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,7 +38,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-api"
 >title="NPM 套件"
->abstract="使用資料彙集 API 直接傳送資料至資料流。同時支援未驗證 (用戶端對伺服器) 和已驗證 (伺服器對伺服器) 類型。"
+>abstract="使用資料收集 API 直接傳送資料至資料流。同時支援未驗證 (用戶端對伺服器) 和已驗證 (伺服器對伺服器) 類型。"
 
 <!-- markdownlint-enable MD034 -->
 

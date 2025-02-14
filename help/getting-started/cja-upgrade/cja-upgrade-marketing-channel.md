@@ -21,7 +21,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-marketing-channel"
 >title="建立行銷管道衍生欄位"
->abstract="衍生欄位是在資料視圖中建立的。<br><br>使用預設行銷管道設定只需幾分鐘；建立高度客製化的行銷管道設定可能需要數小時。"
+>abstract="衍生欄位是在資料視圖中建立的。<br><br>使用預設行銷管道設定只需幾分鐘；建立高度自訂的行銷管道設定可能需要數小時。"
 
 <!-- markdownlint-enable MD034 -->
 

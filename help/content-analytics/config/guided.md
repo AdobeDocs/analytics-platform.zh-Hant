@@ -71,7 +71,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_button"
 >title="詳細資料"
->abstract="請提供連線的名稱。在「**[!UICONTROL 資料視圖]**」、「**[!UICONTROL 經驗擷取與定義]**」和「**[!UICONTROL 資料彙集]**」區段中，您提供更多詳細資訊以確保可以正確設定 Content Analytics。"
+>abstract="請提供連線的名稱。在「**[!UICONTROL 資料視圖]**」、「**[!UICONTROL 經驗擷取與定義]**」和「**[!UICONTROL 資料收集]**」區段中，您提供更多詳細資訊以確保可以正確設定 Content Analytics。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"

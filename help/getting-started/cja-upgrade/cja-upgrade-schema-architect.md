@@ -1,5 +1,5 @@
 ---
-title: 設計您的結構描述以便與 Customer Journey Analytics 搭配使用
+title: 建立您的結構描述以便與 Customer Journey Analytics 搭配使用
 description: 瞭解從Adobe Analytics升級至Customer Journey Analytics時的建議路徑
 role: Admin
 solution: Customer Journey Analytics
@@ -14,14 +14,14 @@ ht-degree: 24%
 
 ---
 
-# 設計您的結構描述以便與 Customer Journey Analytics 搭配使用 {#upgrade-schema-architect}
+# 建立您的結構描述以便與 Customer Journey Analytics 搭配使用 {#upgrade-schema-architect}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-architect"
->title="設計結構描述"
->abstract="在您的組織內討論資料彙集的要求，並確定您想要如何建置在 Adobe Experience Platform 內使用的結構描述。之所以顯示這個步驟，是因為您要使用推薦流程，即使用針對您組織量身打造的結構描述。正確執行此步驟極為重要，因為組織內所有團隊均遵循一個結構描述，可以十分輕鬆地完成資料攝取。<br><br>將組織中所有相關方整合以便遵循統一的結構描述，預估要花費 1-2 個月時間。這個時間段極度依賴所要協調的團隊數量，以及要遵循的維度 + 量度數量。"
+>title="建立結構描述"
+>abstract="在您的組織內討論資料收集的需求，並確定您想要如何建置在 Adobe Experience Platform 內使用的結構描述。之所以顯示這個步驟，是因為您要使用推薦流程，即使用針對您組織量身打造的結構描述。正確執行此步驟極為重要，因為組織內所有團隊均遵循一個結構描述，可以十分輕鬆地完成資料攝取。<br><br>將組織中所有相關方整合以便遵循統一的結構描述，預估要花費 1-2 個月時間。這個時間段極度依賴所要協調的團隊數量，以及要遵循的維度 + 量度數量。"
 
 <!-- markdownlint-enable MD034 -->
 

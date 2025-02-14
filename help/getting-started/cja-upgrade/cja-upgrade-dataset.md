@@ -21,7 +21,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-create"
 >title="在 Adobe Experience Platform 中建立資料集"
->abstract="資料集是存放所彙集資料的位置。在 Adobe Experience Platform 中建立這個位置。<br><br>根據特定的結構描述建立資料集僅需幾分鐘。"
+>abstract="資料集是存放所收集資料的位置。在 Adobe Experience Platform 中建立這個位置。<br><br>根據特定的結構描述建立資料集僅需幾分鐘。"
 
 <!-- markdownlint-enable MD034 -->
 

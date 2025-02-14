@@ -21,7 +21,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-validate"
 >title="驗證資料是否正在流動"
->abstract="使用連線詳細資訊來驗證資料是否流入 Customer Journey Analytics。<br><br>如果一切均正確無誤完成，只需不到一天的時間即可完成這個步驟。如果發生多個資料彙集問題，則進行疑難排解可能明顯花費更長時間。"
+>abstract="使用連線詳細資訊來驗證資料是否流入 Customer Journey Analytics。<br><br>如果一切均正確無誤完成，只需不到一天的時間即可完成這個步驟。如果發生多個資料收集問題，則進行疑難排解可能明顯花費更長時間。"
 
 <!-- markdownlint-enable MD034 -->
 

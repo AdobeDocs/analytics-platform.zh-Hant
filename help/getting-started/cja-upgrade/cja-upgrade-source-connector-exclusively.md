@@ -21,7 +21,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-exclusively"
 >title="僅使用 Analytics 來源連接器"
->abstract="(不建議) 您無法與其他 Adobe Experience Platform 服務整合，或使用 Analytics 來源連接器脫離 Adobe Analytics。連結其他來源的資料可能需要拼接。滿足問卷中的所有要求才能選取此選項。"
+>abstract="(不建議) 您無法與其他 Adobe Experience Platform 服務整合，或使用 Analytics 來源連接器脫離 Adobe Analytics。連結其他來源的資料可能需要拼接。滿足問卷中的所有需求才能選取此選項。"
 
 <!-- markdownlint-enable MD034 -->
 

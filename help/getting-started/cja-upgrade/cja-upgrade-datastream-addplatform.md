@@ -14,7 +14,7 @@ ht-degree: 42%
 
 ---
 
-# 新增平台即服務至您資料流 {#upgrade-addplatform-datastream}
+# 新增平台即服務至您的資料流 {#upgrade-addplatform-datastream}
 
 <!-- markdownlint-disable MD034 -->
 

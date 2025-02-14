@@ -20,8 +20,8 @@ ht-degree: 35%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-property"
->title="在 Adobe Experience Platform 資料彙集中建立標記屬性。"
->abstract="使用標記是資料彙集的典型標準。在 Adobe Experience Platform 介面中建立標記，以便您可以隨時更新資料彙集的變數。<br><br>只需幾分鐘點選數次，標記屬性即可建立完成。"
+>title="在 Adobe Experience Platform 資料收集中建立標記屬性。"
+>abstract="使用標記是資料收集的典型標準。在 Adobe Experience Platform 介面中建立標記，以便您可以隨時更新資料收集的變數。<br><br>只需幾分鐘點選數次，標記屬性即可建立完成。"
 
 <!-- markdownlint-enable MD034 -->
 
