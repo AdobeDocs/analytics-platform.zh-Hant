@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 3bf62bebebfe2ef52abbd29245ef6e8e65807491
+source-git-commit: b52f1bc824c9edd958699d57ccbd950bc36abe5c
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 19%
@@ -273,7 +273,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning"
 >title="上線實施警告"
->abstract="這將部分根據您在此工作流程中提供的輸入來設定內容分析。 其他數個設定則是根據對內容分析通常有用的內容自動選擇。 建議您檢閱每個成品的設定，以確認符合您的需求和准則。 <br/>請注意，在手動發佈與此組態關聯的標籤程式庫之前，不會收集任何資料。<br/>另請注意，為了衍生影像和文字的屬性，Adobe會使用使用者造訪時擷取的URL，根據您實作的資料收集設定來擷取這些屬性。"
+>abstract="這將部分根據您在此工作流程中提供的輸入來設定內容分析。 其他數個設定則是根據對內容分析通常有用的內容自動選擇。 建議您檢閱每個成品的設定，以確認符合您的需求和准則。 <br/><br/>請注意，在手動發佈與此組態關聯的標籤程式庫之前，不會收集任何資料。<br/><br/>另請注意，為了衍生影像和文字的屬性，Adobe會使用使用者造訪時擷取的URL，根據您實作的資料收集設定來擷取這些屬性。"
 
 <!-- markdownlint-enable MD034 -->
 
