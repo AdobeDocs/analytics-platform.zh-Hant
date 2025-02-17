@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: e2063ee571f78558c487f80041f9d28616138c61
+source-git-commit: 220d48cd35d065b38dac441ce4155fa162a07533
 workflow-type: tm+mt
 source-wordcount: '14697'
 ht-degree: 2%
@@ -318,7 +318,7 @@ Looker支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平
 1. 執行儲存格。
 1. 使用![複製](/help/assets/icons/Copy.svg)將密碼從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼到Jupyter Notebook中的&#x200B;**[!UICONTROL 密碼]**&#x200B;欄位。
 
-   ![Jupter Notebook設定步驟1](assets/jupyter-config-step1.png)
+   ![Jupter Notebook設定步驟1](assets/jupyter-config-step1.png){zoomable="yes"}
 
 1. 在新儲存格中，輸入陳述式以載入SQL擴充功能、必要的程式庫並與Customer Journey Analytics連線。
 
@@ -330,7 +330,7 @@ Looker支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平
 
    執行殼層。 您應該不會看到任何輸出，但儲存格應該會在沒有任何警告的情況下執行。
 
-   ![Jupyer筆記本設定步驟4](assets/jupyter-config-step2.png)
+   ![Jupyer筆記本設定步驟4](assets/jupyter-config-step2.png){zoomable="yes"}
 
 1. 在新呼叫中，輸入陳述式，以根據連線取得可用資料檢視的清單。
 
@@ -354,7 +354,7 @@ Looker支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平
 
    執行殼層。 您應該會看到輸出類似下列熒幕擷圖的畫面。
 
-   ![Jupyter Notebook設定步驟5](assets/jupyter-config-step3.png)
+   ![Jupyter Notebook設定步驟5](assets/jupyter-config-step3.png){zoomable="yes"}
 
    您應該會在資料檢視清單中看到&#x200B;**[!UICONTROL cc_data_view]**。
 
@@ -405,7 +405,7 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
 1. 執行區塊。 系統會提示您輸入&#x200B;**[!UICONTROL 主機]**、**[!UICONTROL 資料庫]**&#x200B;和&#x200B;**[!UICONTROL 使用者]**。 只需接受您在上一步中提供之值。
 1. 使用![複製](/help/assets/icons/Copy.svg)將密碼從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼到RStudio中的&#x200B;**[!UICONTROL 密碼]**&#x200B;對話方塊提示字元。
 
-   ![RStudio設定步驟1](assets/rstudio-config-step1.png)
+   ![RStudio設定步驟1](assets/rstudio-config-step1.png){zoomable="yes"}
 
 1. 建立新的區塊，並輸入下列介於` ``` {r} `到` ``` `之間的陳述式。
 
@@ -442,7 +442,7 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
 
 1. 執行區塊。 您應該會看到輸出類似下列熒幕擷圖的畫面。
 
-   ![RStudio設定步驟2](assets/rstudio-config-step2.png)
+   ![RStudio設定步驟2](assets/rstudio-config-step2.png){zoomable="yes"}
 
 ### 是否平面化
 
@@ -599,7 +599,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc2-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc2-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB RStudio]
@@ -622,7 +622,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc2-rstudio-results.png)
+   ![RStudio結果](assets/uc2-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -737,7 +737,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc3-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc3-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB RStudio]
@@ -760,7 +760,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc3-rstudio-results.png)
+   ![RStudio結果](assets/uc3-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -904,7 +904,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc4-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc4-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB RStudio]
@@ -927,7 +927,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc4-rstudio-results.png)
+   ![RStudio結果](assets/uc4-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1130,7 +1130,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc5-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc5-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB RStudio]
@@ -1156,7 +1156,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc5-rstudio-results.png)
+   ![RStudio結果](assets/uc5-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1390,7 +1390,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc6-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc6-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB RStudio]
@@ -1409,7 +1409,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc6-rstudio-results.png)
+   ![RStudio結果](assets/uc6-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -1559,7 +1559,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc7-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc7-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB RStudio]
@@ -1576,7 +1576,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc7-rstudio-results.png)
+   ![RStudio結果](assets/uc7-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -1682,7 +1682,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc8-jupyter-input.png)
+   ![Jupyter Notebook結果](assets/uc8-jupyter-input.png){zoomable="yes"}
 
 1. 從下拉式功能表中選取&#x200B;**[!UICONTROL 釣魚產品]**。
 
@@ -1706,7 +1706,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc8-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc8-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB RStudio]
@@ -1729,7 +1729,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc8-rstudio-results.png)
+   ![RStudio結果](assets/uc8-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -1849,7 +1849,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc9-jupyter-input.png)
+   ![Jupyter Notebook結果](assets/uc9-jupyter-input.png){zoomable="yes"}
 
 1. 從下拉式功能表中選取&#x200B;**[!UICONTROL 釣魚產品]**。
 
@@ -1874,7 +1874,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc9-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc9-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB RStudio]
@@ -1893,7 +1893,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc9-rstudio-results.png)
+   ![RStudio結果](assets/uc9-rstudio-results.png){zoomable="yes"}
 
 
 >[!ENDTABS]
@@ -2013,7 +2013,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc10-jupyter-input.png)
+   ![Jupyter Notebook結果](assets/uc10-jupyter-input.png){zoomable="yes"}
 
 1. 從下拉式選單中選取&#x200B;**[!UICONTROL 搜尋]**。
 
@@ -2039,7 +2039,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc10-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc10-jupyter-results.png){zoomable="yes"}
 
 
 >[!TAB RStudio]
@@ -2058,7 +2058,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc10-rstudio-results.png)
+   ![RStudio結果](assets/uc10-rstudio-results.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -2292,7 +2292,7 @@ FETCH NEXT 500 ROWS ONLY
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc11-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc11-jupyter-results.png){zoomable="yes"}
 
 如Jupyter Notebook中所定義，查詢由BI擴充功能執行。
 
@@ -2313,7 +2313,7 @@ FETCH NEXT 500 ROWS ONLY
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc11-rstudio-results.png)
+   ![RStudio結果](assets/uc11-rstudio-results.png){zoomable="yes"}
 
 RStudio使用BI副檔名產生的查詢包含`ORDER BY`，這表示會透過RStudio和BI副檔名套用順序。
 
@@ -2578,7 +2578,7 @@ FETCH NEXT 5 ROWS ONLY
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc12-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc12-jupyter-results.png){zoomable="yes"}
 
 如Jupyter Notebook中所定義，查詢由BI擴充功能執行。
 
@@ -2599,7 +2599,7 @@ FETCH NEXT 5 ROWS ONLY
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc12-rstudio-results.png)
+   ![RStudio結果](assets/uc12-rstudio-results.png){zoomable="yes"}
 
 RStudio使用BI副檔名產生的查詢包含`LIMIT 5`，這表示限制是透過RStudio和BI副檔名套用。
 
@@ -2833,7 +2833,7 @@ Customer Journey Analytics物件（維度、量度、篩選器、計算量度和
 
 1. 執行儲存格。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![Jupyter Notebook結果](assets/uc13-jupyter-results.png)
+   ![Jupyter Notebook結果](assets/uc13-jupyter-results.png){zoomable="yes"}
 
 如Jupyter Notebook中所定義，查詢由BI擴充功能執行。
 
@@ -2857,7 +2857,7 @@ Customer Journey Analytics元件（維度、量度、篩選器、計算量度和
 
 1. 執行區塊。 您應該會看到與下方熒幕擷圖類似的輸出。
 
-   ![RStudio結果](assets/uc13-rstudio-results.png)
+   ![RStudio結果](assets/uc13-rstudio-results.png){zoomable="yes"}
 
 RStudio使用BI擴充功能產生的查詢包含`lower`，這表示自訂轉換是由RStudio和BI擴充功能執行。
 
