@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 8b90f74d64ef35f4a9f0f1177dab27c9680ccb4c
-workflow-type: ht
-source-wordcount: '824'
-ht-degree: 100%
+source-git-commit: c29b1b8678579b58c42fce2fc02fffd81c1a633f
+workflow-type: tm+mt
+source-wordcount: '864'
+ht-degree: 92%
 
 ---
 
@@ -36,6 +36,13 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 [![影像](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
 
+
+>[!TAB 智慧型字幕v2]
+
+智慧型字幕現在已支援[行](/help/analysis-workspace/visualizations/line.md) （包括多行）、[列](/help/analysis-workspace/visualizations/bar.md)、[水準列](/help/analysis-workspace/visualizations/horizontal-bar.md)、[區域](/help/analysis-workspace/visualizations/area.md) （包括多區域行）、[環圈圖](/help/analysis-workspace/visualizations/donut.md)、[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)和[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)視覺效果，並搭配其他介面改良功能。
+
+[![影像](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+
 >[!TAB 警報]
 
 警報可讓您根據變更的百分比或特定資料點來接收通知。您可以預覽警報觸發的頻率、透過電子郵件或簡訊傳送警報、建立堆疊警報等。
@@ -53,7 +60,7 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 >[!TAB 圖表式匯整*]
 
-圖表式匯整功能可讓您使用 Experience Platform Identity Service 中的身分識別圖來更清楚地掌握客戶歷程，方法包括： <ul><li>無需擷取、轉換並載入額外資料來反映單一識別碼，即可連接不同識別碼的資料集。</li> <li>在資料集之間共用身分，以提高單一資料集的首選或黃金身分涵蓋範圍，</li><li>讓 Real-Time Customer Data Platform 和 Journey Optimizer 中建立的輪廓與 Customer Journey Analytics 中的人員保持一致。</li></ul>
+圖表式匯整功能可讓您使用 Experience Platform Identity Service 中的身分識別圖來更清楚地掌握客戶歷程，方法包括： <ul><li>無需擷取、轉換並載入額外資料來反映單一識別碼，即可連接不同識別碼的資料集。</li> <li>在資料集之間共用身分識別，以提高單一資料集的首選或黃金身分識別涵蓋範圍，</li><li>讓 Real-Time Customer Data Platform 和 Journey Optimizer 中建立的輪廓與 Customer Journey Analytics 中的人員保持一致。</li></ul>
 
 [![影像](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
@@ -73,7 +80,7 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 >[!TAB BI 擴充功能*]
 
-BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的資料視圖。您現在可以使用常用的 BI 工具，根據 Customer Journey Analytics 使用者在使用 Analysis Workspace 專案時所使用的相同資料視圖來建立報告和儀表板。提供[使用案例](/help/use-cases/data-views/bi-extension-usecases.md)。
+BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的資料視圖。您現在可以使用您最愛的BI工具(Power BI Desktop、Tableau Desktop、Looker、Juyter Notebook和RStudio)，根據Customer Journey Analytics使用者在其Analysis Workspace專案中使用的相同資料檢視來建立報告和儀表板。 提供[使用案例](/help/use-cases/data-views/bi-extension-usecases.md)。
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 
