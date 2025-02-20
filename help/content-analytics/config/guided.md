@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: b52f1bc824c9edd958699d57ccbd950bc36abe5c
+source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1911'
 ht-degree: 19%
 
 ---
@@ -148,13 +148,16 @@ ht-degree: 19%
 >title="經驗擷取與定義"
 >abstract="您可以在標記屬性中編輯與所選設定相關的 Adobe Content Analytics 擴充功能設定。"
 
-
-
 <!-- markdownlint-enable MD034 -->
 
 在此區段中，您可以選取將體驗包含在透過Content Analytics收集的資料中。  體驗是指網頁上的所有文字，這些文字都可以使用造訪該網頁的初始使用者所使用的URL來重現。
 
 依預設，**[!UICONTROL 包含體驗]**&#x200B;已關閉。 選取後，您必須定義要包含體驗的URL。
+
+只有符合下列條件時，才考慮加入體驗：
+
+* 網站上的內容僅由URL驅動。
+* 網站上的頁面必須使用頁面URL可複製。
 
 若要在新的或未實施的設定中包含體驗：
 
@@ -286,6 +289,7 @@ ht-degree: 19%
    * **[!UICONTROL Adobe Experience Platform]**&#x200B;設定：
       1. 建立結構描述以建立Content Analytics事件、資產屬性和（如果已設定）體驗屬性的模型。
       1. 建立資料集以收集Content Analytics事件、資產屬性和（如果已設定）體驗屬性。
+      1. 建立資料流，使用功能化服務從Content Analytics事件產生和更新內容屬性。
    * **[!UICONTROL 內容分析]**&#x200B;設定：
       * 根據組態設定功能化組合器程式。
    * **[!UICONTROL Customer Journey Analytics]**&#x200B;設定：
