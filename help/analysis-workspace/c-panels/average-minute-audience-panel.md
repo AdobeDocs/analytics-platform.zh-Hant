@@ -18,7 +18,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaminuteaverageaudience_button"
 >title="媒體平均分鐘觀眾數"
->abstract="建立一個面板來分析特定內容或特定時段內的每分鐘平均客群數。"
+>abstract="建立一個面板來分析特定內容或特定時段內的每分鐘平均對象數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 >[!NOTE]
 >
->**[!UICONTROL 媒體平均每分鐘觀眾數]**&#x200B;面板僅適用於已購買串流媒體集合以進行Customer Journey Analytics的客戶。
+>**[!UICONTROL 媒體平均每分鐘觀眾數]**&#x200B;面板僅適用於已購買Customer Journey Analytics適用的串流媒體集合的客戶。
 >
 >如需詳細資訊，請聯絡您的Adobe銷售代表或Adobe客戶團隊。
 >

@@ -1,5 +1,5 @@
 ---
-description: 篩選器產生器提供的畫布可用來拖放量度Dimension、篩選器和事件，以便根據容器階層邏輯、規則和運運算元來篩選人員。 此整合式開發工具可讓您建立並儲存簡單或複雜的篩選器，用於識別跨造訪和事件的人員屬性和動作。
+description: 篩選器產生器提供的畫布可用來拖放量度維度、篩選器和事件，以便根據容器階層邏輯、規則和運運算元來篩選人員。 此整合式開發工具可讓您建立並儲存簡單或複雜的篩選器，用於識別跨造訪和事件的人員屬性和動作。
 title: 建置篩選器
 feature: Filters
 role: User
@@ -17,8 +17,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
->title="建立客群"
->abstract="客群可以透過篩選器建立，並與 Adobe Experience Platform 共用以進行啟用。"
+>title="建立對象"
+>abstract="對象可以透過篩選器建立，並與 Adobe Experience Platform 共用以進行啟用。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -88,7 +88,7 @@ ht-degree: 10%
 
 若要新增元件：
 
-1. 將元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、篩選器和/或Dimension拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
+1. 將元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、篩選器和/或維度拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
 1. 指定元件的詳細資料。 例如，從&#x200B;**[!UICONTROL 選取值]**&#x200B;中選取值。 或輸入值。 指定一或多個值的內容和方式取決於元件和運運算元。
 1. 選擇性地修改預設運運算元。 例如，從&#x200B;**[!UICONTROL 等於]**&#x200B;到&#x200B;**[!UICONTROL 等於任何]**。 如需可用運運算元的詳細概觀，請參閱[運運算元](operators.md)。
 

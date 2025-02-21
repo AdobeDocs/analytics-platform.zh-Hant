@@ -18,7 +18,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="components_audiences_refreshfrequency"
 >title="重新整理頻率"
->abstract="查看重新評估客群會籍的頻率。<br/>一次性客群僅會評估一次。"
+>abstract="查看重新評估對象會籍的頻率。<br/>一次性對象僅會評估一次。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="components_audiences_audiencelimit"
->title="客群限制"
->abstract="重新整理客群作業會受到其重新整理頻率的限制。"
+>title="對象限制"
+>abstract="重新整理對象作業會受到其重新整理頻率的限制。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,7 +36,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="component_audiences_refreshlookbackwindow"
 >title="重新整理回顧期間"
->abstract="定義從評估客群的今天所開始的回顧天數。"
+>abstract="定義從評估對象的今天所開始的回顧天數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="component_audiences_audiencesizelimit"
 >title="客群規模限制"
->abstract="客群不得超過 2000 萬個會員。"
+>abstract="對象不得超過 2000 萬個會員。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -54,14 +54,14 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="component_audiences_namespacesincluded"
 >title="包含的命名空間"
->abstract="此客群中的身分識別是由以下命名空間組成的。"
+>abstract="此對象中的身分識別是由以下命名空間組成的。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 
 
-本主題說明如何將在Customer Journey Analytics中識別的對象建立並發佈到Adobe Experience Platform中的[即時客戶個人檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/home)，以用於客戶目標定位和個人化。
+本主題說明如何將在Customer Journey Analytics中發現的對象建立並發佈到Adobe Experience Platform中的[即時客戶個人檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/home)，以用於客戶目標定位和個人化。
 
 請閱讀此[總覽](/help/components/audiences/audiences-overview.md)，熟悉Customer Journey Analytics對象的概念。
 
@@ -71,7 +71,7 @@ ht-degree: 18%
 
    | 建立方法 | 詳細資料 |
    | --- | --- |
-   | 從&#x200B;**[!UICONTROL 對象]**&#x200B;介面中。 | 從主要Customer Journey Analytics功能表中選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 對象]**。 Audiences介面隨即顯示。 選取「**[!UICONTROL 建立對象]**」，並開啟[!UICONTROL 對象產生器]。 |
+   | 從&#x200B;**[!UICONTROL 對象]**&#x200B;介面中。 | 從Customer Journey Analytics主功能表選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 對象]**。 Audiences介面隨即顯示。 選取「**[!UICONTROL 建立對象]**」，並開啟[!UICONTROL 對象產生器]。 |
    | 從Analysis Workspace中的視覺效果 | Analysis Workspace中的許多視覺效果都可讓您使用內容功能表建立對象。 例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)中專案的內容功能表或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)中的節點選取&#x200B;**[!UICONTROL 建立對象]**。<p>使用此方法時，會使用您選取的維度或維度專案預先填入對象產生器中的篩選器。</p><p>下列視覺效果可讓您使用滑鼠右鍵功能表建立對象：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流程](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：**&#x200B;對象不能包含計算量度。 如果您嘗試建立包含計算量度的對象，則該計算量度不會包含在對象定義中。</p> |
    | 從篩選器建立/編輯 UI | 勾選顯示「**[!UICONTROL 通過此篩選建立客群]**」的方塊。使用此方法預先填入篩選器。 如需詳細資訊，請參閱[建立篩選器](/help/components/filters/create-filters.md)。 |
 
@@ -83,8 +83,8 @@ ht-degree: 18%
 
 1. 選取&#x200B;**[!UICONTROL [!UICONTROL 檢視範例ID]]**&#x200B;以檢視此對象中的ID範例。 在&#x200B;**[!UICONTROL 範例ID]**&#x200B;對話方塊中，您可以使用![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *搜尋範例ID*]&#x200B;來搜尋範例ID。
 
-1. 仔細檢查您的對象組態，並選取&#x200B;**[!UICONTROL Publish]**。
-您會收到一則對象已發佈的確認訊息。 只需一兩分鐘，此對象就會在Experience Platform中顯示。
+1. 仔細檢查您的對象組態，並選取&#x200B;**[!UICONTROL 發佈]**。
+您會收到一則對象已發佈的確認訊息。 發佈只需要一兩分鐘，此對象就會出現在Experience Platform中。
 
 1. 在同一則訊息中選取「**[!UICONTROL 在AEP中檢視對象]**」，您就會進入Adobe Experience Platform中的[區段UI](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview)。 請參閱下方以了解更多資訊。
 
@@ -122,11 +122,11 @@ ht-degree: 18%
 
 ## 建立及發佈對象後會發生什麼事？ {#after-audience-created}
 
-在Customer Journey Analytics中建立並發佈對象後，您就能在Experience Platform中使用該對象。 Adobe Experience Platform串流區段只會在您的組織設為串流區段時建立。
+在Customer Journey Analytics中建立並發佈對象後，您便可在Experience Platform中使用對象。 Adobe Experience Platform串流區段只會在您的組織設為串流區段時建立。
 
-* Platform中的對象會與Customer Journey Analytics對象共用相同的名稱和說明。 名稱會附加至Customer Journey Analytics對象ID，以確保對象是唯一的。
+* Platform中的對象會與Customer Journey Analytics對象共用相同的名稱和說明。 名稱會加上Customer Journey Analytics對象ID，以確保對象是唯一的。
 * 在Customer Journey Analytics中對對象名稱或說明所做的任何變更都會反映在Experience Platform中。
-* 如果在Customer Journey Analytics中刪除了對象，則該對象會繼續在Experience Platform中使用，直到對象的設定檔成員資格過期為止。 一次性受眾的設定檔會籍將在420天後到期，而週期性受眾會在16天後到期。
+* 如果對象已在Customer Journey Analytics中刪除，在對象的設定檔成員資格過期之前，該對象會繼續在Experience Platform中使用。 一次性受眾的設定檔會籍將在420天後到期，而週期性受眾會在16天後到期。
 
 ## 延遲的注意事項 {#latency}
 
@@ -145,11 +145,11 @@ ht-degree: 18%
 
 {style="table-layout:auto"}
 
-## 在Experience Platform中使用Customer Journey Analytics對象 {#audiences-aep}
+## 在Experience Platform中使用Customer Journey Analytics受眾 {#audiences-aep}
 
-Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流至Real-time Customer Data Platform 。 根據設定連線時選取作為[!UICONTROL 人員ID]的專案，Customer Journey Analytics會將對象傳送至已設定主要身分的Experience Platform。
+Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流至Real-Time Customer Data Platform 。 Customer Journey Analytics會根據設定連線時選取的[!UICONTROL 人員ID]，將對象傳送至具有主要身分設定的Experience Platform。
 
-Real-time Customer Data Platform接著會檢查每個名稱空間/ID組合，並尋找它可能屬於的個人檔案。 輪廓基本上是一組連結的命名空間、ID 和裝置。如果找到設定檔，則會將名稱空間和ID新增到此設定檔中的其他ID，做為區段會籍屬性。 例如，<user@adobe.com>可以跨其所有裝置和管道進行定位。 如果找不到輪廓，則會建立一個新的。
+Real-Time Customer Data Platform接著會檢查每個名稱空間/ID組合，並尋找它可能屬於的個人檔案。 輪廓基本上是一組連結的命名空間、ID 和裝置。如果找到設定檔，則會將名稱空間和ID新增到此設定檔中的其他ID，做為區段會籍屬性。 例如，<user@adobe.com>可以跨其所有裝置和管道進行定位。 如果找不到輪廓，則會建立一個新的。
 
 若要在Platform中檢視Customer Journey Analytics對象：
 
@@ -161,7 +161,7 @@ Real-time Customer Data Platform接著會檢查每個名稱空間/ID組合，並
 
    左側面板中的![對象選項](assets/aep-audiences.png)
 
-   * 依&#x200B;**[!UICONTROL Origin]**&#x200B;資料行排序資料表，以檢視將&#x200B;[!UICONTROL **Customer Journey Analytics**]&#x200B;顯示為來源的受眾。
+   * 依&#x200B;**[!UICONTROL Origin]**&#x200B;資料行排序資料表，以檢視顯示&#x200B;[!UICONTROL **Customer Journey Analytics**]&#x200B;為來源的受眾。
 
    * 篩選&#x200B;**[!UICONTROL 來源]**&#x200B;上的![篩選器](/help/assets/icons/Filter.svg)並選取&#x200B;**[!UICONTROL Customer Journey Analytics]**。
 
@@ -176,29 +176,29 @@ Real-time Customer Data Platform接著會檢查每個名稱空間/ID組合，並
 
 +++**如果使用者不再是Customer Journey Analytics中的對象成員，會發生什麼情況？**
 
-在這種情況下，系統會從Customer Journey Analytics傳送退出事件給Experience Platform。
+在此情況下，系統會從Customer Journey Analytics傳送退出事件至Experience Platform。
 
 +++
 
 +++**如果您刪除Customer Journey Analytics中的對象，會發生什麼事？**
 
-刪除Customer Journey Analytics對象時，該對象不再顯示在Experience PlatformUI中。 不過，與該對象相關聯的設定檔不會在Experience Platform中刪除。
+刪除Customer Journey Analytics對象後，該對象就不會再顯示在Experience Platform UI中。 不過，與該對象相關聯的設定檔並不會在Experience Platform中刪除。
 
 +++
 
-+++**如果Real-time Customer Data Platform中不存在對應的設定檔，是否會建立新的設定檔？**
++++**如果Real-Time Customer Data Platform中不存在對應的設定檔，是否會建立新的設定檔？**
 
 是，會建立。
 
 +++
 
-+++**Customer Journey Analytics是否會將對象資料以管線事件或同樣進入資料湖的純資料檔傳送？**
++++**Customer Journey Analytics會以管線事件或同樣前往資料湖的平面檔案傳送對象資料？**
 
-Customer Journey Analytics會透過pipeline將資料串流至Real-time Customer Data Platform，這些資料也會收集到資料湖的系統資料集中。
+Customer Journey Analytics會透過pipeline將資料串流至Real-Time Customer Data Platform，這些資料也會收集到資料湖的系統資料集中。
 
 +++
 
-+++**Customer Journey Analytics傳送哪些身分？**
++++**Customer Journey Analytics會傳送哪些身分識別？**
 
 在[連線設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)中指定的任何識別/名稱空間配對。 具體來說，就是使用者選取要當作人員ID使用的欄位時的步驟。
 
@@ -206,13 +206,13 @@ Customer Journey Analytics會透過pipeline將資料串流至Real-time Customer 
 
 +++**選擇哪個 ID 作為主要身分識別？**
 
-請參閱上述內容。每個Customer Journey Analytics個人僅會傳送一個身分。
+請參閱上述內容。每個Customer Journey Analytics人員僅會傳送一個身分。
 
 +++
 
-+++**Real-time Customer Data Platform是否也會處理Customer Journey Analytics訊息？ Customer Journey Analytics是否可透過對象共用將身分新增至設定檔身分圖表？**
++++**Real-Time Customer Data Platform是否也會處理Customer Journey Analytics訊息？ Customer Journey Analytics是否可透過對象共用將身分新增至設定檔身分圖表？**
 
-否。每人只會傳送一個身分，因此Real-time Customer Data Platform不會有任何圖表邊緣可供使用。
+否。每人只會傳送一個身分，因此Real-Time Customer Data Platform不會有任何圖表邊緣可供使用。
 
 +++
 
