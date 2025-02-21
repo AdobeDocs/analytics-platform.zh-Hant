@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
+source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1991'
 ht-degree: 19%
 
 ---
@@ -103,6 +103,11 @@ ht-degree: 19%
 >id="aca_onboarding_dataview_header_alt"
 >title="資料視圖"
 >abstract="從 Customer Journey Analytics 中選取您想要與內容分析資料合併的現有資料視圖。<br/>"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataview_change"
+>title="選取資料檢視"
+>abstract="選擇新資料檢視將會導致該資料檢視的更新，以包含Content Analytics量度和維度。 如有必要，關聯的連線也會更新以包含Content Analytics資料集。 目前為Content Analytics設定的連線和資料檢視不會修改。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -276,7 +281,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning"
 >title="上線實施警告"
->abstract="這將部分根據您在此工作流程中提供的輸入來設定內容分析。 其他數個設定則是根據對內容分析通常有用的內容自動選擇。 建議您檢閱每個成品的設定，以確認符合您的需求和准則。 <br/><br/>請注意，在手動發佈與此組態關聯的標籤程式庫之前，不會收集任何資料。<br/><br/>另請注意，為了衍生影像和文字的屬性，Adobe會使用使用者造訪時擷取的URL，根據您實作的資料收集設定來擷取這些屬性。"
+>abstract="如果您選取&#x200B;**[!UICONTROL 實作]**，您將根據在此工作流程中提供的輸入來設定內容分析。 根據內容分析的一般實用內容，預設會選擇數個設定，但您（身為資料控管單位）必須檢閱每個成品的設定，以確認這些設定是否根據您的隱私權原則、合約權利與義務，以及適用法律下的同意要求實施。<br/><br/>請注意，必須先手動發佈與這個設定相關聯的標籤庫，才能開始收集資料。<br/><br/>為了衍生影像和文字的屬性，Adobe將以下列方式擷取屬性：<ol><li>根據您已設定的資料收集設定，以及在使用者網站造訪時擷取的URL，以及</li><li>託管影像的URL。</li></ol>您不得標籤由協力廠商網站託管的影像。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -285,27 +290,25 @@ ht-degree: 19%
 
 * **[!UICONTROL 捨棄]**：建立新組態或編輯現有組態時所做的所有變更都會被捨棄。
 * **[!UICONTROL 儲存以供稍後使用]**：會儲存對新的組態或現有、尚未實作的組態所做的變更。 您可在稍後階段重新造訪設定，以進一步變更或實施設定。
-* **[!UICONTROL 實作]**：已儲存並實作對新的組態或現有、尚未實作的組態所做的變更。 實施包含：
+* **[!UICONTROL 實作]**：儲存並實作新組態或現有但尚未實作的組態的設定或變更。 實施包含：
    * **[!UICONTROL Adobe Experience Platform]**&#x200B;設定：
-      1. 建立結構描述以建立Content Analytics事件、資產屬性和（如果已設定）體驗屬性的模型。
-      1. 建立資料集以收集Content Analytics事件、資產屬性和（如果已設定）體驗屬性。
-      1. 建立資料流，使用功能化服務從Content Analytics事件產生和更新內容屬性。
-   * **[!UICONTROL 內容分析]**&#x200B;設定：
-      * 根據組態設定功能化組合器程式。
-   * **[!UICONTROL Customer Journey Analytics]**&#x200B;設定：
-      1. 選取的資料檢視已更新，其中包含Content Analytics維度和量度。
-      1. 繫結至所選資料檢視的連線已修改，以包含Content Analytics事件和屬性資料集。
-      1. Workspace已新增Content Analytics報表範本。
+      * 建立結構描述以建立Content Analytics事件、資產屬性和（如果已設定）體驗屬性的模型。
+      * 建立資料集以收集Content Analytics事件、資產屬性和（如果已設定）體驗屬性。
+      * 建立資料流，使用功能化服務從Content Analytics事件產生和更新內容屬性。
    * **[!UICONTROL 資料彙集]**&#x200B;組態：
-      1. 新的或現有的標籤屬性已設定為支援內容分析資料收集。 此設定表示包含標籤的Adobe Content Analytics擴充功能。
-      1. 系統會為內容分析事件建立資料流。
-      1. Adobe Content Analytics擴充功能已設定為確保Content Analytics事件傳送至Content Analytics的資料流。
-      1. 如果沒有為Tags屬性設定Web SDK，則會建立新的Web SDK設定，以便僅傳送Content Analytics事件。
-      1. 如果針對此標籤屬性設定了網頁SDK，則不會對現有的網頁SDK設定進行任何變更。
+      * 新的或現有的標籤屬性已設定為支援內容分析資料收集。 此設定表示包含標籤的Adobe Content Analytics擴充功能。
+      * 系統會為內容分析事件建立資料流。
+      * Adobe Content Analytics擴充功能已設定為確保Content Analytics事件傳送至Content Analytics的資料流。
+      * 如果沒有為Tags屬性設定Web SDK，則會建立新的Web SDK設定，以便僅傳送Content Analytics事件。
+      * 如果針對此標籤屬性設定了網頁SDK，則不會對現有的網頁SDK設定進行任何變更。
+   * **[!UICONTROL Customer Journey Analytics]**&#x200B;設定：
+      * 選取的資料檢視已更新，其中包含Content Analytics維度和量度。
+      * 繫結至所選資料檢視的連線已修改，以包含Content Analytics事件和屬性資料集。
+      * 「內容分析」報告範本已新增至Workspace。
 * **[!UICONTROL 儲存]**：對實作組態所做的變更已儲存，且實作已更新。
 * **[!UICONTROL 結束]**。 退出引導式設定。 會捨棄對實作組態所做的所有變更。
 
 >[!MORELIKETHIS]
 >
->[手動設定內容分析](manual.md)
+>[手動設定](manual.md)
 >

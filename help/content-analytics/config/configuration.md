@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: cea253d3b1da080e6735989d59cc6eda44afc203
+source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '373'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 2%
 
 
 若要為貴組織設定內容分析，請使用內容分析[引導式設定](guided.md)。 設定精靈會引導您完成設定Content Analytics自動設定的必要條件的所有步驟。
+
+成功實作後，您可以使用引導式設定精靈進行一些變更。 不過，除此之外，可能還需要[手動變更](manual.md)。
 
 ## 先決條件
 
@@ -56,6 +58,8 @@ ht-degree: 2%
 >>
 [!MORELIKETHIS]
 >>
+* [引導式設定](guided.md)
+* [手動設定](manual.md)
 * [存取控制](/help/technotes/access-control.md)
 >
 
