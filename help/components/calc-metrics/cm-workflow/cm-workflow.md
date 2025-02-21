@@ -3,10 +3,10 @@ description: 瞭解如何建立計算量度。
 title: 建立計算量度
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: 8f3b30ca6d20d633669d7e9180884c24e0b9a52e
+source-git-commit: 17d3e8ed5986348bb4ba50822dfd9bb43d5a7570
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 0%
+source-wordcount: '224'
+ht-degree: 2%
 
 ---
 
