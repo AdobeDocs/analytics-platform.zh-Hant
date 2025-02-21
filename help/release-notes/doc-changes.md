@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c2e7b0595a719faa751e3cb39668006db0d89d48
-workflow-type: ht
-source-wordcount: '4402'
-ht-degree: 100%
+source-git-commit: 1283b285ff49225835abb8e7d8103f34aad686b1
+workflow-type: tm+mt
+source-wordcount: '4649'
+ht-degree: 95%
 
 ---
 
@@ -19,10 +19,17 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2025 年 2 月** |  |
+| 媒體收集：新媒體報告XDM的Adobe Source Connector更新 | Analytics Source Connector會自動將Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en)中的串流媒體資料[對應到Web SDK使用的相同欄位。 之前，資料會對應至舊位置和新位置，但日後僅會使用新位置。 |
+| BI擴充功能 — 擴充支援 | Customer Journey Analytics BI擴充功能現在支援[Looker、Jupyter Notebook和R Studio](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en)。 |
 | **2025 年 1 月** |  |
+| 更新的連線使用體驗 | 連線中的[使用](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections?lang=en#connections-usage)索引標籤現在能為以下這些類型的可報告列數提供增強的視覺效果：核心資料、擷取資料和歷史資料。您也可以依連線、資料集、沙箱或標籤來檢視及劃分使用資料。 |
 | 使用情況量度 | 有關已改善的[使用情況量度](/help/connections/manage-connections.md#usage)介面的更新文件。 |
 | 產品使用情況 | [產品使用情況](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/product-usage/usage-overview)呈現您組織使用 Customer Journey Analytics 的情形。 |
 | 引導式分析 | 已將文件更新為可從引導示分析內部使用[引導式分析](/help/guided-analysis/overview.md)。 |
+| 有關在Journey Optimizer的「報表」頁面上使用Customer Journey Analytics自訂範本的檔案 | 您現在可以在Adobe Journey Optimizer中自訂新的報表介面，方法是[在Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en)中建立或編輯範本，然後儲存範本以用於Journey Optimizer中的報表頁面。 過去，Adobe Journey Optimizer 中的新報告介面無法自訂。 |
+| Analysis Workspace中的範本 | [預先建立的範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates)和[公司範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/create-templates)現在可在Customer Journey Analytics中使用。 |
+| 智慧型字幕v2 | [智慧型字幕](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)現在支援下列視覺效果：多行、橫條、水準橫條、環形圖、區域、流量和流失。 您可以選擇在展開的檢視中一次顯示所有智慧型註解，或者可以在一個接一個的檢視中顯示個別的智慧型註解。 |
 
 ## 2024
 

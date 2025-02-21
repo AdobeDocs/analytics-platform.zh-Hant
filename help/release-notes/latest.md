@@ -3,10 +3,10 @@ title: 最新的 Customer Journey Analytics 發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: e6f86bf3dee81d70300cb26a1593d0e40966a63b
+source-git-commit: f61e3c1563187a4852734fcca5ffbd21b70849f0
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 61%
+source-wordcount: '254'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 61%
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **BI延伸模組 — 擴充支援** | Customer Journey Analytics BI擴充功能現在[支援Looker、Jupyter Notebook和R Studio](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases)。 |   | 2025年1月24日 |
-| **媒體集合：Adobe 來源連接器更新新的媒體報告 XDM** | Analytics 來源連接器會自動將 Adobe Analytics 中的串流媒體資料對應至 Web SDK 所使用的相同欄位。之前，資料會對應至舊位置和新位置，但日後僅會使用新位置。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | 2025 年 1 月 30 日 |
+| **媒體集合：Adobe 來源連接器更新新的媒體報告 XDM** | Analytics Source Connector會自動將Adobe Analytics中的串流媒體資料對應到Web SDK使用的相同欄位。 之前，資料會對應至舊位置和新位置，但日後僅會使用新位置。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | 2025 年 1 月 30 日 |
 
 
 ## Customer Journey Analytics 中的修正
