@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: ec0ea74df83bbd07b7e026d7b9d7114c7dc595ab
+source-git-commit: 82dacd2581450303b1b87d2a72f6f6ede987d367
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 19%
+source-wordcount: '2036'
+ht-degree: 18%
 
 ---
 
@@ -105,9 +105,14 @@ ht-degree: 19%
 >abstract="從 Customer Journey Analytics 中選取您想要與內容分析資料合併的現有資料視圖。<br/>"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_dataview_change"
->title="選取資料檢視"
+>id="aca_onboarding_dataview_change_content"
+>title="新資料檢視"
 >abstract="選擇新資料檢視將會導致該資料檢視的更新，以包含Content Analytics量度和維度。 如有必要，關聯的連線也會更新以包含Content Analytics資料集。 目前為Content Analytics設定的連線和資料檢視不會修改。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataview_change_title"
+>title="新資料檢視"
+>abstract="新資料檢視"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -144,12 +149,12 @@ ht-degree: 19%
 >abstract="收集 Content Analytics 中的體驗"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_experiences_url_header"
+>id="aca_onboarding_experiences_parameters_header"
 >title="經驗擷取與定義"
->abstract="指定以下參數適用的 URL"
+>abstract="指定用來判斷內容在您的網站上呈現方式的引數。"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_experiences_edit_button"
+>id="aca_onboarding_experiencecapture_edit_button"
 >title="經驗擷取與定義"
 >abstract="您可以在標記屬性中編輯與所選設定相關的 Adobe Content Analytics 擴充功能設定。"
 
@@ -194,7 +199,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
 >title="資料收集"
->abstract="提供標記屬性"
+>abstract="**提供標籤屬性**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_boldheader"
@@ -228,7 +233,7 @@ ht-degree: 19%
 
 <!-- markdownlint-enable MD034 -->
 
-#### 新設定
+#### 新設定 {#new-configuration}
 
 在新設定中，您需要定義您要使用哪個Tag屬性，或建立新的Tag屬性。 而且您需要使用規則運算式定義要包含或排除的頁面和資產。
 
@@ -256,7 +261,7 @@ ht-degree: 19%
    * 指定&#x200B;**[!UICONTROL 資產]**&#x200B;的規則運算式。 例如：`(?!.*\b(store|help|admin)\b)`。
 
 
-#### 現有設定
+#### 現有設定 {#existing-configuration}
 
 若為現有設定，則無法編輯Tag屬性。 但是，您可以編輯頁面和資產以包含或排除。
 
@@ -279,9 +284,19 @@ ht-degree: 19%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_implementation_warning"
+>id="aca_onboarding_implementation_warning_content"
 >title="上線實施警告"
 >abstract="如果您選取&#x200B;**[!UICONTROL 實作]**，您將根據在此工作流程中提供的輸入來設定內容分析。 根據內容分析的一般實用內容，預設會選擇數個設定，但您（身為資料控管單位）必須檢閱每個成品的設定，以確認這些設定是否根據您的隱私權原則、合約權利與義務，以及適用法律下的同意要求實施。<br/><br/>請注意，必須先手動發佈與這個設定相關聯的標籤庫，才能開始收集資料。<br/><br/>為了衍生影像和文字的屬性，Adobe將以下列方式擷取屬性：<ol><li>根據您已設定的資料收集設定，以及在使用者網站造訪時擷取的URL，以及</li><li>託管影像的URL。</li></ol>您不得標籤由協力廠商網站託管的影像。"
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_implementation_warning_title"
+>title="確認實作"
+>abstract="確認實作"
+
+<!-- markdownlint-enable MD034 -->
+
 
 <!-- markdownlint-enable MD034 -->
 
@@ -307,6 +322,11 @@ ht-degree: 19%
       * 「內容分析」報告範本已新增至Workspace。
 * **[!UICONTROL 儲存]**：對實作組態所做的變更已儲存，且實作已更新。
 * **[!UICONTROL 結束]**。 退出引導式設定。 會捨棄對實作組態所做的所有變更。
+
+
+## Publish {#publish}
+
+若要啟用您的內容分析設定，您必須[手動](manual.md)發佈在您選取&#x200B;**[!UICONTROL 實作]**&#x200B;之後所建立的Tag屬性，作為引導式設定精靈的一部分。
 
 >[!MORELIKETHIS]
 >
