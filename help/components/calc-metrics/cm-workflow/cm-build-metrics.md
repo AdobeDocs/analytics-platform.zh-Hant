@@ -3,9 +3,9 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建置計算量度
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1501'
 ht-degree: 11%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 11%
    | 元素 | 說明 |
    | --- | --- |
    | **[!UICONTROL 資料釋圖]** | 您可以選取計算量度的資料檢視。  根據所選的資料檢視，您定義的計算量度可用於Workspace專案中。 |
-   | **[!UICONTROL 僅限專案的量度]** | 資訊方塊，說明量度僅會顯示在建立該量度的專案中，且不會將該量度新增至您的元件清單中。 啟用&#x200B;**[!UICONTROL 讓此量度可用於您的所有專案，並將其新增至您的元件清單]**&#x200B;以變更該設定。 只有當您在Workspace中使用&#x200B;**[!UICONTROL 從選取範圍建立量度]**&#x200B;建立量度，並已選取函式（例如&#x200B;**[!UICONTROL 平均值]**&#x200B;或&#x200B;**[!UICONTROL 中位數]**）時，才會看到此資訊方塊。 稍後再使用[元件資訊](/help/components/use-components-in-workspace.md#component-info)來編輯該已建立的量度。 |
+   | **[!UICONTROL 僅限專案的量度]** | 編輯為單一專案建立的計算量度時，此對話方塊頂端會顯示資訊方塊，如[為單一專案建立計算量度](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)中所述。 <p>如果您想要讓此計算量度可用於所有專案，請選取&#x200B;**[!UICONTROL 讓此量度可用於所有專案，並將其新增至您的元件清單]**。</p> |
    | **[!UICONTROL 標題]**![Required](/help/assets/icons/Required.svg) | 為計算量度命名，例如`Conversion Rate`。 |
    | **[!UICONTROL 外部ID]** ![必要](/help/assets/icons/Required.svg) | 使用外部BI工具和BI擴充功能時計算量度的名稱。 除非您覆寫值，否則值會自動定義為`undefined_xxx`。 |
    | **[!UICONTROL 說明]** | 提供篩選的說明，例如，`Calculated metric to define the conversion rate.`。不需要說明計算量度的公式，因為公式已可在[!UICONTROL 摘要]中自動使用。 |
@@ -67,8 +67,8 @@ ht-degree: 11%
 1. 若要驗證您的計算量度定義是否正確，請使用持續更新的計算量度結果&#x200B;**[!UICONTROL 預覽]**。 **[!UICONTROL 預覽]**&#x200B;涵蓋過去90天，並持續評估您計算量度的定義。
 
    **[!UICONTROL 產品相容性]**&#x200B;指出計算量度是否可用於實驗。 可能的值包括：
-   * **[!UICONTROL Customer Journey Analytics中的所有位置]**：計算量度可在所有Customer Journey Analytics中使用。
-   * **[!UICONTROL Customer Journey Analytics中的所有位置（實驗除外）]**：計算度量可用於所有Customer Journey Analytics，實驗面板除外。
+   * **[!UICONTROL Customer Journey Analytics中的所有地方]**：計算量度可用於所有Customer Journey Analytics。
+   * **[!UICONTROL Customer Journey Analytics中的所有地方（實驗除外）]**：計算量度可在所有Customer Journey Analytics中使用，實驗面板除外。
 
 1. 選取：
    * **[!UICONTROL 儲存]**&#x200B;以儲存計算量度。
@@ -138,8 +138,8 @@ ht-degree: 11%
 
 * 若要從維度新增篩選器容器：
 
-   1. 將![Dimension](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimension]**&#x200B;元件從元件面板拖放到&#x200B;**[!UICONTROL 將量度、維度、維度專案、篩選器和/或函式拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
-   1. 在&#x200B;**[!UICONTROL 從Dimension]**&#x200B;快顯視窗建立篩選器，定義篩選條件。 從運運算元清單中選取，然後選取值或輸入值。 例如，**[!UICONTROL Month]** **[!UICONTROL 等於]** ![V形](/help/assets/icons/ChevronDown.svg) `Sep 2024`。
+   1. 將![維度](/help/assets/icons/Dimensions.svg) **[!UICONTROL 維度]**&#x200B;元件從元件面板拖放到&#x200B;**[!UICONTROL 將量度、維度、維度專案、篩選器和/或函式拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
+   1. 在&#x200B;**[!UICONTROL 從Dimension建立篩選器]**&#x200B;快顯視窗中，定義篩選條件。 從運運算元清單中選取，然後選取值或輸入值。 例如，**[!UICONTROL Month]** **[!UICONTROL 等於]** ![V形](/help/assets/icons/ChevronDown.svg) `Sep 2024`。
    1. 選取&#x200B;**[!UICONTROL 完成]**。 篩選器容器已新增至&#x200B;**[!UICONTROL 定義]**。
 
 
