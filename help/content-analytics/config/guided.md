@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 82dacd2581450303b1b87d2a72f6f6ede987d367
+source-git-commit: 023e7dda53cc60096076599d30a8dd78db1bfbd7
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2024'
 ht-degree: 18%
 
 ---
@@ -105,14 +105,9 @@ ht-degree: 18%
 >abstract="從 Customer Journey Analytics 中選取您想要與內容分析資料合併的現有資料視圖。<br/>"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_dataview_change_content"
+>id="aca_onboarding_dataview_change_dialog"
 >title="新資料檢視"
 >abstract="選擇新資料檢視將會導致該資料檢視的更新，以包含Content Analytics量度和維度。 如有必要，關聯的連線也會更新以包含Content Analytics資料集。 目前為Content Analytics設定的連線和資料檢視不會修改。"
-
->[!CONTEXTUALHELP]
->id="aca_onboarding_dataview_change_title"
->title="新資料檢視"
->abstract="新資料檢視"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -284,19 +279,9 @@ ht-degree: 18%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_implementation_warning_content"
->title="上線實施警告"
->abstract="如果您選取&#x200B;**[!UICONTROL 實作]**，您將根據在此工作流程中提供的輸入來設定內容分析。 根據內容分析的一般實用內容，預設會選擇數個設定，但您（身為資料控管單位）必須檢閱每個成品的設定，以確認這些設定是否根據您的隱私權原則、合約權利與義務，以及適用法律下的同意要求實施。<br/><br/>請注意，必須先手動發佈與這個設定相關聯的標籤庫，才能開始收集資料。<br/><br/>為了衍生影像和文字的屬性，Adobe將以下列方式擷取屬性：<ol><li>根據您已設定的資料收集設定，以及在使用者網站造訪時擷取的URL，以及</li><li>託管影像的URL。</li></ol>您不得標籤由協力廠商網站託管的影像。"
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="aca_onboarding_implementation_warning_title"
+>id="aca_onboarding_implementation_warning_dialog"
 >title="確認實作"
->abstract="確認實作"
-
-<!-- markdownlint-enable MD034 -->
-
+>abstract="如果您選取&#x200B;**[!UICONTROL 實作]**，您將根據在此工作流程中提供的輸入來設定內容分析。 根據內容分析的一般實用內容，預設會選擇數個設定，但您（身為資料控管單位）必須檢閱每個成品的設定，以確認這些設定是否根據您的隱私權原則、合約權利與義務，以及適用法律下的同意要求實施。<br/><br/>請注意，必須先手動發佈與這個設定相關聯的標籤庫，才能開始收集資料。<br/><br/>為了衍生影像和文字的屬性，Adobe將以下列方式擷取屬性：<ol><li>根據您已設定的資料收集設定，以及在使用者網站造訪時擷取的URL，以及</li><li>託管影像的URL。</li></ol>您不得標籤由協力廠商網站託管的影像。"
 
 <!-- markdownlint-enable MD034 -->
 
