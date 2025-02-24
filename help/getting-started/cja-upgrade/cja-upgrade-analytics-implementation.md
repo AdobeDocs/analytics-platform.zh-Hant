@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
-source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
+source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 27%
+source-wordcount: '940'
+ht-degree: 26%
 
 ---
 
@@ -79,6 +79,15 @@ ht-degree: 27%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-determine-implementation"
+>title="判斷您現有的實作類型"
+>abstract="在組織內部工作，決定您目前用來將資料傳送至Adobe Analytics的實作型別。 當您準備好移轉至Customer Journey Analytics時，與知道此資訊的個人或團隊合作。<br><br>在您決定組織使用的實作型別後，請修改問卷中的答案。"
+
+<!-- markdownlint-enable MD034 -->
+
 >[!NOTE]
 > 
 >在回答[Customer Journey Analytics升級檢查清單](https://gigazelle.github.io/cja-ttv/)中的問題時，使用此頁面上的資訊。
@@ -91,8 +100,8 @@ Adobe Analytics有多種實施方式。 升級至Customer Journey Analytics時�
 
 | 現有的Adobe Analytics實作 | 說明 | 可用的升級路徑 |
 |---------|----------|----------|
-| AppMeasurement | 適用於JavaScript的AppMeasurement向來是實施Adobe Analytics的常用方法。<p>如需此實作型別的詳細資訊，請參閱[使用JavaScript的AppMeasurement實作Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview)。</p> | <ul><li>[（建議）新實作Experience Platform Web SDK以進行持續資料收集；Analytics Source Connector用於歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[新的Experience Platform Web SDK實作](/help/data-ingestion/aepwebsdk.md) </li><li>將Adobe Analytics移轉至Web SDK</li><li>[Analytics Source Connector](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)</li></ul> |
-| Adobe Analytics擴充功能（標籤） | <p>Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部署 Analytics 程式碼以及其他標記需求。 Adobe 可與其他解決方案和產品整合，且您可部署自訂程式碼。您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。</p><p>如需此實作型別的詳細資訊，請參閱[使用Analytics擴充功能實作Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/launch/overview)。</p> | <ul><li>[（建議）新實作Experience Platform Web SDK以進行持續資料收集；Analytics Source Connector用於歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[新的Experience Platform Web SDK實作](/help/data-ingestion/aepwebsdk.md) </li><li>將Adobe Analytics移轉至Web SDK</li><li>[Analytics Source Connector](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)</li></ul> |
+| AppMeasurement | 適用於JavaScript的AppMeasurement向來是實施Adobe Analytics的常用方法。<p>如需此實作型別的詳細資訊，請參閱[使用JavaScript的AppMeasurement實作Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview)。</p> | <ul><li>[（建議）新實作Experience Platform Web SDK以進行持續資料收集；Analytics Source Connector用於歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[新的Experience Platform Web SDK實作](/help/data-ingestion/aepwebsdk.md) </li><li>將Adobe Analytics移轉至Web SDK</li><li>[Analytics Source Connector](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md)</li></ul> |
+| Adobe Analytics擴充功能（標籤） | <p>Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部署 Analytics 程式碼以及其他標記需求。 Adobe 可與其他解決方案和產品整合，且您可部署自訂程式碼。您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。</p><p>如需此實作型別的詳細資訊，請參閱[使用Analytics擴充功能實作Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/launch/overview)。</p> | <ul><li>[（建議）新實作Experience Platform Web SDK以進行持續資料收集；Analytics Source Connector用於歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[新的Experience Platform Web SDK實作](/help/data-ingestion/aepwebsdk.md) </li><li>將Adobe Analytics移轉至Web SDK</li><li>[Analytics Source Connector](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md)</li></ul> |
 | Experience Platform Web SDK (alloy.js) | Experience Platform Web SDK是Adobe目前建議的實施Adobe Analytics方法。 Adobe Experience Platform Edge Network可讓您將預計要送給多個產品的資料傳送到一個集中位置。 <p>如需此實作型別的詳細資訊，請參閱[使用Adobe Experience Platform Edge Network實作Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/overview)。</p> | <ul><li>[（建議）新實作Experience Platform Web SDK以進行持續資料收集；Analytics Source Connector用於歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[新的Experience Platform Web SDK實作](/help/data-ingestion/aepwebsdk.md) </li><li>設定Adobe Analytics Web SDK實作，將資料傳送至Platform</li></ul> |
 | Experience Platform Web SDK擴充功能（標籤） | Experience Platform Web SDK是Adobe目前建議用於為Web資料實作Adobe Analytics的方法。 Adobe Experience Platform Edge Network可讓您將預計要送給多個產品的資料傳送到一個集中位置。 <p>如需此實作型別的詳細資訊，請參閱[使用Adobe Experience Platform Web SDK實作Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/overview)</p> | <ul><li>[（建議）新實作Experience Platform Web SDK以進行持續資料收集；Analytics Source Connector用於歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[新的Experience Platform Web SDK實作](/help/data-ingestion/aepwebsdk.md)</li><li>設定Adobe Analytics Web SDK實作，將資料傳送至Platform</li></ul> |
 | Experience Platform Mobile SDK | Experience Platform Mobile SDK是Adobe目前為行動資料實作Adobe Analytics的建議方法。 Adobe Experience Platform Edge Network可讓您將預計要送給多個產品的資料傳送到一個集中位置。<p>Adobe Experience Platform Mobile SDK有助於在行動應用程式中強化Adobe的Experience Cloud解決方案和服務。 </p><p>如需此實作型別的詳細資訊，請參閱[使用Adobe Experience Platform Mobile SDK實作Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/mobile-sdk/overview)</p> | <ul><li>[（建議）新實作Experience Platform Web SDK以進行持續資料收集；Analytics Source Connector用於歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</li><li>[新的Experience Platform Web SDK實作](/help/data-ingestion/aepwebsdk.md) </li><li>設定Adobe Analytics Web SDK實作，將資料傳送至Platform</li></ul> |

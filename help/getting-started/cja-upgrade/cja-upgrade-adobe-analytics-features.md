@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 9d4d2419715308240d6e6c22751d8859eb34d474
+source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 60%
+source-wordcount: '482'
+ht-degree: 55%
 
 ---
 
@@ -31,6 +31,15 @@ ht-degree: 60%
 >id="cja-upgrade-activity-map"
 >title="Activity Map 覆蓋和連結追蹤"
 >abstract="一種瀏覽器擴充功能，可讓您在網站上查看以覆蓋形式顯示的連結追蹤資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-activity-map-support"
+>title="尚未提供Activity Map覆蓋圖支援"
+>abstract="Customer Journey Analytics尚未提供Activity Map覆蓋支援。 預計未來推出。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -76,6 +85,15 @@ ht-degree: 60%
 >id="cja-upgrade-streaming-media"
 >title="串流媒體資料"
 >abstract="Adobe Analytics 的附加元件，專門用於媒體的資料收集，例如音訊、視訊或串流內容。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-component-migration"
+>title="移轉專案和元件"
+>abstract="將Adobe Analytics專案及其相關元件帶入Customer Journey Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 

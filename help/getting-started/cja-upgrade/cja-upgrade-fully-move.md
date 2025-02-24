@@ -7,21 +7,21 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 9d4d2419715308240d6e6c22751d8859eb34d474
+source-git-commit: 9cfe89aef069d777424eb8a5d9ef8ae03a9d0486
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 19%
+source-wordcount: '936'
+ht-degree: 13%
 
 ---
 
-# 評估升級至 Customer Journey Analytics 後需要使用 Adobe Analytics 多長的時間 {#evaluate-aa-needs}
+# 評估升級至Customer Journey Analytics後何時停用Adobe Analytics {#evaluate-aa-needs}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-fully-move"
 >title="完全轉移至 Customer Journey Analytics"
->abstract="(建議) Customer Journey Analytics 志在成為您組織的主要分析工具。但是，如果您的組織重度依賴 Adobe Analytics 的獨特功能且那些相關的工作流程無法變動，則您的組織可能仍然需要 Adobe Analytics。"
+>abstract="（建議） Adobe建議您從Adobe Analytics完全轉換至Customer Journey Analytics。 在轉換期間，您應規劃搭配Customer Journey Analytics執行Adobe Analytics，以執行並排資料比較。 當您熟悉資料後，可以停用Adobe Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 

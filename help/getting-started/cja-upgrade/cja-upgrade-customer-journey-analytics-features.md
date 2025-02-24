@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f4440148d26e81938d029d4a077cd787c868f1be
+source-git-commit: 74719504960f00f4593633bb62f29d8655cdadd9
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 54%
+source-wordcount: '482'
+ht-degree: 34%
 
 ---
 
@@ -33,6 +33,51 @@ ht-degree: 54%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-stitch-customer-care"
+>title="聯絡Adobe客戶服務以產生彙整資料集"
+>abstract="如果您的欄位含有存在於多個資料集中的識別碼，但不是主要識別碼，您可以使用它來產生具有一致識別碼的新資料集。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-integrate-rtcdp"
+>title="與Real-time CDP整合"
+>abstract="結合來自多個來源的設定檔資料，以根據使用者特徵產生對象和區段。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-integrate-target"
+>title="暫時與Adobe Target整合"
+>abstract="Adobe建議與Adobe Journey Optimizer整合，以利個人化使用案例。 您可以整合Adobe Target，但這是臨時解決方案。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-integrate-ajo"
+>title="整合Journey Optimizer"
+>abstract="為客戶提供連結、情境式和個人化的體驗。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-integrate-aam"
+>title="暫時與 Adobe Audience Manager 整合"
+>abstract="Adobe建議針對以受眾為基礎的使用案例，與Adobe Real-time CDP整合。 您可以整合Audience Manager，但這是臨時解決方案。"
+
+<!-- markdownlint-enable MD034 -->
+
 >[!NOTE]
 > 
 >在回答[Customer Journey Analytics升級檢查清單](https://gigazelle.github.io/cja-ttv/)中的問題時，使用此頁面上的資訊。
@@ -45,7 +90,9 @@ ht-degree: 54%
 |---------|----------|
 | [將網路資料與其他管道的資料連結，例如客服中心資料](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料結構描述和類型。使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-hant)，能以統一方式呈現和組織資料，可進行組合和探索。Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=zh-hant)的功能。 |
 | 使用自訂維度[拼接其他資料集的點選](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview) | Customer Journey Analytics 可讓您[組合多個報告套件的資料](/help/connections/combined-dataset.md)，如同 Adobe Analytics 中的單一報告套件。 |
-| 與Adobe Real-time CDP整合 |  |
-| [與Adobe Journey Optimizer整合](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) |  |
+| [與Adobe Real-time CDP整合](/help/components/audiences/audiences-overview.md) | 您可以[建立在Customer Journey Analytics中發現的對象](/help/components/audiences/audiences-overview.md)，並將其發佈到Adobe Experience Platform中的即時客戶個人檔案，以用於客戶目標定位和個人化。 |
+| [暫時與Adobe Target (A4T)整合](/help/integrations/at.md) | Customer Journey Analytics中的Target報告功能可讓您直接在Customer Journey Analytics中[測量及報告Adobe Target活動](/help/integrations/at.md)。 |
+| [與Adobe Journey Optimizer整合](/help/integrations/ajo.md) | 您可以將Journey Optimizer產生的資料設定為[在Customer Journey Analytics中執行進階分析](/help/integrations/ajo.md)。 |
+| 暫時與 Adobe Audience Manager 整合 |  |
 
 

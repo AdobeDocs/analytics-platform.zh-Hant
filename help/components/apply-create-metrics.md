@@ -4,9 +4,9 @@ title: 量度
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 1ffe01609b3ab0d96b79cc9297dda9ccf25bcbb6
+source-git-commit: defe6ad6fc796a230525ba9b178d744caf340e2f
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '864'
 ht-degree: 8%
 
 ---
@@ -43,11 +43,11 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 ## 比較不同歸因模型的量度
 
-如果您想要輕鬆快速地比較量度的一個歸因模型與另一個歸因模型，請從量度的內容功能表中選取&#x200B;**[!UICONTROL 比較歸因模型]**。
+若要快速比較量度的一個歸因模型與另一個歸因模型，請從量度的內容功能表中選取&#x200B;**[!UICONTROL 比較歸因模型]**。
 
 ![Workspace面板醒目提示比較歸因模型](assets/compare-attribution.png)
 
-此快速鍵可讓您快速輕鬆比較歸因模型。
+此快速鍵可讓您比較不同的歸因模型，而無須再次拖曳量度和進行設定。
 
 ## 建立計算量度
 

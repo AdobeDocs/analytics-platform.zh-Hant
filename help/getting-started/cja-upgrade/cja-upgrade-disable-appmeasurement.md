@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 71b9da74-3597-4536-9e47-f18097dd917b
-source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
+source-git-commit: 9cfe89aef069d777424eb8a5d9ef8ae03a9d0486
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 50%
+source-wordcount: '201'
+ht-degree: 43%
 
 ---
 
-# 停用 AppMeasurement 資料彙集 {#disable-appmeasurement}
+# 停用Adobe Analytics {#disable-appmeasurement}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -31,7 +31,7 @@ ht-degree: 50%
 >
 >完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
 
-<!-- need to work on this -->
+在停用Adobe Analytics之前，請檢閱[中的資訊評估在升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)之後何時停用Adobe Analytics。
 
 * **標籤：**&#x200B;停用Adobe Analytics擴充功能
 

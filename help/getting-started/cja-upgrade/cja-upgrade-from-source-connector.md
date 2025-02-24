@@ -7,7 +7,7 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: a462bdbff59e8d83d6948ef882e66690624c4847
+source-git-commit: 892dffd831abd46c44c12bd6743a358e3cbd741d
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 15%
@@ -29,13 +29,13 @@ ht-degree: 15%
 > 
 >在回答[Customer Journey Analytics升級檢查清單](https://gigazelle.github.io/cja-ttv/)中的問題時，使用此頁面上的資訊。
 
-使用Analytics來源聯結器作為Customer Journey Analytics的唯一實作時，有其固有的缺點。
+使用Analytics來源聯結器當作Customer Journey Analytics的唯一實作時，有其固有的缺點。
 
-如果您的組織已升級為僅使用Analytics來源聯結器實作的Customer Journey Analytics，Adobe建議轉換為使用Analytics來源聯結器的實作（適用於歷史資料），並搭配使用Web SDK的新實作（適用於持續的資料收集）。
+如果您的組織已僅使用Analytics來源聯結器實作升級至Customer Journey Analytics，Adobe建議轉換為使用Analytics來源聯結器的實作（針對歷史資料），並搭配使用Web SDK的新實作（針對持續的資料收集）。
 
 ## 瞭解僅使用Analytics來源聯結器的優缺點
 
-如需有關使用Analytics來源聯結器的優點的資訊，請參閱[僅使用Analytics來源聯結器升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-exclusively.md)。
+如需有關使用Analytics來源聯結器的優點的資訊，請參閱[僅使用Analytics來源聯結器升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md)。
 
 ## 從Analytics來源聯結器轉換至Web SDK
 
@@ -66,7 +66,7 @@ ht-degree: 15%
 
    如需詳細資訊，請參閱[將資料集從您目前的Analytics來源聯結器新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)。
 
-1. （條件式）如果您使用查詢資料集，則必須建立查詢資料集並將其新增至您的連線。 如需詳細資訊，請參閱[建立查詢資料集以分類Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)中的資料。
+1. （條件式）如果您使用查詢資料集，則必須建立查詢資料集並將其新增至您的連線。 如需詳細資訊，請參閱[在Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)中建立查詢資料集以分類資料。
 
 1. 刪除您原始的Analytics來源聯結器。<!-- need to add steps somewhere about how to do this -->
 
