@@ -4,10 +4,10 @@ description: 自由表格是 Analysis Workspace 中資料分析的基礎
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 141c95b23695c09dd194c61c7cef0ce34e05ac33
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -103,7 +103,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 | **[!UICONTROL 將專案下載為CSV檔（*維度名稱*）]** | 立即將視覺效果的維度專案（最多50,000個）下載到您的本機裝置。 所選維度最多50,000個維度專案。 |
 | **[!UICONTROL 複製視覺效果]** | 複製視覺效果，以便將視覺效果插入專案內另一個位置或完全不同的專案中。 |
 | **[!UICONTROL 下載資料CSV]** | 立即將視覺效果顯示的資料下載至本機裝置。 |
-| **[!UICONTROL 匯出完整資料表……]** | 將完整表格匯出至指定的雲端位置。 請參閱[將Customer Journey Analytics報告匯出至雲端](../../export/export-cloud.md) |
+| **[!UICONTROL 匯出完整資料表……]** | 將完整表格匯出至指定的雲端位置。 請參閱[將Customer Journey Analytics報表匯出至雲端](../../export/export-cloud.md) |
 | **[!UICONTROL 重複的視覺效果]** | 將視覺效果精確複製。 |
 | **[!UICONTROL 編輯描述]** | 新增（或編輯）視覺效果的文字說明。 請參閱[文字](../text.md)。 |
 | **[!UICONTROL 取得視覺效果連結]** | 直接複製並共用視覺效果的連結。 共用連結對話方塊會顯示連結。 選取「複製」 ，將連結複製到剪貼簿。 |
@@ -112,7 +112,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 
 >[!MORELIKETHIS]
 >
->[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
