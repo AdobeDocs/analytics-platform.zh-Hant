@@ -4,10 +4,10 @@ title: 量度和客群會籍的一致性
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: 7c906e30d54362713f5013c8661ee523938d4b0f
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 88%
 
 ---
 
@@ -18,13 +18,12 @@ ht-degree: 100%
 
 在比較 Real-time CDP 與 Customer Journey Analytics 之間的客群會籍數時，一定要牢記這兩個工具有不同的用途。Real-time CDP 使用客戶輪廓資料來針對個別消費者提供數位體驗，而 Customer Journey Analytics 的設計目的則是幫助使用者了解關鍵商業量度和區段的模式。雖然從 Customer Journey Analytics 到 Real-time CDP 的客群發佈可讓這些工具的使用者利用在 Customer Journey Analytics 中獲得的知識，以原生方式輕鬆地「啟用」深入分析，但這些工具還是有截然不同的用途。
 
-## 身分設定的差異
+## 身分識別設定的差異
 
-Real-time CDP 和 Customer Journey Analytics 目前對個人的定義不同。Real-time CDP 完全仰賴[識別圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html)中的資訊來建立合併的輪廓。
+Real-time CDP 和 Customer Journey Analytics 目前對個人的定義不同。Real-time CDP 完全仰賴[身分識別圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html)中的資訊來建立合併的輪廓。
 
-Customer Journey Analytics 可設定為使用[拼接](../stitching/overview.md)，以便從資料湖中的資料集擷取識別碼，並套用自訂邏輯將它們連結在一起。
+Customer Journey Analytics可設定為使用[拼接](../stitching/overview.md)。 如果您使用[依欄位彙整](/help/stitching/fbs.md)作為拼接機制，則需從資料湖的資料集指定識別碼，以拼接該資料集中的資料，並使用改良的合併設定檔來提升資料集。 如果您使用[以圖表為基礎的彙整](/help/stitching/gbs.md)做為彙整機制，則類似的程式會根據指定的身分名稱空間使用身分圖表。
 
-未來，Customer Journey Analytics 能夠使用識別圖。
 
 ## 資料集設定的差異
 
