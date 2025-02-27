@@ -4,9 +4,9 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1893'
 ht-degree: 11%
 
 ---
@@ -234,7 +234,7 @@ Journey Canvas提供在Journey Optimizer中無法提供的深入徹底分析。
 
 ### Journey Optimizer和Customer Journey Analytics之間的術語差異
 
-Journey Optimizer中代表一件事的特定辭彙在Customer Journey Analytics中代表其他意義。 使用歷程畫布時，會使用Customer Journey Analytics詞語。
+Journey Optimizer中代表一件事的特定字詞，在Customer Journey Analytics中代表其他事物。 使用歷程畫布時，會使用Customer Journey Analytics術語。
 
 | 詞語 | 歷程畫布 | Journey Optimizer |
 |---------|----------|---------|
@@ -247,3 +247,9 @@ Journey Optimizer中代表一件事的特定辭彙在Customer Journey Analytics�
 ## 在Journey Canvas中建立分析
 
 您可以在Journey Canvas中建立以Analysis Workspace中可用的任何維度或量度為基礎的分析。 或者，您也可以分析在Journey Optimizer中建立的歷程。 如需詳細資訊，請參閱[設定Journey Canvas視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+
+
+>[!MORELIKETHIS]
+>
+> * [Adobe Customer Journey Analytics中的Journey Canvas視覺效果指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
+

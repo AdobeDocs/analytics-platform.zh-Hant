@@ -5,10 +5,10 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 93%
+source-wordcount: '991'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓�
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis： Analytics for the Experience Business](https://video.tv.adobe.com/v/30090/?quality=12&learn=on){target="_blank"}，以取得Customer Journey Analytics的簡介影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis：體驗經濟適用的 Analytics](https://video.tv.adobe.com/v/30090/?quality=12&learn=on){target="_blank"}，觀看 Customer Journey Analytics 的介紹影片。
 
 >[!ENDSHADEBOX]
 
@@ -82,27 +82,30 @@ Customer Journey Analytics 中的數項功能已重新命名 (與傳統 Adobe An
 
 Customer Journey Analytics 是依賴 Adobe Experience Platform 的許多功能之一。同樣以 Experience Platform 為基礎的其他幾項功能可讓您充份運用您的資料。
 
-Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶資料與內容，並運用資料科學和機器學習技術來改善個人化體驗的設計和傳遞。Platform 中的客戶資料以資料集形式儲存，而資料集是由結構描述和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/tw/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
+Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶資料與內容，並運用資料科學和機器學習技術來改善個人化體驗的設計和傳遞。Platform 中的客戶資料以資料集形式儲存，而資料集是由結構描述和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
 
 Experience Platform 的多個元件 (從資料擷取到直接 SQL 存取) 是 Customer Journey Analytics 的核心，且可對其進行補充：
 
-* [Experience Platform Query Service](https://experienceleague.adobe.com/tw/docs/experience-platform/query/home.html?lang=zh-Hant)：使用標準 SQL 從 Adobe Experience Platform 擷取資料，例如 Adobe 解決方案資料、客戶第一方資料或任何其他 Platform 資料。這是一種無伺服器工具，可用來加入任何資料集，以及將查詢結果擷取為新資料集，並用於報表或內嵌至 Profile Service。您可以使用 Experience Platform Query Service 來建立資料分析生態系統，進而瞭解消費者在不同互動管道中的行為。這些頻道可能包括銷售點系統、網路、行動裝置、CRM 系統等。
-* [即時客戶輪廓](https://experienceleague.adobe.com/tw/docs/experience-platform/profile/home.html?lang=zh-Hant)：
-* [身分識別服務](https://experienceleague.adobe.com/tw/docs/experience-platform/identity/home.html?lang=zh-Hant)
+* [Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)：使用標準 SQL 從 Adobe Experience Platform 擷取資料，例如 Adobe 解決方案資料、客戶第一方資料或任何其他 Platform 資料。這是一種無伺服器工具，可用來加入任何資料集，以及將查詢結果擷取為新資料集，並用於報表或內嵌至 Profile Service。您可以使用 Experience Platform Query Service 來建立資料分析生態系統，進而了解消費者在不同互動管道中的行為。這些頻道可能包括銷售點系統、網路、行動裝置、CRM 系統等。
+* [即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)：
+* [身分識別服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)
 
 ## 影片
 
-
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用Customer Journey Analytics](https://video.tv.adobe.com/v/32112/?quality=12&learn=on){target="_blank"}中的資料，以取得介紹影片，瞭解如何使用Customer Journey Analytics中的資料。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Customer Journey Analytics 中處理資料](https://video.tv.adobe.com/v/32112/?quality=12&learn=on){target="_blank"}，觀看介紹影片並了解如何在 Customer Journey Analytics 中處理資料。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [架構與整合](https://video.tv.adobe.com/v/32483/?quality=12&learn=on){target="_blank"}，以取得有關Customer Journey Analytics架構與整合的簡介影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [架構與整合](https://video.tv.adobe.com/v/32483/?quality=12&learn=on){target="_blank"}，觀看介紹影片並了解 Customer Journey Analytics 的架構與整合。
 
 >[!ENDSHADEBOX]
 
+* [分析師適用的Adobe Customer Journey Analytics當機課程](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
 
+* [最佳化您的心態集和Adobe Customer Journey Analytics工作流程：適用於所有規模組織的團隊模型](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
+
+* [建立組織整備：以人為本縮放Adobe Customer Journey Analytics指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)

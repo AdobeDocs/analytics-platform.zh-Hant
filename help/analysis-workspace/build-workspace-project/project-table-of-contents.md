@@ -5,9 +5,9 @@ title: 目錄
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '200'
 ht-degree: 4%
 
 ---
@@ -42,3 +42,8 @@ ht-degree: 4%
    選取的視覺效果會自動捲動至並短暫反白。
 
    ![TOC已反白顯示](assets/toc-highlighted.png)
+
+
+>[!MORELIKETHIS]
+>
+>* [使用Adobe Analytics中的新目錄功能簡化儀表板導覽](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
