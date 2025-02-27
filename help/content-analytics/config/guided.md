@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 4650718a067f68d4edfad3db71e822898f661648
+source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
 workflow-type: tm+mt
-source-wordcount: '2024'
-ht-degree: 18%
+source-wordcount: '2097'
+ht-degree: 27%
 
 ---
 
@@ -106,8 +106,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
->title="新資料檢視"
->abstract="選擇新資料檢視將會導致該資料檢視的更新，以包含Content Analytics量度和維度。 如有必要，關聯的連線也會更新以包含Content Analytics資料集。 目前為Content Analytics設定的連線和資料檢視不會修改。"
+>title="新資料視圖"
+>abstract="選擇新資料視圖，會更新該資料視圖並包含 Content Analytics 量度和維度。若有必要，相關連線也會更新並包含 Content Analytics 資料集。目前已針對 Content Analytics 進行設定的連線和資料視圖並未修改。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -146,7 +146,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_parameters_header"
 >title="經驗擷取與定義"
->abstract="指定用來判斷內容在您的網站上呈現方式的引數。"
+>abstract="指定用來判斷內容在網站上如何轉譯的參數。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
@@ -179,7 +179,7 @@ ht-degree: 18%
 
 ![Content Analytics組態體驗擷取與定義](../assets/aca-configuration-experience-edit.png)
 
-* 選取「![編輯](/help/assets/icons/Edit.svg)編輯」以編輯與所選設定相關聯之Tag屬性中Adobe Content Analytics擴充功能的引數。
+* 選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**，以編輯與所選組態關聯之Tag屬性中[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)的引數。
 
 
 ### 資料收集 {#onboarding-data-collection}
@@ -194,7 +194,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
 >title="資料收集"
->abstract="**提供標籤屬性**"
+>abstract="**提供標記屬性**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_boldheader"
@@ -260,9 +260,9 @@ ht-degree: 18%
 
 若為現有設定，則無法編輯Tag屬性。 但是，您可以編輯頁面和資產以包含或排除。
 
-* 若要編輯在收集內容分析資料時應包含或排除哪些頁面，請在&#x200B;**[!UICONTROL 體驗]**&#x200B;下方選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
+* 若要編輯在收集內容分析資料時應包含或排除哪些頁面，請在&#x200B;**[!UICONTROL 體驗]**&#x200B;下方選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。 系統會將您重新導向至與您Content Analytics設定的Tag屬性相關聯的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)。 您可以編輯規則運算式，以包含或排除頁面。 請確定您[發佈](manual.md#publish)您的變更。
 
-* 若要編輯在收集內容分析資料時應包含或排除哪些資產，請選取&#x200B;**[!UICONTROL 資產]**&#x200B;下方的![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
+* 若要編輯在收集內容分析資料時應包含或排除哪些資產，請選取&#x200B;**[!UICONTROL 資產]**&#x200B;下方的![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。 系統會將您重新導向至與您Content Analytics設定的Tag屬性相關聯的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)。 您可以編輯規則運算式，以包含或排除資產。 請確定您[發佈](manual.md#publish)您的變更。
 
 ### 摘要 {#summary}
 
@@ -280,8 +280,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning_dialog"
->title="確認實作"
->abstract="如果您選取&#x200B;**[!UICONTROL 實作]**，您將根據在此工作流程中提供的輸入來設定內容分析。 根據內容分析的一般實用內容，預設會選擇數個設定，但您（身為資料控管單位）必須檢閱每個成品的設定，以確認這些設定是否根據您的隱私權原則、合約權利與義務，以及適用法律下的同意要求實施。<br/><br/>請注意，必須先手動發佈與這個設定相關聯的標籤庫，才能開始收集資料。<br/><br/>為了衍生影像和文字的屬性，Adobe將以下列方式擷取屬性：<ol><li>根據您已設定的資料收集設定，以及在使用者網站造訪時擷取的URL，以及</li><li>託管影像的URL。</li></ol>您不得標籤由協力廠商網站託管的影像。"
+>title="確認實施"
+>abstract="如果您選擇「**[!UICONTROL 實施]**」，將會根據您在此工作流程中提供的輸入來設定 Content Analytics。系統會根據一般適用於 Content Analytics 的情況預設選擇若干設定，但是您 (作為資料控制者) 必須檢查每個成品的設定，確認所實施的設定均遵守您的隱私權原則、合約權利與義務以及適用法律規定的同意要求。<br/><br/>請注意，您必須先手動發佈與這個設定相關聯的標記庫，才能開始彙集資料。<br/><br/>為了提取圖像和文字的屬性，Adobe 將使用以下方式獲取屬性：<ol><li>根據所設定的資料彙集設定，在使用者造訪網站時所擷取的 URL，以及</li><li>託管圖像的 URL。</li></ol>您不可以標記託管在第三方網站上的圖像。"
 
 <!-- markdownlint-enable MD034 -->
 

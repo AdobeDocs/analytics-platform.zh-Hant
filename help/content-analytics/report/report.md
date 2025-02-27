@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 7542e7a402c8e2f8d6e4c1e624f04ceb752cc27e
+source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. [建立新的](/help/analysis-workspace/build-workspace-project/create-projects.md)或[在Workspace中開啟現有的](/help/analysis-workspace/build-workspace-project/open-projects.md)專案。
 1. 將![表格](/help/assets/icons/Table.svg) [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺效果拖曳到畫布上。
-1. 使用特定的Content Analytics維度和量度以及其他一般[元件](/help/components/overview.md) （如篩選器、日期範圍、註解）來建置您的內容分析深入分析。
+1. 使用[特定的Content Analytics元件](components.md)和其他一般[元件](/help/components/overview.md) （如篩選器、日期範圍、註解）來建置您的內容分析深入分析。
 
 ## 縮圖
 
@@ -49,7 +49,7 @@ ht-degree: 0%
   |---|---|
   | ![內容分析體驗預覽](../assets/aca-experience-preview.png) | ![Content Analytics資產預覽](../assets/aca-asset-preview.png) |
   | **[!UICONTROL 體驗的名稱]** | **[!UICONTROL 資產的名稱]** |
-  | **[!UICONTROL 曝光次數（所有時間）]**：體驗的曝光次數。 | **[!UICONTROL 曝光次數（所有時間）]**：資產的曝光次數。 |
+  | **[!UICONTROL 曝光次數（所有時間）]**：體驗的曝光次數。 | **[!UICONTROL 曝光次數（所有mes）]**：資產的曝光次數。 |
   | **[!UICONTROL Assets]**：此體驗包含的資產數目。 選取![劃分](/help/assets/icons/Breakdown.svg)劃分以檢查資產。 | **[!UICONTROL 體驗]**：此資產顯示所在的體驗數目。 [劃分](/help/assets/icons/Breakdown.svg)以檢查資產。 |
   | **[!UICONTROL 第一印象]**：體驗的第一印象日期。 | **[!UICONTROL 第一印象]**：資產第一印象的日期。 |
   | **[!UICONTROL 最近曝光]**：體驗最近曝光的日期。 | **[!UICONTROL 最近曝光次數]**：資產最近曝光的日期。 |

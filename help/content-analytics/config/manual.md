@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 20214cbebd9867a269c96f25f1a2c8b3bfa26a35
+source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '156'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ## Publish
 
-若要啟用Content Analytics設定，您必須發佈關聯的標籤屬性。
+若要啟用Content Analytics設定，您需要[發佈](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}關聯的標籤屬性。 只有在您發佈Content Analytics標籤屬性時，系統才會收集您已設定的網域、體驗和資產的Content Analytics資料
 
 
 ## 修改
@@ -37,4 +37,5 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >[引導式設定](guided.md)
+>[資料收集標籤發佈概觀](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
 >
