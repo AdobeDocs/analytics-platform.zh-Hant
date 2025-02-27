@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
-source-git-commit: d2d945724e7972bd4a29fa13291577bb76288229
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 9%
+source-wordcount: '237'
+ht-degree: 10%
 
 ---
 
@@ -25,9 +25,7 @@ ht-degree: 9%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->在回答[Customer Journey Analytics升級檢查清單](https://gigazelle.github.io/cja-ttv/)中的問題時，使用此頁面上的資訊。
+{{upgrade-note}}
 
 建議的從Adobe Analytics以外的分析解決方案升級為Customer Journey Analytics的程式，是Experience Platform Web SDK的新實作，這是Customer Journey Analytics慣用的資料收集方法。 結合使用Web SDK時，Adobe也建議將協力廠商分析解決方案的歷史資料擷取至Adobe Experience Platform。
 

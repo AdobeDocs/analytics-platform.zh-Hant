@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 35%
+source-wordcount: '1631'
+ht-degree: 37%
 
 ---
 
@@ -25,11 +25,7 @@ ht-degree: 35%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
->
->完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
+{{upgrade-note-step}}
 
 在[建立標籤並新增Web SDK擴充功能](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)後，您必須根據您想要追蹤網站及傳送資料至Adobe Experience Platform的方式，使用資料元素和規則來設定標籤。 為標籤設定資料元素和規則後，您就可以建置並發佈標籤。
 

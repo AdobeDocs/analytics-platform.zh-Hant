@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 9%
+source-wordcount: '810'
+ht-degree: 10%
 
 ---
 
@@ -25,11 +25,7 @@ ht-degree: 9%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
->
->完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
+{{upgrade-note-step}}
 
 查詢資料集與 Adobe Analytics 中的分類資料類似，是在 Customer Journey Analytics 中進行資料分類的方法。
 

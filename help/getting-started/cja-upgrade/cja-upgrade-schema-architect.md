@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 971600fcc7d8a5aac4ad39812ab4a7af69d45ccc
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 24%
+source-wordcount: '460'
+ht-degree: 28%
 
 ---
 
@@ -25,11 +25,7 @@ ht-degree: 24%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
->
->完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
+{{upgrade-note-step}}
 
 Adobe建議建立自訂Experience Data Model (XDM)結構描述，以便在從Adobe Analytics升級至Customer Journey Analytics時與Web SDK搭配使用。 或者，您也可以使用預設的Adobe Analytics結構描述，此結構描述會使用Adobe Analytics ExperienceEvent欄位群組。
 

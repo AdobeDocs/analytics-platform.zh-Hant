@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 382d2b00-939a-4fff-be02-7a98d457a455
-source-git-commit: bb87226ee4b9acc433031f41997d403d49f48db3
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 33%
+source-wordcount: '315'
+ht-degree: 40%
 
 ---
 
@@ -25,11 +25,7 @@ ht-degree: 33%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
->
->完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
+{{upgrade-note-step}}
 
 您可以使用Adobe Experience Platform中的標籤功能，在您的網站上實作程式碼以收集資料。 此標記管理解決方案可讓您部署程式碼以及其他標記需求。 標籤可使用 Adobe Experience Platform Web SDK 擴充功能與 Adobe Experience Platform 緊密整合。
 

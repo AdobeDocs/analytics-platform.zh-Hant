@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 92053109-f80d-47ab-b011-c28a5411149c
-source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
+source-git-commit: 4f6b5531578fbc4ae0eef5dc4fb46c3c1b548417
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 55%
+source-wordcount: '469'
+ht-degree: 52%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="串流媒體資料"
->abstract="Adobe Analytics 的附加元件，專門用於媒體的資料收集，例如音訊、視訊或串流內容。"
+>abstract="Adobe Analytics和Customer Journey Analytics的附加元件，專門處理媒體的資料收集，例如音訊、視訊或串流內容。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -97,9 +97,7 @@ ht-degree: 55%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->在回答[Customer Journey Analytics升級檢查清單](https://gigazelle.github.io/cja-ttv/)中的問題時，使用此頁面上的資訊。
+{{upgrade-note}}
 
 以下清單只顯示升級至Customer Journey Analytics過程中需要考量的Adobe Analytics功能。 如需顯示Customer Journey Analytics完全支援、部分支援或不支援哪些Adobe Analytics功能的完整清單，請參閱[Customer Journey Analytics功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。
 

@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 74719504960f00f4593633bb62f29d8655cdadd9
+exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 34%
+source-wordcount: '465'
+ht-degree: 35%
 
 ---
 
@@ -78,9 +79,7 @@ ht-degree: 34%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->在回答[Customer Journey Analytics升級檢查清單](https://gigazelle.github.io/cja-ttv/)中的問題時，使用此頁面上的資訊。
+{{upgrade-note}}
 
 以下清單僅顯示升級過程中需要考慮的Customer Journey Analytics功能。 如需顯示Customer Journey Analytics完全支援、部分支援或不支援哪些Adobe Analytics功能的完整清單，請參閱[Customer Journey Analytics功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。
 
@@ -94,5 +93,3 @@ ht-degree: 34%
 | [暫時與Adobe Target (A4T)整合](/help/integrations/at.md) | Customer Journey Analytics中的Target報告功能可讓您直接在Customer Journey Analytics中[測量及報告Adobe Target活動](/help/integrations/at.md)。 |
 | [與Adobe Journey Optimizer整合](/help/integrations/ajo.md) | 您可以將Journey Optimizer產生的資料設定為[在Customer Journey Analytics中執行進階分析](/help/integrations/ajo.md)。 |
 | 暫時與 Adobe Audience Manager 整合 |  |
-
-

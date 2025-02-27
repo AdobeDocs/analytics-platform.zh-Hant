@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
-source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '923'
 ht-degree: 26%
 
 ---
@@ -88,9 +88,7 @@ ht-degree: 26%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->在回答[Customer Journey Analytics升級檢查清單](https://gigazelle.github.io/cja-ttv/)中的問題時，使用此頁面上的資訊。
+{{upgrade-note}}
 
 Adobe Analytics有多種實施方式。 升級至Customer Journey Analytics時，並非所有Adobe Analytics實施都可使用所有升級路徑。 不過，不論Adobe Analytics在您的組織中如何實作，都提供建議的升級路徑。
 

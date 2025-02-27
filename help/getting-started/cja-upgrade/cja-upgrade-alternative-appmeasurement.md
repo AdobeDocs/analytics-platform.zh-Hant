@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 2b66e2db9b22bab5304fe981e58828d4ae9fabbd
+exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -24,9 +25,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->在回答[Customer Journey Analytics升級檢查清單](https://gigazelle.github.io/cja-ttv/)中的問題時，使用此頁面上的資訊。
+{{upgrade-note}}
 
 升級至Customer Journey Analytics時，Adobe [建議使用Experience Platform Web SDK的新實作](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。 不過，根據數個因素（例如時間表和資源限制），建議的升級步驟可能對您的組織而言不實用。
 
@@ -73,4 +72,3 @@ ht-degree: 0%
    1. 使用資料流對應將資料物件中的所有欄位對應到您的XDM結構描述。
 
       如需詳細資訊，請參閱Experience Platform檔案中[資料彙集的資料準備](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep)中的[對應](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping)。
-

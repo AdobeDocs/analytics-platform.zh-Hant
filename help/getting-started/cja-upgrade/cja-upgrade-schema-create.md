@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 3b1012a302200192fd31fd6a9ed94f96323eb595
+source-git-commit: 68ce73ddf805ec377fdb2c539683507f191c9249
 workflow-type: tm+mt
-source-wordcount: '1335'
-ht-degree: 51%
+source-wordcount: '1265'
+ht-degree: 52%
 
 ---
 
-# 建立自訂結構描述以便與您的 Customer Journey Analytics Web SDK 實作搭配使用 {#create-custom-schema}
+# 建立自訂結構以與Customer Journey Analytics搭配使用 {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -43,11 +43,7 @@ ht-degree: 51%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
->
->完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。
+{{upgrade-note-step}}
 
 >[!IMPORTANT]
 >

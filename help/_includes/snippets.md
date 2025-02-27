@@ -1,7 +1,7 @@
 ---
-source-git-commit: a2262e446a15ee58be2f3f674c77223368fc8f76
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3184'
 ht-degree: 23%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 23%
 
 ## 影片示範Adobe Analytics {#videoaa}
 
-*此影片示範使用Adobe Analytics的功能。 不過，此功能在 Customer Journey Analytics 中也同樣可用。瞭解Adobe Analytics與Customer Journey Analytics之間的術語差異（例如區段與篩選器，或造訪與工作階段）。*
+*此影片示範使用Adobe Analytics的功能。 不過，此功能在 Customer Journey Analytics 中也同樣可用。請注意Adobe Analytics和Customer Journey Analytics之間的術語差異（例如區段對篩選器，或造訪對工作階段）。*
 
 
 ## 篩選器面板 {#filterspanel}
@@ -201,3 +201,17 @@ Customer Journey Analytics中的各種視覺效果都是為了分析您提供給
 | **Adobe Journey Optimizer歷程** | 是</br>從Journey Optimizer開啟歷程，以進行更深入的分析及自訂 | 否 | 否 |
 
 {style="table-layout:auto"}
+
+## 升級檢查清單備註 {#upgrade-note}
+
+>[!NOTE]
+> 
+>在回答[Customer Journey Analytics升級檢查清單](https://gigazelle.github.io/cja-ttv/)中的問題時，使用此頁面上的資訊。
+
+## 升級檢查清單備註後續步驟 {#upgrade-note-step}
+
+>[!NOTE]
+> 
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)操作，也可以依照[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)為您的組織動態產生的升級步驟操作。
+>
+>完成此頁面上的步驟後，請繼續依照建議的升級步驟或動態產生的升級步驟操作。

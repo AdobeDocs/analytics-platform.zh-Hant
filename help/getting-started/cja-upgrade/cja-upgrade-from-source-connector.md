@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 892dffd831abd46c44c12bd6743a358e3cbd741d
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '445'
 ht-degree: 15%
 
 ---
@@ -25,13 +25,11 @@ ht-degree: 15%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->在回答[Customer Journey Analytics升級檢查清單](https://gigazelle.github.io/cja-ttv/)中的問題時，使用此頁面上的資訊。
+{{upgrade-note}}
 
 使用Analytics來源聯結器當作Customer Journey Analytics的唯一實作時，有其固有的缺點。
 
-如果您的組織已僅使用Analytics來源聯結器實作升級至Customer Journey Analytics，Adobe建議轉換為使用Analytics來源聯結器的實作（針對歷史資料），並搭配使用Web SDK的新實作（針對持續的資料收集）。
+如果您的組織已僅使用Analytics來源聯結器實作升級至Customer Journey Analytics，Adobe建議轉換為新的Web SDK實作，以持續收集資料，並僅對歷史資料使用Analytics來源聯結器。
 
 ## 瞭解僅使用Analytics來源聯結器的優缺點
 

@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
-source-git-commit: 9cfe89aef069d777424eb8a5d9ef8ae03a9d0486
+source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '413'
 ht-degree: 4%
 
 ---
@@ -25,9 +25,7 @@ ht-degree: 4%
 
 <!-- markdownlint-enable MD034 -->
 
->[!NOTE]
-> 
->在回答[Customer Journey Analytics升級檢查清單](https://gigazelle.github.io/cja-ttv/)中的問題時，使用此頁面上的資訊。
+{{upgrade-note}}
 
 雖然不建議使用，但您可以使用Analytics來源聯結器作為Customer Journey Analytics的唯一實作路徑。 不過，由於這類升級有其固有的缺點，Adobe建議將Analytics來源聯結器與Experience Platform Web SDK的新實作搭配使用。 如需此建議升級路徑的詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。
 
