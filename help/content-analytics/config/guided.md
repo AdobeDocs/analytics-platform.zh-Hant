@@ -107,7 +107,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
 >title="新資料視圖"
->abstract="選擇新資料視圖，會更新該資料視圖並包含 Content Analytics 量度和維度。若有必要，相關連線也會更新並包含 Content Analytics 資料集。目前已針對 Content Analytics 進行設定的連線和資料視圖並未修改。"
+>abstract="選取新的資料視圖會導致更新該資料視圖，以包括 Content Analytics 量度和維度。若有必要，相關連線也會更新並包括 Content Analytics 資料集。目前已針對 Content Analytics 進行設定的連線和資料視圖並未修改。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -146,7 +146,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_parameters_header"
 >title="經驗擷取與定義"
->abstract="指定用來判斷內容在網站上如何轉譯的參數。"
+>abstract="指定用於確定如何在您的網站上轉譯內容的參數。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
@@ -280,8 +280,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning_dialog"
->title="確認實施"
->abstract="如果您選擇「**[!UICONTROL 實施]**」，將會根據您在此工作流程中提供的輸入來設定 Content Analytics。系統會根據一般適用於 Content Analytics 的情況預設選擇若干設定，但是您 (作為資料控制者) 必須檢查每個成品的設定，確認所實施的設定均遵守您的隱私權原則、合約權利與義務以及適用法律規定的同意要求。<br/><br/>請注意，您必須先手動發佈與這個設定相關聯的標記庫，才能開始彙集資料。<br/><br/>為了提取圖像和文字的屬性，Adobe 將使用以下方式獲取屬性：<ol><li>根據所設定的資料彙集設定，在使用者造訪網站時所擷取的 URL，以及</li><li>託管圖像的 URL。</li></ol>您不可以標記託管在第三方網站上的圖像。"
+>title="確認實作"
+>abstract="如果您選取「**[!UICONTROL 實作]**」，將會根據您在此工作流程中提供的輸入來設定 Content Analytics。系統會根據一般適用於 Content Analytics 的情況預設選擇若干設定，但是您 (作為資料控制者) 必須檢查每個成品的設定，確認所實作的設定均遵守您的隱私權原則、合約權利與義務以及適用法律規定的同意要求。<br/><br/>請注意，您必須先手動發佈與這個設定相關聯的標記庫，才能開始收集資料。<br/><br/>為了提取影像和文字的屬性，Adobe 將使用以下方式獲取屬性：<ol><li>根據所設定的資料收集設定，在使用者造訪網站時所擷取的 URL，以及</li><li>託管影像的 URL。</li></ol>您不可以標記託管在第三方網站上的影像。"
 
 <!-- markdownlint-enable MD034 -->
 
