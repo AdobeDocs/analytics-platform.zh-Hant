@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
 workflow-type: tm+mt
-source-wordcount: '4261'
+source-wordcount: '4276'
 ht-degree: 99%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立和編輯示範視訊的連線](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立並編輯連線](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -182,7 +182,6 @@ ht-degree: 99%
    | **[!UICONTROL 回填資料]** | 您可以要求將資料回填到資料集。例如，您可以要求回填最近 7 天的資料。正確設定資料集並測試連線。如果一切正常，您就能放心回填剩餘的資料。<p>此外，您也可以啟用按資料集匯入新資料。 |
    | **[!UICONTROL 回填狀態]** | 此狀態指示是否有任何回填資料在處理中。 |
 
-   {style="table-layout:auto"}
 
 ## 新增及設定資料集 {#add-dataset}
 
@@ -501,7 +500,9 @@ ht-degree: 99%
 | **[!UICONTROL 輪廓]** | 套用至[!UICONTROL 事件]人員、使用者或客戶的資料。例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以「XDM 個體輪廓」類別為基礎的內建或自訂結構描述。 | 您可以挑選要包含的人員 ID。 [!DNL Experience Platform] 中定義的每個資料集有其自己一組已定義的一或多名人員 ID。例如 Cookie ID、彙整 ID、使用者 ID、追蹤程式碼等。<br>![人員 ID ](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報告會反映出這一點。若要合併資料集，您需要使用相同的人員 ID。 |
 | **摘要** | 不與單獨人員 ID 綁定的時間序列資料。摘要資料代表不同彙總等級的彙總資料，例如行銷活動。您可以在 Customer Journey Analytics 中使用此資料來支援各種使用案例。如需詳細資訊，請參閱[摘要資料](/help/data-views/summary-data.md)。 | 系統會自動設定為 Experience Platform 中以事件為基礎的摘要量度結構描述之預設時間戳記欄位。僅支援每小時或每日粒度。 | 任何以「XDM 摘要量度」類別為基礎的內建或自訂結構描述。 | 不適用 |
 
-{style="table-layout:auto"}
+>[!MORELIKETHIS]
+>
+>部落格： [如何在Adobe Customer Journey Analytics中運用事件、查閱和設定檔資料集](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
 
 ## 使用數值欄位做為查閱鍵和查閱值 {#numeric}
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: 6cd4fadc28117ed88b68d17274ab8de2b0edff10
+source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1146'
 ht-degree: 7%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 7%
 1. 將新建立的衍生欄位作為維度元件新增到資料檢視。
 1. 設定行銷活動名稱維度元件（從查詢資料集）以使用新建立的衍生欄位進行摘要資料分組。
 
-請參閱[擷取及報告摘要資料](/help/use-cases/data-views/summary-data.md)使用案例，以取得有關如何使用、報告及分析Customer Journey Analytics中摘要資料的詳細文章。
+請參閱[擷取及報告摘要資料](/help/use-cases/data-views/summary-data.md)使用案例，以取得有關如何在Customer Journey Analytics中使用、報告及分析摘要資料的詳細文章。
 
 
 ## 先決條件
@@ -93,7 +93,7 @@ ht-degree: 7%
 
 ### 詳細程度和時區
 
-當設定包含Customer Journey Analytics摘要資料的資料集時，您會注意到粒度會自動從資料衍生。 已停用&#x200B;**[!UICONTROL Timestamp]**&#x200B;和&#x200B;**[!UICONTROL Timezone]**&#x200B;下拉式清單的選擇，因為兩者都是衍生自結構描述定義。
+在Customer Journey Analytics中設定包含摘要資料的資料集時，您會注意到粒度會自動從資料衍生。 已停用&#x200B;**[!UICONTROL Timestamp]**&#x200B;和&#x200B;**[!UICONTROL Timezone]**&#x200B;下拉式清單的選擇，因為兩者都是衍生自結構描述定義。
 
 #### 詳細程度
 
@@ -103,8 +103,8 @@ ht-degree: 7%
 
 您摘要資料的時區是在Experience Platform的摘要結構層級定義。 時區僅適用於每小時精細資料。
 
-- 對於每日粒度，除非時間戳記中包含時區位移，否則Experience Platform會假設UTC時間。 新增包含每日摘要資料的摘要資料集時，Customer Journey Analytics會忽略結構描述上設定的時區定義，並從資料集中的資料中遵守與時間戳記相關聯的日期。
-- 對於每小時粒度，Customer Journey Analytics在解譯時間戳記時，會遵循在Experience Platform的摘要資料結構上設定的時區。 下表提供此詮釋的一些範例。
+- 對於每日粒度，Experience Platform會假設UTC，除非時間戳記中包含時區位移。 新增包含每日摘要資料的摘要資料集時，Customer Journey Analytics會忽略結構描述上設定的時區定義，並從資料集中的資料中尊重與時間戳記相關聯的日期。
+- 針對每小時詳細程度，Customer Journey Analytics在解譯時間戳記時，會遵守Experience Platform中摘要資料結構上設定的時區。 下表提供此詮釋的一些範例。
 
   | 時間戳記<br/>來源資料 | 時區<br/>結構描述 | 時間戳記<br/>Experience<br/>平台 | 時區<br/>資料<br/>檢視 | 時間戳記<br/>客戶<br/>歷程<br>分析 |
   |---|---|---|:---|---|
@@ -142,10 +142,10 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 
 | 變數 | 值 |
 |---|---|
-| `$ACCESS_TOKEN`<br/>`$API_KEY`<br/>`$ORG_ID`<br/>`$SANDBOX_NAME` | 請參閱[驗證及存取Experience PlatformAPI](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication)，以取得如何指定這些變數的值的詳細資訊。 |
-| `$SCHEMA_ID` | 您可以在Experience PlatformUI中找到結構描述的ID。 從結構描述清單中選取您的摘要結構描述，然後在右側面板中尋找&#x200B;**[!UICONTROL API使用狀況]** > **[!UICONTROL 結構描述ID]**。 使用該id作為值。 |
+| `$ACCESS_TOKEN`<br/>`$API_KEY`<br/>`$ORG_ID`<br/>`$SANDBOX_NAME` | 如需如何指定這些變數之值的詳細資訊，請參閱[驗證及存取Experience Platform API](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication)。 |
+| `$SCHEMA_ID` | 您可以在Experience Platform UI中找到結構描述的ID。 從結構描述清單中選取您的摘要結構描述，然後在右側面板中尋找&#x200B;**[!UICONTROL API使用狀況]** > **[!UICONTROL 結構描述ID]**。 使用該id作為值。 |
 | `$GRANULARITY` | 指定`hour`或`day`作為值。 |
-| `$TIMEZONE` | 從tz資料庫時區](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)的[List of tz識別碼資料行中，指定適當的時區識別碼值。 例如: `America/Los_Angeles`。 |
+| `$TIMEZONE` | 從tz資料庫時區](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)的[List of tz識別碼資料行中，指定適當的時區識別碼值。 例如：`America/Los_Angeles`。 |
 
 ## 元件設定
 
@@ -153,4 +153,6 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 
 >[!MORELIKETHIS]
 >
->請參閱[使用摘要資料](/help/use-cases/data-views/summary-data.md)文章，以取得有關如何使用和報告摘要資料的詳細使用案例範例。
+>- 請參閱[使用摘要資料](/help/use-cases/data-views/summary-data.md)文章，以取得有關如何使用和報告摘要資料的詳細使用案例範例。
+>- 部落格： [摘要資料如何增強Adobe Customer Journey Analytics資料集](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
+

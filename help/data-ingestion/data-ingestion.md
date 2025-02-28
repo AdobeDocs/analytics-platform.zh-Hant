@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: ac1d8a191bbad049ada246937364aeb7f8b275a0
+source-git-commit: 8071e8d5e1ab7e9cfc5037d710361a4d10285704
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '957'
 ht-degree: 64%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 64%
 
 - 資料來自於使用Adobe Experience Platform Web/Mobile SDK追蹤您的網站/行動應用程式，
 
-- 使用Adobe Experience PlatformEdge Network伺服器API追蹤案頭應用程式、主機遊戲、機上盒或IoT裝置的資料，或
+- 資料來自於使用Adobe Experience Platform Edge Network Server API追蹤案頭應用程式、主機遊戲、機上盒或IoT裝置，或者
 
 - 來自 Adobe 為其提供來源連接器之第三方資料提供者的資料。
 
@@ -44,15 +44,15 @@ ht-degree: 64%
 
 ## 擷取優先順序和延遲
 
-無論資料是24小時、48小時還是7天前的資料，您都可以在90分鐘(SLT)內以Customer Journey Analytics擷取事件資料。
+無論資料是24小時、48小時還是7天前的資料，您都可以在90分鐘(SLT)內將事件資料擷取到Customer Journey Analytics。
 
 請注意，此功能的內容將根據貴公司購買的 SKU 封裝而有所不同。
 
 - 優先擷取基本：90分鐘SLT處理內24小時前的資料（適用於&#x200B;**CJA Foundation**&#x200B;和&#x200B;**CJA Select**）
 
-- 優先擷取中繼： 90分鐘SLT處理內72小時前的資料（適用於&#x200B;**CJA Prime**）
+- 優先擷取中繼： 90分鐘SLT處理內72小時前的資料(適用於&#x200B;**CJA Prime**)
 
-- 優先擷取進階： 90分鐘SLT處理內1週前的資料（適用於&#x200B;**CJA Ultimate**）
+- 優先擷取進階： 90分鐘SLT處理內1週前的資料(可用於&#x200B;**CJA Ultimate**)
 
 ## 從傳統 Adobe Analytics 擷取和使用資料
 
@@ -71,15 +71,15 @@ ht-degree: 64%
 
 ### 使用Adobe Experience Platform Mobile SDK
 
-您想要使用Adobe技術分析行動應用程式，可能從其他解決方案移轉，或是開始從頭開始追蹤使用者在應用程式中的行為。 您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
+您想要使用Adobe技術分析行動應用程式，並可能從其他解決方案移轉，或是開始從頭開始追蹤使用者在應用程式中的行為。 您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
 如需詳細資訊，請參閱[透過Adobe Experience Platform Mobile SDK擷取及使用資料](./aepmobilesdk.md)。
 
-### 使用Adobe Experience PlatformEdge Network伺服器API
+### 使用Adobe Experience Platform Edge Network伺服器API
 
-您想要分析您的案頭應用程式、在遊戲機上玩的遊戲、在機上盒或透過Adobe技術的IoT裝置上使用視訊串流應用程式。 可能從其他解決方案移轉，或從頭開始追蹤使用者在這些裝置上的行為。 您想要遵循Adobe的最佳實作方法，也就是使用Adobe Experience PlatformEdge Network伺服器API和Edge Network來擷取資料。 接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
+您想要分析案頭應用程式、在遊戲機上玩的遊戲、在機上盒或透過Adobe技術的IoT裝置上使用視訊串流應用程式。 可能從其他解決方案移轉，或從頭開始追蹤使用者在這些裝置上的行為。 您想要遵循Adobe的最佳實作方法，也就是使用Adobe Experience Platform Edge Network Server API和Edge Network來擷取資料。 接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
-如需詳細資訊，請參閱[透過Adobe Experience PlatformEdge Network伺服器API擷取及使用資料](./serverapi.md)。
+如需詳細資訊，請參閱[透過Adobe Experience Platform Edge Network Server API擷取及使用資料](./serverapi.md)。
 
 ## 擷取和使用批次資料
 
@@ -98,3 +98,8 @@ ht-degree: 64%
 來源連接器支援的來源中有資料可用。來源連接器是可配置的設定，可讓您將資料從 Adobe、第一方和第三方應用程式內嵌至 Adobe Experience Platform。如需可用來源連接器的概觀，請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant)。使用來源連接器，您可輕鬆將資料自來源擷取至 Adobe Experience Platform，接著透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
 
 如需詳細資訊，請參閱[使用來源連接器擷取和使用資料](./sources.md)。
+
+>[!MORELIKETHIS]
+>
+>部落格： [進一步瞭解Adobe Customer Journey Analytics中的資料處理與擷取](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
+

@@ -5,7 +5,7 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
+source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 96%
@@ -104,8 +104,8 @@ Experience Platform 的多個元件 (從資料擷取到直接 SQL 存取) 是 Cu
 
 >[!ENDSHADEBOX]
 
-* [分析師適用的Adobe Customer Journey Analytics當機課程](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
-
-* [最佳化您的心態集和Adobe Customer Journey Analytics工作流程：適用於所有規模組織的團隊模型](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
-
-* [建立組織整備：以人為本縮放Adobe Customer Journey Analytics指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
+>[!MORELIKETHIS]
+>
+>* [分析師適用的Adobe Customer Journey Analytics當機課程](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
+>* [最佳化您的心態集和Adobe Customer Journey Analytics工作流程：適用於所有規模組織的團隊模型](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
+>* [建立組織整備：以人為本縮放Adobe Customer Journey Analytics指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
