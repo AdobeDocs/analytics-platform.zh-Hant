@@ -4,10 +4,10 @@ description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 1709bb2e262759376b0b0bb78444253968f9dac4
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 47%
+source-wordcount: '661'
+ht-degree: 38%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_button"
 >title="歸因"
->abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型"
+>abstract="使用成功量度、管道和回顧期間，快速比較和視覺化任何數量的歸因模型。"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="歸因面板"
->abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型。<br/><br/>**參數&#x200B;**<br/>**管道**<br/>&#x200B;屬性依據的維度。此維度可以是行銷管道、活動或任何其他維度。<br/>**模型**<br/>&#x200B;此模型可決定如何將積分指派給接觸點。<br/>**回顧視窗**<br/>&#x200B;此設定可決定套用至每個轉換的資料歸因期間。"
+>abstract="快速比較和視覺化任何數量的成功量度的歸因模型。 選取管道（維度）、要包含的模型和回顧期間。"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 <!-- markdownlint-enable MD034 -->

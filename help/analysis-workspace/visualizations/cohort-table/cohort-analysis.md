@@ -4,10 +4,10 @@ description: 瞭解如何在Analysis Workspace中使用同類群組表格進行�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 30%
+source-wordcount: '705'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="同類群組表格"
->abstract="根據事件的完成情形將使用者分組，然後分析他們在一段時間內的持續參與度及流失情況。<br/><br/>**參數&#x200B;**<br/>**包含條件**：這些元件用以定義初始訪客同類群組。<br/>**回訪條件**：這些元件用以判斷訪客是否已回訪。"
+>abstract="根據事件的完成情況分組使用者，然後分析他們在一段時間內的持續參與和流失率。 指定粒度、同類群組分析型別，以及是否要使用滾動計算等其他設定。 您可以設定進階選項，以根據選取的維度建立延遲表格或自訂維度同類群組。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ _本文會記錄_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 >
 >[!UICONTROL 同類群組分析]不支援無法篩選的量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可以在篩選器中使用的量度才能用於[!UICONTROL 同類群組分析]，而且這些量度一次只能增加1。
 
-Customer Journey Analytics中的同類群組表格支援雙向（或任何數值型）量度。 例如，Purchase.Value (a double)可作為包含/傳回量度使用。 此外，所有透過Analytics Source Connector傳入Adobe Experience Platform的量度也是兩倍。
+Customer Journey Analytics中的同類群組表格支援雙向（或任何數值）量度。 例如，Purchase.Value (a double)可作為包含/傳回量度使用。 此外，所有透過Analytics Source Connector傳入Adobe Experience Platform的量度也是兩倍。
 
 ## 同類群組表格功能
 

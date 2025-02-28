@@ -1,13 +1,13 @@
 ---
-description: 瞭解如何在Customer Journey Analytics實驗面板中分析A/B測試的結果。
+description: 瞭解如何在Customer Journey Analytics Experimentation面板中分析A/B測試結果。
 title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: dbf0ef92069778f6c805fa4315864b2c2c4a6622
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '2183'
-ht-degree: 20%
+source-wordcount: '2141'
+ht-degree: 16%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_panel"
 >title="實驗"
->abstract="比較不同的使用者體驗、行銷或傳送訊息變化版本，以確定哪一個產生特定結果的表現最好。<br/><br/>****<br/>**參數實驗**：進行分析的實驗。<br>**對照變化版本**：所選實驗的對照變化版本。<br/>**成功量度**：最多可使用 5 個標準 (非計算) 成功量度來分析實驗。<br/>**標準化量度**：人員、工作階段或事件。此量度 (也稱為計數方法) 會成為提升度計算的分母。此量度也會影響在套用可信度計算前彙總資料的方式。"
+>abstract="比較不同的使用者體驗、行銷或傳送訊息變化，以確定哪一個產生特定結果的績效最好。 指定實驗、對照變體、成功量度和標準化量度。 或者，設定信賴度的上下限。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,13 +39,13 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 >[!ENDSHADEBOX]
 
 
-**[!UICONTROL Experimentation]**&#x200B;面板可讓分析師比較不同的使用者體驗、行銷或傳送訊息變化，以確定哪一個產生特定結果的績效最好。 您可以從任何實驗平台評估任何A/B實驗的提升度和信賴度：線上、離線、來自Target或Journey Optimizer等Adobe解決方案，甚至BYO （自備）資料。
+**[!UICONTROL Experimentation]**&#x200B;面板可讓分析師比較不同的使用者體驗、行銷或傳送訊息變化，以確定哪一個產生特定結果的績效最好。 您可以從任何實驗平台評估任何A/B實驗的提升度和信賴度：線上、離線、Adobe解決方案，例如Target或Journey Optimizer，甚至BYO （自備）資料。
 
 深入瞭解Adobe Customer Journey Analytics與Adobe Target之間的[整合](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja)。
 
 ## 存取控制 {#access}
 
-實驗面板可供所有Customer Journey Analytics使用者使用。 不需要管理員權限或其他權限。不過，先決條件需要只有管理員才能執行的動作。
+所有Customer Journey Analytics使用者都可使用Experimentation面板。 不需要管理員權限或其他權限。不過，先決條件需要只有管理員才能執行的動作。
 
 ## 計算量度中的函式
 
@@ -60,7 +60,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 建議的資料結構描述是針對在[物件陣列](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array)中的實驗資料，其中包含在二個獨立維度中的實驗與變數資料。 兩個維度都必須在&#x200B;**單一**&#x200B;物件陣列中。 如果您的實驗資料在單一維度中（實驗與變數資料在分隔字串中），您可以在資料檢視中使用[substring](/help/data-views/component-settings/substring.md)設定將維度一分為二，以用於面板中。
 
 
-在您的實驗資料已[擷取](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)到Adobe Experience Platform之後，[在Customer Journey Analytics](/help/connections/create-connection.md)中建立與一個或多個實驗資料集的連線。
+在您的實驗資料已[擷取](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)到Adobe Experience Platform之後，[在Customer Journey Analytics中建立與一個或多個實驗資料集的連線](/help/connections/create-connection.md)。
 
 ### 在資料檢視中新增內容標籤
 
@@ -101,7 +101,7 @@ Experimentation和Experimentation Variant的![內容標籤選項。](assets/cont
 
    | 設定 | 定義 |
    | --- | --- |
-   | **[!UICONTROL 日期範圍]** | Experimentation面板的日期範圍會根據所選取實驗在Customer Journey Analytics中收到的第一個事件自動設定。 如果需要，您可以更具體的時間範圍來限制或擴大日期範圍。 |
+   | **[!UICONTROL 日期範圍]** | Experimentation面板的日期範圍會根據Customer Journey Analytics中為所選實驗收到的第一個事件自動設定。 如果需要，您可以更具體的時間範圍來限制或擴大日期範圍。 |
    | **[!UICONTROL 實驗]** | 一組向一般使用者展示的體驗變體，用來決定要永久儲存的最佳變體。 一個實驗由兩個或多個變體組成，其中一個會視為控制變體。此設定預先填入了資料檢視中已用&#x200B;**[!UICONTROL Experiment]**&#x200B;標籤標籤的維度，以及過去3個月的實驗資料。 |
    | **[!UICONTROL 控制變體]** | 一般使用者體驗中的兩個或多個變動之一，它們會被比較以找出較好的替代方案。必須選擇一種變體作為對照，並且只能將一種變體視為控制變體。此設定預先填入了資料檢視中已用&#x200B;**[!UICONTROL 變體]**&#x200B;標籤標籤的維度。 此設定會提取與此實驗關聯的變體資料。 |
    | **[!UICONTROL 成功量度]**➊ | 使用者用來比較變體的一個或多個量度。轉換量度（最高或最低）具有最理想結果的變體會宣告為實驗的&#x200B;*最佳表現變體*。 可最多新增 5 個量度。 |
@@ -109,7 +109,7 @@ Experimentation和Experimentation Variant的![內容標籤選項。](assets/cont
    | **[!UICONTROL 包含信賴上/下限]** | 啟用此選項可顯示信賴水準的上限和下限。 |
 
 
-1. 選取「**[!UICONTROL 建立]**」。
+1. 選取「**[!UICONTROL 建置]**」。
 
 ### 面板輸出
 
@@ -152,7 +152,7 @@ Experimentation 面板會傳回一組豐富的資料和視覺效果，以幫助�
 
 ## 解讀非隨機維度 {#non-randomized}
 
-Customer Journey Analytics可讓分析人員選取任何維度作為實驗。 但是對於選擇的實驗維度不是隨機人員的分析，您該如何解讀？
+Customer Journey Analytics可讓分析師選取任何維度作為實驗。 但是對於選擇的實驗維度不是隨機人員的分析，您該如何解讀？
 
 例如，以個人看到的廣告為例。 如果您決定顯示人員&#x200B;*廣告B*&#x200B;而非&#x200B;*廣告A*，可能會對測量某些量度的變更感興趣（例如平均收入）。 顯示廣告B （而非廣告A）的因果關係，對達成行銷決策至關重要。 如果您以顯示廣告B的替代策略取代顯示廣告A的現狀，則此因果效應可測量為整個母體的平均收入。
 
@@ -160,7 +160,7 @@ A/B測試是業界客觀衡量此類干預措施效果的黃金標準。 A/B測�
 
 現在，假設有一個不是透過隨機化實現的維度，例如個人的美國州。 個人主要來自兩個州：紐約和加利福尼亞。 由於地區天氣差異，這兩個州冬季服裝品牌的平均銷售收入可能不同。 在這種情況下，天氣可能是冬季服裝銷售背後的真正因果因素，而不是人的地理狀態不同這一事實。
 
-Customer Journey Analytics中的實驗面板可讓您依人員的狀態將資料分析為平均收入差異。 在這種情況下，輸出沒有因果解釋。 不過，此類分析可能仍值得關注。 它提供個人所在州平均收入差異的估計值（以及不確定性的測量值）。  此值也稱為&#x200B;*統計假設測試*。 此分析的輸出可能有趣，但不一定可操作。 僅僅因為您尚未隨機化，且有時無法將人員隨機化為維度的可能值之一。
+Customer Journey Analytics中的實驗面板可讓您依人員的狀態以平均收入差異分析資料。 在這種情況下，輸出沒有因果解釋。 不過，此類分析可能仍值得關注。 它提供個人所在州平均收入差異的估計值（以及不確定性的測量值）。  此值也稱為&#x200B;*統計假設測試*。 此分析的輸出可能有趣，但不一定可操作。 僅僅因為您尚未隨機化，且有時無法將人員隨機化為維度的可能值之一。
 
 下圖對比了這些情況：
 
@@ -184,7 +184,7 @@ Customer Journey Analytics中的實驗面板可讓您依人員的狀態將資料
 * 下列任一基本量度：
    * 人員
 
-與Experimentation面板不相容的計算量度在建立計算量度時，[!UICONTROL **產品相容性**]&#x200B;欄位中的Customer Journey Analytics（不包括實驗）**]的值為[!UICONTROL ** Everywhere in experimentation。 如需建立計算量度的相關資訊，請參閱[建立量度](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)。
+與Experimentation面板不相容的計算量度在建立計算量度時，其值為&#x200B;[!UICONTROL **產品相容性**]&#x200B;欄位中的Customer Journey Analytics中每個位置（不包括實驗）**]。[!UICONTROL **&#x200B;如需建立計算量度的相關資訊，請參閱[建立量度](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)。
 
 ## 在Experimentation面板中使用計算量度
 

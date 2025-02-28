@@ -4,10 +4,10 @@ title: 下一個或上一個項目面板
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 36%
+source-wordcount: '420'
+ht-degree: 19%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 36%
 >title="下一個或上一個項目"
 >abstract="建立一個面板來了解人們來自的前一個維度或人們前往的下一個維度。"
 
-<!-- markdownlint-disable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="下一個或上一個項目"
->abstract="分析訪客之前最常來自什麼地方或接下來最常造訪什麼地方。<br/><br/>**維度**：選取維度。例如，**頁面**。<br/>**維度項目**：選取特定維度項目。例如，**首頁**。<br/>**方向**：選取「**下一個**」可查看緊接在所選維度項目之後的維度項目。選取「**上一個**」以查看您所選維度項目之前的維度項目。<br/>**容器**：選取「**工作階段**」以查看同一工作階段中的下一個/上一個維度項目，或選取「**人員**」查看同一個人的下一個/上一個維度項目。"
+>abstract="分析訪客先前來自或前往下一個的最常見位置。 指定用於視覺效果的維度、維度專案、方向和容器。"
+
+
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +37,12 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 **[!UICONTROL 下一個或上一個專案]**&#x200B;面板包含許多表格和視覺效果，可識別特定維度的下一個或上一個維度專案。 例如，您可能會想要探索客戶在造訪首頁後最常前往哪些頁面。
 
-## 使用
+## 使用 {#use}
+
+>[!CONTEXTUALHELP]
+>id="workspace_nextorpreviousitem_container"
+>title="容器"
+>abstract="選取貨櫃以決定查詢的範圍。"
 
 若要使用&#x200B;**[!UICONTROL 下一個或上一個專案]**&#x200B;面板：
 

@@ -5,10 +5,10 @@ exl-id: 1a3f8ab5-bd82-415a-989a-f93e6714df4b
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 74%
+source-wordcount: '356'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_includeexcludevalues"
 >title="包含排除值"
->abstract="縮小維度而僅包含符合特定條件的值。包含和排除會在報告中的配置和篩選之前發生。<br/><br/>**參數&#x200B;**<br/>**區分大小寫**：判斷下面的篩選邏輯是否區分大小寫。"
+>abstract="縮小維度而僅包含符合特定條件的值。包含和排除會發生於報表中的配置和篩選之前。 判斷指定的篩選邏輯是否區分大小寫。"
 
 <!-- markdownlint-enable MD034 -->
 

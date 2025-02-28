@@ -4,14 +4,20 @@ title: 如何設定流量視覺效果
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1446'
 ht-degree: 37%
 
 ---
 
-# 設定流量視覺效果
+# 設定流量視覺效果 {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="流量容器"
+>abstract="選取要用來顯示路徑分析的容器（數字）。"
+
 
 流量視覺效果可協助您瞭解源自網站或應用程式上特定轉換事件的歷程。 或導致特定轉換事件。 此視覺效果會透過您的維度（和維度專案）或量度追蹤路徑。
 
@@ -104,7 +110,7 @@ ht-degree: 37%
 * 只要有資料流入其餘節點，所有下游和上游欄都會保持不變。
 * 若要移除篩選器，請選取![篩選器](/help/assets/icons/Filter.svg)以開啟篩選器功能表。 移除套用的所有篩選器，然後選取「**[!UICONTROL 儲存]**」。流量應會回到其先前的未篩選狀態。
 
-## 內容功能表
+## 內容選單
 
 在流量視覺效果中的任何節點上使用內容功能表，並搭配下列選項：
 
@@ -146,8 +152,8 @@ ht-degree: 37%
 
 >[!MORELIKETHIS]
 >
->[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

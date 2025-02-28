@@ -4,14 +4,15 @@ title: 設定流失視覺效果
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 36%
+source-wordcount: '734'
+ht-degree: 38%
 
 ---
 
-# 設定流失視覺效果
+# 設定流失視覺效果 {#configure-fallout-visualization}
+
 
 您可指定接觸點來建立多維度流失序列。通常，接觸點就是網站上的某個頁面。但接觸點不限於頁面。例如，您可以新增事件（例如件數），以及不重複人員和回訪。 您也可以新增維度，例如類別、瀏覽器類型或內部搜尋詞。
 
@@ -54,16 +55,21 @@ ht-degree: 36%
    | **[!UICONTROL 下一個事件]** | 將登陸下一個事件路徑中下一頁的資料計算在內。 |
 
 
-## 設定
+## 設定 {#settings}
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_container"
+>title="流失容器"
+>abstract="選取要分析路徑分析的容器。 此選擇可協助您瞭解參與情況，並將分析限制在選取的容器。"
 
 在視覺效果中，有特定設定可供使用。
 
 | 流失容器 | 說明 |
 |--- |--- |
-| **[!UICONTROL 工作階段]**&#x200B;或&#x200B;**[!UICONTROL 人員]** | 在[!UICONTROL 工作階段]和[!UICONTROL 人員]之間切換以分析人員路徑。 預設值為[!UICONTROL 人員]。 這些設定可協助您了解人員層級的人員參與程度 (跨工作階段)，或是將分析限制為單一工作階段。 |
+| **[!UICONTROL 工作階段]**&#x200B;或&#x200B;**[!UICONTROL 人員]** | 在[!UICONTROL 工作階段]和[!UICONTROL 人員]之間切換以分析人員路徑。 預設為[!UICONTROL 人員]。這些設定可協助您了解人員層級的人員參與程度 (跨工作階段)，或是將分析限制為單一工作階段。 |
 
 
-## 內容功能表
+## 內容選單
 
 在視覺效果中，可以使用特定的內容功能表選項。
 
@@ -80,8 +86,8 @@ ht-degree: 36%
 
 >[!MORELIKETHIS]
 >
->[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

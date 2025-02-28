@@ -5,10 +5,10 @@ exl-id: 170f445f-1eac-4b70-8956-1afb0cb2d611
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 90%
+source-wordcount: '334'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_behavior"
 >title="行為"
->abstract="判斷如何彙總此維度中的條列項目。<br/><br/>**參數&#x200B;**<br/>**小寫**：可讓您指定欄位中的字串值是否應為小寫。"
+>abstract="決定如何彙總此維度中的條列專案。 指定欄位中的字串值是否應為小寫。"
 
 <!-- markdownlint-enable MD034 -->
 

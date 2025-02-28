@@ -4,10 +4,10 @@ description: 如何使用和解讀Analysis Workspace中的「媒體播放時間�
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 55%
+source-wordcount: '1073'
+ht-degree: 49%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="媒體播放時間"
->abstract="分析一段時間內的視訊觀看量，選取各種詳細程度，劃分和比較。<br/><br/>**詳細程度**：選取要查看同時檢閱者的時段。<br/>**面板摘要數字 (可選)**：顯示摘要數字以及每行日期或時間詳細資料的選項。最大值將顯示尖峰播放時間的詳細資料。最小值將顯示低谷期的詳細資料。總和將顯示播放時間總計的詳細資料。<br/>**序列劃分 (可選)**：按區段、維度、維度項目或日期範圍劃分視覺效果。一次最多可檢視 10 行。劃分限於單一層級。<br/>**時間格式**：顯示視覺效果之時間格式的選項，以小時或分鐘為單位。"
+>abstract="分析一段時間內的視訊觀看量、選取各種粒度，並可選擇使用篩選器、維度、維度專案或日期範圍進行劃分和比較。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,7 +41,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 >[!NOTE]
 >
->「媒體平均每分鐘觀眾數」面板僅適用於已購買串流媒體收集附加元件進行Customer Journey Analytics的客戶。
+>「媒體平均每分鐘觀眾數」面板僅適用於已購買Customer Journey Analytics適用的串流媒體收集附加元件的客戶。
 >如需詳細資訊，請聯絡您的Adobe銷售代表或Adobe客戶團隊。
 >
 

@@ -4,10 +4,10 @@ title: 流量概觀
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 46%
+source-wordcount: '326'
+ht-degree: 25%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="流量"
->abstract="分析從某一接觸點到下一個接觸點的造訪或訪客流量。<br/><br/>**參數&#x200B;**<br/>**開始於**：新增維度、維度項目或量度，以查看在所選元件出現之後出現最多的接觸點。<br/>**包含**：新增維度或維度項目，以查看在所選元件出現之前和之後出現最多的接觸點。<br/>**結束於**：新增維度、維度項目或量度，以查看在所選元件出現之前出現最多的接觸點。<br/>**路徑分析維度**：新增維度，以用作前往或離開您所選元件的路徑。"
+>abstract="分析從一個接觸點到下一個接觸點的造訪或訪客流量。 指定要以開頭或結尾的元件（量度、維度或專案）。 您可以選擇定義進階設定，以進一步設定視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
 

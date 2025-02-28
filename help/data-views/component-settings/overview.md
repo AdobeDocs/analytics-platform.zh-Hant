@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 98%
+source-wordcount: '669'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="dataview_component_settings"
 >title="元件設定"
->abstract="檢視和設定元件名稱、說明和其他相關設定。<br/><br/>**參數&#x200B;**<br/>**隱藏報告中的元件**: 在報告中選取此方塊向非管理員使用者隱藏此元件。管理員仍可以選取 Workspace 專案中的「**[!UICONTROL 顯示所有元件]**」來進行存取。"
+>abstract="檢視及設定名稱、說明和與元件相關的其他設定。 核取此方塊可在報告中隱藏此元件，使非管理員使用者無法存取。 管理員仍可透過在Workspace專案中選取「**[!UICONTROL 顯示所有元件]**」來存取元件。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -59,7 +59,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件型別設定](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件類型設定](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
