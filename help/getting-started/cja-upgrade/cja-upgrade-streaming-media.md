@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 68ce73ddf805ec377fdb2c539683507f191c9249
+exl-id: b807099d-a61d-48f9-9fec-94ecc6b76213
+source-git-commit: f7b06838bbe5b1a5e304c6d0da6d34635391a90b
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 2%
+source-wordcount: '348'
+ht-degree: 0%
 
 ---
 
@@ -20,60 +21,15 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-media-edge"
 >title="設定和實作Media Edge"
->abstract="您可以將Adobe串流媒體收集設定為使用Experience Platform Edge，讓資料可在Customer Journey Analytics中使用。"
+>abstract="如果您打算搭配Customer Journey Analytics使用串流媒體收集，則必須在升級流程的特定步驟中進行特定選擇。 例如，您需要將MediaAnalytics互動詳細資料欄位群組新增到結構描述、在資料流中啟用Media Analytics等等。"
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note-step}}
 
-在Customer Journey Analytics中實作串流媒體收集的步驟因您目前在Adobe Analytics中實作串流媒體收集而異。
+如同Adobe Analytics中，串流媒體收集可用於收集串流媒體資料，以用於Customer Journey Analytics。 如果您搭配Adobe Analytics使用串流媒體收集，應將其納入Customer Journey Analytics的升級計畫。
 
-串流媒體收集可透過下列任一種方式在Adobe Analytics中實作：
-
-* [適用於串流媒體收集的Edge Network實作](#edge-network-implementations)
-
-+++ 檢視資訊圖
-
-  ![Edge實作上的串流媒體](assets/streaming-media-edge.png)
-
-+++
-
-* [適用於串流媒體收集的僅限Adobe Analytics的實作](#adobe-analytics-only-implementations)
-
-+++ 檢視資訊圖
-
-  ![僅限Analytics的實作](assets/analytics-implementation.png)
-
-+++
-
-如需這些實作方法之間差異的詳細資訊，請參閱串流媒體收集指南中的[實作串流媒體收集](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview)。
-
-## 適用於串流媒體收集的Edge Network實作
-
-如果串流媒體收集是在您的Adobe Analytics實作中使用Edge Network [實作，這表示將串流媒體收集升級為Customer Journey Analytics所需的部分步驟已經作為Adobe Analytics實作的一部分完成。 ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview#edge-implementation-methods)以下是已完成的步驟：
-
-* [在Adobe Experience Platform中設定結構描述](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#set-up-the-schema-in-adobe-experience-platform)
-
-* [在Adobe Experience Platform中建立資料集](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#create-a-dataset-in-adobe-experience-platform)
-
-* [在Adobe Experience Platform中設定資料串流](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#configure-a-datastream-in-adobe-experience-platform)
-
-在升級至Customer Journey Analytics時，您需要完成下列其他步驟：
-
->[!NOTE]
->
->完成Customer Journey Analytics升級步驟後，請務必使用Adobe Analytics串流媒體收集實施中的結構描述、資料集和資料流。
-
-* [在 Customer Journey Analytics 中建立連線](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
-
-* [在 Customer Journey Analytics 中建立資料視圖](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
-
-
-## 適用於串流媒體收集的僅限Adobe Analytics的實作
-
-如果串流媒體收集是在Adobe Analytics環境中](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview#adobe-analytics-only-implementation-methods)使用僅限Adobe Analytics的實作進行[實作，這表示串流媒體資料尚未前往Edge Network。
-
-當您從Adobe Analytics升級至Customer Journey Analytics的過程中建立結構、資料集、資料流、連線和資料檢視時，請進行下列選擇以納入串流媒體收集資料：
+在從Adobe Analytics升級至Customer Journey Analytics的步驟中，針對串流媒體收集資料做出以下選擇：
 
 * 為Customer Journey Analytics建立結構描述時，請包含`MediaAnalytics Interaction Details`欄位群組。
 
@@ -87,6 +43,10 @@ ht-degree: 2%
 
   如需有關建立資料串流的資訊，請參閱[建立資料串流以搭配Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)使用。
 
+  >[!NOTE]
+  >
+  >如果您的Adobe Analytics實作已使用Experience Platform Web SDK，則不需要執行此步驟。
+
 * 建立Customer Journey Analytics的資料檢視時，請包含串流媒體收集所需的結構描述欄位。
 
   請確定您將這些結構描述欄位對應到XDM物件中的正確值。
@@ -95,4 +55,65 @@ ht-degree: 2%
 
   如需有關建立資料檢視的資訊，請參閱[在Customer Journey Analytics中建立資料檢視](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)。
 
+<!--
 
+------------------
+
+The steps for implementing the Streaming Media Collection in Customer Journey Analytics differ depending on your current Streaming Media Collection implementation in Adobe Analytics. 
+
+Streaming Media Collection can be implemented in Adobe Analytics in either of the following ways:
+
+* [Edge Network implementations for the Streaming Media Collection](#edge-network-implementations)
+
+* [Adobe Analytics-only implementations for the Streaming Media Collection](#adobe-analytics-only-implementations)
+
+For more information about the differences between these implementation methods, see [Implement the Streaming Media Collection](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview) in the Streaming Media Collection Guide.
+
+## Edge Network implementations for the Streaming Media Collection
+
+If the Streaming Media Collection is [implemented using the Edge Network in your Adobe Analytics implementation](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview#edge-implementation-methods), this means that some steps that are required to upgrade the Streaming Media Collection to Customer Journey Analytics have already been completed as part of your Adobe Analytics implementation. Following are the completed steps:
+
+* [Set up the schema in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#set-up-the-schema-in-adobe-experience-platform)
+
+* [Create a dataset in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#create-a-dataset-in-adobe-experience-platform)
+
+* [Configure a datastream in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#configure-a-datastream-in-adobe-experience-platform)
+
+The following additional steps need to be completed as part of the upgrade to Customer Journey Analytics:
+
+>[!NOTE]
+>
+>As you complete the Customer Journey Analytics upgrade steps, make sure you use the schema, dataset, and datastream from your Streaming Media Collection implementation in Adobe Analytics.
+
+* [Create a connection in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
+
+* [Create a data view in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)
+
+
+## Adobe Analytics-only implementations for the Streaming Media Collection
+
+If the Streaming Media Collection is [implemented using an Adobe Analytics-only implementation in your Adobe Analytics environment](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview#adobe-analytics-only-implementation-methods), this means that Streaming Media data is not yet going to Edge Network. 
+
+As you create the schema, dataset, datastream, connection, and data view as part of your upgrade from Adobe Analytics to Customer Journey Analytics, make the following selections to account for Streaming Media Collection data:
+
+* When creating the schema for Customer Journey Analytics, include the `MediaAnalytics Interaction Details` field group.
+
+  For more information about adding this field group, see [Set up the schema in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#set-up-the-schema-in-adobe-experience-platform) in the Streaming Media Collection Guide.
+
+  For information about creating the schema, see [Create a custom schema to use with Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+
+* When configuring the datastream for Customer Journey Analytics, enable Media Analytics. 
+
+  For more information about enabling this option, see [Configure a datastream in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#configure-a-datastream-in-adobe-experience-platform) in the Streaming Media Collection Guide.
+
+  For information about creating the datastream, see [Create a datastream to use with Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md).
+
+* When creating a data view for Customer Journey Analytics, include the required schema fields for the Streaming Media Collection.
+
+  Make sure you map these schema fieldds to the correct values in the XDM object.
+
+  For more information about the required fields, see [Create a data view in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md) in the Streaming Media Collection Guide.
+
+  For information about creating the data view, see [Create a data view in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
+
+  -->
