@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: 32678fdedf1b384afce1998880af04f1af077943
+source-git-commit: 4ce2eb397e15dcb081f7b9695ba2332a3eb17659
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 2%
+source-wordcount: '468'
+ht-degree: 4%
 
 ---
 
@@ -27,8 +27,19 @@ ht-degree: 2%
 >
 >每個ID最多有10,000個專案的限制。 此限制表示在任何特定人員ID中，您只能有10,000個帳戶、10,000個機會、10,000個行銷清單或10,000個行銷活動。
 
+>[!PREREQUISITES]
+>
+>為了讓內嵌正常運作，您必須驗證B2B查詢資料集是否已針對下列欄位填入資料（如B2B查詢結構中所定義）：
+>
+>| 包含符合結構描述的資料的資料集 | 填入資料的欄位 |
+>|---|---|
+>| XDM 商業帳戶個人關係 | `accountPersonID` |
+>| XDM商業機會人員 | `opportunityPersonID` |
+>| XDM業務行銷清單 | `marketingListMemberID` |
+>| XDM 商業活動會員 | `campaign.sourceKey` |
+>
 
-若要啟用這類資料集的轉換：
+若要為B2B查詢資料集啟用轉換：
 
 ![啟用轉換資料集](/help/connections/assets/transform.gif)
 
