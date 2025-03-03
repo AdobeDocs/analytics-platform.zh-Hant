@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: 1283b285ff49225835abb8e7d8103f34aad686b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4649'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,16 +20,16 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2025 年 2 月** |  |
-| 媒體收集：新媒體報告XDM的Adobe Source Connector更新 | Analytics Source Connector會自動將Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en)中的串流媒體資料[對應到Web SDK使用的相同欄位。 之前，資料會對應至舊位置和新位置，但日後僅會使用新位置。 |
-| BI擴充功能 — 擴充支援 | Customer Journey Analytics BI擴充功能現在支援[Looker、Jupyter Notebook和R Studio](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en)。 |
+| 媒體集合：全新媒體報告 XDM 的 Adobe 來源連接器更新內容 | Analytics 來源連接器會自動[將 Adobe Analytics 中的串流媒體資料對應至](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) Web SDK 所使用的相同欄位。過去，資料會對應到舊位置和新位置，但將來只會使用新位置。 |
+| BI 擴充功能：擴充支援 | Customer Journey Analytics BI 擴充功能現在支援 [Looker、Jupyter Notebook 和 R Studio](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en)。 |
 | **2025 年 1 月** |  |
-| 更新的連線使用體驗 | 連線中的[使用](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections?lang=en#connections-usage)索引標籤現在能為以下這些類型的可報告列數提供增強的視覺效果：核心資料、擷取資料和歷史資料。您也可以依連線、資料集、沙箱或標籤來檢視及劃分使用資料。 |
+| 更新連線使用體驗 | 連線中的[使用](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/manage-connections?lang=en#connections-usage)索引標籤現在能為以下這些類型的可報告列數提供增強的視覺效果：核心資料、擷取資料和歷史資料。您也可以依據連線、資料集、沙箱或標記來檢視和細分使用情況資料。 |
 | 使用情況量度 | 有關已改善的[使用情況量度](/help/connections/manage-connections.md#usage)介面的更新文件。 |
 | 產品使用情況 | [產品使用情況](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/product-usage/usage-overview)呈現您組織使用 Customer Journey Analytics 的情形。 |
 | 引導式分析 | 已將文件更新為可從引導示分析內部使用[引導式分析](/help/guided-analysis/overview.md)。 |
-| 有關在Journey Optimizer的「報表」頁面上使用Customer Journey Analytics自訂範本的檔案 | 您現在可以在Adobe Journey Optimizer中自訂新的報表介面，方法是[在Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en)中建立或編輯範本，然後儲存範本以用於Journey Optimizer中的報表頁面。 過去，Adobe Journey Optimizer 中的新報告介面無法自訂。 |
-| Analysis Workspace中的範本 | [預先建立的範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates)和[公司範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/create-templates)現在可在Customer Journey Analytics中使用。 |
-| 智慧型字幕v2 | [智慧型字幕](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)現在支援下列視覺效果：多行、橫條、水準橫條、環形圖、區域、流量和流失。 您可以選擇在展開的檢視中一次顯示所有智慧型註解，或者可以在一個接一個的檢視中顯示個別的智慧型註解。 |
+| 於 Journey Optimizer 報表頁面上，使用 Customer Journey Analytics 內自訂範本的文檔 | 您現在可以在 Adobe Journey Optimizer 中自訂新的報告介面，只要[在 Customer Journey Analytics 中建立或編輯範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en)，然後將要在 Journey Optimizer 報告頁面上使用的範本儲存起來即可。過去，Adobe Journey Optimizer 中的新報告介面無法自訂。 |
+| Analysis Workspace 中的範本 | [預先建立範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates)和[公司範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/create-templates)現已可在 Customer Journey Analytics 中使用。 |
+| 智慧型註解 (第 2 版) | [智慧型註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)現在可使用以下視覺效果：折線圖、長條圖、水平長條圖、甜甜圈圖、區域圖、流程圖和流失存活圖。您可以選取在展開視圖中一次顯示所有智慧型註解，也可以在逐一視圖中顯示單一智慧型註解。 |
 
 ## 2024
 
@@ -70,8 +70,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | Target 整合 | 在有關如何整合 Target 和 Customer Journey Analytics 的 [Adobe 整合區段中新增文章](/help/integrations/at.md)。 |
 | 使用組織政策限制時，將 Customer Journey Analytics 報告匯出到 Google 雲端平台時的所需資訊 | 將 Adobe 擁有的 Google 雲端平台組織 ID 新增至[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)文件，以便將 Customer Journey Analytics 報告匯出至 Google 雲端平台。 <p>只有當組織在 Google Cloud Platform 中使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)時才需要此資訊。</p> |
 | 有關將元件新增至專案的文件 | 新增了有關如何[將各種類型的元件新增至 Analysis Workspace 中的專案](/help/components/use-components-in-workspace.md)的一般資訊。 |
-| 資料匯出使用案例 | 一組新文章，說明[資料匯出使用案例](/help/use-cases/data-export/overview.md)以及如何使用 Experience Platform 和 Customer Journey Analytics 功能來實施這些使用案例 |
-| 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實施可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)。</p> |
+| 資料匯出使用案例 | 一組新文章，說明[資料匯出使用案例](/help/use-cases/data-export/overview.md)以及如何使用 Experience Platform 和 Customer Journey Analytics 功能來實作這些使用案例 |
+| 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)。</p> |
 | 關於自訂日期範圍的更新文件 | 更新螢幕擷圖以及與[範例日期範圍](/help/components/date-ranges/custom-date-ranges.md)相關的程序，以符合目前的產品特色和設計。 |
 | 有關維度的概觀資訊 | 新增有關[維度](/help/components/dimensions/overview.md)的資訊。 |
 | 來源連接器範例 | 說明如何[使用來源連接器](/help/data-ingestion/sources.md#use-a-source-connector)擷取資料時，新增可用的來源連接器範例。 |
