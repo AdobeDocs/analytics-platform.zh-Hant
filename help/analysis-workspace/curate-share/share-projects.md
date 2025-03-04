@@ -5,9 +5,9 @@ title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d47fabb35e6674b8accb6ce3b56cb13c334f4d96
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2070'
 ht-degree: 62%
 
 ---
@@ -50,9 +50,9 @@ ht-degree: 62%
 >[!ENDSHADEBOX]
 
 
-## 與您組織中的Customer Journey Analytics使用者和群組共用 {#Add}
+## 與組織中的Customer Journey Analytics使用者和群組共用 {#Add}
 
-您可以與組織中的現有Customer Journey Analytics使用者或群組共用專案。 如本節所述，當您共用專案時，與您共用的使用者必須已擁有Customer Journey Analytics帳戶。
+您可以與組織內現有的Customer Journey Analytics使用者或群組共用專案。 如本節所述，當您共用專案時，與您共用的使用者必須已擁有Customer Journey Analytics帳戶。
 
 您可以與使用者或群組共用特定角色，也可以共用連結。
 
@@ -66,7 +66,7 @@ ht-degree: 62%
 
 * 專案角色 (**[!UICONTROL 編輯原始項目]**、**[!UICONTROL 編輯副本]**&#x200B;和&#x200B;**[!UICONTROL 唯讀]**) 會與使用者和特定專案 ID 相連結。專案角色不受 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant) 中管理的使用者權限影響。
 
-* 在Customer Journey Analytics中，群組是由[Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant)中的產品設定檔所定義。 管理員可將任何群組當作共用對象，包括「全部」。非管理員則可與其所屬的任何群組共用，但「全部」除外。
+* 在Customer Journey Analytics中，群組由[Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant)中的產品設定檔所定義。 管理員可將任何群組當作共用對象，包括「全部」。非管理員則可與其所屬的任何群組共用，但「全部」除外。
 
 * 獲得多個角色的使用者一律會有最高體驗。如果同時以個人和群組成員的身分新增使用者，就可能發生此狀況。例如，如果使用者以個人身分獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色，就會獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;專案體驗。
 
@@ -141,11 +141,11 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->與沒有Customer Journey Analytics存取許可權的人共用Analysis Workspace專案時，請考量下列事項：
+>與無法存取Analysis Workspace的使用者共用Customer Journey Analytics專案時，請考量下列事項：
 >
 >* Customer Journey Analytics管理員可以停用以這種方式共用專案的功能，如[偏好設定](/help/analysis-workspace/user-preferences.md)中所述。 如果您無法依照本節所述共用專案，您的Customer Journey Analytics管理員已停用此功能。
 >
->* 展開的視覺效果超過50個的專案無法與沒有Customer Journey Analytics存取許可權的人共用。
+>* 超過50個展開視覺效果的專案無法與無法存取Customer Journey Analytics的人共用。
 >
 >* 您共用的使用者可以檢視在[組織](curate.md)期間套用到專案的任何篩選器。
 > 
@@ -153,8 +153,7 @@ ht-degree: 62%
 >
 >* 如果有多位使用者同時嘗試存取所提供的連結，專案可能會變得無法存取。根據預設，每 5 分鐘可以有超過 190 人存取單一連結。如果您的組織達到此限制，請等待 5 分鐘，然後再次嘗試存取該連結。
 >
->* Healthcare Shield和Privacy &amp; Security Shield授權的[!UICONTROL 與任何人共用]功能皆遭封鎖。
-
+>* 針對[!DNL Healthcare Shield]和[!DNL Privacy & Security Shield]授權，[!UICONTROL 與任何人共用]功能需要Experience Cloud驗證。 [!DNL Healthcare Shield]客戶會出現「HIPAA法規遵循」警告，但您仍可在向Experience Cloud驗證後使用此功能。
 
 >[!BEGINSHADEBOX]
 
@@ -185,11 +184,11 @@ ht-degree: 62%
 
      啟用此選項後，唯一可存取專案的使用者就是可登入建立您共用專案的Adobe Experience Cloud組織。 不過，您共用的使用者不需要擁有Customer Journey Analytics的存取權。
 
-     Customer Journey Analytics管理員可以設定公司的喜好設定，如[喜好設定](/help/analysis-workspace/user-preferences.md)中所述。 視管理員設定此選項的方式而定，您可能會遇到以下情況：
+     Customer Journey Analytics管理員可以為公司設定此喜好設定，如[喜好設定](/help/analysis-workspace/user-preferences.md)中所述。 視管理員設定此選項的方式而定，您可能會遇到以下情況：
 
-      * 如果未顯示此選項，則表示您的Customer Journey Analytics管理員未啟用此功能。
+      * 如果未顯示此選項，表示您的Customer Journey Analytics管理員未啟用此功能。
 
-      * 如果已啟用此選項且您無法將其停用，則表示您的Customer Journey Analytics管理員需要對存取Analysis Workspace專案的任何人進行Experience Cloud驗證。 授權Healthcare Shield的組織一律都是如此。
+      * 如果已啟用此選項，且您無法將其停用，則表示您的Customer Journey Analytics管理員要求任何存取Experience Cloud專案者都使用Analysis Workspace驗證。 授權Healthcare Shield的組織一律都是如此。
 
 1. 在&#x200B;**[!UICONTROL 與任何人共用（不需要登入）]**&#x200B;欄位旁邊，選取![連結](/help/assets/icons/Link.svg)以將連結複製到您的系統剪貼簿。
 
