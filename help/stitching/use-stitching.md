@@ -1,30 +1,31 @@
 ---
-title: 使用拼接
+title: 使用匯整
 description: 如何使用拼接
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-source-git-commit: 5e25cb4d974ab85cca3aa2bb777675e12f63038b
+exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
+source-git-commit: 157f70353f60da3fec83e016e7a09f69f7f514cf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '418'
+ht-degree: 10%
 
 ---
 
-# 使用拼接
+# 使用匯整
 
-當您的組織符合所有[必要條件](#prerequisites)並瞭解常見的[限制](#limitations)和拼接方法特定限制（[欄位式](#limitations-1)和[圖形式](#limitations-2)）時，您可以依照這些步驟開始在Customer Journey Analytics中使用拼接。
+一旦您的組織符合所有[必要條件](#prerequisites)，並瞭解常見的[限制](#limitations)和拼接方法特定限制（[欄位式](#limitations-1)和[圖形式](#limitations-2)），您可以依照這些步驟開始在Customer Journey Analytics中使用拼接。
 
 ## 選取選項
 
-您有權使用的Customer Journey Analytics套件會決定可用的拼接方法、初始回填持續時間、回顧視窗、重播頻率以及允許拼接的資料集數目上限。 如需詳細資訊，請參閱[Customer Journey Analytics產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html)。 在請求支援之前，請先決定可用的選項。
+您有權使用的Customer Journey Analytics套件會決定可用的拼接方法、初始回填持續時間、回顧視窗、重播頻率以及允許拼接的資料集數量上限。 如需詳細資訊，請參閱[Customer Journey Analytics產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html)。 在請求支援之前，請先決定可用的選項。
 
 | | Customer Journey Analytics<br/>選取 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
 | 可用的拼接方法 | <li>欄位式拚接</li> | <li>欄位式拚接</li><li>圖表式匯整</li> | <li>欄位式拚接</li><li>圖表式匯整</li> |
 | 一次性拼接回填持續時間 | 13 個月 | 13 個月 | 25 個月 |
 | 回顧期間和重播頻率 | <li>1天，每天</li><li>最長7天，每週</li> | <li>1天，每天</li><li>最長14天，每週</li> | <li>1天，每天</li><li>最長30天，每週</li> |
-| 拼接允許的資料集數量上限 | 5 | 10 | 50 |
+| 拼接允許的資料集數量上限 | 5 | 15 | 50 |
 
 ## 要求支援
 
@@ -34,13 +35,13 @@ ht-degree: 0%
    - 您要重新輸入金鑰之資料集的資料集ID。
    - 所需資料集的永久ID欄名稱（身分路徑和名稱空間） （每列顯示的識別碼）。
    - 對於欄位式拚接，所需資料集的暫時ID欄名稱（人員ID，也會作為連線內容中資料集之間的連結）。 對於圖表式拚接，為用於查詢身分圖表的身分名稱空間。
-   - 您的回顧視窗和重播頻率偏好設定。 檢視您可用的[選項](#options)的Customer Journey Analytics套件。
+   - 您的回顧視窗和重播頻率偏好設定。 檢視您的Customer Journey Analytics套件，以取得可用的[選項](#options)。
    - 沙箱名稱。
 
 
 2. Adobe客戶支援與Adobe工程部門合作，以便在收到您的請求時啟用拼接。 啟用後，Adobe Experience Platform中會出現一個包含新拼接ID欄的新的重設金鑰資料集。 Adobe客戶支援可提供新資料集的ID。
 
-3. 首次開啟時，Adobe會提供拼接資料的回填。 檢視您可用的[選項](#options)的Customer Journey Analytics套件。
+3. 首次開啟時，Adobe會提供拼接資料的回填。 檢視您的Customer Journey Analytics套件，以取得可用的[選項](#options)。
 
 4. 如果您想在跨管道分析中使用新的拼接資料集，您需要將新的拼接資料集新增到Customer Journey Analytics中的[連線](../connections/overview.md)。 然後新增跨管道分析所需的任何其他資料集，並為每個資料集選取正確的人員ID。
 
@@ -71,6 +72,3 @@ Alternatively, you can set up and use stitching through the Customer Journey Ana
 Once the data view is set up, the cross-channel analysis in Customer Journey Analytics is just like any other analysis in Customer Journey Analytics, except now the data operates across channels and devices.
 
 -->
-
-
-
