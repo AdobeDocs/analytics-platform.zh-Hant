@@ -5,9 +5,9 @@ title: 資料夾總覽
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
-workflow-type: ht
-source-wordcount: '435'
+source-git-commit: 8571fbcfddd18658306e264cef88a3f10861e069
+workflow-type: tm+mt
+source-wordcount: '416'
 ht-degree: 100%
 
 ---
@@ -49,12 +49,7 @@ Non-Admins have limited options.
 以下是使用公司資料夾時的一些準則：
 
 - 管理員可以將專案新增至公司資料夾，或建立新專案並儲存至公司資料夾非管理員可檢視公司資料夾的內容。
-
 - 管理員可以在公司資料夾中建立子資料夾。
-
 - 管理員可以刪除公司資料夾中其他管理員建立的資料夾。管理員可能需要與其他管理員協調，以保持資料夾和專案存取權的一致性。
-
 - 當管理員將專案移動到公司資料夾時，即使原始共用權限被禁止，該資料夾也可以與所有人共用。
-- 如果管理員將專案移出公司資料夾，則會遵守原始或先前的共用權限。
-
 - 如果管理員將專案移出公司資料夾，則會遵守原始或先前的共用權限。
