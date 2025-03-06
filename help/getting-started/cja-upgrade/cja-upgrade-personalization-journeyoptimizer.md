@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 16%
+source-wordcount: '132'
+ht-degree: 21%
 
 ---
 
@@ -20,40 +20,48 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-personalization"
 >title="使用個人化物件來執行 Adobe Journey Optimizer"
->abstract="使用您的實作中的個人化物件以便在 Adobe Journey Optimizer 中使用。"
+>abstract="透過在監督的機器學習和深度學習中運用最先進的技術，個人化最佳化可讓業務使用者（行銷人員）定義業務目標，並利用其客戶資料來訓練業務導向的模型，以提供個人化優惠並最大化KPI。"
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note}}
 
-個人化物件的結果會出現在資料集中。 實驗的結果。 當客戶透過Target使用AA時，這最終會進入與移轉至CJA且他們將會透過Adobe Target使用CJA完全不同的空間。
+透過在監督的機器學習和深度學習中運用最先進的技術，個人化最佳化可讓業務使用者（行銷人員）定義業務目標，並利用其客戶資料來訓練業務導向的模型，以提供個人化優惠並最大化KPI。
 
-Target是設定A/B測試或實驗的老方法。 然後確保Target中這些測試的結果最後以AA報告。 現在，如果您使用Target，不必再聲稱您想要Target中的資料，您可以選取CJA作為Adobe Target活動的報告來源。 所以如果客戶在AA中這麼做並且他們想要移至CJA...
+如需詳細資訊，請參閱Journey Optimizer指南中的[個人化最佳化模型](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model)。
 
-如果客戶有AJO，而且正在使用AJO中的優惠方案，他們可以設定優惠方案，並在Platform中建立資料集……但這與升級無關，確切地說。
+<!--
 
+The result of the personalization object ends up in a dataset. The result of experimentation. When a customer has used AA with Target, that ends up in a complete different space than when they're migrating to CJA and they're going to use CJA with Adobe Target. 
 
+Target was the old way of setting up an A/B test or experimentation. Then ensuring the results of those tests in Target ended up in AA for reporting. Now if you're using Target, instead of saying that you want the data in Target, you can now select CJA as your reporting source for an Adobe Target activity. So if a customer is doing this in AA and they want to move to CJA, ...
 
-我們需要回答的問題：
-
-1. 我們如何決定個人化條件（使用者A為紅色，使用者B為藍色）
-
-1. 我們在網站上實施什麼來判斷紅色/藍色物件？
-
-
-我們有2種方法可以做到：
-
-手動呈現內容或自動呈現內容。
-
-
-## 手動實作網頁SDK
-
-
-## 行動SDK實施
+If a customer has AJO, and is using Offers in AJO, then they can set up offers, and that also creates datasets in Platform... But that's not relevant with upgrade, exactly.
 
 
 
+Questions we need to answer:
+
+1. How do we determine the personalization criteria (Red for user A and blue for User B)
+
+1. What do we implement on the site to determine the red / blue object?
 
 
-## 標記
+2 ways we can do it:
+
+Manually rendering content or Automatically rendering content. 
+
+
+## Manual implementation of the Web SDK
+
+
+## Mobile SDK implementation 
+
+
+
+
+
+## Tags
+
+-->
 

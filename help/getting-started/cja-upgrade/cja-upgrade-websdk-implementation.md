@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 1ac7059e76797b14c00993a2a46aa51b1ebfe6a2
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 43%
+source-wordcount: '349'
+ht-degree: 38%
 
 ---
 
@@ -39,6 +39,24 @@ ht-degree: 43%
 >id="cja-upgrade-websdk-api"
 >title="NPM 套件"
 >abstract="使用資料收集 API 直接傳送資料至資料流。同時支援未驗證 (用戶端對伺服器) 和已驗證 (伺服器對伺服器) 類型。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-websdk-no-selection"
+>title="為給定的屬性實作 Web SDK"
+>abstract="在調查表中選取所需的實施型別，以取得更詳細的指示。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-websdk-third-party"
+>title="將 Web SDK 程式庫新增至第三方標記管理系統"
+>abstract="透過您的標籤管理系統，與管理員合作，將Web SDK程式庫新增至您的網站。<br><br>此任務的完成時間很大程度上取決於負責您標籤管理系統的個人的回應速度。 新增Web SDK程式庫可能會與相關的實作邏輯搭配使用，並在貴組織的標準發行週期期間部署。"
 
 <!-- markdownlint-enable MD034 -->
 

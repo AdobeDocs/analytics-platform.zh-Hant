@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 14%
+source-wordcount: '1067'
+ht-degree: 12%
 
 ---
 
@@ -31,6 +31,15 @@ ht-degree: 14%
 >id="cja-upgrade-keep-aa"
 >title="保留兩種分析產品"
 >abstract="(不建議) 如果您選取此選項，您與 Adobe 簽訂的合約將同時包括 Adobe Analytics 和 Customer Journey Analytics，長時間而言您的組織可能要付出更昂貴的成本。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-source-connector"
+>title="停用Analytics來源聯結器以僅使用來自網頁SDK的資料"
+>abstract="Analytics來源聯結器是用來提供並排資料比較、歷史資料，以及存取Customer Journey Analytics中尚未完全提供的一些功能。 當您不再需要Adobe Analytics來達到這些目的時，您可以停用Analytics來源聯結器。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -58,6 +67,24 @@ ht-degree: 14%
 >id="cja-upgrade-disable-appmeasurement-third-pary"
 >title="停用第三方標記管理系統"
 >abstract="在 Web SDK 資料完全正常運作的情況下，與您的標記管理員合作從第三方標記管理系統中移除 AppMeasurement 資料庫。<br><br>執行此步驟的預估時間取決於在標記管理產品中停用 AppMeasurement 的難易程度，以及您的組織部署和管理標記代碼的發行週期。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-analytics-tags"
+>title="停用標籤中的Analytics擴充功能"
+>abstract="使用Web SDK資料完整運作的情況下，請與您的標籤管理員合作，從標籤屬性中移除Adobe Analytics擴充功能。 在執行此操作之前，請確定您的使用者已從使用Adobe Analytics轉換到Customer Journey Analytics。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-disable-analytics-api"
+>title="為 Adobe Analytics 停用 API 資料彙集"
+>abstract="透過Web SDK資料完全正常運作，請與適用的工程團隊合作，從專案移除Adobe Analytics程式碼。 在執行此操作之前，請確定您的使用者已從使用Adobe Analytics轉換到Customer Journey Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 

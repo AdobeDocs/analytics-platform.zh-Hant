@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 773c03dfec99abcabdc667c549cce0dc1b1aabc4
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 15%
+source-wordcount: '538'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 15%
 >id="cja-upgrade-source-connector"
 >title="Analytics 來源連接器實作"
 >abstract="Analytics 來源連接器可讓您輕鬆從 Customer Journey Analytics 中獲取價值，但會要求您同時支付 Adobe Analytics 和 Customer Journey Analytics 的費用。此指南可以協助您邁向獨立的 Web SDK 實作。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-delete"
+>title="刪除現有的 Analytics 來源連接器"
+>abstract="您目前擁有的Analytics來源聯結器與貴組織的自訂結構描述不相容。 不過，資料仍存在於Analytics報表套裝中。 此步驟會移除目前的Analytics來源聯結器，以便您可在後續步驟中使用正確的結構描述來重新建立它。<br><br>在刪除來源聯結器之前，您可能會想要與組織中的其他人員協調，以確保來源聯結器的移除不會影響組織內的報告。 這項協調可能需要數週的時間才能完成。"
 
 <!-- markdownlint-enable MD034 -->
 
