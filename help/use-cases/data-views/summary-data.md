@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
 workflow-type: tm+mt
 source-wordcount: '5188'
 ht-degree: 8%
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 此使用案例有助於您瞭解如何在報告和分析中使用摘要資料。 使用案例詳細說明在Customer Journey Analytics中使用摘要資料所需的所有步驟：
 
-- [擷取](#ingest)摘要資料和其他資料來源於Experience Platform。
+- 在Experience Platform中[擷取](#ingest)摘要資料和其他資料來源。
 - 設定摘要資料和其他資料來源的[連線](#connection)。
 - 設定您的[資料檢視](#data-view)以合併您的資料來源。
 - 在[Workspace](#workspace)中針對您的合併資料製作報表和分析。
@@ -54,12 +54,12 @@ ht-degree: 8%
 
 +++
 
-若要在Customer Journey Analytics、報表中或在Workspace分析資料時使用摘要資料，您需要
+若要在Customer Journey Analytics、報表中或在Workspace分析資料時使用「摘要」資料，您需要
 
-- Experience Platform的摘要結構描述，
+- Experience Platform中的摘要結構，
 - Experience Platform中的摘要資料集，
 - Customer Journey Analytics中的連線已設定為使用摘要資料集，
-- Customer Journey Analytics的資料檢視，已正確設定摘要資料的量度和維度。
+- Customer Journey Analytics中的資料檢視，並已正確設定摘要資料的量度和維度。
 
 您可以將此摘要資料與事件資料的資料集和查詢資料的資料集搭配使用。
 
@@ -289,9 +289,9 @@ ht-degree: 8%
 
 ### 摘要結構描述
 
-摘要資料需要Experience Platform的摘要結構。 摘要結構描述是以XDM摘要量度作為基底類別的結構描述。
+摘要資料需要Experience Platform中的摘要結構。 摘要結構描述是以XDM摘要量度作為基底類別的結構描述。
 
-若要以Experience Platform建立摘要綱要：
+若要在Experience Platform中建立摘要結構：
 
 1. 選取&#x200B;**[!UICONTROL Experience Platform]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
 1. 從左側邊欄選取&#x200B;**[!UICONTROL 結構描述]**。
@@ -423,7 +423,7 @@ ht-degree: 8%
 
 1. 在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 使用摘要資料的連線範例]**&#x200B;連線畫面中，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存連線。
 
-來自資料集的資料會新增到Customer Journey Analytics，這可能需要幾個小時。 因此，在繼續之前，請耐心等待。
+來自資料集的資料新增到Customer Journey Analytics，這可能需要幾個小時。 因此，在繼續之前，請耐心等待。
 
 一段時間後，請確認資料集中的資料已正確載入Customer Journey Analytics。
 
@@ -434,7 +434,7 @@ ht-degree: 8%
    1. 選取![行事曆](/help/assets/icons/Calendar.svg)，然後選取&#x200B;**[!UICONTROL 最近7天]**。
    1. 選取&#x200B;**[!UICONTROL 「套用」]**。
 
-在&#x200B;**[!UICONTROL 資料集]**&#x200B;的清單中，**[!UICONTROL 新增的記錄]**&#x200B;資料行中的值應該會確認資料集中的資料現在是Customer Journey Analytics的一部分。
+在&#x200B;**[!UICONTROL 資料集]**&#x200B;的清單中，**[!UICONTROL 新增的記錄]**&#x200B;欄中的值應該會確認來自資料集的資料現在已成為Customer Journey Analytics的一部分。
 
 ![摘要資料的連線範例](../assets/example-connection-summary-data.png)
 
@@ -452,7 +452,7 @@ ht-degree: 8%
       1. 保留所有其他設定。
       1. 選取&#x200B;**[!UICONTROL 「儲存並繼續」]**。
    1. 在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;的&#x200B;**[!UICONTROL 元件]**&#x200B;步驟中> **[!UICONTROL 使用摘要資料的範例資料檢視]**：
-      1. 將下列元件新增至「Dimension和量度」清單。 請注意，為了清楚起見，元件名稱會從預設名稱修改而來，在元件面板（右側）的&#x200B;**[!UICONTROL 元件設定]**&#x200B;中使用&#x200B;**[!UICONTROL 元件名稱]**。
+      1. 將下列元件新增至「維度和量度」清單。 請注意，為了清楚起見，元件名稱會從預設名稱修改而來，在元件面板（右側）的&#x200B;**[!UICONTROL 元件設定]**&#x200B;中使用&#x200B;**[!UICONTROL 元件名稱]**。
 
          **量度**
 
@@ -478,14 +478,14 @@ ht-degree: 8%
          | 追蹤程式碼（事件） | 範例事件資料集 | 字串 | *_tenant*.tracking_code |
          | 追蹤代碼（查詢） | 範例查詢資料集 | 字串 | *_tenant*.tracking_code |
 
-      1. 在&#x200B;**[!UICONTROL 事件]**&#x200B;清單中選取&#x200B;**[!UICONTROL 追蹤代碼(Dimension)]**&#x200B;維度。 在元件面板中：
+      1. 在&#x200B;**[!UICONTROL 維度]**&#x200B;清單中選取&#x200B;**[!UICONTROL 追蹤代碼（事件）]**&#x200B;維度。 在元件面板中：
 
          ![追蹤程式碼摘要資料](../assets/tracking-code-summary-data.png)
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 摘要資料群組]**。
          1. 啟用&#x200B;**[!UICONTROL 建立群組]**。
-         1. 從&#x200B;**[!UICONTROL 促銷活動]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Dimension識別碼]**。 此步驟可確保正確組合事件資料和摘要資料以用於報告。
-         1. 您可以選擇啟用&#x200B;**[!UICONTROL 隱藏報告]**。 [!UICONTROL 隱藏在報表中]可確保選取的維度（[!UICONTROL 促銷活動識別碼]）隱藏在Analysis Workspace和其他Customer Journey Analytics報表工具中。 如果已啟用此選項，您可以驗證選項：
-            1. 在&#x200B;**[!UICONTROL 行銷活動]**&#x200B;清單中選取&#x200B;**[!UICONTROL 行銷活動ID]** Dimension。
+         1. 從&#x200B;**[!UICONTROL Dimension]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 促銷活動ID]**。 此步驟可確保正確組合事件資料和摘要資料以用於報告。
+         1. 您可以選擇啟用&#x200B;**[!UICONTROL 隱藏報告]**。 [!UICONTROL 隱藏在報表中]可確保選取的維度（[!UICONTROL 促銷活動ID]）隱藏在Analysis Workspace和其他Customer Journey Analytics報表工具中。 如果已啟用此選項，您可以驗證選項：
+            1. 在&#x200B;**[!UICONTROL 維度]**&#x200B;清單中選取&#x200B;**[!UICONTROL 促銷活動ID]**&#x200B;維度。
             1. 您注意到&#x200B;**[!UICONTROL 元件設定]**&#x200B;中的&#x200B;**[!UICONTROL 隱藏報表中的元件]**&#x200B;現在已自動啟用。
 
       1. 建立新的衍生欄位，例如`Campaign Name (Lookup Derived Field)`，以確保您可以使用範例查詢資料集中的促銷活動名稱（查詢）維度在Workspace中報告。
@@ -498,15 +498,15 @@ ht-degree: 8%
          1. 從&#x200B;**[!UICONTROL 要傳回]**&#x200B;的值下拉式選單中選取&#x200B;**[!UICONTROL campaign_name]**。
          1. 選取「**[!UICONTROL 儲存]**」。
 
-      1. 將新建立的衍生欄位&#x200B;**[!UICONTROL 促銷活動名稱（查閱衍生欄位）]**&#x200B;新增至&#x200B;**[!UICONTROL Dimension]**&#x200B;元件清單。
+      1. 將新建立的衍生欄位&#x200B;**[!UICONTROL 促銷活動名稱（查閱衍生欄位）]**&#x200B;新增至&#x200B;**[!UICONTROL 維度]**&#x200B;元件清單。
 
-      1. 在&#x200B;**[!UICONTROL 行銷活動]**&#x200B;清單中選取&#x200B;**[!UICONTROL 行銷活動名稱（查閱）]** Dimension。 在元件面板中：
+      1. 在&#x200B;**[!UICONTROL 維度]**&#x200B;清單中選取&#x200B;**[!UICONTROL 促銷活動名稱（查閱）]**&#x200B;維度。 在元件面板中：
 
          ![衍生欄位摘要資料群組](../assets/derived-field-summary-data-group.png)
 
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 摘要資料群組]**。
          1. 啟用&#x200B;**[!UICONTROL 建立群組]**。
-         1. 從&#x200B;**[!UICONTROL 促銷活動]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 促銷活動名稱（查閱衍生欄位）]**。Dimension 此步驟可確保範例查詢資料集中的行銷活動名稱（查詢）可安全地用於報告中(請參閱[Workspace](#workspace))。
+         1. 從&#x200B;**[!UICONTROL Dimension]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 促銷活動名稱（查閱衍生欄位）]**。 此步驟可確保範例查詢資料集中的行銷活動名稱（查詢）可安全地用於報告中(請參閱[Workspace](#workspace))。
 
       1. 從&#x200B;**[!UICONTROL 度量]**&#x200B;清單中選取&#x200B;**[!UICONTROL 收入]**&#x200B;度量。 在元件面板中：
 
@@ -551,7 +551,7 @@ ht-degree: 8%
 
 1. 確保為面板選取的資料檢視是指包含摘要資料設定的資料檢視。 例如，**[!UICONTROL 使用摘要資料的資料檢視範例。]**
 1. 請確認日期範圍對您要報告的資料有效。 例如： **[!UICONTROL 最近2個整月]**。
-1. 從&#x200B;**[!UICONTROL 事件]**&#x200B;拖曳&#x200B;**[!UICONTROL 追蹤代碼(Dimension)]**，並將維度拖放到空的自由格式表格上。
+1. 從&#x200B;**[!UICONTROL 維度]**&#x200B;拖曳&#x200B;**[!UICONTROL 追蹤代碼（事件）]**，並將維度拖放到空的自由格式表格上。
 1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 訂單]**，並將量度拖放至&#x200B;**[!UICONTROL 事件]**&#x200B;欄，以取代自由表格中的該欄。
 1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 收入]**，並放置量度，以新增為自由表格的其他欄。
 1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 曝光次數（摘要）]**，並放置量度，以新增為自由表格中的額外欄。

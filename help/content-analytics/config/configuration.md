@@ -7,7 +7,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 596e54a559bac69214e1de3ea37da6177f110b7a
+source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 2%
@@ -39,10 +39,11 @@ Content Analytics的設定包含下列步驟：
    * 資料收集
       * 在資料串流中建立資料串流並設定Experience Platform服務，以將資料串流至Content Analytics體驗事件資料集。
       * Tag屬性是以Adobe Content Analytics擴充功能建立，並設定為設定精靈中的正確沙箱、資料流和其他設定選項。
-1. 唯有當您手動發佈Tag屬性時，Content Analytics才能有效部署和啟動。
+1. 只有在您[手動發佈](manual.md) Tag屬性時，Content Analytics才會有效部署並啟動。
+
 1. 您只能使用[引導式組態](guided.md)精靈對實作組態進行某些有限的變更。 例如，變更[資料檢視](/help/data-views/data-views.md)。
 1. 您可以透過關聯標籤屬性中的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)，對已實作的設定進行其他變更。
-1. 只有在您手動重新發佈Tag屬性時，才會有效部署和啟用步驟4和5中的設定修改。
+1. 只有在您[手動重新發佈](manual.md) Tag屬性時，才會有效部署和啟動步驟4和5中的組態修改。
 
 
 設定「內容分析」前，請先確認是否符合下列必要條件：

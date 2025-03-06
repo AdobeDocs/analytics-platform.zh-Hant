@@ -6,7 +6,8 @@ feature: Content Analytics
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 2958efb16ed2f5dbd754b407ddb3b6bc2f7c1ee1
+exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
+source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 17%
@@ -49,6 +50,9 @@ ht-degree: 17%
 | 體驗水平像素深度 | 體驗水準畫素深度的可量化值。 | Dimension<br/>衍生欄位 | 顯示\| 沒有值<br/>最近\| 工作階段 |
 | 體驗垂直像素深度 | 體驗的垂直畫素深度的可量化值。 | Dimension<br/>衍生欄位 | 顯示\| 沒有值<br/>最近\| 工作階段 |
 
+{style="table-layout:fixed"}
+
+
 
 ## 體驗屬性
 
@@ -68,6 +72,8 @@ ht-degree: 17%
 | 體驗字數 | ![AI已產生](/help/assets/icons/AI.svg)體驗的字數。 | 量度 | 計算值<br/>小數\| 小數位數： 0 |
 | 體驗每個句子字數 | ![AI已產生](/help/assets/icons/AI.svg)體驗的每句字數。 | 量度 | 計算值<br/>小數\| 小數位數： 0 |
 
+{style="table-layout:fixed"}
+
 
 ## 體驗事件
 
@@ -75,6 +81,8 @@ ht-degree: 17%
 |---|---|---|---|
 | 體驗檢視 | 體驗檢視次數的可量化測量值。 | 量度 | 計算值<br/>小數\| 小數位數： 0 |
 | 體驗點按次數 | 可量化的體驗點按次數測量方式。 | 量度 | 計算值<br/>小數\| 小數位數： 0 |
+
+{style="table-layout:fixed"}
 
 
 ## 資產中繼資料
@@ -96,6 +104,8 @@ ht-degree: 17%
 | 資產建立日期 | 資產建立日期。 | 維度 | 最近\| 工作階段 |
 | 資產上次更新者 | 用於資產更新的識別碼。 | 維度 | 顯示\| 沒有值<br/>最近\| 工作階段 |
 | 資產上次更新日期 | 資產更新日期。 | 維度 | 最近\| 工作階段 |
+
+{style="table-layout:fixed"}
 
 
 ## 資產屬性
@@ -119,6 +129,8 @@ ht-degree: 17%
 | 資產光線條件 | ![AI已產生](/help/assets/icons/AI.svg)資產的照明條件。 可能的值包括：黃金時間、藍色時間、正午、陰天、夜間、高鍵、低鍵、日光、白熾燈、熒光、彩色和攝影棚。 | Dimension<br/>衍生欄位 | 顯示\| 沒有值<br/>最近\| 工作階段 |
 | 資產相機設定 | ![AI已產生](/help/assets/icons/AI.svg)資產的相機設定。 可能的值包括：快門速度、長曝光。 Bokeh blur、motion blur、tilt-shift blur、flash、wide-angle、black and white、surreal、double-exposure、macro和normal模式。 | Dimension<br/>衍生欄位 | 顯示\| 沒有值<br/>最近\| 工作階段 |
 
+{style="table-layout:fixed"}
+
 
 ## 資產事件
 
@@ -126,6 +138,8 @@ ht-degree: 17%
 |---|---|---|---|
 | 資產檢視 | 可量化的資產檢視次數測量方式。 | 量度 | 計算值<br/>小數\| 小數位數： 0 |
 | 資產點擊次數 | 資產點選次數的可量化測量方式。 | 量度 | 計算值<br/>小數\| 小數位數： 0 |
+
+{style="table-layout:fixed"}
 
 
 <!--
@@ -137,6 +151,8 @@ ht-degree: 17%
 | Experience Path Root | Root path to the experience. | Derived Field | |
 | Asset Location | Location of the asset. | Derived Field | |
 | Asset Percenption ID + Asset ID | Combiination of asset perception identifier and asset identifier | Derived Field | |
+
+{style="table-layout:fixed"}
 -->
 
 ## 計算量度
@@ -145,3 +161,5 @@ ht-degree: 17%
 |---|---|---|---|
 | 資產點進率 | 資產點選次數/資產檢視 | 計算量度 | |
 | 體驗點進率 | 體驗點按次數/體驗檢視 | 計算量度 | |
+
+{style="table-layout:fixed"}
