@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 19771d5cd2d2a38919c42e7f76bd700016020912
+source-git-commit: bd2d45b9fc1380e36fc482ee75e1a9bbb26f6cf7
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 您可以使用適用於 Customer Journey Analytics 的 Report Builder 進行以下工作：
 
-- 參照現有的工作表儲存格，以取得完美的列順序、日期範圍或篩選器
+- 參考現有工作表儲存格，以取得完美的列順序、日期範圍或區段
 - 使用行事曆、儲存格參照或日期數學，建立自訂日期
 - 使用熟悉的 Excel 格式化工具設計您的表格和視覺效果
 

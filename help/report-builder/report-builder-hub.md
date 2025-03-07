@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: bd2d45b9fc1380e36fc482ee75e1a9bbb26f6cf7
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
@@ -65,6 +65,6 @@ Report Builder 中心包含「建立」和「管理」按鈕、「命令」清�
 
 **資料範圍**&#x200B;顯示所選取資料區塊的資料範圍。 如果在多個資料區塊中選取了多個資料範圍，則&#x200B;**資料範圍**&#x200B;連結會顯示&#x200B;*多個*。
 
-### 篩選器
+### 客戶細分
 
-該&#x200B;**篩選器**&#x200B;連結會顯示所選取資料區塊使用之篩選器的摘要清單。 如果在多個資料區塊中選取了多個已套用的篩選器，則&#x200B;**篩選器**&#x200B;連結會顯示&#x200B;*多個*。
+**區段**&#x200B;連結會顯示所選資料區塊使用之區段的摘要清單。 如果選取了多個已套用多個區段的資料區塊，**區段**&#x200B;連結會顯示&#x200B;*多個*。
