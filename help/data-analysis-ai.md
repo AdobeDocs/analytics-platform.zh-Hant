@@ -7,7 +7,7 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 99f82353e41180a0090e84e58593d63fc5cbe803
+source-git-commit: ac3ec479938acf509bbd26be282b75e75dd49c33
 workflow-type: tm+mt
 source-wordcount: '1650'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Customer Journey Analytics中的AI助理是產生式的AI交談代理程式，�
 | **可驗證性** | 可透過產生的自由表格和資料視覺效果確認資料可驗證性和正確性。 例如，如果使用者詢問&#x200B;*上個月*&#x200B;的趨勢訂單，您可以確認在新產生的面板、資料視覺效果和自由表格中選取了正確的量度（「訂單」）和日期範圍（「上個月」）。 |
 | **意見反應** | <ul><li>豎起大拇指</li><li>向下拇指</li><li>標幟</li></ul> |
 
-### 範圍外的Alpha功能
+### 範圍外的Beta功能
 
 | 不支援的功能 | 說明 |
 | --- | --- |
@@ -78,9 +78,9 @@ See [Access control](/help/technotes/access-control.md#access-control) for more 
 
 3. 在專案頁面頂端的橫幅中選取&#x200B;**[!UICONTROL 空白專案]**&#x200B;以開啟新的空白專案。
 
-4. 確保為面板選取的資料檢視與為Alpha測試的AI助理啟用相同的資料檢視。
+4. 確保為面板選取的資料檢視與為Beta測試的AI助理啟用相同的資料檢視。
 
-   如果您不確定，請聯絡Alpha Slack頻道。
+   如果您不確定，請聯絡Beta Slack頻道。
 
 5. 在頁面的右上角區域選取AI助理聊天圖示。
 
@@ -187,7 +187,7 @@ AI Assistant會處理每個使用者提示所提供的內容，並嘗試以自�
 | 折線圖視覺效果 | <ul><li>趨勢</li><li>在[時間範圍]內的[量度]</li></ul> |
 | 長條圖視覺效果 | <ul><li>由[Dimension]進行的[量度]</li></ul> |
 
-## Alpha測試期望和要求的意見回饋
+## Beta測試期望和要求的意見回饋
 
 提出每個問題後，請仔細檢閱助理提供的答案。 提供意見回饋之前，請務必全面評估產生的視覺效果。
 

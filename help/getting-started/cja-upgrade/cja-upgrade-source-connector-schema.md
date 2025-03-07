@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+source-git-commit: ac3ec479938acf509bbd26be282b75e75dd49c33
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '587'
 ht-degree: 23%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 23%
 >id="cja-upgrade-source-connector-create-schema"
 >title="建立 Analytics 來源連接器的結構描述"
 >abstract="此結構描述是 Adobe Analytics ExperienceEvent 欄位群組，與構成您組織的自訂結構描述的所有欄位群組之組合。您可以將 Analytics 來源連接器使用的欄位對應至您組織的結構描述，並且僅用於歷史資料。<br><br>雖然本質上具有技術成分，但建立此結構描述可以在數小時內完成，如果您確切知道哪些欄位群組構成組織的自訂結構描述，則速度可能會更快。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-upgrade-source-connector-historical"
+>title="為歷史資料建立 Analytics 來源連接器"
+>abstract="您可以使用Analytics來源聯結器將Adobe Analytics報告套裝資料匯入Adobe Experience Platform。 然後，這些資料即可用作Customer Journey Analytics中的歷史資料。"
 
 <!-- markdownlint-enable MD034 -->
 
