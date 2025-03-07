@@ -5,18 +5,22 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
-source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
+source-git-commit: 97d48d88af969705f2664781e7a972f20c1b4239
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 9%
+source-wordcount: '635'
+ht-degree: 11%
 
 ---
 
 # 步驟1：開始升級至Customer Journey Analytics
 
+<!--
+
 >[!AVAILABILITY]
 >
->本頁資訊已取代為下列更完整的升級資訊： <ul><li>**建議的升級步驟**<p>如需詳細資訊，請參閱[從Adobe Analytics升級為Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。</p></li><li>**Customer Journey Analytics升級指南**<p>有新的升級指南可供使用，動態產生針對貴組織和獨特環境量身打造的升級步驟。</p><p>若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。</p></li></ul>
+>The information on this page is being replaced with the following more comprehensive upgrade information: <ul><li>**Recommended upgrade steps**<p>For detailed information, see [Recommended path when upgrading from Adobe Analytics to Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).</p></li><li>**Customer Journey Analytics Upgrade Guide**<p>A new upgrade guide is available that dynamically generates upgrade steps that are tailored for your organization and your unique circumstances.</p><p>To access the guide from Customer Journey Analytics, select the **[!UICONTROL Workspace]** tab, then select **[!UICONTROL Upgrade to Customer Journey Analytics]** in the left panel. Follow the on-screen instructions.</p></li></ul>
+
+-->
 
 Customer Journey Analytics是新一代的Analytics。 它允許多管道資料收集（線上和離線資料），結合強大的報表時間處理功能（透過資料檢視中元件和衍生欄位的定義）。
 
