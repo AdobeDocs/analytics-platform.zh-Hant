@@ -1,12 +1,12 @@
 ---
 title: 如何在Report Builder中篩選維度
-description: 說明如何在Customer Journey Analytics的Report Builder中使用篩選維度
+description: 說明如何在適用於Customer Journey Analytics的Report Builder中使用篩選器維度
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: cbb48623212c2f3d8968dc6daca491761e2f4a9e
+source-git-commit: 0d87f28aa4f8c1b16f46227abad7d374800dcb66
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 88%
@@ -21,7 +21,7 @@ ht-degree: 88%
 
 1. 在「命令」面板中選取資料區塊，然後按一下「編輯」資料區塊。
 
-1. 按一下「下一步」以顯示「維度」索引標籤。
+1. 按一下[下一步]****&#x200B;以顯示[維度]索引標籤。
 
 1. 按一下表格中元件名稱旁的 **...** 圖示。
 
@@ -175,6 +175,6 @@ ht-degree: 88%
 
 在&#x200B;**維度**&#x200B;索引標籤上，按一下維度名稱旁的 ＞形箭號，即可檢視維度項目清單。
 
-![Dimension索引標籤和維度清單。](./assets/dimensions_chevron.png)
+![維度索引標籤和維度清單。](./assets/dimensions_chevron.png)
 
 您可將項目拖放至&#x200B;**表格**&#x200B;或是按兩下項目名稱，即可將其加入&#x200B;**表格**&#x200B;產生器。
