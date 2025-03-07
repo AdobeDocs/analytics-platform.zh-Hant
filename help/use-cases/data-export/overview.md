@@ -8,7 +8,7 @@ exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
 source-git-commit: efb961c571ddcde1017e6bf2080fc2a97c28bb13
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-feeds-step"
 >title="使用與資料摘要類似的匯出功能"
->abstract="Customer Journey Analytics尚未提供資料摘要的確切替代專案。 不過，類似的功能可以透過完整的表格匯出、Platform資料集匯出、BI工具整合和報表API等功能取得。"
+>abstract="Customer Journey Analytics 目前尚未提供能完全替代資料摘要的功能。然而，透過完整表格匯出、平台資料集匯出、BI 工具整合和報告 API 等功能，仍可執行類似功能。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 40%
+ht-degree: 43%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="媒體同時檢視者"
->abstract="分析一段時間內的同時檢閱者、檢視尖峰同時檢閱者，並可選擇使用篩選器、維度、維度專案或日期範圍進行劃分和比較。"
+>abstract="分析特定時間內的同時檢閱者、檢視最高同時檢閱者數，並可選擇性使用篩選器、維度、維度項目或日期範圍進行劃分與比對。"
 
 <!-- markdownlint-enable MD034 -->
 

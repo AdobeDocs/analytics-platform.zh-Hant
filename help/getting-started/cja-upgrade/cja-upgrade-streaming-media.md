@@ -1,5 +1,5 @@
 ---
-title: 設定Customer Journey Analytics的串流媒體收集
+title: 為 Customer Journey Analytics 設定串流媒體集合
 description: 瞭解如何設定Customer Journey Analytics的串流媒體收集
 role: Admin
 solution: Customer Journey Analytics
@@ -10,18 +10,18 @@ exl-id: b807099d-a61d-48f9-9fec-94ecc6b76213
 source-git-commit: f7b06838bbe5b1a5e304c6d0da6d34635391a90b
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
-# 設定Customer Journey Analytics的串流媒體收集 {#streaming-media-setup}
+# 為 Customer Journey Analytics 設定串流媒體集合 {#streaming-media-setup}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-media-edge"
->title="設定和實作Media Edge"
->abstract="如果您打算搭配Customer Journey Analytics使用串流媒體收集，則必須在升級流程的特定步驟中進行特定選擇。 例如，您需要將MediaAnalytics互動詳細資料欄位群組新增到結構描述、在資料流中啟用Media Analytics等等。"
+>title="設定並實作 Media Edge"
+>abstract="如果您計劃將串流媒體集合與 Customer Journey Analytics 併用，升級過程的某些步驟中則需進行特定選擇。例如，您需要將 MediaAnalytics 互動詳細資料欄位群組新增至您的綱要中、在資料流中啟用媒體分析等等。"
 
 <!-- markdownlint-enable MD034 -->
 

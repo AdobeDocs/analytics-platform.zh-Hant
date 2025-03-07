@@ -10,18 +10,18 @@ exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
 source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 0%
+ht-degree: 34%
 
 ---
 
-# 升級替代方案：將資料層傳送至Customer Journey Analytics {#data-collection-data-layer}
+# 升級替代方案：將資料層傳送至 Customer Journey Analytics {#data-collection-data-layer}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-layer"
->title="將資料層傳送至Adobe"
->abstract="您可以透過資料物件將整個資料層傳送至Adobe，而不需透過XDM物件傳送資料。<br><br>此選項可讓您將資料層對應至XDM，而不是從頭開始填入XDM物件，以節省實作時間。 不過，此對應需要大量工作，因為會有大量資料無法由Adobe輕鬆解譯。 隨著時間推移，此選項也會引入額外的複雜性，因為您日後新增至資料的任何欄位都必須對應至資料流中的XDM。"
+>title="將資料層傳送至 Adobe"
+>abstract="您可以透過資料物件將整個資料層傳送至 Adobe，而非透過 XDM 物件傳送資料。<br><br>此選項可讓您將資料層對應至 XDM，無須從頭開始填入 XDM 物件，進而省下實作時間。然而，這種對應會帶來繁重的工作量，因為其中有大量 Adobe 無法快速理解的資料。此一選項也會隨時間變得更加複雜，因為您將來新增到資料中的任何欄位都必須對應至資料流中的 XDM。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -29,8 +29,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-send-data-layer"
->title="將資料層傳送至Adobe"
->abstract="設定您的實作，以便在所需的時間將資料傳送至Adobe，並將JSON裝載設定為您的完整資料層。"
+>title="將您的資料層傳送至 Adobe"
+>abstract="設定您的實作，以在預計時間將資料傳送至 Adobe，並將 JSON 承載設定為您的完整資料層。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,8 +38,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-layer-map"
->title="將每個資料層元素指派給XDM"
->abstract="將每個資料層元素對應至所需的XDM欄位。 所有未對應至XDM欄位的資料層元素都會永久刪除，因為Adobe不知道該資料儲存於何處或如何。"
+>title="將各個資料層元素指派給 XDM"
+>abstract="將每個資料層元素對應至所需的 XDM 欄位。任何未對應至 XDM 欄位的資料層元素都將被永久刪除，因為 Adobe 無法確定該資料儲存的位置或方式。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,8 +65,8 @@ ht-degree: 0%
 
 將整個資料層傳送至Customer Journey Analytics的基本步驟如下：
 
-1. 設定您的實作，以便在所需的時間將資料傳送至Adobe，並將JSON裝載設定為您的完整資料層。
+1. 設定您的實作，以在預計時間將資料傳送至 Adobe，並將 JSON 承載設定為您的完整資料層。
 
 1. 將每個資料層元素對應至所需的XDM欄位。
 
-   所有未對應至XDM欄位的資料層元素都會永久刪除，因為Adobe不知道該資料儲存於何處或如何。
+   任何未對應至 XDM 欄位的資料層元素都將被永久刪除，因為 Adobe 無法確定該資料儲存的位置或方式。

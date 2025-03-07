@@ -10,7 +10,7 @@ exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
 source-git-commit: ff951b6ca03fc5be4d24651b8b8e4bdd06216274
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 27%
+ht-degree: 33%
 
 ---
 
@@ -92,8 +92,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-determine-implementation"
->title="判斷您現有的實作類型"
->abstract="在組織內部工作，決定您目前用來將資料傳送至Adobe Analytics的實作型別。 當您準備好移轉至Customer Journey Analytics時，與知道此資訊的個人或團隊合作。<br><br>在您決定組織使用的實作型別後，請修改問卷中的答案。"
+>title="確認您現有的實作類型"
+>abstract="與組織內部合作，確認您目前將資料傳送至 Adobe Analytics 所使用的實作類型。當您準備移傳至 Customer Journey Analytics 時，很可能需要與了解此資訊的個人或團隊合作。<br><br>確定組織所使用的實作類型後，請修改問卷中的答案。"
 
 <!-- markdownlint-enable MD034 -->
 

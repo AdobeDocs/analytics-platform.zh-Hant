@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1709bb2e262759376b0b0bb78444253968f9dac4
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 38%
+ht-degree: 45%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_button"
 >title="歸因"
->abstract="使用成功量度、管道和回顧期間，快速比較和視覺化任何數量的歸因模型。"
+>abstract="使用成功量度、管道及回顧期間，快速比較和視覺化任何數目的歸因模型。"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="歸因面板"
->abstract="快速比較和視覺化任何數量的成功量度的歸因模型。 選取管道（維度）、要包含的模型和回顧期間。"
+>abstract="快速比較並視覺化任何數目的歸因模型，以評估成功量度。選取管道 (維度)、納入的模型及回顧期間。"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 <!-- markdownlint-enable MD034 -->

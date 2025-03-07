@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_panel"
 >title="實驗"
->abstract="比較不同的使用者體驗、行銷或傳送訊息變化，以確定哪一個產生特定結果的績效最好。 指定實驗、對照變體、成功量度和標準化量度。 或者，設定信賴度的上下限。"
+>abstract="比較不同的使用者體驗、行銷或傳送訊息變化版本，確定哪一種最能達成特定結果。指定實驗、進行對照的控制變數、成功量度和正規化量度。或者，也可以設定信賴度的上限及下限。"
 
 <!-- markdownlint-enable MD034 -->
 

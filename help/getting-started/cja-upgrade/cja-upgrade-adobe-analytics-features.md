@@ -10,7 +10,7 @@ exl-id: 92053109-f80d-47ab-b011-c28a5411149c
 source-git-commit: 7a5414745f065ec29b59172dee4f723c0ce72e68
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 40%
+ht-degree: 55%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-activity-map-support"
->title="尚未提供Activity Map覆蓋圖支援"
->abstract="Customer Journey Analytics尚未提供Activity Map覆蓋支援。 預計未來推出。"
+>title="尚未支援 Activity Map 覆蓋功能"
+>abstract="Customer Journey Analytics 尚未支援 Activity Map 覆蓋功能。此功能預計將於未來推出。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -84,7 +84,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="串流媒體資料"
->abstract="Adobe Analytics和Customer Journey Analytics的附加元件，專門處理媒體的資料收集，例如音訊、視訊或串流內容。"
+>abstract="Adobe Analytics 及 Customer Journey Analytics 的附加元件，專門用於媒體的資料收集，例如音訊、視訊或串流內容。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -93,7 +93,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-component-migration"
 >title="移轉專案和元件"
->abstract="將Adobe Analytics專案及其相關元件帶入Customer Journey Analytics。"
+>abstract="將 Adobe Analytics 專案及其相關元件帶入 Customer Journey Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 

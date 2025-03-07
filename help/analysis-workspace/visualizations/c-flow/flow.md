@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 25%
+ht-degree: 36%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="流量"
->abstract="分析從一個接觸點到下一個接觸點的造訪或訪客流量。 指定要以開頭或結尾的元件（量度、維度或專案）。 您可以選擇定義進階設定，以進一步設定視覺效果。"
+>abstract="分析從某一接觸點到下一個接觸點的造訪或訪客流量。指定開始和結束的元件 (量度、維度或項目)。或者，您也可以定義進階設定，進一步設定視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
 

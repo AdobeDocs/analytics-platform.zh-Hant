@@ -10,7 +10,7 @@ exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: d745e0c3bc75ba6f9d29aedcdbaaae9aa17d6ab8
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 27%
+ht-degree: 46%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-stitch-customer-care"
->title="聯絡Adobe客戶服務以產生彙整資料集"
->abstract="如果您的欄位含有存在於多個資料集中的識別碼，但不是主要識別碼，您可以使用它來產生具有一致識別碼的新資料集。"
+>title="聯絡 Adobe 客戶服務以產生拼接資料集"
+>abstract="如果您的某個欄位包含存在於多個資料集中但並非主要識別碼的識別碼，則可以使用該識別碼產生具有一致識別碼的新資料集。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,8 +47,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-rtcdp"
->title="與Real-time CDP整合"
->abstract="結合來自多個來源的設定檔資料，以根據使用者特徵產生對象和區段。"
+>title="與 Real-Time CDP 整合"
+>abstract="結合來自多個來源的設定檔資料，根據使用者特徵產生受眾和細分。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -56,8 +56,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-target"
->title="暫時與Adobe Target整合"
->abstract="Adobe建議與Adobe Journey Optimizer整合，以利個人化使用案例。 您可以整合Adobe Target，但這是短期的解決方案。"
+>title="暫時與 Adobe Target 整合"
+>abstract="針對個人化使用案例，Adobe 建議與 Adobe Journey Optimizer 整合。您可以整合Adobe Target，但這是短期的解決方案。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,8 +65,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-ajo"
->title="整合Journey Optimizer"
->abstract="為客戶提供連結、情境式和個人化的體驗。"
+>title="與 Journey Optimizer 整合"
+>abstract="為客戶帶來相互連結的情境式個人化體驗。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -75,7 +75,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-aam"
 >title="暫時與 Adobe Audience Manager 整合"
->abstract="Adobe建議針對以受眾為基礎的使用案例，與Adobe Real-time CDP整合。 您可以整合Audience Manager，但這是短期的解決方案。"
+>abstract="針對以受眾為基礎的使用案例，Adobe 建議與 Adobe Real-Time CDP 整合。您可以整合Audience Manager，但這是短期的解決方案。"
 
 <!-- markdownlint-enable MD034 -->
 

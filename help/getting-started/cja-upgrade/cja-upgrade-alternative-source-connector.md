@@ -21,7 +21,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-exclusively"
 >title="僅使用 Analytics 來源連接器"
->abstract="(不建議) 您可以使用 Analytics 來源連接器作為 Customer Journey Analytics 的唯一實施路徑。<br><br>此選項透過快速將資料傳送至 Customer Journey Analytics 以省下實施時間。然而，這種作法有一些缺點，例如較高的延遲和未來難以脫離 Adobe Analytics。"
+>abstract="(不建議) 您可以使用 Analytics 來源連接器作為 Customer Journey Analytics 的唯一實作路徑。<br><br>此選項透過快速將資料傳送至 Customer Journey Analytics 以省下實作時間。然而，這種作法有一些缺點，例如較高的延遲和未來難以脫離 Adobe Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 

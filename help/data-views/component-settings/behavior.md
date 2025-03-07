@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 84%
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_behavior"
 >title="行為"
->abstract="決定如何彙總此維度中的條列專案。 指定欄位中的字串值是否應為小寫。"
+>abstract="判斷如何彙總此維度中的條列項目。指定欄位中的字串值是否應為小寫。"
 
 <!-- markdownlint-enable MD034 -->
 

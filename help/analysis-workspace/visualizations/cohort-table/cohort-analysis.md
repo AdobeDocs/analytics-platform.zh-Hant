@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 23%
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="同類群組表格"
->abstract="根據事件的完成情況分組使用者，然後分析他們在一段時間內的持續參與和流失率。 指定粒度、同類群組分析型別，以及是否要使用滾動計算等其他設定。 您可以設定進階選項，以根據選取的維度建立延遲表格或自訂維度同類群組。"
+>abstract="根據事件的完成情形將使用者分組，然後分析他們在一段時間內的持續參與度及流失情況。指定其他設定，例如詳細程度、同類群組分析類型以及是否使用滾動計算。您可以設定進階選項，根據所選維度建立延遲表格或自訂維度同類群組。"
 
 <!-- markdownlint-enable MD034 -->
 

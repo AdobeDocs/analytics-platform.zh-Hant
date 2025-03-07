@@ -8,7 +8,7 @@ role: User
 source-git-commit: 827ab36b27eee1b0af46ff1c653f13b1accfe105
 workflow-type: tm+mt
 source-wordcount: '3632'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -186,22 +186,22 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
 >title="預設容器"
->abstract="選取要用於[!UICONTROL 流量]視覺效果的預設容器。 如果選取的資料檢視未包含選取的預設容器，則[!UICONTROL 流量]視覺效果會自動切換至另一個主要容器。"
+>abstract="選取用於[!UICONTROL 流量]視覺效果的預設容器。如果選取的資料檢視不包含已選取的預設容器，[!UICONTROL 流量]視覺效果就會自動切換到另一個主要容器。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
 >title="預設容器"
->abstract="選取要用於[!UICONTROL 流失]視覺效果的預設容器。 如果選取的資料檢視未包含選取的預設容器，則[!UICONTROL 流失]視覺效果會自動切換至另一個主要容器。"
+>abstract="選取用於[!UICONTROL 流失]視覺效果的預設容器。如果選取的資料檢視不包含已選取的預設容器，[!UICONTROL 流失]視覺效果就會自動切換到另一個主要容器。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulthistogramcountingmethod"
->title="預設計數方法"
->abstract="選取要用於[!UICONTROL 色階分佈圖]視覺效果的預設計數方法。 如果選取的資料檢視未包含選取的預設計數方法，[!UICONTROL 色階分佈圖]視覺效果將自動切換至另一個主要計數方法。"
+>title="預設計數法"
+>abstract="選取用於[!UICONTROL 直方圖]視覺效果的預設計數法。如果選取的資料檢視不包含已選取的預設容器，[!UICONTROL 直方圖]視覺效果就會自動切換到另一個主要容器。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultjourneycanvascontainer"
 >title="預設容器"
->abstract="選取要用於[!UICONTROL 歷程畫布]視覺效果的預設容器。 如果選取的資料檢視未包含選取的預設容器，[!UICONTROL 歷程畫布]視覺效果會自動切換至另一個主要容器。"
+>abstract="選取用於[!UICONTROL 歷程畫布]視覺效果的預設容器。如果選取的資料檢視不包含已選取的預設容器，[!UICONTROL 歷程畫布]視覺效果就會自動切換到另一個主要容器。"
 
 
 您可以為在 Analysis Workspace 中建立的所有新專案更新偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。

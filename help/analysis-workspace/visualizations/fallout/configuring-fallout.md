@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_container"
 >title="流失容器"
->abstract="選取要分析路徑分析的容器。 此選擇可協助您瞭解參與情況，並將分析限制在選取的容器。"
+>abstract="選取容器以進行路徑分析。此選項有助於您了解參與度，並將分析範圍限制在所選容器內。"
 
 在視覺效果中，有特定設定可供使用。
 

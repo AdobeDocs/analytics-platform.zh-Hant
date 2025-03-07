@@ -7,7 +7,7 @@ exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 19%
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="下一個或上一個項目"
->abstract="分析訪客先前來自或前往下一個的最常見位置。 指定用於視覺效果的維度、維度專案、方向和容器。"
+>abstract="分析訪客之前最常來自什麼地方或接下來最常造訪什麼地方。指定用於視覺效果的維度、維度項目、方向和容器。"
 
 
 
@@ -42,7 +42,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_container"
 >title="容器"
->abstract="選取貨櫃以決定查詢的範圍。"
+>abstract="選取容器以確定查詢範圍。"
 
 若要使用&#x200B;**[!UICONTROL 下一個或上一個專案]**&#x200B;面板：
 

@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="dataview_component_settings"
 >title="元件設定"
->abstract="檢視及設定名稱、說明和與元件相關的其他設定。 核取此方塊可在報告中隱藏此元件，使非管理員使用者無法存取。 管理員仍可透過在Workspace專案中選取「**[!UICONTROL 顯示所有元件]**」來存取元件。"
+>abstract="檢視及設定名稱、說明和與元件相關的其他設定。勾選此方框，即可在報告中對非管理員使用者隱藏此元件。管理員仍可以選取 Workspace 專案中的「**[!UICONTROL 顯示所有元件]**」存取該元件。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="媒體播放時間"
->abstract="分析一段時間內的視訊觀看量、選取各種粒度，並可選擇使用篩選器、維度、維度專案或日期範圍進行劃分和比較。"
+>abstract="分析特定時間內的影片觀看趨勢、選取不同詳細程度，並可選擇性使用篩選器、維度、維度項目或日期範圍進行劃分與比對。"
 
 <!-- markdownlint-enable MD034 -->
 

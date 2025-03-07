@@ -8,7 +8,7 @@ role: User
 source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-additional-datasets"
 >title="新增其他資料集至您的連線"
->abstract="將資料新增至Adobe Experience Platform中的資料集後，即可將該資料集新增至Customer Journey Analytics中的連線。 從其他管道新增資料時，請確保相關資料符合您的組織使用的結構描述。<br><br>你所新增的每個資料集均需要大量工作，特別是要確保每個事件都有唯一識別碼，並確保整體資料結構符合組織的自訂結構描述。建立此工作流程需要組織中多個團隊進行長達數個月的協調。"
+>abstract="在 Adobe Experience Platform 中新增資料至資料集後，即可將該資料集新增至 Customer Journey Analytics 的連線。從其他管道新增資料時，請確保相關資料符合您的組織使用的結構描述。<br><br>你所新增的每個資料集均需要大量工作，特別是要確保每個事件都有唯一識別碼，並確保整體資料結構符合組織的自訂結構描述。建立此工作流程需要組織中多個團隊進行長達數個月的協調。"
 
 <!-- markdownlint-enable MD034 -->
 

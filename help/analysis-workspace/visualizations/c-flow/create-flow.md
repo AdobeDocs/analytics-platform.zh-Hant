@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '1446'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
 >title="流量容器"
->abstract="選取要用來顯示路徑分析的容器（數字）。"
+>abstract="選取用於顯示路徑分析 (數量) 的容器。"
 
 
 流量視覺效果可協助您瞭解源自網站或應用程式上特定轉換事件的歷程。 或導致特定轉換事件。 此視覺效果會透過您的維度（和維度專案）或量度追蹤路徑。

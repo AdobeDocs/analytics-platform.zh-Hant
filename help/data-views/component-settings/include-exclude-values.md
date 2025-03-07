@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 69%
+ht-degree: 74%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_includeexcludevalues"
 >title="包含排除值"
->abstract="縮小維度而僅包含符合特定條件的值。包含和排除會發生於報表中的配置和篩選之前。 判斷指定的篩選邏輯是否區分大小寫。"
+>abstract="縮小維度而僅包含符合特定條件的值。包含和排除會在報告中的配置和篩選前執行。判斷指定的篩選邏輯是否區分大小寫。"
 
 <!-- markdownlint-enable MD034 -->
 

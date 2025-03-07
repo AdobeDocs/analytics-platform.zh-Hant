@@ -21,7 +21,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement-logic"
 >title="將 AppMeasurement 邏輯與 Web SDK 併用"
->abstract="您可以透過資料物件以 AppMeasurement 格式傳送所有變數，而非透過 XDM 物件傳送資料。<br><br>此選項可讓您將 AppMeasurement 邏輯對應至 XDM，無須從頭開始填入 XDM 物件，進而省下實施時間。然而，這種作法會隨時間變得更加複雜，因為您將來新增的任何欄位都必須對應至資料流中的 XDM。"
+>abstract="您可以透過資料物件以 AppMeasurement 格式傳送所有變數，而非透過 XDM 物件傳送資料。<br><br>此選項可讓您將 AppMeasurement 邏輯對應至 XDM，無須從頭開始填入 XDM 物件，進而省下實作時間。然而，這種作法會隨時間變得更加複雜，因為您將來新增的任何欄位都必須對應至資料流中的 XDM。"
 
 <!-- markdownlint-enable MD034 -->
 
