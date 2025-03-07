@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 0e508ce7-8f3b-41f1-808c-1348942c2716
-source-git-commit: 773c03dfec99abcabdc667c549cce0dc1b1aabc4
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 8%
 
 ---
@@ -38,4 +38,7 @@ ht-degree: 8%
 
 您可以手動安裝Platform Web SDK，方法是直接將基底程式碼新增至實施中的每個頁面。
 
-如需詳細資訊，請參閱「Web SDK指南」中[安裝Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk)中的[選項2：安裝預先建置的獨立版本](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version)。
+1. 請依照[選項2：在Web SDK指南的[安裝Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk)中安裝預先建置的獨立版本](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version)一節中的步驟操作。
+
+{{upgrade-final-step}}
+

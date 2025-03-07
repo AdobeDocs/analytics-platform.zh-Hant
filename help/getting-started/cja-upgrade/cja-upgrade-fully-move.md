@@ -7,21 +7,21 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 12%
+ht-degree: 18%
 
 ---
 
-# 評估升級至Customer Journey Analytics後何時停用Adobe Analytics {#evaluate-aa-needs}
+# 評估升級至 Customer Journey Analytics 後，何時需要停用 Adobe Analytics {#evaluate-aa-needs}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-fully-move"
 >title="完全轉移至 Customer Journey Analytics"
->abstract="（建議） Adobe建議您從Adobe Analytics完全轉換至Customer Journey Analytics。 在轉換期間，您應規劃搭配Customer Journey Analytics執行Adobe Analytics，以執行並排資料比較。 當您熟悉資料後，可以停用Adobe Analytics。"
+>abstract="(建議) Adobe 建議您從 Adobe Analytics 完全轉移至 Customer Journey Analytics。在轉移期間，您應規劃同時使用 Adobe Analytics 和 Customer Journey Analytics，以便執行並列資料對照。資料經確認無誤後，即可停用 Adobe Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -135,3 +135,6 @@ ht-degree: 12%
    使用新的Web SDK實作在Customer Journey Analytics中收集足夠的歷史資料後，您就可以完全移除Analytics來源聯結器。
 
    當您不再需要透過Analytics來源聯結器從Adobe Analytics環境取得歷史資料，而且您可以僅信賴您在新的Web SDK實作中收集的歷史資料時，即可採取此動作。
+
+{{upgrade-final-step}}
+

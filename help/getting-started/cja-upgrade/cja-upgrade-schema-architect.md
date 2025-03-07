@@ -7,10 +7,10 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 28%
+source-wordcount: '487'
+ht-degree: 26%
 
 ---
 
@@ -39,17 +39,23 @@ Adobe建議建立自訂Experience Data Model (XDM)結構描述，以便在從Ado
 
 Customer Journey Analytics的底層架構提供比Adobe Analytics更大的彈性。 建立新的XDM結構描述是解鎖靈活性的關鍵方式。 當您升級至Customer Journey Analytics時，請務必避免在結構描述中沿用不必要的Adobe Analytics限制。
 
+>[!NOTE]
+>
+>下列資訊尚未完成。 這將在不久的將來完成。
+
 | Adobe Analytics資料架構 | XDM結構描述架構 |
 |---------|----------|
 | 個別量度會新增至Analytics資料架構。<br/>例如，在Adobe Analytics中，您對每個事件有不同的eVar。 | 在資料檢視中建立個別量度，而不是在XDM結構描述中建立。 若日後需要進行變更，這麼做可為提供更大的彈性。<br/>例如，在Customer Journey Analytics中，您在結構描述中有單一事件，並在資料檢視中使用建立事件。 |
-| 建立自訂變數需要prop和eVar。 | B2 |
-| A3 | B3 |
+| 建立自訂變數需要prop和eVar。 |  |
 
 ## 識別您的資料團隊和整個組織的其他利害關係人
 
+>[!NOTE]
+>
+>此資訊尚未提供。 不久將推出此功能。
 
 ## 考慮一下貴組織中使用的其他Adobe Experience Platform應用程式
 
-
-
-1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
+>[!NOTE]
+>
+>此資訊尚未提供。 不久將推出此功能。

@@ -7,21 +7,21 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 1%
+source-wordcount: '1302'
+ht-degree: 7%
 
 ---
 
-# 升級替代方案：將AppMeasurement資料收集與Experience Platform Web SDK和Customer Journey Analytics搭配使用 {#data-collection-appmeasurement}
+# 升級替代方案：將 AppMeasurement 資料彙集與 Experience Platform Web SDK 和 Customer Journey Analytics 併用 {#data-collection-appmeasurement}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement-logic"
->title="搭配使用AppMeasurement邏輯與Web SDK"
->abstract="請透過資料物件以AppMeasurement格式傳送所有變數，而不透過XDM物件傳送資料。<br><br>此選項可讓您將您的AppMeasurement邏輯對應至XDM，而不是從頭開始填入XDM物件，以節省實作時間。 不過，它會隨著時間增加額外的複雜性，因為您日後新增的任何欄位都必須對應至資料流中的XDM。"
+>title="將 AppMeasurement 邏輯與 Web SDK 併用"
+>abstract="您可以透過資料物件以 AppMeasurement 格式傳送所有變數，而非透過 XDM 物件傳送資料。<br><br>此選項可讓您將 AppMeasurement 邏輯對應至 XDM，無須從頭開始填入 XDM 物件，進而省下實施時間。然而，這種作法會隨時間變得更加複雜，因為您將來新增的任何欄位都必須對應至資料流中的 XDM。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -100,7 +100,7 @@ ht-degree: 1%
 
       如需詳細資訊，請參閱Experience Platform檔案中[資料彙集的資料準備](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep)中的[對應](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping)。
 
-   1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
+{{upgrade-final-step}}。
 
 
 

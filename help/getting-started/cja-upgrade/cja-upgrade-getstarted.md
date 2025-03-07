@@ -5,26 +5,30 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
-source-git-commit: c64f7a1676f4fd3712e618e26357f430e7d9f019
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 11%
+source-wordcount: '721'
+ht-degree: 9%
 
 ---
 
 # 步驟1：開始升級至Customer Journey Analytics
 
-Customer Journey Analytics是新一代的分析產品。 它允許多管道資料收集（線上和離線資料），結合強大的報表時間處理功能（透過資料檢視中元件和衍生欄位的定義）。
+>[!AVAILABILITY]
+>
+>本頁資訊已取代為下列更完整的升級資訊： <ul><li>**建議的升級步驟**<p>如需詳細資訊，請參閱[從Adobe Analytics升級為Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。</p></li><li>**Customer Journey Analytics升級指南**<p>有新的升級指南可供使用，動態產生針對貴組織和獨特環境量身打造的升級步驟。</p><p>若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。</p></li></ul>
+
+Customer Journey Analytics是新一代的Analytics。 它允許多管道資料收集（線上和離線資料），結合強大的報表時間處理功能（透過資料檢視中元件和衍生欄位的定義）。
 
 在開始從Adobe Analytics升級至Customer Journey Analytics的流程之前，您應該瞭解Customer Journey Analytics的好處，以及成功升級所需的步驟。
 
-## 瞭解Customer Journey Analytics的好處
+## 瞭解Customer Journey Analytics的優點
 
-以下是一些主要優點： (如需完整清單，以及這些主要功能的詳細資訊，請參閱[僅適用於Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md#adobe-customer-journey-analytics-features-not-available-in-adobe-analytics)的功能。)
+以下是一些主要優點： (如需完整清單，以及這些主要功能的詳細資訊，請參閱[僅適用於Customer Journey Analytics的功能](/help/getting-started/aa-vs-cja/cja-aa.md#adobe-customer-journey-analytics-features-not-available-in-adobe-analytics)。)
 
 * [多頻道報告](/help/getting-started/aa-to-cja-user.md#changes-to-data-architecture)
 
-  Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料綱要和類型。從多個管道收集和報告資料，例如數位(Web)、銷售點系統、行動裝置、CRM系統等。
+  Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料結構描述和類型。從多個管道收集和報告資料，例如數位(Web)、銷售點系統、行動裝置、CRM系統等。
 
 * [資料檢視中的報表時間轉換](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md#customer-journey-analytics-data-views)
 
@@ -53,16 +57,16 @@ Customer Journey Analytics是新一代的分析產品。 它允許多管道資�
 
 | 升級任務 | 詳細資料 |
 |---------|----------|
-| <span class="preview">**步驟1：開始升級**</span> | <span class="preview">瞭解升級至Customer Journey Analytics的好處及基本的升級程式。</span> |
-| **步驟2：[選擇升級路徑](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | 升級至Customer Journey Analytics有多種方法。 根據您組織目前的Adobe Analytics環境和長期目標，選擇最適合您組織的方法。 |
+| <span class="preview">**步驟1：開始升級**</span> | <span class="preview">瞭解升級至Customer Journey Analytics與基本升級程式的好處。</span> |
+| **步驟2：[選擇升級路徑](/help/getting-started/cja-upgrade/cja-upgrade-path.md)** | 升級至Customer Journey Analytics有多種方法可供使用。 根據您組織目前的Adobe Analytics環境和長期目標，選擇最適合您組織的方法。 |
 | **步驟3：[傳送資料至Adobe Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)** | 傳送資料至Adobe Experience Platform的程式會依您在步驟2中選擇的升級路徑而有所不同。 |
 | **步驟4：[保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)** | 大多陣列織都需將其歷史Adobe Analytics資料保留一段時間。 有多種選項可達成此目的。 |
-| **步驟5：[執行其他實作工作](/help/getting-started/cja-getting-started.md)** | 在升級流程的這個階段，您需要在Customer Journey Analytics環境準備好使用之前執行各種工作。<p>這些額外工作適用於從Adobe Analytics升級以及新的Customer Journey Analytics實作。</p><p>這些工作包括：</p><ul><li>將其他資料帶入Experience Platform</li><li>在Platform資料集和Customer Journey Analytics之間建立連線</li><li>建立資料檢視</li><li>移植報表API使用量</li><li>資料摘要和Data Warehouse的帳戶處理</li><li>移轉專案和元件</li><li>Planning使用者上線</li></ul> <p>如需詳細資訊，請參閱[Customer Journey Analytics快速入門](/help/getting-started/cja-getting-started.md)。 |
+| **步驟5：[執行其他實作工作](/help/getting-started/cja-getting-started.md)** | 在升級流程的這個階段，您需要在Customer Journey Analytics環境準備好使用之前執行各種工作。<p>這些額外工作適用於Adobe Analytics的升級以及新的Customer Journey Analytics實作。</p><p>這些工作包括：</p><ul><li>將其他資料帶入Experience Platform</li><li>在Platform資料集和Customer Journey Analytics之間建立連線</li><li>建立資料檢視</li><li>移植報表API使用量</li><li>資料摘要和Data Warehouse的會計處理</li><li>移轉專案和元件</li><li>Planning使用者上線</li></ul> <p>如需詳細資訊，請參閱[Customer Journey Analytics快速入門](/help/getting-started/cja-getting-started.md)。 |
 
 {style="table-layout:auto"}
 
 ## 首先，選擇升級路徑
 
-升級至Customer Journey Analytics有多種方法。 [選擇最適合您組織的方法](/help/getting-started/cja-upgrade/cja-upgrade-path.md)。
+升級至Customer Journey Analytics有多種方法可供使用。 [選擇最適合您組織的方法](/help/getting-started/cja-upgrade/cja-upgrade-path.md)。
 
 您選擇的升級路徑取決於貴組織目前的Adobe Analytics環境和長期目標。

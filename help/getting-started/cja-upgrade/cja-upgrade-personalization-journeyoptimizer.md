@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 21%
@@ -28,7 +28,9 @@ ht-degree: 21%
 
 透過在監督的機器學習和深度學習中運用最先進的技術，個人化最佳化可讓業務使用者（行銷人員）定義業務目標，並利用其客戶資料來訓練業務導向的模型，以提供個人化優惠並最大化KPI。
 
-如需詳細資訊，請參閱Journey Optimizer指南中的[個人化最佳化模型](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model)。
+1. 遵循Journey Optimizer指南中[個人化最佳化模型](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model)中的資訊。
+
+{{upgrade-final-step}}
 
 <!--
 

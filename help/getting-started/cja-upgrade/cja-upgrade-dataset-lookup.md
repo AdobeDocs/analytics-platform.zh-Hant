@@ -7,9 +7,9 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 1ae4be09a07bd4991342daa43cc23fb966b68aaf
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '800'
 ht-degree: 10%
 
 ---
@@ -129,5 +129,7 @@ ht-degree: 10%
 
 1. 使用&#x200B;**[!UICONTROL 索引鍵]**&#x200B;欄位和&#x200B;**[!UICONTROL 相符的索引鍵]**&#x200B;欄位，在您的查詢資料集中的欄位與事件或摘要資料集中的欄位之間建立關聯。
 
-1. 在Customer Journey Analytics中將所有查詢資料集新增到您的連線後，請繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
+1. 重複此程式，直到所有查詢資料集都新增到Customer Journey Analytics中的連線為止。
+
+{{upgrade-final-step}}
 

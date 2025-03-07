@@ -1,16 +1,16 @@
 ---
-title: 從Adobe Analytics升級至Customer Journey Analytics時的建議路徑
-description: 瞭解從Adobe Analytics升級至Customer Journey Analytics時的建議路徑
+title: 從Adobe Analytics升級至Customer Journey Analytics
+description: 瞭解從Adobe Analytics升級至Customer Journey Analytics的建議步驟
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: 967d8a957e722a080cd712ea7cf77f26660289da
+source-git-commit: 765b6863cdafa06b54b76fbf0983afb4c14c21d4
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 9%
+source-wordcount: '1629'
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->如果本節所述的升級步驟對貴組織而言並不實際，請使用[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)來動態產生針對貴組織獨特環境量身打造的升級步驟。
+>如果本節所述的升級步驟對貴組織而言並不實際，請使用Customer Journey Analytics升級指南以動態方式產生針對貴組織獨特環境量身打造的升級步驟。 (若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示進行。)
 
 ### 高階建議升級流程 {#high-level-upgade-process}
 
@@ -189,9 +189,11 @@ ht-degree: 9%
 
 若要根據組織獨特的情況動態產生升級步驟：
 
-1. 完成[Adobe Analytics到Customer Journey Analytics升級問卷](https://gigazelle.github.io/cja-ttv/)。
+1. 完成Customer Journey Analytics升級指南。
 
-   完成此問卷調查後，系統會為您提供逐步指示，概述組織需求所獨有的最佳升級步驟。 這些升級步驟最能符合您現有的Adobe Analytics環境和Customer Journey Analytics的目標。
+   若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。
+
+   完成本升級指南後，系統會提供逐步指示，概述組織需求專屬的最佳升級步驟。 這些升級步驟最能符合您現有的Adobe Analytics環境和Customer Journey Analytics的目標。
 
 1. 請依照產生的逐步指示，升級至Customer Journey Analytics。
 

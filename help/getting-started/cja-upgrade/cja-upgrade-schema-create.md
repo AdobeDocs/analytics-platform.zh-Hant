@@ -7,14 +7,14 @@ feature: Basics
 hide: true
 hidefromtoc: true
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 68ce73ddf805ec377fdb2c539683507f191c9249
+source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 52%
+source-wordcount: '1252'
+ht-degree: 54%
 
 ---
 
-# 建立自訂結構以與Customer Journey Analytics搭配使用 {#create-custom-schema}
+# 建立用於 Customer Journey Analytics 的自訂綱要 {#create-custom-schema}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -192,4 +192,4 @@ ht-degree: 52%
 
    請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
-1. 繼續執行[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或[動態產生的升級步驟](https://gigazelle.github.io/cja-ttv/)。
+{{upgrade-final-step}}
