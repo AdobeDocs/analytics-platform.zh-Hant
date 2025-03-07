@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '2703'
+source-wordcount: '2689'
 ht-degree: 67%
 
 ---
@@ -57,7 +57,7 @@ Analytics計分卡會以圖磚式版面配置呈現，為執行使用者顯示�
 
 ### 建立新專案 {#create}
 
-1. 開啟Customer Journey Analytics，然後按一下&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤。
+1. 開啟Customer Journey Analytics，然後按一下「**[!UICONTROL Workspace]**」標籤。
 1. 按一下 **[!UICONTROL 建立專案]**，然後選取 **[!UICONTROL 空白行動計分卡]** 專案範本。
 1. 按一下 **[!UICONTROL 建立]**。
 
@@ -91,13 +91,13 @@ Analytics計分卡會以圖磚式版面配置呈現，為執行使用者顯示�
 
 ![新的行動計分卡視窗，其箭號從維度清單指向計分卡窗格。](assets/layer_dimensions.png)
 
-## 套用篩選器 {#filters}
+## 套用區段 {#segments}
 
-若要將篩選器套用至個別圖磚，請從左側面板將篩選器(區段是Customer Journey Analytics中的篩選器)直接拖曳至圖磚上。
+若要將區段套用至個別圖磚，請從左側面板將區段直接拖放至圖磚上方。
 
-如果您想要將篩選器套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。 或者，您也可以在日期範圍下方的篩選器功能表中選取篩選器，以套用篩選器。您[以在Customer Journey AnalyticsWorkspace中的相同方式，設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
+如果您想要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。 或者，您也可以在日期範圍下方的區段功能表中選取區段，以套用區段。 您[可以像在Customer Journey Analytics Workspace中一樣為您的計分卡](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)設定和套用區段。
 
-![強調組建篩選的篩選下拉式選擇器](assets/segment_ui.png)
+![強調組建區段的區段下拉式選擇器](assets/segment_ui.png)
 
 ## 新增日期範圍 {#dates}
 
@@ -186,7 +186,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ## 檢視和設定圖磚屬性 {#tiles}
 
-按一下計分卡產生器中的圖磚，右側欄會顯示與該圖磚相關聯的屬性和特性以及其詳細投影片。 在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過套用篩選器來設定圖磚。區段是Customer Journey Analytics中的篩選器。
+按一下計分卡產生器中的圖磚，右側欄會顯示與該圖磚相關聯的屬性和特性以及其詳細投影片。 在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過套用區段來設定圖磚。
 
 ![「屬性」圖磚](assets/properties-tile-new.png)
 
@@ -281,7 +281,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ### 自訂資料故事 {#customize-data-story}
 
-資料故事可讓您自訂所有內容，好讓您可以共用資訊，並排除您不需要的所有內容。您可以自訂磚和個別幻燈片以新增篩選器、顯示細分、變更版面和變更視覺效果。
+資料故事可讓您自訂所有內容，好讓您可以共用資訊，並排除您不需要的所有內容。您可以自訂圖磚和個別幻燈片，以新增區段、顯示劃分、變更版面以及變更視覺效果。
 
 **自訂磚的方法**
 

@@ -5,20 +5,20 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 65%
+source-wordcount: '1806'
+ht-degree: 64%
 
 ---
 
 # 管理計分卡
 
-本主題說明Customer Journey Analytics資料的組織者如何檢視及管理計分卡元素。
+本主題為Customer Journey Analytics資料的組織者說明如何檢視及管理計分卡元素。
 
 ## 檢視和設定圖磚屬性 {#tiles}
 
-按一下計分卡產生器中的圖磚，右側欄會顯示與該圖磚相關聯的屬性和特性以及其詳細投影片。 在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過套用篩選器來設定圖磚。區段是Customer Journey Analytics中的篩選器。
+按一下計分卡產生器中的圖磚，右側欄會顯示與該圖磚相關聯的屬性和特性以及其詳細投影片。 在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過套用區段來設定圖磚。
 
 ![「屬性」圖磚](assets/properties-tile-new.png)
 
@@ -109,7 +109,7 @@ ht-degree: 65%
 
 ### 自訂資料故事 {#customize-data-story}
 
-資料故事可讓您自訂所有內容，好讓您可以共用資訊，並排除您不需要的所有內容。您可以自訂磚和個別幻燈片以新增篩選器、顯示細分、變更版面和變更視覺效果。
+資料故事可讓您自訂所有內容，好讓您可以共用資訊，並排除您不需要的所有內容。您可以自訂圖磚和個別幻燈片，以新增區段、顯示劃分、變更版面以及變更視覺效果。
 
 **自訂磚的方法**
 
