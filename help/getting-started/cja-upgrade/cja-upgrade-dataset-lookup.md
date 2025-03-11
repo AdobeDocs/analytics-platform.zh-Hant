@@ -4,10 +4,8 @@ description: 瞭解如何建立查詢資料集，以便在Customer Journey Analy
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 10%

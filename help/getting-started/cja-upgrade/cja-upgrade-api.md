@@ -4,10 +4,8 @@ description: 瞭解如何建立標籤屬性並新增網頁SDK擴充功能
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-hide: true
-hidefromtoc: true
 exl-id: 13b413fd-2103-427a-b251-5b3a19046bdb
-source-git-commit: 4ba493ae40d417499a4ab584898ff533f17be755
+source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 4%
