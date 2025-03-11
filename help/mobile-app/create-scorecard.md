@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
+source-git-commit: e0615e3b4b1a4f0cd675de4bf4bb84d73eab8b8c
 workflow-type: tm+mt
-source-wordcount: '2689'
-ht-degree: 67%
+source-wordcount: '2698'
+ht-degree: 66%
 
 ---
 
@@ -48,7 +48,7 @@ Analytics計分卡會以圖磚式版面配置呈現，為執行使用者顯示�
 
 若要建立計分卡，您必須執行下列動作：
 
-1. 存取 [!UICONTROL 空白行動計分卡] 範本。
+1. 存取Workspace中的[!UICONTROL 空白行動計分卡]範本。
 2. 使用資料設定計分卡並儲存。
 
 ## 存取 [!UICONTROL 空白行動計分卡] 範本 {#template}
@@ -58,6 +58,7 @@ Analytics計分卡會以圖磚式版面配置呈現，為執行使用者顯示�
 ### 建立新專案 {#create}
 
 1. 開啟Customer Journey Analytics，然後按一下「**[!UICONTROL Workspace]**」標籤。
+1. 在左側邊欄中，按一下&#x200B;**[!UICONTROL 專案]**。
 1. 按一下 **[!UICONTROL 建立專案]**，然後選取 **[!UICONTROL 空白行動計分卡]** 專案範本。
 1. 按一下 **[!UICONTROL 建立]**。
 
@@ -72,7 +73,7 @@ Analytics計分卡會以圖磚式版面配置呈現，為執行使用者顯示�
 
 實作計分卡範本：
 
-1. 在「**[!UICONTROL 內容]**」下方 (右側邊欄中)，指定您要使用資料的「**[!UICONTROL 專案資料檢視]**」。
+1. 在&#x200B;**[!UICONTROL 計分卡屬性]** （在右側邊欄中）下，指定您要使用資料的&#x200B;**[!UICONTROL 專案資料檢視]**。
 
    ![新的行動計分卡視窗，醒目提示資料檢視選項](assets/properties_save.png)
 
