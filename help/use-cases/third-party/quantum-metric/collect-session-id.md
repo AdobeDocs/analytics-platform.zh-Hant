@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
+source-git-commit: 2d6c5d5b546ef8ba952d4ba4397d897ed4566283
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 1%
+source-wordcount: '422'
+ht-degree: 0%
 
 ---
 
@@ -51,23 +52,4 @@ ht-degree: 1%
 1. 在右窗格中，將[持續性](/help/data-views/component-settings/persistence.md)設定設為&#39;Session&#39;。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-## 步驟4：設定Workspace以容納工作階段ID維度
 
-在Workspace中建立自由表格，並進行設定，以便工作階段ID值直接連結至Quantum Metric。
-
-1. 登入[experience.adobe.com](https://experience.adobe.com)。
-1. 導覽至Customer Journey Analytics，然後在頂端功能表中選取&#x200B;**[!UICONTROL Workspace]**。
-1. 選取現有專案，或建立專案。
-1. 建立[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)。
-1. 將「工作階段ID」維度拖曳至Workspace畫布。
-1. 以滑鼠右鍵按一下維度資料行標題，然後選取&#x200B;**[!UICONTROL 為所有維度專案建立超連結]**。
-1. 選取&#x200B;**[!UICONTROL 建立自訂URL]**。
-1. 貼上下列URL結構：
-
-   ```
-   https://adobe.quantummetric.com/#/replay/cookie:$value
-   ```
-
-1. 按一下「**[!UICONTROL 建立]**」。
-
-每個工作階段ID現在都是可點按的連結。 這些連結會帶您前往新標籤中的Quantum Metric，讓您更詳細地分析該特定工作階段。 如需新增超連結至Analysis Workspace維度專案的詳細資訊，請參閱[在自由格式表格中建立超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。
