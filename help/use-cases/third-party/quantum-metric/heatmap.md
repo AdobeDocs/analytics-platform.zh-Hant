@@ -6,10 +6,11 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
+source-git-commit: a0f82948895f3eac86cf00df1dec8abc2f723fc2
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 0%
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
 
@@ -17,12 +18,36 @@ ht-degree: 0%
 
 將Quantum量度熱度對應連結至CJA資料，可讓您更瞭解頁面層級的參與，並根據消費者行為將頁面最佳化。 Workspace可用來了解消費者使用者流程，以及了解消費者在不同頁面間遵循哪些路徑。 然後，您可以按一下超連結的頁面URL，以視覺化熱度圖形式呈現使用者如何與內容互動。
 
+此表格會傳回該區段中的所有工作階段，您可以按一下其中的任何工作階段，進一步探索QM。  若要進一步瞭解Quantum量度工作階段重播，請前往https://www.quantummetric.com/platform/session-replay
+
 ## 先決條件
 
 此使用案例需要您將量子量度的工作階段ID與其餘實施一起收集。 請參閱[在Customer Journey Analytics](collect-session-id.md)中收集量度工作階段ID，瞭解如何修改您的實作。
 
 您必須有權使用Quantum Metric的&#x200B;**UX Ops**&#x200B;封裝，才能存取Quantum Metric的熱度圖功能。
 
+## 在Workspace中建立自由表格，並進行設定，以便工作階段ID值直接連結至Quantum Metric。
+
+1. 登入[experience.adobe.com](https://experience.adobe.com)。
+1. 導覽至Customer Journey Analytics，然後在頂端功能表中選取&#x200B;**[!UICONTROL Workspace]**。
+1. 選取現有專案，或建立專案。
+1. 建立[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)。
+1. 將頁面URL維度拖曳至Workspace畫布。
+1. 以滑鼠右鍵按一下維度資料行標題，然後選取&#x200B;**[!UICONTROL 為所有維度專案建立超連結]**。
+1. 選取&#x200B;**[!UICONTROL 建立自訂URL]**。
+1. 貼上下列URL結構：
+
+   ```
+   $value?qm-visible=true
+   ```
+
+1. 按一下「**[!UICONTROL 建立]**」。
+
+1. 按一下「建立」 ，然後測試其中一個連結，以檢視它是否在URL中開啟且QM擴充功能已彈出開啟。 注意 — 它將在單獨的標籤中開啟，因此您不會丟失工作。
+
+
 ## 按一下Customer Journey Analytics中的連結以檢視熱度圖
 
-使用可點按連結建立Workspace報表後，您就可以在Customer Journey Analytics中使用篩選器，識別可在Quantum量度中進一步分析的有趣工作階段。
+找到您要探索熱度對應的頁面後，您可以將其套用至URL所在的面板。 此表格會傳回URL，讓您瀏覽相關頁面的熱度圖、捲動深度以及互動的關鍵區域。  進一步瞭解Quantum量度熱度圖，請造訪https://www.quantummetric.com/platform/interaction-heatmaps
+
+
