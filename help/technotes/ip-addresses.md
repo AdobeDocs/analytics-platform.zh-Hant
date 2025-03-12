@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5c52986c-7ff3-45b5-9039-2bfb6529238c
 role: Admin
-source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
+source-git-commit: 0e4ea634a604a65484a57f5af8021badb86a865a
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 31%
+source-wordcount: '188'
+ht-degree: 34%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 31%
 
 >[!IMPORTANT]
 >
->雖然Adobe會儘可能即時更新此檔案，但無法保證IP範圍清單維持不變。 可能的變更包括企業成長與擴充、網際網路登入要求變更Adobe的IP位址空間，或網際網路服務供應商停止運作。
+>雖然Adobe會儘可能即時更新此檔案，但無法保證IP範圍清單維持不變。 可能的變更包括企業成長與擴充、網際網路登入需要變更Adobe的IP位址空間，或網際網路服務供應商停止運作。
 
-## VA7：美國和美洲客戶
+## 美國和美洲客戶
 
 | IP區塊（CIDR標籤法） |
 | --- |
@@ -47,8 +47,9 @@ ht-degree: 31%
 | `52.254.106.208/28` |
 | `20.186.185.227` |
 | `52.254.107.0/28` |
+| `66.117.18.0/24` |
 
-## NLD2：歐洲
+## 歐洲
 
 | IP區塊（CIDR標籤法） |
 | --- |
@@ -76,7 +77,7 @@ ht-degree: 31%
 | `40.74.7.208/28` |
 | `40.74.6.112/28` |
 
-## AUS5：澳洲
+## 澳大利亞
 
 | IP區塊（CIDR標籤法） |
 | --- |
@@ -108,7 +109,7 @@ ht-degree: 31%
 | `20.193.56.128/28` |
 | `20.227.32.175` |
 
-## CAN2：加拿大
+## 加拿大
 
 | IP區塊（CIDR標籤法） |
 | --- |
