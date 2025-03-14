@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 5fa4d47bcd42e4e392a7075076895826cf7061b1
+source-git-commit: 2f9cfc3fc7edaa21175d44dfb3f9bface5cf0d81
 workflow-type: tm+mt
-source-wordcount: '3618'
-ht-degree: 66%
+source-wordcount: '3247'
+ht-degree: 62%
 
 ---
 
@@ -322,20 +322,174 @@ prod:all=> \dv
 
 +++ 範例
 
-| 模式 | 範例 |
-|---|---|
-| 結構探索 | <pre>SELECT * FROM dv1 WHERE 1=0</pre> |
-| 排名或劃分 | <pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39; AND<br/>  filterId = &#39;12345&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39; AND<br/>  AND (dim2 = &#39;A&#39; OR dim3 IN (&#39;X&#39;, &#39;Y&#39;, &#39;Z&#39;))<br/>GROUP BY dim1</pre> |
-| `HAVING` 子句 | <pre>SELECT dim1, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1<br/>HAVING m1 > 100</pre> |
-| 不重複，頂端<br/>維度值 | <pre>SELECT DISTINCT dim1 FROM dv1</pre><pre>SELECT dim1 AS dv1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1</pre><pre>SELECT dim1 AS dv1<br/>FROM dv1<br/>WHERE \`timestamp\` >= &#39;2022-01-01&#39; AND \`timestamp\` &lt; &#39;2022-01-02&#39;<br/>GROUP BY dim1<br/>ORDER BY SUM(metric1)<br/>LIMIT 15</pre> |
-| 量度總計 | <pre>SELECT SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;</pre> |
-| 多維度<br/>分解<br/>和頂端不重複 | <pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY dim1, dim2</pre><pre>SELECT dim1, dim2, SUM(metric1) AS m1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY 1, 2<br/>ORDER BY 1, 2</pre><pre>SELECT DISTINCT dim1, dim2<br/>FROM dv1</pre> |
-| 子選擇：<br/>篩選其他<br/>結果 | <pre>SELECT dim1, m1<br/>FROM (<br/>  SELECT dim1, SUM(metric1) AS m1<br/>  FROM dv1<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;</br>  GROUP BY dim1<br/>)<br/>WHERE dim1 in (&#39;A&#39;, &#39;B&#39;)</pre> |
-| 子選擇：<br/>查詢橫跨<br/>多個資料檢視 | <pre>SELECT key, SUM(m1) AS total<br/>FROM (<br/>  SELECT dim1 AS key, SUM(metric1) AS m1<br/>  FROM dv1<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  GROUP BY dim1<br/><br/>  UNION<br/><br/>  SELECT dim2 AS key, SUM(m1) AS m1<br/>  FROM dv2<br/>  WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  GROUP BY dim2<br/>GROUP BY key<br/>ORDER BY total</pre> |
-| 子選擇：<br/>分層來源、<br/>篩選<br/>和彙總 | 使用子選擇分層：<br><pre>SELECT rows.dim1, SUM(rows.m1) AS total<br/>FROM (<br/>  SELECT \_.dim1,\_.m1<br/>  FROM (<br/>    SELECT \* FROM dv1<br/>    WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>  ) \_<br/>  WHERE \_.dim1 in (&#39;A&#39;, &#39;B&#39;, &#39;C&#39;)<br/>) rows<br/>GROUP BY 1<br/>ORDER BY total</pre><br/>使用 CTE WITH 的分層：<br/><pre>列為(<br/>，\_ AS (<br/>)    從data_ares<br/>選取*    其中\&#39;timestamp\&#39;介於&#39;2021-01-01&#39;和&#39;2021-02-01&#39;<br/> )<br/>從\_<br/>選取\_.item， \_.units FROM \_ WHERE \_.item不是NULL<br/>)<br/>選取rows.item， SUM(rows.units)作為單位<br/>從列中rows.item在(&#39;A&#39;， &#39;B&#39;， &#39;C&#39;)<br/>依列群組.item。</pre> |
-| 選取<br/>量度先於<br/>或混合於<br/>維度者 | <pre>SELECT SUM(metric1) AS m1, dim1<br/>FROM dv1<br/>WHERE \`timestamp\` BETWEEN &#39;2022-01-01&#39; AND &#39;2022-01-02&#39;<br/>GROUP BY 2</pre> |
-
-{style="table-layout:auto"}
+<table style="table-layout:auto">
+    <thead>
+        <tr>
+            <th>模式</th>
+            <th>範例</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>結構探索 </td>
+            <td>
+                <pre><code>SELECT * FROM dv1 WHERE 1=0</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>排名或劃分 </td>
+            <td>
+                <pre><code>SELECT dim1, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY dim1</code></pre>
+                <pre><code>SELECT dim1, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02' AND
+  filterId = '12345'
+GROUP BY dim1</code></pre>
+                <pre><code>SELECT dim1, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02' AND
+  AND (dim2 = 'A' OR dim3 IN ('X', 'Y', 'Z'))
+GROUP BY dim1</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td><code>HAVING</code> 子句 </td>
+            <td>
+                <pre><code>SELECT dim1, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY dim1
+HAVING m1 > 100</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>相異，頂端 
+維度值 </td>
+            <td>
+                <pre><code>SELECT DISTINCT dim1 FROM dv1</code></pre>
+                <pre><code>SELECT dim1 AS dv1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY dim1</code></pre>
+                <pre><code>SELECT dim1 AS dv1
+FROM dv1
+WHERE `timestamp` >= '2022-01-01' AND `timestamp` < '2022-01-02'
+GROUP BY dim1
+ORDER BY SUM(metric1)
+LIMIT 15</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>量度總計 </td>
+            <td>
+                <pre><code>SELECT SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>多維度
+劃分
+和最大差異 </td>
+            <td>
+                <pre><code>SELECT dim1, dim2, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY dim1, dim2</code></pre>
+                <pre><code>SELECT dim1, dim2, SUM(metric1) AS m1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY 1, 2
+ORDER BY 1, 2</code></pre>
+                <pre><code>SELECT DISTINCT dim1, dim2
+FROM dv1</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>子選取：
+篩選其他
+個結果 </td>
+            <td>
+                <pre><code>SELECT dim1, m1
+FROM (
+  SELECT dim1, SUM(metric1) AS m1
+  FROM dv1
+  WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</br>  按dim1分組
+)
+WHERE dim1在('A'， 'B')</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>子選取：
+正在查詢
+資料檢視 </td>
+            <td>
+                <pre><code>SELECT key, SUM(m1) AS total
+FROM (
+  SELECT dim1 AS key, SUM(metric1) AS m1
+  FROM dv1
+  WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+  GROUP BY dim1
+<br>
+  UNION
+<br>
+  SELECT dim2 AS key, SUM(m1) AS m1
+  FROM dv2
+  WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+  GROUP BY dim2
+)
+GROUP BY key
+ORDER BY total</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>子選取： 
+分層來源， 
+篩選， 
+和彙總 </td>
+            <td>使用子選取項分層：
+<pre><code>SELECT rows.dim1, SUM(rows.m1) AS total
+FROM (
+  SELECT _.dim1,_.m1
+  FROM (
+    SELECT * FROM dv1
+    WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+  ) _
+  WHERE _.dim1 in ('A', 'B', 'C')
+) rows
+GROUP BY 1
+ORDER BY total</code></pre>
+搭配使用CTE的圖層：
+<pre><code>WITH rows AS (
+  WITH _ AS (
+    SELECT * FROM data_ares
+    WHERE `timestamp` BETWEEN '2021-01-01' AND '2021-02-01'
+  )
+  SELECT _.item, _.units FROM _
+  WHERE _.item IS NOT NULL
+)
+SELECT rows.item, SUM(rows.units) AS units
+FROM rows WHERE rows.item in ('A', 'B', 'C')
+GROUP BY rows.item</code></pre>
+        </td>
+        </tr>
+        <tr>
+            <td>選取
+量度在之前
+ 或混合使用
+維度 </td>
+            <td>
+                <pre><code>SELECT SUM(metric1) AS m1, dim1
+FROM dv1
+WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'
+GROUP BY 2</code></pre>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 +++
 
