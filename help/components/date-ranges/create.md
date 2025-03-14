@@ -4,7 +4,7 @@ description: 選擇日期範圍，以便在報告中使用。
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: a913f23506f692e64633408b8cd9bad6be27970b
+source-git-commit: 2ed18bcf2767d513265f909690ea53fdbd90a2b5
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 39%
@@ -18,11 +18,11 @@ ht-degree: 39%
 
 ![Create an annotation](assets/create-date-range.png)
 
-* ??在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 日期範圍]**。 從[[!UICONTROL 日期範圍]管理員](/help/components/date-ranges/manage.md)中選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]**。
-* ??在Workspace專案中，從視覺效果的內容功能表中，選取&#x200B;**[!UICONTROL 自訂日期範圍至此日期範圍]**。
-* ??在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立日期範圍]**
-* ??在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL ctrl+shift+d]** (Windows)或&#x200B;**[!UICONTROL shift+command+d]** (macOS)。
-* ??在Workspace專案中，從「元件」左側面板選取![行事曆](/help/assets/icons/Calendar.svg) **日期範圍**&#x200B;的![新增](/help/assets/icons/Add.svg)。
+* (A)在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 日期範圍]**。 從[[!UICONTROL 日期範圍]管理員](/help/components/date-ranges/manage.md)中選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]**。
+* (B)在Workspace專案中，從視覺效果的內容功能表中，選取&#x200B;**[!UICONTROL 自訂日期範圍至此日期範圍]**。
+* (C)在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立日期範圍]**
+* (D)在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL ctrl+shift+d]** (Windows)或&#x200B;**[!UICONTROL shift+command+d]** (macOS)。
+* (E)在Workspace專案中，從「元件」左側面板選取![行事曆](/help/assets/icons/Calendar.svg) **日期範圍**&#x200B;的![新增](/help/assets/icons/Add.svg)。
 
 若要定義附註，請使用[[!UICONTROL 日期範圍產生器]](#annotation-builder)：
 
