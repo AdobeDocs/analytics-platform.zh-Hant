@@ -7,16 +7,16 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: a0f82948895f3eac86cf00df1dec8abc2f723fc2
+source-git-commit: 48c2b2eaa191948eda303f9ee236038484e4f2eb
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 # 搭配Customer Journey Analytics使用量子量度熱度圖
 
-將Quantum量度熱度對應連結至CJA資料，可讓您更瞭解頁面層級的參與，並根據消費者行為將頁面最佳化。 Workspace可用來了解消費者使用者流程，以及了解消費者在不同頁面間遵循哪些路徑。 然後，您可以按一下超連結的頁面URL，以視覺化熱度圖形式呈現使用者如何與內容互動。
+將Quantum量度熱度對應連結至CJA資料，可讓您更瞭解頁面層級的參與，並根據消費者行為將頁面最佳化。 Workspace可用來了解消費者使用者流程，以及了解消費者在不同頁面間遵循哪些路徑。 然後，您可以按一下超連結的頁面URL，以視覺化熱度圖形式呈現使用者如何與內容互動。  將Quantum Metric Heatmapping連結至CJA，您現在可以將頁面層級的互動與業務結果建立關聯，將您的分析提升到新的境界。
 
 此表格會傳回該區段中的所有工作階段，您可以按一下其中的任何工作階段，進一步探索QM。  若要進一步瞭解Quantum量度工作階段重播，請前往https://www.quantummetric.com/platform/session-replay
 
@@ -48,6 +48,6 @@ ht-degree: 1%
 
 ## 按一下Customer Journey Analytics中的連結以檢視熱度圖
 
-找到您要探索熱度對應的頁面後，您可以將其套用至URL所在的面板。 此表格會傳回URL，讓您瀏覽相關頁面的熱度圖、捲動深度以及互動的關鍵區域。  進一步瞭解Quantum量度熱度圖，請造訪https://www.quantummetric.com/platform/interaction-heatmaps
+找到您要探索熱度對應的頁面後，您可以將其套用至URL所在的面板。 此表格會傳回URL，讓您瀏覽相關頁面的熱度圖、捲動深度以及互動的關鍵區域。  在[https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps)進一步瞭解量子量度熱度圖
 
 
