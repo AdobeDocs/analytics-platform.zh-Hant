@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,9 @@ ht-degree: 0%
 若要從草稿開始報告內容分析：
 
 1. [建立新的](/help/analysis-workspace/build-workspace-project/create-projects.md)或[在Workspace中開啟現有的](/help/analysis-workspace/build-workspace-project/open-projects.md)專案。
+1. 請確定您[為Content Analytics報表選取資料檢視](/help/analysis-workspace/c-panels/panels.md#data-view)。 Content Analytics報表僅適用於[已針對Content Analytics設定](/help/content-analytics/config/configuration.md)的資料檢視。
 1. 將![表格](/help/assets/icons/Table.svg) [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺效果拖曳到畫布上。
-1. 使用[特定的Content Analytics元件](components.md)和其他一般[元件](/help/components/overview.md) （如篩選器、日期範圍、註解）來建置您的內容分析深入分析。
+1. 使用[特定的Content Analytics元件](components.md)和其他一般[元件](/help/components/overview.md) （如篩選器、日期範圍、註解）來建置您的內容分析深入分析。 或者，使用Content Analytics範本。
 
 ## 縮圖
 
@@ -49,7 +50,7 @@ ht-degree: 0%
   |---|---|
   | ![內容分析體驗預覽](../assets/aca-experience-preview.png) | ![Content Analytics資產預覽](../assets/aca-asset-preview.png) |
   | **[!UICONTROL 體驗的名稱]** | **[!UICONTROL 資產的名稱]** |
-  | **[!UICONTROL 曝光次數（所有時間）]**：體驗的曝光次數。 | **[!UICONTROL 曝光次數（所有mes）]**：資產的曝光次數。 |
+  | **[!UICONTROL 曝光次數（所有時間）]**：體驗的曝光次數。 | **[!UICONTROL 曝光次數（所有時間）]**：資產的曝光次數。 |
   | **[!UICONTROL Assets]**：此體驗包含的資產數目。 選取![劃分](/help/assets/icons/Breakdown.svg)劃分以檢查資產。 | **[!UICONTROL 體驗]**：此資產顯示所在的體驗數目。 [劃分](/help/assets/icons/Breakdown.svg)以檢查資產。 |
   | **[!UICONTROL 第一印象]**：體驗的第一印象日期。 | **[!UICONTROL 第一印象]**：資產第一印象的日期。 |
   | **[!UICONTROL 最近曝光]**：體驗最近曝光的日期。 | **[!UICONTROL 最近曝光次數]**：資產最近曝光的日期。 |

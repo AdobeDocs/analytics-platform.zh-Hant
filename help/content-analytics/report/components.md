@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
+source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1390'
 ht-degree: 17%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 17%
 * [Assets事件](#asset-events)
 * [計算量度](#calculated-metrics)
 
-在下清單格中，![AI產生](/help/assets/icons/AI.svg)表示AI / ML產生的值。
+在下清單格中，![AI產生](/help/assets/icons/AI.svg)表示AI/ML產生的值。
 
 ## 體驗中繼資料
 
@@ -63,7 +63,7 @@ ht-degree: 17%
 | 體驗說服策略 | ![AI已產生](/help/assets/icons/AI.svg)存在於指定體驗中的勸說策略。 可能的值包括：社會身分、社會證明、權威、具體性、踏進門中、克服抗拒性、互惠性、錨定和比較、社會影響、稀缺性和擬人化。 | Dimension<br/>衍生欄位 | 顯示\| 沒有值<br/>最近\| 工作階段 |
 | 體驗敘述 | ![AI已產生](/help/assets/icons/AI.svg)體驗根據行銷人員檢視點的相關性所建置的敘述。 | Dimension<br/>衍生欄位 | 顯示\| 沒有值<br/>最近\| 工作階段 |
 | 體驗基調 | ![AI已產生](/help/assets/icons/AI.svg)色調，體驗是根據行銷人員檢視點的相關性所建置 | Dimension<br/>衍生欄位 | 顯示\| 沒有值<br/>最近\| 工作階段 |
-| 體驗行銷情感 | ![AI產生](/help/assets/icons/AI.svg)閱讀體驗時，讀者會叫用情緒：急迫性、排他性、鼓勵、挑戰、好奇、成就、信任、簡單和迷戀。 | Dimension<br/>衍生欄位 | 顯示\| 沒有值<br/>最近\| 工作階段 |
+| 體驗行銷情感 | ![由AI產生](/help/assets/icons/AI.svg)閱讀體驗中所使用的文字時，讀者會叫用情緒：急迫性、排他性、鼓勵、挑戰、好奇、成就、信任、簡單和迷戀。 | Dimension<br/>衍生欄位 | 顯示\| 沒有值<br/>最近\| 工作階段 |
 | 體驗表情符號計數 | ![AI已產生](/help/assets/icons/AI.svg)體驗的Emoji數目。 | 量度 | 計算值<br/>小數\| 小數位數： 0 |
 | 體驗雜湊標籤計數 | ![AI已產生](/help/assets/icons/AI.svg)體驗的雜湊標籤數。 | 量度 | 計算值<br/>小數\| 小數位數： 0 |
 | 體驗句子計數 | ![AI已產生](/help/assets/icons/AI.svg)體驗的句子數。 | 量度 | 計算值<br/>小數\| 小數位數： 0 |
@@ -163,3 +163,4 @@ ht-degree: 17%
 | 體驗點進率 | 體驗點按次數/體驗檢視 | 計算量度 | |
 
 {style="table-layout:fixed"}
+
