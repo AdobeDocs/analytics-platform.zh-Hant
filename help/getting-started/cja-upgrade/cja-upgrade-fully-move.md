@@ -8,7 +8,7 @@ exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 18%
+ht-degree: 31%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-source-connector"
->title="停用Analytics來源聯結器以僅使用來自網頁SDK的資料"
->abstract="Analytics來源聯結器是用來提供並排資料比較、歷史資料，以及存取Customer Journey Analytics中尚未完全提供的一些功能。 當您不再需要Adobe Analytics來達到這些目的時，您可以停用Analytics來源聯結器。"
+>title="停用 Analytics 來源連接器，以便僅使用來自 Web SDK 的資料"
+>abstract="Analytics 來源連接器是用來提供並排資料比較、歷史資料以及存取 Customer Journey Analytics 中未完全提供的部分功能。您不再需要 Adobe Analytics 用於這些目的時，可以停用 Analytics 來源連接器。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -72,8 +72,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-analytics-tags"
->title="停用標籤中的Analytics擴充功能"
->abstract="使用Web SDK資料完整運作的情況下，請與您的標籤管理員合作，從標籤屬性中移除Adobe Analytics擴充功能。 在執行此操作之前，請確定您的使用者已從使用Adobe Analytics轉換到Customer Journey Analytics。"
+>title="在標記中停用 Analytics 擴充功能"
+>abstract="Web SDK 資料完全可使用後，請與標記管理員合作，將 Adobe Analytics 擴充功能從標記屬性中移除。在執行此動作前，請確保您的使用者已從使用 Adobe Analytics 轉換為 Customer Journey Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -81,8 +81,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-analytics-api"
->title="為 Adobe Analytics 停用 API 資料彙集"
->abstract="透過Web SDK資料完全正常運作，請與適用的工程團隊合作，從專案移除Adobe Analytics程式碼。 在執行此操作之前，請確定您的使用者已從使用Adobe Analytics轉換到Customer Journey Analytics。"
+>title="停用 Adobe Analytics 的 API 資料彙集"
+>abstract="Web SDK 資料完全正常運作後，請與適用的工程團隊合作，將 Adobe Analytics 程式碼從專案中移除。在執行此動作前，請確保您的使用者已從使用 Adobe Analytics 轉換為 Customer Journey Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 

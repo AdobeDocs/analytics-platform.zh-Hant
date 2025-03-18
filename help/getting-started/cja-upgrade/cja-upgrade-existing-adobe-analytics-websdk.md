@@ -1,5 +1,5 @@
 ---
-title: 設定您現有的Adobe Analytics Web SDK實作，以傳送資料至Platform
+title: 設定現有的 Adobe Analytics Web SDK 實作以傳送資料至平台
 description: 瞭解如何設定您現有的Adobe Analytics Web SDK實作
 role: Admin
 solution: Customer Journey Analytics
@@ -8,18 +8,18 @@ exl-id: 1459a512-bfa8-4805-97e8-5b6acc6e4ac9
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# 設定您現有的Adobe Analytics Web SDK實作，以傳送資料至Platform {#existing-websdk-implementation}
+# 設定現有的 Adobe Analytics Web SDK 實作以傳送資料至平台 {#existing-websdk-implementation}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-remove-aa-from-datastream"
->title="將 Adobe Analytics 當作服務從資料流中移除"
->abstract="有了Web SDK資料完整的功能，請與Platform管理員合作，從資料流中移除Adobe Analytics即服務。 在執行此操作之前，請確定您的使用者已從使用Adobe Analytics轉換到Customer Journey Analytics。"
+>title="將 Adobe Analytics 作為服務從資料流中移除"
+>abstract="Web SDK 資料完全可使用後，請與平台管理員合作，將 Adobe Analytics 作為服務從資料流中移除。執行此動作之前，請確保您的使用者已從使用 Adobe Analytics 轉換為 Customer Journey Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 

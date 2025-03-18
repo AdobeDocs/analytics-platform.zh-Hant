@@ -8,7 +8,7 @@ exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 38%
+ht-degree: 54%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-no-selection"
->title="為給定的屬性實作 Web SDK"
+>title="為指定的屬性實作 Web SDK"
 >abstract="在升級指南中選取所需的實作型別，以取得更詳細的指示。"
 
 <!-- markdownlint-enable MD034 -->
@@ -55,7 +55,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-third-party"
 >title="將 Web SDK 程式庫新增至第三方標記管理系統"
->abstract="透過您的標籤管理系統，與管理員合作，將Web SDK程式庫新增至您的網站。<br><br>此任務的完成時間很大程度上取決於負責您標籤管理系統的個人的回應速度。 新增Web SDK程式庫可能會與相關的實作邏輯搭配使用，並在貴組織的標準發行週期期間部署。"
+>abstract="透過標記管理系統與管理員合作，將 Web SDK 程式庫新增至您的網站。<br><br>此任務的完成時間有相當大程度取決於負責標記管理系統之個人的回應能力。新增 Web SDK 程式庫可能會與相關聯的實作邏輯整合在一起，並在組織的標準發行週期內進行部署。"
 
 <!-- markdownlint-enable MD034 -->
 

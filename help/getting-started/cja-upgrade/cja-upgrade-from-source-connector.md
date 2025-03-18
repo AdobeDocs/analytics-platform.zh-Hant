@@ -8,7 +8,7 @@ exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 14%
+ht-degree: 30%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-delete"
 >title="刪除現有的 Analytics 來源連接器"
->abstract="您目前擁有的Analytics來源聯結器與貴組織的自訂結構描述不相容。 不過，資料仍存在於Analytics報表套裝中。 此步驟會移除目前的Analytics來源聯結器，以便您可在後續步驟中使用正確的結構描述來重新建立它。<br><br>在刪除來源聯結器之前，您可能會想要與組織中的其他人員協調，以確保來源聯結器的移除不會影響組織內的報告。 這項協調可能需要數週的時間才能完成。"
+>abstract="您目前擁有的 Analytics 來源連接器與您組織的自訂結構描述不相容。但是，此資料仍然存在於 Analytics 報告套裝中。此步驟會移除目前的 Analytics 來源連接器，以便您在後續步驟中使用正確的結構描述加以重新建立。<br><br>在刪除來源連接器之前，您可能需要與組織中的其他人員協調，以確保移除來源連接器不會影響組織內的報告。此協調作業可能需要數週才能完成。"
 
 <!-- markdownlint-enable MD034 -->
 
