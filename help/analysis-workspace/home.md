@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ Analysis Workspace 可讓您快速建置分析以收集深入分析，然後與�
 
 下列影像和隨附的表格說明 Analysis Workspace 使用者介面的主要元素：
 
-![Analysis Workspace視窗醒目提示介面的各個區段](assets/analysis-workspace-overview.png)
+![Analysis Workspace 視窗醒目標示介面的各部分](assets/analysis-workspace-overview.png)
 
 | 位置 | 名稱與功能 |
 |:---------:|----------|
-| ?? | 包含專案名稱、存取功能的功能表結構、返回專案清單的按鈕![[上一步]按鈕](/help/assets/icons/ChevronLeft.svg)，以及[共用Workspace專案](/help/analysis-workspace/curate-share/share-projects.md)的&#x200B;**[!UICONTROL 共用]**&#x200B;按鈕。 <br/>隨時選取您的專案名稱 (例如：New project) 以變更名稱。<br/>選取![取消偏好](/help/assets/icons/StarOutline.svg)以將您的專案標示為最喜愛的專案![偏好](/help/assets/icons/Star.svg)。 |
-| ?? | **按鈕面板：** 包含用於存取 Analysis Workspace 主要[功能](#features)的按鈕：<ul><li>![網頁](/help/assets/icons/WebPage.svg) [[!UICONTROL 面板]](/help/analysis-workspace/c-panels/panels.md)</li><li>![引導分析](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 引導分析]](/help/guided-analysis/overview.md)</li><li>![直條圖](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 視覺效果]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![組織](/help/assets/icons/Curate.svg) [[!UICONTROL 元件]](/help/components/overview.md)</li><li>![檢視清單](/help/assets/icons/ViewList.svg) [[!UICONTROL 目錄]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![書籤](/help/assets/icons/Bookmark.svg) [[!UICONTROL 資料字典]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
-| ?? | **左側面板：** 此區域包含個人面板、視覺化呈現、元件或清單。內容取決於按鈕面板中選取的按鈕。 |
-| ?? | **版本：**&#x200B;從左側面板拖曳內容以建置專案的主要區域。當您新增面板、新增視覺化呈現至面板，以及新增元件至視覺化呈現時，專案會動態更新。您可以建立多個面板，並且您可以在每個面板中建立多個視覺化呈現。<br/>每個面板皆根據所選取的資料釋圖。已選取的資料釋圖決定可用的元件，例如量度和維度。請參閱[面板 - 資料釋圖](/help/analysis-workspace/c-panels/panels.md#data-view)了解更多資訊。 |
+| A | 包含專案名稱、用於存取功能的選單結構、用於返回專案清單的![返回按鈕](/help/assets/icons/ChevronLeft.svg)，以及用於[共用 Workspace 專案](/help/analysis-workspace/curate-share/share-projects.md)的&#x200B;**[!UICONTROL 共用]**&#x200B;按鈕。<br/>隨時選取您的專案名稱 (例如：新專案) 來變更名稱。<br/>選取![取消最愛](/help/assets/icons/StarOutline.svg)，將您的專案標記為最愛專案 ![最愛](/help/assets/icons/Star.svg)。 |
+| B | **按鈕面板：** 包含用於存取 Analysis Workspace 主要[功能](#features)的按鈕：<ul><li>![網頁](/help/assets/icons/WebPage.svg) [[!UICONTROL 面板]](/help/analysis-workspace/c-panels/panels.md)</li><li>![引導分析](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 引導分析]](/help/guided-analysis/overview.md)</li><li>![直條圖](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 視覺效果]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![組織](/help/assets/icons/Curate.svg) [[!UICONTROL 元件]](/help/components/overview.md)</li><li>![檢視清單](/help/assets/icons/ViewList.svg) [[!UICONTROL 目錄]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![書籤](/help/assets/icons/Bookmark.svg) [[!UICONTROL 資料字典]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| C | **左側面板：** 此區域包含個人面板、視覺化呈現、元件或清單。內容取決於按鈕面板中選取的按鈕。 |
+| D | **版本：**&#x200B;從左側面板拖曳內容以建置專案的主要區域。當您新增面板、新增視覺化呈現至面板，以及新增元件至視覺化呈現時，專案會動態更新。您可以建立多個面板，並且您可以在每個面板中建立多個視覺化呈現。<br/>每個面板皆根據所選取的資料釋圖。已選取的資料釋圖決定可用的元件，例如量度和維度。請參閱[面板 - 資料釋圖](/help/analysis-workspace/c-panels/panels.md#data-view)了解更多資訊。 |
 
 ## 功能
 

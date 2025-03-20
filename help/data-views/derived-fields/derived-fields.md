@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
+source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
 workflow-type: tm+mt
 source-wordcount: '8844'
 ht-degree: 17%
@@ -1570,7 +1570,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 
 | 輸入資料型別 | 輸入 | 包含的運運算元 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul><ul><li>[!UICONTROL 方法]：</li><ul><li>從左側</li><li>從右側</li><li>轉換為陣列</li></ul></li><li>對於分隔字元：<ul><li>字串</li></ul><li>針對索引：<ul><li>數值</li></ul></li> | <p>不適用</p> | <p>每個衍生欄位5個函式</p> | <p>新增衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 欄位]：</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul><ul><li>[!UICONTROL 方法]：</li><ul><li>從左側</li><li>從右側</li><li>轉換為陣列</li></ul></li><li>對於分隔字元：<ul><li>字串</li></ul><li>針對索引：<ul><li>數值</li></ul></li> | <p>不適用</p> | <p>每個衍生欄位2個函式</p> | <p>新增衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -1966,7 +1966,7 @@ Customer Journey Analytics使用Perl規則運算式語法的子集。 支援下�
 | <p>合併欄位</p> | <ul><li>每個衍生欄位有2個合併欄位函式</li></ul> |
 | <p>下一個或上一個</p> | <ul><li>每個衍生欄位3個下一個或上一個函式</li></ul> |
 | <p>規則運算式取代</p> | <ul><li>每個衍生欄位有1個Regex取代函式</li></ul> |
-| <p>Split</p> | <ul><li>每個衍生欄位5個分割函式</li></ul> |
+| <p>Split</p> | <ul><li>每個衍生欄位2個分割函式</li></ul> |
 | <p>總結</p> | <ul><li>3每個衍生欄位的函式摘要</li></ul> |
 | <p>修剪</p> | <ul><li>每個衍生欄位1個修剪函式</li></ul> |
 | <p>URL 剖析</p> | <ul><li>每個衍生欄位有5個URL剖析函式</li></ul> |

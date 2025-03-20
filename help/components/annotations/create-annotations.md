@@ -4,10 +4,10 @@ description: 如何在 Workspace 中建立註解。
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '872'
-ht-degree: 100%
+source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+workflow-type: tm+mt
+source-wordcount: '873'
+ht-degree: 91%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 ![Create an annotation](assets/create-annotation.png)
 
-* 在主介面中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 註解]**。從[[!UICONTROL 註解]管理員](/help/components/annotations/manage-annotations.md)中選取![AddCircle](/help/assets/icons/AddCircle.svg)[!UICONTROL **[!UICONTROL 新增]**]。
-* 在 Workspace 專案中，從視覺化呈現的內容選單中，選取&#x200B;**[!UICONTROL 從選取範圍中建立註解]**。
-* 在 Workspace 專案中，從折線圖的內容選單中選取&#x200B;**[!UICONTROL 註解選取範圍]**。
-* 在 Workspace 專案中，從選單中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立註解]**。
-* 在 Workspace 專案中，使用快速鍵 **[!UICONTROL Ctrl+Shift+O]** (Windows) 或 **[!UICONTROL Shift+Command+O]** (macOS)
+* **A**。 在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 註解]**。 從[[!UICONTROL 註解]管理員](/help/components/annotations/manage-annotations.md)中選取![AddCircle](/help/assets/icons/AddCircle.svg)[!UICONTROL **[!UICONTROL 新增]**]。
+* **B**。 在Workspace專案中，從視覺效果的內容功能表中，選取&#x200B;**[!UICONTROL 從選取範圍建立附註]**。
+* **C**。 在Workspace專案中，從折線圖的內容功能表中，選取&#x200B;**[!UICONTROL 附註選取範圍]**。
+* **D**。 在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立附註]**。
+* **E**。  在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL ctrl+shift+o]** (Windows)或&#x200B;**[!UICONTROL shift+command+o]** (macOS)
 
 您可以使用[[!UICONTROL 註解產生器]](#annotation-builder)來定義註解。
 
