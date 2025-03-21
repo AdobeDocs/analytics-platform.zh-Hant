@@ -7,19 +7,16 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
 
 # 內容分析概觀
 
->[!WARNING]
->
->本文是即將推出之最終版本的初步非官方草稿版本，屬於內容分析檔案的一部分。 所有內容可能會有所變更，而目前的本文版本概不提供任何法律義務。
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
@@ -27,7 +24,7 @@ ht-degree: 0%
 
 Content Analytics使用AI和機器學習式的&#x200B;**特徵化服務**，將內容細分為元件和屬性。 透過在所有內容上建立結構化的中繼資料設定檔，您可以分析哪些內容以及該內容的哪些屬性可推動業務成果。
 
-除了建立此結構化的中繼資料設定檔之外，Content Analytics還提供使用單一識別碼來識別資產和體驗的&#x200B;**識別服務**。 Identity Service可識別同一資產出現於多個位置的時間。 發生此情況時，資產的兩個執行個體會被視為相同，允許以更整體的方式檢視內容使用情況和耗用量。
+除了建立此結構化的中繼資料設定檔之外，Content Analytics還提供使用單一識別碼來識別資產和體驗的&#x200B;**識別服務**。 Identity Service可識別同一資產何時出現在多個位置。 發生此情況時，會將此資產的例項視為相同的資產，以更全面的方式檢視內容使用情況和耗用量。
 
 ## 值
 
@@ -44,7 +41,7 @@ Content Analytics使用AI和機器學習式的&#x200B;**特徵化服務**，將�
 
 ![Assets與體驗](/help/content-analytics/assets//content-analytics-experience-asset.png)
 
-* **體驗**：體驗是網頁上的所有文字，可以使用造訪該網頁的初始使用者所使用的URL重現。 每個體驗都會取得唯一識別碼。
+* **體驗**：體驗是網頁上的所有文字，網頁可透過造訪該網頁的初始使用者所使用的URL重現。 每個體驗都會取得唯一識別碼。
 * **資產**：資產是個別且唯一的內容，例如影像。 每個資產也會取得唯一識別碼。
 * **屬性**：屬性是與體驗或資產相關聯的描述性中繼資料元素。 屬性的範例包括：攝影風格、可讀性、說服策略、物件顏色、背景顏色。
 
@@ -55,10 +52,10 @@ Content Analytics使用AI和機器學習式的&#x200B;**特徵化服務**，將�
 ![內容分析 — 運作方式](assets/aca-overview.gif)
 
 
-1. 當使用者造訪針對Content Analytics設定的網站時，Experience Platform Web SDK會記錄與內容的互動。
-1. 功能化組合器服務和身分識別服務會處理重新造訪的資料。 該程式包含一個編目程式，可修訂已設定URL的公開版本並套用AI/ML服務。
-1. 這些服務（元件、屬性和身分）的結果可用來更新Experience Platform中的相關特定內容分析資料集。
-1. 內容分析資料，以及行為資料和其他查詢資料集，您可以在Customer Journey Analytics設定(連線、資料檢視和Workspace的組合)中使用。 該設定提供了對您的內容進行獨特巨集層級深入分析的基礎。
+1. 當使用者造訪為Content Analytics](config/configuration.md)設定的網站[時，Experience Platform Web SDK會記錄與內容的互動。
+1. 身分和功能化服務會處理這些互動。 該程式包含一個編目程式，可修訂定義互動的已設定URL的公開版本。 對於這些編目的URL，Identity Service會唯一識別體驗和資產。 此外，功能化服務會套用AI/ML服務，探索體驗和資產中繼資料與屬性。
+1. 這些服務（[元件、屬性和身分](/help/content-analytics/report/components.md)）的結果可用來更新Experience Platform中的相關特定內容分析資料集。
+1. 內容分析資料，連同行為資料和其他查詢資料，您可以在Customer Journey Analytics設定([連線](/help/connections/overview.md)、[資料檢視](/help/data-views/data-views.md)和[Workspace](/help/analysis-workspace/home.md))中使用。 該設定提供了對您的內容進行獨特巨集層級深入分析的基礎。 <br/>您可以使用[Content Analytics範本](/help/content-analytics/report/report.md#template)，快速開始您的Content Analytics報表和分析。
 
 >[!NOTE]
 >

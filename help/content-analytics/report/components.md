@@ -7,19 +7,16 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 17%
+source-wordcount: '1350'
+ht-degree: 18%
 
 ---
 
 # Content Analytics元件
 
->[!WARNING]
->
->本文是即將推出之最終版本的初步非官方草稿版本，屬於內容分析檔案的一部分。 所有內容可能會有所變更，而目前的本文版本概不提供任何法律義務。
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
@@ -33,7 +30,7 @@ ht-degree: 17%
 * [Assets事件](#asset-events)
 * [計算量度](#calculated-metrics)
 
-在下清單格中，![AI產生](/help/assets/icons/AI.svg)表示AI/ML產生的值。
+在下清單格中，![AI產生](/help/assets/icons/AI.svg)表示AI/ML產生的屬性/值組。
 
 ## 體驗中繼資料
 

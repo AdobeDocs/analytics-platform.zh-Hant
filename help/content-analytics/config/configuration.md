@@ -7,43 +7,30 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---
 
 # 設定內容分析
 
->[!WARNING]
->
->本文是即將推出之最終版本的初步非官方草稿版本，屬於內容分析檔案的一部分。 所有內容可能會有所變更，而目前的本文版本概不提供任何法律義務。
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
 Content Analytics的設定包含下列步驟：
 
-![內容分析的設定](../assets/aca-configuration.svg)
+![內容分析的設定](../assets/aca-configuration.svg){zoomable="yes"}
 
-1. 使用Content Analytics [引導式組態](guided.md)精靈，引導您完成設定Content Analytics組態必要條件的所有必要步驟。 您可以儲存設定，稍後再返回。
-1. 在您熟悉設定值後，即可實作設定。 此實作會根據您在精靈中設定的專案，建立所有必要的成品。 會建立、更新或選取下列人工因素：
-   * Customer Journey Analytics
-      * 已選取[資料檢視](/help/data-views/data-views.md)。
-      * 已選取[連線](/help/connections/overview.md)，自動衍生自選取的資料檢視。
-   * Experience Platform
-      * 沙箱已選取，並自動衍生自連線。 沙箱中已啟用必要的工作流程和服務。
-      * 在沙箱中選取Content Analytics結構描述。 如果無法取得，則會建立必要的結構描述。
-      * 在沙箱中選取Content Analytics資料集。 如果無法取得，則會建立必要的資料集。
-   * 資料收集
-      * 在資料串流中建立資料串流並設定Experience Platform服務，以將資料串流至Content Analytics體驗事件資料集。
-      * Tags屬性是使用Adobe Content Analytics擴充功能建立的，該擴充功能針對設定精靈中的正確沙箱、資料流和其他設定選項進行設定。
+1. 使用Content Analytics [引導式組態](guided.md)精靈，引導您完成設定Content Analytics組態必要條件的所有必要步驟。 您可以隨時儲存設定，並稍後返回。
+1. 在您熟悉設定值後，即可實作設定。 此實作會根據您在精靈中設定的專案，建立所有必要的成品。
 1. 只有當您[手動發佈](manual.md) Tags屬性時，您的Content Analytics設定才會有效部署並啟動。
 
 1. 您只能使用[引導式組態](guided.md)精靈對已實作的組態進行一些微幅變更。 例如，變更[資料檢視](/help/data-views/data-views.md)。
-1. 您可以對實作組態進行其他變更。 在關聯的Tags屬性中使用[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)。
-1. 只有在您[手動重新發佈](manual.md) Tags屬性時，才會有效部署和啟動步驟4和5中的組態修改。
+1. 您可以使用關聯Tags屬性中的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)，對實作組態進行其他變更。
+1. 只有在您[手動重新發佈](manual.md) Tags屬性時，組態修改才會有效部署並啟動。
 
 
 ## 先決條件

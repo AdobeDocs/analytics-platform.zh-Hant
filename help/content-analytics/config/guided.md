@@ -7,19 +7,16 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 5eb9136107ed872639b02df2549a2f81dee83e76
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '3295'
+source-wordcount: '3324'
 ht-degree: 13%
 
 ---
 
 # 內容分析引導式設定
 
->[!WARNING]
->
->本文是即將推出之最終版本的初步非官方草稿版本，屬於內容分析檔案的一部分。 所有內容可能會有所變更，而目前的本文版本概不提供任何法律義務。
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
@@ -29,12 +26,11 @@ ht-degree: 13%
 >
 >您組織中的每個沙箱只能有一個內容分析設定。
 
-
 若要存取Content Analytics設定
 
 * 從Customer Journey Analytics的主功能表選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 內容分析]**。
 
-在內容Analytics設定畫面中，您會看到現有的內容Analytics設定表格。
+在&#x200B;**[!UICONTROL Content Analytics設定]**&#x200B;畫面中，您會看到現有Content Analytics設定的表格。
 
 ![內容分析設定](../assets/aca-configuration-table.png)
 對於每個設定，都提供下列詳細資訊：
@@ -54,15 +50,15 @@ ht-degree: 13%
 
 若要建立新組態：
 
-* 選取&#x200B;**[!UICONTROL 建立組態]**。 此動作會開啟引導式設定精靈。
+* 選取&#x200B;**[!UICONTROL 建立組態]**。 此動作會開啟[引導式設定精靈](#guided-configuration-wizard)。
 
 若要編輯現有組態，請執行下列動作：
 
-* 選取現有Content Analytics組態的![更多](/help/assets/icons/More.svg)，然後選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。 此動作會開啟引導式設定精靈。
+* 選取現有Content Analytics組態的![更多](/help/assets/icons/More.svg)，然後選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。 此動作會開啟[引導式設定精靈](#guided-configuration-wizard)。
 
 ## 引導式設定精靈
 
-引導式設定精靈包含四個區段（[詳細資料](#details)、[資料檢視](#data-view)、[體驗擷取與定義](#experience-capture-and-definition)以及[資料彙集](#data-collection)），每個區段都會提示您提供正確設定和設定內容分析所需的詳細資料。 請先完成每個區段，再移至下一個區段，因為區段中的部分設定可能取決於先前區段中的設定值。
+引導式設定精靈包含四個區段（[詳細資料](#details)、[資料檢視](#data-view)、[體驗擷取與定義](#experience-capture-and-definition)以及[資料彙集](#data-collection)），每個區段都會提示您提供正確設定和設定Content Analytics所需的詳細資料。 請先完成每個區段，再移至下一個區段，因為區段中的部分設定可能取決於先前區段中的設定值。
 
 ### 詳細資料 {#onboarding-details}
 
@@ -142,14 +138,17 @@ ht-degree: 13%
 
    如果您編輯現有設定，清單只會顯示沙箱中現有的資料檢視（已與現有設定關聯）。
 
+   您可以執行下列動作：
+
    * 若要搜尋特定資料檢視，請使用![搜尋](/help/assets/icons/Search.svg)欄位。
-   * 若要篩選可用的資料檢視清單，請選取![顯示篩選器](/help/assets/icons/Filter.svg)。 您可以篩選連線、擁有者和沙箱清單。<br/>使用![隱藏](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏篩選器]**&#x200B;來隱藏篩選器窗格。
+   * 若要篩選可用的資料檢視清單，請選取![顯示篩選器](/help/assets/icons/Filter.svg)。 您可以篩選[!UICONTROL 連線]、[!UICONTROL 擁有者]和[!UICONTROL 沙箱]上的清單。<br/>使用![隱藏](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏篩選器]**&#x200B;來隱藏篩選器窗格。
    * 若要定義要在表格中顯示哪些欄，請選取![欄設定](/help/assets/icons/ColumnSetting.svg)。 選取要在&#x200B;**[!UICONTROL 自訂表格]**&#x200B;對話方塊中顯示的資料行，並選取&#x200B;**[!UICONTROL 套用]**&#x200B;以套用變更。
 
+1. 選取![SelectBox](/help/assets/icons/SelectBox.svg)您要使用的資料檢視。
 1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認選取的資料檢視。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消。
 
 
-資料檢視已繫結至Customer Journey Analytics [連線](/help/connections/overview.md)。 而連線是以您組織內的沙箱為基礎。 儲存設定後，**[!UICONTROL 沙箱]**&#x200B;會根據選取的資料檢視，自動填入適當的沙箱名稱。
+在Customer Journey Analytics中，資料檢視已繫結至Customer Journey Analytics [連線](/help/connections/overview.md)。 而連線是以您組織內的沙箱為基礎。 儲存設定後，**[!UICONTROL 沙箱]**&#x200B;會根據選取的資料檢視，自動填入沙箱的名稱。
 
 
 ### 經驗擷取與定義 {#onboarding-experiences}
@@ -192,7 +191,7 @@ ht-degree: 13%
 ![Content Analytics組態體驗擷取與定義](../assets/aca-configuration-experience.png)
 
 1. 啟用&#x200B;**[!UICONTROL 包含體驗]**。
-1. 選擇性。 指定在您的網站上呈現內容的方式。 引數是&#x200B;**[!UICONTROL 網域規則運算式]**&#x200B;和&#x200B;**[!UICONTROL 查詢引數]**&#x200B;的零個或多個組合。
+1. 選擇性。 指定在您的網站上呈現內容的方式引數。 引數是&#x200B;**[!UICONTROL 網域規則運算式]**&#x200B;和&#x200B;**[!UICONTROL 查詢引數]**&#x200B;的零個或多個組合。
    1. 輸入&#x200B;**[!UICONTROL 網域規則運算式]**，例如`/^(?!.*\b(store|help|admin)\b)/`。 使用`/`確保您逸出規則運算式。
    1. 指定&#x200B;**[!UICONTROL 查詢引數]**&#x200B;的逗號分隔清單，例如`outdoors, patio, kitchen`。
 1. 如果要移除網域規則運算式和查詢引數的組合，請選取&#x200B;**[!UICONTROL 移除]**。
@@ -271,8 +270,9 @@ ht-degree: 13%
   ![Content Analytics資料收集新標籤](../assets/aca-configuration-datacollection-newtag.png)
 
    1. 選取&#x200B;**[!UICONTROL 新建]**。
-   2. 指定&#x200B;**[!UICONTROL 標籤名稱]**，例如`ACA Test`。
-   3. 指定&#x200B;**[!UICONTROL 網域]**，例如`example.com`。
+   1. 指定&#x200B;**[!UICONTROL 標籤名稱]**，例如`ACA Test for Documentation`。
+  <!--1. Specify **[!UICONTROL Domains]**, for example, `example.com`. -->
+   1. 選取&#x200B;**[!UICONTROL 新增]**。
 
 * 如果您已選取納入體驗，請指出在收集內容分析的資料時應納入或排除哪些頁面。
 
@@ -317,20 +317,671 @@ ht-degree: 13%
 * **[!UICONTROL 捨棄]**：建立新組態或編輯現有組態時所做的所有變更都會被捨棄。
 * **[!UICONTROL 儲存以供稍後使用]**：會儲存對新的組態或現有、尚未實作的組態所做的變更。 您可在稍後階段重新造訪設定，以進一步變更或實施設定。
 * **[!UICONTROL 實作]**：儲存並實作新組態或現有但尚未實作的組態的設定或變更。 實施包含：
+
+   * **[!UICONTROL Customer Journey Analytics]**&#x200B;設定：
+      * 選取的資料檢視已更新，其中包含Content Analytics維度和量度。
+      * 繫結至所選資料檢視的連線已修改，以包含Content Analytics事件和屬性資料集。
+      * 「內容分析」報告範本已新增至Workspace。
+
++++ 詳細資料
+
+     詳細說明以下情境：
+
+      * **標籤**&#x200B;屬性存在&#x200B;**✓**&#x200B;或不存在&#x200B;**✕**。
+      * Tags屬性的&#x200B;**網頁SDK**&#x200B;延伸存在&#x200B;**✓**&#x200B;或不存在&#x200B;**✕**。
+      * Tag屬性的Adobe **Content Analytics**&#x200B;延伸模組存在&#x200B;**✓**，或不存在&#x200B;**✕**。
+
+     <table style="table-layout:fixed">
+      <tr>
+        <th></th>
+        <th colspan="4">情境：</th>
+      </tr>
+      <tr>
+        <th>
+          <strong>設定</strong>
+        </th>
+        <th>
+          <strong>✓標籤<br>✓Web SDK<br/>✓ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓標籤<br>✓Web SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓標籤<br>✕ Web SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✕標籤<br>✕Web SDK<br/>✕ Content Analytics</strong>
+        </th>
+      </tr>
+      <tbody>
+        <tr>
+          <td>報告範本</td>
+          <td colspan="4">報表範本可供使用</td>
+        </tr>
+        <tr>
+          <td>資料視圖</td>
+          <td colspan="4">修改/建立以包含ACA維度和量度</td>
+        </tr>
+        <tr>
+          <td>連線</td>
+          <td colspan="4">修改為包含ACA資料集(ACA事件、資產屬性、體驗屬性)</td>
+        </tr>
+      </tbody>
+    </table>
+
++++
+
    * **[!UICONTROL Adobe Experience Platform]**&#x200B;設定：
       * 建立結構描述以建立Content Analytics事件、資產屬性和（如果已設定）體驗屬性的模型。
       * 建立資料集以收集Content Analytics事件、資產屬性和（如果已設定）體驗屬性。
       * 建立資料流，使用功能化服務從Content Analytics事件產生和更新內容屬性。
+
++++ 詳細資料
+
+     詳細說明以下情境：
+
+      * **標籤**&#x200B;屬性存在&#x200B;**✓**&#x200B;或不存在&#x200B;**✕**。
+      * Tags屬性的&#x200B;**網頁SDK**&#x200B;延伸存在&#x200B;**✓**&#x200B;或不存在&#x200B;**✕**。
+      * Tag屬性的Adobe **Content Analytics**&#x200B;延伸模組存在&#x200B;**✓**，或不存在&#x200B;**✕**。
+
+     <table style="table-layout:fixed">
+      <tr>
+        <th></th>
+        <th colspan="4">情境：</th>
+      </tr>
+      <tr>
+        <th>
+          <strong>設定</strong>
+        </th>
+        <th>
+          <strong>✓標籤<br>✓Web SDK<br/>✓ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓標籤<br>✓Web SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓標籤<br>✕ Web SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✕標籤<br>✕Web SDK<br/>✕ Content Analytics</strong>
+        </th>
+      </tr>
+      <tbody>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics事件結構描述</strong></td>
+        </tr>
+        <tr>
+          <td style="margin-left: 160.0px;">名稱</td>
+          <td>Content Analytics事件</td>
+          <td>Content Analytics事件</td>
+          <td>Content Analytics事件</td>
+          <td>Content Analytics事件</td>
+        </tr>
+        <tr>
+          <td>說明</td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+        </tr>
+        <tr>
+          <td>設定檔已啟用</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics事件資料集</strong></td>
+        </tr>
+        <tr>
+          <td>名稱</td>
+          <td>Content Analytics事件</td>
+          <td>Content Analytics事件</td>
+          <td>Content Analytics事件</td>
+          <td>Content Analytics事件</td>
+        </tr>
+        <tr>
+          <td>結構描述</td>
+          <td>Content Analytics事件</td>
+          <td>Content Analytics事件</td>
+          <td>Content Analytics事件</td>
+          <td>Content Analytics事件</td>
+        </tr>
+        <tr>
+          <td>說明</td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+        </tr>
+        <tr>
+          <td>標記</td>
+          <td><i>空白？</i></td>
+          <td><i>空白？</i></td>
+          <td><i>空白？</i></td>
+          <td><i>空白？</i></td>
+        </tr>
+        <tr>
+          <td>系統資料集</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+        <tr>
+          <td>設定檔已啟用</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+        </tr>
+        <tr>
+          <td>資料控管（DULE標籤）</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics資產屬性結構</strong></td>
+        </tr>
+        <tr>
+          <td>名稱</td>
+          <td>Content Analytics資產屬性</td>
+          <td>Content Analytics資產屬性</td>
+          <td>Content Analytics資產屬性</td>
+          <td>Content Analytics資產屬性</td>
+        </tr>
+        <tr>
+          <td>說明</td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+        </tr>
+        <tr>
+          <td>設定檔已啟用</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics Assets屬性資料集</strong></td>
+        </tr>
+        <tr>
+          <td>名稱</td>
+          <td>Content Analytics資產屬性</td>
+          <td>Content Analytics資產屬性</td>
+          <td>Content Analytics資產屬性</td>
+          <td>Content Analytics資產屬性</td>
+        </tr>
+        <tr>
+          <td>結構描述</td>
+          <td>Content Analytics資產屬性</td>
+          <td>Content Analytics資產屬性</td>
+          <td>Content Analytics資產屬性</td>
+          <td>Content Analytics資產屬性</td>
+        </tr>
+        <tr>
+          <td>說明</td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+        </tr>
+        <tr>
+          <td>標記</td>
+          <td><i>空白？</i></td>
+          <td><i>空白？</i></td>
+          <td><i>空白？</i></td>
+          <td><i>空白？</i></td>
+        </tr>
+        <tr>
+          <td>系統資料集</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+        <tr>
+          <td>設定檔已啟用</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+        </tr>
+        <tr>
+          <td>資料控管（DULE標籤）</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics體驗屬性結構</strong></td>
+        </tr>
+        <tr>
+          <td>名稱</td>
+          <td>Content Analytics體驗屬性</td>
+          <td>Content Analytics體驗屬性</td>
+          <td>Content Analytics體驗屬性</td>
+          <td>Content Analytics體驗屬性</td>
+        </tr>
+        <tr>
+          <td>說明</td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+        </tr>
+        <tr>
+          <td>設定檔已啟用</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics體驗屬性資料集</strong></td>
+        </tr>
+        <tr>
+          <td>名稱</td>
+          <td>Content Analytics體驗屬性</td>
+          <td>Content Analytics體驗屬性</td>
+          <td>Content Analytics體驗屬性</td>
+          <td>Content Analytics體驗屬性</td>
+        </tr>
+        <tr>
+          <td>結構描述</td>
+          <td>Content Analytics體驗屬性</td>
+          <td>Content Analytics體驗屬性</td>
+          <td>Content Analytics體驗屬性</td>
+          <td>Content Analytics體驗屬性</td>
+        </tr>
+        <tr>
+          <td>說明</td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+          <td><i>預先決定的待定</i></td>
+        </tr>
+        <tr>
+          <td>標記</td>
+          <td><i>空白？</i></td>
+          <td><i>空白？</i></td>
+          <td><i>空白？</i></td>
+          <td><i>空白？</i></td>
+        </tr>
+        <tr>
+          <td>系統資料集</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+        <tr>
+          <td>設定檔已啟用</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+          <td>否</td>
+        </tr>
+        <tr>
+          <td>資料控管（DULE標籤）</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+      </tbody>
+    </table>
+
++++
+
    * **[!UICONTROL 資料彙集]**&#x200B;組態：
       * 新的或現有的標籤屬性已設定為支援Content Analytics資料收集。 此設定表示包含標籤的Adobe Content Analytics擴充功能。
       * 系統會為內容分析事件建立資料流。
       * Adobe Content Analytics擴充功能已設定為確保Content Analytics事件傳送至Content Analytics的資料流。
       * 如果沒有為Tags屬性設定Web SDK，則會建立新的Web SDK設定，以便僅傳送Content Analytics事件。
       * 如果針對此標籤屬性設定了網頁SDK，則不會對現有的網頁SDK設定進行任何變更。
-   * **[!UICONTROL Customer Journey Analytics]**&#x200B;設定：
-      * 選取的資料檢視已更新，其中包含Content Analytics維度和量度。
-      * 繫結至所選資料檢視的連線已修改，以包含Content Analytics事件和屬性資料集。
-      * 「內容分析」報告範本已新增至Workspace。
+
++++ 詳細資料
+
+     詳細說明以下情境：
+
+      * **標籤**&#x200B;屬性存在&#x200B;**✓**&#x200B;或不存在&#x200B;**✕**。
+      * Tags屬性的&#x200B;**網頁SDK**&#x200B;延伸存在&#x200B;**✓**&#x200B;或不存在&#x200B;**✕**。
+      * Tag屬性的Adobe **Content Analytics**&#x200B;延伸模組存在&#x200B;**✓**，或不存在&#x200B;**✕**。
+
+     <table style="table-layout:fixed">
+      <tr>
+        <th></th>
+        <th colspan="4">情境：</th>
+      </tr>
+      <tr>
+        <th>
+          <strong>設定</strong>
+        </th>
+        <th>
+          <strong>✓標籤<br>✓Web SDK<br/>✓ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓標籤<br>✓Web SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✓標籤<br>✕ Web SDK<br/>✕ Content Analytics</strong>
+        </th>
+        <th>
+          <strong>✕標籤<br>✕Web SDK<br/>✕ Content Analytics</strong>
+        </th>
+      </tr>
+      <tbody>
+        <tr>
+          <td colspan="5"><strong><br/>資料流</strong></td>
+        </tr>
+        <tr>
+          <td>名稱</td>
+          <td><i>現有值</i></td>
+          <td>內容分析</td>
+          <td>內容分析</td>
+          <td>內容分析</td>
+        </tr>
+        <tr>
+          <td>說明</td>
+          <td><i>現有值</i></td>
+          <td><i>預定</i></td>
+          <td><i>預定</i></td>
+          <td><i>預定</i></td>
+        </tr>
+        <tr>
+          <td>對應結構描述</td>
+          <td><i>現有值</i></td>
+          <td><i>預定</i></td>
+          <td><i>預定</i></td>
+          <td><i>預定</i></td>
+        </tr>
+        <tr>
+          <td>地理位置與網路查詢</td>
+          <td><i>現有值</i></td>
+          <td>關閉所有選項</td>
+          <td>關閉所有選項</td>
+          <td>關閉所有選項</td>
+        </tr>
+        <tr>
+          <td>裝置查詢</td>
+          <td><i>現有值</i></td>
+          <td>不要收集任何裝置資訊</td>
+          <td>不要收集任何裝置資訊</td>
+          <td>不要收集任何裝置資訊</td>
+        </tr>
+        <tr>
+          <td>IP 模糊化</td>
+          <td><i>現有值</i></td>
+          <td>無</td>
+          <td>無</td>
+          <td>無</td>
+        </tr>
+        <tr>
+          <td>第一方ID Cookie</td>
+          <td><i>現有值</i></td>
+          <td>關閉</td>
+          <td>關閉</td>
+          <td>關閉</td>
+        </tr>
+        <tr>
+          <td>協力廠商ID同步</td>
+          <td><i>現有值</i></td>
+          <td>關閉</td>
+          <td>關閉</td>
+          <td>關閉</td>
+        </tr>
+        <tr>
+          <td>存取型別</td>
+          <td><i>現有值</i></td>
+          <td>混合驗證</td>
+          <td>混合驗證</td>
+          <td>混合驗證</td>
+        </tr>
+        <tr>
+          <td>媒體分析</td>
+          <td><i>現有值</i></td>
+          <td>關閉</td>
+          <td>關閉</td>
+          <td>關閉</td>
+        </tr>
+            <tr>
+          <td>機器人偵測</td>
+          <td><i>現有值</i></td>
+          <td>關閉</td>
+          <td>關閉</td>
+          <td>關閉</td>
+        </tr>
+        <tr>
+          <td>映射</td>
+          <td><i>現有值</i></td>
+          <td><i>使用者提供</i></td>
+          <td><i>使用者提供</i></td>
+          <td><i>使用者提供</i></td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>標籤屬性</strong><br/>現有屬性或新屬性。 名稱和網域由使用者提供。</td>
+        </tr>
+        <tr>
+          <td>名稱</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td><i>已提供使用者</i> (預設為「Content Analytics」)</td>
+        </tr>
+        <tr>
+          <td>網域</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td ><i>預定</i></td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>標籤資料庫</strong></td>
+        </tr>
+        <tr>
+          <td>名稱</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>
+            <br/>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Web SDK擴充功能</strong></td>
+        </tr>
+        <tr>
+          <td>名稱</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>Content Analytics — 網頁SDK</td>
+          <td>Content Analytics — 網頁SDK</td>
+        </tr>
+        <tr>
+          <td>IMS組織</td>
+          <td><i>自動填入</i></td>
+          <td><i>自動填入</i></td>
+          <td><i>自動填入</i></td>
+          <td><i>自動填入</i></td>
+        </tr>
+        <tr>
+          <td>邊緣網域</td>
+          <td><i>現有值<br/>可能需要更新以符合AppMeasurement實作</i></td>
+          <td><i>現有值<br/>可能需要更新以符合AppMeasurement實作</i></td>
+          <td>
+            <a href="http://edge.adobedc.net">edge.adobedc.net</a>
+          </td>
+          <td>
+            <a href="http://edge.adobedc.net">edge.adobedc.net</a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>資料流</strong></td>
+        </tr>
+        <tr>
+          <td>生產</td>
+          <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
+          <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
+          <td><i>使用者已提供</i>？</td>
+          <td><i>使用者已提供</i>？</td>
+        </tr>
+        <tr>
+          <td>預備</td>
+          <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
+          <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
+          <td><i>使用者已提供</i>？</td>
+          <td><i>使用者已提供</i>？</td>
+        </tr>
+        <tr>
+          <td>開發</td>
+          <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
+          <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
+          <td><i>使用者已提供</i>？</td>
+          <td><i>使用者已提供</i>？</td>
+        </tr>
+        <tr>
+          <td>隱私權</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>在？</td>
+          <td>在？</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>身分識別</strong></td>
+        </tr>
+        <tr>
+          <td>移轉ECID</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>已核取</td>
+          <td>已核取</td>
+        </tr>
+        <tr>
+          <td>使用第三方Cookie</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>已核取</td>
+          <td>已核取</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>個人化</strong></td>
+        </tr>
+        <tr>
+          <td>將Target從at.js移轉至Web SDK</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>未勾選</td>
+          <td>未勾選</td>
+        </tr>
+        <tr>
+          <td>啟用個人化儲存</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>未勾選</td>
+          <td>未勾選</td>
+        </tr>
+        <tr>
+          <td>Adobe Journey Optimizer的自動點選集合</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>一律</td>
+          <td>一律</td>
+        </tr>
+        <tr>
+          <td>Adobe Target的自動點選集合</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>從不</td>
+          <td>從不</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>資料收集</strong></td>
+        </tr>
+        <tr>
+          <td>收集內部連結點按次數</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>未勾選</td>
+          <td>未勾選</td>
+        </tr>
+        <tr>
+          <td>收集外部連結點按次數</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>未勾選</td>
+          <td>未勾選</td>
+        </tr>
+        <tr>
+          <td>收集下載連結點按次數</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>未勾選</td>
+          <td>未勾選</td>
+        </tr>
+        <tr>
+          <td>傳送事件資料時，自動包含</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>所有預設內容資訊</td>
+          <td>所有預設內容資訊</td>
+        </tr>
+        <tr>
+          <td>串流媒體</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>空白值</td>
+          <td>空白值</td>
+        </tr>
+        <tr>
+          <td>資料流設定覆寫</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>符合資料流設定</td>
+          <td>符合資料流設定</td>
+        </tr>
+        <tr>
+          <td>進階設定 — Edge基本路徑</td>
+          <td><i>現有值</i></td>
+          <td><i>現有值</i></td>
+          <td>ee</td>
+          <td>ee</td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong><br/>Content Analytics擴充功能</strong></td>
+        </tr>
+        <tr>
+          <td>資料流</td>
+          <td><i>現有值</i></td>
+          <td><i>預定</i></td>
+          <td><i>預定</i></td>
+          <td><i>預定</i></td>
+        </tr>
+        <tr>
+          <td>體驗擷取與定義</td>
+          <td><i>現有值</i></td>
+          <td><i>使用者提供</i></td>
+          <td><i>使用者提供</i></td>
+          <td><i>使用者提供</i></td>
+        </tr>
+        <tr>
+          <td>事件篩選</td>
+          <td><i>現有值</i></td>
+          <td><i>使用者提供</i></td>
+          <td><i>使用者提供</i></td>
+          <td><i>使用者提供</i></td>
+        </tr>
+      </tbody>
+    </table>
+
++++
+
 * **[!UICONTROL 儲存]**：對實作組態所做的變更已儲存，且實作已更新。
 * **[!UICONTROL 結束]**。 退出引導式設定。 會捨棄對實作組態所做的所有變更。
 
@@ -340,52 +991,54 @@ ht-degree: 13%
 若要啟用您的Content Analytics設定，您必須發佈在您選取&#x200B;**[!UICONTROL 實作]** [手動](manual.md)之後建立的Tags屬性。
 
 
-## 入門設定和配置
 
-以下章節概述套用至[Customer Journey Analytics](#customer-journey-analytics-cja)、[Experience Platform](#experience-platform-aep)和[資料彙集](#data-collection-dc)的設定和組態，這些設定和組態是Content Analytics組態實作的一部分。
+<!--
+## Onboarding settings and configurations
 
-詳細說明以下情境：
+The following sections outline the settings and configurations applied to [Customer Journey Analytics](#customer-journey-analytics-cja), [Experience Platform](#experience-platform-aep) and [Data Collection](#data-collection-dc) as part of the implementation of a Content Analytics configuration.
 
-* **標籤**&#x200B;屬性存在&#x200B;**✓**&#x200B;或不存在&#x200B;**✕**。
-* Tags屬性的&#x200B;**網頁SDK**&#x200B;延伸存在&#x200B;**✓**&#x200B;或不存在&#x200B;**✕**。
-* Tag屬性的Adobe **Content Analytics**&#x200B;延伸模組存在&#x200B;**✓**，或不存在&#x200B;**✕**。
+Details are provided for the following scenarios:
+
+* **Tags** property exists **✓** or does not exist **✕**.
+* **Web SDK** extension for the Tags property exists **✓** or does not exist **✕**.
+* Adobe **Content Analytics** extension for the Tag property exists **✓** or does not exist **✕**.
 
 ### Customer Journey Analytics {#cja}
 
 <table style="table-layout:fixed">
   <tr>
     <th></th>
-    <th colspan="4">情境：</th>
+    <th colspan="4">Scenarios:</th>
   </tr>
   <tr>
     <th>
-      <strong>設定</strong>
+      <strong>Setting</strong>
     </th>
     <th>
-      <strong>✓標籤<br>✓Web SDK<br/>✓ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✓ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓標籤<br>✓Web SDK<br/>✕ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓標籤<br>✕ Web SDK<br/>✕ Content Analytics</strong>
+      <strong>✓Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✕標籤<br>✕Web SDK<br/>✕ Content Analytics</strong>
+      <strong>✕ Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
   </tr>
   <tbody>
     <tr>
-      <td>報告範本</td>
-      <td colspan="4">報表範本可供使用</td>
+      <td>Report Template</td>
+      <td colspan="4">A report template is available</td>
     </tr>
     <tr>
-      <td>資料視圖</td>
-      <td colspan="4">修改/建立以包含ACA維度和量度</td>
+      <td>Data view</td>
+      <td colspan="4">Modified/Created to have ACA dimensions and metrics</td>
     </tr>
     <tr>
-      <td>連線</td>
-      <td colspan="4">修改為包含ACA資料集(ACA事件、資產屬性、體驗屬性)</td>
+      <td>Connection</td>
+      <td colspan="4">Modified to include ACA datasets (ACA events, Asset attributes, Experience Attribute)</td>
     </tr>
   </tbody>
 </table>
@@ -395,249 +1048,249 @@ ht-degree: 13%
 <table style="table-layout:fixed">
   <tr>
     <th></th>
-    <th colspan="4">情境：</th>
+    <th colspan="4">Scenarios:</th>
   </tr>
   <tr>
     <th>
-      <strong>設定</strong>
+      <strong>Setting</strong>
     </th>
     <th>
-      <strong>✓標籤<br>✓Web SDK<br/>✓ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✓ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓標籤<br>✓Web SDK<br/>✕ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓標籤<br>✕ Web SDK<br/>✕ Content Analytics</strong>
+      <strong>✓Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✕標籤<br>✕Web SDK<br/>✕ Content Analytics</strong>
+      <strong>✕ Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
   </tr>
   <tbody>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics事件結構描述</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Events schema</strong></td>
     </tr>
     <tr>
-      <td style="margin-left: 160.0px;">名稱</td>
-      <td>Content Analytics事件</td>
-      <td>Content Analytics事件</td>
-      <td>Content Analytics事件</td>
-      <td>Content Analytics事件</td>
+      <td style="margin-left: 160.0px;">Name</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
     </tr>
     <tr>
-      <td>說明</td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>設定檔已啟用</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics事件資料集</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Events dataset</strong></td>
     </tr>
     <tr>
-      <td>名稱</td>
-      <td>Content Analytics事件</td>
-      <td>Content Analytics事件</td>
-      <td>Content Analytics事件</td>
-      <td>Content Analytics事件</td>
+      <td>Name</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
+      <td>Content Analytics Events</td>
     </tr>
     <tr>
-      <td>結構描述</td>
-      <td>Content Analytics事件</td>
-      <td>Content Analytics事件</td>
-      <td>Content Analytics事件</td>
-      <td>Content Analytics事件</td>
+      <td>Schema</td>
+      <td>Content Analytics Event</td>
+      <td>Content Analytics Event</td>
+      <td>Content Analytics Event</td>
+      <td>Content Analytics Event</td>
     </tr>
     <tr>
-      <td>說明</td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>標記</td>
-      <td><i>空白？</i></td>
-      <td><i>空白？</i></td>
-      <td><i>空白？</i></td>
-      <td><i>空白？</i></td>
+      <td>Tags</td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
     </tr>
     <tr>
-      <td>系統資料集</td>
+      <td>System dataset</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
     </tr>
     <tr>
-      <td>設定檔已啟用</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td>資料控管（DULE標籤）</td>
+      <td>Data governance (DULE labels)</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics資產屬性結構</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Asset Attributes schema</strong></td>
     </tr>
     <tr>
-      <td>名稱</td>
-      <td>Content Analytics資產屬性</td>
-      <td>Content Analytics資產屬性</td>
-      <td>Content Analytics資產屬性</td>
-      <td>Content Analytics資產屬性</td>
+      <td>Name</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
     </tr>
     <tr>
-      <td>說明</td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>設定檔已啟用</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics Assets屬性資料集</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Assets Attributes dataset</strong></td>
     </tr>
     <tr>
-      <td>名稱</td>
-      <td>Content Analytics資產屬性</td>
-      <td>Content Analytics資產屬性</td>
-      <td>Content Analytics資產屬性</td>
-      <td>Content Analytics資產屬性</td>
+      <td>Name</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
     </tr>
     <tr>
-      <td>結構描述</td>
-      <td>Content Analytics資產屬性</td>
-      <td>Content Analytics資產屬性</td>
-      <td>Content Analytics資產屬性</td>
-      <td>Content Analytics資產屬性</td>
+      <td>Schema</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
+      <td>Content Analytics Asset Attributes</td>
     </tr>
     <tr>
-      <td>說明</td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>標記</td>
-      <td><i>空白？</i></td>
-      <td><i>空白？</i></td>
-      <td><i>空白？</i></td>
-      <td><i>空白？</i></td>
+      <td>Tags</td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
     </tr>
     <tr>
-      <td>系統資料集</td>
+      <td>System dataset</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
     </tr>
     <tr>
-      <td>設定檔已啟用</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td>資料控管（DULE標籤）</td>
+      <td>Data governance (DULE labels)</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics體驗屬性結構</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Experience Attributes schema</strong></td>
     </tr>
     <tr>
-      <td>名稱</td>
-      <td>Content Analytics體驗屬性</td>
-      <td>Content Analytics體驗屬性</td>
-      <td>Content Analytics體驗屬性</td>
-      <td>Content Analytics體驗屬性</td>
+      <td>Name</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
     </tr>
     <tr>
-      <td>說明</td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>設定檔已啟用</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics體驗屬性資料集</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Experience Attributes dataset</strong></td>
     </tr>
     <tr>
-      <td>名稱</td>
-      <td>Content Analytics體驗屬性</td>
-      <td>Content Analytics體驗屬性</td>
-      <td>Content Analytics體驗屬性</td>
-      <td>Content Analytics體驗屬性</td>
+      <td>Name</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
     </tr>
     <tr>
-      <td>結構描述</td>
-      <td>Content Analytics體驗屬性</td>
-      <td>Content Analytics體驗屬性</td>
-      <td>Content Analytics體驗屬性</td>
-      <td>Content Analytics體驗屬性</td>
+      <td>Schema</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
+      <td>Content Analytics Experience Attributes</td>
     </tr>
     <tr>
-      <td>說明</td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
-      <td><i>預先決定的待定</i></td>
+      <td>Description</td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
+      <td><i>predetermined tbd</i></td>
     </tr>
     <tr>
-      <td>標記</td>
-      <td><i>空白？</i></td>
-      <td><i>空白？</i></td>
-      <td><i>空白？</i></td>
-      <td><i>空白？</i></td>
+      <td>Tags</td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
+      <td><i>empty?</i></td>
     </tr>
     <tr>
-      <td>系統資料集</td>
+      <td>System dataset</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
     </tr>
     <tr>
-      <td>設定檔已啟用</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
-      <td>否</td>
+      <td>Profile enabled</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
     </tr>
     <tr>
-      <td>資料控管（DULE標籤）</td>
+      <td>Data governance (DULE labels)</td>
       <td>?</td>
       <td>?</td>
       <td>?</td>
@@ -647,168 +1300,168 @@ ht-degree: 13%
 </table>
 
 
-### 資料收集 {#dc}
+### Data Collection {#dc}
 
 <table style="table-layout:fixed">
   <tr>
     <th></th>
-    <th colspan="4">情境：</th>
+    <th colspan="4">Scenarios:</th>
   </tr>
   <tr>
     <th>
-      <strong>設定</strong>
+      <strong>Setting</strong>
     </th>
     <th>
-      <strong>✓標籤<br>✓Web SDK<br/>✓ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✓ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓標籤<br>✓Web SDK<br/>✕ Content Analytics</strong>
+      <strong>✓ Tags<br>✓ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✓標籤<br>✕ Web SDK<br/>✕ Content Analytics</strong>
+      <strong>✓Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
     <th>
-      <strong>✕標籤<br>✕Web SDK<br/>✕ Content Analytics</strong>
+      <strong>✕ Tags<br>✕ Web SDK<br/>✕ Content Analytics</strong>
     </th>
   </tr>
   <tbody>
     <tr>
-      <td colspan="5"><strong><br/>資料流</strong></td>
+      <td colspan="5"><strong><br/>Datastream</strong></td>
     </tr>
     <tr>
-      <td>名稱</td>
-      <td><i>現有值</i></td>
-      <td>內容分析</td>
-      <td>內容分析</td>
-      <td>內容分析</td>
+      <td>Name</td>
+      <td><i>existing value</i></td>
+      <td>Content Analytics</td>
+      <td>Content Analytics</td>
+      <td>Content Analytics</td>
     </tr>
     <tr>
-      <td>說明</td>
-      <td><i>現有值</i></td>
-      <td><i>預定</i></td>
-      <td><i>預定</i></td>
-      <td><i>預定</i></td>
+      <td>Description</td>
+      <td><i>existing value</i></td>
+      <td><i>predetermined</i></td>
+      <td><i>predetermined</i></td>
+      <td><i>predetermined</i></td>
     </tr>
     <tr>
-      <td>對應結構描述</td>
-      <td><i>現有值</i></td>
-      <td><i>預定</i></td>
-      <td><i>預定</i></td>
-      <td><i>預定</i></td>
+      <td>Mapping schema</td>
+      <td><i>existing value</i></td>
+      <td><i>predetermined</i></td>
+      <td><i>predetermined</i></td>
+      <td><i>predetermined</i></td>
     </tr>
     <tr>
-      <td>地理位置與網路查詢</td>
-      <td><i>現有值</i></td>
-      <td>關閉所有選項</td>
-      <td>關閉所有選項</td>
-      <td>關閉所有選項</td>
+      <td>Geolocation and Network Lookup</td>
+      <td><i>existing values</i></td>
+      <td>All options off</td>
+      <td>All options off</td>
+      <td>All options off</td>
     </tr>
     <tr>
-      <td>裝置查詢</td>
-      <td><i>現有值</i></td>
-      <td>不要收集任何裝置資訊</td>
-      <td>不要收集任何裝置資訊</td>
-      <td>不要收集任何裝置資訊</td>
+      <td>Device Lookup</td>
+      <td><i>existing value</i></td>
+      <td>Do not collect any device information</td>
+      <td>Do not collect any device information</td>
+      <td>Do not collect any device information</td>
     </tr>
     <tr>
-      <td>IP 模糊化</td>
-      <td><i>現有值</i></td>
-      <td>無</td>
-      <td>無</td>
-      <td>無</td>
+      <td>IP Obfuscation</td>
+      <td><i>existing value</i></td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
     </tr>
     <tr>
-      <td>第一方ID Cookie</td>
-      <td><i>現有值</i></td>
-      <td>關閉</td>
-      <td>關閉</td>
-      <td>關閉</td>
+      <td>First Party ID Cookie</td>
+      <td><i>existing value</i></td>
+      <td>Off</td>
+      <td>Off</td>
+      <td>Off</td>
     </tr>
     <tr>
-      <td>協力廠商ID同步</td>
-      <td><i>現有值</i></td>
-      <td>關閉</td>
-      <td>關閉</td>
-      <td>關閉</td>
+      <td>Third Party ID Synch</td>
+      <td><i>existing value</i></td>
+      <td>Off</td>
+      <td>Off</td>
+      <td>Off</td>
     </tr>
     <tr>
-      <td>存取型別</td>
-      <td><i>現有值</i></td>
-      <td>混合驗證</td>
-      <td>混合驗證</td>
-      <td>混合驗證</td>
+      <td>Access Type</td>
+      <td><i>existing value</i></td>
+      <td>Mixed Authentication</td>
+      <td>Mixed Authentication</td>
+      <td>Mixed Authentication</td>
     </tr>
     <tr>
-      <td>媒體分析</td>
-      <td><i>現有值</i></td>
-      <td>關閉</td>
-      <td>關閉</td>
-      <td>關閉</td>
+      <td>Media Analytics</td>
+      <td><i>existing value</i></td>
+      <td>Off</td>
+      <td>Off</td>
+      <td>Off</td>
     </tr>
         <tr>
-      <td>機器人偵測</td>
-      <td><i>現有值</i></td>
-      <td>關閉</td>
-      <td>關閉</td>
-      <td>關閉</td>
+      <td>Bot Detection</td>
+      <td><i>existing value</i></td>
+      <td>Off</td>
+      <td>Off</td>
+      <td>Off</td>
     </tr>
     <tr>
-      <td>映射</td>
-      <td><i>現有值</i></td>
-      <td><i>使用者提供</i></td>
-      <td><i>使用者提供</i></td>
-      <td><i>使用者提供</i></td>
+      <td>Mapping</td>
+      <td><i>existing value</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>標籤屬性</strong><br/>現有屬性或新屬性。 名稱和網域由使用者提供。</td>
+      <td colspan="5"><strong><br/>Tags property</strong><br/>An existing property or new property. The name and domain are provided by the user.</td>
     </tr>
     <tr>
-      <td>名稱</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td><i>已提供使用者</i> (預設為「Content Analytics」)</td>
+      <td>Name</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td><i>user provided</i> (default "Content Analytics")</td>
     </tr>
     <tr>
-      <td>網域</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td ><i>預定</i></td>
+      <td>Domain</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td ><i>predetermined</i></td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>標籤資料庫</strong></td>
+      <td colspan="5"><strong><br/>Tags library</strong></td>
     </tr>
     <tr>
-      <td>名稱</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
+      <td>Name</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
       <td>
         <br/>
       </td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Web SDK擴充功能</strong></td>
+      <td colspan="5"><strong><br/>Web SDK Extension</strong></td>
     </tr>
     <tr>
-      <td>名稱</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>Content Analytics — 網頁SDK</td>
-      <td>Content Analytics — 網頁SDK</td>
+      <td>Name</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Content Analytics - Web SDK</td>
+      <td>Content Analytics - Web SDK</td>
     </tr>
     <tr>
-      <td>IMS組織</td>
-      <td><i>自動填入</i></td>
-      <td><i>自動填入</i></td>
-      <td><i>自動填入</i></td>
-      <td><i>自動填入</i></td>
+      <td>IMS Org</td>
+      <td><i>automatically populated</i></td>
+      <td><i>automatically populated</i></td>
+      <td><i>automatically populated</i></td>
+      <td><i>automatically populated</i></td>
     </tr>
     <tr>
-      <td>邊緣網域</td>
-      <td><i>現有值<br/>可能需要更新以符合AppMeasurement實作</i></td>
-      <td><i>現有值<br/>可能需要更新以符合AppMeasurement實作</i></td>
+      <td>Edge Domain</td>
+      <td><i>existing value<br/>Might require an update to match the AppMeasurement implementation</i></td>
+      <td><i>existing value<br/>Might require an update to match the AppMeasurement implementation</i></td>
       <td>
         <a href="http://edge.adobedc.net">edge.adobedc.net</a>
       </td>
@@ -817,162 +1470,164 @@ ht-degree: 13%
       </td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>資料流</strong></td>
+      <td colspan="5"><strong><br/>Datastreams</strong></td>
     </tr>
     <tr>
-      <td>生產</td>
-      <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
-      <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
-      <td><i>使用者已提供</i>？</td>
-      <td><i>使用者已提供</i>？</td>
+      <td>Production</td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>user provided</i>?</td>
+      <td><i>user provided</i>?</td>
     </tr>
     <tr>
-      <td>預備</td>
-      <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
-      <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
-      <td><i>使用者已提供</i>？</td>
-      <td><i>使用者已提供</i>？</td>
+      <td>Staging</td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>user provided</i>?</td>
+      <td><i>user provided</i>?</td>
     </tr>
     <tr>
-      <td>開發</td>
-      <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
-      <td><i>現有值<br/>用來傳送至不同資料流的資料流覆寫</i></td>
-      <td><i>使用者已提供</i>？</td>
-      <td><i>使用者已提供</i>？</td>
+      <td>Development</td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>existing value<br/>Datastream override used to send to a different datastream</i></td>
+      <td><i>user provided</i>?</td>
+      <td><i>user provided</i>?</td>
     </tr>
     <tr>
-      <td>隱私權</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>在？</td>
-      <td>在？</td>
+      <td>Privacy</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>In?</td>
+      <td>In?</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>身分識別</strong></td>
+      <td colspan="5"><strong><br/>Identity</strong></td>
     </tr>
     <tr>
-      <td>移轉ECID</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>已核取</td>
-      <td>已核取</td>
+      <td>Migrate ECID</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Checked</td>
+      <td>Checked</td>
     </tr>
     <tr>
-      <td>使用第三方Cookie</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>已核取</td>
-      <td>已核取</td>
+      <td>Use third-party cookies</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Checked</td>
+      <td>Checked</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>個人化</strong></td>
+      <td colspan="5"><strong><br/>Personalization</strong></td>
     </tr>
     <tr>
-      <td>將Target從at.js移轉至Web SDK</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>未勾選</td>
-      <td>未勾選</td>
+      <td>Migrate Target from at.js to Web SDK</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
     </tr>
     <tr>
-      <td>啟用個人化儲存</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>未勾選</td>
-      <td>未勾選</td>
+      <td>Enable personalization storage</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
     </tr>
     <tr>
-      <td>Adobe Journey Optimizer的自動點選集合</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>一律</td>
-      <td>一律</td>
+      <td>Auto click collection for Adobe Journey Optimizer</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Always</td>
+      <td>Always</td>
     </tr>
     <tr>
-      <td>Adobe Target的自動點選集合</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>從不</td>
-      <td>從不</td>
+      <td>Auto click collection for Adobe Target</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Never</td>
+      <td>Never</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>資料收集</strong></td>
+      <td colspan="5"><strong><br/>Data Collection</strong></td>
     </tr>
     <tr>
-      <td>收集內部連結點按次數</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>未勾選</td>
-      <td>未勾選</td>
+      <td>Collect internal links clicks</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
     </tr>
     <tr>
-      <td>收集外部連結點按次數</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>未勾選</td>
-      <td>未勾選</td>
+      <td>Collect external link clicks</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
     </tr>
     <tr>
-      <td>收集下載連結點按次數</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>未勾選</td>
-      <td>未勾選</td>
+      <td>Collect download links clicks</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
     </tr>
     <tr>
-      <td>傳送事件資料時，自動包含</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>所有預設內容資訊</td>
-      <td>所有預設內容資訊</td>
+      <td>When sending event data, automatically include</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>All default context information</td>
+      <td>All default context information</td>
     </tr>
     <tr>
-      <td>串流媒體</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>空白值</td>
-      <td>空白值</td>
+      <td>Streaming Media</td>
+      <td><i>existing values</i></td>
+      <td><i>existing values</i></td>
+      <td>Blank values</td>
+      <td>Blank values</td>
     </tr>
     <tr>
-      <td>資料流設定覆寫</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
-      <td>符合資料流設定</td>
-      <td>符合資料流設定</td>
+      <td>Datastream Configuration Overrides</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
+      <td>Match datastream configuration</td>
+      <td>Match datastream configuration</td>
     </tr>
     <tr>
-      <td>進階設定 — Edge基本路徑</td>
-      <td><i>現有值</i></td>
-      <td><i>現有值</i></td>
+      <td>Advanced Settings - Edge base path</td>
+      <td><i>existing value</i></td>
+      <td><i>existing value</i></td>
       <td>ee</td>
       <td>ee</td>
     </tr>
     <tr>
-      <td colspan="5"><strong><br/>Content Analytics擴充功能</strong></td>
+      <td colspan="5"><strong><br/>Content Analytics Extension</strong></td>
     </tr>
     <tr>
-      <td>資料流</td>
-      <td><i>現有值</i></td>
-      <td><i>預定</i></td>
-      <td><i>預定</i></td>
-      <td><i>預定</i></td>
+      <td>Datastreams</td>
+      <td><i>existing value</i></td>
+      <td><i>predetermined</i></td>
+      <td><i>predetermined</i></td>
+      <td><i>predetermined</i></td>
     </tr>
     <tr>
-      <td>體驗擷取與定義</td>
-      <td><i>現有值</i></td>
-      <td><i>使用者提供</i></td>
-      <td><i>使用者提供</i></td>
-      <td><i>使用者提供</i></td>
+      <td>Experience Capturing & Definition</td>
+      <td><i>existing value</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
     </tr>
     <tr>
-      <td>事件篩選</td>
-      <td><i>現有值</i></td>
-      <td><i>使用者提供</i></td>
-      <td><i>使用者提供</i></td>
-      <td><i>使用者提供</i></td>
+      <td>Event Filtering</td>
+      <td><i>existing value</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
+      <td><i>user provided</i></td>
     </tr>
   </tbody>
 </table>
+
+-->
 
 >[!MORELIKETHIS]
 >

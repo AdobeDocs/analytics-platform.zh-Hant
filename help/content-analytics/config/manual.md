@@ -7,19 +7,16 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 62491fcbf37961d33be92d209e5710bf9696c223
+source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '398'
 ht-degree: 1%
 
 ---
 
 # Content Analytics手動設定
 
->[!WARNING]
->
->本文是即將推出之最終版本的初步非官方草稿版本，屬於內容分析檔案的一部分。 所有內容可能會有所變更，而目前的本文版本概不提供任何法律義務。
->
+{{draft-aca}}
 
 {{release-limited-testing}}
 
@@ -31,14 +28,14 @@ ht-degree: 1%
 
 若要啟動新組態或您對現有組態所做的變更，請執行下列動作：
 
-1. 您必須遵循[發佈流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}。 成功發佈包含Content Analytics設定的Tags屬性資料庫。 之後，系統才會收集您已設定的網域、體驗和資產的Content Analytics資料。
+1. 您必須遵循[發佈流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}。 成功發佈包含Content Analytics設定的Tags屬性資料庫。
 
 1. 您必須在開發、預備或發佈環境的頁面之`<head>`元素中[安裝](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation)內嵌程式碼，並受限於Content Analytics。
 
 
 ## 停用
 
-若要停用收集內容分析資料：
+若要停用內容分析資料的集合：
 
 1. 移除開發、預備或生產環境中頁面之`<head>`元素中的[內嵌程式碼](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments)，受限於Content Analytics。
 1. [刪除](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)您Content Analytics組態的相關聯標籤屬性。
@@ -57,6 +54,10 @@ ht-degree: 1%
   >
   >請確認您在Adobe Content Analytics擴充功能中設定的沙箱和資料串流，已在先前的階段使用[引導式設定](guided.md)為Content Analytics進行設定。 此設定確保所有必要的成品都可供使用。<br/><br/>同時確認沙箱或資料串流的更新不會干擾另一個設定為使用相同沙箱或資料串流的Content Analytics設定。
   >
+
+* [體驗擷取與定義](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
+
+  您可以編輯規則運算式來修改方式。
 
 * [事件篩選](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering){target="_blank"}
 
