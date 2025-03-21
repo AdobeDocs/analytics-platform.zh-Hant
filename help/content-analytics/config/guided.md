@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: e8ba272d2deb535374a47b61c22d58c4168ff50c
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -262,7 +262,7 @@ ht-degree: 13%
 
   ![Content Analytics資料收集現有標籤](../assets/aca-configuration-datacollection-existingtag.png)
 
-   1. 選取&#x200B;**[!UICONTROL 現有]**。
+   1. 選取&#x200B;**[!UICONTROL 選擇現有的]**。
    2. 從&#x200B;**[!UICONTROL 標籤屬性]**&#x200B;下拉式功能表中選取現有屬性。 您可以開始輸入以搜尋並限制可用選項。
 
 * 若要建立新的Tags屬性：
@@ -271,16 +271,15 @@ ht-degree: 13%
 
    1. 選取&#x200B;**[!UICONTROL 新建]**。
    1. 指定&#x200B;**[!UICONTROL 標籤名稱]**，例如`ACA Test for Documentation`。
-  <!--1. Specify **[!UICONTROL Domains]**, for example, `example.com`. -->
-   1. 選取&#x200B;**[!UICONTROL 新增]**。
+   1. 指定&#x200B;**[!UICONTROL 網域]**，例如`example.com`。
 
 * 如果您已選取納入體驗，請指出在收集內容分析的資料時應納入或排除哪些頁面。
 
-   * 指定&#x200B;**[!UICONTROL 體驗]**&#x200B;的規則運算式。 例如： `/^(?!.*documentation).*/`從Content Analytics排除所有檔案頁面。 使用`/`確保您逸出規則運算式。
+   * 指定&#x200B;**[!UICONTROL 頁要包含/排除]**&#x200B;的規則運算式字串。 例如： `/^(?!.*documentation).*/`從Content Analytics排除所有檔案頁面。 使用`/`確保您逸出規則運算式。
 
 * 指示在收集內容分析的資料時應包含或排除哪些資產。
 
-   * 指定&#x200B;**[!UICONTROL 資產]**&#x200B;的規則運算式。 例如： `/^(?!.*(logo\.jpg|\.svg)).*$/`從Content Analytics排除所有標誌JPEG和SVG影像。 使用`/`確保您逸出規則運算式。
+   * 指定&#x200B;**[!UICONTROL Assets要包含/排除]**&#x200B;的規則運算式字串。 例如： `/^(?!.*(logo\.jpg|\.svg)).*$/`從Content Analytics排除所有標誌JPEG和SVG影像。 使用`/`確保您逸出規則運算式。
 
 
 #### 現有設定 {#existing-configuration}
