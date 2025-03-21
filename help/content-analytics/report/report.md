@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 07487061881cacd6e4f79bd46581d179aca99347
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ![Content Analytics縮圖](../assets/aca-thumbnails.png)
 
-若要設定Content Analytics維度的縮圖顯示：
+依預設，系統會顯示相關Content Analytics維度的縮圖。 若要設定Content Analytics維度的縮圖顯示：
 
 * 將游標暫留在Content Analytics維度的標題列上。 例如，**[!UICONTROL 資產名稱]**&#x200B;或&#x200B;**[!UICONTROL 體驗識別碼]**。
 * 選取![設定](/help/assets/icons/Setting.svg)。

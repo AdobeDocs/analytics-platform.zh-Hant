@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 17a7a9a602b92693b2ad6db10f60d3e77fef9724
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Content Analytics的設定包含下列步驟：
 
 1. 使用Content Analytics [引導式組態](guided.md)精靈，引導您完成設定Content Analytics組態必要條件的所有必要步驟。 您可以隨時儲存設定，並稍後返回。
 1. 在您熟悉設定值後，即可實作設定。 此實作會根據您在精靈中設定的專案，建立所有必要的成品。
-1. 只有當您[手動發佈](manual.md) Tags屬性時，您的Content Analytics設定才會有效部署並啟動。
+1. 只有在您[手動發佈](manual.md) Tags屬性時，您的Content Analytics設定才會有效部署並啟動。
 
 1. 您只能使用[引導式組態](guided.md)精靈對已實作的組態進行一些微幅變更。 例如，變更[資料檢視](/help/data-views/data-views.md)。
 1. 您可以使用關聯Tags屬性中的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)，對實作組態進行其他變更。
