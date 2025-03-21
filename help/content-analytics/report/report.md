@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 07487061881cacd6e4f79bd46581d179aca99347
+source-git-commit: dbbdfac312b1b7cbb6d8b6ce38a63f6d2bc18420
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 0%
@@ -76,7 +76,7 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL 設定範本]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 選取轉換量度]**&#x200B;對話方塊中選取量度。 例如，**[!UICONTROL 資產CTR]**。
 1. 選取&#x200B;**[!UICONTROL 繼續]**。
 
-在Workspace中開啟&#x200B;**[!UICONTROL Content Analytics概觀]**&#x200B;專案。 專案包含四個面板，每個面板可提供自由表格和視覺效果來回答特定問題：
+**[!UICONTROL Content Analytics概觀]**&#x200B;專案會在[Analysis Workspace](/help/analysis-workspace/home.md)中開啟。 專案包含四個[面板](/help/analysis-workspace/c-panels/panels.md)，每個面板提供[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)和[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，以回答特定問題：
 
 * **哪些內容表現最好？**
 此面板可協助您瞭解哪些體驗以及這些體驗中的哪些資產可促進參與和轉換。 體驗是完整網頁，於特定時間擷取。 一個體驗可以同時包含文字和多個個別影像資產。 資產是個別影像。
@@ -85,9 +85,9 @@ ht-degree: 0%
 
    * **體驗**
 
-      * **體驗CTR**：摘要變更視覺效果，顯示體驗CTR。
-      * **排名在前的轉換體驗**：一種橫條圖視覺效果，根據選取的轉換量度顯示排名在前的轉換體驗。
-      * **表現最佳的體驗**：表現最佳的體驗的自由格式表格（包括縮圖和預覽）。
+      * **體驗CTR**： [摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)視覺效果，顯示體驗CTR。
+      * **排名在前的轉換體驗**： [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果，根據選取的轉換量度顯示排名在前的轉換體驗。
+      * **表現最佳的體驗**：表現最佳的體驗的[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) （包括[縮圖](#thumbnails)和[預覽](#previews)）。
 
    * **資產**
 
