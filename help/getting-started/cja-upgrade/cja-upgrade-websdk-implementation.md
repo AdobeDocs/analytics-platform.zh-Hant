@@ -55,7 +55,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-third-party"
 >title="將 Web SDK 程式庫新增至第三方標記管理系統"
->abstract="透過標記管理系統與管理員合作，將 Web SDK 程式庫新增至您的網站。<br><br>此任務的完成時間有相當大程度取決於負責標記管理系統之個人的回應能力。新增 Web SDK 程式庫可能會與相關聯的實作邏輯整合在一起，並在組織的標準發行週期內進行部署。"
+>abstract="與標記管理系統的管理員合作，將 Web SDK 程式庫新增至您的網站。<br><br>此任務的完成時間有很大程度取決於負責標記管理系統之個人的回應能力。新增 Web SDK 程式庫可能會與相關聯的實作邏輯整合在一起，並在組織的標準發行週期內進行部署。"
 
 <!-- markdownlint-enable MD034 -->
 

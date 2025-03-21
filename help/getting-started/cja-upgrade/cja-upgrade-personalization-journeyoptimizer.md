@@ -19,13 +19,13 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-personalization"
 >title="使用個人化物件來執行 Adobe Journey Optimizer"
->abstract="透過利用監督機器學習和深度學習領域的先進技術，個人化最佳化可讓商業使用者 (行銷人員) 定義業務目標，並利用他們的客戶資料來訓練商業導向的模型，以提供個人化產品建議並將 KPI 最大化。"
+>abstract="個人化最佳化會利用監督機器學習和深度學習領域的先進技術，讓商業使用者 (行銷人員) 定義業務目標，並利用他們的客戶資料來訓練商業導向的模型，以提供個人化產品建議並將 KPI 最大化。"
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note}}
 
-透過利用監督機器學習和深度學習領域的先進技術，個人化最佳化可讓商業使用者 (行銷人員) 定義業務目標，並利用他們的客戶資料來訓練商業導向的模型，以提供個人化產品建議並將 KPI 最大化。
+個人化最佳化會利用監督機器學習和深度學習領域的先進技術，讓商業使用者 (行銷人員) 定義業務目標，並利用他們的客戶資料來訓練商業導向的模型，以提供個人化產品建議並將 KPI 最大化。
 
 1. 遵循Journey Optimizer指南中[個人化最佳化模型](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model)中的資訊。
 

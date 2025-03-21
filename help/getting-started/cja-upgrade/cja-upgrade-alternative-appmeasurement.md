@@ -28,7 +28,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement-logic-step"
 >title="變更您的 AppMeasurement 邏輯以指向 Web SDK"
->abstract="因為您選取執行實作捷徑，故顯示此步驟。複製或變更 AppMeasurement 邏輯以填入資料物件，而非 s 物件。例如，將 s.eVar1 的指派變更為資料。__adobe.analytics.eVar1，並對所有 Analytics 變數重複此動作。"
+>abstract="因為您選取執行實作捷徑，故顯示此步驟。複製或變更 AppMeasurement 邏輯以填入資料物件，而非 s 物件。例如，將 s.eVar1 的指派變更為 data.__adobe.analytics.eVar1，並對所有 Analytics 變數重複此動作。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -28,7 +28,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-delete"
 >title="刪除現有的 Analytics 來源連接器"
->abstract="您目前擁有的 Analytics 來源連接器與您組織的自訂結構描述不相容。但是，此資料仍然存在於 Analytics 報告套裝中。此步驟會移除目前的 Analytics 來源連接器，以便您在後續步驟中使用正確的結構描述加以重新建立。<br><br>在刪除來源連接器之前，您可能需要與組織中的其他人員協調，以確保移除來源連接器不會影響組織內的報告。此協調作業可能需要數週才能完成。"
+>abstract="您目前擁有的 Analytics 來源連接器與您組織的自訂結構描述不相容。但是，此資料仍然存在於 Analytics 報告套裝中。此步驟會移除目前的 Analytics 來源連接器，讓您可以在後續步驟中使用正確的結構描述加以重新建立。<br><br>在刪除來源連接器之前，您可能需要與組織中的其他人員協調，以確保移除來源連接器不會影響組織內的報告。此協調作業可能需要數週才能完成。"
 
 <!-- markdownlint-enable MD034 -->
 
