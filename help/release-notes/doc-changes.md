@@ -5,9 +5,9 @@ exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
 source-git-commit: 40bbcb2868de509555faab8384f1cab45fd738a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4664'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2025 年 3 月** | |
-| Quantum量度使用案例 | 新增從[量子量度](/help/use-cases/third-party/quantum-metric/collect-session-id.md)收集資料的使用案例。 |
+| Quantum Metric 使用案例 | 新增了從 [Quantum Metric](/help/use-cases/third-party/quantum-metric/collect-session-id.md) 收集資料的使用案例。 |
 | **2025 年 2 月** |  |
 | 媒體集合：全新媒體報告 XDM 的 Adobe 來源連接器更新內容 | Analytics 來源連接器會自動[將 Adobe Analytics 中的串流媒體資料對應至](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) Web SDK 所使用的相同欄位。過去，資料會對應到舊位置和新位置，但將來只會使用新位置。 |
 | BI 擴充功能：擴充支援 | Customer Journey Analytics BI 擴充功能現在支援 [Looker、Jupyter Notebook 和 R Studio](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en)。 |
@@ -39,12 +39,12 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | --- | --- |
 | **2024 年 11 月** | |
 | BI 擴充功能使用案例 | Power BI Desktop 和 Tableau Desktop 等 BI 工具的多個 [BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)的文件。 |
-| 拼接和隱私權要求 | 新增通知，說明因為隱私權要求而造成[拼接過程中即將發生的變更](/help/stitching/faq.md#frequently-asked-questions)。 |
+| 彙整和隱私權要求 | 新增通知，說明因為隱私權要求而造成[彙整過程中即將發生的變更](/help/stitching/faq.md#frequently-asked-questions)。 |
 | **2024 年 10 月** | |
 | 歷程畫布視覺效果 | [歷程畫布](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en)為 Analysis Workspace 的視覺效果，讓您能夠分析人們如何完成或退出已定義的歷程。 |
 | 資產轉移 | 讓您可以將專案、篩選器和計算量度等元件的[所有權轉移](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)給其他使用者，以確保連續性和適當的存取權限。 |
 | 已改善的使用情況介面 | 已更新有關已改善的介面之文章，顯示您在[所有連線中已擷取和可報告列的使用情況](/help/connections/manage-connections.md#usage) |
-| 共用裝置 | 新增了[使用案例文章](/help/use-cases/stitching/shared-devices.md)，提供有關共用裝置的背景、如何使用拼接處理和緩解來自共用裝置的資料，以及使用查詢服務了解資料中的共用裝置暴露情況。 |
+| 共用裝置 | 新增了[使用案例文章](/help/use-cases/stitching/shared-devices.md)，提供有關共用裝置的背景、如何使用彙整處理和緩解來自共用裝置的資料，以及使用查詢服務了解資料中的共用裝置暴露情況。 |
 | 有關 Analysis Workspace Performance 請求因素的新資訊 | [Analysis Workspace 效能最佳化](/help/technotes/optimizing-performance.md)文章中的新[請求因素](/help/technotes/optimizing-performance.md#request-factors)部分介紹了如何處理請求以及影響處理時間的各種因素。 |
 | Workspace 和元件 | 重新整理了有關 Analysis Workspace 專案 (專案、視覺效果和面板) 與元件 (註解、維度、(經計算的) 量度、篩選器、日期範圍、警報、已排程專案和客群) 的文件。 |
 | 引導式分析 | 已將文件更新為可從 Analysis Workspace 內部使用[引導式分析](/help/guided-analysis/overview.md)。 |
@@ -64,7 +64,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 已更新常見錯誤訊息 | 對[常見錯誤訊息](/help/analysis-workspace/workspace-faq/error-messages.md)進行了小幅更新。 |
 | **2024 年 6 月** | |
 | 已更新提及串流媒體功能的產品名稱 | 當提及用於收集串流媒體資料並將其顯示在 Analysis Workspace 的串流媒體功能集時，出現「媒體分析」和「串流媒體」的地方將替換為名稱「串流媒體收集附加元件」和「串流媒體收集」。 <p>這些更新可在 Customer Journey Analytics 文件以及[串流媒體收集文件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中取得。</p> |
-| 圖表式匯整 | 以圖表式匯整簡介更新和重組[匯整文件](/help/stitching/overview.md)。 |
+| 圖表式彙整 | 以圖表式彙整簡介更新和重組[彙整文件](/help/stitching/overview.md)。 |
 | AI 助理 | 新增有關 Customer Journey Analytics 之 AI 助理的[文件](../ai-assistant.md)。 |
 | 轉換資料集以進行 B2B 查詢 | 新增有關如何使用 B2B 查詢資料集的轉換來支援[在 B2B 資料上進行人員型查詢](/help/connections//transform-datasets-b2b-lookups.md) (包括帳戶、機會、行銷清單和行銷活動)。 |
 | 衍生欄位函數和函數範本 | 新增有關其他衍生欄位函數 ([數學](/help/data-views/derived-fields/derived-fields.md#math)、[下一個或上一個](/help/data-views/derived-fields/derived-fields.md#next-or-previous)和[總結](/help/data-views/derived-fields/derived-fields.md#summarize)) 及 [函數範本](/help/data-views/derived-fields/derived-fields.md#function-templates)的文件。 |
