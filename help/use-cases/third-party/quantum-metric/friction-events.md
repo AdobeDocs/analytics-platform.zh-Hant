@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: e6a77e75963fb43041c0533a28a9563a3849b8b0
+exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
+source-git-commit: 10a70743d292e50ca5aea3225897e7097fa4fc8a
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,8 @@ ht-degree: 0%
 # 將Quantum量度摩擦事件新增至Customer Journey Analytics
 
 Quantum Metric會收集頁面載入緩慢、頁面載入錯誤、範圍點選等摩擦事件。 這些事件可以傳遞到Customer Journey Analytics中，作為使用者歷程中的補充事件。 有了這項合併資料，您就能更清楚瞭解摩擦對下游量度的影響。
+
+## 必要條件:
 
 此使用案例有兩個需求：
 
