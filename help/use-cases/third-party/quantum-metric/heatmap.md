@@ -7,10 +7,10 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: 48c2b2eaa191948eda303f9ee236038484e4f2eb
+source-git-commit: b82a345fbae1a0ab2debf2c4eb580422745db473
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '407'
+ht-degree: 0%
 
 ---
 
@@ -48,6 +48,6 @@ ht-degree: 1%
 
 ## 按一下Customer Journey Analytics中的連結以檢視熱度圖
 
-找到您要探索熱度對應的頁面後，您可以將其套用至URL所在的面板。 此表格會傳回URL，讓您瀏覽相關頁面的熱度圖、捲動深度以及互動的關鍵區域。  在[https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps)進一步瞭解量子量度熱度圖
+找到您要探索熱度對應的頁面後，您可以將其套用至URL所在的面板。 此表格會傳回URL，讓您瀏覽相關頁面的熱度圖、捲動深度以及互動的關鍵區域。  在[https://www.quantummetric.com/platform/interaction-heatmaps](https://www.quantummetric.com/platform/interaction-heatmaps)進一步瞭解量子量度熱度圖。  如需其他資源，請連絡您的Quantum Metric客戶支援代表，或透過Quantum Metric [客戶請求入口網站](https://community.quantummetric.com/s/public-support-page)提交請求。
 
 
