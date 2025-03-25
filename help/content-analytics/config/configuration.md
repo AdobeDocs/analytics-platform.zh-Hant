@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 17a7a9a602b92693b2ad6db10f60d3e77fef9724
+source-git-commit: d8d433be07c8cf97e5cf07338f1af6a04a25179f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 2%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -39,19 +39,9 @@ Content Analytics的設定包含下列步驟：
 
 * 您已將Content Analytics中使用之功能服務的使用者代理和IP位址加入允許清單。 要設定的使用者代理字串是： <code>AdobeFeaturization/1.0</code>。
 * 您擁有Customer Journey Analytics產品管理員角色，並具有管理連線和管理資料檢視的其他許可權。
-* 您具備必要的Experience Platform許可權：
-
-  | 類別 | 權限 | 說明 |
-  |---|---|---|
-  | [!UICONTROL 資料彙集] | 檢視資料串流 | 資料串流的唯讀存取權。 |
-  | [!UICONTROL 資料彙集] | 管理資料串流 | 讀取、建立、編輯和刪除資料串流的存取權。 |
-  | [!UICONTROL 資料模式] | [!UICONTROL 檢視結構描述] | 對結構描述和相關資源的唯讀存取權。 |
-  | [!UICONTROL 資料模式] | [!UICONTROL 管理結構描述] | 讀取、建立、編輯和刪除結構描述和相關資源的存取權。 |
-  | [!UICONTROL 資料管理] | [!UICONTROL 檢視資料集] | 資料集和結構描述的唯讀存取權。 |
-  | [!UICONTROL 資料管理] | [!UICONTROL 管理資料集] | 存取讀取、建立、編輯和刪除資料集。 結構描述的唯讀存取權。 |
-  | [!UICONTROL 資料擷取] | [!UICONTROL 管理來源] | 讀取、建立、編輯和停用來源的存取權。 |
-  | [!UICONTROL Identity Management] | [!UICONTROL 檢視身分識別名稱空間] | 身分識別名稱空間的唯讀存取權。 |
-
+* 您必須擁有資料彙集](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}的[許可權。 這些許可權包含：
+   * [Experience Platform許可權](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
+   * [Experience Platform資料彙集許可權](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank" }
 * 您已仔細考量下列重要設定選項：
 
    * 您的網站適合體驗報告。 只有在符合下列條件時，才可能提供適當的體驗報表：
