@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 82d7702c57fdff86fa1f4b70d75e7ff7f019ec86
+source-git-commit: 752e8564c341cf02b5378a12a820f52ca6164a3d
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -41,10 +41,11 @@ ht-degree: 1%
 
 1. 按一下「**[!UICONTROL 建立]**」。
 
-每個工作階段ID現在都是可點按的連結。 這些連結會帶您前往新標籤中的Quantum Metric，讓您更詳細地分析該特定工作階段。 如需新增超連結至Analysis Workspace維度專案的詳細資訊，請參閱[在自由格式表格中建立超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。
+每個工作階段ID現在都是可點按的連結。 如需新增超連結至Analysis Workspace維度專案的詳細資訊，請參閱[在自由格式表格中建立超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。
 
 ## 步驟2從Customer Journey Analytics檢視工作階段
 
-使用可點按連結建立Workspace報表後，您就可以在Customer Journey Analytics中使用篩選器，識別可在Quantum量度中進一步分析的有趣工作階段。
-此表格會傳回該區段中的所有工作階段，您可以按一下其中的任何工作階段，進一步探索QM。  若要進一步瞭解Quantum量度工作階段重播，請前往[https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay)。 如需其他資源，請連絡您的Quantum Metric客戶支援代表，或透過Quantum Metric [客戶請求入口網站](https://community.quantummetric.com/s/public-support-page)提交請求。
+找到想要探索工作階段重播的耐用區段後，您可以將其套用至包含工作階段ID連結的面板，並依區段篩選。 此表格會傳回該區段中的所有工作階段，您可以按一下其中的任何工作階段，進一步探索Quantum量度。
+
+若要進一步瞭解Quantum量度工作階段重播，請前往[https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay)。 如需其他資源，請連絡您的Quantum Metric客戶支援代表，或透過Quantum Metric [客戶請求入口網站](https://community.quantummetric.com/s/public-support-page)提交請求。
 
