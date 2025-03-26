@@ -7,7 +7,7 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
-source-git-commit: 255f06ba504a0fa189a02966c5d3c63e1a4fadfd
+source-git-commit: ae88ab16e85bd1274990f8c4d04771398293fe09
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -18,11 +18,13 @@ ht-degree: 0%
 
 某些使用案例，例如[繫結量子量度工作階段重播](tie-session-replays.md)或[使用量子量度熱度圖](heatmap.md)，需要您修改實作以收集量子量度工作階段識別碼。 本頁面概述成功將資料帶入現有實作的程式。
 
-## 先決條件
+## 必要條件:
 
 這些步驟假設您使用Adobe Experience Platform資料彙集中的標籤。 如果您的組織未使用標籤，您可以將這些資料收集方法調整為手動Web SDK實施。
 
-### 步驟1：使用量度標籤擴充功能擷取量度工作階段ID
+如需詳細資訊，請參閱[Quantum量度標籤延伸功能](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)檔案。
+
+## 步驟1：使用量度標籤擴充功能擷取量度工作階段ID
 
 請依照下列步驟，將Quantum量度工作階段ID附加至您傳送至Adobe Experience Platform的資料。
 
@@ -37,13 +39,11 @@ ht-degree: 0%
 >[!NOTE]
 >有時Web SDK的執行速度會比Quantum Metric程式碼更快。 在這些情況下，工作階段ID會在後續點選時傳送。 如果訪客跳出，則系統不會收集這些例項的工作階段ID。
 
-如需詳細資訊，請參閱[Quantum量度標籤延伸功能](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)檔案。
-
-### 步驟2：確認包含的資料集欄位
+## 步驟2：確認包含的資料集欄位
 
 確認連線中的資料集現在在所需資料集中具有Quantum量度工作階段ID。
 
-### 步驟3：將Quantum量度工作階段ID新增為可用維度
+## 步驟3：將Quantum量度工作階段ID新增為可用維度
 
 編輯您現有的資料檢視，將工作階段ID新增為Customer Journey Analytics中的可用維度。
 
