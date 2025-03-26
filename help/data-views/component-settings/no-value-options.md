@@ -5,9 +5,9 @@ exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 16e8668d88dda2784ba60a1fa4302225ceff190f
+source-git-commit: 1a696662f10fddd42f3bbdbb79a6e735bf203bdf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 53%
 
 ---
@@ -41,9 +41,10 @@ ht-degree: 53%
 
 使用數值作為維度時，您可以
 
-* 在資料檢視中設定「沒有值」選項。 請注意，除了&#x200B;**[!UICONTROL 將「沒有值」視為值]**&#x200B;之外，所有組態設定皆受支援。
-* 在Workspace的自由格式表格中，針對數值維度使用[!UICONTROL 包含「沒有值」]。
-* 在篩選產生器中，針對數值維度使用「存在」或「不存在」運運算元。
+* 在資料檢視中設定「沒有值」選項。 請注意，除了&#x200B;**[!UICONTROL 將「沒有值」視為值]**&#x200B;外，上述所有組態設定皆受支援。
+* 在Workspace的自由格式表格中，針對數值維度使用&#x200B;**[!UICONTROL 包含「沒有值」]**。
+* 在篩選產生器中，使用具有數值維度的&#x200B;**[!UICONTROL 存在]**&#x200B;或&#x200B;**[!UICONTROL 不存在]**&#x200B;運運算元。
+
 
 >[!MORELIKETHIS]
 >
