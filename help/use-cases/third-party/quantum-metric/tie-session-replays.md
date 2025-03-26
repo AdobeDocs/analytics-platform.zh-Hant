@@ -7,7 +7,7 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 752e8564c341cf02b5378a12a820f52ca6164a3d
+source-git-commit: 9563b13da52963eaf7b17050fb9a7cb3a47ef1ed
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 連結Quantum量度工作階段重播與CJA資料，可讓客戶更瞭解「內容」背後的「原因」。  Workspace可用來探索摩擦的工作階段，然後您可以按一下超連結的工作階段ID，以探索「量度」中的工作階段重播。  此資料可讓您檢視工作階段中的行為，並更瞭解促使消費者發生摩擦的因素。  透過與CJA繫結的工作階段重播，您可以擷取有關您體驗中客戶行為的關鍵內容。
 
-## 先決條件
+## 必要條件:
 
 此使用案例需要您將量子量度的工作階段ID與其餘實施一起收集。 請參閱[在Customer Journey Analytics](collect-session-id.md)中收集量度工作階段ID，瞭解如何修改您的實作。
 
