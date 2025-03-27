@@ -7,9 +7,9 @@ role: Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -39,10 +39,10 @@ Content Analytics使用AI和機器學習式的&#x200B;**特徵化服務**，將�
 
 內容分析使用下列主要辭彙：
 
-![Assets與體驗](/help/content-analytics/assets//content-analytics-experience-asset.png)
+![Assets與體驗](/help/content-analytics/assets/content-analytics-experience-asset.png)
 
-* **體驗**：體驗是網頁上的所有文字，網頁可透過造訪該網頁的初始使用者所使用的URL重現。 每個體驗都會取得唯一識別碼。
-* **資產**：資產是個別且唯一的內容，例如影像。 每個資產也會取得唯一識別碼。
+* **體驗**：體驗是網頁上的所有文字，網頁可透過造訪該網頁的初始使用者所使用的URL重現。 每個體驗都會取得唯一識別碼。 頁面變更會導致頁面的HTML變更，進而產生新體驗。
+* **資產**：資產是個別且唯一的內容，例如影像。 每個資產也會取得唯一識別碼和感應式ID。 可感知ID是與視覺上相同的資產共用的識別碼。 可感知ID有助於對可能有不同資產URL並因此有不同資產ID，但概念上相同的資產進行重複資料刪除。
 * **屬性**：屬性是與體驗或資產相關聯的描述性中繼資料元素。 屬性的範例包括：攝影風格、可讀性、說服策略、物件顏色、背景顏色。
 
 ## 運作方式
@@ -52,7 +52,7 @@ Content Analytics使用AI和機器學習式的&#x200B;**特徵化服務**，將�
 ![內容分析 — 運作方式](assets/aca-overview.gif)
 
 
-1. 當使用者造訪為Content Analytics](config/configuration.md)設定的網站[時，Experience Platform Web SDK會記錄與內容的互動。
+1. 當使用者造訪為Content Analytics](config/configuration.md)設定的網站[時，Experience Platform Web SDK會記錄曝光次數以及與內容的互動。
 1. 身分和功能化服務會處理這些互動。 該程式包含一個編目程式，可修訂定義互動的已設定URL的公開版本。 對於這些編目的URL，Identity Service會唯一識別體驗和資產。 此外，功能化服務會套用AI/ML服務，探索體驗和資產中繼資料與屬性。
 1. 這些服務（[元件、屬性和身分](/help/content-analytics/report/components.md)）的結果可用來更新Experience Platform中的相關特定內容分析資料集。
 1. 內容分析資料，連同行為資料和其他查詢資料，您可以在Customer Journey Analytics設定([連線](/help/connections/overview.md)、[資料檢視](/help/data-views/data-views.md)和[Workspace](/help/analysis-workspace/home.md))中使用。 該設定提供了對您的內容進行獨特巨集層級深入分析的基礎。 <br/>您可以使用[Content Analytics範本](/help/content-analytics/report/report.md#template)，快速開始您的Content Analytics報表和分析。

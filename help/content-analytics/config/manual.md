@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 01459765d84a46d170c1619ffeae184957bbf839
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '430'
+ht-degree: 0%
 
 ---
 
@@ -20,31 +20,31 @@ ht-degree: 1%
 
 {{release-limited-testing}}
 
-本文詳細說明啟動或停用Content Analytics設定或編輯您的Content Analytics實作所需的手動動作。
+本文詳細說明啟動或停止Content Analytics設定的資料收集，或編輯您的Content Analytics實作所需的手動動作。
 
 下列手動組態動作可供使用：
 
-## 啟動
+## 開始資料收集
 
-若要啟動新組態或您對現有組態所做的變更，請執行下列動作：
+若要開始實作Content Analytics設定的資料收集：
 
-1. 您必須遵循[發佈流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}。 成功發佈包含Content Analytics設定的Tags屬性資料庫。
+1. 遵循[發佈流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}。 成功發佈包含Content Analytics設定的Tags屬性資料庫。
 
-1. 您必須在開發、預備或發佈環境的頁面之`<head>`元素中[安裝](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation)內嵌程式碼，並受限於Content Analytics。
+1. [安裝](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments#installation)內嵌程式碼，於您的開發、預備或發佈環境之頁面的`<head>`元素中，並遵守Content Analytics。
 
 
-## 停用
+## 停止資料收集
 
-若要停用內容分析資料的集合：
+若要停止實作Content Analytics設定的資料收集：
 
 1. 移除開發、預備或生產環境中頁面之`<head>`元素中的[內嵌程式碼](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments)，受限於Content Analytics。
 1. [刪除](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)您Content Analytics組態的相關聯標籤屬性。
 
 
 
-## 修改
+## 修改資料彙集
 
-您可以使用[引導式組態精靈](guided.md)，對已實作的組態進行一些微幅變更。 例如，變更資料檢視。
+您可以使用[引導式組態精靈](guided.md)，對已實作的組態進行一些微幅變更。 例如，變更資料檢視，或啟用或停用體驗。
 
 您可在與Content Analytics設定相關聯的Tags屬性中使用[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)，以變更下列成品：
 
@@ -57,14 +57,14 @@ ht-degree: 1%
 
 * [體驗擷取與定義](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
 
-  您可以編輯規則運算式來修改方式。
+  您可以啟用或停用體驗，以及編輯規則運算式和查詢引數的組合，以決定如何在您的網站上呈現內容。
 
 * [事件篩選](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering){target="_blank"}
 
   您可以編輯規則運算式，以修改篩選頁面和資產的方式。
 
 
-在Adobe Content Analytics擴充功能中進行變更後，請確定您使用[發佈流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}來啟用變更。
+在Adobe Content Analytics擴充功能中進行變更後，請確定您使用[發佈流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}來根據所做的變更開始收集資料。
 
 
 

@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: dbbdfac312b1b7cbb6d8b6ce38a63f6d2bc18420
+source-git-commit: 20767a4672319602d35435aeedb76749a245e691
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
   | 體驗預覽 | 資產預覽 |
   |---|---|
   | ![內容分析體驗預覽](../assets/aca-experience-preview.png) | ![Content Analytics資產預覽](../assets/aca-asset-preview.png) |
-  | **[!UICONTROL 體驗的名稱]** | **[!UICONTROL 資產的名稱]** |
+  | 維度名稱（例如，**[!UICONTROL 體驗ID]）** | 資產維度的名稱（例如，**[!UICONTROL 資產識別碼]）** |
   | **[!UICONTROL 曝光次數（所有時間）]**：體驗的曝光次數。 | **[!UICONTROL 曝光次數（所有時間）]**：資產的曝光次數。 |
   | **[!UICONTROL Assets]**：此體驗包含的資產數目。 <br/>選取![劃分](/help/assets/icons/Breakdown.svg) **[!UICONTROL 劃分]**&#x200B;以檢查資產。 | **[!UICONTROL 體驗]**：此資產顯示所在的體驗數目。 <br/>選取![劃分](/help/assets/icons/Breakdown.svg) **[!UICONTROL 劃分]**&#x200B;以檢查資產。 |
   | **[!UICONTROL 第一印象]**：體驗的第一印象日期。 | **[!UICONTROL 第一印象]**：資產第一印象的日期。 |
@@ -83,7 +83,12 @@ ht-degree: 0%
 
   此面板包含下列視覺效果：
 
-   * **體驗**
+   * **體驗**。
+
+     >[!NOTE]
+     >
+     >只有在您的Content Analytics設定中有[包含體驗](/help/content-analytics/config/guided.md#experience-capture-and-definition)時，才會顯示這些視覺效果。
+     > 
 
       * **體驗CTR**： [摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)視覺效果，顯示體驗CTR。
       * **排名在前的轉換體驗**： [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果，根據選取的轉換量度顯示排名在前的轉換體驗。
@@ -117,7 +122,13 @@ Content Analytics使用AI和GenAI自動指派每個資產中繼資料，例如�
 範例[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)比較單一資產屬性類別（前景色彩）中專案的效能。 您可以使用其他資產屬性類別維度來取代此資產屬性。
 
 * **哪些體驗屬性對轉換有貢獻？**
-資產屬性著重於影像的視覺品質，而體驗屬性則著重於頁面的文字。 下列視覺效果可讓您探索哪些體驗屬性對轉換有貢獻。 這些屬性也會使用AI和GenAI模型自動指派。
+
+  >[!NOTE]
+  >
+  >只有當您在Content Analytics設定中包含[體驗](/help/content-analytics/config/guided.md#experience-capture-and-definition)時，此面板才會顯示。
+  > 
+
+  資產屬性著重於影像的視覺品質，而體驗屬性則著重於頁面的文字。 下列視覺效果可讓您探索哪些體驗屬性對轉換有貢獻。 這些屬性也會使用AI和GenAI模型自動指派。
 
   此面板包含下列視覺效果：
 
