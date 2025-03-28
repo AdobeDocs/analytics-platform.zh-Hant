@@ -7,7 +7,7 @@ role: User
 source-git-commit: 6788275ba4bfcfbe385e45e6a20de996d8103393
 workflow-type: tm+mt
 source-wordcount: '4659'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -1344,14 +1344,14 @@ CDF-Z(-3) ? 0.0013499
 
 
 
-## 範例變數
+## 樣本變數
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-variance-estimate"
->title="範例變數"
->abstract="使用公式(sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))計算樣本變異數的預估值。 其中N是標準化容器的計數。 <br/>此為&#x200B;*任何時間有效*&#x200B;信賴度計算的一部分。 一般而言，此函式本身並不實用，但可用於檢查計算或手動執行信賴度計算&#x200B;**。"
+>title="樣本變數"
+>abstract="使用公式 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)) 計算樣本變數的估計值。其中 N 是標準化容器的數量。<br/>這用於&#x200B;*隨時有效*&#x200B;可信度計算的一部分。通常，此功能無法單獨使用，但可以用於檢查計算結果或&#x200B;*手動*&#x200B;執行可信度計算。"
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 範例變異數(normalizing-container， success-metric)]**
 

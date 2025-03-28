@@ -81,7 +81,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-analytics-api"
->title="停用 Adobe Analytics 的 API 資料彙集"
+>title="停用 Adobe Analytics 的 API 資料收集"
 >abstract="Web SDK 資料完全正常運作後，請與適用的工程團隊合作，將 Adobe Analytics 程式碼從專案中移除。執行此動作前，請確保您的使用者已從使用 Adobe Analytics 轉換為 Customer Journey Analytics。"
 
 <!-- markdownlint-enable MD034 -->

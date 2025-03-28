@@ -8,7 +8,7 @@ exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 23%
+ht-degree: 33%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-historical"
 >title="為歷史資料建立 Analytics 來源連接器"
->abstract="您可以使用Analytics來源聯結器將Adobe Analytics報告套裝資料匯入Adobe Experience Platform。 然後，這些資料即可用作Customer Journey Analytics中的歷史資料。"
+>abstract="您可以使用 Analytics 來源連接器，讓 Adobe Analytics 報告套裝資料進入 Adobe Experience Platform。然後，此資料可作為 Customer Journey Analytics 的歷史資料。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,7 +36,7 @@ ht-degree: 23%
 
 ## 瞭解Analytics來源聯結器如何將歷史資料帶入Customer Journey Analytics
 
-您可以使用Analytics來源聯結器將Adobe Analytics報告套裝資料匯入Adobe Experience Platform。 然後，這些資料即可用作Customer Journey Analytics中的歷史資料。
+您可以使用 Analytics 來源連接器，讓 Adobe Analytics 報告套裝資料進入 Adobe Experience Platform。然後，此資料可作為 Customer Journey Analytics 的歷史資料。
 
 此程式假設您要[建立自訂結構描述，以搭配您的Customer Journey Analytics Web SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)使用，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
 

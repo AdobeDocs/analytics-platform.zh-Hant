@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# 升級替代方案：將 AppMeasurement 資料彙集與 Experience Platform Web SDK 和 Customer Journey Analytics 併用 {#data-collection-appmeasurement}
+# 升級替代方案：將 AppMeasurement 資料收集與 Experience Platform Web SDK 和 Customer Journey Analytics 併用 {#data-collection-appmeasurement}
 
 <!-- markdownlint-disable MD034 -->
 

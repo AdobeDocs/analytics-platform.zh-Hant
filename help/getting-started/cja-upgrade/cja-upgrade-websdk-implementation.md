@@ -8,7 +8,7 @@ exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 54%
+ht-degree: 58%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdk-no-selection"
 >title="為指定的屬性實作 Web SDK"
->abstract="在升級指南中選取所需的實作型別，以取得更詳細的指示。"
+>abstract="選取升級指南中所需的實作類型，以了解更詳細的說明。"
 
 <!-- markdownlint-enable MD034 -->
 

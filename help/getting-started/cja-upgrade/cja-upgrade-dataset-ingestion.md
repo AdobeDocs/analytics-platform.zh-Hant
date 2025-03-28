@@ -8,7 +8,7 @@ exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 14%
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-validate"
 >title="驗證資料集中的資料"
->abstract="現在您已設定實作，您可以使用資料集活動管理員來檢視擷取和失敗的批次。 如果您看到的主要是已攝取的批次，則此步驟已完成。如果您主要看到失敗的批次或沒有批次，請檢查您的實作，以確保其正確地傳送資料給Adobe。"
+>abstract="現在您已設定您的實作，便可以使用資料集活動管理員來查看已攝取和失敗的批次。如果您看到的主要攝取的批次，則此步驟已完成。如果您看到的主要失敗的批次或沒有批次，請檢查您的實作，以確保其正確地將資料傳送至 Adobe。"
 
 <!-- markdownlint-enable MD034 -->
 

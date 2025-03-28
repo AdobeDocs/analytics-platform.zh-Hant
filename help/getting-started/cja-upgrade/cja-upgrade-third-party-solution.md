@@ -8,7 +8,7 @@ exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 16%
+ht-degree: 26%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
 >title="非 Adobe Analytics 產品"
->abstract="為一種實作方式，會收集 Adobe Analytics 以外產品 (例如 Google Analytics) 的資料。選取此選項會停用升級指南中的多個選項，這些選項在從非Adobe Analytics產品升級至Customer Journey Analytics時並不適用。"
+>abstract="為一種實作方式，會收集 Adobe Analytics 以外產品 (例如 Google Analytics) 的資料。從非 Adobe Analytics 產品升級至 Customer Journey Analytics 時，選取此選項會停用升級指南中多個不適用的選項。"
 
 <!-- markdownlint-enable MD034 -->
 
