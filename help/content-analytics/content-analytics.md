@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: a7bed5bdab20c1a995ccaf4294a5f9ba5918f43d
+source-git-commit: 177def4edce1908a099627e96ed159b0154c3715
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Content Analytics使用AI和機器學習式的&#x200B;**特徵化服務**，將�
 
 
 1. 當使用者造訪為Content Analytics](config/configuration.md)設定的網站[時，Experience Platform Web SDK會記錄曝光次數以及與內容的互動。
-1. 身分和功能化服務會處理這些互動。 該程式包含一個編目程式，可修訂定義互動的已設定URL的公開版本。 對於這些編目的URL，Identity Service會唯一識別體驗和資產。 此外，功能化服務會套用AI/ML服務，探索體驗和資產中繼資料與屬性。
+1. 身分和功能化服務會處理這些互動。 該程式包含擷取服務，可修訂定義互動之已設定URL的公開版本。 對於這些擷取的URL，身分識別服務會唯一識別體驗和資產。 此外，功能化服務會套用AI/ML服務，探索體驗和資產中繼資料與屬性。
 1. 這些服務（[元件、屬性和身分](/help/content-analytics/report/components.md)）的結果可用來更新Experience Platform中的相關特定內容分析資料集。
 1. 內容分析資料，連同行為資料和其他查詢資料，您可以在Customer Journey Analytics設定([連線](/help/connections/overview.md)、[資料檢視](/help/data-views/data-views.md)和[Workspace](/help/analysis-workspace/home.md))中使用。 該設定提供了對您的內容進行獨特巨集層級深入分析的基礎。 <br/>您可以使用[Content Analytics範本](/help/content-analytics/report/report.md#template)，快速開始您的Content Analytics報表和分析。
 
