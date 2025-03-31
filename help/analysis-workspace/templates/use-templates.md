@@ -4,9 +4,9 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 6480eb4cd5210cd9318614a507516bd3736da40a
+source-git-commit: 32d7d2f21e2f906e25d0dfccd92d0be2f515d781
 workflow-type: tm+mt
-source-wordcount: '19661'
+source-wordcount: '19662'
 ht-degree: 94%
 
 ---
@@ -538,7 +538,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="了解哪些內容和內容屬性效能最佳。"
->abstract="**這可以協助您**&#x200B;了解如何於細微層級上執行您的內容。您可以查看個別資產或特定屬性的效能。Content Analytics 使用 AI 自動產生屬性，並用其標記您的內容。[了解更多](/help/content-analytics/content-analytics.md)。<br/>**根據您所了解的情況，您可能會**&#x200B;採取各種行動，例如在首頁推廣高效能資產、針對特定細分市場個人化內容以包括高效能屬性，或者輪換已開始過時的內容。"
+>abstract="**這可以協助您**&#x200B;了解如何於細微層級上執行您的內容。您可以查看個別資產或特定屬性的效能。Content Analytics 使用 AI 自動產生屬性，並用其標記您的內容。[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics){target="_blank"}。<br/>**根據您所了解的情況，您可能會**&#x200B;採取各種行動，例如在首頁推廣高效能資產、針對特定細分市場個人化內容以包括高效能屬性，或者輪換已開始過時的內容。"
 
 <!-- markdownlint-enable MD034 -->
 
