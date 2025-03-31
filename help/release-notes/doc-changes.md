@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 40bbcb2868de509555faab8384f1cab45fd738a0
-workflow-type: ht
-source-wordcount: '4664'
-ht-degree: 100%
+source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
+workflow-type: tm+mt
+source-wordcount: '4701'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2025 年 4 月** | |
+| 內容分析 | Adobe Content Analytics的[檔案](/help/content-analytics/content-analytics.md)。 Content Analytics可讓您快速輕鬆地調查大量內容資料，以找出趨勢、找出異常、識別內容疲勞，以及從內容曝光中獲得深入分析。 |
 | **2025 年 3 月** | |
 | Quantum Metric 使用案例 | 新增了從 [Quantum Metric](/help/use-cases/third-party/quantum-metric/collect-session-id.md) 收集資料的使用案例。 |
 | **2025 年 2 月** |  |

@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: c29b1b8678579b58c42fce2fc02fffd81c1a633f
+source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 92%
+source-wordcount: '836'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,12 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 快速一覽 Customer Journey Analytics 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../release-notes/latest.md)。請造訪「[文件更新頁面](../release-notes/doc-changes.md)」，了解最新變更內容。
 
 >[!BEGINTABS]
+
+>[!TAB Content Analytics]
+
+Adobe Content Analytics 可讓您快速且輕鬆地調查大量內容資料，以發現趨勢、發現異常、識別內容疲勞，並從內容曝光中獲取見解。
+
+[![影像](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 
 >[!TAB AI 助理]
 
@@ -65,18 +71,6 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 [![影像](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
 *_您必須擁有 Prime 套件才能進行圖表式匯整。_*
-
->[!TAB B2B 查詢]
-
-在設定連線時，您可以轉換特定 B2B 查詢結構描述的資料集，以便在 B2B 資料上更完善地支援人員型查詢。
-
-[![影像](assets/learn-more-button.svg)](/help/connections/transform-datasets-b2b-lookups.md)
-
->[!TAB 衍生欄位]
-
-新的衍生欄位函數 (數學、下一個或上一個、總結、重複) 和附加函數範本 (如跳出數、易記的資料集名稱、假期季節、每月目標、簡單的機器人偵測等) 現已推出。
-
-[![影像](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB BI 擴充功能*]
 
