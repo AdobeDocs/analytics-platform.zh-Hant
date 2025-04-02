@@ -5,9 +5,9 @@ title: 將 Customer Journey Analytics 報告匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 668f17531b4b8a01acffdbb0edef07092859d100
+source-git-commit: a7bd67894b02174d980a730086f89df97b524356
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2285'
 ht-degree: 6%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 6%
    | 標記 | 您可以將現有標籤套用至匯出，也可以建立新標籤並套用它。 <p>若要將現有標籤套用至匯出，請從下拉式選單中選取任何標籤。 您公司中的任何標籤都可以套用<!-- double-check this -->。</p> <p>若要建立新標籤，請輸入新標籤的名稱，然後按Enter鍵。</p><p>將標籤套用至匯出時，請考量下列事項： <ul><li>您套用的標籤可在匯出表格中篩選或搜尋。</li> <li>匯出完整表格時，套用至專案的標籤不會自動套用，如[管理匯出](/help/components/exports/manage-exports.md)中的「在匯出頁面上設定欄」中所述。 （或者，當[排程完整專案進行匯出](/help/analysis-workspace/export/t-schedule-report.md)時，套用至專案的任何標籤都會自動套用至匯出。） <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
    | 說明 | 新增說明至匯出。 檢視匯出時，您可以選擇在[匯出頁面](/help/components/exports/manage-exports.md)中以欄的形式檢視說明。 |
    | 資料視圖 | 選取包含要納入匯出之元件的資料檢視。 資料檢視下拉式功能表位於對話方塊的左上角，可由資料檢檢視示![資料檢檢視示](assets/data-view-icon.png)識別。  <p>**注意：**&#x200B;如果您選擇的資料檢視遺漏已包含在資料表格中的元件，系統會提示您清除資料表格，並使用所選資料檢視中所包含的元件重新建立資料表格。 </p> |
-   | 回顧視窗 | 選取要包含在每個匯出檔案中的報表時間範圍。 選項包括&#x200B;[!UICONTROL **今天**]、[!UICONTROL **昨天**]、[!UICONTROL **最近7天**]、[!UICONTROL **最近30天**]、[!UICONTROL **本週**]&#x200B;和&#x200B;[!UICONTROL **本月**]。 <p>當&#x200B;[!UICONTROL **匯出頻率**]&#x200B;設定為&#x200B;[!UICONTROL **立即傳送（一次性）**]&#x200B;時，不會顯示此選項。 |
+   | 回顧期間 | 選取要包含在每個匯出檔案中的報表時間範圍。 選項包括&#x200B;[!UICONTROL **今天**]、[!UICONTROL **昨天**]、[!UICONTROL **最近7天**]、[!UICONTROL **最近30天**]、[!UICONTROL **本週**]&#x200B;和&#x200B;[!UICONTROL **本月**]。 <p>當&#x200B;[!UICONTROL **匯出頻率**]&#x200B;設定為&#x200B;[!UICONTROL **立即傳送（一次性）**]&#x200B;時，不會顯示此選項。 |
    | 資料表 | 顯示您正在匯出的自由表格。 您可以將元件從左側面板拖曳到表格中，藉此修改資料表格。 表格會在您新增元件至畫布時動態更新。  <p>套用至專案中完整表格的任何區段都會顯示在表格中每個個別欄的頂端。</p> |
    | 清除 | 清除資料表的內容。 這可讓您直接在「新增完整表格」匯出對話方塊中開始建立新表格。 |
    | 匯出頻率 | 設定匯出發生的頻率排程。 <p>您可以選擇&#x200B;[!UICONTROL **立即傳送（一次性）**]，只傳送一次匯出。 選取此選項時，會立即起始匯出。<p>或者，您可以選擇按照定義的排程傳送匯出。 依排程傳送時，選項包括&#x200B;[!UICONTROL **每日**]、[!UICONTROL **每週**]、[!UICONTROL **按一週的日期**]&#x200B;每月、[!UICONTROL **按月份的日期**]、[!UICONTROL **按月份的日期**]&#x200B;每年，以及&#x200B;[!UICONTROL **按特定日期每年**]。 </p><p>選取匯出頻率時，請考量下列事項：</p><ul><li>[!UICONTROL **回顧視窗**]&#x200B;欄位中的選項會依據您在此選取的專案而變更。<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>系統會根據您選擇的選項，顯示其他設定欄位。</li></ul> |
@@ -171,6 +171,7 @@ ht-degree: 6%
 * 搜尋篩選
 * 靜態列
 * 日期調整
+* 摘要資料集的量度
 * 動態維度
 
   如需詳細資訊，請參閱自由表格中的[動態與靜態維度專案](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
@@ -225,7 +226,7 @@ ht-degree: 6%
 |---------|----------|---------|
 | 建立自訂報表 | 有 | 有 |
 | 計算量度 | 有 | 無 |
-| 客戶細分 | 是 | 有限 |
+| 區段 | 是 | 有限 |
 | 維度 | 限製為5 | 無限制 |
 | 量度 | 限製為5 | 無限制 |
 | 報告列 | 根據層級，限製為300萬、3000萬、1.5億或3億 | 無限制 |
