@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: ceb6ac97686165c2883ad8057730bb09e4d7ad16
+source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2469'
 ht-degree: 25%
 
 ---
@@ -249,6 +249,11 @@ ht-degree: 25%
 >title="資料收集"
 >abstract="您可以在資產設定，使用目前設定相關的 Adobe Content Analytics 擴充功能設定。"
 
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_tags_disabled_description "
+>title="標籤屬性已停用"
+>abstract="Content Analytics擴充功能已啟用。"
+
 <!-- markdownlint-enable MD034 -->
 
 #### 新設定 {#new-configuration}
@@ -277,6 +282,11 @@ ht-degree: 25%
 * 指示在收集內容分析的資料時應包含或排除哪些資產。
 
    * 指定&#x200B;**[!UICONTROL Assets要包含/排除]**&#x200B;的規則運算式字串。 例如： `/^(?!.*(logo\.jpg|\.svg)).*$/`從Content Analytics排除所有標誌JPEG和SVG影像。 使用`/`確保您逸出規則運算式。
+
+>[!IMPORTANT]
+>
+>如果您有使用Javascript且不使用標籤的現有Web SDK實作，您必須從新建立的標籤屬性中手動移除自動包含的網站SDK擴充功能。
+
 
 
 #### 現有設定 {#existing-configuration}
