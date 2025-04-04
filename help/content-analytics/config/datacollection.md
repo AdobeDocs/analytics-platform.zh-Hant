@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 89f7d8b388ab8c742712d748813520a51c736003
+source-git-commit: 02d24416bd1f56417005dfa1b693964073fb8a59
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Content Analytics事件會依序收集：
 1. [錄製的檢視或按一下](#recorded-view-or-click)。
 1. [一般或特定（行為）事件](#regular-or-specific-behaviorial-event)。
 
-Content Analytics確實會以這種方式收集資料來反映該順序，而不是收集檢視或點按，以與該檢視或點按之後立即收集事件分開。 這種收集內容分析資料的方式也會減少收集的資料量。 資料集合。
+Content Analytics確實會以這種方式收集資料來反映該順序，而不是收集檢視或點按，以與該檢視或點按之後立即收集事件分開。 這種收集內容分析資料的方式也會減少收集的資料量。
 
 ### 錄製的檢視或按一下
 
@@ -71,7 +71,7 @@ Content Analytics確實會以這種方式收集資料來反映該順序，而不
 出現下列情況時，會記錄資產點按：
 
 * 已檢視資產。
-* 並未根據ACA擴充功能設定排除資產。
+* 並未根據Content Analytics擴充功能設定排除資產。
 * 直接按一下資產（連結）即可進入另一個頁面。
 
 在下列情況下會記錄體驗檢視：
@@ -95,7 +95,7 @@ Content Analytics確實會以這種方式收集資料來反映該順序，而不
    * 關閉瀏覽器
    * 鎖定畫面
 * URL變更，導致相關的URL被修改。
-* 資產檢視超過批次限制32。
+* 已記錄且準備好傳送的資產檢視次數超過32次。
 
 
 ## 結構描述
