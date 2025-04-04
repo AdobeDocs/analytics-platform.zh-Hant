@@ -7,14 +7,16 @@ hide: true
 hidefromtoc: true
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 795116d41e40bf89ebf31572fb718e2bcb58a6c8
+source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
 
 # Content Analytics資料彙集
+
+{{release-limited-testing}}
 
 本文詳細說明內容分析如何收集資料
 
@@ -23,8 +25,8 @@ ht-degree: 1%
 
 本文內容中使用下列定義：
 
-* **體驗**：體驗定義為整個網頁上的文字內容。 對於資料收集，Content Analytics會記錄該體驗ID。 Content Analytics不會在頁面上記錄文字。
-* **體驗ID**：相關URL和體驗版本的唯一組合。
+* **體驗**：體驗定義為整個網頁上的文字內容。 對於資料收集，Content Analytics會根據頁面URL記錄體驗ID。 稍後，頁面上的文字會透過擷取服務擷取。
+* **體驗ID**：相關URL （基底URL加上驅動頁面內容的任何引數）與[體驗版本](manual.md#versioning)的唯一組合。
    * 您在[組態](configuration.md)中指定與任何指定完整URL相關的引數。
    * 您可以定義使用的[版本識別碼](manual.md#versioning)。
 * **資產**：影像。 Content Analytics會記錄資產URL。
@@ -64,7 +66,7 @@ Content Analytics確實會以這種方式收集資料來反映該順序，而不
 
 出現下列情況時，會記錄資產檢視：
 
-* 並未根據ACA擴充功能設定排除資產。
+* 並未根據Content Analytics擴充功能設定排除資產。
 * 資產檢視率為75%。
 * 尚未針對此頁面記錄該資產。
 
@@ -100,7 +102,7 @@ Content Analytics確實會以這種方式收集資料來反映該順序，而不
 
 ## 結構描述
 
-Content Analytics資料是根據特定的Experience Platform結構描述，在Content Analytics的資料集中收集。 參考結構描述可供公開使用，並用於Content Analytics的預設實施。
+Content Analytics資料是根據特定的Experience Platform結構描述，在Content Analytics的資料集中收集。 可公開使用的參考結構描述：
 
 * [數位資產結構描述](https://github.com/adobe/xdm/blob/master/components/classes/digital-asset.schema.json)
 * [數位體驗結構描述](https://github.com/adobe/xdm/blob/master/components/classes/digital-experience.schema.json)

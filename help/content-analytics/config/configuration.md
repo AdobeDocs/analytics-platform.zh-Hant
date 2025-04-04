@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
+source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 0%
 # 設定內容分析
 
 {{release-limited-testing}}
+
 
 Content Analytics的設定包含下列步驟：
 
@@ -42,8 +43,8 @@ Content Analytics的設定包含下列步驟：
 * 您已仔細考量下列重要設定選項：
 
    * 您的網站適合體驗報告。 只有在符合下列條件時，才可能提供適當的體驗報表：
-      * 您只能透過公開的URL存取網站內容。 存取網站不需要個人化的Token、Cookie或無法透過URL取得的其他機制。
-      * 您網站上的頁面可透過頁面URL重現，而且您會瞭解哪些可選URL引數可推動體驗。
+      * 網站上的頁面必須使用頁面URL可複製。
+      * 任何指定使用者看到的文字內容都可以使用頁面URL重現，而不取決於Cookie或其他個人化機制。
    * 您已清楚瞭解您想要擷取哪些頁面的內容參與分析和見解。
    * 您已清楚瞭解要擷取內容參與分析和深入分析的資產（型別）。
 

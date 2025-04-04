@@ -5,16 +5,17 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 411cd199e758da57d94faa9efb7f488d05163750
+source-git-commit: 6f077ada9df1604b86fde21aa6b11b12160aeaa7
 workflow-type: tm+mt
-source-wordcount: '2469'
-ht-degree: 25%
+source-wordcount: '2493'
+ht-degree: 24%
 
 ---
 
 # 內容分析引導式設定
 
 {{release-limited-testing}}
+
 
 引導式設定可幫助您快速輕鬆地設定內容分析。 引導式設定使用精靈來設定自動為組織設定內容分析的需求。 在&#x200B;**[!UICONTROL 設定]**&#x200B;畫面中，您可以建立新設定或編輯現有設定。
 
@@ -179,15 +180,20 @@ ht-degree: 25%
 
 只有符合下列條件時，才考慮加入體驗：
 
-* 您只能使用公開的URL來存取網站內容。 存取網站不需要個人化的Token、Cookie或無法透過URL取得的其他機制。
 * 網站上的頁面必須使用頁面URL可複製。
+* 任何指定使用者看到的文字內容都可以使用頁面URL重現，而不取決於Cookie或其他個人化機制。
 
 若要在新的或未實施的設定中包含體驗：
 
 ![Content Analytics組態體驗擷取與定義](../assets/aca-configuration-experience.png)
 
-1. 啟用&#x200B;**[!UICONTROL 包含體驗]**。
-1. 選擇性地指定在您的網站上呈現內容的相關引數。 引數是&#x200B;**[!UICONTROL 網域規則運算式]**&#x200B;和&#x200B;**[!UICONTROL 查詢引數]**&#x200B;的零個或多個組合。 查詢引數會指出哪些引數會影響頁面上的內容。 此輸入可讓Content Analytics在定義唯一體驗時，忽略不會影響頁面內容的任何引數。
+1. 啟用&#x200B;**[!UICONTROL 包含體驗]**。 啟用體驗的切換會影響下列專案：
+
+   * Content Analytics擴充功能中的資料收集
+   * 從Content Analytics事件資料產生體驗屬性的程式
+   * Customer Journey Analytics中的報表範本。
+
+1. 指定在您的網站上呈現內容方式的引數。 引數是&#x200B;**[!UICONTROL 網域規則運算式]**&#x200B;和&#x200B;**[!UICONTROL 查詢引數]**&#x200B;的零個或多個組合。 查詢引數會指出哪些引數會影響頁面上的內容。 此輸入可讓Content Analytics在定義唯一體驗時，忽略不會影響頁面內容的任何引數。
    1. 輸入&#x200B;**[!UICONTROL 網域規則運算式]**，例如`/^(?!.*\b(store|help|admin)\b)/`。 使用`/`確保您逸出規則運算式。 網域規則運算式會指出這些引數適用的URL。 例如，您可能有多個網站，每個網站的不同引數會驅動內容。 如果查詢引數套用至您的所有頁面，則可以使用`.*`來指示所有頁面。
    1. 指定&#x200B;**[!UICONTROL 查詢引數]**&#x200B;的逗號分隔清單，例如`outdoors, patio, kitchen`。
 1. 如果要移除網域規則運算式和查詢引數的組合，請選取&#x200B;**[!UICONTROL 移除]**。
@@ -197,10 +203,9 @@ ht-degree: 25%
 
 ![Content Analytics組態體驗擷取與定義](../assets/aca-configuration-experience-edit.png)
 
-* 切換&#x200B;**[!UICONTROL 包含體驗]**，以啟用或停用Analysis Workspace中體驗元件、視覺效果和面板的可用性。
-* 選取「![編輯](/help/assets/icons/Edit.svg)」**[!UICONTROL 「編輯]**」以編輯Content Analytics中體驗的資料收集組態。 系統會將您重新導向至與目前設定相關聯之Tags屬性中的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)。
+* 切換&#x200B;**[!UICONTROL 包含體驗]**，以啟用或停用Analysis Workspace中體驗元件、視覺效果、面板和範本的可用性。
 
-
+* 選取「![編輯](/help/assets/icons/Edit.svg)」**[!UICONTROL 「編輯]**」以進一步編輯Content Analytics中體驗的資料收集組態。 系統會將您重新導向至與目前設定相關聯之Tags屬性中的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)。
 
 
 ### 資料收集 {#onboarding-data-collection}
@@ -265,7 +270,8 @@ ht-degree: 25%
   ![Content Analytics資料收集現有標籤](../assets/aca-configuration-datacollection-existingtag.png)
 
    1. 選取&#x200B;**[!UICONTROL 選擇現有的]**。
-   2. 從&#x200B;**[!UICONTROL 標籤屬性]**&#x200B;下拉式功能表中選取現有屬性。 您可以開始輸入以搜尋並限制可用選項。
+   2. 從&#x200B;**[!UICONTROL 標籤屬性]**&#x200B;下拉式功能表中選取現有屬性。 您可以開始輸入以搜尋並限制可用選項。 您無法選取已由其他實作Content Analytics設定使用的Tags屬性。
+
 
 * 若要建立新的Tags屬性：
 
@@ -275,13 +281,13 @@ ht-degree: 25%
    1. 指定&#x200B;**[!UICONTROL 標籤名稱]**，例如`ACA Test for Documentation`。
    1. 指定&#x200B;**[!UICONTROL 網域]**，例如`example.com`。
 
-* 如果您已選取納入體驗，請指出在收集內容分析的資料時應納入或排除哪些頁面。
+* 指示在收集Content Analytics的資料時應包含或排除哪些頁面。
 
-   * 指定&#x200B;**[!UICONTROL 頁要包含/排除]**&#x200B;的規則運算式字串。 例如： `/^(?!.*documentation).*/`從Content Analytics排除所有檔案頁面。 使用`/`確保您逸出規則運算式。
+  指定&#x200B;**[!UICONTROL 頁要包含/排除]**&#x200B;的規則運算式字串。 <br/>例如： `^(?!.*documentation).*`從Content Analytics排除所有檔案頁面。
 
 * 指示在收集內容分析的資料時應包含或排除哪些資產。
 
-   * 指定&#x200B;**[!UICONTROL Assets要包含/排除]**&#x200B;的規則運算式字串。 例如： `/^(?!.*(logo\.jpg|\.svg)).*$/`從Content Analytics排除所有標誌JPEG和SVG影像。 使用`/`確保您逸出規則運算式。
+  指定&#x200B;**[!UICONTROL Assets要包含/排除]**&#x200B;的規則運算式字串。 <br/>例如： `^(?!.*(logo\.jpg|\.svg)).*$`從Content Analytics排除所有標誌JPEG和SVG影像。
 
 >[!IMPORTANT]
 >
@@ -318,11 +324,11 @@ ht-degree: 25%
 
 <!-- markdownlint-enable MD034 -->
 
-當您已建立或編輯組態時，可以使用下列動作。
+當您建立或編輯組態時，您有以下選項：
 
-* **[!UICONTROL 捨棄]**：建立新組態或編輯現有組態時所做的所有變更都會被捨棄。
-* **[!UICONTROL 儲存以供稍後使用]**：會儲存對新的組態或現有、尚未實作的組態所做的變更。 您可在稍後階段重新造訪設定，以進一步變更或實施設定。
-* **[!UICONTROL 實作]**：儲存並實作新組態或現有但尚未實作的組態的設定或變更。 實施包含：
+* **[!UICONTROL 捨棄]**：會捨棄所有在設定中所做的變更。
+* **[!UICONTROL 儲存以供稍後使用]**：已儲存對組態所做的變更。 您可在稍後階段重新造訪設定，以進一步變更或實施設定。 儲存組態只需要有[!UICONTROL Name]的值。
+* **[!UICONTROL 實作]**：已儲存並實作組態的設定或變更。 所有標示為![必要](/help/assets/icons/Required.svg)的欄位都必須有適當的值。 實施包含：
 
    * **[!UICONTROL Customer Journey Analytics]**&#x200B;設定：
       * 選取的資料檢視已更新，其中包含Content Analytics維度和量度。
