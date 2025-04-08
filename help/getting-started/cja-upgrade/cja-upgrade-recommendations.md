@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: dafd4360d12c5b8a6b9ce99799722cecbca9768c
+source-git-commit: dfc9ba843fbddc135c0f8160fb672adb36e9146f
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3281'
 ht-degree: 18%
 
 ---
@@ -132,6 +132,8 @@ ht-degree: 18%
 1. [在Customer Journey Analytics中建立資料檢視](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)。
 
 1. [驗證資料是否流入Customer Journey Analytics的資料檢視](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)。
+
+1. 在您的Adobe Analytics環境中，[使用Analytics詳細目錄](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory)檢視您的Adobe Analytics環境的完整總覽，包括專案和元件數量、報表套裝數量、使用者數量等。
 
 1. [移轉專案和元件](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)。
 
