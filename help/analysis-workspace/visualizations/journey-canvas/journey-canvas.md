@@ -4,10 +4,10 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
+source-git-commit: d86396a5c02be682c784e0acd4387de3796bda96
 workflow-type: tm+mt
 source-wordcount: '1893'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="歷程畫布"
->abstract="顯示人們如何完成或退出一系列接觸點。用於具有多個進入點和路徑的歷程，或用來分析在 Journey Optimizer 中建立的歷程。"
+>abstract="顯示人們如何完成或退出一系列接觸點。用於具有多個入口點和路徑的歷程，或用於分析在Journey Optimizer中建立的歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="歷程畫布"
->abstract="分析人們如何完成或退出定義的歷程。透過建立代表事件、維度項目和篩選器之任意組合的節點和箭頭彈性圖表，藉此建置使用者歷程分析。拖曳畫布上的節點可重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>有權存取 Adobe Journey Optimizer 的客戶可以分析現有的 Journey Optimizer 歷程"
+>abstract="分析人們如何完成或退出定義的歷程。透過建立代表事件、維度項目和篩選器之任意組合的節點和箭頭彈性圖表，藉此建置使用者歷程分析。拖曳畫布上的節點可重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有Adobe Journey Optimizer存取權的客戶可以分析現有的Journey Optimizer歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button"
 >title="歷程畫布"
->abstract="顯示人們如何完成或退出一系列接觸點。用於具有多個進入點和路徑的歷程，或用來分析在 Journey Optimizer 中建立的歷程。"
+>abstract="顯示人們如何完成或退出一系列接觸點。用於具有多個入口點和路徑的歷程，或用於分析在Journey Optimizer中建立的歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="歷程畫布"
->abstract="分析人們如何完成或退出定義的歷程。透過建立代表事件、維度項目和篩選器之任意組合的節點和箭頭彈性圖表，藉此建置使用者歷程分析。拖曳畫布上的節點可重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>有權存取 Adobe Journey Optimizer 的客戶可以分析現有的 Journey Optimizer 歷程"
+>abstract="分析人們如何完成或退出定義的歷程。透過建立代表事件、維度項目和篩選器之任意組合的節點和箭頭彈性圖表，藉此建置使用者歷程分析。拖曳畫布上的節點可重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有Adobe Journey Optimizer存取權的客戶可以分析現有的Journey Optimizer歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -81,17 +81,17 @@ Journey Canvas視覺效果的主要功能包括：
 
 ### 轉換率最高的路徑 {#conversion-rate-caption}
 
-Journey畫布中最顯著的深入分析會顯示為畫布本身的頂端標題。
+歷程畫布中最顯眼的insight會在畫布本身頂端顯示註解。
 
 此註解會摘要歷程中的所有路徑中，哪些路徑的轉換率最高。
 
 當歷程包含多個開始節點時，標題看起來像這樣：
 
-![歷程畫布分析註解](assets/journey-canvas-caption.png)
+![歷程畫布insight標題](assets/journey-canvas-caption.png)
 
 當歷程包含單一開始節點時，標題看起來像這樣：
 
-![歷程畫布分析註解單一開始節點](assets/journey-canvas-caption-singlestart.png)
+![歷程畫布insight註解單一開始節點](assets/journey-canvas-caption-singlestart.png)
 
 解譯此註解時，請考量下列事項：
 
