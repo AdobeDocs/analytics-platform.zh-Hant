@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 80%
+source-wordcount: '1001'
+ht-degree: 73%
 
 ---
 
@@ -84,20 +84,26 @@ ht-degree: 80%
   | 最先已知 | C | C | C | C | C |
   | 最後已知 | A | A | A | A | A |
 
+
 ## [!UICONTROL 期限]設定
 
 有關可用期限設定的詳細資料。
 
 * **工作階段**：在指定的工作階段後過期。預設期限窗口。
-* **人員**：在您的報告期間結束時到期。
+* **人員報告期間**：在報告期間結束時到期。
+* **全域帳戶報告期間** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}：在報告期間結束時到期。
+* **帳戶報告期間** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}：在報告期間結束時到期。
+* **機會報告期間** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}：在報告期間結束時到期。
+* **購買群組報表期間** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}：報表期間結束時到期。
 * **自訂時間**：在指定的時段 (最長 90 天) 後到期。這個期限選項僅適用於「原始」和「最近」配置模式。 在使用以時間為準的期限時，將會考量您的報告期間 (最長 90 天) 開始前的值。
 * **量度**：在事件中看到此量度時，請讓維度中的儲存值立即過期。 您可以使用量度當做此維度的過期點。 這個期限選項僅適用於「原始」和「最近」配置設定。
+
 
 ## [!UICONTROL 繫結維度]
 
 一個下拉式清單，可讓您將維度值的持續性繫結到另一個維度中的維度值。 有效選項包含在資料檢視中的其他維度。
 
-如需有關如何有效使用繫結維度的範例，請參閱[在Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md)中使用繫結維度和量度。
+如需有關如何有效使用繫結維度的範例，請參閱[在Customer Journey Analytics中使用繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md)。
 
 
 >[!BEGINSHADEBOX]

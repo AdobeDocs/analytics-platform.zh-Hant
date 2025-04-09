@@ -4,9 +4,9 @@ title: 建置篩選器
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1570'
 ht-degree: 10%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 10%
 您可以設定定義的型別和範圍：
 
 1. 若要指定定義的型別，請指定您要讓組建成為包含或排除定義。 選取![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 選項]**，並從下拉式清單切換&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**。
-1. 若要指定定義範圍，請從&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉式清單中選取，以決定定義範圍是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 工作階段]**&#x200B;或&#x200B;**[!UICONTROL 人員]**。
+1. 若要指定定義的範圍，請從&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉式清單中選取，以決定您要定義的範圍是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 工作階段]**、**[!UICONTROL 人員]**、**[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 機會]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}或&#x200B;**[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 您稍後一律可以變更這些設定。
 
@@ -84,7 +84,7 @@ ht-degree: 10%
 
 建構篩選定義的重要部分是使用維度、量度、現有篩選器和日期範圍。 這些元件都可從篩選產生器的元件面板使用。
 
-![開始建立定義](assets/start-building-filter.gif){width=100%}
+![開始建置定義](assets/start-building-filter.gif){width=100%}
 
 若要新增元件：
 
@@ -113,7 +113,7 @@ ht-degree: 10%
 * 若要將另一個元件新增至容器，請將元件面板中的元件拖放至容器中。 使用藍色插入線作為參考線。
 * 若要在容器外部新增另一個元件，請從元件面板將元件拖放至容器外部、主要定義容器內。 使用藍色插入線作為參考線。
 * 若要修改容器中元件之間、容器之間或容器與元件之間的邏輯，請選取適當的&#x200B;**[!UICONTROL 和]**、**[!UICONTROL 或]**、**[!UICONTROL 然後]**。 選取「Then」時，可將篩選器轉換為循序篩選器。 如需詳細資訊，請參閱[建立循序篩選器](seg-sequential-build.md)。
-* 若要切換容器層級，請選取![網頁頁面](/help/assets/icons/WebPage.svg) **[!UICONTROL 事件]**、![造訪](/help/assets/icons/Visit.svg) **[!UICONTROL 工作階段]**&#x200B;或![使用者](/help/assets/icons/User.svg) **[!UICONTROL 人員]**。
+* 若要切換容器層級，請選取![全球](/help/assets/icons/Globe.svg) **[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，![帳戶](/help/assets/icons/Account.svg) **[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，![機會](/help/assets/icons/Opportunity.svg) **[!UICONTROL 機會]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，![購買群組](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，![網頁](/help/assets/icons/WebPage.svg) **[!UICONTROL 事件]**，![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 會話]**&#x200B;或![使用者](/help/assets/icons/User.svg) **[!UICONTROL 人員]**。
 
 您可以在容器中使用![Setting](/help/assets/icons/Setting.svg)進行下列動作：
 
@@ -135,7 +135,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段中的滾動式日期範圍](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 在區段捲動日期範圍](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

@@ -4,10 +4,10 @@ title: 如何設定流量視覺效果
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 38%
+source-wordcount: '1484'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 38%
 
 ## 使用
 
-1. 新增![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 流量]**&#x200B;視覺效果。 請參閱[將視覺效果新增至面板](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
+1. 新增 ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 流量]**&#x200B;視覺效果。請參閱[新增視覺效果至面板](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
 
 1. 使用以下選項之一，錨定您的流量視覺效果：
 
@@ -35,31 +35,31 @@ ht-degree: 38%
    * [!UICONTROL **包含**] (量度、維度或項目)，或
    * [!UICONTROL **結束於**] (量度、維度或項目)
 
-   這些類別都會在熒幕中顯示為&#x200B;*拖放區域*。 您可以使用 3 種方式填入拖放區域：
+   這些類別皆會顯示為螢幕上的&#x200B;*放置區*。您可以使用 3 種方式填入拖放區域：
 
    * 使用下拉式選單來選取量度或維度。
    * 從左側面板拖曳維度或量度。
-   * 開始輸入維度或指標的名稱，然後在下拉式清單中出現時即可選取。
+   * 開始輸入維度或量度名稱，然後當名稱出現在下拉式清單時即可選取。
 
    >[!IMPORTANT]
    >
-   >計算量度不能用於&#x200B;**[!UICONTROL 開頭為]**&#x200B;或&#x200B;**[!UICONTROL 結尾為]**&#x200B;欄位。
+   >計算量度不可在&#x200B;**[!UICONTROL 開頭為]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**&#x200B;的欄位中使用。
 
-1. 如果您選擇量度，則還需要提供&#x200B;[!UICONTROL **路徑Dimension**]，以作為前往或來自您所選元件的路徑，如下所示。 預設為&#x200B;[!UICONTROL **「頁面」**]。
+1. 如果您選擇一個量度，您還需要提供一個&#x200B;[!UICONTROL **路徑分析維度**]，以用於通往或來自選取元件的路徑，如此處所示。此預設為&#x200B;[!UICONTROL **「頁面」**]。
 
-   ![流程組態](assets/flow-configure.png)
+   ![流量設定](assets/flow-configure.png)
 
-1. (選項) 選取「**[!UICONTROL 顯示進階設定]**」以設定以下任何選項：
+1. (可選) 請選取「**[!UICONTROL 顯示進階設定]**」，以設定下列任何選項：
 
 
    | 設定 | 說明 |
    | --- | --- |
    | **[!UICONTROL 繞排標籤]** | 一般而言，系統會截斷「流量」元素的標籤以節省螢幕空間，但您可勾選此方塊以完整顯示標籤。預設 = 未勾選。 |
-   | **[!UICONTROL 包含重複例項]** | 「流量」視覺效果是根據維度的例項而定。此設定可讓您選擇要包含或排除重複例項，例如頁面重新載入。 不過，無法從包含多值維度 (例如 listVars、listProps、s.product、銷售 eVars 等) 的「流量」視覺效果中移除重複項目。 <p>此選項預設為停用。</p> |
-   | **[!UICONTROL 僅限於第一次/最後一次發生]** | 將路徑限製為以維度、專案或量度的第一次或最後一次發生次數開頭或結尾的路徑。 如需更詳細的說明，請參閱[僅限於第一次/最後一次發生](#example-scenario-for-limit-to-firstlast-occurrence)。 |
+   | **[!UICONTROL 包含重複例項]** | 「流量」視覺效果是根據維度的例項而定。此設定提供您要包括或排除重複例項的選項，例如頁面重新載入次數。不過，無法從包括多值維度 (例如 listVars、listProps、s.product、銷售 eVars 等) 的「流量」視覺效果中移除重複項目。 <p>此選項預設為停用。</p> |
+   | **[!UICONTROL 僅限於第一次/最後一次發生次數]** | 將路徑限制為維度、項目/或量度開始或結束於第一次或最後一次發生次數的路徑。請參閱[僅限第一次/最後一次發生次數](#example-scenario-for-limit-to-firstlast-occurrence)，以了解更多詳細的解釋。 |
    | **[!UICONTROL 欄數]** | 流量圖中所需的欄數。您最多可以指定 5 個欄。 |
    | **[!UICONTROL 每欄展開的項目]** | 每欄中所需的項目數。您最多可以指定每欄展開 10 個項目。 |
-   | **[!UICONTROL 流量容器]** | 您可以在&#x200B;**[!UICONTROL 工作階段]**&#x200B;和&#x200B;**[!UICONTROL 人員]**&#x200B;之間切換以分析路徑。 這些設定可協助您瞭解個人在個人層級的參與度（跨工作階段），或將分析限制在單一工作階段。 |
+   | **[!UICONTROL 流量容器]** | 您可以切換&#x200B;**[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 商機]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 工作階段]**&#x200B;和&#x200B;**[!UICONTROL 人員]**&#x200B;以分析路徑。 這些設定可協助您了解人員層級的人員參與程度 (跨工作階段)，或是將分析限制為單一工作階段。 |
 
    >[!IMPORTANT]
    >
@@ -71,83 +71,81 @@ ht-degree: 38%
 
 ### 範例
 
-假設您想要追蹤使用者在您網站上最受歡迎頁面之間所經過的路徑。
+假設您想要追蹤使用者往返您網站上最受歡迎頁面的路徑。
 
-1. 建立上述的流量視覺效果。
-1. 拖曳&#x200B;[!UICONTROL **頁面**]&#x200B;維度至「**[!UICONTROL 包含]**」欄位，然後選取「[!UICONTROL **建立**]」。
-1. 流量視覺效果會建置，而檢視次數最多的頁面會顯示在視覺效果的中心。 您也會看見前導至該頁面的前幾頁（焦點節點的左側），以及前導至該頁面的前幾頁（焦點節點的右側）。
-1. 分析流量中的資料，如[設定](#configure)中所述。
+1. 依上所述建立流量視覺效果。
+1. 拖曳&#x200B;[!UICONTROL **頁面**]&#x200B;維度至「**[!UICONTROL 包含]**」欄位，然後選取「[!UICONTROL **建置**]」。
+1. 使用檢視次數最多的頁面 (可在視覺效果中央的焦點節點內看到) 建置流量視覺效果。您也可以看到會引導至該頁面的上層頁面 (位於焦點節點的左側) 以及引導出該頁面的上層頁面 (位於焦點節點的右側)。
+1. 如[設定](#configure)所述，在流量分析資料。
 
 
 ## 設定
 
-流量組態的摘要會顯示在視覺效果的最上方。 圖表中的路徑會依照比例顯示。具有較多活動的路徑看起來比較寬。
+流量設定的摘要會顯示在視覺效果的頂端。圖表中的路徑會依照比例顯示。具有較多活動的路徑看起來比較寬。
 
-![顯示以造訪結束的流量輸出範例、路徑維度：頁面，以及流量容器：訪客。](assets/flow-output.png)
+![流量輸出範例顯示結束於造訪數、路徑分析維度：頁面和流量容器：訪客。](assets/flow-output.png)
 
 若要深入研究資料，您有幾個選項：
 
 * 流量圖是互動式的。將滑鼠移到圖表上方，可變更顯示的詳細資料。
 
-* 選取圖表中的節點，會顯示該節點的詳細資料。再次選取節點以將其摺疊。
+* 選取圖表中的節點，會顯示該節點的詳細資料。再次選取節點，以將其摺疊。
 
-  ![顯示節點詳細資訊的互動流程圖範例。](assets/node-details.png)
+  ![顯示節點詳細資訊的範例互動式流量圖。](assets/node-details.png)
 
-* 您可以篩選欄以僅顯示某些結果，例如包含和排除、指定條件等。
+* 您可以篩選欄以僅顯示特定結果，例如包括和排除、指定條件等。
 
-* 選取左側或右側的![AddCircle](/help/assets/icons/AddCircle.svg)以展開欄。
+* 請選取左側或右側的「![AddCircle](/help/assets/icons/AddCircle.svg)」以展開一欄。
 
-* 若要自訂輸出，請使用[內容功能表](#context-menu)選項。
+* 若要自訂輸出，請使用[內容選單](#context-menu)選項。
 
-* 若要編輯流量或使用不同的選項重新建置流量，請選取組態摘要旁的![編輯](/help/assets/icons/Edit.svg)。
+* 若要使用不同選項編輯流量或重建，請選取設定摘要旁的「![編輯](/help/assets/icons/Edit.svg)」。
 
 ## 篩選器
 
-當您將游標停留在欄上方時，會出現篩選器![篩選器](/help/assets/icons/Filter.svg)。 選取篩選器後，會出現與自由表格中相同的篩選器對話方塊。 請參閱[篩選與排序](freeform-table/../../freeform-table/filter-and-sort.md)。
+將滑鼠游標停留在欄上方時，會出現一個篩選器![Filter](/help/assets/icons/Filter.svg)。選取篩選器，您會獲得與在自由格式表格中相同的篩選器對話框。請參閱[篩選和排序](freeform-table/../../freeform-table/filter-and-sort.md)。
 
-* 使用&#x200B;**[!UICONTROL 顯示進階]**&#x200B;來設定進階設定，以包含或排除運運算元清單中的特定條件。 如需詳細資訊，請參閱[篩選和排序](../freeform-table/filter-and-sort.md)。
-* 篩選欄之後，該特定欄會反映篩選結果。 藍色![篩選器](/help/assets/icons/FilterColored.svg)表示欄已篩選。  篩選器會減少欄以僅顯示篩選器中允許的專案。 或者，它會移除所有專案，但您想要在篩選器中移除的一個專案除外。
-* 只要有資料流入其餘節點，所有下游和上游欄都會保持不變。
-* 若要移除篩選器，請選取![篩選器](/help/assets/icons/Filter.svg)以開啟篩選器功能表。 移除套用的所有篩選器，然後選取「**[!UICONTROL 儲存]**」。流量應會回到其先前的未篩選狀態。
+* 使用「**[!UICONTROL 顯示進階]**」以設定進階設定來使用運算子清單包括或排除特定條件。請參閱[篩選和排序](../freeform-table/filter-and-sort.md)，以了解更多詳細資訊。
+* 您篩選某一欄後，該特定欄會反映此篩選結果。藍色![篩選器](/help/assets/icons/FilterColored.svg)表示已篩選該欄。篩選器可以減少欄，僅顯示篩選器中允許的項目。或者移除所有項目，篩選器中您所需的一個項目除外。
+* 只要有資料流入剩餘節點，所有下游和上游欄均保持不變。
+* 若要移除篩選器，請選取「![篩選器](/help/assets/icons/Filter.svg)」以開啟篩選器選單。移除套用的所有篩選器，然後選取「**[!UICONTROL 儲存]**」。流量應會回到其先前的未篩選狀態。
 
 ## 內容選單
 
-在流量視覺效果中的任何節點上使用內容功能表，並搭配下列選項：
+使用流量視覺效果中任意節點上的內容選單，其中包含下列選項：
 
 | 選項 | 說明 |
 |--- |--- |
 | **[!UICONTROL 焦點放在這個節點]** | 將焦點變更至選取的節點。焦點節點會出現在流量圖的中央。 |
-| **[!UICONTROL 重新開始]** | 將您帶回自由圖表產生器，讓您在那裡建立新的流量圖表。 |
-| **[!UICONTROL 為此路徑建立篩選器]** | 建立篩選器。 此選取範圍會帶您進入篩選器產生器，您可在此設定新篩選器。 |
+| **[!UICONTROL 重新開始]** | 將您帶回自由格式圖表產生器，您可以在那裡建置新的流量圖。 |
+| **[!UICONTROL 建立此路徑的篩選器]** | 建立篩選器。此選取項目會將您帶往「篩選產生器」，讓您在該處設定新篩選器。 |
 | **[!UICONTROL 劃分]** | 依據可用的「維度」、「量度」或「時間」來劃分節點。 |
-| **[!UICONTROL 篩選資料行]** | 顯示的篩選選項與自由表格中提供的選項相同。 如需有關可用選項的詳細資訊，請參閱[篩選和排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的「將簡單或進階篩選套用至表格」一節。 |
-| **[!UICONTROL 排除專案]**&#x200B;或&#x200B;**[!UICONTROL 還原排除的專案]** | 從欄中移除特定節點，並自動將其建立為欄頂端的篩選器。若要還原排除的專案，請從內容功能表中選取&#x200B;**[!UICONTROL 還原排除的專案]**。 您也可以開啟欄頂端的篩選器，並移除包含剛剛排除的項目的方塊。 |
+| **[!UICONTROL 篩選欄]** | 出現如同在自由格式表格中可用的相同篩選器選項。請參閱[篩選和排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的「套用簡易或進階篩選器置表格」，了解有關可用選項的更多資訊。 |
+| **[!UICONTROL 排除項目]**&#x200B;或&#x200B;**[!UICONTROL 還原排除項目]** | 從欄中移除特定節點，並自動將其建立為欄頂端的篩選器。若要還原排除項目，請從內容選單選取「**[!UICONTROL 還原排除項目]**」。您也可以開啟欄頂端的篩選器，並移除包含剛剛排除的項目的方塊。 |
 | **[!UICONTROL 趨勢]** | 建立節點的趨勢圖。 |
-| **[!UICONTROL 顯示下一欄]** / **[!UICONTROL 顯示上一欄]** | 顯示視覺效果下一欄 (右邊) 或上一欄 (左邊)。 |
+| **[!UICONTROL 顯示下一欄]**/**[!UICONTROL 顯示上一欄]** | 顯示視覺效果下一欄 (右邊) 或上一欄 (左邊)。 |
 | **[!UICONTROL 隱藏欄]**n | 隱藏視覺效果的選取欄。 |
 | **[!UICONTROL 展開整個欄]** | 展開該欄以顯示所有節點。依預設，只會顯示前五個節點。 |
-| **[!UICONTROL 從選取專案建立對象]** | 根據選取的欄建立對象。 |
+| **[!UICONTROL 從選取項目中建立客群]** | 根據選取欄建立客群。 |
 | **[!UICONTROL 摺疊整個欄]** | 隱藏該欄中的所有節點。 |
 
-## 僅限於第一次/最後一次發生
+## 僅限於第一次/最後一次發生次數
 
 使用此選項時，請記住：
 
 * **[!UICONTROL 「僅限於第一次/最後一次發生」]**&#x200B;只會計算系列中的第一次/最後一次發生次數。**[!UICONTROL 「開頭為」]**&#x200B;或&#x200B;**[!UICONTROL 「結束於」]**&#x200B;條件的所有其他發生次數都會被捨棄。
-* 如果與&#x200B;**[!UICONTROL 開頭為]**的流量一起使用，則僅包含符合開始條件的第一次發生次數。
-在下列範例中，流程的每個步驟都包含**所有**&#x200B;的&#x200B;*加入購物車*&#x200B;和&#x200B;*產品主要類別*事件。
-  ![沒有限制，第一個](assets/limitofffirst.png)
+* 如果與&#x200B;**[!UICONTROL 開頭為]**&#x200B;流量搭配使用，則僅包括符合開始條件的第一次發生次數。在下列範例中，**全部***新增至購物車* 的發生次數和&#x200B;*產品主類別*流量中的每個步驟均包括在內。
+  ![無限制，第一](assets/limitofffirst.png)
 
-  在以下範例中，流程的每個步驟中只包括&#x200B;*加入購物車*&#x200B;和&#x200B;*產品主要類別*&#x200B;的&#x200B;**前**次。
+  在下列範例中，僅&#x200B;**第一次***新增至購物車* 的發生次數和&#x200B;*產品主類別*流量中的每個步驟均包括在內。
   ![Lint，開始](assets/limitonfirst.png)
-* 如果與&#x200B;**[!UICONTROL Ends with]**流量一起使用，則僅包含符合結束條件的最後一次發生次數。
-在下列範例中，流程的每個步驟都包含*產品主要類別*&#x200B;的&#x200B;**所有**&#x200B;次發生次數和&#x200B;*加入購物車*。
-  ![沒有限制，第一個](assets/limitofflast.png)
+* 如果與&#x200B;**[!UICONTROL 結束於]**&#x200B;流量搭配使用，則僅包括符合結束條件的最後一次發生次數。在下列範例中，**全部***產品主類別* 的發生次數和&#x200B;*新增至購物車*流量中的每個步驟均包括在內。
+  ![無限制，第一](assets/limitofflast.png)
 
-  在下列範例中，流程的每個步驟中只包括&#x200B;*產品主要類別*&#x200B;的&#x200B;**最後**&#x200B;次和&#x200B;*加入購物車*。
+  在下列範例中，僅&#x200B;**最後一次***產品主類別* 的發生次數和&#x200B;*新增至購物車*流量中的每個步驟均包括在內。
   ![Lint，開始](assets/limitonlast.png)
-* 使用的系列因容器而異。如果使用&#x200B;**[!UICONTROL 人員]**&#x200B;容器，則事件系列為工作階段。 如果使用&#x200B;**[!UICONTROL 工作階段]**&#x200B;容器，則事件系列是所提供日期範圍內特定使用者的所有事件。
-* 在&#x200B;**[!UICONTROL 開頭為]**&#x200B;或&#x200B;**[!UICONTROL 結尾為]**&#x200B;欄位中使用量度或Dimension專案時，可以在進階設定中設定&#x200B;**[!UICONTROL 僅限於第一次/最後一次發生]**&#x200B;選項。
+* 使用的系列因容器而異。如果使用&#x200B;**[!UICONTROL 人員]** 容器，一系列事件即為工作階段。如果使用&#x200B;**[!UICONTROL 工作階段]**&#x200B;容器，則一系列事件即為所提供日期範圍內特定使用者的所有事件。
+* 在&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**&#x200B;欄位中使用量度或維度項目時，可以在進階設定中設定&#x200B;**[!UICONTROL 僅限於第一次/最後一次發生次數]**&#x200B;選項。
 
 
 >[!MORELIKETHIS]

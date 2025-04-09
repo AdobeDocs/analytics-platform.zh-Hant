@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 99%
+source-wordcount: '2120'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立或編輯示範視訊的資料檢視](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立或編輯資料檢視](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +34,22 @@ ht-degree: 99%
 
 設定新的或現有的資料視圖的方法：
 
+>[!BEGINTABS]
+
+>[!TAB 標準]
+
+![設定資料視圖](assets/dataview-configure.png)
+
+>[!TAB B2B edition]
+
+![設定資料檢視B2B](assets/dataview-configure-b2b.png)
+
+>[!ENDTABS]
+
+
 1. 選取「**[!UICONTROL 設定]**」標籤 (如果尚未啟動)。
 
-   ![設定資料視圖](assets/dataview-configure.png)
+
 1. 指定「[!UICONTROL 設定]」、「[!UICONTROL 容器]」，然後指定「[!UICONTROL 行事曆]」詳細資料 (見下文)。
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
@@ -56,10 +69,10 @@ ht-degree: 99%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL **連線**] | 此欄位會將資料視圖連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
-| [!UICONTROL **名稱**] | 必填。資料視圖的名稱。此值顯示在 Analysis Workspace 的右上角下拉式清單中。 |
-| [!UICONTROL **外部 ID**] | 必填。您可以在外部來源 (例如商業智慧工具) 中使用的資料視圖名稱。預設值為 `unspecified`。如果不指定外部 ID，則將從資料視圖的名稱產生該名稱，並以底線取代空格。 |
-| [!UICONTROL **說明**] | 選填。Adobe 建議使用詳細說明，讓用戶了解資料視圖存在的原因及其設計對象。 |
+| **[!UICONTROL 連線]** | 此欄位會將資料視圖連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
+| **[!UICONTROL 名稱]** | 必填。資料視圖的名稱。此值顯示在 Analysis Workspace 的右上角下拉式清單中。 |
+| **[!UICONTROL 外部 ID]** | 必填。您可以在外部來源 (例如商業智慧工具) 中使用的資料視圖名稱。預設值為 `unspecified`。如果不指定外部 ID，則將從資料視圖的名稱產生該名稱，並以底線取代空格。 |
+| **[!UICONTROL 說明]** | 選填。Adobe 建議使用詳細說明，讓用戶了解資料視圖存在的原因及其設計對象。 |
 
 {style="table-layout:auto"}
 
@@ -92,9 +105,13 @@ ht-degree: 99%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL **人員容器名稱**] | 「[!UICONTROL 人員]」(預設)。「[!UICONTROL 人員]」容器包含指定時間段內人員的每個工作階段和事件。如果您的組織使用不同的術語 (例如，「訪客」或「用戶」)，您可以在此處重新命名容器。 |
-| [!UICONTROL **工作階段容器名稱**] | 「[!UICONTROL 工作階段]」(預設)。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「Visit」或您組織偏好的其他任何詞語。 |
-| [!UICONTROL **事件容器名稱**] | [!UICONTROL 事件] (預設)。[!UICONTROL 事件]容器定義資料集中的單個事件。如果您的組織使用不同的術語 (例如，「點擊次數」或「頁面檢視量」)，您可以在此處重新命名容器。 |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 全域帳戶容器名稱&#x200B;]** | `Global Account` （預設）。 [!UICONTROL 全域帳戶]容器包含指定時間範圍內全域帳戶的每個工作階段和事件。 如果您的組織使用不同的術語，您可以在此處重新命名容器。 |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 帳戶容器名稱&#x200B;]** | `Account` （預設）。 [!UICONTROL 帳戶]容器包含指定時間範圍內帳戶的每個工作階段和事件。 如果您的組織使用不同的術語，您可以在此處重新命名容器。 |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 機會容器名稱&#x200B;]** | `Opportunity` （預設）。 [!UICONTROL 機會]容器包含指定時間範圍內機會的每個工作階段和事件。 如果您的組織使用不同的術語，您可以在此處重新命名容器。 |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 購買群組容器名稱&#x200B;]** | `Buying Group` （預設）。 [!UICONTROL 購買群組]容器包含指定時間範圍內購買群組的每個工作階段和事件。 如果您的組織使用不同的術語，您可以在此處重新命名容器。 |
+| **[!UICONTROL 人員容器名稱]** | `Person` （預設）。 「[!UICONTROL 人員]」容器包含指定時間段內人員的每個工作階段和事件。如果您的組織使用不同的術語 (例如，「訪客」或「用戶」)，您可以在此處重新命名容器。 |
+| **[!UICONTROL 工作階段容器名稱]** | `Session` （預設）。 「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「Visit」或您組織偏好的其他任何詞語。 |
+| **[!UICONTROL 事件容器名稱]** | `Event` （預設）。 [!UICONTROL 事件]容器定義資料集中的單個事件。如果您的組織使用不同的術語 (例如，「點擊次數」或「頁面檢視量」)，您可以在此處重新命名容器。 |
 
 {style="table-layout:auto"}
 
@@ -177,5 +194,11 @@ ht-degree: 99%
 ### 工作階段設定
 
 決定在工作階段到期和新工作階段開始之前，事件之間的閒置時段。需要時段。您也可以選擇在事件包含特定量度時，強制啟動新工作階段。如需詳細資料，請參閱[工作階段設定](session-settings.md)。
+
+### 資料預覽
+
+資料預覽會比較（針對各種容器）此資料檢視的資料與連線的資料。 預覽百分比是根據過去90天的連線總數。
+
+如果未載入預覽，您的連線可能仍在回填。
 
 指定所有所需設定後，按一下「**[!UICONTROL 儲存並完成]**」。

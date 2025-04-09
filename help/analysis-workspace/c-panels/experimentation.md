@@ -4,9 +4,9 @@ title: Experimentation 面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 7e32ae7aa757a8ca47732416f0f883033611ea94
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2179'
 ht-degree: 18%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 18%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄Experimentation面板。_<br/>_如需如何在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._中分析Adobe Target活動和體驗的相關資訊，請參閱[Analytics for Target面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄Experimentation面板。_<br/>_如需如何在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._中分析Adobe Target活動和體驗的相關資訊，請參閱[Analytics for Target面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)
 
 >[!ENDSHADEBOX]
 
@@ -105,11 +105,11 @@ Experimentation和Experimentation Variant的![內容標籤選項。](assets/cont
    | **[!UICONTROL 實驗]** | 一組向一般使用者展示的體驗變體，用來決定要永久儲存的最佳變體。 一個實驗由兩個或多個變體組成，其中一個會視為控制變體。此設定預先填入了資料檢視中已用&#x200B;**[!UICONTROL Experiment]**&#x200B;標籤標籤的維度，以及過去3個月的實驗資料。 |
    | **[!UICONTROL 控制變體]** | 一般使用者體驗中的兩個或多個變動之一，它們會被比較以找出較好的替代方案。必須選擇一種變體作為對照，並且只能將一種變體視為控制變體。此設定預先填入了資料檢視中已用&#x200B;**[!UICONTROL 變體]**&#x200B;標籤標籤的維度。 此設定會提取與此實驗關聯的變體資料。 |
    | **[!UICONTROL 成功量度]**➊ | 使用者用來比較變體的一個或多個量度。轉換量度（最高或最低）具有最理想結果的變體會宣告為實驗的&#x200B;*最佳表現變體*。 可最多新增 5 個量度。 |
-   | **[!UICONTROL 標準化量度]**➋ | 執行測試的基礎（[!UICONTROL 人員]、[!UICONTROL 工作階段]或[!UICONTROL 事件]）。 例如，測試可能會比較幾種變體的轉換率，其中&#x200B;**[!UICONTROL 轉換率]**&#x200B;是以頁面檢視計算 |
+   | **[!UICONTROL 標準化量度]**➋ | 執行測試的基礎(**[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 商機]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 人員]**、**[!UICONTROL 工作階段]**&#x200B;或&#x200B;**[!UICONTROL 事件]**)。 例如，測試可能會比較幾種變體的轉換率，其中&#x200B;**[!UICONTROL 轉換率]**&#x200B;是以頁面檢視計算。 |
    | **[!UICONTROL 包含信賴上/下限]** | 啟用此選項可顯示信賴水準的上限和下限。 |
 
 
-1. 選取「**[!UICONTROL 建置]**」。
+1. 請選取「**[!UICONTROL 建置]**」。
 
 ### 面板輸出
 

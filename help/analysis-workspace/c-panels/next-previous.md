@@ -4,10 +4,10 @@ title: 下一個或上一個項目面板
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: 2c28d9658165baf4de9519733c321d47c71f2bda
+source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 93%
+source-wordcount: '457'
+ht-degree: 82%
 
 ---
 
@@ -63,11 +63,11 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 | **[!UICONTROL 維度]** | 請選取您想要探索下一個或上一個項目的維度。 |
 | **[!UICONTROL 維度項目]** | 請選取下一個/上一個查詢中心的特定維度項目。 |
 | **[!UICONTROL 方向]** | 請指定您尋找[!UICONTROL 下一個]或[!UICONTROL 上一個]維度項目。 |
-| **[!UICONTROL 容器]** | 請選取容器、[!UICONTROL 工作階段]或[!UICONTROL 人員] (預設)，以決定查詢範圍。 |
+| **[!UICONTROL 容器]** | 選取容器，**[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，**[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，**[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，**[!UICONTROL 機會]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，**[!UICONTROL 工作階段]**&#x200B;或&#x200B;**[!UICONTROL 人員]**，以決定您的查詢範圍。 |
 
 {style="table-layout:auto"}
 
-請選取「**[!UICONTROL 建置]**」以建置面板。
+請選取「**[!UICONTROL 「建置]**」以建置面板。
 
 ### 面板輸出
 
