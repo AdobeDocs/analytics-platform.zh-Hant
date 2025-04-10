@@ -4,10 +4,10 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: baf0a1f1d0bdc0d3c60d9375e20c1de3f39f1702
+source-git-commit: 20ccc42c902cbcadb509147352a5681fab9e44e0
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 18%
+source-wordcount: '2350'
+ht-degree: 15%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 18%
    | 建立方法 | 詳細資料 |
    | --- | --- |
    | 從&#x200B;**[!UICONTROL 對象]**&#x200B;介面中 | 從Customer Journey Analytics主功能表選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 對象]**。 Audiences介面隨即顯示。 選取「**[!UICONTROL 建立對象]**」，[!UICONTROL 對象產生器]隨即開啟。 |
-   | 從Analysis Workspace中的視覺效果 | Analysis Workspace中的許多視覺效果都可讓您使用內容功能表建立對象。 例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)中專案的內容功能表或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)中的節點選取&#x200B;**[!UICONTROL 建立對象]**。<p>使用此方法時，會使用您選取的維度或維度專案預先填入對象產生器中的篩選器。</p><p>下列視覺效果可讓您使用滑鼠右鍵功能表建立對象：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流程](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：**&#x200B;對象不能包含計算量度。 如果您嘗試建立包含計算量度的對象，則該計算量度不會包含在對象定義中。</p> |
+   | 從Analysis Workspace中的視覺效果 | Analysis Workspace中的許多視覺效果都可讓您使用內容功能表建立對象。 例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)中專案的內容功能表或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)中的節點選取&#x200B;**[!UICONTROL 建立對象]**。<p>使用此方法時，會使用您選取的維度或維度專案預先填入對象產生器中的篩選器。</p><p>下列視覺效果可讓您使用滑鼠右鍵功能表建立對象：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：**&#x200B;對象不能包含計算量度。 如果您嘗試建立包含計算量度的對象，則該計算量度不會包含在對象定義中。</p> |
    | 從篩選器建立/編輯 UI | 勾選顯示「**[!UICONTROL 通過此篩選建立客群]**」的方塊。使用此方法預先填入篩選器。 如需詳細資訊，請參閱[建立篩選器](/help/components/filters/create-filters.md)。 |
 
    {style="table-layout:auto"}
@@ -169,6 +169,38 @@ Real-Time Customer Data Platform接著會檢查每個名稱空間/ID組合，並
 
 如需在Platform中使用對象的詳細資訊，請參閱Experience Platform檔案之[區段產生器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)中的[對象](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)區段。
 
+### 瞭解Customer Journey Analytics和Real-Time Customer Data Platform之間的受眾計數差異
+
+Customer Journey Analytics和Real-Time Customer Data Platform之間可能會出現對象計數差異。 以下幾點提供這些差異的詳細說明：
+
+![Customer Journey Analytics與Real-Time CDP之間對象差異的資訊圖表。](/help/components/audiences/assets/infographic-cja-rtcdp.png)
+
+**機率對確定性計數**
+
+兩個應用程式計算對象會籍數的方法有所不同，如下所述。
+
+* **Customer Journey Analytics**： Customer Journey Analytics中的&#x200B;**[!UICONTROL 總人數]**&#x200B;量度是預估值。 這表示此計數是根據對象規則的估計值，並且可能在重新整理間隔之間變更。
+* **Real-Time Customer Data Platform**： Real-Time Customer Data Platform中的計數是決定性的，以每日評估工作為基礎，並在對象完成發佈至對象入口網站時修正。
+
+**發佈間隔和速率**
+
+對象以每秒1500筆記錄(RPS)的速率發佈到Real-Time Customer Data Platform。 例如，擁有2,000萬名成員的對象將需約3.7小時才能完全發佈（2,000萬/1,500 RPS/3,600秒/小時）。 在這段期間，這兩個應用程式的對象會籍可能會有所不同。
+
+**設定檔片段**
+
+如果從Customer Journey Analytics匯入的設定檔已存在於Real-Time Customer Data Platform中，則不會計為新的設定檔。 這可能會導致Real-Time Customer Data Platform中的設定檔計數低於預期。
+
+**批次與串流對象**
+
+Customer Journey Analytics對象不會包含在每日批次評估工作中，並在下次發佈間隔前保持固定。 相反地，Real-Time Customer Data Platform中的其他批次對象每24小時會重新評估一次。
+
+### 要記住的關鍵要點
+
+* **Customer Journey Analytics中的預估計數**：瞭解Customer Journey Analytics中的&#x200B;**[!UICONTROL 總人數]**&#x200B;計數是預估值，可能會因串流資料和身分識別行為而有所不同。
+* **Real-Time Customer Data Platform中的確定性計數**： Real-Time Customer Data Platform中的計數是固定的，在下次發佈間隔之前不會變更。
+* **設定檔片段**：請注意，從Customer Journey Analytics匯入時，Real-Time Customer Data Platform中的現有設定檔可能不會貢獻新的設定檔計數。
+
+透過清楚區分這些方面，您就能在Customer Journey Analytics和Real-Time Customer Data Platform中更好地瞭解和管理受眾資料。
 
 ## 常見問題 {#faq}
 
