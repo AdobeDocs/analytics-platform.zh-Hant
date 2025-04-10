@@ -4,7 +4,7 @@ description: 了解篩選器的用途以及如何建立簡單篩選器。
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 5fbb228fc02304be2246f0b49cb49de7f160b227
+source-git-commit: 392ba2b9cfe090901c3dac12459f9bd8d51fdca7
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 8%
@@ -20,7 +20,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 - 屬性（瀏覽器型別、裝置、造訪次數、國家/地區、性別）、
 - 互動（促銷活動、關鍵字搜尋、搜尋引擎）、
-- 退出和登入點(來自Facebook、已定義的登陸頁面、反向連結網域、地理圍欄事件的人)，
+- 退出和登入點（來自Facebook、定義的登陸頁面、反向連結網域、地理圍欄事件的人），
 - 自訂變數（表單欄位、定義的類別、客戶ID）、
 - 和其他條件。
 
@@ -41,7 +41,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 - **元件**：決定篩選定義中要包含哪些元件，以及條件應該針對哪些值進行驗證。
 
-- **程式**：考慮您的篩選的核准程式。 Customer Journey Analytics中沒有核准工作流程，但您仍可組織流程以決定您是否核准篩選器。
+- **程式**：考慮您的篩選的核准程式。 Customer Journey Analytics中沒有核准工作流程，但您仍可組織流程以判斷您是否核准篩選器。
 
 - **模組化**：定義篩選器時考慮模組化。 因此，您篩選器的使用者可以輕鬆[棧疊篩選器](filter-builder.md#stack-filters)，以建立強大的新篩選器。
 
@@ -62,7 +62,7 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 
 >[!IMPORTANT]
 >
->您必須有&#x200B;**Select**&#x200B;封裝，才能建立跨管道循序篩選器。 如果您不確定您擁有哪個Customer Journey Analytics套件，請聯絡管理員。
+>您必須有&#x200B;**Select**&#x200B;封裝，才能建立跨管道循序篩選器。 如果您不確定擁有哪些Customer Journey Analytics套件，請聯絡管理員。
 
 循序篩選器可讓您根據導覽（整個網站的頁面檢視、與行動應用程式中場景的互動，或使用機上盒上的選單）識別資料（人員、工作階段、事件）。 循序篩選器可協助您識別（舉例來說）某人喜歡或避免什麼。 您可以使用Then邏輯運運算元來定義循序篩選器。 如需詳細資訊，請參閱[循序篩選器](seg-sequential-build.md)。
 

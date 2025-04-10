@@ -4,9 +4,9 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: d86396a5c02be682c784e0acd4387de3796bda96
+source-git-commit: 3c9827c4930568edb2022c699585f716a8ca72fe
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1988'
 ht-degree: 8%
 
 ---
@@ -192,9 +192,21 @@ Journey Canvas提供在Journey Optimizer中無法提供的深入徹底分析。
 
 ### Journey Optimizer和Journey Canvas之間的同步
 
-在Journey Canvas中建立Journey Optimizer歷程的分析後，資料只會以一個方向同步，從Journey Optimizer到Journey Canvas。 這表示對Journey Canvas中的歷程所做的變更絕不會反映在Journey Optimizer中。
+請考慮下列行為來瞭解Journey Optimizer與Journey Canvas之間的同步：
 
-此外，只有在歷程畫布](#differences-after-modifying-a-journey-in-journey-canvas)中未大幅修改歷程時，對Journey Optimizer中的歷程所做的變更才會同步至歷程畫布[。 在您修改Journey Canvas中的歷程後，您在Journey Optimizer中對歷程所做的任何變更都不會反映在Journey Canvas中。 若要檢視反映在歷程畫布中的變更，您可以在Journey畫布中刪除並重新建立歷程[](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+* **資料同步僅是單向的**
+
+  在Journey Canvas中建立Journey Optimizer歷程的分析後，資料只會以一個方向同步，從Journey Optimizer到Journey Canvas。 這表示對Journey Canvas中的歷程所做的變更絕不會反映在Journey Optimizer中。
+
+* **在Journey Canvas中修改歷程會停止同步**
+
+  只有在歷程畫布](#differences-after-modifying-a-journey-in-journey-canvas)中的歷程未遭大幅修改時，對Journey Optimizer中的歷程所做的變更才會同步至歷程畫布[。 在您修改Journey Canvas中的歷程後，您在Journey Optimizer中對歷程所做的任何變更都不會反映在Journey Canvas中。 若要檢視反映在歷程畫布中的變更，您可以在Journey畫布中刪除並重新建立歷程[](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+
+* **使用「與任何人共用」連結時，在Journey Optimizer中完成變更後，專案必須儲存在Customer Journey Analytics中**
+
+  使用「與任何人共用」連結時，在專案儲存在Journey Optimizer中之前，在Customer Journey Analytics中進行的變更不會反映在Journey Canvas中。
+
+  如需「與任何人共用」連結的詳細資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案（不再需要使用）](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)。
 
 ### 在歷程畫布中修改歷程後的差異 {#differences-after-modifying}
 
