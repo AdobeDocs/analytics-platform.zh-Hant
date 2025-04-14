@@ -7,9 +7,9 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: dff6355714f4e58917ccd995662e4fbae34ec69c
+source-git-commit: a9ad08ea053b1213ac98d3e77be3d4816c0999bf
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1878'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
    1. 選取您要為其提供[!UICONTROL AI助理存取權的產品設定檔標題：產品知識]。
    1. 在特定產品設定檔中，選取&#x200B;**[!UICONTROL 許可權]**。
    1. 選取![編輯](/help/assets/icons/Edit.svg)以編輯&#x200B;**[!UICONTROL 報告工具]**。
-   1. 選取![AddCircle](/help/assets/icons/AddCircle.svg)以新增&#x200B;**AI助理：資料視覺效果**&#x200B;至&#x200B;**[!UICONTROL 包含的許可權專案]**。
+   1. 選取![AddCircle](/help/assets/icons/AddCircle.svg)以新增&#x200B;**AI小幫手：產品知識**&#x200B;和&#x200B;**AI小幫手：資料分析**&#x200B;至&#x200B;**[!UICONTROL 包含的許可權專案]**。
 
       ![新增許可權](assets/ai-assistant-permissions.png)。
 
