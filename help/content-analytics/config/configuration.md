@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
+source-git-commit: 320b1cb94f63d0e6813999c1dc293b7e78ac7845
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Content Analytics的設定包含下列步驟：
 * 您擁有Customer Journey Analytics產品管理員角色，並具有管理連線和管理資料檢視的其他許可權。
 * 您必須擁有資料彙集](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}的[許可權。 這些許可權包含：
    * [Experience Platform許可權](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
-   * [Experience Platform資料彙集許可權](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank" }
+   * [Experience Platform資料彙集許可權](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
 * 您已仔細考量下列重要設定選項：
 
    * 您的網站適合體驗報告。 只有在符合下列條件時，才可能提供適當的體驗報表：
