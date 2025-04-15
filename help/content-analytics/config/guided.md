@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 6f077ada9df1604b86fde21aa6b11b12160aeaa7
+source-git-commit: 6e59b029542b7b4353f03b6dd083e25955aacc7b
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 24%
+source-wordcount: '2571'
+ht-degree: 21%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->您組織中的每個沙箱只能有一個內容分析設定。
+>組織中的每個沙盒只能有一個內容Analytics配置。
 
-若要存取Content Analytics設定
+若要存取內容Analytics設定
 
-* 從Customer Journey Analytics的主功能表選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL Content Analytics設定]**。
+* 從 **[!UICONTROL Customer Journey Analytics 的主功能表中選擇數據管理]** > **[!UICONTROL 內容Analytics配置]** 。
 
-在&#x200B;**[!UICONTROL Content Analytics設定]**&#x200B;畫面中，您會看到現有Content Analytics設定的表格。
+在「 **[!UICONTROL 內容Analytics設定」]** 畫面中，您會看到現有「內容Analytics設定」的表格。
 
-![內容分析設定](../assets/aca-configuration-table.png)
-對於每個設定，都提供下列詳細資訊：
+![內容Analytics設定](../assets/aca-configuration-table.png)
+對於每個配置，都有以下詳細資訊：
 
 | 欄 | 說明 |
 |---|---|
@@ -99,18 +99,18 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
->title="新資料視圖"
+>title="新資料檢視"
 >abstract="選取新的資料視圖會導致更新該資料視圖，以包括 Content Analytics 量度和維度。若有必要，相關連線也會更新並包括 Content Analytics 資料集。目前已針對 Content Analytics 進行設定的連線和資料視圖並未修改。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_current_cleanup_labels_dialog"
->title="清除選取的資料視圖"
->abstract="您已選取 Content Analytics 佈建完成的資料視圖。現有的 Content Analytics 設定已移除，並且資料視圖會使用新設定進行佈建。"
+>title="清除所選的資料檢視"
+>abstract="您已選取已針對Content Analytics布建的資料檢視。 該現有Content Analytics設定會被移除，且資料檢視會布建為您的新設定。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_prev_cleanup_labels_dialog"
->title="清除先前的資料視圖"
->abstract="您已選取一個新的資料視圖。先前選取的資料視圖的 Content Analytics 設定已移除。"
+>title="清除先前的資料檢視"
+>abstract="您已選取一個新的資料視圖。先前選取資料檢視的Content Analytics設定已移除。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -118,22 +118,22 @@ ht-degree: 24%
 
 1. 選取資料檢視
 
-   * 若要為組態選取新的資料檢視，請使用![資料](/help/assets/icons/Data.svg) **[!UICONTROL 選取資料檢視]**。
+   * 若要選取組態的新資料檢視，請使用![資料](/help/assets/icons/Data.svg) **[!UICONTROL 選取資料檢視]**。
 
-     ![資料檢視的內容分析設定](../assets/aca-configuration-dataview.png)
+     資料檢視的![Content Analytics設定](../assets/aca-configuration-dataview.png)
 
-   * 若要修改組態的資料檢視，請選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
+   * 要修改配置的數據視圖，請選擇![編輯](/help/assets/icons/Edit.svg)**[!UICONTROL 編輯]**。
 
-     ![資料檢視的內容分析設定](../assets/aca-configuration-dataview-edit.png)
+     ![數據視圖的內容Analytics設定](../assets/aca-configuration-dataview-edit.png)
 
 
-   在這兩種情況下，您會看到&#x200B;**[!UICONTROL 資料檢視]**&#x200B;對話方塊，您可以在此選取您設定的資料檢視。
+   在這兩種情況下，您都會看到“ **[!UICONTROL 數據視圖]** ”對話框，您可以在其中為配置選擇數據視圖。
 
-   資料檢視的![Content Analytics設定 — 資料檢視表](../assets/aca-configuration-dataview-dialog.png)
+   ![數據視圖的內容Analytics設定 - 数据檢視表](../assets/aca-configuration-dataview-dialog.png)
 
-   對於新設定，清單僅顯示與沒有作用中設定的沙箱關聯的資料檢視。 此外，您只會看到與您可存取的沙箱關聯的資料檢視，以及您有權修改的連線。
+   對於新配置，清單僅顯示與沒有活動配置的沙盒關聯的數據視圖。 此外，您只會看到與您可存取的沙箱關聯的資料檢視，以及您有權修改的連線。
 
-   如果您編輯現有設定，清單只會顯示沙箱中現有的資料檢視（已與現有設定關聯）。
+   如果您編輯現有設定，清單只會顯示沙箱中可用的資料檢視，而這些沙箱已與現有設定關聯。
 
    您可以執行下列動作：
 
@@ -145,7 +145,7 @@ ht-degree: 24%
 1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認選取的資料檢視。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消。
 
 
-在Customer Journey Analytics中，資料檢視已繫結至Customer Journey Analytics [連線](/help/connections/overview.md)。 而連線是以您組織內的沙箱為基礎。 儲存設定後，**[!UICONTROL 沙箱]**&#x200B;會根據選取的資料檢視，自動填入沙箱的名稱。
+在Customer Journey Analytics中，[資料檢視](/help/data-views/data-views.md)已繫結至Customer Journey Analytics [連線](/help/connections/overview.md)。 而且連線是以您組織內的沙箱為基礎。 儲存設定後，**[!UICONTROL 沙箱]**&#x200B;會根據選取的資料檢視，自動填入沙箱的名稱。
 
 
 ### 經驗擷取與定義 {#onboarding-experiences}
@@ -155,12 +155,12 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_button"
 >title="經驗擷取與定義"
->abstract="您可以選取在使用 Content Analytics 收集的資料中包含體驗。選取時，您必須定義一個或多個正則表達式和查詢參數的組合，以定義您想要包含的體驗 URL。"
+>abstract="您可以選擇將體驗包含在您透過Content Analytics收集的資料中。 選取時，您必須定義一個或多個正則表達式和查詢參數的組合，以定義您想要包含的體驗 URL。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_header"
 >title="經驗擷取與定義"
->abstract="收集 Content Analytics 中的體驗"
+>abstract="在內容分析中收集體驗"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_parameters_header"
@@ -168,13 +168,23 @@ ht-degree: 24%
 >abstract="指定用於判斷內容在網站上如何轉譯的參數。"
 
 >[!CONTEXTUALHELP]
+>id="aca_onboarding_experiencecapture_new_include_experiences"
+>title="經驗擷取與定義"
+>abstract="啟用後，系統會收集體驗資料、產生體驗屬性，並提供體驗報表。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_experiencecapture_edit_include_experiences"
+>title="經驗擷取與定義"
+>abstract="啟用後，系統會收集體驗資料、產生體驗屬性，並提供體驗報表。 <br><br/>使用![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 編輯]**&#x200B;修改與目前組態關聯之Tags屬性中體驗的資料收集組態。"
+
+>[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
 >title="經驗擷取與定義"
->abstract="您可以在標記屬性編輯與目前設定相關的 Adobe Content Analytics 擴充功能設定。"
+>abstract="您必須在與目前設定相關聯的Tags屬性中，編輯Adobe Content Analytics擴充功能中體驗資料收集的設定。"
 
 <!-- markdownlint-enable MD034 -->
 
-在此區段中，您可以選取將體驗包含在透過Content Analytics收集的資料中。  體驗是指網頁上的所有文字，這些文字都可以使用造訪該網頁的初始使用者所使用的URL來重現。
+在此區段中，您可以選取將體驗包含在您透過Content Analytics收集的資料中。  體驗是指網頁上的所有文字，這些文字都可以使用造訪該網頁的初始使用者所使用的URL來重現。
 
 依預設，**[!UICONTROL 包含體驗]**&#x200B;已關閉。 選取後，您必須定義要包含體驗的URL。
 
@@ -183,7 +193,7 @@ ht-degree: 24%
 * 網站上的頁面必須使用頁面URL可複製。
 * 任何指定使用者看到的文字內容都可以使用頁面URL重現，而不取決於Cookie或其他個人化機制。
 
-若要在新的或未實施的設定中包含體驗：
+若要將體驗納入新的或未實施的設定：
 
 ![Content Analytics組態體驗擷取與定義](../assets/aca-configuration-experience.png)
 
@@ -199,11 +209,14 @@ ht-degree: 24%
 1. 如果要移除網域規則運算式和查詢引數的組合，請選取&#x200B;**[!UICONTROL 移除]**。
 1. 如果要新增其他規則運算式和查詢參陣列合，請選取&#x200B;**[!UICONTROL 新增Regex]**。
 
-若要編輯已實作組態中的現有體驗或包含新體驗：
+若要在實作組態中編輯現有體驗或包含新體驗：
 
 ![Content Analytics組態體驗擷取與定義](../assets/aca-configuration-experience-edit.png)
 
-* 切換&#x200B;**[!UICONTROL 包含體驗]**，以啟用或停用Analysis Workspace中體驗元件、視覺效果、面板和範本的可用性。
+* 切換&#x200B;**[!UICONTROL 包含體驗]**&#x200B;以啟用或停用：
+
+   * 從Content Analytics事件資料產生體驗屬性的程式
+   * Customer Journey Analytics中的報表範本。
 
 * 選取「![編輯](/help/assets/icons/Edit.svg)」**[!UICONTROL 「編輯]**」以進一步編輯Content Analytics中體驗的資料收集組態。 系統會將您重新導向至與目前設定相關聯之Tags屬性中的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)。
 
@@ -263,11 +276,11 @@ ht-degree: 24%
 
 #### 新設定 {#new-configuration}
 
-在新設定中，您需要定義您是要使用現有的標籤屬性還是建立新的標籤屬性。 而且您需要使用規則運算式定義要包含或排除的頁面和資產。
+在新配置中，您需要定義是要使用現有標記屬性還是創建新的標記屬性。 並且您需要使用正則表達式定義要包含或排除的页面和資產。
 
-* 若要使用現有的Tags屬性：
+* 若要使用現有標記屬性：
 
-  ![Content Analytics資料收集現有標籤](../assets/aca-configuration-datacollection-existingtag.png)
+  ![內容 Analytics 資料收集 現有標記](../assets/aca-configuration-datacollection-existingtag.png)
 
    1. 選取&#x200B;**[!UICONTROL 選擇現有的]**。
    2. 從&#x200B;**[!UICONTROL 標籤屬性]**&#x200B;下拉式功能表中選取現有屬性。 您可以開始輸入以搜尋並限制可用選項。 您無法選取已由其他實作Content Analytics設定使用的Tags屬性。
@@ -291,7 +304,7 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->如果您有使用Javascript且不使用標籤的現有Web SDK實作，您必須從新建立的標籤屬性中手動移除自動包含的網站SDK擴充功能。
+>如果您有使用[Javascript資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library)的現有Web SDK實作，而且沒有使用[標籤擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)，則必須從新建立的Tags屬性中手動移除自動包含的Web SDK擴充功能。
 
 
 
@@ -328,11 +341,11 @@ ht-degree: 24%
 
 * **[!UICONTROL 捨棄]**：會捨棄所有在設定中所做的變更。
 * **[!UICONTROL 儲存以供稍後使用]**：已儲存對組態所做的變更。 您可在稍後階段重新造訪設定，以進一步變更或實施設定。 儲存組態只需要有[!UICONTROL Name]的值。
-* **[!UICONTROL 實作]**：已儲存並實作組態的設定或變更。 所有標示為![必要](/help/assets/icons/Required.svg)的欄位都必須有適當的值。 實施包含：
+* **[!UICONTROL 實作]**：儲存並實作設定或對設定所做的變更。 所有標示為![必要](/help/assets/icons/Required.svg)的欄位都必須有適當的值。 實施包括：
 
-   * **[!UICONTROL Customer Journey Analytics]**&#x200B;設定：
-      * 選取的資料檢視已更新，其中包含Content Analytics維度和量度。
-      * 繫結至所選資料檢視的連線已修改，以包含Content Analytics事件和屬性資料集。
+   * **** Customer Journey Analytics設定：
+      * 所選数据視圖會更新為包含內容Analytics維度和量度。
+      * 將修改綁定到所選數據視圖的連接，以包括內容Analytics事件和屬性數據集。
       * 「內容分析」報告範本已新增至Workspace。
 
 
@@ -350,13 +363,13 @@ ht-degree: 24%
       * 如果針對此標籤屬性設定了網頁SDK，則不會對現有的網頁SDK設定進行任何變更。
 
 
-* **[!UICONTROL 儲存]**：對實作組態所做的變更已儲存，且實作已更新。
-* **[!UICONTROL 結束]**。 退出引導式設定。 會捨棄對實作組態所做的所有變更。
+* **[!UICONTROL 儲存]**：保存對已實施配置所做的更改並更新實施。
+* **[!UICONTROL 退出]**。 退出引導式配置。 對已實施的配置所做的所有更改都將被丟棄。
 
 
 ## 發佈 {#publish}
 
-若要開始收集您Content Analytics設定的資料，您需要[手動](manual.md)發佈在您選取&#x200B;**[!UICONTROL 實作]**&#x200B;之後建立的Tags屬性。
+若要開始為內容Analytics配置收集數據，需要[手動](manual.md)發佈選擇“實施”****&#x200B;後創建的“標記”屬性。
 
 
 >[!MORELIKETHIS]
