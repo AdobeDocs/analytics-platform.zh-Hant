@@ -5,8 +5,8 @@ feature: Workspace Basics
 title: 如何使用 Workspace 快捷鍵
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: a757ea4fc9bf8b13a8ce3001cf8639245d213e1c
-workflow-type: ht
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、�
 | 建立警報 | **[!UICONTROL *Cmd+Shift+A *]** | **[!UICONTROL *Ctrl+Shift+A *]** |
 | 建立計算量度 | **[!UICONTROL *Cmd+Shift+C *]** | **[!UICONTROL *Ctrl+Shift+C *]** |
 | 建立日期範圍 | **[!UICONTROL *Cmd+Shift+D *]** | **[!UICONTROL *Ctrl+Shift+D *]** |
-| 建立篩選器 | **[!UICONTROL *Cmd+Shift+E *]** | **[!UICONTROL *Ctrl+Shift+E *]** |
+| 建立區段 | **[!UICONTROL *Cmd+Shift+E *]** | **[!UICONTROL *Ctrl+Shift+E *]** |
 | 全部清除 | **[!UICONTROL *Alt+W *]** | **[!UICONTROL *Opt+W *]** |
 | 複製 | **[!UICONTROL *Cmd+C *]** | **[!UICONTROL *Ctrl+C *]** |
 | 重做 | **[!UICONTROL *Cmd+Shift+Z *]** | **[!UICONTROL *Ctrl+Shift+Z *]** |

@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 827ab36b27eee1b0af46ff1c653f13b1accfe105
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '3632'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -166,8 +166,8 @@ ht-degree: 100%
 | | 統一日期 | 選取此選項，讓每一欄的日期與同一列中所有開始日期一致。 |
 | **[欄](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
 | | 繞排標題文字 | 讓您自由格式表格中的標頭文字環繞，讓標頭變得更容易閱讀，表格也更便於分享。這項設定對 PDF 的轉譯還有較長名稱的量度來說，非常實用。預設啟用。 |
-| | 顯示總計 | 此總計通常等於[!UICONTROL 全部總量]或其一個小計。它反映的是在自由格式表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。 |
-| | 顯示總計 | 這個總計代表已收集的所有事件，有時候是指「資料視圖總計」。在面板層級或自由格式表格中套用篩選器時，這個總計會進行調整，以反映出符合篩選條件的所有事件。具[靜態列](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總計。 |
+| | 顯示總計 | 此總計通常等於[!UICONTROL 全部總量]或其一個小計。它反映的是在自由表格中套用的任何表格區段，包括[!UICONTROL 不包含任何專案]選項。 |
+| | 顯示總計 | 這個總計代表已收集的所有事件，有時候是指「資料視圖總計」。在面板層級或自由表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的事件。 具[靜態列](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總計。 |
 | | 顯示走勢圖 | 顯示或隱藏圖表底部的折線圖。隱藏時，圖例會變更為不再以視覺化方式參照線條。 |
 | | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果量度為「頁面檢視」，則該數值為列項目的頁面檢視數量。 |
 | | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。例如，如果量度為「頁面檢視」，則該百分比數值為欄頁面檢視總數除以列項目的頁面檢視次數。附註：為了比例更精確，我們可以顯示超過 100% 的數值。我們也將上限提高為 1000%，以確保欄位的寬度夠大。 |

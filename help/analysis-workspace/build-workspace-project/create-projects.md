@@ -4,10 +4,10 @@ title: 建立專案
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
    * **[!DNL Store Country]** [維度](/help/components/dimensions/overview.md)➍
    * **[!DNL People]** [量度](/help/components/apply-create-metrics.md)➎
    * **[!DNL Avg Order Value]** [計算量度](/help/components/calc-metrics/calc-metr-overview.md)➏
-   * **[!DNL Mobile App Sessions]** [篩選器](/help/components/filters/filters-overview.md)➐
+   * **[!DNL Mobile App Sessions]** [區段](/help/components/filters/filters-overview.md)➐
    * **[!DNL Last Month]** [日期範圍](/help/components/date-ranges/overview.md)➑
    * **[!DNL Example]** [註解](/help/components/annotations/overview.md)➒
 

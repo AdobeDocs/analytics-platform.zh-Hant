@@ -7,10 +7,10 @@ feature: AI Tools
 hidefromtoc: true
 hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: a9ad08ea053b1213ac98d3e77be3d4816c0999bf
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '1878'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 | **建置和更新視覺效果** | 產生自由表格和相關聯的視覺效果（例如線條、長條圖、環形圖等）。<p>範例： *從2月到5月，SKU的利潤是多少？* |
 | **支援的視覺效果型別** | <ul><li>折線圖</li><li>多行</li><li>自由表格</li><li>長條圖</li><li>環形圖</li><li>摘要數字</li></ul> |
 | **範圍外提示偵測** | 如果您提交超出範圍的提示（例如「匯出此專案」），資料分析代理程式會回應，讓您知道問題超出範圍。 |
-| **澄清問題** | 如果您提出的問題，沒有足夠內容讓資料分析代理程式回答，或問題過於一般，資料分析代理程式會以澄清問題或建議的選項回應。 範例： <p>**元件**<ul><li>量度： *您指的是哪個「收入」量度？*</li><li>Dimension： *您想要著重下列哪個「地區」？*</li><li>篩選器： *您要套用哪個「帳戶」篩選器？*</li><li>日期範圍： *以「上個月」表示，您是指「上個月」還是「過去30天」？*</li></ul>**Dimension專案**：您指的是哪個「商店名稱」？ (例如，商店#5274、商店#2949等)。 |
+| **澄清問題** | 如果您提出的問題，沒有足夠內容讓資料分析代理程式回答，或問題過於一般，資料分析代理程式會以澄清問題或建議的選項回應。 範例： <p>**元件**<ul><li>量度： *您指的是哪個「收入」量度？*</li><li>Dimension： *您想要著重下列哪個「地區」？*</li><li>篩選器： *您要套用哪個「帳戶」區段？*</li><li>日期範圍： *以「上個月」表示，您是指「上個月」還是「過去30天」？*</li></ul>**Dimension專案**：您指的是哪個「商店名稱」？ (例如，商店#5274、商店#2949等)。 |
 | **多圈** | 資料前瞻分析代理程式會使用任何先前提示的內容來回應提示，讓使用者可以更新視覺效果並詢問後續問題。 範例: <ul><li>提示1： *自3月*&#x200B;起的趨勢事件</li><li>提示2： *改為顯示三月到四月的資料*</li></ul> |
 | **可驗證性** | 可透過產生的自由表格和資料視覺效果確認資料可驗證性和正確性。 例如，如果使用者詢問&#x200B;*上個月*&#x200B;的趨勢訂單，您可以確認在新產生的面板、資料視覺效果和自由表格中選取了正確的量度（「訂單」）和日期範圍（「上個月」）。 |
 | **意見反應** | <ul><li>豎起大拇指</li><li>向下拇指</li><li>標幟</li></ul> |
@@ -53,18 +53,18 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 
 * **合約存取**：如果您無法在AI助理中使用資料深入分析代理程式，請聯絡您組織的管理員或Adobe客戶代表。 您必須同意特定GenAI相關法律條款，組織才能使用資料分析代理程式。
 
-* **許可權**：在[!UICONTROL Adobe Admin Console]中，[!UICONTROL 報告工具] **[!UICONTROL AI Assistant：資料視覺效果]**&#x200B;許可權決定此工具的存取權。 [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)需要在[!UICONTROL Admin Console]中遵循這些步驟：
+* **許可權**：在[!UICONTROL Adobe Admin Console]中，[!UICONTROL 報告工具] **[!UICONTROL AI Assistant：資料視覺效果]**&#x200B;許可權決定此工具的存取權。  [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)需要遵守 [!UICONTROL Admin Console]中的以下步驟：
    1. 導覽至&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 產品及服務]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 產品設定檔]**
    1. 選取您要為其提供[!UICONTROL AI助理存取權的產品設定檔標題：產品知識]。
-   1. 在特定產品設定檔中，選取&#x200B;**[!UICONTROL 許可權]**。
-   1. 選取![編輯](/help/assets/icons/Edit.svg)以編輯&#x200B;**[!UICONTROL 報告工具]**。
+   1. 在特定的產品設定檔中，選取「**[!UICONTROL 權限]**」。
+   1. 選取「![編輯](/help/assets/icons/Edit.svg)」，可編輯「**[!UICONTROL 報告工具]**」。
    1. 選取![AddCircle](/help/assets/icons/AddCircle.svg)以新增&#x200B;**AI小幫手：產品知識**&#x200B;和&#x200B;**AI小幫手：資料分析**&#x200B;至&#x200B;**[!UICONTROL 包含的許可權專案]**。
 
       ![新增許可權](assets/ai-assistant-permissions.png)。
 
-   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存許可權。
+   1. 選取「**[!UICONTROL 儲存]**」以儲存權限。
 
-如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md#access-control)。
+請參閱[存取控制概觀](/help/technotes/access-control.md#access-control)，了解更多資訊。
 
 ## 存取AI助理中的資料深入分析代理程式
 
@@ -167,7 +167,7 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 
 * 明確：包含確切的辭彙以縮小回應。 以下為特定提示的範例：「上個月的加州銷售額」
 
-* 使用清除的量度和篩選器：新增特定量度（例如「收入」）、維度（例如「網站名稱」）、篩選器(例如「iPhone使用者」)和日期範圍（例如「過去三個月」），有助於資料深入分析代理程式聚焦於正確的資料。
+* 使用清楚的量度和區段：新增特定量度（例如「收入」）、維度（例如「網站名稱」）、區段(例如「iPhone使用者」)和日期範圍（例如「過去三個月」），有助於Data Insights Agent聚焦於正確的資料。
 
 * 提出直接問題：直接措辭化問題可讓資料見解代理程式更輕鬆地提供清晰、相關的見解。 以下是在提示中詢問直接問題的範例：「今年按產品類別的平均收入是多少？」
 
@@ -193,7 +193,7 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 
 * 視覺效果/圖表：評估視覺效果。 這是您問題的適當或預期的視覺效果，還是您預期不同的視覺效果？
 
-* 自由表格：評估自由表格。 自由格式表格資料正確嗎？ 它是否在請求時劃分資料？ 套用的篩選器是您要求還是預期的篩選器？
+* 自由表格：評估自由表格。 自由格式表格資料正確嗎？ 它是否在請求時劃分資料？ 套用的區段是否為您要求或預期的區段？
 
 * 錯誤訊息/超出範圍：如果提供了一般錯誤訊息，指出問題超出範圍，請提供回饋意見，說明在提供提示的情況下，您是否認為超出範圍的訊息適當。 您的提示是否確實在範圍中？
 

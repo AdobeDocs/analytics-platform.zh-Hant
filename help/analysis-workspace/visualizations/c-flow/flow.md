@@ -1,13 +1,13 @@
 ---
-description: 瞭解流量功能，此功能可顯示客戶使用您網站和應用程式的路徑。
+description: 了解關於通過您網站和應用程式顯示客戶路徑的流量功能。
 title: 流量概觀
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 36%
+ht-degree: 96%
 
 ---
 
@@ -30,30 +30,30 @@ ht-degree: 36%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中的流量視覺效果。_<br/>_檢視此文章的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本的[流量](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的流量圖視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[流量](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)_。_
 
 >[!ENDSHADEBOX]
 
 
-![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 流量]**&#x200B;視覺效果可顯示客戶使用您網站和應用程式的路徑。
+![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 流量]**&#x200B;視覺效果會顯示通過您網站和應用程式的客戶路徑。
 
-您可以使用視覺效果來：
+透過視覺效果可以：
 
-* 將客戶在您網站或應用程式中的歷程視覺化。
-* 分析客戶在所指定查核點（例如登入、特定維度或退出）之前和之後的前往位置。
-* 指定所選路徑中的特定點，以建立篩選器。
+* 將透過您網站或應用程式的客戶歷程以視覺效果呈現。
+* 分析客戶在所指定查核點 (例如登入、特定維度或退出) 之前和之後的前往位置。
+* 指定所選路徑中的特定點，以建立區段。
 
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立流量視覺效果](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"}以取得示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立流量視覺效果](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"}的示範影片。
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-## 維度間流程
+## 維度間流量
 
 您可以顯示[維度之間的流量](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在此例中，您的流量可能來自首頁、前往「男性」頁面，接著前往「鞋子」部門。
 
@@ -64,11 +64,11 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 >[設定流量視覺效果](/help/analysis-workspace/visualizations/c-flow/create-flow.md)。
 >
 
-## 在「流量」、「流失」或「歷程畫布」視覺效果之間選擇
+## 在流量、流失或歷程畫布之間作選擇
 
-流量視覺效果與[流失視覺效果](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)和[歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)有共同之處，但有重要的差異。
+流量視覺效果與[流失視覺效果](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)和[歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)有相似之處，但也有重要的差異。
 
-### 瞭解差異
+### 了解差異性
 
 <!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
 
@@ -76,10 +76,10 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 ### 何時使用流量
 
-流量視覺效果最適合用於：
+流量視覺效果適合：
 
-* 探索性的Ad Hoc Analysis，用於路徑上的下一個直接接觸點。 （對於具有預先定義的頁面順序或使用最終路徑的歷程，請使用歷程畫布。）
+* 對路徑的下一個接觸點進行探索性的臨機分析。(使用歷程畫布來記錄有預先定義的頁面序列的歷程，或用來記錄使用最終路徑的歷程。)
 
-* 具有多個入口點和路徑的非線性歷程。 （對於具有預先定義之頁面順序的歷程，請使用歷程畫布。）
+* 具有多個入口點和路徑的非線性歷程。(使用歷程畫布來記錄具有預先定義頁面序列的歷程。)
 
-使用[上表](#understand-the-differences)瞭解流量、流失和歷程畫布之間的差異。
+使用[上面表格](#understand-the-differences)來了解流量、流失和流量和歷程畫布之間的差異。

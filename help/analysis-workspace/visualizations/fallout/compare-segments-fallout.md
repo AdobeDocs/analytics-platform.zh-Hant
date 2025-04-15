@@ -1,20 +1,20 @@
 ---
-description: 您可以從接觸點建立篩選器，將篩選器新增為接觸點，並在 Analysis Workspace 中比較各種篩選器之間的關鍵工作流程。
-keywords: 流失和篩選器;流失分析中的篩選器;比較流失中的篩選器
-title: 在流失分析中套用篩選
+description: 您可以從接觸點建立區段、新增區段作為接觸點，以及在 Analysis Workspace 的各種區段間比較關鍵工作流程。
+keywords: 流失和區段；流失分析中的區段；比較流失中的區段
+title: 在流失分析中套用區段
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 43%
+ht-degree: 36%
 
 ---
 
-# 在流失分析中套用篩選
+# 在流失分析中套用區段
 
-您可以從接觸點建立篩選器，將篩選器新增為接觸點，並在 Analysis Workspace 中比較各種篩選器之間的關鍵工作流程。
+您可以從接觸點建立區段、新增篩選器作為接觸點，以及在Analysis Workspace中比較各種篩選器之間的關鍵工作流程。
 
 >[!IMPORTANT]
 >

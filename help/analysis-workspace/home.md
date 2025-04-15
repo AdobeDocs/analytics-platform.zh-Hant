@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 261d4b5e18531f7971a894bc4cd571b764c625f1
+source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -106,7 +106,7 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 
 | **[!UICONTROL 元件]** | Mac 快速鍵  | Windows 快速鍵 | 說明 |
 |---|---|---|---|
-| **[!UICONTROL 建立篩選器...]** | **[!UICONTROL *Shift+Cmd+E *]** | **[!UICONTROL *Shift+Ctrl+ E *]** | 建立新的[篩選器](/help/components/filters/create-filters.md)。 |
+| **[!UICONTROL 建立區段……]** | **[!UICONTROL *Shift+Cmd+E *]** | **[!UICONTROL *Shift+Ctrl+ E *]** | 建立新的[區段](/help/components/filters/create-filters.md)。 |
 | **[!UICONTROL 建立量度...]** | **[!UICONTROL *Shift+Cmd+C *]** | **[!UICONTROL *Shift+Ctrl+C *]** | 建立新的[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 |
 | **[!UICONTROL 建立日期範圍...]** | **[!UICONTROL *Shift+Cmd+D *]** | **[!UICONTROL *Shift+Ctrl+D *]** | 建立新的[日期範圍](/help/components/date-ranges/overview.md)。 |
 | **[!UICONTROL 建立註解…]** | **[!UICONTROL *Shift+Cmd+O *]** | **[!UICONTROL *Shift+Ctrl+O *]** | 建立新的[註解](/help/components/annotations/overview.md) |

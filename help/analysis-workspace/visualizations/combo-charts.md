@@ -1,13 +1,13 @@
 ---
-description: 在Analysis Workspace中輕鬆地將比較資料視覺化，例如建置和上個月、去年等的比較資料。
+description: 可在 Analysis Workspace 中輕鬆地為比較資料進行視覺效果，例如建立與上個月、去年等的比較資料。
 title: 組合圖表視覺效果
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: acb4d9269d604857eaef80466d6f7b9b46d53c26
+source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 44%
+ht-degree: 98%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 44%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._中記錄組合視覺效果
+_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的組合圖視覺效果。_
 
-_檢視此文章的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本的[組合](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)。_
+_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本的[組合圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)。_
 
 >[!ENDSHADEBOX]
 
 
-![組合圖表](/help/assets/icons/ComboChart.svg) **[!UICONTROL 組合圖表]**&#x200B;視覺效果可讓您快速建立比較視覺效果，而不需要先建立表格。 您可以透過線條/條形組合，輕鬆檢視資料中的趨勢。
+![組合圖表](/help/assets/icons/ComboChart.svg)**[!UICONTROL 組合]**&#x200B;視覺化讓您可輕鬆快速地建置比較視覺化，而無需先建置表格。您可以輕鬆地以折線/條形組合的形式檢視資料趨勢。
 
-使用[!UICONTROL 組合]來：
+使用[!UICONTROL 組合]進行：
 
-* 將本週的訂單與上個月（以及去年）同時間的訂單進行比較。
-* 在相同圖表上快速分析和比較多個量度（例如[!UICONTROL 人員]和[!UICONTROL 收入]）。
+* 比較本週的訂單與上個月 (以及去年) 同時間的訂單。
+* 在相同圖表上快速逐一分析和比較多項量度 (例如[!UICONTROL 人員]和[!UICONTROL 收入])。
 * 根據一段時間範圍內的函數，分析量度 (例如[!UICONTROL 累積平均值])。
 
 請記住以下事項：
@@ -45,42 +45,42 @@ _檢視此文章的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _*
 * 您可在單一[!UICONTROL 組合圖表]中新增多筆比較資料。
 * 如果您新增一筆或更多比較資料，這些資料必須是相同類型，例如[!UICONTROL 時間比較]。
 * 您最多只能新增 5 筆比較資料。
-* 一個量度最多可以套用3個篩選器。
+* 一個量度最多可以套用3個區段。
 * 組合圖表中不支援計算量度。
 
 ## 使用
 
-1. 新增![註解](/help/assets/icons/ComboChart.svg) [!UICONTROL 組合]視覺效果。 請參閱[將視覺效果新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+1. 新增![評論](/help/assets/icons/ComboChart.svg)[!UICONTROL 組合]視覺化。請參閱「[將視覺化新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」
 
 1. 從下拉式清單，選取 X 軸的維度和 Y 軸的量度。
 
-1. 選取您要使用的[!UICONTROL 折線比較]型別。
+1. 選取您要使用的[!UICONTROL 折線比較]類型。
 
    | 折線比較類型 | 定義 |
    | --- | --- |
-   | **[!UICONTROL 時間比較]** | 最常見的比較類型 - 例如，將此時段與 4 週前進行比較。如果您已選取[!UICONTROL 時間比較]，請針對您要比較的時段進行次要比較。<p>![已選取時間週期與時間週期的次要選取欄位比較。](assets/combo-time-period.png) |
-   | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。檢視[支援函式](#supported-functions)的清單。<p>![LIne比較下拉式功能表，顯示選取的函式以及可用的支援函式清單。](assets/combo-functions.png) |
+   | **[!UICONTROL 時間比較]** | 最常見的比較類型 - 例如，將此時段與 4 週前進行比較。如果您已選取[!UICONTROL 時間比較]，請針對您要比較的時段進行次要比較。<p>![與所選時段以及時段的次要選取欄位進行折線比較。](assets/combo-time-period.png) |
+   | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。請參閱[支援的函數](#supported-functions)清單。<p>![顯示所選函數以及可用的支援功能清單的折線比較下拉式選單。](assets/combo-functions.png) |
    | **[!UICONTROL 次要量度]** | 例如，您可以將[!UICONTROL 收入]與另一個量度比較。<p>![比較兩個量度的組合圖表。](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}
 
-1. 選取「**[!UICONTROL 建立]**」。
+1. 選取「**[!UICONTROL 建置]**」。
 
-   輸出內容類似於：
+   輸出看起來會類似下列所示：
 
-   ![組合圖表，在長條圖中顯示目前期間，在折線圖](assets/combo-output.png)中顯示比較期間
+   ![組合圖表以長條圖顯示目前期間，以折線圖顯示比較期間 ](assets/combo-output.png)
 
-   目前期間會顯示在長條圖中。 折線圖代表比較期間。 折線圖上的點稱為&#x200B;*槓鈴*。
+   目前期間顯示在長條圖中。折線圖會表示比較期間。折線圖上的圓點稱為&#x200B;*槓鈴*。
 
 ## 支援的函數
 
-若您選取&#x200B;**[!UICONTROL 函式]**&#x200B;作為[!UICONTROL 折線比較型別]，則會傳回所選量度的函式。
+如果您選取&#x200B;**[!UICONTROL 函數]**&#x200B;作為[!UICONTROL 折線比較類型]，則會傳回您已選擇的量度函數。
 
 | 函數 | 定義 |
 | --- | --- |
-| **[!UICONTROL 欄總和]** | 將某一欄中量度的所有數值相加（涵蓋維度的各個元素） |
-| **[!UICONTROL 累積平均值]** | 傳回最後N列的平均值。 |
-| **[!UICONTROL 中位數]** | 傳回一欄中量度的中位數。中位數是一組數字中位於中間的數字。一半數字的值大於或等於中位數，另一半數字的值小於或等於中位數。 |
+| **[!UICONTROL 欄總和]** | 將欄中量度的所有數值 (涵蓋維度的所有元素) 相加。 |
+| **[!UICONTROL 累積平均值]** | 傳回最後 N 列的平均值。 |
+| **[!UICONTROL 中位數]** | 傳回欄中量度的中位數。中位數是一組數字中位於中間的數字。一半數字的值大於或等於中位數，另一半數字的值則小於或等於中位數。 |
 | **[!UICONTROL 累積]** | N 列的累積總和。 |
 | **[!UICONTROL 欄最大值]** | 傳回量度欄中一組維度元素的最大值。 |
 | **[!UICONTROL 平均值]** | 傳回量度的算術平均值或平均值。 |
@@ -94,11 +94,11 @@ _檢視此文章的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _*
 
 以下為累積平均值和平均值函數的組合圖表範例：
 
-![同時顯示累積平均和平均函式的組合圖表。](assets/combo-three-functions.png)
+![顯示累積平均值和平均值函數的組合圖表。](assets/combo-three-functions.png)
 
 >[!MORELIKETHIS]
 >
->[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
