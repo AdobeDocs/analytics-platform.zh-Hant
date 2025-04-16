@@ -4,10 +4,10 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: dab355e2934689afc06b9228ac5caf357b4ae4e6
+source-git-commit: 1f21bec36f4c7d30940ed4bb95b097665a45b8ad
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 18%
+source-wordcount: '2320'
+ht-degree: 83%
 
 ---
 
@@ -61,202 +61,203 @@ ht-degree: 18%
 
 
 
-本主題說明如何將在Customer Journey Analytics中發現的對象建立並發佈到Adobe Experience Platform中的[即時客戶個人檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/home)，以用於客戶目標定位和個人化。
+本主題說明如何將在 Customer Journey Analytics 中發現的客群建立並發佈到 Adobe Experience Platform 中的[即時客戶輪廓](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/home)，以用於客戶目標選擇和個人化。
 
-請閱讀此[總覽](/help/components/audiences/audiences-overview.md)，熟悉Customer Journey Analytics對象的概念。
+請閱讀此[總覽](/help/components/audiences/audiences-overview.md)，熟悉 Customer Journey Analytics 對象的概念。
 
-## 建立及發佈對象 {#create}
+## 建立及發佈客群 {#create}
 
-1. 若要建立並發佈對象，請執行下列任一項作業：
+1. 若要建立並發佈客群，請執行以下操作之一：
 
    | 建立方法 | 詳細資料 |
    | --- | --- |
-   | 從&#x200B;**[!UICONTROL 對象]**&#x200B;介面中 | 從Customer Journey Analytics主功能表選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 對象]**。 Audiences介面隨即顯示。 選取「**[!UICONTROL 建立對象]**」，[!UICONTROL 對象產生器]隨即開啟。 |
-   | 從Analysis Workspace中的視覺效果 | Analysis Workspace中的許多視覺效果都可讓您使用內容功能表建立對象。 例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)中專案的內容功能表或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)中的節點選取&#x200B;**[!UICONTROL 建立對象]**。<p>使用此方法時，會使用您選取的維度或維度專案預先填入對象產生器中的篩選器。</p><p>下列視覺效果可讓您使用滑鼠右鍵功能表建立對象：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：**&#x200B;對象不能包含計算量度。 如果您嘗試建立包含計算量度的對象，則該計算量度不會包含在對象定義中。</p> |
-   | 從篩選器建立/編輯 UI | 勾選顯示「**[!UICONTROL 通過此篩選建立客群]**」的方塊。使用此方法預先填入篩選器。 如需詳細資訊，請參閱[建立篩選器](/help/components/filters/create-filters.md)。 |
+   | 從&#x200B;**[!UICONTROL 對象]**&#x200B;介面中 | 從 Customer Journey Analytics 選單中，選取「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」。客群介面會顯示。選取「**[!UICONTROL 建立對象]**」，[!UICONTROL 對象產生器]隨即開啟。 |
+   | 從 Analysis Workspace 中的視覺效果 | Analysis Workspace 中的許多視覺效果可讓您使用內容選單建立客群。例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)一個項目或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)一個節點的內容選單中選取「**[!UICONTROL 建立客群]**」。<p>使用此方法會以您選擇的維度或維度項目，在客群產生器中預先填入篩選器。</p><p>以下視覺效果可讓您使用滑鼠右鍵功能表建立客群：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：** 客群不能包含計算量度。如果您嘗試建立包含計算量度的客群，則該計算量度不會包含在客群定義中。</p> |
+   | 從篩選器建立/編輯 UI | 勾選顯示「**[!UICONTROL 通過此篩選建立客群]**」的方塊。使用此方法預先填入篩選器。如需詳細資訊，請參閱「[建立篩選器](/help/components/filters/create-filters.md)」。 |
 
    {style="table-layout:auto"}
 
-1. 使用[對象產生器](#audience-builder)建立對象。
+1. 使用[客群產生器](#audience-builder)建立客群。
 
-1. 使用[日期預覽](#data-preview)面板解譯資料。
+1. 使用[日期預覽](#data-preview)面板解讀資料。
 
-1. 選取&#x200B;**[!UICONTROL [!UICONTROL 檢視範例ID]]**&#x200B;以檢視此對象中的ID範例。 在&#x200B;**[!UICONTROL 範例ID]**&#x200B;對話方塊中，您可以使用![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *搜尋範例ID*]&#x200B;來搜尋範例ID。
+1. 選取「**[!UICONTROL [!UICONTROL 檢視範例 ID]]**」，可檢視此客群中的 ID 範例。在「**[!UICONTROL 樣本 ID]**」對話框中，您可以使用 ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *「搜尋範例 ID」*] 來搜尋範例 ID。
 
-1. 仔細檢查您的對象組態，並選取&#x200B;**[!UICONTROL 發佈]**。
-您會收到一則對象已發佈的確認訊息。 發佈只需要一兩分鐘，此對象就會出現在Experience Platform中。
+1. 仔細檢查您的對象組態，然後選取「**[!UICONTROL 發佈]**」。您會收到一封客群已發佈的確認訊息。發佈只需一兩分鐘，此客群就會出現在 Experience Platform 中。
 
-1. 在同一則訊息中選取「**[!UICONTROL 在AEP中檢視對象]**」，您就會進入Adobe Experience Platform中的[區段UI](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview)。 請參閱下方以了解更多資訊。
+1. 選取同一則訊息中的「**[!UICONTROL 在 AEP 中檢視客群]**」，您會被帶到 Adobe Experience Platform 中的「[區段 UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/overview)」。請參閱下方以了解更多資訊。
 
-## 對象產生器
+## 客群產生器
 
-進行這些設定以定義或更新您的對象。
+進行這些設定來定義或更新您的客群。
 
-![建立下一節所述對象傾斜設定的熒幕擷圖。](assets/create-audience.png)
+![建立一個顯示下一節所示設定的客群螢幕截圖。](assets/create-audience.png)
 
 | 設定 | 說明 |
 | --- | --- |
-| ![資料](/help/assets/icons/Data.svg) | 選取要用於建立受眾的資料檢視。 |
-| **[!UICONTROL 名稱]** | 對象名稱。 例如， `Really Interested in Potential Car Buyers` |
-| **[!UICONTROL 標記]** | 您針對組織目的想要指派給對象的任何標籤。 您可以選取一或多個預先存在的標籤或輸入新標籤。 |
-| **[!UICONTROL 說明]** | 對象的說明，用於與其他對象區分開來。 例如， `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL 重新整理頻率]** | 您想要重新整理客群的頻率。<p/>您可以選擇 <ul><li>**[!UICONTROL 一次]**&#x200B;對象：不需要重新整理的對象（預設）。 例如，此選項可能有助於特定的一次性行銷活動。<br/>您必須指定&#x200B;**[!UICONTROL 單次日期範圍]**。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來輸入日期範圍。</li><li>重新整理的對象。 您可選取下列選項：<ul><li>**[!UICONTROL 每4小時]**&#x200B;秒：每4小時重新整理一次的受眾。</li><li>**[!UICONTROL 每日]**：每日重新整理的對象</li><li>**[!UICONTROL 每週]**：每週重新整理的對象。</li><li>**[!UICONTROL 每月]**：每月重新整理的對象</li></ul></li>若要重新整理對象，您必須指定：<ul><li>**[!UICONTROL 重新整理回顧期間]**。 定義從今天開始評估對象的回顧天數。 您可以從選項中選取或定義自訂時間。 最長90天。</li><li>**[!UICONTROL 到期日]**：定義對象停止重新整理的時間。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期。 預設到期日是從建立日期算起的 1 年後。系統處理即將到期對象的方法與即將到期的排程報告相似。 管理員會在對象過期前一個月收到電子郵件。</li></ul> 請注意，根據您的Customer Journey Analytics權益，對象重新整理限製為75至150個。</li></ul> |
-| **[!UICONTROL 篩選器]** | 篩選條件是客群的主要輸入項目。從左側![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 篩選器]**&#x200B;面板拖放一或多個篩選器至篩選器區域。 您可以使用![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *搜尋篩選器*]&#x200B;來搜尋篩選器。 可最多新增 20 個篩選器。篩選器可以加入&#x200B;**[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**&#x200B;運運算元。<p>從Analysis Workspace中的視覺效果（例如自由表格或歷程畫布）建立受眾時，套用至面板或欄的任何篩選器都會保留。 您可以移除任何自動套用的篩選器。</p> |
-| **[!UICONTROL 資料預覽]** | 選取![資訊](/help/assets/icons/Info.svg)以顯示或隱藏所選日期範圍的[資料預覽](#data-preview)。 |
+| ![資料](/help/assets/icons/Data.svg) | 選取用來建立客群的資料檢視。 |
+| **[!UICONTROL 名稱]** | 客群名稱。例如， `Really Interested in Potential Car Buyers` |
+| **[!UICONTROL 標記]** | 為組織目的而要指派給客群的任何標記。您可以選取一個或多個預先存在的標記，也可以輸入一個新標記。 |
+| **[!UICONTROL 說明]** | 客群的說明，用來其他客群區分開來。例如， `Build an audience of really interested potential car buyers` |
+| **[!UICONTROL 重新整理頻率]** | 您想要重新整理客群的頻率。<p/>您可在二者之間選擇： <ul><li>**[!UICONTROL 一次性]**&#x200B;客群：無需重新整理的客群 (預設)。例如，此選項可能適合用於特定一次性行銷活動。<br/>您必須指定&#x200B;**[!UICONTROL 一次性日期範圍]**。您可以使用![行事曆](/help/assets/icons/Calendar.svg)來輸入日期範圍。</li><li>重新整理客群。您可選取下列選項：<ul><li>**[!UICONTROL 每 4 小時]**：每 4 小時重新整理一次的客群。</li><li>**[!UICONTROL 每日]**：每日重新整理一次的客群</li><li>**[!UICONTROL 每週]**：每週重新整理一次的客群。</li><li>**[!UICONTROL 每月]**：每月重新整理一次的客群</li></ul></li>為了重新整理客群，您必須指定：<ul><li>**[!UICONTROL 重新整理回顧期間]**。定義從評估客群的今天所開始的回顧天數。您可以從選項中選取或定義自訂時間。最長 90 天。</li><li>**[!UICONTROL 到期日]**：定義客群停止重新整理的時間。您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期。預設到期日是從建立日期算起的 1 年後。到期客群與到期排程報告的處理方式類似。管理員會在客群到期前的一個月收到一封電子郵件。</li></ul> 請注意，客群重新整理次數限制為 75 到 150 次，具體取決於您的 Customer Journey Analytics 授權權利。</li></ul> |
+| **[!UICONTROL 篩選器]** | 篩選條件是客群的主要輸入項目。將一個或多個篩選器從左側![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 篩選器]**&#x200B;面板拖放至篩選器區域。您可以使用 ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *搜尋篩選器*]&#x200B;來搜尋篩選器。可最多新增 20 個篩選器。篩選器可使用 **[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**&#x200B;等運算子來連接。<p>從 Analysis Workspace 中的視覺效果 (例如自由格式表格或旅程畫布) 建立客群時，套用於面板或資料欄的任何篩選器都會保留。您可以移除任何自動套用的篩選器。</p> |
+| **[!UICONTROL 資料預覽]** | 選取「![資訊](/help/assets/icons/Info.svg)」以顯示或隱藏所選日期範圍的[資料預覽](#data-preview)。 |
 
 ## 資料預覽
 
-「資料預覽」面板提供下列資訊。
+資料預覽面板提供以下資訊。
 
 | 元素 | 說明 |
 | --- | --- |
-| **[!UICONTROL 總人數]** | 此客群中總人數的摘要數字。最大人數為2000萬人。 如果您的對象超過2,000萬人，您必須先減少對象規模，然後才能發佈。 |
-| **[!UICONTROL 客群規模限制]** | 視覺效果會顯示此對象與2000萬上限的差距。 |
-| **[!UICONTROL 預估的客群回訪]** | 您可以使用此值，重新鎖定此對象中回訪您網站、行動應用程式或其他頻道的人員。<p>您可以為可能回訪的估計客戶數選取時間範圍（**[!UICONTROL 接下來7天]**、**[!UICONTROL 接下來2週]**&#x200B;或&#x200B;**[!UICONTROL 下一個月]**）。 |
-| **[!UICONTROL 預估回訪]** | 此數字可提供所選時段內回訪客戶的估計數量。 此數字會使用這個對象的歷史流失率來預測。 |
-| **[!UICONTROL 預覽量度]** | 您可以選取特定量度，以檢視該量度的資料如何以您定義的對象為基礎。  每個預覽量度都會根據對象顯示量度的總計。 以及資料檢視定義的量度總和中，以對象為基礎的量度百分比。 例如，381人（您選取的量度）是您的對象定義的結果，佔資料檢視中可用總人數的5%。 您可以選取資料檢視中可用的任何量度。 |
-| **[!UICONTROL 包含的命名空間]** | 與客群中的人員相關聯的特定命名空間。範例包括 ECID、CRM ID、電子郵件地址等。 |
-| **[!UICONTROL 沙箱]** | 此客群所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)。當您將此對象發佈到Platform時，您只能在此沙箱的範圍內使用對象。 |
+| **[!UICONTROL 總人數]** | 此客群中總人數的摘要數字。最大規模為 2000 萬人。如果您的客群超過 2 千萬人，您必須減少客群規模後才能發佈。 |
+| **[!UICONTROL 客群規模限制]** | 視覺效果可顯示此客群距離 2000 萬人限制還差多少。 |
+| **[!UICONTROL 預估的客群回訪]** | 您可以使用此值重新定位此客群中返回您的網站、行動應用程式或其他頻道的使用者。<p>您可以選取可能回訪的估計客戶數量的時間範圍 (**[!UICONTROL 接下來 7 天]**、**[!UICONTROL 接下來 2 週]**&#x200B;或&#x200B;**[!UICONTROL 下個月]**)。 |
+| **[!UICONTROL 預估回訪]** | 此數字可提供在您所選時間範圍內的回訪客戶估計數量。這是使用歷史流失率為此客群預測的數字。 |
+| **[!UICONTROL 預覽量度]** | 您可以選取一個特定量度，了解該量度的資料如何根據您定義的客群來計算。每個預覽量度都會根據客群顯示該量度的總數。還有，是以客群為主的量度佔整體量度總數 (如資料檢視的定義) 的百分比。例如，381 人 (您選取的量度) 是根據您客群定義的結果，佔資料檢視中可用總人數的 5%。您可以選取資料檢視中可用的任何量度。 |
+| **[!UICONTROL 包含的命名空間]** | 與客群中的個人相關聯的特定命名空間。範例包括 ECID、CRM ID、電子郵件地址等。 |
+| **[!UICONTROL 沙箱]** | 此客群所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)。當您將此客群佈到 Platform 時，您只能在此沙箱的範圍內使用客群。 |
 
 {style="table-layout:auto"}
 
-## 建立及發佈對象後會發生什麼事？ {#after-audience-created}
+## 客群建立和發佈後會如何？ {#after-audience-created}
 
-在Customer Journey Analytics中建立並發佈對象後，您便可在Experience Platform中使用對象。 Adobe Experience Platform串流區段只會在您的組織設為串流區段時建立。
+在 Customer Journey Analytics 中建立並發佈客群後，該客群即可在 Experience Platform 中使用。只有在組織設定為串流分段時，Adobe Experience Platform 串流區段才會建立。
 
-* Platform中的對象會與Customer Journey Analytics對象共用相同的名稱和說明。 名稱會加上Customer Journey Analytics對象ID，以確保對象是唯一的。
-* 在Customer Journey Analytics中對對象名稱或說明所做的任何變更都會反映在Experience Platform中。
-* 如果對象已在Customer Journey Analytics中刪除，在對象的設定檔成員資格過期之前，該對象會繼續在Experience Platform中使用。 一次性受眾的設定檔會籍將在420天後到期，而週期性受眾會在16天後到期。
+* Platform 中的客群與 Customer Journey Analytics 客群共有相同的名稱和描述。該名稱附有 Customer Journey Analytics 客群 ID，可確保客群的獨特性。
+* 在 Customer Journey Analytics 中對客群名稱或描述所做的任何變更都會反映在 Experience Platform 中。
+* 如果在 Customer Journey Analytics 中刪除一個客群，則該客群仍可在 Experience Platform 中繼續使用，直到該客群的設定檔會籍到期為止。若是一次性客群，設定檔會籍將在 420 天後到期；若是定期客群，設定檔會籍將在 16 天後到期。
 
 ## 延遲的注意事項 {#latency}
 
-在對象發佈之前、期間和之後的數個時間點，可能會發生延遲。 以下是可能的延遲的概觀。
+在客群發布前後及期間的幾個時間點，可能會出現延遲。 以下是可能的延遲的概觀。
 
-![此章節中所述的對象發佈延遲。](assets/latency-diagram.svg)
+![本節所述的客群發佈的延遲。](assets/latency-diagram.svg)
 
 |  | 延遲點 | 延遲期間 |
 | --- | --- | --- |
-| 未顯示 | Adobe Analytics至Analytics來源聯結器(A4T) | 最多需 30 分鐘 |
-| 1 | 將資料擷取至Data Lake （從Analytics來源聯結器或其他來源） | 最多需 90 分鐘 |
-| 2 | 從Experience Platform Data Lake將資料擷取至Customer Journey Analytics | 最多需 90 分鐘 |
-| 3 | 將對象發佈到即時客戶個人檔案，包括自動建立串流區段，並允許區段準備好接收資料。 | 幾秒鐘 |
+| 未顯示 | Adobe Analytics 至 Analytics 來源連接器 (A4T) | 最多需 30 分鐘 |
+| 1 | 資料攝取至資料湖 (來自 Analytics 來源連接器或其他來源) | 最多需 90 分鐘 |
+| 2 | 從 Experience Platform Data Lake 將資料攝取至 Customer Journey Analytics | 最多需 90 分鐘 |
+| 3 | 客群發佈至即時客戶輪廓，包括自動建立串流細分群體並允許該細分群體準備接收資料。 | 幾秒 |
 | 4 | 客群的更新頻率 | <ul><li>一次性重新整理 (延遲時間小於 5 分鐘)</li><li>每 4 小時、每天、每週、每月重新整理一次 (延遲與重新整理頻率息息相關) |
-| 5 | 在Adobe Experience Platform中建立目的地：啟用新區段 | 1-2 小時 |
+| 5 | 在 Adobe Experience Platform 中建立目標：啟動新區段 | 1-2 小時 |
 
 {style="table-layout:auto"}
 
-## 在Experience Platform中使用Customer Journey Analytics受眾 {#audiences-aep}
+## 在 Experience Platform 中使用 Customer Journey Analytics 客群 {#audiences-aep}
 
-Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流至Real-Time Customer Data Platform。 Customer Journey Analytics會根據設定連線時選取的[!UICONTROL 人員ID]，將對象傳送至具有主要身分設定的Experience Platform。
+Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流至Real-Time Customer Data Platform。 Customer Journey Analytics 會將客群傳送到有主要身分設定的 Experience Platform；這是根據設定連線時選取作為[!UICONTROL 個人 ID] 的身分設定。
 
-Real-Time Customer Data Platform接著會檢查每個名稱空間/ID組合，並尋找它可能屬於的個人檔案。 輪廓基本上是一組連結的命名空間、ID 和裝置。如果找到設定檔，則會將名稱空間和ID新增到此設定檔中的其他ID，做為區段會籍屬性。 例如，<user@adobe.com>可以跨其所有裝置和管道進行定位。 如果找不到輪廓，則會建立一個新的。
+接著 Real-Time Customer Data Platform 會檢查每個命名空間/ID 組合，並尋找它可能屬於的個人檔案。設定檔基本上是一組連結的命名空間、ID 和裝置。如果找到個人檔案，則會將命名空間和 ID 新增到此個人檔案中的其他 ID，做為區段會籍屬性。例如，現在在所有裝置和頻道都可以 <user@adobe.com> 為目標。如果找不到設定檔，則會建立一個新的。
 
-若要在Platform中檢視Customer Journey Analytics對象：
+若要在 Platform 中檢視 Customer Journey Analytics 客群：
 
-1. 展開左側面板中的&#x200B;**[!UICONTROL 客戶]**，然後選取&#x200B;**[!UICONTROL 對象]**。<!-- is there a folder called "Customer Journey Analytics? -->
+1. 擴展左側面板中的「**[!UICONTROL 客戶]**」，然後選取「**[!UICONTROL 客群]**」。<!-- is there a folder called "Customer Journey Analytics? -->
 
-1. 選取&#x200B;**[!UICONTROL 瀏覽]**&#x200B;標籤。
+1. 選取「**[!UICONTROL 瀏覽]**」索引標籤。
 
-1. 若要找出您從Customer Journey Analytics發佈的對象，請執行下列任一項作業：
+1. 若要找到您從 Customer Journey Analytics 發佈的客群，請執行以下操作之一：
 
-   左側面板中的![對象選項](assets/aep-audiences.png)
+   ![左側面板中的客群選項](assets/aep-audiences.png)
 
-   * 依&#x200B;**[!UICONTROL Origin]**&#x200B;資料行排序資料表，以檢視顯示&#x200B;[!UICONTROL **Customer Journey Analytics**]&#x200B;為來源的受眾。
+   * 依「**[!UICONTROL 來源]**」資料欄為表格排序，以便檢視顯示 [!UICONTROL **Customer Journey Analytics**] 為來源的客群。
 
-   * 篩選&#x200B;**[!UICONTROL 來源]**&#x200B;上的![篩選器](/help/assets/icons/Filter.svg)並選取&#x200B;**[!UICONTROL Customer Journey Analytics]**。
+   * ![篩選器](/help/assets/icons/Filter.svg) 對「**[!UICONTROL 來源]**」進行篩選並選取 **[!UICONTROL Customer Journey Analytics]**。
 
-   * 使用![搜尋](/help/assets/icons/Search.svg)搜尋欄位。
+   * 使用「![搜尋](/help/assets/icons/Search.svg)」來搜尋欄位。
 
-如需在Platform中使用對象的詳細資訊，請參閱Experience Platform檔案之[區段產生器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)中的[對象](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)區段。
+有關在 Platform 中使用客群的更多資訊，請參閱 Experience Platform 文件中「[客戶細分工具使用者介面指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder)」的「[客群](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder)」部分。
 
-<!---### Understand discrepancies in audience counts between Customer Journey Analytics and Real-Time Customer Data Platform
+### 瞭解對象計數的差異
 
-Discrepancies in audience counts may occur between Customer Journey Analytics and Real-Time Customer Data Platform. The points below provide a detailed explanation of these differences:
+Customer Journey Analytics和Real-Time Customer Data Platform之間可能會出現對象計數差異。
 
+<!--
 ![Infographic on audience differences between Customer Journey Analytics and Real-Time CDP.](/help/components/audiences/assets/infographic-cja-rtcdp.png)
+-->
 
-**Probabilistic versus deterministic counts**
+#### 預估與確定性計數
 
-The methodology by which audience membership numbers are being calculated differs between the two apps, as described below.
+兩個應用程式計算對象會籍數的方法有所不同，如下所述。
 
-*  **Customer Journey Analytics**: The **[!UICONTROL Total People]** metric in Customer Journey Analytics is an estimated value. This means that the count is an estimate based on the rules of the audience and it can change between refresh intervals.
-*  **Real-Time Customer Data Platform**: The count in Real-Time Customer Data Platform is deterministic, based on daily evaluation jobs, and fixed at the time the audience finishes publishing into the audience portal. 
+* **Customer Journey Analytics**： Customer Journey Analytics中的&#x200B;**[!UICONTROL 總人數]**&#x200B;量度是預估值。 這表示此計數是根據對象規則的估計值，並且可能在重新整理間隔之間變更。
+* **Real-Time Customer Data Platform**： Real-Time Customer Data Platform中的計數是決定性的，以每日評估工作為基礎，並在對象完成發佈至對象入口網站時修正。
 
-**Publishing interval and rate**
+#### 發佈間隔和速率
 
-Audiences publish to Real-Time Customer Data Platform at a rate of 1500 records per second (RPS). For example, an audience of 20 million members will take approximately 3.7 hours to fully publish (20M / 1500 RPS / 3600 seconds per hour). During this time, differences in audience membership between the two apps are likely.
+對象以每秒1500筆記錄(RPS)的速率發佈到Real-Time Customer Data Platform。 例如，擁有2,000萬名成員的對象將需約3.7小時才能完全發佈（2,000萬/1,500 RPS/3,600秒/小時）。 在這段期間，這兩個應用程式的對象會籍可能會有所不同。
 
-**Profile fragmentation**
+#### 設定檔片段
 
-If profiles imported from Customer Journey Analytics already exist in Real-Time Customer Data Platform, they are not counted as new profiles. This can lead to lower-than-expected profile counts in Real-Time Customer Data Platform.
+如果從Customer Journey Analytics匯入的設定檔已存在於Real-Time Customer Data Platform中，則不會計為新的設定檔。 這可能會導致Real-Time Customer Data Platform中的設定檔計數低於預期。
 
-**Batch versus streaming audiences**
+#### 批次與串流對象
 
-Customer Journey Analytics audiences are not included in the daily batch evaluation job and remain fixed until the next publish interval. In contrast, other batch audiences in Real-Time Customer Data Platform are re-evaluated every 24 hours.
+Customer Journey Analytics對象不會包含在每日批次評估工作中，並在下次發佈間隔前保持固定。 相反地，Real-Time Customer Data Platform中的其他批次對象每24小時會重新評估一次。
 
-### Key takeaways to remember
+### 要記住的關鍵要點
 
-* **Estimated counts in Customer Journey Analytics**: Understand that the **[!UICONTROL Total People]** count in Customer Journey Analytics is an estimate and can vary due to streaming data and identity behaviors.
-* **Deterministic counts in Real-Time Customer Data Platform**: The count in Real-Time Customer Data Platform is fixed and does not change until the next publish interval.
-* **Profile Fragmentation**: Be aware that existing profiles in Real-Time Customer Data Platform may not contribute to new profile counts when importing from Customer Journey Analytics.
+* **Customer Journey Analytics中的預估計數**：瞭解Customer Journey Analytics中的&#x200B;**[!UICONTROL 總人數]**&#x200B;計數是預估值，可能會因串流資料和身分識別行為而有所不同。
+* **Real-Time Customer Data Platform中的確定性計數**： Real-Time Customer Data Platform中的計數是固定的，在下次發佈間隔之前不會變更。
+* **設定檔片段**：請注意，從Customer Journey Analytics匯入時，Real-Time Customer Data Platform中的現有設定檔可能不會貢獻新的設定檔計數。
 
-By clearly differentiating these aspects, you can better understand and manage your audience data across Customer Journey Analytics and Real-Time Customer Data Platform.--->
+透過清楚區分這些方面，您就能在Customer Journey Analytics和Real-Time Customer Data Platform中更好地瞭解和管理受眾資料。—>
 
 ## 常見問題 {#faq}
 
 客群發佈的常見問題。
 
-+++**如果使用者不再是Customer Journey Analytics中的對象成員，會發生什麼情況？**
++++**如果使用者不再是 Customer Journey Analytics 中的客群成員，會如何？**
 
-在此情況下，系統會從Customer Journey Analytics傳送退出事件至Experience Platform。
-
-+++
-
-+++**如果您刪除Customer Journey Analytics中的對象，會發生什麼事？**
-
-刪除Customer Journey Analytics對象後，該對象就不會再顯示在Experience Platform UI中。 不過，與該對象相關聯的設定檔並不會在Experience Platform中刪除。
+發生這種情況時，會從 Customer Journey Analytics 傳送退出事件到 Experience Platform。
 
 +++
 
-+++**如果Real-Time Customer Data Platform中不存在對應的設定檔，是否會建立新的設定檔？**
++++**如果您在 Customer Journey Analytics 中刪除客群，會如何？**
+
+刪除 Customer Journey Analytics 客群後，該客群將不會再顯示於 Experience Platform UI 中。然而，在 Platform 中與該客群相關聯的設定檔不會被刪除。
+
++++
+
++++**如果 Real-Time Customer Data Platform 中不存在相應的設定檔，新設定檔是否會建立？**
 
 是，會建立。
 
 +++
 
-+++**Customer Journey Analytics會以管線事件或同樣前往資料湖的平面檔案傳送對象資料？**
++++**Customer Journey Analytics 是否會以管道事件或以也會前往資料湖的平面檔案形式傳送客群資料？**
 
-Customer Journey Analytics會透過pipeline將資料串流至Real-Time Customer Data Platform，這些資料也會收集到資料湖的系統資料集中。
+Customer Journey Analytics 會透過管道將資料串流至 Real-Time Customer Data Platform，並且這類資料也會被收集到資料湖中的系統資料集中。
 
 +++
 
-+++**Customer Journey Analytics會傳送哪些身分識別？**
++++**Customer Journey Analytics 會傳送哪些身分識別？**
 
-在[連線設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)中指定的任何識別/名稱空間配對。 具體來說，就是使用者選取要當作人員ID使用的欄位時的步驟。
+在[連線設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/create-connection)中指定的任何身分識別/命名空間組。具體而言，就是使用者選取要作為「個人 ID」之欄位時的步驟。
 
 +++
 
 +++**選擇哪個 ID 作為主要身分識別？**
 
-請參閱上述內容。每個Customer Journey Analytics人員僅會傳送一個身分。
+請參閱上述內容。每位 Customer Journey Analytics 個人僅會傳送一個身分識別。
 
 +++
 
-+++**Real-Time Customer Data Platform是否也會處理Customer Journey Analytics訊息？ Customer Journey Analytics是否可透過對象共用將身分新增至設定檔身分圖表？**
++++**Real-Time Customer Data Platform 是否也會處理 Customer Journey Analytics 訊息？Customer Journey Analytics 是否可透過客群共用將身分識別新增至設定檔身分識別圖？**
 
-否。每人只會傳送一個身分，因此Real-Time Customer Data Platform不會有任何圖表邊緣可供使用。
-
-+++
-
-+++**一天中的哪個時間進行每日、每週和每月的重新整理？ 每週的哪一天會進行每週重新整理？**
-
-重新整理的時間會根據原始對象的發佈時間以及當天時間的錨點（以及一週中的某天或一個月中的某天）來確定。
+否。每個人只傳送一個身份識別，因此 Real-Time Customer Data Platform 將沒有圖形邊可供使用。
 
 +++
 
-+++**您可以設定每日、每週和每月的重新整理時間嗎？**
++++**每日、每周和每月的重新整理會在一天中的什麼時間發生？每週重新整理會在一週的哪一天會進行？**
 
-否，使用者無法設定重新整理的時間。
+重新整理的時間取決於原始客群的發佈時間，並錨定在一天中的哪個時間 (以及一週中的某天或一個月中的某天)。
+
++++
+
++++**您可以設定每天、每週、每月的重新整理時間嗎？**
+
+不可以，使用者無法設定重新整理時間。
 
 +++
 
