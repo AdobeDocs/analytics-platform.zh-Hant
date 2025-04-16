@@ -3,7 +3,7 @@ description: 函數可讓您篩選/排序資料以及執行統計分析。
 title: 使用函數
 feature: Calculated Metrics
 exl-id: 7a41aa4e-90c6-4242-a801-2eef6b524cfe
-source-git-commit: 1a84fc71eb29ceabf3a3c5c3e333b78b882ea966
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 23%
@@ -20,7 +20,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->計算量度產生器的定義中加入函式時，請一律先套用函式再將其拖曳至量度或篩選器中。
+>計算量度產生器的定義中加入函式時，請一律先套用函式再將其拖曳至量度或區段中。
 >
 
 

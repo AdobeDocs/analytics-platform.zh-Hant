@@ -1,13 +1,13 @@
 ---
 title: 計算量度概觀
-description: 了解衍生自報告執行時間的篩選量度。
+description: 瞭解衍生自報表執行時間的區段量度。
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 95%
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [計算量度簡介](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算量度介紹](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +30,7 @@ ht-degree: 95%
 | 計劃 | 特別是，對於即將正式批准的量度![Checkmark](/help/assets/icons/Checkmark.svg)，請謹慎規劃和建立您預計經常使用的計算量度。 |
 | [建置](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) | 建置、修改和儲存計算量度。 |
 | [套用](/help/components/use-components-in-workspace.md) | 直接在您的 Workspace 專案中套用計算量度。 |
-| [管理](/help/components/calc-metrics/cm-workflow/cm-manager.md) | 管理計算量度。您可以[標記](/help/components/calc-metrics/cm-workflow/cm-tagging.md)、[核准](/help/components/calc-metrics/cm-workflow/cm-approving.md)、[取消核准](/help/components/calc-metrics/cm-workflow/cm-approving.md)、[篩選](/help/components/calc-metrics/cm-workflow/cm-filter.md)、[設為最愛](/help/components/calc-metrics/cm-workflow/cm-favorite.md)或[取消最愛](/help/components/calc-metrics/cm-workflow/cm-favorite.md)、[共用](/help/components/calc-metrics/cm-workflow/cm-sharing.md)或[複製](/help/components/calc-metrics/cm-workflow/cm-copy.md)一個或多個計算量度。 |
+| [管理](/help/components/calc-metrics/cm-workflow/cm-manager.md) | 管理計算量度。您可以[標籤](/help/components/calc-metrics/cm-workflow/cm-tagging.md)、[核准](/help/components/calc-metrics/cm-workflow/cm-approving.md)、[取消核准](/help/components/calc-metrics/cm-workflow/cm-approving.md)、[區段](/help/components/calc-metrics/cm-workflow/cm-filter.md)、[優惠](/help/components/calc-metrics/cm-workflow/cm-favorite.md)或[不優惠](/help/components/calc-metrics/cm-workflow/cm-favorite.md)、[共用](/help/components/calc-metrics/cm-workflow/cm-sharing.md)或[複製](/help/components/calc-metrics/cm-workflow/cm-copy.md)一或多個計算量度。 |
 
 請參閱[建立計算量度](/help/components/calc-metrics/cm-workflow/cm-workflow.md)，以了解可用於建立計算量度的各種選項。您可以在[計算量度產生器](cm-workflow/cm-build-metrics.md)中建置、修改和儲存計算量度的定義。
 

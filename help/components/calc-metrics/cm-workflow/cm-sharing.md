@@ -3,10 +3,10 @@ description: 您可以將量度共用給整個組織、群組或個別使用者 
 title: 共用計算量度
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: 97b831d7eee477ee7ef0bf8ae65e6a415d243464
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 10%
 
    1. 從&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**&#x200B;區段中選取一或多個選項，或搜尋並選取一或多個個人。 可用的選項取決於您的角色。
 
-   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以共用計算量度。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消。
+   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以共用計算量度。 選取「**[!UICONTROL 取消]**」，即可取消。
 
 ## 最佳做法
 
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 * 身為管理員，如果計算量度為特定群組的使用者提供商務值，請將計算量度共用給該群組。
 
-* 身為管理員或個人使用者，可將計算量度共用給一或多個個人來驗證計算量度。 如果篩選條件經證實沒有用，您可以刪除計算量度。
+* 身為管理員或個人使用者，可將計算量度共用給一或多個個人來驗證計算量度。 如果區段被證實沒有用，您可以刪除計算量度。
 
 
 <!--

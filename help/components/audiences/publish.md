@@ -4,10 +4,10 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 1f21bec36f4c7d30940ed4bb95b097665a45b8ad
+source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
 workflow-type: tm+mt
 source-wordcount: '2320'
-ht-degree: 83%
+ht-degree: 78%
 
 ---
 
@@ -72,8 +72,8 @@ ht-degree: 83%
    | 建立方法 | 詳細資料 |
    | --- | --- |
    | 從&#x200B;**[!UICONTROL 對象]**&#x200B;介面中 | 從 Customer Journey Analytics 選單中，選取「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」。客群介面會顯示。選取「**[!UICONTROL 建立對象]**」，[!UICONTROL 對象產生器]隨即開啟。 |
-   | 從 Analysis Workspace 中的視覺效果 | Analysis Workspace 中的許多視覺效果可讓您使用內容選單建立客群。例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)一個項目或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)一個節點的內容選單中選取「**[!UICONTROL 建立客群]**」。<p>使用此方法會以您選擇的維度或維度項目，在客群產生器中預先填入篩選器。</p><p>以下視覺效果可讓您使用滑鼠右鍵功能表建立客群：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：** 客群不能包含計算量度。如果您嘗試建立包含計算量度的客群，則該計算量度不會包含在客群定義中。</p> |
-   | 從篩選器建立/編輯 UI | 勾選顯示「**[!UICONTROL 通過此篩選建立客群]**」的方塊。使用此方法預先填入篩選器。如需詳細資訊，請參閱「[建立篩選器](/help/components/filters/create-filters.md)」。 |
+   | 從 Analysis Workspace 中的視覺效果 | Analysis Workspace 中的許多視覺效果可讓您使用內容選單建立客群。例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)一個項目或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)一個節點的內容選單中選取「**[!UICONTROL 建立客群]**」。<p>此方法會使用您選取的維度或維度專案預先填入對象產生器中的區段。</p><p>以下視覺效果可讓您使用滑鼠右鍵功能表建立客群：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：** 客群不能包含計算量度。如果您嘗試建立包含計算量度的客群，則該計算量度不會包含在客群定義中。</p> |
+   | 從區段建立/編輯UI | 勾選顯示&#x200B;**[!UICONTROL 從此區段建立對象]**&#x200B;的方塊。 使用此方法預先填入區段。 如需詳細資訊，請參閱「[建立篩選器](/help/components/filters/create-filters.md)」。 |
 
    {style="table-layout:auto"}
 
@@ -100,7 +100,7 @@ ht-degree: 83%
 | **[!UICONTROL 標記]** | 為組織目的而要指派給客群的任何標記。您可以選取一個或多個預先存在的標記，也可以輸入一個新標記。 |
 | **[!UICONTROL 說明]** | 客群的說明，用來其他客群區分開來。例如， `Build an audience of really interested potential car buyers` |
 | **[!UICONTROL 重新整理頻率]** | 您想要重新整理客群的頻率。<p/>您可在二者之間選擇： <ul><li>**[!UICONTROL 一次性]**&#x200B;客群：無需重新整理的客群 (預設)。例如，此選項可能適合用於特定一次性行銷活動。<br/>您必須指定&#x200B;**[!UICONTROL 一次性日期範圍]**。您可以使用![行事曆](/help/assets/icons/Calendar.svg)來輸入日期範圍。</li><li>重新整理客群。您可選取下列選項：<ul><li>**[!UICONTROL 每 4 小時]**：每 4 小時重新整理一次的客群。</li><li>**[!UICONTROL 每日]**：每日重新整理一次的客群</li><li>**[!UICONTROL 每週]**：每週重新整理一次的客群。</li><li>**[!UICONTROL 每月]**：每月重新整理一次的客群</li></ul></li>為了重新整理客群，您必須指定：<ul><li>**[!UICONTROL 重新整理回顧期間]**。定義從評估客群的今天所開始的回顧天數。您可以從選項中選取或定義自訂時間。最長 90 天。</li><li>**[!UICONTROL 到期日]**：定義客群停止重新整理的時間。您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期。預設到期日是從建立日期算起的 1 年後。到期客群與到期排程報告的處理方式類似。管理員會在客群到期前的一個月收到一封電子郵件。</li></ul> 請注意，客群重新整理次數限制為 75 到 150 次，具體取決於您的 Customer Journey Analytics 授權權利。</li></ul> |
-| **[!UICONTROL 篩選器]** | 篩選條件是客群的主要輸入項目。將一個或多個篩選器從左側![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 篩選器]**&#x200B;面板拖放至篩選器區域。您可以使用 ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *搜尋篩選器*]&#x200B;來搜尋篩選器。可最多新增 20 個篩選器。篩選器可使用 **[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**&#x200B;等運算子來連接。<p>從 Analysis Workspace 中的視覺效果 (例如自由格式表格或旅程畫布) 建立客群時，套用於面板或資料欄的任何篩選器都會保留。您可以移除任何自動套用的篩選器。</p> |
+| **[!UICONTROL 篩選器]** | 篩選條件是客群的主要輸入項目。從左側![區段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;面板拖放一或多個區段至「區段」區域。 您可以使用![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *搜尋區段*]&#x200B;來搜尋區段。 您最多可以新增20個區段。 可以使用&#x200B;**[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**&#x200B;運運算元聯結區段。<p>從Analysis Workspace中的視覺效果（例如自由表格或歷程畫布）建立受眾時，套用至面板或欄的任何區段都會保留。 您可以移除任何自動套用的區段。</p> |
 | **[!UICONTROL 資料預覽]** | 選取「![資訊](/help/assets/icons/Info.svg)」以顯示或隱藏所選日期範圍的[資料預覽](#data-preview)。 |
 
 ## 資料預覽
