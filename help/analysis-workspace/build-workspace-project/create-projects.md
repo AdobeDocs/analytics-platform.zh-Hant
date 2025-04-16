@@ -4,10 +4,10 @@ title: 建立專案
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+source-git-commit: 04586de02765ddeba72aca3132b9eca5d22aced7
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 99%
+source-wordcount: '463'
+ht-degree: 88%
 
 ---
 
@@ -65,6 +65,15 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_commenting"
+>title="允許評論"
+>abstract="啟用後，Analysis Workspace中專案的右側邊欄中會顯示註解區域。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 專案資訊和設定可提供目前使用中專案的專案層級資訊。
 
@@ -83,6 +92,7 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 | 顯示註解 | 指定是否顯示此專案的註解。 |
 | [專案調色盤](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 您可以變更用於 Workspace 的分類調色盤，其方式為選擇已針對色盲人士最佳化的立即可用調色盤或指定您的自訂調色盤。此功能會影響工作區中的許多項目，包括大部分的視覺效果。 |
 | [檢視密度](/help/analysis-workspace/build-workspace-project/view-density.md) | 可減少左側面板、自由格式表格和同類群組表格的垂直邊框間距，讓您在畫面上查看更多資料。 |
+| 允許評論 | 啟用此選項後，可在Analysis Workspace中專案的右側邊欄中使用註解區域。 如需詳細資訊，請參閱[在專案中新增和管理註解](/help/analysis-workspace/build-workspace-project/comment-projects.md)。 |
 
 
 
