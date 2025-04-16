@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 60074b300cb5fa07ed3b2d6bb2e4501881909984
+source-git-commit: 693227516950aec921d82564b39622a9e3ef4b9d
 workflow-type: tm+mt
-source-wordcount: '3810'
-ht-degree: 77%
+source-wordcount: '3849'
+ht-degree: 76%
 
 ---
 
@@ -40,23 +40,15 @@ ht-degree: 77%
 
 ### IMS 組織偏好設定 {#ims-organization-preferences}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_shareonlyworkspace"
 >title="僅允許與 Workspace 使用者共用"
 >abstract="啟用後，在共用 Analysis Workspace 專案時，使用者將無法再使用&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。先前透過此共用選項獲得專案存取權的人員無法再存取該專案。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="需要 Experience Cloud 驗證"
 >abstract="啟用後，透過 Analysis Workspace 中的「與任何人共用」選項取得專案存取權限的人員，就必須使用其 Experience Cloud 認證進行驗證。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 您可以更新套用於組織內所有使用者和專案的公司偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
@@ -71,34 +63,20 @@ ht-degree: 77%
 
 ### 專案和分析偏好設定 {#project-and-analysis-preferences}
 
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_categoricalpalette"
 >title="分類調色盤"
 >abstract="適用於 Analysis Workspace 和引導式分析中的許多視覺效果。每種顏色代表不同的類別值。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_divergingpalette"
 >title="發散調色盤"
 >abstract="適用於 Analysis Workspace 和使用者增長引導分析中的同類群組表格。此調色盤具有數值含意，有兩個極端和中間的基準線。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_sequentialpalette"
 >title="序列調色盤"
 >abstract="適用於頻率趨勢 (堆疊條狀圖) 引導式分析。此調色盤具有從淺到深的數值含意。"
-
-<!-- markdownlint-enable MD034 -->
-
 
 您可以為所有新的 Analysis Workspace 專案、新的 Analysis Workspace 面板和新的引導式分析自訂這些偏好設定。如需有關如何存取這些偏好設定的資訊，請參閱[更新偏好設定](#update-preferences)。
 
@@ -121,34 +99,21 @@ ht-degree: 77%
 
 ### 自由格式表格偏好設定 {#freeform-table-preferences}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showanomalies"
 >title="顯示異常狀況"
 >abstract="選取&#x200B;**[!UICONTROL 顯示異常狀況]**&#x200B;將自動對新增至時間序列自由格式表格視覺效果的第一個量度欄執行異常偵測。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showforecast"
 >title="顯示預測"
 >abstract="選取&#x200B;**[!UICONTROL 顯示預測]**&#x200B;將自動對新增至時間序列自由格式表格視覺效果的第一個量度欄進行預測。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="預設表格量度"
 >abstract="選取用於自由格式表格的預設量度。如果選取的資料檢視不包含選取的預設量度，表格會自動切換至另一個主要量度。"
-
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 您可以為在 Analysis Workspace 中建立的所有新專案自訂自由格式表格偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
@@ -250,16 +215,16 @@ ht-degree: 77%
 | | 顯示比較 | 顯示比較資料。隱藏時，比較折線圖和摘要變更物件將會從視圖中隱藏。 |
 | | 數字值選項 | 在&#x200B;[!UICONTROL **關鍵量度摘要**] 一節 <ul><li>顯示百分比變化</li><li>顯示原始差異</li>主要日期範圍與次要日期範圍中量度總值之間的原始差異</ul> |
 | **[流失](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
-| | 容器 | 可讓您在&#x200B;**[!UICONTROL 工作階段]**&#x200B;和&#x200B;**[!UICONTROL 人員]**&#x200B;之間切換以分析路徑。 這些設定可協助您瞭解各種B2B容器層級[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}的帳戶參與情形、個人層級的個人參與情形（跨工作階段），或將分析限制在單一工作階段。 <p>提供下列選項：</p> <ul><li>全域帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>購買群組[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>商機[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>工作階段</li><li>人員</li></ul> |
+| | 容器 | 選取要分析路徑分析的偏好容器。 偏好的容器可協助您瞭解各種B2B容器層級[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}的帳戶參與情形、個人層級的人員參與情形（跨工作階段），或將分析限制在單一工作階段。 <p>提供下列選項：</p> <ul><li>全域帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>購買群組[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>商機[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>工作階段</li><li>人員</li></ul> |
 | **[流量](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
-| | 容器 | 在&#x200B;**[!UICONTROL 流量]**&#x200B;區段中： <ul><li>全域帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>購買群組[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>商機[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>工作階段</li><li>人員</li></ul> |
+| | 容器 | 選取要分析的偏好容器。 偏好的容器可協助您瞭解各種B2B容器層級[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}的帳戶參與情形、個人層級的人員參與情形（跨工作階段），或將分析限制在單一工作階段。 <p>提供下列選項：</p> <ul><li>全域帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>購買群組[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>商機[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>工作階段</li><li>人員</li></ul> |
 | | 繞排標籤 | 一般而言，系統會截斷「流量」元素的標籤以節省螢幕空間，但您可勾選此方塊以完整顯示標籤。預設 = 未勾選。 |
 | | 包含重複例項 | 「流量」視覺效果是根據維度的例項而定。此設定提供您要包括或排除重複例項的選項，例如頁面重新載入次數。不過，無法從包含多值維度 (例如 listVars、listProps、s.product、銷售 eVars 等) 的「流量」視覺效果中移除重複項目。預設 = 未勾選。 |
 | | 顯示工具提示 | 決定當滑鼠懸停在流量視覺效果內的個別節點上時，是否顯示包含節點資料的工具提示。 |
 | | 欄數 | 決定您的流量圖中要有多少欄。 |
 | | 每欄展開的項目 | 每欄中想要多少項目。 |
 | **[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)** | | |
-| | 容器 | 可讓您在&#x200B;**[!UICONTROL 工作階段]**&#x200B;和&#x200B;**[!UICONTROL 人員]**&#x200B;之間切換以分析路徑。 預設為&#x200B;**[!UICONTROL 人員]**。這些設定可協助您瞭解各種B2B容器層級[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}的帳戶參與情形、個人層級的個人參與情形（跨工作階段），或將分析限制在單一工作階段。 <p>提供下列選項：</p> <ul><li>全域帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>購買群組[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>商機[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>工作階段</li><li>人員</li></ul> |
+| | 容器 | 選取要分析路徑分析的偏好容器。 偏好的容器可協助您瞭解各種B2B容器層級[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}的帳戶參與情形、個人層級的人員參與情形（跨工作階段），或將分析限制在單一工作階段。 <p>提供下列選項：</p> <ul><li>全域帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>購買群組[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>商機[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}</li><li>工作階段</li><li>人員</li></ul> |
 | **堆疊圖** | | |
 | | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。 <p>如需詳細資訊，請參閱[橫條圖和棧疊橫條圖](/help/analysis-workspace/visualizations/bar.md)。</p> |
 | **[直方圖](/help/analysis-workspace/visualizations/histogram.md)** | | |

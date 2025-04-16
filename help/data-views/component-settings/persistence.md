@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 9c1a8c51aa3e23412e5b04d3ab1571a9d1c7612e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 73%
+source-wordcount: '1053'
+ht-degree: 79%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 73%
 
 
 
-[!UICONTROL 持續性]是給定維度值在其設定的事件之外與量度相關的能力。它使用配置和過期時間的組合。
+[!UICONTROL 持續性]是指定維度值能夠歸因於其設定事件以外的量度。 它使用配置和過期時間的組合。
 
-![醒目提示持續性選項的資料檢視視視窗](../assets/persistence.png)
+![醒目顯示「持續性」選項的資料檢視視窗](../assets/persistence.png)
 
-* **配置**&#x200B;可讓您確定當一個列中可以同時保留多個維度項時保留哪個值。
+* **配置**&#x200B;可讓您決定當一個欄中可以同時保留多個維度專案時要保留的值。
 
   >[!NOTE]
   >
-  >如果您在報表的量度上設定了[非預設歸因模型](/help/data-views/component-settings/attribution.md)，則歸因模型會忽略您在相同報表的維度上設定的配置。
+  >如果您對報告的量度設定[使用非預設歸因模型](/help/data-views/component-settings/attribution.md)，歸因模型會忽略您針對相同報告的維度設定的配置。
   >
-  >但是，執行包含多個維度的[完整資料表匯出](/help/analysis-workspace/export/export-cloud.md)時，歸因會保留套用至每個維度的配置模型。
+  >然而，當進行的[完整表格匯出](/help/analysis-workspace/export/export-cloud.md)包含多個維度時，歸因會保留套用於每個維度的配置模型。
 
 * **期限**&#x200B;可讓您確定維度項目在其設定的事件之後持續多長時間。
 
@@ -45,8 +45,8 @@ ht-degree: 73%
 | 設定 | 說明 |
 | --- | --- |
 | [!UICONTROL 設定持續性] | 啟用維度的持續性。如果未啟用持續性，則維度僅與同一事件中存在的量度相關。此設定預設為停用。 |
-| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項包括：「[!UICONTROL 最近]」、「[!UICONTROL 原始]」、「[!UICONTROL 例項]」、「[!UICONTROL 全部]」。2021 年 10 月 28 日起，一個最多 90 天的回顧期間會新增至[!UICONTROL 分配]設定中。 |
-| [!UICONTROL 期限] | 可讓您指定維度的持續性視窗。選項包括：「[!UICONTROL 工作階段]」(預設)、「[!UICONTROL 人員]」、「[!UICONTROL 自訂時間]」、「[!UICONTROL 量度]」。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。您可以設定的最長期限為 90 天。如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]期限可用。 |
+| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項有:<ul><li>**[!UICONTROL 最近]**：維度中的值會持續存在，直到被後續值覆寫為止</li><li> **[!UICONTROL 原始]**：此維度的第一個值會持續存在，且不會被後續值覆寫</li><li>**[!UICONTROL 全部]**：此維度的所有值會同時保留</li><li>**[!UICONTROL 第一個已知]**：已使用此維度的第一個值，並將套用至之前和之後的所有事件。</li><li>**[!UICONTROL 最後一個已知]**：此維度的最後一個值已使用，並將套用至之前和之後的所有事件。</li></ul> |
+| [!UICONTROL 期限] | 可讓您指定維度的持續性視窗。選項有: <ul><li>**[!UICONTROL 工作階段]** （預設）</li><li>**[!UICONTROL 人員]**</li><li>**[!UICONTROL 自訂時間]**</li><li>**[!UICONTROL 量度]**</li></ul>。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。您可以設定的最長期限為 90 天。如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]期限可用。 |
 
 {style="table-layout:auto"}
 
@@ -96,27 +96,27 @@ ht-degree: 73%
 * **機會報告期間** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}：在報告期間結束時到期。
 * **購買群組報表期間** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}：報表期間結束時到期。
 * **自訂時間**：在指定的時段 (最長 90 天) 後到期。這個期限選項僅適用於「原始」和「最近」配置模式。 在使用以時間為準的期限時，將會考量您的報告期間 (最長 90 天) 開始前的值。
-* **量度**：在事件中看到此量度時，請讓維度中的儲存值立即過期。 您可以使用量度當做此維度的過期點。 這個期限選項僅適用於「原始」和「最近」配置設定。
+* **量度**：在事件中看到此量度時，維度中的保存值會立即過期。您可以使用量度當做此維度的過期點。 這個期限選項僅適用於「原始」和「最近」配置設定。
 
 
 ## [!UICONTROL 繫結維度]
 
-一個下拉式清單，可讓您將維度值的持續性繫結到另一個維度中的維度值。 有效選項包含在資料檢視中的其他維度。
+讓您將維度值的持續性繫結至另一維度中維度值的下拉式清單。有效的下拉式清單選項含有在資料檢視中所含的其他維度。
 
-如需有關如何有效使用繫結維度的範例，請參閱[在Customer Journey Analytics中使用繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md)。
+如需有關如何有效使用繫結維度的範例，請參閱「[使用 Customer Journey Analytics 中的繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md)」。
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [繫結維度](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [繫結維度](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 
 ## [!UICONTROL 繫結量度]
 
-下拉式清單可讓您選擇做為繫結觸發器的量度。 有效選項包含在資料檢視中的量度。
+讓您選擇做為繫結觸發器量度的下拉式清單。有效選項包含在資料檢視中的量度。
 
 此項設定只會在繫結維度在物件陣列中小於元件時出現。繫結量度存在於事件中時，維度值會從事件水準維度複製到繫結維度的下層結構描述。
 
-如需有關如何有效使用繫結維度的詳細資訊，請參閱[在Customer Journey Analytics](../../use-cases/data-views/binding-dimensions-metrics.md)中使用繫結維度和量度下的第二個範例。
+如需有關如何有效使用繫結維度的更多資訊，請參閱「[使用 Customer Journey Analytics 中的繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md)」。
