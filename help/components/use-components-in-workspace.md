@@ -4,7 +4,7 @@ title: 在 Analysis Workspace 中使用元件
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: c56c77079aa21fb740fda6bec333731a1f82a48f
+source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # 在 Analysis Workspace 中使用元件
 
-元件構成Analysis Workspace中任何專案的實際資料。 元件包含維度、量度、篩選器和日期範圍。 您可以將元件拖曳至視覺效果或面板中，藉此新增元件至專案。
+元件構成Analysis Workspace中任何專案的實際資料。 元件包含維度、量度、區段和日期範圍。 您可以將元件拖曳至視覺效果或面板中，藉此新增元件至專案。
 
 如需您可以新增之元件型別的詳細資訊，請參閱[元件概觀](/help/components/overview.md)。
 
@@ -31,8 +31,8 @@ ht-degree: 7%
 
 1. 捲動至或搜尋您要新增的元件，然後將其拖曳至專案中的面板或視覺效果。
 
-1. 您可以選擇將元件拖曳至面板標頭的篩選器拖放區域。 這個拖放動作會將元件定義為篩選器，並將篩選器套用至面板內的所有內容。
-如需如何在面板上使用篩選器拖放區域來篩選面板的相關資訊，請參閱[面板概觀](/help/analysis-workspace/c-panels/panels.md)中的[拖放區域](/help/analysis-workspace/c-panels/panels.md#drop-zone)。
+1. 您可以選擇將元件拖曳至面板標頭的區段放置區。 這個拖放動作會將元件定義為區段，並將區段套用至面板內的所有內容。
+如需如何在面板上使用區段拖放區域來劃分面板區段的詳細資訊，請參閱[面板概觀](/help/analysis-workspace/c-panels/panels.md)中的[拖放區域](/help/analysis-workspace/c-panels/panels.md#drop-zone)。
 
 1. 如需詳細資訊，請參閱下列章節：
 
@@ -40,13 +40,13 @@ ht-degree: 7%
 
    * [將量度新增至專案](#add-metrics-to-a-project)
 
-   * [將篩選器新增至專案](#add-filters-to-a-project)
+   * [將區段新增至專案](#add-segments-to-a-project)
 
    * [新增日期範圍至專案](#add-date-ranges-to-a-project)
 
 ### 將維度新增至專案
 
-[Dimension](/help/components/dimensions/overview.md)是Customer Journey Analytics中的變數，通常包含字串值。 相對地，[量度](/help/components/calc-metrics/calc-metr-overview.md)包含繫結至維度的數值。基本報表會針對一個數值 (量度) 欄顯示字串值 (維度) 列。
+[維度](/help/components/dimensions/overview.md)是Customer Journey Analytics中的變數，通常包含字串值。 相對地，[量度](/help/components/calc-metrics/calc-metr-overview.md)包含繫結至維度的數值。基本報表會針對一個數值 (量度) 欄顯示字串值 (維度) 列。
 
 1. 開始將維度新增至您在Analysis Workspace中的專案，如[將元件新增至專案](#add-components-to-a-project)中所述。
 
@@ -56,7 +56,7 @@ ht-degree: 7%
 
    * 將維度拖曳至Analysis Workspace中的視覺效果（例如自由表格）。
 
-   * 從左側面板將一或多個維度拖曳至篩選器拖放區域以建立快速篩選器，如[將篩選器新增至專案](#add-filters-to-a-project)中所述。
+   * 從左側面板將一或多個維度拖曳至區段放置區域以建立快速區段，如[將區段新增至專案](#add-filters-to-a-project)中所述。
 
 1. 您可以選擇使用其他元件在Analysis Workspace中劃分維度和維度專案。 如需詳細資訊，請參閱[在Workspace中劃分維度](/help/components/dimensions/t-breakdown-fa.md)。
 
@@ -93,17 +93,17 @@ ht-degree: 7%
 
 [篩選器](/help/components/filters/filters-overview.md)可讓您根據特性或特定互動來識別人員、工作階段或事件的子集。
 
-您可以透過下列任何方式在Analysis Workspace中使用篩選器：
+您可以透過下列任何方式在Analysis Workspace中使用區段：
 
-* 將篩選器新增至面板
-將篩選器新增至面板時，篩選器會套用至面板內的所有內容。
-如需如何在面板上使用篩選器拖放區域來篩選面板的相關資訊，請參閱[面板概觀](/help/analysis-workspace/c-panels/panels.md)中的[拖放區域](/help/analysis-workspace/c-panels/panels.md#drop-zone)。
+* 新增區段至面板
+將區段新增至面板時，區段會套用至面板內的所有內容。
+如需如何在面板上使用區段拖放區域來劃分面板區段的詳細資訊，請參閱[面板概觀](/help/analysis-workspace/c-panels/panels.md)中的[拖放區域](/help/analysis-workspace/c-panels/panels.md#drop-zone)。
 
-* 新增篩選器至視覺效果
-當您將篩選器新增至自由格式表格中的欄時，篩選器會套用至表格欄內的所有內容。 您也可以新增篩選器作為流失視覺效果的一部分。
+* 新增區段至視覺效果
+將區段新增至自由表格中的欄時，區段會套用至表格欄中的所有內容。 您也可以新增區段作為流失視覺效果的一部分。
 
-* 在元件中使用篩選器
-當您定義[計算量度](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md)、[註解](/help/components/annotations/create-annotations.md#annotation-builder)或甚至[篩選器](/help/components/filters/filter-builder.md)等元件時，可以使用篩選器作為定義的一部分。
+* 在元件中使用區段
+當您定義[計算量度](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md)、[註解](/help/components/annotations/create-annotations.md#annotation-builder)或甚至[區段](/help/components/filters/filter-builder.md)等元件時，可以使用篩選器做為定義的一部分。
 
 
 ### 新增日期範圍至專案

@@ -4,10 +4,10 @@ title: Analysis Workspace 的已知限制
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: de04792035aa7c235751019ee9f9fe5b74b9b102
-workflow-type: ht
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -24,20 +24,20 @@ ht-degree: 100%
 
 ## 視覺效果
 
-* 運用[!UICONTROL 「流失」]、[!UICONTROL 「流量」]、[!UICONTROL 「同類群組」]、[!UICONTROL 「長條圖」]等篩選器的視覺效果，無法將計算量度設為輸入項目。
+* 運用[!UICONTROL 流失]、[!UICONTROL 流量]、[!UICONTROL 同類群組]和[!UICONTROL 色階分佈圖]等區段的視覺效果，無法接受以計算量度作為輸入。
 * [!UICONTROL 流量]：「登入/退出」維度 (例如[!UICONTROL 「登入頁面」]) 無法用於「流量」。
 * [!UICONTROL 同類群組]：非整數無法當作同類群組條件使用。
 
 ## 篩選器
 
-* [!UICONTROL 「事件」]、[!UICONTROL 「人員」]等特定量度和維度無法進行篩選。
-* 在[面板放置區](/help/analysis-workspace/c-panels/panels.md)中建立的臨時篩選器是一種快速篩選器。除非設定為公開，否則它們不會顯示在 Workspace 或篩選器元件管理器的左側面板中。如需更多資訊，請參閱[快速篩選器](/help/components/filters/quick-filters.md)。
+* 某些量度和維度無法分段，例如[!UICONTROL 事件]、[!UICONTROL 人員]等。
+* 在[面板放置區](/help/analysis-workspace/c-panels/panels.md)中建立的臨時區段是快速區段的型別。 除非設定為公開，否則它們不會顯示在 Workspace 或篩選器元件管理器的左側面板中。如需更多資訊，請參閱[快速區段](/help/components/filters/quick-filters.md)。
 
 ## 計算的量度
 
 * 特定視覺化呈現中無法使用計算量度。請參閱[視覺化呈現](#visualizations)。
 * 「[!UICONTROL 歸因]」面板中無法使用計算量度，因為計算量度本身可能包含個別的歸因模型。
-* 如果從 Workspace 中建立計算量度，而非經由[!UICONTROL 「元件 > 篩選器」]建立，則某些元件和運算子將無法使用。 例如 [!UICONTROL IP 位址]。
+* 如果從Workspace中建立計算量度，而非經由[!UICONTROL 元件>區段]建立，則某些元件和運運算元將無法使用， 例如 [!UICONTROL IP 位址]。
 
 ## 日期範圍
 

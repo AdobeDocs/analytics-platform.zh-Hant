@@ -4,10 +4,10 @@ title: 如何設定流量視覺效果
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 90%
 | **[!UICONTROL 建立此路徑的篩選器]** | 建立篩選器。此選取項目會將您帶往「篩選產生器」，讓您在該處設定新篩選器。 |
 | **[!UICONTROL 劃分]** | 依據可用的「維度」、「量度」或「時間」來劃分節點。 |
 | **[!UICONTROL 篩選欄]** | 出現如同在自由格式表格中可用的相同篩選器選項。請參閱[篩選和排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的「套用簡易或進階篩選器置表格」，了解有關可用選項的更多資訊。 |
-| **[!UICONTROL 排除項目]**&#x200B;或&#x200B;**[!UICONTROL 還原排除項目]** | 從欄中移除特定節點，並自動將其建立為欄頂端的篩選器。若要還原排除項目，請從內容選單選取「**[!UICONTROL 還原排除項目]**」。您也可以開啟欄頂端的篩選器，並移除包含剛剛排除的項目的方塊。 |
+| **[!UICONTROL 排除項目]**&#x200B;或&#x200B;**[!UICONTROL 還原排除項目]** | 從欄中移除特定節點，並自動將其建立為欄頂端的篩選器。若要還原排除項目，請從內容選單選取「**[!UICONTROL 還原排除項目]**」。您也可以開啟欄頂端的區段，並移除包含您剛剛排除的專案的Pillbox。 |
 | **[!UICONTROL 趨勢]** | 建立節點的趨勢圖。 |
 | **[!UICONTROL 顯示下一欄]**/**[!UICONTROL 顯示上一欄]** | 顯示視覺效果下一欄 (右邊) 或上一欄 (左邊)。 |
 | **[!UICONTROL 隱藏欄]**n | 隱藏視覺效果的選取欄。 |

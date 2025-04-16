@@ -4,7 +4,7 @@ title: 新增元件說明
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: a0e301130cf7f8c4b3be17dfe52648fde5ee4fe4
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 14%
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 說明可協助使用者瞭解在Analysis Workspace中建置專案或檢視報表時，如何使用各種元件。
 
-Customer Journey Analytics管理員可以在資料檢視中或使用「資料字典」，新增元件（維度、量度、篩選器和日期範圍）的說明。
+Customer Journey Analytics管理員可以在資料檢視中或使用「資料字典」，新增元件（維度、量度、區段和日期範圍）的說明。
 
 ## 在資料檢視中新增說明
 

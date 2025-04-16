@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
 role: User
-source-git-commit: 664576605b8be098a751609536e388c304c65513
-workflow-type: ht
+source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
+workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * 單一日期或日期範圍。
 
-* 您的整個資料集或特定量度、維度或篩選條件。
+* 您的整個資料集或特定量度、維度或區段。
 
 * 建立註解的專案 (預設) 或所有專案。
 
