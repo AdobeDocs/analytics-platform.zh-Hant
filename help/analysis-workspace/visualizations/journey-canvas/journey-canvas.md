@@ -7,7 +7,7 @@ exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
 source-git-commit: 3c9827c4930568edb2022c699585f716a8ca72fe
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 8%
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="歷程畫布"
->abstract="顯示人們如何完成或退出一系列接觸點。用於具有多個入口點和路徑的歷程，或用於分析在Journey Optimizer中建立的歷程。"
+>abstract="顯示人們如何完成或退出一系列接觸點。用於具有多個進入點和路徑的歷程，或用來分析在 Journey Optimizer 中建立的歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="歷程畫布"
->abstract="分析人們如何完成或退出定義的歷程。透過建立代表事件、維度項目和篩選器之任意組合的節點和箭頭彈性圖表，藉此建置使用者歷程分析。拖曳畫布上的節點可重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有Adobe Journey Optimizer存取權的客戶可以分析現有的Journey Optimizer歷程。"
+>abstract="分析人們如何完成或退出定義的歷程。透過建立代表事件、維度項目和篩選器之任意組合的節點和箭頭彈性圖表，藉此建置使用者歷程分析。拖曳畫布上的節點可重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有 Adobe Journey Optimizer 存取權的客戶可以分析現有的 Journey Optimizer 歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -36,7 +36,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button"
 >title="歷程畫布"
->abstract="顯示人們如何完成或退出一系列接觸點。用於具有多個入口點和路徑的歷程，或用於分析在Journey Optimizer中建立的歷程。"
+>abstract="顯示人們如何完成或退出一系列接觸點。用於具有多個進入點和路徑的歷程，或用來分析在 Journey Optimizer 中建立的歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,94 +45,94 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="歷程畫布"
->abstract="分析人們如何完成或退出定義的歷程。透過建立代表事件、維度項目和篩選器之任意組合的節點和箭頭彈性圖表，藉此建置使用者歷程分析。拖曳畫布上的節點可重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有Adobe Journey Optimizer存取權的客戶可以分析現有的Journey Optimizer歷程。"
+>abstract="分析人們如何完成或退出定義的歷程。透過建立代表事件、維度項目和篩選器之任意組合的節點和箭頭彈性圖表，藉此建置使用者歷程分析。拖曳畫布上的節點可重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有 Adobe Journey Optimizer 存取權的客戶可以分析現有的 Journey Optimizer 歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄Journey Canvas視覺效果。<br/>**Adobe Analytics**&#x200B;中沒有對應的視覺效果。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的歷程畫布視覺效果。<br/>**Adobe Analytics** 中沒有相等的視覺效果。_
 
 >[!ENDSHADEBOX]
 
-Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和客戶的歷程。 它可讓您從頭開始定義歷程，或從Journey Optimizer檢視歷程，然後檢視人們如何離開（流失）或繼續通過（流過）歷程。
+歷程畫布視覺效果讓您可以分析並深入了解您為使用者和客戶提供的歷程。此視覺效果允許您從頭開始定義歷程或從 Journey Optimizer 中查看歷程，然後查看人們如何離開 (流失) 或繼續 (流過) 歷程。
 
-您可以[使用任何事件、維度專案、篩選器和日期範圍的組合，建立使用者歷程](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)的分析，以建立歷程節點。 連線節點以建立歷程的流程，並包含多個路徑和決定點。 拖曳畫布上的節點以重新排列歷程的事件和條件。 當您進行變更時，資料會即時更新。
+你可以[建立使用者歷程分析](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)，方法是透過使用事件、維度項目、篩選器和日期範圍的任意組合來建立歷程節點。連接節點以建立歷程流程，並包含多條路徑和決策點。拖曳動畫布上的節點，以重新排列歷程的事件和條件。當您進行變更時，資料會即時更新。
 
-[節點已連線](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)為「最終路徑」，這表示無論這2個節點之間發生任何事件，只要訪客最終從一個節點移至另一個節點即會計入訪客。 為使用者沿路徑移動所分配的時間取決於容器設定。
+[節點已連接](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)作為「最終路徑」，這表示只要訪客最後從一個節點移動到另一個節點，就會被計算在內，而不管兩個節點之間發生什麼事件。使用者沿著路徑移動所分配的時間由容器設定來決定。
 
 ![歷程畫布](assets/journey-canvas.png)
 
 ## 主要功能
 
-Journey Canvas視覺效果的主要功能包括：
+歷程畫布視覺效果的主要功能包括：
 
-* 針對最複雜的使用者旅程進行的流失和流過深度分析。
+* 考慮最複雜的使用者歷程下，流失和流過的深入分析。
 
-* 對應和視覺化使用者歷程的各種入口點、節點和路徑的畫布。
+* 對應和視覺化使用者歷程各個入口點、節點和路徑的畫布。
 
-* 以拖放互動方式將元件新增至畫布並重新定位現有節點。
+* 透過拖放互動將元件新增至畫布，並重新定位現有節點。
 
-* 在Journey Canvas中建立使用者歷程分析或根據Journey Optimizer歷程自動建立歷程的選項。
+* 在歷程畫布內建立使用者歷程分析，或根據 Journey Optimizer 歷程自動建立分析。
 
-## 可能的深入分析
+## 潛在的深入分析和見解
 
-歷程畫布為最複雜的歷程提供可操作的深入分析。
+歷程畫布會為最複雜的歷程提供可操作分析。
 
 ### 轉換率最高的路徑 {#conversion-rate-caption}
 
-歷程畫布中最顯眼的insight會在畫布本身頂端顯示註解。
+歷程畫布中最突出的分析顯示為畫布最上方的標題。
 
-此註解會摘要歷程中的所有路徑中，哪些路徑的轉換率最高。
+此標題總結歷程中哪條路徑的轉換率最高。
 
-當歷程包含多個開始節點時，標題看起來像這樣：
+當歷程包含多個起始節點時，標題如下所示：
 
-![歷程畫布insight標題](assets/journey-canvas-caption.png)
+![歷程畫布分析標題](assets/journey-canvas-caption.png)
 
-當歷程包含單一開始節點時，標題看起來像這樣：
+當歷程包含單一起始節點時，標題如下所示：
 
-![歷程畫布insight註解單一開始節點](assets/journey-canvas-caption-singlestart.png)
+![歷程畫布分析標題單一起始節點](assets/journey-canvas-caption-singlestart.png)
 
-解譯此註解時，請考量下列事項：
+解釋此標題時，請考慮以下幾點：
 
-* _路徑_&#x200B;定義為起始節點，透過箭頭連線至結束節點，且節點之間連線任何數量的節點。
+* _路徑_&#x200B;是定義為透過箭頭連接到終止節點的起始節點，並且之間連接任意數量的節點。
 
-* 轉換率計算取決於歷程型別（歷程中包含的開始節點和結束節點數量，以及路徑是否相交）。
+* 轉換率的計算取決於歷程的類型 (歷程包含的起始節點和終點節點的數量，以及二者之間的路徑是否相交)。
 
-  下表說明如何根據歷程型別計算轉換率：
+  下表描述如何根據歷程類型計算轉換率：
 
-  | 歷程型別 | 轉換率計算 | 範例 |
+  | 歷程類型 | 轉換率計算 | 範例 |
   |---------|----------|---------|
-  | **單一開始節點與單一結束節點** | 轉換率的計算方式是將結束節點的數量除以開始節點的數量。 | ![有多重開始之旅會聚至共同節點](assets/journey-canvas-single-path.png) |
-  | **單一開始節點與多個結束節點** | 轉換率的計算方式是找出具有最高數目的結束節點，然後將該數目除以開始節點的數目。 | ![有多重開始之旅會聚至共同節點](assets/journey-canvas-singlestart-multiend.png) |
-  | **多個獨立路徑，每個路徑包含單一開始節點和單一結束節點** | 轉換率的計算方式是將結束節點的數量除以開始節點的數量。 標題中會說明轉換率最高的路徑。 | ![有多重開始之旅會聚至共同節點](assets/journey-canvas-multi-start-separate.png) |
-  | **歷程中任何時間點會聚成共同節點的多個開始節點** | 轉換率的計算方式是尋找具有最高編號的結束節點，然後將該編號除以具有最低編號的開始節點。 | ![有多重開始之旅會聚至共同節點](assets/journey-canvas-multi-start-converge.png) |
+  | **單一起始節點和單一結束節點** | 轉換率的計算方式是將結束節點的數量除以起始節點的數量。 | ![有多個起始點但匯集至一個共同節點的歷程](assets/journey-canvas-single-path.png) |
+  | **單一起始節點和多個結束節點** | 轉換率的計算方法是找出數量最高的結束節點，然後將該數量除以起始節點的數量。 | ![有多個起始點但匯集至一個共同節點的歷程](assets/journey-canvas-singlestart-multiend.png) |
+  | **多個獨立路徑，每個路徑包含一個起始節點和一個結束節點** | 轉換率的計算方式是將結束節點的數量除以起始節點的數量。標題內有轉換率最高的路徑說明。 | ![有多個起始點但匯集至一個共同節點的歷程](assets/journey-canvas-multi-start-separate.png) |
+  | **多個起始節點，且歷程的任何一點會匯集一個共同節點** | 轉換率的計算方法是找出數量最高的結束節點，然後將該數量除以數量最低的起始節點數量。 | ![有多個起始點但匯集至一個共同節點的歷程](assets/journey-canvas-multi-start-converge.png) |
 
-### 流過、流失等
+### 流過、流失及其他
 
-以下是Journey Canvas可以協助提供的一些其他深入分析範例。 您可以選擇這些見解是根據資料檢視中的所有人員、所有開始歷程的人員，還是歷程先前節點的所有人員。
+以下是歷程畫布可幫助提供其他分析的一些範例。您可以選擇這些分析是否依據後者來進行：資料檢視中的所有人、開始歷程的所有人或來自歷程上一個節點的所有人。
 
-#### 區間
+#### 流過
 
-* 完成歷程（到達結束節點）的人數與百分比
+* 完成歷程 (到達結束節點) 的人數和百分比
 
-* 到達歷程指定節點的人員數目和百分比
+* 到達歷程中特定節點的人數和百分比
 
-* 在歷程的指定節點之後或之前的最常見步驟
+* 在歷程中特定節點之後或之前最常見的步驟
 
 #### 流失
 
-* 人們最常離開歷程的歷程節點（從未到達任何緊接的下一個節點）
+* 歷程中最常出現中途退出的節點 (從未到達任何接下來的節點)
 
-#### 每個節點的其他資料
+#### 每個節點更多資料
 
-* 在歷程的任何節點上新增劃分維度，以檢視該特定節點的其他資料
+* 在歷程任何節點上新增劃分維度，以查看該特定節點的其他資料
 
-## 在歷程畫布、流失或流量視覺效果之間選擇
+## 在歷程畫布、流失或流量視覺效果之間作選擇
 
-歷程畫布視覺效果與[流失視覺效果](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)和[流量視覺效果](/help/analysis-workspace/visualizations/c-flow/flow.md)有共同之處，但有重要的差異。
+歷程畫布視覺效果與[流失視覺效果](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)和[流量視覺效果](/help/analysis-workspace/visualizations/c-flow/flow.md)有相似之處，但也有重要的差異。
 
-### 瞭解差異
+### 了解差異性
 
 <!-- Information in this snippet is shared between Journey canvas, Fallout, and Flow visualization docs -->
 
@@ -140,67 +140,67 @@ Journey Canvas視覺效果的主要功能包括：
 
 ### 何時使用歷程畫布
 
-歷程畫布對以下專案至關重要：
+歷程畫布對以下方面至關重要：
 
-* 涉及具有多個進入點和路徑的歷程的流失分析。
+* 對有多個入口點和路徑的歷程進行流失分析。
 
-* 具有多個入口點和路徑的非線性歷程，具有預先定義的頁面順序。
+* 有多個入口點和路徑的非線性歷程，且其中有預先定義的頁面序列。
 
-* 探索性的Ad Hoc Analysis，根據預先定義的歷程。
+* 根據預先定義歷程進行的探索性臨時分析。
 
-* 分析需要「工作階段」、「人員」或「發生次數」以外的主要量度。
+* 需要主要量度的分析，但工作階段、人員或發生次數除外。
 
-* 對源自Adobe Journey Optimizer的歷程進行更深入的分析。
+* 對源自 Adob&#x200B;&#x200B;e Journey Optimizer 的歷程進行更深入的分析。
 
-使用[上表](#understand-the-differences)來瞭解「歷程」畫布、「流失」和「流量」視覺效果之間的差異。
+使用[上面表格](#understand-the-differences)來了解歷程畫布、流失和流量視覺效果之間的差異。
 
-## 分析Journey Optimizer歷程
+## 分析 Journey Optimizer 歷程
 
 >[!NOTE]
 >
->如果貴組織沒有Journey Optimizer的存取權，您仍可[在Journey Canvas](#build-analyses-in-customer-journey-analytics)中建置分析。
+>如果您的組織無法存取 Journey Optimizer，您仍然可以[在歷程畫布中建立分析](#build-analyses-in-customer-journey-analytics)。
 
-在Journey Canvas中分析Journey Optimizer歷程可針對人們如何與歷程互動提供深入且可行的深入分析。
+在歷程畫布中分析 Journey Optimizer 歷程，可以提供人們如何與歷程互動的可操作的深入分析。
 
-當您在Journey Canvas中分析Journey Optimizer歷程時，該歷程的顯示順序、順序和結構與Journey Optimizer中相同。 如果您對Journey Canvas中的歷程進行重大變更，[變更將不再與Journey Optimizer](#synchronization-between-journey-optimizer-and-journey-canvas)同步。
+當您在歷程畫布中分析 Journey Optimizer 歷程時，該歷程將以與 Journey Optimizer 中相同的順序、序列和結構來顯示。如果您在歷程畫布中對歷程進行大幅變更，[變更將不再從 Journey Optimizer 進行同步](#synchronization-between-journey-optimizer-and-journey-canvas)。
 
-### 使用歷程畫布分析Journey Optimizer歷程的好處
+### 使用歷程畫布分析 Journey Optimizer 歷程的好處
 
-Journey Canvas提供在Journey Optimizer中無法提供的深入徹底分析。
+歷程畫布提供在 Journey Optimizer 無法實現的徹底深入分析。
 
-使用歷程畫布來分析在Journey Optimizer中建立的歷程提供各種好處：
+使用歷程畫布分析在 Journey Optimizer 中建立的歷程，有多種好處：
 
-* 使用任何Customer Journey Analytics維度、量度、篩選器或日期範圍來建立事件。
+* 使用任何 Customer Journey Analytics 維度、量度、篩選器或日期範圍來建立事件。
 
-  在Journey Optimizer中，技術使用者必須先建立事件，才能將其新增至歷程。
+  在 Journey Optimizer 中，技術使用者必須先建立事件，然後才能將其新增至歷程。
 
-* 根據您建立的自訂節點建立對象(啟動Customer Journey Analytics對象產生器)。
+* 根據您建立的自訂節點來建立客群 (啟動 Customer Journey Analytics 客群建立器)。
 
-  在Journey Optimizer中，您只能為預先定義的活動建立對象。
+  在 Journey Optimizer 中，您只能為預先定義的活動建立客群。
 
 * 分析流過和流失
 
-* 使用任何維度劃分事件
+* 以任何維度劃分事件
 
 * 合併事件
 
-* 連線事件
+* 連接事件
 
-* 重新命名和刪除事件
+* 重新命名與刪除事件
 
-* 更多內容
+* 更多
 
-### Journey Optimizer和Journey Canvas之間的同步
+### Journey Optimizer 與歷程畫布之間的同步
 
 請考慮下列行為來瞭解Journey Optimizer與Journey Canvas之間的同步：
 
 * **資料同步僅是單向的**
 
-  在Journey Canvas中建立Journey Optimizer歷程的分析後，資料只會以一個方向同步，從Journey Optimizer到Journey Canvas。 這表示對Journey Canvas中的歷程所做的變更絕不會反映在Journey Optimizer中。
+  在歷程畫布中建立 Journey Optimizer 歷程分析後，資料只會朝一個方向同步，即從 Journey Optimizer 到歷程畫布。這表示在歷程畫布中對歷程進行的變更絕不會反映在 Journey Optimizer 中。
 
 * **在Journey Canvas中修改歷程會停止同步**
 
-  只有在歷程畫布](#differences-after-modifying-a-journey-in-journey-canvas)中的歷程未遭大幅修改時，對Journey Optimizer中的歷程所做的變更才會同步至歷程畫布[。 在您修改Journey Canvas中的歷程後，您在Journey Optimizer中對歷程所做的任何變更都不會反映在Journey Canvas中。 若要檢視反映在歷程畫布中的變更，您可以在Journey畫布中刪除並重新建立歷程[](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+  只有在歷程畫布](#differences-after-modifying-a-journey-in-journey-canvas)中的歷程未遭大幅修改時，對Journey Optimizer中的歷程所做的變更才會同步至歷程畫布[。 在歷程畫布中修改歷程後，您在 Journey Optimizer 中對歷程所做的任何變更都不會反映在歷程畫布中。若要查看歷程畫布中反映的變更，您可以刪除[歷程畫布中的歷程並重新建立](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
 
 * **使用「與任何人共用」連結時，在Journey Optimizer中完成變更後，專案必須儲存在Customer Journey Analytics中**
 
@@ -210,55 +210,55 @@ Journey Canvas提供在Journey Optimizer中無法提供的深入徹底分析。
 
 ### 在歷程畫布中修改歷程後的差異 {#differences-after-modifying}
 
-在歷程畫布中修改Journey Optimizer歷程後，資料處理、可用功能和同步行為可能會變更。
+在歷程畫布中修改 Journey Optimizer 歷程後，資料處理、可用功能和同步行為可能會改變。
 
-如果您對Journey Canvas中的Journey Optimizer歷程進行重大修改，資料處理、可用功能和同步行為可能會發生變更。 重大修改包括下列任一項作業：
+如果您在歷程畫布中對 Journey Optimizer 歷程進行大幅修改，資料處理、可用功能和同步行為可能會改變。大幅修改包括以下任何一項：
 
-* 新增或移除節點
+* 新增或刪除節點
 
-* 在節點之間新增或移除箭頭
+* 新增或刪除節點之間的箭頭
 
 * 變更節點上的元件
 
-如果您對「歷程」畫布中的Journey Optimizer歷程進行其他變更，例如拖曳節點或新增劃分，則以下各節所述的差異不適用。
+如果您在歷程畫布中對 Journey Optimizer 歷程進行其他變更，例如拖曳節點或新增劃分，則以下部分說明的差異不適用。
 
 >[!NOTE]
 >
->若要將歷程恢復為原始狀態，您可以在歷程畫布中進行首次變更後按下Ctrl+z。 或者，您可以在歷程畫布中刪除並[重新建立歷程](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+>若要將歷程恢復到原始狀態，您可以在歷程畫布中進行第一次變更，然後按 Ctrl+z。或者，您可以刪除[歷程畫布中的歷程並重新建立](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
 
 #### 資料處理差異
 
-在Journey Canvas中修改Journey Optimizer歷程後，如果您的歷程包含具有非預設歸因模型的量度，您可能會注意到資料變更。
+在歷程畫布中修改 Journey Optimizer 歷程後，如果您的歷程包含具有非預設歸因模型的量度，您可能會注意到資料發生變化。
 
-這是因為Journey Optimizer不同，歷程畫布可讓您在單一歷程中套用多個維度。 此功能表示不支援[量度歸因](/help/data-views/component-settings/attribution.md)。
+這是因為與 Journey Optimizer 不同，歷程畫布允許您在一次歷程中應用多個維度。此功能表示[量度歸因](/help/data-views/component-settings/attribution.md)不受支援。
 
 #### 功能差異
 
-在歷程畫布中修改Journey Optimizer歷程後，[!UICONTROL **箭頭設定**]&#x200B;下拉式欄位中可用的選項會隨著您的修改而變更。 如需詳細資訊，請參閱[設定設定](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+在歷程畫布中修改Journey Optimizer歷程後，[!UICONTROL **箭頭設定**]&#x200B;下拉式欄位中可用的選項會隨著您的修改而變更。 如需詳細資訊，請參閱「[設定進行](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。
 
-[!UICONTROL **節點型別**]&#x200B;欄位只能在Journey Optimizer中使用。 無論您是否在Journey Canvas中修改歷程，在歷程畫布中檢視Journey Optimizer歷程時都無法使用此功能。
+「[!UICONTROL **節點類型**]」欄位僅適用於 Journey Optimizer。在歷程畫布中查看 Journey Optimizer 歷程時無法使用此功能，無論您是否在歷程畫布中對歷程進行修改。
 
-#### 同步化差異
+#### 同步差異
 
-對Journey Optimizer中的歷程所做的變更，只有在歷程在Journey Canvas中保持未修改狀態時，才會同步至Journey Canvas。
+只有在歷程畫布中的歷程保持不變時，對 Journey Optimizer 中的歷程進行的變更才會同步到歷程畫布。
 
-在歷程畫布中修改Journey Optimizer歷程後，您對Journey Optimizer中的歷程所做的任何變更都不會反映在歷程畫布中。 若要檢視反映在歷程畫布中的變更，您可以在Journey畫布中刪除並重新建立歷程[](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+在歷程畫布中修改 Journey Optimizer 歷程後，您在 Journey Optimizer 中對歷程所做的任何變更都不會反映在歷程畫布中。若要查看歷程畫布中反映的變更，您可以刪除[歷程畫布中的歷程並重新建立](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
 
-### Journey Optimizer和Customer Journey Analytics之間的術語差異
+### Journey Optimizer 與 Customer Journey Analytics 之間的專業術語差異
 
-Journey Optimizer中代表一件事的特定字詞，在Customer Journey Analytics中代表其他事物。 使用歷程畫布時，會使用Customer Journey Analytics術語。
+某些用語在 Journey Optimizer 中具有某種含義，而在 Customer Journey Analytics 中則具有其他含義。使用歷程畫布時，會使用 Customer Journey Analytics 用語。
 
 | 詞語 | 歷程畫布 | Journey Optimizer |
 |---------|----------|---------|
-| **Event** | Customer Journey Analytics提供的數個標準量度之一。 此量度會計入收入、訂閱或產生的潛在客戶等。 | 觸發個人化歷程（例如線上購買）的活動類別。 |
+| **事件** | Customer Journey Analytics 中提供的多個標準量度之一。此量度會計入營收、訂閱或產生的潛在客戶等類。 | 觸發個人化歷程的活動類別，例如線上購買。 |
 
-### 在歷程畫布中分析Journey Optimizer歷程
+### 在歷程畫布中分析 Journey Optimizer 歷程
 
-如需有關在Journey Canvas中分析Journey Optimizer歷程的資訊，請參閱[設定Journey Canvas視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+有關在歷程畫布中分析 Journey Optimizer 歷程的資訊，請參閱「[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。
 
-## 在Journey Canvas中建立分析
+## 在歷程畫布中建立分析
 
-您可以在Journey Canvas中建立以Analysis Workspace中可用的任何維度或量度為基礎的分析。 或者，您也可以分析在Journey Optimizer中建立的歷程。 如需詳細資訊，請參閱[設定Journey Canvas視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+您可以在歷程畫布中建立以 Analysis Workspace 中適用任何維度或量度的分析。或者，您可以分析在 Journey Optimizer 中建立的歷程。若要了解更多資訊，請參閱「[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。
 
 
 >[!MORELIKETHIS]
