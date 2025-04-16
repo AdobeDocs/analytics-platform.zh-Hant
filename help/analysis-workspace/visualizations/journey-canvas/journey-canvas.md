@@ -4,10 +4,10 @@ title: 歷程畫布
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 3c9827c4930568edb2022c699585f716a8ca72fe
+source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="歷程畫布"
->abstract="分析人們如何完成或退出定義的歷程。透過建立代表事件、維度項目和篩選器之任意組合的節點和箭頭彈性圖表，藉此建置使用者歷程分析。拖曳畫布上的節點可重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有 Adobe Journey Optimizer 存取權的客戶可以分析現有的 Journey Optimizer 歷程。"
+>abstract="分析人們如何完成或退出定義的歷程。透過建立代表任何事件、維度專案和區段組合的靈活節點和箭頭圖表，建立使用者歷程的分析。 拖曳動畫布上的節點，以重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有 Adobe Journey Optimizer 存取權的客戶可以分析現有的 Journey Optimizer 歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="歷程畫布"
->abstract="分析人們如何完成或退出定義的歷程。透過建立代表事件、維度項目和篩選器之任意組合的節點和箭頭彈性圖表，藉此建置使用者歷程分析。拖曳畫布上的節點可重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有 Adobe Journey Optimizer 存取權的客戶可以分析現有的 Journey Optimizer 歷程。"
+>abstract="分析人們如何完成或退出定義的歷程。透過建立代表任何事件、維度專案和區段組合的靈活節點和箭頭圖表，建立使用者歷程的分析。 拖曳動畫布上的節點，以重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有 Adobe Journey Optimizer 存取權的客戶可以分析現有的 Journey Optimizer 歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +57,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 歷程畫布視覺效果讓您可以分析並深入了解您為使用者和客戶提供的歷程。此視覺效果允許您從頭開始定義歷程或從 Journey Optimizer 中查看歷程，然後查看人們如何離開 (流失) 或繼續 (流過) 歷程。
 
-你可以[建立使用者歷程分析](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)，方法是透過使用事件、維度項目、篩選器和日期範圍的任意組合來建立歷程節點。連接節點以建立歷程流程，並包含多條路徑和決策點。拖曳動畫布上的節點，以重新排列歷程的事件和條件。當您進行變更時，資料會即時更新。
+您可以[使用任何事件、維度專案、區段和日期範圍的組合，建立使用者歷程](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)的分析，以建立歷程節點。 連接節點以建立歷程流程，並包含多條路徑和決策點。拖曳動畫布上的節點，以重新排列歷程的事件和條件。當您進行變更時，資料會即時更新。
 
 [節點已連接](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)作為「最終路徑」，這表示只要訪客最後從一個節點移動到另一個節點，就會被計算在內，而不管兩個節點之間發生什麼事件。使用者沿著路徑移動所分配的時間由容器設定來決定。
 
@@ -170,7 +170,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 使用歷程畫布分析在 Journey Optimizer 中建立的歷程，有多種好處：
 
-* 使用任何 Customer Journey Analytics 維度、量度、篩選器或日期範圍來建立事件。
+* 使用任何Customer Journey Analytics維度、量度、區段或日期範圍來建立事件。
 
   在 Journey Optimizer 中，技術使用者必須先建立事件，然後才能將其新增至歷程。
 
