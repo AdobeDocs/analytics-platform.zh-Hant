@@ -1,5 +1,5 @@
 ---
-source-git-commit: d91a00036cbbfa21c7d0a772ccbefb2ab37a4c59
+source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
 workflow-type: tm+mt
 source-wordcount: '3796'
 ht-degree: 30%
@@ -235,7 +235,7 @@ Customer Journey Analytics中的各種視覺效果都是為了分析您提供給
 
 >[!AVAILABILITY]
 >
->本文所述的功能，以及任何其他徽章為[!BADGE B2B edition]{type=Informative}的文章或功能。  處於發行的有限測試階段，可能尚未在您的環境中提供。 <br/>此外，[!BADGE B2B edition]{type=Informative} [!BADGE B2B edition]{type=Informative}功能的功能和檔案可能會有所變更，因此無法從中衍生任何法律義務。<br/>此附註將在功能正式可用時移除。 如需Customer Journey Analytics發行程式的相關資訊，請參閱[Customer Journey Analytics功能發行](/help/release-notes/releases.md)。
+>本文所述的功能，以及任何其他以[!BADGE B2B edition]{type=Informative}標示的功能都處於發行的有限測試階段，可能尚未在您的環境中提供。 <br/>此外，[!BADGE B2B edition]{type=Informative} [!BADGE B2B edition]{type=Informative}功能的功能和檔案可能會有所變更，因此無法從中衍生任何法律義務。<br/>此附註將在功能正式可用時移除。 如需Customer Journey Analytics發行程式的相關資訊，請參閱[Customer Journey Analytics功能發行](/help/release-notes/releases.md)。
 >
 
 

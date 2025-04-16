@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: ff9d8cbe25dca2bbf1ab41891c20476909516b66
+source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
 workflow-type: tm+mt
-source-wordcount: '4701'
-ht-degree: 99%
+source-wordcount: '4716'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2025 年 4 月** | |
+| 檢視和管理使用情況 | 已重寫如何[檢視](/help/connections/manage-connections.md#usage)和[管理](/help/technotes/estimate-usage.md) Customer Journey Analytics使用的檔案 |
 | 內容分析 | Adobe Content Analytics的[檔案](/help/content-analytics/content-analytics.md)。 Content Analytics可讓您快速輕鬆地調查大量內容資料，以找出趨勢、找出異常、識別內容疲勞，以及從內容曝光中獲得深入分析。 |
 | **2025 年 3 月** | |
 | Quantum Metric 使用案例 | 新增了從 [Quantum Metric](/help/use-cases/third-party/quantum-metric/collect-session-id.md) 收集資料的使用案例。 |
@@ -193,7 +194,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 日期 | 更新說明 |
 | --- | --- |
 | **2022 年 12 月** |  |
-| 2022 年 12 月 16 日 | 新增有關[測量及管理 Customer Journey Analytics 資料使用情況](/help/technotes/estimate-usage.md)的主題。 |
+| 2022 年 12 月 16 日 | 有關[管理Customer Journey Analytics資料使用量](/help/technotes/estimate-usage.md)的新主題。 |
 | **2022 年 10 月** | |
 | 2022 年 10 月 | 有關[排程專案的密碼保護](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=zh-Hant#password)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
 | 2022 年 10 月 | 有關[客戶自控金鑰](/help/privacy/cmk.md)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
