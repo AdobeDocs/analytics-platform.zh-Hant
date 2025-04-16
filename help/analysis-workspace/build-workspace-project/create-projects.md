@@ -4,10 +4,10 @@ title: 建立專案
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 04586de02765ddeba72aca3132b9eca5d22aced7
+source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 88%
+source-wordcount: '431'
+ht-degree: 95%
 
 ---
 
@@ -92,7 +92,14 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 | 顯示註解 | 指定是否顯示此專案的註解。 |
 | [專案調色盤](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 您可以變更用於 Workspace 的分類調色盤，其方式為選擇已針對色盲人士最佳化的立即可用調色盤或指定您的自訂調色盤。此功能會影響工作區中的許多項目，包括大部分的視覺效果。 |
 | [檢視密度](/help/analysis-workspace/build-workspace-project/view-density.md) | 可減少左側面板、自由格式表格和同類群組表格的垂直邊框間距，讓您在畫面上查看更多資料。 |
-| 允許評論 | 啟用此選項後，可在Analysis Workspace中專案的右側邊欄中使用註解區域。 如需詳細資訊，請參閱[在專案中新增和管理註解](/help/analysis-workspace/build-workspace-project/comment-projects.md)。 |
+
+<!--
+
+Add this to the table above - exchange - for pipe: (End of April, 2025 when project commenting is GA)
+
+Allow commenting - When this option is enabled, a comments area is available in the right rail of the project in Analysis Workspace. For more information, see [Add and manage comments in projects](/help/analysis-workspace/build-workspace-project/comment-projects.md). 
+
+-->
 
 
 

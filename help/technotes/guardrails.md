@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: fbe351bdf6ce451a5c5b5aac4d7cbc2a4c0ba7e5
+source-git-commit: 3b4917dade478f327ee3f532c5d72c4ca7656067
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1760'
 ht-degree: 7%
 
 ---
@@ -53,14 +53,23 @@ ht-degree: 7%
 | 每個專案的面板 | 15 | 系統強制的護欄 | 每個專案最多[個面板](../analysis-workspace/home.md#panels)個。 |
 | 每個面板的視覺效果 | 25 | 系統強制的護欄 | 每個面板最多[個視覺效果](../analysis-workspace/home.md#visualizations)個。 |
 | 每個自由表格的衍生欄位 | 5 | 系統強制的護欄 | 單一自由表格中不同衍生欄位的最大數量。 |
-| 每個專案的註解 | 1,000 | 系統強制的護欄 | 每個專案的最大評論數量。 |
-| 每個評論的回覆 | 100 | 系統強制的護欄 | 每個評論的最大回複數。 |
-| 每個註解的影像 | 5 | 系統強制的護欄 | 每個註解的最大影像數量。 |
-| 影像大小 | 2 | 系統強制的護欄 | 每個影像的最大上傳大小（以MB為單位） |
 
 {style="table-layout:auto"}
 
+
 <!--
+
+Add this to the table above, change - for pipe : (End of April, 2025 when project commenting is GA)
+
+Comments per project - 1,000 - System-enforced Guardrail - Maximum number of comments per project. 
+Replies per comment - 100 - System-enforced Guardrail - Maximum number of replies per comment. 
+Images per comment - 5 - System-enforced Guardrail - Maximum number of images per comment. 
+Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB 
+
+-->
+
+<!--
+
 ## Attribution AI
 
 | Name |  Value | Description | PD? |
@@ -69,7 +78,6 @@ ht-degree: 7%
 | Region based iterations | 10 | Maximum number of region-based iterations of each Attribution AI model. | ![check](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)  | 
 | Export Insights batches | 12 | Maximum number of export batches times the number of authorized Attribution AI Insights per year. | ![check](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) | 
 
-{style="table-layout:auto"}
 -->
 
 ## 客群
