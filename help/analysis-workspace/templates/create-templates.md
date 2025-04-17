@@ -4,10 +4,10 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: 0f4b396bb44612ef52b640ffaeba6aa5aeace423
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 98%
+source-wordcount: '1774'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,16 @@ ht-degree: 98%
 
 登入公司中的人員可以依照「[使用範本](/help/analysis-workspace/templates/use-templates.md)」中的說明使用這些公司範本。
 
-## 建立範本
+## 建立範本 {#create-templates}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="use-case-ajo-template"
+>title="在Journey Optimizer中使用範本"
+>abstract="當您在Journey Optimizer中使用此範本時，無論在Customer Journey Analytics中使用此範本選取的資料檢視為何，都會使用在Adobe Journey Optimizer中設定為預設資料檢視的資料檢視。"
+
+<!-- markdownlint-enable MD034 -->
 
 若要建立可供您登入公司的人員使用的新範本：
 
@@ -86,7 +95,7 @@ ht-degree: 98%
    | **[!UICONTROL 說明]** | 為範本提供簡短說明，內容要說明其預期用途。 |
    | **[!UICONTROL 為什麼使用此範本]** | 提供簡短說明，以告知組織中的人員如何使用此範本。此說明會顯示在範本的預覽頁面上。 |
    | **[!UICONTROL 頻道]** | 選擇套用於此範本的任何適用管道。您可以選取多個管道： **[!UICONTROL 網頁]**、**[!UICONTROL 行動]**、**[!UICONTROL 跨管道]**、**[!UICONTROL 呼叫中心]**&#x200B;和&#x200B;**[!UICONTROL 商店內]**&#x200B;如果未選取任何管道，則範本會包含在所有管道中。<p>您選擇的選項會決定範本的顯示位置，以及從組織範本頁面存取該範本要採用的篩選器。</p> |
-   | **[!UICONTROL 使用案例]** | 選擇套用此範本的任何使用案例。您可以選取多個使用案例： **[!UICONTROL 參與度]**、**[!UICONTROL 轉換率]**、**[!UICONTROL 客群]**、**[!UICONTROL 贏取]**&#x200B;和 **[!UICONTROL Journey Optimizer]**。 <p>您的選擇決定範本在組織範本頁面上的位置。使用者可以導覽至範本，也可以按使用案例來篩選清單。 </p><p>**註：**&#x200B;選擇 **[!UICONTROL Journey Optimizer]** 也可在 Adob&#x200B;&#x200B;e Journey Optimizer 中使用範本。在 Journey Optimizer 中，**[!UICONTROL 報告]**&#x200B;頁面上有一個下拉式選單，允許使用者選取此範本或預設範本。若要了解更多資訊，請參閱 Journey Optimizer 中的「[開始使用更新的報告體驗](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja)」。 |
+   | **[!UICONTROL 使用案例]** | 選擇套用此範本的任何使用案例。您可以選取多個使用案例： **[!UICONTROL 參與度]**、**[!UICONTROL 轉換率]**、**[!UICONTROL 客群]**、**[!UICONTROL 贏取]**&#x200B;和 **[!UICONTROL Journey Optimizer]**。 <p>您的選擇決定範本在組織範本頁面上的位置。使用者可以導覽至範本，也可以按使用案例來篩選清單。 </p><p>**注意：**&#x200B;當您選取&#x200B;**[!UICONTROL Journey Optimizer]**&#x200B;選項時，範本可在Adobe Journey Optimizer中使用。 在 Journey Optimizer 中，**[!UICONTROL 報告]**&#x200B;頁面上有一個下拉式選單，允許使用者選取此範本或預設範本。若要了解更多資訊，請參閱 Journey Optimizer 中的「[開始使用更新的報告體驗](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja)」。</p><p>選取Journey Optimizer選項時，請考量下列事項：</p><ul><li>只有當您在Customer Journey Analytics中使用的資料檢視中有Journey Optimizer資料時，才可使用此選項。</li><li>當您在Journey Optimizer中使用此範本時，無論在Customer Journey Analytics中使用此範本選取的資料檢視為何，都會使用在Adobe Journey Optimizer中設定為預設資料檢視的資料檢視。 <br/>如需有關在Journey Optimizer中將資料檢視設定為預設資料檢視的詳細資訊，請參閱[建立或編輯資料檢視](/help/data-views/create-dataview.md)中的[相容性](/help/data-views/create-dataview.md#compatibility)。</li></ul> |
    | **[!UICONTROL Journey Optimizer 活動類型]** | 選擇要與此範本關聯的 Journey Optimizer 活動類型： **[!UICONTROL 行銷活動]**、**[!UICONTROL 歷程]**、**[!UICONTROL 登陸頁面]**、**[!UICONTROL 報告]**&#x200B;或 **[!UICONTROL 訂閱]**。 <p>如果您希望此範本與所有活動類型關聯，請將此欄位留空。</p><p>只有在「**[!UICONTROL 使用案例]**」欄位中選取 **[!UICONTROL Journey Optimizer]** 時，此欄位才會顯示。</p> |
    | **[!UICONTROL Journey Optimizer 活動]** | 選擇要與此範本關聯的 Journey Optimizer 活動。 <p>如果您希望此範本與所選活動類型的所有活動相關聯，請將此欄位留空。</p><p>只有在「**[!UICONTROL 使用案例]**」欄位中選取 **[!UICONTROL Journey Optimizer]** 時，此欄位才會顯示。</p> |
    | **[!UICONTROL 標記]** | 指定您想要套用於範本的任何索引標籤。人員可以根據您新增的索引標籤來篩選範本清單。 |
