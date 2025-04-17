@@ -1,24 +1,24 @@
 ---
-description: 篩選器產生器提供的畫布可用來拖放量度維度、篩選器和事件，以便根據容器階層邏輯、規則和運運算元來篩選人員。 此整合式開發工具可讓您建立並儲存簡單或複雜的篩選器，用於識別跨造訪和事件的人員屬性和動作。
-title: 建置篩選器
+description: 區段產生器提供畫布來拖放量度維度、區段和事件，以便根據容器階層邏輯、規則和運運算元來區分人員。 此整合式開發工具可讓您建立並儲存簡單或複雜的區段，用以識別跨造訪及事件的人員屬性和動作。
+title: 建立區段
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 10%
+source-wordcount: '1571'
+ht-degree: 46%
 
 ---
 
-# 建置篩選器 {#build-filters}
+# 建立區段 {#build-segments}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="建立對象"
->abstract="對象可以透過篩選器建立，並與 Adobe Experience Platform 共用以進行啟用。"
+>abstract="對象可以從區段建立，並與Adobe Experience Platform共用以啟用。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,23 +27,23 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="資料預覽"
->abstract="將此篩選器的資料與資料檢視的資料進行比較。此預覽百分比是根據資料檢視中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
+>abstract="將此區段的資料與資料檢視的資料進行比較。 此預覽百分比是根據資料檢視中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 
-**[!UICONTROL 篩選器產生器]**&#x200B;對話方塊可用來建立新篩選器或編輯現有篩選器。 對話方塊的標題為&#x200B;**[!UICONTROL 新篩選器]**&#x200B;或&#x200B;**[!UICONTROL 編輯篩選器]**，篩選條件為您從[[!UICONTROL 篩選器]管理員](/help/components/filters/manage-filters.md)建立或管理的篩選器。
+**[!UICONTROL 區段產生器]**&#x200B;對話方塊可用來建立新區段或編輯現有區段。 對話方塊的標題為&#x200B;**[!UICONTROL 新區段]**&#x200B;或&#x200B;**[!UICONTROL 編輯您從[[!UICONTROL 區段]管理員](/help/components/filters/manage-filters.md)建立或管理的區段]**。
 
 >[!BEGINTABS]
 
->[!TAB 篩選產生器]
+>[!TAB 區段產生器]
 
-![顯示下一節中說明的欄位和選項的篩選器詳細資料視窗。](assets/filter-builder.png)
+![區段詳細資訊視窗，顯示下一節中說明的欄位和選項。](assets/filter-builder.png)
 
->[!TAB 建立或編輯篩選器]
+>[!TAB 建立或編輯區段]
 
-![顯示下一節中說明的欄位和選項的篩選器詳細資料視窗。](assets/create-edit-filter.png)
+![區段詳細資訊視窗，顯示下一節中說明的欄位和選項。](assets/create-edit-filter.png)
 
 >[!ENDTABS]
 
@@ -51,106 +51,106 @@ ht-degree: 10%
 
    | 元素 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 資料釋圖]** | 您可以選取篩選的資料檢視。  您定義的篩選器可在資料檢視的[設定](/help/data-views/create-dataview.md#settings-filters)索引標籤中作為篩選器使用。 |
-   | **[!UICONTROL 僅限專案的篩選器]** | 資訊方塊，說明篩選僅會顯示在建立該篩選的專案中，且不會將該篩選新增至您的元件清單中。 啟用&#x200B;**[!UICONTROL 讓此篩選器可用於您的所有專案，並將其新增至您的元件清單]**&#x200B;以變更該設定。 只有當您使用[!UICONTROL 快速篩選]介面中的&#x200B;**[!UICONTROL 開啟產生器]**&#x200B;來建立[快速篩選](quick-filters.md)，並將快速篩選資訊轉換為一般篩選時，才會顯示此資訊方塊。 |
-   | **[!UICONTROL 標題]**![Required](/help/assets/icons/Required.svg) | 為篩選器命名，例如`Last month mobile customers`。 |
-   | **[!UICONTROL 說明]** | 提供篩選的說明，例如，`Filter to define the mobile customers for the last month`。 |
-   | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標籤來組織篩選器。 開始輸入內容以尋找您可以選取的現有標記。或按&#x200B;**[!UICONTROL ENTER]**&#x200B;以新增標籤。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
-   | **[!UICONTROL 定義]** ![必要](/help/assets/icons/Required.svg) | 使用[定義產生器](#definition-builder)定義您的篩選器。 |
+   | **[!UICONTROL 資料檢視]** | 您可以選取區段的資料檢視。  您定義的區段可在資料檢視的[設定](/help/data-views/create-dataview.md#settings-filters)標籤中作為區段使用。 |
+   | **[!UICONTROL 僅限專案的區段]** | 說明區段僅會顯示在建立該區段的專案中的資訊方塊，且不會將該區段新增至您的元件清單的資訊方塊。 啟用&#x200B;**[!UICONTROL 讓此區段可用於您的所有專案，並將其新增至您的元件清單]**&#x200B;以變更該設定。 只有當您使用[!UICONTROL 快速區段]介面中的&#x200B;**[!UICONTROL Open builder]**&#x200B;建立[快速區段](quick-filters.md)，並將快速區段資訊轉換為一般區段時，才會顯示此資訊方塊。 |
+   | **[!UICONTROL 標題]**![必填](/help/assets/icons/Required.svg) | 為區段命名，例如`Last month mobile customers`。 |
+   | **[!UICONTROL 說明]** | 提供區段的說明，例如`Filter to define the mobile customers for the last month`。 |
+   | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標籤來組織區段。 開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL ENTER]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
+   | **[!UICONTROL 定義]** ![規定必要](/help/assets/icons/Required.svg) | 使用[定義產生器](#definition-builder)定義您的區段。 |
 
    {style="table-layout:auto"}
 
-1. 若要驗證您的篩選器定義是否正確，請使用右上方的持續更新篩選器結果預覽。
-1. 若要從篩選器建立對象並與Experience Platform共用對象，請選取&#x200B;**[!UICONTROL 從篩選器建立對象]**。 如需詳細資訊，請參閱[建立和發佈對象](/help/components/audiences/publish.md)。
+1. 若要確認區段定義是否正確，請使用右上方的區段結果持續更新預覽。
+1. 若要從區段建立對象並與Experience Platform共用對象，請選取「**[!UICONTROL 從區段建立對象]**」。 請參閱「[建立並發佈客群](/help/components/audiences/publish.md)」，了解更多資訊。
 1. 選取：
-   * **[!UICONTROL 儲存]**&#x200B;以儲存篩選。
-   * **[!UICONTROL 另存新檔]**&#x200B;以儲存篩選的復本。
-   * **[!UICONTROL 刪除]**&#x200B;以刪除篩選器。
-   * **[!UICONTROL 取消]**&#x200B;以取消您對篩選器所做的任何變更，或取消建立新的篩選器。
+   * **[!UICONTROL 儲存]**&#x200B;以儲存區段。
+   * **[!UICONTROL 另存新檔]**&#x200B;以儲存區段的復本。
+   * **[!UICONTROL 刪除]**&#x200B;以刪除區段。
+   * **[!UICONTROL 取消]**&#x200B;以取消您對區段所做的任何變更，或取消建立新區段。
 
 
 ## 定義產生器
 
-您可以使用定義產生器來建構您的篩選器定義。 在該建構中，您會使用元件、容器、運運算元和邏輯。
+您可以使用定義產生器來建構區段定義。 在該構造中，您可以使用元件、容器、運算子和邏輯。
 
-您可以設定定義的型別和範圍：
+您可以設定定義的類型和範圍：
 
-1. 若要指定定義的型別，請指定您要讓組建成為包含或排除定義。 選取![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 選項]**，並從下拉式清單切換&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**。
+1. 若要指定定義的類型，請指定是否要建立一個包含定義或一個排除定義。選取「![設定](/help/assets/icons/Setting.svg)**[!UICONTROL 選項]**」，並從下拉式選單切換「**[!UICONTROL 包含]**」或「**[!UICONTROL 排除]**」。
 1. 若要指定定義的範圍，請從&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉式清單中選取，以決定您要定義的範圍是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 工作階段]**、**[!UICONTROL 人員]**、**[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}、**[!UICONTROL 機會]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}或&#x200B;**[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
-您稍後一律可以變更這些設定。
+您稍後可以隨時變更這些設定。
 
 ### 元件
 
-建構篩選定義的重要部分是使用維度、量度、現有篩選器和日期範圍。 這些元件都可從篩選產生器的元件面板使用。
+建構區段定義的重要部分是使用維度、量度、現有區段和日期範圍。 篩選器產生器中的元件面板都提供所有這些元件。
 
 ![開始建置定義](assets/start-building-filter.gif){width=100%}
 
 若要新增元件：
 
-1. 將元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、篩選器和/或維度拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
-1. 指定元件的詳細資料。 例如，從&#x200B;**[!UICONTROL 選取值]**&#x200B;中選取值。 或輸入值。 指定一或多個值的內容和方式取決於元件和運運算元。
-1. 選擇性地修改預設運運算元。 例如，從&#x200B;**[!UICONTROL 等於]**&#x200B;到&#x200B;**[!UICONTROL 等於任何]**。 如需可用運運算元的詳細概觀，請參閱[運運算元](operators.md)。
+1. 將元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、區段和/或維度拖放到這裡]**。 您可以使用元件列中的「![搜尋](/help/assets/icons/Search.svg)」來搜尋特定元件。
+1. 指定元件的詳細資訊。例如，從「**[!UICONTROL 選擇值]**」中選取一個值。或輸入一個值。指定一個或多個值的內容和方式取決於元件和運算子。
+1. 可選擇修訂預設的運算子。例如，從「**[!UICONTROL 等於]**」改為「**[!UICONTROL 等於任何]**」。請參閱「[運算子](operators.md)」，了解可用運算子詳細概觀。
 
 若要編輯元件：
 
-* 從運運算元下拉式選單中選取元件的新運運算元。
-* 視需要選取或指定不同的運運算元值。
-* 如果元件型別是尺寸，您可以定義歸因模型。 如需詳細資訊，請參閱[歸因模型](#attribution-models)。
+* 從運算子下拉式選單中為元件選取新的運算子。
+* 若可以，請為運算子選取或指定不同的值。
+* 如果元件類型是維度，則可以定義歸因模型。如需詳細資訊，請參閱「[歸因模型](#attribution-models)」。
 
 若要刪除元件：
 
-* 在元件中選取![CrossSize75](/help/assets/icons/CrossSize75.svg)。
+* 在元件中選取 ![CrossSize75](/help/assets/icons/CrossSize75.svg)。
 
 ### 容器
 
-您可以將多個元件群組在一個或多個容器中，並定義容器內和容器之間的邏輯。 容器可讓您為篩選器建置複雜的定義。
+您可以將多個元件分組在一個或多個容器中，並定義容器內和容器之間的邏輯。容器可讓您為區段建立複雜的定義。
 
 ![新增容器](assets/add-container.gif){Width=100%}
 
-* 若要新增容器，請從![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 選項]**&#x200B;中選取&#x200B;**[!UICONTROL 新增容器]**。
-* 若要將現有元件新增至容器，請將該元件拖放至容器中。
-* 若要將另一個元件新增至容器，請將元件面板中的元件拖放至容器中。 使用藍色插入線作為參考線。
-* 若要在容器外部新增另一個元件，請從元件面板將元件拖放至容器外部、主要定義容器內。 使用藍色插入線作為參考線。
-* 若要修改容器中元件之間、容器之間或容器與元件之間的邏輯，請選取適當的&#x200B;**[!UICONTROL 和]**、**[!UICONTROL 或]**、**[!UICONTROL 然後]**。 選取「Then」時，可將篩選器轉換為循序篩選器。 如需詳細資訊，請參閱[建立循序篩選器](seg-sequential-build.md)。
+* 若要新增容器，請選取「**[!UICONTROL 新增容器]**」(從 ![環境](/help/assets/icons/Setting.svg) **[!UICONTROL 選項]**)。
+* 若要將現有元件新增至容器中，請將元件拖曳到容器中。
+* 若要為容器新增另一個元件，請將元件從元件面板拖曳到容器中。使用藍色插入線作為準則。
+* 若要在容器外部新增另一個元件，請將元件從元件面板拖曳到容器外部，但拖曳到主定義容器內部。使用藍色插入線作為準則。
+* 若要修改容器內元件之間、容器之間或容器與元件之間的邏輯，請選取適當的「**[!UICONTROL 以及]**」(And)、「**[!UICONTROL 或]**」(Or)、「**[!UICONTROL 然後]**」(Then)。選取「然後」時，將區段轉換為循序區段。 如需詳細資訊，請參閱[建立循序區段](seg-sequential-build.md)。
 * 若要切換容器層級，請選取![全球](/help/assets/icons/Globe.svg) **[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，![帳戶](/help/assets/icons/Account.svg) **[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，![機會](/help/assets/icons/Opportunity.svg) **[!UICONTROL 機會]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，![購買群組](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}，![網頁](/help/assets/icons/WebPage.svg) **[!UICONTROL 事件]**，![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 會話]**&#x200B;或![使用者](/help/assets/icons/User.svg) **[!UICONTROL 人員]**。
 
-您可以在容器中使用![Setting](/help/assets/icons/Setting.svg)進行下列動作：
+您可以在容器中使用 ![設定](/help/assets/icons/Setting.svg) 來執行下列動作：
 
 | 容器動作 | 說明 |
 |---|---|
-| **[!UICONTROL 新增容器]** | 將巢狀容器新增至容器。 |
-| **[!UICONTROL 排除]** | 從篩選器定義中的容器排除結果。 薄紅色左列可識別排除容器。 |
-| **[!UICONTROL 包括]** | 在篩選定義中包含來自容器的結果。 包含為預設值。 薄灰色左列可識別包含容器。 |
-| **[!UICONTROL 名稱容器]** | 從容器的預設描述重新命名容器。 在文字欄位中輸入名稱。 如果您未提供任何輸入，則會使用預設說明。 |
-| **[!UICONTROL 刪除容器]** | 從定義中刪除容器。 |
+| **[!UICONTROL 新增容器]** | 新增巢狀容器至容器中。 |
+| **[!UICONTROL 排除]** | 從區段定義中的容器排除結果。 左側的細紅色條是指排除容器。 |
+| **[!UICONTROL 包括]** | 在區段定義中包含來自容器的結果。 包含為預設值。左側的細灰色條是指包含容器。 |
+| **[!UICONTROL 容器名稱]** | 根據容器的預設說明為容器重新命名。在文字欄位中輸入名稱。如果您未輸入任何資料，則使用預設說明。 |
+| **[!UICONTROL 刪除容器]** | 根據定義來刪除容器。 |
 
 
 ## 日期範圍
 
-您可以建立包含滾動日期範圍的篩選器。 因此，您可以回答與持續性促銷活動或事件有關的問題。 例如，您可以建立篩選器，包含&#x200B;*過去60天內進行線上購買的所有人*。
+您可以建立包含滾動式日期範圍的區段。 如此一來，您就能回答與持續性促銷活動或事件有關的問題。 例如，您可以建置一個區段，包含&#x200B;*過去60天內進行線上購買的所有人*。
 
-![使用滾動日期範圍篩選](assets/filter-rolling-date-range.gif)
+![使用滾動日期範圍進行篩選](assets/filter-rolling-date-range.gif)
 
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 在區段捲動日期範圍](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在區段捲動日期範圍](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 
-## 堆疊篩選器 {#stack}
+## 棧疊區段 {#stack}
 
-您可以使用篩選器來建立篩選器。 當您在篩選器中使用篩選器時，可以最佳化篩選器並降低複雜性。
+您可以使用區段來建立區段。 在區段中使用區段時，您可以最佳化區段並降低複雜性。
 
-想像您想要依裝置型別(2)和美國狀態(50)的組合進行篩選。 您可以建立100個篩選器，每個篩選器分別代表裝置型別（行動電話與平板電腦）和美國州別的唯一組合。 若要取得Californian平板電腦使用者，您可以使用100個篩選器之一：
+想像您想要依裝置型別(2)和美國狀態(50)的組合進行分段。 您可以建立100個區段，每個區段都適用於裝置型別（行動電話與平板電腦）和美國州的獨特組合。 若要在加州取得平板電腦使用者，您可以使用下列100個區段之一：
 
-![CA和平板電腦的簡單篩選器](assets/filter-ca-tablet-single.png)
+![加州和平板電腦的簡單區段](assets/filter-ca-tablet-single.png)
 
-或者，您可以定義52個篩選器：50個篩選器適用於美國各州，一個適用於行動電話，一個適用於平板電腦。 然後棧疊篩選器以取得相同的結果。 若要取得Californian平板電腦使用者，您可棧疊兩個篩選器：
+或者，您可以定義52個區段：50個區段適用於美國各州，一個適用於行動電話，一個適用於平板電腦。 然後棧疊區段以獲得相同的結果。 若要取得California平板電腦使用者，您可棧疊兩個區段：
 
-CA和平板電腦的![棧疊篩選器](assets/filter-ca-tablet-stacked.png)
+CA和平板電腦的![棧疊區段](assets/filter-ca-tablet-stacked.png)
 
 
 ## 歸因 {#attribution}
@@ -184,37 +184,37 @@ CA和平板電腦的![棧疊篩選器](assets/filter-ca-tablet-stacked.png)
 
 
 
-當您在篩選產生器中使用維度時，您有選項可指定該維度的歸因模型。 您選取的歸因模型會決定資料是否符合您為維度元件指定的條件。
+在「區段產生器」中使用維度時，您可以選擇指定該維度的歸因模型。 您選取的歸因模型會決定資料是否符合您為維度元件指定的條件。
 
-在維度元件中選取![設定](/help/assets/icons/Setting.svg)，然後從快顯視窗中選取其中一個歸因模型：
+在維度元件中選取「![設定](/help/assets/icons/Setting.svg)」，然後從快顯視窗中選取一個歸因模型：
 
 | 模型 | 說明 |
 |---|---|
-| **[!UICONTROL 重複模型（預設）]** | 納入維度的例項和持續值以判斷資格。 |
-| **[!UICONTROL 例項]** | 僅包含維度的例項值以判斷資格。 |
-| **[!UICONTROL 非重複的執行個體]** | 納入維度的唯一例項（非重複）值以判斷資格。 |
+| **[!UICONTROL 重複模型 (預設)]** | 包含維度的實例和持續值來確定資格。 |
+| **[!UICONTROL 例項]** | 僅包含維度的實例值來確定資格。 |
+| **[!UICONTROL 非重複的例項]** | 包含維度的唯一實例 (非重複) 值來確定資格。 |
 
 
-建立篩選器時![維度上的歸因模型](assets/filter-dimension-attribution.png)
+建立區段時![維度上的歸因模型](assets/filter-dimension-attribution.png)
 
 ### 範例
 
-在篩選定義中，您已指定下列條件：「頁面名稱」等於「女性」。 與上述範例類似。 您會使用其他兩個歸因模型來重複此篩選定義。 因此，您有三個篩選器，每個都有各自的歸因模型：
+在區段定義中，您已指定下列條件：「頁面名稱」等於「女性」。 與上述範例類似。 您會使用其他兩個歸因模型來重複此區段定義。 因此，您有三個區段，每個區段都有各自的歸因模型：
 
-* 女性頁面 — 歸因 — 重複（預設）
-* 女性頁面 — 歸因 — 例項
-* 女性頁面 — 歸因 — 非重複例項
-
-
-下錶針對每個歸因模型，說明哪些傳入事件符合該條件的![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)。
+* 女性頁面 - 歸因 - 重複 (預設)
+* 女性頁面 - 歸因 - 實例
+* 女性頁面 - 歸因 - 非重複實例
 
 
-| 女性頁面 — 歸因 — <br/>*歸因模型* | 事件1：<br/>頁面名稱等於<br/>女性 | 事件2：<br/>頁面名稱等於<br/>人 | 事件3：<br/>頁面名稱等於<br/>女性 | 事件4：<br/>頁面名稱等於<br/>女性<br/>（持續） | 事件5：<br/>頁面名稱等於<br/>簽出 | 事件6：<br/>頁面名稱等於<br/>女性 | 事件7：<br/>頁面名稱等於<br/>首頁 |
+下表說明每個歸因模型，其中傳入的事件是符合該條件的 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)。
+
+
+| 女性頁面 - 歸因 - <br/>*歸因模型* | 事件 1：<br/>頁面名稱等於<br/>女性 | 事件 2：<br/>頁面名稱等於<br/>男性 | 事件 3：<br/>頁面名稱等於<br/>女性 | 事件 4：<br/>頁面名稱等於<br/>女性<br/> (持續) | 事件 5：<br/>頁面名稱等於<br/>結帳 | 事件 6：<br/>頁面名稱等於<br/>女性 | 事件 7：<br/>頁面名稱等於<br/>首頁 |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| 重複（預設） | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
-| 例項 | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
-| 非重複的例項 | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
+| 重複 (預設) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
+| 例項 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
+| 非重複的例項 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
 
-使用三個篩選器的事件報告範例看起來如下所示：
+有關使用三個區段的事件的範例報表看起來如下所示：
 
-![篩選歸因模型結果](assets/filter-dimension-attribution-results.png)
+![區段歸因模型結果](assets/filter-dimension-attribution-results.png)
