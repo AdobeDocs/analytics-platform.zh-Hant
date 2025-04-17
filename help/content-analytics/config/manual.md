@@ -1,18 +1,18 @@
 ---
-title: Content Analytics手動設定
-description: 如何手動設定內容分析
+title: Content Analytics 手動設定
+description: 如何手動設定 Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: d4803af9b71ec245f6c4b20e92a4a4c99f235f00
+source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: '448'
+ht-degree: 3%
 
 ---
 
-# Content Analytics手動設定
+# Content Analytics 手動設定
 
 {{release-limited-testing}}
 
@@ -74,7 +74,9 @@ ht-degree: 0%
 
 ## 版本設定
 
-如果您需要設定Content Analytics體驗的版本，您必須在您認為要分析的體驗頁面上新增全域`adobe.getContentExperienceVersion`函式。
+如果您想要收集Content Analytics體驗，您應考慮實作版本設定，以確保正確收集新體驗（對網頁的變更）。
+
+若要實作版本設定，請在您要分析之體驗的頁面上新增全域`adobe.getContentExperienceVersion`函式。
 
 `adobe.getContentExperienceVersion`函式應傳回字串作為值（可以是您選擇的任何值），以識別版本。 此版本已附加至[Experience ID URL](/help/content-analytics/report/components.md#experience-metadata)。
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 6e59b029542b7b4353f03b6dd083e25955aacc7b
+source-git-commit: 5d08fac8f99e173420ecb977b91f4cb320568094
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2580'
 ht-degree: 46%
 
 ---
@@ -145,7 +145,7 @@ ht-degree: 46%
 1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認選取的資料檢視。 選取「**[!UICONTROL 取消]**」，即可取消。
 
 
-在Customer Journey Analytics中，[資料檢視](/help/data-views/data-views.md)已繫結至Customer Journey Analytics [連線](/help/connections/overview.md)。 而且連線是以您組織內的沙箱為基礎。 儲存設定後，**[!UICONTROL 沙箱]**&#x200B;會根據選取的資料檢視，自動填入沙箱的名稱。
+在Customer Journey Analytics中，[資料檢視](/help/data-views/data-views.md)已繫結至Customer Journey Analytics [連線](/help/connections/overview.md)。 而且連線是以您組織內的沙箱為基礎。 儲存設定後，**[!UICONTROL 沙箱]**&#x200B;欄位會根據選取的資料檢視，自動填入沙箱的名稱。
 
 
 ### 經驗擷取與定義 {#onboarding-experiences}
@@ -180,7 +180,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
 >title="經驗擷取與定義"
->abstract="您必須在與目前設定相關聯的Tags屬性中，編輯Adobe Content Analytics擴充功能中體驗資料收集的設定。"
+>abstract="您必須在Adobe Content Analytics擴充功能中編輯體驗資料收集的設定。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -192,6 +192,14 @@ ht-degree: 46%
 
 * 網站上的頁面必須使用頁面URL可複製。
 * 任何指定使用者看到的文字內容都可以使用頁面URL重現，而不取決於Cookie或其他個人化機制。
+
+>[!IMPORTANT]
+>
+>實作[Content Analytics版本設定](manual.md#versioning)以收集您對體驗（頁面）所做的變更以使其遵循Content Analytics。
+
+
+
+#### 新增設定 {#new-experiences-configuration}
 
 若要將體驗納入新的或未實施的設定：
 
@@ -208,6 +216,9 @@ ht-degree: 46%
    1. 指定以逗號分隔的&#x200B;**[!UICONTROL 查詢參數清單，]**&#x200B;例如`outdoors, patio, kitchen`。
 1. 如果要刪除網域規則運算式和查詢參數的組合，請選取「**[!UICONTROL 刪除]**」。
 1. 如果要新增其他規則運算式和查詢參陣列合，請選取&#x200B;**[!UICONTROL 新增Regex]**。
+
+
+### 實作設定 {#implemented-experiences-configuration}
 
 若要在實作組態中編輯現有體驗或包含新體驗：
 
@@ -304,7 +315,8 @@ ht-degree: 46%
 
 >[!IMPORTANT]
 >
->如果您有使用[Javascript資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/install/library)的現有Web SDK實作，而且沒有使用[標籤擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)，則必須從新建立的Tags屬性中手動移除自動包含的Web SDK擴充功能。
+>手動從新建立的Tags屬性中移除自動包含的Web SDK擴充功能，以備您有使用[JavaScript資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/install/library)而非[Tags擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)的現有Web SDK實作。
+>
 
 
 

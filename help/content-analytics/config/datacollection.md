@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: e3753cfde5e57a86229d0a42a125afcc118bc479
+source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 * **體驗**：體驗定義為整個網頁上的文字內容。 對於資料收集，Content Analytics會根據頁面URL記錄體驗ID。 稍後，頁面上的文字會透過擷取服務擷取。
 * **體驗ID**：相關URL （基底URL加上驅動頁面內容的任何引數）與[體驗版本](manual.md#versioning)的唯一組合。
    * 您在[組態](configuration.md)中指定與任何指定完整URL相關的引數。
-   * 您可以定義使用的[版本識別碼](manual.md#versioning)。
+   * 您定義要使用的[版本識別碼](manual.md#versioning)，以便正確收集您體驗的變更。
 * **資產**：影像。 Content Analytics會記錄資產URL。
 * **資產識別碼**：資產的URL。
 * **相關URL**：基底URL加上驅動頁面內容的任何引數。
