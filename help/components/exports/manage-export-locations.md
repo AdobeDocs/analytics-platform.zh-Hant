@@ -5,10 +5,10 @@ title: 管理雲端匯出位置和帳戶
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 8fc8e3e4057663bd4bdf38e41bb3129df442f749
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 1%
+source-wordcount: '1371'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 篩選和搜尋位置
 
-若要尋找您需要的資訊，您可以篩選位置清單或搜尋位置。
+若要尋找您需要的資訊，您可以在位置清單上篩選或搜尋位置。
 
 ### 篩選位置清單
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
    | 篩選器 | 說明 |
    |---------|----------|
-   | [!UICONTROL **位置型別**]<!--should this be changed to Account type?--> | 與位置關聯的帳戶型別。 可使用下列帳戶型別： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3角色ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google雲端平台**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
+   | [!UICONTROL **位置型別**]<!--should this be changed to Account type?--> | 與位置關聯的帳戶型別。 可使用下列帳戶型別： <ul><li>[!UICONTROL **AEP Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul> |
    | [!UICONTROL **帳戶**] | 與位置關聯的帳戶名稱。 |
    | [!UICONTROL **建立者**] | 建立位置之使用者的電子郵件地址。 |
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 
    ![顯示[位置]索引標籤和位置清單的[匯出]視窗。](assets/locations-edit.png)
 
-1. 選取&#x200B;[!UICONTROL **編輯**]。
+1. 選取「[!UICONTROL **編輯**]」。
 
 1. 進行任何需要的變更，然後選取[儲存]。[!UICONTROL ****]
 
@@ -170,7 +170,7 @@ ht-degree: 1%
 
 ### 設定使用者是否可以建立和編輯位置
 
-根據預設，組織中的所有使用者都可以建立位置，並編輯他們在Customer Journey Analytics環境中建立的位置，如[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)中所述。
+根據預設，組織中的所有使用者都可以在Customer Journey Analytics環境中建立位置並編輯他們建立的位置，如[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)中所述。
 
 您可以限制使用者建立位置。 當您這樣做，使用者仍然可以使用他們已建立的任何位置，但他們無法再編輯這些位置。 您可以刪除使用者已建立的位置，如[刪除位置](#delete-a-location)中所述。
 
@@ -221,11 +221,11 @@ ht-degree: 1%
 
    使用者預設可使用下列帳戶型別。 取消選取您要限制使用者使用的任一帳戶型別。
 
-   * [!UICONTROL **AEP資料登陸區域**]
+   * [!UICONTROL **AEP Data Landing Zone**]
 
-   * [!UICONTROL **Amazon S3角色ARN**]
+   * [!UICONTROL **Amazon S3 Role ARN**]
 
-   * [!UICONTROL **Google雲端平台**]
+   * [!UICONTROL **Google Cloud Platform**]
 
    * [!UICONTROL **Azure SAS**]
 

@@ -4,10 +4,10 @@ title: 監視資料字典健康狀況
 feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
-source-git-commit: c343a729de4cb13473a7acc04e837b5e5f69809b
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 87%
+ht-degree: 78%
 
 ---
 
@@ -49,6 +49,6 @@ Customer Journey Analytics管理員負責維護健康的資料字典。
 
    * [!UICONTROL **個元件未連接任何資料**]
 
-   根據您所選取的，適當的篩選器將套用於資料字典，並且僅顯示相關的元件。
+   視您選取的專案而定，會將適當的區段套用至資料字典，並僅顯示相關元件。
 
 1. 編輯任何元件以提升資料字典的健康狀況。有關如何在資料字典中編輯元件的資訊，請參閱[在資料字典中編輯元件條目](/help/components/data-dictionary/edit-entries-data-dictionary.md)。

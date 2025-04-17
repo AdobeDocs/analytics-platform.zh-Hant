@@ -6,24 +6,24 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 52%
+ht-degree: 60%
 
 ---
 
 # 在工作區中劃分維度
 
-您可以根據特定需求，以無限方式劃分資料；使用相關量度、維度、篩選器、時間表和其他分析劃分值來建立查詢。
+您可以根據特定需求，以無限方式劃分資料；使用相關量度、維度、區段、時間表及其他分析劃分值來建立查詢。
 
 1. 在[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)中，從一或多個選取資料列的內容功能表中，選取&#x200B;**[!UICONTROL 劃分]** ![V形右側](/help/assets/icons/ChevronRight.svg)。
 
    ![顯示從選取專案建立警示的步驟結果。](assets/breakdown.png)
 
-1. 從子功能表中選取&#x200B;**[!UICONTROL Dimension]**、**[!UICONTROL 量度]**、**[!UICONTROL 篩選器]**&#x200B;或&#x200B;**[!UICONTROL 日期範圍]**，然後選取專案。
+1. 從子功能表中選取&#x200B;**[!UICONTROL 維度]**、**[!UICONTROL 量度]**、**[!UICONTROL 篩選器]**&#x200B;或&#x200B;**[!UICONTROL 日期範圍]**，然後選取專案。
 
-您可以跨所選時段，依維度項目或客群篩選條件來劃分量度。您也可以更深入鑽研至更詳細的層級。
+您可以跨所選時段，依維度項目或客群細分群體來劃分量度。您也可以更深入鑽研至更詳細的層級。
 
 >[!NOTE]
 >
@@ -31,9 +31,9 @@ ht-degree: 52%
 
 ## 依位置劃分
 
-依預設，劃分會固定至靜態列專案。 例如，想像您依「行銷管道」劃分前3個頁面維度專案（「首頁」、「搜尋結果」、「結帳」）。 接著，您離開專案，兩週後再回來。再次開啟專案時，前 3 個頁面已變更，現在「首頁」、「搜尋結果」和「結帳」是前 4 到 6 個頁面。您的「行銷管道」劃分預設仍會顯示在「首頁」、「搜尋結果」和「結帳」下方，即使它們現在位於第4到6列。
+依預設，劃分會固定至靜態列專案。 例如，想像您根據行銷管道劃分前 3 個頁面維度項目 (「首頁」、「搜尋結果」、「結帳」)。接著，您離開專案，兩週後再回來。再次開啟專案時，前 3 個頁面已變更，現在「首頁」、「搜尋結果」和「結帳」是前 4 到 6 個頁面。您的「行銷管道」劃分預設仍會顯示在「首頁」、「搜尋結果」和「結帳」下方，即使它們現在位於第4到6列。
 
-相反地，**依位置**&#x200B;劃分，一律劃分前3個專案，無論前3個專案是什麼。 請參考此範例，當您重新開啟專案時，行銷管道劃分會繫結至表格中的前3個頁面。 而非「首頁」、「搜尋結果」和「結帳」，它們現在位於第4-6列。 請參閱[資料列設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)設定此設定的方式。
+相反地，**依位置**&#x200B;劃分，一律劃分前3個專案，無論前3個專案是什麼。 請參考範例，當您重啟專案時，行銷管道劃分將與表格中的前 3 頁面相連結。而非「首頁」、「搜尋結果」和「結帳」，它們現在位於第4-6列。 請參閱[資料列設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)設定此設定的方式。
 
 
 
@@ -53,7 +53,7 @@ ht-degree: 52%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中的Dimension](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace中的Dimension](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 
@@ -89,7 +89,7 @@ ht-degree: 52%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [依位置](https://video.tv.adobe.com/v/24033){target="_blank"}的Dimension劃分。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [依位置劃分的Dimension](https://video.tv.adobe.com/v/24033){target="_blank"}。
 
 {{videoaa}}
 
