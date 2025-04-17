@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 5d08fac8f99e173420ecb977b91f4cb320568094
+source-git-commit: e79094d974e4e91b044611f997c0e4215487d74f
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 46%
@@ -218,7 +218,7 @@ ht-degree: 46%
 1. 如果要新增其他規則運算式和查詢參陣列合，請選取&#x200B;**[!UICONTROL 新增Regex]**。
 
 
-### 實作設定 {#implemented-experiences-configuration}
+#### 實作設定 {#implemented-experiences-configuration}
 
 若要在實作組態中編輯現有體驗或包含新體驗：
 
