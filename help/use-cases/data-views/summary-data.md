@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 35298dd6d18ebb07d104a608aeff06cb864ee1dc
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '5188'
-ht-degree: 8%
+source-wordcount: '5200'
+ht-degree: 15%
 
 ---
 
@@ -387,7 +387,7 @@ ht-degree: 8%
 
 
 1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
-1. 從頂端功能表選取&#x200B;**[!UICONTROL 連線]**。
+1. 在頂端功能表中選取&#x200B;**[!UICONTROL 連線]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 1. 選取&#x200B;**[!UICONTROL 「建立新連線」]**。
 1. 在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 未命名的連線]**&#x200B;中：
    1. 輸入&#x200B;**[!UICONTROL 連線名稱]**，例如`Example Connection Using Summary Data`。
@@ -428,7 +428,7 @@ ht-degree: 8%
 一段時間後，請確認資料集中的資料已正確載入Customer Journey Analytics。
 
 1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
-1. 從頂端功能表選取&#x200B;**[!UICONTROL 連線]**。
+1. 在頂端功能表中選取&#x200B;**[!UICONTROL 連線]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 1. 選取您的連線，例如&#x200B;**[!UICONTROL 使用摘要資料的連線範例]**。
 1. 在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 使用摘要資料的範例連線]**&#x200B;詳細資料中選取適當的日期範圍。
    1. 選取![行事曆](/help/assets/icons/Calendar.svg)，然後選取&#x200B;**[!UICONTROL 最近7天]**。
@@ -438,12 +438,12 @@ ht-degree: 8%
 
 ![摘要資料的連線範例](../assets/example-connection-summary-data.png)
 
-## 資料視圖
+## 資料檢視
 
 為確保您可以在Workspace中報告正確的資料，您想要建立包含相關量度和維度的資料檢視。
 
 1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
-1. 從頂端功能表選取&#x200B;**[!UICONTROL 資料檢視]**。
+1. 在頂端功能表中選取&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 1. 選取&#x200B;**[!UICONTROL 「建立新的資料檢視」]**。
 1. 在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;中，瀏覽精靈畫面來設定您的資料檢視。
    1. 在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;的&#x200B;**[!UICONTROL 設定]**&#x200B;步驟中：
@@ -482,7 +482,7 @@ ht-degree: 8%
 
          ![追蹤程式碼摘要資料](../assets/tracking-code-summary-data.png)
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 摘要資料群組]**。
-         1. 啟用&#x200B;**[!UICONTROL 建立群組]**。
+         1. 啟用「**[!UICONTROL 建立分組]**」。
          1. 從&#x200B;**[!UICONTROL Dimension]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 促銷活動ID]**。 此步驟可確保正確組合事件資料和摘要資料以用於報告。
          1. 您可以選擇啟用&#x200B;**[!UICONTROL 隱藏報告]**。 [!UICONTROL 隱藏在報表中]可確保選取的維度（[!UICONTROL 促銷活動ID]）隱藏在Analysis Workspace和其他Customer Journey Analytics報表工具中。 如果已啟用此選項，您可以驗證選項：
             1. 在&#x200B;**[!UICONTROL 維度]**&#x200B;清單中選取&#x200B;**[!UICONTROL 促銷活動ID]**&#x200B;維度。
@@ -505,7 +505,7 @@ ht-degree: 8%
          ![衍生欄位摘要資料群組](../assets/derived-field-summary-data-group.png)
 
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 摘要資料群組]**。
-         1. 啟用&#x200B;**[!UICONTROL 建立群組]**。
+         1. 啟用「**[!UICONTROL 建立分組]**」。
          1. 從&#x200B;**[!UICONTROL Dimension]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 促銷活動名稱（查閱衍生欄位）]**。 此步驟可確保範例查詢資料集中的行銷活動名稱（查詢）可安全地用於報告中(請參閱[Workspace](#workspace))。
 
       1. 從&#x200B;**[!UICONTROL 度量]**&#x200B;清單中選取&#x200B;**[!UICONTROL 收入]**&#x200B;度量。 在元件面板中：
@@ -545,7 +545,7 @@ ht-degree: 8%
 1. 從頂端功能表選取&#x200B;**[!UICONTROL Workspace]**。
 1. 選取&#x200B;**[!UICONTROL 「建立專案」]**。
 1. 從包含建立空白Workspace專案的選項的對話方塊中選取&#x200B;**[!UICONTROL 空白Workspace專案]**。
-1. 選取&#x200B;**[!UICONTROL 建立]**。
+1. 選取「**[!UICONTROL 建立]**」。
 
 您看到包含[!UICONTROL 自由格式]面板的空白畫布，其中包含空白的[!UICONTROL 自由格式表格]。
 
@@ -585,7 +585,7 @@ ht-degree: 8%
       1. 啟用&#x200B;**[!UICONTROL 條件式格式]**。
          1. 選取&#x200B;**[!UICONTROL 自動產生的]**。
          1. 選取偏好的&#x200B;**[!UICONTROL 條件式格式化調色盤]**。
-   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存您的專案。
+   1. 選取「**[!UICONTROL 儲存]**」，即可儲存您的專案。
 
 如果要報告促銷活動名稱而非追蹤代碼（事件），請執行以下步驟：
 

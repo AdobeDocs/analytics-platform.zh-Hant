@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
-source-git-commit: 1564c91616015311393a643fe7fcecd429cf3a36
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '2041'
-ht-degree: 78%
+source-wordcount: '2049'
+ht-degree: 79%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 78%
 
 >[!NOTE]
 >
->本快速入門手冊是一份簡化的指南，說明如何使用來源聯結器將資料擷取到Adobe Experience Platform中，並在Customer Journey Analytics中使用。 強烈建議在提及時研究其他資訊。
+>本快速入門手冊是一份簡化的指南，說明如何使用來源聯結器將資料擷取至Adobe Experience Platform，並在Customer Journey Analytics中使用。 強烈建議在提及時研究其他資訊。
 
 
 ## 設定結構和資料集
@@ -62,14 +62,14 @@ ht-degree: 78%
 
       >[!INFO]
       >
-      >    體驗事件結構描述可用來模型化設定檔的&#x200B;_行為_ （像是場景名稱、要新增至購物車的推播按鈕）。 個別設定檔結構可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+      >    體驗事件結構描述可用來建立設定檔&#x200B;_行為_ (例如場景名稱、推播按鈕至新增至購物車) 模型。個體設定檔結構描述可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 
-1. 在[!UICONTROL 建立結構描述]精靈的[!UICONTROL 名稱和檢閱步驟]中：
+1. 在「[!UICONTROL 建立結構描述]」精靈的「[!UICONTROL 命名和審查步驟]」中：
 
-   1. 為您的結構描述輸入&#x200B;**[!UICONTROL 結構描述顯示名稱]**&#x200B;和（選擇性） **[!UICONTROL 描述]**。
+   1. 輸入您結構描述的&#x200B;**[!UICONTROL 結構描述顯示名稱]**&#x200B;與 (選用) **[!UICONTROL 說明]**。
 
       ![建立結構描述視窗，顯示用來命名結構描述](./assets/create-pr-schema-wizard-step-2.png)的欄位
 
@@ -99,7 +99,7 @@ ht-degree: 78%
 
    ![範例結構新增欄位按鈕](./assets/example-loalty-schema-plus.png)
 
-1. 在[!UICONTROL 「欄位屬性」]面板中，輸入 `Identification` 作為名稱，**[!UICONTROL 「識別」]**&#x200B;作為[!UICONTROL 顯示名稱]，選取&#x200B;**[!UICONTROL 「物件」]**&#x200B;作為[!UICONTROL 類型]，並選取&#x200B;**[!UICONTROL 「設定檔核心 v2」]**&#x200B;作為[!UICONTROL 欄位群組]。
+1. 在[!UICONTROL 「欄位屬性」]面板中，輸入 `Identification` 作為名稱，**[!UICONTROL 「識別」]**&#x200B;作為[!UICONTROL 顯示名稱]，選取&#x200B;**[!UICONTROL 「物件」]**&#x200B;作為[!UICONTROL 類型]，並選取&#x200B;**[!UICONTROL 「輪廓核心 v2」]**&#x200B;作為[!UICONTROL 欄位群組]。
 
    ![識別物件](./assets/identifcation-loyalty-field.png)
 
@@ -107,29 +107,29 @@ ht-degree: 78%
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
 
-1. 在剛剛新增的識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板中，選取&#x200B;**[!UICONTROL 「身分」]**&#x200B;和[!UICONTROL 「身分命名空間」]的&#x200B;**[!UICONTROL 「電子郵件」]**。
+1. 在剛剛新增的身分識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板中，選取&#x200B;**[!UICONTROL 「身分識別」]**&#x200B;和[!UICONTROL 「身分識別命名空間」]的&#x200B;**[!UICONTROL 「電子郵件」]**。
 
-   ![指定電子郵件作為身分](./assets/specify-email-loyalty-id.png)
+   ![指定電子郵件作為身分識別](./assets/specify-email-loyalty-id.png)
 
-   您正在指定電子郵件地址作為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 設定檔行為的身分。
+   您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 輪廓行為的身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在電子郵件屬性中。
 
-1. 選擇結構的根層級 (具備結構名稱)，然後選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
+1. 選擇結構的根層級 (具備結構名稱)，然後選取&#x200B;**[!UICONTROL 「輪廓」]**&#x200B;切換。
 
-   系統會提示您啟用設定檔的結構。啟用後，根據此結構將資料擷取至資料集時，該資料就會合併至即時客戶設定檔中。
+   系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
-   >    儲存啟用設定檔的結構後，便無法再為設定檔停用該結構。
+   >    儲存啟用輪廓的結構後，便無法再為輪廓停用該結構。
 
-   ![啟用設定檔結構](./assets/enable-for-profile.png)
+   ![啟用輪廓結構](./assets/enable-for-profile.png)
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-您已建立最小結構，以建立可內嵌至 Adobe Experience Platform 的忠誠度資料模型。該結構可讓您使用電子郵件地址來識別設定檔。透過啟用設定檔的結構，即可確保將來自串流來源的資料新增至即時客戶設定檔。
+您已建立最小結構，以建立可內嵌至 Adobe Experience Platform 的忠誠度資料模型。該結構可讓您使用電子郵件地址來識別輪廓。透過啟用輪廓的結構，即可確保將來自串流來源的資料新增至即時客戶輪廓。
 
 請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
@@ -159,15 +159,15 @@ ht-degree: 78%
 
 7. 選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
-   系統會提示您啟用設定檔的資料集。資料集一經啟用，即可透過擷取的資料豐富即時客戶設定檔。
+   系統會提示您啟用設定檔的資料集。資料集一經啟用，即可透過攝取的資料豐富即時客戶設定檔。
 
    >[!IMPORTANT]
    >
    >    只有當資料集所遵循的結構同樣啟用設定檔時，您才能啟用設定檔的資料集。
 
-   ![啟用設定檔結構](./assets/loyalty-dataset-profile.png)
+   ![啟用輪廓結構](./assets/loyalty-dataset-profile.png)
 
-請參閱[資料集 UI 指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)，了解如何檢視、預覽、建立、刪除資料集的詳細資訊。以及為即時客戶設定檔啟用資料集的方法。
+請參閱[資料集 UI 指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)，了解如何檢視、預覽、建立、刪除資料集的詳細資訊。以及為即時客戶輪廓啟用資料集的方法。
 
 
 ## 使用來源連接器
@@ -225,7 +225,7 @@ ht-degree: 78%
 
 若要建立連線，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「連線」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 連線]** （選擇性的從&#x200B;**[!UICONTROL 資料管理]**）。
 
 1. 選取&#x200B;**[!UICONTROL 「建立新連線」]**。
 
@@ -251,7 +251,7 @@ ht-degree: 78%
 
    對於每個資料集：
 
-   1. 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分中選取[!UICONTROL 人員 ID]。
+   1. 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取[!UICONTROL 人員 ID]。
 
    1. 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
 
@@ -271,7 +271,7 @@ ht-degree: 78%
 
 若要建立資料檢視，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「資料檢視」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 
 2. 選取&#x200B;**[!UICONTROL 「建立新的資料檢視」]**。
 
@@ -308,7 +308,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
 若要建立專案，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「專案」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 專案]**。
 
 2. 在左側導覽中選取&#x200B;**[!UICONTROL 「專案」]**。
 
@@ -324,7 +324,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 若要建立您的第一個報表，請開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的設定檔。
+5. 若要建立您的第一個報表，請開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的輪廓。
 
    ![工作區 – 第一份報告](./assets/cja-projects-5.png)
 

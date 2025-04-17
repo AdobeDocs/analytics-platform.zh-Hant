@@ -6,9 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
-source-git-commit: d71f39d25c52b0389d0441f238cb5b1809986b2d
+exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -34,7 +35,7 @@ CJA會解除QM資料、循序資料分析、豐富歸因及其他進階報表的
 建立Quantum量度資料的來源聯結器會自動在Adobe Experience Platform中建立資料集。 將此資料集新增至Customer Journey Analytics中的新或現有[連線](/help/connections/overview.md)。
 
 1. 登入[experience.adobe.com](https://experience.adobe.com)。
-1. 導覽至Customer Journey Analytics，然後在頂端功能表中選取&#x200B;**[!UICONTROL 連線]**。
+1. 導覽至Customer Journey Analytics，然後在頂端功能表中選取&#x200B;**[!UICONTROL 連線]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 1. 為連線命名，並將Quantum量度資料集新增至連線。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
@@ -46,7 +47,7 @@ CJA會解除QM資料、循序資料分析、豐富歸因及其他進階報表的
 建立[資料檢視](/help/data-views/data-views.md)以設定維度和量度設定。
 
 1. 登入[experience.adobe.com](https://experience.adobe.com)。
-1. 導覽至Customer Journey Analytics，然後在頂端功能表中選取&#x200B;**[!UICONTROL 資料檢視]**。
+1. 導覽至Customer Journey Analytics，然後在頂端功能表中選取&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 1. 選取所需的資料檢視，或建立資料檢視。
 1. 在右側的結構欄位清單中找出所需的「量度」維度和量度，並將其拖曳至中心的維度和量度區域。
 1. 使用右窗格來設定每個所需的維度和量度。

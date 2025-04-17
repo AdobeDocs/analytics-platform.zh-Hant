@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: cfe4bafd-afe6-4738-94f1-30882893b3b6
-source-git-commit: ae88ab16e85bd1274990f8c4d04771398293fe09
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 編輯您現有的資料檢視，將工作階段ID新增為Customer Journey Analytics中的可用維度。
 
 1. 登入[experience.adobe.com](https://experience.adobe.com)。
-1. 導覽至Customer Journey Analytics，然後在頂端功能表中選取&#x200B;**[!UICONTROL 資料檢視]**。
+1. 導覽至Customer Journey Analytics，然後在頂端功能表中選取&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 1. 選取所需的現有資料檢視。
 1. 在左側找到「量度工作階段ID」欄位清單，並將其拖曳至中央的維度區域。
 1. 在右窗格中，將[持續性](/help/data-views/component-settings/persistence.md)設定設為&#39;Session&#39;。

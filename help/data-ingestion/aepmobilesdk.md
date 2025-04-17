@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '3382'
-ht-degree: 60%
+source-wordcount: '3390'
+ht-degree: 63%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->本快速入門手冊是一份簡化的指南，說明如何將從應用程式收集的資料擷取到Adobe Experience Platform中，並用於Customer Journey Analytics。 強烈建議在提及時研究其他資訊。
+>本快速入門手冊是一份簡化的指南，說明如何將從應用程式收集的資料擷取到Adobe Experience Platform中，以及在Customer Journey Analytics中使用。 強烈建議在提及時研究其他資訊。
 
 
 ## 設定結構和資料集
@@ -58,20 +58,20 @@ ht-degree: 60%
 .
 1. 在建立架構精靈的選取類別步驟中：
 
-   1. 選取&#x200B;**[!UICONTROL 體驗事件]**。
+   1. 選取「**[!UICONTROL 體驗活動]**」。
 
       ![建立結構](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    體驗事件結構描述可用來模型化設定檔的&#x200B;_行為_ （像是場景名稱、要新增至購物車的推播按鈕）。 個體輪廓結構可用來建立輪廓&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+      >    體驗事件結構描述可用來建立設定檔&#x200B;_行為_ (例如場景名稱、推播按鈕至新增至購物車) 模型。個體設定檔結構描述可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 
-1. 在[!UICONTROL 建立結構描述]精靈的[!UICONTROL 名稱和檢閱步驟]中：
+1. 在「[!UICONTROL 建立結構描述]」精靈的「[!UICONTROL 命名和審查步驟]」中：
 
-   1. 為您的結構描述輸入&#x200B;**[!UICONTROL 結構描述顯示名稱]**&#x200B;和（選擇性） **[!UICONTROL 描述]**。
+   1. 輸入您結構描述的&#x200B;**[!UICONTROL 結構描述顯示名稱]**&#x200B;與 (選用) **[!UICONTROL 說明]**。
 
       ![命名結構](./assets/create-ee-schema-wizard-step-2.png)
 
@@ -91,7 +91,7 @@ ht-degree: 60%
 
       您可以選取預覽按鈕，以查看屬於此欄位群組之欄位的預覽，例如 `application > name`。
 
-      ![AEP行動生命週期詳細資訊欄位群組預覽](./assets/aepmobilesdk-experienceevent-preview.png)
+      ![AEP行動生命週期詳細資料欄位群組預覽](./assets/aepmobilesdk-experienceevent-preview.png)
 
       選取&#x200B;**[!UICONTROL 「返回」]**&#x200B;來關閉預覽。
 
@@ -99,25 +99,25 @@ ht-degree: 60%
 
 1. 在[!UICONTROL 「結構」]面板中，選取結構名稱旁的 **[!UICONTROL +]**。
 
-   ![範例結構新增欄位按鈕](./assets/example-mobileschema-plus.png)
+   ![範例結構描述新增欄位按鈕](./assets/example-mobileschema-plus.png)
 
 1. 在[!UICONTROL 欄位屬性]面板中，輸入`identification`作為[!UICONTROL 欄位名稱]，**[!UICONTROL 識別]**&#x200B;作為[!UICONTROL 顯示名稱]，選取&#x200B;**[!UICONTROL 物件]**&#x200B;作為[!UICONTROL 型別]，並選取&#x200B;**[!UICONTROL ExperienceEvent Core v2.1]**&#x200B;作為[!UICONTROL 欄位群組]。
 
    >[!NOTE]
    >
-   >如果該欄位群組無法使用，請尋找另一個包含身分欄位的欄位群組。 或者[建立新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html)和[新增新的身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) （例如`ecid`、`crmId`和其他您需要的欄位）至欄位群組，並選取該新欄位群組。
+   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
 
    ![識別物件](./assets/identification-field-mobile.png)
 
-   識別物件會將識別功能新增至結構描述。 針對您的情況，您想使用Experience CloudID和電子郵件地址，以行動應用程式識別設定檔。 有許多其他屬性可用來追蹤您的人員身分識別（例如客戶ID、忠誠度ID）。
+   識別物件新增識別功能至您的結構描述。針對您的情況，您想使用Experience Cloud ID和電子郵件地址，以行動應用程式識別設定檔。 還有許多其他屬性可用於追蹤您個人的身分識別 (例如客戶 ID、忠誠度 ID)。
 
-   選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
+   選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構描述。
 
 1. 在剛剛新增的身分識別物件中選取 **[!UICONTROL ecid]** 欄位，然後在右側面板的[!UICONTROL 「身分識別命名空間」]清單中，選取&#x200B;**[!UICONTROL 「身分識別」]**&#x200B;和&#x200B;**[!UICONTROL 「主要身分識別」]**&#x200B;和 **[!UICONTROL ECID]**。
 
    ![指定 ECID 作為身分識別](./assets/specify-identity-mobile.png)
 
-   您將 Experience Cloud Identity 指定為 Adobe Experience Platform Identity 服務可用於組合 (拼接) 具有相同 ECID 的輪廓的行為的主要身分。
+   您將 Experience Cloud Identity 指定為 Adobe Experience Platform Identity 服務可用於組合 (拼接) 具有相同 ECID 的設定檔的行為的主要身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在 ecid 屬性中。
 
@@ -125,7 +125,7 @@ ht-degree: 60%
 
    ![指定電子郵件作為身分識別](./assets/specify-email-identity-mobile.png)
 
-   您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 輪廓行為的另一個身分。
+   您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 設定檔行為的另一個身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在電子郵件屬性中。
 
@@ -133,7 +133,7 @@ ht-degree: 60%
 
 1. 選取顯示結構名稱之結構的根元素，然後選取&#x200B;**[!UICONTROL 「輪廓」]**&#x200B;切換。
 
-   系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶輪廓中。
+   系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
    如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
@@ -145,21 +145,21 @@ ht-degree: 60%
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-您已建立最低架構，為您可從行動應用程式擷取的資料建立模型。 該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別輪廓。為設定檔啟用結構描述後，即可確保從行動應用程式擷取的資料會新增至即時客戶設定檔。
+您已建立最低架構，為您可從行動應用程式擷取的資料建立模型。 該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。為設定檔啟用結構描述後，即可確保從行動應用程式擷取的資料會新增至即時客戶設定檔。
 
 在行為資料旁邊，您還可以從行動應用程式擷取設定檔屬性資料（例如訂閱電子報的設定檔詳細資料）。
 
 若要擷取設定檔資料，您可以：
 
-- 根據 XDM 個體輪廓架構類別建立結構。
+- 根據 XDM 個體設定檔架構類別建立結構。
 
-- 將「輪廓核心 v2」欄位群組新增至結構。
+- 將「設定檔核心 v2」欄位群組新增至結構。
 
-- 根據「輪廓核心 v2」欄位群組新增識別物件。
+- 根據「設定檔核心 v2」欄位群組新增識別物件。
 
-- 將Experience CloudID定義為主要識別碼，並將電子郵件定義為識別碼。
+- 將 Experience Cloud ID 定義為主要識別碼，並將電子郵件定義為識別碼。
 
-- 啟用該輪廓結構
+- 啟用該設定檔結構描述
 
 請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
@@ -187,13 +187,13 @@ ht-degree: 60%
 
 6. 選取&#x200B;**[!UICONTROL 「完成」]**。
 
-7. 選取&#x200B;**[!UICONTROL 「輪廓」]**&#x200B;切換。
+7. 選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
-   系統會提示您啟用輪廓的資料集。資料集一經啟用，即可透過攝取的資料豐富即時客戶輪廓。
+   系統會提示您啟用設定檔的資料集。資料集一經啟用，即可透過攝取的資料豐富即時客戶設定檔。
 
    >[!IMPORTANT]
    >
-   >    只有當資料集所遵循的結構同樣啟用輪廓時，您才能啟用輪廓的資料集。
+   >    只有當資料集所遵循的結構同樣啟用設定檔時，您才能啟用設定檔的資料集。
 
    ![啟用輪廓結構](./assets/aepwebsdk-dataset-profile.png)
 
@@ -201,7 +201,7 @@ ht-degree: 60%
 
 ## 設定資料流
 
-資料流代表實作 Adobe Experience Platform Web 和 Mobile SDK 時的伺服器端設定。使用 Adobe Experience Platform SDK 收集資料時，資料會傳送至 Adobe Experience Platform Edge Network。是決定要將資料轉送至哪些服務的資料流。
+資料流代表實作 Adobe Experience Platform Web 和 Mobile SDK 時的伺服器端設定。使用 Adobe Experience Platform SDK 收集資料時，資料會傳送至 Adobe Experience Platform Edge Network。此資料流決定資料要轉送到哪些服務。
 
 在設定中，您想要將從行動應用程式收集到的資料傳送到Adobe Experience Platform中的資料集。
 
@@ -211,7 +211,7 @@ ht-degree: 60%
 
 2. 選取「**[!UICONTROL 新資料流]**」。
 
-3. 命名並描述您的資料流。從[!UICONTROL 「事件結構」]清單中選取您的結構。
+3. 命名並描述您的資料流。從[!UICONTROL 「事件結構描述」]清單中選取您的結構描述。
 
    ![新資料流](./assets/new-datastream.png)
 
@@ -260,7 +260,7 @@ ht-degree: 60%
 
 #### **擴充功能**
 
-將Adobe PlatformEdge Network擴充功能新增至您的標籤，以確保您可以（透過資料流）傳送資料至Adobe Experience Platform。
+將Adobe Platform Edge Network擴充功能新增至您的標籤，以確保您可將資料傳送至Adobe Experience Platform （透過資料流）。
 
 若要建立和設定Adobe Experience Platform Mobile SDK擴充功能：
 
@@ -268,7 +268,7 @@ ht-degree: 60%
 
 1. 在頂端列中選取 **[!UICONTROL 「目錄」]**。
 
-1. 搜尋或捲動至&#x200B;**[!UICONTROL Adobe Experience PlatformEdge Network]**&#x200B;擴充功能，然後在右窗格中選取「**[!UICONTROL 安裝]**」以進行安裝。
+1. 搜尋或捲動至&#x200B;**[!UICONTROL Adobe Experience Platform Edge Network]**&#x200B;擴充功能，然後在右窗格中選取「**[!UICONTROL 安裝]**」以進行安裝。
 
 1. 為您的[!UICONTROL 生產環境]和 (可選) [!UICONTROL 中繼環境]以及[!UICONTROL 開發環境]選取您的沙箱和先前建立的資料流。
 
@@ -278,7 +278,7 @@ ht-degree: 60%
 
 1. 選取「**[!UICONTROL 儲存]**」。
 
-如需詳細資訊，請參閱[設定Adobe Experience PlatformEdge Network擴充功能](https://developer.adobe.com/client-sdks/documentation/edge-network)。
+如需詳細資訊，請參閱[設定Adobe Experience Platform Edge Network擴充功能](https://developer.adobe.com/client-sdks/documentation/edge-network)。
 
 您也想從目錄中設定下列其他擴充功能：
 
@@ -318,7 +318,7 @@ ht-degree: 60%
 
 #### **規則**
 
-Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找使用者互動與相關資料。當符合列於您規則中的準則時，規則會觸發您識別的擴充功能、指令碼或用戶端代碼。您可以使用規則，透過Adobe Experience PlatformEdge Network擴充功能將資料（例如XDM物件）傳送至Adobe Experience Platform。
+Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找使用者互動與相關資料。當符合列於您規則中的準則時，規則會觸發您識別的擴充功能、指令碼或用戶端代碼。您可以使用規則，透過Adobe Experience Platform Edge Network擴充功能將資料（例如XDM物件）傳送至Adobe Experience Platform。
 
 例如，您想要在使用行動應用程式時（在前景）或未使用行動應用程式時（推送回背景）傳送事件資料。
 
@@ -352,7 +352,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
    - 按一下[!UICONTROL ACTIONS]底下的![加上](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)新增。 在[!UICONTROL 動作設定] 對話框：
 
-      - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL Adobe Experience PlatformEdge Network]**。
+      - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL Adobe Experience Platform Edge Network]**。
 
       - 從[!UICONTROL 動作型別]清單中選取&#x200B;**[!UICONTROL 轉寄事件至Edge Network]**。
 
@@ -364,7 +364,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
    - 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-以上只是定義規則的範例，此規則會將包含應用程式狀態的XDM資料傳送至Adobe Edge網路和Adobe Experience Platform。
+以上只是定義規則的範例，此規則會將包含應用程式狀態的XDM資料傳送至Adobe Edge Network和Adobe Experience Platform。
 
 您可以在標籤中以各種方式使用規則來操控變數 (使用您的資料元素)。
 
@@ -392,11 +392,11 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
    - 選取&#x200B;**[!UICONTROL 「儲存並建置至開發」]**。
 
-   您的標籤已儲存並為開發環境建置。 綠色圓點表示在開發環境中成功建置標籤。
+   您的標記已儲存並已針對您的開發環境建立。綠色圓點表示在開發環境中成功建置標籤。
 
 4. 您可以選取&#x200B;**[!UICONTROL 「...」]**&#x200B;來重建程式庫或將程式庫移至中繼環境或生產環境。
 
-Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，應該能因應您的Adobe Experience PlatformEdge Network部署。
+Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，應該能因應您的Adobe Experience Platform Edge Network部署。
 
 如需詳細資訊，請參閱[發佈概觀](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)。
 
@@ -437,7 +437,7 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 若要建立連線，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「連線」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 連線]** （選擇性的從&#x200B;**[!UICONTROL 資料管理]**）。
 
 2. 選取&#x200B;**[!UICONTROL 「建立新連線」]**。
 
@@ -483,7 +483,7 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 若要建立資料檢視，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「資料檢視」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 
 2. 選取&#x200B;**[!UICONTROL 「建立新的資料檢視」]**。
 
@@ -520,7 +520,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
 若要建立專案，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「專案」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 專案]**。
 
 2. 在左側導覽中選取&#x200B;**[!UICONTROL 「專案」]**。
 
@@ -544,4 +544,4 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
 >[!SUCCESS]
 >
->您已完成所有步驟。從定義您要收集的資料 (結構)，以及要將其儲存在 Adobe Experience Platform 中的何處 (資料集) 開始，您已在 Edge Network 上設定資料流，確保資料可轉送至該資料集。接著，您定義並部署包含擴充功能(Adobe Experience PlatformEdge Network及其他)、資料元素和規則的標籤，從行動應用程式擷取資料，並將資料傳送至資料流。 您在Customer Journey Analytics中定義連線，以使用您的行動應用程式推播通知追蹤資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，並最終建立您的第一個專案，以視覺化呈現和分析您的行動應用程式資料。
+>您已完成所有步驟。從定義您要收集的資料 (結構)，以及要將其儲存在 Adobe Experience Platform 中的何處 (資料集) 開始，您已在 Edge Network 上設定資料流，確保資料可轉送至該資料集。接著，您定義並部署包含擴充功能(Adobe Experience Platform Edge Network和其他專案)、資料元素和規則的標籤，從行動應用程式擷取資料，並將資料傳送至資料流。 您在Customer Journey Analytics中定義連線，以使用您的行動應用程式推播通知追蹤資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，並最終建立您的第一個專案，以視覺化呈現和分析您的行動應用程式資料。

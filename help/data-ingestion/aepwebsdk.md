@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
-source-git-commit: 9849d686e886426124842ce210b423ac6c74fb89
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '3543'
-ht-degree: 83%
+source-wordcount: '3551'
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
-> 本快速入門手冊是一份簡化的指南，說明如何將從網站收集的資料擷取到Adobe Experience Platform中，並用於Customer Journey Analytics。 強烈建議在提及時研究其他資訊。
+> 本快速入門手冊是一份簡化的指南，說明如何將從網站收集的資料擷取到Adobe Experience Platform中，以及在Customer Journey Analytics中使用。 強烈建議在提及時研究其他資訊。
 
 
 ## 設定結構和資料集
@@ -58,22 +58,22 @@ ht-degree: 83%
 .
 1. 在建立架構精靈的選取類別步驟中：
 
-   1. 選取&#x200B;**[!UICONTROL 體驗事件]**。
+   1. 選取「**[!UICONTROL 體驗活動]**」。
 
-      ![建立強調體驗事件的結構描述](./assets/create-ee-schema-wizard-step-1.png)
+      ![建立強調 Experience 事件的結構描述](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
-      >    體驗事件結構描述可用來模型化設定檔的&#x200B;_行為_ （像是場景名稱、要新增至購物車的推播按鈕）。 個體輪廓結構可用來建立輪廓&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+      >    體驗事件結構描述可用來建立設定檔&#x200B;_行為_ (例如場景名稱、推播按鈕至新增至購物車) 模型。個體設定檔結構描述可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 
-1. 在[!UICONTROL 建立結構描述]精靈的[!UICONTROL 名稱和檢閱步驟]中：
+1. 在「[!UICONTROL 建立結構描述]」精靈的「[!UICONTROL 命名和審查步驟]」中：
 
-   1. 為您的結構描述輸入&#x200B;**[!UICONTROL 結構描述顯示名稱]**&#x200B;和（選擇性） **[!UICONTROL 描述]**。
+   1. 輸入您結構描述的&#x200B;**[!UICONTROL 結構描述顯示名稱]**&#x200B;與 (選用) **[!UICONTROL 說明]**。
 
-      ![建立結構描述視窗，顯示結構描述欄位的名稱](./assets/create-ee-schema-wizard-step-2.png)
+      ![建立結構描述視窗，會顯示結構描述欄位的名稱](./assets/create-ee-schema-wizard-step-2.png)
 
    1. 選取&#x200B;**[!UICONTROL 「完成」]**。
 
@@ -99,25 +99,25 @@ ht-degree: 83%
 
 1. 在[!UICONTROL 「結構」]面板中，選取結構名稱旁的 **[!UICONTROL +]**。
 
-   ![範例結構新增欄位按鈕](./assets/example-schema-plus.png)
+   ![範例結構描述新增欄位按鈕](./assets/example-schema-plus.png)
 
 1. 在[!UICONTROL 「欄位屬性」]面板中，輸入 `Identification` 作為名稱，**[!UICONTROL 「識別」]**&#x200B;作為[!UICONTROL 顯示名稱]，選取&#x200B;**[!UICONTROL 「物件」]**&#x200B;作為[!UICONTROL 類型]，並選取&#x200B;**[!UICONTROL 「ExperienceEvent 核心 v2.1」]**&#x200B;作為[!UICONTROL 欄位群組]。
 
    >[!NOTE]
    >
-   >如果該欄位群組無法使用，請尋找另一個包含身分欄位的欄位群組。 或者[建立新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html)和[新增新的身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) （例如`ecid`、`crmId`和其他您需要的欄位）至欄位群組，並選取該新欄位群組。
+   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
 
    ![識別物件](./assets/identification-field.png)
 
-   識別物件會將識別功能新增至結構描述。 對於您的情況，您想要使用Experience CloudID和電子郵件地址來識別造訪您網站的設定檔。 有許多其他屬性可用來追蹤您的人員身分識別（例如客戶ID、忠誠度ID）。
+   識別物件新增識別功能至您的結構描述。在您的案例中，您想使用 Experience Cloud ID 和電子郵件地址識別瀏覽您網站的設定檔。還有許多其他屬性可用於追蹤您個人的身分識別 (例如客戶 ID、忠誠度 ID)。
 
-   選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構。
+   選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構描述。
 
 1. 在剛剛新增的身分識別物件中選取 **[!UICONTROL ecid]** 欄位，然後在右側面板的[!UICONTROL 「身分識別命名空間」]清單中，選取&#x200B;**[!UICONTROL 「身分識別」]**&#x200B;和&#x200B;**[!UICONTROL 「主要身分識別」]**&#x200B;和 **[!UICONTROL ECID]**。
 
    ![指定 ECID 作為身分識別](./assets/specify-identity.png)
 
-   您將 Experience Cloud Identity 指定為 Adobe Experience Platform Identity 服務可用於組合 (拼接) 具有相同 ECID 的輪廓的行為的主要身分。
+   您將 Experience Cloud Identity 指定為 Adobe Experience Platform Identity 服務可用於組合 (拼接) 具有相同 ECID 的設定檔的行為的主要身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在 ecid 屬性中。
 
@@ -125,7 +125,7 @@ ht-degree: 83%
 
    ![指定電子郵件作為身分識別](./assets/specify-email-identity.png)
 
-   您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 輪廓行為的另一個身分。
+   您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 設定檔行為的另一個身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在電子郵件屬性中。
 
@@ -133,7 +133,7 @@ ht-degree: 83%
 
 1. 選取顯示結構名稱之結構的根元素，然後選取&#x200B;**[!UICONTROL 「輪廓」]**&#x200B;切換。
 
-   系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶輪廓中。
+   系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
    如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
@@ -145,21 +145,21 @@ ht-degree: 83%
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-您已建立最小結構，以建立可從您網站擷取的資料的模型。該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別輪廓。透過啟用輪廓的結構，即可確保將從您網站擷取的資料新增至即時客戶輪廓。
+您已建立最小結構，以建立可從您網站擷取的資料的模型。該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。透過啟用設定檔的結構，即可確保將從您網站擷取的資料新增至即時客戶設定檔。
 
-除了行為資料之外，您也可以從您的網站擷取輪廓屬性資料 (例如訂閱電子報的輪廓詳細資訊)。
+除了行為資料之外，您也可以從您的網站擷取設定檔屬性資料 (例如訂閱電子報的設定檔詳細資訊)。
 
-若要擷取此輪廓資料，您可以：
+若要擷取此設定檔資料，您可以：
 
-- 根據 XDM 個體輪廓架構類別建立結構。
+- 根據 XDM 個體設定檔架構類別建立結構。
 
-- 將「輪廓核心 v2」欄位群組新增至結構。
+- 將「設定檔核心 v2」欄位群組新增至結構。
 
-- 根據「輪廓核心 v2」欄位群組新增識別物件。
+- 根據「設定檔核心 v2」欄位群組新增識別物件。
 
-- 將Experience CloudID定義為主要識別碼，並將電子郵件定義為識別碼。
+- 將 Experience Cloud ID 定義為主要識別碼，並將電子郵件定義為識別碼。
 
-- 啟用該輪廓結構
+- 啟用該設定檔結構描述
 
 請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
@@ -187,13 +187,13 @@ ht-degree: 83%
 
 6. 選取&#x200B;**[!UICONTROL 「完成」]**。
 
-7. 選取&#x200B;**[!UICONTROL 「輪廓」]**&#x200B;切換。
+7. 選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
-   系統會提示您啟用輪廓的資料集。資料集一經啟用，即可透過攝取的資料豐富即時客戶輪廓。
+   系統會提示您啟用設定檔的資料集。資料集一經啟用，即可透過攝取的資料豐富即時客戶設定檔。
 
    >[!IMPORTANT]
    >
-   >    只有當資料集所遵循的結構同樣啟用輪廓時，您才能啟用輪廓的資料集。
+   >    只有當資料集所遵循的結構同樣啟用設定檔時，您才能啟用設定檔的資料集。
 
    ![啟用輪廓結構](./assets/aepwebsdk-dataset-profile.png)
 
@@ -201,7 +201,7 @@ ht-degree: 83%
 
 ## 設定資料流
 
-資料流代表實作 Adobe Experience Platform Web 和 Mobile SDK 時的伺服器端設定。使用 Adobe Experience Platform SDK 收集資料時，資料會傳送至 Adobe Experience Platform Edge Network。是決定要將資料轉送至哪些服務的資料流。
+資料流代表實作 Adobe Experience Platform Web 和 Mobile SDK 時的伺服器端設定。使用 Adobe Experience Platform SDK 收集資料時，資料會傳送至 Adobe Experience Platform Edge Network。此資料流決定資料要轉送到哪些服務。
 
 在設定中，您想要將從網站收集的資料傳送至 Adobe Experience Platform 中的資料集。
 
@@ -211,7 +211,7 @@ ht-degree: 83%
 
 2. 選取「**[!UICONTROL 新資料流]**」。
 
-3. 命名並描述您的資料流。從[!UICONTROL 「事件結構」]清單中選取您的結構。
+3. 命名並描述您的資料流。從[!UICONTROL 「事件結構描述」]清單中選取您的結構描述。
 
    ![新資料流](./assets/new-datastream.png)
 
@@ -260,7 +260,7 @@ ht-degree: 83%
 
 #### **擴充功能**
 
-為確保您能傳送資料至Adobe Experience Platform （透過資料流），請將Adobe平台Web SDK擴充功能新增至您的標籤。
+為確保您能傳送資料至Adobe Experience Platform （透過資料流），請將Adobe Platform Web SDK擴充功能新增至您的標籤。
 
 若要建立及設定 Adobe Experience Platform Web SDK 擴充功能：
 
@@ -280,7 +280,7 @@ ht-degree: 83%
 
 如需詳細資訊，請參閱[設定 Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html)。
 
-Web SDK原生包含[!UICONTROL Adobe Experience Cloud ID服務]，因此您不需要將ID服務擴充功能新增至標籤。
+Web SDK 原本就包括 [!UICONTROL Adobe Experience Cloud ID 服務]，因此您不需要新增 ID 服務擴充功能至您的標記中。
 
 #### **資料元素**
 
@@ -444,7 +444,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
    - 選取&#x200B;**[!UICONTROL 「儲存並建置至開發」]**。
 
-   您的標籤已儲存並為開發環境建置。 綠色圓點表示在開發環境中成功建置標籤。
+   您的標記已儲存並已針對您的開發環境建立。綠色圓點表示在開發環境中成功建置標籤。
 
 4. 您可以選取&#x200B;**[!UICONTROL 「...」]**&#x200B;來重建程式庫或將程式庫移至中繼環境或生產環境。
 
@@ -493,7 +493,7 @@ Adobe Experience Platform 標籤支援簡單到複雜的發佈工作流程，以
 
 若要建立連線，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「連線」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 連線]** （選擇性的從&#x200B;**[!UICONTROL 資料管理]**）。
 
 2. 選取&#x200B;**[!UICONTROL 「建立新連線」]**。
 
@@ -539,7 +539,7 @@ Adobe Experience Platform 標籤支援簡單到複雜的發佈工作流程，以
 
 若要建立資料檢視，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「資料檢視」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 
 2. 選取&#x200B;**[!UICONTROL 「建立新的資料檢視」]**。
 
@@ -576,7 +576,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
 若要建立專案，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「專案」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 專案]**。
 
 2. 在左側導覽中選取&#x200B;**[!UICONTROL 「專案」]**。
 

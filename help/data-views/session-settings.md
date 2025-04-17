@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '454'
-ht-degree: 100%
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 若要在資料視圖中定義工作階段的內容：
 
-1. 在 Customer Journey Analytics 中，選取「**[!UICONTROL 資料檢視]**」。
+1. 在Customer Journey Analytics UI的主要導覽中，選取&#x200B;**[!UICONTROL 資料檢視]** （選擇性的從&#x200B;**[!UICONTROL 資料管理]**）。
 
 2. 建立新的或編輯現有的資料檢視。如需詳細資訊，請參閱[建立或編輯資料檢視](create-dataview.md)。
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
 role: Admin
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 80%
+source-wordcount: '1181'
+ht-degree: 82%
 
 ---
 
@@ -54,11 +54,11 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
 3. 在 Adobe Analytics 圖格中選取&#x200B;**[!UICONTROL 設定]**&#x200B;或&#x200B;**[!UICONTROL 新增資料]**。
 
-   ![已選取來源的Adobe Experience Platform視窗，同時反白顯示Adobe應用程式和新增資料。](./assets/sources-overview.png)
+   ![Adobe Experience Platform 視窗，其中已選取來源並醒目顯示 Adob&#x200B;&#x200B;e 應用程式和新增資料。](./assets/sources-overview.png)
 
 4. 選取&#x200B;**[!UICONTROL 報告套裝]**。從報告套裝清單中，選取您要使用的套裝。
 
-   顯示報告套裝清單的![Adobe Experience Platform視窗](./assets/report-suites.png)
+   ![顯示報告套裝清單的 Adob&#x200B;&#x200B;e Experience Platform 視窗](./assets/report-suites.png)
 
    選取&#x200B;**[!UICONTROL 「下一步」]**。
 
@@ -70,16 +70,16 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
 6. 為資料流命名，並 (可選) 提供說明。
 
-   ![Adobe Experience Platform視窗醒目提示資料流詳細資料區段](./assets/dataflow-detail.png)
+   ![Adobe Experience Platform 視窗，醒目顯示「資料流詳細資料」部分](./assets/dataflow-detail.png)
 
    選取&#x200B;**[!UICONTROL 「下一步」]**。
 
 7. 查看連線並選取 **[!UICONTROL 完成]**。
 
-   ![Adobe Experience Platform視窗醒目提示要檢閱的連線和資料型別區段](./assets/review.png)
+   ![Adobe Experience Platform 視窗，醒目顯示供檢視的「連線」和「資料類型」部分](./assets/review.png)
 
 
-建立連線後，系統會自動建立資料流，以使用報表套裝的Adobe Analytics資料填入資料集。 此資料流會擷取最多13個月的生產沙箱歷史資料。 非生產沙箱中的回填限製為三個月。
+建立連線後，系統會自動建立資料流，以使用報表套裝的Adobe Analytics資料填入資料集。 資料流會為生產沙盒攝取最多 13 個月的歷史資料。非生產沙箱的回填期限制為三個月。
 
 完成初始擷取後，您的 Adobe Analytics 報告套裝資料就準備就緒，可供 Customer Journey Analytics 使用。
 
@@ -94,7 +94,7 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
 若要建立連線，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「連線」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 連線]** （選擇性的從&#x200B;**[!UICONTROL 資料管理]**）。
 
 2. 選取&#x200B;**[!UICONTROL 「建立新連線」]**。
 
@@ -120,7 +120,7 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
    - 對於每個資料集：
 
-      - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分中選取[!UICONTROL 人員 ID]。
+      - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取[!UICONTROL 人員 ID]。
 
       - 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
 
@@ -140,7 +140,7 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
 若要建立資料檢視，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「資料檢視」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 
 2. 選取&#x200B;**[!UICONTROL 「建立新的資料檢視」]**。
 
@@ -177,7 +177,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
 若要建立專案，請執行以下操作：
 
-1. 在 Customer Journey Analytics UI 中，選取頂部導覽中的&#x200B;**[!UICONTROL 「專案」]**。
+1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 專案]**。
 
 2. 在左側導覽中選取&#x200B;**[!UICONTROL 「專案」]**。
 

@@ -1,14 +1,14 @@
 ---
 title: 將 Analytics 來源連接器資料集新增至連線
-description: 瞭解如何將Analytics來源聯結器資料集新增至連線
+description: 了解如何將 Analytics 來源連接器資料集新增至連線
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 35%
+source-wordcount: '887'
+ht-degree: 98%
 
 ---
 
@@ -25,91 +25,91 @@ ht-degree: 35%
 
 {{upgrade-note-step}}
 
-## 瞭解Analytics來源聯結器如何將歷史資料帶入Customer Journey Analytics
+## 了解 Analytics 來源連接器如何讓歷史資料進入 Customer Journey Analytics
 
-您可以使用Analytics來源聯結器將Adobe Analytics報告套裝資料匯入Adobe Experience Platform。 然後，這些資料即可用作Customer Journey Analytics中的歷史資料。
+您可以使用 Analytics 來源連接器，讓 Adobe Analytics 報告套裝資料進入 Adobe Experience Platform。然後，這些資料可以用作 Customer Journey Analytics 的歷史資料。
 
-此程式假設您要在升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)時[建立XDM結構描述，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
+此流程假設您[在升級到 Customer Journey Analytics 時想要建立 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，因為您需要一個以您組織需求和所用特定 Platform 應用程式量身定制的精簡結構描述。
 
-若要使用Analytics來源聯結器將歷史資料帶入Customer Journey Analytics，您需要：
+若要使用 Analytics 來源連接器讓歷史資料進入 Customer Journey Analytics，您需要：
 
 1. [建立 Analytics 來源連接器的 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. 如果您還沒有Analytics來源聯結器，請[建立Analytics來源聯結器，並將欄位對應到您的XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)。
+1. 如果您還沒有 Analytics 來源連接器，可[建立 Analytics 來源連接器並將欄位對應到 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)。
 
    或
 
-   如果您已有Analytics來源聯結器，請從來源聯結器[將欄位對應到您的XDM結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)。
+   如果您已擁有 Analytics 來源連接器，則可[將欄位從來源連接器對應到 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)。
 
-1. 將Analytics來源聯結器資料集新增至連線，如下所述。
+1. 請依下面的說明，將 Analytics 來源連接器資料集新增至連線。
 
 ## 將 Analytics 來源連接器資料集新增至連線
 
-在您[為歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)建立Analytics來源聯結器後，系統會自動為Analytics資料建立資料集。
+您[為歷史資料建立 Analytics 來源連接器](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)後，系統會自動為 Analytics 資料建立一個資料集。
 
-您需要將此自動建立的資料集新增至您為網站SDK實作建立的相同連線。 這麼做會將Analytics資料帶入Customer Journey Analytics中與網頁SDK資料相同的資料檢視。
+您需要將此自動建立的資料集新增至為 Web SDK 實施建立的相同連線。這樣做會讓 Analytics 資料進入 Customer Journey Analytics 內的資料檢視，成為您的 Web SDK 資料相同。
 
-若要將自動建立的資料集新增至您為網站SDK實作建立的相同連線：
+若要將此自動建立的資料集新增至為 Web SDK 實施建立的相同連線：
 
-1. 在 Customer Journey Analytics 中選取&#x200B;**[!UICONTROL 「連線」]**&#x200B;索引標籤。
+1. 在Customer Journey Analytics中，選取頂端功能表中的&#x200B;**[!UICONTROL 連線]** （選擇性的從&#x200B;**[!UICONTROL 資料管理]**）。
 
-1. 選取您[為網頁SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)建立的連線。
+1. 選取您[為 Web SDK 實施而建立](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)的連線。
 
-1. 選取&#x200B;**[!UICONTROL 編輯]**。
+1. 選取「**[!UICONTROL 編輯]**」。
 
    ![編輯連線](assets/connection-add-dataset.png)
 
-1. 選取右上角的&#x200B;**[!UICONTROL 新增資料集]**。
+1. 在右上角，選取「**[!UICONTROL 新增資料集]**」。
 
    ![編輯連線](assets/connection-add-dateset2.png)
 
-1. 捲動至或搜尋在您建立Analytics來源聯結器時自動建立的資料集。
+1. 捲動至或搜尋自動建立的資料集 (這是建立 Analytics 來源連接器時的資料集)。
 
-   此資料集的名稱是報表套裝的名稱，後面接著`midValues`。 例如︰`My report suite midValues`
+   此資料集的名稱是您的報告套裝名稱，後面附有 `midValues`。例如︰`My report suite midValues`
 
-1. 選取資料集名稱旁的核取方塊，然後選取&#x200B;**[!UICONTROL 下一步]**。
+1. 選取資料集名稱旁的核取方塊，然後選取「**[!UICONTROL 下一步]**」。
 
    ![編輯連線](assets/connection-add-dataset3.png)
 
-1. 指定下列資訊：
+1. 註明下列資訊：
 
    <!-- Copied from help/connections/create-connection.md. Should we single source? -->
 
    | 設定 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 人員 ID]** | 僅適用於事件和輪廓資料集。從可用身分識別的下拉式清單中選取人員 ID。這些身分識別是在 Experience Platform 的資料集結構中所定義。 若要了解如何以「身分識別對應」作為人員 ID，請參閱以下說明。<p>如果沒有人員 ID 可以選擇，表示結構描述中尚未定義一或多個人員 ID。有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選人員 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
+   | **[!UICONTROL 個人 ID]** | 僅適用於事件和設定檔資料集。從可用身分識別的下拉式清單中選取個人 ID。這些身分識別是在 Experience Platform 的資料集結構描述中所定義。 若要了解如何以「身分識別對應」作為個人 ID，請參閱以下說明。<p>如果沒有個人 ID 可以選擇，表示結構描述中尚未定義一或多個個人 ID。有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
    | **[!UICONTROL 時間戳記]** | 僅適用於事件和摘要資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述之預設時間戳記欄位。 |
    | **[!UICONTROL 時區]** | 僅適用於摘要資料。為時間序列摘要資料選取適當的時區。 |
    | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。<br/>資料來源的類型包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
 
    {style="table-layout:auto"}
 
-1. 在&#x200B;**[!UICONTROL 匯入新資料]**&#x200B;區段中，保留&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;選項停用。
+1. 在「**[!UICONTROL 匯入新資料]**」部分，保持「**[!UICONTROL 匯入所有新資料]**」選項的停用狀態。
 
-   由於您正在將Analytics來源聯結器資料集用於歷史資料，因此您不希望未來將收集的資料帶入此資料集。
+   由於您現在是使用 Analytics 來源連接器資料集來儲存歷史資料，因此您不要讓收集到的未來資料進入此資料集。
 
-1. 在&#x200B;**[!UICONTROL 資料集回填]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 要求回填]**。
+1. 在「**[!UICONTROL 資料集回填]**」部分中，選取「**[!UICONTROL 請求回填]**」。
 
-1. 透過輸入開始和結束日期或選取行事曆圖示![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)，定義您希望Customer Journey Analytics中的連線回填包含的時間段。
+1. 透過輸入開始日期和結束日期或選取行事曆圖示 ![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)，可定義您要將回填連線至 Customer Journey Analytics 以納入的時間段。
 
-   指定要求回填的日期時請務必明確。 根據數個因素，您可能會想要執行下列任一項作業：
+   您必須明確指定您要求回填的日期。根據多種因素的影響，您可能需要執行以下任一項操作：
 
-   * 選擇與您開始透過Web SDK實作收集資料時的相同結束日期。
+   * 選擇的結束日期與您一開始隨 Web SDK 實施收集資料的日期相同。
 
-   * 選擇您初次開始透過Web SDK實作收集資料之日期不久後的結束日期，然後使用資料檢視區段來篩選掉重疊的資料。
+   * 選擇一個結束日期，該日期是您一開始隨 Web SDK 實施收集資料的日期之後不久，然後使用資料檢視區段來篩選重疊的資料。
 
-   * 選擇導致資料發生較大重疊的結束日期，然後使用資料檢視區段來篩選掉重疊的資料。
+   * 選擇一個會讓資料更大幅重疊的結束日期，然後使用資料檢視來篩選重疊的資料。
 
-     **注意：**&#x200B;此選項會造成成本增加，因為連線中會有更多資料列。
+     **註：** 此選項會使成本增加，因為會有更多列在連線中。
 
    <!-- Include any of the following?  Make sure you're explicit as to the dates you request backfill to. You want to request it to the date that you start gathering data with your Web SDK implementation. Also possibly include segments for any overlapping date. So you could request everything and then use a segment to exclude data that you don't want. That way if you need to move up the date, then you could change the date in the filter. Downside would be that you might pay for double rows.  When they do that, they're going to see all schema fields from both their custom schema and their Analytics schema. So they'll need to be cognizant to select the right fields, and never select any Analytics fields, because they will be mapped as part of the source connector. Never select any Analytics field group fields because they'll be mapped.  -->
 
-1. 選取&#x200B;**[!UICONTROL 佇列回填]**。
+1. 選取「**[!UICONTROL 佇列回填]**」。
 
-1. 選取&#x200B;**[!UICONTROL 新增資料集]**，然後選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存連線。
+1. 選取「**[!UICONTROL 新增資料集]**」，然後選取「**[!UICONTROL 儲存]**」以儲存連線。
 
-1. （條件式）如果您使用查詢資料集，則必須建立查詢資料集並將其新增至您的連線。 如需詳細資訊，請參閱[在Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)中建立查詢資料集以分類資料。
+1. (條件) 如果您使用查詢資料集，則必須建立查詢資料集並將其新增至您的連線。若需要更多資訊，請參閱「[建立查詢資料集來將 Customer Journey Analytics 的資料分類](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)」。
 
-   只有在設定網頁SDK實作時尚未執行此動作的情況下，才需要執行此動作。
+   只有在設定 Web SDK 實施時尚未執行此操作時才需要這樣做。
 
 {{upgrade-final-step}}
