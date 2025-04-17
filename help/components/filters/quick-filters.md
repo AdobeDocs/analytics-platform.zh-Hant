@@ -4,10 +4,10 @@ title: 快速區段
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 59%
+ht-degree: 30%
 
 ---
 
@@ -65,18 +65,18 @@ ht-degree: 59%
 
 ![快速區段產生器](assets/quick-filter-builder.png)
 
-快速篩選產生器由以下區域和按鈕組成。
+快速區段產生器包含下列區域和按鈕。
 
 ### 標題區域
 
-標題區域會確定快速篩選器的名稱、類型和範圍。此區域還會以視覺效果顯示快速篩選器的結果。
+標題區域決定快速區段的名稱、型別和範圍。 它也會顯示快速區段結果的視覺效果。
 
 | 元素 | 說明 |
 |---|---|
-| **[!UICONTROL 名稱]** | 該名稱是從快速篩選器定義自動衍生。 |
-| **[!UICONTROL 人員]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![警報](/help/assets/icons/Alert.svg) | 預覽快速篩選所得的資料。透過長條圖和百分比可以了解整體資料中有多少是快速篩選結果的一部分。紅色![警報](/help/assets/icons/Alert.svg)表示快速篩選器未回傳資料。 |
-| **[!UICONTROL 包含]**<br/>**[!UICONTROL 排除]** | 從 ![ChevronDown](/help/assets/icons/ChevronDown.svg) 下拉式選單中，選取是否要包含或排除從面板資料快速篩選的結果。 |
-| **[!UICONTROL 事件]**<br/>**[!UICONTROL 工作階段]**<br/>**[!UICONTROL 個人]** | 從 ![ChevronDown](/help/assets/icons/ChevronDown.svg) 下拉式選單中，選取快速篩選器的範圍。 |
+| **[!UICONTROL 名稱]** | 名稱會自動衍生自快速區段定義。 |
+| **[!UICONTROL 人員]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![警報](/help/assets/icons/Alert.svg) | 預覽快速區段所產生資料的視覺效果。 長條圖和百分比可讓insight瞭解整體資料中有多少是快速區段結果的一部分。 紅色![警報](/help/assets/icons/Alert.svg)表示快速區段未傳回資料。 |
+| **[!UICONTROL 包含]**<br/>**[!UICONTROL 排除]** | 從下拉式清單![V形](/help/assets/icons/ChevronDown.svg)中選取是否要從面板中的資料包含或排除快速區段的結果。 |
+| **[!UICONTROL 事件]**<br/>**[!UICONTROL 工作階段]**<br/>**[!UICONTROL 個人]** | 從下拉式清單中選取![V形](/help/assets/icons/ChevronDown.svg)快速區段的範圍。 |
 
 ### 條件區域
 
@@ -88,25 +88,25 @@ ht-degree: 59%
 | **[!UICONTROL *元件&#x200B;*]** | 條件的元件欄位。你可以&#x200B;[!UICONTROL *輸入以新增*]&#x200B;元件、從清單中選取元件，或者，您可以從元件面板中拖放一個元件。您只能將類似的元件放置在條件的元件欄位上。例如，您只能根據維度條件從元件面板中放置維度元件。<br/>您也可以透過拖放動作來取代現有元件。<br/>選取 ![CrossSize75](/help/assets/icons/CrossSize75.svg)，從元件欄位刪除該元件。 |
 | **[!UICONTROL *運算子&#x200B;*]** | 元件的運算子。如需詳細資訊，請參閱「[運算子](operators.md)」。僅適用於維度和量度。 |
 | **[!UICONTROL *值&#x200B;*]** | 條件的值。根據所選的運算子，可以從清單中選取值或輸入一個值。 |
-| ![CrossSize75](/help/assets/icons/CrossSize75.svg) | 選取並從快速篩選器中刪除一個條件。 |
+| ![CrossSize75](/help/assets/icons/CrossSize75.svg) | 選取以從快速區段刪除條件。 |
 
 ### 按鈕
 
 | 按鈕 | 說明 |
 |---|---|
-| **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | 只有在您定義多個條件時才適用。從 ![ChevronDown](/help/assets/icons/ChevronDown.svg) 下拉清單中，在條件之間選取。這項選擇會確定快速篩選器的布林邏輯。當有三個條件時，你不能混合使用邏輯。布林邏輯可以是 **[!UICONTROL AND]** 或 **[!UICONTROL OR]**。 |
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | 新增另一個條件至您的快速篩選器。只有在您為快速篩選器定義一個或兩個條件時，此按鈕才適用。 |
-| **[!UICONTROL 套用]** | 套用變更至快速篩選器。 |
-| **[!UICONTROL 開啟產生器]** | 系統會出現提示，請您確認：**[!UICONTROL 你確定嗎？]**&#x200B;對話框。如果您選取「**[!UICONTROL 確定」]**，您再也無法在後者編輯您的篩選器：[快速篩選產生器](#quick-filter-builder) 您的快速篩選器已重新命名為&#x200B;**[!UICONTROL 篩選器]**，且現在左邊有一個深藍色的細條。<br/>一般[篩選產生器](filter-builder.md)開啟並有「**[!UICONTROL 讓此篩選器適用於您的所有專案並將其新增至您的元件清單中]**」選項。 <ul><li>如果您選取此選項並選取「**[!UICONTROL 套用]**」，該篩選器會新增至元件面板中的 ![篩選器](/help/assets/icons/Segmentation.svg) **[!UICONTROL 篩選器]**&#x200B;元件清單。</li><li>如果您未選取此選項並選取「**[!UICONTROL 套用]**」，該篩選器仍然是僅限 Workspace 專案的篩選器。</li></ul> |
-| **[!UICONTROL 取消]** | 選取並取消建立或編輯快速篩選器。 |
+| **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | 只有在您定義多個條件時才適用。從 ![ChevronDown](/help/assets/icons/ChevronDown.svg) 下拉清單中，在條件之間選取。選取範圍會決定快速區段的布林值邏輯。 當有三個條件時，你不能混合使用邏輯。布林邏輯可以是 **[!UICONTROL AND]** 或 **[!UICONTROL OR]**。 |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | 將另一個條件新增至您的快速區段。 只有當您為快速區段定義一或兩個條件時，此按鈕才可用。 |
+| **[!UICONTROL 套用]** | 將變更套用至快速區段。 |
+| **[!UICONTROL 開啟產生器]** | 系統會出現提示，請您確認：**[!UICONTROL 你確定嗎？]**&#x200B;對話框。如果您選取「**[!UICONTROL 確定]**」，您將無法在「[快速區段產生器](#quick-filter-builder)」中修改您的區段。您的快速區段已重新命名為「**[!UICONTROL 區段]**」，現在左邊有一個較暗的藍色細條。<br/>一般[區段產生器](filter-builder.md)會開啟，其中包含&#x200B;**[!UICONTROL 讓此區段可用於您的所有專案並將其新增至您的元件清單]**&#x200B;的選項。 <ul><li>如果您選取此選項並選取&#x200B;**[!UICONTROL 套用]**，則區段會新增至元件面板中的![區段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 篩選器]**&#x200B;元件清單。</li><li>如果您未選取此選項並選取&#x200B;**[!UICONTROL 套用]**，則區段仍維持為僅限Workspace專案的區段。</li></ul> |
+| **[!UICONTROL 取消]** | 選取以取消建立或編輯快速區段。 |
 
-## 快速篩選器與篩選器
+## 快速區段與區段
 
-快速篩選器即如其名所示。您可以快速建立和編輯快速篩選器，並立即在面板中查看效果。
+快速區段與其名稱完全相同。 您可以快速內嵌建立和編輯快速區段，並立即在面板中檢視效果。
 
-與快速篩選器相比，篩選器確實具有以下優點。
+相較於快速區段，區段具有以下優點。
 
-* 篩選器可建立為適於您所有的 Workspace 專案
-* 篩選器可使用巢狀和階層容器以及序列 (使用序列篩選器) 來支援更多複雜性。
+* 區段可在您的所有Workspace專案中使用
+* 區段支援使用巢狀和階層式容器及序列（使用序列區段）的更多複雜性。
 
 

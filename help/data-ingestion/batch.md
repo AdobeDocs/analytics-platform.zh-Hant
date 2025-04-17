@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: dd46adee-821f-489c-9350-abcfffe7cc3c
 role: Admin
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '1956'
-ht-degree: 88%
+ht-degree: 86%
 
 ---
 
@@ -309,7 +309,7 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 
    保留設定原樣並選取&#x200B;**[!UICONTROL 「儲存並完成」]**。
 
-如需如何建立和編輯資料檢視、可在資料檢視中使用哪些元件，以及如何使用篩選器和工作階段設定的詳細資訊，請參閱[資料檢視概觀](../data-views/data-views.md)。
+請參閱[資料檢視總覽](../data-views/data-views.md)，以取得如何建立和編輯資料檢視、資料檢視中有哪些元件可供使用，以及如何使用區段和工作階段設定的詳細資訊。
 
 
 ## 設定專案

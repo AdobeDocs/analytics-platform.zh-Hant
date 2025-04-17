@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: e79094d974e4e91b044611f997c0e4215487d74f
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 46%
@@ -138,7 +138,7 @@ ht-degree: 46%
    您可以執行下列動作：
 
    * 若要搜尋特定資料檢視，請使用![搜尋](/help/assets/icons/Search.svg)欄位。
-   * 若要篩選可用的資料檢視清單，請選取![顯示篩選器](/help/assets/icons/Filter.svg)。 您可以篩選[!UICONTROL 連線]、[!UICONTROL 擁有者]和[!UICONTROL 沙箱]上的清單。<br/>使用![隱藏](/help/assets/icons/Filter.svg)**[!UICONTROL 隱藏篩選器]**&#x200B;以隱藏篩選器窗格。
+   * 若要將可用資料檢視清單分段，請選取![顯示區段](/help/assets/icons/Filter.svg)。 您可以在[!UICONTROL 連線]、[!UICONTROL 擁有者]和[!UICONTROL 沙箱]上劃分清單。<br/>使用![隱藏](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏區段]**&#x200B;來隱藏區段窗格。
    * 若要定義在表格中顯示哪些欄，請選取「![欄設定](/help/assets/icons/ColumnSetting.svg)」。選取「**[!UICONTROL 自訂表格]**」對話框中顯示哪些欄，然後選取「**[!UICONTROL 套用]**」以套用變更。
 
 1. 選取![SelectBox](/help/assets/icons/SelectBox.svg)您要使用的資料檢視。
@@ -229,7 +229,7 @@ ht-degree: 46%
    * 從Content Analytics事件資料產生體驗屬性的程式
    * Customer Journey Analytics中的報表範本。
 
-* 選取「![編輯](/help/assets/icons/Edit.svg)」**[!UICONTROL 「編輯]**」以進一步編輯Content Analytics中體驗的資料收集組態。 系統會將您重新導向至與目前設定相關聯之Tags屬性中的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)。
+* 選取「![編輯](/help/assets/icons/Edit.svg)」**[!UICONTROL 「編輯]**」以進一步編輯Content Analytics中體驗的資料收集組態。 系統會將您重新導向至與目前設定相關聯之Tags屬性中的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)。
 
 
 ### 資料收集 {#onboarding-data-collection}
@@ -324,9 +324,9 @@ ht-degree: 46%
 
 若為現有設定，則無法編輯Tags屬性。 但是，您可以編輯要包含或排除的頁面和資產。
 
-* 若要編輯在收集內容分析資料時應包含或排除哪些頁面，請在&#x200B;**[!UICONTROL 體驗]**&#x200B;下方選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。 系統會將您重新導向至與目前Adobe Content Analytics設定的Tags屬性相關聯的[Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)。 您可以編輯規則運算式，以包含或排除頁面。 請確定您[發佈](#publish)您的變更。
+* 若要編輯在收集內容分析資料時應包含或排除哪些頁面，請在&#x200B;**[!UICONTROL 體驗]**&#x200B;下方選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。 系統會將您重新導向至與目前Adobe Content Analytics設定的Tags屬性相關聯的[Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)。 您可以編輯規則運算式，以包含或排除頁面。 請確定您[發佈](#publish)您的變更。
 
-* 若要編輯在收集內容分析資料時應包含或排除哪些資產，請選取&#x200B;**[!UICONTROL 資產]**&#x200B;下方的![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。 系統會將您重新導向至與目前Adobe Content Analytics設定的Tags屬性相關聯的[Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering)。 您可以編輯規則運算式，以包含或排除資產。 請確定您[發佈](#publish)您的變更。
+* 若要編輯在收集內容分析資料時應包含或排除哪些資產，請選取&#x200B;**[!UICONTROL 資產]**&#x200B;下方的![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。 系統會將您重新導向至與目前Adobe Content Analytics設定的Tags屬性相關聯的[Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)。 您可以編輯規則運算式，以包含或排除資產。 請確定您[發佈](#publish)您的變更。
 
 ### 摘要 {#summary}
 

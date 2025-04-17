@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '2125'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 88%
 
 ### 容器
 
-指定資料視圖的容器名稱。容器名稱在[篩選](/help/components/filters/filters-overview.md#Filter-containers)中經常使用。
+指定資料視圖的容器名稱。容器名稱在[區段](/help/components/filters/filters-overview.md#Filter-containers)中經常使用。
 
 | 設定 | 說明 |
 | --- | --- |
@@ -183,13 +183,13 @@ ht-degree: 88%
 ## 設定
 
 1. 選取「**[!UICONTROL 設定]**」索引標籤。
-1. 設定篩選器以套用於整個資料視圖。請參閱下方的「[設定 (篩選器)](#settings-filters)」。
+1. 設定區段以套用至整個資料檢視。 請參閱下方的[設定（區段）](#settings-filters)。
 1. 設定工作階段逾時和量度。請參閱下方的「[工作階段設定](#session-settings)」。
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
-### 設定 (篩選器)
+### 設定（區段）
 
-您可以新增套用至整個資料視圖的篩選器。此篩選器將套用至您在 Workspace 中執行的任何報告。從左側邊欄的清單拖曳篩選器至「[!UICONTROL 新增篩選器]」欄位。
+您可以新增套用至整個資料檢視的區段。 此區段會套用至您在Workspace中執行的任何報表。 從左側邊欄的清單拖曳區段至[!UICONTROL 新增區段]欄位。
 
 ### 工作階段設定
 

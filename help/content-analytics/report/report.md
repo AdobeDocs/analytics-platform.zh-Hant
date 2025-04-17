@@ -1,11 +1,11 @@
 ---
-title: 內容分析報表
+title: Content Analytics報告
 description: 如何報告內容分析
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: b4325135ec05737a75027ded70e96f599eb0220c
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -18,12 +18,12 @@ ht-degree: 0%
 
 您可在[Analysis Workspace](/help/analysis-workspace/home.md)中報告、執行分析並深入瞭解Content Analytics。 有特定的Workspace [範本](#template)可供使用，因此您可以立即存取預先填入的Workspace專案，其中包含相關的內容深入分析。
 
-若要從草稿開始報告內容分析：
+若要從頭開始在Content Analytics上建立報表：
 
 1. [建立新的](/help/analysis-workspace/build-workspace-project/create-projects.md)或[在Workspace中開啟現有的](/help/analysis-workspace/build-workspace-project/open-projects.md)專案。
 1. 請確定您[為Content Analytics報表選取資料檢視](/help/analysis-workspace/c-panels/panels.md#data-view)。 Content Analytics報表僅適用於[已針對Content Analytics設定](/help/content-analytics/config/configuration.md)的資料檢視。
 1. 將![表格](/help/assets/icons/Table.svg) [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺效果拖曳到畫布上。
-1. 使用[特定的Content Analytics元件](components.md)和其他一般[元件](/help/components/overview.md) （如篩選器、日期範圍、註解）來建置您的內容分析深入分析。
+1. 使用[特定的Content Analytics元件](components.md)和其他一般[元件](/help/components/overview.md) （如區段、日期範圍、註解）來建置您的內容分析深入分析。
 
 ## 縮圖
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
   | 體驗預覽 | 資產預覽 |
   |---|---|
-  | ![內容分析體驗預覽](../assets/aca-experience-preview.png) | ![Content Analytics資產預覽](../assets/aca-asset-preview.png) |
+  | ![Content Analytics體驗預覽](../assets/aca-experience-preview.png) | ![Content Analytics資產預覽](../assets/aca-asset-preview.png) |
   | 維度名稱（例如，**[!UICONTROL 體驗ID]）** | 資產維度的名稱（例如，**[!UICONTROL 資產識別碼]）** |
   | **[!UICONTROL 曝光次數（所有時間）]**：體驗的曝光次數。 | **[!UICONTROL 曝光次數（所有時間）]**：資產的曝光次數。 |
   | **[!UICONTROL Assets]**：此體驗包含的資產數目。 <br/>選取![劃分](/help/assets/icons/Breakdown.svg) **[!UICONTROL 劃分]**&#x200B;以檢查資產。 | **[!UICONTROL 體驗]**：此資產顯示所在的體驗數目。 <br/>選取![劃分](/help/assets/icons/Breakdown.svg) **[!UICONTROL 劃分]**&#x200B;以檢查資產。 |
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. 從主功能表選取&#x200B;**[!UICONTROL Workspace]**。
 1. 確保您已選取為Content Analytics設定的資料檢視。
-1. 搜尋或使用篩選器(**[!UICONTROL 頻道]**&#x200B;的&#x200B;**[!UICONTROL 網頁]**&#x200B;和[!UICONTROL 使用案例]**的**4}參與&#x200B;]**)來尋找及選取**[!UICONTROL &#x200B;內容分析&#x200B;]**範本。**[!UICONTROL 
+1. 搜尋或使用區段(**[!UICONTROL 頻道]**&#x200B;的&#x200B;**[!UICONTROL 網頁]**&#x200B;和[!UICONTROL 使用案例]**的**4}參與&#x200B;]**)來尋找及選取**[!UICONTROL &#x200B;內容分析&#x200B;]**範本。**[!UICONTROL 
 1. 選取&#x200B;**[!UICONTROL 使用範本]**。
 1. 在&#x200B;**[!UICONTROL 設定範本]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 選取轉換量度]**&#x200B;對話方塊中選取量度。 例如，**[!UICONTROL 資產CTR]**。
 1. 選取&#x200B;**[!UICONTROL 繼續]**。

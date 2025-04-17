@@ -5,10 +5,10 @@ exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 86%
+ht-degree: 81%
 
 ---
 
@@ -27,10 +27,10 @@ Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experie
 | 元件名稱 | 維度或量度 | 附註 |
 | --- | --- | --- |
 | [!UICONTROL 人員] | 量度 | 根據[!UICONTROL 連線]中所指定的人員 ID。 |
-| [!UICONTROL 帳戶] | 量度 | 基於連接]中[!UICONTROL 指定的帳戶ID。 |
-| [!UICONTROL 全球客戶] | 量度 | 基於連接]中[!UICONTROL 指定的全局帳戶ID。 |
-| [!UICONTROL 機會] | 量度 | 機會，基於連接]中[!UICONTROL 指定的商機ID。 |
-| [!UICONTROL 採購組] | 量度 | 購買組，基於連接]中[!UICONTROL 指定的購買群組 ID。 |
+| [!UICONTROL 帳戶] | 量度 | 根據[!UICONTROL 連線]中指定的帳戶ID。 |
+| [!UICONTROL 全域帳戶] | 量度 | 根據[!UICONTROL 連線]中指定的全域帳戶ID。 |
+| [!UICONTROL 商機] | 量度 | 機會是根據[!UICONTROL 連線]中指定的機會識別碼。 |
+| [!UICONTROL 購買群組] | 量度 | 購買群組，根據[!UICONTROL 連線]中指定的購買群組ID。 |
 | [!UICONTROL 工作階段] | 量度 | 根據資料檢視的工作階段設定。 |
 | [!UICONTROL 事件] | 量度 | [!UICONTROL 連線]中所有事件資料集的列數。 |
 | [!UICONTROL 秒] | 維度 | 指定事件發生的秒數 (無條件捨去)。第一個維度項目是日期範圍中的第一秒，最後一個維度項目是日期範圍中的最後一秒。 |
@@ -41,8 +41,8 @@ Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experie
 | [!UICONTROL 月] | 維度 | 指定量度發生的月。第一個維度項目是日期範圍中的第一個月，最後一個維度項目是日期範圍中的最後一個月。 |
 | [!UICONTROL 季度] | 維度 | 指定量度發生的季。第一個維度項目是日期範圍中的第一季，最後一個維度項目是日期範圍中的最後一季。 |
 | [!UICONTROL 年] | 維度 | 指定量度發生的年。第一個維度項目是日期範圍中的第一年，最後一個維度項目是日期範圍中最近的一年。 |
-| [!UICONTROL 工作階段開始] | 量度 | 工作階段中第一個事件的事件數。在用於篩選條件定義時 (例如「[!UICONTROL 工作階段開始]存在」)，它只篩選出每個工作階段的第一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段開始率</li></p> |
-| [!UICONTROL 工作階段結束] | 量度 | 工作階段中最後一個事件的事件數。它類似於[!UICONTROL 工作階段開始]，也可用於篩選定義中，以篩選至每個工作階段的最後一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段結束率</li></p> |
+| [!UICONTROL 工作階段開始] | 量度 | 工作階段中第一個事件的事件數。當用於區段定義（例如&#39;[!UICONTROL 工作階段開始] exists&#39;）時，它只會區段到每個工作階段的第一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段開始率</li></p> |
+| [!UICONTROL 工作階段結束] | 量度 | 工作階段中最後一個事件的事件數。與[!UICONTROL 工作階段開始]類似，它也可用於區段定義中，以區段劃分每個工作階段的最後一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段結束率</li></p> |
 | [!UICONTROL 逗留時間 (秒)] | 量度 | 為維度加總兩個不同值之間的時間。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>每人逗留時間</li><li>每工作階段逗留時間</li></p> |
 
 {style="table-layout:auto"}
@@ -63,15 +63,15 @@ Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experie
 | [!UICONTROL  月份] | 時間分段維度 | 1 月至 12 月 |
 | [!UICONTROL 首次工作階段] | 量度 | 個人在報告時段內定義的首次工作階段。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
 | [!UICONTROL 重返工作階段] | 量度 | 不是個人的首次工作階段的工作階段數量。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
-| [!UICONTROL 人員 ID] | 維度 | 在 Experience Platform 中定義的每個資料集結構描述，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。任何一個身分識別碼都可當做人員 ID 使用。範例包括 Cookie ID、彙整 ID、使用者 ID、追蹤程式碼等。「[!UICONTROL 人員 ID]」維度是 Customer Journey Analytics 中結合資料集和識別不重複人員的基礎。<p>可能的使用案例包含：<ul><li>在特定人員 ID 值上建立篩選器，以篩選下至該用戶行為的一切。</li><li>偵錯：確定有特定 Cookie ID (或特定客戶 ID) 的資料。</li><li>識別致電呼叫中心的用戶。</li></ul> |
+| [!UICONTROL 人員 ID] | 維度 | 在 Experience Platform 中定義的每個資料集結構描述，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。任何一個身分識別碼都可當做人員 ID 使用。範例包括 Cookie ID、彙整 ID、使用者 ID、追蹤程式碼等。「[!UICONTROL 人員 ID]」維度是 Customer Journey Analytics 中結合資料集和識別不重複人員的基礎。<p>可能的使用案例包含：<ul><li>在特定人員ID值上建立區段，以將所有專案細分為該使用者的行為。</li><li>偵錯：確定有特定 Cookie ID (或特定客戶 ID) 的資料。</li><li>識別致電呼叫中心的用戶。</li></ul> |
 | [!UICONTROL 人員 ID 命名空間] | 維度 | 組成[!UICONTROL 人員 ID] 的 ID 類型。範例有：`email address`、`cookie ID`、`Analytics ID` |
-| [!BADGE B2B版全局]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B版"}<br/>[!UICONTROL 帳戶 ID] | 維度 | [!UICONTROL 全域帳戶 ID]，當您在連接中使用全局帳戶容器時。 |
-| [!BADGE B2B版]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B版"}<br/>[!UICONTROL 帳戶 ID] | 維度 | [!UICONTROL 在連接中使用帳戶容器時的帳戶 ID]。 |
-| [!BADGE B2B版]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B版"}<br/>[!UICONTROL 機會ID] | 維度 | [!UICONTROL 在連接中使用商機容器時的機會ID]。 |
-| [!BADGE B2B版]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B版"}<br/>[!UICONTROL 購買組ID] | 維度 | 購買 [!UICONTROL 群組 ID]，當您在連接中使用購買群組容器時。 |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL 全域帳戶ID] | 維度 | 當您在連線中使用全域帳戶容器時，[!UICONTROL 全域帳戶ID]。 |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL 帳戶ID] | 維度 | [!UICONTROL 帳戶ID]，當您在連線中使用帳戶容器時。 |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL 商機ID] | 維度 | 當您在連線中使用機會容器時，[!UICONTROL 機會識別碼]。 |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>[!UICONTROL 購買群組ID] | 維度 | 當您在連線中使用購買群組容器時，[!UICONTROL 購買群組識別碼]。 |
 | [!UICONTROL 季別] | 時間分段維度 | 第 1 季、第 2 季、第 3 季、第 4 季 |
 | [!UICONTROL 重複工作階段] | 量度 | 不是個人的首次工作階段的工作階段數量。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
-| [!UICONTROL 工作階段類型] | 維度 | 此維度有兩個值：1。 第一次和 2.返回。 [!UICONTROL 首次]條列項目包含已確定為個人定義的首次工作階段之工作階段中所有行為，即此維度的量度。所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
+| [!UICONTROL 工作階段類型] | 維度 | 此維度有兩個值：1。 [!UICONTROL 第一次]和2。 正在回訪。 [!UICONTROL 首次]條列項目包含已確定為個人定義的首次工作階段之工作階段中所有行為，即此維度的量度。所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
 | [!UICONTROL 每個事件逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 事件]」值區。 |
 | [!UICONTROL 每個工作階段逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 工作階段]」值區。 |
 | [!UICONTROL 每人逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 人員]」值區。 |

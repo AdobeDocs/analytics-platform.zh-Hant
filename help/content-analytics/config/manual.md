@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 981cd0c01d775acbd71cada7efed4911b4bcb157
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 3%
@@ -56,9 +56,9 @@ ht-degree: 3%
 
   您可以啟用或停用體驗，以及編輯規則運算式和查詢引數的組合，以決定如何在您的網站上呈現內容。
 
-* [事件篩選](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-filtering){target="_blank"}
+* [事件分段](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
 
-  您可以編輯規則運算式，以修改篩選頁面和資產的方式。
+  您可以編輯規則運算式，以修改劃分頁面和資產的方式。
 
 
 在Adobe Content Analytics擴充功能中進行變更後，請確定您使用[發佈流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview){target="_blank"}來根據所做的變更開始收集資料。

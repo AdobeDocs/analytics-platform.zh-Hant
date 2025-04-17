@@ -1,14 +1,14 @@
 ---
 title: Customer Journey Analytics BI 擴充功能
-description: 瞭解如何使用Power BI或Tableau Desktop，透過Customer Journey Analytics BI擴充功能存取資料檢視。
+description: 了解如何使用Power BI、Tableau Desktop 或其他 BI，並透過 Customer Journey Analytics BI 擴充功能來存取資料檢視。
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 2f9cfc3fc7edaa21175d44dfb3f9bface5cf0d81
+source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
 workflow-type: tm+mt
 source-wordcount: '3247'
-ht-degree: 62%
+ht-degree: 92%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 62%
 
 {{select-package}}
 
-[!DNL Customer Journey Analytics BI extension] 讓 SQL 可以存取您在 Customer Journey Analytics 中定義的[資料檢視](./data-views.md)。您的資料工程師和分析人員可能更熟悉Power BI、Tableau Desktop或其他商業智慧和視覺化工具（進一步稱為BI工具）。 他們現在可以根據 Customer Journey Analytics 使用者在建立 Analysis Workspace 專案時所使用的相同資料檢視來建立報告和儀表板。
+[!DNL Customer Journey Analytics BI extension] 讓 SQL 可以存取您在 Customer Journey Analytics 中定義的[資料檢視](./data-views.md)。您的資料工程師和分析師可能更熟悉 Power BI、Tableau Desktop 或其他企業情報和視覺化工具 (也稱為 BI 工具)。他們現在可以根據 Customer Journey Analytics 使用者在建立 Analysis Workspace 專案時所使用的相同資料檢視來建立報告和儀表板。
 
-Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) 是 SQL 與 Experience Platform 資料湖中可用資料之間的介面。啟用 [!DNL Customer Journey Analytics BI extension] 之後即可延伸 [!DNL Query Service] 的功能，讓您在 [!DNL Query Service] 工作階段中以表格或視圖形式查看 Customer Journey Analytics 資料檢視。因此，使用 [!DNL Query Service] 作為 PostgresSQL 介面的企業情報工具，可以直接立即受益於這項延伸功能。
+Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home) 是 SQL 與 Experience Platform 資料湖中可用資料之間的介面。啟用 [!DNL Customer Journey Analytics BI extension] 之後即可延伸 [!DNL Query Service] 的功能，讓您在 [!DNL Query Service] 工作階段中以表格或視圖形式查看 Customer Journey Analytics 資料檢視。因此，使用 [!DNL Query Service] 作為 PostgresSQL 介面的企業情報工具，可以直接立即受益於這項延伸功能。
 
 主要優點包括：
 
@@ -28,30 +28,30 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 ## 先決條件
 
-若要使用此功能，您可以使用即將到期或未到期的認證來將BI工具連線至[!DNL Customer Journey Analytics BI extension]。 [認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)提供設定到期認證或不到期認證的詳細資訊。
-以下是設定CJA許可權的其他步驟
+若要使用此功能，您可以使用過期或非過期憑證將 BI 工具連接到 [!DNL Customer Journey Analytics BI extension]。「[認證指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials)」提供關於設定有到期日的認證或無到期日的認證之詳細資訊。
+以下是設定 CJA 權限的其他步驟
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
 
 ### 到期的認證
 
-若要使用即將到期的認證，您可以：
+若要使用即將過期的憑證，您可以：
 
-* 授予Experience Platform和Customer Journey Analytics的存取權。
-* 授與產品管理員對Customer Journey Analytics的存取權，以便您可以檢視、編輯、更新或刪除連線和資料檢視。
+* 授予 Adobe Experience Platform 和 Customer Journey Analytics 的存取權。
+* 授予產品管理員對 Customer Journey Analytics 的存取權限，以便您可以查看、編輯、更新或刪除連線和資料檢視。
 
-或者，您可以：
+或者你可以：
 
-* 授予您要存取之資料檢視的存取權。
-* 授予Customer Journey Analytics BI擴充功能的存取權。
+* 授予您想要存取的資料檢視存取權限。
+* 授予對 Customer Journey Analytics BI 擴充功能的存取權限。
 
 ### 不會到期的認證
 
-若要使用不會到期的認證：
+若要使用不會過期的認證：
 
-* 在Experience Platform中建立不會到期的認證。
-* 依照[到期認證](#Expiring-credentials)中提及的步驟來授與未到期認證的存取權。
+* 在 Experience Platform 中建立不會過期的認證。
+* 依照[過期認證](#Expiring-credentials)中所提及的步驟，授予不會過期認證的存取權限。
 
-請參閱[客戶歷程存取控制](../technotes/access-control.md)以取得詳細資訊，尤其是[產品管理員額外許可權](../technotes/access-control.md#product-admin-additional-permissions)和[Admin Console中的Customer Journey Analytics許可權](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)。
+若要了解更多資訊，請參閱「[Customer Journey 存取控制](../technotes/access-control.md)」，特別是[產品管理員附加權限](../technotes/access-control.md#product-admin-additional-permissions)和 [Admin Console 中的 Customer Journey Analytics 權限](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)。
 
 
 ## 使用情況
@@ -70,7 +70,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 1. 選取「![建立查詢](assets/Smock_AddCircle_18_N.svg)**[!UICONTROL **&#x200B;建立查詢&#x200B;**]**」。
 
-1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
+1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
 
 1. 若要執行查詢，請鍵入 SQL 陳述式並選取「![播放](assets/Smock_Play_18_N.svg)」按鈕 (或按 `[SHIFT]` + `[ENTER]`)。
 
@@ -85,7 +85,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
+   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
 
    1. 要複製命令字串，請使用「![複製](assets/Smock_Copy_18_N.svg)」(在「**[!UICONTROL ** PSQL 指令&#x200B;**]**」區段)。
 
@@ -95,12 +95,12 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
 +++
 
-如需詳細資訊，請參閱[查詢編輯器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)。
+請參閱「[查詢編輯器 UI 指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/user-guide)」以了解更多資訊。
 
 
 ### BI 工具
 
-目前支援[!DNL Customer Journey Analytics BI extension]並測試下列工具。 其他使用 PSQL 介面的 BI 工具可能也可以運作，但尚未得到正式支援。
+目前，已針對下面所列工具支援並測試 [!DNL Customer Journey Analytics BI extension]。其他使用 PSQL 介面的 BI 工具可能也可以運作，但尚未得到正式支援。
 
 +++ Power BI
 
@@ -110,7 +110,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
+   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
 
    1. 在 Power BI 中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
@@ -124,28 +124,28 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 在「**[!UICONTROL ** PostgressSQL 資料庫&#x200B;**]**」對話方塊中：
 
-      1. 在&#x200B;**[!UICONTROL **&#x200B;伺服器&#x200B;**]**&#x200B;文字欄位中貼上Experience Platform查詢[!UICONTROL 認證]中的&#x200B;**[!UICONTROL **&#x200B;主機&#x200B;**]**&#x200B;引數。
+      1. 將「**[!UICONTROL **&#x200B;主機&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;伺服器&#x200B;**]**」文字欄位。
 
-      1. 在&#x200B;**[!UICONTROL **&#x200B;資料庫&#x200B;**]**&#x200B;文字欄位中貼上Experience Platform查詢[!UICONTROL 認證]中的&#x200B;**[!UICONTROL **&#x200B;資料庫&#x200B;**]**&#x200B;引數。
+      1. 將「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」文字欄位。
 
-         將 `?FLATTEN` 新增到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數，以便讀起來像 `prod:cja?FLATTEN`。請參閱「[將巢狀資料結構展平以供協力廠商 BI 工具使用](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)」以了解更多資訊。
+         將 `?FLATTEN` 新增到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數，以便讀起來像 `prod:cja?FLATTEN`。請參閱「[將巢狀資料結構展平以供協力廠商 BI 工具使用](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/flatten-nested-data)」以了解更多資訊。
 
       1. 當提示「**[!UICONTROL 資料連線]**」模式時，選取  **[!UICONTROL DirectQuery]**。
 
       1. 系統會提示您輸入「**[!UICONTROL 使用者名稱]**」和「**[!UICONTROL 密碼]**」。使用 Experience Platform 查詢[!UICONTROL 認證]的同等參數。
 
 
-   1. 成功登入後，Customer Journey Analytics資料檢視表會顯示在Power BIs **[!UICONTROL **&#x200B;瀏覽器&#x200B;**]**&#x200B;中。
+   1. 成功登入之後，Power BI 的&#x200B;**[!UICONTROL **&#x200B;導覽器&#x200B;**]**&#x200B;中會顯示 Customer Journey Analytics 資料檢視表格。
 
    1. 選取您要使用的資料檢視表格並選取「**[!UICONTROL **&#x200B;載入&#x200B;**]**」。
 
    與一個或多個所選表格關聯的所有維度和指標顯示在右窗格，您隨時可以用於視覺化。
 
-   如需詳細資訊，請參閱[將Power BI連線至查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi)。 如需詳細範例，另請參閱[BI延伸使用案例](/help/use-cases/data-views/bi-extension-usecases.md)。
+   請參閱「[將 Power BI 連接到 Query Service](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/power-bi)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」，了解詳細範例。
 
 +++
 
-+++Tableau案頭
++++Tableau Desktop
 
 1. 在 Adobe Experience Platform 中，查詢 PostgresSQL 認證的詳細資訊：
 
@@ -153,11 +153,11 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
+   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
 
-   1. 在Tableau Desktop中視需要使用![Copy](assets/Smock_Copy_18_N.svg)來複製每個Postgres認證引數（[!UICONTROL 主機]、[!UICONTROL 連線埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]及其他）。
+   1. 在 Tableau Desktop 中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
-1. 在Tableau案頭中：
+1. 在 Tableau Desktop 中：
 
    1. 在左側邊欄，選取「**[!UICONTROL **&#x200B;更多&#x200B;**]**」(從「**[!UICONTROL **&#x200B;至伺服器&#x200B;**]**」)。
 
@@ -165,21 +165,21 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 在「[!UICONTROL PostgresSQL]」對話方塊中：
 
-      1. 從Experience Platform查詢[!UICONTROL 認證]將&#x200B;**[!UICONTROL **&#x200B;主機&#x200B;**]**&#x200B;引數貼到&#x200B;**[!UICONTROL **&#x200B;伺服器&#x200B;**]**&#x200B;文字欄位中。
+      1. 將「**[!UICONTROL **&#x200B;主機&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;伺服器&#x200B;**]**」文字欄位。
 
-      1. 從Experience Platform查詢[!UICONTROL 認證]將&#x200B;**[!UICONTROL **&#x200B;連線埠&#x200B;**]**&#x200B;引數貼到&#x200B;**[!UICONTROL **&#x200B;連線埠&#x200B;**]**&#x200B;文字欄位中。
+      1. 將「**[!UICONTROL **&#x200B;連接埠&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;連接埠&#x200B;**]**」文字欄位。
 
-      1. 從Experience Platform查詢[!UICONTROL 認證]貼上&#x200B;**[!UICONTROL **&#x200B;資料庫&#x200B;**]**&#x200B;引數至&#x200B;**[!UICONTROL **&#x200B;資料庫&#x200B;**]**&#x200B;文字欄位。
+      1. 將「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」文字欄位。
 
-         將 `%3FFLATTEN` 新增到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數，以便讀起來像 `prod:cja%3FFLATTEN`。請參閱「[將巢狀資料結構展平以供協力廠商 BI 工具使用](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)」以了解更多資訊。
+         將 `%3FFLATTEN` 新增到「**[!UICONTROL **&#x200B;資料庫&#x200B;**]**」參數，以便讀起來像 `prod:cja%3FFLATTEN`。請參閱「[將巢狀資料結構展平以供協力廠商 BI 工具使用](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/flatten-nested-data)」以了解更多資訊。
 
       1. 選取「**[!UICONTROL **&#x200B;使用者名稱和密碼&#x200B;**]**」(從「**[!UICONTROL **&#x200B;驗證&#x200B;**]**」清單)。
 
       1. 將「**[!UICONTROL **&#x200B;使用者名稱&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;使用者名稱&#x200B;**]**」文字欄位。
 
-      1. 從Experience Platform查詢[!UICONTROL 認證]貼上&#x200B;**[!UICONTROL **&#x200B;密碼&#x200B;**]**&#x200B;引數至&#x200B;**[!UICONTROL **&#x200B;密碼&#x200B;**]**&#x200B;文字欄位。
+      1. 將「**[!UICONTROL **&#x200B;密碼&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;密碼&#x200B;**]**」文字欄位。
 
-      1. 選取&#x200B;**[!UICONTROL **&#x200B;登入&#x200B;**]**。
+      1. 選取「**[!UICONTROL **&#x200B;登入&#x200B;**]**」。
 
    1. Customer Journey Analytics 資料檢視顯示為「**[!UICONTROL **&#x200B;表格&#x200B;**]**」清單中的表格。
 
@@ -187,11 +187,11 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    現在您可以使用資料檢視表格中的資料建立報告和視覺化。
 
-   如需詳細資訊，請參閱[將Tableau連線至查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau)。 如需詳細範例，另請參閱[BI延伸使用案例](/help/use-cases/data-views/bi-extension-usecases.md)。
+   請參閱「[將 Tableau 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/tableau)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
 
 +++
 
-+++ 檢視器
++++ Looker
 
 1. 在 Adobe Experience Platform 中，查詢 PostgresSQL 認證的詳細資訊：
 
@@ -199,26 +199,26 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
+   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
 
-   1. 視需要在Looker中使用![Copy](assets/Smock_Copy_18_N.svg)複製每個Postgres認證引數（[!UICONTROL 主機]、[!UICONTROL 連線埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]等）。
+   1. 在 Looker.中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
-1. 在Looker中：
+1. 在 Looker 中：
 
-   1. 從左側邊欄選取&#x200B;**[!UICONTROL 管理員]**。
-   1. 選取&#x200B;**[!UICONTROL 連線]**。
-   1. 選取&#x200B;**[!UICONTROL 新增連線]**。
-   1. 在&#x200B;**[!UICONTROL 將資料庫連線到Looker]**&#x200B;畫面中，當您設定新連線時，請貼上適當的值。 請確定您選取&#x200B;**[!UICONTROL PostgreSQL 9.5+]**&#x200B;作為方言。
-   1. 選取&#x200B;**[!UICONTROL 測試]**&#x200B;以測試您的連線。
-   1. 成功後，選取&#x200B;**[!UICONTROL 更新]**&#x200B;以儲存您的連線。
+   1. 選取左邊欄的「**[!UICONTROL 管理員]**」。
+   1. 選取「**[!UICONTROL 連線]**」。
+   1. 選取「**[!UICONTROL 新增連線]**」。
+   1. 在&#x200B;**[!UICONTROL 將資料庫連接到 Looker]** 畫面中，設定新連線時貼上適當的值。確保選取 **[!UICONTROL PostgreSQL 9.5+]** 作為程式語言。
+   1. 選擇「**[!UICONTROL 測試]**」來測試您的連線。
+   1. 成功後，選取「**[!UICONTROL 更新]**」以儲存您的連線。
 
    現在您可以使用資料檢視表格中的資料建立報告和視覺化。
 
-   如需詳細資訊，請參閱[將Looker連線到查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/looker)。 如需詳細範例，另請參閱[BI延伸使用案例](/help/use-cases/data-views/bi-extension-usecases.md)。
+   請參閱「[將 Looker 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/looker)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
 
 +++
 
-+++ Jupyter Notebook
++++ Jupyter Noteboook
 
 1. 在 Adobe Experience Platform 中，查詢 PostgresSQL 認證的詳細資訊：
 
@@ -226,19 +226,19 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
+   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
 
-   1. 在Jupyter Notebook中需要時，使用![Copy](assets/Smock_Copy_18_N.svg)來複製每個Postgres認證引數（[!UICONTROL 主機]、[!UICONTROL 連線埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]及其他）。
+   1. 在 Jupyter Notebook 中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
-1. 在Jupyter Notebook中：
+1. 在 Jupyter Notebook 中：
 
-   1. 確定您使用必要的程式庫。
-   1. 設定及執行連線時，請使用適當的值。
-   1. 執行相關查詢以測試您的連線。
+   1. 確保您使用所需的資料庫。
+   1. 在建立和執行連線時使用適當的值。
+   1. 透過執行相關查詢來測試您的連線。
 
-   成功後，您可以運用資料建置報告和視覺效果。
+   成功後，您可以使用資料來建立報告和視覺效果。
 
-   如需詳細資訊，請參閱[將Jupyter Notebook連線至查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/jupyter-notebook)。 如需詳細範例，另請參閱[BI延伸使用案例](/help/use-cases/data-views/bi-extension-usecases.md)。
+   請參閱「[將 Jupyter Notebook 連接到 Query Service](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/jupyter-notebook)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
 
 +++
 
@@ -250,29 +250,29 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/en/
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
+   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
 
-   1. 在Jupyter Notebook中需要時，使用![Copy](assets/Smock_Copy_18_N.svg)來複製每個Postgres認證引數（[!UICONTROL 主機]、[!UICONTROL 連線埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]及其他）。
+   1. 在 Jupyter Notebook 中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
-1. 在RStudio中：
+1. 在 RStudio 中：
 
-   1. 確定您使用必要的程式庫。
-   1. 設定及執行連線時，請使用適當的值。
-   1. 執行相關查詢以測試您的連線。
+   1. 確保您使用所需的資料庫。
+   1. 在建立和執行連線時使用適當的值。
+   1. 透過執行相關查詢來測試您的連線。
 
-   成功後，您可以運用資料建置報告和視覺效果。
+   成功後，您可以使用資料來建立報告和視覺效果。
 
-   如需詳細資訊，請參閱[將RStudio連線至查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/rstudio)。 如需詳細範例（使用RPostgres封裝代替），另請參閱[BI延伸使用案例](/help/use-cases/data-views/bi-extension-usecases.md)。
+   請參閱「[將 RStudio 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/rstudio)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」，了解詳細範例 (即使用 RPostgres 套件)。
 
 +++
 
-如需關於各種可用工具的概觀與更多資訊，請參閱「[將用戶端連接到 Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview)」。
+如需關於各種可用工具的概觀與更多資訊，請參閱「[將用戶端連接到 Query Service](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/overview)」。
 
-請參閱[使用案例](/help/use-cases/data-views/bi-extension-usecases.md)，瞭解如何使用Customer Journey Analytics BI擴充功能完成許多使用案例。
+請參閱「[使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」，了解如何使用 Customer Journey Analytics BI 擴充功能來完成大量使用案例。
 
 ## 功能
 
-依預設設定，您的資料檢視具有根據其易記名稱產生的表格適用名稱。例如，名為[!UICONTROL 我的Web資料檢視]的資料檢視具有檢視名稱`my_web_data_view`。 您可以為資料檢視定義在BI工具中使用的偏好名稱。 如需詳細資訊，請參閱[資料檢視設定](create-dataview.md#settings)。
+依預設設定，您的資料檢視具有根據其易記名稱產生的表格適用名稱。例如，名為「[!UICONTROL 我的網路資料檢視]」的資料檢視具有檢視名稱「`my_web_data_view`」。您可以定義在 BI 工具中使用的資料檢視首選名稱。請參閱「[資料檢視設定](create-dataview.md#settings)」，了解更多資訊。
 
 如果想要使用資料檢視 ID 作為表格名稱，可以在連線時於資料庫名稱新增選用的 `CJA_USE_IDS` 設定。例如，`prod:cja?CJA_USE_IDS` 使用如「`dv_ABC123`」這樣的名稱來顯示您的資料檢視。
 
@@ -297,28 +297,28 @@ prod:all=> \dv
 
 ### 巢狀與展平
 
-依預設，資料檢視的綱要使用巢狀結構，就像原始的 XDM 綱要一樣。該整合也支援 `FLATTEN` 選項。您可以使用此選項強制展平資料檢視 (以及工作階段中的任何其他表格) 的結構描述。展平能讓不支援結構化綱要的 BI 工具變得更容易使用。請參閱「[在 Query Service 中使用巢狀資料結構](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)」以了解更多資訊。
+依預設，資料檢視的綱要使用巢狀結構，就像原始的 XDM 綱要一樣。該整合也支援 `FLATTEN` 選項。您可以使用此選項強制展平資料檢視 (以及工作階段中的任何其他表格) 的結構描述。展平能讓不支援結構化綱要的 BI 工具變得更容易使用。請參閱「[在 Query Service 中使用巢狀資料結構](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/flatten-nested-data)」以了解更多資訊。
 
 
-### 預設值和限制
+### 預設和限制
 
-使用BI擴充功能時，適用下列其他預設值和限制：
+使用 BI 擴充功能時，有下列額外的預設和限制：
 
-* BI擴充功能需要查詢結果的列數限制。 預設值為50，但您可以使用`LIMIT n`在SQL中覆寫此值，其中`n`為1 - 50000。
-* BI擴充功能需要日期範圍，以限制用於計算的列。 預設為過去30天，但您可以使用特殊的[`timestamp`](#timestamp)或[`daterange`](#date-range)資料行覆寫SQL `WHERE`子句中的預設值。
-* BI擴充功能需要彙總查詢。 您不能使用`SELECT * FROM ...`之類的SQL來取得原始的基礎資料列。 整體而言，您的彙總查詢應使用：
-   * 使用`SUM`和/或`COUNT`選取總計。<br/>例如，`SELECT SUM(metric1), COUNT(*) FROM ...`
-   * 選取依維度劃分的量度。 <br/>例如，`SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
-   * 選取不同的量度值。<br/>例如，`SELECT DISTINCT dimension1 FROM ...`
+* BI 擴充功能要求對查詢結果設定列限制。預設值為 50，但您可以在 SQL 中使用 `LIMIT n` 覆寫此值，範圍`n`在 1 - 50000 之間。
+* BI 擴充功能需要日期範圍來限制用來計算的資料列。預設值為最近 30 天，但你可以在 SQL `WHERE` 條款中覆寫此設定，方法是使用特殊 [`timestamp`](#timestamp) 或者 [`daterange`](#date-range) 欄。
+* BI 擴充功能需要彙總查詢。你不能使用 SQL `SELECT * FROM ...` 取得原始的底層列。從高層次來看，您的彙總查詢應該使用：
+   * 使用 `SUM` 和/或 `COUNT` 來選取總計。<br/> 例如， `SELECT SUM(metric1), COUNT(*) FROM ...`
+   * 選取按維度劃分的量度。<br/>例如，`SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
+   * 選取不同的量度值。<br/>例如， `SELECT DISTINCT dimension1 FROM ...`
 
-     檢視更多詳細資料[支援的SQL](#supported-sql)。
+     如需更多詳細資訊，請參閱「[支援的 SQL](#supported-sql)」。
 
 
 ### 支援 SQL
 
-有關支援哪些 SQL 類型的完整參考，請參閱「[Query Service SQL 參考](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)」。
+有關支援哪些 SQL 類型的完整參考，請參閱「[Query Service SQL 參考](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/sql/overview)」。
 
-請參閱下表，以取得您可以使用的SQL範例。
+有關可以使用的 SQL 範例，請參閱下表。
 
 +++ 範例
 
@@ -331,7 +331,7 @@ prod:all=> \dv
     </thead>
     <tbody>
         <tr>
-            <td>結構探索 </td>
+            <td>結構描述探索 </td>
             <td>
                 <pre><code>SELECT * FROM dv1 WHERE 1=0</code></pre>
             </td>
@@ -515,11 +515,11 @@ GROUP BY 2</code></pre>
 
 #### 計算不重複值
 
-由於 Customer Journey Analytics 運作原理的根本性質，可以獲得精確不重複計數的唯一維度是 `adobe_personid` 維度。下列SQL陳述式`SELECT COUNT(DISTINCT adobe_personid)`或`SELECT APPROX_COUNT_DISTINCT(adobe_personid)`傳回預設人員量度的值，這是不同人員的計數。 對於其他維度，傳回近似的不重複計數。
+由於 Customer Journey Analytics 運作原理的根本性質，可以獲得精確不重複計數的唯一維度是 `adobe_personid` 維度。以下 SQL 陳述式 `SELECT COUNT(DISTINCT adobe_personid)` 或者 `SELECT APPROX_COUNT_DISTINCT(adobe_personid)` 傳回預設人員量度的數值，即不重複人員的計數。對於其他維度，傳回近似的不重複計數。
 
 #### 條件式量度
 
-您可以嵌入一個 `IF` 或者 `CASE` 子句在 `SUM` 或 `COUNT` 函數中，以便新增所選量度特定的其他篩選條件。新增這些子句類似於將篩選器套用至工作區報告表格中的量度欄。
+您可以在`SUM`或`COUNT`函式中內嵌`IF`或`CASE`子句，以新增所選量度特定的其他區段。 新增這些子句類似於將區段套用至Workspace報表表格中的量度欄。
 
 範例：
 
@@ -533,7 +533,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 #### 內聯計算
 
-您可以在`SELECT`中套用其他數學至量度運算式。 您可以使用此數學，而不用定義計算量度中的數學。 下表列出所支援的運算式類型。
+您可以在您 `SELECT` 內的量度運算式套用更多數學運算。可以使用此數學運算，取代在計算量度中定義數學運算。下表列出所支援的運算式類型。
 
 | 運算子或函數 | 詳細資料 |
 |---|---|
@@ -556,26 +556,26 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 * 如果僅提供最大值 (`timestamp < X` 或者 `timestamp <= X`)，範圍為 X 減 30 天至 X。
 * 如果未提供任何內容，則範圍是從現在減 30 天至現在。
 
-時間戳記範圍將轉換為 RankedRequest 的日期範圍全域篩選條件。
+時間戳記範圍會轉換為RankingRequest中的日期範圍全域區段。
 時間戳記欄位也可以用於「日期時間」函數以剖析或截斷事件時間戳記。
 
 #### 日期範圍
 
-`daterange`特殊資料行的運作方式與`timestamp`類似；不過篩選限製為完整天。 `daterange` 也是選用的，而且具有和 `timestamp` 相同的預設範圍。
+`daterange`特殊資料行的運作方式與`timestamp`類似；但分段限製為完整天。 `daterange` 也是選用的，而且具有和 `timestamp` 相同的預設範圍。
 `daterange` 欄位也可以用於「日期時間」函數以剖析或截斷事件日期。
 
- `daterangeName` 特殊欄可用來使用命名的日期範圍 (例如 `Last Quarter`) 來篩選查詢。
+`daterangeName`特殊資料行可用來使用具名日期範圍（例如`Last Quarter`）來劃分您的查詢。
 
 >[!NOTE]
 >
->Power BI不支援少於一天的`daterange`個量度（小時、30分鐘、5分鐘等）。
+>Power BI 不支援少於一天的 (小時、30 分鐘、5 分鐘等) 的 `daterange` 量度。
 >
 
-#### 篩選器 ID
+#### 區段ID
 
-`filterId` 特殊欄是選用的，且用於將外部定義的篩選條件套用至查詢。將外部定義的篩選器套用至查詢，類似於將篩選條件拖曳到工作區的面板上。`AND`可以使用多個篩選器ID。
+`filterId`特殊資料行是選擇性的，用來將外部定義的區段套用至查詢。 將外部定義的區段套用至查詢，類似於在Workspace中將區段拖曳至面板上。 `AND`可以使用多個區段ID。
 
-有 `filterId` 時，您可以使用 `filterName` 來使用篩選器名稱而非 ID。
+您可以連同`filterId`使用`filterName`來使用區段名稱而非ID。
 
 ### WHERE 子句
 
@@ -583,11 +583,11 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 1. 從`timestamp`、`daterange` 或 `daterangeName` 特殊欄位尋找日期範圍。
 
-1. 尋找任何外部定義的 `filterId` 或 `filterName` 以納入篩選條件。
+1. 尋找任何外部定義的`filterId`或`filterName`以包含在區段中。
 
-1. 將其餘的運算式轉變為臨時篩選條件。
+1. 將其餘運算式轉換為臨時區段。
 
-透過剖析第一層的`AND` (在 `WHERE` 子句中) 來完成處理。每個用 `AND`-ed 方式連結的頂層運算式必須與上方其中一個相符。任何比第一層的 `AND` 更深的東西，或者，如果 `WHERE` 子句在頂層使用 `OR`，則作為臨時篩選條件處理。
+透過剖析第一層的`AND` (在 `WHERE` 子句中) 來完成處理。每個用 `AND`-ed 方式連結的頂層運算式必須與上方其中一個相符。比`AND`的第一個層級更深的任何專案，或如果`WHERE`子句在頂層使用`OR`，則會當作臨機區段處理。
 
 ### 排序順序
 
@@ -648,10 +648,10 @@ ORDER BY -metric1 DESC
 
 ### 部分支援
 
-部分SQL功能僅部分支援BI擴充功能，不會傳回您在其他資料庫中看到的相同結果。  此特定功能用於各種BI工具產生的SQL中，而BI擴充功能沒有完全相符專案。 因此，BI擴充功能著重於有限實施，這涵蓋了最低BI工具使用量，而不會擲回錯誤。 如需詳細資訊，請參閱下表。
+某些 SQL 功能僅部分受 BI 擴充功能支援，並且不會傳回與其他資料庫所看到相同的結果。此特定功能是在由各種 BI 工具產生的 SQL 中使用，而 BI 擴充功能沒有完全匹配的 SQL。因此，BI 擴充功能會著重在有限的實施，且其中使用最少的 BI 工具而不會引發錯誤。如需詳細資訊，請參閱下列表格。
 
 | 函數 | 範例 | 詳細資料 |
 |---|---|---|
-| MIN()和MAX() | ``MIN(daterange)`` 或 <br/> ``MAX(daterange)`` | `timestamp`、`daterange`或任何`daterangeX` （如`daterangeday`）上的`MIN()`將在2年前傳回。<br/><br/> `timestamp`、`daterange`上的`MAX()`或任何`daterangeX` （如`daterangeday`）將傳回目前的日期/時間。任何其他維度、量度或運算式上的<br/><br/>`MIN()`或`MAX()`將傳回0。 |
+| MIN() 和 MAX() | ``MIN(daterange)`` 或 <br/> ``MAX(daterange)`` | `timestamp`、`daterange` 或任何 `daterangeX` (如 `daterangeday`) 的 `MIN()` 將傳回 2 年前。<br/><br/> `timestamp`、`daterange` 或任何 `daterangeX` (如 `daterangeday`) 的 `MAX()` 將傳回目前的日期/時間。任何其他維度、量度或運算式的 <br/><br/>`MIN()` 或 `MAX()` 都會傳回 0。 |
 
 {style="table-layout:auto"}
