@@ -1,20 +1,20 @@
 ---
-title: 篩選概觀
-description: 了解篩選器的用途以及如何建立簡單篩選器。
+title: 分段概觀
+description: 瞭解區段的用途以及如何建立簡單區段。
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 392ba2b9cfe090901c3dac12459f9bd8d51fdca7
+source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 8%
+source-wordcount: '1428'
+ht-degree: 7%
 
 ---
 
 
-# 篩選器概觀
+# 分段概觀
 
-Customer Journey Analytics 可讓您建立、管理、共用功能強大、具針對性的客群篩選，並套用至您的報告。篩選器可讓您根據特性或互動來識別人員、工作階段或事件的子集。 篩選設計為編碼化的客群深入分析，您可以根據特定需求建立篩選，然後驗證、編輯並與其他團隊成員分享。
+Customer Journey Analytics可讓您建立、管理、共用功能強大、具針對性的對象區段，並套用至您的報表。 篩選器可讓您根據特性或互動來識別人員、工作階段或事件的子集。 篩選設計為編碼化的客群深入分析，您可以根據特定需求建立篩選，然後驗證、編輯並與其他團隊成員分享。
 
 篩選條件可以根據：
 
@@ -24,60 +24,60 @@ Customer Journey Analytics 可讓您建立、管理、共用功能強大、具�
 - 自訂變數（表單欄位、定義的類別、客戶ID）、
 - 和其他條件。
 
-請參閱[建立篩選器](/help/components/filters/create-filters.md)，瞭解建立篩選器可用的各種選項。 然後，在[篩選器產生器](filter-builder.md)中建立、修改及儲存篩選器的定義。 或者，您可以使用[快速篩選產生器](quick-filters.md)來建立快速篩選。 您也可以從Workspace中的視覺效果產生篩選器，例如使用[流失](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md#context-menu)視覺效果。
+如需建立區段可用的各種選項，請參閱[建立區段](/help/components/filters/create-filters.md)。 然後，在[區段產生器](filter-builder.md)中建立、修改及儲存區段的定義。 或者，您可以使用[快速區段產生器](quick-filters.md)來建立快速區段。 您也可以從Workspace中的視覺效果產生區段，例如使用[流失](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md#context-menu)視覺效果。
 
-您使用[篩選器管理員](manage-filters.md)來管理篩選器。
+您使用[區段管理員](manage-filters.md)來管理區段。
 
-## 規劃篩選器
+## 規劃區段
 
-尤其是身為管理員，正確規劃篩選器可增加使用篩選器的機會。 規劃篩選器時，請考量下列事項：
+尤其是作為管理員，正確規劃區段會提高使用區段的可能性。 規劃區段時，請考量下列事項：
 
-- **對象**：誰將使用您的篩選器？ 請確定您提供清楚的篩選器說明，讓對象瞭解：
-   - 此篩選器在哪方面有用？
+- **對象**：誰將使用您的區段？ 請確定您提供清楚的區段說明，讓對象瞭解：
+   - 此區段在哪方面有用？
 
-   - 何時應使用此篩選器？
+   - 我應何時使用此區段？
 
-- **範圍**：哪個[篩選器容器](#filter-containers)最能代表您想要的資料？ 使用的容器越小越好。
+- **範圍**：哪個[區段容器](#filter-containers)最能代表您想要的資料？ 使用的容器越小越好。
 
-- **元件**：決定篩選定義中要包含哪些元件，以及條件應該針對哪些值進行驗證。
+- **元件**：決定要包含在區段定義中的元件，以及條件應該針對哪些值進行驗證。
 
-- **程式**：考慮您的篩選的核准程式。 Customer Journey Analytics中沒有核准工作流程，但您仍可組織流程以判斷您是否核准篩選器。
+- **程式**：考慮您的區段的核准程式。 Customer Journey Analytics中沒有核准工作流程，但您仍可組織流程以判斷您是否核准區段。
 
-- **模組化**：定義篩選器時考慮模組化。 因此，您篩選器的使用者可以輕鬆[棧疊篩選器](filter-builder.md#stack-filters)，以建立強大的新篩選器。
+- **模組化**：定義考慮到模組化的區段。 您區段的使用者應該能夠輕鬆地[棧疊區段](filter-builder.md#stack-filters)，以建立強大的新區段。
 
 
-## 篩選器類型
+## 區段型別
 
-您可以建立三種型別的篩選器：
+您可以建立三種型別的區段：
 
-### 快速篩選器
+### 快速區段
 
-快速篩選可讓您在指定的Workspace專案中輕鬆探索資料，而不需要在[篩選產生器](/help/components/filters/create-filters.md)中建立篩選。 您可以直接在Workspace介面中定義篩選器。 如需詳細資訊，請參閱[快速篩選](quick-filters.md)。
+快速區段可讓您在指定的Workspace專案中輕鬆探索資料，而不需要在[區段產生器](/help/components/filters/create-filters.md)中建立區段。 您可以直接在Workspace介面中定義區段。 如需詳細資訊，請參閱[快速區段](quick-filters.md)。
 
-### 一般篩選器
+### 一般區段
 
-規則篩選器可讓您根據一或多個條件識別資料（人員、工作階段、事件）。 如果有多個條件，您可以使用And和Or等邏輯運運算元來進一步定義篩選器。 您可以使用容器來分組條件並建立更複雜的篩選器。 如需詳細資訊，請參閱[篩選產生器](filter-builder.md)。
+規則區段可讓您根據一或多個條件識別資料（人員、工作階段、事件）。 如果您有多個條件，可使用And和Or等邏輯運運算元進一步定義區段。 您可以使用容器來分組條件並建立更複雜的區段。 如需詳細資訊，請參閱[區段產生器](filter-builder.md)。
 
-### 循序篩選器
+### 循序區段
 
 >[!IMPORTANT]
 >
->您必須有&#x200B;**Select**&#x200B;封裝，才能建立跨管道循序篩選器。 如果您不確定擁有哪些Customer Journey Analytics套件，請聯絡管理員。
+>您必須有&#x200B;**Select**&#x200B;套件才能建立跨管道循序區段。 如果您不確定自己擁有哪一種 Customer Journey Analytics 套件，請聯絡您的管理員。
 
-循序篩選器可讓您根據導覽（整個網站的頁面檢視、與行動應用程式中場景的互動，或使用機上盒上的選單）識別資料（人員、工作階段、事件）。 循序篩選器可協助您識別（舉例來說）某人喜歡或避免什麼。 您可以使用Then邏輯運運算元來定義循序篩選器。 如需詳細資訊，請參閱[循序篩選器](seg-sequential-build.md)。
+循序區段可讓您根據導覽（整個網站的頁面檢視、與行動應用程式中場景的互動，或使用機上盒上的選單）識別資料（人員、工作階段、事件）。 循序區段可協助您識別（舉例來說）某人喜歡什麼、避免什麼。 您可以使用Then邏輯運運算元來定義循序區段。 如需詳細資訊，請參閱[循序區段](seg-sequential-build.md)。
 
 
 <!--
-An example of a complex sequential filter if you want to find the persons that 
+An example of a complex sequential segment if you want to find the persons that 
 
 | Session One | Session Two | Session Three |
 | --- | --- | --- |
 | The person went to the main landing page A, excluded the campaign page B, and then viewed the Product page C.| The person again went to the main landing page A, excluded the campaign page B, and went again to the Product page C, and then to a new page D. | The person entered and followed that same path as in the first and second visits, then excluded page F to go directly to a targeted product on page G. |
 -->
 
-## 篩選器容器 {#containers}
+## 區段容器 {#containers}
 
-篩選器使用巢狀容器模型，並以人員、工作階段和事件層級階層為基礎。 巢狀容器可讓您定義容器之間和容器內的條件。
+區段是以人員、工作階段和事件層級階層為基礎，使用巢狀容器模型。 巢狀容器可讓您定義容器之間和容器內的條件。
 
 
 <table style="table-layout: fixed; border: none;" width="100%">
@@ -107,13 +107,13 @@ An example of a complex sequential filter if you want to find the persons that
 > - 在Adobe Analytics中，**事件**&#x200B;容器稱為&#x200B;**點選**&#x200B;容器。
 >
 
-篩選器會設定條件，以根據條件來篩選人員、工作階段或事件。 例如，根據人員特性和導覽特徵來篩選人員的條件。 若要進一步劃分資料，您可以依特定工作階段、頁面檢視事件、熒幕點選、機上盒的功能表選擇等專案進行篩選。 但也會篩選您從CRM或忠誠度系統擷取的屬性。 [篩選產生器](/help/components/filters/filter-builder.md)提供簡易介面來建立這些子集，並在巢狀階層式「人員」、「工作階段」或「事件」容器中套用條件。
+區段會設定條件，以根據條件來區隔人員、工作階段或事件。 例如，區隔人員的條件是根據人員特性和導覽特徵。 若要進一步劃分資料，您可以劃分特定工作階段、頁面檢視事件、熒幕點選、機上盒的功能表選擇等等。 您也可以對從CRM或忠誠度系統擷取的屬性進行分段。 [區段產生器](/help/components/filters/filter-builder.md)提供簡易的介面，讓您在巢狀階層式「人員」、「工作階段」或「事件」容器中建立這些子集並套用條件。
 
-[篩選器產生器](/help/components/filters/filter-builder.md)中使用的容器架構將「人員」定義為最外層的容器。 容器包含個人在各工作階段和事件（例如頁面檢視、行動應用程式畫面或機上盒的選單畫面）專屬的總體資料。 巢狀「工作階段」容器可讓您設定規則，以根據工作階段劃分人員的資料。 巢狀「事件」容器可讓您根據個別互動來劃分人員資訊。 每個容器均可讓您根據個人的歷史記錄、依工作階段劃分的互動來進行報告，或對個別事件進行劃分。
+[區段產生器](/help/components/filters/filter-builder.md)中使用的容器架構將「人員」定義為最外層的容器。 此容器包含個人在各工作階段和事件（例如頁面檢視、行動應用程式畫面或機上盒的選單畫面）專屬的總體資料。 巢狀「工作階段」容器可讓您設定規則，以根據工作階段劃分人員的資料。 巢狀「事件」容器可讓您根據個別互動來劃分人員資訊。 每個容器均可讓您根據個人的歷史記錄、依工作階段劃分的互動來進行報告，或對個別事件進行劃分。
 
 ### 「人員」容器
 
-「人員」容器包含符合容器中所指定條件之人員的每個工作階段和每個事件。 當您定義具有簡單條件（如`Page Name equals Checkout`）的篩選器時，「人員」容器會解析為：
+「人員」容器包含符合容器中所指定條件之人員的每個工作階段和每個事件。 當您定義具有簡單條件（如`Page Name equals Checkout`）的區段時，「人員」容器會解析為：
 
 - 所有造訪過名為`Checkout`之頁面的使用者。
 - 這些人員的所有工作階段。
@@ -128,7 +128,7 @@ An example of a complex sequential filter if you want to find the persons that
 
 ### 「工作階段」容器
 
-「工作階段」容器可讓您識別特定工作階段的頁面互動或行動應用程式互動、促銷活動或轉換。 「工作階段」容器是最常使用的容器，因為它會在符合規則時擷取整個工作階段的行為。 「工作階段」容器也可讓您定義建立和套用篩選器時要包含或排除的工作階段。  當您定義具有簡單條件（例如`Page Name equals Checkout`）的篩選器時，工作階段容器會解析為：
+「工作階段」容器可讓您識別特定工作階段的頁面互動或行動應用程式互動、促銷活動或轉換。 「工作階段」容器是最常使用的容器，因為它會在符合規則時擷取整個工作階段的行為。 「工作階段」容器也可讓您定義建立和套用區段時要包含或排除的工作階段。  當您定義具有簡單條件（如`Page Name equals Checkout`）的區段時，工作階段容器會解析為：
 
 - 造訪名稱為`Checkout`之頁面的所有工作階段。
 - 這些工作階段的所有事件資料。
@@ -150,7 +150,7 @@ Customer Journey Analytics中的資料檢視可讓您決定工作階段持續的
 
 ### 事件容器
 
-「事件」容器定義您要在篩選器中包含或排除的頁面、行動應用程式或其他事件型別。 這是最窄的可用容器，可讓您識別條件為真的行動應用程式中的特定點按、頁面檢視、點選按鈕等。 「事件」容器可讓您檢視單一追蹤程式碼，或隔離行動應用程式特定區域中的行為。 您可能也會想要在動作發生時精準指出特定值，例如下訂單時的行銷管道。 當您定義具有簡單條件（例如`Page Name equals Checkout`）的篩選器時，事件容器會解析為：
+「事件」容器定義您要在區段中納入或排除的頁面、行動應用程式或其他事件型別。 這是可用容器中最窄的。 它可讓您在條件為真的情況下，識別行動應用程式中的特定點按、頁面檢視、點選按鈕等。 「事件」容器可讓您檢視單一追蹤程式碼，或隔離行動應用程式特定區域中的行為。 您可能也會想要在動作發生時精準指出特定值，例如下訂單時的行銷管道。 當您定義具有簡單條件（例如`Page Name equals Checkout`）的區段時，事件容器會解析為：
 
 - 頁面名稱等於`Checkout`的所有頁面檢視事件。
 
@@ -164,19 +164,19 @@ Customer Journey Analytics中的資料檢視可讓您決定工作階段持續的
 
 ### 邏輯群組容器
 
-邏輯群組可讓您將條件群組至單一循序篩選器查核點。 作為序列的一部分，在識別為[!UICONTROL 邏輯群組]的容器中定義的邏輯，會在任何先前的循序查核點之後，以及任何後續的循序查核點之前評估。 如需詳細資訊，請參閱[邏輯群組](seg-sequential-build.md#logic-group)。
+邏輯群組可讓您將條件群組至單一循序區段查核點。 作為序列的一部分，在識別為[!UICONTROL 邏輯群組]的容器中定義的邏輯，會在任何先前的循序查核點之後，以及任何後續的循序查核點之前評估。 如需詳細資訊，請參閱[邏輯群組](seg-sequential-build.md#logic-group)。
 
 ### 巢狀內嵌容器
 
-在其他容器中建立容器時，您實際上是在篩選器中建立篩選器。 下列邏輯會套用至巢狀容器：
+在其他容器中建立容器時，您實際上是要在區段內建立區段。 下列邏輯會套用至巢狀容器：
 
 1. 使用最外層的容器，判斷包含的是什麼資料。報表中會捨棄不符合此外部規則的任何資料。
-2. 將巢狀篩選定義套用至其餘資料。 巢狀篩選定義不適用於第一個定義捨棄的任何資料。
-3. 重複此步驟，直到所有巢狀容器篩選定義都已計算完畢。 剩餘的資料會包含在結果中，並用於報表。
+2. 將巢狀區段定義套用至其餘資料。 巢狀區段定義不適用於第一個定義捨棄的任何資料。
+3. 重複此步驟，直到所有巢狀容器區段定義都已計算完畢。 剩餘的資料會包含在結果中，並用於報表。
 
 >[!NOTE]
 >
->在篩選器中巢狀內嵌篩選時（例如，將篩選器從「元件」面板拖曳至篩選定義時），會以拖曳的篩選定義復本（而非參照）建立容器。
+>當您在區段內巢狀內嵌區段（例如，從「元件」面板將區段拖曳至區段定義上）時，會以拖曳區段定義的復本（而非參照）建立容器。
 
 <!--
 You can use nesting between containers and between conditions within a container. Here is what you can nest in each container:
@@ -187,20 +187,20 @@ You can use nesting between containers and between conditions within a container
 | Session | Session
 
 
-## Out-of-the-box filter template {#template}
+## Out-of-the-box segment template {#template}
 
 Traditional Analytics comes with numerous out-of-the-box templates and calculated metrics. Many of them do not apply in Customer Journey Analytics, or have to be renamed or recreated. Others depend on a solution for context-aware variables in Customer Journey Analytics.
 
 | Filter Name | Description |
 | --- | --- |
-| All Data | All Data is a required filter that gets dynamically added to reporting when a metric is added to the row of a Freeform table. |
+| All Data | All Data is a required segment that gets dynamically added to reporting when a metric is added to the row of a Freeform table. |
 -->
 
 >[!MORELIKETHIS]
 >
->[建立篩選器](create-filters.md)
->[篩選器產生器](filter-builder.md)
->[快速篩選](quick-filters.md)
->[循序篩選器](seg-sequential-build.md)
->[管理篩選器](manage-filters.md)
+>[建立區段](create-filters.md)
+>[區段產生器](filter-builder.md)
+>[快速區段](quick-filters.md)
+>[循序區段](seg-sequential-build.md)
+>[管理區段](manage-filters.md)
 >
