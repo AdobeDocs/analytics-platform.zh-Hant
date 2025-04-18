@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 25a2c549c27918f80202bde4cd30e305f4a295f3
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
@@ -77,6 +77,6 @@ ht-degree: 1%
 
 ## 步驟5：從Customer Journey Analytics檢視工作階段
 
-在您找到想要探索工作階段重播的有趣區段後，可以將其套用至包含工作階段ID連結的面板，並依區段篩選。 此表格會傳回該區段中的所有工作階段，您可以按一下任一工作階段，進一步探索Quantum量度。
+在您找到想要探索工作階段重播的有趣區段後，可以將其套用至包含工作階段ID連結和區段的面板。 此表格會傳回該區段中的所有工作階段，您可以按一下任一工作階段，進一步探索Quantum量度。
 
 如需詳細資訊，請參閱[Quantum量度上的工作階段重播企業指南](https://www.quantummetric.com/resources/ebook/the-enterprise-guide-to-session-replay)。 您也可以連絡您的Quantum Metric客戶支援代表，或透過[Quantum Metric客戶請求入口網站](https://community.quantummetric.com/s/public-support-page)提交請求。

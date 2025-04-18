@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 3b4917dade478f327ee3f532c5d72c4ca7656067
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 7%
@@ -84,7 +84,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
-| 對象篩選器 | 20 | 系統強制的護欄 | 每個對象最多[個篩選器](../components/filters/filters-overview.md)。 |
+| 對象區段 | 20 | 系統強制的護欄 | 每個對象最多[個區段](../components/filters/filters-overview.md)個。 |
 | 對象身分的數量 | 2000萬 | 系統強制的護欄 | 每個對象的最大身分數量。 |
 | 對象重新整理頻率 | 4 | 系統強制的護欄 | 可以重新整理[對象](../components/audiences/audiences-overview.md)的頻率上限（小時）。 |
 | 對象重新整理回顧期間 | 90 | 系統強制的護欄 | 重新整理回顧期間的最大天數。 |
@@ -183,18 +183,18 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 | 回顧期間/重播頻率 | 1/1 - 30/7 | 系統強制的護欄 | 最大回顧期間（以天為單位）/重播頻率。 值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
 
 
-## 篩選器和計算量度
+## 區段和計算量度
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
-| 每個篩選器的容器 | 50 | 系統強制的護欄 | 每個篩選器的最大容器數。 |
+| 每個篩選器的容器 | 50 | 系統強制的護欄 | 每個區段的容器數上限。 |
 | 每個計算量度的量度 | 25 | 系統強制的護欄 | 每個計算量度的最大量度數。 |
-| 每個篩選器的量度和維度 | 25 | 系統強制的護欄 | 每個篩選器的不重複量度和維度最大數量。 |
-| 每個篩選器的巢狀容器 | 10 | 系統強制的護欄 | 每個篩選器的巢狀容器數上限。 |
-| 每個篩選器的規則 | 100 | 系統強制的護欄 | 每個篩選器的最大規則數。 |
-| 每個篩選器每個Dimension的字串比較數 | 100 | 系統強制的護欄 | 每個篩選器每個維度的最大字串比較數量。 |
+| 每個篩選器的量度和維度 | 25 | 系統強制的護欄 | 每個區段的最大不重複量度和維度數量。 |
+| 每個篩選器的巢狀容器 | 10 | 系統強制的護欄 | 每個區段的巢狀容器數上限。 |
+| 每個區段的規則 | 100 | 系統強制的護欄 | 每個區段的最大規則數。 |
+| 每個區段每個Dimension的字串比較 | 100 | 系統強制的護欄 | 每個區段每個維度的最大字串比較數量。 |
 | 計算的量度 | 6,000 | 系統強制的護欄 | 組織的計算量度數上限。 |
-| 篩選器 | 50,000 | 系統強制的護欄 | 可為組織定義的最大篩選器數。 |
+| 區段 | 50,000 | 系統強制的護欄 | 可為組織定義的最大區段數。 |
 | API 呼叫 | 120 | 系統強制的護欄 | 每分鐘API要求數（每6秒12個要求）。 |
 
 {style="table-layout:auto"}
@@ -205,7 +205,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
 | 圖磚 | 16 | 系統強制的護欄 | 每個計分卡的最大圖磚數。 |
-| 篩選器 | 10 | 系統強制的護欄 | 每個計分卡的最大篩選器數。 |
+| 區段 | 10 | 系統強制的護欄 | 每個計分卡的最大區段數。 |
 | 維度 | 10 | 系統強制的護欄 | 每個計分卡的最大維度數量。 |
 
 {style="table-layout:auto"}

@@ -1,12 +1,12 @@
 ---
-description: 說明尋找量度的兩種主要方法：排序和篩選。
+description: 說明排序和篩選這兩種尋找量度的主要方式。
 title: 尋找量度
 feature: Calculated Metrics
 exl-id: 34d2563a-7cd2-4f22-9ad0-6a3dab8d84ea
-source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
+source-git-commit: d2fb161151bb909152470041449ab3010e72e5e3
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 34%
+ht-degree: 8%
 
 ---
 

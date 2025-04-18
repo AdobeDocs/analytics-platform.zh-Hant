@@ -5,40 +5,40 @@ title: 專案概觀
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1627'
-ht-degree: 8%
+ht-degree: 99%
 
 ---
 
 # 專案概觀
 
-Workspace專案可讓您合併面板、視覺效果和元件，以進行分析並與貴組織的任何人分享。 在開始第一個專案之前，請先瞭解如何存取、導覽及管理您的專案。
+Workspace 專案可讓您合併面板、視覺效果和元件，以進行分析並與貴組織的任何人共用。在開始第一個專案之前，請先了解如何存取、瀏覽及管理您的專案。
 
-若要存取Customer Journey Analytics中的專案，請選取&#x200B;**[!UICONTROL Workspace]**。  **[!UICONTROL 專案]**&#x200B;管理員會列出您擁有的所有專案或與您共用的專案。 具有專案清單的專案管理員也是Customer Journey Analytics的預設登陸頁面，除非您另外在「偏好設定」中設定。
+若要存取 Customer Journey Analytics 中的專案，請選取「**[!UICONTROL Workspace]**」。**[!UICONTROL 專案]**&#x200B;管理員會列出您擁有的所有專案或與您共用的專案。含有專案清單的專案管理員也是 Customer Journey Analytics 的預設登陸頁面，除非您在「偏好設定」中另有設定。
 
-![顯示專案清單的專案登陸頁面。](assets/projects.png)
+![專案登陸頁會顯示專案清單。](assets/projects.png)
 
 
 ## 標題區域
 
-在標題區域中，您➊可以建立專案、建立資料夾、編輯您的偏好設定，以及顯示或隱藏具有其他圖磚的面板。
+在標題區域 ➊ 內，您可以建立專案、建立資料夾、編輯您的偏好設定，以及顯示或隱藏含有附加圖磚的面板。
 
-* 若要顯示或隱藏可讓您在&#x200B;**[!UICONTROL 專案]**&#x200B;與&#x200B;**[!UICONTROL 學習]**&#x200B;之間選取的左側面板，請選取![邊欄](/help/assets/icons/Rail.svg)。
-* 標題顯示專案，並可選擇新增您已選取資料夾的路徑。 例如[!UICONTROL 專案] > **[!UICONTROL 公司資料夾]**。 您可以選取個別子資料夾零件，直接移至特定資料夾。
-* 若要顯示[**[!UICONTROL 空白專案]**](create-projects.md)的圖磚，[**[!UICONTROL 空白行動計分卡]**](/help/mobile-app/create-scorecard.md)，[**[!UICONTROL 引導式分析]**](/help/guided-analysis/overview.md)，**[!UICONTROL 開啟檔案]**&#x200B;和&#x200B;**[!UICONTROL 開啟發行說明]**，請選取![V形向下](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 顯示更多]**。 若要隱藏有圖磚的區域，請選取![V形向下](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 顯示更少]**。
-* 根據您選取要顯示的內容，使用[顯示選取器](#show-selector)，您可以編輯偏好設定並對&#x200B;**[!UICONTROL 專案]**&#x200B;中顯示的目前資料夾執行動作：
+* 若要顯示或隱藏左側面板以便您在「**[!UICONTROL 專案]**」和「**[!UICONTROL 了解]**」之間選取，您可選取「![邊欄](/help/assets/icons/Rail.svg)」。
+* 標題會顯示專案，還可選擇新增至您已選取資料夾的路徑。例如，[!UICONTROL 專案] > **[!UICONTROL 公司資料夾]**。您可以選取個別子資料夾部分，以直接前往特定資料夾。
+* 若要顯示 [**[!UICONTROL 空白專案]**](create-projects.md)， [**[!UICONTROL 空白行動計分卡]**](/help/mobile-app/create-scorecard.md)， [**[!UICONTROL 引導式分析]**](/help/guided-analysis/overview.md)， **[!UICONTROL 開啟文件]** 和 **[!UICONTROL 開啟發行說明]**&#x200B;的圖磚，選取 ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 「顯示更多」]**。若要隱藏有圖磚的區域，請選取 ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 「顯示較少」]**。
+* 根據您的選取來顯示 (使用[顯示選擇器](#show-selector))，您可以編輯偏好設定並對&#x200B;**[!UICONTROL 專案]**&#x200B;中目前可見到的資料夾執行動作：
 
   | 動作 | 說明 |
   |---|---|
   | **[!UICONTROL 建立專案]** | 選取以[建立新專案](create-projects.md)。 |
-  | **[!UICONTROL 建立資料夾]** | 選取以[建立新資料夾](workspace-folders/create-folders.md)。 |
-  | ![UserAdmin](/help/assets/icons/UserAdmin.svg) **[!UICONTROL 編輯偏好設定]** | [編輯您所有專案的偏好設定](/help/analysis-workspace/user-preferences.md)。 當階層連結導致空間受限時，此動作會成為![更多](/help/assets/icons/More.svg)子功能表的一部分。 |
-  | **[!UICONTROL 新增專案]** | 選取以[將專案](workspace-folders/add-projects.md)新增到目前的資料夾。 當階層連結導致空間受限時，此動作會成為![更多](/help/assets/icons/More.svg)子功能表的一部分。 |
-  | **[!UICONTROL 重新命名資料夾]** | [重新命名](workspace-folders/manage-folders.md#rename-folders)目前的資料夾。 |
-  | **[!UICONTROL 行動資料夾]** | [移動](workspace-folders/manage-folders.md#move-folders)目前的資料夾。 |
-  | **[!UICONTROL 刪除資料夾]** | [刪除](workspace-folders/manage-folders.md#delete-folders)目前的資料夾。 |
+  | **[!UICONTROL 建立資料夾]** | 選取以[建立新專案](workspace-folders/create-folders.md)。 |
+  | ![UserAdmin](/help/assets/icons/UserAdmin.svg) **[!UICONTROL 編輯偏好設定]** | [編輯偏好設定](/help/analysis-workspace/user-preferences.md)適用於您所有的專案。當階層連結導致空間有限時，此動作是「![更多](/help/assets/icons/More.svg)」子選單中的一部分。 |
+  | **[!UICONTROL 新增專案]** | 選取以[新增專案](workspace-folders/add-projects.md)至目的資料夾。當階層連結導致空間有限時，此動作是「![更多](/help/assets/icons/More.svg)」子選單中的一部分。 |
+  | **[!UICONTROL 重新命名資料夾]** | [重新命名](workspace-folders/manage-folders.md#rename-folders)目前資料夾。 |
+  | **[!UICONTROL 移動資料夾]** | [移動](workspace-folders/manage-folders.md#move-folders)目前資料夾。 |
+  | **[!UICONTROL 刪除資料夾]** | [刪除](workspace-folders/manage-folders.md#delete-folders)目前資料夾。 |
 
 
 
@@ -46,119 +46,119 @@ Workspace專案可讓您合併面板、視覺效果和元件，以進行分析�
 ## 專案清單
 
 
-專案清單➋會顯示您所擁有以及已經與您共用的所有專案。 清單有以下欄位：
+專案清單 ➋ 會顯示您擁有以及已經與您共用的所有專案。清單有以下欄位：
 
 | 欄 | 說明 |
 | --- | --- | 
-| ![SelectBox](/help/assets/icons/SelectBox.svg) | 選取一或多個專案時，Project介面的底部會出現一個藍色動作列。 如需詳細資訊，請參閱[動作](#actions)。 |
-| ![StarOutline](/help/assets/icons/StarOutline.svg) | 選取以偏好![Star](/help/assets/icons/Star.svg)或取消偏好![StarOutline](/help/assets/icons/StarOutline.svg)專案。 |
-| **[!UICONTROL 標題和說明]** | 若要編輯專案，請選取標題連結，以開啟[Workspace專案](/help/analysis-workspace/home.md)。 與您共用的專案以![共用](/help/assets/icons/ShareAlt.svg)表示。 選取![資訊大綱](/help/assets/icons/InfoOutline.svg)以顯示包含專案詳細資訊的快顯功能表。 選取![更多](/help/assets/icons/More.svg)以開啟包含動作的內容功能表。 如需詳細資訊，請參閱[動作](#actions)。 |
-| **[!UICONTROL Type]** | Workspace專案、![FolderUser](/help/assets/icons/FolderUser.svg)資料夾或[行動計分卡](/help/mobile-app/home.md)。 |
-| **[!UICONTROL 標記]** | 套用至專案的標籤。 |
-| 已排程 | 專案是否已排程以電子郵件傳送給收件者。 選項為![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]**&#x200B;或![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**。 請參閱[將專案資料傳送給其他人](/help/analysis-workspace/export/t-schedule-report.md)。 |
-| **[!UICONTROL 共用連結（任何人）]** | 專案是否會與任何人共用，即使對方無權存取Analysis Workspace。 選項為![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL 作用中]**&#x200B;或![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL 非作用中]**。 如需詳細資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案（不需要登入）](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)。 |
-| **[!UICONTROL 專案角色]** | 您在專案中的角色。 選項包括：編輯、複製、檢視。 如需詳細資訊，請參閱[專案角色](/help/analysis-workspace/curate-share/curate.md)。 |
-| **[!UICONTROL 資料釋圖]** | 與專案相關聯的資料檢視。 |
+| ![SelectBox](/help/assets/icons/SelectBox.svg) | 當選取一個或多個專案時，專案介面底部會出現一個藍色操作欄。如需詳細資訊，請參閱「[動作](#actions)」。 |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | 選取以將專案設為我的最愛 ![Star](/help/assets/icons/Star.svg) 或取消我的最愛 ![StarOutline](/help/assets/icons/StarOutline.svg)。 |
+| **[!UICONTROL 標題和說明]** | 若要編輯專案，請選取標題連結，即會開啟 [Workspace 專案](/help/analysis-workspace/home.md)。與您共用的專案會以「![共用](/help/assets/icons/ShareAlt.svg)」來表示。選取 ![InfoOutline](/help/assets/icons/InfoOutline.svg) 以顯示快顯選單，其中含有專案的更多詳細資訊。選取「![更多](/help/assets/icons/More.svg)」以開啟含有動作的內容選單。如需詳細資訊，請參閱「[動作](#actions)」。 |
+| **[!UICONTROL 類型]** | Workspace 專案、![FolderUser](/help/assets/icons/FolderUser.svg) 資料夾或[行動計分卡](/help/mobile-app/home.md)。 |
+| **[!UICONTROL 標記]** | 套用至專案的標記。 |
+| 已排程 | 是否為專案排程以透過電子郵件發送給收件者。選項包括 ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL 開啟]**&#x200B;或![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL 關閉]**。請參閱「[發送專案資料給其他人](/help/analysis-workspace/export/t-schedule-report.md)」。 |
+| **[!UICONTROL 共用連結 (任何人)]** | 無論是否與任何人共用專案，即使是沒有 Analysis Workspace 存取權的人都可以共用。選項包括 ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL 使用中]**&#x200B;或![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL 非使用中]**。如需更多資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的「[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)」。 |
+| **[!UICONTROL 專案角色]** | 您在專案中的角色。選項包括：編輯、複製、檢視。請參閱「[專案角色](/help/analysis-workspace/curate-share/curate.md)」，了解更多資訊。 |
+| **[!UICONTROL 資料檢視]** | 與專案相關聯的資料檢視。 |
 | **[!UICONTROL 所有者]** | 建立此專案的人 (您或與您共用專案的人)。 |
-| **[!UICONTROL 共用對象]** | 已共用專案的使用者。 |
+| **[!UICONTROL 共用對象]** | 已與其共用該專案的使用者。 |
 | **[!UICONTROL 上次修改日期]** | 上次修改專案的日期和時間。 |
-| **[!UICONTROL 上次開啟]** | 專案上次開啟的日期和時間。 |
-| **[!UICONTROL 專案 ID]** | 專案的ID。 |
+| **[!UICONTROL 上次開啟]** | 上次開啟專案的日期和時間。 |
+| **[!UICONTROL 專案 ID]** | 專案 ID。 |
 | **[!UICONTROL 最大日期範圍]** | 專案中任何面板或視覺效果的最長日期範圍。 |
-| **[!UICONTROL 查詢數]** | 專案中包含的查詢總數。 |
+| **[!UICONTROL 查詢數]** | 專案中使用的查詢總數。 |
 | **[!UICONTROL 位置]** | 專案所在的資料夾。 |
 
-將滑鼠懸停在任何欄標題上以顯示![V形向下](/help/assets/icons/ChevronDown.svg)，並從內容功能表選取：
+將滑鼠停留在任何資料欄標題上，即可顯示 ![ChevronDown](/help/assets/icons/ChevronDown.svg) 並從內容選單中選取：
 
-* **[!UICONTROL 遞增排序]**
-* **[!UICONTROL 遞減排序]**
-* **[!UICONTROL 調整資料行大小]**。 會顯示一條藍線，協助您調整欄大小。
+* **[!UICONTROL 升序排列]**
+* **[!UICONTROL 降序排序]**
+* **[!UICONTROL 調整資料欄大小]**&#x200B;會出現一條藍線，可幫助您調整資料欄的大小。
 
 ### 動作
 
-您可以使用內容功能表![More](/help/assets/icons/More.svg)或藍色動作列，對一或多個專案執行動作。
+您可以使用內容選單 ![更多的](/help/assets/icons/More.svg) 或藍色動作列，對一個或多個專案執行動作。
 
 | 圖示 | 動作 | 說明 |
 |:---:| ---|---|
-| ![CrossSize75](/help/assets/icons/Close.svg) | 已選取&#x200B;**[!UICONTROL *x *]** | 取消選取您選取的專案和資料夾，並移除藍色動作列。 |
-| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除一或多個專案或資料夾。 系統會提示您進行確認。 |
-| ![Share](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共用]** | 共用專案。 如需詳細資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)。 |
-| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名專案。 開啟&#x200B;**[!UICONTROL 重新命名： *專案名稱對話方塊&#x200B;*]**。 輸入新名稱並選取**[!UICONTROL 儲存&#x200B;]**。 |
-| ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL 複製]** | 複製一或多個專案。 專案確實有相同的名稱和尾碼`(Copy)`。 |
-| ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL 釘選]**&#x200B;或&#x200B;**[!UICONTROL 取消釘選]** | 釘選或取消釘選一個或多個專案或資料夾。 釘選專案和資料夾會出現在清單頂端，並忽略您指定的排序順序。 |
-| ![向上鍵](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL 上移]** | 將釘選的專案或資料夾在專案清單中上移。 |
-| ![向下箭號](/help/assets/icons/ArrowDown.svg) | **[!UICONTROL 下移]** | 在專案清單中向下移動釘選專案或資料夾。 |
-| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標籤一或多個專案或資料夾。 顯示&#x200B;**[!UICONTROL 標籤元件]**&#x200B;對話方塊以選取一或多個標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選專案或資料夾的標籤。 |
-| ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 核准]**&#x200B;或&#x200B;**[!UICONTROL 取消核准]** | 核准或取消核准專案。 只有管理員可以核准專案。 |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出CSV]** | 將選取的專案匯出至名稱為`Project List.csv`的CSV檔案。 |
-| ![專案新增](/help/assets/icons/ProjectAdd.svg) | **[!UICONTROL 新增專案]** | 將一或多個專案新增至選取的資料夾。 您可以在&#x200B;**[!UICONTROL 新增專案]**&#x200B;中選取一或多個專案。 選取&#x200B;**[!UICONTROL 新增]**&#x200B;以將專案新增至資料夾。 如需詳細資訊，請參閱[將專案新增至資料夾](workspace-folders/add-projects.md#from-inside-a-folder)。 |
-| ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) | **[!UICONTROL 移至]** | 將一或多個選取的專案移至資料夾。 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;中，選取要移動選取專案的資料夾，並選取&#x200B;**[!UICONTROL 移動]**。 如需詳細資訊，請參閱[將專案新增至資料夾](workspace-folders/add-projects.md#from-the-project-list)。 |
+| ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *已選取]** | 取消選擇您已選的專案和資料夾，並刪除藍色動作列。 |
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除一個或多個專案或資料夾。系統會提示您進行確認。 |
+| ![Share](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共用]** | 共用專案。請參閱「[共用專案](/help/analysis-workspace/curate-share/share-projects.md)」了解更多。 |
+| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名專案。開啟&#x200B;**[!UICONTROL 重新命名：*專案名稱對話框&#x200B;*]**。輸入新名稱並選取「**[!UICONTROL 儲存&#x200B;]**」。 |
+| ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL 複製]** | 複製一個或多個專案。專案會獲得相同的名稱和字尾 `(Copy)`。 |
+| ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL 釘選]**&#x200B;或&#x200B;**[!UICONTROL 取消釘選]** | 釘選或取消釘選一個或多個專案或資料夾。已釘選的專案和資料夾會出現在清單上方，並忽略您指定的排序順序。 |
+| ![ArrowUp](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL 向上移動]** | 在專案清單中，將已釘選的專案或資料夾向上移動。 |
+| ![ArrowDown](/help/assets/icons/ArrowDown.svg) | **[!UICONTROL 向下移動]** | 在專案清單中，將已釘選的專案或資料夾向下移動。 |
+| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標記一個或多個專案或資料夾。**[!UICONTROL 標記元件]**&#x200B;對話框會顯示，即可選取一個或多個標記。選取「**[!UICONTROL 儲存]**」，以儲存所選專案或資料夾的標記。 |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 核准]**&#x200B;或&#x200B;**[!UICONTROL 取消核准]** | 核准或不核准專案。只有管&#x200B;&#x200B;理員可以核准專案。 |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出 CSV]** | 將選取的專案匯出為名為 `Project List.csv` 的 CSV 檔案。 |
+| ![ProjectAdd](/help/assets/icons/ProjectAdd.svg) | **[!UICONTROL 新增專案]** | 將一個或多個專案新增至選取的資料夾。在「**[!UICONTROL 新增專案]**」中，您可以選取一個或多個專案。選取「**[!UICONTROL 新增]**」，將專案新增至資料夾。請參閱「[將項目新增至資料夾](workspace-folders/add-projects.md#from-inside-a-folder)」了解更多。 |
+| ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) | **[!UICONTROL 移動至]** | 將一個或多個選取的專案移動至資料夾。在「**[!UICONTROL 選取資料夾]**」中，選取要將選取的專案移往的資料夾，然後選取「**[!UICONTROL 移動]**」。請參閱「[將項目新增至資料夾](workspace-folders/add-projects.md#from-the-project-list)」了解更多。 |
 
 
 
 ## 顯示選擇器
 
-您可以使用&#x200B;**[!UICONTROL Show]**&#x200B;選擇器來切換Projects介面的外觀➌。 **[!UICONTROL 顯示]**&#x200B;選取器定義[標題區域](#title-area)中可用的選項，以及[專案清單](#project-list)中顯示的欄。
+您可以使用&#x200B;**[!UICONTROL 顯示]**&#x200B;選擇器 ➌ 來切換專案介面的外觀。**[!UICONTROL 顯示]**&#x200B;選擇器會定義[標題區域](#title-area)中可用的選項，以及[專案清單](#project-list)中顯示的資料欄。
 
-* 若要變更[標題區域](#title-area)的可用選項，請選取&#x200B;**[!UICONTROL 顯示]** **[!UICONTROL 所有專案]**&#x200B;或&#x200B;**[!UICONTROL 顯示]** **[!UICONTROL 資料夾與專案]**。
+* 若要變更[標題區域](#title-area)中可用的選項，請選取&#x200B;**[!UICONTROL 顯示]** **[!UICONTROL 所有專案]**&#x200B;或&#x200B;**[!UICONTROL 顯示]** **[!UICONTROL 資料夾和專案]**。
 
-* 若要定義要為[專案清單](#project-list)顯示哪些資料行，請選取![資料行設定](/help/assets/icons/ColumnSetting.svg)，然後從&#x200B;**[!UICONTROL 自訂資料表]**&#x200B;對話方塊中選取或取消選取資料行。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;以套用自訂。 請參閱[專案清單](#project-list)，以取得資料行的詳細資訊。
+* 若要定義在[專案清單](#project-list)中顯示哪些資料欄，請選取![ColumnSetting](/help/assets/icons/ColumnSetting.svg)，然後從「**[!UICONTROL 自訂表格]**」對話框選取或取消選取資料欄。選取「**[!UICONTROL 套用]**」以套用自訂。若要了解資料欄的更多資訊，請參閱「[專案清單](#project-list)」。
 
 ## 篩選面板
 
-您可以使用篩選面板來篩選[專案清單](#project-list)中的專案和資➍料夾。 若要顯示或隱藏篩選器面板，請使用![篩選器](/help/assets/icons/Filter.svg)。
+您可以使用篩選器面板 ➍ 來篩選「[專案清單](#project-list)」中的篩選器和資料夾。若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
 
-「濾鏡」面板由下列區段組成。
+篩選器面板由以下部分組成。
 
 ### 標記
 
 | 標記 | 說明 |
 |---|---|
-| ![標記](/help/analysis-workspace/build-workspace-project/assets/projects-filters-tags.png){width="300"} | **[!UICONTROL 標籤]**&#x200B;區段可讓您依標籤篩選。 <ul><li>您使用![搜尋](/help/assets/icons/Search.svg) *搜尋標籤*&#x200B;來搜尋要用來篩選的標籤。</li><li>您可以選取多個標籤。 可用的標籤取決於篩選面板中其他區段所做的選取。</li><li>數字表示：<ul><li>**2︎⃣**：目前篩選產生的專案可用的標籤數。</li><li>⃣7︎：與特定標籤相關聯的專案數目。</li></ul></li></ul> |
+| ![標記](/help/analysis-workspace/build-workspace-project/assets/projects-filters-tags.png){width="300"} | 「**[!UICONTROL 標記]**」部分可讓您按標記進行篩選。 <ul><li>您可以使用 ![搜尋](/help/assets/icons/Search.svg) *「搜尋標記」*&#x200B;來搜尋您想要用來篩選的標記。</li><li>您可以選取多個標記。適用標記取決於篩在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>**2︎⃣**：目前篩選器產生的專案適用的標記數量。</li><li>7︎⃣：與特定標記相關聯的專案數量。</li></ul></li></ul> |
 
 
-### 資料視圖
+### 資料檢視
 
-| 資料視圖 | 說明 |
+| 資料檢視 | 說明 |
 |---|---|
-| ![資料檢視](/help/analysis-workspace/build-workspace-project/assets/projects-filters-dataviews.png){width="300"} | **[!UICONTROL 資料檢視]**&#x200B;區段可讓您篩選資料檢視。 <ul><li>您使用![搜尋](/help/assets/icons/Search.svg) *搜尋資料檢視*&#x200B;來搜尋您要用來篩選的資料檢視。</li><li>您可以選取多個資料檢視。 可用的資料檢視視視在篩選器面板的其他區段中選取的專案而定。</li><li>數字表示：<ul><li>**3︎⃣**：目前篩選產生的專案可用的資料檢視數目。</li><li>⃣4︎：與特定資料檢視相關聯的專案數目。</li></ul></li></ul> |
+| ![資料檢視](/help/analysis-workspace/build-workspace-project/assets/projects-filters-dataviews.png){width="300"} | **[!UICONTROL 資料檢視]**&#x200B;部分可讓您篩選資料檢視。 <ul><li>您可以使用 ![搜尋](/help/assets/icons/Search.svg) *「搜尋資料檢視」*&#x200B;來搜尋您想要用來篩選的資料檢視。</li><li>您可以選取多個資料檢視。適用資料檢視取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>**3︎⃣**：目前篩選器產生的專案適用的資料檢視數量。</li><li>4︎⃣：與特定資料檢視相關聯的專案數量。</li></ul></li></ul> |
 
 
-### 擁有者
+### 所有者
 
 | 所有者 | 說明 |
 |---|---|
-| ![擁有者](/help/analysis-workspace/build-workspace-project/assets/projects-filters-owners.png){width="300"} | **[!UICONTROL 所有者]**&#x200B;區段可讓您依所有者篩選。 <ul><li>您使用![搜尋](/help/assets/icons/Search.svg) *搜尋擁有者*&#x200B;來搜尋您要用來篩選的擁有者。</li><li>您可以選取多個擁有者。 可用的擁有者取決於篩選器面板中其他區段中所做的選擇。</li><li>數字表示：<ul><li>**3︎⃣**：目前篩選產生的專案可用的擁有者數目。</li><li>⃣4︎：與特定擁有者相關聯的專案數目。</li></ul></li></ul> |
+| ![所有者](/help/analysis-workspace/build-workspace-project/assets/projects-filters-owners.png){width="300"} | 「**[!UICONTROL 所有者]**」部分可讓您篩選所有者。 <ul><li>您可使用 ![搜尋](/help/assets/icons/Search.svg) *「搜尋所有者」*&#x200B;來搜尋您想要用來篩選的所有者。</li><li>您可以選取多個所有者。適用的所有者取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>**3︎⃣**：目前篩選器產生的專案適用的所有者數量。</li><li>4︎⃣：與特定所有者相關聯的專案數量。</li></ul></li></ul> |
 
 
 ### 類型
 
 | 類型 | 說明 |
 |---|---|
-| ![Type](/help/analysis-workspace/build-workspace-project/assets/projects-filters-type.png){width="300"} | **[!UICONTROL 型別]**&#x200B;區段可讓您篩選專案或資料夾的型別。<ul><li>您可以選取下列一或多個選項：<ul><li> **[!UICONTROL 資料夾]**</li><li>**[!UICONTROL Analysis Workspace 專案]**</li><li>**[!UICONTROL Mobile 計分卡]**</li></ul> <li>您可以選取多個其他篩選器。 可用的其他篩選器取決於篩選器面板中其他區段中所做的選擇。</li><li>數字表示：<ul><li>**5︎⃣**：目前篩選產生的專案可用的其他篩選數目。</li><li>⃣4︎：與特定其他篩選器相關聯的專案數。</li></ul></li></ul> |
+| ![Type](/help/analysis-workspace/build-workspace-project/assets/projects-filters-type.png){width="300"} | **[!UICONTROL 類型]**&#x200B;部分可讓您依照專案或資料夾的類型進行篩選。<ul><li>您可以選取下列其中一個或更多選項:<ul><li> **[!UICONTROL 資料夾]**。</li><li>**[!UICONTROL Analysis Workspace 專案]**</li><li>**[!UICONTROL Mobile 計分卡]**</li></ul> <li>您可以選取多個其他篩選器。適用的其他篩選器取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>**5︎⃣**：目前篩選器產生的專案適用的其他篩選器數量。</li><li>4︎⃣：與特定其他篩選器相關聯的專案數量。</li></ul></li></ul> |
 
 
 ### 其他篩選器
 
 | 其他篩選器 | 說明 |
 |---|---|
-| ![其他篩選器](/help/analysis-workspace/build-workspace-project/assets/projects-filters-others.png){width="300"} | **[!UICONTROL 其他篩選器]**&#x200B;區段可讓您在其他預先定義的篩選器上篩選。<ul><li>您可以選取下列一或多個選項：<ul><li> **[!UICONTROL 全部顯示]**</li><li>**[!UICONTROL 與我共用]**</li><li>**[!UICONTROL 我的]**</li><li>**[!UICONTROL 已核准]**</li><li>**[!UICONTROL 我的最愛]**</li></ul> 您可以選取的專案取決於您的角色和許可權。</li><li>您可以選取多個其他篩選器。 可用的其他篩選器取決於篩選器面板中其他區段中所做的選擇。</li><li>數字表示：<ul><li>**5︎⃣**：目前篩選產生的專案可用的其他篩選數目。</li><li>⃣4︎：與特定其他篩選器相關聯的專案數。</li></ul></li></ul> |
+| ![其他篩選器](/help/analysis-workspace/build-workspace-project/assets/projects-filters-others.png){width="300"} |  **[!UICONTROL 其他篩選器]**&#x200B;部分可讓您根據其他預先定義的篩選器進行篩選。<ul><li>您可以選取下列其中一個或更多選項:<ul><li> **[!UICONTROL 全部顯示]**</li><li>**[!UICONTROL 與我共用]**</li><li>**[!UICONTROL 我的]**</li><li>**[!UICONTROL 已核准]**</li><li>**[!UICONTROL 我的最愛]**</li></ul> 您可以選取的內容取決於您的角色和權限。</li><li>您可以選取多個其他篩選器。適用的其他篩選器取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>**5︎⃣**：目前篩選器產生的專案適用的其他篩選器數量。</li><li>4︎⃣：與特定其他篩選器相關聯的專案數量。</li></ul></li></ul> |
 
 ## 搜尋
 
-您使用[搜尋]區域，➎使用![搜尋](/help/assets/icons/Search.svg)欄位來搜尋專案和資料夾。 開始輸入，[專案清單](#project-list)就會自動篩選您的搜尋輸入。
+您可以使用搜尋區域 ➎ 來透過「![搜尋](/help/assets/icons/Search.svg)」欄位搜尋專案和資料夾。開始輸入後，[專案清單](#project-list)會自動篩選您的搜尋輸入。
 
-「搜尋」區域也會顯示從「篩選器」面板套用的篩選器。
+搜尋區域也會顯示從篩選器面板套用的篩選器。
 
-* 若要移除篩選器，請選取篩選器中的![CrossSize75](/help/assets/icons/CrossSize75.svg)。
-* 若要移除所有篩選器，請選取「全部清除」。
+* 若要移除篩選器，請在篩選器中選取 ![CrossSize75](/help/assets/icons/CrossSize75.svg)。
+* 若要刪除所有篩選器，請選取「全部清除」。
 
-如果空間限製為只能顯示個別的篩選器，您會看到&#x200B;**[!UICONTROL 篩選依據&#x200B;*x*篩選器]**。
+如果空間限製為顯示個別篩選器，您會看到&#x200B;**[!UICONTROL 依&#x200B;*x*篩選器分段]**。
 
 * 若要移除篩選器：
 
-   1. 使用&#x200B;**[!UICONTROL *x *篩選器]**![V形向下](/help/assets/icons/ChevronDown.svg)開啟內容功能表，其中列出篩選器的型別和個別篩選器。
-   1. 使用![CrossSize75](/help/assets/icons/CrossSize75.svg)移除篩選器。
+   1. 使用上方的 **[!UICONTROL *x *篩選器]**![ChevronDown](/help/assets/icons/ChevronDown.svg) 來開啟內容選單，列出篩選器類型和個別篩選器。
+   1. 使用 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 來移除篩選器。
 
 
 <!--
@@ -242,7 +242,7 @@ Within a project, various icons are available in the left panel, and each repres
 
 * [Table of contents](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![toc icon](assets/toc-icon.png)
 
-Components (Dimensions, Metrics, Filters, Date Ranges) in the left panel relate to the active panel data view. The active panel is identified by the blue border that surrounds it, and the active data view is listed at the top of the component panel.
+Components (Dimensions, Metrics, Segments, Date Ranges) in the left panel relate to the active panel data view. The active panel is identified by the blue border that surrounds it, and the active data view is listed at the top of the component panel.
 
 ![The components relating to the active panel data view for Cross-Industry Demo Data data view.](assets/left-rail.png)
 

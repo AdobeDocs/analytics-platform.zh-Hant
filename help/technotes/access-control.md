@@ -6,16 +6,16 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 354bdb440e36dc990f54d887908f9fb9c0a50110
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1549'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
 # 存取控制
 
-三種存取層級或三種角色控制Customer Journey Analytics：產品管理員角色、產品設定檔管理員角色和使用者層級存取權。 本主題將更詳細地說明這些角色。
+Customer Journey Analytics由三個存取層級或三個角色控管：產品管理員角色、產品設定檔管理員角色和使用者層級存取。 本主題將更詳細地說明這些角色。
 
 此外，本文將討論限制存取的更細微方式，例如Workspace管理和列層級以及值層級存取控制。
 
@@ -25,13 +25,13 @@ ht-degree: 14%
 
 ### 產品管理員角色
 
-根據預設，被指派為產品管理員角色的使用者將獲得在Customer Journey Analytics內執行大部分任務的必要許可權。 但是，有些工作需要額外的許可權。
+根據預設，獲指派產品管理員角色的使用者可獲得在Customer Journey Analytics中執行大部分工作的必要許可權。 但是，有些工作需要額外的許可權。
 
 若要將使用者新增為產品管理員：
 
-1. 移至[Admin Console](https://adminconsole.adobe.com/enterprise/)。
+1. 前往[Admin Console](https://adminconsole.adobe.com/enterprise/)。
 
-1. 選取&#x200B;[!UICONTROL **Customer Journey Analytics**] > [!UICONTROL **管理員**]&#x200B;標籤> [!UICONTROL **新增管理員**]。
+1. 選取&#x200B;[!UICONTROL **Customer Journey Analytics**] > [!UICONTROL **管理員**]&#x200B;索引標籤> [!UICONTROL **新增管理員**]。
 
    您新增的使用者獲得[產品管理員預設許可權](#product-admin-default-permissions)。 如有需要，您也可以授與他們其他[許可權](#product-admin-additional-permissions)。
 
@@ -42,14 +42,14 @@ ht-degree: 14%
 產品管理員預設會獲得執行下列工作的必要許可權：
 
 * 建立、更新和刪除資料檢視
-* 更新和刪除專案、篩選器、計算量度、對象、註解或其他使用者建立的篩選器
+* 更新和刪除專案、區段、計算量度、對象、註解或其他使用者建立的區段
 * 與所有使用者共用 Workspace 專案
 * 在[報告活動管理員](/help/reporting-activity-manager/reporting-activity-overview.md)中管理報告活動
 * 從Analysis Workspace [匯出完整的資料表](/help/analysis-workspace/export/export-cloud.md)
 
 #### 產品管理員其他許可權
 
-除了在[Admin Console](https://adminconsole.adobe.com/enterprise/)的&#x200B;**Customer Journey Analytics產品設定檔**&#x200B;中被新增為產品管理員之外，還需要額外的許可權才能在Customer Journey Analytics中完成下列工作：
+除了在[Admin Console](https://adminconsole.adobe.com/enterprise/)的&#x200B;**Customer Journey Analytics產品設定檔**&#x200B;中新增為產品管理員外，還需要其他許可權才能在Customer Journey Analytics中完成下列工作：
 
 * 建立、更新及刪除資料[連線](/help/connections/overview.md)
 
@@ -100,7 +100,7 @@ ht-degree: 14%
 
    * 必須確定使用者具有適當的Customer Journey Analytics許可權：
       * 存取相關資料檢視的許可權。 在[使用者層級存取](#user-level-access)中檢視[!UICONTROL 資料檢視]。
-      * 存取Customer Journey AnalyticsBI擴充功能的許可權。 在[使用者層級存取](#user-level-access)中檢視[!UICONTROL 資料檢視工具]。
+      * 存取Customer Journey Analytics BI擴充功能的許可權。 在[使用者層級存取](#user-level-access)中檢視[!UICONTROL 資料檢視工具]。
 
 ### 產品設定檔管理員角色
 
@@ -124,7 +124,7 @@ ht-degree: 14%
 | [!UICONTROL 報告工具] | [!UICONTROL Analysis Workspace 存取] | 允許使用者存取[Analysis Workspace](/help/analysis-workspace/home.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 引導式分析存取] | 讓使用者存取[引導式分析](/help/guided-analysis/overview.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 建立計算量度] | 讓使用者建立[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 使用者只能標籤、共用、刪除、重新命名、核准、取消核准其建立的計算量度或與其共用的計算量度。 |
-| [!UICONTROL 報告工具] | [!UICONTROL 建立篩選器] | 讓使用者建立[篩選器](/help/components/filters/filters-overview.md)。 使用者只能標籤、共用、刪除、重新命名、核准、取消核准他們建立的篩選器或與他們共用的篩選器。 |
+| [!UICONTROL 報告工具] | [!UICONTROL 建立篩選器] | 讓使用者建立[區段](/help/components/filters/filters-overview.md)。 使用者只能標籤、共用、刪除、重新命名、核准、取消核准他們建立的區段或與他們共用的區段。 |
 | [!UICONTROL 報告工具] | [!UICONTROL Labs 存取] | 讓使用者存取Customer Journey Analytics中的[Labs](/help/labs/labs.md)索引標籤。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 建立註解] | 讓使用者建立[註解](/help/components/annotations/overview.md)。 使用者只能標籤、共用、刪除和重新命名他們建立的註解或與他們共用的註解。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 客群檢視] | 讓使用者檢視[對象](/help/components/audiences/audiences-overview.md)。 |
@@ -135,17 +135,17 @@ ht-degree: 14%
 | [!UICONTROL 報告工具] | [!UICONTROL AI助理：產品知識] | 讓使用者存取[AI小幫手](../ai-assistant.md)以取得產品知識。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 智慧型註解] | 讓使用者存取[智慧型字幕](/help/analysis-workspace/visualizations/intelligent-captions.md)。 |
 | [!UICONTROL 資料檢視工具] | [!UICONTROL 完整資料表匯出] | 讓使用者[將完整的資料表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。 |
-| [!UICONTROL 資料檢視工具] | [!UICONTROL CJA BI延伸模組] | 讓使用者使用[BI延伸模組](../data-views/bi-extension.md)。 |
+| [!UICONTROL 資料檢視工具] | [!UICONTROL CJA BI擴充功能] | 讓使用者使用[BI延伸模組](../data-views/bi-extension.md)。 |
 
 {style="table-layout:auto"}
 
 ## Workspace 專案管理
 
-另一個層級的存取控制可用於 Workspace 報告層級。您可以限制某些使用者對特定元件的存取權。有關如何在Workspace專案層級限制元件（維度、量度、篩選器、日期範圍）以及管理如何與資料檢視相關聯的更多資訊，請參閱[管理專案](/help/analysis-workspace/curate-share/curate.md)。
+另一個層級的存取控制可用於 Workspace 報告層級。您可以限制某些使用者對特定元件的存取權。有關如何在 Workspace 專案層級限制元件 (維度、量度、客戶細分、日期範圍) 以及管理如何與資料檢視相關聯的更多資訊，請參閱[管理專案](/help/analysis-workspace/curate-share/curate.md)。
 
 ## 授與個別量度或維度的存取權
 
-當您使用 Customer Journey Analytics 時，無法像在傳統 Adobe Analytics 中一樣為個別量度或維度授予或拒絕權限。量度和維度可以在[資料檢視](/help/data-views/data-views.md)中修改，因此可能會因Customer Journey Analytics而有所變更。 變更它們也會回溯性地變更報告。
+當您使用 Customer Journey Analytics 時，無法像在傳統 Adobe Analytics 中一樣為個別量度或維度授予或拒絕權限。量度和維度可以在[資料檢視](/help/data-views/data-views.md)中修改，所以可能會在Customer Journey Analytics中有所變更。 變更它們也會回溯性地變更報告。
 
 ## 使用案例
 

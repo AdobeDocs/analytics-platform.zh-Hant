@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 220d48cd35d065b38dac441ce4155fa162a07533
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '14697'
 ht-degree: 2%
@@ -34,9 +34,9 @@ ht-degree: 2%
    * [單一維度排名](#single-dimension-ranked)
    * [多個維度排名](#multiple-dimension-ranked)
    * [計算不同的維度值](#count-distinct-dimension-values)
-   * [使用日期範圍名稱進行篩選](#use-date-range-names-to-filter)
-   * [使用篩選器名稱來篩選](#use-filter-names-to-filter)
-   * [使用維度值來篩選](#use-dimension-values-to-filter)
+   * [使用日期範圍名稱來分段](#use-date-range-names-to-segment)
+   * [使用區段名稱來分段](#use-segment-names-to-segment)
+   * [使用維度值劃分割槽段](#use-dimension-values-to-segment)
    * [排序](#sort)
    * [限制](#limits)
 
@@ -122,19 +122,19 @@ ht-degree: 2%
 
 ### 是否平面化
 
-Power BI Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)。
+Power BI Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/flatten-nested-data)。
 
 | FLATTEN引數 | 範例 | 支援 | 備註 |
 |---|---|:---:|---|
-| 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項！** |
+| 無 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項！** |
 | `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCycle](/help/assets/icons/CloseCircle.svg) | Power BI案頭顯示錯誤： **[!UICONTROL 無法使用提供的認證進行驗證。 請再試一次。]** |
 
 ### 詳細資訊
 
 * [先決條件](/help/data-views/bi-extension.md#prerequisites)
-* [認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
-* [將Power BI連線至查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi)。
+* [認證指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials)
+* [將Power BI連線至查詢服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/power-bi)。
 
 
 
@@ -176,19 +176,19 @@ Power BI Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參
 
 ### 是否平面化
 
-Tableau Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)。
+Tableau Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/flatten-nested-data)。
 
 | FLATTEN引數 | 範例 | 支援 | 備註 |
 |---|---|:---:|---|
-| 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項**。 請注意，`%3FFLATTEN`是`?FLATTEN`的URL編碼版本。 |
+| 無 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項**。 請注意，`%3FFLATTEN`是`?FLATTEN`的URL編碼版本。 |
 
 ### 詳細資訊
 
 * [先決條件](/help/data-views/bi-extension.md#prerequisites)
-* [認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
-* [將Tableau案頭連線至查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau)。
+* [認證指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials)
+* [將Tableau案頭連線至查詢服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/tableau)。
 
 
 >[!TAB 觀察者]
@@ -204,9 +204,9 @@ Tableau Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參�
 
 1. 登入Looker
 
-   1. 從左側邊欄選取&#x200B;**[!UICONTROL 管理員]**。
-   1. 選取&#x200B;**[!UICONTROL 連線]**。
-   1. 選取&#x200B;**[!UICONTROL 新增連線]**。
+   1. 選取左邊欄的「**[!UICONTROL 管理員]**」。
+   1. 選取「**[!UICONTROL 連線]**」。
+   1. 選取「**[!UICONTROL 新增連線]**」。
    1. 在&#x200B;**[!UICONTROL 將資料庫連線到Looker畫面]**。
 
       ![Looker連線到資料庫](assets/looker-connect.png){zoomable="yes"}
@@ -253,18 +253,18 @@ Tableau Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參�
 
 ### 是否平面化
 
-Looker支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)。
+Looker支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/flatten-nested-data)。
 
 | FLATTEN引數 | 範例 | 支援 | 備註 |
 |---|---|:---:|---|
-| 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項**。 請注意，`%3FFLATTEN`是`?FLATTEN`的URL編碼版本。 |
+| 無 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項**。 請注意，`%3FFLATTEN`是`?FLATTEN`的URL編碼版本。 |
 
 ### 詳細資訊
 
 * [先決條件](/help/data-views/bi-extension.md#prerequisites)
-* [認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [認證指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials)
 
 
 >[!TAB Jupyter Notebook]
@@ -360,18 +360,18 @@ Looker支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平
 
 ### 是否平面化
 
-Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)。
+Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/flatten-nested-data)。
 
 | FLATTEN引數 | 範例 | 支援 | 備註 |
 |---|---|:---:|---|
-| 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
+| 無 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
 | `?FLATTEN` | `prod:cja?FLATTEN` | ![CloseCycle](/help/assets/icons/CloseCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項**。 請注意，`%3FFLATTEN`是`?FLATTEN`的URL編碼版本。 |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項**。 請注意，`%3FFLATTEN`是`?FLATTEN`的URL編碼版本。 |
 
 ### 詳細資訊
 
 * [先決條件](/help/data-views/bi-extension.md#prerequisites)
-* [認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [認證指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials)
 
 >[!TAB RStudio]
 
@@ -446,18 +446,18 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
 
 ### 是否平面化
 
-RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data)。
+RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[平面化巢狀資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/flatten-nested-data)。
 
 | FLATTEN引數 | 範例 | 支援 | 備註 |
 |---|---|:---:|---|
-| 無 | `prod:cja` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項**。 |
+| 無 | `prod:cja` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **建議使用的選項**。 |
 | `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![CloseCycle](/help/assets/icons/CloseCircle.svg) | |
 
 ### 詳細資訊
 
 * [先決條件](/help/data-views/bi-extension.md#prerequisites)
-* [認證指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [認證指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials)
 
 >[!ENDTABS]
 
@@ -1095,7 +1095,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 請選取適當的選項並輸入建議值，這樣篩選器就會顯示&#x200B;**[!UICONTROL 介於包含的]** `1000000` **[!UICONTROL 和]** `2000000`之間。
 1. 選取&#x200B;**[!UICONTROL 執行]**。
 1. 選取‣**[!UICONTROL 視覺效果]**&#x200B;以顯示線條視覺效果。
-1. 選取&#x200B;**[!UICONTROL 視覺效果]**&#x200B;中的&#x200B;**[!UICONTROL 編輯]**&#x200B;以更新視覺效果。 在快顯對話方塊中：
+1. 選取&#x200B;**[!UICONTROL 視覺效果]**&#x200B;中的&#x200B;**[!UICONTROL 編輯]**&#x200B;以更新視覺效果。 在快顯對話框中：
    1. 選取&#x200B;**[!UICONTROL 系列]**&#x200B;標籤。
    1. 向下捲動以檢視&#x200B;**[!UICONTROL 購買]**&#x200B;並將&#x200B;**[!UICONTROL 型別]**&#x200B;變更為&#x200B;**[!UICONTROL 行]**。
    1. 選取&#x200B;**[!UICONTROL Y]**&#x200B;索引標籤。
@@ -1352,7 +1352,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 選取&#x200B;**[!UICONTROL 是>]**&#x200B;並輸入`800000`以限制結果。
 1. 選取&#x200B;**[!UICONTROL 執行]**。
 1. 選取‣**[!UICONTROL 視覺效果]**&#x200B;以顯示線條視覺效果。
-1. 選取&#x200B;**[!UICONTROL 視覺效果]**&#x200B;中的&#x200B;**[!UICONTROL 編輯]**&#x200B;以更新視覺效果。 在快顯對話方塊中：
+1. 選取&#x200B;**[!UICONTROL 視覺效果]**&#x200B;中的&#x200B;**[!UICONTROL 編輯]**&#x200B;以更新視覺效果。 在快顯對話框中：
    1. 選取&#x200B;**[!UICONTROL 繪圖]**&#x200B;標籤。
    1. 向下捲動並選取&#x200B;**[!UICONTROL 編輯圖表設定]**。
    1. 修改&#x200B;**[!UICONTROL 圖表設定（覆寫）]**&#x200B;中的JSON （如下方熒幕擷圖所示），然後選取&#x200B;**[!UICONTROL 預覽]**。
@@ -2903,22 +2903,22 @@ Customer Journey Analytics有許多視覺效果。 請參閱[視覺效果](/help
 | :---: | --- | ---| 
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [區域](/help/analysis-workspace/visualizations/area.md) | [區域圖、棧疊區域圖和100%區域圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#area-charts-basic-layered-and-stacked) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [條狀圖](/help/analysis-workspace/visualizations/bar.md) | [叢集柱狀圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
-| ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [棧疊長條圖](/help/analysis-workspace/visualizations/bar.md) | [棧疊直條圖和100%棧疊直條圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [堆疊長條圖](/help/analysis-workspace/visualizations/bar.md) | [棧疊直條圖和100%棧疊直條圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
 | ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [項目符號](/help/analysis-workspace/visualizations/bullet-graph.md) |  |
 | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
 | ![組合](/help/assets/icons/ComboChart.svg) | [組合](/help/analysis-workspace/visualizations/combo-charts.md) | [折線圖和棧疊直條圖，以及折線圖和叢集直條圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#combo-charts) |
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [環形圖](/help/analysis-workspace/visualizations/donut.md) | [環形圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#doughnut-charts) |
 | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | [漏斗](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#funnel-charts)。 |
-| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流程](/help/analysis-workspace/visualizations/c-flow/flow.md) | 分解樹？ |
-| ![檢視表](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [資料表](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#tables)和[矩陣](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#matrix) |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流量](/help/analysis-workspace/visualizations/c-flow/flow.md) | 分解樹？ |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [資料表](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#tables)和[矩陣](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#matrix) |
 | ![GraphHistogram](/help/assets/icons/Histogram.svg) | [直方圖](/help/analysis-workspace/visualizations/histogram.md) |  |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | [叢集長條圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
-| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [棧疊的水準橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | [棧疊長條圖和100%棧疊長條圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
-| ![分支3](/help/assets/icons/Branch3.svg) | [歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | [分解樹狀結構](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#decomposition-tree) |
-| ![關鍵量度](/help/assets/icons/KeyMetrics.svg) | [關鍵量度摘要](/help/analysis-workspace/visualizations/key-metric.md) |  |
-| ![趨勢圖](/help/assets/icons/GraphTrend.svg) | [Line](/help/analysis-workspace/visualizations/line.md) | [折線圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#line-charts) |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [堆疊橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | [棧疊長條圖和100%棧疊長條圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
+| ![Branch3](/help/assets/icons/Branch3.svg) | [歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | [分解樹狀結構](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#decomposition-tree) |
+| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [關鍵量度摘要](/help/analysis-workspace/visualizations/key-metric.md) |  |
+| ![趨勢圖](/help/assets/icons/GraphTrend.svg) | [折線圖](/help/analysis-workspace/visualizations/line.md) | [折線圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#line-charts) |
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散佈圖](/help/analysis-workspace/visualizations/scatterplot.md) | [散佈圖](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#scatter) |
-| ![頁面規則](/help/assets/icons/PageRule.svg) | [區段標題](/help/analysis-workspace/visualizations/section-header.md) | [文字方塊](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [區段標題](/help/analysis-workspace/visualizations/section-header.md) | [文字方塊](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md) | [卡片](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
 | ![123](/help/assets/icons/123.svg)</p> | [摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md) | [卡片](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
 | ![Text](/help/assets/icons/Text.svg) | [文字](/help/analysis-workspace/visualizations/text.md) | [文字方塊](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
@@ -2986,22 +2986,22 @@ limit 1001
 | :---: | --- | ---| 
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [區域](/help/analysis-workspace/visualizations/area.md) | [區域圖](https://help.tableau.com/current/pro/desktop/en-us/qs_area_charts.htm) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [條狀圖](/help/analysis-workspace/visualizations/bar.md) | [長條圖](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
-| ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [棧疊長條圖](/help/analysis-workspace/visualizations/bar.md) |  |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [堆疊長條圖](/help/analysis-workspace/visualizations/bar.md) |  |
 | ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [項目符號](/help/analysis-workspace/visualizations/bullet-graph.md) | [項目符號圖表](https://help.tableau.com/current/pro/desktop/en-us/qs_bullet_graphs.htm) |
 | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
 | ![組合](/help/assets/icons/ComboChart.svg) | [組合](/help/analysis-workspace/visualizations/combo-charts.md) | [組合圖表](https://help.tableau.com/current/pro/desktop/en-us/qs_combo_charts.htm) |
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [環形圖](/help/analysis-workspace/visualizations/donut.md) | |
 | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | |
-| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流程](/help/analysis-workspace/visualizations/c-flow/flow.md) |  |
-| ![檢視表](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [文字資料表](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_text.htm) |
-| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [Histogram](/help/analysis-workspace/visualizations/histogram.md) | [直方圖](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_histogram.htm) |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流量](/help/analysis-workspace/visualizations/c-flow/flow.md) |  |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [文字資料表](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_text.htm) |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [直方圖](/help/analysis-workspace/visualizations/histogram.md) | [直方圖](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_histogram.htm) |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | [長條圖](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
-| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [棧疊的水準橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | [長條圖](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
-| ![分支3](/help/assets/icons/Branch3.svg) | [歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | |
-| ![關鍵量度](/help/assets/icons/KeyMetrics.svg) | [關鍵量度摘要](/help/analysis-workspace/visualizations/key-metric.md) |  |
-| ![趨勢圖](/help/assets/icons/GraphTrend.svg) | [Line](/help/analysis-workspace/visualizations/line.md) | [折線圖](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [堆疊橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | [長條圖](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
+| ![Branch3](/help/assets/icons/Branch3.svg) | [歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | |
+| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [關鍵量度摘要](/help/analysis-workspace/visualizations/key-metric.md) |  |
+| ![趨勢圖](/help/assets/icons/GraphTrend.svg) | [折線圖](/help/analysis-workspace/visualizations/line.md) | [折線圖](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) |
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散佈圖](/help/analysis-workspace/visualizations/scatterplot.md) | [散佈圖](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_scatter.htm) |
-| ![頁面規則](/help/assets/icons/PageRule.svg) | [區段標題](/help/analysis-workspace/visualizations/section-header.md) |  |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [區段標題](/help/analysis-workspace/visualizations/section-header.md) |  |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md) | |
 | ![123](/help/assets/icons/123.svg)</p> | [摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md) | |
 | ![Text](/help/assets/icons/Text.svg) | [文字](/help/analysis-workspace/visualizations/text.md) | |
@@ -3050,27 +3050,27 @@ GROUP BY 1,
 | :---: | --- | ---| 
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [區域](/help/analysis-workspace/visualizations/area.md) | [區域圖](https://cloud.google.com/looker/docs/area-options) |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [條狀圖](/help/analysis-workspace/visualizations/bar.md) | [長條圖](https://cloud.google.com/looker/docs/bar-options) |
-| ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [棧疊長條圖](/help/analysis-workspace/visualizations/bar.md) | [長條圖](https://cloud.google.com/looker/docs/bar-options) |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [堆疊長條圖](/help/analysis-workspace/visualizations/bar.md) | [長條圖](https://cloud.google.com/looker/docs/bar-options) |
 | ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [項目符號](/help/analysis-workspace/visualizations/bullet-graph.md) | [項目符號圖表](https://cloud.google.com/looker/docs/bullet-chart) |
 | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
 | ![組合](/help/assets/icons/ComboChart.svg) | [組合](/help/analysis-workspace/visualizations/combo-charts.md) | [自訂視覺效果](https://cloud.google.com/looker/docs/creating-visualizations#customizing_visualizations_with_chart_settings) |
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [環形圖](/help/analysis-workspace/visualizations/donut.md) | [環形圖](https://cloud.google.com/looker/docs/donut-multiples-options) |
 | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | [漏斗](https://cloud.google.com/looker/docs/funnel-options) |
-| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流程](/help/analysis-workspace/visualizations/c-flow/flow.md) | [Sankey](https://cloud.google.com/looker/docs/sankey) |
-| ![檢視表](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [表格](https://cloud.google.com/looker/docs/table-options) |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流量](/help/analysis-workspace/visualizations/c-flow/flow.md) | [Sankey](https://cloud.google.com/looker/docs/sankey) |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [表格](https://cloud.google.com/looker/docs/table-options) |
 | ![GraphHistogram](/help/assets/icons/Histogram.svg) | [直方圖](/help/analysis-workspace/visualizations/histogram.md) | |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | [長條圖](https://cloud.google.com/looker/docs/bar-options) |
-| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [棧疊的水準橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | [長條圖](https://cloud.google.com/looker/docs/bar-options) |
-| ![分支3](/help/assets/icons/Branch3.svg) | [歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) |  |
-| ![關鍵量度](/help/assets/icons/KeyMetrics.svg) | [關鍵量度摘要](/help/analysis-workspace/visualizations/key-metric.md) |  |
-| ![趨勢圖](/help/assets/icons/GraphTrend.svg) | [Line](/help/analysis-workspace/visualizations/line.md) | [折線圖](https://cloud.google.com/looker/docs/line-options) |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [堆疊橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md) | [長條圖](https://cloud.google.com/looker/docs/bar-options) |
+| ![Branch3](/help/assets/icons/Branch3.svg) | [歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) |  |
+| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [關鍵量度摘要](/help/analysis-workspace/visualizations/key-metric.md) |  |
+| ![趨勢圖](/help/assets/icons/GraphTrend.svg) | [折線圖](/help/analysis-workspace/visualizations/line.md) | [折線圖](https://cloud.google.com/looker/docs/line-options) |
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散佈圖](/help/analysis-workspace/visualizations/scatterplot.md) | [散點圖](https://cloud.google.com/looker/docs/scatter-options) |
-| ![頁面規則](/help/assets/icons/PageRule.svg) | [區段標題](/help/analysis-workspace/visualizations/section-header.md) |  |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [區段標題](/help/analysis-workspace/visualizations/section-header.md) |  |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md) | [單一值](https://cloud.google.com/looker/docs/single-value-options) |
 | ![123](/help/assets/icons/123.svg)</p> | [摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md) | [單一值](https://cloud.google.com/looker/docs/single-value-options) |
 | ![Text](/help/assets/icons/Text.svg) | [文字](/help/analysis-workspace/visualizations/text.md) | [單一值](https://cloud.google.com/looker/docs/single-value-options) |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md) | [樹狀圖](https://cloud.google.com/looker/docs/treemap) |
-| ![Type](/help/assets/icons/TwoDots.svg) | [文氏圖表](/help/analysis-workspace/visualizations/venn.md) | [文氏圖表](https://cloud.google.com/looker/docs/venn) |
+| ![類型](/help/assets/icons/TwoDots.svg) | [文氏圖表](/help/analysis-workspace/visualizations/venn.md) | [文氏圖表](https://cloud.google.com/looker/docs/venn) |
 
 >[!TAB Jupyter Notebook]
 
@@ -3116,7 +3116,7 @@ GROUP BY 1,
 >[!TAB 觀察者]
 
 * Looker具有每個節點的最大連線數目設定，此設定必須介於5到100之間。  您無法將此值設為1。  此設定表示Looker連線一律使用至少5個可用的查詢服務工作階段。
-* Looker可讓您以Customer Journey Analytics資料檢視為基礎，以檢視建立專案。 Looker接著會使用LookerML，根據資料檢視中可用的維度和量度建立模型。  此專案檢視不會自動更新以符合來源。  如果您變更或新增了CJA資料檢視維度、量度、計算量度或篩選器，這些變更不會自動顯示在Looker中。  您必須手動更新專案檢視或建立新專案。
+* Looker可讓您以Customer Journey Analytics資料檢視為基礎，以檢視建立專案。 Looker接著會使用LookerML，根據資料檢視中可用的維度和量度建立模型。  此專案檢視不會自動更新以符合來源。  如果您變更或新增CJA資料檢視維度、量度、計算量度或篩選器，這些變更不會自動顯示在Looker中。  您必須手動更新專案檢視或建立新專案。
 * 查閱者在日期或日期時間欄位（例如&#x200B;**[!UICONTROL Daterange Date]**&#x200B;或&#x200B;**[!UICONTROL Daterangeday Date]**）的使用者體驗令人困惑。
 * 查閱者的日期範圍是排除而非包含。  **[!UICONTROL until （之前）]**&#x200B;為灰色，因此您可能會遺漏該外觀。  結束日期前，您必須選取要報告日期的前一天。
 * Looker不會自動將您的量度視為量度。  當您選取量度時，依預設，Looker會嘗試將量度視為查詢中的維度。  若要將量度視為量度，您需要建立如上所述的自訂欄位。 作為捷徑，您可以選取&#x200B;**[!UICONTROL ⋮]**、選取&#x200B;**[!UICONTROL 彙總]**，然後選取&#x200B;**[!UICONTROL 總計]**。

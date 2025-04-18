@@ -5,10 +5,10 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
@@ -42,14 +42,14 @@ Customer Journey Analytics 具有重要的強大功能，可將不同來源的�
 
 ## 彙整人員 ID
 
-Customer Journey Analytics需要共同識別碼才能產生[合併的資料集](/help/connections/combined-dataset.md)。
+Customer Journey Analytics需要通用識別碼才能產生[合併的資料集](/help/connections/combined-dataset.md)。
 
 * 如果您兩個資料集的每個事件已有共同識別碼，您可以略過此步驟，繼續建立連線。
 * 如果任一資料集只有部分事件有共同識別碼，您可以使用[彙整](/help/stitching/overview.md)來彙整資料，以取得為這兩個資料集啟用跨管道分析的步驟。
 
 ## 在 Customer Journey Analytics 中建立連線
 
-[以Customer Journey Analytics建立連線](/help/connections/create-connection.md)。
+[在Customer Journey Analytics中建立連線](/help/connections/create-connection.md)。
 
 * 如果您選擇使用跨管道分析，系統會產生新的彙整資料集供您使用。新建立的彙整 ID 欄位可視為人員 ID。
 * 或者，您也可以在連線中選取原本的網路和客服中心資料集，以便使用。
@@ -69,11 +69,11 @@ Customer Journey Analytics需要共同識別碼才能產生[合併的資料集](
 
 此視覺效果可協助您了解跨管道分析功能彙整資料的成效。
 
-1. 建立兩個篩選器。這兩個篩選器所使用的變數，即為上述反映每個事件資料來源的變數。如需詳細資訊，請參閱[建立篩選器](/help/components/filters/create-filters.md)。
+1. 建立兩個區段。 這兩個區段所使用的變數，即為上述反映每個事件資料來源的變數。 如需詳細資訊，請參閱[建立區段](/help/components/filters/create-filters.md)。
    * 在一個人員容器中，讓資料集 ID 等同於網路資料
    * 在另一個人員容器中，讓資料集 ID 等同於客服中心資料
 2. 在 Analysis Workspace 中，將[「文氏圖」](/help/analysis-workspace/visualizations/venn.md)視覺效果拖放至工作區域的畫布。
-3. 將兩個新建立的篩選器拖放至&#x200B;**[!UICONTROL 「新增篩選器」]**&#x200B;區域，接著將「人員」量度拖放至&#x200B;**[!UICONTROL 「新增量度」]**&#x200B;區域。
+3. 將兩個新建立的區段拖曳至「**[!UICONTROL 新增篩選器]**」區域，並將「人員」量度拖曳至「**[!UICONTROL 新增量度]**」區域。
 
 所產生的「文氏圖」視覺效果會顯示資料集 (包含網路和客服中心資料) 的人員數量。重疊範圍越大，表示成功彙整越多人員。未重疊的區域代表人員只隸屬於一個資料集。
 
@@ -93,8 +93,8 @@ Customer Journey Analytics需要共同識別碼才能產生[合併的資料集](
 您可以依照原因或類別分割來電以進一步了解此表格。
 
 1. 按一下元件清單中「來電原因」維度下的右＞形箭號。此動作會顯示各個維度值。
-2. 將所需的維度值拖到「來電」量度下，該量度會依每個相應的來電原因篩選該量度。
-3. 對您想要深入了解的每個來電原因重複此動作。使用「所有工作階段」篩選來檢視彙總總數。
+2. 將所需的維度值拖曳至「來電」量度下，該量度會依每個相應的來電原因來劃分該量度。
+3. 對您想要深入了解的每個來電原因重複此動作。使用「所有工作階段」區段來檢視彙總總數。
 
 <!-- screenshot -->
 
@@ -109,12 +109,12 @@ Customer Journey Analytics需要共同識別碼才能產生[合併的資料集](
 5. 流量視覺效果會自動填入上一個和下一個來電原因。用網站頁面維度替換之前的來電原因。
 6. 按一下流量視覺效果右上角的齒輪圖示，並將流容器變更為&#x200B;**[!UICONTROL 工作階段]**。
 
-### 長條圖
+### 直方圖
 
-有多少客戶打過一次電話、打過兩次電話或打過 6 次以上電話？其中一些人從不造訪網站。使用長條圖視覺效果來確定落入每個值區的人數。對於從未造訪過網站的人，請參閱我們如何鼓勵他們自助服務。
+有多少客戶打過一次電話、打過兩次電話或打過 6 次以上電話？其中一些人從不造訪網站。使用直方圖視覺效果來確定落入每個值區的人數。對於從未造訪過網站的人，請參閱我們如何鼓勵他們自助服務。
 
-1. 按一下左側的&#x200B;**[!UICONTROL 「視覺效果」]**&#x200B;索引標籤並將長條圖視覺效果拖曳到工作區畫布上。
-2. 按一下左側的&#x200B;**[!UICONTROL 「元件」]**&#x200B;索引標籤並將呼叫量度拖曳到長條圖視覺效果中。
+1. 按一下左側的&#x200B;**[!UICONTROL 「視覺效果」]**&#x200B;索引標籤並將直方圖視覺效果拖曳到工作區畫布上。
+2. 按一下左側的&#x200B;**[!UICONTROL 「元件」]**&#x200B;索引標籤並將呼叫量度拖曳到直方圖視覺效果中。
 3. 按一下視覺效果中心的&#x200B;**[!UICONTROL 「顯示進階設定」]**&#x200B;並自訂所需的值區。
 4. 按一下&#x200B;**[!UICONTROL 「建置」]**。
 
@@ -139,10 +139,10 @@ step 2:
 
 Slide 4
 
-Create a bunch of filters - facets to their business. Filters were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really filters)
+Create a bunch of segments - facets to their business. Segments were used because they didn't have all of these in the same dimension, so they could create everything in this report as a single dimension (really segments)
 
 wanted to understand when someone interacts with a facet, whats the highest percentage of people that abandon that channel to call them. not from volume perspective, but percentage perspective.
 
-use sequential filters, but you lose the ability to use attribution IQ
+use sequential segments, but you lose the ability to use attribution IQ
 
 ## What to do when you've found insight -->

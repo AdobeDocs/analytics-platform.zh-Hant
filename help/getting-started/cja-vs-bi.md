@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 95%
+source-wordcount: '1648'
+ht-degree: 92%
 
 ---
 
@@ -56,7 +56,7 @@ Customer Journey Analytics 使用強大的專有架構，可將分析散佈到�
 
 此報表引擎是 Customer Journey Analytics 的基礎，讓您能夠以漸進的方式和該報表引擎中的所有客戶歷程資料進行互動並採取行動。Customer Journey Analytics 附帶了一組廣泛的元件，讓您能夠透過拖放的方式直觀地完成此操作。BI 視覺效果工具讓您能夠在 SQL 準備的資料 (由 IT 定義) 的邊界內進行探索。Customer Journey Analytics 讓您能夠根據需要盡情進行劃分和分解，而無需返回 IT 部門建置另一個 SQL 視圖。
 
-「漸進式」在此是重要概念：和 BI 工具中大多數視覺效果相反，Customer Journey Analytics 中的直觀式拖放 UI 讓您能夠根據特定需求將資料持續細分：您可以使用相關的量度、維度、篩選器 (區段)、計算、時間線、註解和其他分析值，以互動方式直觀地建置查詢。
+「漸進式」是這裡的關鍵概念：與BI工具中的大部分視覺效果不同，Customer Journey Analytics中的視覺化拖放UI可讓您根據特定需求持續劃分資料：您可以使用相關量度、維度、區段、計算、時間線、註解及其他分析值，以互動方式建立視覺化查詢。
 
 這些視覺效果元件中內建了智慧功能，例如：
 

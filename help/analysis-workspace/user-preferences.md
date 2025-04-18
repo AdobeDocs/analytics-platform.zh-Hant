@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '3873'
 ht-degree: 75%
@@ -36,7 +36,7 @@ ht-degree: 75%
 | --- | --- |
 | **[!UICONTROL 登陸頁面]** | 選擇存取 Customer Journey Analytics 時顯示為預設頁面的頁面： <ul><li>專案清單 (預設)</li><li>空白專案</li><li>空白趨勢引導式分析</li><li>特定專案，從清單中選取</li></ul> |
 | **[!UICONTROL 秘訣]** | 在 Analysis Workspace 右下方區域的藍色框中顯示提示。 <p>此選項已預設啟用。</p> |
-| **[!UICONTROL 左側面板群組中顯示的元件]** | 在左側面板的「元件」選單中，選取每個元件的顯示數量。 <p>如果為元件群組選擇 0，則無法再從左側面板存取此元件群組。</p><p>預設情況下，以下每個元件群組皆顯示 5 個元件：</p> <ul><li>維度</li><li>量度</li><li>篩選器</li><li>日期範圍</li></ul> <p>如需有關 Analysis Workspace 中元件的詳細資訊，請參閱[元件概觀](/help/components/overview.md)。</p> |
+| **[!UICONTROL 左側面板群組中顯示的元件]** | 在左側面板的「元件」選單中，選取每個元件的顯示數量。 <p>如果為元件群組選擇 0，則無法再從左側面板存取此元件群組。</p><p>預設情況下，以下每個元件群組皆顯示 5 個元件：</p> <ul><li>維度</li><li>量度</li><li>區段</li><li>日期範圍</li></ul> <p>如需有關 Analysis Workspace 中元件的詳細資訊，請參閱[元件概觀](/help/components/overview.md)。</p> |
 
 ### IMS 組織偏好設定 {#ims-organization-preferences}
 

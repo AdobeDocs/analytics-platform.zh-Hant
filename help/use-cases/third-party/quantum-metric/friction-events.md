@@ -7,7 +7,7 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
+source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -66,4 +66,4 @@ return true;
 
 * 趨勢摩擦事件資料隨時間變化
 * 在流失或漏斗視覺效果中，將Customer Journey Analytics事件新增為部分步驟，並將Quantum量度摩擦事件新增為其他步驟。 此報表可讓您檢視訪客最常遇到問題的位置。
-* 為體驗摩擦事件的訪客建立並套用篩選器，以進行更深入的分析
+* 為體驗摩擦事件的訪客建立並套用區段，以進行更深入的分析
