@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 9563b13da52963eaf7b17050fb9a7cb3a47ef1ed
+source-git-commit: 25a2c549c27918f80202bde4cd30e305f4a295f3
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,43 @@ ht-degree: 1%
 
 連結Quantum量度工作階段重播與CJA資料，可讓客戶更瞭解「內容」背後的「原因」。  Workspace可用來探索摩擦的工作階段，然後您可以按一下超連結的工作階段ID，以探索「量度」中的工作階段重播。  此資料可讓您檢視工作階段中的行為，並更瞭解促使消費者發生摩擦的因素。  透過與CJA繫結的工作階段重播，您可以擷取有關您體驗中客戶行為的關鍵內容。
 
-## 必要條件:
+## 先決條件
 
-此使用案例需要您將量子量度的工作階段ID與其餘實施一起收集。 請參閱[在Customer Journey Analytics](collect-session-id.md)中收集量度工作階段ID，瞭解如何修改您的實作。
+這些步驟假設您使用Adobe Experience Platform資料彙集中的標籤。 如果您的組織未使用標籤，您可以將這些資料收集方法調整為手動Web SDK實施。
 
-## 步驟1：設定Workspace以容納工作階段ID維度
+如需詳細資訊，請參閱[Quantum量度標籤延伸功能](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)檔案。
+
+## 步驟1：使用量度標籤擴充功能擷取量度工作階段ID
+
+請依照下列步驟，將Quantum量度工作階段ID附加至您傳送至Adobe Experience Platform的資料。
+
+1. 在標籤UI中使用Quantum Metric擴充功能傳送資料給Quantum Metric。
+1. 建立四個資料元素：
+   1. 從名為`QuantumMetricSessionID`的Quantum量度的Cookie擷取Quantum量度工作階段ID的機制
+   1. 從`localStorage`中擷取Quantum量度工作階段ID的專案。 有時此資料元素的載入速度，會比在其他資料元素中設定的Cookie更快。
+   1. 使用資料元素助理或自訂JavaScript從`localStorage`資料元素擷取`s`節點。
+   1. 使用邏輯來先尋找Cookie資料元素，然後將其傳回XDM物件路徑（如果找到的話）的路徑。 如果未定義，請嘗試在擷取的`localStorage`物件資料元素中檢視。
+1. 將最終的Quantum量度工作階段ID資料元素傳送至在每個事件中傳送的XDM物件。
+
+>[!NOTE]
+>有時Web SDK的執行速度會比Quantum Metric程式碼更快。 在這些情況下，工作階段ID會在後續點選時傳送。 如果訪客跳出，則系統不會收集這些例項的工作階段ID。
+
+## 步驟2：確認包含的資料集欄位
+
+確認連線中的資料集現在在所需資料集中具有Quantum量度工作階段ID。
+
+## 步驟3：將Quantum量度工作階段ID新增為可用維度
+
+編輯您現有的資料檢視，將工作階段ID新增為Customer Journey Analytics中的可用維度。
+
+1. 登入[experience.adobe.com](https://experience.adobe.com)。
+1. 導覽至Customer Journey Analytics，然後在頂端功能表中選取&#x200B;**[!UICONTROL 資料檢視]**。
+1. 選取所需的現有資料檢視。
+1. 在左側找到「量度工作階段ID」欄位清單，並將其拖曳至中央的維度區域。
+1. 在右窗格中，將[持續性](/help/data-views/component-settings/persistence.md)設定設為&#39;Session&#39;。
+1. 按一下「**[!UICONTROL 儲存]**」。
+
+## 步驟4：設定Workspace以容納工作階段ID維度
 
 在Workspace中建立自由表格，並進行設定，以便工作階段ID值直接連結至Quantum Metric。
 
@@ -43,9 +75,8 @@ ht-degree: 1%
 
 每個工作階段ID現在都是可點按的連結。 如需新增超連結至Analysis Workspace維度專案的詳細資訊，請參閱[在自由格式表格中建立超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。
 
-## 步驟2從Customer Journey Analytics檢視工作階段
+## 步驟5：從Customer Journey Analytics檢視工作階段
 
-找到想要探索工作階段重播的耐用區段後，您可以將其套用至包含工作階段ID連結的面板，並依區段篩選。 此表格會傳回該區段中的所有工作階段，您可以按一下其中的任何工作階段，進一步探索Quantum量度。
+在您找到想要探索工作階段重播的有趣區段後，可以將其套用至包含工作階段ID連結的面板，並依區段篩選。 此表格會傳回該區段中的所有工作階段，您可以按一下任一工作階段，進一步探索Quantum量度。
 
-若要進一步瞭解Quantum量度工作階段重播，請前往[https://www.quantummetric.com/platform/session-replay](https://www.quantummetric.com/platform/session-replay)。 如需其他資源，請連絡您的Quantum Metric客戶支援代表，或透過Quantum Metric [客戶請求入口網站](https://community.quantummetric.com/s/public-support-page)提交請求。
-
+如需詳細資訊，請參閱[Quantum量度上的工作階段重播企業指南](https://www.quantummetric.com/resources/ebook/the-enterprise-guide-to-session-replay)。 您也可以連絡您的Quantum Metric客戶支援代表，或透過[Quantum Metric客戶請求入口網站](https://community.quantummetric.com/s/public-support-page)提交請求。

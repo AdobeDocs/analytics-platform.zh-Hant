@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 13f2bdb9753c0f4252262c595061ed9b54c38a3c
+source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 85%
+source-wordcount: '1214'
+ht-degree: 86%
 
 ---
 
@@ -432,7 +432,6 @@ ht-degree: 85%
          + [報告 Google Analytics 資料](/help/use-cases/third-party/ga/report.md)
       + 量子量度 {#qm}
          + [概觀](/help/use-cases/third-party/quantum-metric/qm-overview.md)
-         + [收集工作階段ID](/help/use-cases/third-party/quantum-metric/collect-session-id.md)
          + [時間工作階段重播](/help/use-cases/third-party/quantum-metric/tie-session-replays.md)
          + [使用熱度圖](/help/use-cases/third-party/quantum-metric/heatmap.md)
          + [新增摩擦事件](/help/use-cases/third-party/quantum-metric/friction-events.md)

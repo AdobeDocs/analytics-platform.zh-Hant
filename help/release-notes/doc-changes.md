@@ -4,7 +4,7 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 5311106f486a30dbc7f06b3ef60dc7e666d2fe03
+source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 98%
@@ -23,7 +23,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 檢視和管理使用情況 | 已重寫如何[檢視](/help/connections/manage-connections.md#usage)和[管理](/help/technotes/estimate-usage.md) Customer Journey Analytics使用的檔案 |
 | 內容分析 | Adobe Content Analytics的[檔案](/help/content-analytics/content-analytics.md)。 Content Analytics可讓您快速輕鬆地調查大量內容資料，以找出趨勢、找出異常、識別內容疲勞，以及從內容曝光中獲得深入分析。 |
 | **2025 年 3 月** | |
-| Quantum Metric 使用案例 | 新增了從 [Quantum Metric](/help/use-cases/third-party/quantum-metric/collect-session-id.md) 收集資料的使用案例。 |
+| Quantum Metric 使用案例 | 新增了從 [Quantum Metric](/help/use-cases/third-party/quantum-metric/qm-overview.md) 收集資料的使用案例。 |
 | **2025 年 2 月** |  |
 | 媒體集合：全新媒體報告 XDM 的 Adobe 來源連接器更新內容 | Analytics 來源連接器會自動[將 Adobe Analytics 中的串流媒體資料對應至](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) Web SDK 所使用的相同欄位。過去，資料會對應到舊位置和新位置，但將來只會使用新位置。 |
 | BI 擴充功能：擴充支援 | Customer Journey Analytics BI 擴充功能現在支援 [Looker、Jupyter Notebook 和 R Studio](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en)。 |

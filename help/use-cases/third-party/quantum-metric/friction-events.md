@@ -1,15 +1,15 @@
 ---
 title: 將Quantum量度摩擦事件新增至Customer Journey Analytics
-description: 使用Quantum Metric中收集的摩擦事件，在Customer Journey Analytics中增加深入分析。
+description: 將收集到的摩擦事件加入Quantum量度的Customer Journey Analytics行為資料，以深化對CJA的見解。
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,20 @@ Quantum Metric會收集頁面載入緩慢、頁面載入錯誤、範圍點選等
 
 ## 步驟1：使用量度標籤擴充功能擷取摩擦事件
 
-Quantum Metric CSM團隊可以協助您決定要新增的正確結構描述元素，並指示您修改實作，以收集所需的資料以用於Customer Journey Analytics。 如需詳細資訊，請聯絡您的Quantum Metric客戶成功案例經理。
+如需如何設定標籤以包含Quantum量度資料的指示，請參閱Adobe Experience Platform目的地指南中的[Quantum量度延伸模組](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)。 使用此擴充功能可將更多列傳入現有資料集。
 
-最終，您將會想要開始追蹤欄位中的摩擦事件名稱。
+使用Adobe Experience Platform資料彙集中的標籤來手動設定摩擦事件的名稱，以便將其納入XDM物件中並加以分析。 其中一個方法是使用規則的自訂程式碼：
 
-## 步驟2：確認包含的資料集欄位
+```js
+_satellite.setVar('qm_error_name','error rage click');
+return true;
+```
 
-確認連線中的資料集現在在所需資料集中具有Quantum量度工作階段ID。
+然後，將動態設定的資料元素新增至XDM物件：
 
-## 步驟3：將一或多個維度和量度新增至Customer Journey Analytics中的資料檢視
+![Quantum量度錯誤名稱熒幕擷圖](assets/error-name.png)
+
+## 步驟2：將一或多個維度和量度新增至Customer Journey Analytics中的資料檢視
 
 編輯您現有的資料檢視，將工作階段ID新增為Customer Journey Analytics中的可用維度。
 
@@ -45,8 +50,9 @@ Quantum Metric CSM團隊可以協助您決定要新增的正確結構描述元�
 1. 在左側找到「量子量度」摩擦事件欄位清單，並將其拖曳至量度中央區域。
 1. 在右窗格中，將[包含/排除值](/help/data-views/component-settings/include-exclude-values.md)設定設定為您要追蹤的所需摩擦事件。 您可以將多個摩擦事件新增至相同量度以組合這些事件。 您也可以將另一個摩擦事件欄位拖曳到量度區域，以作為單獨的量度追蹤其他摩擦事件。
 1. 建立所有需要的維度和量度後，按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 如需錯誤事件的完整清單，請參閱您的Quantum量度檔案。 如果您有其他問題，請連絡您的Quantum Metric客戶支援代表，或透過[Quantum Metric客戶請求入口網站](https://community.quantummetric.com/s/public-support-page)提交請求。
 
-## 步驟4：將維度和量度與Analysis Workspace中的其餘資料搭配使用
+## 步驟3：將維度和量度與Analysis Workspace中的其餘資料搭配使用
 
 有了量度摩擦事件資料會與您的其他訪客資料一起收集，您就可以完全依照在Customer Journey Analytics中使用任何其他維度或量度的方式使用這些資料。
 
