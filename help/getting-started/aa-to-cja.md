@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: e93f4875bbb5940d9182aadcefcc7166644434c4
-workflow-type: ht
-source-wordcount: '1083'
-ht-degree: 100%
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+workflow-type: tm+mt
+source-wordcount: '1077'
+ht-degree: 96%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 100%
 
 準備您的 Adobe Analytics 資料以利無縫移動至 Customer Journey Analytics，對資料完整性和報告一致性至關重要。
 
-### 收集身分
+### 收集身分識別
 
 了解客戶歷程的最關鍵部分，或許是了解在每一步驟中的目標客戶。對於 Customer Journey Analytics，擁有跨所有管道和對應資料的識別碼，允許在 Customer Journey Analytics 內將多個來源拼接在一起。
-身分範例可能是客戶 ID、帳戶 ID 或電子郵件 ID。無論是什麼身分 (可能有多個)，請務必為每個 ID 考慮以下內容：
+身分識別範例可能是客戶 ID、帳戶 ID 或電子郵件 ID。無論是什麼身分識別 (可能有多個)，請務必為每個 ID 考慮以下內容：
 
 * ID 已存在或可以新增到要引入 Customer Journey Analytics 的所有資料來源
 * 在每個資料列上填入 ID
 * ID 不包含 PII。對任何可能的敏感內容套用雜湊處理。
 * ID 在所有來源上使用相同格式 (相同長度、相同雜湊方法等)
 
-在像 Adobe Analytics 這樣的資料集，身分不一定存在於每個資料列中，但是次要身分一定存在。在這種情況下，在僅使用 ECID 來識別客戶以及在收集身分 (例如當客戶驗證時) 時，可使用[跨管道分析 (也稱為「拼接」)](/help/stitching/overview.md) 來彌合資料列之間的差距。
+在像 Adobe Analytics 這樣的資料集，身分識別不一定存在於每個資料列中，但是次要身分識別一定存在。在這種情況下，在僅使用 ECID 來身分識別客戶以及在收集身分識別 (例如當客戶驗證時) 時，可使用[跨管道分析 (也稱為「拼接」)](/help/stitching/overview.md) 來彌合資料列之間的差距。
 
 ### 對應變數
 
-將 Adobe Analytics 資料轉換為 Customer Journey Analytics 資料的最直接方法，是使用 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將[全域報告套裝](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hant)收錄到 Experience Platform。此連接器會將您的 Adobe Analytics 變數直接對應到 Experience Platform 中的 XDM 綱要和資料集，這些綱要和資料集可輕鬆連接到 Customer Journey Analytics。
+將 Adobe Analytics 資料轉換為 Customer Journey Analytics 資料的最直接方法，是使用 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將[全域報告套裝](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hant)收錄到 Experience Platform。此連接器會將您的 Adobe Analytics 變數直接對應到 Experience Platform 中的 XDM 結構描述和資料集，這些結構描述和資料集可輕鬆連接到 Customer Journey Analytics。
 
 完整的全域報告套裝並不總能用於實施。如果您計劃將多個報表套件引入 Customer Journey Analytics，則有 2 個選項：
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 如果您由於[!UICONTROL 已超出不重複限制]或[!UICONTROL 低流量]問題，而避免使用全域報告套裝，請了解 Customer Journey Analytics 沒有[維度上的基數限制](/help/components/dimensions/high-cardinality.md)。它允許顯示和計數任何唯一值。
 
-以下是[結合報告套裝與不同的綱要](/help/use-cases/aa-data/combine-report-suites.md)的使用案例。
+以下是[結合報告套裝與不同的結構描述](/help/use-cases/aa-data/combine-report-suites.md)的使用案例。
 
 ### (重新) 設定行銷管道
 
@@ -66,11 +66,11 @@ Adobe Analytics 的報告依賴大量資料前置處理來產生結果，如您�
 
 [!UICONTROL 報告時間處理]開啟以下能力：套用可追溯的設定，以及建立多個版本的變數持續性，而無需變更基礎資料的收集方式。
 
-此轉換將導致報告資料的方式出現一些差異，特別是對於有效期較長的任何變數。一開始可使用[虛擬報表套件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=zh-Hant)，來評估報告時間處理可能產生的報告影響。
+此轉換將導致報告資料的方式出現一些差異，特別是對於期限較長的任何變數。一開始可使用[虛擬報表套件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=zh-Hant)，來評估報告時間處理可能產生的報告影響。
 
 ### 確定關鍵區段和計算量度 {#segments-calcmetrics}
 
-Adobe Analytics 區段 (在 Customer Journey Analytics 中稱為[!UICONTROL 篩選器]) 和計算量度與 Customer Journey Analytics 不相容。在許多情況下，可在 Customer Journey Analytics 中使用新的綱要和可用資料重建這些元件。
+Adobe Analytics區段和計算量度與Customer Journey Analytics不相容。 在許多情況下，可在 Customer Journey Analytics 中使用新的結構描述和可用資料重建這些元件。
 
 為了讓使用者在系統之間轉換時盡可能順利地進行轉換，請提前規劃
 
@@ -78,7 +78,7 @@ Adobe Analytics 區段 (在 Customer Journey Analytics 中稱為[!UICONTROL 篩�
 
 2. 記錄它們的定義，以及
 
-3. 確定資料中所需的欄位，以便在 Customer Journey Analytics 中複寫為[篩選器](/help/components/filters/filters-overview.md)和[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。
+3. 識別資料中所需的欄位，以便在Customer Journey Analytics中復寫為[區段](/help/components/filters/filters-overview.md)和[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。
 
 以下兩段影片協助提供指引：
 
@@ -94,7 +94,7 @@ Adobe Analytics 區段 (在 Customer Journey Analytics 中稱為[!UICONTROL 篩�
 
 * 在 Customer Journey Analytics 中，可以定義自訂造訪/工作階段逾時，並定義將啟動新工作階段的量度。您可以建立具有不同工作階段定義的資料檢視，以獲得超越 Adobe Analytics 可能的見解。此功能對行動資料集尤其有益。
 
-* 請考慮為使用者提供資料字典，或擴展 SDR 以包括綱要元素的 Experience Platform 欄位名稱。
+* 請考慮為使用者提供資料字典，或擴展 SDR 以包括結構描述元素的 Experience Platform 欄位名稱。
 
 ### 後續步驟
 

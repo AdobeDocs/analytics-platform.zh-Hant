@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -28,20 +28,20 @@ ht-degree: 94%
 
 ![子字串設定](../assets/substring-settings.png)
 
-[!UICONTROL 子字串]僅在維度上可用，並且可追溯至套用到的資料。它是發生在套用篩選或其他分析作業之前的立即資料轉換。
+[!UICONTROL 子字串]僅在維度上可用，並且可追溯至套用到的資料。它是發生在套用分段或其他分析作業之前的立即資料轉換。
 
 ## 從左側/右側
 
-根據其在字串開頭或結尾的位置獲取字串的一部分。**[!UICONTROL 從左側]**&#x200B;和&#x200B;**[!UICONTROL 從右側]**&#x200B;方法提供兩個下拉式清單：**[!UICONTROL 從]** （輸出開始處）和&#x200B;**[!UICONTROL 到]** （輸出結束處）。
+根據其在字串開頭或結尾的位置獲取字串的一部分。**[!UICONTROL 從左側]**&#x200B;和&#x200B;**[!UICONTROL 從右側]**&#x200B;方法提供兩種下拉清單：**[!UICONTROL 從]** (輸出開始處) 並&#x200B;**[!UICONTROL 至]** (輸出結束處)。
 
 * **[!UICONTROL 字串開頭]**：字串起始。
 * **[!UICONTROL 字串結尾]**：字串結束。
 * **[!UICONTROL 位置]**：從左側或右側開始的靜態字元數，依方法而定。
-* **[!UICONTROL 字串]**：和某個字元或字元序列相符以表示字串的開頭或結尾。此下拉式清單還顯示其他選項：
+* **[!UICONTROL 字串]**：和某個字元或字元序列相符以表示字串的開頭或結尾。此下拉清單還顯示了其他選項：
    * **[!UICONTROL 相符]**：相符的字串。若輸入與此欄位不相符，[無值選項](no-value-options.md)適用。
    * **[!UICONTROL 索引]**：該&#x200B;**[!UICONTROL 相符]**&#x200B;標準可能會在字串中出現多次。此整數會決定何者和開始或結束輸出相符，依方法而定。例如，`1` 的索引代表第一個相符。如果索引高於可用的相符數，則套用[無值選項](no-value-options.md)。
    * **[!UICONTROL 包含字串]**：包含輸出中的&#x200B;**[!UICONTROL 相符]**&#x200B;字串的核取方塊 (如啟用)。
-* **[!UICONTROL 長度]**：指定包含輸出的起始位置後的字元計數的整數。只能在&#x200B;**[!UICONTROL 至]**&#x200B;下拉式清單下取得。
+* **[!UICONTROL 長度]**：指定包含輸出的起始位置後的字元計數的整數。只能在「**[!UICONTROL 至]**」下拉清單下取得。
 
 ## 分隔字元
 
@@ -81,7 +81,7 @@ ht-degree: 94%
 * **[!UICONTROL 輸出格式]**：可讓您新增文字或重新排序規則運算式子群組輸出的選用欄位。如果此欄位為空白，則字串輸出是評估過的規則運算式。
 * **[!UICONTROL 區分大小寫]**：強制規則運算式區分大小寫的核取方塊 (如啟用)。
 
-Customer Journey Analytics使用Perl規則運算式語法的子集。 若輸入和規則運算式不相符，且&#x200B;**[!UICONTROL 輸出格式]**&#x200B;為空白，則套用[無值選項](no-value-options.md)。支援下列運算式：
+Customer Journey Analytics 使用 Perl 正規表示式語法的子集。若輸入和規則運算式不相符，且&#x200B;**[!UICONTROL 輸出格式]**&#x200B;為空白，則套用[無值選項](no-value-options.md)。支援下列運算式：
 
 | 運算式 | 說明 |
 | --- | --- |

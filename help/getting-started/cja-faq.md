@@ -5,10 +5,10 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: 13f2bdb9753c0f4252262c595061ed9b54c38a3c
+source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '2580'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,7 @@ Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.c
 
 +++**如何在 [!UICONTROL Customer Journey Analytics] 中將線上資料連結至離線資料？**
 
-只要資料集之間的人員 ID 相符，[!UICONTROL Customer Journey Analytics] 就可以在資料集之間連結篩選器、歸因、流量、流失等。
+只要資料集之間的人員ID相符，[!UICONTROL Customer Journey Analytics]就可以在資料集之間連結區段、歸因、流量、流失等等
 
 +++
 
@@ -174,7 +174,7 @@ Adobe 最近變更了在 Customer Journey Analytics 中處理資料的方式：
 | [!UICONTROL 工作階段]和[!UICONTROL 人員]計數 | 它們會跨報表套裝進行重複資料刪除。因此，計數可能不相符。 |
 | 量度重複資料刪除 | 如果多列具有相同的交易 ID (例如，[!UICONTROL 購買 ID])，則對量度的實例 (例如[!UICONTROL 訂單]) 進行重複資料刪除。這可以防止過度計算關鍵量度。因此，像[!UICONTROL 訂單]這樣的量度可能不會跨報表套裝累加。 |
 | 貨幣 | Customer Journey Analytics 尚不支援貨幣換算。如果您嘗試合併的報表套裝使用不同的基礎貨幣，則可能會出現問題。 |
-| [!UICONTROL 持續性] | [持續性](../data-views/component-settings/persistence.md)跨報表套裝擴展，這會影響[!UICONTROL 篩選]、[!UICONTROL 歸因]等。數字可能無法正確相加。 |
+| [!UICONTROL 持續性] | [持續性](../data-views/component-settings/persistence.md)跨報表套裝擴展，這會影響[!UICONTROL 區段]、[!UICONTROL 歸因]等等。 數字可能無法正確相加。 |
 | [!UICONTROL 分類] | 合併報表套裝時，[!UICONTROL 分類]不會自動進行重複資料刪除。將多個分類檔案合併為單一[!UICONTROL 查閱]資料集時，您可能會遇到問題。 |
 
 ## 8. [!UICONTROL Adobe Analytics] 元件
