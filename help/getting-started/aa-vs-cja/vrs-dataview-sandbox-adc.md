@@ -4,10 +4,10 @@ description: 了解關於虛擬報告環境和沙箱環境。
 exl-id: 8f0358d1-85fe-4e1e-8724-8a7caa16328c
 feature: Basics
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '715'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -48,14 +48,14 @@ Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。了解以�
 
 資料檢視：
 
-* 可以根據 Customer Journey Analytics 篩選器。
+* 可以根據Customer Journey Analytics區段。
 * 可以以非破壞性方式同時套用至歷史資料和新資料。
 * 可讓您在 Customer Journey Analytics 連線之上建立一個或多個虛擬檢視，以供不同的業務團隊使用。
 * 可用於控制 Customer Journey Analytics 中不同使用者對不同資料類型的存取和管理。
 * 提供強大的非破壞性選項，用於轉換和增強透過 Customer Journey Analytics 連線進入 Customer Journey Analytics 的資料。
 * 根據 Customer Journey Analytics 的報告時間處理功能。
 * 允許使用者為「工作階段」建立自訂定義。
-* 在報告執行階段套用，類似於篩選器評估。 這是在來源連接器 (Adobe Analytics 或其他) 將資料寫入 Adobe Experience Platform 資料湖中的資料集&#x200B;_後_，並且資料已透過 Customer Journey Analytics 連線擷取到 Customer Journey Analytics _後_&#x200B;發生的。
+* 在報告執行階段套用，類似於區段評估。 這是在來源連接器 (Adobe Analytics 或其他) 將資料寫入 Adobe Experience Platform 資料湖中的資料集&#x200B;_後_，並且資料已透過 Customer Journey Analytics 連線擷取到 Customer Journey Analytics _後_&#x200B;發生的。
 * 允許無限數量的變數，不過組織可以限制向使用者公開哪些變數
 * 允許自訂命名事件、工作階段和人員容器。
 * 支援自訂行事曆選項。
@@ -70,7 +70,7 @@ Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。了解以�
 
 Adobe Experience Platform 沙箱：
 
-* 提供將單一 Adobe Experience Platform 執行個體劃分為單獨虛擬環境 (開發、測試、暫存、生產等) 的方法協助開發和發展數位體驗應用程式。
+* 提供將單一Adobe Experience Platform執行個體分割成個別虛擬環境（開發、測試、預備、生產等）的方法，以協助開發及改進數位體驗應用程式。
 * 將其視為一個容器，其中包含特定環境的所有資料和應用程式。
 
 Adobe Experience Platform 沙箱無法：

@@ -4,10 +4,10 @@ title: 快速區段
 feature: Workspace Basics
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
@@ -57,11 +57,11 @@ ht-degree: 30%
 若要管理快速區段，請將滑鼠停留在特定的&#x200B;**[!UICONTROL 快速區段]**&#x200B;上。
 
 * 選取![編輯](/help/assets/icons/Edit.svg)以開啟[快速區段產生器](#quick-filter-builder)並編輯快速區段。
-* 選取 ![InfoOutline](/help/assets/icons/InfoOutline.svg)，開啟快顯視窗。快顯視窗會顯示有關篩選器的資訊。您可以選取「**[!UICONTROL 設為可用於所有專案並新增至您的元件清單」]**&#x200B;若要將區段新增至元件面板中的「![區段](/help/assets/icons/Segmentation.svg)」**[!UICONTROL 「區段]**」元件清單。 您會看到&#x200B;**[!UICONTROL 儲存快速區段]**&#x200B;對話方塊，提示您指定區段的名稱。 選取&#x200B;**[!UICONTROL 「儲存」]**&#x200B;以繼續。您的[!UICONTROL 快速區段]會變成&#x200B;**[!UICONTROL 區段]**。 您無法再使用[快速區段產生器](#quick-filter-builder)編輯區段。 您必須改用[區段產生器](filter-builder.md)，將區段編輯為一般區段。
+* 選取 ![InfoOutline](/help/assets/icons/InfoOutline.svg)，開啟快顯視窗。快顯視窗會顯示區段的相關資訊。 您可以選取「**[!UICONTROL 設為可用於所有專案並新增至您的元件清單」]**&#x200B;若要將區段新增至元件面板中的「![區段](/help/assets/icons/Segmentation.svg)」**[!UICONTROL 「區段]**」元件清單。 您會看到&#x200B;**[!UICONTROL 儲存快速區段]**&#x200B;對話方塊，提示您指定區段的名稱。 選取&#x200B;**[!UICONTROL 「儲存」]**&#x200B;以繼續。您的[!UICONTROL 快速區段]會變成&#x200B;**[!UICONTROL 區段]**。 您無法再使用[快速區段產生器](#quick-filter-builder)編輯區段。 您必須改用[區段產生器](filter-builder.md)，將區段編輯為一般區段。
 
 ## 快速區段產生器
 
-如需快速區段產生器的範例，請參閱下文。 在範例中，開啟產生器以快速產生標題為 `Call Reason = Order Change AND Online Orders is greater than or equal 1`的篩選器。上方的兩個快速篩選器均適用於「[!UICONTROL 平均訂購值儀表板]」面板及其中所有視覺效果，例如「[!UICONTROL 每個國家/地區的平均訂購值]」自由格式表格。
+如需快速區段產生器的範例，請參閱下文。 在此範例中，產生器會針對標題為`Call Reason = Order Change AND Online Orders is greater than or equal 1`的快速區段開啟。 上方的兩個快速區段都適用於[!UICONTROL 平均訂購值儀表板]面板及其中的所有視覺效果，例如[!UICONTROL 每個國家/地區的平均訂購值]自由表格。
 
 ![快速區段產生器](assets/quick-filter-builder.png)
 

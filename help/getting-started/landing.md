@@ -4,10 +4,10 @@ title: Customer Journey Analytics 登陸頁面
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Customer Journey Analytics 登陸頁面標示[!DNL Analysis Workspace]並設有�
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace中的登陸頁面](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的登陸頁面](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}的示範影片。
 
 {{videoaa}}
 
@@ -53,7 +53,7 @@ Customer Journey Analytics 登陸頁面包含以下子索引標籤：專案與�
 
 >[!NOTE]
 >
->下列數項設定會在工作階段和跨工作階段期間持續存在。例如，您選取的索引標籤、選取的篩選器、選取的欄，以及欄排序方向。 搜尋結果不會持續存在。
+>下列數項設定會在工作階段和跨工作階段期間持續存在。例如，您選取的標籤、選取的區段、選取的欄以及欄排序方向。 搜尋結果不會持續存在。
 
 請參閱[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)以了解更多資訊。
 

@@ -5,10 +5,10 @@ exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: d6f26da108a2c840838ac71d9b98f45cd145ad3e
-workflow-type: ht
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 如果您現在已經在使用 Customer Journey Analytics，就無需進行額外的實作變更。引導式分析會使用與其他 CJA 介面相同的[資料視圖](../data-views/data-views.md)和[連線](../connections/overview.md)，例如 [Analysis Workspace](../analysis-workspace/home.md)。
 
-為了讓您的一般使用者能夠透過引導式分析取得最大成功，建議您在 Adobe Experience Platform 和[資料視圖](../data-views/data-views.md)中製定穩健的事件綱要和管理策略。
+為了讓您的一般使用者能夠透過引導式分析取得最大成功，建議您在 Adobe Experience Platform 和[資料視圖](../data-views/data-views.md)中製定穩健的事件結構描述和管理策略。
 
 +++
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 * **Analysis Workspace 是以維度為中心的體驗。**&#x200B;表格通常由維度列組成，而欄通常是量度。可以在列和欄中套用篩選器，以獲得所需的資料。
 
-* **引導式分析是以事件和使用者為中心的體驗。**&#x200B;每次分析都是從選取事件開始，之後可以新增維度和篩選器來縮小該事件資料的範圍。
+* **引導式分析是以事件和使用者為中心的體驗。**&#x200B;每個分析都從選取事件開始，然後可以新增維度和區段來調整該事件資料。
 
 ![Analysis Workspace 和引導式分析視圖](assets/structure.png){style="border:1px solid gray"}
 

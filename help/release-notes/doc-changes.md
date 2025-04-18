@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1774ef63e3578f7016a95716fcfa11a0c7c627ce
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '4716'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -45,18 +45,18 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 彙整和隱私權要求 | 新增通知，說明因為隱私權要求而造成[彙整過程中即將發生的變更](/help/stitching/faq.md#frequently-asked-questions)。 |
 | **2024 年 10 月** | |
 | 歷程畫布視覺效果 | [歷程畫布](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en)為 Analysis Workspace 的視覺效果，讓您能夠分析人們如何完成或退出已定義的歷程。 |
-| 資產轉移 | 讓您可以將專案、篩選器和計算量度等元件的[所有權轉移](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)給其他使用者，以確保連續性和適當的存取權限。 |
+| 資產轉移 | 可讓您[將專案、區段和計算量度等元件的擁有權](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)轉移給其他使用者，以確保持續性和適當的存取權。 |
 | 已改善的使用情況介面 | 已更新有關已改善的介面之文章，顯示您在[所有連線中已擷取和可報告列的使用情況](/help/connections/manage-connections.md#usage) |
 | 共用裝置 | 新增了[使用案例文章](/help/use-cases/stitching/shared-devices.md)，提供有關共用裝置的背景、如何使用彙整處理和緩解來自共用裝置的資料，以及使用查詢服務了解資料中的共用裝置暴露情況。 |
 | 有關 Analysis Workspace Performance 請求因素的新資訊 | [Analysis Workspace 效能最佳化](/help/technotes/optimizing-performance.md)文章中的新[請求因素](/help/technotes/optimizing-performance.md#request-factors)部分介紹了如何處理請求以及影響處理時間的各種因素。 |
-| Workspace 和元件 | 重新整理了有關 Analysis Workspace 專案 (專案、視覺效果和面板) 與元件 (註解、維度、(經計算的) 量度、篩選器、日期範圍、警報、已排程專案和客群) 的文件。 |
+| Workspace 和元件 | 重新整理有關Analysis Workspace專案（專案、視覺效果和面板）和元件(附註、維度、（計算）量度、區段、日期範圍、警報、排程專案和對象)的檔案。 |
 | 引導式分析 | 已將文件更新為可從 Analysis Workspace 內部使用[引導式分析](/help/guided-analysis/overview.md)。 |
-| 更新客群文件 | 自 Analysis Workspace 中的視覺效果[建立客群](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/audiences/publish?lang=en)時，面板篩選器和欄位篩選器已做為附加條件納入其中。 |
+| 更新客群文件 | 在Analysis Workspace中，當從「視覺效果」中[建立對象](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/audiences/publish?lang=en)時，面板區段和欄區段現已納入為其他條件。 |
 | **2024 年 9 月** | |
 | 摘要資料更新 | 已更新摘要資料文章，其中包含有關在報告摘要資料時如何正確使用[查詢資料](/help/data-views/summary-data.md#lookup-data)的資訊。 |
 | BI 擴充功能更新 | 在 BI 擴充功能文件中新增[預設和限制](/help/data-views/bi-extension.md#defaults-and-limitations)區段。 |
 | 警報 | 將 Customer Journey Analytics 中現已提供的[警報](/help/components/c-intelligent-alerts/intelligent-alerts.md)功能新增到文件。 |
-| 計算量度管理器和篩選器管理器之「使用於」欄中的額外資訊 | [計算量度管理器](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager?lang=en)和[篩選器管理器](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-filters/manage-filters?lang=en)之「使用於」欄包含以下新報告區域：Report Builder 和 Ad-hoc 元件 |
+| 計算量度管理員和區段管理員中「使用位置」欄的其他資訊 | [計算量度管理器](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager?lang=en)和[篩選器管理器](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-filters/manage-filters?lang=en)之「使用於」欄包含以下新報告區域：Report Builder 和 Ad-hoc 元件 |
 | **2024 年 8 月** | |
 | B2B 專案範例 | 新增[使用案例](/help/use-cases/b2b/example.md)，記錄如何使用新的[轉換資料集以進行 B2B 查詢](/help/connections/transform-datasets-b2b-lookups.md)功能，在 Customer Journey Analytics 中設定、配置和報告基於設定檔 (個人) 層級的 B2B 資料。 |
 | 更新了資料匯出使用案例 | 新增更多詳細的查詢範例到[查詢服務 (資料蒸餾器) 和匯出資料集](/help/use-cases/data-export/queryservice-export-datasets.md)，以說明如何使用回顧期間將歸因正確套用至工作階段。 |

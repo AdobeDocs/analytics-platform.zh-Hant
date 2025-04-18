@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 95%
 
    有關新增元件至資料檢視時可用選項的詳細資訊，請參閱「[建立或編輯資料檢視](/help/data-views/create-dataview.md)」中的「[元件](/help/data-views/create-dataview.md#components)」。
 
-1. 選取「[!UICONTROL **設定**]」索引標籤。從這裡，您可以設定篩選器以套用於您的整個資料檢視，並且設定工作階段逾時和量度。
+1. 選取「[!UICONTROL **設定**]」索引標籤。從這裡，您可以設定區段以套用至整個資料檢視，並設定工作階段逾時和量度。
 
    有關進行資料檢視設定時可用選項的詳細資訊，請參閱「[建立或編輯資料檢視](/help/data-views/create-dataview.md)」中的「[設定](/help/data-views/create-dataview.md#settings)」。
 
