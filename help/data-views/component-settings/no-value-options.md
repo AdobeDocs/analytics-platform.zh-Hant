@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 1a696662f10fddd42f3bbdbb79a6e735bf203bdf
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 53%
+ht-degree: 58%
 
 ---
 
@@ -48,5 +48,5 @@ ht-degree: 53%
 
 >[!MORELIKETHIS]
 >
->以下是有關[在Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339)中處理「無值」的相關部落格。
+>以下是關於[在 Customer Journey Analytics 處理「無值」](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/handling-quot-no-value-quot-in-customer-journey-analytics/ba-p/597339)的部落格文章。
 

@@ -7,7 +7,7 @@ role: User
 source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 75%
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 75%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄長條圖視覺效果。_<br/>_檢視此文章的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本的[色階分佈圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/histogram)。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的直方圖視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[直方圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/histogram)_。_
 
 >[!ENDSHADEBOX]
 
@@ -39,7 +39,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 1. 新增![直方圖](/help/assets/icons/Histogram.svg) **[!UICONTROL 直方圖]**&#x200B;視覺效果。請參閱[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
 1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;元件清單中拖曳量度，或從&#x200B;[!UICONTROL *新增量度*] 下拉式選單中選取量度。
 1. (可選) 請選取「**[!UICONTROL 顯示進階設定]**」：請參閱[進階設定](#advanced-settings)。
-1. 請選取「**[!UICONTROL 建置]**」。
+1. 選取「**[!UICONTROL 建置]**」。
 
 >[!NOTE]
 >

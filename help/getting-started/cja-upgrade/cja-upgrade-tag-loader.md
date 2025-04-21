@@ -1,6 +1,6 @@
 ---
 title: 實作適用於 Web SDK 擴充功能的 Loader 標記
-description: 瞭解如何為Web SDK擴充功能實作載入器標籤
+description: 了解如何實施適用於 Web SDK 擴充功能的 Loader 標記
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 63%
 
 {{upgrade-note-step}}
 
-您必須在要追蹤的網站上安裝標籤，這表示要將程式碼放置在網站範本的標頭標籤中。
+您必須在想要追蹤的網站上安裝您的標記，這是將程式碼放在您網站範本的標題標記中。
 
-以下程式說明如何取得參考您標籤的程式碼。 如需補充資訊，請參閱Experience Platform檔案中的[標籤和事件轉送實作指南](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/implementation-guides)。
+以下過程說明如何取得引用您標記的程式碼。有關補充資訊，請參閱 Experience Platform 文件中的「[標記和事件轉發實施指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/implementation-guides)」。
 
 若要取得參考標籤的程式碼：
 
-1. 使用您的Adobe ID憑證登入experience.adobe.com 。
+1. 使用您的 Adobe ID 認證登入 experience.adobe.com。
 
-1. 在Adobe Experience Platform中，移至&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 標籤]**。
+1. 在 Adobe Experience Platform 中，前往「**[!UICONTROL 資料彙集]** > **[!UICONTROL 標記]**」。
 
-1. 在&#x200B;**[!UICONTROL 標籤屬性]**&#x200B;頁面上，從屬性清單中選取您新建立的標籤以開啟它。
+1. 在&#x200B;**[!UICONTROL 「標記屬性」]**&#x200B;頁面中，從屬性清單中選取您新建立的標記並開啟。
 
 1. 選取左側邊欄中的&#x200B;**[!UICONTROL 「環境」]**。
 

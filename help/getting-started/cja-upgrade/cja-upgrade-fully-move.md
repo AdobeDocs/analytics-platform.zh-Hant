@@ -1,6 +1,6 @@
 ---
 title: 評估升級至 Customer Journey Analytics 後需要使用 Adobe Analytics 多長的時間
-description: 瞭解如何評估升級至Customer Journey Analytics後需要Adobe Analytics多久
+description: 了解如何評估升級至 Customer Journey Analytics 後，有多長時間需要使用 Adobe Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
@@ -43,19 +43,19 @@ ht-degree: 31%
 
 {{upgrade-note}}
 
-大部分組織在升級至Customer Journey Analytics後，最終都會停用Adobe Analytics。 這是因為維護兩個分析環境的成本和複雜性。
+大多數組織在升級到 Customer Journey Analytics 後，最後將會停用 Adob&#x200B;&#x200B;e Analytics。這是因為維護兩個分析環境的費用高且較複雜。
 
-不過，Adobe建議您在實作Customer Journey Analytics後，讓Adobe Analytics環境維持運作一段時間。 以下章節說明這樣做的原因，以及停用Adobe Analytics的建議時間。
+但是，Adobe 建議您在實施 Customer Journey Analytics 後，讓 Adob&#x200B;&#x200B;e Analytics 環境持續執行一段時間。以下幾個部分內容說明這樣做的原因，以及停用 Adob&#x200B;&#x200B;e Analytics 的建議時間。
 
-## 升級期間和之後的Adobe Analytics使用
+## 升級期間和之後使用 Adob&#x200B;&#x200B;e Analytics
 
-在決定您的組織是否以及何時應停用Adobe Analytics時，請考慮在升級至Adobe Analytics期間和之後使用Customer Journey Analytics的下列情形：
+在決定您的組織是否以及何時應停用 Adob&#x200B;&#x200B;e Analytics 時，請考慮在升級至 Customer Journey Analytics 期間和之後，以下列方式使用 Adob&#x200B;&#x200B;e Analytics：
 
-| 升級期間和升級後使用Adobe Analytics | 解釋 |
+| 升級期間和之後使用 Adob&#x200B;&#x200B;e Analytics | 解釋 |
 |---------|----------|
-| 執行並排資料比較 | Adobe建議您在新的Adobe Analytics環境執行並收集資料後，讓Customer Journey Analytics環境維持執行一段時間。 這是將Customer Journey Analytics資料與Adobe Analytics資料並排比較的最佳方式。<p>在您熟悉Customer Journey Analytics環境中的資料之前，請勿停用Adobe Analytics。</p><p>**注意：** Adobe建議針對您的Customer Journey Analytics環境採用新的Web SDK實作，並搭配歷史資料的Analytics來源聯結器。 [了解更多](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</p> |
-| 保留來自Adobe Analytics的歷史資料 | Adobe建議您在新的Adobe Analytics環境執行並收集資料後，透過Analytics來源聯結器保留Customer Journey Analytics環境一段時間。 這是將歷史Adobe Analytics資料帶入Customer Journey Analytics的最佳方式。<p>使用新的Web SDK實作在Customer Journey Analytics中收集足夠的歷史資料後，您就可以完全移除Analytics來源聯結器。 當您只能信賴使用新Customer Journey Analytics Web SDK實作收集而來的歷史資料時，才可以執行此動作。</p><p>**注意：** Adobe建議針對您的Customer Journey Analytics環境採用新的Web SDK實作，並搭配歷史資料的Analytics來源聯結器。 [了解更多](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</p> |
-| 使用資料摘要或其他Adobe Analytics功能 | Customer Journey Analytics中尚未提供一組完整的功能。 如果您需要存取這些功能，您可能需要將Adobe Analytics與Customer Journey Analytics搭配使用，直到這些功能可用為止。 <p>Customer Journey Analytics中尚未完整提供的功能包括資料摘要和貢獻分析。 如需尚未提供的完整功能清單，請參閱[Customer Journey Analytics功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。</p> |
+| 執行並排的資料比較 | Adobe 建議您在執行全新 Customer Journey Analytics 環境並收集資料後，讓 Adob&#x200B;&#x200B;e Analytics 環境持續執行一段時間。這是將您的 Customer Journey Analytics 資料與 Adob&#x200B;&#x200B;e Analytics 資料並排比較的最佳方法。<p>在您對 Customer Journey Analytics 環境中的資料感到滿意之前，請不要停用 Adob&#x200B;&#x200B;e Analytics。</p><p>**註：**  Adobe 建議為您的 Customer Journey Analytics 環境進行全新的 Web SDK 實施，並將其與用於歷史資料的 Analytics 來源連接器結合使用。[了解更多](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</p> |
+| 保留 Adobe Analytics 的歷史資料 | Adobe 建議您在執行全新 Customer Journey Analytics 環境並收集資料後，將 Adob&#x200B;&#x200B;e Analytics 環境與 Analytics 來源連接器保留一段時間。這是將歷史 Adob&#x200B;&#x200B;e Analytics 資料納入 Customer Journey Analytics 的最佳方式。<p>使用全新 Web SDK 實施在 Customer Journey Analytics 中收集足夠的歷史資料後，您可以完全移除 Analytics 來源連接器。當您可以完全依賴使用全新 Customer Journey Analytics Web SDK 實施收集的歷史資料時，請執行此操作。</p><p>**註：**  Adobe 建議為您的 Customer Journey Analytics 環境進行全新的 Web SDK 實施，並將其與用於歷史資料的 Analytics 來源連接器結合使用。[了解更多](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</p> |
+| 使用資料摘要或其他 Adob&#x200B;&#x200B;e Analytics 功能 | Customer Journey Analytics 有一小部分功能尚無法完全使用。如果您需要存取這些功能，可能需要將 Adob&#x200B;&#x200B;e Analytics 與 Customer Journey Analytics 結合使用，直到這些功能可供使用為止。 <p>Customer Journey Analytics 中未完全可使用的功能包括資料摘要和 Contribution Analysis。有關還不能使用的功能完整列表，請參閱「[Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)」。</p> |
 
 ## 停用 Adobe Analytics 的流程和時間表 {#disable-adobe-analytics}
 
@@ -86,53 +86,53 @@ ht-degree: 31%
 
 <!-- markdownlint-enable MD034 -->
 
-您現有的Adobe Analytics實作是成功升級至Customer Journey Analytics的關鍵部分，如上節所述：[升級期間及之後使用Adobe Analytics](#uses-of-adobe-analytics-during-and-after-an-upgrade)。
+您現有的 Adob&#x200B;&#x200B;e Analytics 實施是成功升級至 Customer Journey Analytics 的關鍵部分，如上一節所述， [升級期間及其後使用 Adob&#x200B;&#x200B;e Analytics](#uses-of-adobe-analytics-during-and-after-an-upgrade)。
 
-當您不再需要Adobe Analytics以用於上述用途時，請使用下列資訊來移除Adobe Analytics：
+當您不再需要使用 Adob&#x200B;&#x200B;e Analytics 來達到上節所述的目的時，請使用以下資訊移除 Adob&#x200B;&#x200B;e Analytics：
 
-1. 停止使用Adobe Analytics收集資料。
+1. 停止使用 Adob&#x200B;&#x200B;e Analytics 收集資料。
 
-   當您對Adobe Analytics資料和Customer Journey Analytics資料的並排比較感到滿意後，就可以停止在Adobe Analytics實作中收集資料。 新的Adobe Analytics資料將不再透過Analytics來源聯結器流入Customer Journey Analytics。
+   在您對 Adob&#x200B;&#x200B;e Analytics 資料和 Customer Journey Analytics 資料的並排比較感到滿意後，您可以停止使用 Adob&#x200B;&#x200B;e Analytics 實施的收集資料。全新 Adob&#x200B;&#x200B;e Analytics 資料將不再透過 Analytics 來源連接器流向 Customer Journey Analytics。
 
-   不過，您在此時間點之前從Adobe Analytics環境收集的資料，仍可透過Analytics來源聯結器用作Customer Journey Analytics中的歷史資料。
+   但是，您在此之前從 Adob&#x200B;&#x200B;e Analytics 環境收集的資料，仍然可以透過 Analytics 來源連接器作為 Customer Journey Analytics 中的歷史資料使用。
 
-   此程式會因您用來實施Adobe Analytics的資料收集方法而異：
+   此流程會因您用來實施 Adob&#x200B;&#x200B;e Analytics 的資料收集方法而異：
 
 +++ AppMeasurement
 
-   [停用AppMeasurement資料彙集](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)。
+   [停用 AppMeasurement 資料收集](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)。
 
 +++
 
-+++ Analytics擴充功能（標籤）
++++ Analytics 擴充功能 (標籤)
 
-   停用標籤中的Analytics擴充功能。
+   在標記中停用 Analytics 擴充功能。
 
 +++
 
 +++ API
 
-   停用API資料收集。
+   停用 API 資料收集。
 
 +++
 
 +++ 第三方
 
-   請與您的標籤管理員合作，從您的協力廠商標籤管理系統移除AppMeasurement資料庫。
+   與您的標記管理員合作從第三方標記管理系統中移除 AppMeasurement 資料庫。
 
 +++
 
-1. 從資料流中移除Adobe Analytics即服務。
+1. 將 Adobe Analytics 當作服務從資料流中移除。
 
-   有了Web SDK資料完整的功能，請與Platform管理員合作，從資料流中移除Adobe Analytics即服務。
+   在 Web SDK 資料完全可使用後，與平台管理員合作從資料流中移除 Adob&#x200B;&#x200B;e Analytics。
 
-   在移除Adobe Analytics as a Service之前，請確定您的Analytics使用者使用Customer Journey Analytics，而不是Adobe Analytics。
+   在移除 Adob&#x200B;&#x200B;e Analytics 的服務以前，請確保您的 Analytics 使用者是在使用 Customer Journey Analytics 而不是 Adob&#x200B;&#x200B;e Analytics。
 
-1. 完全移除Analytics來源聯結器。
+1. 完全移除 Analytics 來源連接器。
 
-   使用新的Web SDK實作在Customer Journey Analytics中收集足夠的歷史資料後，您就可以完全移除Analytics來源聯結器。
+   使用全新 Web SDK 實施在 Customer Journey Analytics 中收集足夠的歷史資料後，您可以完全移除 Analytics 來源連接器。
 
-   當您不再需要透過Analytics來源聯結器從Adobe Analytics環境取得歷史資料，而且您可以僅信賴您在新的Web SDK實作中收集的歷史資料時，即可採取此動作。
+   當您不再需要透過 Analytics 來源連接器取得 Adob&#x200B;&#x200B;e Analytics 環境的歷史資料時，請執行此操作，且您可以完全依賴使用全新 Web SDK 實施收集的歷史資料。
 
 {{upgrade-final-step}}
 

@@ -7,7 +7,7 @@ exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
 source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;中的下一個或上一個專案面板。<br/>_檢視此文章的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本的[下一個或上一個專案面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/next-previous)。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ 中的下一個或上一個項目面板。<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[下一個或上一個項目面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/next-previous)_。_
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 {style="table-layout:auto"}
 
-請選取「**[!UICONTROL 「建置]**」以建置面板。
+請選取「**[!UICONTROL 建置]**」以建置面板。
 
 ### 面板輸出
 

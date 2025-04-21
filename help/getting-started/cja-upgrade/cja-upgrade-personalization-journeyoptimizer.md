@@ -1,6 +1,6 @@
 ---
 title: 使用個人化物件以便與 Adobe Journey Optimizer 搭配使用
-description: 瞭解如何使用個人化物件來搭配Adobe Journey Optimizer使用
+description: 了解如何使用個人化物件以便與 Adobe Journey Optimizer 搭配使用
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: 5086ac6e-5bee-4f0f-b7e5-a3d9bd8a1332
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 80%
+ht-degree: 90%
 
 ---
 

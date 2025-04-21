@@ -1,6 +1,6 @@
 ---
 title: 了解升級至 Customer Journey Analytics 時的 Adobe Analytics 功能支援
-description: 瞭解升級至Customer Journey Analytics時的Adobe Analytics功能支援
+description: 了解關於升級至 Customer Journey Analytics 時的 Adobe Analytics 功能支援
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: 92053109-f80d-47ab-b011-c28a5411149c
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 55%
+ht-degree: 88%
 
 ---
 
@@ -97,16 +97,16 @@ ht-degree: 55%
 
 {{upgrade-note}}
 
-以下清單只顯示升級至Customer Journey Analytics過程中需要考量的Adobe Analytics功能。 如需顯示Customer Journey Analytics完全支援、部分支援或不支援哪些Adobe Analytics功能的完整清單，請參閱[Customer Journey Analytics功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。
+以下列表僅顯示升級至 Customer Journey Analytics 過程中需要考慮的 Adobe Analytics 功能。關於顯示哪些 Adobe Analytics 功能在 Customer Journey Analytics 中完全支援、部分支援或不支援的完整清單，請參閱「[Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)」。
 
-請考慮下列哪項Adobe Analytics功能您升級至Customer Journey Analytics時想要繼續使用：
+當您升級到 Customer Journey Analytics 時，請考慮要繼續使用下列哪些 Adobe Analytics 功能：
 
-| Adobe Analytics功能 | Customer Journey Analytics中的對應功能 |
+| Adobe Analytics 功能 | Customer Journey Analytics 中的對應功能 |
 |---------|----------|
-| 來自Adobe Analytics的[元件和專案](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) | [將專案及其相關元件移轉至Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)。 |
-| [Activity Map覆蓋和連結追蹤](https://experienceleague.adobe.com/en/docs/analytics/analyze/activity-map/overview) | 尚未提供 |
-| [分類資料](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/c-classifications) | 查詢資料集是在Customer Journey Analytics中分類資料的方法。<p>[為每個包含分類資料的維度建立查詢資料集。](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
-| [行銷管道](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | 衍生欄位是在資料視圖中建立的。 <p>[建立行銷管道衍生欄位。](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |
-| [資料摘要](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) | Experience Platform和Customer Journey Analytics提供許多功能，不論是獨立提供還是合併提供，都可以解決各種匯出需求。 這些功能包括[Experience Platform資料存取API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html)、[Experience Platform目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)、[Customer Journey Analytics完整資料表匯出](/help/analysis-workspace/export/export-cloud.md)和[BI工具整合](/help/data-views/bi-extension.md)。<p>如需匯出選項的詳細資訊，請參閱[資料匯出使用案例](/help/use-cases/data-export/overview.md)。</p> |
-| [Data Warehouse](https://experienceleague.adobe.com/en/docs/analytics/export/data-warehouse/data-warehouse) | [Customer Journey Analytics 完整表格匯出](/help/analysis-workspace/export/export-cloud.md)是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多使用者經常要求且目前 Data Warehouse 目前尚未提供的新功能。 |
+| [Adobe Analytics 中的元件和專案](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) | [將專案及其相關元件移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)。 |
+| [Activity Map 覆蓋和連結追蹤](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/activity-map/overview) | 尚無法使用 |
+| [分類資料](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/classifications/c-classifications) | 查閱資料集是為 Customer Journey Analytics 資料分類的方法。<p>[針對包含分類資料的每個維度建立查詢資料集。](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
+| [行銷管道](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | 衍生欄位是在資料檢視中建立。 <p>[建立行銷管道衍生的欄位。](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |
+| [資料摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/analytics-data-feed/data-feed-overview) | Experience Platform和Customer Journey Analytics提供許多功能，不論是獨立提供還是合併提供，都可以解決各種匯出需求。 這些功能包括[Experience Platform資料存取API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html)、[Experience Platform目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html)、[Customer Journey Analytics完整資料表匯出](/help/analysis-workspace/export/export-cloud.md)和[BI工具整合](/help/data-views/bi-extension.md)。<p>如需匯出選項的詳細資訊，請參閱[資料匯出使用案例](/help/use-cases/data-export/overview.md)。</p> |
+| [Data Warehouse](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/data-warehouse/data-warehouse) | [Customer Journey Analytics 完整表格匯出](/help/analysis-workspace/export/export-cloud.md)是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多使用者經常要求且目前 Data Warehouse 目前尚未提供的新功能。 |
 | [串流媒體資料](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview) | 串流媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢視者」面板和「媒體播放時間」面板的一部分提供。 |

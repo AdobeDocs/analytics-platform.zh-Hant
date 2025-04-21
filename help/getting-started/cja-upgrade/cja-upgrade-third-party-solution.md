@@ -1,6 +1,6 @@
 ---
 title: 從第三方分析解決方案升級至 Customer Journey Analytics
-description: 瞭解如何從第三方分析解決方案升級至Customer Journey Analytics
+description: 了解如何從第三方分析解決方案升級至 Customer Journey Analytics
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 26%
+ht-degree: 54%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 26%
 
 {{upgrade-note}}
 
-建議的從Adobe Analytics以外的分析解決方案升級為Customer Journey Analytics的程式，是Experience Platform Web SDK的新實作，這是Customer Journey Analytics慣用的資料收集方法。 結合使用Web SDK時，Adobe也建議將協力廠商分析解決方案的歷史資料擷取至Adobe Experience Platform。
+建議的從Adobe Analytics以外的分析解決方案升級為Customer Journey Analytics的程式，是Experience Platform Web SDK的新實作，這是Customer Journey Analytics慣用的資料收集方法。 結合 Web SDK 後，Adobe 也建議將第三方分析解決方案的歷史資料攝取至 Adob&#x200B;&#x200B;e Experience Platform。
 
 <!-- After you have enough historical data using the Experience Platform Web SDK and you have fully transitioned to Customer Journey Analytics, the Analytics source connector can be turned off and the Web SDK can be used exclusively. -->
 
-從協力廠商分析解決方案(例如Google Analytics)移至Customer Journey Analytics時，請使用下列程式：
+從第三方分析解決方案 (如 Google Analytics) 移動至 Customer Journey Analytics 時，請使用下列流程：
 
 1. 請依照[詳細的建議升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps)操作。
 
@@ -42,5 +42,5 @@ ht-degree: 26%
    * 根據您的分析解決方案，來源聯結器可能可用於擷取歷史資料。 如需詳細資訊，請參閱Experience Platform檔案中[Source聯結器總覽](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)中的[Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#analytics)。
 
 
-如果您需要更具體的建議、指引或支援，請聯絡您的Adobe代表。
+如果您需要更具體的建議、指導或支援，請聯絡您的 Adob&#x200B;&#x200B;e 代表。
 

@@ -1,6 +1,6 @@
 ---
-title: 為Customer Journey Analytics建立結構描述
-description: 瞭解從Adobe Analytics升級至Customer Journey Analytics時的建議路徑
+title: 為 Customer Journey Analytics 建立結構描述
+description: 了解關於從 Adobe Analytics 升級至 Customer Journey Analytics 的建議路徑
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 60%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-資料集是儲存和管理您收集到Adobe Experience Platform中之資料的建構。
+資料集是儲存和管理您收集至 Adob&#x200B;&#x200B;e Experience Platform 的資料結構。
 
 若要建立資料集：
 
-1. 在Adobe Experience Platform的左側邊欄中，選取[!UICONTROL 資料管理]中的&#x200B;**[!UICONTROL 資料集]**。
+1. 在左側邊欄的 Adobe Experience Platform 中，選取[!UICONTROL 「資料管理」]中的&#x200B;**[!UICONTROL 「資料集」]**。
 
 1. 選取&#x200B;**[!UICONTROL 「建立資料集」]**。
 
@@ -49,16 +49,16 @@ ht-degree: 60%
 
 1. 選取&#x200B;**[!UICONTROL 「完成」]**。
 
-1. 選取&#x200B;**[!UICONTROL 「輪廓」]**&#x200B;切換。
+1. 選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
-   系統會提示您啟用輪廓的資料集。資料集一經啟用，即可透過攝取的資料豐富即時客戶輪廓。
+   系統會提示您啟用設定檔的資料集。資料集一經啟用，即可透過攝取的資料豐富即時客戶設定檔。
 
    >[!IMPORTANT]
    >
-   >    只有當資料集所遵循的結構同樣啟用輪廓時，您才能啟用輪廓的資料集。
+   >    只有當資料集所遵循的結構同樣啟用設定檔時，您才能啟用設定檔的資料集。
 
-   ![啟用輪廓結構](assets/aepwebsdk-dataset-profile.png)
+   ![啟用設定檔結構](assets/aepwebsdk-dataset-profile.png)
 
-   如需更多有關如何檢視、預覽、建立和刪除資料集的資訊，請參閱[資料集UI指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)。 您也可以瞭解如何為即時客戶個人檔案啟用資料集。
+   請參閱[資料集 UI 指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)，了解如何檢視、預覽、建立和刪除資料集的詳細資訊。您也可了解為即時客戶設定檔啟用資料集的方法。
 
 {{upgrade-final-step}}

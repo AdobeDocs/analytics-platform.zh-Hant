@@ -1,6 +1,6 @@
 ---
-title: 建立標籤屬性並新增網頁SDK擴充功能
-description: 瞭解如何建立標籤屬性並新增網頁SDK擴充功能
+title: 建立標記屬性並新增 Web SDK 擴充功能
+description: 了解如何建立標記屬性並新增 Web SDK 擴充功能
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: 382d2b00-939a-4fff-be02-7a98d457a455
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 42%
 
 {{upgrade-note-step}}
 
-您可以使用Adobe Experience Platform中的標籤功能，在您的網站上實作程式碼以收集資料。 此標記管理解決方案可讓您部署程式碼以及其他標記需求。 標籤可使用 Adobe Experience Platform Web SDK 擴充功能與 Adobe Experience Platform 緊密整合。
+您可以使用 Adobe Experience Platform 中的「標籤」功能，在您的網站上實施程式碼以收集資料。此標記管理解決方案可讓您部署程式碼以及其他標記需求。 標籤可使用 Adobe Experience Platform Web SDK 擴充功能與 Adobe Experience Platform 緊密整合。
 
-下列資訊說明如何將Web SDK擴充功能新增至您的標籤。 如需補充資訊，請參閱Experience Platform檔案中的[設定Web SDK標籤擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)。 Web SDK原生包含[!UICONTROL Adobe Experience Cloud ID服務]，因此您不需要將ID服務擴充功能新增至標籤。
+以下資訊說明如何將 Web SDK 擴充功能新增到您的標記。若要了解補充資訊，請參閱 Experience Platform 文件中的「[設定 Web SDK 標記擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)」。Web SDK 原本就包括 [!UICONTROL Adobe Experience Cloud ID 服務]，因此您不需要新增 ID 服務擴充功能至您的標記中。
 
-在您[建立標籤](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)之後，您必須使用Adobe Experience Platform Web SDK擴充功能來設定標籤。 這可確保您可以（透過資料流）將資料傳送至Adobe Experience Platform。
+您[建立標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)以後，您必須使用 Adob&#x200B;&#x200B;e Experience Platform Web SDK 擴充功能進行設定。這可確保您可以將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform (透過您的資料流)。
 
-若要將網頁SDK擴充功能新增至您的標籤：
+若要新增 Web SDK 擴充功能至您的標記：
 
-1. 使用您的Adobe ID憑證登入experience.adobe.com 。
+1. 使用您的 Adobe ID 認證登入 experience.adobe.com。
 
-1. 在Adobe Experience Platform中，移至&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 標籤]**。
+1. 在 Adobe Experience Platform 中，前往「**[!UICONTROL 資料彙集]** > **[!UICONTROL 標記]**」。
 
 1. 從[!UICONTROL 「標籤屬性」]清單中選擇您新建立的標籤，並將其打開。
 
@@ -43,7 +43,7 @@ ht-degree: 42%
 
 1. 在頂端列中選取 **[!UICONTROL 「目錄」]**。
 
-1. 搜尋或捲動至&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK擴充功能]**，然後選取「安裝」**[!UICONTROL 以安裝]**。
+1. 搜尋或捲動至 **[!UICONTROL Adobe Experience Platform Web SDK 擴充功能]**，然後選取「**[!UICONTROL 安裝]**」以進行安裝。
 
    <img src="assets/aepwebsdk-extension.png" width="35%"/>
 

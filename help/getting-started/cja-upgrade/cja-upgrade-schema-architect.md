@@ -1,6 +1,6 @@
 ---
 title: 建立您的結構描述以便與 Customer Journey Analytics 搭配使用
-description: 瞭解從Adobe Analytics升級至Customer Journey Analytics時的建議路徑
+description: 了解關於從 Adobe Analytics 升級至 Customer Journey Analytics 的建議路徑
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 26%
+ht-degree: 91%
 
 ---
 
@@ -25,34 +25,34 @@ ht-degree: 26%
 
 {{upgrade-note-step}}
 
-Adobe建議建立自訂Experience Data Model (XDM)結構描述，以便在從Adobe Analytics升級至Customer Journey Analytics時與Web SDK搭配使用。 或者，您也可以使用預設的Adobe Analytics結構描述，此結構描述會使用Adobe Analytics ExperienceEvent欄位群組。
+從 Adob&#x200B;&#x200B;e Analytics 升級到 Customer Journey Analytics 時，Adobe 建議建立自訂體驗資料模型 (XDM) 結構描述，以便與 Web SDK 搭配使用。或者，您可以使用預設 Adob&#x200B;&#x200B;e Analytics 結構描述，且該結構描述是使用 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 欄位群組。
 
-自訂XDM結構描述可讓您根據組織需求以及您使用的特定平台應用程式量身打造簡化的結構描述。 與使用Adobe Analytics ExperienceEvent欄位群組的預設Adobe Analytics結構描述不同，當需要變更自訂XDM結構描述時，您不必在數千個未使用的欄位中尋找需要更新的欄位。
+自訂 XDM 結構描述允許根據您的組織需求和您使用的特定平台應用程式量身定制的簡化結構描述。與使用 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 欄位群組的預設 Adob&#x200B;&#x200B;e Analytics 結構描述不同，當需要變更自訂 XDM 結構描述時，您不必篩選數千個未使用的欄位來尋找需要更新的欄位。
 
-如需這些結構描述選項的詳細資訊，請參閱[選擇您的Customer Journey Analytics結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)。
+有關這些結構描述選項的更多資訊，請參閱「[選擇您的 Customer Journey Analytics 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)」。
 
-開始建立XDM結構描述時，請檢閱下列章節。
+在開始建構 XDM 結構描述時，請查看以下部分。
 
-## 避免XDM結構描述中的Adobe Analytics限制
+## 避免 XDM 結構描述中的 Adob&#x200B;&#x200B;e Analytics 限制
 
-Customer Journey Analytics的底層架構提供比Adobe Analytics更大的彈性。 建立新的XDM結構描述是解鎖靈活性的關鍵方式。 當您升級至Customer Journey Analytics時，請務必避免在結構描述中沿用不必要的Adobe Analytics限制。
+比起 Adob&#x200B;&#x200B;e Analytics，Customer Journey Analytics 基本架構提供更大的靈活性。建立新的 XDM 結構描述是取得這種靈活性的關鍵方法。當您升級到 Customer Journey Analytics 時，請確保避免將不必要的 Adob&#x200B;&#x200B;e Analytics 限制帶入您的結構描述中。
 
 >[!NOTE]
 >
 >下列資訊尚未完成。 這將在不久的將來完成。
 
-| Adobe Analytics資料架構 | XDM結構描述架構 |
+| Adobe Analytics 資料架構 | XDM 結構描述架構 |
 |---------|----------|
-| 個別量度會新增至Analytics資料架構。<br/>例如，在Adobe Analytics中，您對每個事件有不同的eVar。 | 在資料檢視中建立個別量度，而不是在XDM結構描述中建立。 若日後需要進行變更，這麼做可為提供更大的彈性。<br/>例如，在Customer Journey Analytics中，您在結構描述中有單一事件，並在資料檢視中使用建立事件。 |
-| 建立自訂變數需要prop和eVar。 |  |
+| 個別量度會加入 Analytics 資料架構中。<br/>例如，在 Adob&#x200B;&#x200B;e Analytics 中，每個事件都有不同的 eVar。 | 在資料檢視中建立個別指量度，而不是在 XDM 結構描述中建立。如果您以後需要進行變更，這樣做可以提供更大靈活性。<br/>例如，在 Customer Journey Analytics 中，您在結構描述中有一個事件，並在資料檢視中使用建立事件。 |
+| 建立自訂變數需要 prop 和 eVar。 |  |
 
-## 識別您的資料團隊和整個組織的其他利害關係人
+## 確定您的資料團隊以及整個組織內的其他利害關係人
 
 >[!NOTE]
 >
 >此資訊尚未提供。 不久將推出此功能。
 
-## 考慮一下貴組織中使用的其他Adobe Experience Platform應用程式
+## 考慮您組織中使用的其他 Adob&#x200B;&#x200B;e Experience Platform 應用程式
 
 >[!NOTE]
 >

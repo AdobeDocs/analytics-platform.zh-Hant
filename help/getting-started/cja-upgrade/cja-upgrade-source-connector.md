@@ -1,6 +1,6 @@
 ---
 title: 建立 Analytics 來源連接器和對應欄位
-description: 瞭解如何建立Analytics來源聯結器和對應欄位
+description: 了解如何建立 Analytics 來源連接器和對應欄位
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: f96565a2-f556-4b45-b88e-984613614d2e
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -34,76 +34,76 @@ ht-degree: 24%
 
 {{upgrade-note-step}}
 
-## 瞭解Analytics來源聯結器如何將歷史資料帶入Customer Journey Analytics
+## 了解 Analytics 來源連接器如何讓歷史資料進入 Customer Journey Analytics
 
-您可以使用Analytics來源聯結器將Adobe Analytics報告套裝資料匯入Adobe Experience Platform。 然後，這些資料即可用作Customer Journey Analytics中的歷史資料。
+您可以使用 Analytics 來源連接器，讓 Adobe Analytics 報告套裝資料進入 Adobe Experience Platform。然後，這些資料可以用作 Customer Journey Analytics 的歷史資料。
 
-此程式假設您要[建立自訂結構描述，以搭配您的Customer Journey Analytics Web SDK實作](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)使用，因為您想要根據貴組織的需求以及您使用的特定平台應用程式量身打造的簡化結構描述。
+此流程假設您[想要建立自訂結構描述以便與 Customer Journey Analytics Web SDK 實施一起使用](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，因為您需要一個以您組織需求和所用特定 Platform 應用程式量身定制的精簡結構描述。
 
-若要使用Analytics來源聯結器將歷史資料帶入Customer Journey Analytics，您需要：
+若要使用 Analytics 來源連接器讓歷史資料進入 Customer Journey Analytics，您需要：
 
 1. [建立 Analytics 來源連接器的自訂結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
 
-1. 如果您還沒有Analytics來源聯結器，請建立Analytics來源聯結器，並將欄位對應至您的自訂Web SDK結構描述，如下所述。
+1. 如果您還沒有 Analytics 來源連接器，請如下所述建立 Analytics 來源連接器，並將欄位對應到您的自訂 Web SDK 結構描述。
 
    或
 
-   如果您已有Analytics來源聯結器，請從來源聯結器[將欄位對應到您的自訂Web SDK結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)。
+   如果您已擁有 Analytics 來源連接器，則可[將欄位從來源連接器對應到自訂 Web SDK 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)。
 
 1. [將 Analytics 來源連接器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
 ## 建立 Analytics 來源連接器和對應欄位
 
-在建立自訂結構描述後，您需要建立Adobe Analytics來源聯結器以用於歷史資料。 (如需建立來源聯結器的更完整的一般准則，請參閱[在UI中建立Adobe Analytics來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。)
+建立自訂結構描述後，您需要建立 Adob&#x200B;&#x200B;e Analytics 來源連接器以用於歷史資料。(有關建立來源連接器的更全面的一般準則，請參閱「[在 UI 中建立 Adob&#x200B;&#x200B;e Analytics 來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)」)。
 
-若要建立用於歷史資料的Adobe Analytics來源聯結器：
+若要建立 Adobe Analytics 來源連接器以用於歷史資料：
 
-1. 在Platform UI的左側邊欄中，選取&#x200B;**[!UICONTROL 連線]**&#x200B;區段中的&#x200B;**[!UICONTROL 來源]**。
+1. 在 Platform UI 中，在左側邊欄的&#x200B;**[!UICONTROL 「連線」]**&#x200B;部分，選取「**[!UICONTROL 來源]**」。
 
 1. 從 [!UICONTROL 「類別」]清單中選取 **[!UICONTROL Adobe 應用程式]**。
 
-1. 在Adobe Analytics動態磚中選取&#x200B;**[!UICONTROL 新增資料]**。
+1. 在 Adobe Analytics 圖格中，選取「**[!UICONTROL 新增資料]**」。
 
-   ![已選取來源的Adobe Experience Platform視窗，同時反白顯示Adobe應用程式和新增資料。](./assets/sources-overview.png)
+   ![Adobe Experience Platform 視窗，其中已選取來源並醒目顯示 Adob&#x200B;&#x200B;e 應用程式和新增資料。](./assets/sources-overview.png)
 
-1. 選取&#x200B;**[!UICONTROL 報表套裝]**，然後從報表套裝清單中，選取包含您要在Customer Journey Analytics中使用的歷史資料的報表套裝。
+1. 選取「**[!UICONTROL 報告套裝]**」，然後從報告套裝清單中，選取報告套裝且其中含有您要在 Customer Journey Analytics 中使用的歷史資料。
 
-   顯示報告套裝清單的![Adobe Experience Platform視窗](./assets/report-suites.png)
+   ![顯示報告套裝清單的 Adob&#x200B;&#x200B;e Experience Platform 視窗](./assets/report-suites.png)
 
-1. 選取畫面右上角的&#x200B;**[!UICONTROL 下一步]**。
+1. 在右上角螢幕中，選取「**[!UICONTROL 下一步]**」。
 
-1. 選取&#x200B;**[!UICONTROL 自訂結構描述]**，然後選取您在[中建立的結構描述。建立包含Adobe Analytics欄位群組的自訂結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)。<!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
+1. 選取「**[!UICONTROL 自訂結構描述]**」，然後選取您在[建立包含 Adob&#x200B;&#x200B;e Analytics 欄位組的自訂結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)中所建立的結構描述。<!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
 
    <!-- add screenshot -->
 
-1. 將每個Adobe Analytics維度對應至自訂結構描述維度。
+1. 將每個 Adob&#x200B;&#x200B;e Analytics 維度對應到自訂結構描述維度。
 
-   1. 在&#x200B;**[!UICONTROL 對應標準欄位]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 自訂]**&#x200B;索引標籤。
+   1. 在「**[!UICONTROL 對應標準欄位]**」部分中，選取「**[!UICONTROL 自訂]**」索引標籤。
 
-   1. 選取&#x200B;**[!UICONTROL 新增對應]**。
+   1. 選取「**[!UICONTROL 新增對應]**」。
 
    ![對應結構描述欄位](assets/schema-mapping.png)
 
-   1. 在&#x200B;**[!UICONTROL Source欄位]**&#x200B;中，從Adobe Analytics ExperienceEvent範本欄位群組中選取Adobe Analytics欄位。 然後，在&#x200B;**[!UICONTROL 目標欄位]**&#x200B;中，在XDM結構描述中選取您要將它對應到的自訂欄位。
+   1. 在「**[!UICONTROL 來源欄位]**」中，從 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 範本欄位組中選取一個 Adob&#x200B;&#x200B;e Analytics 欄位。然後，在「**[!UICONTROL 目標欄位]**」中，選取要將其對應到的 XDM 結構描述自訂欄位。
 
-      由於Adobe Analytics和XDM之間的固有架構差異，並非所有AppMeasurement欄位在XDM中都擁有對應的欄位。
+      由於 AppMeasurement 和 XDM 之間原本就有架構差異，並非所有 Adob&#x200B;&#x200B;e Analytics 欄位在 XDM 中都有對應的欄位。
 
-   1. 為您在Adobe Analytics中用來收集資料的Adobe Analytics ExperienceEvent範本欄位群組中的每個欄位重複此程式。
+   1. 對於用來 Adob&#x200B;&#x200B;e Analytics 中收集資料的 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 範本欄位群組中，每個欄位都需要重複進行此程序。
 
-1. 選取畫面右上角的&#x200B;**[!UICONTROL 下一步]**。
+1. 在右上角螢幕中，選取「**[!UICONTROL 下一步]**」。
 
 1. 為資料流命名，並 (可選) 提供說明。
 
-   ![Adobe Experience Platform視窗醒目提示資料流詳細資料區段](./assets/dataflow-detail.png)
+   ![Adobe Experience Platform 視窗，醒目顯示「資料流詳細資料」部分](./assets/dataflow-detail.png)
 
-1. 選取畫面右上角的&#x200B;**[!UICONTROL 下一步]**。
+1. 在右上角螢幕中，選取「**[!UICONTROL 下一步]**」。
 
-1. 檢閱連線，然後選取&#x200B;**[!UICONTROL 完成]**。
+1. 查看連線，然後選取「**[!UICONTROL 完成]**」。
 
-   ![Adobe Experience Platform視窗醒目提示要檢閱的連線和資料型別區段](./assets/review.png)
+   ![Adobe Experience Platform 視窗，醒目顯示供檢視的「連線」和「資料類型」部分](./assets/review.png)
 
-   建立連線後，系統會自動建立資料流，以使用報表套裝中的Adobe Analytics資料填入資料集。 此資料流會擷取最多13個月的生產沙箱歷史資料。 非生產沙箱中的回填限製為三個月。
+   建立連線後將自動建立資料流，然後，使用報告套裝中的 Adob&#x200B;&#x200B;e Analytics 資料填入資料集。資料流會為生產沙盒攝取最多 13 個月的歷史資料。非生產沙箱的回填期限制為三個月。
 
-   如果您使用Analytics來源聯結器將歷史資料帶入Customer Journey Analytics Web SDK實作，則需要將此自動建立的資料集新增至您為Web SDK實作建立的連線。
+   如果您使用 Analytics 來源連接器讓歷史資料進入您的 Customer Journey Analytics Web SDK 實施，那麼您需要將此自動建立的資料集新增至您為 Web SDK 實施所建立的連線中。
 
 {{upgrade-final-step}}

@@ -1,6 +1,6 @@
 ---
-title: 為Customer Journey Analytics建立結構描述
-description: 瞭解從Adobe Analytics升級至Customer Journey Analytics時的建議路徑
+title: 為 Customer Journey Analytics 建立結構描述
+description: 了解關於從 Adobe Analytics 升級至 Customer Journey Analytics 的建議路徑
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 41%
 
 {{upgrade-note-step}}
 
-您可以驗證連線是否作用中，資料是否流入Customer Journey Analytics中的資料檢視。
+您可以驗證連線是否處於活躍狀態，以及資料是否流向 Customer Journey Analytics 中的資料檢視。
 
-1. 在Customer Journey Analytics中，選取「連線」索引標籤。
+1. 在 Customer Journey Analytics 中選取「連線」索引標籤。
 
    ![清單檢視](assets/list-view.png)
 
-1. 選取您設定的[連線](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)。
+1. 選取「[您設定的連線](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)」。
 
-   ![顯示Widget和設定的所有資料集視窗](assets/conn-details.png)
+   ![顯示小工具和設定的所有資料集視窗](assets/conn-details.png)
 
-1. 請參閱[管理連線](/help/connections/manage-connections.md)中的[連線詳細資料](/help/connections/manage-connections.md#manage-connections)，以取得每個連線的詳細資訊。
+1. 有關每個連線適用的詳細資訊，請參閱「[管理連線](/help/connections/manage-connections.md)」中的「[連線詳細資訊](/help/connections/manage-connections.md#manage-connections)」。
 
 {{upgrade-final-step}}
 

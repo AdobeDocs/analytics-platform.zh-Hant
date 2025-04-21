@@ -1,6 +1,6 @@
 ---
 title: 了解升級至 Customer Journey Analytics 時的 Web SDK 實作選項
-description: 瞭解升級至Customer Journey Analytics時的Web SDK實作選項
+description: 了解關於升級至 Customer Journey Analytics 時的 Web SDK 實施選項
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -61,14 +61,14 @@ ht-degree: 58%
 
 {{upgrade-note}}
 
-建議的從Adobe Analytics升級至Customer Journey Analytics程式是Experience Platform Web SDK的新實作，這是Customer Journey Analytics慣用的資料收集方法。
+從 Adobe Analytics 升級到 Customer Journey Analytics 的推薦流程是 Experience Platform Web SDK 的新實施，這是最適月合 Customer Journey Analytics 的資料收集方法。
 
-使用Adobe Experience Platform Web SDK有三種受支援的方式：
+使用 Adob&#x200B;&#x200B;e Experience Platform Web SDK 的三種支援方式：
 
-* [Web SDK標籤延伸模組](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/extension)： Adobe建議使用此方法。 在您的網站上安裝標籤載入器，然後使用Adobe Experience Platform資料收集UI來設定您的實施。
+* [Web SDK 標記擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/install/extension)：Adobe 建議使用此方法。在您的網站上安裝標記載入器，然後使用 Adob&#x200B;&#x200B;e Experience Platform 資料收集 UI 來設定您的實施。
 
-* [網頁SDK JavaScript程式庫](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library)：參考CDN代管的程式庫檔案，或使用您自己的基礎架構代管程式庫檔案。 呼叫網站程式碼中的程式庫。
+* [Web SDK JavaScript 資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/install/library)：引用 CDN 託管的資料庫檔案，或使用您自己的基礎架構來託管資料庫檔案。在您網站的程式碼內呼叫該資料庫。
 
-* [NPM](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/npm)：使用NPM封裝管理員在您的網站上安裝Web SDK。
+* [NPM](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/install/npm)：使用 NPM 套件管理器在您的網站上安裝 Web SDK。
 
-如需詳細資訊，請參閱Experience Platform Web SDK指南中的[Web SDK安裝概觀](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)。
+如需了解更多資訊，請參閱 Experience Platform Web SDK 指南中的「[ Web SDK 安裝概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/install/overview)」。

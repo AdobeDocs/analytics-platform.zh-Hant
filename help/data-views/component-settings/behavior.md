@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 90%
 <!-- markdownlint-enable MD034 -->
 
 
-行為設定可用於維度和量度。設定的可用性取決於元件型別和結構描述資料型別。
+行為設定可用於維度和量度。設定適用性取決於元件類型和結構描述資料類型。
 
 ![行為設定](../assets/behavior-settings.png)
 
@@ -38,7 +38,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->如果在查閱資料集維度上啟用[!UICONTROL 小寫]，則同一識別碼可以存在多個查閱值。如果發生這種衝突，Customer Journey Analytics會使用第一個ASCII整理值（大寫值在小寫值之前）。 Adobe 建議不要在啟用[!UICONTROL 小寫]時使用包含相同值的查閱資料集。
+>如果在查閱資料集維度上啟用[!UICONTROL 小寫]，則同一識別碼可以存在多個查閱值。如果發生這種衝突，Customer Journey Analytics 將使用第一個 ASCII 整理值 (大寫值在小寫值之前)。Adobe 建議不要在啟用[!UICONTROL 小寫]時使用包含相同值的查閱資料集。
 
 ![區分大小寫維度](../assets/case-sens-workspace.png)
 

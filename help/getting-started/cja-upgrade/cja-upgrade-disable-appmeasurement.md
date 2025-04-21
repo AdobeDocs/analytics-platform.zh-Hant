@@ -1,6 +1,6 @@
 ---
 title: 將 Analytics 來源連接器資料集新增至連線
-description: 瞭解如何將Analytics來源聯結器資料集新增至連線
+description: 了解如何將 Analytics 來源連接器資料集新增至連線
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -8,7 +8,7 @@ exl-id: 71b9da74-3597-4536-9e47-f18097dd917b
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 60%
+ht-degree: 77%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 60%
 
 在停用Adobe Analytics之前，請檢閱[中的資訊評估在升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)之後何時停用Adobe Analytics。
 
-* **標籤：**&#x200B;停用Adobe Analytics擴充功能
+* **標記：**&#x200B;停用 Adobe Analytics 擴充功能
 
-* **AppMeasurment：**&#x200B;取代AppMeasurement.js程式庫s=newobject
+* **AppMeasurment：** 取代 AppMeasurement.js library s=newobject
 
 >[!NOTE]
 >
