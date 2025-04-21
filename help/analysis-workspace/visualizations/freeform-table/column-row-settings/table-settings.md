@@ -4,10 +4,10 @@ title: 列設定
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '1046'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -66,12 +66,12 @@ ht-degree: 93%
 | **[!UICONTROL 建立超連結]** | 建立此項目的超連結。請參閱[自由格式表格維度的超連結](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL 編輯超連結]** | 編輯此項目的超連結。請參閱[自由格式表格維度的超連結](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL 移除超連結]** | 刪除此項目的超連結。請參閱[自由格式表格維度的超連結](../freeform-table-hyperlinks.md) |
-| **[!UICONTROL 劃分]** | 劃分維度項目。從&#x200B;**[!UICONTROL 維度]**、**[!UICONTROL 量度]**、**[!UICONTROL 篩選器]**&#x200B;或者&#x200B;**[!UICONTROL 日期範圍]**&#x200B;清單中選取。使用&#x200B;*搜尋*&#x200B;進行元件的替代搜尋。 |
+| **[!UICONTROL 劃分]** | 劃分維度項目。從&#x200B;**[!UICONTROL 維度]**、**[!UICONTROL 量度]**、**[!UICONTROL 區段]**&#x200B;或&#x200B;**[!UICONTROL 日期範圍]**&#x200B;的清單中選取。 使用&#x200B;*搜尋*&#x200B;進行元件的替代搜尋。 |
 | **[!UICONTROL 刪除選取]** | 刪除選取的列 (項目)。 |
 | **[!UICONTROL 趨勢選取項目]** | 建立選取項目的趨勢折線圖視覺化效果。 |
 | **[!UICONTROL 僅顯示選取的列]** | 僅顯示視覺效果中的選取的列。 |
 | **[!UICONTROL 顯示所有列]** | 顯示視覺效果中的所有列。 |
-| **[!UICONTROL 從選取範圍建立區段]** | 開啟&#x200B;**[!UICONTROL 篩選產生器]**&#x200B;以從選取專案建立區段。 |
+| **[!UICONTROL 從選取範圍建立區段]** | 開啟&#x200B;**[!UICONTROL 區段產生器]**&#x200B;以從選取專案建立區段。 |
 | **[!UICONTROL 從選取項目中建立客群]** | 開啟「**[!UICONTROL 建立客群]**」對話框，從選取項目中建立客群。 |
 
 選取量度欄標題時，可使用以下其他內容選單選項。
@@ -85,7 +85,7 @@ ht-degree: 93%
 | **[!UICONTROL 比較歸因模型]** | 指定一個新的歸因模型並與選取欄的歸因模型進行比較。已新增包含新歸因模型量度的新欄位。此外，還新增百分比變更欄以進行比較。 |
 | **[!UICONTROL 重設欄寬]** | 重設欄寬為預設寬度。 |
 | **[!UICONTROL 從選取項目建立註解]** | 開啟「**[!UICONTROL 註解詳細資料]**」以新增註解。 |
-| **[!UICONTROL 從選取範圍建立區段]** | 開啟&#x200B;**[!UICONTROL 篩選產生器]**&#x200B;以從選取專案建立區段。 |
+| **[!UICONTROL 從選取範圍建立區段]** | 開啟&#x200B;**[!UICONTROL 區段產生器]**&#x200B;以從選取專案建立區段。 |
 | **[!UICONTROL 從選取項目中建立客群]** | 開啟「**[!UICONTROL 建立客群]**」對話框，從選取項目中建立客群。 |
 
 ## 變更列高

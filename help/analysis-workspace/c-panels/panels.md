@@ -4,7 +4,7 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 305ae20c48ddf0f2032b8f92a016eb92427016ed
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 97%
@@ -134,26 +134,26 @@ ht-degree: 97%
 
 面板放置區可讓您將區段和下拉式區段套用至面板內的所有表格和視覺效果。您可以將一或多個區段套用至面板。
 
-### 篩選器
+### 區段
 
-將任何區段從左側面板拖放至面板放置區，即可開始劃分面板。重複此程序，即可新增其他區段至面板。篩選器會並排顯示於面板頂部。
+將任何區段從左側面板拖放至面板放置區，即可開始劃分面板。重複此程序，即可新增其他區段至面板。區段會並排顯示於面板頂部。
 
 ![左側面板顯示可用的量度，以及拖曳至放置區的行動客戶量度。](assets/segment-filter.png)
 
 #### 快速區段
 
-也可以直接將非區段元件拖曳至放置區以建立快速區段，節省前往「[區段產生器](/help/components/filters/filter-builder.md)」的時間和作業。以此方式建立的篩選器會自動定義為事件層級區段。 透過選取區段名稱旁的「![編輯](/help/assets/icons/Edit.svg)」，可以快速修改此定義。
+也可以直接將非區段元件拖曳至放置區以建立快速區段，節省前往「[區段產生器](/help/components/filters/filter-builder.md)」的時間和作業。以此方法建立的區段會自動被定義為事件層級的區段。透過選取區段名稱旁的「![編輯](/help/assets/icons/Edit.svg)」，可以快速修改此定義。
 
 
 如需更多資訊，請參閱[快速區段](/help/components/filters/quick-filters.md)。
 
 ![已公開並放入放置區域的臨時區段](assets/adhoc-segment-filter.png)
 
-### 下拉式篩選器
+### 下拉式區段
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉式篩選器](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}的示範影片。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉式區段](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}。
 
 {{videoaa}}
 

@@ -5,10 +5,10 @@ title: 將 Customer Journey Analytics 報告匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: a7bd67894b02174d980a730086f89df97b524356
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '2285'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -183,7 +183,7 @@ ht-degree: 99%
 以下元件不受支援，且在執行完整表格匯出時， Analysis Workspace 會提示您從表格中刪除這些元件：
 
 * 使用量度定義中的基本或進階函數的計算量度 (請參閱「[基本函數](/help/components/calc-metrics/cm-functions.md)」和「[進階函數](/help/components/calc-metrics/cm-adv-functions.md)」，了解更多資訊)
-* 管理員限制匯出的元件 (請參閱「[標籤和政策](/help/data-views/data-governance.md)」中的「*在資料檢視中篩選資料治理政策*」部分，了解更多資訊)
+* 管理員已限制匯出的元件（如需詳細資訊，請參閱[標籤和原則](/help/data-views/data-governance.md)中資料檢視表&#x200B;*中資料治理原則的*&#x200B;區段）
 * 符合以下所有條件的任何維度：
    * 是從屬於[物件列陣](/help/use-cases/object-arrays.md) (類似於 Adob&#x200B;&#x200B;e Analytics 中的多值變數) 建立
    * [已啟用持續性](/help/data-views/component-settings/persistence.md)
@@ -197,7 +197,7 @@ ht-degree: 99%
    * 計算量度
    * 量度
    * 日期範圍
-   * 篩選器
+   * 區段
 
 ### 歸因行為
 

@@ -5,9 +5,9 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '985'
 ht-degree: 93%
 
 ---
@@ -70,7 +70,6 @@ Customer Journey Analytics 可用來：
 
 Customer Journey Analytics 中的數項功能已重新命名 (與傳統 Adobe Analytics 比較)，以便符合業界標準。一些更新的術語包括：
 
-* 區段現在稱為「篩選器」。
 * 虛擬報告套裝現在稱為「資料檢視」。
 * 「分類」現在稱為「查詢資料集」。
 * 客戶屬性現在稱為「輪廓資料集」。

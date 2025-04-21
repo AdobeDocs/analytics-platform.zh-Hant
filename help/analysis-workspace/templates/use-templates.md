@@ -4,7 +4,7 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 004804eace69ec72f824603ec0d7b82470b19041
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '19662'
 ht-degree: 99%
@@ -67,7 +67,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
    >
    >若要了解更多關於內容標籤，請參閱[元件設定](/help/data-views/component-settings/overview.md)。
 
-   1. 選取篩選圖示。
+   1. 選取區段圖示。
 
    1. 選取「**[!UICONTROL 未準備好供使用]**」，顯示需要附加元件的範本。
 
@@ -105,8 +105,8 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 1. 執行以下任一操作：
 
-   * 查看範本。
-   * 將一或多個篩選器拖曳到最上方的「篩選器」放置區。例如，拖曳「[!UICONTROL **Mobile 客戶**]」篩選器，然後查看結果。
+   * 檢視範本。
+   * 將一或多個區段拖曳到頂部的「區段」放置區。例如，拖曳「[!UICONTROL **Mobile 客戶**]」區段，然後檢視結果。
    * 前往右上方的行事暦，變更日期範圍。
    * 新增維度劃分、在其他量度中拖曳，且通常會根據您的需求自訂範本。
 

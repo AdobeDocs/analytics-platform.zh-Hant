@@ -4,10 +4,10 @@ title: 關鍵量度摘要
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 1. 新增 ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 關鍵量度摘要]**&#x200B;視覺效果。請參閱[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
 
-1. 透過選取「**[!UICONTROL 量度]**」、「**[!UICONTROL 主要日期範圍]**」、「**[!UICONTROL 比較日期範圍]**」(可選)，以及「**[!UICONTROL 篩選條件]**」(可選) 來設定視覺效果：
+1. 選取&#x200B;**[!UICONTROL 量度]**、**[!UICONTROL 主要日期範圍]**、**[!UICONTROL 比較日期範圍]** （選用）和&#x200B;**[!UICONTROL 區段]** （選用），以設定視覺效果：
 
    ![關鍵量度設定顯示量度、主要日期範圍、比較日期範圍以及區段的選項。](assets/key-metrics-config.png)
 
@@ -61,7 +61,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
    | **[!UICONTROL 量度]** | 選取想要檢查的量度。支援所有量度。 |
    | **[!UICONTROL 主要日期範圍]** | 任意形狀表格目前的日期範圍。<p>從資料視圖中的任何適用的日期範圍中進行選擇。</p> <p>如果您想要使用與視覺效果所在面板上相同的日期範圍，請選擇「[!UICONTROL **面板日期範圍**]」。</p> |
    | **[!UICONTROL 比較日期範圍]** | 您要與主要日期範圍進行比較的日期範圍。 |
-   | **[!UICONTROL 篩選器 (可選)]** | 您對此摘要感興趣的任何區段。 |
+   | **[!UICONTROL 區段 (選擇性)]** | 您對此摘要感興趣的任何區段。 |
 
    {style="table-layout:auto"}
 
