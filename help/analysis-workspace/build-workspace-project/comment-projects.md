@@ -5,9 +5,10 @@ feature: Workspace Basics
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 11e6d5a2aace4554b48c05c2316061de1e628108
+exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
+source-git-commit: ca619cfd0c4f4329c7069e387b5b4d919a53e9fb
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -24,6 +25,10 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 >* **組織：** Customer Journey Analytics管理員可以停用組織的這項功能，如[偏好設定](/help/analysis-workspace/user-preferences.md)中所述。
 
 ## 檢視評論
+
+您可以從右側邊欄的註解區域或註解徽章（若有的話）檢視註解。
+
+![在Analysis Workspace中檢視註解](assets/workspace-comments-view.png)
 
 ### 在註解區域中檢視註解
 
@@ -61,6 +66,12 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
 1. 在Analysis Workspace中開啟專案時，在專案中您要插入註解的區域按一下右鍵。
 
+   所有視覺效果都支援視覺效果標題上的註解徽章，但只有下列視覺效果才支援視覺效果中特定資料點的註解徽章：
+
+   * 自由表格
+   * 同類群組表格
+   * 折線圖
+
    <!--add screenshot-->
 
 1. 選取&#x200B;**[!UICONTROL 新增註解]**。
@@ -97,6 +108,8 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。 若�
 
 1. 輸入@符號，然後開始輸入您要包含之人員的名字、姓氏或電子郵件地址。
 
+   ![標籤使用者](assets/comments-tag-user.png)
+
 1. 當人員出現在下拉式功能表中時，請選取其名稱。
 
 當使用@符號在註解中包含人時，請考量下列事項：
@@ -122,6 +135,38 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。 若�
 1. （選擇性）輸入@符號，然後輸入註解名稱，將註解通知其他人。 如需使用@符號通知其他人的詳細資訊，請參閱[在註解中加入其他人](#include-others-in-a-comment)。
 
 1. 選取「**[!UICONTROL 提交]**」。
+
+## 為現有評論放置徽章
+
+如果右側邊欄的註釋區域中有註釋可用，但專案中尚未有徽章，您可以新增該徽章。
+
+1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。
+
+1. 選取您要放置徽章的註解旁的更多圖示![註解更多圖示](assets/comment-more-icon.png)，然後選取&#x200B;**[!UICONTROL 放置徽章]**。
+
+1. 選取您要為現有註解放置徽章的專案區域。
+
+   **註解徽章** ![註解徽章](assets/comment-indicator.png)已放置在您所選Workspace專案的區域中。 註解也會顯示在右側邊欄的註解區域頂端。
+
+   如需詳細資訊，請參閱[在專案中檢視註解徽章](#view-comment-badges-in-a-project)。
+
+若要移除徽章：
+
+1. 選取您要移除的徽章，然後選取&#x200B;**[!UICONTROL 移除徽章]**。
+
+   徽章已移除，但右側欄的註解區域仍可使用註解。
+
+## 移動現有評論的徽章
+
+您可以移動已放置給現有註解的註解徽章。
+
+1. 在Analysis Workspace中開啟專案後，找到您要移動之評論的徽章。
+
+1. 在徽章上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 移動位置]**。
+
+1. 選取您要放置徽章的專案區域。
+
+<!-- add section about adding images to comments. will be available at GA. Include that "you can have a maximum of 5 images per comment, and each image can be up to 2 MB." -->
 
 ## 複製評論的連結
 
@@ -182,36 +227,3 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。 若�
 依預設，已解析的註釋會隱藏在註釋區域中。 若要顯示已解決的註解：
 
 1. 在註解區域中選取篩選圖示，然後取消選取&#x200B;**[!UICONTROL 隱藏已解析的註解]**&#x200B;選項。
-
-## 為現有評論放置徽章
-
-如果右側邊欄的註釋區域中有註釋可用，但專案中尚未有徽章，您可以新增該徽章。
-
-1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。
-
-1. 選取您要放置徽章的註解旁的更多圖示![註解更多圖示](assets/comment-more-icon.png)，然後選取&#x200B;**[!UICONTROL 放置徽章]**。
-
-1. 選取您要為現有註解放置徽章的專案區域。
-
-   **註解徽章** ![註解徽章](assets/comment-indicator.png)已放置在您所選Workspace專案的區域中。 註解也會顯示在右側邊欄的註解區域頂端。
-
-   如需詳細資訊，請參閱[在專案中檢視註解徽章](#view-comment-badges-in-a-project)。
-
-若要移除徽章：
-
-1. 選取您要移除的徽章，然後選取&#x200B;**[!UICONTROL 移除徽章]**。
-
-   徽章已移除，但右側欄的註解區域仍可使用註解。
-
-## 移動現有評論的徽章
-
-您可以移動已放置給現有註解的註解徽章。
-
-1. 在Analysis Workspace中開啟專案後，找到您要移動之評論的徽章。
-
-1. 在徽章上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 移動位置]**。
-
-1. 選取您要放置徽章的專案區域。
-
-<!-- add section about adding images to comments. will be available at GA. Include that "you can have a maximum of 5 images per comment, and each image can be up to 2 MB." -->
-
