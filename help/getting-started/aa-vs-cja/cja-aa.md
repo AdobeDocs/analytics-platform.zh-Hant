@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 96%
+source-wordcount: '2441'
+ht-degree: 94%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 96%
 | **清單變數/清單屬性** | 完整支援。Customer Journey Analytics 使用 XDM 並支援無限制字串陣列，其使用方式與 listVars 類似。 |
 | **銷售 eVar** | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)提供完整支援 |
 | **量度** | 完整支援；Customer Journey Analytics 使用體驗資料模型 (XDM) 並支援無限制的量度，且未繫結到 Adobe Analytics 的自訂成功事件。Adobe Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
-| **將專案、篩選器與計算量度從 Adobe Analytics 移轉至 Customer Journey Analytics** | 完整支援。 |
+| **將專案、區段和計算量度從Adobe Analytics移轉至Customer Journey Analytics** | 完整支援。 |
 | **行動計分卡/儀表板** | 完整支援 |
 | **面板** | 完整支援以下面板：空白面板、歸因、自由格式、快速深入分析以及下一個或上一個項目。 |
 | **PDF 匯出** | 完整支援 |
@@ -73,7 +73,7 @@ ht-degree: 96%
 | **報表時間處理功能** | 完整支援；Customer Journey Analytics 完全依靠報告時間處理。 |
 | **報告 API 存取權** | 完整支援；可透過 [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/) 使用。 |
 | **排程報告/專案** | 完整支援 |
-| **區段** | 完整支援。現在稱為「篩選器」。請注意，傳統 Analysis Workspace 中任何現有的區段都不會移植至 Customer Journey Analytics。 |
+| **區段** | 完整支援。（先前稱為「篩選器」。） |
 | **串流媒體收集** | 串流媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢視者」面板和「媒體播放時間」面板的一部分提供。 |
 | **摘要層級資料來源** | 完整支援 |
 | **虛擬報表套裝** | 完整支援。現在稱為[資料檢視](/help/data-views/create-dataview.md)。 |
@@ -109,7 +109,7 @@ ht-degree: 96%
 | **產品變數** | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件陣列，以符合此使用案例。在 Customer Journey Analytics 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
 | **專案共用** | 專案共用功能僅支援在 Customer Journey Analytics 的使用者之間使用 - Customer Journey Analytics 和傳統 Analysis Workspace 之間沒有專案共用。 |
 | **Report Builder** | 支援用於 Excel 的新 Office 365 外掛程式。 |
-| **使用者權限/資料存取控制** | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-hant) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、篩選器或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。建立計算量度、區段或註解等作業均可使用其他使用者許可權。 |
+| **使用者權限/資料存取控制** | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-hant) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立/更新/刪除連線、專案、區段或由其他使用者建立的計算量度，而產品管理員和產品設定檔管理員可以編輯資料檢視。 建立計算量度、區段或註解等作業均可使用其他使用者許可權。 |
 | **視覺效果** | 支援所有 Workspace 視覺效果，但地圖視覺效果除外。 |
 | **跨裝置/跨管道拼接** | 支援包含身分識別資訊的事件資料集。請參閱[拼接](../../stitching/overview.md)。 |
 

@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 16%
@@ -124,7 +124,7 @@ Customer Journey Analytics由三個存取層級或三個角色控管：產品管
 | [!UICONTROL 報告工具] | [!UICONTROL Analysis Workspace 存取] | 允許使用者存取[Analysis Workspace](/help/analysis-workspace/home.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 引導式分析存取] | 讓使用者存取[引導式分析](/help/guided-analysis/overview.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 建立計算量度] | 讓使用者建立[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 使用者只能標籤、共用、刪除、重新命名、核准、取消核准其建立的計算量度或與其共用的計算量度。 |
-| [!UICONTROL 報告工具] | [!UICONTROL 建立篩選器] | 讓使用者建立[區段](/help/components/filters/filters-overview.md)。 使用者只能標籤、共用、刪除、重新命名、核准、取消核准他們建立的區段或與他們共用的區段。 |
+| [!UICONTROL 報告工具] | [!UICONTROL 建立區段] | 讓使用者建立[區段](/help/components/filters/filters-overview.md)。 使用者只能標籤、共用、刪除、重新命名、核准、取消核准他們建立的區段或與他們共用的區段。 |
 | [!UICONTROL 報告工具] | [!UICONTROL Labs 存取] | 讓使用者存取Customer Journey Analytics中的[Labs](/help/labs/labs.md)索引標籤。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 建立註解] | 讓使用者建立[註解](/help/components/annotations/overview.md)。 使用者只能標籤、共用、刪除和重新命名他們建立的註解或與他們共用的註解。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 客群檢視] | 讓使用者檢視[對象](/help/components/audiences/audiences-overview.md)。 |

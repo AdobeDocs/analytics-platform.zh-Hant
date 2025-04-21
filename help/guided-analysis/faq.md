@@ -5,10 +5,10 @@ exl-id: b6f92d47-6c09-4338-9dc5-b30bbfbe9f7f
 feature: Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 95%
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 | 使用者 | 人員 |
 | 維度 | 維度 |
 | 維度項目 | 維度項目 |
-| 區段 | 篩選器 |
+| 區段 | 區段 |
 | 篩選器 | 報告篩選器 |
 | 計算量度、量度 | 計算量度 |
 
@@ -60,7 +60,7 @@ ht-degree: 95%
 
 雖然 [Analysis Workspace](../analysis-workspace/home.md) 和引導式分析使用相同的基礎資料，各個工具支援您形成該資料查詢的方式依然有所不同。
 
-* **Analysis Workspace 是以維度為中心的體驗。**&#x200B;表格通常由維度列組成，而欄通常是量度。可以在列和欄中套用篩選器，以獲得所需的資料。
+* **Analysis Workspace 是以維度為中心的體驗。**&#x200B;表格通常由維度列組成，而欄通常是量度。區段可以套用至列和欄，以取得想要的資料。
 
 * **引導式分析是以事件和使用者為中心的體驗。**&#x200B;每個分析都從選取事件開始，然後可以新增維度和區段來調整該事件資料。
 

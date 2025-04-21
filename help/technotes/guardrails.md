@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 7%
@@ -187,10 +187,10 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
-| 每個篩選器的容器 | 50 | 系統強制的護欄 | 每個區段的容器數上限。 |
+| 每個區段的容器 | 50 | 系統強制的護欄 | 每個區段的容器數上限。 |
 | 每個計算量度的量度 | 25 | 系統強制的護欄 | 每個計算量度的最大量度數。 |
-| 每個篩選器的量度和維度 | 25 | 系統強制的護欄 | 每個區段的最大不重複量度和維度數量。 |
-| 每個篩選器的巢狀容器 | 10 | 系統強制的護欄 | 每個區段的巢狀容器數上限。 |
+| 每個區段的量度和維度 | 25 | 系統強制的護欄 | 每個區段的最大不重複量度和維度數量。 |
+| 每個區段的巢狀容器 | 10 | 系統強制的護欄 | 每個區段的巢狀容器數上限。 |
 | 每個區段的規則 | 100 | 系統強制的護欄 | 每個區段的最大規則數。 |
 | 每個區段每個Dimension的字串比較 | 100 | 系統強制的護欄 | 每個區段每個維度的最大字串比較數量。 |
 | 計算的量度 | 6,000 | 系統強制的護欄 | 組織的計算量度數上限。 |

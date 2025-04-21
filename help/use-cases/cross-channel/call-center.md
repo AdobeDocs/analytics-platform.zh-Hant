@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 88%
@@ -73,7 +73,7 @@ Customer Journey Analytics需要通用識別碼才能產生[合併的資料集](
    * 在一個人員容器中，讓資料集 ID 等同於網路資料
    * 在另一個人員容器中，讓資料集 ID 等同於客服中心資料
 2. 在 Analysis Workspace 中，將[「文氏圖」](/help/analysis-workspace/visualizations/venn.md)視覺效果拖放至工作區域的畫布。
-3. 將兩個新建立的區段拖曳至「**[!UICONTROL 新增篩選器]**」區域，並將「人員」量度拖曳至「**[!UICONTROL 新增量度]**」區域。
+3. 將兩個新建立的區段拖曳至「**[!UICONTROL 新增區段]**」區域，並將「人員」量度拖曳至「**[!UICONTROL 新增量度]**」區域。
 
 所產生的「文氏圖」視覺效果會顯示資料集 (包含網路和客服中心資料) 的人員數量。重疊範圍越大，表示成功彙整越多人員。未重疊的區域代表人員只隸屬於一個資料集。
 

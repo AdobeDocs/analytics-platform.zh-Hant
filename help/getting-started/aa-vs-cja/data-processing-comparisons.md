@@ -4,7 +4,7 @@ description: 了解各種報告功能的資料處理差異
 exl-id: e3deedb2-0171-4fc2-9127-b9543603d4f0
 feature: Basics
 role: User
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 96%
@@ -65,7 +65,7 @@ Adobe Analytics 和 Customer Journey Analytics 執行的資料處理步驟以及
 | Adobe Analytics [Livestream](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) | <ul><li> 處理規則</li><li>VISTA 規則</li><ul> |   | <ul><li>點擊層級的行銷管道規則</li><li>造訪層級的行銷管道規則</li><li>造訪邏輯</li><li>歸因邏輯</li><li>區段邏輯</li><li>計算量度</li><li>跨裝置分析</li></ul> |  |
 | Adobe Analytics [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hant) | <ul><li>處理規則</li><li>VISTA 規則</li><li>造訪定義 (請見附註)</li><li>跨裝置分析 (請見附註)</li></ul> | <ul><li>點擊層級的行銷管道規則 (請見附註))</li><li>造訪層級的行銷管道規則 (請見附註) 歸因邏輯</li><li>區段邏輯</li><li>計算量度</li></ul> |  | <ul><li>CDA 需要使用或具有報告時間處理功能的虛擬報告套裝。</li><li>核心 Analytics 中的 Attribution IQ 使用在報告時完全衍生的行銷管道 (即衍生的中間值)。</li><li>Attribution IQ 使用處理時間造訪定義，除非用於報告時間處理虛擬報告套裝。</li></ul> |
 | 具有[報告時間處理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=zh-Hant)功能的 Adobe Analytics 虛擬報告套裝 (VRS RTP) | <ul><li>處理規則</li><li>VISTA 規則</li><li>[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)</li></ul> | <ul><li>造訪定義</li><li>歸因邏輯</li><li>區段邏輯</li><li>計算量度</li><li>其他虛擬報表套裝報表時間處理設定</li></ul> | <ul><li>點擊層級的行銷管道規則</li><li>造訪層級的行銷管道規則</li></ul> | <ul><li>請參閱「虛擬報告套裝報告時間處理」[文件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=zh-Hant)。</li></ul> |
-| Adobe Experience Platform 資料湖中基於 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)的資料集 | <ul><li>處理規則</li><li>VISTA 規則</li><li>點擊層級的行銷管道規則</li><li>欄位式拼接 (請見附註)</li></ul> |   | <ul><li>[造訪層級的行銷管道規則](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html)</li><li>造訪邏輯</li><li>歸因邏輯</li><li>篩選器邏輯</li></ul> | <ul><li>必須套用您自己的區段邏輯和計算量度</li><li>除了由 Analytics 來源連接器建立的資料集之外，欄位式拼接還會建立一個單獨的拼接資料集。</li></ul> |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hant) 報告 | <ul><li>做為 Adobe Experience Platform 資料收集的一部分實施</li></ul> | <ul><li>工作階段定義</li><li>[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html)設定<li>歸因邏輯</li><li>計算量度</li><li>篩選器邏輯</li></ul> | <ul><li>造訪層級的行銷管道規則</li></ul> | <ul><li>必須使用拼接資料集才能使用跨管道分析。</li></ul> |
+| Adobe Experience Platform 資料湖中基於 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)的資料集 | <ul><li>處理規則</li><li>VISTA 規則</li><li>點擊層級的行銷管道規則</li><li>欄位式拼接 (請見附註)</li></ul> |   | <ul><li>[造訪層級的行銷管道規則](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html)</li><li>造訪邏輯</li><li>歸因邏輯</li><li>區段邏輯</li></ul> | <ul><li>必須套用您自己的區段邏輯和計算量度</li><li>除了由 Analytics 來源連接器建立的資料集之外，欄位式拼接還會建立一個單獨的拼接資料集。</li></ul> |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hant) 報告 | <ul><li>做為 Adobe Experience Platform 資料收集的一部分實施</li></ul> | <ul><li>工作階段定義</li><li>[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html)設定<li>歸因邏輯</li><li>計算量度</li><li>區段邏輯</li></ul> | <ul><li>造訪層級的行銷管道規則</li></ul> | <ul><li>必須使用拼接資料集才能使用跨管道分析。</li></ul> |
 
 {style="table-layout:auto"}

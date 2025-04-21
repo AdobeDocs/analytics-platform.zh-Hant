@@ -3,7 +3,7 @@ description: 循序區段是指使用THEN運運算元定義區段條件順序的
 title: 循序區段
 feature: Filters
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '2459'
 ht-degree: 4%
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 
 
-建立循序區段的基本概念與使用[區段產生器](filter-builder.md)建立一般區段並無不同。 您可以使用[定義產生器](filter-builder.md#definition-builder)來建構您的區段定義。 在該建構中，您會使用元件、容器、運運算元和邏輯。 只要您在主要定義或您在[定義產生器](filter-builder.md#definition-builder)內使用的任何容器中選取&#x200B;**[!UICONTROL Then]**&#x200B;運運算元，一般區段就會變成循序篩選器。
+建立循序區段的基本概念與使用[區段產生器](filter-builder.md)建立一般區段並無不同。 您可以使用[定義產生器](filter-builder.md#definition-builder)來建構您的區段定義。 在該建構中，您會使用元件、容器、運運算元和邏輯。 只要您在主要定義或您在[定義產生器](filter-builder.md#definition-builder)內使用的任何容器中選取&#x200B;**[!UICONTROL Then]**&#x200B;運運算元，一般區段就會變成循序區段。
 
 ### 範例
 

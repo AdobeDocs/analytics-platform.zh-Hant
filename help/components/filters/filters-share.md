@@ -4,7 +4,7 @@ title: 共用區段
 feature: Filters
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 11%
@@ -22,9 +22,9 @@ ht-degree: 11%
 
 1. 在[區段管理員](manage-filters.md)中，選取一或多個要共用的區段。
 1. 從動作列中選取![共用](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]**。
-1. 在&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;對話方塊中：
+1. 在&#x200B;**[!UICONTROL 共用區段]**&#x200B;對話方塊中：
 
-   ![共用篩選器對話方塊](assets/share-filter-dialog.png)
+   ![共用區段對話方塊](assets/share-filter-dialog.png)
 
    1. （選擇性）使用![搜尋](/help/assets/icons/Search.svg)至&#x200B;*搜尋個人或群組*，並限制您要共用區段的群組或個人清單。
 

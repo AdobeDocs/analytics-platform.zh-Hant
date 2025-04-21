@@ -5,10 +5,10 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 * **[!UICONTROL 檢視]**：在此分析和[淨成長](net-growth.md)之間切換。
 * **[!UICONTROL 事件]**：您要測量的事件。由於此分析是以使用者為主，因此在期間內與事件互動一次的使用者將被視為活躍使用者。您可以在查詢中列入一個事件。
 * **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。選項包括[!UICONTROL 使用者數量]和[!UICONTROL 使用者百分比]。
-* **[!UICONTROL 區段]**：您想要篩選資料所用的區段。您可以在查詢中列入一個區段。
+* **[!UICONTROL 區段]**：您要將資料作為分段依據的區段。 您可以在查詢中列入一個區段。
 
 ### 圖表設定
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 ### 日期範圍
 
-您希望分析的日期範圍。此設定有兩個元件：
+您想要分析的日期範圍。此設定有兩個元件：
 
 * **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期細度。有效選項包括每小時、每天、每週、每月和每季。相同的日期範圍可以有不同的間隔，這會影響圖表中的資料點數和表格中的欄數。例如，以每日細度查看跨越三天的分析將僅顯示三個資料點，而以每小時細度查看跨越三天的分析將顯示 72 個資料點。
 * **[!UICONTROL 日期]**：開始和結束日期。為方便您使用，我們提供滾動日期範圍預設和先前儲存的自訂範圍，或者您可以使用行事曆選擇器來選擇固定的日期範圍。

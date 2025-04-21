@@ -4,19 +4,19 @@ description: 瞭解區段的用途以及如何建立簡單區段。
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1428'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
 
 # 分段概觀
 
-Customer Journey Analytics可讓您建立、管理、共用功能強大、具針對性的對象區段，並套用至您的報表。 篩選器可讓您根據特性或互動來識別人員、工作階段或事件的子集。 篩選設計為編碼化的客群深入分析，您可以根據特定需求建立篩選，然後驗證、編輯並與其他團隊成員分享。
+Customer Journey Analytics可讓您建立、管理、共用功能強大、具針對性的對象區段，並套用至您的報表。 區段可讓您根據特性或互動來識別人員、工作階段或事件的子集。 區段是設計作為編碼化的對象深入分析，您可以根據特定需求建立這些區段，然後驗證、編輯並與其他團隊成員分享。
 
-篩選條件可以根據：
+區段可以根據：
 
 - 屬性（瀏覽器型別、裝置、造訪次數、國家/地區、性別）、
 - 互動（促銷活動、關鍵字搜尋、搜尋引擎）、
@@ -83,7 +83,7 @@ An example of a complex sequential segment if you want to find the persons that
 <table style="table-layout: fixed; border: none;" width="100%">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 人員</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 個人</td>
 </tr>
 
 <tr>
@@ -119,7 +119,7 @@ An example of a complex sequential segment if you want to find the persons that
 - 這些人員的所有工作階段。
 - 這些人員的所有事件資料。
 
-「人員」容器是定義範圍最廣的容器，在此層級產生的報表會為所有符合篩選條件的人傳回事件和工作階段。 根據定義的日期範圍，「人員」容器最容易發生變更。
+「人員」容器是定義範圍最廣的容器，在此層級產生的報表會為所有符合區段資格的人傳回事件和工作階段。 根據定義的日期範圍，「人員」容器最容易發生變更。
 「人員」容器可以包含以人員整體歷史記錄為基礎的值：
 
 - 首次購買間隔天數。
@@ -191,7 +191,7 @@ You can use nesting between containers and between conditions within a container
 
 Traditional Analytics comes with numerous out-of-the-box templates and calculated metrics. Many of them do not apply in Customer Journey Analytics, or have to be renamed or recreated. Others depend on a solution for context-aware variables in Customer Journey Analytics.
 
-| Filter Name | Description |
+| Segment Name | Description |
 | --- | --- |
 | All Data | All Data is a required segment that gets dynamically added to reporting when a metric is added to the row of a Freeform table. |
 -->

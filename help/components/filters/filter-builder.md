@@ -4,10 +4,10 @@ title: 建立區段
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '1571'
-ht-degree: 46%
+ht-degree: 45%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 46%
    | **[!UICONTROL 資料檢視]** | 您可以選取區段的資料檢視。  您定義的區段可在資料檢視的[設定](/help/data-views/create-dataview.md#settings-filters)標籤中作為區段使用。 |
    | **[!UICONTROL 僅限專案的區段]** | 說明區段僅會顯示在建立該區段的專案中的資訊方塊，且不會將該區段新增至您的元件清單的資訊方塊。 啟用&#x200B;**[!UICONTROL 讓此區段可用於您的所有專案，並將其新增至您的元件清單]**&#x200B;以變更該設定。 只有當您使用[!UICONTROL 快速區段]介面中的&#x200B;**[!UICONTROL Open builder]**&#x200B;建立[快速區段](quick-filters.md)，並將快速區段資訊轉換為一般區段時，才會顯示此資訊方塊。 |
    | **[!UICONTROL 標題]**![必填](/help/assets/icons/Required.svg) | 為區段命名，例如`Last month mobile customers`。 |
-   | **[!UICONTROL 說明]** | 提供區段的說明，例如`Filter to define the mobile customers for the last month`。 |
+   | **[!UICONTROL 說明]** | 提供區段的說明，例如`Segment to define the mobile customers for the last month`。 |
    | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標籤來組織區段。 開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL ENTER]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
    | **[!UICONTROL 定義]** ![規定必要](/help/assets/icons/Required.svg) | 使用[定義產生器](#definition-builder)定義您的區段。 |
 
@@ -82,7 +82,7 @@ ht-degree: 46%
 
 ### 元件
 
-建構區段定義的重要部分是使用維度、量度、現有區段和日期範圍。 篩選器產生器中的元件面板都提供所有這些元件。
+建構區段定義的重要部分是使用維度、量度、現有區段和日期範圍。 所有這些元件都可從區段產生器的元件面板使用。
 
 ![開始建置定義](assets/start-building-filter.gif){width=100%}
 
@@ -130,7 +130,7 @@ ht-degree: 46%
 
 您可以建立包含滾動式日期範圍的區段。 如此一來，您就能回答與持續性促銷活動或事件有關的問題。 例如，您可以建置一個區段，包含&#x200B;*過去60天內進行線上購買的所有人*。
 
-![使用滾動日期範圍進行篩選](assets/filter-rolling-date-range.gif)
+![使用滾動日期範圍的區段](assets/filter-rolling-date-range.gif)
 
 
 >[!BEGINSHADEBOX]

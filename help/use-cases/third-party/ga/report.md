@@ -5,10 +5,10 @@ exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: fef935eb7692ffb2dade28cb6a7c3d408bcac1c3
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -56,9 +56,9 @@ Customer Journey Analytics可讓您針對跨管道資料使用複雜的歸因模
 
 ![計算量度](../../assets/calc-metric.png)
 
-Attribution IQ 也可讓您篩選資料。 您可以查看僅限特定組使用者的歸因，例如使用多台裝置使用者。
+Attribution IQ也可讓您將資料分段。 您可以查看僅限特定組使用者的歸因，例如使用多台裝置使用者。
 
-![篩選器](../../assets/filter.png)
+![區段](../../assets/filter.png)
 
 您也可以將您的網頁和應用程式收入歸因於您的 Google 廣告內容。 此資料集範例從線上 Google Ads 所驅動的行動應用程式，比從網頁上獲得更高的收入。 當您根據網頁和應用程式收入進行廣告排序時，您對於哪些 Google 廣告成效最佳會有非常不同的觀點。
 

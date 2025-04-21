@@ -2,8 +2,8 @@
 title: 產品使用情況概觀
 description: 檢視有關您的組織如何使用 Customer Journey Analytics 的深入分析和報告。
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
-workflow-type: ht
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 * **[!UICONTROL 元件類型]**：已新增、刪除或修改的元件類型。維度項目包含：
    * [!UICONTROL 維度]
    * [!UICONTROL 量度]
-   * [!UICONTROL 篩選器]
+   * [!UICONTROL 區段]
    * [!UICONTROL 計算量度]
    * [!UICONTROL 日期範圍]
    * [!UICONTROL 註解]

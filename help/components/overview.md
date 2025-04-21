@@ -5,10 +5,10 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 9393be88ab7320adb5bd046701667f638673af5e
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 您可以管理下列元件：
 
-* [區段](filters/filters-overview.md)：建立、管理、共用功能強大且目標明確的對象區段，並將其套用至您的報表。 篩選器可讓您根據特性或互動來識別人員的子集。
+* [區段](filters/filters-overview.md)：建立、管理、共用功能強大且目標明確的對象區段，並將其套用至您的報表。 區段可讓您根據特性或互動來識別人員的子集。
 * [計算量度](calc-metrics/calc-metr-overview.md)：將量度和公式作為新元件用於報告中
 * [日期範圍](date-ranges/create.md)：自訂和調整 Analysis Workspace 提供的日期範圍。
 * [註解](/help/components/annotations/overview.md)：將內容相關的資料細微差別和深入分析傳達給您的組織。
@@ -84,7 +84,7 @@ Analysis Workspace中的元件包含量度、維度、區段和日期範圍，�
 
 2. 在搜尋欄位中開始輸入要用於專案中的元件的名稱。
 
-   顏色和圖示識別元件類型。**維度** ![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)為橘色，**篩選器** ![Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)為藍色，**日期範圍** ![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)為紫色，而&#x200B;**量度** ![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)為綠色。<br/>Adobe圖示![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg)表示計算量度範本或區段範本。 計算器圖示![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示管理員在您組織中所建立的計算量度。
+   顏色和圖示識別元件類型。**維度** ![Dimension圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)為橘色，**區段** ![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)為藍色，**日期範圍** ![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)為紫色，且&#x200B;**量度** ![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)為綠色。<br/>Adobe圖示![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg)表示計算量度範本或區段範本。 計算器圖示![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示管理員在您組織中所建立的計算量度。
 
 3. 從下拉式清單來選取元件。
 

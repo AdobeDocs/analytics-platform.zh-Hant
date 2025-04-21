@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: be615a45a68b47f95517992cc4268a887ac1110a
 workflow-type: tm+mt
 source-wordcount: '14697'
 ht-degree: 2%
@@ -3116,7 +3116,7 @@ GROUP BY 1,
 >[!TAB 觀察者]
 
 * Looker具有每個節點的最大連線數目設定，此設定必須介於5到100之間。  您無法將此值設為1。  此設定表示Looker連線一律使用至少5個可用的查詢服務工作階段。
-* Looker可讓您以Customer Journey Analytics資料檢視為基礎，以檢視建立專案。 Looker接著會使用LookerML，根據資料檢視中可用的維度和量度建立模型。  此專案檢視不會自動更新以符合來源。  如果您變更或新增CJA資料檢視維度、量度、計算量度或篩選器，這些變更不會自動顯示在Looker中。  您必須手動更新專案檢視或建立新專案。
+* Looker可讓您以Customer Journey Analytics資料檢視為基礎，以檢視建立專案。 Looker接著會使用LookerML，根據資料檢視中可用的維度和量度建立模型。  此專案檢視不會自動更新以符合來源。  如果您變更或新增CJA資料檢視維度、量度、計算量度或區段，這些變更不會自動顯示在Looker中。  您必須手動更新專案檢視或建立新專案。
 * 查閱者在日期或日期時間欄位（例如&#x200B;**[!UICONTROL Daterange Date]**&#x200B;或&#x200B;**[!UICONTROL Daterangeday Date]**）的使用者體驗令人困惑。
 * 查閱者的日期範圍是排除而非包含。  **[!UICONTROL until （之前）]**&#x200B;為灰色，因此您可能會遺漏該外觀。  結束日期前，您必須選取要報告日期的前一天。
 * Looker不會自動將您的量度視為量度。  當您選取量度時，依預設，Looker會嘗試將量度視為查詢中的維度。  若要將量度視為量度，您需要建立如上所述的自訂欄位。 作為捷徑，您可以選取&#x200B;**[!UICONTROL ⋮]**、選取&#x200B;**[!UICONTROL 彙總]**，然後選取&#x200B;**[!UICONTROL 總計]**。

@@ -3,7 +3,7 @@ description: 將個別量度分段可讓您在同一份報表中比較量度。
 title: 區段量度
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 2f87afb9c87b0436ee40cc67a04d99d4f4f10e74
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 
    您的區段可能如下所示。
 
-   ![篩選器德國](assets/filter-germany.png)
+   ![德國區段](assets/filter-germany.png)
 
 1. 返回計算量度產生器，使用區段更新計算量度。
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
    您的區段看起來應該像這樣。
 
-   ![篩選器德國](assets/filter-not-germany.png)
+   ![德國區段](assets/filter-not-germany.png)
 
 1. 返回計算量度產生器，使用區段更新計算量度。
 

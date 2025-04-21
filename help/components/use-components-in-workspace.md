@@ -4,7 +4,7 @@ title: 在 Analysis Workspace 中使用元件
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 7%
@@ -89,9 +89,9 @@ ht-degree: 7%
 
 如需量度的詳細資訊，請參閱[量度](/help/components/apply-create-metrics.md)。
 
-### 將篩選器新增至專案
+### 將區段新增至專案
 
-[篩選器](/help/components/filters/filters-overview.md)可讓您根據特性或特定互動來識別人員、工作階段或事件的子集。
+[區段](/help/components/filters/filters-overview.md)可讓您根據特性或特定互動來識別人員、工作階段或事件的子集。
 
 您可以透過下列任何方式在Analysis Workspace中使用區段：
 
@@ -103,7 +103,7 @@ ht-degree: 7%
 將區段新增至自由表格中的欄時，區段會套用至表格欄中的所有內容。 您也可以新增區段作為流失視覺效果的一部分。
 
 * 在元件中使用區段
-當您定義[計算量度](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md)、[註解](/help/components/annotations/create-annotations.md#annotation-builder)或甚至[區段](/help/components/filters/filter-builder.md)等元件時，可以使用篩選器做為定義的一部分。
+當您定義[計算量度](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md)、[註解](/help/components/annotations/create-annotations.md#annotation-builder)或甚至[區段](/help/components/filters/filter-builder.md)等元件時，您可以使用區段做為定義的一部分。
 
 
 ### 新增日期範圍至專案

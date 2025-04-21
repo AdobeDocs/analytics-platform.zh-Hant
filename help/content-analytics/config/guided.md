@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 46%
@@ -138,7 +138,7 @@ ht-degree: 46%
    您可以執行下列動作：
 
    * 若要搜尋特定資料檢視，請使用![搜尋](/help/assets/icons/Search.svg)欄位。
-   * 若要將可用資料檢視清單分段，請選取![顯示區段](/help/assets/icons/Filter.svg)。 您可以在[!UICONTROL 連線]、[!UICONTROL 擁有者]和[!UICONTROL 沙箱]上劃分清單。<br/>使用![隱藏](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏區段]**&#x200B;來隱藏區段窗格。
+   * 若要將可用資料檢視清單分段，請選取![顯示區段](/help/assets/icons/Filter.svg)。 您可以篩選[!UICONTROL 連線]、[!UICONTROL 擁有者]和[!UICONTROL 沙箱]上的清單。<br/>使用![隱藏](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏區段]**&#x200B;來隱藏區段窗格。
    * 若要定義在表格中顯示哪些欄，請選取「![欄設定](/help/assets/icons/ColumnSetting.svg)」。選取「**[!UICONTROL 自訂表格]**」對話框中顯示哪些欄，然後選取「**[!UICONTROL 套用]**」以套用變更。
 
 1. 選取![SelectBox](/help/assets/icons/SelectBox.svg)您要使用的資料檢視。

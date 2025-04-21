@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '4716'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -20,8 +20,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2025 年 4 月** | |
-| 檢視和管理使用情況 | 已重寫如何[檢視](/help/connections/manage-connections.md#usage)和[管理](/help/technotes/estimate-usage.md) Customer Journey Analytics使用的檔案 |
-| 內容分析 | Adobe Content Analytics的[檔案](/help/content-analytics/content-analytics.md)。 Content Analytics可讓您快速輕鬆地調查大量內容資料，以找出趨勢、找出異常、識別內容疲勞，以及從內容曝光中獲得深入分析。 |
+| 檢視和管理使用情況 | 已重新編寫有關如何[檢視](/help/connections/manage-connections.md#usage)和[管理](/help/technotes/estimate-usage.md) Customer Journey Analytics 使用情況的文件 |
+| Content Analytics | [Adobe Content Analytics](/help/content-analytics/content-analytics.md) 文件。透過 Content Analytics，您可以快速且輕鬆地調查大量內容資料，從中發現趨勢、找出異常處、確認內容疲勞，並從內容曝光中獲取深入分析。 |
 | **2025 年 3 月** | |
 | Quantum Metric 使用案例 | 新增了從 [Quantum Metric](/help/use-cases/third-party/quantum-metric/qm-overview.md) 收集資料的使用案例。 |
 | **2025 年 2 月** |  |
@@ -99,7 +99,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 預測 | 新增有關[預測](../analysis-workspace/c-forecast/forecasting.md) (Analysis Workspace 的新功能) 的文件，用於使用任何支援的時間詳細程度 (每小時、每天、每週、每月和每年) 為自由格式表格和折線圖預測標準或計算量度。 |
 | 更新有關匯出完整表格時新增帳戶和位置的文件 | 更新文件，以反映[從 Analysis Workspace 匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)時，在設定新帳戶或位置時的小幅度介面更新。<p>新的&#x200B;[!UICONTROL **新增帳戶**]&#x200B;選項現在可以在&#x200B;[!UICONTROL **帳戶**]&#x200B;下拉式選單中使用。[!UICONTROL **新增位置**]&#x200B;選項 (先前作為&#x200B;[!UICONTROL **位置名稱**]&#x200B;下拉式選單旁邊的按鈕提供) 現在可在選單內使用。 |
 | 從 Adobe Analytics 移轉時的新元件移轉資訊 | 新增資訊至[從 Adobe Analytics 發展而來](/help/getting-started/aa-to-cja.md)，以參考新的[元件移轉](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)功能 (記錄在 Adobe Analytics 管理員指南中)。 |
-| 釐清部分資訊僅供管理員使用 | 新增資訊，說明[計算量度管理器](/help/components/calc-metrics/cm-workflow/cm-manager.md)和[篩選器管理器](/help/components/filters/manage-filters.md)內所述的「上次使用」和「使用於」欄位僅供系統管理員使用。 |
+| 釐清部分資訊僅供管理員使用 | 新增資訊以說明[計算量度管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md)和[區段管理員](/help/components/filters/manage-filters.md)中說明的「上次使用」和「用於」欄僅適用於系統管理員。 |
 | 匯出資料集所需的權限 | 新增資訊，說明將資料集匯出至雲端目標[所需的權限](/help/technotes/access-control.md)。 |
 | 管理連線 | 根據客戶意見回饋更新[管理連線](../connections/manage-connections.md)文章。 |
 | 衍生欄位 | 新增功能[限制](/help/data-views/derived-fields/derived-fields.md#limitations)摘要，以及說明如何決定[運算子](/help/data-views/derived-fields/derived-fields.md#operators) (用於函數) 的數量。 |
@@ -120,7 +120,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 使用衍生欄位來設定目標 | 新增[使用案例](../use-cases/goals-using-derived-fields.md)文章，說明如何使用衍生欄位來設定目標並加以報告。 |
 | 將完整表格匯出至雲端 | 新增有關將包含數百萬 Workspace 列的完整表格匯出到雲端目標的文件。 <p>匯出完整表格時，可在Workspace中設計資料表格的一次性或排程傳送功能，並支援最多五個劃分、五個量度、區段和計算量度，而所有這些全都可在串連表格中完成。 這是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多經常要求且目前在 Data Warehouse 中尚未提供的新功能。</p><p>如需更多資訊，請參閱[將 Customer Journey Analytics 報告匯出至雲端](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)。 |
 | 報告活動管理器 | 新增報告活動管理器的文件。 <p>報告活動管理器可讓您查看組織中每個連線的報告容量。它為管理員提供報告使用量的詳細可見度，以便在尖峰報告時段輕鬆診斷和修正容量問題。</p> <p>已新增下列新文章：<ul><li>[報告活動管理器概觀](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[在報告活動管理器中檢視報告活動](/help/reporting-activity-manager/reporting-activity.md)</li><li>[在報告活動管理器中取消請求](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
-| 在管理頁面上新增欄 | 記錄現在可在[計算量度管理器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html)和[篩選器管理器](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html)記錄中使用的新欄。 |
+| 在管理頁面上新增欄 | 已記錄現在可在[計算量度管理員](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html)和[區段管理員](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html)中使用的新欄。 |
 | 與 Adobe Analytics 比較 | 新增[概觀頁面](../getting-started/aa-vs-cja/overview.md)作為比較和理解 Customer Journey Analytics 和 Adobe Analytics 之間差異的簡介。 |
 | 其他衍生欄位功能 | 更新有關新 [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) 函數的文件。 |
 | **2023 年 9 月** | |
@@ -194,7 +194,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 日期 | 更新說明 |
 | --- | --- |
 | **2022 年 12 月** |  |
-| 2022 年 12 月 16 日 | 有關[管理Customer Journey Analytics資料使用量](/help/technotes/estimate-usage.md)的新主題。 |
+| 2022 年 12 月 16 日 | 新增有關[管理 Customer Journey Analytics 資料使用情況](/help/technotes/estimate-usage.md)的主題。 |
 | **2022 年 10 月** | |
 | 2022 年 10 月 | 有關[排程專案的密碼保護](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=zh-Hant#password)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
 | 2022 年 10 月 | 有關[客戶自控金鑰](/help/privacy/cmk.md)的新主題。此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |

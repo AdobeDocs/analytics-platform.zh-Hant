@@ -4,7 +4,7 @@ description: 決定元件如何與區段中的值互動。
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 feature: Filters
 role: User
-source-git-commit: 716d6423c0cc8b91aa4951952191e0fd0e627c0f
+source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 54%
@@ -13,7 +13,7 @@ ht-degree: 54%
 
 # 運算子
 
-篩選產生器可讓您使用選取的運運算元來比較和限制元件的值。 運算子有兩種類別: [[!UICONTROL 標準]](#standard-operators)和[[!UICONTROL 不重複計算]](#distinct-count-operators)。
+區段產生器可讓您使用選取的運運算元來比較和限制元件的值。 運算子有兩種類別: [[!UICONTROL 標準]](#standard-operators)和[[!UICONTROL 不重複計算]](#distinct-count-operators)。
 
 ## 標準運算子
 
