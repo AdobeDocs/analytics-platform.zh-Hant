@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -24,23 +24,23 @@ ht-degree: 23%
 <!-- markdownlint-enable MD034 -->
 
 
-格式可讓您決定指定量度在報表中使用的顯示方式。
+格式可讓您確定指定量度使用在報告中時的顯示方式。
 
 ## 設定量度的格式設定
 
-您可以調整指定量度的格式設定，以決定其顯示方式。
+您可以調整格式設定來確定指定量度的顯示方式。
 
-1. 在Customer Journey Analytics中，選取&#x200B;[!UICONTROL **資料檢視**]&#x200B;索引標籤。
+1. 在 Customer Journey Analytics 中，選取「[!UICONTROL **資料檢視**]」索引標籤。
 
-1. 選取包含您要設定其格式設定的元件的資料檢視。
+1. 選取含有您要設定格式設定的元件資料檢視。
 
 1. 選取「[!UICONTROL **元件**]」索引標籤。
 
-1. 選取您要設定的元件，然後展開頁面右側的&#x200B;[!UICONTROL **格式**]&#x200B;區段。
+1. 選取要設定的元件，然後展開頁面右側的「[!UICONTROL **格式**]」部分。
 
    ![格式設定](../assets/format-settings.png)
 
-1. 指定下列資訊：
+1. 註明下列資訊：
 
    | 設定 | 說明 |
    | --- | --- |
@@ -48,7 +48,7 @@ ht-degree: 23%
    | **[!UICONTROL 小數]** | 在整數結構描述資料類型上不可見。可讓您指定量度顯示的小數位數。 |
    | **[!UICONTROL 日期]** | 讓您決定在報告中做為維度使用時如何顯示日期-時間欄位。[了解更多](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
    | **[!UICONTROL 日期-時間]** | 讓您決定在報告中做為維度使用時如何顯示日期-時間欄位。[了解更多](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-   | **[!UICONTROL 貨幣]** | 可讓您決定要以哪種貨幣顯示量度。 <p>如果您分析交易以不同貨幣發生的全域資料，請參閱[使用貨幣轉換](#use-currency-conversion)。</p> |
+   | **[!UICONTROL 貨幣]** | 可讓您確定您希望量度以哪種貨幣顯示。 <p>如果您要分析以不同貨幣進行交易的全球資料，請參閱「[使用貨幣換算](#use-currency-conversion)」。</p> |
    | **[!UICONTROL 顯示上升趨勢的方式]** | 可讓您指定此量度的上升趨勢是好 (綠色) 或壞 (紅色)。 |
    | **[!UICONTROL True 和]**&#x200B;和 **[!UICONTROL False 值]** | 僅對布林值結構描述資料類型可見。允許您自訂 `true` 和 `false` 值的維度項目標籤。 |
 
@@ -65,46 +65,46 @@ ht-degree: 23%
 
 <!-- markdownlint-enable MD034 -->
 
-Customer Journey Analytics的貨幣轉換對於在國際上營運的企業而言，是極為寶貴的。 透過移除手動貨幣轉換的複雜性，Customer Journey Analytics中的貨幣轉換為財務資料帶來一致性和明確性。 貨幣轉換會追蹤每日歷史匯率，並將這些每日匯率維持在4年。
+對在國際營運的企業來說，Customer Journey Analytics 的貨幣轉換功能非常重要。Customer Journey Analytics 免除了手動轉換貨幣的複雜程序，其貨幣轉換功能可提供統一和清晰的財務資料。貨幣轉換會追蹤每日的歷史匯率，並將這些每日匯率維持 4 年的時間。
 
-舉例來說，如果電子商務業務在美國、英國及歐盟營運，銷售資料可自動轉換為美元，確保輕鬆比較及全面瞭解效能。
+例如，如果一家電子商務企業在美國、英國和歐盟營運，銷售數據可以自動轉換為美元，確保企業可輕鬆比較數據並全面了解業績。
 
 >[!NOTE]
 >
->開始設定貨幣轉換的量度前，請考量下列事項：
+>在開始設定貨幣換算量度之前，請考慮以下事項：
 >
->* 您為貨幣轉換選取的量度必須具有數值型別（雙精度、長精度、整數、短整數、位元組）。
->* 設定您的Customer Journey Analytics連線，使其至少包含一個事件資料集，該資料集為包含貨幣量度的每個事件保留一個貨幣代碼維度。 該貨幣代碼維度使用符合[ISO 4217](https://www.iso.org/iso-4217-currency-codes.html)標準的字母貨幣代碼來表示貨幣。 這些值應全大寫格式，例如$為USD， €為EUR， £為GBP。
+>* 您為貨幣轉換選取的量度必須有數字類型 (雙精度浮點數、長整數、整數、位元組)。
+>* 設定您的 Customer Journey Analytics 連線以包含至少一個事件資料集，其中每個包含貨幣量度的事件都有貨幣代碼維度。此貨幣代碼維度是使用符合[ ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 標準 (表示貨幣) 的字母貨幣代碼。這些值應以全大寫格式，例如 USD 代表 $、EUR 代表 €、GBP 代表 £。
 
-若要決定指定量度貨幣的顯示和轉換方式：
+若要確定如何顯示和轉換指定量度的貨幣：
 
-1. 如上所述，在[設定量度的格式設定](#configure-format-settings-for-a-metric)中，開始設定您要使用貨幣作為格式的量度。
+1. 開始設定要使用貨幣作為格式的量度，如上所述 (在[進行量度的格式設定](#configure-format-settings-for-a-metric)中)。
 
-1. 選取量度後，在頁面右側的&#x200B;[!UICONTROL **格式**]&#x200B;區段中選取下列專案：
+1. 選取了量度後，在頁面右側的「[!UICONTROL **格式**]」部分進行下列選擇：
 
-   * 在&#x200B;[!UICONTROL **格式**]&#x200B;欄位中，選取&#x200B;[!UICONTROL **貨幣**]。
+   * 在「[!UICONTROL **格式**]」欄位中，選取「[!UICONTROL **貨幣**]」。
 
-   * 在&#x200B;[!UICONTROL **小數位數**]&#x200B;欄位中，選擇量度顯示的小數位數。
+   * 在「[!UICONTROL **小數位數**]」欄位中，選擇度量顯示的小數位數。
 
-     只有在量度的數值型別為「兩次」時，才可使用此選項。
+     只有量度的數字類型為雙精度時才有此選項。
 
-   * 選取&#x200B;[!UICONTROL **轉換貨幣**]&#x200B;選項。
+   * 選取「[!UICONTROL **轉換貨幣**]」選項。
 
-   * 在&#x200B;[!UICONTROL **選取貨幣代碼維度**]&#x200B;欄位中，選取代表您要轉換之貨幣（資料所依據的貨幣）的維度。 例如，選取名為&#x200B;[!UICONTROL **貨幣代碼**]&#x200B;的維度。
+   * 在「[!UICONTROL **選取貨幣代碼維度**]」欄位中，選取代表您要轉換貨幣所用 (您的資料所依據的貨幣) 的維度。例如，選取名為&#x200B;[!UICONTROL **貨幣代碼**]&#x200B;的維度。
 
-     如果您目前的資料結構描述中沒有包含貨幣代碼欄位的維度，您可以使用[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料Distiller](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)或[衍生欄位](/help/data-views/derived-fields/derived-fields.md)來建立新的貨幣代碼欄位。 「資料準備」僅適用於新的實作，因為它僅適用於未來用途。 根據組織的設定，可以使用「資料Distiller」和「衍生欄位」來存取歷史上的貨幣代碼值。
+     如果您目前資料結構描述中沒有包含貨幣代碼欄位的維度，則您可以使用[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)， [資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)或[衍生欄位](/help/data-views/derived-fields/derived-fields.md)建立新的貨幣代碼欄位。資料準備只適用於新的實施，因為這只能以往前為基礎。根據組織的設定，可以使用資料蒸餾器和衍生欄位來存取歷史貨幣代碼值。
 
-   * 在&#x200B;[!UICONTROL **轉換及顯示**]&#x200B;欄位中的貨幣中，選擇您要轉換資料的貨幣。
+   * 在「[!UICONTROL **以此類型轉換和顯示貨幣：**]」欄位中，選取您想要轉換資料的貨幣。
 
-1. 如果您想要將貨幣轉換套用至其他量度，請重複這些步驟。
+1. 如果您想將貨幣轉換套用至其他量度，請重複這些步驟。
 
 
 
 ### 常見問題
 
-+++ 如何執行貨幣轉換？
++++ 貨幣兌換如何進行？
 
-在報告時間時，量度和原始貨幣代碼的值會轉換為USD，然後轉換為設定用於顯示的貨幣。 對於此轉換，會使用適用於事件時間的每日貨幣匯率。
+報告時，量度值和原始貨幣代碼將轉換為美元，然後轉換為所設定要顯示的貨幣。此轉換會使用每日貨幣匯率 (適用於事件發生時)。
 
 +++
 

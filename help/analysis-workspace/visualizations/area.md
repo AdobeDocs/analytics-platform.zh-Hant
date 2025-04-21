@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
 source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 25%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中的區域圖和棧疊區域圖視覺效果。_<br/>_檢視這篇文章的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本的[區域圖和棧疊區域圖](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area)。_
+_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的區域圖和區域堆疊圖視覺效果。_<br/>_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本的[區域和堆疊區域](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/area)。_
 
 >[!ENDSHADEBOX]
 
 
-區域圖視覺效果有標準和棧疊選項。
+此區域圖視覺效果具有標準和堆疊選項。
 
 ## 區域 {#area}
 
@@ -37,9 +37,9 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 
 
-![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]**&#x200B;視覺效果類似折線圖，但折線下方有一塊上色區域。 有多個量度且以要視覺化方式表示兩個或更多量度交集的區域時，請新增區域圖。
+![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 區域圖]**&#x200B;視覺效果類似線圖，但在線圖下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可新增區域圖。
 
-![顯示多個量度的區域視覺效果](assets/area.png)
+![顯示多個量度的區域圖視覺效果](assets/area.png)
 
 ## 堆疊區域圖 {#area-stacked}
 
@@ -53,17 +53,17 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 <!-- markdownlint-enable MD034 -->
 
 
-![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]**&#x200B;視覺效果類似於「區域」，但每個數列都從上一個數列的頂端開始。
+ ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL 區域堆疊圖]**&#x200B;視覺效果類似於區域圖，但每個系列都從前一個系列的上方開始。
 
-![棧疊的區域，顯示前一個數列頂端的每個數列。](assets/area-stacked.png)
+![區域堆疊圖是在前一個系列上方顯示每個系列。](assets/area-stacked.png)
 
-使用![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**&#x200B;中的&#x200B;**[!UICONTROL 100%棧疊]**&#x200B;選項，將圖表轉換為100%棧疊視覺效果。
+使用![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**&#x200B;中的 **[!UICONTROL 100% 堆疊]**&#x200B;選項，將圖表轉換為 100% 堆疊視覺效果。
 
-![棧疊區域顯示100%棧疊視覺效果。](assets/area-stacked100.png)
+![區域堆疊是顯示 100% 堆疊視覺效果。](assets/area-stacked100.png)
 
 >[!MORELIKETHIS]
 >
->[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -1,25 +1,25 @@
 ---
-description: 透過電子郵件傳送Analysis Workspace專案，或排程進行傳送。
+description: 透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。
 keywords: Analysis Workspace
-title: 透過電子郵件傳送報告給其他人
+title: 透過電子郵件向其他人發送報告
 feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
 source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # 傳送檔案給其他人
 
-您可以透過電子郵件將Customer Journey Analytics報表以檔案形式傳送給所選使用者。 您可以隨選傳送檔案，也可以設定要依排程傳送的檔案。 能以 CSV 或 PDF 格式傳送檔案。
+您可以透過電子郵件將 Customer Journey Analytics 報告作為檔案發送給特定使用者。您可以臨時發送檔案，也可以設定按排程發送檔案。能以 CSV 或 PDF 格式傳送檔案。
 
-套用至專案的任何標籤都會自動套用至匯出。
+任何套用於專案的索引標籤都會自動套用於匯出檔案。
 
-也可以使用其他匯出Customer Journey Analytics資料的方法，如[匯出概觀](/help/analysis-workspace/export/export-project-overview.md)中所述。
+還有匯出 Customer Journey Analytics 資料的其他方法，如[匯出概觀](/help/analysis-workspace/export/export-project-overview.md)所述。
 
 ## 立即傳送檔案 {#now}
 
@@ -35,11 +35,11 @@ ht-degree: 60%
 1. (選用) 按一下&#x200B;**[!UICONTROL 「顯示排程選項」]**，以指定傳送排程。
 1. 按一下&#x200B;**[!UICONTROL 「立即傳送」]**。
 
-![傳送檔案視窗及立即傳送按鈕。](assets/send-file-no-scheduling-options.JPG)
+![發送檔案視窗和立即發送按鈕。](assets/send-file-no-scheduling-options.JPG)
 
 ## 依排程傳送檔案 {#schedule}
 
-若要透過電子郵件定期傳送檔案給收件者：
+若要透過電子郵件定期發送檔案給收件者：
 
 1. 按一下「**[!UICONTROL 共用] > [!UICONTROL 排程檔案匯出]**」。
 1. 指定檔案類型 (CSV 或 PDF)。
@@ -50,13 +50,13 @@ ht-degree: 60%
 1. 指定傳送頻率。每個頻率都允許不同的自訂內容。
 1. 按一下&#x200B;**[!UICONTROL 「依排程傳送」]**。
 
-![顯示[傳送檔案]視窗和排程選項，以顯示[開始日期]、[結束日期]及每日頻率設定。](assets/send-file.JPG)
+![發送檔案視窗和所示的排程選項，會顯示開始日期、結束日期以及每日頻率設定。](assets/send-file.JPG)
 
 ## 排程專案管理員 {#manager}
 
 可在「**[!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 排程專案]**」中管理已排程 Analysis Workspace 專案。
 
-在「排程專案管理員」中，您可以編輯和刪除周期性專案排程。在搜尋列中或使用左側面板中的篩選選項來搜尋排程。 您可以依標籤、核准的排程、擁有者等篩選。
+在「排程專案管理員」中，您可以編輯和刪除周期性專案排程。在搜尋列中或使用左側面板中的篩選選項來搜尋排程。您可以依標籤、核准的排程、所有者等篩選。
 
 | 欄位 | 說明 |
 | --- | --- |
@@ -66,7 +66,7 @@ ht-degree: 60%
 | [!UICONTROL 所有者] | 建立及擁有專案的人。 |
 | [!UICONTROL 標記] | (選擇性) 標記是組織專案的好方法。 所有使用者都可建立標記，並將一個或多個標記套用到專案。 不過，您只能看見自己所擁有或他人與您共用的那些專案的標記。 |
 | [!UICONTROL 已傳遞到] | 此排程專案的收件者。 |
-| [!UICONTROL 到期日] | 您可以將到期日設定為一年，無論排程頻率為何。 |
+| [!UICONTROL 過期日期] | 無論排程頻率如何，您都可以將到期日設定為最長一年。 |
 | [!UICONTROL 頻率] | 您想要將此排程專案傳送給收件者的頻率。 |
 | [!UICONTROL 執行時間] | 在一天中的什麼時間傳送此排程專案。 |
 | [!UICONTROL 查詢數] | 針對此專案執行的查詢數。 |
@@ -78,12 +78,12 @@ ht-degree: 60%
 | **[!UICONTROL 編輯排程]** | 按一下排程的標題以更新傳送設定。 |
 | **[!UICONTROL 刪除排程]** | 選取清單中的排程專案，然後在功能表按一下「刪除」。這會刪除專案選取的排程，不會刪除專案本身。 |
 | **[!UICONTROL 新增標籤]** | 選取清單中的排程專案，然後選擇「標籤」或「核准」來組織排程，更能輕鬆搜尋。 |
-| **[!UICONTROL 檢視失敗的排程]** | 導覽至左側面板>「其他篩選器>失敗」，檢視失敗的排程。 |
-| **[!UICONTROL 檢視過期的排程]** | 導覽至左側面板>「其他篩選器>過期」，檢視過期的排程。 按一下排程標題，以設定新的傳送排程。 |
+| **[!UICONTROL 檢視失敗的排程]** | 導覽至「左側面板 > 其他篩選器 > 失敗」，查看失敗的排程。 |
+| **[!UICONTROL 檢視過期的排程]** | 導覽至「左側面板 > 其他篩選器 > 過期」，查看過期的排程。按一下排程標題，以設定新的傳送排程。 |
 | **[!UICONTROL 檢視排程 ID]** | 導覽至右上角的欄選項，然後將「排程 ID」欄新增至表格。排程的 ID 對除錯而言通常很實用。 |
 
-「排程專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已停用，所有已排程的傳送將停止。
-如需詳細資訊，請參閱[排程專案](/help/components/scheduled-projects-manager.md)。
+「排程專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已被停用，所有已安排的傳送將停止。
+如需更多資訊，請參閱「[已排程專案](/help/components/scheduled-projects-manager.md)」。
 
 ## 密碼保護排程專案 {#password}
 
@@ -99,34 +99,34 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->密碼保護排程專案的選項僅會對已購買[Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html)附加產品的Customer Journey Analytics客戶顯示。
+>密碼保護排程專案的選項僅會對已購買 [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html) 附加產品的 Customer Journey Analytics 客戶顯示。
 
 Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv 格式傳送。
 
-貴公司購買Healthcare Shield SKU並啟用後，會在下列情況下顯示提示，要求為排程專案建立密碼：
+貴公司購買 Healthcare Shield SKU 並啟用後，會在下列情況下顯示為排程專案建立密碼：
 
 * 有人建立一個新排程專案時。
 
-* 即將傳送現有排程專案時。目前排程的專案在密碼保護到位前會停用。 排程專案的擁有者會收到通知此需求的電子郵件。
+* 即將傳送現有排程專案時。目前排程專案會停用，直到密碼保護設定完成。排程專案的所有者會收到一封電子郵件，告知他們這項要求。
 
-![編輯排程專案視窗和密碼加密通知，指示您的組織需要密碼加密。](assets/password.png)
+![編輯排程專案視窗和密碼加密通知表示您的組織需要密碼加密。](assets/password.png)
 
 ### 密碼需求
 
-密碼要求符合Adobe標準，要求至少8個字元，其中至少一個數字和一個特殊字元。
+密碼需求符合 Adobe 標準，要求至少 8 個字元，其中至少一個數字和一個特殊字元。
 
 ### 密碼保護新排程專案
 
-1. 儲存專案後，請移至&#x200B;**[!UICONTROL 共用]** > **[!UICONTROL 立即傳送檔案]**，或&#x200B;**[!UICONTROL 共用]** > **[!UICONTROL 依排程傳送檔案]**。
+1. 儲存專案後，前往「**[!UICONTROL 共用]** > **[!UICONTROL 立即發送檔案]**」，或「**[!UICONTROL 共用]** > **[!UICONTROL 依排程發送檔案]**」。
 1. 按照上面的指示，在[立即傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=zh-Hant#now)或[依排程傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=zh-Hant#schedule)下面。
 
 ### 密碼保護現有排程專案
 
-在排程專案之前，專案所有者會收到類似以下內容的電子郵件：
+在專案排程之前，專案所有者會收到類似這樣的電子郵件：
 
-![貴組織需要指示密碼加密的Customer Journey Analytics電子郵件通知。](assets/email-password.png)
+![Customer Journey Analytics 電子郵件通知會顯示您的組織需要密碼加密。](assets/email-password.png)
 
-1. 登入Customer Journey Analytics。
-1. 選取&#x200B;**[!UICONTROL 檢視排程專案]**。
+1. 登入 Customer Journey Analytics。
+1. 選取「**[!UICONTROL 檢視排程專案]**」。
 1. 在 **[!UICONTROL 編輯排程專案]** 對話框中，輸入再重新輸入密碼。
-1. 讓排程專案的收件者知道此密碼。 請勿將密碼散發給不是排程專案收件者的使用者。
+1. 讓排程專案的收件者知道此密碼。請勿將密碼發給非排程專案的收件者。

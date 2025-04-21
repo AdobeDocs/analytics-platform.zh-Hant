@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
 source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中的水準橫條圖和棧疊水準橫條圖視覺效果。_<br/>_請參閱本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本的[棧疊的水準列與水準列](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar)。_
+_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的橫條圖和橫條圖堆疊視覺效果。_<br/>_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本的[橫條圖和橫條圖堆疊區域](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar)。_
 
 >[!ENDSHADEBOX]
 
-橫條圖視覺效果有標準和棧疊選項。
+此橫條圖視覺效果具有標準和堆疊選項。
 
 ## 橫條圖 {#horizontal-bar}
 
@@ -33,9 +33,9 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 <!-- markdownlint-enable MD034 -->
 
 
-此![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL 水準條]**&#x200B;視覺效果會顯示代表一或多個量度多個值的水準條。
+![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL 橫條圖]**&#x200B;視覺效果顯示代表一個或多個量度多個值的橫條。
 
-![水準長條圖，顯示包含頁面檢視、頁面速度、造訪、登入與退出的量度。](assets/horizontal-bar.png)
+![橫條圖條顯示包括頁面檢視次數、頁面速度、造訪人數、登入次數和退出次數等量度。](assets/horizontal-bar.png)
 
 ## 堆疊橫條圖 {#horizontal-bar-stacked}
 
@@ -49,19 +49,19 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 <!-- markdownlint-enable MD034 -->
 
 
-![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL 棧疊的水準橫條]**&#x200B;視覺效果類似[!UICONTROL 水準橫條]，但數列橫條會以棧疊方式顯示。
+![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL 堆疊橫條圖]**&#x200B;視覺效果類似[!UICONTROL 橫條圖]，但數列橫條以堆疊顯示。
 
-![顯示頁面檢視次數、瀏覽次數、登入次數和退出次數的棧疊橫條圖。](assets/horizontal-bar-stacked.png)
+![堆疊橫條圖顯示頁面檢視次數、造訪數、登入次數和退出次數。](assets/horizontal-bar-stacked.png)
 
-使用![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**&#x200B;中的&#x200B;**[!UICONTROL 100%棧疊]**&#x200B;選項，將圖表轉換為100%棧疊視覺效果。
+使用![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**&#x200B;中的 **[!UICONTROL 100% 堆疊]**&#x200B;選項，將圖表轉換為 100% 堆疊視覺效果。
 
-![100%棧疊的水準橫條圖](assets/horizontal-bar-stacked100.png)
+![100% 堆疊橫條圖](assets/horizontal-bar-stacked100.png)
 
 
 >[!MORELIKETHIS]
 >
->[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺效果內容功能表](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

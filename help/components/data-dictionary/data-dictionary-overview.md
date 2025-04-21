@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
 source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Analyis Workspace資料字典](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analyis Workspace 的資料字典](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}的示範影片。
 
 {{videoaa}}
 
@@ -68,30 +68,30 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 * 直接在 Analysis Workspace 中更新元件說明。對資料字典中元件說明所做的任何更新都會反映在資料檢視中。
 
-  同樣地，資料檢視中元件說明的任何更新都會反映在Analysis Workspace中。
+  同樣地，對資料檢視中元件說明所做的任何更新都會反映在 Analysis Workspace 中。
 
-  如需有關在Analysis Workspace或資料檢視中新增元件說明的詳細資訊，請參閱[新增元件說明](/help/components/add-component-descriptions.md)。
+  如需有關在 Analysis Workspace 或資料檢視中新增元件說明的更多資訊，請參閱「[新增元件說明](/help/components/add-component-descriptions.md)」。
 
 ## 存取資料字典
 
 您可以在 Analysis Workspace 中透過以下任何方式存取資料字典：
 
-左側面板中的![資料字典圖示](assets/data-dictionary-access.png)
+![左邊面板的資料字典圖示](assets/data-dictionary-access.png)
 
-* 從按鈕面板中的![書籤](/help/assets/icons/Bookmark.svg)。
+* 從按鈕面板中的「![書籤](/help/assets/icons/Bookmark.svg)」。
 
 
 
-* 從元件資訊彈出視窗中的![書籤](/help/assets/icons/Bookmark.svg)。
+* 在元件的資訊快顯視窗內從「![書籤](/help/assets/icons/Bookmark.svg)」。
 
 
 有關資料字典中可用的各種選項詳細資訊，請參閱[查看資料字典中的元件資訊](/help/components/data-dictionary/view-data-dictionary.md)。
 
 ## 更新和整理資料字典
 
-Customer Journey Analytics管理員負責維護其組織的健康資料字典，如[監視資料字典健康狀況](/help/components/data-dictionary/monitor-data-dictionary-health.md)中所述。
+Customer Journey Analytics 管理員負責為其組織維護健康的資料字典，如[監視資料字典健康情況](/help/components/data-dictionary/monitor-data-dictionary-health.md)中所述。
 
-在此程式中，Customer Journey Analytics管理員可以編輯資料字典中每個元件的相關資訊，如[編輯資料字典中的元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md)中所述。
+作為此流程的一部分，Customer Journey Analytics 管理員可以編輯有關資料字典中每個元件的資訊，如[編輯資料字典中的元件項目](/help/components/data-dictionary/edit-entries-data-dictionary.md)。
 
 ## 移動、最小化或關閉資料字典
 

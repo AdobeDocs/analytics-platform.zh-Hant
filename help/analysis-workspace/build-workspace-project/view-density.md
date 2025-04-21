@@ -5,41 +5,41 @@ feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
 role: User
 source-git-commit: 373d0c9989fb692da23efe371c65344093801140
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
 # 檢視密度
 
-調整檢視密度可減少左側面板、自由表格和同類群組表格的垂直邊框間距，好讓您在畫面上檢視更多資料。 有三個可用選項：
+調整檢視密度可減少左側面板、自由格式表格和同類群組表格的垂直邊框間距，好讓您在畫面上看到更多資料。 提供三個選項：
 
 >[!BEGINTABS]
 
->[!TAB 壓縮]
+>[!TAB 精簡]
 
-此版本提供最密集的檢視畫面。
+此版本為最密集的畫面。
 
-![緊湊檢視密度。](assets/view-density-compact.png)
+![最密集的檢視畫面。](assets/view-density-compact.png)
 
 >[!TAB 舒適]
 
-這是您習慣在Workspace中使用的檢視。
+這是為您熟悉的 Workspace 畫面。
 
-![展開的檢視密度。](assets/view-density-comfortable.png)
+![擴展的檢視密度。](assets/view-density-comfortable.png)
 
->[!TAB 已展開]
+>[!TAB 展開]
 
-這是您習慣在Workspace中使用的檢視。
+這是為您熟悉的 Workspace 畫面。
 
-![展開的檢視密度。](assets/view-density-expanded.png)
+![擴展的檢視密度。](assets/view-density-expanded.png)
 
 >[!ENDTABS]
 
 
-若要設定檢視密度:
+若要設定檢視密度：
 
-1. 在Workspace中，瀏覽至&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]**。
+1. 在 Workspace 中，導覽至&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 專案資訊與設定」]**。
 
-1. 選取&#x200B;**[!UICONTROL 檢視密度]**&#x200B;選項，然後選取&#x200B;**[!UICONTROL 儲存]**。
+1. 選取「**[!UICONTROL 檢視密度]**」選項，然後選取「**[!UICONTROL 儲存]**」。
