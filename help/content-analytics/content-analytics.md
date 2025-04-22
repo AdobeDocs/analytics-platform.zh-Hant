@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: feb253b20820112d5aa4b4eee31cff74d99fa186
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 44%
@@ -13,8 +13,6 @@ ht-degree: 44%
 ---
 
 # Content Analytics 概觀
-
-{{release-limited-testing}}
 
 Content Analytics 可幫助行銷人員了解內容如何影響企業已定義的關鍵績效指標。除了行為資料外，Content Analytics還收集有關內容使用方式以及內容如何推動影響的資料。 例如，客戶對特定語調、特定調色盤或特定主題的回應是否更好？ 這些資訊與專門設計的報告工作流程和範本，可以幫助您在 Customer Journey Analytics 中進行更好的分析並，獲得有關客戶歷程資料的更深入。
 

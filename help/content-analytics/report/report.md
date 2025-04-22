@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Content Analytics報表概觀
-
-{{release-limited-testing}}
 
 您可在[Analysis Workspace](/help/analysis-workspace/home.md)中報告、執行分析並深入瞭解Content Analytics。 有特定的Workspace [範本](#template)可供使用，因此您可以立即存取預先填入的Workspace專案，其中包含相關的內容深入分析。
 

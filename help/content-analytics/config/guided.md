@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 46%
@@ -13,9 +13,6 @@ ht-degree: 46%
 ---
 
 # Content Analytics 引導式設定
-
-{{release-limited-testing}}
-
 
 引導式設定可協助您快速輕鬆地設定 Content Analytics。引導式設定會使用精靈來設定要求，可為您的組織自動設定 Content Analytics。在「**[!UICONTROL 設定]**」畫面上，您可以建立新設定或編輯現有設定。
 

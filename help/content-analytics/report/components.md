@@ -1,11 +1,11 @@
 ---
 title: Content Analytics元件
-description: 特定「內容分析」元件的詳細資料，例如維度、（計算）量度和衍生欄位
+description: 特定Content Analytics元件的詳細資訊，例如維度、 （計算）量度和衍生欄位
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 0731eadd403ecb428d36492b83351aa0e696b41f
+source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 22%
@@ -14,9 +14,7 @@ ht-degree: 22%
 
 # Content Analytics元件
 
-{{release-limited-testing}}
-
-內容分析將下列類別的元件(維度、 （計算）量度、衍生欄位)新增至Customer Journey Analytics中現有的元件：
+Content Analytics將下列類別的元件(維度、 （計算）量度、衍生欄位)新增至Customer Journey Analytics中現有的元件：
 
 * [體驗中繼資料](#experience-metadata)
 * [體驗屬性](#experience-attributes)
