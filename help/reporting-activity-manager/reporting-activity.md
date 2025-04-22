@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 99%
@@ -51,7 +51,7 @@ ht-degree: 99%
 
    ![顯示報告佇列的報告活動](assets/reporting-activity-monthly.png)
 
-1. （選擇性）您可以搜尋連線清單或劃分連線清單：
+1. (選用) 您可以搜尋或篩選連線清單：
 
    * 使用搜尋欄位以搜尋特定的連線。開始輸入連線名稱或 ID，且當您輸入時，報告套裝清單會隨之更新。
 

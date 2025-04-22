@@ -4,9 +4,9 @@ description: 瞭解區段的用途以及如何建立簡單區段。
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1474'
 ht-degree: 5%
 
 ---
@@ -83,7 +83,7 @@ An example of a complex sequential segment if you want to find the persons that
 <table style="table-layout: fixed; border: none;" width="100%">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 個人</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 人員</td>
 </tr>
 
 <tr>
@@ -160,6 +160,14 @@ Customer Journey Analytics中的資料檢視可讓您決定工作階段持續的
 - 清單 Prop
 - 清單維度
 - 銷售維度（在事件情境中）
+
+
+
+### B2B容器
+
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+
+當您有[Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md)的存取權時，區段中有其他可用的容器。 您可以在[B2B概念和功能](/help/getting-started/cja-b2b-concepts-features.md)中找到有關使用這些額外容器的更多詳細資料。
 
 
 ### 邏輯群組容器

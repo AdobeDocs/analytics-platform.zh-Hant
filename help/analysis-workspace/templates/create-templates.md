@@ -4,10 +4,10 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: b98cd4dc73e57f9ae5704a5d9e529ae3b518576c
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -110,8 +110,7 @@ ht-degree: 84%
 
 1. 選取篩選器圖示，以篩選專案清單。
 
-1. 在篩選邊欄中，選取「**其他篩選器**」，然後選取「**公司範本**」。
-
+1. 在篩選器邊欄中，選取&#x200B;**[!UICONTROL 其他篩選器]**，然後選取&#x200B;**[!UICONTROL 公司範本]**。
 
    顯示公司範本清單。 除非已釘選，否則不會顯示所有的一般專案。
 

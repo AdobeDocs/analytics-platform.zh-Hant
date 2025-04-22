@@ -4,10 +4,10 @@ description: 瞭解如何在Customer Journey Analytics中管理區段
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -64,12 +64,12 @@ ht-degree: 32%
 | ![複製](/help/assets/icons/Copy.svg)  **[!UICONTROL 複製]** | 複製選取的區段。 已建立具有相同名稱和尾碼`(Copy)`的新區段。 |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出為 CSV]** | 將區段匯出至`Segments List.csv`檔案。 |
 
-### 作用中區段列
+### 使用中的篩選欄
 
-區段列➌會顯示從區段面板套用至區段清單（如果有的話）的作用中區段。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除區段。 如果指定了多個區段，您可以使用&#x200B;**[!UICONTROL 全部移除]**&#x200B;來移除所有區段。
+篩選列➌會顯示從篩選面板套用至區段清單（如果有的話）的作用中區段。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選條件。如果指定了多個篩選器，您可以使用&#x200B;**[!UICONTROL 全部移除]**&#x200B;來移除所有篩選器。
 
-### 區段面板
+### 篩選面板
 
-您可以使用左側面板![區段](/help/assets/icons/Filter.svg) **[!UICONTROL 篩選器]**&#x200B;來區段清單➍。 區段面板會顯示區段型別，以及遵循特定區段的區段數。 選取![區段](/help/assets/icons/Filter.svg)以切換區段面板的顯示。
+您可以使用![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 篩選器]**&#x200B;左側面板來篩選區段清單➍。 篩選器面板會顯示篩選器的型別以及遵循特定篩選器的區段數。 選取![篩選器](/help/assets/icons/Filter.svg)以切換篩選器面板的顯示。
 
 如需詳細資訊，請參閱[篩選區段清單](filters-filter.md)。

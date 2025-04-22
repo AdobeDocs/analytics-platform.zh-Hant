@@ -1,8 +1,8 @@
 ---
-source-git-commit: be615a45a68b47f95517992cc4268a887ac1110a
+source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
 workflow-type: tm+mt
-source-wordcount: '3796'
-ht-degree: 31%
+source-wordcount: '3759'
+ht-degree: 30%
 
 ---
 # 程式碼片段
@@ -58,12 +58,6 @@ ht-degree: 31%
 ## 影片示範Adobe Analytics {#videoaa}
 
 *此影片示範使用Adobe Analytics的功能。 不過，此功能在 Customer Journey Analytics 中也同樣可用。請注意Adobe Analytics和Customer Journey Analytics之間的術語差異（例如「造訪」與「工作階段」）。*
-
-
-## 篩選面板 {#filterspanel}
-
-1. 選取![Filter](/help/assets/icons/Filter.svg)開啟「篩選」面板。如果您需要更多空間顯示篩選清單，可以再次選取![Filter](/help/assets/icons/Filter.svg)來關閉面板。
-1. 從任何可用的篩選器區段中選取篩選器。
 
 
 ## 標籤篩選區段 {#tagfiltersection}

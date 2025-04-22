@@ -4,7 +4,7 @@ title: 建立區段
 feature: Filters
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 45%
@@ -20,17 +20,10 @@ ht-degree: 45%
 >title="建立對象"
 >abstract="對象可以從區段建立，並與Adobe Experience Platform共用以啟用。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="資料預覽"
 >abstract="將此區段的資料與資料檢視的資料進行比較。 此預覽百分比是根據資料檢視中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
-
-<!-- markdownlint-enable MD034 -->
-
 
 
 **[!UICONTROL 區段產生器]**&#x200B;對話方塊可用來建立新區段或編輯現有區段。 對話方塊的標題為&#x200B;**[!UICONTROL 新區段]**&#x200B;或&#x200B;**[!UICONTROL 編輯您從[[!UICONTROL 區段]管理員](/help/components/filters/manage-filters.md)建立或管理的區段]**。
@@ -155,32 +148,23 @@ CA和平板電腦的![棧疊區段](assets/filter-ca-tablet-stacked.png)
 
 ## 歸因 {#attribution}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="重複"
 >abstract="包括維度的例項和持續值。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="例項"
 >abstract="包括維度的例項和持續值。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
 >title="非重複的例項"
 >abstract="包括維度的唯一例項 (非重複) 例項。"
 
-<!-- markdownlint-enable MD034 -->
 
 
 
@@ -218,3 +202,5 @@ CA和平板電腦的![棧疊區段](assets/filter-ca-tablet-stacked.png)
 有關使用三個區段的事件的範例報表看起來如下所示：
 
 ![區段歸因模型結果](assets/filter-dimension-attribution-results.png)
+
+<!-- markdownlint-enable MD034 -->

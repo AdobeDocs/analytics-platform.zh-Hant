@@ -4,10 +4,10 @@ title: 警報概觀
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
-source-git-commit: daa07b603caa613ca49b61c2e8e461d558459f57
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics 中的警報可讓您根據變更的百分比或特�
 
 以下影片教學課程提供警報基本概觀：[警報](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (在影片 5:34 處)
 
-## 了解 Customer Journey Analytics 的警報與 Adob&#x200B;&#x200B;e Analytics 的警報有何差別
+## 瞭解警報的差異
 
 在 Customer Journey Analytics 中使用警報的流程，與在 Adobe Analytics 中使用警報的流程幾乎相同。儘管如此，還是有些重要差異。
 

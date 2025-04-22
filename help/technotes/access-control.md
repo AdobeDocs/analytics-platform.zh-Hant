@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 16%
@@ -159,8 +159,8 @@ Customer Journey Analytics由三個存取層級或三個角色控管：產品管
 
 您只想讓使用者存取一天內的資料。 您可以用以下方法限制這些特定列的存取：
 
-1. 在特定資料檢視的[!UICONTROL 設定]中建立篩選器，其中[!UICONTROL 天]等於您希望他們存取資料的日期。 如需詳細資訊，請參閱[建立資料檢視](/help/data-views/create-dataview.md#settings-filters)。
-1. 儲存資料檢視，這會將篩選器套用至基礎連線中資料集的資料部分。 任何不符合篩選器定義的列都會自動從資料檢視中排除，且無法在此資料檢視用於Analysis Workspace。
+1. 在特定資料檢視的[!UICONTROL 設定]中建立區段，其中[!UICONTROL 天]等於您希望他們存取資料的日期。 如需詳細資訊，請參閱[建立資料檢視](/help/data-views/create-dataview.md#settings-filters)。
+1. 儲存資料檢視，這會將區段套用至基礎連線中資料集的資料部分。 任何不符合區段定義的列都會自動從資料檢視中排除，且無法在此資料檢視用於Analysis Workspace。
 1. 在Admin Console中建立新的[產品設定檔](#product-profile-admin-role)，將使用者新增至產品設定檔，並僅將此特定資料檢視加入產品設定檔。
 
 ### 值層級存取控制
