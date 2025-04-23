@@ -1,10 +1,10 @@
 ---
 description: 區段產生器提供畫布來拖放量度維度、區段和事件，以便根據容器階層邏輯、規則和運運算元來區分人員。 此整合式開發工具可讓您建立並儲存簡單或複雜的區段，用以識別跨造訪及事件的人員屬性和動作。
 title: 建立區段
-feature: Filters
+feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
+source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 45%
