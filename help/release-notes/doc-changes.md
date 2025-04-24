@@ -4,10 +4,10 @@ description: 列出 2019 年 12 月以來 Customer Journey Analytics 文件集�
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: b880c63d22cec0e7de4f313eef72e86f41e85eca
 workflow-type: tm+mt
-source-wordcount: '4716'
-ht-degree: 94%
+source-wordcount: '5057'
+ht-degree: 91%
 
 ---
 
@@ -21,9 +21,16 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | --- | --- |
 | **2025 年 4 月** | |
 | 檢視和管理使用情況 | 已重新編寫有關如何[檢視](/help/connections/manage-connections.md#usage)和[管理](/help/technotes/estimate-usage.md) Customer Journey Analytics 使用情況的文件 |
-| Content Analytics | [Adobe Content Analytics](/help/content-analytics/content-analytics.md) 文件。透過 Content Analytics，您可以快速且輕鬆地調查大量內容資料，從中發現趨勢、找出異常處、確認內容疲勞，並從內容曝光中獲取深入分析。 |
+| Adobe Content Analytics | [Content Analytics](/help/content-analytics/content-analytics.md)可讓您快速輕鬆地調查大量內容資料，以找出趨勢、找出異常、識別內容疲勞，以及透過內容曝光獲得深入見解。 |
+| 更新XDM欄位，用於將串流媒體資料收集到Adobe Experience Platform | 將串流媒體資料收集到Adobe Experience Platform時，不應再使用串流媒體引數檔案的「XDM欄位路徑」標題下方顯示的XDM欄位路徑。 這些欄位路徑可在下列頁面上找到，並標示為「已棄用」： [音訊和視訊引數](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters)、[廣告引數](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/ad-parameters)、[章節引數](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/chapter-parameters)、[播放器狀態引數](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/player-state-parameters)以及[品質引數](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/quality-parameters)。 |
+| 媒體集合：全新媒體報告 XDM 的 Adobe 來源連接器更新內容 | Analytics 來源連接器會自動將 Adobe Analytics 中的串流媒體資料對應至 Web SDK 所使用的相同欄位。過去，資料會對應到舊位置和新位置，但將來只會使用新位置。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
+| **術語變更：將「篩選器」更改為「區段」** | 先前，Adobe Customer Journey Analytics 將區段稱為「篩選器」。該術語現已與 Adobe Analytics 維持一致。「篩選器」現稱為「區段」。（顯然，搜尋篩選器仍稱為「篩選器」。） UI和檔案已更新。 |
 | **2025 年 3 月** | |
 | Quantum Metric 使用案例 | 新增了從 [Quantum Metric](/help/use-cases/third-party/quantum-metric/qm-overview.md) 收集資料的使用案例。 |
+| 產品使用情況範本 | 新的 Workspace 範本可讓您查看 Customer Journey Analytics 產品在您組織內的使用情況。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates)。 |
+| Customer Journey Analytics 升級指南 | 讓您產生從 Adobe Analytics 升級到 Customer Journey Analytics 的逐步指南。若要開始產生您的自訂指南，請登入[!DNL Customer Journey Analytics]，然後在&#x200B;**[!UICONTROL Customer Journey Analytics]**&#x200B;索引標籤上選取&#x200B;**[!UICONTROL 升級至Workspace]**。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |
+| 數值維度上「沒有值」條列專案的更新 | 對於數值維度，此更新可讓您在區段中使用「沒有值」維度專案，並在報表中對「沒有值」條列專案執行劃分。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) |
+| 媒體集合：全新媒體報告 XDM 的 Adobe 來源連接器更新內容 | Analytics 來源連接器會自動將 Adobe Analytics 中的串流媒體資料對應至 Web SDK 所使用的相同欄位。過去，資料會對應到舊位置和新位置，但將來只會使用新位置。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
 | **2025 年 2 月** |  |
 | 媒體集合：全新媒體報告 XDM 的 Adobe 來源連接器更新內容 | Analytics 來源連接器會自動[將 Adobe Analytics 中的串流媒體資料對應至](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) Web SDK 所使用的相同欄位。過去，資料會對應到舊位置和新位置，但將來只會使用新位置。 |
 | BI 擴充功能：擴充支援 | Customer Journey Analytics BI 擴充功能現在支援 [Looker、Jupyter Notebook 和 R Studio](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en)。 |
