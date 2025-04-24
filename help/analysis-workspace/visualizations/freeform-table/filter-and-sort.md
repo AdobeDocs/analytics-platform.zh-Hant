@@ -4,10 +4,10 @@ title: 篩選和排序表格
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 - 排除表格中的特定資料列
 - 套用篩選器至表格
-- 使用客群篩選器
+- 使用受眾區段
 
 請務必閱讀每種方法如何影響[自由格式表格總計](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)。
 
@@ -96,7 +96,7 @@ Note: this option does not seem to work. AN-338422
 
 ### 使用受眾區段
 
-如需詳細資訊，請參閱「[篩選器概觀](/help/components/filters/filters-overview.md)」。
+如需詳細資訊，請參閱[區段概觀](/help/components/filters/filters-overview.md)。
 
 ## 排序表格
 

@@ -4,7 +4,7 @@ title: 下載 Customer Journey Analytics 檢視
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 98%
@@ -94,7 +94,7 @@ ht-degree: 98%
 * 表格中所選維度&#x200B;**上方**&#x200B;的劃分會套用為每一欄上方的篩選條件。
 * 表格中所選維度&#x200B;**下方**&#x200B;的劃分則會被移除。
 
-在上述範例中，當下載頁面項目時，會將面板篩選器 (新訪客客戶) 和上方元件 (行銷管道 = 電子郵件) 套用為篩選條件，並從下載的 CSV 檔中移除下方元件 (行動裝置類型)。
+在上述範例中，當下載頁面項目時，會將面板區段 (新訪客客戶) 和上方元件 (行銷管道 = 電子郵件) 套用為篩選條件，並從下載的 CSV 檔中移除下方元件 (行動裝置類型)。
 
 ![下載的.csv 檔案在 Excel 中開啟。](assets/downloaded-file.png)
 
