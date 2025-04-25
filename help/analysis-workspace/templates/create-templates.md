@@ -7,7 +7,7 @@ exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
 source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 83%
 
 >[!CONTEXTUALHELP]
 >id="use-case-ajo-template"
->title="在Journey Optimizer中使用範本"
->abstract="當您在Journey Optimizer中使用此範本時，無論在Customer Journey Analytics中使用此範本選取的資料檢視為何，都會使用在Adobe Journey Optimizer中設定為預設資料檢視的資料檢視。"
+>title="在 Journey Optimizer 中使用範本"
+>abstract="當您在 Journey Optimizer 中使用此範本時，會使用在 Adobe Journey Optimizer 中設定為預設資料視圖的資料視圖，不論 Customer Journey Analytics 中此範本選取的資料視圖為何。"
 
 <!-- markdownlint-enable MD034 -->
 

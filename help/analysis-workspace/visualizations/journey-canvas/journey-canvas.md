@@ -7,7 +7,7 @@ exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
 >title="歷程畫布"
->abstract="分析人們如何完成或退出定義的歷程。透過建立代表任何事件、維度專案和區段組合的靈活節點和箭頭圖表，建立使用者歷程的分析。 拖曳動畫布上的節點，以重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有 Adobe Journey Optimizer 存取權的客戶可以分析現有的 Journey Optimizer 歷程。"
+>abstract="分析人們如何完成或退出定義的歷程。建立由節點和箭頭組成的彈性圖表來表示事件、維度項目和區段之任何組合，藉此建置使用者歷程分析。拖曳動畫布上的節點，以重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有 Adobe Journey Optimizer 存取權的客戶可以分析現有的 Journey Optimizer 歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -45,7 +45,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel"
 >title="歷程畫布"
->abstract="分析人們如何完成或退出定義的歷程。透過建立代表任何事件、維度專案和區段組合的靈活節點和箭頭圖表，建立使用者歷程的分析。 拖曳動畫布上的節點，以重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有 Adobe Journey Optimizer 存取權的客戶可以分析現有的 Journey Optimizer 歷程。"
+>abstract="分析人們如何完成或退出定義的歷程。建立由節點和箭頭組成的彈性圖表來表示事件、維度項目和區段之任何組合，藉此建置使用者歷程分析。拖曳動畫布上的節點，以重新排列歷程的事件和條件。當您這樣做時，資料會隨之更新。<br/><br/>擁有 Adobe Journey Optimizer 存取權的客戶可以分析現有的 Journey Optimizer 歷程。"
 
 <!-- markdownlint-enable MD034 -->
 

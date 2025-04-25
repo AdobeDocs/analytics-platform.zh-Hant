@@ -7,7 +7,7 @@ exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 >[!CONTEXTUALHELP]
 >id="workspace_project_commenting"
 >title="允許評論"
->abstract="啟用後，Analysis Workspace中專案的右側邊欄中會顯示註解區域。"
+>abstract="啟用後，Analysis Workspace 中專案的右側邊欄會顯示一個評論區域。"
 
 <!-- markdownlint-enable MD034 -->
 

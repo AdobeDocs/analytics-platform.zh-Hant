@@ -8,7 +8,7 @@ role: User
 source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
 workflow-type: tm+mt
 source-wordcount: '3873'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
 >title="允許評論專案"
->abstract="啟用後，Analysis Workspace中每個專案的右側邊欄中都會顯示註解區域。"
+>abstract="啟用後，Analysis Workspace 中每項專案的右側邊欄會顯示一個評論區域。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -130,7 +130,7 @@ Add this to the table above - exchange - for pipe: (End of April, 2025 when proj
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="預設表格量度"
->abstract="選取用於自由格式表格的預設量度。如果選取的資料檢視不包含選取的預設量度，表格會自動切換至另一個主要量度。"
+>abstract="選取用於自由格式表格的預設量度。如果所選取的資料視圖不包含所選取的預設量度，表格會自動切換到另一個主要量度。"
 
 
 您可以為在 Analysis Workspace 中建立的所有新專案自訂自由格式表格偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
@@ -168,22 +168,22 @@ Add this to the table above - exchange - for pipe: (End of April, 2025 when proj
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultflowcontainer"
 >title="預設容器"
->abstract="選取用於[!UICONTROL 流量]視覺效果的預設容器。如果選取的資料檢視未包含選取的預設容器，則[!UICONTROL 流量]視覺效果會自動切換至另一個主要容器。"
+>abstract="選取用於[!UICONTROL 流量]視覺效果的預設容器。如果所選取的資料視圖不包含所選取的預設容器，[!UICONTROL 流量]視覺效果會自動切換到另一個主要容器。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultfalloutcontainer"
 >title="預設容器"
->abstract="選取用於[!UICONTROL 流失]視覺效果的預設容器。如果選取的資料檢視未包含選取的預設容器，[!UICONTROL 流失]視覺效果會自動切換至另一個主要容器。"
+>abstract="選取用於[!UICONTROL 流失]視覺效果的預設容器。如果所選取的資料視圖不包含所選取的預設容器，[!UICONTROL 流失]視覺效果會自動切換到另一個主要容器。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulthistogramcountingmethod"
 >title="預設計數法"
->abstract="選取用於[!UICONTROL 直方圖]視覺效果的預設計數法。如果選取的資料檢視未包含選取的預設計數方法，[!UICONTROL 色階分佈圖]視覺效果會自動切換至另一個主要計數方法。"
+>abstract="選取用於[!UICONTROL 直方圖]視覺效果的預設計數法。如果所選取的資料視圖不包含所選取的計數方法，[!UICONTROL 直方圖]視覺效果會自動切換到另一個主要計數方法。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaultjourneycanvascontainer"
 >title="預設容器"
->abstract="選取用於[!UICONTROL 歷程畫布]視覺效果的預設容器。如果選取的資料檢視未包含選取的預設容器，[!UICONTROL 歷程畫布]視覺效果會自動切換至另一個主要容器。"
+>abstract="選取用於[!UICONTROL 歷程畫布]視覺效果的預設容器。如果所選取的資料視圖不包含所選取的預設容器，[!UICONTROL 歷程畫布]視覺效果會自動切換到另一個主要容器。"
 
 
 您可以為在 Analysis Workspace 中建立的所有新專案更新偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。

@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '2580'
-ht-degree: 46%
+ht-degree: 51%
 
 ---
 
@@ -96,18 +96,18 @@ ht-degree: 46%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
->title="新資料檢視"
+>title="新的資料視圖"
 >abstract="選取新的資料視圖會導致更新該資料視圖，以包括 Content Analytics 量度和維度。若有必要，相關連線也會更新並包括 Content Analytics 資料集。目前已針對 Content Analytics 進行設定的連線和資料視圖並未修改。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_current_cleanup_labels_dialog"
->title="清除所選的資料檢視"
->abstract="您已選取已針對Content Analytics布建的資料檢視。 該現有Content Analytics設定會被移除，且資料檢視會布建為您的新設定。"
+>title="清除所選取的資料視圖"
+>abstract="您選取了已針對 Content Analytics 佈建的資料視圖。該現有的 Content Analytics 設定會被移除，而且資料視圖會使用您的新設定進行佈建。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_prev_cleanup_labels_dialog"
->title="清除先前的資料檢視"
->abstract="您已選取一個新的資料視圖。先前選取資料檢視的Content Analytics設定已移除。"
+>title="清除先前的資料視圖"
+>abstract="您已選取一個新的資料視圖。先前所選之資料視圖的 Content Analytics 設定已移除。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -152,32 +152,32 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_button"
 >title="經驗擷取與定義"
->abstract="您可以選擇將體驗包含在您透過Content Analytics收集的資料中。 選取時，您必須定義一個或多個正則表達式和查詢參數的組合，以定義您想要包含的體驗 URL。"
+>abstract="您可以選取在透過 Content Analytics 收集的資料中納入體驗。選取時，您必須定義一個或多個正則表達式和查詢參數的組合，以定義您想要包含的體驗 URL。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_header"
 >title="經驗擷取與定義"
->abstract="在內容分析中收集體驗"
+>abstract="在 Content Analytics 中收集體驗"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiences_parameters_header"
->title="經驗擷取與定義"
+>title="體驗擷取與定義"
 >abstract="指定用於判斷內容在網站上如何轉譯的參數。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_new_include_experiences"
 >title="經驗擷取與定義"
->abstract="啟用後，系統會收集體驗資料、產生體驗屬性，並提供體驗報表。"
+>abstract="啟用後便會收集體驗資料、產生體驗屬性，以及提供體驗報告。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_include_experiences"
->title="經驗擷取與定義"
->abstract="啟用後，系統會收集體驗資料、產生體驗屬性，並提供體驗報表。 <br><br/>使用![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 編輯]**&#x200B;修改與目前組態關聯之Tags屬性中體驗的資料收集組態。"
+>title="體驗擷取與定義"
+>abstract="啟用後便會收集體驗資料、產生體驗屬性，以及提供體驗報告。<br><br/>使用![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)「**[!UICONTROL 編輯]**」修改與目前設定關聯之標記屬性中的體驗資料收集設定。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
->title="經驗擷取與定義"
->abstract="您必須在Adobe Content Analytics擴充功能中編輯體驗資料收集的設定。"
+>title="體驗擷取與定義"
+>abstract="您必須在 Adobe Content Analytics 擴充功能中編輯體驗資料收集的設定。"
 
 <!-- markdownlint-enable MD034 -->
 

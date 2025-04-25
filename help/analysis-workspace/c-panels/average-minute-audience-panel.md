@@ -7,7 +7,7 @@ exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="媒體平均分鐘觀眾數"
->abstract="顯示特定媒體內容的效能或自訂時段內的效能。指定報告維度及區段內容（選擇性）。"
+>abstract="顯示特定媒體內容的效能或自訂時段內的效能。指定報告維度並可以選擇將內容細分。"
 
 <!-- markdownlint-enable MD034 -->
 
