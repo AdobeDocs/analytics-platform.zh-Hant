@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
+source-git-commit: aa7b73db10e81a96f532eedf09091109209124c0
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 84%
+source-wordcount: '1223'
+ht-degree: 83%
 
 ---
 
@@ -148,6 +148,9 @@ ht-degree: 84%
    + [衍生欄位](../data-views/derived-fields/derived-fields.md)
    + [摘要資料](../data-views/summary-data.md)
    + [標籤和原則](../data-views/data-governance.md)
+   + 共用的量度和維度{#shared-metrics-dimensions}
+      + [概觀](/help/data-views/shared-metrics-dimensions/smd-overview.md)
+      + [編輯器](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
 
 + 工具 {#tools}
    + 資產轉移 {#asset-transfer}
@@ -165,7 +168,7 @@ ht-degree: 84%
       + [概觀](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [開啟專案](/help/analysis-workspace/build-workspace-project/open-projects.md)
-      + [在專案中註解](/help/analysis-workspace/build-workspace-project/comment-projects.md)
+      + [對專案發表評論](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [儲存專案](../analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace 資料夾 {#workspace-folders}
          + [關於資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
@@ -424,6 +427,36 @@ ht-degree: 84%
 
 + 使用案例 {#cja-usecases}
    + [Customer Journey Analytics 使用案例](../use-cases/cja-usecases.md)
+   + Adobe Analytics資料 {#aa-data}
+      + [使用行銷管道維度](../use-cases/aa-data/marketing-channels.md)
+      + [結合報告套裝與不同的結構描述](../use-cases/aa-data/combine-report-suites.md)
+   + B2B {#b2b}
+      + [B2B 專案範例](../use-cases/b2b/example.md)
+   + 複雜資料 {#complex-data}
+      + [使用物件陣列](../use-cases/object-arrays.md)
+   + 跨管道資料 {#cross-channel}
+      + [跨管道分析資料](../use-cases/cross-channel/cross-channel.md)
+      + [匯入客服中心和網頁的資料](../use-cases/cross-channel/call-center.md)
+   + 資料匯出 {#data-export}
+      + [概觀](../use-cases/data-export/overview.md)
+      + [BI 擴充功能](../use-cases/data-export/bi-extension.md)
+      + [匯出資料集](../use-cases/data-export/export-datasets.md)
+      + [匯出完整表格](../use-cases/data-export/export-full-table.md)
+      + [查詢服務和匯出資料集](../use-cases/data-export/queryservice-export-datasets.md)
+   + 資料擷取 {#data-ingestion}
+      + [收錄並使用 Marketo Engage 資料](../use-cases/data-ingestion/marketo.md)
+      + [收錄並使用 Experience Platform 對象](../use-cases/data-ingestion/ingest-aep-segments.md)
+   + 資料檢視 {#data-views}
+      + [資料檢視使用案例](/help/use-cases/data-views/data-views-usecases.md)
+      + [使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)
+      + [使用摘要資料](/help/use-cases/data-views/summary-data.md)
+      + [BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)
+   + 衍生欄位 {#derived-fields}
+      + [報告目標](../use-cases/goals-using-derived-fields.md)
+   + 產品分析 {#product-analysis}
+      + [產品分析](/help/use-cases/product-analysis.md)
+   + 拼接 {#stitching}
+      + [共用裝置](/help/use-cases/stitching/shared-devices.md)
    + 第三方資料 {#third-party}
       + [概觀](/help/use-cases/third-party/overview.md)
       + Google Analytics {#ga}
@@ -437,34 +470,6 @@ ht-degree: 84%
          + [使用熱度圖](/help/use-cases/third-party/quantum-metric/heatmap.md)
          + [新增摩擦事件](/help/use-cases/third-party/quantum-metric/friction-events.md)
          + [來源連接器](/help/use-cases/third-party/quantum-metric/source-connector.md)
-   + 資料擷取 {#data-ingestion}
-      + [收錄並使用 Marketo Engage 資料](../use-cases/data-ingestion/marketo.md)
-      + [收錄並使用 Experience Platform 對象](../use-cases/data-ingestion/ingest-aep-segments.md)
-   + 資料檢視 {#data-views}
-      + [資料檢視使用案例](/help/use-cases/data-views/data-views-usecases.md)
-      + [使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)
-      + [使用摘要資料](/help/use-cases/data-views/summary-data.md)
-      + [BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)
-   + 資料匯出 {#data-export}
-      + [概觀](../use-cases/data-export/overview.md)
-      + [BI 擴充功能](../use-cases/data-export/bi-extension.md)
-      + [匯出資料集](../use-cases/data-export/export-datasets.md)
-      + [匯出完整表格](../use-cases/data-export/export-full-table.md)
-      + [查詢服務和匯出資料集](../use-cases/data-export/queryservice-export-datasets.md)
-   + B2B {#b2b}
-      + [B2B 專案範例](../use-cases/b2b/example.md)
-   + 跨管道資料 {#cross-channel}
-      + [跨管道分析資料](../use-cases/cross-channel/cross-channel.md)
-      + [匯入客服中心和網頁的資料](../use-cases/cross-channel/call-center.md)
-   + Adobe Analytics資料 {#aa-data}
-      + [使用行銷管道維度](../use-cases/aa-data/marketing-channels.md)
-      + [結合報告套裝與不同的結構描述](../use-cases/aa-data/combine-report-suites.md)
-   + 複雜資料 {#complex-data}
-      + [使用物件陣列](../use-cases/object-arrays.md)
-   + 拼接 {#stitching}
-      + [共用裝置](/help/use-cases/stitching/shared-devices.md)
-   + 衍生欄位 {#derived-fields}
-      + [報告目標](../use-cases/goals-using-derived-fields.md)
 
 + Labs {#labs}
    + [Labs 使用手冊](../labs/labs.md)
