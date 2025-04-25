@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
-source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
+source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 45%
+source-wordcount: '316'
+ht-degree: 44%
 
 ---
 
@@ -36,10 +36,9 @@ Customer Journey Analytics中出現兩個Adobe定義的原則，這些原則會�
 
 如需詳細資訊，請參閱[標籤和原則](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance)。
 
-<!--
 
-![The policy note indicating prohibited use of data.](assets/rb-restricted-label.png){zoomable="yes"}
--->
+![指示禁止使用資料的原則備註。](assets/restricted-label.png){zoomable="yes"}
+
 
 ## 更新包含受限制資料的報表
 
