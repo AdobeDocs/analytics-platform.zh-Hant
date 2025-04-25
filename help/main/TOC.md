@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 2581ff0f3d149a539ed730a941ce1b6288e9af0e
+source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 85%
       + [開啟專案](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [在專案中註解](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [儲存專案](../analysis-workspace/build-workspace-project/save-projects.md)
-      + Workspace資料夾 {#workspace-folders}
+      + Workspace 資料夾 {#workspace-folders}
          + [關於資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [建立資料夾和子資料夾](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [管理資料夾](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
@@ -185,7 +185,7 @@ ht-degree: 85%
       + 自由表格 {#freeform-table}
          + [概觀](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [建立超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
-         + 欄和列的設定 {#column-row-settings}
+         + 欄和列的設定  {#column-row-settings}
             + [欄設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
@@ -263,7 +263,7 @@ ht-degree: 85%
       + [管理需求](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [協助工具](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
-+ 內容分析 {#content-analytics}
++ Content Analytics {#content-analytics}
    + [概觀](/help/content-analytics/content-analytics.md)
    + 報表 {#report}
       + [概觀](/help/content-analytics/report/report.md)
@@ -383,17 +383,17 @@ ht-degree: 85%
 
 + Report Builder {#cja-reportbuilder}
    + [概觀](../report-builder/report-buider-overview.md)
-   + [Report Builder 設定](../report-builder/report-builder-setup.md)
+   + [Report Builder設定](../report-builder/report-builder-setup.md)
    + [建立資料區塊](../report-builder/create-a-data-block.md)
-   + [Report Builder 中心](../report-builder/report-builder-hub.md)
+   + [Report Builder中心](../report-builder/report-builder-hub.md)
    + [選取資料檢視](../report-builder/select-data-view.md)
    + [選取日期範圍](../report-builder/select-date-range.md)
    + [使用區段](../report-builder/work-with-filters.md)
-   + [篩選器維度](../report-builder/filter-dimensions.md)
+   + [篩選器維度 ](../report-builder/filter-dimensions.md)
    + [管理資料區塊](../report-builder/manage-reportbuilder.md)
    + [排程活頁簿](../report-builder/schedule-reportbuilder.md)
    + [受限制的標籤](../report-builder/restricted-labels.md)
-   + [Report Builder 設定](../report-builder/report-builder-settings.md)
+   + [Report Builder設定](../report-builder/report-builder-settings.md)
 
 + 報告活動管理器 {#reporting-activity-manager}
    + [概觀](../reporting-activity-manager/reporting-activity-overview.md)

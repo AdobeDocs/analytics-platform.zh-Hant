@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 6213cc09800743a1f7cb4828d71ee731439e529b
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 85%
@@ -189,7 +189,7 @@ ht-degree: 85%
 
 ### 設定（區段）
 
-您可以新增套用至整個資料檢視的區段。 此區段會套用至您在Workspace中執行的任何報表。 從左側邊欄的清單拖曳區段至[!UICONTROL 新增區段]欄位。
+您可以新增套用至整個資料檢視的區段。 此區段會套用至您在Workspace中執行的任何報表。 從左側邊欄的清單拖曳區段至&#x200B;**[!UICONTROL 新增區段]**&#x200B;欄位。
 
 ### 工作階段設定
 

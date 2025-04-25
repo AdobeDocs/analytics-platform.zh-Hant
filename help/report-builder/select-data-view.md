@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 2%
+source-wordcount: '383'
+ht-degree: 1%
 
 ---
 
@@ -17,43 +17,41 @@ ht-degree: 2%
 
 您可以從下拉式清單中選取資料檢視，或從儲存格中選取資料檢視，並使用新的資料檢視自動更新資料區塊。
 
-**從儲存格**&#x200B;選取資料檢視
+## 從儲存格選取資料檢視
 
-從儲存格中選取資料檢視，可讓您使用不同的資料檢視輕鬆重新整理資料區塊。 如果您的組織有多個結構上相似或相同的資料檢視，您就可以使用從儲存格中選取的資料檢視重新整理資料區塊，而不是使用個別資料區塊建立全新的報表。 如果您有包含自訂元件和配置圖的複雜資料區塊格式，這也很有幫助。
+從儲存格中選取資料檢視，可讓您使用不同的資料檢視輕鬆重新整理資料區塊。 您可以使用從儲存格中選取的資料檢視重新整理資料區塊，而不是使用個別的資料區塊來建立全新的報表。
 
-若要從儲存格選取資料檢視，請先建置資料區塊，並將多個資料檢視指派至資料區塊以外的儲存格。 然後，使用儲存格面板的資料檢視，從不同的資料檢視重新整理資料區塊。
+從儲存格中選取資料檢視在下列情況下相當實用：
 
-1. 建立資料區塊。
-如需有關建立資料區塊的資訊，請參閱[建立資料區塊](/help/report-builder/create-a-data-block.md)。
+* 結構上相似或相同的多個資料檢視。
+* 包含自訂元件和配置圖的複雜資料區塊格式。
 
-1. 按一下&#x200B;*資料檢視*&#x200B;區段中的&#x200B;*儲存格圖示*。
+若要從儲存格選取資料檢視，請先建置資料區塊，並將多個資料檢視指派至資料區塊以外的儲存格。 然後，使用儲存格&#x200B;]**面板的**[!UICONTROL &#x200B;資料檢視，從不同的資料檢視重新整理您的資料區塊。
 
-   ![建立新的資料區塊視窗，並反白顯示儲存格圖示。](/help/report-builder/assets/cell-icon.png)
+1. 建立資料區塊。 如需有關建立資料區塊的資訊，請參閱[建立資料區塊](/help/report-builder/create-a-data-block.md)。
 
-1. 選取儲存格位置，將資料檢視新增至選取的儲存格。
+1. 在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;中選取![DataViewSelector](/help/assets/icons/DataViewSelector.svg)。
 
-   您可能會想要選取的儲存格距離資料區塊儲存格夠遠，以免它們重疊。
+1. 在資料區塊外使用![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg)選取儲存格。
 
-1. 確認選取的儲存格位置。
+1. 使用拖放從&#x200B;**[!UICONTROL 選取資料檢視，從儲存格]**&#x200B;新增一或多個資料檢視。 或者，您可以重複選取資料檢視，以將資料檢視新增至&#x200B;**[!UICONTROL 包含的資料檢視]**&#x200B;清單。
 
-1. 選取要指派給儲存格的資料檢視。
+   * 您可以使用![搜尋](/help/assets/icons/Search.svg) **[!UICONTROL _選取資料檢視_]**&#x200B;來搜尋資料檢視。
+   * 使用![MoreSmall](/help/assets/icons/MoreSmall.svg)開啟內容功能表，以便您可以在&#x200B;**[!UICONTROL 包含的資料檢視]**&#x200B;清單中上下行動資料檢視。
+   * 使用![CrossSize75](/help/assets/icons/CrossSize75.svg)從&#x200B;**[!UICONTROL 資料檢視]**&#x200B;清單中刪除資料檢視。
 
-   ![顯示[選取資料檢視]的[Report Builder快速編輯]窗格。](/help/report-builder/assets/select-data-view.png)
+   ![從儲存格選取資料檢視](assets/dataviews-from-a-cell.png){zoomable="yes"}
 
-1. 按一下&#x200B;**套用**。
+1. 選取&#x200B;**[!UICONTROL 套用]**，將選取的資料檢視套用至選取的儲存格。
 
-   當您完成資料區塊時，可以使用與所選儲存格不同的資料檢視來重新整理資料區塊。
 
-   **從儲存格變更資料檢視**
+## 變更儲存格的資料檢視
 
-1. 按一下您在步驟3中選擇的資料檢視儲存格位置。
+1. 在工作表中選取資料檢視儲存格位置。
+1. 在Report Builder中心中，選取&#x200B;**[!UICONTROL 快速編輯]**&#x200B;中的&#x200B;**[!UICONTROL 儲存格]**&#x200B;資料檢視連結。
+1. 從&#x200B;**[!UICONTROL 資料檢視]**&#x200B;下拉式功能表中選取資料檢視。
 
-   隨即顯示一個下拉式功能表，其中列出您先前在步驟5中選取的資料檢視。
+   ![從儲存格變更資料檢視](assets/change-data-view-from-cell.png){zoomable="yes"}
+1. 選擇性，選取&#x200B;**[!UICONTROL 變更時重新整理資料區塊]**。
 
-1. 從下拉式清單中選取不同的資料檢視。
-
-1. （選擇性） **選取變更時重新整理資料區塊**。
-
-1. 按一下&#x200B;**套用**。
-
-   Report Builder會以所選的資料檢視重新整理資料區塊。
+1. 選取&#x200B;**[!UICONTROL 「套用」]**。Report Builder會根據所選的資料檢視重新整理資料區塊。
