@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 157f70353f60da3fec83e016e7a09f69f7f514cf
+source-git-commit: 7cd0bd94ec45b1570d0be765d95b25defa3e1b87
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 10%
+source-wordcount: '462'
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 
 | | Customer Journey Analytics<br/>選取 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
-| 可用的拼接方法 | <li>欄位式拚接</li> | <li>欄位式拚接</li><li>圖表式匯整</li> | <li>欄位式拚接</li><li>圖表式匯整</li> |
+| 可用的拼接方法 | <li>欄位式拚接</li> | <li>欄位式拚接</li><li>圖表式彙整</li> | <li>欄位式拚接</li><li>圖表式彙整</li> |
 | 一次性拼接回填持續時間 | 13 個月 | 13 個月 | 25 個月 |
 | 回顧期間和重播頻率 | <li>1天，每天</li><li>最長7天，每週</li> | <li>1天，每天</li><li>最長14天，每週</li> | <li>1天，每天</li><li>最長30天，每週</li> |
 | 拼接允許的資料集數量上限 | 5 | 15 | 50 |
@@ -34,7 +34,12 @@ ht-degree: 10%
    - 啟用銜接的要求。
    - 您要重新輸入金鑰之資料集的資料集ID。
    - 所需資料集的永久ID欄名稱（身分路徑和名稱空間） （每列顯示的識別碼）。
-   - 對於欄位式拚接，所需資料集的暫時ID欄名稱（人員ID，也會作為連線內容中資料集之間的連結）。 對於圖表式拚接，為用於查詢身分圖表的身分名稱空間。
+   - 如果資料集支援`identityMap`：
+      - 對於欄位式拼接，請指定持續和暫時ID的名稱空間。
+      - 對於圖表式拚接，請指定持續ID的名稱空間以及用於查詢身分圖表的身分名稱空間。
+   - 如果資料集不支援`identityMap`：
+      - 對於欄位式拚接，所需資料集的暫時ID欄名稱（人員ID，也會作為連線內容中資料集之間的連結）。
+      - 對於圖表式拚接，為用於查詢身分圖表的身分名稱空間。
    - 您的回顧視窗和重播頻率偏好設定。 檢視您的Customer Journey Analytics套件，以取得可用的[選項](#options)。
    - 沙箱名稱。
 

@@ -1,21 +1,92 @@
 ---
-title: 依欄位彙整
+title: 依欄位匯整
 description: 依欄位彙整的說明
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
+exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
+source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1779'
+ht-degree: 15%
 
 ---
 
-# 依欄位彙整
+# 依欄位匯整
 
-在基於欄位的拼接中，您可以指定事件資料集，以及該資料集的永久ID (Cookie)和暫時ID （人員ID）。 以欄位為基礎的彙整會在新彙整的資料集中建立新的彙整ID欄，並根據具有該特定永久ID的暫時ID的列更新此彙整ID欄。 <br/>當您使用Customer Journey Analytics作為獨立解決方案(無法存取Experience Platform身分服務和關聯的身分圖表)時，可以使用依欄位彙整。 或者，當您不想使用可用的身分圖表時。
+在基於欄位的拼接中，您可以指定事件資料集，以及該資料集的永久ID (Cookie)和暫時ID （人員ID）。 以欄位為基礎的彙整會在新彙整的資料集中建立新的彙整ID欄，並根據具有該特定永久ID的暫時ID的列更新此彙整ID欄。 <br/>當您使用Customer Journey Analytics做為獨立解決方案(無法存取Experience Platform Identity Service和相關聯的身分圖表)時，可以使用依欄位彙整。 或者，當您不想使用可用的身分圖表時。
 
 ![依欄位彙整](/help/stitching/assets/fbs.png)
+
+
+## 身分對應
+
+以欄位為基礎的彙整支援在下列情況下使用[`identifyMap`欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)：
+
+- 在`identityMap`名稱空間中使用主要身分來定義persistentID：
+   - 如果在不同的名稱空間中找到多個主要身分，則名稱空間中的身分會依字典排序，並會選取第一個身分。
+   - 如果在單一名稱空間中找到多個主要身分，則會選取第一個字典上可用的主要身分。
+
+  在以下範例中，名稱空間和身分會產生排序的主要身分清單，最後是選取的身分。
+
+  <table>
+     <tr>
+       <th>命名空間</th>
+       <th>身分清單</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>&nbsp;]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>已排序的身分清單</th>
+      <th>選取的身分</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>PrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-2", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-1", "namespace": "ECID"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "namespace": "ECID"}<br/>]<br/>NonPrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-1", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-3", "namespace": "ECID"}<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ccid-2",<br/>"namespace": "CCID"</code></pre></td>
+    </tr>
+  </table>
+
+
+- 使用`identityMap`名稱空間來定義persistentID或transientID或兩者：
+   - 如果在`identityMap`名稱空間中找到persitentID或transientID的多個值，則使用第一個字典可用的值。
+   - persistentID和transientID的名稱空間必須互斥。
+
+  在以下範例中，名稱空間和身分會產生所選名稱空間(ECID)的排序身分清單，最後是所選身分。
+
+  <table>
+     <tr>
+       <th>命名空間</th>
+       <th>身分清單</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>已排序的身分清單</th>
+      <th>選取的身分</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;"id": "ecid-1",<br/>&nbsp;&nbsp;"id": "ecid-2",<br/>&nbsp;&nbsp;"id": "ecid-3"<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ecid-1",<br/>"namespace": "ECID"</code></pre></td>
+    </tr>
+  </table>
 
 ## 依欄位彙整的運作方式
 
@@ -139,21 +210,24 @@ ht-degree: 0%
 
 - Adobe Experience Platform中的事件資料集（您想要套用拼接）必須有兩個協助識別訪客的欄：
 
-   - **永久ID**，每一列都有一個識別碼。 例如，Adobe AnalyticsAppMeasurement庫產生的訪客ID或Adobe Experience Platform Identity Service產生的ECID。
+   - **永久ID**，每一列都有一個識別碼。 例如，Adobe Analytics AppMeasurement資料庫產生的訪客ID或Adobe Experience Platform Identity Service產生的ECID。
    - **暫時ID**，此識別碼僅可用於部分列。 例如訪客驗證後雜湊的使用者名稱或電子郵件地址。您幾乎可以使用任何您喜歡的識別碼。 拼接會將此欄位視為儲存實際人員ID資訊。 為獲得最佳拼接結果，每個永久ID應在資料集事件中至少傳送一次「暫時ID」 。 如果您打算將此資料集納入Customer Journey Analytics連線，最好讓其他資料集也具有類似的通用識別碼。
 
-- 針對您要拼接的資料集，資料行（永久ID和暫時ID）都必須定義為在結構描述中具有身分名稱空間的身分欄位。 在Real-time Customer Data Platform中使用身分拼接時，使用[`identityMap`欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)，您仍需要新增具有身分名稱空間的身分欄位。 由於Customer Journey Analytics拼接不支援`identityMap`欄位群組，因此需要識別身分欄位。 在結構描述中新增身分欄位時，同時使用`identityMap`欄位群組，請勿將額外的身分欄位設定為主要身分。 將其他身分欄位設定為主要身分會干擾用於Real-time Customer Data Platform的`identityMap`欄位群組。
+<!--
+- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+
+-->
 
 ## 限制
 
 下列限制特別適用於欄位式拼接：
 
 - 目前，金鑰重設功能僅限於一個步驟 (永久 ID 改成暫時 ID)。不支援多步驟重設金鑰 (例如從永久 ID 改成暫時 ID，之後又改成另一個暫時 ID)。
-- 如果裝置由多人共用，且使用者之間的轉換總數超過50,000，Customer Journey Analytics會停止為該裝置拼接資料。
+- 如果一部裝置由多人共用，且使用者之間的切換總數超過50,000，Customer Journey Analytics會停止為該裝置拼接資料。
 - 不支援您組織中使用的自訂 ID 地圖。
-- 拼接區分大小寫。 對於透過Analytics來源聯結器產生的資料集，Adobe建議審查適用於暫時ID欄位的任何VISTA規則或處理規則。 此檢閱可確保這些規則都不會引入相同ID的新形式。 例如，您應確保沒有任何 VISTA 或處理規則僅在一部分事件中，將小寫字母引入暫時 ID 欄位。
+- 拼接區分大小寫。 對於透過Analytics來源聯結器產生的資料集，Adobe建議檢閱適用於暫時ID欄位的任何VISTA規則或處理規則。 此檢閱可確保這些規則都不會引入相同ID的新形式。 例如，您應確保沒有任何 VISTA 或處理規則僅在一部分事件中，將小寫字母引入暫時 ID 欄位。
 - 拼接不會合併或串連欄位。
 - 暫時ID欄位應包含單一ID型別（來自單一名稱空間的ID）。 例如，暫時 ID 欄位不應包含登入 ID 和電子郵件 ID 的組合。
 - 如果針對同一永久ID發生了具有相同時間戳記的多個事件，但暫時ID欄位中的值不同，則拼接作業會根據字母順序來選取ID。 因此，如果永久ID A有兩個具有相同時間戳記的事件，且其中一個事件指定Bob，而另一個事件指定Ann，則拼接作業會選取Ann。
 - 請小心暫時ID包含預留位置值（例如`Undefined`）的情況。 如需詳細資訊，請參閱[常見問題集](faq.md)。
-
+- 您不能同時使用相同的名稱空間persistentID和transientID，名稱空間必須是互斥的。

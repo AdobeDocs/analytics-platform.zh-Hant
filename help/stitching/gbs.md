@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: 9118a3c20158b1a0373fab1b41595aa7b07075f6
+source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1540'
 ht-degree: 7%
 
 ---
@@ -15,9 +15,77 @@ ht-degree: 7%
 # 依圖表匯整
 
 
-在圖表式拚接中，您可以指定事件資料集，以及該資料集的永久ID (Cookie)和暫時ID （人員ID）的名稱空間。 圖表式拚接會在新的拚接資料集中為拚接ID建立新欄。 然後使用永久ID來查詢來自Experience Platform身分服務的身分圖表，使用指定的名稱空間來更新拼接的ID。
+在圖表式拚接中，您可以指定事件資料集，以及該資料集的永久ID (Cookie)和暫時ID （人員ID）的名稱空間。 圖表式拚接會在新的拚接資料集中為拚接ID建立新欄。 然後使用永久ID來查詢來自Experience Platform Identity Service的身分圖表，使用指定的名稱空間來更新拼接的ID。
 
 ![圖表式拼接](/help/stitching/assets/gbs.png)
+
+## 身分對應
+
+圖表式拚接支援在下列情況下使用[`identifyMap`欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)：
+
+- 在`identityMap`名稱空間中使用主要身分來定義persistentID：
+   - 如果在不同的名稱空間中找到多個主要身分，則名稱空間中的身分會依字典排序，並會選取第一個身分。
+   - 如果在單一名稱空間中找到多個主要身分，則會選取第一個字典上可用的主要身分。
+
+  在以下範例中，名稱空間和身分會產生排序的主要身分清單，最後是選取的身分。
+
+  <table>
+     <tr>
+       <th>命名空間</th>
+       <th>身分清單</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>&nbsp;]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>已排序的身分清單</th>
+      <th>選取的身分</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>PrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-2", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-1", "namespace": "ECID"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "namespace": "ECID"}<br/>]<br/>NonPrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-1", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-3", "namespace": "ECID"}<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ccid-2",<br/>"namespace": "CCID"</code></pre></td>
+    </tr>
+  </table>
+
+- 使用`identityMap`名稱空間來定義persistentID：
+   - 如果在`identityMap`名稱空間中找到persitentID的多個值，則會使用第一個字典上的可用身分。
+
+  在以下範例中，名稱空間和身分會產生所選名稱空間(ECID)的排序身分清單，最後是所選身分。
+
+  <table>
+     <tr>
+       <th>命名空間</th>
+       <th>身分清單</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>已排序的身分清單</th>
+      <th>選取的身分</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;"id": "ecid-1",<br/>&nbsp;&nbsp;"id": "ecid-2",<br/>&nbsp;&nbsp;"id": "ecid-3"<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ecid-1",<br/>"namespace": "ECID"</code></pre></td>
+    </tr>
+  </table>
+
 
 ## 圖表式拚接的運作方式
 
@@ -133,13 +201,13 @@ ht-degree: 7%
 
 下列先決條件尤其適用於圖表式銜接：
 
-- Adobe Experience Platform中您要套用拼接的事件資料集，必須有一欄可識別每列的訪客，**永久ID**。 例如，Adobe AnalyticsAppMeasurement程式庫產生的訪客ID或Experience PlatformIdentity服務產生的ECID。
+- Adobe Experience Platform中您要套用拼接的事件資料集，必須有一欄可識別每列的訪客，**永久ID**。 例如，Adobe Analytics AppMeasurement資料庫產生的訪客ID或Experience Platform Identity Service產生的ECID。
 - 永久識別碼也必須在結構描述中定義為[身分識別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。
-- 來自Experience Platform身分服務的身分圖表必須有名稱空間（例如`Email`或`Phone`），您可在拼接期間用來解析&#x200B;**暫時性識別碼**。 如需詳細資訊，請參閱[Experience Platform識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)。
+- 來自Experience Platform Identity Service的身分圖表必須有名稱空間（例如`Email`或`Phone`），您可在拼接期間用來解析&#x200B;**暫時ID**。 如需詳細資訊，請參閱[Experience Platform Identity Service](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)。
 
 >[!NOTE]
 >
->您&#x200B;**不**&#x200B;需要Real-time Customer Data Platform授權才能使用圖表式拚接。 Customer Journey Analytics的&#x200B;**Prime**&#x200B;套件或更高版本包含必要的Experience Platform身分識別服務權益。
+>您&#x200B;**不**&#x200B;需要Real-time Customer Data Platform授權才能使用圖表式拚接。 Customer Journey Analytics的&#x200B;**Prime**&#x200B;套件或更新版本包含必要的Experience Platform Identity Service權益。
 
 
 ## 限制
@@ -148,7 +216,7 @@ ht-degree: 7%
 
 - 使用指定的名稱空間查詢暫時ID時，不會考慮時間戳記。 因此，永久性ID可能會從時間戳記較早的記錄拼接暫時ID。
 - 在共用裝置情況中，其中圖表中的名稱空間包含多個身分，系統會使用第一個字典識別。 如果名稱空間限制和優先順序是在圖表連結規則發行時設定，則會使用最後驗證的使用者身分。 如需詳細資訊，請參閱[共用裝置](/help/use-cases/stitching/shared-devices.md)。
-- 在身分圖表中有三個月回填身分的硬性限制。 若您未使用Experience Platform應用程式(例如Real-time Customer Data Platform)填入身分圖表，您可以使用回填身分。
+- 在身分圖表中有三個月回填身分的硬性限制。 若您未使用Experience Platform應用程式（如Real-time Customer Data Platform）填入身分圖表，建議您使用回填身分。
 - [Identity Service護欄](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)已套用。 檢視下列[靜態限制](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits)：
    - 圖表中的最大身分數量： 50。
    - 單一批次擷取的身分連結數上限： 50。
