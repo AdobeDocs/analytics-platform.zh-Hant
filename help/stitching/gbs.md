@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
+source-git-commit: e0e80723e21b7e8c460c05ec39b699eef00abb8b
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 7%
@@ -29,7 +29,7 @@ ht-degree: 7%
 
   在以下範例中，名稱空間和身分會產生排序的主要身分清單，最後是選取的身分。
 
-  <table>
+  <table style="table-layout:auto">
      <tr>
        <th>命名空間</th>
        <th>身分清單</th>
@@ -44,7 +44,7 @@ ht-degree: 7%
      </tr>
    </table>
 
-  <table>
+  <table style="table-layout:auto">
     <tr>
       <th>已排序的身分清單</th>
       <th>選取的身分</th>
@@ -60,7 +60,7 @@ ht-degree: 7%
 
   在以下範例中，名稱空間和身分會產生所選名稱空間(ECID)的排序身分清單，最後是所選身分。
 
-  <table>
+  <table style="table-layout:auto">
      <tr>
        <th>命名空間</th>
        <th>身分清單</th>
@@ -75,7 +75,7 @@ ht-degree: 7%
      </tr>
    </table>
 
-  <table>
+  <table style="table-layout:auto">
     <tr>
       <th>已排序的身分清單</th>
       <th>選取的身分</th>
