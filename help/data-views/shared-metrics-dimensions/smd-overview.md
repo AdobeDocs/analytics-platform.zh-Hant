@@ -2,7 +2,7 @@
 title: 共用的量度和維度概觀
 description: 在多個資料檢視中使用相同的維度或量度參考。
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 5fd023f988e485f04654869a982e02cb0f3e52a1
+source-git-commit: 4bb24fae7c7d53a0fde3bb2dc35ef27f91701d5a
 workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 0%
@@ -89,7 +89,7 @@ ht-degree: 0%
 ![可用動作的預覽](assets/smd-actions.png)
 
 * ![鉛筆圖示](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**：在[共用元件編輯器](shared-component-editor.md)中開啟選取的維度和量度，您可以調整其[元件設定](/help/data-views/component-settings/overview.md)。 選取多個要編輯的元件時，這些元件都會在元件編輯器中開啟。 您可以在元件編輯器中shift +按一下元件，以編輯多個元件的相同欄位。
-* ![共用圖示](/help/assets/icons/Share.svg) **[!UICONTROL 共用至資料檢視]**：開啟一個視窗，顯示所選連線中可用的所有資料檢視。 選取您想要讓此元件可用的每個資料檢視的核取方塊，然後選取&#x200B;**[!UICONTROL 共用]**。
-* ![取消共用圖示](/help/assets/icons/SaveTo.svg) **[!UICONTROL 取消共用至資料檢視]**：開啟一個視窗，顯示目前共用此元件的所有資料檢視。 選取您要移除此元件之可用性的每個資料檢視的核取方塊，然後選取&#x200B;**[!UICONTROL 取消共用]**。
+* ![共用圖示](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用至資料檢視]**：開啟一個視窗，顯示所選連線中可用的所有資料檢視。 選取您想要讓此元件可用的每個資料檢視的核取方塊，然後選取&#x200B;**[!UICONTROL 共用]**。
+* ![取消共用圖示](/help/assets/icons/SaveTo.svg) **[!UICONTROL 從資料檢視取消共用]**：開啟一個視窗，顯示目前共用此元件的所有資料檢視。 選取您要移除此元件之可用性的每個資料檢視的核取方塊，然後選取&#x200B;**[!UICONTROL 取消共用]**。
 * ![復製圖示](/help/assets/icons/Copy.svg) **[!UICONTROL 複製]**：建立所選元件的復本。 系統會為複製的元件產生新的元件ID。
 * ![刪除圖示](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]**：從介面移除選取的元件。 如果選取的元件與任何資料檢視共用，則會取消共用。
