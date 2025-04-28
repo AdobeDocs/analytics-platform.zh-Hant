@@ -1,7 +1,8 @@
 ---
 title: 共用的量度和維度概觀
 description: 在多個資料檢視中使用相同的維度或量度參考。
-source-git-commit: 263767028893d9b04e5c8f8ae067b3e6283e4053
+exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
+source-git-commit: 5fd023f988e485f04654869a982e02cb0f3e52a1
 workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 0%
