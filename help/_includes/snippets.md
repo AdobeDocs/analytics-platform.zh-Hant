@@ -1,8 +1,8 @@
 ---
-source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
+source-git-commit: 3ca1004fc1bbe3b60f32348d7da84718aef3a057
 workflow-type: tm+mt
-source-wordcount: '3759'
-ht-degree: 30%
+source-wordcount: '4061'
+ht-degree: 34%
 
 ---
 # 程式碼片段
@@ -238,3 +238,19 @@ Customer Journey Analytics中的各種視覺效果都是為了分析您提供給
 >[!INFO]
 >
 >在此檔案中，僅適用於Customer Journey Analytics B2B edition的特定B2B文章或功能會標示[!BADGE B2B edition]{type=Informative}。
+
+
+## 通用資料集設定 {#common-dataset-settings}
+
+| 設定 | 說明 |
+|---|---|
+| **[!UICONTROL 匯入新資料]** | 如果您想建立持續的連線，請啟用此選項。透過持續連線，新增至資料集中的新資料批次將在 Workspace 中自動可用。 |
+| **[!UICONTROL 資料集回填]** | 啟用「**[!UICONTROL 回填所有現有資料]**」以確保回填所有現有資料。<br/><br/>選取「**[!UICONTROL 要求回填]**」以回填特定期間的歷史資料。您最多可以定義 10 個資料集回填期間。<ol><li>透過輸入開始和結束資料或使用 ![日曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)選取日期來定義期間。</li><li>選取「**[!UICONTROL 將回填排入佇列]**」將回填加入清單，或選取「**[!UICONTROL 取消]**」以取消。</li></ol>對於每個項目，選取 ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)以編輯期間，或選取 ![刪除](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)以刪除該項目。<br/><br/>關於回填：<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。歷史資料多寡會影響延遲長度。</li><li>Analytics 來源連接器可為生產沙箱可匯入最多 13 個月的資料 (不論資料量多寡)。非生產沙箱的回填期限制為 3 個月。</li></ul> |
+| **[!UICONTROL 批次狀態]** | 可能的狀態指標包括：<ul><li>成功</li><li>正在處理 X 個回填</li><li>關閉</li></ul> |
+| **[!UICONTROL 資料集 ID]** | 此 ID 是自動產生的。 |
+| **[!UICONTROL 說明]** | 建立資料集時提供給此資料集的說明。 |
+| **[!UICONTROL 記錄數量]** | 資料集的大小。 |
+| **[!UICONTROL 結構描述]** | 在 Adobe Experience Platform 中建立資料集所根據的結構描述。 |
+| **[!UICONTROL 資料集]** | 資料集的名稱。 |
+| **[!UICONTROL 預覽：*資料集名稱&#x200B;*]** | 預覽前10列和前10欄的資料集。 |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL 移除]** | 您可以[刪除資料集](/help/connections/create-connection.md#delete-a-dataset)，而不刪除整個連線。 從連線中刪除資料集可減少資料擷取的相關成本，以及重新建立整個連線和相關資料檢視的繁複流程。 |
