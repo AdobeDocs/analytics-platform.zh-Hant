@@ -4,9 +4,9 @@ description: 瞭解如何將元件從一個使用者轉讓給另一個使用者
 role: Admin
 solution: Customer Journey Analytics
 exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 3e521cb4ef532d57b9f408fc12dcf138f130f059
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Assets通常會與個別擁有者繫結，而在某些情況下，例如區段�
 
 1. 選取使用者後，「轉移資產」選項會顯示在畫面底部。
 
-   ![功能表選項](/help/tools/asset-transfer/assets/after-selection.png)
+   ![轉移資產功能表選項](/help/tools/asset-transfer/assets/after-selection.png)
 
 1. 按一下&#x200B;**[!UICONTROL 轉移資產]**。
 
@@ -75,6 +75,20 @@ Assets通常會與個別擁有者繫結，而在某些情況下，例如區段�
 
 - **傳輸失敗**：「無法傳輸資產。 請再試一次。」
 
+### 資產轉移失敗的可能原因
+
+- 導致失敗的相依服務：資產傳輸會與每個元件型別的不同服務互動（例如網路問題、下游服務問題），因此這可能會導致部分或完全失敗，或間歇性失敗。
+
+- 缺少元件或由另一個管理員傳輸：元件已被另一個使用者刪除，或由另一個管理員傳輸給其他人，而資產傳輸工作仍在進行中。
+
+- API POST內文未正確填入：選取多個元件型別時，可能無法在API POST內文中傳送元件。
+
+- 使用者不存在：使用者已在傳輸期間刪除，或因其他原因而無效。 如果在傳輸開始之前使用者無效，則工具將會捕捉此訊息，並且不會處理作業。 如果使用者在傳輸期間遭刪除，則可能會導致部分失敗。
+
+- 連線/網路失敗：連線在傳輸中停止。 任何已傳輸至後端的傳輸工作批次仍會處理至完成，但使用者不會看到包含成功和失敗專案摘要的傳輸結果訊息。
+
+- 瀏覽器索引標籤已在傳輸期間關閉：對於非常大型的傳輸而言，如果瀏覽器索引標籤已關閉或頁面已導覽離開傳輸期間，則只有索引標籤關閉/頁面導覽發生之前的網路請求才能正確傳輸資產。 如果使用者導覽回頁面，他們將不會收到回應狀態訊息，指出哪些資產已轉移，哪些資產未轉移。
+
 ## 從Adobe Analytics升級至Customer Journey Analytics期間轉移資產
 
 資產轉移的主要使用案例之一是從Adobe Analytics升級至Customer Journey Analytics期間。
@@ -91,6 +105,9 @@ Adobe Analytics中的[元件移轉](https://experienceleague.adobe.com/en/docs/a
 
 「**[!UICONTROL 匯出至CSV]**」選項僅可讓管理員下載顯示為.csv檔案的使用者清單。 它不允許他們將已轉移資產的清單匯出至.csv檔案。
 
-<!---## Unknown users
+## 非活躍使用者
 
-All previously deleted users appear under one unknown user entry, along with all their orphan components. These components can be transferred to a new recipient. This feature will be available in January.-->
+所有先前刪除的使用者都會顯示在一個「非作用中使用者」專案下，連同其所有孤立元件。 這些元件可以轉移給新收件者。 此功能將於1月推出。
+
+![非使用中的使用者顯示在轉移資產UI中](assets/inactive-users.png)
+
