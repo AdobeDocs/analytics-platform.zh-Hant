@@ -1,7 +1,8 @@
 ---
 title: 共用元件編輯器
 description: 建立或編輯共用的維度和量度。
-source-git-commit: d2c6605cc440c293aca279c1583bac964055d277
+exl-id: 3f6a808a-d6ac-4a47-a5e2-63b9f17952e8
+source-git-commit: 62df631eeac40f2009304d91c93950c38a260dab
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 右上角有三個按鈕：
 
-* **[!UICONTROL 關閉]**&#x200B;或&#x200B;**[!UICONTROL 取消]**：如果儲存所有變更，則&#x200B;**[!UICONTROL 關閉]**&#x200B;按鈕會關閉編輯器。 如果有任何未儲存的變更，**[!UICONTROL 取消]按鈕會關閉編輯器而不儲存這些變更。
+* **[!UICONTROL 關閉]**&#x200B;或&#x200B;**[!UICONTROL 取消]**：如果儲存所有變更，則&#x200B;**[!UICONTROL 關閉]**&#x200B;按鈕會關閉編輯器。 如果有任何未儲存的變更，則&#x200B;**[!UICONTROL 取消]**&#x200B;按鈕會關閉編輯器而不儲存這些變更。
 * **[!UICONTROL 儲存]**：儲存所有元件並保持編輯器開啟。
 * **[!UICONTROL 儲存並完成]**：儲存所有元件並關閉編輯器。
 
