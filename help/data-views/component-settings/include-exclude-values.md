@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_includeexcludevalues"
 >title="包含排除值"
->abstract="縮小維度而僅包含符合特定條件的值。包含和排除會發生於報表中的配置和細分之前。 判斷指定的區段邏輯是否區分大小寫。"
+>abstract="縮小維度而僅包含符合特定條件的值。包含和排除會在報告中的配置和劃分前執行。判斷指定的區段邏輯是否區分大小寫。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -40,8 +40,8 @@ ht-degree: 83%
 | --- | --- |
 | [!UICONTROL 設定包含/排除值] | 允許您啟用資料包含在資料檢視中的條件的核取方塊。 |
 | [!UICONTROL 區分大小寫] | 在字串結構描述資料類型上可見。預設為開。此設定僅適用於「[!UICONTROL 包含/排除值]」邏輯，不適用於結果值。它允許您指定規則是否區分大小寫。 |
-| [!UICONTROL 符合] | 可讓您指定在歸因和區段之前，考慮要考慮用於報告的值（例如，僅使用包含片語「error」的值）。 您可以指定「**[!UICONTROL 如果滿足所有標準]**」或「**[!UICONTROL 如果滿足任何標準]**」。使用空格分隔每個值。 |
-| [!UICONTROL 標準] | 可讓您指定應套用至特定區段規則的符合邏輯。<ul><li>**字串**：[!UICONTROL 包含片語]、[!UICONTROL 包含任何詞語]、[!UICONTROL 包含所有詞語]、[!UICONTROL 不包含任何詞語]、[!UICONTROL 不包含片語]、[!UICONTROL 等於]、[!UICONTROL 不等於]、[!UICONTROL 開頭為]、[!UICONTROL 結尾為]</li><li>**Double/Integer**：[!UICONTROL 等於]、[!UICONTROL 不等於]、[!UICONTROL 大於]、[!UICONTROL 小於]、[!UICONTROL 大於或等於]、[!UICONTROL 小於或等於]</li><li>**日期**：[!UICONTROL 等於]、[!UICONTROL 不等於]、[!UICONTROL 晚於]、[!UICONTROL 等於]、[!UICONTROL 發生於]</li></ul> |
+| [!UICONTROL 符合] | 可讓您指定在歸因和劃分之前，考慮要以哪些值產生報告 (例如，僅使用包含片語「error」的值)。您可以指定「**[!UICONTROL 如果滿足所有標準]**」或「**[!UICONTROL 如果滿足任何標準]**」。使用空格分隔每個值。 |
+| [!UICONTROL 標準] | 可讓您指定應套用至特定區段的符合邏輯。<ul><li>**字串**：[!UICONTROL 包含片語]、[!UICONTROL 包含任何詞語]、[!UICONTROL 包含所有詞語]、[!UICONTROL 不包含任何詞語]、[!UICONTROL 不包含片語]、[!UICONTROL 等於]、[!UICONTROL 不等於]、[!UICONTROL 開頭為]、[!UICONTROL 結尾為]</li><li>**Double/Integer**：[!UICONTROL 等於]、[!UICONTROL 不等於]、[!UICONTROL 大於]、[!UICONTROL 小於]、[!UICONTROL 大於或等於]、[!UICONTROL 小於或等於]</li><li>**日期**：[!UICONTROL 等於]、[!UICONTROL 不等於]、[!UICONTROL 晚於]、[!UICONTROL 等於]、[!UICONTROL 發生於]</li></ul> |
 | [!UICONTROL 匹配操作數] | 可讓您指定應套用匹配運算子的匹配操作數。<ul><li>**字串**：文字欄位</li><li>**雙/整數**：文字欄位，其上／下箭頭代表數值</li><li>**日期**：日詳細程度選擇器 (日曆)</li><li>**日期時間**：日期和時間詳細程度選擇器</li></ul> |
 | [!UICONTROL 新增規則] | 可讓您指定額外的匹配運算子和操作數。 |
 

@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_persistence"
 >title="持續性"
->abstract="設定套用至維度的預設配置模式。配置會在報表中的區段之前套用。 如要了解更多資訊，請參閱[配置設定](/help/data-views/component-settings/persistence.md#allocation-settings)、[過期設定](/help/data-views/component-settings/persistence.md#expiration-settings)、[繫結維度](/help/data-views/component-settings/persistence.md#binding-dimension) 和[繫結量度](/help/data-views/component-settings/persistence.md#binding-metric)。"
+>abstract="設定套用至維度的預設配置模式。配置會在報告中的區段之前套用。如要了解更多資訊，請參閱[配置設定](/help/data-views/component-settings/persistence.md#allocation-settings)、[過期設定](/help/data-views/component-settings/persistence.md#expiration-settings)、[繫結維度](/help/data-views/component-settings/persistence.md#binding-dimension) 和[繫結量度](/help/data-views/component-settings/persistence.md#binding-metric)。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 
-[!UICONTROL 持續性]是指定維度值能夠歸因於其設定事件以外的量度。 它使用配置和過期時間的組合。
+[!UICONTROL 持續性]是給定維度值在其設定的事件之外歸屬於量度的能力。其使用配置和過期時間的組合。
 
 ![醒目顯示「持續性」選項的資料檢視視窗](../assets/persistence.png)
 
-* **配置**&#x200B;可讓您決定當一個欄中可以同時保留多個維度專案時要保留的值。
+* **配置**&#x200B;能讓您確認當一個列中可以同時保留多個維度項時要保留哪個值。
 
   >[!NOTE]
   >
@@ -40,13 +40,13 @@ ht-degree: 77%
 
 * **期限**&#x200B;可讓您確定維度項目在其設定的事件之後持續多長時間。
 
-[!UICONTROL 持續性]僅在維度上可用，並且可追溯至套用到的資料。它是發生在套用分段或其他分析作業之前的立即資料轉換。
+[!UICONTROL 持續性]僅在維度上可用，並且可追溯至套用到的資料。其為發生在套用劃分或其他分析作業之前的立即資料轉換。
 
 | 設定 | 說明 |
 | --- | --- |
 | [!UICONTROL 設定持續性] | 啟用維度的持續性。如果未啟用持續性，則維度僅與同一事件中存在的量度相關。此設定預設為停用。 |
-| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項有:<ul><li>**[!UICONTROL 最近]**：維度中的值會持續存在，直到被後續值覆寫為止</li><li> **[!UICONTROL 原始]**：此維度的第一個值會持續存在，且不會被後續值覆寫</li><li>**[!UICONTROL 全部]**：此維度的所有值會同時保留</li><li>**[!UICONTROL 第一個已知]**：已使用此維度的第一個值，並將套用至之前和之後的所有事件。</li><li>**[!UICONTROL 最後一個已知]**：此維度的最後一個值已使用，並將套用至之前和之後的所有事件。</li></ul> |
-| [!UICONTROL 期限] | 可讓您指定維度的持續性視窗。選項有: <ul><li>**[!UICONTROL 工作階段]** （預設）</li><li>**[!UICONTROL 人員]**</li><li>**[!UICONTROL 自訂時間]**</li><li>**[!UICONTROL 量度]**</li></ul>。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。您可以設定的最長期限為 90 天。如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]期限可用。 |
+| [!UICONTROL 配置] | 可讓您指定用於維度持續性的配置模式。選項有:<ul><li>**[!UICONTROL 最新]**：維度中的值會持續至被後續值覆寫為止。</li><li> **[!UICONTROL 最初]**：維度中的第一個值會持續，且不會被後續值覆寫。</li><li>**[!UICONTROL 所有]**：維度中的所有值會同時存留。</li><li>**[!UICONTROL 首次知曉]**：此維度的第一個值，會應用於之前和之後的所有事件。</li><li>**[!UICONTROL 最新知曉]**：此維度的最新值，會應用於之前和之後的所有事件。</li></ul> |
+| [!UICONTROL 期限] | 可讓您指定維度的持續性視窗。選項有: <ul><li>**[!UICONTROL 工作階段]** (預設)</li><li>**[!UICONTROL 人員]**</li><li>**[!UICONTROL 自訂時間]**</li><li>**[!UICONTROL 量度]**</li></ul>。您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。您可以設定的最長期限為 90 天。如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]期限可用。 |
 
 {style="table-layout:auto"}
 
@@ -90,11 +90,11 @@ ht-degree: 77%
 有關可用期限設定的詳細資料。
 
 * **工作階段**：在指定的工作階段後過期。預設期限窗口。
-* **人員報告期間**：在報告期間結束時到期。
-* **全域帳戶報告期間** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}：在報告期間結束時到期。
-* **帳戶報告期間** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}：在報告期間結束時到期。
-* **機會報告期間** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}：在報告期間結束時到期。
-* **購買群組報表期間** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}：報表期間結束時到期。
+* **人員報告期間**：在您的報告期間結束時到期。
+* **全域帳戶報告期間** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}：報告期間結束時到期。
+* **帳戶報告期間** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}：報告期間結束時到期。
+* **機會報告期間** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}：報告期間結束時到期。
+* **購買群組報告期間** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}：報告期間結束時到期。
 * **自訂時間**：在指定的時段 (最長 90 天) 後到期。這個期限選項僅適用於「原始」和「最近」配置模式。 在使用以時間為準的期限時，將會考量您的報告期間 (最長 90 天) 開始前的值。
 * **量度**：在事件中看到此量度時，維度中的保存值會立即過期。您可以使用量度當做此維度的過期點。 這個期限選項僅適用於「原始」和「最近」配置設定。
 
