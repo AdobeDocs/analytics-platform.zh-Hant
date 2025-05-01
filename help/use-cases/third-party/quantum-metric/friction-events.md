@@ -7,10 +7,10 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 11dc62cda2ceb7afabd3abd0944420601c8fa235
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 0%
+source-wordcount: '665'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,20 @@ Quantum Metric會收集頁面載入緩慢、頁面載入錯誤、範圍點選等
 * 您必須有權使用Quantum量度的&#x200B;**Dev Ops**&#x200B;套件。
 * 您必須使用Adobe Experience Platform資料彙集中的標籤。
 
-## 步驟1：使用量度標籤擴充功能擷取摩擦事件
+## 步驟1：建立結構欄位以容納量子量度摩擦事件
+
+此使用案例需要專用的結構描述欄位才能傳送資料。 您可以在結構描述中的任何所需位置建立此欄位，並隨意命名。 如果您的組織對名稱或地點沒有偏好設定，則會提供範例值。
+
+1. 登入[experience.adobe.com](https://experience.adobe.com)。
+1. 導覽至&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 結構描述]**。
+1. 從清單中選取所需的結構描述。
+1. 選取所要物件旁的![新增欄點陣圖示](/help/assets/icons/AddCircle.svg)圖示。 例如，`Implementation Details`旁。
+1. 在右側，輸入所需的[!UICONTROL 名稱]。 例如，`qmErrorName`。
+1. 輸入所需的[!UICONTROL 顯示名稱]。 例如，`Quantum Metric error name`。
+1. 選取[!UICONTROL Type]作為&#x200B;**[!UICONTROL String]**。
+1. 選取「**[!UICONTROL 儲存]**」。
+
+## 步驟2：使用量度標籤擴充功能擷取摩擦事件
 
 如需如何設定標籤以包含Quantum量度資料的指示，請參閱Adobe Experience Platform目的地指南中的[Quantum量度延伸模組](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)。 使用此擴充功能可將更多列傳入現有資料集。
 
@@ -40,7 +53,7 @@ return true;
 
 ![Quantum量度錯誤名稱熒幕擷圖](assets/error-name.png)
 
-## 步驟2：將一或多個維度和量度新增至Customer Journey Analytics中的資料檢視
+## 步驟3：將一或多個維度和量度新增至Customer Journey Analytics中的資料檢視
 
 編輯您現有的資料檢視，將工作階段ID新增為Customer Journey Analytics中的可用維度。
 
@@ -52,7 +65,7 @@ return true;
 1. 建立所有需要的維度和量度後，按一下&#x200B;**[!UICONTROL 儲存]**。
 1. 如需錯誤事件的完整清單，請參閱您的Quantum量度檔案。 如果您有其他問題，請連絡您的Quantum Metric客戶支援代表，或透過[Quantum Metric客戶請求入口網站](https://community.quantummetric.com/s/public-support-page)提交請求。
 
-## 步驟3：將維度和量度與Analysis Workspace中的其餘資料搭配使用
+## 步驟4：將維度和量度與Analysis Workspace中的其餘資料搭配使用
 
 有了量度摩擦事件資料會與您的其他訪客資料一起收集，您就可以完全依照在Customer Journey Analytics中使用任何其他維度或量度的方式使用這些資料。
 
