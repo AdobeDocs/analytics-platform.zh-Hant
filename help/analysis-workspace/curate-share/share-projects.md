@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '2069'
-ht-degree: 97%
+source-wordcount: '2070'
+ht-degree: 99%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 97%
 
 1. (視情況而定) 如果您要共用單一專案，則共用專案時請選擇是否啟用下列選項：
 
-   * **共用內嵌的專案元件：**&#x200B;與所有收件者共用區段、計算量度、日期範圍。共用後，這些元件會出現在收件者 Workspace 的「元件」下拉式清單中。系統不會沿用此設定，此動作僅在單次共用中有效。
+   * **共用內嵌的專案元件：**&#x200B;與所有收件者共用區段、計算量度、日期範圍。共用後，這些元件會出現在收件者Workspace的「元件」下拉式功能表中。 系統不會沿用此設定，此動作僅在單次共用中有效。
 
    * **設定為收件者的登陸頁面：** 將此頁面設定為收件者的登陸頁面。系統不會沿用此設定，此動作僅在單次共用中有效。
 
@@ -147,13 +147,13 @@ ht-degree: 97%
 >
 >* 包含超過 50 個展開之視覺效果的專案，無法與沒有 Customer Journey Analytics 存取權的人員共用。
 >
->* 您共用的使用者可以檢視在[組織](curate.md)期間套用至專案的任何區段。
+>* 您與其共用的使用者可以檢視在[監管](curate.md)期間套用至專案的任何區段。
 > 
 >* 您與之共用的使用者可以變更專案日期範圍。預設會顯示您為專案設定的日期範圍。
 >
 >* 如果有多位使用者同時嘗試存取所提供的連結，專案可能會變得無法存取。根據預設，每 5 分鐘可以有超過 190 人存取單一連結。如果您的組織達到此限制，請等待 5 分鐘，然後再次嘗試存取該連結。
 >
->* 針對[!DNL Healthcare Shield]和[!DNL Privacy & Security Shield]授權，[!UICONTROL 與任何人共用]功能需要Experience Cloud驗證。 [!DNL Healthcare Shield]客戶會出現「HIPAA法規遵循」警告，但您仍可在向Experience Cloud驗證後使用此功能。
+>* 對於 [!DNL Healthcare Shield] 和 [!DNL Privacy & Security Shield] 授權，「[!UICONTROL 與任何人共用]」功能皆需要 Experience Cloud 驗證。對於 [!DNL Healthcare Shield] 客戶，會出現「HIPAA 合規性」警告，但您仍然可以在向 Experience Cloud 進行驗證後使用此功能。
 
 >[!BEGINSHADEBOX]
 

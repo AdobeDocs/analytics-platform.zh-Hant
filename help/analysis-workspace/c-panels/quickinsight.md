@@ -4,10 +4,10 @@ title: 快速深入分析面板
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 94%
+source-wordcount: '1154'
+ht-degree: 95%
 
 ---
 
@@ -37,10 +37,10 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 * 哪些視覺化呈現最有用、
 * 哪些維度和量度可能有助於深入分析、
 * 拖放項目的位置、
-* 建立區段的位置，
+* 如何建立快速區段，
 * 及更多內容。
 
-為了解答這些問題，[!UICONTROL 快速深入分析]利用演算法為您提供貴公司所使用的最熱門維度、量度、區段和日期範圍。此演算法是根據您自己的公司在 [!UICONTROL Analysis Workspace] 的資料元件使用情況。實際上，您會在下拉式清單中看到標示為[!UICONTROL POPULAR]的維度、量度和區段，如下所示：
+為了解答這些問題，[!UICONTROL 快速深入分析]利用演算法為您提供貴公司所使用的最熱門維度、量度、區段和日期範圍。此演算法是根據您自己的公司在 [!UICONTROL Analysis Workspace] 的資料元件使用情況。實際上，您會在下拉式功能表中看到標示為[!UICONTROL POPULAR]的維度、量度和區段，如下所示：
 
 ![「快速深入分析」面板。](assets/popular-tag.png)
 
@@ -62,7 +62,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 | [!UICONTROL 量度] | 量度是有關人員活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。 |
 | **[!UICONTROL 視覺化呈現]** | Workspace 提供[一些視覺化呈現](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，方便您建置資料的視覺呈現方式。例如長條圖、環形圖、直方圖、折線圖、地圖、散佈圖等。 |
 | **[!UICONTROL 維度劃分]** | 維度劃分是用其他維度來劃分某個維度。例如，您可以將「依行動裝置劃分美國各州」劃分為每個州的行動裝置造訪次數。或者，您可以依行動裝置類型、區域、內部促銷活動等來劃分行動裝置。 |
-| **[!UICONTROL 區段]** | 區段讓您根據特性或網站互動來識別人員子集。例如，您可以根據以下專案建立[!UICONTROL 人員]區段 <li>屬性：瀏覽器類型、裝置、造訪次數、國家/地區、性別；或</li><li>互動：促銷活動、關鍵字搜尋、搜尋引擎；或</li><li>進入和退出：訪客來自 Facebook、已定義的登陸頁面、反向連結網域；或</li><li> 自訂變數：表單欄位、已定義的類別、客戶 ID。 |
+| **[!UICONTROL 區段]** | 區段讓您根據特性或網站互動來識別人員子集。例如，您可以建置[!UICONTROL 人員]區段，根據 <li>屬性：瀏覽器類型、裝置、造訪次數、國家/地區、性別；或</li><li>互動：促銷活動、關鍵字搜尋、搜尋引擎；或</li><li>進入和退出：訪客來自 Facebook、已定義的登陸頁面、反向連結網域；或</li><li> 自訂變數：表單欄位、已定義的類別、客戶 ID。 |
 
 ## 使用
 
@@ -83,7 +83,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 * **[!UICONTROL 分析]**  - 指定維度 (橘色)
 * **[!UICONTROL 依據]**  - 指定量度 (綠色)
-* **[!UICONTROL 區段依據]** — 指定區段（藍色）
+* **[!UICONTROL 劃分條件]**  - 指定區段 (藍色)
 * **[!UICONTROL 在]** - 指定日期範圍 (紫色)。
 
 您必須至少選取一個維度和一個量度才能使視覺化呈現正常運作。
@@ -94,7 +94,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 * 從左側面板拖放元件。
 * 開始在建置要素欄位之一中輸入內容。找到輸入後，建置要素欄位會自動填入可能的值。
-* 指定建置要素的下拉式清單 (例如在&#x200B;**[!UICONTROL 分析]**&#x200B;中的 `Country`)，並搜尋可能值的清單 (使用![箭號向右](/help/assets/icons/ChevronRight.svg)) 找出您要使用的值 (例如，**[!UICONTROL 國家/地區代碼]**)。
+* 指定建置區塊下拉式功能表（例如&#x200B;**[!UICONTROL 分析]**&#x200B;中的`Country`），並搜尋可能值的清單（使用![ChevronRight](/help/assets/icons/ChevronRight.svg)）以取得您要使用的值（例如&#x200B;**[!UICONTROL 國碼]**）。
 
 選取&#x200B;**[!UICONTROL 清除]**&#x200B;以清除所有輸入欄位。
 
@@ -105,7 +105,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
    ![自由格式表格依垂直方向顯示維度並依水平方向顯示量度。](assets/quick-insights-output.png)
 
-   * 自由表格，內含維度（國家/地區代碼）和量度（工作階段），依過去12個月的網頁工作階段分段。
+   * 具有維度 (國家/地區代碼) 和量度 (工作階段) 的自由格式表格，根據過去 12 個月的 Web 工作階段進行劃分。
 
    * 隨附的視覺效果，在此案例中為[長條圖](/help/analysis-workspace/visualizations/bar.md)。產生的視覺效果會以您新增至表格的資料類型為基礎。任何以時間為基礎的資料 (例如，每日/月的[!UICONTROL 工作階段])，預設以[!UICONTROL 折線圖]呈現。任何非基於時間的資料 (例如[!UICONTROL 工作階段]，依每個[!UICONTROL 裝置]) 都會預設以[!UICONTROL 條形]圖呈現。您可以按一下視覺化呈現類型旁的下拉箭頭，以變更視覺化呈現類型。
 
@@ -129,7 +129,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
    * 新增更多量度&#x200B;**[!UICONTROL 依據]**：您最多可以再增加 2 個量度。請參閱➍和➎。
 
-   * **[!UICONTROL 區段依據]**：您最多可以再新增2個區段。 例如，新增「預訂」作為區段，並結合您所比較的「預訂常客」和「首次搭機者」區段。請參閱➏、➐和➑。
+   * **[!UICONTROL 劃分條件]**：您最多可以再增加 2 個區段。例如，新增「預訂」作為區段，並結合您所比較的「預訂常客」和「首次搭機者」區段。請參閱➏、➐和➑。
 
    * 在：您可以指定日期範圍。請參閱➒。
 

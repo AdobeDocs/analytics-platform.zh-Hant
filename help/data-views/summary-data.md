@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 99%
+source-wordcount: '1147'
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 99%
 
 ### 詳細程度和時區
 
-在 Customer Journey Analytics 中設定含有摘要資料的資料集時，您會注意到詳細程度是從資料中自動衍生。**[!UICONTROL 時間戳記]**&#x200B;和&#x200B;**[!UICONTROL 時區]**&#x200B;下拉式選單的選取會被停用，因為這些選擇都是從結構描述定義中衍生而得。
+在 Customer Journey Analytics 中設定含有摘要資料的資料集時，您會注意到詳細程度是從資料中自動衍生。已停用&#x200B;**[!UICONTROL 時間戳記]**&#x200B;和&#x200B;**[!UICONTROL 時區]**&#x200B;下拉式功能表的選取專案，因為兩者都是衍生自結構描述定義。
 
 #### 詳細程度
 
@@ -154,5 +154,5 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 >[!MORELIKETHIS]
 >
 >- 請參閱「[使用摘要資料](/help/use-cases/data-views/summary-data.md)」文章，了解如何使用和報告摘要資料的詳細使用案例範例。
->- 部落格： [摘要資料如何增強Adobe Customer Journey Analytics資料集](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
+>- 部落格：[摘要資料如何增強 Adobe Customer Journey Analytics 資料集](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 

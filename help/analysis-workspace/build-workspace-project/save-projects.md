@@ -4,10 +4,10 @@ title: 儲存專案
 feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。您也可以�
       * **[!UICONTROL 名稱]** (必填)。您的專案名稱。
       * **[!UICONTROL 說明]**。您的專案說明。
       * **[!UICONTROL 標記]**。在「[!UICONTROL *搜尋標記*]」欄位中搜尋標記，或使用 **[!UICONTROL ENTER]** 新增標記。
-      * **[!UICONTROL 資料夾]**。從「[!UICONTROL *選取資料夾*]」下拉式選單中選取資料夾。如果您未指定資料夾，則專案會儲存在您建立新專案的目前資料夾中。
+      * **[!UICONTROL 資料夾]**。從&#x200B;[!UICONTROL *選取資料夾*]&#x200B;下拉式功能表中選取資料夾。 如果您未指定資料夾，則專案會儲存在您建立新專案的目前資料夾中。
       * **[!UICONTROL 版本說明]**。在「*新增註釋*」文字區域中新增版本說明。
 
    1. 選取「**[!UICONTROL 儲存]**」，即可儲存您的專案。
@@ -79,7 +79,7 @@ Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。您也可以�
       * **[!UICONTROL 名稱]** (必填)。您的專案名稱。
       * **[!UICONTROL 說明]**。您的專案說明。
       * **[!UICONTROL 標記]**。在「[!UICONTROL *搜尋標記*]」欄位中搜尋標記，或使用 **[!UICONTROL ENTER]** 新增標記。
-      * **[!UICONTROL 資料夾]**。從「[!UICONTROL *選取資料夾*]」下拉式選單中選取資料夾。如果您未指定資料夾，則專案會儲存在您建立新專案的目前資料夾中。
+      * **[!UICONTROL 資料夾]**。從&#x200B;[!UICONTROL *選取資料夾*]&#x200B;下拉式功能表中選取資料夾。 如果您未指定資料夾，則專案會儲存在您建立新專案的目前資料夾中。
       * **[!UICONTROL 版本說明]**。在「*新增註釋*」文字區域中新增版本說明。
 
    1. 選取「**[!UICONTROL 儲存]**」，即可儲存您的專案。

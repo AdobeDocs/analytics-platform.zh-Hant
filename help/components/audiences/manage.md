@@ -4,10 +4,10 @@ description: 了解如何在 Customer Journey Analytics 中管理客群
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 65dcbf63d9e155cb7e04bf9a550151a37b8457e6
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 
 可以使用「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」在 Customer Journey Analytics 中管理客群。
 
-## 瞭解對象管理任務
+## 了解客群管理任務
 
 管理先前建立的客群可讓您：
 
@@ -25,23 +25,23 @@ ht-degree: 78%
 * 透過 Customer Journey Analytics 深入分析&#x200B;**吸引客群所需時間**。以及讓客群出現在 Real-time Customer Platform 以達到啟動目的所需的時間。
 * 查看 **Real-time Customer Platform** 是否會積極使用 Customer Journey Analytics 中的客群。或 (理想情況下) 任何使用由 Customer Journey Analytics 所建立客群的 Experience Platform 應用程式。
 
-如果您有[客群檢視](/help/technotes/access-control.md#user-level-access)的存取權限，就可以查看客群。如果您有[對象建立](/help/technotes/access-control.md#user-level-access)存取權，您可以編輯和刪除對象。
+如果您有[客群檢視](/help/technotes/access-control.md#user-level-access)的存取權限，就可以查看客群。如果您有[客群建立](/help/technotes/access-control.md#user-level-access)的存取權限，您就可以編輯和刪除客群。
 
-## 在「對象」清單中檢視對象
+## 在客群清單中檢視客群
 
-「對象」清單➊會顯示現有的對象。
+客群清單 ➊ 會顯示現有客群。
 
 ![客群管理員](assets/audiences-manager.png)
 
-若要檢視「對象」清單：
+若要檢視客群清單：
 
-1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 對象]**。
+1. 在 Customer Journey Analytics 中，選取「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」。
 
-1. （選擇性）使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)來設定要顯示哪些欄。
+1. (選擇性) 使用 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) 來設定要顯示的欄。
 
-1. （選用）使用![搜尋](/help/assets/icons/Search.svg)來搜尋對象。
+1. (選擇性) 使用![搜尋](/help/assets/icons/Search.svg)來搜尋客群。
 
-   下列欄位會提供關於每個對象的資訊：
+   以下各欄提供關於每個客群的資訊：
 
    | 欄 | 說明 |
    | --- | --- |
@@ -56,23 +56,23 @@ ht-degree: 78%
    | **[!UICONTROL 上次重新整理時間]** | 客群上次重新整理的時間戳記。 |
    | **[!UICONTROL 上次修改日期]** | 客群上次編輯或修改的時間戳記。 |
 
-## 編輯對象
+## 編輯客群
 
-您可以隨時編輯對象的設定。 編輯對象（一次性對象或循環對象）時，需要重新發佈。
+您可以隨時編輯客群設定。當您編輯客群 (一次性客群或定期客群) 時，需要重新發佈。
 
 若要編輯客群：
 
-1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 對象]**。
+1. 在 Customer Journey Analytics 中，選取「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」。
 
-   將會顯示「對象」頁面。
+   會顯示客群頁面。
 
-1. 選取您要編輯的對象標題。
+1. 選取您想要編輯之客群的標題。
 
-   **[!UICONTROL 編輯對象]**&#x200B;對話方塊隨即顯示。
+   會顯示&#x200B;**[!UICONTROL 編輯客群]**&#x200B;對話框。
 
-1. 您可以更新對象的任何可用欄位。 如需您可以更新之欄位的詳細資訊，請參閱文章中的[對象產生器](/help/components/audiences/publish.md#audience-builder)、[建立和發佈對象](/help/components/audiences/publish.md)。
+1. 您可以更新客群的任何可用欄位。關於您可以更新之欄位的資訊，請參閱[建立及發佈客群](/help/components/audiences/publish.md)文章中的[客群產生器](/help/components/audiences/publish.md#audience-builder)。
 
-1. 選取&#x200B;**[!UICONTROL 重新發佈]**。
+1. 選取「**[!UICONTROL 重新發佈]**」。
 
 ## 動作
 
@@ -80,7 +80,7 @@ ht-degree: 78%
 
 | 圖示 | 動作 | 說明 |
 |:---:|---|---|
-| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。在&#x200B;**[!UICONTROL 「更新」標記中：*客群名稱&#x200B;*]**對話框中，從下拉式選單中選擇標記，或輸入一個或多個新標記。選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
+| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。在&#x200B;**[!UICONTROL 更新標籤： *對象名稱&#x200B;*]**對話方塊中，從下拉式功能表選取標籤，或輸入一或多個新標籤。 選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選取的客群。 |
 | ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名選取的客群。使用「**[!UICONTROL 重新命名」：「*客群名稱&#x200B;*]**」對話框來重新命名客群，然後選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 
@@ -92,7 +92,7 @@ ht-degree: 78%
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選取的客群。 |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出至 CSV]** | 將選取的客群匯出至名為 `audiences.csv` 的檔案中。 |
 
-## 篩選對象清單
+## 篩選客群清單
 
 您可以使用篩選器面板 ➋ 來篩選[客群清單](#audiences-list)。若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
 

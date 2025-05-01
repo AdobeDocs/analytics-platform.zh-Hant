@@ -5,10 +5,10 @@ title: 新增或移動資料夾
 feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 role: User
-source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 1. 選取![FolderAddTo](/help/assets/icons/FolderAddTo.svg)**移動至**，從可執行的[動作](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions)清單選取。顯示&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;對話框。
 
-1. 從&#x200B;**[!UICONTROL 資料夾]**&#x200B;下拉式選單中選取資料夾名稱。下拉式清單讓您可以周遊資料夾階層以選取任何層級的子資料夾。
+1. 從&#x200B;**[!UICONTROL 資料夾]**&#x200B;下拉式選單中選取資料夾名稱。下拉式功能表可讓您周游資料夾階層，以選取任何層級的子資料夾。
 
    ![The Select Folder view showing the drop down menu and available subfolders.](/help/analysis-workspace/build-workspace-project/assets/add-projects.png)
 

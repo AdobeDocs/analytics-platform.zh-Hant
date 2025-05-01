@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 33%
@@ -109,7 +109,7 @@ ht-degree: 33%
 
 若要設定篩選條件，請執行下列動作：
 
-1. 從運運算元下拉式清單中選取運運算元。 依預設，已選取&#x200B;**[!UICONTROL 包含片語]**
+1. 從運運算元下拉式選單中選取運運算元。 依預設，已選取&#x200B;**[!UICONTROL 包含片語]**
 
    ![運運算元清單。](./assets/image31.png){zoomable="yes"}
 

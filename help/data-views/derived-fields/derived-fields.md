@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '8844'
+source-wordcount: '8857'
 ht-degree: 99%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 99%
 | A | **規則名稱** | 依預設，規則名稱為「**規則 X**」(X 是指序列號碼)。若要編輯規則的名稱，請選取其名稱並輸入新名稱，例如 `Query Parameter`。 |
 | B | **函數名稱** | 為規則選取的函數名稱，例如 [!UICONTROL URL PARSE]。當函數位於函數序列中的最後一個，並可確定最終的輸出值時，函數名稱後面會跟著 [!UICONTROL - FINAL OUTPUT]，例如 [!UICONTROL URL PARSE - FINAL OUTPUT]。<br/>若要顯示包含有關該功能的更多資訊快顯視窗，請選取![幫助圖示](assets/Smock_HelpOutline_18_N.svg)。 |
 | C | **規則說明** | 您可以選擇為規則新增說明。<br/>選取「![更多圖示](assets/More.svg)」，然後選取「**[!UICONTROL **&#x200B;新增說明&#x200B;**]**&#x200B;以新增說明，或選取「**[!UICONTROL **&#x200B;編輯說明&#x200B;**]**」以編輯現有說明。<br/>使用編輯器輸入說明。您可以使用工具列來格式化文字 (使用樣式選擇器、粗體、斜體、底線、右、左、居中、顏色、數字清單、項目符號清單) 並新增外部資訊連結。<br/>若要完成編輯說明，請按一下編輯器外部。 |
-| D | **功能區域** | 定義函數的邏輯。介面取決於函數類型。[!UICONTROL 欄位]或[!UICONTROL 數值]的下拉式選單會根據函數期望的輸入類型，顯示所有適用的欄位類別 (規則欄位、標準欄位、欄位)。或者，您可以將欄位從結構描述和標準欄位選擇器拖放至欄位或值上。當拖曳的欄位是來自查詢資料集時，查詢函數會自動插入您定義的函數之前。<br/>請參閱「[函數引用](#function-reference)」，了解支援的每個功能詳細資訊。 |
+| D | **功能區域** | 定義函數的邏輯。介面取決於函數類型。[!UICONTROL 欄位]或[!UICONTROL 值]的下拉式功能表，會根據函式預期的輸入型別，顯示所有可用的欄位類別（規則、標準欄位、欄位）。 或者，您可以將欄位從結構描述和標準欄位選擇器拖放至欄位或值上。當拖曳的欄位是來自查詢資料集時，查詢函數會自動插入您定義的函數之前。<br/>請參閱「[函數引用](#function-reference)」，了解支援的每個功能詳細資訊。 |
 
 {style="table-layout:auto"}
 
@@ -1948,7 +1948,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 - 定義衍生欄位的規則時，最多可以使用十個不同的結構描述欄位 (不包括標準欄位)。
    - 在最多十個不同的結構描述欄位中，最多只允許三個查詢結構描述或設定檔結構描述欄位。
-- 每個 Customer Journey Analytics 連線最多可以有 100 個衍生欄位。
+- 根據您授權的套件，每個Customer Journey Analytics連線衍生的欄位數可達上限。 如需詳細資訊，請參閱[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html){target="_blank"}。
 
 
 ### 函數限制摘要
@@ -1996,7 +1996,7 @@ Classify 函數中的運算子是[!UICONTROL 「當值等於原始值」] [!UICO
 
 >[!MORELIKETHIS]
 >
->- [部落格：充分利用您的資料：在Customer Journey Analytics中使用衍生欄位的架構](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
->- [部落格： Customer Journey Analytics的衍生欄位使用案例](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
->- [部落格： Adobe Customer Journey Analytics衍生欄位增強功能](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
+>- [部落格：充分利用您的資料：在 Customer Journey Analytics 中使用衍生欄位的框架](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+>- [部落格：Customer Journey Analytics 的衍生欄位使用案例](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+>- [部落格：Adobe Customer Journey Analytics 衍生欄位增強功能](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
 

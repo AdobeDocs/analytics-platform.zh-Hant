@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
-source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 92%
 
 若要將此自動建立的資料集新增至為 Web SDK 實施建立的相同連線：
 
-1. 在Customer Journey Analytics中，選取頂端功能表中的&#x200B;**[!UICONTROL 連線]** （選擇性的從&#x200B;**[!UICONTROL 資料管理]**）。
+1. 在 Customer Journey Analytics 的頂部選單中選取「**[!UICONTROL 連線]**」，也可以自「**[!UICONTROL 資料管理]**」選取。
 
 1. 選取您[為 Web SDK 實施而建立](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)的連線。
 
@@ -77,7 +77,7 @@ ht-degree: 92%
 
    | 設定 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 個人 ID]** | 僅適用於事件和設定檔資料集。從可用身分識別的下拉式清單中選取個人 ID。這些身分識別是在 Experience Platform 的資料集結構描述中所定義。 若要了解如何以「身分識別對應」作為個人 ID，請參閱以下說明。<p>如果沒有個人 ID 可以選擇，表示結構描述中尚未定義一或多個個人 ID。有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
+   | **[!UICONTROL 個人 ID]** | 僅適用於事件和設定檔資料集。從可用身分識別的下拉式選單中選取人員ID。 這些身分識別是在 Experience Platform 的資料集結構描述中所定義。 若要了解如何以「身分識別對應」作為個人 ID，請參閱以下說明。<p>如果沒有個人 ID 可以選擇，表示結構描述中尚未定義一或多個個人 ID。有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
    | **[!UICONTROL 時間戳記]** | 僅適用於事件和摘要資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述之預設時間戳記欄位。 |
    | **[!UICONTROL 時區]** | 僅適用於摘要資料。為時間序列摘要資料選取適當的時區。 |
    | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。<br/>資料來源的類型包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
@@ -96,9 +96,9 @@ ht-degree: 92%
 
    * 選擇的結束日期與您一開始隨 Web SDK 實施收集資料的日期相同。
 
-   * 選擇您初次開始透過Web SDK實作收集資料之日期不久後的結束日期，然後使用資料檢視區段來區隔重疊的資料。
+   * 選擇一個結束日期，該日期應是您最初開始隨 Web SDK 實施收集資料之日期的不久之後，然後使用資料檢視區段來劃分重疊的資料。
 
-   * 選擇會導致資料發生較大重疊的結束日期，然後使用資料檢視區段來劃分重疊的資料。
+   * 選擇一個會讓資料更大幅重疊的結束日期，然後使用資料檢視來劃分重疊的資料。
 
      **註：** 此選項會使成本增加，因為會有更多列在連線中。
 

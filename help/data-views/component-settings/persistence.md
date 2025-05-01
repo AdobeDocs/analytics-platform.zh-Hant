@@ -5,10 +5,10 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 ## [!UICONTROL 繫結維度]
 
-讓您將維度值的持續性繫結至另一維度中維度值的下拉式清單。有效的下拉式清單選項含有在資料檢視中所含的其他維度。
+一個下拉式選單，可讓您將維度值的持續性繫結到另一個維度中的維度值。 有效的下拉式清單選項含有在資料檢視中所含的其他維度。
 
 如需有關如何有效使用繫結維度的範例，請參閱「[使用 Customer Journey Analytics 中的繫結維度和量度](../../use-cases/data-views/binding-dimensions-metrics.md)」。
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 ## [!UICONTROL 繫結量度]
 
-讓您選擇做為繫結觸發器量度的下拉式清單。有效選項包含在資料檢視中的量度。
+下拉式功能表可讓您選擇做為繫結觸發器的量度。 有效選項包含在資料檢視中的量度。
 
 此項設定只會在繫結維度在物件陣列中小於元件時出現。繫結量度存在於事件中時，維度值會從事件水準維度複製到繫結維度的下層結構描述。
 

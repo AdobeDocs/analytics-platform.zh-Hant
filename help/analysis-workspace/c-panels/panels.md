@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2129'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 97%
 
 ## 資料視圖
 
-每個面板都與一個[資料視圖](/help/data-views/data-views.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *資料視圖名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
+每個面板都與一個[資料檢視](/help/data-views/data-views.md)相關聯，由面板右上角的下拉式功能表中的資料檢視&#x200B;*]**&#x200B;的![資料](/help/assets/icons/Data.svg) **[!UICONTROL *名稱識別。
 
 當您建立空白 Workspace 專案時，初始面板的預設資料視圖是您上次在 Customer Journey Analytics 中使用的資料視圖。
 
@@ -85,7 +85,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->選取的資料檢視會決定哪些維度、量度和區段可用來在面板中建立視覺效果。
+>所選取的資料視圖會決定哪些維度、量度和區段，可供面板建置視覺效果時使用。
 >
 >
 >當您切換面板的資料視圖時，某些元件可能在新資料視圖中無法使用。此變更可能會導致您的視覺效果無法正確呈現。您可能會看到如下警告：
@@ -106,7 +106,7 @@ ht-degree: 97%
 
 ![顯示所選日期範圍的行事曆視窗。](assets/panel-calendar.png)
 
-1. 首先選取開始日期，然後選取結束日期來選取日期範圍。或者，您可以從&#x200B;[!UICONTROL *選取預設集*]&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 預設集]** 。
+1. 首先選取開始日期，然後選取結束日期來選取日期範圍。或者，您也可以從&#x200B;[!UICONTROL *選取預設集*]&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 預設集]**。
 
 1. 或者，選取&#x200B;**[!UICONTROL 顯示進階設定]**&#x200B;以進行：
 
@@ -142,12 +142,12 @@ ht-degree: 97%
 
 #### 快速區段
 
-也可以直接將非區段元件拖曳至放置區以建立快速區段，節省前往「[區段產生器](/help/components/filters/filter-builder.md)」的時間和作業。以此方法建立的區段會自動被定義為事件層級的區段。透過選取區段名稱旁的「![編輯](/help/assets/icons/Edit.svg)」，可以快速修改此定義。
+也可以直接將非區段元件拖曳至放置區以建立快速區段，節省前往「[區段產生器](/help/components/filters/filter-builder.md)」的時間和作業。以此方法建立的區段會自動被定義為事件層級的區段。選取區段名稱旁的「![編輯](/help/assets/icons/Edit.svg)」，可以快速修改此定義。
 
 
-如需更多資訊，請參閱[快速區段](/help/components/filters/quick-filters.md)。
+如需詳細資訊，請參閱[快速區段](/help/components/filters/quick-filters.md)。
 
-![已公開並放入放置區域的臨時區段](assets/adhoc-segment-filter.png)
+![公開且拖曳到放置區的臨時區段](assets/adhoc-segment-filter.png)
 
 ### 下拉式區段
 
@@ -166,7 +166,7 @@ ht-degree: 97%
 
 靜態下拉式區段也可用於將許多專案合而為一。例如，如果您的一個專案擁有套用不同國家區段的許多版本，您可以將所有版本整合為單一專案並新增一個國家/地區的下拉式區段。
 
-![靜態下拉式區段，其中反白顯示市場管道「直接」區段。](assets/dropdown-filter-intro.png)
+![靜態下拉式區段，呈現醒目提示的行銷管道「直接」區段。](assets/dropdown-filter-intro.png)
 
 ##### 建立靜態下拉式區段
 
@@ -198,7 +198,7 @@ ht-degree: 97%
 
 #### 動態下拉式區段
 
-動態下拉式區段可讓您根據面板報告範圍內的資料和其他下拉式區段中的值來決定可用值。例如，您可以使用「國家/地區」維度和「城市」維度建立兩個動態下拉式篩選器。您從&#x200B;**[!UICONTROL 國家/地區]**&#x200B;下拉式清單選取一個國家/地區時，**[!UICONTROL 城市]**&#x200B;下拉式清單會動態調整成僅顯示該國家/地區內的城市。
+動態下拉式區段可讓您根據面板報告範圍內的資料和其他下拉式區段中的值來決定可用值。例如，您可以使用「國家/地區」維度和「城市」維度建立兩個動態下拉式篩選器。當您從&#x200B;**[!UICONTROL 國家]**&#x200B;下拉式功能表選取國家/地區時，**[!UICONTROL 城市]**&#x200B;下拉式功能表會動態調整以只顯示該國家/地區的城市。
 
 同樣的概念適用於所有維度；會顯示僅出現在面板日期範圍內和選取區段中的維度項目。在靜態下拉式區段中選取的維度項目，會影響動態下拉式區段中的可用值。然而，反之則不然；在動態下拉式區段中選取的維度項目，不會影響靜態下拉式區段中的可用值。
 

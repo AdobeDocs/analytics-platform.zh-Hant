@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 836c793ae74185728af03636b0ba3e838f46f05d
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '6794'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
@@ -558,7 +558,7 @@ ht-degree: 64%
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式清單中選取個人 ID。這些身分識別是在Experience Platform的資料集結構中所定義。 如需如何使用身分對應作為人員ID的相關資訊，請參閱[使用身分對應作為人員ID](#id-map)。<p>如果沒有人員ID可以選擇，表示結構描述中未定義人員ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
+| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取人員ID。 這些身分識別是在Experience Platform的資料集結構中所定義。 如需如何使用身分對應作為人員ID的相關資訊，請參閱[使用身分對應作為人員ID](#id-map)。<p>如果沒有人員ID可以選擇，表示結構描述中未定義人員ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
 | **[!UICONTROL 時間戳記]** | 系統會自動將此設定設為Experience Platform中以事件為基礎的結構之預設時間戳記欄位。 |
 | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。資料來源型別包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
 | **[!UICONTROL 資料來源描述]** | 當您選取其他作為資料來源型別時，資料來源的說明。 |
@@ -578,7 +578,7 @@ ht-degree: 64%
 | **[!UICONTROL 全域帳戶ID]** | 從Experience Platform資料集結構描述中定義的可用身分中，選取帳戶ID （帳戶的唯一識別碼）。 當您尚未將全域帳戶作為容器新增至您的連線時適用。 |
 | **[!UICONTROL 商機ID]** | 從Experience Platform資料集結構描述中定義的可用身分中，選取機會ID （機會的唯一識別碼）。 |
 | **[!UICONTROL 購買群組ID]** | 從Experience Platform資料集結構中定義的可用身分中，選取購買群組ID （購買群組的唯一識別碼）。 |
-| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式清單中選取個人 ID。這些身分識別是在 Experience Platform 的資料集結構描述中所定義。 如需如何使用身分對應作為人員ID的相關資訊，請參閱[使用身分對應作為人員ID](#id-map)。<p>如果沒有個人 ID 可以選擇，表示結構描述中尚未定義一或多個個人 ID。有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
+| **[!UICONTROL 人員 ID]** | 從可用身分識別的下拉式選單中選取人員ID。 這些身分識別是在 Experience Platform 的資料集結構描述中所定義。 如需如何使用身分對應作為人員ID的相關資訊，請參閱[使用身分對應作為人員ID](#id-map)。<p>如果沒有個人 ID 可以選擇，表示結構描述中尚未定義一或多個個人 ID。有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
 | **[!UICONTROL 時間戳記]** | 系統會自動將此設定設為Experience Platform中以事件為基礎的結構之預設時間戳記欄位。 |
 | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。資料來源型別包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
 | **[!UICONTROL 資料來源描述]** | 當您選取其他作為資料來源型別時，資料來源的說明。 |
@@ -596,7 +596,7 @@ ht-degree: 64%
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式清單中選取個人 ID。這些身分識別是在Experience Platform的資料集結構中所定義。 如需如何使用身分對應作為人員ID的相關資訊，請參閱[使用身分對應作為人員ID](#id-map)。<p>如果沒有人員ID可供選擇，則結構描述中不會定義任何人員ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
+| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取人員ID。 這些身分識別是在Experience Platform的資料集結構中所定義。 如需如何使用身分對應作為人員ID的相關資訊，請參閱[使用身分對應作為人員ID](#id-map)。<p>如果沒有人員ID可供選擇，則結構描述中不會定義任何人員ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
 | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。資料來源型別包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
 | **[!UICONTROL 資料來源描述]** | 當您選取其他作為資料來源型別時，資料來源的說明。 |
 
@@ -608,9 +608,9 @@ ht-degree: 64%
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式清單中選取個人 ID。這些身分識別是在Experience Platform的資料集結構中所定義。 如需如何使用身分對應作為人員ID的相關資訊，請參閱[使用身分對應作為人員ID](#id-map)。<p>如果沒有人員ID可供選擇，則結構描述中不會定義任何人員ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
-| **[!UICONTROL 全域帳戶欄位]** | 從可用身分識別的下拉式清單中，選取全域帳戶欄位以支援資料集的帳戶型報告。 適用於您已將全域帳戶作為容器新增至連線時。 |
-| **[!UICONTROL 帳戶欄位]** | 從可用身分識別的下拉式清單中，選取帳戶欄位以支援資料集的帳戶型報告。 當您尚未將全域帳戶作為容器新增至您的連線時適用。 |
+| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取人員ID。 這些身分識別是在Experience Platform的資料集結構中所定義。 如需如何使用身分對應作為人員ID的相關資訊，請參閱[使用身分對應作為人員ID](#id-map)。<p>如果沒有人員ID可供選擇，則結構描述中不會定義任何人員ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
+| **[!UICONTROL 全域帳戶欄位]** | 從可用身分識別的下拉式選單中，選取全域帳戶欄位以支援資料集的帳戶型報告。 適用於您已將全域帳戶作為容器新增至連線時。 |
+| **[!UICONTROL 帳戶欄位]** | 從可用身分識別的下拉式選單中選取帳戶欄位，以支援資料集的帳戶型報表。 當您尚未將全域帳戶作為容器新增至您的連線時適用。 |
 | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。資料來源型別包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
 | **[!UICONTROL 資料來源描述]** | 當您選取其他作為資料來源型別時，資料來源的說明。 |
 
@@ -646,7 +646,7 @@ ht-degree: 64%
 |---|---|
 | **[!UICONTROL 索引鍵]** | 用於查詢資料集的索引鍵。 |
 | **[!UICONTROL 相符的索引鍵型別]** | 選取如何連接資料集：根據&#x200B;**[!UICONTROL 依欄位比對]**&#x200B;或&#x200B;**[!UICONTROL 依容器比對]**。如需詳細資訊，請參閱[依欄位容器比對](/help/getting-started/cja-b2b-concepts-features.md#match-by-container-or-field)。 |
-| **[!UICONTROL 比對索引鍵]** | 要加入其中一個事件資料集的索引鍵。若此清單空白，您可能尚未新增或設定事件資料集。<br/><br/>根據您選取的&#x200B;**[!UICONTROL 相符的索引鍵型別]**，選取適當的值：<ul><li>**[!UICONTROL 依欄位比對]**： ![依欄位比對](assets/match-by-field.png)<br/>從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;下拉式功能表中選取欄位，以聯結事件資料集之一。 若此清單空白，您可能尚未新增或設定事件資料集。</li><li>**[!UICONTROL 依容器比對]**： ![依容器比對](assets/match-by-container.png)<br/>從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;下拉式功能表中選取容器，以用來聯結其中一個事件資料集。 您在設定連線時包含的容器會決定要選取的可用容器。 如果此清單為空白，表示您可能尚未設定一或多個容器。</li></ul> |
+| **[!UICONTROL 比對索引鍵]** | 要加入其中一個事件資料集的索引鍵。若此清單空白，您可能尚未新增或設定事件資料集。<br/><br/>根據您選取的&#x200B;**[!UICONTROL 相符的索引鍵型別]**，選取適當的值：<ul><li>**[!UICONTROL 依欄位比對]**： ![依欄位比對](assets/match-by-field.png)<br/>從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;下拉式功能表中選取欄位，以聯結事件資料集之一。 若此清單空白，您可能尚未新增或設定事件資料集。</li><li>**[!UICONTROL 依容器比對]**： ![依容器比對](assets/match-by-container.png)<br/>從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;下拉式選單中選取容器，以與其中一個事件資料集聯結。 您在設定連線時包含的容器會決定要選取的可用容器。 如果此清單為空白，表示您可能尚未設定一或多個容器。</li></ul> |
 | **[!UICONTROL 全域帳戶欄位]** | 用於帳戶型報表的全域帳戶ID。 |
 
 
@@ -740,7 +740,7 @@ Customer Journey Analytics 支援以「身分識別對應」作為人員 ID。 �
 | 選項 | 說明 |
 |---|---|
 | **[!UICONTROL 使用主要 ID 命名空間]** | 這選項會指示 Customer Journey Analytics 在標示 `primary=true` 屬性的「身分對應」中尋找身分識別，並且使用該身分識別作為該列的人員 ID。此身分識別是在 Experience Platform 中劃分資料的主要索引鍵，此外，此身分識別也是Customer Journey Analytics人員ID的主要候選專案(取決於Customer Journey Analytics連線中資料集的設定方式)。 |
-| **[!UICONTROL 命名空間]** | (當您未使用主要 ID 命名空間時，才能使用此選項) 身分命名空間是 [Experience Platform 身分服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)的元件。命名空間是作為身分識別相關內容的指標。如果您指定命名空間，Customer Journey Analytics 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。由於 Customer Journey Analytics 無法對所有列執行完整的資料集掃描，以判斷哪些命名空間實際存在，因此下拉式清單會列出所有可能的命名空間。了解資料中指定了哪些命名空間；系統不會自動偵測這些命名空間。 |
+| **[!UICONTROL 命名空間]** | (當您未使用主要 ID 命名空間時，才能使用此選項) 身分命名空間是 [Experience Platform 身分服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)的元件。命名空間是作為身分識別相關內容的指標。如果您指定命名空間，Customer Journey Analytics 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。由於Customer Journey Analytics無法執行涵蓋所有列的完整資料集掃描來判斷哪些名稱空間存在，因此下拉式選單中會顯示所有可能的名稱空間。 了解資料中指定了哪些命名空間；系統不會自動偵測這些命名空間。 |
 
 {style="table-layout:auto"}
 

@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e0615e3b4b1a4f0cd675de4bf4bb84d73eab8b8c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2698'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資�
 
 若要建立計分卡，您需要執行以下內容：
 
-1. 存取Workspace中的[!UICONTROL 空白行動計分卡]範本。
+1. 在 Workspace 中存取[!UICONTROL 空白行動計分卡]範本。
 2. 使用資料設定計分卡並儲存。
 
 ## 存取 [!UICONTROL 空白行動計分卡] 範本 {#template}
@@ -58,7 +58,7 @@ Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資�
 ### 建立新專案 {#create}
 
 1. 開啟 Customer Journey Analytics，然後按一下「**[!UICONTROL 工作區]**」索引標籤。
-1. 在左側邊欄中，按一下&#x200B;**[!UICONTROL 專案]**。
+1. 在左側邊欄中，按一下「**[!UICONTROL 專案]**」。
 1. 按一下 **[!UICONTROL 建立專案]**，然後選取 **[!UICONTROL 空白行動計分卡]** 專案範本。
 1. 按一下 **[!UICONTROL 建立]**。
 
@@ -73,7 +73,7 @@ Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資�
 
 若要實施計分卡範本：
 
-1. 在&#x200B;**[!UICONTROL 計分卡屬性]** （在右側邊欄中）下，指定您要使用資料的&#x200B;**[!UICONTROL 專案資料檢視]**。
+1. 在「**[!UICONTROL 計分卡內容]**」下方 (右側邊欄中)，指定您要使用資料的「**[!UICONTROL 專案資料檢視]**」。
 
    ![新的行動計分卡視窗，醒目顯示資料檢視選擇](assets/properties_save.png)
 
@@ -96,9 +96,9 @@ Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資�
 
 若要將區段套用至個別圖磚，請從左側面板將區段直接拖放至圖磚上方。
 
-如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的區段功能表中選取區段，以套用區段。 您[可以像在Customer Journey Analytics Workspace中一樣為您的計分卡](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)設定和套用區段。
+如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的區段選單中選取區段將其套用。您可以採用與在 Customer Journey Analytics Workspace 中相同的方式，[設定並套用計分卡的區段](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
 
-![強調組建區段的區段下拉式選擇器](assets/segment_ui.png)
+![區段下拉式清單選擇器，醒目提示建置區段](assets/segment_ui.png)
 
 ## 新增日期範圍 {#dates}
 
@@ -203,7 +203,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ![Breakdown_view](assets/break_view.png)
 
-新增至圖磚的每個維度，都會顯示在應用程式詳細檢視的下拉式清單中。高階主管使用者可從下拉式清單中選擇選項。
+新增至圖磚的每個維度，都會顯示在應用程式詳細檢視的下拉式功能表中。 執行使用者可從下拉式功能表中選取選項。
 
 ## 自訂詳細投影片 {#customize-detail-slide}
 
@@ -282,7 +282,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ### 自訂資料故事 {#customize-data-story}
 
-資料故事可讓您自訂所有內容，好讓您可以共用資訊，並排除您不需要的所有內容。您可以自訂圖磚和個別幻燈片，以新增區段、顯示劃分、變更版面以及變更視覺效果。
+資料故事可讓您自訂所有內容，好讓您可以共用資訊，並排除您不需要的所有內容。您可以自訂磚和個別幻燈片，來新增區段、顯示細分、變更版面和變更視覺效果。
 
 **自訂磚的方法**
 

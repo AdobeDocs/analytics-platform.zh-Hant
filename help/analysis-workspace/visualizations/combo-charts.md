@@ -4,10 +4,10 @@ title: 組合圖表視覺效果
 feature: Visualizations
 exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -45,14 +45,14 @@ _請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _*
 * 您可在單一[!UICONTROL 組合圖表]中新增多筆比較資料。
 * 如果您新增一筆或更多比較資料，這些資料必須是相同類型，例如[!UICONTROL 時間比較]。
 * 您最多只能新增 5 筆比較資料。
-* 一個量度最多可以套用3個區段。
+* 一個量度最多可以套用 3 個區段。
 * 組合圖表中不支援計算量度。
 
 ## 使用
 
 1. 新增![評論](/help/assets/icons/ComboChart.svg)[!UICONTROL 組合]視覺化。請參閱「[將視覺化新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」
 
-1. 從下拉式清單，選取 X 軸的維度和 Y 軸的量度。
+1. 從下拉式功能表中，選取X軸的維度和Y軸的量度。
 
 1. 選取您要使用的[!UICONTROL 折線比較]類型。
 

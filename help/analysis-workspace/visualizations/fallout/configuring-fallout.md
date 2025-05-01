@@ -4,10 +4,10 @@ title: 設定流失視覺效果
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 ## 使用
 
 1. 新增 ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL 流失]**&#x200B;視覺效果。請參閱[新增視覺效果至面板](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
-1. 將頁面 (例如首頁) 從頁面維度拖曳至&#x200B;*新增接觸點*&#x200B;下拉式選單中。
+1. 從「頁面」維度將頁面（例如home）拖曳至「*新增接觸點*」下拉式功能表。
 
    ![將首頁從首頁維度拖曳至新增接觸點欄位。](assets/fallout-drag.png)
 

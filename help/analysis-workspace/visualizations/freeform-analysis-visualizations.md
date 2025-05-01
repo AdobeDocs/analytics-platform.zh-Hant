@@ -5,10 +5,10 @@ title: 視覺效果概觀
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1616'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [項目符號](/help/analysis-workspace/visualizations/bullet-graph.md) | 項目符號圖顯示您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。 |
 | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組視覺效果是指一段指定時間內，共享相同特徵的一組人。同類群組表格對保留、攪動或延遲分析很有用處。 |
 | ![組合](/help/assets/icons/ComboChart.svg) | [組合](combo-charts.md) | 組合圖表讓您能夠快速建立比較視覺效果，而無需先建立表格。 |
-| ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [環形圖](/help/analysis-workspace/visualizations/donut.md) | 環形圖視覺效果類似圓形圖，以整體的部分或區段顯示資料。 |
+| ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [環形圖](/help/analysis-workspace/visualizations/donut.md) | 環形圖視覺效果類似於圓形圖，以整體的部分或區段來顯示資料。 |
 | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失視覺效果會顯示在一系列預先定義的連續頁面中，個人在哪個位置離開 (流失) 和繼續通過 (流過)。 |
 | ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流量](/help/analysis-workspace/visualizations/c-flow/flow.md) | 流量視覺效果會顯示客戶使用您網站和應用程式的正確路徑。 |
 | ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由格式表格視覺效果是一種互動式視覺效果。自由格式表視覺效果是 Workspace 中資料分析的基礎。 |
@@ -44,7 +44,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | ![123](/help/assets/icons/123.svg)</p> | [摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md) | 摘要數字視覺效果會以一個大數字顯示選取的儲存格。 |
 | ![Text](/help/assets/icons/Text.svg) | [文字](/help/analysis-workspace/visualizations/text.md) | 文字視覺效果會讓您將使用者定義的文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [樹狀圖](/help/analysis-workspace/visualizations/treemap.md)<p> | 樹狀圖視覺效果會以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
-| ![Type](/help/assets/icons/TwoDots.svg) | [文氏圖表](/help/analysis-workspace/visualizations/venn.md) | 文氏圖表視覺效果會使用圓圈描繪最多3個區段的量度重疊。 |
+| ![Type](/help/assets/icons/TwoDots.svg) | [文氏圖表](/help/analysis-workspace/visualizations/venn.md) | 文氏圖表視覺效果使用圓圈來描繪最多 3 個區段的量度重疊。 |
 
 <!-- Add beneath Horizontal bar in the table above: | [Journey canvas](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Similar to Fallout, Journey canvas shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. <p>Unlike Fallout, Journey canvas supports not only linear journeys, but any number of entry points and paths. Furthermore, journeys can be created in Adobe Journey Optimizer and then analyzed in Journey canvas.</p> | -->
 
@@ -125,7 +125,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | **[!UICONTROL 顯示預測]** | 透過顯示預測值來強化折線圖和自由格式表格。 |
 | **[!UICONTROL 顯示最小值]** | 顯示視覺效果中的最小值。 |
 | **[!UICONTROL 顯示最大值]** | 顯示視覺效果中的最大值。 |
-| **[!UICONTROL 顯示趨勢線]** | 在視覺效果中顯示趨勢線。選取後，您可以從下拉式選單中選取趨勢線的類型。 |
+| **[!UICONTROL 顯示趨勢線]** | 在視覺效果中顯示趨勢線。選取後，您可以從下拉式選單中選取趨勢線型別。 |
 
 您可以自訂您所建立的所有視覺效果設定。如需詳細資訊，請參閱[使用者偏好設定](/help/analysis-workspace/user-preferences.md)。
 
@@ -158,6 +158,6 @@ Analysis Workspace 中有以下視覺效果類型：
 
 ## 視覺化
 
-如果您不確定選擇哪種視覺化效果，請在任意自由格式表格列 (停留時適用) 中選取「![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 視覺化]**」。此選取項目為新增視覺效果的最快方式。Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如：如果您已選取一列，即建立一個趨勢[折線圖](line.md)。如果您選取了三個區段列，則會建立[文氏](venn.md)圖表。
+如果您不確定選擇哪種視覺化效果，請在任意自由格式表格列 (停留時適用) 中選取「![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 視覺化]**」。此選取項目為新增視覺效果的最快方式。Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如：如果您已選取一列，即建立一個趨勢[折線圖](line.md)。如果您已選取三個區段列，即會建立一個[文氏](venn.md)圖表。
 
 ![快速視覺效果](assets/quick-viz.png)

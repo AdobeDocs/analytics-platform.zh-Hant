@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '5200'
+source-wordcount: '5202'
 ht-degree: 15%
 
 ---
@@ -313,8 +313,8 @@ ht-degree: 15%
 1. 選取結構描述名稱&#x200B;**[!UICONTROL 範例摘要資料結構描述]**&#x200B;旁的![AddCircle](/help/assets/icons/AddCircle.svg)。 會開啟&#x200B;**[!UICONTROL 欄位屬性]**&#x200B;面板，讓您新增欄位的詳細資料。
    1. 輸入&#x200B;**[!UICONTROL 欄位名稱]**： `campaign_id`
    1. 輸入&#x200B;**[!UICONTROL 顯示名稱]**： `campaign_id`
-   1. 從&#x200B;**[!UICONTROL 選取資料型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 型別]**： **[!UICONTROL 字串]**
-   1. 確定已選取&#x200B;**[!UICONTROL 指派給]** **[!UICONTROL 欄位群組]**，並從下拉式清單中選取&#x200B;**[!UICONTROL 範例摘要資料]**。
+   1. 從&#x200B;**[!UICONTROL 選取資料型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 型別]**： **[!UICONTROL 字串]**
+   1. 確定已選取&#x200B;**[!UICONTROL 指派給]** **[!UICONTROL 欄位群組]**，並從下拉式選單中選取&#x200B;**[!UICONTROL 範例摘要資料]**。
    1. 向下捲動至底部，並選取&#x200B;**[!UICONTROL 套用]**。
 1. 對摘要資料的其他欄位重複上一步驟。 如需正確值，請參閱下表。
 
@@ -362,7 +362,7 @@ ht-degree: 15%
    1. 從&#x200B;**[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;面板中選取&#x200B;**[!UICONTROL 啟動]**。
 1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 資料流詳細資料]**&#x200B;步驟中：
    1. 為&#x200B;**[!UICONTROL 目標資料集]**&#x200B;選取&#x200B;**[!UICONTROL 現有的資料集]**。
-   1. 從下拉式清單中選取&#x200B;**[!UICONTROL 範例摘要資料集]**。
+   1. 從下拉式功能表中選取&#x200B;**[!UICONTROL 範例摘要資料集]**。
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 選取資料]**&#x200B;步驟中：
    1. 將含有CSV格式摘要資料的檔案拖放到&#x200B;**[!UICONTROL 拖放檔案]**。 或者，使用&#x200B;**[!UICONTROL 選擇檔案]**&#x200B;來選取您的檔案。
@@ -388,11 +388,11 @@ ht-degree: 15%
 
 1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
 1. 在頂端功能表中選取&#x200B;**[!UICONTROL 連線]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
-1. 選取&#x200B;**[!UICONTROL 「建立新連線」]**。
+1. 選取「**[!UICONTROL 建立新連線]**」。
 1. 在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 未命名的連線]**&#x200B;中：
    1. 輸入&#x200B;**[!UICONTROL 連線名稱]**，例如`Example Connection Using Summary Data`。
-   1. 從沙箱下拉式清單中，選取包含您建立之資料集和您要包含的其他資料集的沙箱。
-   1. 從&#x200B;**[!UICONTROL 每日事件平均數量]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 小於100萬]**。
+   1. 從沙箱下拉式選單中選取沙箱，其中包含您建立的資料集和您要包含的其他資料集。
+   1. 從&#x200B;**[!UICONTROL 每日事件平均數量]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 小於100萬]**。
    1. 選取&#x200B;**[!UICONTROL 「新增資料集」]**。
    1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;精靈的&#x200B;**[!UICONTROL 選取資料集]**&#x200B;步驟中：
       1. 搜尋![搜尋](/help/assets/icons/Search.svg)並選取&#x200B;**[!UICONTROL 範例摘要資料集]**、**[!UICONTROL 範例事件資料集]**&#x200B;和&#x200B;**[!UICONTROL 範例查詢資料集]**。
@@ -483,7 +483,7 @@ ht-degree: 15%
          ![追蹤程式碼摘要資料](../assets/tracking-code-summary-data.png)
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 摘要資料群組]**。
          1. 啟用「**[!UICONTROL 建立分組]**」。
-         1. 從&#x200B;**[!UICONTROL Dimension]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 促銷活動ID]**。 此步驟可確保正確組合事件資料和摘要資料以用於報告。
+         1. 從&#x200B;**[!UICONTROL Dimension]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 促銷活動ID]**。 此步驟可確保正確組合事件資料和摘要資料以用於報告。
          1. 您可以選擇啟用&#x200B;**[!UICONTROL 隱藏報告]**。 [!UICONTROL 隱藏在報表中]可確保選取的維度（[!UICONTROL 促銷活動ID]）隱藏在Analysis Workspace和其他Customer Journey Analytics報表工具中。 如果已啟用此選項，您可以驗證選項：
             1. 在&#x200B;**[!UICONTROL 維度]**&#x200B;清單中選取&#x200B;**[!UICONTROL 促銷活動ID]**&#x200B;維度。
             1. 您注意到&#x200B;**[!UICONTROL 元件設定]**&#x200B;中的&#x200B;**[!UICONTROL 隱藏報表中的元件]**&#x200B;現在已自動啟用。
@@ -495,7 +495,7 @@ ht-degree: 15%
          1. 選取&#x200B;**[!UICONTROL 值]**&#x200B;的&#x200B;**[!UICONTROL campaign_id]**。
          1. 從&#x200B;**[!UICONTROL 查詢資料集]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 範例查詢資料集]**。
          1. 從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL tracking_code]**。
-         1. 從&#x200B;**[!UICONTROL 要傳回]**&#x200B;的值下拉式選單中選取&#x200B;**[!UICONTROL campaign_name]**。
+         1. 從&#x200B;**[!UICONTROL 要傳回的值]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL campaign_name]**。
          1. 選取「**[!UICONTROL 儲存]**」。
 
       1. 將新建立的衍生欄位&#x200B;**[!UICONTROL 促銷活動名稱（查閱衍生欄位）]**&#x200B;新增至&#x200B;**[!UICONTROL 維度]**&#x200B;元件清單。
@@ -506,27 +506,27 @@ ht-degree: 15%
 
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 摘要資料群組]**。
          1. 啟用「**[!UICONTROL 建立分組]**」。
-         1. 從&#x200B;**[!UICONTROL Dimension]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 促銷活動名稱（查閱衍生欄位）]**。 此步驟可確保範例查詢資料集中的行銷活動名稱（查詢）可安全地用於報告中(請參閱[Workspace](#workspace))。
+         1. 從&#x200B;**[!UICONTROL Dimension]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 促銷活動名稱（查詢衍生欄位）]**。 此步驟可確保範例查詢資料集中的行銷活動名稱（查詢）可安全地用於報告中(請參閱[Workspace](#workspace))。
 
       1. 從&#x200B;**[!UICONTROL 度量]**&#x200B;清單中選取&#x200B;**[!UICONTROL 收入]**&#x200B;度量。 在元件面板中：
 
          ![收入摘要資料](../assets/revenue-summary-data.png)
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 歸因]**。
-            1. 從&#x200B;**[!UICONTROL 歸因模型]**&#x200B;下拉式清單中選取![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL 上次接觸]**。
-            1. 從&#x200B;**[!UICONTROL 回顧期間]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 30天]**。
+            1. 從&#x200B;**[!UICONTROL 歸因模型]**&#x200B;下拉式功能表中選取![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL 上次接觸]**。
+            1. 從&#x200B;**[!UICONTROL 回顧視窗]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 30天]**。
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **格式**。
-            1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 貨幣]**。
-            1. 從&#x200B;**[!UICONTROL 小數位數]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 2]**。
+            1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 貨幣]**。
+            1. 從&#x200B;**[!UICONTROL 小數位數]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 2]**。
 
       1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;清單中選取&#x200B;**[!UICONTROL 訂單]**&#x200B;量度。 在元件面板中：
 
          ![訂單摘要資料](../assets/orders-summary-data.png)
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 歸因]**。
-            1. 從&#x200B;**[!UICONTROL 歸因模型]**&#x200B;下拉式清單中選取![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL 上次接觸]**。
-            1. 從&#x200B;**[!UICONTROL 回顧期間]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 30天]**。
+            1. 從&#x200B;**[!UICONTROL 歸因模型]**&#x200B;下拉式功能表中選取![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL 上次接觸]**。
+            1. 從&#x200B;**[!UICONTROL 回顧視窗]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 30天]**。
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 格式]**。
-            1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 十進位]**。
-            1. 從▲2}將上升趨勢顯示為&#x200B;]**下拉式清單中選取**[!UICONTROL &#x200B;良好（綠色）]**。**[!UICONTROL 
+            1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 十進位]**。
+            1. 從▲2}將上升趨勢顯示為&#x200B;]**下拉式功能表中選取**[!UICONTROL &#x200B;良好（綠色）]**。**[!UICONTROL 
 
       1. 選取&#x200B;**[!UICONTROL 「儲存並繼續」]**。
 

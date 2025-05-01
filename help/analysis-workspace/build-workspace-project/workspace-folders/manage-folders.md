@@ -5,10 +5,10 @@ title: 管理 Workspace 資料夾
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
 role: User
-source-git-commit: 664756b796e8915a701ccabfb5f250e777701b60
-workflow-type: ht
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 * 在[專案清單](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)中選取要移動的資料夾。
 
    1. 在所選取資料夾的內容選單![More](/help/assets/icons/More.svg)中可用的[動作](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions)，或藍色動作列選取&#x200B;**[!UICONTROL 移動至]**。
-   1. 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;對話框中，從&#x200B;**[!UICONTROL 資料夾]**&#x200B;下拉式選單中選取資料夾，以移動資料夾。
+   1. 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 資料夾]**&#x200B;下拉式功能表中選取資料夾以行動資料夾。
 
    1. 選取&#x200B;**[!UICONTROL 移動]**。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
    1. 從[標題區域](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)的![More](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL 移動資料夾]**。
 
-   1. 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;對話框中，從&#x200B;**[!UICONTROL 資料夾]**&#x200B;下拉式選單中選取資料夾，以移動資料夾。
+   1. 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 資料夾]**&#x200B;下拉式功能表中選取資料夾以行動資料夾。
 
    1. 選取&#x200B;**[!UICONTROL 移動]**。
 

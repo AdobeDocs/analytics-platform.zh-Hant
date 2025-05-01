@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 0cd9cd508d474df3dff176bca4596d0379ac86b4
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 | [!UICONTROL 元件名稱] | 必填。可讓您指定在 Analysis Workspace 中顯示的友好名稱。您可以重新命名元件，給它一個特定於資料檢視的名稱。 |
 | [!UICONTROL 說明] | 選填，但建議。為其他使用者提供有關元件的資訊。 |
 | [!UICONTROL 標記] | 選填。可讓您使用自訂或現成可用的標籤來標記元件，以便在 Analysis Workspace UI 中更輕鬆地進行搜尋/篩選。 |
-| [!UICONTROL 內容標籤] | 選填。可套用至元件之可用系統定義標籤的下拉式清單。 <p>在下列情況下可能需要這些標籤：</p> <ul><li>若要定義一組元件，您可以使用 Analysis Workspace 專案中的[實驗面板](/help/analysis-workspace/c-panels/experimentation.md)，在實驗報告中使用這些元件。<p>如需詳細資訊，請參閱[與 Journey Optimizer 整合](/help/integrations/ajo.md#data-view)和 [Target 報告](/help/integrations/at.md)。</p></li><li>使用 Adob&#x200B;&#x200B;e 所提供的範本時。預設情況下，Adobe 所提供的部分範本將無法運作，因為它們包含不在您的資料檢視中的元件。<p>對於每個缺少的元件，資料檢視中都有一個相符的內容標籤。您需要將相符的內容標籤新增至資料檢視中已有的元件，或者需要將新元件新增至資料檢視並向其新增內容標籤。</p><p>如需詳細資訊，請參閱[將缺少的元件新增至特定範本的資料檢視](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) (在[建立和管理範本](/help/analysis-workspace/templates/create-templates.md)一文中)。</p> |
+| [!UICONTROL 內容標籤] | 選填。可套用至元件的可用系統定義標籤下拉式功能表。 <p>在下列情況下可能需要這些標籤：</p> <ul><li>若要定義一組元件，您可以使用 Analysis Workspace 專案中的[實驗面板](/help/analysis-workspace/c-panels/experimentation.md)，在實驗報告中使用這些元件。<p>如需詳細資訊，請參閱[與 Journey Optimizer 整合](/help/integrations/ajo.md#data-view)和 [Target 報告](/help/integrations/at.md)。</p></li><li>使用 Adob&#x200B;&#x200B;e 所提供的範本時。預設情況下，Adobe 所提供的部分範本將無法運作，因為它們包含不在您的資料檢視中的元件。<p>對於每個缺少的元件，資料檢視中都有一個相符的內容標籤。您需要將相符的內容標籤新增至資料檢視中已有的元件，或者需要將新元件新增至資料檢視並向其新增內容標籤。</p><p>如需詳細資訊，請參閱[將缺少的元件新增至特定範本的資料檢視](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) (在[建立和管理範本](/help/analysis-workspace/templates/create-templates.md)一文中)。</p> |
 | [!UICONTROL 結構描述欄位名稱] | 結構描述欄位的名稱。 |
 | [!UICONTROL 資料集類型] | 必填。不可編輯的欄位，顯示元件來自的資料集類型 (事件、查詢或輪廓)。 |
 | [!UICONTROL 資料集] | 不可編輯的欄位，顯示元件來自的資料集。此欄位可包含多個資料集。 |

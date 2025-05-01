@@ -2,9 +2,9 @@
 title: 共用的量度和維度概觀
 description: 在多個資料檢視中使用相同的維度或量度參考。
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 4bb24fae7c7d53a0fde3bb2dc35ef27f91701d5a
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
    * **[!UICONTROL 建立者]**：僅檢視指定使用者建立的元件。
    * **[!UICONTROL 重複]**：僅檢視與其他元件具有相同元件ID的元件。 這些篩選器與透過概觀卡片檢閱元件相同。
 * **搜尋**：使用![搜尋圖示](../../assets/icons/Search.svg)圖示，依名稱搜尋元件。
-* **[!UICONTROL 連線]**：變更[連線](/help/connections/overview.md)的下拉式清單。 共用的維度和量度一律只適用於單一連線，
+* **[!UICONTROL 連線]**：變更[連線](/help/connections/overview.md)的下拉式功能表。 共用的維度和量度一律只適用於單一連線，
 * **[!UICONTROL 自訂表格]**：選取![自訂表格圖示](/help/assets/icons/ColumnSetting.svg)圖示以顯示或隱藏表格中的欄。 可用的選項包括：
    * **[!UICONTROL 欄位名稱]**：共用維度或量度的名稱。 此欄位一律可見。
    * **[!UICONTROL 型別]**：指出元件是維度還是量度。 此欄位一律可見。

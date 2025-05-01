@@ -4,10 +4,10 @@ description: 選擇日期範圍，以便在報告中使用。
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 79%
 
 ![建立附註](assets/create-date-range.png)
 
-* **A** — 在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 日期範圍]**。 從[[!UICONTROL 日期範圍]管理員](/help/components/date-ranges/manage.md)中選取![AddCircle](/help/assets/icons/AddCircle.svg)**[!UICONTROL 新增]**。
-* **B** — 在Workspace專案中，從視覺效果中的內容功能表，選取&#x200B;**[!UICONTROL 自訂日期範圍至此日期範圍]**。
-* **C** — 在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立日期範圍]**
-* **D** — 在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL ctrl+shift+d]** (Windows)或&#x200B;**[!UICONTROL shift+command+d]** (macOS)。
-* **E** — 在Workspace專案中，從「元件」左側面板中，選取![行事曆](/help/assets/icons/Calendar.svg) **日期範圍**&#x200B;的![新增](/help/assets/icons/Add.svg)。
-* **F** — 在支援的視覺效果（例如線條視覺效果）中，從資料點上的內容功能表選取「**[!UICONTROL 附註選取範圍]**」。
+* **A**：在主介面中選取「**[!UICONTROL 元件]**」，然後選取「**[!UICONTROL 日期範圍]**」。從[[!UICONTROL 日期範圍]管理員](/help/components/date-ranges/manage.md)中選取 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 新增]**。
+* **B**：在工作區專案內，從視覺效果的內容選單中選取「**[!UICONTROL 自訂日期範圍至此日期範圍]**」。
+* **C**：在 Workspace 專案內，從選單中選取「**[!UICONTROL 元件]**」，然後選取「**[!UICONTROL 建立日期範圍]**」。
+* **D**：在 Workspace 專案內，使用快速鍵 **[!UICONTROL Ctrl+Shift+d]** (Windows) 或 **[!UICONTROL Shift+Command+d]** (macOS)。
+* **E**：在工作區專案內，從元件左側面板![行事曆](/help/assets/icons/Calendar.svg)**日期範圍**&#x200B;中選取「![新增](/help/assets/icons/Add.svg)」。
+* **F**：在支援的視覺效果，例如折線視覺效果中，從資料點的內容選單中選取「**[!UICONTROL 註解選取]**」。
 
 您可以使用[[!UICONTROL 日期範圍產生器]](#annotation-builder)來定義註解。
 
@@ -53,8 +53,8 @@ ht-degree: 79%
 
 1. 為日期範圍指定&#x200B;**[!UICONTROL 標題]**。例如，**[!UICONTROL 每個季度]**。
 1. 另外，要註明&#x200B;**[!UICONTROL 說明]**。
-1. 透過建立或套用一或多個&#x200B;**[!UICONTROL 標籤]**&#x200B;來組織區段。 開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL ENTER]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
-1. 首先選取開始日期，然後選取結束日期來選取&#x200B;**[!UICONTROL 日期範圍]**。或者，您可以從&#x200B;[!UICONTROL *選取預設集*]&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 預設集]** 。
+1. 透過建立或套用一個或多個&#x200B;**[!UICONTROL 標記]**&#x200B;來整理區段。開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL ENTER]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
+1. 首先選取開始日期，然後選取結束日期來選取&#x200B;**[!UICONTROL 日期範圍]**。或者，您也可以從&#x200B;[!UICONTROL *選取預設集*]&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 預設集]**。
 
 1. 或者，選取&#x200B;**[!UICONTROL 顯示進階設定]**&#x200B;以進行：
 

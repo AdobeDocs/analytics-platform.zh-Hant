@@ -4,10 +4,10 @@ title: 視覺化調色盤
 feature: Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,6 @@ ht-degree: 100%
 ## 若要變更調色盤：
 
 1. 導覽至「**[!UICONTROL 工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]**」。
-1. 在「**[!UICONTROL 專案調色盤]**」下拉式清單中，您可以從預先設定的色彩配置中選擇其一。
+1. 從&#x200B;**[!UICONTROL 專案調色盤]**&#x200B;下拉式功能表，您可以挑選其中一個預先設定的色彩配置。
 1. 若要指定您自己的調色盤，請選取預先設定選項下方的「**[!UICONTROL 自訂調色盤]**」。
 1. 指定最多 16 個以逗號分隔的十六進位值 (例如， `#00a4e4`) 來建立您自己的調色盤。舉例來說，如果您只想使用 4 個值，則顏色會在包含更多顏色的視覺效果中自動重複。

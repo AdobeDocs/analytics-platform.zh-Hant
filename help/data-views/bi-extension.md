@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '3247'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 1. 選取「![建立查詢](assets/Smock_AddCircle_18_N.svg)**[!UICONTROL **&#x200B;建立查詢&#x200B;**]**」。
 
-1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
+1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
 
 1. 若要執行查詢，請鍵入 SQL 陳述式並選取「![播放](assets/Smock_Play_18_N.svg)」按鈕 (或按 `[SHIFT]` + `[ENTER]`)。
 
@@ -85,7 +85,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
+   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
 
    1. 要複製命令字串，請使用「![複製](assets/Smock_Copy_18_N.svg)」(在「**[!UICONTROL ** PSQL 指令&#x200B;**]**」區段)。
 
@@ -110,7 +110,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
+   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
 
    1. 在 Power BI 中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
@@ -153,7 +153,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
+   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
 
    1. 在 Tableau Desktop 中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
@@ -199,7 +199,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
+   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
 
    1. 在 Looker.中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
@@ -226,7 +226,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
+   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
 
    1. 在 Jupyter Notebook 中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
@@ -250,7 +250,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 從頂端列選取「**[!UICONTROL **&#x200B;認證&#x200B;**]**」。
 
-   1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式選單中的資料庫清單中，為您的沙盒選取]** 資料庫。例如 `prod:cja`。
+   1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
 
    1. 在 Jupyter Notebook 中需要時，使用「![複製](assets/Smock_Copy_18_N.svg)」複製每個 Postgres 認證參數 ([!UICONTROL 主機]、[!UICONTROL 連接埠]、[!UICONTROL 資料庫]、[!UICONTROL 使用者名稱]與其他)。
 
@@ -366,7 +366,7 @@ HAVING m1 > 100</code></pre>
             </td>
         </tr>
         <tr>
-            <td>相異，頂端 
+            <td>不重複，頂端
 維度值 </td>
             <td>
                 <pre><code>SELECT DISTINCT dim1 FROM dv1</code></pre>
@@ -393,7 +393,7 @@ WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</code></pre>
         <tr>
             <td>多維度
 劃分
-和最大差異 </td>
+和頂端不重複 </td>
             <td>
                 <pre><code>SELECT dim1, dim2, SUM(metric1) AS m1
 FROM dv1
@@ -409,23 +409,23 @@ FROM dv1</code></pre>
             </td>
         </tr>
         <tr>
-            <td>子選取：
+            <td>子選擇：
 篩選其他
-個結果 </td>
+結果 </td>
             <td>
                 <pre><code>SELECT dim1, m1
 FROM (
   SELECT dim1, SUM(metric1) AS m1
   FROM dv1
-  WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</br>  按dim1分組
+  WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</br>  按照 dim1 分組
 )
-WHERE dim1在('A'， 'B')</code></pre>
+其中 dim1 在 ('A', 'B')</code></pre>
             </td>
         </tr>
         <tr>
-            <td>子選取：
-正在查詢
-資料檢視 </td>
+            <td>子選擇：
+查詢橫跨
+資料視圖 </td>
             <td>
                 <pre><code>SELECT key, SUM(m1) AS total
 FROM (
@@ -446,11 +446,11 @@ ORDER BY total</code></pre>
             </td>
         </tr>
         <tr>
-            <td>子選取： 
-分層來源， 
-篩選， 
-和彙總 </td>
-            <td>使用子選取項分層：
+            <td>子選擇：
+分層來源、
+篩選，
+以及彙總 </td>
+            <td>使用子選擇分層：
 <pre><code>SELECT rows.dim1, SUM(rows.m1) AS total
 FROM (
   SELECT _.dim1,_.m1
@@ -462,7 +462,7 @@ FROM (
 ) rows
 GROUP BY 1
 ORDER BY total</code></pre>
-搭配使用CTE的圖層：
+使用 CTE WITH 的分層：
 <pre><code>WITH rows AS (
   WITH _ AS (
     SELECT * FROM data_ares
@@ -477,10 +477,10 @@ GROUP BY rows.item</code></pre>
         </td>
         </tr>
         <tr>
-            <td>選取
-量度在之前
- 或混合使用
-維度 </td>
+            <td>選取量度
+先於或
+混合於
+維度者 </td>
             <td>
                 <pre><code>SELECT SUM(metric1) AS m1, dim1
 FROM dv1
@@ -519,7 +519,7 @@ GROUP BY 2</code></pre>
 
 #### 條件式量度
 
-您可以在`SUM`或`COUNT`函式中內嵌`IF`或`CASE`子句，以新增所選量度特定的其他區段。 新增這些子句類似於將區段套用至Workspace報表表格中的量度欄。
+您可以嵌入一個 `IF` 或者 `CASE` 子句在 `SUM` 或 `COUNT` 函數中，以便新增所選量度特定的其他劃分條件。新增這些子句類似於將區段套用至工作區報告表格中的量度欄。
 
 範例：
 
@@ -556,26 +556,26 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 * 如果僅提供最大值 (`timestamp < X` 或者 `timestamp <= X`)，範圍為 X 減 30 天至 X。
 * 如果未提供任何內容，則範圍是從現在減 30 天至現在。
 
-時間戳記範圍會轉換為RankingRequest中的日期範圍全域區段。
+時間戳記範圍將轉換為 RankedRequest 的日期範圍全域區段。
 時間戳記欄位也可以用於「日期時間」函數以剖析或截斷事件時間戳記。
 
 #### 日期範圍
 
-`daterange`特殊資料行的運作方式與`timestamp`類似；但分段限製為完整天。 `daterange` 也是選用的，而且具有和 `timestamp` 相同的預設範圍。
+`daterange` 特別欄的運作原理類似於 `timestamp`，但是劃分僅限於全天。`daterange` 也是選用的，而且具有和 `timestamp` 相同的預設範圍。
 `daterange` 欄位也可以用於「日期時間」函數以剖析或截斷事件日期。
 
-`daterangeName`特殊資料行可用來使用具名日期範圍（例如`Last Quarter`）來劃分您的查詢。
+ `daterangeName` 特殊欄可用於使用命名的日期範圍 (例如 `Last Quarter`) 來劃分查詢。
 
 >[!NOTE]
 >
->Power BI 不支援少於一天的 (小時、30 分鐘、5 分鐘等) 的 `daterange` 量度。
+>Power BI 不支援少於一天 (小時、30 分鐘、5 分鐘等) 的 `daterange` 量度。
 >
 
-#### 區段ID
+#### 區段 ID
 
-`filterId`特殊資料行是選擇性的，用來將外部定義的區段套用至查詢。 將外部定義的區段套用至查詢，類似於在Workspace中將區段拖曳至面板上。 `AND`可以使用多個區段ID。
+`filterId` 特殊欄是選擇性的，且用於將外部定義的區段套用至查詢。將外部定義的區段套用至查詢，類似於將區段拖曳到工作區的面板上。您可以透過進行 `AND` 的方式使用多個區段 ID。
 
-您可以連同`filterId`使用`filterName`來使用區段名稱而非ID。
+有 `filterId` 時，您可以透過 `filterName` 來使用區段名稱而非 ID。
 
 ### WHERE 子句
 
@@ -583,11 +583,11 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 1. 從`timestamp`、`daterange` 或 `daterangeName` 特殊欄位尋找日期範圍。
 
-1. 尋找任何外部定義的`filterId`或`filterName`以包含在區段中。
+1. 尋找任何外部定義的 `filterId` 或 `filterName` 以納入區段。
 
-1. 將其餘運算式轉換為臨時區段。
+1. 將其餘的運算式轉變為臨時區段。
 
-透過剖析第一層的`AND` (在 `WHERE` 子句中) 來完成處理。每個用 `AND`-ed 方式連結的頂層運算式必須與上方其中一個相符。比`AND`的第一個層級更深的任何專案，或如果`WHERE`子句在頂層使用`OR`，則會當作臨機區段處理。
+透過剖析第一層的 `AND` (在 `WHERE` 子句中) 來完成處理。每個用 `AND`-ed 方式連結的頂層運算式必須與上方其中一個相符。任何比第一層的 `AND` 更深的內容，或者，如果 `WHERE` 子句在頂層使用 `OR`，則做為臨時區段處理。
 
 ### 排序順序
 

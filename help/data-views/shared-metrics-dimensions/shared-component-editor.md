@@ -2,9 +2,9 @@
 title: 共用元件編輯器
 description: 建立或編輯共用的維度和量度。
 exl-id: 3f6a808a-d6ac-4a47-a5e2-63b9f17952e8
-source-git-commit: 62df631eeac40f2009304d91c93950c38a260dab
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * **結構描述欄位選擇器**：找到所需的結構描述欄位，並將其拖曳至包含的元件區域。
    * **連線**：使用中的連線。 變更[共用量度和維度管理員](smd-overview.md)中的作用中連線。
-   * **元件清單下拉式清單**：您可以選擇選取[!UICONTROL 結構描述欄位] （全新的共用維度和量度）或[!UICONTROL 度量與維度] （現有的共用元件）。
+   * **元件清單**：您可以選擇從下拉式功能表中選取[!UICONTROL 結構描述欄位] （全新共用維度和量度）或[!UICONTROL 量度和維度] （現有的共用元件）。
    * **搜尋**：使用![搜尋圖示](/help/assets/icons/Search.svg)文字搜尋，依名稱尋找所需的結構描述欄位或共用元件。 您也可以使用![篩選圖示](/help/assets/icons/Filter.svg)篩選來縮小元件清單的範圍。 `Is not deprecated`篩選器預設為使用中。
    * **建立衍生欄位**：允許您[建立衍生欄位](/help/data-views/derived-fields/derived-fields.md)。
 * **包含的元件**：您設定為共用的元件。 建立共用元件時，您可以將多個結構欄位拖曳至此區域，以同時建立多個元件。 編輯共用元件時，您可以選取多個要編輯的元件，這會列出此區域中所有選取的元件。

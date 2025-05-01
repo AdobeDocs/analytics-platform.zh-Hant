@@ -4,10 +4,10 @@ title: 列設定
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1046'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 92%
 
 1. 按一下&#x200B;**[!UICONTROL 列]**&#x200B;旁邊的數字 (位於表格第一欄的頂端)。
 
-   ![自由格式表格顯示已顯示列數的下拉式清單。已選取 400 列。](assets/change-row-count.gif)
+   ![自由表格，顯示列數的下拉式功能表。 已選取 400 列。](assets/change-row-count.gif)
 
-1. 從下拉式清單中選取您希望表格顯示的列數量。
+1. 從下拉式功能表中，選取您希望表格顯示的列數。
 
 
 ## 內容選單
@@ -90,4 +90,4 @@ ht-degree: 92%
 
 ## 變更列高
 
-您可以將專案的檢視密度設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)。
+您可以將專案的檢視密度設定為&#x200B;**[!UICONTROL 精簡]**、 **[!UICONTROL 舒適]**&#x200B;和 **[!UICONTROL 擴展]**。[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)。

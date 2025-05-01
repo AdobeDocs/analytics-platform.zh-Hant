@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '14696'
 ht-degree: 2%
@@ -106,7 +106,7 @@ ht-degree: 2%
    1. 在&#x200B;**[!UICONTROL PostgreSQL資料庫]** - **[!UICONTROL 資料庫]**對話方塊中：
       ![PowerBI案頭使用者和密碼](assets/powerbi-userpassword.png){zoomable="yes"}
       1. 使用![複製](/help/assets/icons/Copy.svg)從&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;欄位的Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板中複製&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;值。 如果您使用[不會到期的認證](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)，請使用不會到期的認證的密碼。
-      1. 確定&#x200B;**[!UICONTROL 的下拉式功能表選取要套用這些設定至]**&#x200B;的層級，已設定為您先前定義的&#x200B;**[!UICONTROL 伺服器]**。
+      1. 確定&#x200B;**[!UICONTROL 的下拉式功能表「選取要套用這些設定至]**&#x200B;的層級」已設定為您先前定義的&#x200B;**[!UICONTROL 伺服器]**。
       1. 選取&#x200B;**[!UICONTROL 連線]**。
    1. 在&#x200B;**[!UICONTROL 導覽器]**對話方塊中，會擷取資料檢視。 此擷取作業可能需要一些時間。 擷取後，您會在Power BI Desktop中看到下列內容。
       ![Power BI Destkop載入資料](assets/powerbi-navigator-load.png){zoomable="yes"}
@@ -1028,7 +1028,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中的&#x200B;**[!UICONTROL 資料表（*量值名稱*）]**&#x200B;清單拖放&#x200B;**[!UICONTROL 購買]**，並將專案拖放到&#x200B;**[!UICONTROL 資料列]**&#x200B;旁的欄位中。 值會自動轉換為&#x200B;**[!UICONTROL SUM（購買）]**。
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中的&#x200B;**[!UICONTROL 資料表（*量值名稱*）]**&#x200B;清單拖放&#x200B;**[!UICONTROL 購買收入]**，並將專案拖放到&#x200B;**[!UICONTROL 資料行]**&#x200B;旁的欄位中，並從&#x200B;**[!UICONTROL SUM（購買）]**&#x200B;離開。 值會自動轉換為&#x200B;**[!UICONTROL SUM（購買收入）]**。
    1. 若要以遞減的購買收入順序排序兩個圖表，請將游標停留在&#x200B;**[!UICONTROL 購買收入]**&#x200B;標題上，並選取排序圖示。
-   1. 若要限制圖表中的專案數，請在&#x200B;**[!UICONTROL 列]**&#x200B;中選取&#x200B;**[!UICONTROL SUM(Purchase Revenue)]**，然後從下拉式選單中選取&#x200B;**[!UICONTROL 篩選器]**。
+   1. 若要限制圖表中的專案數，請在&#x200B;**[!UICONTROL 列]**&#x200B;中選取&#x200B;**[!UICONTROL SUM(Purchase Revenue)]**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 篩選器]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[Purchase Revenue\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 值範圍]**&#x200B;並輸入適當的值。 例如： `1,000,000` - `2,000,000`。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;及&#x200B;**[!UICONTROL 確定]**。
    1. 若要將兩個長條圖轉換成雙組合圖，請在&#x200B;**[!UICONTROL 列]**&#x200B;中選取&#x200B;**[!UICONTROL SUM（購買）]**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 雙軸]**。 長條圖會轉換成散佈圖。
    1. 若要將散佈圖修改為長條圖：
@@ -1075,7 +1075,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 從左側邊欄中的&#x200B;**[!UICONTROL ‣自訂欄位]**&#x200B;區段：
    1. 從&#x200B;**[!UICONTROL +新增]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 自訂量值]**。
    1. 在&#x200B;**[!UICONTROL 建立自訂量值]**&#x200B;對話方塊中：
-      1. 從&#x200B;**[!UICONTROL 欄位選取**[!UICONTROL &#x200B;購買收入&#x200B;]**以測量]**&#x200B;下拉式功能表。
+      1. 從&#x200B;**[!UICONTROL 要量值]**&#x200B;的欄位下拉式功能表中選取&#x200B;**[!UICONTROL 購買收入]**。
       1. 從&#x200B;**[!UICONTROL 量值型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 總和]**。
       1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;的自訂欄位名稱。 例如：`Purchase Revenue`。
       1. 選取&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;標籤。
@@ -1083,7 +1083,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
          ![Looker自訂量度欄位](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. 選取「**[!UICONTROL 儲存]**」。
    1. 從&#x200B;**[!UICONTROL +新增]**&#x200B;下拉式功能表中再次選取&#x200B;**[!UICONTROL 自訂量值]**。 在&#x200B;**[!UICONTROL 建立自訂]**&#x200B;量值對話方塊中：
-      1. 從&#x200B;**[!UICONTROL 欄位選取**[!UICONTROL &#x200B;購買&#x200B;]**以測量]**&#x200B;下拉式功能表。
+      1. 從&#x200B;**[!UICONTROL 要測量]**&#x200B;的欄位下拉式功能表中選取&#x200B;**[!UICONTROL 購買]**。
       1. 從&#x200B;**[!UICONTROL 量值型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 總和]**。
       1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;的自訂欄位名稱。 例如：`Sum of Purchases`。
       1. 選取&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;標籤。
@@ -1261,9 +1261,9 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
    1. 拖曳&#x200B;**[!UICONTROL 產品類別]**，並拖曳至&#x200B;**[!UICONTROL 欄]**&#x200B;旁。
    1. 拖曳&#x200B;**[!UICONTROL Purchase Revenue]**，並放置到&#x200B;**[!UICONTROL 列]**&#x200B;旁。 值變更為&#x200B;**[!UICONTROL SUM（購買收入）]**。
    1. 將購買拖放到&#x200B;**[!UICONTROL 列]**&#x200B;旁。 值變更為&#x200B;**[!UICONTROL SUM（購買）]**。
-   1. 選取&#x200B;**[!UICONTROL SUM（購買）]**，並從下拉式選單中選取&#x200B;**[!UICONTROL 雙軸]**。
-   1. 選取&#x200B;**[!UICONTROL 標籤]**&#x200B;中的&#x200B;**[!UICONTROL SUM（購買）]**，並從下拉式選單中選取&#x200B;**[!UICONTROL 行]**。
-   1. 在&#x200B;**[!UICONTROL 標籤]**&#x200B;中選取&#x200B;**[!UICONTROL SUM(Purchase Revenue)]**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 列]**。
+   1. 選取&#x200B;**[!UICONTROL SUM（購買）]**，並從下拉式功能表選取&#x200B;**[!UICONTROL 雙軸]**。
+   1. 選取&#x200B;**[!UICONTROL 標籤]**&#x200B;中的&#x200B;**[!UICONTROL SUM（購買）]**，並從下拉式功能表中選取&#x200B;**[!UICONTROL 行]**。
+   1. 在&#x200B;**[!UICONTROL 標籤]**&#x200B;中選取&#x200B;**[!UICONTROL SUM(Purchase Revenue)]**，並從下拉式功能表中選取&#x200B;**[!UICONTROL 列]**。
    1. 從&#x200B;**[!UICONTROL 符合]**&#x200B;功能表選取&#x200B;**[!UICONTROL 整個檢視]**。
    1. 選取圖表中的&#x200B;**[!UICONTROL 購買收入]**&#x200B;標題，並確認購買收入為遞增順序。
 
@@ -1282,9 +1282,9 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
    1. 將&#x200B;**[!UICONTROL 產品類別]**&#x200B;從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格拖曳至&#x200B;**[!UICONTROL 列]**。
    1. 將&#x200B;**[!UICONTROL 產品名稱]**&#x200B;從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格拖曳至&#x200B;**[!UICONTROL 產品類別]**&#x200B;旁的&#x200B;**[!UICONTROL 列]**。
    1. 若要將兩個水準列變更為表格，請從&#x200B;**[!UICONTROL 顯示我]**&#x200B;中選取&#x200B;**[!UICONTROL 文字表格]**。
-   1. 若要限制產品數量，請在&#x200B;**[!UICONTROL 量值值]**&#x200B;中選取&#x200B;**[!UICONTROL 購買]**。 從下拉式功能表中，選取&#x200B;**[!UICONTROL 篩選器]**。
+   1. 若要限制產品數量，請在&#x200B;**[!UICONTROL 量值值]**&#x200B;中選取&#x200B;**[!UICONTROL 購買]**。 從下拉式功能表中選取&#x200B;**[!UICONTROL 篩選器]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[購買\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 至少]**&#x200B;並輸入`7000`。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;及&#x200B;**[!UICONTROL 確定]**。
-   1. 從&#x200B;****「符合」下拉式選單中選取&#x200B;**[!UICONTROL 「符合寬度]**」。
+   1. 從&#x200B;****「符合」下拉式功能表中選取&#x200B;**[!UICONTROL 「符合寬度]**」。
 
       您的Tableau桌上型電腦應如下所示。
 
@@ -1299,7 +1299,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
    1. 將&#x200B;**[!UICONTROL 產品類別]**&#x200B;從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格拖曳至&#x200B;**[!UICONTROL 欄]**。
    1. 將&#x200B;**[!UICONTROL 產品名稱]**&#x200B;從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格拖曳至&#x200B;**[!UICONTROL 欄]**。
    1. 若要將兩個垂直長條圖變更為樹狀圖，請從&#x200B;**[!UICONTROL 顯示我]**&#x200B;中選取&#x200B;**[!UICONTROL 樹狀圖]**。
-   1. 若要限制產品數量，請在&#x200B;**[!UICONTROL 量值值]**&#x200B;中選取&#x200B;**[!UICONTROL 購買]**。 從下拉式功能表中，選取&#x200B;**[!UICONTROL 篩選器]**。
+   1. 若要限制產品數量，請在&#x200B;**[!UICONTROL 量值值]**&#x200B;中選取&#x200B;**[!UICONTROL 購買]**。 從下拉式功能表中選取&#x200B;**[!UICONTROL 篩選器]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[購買\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 至少]**&#x200B;並輸入`7000`。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;及&#x200B;**[!UICONTROL 確定]**。
    1. 從&#x200B;**[!UICONTROL 符合]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 符合寬度]**。
 
@@ -1333,7 +1333,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 從左側邊欄中的&#x200B;**[!UICONTROL ‣自訂欄位]**&#x200B;區段：
    1. 從&#x200B;**[!UICONTROL +新增]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 自訂量值]**。
    1. 在&#x200B;**[!UICONTROL 建立自訂量值]**&#x200B;對話方塊中：
-      1. 從&#x200B;**[!UICONTROL 欄位選取**[!UICONTROL &#x200B;購買收入&#x200B;]**以測量]**&#x200B;下拉式功能表。
+      1. 從&#x200B;**[!UICONTROL 要量值]**&#x200B;的欄位下拉式功能表中選取&#x200B;**[!UICONTROL 購買收入]**。
       1. 從&#x200B;**[!UICONTROL 量值型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 總和]**。
       1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;的自訂欄位名稱。 例如：`Sum of Purchase Revenue`。
       1. 選取&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;標籤。
@@ -1341,7 +1341,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
          ![Looker自訂量度欄位](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. 選取「**[!UICONTROL 儲存]**」。
    1. 從&#x200B;**[!UICONTROL +新增]**&#x200B;下拉式功能表中再次選取&#x200B;**[!UICONTROL 自訂量值]**。 在&#x200B;**[!UICONTROL 建立自訂]**&#x200B;量值對話方塊中：
-      1. 從&#x200B;**[!UICONTROL 欄位選取**[!UICONTROL &#x200B;購買&#x200B;]**以測量]**&#x200B;下拉式功能表。
+      1. 從&#x200B;**[!UICONTROL 要測量]**&#x200B;的欄位下拉式功能表中選取&#x200B;**[!UICONTROL 購買]**。
       1. 從&#x200B;**[!UICONTROL 量值型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 總和]**。
       1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;的自訂欄位名稱。 例如：`Sum of Purchases`。
       1. 選取&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;標籤。
@@ -1498,8 +1498,8 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 從&#x200B;**[!UICONTROL 工作表1 (2)]**&#x200B;索引標籤內容功能表中選取&#x200B;**[!UICONTROL 重新命名]**，以將工作表重新命名為`Card`。
 
 1. 確定您已選取&#x200B;**[!UICONTROL 卡片]**&#x200B;檢視。
-1. 選取&#x200B;**[!UICONTROL DAY(Daterangeday)]**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL Month]**。 值變更為&#x200B;**[!UICONTROL MONTH(Daterangeday)]**。
-1. 選取&#x200B;**[!UICONTROL 標籤]**&#x200B;中的&#x200B;**[!UICONTROL SUM（Cm產品名稱計數相異）]**，並從下拉式選單中選取&#x200B;**[!UICONTROL 格式]**。
+1. 選取&#x200B;**[!UICONTROL 天(Daterangeday)]**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 月]**。 值變更為&#x200B;**[!UICONTROL MONTH(Daterangeday)]**。
+1. 在&#x200B;**[!UICONTROL 標籤]**&#x200B;中選取&#x200B;**[!UICONTROL SUM（Cm產品名稱計數相異）]**，並從下拉式選單中選取&#x200B;**[!UICONTROL 格式]**。
 1. 若要變更字型大小，請在&#x200B;**[!UICONTROL Format SUM(CM Product Name Count Distinct)]**&#x200B;窗格中，選取&#x200B;**[!UICONTROL 預設]**&#x200B;內的&#x200B;**[!UICONTROL 字型]**，並選取&#x200B;**[!UICONTROL 72]**&#x200B;作為字型大小。
 1. 若要對齊數字，請選取&#x200B;**[!UICONTROL 對齊]**&#x200B;旁的&#x200B;**[!UICONTROL 自動]**，並將&#x200B;**[!UICONTROL 水準]**&#x200B;設定為置中。
 1. 若要使用整數，請選取&#x200B;**[!UICONTROL 數字]**&#x200B;旁的&#x200B;**[!UICONTROL 123.456]**，並選取&#x200B;**[!UICONTROL 數字（自訂）]**。 將&#x200B;**[!UICONTROL 小數位數]**&#x200B;設為`0`。
@@ -2015,7 +2015,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
    ![Jupyter Notebook結果](assets/uc10-jupyter-input.png){zoomable="yes"}
 
-1. 從下拉式選單中選取&#x200B;**[!UICONTROL 搜尋]**。
+1. 從下拉式功能表中選取&#x200B;**[!UICONTROL 搜尋]**。
 
 1. 在新儲存格中輸入下列陳述式。
 
@@ -2242,7 +2242,7 @@ GROUP BY 1
 1. 從左側邊欄中的&#x200B;**[!UICONTROL ‣自訂欄位]**&#x200B;區段：
    1. 從&#x200B;**[!UICONTROL +新增]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 自訂量值]**。
    1. 在&#x200B;**[!UICONTROL 建立自訂量值]**&#x200B;對話方塊中：
-      1. 從&#x200B;**[!UICONTROL 欄位選取**[!UICONTROL &#x200B;購買收入&#x200B;]**以測量]**&#x200B;下拉式功能表。
+      1. 從&#x200B;**[!UICONTROL 要量值]**&#x200B;的欄位下拉式功能表中選取&#x200B;**[!UICONTROL 購買收入]**。
       1. 從&#x200B;**[!UICONTROL 量值型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 總和]**。
       1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;的自訂欄位名稱。 例如：`Sum of Purchase Revenue`。
       1. 選取&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;標籤。

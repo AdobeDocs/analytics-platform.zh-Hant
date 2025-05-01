@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
-source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 選取資料檢視
 
-您可以從下拉式清單中選取資料檢視，或從儲存格中選取資料檢視，並使用新的資料檢視自動更新資料區塊。
+您可以從下拉式選單中選取資料檢視，或從儲存格中選取資料檢視，並使用新的資料檢視自動更新資料區塊。
 
 ## 從儲存格選取資料檢視
 

@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 6213cc09800743a1f7cb4828d71ee731439e529b
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2125'
-ht-degree: 85%
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 85%
 >[!ENDSHADEBOX]
 
 
-建立或編輯資料視圖的方法：
+若要建立或編輯資料視圖：
 
-1. 登入[Customer Journey Analytics](https://analytics.adobe.com)，並選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
+1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 然後選取「**[!UICONTROL 資料視圖]**」，也可以自頂部選單中選取「**[!UICONTROL 資料管理]**」。
 1. 若要建立資料視圖，請選取「**[!UICONTROL 建立新的資料視圖]**」。或者，您可以從資料視圖清單中選取現有資料視圖進行編輯。
 
 
@@ -38,16 +38,16 @@ ht-degree: 85%
 
 >[!TAB 標準]
 
-![設定資料檢視](assets/dataview-configure.png)
+![設定資料視圖](assets/dataview-configure.png)
 
->[!TAB B2B edition]
+>[!TAB B2B Edition]
 
-![設定資料檢視B2B](assets/dataview-configure-b2b.png)
+![設定資料視圖 B2B](assets/dataview-configure-b2b.png)
 
 >[!ENDTABS]
 
 
-1. 選取「**[!UICONTROL 設定]**」標籤 (如果尚未啟動)。
+1. 選取「**[!UICONTROL 設定]**」索引標籤 (如果尚未啟動使用)。
 
 
 1. 指定「[!UICONTROL 設定]」、「[!UICONTROL 容器]」，然後指定「[!UICONTROL 行事曆]」詳細資料 (見下文)。
@@ -70,7 +70,7 @@ ht-degree: 85%
 | 設定 | 說明 |
 | --- | --- |
 | **[!UICONTROL 連線]** | 此欄位會將資料視圖連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
-| **[!UICONTROL 名稱]** | 必填。資料視圖的名稱。此值顯示在 Analysis Workspace 的右上角下拉式清單中。 |
+| **[!UICONTROL 名稱]** | 必填。資料視圖的名稱。此值會出現在Analysis Workspace的右上角下拉式功能表中。 |
 | **[!UICONTROL 外部 ID]** | 必填。您可以在外部來源 (例如商業智慧工具) 中使用的資料視圖名稱。預設值為 `unspecified`。如果不指定外部 ID，則將從資料視圖的名稱產生該名稱，並以底線取代空格。 |
 | **[!UICONTROL 說明]** | 選填。Adobe 建議使用詳細說明，讓用戶了解資料視圖存在的原因及其設計對象。 |
 
@@ -105,13 +105,13 @@ ht-degree: 85%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 全域帳戶容器名稱&#x200B;]** | `Global Account` （預設）。 [!UICONTROL 全域帳戶]容器包含指定時間範圍內全域帳戶的每個工作階段和事件。 如果您的組織使用不同的術語，您可以在此處重新命名容器。 |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 帳戶容器名稱&#x200B;]** | `Account` （預設）。 [!UICONTROL 帳戶]容器包含指定時間範圍內帳戶的每個工作階段和事件。 如果您的組織使用不同的術語，您可以在此處重新命名容器。 |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 機會容器名稱&#x200B;]** | `Opportunity` （預設）。 [!UICONTROL 機會]容器包含指定時間範圍內機會的每個工作階段和事件。 如果您的組織使用不同的術語，您可以在此處重新命名容器。 |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}<br/>**[!UICONTROL 購買群組容器名稱&#x200B;]** | `Buying Group` （預設）。 [!UICONTROL 購買群組]容器包含指定時間範圍內購買群組的每個工作階段和事件。 如果您的組織使用不同的術語，您可以在此處重新命名容器。 |
-| **[!UICONTROL 人員容器名稱]** | `Person` （預設）。 「[!UICONTROL 人員]」容器包含指定時間段內人員的每個工作階段和事件。如果您的組織使用不同的術語 (例如，「訪客」或「用戶」)，您可以在此處重新命名容器。 |
-| **[!UICONTROL 工作階段容器名稱]** | `Session` （預設）。 「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「Visit」或您組織偏好的其他任何詞語。 |
-| **[!UICONTROL 事件容器名稱]** | `Event` （預設）。 [!UICONTROL 事件]容器定義資料集中的單個事件。如果您的組織使用不同的術語 (例如，「點擊次數」或「頁面檢視量」)，您可以在此處重新命名容器。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶容器名稱&#x200B;]** | `Global Account` (預設)。「[!UICONTROL 全域帳戶]」容器包含指定時間段內全域帳戶的每個工作階段和事件。若您的組織使用不同的術語，您可以在此處重新命名容器。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶容器名稱&#x200B;]** | `Account` (預設)。「[!UICONTROL 帳戶]」容器包含指定時間段內帳戶的每個工作階段和事件。若您的組織使用不同的術語，您可以在此處重新命名容器。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 機會容器名稱&#x200B;]** | `Opportunity` (預設)。「[!UICONTROL 機會]」容器包含指定時間段內機會的每個工作階段和事件。若您的組織使用不同的術語，您可以在此處重新命名容器。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 購買群組容器名稱&#x200B;]** | `Buying Group` (預設)。「[!UICONTROL 購買群組]」容器包含指定時間段內購買群組的每個工作階段和事件。若您的組織使用不同的術語，您可以在此處重新命名容器。 |
+| **[!UICONTROL 人員容器名稱]** | `Person` (預設)。「[!UICONTROL 人員]」容器包含指定時間段內人員的每個工作階段和事件。如果您的組織使用不同的術語 (例如，「訪客」或「用戶」)，您可以在此處重新命名容器。 |
+| **[!UICONTROL 工作階段容器名稱]** | `Session` (預設)。「[!UICONTROL 工作階段]」容器讓您可以識別特定工作階段的頁面互動、促銷活動或轉換。您可以將此容器重新命名為「Visit」或您組織偏好的其他任何詞語。 |
+| **[!UICONTROL 事件容器名稱]** | `Event` (預設)。[!UICONTROL 事件]容器定義資料集中的單個事件。如果您的組織使用不同的術語 (例如，「點擊次數」或「頁面檢視量」)，您可以在此處重新命名容器。 |
 
 {style="table-layout:auto"}
 
@@ -183,13 +183,13 @@ ht-degree: 85%
 ## 設定
 
 1. 選取「**[!UICONTROL 設定]**」索引標籤。
-1. 設定區段以套用至整個資料檢視。 請參閱下方的[設定（區段）](#settings-filters)。
+1. 設定區段以套用於整個資料視圖。請參閱下方的[設定 (區段)](#settings-filters)。
 1. 設定工作階段逾時和量度。請參閱下方的「[工作階段設定](#session-settings)」。
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
-### 設定（區段）
+### 設定 (區段)
 
-您可以新增套用至整個資料檢視的區段。 此區段會套用至您在Workspace中執行的任何報表。 從左側邊欄的清單拖曳區段至&#x200B;**[!UICONTROL 新增區段]**&#x200B;欄位。
+您可以新增套用至整個資料視圖的區段。此區段將套用至您在 Workspace 中執行的任何報告。自左側邊欄的清單將區段拖曳至「**[!UICONTROL 新增區段]**」欄位。
 
 ### 工作階段設定
 
@@ -197,8 +197,8 @@ ht-degree: 85%
 
 ### 資料預覽
 
-資料預覽會比較（針對各種容器）此資料檢視的資料與連線的資料。 預覽百分比是根據過去90天的連線總數。
+資料預覽會將此資料視圖的資料與連線的資料進行比較 (針對各種容器)。預覽百分比是根據連線中過去 90 天的總數。
 
-如果未載入預覽，您的連線可能仍在回填。
+如果預覽未載入，您的連線可能仍在進行回填。
 
-指定所有所需設定後，按一下「**[!UICONTROL 儲存並完成]**」。
+指定好所有想要的設定後，按一下「**[!UICONTROL 儲存並完成]**」。
