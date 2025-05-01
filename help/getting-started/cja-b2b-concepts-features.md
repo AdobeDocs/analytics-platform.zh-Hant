@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
+source-git-commit: e16bfa01dd3bedc96a147b2510ba33f4b88b01b9
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -90,3 +90,4 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
 ## 以個人和帳戶為基礎的資料報表
 
 如果您想要報告以人員為基礎的容器（和人員身分）和以帳戶為基礎的容器（和帳戶身分），您應在Customer Journey Analytics中設定兩個個別的連線。 一個是您選取「人員」作為主要ID的連線，另一個是您選取「帳戶」作為主要ID的連線。 Customer Journey Analytics不支援來自單一容器階層的個人型和帳戶型報表。
+

@@ -4,7 +4,7 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: f39cf7c386c42488d6607154fc7922911df5527c
+source-git-commit: e16bfa01dd3bedc96a147b2510ba33f4b88b01b9
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 94%
@@ -25,7 +25,7 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 >[!TAB Content Analytics]
 
-Adobe Content Analytics 讓您能夠快速且輕鬆地調查大量內容資料，以發現趨勢、發現異常、識別內容疲勞，並從內容曝光中獲取見解。
+透過 Content Analytics，您可以快速且輕鬆地調查大量內容資料，從中發現趨勢、找出異常處、確認內容疲勞，並從內容曝光中獲取深入分析。
 
 [![影像](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 

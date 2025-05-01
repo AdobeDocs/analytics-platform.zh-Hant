@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: d695fcb8dbd98675914c687f3dfaf8c5f0017073
+source-git-commit: 63c6a5d6148c1562b7f6ac8e4a1cac5919e2dd2e
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 82%
@@ -15,7 +15,6 @@ ht-degree: 82%
 # Content Analytics 資料收集
 
 本文詳細說明 Content Analytics 如何進行資料收集
-
 
 ## 定義
 
@@ -40,7 +39,6 @@ Content Analytics 資料庫在以下情況下收集資料：
 * 頁面 URL 在 [Content Analytics 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}中進行設定，其為所包含之標記資料庫的一部分。
 
 
-
 ## Content Analytics 事件
 
 Content Analytics 事件包括：
@@ -52,7 +50,6 @@ Content Analytics 事件包括：
 * 體驗點按 (若有，並且已設定)
 * 資產視圖 (若有，並且已設定)
 * 資產點按 (若有，並且已設定)
-
 
 Content Analytics 事件會依以下序列收集：
 
