@@ -2,10 +2,10 @@
 title: 產品使用情況概觀
 description: 檢視有關您的組織如何使用 Customer Journey Analytics 的深入分析和報告。
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '591'
+ht-degree: 88%
 
 ---
 
@@ -126,3 +126,11 @@ ht-degree: 100%
    * [!UICONTROL 文氏圖表]
 
 當僅開啟或檢視專案時，產品使用情況不會追蹤個別專案元件。但是，開啟專案的使用者動作會被追蹤。
+
+## 可用的範本
+
+可以使用[Adobe範本](/help/analysis-workspace/templates/use-templates.md)，它使用自動從此功能產生的元件。
+
+**[!UICONTROL Adobe範本]** > **[!UICONTROL 其他]** > **[!UICONTROL 產品使用概述]**
+
+選取在資料檢視選擇器中自動建立「產品使用量」的資料檢視，然後選取&#x200B;**[!UICONTROL 產品使用量概觀]**&#x200B;範本。 選取&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視範本使用哪些面板，並了解理想的使用案例，或選取&#x200B;**[!UICONTROL 使用範本]**&#x200B;以在Analysis Workspace中開啟範本。
