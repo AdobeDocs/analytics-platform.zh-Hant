@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
 workflow-type: tm+mt
-source-wordcount: '6794'
+source-wordcount: '6802'
 ht-degree: 63%
 
 ---
@@ -331,8 +331,8 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
->title="比對索引鍵"
->abstract="選取加入方式：根據比對索引鍵或比對索引容器。<br/><br/>**[!UICONTROL 比對索引鍵&#x200B;]**：選取要加入其中一個事件資料集的欄位。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 比對索引容器]**：選取一個用於加入其中一個事件資料集的容器。如果此清單為空白，表示您可能尚未設定一或多個容器。"
+>title="比對索引鍵類型"
+>abstract="選取如何聯結：根據依欄位的比對或依容器的比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取一個容器，與其中一個事件資料集進行連結。如果此清單為空白，表示您可能尚未設定一或多個容器。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -446,8 +446,8 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
->title="比對索引鍵"
->abstract="選取加入方式：根據比對索引鍵或比對索引容器。<br/><br/>**[!UICONTROL 比對索引鍵&#x200B;]**：選取要加入其中一個事件資料集的欄位。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 比對索引容器]**：選取一個用於加入其中一個事件資料集的容器。如果此清單為空白，表示您可能尚未設定一或多個容器。"
+>title="比對索引鍵類型"
+>abstract="選取如何聯結：根據依欄位的比對或依容器的比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取一個容器，與其中一個事件資料集進行連結。如果此清單為空白，表示您可能尚未設定一或多個容器。"
 
 <!-- markdownlint-enable MD034 -->
 
