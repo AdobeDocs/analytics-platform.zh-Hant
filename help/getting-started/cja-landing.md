@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: f39cf7c386c42488d6607154fc7922911df5527c
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 87%
+source-wordcount: '884'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 本技術文件指南提供 Customer Journey Analytics 的自助協助。Customer Journey Analytics 可讓您將客戶資料從您選擇的任何管道 (線上和離線) 引入 Adob&#x200B;&#x200B;e Experience Platform。然後，就可以像使用 Analysis Workspace 分析現有數位資料一樣來分析這些資料。
 
-Customer Journey Analytics可讓您控制如何在Analysis Workspace中連線任何常見客戶ID的線上和離線資料，允許您進行歸因、區段、流量、流失等分析。 進行全部客戶資料的歸因、篩選器、流量與流失等分析。
+Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接任何常見客戶 ID 的線上和離線資料，進而允許您進行歸因、區段、流量與流失等分析。進行全部客戶資料的歸因、篩選器、流量與流失等分析。
 
 ## 新增功能？
 
@@ -25,9 +25,15 @@ Customer Journey Analytics可讓您控制如何在Analysis Workspace中連線任
 
 >[!TAB Content Analytics]
 
-Adobe Content Analytics 可讓您快速且輕鬆地調查大量內容資料，以發現趨勢、發現異常、識別內容疲勞，並從內容曝光中獲取見解。
+Adobe Content Analytics 讓您能夠快速且輕鬆地調查大量內容資料，以發現趨勢、發現異常、識別內容疲勞，並從內容曝光中獲取見解。
 
 [![影像](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
+
+>[!TAB 共用的量度和維度]
+
+共用的量度和維度可提供一個中央位置，用於管理可用於任何數量資料檢視的維度和量度。 這些元件對於使用多個資料檢視的組織特別有用，尤其是如果這些資料檢視共用相同的元件設定。
+
+[![影像](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 
 >[!TAB AI 助理]
 
@@ -43,9 +49,9 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 [![影像](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
 
 
->[!TAB 智慧型字幕v2]
+>[!TAB 智慧型註解 (第 2 版)]
 
-智慧型字幕現在已支援[行](/help/analysis-workspace/visualizations/line.md) （包括多行）、[列](/help/analysis-workspace/visualizations/bar.md)、[水準列](/help/analysis-workspace/visualizations/horizontal-bar.md)、[區域](/help/analysis-workspace/visualizations/area.md) （包括多區域行）、[環圈圖](/help/analysis-workspace/visualizations/donut.md)、[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)和[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)視覺效果，並搭配其他介面改良功能。
+[折線圖](/help/analysis-workspace/visualizations/line.md) (包括多折線)、[長條圖](/help/analysis-workspace/visualizations/bar.md)、[水平長條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)、[區域圖](/help/analysis-workspace/visualizations/area.md) (包括多區域折線)、[環形圖](/help/analysis-workspace/visualizations/donut.md)、[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)，和[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)視覺效果，現在支援智慧型註解，並進行其他的介面改進。
 
 [![影像](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 
@@ -54,6 +60,7 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 警報可讓您根據變更的百分比或特定資料點來接收通知。您可以預覽警報觸發的頻率、透過電子郵件或簡訊傳送警報、建立堆疊警報等。
 
 [![影像](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+
 
 >[!TAB 摘要資料]
 
@@ -74,7 +81,7 @@ AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包�
 
 >[!TAB BI 擴充功能*]
 
-BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的資料視圖。您現在可以使用您最愛的BI工具(Power BI Desktop、Tableau Desktop、Looker、Juyter Notebook和RStudio)，根據Customer Journey Analytics使用者在其Analysis Workspace專案中使用的相同資料檢視來建立報告和儀表板。 提供[使用案例](/help/use-cases/data-views/bi-extension-usecases.md)。
+BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的資料視圖。現在您可以使用自己喜歡的 BI 工具 (Power BI Desktop、Tableau Desktop、Looker、Juyter Notebook 和 RStudio)，根據與 Customer Journey Analytics 使用者在其 Analysis Workspace 專案中使用之相同的資料視圖，建立報告和儀表板。提供[使用案例](/help/use-cases/data-views/bi-extension-usecases.md)。
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 

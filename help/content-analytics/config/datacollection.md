@@ -1,107 +1,107 @@
 ---
-title: Content Analytics資料彙集
-description: 概略說明如何在Content Analytics中收集資料
+title: Content Analytics 資料收集
+description: Content Analytics 資料收集方式概觀
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
+source-git-commit: f39cf7c386c42488d6607154fc7922911df5527c
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 1%
+source-wordcount: '602'
+ht-degree: 88%
 
 ---
 
-# Content Analytics資料彙集
+# Content Analytics 資料收集
 
-本文詳細說明Content Analytics如何收集資料
+本文詳細說明 Content Analytics 如何進行資料收集
 
 
 ## 定義
 
-本文內容中使用下列定義：
+本文中使用到以下定義：
 
-* **體驗**：體驗定義為整個網頁上的文字內容。 對於資料收集，Content Analytics會根據頁面URL記錄體驗ID。 稍後，頁面上的文字會透過擷取服務擷取。
-* **體驗ID**：相關URL （基底URL加上驅動頁面內容的任何引數）與[體驗版本](manual.md#versioning)的唯一組合。
-   * 您在[組態](configuration.md)中指定與任何指定完整URL相關的引數。
-   * 您定義要使用的[版本識別碼](manual.md#versioning)，以便正確收集您體驗的變更。
-* **資產**：影像。 Content Analytics會記錄資產URL。
-* **資產識別碼**：資產的URL。
-* **相關URL**：基底URL加上驅動頁面內容的任何引數。
+* **體驗**：體驗定義為整個網頁上的文字內容。對於資料收集，Content Analytics 會記錄以頁面 URL 為基礎的體驗 ID。隨後，透過獲取服務擷取頁面上的文字。
+* **體驗 ID**：相關 URL (基底 URL 加上任何推動頁面內容的參數) 和[體驗版本](manual.md#versioning)的獨特組合。
+   * 您可以指定，做為[設定](configuration.md)的一部分，對於任何特定的完整 URL，哪些參數是相關的。
+   * 您需定義出一個[版本識別碼](manual.md#versioning)來使用，藉以正確收集您的體驗變更。
+* **資產**：一個影像。Content Analytics 會記錄資產 URL。
+* **資產 ID**：資產的 URL。
+* **相關 URL**：基底 URL 加上任何推動頁面內容的參數。
 
 
 ## 功能
 
-Content Analytics需要Experience Platform Edge Network Web SDK來收集內容事件資料。 該事件資料收集會透過Experience Platform Edge Network (網頁SDK、伺服器API)或Analytics來源聯結器(例如使用AppMeasurement)之類的機制，與（現有）行為事件資料收集結合。
+Content Analytics 需要 Experience Platform Edge Network Web SDK 來收集內容事件資料。事件資料集合透過 Experience Platform Edge Network (Web SDK、伺服器 API) 或 Analytics 來源連接器 (例如，使用 AppMeasurement) 等機制，與行為事件資料的 (現有) 資料集合相結合。
 
-Content Analytics資料庫會在下列情況下收集資料：
+Content Analytics 資料庫在以下情況下收集資料：
 
-* Content Analytics包含在頁面上載入的標籤程式庫中。
-* 頁面URL是在[Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}中設定，屬於包含的標籤程式庫的一部分。
+* Content Analytics 包含在頁面上載入的標記資料庫中。
+* 頁面 URL 在 [Content Analytics 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}中進行設定，其為所包含之標記資料庫的一部分。
 
 
 
-## Content Analytics事件
+## Content Analytics 事件
 
-Content Analytics事件包含：
+Content Analytics 事件包括：
 
 * 標準欄位
    * 時間戳記
    * 身分識別
-* 體驗檢視（如果有的話，以及如果已設定的話）
-* 體驗點按次數（如果有的話，如果已設定）
-* 資產檢視（如果有的話，如果已設定）
-* 資產點選次數（如果有的話，如果已設定）
+* 體驗視圖 (若有，並且已設定)
+* 體驗點按 (若有，並且已設定)
+* 資產視圖 (若有，並且已設定)
+* 資產點按 (若有，並且已設定)
 
 
-Content Analytics事件會依序收集：
+Content Analytics 事件會依以下序列收集：
 
-1. [錄製的檢視或按一下](#recorded-view-or-click)。
-1. [一般或特定（行為）事件](#regular-or-specific-behaviorial-event)。
+1. [記錄的視圖或點按](#recorded-view-or-click)。
+1. [傳送Content Analytics事件的觸發程式](#trigger-to-send-a-content-analytics-event)。
 
-Content Analytics確實會以這種方式收集資料來反映該順序，而不是收集檢視或點按，以與該檢視或點按之後立即收集事件分開。 這種收集內容分析資料的方式也會減少收集的資料量。
+Content Analytics 確實以此方式收集資料，藉以反映該序列，而非將收集視圖或點按，與收集該視圖或點按之後立即發生的事件分開。這樣的內容分析資料收集方式也能減少所收集的資料量。
 
-### 錄製的檢視或按一下
+### 記錄的視圖或點按。
 
-出現下列情況時，會記錄資產檢視：
+以下情況下會記錄資產視圖：
 
-* 並未根據Content Analytics擴充功能設定排除資產。
-* 資產檢視率為75%。
-* 尚未針對此頁面記錄該資產。
+* 資產尚未根據 Content Analytics 擴充功能設定而排除。
+* 資產已達到 75% 的視圖範圍。
+* 資產尚未針對此頁面進行記錄。
 
-出現下列情況時，會記錄資產點按：
+以下情況下會記錄資產點按：
 
-* 已檢視資產。
-* 並未根據Content Analytics擴充功能設定排除資產。
-* 直接按一下資產（連結）即可進入另一個頁面。
+* 資產被檢視。
+* 資產尚未根據 Content Analytics 擴充功能設定而排除。
+* 直接點按資產 (其為一個連結)，而前往另一個頁面。
 
-在下列情況下會記錄體驗檢視：
+以下情況下會記錄體驗視圖：
 
-* 體驗會在Content Analytics設定中啟用。
+* 體驗在 Content Analytics 設定中啟用。
 
-發生下列情況時，會記錄一次體驗點按：
+以下情況下會記錄體驗點按：
 
-* 在啟用體驗的頁面上的連結上，只要按一下，就會出現。
+* 針對啟用體驗之頁面上的連結進行的任何點按。
 
 
-### 一般或特定（行為）事件
+### 觸發以傳送Content Analytics事件
 
-在Content Analytics上下文中引發一般或特定（行為）事件的觸發因素包括：
+為了減少離開頁面的呼叫數，Content Analytics會收集資訊，但不會立即傳送該資訊。 系統會收集內容互動資訊，並僅在發生下列其中一項觸發時傳送包含該資訊的事件：
 
-* Web SDK或AppMeasurement會傳送事件。
-* 可視性會變更為隱藏，例如：
-   * 頁面取消載入
-   * 切換標籤
-   * 將瀏覽器最小化
+* Web SDK或AppMeasurement會傳送事件。 此事件的時間戳記為
+* 可見度轉變為隱藏，例如：
+   * 頁面卸載
+   * 切換索引標籤
+   * 將瀏覽器縮到最小
    * 關閉瀏覽器
    * 鎖定畫面
-* URL變更，導致相關的URL被修改。
-* 已記錄且準備好傳送的資產檢視次數超過32次。
+* URL 發生變化，導致相關 URL 被修改。
+* 已記錄並準備就緒可以傳送的資產視圖數量超過 32。
 
 
 ## 結構描述
 
-Content Analytics資料是根據特定的Experience Platform結構描述，在Content Analytics的資料集中收集。 可公開使用的參考結構描述：
+Content Analytics 資料會根據特定的 Content Analytics 結構描述收集於 Experience Platform 的資料集中。參照結構描述為公開可用的：
 
 * [數位資產結構描述](https://github.com/adobe/xdm/blob/master/components/classes/digital-asset.schema.json)
 * [數位體驗結構描述](https://github.com/adobe/xdm/blob/master/components/classes/digital-experience.schema.json)
