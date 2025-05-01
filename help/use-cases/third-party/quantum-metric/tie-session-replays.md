@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: d48a6fc306a84eeeb189e1b272bfded7ed26ed70
+source-git-commit: a03505aeb56f99b28f50819765a496705876b89c
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[Quantum量度標籤延伸功能](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)檔案。
 
-## 步驟1：建立結構欄位以容納量度資料
+## 步驟1：建立結構欄位以容納量度工作階段ID
 
 此使用案例需要專用的結構描述欄位才能傳送資料。 您可以在結構描述中的任何所需位置建立此欄位，並隨意命名。 如果您的組織對名稱或地點沒有偏好設定，則會提供範例值。
 
