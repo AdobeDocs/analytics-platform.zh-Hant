@@ -4,10 +4,10 @@ title: 如何設定流量視覺效果
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 915c1ecff6dcbe42a6ed81c74f4ec5b4a24eaaa5
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 87%
+source-wordcount: '1525'
+ht-degree: 86%
 
 ---
 
@@ -17,6 +17,17 @@ ht-degree: 87%
 >id="workspace_flow_container"
 >title="流量容器"
 >abstract="選取用於顯示路徑分析 (數量) 的容器。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="包含重複專案（已停用）"
+>abstract="無法從包含多值維度的流量視覺效果中移除重複項目。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="包括重複項目 "
+>abstract="「流量」視覺效果是根據維度的例項而定。此設定可讓您選擇要包含或排除重複的執行個體，例如：頁面重新載入。"
+
 
 
 流量視覺效果可協助您瞭解源自網站或應用程式上特定轉換事件的歷程。 或導致特定轉換事件。 此視覺效果會透過您的維度（和維度專案）或量度追蹤路徑。
