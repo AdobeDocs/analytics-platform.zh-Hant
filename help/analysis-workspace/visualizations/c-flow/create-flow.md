@@ -4,10 +4,10 @@ title: 如何設定流量視覺效果
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 2a2e158c0eb0f60591a92ed98572bbb6c344e3be
+source-git-commit: 933b4005724aa438c3daeb58191e940821b5bb5f
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 80%
+source-wordcount: '1709'
+ht-degree: 79%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 80%
 >title="每欄展開的項目"
 >abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
 
+>[!CONTEXTUALHELP]
+>id="workspace_flow_resettoupdate"
+>title="重設為更新"
+>abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
 
 
 流量視覺效果可協助您瞭解源自網站或應用程式上特定轉換事件的歷程。 或導致特定轉換事件。 此視覺效果會透過您的維度（和維度專案）或量度追蹤路徑。
