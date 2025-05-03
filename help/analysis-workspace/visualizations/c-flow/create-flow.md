@@ -4,14 +4,34 @@ title: 如何設定流量視覺效果
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 915c1ecff6dcbe42a6ed81c74f4ec5b4a24eaaa5
+source-git-commit: 2a2e158c0eb0f60591a92ed98572bbb6c344e3be
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 86%
+source-wordcount: '1684'
+ht-degree: 80%
 
 ---
 
 # 設定流量視覺效果 {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="開始於"
+>abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="包含"
+>abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="終止於"
+>abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="路徑維度"
+>abstract="選取一個維度，以用作前往或離開您所選元件的路徑。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
@@ -25,8 +45,23 @@ ht-degree: 86%
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
->title="包括重複項目 "
+>title="包括重複項目"
 >abstract="「流量」視覺效果是根據維度的例項而定。此設定可讓您選擇要包含或排除重複的執行個體，例如：頁面重新載入。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="僅限於第一次/最後一次發生次數"
+>abstract="當第一個/最後一個接觸點是登入/退出點時，結果僅限為路徑。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="欄數"
+>abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="每欄展開的項目"
+>abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
 
 
 
