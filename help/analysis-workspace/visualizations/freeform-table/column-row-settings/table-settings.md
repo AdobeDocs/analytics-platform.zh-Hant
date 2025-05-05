@@ -90,4 +90,4 @@ ht-degree: 91%
 
 ## 變更列高
 
-您可以將專案的檢視密度設定為&#x200B;**[!UICONTROL 精簡]**、 **[!UICONTROL 舒適]**&#x200B;和 **[!UICONTROL 擴展]**。[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)。
+您可以將專案的檢視密度設定為&#x200B;**[!UICONTROL 精簡]**、 **[!UICONTROL 舒適]**&#x200B;和 **[!UICONTROL 擴展]**。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)。

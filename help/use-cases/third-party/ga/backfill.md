@@ -92,7 +92,7 @@ FROM
 >
 >如果您計畫同時匯入歷史與即時串流 Google Analytics 資料，這二個資料集請務必使用相同的結構描述。您可以使用[合併的資料集](/help/connections/combined-dataset.md)在Customer Journey Analytics中合併資料集。
 
-您可以將 GA 事件資料對應到您之前建立的現有資料集中，或是使用您選擇的任何 XDM 結構描述建立新的資料集。 當您選取結構描述後，Experience Platform 會套用機器學習，自動地將 Google Analytics 資料中的每個欄位預先對應到您的 [XDM 結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)。
+您可以將 GA 事件資料對應到您之前建立的現有資料集中，或是使用您選擇的任何 XDM 結構描述建立新的資料集。 當您選取結構描述後，Experience Platform 會套用機器學習，自動地將 Google Analytics 資料中的每個欄位預先對應到您的 [XDM 結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant#ui)。
 
 ![結構描述對應，醒目提示GA資料欄位和目標結構描述對應](../../assets/schema-map.png)
 

@@ -49,7 +49,7 @@ The order success (purchase) events assign the data accurately to the correct em
 
 ### 上次驗證歸因
 
-上次驗證會將共用裝置中的所有未知活動，歸因於上次驗證的使用者。 Experience PlatformIdentity服務會根據上次驗證歸因建立圖表，因此會用於圖表式拚接。 如需詳細資訊，請參閱[身分圖表連結規則](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details)。
+上次驗證會將共用裝置中的所有未知活動，歸因於上次驗證的使用者。 Experience PlatformIdentity服務會根據上次驗證歸因建立圖表，因此會用於圖表式拚接。 如需詳細資訊，請參閱[身分圖表連結規則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details)。
 
 彙整使用上次驗證歸因時，彙整ID會解決問題，如下表所示。
 

@@ -19,7 +19,7 @@ ht-degree: 61%
 ## 先決條件
 
 * 必須已使用[Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)將報表套裝資料匯入Adobe Experience Platform。 由於行銷管道需仰賴 Analytics 報告套裝中的處理規則來運作，因此不支援其他資料來源。
-* 行銷管道處理規則須完成設定。請參閱Adobe Analytics元件指南中的[行銷管道的處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html)。
+* 行銷管道處理規則須完成設定。請參閱Adobe Analytics元件指南中的[行銷管道的處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules.html?lang=zh-Hant)。
 
 ## 行銷管道結構元素
 

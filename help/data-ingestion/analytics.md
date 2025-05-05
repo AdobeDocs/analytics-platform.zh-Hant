@@ -20,7 +20,7 @@ ht-degree: 79%
 >
 >您確實已使用任何以下記錄式實作方法，將 Adobe Analytics 授權並部署在一個或多個網站上：
 >
->- [使用 Experience Platform Edge 實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
+>- [使用 Experience Platform Edge 實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=zh-Hant)
 >
 >- [使用 Adobe Analytics 擴充功能實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=zh-hant)
 >

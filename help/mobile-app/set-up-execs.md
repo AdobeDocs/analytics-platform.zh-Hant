@@ -18,7 +18,7 @@ ht-degree: 69%
 
 ## 確認應用程式使用者有 Adobe Analytics 存取權
 
-1. 在 [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) 中設定新使用者。
+1. 在 [Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant) 中設定新使用者。
 
 1. 為了能共用計分卡，您必須授予應用程式使用者許可權，使其能存取Analysis Workspace之類的計分卡元件、計分卡根據的資料檢視以及區段、量度和維度。
 

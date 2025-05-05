@@ -165,7 +165,7 @@ Customer Journey Analytics中的資料檢視可讓您決定工作階段持續的
 
 ### B2B容器
 
-[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 當您有[Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md)的存取權時，區段中有其他可用的容器。 您可以在[B2B概念和功能](/help/getting-started/cja-b2b-concepts-features.md)中找到有關使用這些額外容器的更多詳細資料。
 

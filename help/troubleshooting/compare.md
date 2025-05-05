@@ -17,7 +17,7 @@ ht-degree: 100%
 
 您的組織採用 Customer Journey Analytics 時，您可能會注意到 Adobe Analytics 和 Customer Journey Analytics 之間的資料存在一些差異。這是正常的現象，發生原因有很多種。Customer Journey Analytics 的設計可讓您改善 AA 中資料的部分限制。但可能會發生未預期/意外的不一致情況。本文章旨在協助您診斷並解決這些差異，讓您和團隊能夠使用 Customer Journey Analytics 而不會受到資料完整性疑慮所阻礙。
 
-假設您透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)將 Adobe Analytics 資料擷取至 Adobe Experience Platform，然後使用該資料集建立了 Customer Journey Analytics 連線。
+假設您透過 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將 Adobe Analytics 資料擷取至 Adobe Experience Platform，然後使用該資料集建立了 Customer Journey Analytics 連線。
 
 ![資料透過資料連接器從 Adobe Analytics 流向 Adobe Experience Platform，並透過 CJA 連線流向 Customer Journey Analytics。](assets/compare.png)
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 步驟 1：執行 Adobe Analytics 中的發生次數量度
 
-「[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html)」量度顯示點擊次數，其中會設定或保留指定的維度。
+「[發生次數](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=zh-Hant)」量度顯示點擊次數，其中會設定或保留指定的維度。
 
 1. 在「Analytics > [!UICONTROL 工作區]」中，請將您要作為維度報告的日期範圍拖曳到「[!UICONTROL 自由]表格」。
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 >
 >這僅適用於一般中值資料集，而非拼接資料集 (透過[拼接](/help/stitching/overview.md))。請注意，用於 Customer Journey Analytics 的人員 ID 計量是進行比較工作的關鍵。在 Adobe Analytics 中複寫可能不是每次都那麼容易，尤其是已開啟「拼接」時。
 
-1. 在 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html)中，執行以下[!UICONTROL 依時間戳記區分的記錄總數]查詢：
+1. 在 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=zh-Hant)中，執行以下[!UICONTROL 依時間戳記區分的記錄總數]查詢：
 
    ```sql
    SELECT
@@ -66,9 +66,9 @@ ht-degree: 100%
    ORDER BY Day; 
    ```
 
-1. 在 [Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)中，從原始資料中找出 Analytics 來源連接器是否可能已篩選掉某些列。
+1. 在 [Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)中，從原始資料中找出 Analytics 來源連接器是否可能已篩選掉某些列。
 
-   [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)可能在轉換成 XDM 結構描述期間篩選掉某些列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會篩選掉整列。
+   [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)可能在轉換成 XDM 結構描述期間篩選掉某些列。整列不適用於轉換的原因有好幾種。如果下列任一 Analytics 欄位有這些值，將會篩選掉整列。
 
    | Analytics 欄位 | 導致某一列被捨棄的值 |
    | --- | --- |
@@ -79,7 +79,7 @@ ht-degree: 100%
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
    | Page_event | 53, 63 |
 
-   如需 hit\_source 的詳細資訊，請參閱：[資料欄參考](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html)。 如需 page\_event 的詳細資訊，請參閱：[頁面事件查閱](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html)。
+   如需 hit\_source 的詳細資訊，請參閱：[資料欄參考](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)。 如需 page\_event 的詳細資訊，請參閱：[頁面事件查閱](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=zh-Hant)。
 
 1. 如果連接器已篩選列，請將這幾列減去[!UICONTROL 發生次數]量度。得到的數字應符合在 Adobe Experience Platform 資料集中的事件數。
 

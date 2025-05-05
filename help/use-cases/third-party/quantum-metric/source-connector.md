@@ -28,7 +28,7 @@ CJA會解除QM資料、循序資料分析、豐富歸因及其他進階報表的
 1. 導覽至[!UICONTROL Experience Platform] > [!UICONTROL 連線] > [!UICONTROL 來源]。
 1. 新增Quantum Metric來源聯結器，並依照提示完成操作。
 
-如需詳細資訊，請參閱[Adobe Experience Platform來源聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)。
+如需詳細資訊，請參閱[Adobe Experience Platform來源聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)。
 
 ## 步驟2：在Customer Journey Analytics中建立連線
 
@@ -40,7 +40,7 @@ CJA會解除QM資料、循序資料分析、豐富歸因及其他進階報表的
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 >[!NOTE]
->雖然您可以將Quantum量度資料新增至與Customer Journey Analytics資料其餘部分相同的連線，但若沒有兩個資料集之間的通用人員ID，該資料無法彙整在一起。 如果需要此行為，Adobe建議使用[標籤延伸模組](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)，而非來源聯結器。
+>雖然您可以將Quantum量度資料新增至與Customer Journey Analytics資料其餘部分相同的連線，但若沒有兩個資料集之間的通用人員ID，該資料無法彙整在一起。 如果需要此行為，Adobe建議使用[標籤延伸模組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/analytics/quantum-metric)，而非來源聯結器。
 
 ## 步驟3：在Customer Journey Analytics中建立資料檢視
 

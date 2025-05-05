@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # B2B 專案範例
 
-本文會說明一個使用案例，您想在Customer Journey Analytics中正確報告典型B2B設定內容中的個人資料。 此類設定是[Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)的一部分。  此使用案例說明如何在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級型的B2B資料。
+本文會說明一個使用案例，您想在Customer Journey Analytics中正確報告典型B2B設定內容中的個人資料。 此類設定是[Real-Time CDP B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)的一部分。  此使用案例說明如何在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級型的B2B資料。
 
 ## 連線
 
@@ -41,7 +41,7 @@ ht-degree: 6%
 -->
 
 
-B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係會在Experience Platform內的B2B設定中定義。 檢視[Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
+B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係會在Experience Platform內的B2B設定中定義。 檢視[Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
 
 
 若要確保連線設定正確，可支援B2B資料的個人查詢功能，請使用下列圖例來概略瞭解情況，並依照下列步驟進行：

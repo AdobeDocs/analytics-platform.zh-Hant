@@ -66,7 +66,7 @@ ht-degree: 0%
    * **[!UICONTROL 描述]**：元件的[描述](/help/data-views/component-settings/overview.md)。
    * **[!UICONTROL 內容標籤]**：元件的[內容標籤](/help/data-views/component-settings/overview.md)。
    * **[!UICONTROL 包含/排除值]**：列出[包含/排除值](/help/data-views/component-settings/include-exclude-values.md)下指定的規則數目。
-   * **[!UICONTROL 資料使用標籤]**：結構描述欄位的[資料使用標籤](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview)。
+   * **[!UICONTROL 資料使用標籤]**：結構描述欄位的[資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview)。
    * **[!UICONTROL 已棄用]**：表示是否已設定已棄用的標幟。
    * **[!UICONTROL 格式]**：值出現的格式。 布林值通常顯示為`True | False`，量度通常顯示為`Decimal`等。
    * **[!UICONTROL 量度重複資料刪除]**：元件的[量度重複資料刪除](/help/data-views/component-settings/metric-deduplication.md)設定。

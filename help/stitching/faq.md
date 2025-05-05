@@ -75,7 +75,7 @@ Adobe啟用彙整功能後，需要約一週才能使用即時彙整。 能否�
 
 +++ 跨裝置分析（傳統Analytics中的一項功能）和跨管道分析有何不同？
 
-[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)是傳統Adobe Analytics的專屬功能，可讓您瞭解人們如何跨裝置運作。 它提供兩個將裝置資料連結在一起的工作流程：欄位式拚接和裝置圖表。
+[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hant)是傳統Adobe Analytics的專屬功能，可讓您瞭解人們如何跨裝置運作。 它提供兩個將裝置資料連結在一起的工作流程：欄位式拚接和裝置圖表。
 
 跨頻道分析是Customer Journey Analytics專屬的使用案例，可讓您同時瞭解人們如何跨裝置和頻道運作。 它會拼接資料集的人員ID，讓該資料集可順暢地與其他資料集結合。 此功能在設計上的運作方式與跨裝置分析欄位式銜接類似，但由於傳統Analytics和Customer Journey Analytics之間的資料架構不同，實施方式也不同。 如需詳細資訊，請參閱[拼接](overview.md)和[跨管道分析](../use-cases/cross-channel/cross-channel.md)使用案例。
 

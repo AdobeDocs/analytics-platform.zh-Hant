@@ -41,7 +41,7 @@ Customer Journey Analytics支援兩種彙整型別： [欄位式彙整](fbs.md)�
 - 將所需的資料匯入Adobe Experience Platform：
 
    - 如需Adobe Analytics資料，請參閱[在Customer Journey Analytics中利用Adobe Analytics報表套裝資料](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)。
-   - 如為其他類型資料，請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui)和[匯入資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home)。
+   - 如為其他類型資料，請參閱 Adobe Experience Platform 文件中的[建立結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/create-schema-ui)和[匯入資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home)。
 
 如果在定義Customer Journey Analytics連線時，將一或多個拼接資料集與其他資料集（例如客服中心資料）結合，即可受益於跨管道分析。 此連線設定假設其他資料集每一列都包含人員ID，類似於拼接ID。
 
@@ -55,7 +55,7 @@ Customer Journey Analytics支援兩種彙整型別： [欄位式彙整](fbs.md)�
 >
 >- 如果您移除來源資料集，拼接的資料集將停止處理並被系統移除。
 >
->- 資料使用標籤不會自動傳播到拼接的資料集結構描述。 如果您已將資料使用標籤套用至來源資料集結構描述，則需要手動將這些資料使用標籤套用至拼接的資料集結構描述。 如需詳細資訊，請參閱[在Experience Platform中管理資料使用標籤](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview)。
+>- 資料使用標籤不會自動傳播到拼接的資料集結構描述。 如果您已將資料使用標籤套用至來源資料集結構描述，則需要手動將這些資料使用標籤套用至拼接的資料集結構描述。 如需詳細資訊，請參閱[在Experience Platform中管理資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview)。
 
 拚接是一項具突破性的完善功能，但其使用方式有所限制。
 

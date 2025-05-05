@@ -92,7 +92,7 @@ ht-degree: 26%
 
      >[!AVAILABILITY]
      >
-     >本節適用於在Amazon Web Services (AWS)上執行的Experience Platform實作。 在AWS上執行的Experience Platform目前可供有限數量的客戶使用。 若要深入瞭解支援的Experience Platform基礎結構，請參閱[Experience Platform多雲端總覽](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。
+     >本節適用於在Amazon Web Services (AWS)上執行的Experience Platform實作。 在AWS上執行的Experience Platform目前可供有限數量的客戶使用。 若要深入瞭解支援的Experience Platform基礎結構，請參閱[Experience Platform多雲端總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud)。
 
      [!UICONTROL **已建立的帳戶**]&#x200B;對話方塊隨即顯示。
 
@@ -112,9 +112,9 @@ ht-degree: 26%
 
       1. 如果沒有，請下載[Microsoft Azure儲存體總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)。
 
-      1. 在Adobe Experience Platform檔案中，請依照[將您的資料登陸區域容器連線到Azure儲存體總管](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer)中所述的步驟操作。
+      1. 在Adobe Experience Platform檔案中，請依照[將您的資料登陸區域容器連線到Azure儲存體總管](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hant#connect-your-data-landing-zone-container-to-azure-storage-explorer)中所述的步驟操作。
 
-         您可以略過[擷取資料登陸區域的認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials)和[更新資料登陸區域認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials)小節中說明的工作，因為您複製的URI包含這些認證。
+         您可以略過[擷取資料登陸區域的認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hant#retrieve-dlz-credentials)和[更新資料登陸區域認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hant#update-dlz-credentials)小節中說明的工作，因為您複製的URI包含這些認證。
 
       1. 遵循Adobe Experience Platform檔案並前往&#x200B;[!UICONTROL **Blob容器SAS URL**]&#x200B;欄位時，請貼上您在步驟3中複製的SAS URI。
 

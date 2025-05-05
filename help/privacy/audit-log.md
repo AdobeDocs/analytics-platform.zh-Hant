@@ -68,7 +68,7 @@ ht-degree: 97%
    * 建立：已執行「建立」動作。
    * 刪除：已執行「刪除」動作。
    * 編輯：已執行「編輯」動作。
-   * 禁運：當您在[報告活動管理員](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests)中限制請求時，該動作會記錄在「禁運」下的「稽核記錄」中。
+   * 禁運：當您在[報告活動管理員](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests)中限制請求時，該動作會記錄在「禁運」下的「稽核記錄」中。
    * 匯出：已執行了「匯出」動作。
    * ORG_CHANGE：已執行組織變更動作。
    * REFRESH：已執行「重新整理」動作。

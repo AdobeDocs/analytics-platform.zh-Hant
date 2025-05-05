@@ -86,7 +86,7 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 
    * **[!UICONTROL AI小幫手：資料分析]**
 
-   如需其他詳細資料，管理員可以看到[這些指示](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)。
+   如需其他詳細資料，管理員可以看到[這些指示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access)。
 
    ![AI助理圖示](/help/assets/ai-asst-icon.png)
 

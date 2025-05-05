@@ -23,7 +23,7 @@ Content Analytics的設定包含下列步驟：
 1. 只有在您[手動發佈](manual.md) Tags屬性時，才會有效部署您的Content Analytics設定，並啟動資料收集。
 
 1. 您只能使用[引導式組態](guided.md)精靈對已實作的組態進行一些微幅變更。 例如，變更[資料檢視](/help/data-views/data-views.md)。
-1. 您可以使用關聯Tags屬性中的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview)，對實作組態進行其他變更。
+1. 您可以使用關聯Tags屬性中的[Adobe Content Analytics擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview)，對實作組態進行其他變更。
 1. 只有在您[手動重新發佈](manual.md) Tags屬性時，組態修改才會有效部署，而且會根據您的變更開始資料收集。
 
 
@@ -35,9 +35,9 @@ Content Analytics的設定包含下列步驟：
 * 如果您已使用JavaScript[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/install/library){target="_blank"}實作網路SDK以進行一般行為資料收集，請確定您使用的是預設名稱<code>alloy</code> 用於JavaScript資料庫。
 * 您擁有Customer Journey Analytics產品管理員角色，並具有管理連線和管理資料檢視的其他許可權。
 * 如果您考慮收集Content Analytics體驗，請確定您根據網頁上的變更來設定和更新[Content Analytics版本設定](manual.md#versioning)。
-* 您必須擁有資料彙集[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}的許可權：
-   * [Experience Platform許可權](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
-   * [Experience Platform資料彙集許可權](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
+* 您必須擁有資料彙集[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/permissions){target="_blank"}的許可權：
+   * [Experience Platform許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
+   * [Experience Platform資料彙集許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
 * 您已仔細考量下列重要設定選項：
 
    * 您的網站適合體驗報告。 只有在符合下列條件時，才可能提供適當的體驗報表：

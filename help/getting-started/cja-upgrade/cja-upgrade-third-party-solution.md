@@ -39,7 +39,7 @@ ht-degree: 54%
 
    * 您無法從非Adobe Analytics解決方案移轉專案和元件。
 
-   * 根據您的分析解決方案，來源聯結器可能可用於擷取歷史資料。 如需詳細資訊，請參閱Experience Platform檔案中[Source聯結器總覽](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)中的[Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#analytics)。
+   * 根據您的分析解決方案，來源聯結器可能可用於擷取歷史資料。 如需詳細資訊，請參閱Experience Platform檔案中[Source聯結器總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)中的[Analytics](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home#analytics)。
 
 
 如果您需要更具體的建議、指導或支援，請聯絡您的 Adob&#x200B;&#x200B;e 代表。
