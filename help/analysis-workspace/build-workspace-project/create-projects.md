@@ -40,7 +40,7 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 
 ![Example project](assets/example-project.png)
 
-* 新增[面板](/help/analysis-workspace/c-panels/panels.md)至您的專案。例如，**[!DNL Example Panel]**➊。
+* 新增[面板](/help/analysis-workspace/c-panels/panels.md)至您的專案。例如，**[!DNL Example Panel]**&#x200B;➊。
 
 * 新增[視覺化呈現](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)至您的面板。例如：
    * **[!DNL Line Graph]** [折線圖](/help/analysis-workspace/visualizations/line.md)視覺化呈現➋

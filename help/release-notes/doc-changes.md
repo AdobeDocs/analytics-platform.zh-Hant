@@ -22,7 +22,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2025 年 4 月** | |
 | 增加完整表格匯出限制 | 客戶可將[欄數](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/export/export-cloud#comparison-of-full-table-export-in-customer-journey-analytics-to-data-warehouse-in-adobe-analytics)用於完整表格匯出，從5個維度和5個量度變更為10個維度和10個量度。 |
 | 連線 | 重寫並更新即將推出的Customer Journey B2B edition的Customer Journey Connections檔案。 |
-| 產品分析使用案例 | 已在Customer Journey Analytics](/help/use-cases/product-analysis.md)中新增[產品分析。 |
+| 產品分析使用案例 | 已在Customer Journey Analytics[&#128279;](/help/use-cases/product-analysis.md)中新增產品分析。 |
 | 共用的量度和維度 | 新增[共用量度和維度](/help/data-views/shared-metrics-dimensions/smd-overview.md)功能的檔案。 |
 | Report Builder | 已檢閱和更新[Report Builder](/help/report-builder/report-buider-overview.md)檔案。 |
 | 檢視和管理使用情況 | 已重新編寫有關如何[檢視](/help/connections/manage-connections.md#usage)和[管理](/help/technotes/estimate-usage.md) Customer Journey Analytics 使用情況的文件 |

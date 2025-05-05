@@ -32,6 +32,6 @@ ht-degree: 20%
 
 >[!MORELIKETHIS]
 >
->Customer Journey Analytics](ip-addresses.md)使用的[IP位址
+>Customer Journey Analytics[&#128279;](ip-addresses.md)使用的IP位址
 >
 >[Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

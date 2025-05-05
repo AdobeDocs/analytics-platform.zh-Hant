@@ -50,7 +50,7 @@ ht-degree: 15%
 | 17 | 321行銷活動 | 20 | 2500 | def321 | facebook | def-adgroup | 2024-07-18T18:20:39.000Z |
 | 18 | 321行銷活動 | 15 | 2250 | ghi321 | facebook | ghi-adgroup | 2024-07-18T18:20:39.000Z |
 
-[！[資料下載](/help/assets/icons/DataDownload.svg)](./assets/summary-data.csv)
+[![資料下載](/help/assets/icons/DataDownload.svg)](./assets/summary-data.csv)
 
 +++
 
@@ -369,7 +369,7 @@ ht-degree: 15%
    1. 請確定&#x200B;**[!UICONTROL 資料格式]**&#x200B;和&#x200B;**[!UICONTROL 分隔符號]**&#x200B;確實具有您範例資料的正確值。 例如，**[!UICONTROL 已分隔]**&#x200B;為&#x200B;**[!UICONTROL 資料格式]**，而&#x200B;**[!UICONTROL ，]**&#x200B;為&#x200B;**[!UICONTROL 分隔符號]**。
    1. 摘要資料的範例（10筆記錄）會顯示在&#x200B;**[!UICONTROL 範例資料]**&#x200B;中。
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
-1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 對應]**步驟中：
+1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 對應]**&#x200B;步驟中：
    ![範例資料集對應](../assets/example-dataset-mapping.png)
    1. 檢查&#x200B;**[!UICONTROL Source資料]**&#x200B;的所有資料欄位是否正確對應到結構描述中對應的&#x200B;**[!UICONTROL 目標欄位]**。 對於範例資料，不會報告錯誤，因為您明確命名了結構描述中的欄位，類似於範例資料中的欄位名稱。 否則，您可以使用此畫面來更正對應。
    1. 您可以選擇選取![齒輪](/help/assets/icons/Gear.svg) **[!UICONTROL 驗證]**&#x200B;以（再次）驗證資料。
@@ -490,7 +490,7 @@ ht-degree: 15%
 
       1. 建立新的衍生欄位，例如`Campaign Name (Lookup Derived Field)`，以確保您可以使用範例查詢資料集中的促銷活動名稱（查詢）維度在Workspace中報告。
 
-         行銷活動名稱](../aa-data/../assets/summary-derived-field.png)的![衍生欄位
+         行銷活動名稱![&#128279;](../aa-data/../assets/summary-derived-field.png)的衍生欄位
 
          1. 選取&#x200B;**[!UICONTROL 值]**&#x200B;的&#x200B;**[!UICONTROL campaign_id]**。
          1. 從&#x200B;**[!UICONTROL 查詢資料集]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 範例查詢資料集]**。
@@ -526,7 +526,7 @@ ht-degree: 15%
             1. 從&#x200B;**[!UICONTROL 回顧視窗]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 30天]**。
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 格式]**。
             1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 十進位]**。
-            1. 從▲2}將上升趨勢顯示為&#x200B;]**下拉式功能表中選取**[!UICONTROL &#x200B;良好（綠色）]**。**[!UICONTROL 
+            1. 從▲2&rbrace;將上升趨勢顯示為&#x200B;**下拉式功能表中選取**&#x200B;[!UICONTROL &#x200B;良好（綠色）]&#x200B;**。**
 
       1. 選取&#x200B;**[!UICONTROL 「儲存並繼續」]**。
 

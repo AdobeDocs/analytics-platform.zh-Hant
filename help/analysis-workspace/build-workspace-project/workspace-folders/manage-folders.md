@@ -26,13 +26,13 @@ ht-degree: 91%
 * 在[專案清單](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)中選取要重新命名的資料夾。
 
    1. 從所選取資料夾的內容選單![More](/help/assets/icons/More.svg)中可用的[動作](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions)，或是藍色動作列選取&#x200B;**[!UICONTROL 重新命名]**。
-   1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**對話框中，輸入新名稱並選取**[!UICONTROL 儲存&#x200B;]**。
+   1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**&#x200B;對話框中，輸入新名稱並選取&#x200B;**[!UICONTROL 儲存&#x200B;]**。
 
 * 在您要重新命名的資料夾中。
 
    1. 從[標題區域](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)中的![More](/help/assets/icons/More.svg)選取&#x200B;**[!UICONTROL 重新命名資料夾]**。
 
-   1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**對話框中，輸入新名稱並選取**[!UICONTROL 儲存&#x200B;]**。
+   1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**&#x200B;對話框中，輸入新名稱並選取&#x200B;**[!UICONTROL 儲存&#x200B;]**。
 
 
 ## 移動資料夾

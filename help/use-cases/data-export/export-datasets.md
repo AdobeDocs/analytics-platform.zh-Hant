@@ -92,7 +92,7 @@ ht-degree: 1%
 
 #### 提供匯出引數
 
-接下來，您必須[建立其他目標連線，再次使用[`POST /targetConection`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) API為您的資料集儲存匯出引數](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-target-connection)。 這些匯出引數包括位置、檔案格式、壓縮等等。
+接下來，您必須[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-target-connection)建立其他目標連線，再次使用[`POST /targetConection`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) API為您的資料集儲存匯出引數。 這些匯出引數包括位置、檔案格式、壓縮等等。
 
 #### 設定資料流
 

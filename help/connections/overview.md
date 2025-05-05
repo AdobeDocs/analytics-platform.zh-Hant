@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # 連線概觀
 
-連線可讓Customer Journey Analytics產品管理員建立與不同[!DNL  Experience Platform]資料來源（例如事件、查詢、設定檔及摘要資料集）的連線。 這些連線可整合從連線到衍生資料檢視的資料。 連線是Customer Journey Analytics的基礎，是從[!DNL Experience Platform]來源資料集建立的。
+連線可讓Customer Journey Analytics產品管理員建立與不同[!DNL &#x200B; Experience Platform]資料來源（例如事件、查詢、設定檔及摘要資料集）的連線。 這些連線可整合從連線到衍生資料檢視的資料。 連線是Customer Journey Analytics的基礎，是從[!DNL Experience Platform]來源資料集建立的。
 
 >[!IMPORTANT]
 >

@@ -51,7 +51,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的歷程畫布視覺效果。<br/>**Adobe Analytics** 中沒有相等的視覺效果。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的歷程畫布視覺效果。<br/>**Adobe Analytics** 中沒有相等的視覺效果。_
 
 >[!ENDSHADEBOX]
 
@@ -200,7 +200,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 * **在Journey Canvas中修改歷程會停止同步**
 
-  只有在歷程畫布](#differences-after-modifying-a-journey-in-journey-canvas)中的歷程未遭大幅修改時，對Journey Optimizer中的歷程所做的變更才會同步至歷程畫布[。 在歷程畫布中修改歷程後，您在 Journey Optimizer 中對歷程所做的任何變更都不會反映在歷程畫布中。若要查看歷程畫布中反映的變更，您可以刪除[歷程畫布中的歷程並重新建立](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
+  只有在歷程畫布[&#128279;](#differences-after-modifying-a-journey-in-journey-canvas)中的歷程未遭大幅修改時，對Journey Optimizer中的歷程所做的變更才會同步至歷程畫布。 在歷程畫布中修改歷程後，您在 Journey Optimizer 中對歷程所做的任何變更都不會反映在歷程畫布中。若要查看歷程畫布中反映的變更，您可以刪除[歷程畫布中的歷程並重新建立](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。
 
 * **使用「與任何人共用」連結時，在Journey Optimizer中完成變更後，專案必須儲存在Customer Journey Analytics中**
 

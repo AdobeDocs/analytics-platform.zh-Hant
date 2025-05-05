@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. 從主功能表選取&#x200B;**[!UICONTROL Workspace]**。
 1. 確保您已選取為Content Analytics設定的資料檢視。
-1. 搜尋或使用區段(**[!UICONTROL 頻道]**&#x200B;的&#x200B;**[!UICONTROL 網頁]**&#x200B;和[!UICONTROL 使用案例]**的**4}參與&#x200B;]**)來尋找及選取**[!UICONTROL &#x200B;內容分析&#x200B;]**範本。**[!UICONTROL 
+1. 搜尋或使用區段(**[!UICONTROL 頻道]**&#x200B;的&#x200B;**[!UICONTROL 網頁]**&#x200B;和[!UICONTROL 使用案例]&#x200B;**的**&#x200B;4&rbrace;參與&#x200B;**)來尋找及選取**&#x200B;[!UICONTROL &#x200B;內容分析&#x200B;]&#x200B;**範本。**
 1. 選取&#x200B;**[!UICONTROL 使用範本]**。
 1. 在&#x200B;**[!UICONTROL 設定範本]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 選取轉換量度]**&#x200B;對話方塊中選取量度。 例如，**[!UICONTROL 資產CTR]**。
 1. 選取&#x200B;**[!UICONTROL 繼續]**。

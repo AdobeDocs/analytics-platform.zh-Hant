@@ -32,10 +32,10 @@ Content Analytics的設定包含下列步驟：
 設定Content Analytics之前，請確定符合下列必要條件：
 
 * 您已將Content Analytics中使用之功能服務的使用者代理和IP位址加入允許清單。 要設定的使用者代理字串是： <code>AdobeFeaturization/1.0</code>。
-* 如果您已使用JavaScript](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/install/library){target="_blank"}實作[網路SDK以進行一般行為資料收集，請確定您使用的是預設名稱<code>alloy</code> 用於JavaScript資料庫。
+* 如果您已使用JavaScript[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/install/library){target="_blank"}實作網路SDK以進行一般行為資料收集，請確定您使用的是預設名稱<code>alloy</code> 用於JavaScript資料庫。
 * 您擁有Customer Journey Analytics產品管理員角色，並具有管理連線和管理資料檢視的其他許可權。
 * 如果您考慮收集Content Analytics體驗，請確定您根據網頁上的變更來設定和更新[Content Analytics版本設定](manual.md#versioning)。
-* 您必須擁有資料彙集](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}的[許可權：
+* 您必須擁有資料彙集[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"}的許可權：
    * [Experience Platform許可權](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
    * [Experience Platform資料彙集許可權](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
 * 您已仔細考量下列重要設定選項：

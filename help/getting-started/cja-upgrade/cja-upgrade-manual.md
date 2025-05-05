@@ -36,7 +36,7 @@ ht-degree: 70%
 
 您可以手動安裝Platform Web SDK，方法是直接將基底程式碼新增至實施中的每個頁面。
 
-1. 請依照[選項2：在Web SDK指南的[安裝Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk)中安裝預先建置的獨立版本](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version)一節中的步驟操作。
+1. 請依照[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version)選項2：在Web SDK指南的[安裝Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk)中安裝預先建置的獨立版本一節中的步驟操作。
 
 {{upgrade-final-step}}
 

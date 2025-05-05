@@ -45,7 +45,7 @@ Content Analytics在Experience Platform的事件資料集中使用Web影像檢�
 
 ![Content Analytics - 如何運作](assets/aca-overview.gif)
 
-1. 當使用者造訪為Content Analytics](config/configuration.md)設定的網站[時，Experience Platform Web SDK會記錄曝光次數以及與內容的互動。
+1. 當使用者造訪為Content Analytics[&#128279;](config/configuration.md)設定的網站時，Experience Platform Web SDK會記錄曝光次數以及與內容的互動。
 1. 身分和功能化服務會處理這些互動。 該程式包含擷取服務，可修訂定義互動之已設定URL的公開版本。 對於這些擷取的URL，身分識別服務會唯一識別體驗和資產。 此外，功能化服務會套用AI/ML服務，探索體驗和資產中繼資料與屬性。
 1. 這些服務（[元件、屬性和身分](/help/content-analytics/report/components.md)）的結果可用來更新Experience Platform中的相關特定內容分析資料集。
 1. 內容分析資料，連同行為資料和其他查詢資料，您可以在Customer Journey Analytics設定([連線](/help/connections/overview.md)、[資料檢視](/help/data-views/data-views.md)和[Workspace](/help/analysis-workspace/home.md))中使用。 該設定提供了對您的內容進行獨特巨集層級深入分析的基礎。 <br/>您可以使用[Content Analytics範本](/help/content-analytics/report/report.md#template)，快速開始您的Content Analytics報表和分析。
