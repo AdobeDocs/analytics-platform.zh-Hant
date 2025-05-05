@@ -34,7 +34,7 @@ ht-degree: 98%
 所有活躍使用者 (新使用者 + 重複使者 + 重新回來使用者) 在橫軸上方顯示為青色，而所有休眠使用者在橫軸下方顯示為橙色。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421667/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423392/?quality=12&learn=on&captions=chi_hant)
 
 ## 使用案例
 
