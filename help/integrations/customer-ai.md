@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: c26829d7a53e9ba8d5faf731a8a1dca2e741bf21
-workflow-type: ht
-source-wordcount: '959'
-ht-degree: 100%
+source-git-commit: ed7e9a6c34c5f8ba9ba4f75be05768409cbc158d
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 {{release-limited-testing}}
 
-[Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=zh-Hant) 是 Adobe Experience Platform Intelligent Services 的一部分，它讓行銷人員能夠產生個人層面的客戶預測。
+[Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html) 是 Adobe Experience Platform Intelligent Services 的一部分，它讓行銷人員能夠產生個人層面的客戶預測。
 
 在影響因子的協助下，Customer AI 可告知您客戶可能會有什麼行為以及原因何在。 此外，行銷人員可受益於 Customer AI 預測和洞見，藉由提供最適合的方案和訊息來打造個人化客戶體驗。
 
@@ -49,7 +49,7 @@ Customer AI 可以與 Customer Journey Analytics 整合到一定的程度，以�
 
 ## 步驟 1：設定 Customer AI 執行個體
 
-當您準備好資料及所有認證和結構描述後，請依照 Adobe Experience Platform 中的[設定 Customer AI 執行個體](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=zh-Hant)指南中的指示開始進行。
+當您準備好資料及所有認證和結構描述後，請依照 Adobe Experience Platform 中的[設定 Customer AI 執行個體](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html)指南中的指示開始進行。
 
 ## 步驟 2：設定與 Customer AI 資料集的 Customer Journey Analytics 連線
 
@@ -67,13 +67,13 @@ Customer AI 可以與 Customer Journey Analytics 整合到一定的程度，以�
 
 ![CAI 結構描述](assets/cai-schema.png)
 
-(請注意，此範例為輪廓資料集；相同一組結構描述物件將成為 Customer Journey Analytics 擷取之 Experience Event 資料集的一部分。體驗事件資料集會包含時間戳記當作評分日期。) 在此模型中被評分的每個客戶都會有與其相關的分數、評分日期等。
+(請注意，此範例為輪廓資料集；相同一組結構描述物件將成為 Customer Journey Analytics 擷取之 Experience Event 資料集的一部分。體驗事件資料集將包含時間戳記作為評分日期。) 在此模型中得分的每個客戶都會有分數、scoreDate等 評分日期等。
 
 ## 步驟 3：根據這些連線建立資料檢視
 
 現在，您可以在 Customer Journey Analytics 中繼續使用維度 (例如分數、評分日期、可能性等) 以及您在建立之連線中導入的量度來[建立資料視圖](/help/data-views/create-dataview.md)。
 
-![建立資料視圖視窗](assets/create-dataview.png)
+![建立資料檢視視窗](assets/create-dataview.png)
 
 ## 步驟 4：在 Workspace 中報告 CAI 分數
 

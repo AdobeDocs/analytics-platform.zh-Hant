@@ -5,8 +5,8 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
-workflow-type: ht
+source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Customer Journey Analytics 中的幾項功能都經過重新命名和重新設�
 
 * 您仍然可以利用 [Analysis Workspace](/help/analysis-workspace/home.md) 的強大功能來分析資料。工作區與傳統 Adobe Analytics 的工作區一樣。
 * 可以使用相同版本的 [Adobe Analytics 儀表板](/help/mobile-app/home.md)，且 Customer Journey Analytics 和 Adobe Analytics 之間運作方式類似。
-* [Report Builder](/help/report-builder/report-buider-overview.md) 具有新介面，能在 MS Windows、MacOS 和 Excel 的 Web 版本上執行。(在這個版本以前，Report Builder 無法在 Mac 上使用，除非您在 VMware 上執行。) 此版本尚不支援傳統的 AA 資料請求。
+* [Report Builder](/help/report-builder/rb-overview.md) 具有新介面，能在 MS Windows、MacOS 和 Excel 的 Web 版本上執行。(在這個版本以前，Report Builder 無法在 Mac 上使用，除非您在 VMware 上執行。) 此版本尚不支援傳統的 AA 資料請求。
 
 ## 報告的變動
 
@@ -76,7 +76,7 @@ Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包�
 
 ## 區段概念的變動
 
-嚴格來說，區段並未從 Adobe Analytics 移轉到 Customer Journey Analytics，但您可以使用元件移轉工具在 Customer Journey Analytics 中重新建立 Adobe Analytics 區段。根據對應的維度和計量在 Customer Journey Analytics 中重新建立區段。如需更多資訊，請參閱[準備將元件和專案從 Adobe Analytics 移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=zh-Hant)。
+嚴格來說，區段並未從 Adobe Analytics 移轉到 Customer Journey Analytics，但您可以使用元件移轉工具在 Customer Journey Analytics 中重新建立 Adobe Analytics 區段。根據對應的維度和計量在 Customer Journey Analytics 中重新建立區段。如需更多資訊，請參閱[準備將元件和專案從 Adobe Analytics 移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)。
 
 雖然您尚不能從 [!DNL Customer Journey Analytics] 共用或發佈[!UICONTROL 區段] ([!UICONTROL 區段]) 至 Experience Platform 統一輪廓，但此功能已正在開發中。
 

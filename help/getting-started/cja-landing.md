@@ -4,7 +4,7 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: e16bfa01dd3bedc96a147b2510ba33f4b88b01b9
+source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 94%
@@ -154,7 +154,7 @@ BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的�
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/>
-      <strong>分享、匯出、整合</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">專案</a> - <a href="/help/mobile-app/home.md">Analytics 儀表板</a> - <a href="/help/report-builder/report-buider-overview.md">Report Builder</a>  - <a href="/help/components/exports/manage-exports.md">雲端匯出</a> - <a href="/help/integrations/overview.md">整合</a>
+      <strong>分享、匯出、整合</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">專案</a> - <a href="/help/mobile-app/home.md">Analytics 儀表板</a> - <a href="/help/report-builder/rb-overview.md">Report Builder</a>  - <a href="/help/components/exports/manage-exports.md">雲端匯出</a> - <a href="/help/integrations/overview.md">整合</a>
     </td>
   </tr>
 </table>
