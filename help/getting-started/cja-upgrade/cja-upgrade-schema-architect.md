@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->下列資訊尚未完成。 這將在不久的將來完成。
+>以下資訊的內容尚未完成。其在不遠的將來便會完成。
 
 | Adobe Analytics 資料架構 | XDM 結構描述架構 |
 |---------|----------|
@@ -50,10 +50,10 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->此資訊尚未提供。 不久將推出此功能。
+>此資訊的內容尚無法使用。其會於不遠的將來推出。
 
-## 考慮您組織中使用的其他 Adob&#x200B;&#x200B;e Experience Platform 應用程式
+## 考慮您組織中使用的其他 Adobe Experience Platform 應用程式
 
 >[!NOTE]
 >
->此資訊尚未提供。 不久將推出此功能。
+>此資訊的內容尚無法使用。其會於不遠的將來推出。

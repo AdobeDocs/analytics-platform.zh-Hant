@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的同類群組表格。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[同類群組表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis)_。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的同類群組表格。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[同類群組表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis)_。_
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同類群組分析](https://video.tv.adobe.com/v/3430081/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同類群組分析](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}的示範影片。
 
 {{videoaa}}
 
@@ -64,7 +64,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同類群組分析]不支援無法設為區段的量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可以在區段中使用的量度才能用於[!UICONTROL 同類群組分析]，而且這些量度一次只能增加1。
+>[!UICONTROL 同類群組分析]不支援無法設為區段的量度 (包括計算量度)、非整數量度 (例如營收)，或者發生次數。唯有可在區段中使用的量度才能用於[!UICONTROL 同類群組分析]，且這些量度一次只能遞增 1。
 
 Customer Journey Analytics 中的同類群組表格支援雙精型 (或任何數值型) 的量度。例如，Purchase.Value (雙精度) 可用於包含/回報量度。此外，透過 Analytics 來源連接器傳遞至 Adobe Experience Platform 的所有量度皆為雙精度。
 
@@ -76,13 +76,13 @@ Customer Journey Analytics 中的同類群組表格支援雙精型 (或任何數
 
 ### [!UICONTROL 保留率]表格
 
-[!UICONTROL 保留率]同類群組表格回傳人數：每個資料儲存格顯示此同類群組中，在該時段內執行動作的原始人數和百分比。您可以包含最多 3 個量度和最多 10 個區段。
+[!UICONTROL 保留率]同類群組表格回傳人數：每個資料儲存格顯示此同類群組中，在該時段內執行動作的原始人數和百分比。您可以納入最多 3 個量度和最多 10 個區段。
 
 ![保留率同類群組報告顯示同類群組中的人員單位和百分比。](assets/retention-report.png)
 
 ### [!UICONTROL 流失率]表格
 
-[!UICONTROL 流失率]同類群組表格和保留率表格相反，會顯示在特定時間內離開或從未符合同類群組回傳條件的人員。您可以包含最多 3 個量度和最多 10 個區段。
+[!UICONTROL 流失率]同類群組表格和保留率表格相反，會顯示在特定時間內離開或從未符合同類群組回傳條件的人員。您可以納入最多 3 個量度和最多 10 個區段。
 
 ![流失率表格顯示不符合同類群組回傳標準的人員單位和百分比。](assets/churn-report.png)
 

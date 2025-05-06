@@ -1,14 +1,14 @@
 ---
-title: Customer Journey Analytics快速入門手冊
-description: 了解實作 Customer Journey Analytics 所需的必要條件和工作流程。
+title: Customer Journey Analytics 快速入門指南
+description: 了解實施 Customer Journey Analytics 所需的必要條件和工作流程。
 exl-id: cab218c0-009c-4669-9dfb-f8872a7f066b
 solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 7b824c914187854e9779ebdc51c5f5d6e77f6b16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

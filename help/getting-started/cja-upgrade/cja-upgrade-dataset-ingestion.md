@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 69%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-在您設定網頁SDK或API實作後，您需要檢查個別批次的狀態，以確認資料正在擷取到資料集中。
+設定好您的 Web SDK 或 API 實施後，您需要查看個別批次的狀態以驗證資料是否已被攝取到資料集中。
 
 1. 在 Experience Platform UI 中，選取左側導覽中的「**[!UICONTROL 監控]**」。
 
@@ -37,13 +37,13 @@ ht-degree: 69%
 
 1. 選取「**[!UICONTROL 批次端對端]**」，查看批次清單。
 
-   如果未顯示任何批次，請檢查您的實作，以確保其正確地將資料傳送至Adobe。
+   如果未顯示批次資料，請查看您的實施，以確保實施有正確地將資料傳送至 Adobe。
 
    <!-- insert screenshot -->
 
-1. 選取所指資料集的批次 ID，然後驗證「**[!UICONTROL 狀態]**」欄位中是否顯示「**[!UICONTROL 成功]**」。
+1. 選取特定資料集的批次 ID，然後驗證「**[!UICONTROL 狀態]**」欄位中是否顯示「**[!UICONTROL 成功]**」。
 
-   如果&#x200B;**[!UICONTROL 失敗]**&#x200B;顯示在&#x200B;**[!UICONTROL 狀態]**&#x200B;欄位中，請檢查您的實作，以確定其正確傳送資料至Adobe。
+   如果「**[!UICONTROL 狀態]**」欄位顯示「**[!UICONTROL 失敗]**」，請查看您的實施，以確保實施有正確地將資料傳送至 Adobe。
 
    重複此步驟來驗證每個批次的狀態。
 

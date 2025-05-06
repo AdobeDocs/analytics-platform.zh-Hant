@@ -6,13 +6,13 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# 從 Analytics 來源連接器轉換至適用於 Customer Journey Analytics 的 Web SDK {#transition-from-source-connector}
+# 從 Analytics 來源連接器轉變至適用於 Customer Journey Analytics 的 Web SDK {#transition-from-source-connector}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -34,9 +34,9 @@ ht-degree: 92%
 
 {{upgrade-note}}
 
-使用 Analytics 來源連接器作為 Customer Journey Analytics 的唯一實施方式原本就有些缺點。
+使用 Analytics 來源連接器做為 Customer Journey Analytics 的唯一實施方式有其既存的缺點。
 
-如果您的組織已僅使用Analytics來源聯結器實作升級至Customer Journey Analytics，Adobe建議轉換為新的Web SDK實作，以持續收集資料，並僅對歷史資料使用Analytics來源聯結器。
+如果您的組織僅透過 Analytics 來源連接器實施升級至 Customer Journey Analytics，Adobe 建議在持續資料收集方面改為使用新的 Web SDK 實施，唯有在歷史資料上使用 Analytics 來源連接器。
 
 ## 了解僅使用 Analytics 來源連接器的優點和缺點
 
@@ -54,7 +54,7 @@ ht-degree: 92%
 
 1. 將 Analytics 來源連接器中的每個 Adob&#x200B;&#x200B;e Analytics 維度對應到 Web SDK 結構描述中的維度。
 
-   1. &#x200B;
+   1. 
       <!-- how do you get here -->
 
    1. 在「**[!UICONTROL 對應標準欄位]**」部分中，選取「**[!UICONTROL 自訂]**」索引標籤。

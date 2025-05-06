@@ -5,15 +5,15 @@ feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
 source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # 建立註解
 
-根據預設，只有管理員才能建立註解。使用者有權檢視註解，其方式與使用者檢視其他元件的方式（例如區段、計算量度等）類似。
+根據預設，只有管理員才能建立註解。使用者有權檢視註解，類似於使用者檢視其他元件 (例如區段、計算量度等) 方式。
 
 不過，管理員可透過 Admin Console，在&#x200B;**[!UICONTROL 編輯 CJA Workspace 存取權限]**&#x200B;中為使用者提供&#x200B;**[!UICONTROL 報告工具]**&#x200B;的&#x200B;**[!UICONTROL 註解建立]**&#x200B;權限。請參閱[使用者層級存取控制](/help/technotes/access-control.md#user-level-access)，以了解更多資訊。
 
@@ -21,11 +21,11 @@ ht-degree: 78%
 
 ![Create an annotation](assets/create-annotation.png)
 
-* **A**。 在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 註解]**。 從[[!UICONTROL 註解]管理員](/help/components/annotations/manage-annotations.md)中選取![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 新增]**]。
-* **B**。 在Workspace專案中，從視覺效果的內容功能表中，選取&#x200B;**[!UICONTROL 從選取範圍建立附註]**。
-* **C**。 在Workspace專案中，從折線圖的內容功能表中，選取&#x200B;**[!UICONTROL 附註選取範圍]**。
-* **D**。 在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立附註]**。
-* **E**。  在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL ctrl+shift+o]** (Windows)或&#x200B;**[!UICONTROL shift+command+o]** (macOS)
+* **A**. 在主介面中選取「**[!UICONTROL 元件]**」，然後選取「**[!UICONTROL 註解]**」。選取「![AddCircle](/help/assets/icons/AddCircle.svg)」，從[[!UICONTROL 註解]管理員中[!UICONTROL **[!UICONTROL 新增]**]](/help/components/annotations/manage-annotations.md)。
+* **B**. 在 Workspace 專案中，從視覺效果的內容選單中，選取「**[!UICONTROL 從選取範圍中建立註解]**」。
+* **C**. 在 Workspace 專案中，從折線圖的內容選單中選取「**[!UICONTROL 註解選取]**」。
+* **D**. 在 Workspace 專案中，從選單中選取「**[!UICONTROL 元件]**」，然後選取「**[!UICONTROL 建立註解]**」。
+* **E**. 在 Workspace 專案中，使用快速鍵 **[!UICONTROL ctrl+shift+o]** (Windows) 或 **[!UICONTROL shift+command+o]** (macOS)。
 
 您可以使用[[!UICONTROL 註解產生器]](#annotation-builder)來定義註解。
 
@@ -81,7 +81,7 @@ ht-degree: 78%
    | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標記來組織註解。開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL Enter]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
    | **[!UICONTROL 套用的日期]**![Required](/help/assets/icons/Required.svg) | 選取註解要顯示時所需的日期或日期範圍。當您使用快速鍵建立註解時，註解的預設日期範圍為那一天。當您使用視覺化呈現的選項建立註解時，註解的預設日期範圍是以視覺化呈現所屬面板之日期範圍為準。 |
    | **[!UICONTROL 顏色]** | 在註解上套用顏色。註解會顯示在所選取顏色的專案中。顏色可用於將註解分類，例如，國定假日、外部活動、追蹤問題等。 |
-   | **[!UICONTROL 範圍]** | 從元件面板拖放會觸發註解的量度。例如人員、工作階段和事件。然後，從元件面板拖放作為區段的任何維度或區段，以決定是否顯示該附註。 如果您不指定範圍，註解將套用至您的所有資料。<br/>您有兩個選項︰<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發註解顯示的量度。<br/>例如，「收入」量度已停止收集指定日期範圍內的資料。將收入量度拖曳到此框中。</li><li>**[!UICONTROL 包含所有這些區段]**：拖放最多10個維度或區段，無論註解是否顯示。</li></ul><p><p>**注意：**&#x200B;套用到元件然後當作計算量度或區段定義使用的任何註解都不會自動繼承該註解。 必須將所需的計算量度也新增到範圍區段中，才能顯示該註解。不過，應該針對您想要加入相同資訊當作註解的任何區段建立新的註解。 例如，您可將註解套用到特定日子的[!UICONTROL 訂單]。然後您在相同的日期範圍中，在計算量度中使用[!UICONTROL 訂單]。新的計算量度不會自動顯示訂單的註解。也需將計算量度新增至範圍區段中，才能顯示該註解。 |
+   | **[!UICONTROL 範圍]** | 從元件面板拖放會觸發註解的量度。例如人員、工作階段和事件。然後從元件面板拖放任何維度或區段做為劃分，以確定註解顯示與否。如果您不指定範圍，註解將套用至您的所有資料。<br/>您有兩個選項︰<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發註解顯示的量度。<br/>例如，「收入」量度已停止收集指定日期範圍內的資料。將收入量度拖曳到此框中。</li><li>**[!UICONTROL 包含這所有的區段]**：最多拖放 10 個做為註解顯示時機之劃分的維度或區段。</li></ul><p><p>**請注意：**&#x200B;任何套用到元件且之後做為計算量度或區段定義一部分而使用的註解，都不會自動繼承該註解。必須將所需的計算量度也新增到範圍區段中，才能顯示該註解。不過，應該針對您想要加入相同資訊做為註解的任何區段建立新的註解。例如，您可將註解套用到特定日子的[!UICONTROL 訂單]。然後您在相同的日期範圍中，在計算量度中使用[!UICONTROL 訂單]。新的計算量度不會自動顯示訂單的註解。也需將計算量度新增至範圍區段中，才能顯示該註解。 |
    | **[!UICONTROL 套用至所有資料視圖]** | 預設情況下，註解會套用到原始的資料視圖。勾選此方塊後，您就可以將註解套用至公司的所有資料視圖。 |
 
    {style="table-layout:auto"}

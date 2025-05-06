@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1d17151b-3a12-468e-9a4f-9e5994599570
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 73%
 
 >[!AVAILABILITY]
 >
->本頁資訊已取代為下列更完整的升級資訊： <ul><li>**建議的升級步驟**<p>如需詳細資訊，請參閱[從Adobe Analytics升級為Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。</p></li><li>**Customer Journey Analytics升級指南**<p>有新的升級指南可供使用，動態產生針對貴組織和獨特環境量身打造的升級步驟。</p><p>若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。</p></li></ul>
+>此頁面上的資訊將被以下更全面的升級資訊取代： <ul><li>**建議的升級步驟**<p>如需詳細資訊，請參閱[從 Adobe Analytics 升級至 Customer Journey Analytics 的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。</p></li><li>**Customer Journey Analytics 升級指南**<p>新的升級指南現已推出，可動態產生適合您組織和獨特情況的升級步驟。</p><p>若要自 Customer Journey Analytics 存取指南，請選取「**[!UICONTROL 工作區]**」索引標籤，然後在左側面板中選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。接著按照畫面上的指示進行操作。</p></li></ul>
 
 從 Adob&#x200B;&#x200B;e Analytics 移至 Customer Journey Analytics 時，選擇以下選項之一來保留歷史資料：
 
@@ -44,13 +44,13 @@ ht-degree: 73%
 >
 >選擇如何保留歷史資料時，請聯絡您的 Adob&#x200B;&#x200B;e 客戶代表以確定價格。
 
-## 使用Analytics來源聯結器
+## 使用 Analytics 來源連接器
 
-您可以使用[Analytics來源聯結器](/help/data-ingestion/analytics.md)來保留歷史資料。 無論您選擇哪種升級路徑(即使您使用Web SDK升級)，都可使用Analytics來源聯結器保留Adobe Analytics環境的歷史資料。
+您可以使用 [Analytics 來源連接器](/help/data-ingestion/analytics.md)保留歷史資料。無論您選擇哪種升級路徑 (即便使用 Web SDK 升級)，您都可以使用 Analytics 來源連接器保留來自 Adobe Analytics 環境的歷史資料。
 
-您可以使用Analytics來源聯結器將歷史資料引進其專屬位置（與您目前的資料分開），以保留歷史資料。
+您可以使用 Analytics 來源連接器保留歷史資料，方法是將歷史資料放入與目前資料分開的專用位置。
 
-只要您需要存取歷史資料，Analytics來源聯結器就能繼續運作。
+只要您有需要存取歷史資料，Analytics 來源連接器就必須正常運作。
 
 <!-- Another possibility in the future: Map historical data in a way that allows you to tie it to your new data.  Possible? Explain -->
 

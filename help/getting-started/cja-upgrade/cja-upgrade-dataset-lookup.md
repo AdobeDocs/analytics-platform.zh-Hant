@@ -6,13 +6,13 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
 source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '806'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# 建立查詢資料集來將 Customer Journey Analytics 的資料分類 {#upgrade-lookup-dataset}
+# 建立查詢資料集將 Customer Journey Analytics 的資料分類 {#upgrade-lookup-dataset}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -109,7 +109,7 @@ ht-degree: 96%
 
 要將查詢資料集新增至 Customer Journey Analytics 中的連線：
 
-1. 在Customer Journey Analytics中，選取頂端功能表中的&#x200B;**[!UICONTROL 連線]** （選擇性的從&#x200B;**[!UICONTROL 資料管理]**）。
+1. 在 Customer Journey Analytics 的頂部選單中選取「**[!UICONTROL 連線]**」，也可以自「**[!UICONTROL 資料管理]**」選取。
 
 1. 選取「![更多圖示](assets/More.svg)」(在您要新增查詢資料集的連線旁邊)，然後選取「**[!UICONTROL 編輯]**」。
 
@@ -127,7 +127,7 @@ ht-degree: 96%
 
 1. 使用「**[!UICONTROL 金鑰]**」欄位和「**[!UICONTROL 匹配金鑰]**」欄位，在查詢資料集中的欄位與事件或摘要資料集中的欄位之間建立關聯。
 
-1. 重複此程式，直到所有查詢資料集都新增到Customer Journey Analytics中的連線為止。
+1. 重複此過程，直到所有查詢資料集都新增至 Customer Journey Analytics 的連線中。
 
 {{upgrade-final-step}}
 

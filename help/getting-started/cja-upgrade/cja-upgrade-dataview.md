@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
 source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 90%
 
 若要建立資料檢視：
 
-1. 登入[Customer Journey Analytics](https://analytics.adobe.com)，並選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
+1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 然後選取「**[!UICONTROL 資料檢視]**」，也可以自頂部選單中選取「**[!UICONTROL 資料管理]**」。
 
 1. 選取「**[!UICONTROL 建立新的資料檢視]**」。或者，您可以從資料檢視清單中選取現有資料檢視進行編輯。
 
@@ -51,7 +51,7 @@ ht-degree: 90%
 
    有關新增元件至資料檢視時可用選項的詳細資訊，請參閱「[建立或編輯資料檢視](/help/data-views/create-dataview.md)」中的「[元件](/help/data-views/create-dataview.md#components)」。
 
-1. 選取「[!UICONTROL **設定**]」索引標籤。從這裡，您可以設定區段以套用至整個資料檢視，並設定工作階段逾時和量度。
+1. 選取「[!UICONTROL **設定**]」索引標籤。在這裡，您可以設定區段以套用於您的整個資料檢視，並且設定工作階段逾時和量度。
 
    有關進行資料檢視設定時可用選項的詳細資訊，請參閱「[建立或編輯資料檢視](/help/data-views/create-dataview.md)」中的「[設定](/help/data-views/create-dataview.md#settings)」。
 

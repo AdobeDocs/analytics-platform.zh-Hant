@@ -5,9 +5,9 @@ feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
 source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的媒體同時檢視者面板。<br/>_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 版本的[媒體同時檢視者面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)。_
+_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ 中的媒體同時檢視者面板。<br/>_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本的[媒體同時檢視者面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)。_
 
 >[!ENDSHADEBOX]
 
@@ -82,7 +82,7 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 | **[!UICONTROL 面板日期範圍]** | 面板的日期範圍預設為「今天」。您可編輯為一次檢視一天或多個月。<br> <br>此視覺效果僅限 1440 列資料 (例如以分鐘為最小單位測量 24 小時)。如果日期範圍和詳細程度組合結果超過 1440 行，則詳細程度會自動更新以符合完整的日期範圍。 |
 | **[!UICONTROL 詳細程度]** | 詳細程度的預設為「分鐘」。<br>此視覺效果僅限 1440 列資料 (例如以分鐘為最小單位測量 24 小時)。如果日期範圍和詳細程度組合結果超過 1440 行，則詳細程度會自動更新以符合完整的日期範圍。 |
 | **[!UICONTROL 面板摘要數字]** | 若要查看同時檢閱者的日期或時間詳細資訊，可使用累加數。「最大值」是顯示尖峰同時檢閱的詳細資訊。**[!UICONTROL 最小值]**&#x200B;會顯示低谷期的詳細資訊。面板預設僅會顯示「最大值」，但您可變更為顯示「最小值」或「最大值和最小值」兩者。<br><br>如果您使用劃分功能，每項會顯示累加數。 |
-| **[!UICONTROL 序列劃分]** | 您可視需要將視覺效果按區段、維度、維度項目或日期範圍劃分。<br>您一次最多可檢視 10 行。劃分限於單一層級。<br>拖曳維度時，系統將根據選取面板日期範圍自動選取最熱門的維度項目。<br>若要比較日期範圍，請將2個或多個日期範圍拖放到序列劃分割槽段中。 |
+| **[!UICONTROL 序列劃分]** | 您可視需要將視覺效果依照區段、維度、維度項目或日期範圍劃分。<br>您一次最多可檢視 10 行。劃分限於單一層級。<br>拖曳維度時，系統將根據選取面板日期範圍自動選取最熱門的維度項目。<br>若要比較日期範圍，請將 2 個或多個日期範圍拖放到序列劃分區段。 |
 
 以下為&#x200B;**[!UICONTROL 僅包含最大值]**&#x200B;摘要數字的「**[!UICONTROL 分鐘]**」詳細程度的面板設定範例。並根據&#x200B;**[!UICONTROL 其他]**、**[!UICONTROL 表格]**、**[!UICONTROL 行動電話]**、**[!UICONTROL 遊戲主機]**、**[!UICONTROL 媒體播放器]**、**[!UICONTROL 電視盒]**、**[!UICONTROL 電視]**&#x200B;進行劃分。
 
@@ -116,7 +116,7 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 |---|---|
 | 自由表格在哪裡？我如何可看到資料來源？ | 本檢視中無法使用自由表格。您可以從折線圖內容選單下載資料來源，然後選取「**[!UICONTROL 將資料下載為 CSV]**」。 |
 | 我的詳細程度為何會變更？ | 此視覺效果僅限 1440 列資料 (例如以分鐘為最小單位測量 24 小時)。如果日期範圍和詳細程度組合結果超過 1440 列，則詳細程度會自動更新以符合完整的日期範圍。<br><br>從較大的日期範圍變更至較小的日期範圍時，一旦日期範圍變更，詳細程度將更新至允許的最低詳細程度。若要查看更高的詳細程度，請編輯面板並重建。 |
-| 如何比較影片名稱、區段、內容型別等？ | 若要在單一視覺效果中比較這些專案，請將區段、維度或特定維度專案拖曳至系列劃分割槽段中。<br><br>此檢視限於 10 項劃分。若要檢視超過 10 項，您必須使用多個面板。 |
+| 我該如何比較影片名稱、區段、內容類型和其他內容？ | 若要在單一視覺效果中比較這些項目，可將區段、維度或特定維度項目拖曳至序列劃分區段內。<br><br>此檢視限於 10 項劃分。若要檢視超過 10 項，您必須使用多個面板。 |
 | 我如何比較日期範圍？ | 若要比較單一視覺效果中的日期範圍，可拖動 2 個或多個日期範圍並使用序列劃分篩選器。此日期範圍將覆寫面板日期範圍。 |
 | 如何改變視覺效果類型？ | 此面板僅允許進行時間序列的線圖視覺效果。 |
 | 我是否可執行異常偵測？ | 否。 異常偵測不適用於此面板。 |

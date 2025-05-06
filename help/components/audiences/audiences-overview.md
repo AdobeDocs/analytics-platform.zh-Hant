@@ -5,9 +5,9 @@ exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
 source-git-commit: 9393be88ab7320adb5bd046701667f638673af5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 * 將客群用在 Adobe Journey Optimizer 中的歷程。
 * 透過 Experience Platform 目的地功能，將客群匯出給第三方。
 * 使用衍生自 Customer Journey Analytics 中事件型資料的有用屬性，來擴充即時客戶設定檔。
-* 在發佈客群後以最小的延遲完成所有這些動作。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)
+* 在發佈客群後以最小的延遲完成所有這些動作。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
 * 發佈一次性客群或重複客群。
 
 您在 Customer Journey Analytics 中建立的客群不一定要以個人資料啟用的資料集為主。您可以將歷史資料攝取至 Experience Platform，而無需啟用設定檔的關聯資料集和模式。然後使用這些資料集在 Customer Journey Analytics 中探索有關的客群，並將這些客群發佈到 Experience Platform 中的即時客戶設定檔以進行啟動。
@@ -29,7 +29,7 @@ ht-degree: 87%
 
 **客群**：一個身分識別組合或清單，其中包含命名空間和與命名空間有關的特定 ID。 對象可以從 Adobe Experience Platform 或位於其上層的應用程式 (例如 Customer Journey Analytics) 中進行傳輸。 客群可包含混合的命名空間。
 
-**區段**：一組規則，用來評估一段時間的資料組合時，會產生資料子集。 搭配其他支援服務時，區段可用於建立對象流程。 區段是在Customer Journey Analytics中定義和維護。
+**區段**：一組規則，用於評估一個時段內的資料集時會產生資料子集。搭配其他支援服務時，區段可用於建立客群。區段在 Customer Journey Analytics 中進行定義和維護。
 
 ## 權限
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 
 ## 資料控管和同意
 
-當您在 Customer Journey Analytics 中發佈對象時，將記錄附加到對象中使用之欄位的資料控管標籤和策略。在任何 Adobe Experience 應用程式中啟用客群後，所有相關的資料控管標籤和策略都可供該客群使用，並且可套用適當的強制執行。[進一步瞭解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy)。
+當您在 Customer Journey Analytics 中發佈對象時，將記錄附加到對象中使用之欄位的資料控管標籤和策略。在任何 Adobe Experience 應用程式中啟用客群後，所有相關的資料控管標籤和策略都可供該客群使用，並且可套用適當的強制執行。[進一步瞭解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)。
 
 ## 後續步驟
 

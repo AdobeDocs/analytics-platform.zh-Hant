@@ -6,13 +6,13 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 94a2bf2f-ad84-4f35-af8f-b8a5d9e5c607
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
 
-# 了解升級至 Customer Journey Analytics 時的 Web SDK 實作選項 {#web-sdk-implementation-options}
+# 了解升級至 Customer Journey Analytics 時的 Web SDK 實施選項 {#web-sdk-implementation-options}
 
 <!-- markdownlint-disable MD034 -->
 

@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-marketing-channel"
 >title="建立行銷管道衍生欄位"
->abstract="衍生欄位是在資料檢視中建立。<br><br>使用預設行銷管道設定只需幾分鐘；建立高度自訂的行銷管道設定可能需要數小時。"
+>abstract="衍生欄位是在資料視圖中所建立。<br><br>使用預設行銷管道設定只需幾分鐘；建立高度自訂的行銷管道設定可能需要數小時。"
 
 <!-- markdownlint-enable MD034 -->
 

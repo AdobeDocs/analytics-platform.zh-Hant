@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: fd3b36ab-72c1-469a-b2c7-419813c82425
 source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 84%
 
 >[!AVAILABILITY]
 >
->本頁資訊已取代為下列更完整的升級資訊： <ul><li>**建議的升級步驟**<p>如需詳細資訊，請參閱[從Adobe Analytics升級為Customer Journey Analytics時的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。</p></li><li>**Customer Journey Analytics升級指南**<p>有新的升級指南可供使用，動態產生針對貴組織和獨特環境量身打造的升級步驟。</p><p>若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。</p></li></ul>
+>此頁面上的資訊將被以下更全面的升級資訊取代： <ul><li>**建議的升級步驟**<p>如需詳細資訊，請參閱[從 Adobe Analytics 升級至 Customer Journey Analytics 的建議路徑](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。</p></li><li>**Customer Journey Analytics 升級指南**<p>新的升級指南現已推出，可動態產生適合您組織和獨特情況的升級步驟。</p><p>若要自 Customer Journey Analytics 存取指南，請選取「**[!UICONTROL 工作區]**」索引標籤，然後在左側面板中選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。接著按照畫面上的指示進行操作。</p></li></ul>
 
 Customer Journey Analytics 是下一代的分析產品。此功能允多管道資料彙集 (線上和離線資料)，結合強大的報表時間處理功能 (透過在資料檢視中定義元件和衍生欄位)。
 
@@ -34,7 +34,7 @@ Customer Journey Analytics 是下一代的分析產品。此功能允多管道�
 
 * [資料檢視中的報告時間轉換](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md#customer-journey-analytics-data-views)
 
-  Customer Journey Analytics 中的資料檢視可讓您進一步詮釋來自連線的資料。您可以在不變更實作的情況下變更或移除資料、使用子字串來操作維度、從任何值建立量度、劃分事件或使用衍生欄位。 以上所有轉換都是非破壞性。
+  Customer Journey Analytics 中的資料檢視可讓您進一步詮釋來自連線的資料。您可以變更或移除資料而無需變更實施、使用子字串操作維度、從任何值建立量度、區段子事件，或使用衍生欄位。以上所有轉換都是非破壞性。
 
 * [轉換適用於歷史資料和新資料](/help/getting-started/aa-vs-cja/vrs-dataview-sandbox-adc.md)
 

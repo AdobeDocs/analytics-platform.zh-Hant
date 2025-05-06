@@ -5,9 +5,9 @@ role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
 source-git-commit: 7c906e30d54362713f5013c8661ee523938d4b0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 88%
 
 ## 身分識別設定的差異
 
-Real-time CDP 和 Customer Journey Analytics 目前對個人的定義不同。Real-time CDP 完全仰賴[身分識別圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=zh-Hant)中的資訊來建立合併的輪廓。
+Real-time CDP 和 Customer Journey Analytics 目前對個人的定義不同。Real-time CDP 完全仰賴[身分識別圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html)中的資訊來建立合併的輪廓。
 
-Customer Journey Analytics可設定為使用[拼接](../stitching/overview.md)。 如果您使用[依欄位彙整](/help/stitching/fbs.md)作為拼接機制，則需從資料湖的資料集指定識別碼，以拼接該資料集中的資料，並使用改良的合併設定檔來提升資料集。 如果您使用[以圖表為基礎的彙整](/help/stitching/gbs.md)做為彙整機制，則類似的程式會根據指定的身分名稱空間使用身分圖表。
+Customer Journey Analytics 可以設定為使用[拼接](../stitching/overview.md)。若您使用[欄位式拼接](/help/stitching/fbs.md)做為拼接機制，可以從資料湖中的資料集指定一個識別碼來拼接該資料集中的資料，目的是透過改進的合併輪廓來提升資料集。若您使用[圖表式拼接](/help/stitching/gbs.md)做為拼接機制，則類似的過程是使用根據指定命名空間的身分識別圖。
 
 
 ## 資料集設定的差異
@@ -33,7 +33,7 @@ Customer Journey Analytics可設定為使用[拼接](../stitching/overview.md)�
 
 Customer Journey Analytics 允許在查詢時進行廣泛的資料修改，例如合併欄位、分割欄位，以及其他像是包含/排除、子字串、重複值刪除、工作階段化及資料列層級篩選等操作。
 
-Real-time CDP 提供一組不同的資料操作工具。它會套用[合併原則](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=zh-Hant)以判斷哪些資料將會被優先處理，以及將合併哪些資料以建立個人的統一檢視。
+Real-time CDP 提供一組不同的資料操作工具。它會套用[合併原則](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html)以判斷哪些資料將會被優先處理，以及將合併哪些資料以建立個人的統一檢視。
 
 ## TTL (存留時間) 與資料擷取的差異
 

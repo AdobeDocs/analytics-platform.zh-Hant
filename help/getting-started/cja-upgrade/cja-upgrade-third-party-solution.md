@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -25,22 +25,22 @@ ht-degree: 54%
 
 {{upgrade-note}}
 
-建議的從Adobe Analytics以外的分析解決方案升級為Customer Journey Analytics的程式，是Experience Platform Web SDK的新實作，這是Customer Journey Analytics慣用的資料收集方法。 結合 Web SDK 後，Adobe 也建議將第三方分析解決方案的歷史資料攝取至 Adob&#x200B;&#x200B;e Experience Platform。
+從 Adobe Analytics 以外的解決方案升級至 Customer Journey Analytics 的推薦流程是 Experience Platform Web SDK 的新實施，這是較適合 Customer Journey Analytics 的資料收集方法。結合 Web SDK 後，Adobe 也建議將第三方分析解決方案的歷史資料攝取至 Adob&#x200B;&#x200B;e Experience Platform。
 
 <!-- After you have enough historical data using the Experience Platform Web SDK and you have fully transitioned to Customer Journey Analytics, the Analytics source connector can be turned off and the Web SDK can be used exclusively. -->
 
 從第三方分析解決方案 (如 Google Analytics) 移動至 Customer Journey Analytics 時，請使用下列流程：
 
-1. 請依照[詳細的建議升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps)操作。
+1. 請依循[詳細的建議升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps)執行。
 
-   這些步驟適用於從Adobe Analytics升級的組織。 依照下列步驟操作時，請瞭解下列內容：
+   這些步驟適合從 Adobe Analytics 升級的組織。執行這些步驟時，請了解以下內容：
 
-   * 您必須建立資料串流。
+   * 您必須建立一個資料流。
 
-   * 您無法從非Adobe Analytics解決方案移轉專案和元件。
+   * 您無法從非 Adobe Analytics 解決方案移轉專案和元件。
 
-   * 根據您的分析解決方案，來源聯結器可能可用於擷取歷史資料。 如需詳細資訊，請參閱Experience Platform檔案中[Source聯結器總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)中的[Analytics](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home#analytics)。
+   * 根據您的分析解決方案，可能會有一個來源連接器可用於攝取歷史資料。如需詳細資訊，請參閱 Experience Platform 文件中[來源連接器概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)內的[分析](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home#analytics)。
 
 
-如果您需要更具體的建議、指導或支援，請聯絡您的 Adob&#x200B;&#x200B;e 代表。
+如果您需要更具體的建議、指引或支援，請聯絡您的 Adobe 代表。
 

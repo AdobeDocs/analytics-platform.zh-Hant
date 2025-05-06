@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1078'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * 您可以套用格式至量度，例如顯示小數、時間、百分比或貨幣；指定小數位；呈綠色或紅色上升趨勢；以及指定貨幣選項。
 
-* 您只能根據結構描述欄位&#x200B;中的某些值來建立量度或維度。例如，如果您想要「Errors」量度，則可從頁面名稱欄位建立量度，但僅包括任何包含單字 `error` 的頁面。以這種方式建立的「錯誤」量度可支援區段、插入計算量度中，並可與歸因、流量、流失等搭配使用。
+* 您只能根據結構描述欄位&#x200B;中的某些值來建立量度或維度。例如，如果您想要「Errors」量度，則可從頁面名稱欄位建立量度，但僅包括任何包含單字 `error` 的頁面。依此建立的 Errors 量度支援區段、可插入至計算量度，並可與歸因、流量、流失等搭配使用。
 
 * 對於維度，您可以&#x200B;在特定欄位&#x200B;中自動包含或排除特定值。例如，如果開發人員將錯誤的 `dev mistake` 值傳送到欄位中，您可以使用排除規則輕鬆地將其從報告中排除。該維度的行為就像資料中從未存在過錯誤值一樣。
 

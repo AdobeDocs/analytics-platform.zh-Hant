@@ -5,9 +5,9 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
 source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2320'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -71,9 +71,9 @@ ht-degree: 77%
 
    | 建立方法 | 詳細資料 |
    | --- | --- |
-   | 從&#x200B;**[!UICONTROL 對象]**&#x200B;介面中 | 從 Customer Journey Analytics 選單中，選取「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」。客群介面會顯示。選取「**[!UICONTROL 建立對象]**」，[!UICONTROL 對象產生器]隨即開啟。 |
-   | 從 Analysis Workspace 中的視覺效果 | Analysis Workspace 中的許多視覺效果可讓您使用內容選單建立客群。例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)一個項目或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)一個節點的內容選單中選取「**[!UICONTROL 建立客群]**」。<p>此方法會使用您選取的維度或維度專案預先填入對象產生器中的區段。</p><p>以下視覺效果可讓您使用滑鼠右鍵功能表建立客群：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：** 客群不能包含計算量度。如果您嘗試建立包含計算量度的客群，則該計算量度不會包含在客群定義中。</p> |
-   | 從區段建立/編輯UI | 勾選顯示&#x200B;**[!UICONTROL 從此區段建立對象]**&#x200B;的方塊。 使用此方法預先填入區段。 如需詳細資訊，請參閱[建立區段](/help/components/filters/create-filters.md)。 |
+   | 從&#x200B;**[!UICONTROL 客群]**&#x200B;介面內 | 從 Customer Journey Analytics 選單中，選取「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」。客群介面會顯示。選取「**[!UICONTROL 建立客群]**」，然後[!UICONTROL 客群產生器]會開啟。 |
+   | 從 Analysis Workspace 中的視覺效果 | Analysis Workspace 中的許多視覺效果可讓您使用內容選單建立客群。例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)一個項目或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)一個節點的內容選單中選取「**[!UICONTROL 建立客群]**」。<p>使用此方法會以您選取的維度或維度項目，在客群產生器中預先填入區段。</p><p>以下視覺效果可讓您使用滑鼠右鍵功能表建立客群：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：** 客群不能包含計算量度。如果您嘗試建立包含計算量度的客群，則該計算量度不會包含在客群定義中。</p> |
+   | 從區段建立/編輯使用者介面 | 勾選顯示「**[!UICONTROL 藉由此區段建立客群]**」的方塊。使用此方法預先填入區段。如需詳細資訊，請參閱[建立區段](/help/components/filters/create-filters.md)。 |
 
    {style="table-layout:auto"}
 
@@ -100,7 +100,7 @@ ht-degree: 77%
 | **[!UICONTROL 標記]** | 為組織目的而要指派給客群的任何標記。您可以選取一個或多個預先存在的標記，也可以輸入一個新標記。 |
 | **[!UICONTROL 說明]** | 客群的說明，用來其他客群區分開來。例如， `Build an audience of really interested potential car buyers` |
 | **[!UICONTROL 重新整理頻率]** | 您想要重新整理客群的頻率。<p/>您可在二者之間選擇： <ul><li>**[!UICONTROL 一次性]**&#x200B;客群：無需重新整理的客群 (預設)。例如，此選項可能適合用於特定一次性行銷活動。<br/>您必須指定&#x200B;**[!UICONTROL 一次性日期範圍]**。您可以使用![行事曆](/help/assets/icons/Calendar.svg)來輸入日期範圍。</li><li>重新整理客群。您可選取下列選項：<ul><li>**[!UICONTROL 每 4 小時]**：每 4 小時重新整理一次的客群。</li><li>**[!UICONTROL 每日]**：每日重新整理一次的客群</li><li>**[!UICONTROL 每週]**：每週重新整理一次的客群。</li><li>**[!UICONTROL 每月]**：每月重新整理一次的客群</li></ul></li>為了重新整理客群，您必須指定：<ul><li>**[!UICONTROL 重新整理回顧期間]**。定義從評估客群的今天所開始的回顧天數。您可以從選項中選取或定義自訂時間。最長 90 天。</li><li>**[!UICONTROL 到期日]**：定義客群停止重新整理的時間。您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期。預設到期日是從建立日期算起的 1 年後。到期客群與到期排程報告的處理方式類似。管理員會在客群到期前的一個月收到一封電子郵件。</li></ul> 請注意，客群重新整理次數限制為 75 到 150 次，具體取決於您的 Customer Journey Analytics 授權權利。</li></ul> |
-| **[!UICONTROL 篩選器]** | 篩選條件是客群的主要輸入項目。從左側![區段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;面板拖放一或多個區段至「區段」區域。 您可以使用![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *搜尋區段*]&#x200B;來搜尋區段。 您最多可以新增20個區段。 可以使用&#x200B;**[!UICONTROL And]**&#x200B;或&#x200B;**[!UICONTROL Or]**&#x200B;運運算元聯結區段。<p>從Analysis Workspace中的視覺效果（例如自由表格或歷程畫布）建立受眾時，套用至面板或欄的任何區段都會保留。 您可以移除任何自動套用的區段。</p> |
+| **[!UICONTROL 篩選器]** | 篩選條件是客群的主要輸入項目。將一個或多個區段從左側的 ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;面板拖放至區段區域。您可以使用 ![Search](/help/assets/icons/Search.svg) [!UICONTROL *搜尋區段*]&#x200B;來搜尋區段。您可以新增最多 20 個區段。區段可以使用 **[!UICONTROL And]** 或 **[!UICONTROL Or]** 等運算子來連接。<p>從 Analysis Workspace 中的視覺效果 (例如自由格式表格或歷程畫布) 建立客群時，套用於面板或資料欄的任何區段都會保留。您可以移除任何自動套用的區段。</p> |
 | **[!UICONTROL 資料預覽]** | 選取「![資訊](/help/assets/icons/Info.svg)」以顯示或隱藏所選日期範圍的[資料預覽](#data-preview)。 |
 
 ## 資料預覽
@@ -146,7 +146,7 @@ ht-degree: 77%
 
 ## 在 Experience Platform 中使用 Customer Journey Analytics 客群 {#audiences-aep}
 
-Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和ID組合，並將它們串流至Real-Time Customer Data Platform。 Customer Journey Analytics 會將客群傳送到有主要身分設定的 Experience Platform；這是根據設定連線時選取作為[!UICONTROL 個人 ID] 的身分設定。
+Customer Journey Analytics 現在會從您發佈的客群中取得所有命名空間和 ID 組合，並將其串流傳送至 Real-Time Customer Data Platform。Customer Journey Analytics 會將客群傳送到有主要身分設定的 Experience Platform；這是根據設定連線時選取作為[!UICONTROL 個人 ID] 的身分設定。
 
 接著 Real-Time Customer Data Platform 會檢查每個命名空間/ID 組合，並尋找它可能屬於的個人檔案。設定檔基本上是一組連結的命名空間、ID 和裝置。如果找到個人檔案，則會將命名空間和 ID 新增到此個人檔案中的其他 ID，做為區段會籍屬性。例如，現在在所有裝置和頻道都可以 <user@adobe.com> 為目標。如果找不到設定檔，則會建立一個新的。
 
@@ -168,40 +168,40 @@ Customer Journey Analytics會從您發佈的對象中取得所有名稱空間和
 
 有關在 Platform 中使用客群的更多資訊，請參閱 Experience Platform 文件中「[客戶細分工具使用者介面指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder)」的「[客群](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder)」部分。
 
-### 瞭解對象計數的差異
+### 了解客群計數差異
 
-Customer Journey Analytics和Real-Time Customer Data Platform之間可能會出現對象計數差異。
+Customer Journey Analytics 和 Real-Time Customer Data Platform 之間可能會出現客群計數差異。
 
 <!--
 ![Infographic on audience differences between Customer Journey Analytics and Real-Time CDP.](/help/components/audiences/assets/infographic-cja-rtcdp.png)
 -->
 
-#### 預估與確定性計數
+#### 預估計數與確定計數
 
-兩個應用程式計算對象會籍數的方法有所不同，如下所述。
+兩個應用程式計算客群會籍數量的方法有所不同，如下所述。
 
-* **Customer Journey Analytics**： Customer Journey Analytics中的&#x200B;**[!UICONTROL 總人數]**&#x200B;量度是預估值。 這表示此計數是根據對象規則的估計值，並且可能在重新整理間隔之間變更。
-* **Real-Time Customer Data Platform**： Real-Time Customer Data Platform中的計數是決定性的，以每日評估工作為基礎，並在對象完成發佈至對象入口網站時修正。
+* **Customer Journey Analytics**：Customer Journey Analytics 中的&#x200B;**[!UICONTROL 總人數]**&#x200B;是一個預估值。這表示計數是根據客群規則進行的預估值，並且在重新整理間隔之間可能會有所變更。
+* **Real-Time Customer Data Platform**：Real-Time Customer Data Platform 中的計數是確定的，以每日的評估工作為基礎，並固定為客群完成向客群入口網站發佈的時間點。
 
 #### 發佈間隔和速率
 
-對象以每秒1500筆記錄(RPS)的速率發佈到Real-Time Customer Data Platform。 例如，擁有2,000萬名成員的對象將需約3.7小時才能完全發佈（2,000萬/1,500 RPS/3,600秒/小時）。 在這段期間，這兩個應用程式的對象會籍可能會有所不同。
+客群以 1500 筆記錄/每秒 (RPS) 的速率發佈至 Real-Time Customer Data Platform。例如，擁有 2000 萬會員的客群大約需要 3.7 小時才能完全發佈完畢 (20M / 1500 RPS / 每小時 3600 秒)。於此情況下，兩個應用程式的客群會籍數量可能會有所不同。
 
-#### 設定檔片段
+#### 輪廓片段化
 
-如果從Customer Journey Analytics匯入的設定檔已存在於Real-Time Customer Data Platform中，則不會計為新的設定檔。 這可能會導致Real-Time Customer Data Platform中的設定檔計數低於預期。
+從 Customer Journey Analytics 匯入的輪廓若已存在於 Real-Time Customer Data Platform 中，則不會計為新輪廓。這可能導致 Real-Time Customer Data Platform 中的輪廓計數低於預期。
 
-#### 批次與串流對象
+#### 批次客群與串流客群
 
-Customer Journey Analytics對象不會包含在每日批次評估工作中，並在下次發佈間隔前保持固定。 相反地，Real-Time Customer Data Platform中的其他批次對象每24小時會重新評估一次。
+Customer Journey Analytics 客群不包括在每日批量評估工作中，並且會維持不變，直到下一個發佈間隔。相對地，Real-Time Customer Data Platform 中的其他批次客群每 24 小時便會重新評估一次。
 
-### 要記住的關鍵要點
+### 應記住的關鍵重點
 
-* **Customer Journey Analytics中的預估計數**：瞭解Customer Journey Analytics中的&#x200B;**[!UICONTROL 總人數]**&#x200B;計數是預估值，可能會因串流資料和身分識別行為而有所不同。
-* **Real-Time Customer Data Platform中的確定性計數**： Real-Time Customer Data Platform中的計數是固定的，在下次發佈間隔之前不會變更。
-* **設定檔片段**：請注意，從Customer Journey Analytics匯入時，Real-Time Customer Data Platform中的現有設定檔可能不會貢獻新的設定檔計數。
+* **Customer Journey Analytics 中的預估計數**：了解 Customer Journey Analytics 中的&#x200B;**[!UICONTROL 總人數]**&#x200B;計數為預估值，且可能因串流資料和身分行為而有所不同。
+* **Real-Time Customer Data Platform 中的確定計數**：Real-Time Customer Data Platform 中的計數是固定的，直到下一個發佈間隔才會變更。
+* **輪廓片段化**：應注意，從 Customer Journey Analytics 匯入時，Real-Time Customer Data Platform 中的現有輪廓可能不會計入新的輪廓計數。
 
-透過清楚區分這些方面，您就能在Customer Journey Analytics和Real-Time Customer Data Platform中更好地瞭解和管理受眾資料。—>
+明確區別這些方面的差異後，您便能更加了解 Customer Journey Analytics 和 Real-Time Customer Data Platform 兩者間的客群資料，並達到更好的管理。--->
 
 ## 常見問題 {#faq}
 

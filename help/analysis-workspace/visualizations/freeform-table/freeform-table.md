@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的自由格式表格視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[自由格式表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table)_。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的自由格式表格視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[自由格式表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table)_。_
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ## 自由表格產生器
 
-如果您偏好先將數個元件新增至表格，然後再轉譯資料，您可以選取「**[!UICONTROL 啟用表格產生器]**」。啟用產生器後，您可以拖放維度、劃分、量度和區段來建立可回答更複雜問題的表格。 一旦您選取「**[!UICONTROL 建置]**」，資料就會進行更新。
+如果您偏好先將數個元件新增至表格，然後再轉譯資料，您可以選取「**[!UICONTROL 啟用表格產生器]**」。啟用產生器後，您可以拖放維度、劃分、量度和區段，藉以建置回答更為複雜之問題的表格。一旦您選取「**[!UICONTROL 建置]**」，資料就會進行更新。
 
 ![自由格式表格產生器顯示](assets/table-builder.png)
 
@@ -56,15 +56,15 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ### 篩選和排序
 
-* 您可以[對資料表內的資料分段並排序](filter-and-sort.md)。
+* 您可以[劃分和排序](filter-and-sort.md)表格中的資料。
 
 ### 資料列
 
 * 您可以使用 ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg)，從一列或多列快速[建立新的視覺效果](../freeform-analysis-visualizations.md#visualize)。
 * 您可以調整專案的[檢視密度](/help/analysis-workspace/build-workspace-project/view-density.md)，在單一畫面中放入更多列。
 * 分頁之前，每個維度列最多可顯示 400 列。請選取第一欄標題中&#x200B;**[!UICONTROL 行]**&#x200B;旁邊的數字，以在頁面上顯示更多列。使用第一欄標題中的 ![ChevronRight](/help/assets/icons/ChevronRight.svg)，導覽至不同頁面。
-* 您可以根據其他元件劃分列。若要一次劃分許多列，請選取多個列，然後將下一個元件拖曳至選取列的頂端。進一步了解[劃分](/help/components/dimensions/t-breakdown-fa.md)。
-* 資料列可以是[分段](/help/components/filters/filters-overview.md)，以顯示縮減的專案集。 [「列設定」](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)底下提供其他設定。
+* 您可以根據其他元件劃分列。若要一次劃分許多列，請選取多個列，然後將下一個元件拖曳至選取列的頂端。了解更多關於[劃分](/help/components/dimensions/t-breakdown-fa.md)的資訊。
+* 您可以[劃分](/help/components/filters/filters-overview.md)列，以顯示縮減的項目集。[列設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)之下有提供其他設定。
 
 ### 資料欄
 
@@ -97,13 +97,13 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 | 選項 | 說明 |
 | --- | --- |
-| **[!UICONTROL 插入複製的視覺效果]**&#x200B;n | 將複製的視覺效果貼上 (插入) 至專案內另一個位置或完全不同的專案中。 |
+| **[!UICONTROL 插入複製的視覺效果]**n | 將複製的視覺效果貼上 (插入) 至專案內另一個位置或完全不同的專案中。 |
 | **[!UICONTROL 複製資料至剪貼簿]** | 從視覺效果複製資料至剪貼簿。 |
 | **[!UICONTROL 複製選取項目至剪貼簿]** | 從視覺效果將選取項目複製至剪貼簿。 |
 | **[!UICONTROL 將項目下載為 CSV (*維度名稱*)]** | 立即將視覺效果的維度項目 (最多 50,000 個) 下載至您的本機裝置。選取維度的最大維度項目數為 50,000。 |
 | **[!UICONTROL 複製視覺效果]** | 複製視覺效果，以便於您將其插入至專案內另一個位置或完全不同的專案中。 |
 | **[!UICONTROL 下載資料為 CSV 檔]** | 將視覺效果顯示的資料立即下載至本機裝置。 |
-| **[!UICONTROL 匯出完整資料表……]** | 將完整表格匯出到指定的雲端位置。請參閱「[將 Customer Journey Analytics 報告匯出至雲端](../../export/export-cloud.md)」 |
+| **[!UICONTROL 匯出完整表格…]** | 將完整表格匯出到指定的雲端位置。請參閱「[將 Customer Journey Analytics 報告匯出至雲端](../../export/export-cloud.md)」 |
 | **[!UICONTROL 複製視覺效果]** | 完全複製視覺效果。 |
 | **[!UICONTROL 編輯說明]** | 新增 (或編輯) 視覺效果的文字說明。請參閱[文字](../text.md)。 |
 | **[!UICONTROL 取得視覺效果連結]** | 直接複製並共用視覺效果連結。共用連結對話框顯示此連結。請選取「複製」以複製此連結至剪貼簿。 |

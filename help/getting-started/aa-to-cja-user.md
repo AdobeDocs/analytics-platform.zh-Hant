@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
 source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1454'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,11 +76,11 @@ Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包�
 
 ## 區段概念的變動
 
-嚴格來說，區段並未從 Adobe Analytics 移轉到 Customer Journey Analytics，但您可以使用元件移轉工具在 Customer Journey Analytics 中重新建立 Adobe Analytics 區段。根據對應的維度和計量在 Customer Journey Analytics 中重新建立區段。如需更多資訊，請參閱[準備將元件和專案從 Adobe Analytics 移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=zh-Hant)。
+嚴格來說，區段並未從 Adobe Analytics 移轉到 Customer Journey Analytics，但您可以使用元件移轉工具在 Customer Journey Analytics 中重新建立 Adobe Analytics 區段。根據對應的維度和計量在 Customer Journey Analytics 中重新建立區段。如需更多資訊，請參閱[準備將元件和專案從 Adobe Analytics 移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)。
 
-雖然您尚無法從[!DNL Customer Journey Analytics]共用或發佈[!UICONTROL 區段] （[!UICONTROL 區段]）至Experience Platform統一設定檔，但此功能正在開發中。
+雖然您尚不能從 [!DNL Customer Journey Analytics] 共用或發佈[!UICONTROL 區段] ([!UICONTROL 區段]) 至 Experience Platform 統一輪廓，但此功能已正在開發中。
 
-除了區段概念有變動，區段容器也已更新。
+除了區段概念有變更，區段容器也已更新。
 
 * **「點擊」容器現在是「[!UICONTROL 事件]」容器**。「[!UICONTROL 事件]」容器可讓您根據單獨事件來劃分人員的資料。
 * **「瀏覽」容器現在是「[!UICONTROL 工作階段]」容器**。「[!UICONTROL 工作階段]」容器可讓您識別特定工作階段的頁面互動、促銷活動或轉換。

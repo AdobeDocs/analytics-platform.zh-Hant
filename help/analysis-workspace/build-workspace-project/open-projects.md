@@ -5,21 +5,21 @@ feature: Workspace Basics
 role: User
 exl-id: 5ef235e2-50d8-4202-bad7-06090102cf73
 source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 開啟專案
 
-您可以直接從「[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)」頁面開啟專案。在清單中尋找您的專案。使用[搜尋](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search)或[區段面板](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)縮小清單範圍。
+您可以直接從「[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)」頁面開啟專案。在清單中尋找您的專案。使用[搜尋](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search)或[區段面板](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)來縮小清單範圍。
 
 * 選擇專案標題，在 Analysis Workspace 中開啟該專案。
 
 您也可以在處理專案時開啟另一個專案。
 
-* 從「**[!UICONTROL 專案]**」選單中選取「**[!UICONTROL 開啟]**」。您會看到一個類似「[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)」頁面的對話框。使用[搜尋](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search)或[區段面板](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)縮小清單範圍。
+* 從「**[!UICONTROL 專案]**」選單中選取「**[!UICONTROL 開啟]**」。您會看到一個類似「[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)」頁面的對話框。使用[搜尋](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search)或[區段面板](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)來縮小清單範圍。
 * 選擇專案標題，在 Analysis Workspace 中開啟該專案。
 
 如果找不到專案並想開始進行一個新專案，請選取「**[!UICONTROL 新建]**」。

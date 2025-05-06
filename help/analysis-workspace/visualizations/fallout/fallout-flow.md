@@ -5,9 +5,9 @@ feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
 source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的流失視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[流失](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)_。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的流失視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[流失](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)_。_
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +43,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 流失視覺效果可供您：
 
-* 在同一份報表中，執行兩個不同區段的並排比較。
+* 在同一份報告中，執行兩個不同區段的並排比較。
 * 拖曳和放置 (重新安排) 漏斗步驟 (接觸點)。
 * 混合搭配來自不同維度和量度的值。
 * 建立多維度流失報告。
@@ -75,7 +75,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 * 對於有預先定義的連續頁面和單個入口點和路徑的歷程進行流失分析。(使用歷程畫布來處理具有多個進入點和路徑的歷程)。
 
-* 需要在同一份報表中執行兩個不同區段的並排比較的歷程。
+* 您需要在同一份報告中執行兩個不同區段並排比較的歷程。
 
 使用[上面表格](#understand-the-differences)來了解歷程畫布、流失和流量視覺效果之間的差異。
 
