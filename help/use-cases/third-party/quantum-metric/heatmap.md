@@ -4,12 +4,10 @@ description: 使用Quantum量度熱度圖資料，更能瞭解頁面層級的參
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: 25a2c549c27918f80202bde4cd30e305f4a295f3
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '348'
 ht-degree: 1%
 
 ---
@@ -24,7 +22,7 @@ ht-degree: 1%
 
 您必須有權使用Quantum Metric的&#x200B;**UX Ops**&#x200B;封裝，才能存取Quantum Metric的熱度圖功能。
 
-## 步驟1：在Workspace中建立自由格式表格並進行設定，以便工作階段ID值可直接連結至Quantum Metric。
+## 步驟1：在Analysis Workspace中設定連結
 
 1. 登入[experience.adobe.com](https://experience.adobe.com)。
 1. 導覽至Customer Journey Analytics，然後在頂端功能表中選取&#x200B;**[!UICONTROL Workspace]**。
@@ -41,6 +39,8 @@ ht-degree: 1%
 
 1. 按一下「**[!UICONTROL 建立]**」。
 1. 測試其中一個連結，以檢視它是否在URL中開啟且檢視量子量度副檔名。 這些連結會在新標籤中開啟，讓您的Workspace專案保持開啟狀態。
+
+![熱度圖](assets/heatmap.png)
 
 ## 步驟2：按一下Customer Journey Analytics中的連結以檢視熱度圖
 

@@ -4,12 +4,10 @@ description: 連結量度工作階段會重播CJA資料，以便更清楚瞭解�
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: a03505aeb56f99b28f50819765a496705876b89c
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '814'
 ht-degree: 2%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 2%
 
 這些步驟假設您使用Adobe Experience Platform資料彙集中的標籤。 如果您的組織未使用標籤，您可以將這些資料收集方法調整為手動Web SDK實施。
 
-如需詳細資訊，請參閱[Quantum量度標籤延伸功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/analytics/quantum-metric)檔案。
+如需詳細資訊，請參閱[Quantum量度標籤延伸功能](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)檔案。
 
 ## 步驟1：建立結構欄位以容納量度工作階段ID
 
@@ -109,6 +107,8 @@ ht-degree: 2%
 1. 按一下「**[!UICONTROL 建立]**」。
 
 每個工作階段ID現在都是可點按的連結。 如需新增超連結至Analysis Workspace維度專案的詳細資訊，請參閱[在自由格式表格中建立超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。
+
+![工作階段重播](assets/session-replay.png)
 
 ## 步驟5：從Customer Journey Analytics檢視工作階段
 

@@ -4,12 +4,10 @@ description: 將收集到的摩擦事件加入Quantum量度的Customer Journey A
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 11dc62cda2ceb7afabd3abd0944420601c8fa235
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '667'
 ht-degree: 1%
 
 ---
@@ -40,7 +38,7 @@ Quantum Metric會收集頁面載入緩慢、頁面載入錯誤、範圍點選等
 
 ## 步驟2：使用量度標籤擴充功能擷取摩擦事件
 
-如需如何設定標籤以包含Quantum量度資料的指示，請參閱Adobe Experience Platform目的地指南中的[Quantum量度延伸模組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/analytics/quantum-metric)。 使用此擴充功能可將更多列傳入現有資料集。
+如需如何設定標籤以包含Quantum量度資料的指示，請參閱Adobe Experience Platform目的地指南中的[Quantum量度延伸模組](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)。 使用此擴充功能可將更多列傳入現有資料集。
 
 使用Adobe Experience Platform資料彙集中的標籤來手動設定摩擦事件的名稱，以便將其納入XDM物件中並加以分析。 其中一個方法是使用規則的自訂程式碼：
 
@@ -74,6 +72,8 @@ return true;
 1. 選取現有專案，或建立專案。
 1. 建立[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)。
 1. 將所需的維度和量度拖曳至Workspace畫布以進行分析。
+
+![摩擦圖](assets/friction-graph.png)
 
 可能的分析想法包括：
 
