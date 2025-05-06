@@ -54,7 +54,7 @@ ht-degree: 100%
 
 1. 將 Analytics 來源連接器中的每個 Adob&#x200B;&#x200B;e Analytics 維度對應到 Web SDK 結構描述中的維度。
 
-   1. 
+   1. &#x200B;
       <!-- how do you get here -->
 
    1. 在「**[!UICONTROL 對應標準欄位]**」部分中，選取「**[!UICONTROL 自訂]**」索引標籤。
