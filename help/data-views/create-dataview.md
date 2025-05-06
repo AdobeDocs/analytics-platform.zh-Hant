@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: c021dc012f74126c6d0af5cd4ffdf908dd5c696a
+source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 99%
@@ -82,7 +82,6 @@ ht-degree: 99%
 >title="Journey Optimizer 的資料釋圖"
 >abstract="Customer Journey Analytics 需要使用與 Adobe Journey Optimizer 相容的連線和資料檢視。依據預設，會為此目的自動建立連線和資料檢視。<br/>或者，您可以啟用此選項，使其成為 Adobe Journey Optimizer 報告中使用的預設資料檢視。啟用後，Journey Optimizer 所需的所有必要元件都會新增至此資料檢視，並且所有必要的 Journey Optimizer 資料集都會新增至與此資料檢視關聯的連線。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo#connection" text="新增了哪些元件和資料集。"
-
 
 
 提供 Customer Journey Analytics 搭配使用 Adobe Journey Optimizer 時適用的設定。
