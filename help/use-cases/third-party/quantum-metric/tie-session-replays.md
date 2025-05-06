@@ -20,7 +20,7 @@ ht-degree: 2%
 
 這些步驟假設您使用Adobe Experience Platform資料彙集中的標籤。 如果您的組織未使用標籤，您可以將這些資料收集方法調整為手動Web SDK實施。
 
-如需詳細資訊，請參閱[Quantum量度標籤延伸功能](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)檔案。
+如需詳細資訊，請參閱[Quantum量度標籤延伸功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/analytics/quantum-metric)檔案。
 
 ## 步驟1：建立結構欄位以容納量度工作階段ID
 
