@@ -20,7 +20,7 @@ ht-degree: 100%
 * 將客群用在 Adobe Journey Optimizer 中的歷程。
 * 透過 Experience Platform 目的地功能，將客群匯出給第三方。
 * 使用衍生自 Customer Journey Analytics 中事件型資料的有用屬性，來擴充即時客戶設定檔。
-* 在發佈客群後以最小的延遲完成所有這些動作。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
+* 在發佈客群後以最小的延遲完成所有這些動作。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)
 * 發佈一次性客群或重複客群。
 
 您在 Customer Journey Analytics 中建立的客群不一定要以個人資料啟用的資料集為主。您可以將歷史資料攝取至 Experience Platform，而無需啟用設定檔的關聯資料集和模式。然後使用這些資料集在 Customer Journey Analytics 中探索有關的客群，並將這些客群發佈到 Experience Platform 中的即時客戶設定檔以進行啟動。
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ## 資料控管和同意
 
-當您在 Customer Journey Analytics 中發佈對象時，將記錄附加到對象中使用之欄位的資料控管標籤和策略。在任何 Adobe Experience 應用程式中啟用客群後，所有相關的資料控管標籤和策略都可供該客群使用，並且可套用適當的強制執行。[進一步瞭解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)。
+當您在 Customer Journey Analytics 中發佈對象時，將記錄附加到對象中使用之欄位的資料控管標籤和策略。在任何 Adobe Experience 應用程式中啟用客群後，所有相關的資料控管標籤和策略都可供該客群使用，並且可套用適當的強制執行。[進一步瞭解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy)。
 
 ## 後續步驟
 
