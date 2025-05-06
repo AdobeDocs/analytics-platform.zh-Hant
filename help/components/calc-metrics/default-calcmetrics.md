@@ -7,13 +7,13 @@ role: User
 source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
 # 計算量度範本
 
-Customer Journey Analytics 提供以下計算量度範本，可涵蓋最常見的使用案例。這些Adobe定義的計算量度由小型![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)標誌識別。 若要快速篩選這些量度，請在[元件篩選器](/help/components/overview.md#filter)中選取「![標籤](/help/assets/icons/Label.svg)」**[!UICONTROL Adobe 範本]**。
+Customer Journey Analytics 提供以下計算量度範本，可涵蓋最常見的使用案例。這些 Adobe 定義的計算量度是透過一個小的 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 標誌來識別。若要快速篩選這些量度，請在[元件篩選器](/help/components/overview.md#filter)中選取「![標籤](/help/assets/icons/Label.svg)」**[!UICONTROL Adobe 範本]**。
 
 | 計算量度名稱 | 說明<br/>公式 |
 |---------|----------|

@@ -128,27 +128,27 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
    以下區段對應於適用類別，並提供有關每個範本的資訊。
 
-   * &lbrack;[](#most-popular)
+   * [[!UICONTROL ](#most-popular)
 
-   * &lbrack;[](#engagement)
+   * [[!UICONTROL ](#engagement)
 
-   * &lbrack;[](#web-conversion)
+   * [[!UICONTROL ](#web-conversion)
 
-   * &lbrack;[](#web-audience)
+   * [[!UICONTROL ](#web-audience)
 
-   * &lbrack;[](#web-acquisition)
+   * [[!UICONTROL ](#web-acquisition)
 
-   * &lbrack;[](#mobile-mobile-app)
+   * [[!UICONTROL ](#mobile-mobile-app)
 
-   * &lbrack;[](#mobile-mobile-device-information)
+   * [[!UICONTROL ](#mobile-mobile-device-information)
 
-   * &lbrack;[](#time-parting)
+   * [[!UICONTROL ](#time-parting)
 
-   * &lbrack;[](#cross-channel)
+   * [[!UICONTROL ](#cross-channel)
 
-   * &lbrack;[](#other-channels)
+   * [[!UICONTROL ](#other-channels)
 
-   * &lbrack;[](#ajo)
+   * [[!UICONTROL ](#ajo)
 
 ### 最受歡迎 {#most-popular}
 

@@ -7,7 +7,7 @@ exl-id: 5b4b2e2b-0a73-48df-a40c-98d2c47f94c8
 source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Customer Journey Analytics 中的警報可讓您根據變更的百分比或特�
 
 ## 警報產生器
 
-警報產生器的介面與在Customer Journey Analytics中建立區段或計算量度類似：
+警報產生器的介面與在 Customer Journey Analytics 中建置區段或計算量度類似：
 
 ![警報產生器介面](assets/alert-builder.png)
 

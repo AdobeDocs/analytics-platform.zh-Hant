@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
 source-wordcount: '2043'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 99%
 
    * 使用搜尋欄位以搜尋特定的連線。開始輸入連線名稱或 ID，且當您輸入時，報告套裝清單會隨之更新。
 
-   * 選取![篩選器](/help/assets/icons/Filter.svg)以展開區段選項清單。 您可以根據&#x200B;[!UICONTROL **我的最愛**]&#x200B;或&#x200B;[!UICONTROL **狀態**]&#x200B;進行篩選。
+   * 選取「![篩選器](/help/assets/icons/Filter.svg)」，展開區段選項清單。您可以根據&#x200B;[!UICONTROL **我的最愛**]&#x200B;或&#x200B;[!UICONTROL **狀態**]&#x200B;進行篩選。
 
      若要將連線標示為我的最愛，請選取連線名稱左側的星形圖示。
 

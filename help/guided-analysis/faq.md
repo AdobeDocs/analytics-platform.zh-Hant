@@ -8,7 +8,7 @@ role: User
 source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 92%
 
 * **Analysis Workspace 是以維度為中心的體驗。**&#x200B;表格通常由維度列組成，而欄通常是量度。區段可以套用至列和欄，以取得想要的資料。
 
-* **引導式分析是以事件和使用者為中心的體驗。**&#x200B;每個分析都從選取事件開始，然後可以新增維度和區段來調整該事件資料。
+* **引導式分析是以事件和使用者為中心的體驗。**&#x200B;每次分析都是從選取事件開始，之後可以新增維度和區段來縮小該事件資料的範圍。
 
 ![Analysis Workspace 和引導式分析視圖](assets/structure.png){style="border:1px solid gray"}
 

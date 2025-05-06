@@ -65,12 +65,12 @@ Analysis Workspace 中的元件由量度、維度、區段和日期範圍組成�
 
    | 元件動作 | 說明 |
    |--- |--- |
-   | ![Label](/help/assets/icons/Label.svg) [!UICONTROL **標記**] | 以套用標記的方式組織或管理元件。然後您可以透過選取![Filter](/help/assets/icons/Filter.svg)篩選或輸入 `#`，依左側面板的標記進行搜尋。標記也會作為元件管理員中的篩選器。 |
-   | ![Star](/help/assets/icons/Star.svg) [!UICONTROL **最愛項目**] | 將元件新增至最愛項目清單。如同標記，您可以依左側面板的「最愛項目」搜尋，並在元件管理員中依這些條件篩選。 |
+   | ![Label](/help/assets/icons/Label.svg)[!UICONTROL **標記**] | 以套用標記的方式組織或管理元件。然後您可以透過選取![Filter](/help/assets/icons/Filter.svg)篩選或輸入 `#`，依左側面板的標記進行搜尋。標記也會作為元件管理員中的篩選器。 |
+   | ![Star](/help/assets/icons/Star.svg)[!UICONTROL **最愛項目**] | 將元件新增至最愛項目清單。如同標記，您可以依左側面板的「最愛項目」搜尋，並在元件管理員中依這些條件篩選。 |
    | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL 取消最愛項目]** | 將元件從最愛項目清單移除。 |
-   | ![Checkmark](/help/assets/icons/Checkmark.svg) [!UICONTROL **核准**] | 將元件標示為「已核准」，向您的使用者表示此元件已獲得組織核准。如同標記，您可以在左側面板中依已批准進行搜尋和篩選。![Checkmark](/help/assets/icons/Checkmark.svg)識別已核准的元件。 |
-   | ![Share](/help/assets/icons/ShareAlt.svg) [!UICONTROL **共用**] | 缃元件提供給組織中的用戶共用。此選項僅適用於自訂元件，例如區段或計算量度。 |
-   | ![Delete](/help/assets/icons/Delete.svg) [!UICONTROL **刪除**] | 刪除您不再需要的元件。 此選項僅適用於自訂元件，例如區段或計算量度。 |
+   | ![Checkmark](/help/assets/icons/Checkmark.svg)[!UICONTROL **核准**] | 將元件標示為「已核准」，向您的使用者表示此元件已獲得組織核准。如同標記，您可以在左側面板中依已批准進行搜尋和篩選。![Checkmark](/help/assets/icons/Checkmark.svg)識別已核准的元件。 |
+   | ![Share](/help/assets/icons/ShareAlt.svg)[!UICONTROL **共用**] | 缃元件提供給組織中的用戶共用。此選項僅適用於自訂元件，例如區段或計算量度。 |
+   | ![Delete](/help/assets/icons/Delete.svg)[!UICONTROL **刪除**] | 刪除您不再需要的元件。 此選項僅適用於自訂元件，例如區段或計算量度。 |
 
 自訂元件也可透過其各自的元件管理員來管理。如需範例，請參閱[管理區段](/help/components/filters/manage-filters.md)。
 

@@ -8,17 +8,17 @@ exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 # Content Analytics 概觀
 
-Content Analytics 可幫助行銷人員了解內容如何影響企業已定義的關鍵績效指標。除了行為資料外，Content Analytics還收集有關內容使用方式以及內容如何推動影響的資料。 例如，客戶對特定語調、特定調色盤或特定主題的回應是否更好？ 這些資訊與專門設計的報告工作流程和範本，可以幫助您在 Customer Journey Analytics 中進行更好的分析並，獲得有關客戶歷程資料的更深入。
+Content Analytics 能幫助行銷人員了解內容如何影響企業已定義的關鍵績效指標。除了行為資料之外，Content Analytics 還會收集關於內容使用方式和內容產生影響的資料。例如，客戶對於特定語調、特定色調或特定主題的反應是否較好？這些資訊與專門設計的報告工作流程和範本，可以幫助您在 Customer Journey Analytics 中進行更好的分析並，獲得有關客戶歷程資料的更深入。
 
 Content Analytics 會使用人工智慧式和機器學習式的&#x200B;**特徵化服務**，將內容劃分為元件和屬性。透過在所有內容上建立結構化中繼資料設定檔，您可以分析哪些內容以及這些內容的哪些屬性可以推動業務成長。
 
-除了結構化中繼資料設定檔的建立之外，Content Analytics 還提供&#x200B;**身分識別服務**，使用單一識別碼來識別資產和體驗。身分識別服務可以識別完全相同資產出現在多個地方的情況。發生此情況時，會將此資產的例項視為相同的資產，以更全面的方式檢視內容使用情況和耗用量。
+除了結構化中繼資料設定檔的建立之外，Content Analytics 還提供&#x200B;**身分識別服務**，使用單一識別碼來識別資產和體驗。身分識別服務可以識別完全相同資產出現在多個地方的情況。當這種情況發生時，此資產的實例將被視為相同資產，這樣可以更全面地了解內容的使用和消費。
 
 ## 值
 
@@ -35,43 +35,43 @@ Content Analytics 會使用以下關鍵用語：
 
 ![資產和體驗](/help/content-analytics/assets/content-analytics-experience-asset.png)
 
-* **體驗**：體驗是網頁上的所有文字，網頁可透過造訪該網頁的初始使用者所使用的URL重現。 每個體驗都會取得唯一識別碼。 頁面變更會導致頁面的HTML變更，進而產生新體驗。
-* **資產**：資產是獨立且獨特的內容，例如影像。每個資產也會取得唯一識別碼和感應式ID。 可感知ID是與視覺上相同的資產共用的識別碼。 可感知ID有助於對可能有不同資產URL並因此有不同資產ID，但概念上相同的資產進行重複資料刪除。
+* **體驗**：體驗是指網頁上的所有文字，可以使用最初造訪該網頁之使用者所使用的 URL 進行複製。每次體驗都會有一個唯一識別碼。針對頁面的變更會導致頁面 HTML 的變更，因而帶來新的體驗。
+* **資產**：資產是獨立且獨特的內容，例如影像。每項資產亦會獲得一個唯一識別碼和一個感知 ID。感知 ID 是與視覺上相同的資產共用的識別碼。感知 ID 有助於對可能具有不同資產 URL 並因此具有不同資產 ID，但感知上相同的資產進行重複資料刪除。
 * **屬性**：屬性是與體驗或資產相關的描述性中繼資料元素。屬性的範例有：攝影風格、可讀性、說服策略、物件顏色、背景顏色。
 
 ## 運作方式
 
-Content Analytics在Experience Platform的事件資料集中使用Web影像檢視資料來[收集內容事件資料](config/datacollection.md)。 並將該內容資料收集與行為資料的（現有）資料收集實作結合在一起。
+Content Analytics 使用 Experience Platform 事件資料集中的網頁影像檢視資料[收集內容事件資料](config/datacollection.md)。並將內容資料收集與 (現有的) 行為資料收集實施結合。
 
-![Content Analytics - 如何運作](assets/aca-overview.gif)
+![Content Analytics：如何運作](assets/aca-overview.gif)
 
-1. 當使用者造訪為Content Analytics[&#128279;](config/configuration.md)設定的網站時，Experience Platform Web SDK會記錄曝光次數以及與內容的互動。
-1. 身分和功能化服務會處理這些互動。 該程式包含擷取服務，可修訂定義互動之已設定URL的公開版本。 對於這些擷取的URL，身分識別服務會唯一識別體驗和資產。 此外，功能化服務會套用AI/ML服務，探索體驗和資產中繼資料與屬性。
-1. 這些服務（[元件、屬性和身分](/help/content-analytics/report/components.md)）的結果可用來更新Experience Platform中的相關特定內容分析資料集。
-1. 內容分析資料，連同行為資料和其他查詢資料，您可以在Customer Journey Analytics設定([連線](/help/connections/overview.md)、[資料檢視](/help/data-views/data-views.md)和[Workspace](/help/analysis-workspace/home.md))中使用。 該設定提供了對您的內容進行獨特巨集層級深入分析的基礎。 <br/>您可以使用[Content Analytics範本](/help/content-analytics/report/report.md#template)，快速開始您的Content Analytics報表和分析。
+1. 當使用者瀏覽網站時，[設定為適用於 Content Analytics](config/configuration.md)，Experience Plarform Web SDK 會記錄內容的印象和互動。
+1. 身分識別和特徵化服務會處理這些互動。過程包括一項獲取服務，其會重新檢視定義互動之已設定 URL 的公開版本。對於所有這些獲取到的 URL，身分識別服務是唯一識別體驗和資產的服務。特徵化服務應用 AI/ML 服務來探索體驗和資產中繼資料和屬性。
+1. 這些服務 ([元件、屬性和身分識別](/help/content-analytics/report/components.md)) 的結果會用來更新 Experience Platform 中相關的特定內容分析資料集。
+1. 內容分析資料以及行為資料和其他查詢資料，您可用於 Customer Journey Analytics 設定 ([連線](/help/connections/overview.md)、[資料檢視](/help/data-views/data-views.md)和 [Workspace](/help/analysis-workspace/home.md))。設定可為您對內容的獨特宏觀分析奠定基礎。<br/>您可以使用 [Content Analytics 範本](/help/content-analytics/report/report.md#template)快速開始您的 Content Analytics 報告和分析。
 
-
->[!NOTE]
->
->Content Analytics運用的AI/ML服務可能產生不準確或誤導的結果。 因此，請依據您的判斷檢閱及驗證AI/ML產生的輸出。
->
->您可以使用主要介面上的![資訊大綱](/help/assets/icons/InfoOutline.svg)提供的&#x200B;**[!UICONTROL 意見反應]**&#x200B;標籤，針對AI/ML產生的輸出提供意見反應。
->
 
 >[!NOTE]
 >
->如果您已授權Privacy and Security Shield附加元件，請注意（從產生的任何資料）體驗和資產(受Content Analytics限制)不屬於DULE標籤或客戶自控金鑰的涵蓋範圍。
+>Content Analytics 利用 AI/ML 服務，可能會產生不準確或誤導性的結果。因此，請運用您的判斷力來檢閱和驗證 AI/ML 所產生的輸出。
+>
+>您可以使用&#x200B;**[!UICONTROL 意見回饋]**&#x200B;索引標籤，可從主介面上的 ![InfoOutline](/help/assets/icons/InfoOutline.svg) 找到，提供有關 AI/ML 產生之輸出的意見回饋。
 >
 
 >[!NOTE]
 >
->Content Analytics [傳送其他事件](config/datacollection.md#content-analytics-event)，這些事件極有可能影響任何以工作階段或頁面中的事件數目為基礎的跳出率定義。
+>如果您已獲得 Privacy and Security Shield 附加元件的授權，請注意，根據 Content Analytics 的體驗和資產 (所產生的任何資料)，不受 DULE 標籤或客戶自控金鑰的保護。
+>
+
+>[!NOTE]
+>
+>Content Analytics [會傳送附加事件](config/datacollection.md#content-analytics-event)，這很可能會影響以工作階段或頁面中事件數量為基礎的任何退回率定義。
 >
 
 >[!MORELIKETHIS]
 >
 >[Content Analytics 報告](report/report.md)
 >[設定 Content Analytics](config/configuration.md)
->[正在計算Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)中的跳出數和跳出率
+>[在 Customer Journey Analytics 中計算退回與退回率](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 

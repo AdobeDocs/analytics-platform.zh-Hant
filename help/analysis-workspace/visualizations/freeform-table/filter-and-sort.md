@@ -7,7 +7,7 @@ role: User
 source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 - 排除表格中的特定資料列
 - 套用篩選器至表格
-- 使用受眾區段
+- 使用客群區段
 
 請務必閱讀每種方法如何影響[自由格式表格總計](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)。
 
@@ -94,7 +94,7 @@ Note: this option does not seem to work. AN-338422
 
 1. 選取「**[!UICONTROL 套用]**」以篩選資料。選取「**[!UICONTROL 清除]**」以清除所有輸入的資料。選取「**[!UICONTROL 取消]**」以取消並關閉對話框。<br/>彩色 ![篩選器](/help/assets/icons/FilterColored.svg) **篩選器**&#x200B;圖示是指示並顯示將篩選器套用至表格時的詳細資訊。
 
-### 使用受眾區段
+### 使用客群區段
 
 如需詳細資訊，請參閱[區段概觀](/help/components/filters/filters-overview.md)。
 

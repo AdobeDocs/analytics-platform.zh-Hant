@@ -8,13 +8,13 @@ role: User, Admin
 source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Customer Journey Analytics 概觀
 
-Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓您可搭配 Adobe Experience Platform 的資料運用 Analysis Workspace 的強大功能。這能協助您劃分、細分、查詢及視覺化多年累積的資料，並結合Platform掌握各種資料結構和型別的能力。 採用 **Experience Data Model (XDM)**，能以統一方式呈現和組織資料，可進行組合和探索。**Adobe Experience Platform Query Service** 可讓您使用相容於 SQL 的工具和架構來查詢及操控所有資料。
+Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓您可搭配 Adobe Experience Platform 的資料運用 Analysis Workspace 的強大功能。這能協助您劃分、細分、查詢及視覺化多年累積的資料，並結合 Platform 掌握各種資料結構描述和類型的能力。採用 **Experience Data Model (XDM)**，能以統一方式呈現和組織資料，可進行組合和探索。**Adobe Experience Platform Query Service** 可讓您使用相容於 SQL 的工具和架構來查詢及操控所有資料。
 
 高層級 Customer Journey Analytics 架構如下所示：
 
@@ -105,6 +105,6 @@ Experience Platform 的多個元件 (從資料擷取到直接 SQL 存取) 是 Cu
 
 >[!MORELIKETHIS]
 >
->* [分析師適用的Adobe Customer Journey Analytics當機課程](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
->* [最佳化您的心態集和Adobe Customer Journey Analytics工作流程：適用於所有規模組織的團隊模型](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
->* [建立組織整備：以人為本縮放Adobe Customer Journey Analytics指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
+>* [Adobe Customer Journey Analytics 分析師速成課程](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
+>* [將您的思維方式和 Adobe Customer Journey Analytics 工作流程最佳化：適用於各種規模組織的團隊模型](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
+>* [建置組織整備：以人為本的 Adobe Customer Journey Analytics 擴充指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
