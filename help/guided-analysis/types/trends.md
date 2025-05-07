@@ -5,10 +5,10 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: e42f04eaa06a761803e76b64a5a16674fb4af57d
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 趨勢]** 分析可提供有關您產品效能或使用者隨時間變化的行為深入分析。該報告的橫軸是時間間隔，而縱軸是測量您所期望的事件。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423438/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
 
 ## 使用案例
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 看法]**：在此分析和 [頻率](frequency.md)之間切換。
 * **[!UICONTROL 事件和量度]**：您想要測量的事件或量度。每個選擇都以圖表系列和表格列來表示。在查詢中不能將事件和量度結合；一旦做了第一個選擇，其餘的查詢選擇必須是同一類型。最多可包含 5 個選擇。
-* **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。選項包括事件、工作階段、使用者、使用者百分比、每個工作階段的事件，以及每個使用者的事件。計入選項僅適用於事件查詢，並且量度查詢時會被刪除。
+* **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。 <ul><li>**[!UICONTROL 選項]**&#x200B;包含[!UICONTROL 使用者]、[!UICONTROL 事件]、[!UICONTROL 工作階段]、[!UICONTROL 使用者百分比]、每個工作階段的[!UICONTROL 事件]以及每個使用者的[!UICONTROL 事件]。</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}其他&#x200B;**[!UICONTROL B2B選項]**&#x200B;適用於Customer Journey Analytics B2B edition： [!UICONTROL 全域帳戶]、[!UICONTROL 帳戶]、[!UICONTROL 購買群組]、[!UICONTROL 機會]、[!UICONTROL 全域帳戶的百分比]、[!UICONTROL 帳戶的百分比]、[!UICONTROL 購買群組的百分比]、[!UICONTROL 機會的百分比]、[!UICONTROL 每個全域帳戶的事件]、[!UICONTROL 每個事件的事件帳戶]、每個購買團體的[!UICONTROL 個事件]和每個機會的[!UICONTROL 個事件]。</li></ul>計入選項僅適用於事件查詢，並且量度查詢時會被刪除。
 * **[!UICONTROL 區段]**：您要測量的區段。每個選定的區段都會使圖表系列和表格列的數量加倍。最多可包含 5 個區段。
 * **[!UICONTROL 劃分屬性]**：根據所選屬性的值細劃分圖表系列和表格列。支援單一的劃分屬性。前 20 個值會顯示在表格中，圖表中最多可查看 10 個值。您可以透過切換 ![顯示隱藏圖示](../assets/hide-in-chart.png) 圖示來隱藏或顯示表格列。
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 ### 日期範圍
 
-您希望分析的日期範圍。此設定有兩個元件：
+您想要分析的日期範圍。此設定有兩個元件：
 
 * **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期細度。有效選項包括每小時、每天、每週、每月和每季。相同的日期範圍可以有不同的間隔，這會影響圖表中的資料點數和表格中的欄數。例如，以每日細度查看跨越三天的分析將僅顯示三個資料點，而以每小時細度查看跨越三天的分析將顯示 72 個資料點。
 * **[!UICONTROL 日期]**：開始和結束日期。為方便您使用，我們提供滾動日期範圍預設和先前儲存的自訂範圍，或者您可以使用行事曆選擇器來選擇固定的日期範圍。

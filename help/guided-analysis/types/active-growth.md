@@ -5,23 +5,20 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 98%
+source-wordcount: '677'
+ht-degree: 92%
 
 ---
 
 # [!UICONTROL 積極成長]分析 {#active-growth}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_guidedanalysis_activegrowth_button"
 >title="積極成長"
 >abstract="識別哪些使用者是新的、保留的、回訪的或非活躍的。"
 
-<!-- markdownlint-enable MD034 -->
 
 
 ![PeopleGroup](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL 積極成長]**&#x200B;分析可讓您深入了解使用者在特定期間內的成長和獲取情況。橫軸是時間間隔，縱軸是使用者測量值。使用者分為四大類：
@@ -34,7 +31,7 @@ ht-degree: 98%
 所有活躍使用者 (新使用者 + 重複使者 + 重新回來使用者) 在橫軸上方顯示為青色，而所有休眠使用者在橫軸下方顯示為橙色。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423392/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3421667/?quality=12&learn=on)
 
 ## 使用案例
 
@@ -54,7 +51,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 檢視]**：在此分析和[淨成長](net-growth.md)之間切換。
 * **[!UICONTROL 事件]**：您要測量的事件。由於此分析是以使用者為主，因此在期間內與事件互動一次的使用者將被視為活躍使用者。您可以在查詢中列入一個事件。
-* **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。選項包括[!UICONTROL 使用者數量]和[!UICONTROL 使用者百分比]。
+* **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。 <ul><li>**[!UICONTROL 選項]**&#x200B;包含[!UICONTROL 使用者數目]和[!UICONTROL 使用者百分比]。</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}其他&#x200B;**[!UICONTROL B2B選項]**&#x200B;適用於Customer Journey Analytics B2B edition： [!UICONTROL 全域帳戶]、[!UICONTROL 帳戶]、[!UICONTROL 購買群組]、[!UICONTROL 機會]、[!UICONTROL 全域帳戶的百分比]、[!UICONTROL 帳戶的百分比]、[!UICONTROL 購買群組的百分比]，以及[!UICONTROL 機會的百分比]。</li></ul>
 * **[!UICONTROL 區段]**：您要將資料作為分段依據的區段。 您可以在查詢中列入一個區段。
 
 ### 圖表設定

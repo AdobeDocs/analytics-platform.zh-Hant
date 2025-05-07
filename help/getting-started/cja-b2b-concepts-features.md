@@ -6,10 +6,10 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
+source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 0%
+source-wordcount: '1246'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 容器
 
-在Customer Journey Analytics中，容器會在連線和資料檢視的設定過程中產生。 容器僅儲存識別碼，以方便快速並高效執行分段、劃分等功能。
+在Customer Journey Analytics中，容器會在連線和資料檢視的設定過程中產生。 容器會儲存識別碼群組，以促進快速且有效執行分段、劃分等功能。
 
 ### 標準容器
 
@@ -67,6 +67,24 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
 
 ## 資料集
 
+Customer Journey Analytics B2B會區分下列資料型別和資料集。
+
+| 資料類型 | 時間序列 | 容器記錄 | 欄位記錄 |
+|---|---|---|---|
+| **資料集** | **事件資料集**<br/>&#x200B;例如：<ul><li>數位分析</li><li>CRM事件</li><li>面對面活動</li><li>呼叫中心資料</li></ul> | **設定檔資料集**<br/>&#x200B;例如：<ul><li>CRM記錄</li><li>AJO B2B記錄</li><li>CDP記錄</li><ul> | **類別**<br/>&#x200B;例如：<ul><li>行銷活動記錄</li><li>行銷清單記錄</li><li>內容中繼資料</li><li>產品記錄</li></ul> |
+| 要求 | **時間戳記**<br>&#x200B;每個記錄都需要：<ul><li>帳戶 ID</li><li>全域帳戶 ID</li><li>人員 ID</li></ul> | **帳戶ID**<br>&#x200B;記錄需要容器ID，例如：<ul><li>帳戶</li><li>個人</li><li>機會</li><li>購買群組</li></ul> | **相符的索引鍵**<br>&#x200B;記錄需要包含在容器或事件資料集中的識別碼，例如：<ul><li>行銷活動 ID</li><li>內容 ID</li><li>產品 ID</li></ul> |
+
+{style="table-layout:fixed"}
+
+Customer Journey Analytics B2B edition中以帳戶為基礎的連線範例：
+
+![以帳戶為基礎的連線範例](assets/b2b-datasets.svg)
+
+Customer Journey Analytics B2B edition提供[連線圖](/help/connections/create-connection.md#connection-map)介面，讓您概略瞭解連線中資料集之間的關係。
+
+
+與Customer Journey Analytics類似，事件型時間序列資料是Customer Journey Analytics B2B edition的核心。 帳戶型連線的主要差異在於，您事件資料集中的每個記錄都需要一個帳戶ID，而不是人員ID。
+
 當您在Customer Journey Analytics B2B edition中為帳戶型連線設定[資料集設定](/help/connections/create-connection.md#dataset-settings)時，部分設定可用的選項取決於[資料集型別](/help/connections/create-connection.md#dataset-types)。 例如，您必須：
 
 * 為您為事件資料集設定的每個容器指定識別碼。
@@ -79,11 +97,11 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
 
 ### 依容器比對
 
-如果記錄資料集依容器使用相符專案，系統會將記錄資料集視為設定檔資料集型別，並在使用者介面中將其視為設定檔資料集。 在支援您設定之容器的資料集上使用依容器比對。 例如，「購買群組」資料集。
+如果記錄資料集依容器使用相符專案，系統會將記錄資料集視為設定檔資料集型別，並在使用者介面中將其視為設定檔資料集。 在包含容器記錄並支援您設定之容器的資料集上使用依容器比對。 例如，「購買群組」資料集。
 
 ### 依欄位比對
 
-如果記錄資料集使用依欄位比對，系統會將記錄資料集視為查詢資料集型別，並在使用者介面中視為查詢資料集。 在透過查詢支援其他詳細資料的資料集上使用依欄位比對，例如，行銷清單成員資料集或產品詳細資料資料集。
+如果記錄資料集使用依欄位比對，系統會將記錄資料集視為查詢資料集型別，並在使用者介面中視為查詢資料集。 在包含透過查詢的其他分類詳細資料的資料集上使用依欄位比對。 例如，「行銷清單成員」資料集或「產品詳細資訊」資料集。
 
 
 ## 以個人和帳戶為基礎的資料報表
