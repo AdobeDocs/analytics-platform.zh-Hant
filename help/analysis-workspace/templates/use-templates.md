@@ -4,9 +4,9 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e37ac6f67da441e2e9491307dc44e31506383a0d
+source-git-commit: d618300480cdc3b4454e5c91e5e5adacc01d0c77
 workflow-type: tm+mt
-source-wordcount: '19815'
+source-wordcount: '19827'
 ht-degree: 96%
 
 ---
@@ -128,27 +128,27 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
    以下區段對應於適用類別，並提供有關每個範本的資訊。
 
-   * &lbrack;[](#most-popular)
+   * **[[!UICONTROL 最熱門]](#most-popular)**
 
-   * &lbrack;[](#engagement)
+   * **[[!UICONTROL 網頁]** > **[!UICONTROL 參與]](#engagement)**
 
-   * &lbrack;[](#web-conversion)
+   * **[[!UICONTROL 網頁]** > **[!UICONTROL 轉換]](#web-conversion)**
 
-   * &lbrack;[](#web-audience)
+   * **[[!UICONTROL 網頁]** > **[!UICONTROL 對象]](#web-audience)**
 
-   * &lbrack;[](#web-acquisition)
+   * **[[!UICONTROL 網頁]** > **[!UICONTROL 贏取]](#web-acquisition)**
 
-   * &lbrack;[](#mobile-mobile-app)
+   * **[[!UICONTROL 行動裝置]** > **[!UICONTROL 行動應用程式]](#mobile-mobile-app)**
 
-   * &lbrack;[](#mobile-mobile-device-information)
+   * **[[!UICONTROL 行動裝置]** > **[!UICONTROL 行動裝置資訊]](#mobile-mobile-device-information)**
 
-   * &lbrack;[](#time-parting)
+   * **[[!UICONTROL 時間分割]](#time-parting)**
 
-   * &lbrack;[](#cross-channel)
+   * **[[!UICONTROL 跨管道]](#cross-channel)**
 
-   * &lbrack;[](#other-channels)
+   * **[[!UICONTROL 其他管道]](#other-channels)**
 
-   * &lbrack;[](#ajo)
+   * **[[!UICONTROL AJO]](#ajo)**
 
 ### 最受歡迎 {#most-popular}
 
