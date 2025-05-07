@@ -4,10 +4,10 @@ description: 了解 Customer Journey Analytics 中發佈客群的概念
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: 9393be88ab7320adb5bd046701667f638673af5e
-workflow-type: ht
-source-wordcount: '404'
-ht-degree: 100%
+source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 87%
 
 ---
 
@@ -17,10 +17,12 @@ ht-degree: 100%
 
 發佈對象有助於理解情況，來啟用從 Customer Journey Analytics 中獲得的分析並據以採取行動。 這些動作可能包括：
 
-* 將客群用在 Adobe Journey Optimizer 中的歷程。
+* 在Adobe Journey Optimizer中使用對象進行歷程。
+如需使用已發佈至Experience Platform之對象的詳細資訊，請參閱Journey Optimizer檔案中的[開始使用對象](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)。
 * 透過 Experience Platform 目的地功能，將客群匯出給第三方。
 * 使用衍生自 Customer Journey Analytics 中事件型資料的有用屬性，來擴充即時客戶設定檔。
-* 在發佈客群後以最小的延遲完成所有這些動作。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)
+* 在發佈對象後以最小的延遲完成所有這些工作。
+如需詳細資訊，請參閱[建立和發佈對象](/help/components/audiences/publish.md)中的[延遲考量事項](/help/components/audiences/publish.md#latency-considerations)。
 * 發佈一次性客群或重複客群。
 
 您在 Customer Journey Analytics 中建立的客群不一定要以個人資料啟用的資料集為主。您可以將歷史資料攝取至 Experience Platform，而無需啟用設定檔的關聯資料集和模式。然後使用這些資料集在 Customer Journey Analytics 中探索有關的客群，並將這些客群發佈到 Experience Platform 中的即時客戶設定檔以進行啟動。
@@ -41,7 +43,7 @@ ht-degree: 100%
 
 ## 資料控管和同意
 
-當您在 Customer Journey Analytics 中發佈對象時，將記錄附加到對象中使用之欄位的資料控管標籤和策略。在任何 Adobe Experience 應用程式中啟用客群後，所有相關的資料控管標籤和策略都可供該客群使用，並且可套用適當的強制執行。[進一步瞭解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy)。
+當您在 Customer Journey Analytics 中發佈對象時，將記錄附加到對象中使用之欄位的資料控管標籤和策略。在任何 Adobe Experience 應用程式中啟用客群後，所有相關的資料控管標籤和策略都可供該客群使用，並且可套用適當的強制執行。[進一步瞭解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)。
 
 ## 後續步驟
 

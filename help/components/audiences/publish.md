@@ -4,10 +4,10 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
-workflow-type: ht
-source-wordcount: '2320'
-ht-degree: 100%
+source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
+workflow-type: tm+mt
+source-wordcount: '2368'
+ht-degree: 96%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 本主題說明如何將在 Customer Journey Analytics 中發現的客群建立並發佈到 Adobe Experience Platform 中的[即時客戶輪廓](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/home)，以用於客戶目標選擇和個人化。
 
-請閱讀此[總覽](/help/components/audiences/audiences-overview.md)，熟悉 Customer Journey Analytics 對象的概念。
+請閱讀此[概觀](/help/components/audiences/audiences-overview.md)，熟悉 Customer Journey Analytics 對象的概念。
 
 ## 建立及發佈客群 {#create}
 
@@ -121,9 +121,13 @@ ht-degree: 100%
 
 ## 客群建立和發佈後會如何？ {#after-audience-created}
 
-在 Customer Journey Analytics 中建立並發佈客群後，該客群即可在 Experience Platform 中使用。只有在組織設定為串流分段時，Adobe Experience Platform 串流區段才會建立。
+您在Customer Journey Analytics中建立並發佈對象後，該對象即會顯示在Experience Platform中，並可在[對象入口網站](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal)中檢視。 有了Experience Platform提供的對象，就可以在其他Experience Platform應用程式(例如Adobe Journey Optimizer)中使用。
 
-* Platform 中的客群與 Customer Journey Analytics 客群共有相同的名稱和描述。該名稱附有 Customer Journey Analytics 客群 ID，可確保客群的獨特性。
+只有在組織設定為串流分段時，Adobe Experience Platform 串流區段才會建立。
+
+使用從Customer Journey Analytics發佈至Experience Platform的對象時，請考量下列事項：
+
+* Experience Platform中的對象會與Customer Journey Analytics對象共用相同的名稱和說明。 該名稱附有 Customer Journey Analytics 客群 ID，可確保客群的獨特性。
 * 在 Customer Journey Analytics 中對客群名稱或描述所做的任何變更都會反映在 Experience Platform 中。
 * 如果在 Customer Journey Analytics 中刪除一個客群，則該客群仍可在 Experience Platform 中繼續使用，直到該客群的設定檔會籍到期為止。若是一次性客群，設定檔會籍將在 420 天後到期；若是定期客群，設定檔會籍將在 16 天後到期。
 
