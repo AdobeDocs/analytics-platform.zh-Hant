@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
+source-git-commit: cd5ab1cec686ba8891bd0643d331b80b494b9f7a
 workflow-type: tm+mt
-source-wordcount: '6802'
-ht-degree: 63%
+source-wordcount: '6884'
+ht-degree: 62%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 63%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -208,7 +208,7 @@ ht-degree: 63%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -332,7 +332,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="比對索引鍵類型"
->abstract="選取如何聯結：根據依欄位的比對或依容器的比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取一個容器，與其中一個事件資料集進行連結。如果此清單為空白，表示您可能尚未設定一或多個容器。"
+>abstract="選取如何聯結：根據依欄位的比對或依容器的比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取要用來聯結其中一個事件資料集的容器。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -517,13 +517,13 @@ ht-degree: 63%
 
 1. 選取一或多個資料集，然後選取「**[!UICONTROL 下一步]**」。連線中必須至少包含一個事件或摘要資料集。
 
-1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋&#x200B;**[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集[&#128279;](#dataset-settings)的設定。
+1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋**[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集](#dataset-settings)的[設定。
 
    ![新增資料集](assets/add-dataset.png)
 
 1. 選取&#x200B;**[!UICONTROL 新增資料集]**，將已設定的資料集新增至連線。 如果您尚未提供您要新增的每個資料集的所有必要設定，系統會通知您。
 
-   或者，您可以選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消新增資料集到連線。 或選取&#x200B;**[!UICONTROL 上一步]**&#x200B;以回到➊&#x200B;**[!UICONTROL 選取資料集]**&#x200B;步驟。
+   或者，您可以選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消新增資料集到連線。 或選取&#x200B;**[!UICONTROL 上一步]**&#x200B;以回到➊**[!UICONTROL 選取資料集]**&#x200B;步驟。
 
 
 ### 編輯資料集
@@ -533,7 +533,7 @@ ht-degree: 63%
 1. 針對要編輯的資料集表格中所列的資料集，選取![更多](/help/assets/icons/More.svg)
 1. 選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**。
 
-1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**&#x200B;對話方塊中設定[資料集設定](#dataset-settings)。
+1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**對話方塊中設定[資料集設定](#dataset-settings)。
 
    ![編輯資料集](assets/edit-dataset.png)
 
@@ -582,7 +582,6 @@ ht-degree: 63%
 | **[!UICONTROL 時間戳記]** | 系統會自動將此設定設為Experience Platform中以事件為基礎的結構之預設時間戳記欄位。 |
 | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。資料來源型別包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
 | **[!UICONTROL 資料來源描述]** | 當您選取其他作為資料來源型別時，資料來源的說明。 |
-
 
 #### 輪廓資料集
 
@@ -669,6 +668,25 @@ ht-degree: 63%
 {{common-dataset-settings}}
 
 
+### 重新內嵌資料
+
+您有時需要將一或多個資料集中的資料重新擷取到連線中。 若要進行此步驟：
+
+1. 針對您想要重新擷取資料的每個資料集：
+
+   1. 變更下列任一專案：
+
+      * 適用於已擷取事件資料集的識別碼（人員ID、帳戶ID或其他ID）。
+      * 已內嵌設定檔或查詢資料集的索引鍵、比對索引鍵或比對索引鍵型別（欄位或容器）。
+
+      或者，您可以切換&#x200B;**[!UICONTROL 回填資料集上的所有現有資料回填]**。
+
+   1. **[!UICONTROL 套用]**&#x200B;資料集的變更。
+
+1. **[!UICONTROL 儲存]**&#x200B;連線。 系統會為特定資料集重新內嵌資料。
+
+
+
 ### 刪除資料集
 
 刪除資料集時，您會收到有關刪除可能產生的影響的通知。 刪除資料集可能會影響所有關聯的連線、資料檢視和專案。 此外，如果您刪除連線中唯一的事件或摘要資料集，系統會提示您新增另一個事件或摘要資料集。 您只能儲存包含至少一個事件或摘要資料集的連線。
@@ -676,7 +694,7 @@ ht-degree: 63%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
