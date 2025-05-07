@@ -168,7 +168,7 @@ ht-degree: 62%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -208,7 +208,7 @@ ht-degree: 62%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -517,13 +517,13 @@ ht-degree: 62%
 
 1. 選取一或多個資料集，然後選取「**[!UICONTROL 下一步]**」。連線中必須至少包含一個事件或摘要資料集。
 
-1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋**[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集](#dataset-settings)的[設定。
+1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋&#x200B;**[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集[&#128279;](#dataset-settings)的設定。
 
    ![新增資料集](assets/add-dataset.png)
 
 1. 選取&#x200B;**[!UICONTROL 新增資料集]**，將已設定的資料集新增至連線。 如果您尚未提供您要新增的每個資料集的所有必要設定，系統會通知您。
 
-   或者，您可以選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消新增資料集到連線。 或選取&#x200B;**[!UICONTROL 上一步]**&#x200B;以回到➊**[!UICONTROL 選取資料集]**&#x200B;步驟。
+   或者，您可以選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消新增資料集到連線。 或選取&#x200B;**[!UICONTROL 上一步]**&#x200B;以回到➊&#x200B;**[!UICONTROL 選取資料集]**&#x200B;步驟。
 
 
 ### 編輯資料集
@@ -533,7 +533,7 @@ ht-degree: 62%
 1. 針對要編輯的資料集表格中所列的資料集，選取![更多](/help/assets/icons/More.svg)
 1. 選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**。
 
-1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**對話方塊中設定[資料集設定](#dataset-settings)。
+1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**&#x200B;對話方塊中設定[資料集設定](#dataset-settings)。
 
    ![編輯資料集](assets/edit-dataset.png)
 
@@ -694,7 +694,7 @@ ht-degree: 62%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
