@@ -4,23 +4,14 @@ title: 建立專案
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
-workflow-type: ht
+source-git-commit: de0b51096c772ceb180e759b2dd992e3cf2a009d
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 
 ---
 
 # 建立專案 {#create-projects}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_project_countrepeatinstances"
->title="計算重複實例數"
->abstract="指定是否要將重複實例計入報表中。<br/><br/>注意，此設定不適用於「流程」或「流失」視覺效果。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)讓您建立和檢視關鍵業務分析。這些分析可以與組織內部或外部的利害關係人共用。
@@ -56,23 +47,21 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 
 ## 專案資訊和設定 {#project-info-settings}
 
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="workspace_project_countrepeatinstances"
+>title="計算重複實例數"
+>abstract="指定是否要將重複實例計入報表中。<br/><br/>注意，此設定不適用於「流程」或「流失」視覺效果。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
 >title="計算重複實例數"
 >abstract="指定是否要將重複實例計入報表中。<br/>注意，此設定不適用於「流程」或「流失」視覺效果。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_commenting"
 >title="允許評論"
 >abstract="啟用後，Analysis Workspace 中專案的右側邊欄會顯示一個評論區域。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 專案資訊和設定可提供目前使用中專案的專案層級資訊。

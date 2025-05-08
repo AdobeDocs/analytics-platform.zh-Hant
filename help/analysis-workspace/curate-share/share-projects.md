@@ -5,7 +5,7 @@ title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: de0b51096c772ceb180e759b2dd992e3cf2a009d
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 99%
@@ -14,14 +14,11 @@ ht-degree: 99%
 
 # 共用專案 {#share-projects}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_shareprojects"
 >title="共用專案"
 >abstract="您可以與組織中的其他使用者共用這些專案角色中的任一個。"
 
-<!-- markdownlint-enable MD034 -->
 
 
 您可以與以下類型的人員共用 Analysis Workspace 專案：
@@ -103,7 +100,7 @@ ht-degree: 99%
 
 1. (視情況而定) 如果您要共用單一專案，則共用專案時請選擇是否啟用下列選項：
 
-   * **共用內嵌的專案元件：**&#x200B;與所有收件者共用區段、計算量度、日期範圍。共用後，這些元件會出現在收件者Workspace的「元件」下拉式功能表中。 系統不會沿用此設定，此動作僅在單次共用中有效。
+   * **共用嵌入的專案元件：**&#x200B;與所有收件者共用區段、計算量度、日期範圍。共用後，這些元件會出現在收件者Workspace的「元件」下拉式功能表中。 系統不會沿用此設定，此動作僅在單次共用中有效。
 
    * **設定為收件者的登陸頁面：** 將此頁面設定為收件者的登陸頁面。系統不會沿用此設定，此動作僅在單次共用中有效。
 
@@ -157,7 +154,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3452476/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +203,7 @@ ht-degree: 99%
 
 當有人透過共用連結 (從[共用專案標籤](#share-a-link-to-a-project)或使用[與任何人共用](#share-a-project-with-anyone-no-login-required)連結) 讓您共用專案時，您必須使用讓您共用的連結才能存取該專案。例如，該連結可能已在電子郵件、內部網站等中提供。
 
-## 共用內嵌元件
+## 共用嵌入元件
 
 您可以共用專案所屬的嵌入元件。
 
