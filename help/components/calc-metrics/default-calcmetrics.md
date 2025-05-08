@@ -4,16 +4,16 @@ title: 計算量度範本
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
 role: User
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
+source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 90%
+ht-degree: 85%
 
 ---
 
 # 計算量度範本
 
-Customer Journey Analytics 提供以下計算量度範本，可涵蓋最常見的使用案例。這些 Adobe 定義的計算量度是透過一個小的 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 標誌來識別。若要快速篩選這些量度，請在[元件篩選器](/help/components/overview.md#filter)中選取「![標籤](/help/assets/icons/Label.svg)」**[!UICONTROL Adobe 範本]**。
+Customer Journey Analytics提供下列計算量度範本，以涵蓋最常見的使用案例。 這些 Adobe 定義的計算量度是透過一個小的 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 標誌來識別。若要快速篩選這些量度，請在[元件篩選器](/help/components/overview.md#filter)中選取![標籤](/help/assets/icons/Label.svg) **[!UICONTROL Adobe範本]**。
 
 | 計算量度名稱 | 說明<br/>公式 |
 |---------|----------|

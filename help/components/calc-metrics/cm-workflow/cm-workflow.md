@@ -3,10 +3,10 @@ description: 瞭解如何建立計算量度。
 title: 建立計算量度
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 2%
+source-wordcount: '386'
+ht-degree: 44%
 
 ---
 
@@ -19,28 +19,25 @@ ht-degree: 2%
 
 您可以透過下列方式建立計算量度：
 
-![建立計算量度的方式](assets/create-metric.png)
+![建立量度的方式](assets/create-metric.png)
 
-* **A**。 在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 計算量度]**。 從[[!UICONTROL 計算量度]管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md)選取![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**]。
-* **B**。 在Workspace專案中，從「元件」左側面板選取![事件](/help/assets/icons/Event.svg) **量度**&#x200B;的![新增](/help/assets/icons/Add.svg)。
-* **C**。 在Workspace專案中，從量度欄標題的內容功能表中，選取「**[!UICONTROL 從選取專案建立量度]**」。 您可以從子功能表中選取函式，或選取&#x200B;**[!UICONTROL 在計算量度產生器中開啟]**。 <br/>如果您選取函式，計算量度會定義為僅限專案的量度。 當您稍後透過[元件資訊](/help/components/use-components-in-workspace.md#component-info)快顯視窗編輯此量度時，會在[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中看到通知。
-* **D**。 在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立量度]**。
+* **A**. 在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 計算量度]**。 從[[!UICONTROL 計算量度]管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md)選取![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**]。
+* **B**. 在Workspace專案中，從「元件」左側面板選取![事件](/help/assets/icons/Event.svg) **量度**&#x200B;的![新增](/help/assets/icons/Add.svg)。
+* **C**. 在Workspace專案中，從量度欄標題的內容功能表中，選取「**[!UICONTROL 從選取專案建立量度]**」。 您可以從子功能表中選取函式，或選取&#x200B;**[!UICONTROL 在計算量度產生器中開啟]**。 <br/>如果您選取函式，計算量度會定義為僅限專案的量度。 當您稍後透過[元件資訊](/help/components/use-components-in-workspace.md#component-info)快顯視窗編輯此量度時，會在[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中看到通知。
+* **D**. 在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立量度]**。
 * **E**。 在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL shift+cmd+c]** (macOS)或&#x200B;**[!UICONTROL shift+ctrl+c]** (Windows)。
 
 若要定義新的計算量度，請使用[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)。
 
-<!--
+瞭解建立計算量度的步驟。
 
-Learn about the steps to take for creating calculated metrics.
-
-| Workflow Task | Description |
+| 工作流程工作 | 說明 |
 | --- | --- |
-| Plan Calculated Metrics | Especially for metrics that are going to be officially "approved", it makes sense to outline which calculated metrics will be widely used and how they will be defined. |
-| [Build](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) Calculated Metrics | Build and edit calculated and advanced calculated metrics for use in [!DNL Customer Journey Analytics] components. |
-| [Tag](cm-tagging.md) Calculated Metrics | Tag calculated metrics for ease of organization and sharing. See how to plan and assign tags for simple and advanced searches and organization. |
-| [Approve](cm-approving.md) Calculated Metrics | Approve calculated metrics to make them canonical. |
-| Apply Calculated Metrics | You can apply metrics directly from a report, from the Metric Selector (to access it, click [!UICONTROL Show Metrics]). |
-| Filter Calculated Metrics | In the Metric Selector, click [!UICONTROL Advanced Selection] and filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.) |
-| Mark Calculated Metrics as [Favorites](cm-finding.md) | Marking metrics as favorites is another way to organize them for ease of use.|
+| 規劃計算量度 | 對於要正式「核准」的量度來說，您尤其有必要先概述將廣泛使用的計算量度及其定義方式。 |
+| [建立](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)計算量度 | 建立和編輯計算量度與進階計算量度，以用於 [!DNL Customer Journey Analytics] 元件。 |
+| [](cm-tagging.md)標記計算量度 | 標記計算量度以方便進行組織和共用。請參閱如何規劃和指派標記來進行簡易與進階的搜尋及組織。 |
+| [](cm-approving.md)核准計算量度 | 核准計算量度可讓它們成為遵循標準。 |
+| 套用計算量度 | 您可從報表、量度選擇器 (若要存取，請按一下「[!UICONTROL 顯示量度]」) 直接套用量度。 |
+| 篩選器計算量度 | 在量度選擇器中，按一下「[!UICONTROL 進階選擇]」並依標記、擁有者及其他篩選器 (全部顯示、我的、與我共用、我的最愛與已核准) 進行篩選。 |
+| 將計算量度標示為[我的最愛](cm-finding.md) | 要組織量度以方便使用，將量度標記為我的最愛是另一種方法。 |
 
--->
