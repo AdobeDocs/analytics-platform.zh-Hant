@@ -4,7 +4,7 @@ title: 共用區段
 feature: Filters, Segments
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
+source-git-commit: cc1e5737b481a231e139562ca4a79fbdfd61d8a3
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 11%
@@ -30,7 +30,7 @@ ht-degree: 11%
 
    1. 從&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**&#x200B;區段中選取一或多個選項，或搜尋並選取一或多個個人。 可用的選項取決於您的角色。
 
-   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以共用區段。 選取「**[!UICONTROL 取消]**」，即可取消。
+   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以共用區段。 選取「**[!UICONTROL 取消]**」即可取消。
 
 ## 最佳做法
 
@@ -38,6 +38,6 @@ ht-degree: 11%
 
 * 作為管理員，只有在您確信組織中的任何人都能熟練使用這些區段時，才可以將區段共用給全部的人。 您也可以考慮偏好這些區段。 如需詳細資訊，請參閱[將區段標示為我的最愛](filters-favorite.md)。
 
-* 身為管理員，如果區段可為特定群組的使用者提供商務價值，請將區段共用給該群組
+* 身為管理員，如果區段可為特定群組的使用者提供商務價值，請將區段共用給該群組。
 
 * 身為管理員或個人使用者，可將區段共用給一或多個個人來驗證區段。 如果區段證明沒有用，您可以刪除該區段。
