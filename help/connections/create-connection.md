@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: cd5ab1cec686ba8891bd0643d331b80b494b9f7a
+source-git-commit: f7c24aead6561d00b588b69ff9d0b03f498ebbee
 workflow-type: tm+mt
-source-wordcount: '6884'
+source-wordcount: '6858'
 ht-degree: 62%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 62%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -208,7 +208,7 @@ ht-degree: 62%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -447,7 +447,7 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
 >title="比對索引鍵類型"
->abstract="選取如何聯結：根據依欄位的比對或依容器的比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取一個容器，與其中一個事件資料集進行連結。如果此清單為空白，表示您可能尚未設定一或多個容器。"
+>abstract="選取如何聯結：根據依欄位的比對或依容器的比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取要用來聯結其中一個事件資料集的容器。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -517,13 +517,13 @@ ht-degree: 62%
 
 1. 選取一或多個資料集，然後選取「**[!UICONTROL 下一步]**」。連線中必須至少包含一個事件或摘要資料集。
 
-1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋&#x200B;**[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集[&#128279;](#dataset-settings)的設定。
+1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋**[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集](#dataset-settings)的[設定。
 
    ![新增資料集](assets/add-dataset.png)
 
 1. 選取&#x200B;**[!UICONTROL 新增資料集]**，將已設定的資料集新增至連線。 如果您尚未提供您要新增的每個資料集的所有必要設定，系統會通知您。
 
-   或者，您可以選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消新增資料集到連線。 或選取&#x200B;**[!UICONTROL 上一步]**&#x200B;以回到➊&#x200B;**[!UICONTROL 選取資料集]**&#x200B;步驟。
+   或者，您可以選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消新增資料集到連線。 或選取&#x200B;**[!UICONTROL 上一步]**&#x200B;以回到➊**[!UICONTROL 選取資料集]**&#x200B;步驟。
 
 
 ### 編輯資料集
@@ -533,7 +533,7 @@ ht-degree: 62%
 1. 針對要編輯的資料集表格中所列的資料集，選取![更多](/help/assets/icons/More.svg)
 1. 選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**。
 
-1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**&#x200B;對話方塊中設定[資料集設定](#dataset-settings)。
+1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**對話方塊中設定[資料集設定](#dataset-settings)。
 
    ![編輯資料集](assets/edit-dataset.png)
 
@@ -645,7 +645,7 @@ ht-degree: 62%
 |---|---|
 | **[!UICONTROL 索引鍵]** | 用於查詢資料集的索引鍵。 |
 | **[!UICONTROL 相符的索引鍵型別]** | 選取如何連接資料集：根據&#x200B;**[!UICONTROL 依欄位比對]**&#x200B;或&#x200B;**[!UICONTROL 依容器比對]**。如需詳細資訊，請參閱[依欄位容器比對](/help/getting-started/cja-b2b-concepts-features.md#match-by-container-or-field)。 |
-| **[!UICONTROL 比對索引鍵]** | 要加入其中一個事件資料集的索引鍵。若此清單空白，您可能尚未新增或設定事件資料集。<br/><br/>根據您選取的&#x200B;**[!UICONTROL 相符的索引鍵型別]**，選取適當的值：<ul><li>**[!UICONTROL 依欄位比對]**： ![依欄位比對](assets/match-by-field.png)<br/>從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;下拉式功能表中選取欄位，以聯結事件資料集之一。 若此清單空白，您可能尚未新增或設定事件資料集。</li><li>**[!UICONTROL 依容器比對]**： ![依容器比對](assets/match-by-container.png)<br/>從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;下拉式選單中選取容器，以與其中一個事件資料集聯結。 您在設定連線時包含的容器會決定要選取的可用容器。 如果此清單為空白，表示您可能尚未設定一或多個容器。</li></ul> |
+| **[!UICONTROL 比對索引鍵]** | 要加入其中一個事件資料集的索引鍵。若此清單空白，您可能尚未新增或設定事件資料集。<br/><br/>根據您選取的&#x200B;**[!UICONTROL 相符的索引鍵型別]**，選取適當的值：<ul><li>**[!UICONTROL 依欄位比對]**： ![依欄位比對](assets/match-by-field.png)<br/>從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;下拉式功能表中選取欄位，以聯結事件資料集之一。 若此清單空白，您可能尚未新增或設定事件資料集。</li><li>**[!UICONTROL 依容器比對]**： ![依容器比對](assets/match-by-container.png)<br/>從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;下拉式選單中選取容器，以與其中一個事件資料集聯結。 您在設定連線時包含的容器會決定要選取的可用容器。</li></ul> |
 | **[!UICONTROL 全域帳戶欄位]** | 用於帳戶型報表的全域帳戶ID。 |
 
 
@@ -694,7 +694,7 @@ ht-degree: 62%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
