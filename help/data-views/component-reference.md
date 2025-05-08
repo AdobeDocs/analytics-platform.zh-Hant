@@ -61,7 +61,7 @@ Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experie
 | [!UICONTROL 星期] | 時間分段維度 | 星期一、星期二、星期三、星期四、星期五、星期六、星期日 |
 | [!UICONTROL 一年當中的第幾天] | 時間分段維度 | 1-366 |
 | [!UICONTROL 小時] | 時間分段維度 | 0-23 |
-| [!UICONTROL  月份] | 時間分段維度 | 1 月至 12 月 |
+| [!UICONTROL &#x200B; 月份] | 時間分段維度 | 1 月至 12 月 |
 | [!UICONTROL 首次工作階段] | 量度 | 個人在報告時段內定義的首次工作階段。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
 | [!UICONTROL 重返工作階段] | 量度 | 不是個人的首次工作階段的工作階段數量。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat) |
 | [!UICONTROL 人員 ID] | 維度 | 在 Experience Platform 中定義的每個資料集結構描述，都可以有各自專屬的一組一或多個已定義且與身分識別命名空間相關聯的身分。任何一個身分識別碼都可當做人員 ID 使用。範例包括 Cookie ID、彙整 ID、使用者 ID、追蹤程式碼等。「[!UICONTROL 人員 ID]」維度是 Customer Journey Analytics 中結合資料集和識別不重複人員的基礎。<p>可能的使用案例包含：<ul><li>在特定人員ID值上建立區段，以將所有專案細分為該使用者的行為。</li><li>偵錯：確定有特定 Cookie ID (或特定客戶 ID) 的資料。</li><li>識別致電呼叫中心的用戶。</li></ul> |
