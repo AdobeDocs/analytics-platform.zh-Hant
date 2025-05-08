@@ -5,7 +5,7 @@ title: 將 Customer Journey Analytics 報告匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 158d75f81490edca2b5219a9b3ede2fbcdcc5901
+source-git-commit: 0fb04c116864f50b396ffbd1f22e2d6dad3da983
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 98%
@@ -123,7 +123,7 @@ ht-degree: 98%
 
 <!-- add in  what the file name, structure, and file format will be -->
 
-## 匯出至雲端的優點
+## 匯出至雲端的優點 {#advantages}
 
 將 Customer Journey Analytics 資料匯出至雲端可讓您：
 
@@ -217,7 +217,7 @@ ht-degree: 98%
   >
   >僅有將資料匯出至雲端時才會支援多維報告，如本文所述。
 
-## 完整表格匯出 (在 Customer Journey Analytics 中) 與 Data Warehouse (在 Adob&#x200B;&#x200B;e Analytics 中) 的比較
+## 完整表格匯出 (在 Customer Journey Analytics 中) 與 Data Warehouse (在 Adob&#x200B;&#x200B;e Analytics 中) 的比較 {#comparison}
 
 如果您先前使用 Data Warehouse 來匯出 Adob&#x200B;&#x200B;e Analytics 資料，下表可以幫助您了解在 Customer Journey Analytics 中匯出完整表格與在 Adob&#x200B;&#x200B;e Analytics 中使用 Data Warehouse 匯出資料之間的差異。
 
