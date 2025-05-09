@@ -4,10 +4,10 @@ title: 量度
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: defe6ad6fc796a230525ba9b178d744caf340e2f
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 8%
+source-wordcount: '886'
+ht-degree: 9%
 
 ---
 
@@ -35,11 +35,19 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
    * Customer Journey Analytics **工作階段**：您會在資料檢視中定義工作階段量度，做為工作階段設定組態的一部分。 請參閱[工作階段設定](/help/data-views/session-settings.md)。
    * **事件**： Customer Journey Analytics中的事件量度是由事件所組成，這些事件是您已設定為連線之一部分的任何事件資料集的一部分。
 
+  如需標準量度的完整清單，請參閱[標準量度](#standard-metrics)。
+
 * **計算量度** ![電腦](/help/assets/icons/Calculator.svg)：以標準量度、靜態數字或演演算法函式為基礎的使用者定義量度。
 
 * **計算量度範本** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) ：Adobe定義的量度，其行為與計算量度類似。 您可以在Workspace專案中照原樣使用，或儲存復本來自訂邏輯。 請參閱[預設計算量度](calc-metrics/cm-workflow/../default-calcmetrics.md)。
 
 您可以檢視量度是否核准![核准圖示](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)。 如果您想要瞭解量度的詳細資訊，請將滑鼠移至量度上，然後選取![資訊圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)。 如需詳細資訊，請參閱[元件資訊](use-components-in-workspace.md#component-info)。
+
+
+## 標準量度
+
+Customer Journey Analytics中的標準量度完整清單：
+{{standard-metrics}}
 
 ## 比較不同歸因模型的量度
 
@@ -57,7 +65,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 ### 為所有專案建立計算量度
 
-您可以使用計算量度產生器建立計算量度。 以這種方式建立時，計算量度會顯示在元件清單中，然後可用於整個組織的專案。
+您可以使用計算量度產生器來建立計算量度。以這種方式建立時，計算量度會顯示在元件清單中，然後可用於整個組織的專案。
 
 如需有關如何存取計算量度產生器的資訊，請參閱[建立計算量度](/help/components/calc-metrics/cm-workflow/cm-workflow.md)。
 

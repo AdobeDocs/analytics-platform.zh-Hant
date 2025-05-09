@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3ca1004fc1bbe3b60f32348d7da84718aef3a057
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '4061'
-ht-degree: 34%
+source-wordcount: '5198'
+ht-degree: 39%
 
 ---
 # 程式碼片段
@@ -194,7 +194,7 @@ Customer Journey Analytics中的各種視覺效果都是為了分析您提供給
 | **主要量度** | 任何量度，包括計算量度。 | 僅限工作階段或人員 | 僅限發生次數（路徑檢視） |
 | **次要量度** | 是<p>任何量度，包括計算量度。</p> | 否 | 否 |
 | 節點或接觸點中的&#x200B;**元件支援** | 量度、維度專案、區段和日期範圍。 | 量度、維度專案、區段和日期範圍。 | 僅限維度專案（開始和結束接觸點除外） |
-| **比較區段** | 無 | 是<p>在同一份報表中，執行兩個不同區段的並排比較。</p> | 否 |
+| **比較區段** | 無 | 是<p>在同一份報告中，執行兩個不同區段的並排比較。</p> | 否 |
 | **拖放元件互動** | 有 | 是 | 無 |
 | **Adobe Journey Optimizer歷程** | 是</br>從Journey Optimizer開啟歷程，以進行更深入的分析及自訂。 | 否 | 否 |
 
@@ -204,17 +204,17 @@ Customer Journey Analytics中的各種視覺效果都是為了分析您提供給
 
 >[!NOTE]
 > 
->在Customer Journey Analytics升級指南中回答問題時，請使用本頁上的資訊。 <br><br>若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。
+>在Customer Journey Analytics升級指南中回答問題時，請使用本頁上的資訊。 <br><br>若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 接著按照畫面上的指示進行操作。
 
 ## 升級檢查清單備註後續步驟 {#upgrade-note-step}
 
 >[!NOTE]
 > 
->只有在完成所有先前的升級步驟後，才可按照此頁面所列的步驟進行。您可以遵循建議的升級步驟（建議大多陣列織使用），也可以使用Customer Journey Analytics升級指南來遵循為您的組織動態產生的步驟。 <ul><li>**建議的升級步驟** （建議大多陣列織使用）<p>引導您實現理想Customer Journey Analytics實作的一組步驟。</p><p>如需詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。</p></li><li>**Customer Journey Analytics升級指南** （根據您組織的特定需求量身打造的自訂步驟）<p>有新的升級指南可供使用，動態產生針對貴組織和獨特環境量身打造的升級步驟。</p><p>若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。</p></li></ul>
+>只有在完成所有先前的升級步驟後，才可按照此頁面所列的步驟進行。您可以遵循建議的升級步驟（建議大多陣列織使用），也可以使用Customer Journey Analytics升級指南來遵循為您的組織動態產生的步驟。 <ul><li>**建議的升級步驟** （建議大多陣列織使用）<p>引導您實現理想Customer Journey Analytics實作的一組步驟。</p><p>如需詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。</p></li><li>**Customer Journey Analytics升級指南** （根據您組織的特定需求量身打造的自訂步驟）<p>新的升級指南現已推出，可動態產生適合您組織和獨特情況的升級步驟。</p><p>若要自 Customer Journey Analytics 存取指南，請選取「**[!UICONTROL 工作區]**」索引標籤，然後在左側面板中選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。接著按照畫面上的指示進行操作。</p></li></ul>
 
 ## 升級檢查清單最後步驟 {#upgrade-final-step}
 
-1. 繼續遵循Customer Journey Analytics升級指南中的[建議升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或動態產生的升級步驟。 若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。
+1. 繼續遵循Customer Journey Analytics升級指南中的[建議升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或動態產生的升級步驟。 若要自 Customer Journey Analytics 存取指南，請選取「**[!UICONTROL 工作區]**」索引標籤，然後在左側面板中選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。接著按照畫面上的指示進行操作。
 
 
 ## Content Analytics檔案草稿 {#draft-aca}
@@ -248,9 +248,50 @@ Customer Journey Analytics中的各種視覺效果都是為了分析您提供給
 | **[!UICONTROL 資料集回填]** | 啟用「**[!UICONTROL 回填所有現有資料]**」以確保回填所有現有資料。<br/><br/>選取「**[!UICONTROL 要求回填]**」以回填特定期間的歷史資料。您最多可以定義 10 個資料集回填期間。<ol><li>透過輸入開始和結束資料或使用 ![日曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)選取日期來定義期間。</li><li>選取「**[!UICONTROL 將回填排入佇列]**」將回填加入清單，或選取「**[!UICONTROL 取消]**」以取消。</li></ol>對於每個項目，選取 ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)以編輯期間，或選取 ![刪除](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)以刪除該項目。<br/><br/>關於回填：<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。歷史資料多寡會影響延遲長度。</li><li>Analytics 來源連接器可為生產沙箱可匯入最多 13 個月的資料 (不論資料量多寡)。非生產沙箱的回填期限制為 3 個月。</li></ul> |
 | **[!UICONTROL 批次狀態]** | 可能的狀態指標包括：<ul><li>成功</li><li>正在處理 X 個回填</li><li>關閉</li></ul> |
 | **[!UICONTROL 資料集 ID]** | 此 ID 是自動產生的。 |
-| **[!UICONTROL 說明]** | 建立資料集時提供給此資料集的說明。 |
+| **[!UICONTROL 說明]** | 建立資料集時為資料集提供的說明。 |
 | **[!UICONTROL 記錄數量]** | 資料集的大小。 |
 | **[!UICONTROL 結構描述]** | 在 Adobe Experience Platform 中建立資料集所根據的結構描述。 |
 | **[!UICONTROL 資料集]** | 資料集的名稱。 |
-| **[!UICONTROL 預覽：*資料集名稱&#x200B;*]** | 預覽前10列和前10欄的資料集。 |
+| **[!UICONTROL 預覽：*資料集名稱&#x200B;*]** | 預覽資料集的前 10 列和前 10 欄。 |
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL 移除]** | 您可以[刪除資料集](/help/connections/create-connection.md#delete-a-dataset)，而不刪除整個連線。 從連線中刪除資料集可減少資料擷取的相關成本，以及重新建立整個連線和相關資料檢視的繁複流程。 |
+
+## 標準維度 {#standard-dimensions}
+
+| 元件名稱 | 附註 |
+|---|---|
+| 15 分鐘 | 指定事件發生的每15分鐘（無條件舍去）。 第一個維度專案是日期範圍中的前15分鐘，最後一個維度專案是日期範圍中的前15分鐘。 |
+| 30 分鐘 | 指定事件發生的每30分鐘（無條件舍去）。 第一個維度專案是日期範圍中的前30分鐘，最後一個維度專案是日期範圍中的前30分鐘。 |
+| 5 分鐘 | 指定事件發生後的每5分鐘（無條件舍去）。 第一個維度專案是日期範圍中的前15分鐘，最後一個維度專案是日期範圍中的前5分鐘。 |
+| [!UICONTROL 日] | 指定事件發生的天。第一個維度項目是日期範圍中的第一天，最後一個維度項目是日期範圍中的最後一天。 |
+| [!UICONTROL 日期] | 指定量度在一個月中發生的日期。 第一個維度專案是日期範圍中該月的第一天，最後一個維度專案是日期範圍中該月的最後一天。 |
+| [!UICONTROL 星期] | 指定量度在一週中發生的日子。 第一個維度專案是日期範圍中一週的第一天，最後一個維度專案是日期範圍中一週的最後一天。 |
+| [!UICONTROL 日期] | 指定量度在一個月中發生的日期。 第一個維度專案是日期範圍中該月的第一天，最後一個維度專案是日期範圍中該月的最後一天。 |
+| 事件深度 | 將循序數值（1、2、3等）指派給工作階段中的每個事件互動。 您可以使用此維度，詳細追蹤和分析特定事件在工作階段內使用者互動的循序流程中發生的位置。 您可以在限定工作階段中追蹤事件的從開始到結束的進度。 例如：訪客登陸您的首頁（事件1、工作階段開始）、使用搜尋功能（事件2）、檢視產品詳細資料頁面（事件3）、新增到購物車（事件4）、繼續結帳（事件5），以及完成購買（事件6、工作階段結束）。 您現在可以在區段定義中使用[!UICONTROL 事件深度]，根據互動深度來劃分資料。 |
+| [!UICONTROL 小時] | 指定事件發生的小時 (無條件捨去)。第一個維度項目是日期範圍中的第一小時，最後一個維度項目是日期範圍中的最後一小時。 |
+| [!UICONTROL 小時] | 指定事件在一天中發生的小時（無條件舍去）。 第一個維度專案是日期範圍中一天的第一小時，最後一個維度專案是日期範圍中一天的最後一小時。 |
+| [!UICONTROL 分鐘] | 指定事件發生的分鐘 (無條件捨去)。第一個維度項目是日期範圍中的第一分鐘，最後一個維度項目是日期範圍中的最後一分鐘。 |
+| [!UICONTROL 分鐘小時] | 指定事件發生的一小時中的分鐘（無條件舍去）。 第一個維度專案是日期範圍中該小時的第一分鐘，最後一個維度專案是日期範圍中該小時的最後一分鐘。 |
+| [!UICONTROL 月] | 指定量度發生的月。第一個維度項目是日期範圍中的第一個月，最後一個維度項目是日期範圍中的最後一個月。 |
+| [!UICONTROL 月份] | 指定量度發生的月份。 第一個維度專案是日期範圍中一年的第一個月，最後一個維度專案是日期範圍中一年的最後一個月。 |
+| [!UICONTROL 季度] | 指定量度發生的季。第一個維度項目是日期範圍中的第一季，最後一個維度項目是日期範圍中的最後一季。 |
+| [!UICONTROL 季別] | 指定量度發生的季別。 第一個維度專案是日期範圍中一年的第一個季度，最後一個維度專案是日期範圍中一年的最後一個季度。 |
+| [!UICONTROL 秒] | 指定事件發生的秒數 (無條件捨去)。第一個維度項目是日期範圍中的第一秒，最後一個維度項目是日期範圍中的最後一秒。 |
+| [!UICONTROL 週] | 指定量度發生的週。第一個維度項目是日期範圍中的第一週，最後一個維度項目是日期範圍中的最後一週。 |
+| [!UICONTROL 一年中的週數] | 指定量度發生的周別。 第一個維度專案是日期範圍中一年的第一週，最後一個維度專案是日期範圍中一年的最後一週。 |
+| [!UICONTROL 年] | 指定量度發生的年。第一個維度項目是日期範圍中的第一年，最後一個維度項目是日期範圍中最近的一年。 |
+
+
+## 標準量度 {#standard-metrics}
+
+| 元件名稱 | 附註 |
+| --- | --- |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 帳戶] | 根據[!UICONTROL 連線]中所指定的帳戶 ID。 |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 購買群組] | 購買群組，根據[!UICONTROL 連線]中所指定的購買群組 ID。 |
+| [!UICONTROL 事件] | [!UICONTROL 連線]中所有事件資料集的列數。 |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 全域帳戶] | 根據[!UICONTROL 連線]中所指定的全域帳戶 ID。 |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 機會] | 機會，根據[!UICONTROL 連線]中所指定的機會 ID。 |
+| [!UICONTROL 人員] | 根據[!UICONTROL 連線]中所指定的人員 ID。 |
+| [!UICONTROL 工作階段結束] | 工作階段中最後一個事件的事件數。類似於[!UICONTROL 工作階段開始]，其也可用於區段定義中，以劃分至每個工作階段的最後一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段結束率</li></p> |
+| [!UICONTROL 工作階段開始] | 工作階段中第一個事件的事件數。在用於區段定義時 (例如「[!UICONTROL 工作階段開始]存在」)，其只劃分出每個工作階段的第一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段開始率</li></p> |
+| [!UICONTROL 工作階段] | 根據資料檢視的工作階段設定。 |
+| [!UICONTROL 逗留時間 (秒)] | 為維度加總兩個不同值之間的時間。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>每人逗留時間</li><li>每工作階段逗留時間</li></p> |

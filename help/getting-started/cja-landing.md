@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 94%
+source-wordcount: '737'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 ## 新增功能？
 
-快速一覽 Customer Journey Analytics 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../release-notes/latest.md)。請造訪「[文件更新頁面](../release-notes/doc-changes.md)」，了解最新變更內容。
+快速一覽 Customer Journey Analytics 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../release-notes/latest.md)。請瀏覽[檔案更新頁面](../release-notes/doc-changes.md)，以取得最新的檔案更新。
 
 >[!BEGINTABS]
 
@@ -29,47 +29,60 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 [![影像](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 
+>[!TAB 事件深度]
+
+事件深度是新的標準維度，提供測量及更瞭解事件在客戶工作階段中位置的新方式。 「事件深度」維度可讓您詳細追蹤和分析特定事件在工作階段內使用者互動的循序流程中所發生的位置。
+
+[![影像](assets/learn-more-button.svg)](/help/components/dimensions/overview.md#standard-dimensions)
+
+
 >[!TAB 共用的量度和維度]
 
 共用的量度和維度可提供一個中央位置，用於管理可用於任何數量資料檢視的維度和量度。 這些元件對於使用多個資料檢視的組織特別有用，尤其是如果這些資料檢視共用相同的元件設定。
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 
->[!TAB AI 助理]
 
-AI 助理是一種對話式體驗，可讓從業人員快速執行任務，包括理解概念、對問題進行疑難排解或搜尋資訊等。它也可讓非專家執行專家任務，並提高整體工作品質。
+<!--
+>[!TAB AI Assistant] 
 
-[![影像](assets/learn-more-button.svg)](/help/ai-assistant.md)
+AI Assistant is a conversational experience that allows practitioners to perform tasks at a fast pace - whether its understanding concepts, troubleshooting problems, or searching through information. It also allows non-experts to perform expert tasks and increases the overall quality of work.
 
-
->[!TAB 引導式分析]
-
-引導式分析現在可以直接在 Analysis Workspace 中使用，讓使用者可以建立儀表板，呈現來自面板、視覺化呈現和引導式分析的全方位深入分析。
-
-[![影像](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
+[![image](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
 
->[!TAB 智慧型註解 (第 2 版)]
+>[!TAB Guided Analysis] 
 
-[折線圖](/help/analysis-workspace/visualizations/line.md) (包括多折線)、[長條圖](/help/analysis-workspace/visualizations/bar.md)、[水平長條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)、[區域圖](/help/analysis-workspace/visualizations/area.md) (包括多區域折線)、[環形圖](/help/analysis-workspace/visualizations/donut.md)、[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)，和[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)視覺效果，現在支援智慧型註解，並進行其他的介面改進。
+Guided Analysis is now available directly from within Analysis Workspace, enabling users to create dashboards with comprehensive insights from panels, visualizations, and guided analyses.
 
-[![影像](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-
->[!TAB 警報]
-
-警報可讓您根據變更的百分比或特定資料點來接收通知。您可以預覽警報觸發的頻率、透過電子郵件或簡訊傳送警報、建立堆疊警報等。
-
-[![影像](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+[![image](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
 
 
->[!TAB 摘要資料]
 
-允許您引入沒有人員 ID 的時間序列資料。此時間序列資料可用於支援各種使用案例，例如
+>[!TAB Intelligent captions v2] 
 
-- 將高層級效能指標作為事件層級資料的一部分或隨附提供。
-- 每小時或每天上傳目標，然後將這些目標與事件層級量度進行對比。
+Intelligent captions are now supported, with additional interface improvements, for [Line](/help/analysis-workspace/visualizations/line.md) (including multi-line), [Bar](/help/analysis-workspace/visualizations/bar.md), [Horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md), [Area](/help/analysis-workspace/visualizations/area.md) (including multiple Area lines), [Donut](/help/analysis-workspace/visualizations/donut.md), [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), and [Flow](/help/analysis-workspace/visualizations/c-flow/flow.md) visualizations.
 
-[![影像](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
+[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+
+
+>[!TAB Alerts] 
+
+Alerts allow you to be notified based on changed percentages or specific data points. You can preview how often an alert will trigger, send alerts by email or SMS, create stacked alerts, and more.
+
+[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+
+
+>[!TAB Summary data] 
+
+Allows you to bring in time-series data that does not have a person ID. This time-series data can be used to support various use cases, such as 
+
+- Presenting high-level performance indicators as part of or next to event-level data. 
+- Uploading targets or goals at an hourly or daily basis, then positioning these targets or goals against event-level metrics. 
+
+[![image](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
+
+-->
 
 >[!TAB 圖表式匯整*]
 
@@ -131,15 +144,15 @@ BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的�
   <tr style="border: 0;">
     <td>
       <img src="./assets/analytics.svg" width="35px"><br/>
-      <strong>與 Adobe Analytics 比較</strong><br/><a href="/help/getting-started/aa-vs-cja/overview.md">概述</a> - <a href="/help/getting-started/aa-to-cja.md">進展</a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md">使用 Adob​​e e Analytics 資料</a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md">功能支援</a> - <a href="/help/getting-started/aa-vs-cja/terminology.md">術語</a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md">資料處理</a>
+      <strong>與 Adobe Analytics 比較</strong><br/><a href="/help/getting-started/aa-vs-cja/overview.md">概觀</a> - <a href="/help/getting-started/aa-to-cja.md">進展</a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md">使用 Adob​​e e Analytics 資料</a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md">功能支援</a> - <a href="/help/getting-started/aa-vs-cja/terminology.md">術語</a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md">資料處理</a>
     </td>
     <td>
       <img src="./assets/connections.svg" width="35px"><br/>
-      <strong>連線</strong><br/><a href="/help/connections/overview.md">概述</a> - <a href="/help/connections/create-connection.md">建立</a> - <a href="/help/connections/manage-connections.md">管理</a> - <a href="/help/stitching/overview.md">Stitch</a> - <a href="/help/connections/combined-dataset.md">合併事件資料集</a> - <a href="/help/connections/standard-lookups.md">標準查詢</a>
+      <strong>連線</strong><br/><a href="/help/connections/overview.md">概觀</a> - <a href="/help/connections/create-connection.md">建立</a> - <a href="/help/connections/manage-connections.md">管理</a> - <a href="/help/stitching/overview.md">Stitch</a> - <a href="/help/connections/combined-dataset.md">合併事件資料集</a> - <a href="/help/connections/standard-lookups.md">標準查詢</a>
     </td>
      <td>
       <img src="./assets/dataviews.svg" width="35px"><br/>
-      <strong>資料視圖</strong><br/><a href="/help/data-views/data-views.md">概述</a> - <a href="/help/data-views/create-dataview.md">建立或編輯</a> - <a href="/help/data-views/session-settings.md">工作階段設定</a> - <a href="/help/data-views/derived-fields/derived-fields.md">衍生欄位</a> - <a href="/help/data-views/summary-data.md">摘要資料</a> - <a href="/help/data-views/component-reference.md">元件引用</a>
+      <strong>資料視圖</strong><br/><a href="/help/data-views/data-views.md">概觀</a> - <a href="/help/data-views/create-dataview.md">建立或編輯</a> - <a href="/help/data-views/session-settings.md">工作階段設定</a> - <a href="/help/data-views/derived-fields/derived-fields.md">衍生欄位</a> - <a href="/help/data-views/summary-data.md">摘要資料</a> - <a href="/help/data-views/component-reference.md">元件引用</a>
     </td>
 
 </tr>
@@ -150,7 +163,7 @@ BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的�
     </td>
     <td>
       <img src="./assets/guided-analysis.svg" width="35px"><br/>
-      <strong>引導式分析</strong><br/><a href="/help/guided-analysis/overview.md">概述</a> - <a href="/help/guided-analysis/types/active-growth.md">使用者成長</a> - <a href="/help/guided-analysis/types/trends.md">趨勢</a>  - <a href="/help/guided-analysis/types/funnel.md">漏斗</a> - <a href="/help/guided-analysis/types/release-impact.md">影響</a> - <a href="/help/guided-analysis/industry-use-cases.md">產業使用案例</a>
+      <strong>引導式分析</strong><br/><a href="/help/guided-analysis/overview.md">概觀</a> - <a href="/help/guided-analysis/types/active-growth.md">使用者成長</a> - <a href="/help/guided-analysis/types/trends.md">趨勢</a>  - <a href="/help/guided-analysis/types/funnel.md">漏斗</a> - <a href="/help/guided-analysis/types/release-impact.md">影響</a> - <a href="/help/guided-analysis/industry-use-cases.md">產業使用案例</a>
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/>
@@ -165,7 +178,7 @@ BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的�
 <td><strong>Customer Journey Analytics</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Customer Journey Analytics 產品說明</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Adobe Analytics (Customer Journey Analytics 附加元件) 產品說明</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">Customer Journey Analytics API</a> - <a href="/help/ai-assistant.md">AI 助理</a>
 </td>
-<td><strong>資料擷取</strong><br/><a href="/help/data-ingestion/data-ingestion.md">概述</a> - <a href="/help/data-ingestion/analytics.md">Analytics</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a>  - <a href="/help/data-ingestion/aepmobilesdk.md">行動 SDK</a> - <a href="/help/data-ingestion/batch.md">批次</a> - <a href="/help/data-ingestion/streaming.md">串流</a> -  <a href="/help/data-ingestion/sources.md">來源</a> - <a href="/help/data-ingestion/serverapi.md">伺服器 API</a>
+<td><strong>資料擷取</strong><br/><a href="/help/data-ingestion/data-ingestion.md">概觀</a> - <a href="/help/data-ingestion/analytics.md">Analytics</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a>  - <a href="/help/data-ingestion/aepmobilesdk.md">行動 SDK</a> - <a href="/help/data-ingestion/batch.md">批次</a> - <a href="/help/data-ingestion/streaming.md">串流</a> -  <a href="/help/data-ingestion/sources.md">來源</a> - <a href="/help/data-ingestion/serverapi.md">伺服器 API</a>
 </td>
 </tr>
 </table>
