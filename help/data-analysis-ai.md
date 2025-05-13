@@ -4,69 +4,101 @@ title: 使用Customer Journey Analytics中的資料分析代理程式以視覺�
 role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
-hidefromtoc: true
-hide: true
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: f3f3b34c904c1aeba3fbd07218f323ccd81974d4
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 5%
+source-wordcount: '1861'
+ht-degree: 3%
 
 ---
 
-# 使用Customer Journey Analytics中的資料分析代理程式以視覺效果呈現資料
+# 在Customer Journey Analytics中使用Data Insights Agent以視覺效果呈現資料
 
-資料深入分析代理程式是Customer Journey Analytics中AI助理的一部分，是一種創作性的AI交談代理，可快速並有效回答有關您資料的問題。 它會使用您資料檢視中的元件，並使用您的實際資料，在Analysis Workspace中建置相關的視覺效果。
+{{release-limited-testing}}
 
-使用資料見解代理程式來回答Analysis Workspace中以資料為中心的問題，可以節省無數時間，讓您在Analysis Workspace中手動建立視覺效果，並熟悉資料檢視元件。
+>[!AVAILABILITY]
+>
+>Data Insights Agent在2025年11月30日之前皆適用於符合資格的Customer Journey Analytics客戶。 在該日期之後，如果您想要繼續使用Data Insights Agent，需要授權。 請聯絡您的Adobe客戶團隊，以取得授權程式的協助。
+
+Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是具創造性的AI交談代理程式，可快速並有效率地回答有關您資料的問題。 它會使用您資料檢視中的元件，並使用您的實際資料，在Analysis Workspace中建置相關的視覺效果。
+
+使用Data Insights Agent來回答Analysis Workspace中以資料為中心的問題，可節省您原本要在Analysis Workspace中手動建立視覺效果和熟悉資料檢視元件所花費的無數時間。
 
 AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 
-## Beta的範圍內與範圍外功能
+## 範圍內功能與範圍外功能
 
-### 範圍中的Beta功能
+
+
+### 範圍內功能
 
 | 支援的功能 | 說明 |
 | --- | --- |
 | **建置和更新視覺效果** | 產生自由表格和相關聯的視覺效果（例如線條、長條圖、環形圖等）。<p>範例： *從2月到5月，SKU的利潤是多少？* |
-| **支援的視覺效果型別** | <ul><li>折線圖</li><li>多行</li><li>自由表格</li><li>長條圖</li><li>環形圖</li><li>摘要數字</li></ul> |
-| **範圍外提示偵測** | 如果您提交超出範圍的提示（例如「匯出此專案」），資料分析代理程式會回應，讓您知道問題超出範圍。 |
-| **澄清問題** | 如果您提出的問題，沒有足夠內容讓資料分析代理程式回答，或問題過於一般，資料分析代理程式會以澄清問題或建議的選項回應。 範例： <p>**元件**<ul><li>量度： *您指的是哪個「收入」量度？*</li><li>Dimension： *您想要著重下列哪個「地區」？*</li><li>區段： *您要套用哪個「帳戶」區段？*</li><li>日期範圍： *以「上個月」表示，您是指「上個月」還是「過去30天」？*</li></ul>**Dimension專案**：您指的是哪個「商店名稱」？ (例如，商店#5274、商店#2949等)。 |
-| **多圈** | 資料前瞻分析代理程式會使用任何先前提示的內容來回應提示，讓使用者可以更新視覺效果並詢問後續問題。 範例: <ul><li>提示1： *自3月*&#x200B;起的趨勢事件</li><li>提示2： *改為顯示三月到四月的資料*</li></ul> |
+| **支援的視覺效果型別** | <ul><li>折線圖</li><li>多行</li><li>自由格式表格</li><li>長條圖</li><li>環形圖</li><li>摘要數字</li></ul> |
+| **範圍外提示偵測** | 如果您提交超出範圍的提示（例如「匯出此專案」），Data Insights Agent會通知您問題超出範圍。 |
+| **澄清問題** | 如果您提出的問題，沒有足夠上下文可供Data Insights Agent回答，或問題過於寬泛，Data Insights Agent會以澄清問題或建議的選項來回應。 範例： <p>**元件**<ul><li>量度： *您指的是哪個「收入」量度？*</li><li>Dimension： *您想要著重下列哪個「地區」？*</li><li>區段： *您要套用哪個「帳戶」區段？*</li><li>日期範圍： *以「上個月」表示，您是指「上個月」還是「過去30天」？*</li></ul>**Dimension專案**：您指的是哪個「商店名稱」？ (例如，商店#5274、商店#2949等)。 |
+| **多圈** | Data Insights Agent會使用任何先前提示的內容來回應提示，讓使用者可以更新視覺效果和提出後續問題。 範例: <ul><li>提示1： *自3月*&#x200B;起的趨勢事件</li><li>提示2： *改為顯示三月到四月的資料*</li></ul> |
 | **可驗證性** | 可透過產生的自由表格和資料視覺效果確認資料可驗證性和正確性。 例如，如果使用者詢問&#x200B;*上個月*&#x200B;的趨勢訂單，您可以確認在新產生的面板、資料視覺效果和自由表格中選取了正確的量度（「訂單」）和日期範圍（「上個月」）。 |
 | **意見反應** | <ul><li>豎起大拇指</li><li>向下拇指</li><li>標幟</li></ul> |
 
-### 範圍外的Beta功能
+### 超出範圍的功能
 
 | 不支援的功能 | 說明 |
 | --- | --- |
-| **內嵌摘要或回應** | 資料深入分析代理程式無法在聊天邊欄中以使用者提示的摘要回答進行內嵌回應。 範圍外提示範例：<ul><li>*提供上次提示的見解摘要。*</li><li>*從線條視覺效果摘要醒目提示。*</li></ul> |
-| **澄清問題** | 澄清的問題僅限於元件和維度專案。 資料深入分析代理程式無法釐清資料檢視、視覺效果、資料精細度、比較和範圍等專案。 當澄清無法使用的問題時，代理程式會預設為您最可能要求的內容。 如果它傳回非預期的視覺效果或資料詳細程度，您就可以使用多圈/更新功能來調整視覺效果和資料。 |
-| **Workspace動作/功能** | 除了建立和更新視覺效果外，資料深入分析代理程式無法在Workspace中為使用者執行動作。 例如，它無法執行下列任一項作業：<ul><li>內容動作UI按鈕（新增至圖表、新面板、新表格）</li><li>共用</li><li>匯出</li><li>下載</li><li>管理使用者偏好設定</li><li>組織</li><li>管理資料檢視</li><li>Analytics儀表板應用程式</li><li>歸因</li></ul> |
+| **內嵌摘要或回應** | Data Insights Agent無法在聊天邊欄中以使用者提示的摘要回應進行內嵌回應。 範圍外提示範例：<ul><li>*提供上次提示的見解摘要。*</li><li>*從線條視覺效果摘要醒目提示。*</li></ul> |
+| **澄清問題** | 澄清的問題僅限於元件和維度專案。 Data Insights Agent無法釐清資料檢視、視覺效果、資料精細度、比較和範圍等專案。 當澄清無法使用的問題時，代理程式會預設為您最可能要求的內容。 如果它傳回非預期的視覺效果或資料詳細程度，您就可以使用多圈/更新功能來調整視覺效果和資料。 |
+| **Workspace動作/功能** | 除了建置和更新視覺效果，Data Insights Agent無法在Workspace中為使用者採取動作。 例如，它無法執行下列任一項作業：<ul><li>內容動作UI按鈕（新增至圖表、新面板、新表格）</li><li>共用</li><li>匯出</li><li>下載</li><li>管理使用者偏好設定</li><li>組織</li><li>管理資料檢視</li><li>Analytics儀表板應用程式</li><li>歸因</li></ul> |
 | **不支援的視覺效果型別** | <ul><li>流量</li><li>流失</li><li>同類群組表格</li><li>區域圖、棧疊區域圖</li><li>堆疊長條圖</li><li>項目符號</li><li>組合</li><li>直方圖</li><li>橫條圖、棧疊橫條圖</li><li>關鍵量度摘要</li><li>散佈圖</li><li>摘要變更</li><li>文字</li><li>樹狀圖</li><li>文氏圖表</li></ul> |
 
-## 在Customer Journey Analytics中管理資料深入分析代理程式的存取權
+## 在Customer Journey Analytics中管理對Data Insights Agent的存取
 
-下列引數可控管Customer Journey Analytics中資料前瞻分析代理程式的存取權：
+下列引數可控管Customer Journey Analytics中Data Insights Agent的存取權：
 
-* **解決方案存取**：資料深入分析代理程式可供Customer Journey Analytics Prime和Ultimate客戶使用。 在Adobe Analytics中無法使用。
+* **解決方案存取**： Data Insights Agent可供Customer Journey Analytics Prime和Ultimate客戶使用。 在Adobe Analytics中無法使用。
 
-* **合約存取**：如果您無法在AI助理中使用資料深入分析代理程式，請聯絡您組織的管理員或Adobe客戶代表。 您必須同意特定GenAI相關法律條款，組織才能使用資料分析代理程式。
+* **合約存取**：如果您無法在AI助理中使用Data Insights Agent，請聯絡您組織的管理員或Adobe帳戶團隊。 您必須同意與創作AI相關的特定法律條款，組織才能使用Data Insights Agent。
 
-* **許可權**：在[!UICONTROL Adobe Admin Console]中，[!UICONTROL 報告工具] **[!UICONTROL AI Assistant：資料視覺效果]**&#x200B;許可權決定此工具的存取權。  [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)需要遵守 [!UICONTROL Admin Console]中的以下步驟：
-   1. 導覽至&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 產品及服務]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 產品設定檔]**
-   1. 選取您要為其提供[!UICONTROL AI助理存取權的產品設定檔標題：產品知識]。
-   1. 在特定的產品設定檔中，選取「**[!UICONTROL 權限]**」。
-   1. 選取「![編輯](/help/assets/icons/Edit.svg)」，可編輯「**[!UICONTROL 報告工具]**」。
-   1. 選取![AddCircle](/help/assets/icons/AddCircle.svg)以新增&#x200B;**AI小幫手：產品知識**&#x200B;和&#x200B;**AI小幫手：資料分析**&#x200B;至&#x200B;**[!UICONTROL 包含的許可權專案]**。
+* **許可權**：必須先在[!UICONTROL Adobe Admin Console]中授與必要的許可權，使用者才能存取Data Insights Agent。
+
+  若要授與許可權，[產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)必須在[!UICONTROL Admin Console]中完成下列步驟：
+   1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，選取&#x200B;**[!UICONTROL 產品]**&#x200B;索引標籤以檢視&#x200B;**[!UICONTROL 所有產品和服務]**&#x200B;頁面。
+   1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**。
+   1. 在&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;索引標籤上，選取您要為其提供[!UICONTROL AI助理：產品知識]存取權的產品設定檔標題。
+   1. 在特定產品設定檔中，選取&#x200B;**[!UICONTROL 許可權]**&#x200B;標籤。
+
+      Admin Console中的![許可權索引標籤](assets/ai-assistant-permissions-tab.png)
+
+   1. 在提供的表格中&#x200B;**[!UICONTROL 報告工具]**&#x200B;列，選取編輯圖示![編輯](/help/assets/icons/Edit.svg)。
+   1. 捲動至或搜尋&#x200B;**[!UICONTROL AI助理：產品知識]**，然後選取此許可權旁的加號圖示![AddCircle](/help/assets/icons/AddCircle.svg)。
+
+      **[!UICONTROL AI助理：產品知識]**&#x200B;許可權已新增到&#x200B;**[!UICONTROL 包含的許可權專案]**&#x200B;欄。
 
       ![新增許可權](assets/ai-assistant-permissions.png)。
 
+   1. 選取&#x200B;**[!UICONTROL 資料檢視工具]**&#x200B;標籤，然後選取&#x200B;**[!UICONTROL Data Insights Agent]**&#x200B;許可權旁的加號圖示![AddCircle](/help/assets/icons/AddCircle.svg)。
+
+      **[!UICONTROL Data Insights Agent]**&#x200B;許可權已新增至&#x200B;**[!UICONTROL 包含的許可權專案]**&#x200B;欄。
+
+      ![新增許可權](assets/ai-assistant-permissions-dataviewtools.png)。
+
+   1. 選取&#x200B;**[!UICONTROL 資料檢視]**&#x200B;標籤，以選擇要為Data Insights Agent啟用的資料檢視。
+
+      >[!IMPORTANT]
+      >
+      >Data Insights Agent可以參照包含的資料檢視，並在您在Admin Console中啟用檢視的同一天提供。
+
+   1. 搜尋或捲動至您要啟用的資料檢視，然後選取每個資料檢視名稱旁的加號圖示![AddCircle](/help/assets/icons/AddCircle.svg)。
+
+      您新增的每個資料檢視都會顯示在&#x200B;**[!UICONTROL 包含的許可權專案]**&#x200B;欄中。
+
+      ![新增許可權](assets/ai-assistant-permissions-dataviews.png)。
+
    1. 選取「**[!UICONTROL 儲存]**」以儲存權限。
 
-請參閱[存取控制概觀](/help/technotes/access-control.md#access-control)，了解更多資訊。
+  如需存取控制的詳細資訊，請參閱[存取控制](/help/technotes/access-control.md#access-control)。
 
-## 存取AI助理中的資料深入分析代理程式
+## 在AI助理中存取Data Insights Agent
 
 1. 前往[experience.adobe.com](https://experience.adobe.com/)並使用您的Adobe ID登入。
 
@@ -74,23 +106,21 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 
 3. 在專案頁面頂端的橫幅中選取&#x200B;**[!UICONTROL 空白專案]**&#x200B;以開啟新的空白專案。
 
-4. 確認面板的選取資料檢視與啟用搭配資料深入分析代理程式進行Beta測試的資料檢視相同。
-
-   如果您不確定，請聯絡Beta Slack頻道。
+4. 請確認為面板選取的資料檢視是已啟用與Data Insights Agent搭配使用的資料檢視，如[在Customer Journey Analytics中管理Data Insights Agent的存取權](#manage-access-to-data-insights-agent-in-customer-journey-analytics)中所述。
 
 5. 在頁面的右上角區域選取AI助理聊天圖示。
 
    如果您沒有看到聊天圖示，請聯絡您的管理員，以便他們在Admin Console中啟用以下功能：
 
-   * **[!UICONTROL AI助理：產品知識]**
+   * 報告工具： **[!UICONTROL AI助理：產品知識]**
 
-   * **[!UICONTROL AI小幫手：資料分析]**
+   * 資料檢視工具： **[!UICONTROL Data Insights Agent]**
 
-   如需其他詳細資料，管理員可以看到[這些指示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access)。
+   如需詳細資訊，請參閱[在Customer Journey Analytics中管理Data Insights Agent的存取權](#manage-access-to-data-insights-agent-in-customer-journey-analytics)。
 
    ![AI助理圖示](/help/assets/ai-asst-icon.png)
 
-6. 在頁面底部的&#x200B;**[!UICONTROL 詢問Customer Journey Analytics]**&#x200B;對話方塊中，使用資料深入分析代理程式詢問資料視覺效果問題。
+6. 在頁面底部的&#x200B;**[!UICONTROL 詢問Customer Journey Analytics]**&#x200B;對話方塊中，使用Data Insights Agent詢問資料視覺效果問題。
 
    如需詳細資訊，請參閱下列範例。
 
@@ -102,7 +132,7 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 
 ![AI提示](/help/assets/ai-asst-prompt1.png)
 
-**回應：**&#x200B;資料深入分析代理程式會透過檢視資料檢視中的資料（包括量度和元件）來收集深入分析。 系統會將提示轉譯為資料範圍內正確的維度和量度。
+**回應：** Data Insights Agent透過檢視資料檢視中的資料（包括量度和元件）來收集深入分析。 系統會將提示轉譯為資料範圍內正確的維度和量度。
 
 如您所見，系統會自動產生線圖和自由表格，以顯示7月的訂單。
 
@@ -114,13 +144,13 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「依地區顯示收入」*
 
-**回應：**&#x200B;資料深入分析代理程式聰明地瞭解「地區」的意思，即「客戶地區」。 這會產生一個長條圖，最能依地區顯示收入：
+**回應：** Data Insights Agent聰明地瞭解「地區」的意思是「客戶地區」。 這會產生一個長條圖，最能依地區顯示收入：
 
 ![長條圖](/help/assets/ai-asst-result2.png)
 
 ### 範例 3
 
-接著，除了瞭解按地區劃分的收入之外，您還要檢視依地區劃分的利潤資料。 與其重複先前的提示，您可以要求資料前瞻分析代理程式更新最新的視覺效果和自由表格。
+接著，除了瞭解按地區劃分的收入之外，您也要檢視依地區劃分的利潤資料。 與其重複先前的提示，您可以要求Data Insights Agent更新最新的視覺效果和自由表格。
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」*。
 
@@ -134,13 +164,13 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「依產品類別區分的收入比例」。*
 
-**回應：**&#x200B;再次強調，資料深入分析代理程式會挑選最適合的視覺效果（在此案例中是&#x200B;**[!UICONTROL 環形圖]**&#x200B;視覺效果）來回答問題。
+**回應：**&#x200B;再次，Data Insights Agent會挑選最適合的視覺效果（在此案例中是&#x200B;**[!UICONTROL 環形圖]**&#x200B;視覺效果）來回答問題。
 
 ![環形圖](/help/assets/ai-asst-result3.png)
 
 ## 範例資料視覺效果提示
 
-以下是資料深入分析代理程式用於回應這些提示的一些常見提示和視覺效果範例。
+以下是Data Insights Agent用來回應這些提示的常見提示和視覺效果範例。
 
 | 範例提示 | 預期的視覺效果 |
 | --- | --- |
@@ -159,21 +189,21 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 
 ## 提示最佳實務
 
-資料深入分析代理程式會處理每個使用者提示所提供的內容，並嘗試以自由表格形式聰明地回應最適當的視覺效果和元件。
+Data Insights Agent會處理每個使用者提示所提供的內容，並嘗試以自由格式表格方式，以最適當的視覺效果和元件聰明地回應。
 
 回應可能會因提示中所使用的特定字詞和短語而有所不同，而語言的微小變化可能會導致不同的結果。
 
 若要獲得最佳結果，請考量下列准則：
 
-* 明確：包含確切的辭彙以縮小回應。 以下為特定提示的範例：「上個月的加州銷售額」
+* **明確：**&#x200B;包含確切的辭彙，以縮小回應範圍。 以下為特定提示的範例：「上個月在加州的銷售」
 
-* 使用清楚的量度和區段：新增特定量度（例如「收入」）、維度（例如「網站名稱」）、區段(例如「iPhone使用者」)和日期範圍（例如「過去三個月」），有助於Data Insights Agent聚焦於正確的資料。
+* **使用清除量度、維度和區段：**&#x200B;新增特定量度（例如「收入」）、維度（例如「網站名稱」）、區段(例如「iPhone使用者」)和日期範圍（例如「過去三個月」），有助於Data Insights Agent聚焦於正確的資料。
 
-* 提出直接問題：直接措辭化問題可讓資料見解代理程式更輕鬆地提供清晰、相關的見解。 以下是在提示中詢問直接問題的範例：「今年按產品類別的平均收入是多少？」
+* **直接提問：**&#x200B;直接措辭問題可讓Data Insights Agent更輕鬆地提供清晰、相關的深入分析。 以下是在提示中詢問直接問題的範例：「今年按產品類別的平均收入是多少？」
 
-請檢閱下表範例辭彙和片語，這些辭彙和片語可用於資料分析代理程式的提示中，以及您可以期待的回應型別。
+請檢閱下表，瞭解您可以搭配Data Insights Agent在提示中使用的辭彙和片語範例，以及您可以預期的回應型別。
 
-這些範例旨在協助您熟悉特定字詞或結構如何影響資料分析代理程式的輸出，以確保更精確且有價值的分析。 資料深入分析代理程式使用創作AI，因此視覺效果或選取的資料在類似提示中可能會稍有不同。
+這些範例旨在協助您熟悉特定字詞或結構如何影響Data Insight Agent的輸出，以確保更精確且有價值的深入分析。 Data Insights Agent使用創作AI，因此視覺效果或選取的資料在類似提示中可能會稍有不同。
 
 | 所要的結果 | 辭彙和短語範例 |
 | --- | --- |
@@ -183,24 +213,29 @@ AI助理中的![資料深入分析代理程式](assets/cja-ai-asst-da.gif)
 | 折線圖視覺效果 | <ul><li>趨勢</li><li>在[時間範圍]內的[量度]</li></ul> |
 | 長條圖視覺效果 | <ul><li>由[Dimension]進行的[量度]</li></ul> |
 
-## Beta測試期望和要求的意見回饋
+<!--
 
-提出每個問題後，請仔細檢閱助理提供的答案。 提供意見回饋之前，請務必全面評估產生的視覺效果。
+## Beta testing expectations and requested feedback
 
-評估資料深入分析代理程式的回應時，請考量下列事項：
+After posing each question, carefully review the assistant's provided answer. It's crucial to evaluate the generated visualizations comprehensively before providing feedback. 
 
-* 聊天邊欄回應或範本：評估提供的文字回應。 根據您的提示內容，回應是否適當？
+Consider the following when evaluating a response from Data Insights Agent: 
 
-* 視覺效果/圖表：評估視覺效果。 這是您問題的適當或預期的視覺效果，還是您預期不同的視覺效果？
+* Chat rail response or template: Evaluate the textual response provided. Is the response appropriate given the context of your prompt? 
 
-* 自由表格：評估自由表格。 自由格式表格資料正確嗎？ 它是否在請求時劃分資料？ 套用的區段是否為您要求或預期的區段？
+* Visualization/chart: Evaluate the visualization. Is it the appropriate or expected visualization for your question, or would you have expected a different visualization?  
 
-* 錯誤訊息/超出範圍：如果提供了一般錯誤訊息，指出問題超出範圍，請提供回饋意見，說明在提供提示的情況下，您是否認為超出範圍的訊息適當。 您的提示是否確實在範圍中？
+* Freeform table: Evaluate the freeform table. Is the freeform table data correct? Is it breaking down data where requested? Are the applied segments those that you requested or expected? 
 
-**根據每個回應，向上或向下縮圖表示回應。**
+* Error Message / Out-of-Scope: If a generic error message is given stating the question is out of scope, provide feedback on whether you think the out-of-scope message is appropriate, given your prompt. Was your prompt actually in scope? 
 
-在按一下向上或向下縮圖選取專案後，請選取相關的多重選取意見回饋方塊。 如果您想提供其他意見反應，請在開啟的文字方塊中新增附註。
+**For every response, give a thumbs up or thumbs down, based on the response.**
 
-## 問題與連絡人
+Following the thumbs up or thumbs down selection, please make a selection for the relevant multi-select feedback boxes. If you want to provide additional feedback, add notes in the open text box.
 
-* 在Beta Slack頻道中傳送問題和意見回饋： #data-insights-agent-in-cja-beta
+## Questions and Contact
+
+* Send questions and feedback in the Beta Slack channel: #data-insights-agent-in-cja-beta
+
+-->
+
