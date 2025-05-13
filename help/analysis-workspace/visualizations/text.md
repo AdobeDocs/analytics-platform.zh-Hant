@@ -4,10 +4,10 @@ title: 文字
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+source-git-commit: 75d45cd6a2149bb44949ec6e0f3808ea4a6995f5
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 86%
 
 ---
 
@@ -58,6 +58,10 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ## 新增影像 {#images}
 
-若要新增影像至您的專案，請選取選單中的![影像](/help/assets/icons/Image.svg)並插入公開的影像 URL。影像 URL 必須可公開存取、以 `https` 開頭，且格式為 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持靜態和動畫影像。
+若要新增影像至專案，請在功能表中選取![影像](/help/assets/icons/Image.svg)，然後在&#x200B;**[!UICONTROL 影像URL]** （例如`https://www.adobe.com/uploads/2018/06/Adobe.png`）中指定影像URL，然後選取&#x200B;**[!UICONTROL 儲存]**。
+
+影像 URL 必須可公開存取、以 `https` 開頭，且格式為 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持靜態和動畫影像。
+
+請注意，不支援拖放式插入影像。
 
 ![已選取帶有影像圖示的文字選項。](assets/image.png)
