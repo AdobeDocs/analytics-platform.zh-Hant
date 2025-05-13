@@ -5,120 +5,94 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a7350b6fc8fa75de07238543ed0db48af42b7577
+source-git-commit: baf392d4d576f07d906ccb7cee379bf5cdfd2a34
 workflow-type: tm+mt
-source-wordcount: '7000'
-ht-degree: 61%
+source-wordcount: '7199'
+ht-degree: 59%
 
 ---
 
 # 建立或編輯連線 {#create-or-edit-a-connection}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsadded"
 >title="新增的記錄"
 >abstract="所選資料集在所選的時間間隔中新增至連線的記錄 (列) 數。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsskipped"
 >title="略過的記錄"
 >abstract="所選資料集在所選的時間間隔中於連線的資料傳輸期間略過的記錄 (列) 數。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_recordsdeleted"
 >title="刪除的記錄"
 >abstract="在選取的資料集時間間隔內，從連線中移除的記錄（列）數目。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_lastadded"
 >title="上次新增時間"
 >abstract="從任何資料集中傳輸至連線的最後批次的時間戳記。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_enablerollingdatawindow"
 >title="啟用滾動資料時間範圍"
 >abstract="在連線層級將資料保留定義為以月為單位的滾動時間範圍。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_averagenumberofdailyuses"
 >title="平均每日使用數"
 >abstract="選取整個連線的預期每日事件數範圍。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connections_recordsadded"
 >title="新增的記錄"
 >abstract="所選資料集在所選的時間間隔中新增至連線的記錄 (列) 數。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connections_recordsskipped"
 >title="略過的記錄"
 >abstract="所選資料集在所選的時間間隔中於連線的資料傳輸期間略過的記錄 (列) 數。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connections_recordsdeleted"
 >title="刪除的記錄"
 >abstract="所選資料集在所選的時間間隔內從連線中移除的記錄 (列) 數"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_lastadded"
 >title="上次新增時間"
 >abstract="從任何資料集中傳輸至連線的最後批次的時間戳記。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_enablerollingdatawindow"
 >title="啟用滾動資料時間範圍"
 >abstract="在連線層級將資料保留定義為以月為單位的滾動時間範圍。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_averagenumberofdailyuses"
 >title="平均每日使用數"
 >abstract="選取整個連線的預期每日事件數範圍。"
+
+>[!CONTEXTUALHELP]
+>id="connection_change_accountid"
+>title="變更帳戶 ID"
+>abstract="帳戶ID變更會刪除連線中的所有現有資料，並根據新帳戶ID從資料集中重新擷取所有資料。 此動作可能會影響成本。 <br/><br/>當您選取&#x200B;**[!UICONTROL 繼續]**&#x200B;時，報告可能會延遲到處理程式完成。"
+
+>[!CONTEXTUALHELP]
+>id="connection_change_globalaccountid"
+>title="變更全域帳戶ID"
+>abstract="變更全域帳戶ID會刪除連線中的所有現有資料，並根據新的全域帳戶ID從資料集中重新擷取所有資料。 此動作可能會影響成本。 <br/><br/>當您選取&#x200B;**[!UICONTROL 繼續]**&#x200B;時，報告可能會延遲到處理程式完成。"
+
+>[!CONTEXTUALHELP]
+>id="connection_change_opportunityid"
+>title="變更機會ID"
+>abstract="機會ID的變更會刪除連線中的所有現有資料，並根據新的機會ID從資料集中重新內嵌所有資料。 此動作可能會影響成本。 <br/><br/>當您選取&#x200B;**[!UICONTROL 繼續]**&#x200B;時，報告可能會延遲到處理程式完成。"
+
+>[!CONTEXTUALHELP]
+>id="connection_change_buyinggroupid"
+>title="變更購買群組識別碼"
+>abstract="變更「購買群組ID」會刪除連線中的所有現有資料，並根據新「購買群組ID」從資料集中重新擷取所有資料。 此動作可能會影響成本。 <br/><br/>當您選取&#x200B;**[!UICONTROL 繼續]**&#x200B;時，報告可能會延遲到處理程式完成。"
 
 
 透過輔助工作流程，建立連線和編輯工作流程體驗可將所有資料集和連線組態設定彙整到畫面中央處。它提供詳細的資料集選擇、設定和檢閱體驗。並且可讓您指定重要資訊，例如[資料集型別](#dataset-types)、大小、結構描述、資料集ID、批次狀態、回填狀態、身分等等，以降低連線設定錯誤的風險。 以下是功能概觀：
@@ -168,7 +142,7 @@ ht-degree: 61%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -208,7 +182,7 @@ ht-degree: 61%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -492,7 +466,7 @@ ht-degree: 61%
 
 1. 在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL _連線名稱_]**&#x200B;介面中，選取![資料新增](/help/assets/icons/DataAdd.svg) **[!UICONTROL 新增資料集]**。
 
-1. 在 ➊ **[!UICONTROL 選取資料集]**&#x200B;步驟中，您會看到 Experience Platform 資料集的清單。
+1. 在➊ **[!UICONTROL 選取資料集]**&#x200B;步驟中，您會看到Experience Platform資料集清單。
 
    ![選取資料集](assets/select-datasets.png)
 
@@ -517,13 +491,13 @@ ht-degree: 61%
 
 1. 選取一或多個資料集，然後選取「**[!UICONTROL 下一步]**」。連線中必須至少包含一個事件或摘要資料集。
 
-1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋&#x200B;**[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集[&#128279;](#dataset-settings)的設定。
+1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋ **[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集](#dataset-settings)的[設定。
 
    ![新增資料集](assets/add-dataset.png)
 
 1. 選取&#x200B;**[!UICONTROL 新增資料集]**，將已設定的資料集新增至連線。 如果您尚未提供您要新增的每個資料集的所有必要設定，系統會通知您。
 
-   或者，您可以選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消新增資料集到連線。 或選取&#x200B;**[!UICONTROL 上一步]**&#x200B;以回到➊&#x200B;**[!UICONTROL 選取資料集]**&#x200B;步驟。
+   或者，您可以選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消新增資料集到連線。 或選取&#x200B;**[!UICONTROL 上一步]**&#x200B;以回到➊ **[!UICONTROL 選取資料集]**&#x200B;步驟。
 
 
 ### 編輯資料集
@@ -533,7 +507,7 @@ ht-degree: 61%
 1. 針對要編輯的資料集表格中所列的資料集，選取![更多](/help/assets/icons/More.svg)
 1. 選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**。
 
-1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**&#x200B;對話方塊中設定[資料集設定](#dataset-settings)。
+1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**對話方塊中設定[資料集設定](#dataset-settings)。
 
    ![編輯資料集](assets/edit-dataset.png)
 
@@ -694,7 +668,7 @@ ht-degree: 61%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
