@@ -5,10 +5,10 @@ title: 將 Customer Journey Analytics 報告匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 0fb04c116864f50b396ffbd1f22e2d6dad3da983
+source-git-commit: 9482dd11ecf4aa6f3f8a45c90c3838a4a3389c73
 workflow-type: tm+mt
-source-wordcount: '2285'
-ht-degree: 98%
+source-wordcount: '2312'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,16 @@ ht-degree: 98%
 
 ![如步驟 1 至 4 所述的完整表格匯出。](assets/export-full-table-process.png)
 
-## 從 Analysis Workspace 匯出完整表格
+## 從 Analysis Workspace 匯出完整表格 {#export-from-workspace}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="export-manifest"
+>title="資訊清單檔案"
+>abstract="啟用時，任何成功的匯出傳遞都會包含資訊清單檔案。 資訊清單檔案可讓您確認所有檔案已成功傳遞。"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >
