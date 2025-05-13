@@ -3,10 +3,8 @@ description: 瞭解如何評論Analysis Workspace中的專案
 title: 在專案中新增及檢視註解
 feature: Workspace Basics
 role: User
-hide: true
-hidefromtoc: true
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: ca619cfd0c4f4329c7069e387b5b4d919a53e9fb
+source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
 workflow-type: tm+mt
 source-wordcount: '1683'
 ht-degree: 0%
@@ -14,6 +12,8 @@ ht-degree: 0%
 ---
 
 # 在專案中新增和管理註解 {#comment-on-projects}
+
+{{release-limited-testing}}
 
 Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文中分享見解和提出問題。 如此可簡化有關資料的討論，讓對話保持在討論的資料內容中。
 
@@ -44,7 +44,7 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
 ### 在專案中檢視評論徽章
 
-在專案的特定區域[&#128279;](#comment-on-a-specific-area-of-the-project)上所做的評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.png)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
+在專案的特定區域](#comment-on-a-specific-area-of-the-project)上所做的[評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.png)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
 
 編號會顯示在專案中的每個徽章上，並依照其建立順序排序。 如果在專案的相同區域放入多個註解，徽章會顯示3個點![註解徽章多個](assets/comment-indicator-multiple.png)。 選取3點徽章以顯示該區域中的所有註解。
 
@@ -68,7 +68,7 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
    所有視覺效果都支援視覺效果標題上的註解徽章，但只有下列視覺效果才支援視覺效果中特定資料點的註解徽章：
 
-   * 自由表格
+   * 自由格式表格
    * 同類群組表格
    * 折線圖
 
