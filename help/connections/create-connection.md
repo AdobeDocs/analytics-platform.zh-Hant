@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: baf392d4d576f07d906ccb7cee379bf5cdfd2a34
+source-git-commit: 3aa8986569d5bb5d7767f95cbdaead3f09440383
 workflow-type: tm+mt
-source-wordcount: '7199'
-ht-degree: 59%
+source-wordcount: '7259'
+ht-degree: 58%
 
 ---
 
@@ -73,6 +73,11 @@ ht-degree: 59%
 >id="connection_averagenumberofdailyuses"
 >title="平均每日使用數"
 >abstract="選取整個連線的預期每日事件數範圍。"
+
+>[!CONTEXTUALHELP]
+>id="connection_change_personid"
+>title="變更人員 ID"
+>abstract="人員ID變更會刪除連線中的所有現有資料，並根據新人員ID從資料集中重新內嵌所有資料。 此動作可能會影響成本。 <br/><br/>當您選取&#x200B;**[!UICONTROL 繼續]**&#x200B;時，報告可能會延遲到處理程式完成。"
 
 >[!CONTEXTUALHELP]
 >id="connection_change_accountid"
@@ -142,7 +147,7 @@ ht-degree: 59%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -182,7 +187,7 @@ ht-degree: 59%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -228,231 +233,133 @@ ht-degree: 59%
 
 您[新增一或多個資料集](#add-datasets)或[編輯現有的資料集](#edit-a-dataset)，做為連線工作流程的一部分。
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_primaryid"
 >title="主要 ID"
 >abstract="為您的連線選取正確的主要 ID：B2C 情境的人員。B2B 情境適用的帳戶。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_optionalcontainers"
 >title="選用容器"
 >abstract="選取其他容器。<br/><br/>**[!UICONTROL 全域帳戶&#x200B;]**：可以設定在連線中的全域帳戶。<br/>**[!UICONTROL 機會]**：可以設定在連線中的機會。<br/>**[!UICONTROL 購買群組&#x200B;]**：可以設定在連線中的購買群組。"
 
-<!-- markdownlint-enable MD034 -->
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_connection_personid"
->title="人員 ID"
->abstract="在 Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取人員 ID。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
 >title="帳戶 ID"
 >abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個帳戶 ID (帳戶的唯一身分識別碼)。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountfield"
 >title="帳戶欄位"
 >abstract="選取代表帳戶 ID (帳戶的唯一身分識別碼) 的欄位。"
-
-<!-- markdownlint-enable MD034 -->
-
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_globalaccountid"
 >title="全域帳戶 ID"
 >abstract="從您在Experience Platform的資料集結構描述中定義的可用身分中，選取全域帳戶ID （全域帳戶的唯一識別碼）。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_opportunityid"
 >title="機會 ID"
 >abstract="從您在Experience Platform的資料集結構中定義的可用身分中，選取機會ID （機會的唯一識別碼）。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_buyinggroupid"
 >title="購買群組 ID"
 >abstract="從您在Experience Platform的資料集結構中定義的可用身分中，選取購買群組ID （購買群組的唯一識別碼）。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="cja_connection_personid"
+>title="人員 ID"
+>abstract="從您在Experience Platform的資料集結構中定義的可用身分中，選取人員ID （人員的唯一識別碼）。"
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="比對索引鍵類型"
 >abstract="選取如何聯結：根據依欄位的比對或依容器的比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取要用來聯結其中一個事件資料集的容器。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
 >title="匯入新資料"
 >abstract="任何新增至Experience Platform資料集的新批次，都會自動新增至此連線，並可供分析。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_datasetbackfill"
 >title="資料集回填"
 >abstract="此選項會從Experience Platform回填連線中此資料集的現有（歷史）資料。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja_connection_transformdataset"
 >title="轉換資料集"
 >abstract="此選項會轉換資料集，以便用於B2B案例中的人員型查詢。 資料集一旦開啟轉換便無法復原。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_connectionmap"
 >title="連接圖"
 >abstract="連接圖會以視覺化方式顯示事件、人員、帳戶和相關查詢資料集 (如機會、行銷活動成員等) 之間的關係。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_primaryid"
 >title="主要 ID"
 >abstract="為您的連線選取正確的主要 ID：B2C 情境的人員。B2B 情境適用的帳戶。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_optionalcontainers"
 >title="選用容器"
 >abstract="選取其他容器。<br/><br/>**[!UICONTROL 全域帳戶&#x200B;]**：可以設定在連線中的全域帳戶。<br/>**[!UICONTROL 機會]**：可以設定在連線中的機會。<br/>**[!UICONTROL 購買群組&#x200B;]**：可以設定在連線中的購買群組。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_personid"
 >title="人員 ID"
 >abstract="在 Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取人員 ID。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_accountid"
 >title="帳戶 ID"
 >abstract="從 Experience Platform 資料集結構描述中所定義之可用身分識別裡選取一個帳戶 ID (帳戶的唯一身分識別碼)。"
 
-<!-- markdownlint-enable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
 >title="帳戶欄位"
 >abstract="選取代表帳戶 ID (帳戶的唯一身分識別碼) 的欄位。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_globalaccountid"
 >title="全域帳戶 ID"
 >abstract="從您在Experience Platform的資料集結構描述中定義的可用身分中，選取全域帳戶ID （全域帳戶的唯一識別碼）。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_opportunityid"
 >title="機會 ID"
 >abstract="從您在Experience Platform的資料集結構中定義的可用身分中，選取機會ID （機會的唯一識別碼）。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_buyinggroupid"
 >title="購買群組 ID"
 >abstract="從您在Experience Platform的資料集結構中定義的可用身分中，選取購買群組ID （購買群組的唯一識別碼）。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
 >title="比對索引鍵類型"
 >abstract="選取如何聯結：根據依欄位的比對或依容器的比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取要用來聯結其中一個事件資料集的容器。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_importnewdata"
 >title="匯入新資料"
 >abstract="任何新增至Experience Platform資料集的新批次，都會自動新增至此連線，並可供分析。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_datasetbackfill"
 >title="資料集回填"
 >abstract="此選項會從Experience Platform回填連線中此資料集的現有（歷史）資料。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="connection_transformdataset"
 >title="轉換資料集"
 >abstract="此選項會轉換資料集，以便用於B2B案例中的人員型查詢。 資料集一旦開啟轉換便無法復原。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="connection_connectionmap"
@@ -491,7 +398,7 @@ ht-degree: 59%
 
 1. 選取一或多個資料集，然後選取「**[!UICONTROL 下一步]**」。連線中必須至少包含一個事件或摘要資料集。
 
-1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋ **[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集[&#128279;](#dataset-settings)的設定。
+1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋ **[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集](#dataset-settings)的[設定。
 
    ![新增資料集](assets/add-dataset.png)
 
@@ -507,7 +414,7 @@ ht-degree: 59%
 1. 針對要編輯的資料集表格中所列的資料集，選取![更多](/help/assets/icons/More.svg)
 1. 選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**。
 
-1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**&#x200B;對話方塊中設定[資料集設定](#dataset-settings)。
+1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**對話方塊中設定[資料集設定](#dataset-settings)。
 
    ![編輯資料集](assets/edit-dataset.png)
 
@@ -668,7 +575,7 @@ ht-degree: 59%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
@@ -704,7 +611,7 @@ ht-degree: 59%
 
 ![連線圖](assets/connectionmap.png)
 
-此地圖可協助您更清楚瞭解您如何定義連線，並使用識別碼設定事件、設定檔、查詢和摘要資料集之間的關係。
+此地圖可協助您更清楚瞭解您如何定義連線，並使用容器和識別碼來設定事件、設定檔、查詢和摘要資料集之間的關係。
 
 
 ## 使用數值欄位做為查閱鍵和查閱值 {#numeric}

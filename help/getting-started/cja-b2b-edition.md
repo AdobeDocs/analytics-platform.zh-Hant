@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
+source-git-commit: d0dfcce1a9ba2a2f3e55abc63116ed07a33c9411
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 {{draft-b2b}}
 
-Adobe Analytics一開始是行銷人員的網頁和數位分析工具，而Customer Journey Analytics則擴大了範圍，加入多管道、離線和跨平台資料。  這兩種工具都可協助Business to Consumer (B2C)公司分析並最佳化其行銷活動和客戶體驗。
+Adobe Analytics一開始是行銷人員的網頁和數位分析工具，而Customer Journey Analytics則擴大了範圍，加入多管道、離線和跨平台資料。  這兩種工具都可協助Business to Consumer (B2C)公司分析並最佳化其行銷活動和客戶體驗。 並專注於&#x200B;**以人員為基礎的報告與分析**：瞭解客戶歷程，客戶是跨多個管道與您的品牌互動的人。
 
-在B2B （企業對企業）銷售中，購買歷程涉及多方、線上和離線接觸點，以及完成交易之前的關鍵階段。 B2B公司需要在統一的歷程檢視中追蹤所有這些互動，以有效分析及最佳化其行銷活動和帳戶體驗。
+Customer Journey Analytics B2B edition新增&#x200B;**以帳戶為基礎的報表和分析**。 在B2B （企業對企業）銷售中，購買歷程涉及多方、線上和離線接觸點，以及完成交易之前的關鍵階段。 B2B公司需要在統一的歷程檢視中追蹤所有這些互動，以有效分析及最佳化其行銷活動和帳戶體驗。
 
 典型的B2B銷售特性為：
 
