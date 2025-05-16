@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 97%
+source-wordcount: '1225'
+ht-degree: 99%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 97%
       + [概觀](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [開啟專案](/help/analysis-workspace/build-workspace-project/open-projects.md)
-      + [對專案發表評論](/help/analysis-workspace/build-workspace-project/comment-projects.md)
+      + [針對專案發表評論](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [儲存專案](../analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace 資料夾 {#workspace-folders}
          + [關於資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
@@ -387,17 +387,17 @@ ht-degree: 97%
 
 + Report Builder {#cja-reportbuilder}
    + [概觀](../report-builder/rb-overview.md)
-   + [Report Builder設定](../report-builder/report-builder-setup.md)
+   + [Report Builder 設定](../report-builder/report-builder-setup.md)
    + [建立資料區塊](../report-builder/create-a-data-block.md)
-   + [Report Builder中心](../report-builder/report-builder-hub.md)
+   + [Report Builder 中心](../report-builder/report-builder-hub.md)
    + [選取資料檢視](../report-builder/select-data-view.md)
    + [選取日期範圍](../report-builder/select-date-range.md)
    + [使用區段](../report-builder/work-with-filters.md)
-   + [篩選器維度 ](../report-builder/filter-dimensions.md)
+   + [篩選器維度](../report-builder/filter-dimensions.md)
    + [管理資料區塊](../report-builder/manage-reportbuilder.md)
    + [排程活頁簿](../report-builder/schedule-reportbuilder.md)
    + [受限制的標籤](../report-builder/restricted-labels.md)
-   + [Report Builder設定](../report-builder/report-builder-settings.md)
+   + [Report Builder 設定](../report-builder/report-builder-settings.md)
 
 
 + 報告活動管理器 {#reporting-activity-manager}
@@ -411,6 +411,7 @@ ht-degree: 97%
    + [依圖表匯整](/help/stitching/gbs.md)
    + [使用匯整](/help/stitching/use-stitching.md)
    + [建立和管理拼接資料集](/help/stitching/stitching-ui.md)
+   + [驗證拼接](/help/stitching/validate.md)
    + [常見問題](/help/stitching/faq.md)
 
 + Adobe 整合 {#integrations}
