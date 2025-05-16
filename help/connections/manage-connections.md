@@ -8,8 +8,8 @@ feature: Connections
 role: Admin
 source-git-commit: 836c793ae74185728af03636b0ba3e838f46f05d
 workflow-type: tm+mt
-source-wordcount: '4135'
-ht-degree: 70%
+source-wordcount: '4133'
+ht-degree: 74%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 70%
 
 | 欄或圖示 | 說明 |
 | --- | --- |
-| **[!UICONTROL _名稱_]** | 連線的易記名稱。 選取超連結名稱以檢視連線[&#128279;](#connection-details)的詳細資料。 |
+| **[!UICONTROL _名稱_]** | 連線的易記名稱。 選取超連結名稱以檢視連線](#connection-details)的[詳細資料。 |
 | ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | 若要檢視有關[!UICONTROL 包含的資料集]、 [!UICONTROL 沙箱]、 [!UICONTROL 所有者]等資訊，請選取連線名稱旁邊的  ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 。<p>快顯視窗會顯示資料集的詳細資訊。 <p>![連線資訊快顯功能表](assets/connection-info-popup.png) |
 | ![更多內容](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選取![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)以開啟內容功能表。 您可以選擇： <p>![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 編輯]**&#x200B;以[編輯](#edit-a-connection)連線。<p>![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 刪除]**&#x200B;以[刪除](#delete-a-connection)連線。<p>![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL 建立新的資料檢視]**&#x200B;以[為連線建立新的資料檢視](#create-a-data-view)。<p>![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 連線對應]**&#x200B;以檢視連線的[連線對應](#map-a-connection)。 |
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 連線型別&#x200B;]** | 連線型別： **[!UICONTROL 人員]**&#x200B;或&#x200B;**[!UICONTROL 帳戶]**&#x200B;連線。 |
@@ -86,13 +86,13 @@ ht-degree: 70%
 
 刪除連線時， **[!UICONTROL 刪除連線]**&#x200B;面板會指示哪些資料檢視被刪除以及哪些工作區專案受到影響。
 
-* 在{➊0}資訊&#x200B;**中，會顯示刪除連線的影響。**
+* 在➊ **[!UICONTROL 資訊]**&#x200B;中，會顯示刪除連線的影響。
 
   ![刪除連線](assets/delete-connection.png)
 
   選取&#x200B;**[!UICONTROL 繼續]**&#x200B;以確認刪除。
 
-* 在{➋0}確認&#x200B;**中，在**&#x200B;[!UICONTROL &#x200B;輸入連線名稱&#x200B;]&#x200B;**中輸入連線名稱，然後選取**&#x200B;[!UICONTROL &#x200B;刪除&#x200B;]&#x200B;**以刪除連線。**&#x200B;選取「**[!UICONTROL 取消]**」即可取消。
+* 在➋ **[!UICONTROL 確認]**&#x200B;中，在&#x200B;**[!UICONTROL 輸入連線名稱]**&#x200B;中輸入連線名稱，然後選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以刪除連線。 選取「**[!UICONTROL 取消]**」即可取消。
 
 請參閱「[刪除影響](/help/technotes/deletion.md)」，了解有關刪除連線的詳細資訊。
 
@@ -197,13 +197,13 @@ ht-degree: 70%
 
 | 詳細資料 | 說明 |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID &#x200B;]** | 您指定為連線之全域帳戶ID的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID &#x200B;]** | 您指定為連線之帳戶ID的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID ]** | 您指定為連線之全域帳戶ID的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID ]** | 您指定為連線之帳戶ID的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
 | **[!UICONTROL 人員 ID]** | 您指定為連線之人員ID的身分識別。 |
 | **[!UICONTROL 索引鍵]** | 您為查詢資料集指定的索引鍵。 |
 | **[!UICONTROL 比對索引鍵]** | 您為查詢資料集指定的比對索引鍵。 |
 | **[!UICONTROL 時間戳記]** | 為事件資料集定義的時間戳記。 |
-| **[!UICONTROL 可用記錄]** | 在透過行事曆選取的特定時段中，為此資料集攝取的資料列總數。 在新增資料後，資料會立即出現在報告中，不需要等候。 然而，當你建立全新連線時， 會有[延遲](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)。 |
+| **[!UICONTROL 可用記錄]** | 在透過行事曆選取的特定時段中，為此資料集攝取的資料列總數。 在新增資料後，資料會立即出現在報告中，不需要等候。 然而，當你建立全新連線時， 會有[延遲](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)。 |
 | **[!UICONTROL 新增的記錄]** | 在選取的日期範圍內新增到連線的資料集記錄（列）數。 |
 | **[!UICONTROL 略過的記錄]** | 在選取的日期範圍內，針對連線在資料傳輸期間略過的資料集記錄（列）數。 |
 | **[!UICONTROL 批次已新增]** | 已新增至連線的批次數量。 |
@@ -241,7 +241,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_monthlyreportablerows"
 >title="每月可報告列數"
->abstract="追蹤可供報告的列數。可報告列是擷取的列減去擷取期間略過和刪除的列。 可報告列數是計費和資料使用情況的關鍵量度。"
+>abstract="追蹤可供報告的列數。可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。可報告列數是計費和資料使用情況的關鍵量度。"
 <!-- markdownlint-enable MD034 -->
 
 
@@ -258,7 +258,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_otherdatasets"
 >title="其他資料集"
->abstract="2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為&#x200B;*其他資料集*。從2024年9月開始，資料會在精細資料集層級收集，且&#x200B;*其他資料集*&#x200B;不再出現。"
+>abstract="2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為&#x200B;*其他資料集*。從 2024 年 9 月開始，會在精細資料集層級收集資料，*其他資料集*&#x200B;則不再顯示。"
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -274,7 +274,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_connections_usage_datanotavailable"
 >title="資料無法使用"
->abstract="由於系統限制，無法取得 2024 年 9 月之前的歷史資料。從 2024 年 9 月起收集和顯示量度。圖表會顯示時間軸上的過去18個月，當資料可供使用時，將會顯示未來的資料。"
+>abstract="由於系統限制，無法取得 2024 年 9 月之前的歷史資料。從 2024 年 9 月起收集和顯示量度。此圖表會在時間軸上顯示過去 18 個月，且未來資料會在資料可用時顯示。"
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -282,7 +282,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_connections_corereportablerows"
 >title="核心可報告列數"
->abstract="過去13個月可用的列總數。 例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
+>abstract="過去 13 個月的可用總列數。例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -290,7 +290,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="cja_connections_historicalreportablerows"
 >title="歷史可報告列數"
->abstract="超過13個月的期間可用的列總數。 例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
+>abstract="超過 13 個月以前可用的總列數。例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -316,7 +316,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_usage_monthlyreportablerows"
 >title="每月可報告列數"
->abstract="追蹤可供報告的列數。可報告列是擷取的列減去擷取期間略過和刪除的列。 可報告列數是計費和資料使用情況的關鍵量度。"
+>abstract="追蹤可供報告的列數。可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。可報告列數是計費和資料使用情況的關鍵量度。"
 <!-- markdownlint-enable MD034 -->
 
 
@@ -333,7 +333,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_usage_otherdatasets"
 >title="其他資料集"
->abstract="2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為&#x200B;*其他資料集*。從2024年9月開始，資料會在精細資料集層級收集，且&#x200B;*其他資料集*&#x200B;不再出現。"
+>abstract="2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為&#x200B;*其他資料集*。從 2024 年 9 月開始，會在精細資料集層級收集資料，*其他資料集*&#x200B;則不再顯示。"
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -349,7 +349,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_usage_datanotavailable"
 >title="資料無法使用"
->abstract="由於系統限制，無法取得 2024 年 9 月之前的歷史資料。從 2024 年 9 月起收集和顯示量度。圖表會在時間軸上顯示過去18個月，當資料可供使用時，即會顯示未來的資料。"
+>abstract="由於系統限制，無法取得 2024 年 9 月之前的歷史資料。從 2024 年 9 月起收集和顯示量度。此圖表會在時間軸上顯示過去 18 個月，且未來資料會在資料可用時顯示。"
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -357,7 +357,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_corereportablerows"
 >title="核心可報告列數"
->abstract="過去13個月可用的列總數。 例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
+>abstract="過去 13 個月的可用總列數。例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
@@ -365,7 +365,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_historicalreportablerows"
 >title="歷史可報告列數"
->abstract="超過13個月的期間可用的列總數。 例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
+>abstract="超過 13 個月以前可用的總列數。例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -374,17 +374,17 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_corereportablerows"
 >title="核心可報告列數"
->abstract="核心可報告列數是快照的值，而不是彙總總計。這些值會依所選日期範圍內的最後一個月進行動態更新。如果客戶選取1月至3月，則值會反映3月的快照。"
+>abstract="核心可報告列數是快照的值，而不是彙總總計。這些值會依所選日期範圍內的最後一個月進行動態更新。如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_historicalreportablerows"
 >title="歷史可報告列數"
->abstract="歷史可報告列數是快照的值，而不是彙總總計。這些值會依所選日期範圍內的最後一個月進行動態更新。如果客戶選取1月至3月，則值會反映3月的快照。"
+>abstract="歷史可報告列數是快照的值，而不是彙總總計。這些值會依所選日期範圍內的最後一個月進行動態更新。如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_cumulativereportablerows"
 >title="累計可報告列數"
->abstract="累計可報告列數是快照的值，而不是彙總總計。這些值會依所選日期範圍內的最後一個月進行動態更新。如果客戶選取1月至3月，則值會反映3月的快照。"
+>abstract="累計可報告列數是快照的值，而不是彙總總計。這些值會依所選日期範圍內的最後一個月進行動態更新。如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
 
 <!-- markdownlint-enable MD034 -->
 

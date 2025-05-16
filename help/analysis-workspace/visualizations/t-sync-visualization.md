@@ -8,7 +8,7 @@ role: User
 source-git-commit: 8f9c03607130bdeaf6cb7a32d8dd465712a47ea5
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"
 >title="顯示表格"
->abstract="選取&#x200B;**[!UICONTROL 顯示資料表]**，為您目前的視覺效果產生新的資料來源，與原始資料來源分開。"
+>abstract="選取「**[!UICONTROL 顯示表格]**」可為您目前的視覺效果產生新的資料來源，且與原始資料來源分開。"
 
 <!-- markdownlint-enable MD034 -->
 

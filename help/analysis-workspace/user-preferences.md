@@ -8,7 +8,7 @@ role: User
 source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
 workflow-type: tm+mt
 source-wordcount: '4051'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="需要 Experience Cloud 驗證"
->abstract="啟用後，在Analysis Workspace中透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項取得專案存取權的使用者，必須使用其Experience Cloud認證進行驗證。"
+>abstract="啟用後，從 Analysis Workspace「**[!UICONTROL 與任何人共用]**」選項取得專案存取權限的人員，就必須使用其 Experience Cloud 認證進行驗證。"
 
 <!-- markdownlint-enable MD034 -->
 
