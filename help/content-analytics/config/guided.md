@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 4c426b206cf4de06cbf0262f4d89787af060bb30
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 98%
+source-wordcount: '2653'
+ht-degree: 96%
 
 ---
 
@@ -108,6 +108,11 @@ ht-degree: 98%
 >id="aca_onboarding_dataview_prev_cleanup_labels_dialog"
 >title="清除先前的資料檢視"
 >abstract="您已選取一個新的資料檢視。先前所選取之資料檢視的 Content Analytics 設定已移除。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataview_new_dialog"
+>title="新的資料檢視"
+>abstract="您已為此設定選取新的資料檢視。 新的資料檢視將會更新，以包含Content Analytics量度和維度。 類似的量度和維度將從現有資料檢視中移除。<br/>如果新的資料檢視關聯不同的連線，則連線將會更新以包含Content Analytics資料集。 請注意，Content Analytics資料集不會從現有設定中移除。"
 
 <!-- markdownlint-enable MD034 -->
 

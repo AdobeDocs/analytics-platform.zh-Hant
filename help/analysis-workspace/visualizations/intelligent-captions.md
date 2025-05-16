@@ -4,9 +4,9 @@ title: 智慧型註解
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 4d566411778774d21be04c4f3d6cf2ffabed6db2
-workflow-type: ht
-source-wordcount: '876'
+source-git-commit: af8d4f07498211931e9549cadd4746eebb9f56f4
+workflow-type: tm+mt
+source-wordcount: '754'
 ht-degree: 100%
 
 ---
@@ -16,65 +16,10 @@ ht-degree: 100%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_area"
->title="智慧型註解：區域圖"
+>id="workspace_intelligentcaptions"
+>title="智慧型註解"
 >abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_bar"
->title="智慧型註解：長條圖"
->abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_donut"
->title="智慧型註解：環形圖"
->abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_horizontalbar"
->title="智慧型註解：長條圖"
->abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_line"
->title="智慧型註解：折線圖"
->abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_fallout"
->title="智慧型註解：流失"
->abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_flow"
->title="智慧型註解：流量"
->abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
-
-<!-- markdownlint-enable MD034 -->
 
 智慧型註解功能是使用先進的生成式 AI，為自然語言中最常用的 Workspace 視覺效果提供關鍵分析。
 
@@ -85,7 +30,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [智慧型註解](https://video.tv.adobe.com/v/3443149/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [智慧型註解](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
