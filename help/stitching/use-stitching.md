@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 7cd0bd94ec45b1570d0be765d95b25defa3e1b87
+source-git-commit: dd285caa3d9702d3ddccdba2bc656767a9fe4684
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 9%
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # 使用匯整
 
-一旦您的組織符合所有[必要條件](#prerequisites)，並瞭解常見的[限制](#limitations)和拼接方法特定限制（[欄位式](#limitations-1)和[圖形式](#limitations-2)），您可以依照這些步驟開始在Customer Journey Analytics中使用拼接。
+一旦您的組織符合所有[必要條件](overview.md#prerequisites)，並瞭解常見的[限制](overview.md#limitations)和拼接方法特定限制（[欄位式](fbs.md#limitations)和[圖形式](gbs.md#limitations)），您可以依照這些步驟開始在Customer Journey Analytics中使用拼接。
 
 ## 選取選項
 
