@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B Edition"
+exl-id: f5294af8-b8dc-4239-b0f7-5c20d39007ee
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
 
 # 成長關鍵客戶
+
+{{draft-b2b}}
 
 成長及保留重要帳戶是B2B公司的重要考量。 確保交易進度的先決條件是在適當的時間與目標帳戶中的關鍵利害關係人溝通。
 
@@ -51,4 +55,3 @@ ht-degree: 2%
 1. [智慧型警報](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 1. [與工作區使用者或任何人員共用](/help/analysis-workspace/curate-share/share-projects.md)
 1. [註解](/help/analysis-workspace/build-workspace-project/comment-projects.md)
-

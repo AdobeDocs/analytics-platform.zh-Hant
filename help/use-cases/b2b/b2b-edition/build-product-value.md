@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B Edition"
+exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 1%
 
 ---
 
 # 建立產品價值
+
+{{draft-b2b}}
 
 您想要將B2B產品價值的深入解析傳達給產品經理和CMO或CEO。 例如，透過資料導向的流失分析或述詞。 並可透過行動控制面板消化這些深入分析。
 
@@ -61,5 +65,3 @@ Customer Journey Analytics B2B edition可支援您提供產品價值分析。 �
 1. 使用&#x200B;**[!UICONTROL 預覽]**&#x200B;來預覽儀表板。 儀表板現在可從Adobe Analytics儀表板應用程式取得，也可從[App Store](https://apps.apple.com/us/app/adobe-analytics-dashboards/id1509062264)或[Google Play](https://play.google.com/store/apps/details?id=com.adobe.analyticsdashboards)取得。
 
    ![B2B使用案例 — 建立產品值 — 將深入分析大眾化 — 行動計分卡預覽](assets/b2b-uc-build-product-value-mobile-scorecard-preview.png)
-
-
