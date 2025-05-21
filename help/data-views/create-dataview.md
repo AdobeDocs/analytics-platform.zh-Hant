@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
+source-git-commit: 07f9a224d43658a58779abecd6473fceb7109ef4
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 99%
@@ -54,7 +54,7 @@ ht-degree: 99%
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
 
-### 設定 {#settings}
+### 設定 {#configure-settings}
 
 
 >[!CONTEXTUALHELP]
@@ -175,14 +175,14 @@ ht-degree: 99%
 
 
 
-## 設定
+## 設定 {#dataview-settings}
 
 1. 選取「**[!UICONTROL 設定]**」索引標籤。
 1. 設定區段以套用於整個資料視圖。請參閱下方的[設定 (區段)](#settings-filters)。
 1. 設定工作階段逾時和量度。請參閱下方的「[工作階段設定](#session-settings)」。
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
-### 設定 (區段)
+### 設定 (區段) {#segment-settings}
 
 您可以新增套用至整個資料視圖的區段。此區段將套用至您在 Workspace 中執行的任何報告。自左側邊欄的清單將區段拖曳至「**[!UICONTROL 新增區段]**」欄位。
 

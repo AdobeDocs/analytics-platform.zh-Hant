@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
+source-git-commit: d56605b1ae7fd6d83853ad54ce823464090e0192
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 99%
+source-wordcount: '1241'
+ht-degree: 98%
 
 ---
 
@@ -433,7 +433,13 @@ ht-degree: 99%
       + [使用行銷管道維度](../use-cases/aa-data/marketing-channels.md)
       + [結合報告套裝與不同的結構描述](../use-cases/aa-data/combine-report-suites.md)
    + B2B {#b2b}
-      + [B2B 專案範例](../use-cases/b2b/example.md)
+      + [以人為本的B2B專案範例](../use-cases/b2b/example.md)
+      + B2B Edition {#b2b-edition}
+         + [使用案例概觀](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+         + [設定](/help/use-cases/b2b/b2b-edition/setup.md)
+         + [最佳化帳戶行銷](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
+         + [成長關鍵客戶](/help/use-cases/b2b/b2b-edition/grow-key-accounts.md)
+         + [建立產品價值](/help/use-cases/b2b/b2b-edition/build-product-value.md)
    + 複雜的資料 {#complex-data}
       + [使用物件陣列](../use-cases/object-arrays.md)
    + 跨管道的資料 {#cross-channel}

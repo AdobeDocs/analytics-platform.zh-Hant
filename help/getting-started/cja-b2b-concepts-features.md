@@ -4,11 +4,11 @@ description: Customer Journey Analytics B2B edition的概念和功能。
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-badgePremium: label="B2B edition"
+badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
+source-git-commit: 6bfd54148736d4b3434eac3ee3aa6fc8a838d57a
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1470'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 容器
 
-在Customer Journey Analytics中，容器會在連線和資料檢視的設定過程中產生。 容器會儲存識別碼群組，以促進快速且有效執行分段、劃分等功能。
+在Customer Journey Analytics中，容器是在連線和資料檢視的設定過程中產生，並提供資料結構和範圍。 容器儲存識別碼群組，以依據唯一識別碼排序所有事件時間戳記。 該儲存空間有助於快速且高效執行分段、歸因和視覺效果等功能。
 
 ### 標準容器
 
@@ -44,7 +44,7 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
 ![B2C](assets/b2c-containers.svg){zoomable="yes"}
 
 
-### B2B容器
+### B2B 容器
 
 在Customer Journey Analytics B2B edition中，帳戶容器會新增至產生的容器清單中。 您可以選擇設定產生其他容器，例如「全域帳戶」、「購買群組」和「商機」。
 
@@ -64,6 +64,23 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
 >
 >* 若您在以帳戶為基礎的連線中&#x200B;**已啟用**&#x200B;全域帳戶容器，則事件資料集中的每筆記錄都應包含帳戶ID和全域帳戶ID。 如果沒有，則會略過記錄。
 >* 如果您&#x200B;**未啟用**&#x200B;以帳戶為基礎的連線中的全域帳戶容器，則事件資料集中的每筆記錄都應包含帳戶ID。 如果沒有，則會略過記錄。
+
+您可以在Analysis Workspace中，針對特定B2B功能使用B2B容器：
+
+* **區段**： [B2B區段容器](/help/components/filters/filters-overview.md#b2b-containers)可讓您建立其容器範圍超出人員、工作階段或事件的區段。 例如：具有事件登記節段的科目，或具有購買群組與階段5商機節段的美國科目。
+
+  >[!NOTE]
+  >
+  >Customer Journey Analytics B2B edition中以帳戶為基礎設定的B2B事件資料，可能包含不含個人或工作階段的資料列。 例如：詳細說明商機階段進展的資料列。 評估區段時，請記住，人員和工作階段可能不再是正確的標準。
+  >
+
+* **歸因**：您可以在[歸因面板](/help/analysis-workspace/c-panels/attribution.md)、[歸因元件設定](/help/data-views/component-settings/attribution.md)、[計算量度](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)或自由表格](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的[欄中使用新的B2B容器。 帳戶回顧期間延長至13個月。
+
+* **視覺效果**： [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)、[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)、[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)和[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)視覺效果支援新的B2B容器。 例如：您可以使用新的容器來瞭解購買群組如何耗用內容，或機會同類群組如何接近銷售結尾。
+您也可以在[使用者偏好設定](/help/analysis-workspace/user-preferences.md#visualizations-preferences)中設定這些視覺效果的預設容器。
+
+區段、歸因和視覺效果以及B2B容器可支援您進行深入的B2B分析和深入分析。
+
 
 ## 資料集
 
