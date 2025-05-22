@@ -3,9 +3,9 @@ description: 了解關於厘度類型和歸因
 title: 量度類型和歸因
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
-source-wordcount: '947'
+source-git-commit: 2d182004b12eb44f54ec9b4b5f63cb9072594aec
+workflow-type: tm+mt
+source-wordcount: '1007'
 ht-degree: 100%
 
 ---
@@ -45,122 +45,92 @@ ht-degree: 100%
 
 ## 歸因 {#attribution}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="使用非預設歸因模式"
 >abstract="為所選的量度啟用非預設歸因模型。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="模型"
 >abstract="選取此量度的歸因模型。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="上次接觸"
 >abstract="100% 功勞歸於訪客看到的最後一個維度值。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="首次接觸"
 >abstract="100% 功勞會歸於訪客看到的第一個維度值。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="線性"
 >abstract="功勞平均分佈在所有維度值上。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="參與率"
 >abstract="100% 功勞歸於訪客看到的每個維度值。<br/>欄總計會出現浮報現象。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
 >title="同一次接觸"
 >abstract="功勞僅給予與轉換同一事件中發生的維度值。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_instance"
+>title="同一次接觸"
+>abstract="功勞僅給予與轉換同一事件中發生的維度值。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_ushaped"
 >title="U 型"
 >abstract="40% 功勞歸於第一個維度值，40% 歸於最後一個維度值，20% 則分配到中間的維度值。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
 >title="J 曲線"
 >abstract="60% 功勞歸於最後一個維度值，20% 歸於第一個維度值，20% 則分配到中間的維度值。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jshaped"
+>title="J 曲線"
+>abstract="60% 功勞歸於最後一個維度值，20% 歸於第一個維度值，20% 則分配到中間的維度值。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
 >title="反向 J"
 >abstract="60% 功勞歸於第一個維度值，20% 歸於最後一個維度值，20% 則分配到中間的維度值。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_reversejshaped"
+>title="反向 J"
+>abstract="60% 功勞歸於第一個維度值，20% 歸於最後一個維度值，20% 則分配到中間的維度值。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="時間耗損"
 >abstract="在時間上最接近轉換的維度值獲得最多功勞。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="自訂"
 >abstract="根據歸因加權定義您自己的位置。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_positionbased"
+>title="自訂"
+>abstract="根據歸因加權定義您自己的位置。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="演算法"
 >abstract="功勞是根據統計演算法動態決定的。"
 
-<!-- markdownlint-enable MD034 -->
 
 
 {{attribution-models-details}}
