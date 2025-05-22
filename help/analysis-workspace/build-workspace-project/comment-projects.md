@@ -4,9 +4,9 @@ title: 在專案中新增及檢視註解
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: df147b92e19b6dee66fcf6346113596f1cde6fd1
+source-git-commit: ed84015c15eba817fe26c53783c28bfeba48fc0d
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
 ### 在專案中檢視評論徽章
 
-在專案的特定區域[&#128279;](#comment-on-a-specific-area-of-the-project)上所做的評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.png)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
+在專案的特定區域](#comment-on-a-specific-area-of-the-project)上所做的[評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.png)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
 
 編號會顯示在專案中的每個徽章上，並依照其建立順序排序。 如果在專案的相同區域放入多個註解，徽章會顯示3個點![註解徽章多個](assets/comment-indicator-multiple.png)。 選取3點徽章以顯示該區域中的所有註解。
 
@@ -108,9 +108,9 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 當使用@符號在註解中包含人時，請考量下列事項：
 
-* 您加入的人員會根據其Adobe Experience Cloud通知設定收到通知。 依預設，他們會收到[Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#view-notifications)。
+* 您加入的人員會根據其Adobe Experience Cloud通知設定收到通知。 依預設，使用者會收到應用程式內通知，可在Customer Journey Analytics中的[Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)圖示![Experience Cloud通知圖示](assets/experience-cloud-notification.png)中看到。
 
-  此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
+  此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
 
 * 您可以在註解中加入組織中的任何人，但這樣做不會自動授予他們存取專案的許可權。 只有已擁有專案存取許可權的人員才能存取專案。
 
