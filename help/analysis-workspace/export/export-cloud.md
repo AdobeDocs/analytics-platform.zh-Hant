@@ -5,10 +5,10 @@ title: 將 Customer Journey Analytics 報告匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: c503b5bc65565b342e5e6bea8c019d8e1ee1e429
+source-git-commit: 0891aa2bed446e704b0222eff992c5f5bc200f82
 workflow-type: tm+mt
-source-wordcount: '2284'
-ht-degree: 98%
+source-wordcount: '2340'
+ht-degree: 95%
 
 ---
 
@@ -156,9 +156,9 @@ ht-degree: 98%
 * 靜態列
 * 日期對齊
 * 來自摘要資料集的量度
-* 動態維度
+* 動態維度項目
 
-  有關詳細資訊，請參閱「[自由格式表中的動態與靜態維度項目](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
+  動態維度專案建立時，是將維度拖曳至自由表格中的欄標題上，導致欄遭到前5個維度專案的動態篩選。 在Analysis Workspace中，每當您載入專案時，排名前5的維度專案都會更新。 在完整表格匯出作業中，這些維度專案會變成靜態。 有關詳細資訊，請參閱「[自由格式表中的動態與靜態維度項目](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
 * 第一個劃分中的維度會被轉換並新增為次要維度至匯出表格的資料列中；表格中未包括任何其他劃分
 * 大多數資料集不支援排序；若是小型資料集，資料可能可進行排序
 
