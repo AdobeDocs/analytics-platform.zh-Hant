@@ -108,9 +108,9 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 當使用@符號在註解中包含人時，請考量下列事項：
 
-* 您加入的人員會根據其Adobe Experience Cloud通知設定收到通知。 依預設，他們會收到[Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)。
+* 您加入的人員會根據其Adobe Experience Cloud通知設定收到通知。 依預設，他們會收到[Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#view-notifications)。
 
-  此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
+  此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
 
 * 您可以在註解中加入組織中的任何人，但這樣做不會自動授予他們存取專案的許可權。 只有已擁有專案存取許可權的人員才能存取專案。
 
