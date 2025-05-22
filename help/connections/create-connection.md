@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 3aa8986569d5bb5d7767f95cbdaead3f09440383
 workflow-type: tm+mt
 source-wordcount: '7259'
-ht-degree: 63%
+ht-degree: 67%
 
 ---
 
@@ -77,27 +77,27 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="connection_change_personid"
 >title="變更人員 ID"
->abstract="人員ID變更會刪除連線中的所有現有資料，並根據新人員ID從資料集中重新內嵌所有資料。 此動作可能會影響成本。 <br/><br/>當您選取&#x200B;**[!UICONTROL 繼續]**&#x200B;時，報告可能會延遲到處理程式完成。"
+>abstract="變更人員 ID 會刪除連線中所有現有資料，並根據新的人員 ID 重新收錄資料集中所有資料。這個動作可能會產生成本支出。<br/><br/>當您選擇「**[!UICONTROL 繼續]**」時，報告可能會延遲，直到該程序完成為止。"
 
 >[!CONTEXTUALHELP]
 >id="connection_change_accountid"
 >title="變更帳戶 ID"
->abstract="帳戶ID變更會刪除連線中的所有現有資料，並根據新帳戶ID從資料集中重新擷取所有資料。 此動作可能會影響成本。 <br/><br/>當您選取&#x200B;**[!UICONTROL 繼續]**&#x200B;時，報告可能會延遲到處理程式完成。"
+>abstract="變更帳戶 ID 會刪除連線中所有現有資料，並根據新的帳戶 ID 重新收錄資料集中所有資料。這個動作可能會產生成本支出。<br/><br/>當您選擇「**[!UICONTROL 繼續]**」時，報告可能會延遲，直到該程序完成為止。"
 
 >[!CONTEXTUALHELP]
 >id="connection_change_globalaccountid"
->title="變更全域帳戶ID"
->abstract="變更全域帳戶ID會刪除連線中的所有現有資料，並根據新的全域帳戶ID從資料集中重新擷取所有資料。 此動作可能會影響成本。 <br/><br/>當您選取&#x200B;**[!UICONTROL 繼續]**&#x200B;時，報告可能會延遲到處理程式完成。"
+>title="變更全域帳戶 ID"
+>abstract="變更全域帳戶 ID 會刪除連線中所有現有資料，並根據新的全域帳戶 ID 重新收錄資料集中所有資料。這個動作可能會產生成本支出。<br/><br/>當您選擇「**[!UICONTROL 繼續]**」時，報告可能會延遲，直到該程序完成為止。"
 
 >[!CONTEXTUALHELP]
 >id="connection_change_opportunityid"
->title="變更機會ID"
->abstract="機會ID的變更會刪除連線中的所有現有資料，並根據新的機會ID從資料集中重新內嵌所有資料。 此動作可能會影響成本。 <br/><br/>當您選取&#x200B;**[!UICONTROL 繼續]**&#x200B;時，報告可能會延遲到處理程式完成。"
+>title="變更機會 ID"
+>abstract="變更機會 ID 會刪除連線中所有現有資料，並根據新的機會 ID 重新收錄資料集中所有資料。這個動作可能會產生成本支出。<br/><br/>當您選擇「**[!UICONTROL 繼續]**」時，報告可能會延遲，直到該程序完成為止。"
 
 >[!CONTEXTUALHELP]
 >id="connection_change_buyinggroupid"
->title="變更購買群組識別碼"
->abstract="變更「購買群組ID」會刪除連線中的所有現有資料，並根據新「購買群組ID」從資料集中重新擷取所有資料。 此動作可能會影響成本。 <br/><br/>當您選取&#x200B;**[!UICONTROL 繼續]**&#x200B;時，報告可能會延遲到處理程式完成。"
+>title="變更購買群組 ID"
+>abstract="變更購買群組 ID 會刪除連線中所有現有資料，並根據新的購買群組 ID 重新收錄資料集中所有資料。這個動作可能會產生成本支出。<br/><br/>當您選擇「**[!UICONTROL 繼續]**」時，報告可能會延遲，直到該程序完成為止。"
 
 
 透過輔助工作流程，建立連線和編輯工作流程體驗可將所有資料集和連線組態設定彙整到畫面中央處。它提供詳細的資料集選擇、設定和檢閱體驗。並且可讓您指定重要資訊，例如[資料集型別](#dataset-types)、大小、結構描述、資料集ID、批次狀態、回填狀態、身分等等，以降低連線設定錯誤的風險。 以下是功能概觀：
@@ -147,7 +147,7 @@ ht-degree: 63%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -187,7 +187,7 @@ ht-degree: 63%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -274,7 +274,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="cja_connection_personid"
 >title="人員 ID"
->abstract="從您在Experience Platform的資料集結構中定義的可用身分中，選取人員ID （人員的唯一識別碼）。"
+>abstract="從您在 Experience Platform 的資料集結構描述中定義的可用身分識別中，選取一個人員 ID (一名人員的唯一識別碼)。"
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
@@ -398,7 +398,7 @@ ht-degree: 63%
 
 1. 選取一或多個資料集，然後選取「**[!UICONTROL 下一步]**」。連線中必須至少包含一個事件或摘要資料集。
 
-1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋ **[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集[&#128279;](#dataset-settings)的設定。
+1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋ **[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集](#dataset-settings)的[設定。
 
    ![新增資料集](assets/add-dataset.png)
 
@@ -414,7 +414,7 @@ ht-degree: 63%
 1. 針對要編輯的資料集表格中所列的資料集，選取![更多](/help/assets/icons/More.svg)
 1. 選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**。
 
-1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**&#x200B;對話方塊中設定[資料集設定](#dataset-settings)。
+1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**對話方塊中設定[資料集設定](#dataset-settings)。
 
    ![編輯資料集](assets/edit-dataset.png)
 
@@ -575,7 +575,7 @@ ht-degree: 63%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 

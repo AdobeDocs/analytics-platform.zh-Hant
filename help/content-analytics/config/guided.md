@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: 4c426b206cf4de06cbf0262f4d89787af060bb30
 workflow-type: tm+mt
 source-wordcount: '2653'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_new_dialog"
 >title="新的資料檢視"
->abstract="您已為此設定選取新的資料檢視。 新的資料檢視將會更新，以包含Content Analytics量度和維度。 類似的量度和維度將從現有資料檢視中移除。<br/>如果新的資料檢視關聯不同的連線，則連線將會更新以包含Content Analytics資料集。 請注意，Content Analytics資料集不會從現有設定中移除。"
+>abstract="您已經為這個設定選取新的資料視圖。新的資料視圖將會更新並納入 Content Analytics 的量度和維度。現在資料視圖中類似的量度和維度將會被移除。<br/>若有不同的連線與新的資料視圖相關聯，則該連線會更新並納入 Content Analytics 資料集。請注意，現有設定中的 Content Analytics 資料集不會被移除。"
 
 <!-- markdownlint-enable MD034 -->
 

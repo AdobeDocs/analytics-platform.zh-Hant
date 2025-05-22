@@ -8,7 +8,7 @@ role: User
 source-git-commit: 1474a29dc9063ea65a78d34b3a2eb9861a71ee4e
 workflow-type: tm+mt
 source-wordcount: '2091'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
 >title="需要 Experience Cloud 驗證"
->abstract="您的組織需要使用者登入Experience Cloud才能使用此連結。"
+>abstract="您的組織要求使用者必須登入 Experience Cloud 才能使用此連結。"
 
 
 您可以對沒有 Customer Journey Analytics 存取權的人員授予 Analysis Workspace 專案的[唯讀存取權](/help/analysis-workspace/curate-share/view-only-projects.md)。這些人員可以包括：
@@ -160,7 +160,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3452476/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
