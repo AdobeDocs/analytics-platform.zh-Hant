@@ -4,9 +4,9 @@ title: 在專案中新增及檢視註解
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
+source-git-commit: df147b92e19b6dee66fcf6346113596f1cde6fd1
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -38,13 +38,13 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
    ![評論區域已關閉](assets/comments-area-closed.png)
 
-   每個註解都顯示註解張貼當日的時間戳記。 如果註解是在當天發佈，則會顯示當天的時間。 將滑鼠移至白天或時間上，即可顯示發表評論的完整日期和時間。
+   每個註解都顯示註解張貼當天的時間戳記。 如果註解是在當天發佈，則會顯示當天的時間。 將滑鼠移至白天或時間上，即可顯示發表評論的完整日期和時間。
 
 1. （選擇性）若要搜尋評論區域，請選取搜尋圖示![搜尋圖示](assets/comments-search-icon.png)，然後輸入字詞或片語。 「註解」區域經過篩選，僅包含包含包含該字或片語的註解。
 
 ### 在專案中檢視評論徽章
 
-在專案的特定區域[&#128279;](#comment-on-a-specific-area-of-the-project)上所做的評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.png)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
+在專案的特定區域](#comment-on-a-specific-area-of-the-project)上所做的[評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.png)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
 
 編號會顯示在專案中的每個徽章上，並依照其建立順序排序。 如果在專案的相同區域放入多個註解，徽章會顯示3個點![註解徽章多個](assets/comment-indicator-multiple.png)。 選取3點徽章以顯示該區域中的所有註解。
 
@@ -104,19 +104,23 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
 ## 在評論中包含其他專案
 
-Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。 若要在您的評論中加入其他人：
+Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
+
+當使用@符號在註解中包含人時，請考量下列事項：
+
+* 您加入的人員會根據其Adobe Experience Cloud通知設定收到通知。 依預設，他們會收到[Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)。
+
+  此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
+
+* 您可以在註解中加入組織中的任何人，但這樣做不會自動授予他們存取專案的許可權。 只有已擁有專案存取許可權的人員才能存取專案。
+
+若要在您的評論中加入其他人：
 
 1. 輸入@符號，然後開始輸入您要包含之人員的名字、姓氏或電子郵件地址。
 
    ![標籤使用者](assets/comments-tag-user.png)
 
 1. 當人員出現在下拉式功能表中時，請選取其名稱。
-
-當使用@符號在註解中包含人時，請考量下列事項：
-
-* 您納入的人員會收到電子郵件通知和Pulse通知。
-
-* 您可以在註解中加入組織中的任何人，但這不會自動授予他們存取專案的許可權。 只有已擁有專案存取許可權的人員才能存取專案。
 
 ## 回複評論
 
@@ -126,7 +130,7 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。 若�
 
    或
 
-   如果您希望回覆的內容包含您回覆的註解文字，且原始文字包在引號標籤中，請選取您要回覆的特定註解或回覆旁的3點圖示，然後選取&#x200B;**[!UICONTROL 引號回覆]**。 引用回覆是清楚標示註解或回覆您的註解轉介者的好方法。
+   若要包含您要回覆的註解文字，並將原始文字包裝在引號標籤中，請選取您要回覆的特定註解或回覆旁的3點圖示，然後選取&#x200B;**[!UICONTROL 引號回覆]**。 引號回覆是指出您的評論所參考之評論或回覆的好方法。
 
 1. 在&#x200B;**[!UICONTROL 新註解]**&#x200B;欄位中，指定您的註解。
 
@@ -146,7 +150,7 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。 若�
 
 1. 選取您要為現有註解放置徽章的專案區域。
 
-   **註解徽章** ![註解徽章](assets/comment-indicator.png)已放置在您所選Workspace專案的區域中。 註解也會顯示在右側邊欄的註解區域頂端。
+   **註解徽章** ![註解徽章](assets/comment-indicator.png)已放置在您所選取的Workspace專案區域中。 註解也會顯示在右側邊欄的註解區域頂端。
 
    如需詳細資訊，請參閱[在專案中檢視註解徽章](#view-comment-badges-in-a-project)。
 
@@ -182,7 +186,7 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。 若�
 
 ## 複製註解的文字
 
-您可以複製內文和註解，並與他人共用。
+您可以複製註解的正文並與他人共用。
 
 複製註解內文：
 
@@ -208,7 +212,7 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。 若�
 
 1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。
 
-1. 選取您要刪除的註解旁的更多圖示![更多註解圖示](assets/comment-more-icon.png)，然後選取&#x200B;**[!UICONTROL 刪除]**。
+1. 選取您要刪除之註解旁的更多圖示![更多註解圖示](assets/comment-more-icon.png)，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
 1. 再次選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認刪除。
 
