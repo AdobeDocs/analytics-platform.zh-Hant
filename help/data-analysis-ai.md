@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: e82179f3436dc6b66ebe3f2f9b11986cadd135d9
+source-git-commit: bef00aa251831cdb809a6243b5d5a8e2c0dda9bb
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1872'
 ht-degree: 36%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 36%
 
 >[!AVAILABILITY]
 >
->Data Insights Agent在2025年11月30日之前皆適用於符合資格的Customer Journey Analytics客戶。 在該日期之後，如果您想要繼續使用Data Insights Agent，需要授權。 請聯絡您的Adobe客戶團隊，以取得授權程式的協助。
+>Data Insights Agent在限定時間內可供符合資格的客戶使用。 對Data Insights Agent的存取將於2025年11月30日結束。 若要繼續使用Data Insights Agent而不中斷，請洽詢您的Adobe客戶代表，以進一步瞭解授權Data Insights Agent。
 
 Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是具創造性的AI交談代理程式，可快速並有效率地回答有關您資料的問題。 它使用來自資料視圖的元件和您的實際資料，在 Analysis Workspace 建立相關的視覺效果。
 
@@ -41,7 +41,7 @@ Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是
 
 下列引數可控管Customer Journey Analytics中Data Insights Agent的存取權：
 
-* **解決方案存取**： Data Insights Agent可供Customer Journey Analytics Prime和Ultimate客戶使用。 在 Adobe Analytics 中不支援。
+* **解決方案存取**：在2025年11月30日之前，所有Customer Journey Analytics客戶都可透過有限存取方案使用Data Insights Agent。 在 Adobe Analytics 中不支援。
 
 * **合約存取**：如果您無法在AI助理中使用Data Insights Agent，請聯絡您組織的管理員或Adobe帳戶團隊。 您必須同意與創作AI相關的特定法律條款，組織才能使用Data Insights Agent。
 
@@ -140,7 +140,7 @@ Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」。*
 
-**回覆：**&#x200B;**[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
+**回覆：****[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
 
 ![長條圖](/help/assets/ai-asst-result4.png)
 
@@ -160,7 +160,7 @@ Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是
 
 | 範例提示 | 預期中的視覺效果 |
 | --- | --- |
-| 請顯示[月]的利潤 | 折線圖<p>預設情況下，詢問特定時間範圍內的趨勢或量度，系統預設會回覆折線圖視覺效果。 |
+| 請顯示[月]的利潤 | 折線圖<p>預設情況下，詢問特定時間範圍內的趨勢或量度，系統預設會傳回折線圖視覺效果。 |
 | [月]的訂單趨勢 | 折線圖 |
 | 依照區域顯示[月]的收入 | 長條圖 |
 | 依照產品類別劃分的收入份額 | 環形圖 |
@@ -170,7 +170,7 @@ Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是
 | [月]依照商店名稱劃分的收入 | 長條圖 |
 | [月]利潤最高的 10 個 SKU 是什麼？ | 長條圖 |
 | 依照月份劃分的購買比例 | 環形圖 |
-| [月]總利潤 | 摘要數字<p>詢問特定時間範圍內的量度「總和」，系統應該會回覆摘要數字視覺效果。 |
+| [月]總利潤 | 摘要數字<p>詢問特定時間範圍內的量度「總和」，系統應該會傳回摘要數字視覺效果。 |
 
 
 ## 提示最佳作法
