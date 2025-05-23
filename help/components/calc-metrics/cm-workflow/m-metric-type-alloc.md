@@ -3,10 +3,10 @@ description: 了解關於厘度類型和歸因
 title: 量度類型和歸因
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 2d182004b12eb44f54ec9b4b5f63cb9072594aec
+source-git-commit: 2b193e1ff612ab00335898164dc84afb08673fff
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 100%
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -132,11 +132,14 @@ ht-degree: 100%
 >abstract="功勞是根據統計演算法動態決定的。"
 
 
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_container"
+>title="容器"
+>abstract="選取容器以設定所需的歸因範圍。"
+
 
 {{attribution-models-details}}
 
-
-### 回顧視窗 {#lookback-window}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -145,7 +148,6 @@ ht-degree: 100%
 >title="回顧視窗"
 >abstract="此設定可決定要為每個轉換套用的資料歸因期間。"
 
-<!-- markdownlint-enable MD034 -->
 
 {{attribution-lookback-window}}
 
