@@ -5,16 +5,18 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: bef00aa251831cdb809a6243b5d5a8e2c0dda9bb
+source-git-commit: 730464719f05026eae141c8e6cc656fb0fe4f819
 workflow-type: tm+mt
-source-wordcount: '1872'
-ht-degree: 36%
+source-wordcount: '1961'
+ht-degree: 34%
 
 ---
 
 # 在Customer Journey Analytics中使用Data Insights Agent以視覺效果呈現資料
 
-{{release-limited-testing}}
+>[!AVAILABILITY]
+>
+>本文中說明的功能自2025年5月28日起分階段發行時可供所有符合資格的客戶使用，但可能尚未在您的環境中使用。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱[Customer Journey Analytics功能發行](/help/release-notes/releases.md)。
 
 >[!AVAILABILITY]
 >
@@ -31,7 +33,7 @@ Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是
 | 功能 | 在範圍中 | 超出範圍 |
 | --- | --- | --- |
 | **視覺效果型別** | <ul><li>折線圖</li><li>多折線圖</li><li>自由格式表格</li><li>長條圖</li><li>環形圖</li><li>摘要數字</li></ul> | <ul><li>流量</li><li>流失</li><li>同類群組表格</li><li>區域圖和堆疊區域圖</li><li>堆疊長條圖</li><li>項目符號</li><li>組合</li><li>直方圖</li><li>橫條圖、堆疊橫條圖</li><li>關鍵量度摘要</li><li>散佈圖</li><li>摘要變更</li><li>文字</li><li>樹狀圖</li><li>文氏圖表</li></ul> |
-| **Workspace動作和代理程式功能** | <ul><li>建立和更新視覺效果<p>產生自由格式表格和相關的視覺效果 (例如折線、長條、環形圖等)。<p>例如，*從2月到5月，SKU間的利潤是多少？*</p></li><li>提出後續追蹤問題</li><li>從任何先前提示回應內容中的提示<p>例如：</p> <ul><li>提示 1：*三月份的趨勢事件。*</li><li>提示 2：*改為顯示三至四月的資料*</li></ul> </li><li>超出範圍提示偵測<p>如果您提交超出範圍的提示，例如&#x200B;*匯出此專案*，Data Insights Agent會通知您問題超出範圍。</p></li></ul> | <ul><li>內容動作 UI 按鈕 (新增至圖表、新面板、新表格)</li><li>共用</li><li>匯出</li><li>下載</li><li>管理使用者偏好</li><li>組織</li><li>管理資料視圖</li><li>Analytics 儀表板應用程式</li><li>歸因</li><li>內嵌摘要或回應<p>Data Insights Agent無法在聊天邊欄中以使用者提示的摘要回應進行內嵌回應。 範圍外提示的範例為，*提供上次提示的見解摘要*&#x200B;以及&#x200B;*總結線條視覺效果的亮點。*</p></li></ul> |
+| **Workspace動作和代理程式功能** | <ul><li>建立和更新視覺效果<p>產生自由格式表格和相關的視覺效果 (例如折線、長條、環形圖等)。<p>例如，*從2月到5月，SKU間的利潤是多少？*</p></li><li>提出後續追蹤問題<p>從任何先前的提示回應內容中的提示。 例如：</p> <ul><li>提示 1：*三月份的趨勢事件。*</li><li>提示 2：*改為顯示三至四月的資料*</li></ul> </li><li>超出範圍提示偵測<p>如果您提交超出範圍的提示，例如&#x200B;*匯出此專案*，Data Insights Agent會通知您問題超出範圍。</p></li></ul> | <ul><li>共用</li><li>匯出</li><li>下載</li><li>管理使用者偏好</li><li>管理資料視圖</li><li>Analytics 儀表板應用程式</li><li>歸因</li><li>內嵌摘要或回應<p>Data Insights Agent無法在聊天邊欄中以使用者提示的摘要回應進行內嵌回應。 範圍外提示的範例為，*提供上次提示的見解摘要*&#x200B;以及&#x200B;*總結線條視覺效果的亮點。*</p></li></ul> |
 | **釐清問題** | 如果您提出的問題，沒有足夠上下文可供Data Insights Agent回答，或問題過於寬泛，Data Insights Agent會以澄清問題或建議的選項來回應。 <p>下列澄清問題為元件相關問題的範例：</p><ul><li>量度：*您指的是哪一個「收入」量度？*</li><li>維度：*您想聚焦於下列哪個「地區」？*</li><li>區段：*您想套用哪個「客戶」區段？*</li><li>日期範圍：*您所說的「上個月」是指上一個完整月份，還是過去 30 天？*</li></ul><p>以下澄清問題為維度專案相關問題的範例：</p> <ul><li>您是指哪個「商店名稱」？ (例如：商店 #5274、商店 #2949 等等。)</li></ul> | 釐清問題僅限於元件和維度項目。Data Insights Agent無法釐清資料檢視、視覺效果、資料精細度、比較和範圍等專案。 當澄清無法使用的問題時，代理程式會預設為您最可能要求的內容。 如果它傳回非預期的視覺效果或資料詳細程度，您可以提出後續問題或調整視覺效果和資料。 |
 | **資料可驗證性和正確性** | 檢視產生的自由表格和資料視覺效果，即可確認資料可驗證性和正確性。 <p>例如，如果您要求Data Insights Agent針對上個月&#x200B;*的*&#x200B;趨勢訂單，您可確認已在新產生的面板、資料視覺效果和自由表格中選取正確的量度（「訂單」）和日期範圍（「上個月」）。 | Data Insights Agent不會通知您新增了哪些元件或視覺效果。</p> |
 | **回饋機制** | <ul><li>肯定</li><li>否定</li><li>標記</li></ul> |  |
@@ -72,7 +74,9 @@ Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是
 
       >[!IMPORTANT]
       >
-      >Data Insights Agent可以參照包含的資料檢視，並在您在Admin Console中啟用檢視的同一天提供。
+      >啟用資料檢視時，請考量下列事項：
+      >* 每個IMS組織最多可以啟用50個資料檢視。 如果您在指定組織的所有產品設定檔中啟用超過50個資料檢視，Data Insights Agent將使用50個最常用的資料檢視。
+      >* Data Insights Agent可以參照包含的資料檢視，並在您在Admin Console中啟用檢視的同一天提供。
 
    1. 搜尋或捲動至您要啟用的資料檢視，然後選取每個資料檢視名稱旁的加號圖示![AddCircle](/help/assets/icons/AddCircle.svg)。
 
@@ -140,7 +144,7 @@ Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」。*
 
-**回覆：**&#x200B;**[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
+**回覆：****[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
 
 ![長條圖](/help/assets/ai-asst-result4.png)
 
