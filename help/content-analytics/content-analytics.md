@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
+source-git-commit: dd4adc5acd05aecf0a67072df6688a344e1ce5c9
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 94%
 
 ---
 
@@ -60,13 +60,9 @@ Content Analytics 使用 Experience Platform 事件資料集中的網頁影像�
 
 >[!NOTE]
 >
->如果您已獲得 Privacy and Security Shield 附加元件的授權，請注意，根據 Content Analytics 的體驗和資產 (所產生的任何資料)，不受 DULE 標籤或客戶自控金鑰的保護。
+>如果您已授權Privacy and Security Shield附加元件，請注意（從產生的任何資料）體驗和資產(受Content Analytics限制)不屬於DULE標籤或客戶自控金鑰的涵蓋範圍。 此外，Content Analytics並非符合HIPAA要求的服務。
 >
 
->[!NOTE]
->
->Content Analytics [會傳送附加事件](config/datacollection.md#content-analytics-event)，這很可能會影響以工作階段或頁面中事件數量為基礎的任何退回率定義。
->
 
 >[!MORELIKETHIS]
 >

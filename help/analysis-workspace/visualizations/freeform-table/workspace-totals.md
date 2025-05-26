@@ -4,31 +4,27 @@ title: Analysis Workspace 總計
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 91%
 
 ---
 
 # Analysis Workspace 總計 {#workspace-totals}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"
 >title="總量"
->abstract="具靜態列的表格或劃分不支援總量"
-
-<!-- markdownlint-enable MD034 -->
+>abstract="具靜態列的表格或劃分不支援全部總量。"
 
 
 在自由表格中，每個劃分層級都會顯示總列數，當中會顯示兩個總計數字：
 
 ![自由格式表醒目顯示總計和表格總計。](assets/total-row.png)
 
-* **[!UICONTROL 表格總計]** ➊ - 此總計通常等於[!UICONTROL 總量]或是總量的子集。總計反映的是在自由格式表格中套用的任何表格區段，包括[!UICONTROL 不包含任何項目]選項。
-* **[!UICONTROL 總量]** (**[!UICONTROL 來自]***數量*) ➋，此總計表示已收集的全部事件。在面板層級或自由格式表格內套用區段時，這項總計會經過調整，藉以反映所有符合區段條件的事件。
+* **[!UICONTROL 資料表總計]** ➊ — 此總計通常等於[!UICONTROL 總計]或是其子集。 總計反映的是在自由格式表格中套用的任何表格區段，包括[!UICONTROL 不包含任何項目]選項。
+* **[!UICONTROL 總計]** （**[!UICONTROL 個，共]**&#x200B;個&#x200B;*數字*） ➋ — 此總計代表已收集的所有事件。 在面板層級或自由格式表格內套用區段時，這項總計會經過調整，藉以反映所有符合區段條件的事件。
 
 
 
