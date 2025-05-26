@@ -4,9 +4,9 @@ title: 建立區段
 feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c383681cb5c454b79d33a89e25b0d54bd239da66
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1569'
 ht-degree: 94%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="例項"
->abstract="包括維度的執行個體和持續值。"
+>abstract="包含維度的例項。"
 
 
 >[!CONTEXTUALHELP]
