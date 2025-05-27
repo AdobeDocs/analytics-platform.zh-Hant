@@ -7,7 +7,7 @@ exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 85%
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 >[!TAB Content Analytics]
 
-透過 Content Analytics，您可以快速且輕鬆地調查大量內容資料，從中發現趨勢、找出異常處、確認內容疲勞，並從內容曝光中獲取深入分析。
+透過 Content Analytics，您可以快速且輕鬆地調查大量內容資料，從中發現趨勢、找出異常處、識別內容疲勞，並從內容曝光中獲取深入分析。
 
 [![影像](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 
@@ -38,7 +38,7 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 >[!TAB 共用的量度和維度]
 
-共用的量度和維度可提供一個中央位置，用於管理可用於任何數量資料檢視的維度和量度。 這些元件對於使用多個資料檢視的組織特別有用，尤其是如果這些資料檢視共用相同的元件設定。
+共用的量度和維度提供了一個集中的位置，用以管理能在任意數量的資料視圖中使用的維度和量度。這些元件對於使用多個資料視圖的組織別具價值，尤其是在這些資料視圖共用相同元件設定的情況下。
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 

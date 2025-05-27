@@ -8,7 +8,7 @@ exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: 730464719f05026eae141c8e6cc656fb0fe4f819
 workflow-type: tm+mt
 source-wordcount: '1961'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 34%
 
 >[!AVAILABILITY]
 >
->本文中說明的功能自2025年5月28日起分階段發行時可供所有符合資格的客戶使用，但可能尚未在您的環境中使用。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱[Customer Journey Analytics功能發行](/help/release-notes/releases.md)。
+>本文中說明的功能自2025年5月28日起分階段發行時可供所有符合資格的客戶使用，但可能尚未在您的環境中使用。 當該功能供一般用途時，此備註將被刪除。有關 Customer Journey Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
 
 >[!AVAILABILITY]
 >
@@ -144,7 +144,7 @@ Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」。*
 
-**回覆：**&#x200B;**[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
+**回覆：****[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
 
 ![長條圖](/help/assets/ai-asst-result4.png)
 
