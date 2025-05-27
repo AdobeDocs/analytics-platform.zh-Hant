@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Components
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 
 您可以管理下列元件：
 
-* [區段](filters/filters-overview.md)：建置、管理、共用強大且重點明確的客群區段，並將其套用到您的報告中。區段可讓您根據特性或互動來識別人員的子集。
+* [區段](filters/filters-overview.md)：建置、管理、共用強大且重點明確的客群區段，並將其套用到您的報告中。區段讓您根據特性或互動來識別人員子集。
 * [計算量度](calc-metrics/calc-metr-overview.md)：將量度和公式作為新元件用於報告中
 * [日期範圍](date-ranges/create.md)：自訂和調整 Analysis Workspace 提供的日期範圍。
 * [註解](/help/components/annotations/overview.md)：將內容相關的資料細微差別和深入分析傳達給您的組織。
@@ -65,12 +65,12 @@ Analysis Workspace 中的元件由量度、維度、區段和日期範圍組成�
 
    | 元件動作 | 說明 |
    |--- |--- |
-   | ![Label](/help/assets/icons/Label.svg) [!UICONTROL **標記**] | 以套用標記的方式組織或管理元件。然後您可以透過選取![Filter](/help/assets/icons/Filter.svg)篩選或輸入 `#`，依左側面板的標記進行搜尋。標記也會作為元件管理員中的篩選器。 |
-   | ![Star](/help/assets/icons/Star.svg) [!UICONTROL **最愛項目**] | 將元件新增至最愛項目清單。如同標記，您可以依左側面板的「最愛項目」搜尋，並在元件管理員中依這些條件篩選。 |
+   | ![Label](/help/assets/icons/Label.svg)[!UICONTROL **標記**] | 以套用標記的方式組織或管理元件。然後您可以透過選取![Filter](/help/assets/icons/Filter.svg)篩選或輸入 `#`，依左側面板的標記進行搜尋。標記也會作為元件管理員中的篩選器。 |
+   | ![Star](/help/assets/icons/Star.svg)[!UICONTROL **最愛項目**] | 將元件新增至最愛項目清單。如同標記，您可以依左側面板的「最愛項目」搜尋，並在元件管理員中依這些條件篩選。 |
    | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL 取消最愛項目]** | 將元件從最愛項目清單移除。 |
-   | ![Checkmark](/help/assets/icons/Checkmark.svg) [!UICONTROL **核准**] | 將元件標示為「已核准」，向您的使用者表示此元件已獲得組織核准。如同標記，您可以在左側面板中依已批准進行搜尋和篩選。![Checkmark](/help/assets/icons/Checkmark.svg)識別已核准的元件。 |
-   | ![Share](/help/assets/icons/ShareAlt.svg) [!UICONTROL **共用**] | 缃元件提供給組織中的用戶共用。此選項僅適用於自訂元件，例如區段或計算量度。 |
-   | ![Delete](/help/assets/icons/Delete.svg) [!UICONTROL **刪除**] | 刪除您不再需要的元件。 此選項僅適用於自訂元件，例如區段或計算量度。 |
+   | ![Checkmark](/help/assets/icons/Checkmark.svg)[!UICONTROL **核准**] | 將元件標示為「已核准」，向您的使用者表示此元件已獲得組織核准。如同標記，您可以在左側面板中依已批准進行搜尋和篩選。![Checkmark](/help/assets/icons/Checkmark.svg)識別已核准的元件。 |
+   | ![Share](/help/assets/icons/ShareAlt.svg)[!UICONTROL **共用**] | 缃元件提供給組織中的用戶共用。此選項僅適用於自訂元件，例如區段或計算量度。 |
+   | ![Delete](/help/assets/icons/Delete.svg)[!UICONTROL **刪除**] | 刪除您不再需要的元件。 此選項僅適用於自訂元件，例如區段或計算量度。 |
 
 自訂元件也可透過其各自的元件管理員來管理。如需範例，請參閱[管理區段](/help/components/filters/manage-filters.md)。
 
@@ -84,7 +84,7 @@ Analysis Workspace 中的元件由量度、維度、區段和日期範圍組成�
 
 2. 在搜尋欄位中開始輸入要用於專案中的元件的名稱。
 
-   顏色和圖示識別元件類型。**維度** ![Dimension圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)為橘色，**區段** ![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)為藍色，**日期範圍** ![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)為紫色，且&#x200B;**量度** ![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)為綠色。<br/>Adobe 圖示 ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg) 表示計算量度範本或區段範本。計算器圖示![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示管理員在您組織中所建立的計算量度。
+   顏色和圖示識別元件類型。**維度**![維度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)是橘色的，**區段**![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)是藍色的，**日期範圍**![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)是紫色的，而&#x200B;**量度**![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)是綠色的。<br/>Adobe 圖示 ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg) 表示計算量度範本或區段範本。計算機圖示![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示管理員在您組織中所建立的計算量度。
 
 3. 從下拉式選單中選取元件。
 

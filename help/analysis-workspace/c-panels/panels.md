@@ -5,9 +5,9 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2129'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 96%
 
 ## 資料視圖
 
-每個面板都與一個[資料檢視](/help/data-views/data-views.md)相關聯，由面板右上角的下拉式功能表中的資料檢視&#x200B;***&#x200B;的![資料](/help/assets/icons/Data.svg) &#x200B;***名稱識別。
+每個面板都與一個[資料視圖](/help/data-views/data-views.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *資料視圖名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
 
 當您建立空白 Workspace 專案時，初始面板的預設資料視圖是您上次在 Customer Journey Analytics 中使用的資料視圖。
 
@@ -106,7 +106,7 @@ ht-degree: 96%
 
 ![顯示所選日期範圍的行事曆視窗。](assets/panel-calendar.png)
 
-1. 首先選取開始日期，然後選取結束日期來選取日期範圍。或者，您也可以從&#x200B;[!UICONTROL *選取預設集*]&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 預設集]**。
+1. 首先選取開始日期，然後選取結束日期來選取日期範圍。或者，您可以從&#x200B;[!UICONTROL *選取預設集*]&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 預設集]**。
 
 1. 或者，選取&#x200B;**[!UICONTROL 顯示進階設定]**&#x200B;以進行：
 
@@ -119,7 +119,7 @@ ht-degree: 96%
      您可以選取括號中的文字 (例如&#x200B;**[!UICONTROL 固定開始 - 每天遞延]**) 以延長面板並指定&#x200B;**[!UICONTROL 開始]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;的詳細資訊。
 
       1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
-      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]**&#x200B;**[!UICONTROL 今年]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
+      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]****[!UICONTROL 今年]****[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
          * 選取目前的值。例如&#x200B;**[!UICONTROL 今年]**。
          * 選取一個值進行其他計算。例如，**[!UICONTROL 加]**。
          * 當您指定其他計算時，請指定一個值。例如 `1`。
@@ -153,7 +153,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉式區段](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉式區段](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}的示範影片。
 
 {{videoaa}}
 
@@ -198,7 +198,7 @@ ht-degree: 96%
 
 #### 動態下拉式區段
 
-動態下拉式區段可讓您根據面板報告範圍內的資料和其他下拉式區段中的值來決定可用值。例如，您可以使用「國家/地區」維度和「城市」維度建立兩個動態下拉式篩選器。當您從&#x200B;**[!UICONTROL 國家]**&#x200B;下拉式功能表選取國家/地區時，**[!UICONTROL 城市]**&#x200B;下拉式功能表會動態調整以只顯示該國家/地區的城市。
+動態下拉式區段可讓您根據面板報告範圍內的資料和其他下拉式區段中的值來決定可用值。例如，您可以使用「國家/地區」維度和「城市」維度建立兩個動態下拉式選單。從&#x200B;**[!UICONTROL 國家/地區]**&#x200B;下拉式選單選取一個國家/地區時，**[!UICONTROL 城市]**&#x200B;下拉式選單會動態調整成僅顯示該國家/地區內的城市。
 
 同樣的概念適用於所有維度；會顯示僅出現在面板日期範圍內和選取區段中的維度項目。在靜態下拉式區段中選取的維度項目，會影響動態下拉式區段中的可用值。然而，反之則不然；在動態下拉式區段中選取的維度項目，不會影響靜態下拉式區段中的可用值。
 

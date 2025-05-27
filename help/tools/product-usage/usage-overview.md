@@ -3,9 +3,9 @@ title: 產品使用情況概觀
 description: 檢視有關您的組織如何使用 Customer Journey Analytics 的深入分析和報告。
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
 source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -129,8 +129,8 @@ ht-degree: 88%
 
 ## 可用的範本
 
-可以使用[Adobe範本](/help/analysis-workspace/templates/use-templates.md)，它使用自動從此功能產生的元件。
+系統提供一個 [Adobe 範本](/help/analysis-workspace/templates/use-templates.md)，此範本使用透過此功能自動產生的元件。
 
-**[!UICONTROL Adobe範本]** > **[!UICONTROL 其他]** > **[!UICONTROL 產品使用概述]**
+「**[!UICONTROL Adobe 範本]** > **[!UICONTROL 其他]** > **[!UICONTROL 產品使用概觀]**」
 
-選取在資料檢視選擇器中自動建立「產品使用量」的資料檢視，然後選取&#x200B;**[!UICONTROL 產品使用量概觀]**&#x200B;範本。 選取&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視範本使用哪些面板，並了解理想的使用案例，或選取&#x200B;**[!UICONTROL 使用範本]**&#x200B;以在Analysis Workspace中開啟範本。
+在資料視圖選擇器中，選取產品使用情況自動建立的資料視圖，然後選擇「**[!UICONTROL 產品使用情況概觀]**」範本。選取「**[!UICONTROL 預覽]**」即可查看範本使用的面板並了解最佳使用案例，或選擇「**[!UICONTROL 使用範本]**」在 Analysis Workspace 中開啟它。

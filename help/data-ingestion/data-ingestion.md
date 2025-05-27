@@ -6,15 +6,15 @@ feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
 source-git-commit: 8071e8d5e1ab7e9cfc5037d710361a4d10285704
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# 資料擷取概觀
+# 資料攝取概觀
 
-將資料擷取至Customer Journey Analytics時，有數個選項可供選擇。 有些選項能移動傳統 Adobe Analytics 資料，有些則能使用內嵌至 Adobe Experience Platform 的資料。
+在將資料匯入 Customer Journey Analytics 時有許多種選項。有些選項能移動傳統 Adobe Analytics 資料，有些則能使用內嵌至 Adobe Experience Platform 的資料。
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 請參閱前面[概觀](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)中所示的高階 Customer Journey Analytics：
 
-本節中說明的![Customer Journey Analytics架構](./assets/cja-architecture.png)
+![本節將敘述 Customer Journey Analytics 架構](./assets/cja-architecture.png)
 
 上述架構中的資料集可能來自各種來源：
 
@@ -32,9 +32,9 @@ ht-degree: 64%
 
 - 來自目前 Adobe Analytics 部署的資料、
 
-- 資料來自於使用Adobe Experience Platform Web/Mobile SDK追蹤您的網站/行動應用程式，
+- 使用 Adobe Experience Platform Web/Mobile SDK 追蹤您網站/行動應用程式的資料，
 
-- 資料來自於使用Adobe Experience Platform Edge Network Server API追蹤案頭應用程式、主機遊戲、機上盒或IoT裝置，或者
+- 使用 Adobe Experience Platform Edge Network Server API 追蹤桌面應用程式、遊戲機、機上盒或 IoT 裝置的資料，或
 
 - 來自 Adobe 為其提供來源連接器之第三方資料提供者的資料。
 
@@ -42,17 +42,17 @@ ht-degree: 64%
 
 本文件的本節提供各種案例的快速入門指南。
 
-## 擷取優先順序和延遲
+## 攝取優先順序和延遲
 
-無論資料是24小時、48小時還是7天前的資料，您都可以在90分鐘(SLT)內將事件資料擷取到Customer Journey Analytics。
+您可以在 90 分鐘內 (SLT)，攝取 24 小時、48 小時或 7 天內的 Customer Journey Analytics 事件資料。
 
 請注意，此功能的內容將根據貴公司購買的 SKU 封裝而有所不同。
 
-- 優先擷取基本：90分鐘SLT處理內24小時前的資料（適用於&#x200B;**CJA Foundation**&#x200B;和&#x200B;**CJA Select**）
+- Priority Ingestion Basic：在 90 分鐘 (SLT) 內，處理 24 小時內的資料 (適用於 **CJA Foundation** 和 **CJA Select**)
 
-- 優先擷取中繼： 90分鐘SLT處理內72小時前的資料(適用於&#x200B;**CJA Prime**)
+- Priority Ingestion Intermediate：在 90 分鐘 (SLT) 內，處理 72 小時內的資料 (適用於 **CJA Prime**)
 
-- 優先擷取進階： 90分鐘SLT處理內1週前的資料(可用於&#x200B;**CJA Ultimate**)
+- Priority Ingestion Advanced：在 90 分鐘 (SLT) 內，處理 1 週內的資料 (適用於 **CJA Ultimate**)
 
 ## 從傳統 Adobe Analytics 擷取和使用資料
 
@@ -61,25 +61,25 @@ ht-degree: 64%
 如需詳細資訊，請參閱[從傳統 Adobe Analytics 中擷取和使用資料](./analytics.md)。
 
 
-## 透過Edge Network擷取及使用資料
+## 透過 Edge Network 攝取和使用資料
 
-### 使用Adobe Experience Platform Web SDK
+### 使用 Adobe Experience Platform Web SDK
 
-您想要使用Adobe技術分析您的網站，可能從其他解決方案移轉，或開始追蹤您的人員行為。 您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
+您想要使用 Adobe 技術分析您的網站，可能是從另一個解決方案移轉，或開始追蹤您個人的行為。您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
-如需詳細資訊，請參閱[透過Adobe Experience Platform Web SDK擷取及使用資料](./aepwebsdk.md)。
+請參閱[透過 Adobe Experience Platform Web SDK 攝取和使用資料](./aepwebsdk.md)，以了解更多資訊。
 
-### 使用Adobe Experience Platform Mobile SDK
+### 使用 Adobe Experience Platform Mobile SDK
 
-您想要使用Adobe技術分析行動應用程式，並可能從其他解決方案移轉，或是開始從頭開始追蹤使用者在應用程式中的行為。 您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
+您想要使用 Adobe 技術分析您的行動應用程式，可能是從另一個解決方案移轉，或從頭開始追蹤應用程式的使用者行為。您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
-如需詳細資訊，請參閱[透過Adobe Experience Platform Mobile SDK擷取及使用資料](./aepmobilesdk.md)。
+請參閱[透過 Adobe Experience Platform Mobile SDK 攝取和使用資料](./aepmobilesdk.md)，以了解更多資訊。
 
-### 使用Adobe Experience Platform Edge Network伺服器API
+### 使用 Adobe Experience Platform Edge Network Server API
 
-您想要分析案頭應用程式、在遊戲機上玩的遊戲、在機上盒或透過Adobe技術的IoT裝置上使用視訊串流應用程式。 可能從其他解決方案移轉，或從頭開始追蹤使用者在這些裝置上的行為。 您想要遵循Adobe的最佳實作方法，也就是使用Adobe Experience Platform Edge Network Server API和Edge Network來擷取資料。 接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
+您想使用 Adobe 技術分析您的桌面應用程式、在遊戲機上玩的遊戲、機上盒影片串流應用程式的使用情況或您的 IoT 裝置。可能是從另一個解決方案移轉，或從頭開始追蹤這些裝置的使用者行為。您想要遵循 Adobe 實作的最佳做法 (使用 Adobe Experience Platform Edge Network Server API 和 Edge Network) 來攝取資料。接著，您就可以在 Customer Journey Analytics 中將攝取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
-如需詳細資訊，請參閱[透過Adobe Experience Platform Edge Network Server API擷取及使用資料](./serverapi.md)。
+請參閱[透過 Adobe Experience Platform Edge Network Server API 攝取和使用資料](./serverapi.md)，以了解更多資訊。
 
 ## 擷取和使用批次資料
 
@@ -101,5 +101,5 @@ ht-degree: 64%
 
 >[!MORELIKETHIS]
 >
->部落格： [進一步瞭解Adobe Customer Journey Analytics中的資料處理與擷取](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
+>部落格：[深入了解 Adobe Customer Journey Analytics 中的資料處理和攝取](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
 

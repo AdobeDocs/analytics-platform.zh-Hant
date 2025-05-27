@@ -1,14 +1,14 @@
 ---
 title: 使用 alloy.js 安裝 Platform Web SDK
-description: 瞭解如何使用alloy.js安裝平台網頁SDK
+description: 了解如何使用 alloy.js 安裝 Platform Web SDK
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0e508ce7-8f3b-41f1-808c-1348942c2716
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 70%
 
 {{upgrade-note-step}}
 
-您可以手動安裝Platform Web SDK，方法是直接將基底程式碼新增至實施中的每個頁面。
+您可以透過直接新增基礎程式碼至實作中的每個頁面，以手動方式安裝 Platform Web SDK。
 
-1. 請依照[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version)選項2：在Web SDK指南的[安裝Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk)中安裝預先建置的獨立版本一節中的步驟操作。
+1. 請依照 Web SDK 指南中[安裝 Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version) 的[選項 2：安裝預先建立的獨立版本](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/edge/fundamentals/installing-the-sdk)的步驟進行操作。
 
 {{upgrade-final-step}}
 

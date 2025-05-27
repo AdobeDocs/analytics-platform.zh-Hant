@@ -5,9 +5,9 @@ feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
 source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 93%
 ## 區段
 
 * [!UICONTROL 「事件」]、[!UICONTROL 「人員」]等特定量度和維度無法進行劃分。
-* 在[面板放置區](/help/analysis-workspace/c-panels/panels.md)中建立的臨時區段是一種快速區段。除非加以公開，否則不會出現在Workspace的左側面板或區段管理員中。 如需詳細資訊，請參閱[快速區段](/help/components/filters/quick-filters.md)。
+* 在[面板放置區](/help/analysis-workspace/c-panels/panels.md)中建立的臨時區段是一種快速區段。除非設定為公開，否則它們不會顯示在 Workspace 或區段元件管理器的左側面板中。如需詳細資訊，請參閱[快速區段](/help/components/filters/quick-filters.md)。
 
 ## 計算的量度
 
