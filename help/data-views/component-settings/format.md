@@ -5,10 +5,10 @@ exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
-workflow-type: ht
+source-git-commit: 6fdb6cbd6f12a0417f513565b02e3ad60c8df6cb
+workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 100%
 <!-- markdownlint-enable MD034 -->
 
 
-格式可讓您確定指定量度使用在報告中時的顯示方式。
+格式可讓您決定指定元件在報告中使用時的顯示方式。
 
-## 設定量度的格式設定
+## 設定元件的格式設定
 
-您可以調整格式設定來確定指定量度的顯示方式。
+您可以調整指定元件的格式設定，以決定其顯示方式。
 
 1. 在 Customer Journey Analytics 中，選取「[!UICONTROL **資料檢視**]」索引標籤。
 
@@ -44,12 +44,12 @@ ht-degree: 100%
 
    | 設定 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 格式]** | 可讓您指定量度的格式，如小數、時間、百分比或貨幣。 |
-   | **[!UICONTROL 小數]** | 在整數結構描述資料類型上不可見。可讓您指定量度顯示的小數位數。 |
+   | **[!UICONTROL 格式]** | 可讓您指定元件的格式，如小數、時間、百分比或貨幣。 |
+   | **[!UICONTROL 小數]** | 在整數結構描述資料類型上不可見。可讓您指定元件顯示的小數位數。 |
    | **[!UICONTROL 日期]** | 讓您決定在報告中做為維度使用時如何顯示日期-時間欄位。[了解更多](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
    | **[!UICONTROL 日期-時間]** | 讓您決定在報告中做為維度使用時如何顯示日期-時間欄位。[了解更多](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-   | **[!UICONTROL 貨幣]** | 可讓您確定您希望量度以哪種貨幣顯示。 <p>如果您要分析以不同貨幣進行交易的全球資料，請參閱「[使用貨幣換算](#use-currency-conversion)」。</p> |
-   | **[!UICONTROL 顯示上升趨勢的方式]** | 可讓您指定此量度的上升趨勢是好 (綠色) 或壞 (紅色)。 |
+   | **[!UICONTROL 貨幣]** | 可讓您決定要元件以哪種貨幣顯示。 <p>如果您要分析以不同貨幣進行交易的全球資料，請參閱「[使用貨幣換算](#use-currency-conversion)」。</p> |
+   | **[!UICONTROL 顯示上升趨勢的方式]** | 可讓您指定此元件的上升趨勢是好（綠色）或壞（紅色）。 |
    | **[!UICONTROL True 和]**&#x200B;和 **[!UICONTROL False 值]** | 僅對布林值結構描述資料類型可見。允許您自訂 `true` 和 `false` 值的維度項目標籤。 |
 
    {style="table-layout:auto"}
@@ -92,7 +92,7 @@ ht-degree: 100%
 
    * 在「[!UICONTROL **選取貨幣代碼維度**]」欄位中，選取代表您要轉換貨幣所用 (您的資料所依據的貨幣) 的維度。例如，選取名為&#x200B;[!UICONTROL **貨幣代碼**]&#x200B;的維度。
 
-     如果您目前資料結構描述中沒有包含貨幣代碼欄位的維度，則您可以使用[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)， [資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)或[衍生欄位](/help/data-views/derived-fields/derived-fields.md)建立新的貨幣代碼欄位。資料準備只適用於新的實施，因為這只能以往前為基礎。根據組織的設定，可以使用資料蒸餾器和衍生欄位來存取歷史貨幣代碼值。
+     如果您目前資料結構描述中沒有包含貨幣代碼欄位的維度，則您可以使用[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)， [資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)或[衍生欄位](/help/data-views/derived-fields/derived-fields.md)建立新的貨幣代碼欄位。資料準備只適用於新的實施，因為這只能以往前為基礎。根據組織的設定，可以使用資料蒸餾器和衍生欄位來存取歷史貨幣代碼值。
 
    * 在「[!UICONTROL **以此類型轉換和顯示貨幣：**]」欄位中，選取您想要轉換資料的貨幣。
 
