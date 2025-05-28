@@ -4,7 +4,7 @@ description: 勾選函式下拉式選單中的顯示進階即可存取這些函�
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: ca1aae1291119214f3b051f9b6df8ddcd58faa6c
 workflow-type: tm+mt
 source-wordcount: '5247'
 ht-degree: 99%
@@ -258,7 +258,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-lower"
+>id="functions-waskr-lower-individual-confidence-sequence"
 >title="信賴度 (下界)"
 >abstract="使用 WASKR 方法計算隨時有效的信賴度&#x200B;**下界**，如[時間一致中央極限定理和漸進信賴序列](https://arxiv.org/pdf/2103.06476)所述。"
 
@@ -282,7 +282,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-upper"
+>id="functions-waskr-upper-individual-confidence-sequence"
 >title="信賴度 (上界)"
 >abstract="使用 WASKR 方法計算隨時有效的信賴度&#x200B;**上界**，如[時間一致中央極限定理和漸進信賴序列](https://arxiv.org/pdf/2103.06476)所述。"
 
@@ -396,7 +396,7 @@ CDF-Z(-3) ? 0.0013499
 
 >[!NOTE]
 >
->此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL 累積 (人數)]**](#cumulative)。
+>此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg)[**[!UICONTROL 累積 (人數)]**](#cumulative)。
 >
 
 
