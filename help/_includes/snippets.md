@@ -1,8 +1,8 @@
 ---
 source-git-commit: c936ebbc191353d9993cc3c56892df3f29a1a1df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5163'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 # 程式碼片段
@@ -135,10 +135,10 @@ ht-degree: 89%
 * **13 個月** [!BADGE B2B Edition]{type=Informative}：回顧自轉換發生時間起最多 13 個月。
 * **工作階段**：回顧至轉換發生當下該工作階段的起始處。工作階段回顧期間採用資料檢視中經過修改的[工作階段逾時](/help/data-views/create-dataview.md#session-settings)。
 * **人員 (報告期間)**：回顧目前日期範圍當月 1 日以來的造訪次數。舉例來說，如果報告日期範圍為 9 月 15 日到 9 月 30 日，則人員回顧日期範圍包含 9 月 1 日到 9 月 30 日。如果您使用此回顧期間，偶爾會看到維度項目歸因於報告期間之外的日期。
-* **全域帳戶 (報告期間)** [!BADGE &#x200B; B2B Edition]{type=Informative}：回顧目前日期範圍當月 1 日以來的所有全域帳戶。舉例來說，如果報告日期範圍為 9 月 15 日到 9 月 30 日，則全域帳戶回顧日期範圍包含 9 月 1 日到 9 月 30 日。如果您使用此回顧期間，偶爾會看到維度項目歸因於報告期間之外的日期。
-* **帳戶 (報告期間)** [!BADGE &#x200B; B2B Edition]{type=Informative}：回顧目前日期範圍當月 1 日以來的所有帳戶。舉例來說，如果報告日期範圍為 9 月 15 日到 9 月 30 日，則帳戶回顧日期範圍包含 9 月 1 日到 9 月 30 日。如果您使用此回顧期間，偶爾會看到維度項目歸因於報告期間之外的日期。
-* **機會 (報告期間)** [!BADGE &#x200B; B2B Edition]{type=Informative}：回顧目前日期範圍當月 1 日以來的所有機會。舉例來說，如果報告日期範圍為 9 月 15 日到 9 月 30 日，則機會回顧日期範圍包含 9 月 1 日到 9 月 30 日。如果您使用此回顧期間，偶爾會看到維度項目歸因於報告期間之外的日期。
-* **購買群組 (報告期間)** [!BADGE &#x200B; B2B 版]{type=Informative}：回顧目前日期範圍當月 1 日以來的所有購買群組。舉例來說，如果報告日期範圍為 9 月 15 日到 9 月 30 日，則購買群組日期範圍包含 9 月 1 日到 9 月 30 日。如果您使用此回顧期間，偶爾會看到維度項目歸因於報告期間之外的日期。
+* **全域帳戶 (報告期間)** [!BADGE  B2B Edition]{type=Informative}：回顧目前日期範圍當月 1 日以來的所有全域帳戶。舉例來說，如果報告日期範圍為 9 月 15 日到 9 月 30 日，則全域帳戶回顧日期範圍包含 9 月 1 日到 9 月 30 日。如果您使用此回顧期間，偶爾會看到維度項目歸因於報告期間之外的日期。
+* **帳戶 (報告期間)** [!BADGE  B2B Edition]{type=Informative}：回顧目前日期範圍當月 1 日以來的所有帳戶。舉例來說，如果報告日期範圍為 9 月 15 日到 9 月 30 日，則帳戶回顧日期範圍包含 9 月 1 日到 9 月 30 日。如果您使用此回顧期間，偶爾會看到維度項目歸因於報告期間之外的日期。
+* **機會 (報告期間)** [!BADGE  B2B Edition]{type=Informative}：回顧目前日期範圍當月 1 日以來的所有機會。舉例來說，如果報告日期範圍為 9 月 15 日到 9 月 30 日，則機會回顧日期範圍包含 9 月 1 日到 9 月 30 日。如果您使用此回顧期間，偶爾會看到維度項目歸因於報告期間之外的日期。
+* **購買群組 (報告期間)** [!BADGE  B2B 版]{type=Informative}：回顧目前日期範圍當月 1 日以來的所有購買群組。舉例來說，如果報告日期範圍為 9 月 15 日到 9 月 30 日，則購買群組日期範圍包含 9 月 1 日到 9 月 30 日。如果您使用此回顧期間，偶爾會看到維度項目歸因於報告期間之外的日期。
 * **自訂時間：**&#x200B;讓您設定轉換發生當下的自訂回顧期間。您可以指定分鐘數、小時數、天數、週數、月數或季數。例如，如果轉換發生在 2 月 20 日，則五天的回顧期間將評估歸因模型中從 2 月 15 日到 2 月 20 日的所有維度接觸點。
 
 ## 歸因範例 {#attribution-example}
@@ -257,40 +257,40 @@ Customer Journey analytics 的各種視覺化是為分析您提供給客戶的�
 
 ## 標準維度 {#standard-dimensions}
 
-| 元件名稱 | 附註 |
+| 元件名稱 | 備註 |
 |---|---|
-| 15 分鐘 | 指定事件發生的每15分鐘（無條件舍去）。 第一個維度專案是日期範圍中的前15分鐘，最後一個維度專案是日期範圍中的前15分鐘。 |
-| 30 分鐘 | 指定事件發生的每30分鐘（無條件舍去）。 第一個維度專案是日期範圍中的前30分鐘，最後一個維度專案是日期範圍中的前30分鐘。 |
-| 5 分鐘 | 指定事件發生後的每5分鐘（無條件舍去）。 第一個維度專案是日期範圍中的前15分鐘，最後一個維度專案是日期範圍中的前5分鐘。 |
-| [!UICONTROL 日] | 指定事件發生的天。第一個維度項目是日期範圍中的第一天，最後一個維度項目是日期範圍中的最後一天。 |
-| [!UICONTROL 星期] | 指定量度在一週中發生的日子。 第一個維度專案是日期範圍中一週的第一天，最後一個維度專案是日期範圍中一週的最後一天。 |
-| [!UICONTROL 日期] | 指定量度在一個月中發生的日期。 第一個維度專案是日期範圍中該月的第一天，最後一個維度專案是日期範圍中該月的最後一天。 |
-| 事件深度 | 將循序數值（1、2、3等）指派給工作階段中的每個事件互動。 您可以使用此維度，在您為資料檢視[&#128279;](/help/data-views/session-settings.md#session-settings)定義的限定體驗工作階段中，針對使用者互動的循序流程中，啟用特定事件發生的詳細追蹤和分析。 您可以在限定工作階段中追蹤事件的從開始到結束的進度。 例如：訪客登陸您的首頁（事件1、工作階段開始）、使用搜尋功能（事件2）、檢視產品詳細資料頁面（事件3）、新增到購物車（事件4）、繼續結帳（事件5），以及完成購買（事件6、工作階段結束）。 您現在可以在區段定義中使用[!UICONTROL 事件深度]，根據互動深度來劃分資料。 |
+| 15 分鐘 | 發生指定事件的每個 15 分鐘區間 (無條件捨去)。第一個維度項目是日期範圍中的第一個 15 分鐘，最後一個維度項目是日期範圍中的最後一個 15 分鐘。 |
+| 30 分鐘 | 發生指定事件的每個 30 分鐘區間 (無條件捨去)。第一個維度項目是日期範圍中的第一個 30 分鐘，最後一個維度項目是日期範圍中的最後一個 30 分鐘。 |
+| 5 分鐘 | 發生指定事件的每個 5 分鐘區間 (無條件捨去)。第一個維度項目是日期範圍中的第一個 5 分鐘，最後一個維度項目是日期範圍中的最後一個 5 分鐘。 |
+| [!UICONTROL 日] | 指定事件發生的日。第一個維度項目是日期範圍中的第一天，最後一個維度項目是日期範圍中的最後一天。 |
+| [!UICONTROL 星期幾] | 指定事件發生的日子是星期幾。第一個維度項目是日期範圍中的第一天是星期幾，最後一個維度項目是日期範圍中的最後一天是星期幾。 |
+| [!UICONTROL 幾月幾號] | 指定事件發生的日子是幾月幾號。第一個維度項目是日期範圍中該月的第一天，最後一個維度項目是日期範圍中該月的最後一天。 |
+| 事件深度 | 對工作階段中的每個事件互動指派連續的數值 (1、2、3 等)。透過此維度，您可以針對特定事件在[您為資料視圖所定義的有期限的體驗工作階段](/help/data-views/session-settings.md#session-settings)內，在使用者互動順序流程中出現的位置，進行詳細追蹤和分析。您可以追蹤有期限的工作階段內事件從開始到完成的進展。比如：訪客登陸您的首頁 (事件 1，工作階段開始)，使用搜尋功能 (事件 2)，檢視產品詳細資料頁面 (事件 3)，加入到購物車 (事件 4)，前往結帳 (事件 5)，然後完成購買 (事件 6，工作階段結束)。現在，您可以在區段定義中，根據互動深度使用[!UICONTROL 事件深度]來將資料細分。 |
 | [!UICONTROL 小時] | 指定事件發生的小時 (無條件捨去)。第一個維度項目是日期範圍中的第一小時，最後一個維度項目是日期範圍中的最後一小時。 |
-| [!UICONTROL 小時] | 指定事件在一天中發生的小時（無條件舍去）。 第一個維度專案是日期範圍中一天的第一小時，最後一個維度專案是日期範圍中一天的最後一小時。 |
+| [!UICONTROL 當天幾點] | 指定事件發生在當天幾點 (無條件捨去)。第一個維度項目是日期範圍中當日的第一個小時，最後一個維度項目是日期範圍中當日的最後一個小時。 |
 | [!UICONTROL 分鐘] | 指定事件發生的分鐘 (無條件捨去)。第一個維度項目是日期範圍中的第一分鐘，最後一個維度項目是日期範圍中的最後一分鐘。 |
-| [!UICONTROL 分鐘小時] | 指定事件發生的一小時中的分鐘（無條件舍去）。 第一個維度專案是日期範圍中該小時的第一分鐘，最後一個維度專案是日期範圍中該小時的最後一分鐘。 |
+| [!UICONTROL 一小時中的分鐘] | 指定事件發生的那個小時的分鐘 (無條件捨去)。第一個維度項目是日期範圍中那個小時的第一分鐘，最後一個維度項目是日期範圍中那個小時的最後一分鐘。 |
 | [!UICONTROL 月] | 指定量度發生的月。第一個維度項目是日期範圍中的第一個月，最後一個維度項目是日期範圍中的最後一個月。 |
-| [!UICONTROL 月份] | 指定量度發生的月份。 第一個維度專案是日期範圍中一年的第一個月，最後一個維度專案是日期範圍中一年的最後一個月。 |
-| [!UICONTROL 季度] | 指定量度發生的季。第一個維度項目是日期範圍中的第一季，最後一個維度項目是日期範圍中的最後一季。 |
-| [!UICONTROL 季別] | 指定量度發生的季別。 第一個維度專案是日期範圍中一年的第一個季度，最後一個維度專案是日期範圍中一年的最後一個季度。 |
+| [!UICONTROL 一年中的月份] | 發生指定事件那一年的月份。第一個維度項目是日期範圍中那一年的第一個月，最後一個維度項目是日期範圍中那一年的最後一個月。 |
+| [!UICONTROL 季] | 指定量度發生的季。第一個維度項目是日期範圍中的第一個季節，最後一個維度項目是日期範圍中的最後一個季度。 |
+| [!UICONTROL 一年中的季度] | 發生指定事件那一年的季度。第一個維度項目是日期範圍中那一年的第一季，最後一個維度項目是日期範圍中那一年的最後一季。 |
 | [!UICONTROL 秒] | 指定事件發生的秒數 (無條件捨去)。第一個維度項目是日期範圍中的第一秒，最後一個維度項目是日期範圍中的最後一秒。 |
 | [!UICONTROL 週] | 指定量度發生的週。第一個維度項目是日期範圍中的第一週，最後一個維度項目是日期範圍中的最後一週。 |
-| [!UICONTROL 一年中的週數] | 指定量度發生的周別。 第一個維度專案是日期範圍中一年的第一週，最後一個維度專案是日期範圍中一年的最後一週。 |
+| [!UICONTROL 一年中的週] | 發生指定事件那一年的週。第一個維度項目是日期範圍中那一年的第一週，最後一個維度項目是日期範圍中那一年的最後一週。 |
 | [!UICONTROL 年] | 指定量度發生的年。第一個維度項目是日期範圍中的第一年，最後一個維度項目是日期範圍中最近的一年。 |
 
 
 ## 標準量度 {#standard-metrics}
 
-| 元件名稱 | 附註 |
+| 元件名稱 | 備註 |
 | --- | --- |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 帳戶] | 根據[!UICONTROL 連線]中所指定的帳戶 ID。 |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 購買群組] | 購買群組，根據[!UICONTROL 連線]中所指定的購買群組 ID。 |
-| [!UICONTROL 事件] | [!UICONTROL 連線]中所有事件資料集的列數。 |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 全域帳戶] | 根據[!UICONTROL 連線]中所指定的全域帳戶 ID。 |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 機會] | 機會，根據[!UICONTROL 連線]中所指定的機會 ID。 |
-| [!UICONTROL 人員] | 根據[!UICONTROL 連線]中所指定的人員 ID。 |
-| [!UICONTROL 工作階段結束] | 工作階段中最後一個事件的事件數。類似於[!UICONTROL 工作階段開始]，其也可用於區段定義中，以劃分至每個工作階段的最後一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段結束率</li></p> |
-| [!UICONTROL 工作階段開始] | 工作階段中第一個事件的事件數。在用於區段定義時 (例如「[!UICONTROL 工作階段開始]存在」)，其只劃分出每個工作階段的第一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段開始率</li></p> |
-| [!UICONTROL 工作階段] | 根據資料檢視的工作階段設定。 |
-| [!UICONTROL 逗留時間 (秒)] | 為維度加總兩個不同值之間的時間。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>每人逗留時間</li><li>每工作階段逗留時間</li></p> |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 帳戶] | 根據 [!UICONTROL Connection] 中所指定的帳戶 ID。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 購買群組] | 購買群組，根據 [!UICONTROL Connection] 中指定的購買群組 ID。 |
+| [!UICONTROL 事件] | [!UICONTROL Connection] 中所有事件資料集的列數。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 全域帳戶] | 根據 [!UICONTROL Connection] 中指定的全域帳戶 ID。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 機會] | 機會，根據 [!UICONTROL Connection] 中指定的機會 ID。 |
+| [!UICONTROL 人員] | 根據 [!UICONTROL Connection] 中指定的人員 ID。 |
+| [!UICONTROL 工作階段結束] | 工作階段中作為最後一個事件的事件數目。類似於[!UICONTROL 工作階段開始]，其也可用於區段定義中，以劃分至每個工作階段的最後一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段結束率</li></p> |
+| [!UICONTROL 工作階段開始] | 工作階段中作為第一個事件的事件數目。在用於區段定義時 (例如「[!UICONTROL 工作階段開始]存在」)，其只劃分出每個工作階段的第一個事件。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>工作階段開始率</li></p> |
+| [!UICONTROL 工作階段] | 根據資料視圖的工作階段設定。 |
+| [!UICONTROL 逗留時間 (秒)] | 將維度中兩個不同數值之間的時間加總。<p>此元件必須納入您的資料檢視中，以便工作區可使用以下[計算量度](/help/components/calc-metrics/default-calcmetrics.md)： <ul><li>每人逗留時間</li><li>每工作階段逗留時間</li></p> |

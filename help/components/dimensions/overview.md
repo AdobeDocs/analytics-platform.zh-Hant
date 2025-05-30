@@ -4,9 +4,9 @@ description: 了解何謂維度，以及其在 Customer Journey Analytics 中的
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
 source-git-commit: 6cabedc5ed58dac450577fc3505be5f95b7a959d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Customer Journey Analytics 管理員可以[在資料檢視中建立維度](/help
 
 ## 標準維度
 
-建立資料檢視時，下列元件會預設新增為資料檢視的維度：
+建立資料視圖時，下列元件會以維度形式預設新增至資料視圖：
 
 {{standard-dimensions}}
 
@@ -48,6 +48,6 @@ Customer Journey Analytics 管理員可以在資料檢視中或直接在 Analysi
 
 >[!MORELIKETHIS]
 >
->[使用事件深度功能探索更深入的客戶分析](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
+>[利用事件深度功能探索更深入的客戶分析](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
 >
 

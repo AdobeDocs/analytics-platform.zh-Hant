@@ -10,9 +10,9 @@ user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: c0446bd85b65109fd3311d54e33f9fb33af28f88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 98%
       + [概觀](/help/getting-started/cja-b2b-edition.md)
       + [B2B 概念與特點](/help/getting-started/cja-b2b-concepts-features.md)
       + [快速入門指南](/help/getting-started/cja-b2b-quick-start-guide.md)
-      + [轉換指南](/help/getting-started/cja-b2b-transition.md)
+      + [轉變指南](/help/getting-started/cja-b2b-transition.md)
 
 + Customer Journey Analytics 和 Adobe Analytics {#compare-aa-cja}
    + 升級至 Customer Journey Analytics {#upgrade-to-cja}
@@ -434,13 +434,13 @@ ht-degree: 98%
       + [使用行銷管道維度](../use-cases/aa-data/marketing-channels.md)
       + [結合報告套裝與不同的結構描述](../use-cases/aa-data/combine-report-suites.md)
    + B2B {#b2b}
-      + [以人為本的B2B專案範例](../use-cases/b2b/example.md)
+      + [人員型 B2B 專案範例](../use-cases/b2b/example.md)
       + B2B Edition {#b2b-edition}
          + [使用案例概觀](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
          + [設定](/help/use-cases/b2b/b2b-edition/setup.md)
-         + [最佳化帳戶行銷](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
-         + [成長關鍵客戶](/help/use-cases/b2b/b2b-edition/grow-key-accounts.md)
-         + [建立產品價值](/help/use-cases/b2b/b2b-edition/build-product-value.md)
+         + [將帳戶行銷最佳化](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
+         + [拓展重點客戶](/help/use-cases/b2b/b2b-edition/grow-key-accounts.md)
+         + [建置產品價值](/help/use-cases/b2b/b2b-edition/build-product-value.md)
    + 複雜的資料 {#complex-data}
       + [使用物件陣列](../use-cases/object-arrays.md)
    + 跨管道的資料 {#cross-channel}

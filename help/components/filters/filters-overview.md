@@ -5,7 +5,7 @@ exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
 role: User
 source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1474'
 ht-degree: 100%
 

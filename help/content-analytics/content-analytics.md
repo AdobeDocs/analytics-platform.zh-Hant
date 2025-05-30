@@ -6,9 +6,9 @@ feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 source-git-commit: dd4adc5acd05aecf0a67072df6688a344e1ce5c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -60,14 +60,14 @@ Content Analytics 使用 Experience Platform 事件資料集中的網頁影像�
 
 >[!NOTE]
 >
->如果您已授權Privacy and Security Shield附加元件，請注意（從產生的任何資料）體驗和資產(受Content Analytics限制)不屬於DULE標籤或客戶自控金鑰的涵蓋範圍。 此外，Content Analytics並非符合HIPAA要求的服務。
+>如果您已獲得 Privacy and Security Shield 附加元件的授權，請注意，遵守 Content Analytics 規定的體驗和資產 (所產生的任何資料)，並不涵蓋在 DULE 標籤或客戶管理金鑰的範圍內。此外，Content Analytics 不是符合 HIPAA 標準的服務。
 >
 
 
 >[!MORELIKETHIS]
 >
 >[Content Analytics 報告](report/report.md)
->[設定 Content Analytics](config/configuration.md)
->[在 Customer Journey Analytics 中計算退回與退回率](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
+>>[設定 Content Analytics](config/configuration.md)
+>>[在 Customer Journey Analytics 中計算退回與退回率](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 

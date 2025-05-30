@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 ## 新增功能？
 
-快速一覽 Customer Journey Analytics 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../release-notes/latest.md)。請瀏覽[檔案更新頁面](../release-notes/doc-changes.md)，以取得最新的檔案更新。
+快速一覽 Customer Journey Analytics 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../release-notes/latest.md)。請造訪[文件更新頁面](../release-notes/doc-changes.md)，了解最新的文件更新內容。
 
 >[!BEGINTABS]
 
@@ -31,7 +31,7 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 >[!TAB 事件深度]
 
-事件深度是新的標準維度，提供測量及更瞭解事件在客戶工作階段中位置的新方式。 「事件深度」維度可讓您詳細追蹤和分析特定事件在工作階段內使用者互動的循序流程中所發生的位置。
+事件深度是一個新的標準維度，提供新的方法來測量及更加理解事件在客戶工作階段的發生順序。事件深度維度可以針對特定事件發生於工作階段內使用者互動順序流程中的位置，進行詳細追蹤和分析。
 
 [![影像](assets/learn-more-button.svg)](/help/components/dimensions/overview.md#standard-dimensions)
 
