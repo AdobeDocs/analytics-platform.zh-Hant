@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 4c426b206cf4de06cbf0262f4d89787af060bb30
+source-git-commit: 7a25cd101ecd4ba88ee906e48f80219379c7374e
 workflow-type: tm+mt
-source-wordcount: '2653'
-ht-degree: 98%
+source-wordcount: '2656'
+ht-degree: 97%
 
 ---
 
@@ -347,7 +347,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning_dialog"
 >title="確認實作"
->abstract="如果您選取「**[!UICONTROL 實作]**」，將會根據您在此工作流程中提供的輸入來設定 Content Analytics。系統會預設為根據一般適用於 Content Analytics 的情況選擇若干設定，但是您 (作為資料控管方) 必須檢視每個成品的設定，以確認所實作的設定均遵守您的隱私權原則、合約權利與義務，以及適用法律規定的同意要求。<br/><br/>請注意，必須先手動發佈與這個設定關聯的標記資料庫，才能開始收集資料。<br/><br/>為了衍生影像和文字的屬性，Adobe 會使用以下方式獲得屬性：<ol><li>根據已設定的資料收集設定，在使用者造訪網站時所擷取的 URL，以及</li><li>託管影像的 URL。</li></ol>您不可以標記託管在第三方網站上的影像。"
+>abstract="如果您選取「**[!UICONTROL 實作]**」，將會根據您在此工作流程中提供的輸入來設定 Content Analytics。系統會預設為根據一般適用於 Content Analytics 的情況選擇若干設定，但是您 (作為資料控管方) 必須檢視每個成品的設定，以確認所實作的設定均遵守您的隱私權原則、合約權利與義務，以及適用法律規定的同意要求。<br/><br/>請注意，必須先手動發佈與這個設定關聯的標記資料庫，才能開始收集資料。<br/><br/>為了衍生影像和文字的屬性，Adobe 會使用以下方式獲得屬性：<ol><li>頁面URL，在使用者瀏覽網站時擷取，依據您已設定的資料收集設定，以及</li><li>託管影像的 URL。</li></ol>您不可以標記託管在第三方網站上的影像。"
 
 <!-- markdownlint-enable MD034 -->
 
