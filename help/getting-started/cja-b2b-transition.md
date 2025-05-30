@@ -5,16 +5,15 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
 badgePremium: label="B2B Edition"
-hide: true
-hidefromtoc: true
-source-git-commit: c0446bd85b65109fd3311d54e33f9fb33af28f88
+exl-id: d0e6398b-8080-4e36-b178-0cb91945d0c5
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 1%
 
 ---
 
-# 轉換指南
+# 轉變指南
 
 {{draft-b2b}}
 
@@ -24,9 +23,11 @@ ht-degree: 0%
 
 * 您有[個連線](/help/connections/overview.md)可將資料擷取到Customer Journey Analytics。
 * 您有[個資料檢視](/help/data-views/data-views.md)使用這些連線的資料。
-* 您有[個專案](/help/analysis-workspace/home.md)，其中包含利用這些資料檢視的報表和視覺效果。
+* 您有[個專案](/help/analysis-workspace/home.md)，其中包含利用這些資料檢視的報告和視覺效果。
 
 如果您之前未使用Customer Journey Analytics，請參閱[B2B edition快速入門手冊](cja-b2b-quick-start-guide.md)。
+
+如果您是Adobe Analytics使用者並計畫使用Customer Journey Analytics B2B edition，請先參閱[從Adobe Analytics升級至Customer Journey Analytics](cja-upgrade/cja-upgrade-recommendations.md)檔案。
 
 
 ## 現有實施

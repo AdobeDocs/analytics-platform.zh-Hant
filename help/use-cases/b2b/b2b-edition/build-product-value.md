@@ -4,18 +4,16 @@ description: 瞭解如何使用Customer Journey Analytics B2B edition建立產�
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B Edition"
 exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
-source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 1%
 
 ---
 
-# 建立產品價值
+# 建置產品價值
 
 {{draft-b2b}}
 

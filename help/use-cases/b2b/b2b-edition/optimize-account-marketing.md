@@ -4,18 +4,16 @@ description: 瞭解如何使用Customer Journey Analytics B2B edition最佳化�
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B Edition"
 exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
-source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 1%
 
 ---
 
-# 最佳化帳戶行銷
+# 將帳戶行銷最佳化
 
 {{draft-b2b}}
 

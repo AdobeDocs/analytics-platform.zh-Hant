@@ -4,14 +4,12 @@ description: 瞭解如何針對典型B2B使用案例設定Customer Journey Analy
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B Edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
-source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -21,9 +19,9 @@ ht-degree: 12%
 
 本文介紹Customer Journey Analytics B2B edition的典型設定，以支援下列使用案例：
 
-* [最佳化帳戶行銷](optimize-account-marketing.md)
-* [成長關鍵客戶](grow-key-accounts.md)
-* [建立產品價值](build-product-value.md)
+* [將帳戶行銷最佳化](optimize-account-marketing.md)
+* [拓展重點客戶](grow-key-accounts.md)
+* [建置產品價值](build-product-value.md)
 
 
 >[!NOTE]
@@ -288,9 +286,9 @@ SKU記錄可透過以記錄（查詢）為基礎的結構描述和一個或多�
    ![B2B連線 — 新增資料集](assets/b2b-connection-add-datasets.png)
 
 1. 選取&#x200B;**[!UICONTROL 下一步]**，為每個選取的資料集設定設定。
-1. 對於事件資料集，請確定您選取適當的eVar，對應至&#x200B;**[!UICONTROL 帳戶ID]**、**[!UICONTROL 全域帳戶ID]**、**[!UICONTROL 商機ID]**、**[!UICONTROL 購買群組ID]**&#x200B;和&#x200B;**[!UICONTROL 人員ID]**&#x200B;的身分。
+1. 對於事件資料集，請確定您選取與&#x200B;**[!UICONTROL 帳戶ID]**、**[!UICONTROL 全域帳戶ID]**、**[!UICONTROL 商機ID]**、**[!UICONTROL 購買群組ID]**&#x200B;和&#x200B;**[!UICONTROL 人員ID]**&#x200B;的身分相對應的適當欄位。
 
-   ![B2B連線 — 新增事件資料集](assets/b2b-connection-add-datasets-event-data.png)。
+   ![B2B連線 — 新增事件資料集](assets/b2b-connection-add-datasets-event-data.png)
 
 1. 向下捲動以設定帳戶記錄資料集。 請確定您選取正確的識別碼(**[!UICONTROL Account_ID]**)，以符合&#x200B;**[!UICONTROL 全域帳戶]**&#x200B;容器的帳戶。 選取正確的識別碼(**[!UICONTROL Account_ID]**)做為&#x200B;**[!UICONTROL 全域帳戶欄位]**。
 

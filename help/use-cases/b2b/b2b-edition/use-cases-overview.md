@@ -4,14 +4,12 @@ description: 瞭解典型Customer Journey Analytics B2B edition使用案例
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User, Admin
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B Edition"
 exl-id: 7c16cc62-5032-44a2-92e4-4a1c320f17aa
-source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -41,7 +39,7 @@ ht-degree: 1%
 
 根據上述角色及其需求，已識別下列使用案例：
 
-### 最佳化帳戶行銷
+### 將帳戶行銷最佳化
 
 分析和探索行銷影響：
 
@@ -50,13 +48,13 @@ ht-degree: 1%
 
 [詳細使用案例文章](optimize-account-marketing.md)探討Customer Journey Analytics B2B edition如何協助最佳化帳戶行銷。
 
-### 成長關鍵客戶
+### 拓展重點客戶
 
 在關鍵帳戶內跨購買群組識別高價值接觸點，以告知次佳行銷和銷售動作，並推動收入增長。 在帳戶層級計算並監視客戶期限值。
 
 [詳細使用案例文章](grow-key-accounts.md)探討Customer Journey Analytics B2B edition如何協助成長關鍵帳戶。
 
-### 建立產品價值
+### 建置產品價值
 
 在帳戶和使用者層級評估產品發行和產品使用對客戶滿意度的影響。 因此，您可以最佳化產品特色與功能，為未來的產品開發提供資訊。
 
