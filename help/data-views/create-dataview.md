@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 07f9a224d43658a58779abecd6473fceb7109ef4
+source-git-commit: f578b8e381f59abb1f22e00718531f216fefaef8
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 99%
+source-wordcount: '2453'
+ht-degree: 87%
 
 ---
 
@@ -140,7 +140,9 @@ ht-degree: 99%
 
 1. 使用「![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」**[!UICONTROL 搜尋結構描述欄位]**&#x200B;來搜尋結構描述欄位，或者移動到任意資料集集合來尋找欄位，例如![資料夾圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg)「**[!UICONTROL 事件資料集]**」。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)「**建立衍生欄位**」來建立衍生欄位。請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
-1. 當您找到特定結構描述欄位或定義衍生欄位時，拖動該欄位，例如![手柄圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg)「**[!UICONTROL 頁面名稱]**」，從左邊欄進入量度或維度區段。您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。例如，在 pageName 欄位，您可以使用右側不同的[元件設定](component-settings/overview.md)，以建立名為「產品頁面」的維度，以及「錯誤頁面」維度。如果從左側欄拖曳結構描述欄位檔案夾，它們會自動排序為傳統區段。字串欄位會在「[!UICONTROL 維度]」區段中結束，而數字結構描述類型最終出現在「[!UICONTROL 量度]」區段中。您也可以按一下「**[!UICONTROL 新增全部]**」，並新增所有結構描述欄位至其各自的位置。
+1. 當您找到特定結構描述欄位或定義衍生欄位時，請將該欄位（例如![控制代碼圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件]**&#x200B;下方的&#x200B;**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 維度]**區段。
+您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。例如，從pageName欄位，您可以使用右側不同的[元件設定](component-settings/overview.md)來建立名為`Product Pages`的維度，以及另一個名為`Error pages`的維度。
+如果您從左側邊欄拖曳結構描述欄位資料夾，資料夾中的欄位會自動排序到適當的區段中。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數字結構描述類型最終出現在「[!UICONTROL 量度]」區段中。您也可以按一下「新增全部&#x200B;]**」，並將所有結構描述欄位新增至其個別區段。**[!UICONTROL 
 
 1. 選取元件後，右側會出現設定。
 
@@ -159,11 +161,11 @@ ht-degree: 99%
 
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
-**複製量度或維度**
+### 複製量度或維度
 
 複製量度或維度，然後修改特定的設定，是從單一結構描述欄位建立多個量度或維度的簡易方式。選取右上方的量度或維度名稱底下的「[!UICONTROL 複製]」設定。 修改新的量度或維度，並使用更具說明性的名稱來儲存它。
 
-**篩選結構描述欄位或資料集**
+### 篩選結構描述欄位或資料集
 
 您可以依照[!UICONTROL 資料類型], [!UICONTROL 資料集]、[!UICONTROL 資料治理] 和 [!UICONTROL 其他] 條件 ([!UICONTROL 包含資料]、[!UICONTROL 身分識別] 和 [!UICONTROL 未淘汰]) 篩選左邊欄中的![篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)結構描述欄位：
 
@@ -172,6 +174,71 @@ ht-degree: 99%
 >[!TIP]
 >
 >如果資料視圖中未能正確載入元件，而且您看到錯誤訊息，請參閱「[缺乏權限](../troubleshooting/lack-of-permissions.md)」尋找解決方案。
+
+
+### 包含的元件 {#included-components}
+
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_custom"
+>title="自訂標籤"
+>abstract="除了 Adobe 提供的標籤之外，您還可以為貴組織定義自己的自訂標籤。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_contract"
+>title="合約標籤"
+>abstract="合約(C)標籤可用來對具有合約義務或與貴組織的資料治理原則相關的資料進行分類。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_identity"
+>title="身分識別標籤"
+>abstract="身分(I)標籤可用來對可辨識或聯絡特定人員的資料進行分類。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_sensitive"
+>title="敏感標籤"
+>abstract="敏感(S)標籤可用來對您及貴組織認為敏感的資料進行分類。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
+
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_partner_ecosystem"
+>title="合作夥伴生態系統"
+>abstract="合作夥伴生態系統(P)標籤可用來對與協力廠商合作夥伴共用的資料進行分類。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_datagovernance_policies"
+>title="原則"
+>abstract="為了使資料使用標籤有效地支援資料合規性，您必須實作資料使用原則。資料使用原則是說明允許或限制您在 Experience Platform 中對資料執行的行銷動作類型的規則。原則篩選器會將啟用的原則套用到資料檢視。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
+
+
+>[!CONTEXTUALHELP]
+>id="dataview_includedcomponents_filter_responsible_engagement"
+>title="負責的參與標籤"
+>abstract="負責任的參與標籤用於支援負責任的參與。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
+
+
+**[!UICONTROL 包含的元件]**&#x200B;包含您為資料檢視設定的&#x200B;**[!UICONTROL 量度]**&#x200B;和&#x200B;**[!UICONTROL 維度]**&#x200B;清單。
+
+* 若要搜尋元件，請使用![搜尋](/help/assets/icons/Search.svg) **[!UICONTROL _搜尋元件_]**。
+* 若要篩選列出的包含元件，請選取![篩選器](/help/assets/icons/Filter.svg)。
+
+  ![包含元件篩選對話方塊](assets/dataview_includedcomponents_filter.png)
+
+  在&#x200B;**[!UICONTROL 篩選欄位依]**&#x200B;對話方塊中，您可以篩選下列類別：
+
+   * **[!UICONTROL 資料型別]** — 您可以選取下列一或多個資料型別： [!UICONTROL 字串]、[!UICONTROL 整數]、[!UICONTROL 短整數]、[!UICONTROL 布林值]、[!UICONTROL 雙精度]、[!UICONTROL 位元組]、[!UICONTROL 長整數]、[!UICONTROL 日期]或[!UICONTROL 日期時間]。
+   * **[!UICONTROL 資料集]** — 選取一或多個資料集。
+   * **[!UICONTROL 資料控管]**：從[!UICONTROL 自訂標籤]、[!UICONTROL 合約標籤]、[!UICONTROL 身分標籤]、[!UICONTROL 敏感度標籤]、[!UICONTROL 合作夥伴生態系統]或[!UICONTROL 原則]子類別中選取一或多個標籤。
+   * **[!UICONTROL 其他]** — 選取一或多個選項[!UICONTROL 包含資料]、[!UICONTROL 是身分]或[!UICONTROL 未棄用]。
+
+  選取&#x200B;**[!UICONTROL 套用]**&#x200B;以套用篩選器。
 
 
 
