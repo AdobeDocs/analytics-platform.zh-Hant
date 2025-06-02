@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: dfc9ba843fbddc135c0f8160fb672adb36e9146f
-workflow-type: ht
+source-git-commit: 105b235c1a4791fd59cf65ae7f543a5fc08fc55d
+workflow-type: tm+mt
 source-wordcount: '3281'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -65,31 +65,31 @@ ht-degree: 100%
 
 ### 詳細的建議升級步驟
 
-以下步驟概述了從 Adob&#x200B;&#x200B;e Analytics 升級到 Customer Journey Analytics 的建議流程。
+以下步驟概觀了從 Adob&#x200B;&#x200B;e Analytics 升級到 Customer Journey Analytics 的建議流程。
 
 每個步驟都提供更詳細過程的高層解釋。按照每個步驟的連結完成其相關任務，然後返回此頁面並繼續執行該流程的下一步。
 
-1. [規劃您的 XDM 結構描述架構](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)。
+1. [規劃您的 XDM 結構描述架構](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md){target="_blank"}。
 
-1. [在 Adobe Experience Platform 中建立您所要的自訂結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)。
+1. [在 Adobe Experience Platform 中建立您所要的自訂結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md){target="_blank"}。
 
    建立結構描述時，請考慮以下選項：
 
-   * 如果要將 Customer Journey Analytics 與 RTCDP 整合，您必須在結構描述啟用&#x200B;**[!UICONTROL 設定檔]**&#x200B;選項，如「[建立 XDM 結構描述以搭配 Customer Journey Analytics 使用](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)」中所述。啟用此選項後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶輪廓中。
+   * 如果要將 Customer Journey Analytics 與 RTCDP 整合，您必須在結構描述啟用&#x200B;**[!UICONTROL 設定檔]**&#x200B;選項，如「[建立 XDM 結構描述以搭配 Customer Journey Analytics 使用](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md){target="_blank"}」中所述。啟用此選項後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶輪廓中。
 
-   * 如果你想包含串流媒體資料，你必須[設定結構描述以攝取和使用串流資料](/help/data-ingestion/streaming.md)。
+   * 如果你想包含串流媒體資料，你必須[設定結構描述以攝取和使用串流資料](/help/data-ingestion/streaming.md){target="_blank"}。
 
-1. [在 Adobe Experience Platform 中建立資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md)。
+1. [在 Adobe Experience Platform 中建立資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md){target="_blank"}。
 
 1. (選用) 如果您在 Adob&#x200B;&#x200B;e Analytics 中使用分類資料，則可以將分類資料新增至 Customer Journey Analytics 中的資料集。
 
-   若要如此做，[要為每個含有分類資料的維度建立查詢資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)。
+   若要如此做，[要為每個含有分類資料的維度建立查詢資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md){target="_blank"}。
 
-1. 對於使用 AppMeasurement 或 Analytics 擴充功能 (標記) 的 Adob&#x200B;&#x200B;e Analytics 實施，[在 Adob&#x200B;&#x200B;e Experience Platform 中建立資料流](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)。 <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
+1. 對於使用 AppMeasurement 或 Analytics 擴充功能 (標記) 的 Adob&#x200B;&#x200B;e Analytics 實施，[在 Adob&#x200B;&#x200B;e Experience Platform 中建立資料流](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md){target="_blank"}。 <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->
 
-   若為使用 Web SDK 的 Adobe Analytics 實施，資料流已經存在。如需詳細資訊，請參閱[設定現有的 Adobe Analytics Web SDK 實施以傳送資料至平台](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)。
+   若為使用 Web SDK 的 Adobe Analytics 實施，資料流已經存在。如需詳細資訊，請參閱[設定現有的 Adobe Analytics Web SDK 實施以傳送資料至平台](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md){target="_blank"}。
 
-1. [將 Adobe Experience Platform 即服務新增至資料流](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md)。
+1. [將 Adobe Experience Platform 即服務新增至資料流](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md){target="_blank"}。
 
 1. (選用) 如果您想將 Customer Journey Analytics 與 Adob&#x200B;&#x200B;e Journey Optimizer 整合，請在實施中使用個人化物件以便在 Adob&#x200B;&#x200B;e Journey Optimizer 中使用。
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
    +++手動實施 (JS 檔案)
 
-   1. [將 alloy.js 新增至您的網站](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version%22)。
+   1. [將 alloy.js 新增至您的網站](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version%22){target="_blank"}。
 
    1. 填入 XDM 物件並將其傳送至資料流。
 
@@ -105,13 +105,13 @@ ht-degree: 100%
 
    +++標記
 
-   1. [建立標記屬性並新增 Adobe Experience Platform Web SDK 擴充功能](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)。
+   1. [建立標記屬性並新增 Adobe Experience Platform Web SDK 擴充功能](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md){target="_blank"}。
 
-   1. [將 Adobe Experience Platform Web SDK 擴充功能新增至您的標記屬性](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+   1. [將Adobe Experience Platform Web SDK擴充功能新增至標籤屬性](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md){target="_blank"}。
 
    1. [在您的網站上實施載入程式標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)。
 
-   1. [新增 XDM 資料收集邏輯至您的標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)。
+   1. [新增 XDM 資料收集邏輯至您的標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md){target="_blank"}。
 
 +++
 
@@ -121,31 +121,31 @@ ht-degree: 100%
 
 +++
 
-1. [驗證您的 Web SDK 實施是否正在將資料傳送到資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md)。
+1. [驗證您的 Web SDK 實施是否正在將資料傳送到資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md){target="_blank"}。
 
-1. [在 Customer Journey Analytics 中建立連線](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)。
+1. [在 Customer Journey Analytics 中建立連線](/help/getting-started/cja-upgrade/cja-upgrade-connection.md){target="_blank"}。
 
 1. (選用) 將網路資料與其他管道的資料 (例如呼叫中心資料) 連結起來。
 
-   您可以透過為 Customer Journey Analytics 連線新增其他資料集來實現此目的，如[匯入呼叫中心和網頁資料](/help/use-cases/cross-channel/call-center.md)所述。
+   您可以透過為 Customer Journey Analytics 連線新增其他資料集來實現此目的，如[匯入呼叫中心和網頁資料](/help/use-cases/cross-channel/call-center.md){target="_blank"}所述。
 
-1. [在 Customer Journey Analytics 中建立資料檢視](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md)。
+1. [在 Customer Journey Analytics 中建立資料檢視](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md){target="_blank"}。
 
-1. [驗證資料是否流入 Customer Journey Analytics 中的資料檢視](/help/getting-started/cja-upgrade/cja-upgrade-validate.md)。
+1. [驗證資料是否流入 Customer Journey Analytics 中的資料檢視](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"}。
 
-1. 在您的 Adobe Analytics 環境中，使用 [Analytics 庫存](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/analytics-inventory)掌握您 Adobe Analytics 環境的全面概觀，包括專案和元件的數量、報告套裝、使用者等資訊。
+1. 在您的 Adobe Analytics 環境中，使用 [Analytics 庫存](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/analytics-inventory){target="_blank"}掌握您 Adobe Analytics 環境的全面概觀，包括專案和元件的數量、報告套裝、使用者等資訊。
 
-1. [移轉專案和元件](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)。
+1. [移轉專案和元件](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration){target="_blank"}。
 
    <!-- You might not want to do this, based on the schema? Ask Zach. Will it work if you have all new schema fields? What would you want to just build from scratch. Maybe everything? -->
 
-1. (選用) 如果您使用 Adob&#x200B;&#x200B;e Analytics 中的行銷管道，則可以[在 Customer Journey Analytics 中建立行銷管道派生欄位](/help/data-views/derived-fields/derived-fields.md#marketing-channels)。
+1. (選用) 如果您使用 Adob&#x200B;&#x200B;e Analytics 中的行銷管道，則可以[在 Customer Journey Analytics 中建立行銷管道派生欄位](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"}。
 
    派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告的重要層面。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。
 
    派生欄位的用途是定義派生行銷管道欄位，該欄位會根據一個或多個條件 (例如，URL 參數、頁面 URL 或頁面名稱) 來確定適當的行銷管道。
 
-   使用衍生欄位中的[行銷管道功能範本](/help/data-views/derived-fields/derived-fields.md#marketing-channels)，可以快速建立行銷管道的衍生欄位。
+   使用衍生欄位中的[行銷管道功能範本](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"}，可以快速建立行銷管道的衍生欄位。
 
 1. 將舊實施 Adob&#x200B;&#x200B;e Analytics 中的資料與新實施 Customer Journey Analytics 中的資料進行比較，確保您了解所有差異及其存在的原因。 <!-- Expound on this. Link to somewhere? There will be a lot of differences. -->
 
@@ -155,17 +155,17 @@ ht-degree: 100%
    >
    >如果您之前尚未建立 Analytics 來源連接器，請依照下列步驟進行。
    >
-   >如果您已將 Analytics 來源連接器與 Customer Journey Analytics 結合使用，請依照[從 Analytics 來源連接器轉換至適用於 Customer Journey Analytics 的 Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)」中的步驟進行。
+   >如果您已將 Analytics 來源連接器與 Customer Journey Analytics 結合使用，請依照[從 Analytics 來源連接器轉換至適用於 Customer Journey Analytics 的 Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md){target="_blank"}」中的步驟進行。
 
-   1. [建立 Analytics 來源連接器的 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+   1. [建立 Analytics 來源連接器的 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md){target="_blank"}。
 
-   1. 如果您還沒有 Analytics 來源連接器，可[建立 Analytics 來源連接器並將欄位對應到 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)。
+   1. 如果您還沒有 Analytics 來源連接器，可[建立 Analytics 來源連接器並將欄位對應到 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md){target="_blank"}。
 
       或
 
-      如果您已擁有 Analytics 來源連接器，則可[將欄位從來源連接器對應到 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)。
+      如果您已擁有 Analytics 來源連接器，則可[將欄位從來源連接器對應到 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md){target="_blank"}。
 
-   1. [將 Analytics 來源連接器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)。
+   1. [將 Analytics 來源連接器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md){target="_blank"}。
 
 1. 規劃使用者上線。
 
@@ -173,15 +173,15 @@ ht-degree: 100%
 
    您應該給使用者充足的時間 (3 - 6 個月) 來熟悉 Analysis Workspace 在 Customer Journey Analytics 中的主要差異。
 
-   有關 Adobe Analytics 和 Customer Journey Analytics 之間一些主要差異的資訊，請參閱「[Adobe Analytics 使用者的使用手冊](/help/getting-started/aa-to-cja-user.md)」。
+   有關 Adobe Analytics 和 Customer Journey Analytics 之間一些主要差異的資訊，請參閱「[Adobe Analytics 使用者的使用手冊](/help/getting-started/aa-to-cja-user.md){target="_blank"}」。
 
-1. 了解關於 [Customer Journey Analytics 中的功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。Customer Journey Analytics 支援大多數 Adob&#x200B;&#x200B;e Analytics 功能，Customer Journey Analytics 還提供了許多附加功能。
+1. 了解關於 [Customer Journey Analytics 中的功能支援](/help/getting-started/aa-vs-cja/cja-aa.md){target="_blank"}。Customer Journey Analytics 支援大多數 Adob&#x200B;&#x200B;e Analytics 功能，Customer Journey Analytics 還提供了許多附加功能。
 
 1. 當您的 Customer Journey Analytics Web SDK 實施完成並且您對所收集的資料感到滿意時，可停用 Adob&#x200B;&#x200B;e Analytics。
 
    Adobe 建議您在實施 Customer Journey Analytics 後，讓 Adob&#x200B;&#x200B;e Analytics 環境持續執行一段時間。
 
-   若要了解更多有關升級期間和升級後 Adob&#x200B;&#x200B;e Analytics 的使用情況，以及停用 Adob&#x200B;&#x200B;e Analytics 的建議時間，請參閱「[評估升級至 Customer Journey Analytics 後需要使用 Adobe Analytics 多長的時間](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)」。
+   若要了解更多有關升級期間和升級後 Adob&#x200B;&#x200B;e Analytics 的使用情況，以及停用 Adob&#x200B;&#x200B;e Analytics 的建議時間，請參閱「[評估升級至 Customer Journey Analytics 後需要使用 Adobe Analytics 多長的時間](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md){target="_blank"}」。
 
 ## 以動態方式為您的組織產生升級步驟
 
@@ -195,7 +195,7 @@ ht-degree: 100%
 
    在 Customer Journey Analytics 中，選取「**[!UICONTROL 工作區]**」索引標籤，然後在左側面板中選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。接著按照畫面上的指示進行操作。
 
-   完成此升級指南後，您將可獲得逐步說明，概述適合您組織要求的最佳升級步驟。這些升級步驟最符合您現有的 Adobe Analytics 環境和 Customer Journey Analytics 目標。升級步驟能夠透過可共用連結或可下載 .csv 檔案的形式提供。
+   完成此升級指南後，您將可獲得逐步說明，概觀適合您組織要求的最佳升級步驟。這些升級步驟最符合您現有的 Adobe Analytics 環境和 Customer Journey Analytics 目標。升級步驟能夠透過可共用連結或可下載 .csv 檔案的形式提供。
 
 1. 按照所產生的逐步說明升級至 Customer Journey Analytics。
 
