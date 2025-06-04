@@ -18,12 +18,12 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="建立客群"
->abstract="客群可以透過區段建立，並與 Adobe Experience Platform 共用以進行啟用。"
+>abstract="客群可以透過細分群體建立，並與 Adobe Experience Platform 共用以進行啟用。"
 
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="資料預覽"
->abstract="將此區段的資料與資料檢視的資料進行比較。此預覽百分比是根據資料檢視中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
+>abstract="將此細分群體的資料與資料檢視的資料進行比較。此預覽百分比是根據資料檢視中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
 
 
 **[!UICONTROL 區段產生器]**&#x200B;對話框用於建立新區段或編輯現有區段。對於您從[[!UICONTROL 區段]管理員](/help/components/filters/manage-filters.md)建立或管理的區段，對話框標題為&#x200B;**[!UICONTROL 新增區段]**&#x200B;或&#x200B;**[!UICONTROL 編輯區段]**。
@@ -128,7 +128,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在區段捲動日期範圍](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 在細分群體捲動日期範圍](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +157,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="例項"
->abstract="包含維度的例項。"
+>abstract="包括維度的執行個體。"
 
 
 >[!CONTEXTUALHELP]
