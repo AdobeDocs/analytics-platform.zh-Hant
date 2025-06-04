@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3aa8986569d5bb5d7767f95cbdaead3f09440383
+source-git-commit: 578674b3d62a8c31f1ca13e9edbb7e8c14974dc6
 workflow-type: tm+mt
-source-wordcount: '7259'
-ht-degree: 67%
+source-wordcount: '7421'
+ht-degree: 65%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 67%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -187,7 +187,7 @@ ht-degree: 67%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -243,8 +243,6 @@ ht-degree: 67%
 >id="cja_connection_optionalcontainers"
 >title="選用容器"
 >abstract="選取其他容器。<br/><br/>**[!UICONTROL 全域帳戶&#x200B;]**：可以設定在連線中的全域帳戶。<br/>**[!UICONTROL 機會]**：可以設定在連線中的機會。<br/>**[!UICONTROL 購買群組&#x200B;]**：可以設定在連線中的購買群組。"
-
-
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
@@ -366,6 +364,43 @@ ht-degree: 67%
 >title="連接圖"
 >abstract="連接圖會以視覺化方式顯示事件、人員、帳戶和相關查詢資料集 (如機會、行銷活動成員等) 之間的關係。"
 
+>[!CONTEXTUALHELP]
+>id="connection_stitching_enable"
+>title="啟用身分拼接"
+>abstract="啟用身分拼接以提升此事件資料集以進行跨管道分析。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
+
+>[!CONTEXTUALHELP]
+>id="connection_stitching_dialog"
+>title="啟用身分拼接"
+>abstract="啟用身分拼接會從單一或多個資料集衍生拼接ID。 此程式可能包括合併來自已驗證和未驗證工作階段的使用者資料。<br/><br/>您有責任遵守適用的法律和法規。 這項法規遵循包括您在合併資料集之前獲得必要的一般使用者許可權。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
+
+>[!CONTEXTUALHELP]
+>id="connection_persistent"
+>title="人員 ID"
+>abstract="從可用的身分中選取永久ID。 永久ID是可用於事件資料集中所有事件的識別碼。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
+
+>[!CONTEXTUALHELP]
+>id="connection_lookbackwindow"
+>title="回顧視窗"
+>abstract="選取用於重播彙整的回顧期間的適當時段。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
+
+>[!CONTEXTUALHELP]
+>id="connection_namespace_map"
+>title="名稱空間身分對應"
+>abstract="選取名稱空間以從身分對應中挑選識別碼。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
+
+>[!CONTEXTUALHELP]
+>id="connection_namespace_graph"
+>title="名稱空間身分圖表"
+>abstract="選取名稱空間以更新身分圖表中的識別碼。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
+
+
 ### 新增資料集
 
 當您建立或編輯連線時，可以新增一或多個Experience Platform資料集。
@@ -398,7 +433,7 @@ ht-degree: 67%
 
 1. 選取一或多個資料集，然後選取「**[!UICONTROL 下一步]**」。連線中必須至少包含一個事件或摘要資料集。
 
-1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋ **[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集[&#128279;](#dataset-settings)的設定。
+1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋ **[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集](#dataset-settings)的[設定。
 
    ![新增資料集](assets/add-dataset.png)
 
@@ -414,7 +449,7 @@ ht-degree: 67%
 1. 針對要編輯的資料集表格中所列的資料集，選取![更多](/help/assets/icons/More.svg)
 1. 選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**。
 
-1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**&#x200B;對話方塊中設定[資料集設定](#dataset-settings)。
+1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**對話方塊中設定[資料集設定](#dataset-settings)。
 
    ![編輯資料集](assets/edit-dataset.png)
 
@@ -575,7 +610,7 @@ ht-degree: 67%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
