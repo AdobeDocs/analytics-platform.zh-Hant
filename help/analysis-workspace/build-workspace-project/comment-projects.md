@@ -149,9 +149,9 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 ## 接收有關評論的通知
 
-專案所有者和您提到的[特定人員](#include-others-in-a-comment)會根據其Adobe Experience Cloud通知設定收到通知。 依預設，使用者會收到應用程式內通知，可在Customer Journey Analytics中的[Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)圖示![Experience Cloud通知圖示](assets/experience-cloud-notification.png)中看到。
+專案所有者和您提到的[特定人員](#include-others-in-a-comment)會根據其Adobe Experience Cloud通知設定收到通知。 依預設，使用者會收到應用程式內通知，可在Customer Journey Analytics中的[Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#view-notifications)圖示![Experience Cloud通知圖示](assets/experience-cloud-notification.png)中看到。
 
-此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
+此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
 
 ## 為現有評論放置徽章
 
