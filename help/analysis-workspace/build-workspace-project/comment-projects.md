@@ -51,7 +51,7 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
 ### 在專案中檢視評論徽章
 
-在專案的特定區域](#comment-on-a-specific-area-of-the-project)上所做的[評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.png)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
+在專案的特定區域[&#128279;](#comment-on-a-specific-area-of-the-project)上所做的評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.png)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
 
 編號會顯示在專案中的每個徽章上，並依照其建立順序排序。 如果在專案的相同區域放入多個註解，徽章會顯示3個點![註解徽章多個](assets/comment-indicator-multiple.png)。 選取3點徽章以顯示該區域中的所有註解。
 
