@@ -4,8 +4,8 @@ title: 在 Analysis Workspace 中使用元件
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 ### 在專案中新增區段
 
-[區段](/help/components/filters/filters-overview.md)可讓您根據特性或互動來識別人員、工作階段或事件的子集。
+[區段](/help/components/segments/seg-overview.md)可讓您根據特性或互動來識別人員、工作階段或事件的子集。
 
 您可以透過以下任一方式使用 Analysis Workspace 區段：
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 當您在自由格式表格中的欄位新增區段時，這些區段將會套用至表格欄位內的所有內容。您也可以新增區段作為流失視覺效果的一部分。
 
 * 在元件中使用區段
-當您定義[計算量度](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md)、[註解](/help/components/annotations/create-annotations.md#annotation-builder)，或甚至[區段](/help/components/filters/filter-builder.md)之類的元件時，您可以將區段作為定義的一部分使用。
+當您定義[計算量度](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md)、[註解](/help/components/annotations/create-annotations.md#annotation-builder)，或甚至[區段](/help/components/segments/seg-builder.md)之類的元件時，您可以將區段作為定義的一部分使用。
 
 
 ### 在專案中新增日期範圍

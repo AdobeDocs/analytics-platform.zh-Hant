@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 51%
@@ -18,11 +18,11 @@ ht-degree: 51%
 
 ## 步驟 1：將 Marketo 來源資料欄位對應至它們的 XDM 目標。
 
-將[人員](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=zh-Hant#persons)和[活動](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=zh-Hant#activities)物件對應至它們各自的 XDM 結構描述目標欄位。
+將[人員](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html#persons)和[活動](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html#activities)物件對應至它們各自的 XDM 結構描述目標欄位。
 
 ## 步驟2：將Marketo資料擷取至Adobe Experience Platform
 
-使用 [Marketo Engage 連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=zh-Hant)將資料從 Marketo 帶到 Experience Platform，並使用平台連線的應用程式保持這些資料在最新狀態。
+使用 [Marketo Engage 連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html)將資料從 Marketo 帶到 Experience Platform，並使用平台連線的應用程式保持這些資料在最新狀態。
 
 ## 步驟3：在Customer Journey Analytics中設定此資料集的連線
 
@@ -38,7 +38,7 @@ ht-degree: 51%
 
 1. 請開啟 [Analytics Workspace](/help/analysis-workspace/home.md) 並建立新專案。擁有B2B/B2P CDP的客戶可以在Customer Journey Analytics中進行B2C樣式的分析。 尚未提供 B2B 物件。
 
-1. 為網頁檢視建立[區段](/help/components/filters/create-filters.md)，如下所示：事件型別= web.webpagedetails.pageViews：
+1. 為網頁檢視建立[區段](/help/components/segments/seg-create.md)，如下所示：事件型別= web.webpagedetails.pageViews：
 
    顯示事件和事件型別的![定義視窗](../assets/marketo-filter.png)
 

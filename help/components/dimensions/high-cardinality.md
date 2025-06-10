@@ -5,7 +5,7 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 7%
@@ -34,7 +34,7 @@ Customer Journey Analytics會在執行報表時處理報表，將合併的資料
 
 適應高基數維度的最佳方式是限制報表處理的維度專案數。 由於所有報表在請求時都會處理，因此您可以調整報表引數以立即獲得結果。 Adobe建議對高基數維度進行下列任何最佳化：
 
-* 使用[區段](/help/components/filters/create-filters.md)。 區段在每個伺服器處理資料子集時套用。
+* 使用[區段](/help/components/segments/seg-create.md)。 區段在每個伺服器處理資料子集時套用。
 * 使用搜尋。 從搜尋字詞中排除的Dimension專案會從報表結果中移除，因此您更有可能看到所需的維度專案。
 * 使用查詢資料集維度。 查詢資料集維度結合了事件資料集維度項目，這會限制傳回的唯一值數量。
 * 在資料檢視管理員中使用[包含/排除](/help/data-views/component-settings/include-exclude-values.md)元件設定。

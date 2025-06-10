@@ -5,8 +5,8 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 100%
 
@@ -78,13 +78,13 @@ Adobe Analytics 區段和計算量度與 Customer Journey Analytics 不相容。
 
 2. 記錄它們的定義，以及
 
-3. 確定資料中所需的欄位，以便在 Customer Journey Analytics 中複寫為[區段](/help/components/filters/filters-overview.md)和[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。
+3. 確定資料中所需的欄位，以便在 Customer Journey Analytics 中複寫為[區段](/help/components/segments/seg-overview.md)和[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。
 
 以下兩段影片協助提供指引：
 
 * [將 Adobe Analytics 區段移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=zh-Hant)
 
-* [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html?lang=zh-Hant)
+* [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html)
 
 ### 其他考量
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '14696'
+source-wordcount: '14685'
 ht-degree: 2%
 
 ---
@@ -65,10 +65,10 @@ ht-degree: 2%
 
 這些指示參考到包含以下物件的範例環境：
 
-* 資料檢視： **[!UICONTROL C&amp;C — 資料檢視]**??。
-* 維度： **[!UICONTROL 產品名稱]** ??和&#x200B;**[!UICONTROL 產品類別]** ??。
-* 量度： **[!UICONTROL 購買收入]**??和&#x200B;**[!UICONTROL 購買]**??。
-* 篩選器： **[!UICONTROL 釣魚產品]**??。
+* 資料檢視： **[!UICONTROL C&amp;C — 資料檢視]** 🅐。
+* 維度： **[!UICONTROL 產品名稱]** 🅑和&#x200B;**[!UICONTROL 產品類別]** 🅒。
+* 量度： **[!UICONTROL 購買收入]** 🅓和&#x200B;**[!UICONTROL 購買]** 🅔。
+* 篩選器： **[!UICONTROL 釣魚產品]** 🅕。
 
 ![Customer Journey Analytics基本設定](assets/cja-base.png){zoomable="yes"}
 
@@ -93,36 +93,30 @@ ht-degree: 2%
 
 1. 啟動Power BI Desktop。
    1. 從主介面中，選取&#x200B;**[!UICONTROL 從其他來源取得資料]**。
-   1. 在&#x200B;**[!UICONTROL 取得資料]**&#x200B;對話方塊中：
-
+   1. 在&#x200B;**[!UICONTROL 取得資料]**對話方塊中：
       ![PowerBI PostgreSQL資料庫](assets/powerbi-postgresql.png){zoomable="yes"}
       1. 搜尋並選取&#x200B;**[!UICONTROL PostgreSQL資料庫]**。
       1. 選取&#x200B;**[!UICONTROL 連線]**。
-   1. 在&#x200B;**[!UICONTROL PostgreSQL資料庫]**&#x200B;對話方塊中：
-
+   1. 在&#x200B;**[!UICONTROL PostgreSQL資料庫]**對話方塊中：
       ![PowerBI案頭伺服器和資料庫設定](assets/powerbi-serverdatabase.png){zoomable="yes"}
       1. 使用![複製](/help/assets/icons/Copy.svg)從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼上&#x200B;**[!UICONTROL 主機]**&#x200B;和&#x200B;**[!UICONTROL 連線埠]**&#x200B;值，以`:`分隔，做為&#x200B;**[!UICONTROL 伺服器]**&#x200B;的值。 例如：`examplecompany.platform-query.adobe.io:80`。
       1. 使用![複製](/help/assets/icons/Copy.svg)從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼上&#x200B;**[!UICONTROL 資料庫]**&#x200B;值。 將`?FLATTEN`新增至您貼上的值。 例如，`prod:cja?FLATTEN`。
       1. 選取&#x200B;**[!UICONTROL DirectQuery]**&#x200B;作為&#x200B;**[!UICONTROL 資料連線模式]**。
       1. 選取&#x200B;**[!UICONTROL 確定]**。
-   1. 在&#x200B;**[!UICONTROL PostgreSQL資料庫]** - **[!UICONTROL 資料庫]**&#x200B;對話方塊中：
-
+   1. 在&#x200B;**[!UICONTROL PostgreSQL資料庫]** - **[!UICONTROL 資料庫]**對話方塊中：
       ![PowerBI案頭使用者和密碼](assets/powerbi-userpassword.png){zoomable="yes"}
-      1. 使用![複製](/help/assets/icons/Copy.svg)從&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;欄位的Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板中複製&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;值。 如果您使用[不會到期的認證](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)，請使用不會到期的認證的密碼。
+      1. 使用![複製](/help/assets/icons/Copy.svg)從&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;欄位的Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板中複製&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;值。 如果您使用[不會到期的認證](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)，請使用不會到期的認證的密碼。
       1. 確定&#x200B;**[!UICONTROL 的下拉式功能表「選取要套用這些設定至]**&#x200B;的層級」已設定為您先前定義的&#x200B;**[!UICONTROL 伺服器]**。
       1. 選取&#x200B;**[!UICONTROL 連線]**。
-   1. 在&#x200B;**[!UICONTROL 導覽器]**&#x200B;對話方塊中，會擷取資料檢視。 此擷取作業可能需要一些時間。 擷取後，您會在Power BI Desktop中看到下列內容。
-
+   1. 在&#x200B;**[!UICONTROL 導覽器]**對話方塊中，會擷取資料檢視。 此擷取作業可能需要一些時間。 擷取後，您會在Power BI Desktop中看到下列內容。
       ![Power BI Destkop載入資料](assets/powerbi-navigator-load.png){zoomable="yes"}
       1. 從左側面板的清單中選取&#x200B;**[!UICONTROL public.cc_data_view]**。
       1. 您有兩個選項:
          1. 選取&#x200B;**[!UICONTROL 載入]**&#x200B;以繼續並完成設定。
          1. 選取&#x200B;**[!UICONTROL 轉換資料]**。 您會看到一個對話方塊，您可以選擇將轉換套用為組態的一部分。
-
             ![Power BI案頭轉換資料](assets/powerbi-transform-data.png){zoomable="yes"}
             * 選取&#x200B;**[!UICONTROL 關閉並套用]**。
    1. 一段時間後，**[!UICONTROL public.cc_data_view]**&#x200B;會顯示在&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中。 選取![V形右側](/help/assets/icons/ChevronRight.svg)以顯示維度和量度。
-
       ![已載入Power BI Destkop伺服器資料](assets/powerbi-navigator-loaded.png){zoomable="yes"}
 
 
@@ -157,18 +151,16 @@ Power BI Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參
       ![查詢服務認證](assets/queryservice-credentials.png){zoomable="yes"}
 
 1. 啟動Tableau。
-   1. 從&#x200B;**[!UICONTROL 下的左側邊欄選取**&#x200B;[!UICONTROL &#x200B; PostgreSQL &#x200B;]&#x200B;**以連線至伺服器]**。 如果無法取得，請選取&#x200B;**[!UICONTROL 更多……]**，然後從&#x200B;**[!UICONTROL 安裝的聯結器]**&#x200B;中選取&#x200B;**[!UICONTROL PostgreSQL]**。
-
+   1. 從&#x200B;**[!UICONTROL 下的左側邊欄選取**[!UICONTROL  PostgreSQL ]**以連線至伺服器]**。 如果無法取得，請選取&#x200B;**[!UICONTROL 更多……]**，然後從&#x200B;**[!UICONTROL 安裝的聯結器]**&#x200B;中選取&#x200B;**[!UICONTROL PostgreSQL]**。
       ![Tableau聯結器](assets/tableau-connectors.png){zoomable="yes"}
-   1. 在&#x200B;**[!UICONTROL PostgreSQL]**&#x200B;對話方塊的&#x200B;**[!UICONTROL 一般]**&#x200B;索引標籤中：
-
+   1. 在&#x200B;**[!UICONTROL PostgreSQL]**&#x200B;對話方塊的&#x200B;**[!UICONTROL 一般]**索引標籤中：
       ![Tableau登入對話方塊](assets/tableau-signin.png){zoomable="yes"}
       1. 使用![複製](/help/assets/icons/Copy.svg)將&#x200B;**[!UICONTROL 主機]**&#x200B;從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼到&#x200B;**[!UICONTROL 伺服器]**。
       1. 使用![複製](/help/assets/icons/Copy.svg)將&#x200B;**[!UICONTROL 連線埠]**&#x200B;從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼到&#x200B;**[!UICONTROL 連線埠]**。
       1. 使用![複製](/help/assets/icons/Copy.svg)將&#x200B;**[!UICONTROL 資料庫]**&#x200B;從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼到&#x200B;**[!UICONTROL 資料庫]**。 將`%3FFLATTEN`新增至您貼上的值。 例如：`prod:cja%3FFLATTEN`。
       1. 從&#x200B;**[!UICONTROL 驗證]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 使用者名稱和密碼]**。
       1. 使用![複製](/help/assets/icons/Copy.svg)將&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼到&#x200B;**[!UICONTROL 使用者名稱]**。
-      1. 使用![複製](/help/assets/icons/Copy.svg)將&#x200B;**[!UICONTROL 密碼]**&#x200B;從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼到&#x200B;**[!UICONTROL 密碼]**。 如果您使用[不會到期的認證](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)，請使用不會到期的認證的密碼。
+      1. 使用![複製](/help/assets/icons/Copy.svg)將&#x200B;**[!UICONTROL 密碼]**&#x200B;從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼到&#x200B;**[!UICONTROL 密碼]**。 如果您使用[不會到期的認證](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)，請使用不會到期的認證的密碼。
       1. 請確定已核取&#x200B;**[!UICONTROL 需要SSL]**。
       1. 選取「**[!UICONTROL 登入]**」。
 
@@ -176,12 +168,10 @@ Power BI Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參
    1. 在主視窗中，您會在左窗格的&#x200B;**[!UICONTROL 資料Source]**&#x200B;頁面中看到：
       * **[!UICONTROL 連線]**&#x200B;下的連線名稱。
       * **[!UICONTROL 資料庫]**&#x200B;底下的資料庫名稱。
-      * **[!UICONTROL 表格]**&#x200B;下的表格清單。
-
+      * **[!UICONTROL 表格]**下的表格清單。
         ![Tableau已連線](assets/tableau-connected.png){zoomable="yes"}
       1. 將&#x200B;**[!UICONTROL cc_data_view]**&#x200B;專案拖放到顯示&#x200B;**[!UICONTROL 將表格]**&#x200B;拖曳到此處的主檢視上。
-   1. 主視窗會顯示&#x200B;**[!UICONTROL cc_data_view]**&#x200B;資料檢視的詳細資料。
-
+   1. 主視窗會顯示&#x200B;**[!UICONTROL cc_data_view]**資料檢視的詳細資料。
       ![Tableau已連線](assets/tableau-validation.png){zoomable="yes"}
 
 ### 是否平面化
@@ -235,13 +225,13 @@ Tableau Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參�
       1. 選取&#x200B;**[!UICONTROL 測試]**&#x200B;以測試連線。 您應該會看到橫幅出現在畫面頂端，並顯示&#x200B;**[!UICONTROL Success， can connect JDBC ....]**&#x200B;之類的訊息。
       1. 選取&#x200B;**[!UICONTROL 連線]**&#x200B;以建立和儲存連線。
    1. 您會在&#x200B;**[!UICONTROL 連線]**&#x200B;介面中看到新連線。
-   1. 從&#x200B;**[!UICONTROL 管理員←3&rbrace;選取**&#x200B;管理員&#x200B;**以移至左側邊欄中的主導覽。]**
+   1. 從&#x200B;**[!UICONTROL 管理員←3}選取**&#x200B;管理員&#x200B;**以移至左側邊欄中的主導覽。]**
    1. 選取&#x200B;**[!UICONTROL 開發]**。
    1. 選取&#x200B;**[!UICONTROL 專案]**。
    1. 選取LookML專案中的&#x200B;**[!UICONTROL 新模型]**。
    1. 以確保不會影響其他使用者。 出現提示時，選取「進入開發模式」。
    1. 在&#x200B;**[!UICONTROL 建立模型]**&#x200B;體驗中：
-      1. 在&#x200B;**[!UICONTROL ➊中選取資料庫連線]**：
+      1. 在&#x200B;**[!UICONTROL ➊中，選取資料庫連線]**：
          1. 在&#x200B;**[!UICONTROL 選取資料庫連線]**&#x200B;中選取您的資料庫連線。 例如： **[!UICONTROL example_looker_connection]**。
          1. 在&#x200B;**[!UICONTROL 中命名您的專案為此模型建立新的LookML專案]**。 針對`example: example_looker_project`。
          1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
@@ -253,7 +243,7 @@ Tableau Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參�
       1. 在&#x200B;**[!UICONTROL ➍中選取要建立的探索]**：
          1. 請確定您選取檢視。 例如： **[!UICONTROL cc_data_view.view]**。
          1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
-      1. 在&#x200B;**[!UICONTROL 中➎輸入模型名稱]**：
+      1. 在&#x200B;**[!UICONTROL ➎中輸入模型名稱]**：
          1. 為您的模型命名。 例如：`example_looker_model`。
       1. 選取&#x200B;**[!UICONTROL 完成並探索資料]**。
 
@@ -396,7 +386,7 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
 
 1. 啟動RStudio。
 1. 建立新的R Markdown檔案，或下載[此範例R Markdown檔案](assets/BI-Extension.Rmd.zip)。
-1. 在第一個區塊中，輸入下列介於` ` ``{r} `到` `` ` `之間的陳述式。 使用![複製](/help/assets/icons/Copy.svg)從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼上值至各種引數（如`host`、`dbname`和`user`）所需的值。 例如：
+1. 在第一個區塊中，輸入下列介於` ```{r} `到` ``` `之間的陳述式。 使用![複製](/help/assets/icons/Copy.svg)從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼上值至各種引數（如`host`、`dbname`和`user`）所需的值。 例如：
 
    ```R
    library(rstudioapi)
@@ -417,7 +407,7 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
 
    ![RStudio設定步驟1](assets/rstudio-config-step1.png){zoomable="yes"}
 
-1. 建立新的區塊，並輸入下列介於` ` `` {r} `到` `` ` `之間的陳述式。
+1. 建立新的區塊，並輸入下列介於` ``` {r} `到` ``` `之間的陳述式。
 
    ```R
    con <- dbConnect(
@@ -434,7 +424,7 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
 1. 執行區塊。 如果連線成功，應該不會看到任何輸出。
 
 
-1. 建立新的區塊，並輸入下列介於` ` `` {r} `到` `` ` `之間的陳述式。
+1. 建立新的區塊，並輸入下列介於` ``` {r} `到` ``` `之間的陳述式。
 
    ```R
    views <- dbListTables(con)
@@ -444,7 +434,7 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
 1. 執行區塊。 您應該看到`character(0)`是唯一輸出。
 
 
-1. 建立新的區塊，並輸入下列介於` ` `` {r} `到` `` ` `之間的陳述式。
+1. 建立新的區塊，並輸入下列介於` ``` {r} `到` ``` `之間的陳述式。
 
    ```R
    glimpse(dv)
@@ -505,7 +495,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
 
-   1. 從這個視覺效果&#x200B;**上的**&#x200B;篩選條件中選取&#x200B;**[!UICONTROL daterangeday is (All)]**。
+   1. 從這個視覺效果&#x200B;]**上的**[!UICONTROL &#x200B;篩選條件中選取&#x200B;**[!UICONTROL daterangeday is (All)]**。
    1. 選取&#x200B;**[!UICONTROL 進階篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 位於或晚於]** `1/1/2023` **[!UICONTROL 且]** **[!UICONTROL 位於]** `2/1/2023.`時顯示專案。您可以使用行事曆圖示挑選和選取日期。
    1. 選取&#x200B;**[!UICONTROL 套用篩選器]**。
@@ -574,7 +564,6 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 在&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;對話方塊中：
    1. 選取&#x200B;**[!UICONTROL ‣ Cc資料檢視]**
    1. 從欄位清單中，選取&#x200B;**[!UICONTROL 日‣期範圍日期]**&#x200B;然後&#x200B;**[!UICONTROL 日期範圍日期]**。
-
       ![Looker篩選器](assets/uc2-looker-filter.png){zoomable="yes"}
 1. 指定&#x200B;**[!UICONTROL Cc資料檢視日期範圍日期]**&#x200B;篩選器，因為&#x200B;**[!UICONTROL 在範圍]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 到（之前）]** **[!UICONTROL 2023/02/01]**。
 1. 從左側邊欄的&#x200B;**[!UICONTROL Cc資料檢視]**&#x200B;區段，
@@ -615,7 +604,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。
 
    ```R
    ## Daily Events
@@ -713,7 +702,6 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 在&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;對話方塊中：
    1. 選取&#x200B;**[!UICONTROL ‣ Cc資料檢視]**
    1. 從欄位清單中，選取&#x200B;**[!UICONTROL 日‣期範圍日期]**&#x200B;然後&#x200B;**[!UICONTROL 日期範圍日期]**。
-
       ![Looker篩選器](assets/uc2-looker-filter.png){zoomable="yes"}
 1. 指定&#x200B;**[!UICONTROL Cc資料檢視日期範圍]**&#x200B;篩選器，因為&#x200B;**[!UICONTROL 在範圍]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 到（之前）]** **[!UICONTROL 2023/01/02]**。
 1. 從左側邊欄的&#x200B;**[!UICONTROL Cc資料檢視]**&#x200B;區段，
@@ -754,7 +742,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。
 
    ```R
    ## Hourly Events
@@ -810,7 +798,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
 
-   1. 從這個視覺效果&#x200B;**上的**&#x200B;篩選條件中選取&#x200B;**[!UICONTROL daterangemonth is (All)]**。
+   1. 從這個視覺效果&#x200B;]**上的**[!UICONTROL &#x200B;篩選條件中選取&#x200B;**[!UICONTROL daterangemonth is (All)]**。
    1. 選取&#x200B;**[!UICONTROL 進階篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 位於或晚於]** `1/1/2023` **[!UICONTROL 且]** **[!UICONTROL 位於]** `1/1/2024.`時顯示專案。您可以使用行事曆圖示挑選和選取日期。
    1. 選取&#x200B;**[!UICONTROL 套用篩選器]**。
@@ -881,7 +869,6 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 在&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;對話方塊中：
    1. 選取&#x200B;**[!UICONTROL ‣ Cc資料檢視]**
    1. 從欄位清單中，選取&#x200B;**[!UICONTROL 日‣期範圍日期]**&#x200B;然後&#x200B;**[!UICONTROL 日期範圍日期]**。
-
       ![Looker篩選器](assets/uc2-looker-filter.png){zoomable="yes"}
 1. 指定&#x200B;**[!UICONTROL Cc資料檢視日期範圍]**&#x200B;篩選器，因為&#x200B;**[!UICONTROL 在範圍]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 到（之前）]** **[!UICONTROL 2024/01/01]**。
 1. 從左側&#x200B;**[!UICONTROL Cc資料檢視]**&#x200B;邊欄，
@@ -922,7 +909,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。
 
    ```R
    ## Hourly Events
@@ -979,7 +966,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
 
-   1. 選取此視覺效果&#x200B;**上的**&#x200B;篩選器&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
+   1. 選取此視覺效果&#x200B;]**上的**[!UICONTROL &#x200B;篩選器&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 相對日期]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 位於最後]** `1` **[!UICONTROL 日曆年]**&#x200B;時顯示專案。
    1. 選取&#x200B;**[!UICONTROL 套用篩選器]**。
@@ -1082,7 +1069,6 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 在&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;對話方塊中：
    1. 選取&#x200B;**[!UICONTROL ‣ Cc資料檢視]**
    1. 從欄位清單中，選取&#x200B;**[!UICONTROL 日‣期範圍日期]**&#x200B;然後&#x200B;**[!UICONTROL 日期範圍日期]**。
-
       ![Looker篩選器](assets/uc2-looker-filter.png){zoomable="yes"}
 1. 指定&#x200B;**[!UICONTROL Cc資料檢視日期範圍]**&#x200B;篩選器，因為&#x200B;**[!UICONTROL 在範圍]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 到（之前）]** **[!UICONTROL 2024/01/01]**。
 1. 從左側邊欄的&#x200B;**[!UICONTROL ‣ Cc資料檢視]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 產品名稱]**。
@@ -1093,8 +1079,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
       1. 從&#x200B;**[!UICONTROL 量值型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 總和]**。
       1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;的自訂欄位名稱。 例如：`Purchase Revenue`。
       1. 選取&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;標籤。
-      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**&#x200B;輸入。
-
+      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**輸入。
          ![Looker自訂量度欄位](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. 選取「**[!UICONTROL 儲存]**」。
    1. 從&#x200B;**[!UICONTROL +新增]**&#x200B;下拉式功能表中再次選取&#x200B;**[!UICONTROL 自訂量值]**。 在&#x200B;**[!UICONTROL 建立自訂]**&#x200B;量值對話方塊中：
@@ -1114,8 +1099,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
    1. 選取&#x200B;**[!UICONTROL 系列]**&#x200B;標籤。
    1. 向下捲動以檢視&#x200B;**[!UICONTROL 購買]**&#x200B;並將&#x200B;**[!UICONTROL 型別]**&#x200B;變更為&#x200B;**[!UICONTROL 行]**。
    1. 選取&#x200B;**[!UICONTROL Y]**&#x200B;索引標籤。
-   1. 從&#x200B;**[!UICONTROL 左1]**&#x200B;容器拖曳&#x200B;**[!UICONTROL 購買]**&#x200B;到顯示&#x200B;**[!UICONTROL *拖曳系列到此處以建立新的左軸&#x200B;*]**。 此動作會建立&#x200B;**[!UICONTROL &#x200B;左2 &#x200B;]**&#x200B;容器。
-
+   1. 從&#x200B;**[!UICONTROL 左1]**&#x200B;容器拖曳&#x200B;**[!UICONTROL 購買]**&#x200B;到顯示&#x200B;**[!UICONTROL *拖曳系列到此處以建立新的左軸&#x200B;*]**。 此動作會建立**[!UICONTROL &#x200B;左2 ]**容器。
       ![Looker視覺效果設定](assets/uc5-looker-visualization.png){zoomable="yes"}
    1. 選取&#x200B;**[!UICONTROL 編輯]**&#x200B;旁的![CrossSize75](/help/assets/icons/CrossSize75.svg)以隱藏快顯對話方塊
 
@@ -1151,7 +1135,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。
 
    ```R
    library(tidyr)
@@ -1216,7 +1200,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
    1. 選取&#x200B;**[!UICONTROL ∑購買]**
 
 1. 若要將垂直長條圖修改為表格，請確定您已選取表格，並從&#x200B;**[!UICONTROL 視覺效果]**&#x200B;窗格中選取&#x200B;**[!UICONTROL 矩陣]**。
-   * 從&#x200B;**[!UICONTROL 資料行]**&#x200B;拖曳&#x200B;**[!UICONTROL product_name]**，並將欄位拖放到&#x200B;**[!UICONTROL 視覺效果]**&#x200B;窗格中的&#x200B;**[!UICONTROL 資料列]**&#x200B;**[!UICONTROL product_categor]**&#x200B;y下。
+   * 從&#x200B;**[!UICONTROL 資料行]**&#x200B;拖曳&#x200B;**[!UICONTROL product_name]**，並將欄位拖放到&#x200B;**[!UICONTROL 視覺效果]**&#x200B;窗格中的&#x200B;**[!UICONTROL 資料列]****[!UICONTROL product_categor]**y下。
 
 1. 若要限制表格內顯示的產品數量，請在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中選取&#x200B;**[!UICONTROL product_name is (All)]**。
 
@@ -1300,7 +1284,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
    1. 若要將兩個水準列變更為表格，請從&#x200B;**[!UICONTROL 顯示我]**&#x200B;中選取&#x200B;**[!UICONTROL 文字表格]**。
    1. 若要限制產品數量，請在&#x200B;**[!UICONTROL 量值值]**&#x200B;中選取&#x200B;**[!UICONTROL 購買]**。 從下拉式功能表中選取&#x200B;**[!UICONTROL 篩選器]**。
    1. 在&#x200B;**[!UICONTROL 篩選器\[購買\]]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 至少]**&#x200B;並輸入`7000`。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;及&#x200B;**[!UICONTROL 確定]**。
-   1. 從&#x200B;**&#x200B;**「符合」下拉式功能表中選取&#x200B;**[!UICONTROL 「符合寬度]**」。
+   1. 從&#x200B;****「符合」下拉式功能表中選取&#x200B;**[!UICONTROL 「符合寬度]**」。
 
       您的Tableau桌上型電腦應如下所示。
 
@@ -1341,7 +1325,6 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 在&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;對話方塊中：
    1. 選取&#x200B;**[!UICONTROL ‣ Cc資料檢視]**
    1. 從欄位清單中，選取&#x200B;**[!UICONTROL 日‣期範圍日期]**&#x200B;然後&#x200B;**[!UICONTROL 日期範圍日期]**。
-
       ![Looker篩選器](assets/uc2-looker-filter.png){zoomable="yes"}
 1. 指定&#x200B;**[!UICONTROL Cc資料檢視日期範圍]**&#x200B;篩選器，因為&#x200B;**[!UICONTROL 在範圍]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 到（之前）]** **[!UICONTROL 2024/01/01]**。
 1. 從左側邊欄的&#x200B;**[!UICONTROL ‣ Cc資料檢視]**&#x200B;區段：
@@ -1354,8 +1337,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
       1. 從&#x200B;**[!UICONTROL 量值型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 總和]**。
       1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;的自訂欄位名稱。 例如：`Sum of Purchase Revenue`。
       1. 選取&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;標籤。
-      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**&#x200B;輸入。
-
+      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**輸入。
          ![Looker自訂量度欄位](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. 選取「**[!UICONTROL 儲存]**」。
    1. 從&#x200B;**[!UICONTROL +新增]**&#x200B;下拉式功能表中再次選取&#x200B;**[!UICONTROL 自訂量值]**。 在&#x200B;**[!UICONTROL 建立自訂]**&#x200B;量值對話方塊中：
@@ -1413,7 +1395,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。
 
    ```R
    ## Multiple dimensions ranked
@@ -1550,13 +1532,11 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 在&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;對話方塊中：
    1. 選取&#x200B;**[!UICONTROL ‣ Cc資料檢視]**
    1. 從欄位清單中，選取&#x200B;**[!UICONTROL 日‣期範圍日期]**&#x200B;然後&#x200B;**[!UICONTROL 日期範圍日期]**。
-
       ![Looker篩選器](assets/uc2-looker-filter.png){zoomable="yes"}
 1. 指定&#x200B;**[!UICONTROL Cc資料檢視日期範圍日期]**&#x200B;篩選器，因為&#x200B;**[!UICONTROL 在範圍]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 到（之前）]** **[!UICONTROL 2023/02/01]**。
 1. 從左側邊欄的&#x200B;**[!UICONTROL ‣ Cc資料檢視]**&#x200B;區段：
    1. 選取&#x200B;**[!UICONTROL 日期範圍日期]**，然後選取&#x200B;**[!UICONTROL 日期]**。
    1. 從&#x200B;**[!UICONTROL 產品名稱]**&#x200B;上的&#x200B;**⋮更多**&#x200B;內容功能表中選取&#x200B;**[!UICONTROL 彙總相異‣計數]**。
-
       ![Looker產品名稱內容功能表](assets/uc7-looker-count-distinct.png){zoomable="yes"}
 1. 選取&#x200B;**[!UICONTROL 執行]**。
 1. 選取‣**[!UICONTROL 視覺效果]**&#x200B;並從工具列選取6︎⃣以顯示單值視覺效果。
@@ -1584,7 +1564,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。
 
    ```R
    ## Count Distinct
@@ -1638,11 +1618,11 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
    1. 選取&#x200B;**[!UICONTROL 日期範圍名稱]**。
    1. 選取&#x200B;**[!UICONTROL ∑發生次數]**。
 
-   您看到顯示擷取此視覺效果&#x200B;**資料的**&#x200B;錯誤的視覺效果。
+   您看到顯示擷取此視覺效果&#x200B;]**資料的**[!UICONTROL &#x200B;錯誤的視覺效果。
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
 
-   1. 選取此視覺效果&#x200B;**上**&#x200B;篩選器中的&#x200B;**[!UICONTROL daterangeName is (All)]**。
+   1. 選取此視覺效果&#x200B;]**上**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL daterangeName is (All)]**。
    1. 選取&#x200B;**[!UICONTROL 基本篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 在&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位底下，選取&#x200B;**[!UICONTROL 去年度2023]**，這是您在Customer Journey Analytics中定義的日期範圍名稱。
    1. 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以從&#x200B;**[!UICONTROL 資料行]**&#x200B;移除&#x200B;**[!UICONTROL 日期範圍名稱]**。
@@ -1731,7 +1711,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。 請確定您使用適當的日期範圍名稱。 例如，`Last Year 2023`。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。 請確定您使用適當的日期範圍名稱。 例如，`Last Year 2023`。
 
    ```R
    ## Monthly Events for Last Year
@@ -1790,14 +1770,14 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
    1. 選取&#x200B;**[!UICONTROL 產品名稱]**。
    1. 選取&#x200B;**[!UICONTROL ∑發生次數]**。
 
-您看到顯示擷取此視覺效果&#x200B;**資料的**&#x200B;錯誤的視覺效果。
+您看到顯示擷取此視覺效果&#x200B;]**資料的**[!UICONTROL &#x200B;錯誤的視覺效果。
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
 
-   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 篩選器名稱為（全部）]**。
+   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 篩選器名稱為（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 基本篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 在&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位底下，選取&#x200B;**[!UICONTROL 釣魚產品]**，這是Customer Journey Analytics中定義的現有篩選的名稱。
-   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
+   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 進階篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 在]** `1/1/2023` **[!UICONTROL 且]** **[!UICONTROL 在]** `2/1/2023`之前時顯示專案。
    1. 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以從&#x200B;**[!UICONTROL 資料行]**&#x200B;移除&#x200B;**[!UICONTROL filterName]**。
@@ -1832,7 +1812,6 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 在&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;對話方塊中：
    1. 選取&#x200B;**[!UICONTROL ‣ Cc資料檢視]**
    1. 從欄位清單中，選取&#x200B;**[!UICONTROL 日‣期範圍日期]**&#x200B;然後&#x200B;**[!UICONTROL 日期範圍日期]**。
-
       ![Looker篩選器](assets/uc2-looker-filter.png){zoomable="yes"}
 1. 指定&#x200B;**[!UICONTROL Cc資料檢視日期範圍日期]**&#x200B;篩選器，因為&#x200B;**[!UICONTROL 在範圍]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 到（之前）]** **[!UICONTROL 2023/02/01]**。
 1. 選取&#x200B;**[!UICONTROL 篩選器]**&#x200B;底下的&#x200B;**[!UICONTROL +篩選器]**&#x200B;以新增另一個篩選器。
@@ -1900,7 +1879,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。 請確定您使用適當的篩選器名稱。 例如，`Fishing Products`。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。 請確定您使用適當的篩選器名稱。 例如，`Fishing Products`。
 
    ```R
    ## Dimension filtered by name
@@ -1924,7 +1903,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 ## 使用維度值劃分割槽段
 
-您使用&#x200B;**[!UICONTROL 產品類別]**&#x200B;的動態&#x200B;**[!UICONTROL 狩獵]**&#x200B;值，從狩獵類別中劃分產品。 或者，對於不支援動態擷取產品類別值的BI工具，您可以在Customer Journey Analytics中建立新的區段，對搜尋產品類別中的產品進行區段。
+您使用&#x200B;**[!UICONTROL 產品類別]**&#x200B;的動態&#x200B;**[!UICONTROL 狩獵]**值，從狩獵類別中劃分產品。 或者，對於不支援動態擷取產品類別值的BI工具，您可以在Customer Journey Analytics中建立新的區段，對搜尋產品類別中的產品進行區段。
 然後，您想要使用新區段，報告2023年1月期間，搜尋類別中產品的產品名稱和發生次數（事件）。
 
 +++ Customer Journey Analytics
@@ -1958,12 +1937,12 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
    1. 選取&#x200B;**[!UICONTROL 產品名稱]**。
    1. 選取&#x200B;**[!UICONTROL ∑發生次數]**。
 
-您看到顯示擷取此視覺效果&#x200B;**資料的**&#x200B;錯誤的視覺效果。
+您看到顯示擷取此視覺效果&#x200B;]**資料的**[!UICONTROL &#x200B;錯誤的視覺效果。
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
-   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 篩選器名稱為（全部）]**。
+   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 篩選器名稱為（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 基本篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
-   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
+   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 進階篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 在]** `1/1/2023` **[!UICONTROL 且]** **[!UICONTROL 在]** `2/1/2023`之前時顯示專案。
    1. 選取&#x200B;**[!UICONTROL 基本篩選器]**&#x200B;作為&#x200B;**[!UICONTROL product_category]**&#x200B;的&#x200B;**[!UICONTROL 篩選器型別]**，並從可能的值清單中選取&#x200B;**[!UICONTROL Hunting]**。
@@ -2004,7 +1983,6 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 1. 在&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;對話方塊中：
    1. 選取&#x200B;**[!UICONTROL ‣ Cc資料檢視]**
    1. 從欄位清單中，選取&#x200B;**[!UICONTROL 日‣期範圍日期]**&#x200B;然後&#x200B;**[!UICONTROL 日期範圍日期]**。
-
       ![Looker篩選器](assets/uc2-looker-filter.png){zoomable="yes"}
 1. 指定&#x200B;**[!UICONTROL Cc資料檢視日期範圍日期]**&#x200B;篩選器，因為&#x200B;**[!UICONTROL 在範圍]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 到（之前）]** **[!UICONTROL 2023/02/01]**。
 1. 選取&#x200B;**[!UICONTROL 篩選器]**&#x200B;底下的&#x200B;**[!UICONTROL +篩選器]**&#x200B;以新增另一個篩選器。
@@ -2066,7 +2044,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。 確定您使用適當的類別。 例如，`Hunting`。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。 確定您使用適當的類別。 例如，`Hunting`。
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value
@@ -2118,7 +2096,7 @@ RStudio支援`FLATTEN`引數的下列案例。 如需詳細資訊，請參閱[�
    1. 選取&#x200B;**[!UICONTROL ∑購買]**。
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
-   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
+   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 進階篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 在]** `1/1/2023` **[!UICONTROL 且]** **[!UICONTROL 在]** `2/1/2023`之前時顯示專案。
 
@@ -2258,7 +2236,6 @@ GROUP BY 1
 1. 在&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;對話方塊中：
    1. 選取&#x200B;**[!UICONTROL ‣ Cc資料檢視]**
    1. 從欄位清單中，選取&#x200B;**[!UICONTROL 日‣期範圍日期]**&#x200B;然後&#x200B;**[!UICONTROL 日期範圍日期]**。
-
       ![Looker篩選器](assets/uc2-looker-filter.png){zoomable="yes"}
 1. 指定&#x200B;**[!UICONTROL Cc資料檢視日期範圍日期]**&#x200B;篩選器，因為&#x200B;**[!UICONTROL 在範圍]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 到（之前）]** **[!UICONTROL 2023/02/01]**。
 1. 從左側邊欄的&#x200B;**[!UICONTROL ‣ Cc資料檢視]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 產品名稱]**。
@@ -2269,11 +2246,10 @@ GROUP BY 1
       1. 從&#x200B;**[!UICONTROL 量值型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 總和]**。
       1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;的自訂欄位名稱。 例如：`Sum of Purchase Revenue`。
       1. 選取&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;標籤。
-      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**&#x200B;輸入。
-
+      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**輸入。
          ![Looker自訂量度欄位](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. 選取「**[!UICONTROL 儲存]**」。
-1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5&rbrace;欄上選取**&#x200B;[!UICONTROL &#x200B; 1&rbrace; （**[!UICONTROL 遞減，排序順序： 1]**）。]&#x200B;**]**
+1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5}欄上選取**[!UICONTROL  1} （**[!UICONTROL 遞減，排序順序： 1]**）。]**]**
 1. 選取&#x200B;**[!UICONTROL 執行]**。
 1. 選取‣**[!UICONTROL 視覺效果]**。
 
@@ -2323,7 +2299,7 @@ FETCH NEXT 500 ROWS ONLY
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。
 
    ```R
    ## Dimension 1 Sorted
@@ -2389,14 +2365,14 @@ LIMIT 1000
    1. 選取&#x200B;**[!UICONTROL ∑發生次數]**。
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
-   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
+   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 相對日期]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 位於最後]** `1` **[!UICONTROL 日曆年]**&#x200B;時顯示專案。
    1. 選取&#x200B;**[!UICONTROL 套用篩選器]**。
-   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL product_name is (All)]**。
+   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL product_name is (All)]**。
    1. 選取&#x200B;**[!UICONTROL 前N]**&#x200B;位作為&#x200B;**[!UICONTROL 篩選器型別]**。
    1. 選取&#x200B;**[!UICONTROL 顯示專案]** **[!UICONTROL 前]** `5` **[!UICONTROL 依值]**。
-   1. 從&#x200B;**[!UICONTROL 資料∑3&rbrace;窗格拖放**&#x200B;[!UICONTROL &#x200B;個發生次數&#x200B;]&#x200B;**，並將其拖放到**&#x200B;[!UICONTROL &#x200B;在此處新增資料欄位&#x200B;]&#x200B;**。]**
+   1. 從&#x200B;**[!UICONTROL 資料∑3}窗格拖放**[!UICONTROL &#x200B;個發生次數&#x200B;]**，並將其拖放到**[!UICONTROL &#x200B;在此處新增資料欄位&#x200B;]**。]**
    1. 選取&#x200B;**[!UICONTROL 套用篩選器]**。
 
 1. 在「視覺效果」窗格中：
@@ -2554,14 +2530,13 @@ GROUP BY 1
 1. 在&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;對話方塊中：
    1. 選取&#x200B;**[!UICONTROL ‣ Cc資料檢視]**
    1. 從欄位清單中，選取&#x200B;**[!UICONTROL 日‣期範圍日期]**&#x200B;然後&#x200B;**[!UICONTROL 日期範圍日期]**。
-
       ![Looker篩選器](assets/uc2-looker-filter.png){zoomable="yes"}
 1. 指定&#x200B;**[!UICONTROL Cc資料檢視日期範圍]**&#x200B;篩選器，因為&#x200B;**[!UICONTROL 在範圍]** **[!UICONTROL 2023/01/01]** **[!UICONTROL 到（之前）]** **[!UICONTROL 2024/01/01]**。
 1. 從左側邊欄的&#x200B;**[!UICONTROL ‣ Cc資料檢視]**&#x200B;區段：
    1. 選取&#x200B;**[!UICONTROL 產品名稱]**。
    1. 在左側邊欄（底部）中選取&#x200B;**[!UICONTROL MEASURES]**&#x200B;底下的&#x200B;**[!UICONTROL 計數]**。
-1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5&rbrace;欄上選取**&#x200B;[!UICONTROL &#x200B; 1&rbrace; （**[!UICONTROL 遞減，排序順序： 1]**）。]&#x200B;**]**
-1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5&rbrace;欄上選取**&#x200B;[!UICONTROL &#x200B; 1&rbrace; （**[!UICONTROL 遞減，排序順序： 1]**）。]&#x200B;**]**
+1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5}欄上選取**[!UICONTROL  1} （**[!UICONTROL 遞減，排序順序： 1]**）。]**]**
+1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5}欄上選取**[!UICONTROL  1} （**[!UICONTROL 遞減，排序順序： 1]**）。]**]**
 1. 選取&#x200B;**[!UICONTROL 執行]**。
 1. 選取‣**[!UICONTROL 視覺效果]**。
 
@@ -2609,7 +2584,7 @@ FETCH NEXT 5 ROWS ONLY
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。
 
    ```R
    ## Dimension 1 Limited
@@ -2651,7 +2626,7 @@ LIMIT 5
 +++ Customer Journey Analytics
 
 在Customer Journey Analytics中，您在[資料檢視](/help/data-views/data-views.md)中定義資料集的哪些元件及如何公開為[維度](/help/components/dimensions/overview.md)和[量度](/help/components/apply-create-metrics.md)。 該維度和量度的定義會使用BI擴充功能向BI工具公開。
-您將[篩選器](/help/components/filters/filters-overview.md)、[計算量度](/help/components/calc-metrics/calc-metr-overview.md)和[日期範圍](/help/components/date-ranges/overview.md)等元件用作Workspace專案的一部分。 這些元件也會透過BI擴充功能向BI工具公開。
+您將[篩選器](/help/components/segments/seg-overview.md)、[計算量度](/help/components/calc-metrics/calc-metr-overview.md)和[日期範圍](/help/components/date-ranges/overview.md)等元件用作Workspace專案的一部分。 這些元件也會透過BI擴充功能向BI工具公開。
 
 +++
 
@@ -2670,22 +2645,22 @@ Customer Journey Analytics物件可在&#x200B;**[!UICONTROL 資料]**&#x200B;窗
 
 **維度**
 來自Customer Journey Analytics的維度以[!UICONTROL 元件ID]識別。 [!UICONTROL 元件ID]已在您的Customer Journey Analytics資料檢視中定義。 例如，Customer Journey Analytics中的維度&#x200B;**[!UICONTROL 產品名稱]**&#x200B;具有[!UICONTROL 元件識別碼] **[!UICONTROL product_name]**，這是Power BI Desktop中維度的名稱。
-來自Customer Journey Analytics的日期範圍維度（例如&#x200B;**[!UICONTROL Day]**、**[!UICONTROL Week]**、**[!UICONTROL Month]**&#x200B;等）可用作&#x200B;**[!UICONTROL daterangeday]**、**[!UICONTROL daterangeweek]**、**[!UICONTROL daterangemonth]**&#x200B;等。
+來自Customer Journey Analytics的日期範圍維度（例如**[!UICONTROL Day]**、**[!UICONTROL Week]**、**[!UICONTROL Month]**&#x200B;等）可用作&#x200B;**[!UICONTROL daterangeday]**、**[!UICONTROL daterangeweek]**、**[!UICONTROL daterangemonth]**&#x200B;等。
 
 **個量度**
 來自Customer Journey Analytics的量度以[!UICONTROL 元件ID]識別。 [!UICONTROL 元件ID]已在您的Customer Journey Analytics資料檢視中定義。 例如，Customer Journey Analytics中的量度&#x200B;**[!UICONTROL Purchase Revenue]**&#x200B;有[!UICONTROL 元件識別碼] **[!UICONTROL purchase_revenue]**，這是Power BI Desktop中量度的名稱。 **[!UICONTROL ∑]**&#x200B;表示量度。 當您在任何視覺效果中使用量度時，量度會重新命名為&#x200B;**[!UICONTROL *量度的總和&#x200B;*]**。
 
 **篩選器**
-您在Customer Journey Analytics中定義的篩選器可作為&#x200B;**[!UICONTROL filterName]**&#x200B;欄位的一部分使用。 當您在Power BI Desktop中使用&#x200B;**[!UICONTROL filterName]**&#x200B;欄位時，可以指定要使用的篩選器。
+您在Customer Journey Analytics中定義的篩選器可作為**[!UICONTROL filterName]**&#x200B;欄位的一部分使用。 當您在Power BI Desktop中使用&#x200B;**[!UICONTROL filterName]**&#x200B;欄位時，可以指定要使用的篩選器。
 
 **計算量度**
-您在Customer Journey Analytics中定義的計算量度，會由您為計算量度定義的[!UICONTROL 外部ID]識別。 例如，計算量度&#x200B;**[!UICONTROL 產品名稱（相異計數）]**&#x200B;具有[!UICONTROL 外部識別碼] **[!UICONTROL product_name_count_distinct]**，並在Power BI Desktop中顯示為&#x200B;**[!UICONTROL cm_product_name_count_distinc]**&#x200B;t。
+您在Customer Journey Analytics中定義的計算量度，會由您為計算量度定義的[!UICONTROL 外部ID]識別。 例如，計算量度&#x200B;**[!UICONTROL 產品名稱（相異計數）]**&#x200B;具有[!UICONTROL 外部識別碼] **[!UICONTROL product_name_count_distinct]**，並在Power BI Desktop中顯示為**[!UICONTROL cm_product_name_count_distinc]**t。
 
 **日期範圍**
-您在Customer Journey Analytics中定義的日期範圍可做為&#x200B;**[!UICONTROL daterangeName]**&#x200B;欄位的一部分。 當您使用&#x200B;**[!UICONTROL daterangeName]**&#x200B;欄位時，您可以指定要使用的日期範圍。
+您在Customer Journey Analytics中定義的日期範圍可做為**[!UICONTROL daterangeName]**&#x200B;欄位的一部分。 當您使用&#x200B;**[!UICONTROL daterangeName]**&#x200B;欄位時，您可以指定要使用的日期範圍。
 
 **自訂轉換**
-Power BI Desktop提供使用[資料分析運算式(DAX)](https://learn.microsoft.com/en-us/dax/dax-overview)的自訂轉換功能。 例如，您想要以小寫執行產品名稱排名為[&#128279;](#single-dimension-ranked)的單一維度使用案例。
+Power BI Desktop提供使用[資料分析運算式(DAX)](https://learn.microsoft.com/en-us/dax/dax-overview)的自訂轉換功能。 例如，您想要以小寫執行產品名稱排名為](#single-dimension-ranked)的[單一維度使用案例。
 
 1. 在報表檢視中，選取長條圖視覺效果。
 1. 在[資料]窗格中選取&#x200B;**[!UICONTROL product_name]**。
@@ -2744,27 +2719,26 @@ limit 1000001
 每當您在工作表中工作時，**[!UICONTROL Data]**&#x200B;側邊欄中都會有Customer Journey Analytics物件。 並從您選取做為Tableau中&#x200B;**[!UICONTROL 資料來源]**&#x200B;頁面一部分的資料表中擷取。 例如，**[!UICONTROL cc_data_view]**。 表格的名稱與您在Customer Journey Analytics中為資料檢視定義的外部ID相同。 例如，具有&#x200B;**[!UICONTROL 標題]** `C&C - Data View`和&#x200B;**[!UICONTROL 外部識別碼]** `cc_data_view`的資料檢視。
 
 **維度**
-來自Customer Journey Analytics的維度以[!UICONTROL 元件名稱]識別。 已在您的Customer Journey Analytics資料檢視中定義[!UICONTROL 元件名稱]。 例如，Customer Journey Analytics中的維度&#x200B;**[!UICONTROL 產品名稱]**&#x200B;有[!UICONTROL 元件名稱] **[!UICONTROL 產品名稱]**，這是Tableau中維度的名稱。 所有維度皆由&#x200B;**[!UICONTROL Abc]**&#x200B;識別。
-來自Customer Journey Analytics的日期範圍維度（例如&#x200B;**[!UICONTROL Day]**、**[!UICONTROL Week]**、**[!UICONTROL Month]**&#x200B;等）可用作&#x200B;**[!UICONTROL Daterangeday]**、**[!UICONTROL Daterangeweek]**、**[!UICONTROL Daterangemonth]**&#x200B;等。 使用日期範圍維度時，您必須從下拉式選單中選取適當的日期或時間定義，以套用至該日期範圍維度。 例如，**[!UICONTROL 年]**，**[!UICONTROL 季]**，**[!UICONTROL 月]**，**[!UICONTROL 日]**。
+來自Customer Journey Analytics的維度以[!UICONTROL 元件名稱]識別。 已在您的Customer Journey Analytics資料檢視中定義[!UICONTROL 元件名稱]。 例如，Customer Journey Analytics中的維度&#x200B;**[!UICONTROL 產品名稱]**&#x200B;有[!UICONTROL 元件名稱] **[!UICONTROL 產品名稱]**，這是Tableau中維度的名稱。 所有維度皆由&#x200B;**[!UICONTROL Abc]**識別。
+來自Customer Journey Analytics的日期範圍維度（例如**[!UICONTROL Day]**、**[!UICONTROL Week]**、**[!UICONTROL Month]**&#x200B;等）可用作&#x200B;**[!UICONTROL Daterangeday]**、**[!UICONTROL Daterangeweek]**、**[!UICONTROL Daterangemonth]**&#x200B;等。 使用日期範圍維度時，您必須從下拉式選單中選取適當的日期或時間定義，以套用至該日期範圍維度。 例如，**[!UICONTROL 年]**，**[!UICONTROL 季]**，**[!UICONTROL 月]**，**[!UICONTROL 日]**。
 
 **個量度**
 來自Customer Journey Analytics的量度由[!UICONTROL 元件名稱]識別。 已在您的Customer Journey Analytics資料檢視中定義[!UICONTROL 元件名稱]。 例如，Customer Journey Analytics中的量度&#x200B;**[!UICONTROL Purchase Revenue]**&#x200B;有[!UICONTROL 元件名稱] **[!UICONTROL Purchase Revenue]**，這是Tableau中量度的名稱。 所有量度都由&#x200B;**[!UICONTROL #]**&#x200B;識別。 當您在任何視覺效果中使用量度時，量度會重新命名為&#x200B;**[!UICONTROL Sum（*量度*）]**。
 
 **篩選器**
-您在Customer Journey Analytics中定義的篩選器可作為&#x200B;**[!UICONTROL 篩選器名稱]**&#x200B;欄位的一部分使用。 當您在Tableau中使用&#x200B;**[!UICONTROL 篩選器名稱]**&#x200B;欄位時，可以指定要使用的篩選器。
+您在Customer Journey Analytics中定義的篩選器可作為**[!UICONTROL 篩選器名稱]**&#x200B;欄位的一部分使用。 當您在Tableau中使用&#x200B;**[!UICONTROL 篩選器名稱]**&#x200B;欄位時，可以指定要使用的篩選器。
 
 **計算量度**
 您在Customer Journey Analytics中定義的計算量度，會由您為計算量度定義的[!UICONTROL 標題]識別。 例如，計算量度&#x200B;**[!UICONTROL 產品名稱（相異計數）]**&#x200B;有[!UICONTROL 標題] **[!UICONTROL 產品名稱（相異計數）]**，並在Tableau中顯示為&#x200B;**[!UICONTROL Cm產品名稱相異計數]**。
 
 **日期範圍**
-您在Customer Journey Analytics中定義的日期範圍可做為&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;欄位的一部分。 當您使用&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;欄位時，您可以指定要使用的日期範圍。
+您在Customer Journey Analytics中定義的日期範圍可做為**[!UICONTROL 日期範圍名稱]**&#x200B;欄位的一部分。 當您使用&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;欄位時，您可以指定要使用的日期範圍。
 
 **自訂轉換**
-Tableau Desktop提供使用[計算欄位](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm)的自訂轉換功能。 例如，您想要以小寫執行產品名稱排名為[&#128279;](#single-dimension-ranked)的單一維度使用案例。
+Tableau Desktop提供使用[計算欄位](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm)的自訂轉換功能。 例如，您想要以小寫執行產品名稱排名為](#single-dimension-ranked)的[單一維度使用案例。
 
 1. 從主功能表選取&#x200B;**[!UICONTROL 分析]** > **[!UICONTROL 建立計算欄位]**。
    1. 使用函式`LOWER([Product Name])`定義&#x200B;**[!UICONTROL 小寫的產品名稱]**。
-
       ![Tableau計算欄位](assets/uc14-tableau-calculated-field.png){zoomable="yes"}
    1. 選取&#x200B;**[!UICONTROL 確定]**。
 1. 選取&#x200B;**[!UICONTROL 資料]**&#x200B;工作表。
@@ -2793,28 +2767,27 @@ HAVING ((SUM("cc_data_view"."purchase_revenue") >= 999999.99999998999) AND (SUM(
 可在&#x200B;**[!UICONTROL 探索]**&#x200B;介面中使用Customer Journey Analytics物件。 和會隨著在Looker中設定連線、專案和模型而擷取。 例如，**[!UICONTROL cc_data_view]**。 檢視的名稱與您在Customer Journey Analytics中為資料檢視定義的外部ID相同。 例如，具有&#x200B;**[!UICONTROL 標題]** `C&C - Data View`和&#x200B;**[!UICONTROL 外部識別碼]** `cc_data_view`的資料檢視。
 
 **維度**
-Customer Journey Analytics的維度會在&#x200B;**[!UICONTROL Cc資料檢視]**&#x200B;左側邊欄中列為&#x200B;**[!UICONTROL DIMENSION]**。 維度是在您的Customer Journey Analytics資料檢視中定義。 例如，Customer Journey Analytics中的維度&#x200B;**[!UICONTROL 產品名稱]**&#x200B;具有&#x200B;**[!UICONTROL DIMENSION]** **[!UICONTROL 產品名稱]**，這是Looker中維度的名稱。
-來自Customer Journey Analytics的日期範圍維度（如&#x200B;**[!UICONTROL Day]**、**[!UICONTROL Week]**、**[!UICONTROL Month]**&#x200B;等）可做為&#x200B;**[!UICONTROL Daterangeday Date]**、**[!UICONTROL Daterangeweek Date]**、**[!UICONTROL Daterangemonth Date]**&#x200B;等。  使用日期範圍維度時，您必須選取適當的日期或時間定義。 例如，**[!UICONTROL 年]**，**[!UICONTROL 季]**，**[!UICONTROL 月]**，**[!UICONTROL 日期]**。
+Customer Journey Analytics的維度會在**[!UICONTROL Cc資料檢視]**&#x200B;左側邊欄中列為&#x200B;**[!UICONTROL DIMENSION]**。 維度是在您的Customer Journey Analytics資料檢視中定義。 例如，Customer Journey Analytics中的維度&#x200B;**[!UICONTROL 產品名稱]**&#x200B;具有&#x200B;**[!UICONTROL DIMENSION]** **[!UICONTROL 產品名稱]**，這是Looker中維度的名稱。
+來自Customer Journey Analytics的日期範圍維度（如**[!UICONTROL Day]**、**[!UICONTROL Week]**、**[!UICONTROL Month]**&#x200B;等）可做為&#x200B;**[!UICONTROL Daterangeday Date]**、**[!UICONTROL Daterangeweek Date]**、**[!UICONTROL Daterangemonth Date]**&#x200B;等。  使用日期範圍維度時，您必須選取適當的日期或時間定義。 例如，**[!UICONTROL 年]**，**[!UICONTROL 季]**，**[!UICONTROL 月]**，**[!UICONTROL 日期]**。
 
 **個量度**
-Customer Journey Analytics的量度在&#x200B;**[!UICONTROL Cc資料檢視]**&#x200B;左側邊欄中列為&#x200B;**[!UICONTROL DIMENSION]**。 例如，Customer Journey Analytics中的量度&#x200B;**[!UICONTROL Purchase Revenue]**&#x200B;有&#x200B;**[!UICONTROL DIMENSION]** **[!UICONTROL Purchase Revenue]**。 若要實際做為量度使用，請建立如上例所示的自訂量值欄位，或使用維度的捷徑。 例如，**[!UICONTROL ⋮]**，選取&#x200B;**[!UICONTROL 彙總]**，然後選取&#x200B;**[!UICONTROL 總計]**。
+Customer Journey Analytics的量度在**[!UICONTROL Cc資料檢視]**&#x200B;左側邊欄中列為&#x200B;**[!UICONTROL DIMENSION]**。 例如，Customer Journey Analytics中的量度&#x200B;**[!UICONTROL Purchase Revenue]**&#x200B;有&#x200B;**[!UICONTROL DIMENSION]** **[!UICONTROL Purchase Revenue]**。 若要實際做為量度使用，請建立如上例所示的自訂量值欄位，或使用維度的捷徑。 例如，**[!UICONTROL ⋮]**，選取&#x200B;**[!UICONTROL 彙總]**，然後選取&#x200B;**[!UICONTROL 總計]**。
 
 **篩選器**
-您在Customer Journey Analytics中定義的篩選器可作為&#x200B;**[!UICONTROL 篩選器名稱]**&#x200B;欄位的一部分使用。 當您在Looker中使用&#x200B;**[!UICONTROL 篩選器名稱]**&#x200B;欄位時，您可以指定要使用的篩選器。
+您在Customer Journey Analytics中定義的篩選器可作為**[!UICONTROL 篩選器名稱]**&#x200B;欄位的一部分使用。 當您在Looker中使用&#x200B;**[!UICONTROL 篩選器名稱]**&#x200B;欄位時，您可以指定要使用的篩選器。
 
 **計算量度**
 您在Customer Journey Analytics中定義的計算量度，會由您為計算量度定義的[!UICONTROL 標題]識別。 例如，計算量度&#x200B;**[!UICONTROL 產品名稱（相異計數）]**&#x200B;有[!UICONTROL 標題] **[!UICONTROL 產品名稱（相異計數）]**，並在回顧中顯示為&#x200B;**[!UICONTROL 公分產品名稱相異計數]**。
 
 **日期範圍**
-您在Customer Journey Analytics中定義的日期範圍可做為&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;欄位的一部分。 當您使用&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;欄位時，您可以指定要使用的日期範圍。
+您在Customer Journey Analytics中定義的日期範圍可做為**[!UICONTROL 日期範圍名稱]**&#x200B;欄位的一部分。 當您使用&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;欄位時，您可以指定要使用的日期範圍。
 
 **自訂轉換**
-Looker使用自訂欄位建置器提供自訂轉換功能，如上所示。 例如，您想要以小寫執行產品名稱排名為[&#128279;](#single-dimension-ranked)的單一維度使用案例。
+Looker使用自訂欄位建置器提供自訂轉換功能，如上所示。 例如，您想要以小寫執行產品名稱排名為](#single-dimension-ranked)的[單一維度使用案例。
 
 1. 從左側邊欄中的&#x200B;**[!UICONTROL ‣自訂欄位]**&#x200B;區段：
    1. 從&#x200B;**[!UICONTROL +新增]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 自訂Dimension]**。
    1. 在&#x200B;**[!UICONTROL 運算式]**&#x200B;文字區域中輸入`lower(${cc_data_view.product_name})`。 當您開始輸入`Product Name`時，會以正確的語法協助您。
-
       ![Looker轉換範例](assets/uc14-looker-transformation.png){zoomable="yes"}
    1. 輸入`product name`作為&#x200B;**[!UICONTROL 名稱]**。
    1. 選取「**[!UICONTROL 儲存]**」。
@@ -2870,7 +2843,7 @@ Customer Journey Analytics元件（維度、量度、篩選器、計算量度和
 
 **自訂轉換**
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。
+1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。
 
    ```R
    df <- dv %>%
@@ -3129,7 +3102,7 @@ GROUP BY 1,
 * Power BI Desktop進階日期範圍篩選是專屬功能。  對於結束日期，您需要選取要報告的一天之後的日期。 例如，**[!UICONTROL 位於]** `1/1/2023` **[!UICONTROL 或之後，]**&#x200B;之前`1/2/2023`。
 * 建立連線時，Power BI案頭預設為&#x200B;**[!UICONTROL 匯入]**。 請確定您使用&#x200B;**[!UICONTROL 直接查詢]**。
 * Power BI Desktop透過Power Query公開資料轉換。  Power Query主要用於匯入型別連線，因此許多您套用的轉換（如日期或字串函式）會擲回錯誤，指出您需要切換到匯入型別連線。  如果您需要在查詢時轉換資料，應使用衍生的維度和量度，因此Power BI不需要自行轉換。
-* Power BI Desktop不瞭解如何處理日期 — 時間型別欄，所以不支援&#x200B;**[!UICONTROL daterange *X *]**&#x200B;維度，例如&#x200B;**[!UICONTROL daterangehour &#x200B;]**&#x200B;和&#x200B;**[!UICONTROL daterangeminute &#x200B;]**。
+* Power BI Desktop不瞭解如何處理日期 — 時間型別欄，所以不支援&#x200B;**[!UICONTROL daterange *X *]**維度，例如**[!UICONTROL daterangehour ]**和**[!UICONTROL daterangeminute ]**。
 * Power BI Desktop預設會嘗試使用更多查詢服務工作階段建立多個連線。  前往專案的Power BI設定並停用平行查詢。
 * Power BI Desktop會執行所有排序和限制使用者端作業。 Power BI Desktop對於前&#x200B;*X*&#x200B;個包含繫結值的篩選也有不同的語意。 因此，您無法建立與Analysis Workspace中相同的排序和限制。
 * 舊版Power BI Desktop 2024年10月發行版本中斷PostgreSQL資料來源。 請確定您使用本文中提及的版本。

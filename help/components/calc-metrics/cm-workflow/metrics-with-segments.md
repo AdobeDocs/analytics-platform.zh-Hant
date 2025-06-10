@@ -3,7 +3,7 @@ description: 將個別量度分段可讓您在同一份報表中比較量度。
 title: 區段量度
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->透過[區段產生器](/help/components/filters/filter-builder.md)更新區段定義。 如果您變更區段，該區段會在任何使用它的地方自動更新，包括如果該區段屬於計算量度定義的一部分。
+>透過[區段產生器](/help/components/segments/seg-builder.md)更新區段定義。 如果您變更區段，該區段會在任何使用它的地方自動更新，包括如果該區段屬於計算量度定義的一部分。
 >
 
 您想要比較和您的品牌互動的德國人員與德國以外人員的量度。 因此，您可以回答以下問題：
@@ -30,7 +30,7 @@ ht-degree: 1%
 ## 受歡迎頁面
 
 1. [從名為`German people`的Workspace專案建立計算量度](cm-workflow.md)。
-1. 在[計算量度產生器](cm-build-metrics.md)中，[建立區段](/help/components/filters/filter-builder.md)，標題為`Germany`，其會使用CRM資料中的CRM國家/地區欄位來判斷人員的來源。
+1. 在[計算量度產生器](cm-build-metrics.md)中，[建立區段](/help/components/segments/seg-builder.md)，標題為`Germany`，其會使用CRM資料中的CRM國家/地區欄位來判斷人員的來源。
 
    >[!TIP]
    >

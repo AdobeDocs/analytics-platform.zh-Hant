@@ -4,8 +4,8 @@ description: 了解如何從 Customer Journey Analytics 發佈客群
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '2368'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ ht-degree: 100%
    | --- | --- |
    | 從&#x200B;**[!UICONTROL 客群]**&#x200B;介面內 | 從 Customer Journey Analytics 選單中，選取「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」。客群介面會顯示。選取「**[!UICONTROL 建立客群]**」，然後[!UICONTROL 客群產生器]會開啟。 |
    | 從 Analysis Workspace 中的視覺效果 | Analysis Workspace 中的許多視覺效果可讓您使用內容選單建立客群。例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)一個項目或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)一個節點的內容選單中選取「**[!UICONTROL 建立客群]**」。<p>使用此方法會以您選取的維度或維度項目，在客群產生器中預先填入區段。</p><p>以下視覺效果可讓您使用滑鼠右鍵功能表建立客群：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：** 客群不能包含計算量度。如果您嘗試建立包含計算量度的客群，則該計算量度不會包含在客群定義中。</p> |
-   | 從區段建立/編輯使用者介面 | 勾選顯示「**[!UICONTROL 藉由此區段建立客群]**」的方塊。使用此方法預先填入區段。如需詳細資訊，請參閱[建立區段](/help/components/filters/create-filters.md)。 |
+   | 從區段建立/編輯使用者介面 | 勾選顯示「**[!UICONTROL 藉由此區段建立客群]**」的方塊。使用此方法預先填入區段。如需詳細資訊，請參閱[建立區段](/help/components/segments/seg-create.md)。 |
 
    {style="table-layout:auto"}
 

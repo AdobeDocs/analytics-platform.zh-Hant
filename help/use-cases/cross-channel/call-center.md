@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 88%
@@ -69,7 +69,7 @@ Customer Journey Analytics需要通用識別碼才能產生[合併的資料集](
 
 此視覺效果可協助您了解跨管道分析功能彙整資料的成效。
 
-1. 建立兩個區段。 這兩個區段所使用的變數，即為上述反映每個事件資料來源的變數。 如需詳細資訊，請參閱[建立區段](/help/components/filters/create-filters.md)。
+1. 建立兩個區段。 這兩個區段所使用的變數，即為上述反映每個事件資料來源的變數。 如需詳細資訊，請參閱[建立區段](/help/components/segments/seg-create.md)。
    * 在一個人員容器中，讓資料集 ID 等同於網路資料
    * 在另一個人員容器中，讓資料集 ID 等同於客服中心資料
 2. 在 Analysis Workspace 中，將[「文氏圖」](/help/analysis-workspace/visualizations/venn.md)視覺效果拖放至工作區域的畫布。

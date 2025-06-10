@@ -9,8 +9,8 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: c0446bd85b65109fd3311d54e33f9fb33af28f88
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 100%
 
@@ -325,20 +325,20 @@ ht-degree: 100%
       + [時間分隔維度](../components/dimensions/time-parting-dimensions.md)
       + [高基數維度](../components/dimensions/high-cardinality.md)
    + [量度](../components/apply-create-metrics.md)
-   + 區段 {#cja-filters}
-      + [概觀](../components/filters/filters-overview.md)
-      + [建立區段](../components/filters/create-filters.md)
-      + [建置區段](../components/filters/filter-builder.md)
-      + [快速區段](../components/filters/quick-filters.md)
-      + [循序區段](../components/filters/seg-sequential-build.md)
-      + [共用區段](../components/filters/filters-share.md)
-      + [標記區段](../components/filters/filters-tag.md)
-      + [劃分區段清單](../components/filters/filters-filter.md)
-      + [將區段標示為最愛](../components/filters/filters-favorite.md)
-      + [核准區段](../components/filters/filters-approve.md)
-      + [複製區段](../components/filters/filters-copy.md)
-      + [管理區段](../components/filters/manage-filters.md)
-      + [運算子](../components/filters/operators.md)
+   + 區段 {#segments}
+      + [概觀](/help/components/segments/seg-overview.md)
+      + [建立區段](/help/components/segments/seg-create.md)
+      + [建置區段](/help/components/segments/seg-builder.md)
+      + [快速區段](/help/components/segments/seg-quick.md)
+      + [循序區段](/help/components/segments/seg-sequential-build.md)
+      + [共用區段](/help/components/segments/seg-share.md)
+      + [標記區段](/help/components/segments/seg-tag.md)
+      + [劃分區段清單](/help/components/segments/seg-filter.md)
+      + [將區段標示為最愛](/help/components/segments/seg-favorite.md)
+      + [核准區段](/help/components/segments/seg-approve.md)
+      + [複製區段](/help/components/segments/seg-copy.md)
+      + [管理區段](/help/components/segments/seg-manage.md)
+      + [運算子](/help/components/segments/seg-operators.md)
    + 計算量度 {#cja-calcmetrics}
       + [概觀](../components/calc-metrics/calc-metr-overview.md)
       + 計算量度工作流程 {#cm-workflow}

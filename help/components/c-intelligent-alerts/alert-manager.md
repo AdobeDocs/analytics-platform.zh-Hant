@@ -4,10 +4,10 @@ title: 管理警報
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 21%
+source-wordcount: '596'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 * 在主介面中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 警示]**。
 
-警報管理員的結構類似於[區段管理員](/help/components/filters/manage-filters.md)和[計算量度管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md)。
+警報管理員的結構類似於[區段管理員](/help/components/segments/seg-manage.md)和[計算量度管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md)。
 
 
 ## 警報管理器
@@ -29,7 +29,7 @@ ht-degree: 21%
 
 ### 警示清單
 
-警示清單➊會顯示您擁有的所有警示、已設定至您所有專案的警示，以及已與您共用的警示。 清單有以下欄位：
+警示清單➊會顯示您擁有的所有警示、已涵蓋您所有專案的警示，以及已與您共用的警示。 清單有以下欄位：
 
 | 欄 | 說明 |
 |---|---|
@@ -49,7 +49,7 @@ ht-degree: 21%
 
 ### 動作列
 
-您可以使用動作列對警報進➋行動作。 動作列包含以下動作：
+您可以使用動作列➋對警示執行動作。 動作列包含以下動作：
 
 | 圖示 | 動作 | 說明 |
 |:---:|---|---|
@@ -66,7 +66,7 @@ ht-degree: 21%
 
 ### 使用中的篩選欄
 
-篩選器列會顯➌示從篩選器面板套用至警報清單的作用中篩選器（如果有的話）。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選條件。如果指定多個篩選條件，您可以使用&#x200B;**[!UICONTROL 移除全部]**&#x200B;來移除所有篩選條件。
+篩選器列➌顯示從篩選器面板套用至警示清單的作用中篩選器（如果有的話）。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選條件。如果指定多個篩選條件，您可以使用&#x200B;**[!UICONTROL 移除全部]**&#x200B;來移除所有篩選條件。
 
 
 ### 篩選面板
@@ -83,7 +83,7 @@ ht-degree: 21%
 {{tagfiltersection}}
 
 
-#### 資料檢視篩選區段
+#### 資料視圖篩選器區段
 
 {{dataviewfiltersection}}
 
@@ -93,17 +93,17 @@ ht-degree: 21%
 {{ownerfiltersection}}
 
 
-#### 已啟用狀態篩選區段
+#### 啟用狀態過濾器區段
 
 {{enabledstatusfiltersection}}
 
 
-#### 輸入篩選區段
+#### 類型篩選器區段
 
 {{typefiltersection}}
 
 
-#### 其他篩選器篩選器區段
+#### 其他篩選器篩選區段
 
 {{otherfiltersfiltersection}}
 

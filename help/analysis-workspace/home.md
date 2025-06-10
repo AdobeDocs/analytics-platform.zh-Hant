@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
-workflow-type: ht
-source-wordcount: '1473'
-ht-degree: 100%
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
+source-wordcount: '1469'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ Analysis Workspace 的主要功能可透過按鈕面板使用：
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL 面板]** | [面板](/help/analysis-workspace/c-panels/panels.md)是用來在專案中整理可能包含許多表格和視覺效果的分析。Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內容，產生完整的分析集。 |
 | ![Guided Analysis](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL 引導式分析]** | [引導式分析](../guided-analysis/overview.md)可讓您透過引導式工作流程，自行取得有關客戶歷程的高品質資料和深入分析。您可以建立分析並包含在 Workspace 專案中，或包含先前儲存的現有分析。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 視覺化呈現]** | [視覺化呈現](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)可用來生動地呈現資料，例如條狀圖或折線圖。在最左側的面板中，選取中間的&#x200B;**[!UICONTROL 視覺化呈現]**&#x200B;圖示，檢視可用視覺化呈現的完整清單。 |
-| ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 元件]** | [元件](/help/components/overview.md) 包括以下元素：<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg)[維度](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg)[量度](/help/components/apply-create-metrics.md)</li><li>![Segmentation](/help/assets/icons/Segmentation.svg) [區段](/help/components/filters/filters-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg)[日期範圍](/help/components/date-ranges/overview.md)</li></ul> |
+| ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 元件]** | [元件](/help/components/overview.md) 包括以下元素：<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg)[維度](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg)[量度](/help/components/apply-create-metrics.md)</li><li>![Segmentation](/help/assets/icons/Segmentation.svg) [區段](/help/components/segments/seg-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg)[日期範圍](/help/components/date-ranges/overview.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL 目錄]** | 目錄將專案中包含的所有面板和視覺效果組織成可收摺清單，讓您可以快速存取特定面板或視覺化呈現。 |
 | ![Bookmark](/help/assets/icons/Bookmark.svg) | **資料字典** | [資料字典](/help/components/data-dictionary/data-dictionary-overview.md)可協助使用者和管理員追蹤並更好地了解其 Analytics 環境中的元件。 |
 
@@ -59,10 +59,10 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 請注意，您的鍵盤上可能使用下列符號：
 
 - **⇧** 代表 **[!UICONTROL *Shift 鍵&#x200B;*]**。
-- **⌘**  代表 **[!UICONTROL *Cmd 鍵&#x200B;*]**(Command)。
-- **⌃** 代表 **[!UICONTROL *Ctrl 鍵&#x200B;*]**(control)。
-- **⌥** 代表 **[!UICONTROL *Opt 鍵&#x200B;*]**(Option)。
-- **⎇** 代表 **[!UICONTROL *Alt 鍵&#x200B;*]**(Alternate)。
+- **[!UICONTROL *cmd *]**（命令）的&#x200B;**⌘**。
+- **[!UICONTROL *ctrl *]**（控制項）的&#x200B;**⌃**。
+- **[!UICONTROL *opt *]**的&#x200B;**⌥**（選項）。
+- **[!UICONTROL *alt *]**的&#x200B;**⎇**（替代）。
 
 請參閱下表以了解可用選單的概觀。
 
@@ -106,7 +106,7 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 
 | **[!UICONTROL 元件]** | Mac 快速鍵  | Windows 快速鍵 | 說明 |
 |---|---|---|---|
-| **[!UICONTROL 建立區段…]** | **[!UICONTROL *Shift+Cmd+E *]** | **[!UICONTROL *Shift+Ctrl+ E *]** | 建立新的[區段](/help/components/filters/create-filters.md)。 |
+| **[!UICONTROL 建立區段…]** | **[!UICONTROL *Shift+Cmd+E *]** | **[!UICONTROL *Shift+Ctrl+ E *]** | 建立新的[區段](/help/components/segments/seg-create.md)。 |
 | **[!UICONTROL 建立量度...]** | **[!UICONTROL *Shift+Cmd+C *]** | **[!UICONTROL *Shift+Ctrl+C *]** | 建立新的[計算量度](/help/components/calc-metrics/calc-metr-overview.md)。 |
 | **[!UICONTROL 建立日期範圍...]** | **[!UICONTROL *Shift+Cmd+D *]** | **[!UICONTROL *Shift+Ctrl+D *]** | 建立新的[日期範圍](/help/components/date-ranges/overview.md)。 |
 | **[!UICONTROL 建立註解…]** | **[!UICONTROL *Shift+Cmd+O *]** | **[!UICONTROL *Shift+Ctrl+O *]** | 建立新的[註解](/help/components/annotations/overview.md) |

@@ -4,8 +4,8 @@ description: 自由表格是 Analysis Workspace 中資料分析的基礎
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 * 您可以調整專案的[檢視密度](/help/analysis-workspace/build-workspace-project/view-density.md)，在單一畫面中放入更多列。
 * 分頁之前，每個維度列最多可顯示 400 列。請選取第一欄標題中&#x200B;**[!UICONTROL 行]**&#x200B;旁邊的數字，以在頁面上顯示更多列。使用第一欄標題中的 ![ChevronRight](/help/assets/icons/ChevronRight.svg)，導覽至不同頁面。
 * 您可以根據其他元件劃分列。若要一次劃分許多列，請選取多個列，然後將下一個元件拖曳至選取列的頂端。了解更多關於[劃分](/help/components/dimensions/t-breakdown-fa.md)的資訊。
-* 您可以[劃分](/help/components/filters/filters-overview.md)列，以顯示縮減的項目集。[列設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)之下有提供其他設定。
+* 您可以[劃分](/help/components/segments/seg-overview.md)列，以顯示縮減的項目集。[列設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)之下有提供其他設定。
 
 ### 資料欄
 
@@ -113,6 +113,6 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

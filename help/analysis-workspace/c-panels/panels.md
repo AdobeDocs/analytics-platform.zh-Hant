@@ -4,8 +4,8 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: ht
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 100%
 
@@ -142,10 +142,10 @@ ht-degree: 100%
 
 #### 快速區段
 
-也可以直接將非區段元件拖曳至放置區以建立快速區段，節省前往「[區段產生器](/help/components/filters/filter-builder.md)」的時間和作業。以此方法建立的區段會自動被定義為事件層級的區段。選取區段名稱旁的「![編輯](/help/assets/icons/Edit.svg)」，可以快速修改此定義。
+也可以直接將非區段元件拖曳至放置區以建立快速區段，節省前往「[區段產生器](/help/components/segments/seg-builder.md)」的時間和作業。以此方法建立的區段會自動被定義為事件層級的區段。選取區段名稱旁的「![編輯](/help/assets/icons/Edit.svg)」，可以快速修改此定義。
 
 
-如需詳細資訊，請參閱[快速區段](/help/components/filters/quick-filters.md)。
+如需詳細資訊，請參閱[快速區段](/help/components/segments/seg-quick.md)。
 
 ![公開且拖曳到放置區的臨時區段](assets/adhoc-segment-filter.png)
 
