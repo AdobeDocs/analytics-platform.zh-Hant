@@ -1273,9 +1273,11 @@ Customer Journey Analytics 會使用以下預設容器模型：
 - 如果在公式中使用多個靜態值，則應使用括號對這些靜態值進行分組，這樣這個公式才會有效。例如：
 
    - 此公式傳回錯誤。
+
      ![數學更多資訊 4](assets/math-more-info-4.png)
 
    - 這個公式有效。
+
      ![數學更多資訊 5](assets/math-more-info-5.png)
 
 使用數學函數進行以點擊層級為主的計算。使用 [Summarize](#summarize) 函數進行以事件、工作階段或人員範圍為主的計算。
@@ -1894,7 +1896,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL  反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
+您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL &#x200B; 反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
 
 ![Url Parse 規則 1 的螢幕截圖](assets/url-parse-1.png)
 
