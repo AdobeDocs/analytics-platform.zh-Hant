@@ -5,28 +5,45 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 2d4e8c51111427564c761a16deb27223e98cd2ec
 workflow-type: tm+mt
-source-wordcount: '8857'
-ht-degree: 99%
+source-wordcount: '8925'
+ht-degree: 98%
 
 ---
 
 # 衍生欄位 {#derived-fields}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields"
 >title="衍生欄位"
 >abstract="衍生欄位可讓您透過可自訂的規則產生器，迅速定義資料操作。您接著可以將衍生欄位用作為 Workspace 中的元件 (量度或維度)，甚至進一步在資料檢視中定義為元件。"
 
-<!-- markdownlint-enable MD034 -->
+<!-- BEGIN
+     Temporarily have these entries at the top; once functions are documented
+     move them to appropriate function section
+-->
 
+>[!CONTEXTUALHELP]
+>id="dataview_derivedfields_datemath"
+>title="日期數學"
+>abstract="此函式提供傳回兩個日期或日期時間欄位之間差異的功能。"
+
+>[!CONTEXTUALHELP]
+>id="dataview_derivedfields_typecast"
+>title="型別廣播"
+>abstract="此函式可讓您即時變更欄位型別，使該欄位可用於Customer Journey Analytics內的其他轉換。"
+
+>[!CONTEXTUALHELP]
+>id="dataview_derivedfields_depth"
+>title="深度"
+>abstract="此函式提供傳回任何欄位深度的功能，類似於事件深度標準元件的功能。"
+
+<!-- END -->
 
 派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告功能的重要層面。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
 
-與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
+與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
 
 衍生欄位是在[資料檢視](../data-views.md)內定義，且是根據一組定義為規則的函數，並套用於適用的標準和/或結構描述欄位。
 
@@ -1273,11 +1290,9 @@ Customer Journey Analytics 會使用以下預設容器模型：
 - 如果在公式中使用多個靜態值，則應使用括號對這些靜態值進行分組，這樣這個公式才會有效。例如：
 
    - 此公式傳回錯誤。
-
      ![數學更多資訊 4](assets/math-more-info-4.png)
 
    - 這個公式有效。
-
      ![數學更多資訊 5](assets/math-more-info-5.png)
 
 使用數學函數進行以點擊層級為主的計算。使用 [Summarize](#summarize) 函數進行以事件、工作階段或人員範圍為主的計算。
@@ -1896,7 +1911,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL &#x200B; 反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
+您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL  反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
 
 ![Url Parse 規則 1 的螢幕截圖](assets/url-parse-1.png)
 
