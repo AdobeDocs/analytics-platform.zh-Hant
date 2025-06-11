@@ -7,7 +7,7 @@ role: User
 source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"
 >title="總量"
->abstract="具靜態列的表格或劃分不支援全部總量。"
+>abstract="具靜態列的表格或劃分不支援全部總計。"
 
 
 在自由表格中，每個劃分層級都會顯示總列數，當中會顯示兩個總計數字：
