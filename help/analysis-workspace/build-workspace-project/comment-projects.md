@@ -4,9 +4,9 @@ title: 在專案中新增及檢視註解
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 02b85db81c384c78f7d388b19c8ad53d0028de43
+source-git-commit: 29db477c96ad5ca7c69a7f7055c1a7fd3c06eb04
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
@@ -51,15 +51,15 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
 ### 在專案中檢視評論徽章
 
-在專案的特定區域[&#128279;](#comment-on-a-specific-area-of-the-project)上所做的評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.png)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
+在專案的特定區域](#comment-on-a-specific-area-of-the-project)上所做的[評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.svg)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
 
-編號會顯示在專案中的每個徽章上，並依照其建立順序排序。 如果在專案的相同區域放入多個註解，徽章會顯示3個點![註解徽章多個](assets/comment-indicator-multiple.png)。 選取3點徽章以顯示該區域中的所有註解。
+編號會顯示在專案中的每個徽章上，並依照其建立順序排序。 如果在專案的相同區域放入多個註解，徽章會顯示3個點![註解徽章多個](assets/comment-indicator-multiple.svg)。 選取3點徽章以顯示該區域中的所有註解。
 
 <!-- Insert screeshot-->
 
 若要隱藏專案中的所有註解徽章：
 
-1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。
+1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](/help/assets/icons/Comment.svg)。
 
 1. 在註解區域底部，啟用選項&#x200B;**[!UICONTROL 隱藏置入的徽章]**。
 
@@ -97,7 +97,7 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
 若要在Analysis Workspace中為專案新增註解：
 
-1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。<!-- add screen shot -->
+1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](/help/assets/icons/Comment.svg)。<!-- add screen shot -->
 
 1. 在&#x200B;**[!UICONTROL 新註解]**&#x200B;欄位中，指定您的註解。
 
@@ -131,7 +131,7 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 ## 回複評論
 
-1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。
+1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](/help/assets/icons/Comment.svg)。
 
 1. 選取您要回覆的評論旁的&#x200B;**[!UICONTROL 回覆]**。
 
@@ -149,17 +149,17 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 ## 接收有關評論的通知
 
-專案所有者和您提到的[特定人員](#include-others-in-a-comment)會根據其Adobe Experience Cloud通知設定收到通知。 依預設，使用者會收到應用程式內通知，可在Customer Journey Analytics中的[Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#view-notifications)圖示![Experience Cloud通知圖示](assets/experience-cloud-notification.png)中看到。
+專案所有者和您提到的[特定人員](#include-others-in-a-comment)會根據其Adobe Experience Cloud通知設定收到通知。 依預設，使用者會收到應用程式內通知，可在Customer Journey Analytics中的[Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)圖示![Experience Cloud通知圖示](assets/experience-cloud-notification.svg)中看到。
 
-此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
+此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
 
 ## 為現有評論放置徽章
 
 如果右側邊欄的註釋區域中有註釋可用，但專案中尚未有徽章，您可以新增該徽章。
 
-1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。
+1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](/help/assets/icons/Comment.svg)。
 
-1. 選取您要放置徽章的註解旁的更多圖示![註解更多圖示](assets/comment-more-icon.png)，然後選取&#x200B;**[!UICONTROL 放置徽章]**。
+1. 選取您要放置徽章的評論旁的更多圖示![更多圖示](/help/assets/icons/MoreSmallList.svg)，然後選取&#x200B;**[!UICONTROL 放置徽章]**。
 
 1. 選取您要為現有註解放置徽章的專案區域。
 
@@ -191,9 +191,9 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 若要複製註解的連結：
 
-1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。
+1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](/help/assets/icons/Comment.svg)。
 
-1. 選取您要複製其連結之評論旁的更多圖示![更多註解圖示](assets/comment-more-icon.png)，然後選取&#x200B;**[!UICONTROL 複製連結]**。
+1. 選取您要複製其連結之評論旁的更多圖示![更多圖示](/help/assets/icons/MoreSmallList.svg)，然後選取&#x200B;**[!UICONTROL 複製連結]**。
 
    連結會複製到您的系統剪貼簿。 您可以在電子郵件或其他型別的訊息中貼上連結。
 
@@ -203,15 +203,15 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 複製註解內文：
 
-1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。
+1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](/help/assets/icons/Comment.svg)。
 
-1. 選取包含您要複製之文字的註解旁的更多圖示![更多註解圖示](assets/comment-more-icon.png)，然後選取&#x200B;**[!UICONTROL 複製內文]**。
+1. 選取包含您要複製之文字的註解旁的更多圖示![更多圖示](/help/assets/icons/MoreSmallList.svg)，然後選取&#x200B;**[!UICONTROL 複製內文]**。
 
    註解的內文會複製到您的系統剪貼簿。
 
 ## 喜歡評論
 
-1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。
+1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](/help/assets/icons/Comment.svg)。
 
 1. 在您要簽署的註解下選取&#x200B;**[!UICONTROL 贊]**。
 
@@ -223,9 +223,9 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 若要刪除註解：
 
-1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。
+1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](/help/assets/icons/Comment.svg)。
 
-1. 選取您要刪除之註解旁的更多圖示![更多註解圖示](assets/comment-more-icon.png)，然後選取&#x200B;**[!UICONTROL 刪除]**。
+1. 選取您要刪除的評論旁的更多圖示![更多圖示](/help/assets/icons/MoreSmallList.svg)，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
 1. 再次選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認刪除。
 
@@ -235,9 +235,9 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 若要解決註解，請執行下列動作：
 
-1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](assets/comments-area-icon.png)。
+1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](/help/assets/icons/Comment.svg)。
 
-1. 選取您要解析之註解旁的更多圖示![更多註解圖示](assets/comment-more-icon.png)，然後選取&#x200B;**[!UICONTROL 解析]**。
+1. 選取您要解析之評論旁的更多圖示![更多圖示](/help/assets/icons/MoreSmallList.svg)，然後選取&#x200B;**[!UICONTROL 解析]**。
 
 1. 再次選取&#x200B;**[!UICONTROL 解析]**&#x200B;以確認。
 
