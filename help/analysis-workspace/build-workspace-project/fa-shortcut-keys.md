@@ -5,10 +5,10 @@ feature: Workspace Basics
 title: 如何使用 Workspace 快捷鍵
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+source-git-commit: 61a7e21d3e5d586c341a5b0f12490e3da1054382
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 93%
 
 ---
 
@@ -18,11 +18,11 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、�
 
 請注意，您的鍵盤可能使用下列符號：
 
-- **⇧** 代表 **[!UICONTROL ** Shift 鍵&#x200B;**]**。
-- **⌘**  代表 **[!UICONTROL ** Cmd 鍵&#x200B;**]** (Command)。
-- **⌃** 代表 **[!UICONTROL ** Ctrl 鍵&#x200B;**]** (control)。
-- **⌥** 代表 **[!UICONTROL ** Opt 鍵&#x200B;**]** (Option)。
-- **⎇** 代表 **[!UICONTROL ** Alt 鍵&#x200B;**]** (Alternate)。
+- **⇧** 代表 **[!UICONTROL ** Shift **]** 鍵。
+- **⌘** 代表 **[!UICONTROL ** Cmd **]** (Command) 鍵。
+- **⌃** 代表 **[!UICONTROL ** Ctrl **]** (Control) 鍵。
+- **⌥** 代表 **[!UICONTROL ** Opt **]** (Option) 鍵。
+- **⎇** 代表 **[!UICONTROL ** Alt **]** (Alternate) 鍵。
 
 ## 導覽動作
 
@@ -35,8 +35,8 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、�
 | 前往「元件」窗格 | **[!UICONTROL *Opt+Shift+3 *]** | **[!UICONTROL *Alt+Shift+3 *]** |
 | 收合/展開所有面板 | **[!UICONTROL *Opt+M *]** | **[!UICONTROL *Alt+M *]** |
 | 收合/展開使用中的面板 | **[!UICONTROL *Opt+Cmd+M *]** | **[!UICONTROL *Alt+Ctrl+M *]** |
-| 移至下一個面板 | **[!UICONTROL *Opt *+▶︎]** | **[!UICONTROL *Alt *+▶︎]** |
-| 移至上一個面板 | **[!UICONTROL *Opt *+▶︎]** | **[!UICONTROL *Alt *+▶︎]** |
+| 移至下一個面板 | **[!UICONTROL *opt *+ ▶︎]** | **[!UICONTROL *alt *+ ▶︎]** |
+| 移至上一個面板 | **[!UICONTROL *opt *+ ◀︎]** | **[!UICONTROL *alt *+ ◀︎]** |
 
 ## 分析動作
 
@@ -67,6 +67,13 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、�
 | 新增折線圖 | **[!UICONTROL *Opt+2 *]** | **[!UICONTROL *Alt+2 *]** |
 | 新增長條圖 | **[!UICONTROL *Opt+3 *]** | **[!UICONTROL *Alt+3 *]** |
 | 新增組合圖表 | **[!UICONTROL *Opt+4 *]** | **[!UICONTROL *Alt+4 *]** |
+
+## 移動面板動作
+
+| 動作 | Mac 快速鍵 | Windows 快速鍵 |
+| --- | --- | --- | 
+| 將面板上移 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
+| 將面板下移 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
 
 ## 普及化動作
 
