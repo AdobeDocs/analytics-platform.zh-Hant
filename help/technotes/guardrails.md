@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 9c8a2ed7712ad7e4e0bcada16d3b581d52a49472
+source-git-commit: 277e69432e4c8a93f692486b5f281329cbfc55db
 workflow-type: tm+mt
-source-wordcount: '2062'
+source-wordcount: '2061'
 ht-degree: 12%
 
 ---
@@ -142,7 +142,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
+另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 
 ## 目的地資料匯出
@@ -154,7 +154,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/guardrails#dataset-exports)
+另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## 資料登陸區域
@@ -243,18 +243,19 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
-| 共用程式庫 | 1 | 系統執行的護欄 | 連線的共用程式庫數上限。 |
+| 共用程式庫 | 1 | 系統強制的護欄 | 連線的共用程式庫數上限。 |
 | 共用的量度 | 10,000 | 系統強制的護欄 | 每個共用程式庫的共用量度數上限。 |
-| 共用維度 | 10,000 | 系統執行的護欄 | 每個共用程式庫的共用維度數上限。 |
+| 共用維度 | 10,000 | 系統強制的護欄 | 每個共用程式庫的共用維度數上限。 |
 
 {style="table-layout:auto"}
+
 
 
 ## 延遲
 
 >[!NOTE]
 >
->以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
+>以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 | 資料流程 | 預期延遲 |
 |---|---|
