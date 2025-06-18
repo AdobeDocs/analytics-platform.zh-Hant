@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '2453'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -140,9 +140,9 @@ ht-degree: 87%
 
 1. 使用「![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」**[!UICONTROL 搜尋結構描述欄位]**&#x200B;來搜尋結構描述欄位，或者移動到任意資料集集合來尋找欄位，例如![資料夾圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg)「**[!UICONTROL 事件資料集]**」。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)「**建立衍生欄位**」來建立衍生欄位。請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
-1. 當您找到特定結構描述欄位或定義衍生欄位時，請將該欄位（例如![控制代碼圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件]**&#x200B;下方的&#x200B;**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 維度]**&#x200B;區段。
+1. 當您找到特定結構描述欄位或定義衍生欄位時，請將該欄位（例如![控制代碼圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件]**&#x200B;下方的&#x200B;**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 維度]**區段。
 您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。例如，從pageName欄位，您可以使用右側不同的[元件設定](component-settings/overview.md)來建立名為`Product Pages`的維度，以及另一個名為`Error pages`的維度。
-如果您從左側邊欄拖曳結構描述欄位資料夾，資料夾中的欄位會自動排序到適當的區段中。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數字結構描述類型最終出現在「[!UICONTROL 量度]」區段中。您也可以按一下「新增全部&#x200B;**」，並將所有結構描述欄位新增至其個別區段。**
+如果您從左側邊欄拖曳結構描述欄位資料夾，資料夾中的欄位會自動排序到適當的區段中。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數字結構描述類型最終出現在「[!UICONTROL 量度]」區段中。您也可以按一下「新增全部&#x200B;]**」，並將所有結構描述欄位新增至其個別區段。**[!UICONTROL 
 
 1. 選取元件後，右側會出現設定。
 
@@ -182,45 +182,45 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_custom"
 >title="自訂標籤"
->abstract="除了 Adobe 提供的標籤之外，您還可以為貴組織定義自己的自訂標籤。"
+>abstract="除了 Adobe 提供的標籤之外，您也可以定義所屬組織的自訂標籤。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_contract"
 >title="合約標籤"
->abstract="合約(C)標籤可用來對具有合約義務或與貴組織的資料治理原則相關的資料進行分類。"
+>abstract="我們使用合約 (C) 標籤針對具有合約義務或與貴組織的資料治理原則相關的資料進行分類。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_identity"
 >title="身分識別標籤"
->abstract="身分(I)標籤可用來對可辨識或聯絡特定人員的資料進行分類。"
+>abstract="我們使用身分識別 (I) 標籤將可以識別身分或聯絡特定人員的資料進行分類。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_sensitive"
 >title="敏感標籤"
->abstract="敏感(S)標籤可用來對您及貴組織認為敏感的資料進行分類。"
+>abstract="我們使用敏感 (S) 標籤針對您及所屬組織認定為敏感的資料進行分類。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
 
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_partnerecosystem"
 >title="合作夥伴生態系統"
->abstract="合作夥伴生態系統(P)標籤可用來對與協力廠商合作夥伴共用的資料進行分類。"
+>abstract="我們使用合作夥伴生態系統 (P) 標籤針對與第三方合作夥伴共用的資料進行分類。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_policies"
 >title="原則"
->abstract="為了使資料使用標籤有效地支援資料合規性，您必須實作資料使用原則。資料使用原則是說明允許或限制您在 Experience Platform 中對資料執行的行銷動作類型的規則。原則篩選器會將啟用的原則套用到資料檢視。"
+>abstract="為了讓資料使用標籤能有效支援資料合規性，必須實施資料使用原則。資料使用原則是描述允許或限制您對 Experience Platform 內的資料執行何種行銷動作的規則。原則篩選器將啟用的原則套用至資料視圖。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
 
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_responsibleengagement"
->title="負責的參與標籤"
->abstract="負責任的參與標籤用於支援負責任的參與。"
+>title="負責任的參與標籤"
+>abstract="我們使用負責任的參與標籤來支持負責任參與。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
 
 

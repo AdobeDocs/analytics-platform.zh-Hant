@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: c1e950033400fb69a5e5c202326a150d079d3c8d
 workflow-type: tm+mt
 source-wordcount: '7421'
-ht-degree: 65%
+ht-degree: 67%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 65%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -187,7 +187,7 @@ ht-degree: 65%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -366,38 +366,38 @@ ht-degree: 65%
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_enable"
->title="啟用身分拼接"
->abstract="啟用身分拼接以提升此事件資料集以進行跨管道分析。"
+>title="啟用身分識別拼接"
+>abstract="啟用身分識別拼接來提升此事件資料集，以利進行跨管道分析。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_dialog"
->title="啟用身分拼接"
->abstract="啟用身分拼接會從單一或多個資料集衍生拼接ID。 此程式可能包括合併來自已驗證和未驗證工作階段的使用者資料。<br/><br/>您有責任遵守適用的法律和法規。 這項法規遵循包括您在合併資料集之前獲得必要的一般使用者許可權。"
+>title="啟用身分識別拼接"
+>abstract="啟用身分識別拼接，會從單一或多個資料集中推導出拼接式 ID。此過程可能包括合併來自已驗證和未驗證工作階段的使用者資料。<br/><br/>您有責任遵守適用的法律和規定。而遵守規定包括在合併資料集之前取得必要的最終使用者權限。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
 
 >[!CONTEXTUALHELP]
 >id="connection_persistentid"
 >title="人員 ID"
->abstract="從可用的身分中選取永久ID。 永久ID是可用於事件資料集中所有事件的識別碼。"
+>abstract="從可用的身分識別中選取一個永久性 ID。永久性 ID 是事件資料集中所有事件皆可使用的識別碼。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
 
 >[!CONTEXTUALHELP]
 >id="connection_lookbackwindow"
 >title="回顧視窗"
->abstract="選取用於重播彙整的回顧期間的適當時段。"
+>abstract="選取回顧時間範圍要在重播拼接中使用的適當時段。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_map"
->title="名稱空間身分對應"
->abstract="選取名稱空間以從身分對應中挑選識別碼。"
+>title="命名空間身分識別圖"
+>abstract="選取要從身分識別圖中挑選識別碼時使用的命名空間。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_graph"
->title="名稱空間身分圖表"
->abstract="選取名稱空間以更新身分圖表中的識別碼。"
+>title="命名空間身分識別圖"
+>abstract="選取更新身分識別圖中的識別碼時使用的命名空間。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
 
 
@@ -433,7 +433,7 @@ ht-degree: 65%
 
 1. 選取一或多個資料集，然後選取「**[!UICONTROL 下一步]**」。連線中必須至少包含一個事件或摘要資料集。
 
-1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋ **[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集[&#128279;](#dataset-settings)的設定。
+1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋ **[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集](#dataset-settings)的[設定。
 
    ![新增資料集](assets/add-dataset.png)
 
@@ -449,7 +449,7 @@ ht-degree: 65%
 1. 針對要編輯的資料集表格中所列的資料集，選取![更多](/help/assets/icons/More.svg)
 1. 選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**。
 
-1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**&#x200B;對話方塊中設定[資料集設定](#dataset-settings)。
+1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**對話方塊中設定[資料集設定](#dataset-settings)。
 
    ![編輯資料集](assets/edit-dataset.png)
 
@@ -610,7 +610,7 @@ ht-degree: 65%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
