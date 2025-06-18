@@ -3,7 +3,7 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建置計算量度
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: ef97b36a95e5f39f7436f5e21861d1ee5a0338dd
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 95%
@@ -11,8 +11,6 @@ ht-degree: 95%
 ---
 
 # 建置計算量度 {#build-metrics}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_productcompatibility"
@@ -217,6 +215,5 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
 >[!MORELIKETHIS]
 >
 >[使用函數](cm-using-functions.md)
->&#x200B;>[區段](/help/components/segments/seg-overview.md)
+>>[區段](/help/components/segments/seg-overview.md)
 >
-

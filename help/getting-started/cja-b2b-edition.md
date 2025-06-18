@@ -6,8 +6,8 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: d0dfcce1a9ba2a2f3e55abc63116ed07a33c9411
-workflow-type: ht
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -17,8 +17,6 @@ ht-degree: 100%
 # Customer Journey Analytics B2B Edition
 
 {{b2b-edition}}
-
-{{draft-b2b}}
 
 Adobe Analytics 最初是一款為行銷人員設計的網頁與數位分析工具，而 Customer Journey Analytics 則進一步擴展其範圍，涵蓋多通路、離線及跨平台資料。這兩種工具都可以幫助企業對消費者 (B2C) 公司分析和最佳化其行銷策略及客戶體驗。並專注於&#x200B;**人員型報告與分析**：了解客戶歷程，其中客戶是透過多種管道與您的品牌互動的人員。
 

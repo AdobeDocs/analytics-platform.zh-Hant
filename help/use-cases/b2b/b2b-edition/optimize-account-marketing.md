@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B Edition"
 exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # 將帳戶行銷最佳化
-
-{{draft-b2b}}
 
 有效的帳戶式行銷需要帳戶層級對購買歷程有深入的瞭解。 因此，您可以決定最具影響力的行銷活動，以推動交易完成。
 

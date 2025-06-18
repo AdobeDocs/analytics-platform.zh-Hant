@@ -6,7 +6,7 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 2%
@@ -15,8 +15,6 @@ ht-degree: 2%
 
 
 # B2B edition概念和功能
-
-{{draft-b2b}}
 
 本文說明在Customer Journey Analytics中常用的連線、識別碼、容器和資料集等概念。 以及Customer Journey Analytics B2B edition如何在這些概念中新增其他功能。
 
@@ -74,7 +72,7 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
   >Customer Journey Analytics B2B edition中以帳戶為基礎設定的B2B事件資料，可能包含不含個人或工作階段的資料列。 例如：詳細說明商機階段進展的資料列。 評估區段時，請記住，人員和工作階段可能不再是正確的標準。
   >
 
-* **歸因**：您可以在[歸因面板](/help/analysis-workspace/c-panels/attribution.md)、[歸因元件設定](/help/data-views/component-settings/attribution.md)、[計算量度](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)或自由表格[&#128279;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的欄中使用新的B2B容器。 帳戶回顧期間延長至13個月。
+* **歸因**：您可以在[歸因面板](/help/analysis-workspace/c-panels/attribution.md)、[歸因元件設定](/help/data-views/component-settings/attribution.md)、[計算量度](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)或自由表格](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的[欄中使用新的B2B容器。 帳戶回顧期間延長至13個月。
 
 * **視覺效果**： [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)、[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)、[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)和[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)視覺效果支援新的B2B容器。 例如：您可以使用新的容器來瞭解購買群組如何耗用內容，或機會同類群組如何接近銷售結尾。
 您也可以在[使用者偏好設定](/help/analysis-workspace/user-preferences.md#visualizations-preferences)中設定這些視覺效果的預設容器。

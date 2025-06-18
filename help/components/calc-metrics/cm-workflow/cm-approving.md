@@ -3,7 +3,7 @@ description: 在計算量度管理員中，您可以設定包含各應用程式�
 title: 核准計算量度
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
+source-git-commit: ef97b36a95e5f39f7436f5e21861d1ee5a0338dd
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 21%
@@ -16,7 +16,7 @@ ht-degree: 21%
 
 若要核准計算量度：
 
-1. 在[計算量度管理員](cm-approving.md)中，選取一或多個您要核准的計算量度。
+1. 在[計算量度管理員](cm-manager.md)中，選取一或多個您要核准的計算量度。
 1. 從動作列中選取![核取記號圓圈](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]**。 核准的計算量度會以![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)表示
 
 若要取消核准計算量度：

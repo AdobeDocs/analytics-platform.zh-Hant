@@ -6,7 +6,7 @@ feature: Use Cases
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: 7c16cc62-5032-44a2-92e4-4a1c320f17aa
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 4%
@@ -14,8 +14,6 @@ ht-degree: 4%
 ---
 
 # B2B edition使用案例概觀
-
-{{draft-b2b}}
 
 本檔案本節詳細說明一些特定的B2B使用案例，這些案例旨在提供更複雜B2B購買歷程中的深入分析。 典型的B2B購買涉及購買群組、不同利害關係人的跨管道接觸點、銷售週期各個階段的機會等等。
 

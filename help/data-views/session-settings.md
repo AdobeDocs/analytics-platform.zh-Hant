@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
-workflow-type: ht
+source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
+workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -47,11 +47,11 @@ ht-degree: 100%
 
    2. 在「**[!UICONTROL 以量度啟動新工作階段]**」下的「**[!UICONTROL 在這裡放置量度]**」清單中選取一個量度。或者，您可以從左側窗格中將量度拖放到「**[!UICONTROL 放置量度欄位]**」。所選量度定義新工作階段開始。您可以定義多個量度。
 
-      您可以使用任何類型的量度來定義新工作階段。例如，假設您希望輪廓每次啟動您的行動應用程式時定義一個新的工作階段。在「**[!UICONTROL 資料檢視]**>**[!UICONTROL 元件]**」中，您定義一個類型度量的元件，並將其命名為「**[!UICONTROL 啟動]**」(根據 **[!UICONTROL appInteraction]****[!UICONTROL 名稱]**&#x200B;結構欄位)。您進一步指定「**[!UICONTROL 啟動]**」量度元件僅限在值符合 `launch` 時才計算該值。
+      您可以使用任何類型的量度來定義新工作階段。例如，假設您希望輪廓每次啟動您的行動應用程式時定義一個新的工作階段。在&#x200B;**[!UICONTROL 資料檢視]** > **[!UICONTROL 元件]**&#x200B;中，您根據&#x200B;**[!UICONTROL appInteraction]** **[!UICONTROL Name]**&#x200B;結構描述欄位，定義名為&#x200B;**[!UICONTROL Launch]**&#x200B;之型別量度的元件。 您進一步指定&#x200B;**[!UICONTROL Launch]**&#x200B;量度元件，只有在值符合`launch`時才計算值。
 
       ![應用程式互動量度元件啟動](assets/component-launches.png)
 
-      然後拖放，或選取「**[!UICONTROL 啟動]**」量度作為定義新工作階段的量度。
+      然後您拖放或選取&#x200B;**[!UICONTROL 啟動]**&#x200B;量度作為定義新工作階段的量度。
 
       ![工作階段設定啟動](assets/session-settings-launches-metric.png)
 

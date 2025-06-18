@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 90%
+source-wordcount: '2456'
+ht-degree: 89%
 
 ---
 
@@ -140,9 +140,9 @@ ht-degree: 90%
 
 1. 使用「![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」**[!UICONTROL 搜尋結構描述欄位]**&#x200B;來搜尋結構描述欄位，或者移動到任意資料集集合來尋找欄位，例如![資料夾圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg)「**[!UICONTROL 事件資料集]**」。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)「**建立衍生欄位**」來建立衍生欄位。請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
-1. 當您找到特定結構描述欄位或定義衍生欄位時，請將該欄位（例如![控制代碼圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件]**&#x200B;下方的&#x200B;**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 維度]**&#x200B;區段。
+1. 當您找到特定結構描述欄位或定義衍生欄位時，請將該欄位（例如![控制代碼圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件]**&#x200B;下方的&#x200B;**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 維度]**區段。
 您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。例如，從pageName欄位，您可以使用右側不同的[元件設定](component-settings/overview.md)來建立名為`Product Pages`的維度，以及另一個名為`Error pages`的維度。
-如果您從左側邊欄拖曳結構描述欄位資料夾，資料夾中的欄位會自動排序到適當的區段中。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數字結構描述類型最終出現在「[!UICONTROL 量度]」區段中。您也可以按一下「新增全部&#x200B;**」，並將所有結構描述欄位新增至其個別區段。**
+如果您從左側邊欄拖曳結構描述欄位資料夾，資料夾中的欄位會自動排序到適當的區段中。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數字結構描述類型最終出現在「[!UICONTROL 量度]」區段中。您也可以按一下「新增全部&#x200B;]**」，並將所有結構描述欄位新增至其個別區段。**[!UICONTROL 
 
 1. 選取元件後，右側會出現設定。
 
@@ -245,13 +245,17 @@ ht-degree: 90%
 ## 設定 {#dataview-settings}
 
 1. 選取「**[!UICONTROL 設定]**」索引標籤。
+
+   ![資料檢視設定](assets/dataview-settings.png)
+
 1. 設定區段以套用於整個資料視圖。請參閱下方的[設定 (區段)](#settings-filters)。
 1. 設定工作階段逾時和量度。請參閱下方的「[工作階段設定](#session-settings)」。
+
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
 ### 設定 (區段) {#segment-settings}
 
-您可以新增套用至整個資料視圖的區段。此區段將套用至您在 Workspace 中執行的任何報告。自左側邊欄的清單將區段拖曳至「**[!UICONTROL 新增區段]**」欄位。
+您可以新增套用至整個資料視圖的區段。此區段將套用至您在 Workspace 中執行的任何報告。從左側邊欄中的元件拖曳區段至「**[!UICONTROL 新增區段]**」欄位。
 
 ### 工作階段設定
 

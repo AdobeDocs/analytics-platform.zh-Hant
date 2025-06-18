@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B Edition"
 exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # 建置產品價值
-
-{{draft-b2b}}
 
 您想要將B2B產品價值的深入解析傳達給產品經理和CMO或CEO。 例如，透過資料導向的流失分析或述詞。 並可透過行動控制面板消化這些深入分析。
 

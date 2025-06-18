@@ -6,8 +6,8 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: ff8d419e-5cc6-4e1b-8cf8-9dbaa8054179
-source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
-workflow-type: ht
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -15,8 +15,6 @@ ht-degree: 100%
 
 
 # B2B Edition 快速入門指南
-
-{{draft-b2b}}
 
 若要實作 Customer Journey Analytics B2B Edition，請務必先了解 B2B 特定的概念和功能。您也應該熟悉實作 Customer Journey Analytics 的傳統工作流程。
 

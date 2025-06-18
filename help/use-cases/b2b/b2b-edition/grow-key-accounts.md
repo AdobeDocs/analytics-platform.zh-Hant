@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B Edition"
 exl-id: f5294af8-b8dc-4239-b0f7-5c20d39007ee
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 3%
@@ -14,8 +14,6 @@ ht-degree: 3%
 ---
 
 # 拓展重點客戶
-
-{{draft-b2b}}
 
 成長及保留重要帳戶是B2B公司的重要考量。 確保交易進度的先決條件是在適當的時間與目標帳戶中的關鍵利害關係人溝通。
 
