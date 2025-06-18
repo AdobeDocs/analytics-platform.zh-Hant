@@ -26,7 +26,7 @@ ht-degree: 70%
 | **支援Report Builder中的安全目的地** | 新的匯出目的地已新增至Report Builder增益集。 支援下列雲端儲存空間目的地： <ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul> (文件連結待補充) |  | 2025年6月19日（原為2025年6月18日） |
 | **新的預覽體驗** | 預覽面板（用於預覽區段、計算量度等）現在使用橫條圖視覺效果，而非環形圖視覺效果。 |  | 2025 年 6 月 18 日 |
 | **已修改的歸因模型對話方塊** | 您現在可以在歸因模型對話方塊中分別定義容器和時段。 |  | 18,2025 年 6 月 |
-| **連線圖** | 新的[連線對映介面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#connection-map)可用於以視覺化方式顯示您的連線設定。 |  | 2025 年 6 月 18 日 |
+| **連線圖** | 新的[連線對映介面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/create-connection#connection-map)可用於以視覺化方式顯示您的連線設定。 |  | 2025 年 6 月 18 日 |
 | **在 Analysis Workspace 專案中新增和檢視註解** | Analysis Workspace 中的新[註解功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects)，讓您可以在 Analysis Workspace 專案的內容中共用深入分析及提出問題。這樣可以簡化關於資料的討論過程，讓對話聚焦於所討論的資料範圍內。您可以 <ul><li>對任何您有權存取的 Analysis Workspace 專案留下註解</li><li>針對視覺內容中的特定點留下註解，或對專案留下一般註解</li><li>標記其他使用者，通知他們您有留下註解</li><li>管理現有註解 (編輯、釘選、解決等)</li></ul>Customer Journey Analytics 管理員可以[於組織層級停用註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/user-preferences#ims-organization-preferences)。專案所有者可以[在專案層級停用註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)。 |  | 2025 年 6 月 25 日 <p>(原計劃於 2025 年 5 月 29 日發行)</p> |
 | **支援Chrome預先轉譯** | 控制Chrome預先轉譯頁面時資料收集程式庫的行為。 (文件連結待補充) |  | 2025年6月30日 |
 
