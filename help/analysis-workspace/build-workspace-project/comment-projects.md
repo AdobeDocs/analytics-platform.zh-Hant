@@ -4,9 +4,9 @@ title: 在專案中新增及檢視註解
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 29db477c96ad5ca7c69a7f7055c1a7fd3c06eb04
+source-git-commit: 91ac84764a186d81f3270bb3ec9673d93b11bd38
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
 ### 在註解區域中檢視註解
 
-在Analysis Workspace專案中所做的所有註解都會顯示在右側邊欄的註解區域中。
+在Analysis Workspace專案中所做的所有註解都會顯示在右側邊欄的註解區域中。 現有註解的總數會顯示在註解圖示上。
 
 1. 依預設，當您第一次開啟專案時，Analysis Workspace中每個專案的註解區域都會展開。
 
@@ -51,7 +51,7 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
 ### 在專案中檢視評論徽章
 
-在專案的特定區域[&#128279;](#comment-on-a-specific-area-of-the-project)上所做的評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.svg)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
+在專案的特定區域](#comment-on-a-specific-area-of-the-project)上所做的[評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.svg)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
 
 編號會顯示在專案中的每個徽章上，並依照其建立順序排序。 如果在專案的相同區域放入多個註解，徽章會顯示3個點![註解徽章多個](assets/comment-indicator-multiple.svg)。 選取3點徽章以顯示該區域中的所有註解。
 
@@ -131,13 +131,15 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 ## 回複評論
 
-1. 在Analysis Workspace中開啟專案後，在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](/help/assets/icons/Comment.svg)。
+1. 在Analysis Workspace中，開啟您要新增註解的專案。
 
-1. 選取您要回覆的評論旁的&#x200B;**[!UICONTROL 回覆]**。
+1. 在Analysis Workspace的右側邊欄中選取評論區域圖示![評論區域圖示](/help/assets/icons/Comment.svg)，然後選取您要回覆之評論旁的&#x200B;**[!UICONTROL 回覆]**。
+
+   若要包含您要回覆的註解文字，並將原始文字包裝在引號標籤中，請選取您要回覆的特定註解或回覆旁的3點圖示，然後選取&#x200B;**[!UICONTROL 引號回覆]**。 引號回覆是指出您的評論所參考之評論或回覆的好方法。
 
    或
 
-   若要包含您要回覆的註解文字，並將原始文字包裝在引號標籤中，請選取您要回覆的特定註解或回覆旁的3點圖示，然後選取&#x200B;**[!UICONTROL 引號回覆]**。 引號回覆是指出您的評論所參考之評論或回覆的好方法。
+   在產生註解的面板或視覺效果上選取註解圖示，然後選取&#x200B;**[!UICONTROL 回覆]**。
 
 1. 在&#x200B;**[!UICONTROL 新註解]**&#x200B;欄位中，指定您的註解。
 
@@ -149,9 +151,9 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 ## 接收有關評論的通知
 
-專案所有者和您提到的[特定人員](#include-others-in-a-comment)會根據其Adobe Experience Cloud通知設定收到通知。 依預設，使用者會收到應用程式內通知，可在Customer Journey Analytics中的[Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#view-notifications)圖示![Experience Cloud通知圖示](assets/experience-cloud-notification.svg)中看到。
+專案所有者和您提到的[特定人員](#include-others-in-a-comment)會根據其Adobe Experience Cloud通知設定收到通知。 依預設，使用者會收到應用程式內通知，可在Customer Journey Analytics中的[Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)圖示![Experience Cloud通知圖示](assets/experience-cloud-notification.svg)中看到。
 
-此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
+此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
 
 ## 為現有評論放置徽章
 
