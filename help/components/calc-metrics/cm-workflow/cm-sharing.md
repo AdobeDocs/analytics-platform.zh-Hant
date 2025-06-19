@@ -3,7 +3,7 @@ description: 您可以將量度共用給整個組織、群組或個別使用者 
 title: 共用計算量度
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 11%
@@ -15,7 +15,7 @@ ht-degree: 11%
 在[計算量度管理員](cm-manager.md)中，您可以共用計算量度。 您可以將計算量度共用給整個組織、群組或個別使用者（視您的許可權而定）：
 
 * **管理員**：管理員可以將計算量度共用給整個組織、組織內的群組以及個別使用者。 如需詳細資訊，請參閱 [Admin Console 文件](https://helpx.adobe.com/tw/enterprise/using/manage-products.html)。
-* **非管理員**：非管理員只能與其建立的計算量度共用，而且只能與個別使用者共用。 |
+* **非管理員**：非管理員只能與其建立的計算量度共用，而且只能與個別使用者共用。
 
 若要共用一或多個計算量度：
 
@@ -29,7 +29,7 @@ ht-degree: 11%
 
    1. 從&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**&#x200B;區段中選取一或多個選項，或搜尋並選取一或多個個人。 可用的選項取決於您的角色。
 
-   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以共用計算量度。 選取「**[!UICONTROL 取消]**」，即可取消。
+   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以共用計算量度。 選取「**[!UICONTROL 取消]**」即可取消。
 
 ## 最佳做法
 

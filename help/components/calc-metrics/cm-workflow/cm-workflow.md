@@ -3,10 +3,10 @@ description: 瞭解如何建立計算量度。
 title: 建立計算量度
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 44%
+source-wordcount: '383'
+ht-degree: 25%
 
 ---
 
@@ -29,15 +29,19 @@ ht-degree: 44%
 
 若要定義新的計算量度，請使用[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)。
 
-瞭解建立計算量度的步驟。
+
+## 工作流程
+
+在建立計算量度之前，請仔細考量下列工作流程：
 
 | 工作流程工作 | 說明 |
 | --- | --- |
-| 規劃計算量度 | 對於要正式「核准」的量度來說，您尤其有必要先概述將廣泛使用的計算量度及其定義方式。 |
-| [建立](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)計算量度 | 建立和編輯計算量度與進階計算量度，以用於 [!DNL Customer Journey Analytics] 元件。 |
-| [&#128279;](cm-tagging.md)標記計算量度 | 標記計算量度以方便進行組織和共用。請參閱如何規劃和指派標記來進行簡易與進階的搜尋及組織。 |
-| [&#128279;](cm-approving.md)核准計算量度 | 核准計算量度可讓它們成為遵循標準。 |
-| 套用計算量度 | 您可從報表、量度選擇器 (若要存取，請按一下「[!UICONTROL 顯示量度]」) 直接套用量度。 |
-| 篩選器計算量度 | 在量度選擇器中，按一下「[!UICONTROL 進階選擇]」並依標記、擁有者及其他篩選器 (全部顯示、我的、與我共用、我的最愛與已核准) 進行篩選。 |
+| 計畫計算量度 | 對於要正式「核准」的量度來說，您尤其有必要先概述將廣泛使用的計算量度及其定義方式。 |
+| [建置](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)計算量度 | 建立和編輯計算量度與進階計算量度，以用於 [!DNL Customer Journey Analytics] 元件。 |
+| [標籤](cm-tagging.md)計算量度 | 標記計算量度以方便進行組織和共用。請參閱如何規劃和指派標記來進行簡易與進階的搜尋及組織。 |
+| [核准](cm-approving.md)計算量度 | 核准計算量度可讓它們成為遵循標準。 |
+| 使用計算量度 | 在您的專案中使用計算量度。 |
+| [共用](cm-sharing.md)個計算量度 | 與其他個人、群組或組織共用您的計算量度。 |
+| [篩選器](cm-filter.md)計算量度 | 依標籤、擁有者和其他篩選器（「全部顯示」、「我的」、「已共用給我」、「我的最愛」和「已核准」）來篩選計算量度。 |
 | 將計算量度標示為[我的最愛](cm-finding.md) | 要組織量度以方便使用，將量度標記為我的最愛是另一種方法。 |
 

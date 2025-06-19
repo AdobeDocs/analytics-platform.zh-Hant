@@ -4,10 +4,10 @@ title: 快速區段
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -107,6 +107,6 @@ ht-degree: 92%
 與快速區段相比，區段確實具有以下優點。
 
 * 區段可建立為適於您所有的 Workspace 專案
-* 區段可使用巢狀和階層容器以及序列 (使用序列區段) 來支援更多複雜性。
+* 區段支援使用巢狀和階層式[容器](seg-builder.md#containers)和序列（使用[循序區段](seg-sequential-build.md)）的更多複雜性。
 
 
