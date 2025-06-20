@@ -3,10 +3,10 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建置計算量度
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: ef97b36a95e5f39f7436f5e21861d1ee5a0338dd
+source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 95%
+source-wordcount: '1628'
+ht-degree: 94%
 
 ---
 
@@ -18,32 +18,16 @@ ht-degree: 95%
 >abstract="指出可以在 Customer Journey Analytics 的何處使用此計算量度，例如在 Analysis Workspace、Report Builder 等。一些計算量度不能用於實驗。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="在實驗中使用計算量度"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_externalid"
 >title="外部 ID"
 >abstract="變更外部 ID 可能會影響計算量度在外部來源 (例如商業智慧工具) 中的顯示方式"
 
-<!-- markdownlint-enable MD034 -->
-
 Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區段及函數，根據容器階層邏輯、規則及運算子來建立自訂量度。此整合性開發工具可讓您建置並儲存簡單或複雜的計算量度。
-
-## 開始建置計算量度
 
 您可以使用計算量度產生器來建立或編輯計算量度。用這個方式建立的計算量度會出現在元件清單中，而且之後可用於整個組織的專案。或者，您也可以快速建立僅供建立量度之專案使用的計算量度，如[量度](/help/components/apply-create-metrics.md)的[建立單一專案的計算量度](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)中所述。
 
-存取計算量度產生器以開始建立可在元件清單中使用的計算量度。
-
-1. 以下列任一方式存取計算度量產生器：
-
-   * 在 Analysis Workspace 中開啟專案，然後選取「**[!UICONTROL 元件]**」>「**[!UICONTROL 建立量度]**」。
-   * 在 Analysis Workspace 中開啟專案，然後選取左側邊欄中&#x200B;[!UICONTROL **量度**]&#x200B;細分群體旁的&#x200B;**加 (+) 號**&#x200B;圖示。
-   * 在 [!DNL Customer Journey Analytics] 中，前往「**[!UICONTROL 元件]** > **[!UICONTROL 計算量度]**」，然後選取計算量度頁面頂端的「**[!UICONTROL + 新增]**」。
-
-1. 繼續[計算量度產生器的區域](#areas-of-the-calculated-metrics-builder)。
+[建立計算量度](cm-workflow.md)說明可用來建立新計算量度的不同選項。
 
 ## 計算量度產生器的區域
 
@@ -215,5 +199,5 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
 >[!MORELIKETHIS]
 >
 >[使用函數](cm-using-functions.md)
->&#x200B;>[區段](/help/components/segments/seg-overview.md)
+>>[區段](/help/components/segments/seg-overview.md)
 >

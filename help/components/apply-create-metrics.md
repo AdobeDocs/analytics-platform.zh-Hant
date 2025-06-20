@@ -4,10 +4,10 @@ title: 量度
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
+source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 9%
+source-wordcount: '866'
+ht-degree: 7%
 
 ---
 
@@ -49,13 +49,6 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 Customer Journey Analytics中的標準量度完整清單：
 {{standard-metrics}}
 
-## 比較不同歸因模型的量度
-
-若要快速比較量度的一個歸因模型與另一個歸因模型，請從量度的內容功能表中選取&#x200B;**[!UICONTROL 比較歸因模型]**。
-
-![Workspace面板醒目提示比較歸因模型](assets/compare-attribution.png)
-
-此快速鍵可讓您比較不同的歸因模型，而無須再次拖曳量度和進行設定。
 
 ## 建立計算量度
 
@@ -65,9 +58,7 @@ Customer Journey Analytics中的標準量度完整清單：
 
 ### 為所有專案建立計算量度
 
-您可以使用計算量度產生器來建立計算量度。以這種方式建立時，計算量度會顯示在元件清單中，然後可用於整個組織的專案。
-
-如需有關如何存取計算量度產生器的資訊，請參閱[建立計算量度](/help/components/calc-metrics/cm-workflow/cm-workflow.md)。
+您可以使用[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)來[建立計算量度](/help/components/calc-metrics/cm-workflow/cm-workflow.md)。 以這種方式建立時，計算量度會顯示在元件清單中，然後可用於整個組織的專案。
 
 ### 為單一專案建立計算量度
 
@@ -113,6 +104,13 @@ Customer Journey Analytics中的標準量度完整清單：
 
    * [!UICONTROL **百分比變更**]：建立新資料行，顯示兩個選取資料行之間的百分比變更。
 
-[計算量度：實作較少的量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hant) (3:42)
+
+## 比較不同歸因模型的量度
+
+若要快速比較量度的一個歸因模型與另一個歸因模型，請從量度的內容功能表中選取&#x200B;**[!UICONTROL 比較歸因模型]**。
+
+![Workspace面板醒目提示比較歸因模型](assets/compare-attribution.png)
+
+此快速鍵可讓您比較不同的歸因模型，而無須再次拖曳量度和進行設定。
 
 
