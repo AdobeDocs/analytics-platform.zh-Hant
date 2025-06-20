@@ -1,20 +1,25 @@
 ---
 title: 設定 Content Analytics
-description: 如何設定 Content Analytics 的概述
+description: 如何設定 Content Analytics 的概觀
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
+source-git-commit: f149a2bd7f184f4e8f6e67979649e2d9f609d603
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '599'
+ht-degree: 85%
 
 ---
 
 # 設定 Content Analytics
 
-Content Analytics 的設定包括以下步驟：
+本文將以概略的方式說明如何設定Content Analytics。
+
+設定Content Analytics之前，您必須確定符合[必要條件](#prerequisites)、您確實擁有必要的[存取控制](#access-control)，而且您瞭解[限制](#limitations)。
+
+
+高階步驟
 
 ![Content Analytics 設定](../assets/aca-configuration.svg){zoomable="yes"}
 
@@ -60,6 +65,13 @@ Content Analytics 的設定包括以下步驟：
 
 1. 啟用 Content Analytics 的資料視圖包含在特定 Customer Journey Analytics 產品輪廓的資料檢視權限中。
 1. 這個特定的 Customer Journey Analytics 產品輪廓是指派給使用者或使用者群組的產品輪廓之一。
+
+## 限制
+
+用於Content Analytics事件資料的結構描述是系統所擁有。 無法修改系統擁有的結構描述，這表示：
+
+* 您無法加入欄位群組來支援地理位置、機器人偵測或裝置查詢等功能。
+* 您無法新增特定識別碼以支援[欄位式拼接](/help/stitching/fbs.md)。
 
 >[!MORELIKETHIS]
 >

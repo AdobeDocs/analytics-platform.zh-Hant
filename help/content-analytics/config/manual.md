@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
+source-git-commit: a3d974733eef42050b0ba8dcce4ebcccf649faa7
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 70%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >[引導式設定](guided.md)
->[資料收集標記發佈概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)
+>>[資料收集標記發佈概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)
 >
 
 
@@ -87,3 +87,45 @@ window.adobe.getContentExperienceVersion = () => {
   return "1.0";
 };
 ```
+
+## 身分識別
+
+Content Analytics會透過下列方式處理身分：
+
+* ECID會自動填入Content Analytics結構描述的`identityMap`部分。
+* 如果您需要`identityMap`中的其他身分識別值，則需在Web SDK擴充功能的`onBeforeEventSend`回呼中設定這些值。
+* 不支援欄位式拚接，因為結構描述是系統所擁有。 因此，您無法新增其他欄位到結構描述以支援欄位式拼接
+
+
+若要確保Content Analytics身分資料和Adobe Experience Platform Web SDK資料身分資料在欄位層級正確連結，您必須在事件傳送](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}回撥前修改網站SDK [。
+
+1. 導覽至包含Adobe Experience Platform Web SDK擴充功能和Adobe Content Analytics擴充功能的&#x200B;**[!UICONTROL 標籤]**&#x200B;屬性。
+1. 選取![外掛程式](/help/assets/icons/Plug.svg) **[!UICONTROL 擴充功能]**。
+1. 選取&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;擴充功能。
+1. 選取&#x200B;**[!UICONTROL 設定]**。
+1. 在&#x200B;**[!UICONTROL SDK執行個體]**&#x200B;區段中，向下捲動至&#x200B;**[!UICONTROL 資料彙集]** - **[!UICONTROL 開啟，然後事件傳送回呼]**。
+
+   ![在事件傳送回撥之前](/help/content-analytics/assets/onbeforeeventsendcallback.png)
+
+1. 選取&#x200B;**[!UICONTROL &lt;/>在事件傳送回撥程式碼]**&#x200B;前提供。
+1. 新增下列程式碼：
+
+   ```javascript
+   window.adobeContentAnalytics?.forwardEvent(content);
+   
+   content.xdm.identityMap = _satellite.getVar('identityMap');
+   if ((content.xdm.eventType === "content.contentEngagement") && (_satellite.getVar('identityMap') != null)) {
+      return true;
+   }
+   ```
+
+   ![在事件傳送回撥之前](/help/content-analytics/assets/onbeforeeventsendcallbackcode.png)
+
+1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存程式碼。
+1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存副檔名。
+1. [發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)標籤屬性的更新。
+
+
+
+
+
