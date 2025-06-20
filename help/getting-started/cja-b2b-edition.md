@@ -43,7 +43,7 @@ Customer Journey Analytics B2B Edition 透過提供可操作的客戶洞察來�
 >[!MORELIKETHIS]
 >
 >[B2B 概念與特點](cja-b2b-concepts-features.md)
->>[B2B 快速入門指南](cja-b2b-quick-start-guide.md)
->>[B2B轉換指南](cja-b2b-transition.md)
->>[B2B使用案例](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+>&#x200B;>[B2B 快速入門指南](cja-b2b-quick-start-guide.md)
+>&#x200B;>[B2B轉換指南](cja-b2b-transition.md)
+>&#x200B;>[B2B使用案例](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
 >
