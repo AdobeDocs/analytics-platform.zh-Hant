@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
+source-git-commit: 995a2a9250f4ef929890b781b8d55263a04d38a3
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 99%
+source-wordcount: '1263'
+ht-degree: 98%
 
 ---
 
@@ -398,10 +398,11 @@ ht-degree: 99%
    + [使用區段](../report-builder/work-with-filters.md)
    + [篩選器維度](../report-builder/filter-dimensions.md)
    + [管理資料區塊](../report-builder/manage-reportbuilder.md)
-   + [排程活頁簿](../report-builder/schedule-reportbuilder.md)
+   + [排程電子郵件的活頁簿](../report-builder/schedule-reportbuilder.md)
+   + [排程用於雲端匯出的活頁簿](../report-builder/report-builder-export.md)
+   + [管理活頁簿排程](/help/report-builder/manage-schedules-reportbuilder.md)
    + [受限制的標籤](../report-builder/restricted-labels.md)
    + [Report Builder 設定](../report-builder/report-builder-settings.md)
-   + [匯出資料](../report-builder/report-builder-export.md)
 
 
 + 報告活動管理器 {#reporting-activity-manager}

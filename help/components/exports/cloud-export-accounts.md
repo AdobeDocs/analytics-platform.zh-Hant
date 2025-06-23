@@ -5,16 +5,16 @@ title: 設定雲端匯出帳戶
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: cb4c2721867585fd11c0929f0947436872272da6
+source-git-commit: 882e280da3f65e297abccd475d381832fd236843
 workflow-type: tm+mt
-source-wordcount: '2230'
-ht-degree: 26%
+source-wordcount: '2246'
+ht-degree: 28%
 
 ---
 
 # 設定雲端匯出帳戶
 
-在您可以依照[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中的說明將Customer Journey Analytics報表匯出至雲端目的地之前，您必須新增並設定您要傳送資料的目的地。
+在您可以將Customer Journey Analytics報表匯出至雲端目的地(如[將Analysis WorkspaceCustomer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述，或如[從Report BuilderReport Builder匯出報表](/help/report-builder/report-builder-export.md)中所述)之前，您需要新增並設定您要傳送資料的目的地。
 
 此程式包含依照本文所述新增及設定帳戶(例如Amazon S3、Google Cloud Platform等)，然後依照[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)所述，新增及設定該帳戶內的位置（例如帳戶內的資料夾）。
 
@@ -46,7 +46,7 @@ ht-degree: 26%
 
    * 任何人都可以建立共用帳戶的位置。
 
-1. 在&#x200B;[!UICONTROL **帳戶型別**]&#x200B;欄位中，選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake和AEP資料登陸區域。
+1. 在&#x200B;[!UICONTROL **帳戶型別**]&#x200B;欄位中，選取您要匯出的雲端帳戶型別。 可用的帳戶類型包括 Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake 和 AEP Data Landing Zone。
 
 1. 繼續下列對應至您選取之&#x200B;[!UICONTROL **帳戶型別**]&#x200B;的區段。
 
@@ -66,7 +66,7 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->為您的匯出帳戶使用AEP資料登陸區域時，請考慮以下事項：
+>為您的匯出帳戶使用AEP Data Landing Zone時，請考量下列事項：
 >
 > * 將Customer Journey Analytics報表匯出至Adobe Experience Platform資料登陸區域時，請務必在7天內下載資料，然後從AEP資料登陸區域將其刪除。 7天後，資料會自動從AEP資料登陸區域刪除。
 > * AEP資料登陸區域使用Azure或AWS儲存空間。 如果您的組織使用設定為使用Azure的登入公司，則AEP資料登陸區域會使用Azure。 如果登入公司設定為使用AWS，則AEP資料登陸區域會使用AWS。
@@ -78,7 +78,7 @@ ht-degree: 26%
 
    * [從Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)匯出完整資料表時
 
-1. 在&#x200B;**[!UICONTROL 帳戶型別]**&#x200B;欄位中選取&#x200B;**[!UICONTROL AEP資料登陸區域]**&#x200B;之後，請選取&#x200B;[!UICONTROL **儲存**]。
+1. 在&#x200B;**[!UICONTROL 帳戶型別]**&#x200B;欄位中選取&#x200B;**[!UICONTROL AEP資料登陸區域]**&#x200B;後，請選取&#x200B;[!UICONTROL **儲存**]。
 
    視您的AEP資料登陸區域設定為使用Azure或AWS儲存而定，系統會顯示下列任一對話方塊：
 
@@ -92,7 +92,7 @@ ht-degree: 26%
 
      >[!AVAILABILITY]
      >
-     >本節適用於在Amazon Web Services (AWS)上執行的Experience Platform實作。 在AWS上執行的Experience Platform目前可供有限數量的客戶使用。 若要深入瞭解支援的Experience Platform基礎結構，請參閱[Experience Platform多雲端總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud)。
+     >本節適用於在 Amazon Web Services (AWS) 上執行的 Experience Platform 實施。目前，在 AWS 上執行的 Experience Platform 僅為有限數量的客戶開放。若要了解更多有關受支援的 Experience Platform 基礎架構，請參閱「[Experience Platform 多雲端概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud)」。
 
      [!UICONTROL **已建立的帳戶**]&#x200B;對話方塊隨即顯示。
 
@@ -108,13 +108,13 @@ ht-degree: 26%
 
       >[!NOTE]
       >
-      >使用以Azure為基礎的AEP資料登陸區域帳戶時，存取匯出至AEP資料登陸區域之報告的最簡單方式是使用Azure儲存體總管。 下列步驟會使用此方法。
+      >使用以Azure為基礎的AEP資料登陸區域帳戶時，存取匯出至AEP資料登陸區域之報表的最簡單方式，就是使用Azure儲存體總管。 下列步驟會使用此方法。
 
       1. 如果沒有，請下載[Microsoft Azure儲存體總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)。
 
-      1. 在Adobe Experience Platform檔案中，請依照[將您的資料登陸區域容器連線到Azure儲存體總管](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hant#connect-your-data-landing-zone-container-to-azure-storage-explorer)中所述的步驟操作。
+      1. 在Adobe Experience Platform檔案中，請依照[將您的資料登陸區域容器連線到Azure儲存體總管](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer)中所述的步驟操作。
 
-         您可以略過[擷取資料登陸區域的認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hant#retrieve-dlz-credentials)和[更新資料登陸區域認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hant#update-dlz-credentials)小節中說明的工作，因為您複製的URI包含這些認證。
+         您可以略過[擷取資料登陸區域的認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials)和[更新資料登陸區域認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials)小節中說明的工作，因為您複製的URI包含這些認證。
 
       1. 遵循Adobe Experience Platform檔案並前往&#x200B;[!UICONTROL **Blob容器SAS URL**]&#x200B;欄位時，請貼上您在步驟3中複製的SAS URI。
 
@@ -132,7 +132,7 @@ ht-degree: 26%
 
 1. （視條件而定）如果您正在使用AWS儲存空間：
 
-   1. 將以下欄位的內容複製到剪貼簿(您將使用此資訊來存取從Analysis Workspace從AEP資料登陸區域匯出的資料)：
+   1. 將下列欄位的內容複製到剪貼簿(您將使用此資訊來存取從Analysis Workspace從AEP資料登陸區域匯出的資料)：
 
       * [!UICONTROL **存取金鑰識別碼**]
 
@@ -218,8 +218,8 @@ ht-degree: 26%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
    | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS URI 的路徑。若要設定 Azure SAS，需要使用 Azure Key Vault 將 SAS URI 儲存為密碼。若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。</p><p>建立金鑰保存庫 URI 後：<ul><li>在 Key Vault 上新增存取權原則，以便向您建立的 Azure 應用程式授予權限。<p><p>若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何指定 Key Vault 存取權原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)」。</p>或</p><p>如果您要直接授與存取角色而不建立存取原則，請參閱[Microsoft Azure檔案，瞭解如何使用Azure入口網站](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)指派Azure角色。 這會新增應用程式ID的角色指派，以存取金鑰儲存庫URI。 </p></li><li>確保已將應用程式 ID 授予 `Key Vault Certificate User` 內建角色，以便存取金鑰保存庫 URI。</br><p>若要了解更多資訊，請參閱「[Azure 內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)」。</p></li></ul> |
    | [!UICONTROL **金鑰保存庫祕密名稱**] | 您將密碼新增至 Azure Key Vault 時建立的密碼名稱。在 Microsoft Azure 中，此資訊位於您建立的 Key Vault 中，位於 **Key Vault** 設定頁面。若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。 |
    | [!UICONTROL **位置帳戶密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。如需詳細資訊，請參閱[Microsoft Azure檔案，瞭解如何向Microsoft身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。<!-- need to grant permission to the bucket. Jun will send info on where that is documented) --> |
@@ -250,8 +250,8 @@ ht-degree: 26%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
    | [!UICONTROL **位置帳戶密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
    {style="table-layout:auto"}
@@ -280,9 +280,9 @@ ht-degree: 26%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **帳戶識別碼**] | 可唯一識別組織內，以及Snowflake支援的雲端平台和雲端區域的全球網路中的Snowflake帳戶。 <p>您必須從Snowflake帳戶取得帳戶識別碼，然後在此處貼上資訊。</p><p>若要瞭解從何處取得此資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/user-guide/admin-account-identifier)中的帳戶識別碼頁面。</p> |
-   | [!UICONTROL **使用者**] | 用於連線的使用者登入名稱。 我們建議您建立專門用於Adobe的新使用者。 在此處指定名稱，然後以Snowflake建立具有相同名稱的使用者。 您可以使用`CREATE USER`命令在Snowflake中建立使用者。  <p>如需詳細資訊，請參閱[使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role)。</p> |
-   | [!UICONTROL **角色**] | 將指派給使用者的角色。 我們建議您建立專門用於Adobe的新角色。 在此處指定角色，然後以相同名稱在Snowflake中建立角色，並將角色授予使用者。 您可以使用`CREATE ROLE`命令在Snowflake中建立角色。 <p>如需詳細資訊，請參閱[使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role)。</p> |
+   | [!UICONTROL **帳戶識別碼**] | 唯一識別組織內，以及遍及由Snowflake支援的雲端平台和雲端區域組成的全球網路中的Snowflake帳戶。 <p>您必須從Snowflake帳戶取得帳戶識別碼，然後在此處貼上資訊。</p><p>若要瞭解從何處取得此資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/user-guide/admin-account-identifier)中的[帳戶識別碼頁面。</p> |
+   | [!UICONTROL **使用者**] | 用於連線的使用者登入名稱。 我們建議您建立專門用於Adobe的新使用者。 在此處指定名稱，然後在Snowflake中建立具有相同名稱的使用者。 您可以使用`CREATE USER`命令在Snowflake中建立使用者。  <p>如需詳細資訊，請參閱[使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role)。</p> |
+   | [!UICONTROL **角色**] | 將指派給使用者的角色。 我們建議您建立專門用於Adobe的新角色。 在此處指定角色，然後在Snowflake中建立相同名稱的角色，並將該角色授予使用者。 您可以使用`CREATE ROLE`命令在Snowflake中建立角色。 <p>如需詳細資訊，請參閱[使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role)。</p> |
 
    {style="table-layout:auto"}
 
@@ -296,13 +296,13 @@ ht-degree: 26%
 
    在Snowflake中使用公開金鑰來連線至您的Snowflake帳戶。 您必須將您建立的使用者與此公開金鑰建立關聯。
 
-   例如，在Snowflake中，指定下列指令：
+   例如，在Snowflake中，指定下列命令：
 
    ```
    CREATE USER <your_adobe_user> RSA_PUBLIC_KEY = '<your_public_key>';
    ```
 
-   如需詳細資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/user-guide/key-pair-auth)中的金鑰組驗證與金鑰組輪換頁面。
+   如需詳細資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/user-guide/key-pair-auth)中的[金鑰組驗證與金鑰組輪換頁面。
 
 1. 選取&#x200B;[!UICONTROL **確定**]。
 

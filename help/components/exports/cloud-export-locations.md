@@ -5,16 +5,16 @@ title: 設定雲端匯出位置
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: ec8f6c3c8cc1c0b12821e3b61fbef9f5fe875258
+source-git-commit: 882e280da3f65e297abccd475d381832fd236843
 workflow-type: tm+mt
-source-wordcount: '1888'
+source-wordcount: '1915'
 ht-degree: 20%
 
 ---
 
 # 設定雲端匯出位置
 
-在您可以依照[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中的說明將Customer Journey Analytics報表匯出至雲端目的地之前，您需要新增並設定資料所要傳送的位置。
+在您可以將Customer Journey Analytics報表匯出至雲端目的地(如[將Analysis Workspace報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述，或如[從Report Builder匯出報表](/help/report-builder/report-builder-export.md)中所述，從Report Builder匯出Customer Journey Analytics報表)如[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述，之前，您需要新增並設定資料所要傳送的位置。
 
 此程式包括新增及設定帳戶(例如Amazon S3、Google Cloud Platform等)，如[設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)中所述，然後新增及設定該帳戶內的位置（例如帳戶內的資料夾），如本文所述。
 
@@ -38,7 +38,7 @@ ht-degree: 20%
 
    「位置」對話方塊隨即顯示。
 
-1. 指定下列資訊：
+1. 註明下列資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
@@ -84,15 +84,15 @@ ht-degree: 20%
 
 1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱[將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。
 
-1. 在AEP資料登陸區域中存取資料的最簡單方式是使用Microsoft Azure Storage Explorer。 此工具與設定[AEP資料登陸區域帳戶](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)的指示中所使用的工具相同。
+1. 在AEP資料登陸區域中存取資料的最簡單方式，是使用Microsoft Azure儲存體總管。 此工具與設定[AEP資料登陸區域帳戶](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)的指示中所使用的工具相同。
 
    1. 開啟[Microsoft Azure儲存體總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)。
 
-   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***。
+   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***。
 
       >[!NOTE]
       >
-      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**&#x200B;是Azure儲存體總管提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
+      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**是Azure儲存體總管提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
 
 
       ![存取Azure儲存體總管中的檔案](assets/azure-storage-explorer-access.png)
@@ -113,7 +113,7 @@ ht-degree: 20%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **貯體**] | 您想要將Customer Journey Analytics資料傳送至的Amazon S3帳戶中的貯體。 <p>請確定Adobe提供的使用者ARN具有`S3:PutObject`許可權，以便上傳檔案至此儲存貯體。 </p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **貯體**] | 您想要將Customer Journey Analytics資料傳送至的Amazon S3帳戶中的貯體。 <p>請確定Adobe提供的使用者ARN具有`S3:PutObject`許可權，才能將檔案上傳至此儲存貯體。 </p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如，folder_name/ |
 
    {style="table-layout:auto"}
@@ -134,7 +134,7 @@ ht-degree: 20%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **貯體**] | 您想要傳送Customer Journey Analytics資料的GCP帳戶中的貯體。 <p>確定您已授予`roles/storage.objectCreator`許可權給Adobe提供的主體。 ([設定Google Cloud Platform帳戶](/help/components/exports/cloud-export-accounts.md)時提供主體。) <p>有關授予權限的資訊，請參閱 Google Cloud 文件中的「[新增主體至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)」。</p><p>如果您的組織使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)僅允許在允許清單中的 Google Cloud Platform 帳戶，則您需要以下 Adobe 擁有的 Google Cloud Platform 組織 ID： <ul><li>`DISPLAY_NAME`：`adobe.com`</li><li>`ID`：`178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`：`C02jo8puj`</li></ul> </p> |
+   | [!UICONTROL **貯體**] | 您想要將Customer Journey Analytics資料傳送至的GCP帳戶中的貯體。 <p>確定您已授予Adobe提供之主體的`roles/storage.objectCreator`許可權。 ([設定Google Cloud Platform帳戶](/help/components/exports/cloud-export-accounts.md)時提供主體。) <p>有關授予權限的資訊，請參閱 Google Cloud 文件中的「[新增主體至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)」。</p><p>如果您的組織使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)僅允許在允許清單中的 Google Cloud Platform 帳戶，則您需要以下 Adobe 擁有的 Google Cloud Platform 組織 ID： <ul><li>`DISPLAY_NAME`：`adobe.com`</li><li>`ID`：`178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`：`C02jo8puj`</li></ul> </p> |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如，folder_name/ |
 
    {style="table-layout:auto"}
@@ -155,7 +155,7 @@ ht-degree: 20%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **容器名稱**] | 您指定要將Customer Journey Analytics資料傳送到的帳戶中的容器。 |
+   | [!UICONTROL **容器名稱**] | 您指定要將Customer Journey Analytics資料傳送至何處的帳戶中的容器。 |
    | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/`<p>確保設定 Azure SAS 帳戶時，在 Key Vault 密碼名稱欄位中指定的 SAS 權杖儲存體擁有`Write`權限。這樣可讓 SAS 權杖在您的 Azure 容器中建立檔案。 <p>如果您希望 SAS 權杖也覆寫檔案，請確保 SAS 權杖儲存體擁有`Delete`權限。</p><p>有關詳細資訊，請參閱 Azure Blob 儲存文件中的「[Blob 儲存資源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)」 。</p> |
 
    {style="table-layout:auto"}
@@ -176,7 +176,7 @@ ht-degree: 20%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **容器**] | 您指定要將Customer Journey Analytics資料傳送到的帳戶中的容器。 確保您授予權限可上傳檔案至先前已建立的 Azure 應用程式。 |
+   | [!UICONTROL **容器**] | 您指定要將Customer Journey Analytics資料傳送至何處的帳戶中的容器。 確保您授予權限可上傳檔案至先前已建立的 Azure 應用程式。 |
    | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/`<p>確保設定 Azure RBAC 帳戶時，您所指定的應用程式 ID 已獲得 `Storage Blob Data Contributor` 角色授權，以便該角色可存取容器 (資料夾)。</p> <p>若要了解更多資訊，請參閱「[Azure 內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)」。</p> |
    | [!UICONTROL **帳戶**] | Azure儲存體帳戶。 |
 
@@ -198,10 +198,10 @@ ht-degree: 20%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **資料庫**] | 指定的資料庫應為現有資料庫。 您建立的角色必須具備存取此資料庫的許可權。<p>這是與階段名稱關聯的資料庫。</p><p>您可以使用下列命令將此角色許可權授與Snowflake中的資料庫： `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>如需詳細資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/sql-reference/commands-database)中的資料庫、結構描述和共用命令頁面。</p> |
-   | [!UICONTROL **綱要**] | 指定的結構描述應該是現有的結構描述。 您建立的角色必須具備存取此綱要的許可權。<p>這是與階段名稱關聯的結構描述。<p>您可以使用下列命令，將您建立的許可權授與Snowflake中的結構描述： `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>如需詳細資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/sql-reference/commands-database)中的資料庫、結構描述和共用命令頁面。</p> |
-   | [!UICONTROL **階段名稱**] | 以Snowflake儲存資料檔案的內部階段名稱。<p>請確定您在帳戶中指定的角色具有此階段名稱的讀取和寫入許可權。 (由於您正在授與讀取和寫入存取權，我們建議您使用僅由Adobe使用的階段。)<p>您可以使用以下命令授予Snowflake中階段名稱的讀取和寫入許可權： `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>如需授與許可權給角色的相關資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege)中的[授與許可權。 <p>如需階段名稱的詳細資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage)中的選擇本機檔案的內部階段頁面。</p> |
-   | [!UICONTROL **階段路徑**] | 資料檔以Snowflake儲存所在位置的路徑。 <p>如需詳細資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage)中的選擇本機檔案的內部階段頁面。</p> |
+   | [!UICONTROL **資料庫**] | 指定的資料庫應為現有資料庫。 您建立的角色必須具備存取此資料庫的許可權。<p>這是與階段名稱關聯的資料庫。</p><p>您可以使用以下命令將此角色許可權授與Snowflake中的資料庫： `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>如需詳細資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/sql-reference/commands-database)中的[資料庫、結構描述和共用命令頁面。</p> |
+   | [!UICONTROL **結構描述**] | 指定的結構描述應該是現有的結構描述。 您建立的角色必須具備存取此綱要的許可權。<p>這是與階段名稱關聯的結構描述。<p>您可以使用以下命令將您建立的許可權授與Snowflake中的結構描述： `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>如需詳細資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/sql-reference/commands-database)中的[資料庫、結構描述和共用命令頁面。</p> |
+   | [!UICONTROL **階段名稱**] | 在Snowflake中儲存資料檔案的內部階段名稱。<p>請確定您在帳戶中指定的角色具有此階段名稱的讀取和寫入許可權。 (由於您正在授與讀取和寫入存取權，建議您使用僅由Adobe使用的階段。)<p>您可以使用以下命令授予Snowflake中階段名稱的讀取和寫入許可權： `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>如需有關授與許可權給角色的資訊，請參閱Snowflake檔案中的[授與許可權](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege)。 <p>如需階段名稱的詳細資訊，請參閱Snowflake檔案中的[選擇本機檔案的內部階段頁面](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage)。</p> |
+   | [!UICONTROL **階段路徑**] | 資料檔在Snowflake中儲存位置的路徑。 <p>如需詳細資訊，請參閱Snowflake檔案中的[選擇本機檔案的內部階段頁面](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage)。</p> |
 
    {style="table-layout:auto"}
 

@@ -6,14 +6,14 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
+source-git-commit: 9505f21748b3d94b2398f898e5399d095ccec260
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 13%
+source-wordcount: '864'
+ht-degree: 15%
 
 ---
 
-# 排程活頁簿
+# 透過電子郵件共用排程活頁簿
 
 儲存活頁簿並完成分析後，您可以使用排程功能與團隊中的其他人共用活頁簿。 排程功能可讓您建立排程，自動重新整理活頁簿中的資料。 並在特定日期與時間，以電子郵件的形式將Excel活頁簿檔案傳送給指定對象。 設定排程會自動為收件者提供定期更新。 您也可以使用排程功能來傳送一次活頁簿，而不排程自動更新。
 
@@ -102,7 +102,7 @@ ht-degree: 13%
 
 1. 選取&#x200B;**[!UICONTROL 顯示排程選項]**&#x200B;以定義排程。
 
-1. 輸入從&#x200B;**開始的**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
+1. 輸入從&#x200B;]**開始的**[!UICONTROL &#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
 
 1. 在&#x200B;**[!UICONTROL 結束日期]**&#x200B;中輸入結束日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選結束日期。
 
@@ -129,54 +129,7 @@ ht-degree: 13%
 
 若要取消傳送活頁簿，請選取&#x200B;**[!UICONTROL 取消]**。
 
+## 管理排程活頁簿
 
-## 檢視及管理排程活頁簿
+如需有關管理已排程活頁簿的資訊，請參閱[管理已排程活頁簿](/help/report-builder/manage-schedules-reportbuilder.md)。
 
-您可以在&#x200B;**[!UICONTROL 活頁簿]**&#x200B;索引標籤中檢視及管理所有排程活頁簿。
-
-1. 在Report Builder中心選取&#x200B;**[!UICONTROL 排程]**
-
-1. 選取&#x200B;**[!UICONTROL 活頁簿]**&#x200B;索引標籤。 您會看到所有排程活頁簿的清單。
-
-   ![排程活頁簿](assets/scheduled-workbooks.png){zoomable="yes"}
-
-   您可以將滑鼠停留在圖示上，以檢視排程活頁簿的狀態。
-
-   使用![搜尋](/help/assets/icons/Search.svg)來搜尋特定的排程活頁簿。
-使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)定義要顯示哪些欄。
-
-1. 選取一或多個活頁簿。
-
-   ![排程選取的活頁簿](assets/scheduled-workbooks-selected.png){zoomable="yes"}
-
-   提供下列選項：
-
-   | 選項 | 說明 |
-   |---|---|
-   | ![編輯](/help/assets/icons/Edit.svg) | 編輯所選活頁簿的排程。 |
-   | ![歷程記錄](/help/assets/icons/History.svg) | 顯示所選活頁簿的歷史記錄。 |
-   | ![暫停](/help/assets/icons/Pause.svg) | 暫停所選活頁簿的排程。 |
-   | ![播放](/help/assets/icons/Play.svg) | 繼續所選活頁簿的排程。 |
-   | ![下載](/help/assets/icons/Download.svg) | 將選取的活頁簿下載至新活頁簿中。 |
-   | ![刪除](/help/assets/icons/Delete.svg) | 刪除所選活頁簿的排程。 |
-
-
-## 排程活頁簿的歷史記錄和狀態
-
-您可以在&#x200B;**[!UICONTROL 歷程記錄]**&#x200B;索引標籤中檢視排程活頁簿的歷史記錄和狀態。
-
-1. 在Report Builder中心選取&#x200B;**[!UICONTROL 排程]**。
-
-1. 選取「**[!UICONTROL 歷程記錄]**」標籤。 您會看到所有排程活頁簿的清單。
-
-   ![排程歷程記錄](assets/scheduled-workbooks-history.png){zoomable="yes"}
-
-   使用![搜尋](/help/assets/icons/Search.svg)來搜尋清單中的特定活頁簿。
-使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)定義要顯示哪些欄。
-
-   **[!UICONTROL 歷程記錄]**&#x200B;索引標籤可讓您檢閱每個排程工作的狀態。 個別的列會記錄每個排程任務的狀態變更。
-
-   * ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg)表示活頁簿已成功傳送。
-   * ![AlertRed](/help/assets/icons/AlertRed.svg)表示發生錯誤。
-
-或者，您也可以在&#x200B;**[!UICONTROL 活頁簿]**&#x200B;索引標籤中，為一個或多個選取的活頁簿選取![歷程記錄](/help/assets/icons/History.svg)。 此動作顯示&#x200B;**[!UICONTROL History]**&#x200B;索引標籤，其中包含依您的選取範圍篩選的清單。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除篩選器。
