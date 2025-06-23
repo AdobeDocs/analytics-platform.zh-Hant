@@ -5,10 +5,10 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 9505f21748b3d94b2398f898e5399d095ccec260
+source-git-commit: e653cbe7c1955d04830b9ed9ff6399973036ab64
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 39%
+source-wordcount: '1304'
+ht-degree: 38%
 
 ---
 
@@ -119,12 +119,6 @@ ht-degree: 39%
 * **資料區塊：**&#x200B;所有資料區塊都必須包含欄、列或值的至少一個元件。
 
 * **環境：** 確保 Customer Journey Analytics 所用的 [IP 位址](/help/technotes/ip-addresses.md)和[網域](/help/technotes/domains.md)都可以通過其組織的防火牆。
-
-* **權限：** 在 Adob&#x200B;&#x200B;e Admin Console 中，必須為使用者指派一個具備被指派 [!UICONTROL **完整表格匯出**]&#x200B;權限的設定檔，以便使用者可以匯出完整表格。有關在 Admin Console 中為產品設定檔指派權限的資訊，請參閱「[Admin Console 中的 Customer Journey Analytics 權限](/help/technotes/access-control.md)。
-
-  >[!NOTE]
-  >
-  >  獲指派[產品管理員角色](/help/technotes/access-control.md#product-admin-role)的使用者一律可以從Report Builder匯出報告。 **(這是否適用於Report Builder???)**
 
 
 
