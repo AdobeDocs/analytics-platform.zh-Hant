@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # Customer Journey Analytics護欄
 
-本檔案提供Customer Journey Analytics各種元件的限制。 如需護欄、範圍設定引數和權益，請參閱[Customer Journey Analytics的產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html)、[Adobe Analytics附加元件的產品說明： Customer Journey Analytics](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)，或Customer Journey Analytics B2B edition[&#128279;](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html)的產品說明。
+本檔案提供Customer Journey Analytics各種元件的限制。 如需護欄、範圍設定引數和權益，請參閱[Customer Journey Analytics的產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html)、[Adobe Analytics附加元件的產品說明： Customer Journey Analytics](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)，或Customer Journey Analytics B2B edition[&#128279;](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics-b2b.html)的產品說明。
 
 ## 限制型別
 
@@ -139,7 +139,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
+另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
 
 
 ## 目的地資料匯出
@@ -151,7 +151,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
+另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## 資料登陸區域
@@ -252,7 +252,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 >[!NOTE]
 >
->以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
+>以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
 
 | 資料流程 | 預期延遲 |
 |---|---|
