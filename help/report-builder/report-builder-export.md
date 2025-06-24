@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: e653cbe7c1955d04830b9ed9ff6399973036ab64
+exl-id: 1d5d87d8-1920-406b-8cce-41b89b7ae70b
+source-git-commit: 5a0cb6fa221282b70df5efb58362855ff58f76b8
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 38%
 
 ---
-
 
 # 透過匯出至雲端目的地來排程活頁簿
 
@@ -35,7 +35,7 @@ ht-degree: 38%
 
 ![步驟1到4中所述的匯出程式。](assets/report-builder-export-process.png)
 
-## 從Report Builder匯出報告 {#export-from-report-builder}
+## 從Report Builder匯出報告
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ ht-degree: 38%
 
 從 Analysis Workspace 匯出資料後，您可以編輯、重新匯出、複製、標記或刪除現有匯出，如[管理匯出](/help/components/exports/manage-exports.md)中所述。
 
-## 匯出至雲端的優點 {#advantages}
+## 匯出至雲端的優點
 
 將 Customer Journey Analytics 資料匯出至雲端可讓您：
 
@@ -119,6 +119,3 @@ ht-degree: 38%
 * **資料區塊：**&#x200B;所有資料區塊都必須包含欄、列或值的至少一個元件。
 
 * **環境：** 確保 Customer Journey Analytics 所用的 [IP 位址](/help/technotes/ip-addresses.md)和[網域](/help/technotes/domains.md)都可以通過其組織的防火牆。
-
-
-
