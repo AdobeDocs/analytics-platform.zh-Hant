@@ -4,10 +4,10 @@ title: 快速區段
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
+source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 91%
+source-wordcount: '1187'
+ht-degree: 85%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 91%
 使用拖放動作來建立快速區段時，請注意：
 
 * 並非所有元件類型都受支援。計算量度不受支援，僅有建置區段的維度和量度受支援。
-* 對於維度和量度元件，[快速區段產生器](#quick-segment-builder)會自動建立 `exists` 條件。例如，如果您拖放 `City`，則 `City exists` 條件就會建立。
-* 對於維度值，[快速區段產生器](#quick-segment-builder)會自動建立 `equals` 條件。例如，如果您從 `City` 維度拖放 `amsterdam`，則 `City equals amsterdam` 條件就會建立。
-* 如果您拖放 `unspecified` 或 `none`，[快速區段產生器](#quick-segment-builder)會自動建立一個 `does not exist` 條件。
+* 對於維度和量度元件，[快速區段產生器](#quick-segment-builder)會自動建立 `exists` 條件。例如，如果您拖放&#x200B;**[!UICONTROL City]**，則會建立條件&#x200B;**[!UICONTROL City]** **[!UICONTROL 存在]**。
+* 對於維度值，[快速區段產生器](#quick-segment-builder)會自動建立&#x200B;**[!UICONTROL 等於]**&#x200B;條件。 例如，如果您從&#x200B;**[!UICONTROL 城市]**&#x200B;維度清單拖放&#x200B;**[!UICONTROL 阿姆斯特丹]**，就會建立條件&#x200B;**[!UICONTROL 城市]** **[!UICONTROL 等於]** `Amsterdam`。
+* 如果您拖放&#x200B;**[!UICONTROL 未指定]**&#x200B;或&#x200B;**[!UICONTROL 無]**，[快速區段產生器](#quick-segment-builder)會自動建立&#x200B;**[!UICONTROL 不存在]**&#x200B;狀況。
 
 您建立的快速區段會出現在面板頂部。快速區段左邊有一個淺藍色長條。當使用[快速區段產生器](#quick-segment-builder)，而快速區段處於編輯模式時，快速區段的背景為淺藍色。
 
@@ -61,7 +61,7 @@ ht-degree: 91%
 
 ## 快速區段產生器
 
-請參閱下面的快速區段產生器範例。在範例中，開啟產生器以快速產生標題為 `Call Reason = Order Change AND Online Orders is greater than or equal 1` 的區段。上方的兩個快速區段均適用於「[!UICONTROL 平均訂購值儀表板]」面板及其中所有視覺效果，例如「[!UICONTROL 每個國家/地區的平均訂購值]」自由格式表格。
+請參閱下面的快速區段產生器範例。在範例中，開啟產生器以快速產生標題為 `Call Reason = Order Change AND Online Orders is greater than or equal 1` 的區段。上方的兩個快速區段均適用於「**[!UICONTROL 平均訂購值儀表板]**」面板及其中所有視覺效果，例如「[!UICONTROL 每個國家/地區的平均訂購值]」自由格式表格。
 
 ![快速區段產生器](assets/quick-filter-builder.png)
 
@@ -74,7 +74,7 @@ ht-degree: 91%
 | 元素 | 說明 |
 |---|---|
 | **[!UICONTROL 名稱]** | 該名稱是從快速區段定義自動衍生。 |
-| **[!UICONTROL 人員]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![警報](/help/assets/icons/Alert.svg) | 預覽快速區段所得的資料。透過長條圖和百分比可以了解整體資料中有多少是快速區段結果的一部分。紅色![警報](/help/assets/icons/Alert.svg)表示快速區段未回傳資料。 |
+| **[!UICONTROL 人員]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![警報](/help/assets/icons/Alert.svg) | 預覽快速區段所得的資料。透過長條圖和百分比可以了解整體資料中有多少是快速區段結果的一部分。![警報](/help/assets/icons/AlertRed.svg)表示快速區段未傳回資料。 |
 | **[!UICONTROL 包括]**<br/>**[!UICONTROL 排除]** | 從下拉式清單![V形](/help/assets/icons/ChevronDown.svg)中選取是否要從面板中的資料包含或排除快速區段的結果。 |
 | **[!UICONTROL 事件]**<br/>**[!UICONTROL 工作階段]**<br/>**[!UICONTROL 人員]** | 從下拉式功能表中選取![V形向下鍵](/help/assets/icons/ChevronDown.svg)快速區段的範圍。 |
 

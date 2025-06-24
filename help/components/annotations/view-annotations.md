@@ -4,16 +4,16 @@ description: 如何在 Workspace 中檢視註解。
 role: User
 feature: Components
 exl-id: c0e4fb37-b20c-463c-b29a-310ca3adb2c7
-source-git-commit: e04f07ba674ed55c53888d5c606ecb4d4aa5ffe5
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 90%
 
 ---
 
 # 檢視註解
 
-根據註解跨越一天還是跨越日期範圍，註解的體現方式略有不同。
+根據註解出現的位置以及橫跨一天還是日期範圍，註解的體現方式略有不同。
 
 ## 在折線圖或表格中檢視註解
 

@@ -4,7 +4,7 @@ title: 新增元件說明
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 14%
@@ -32,5 +32,5 @@ Analysis Workspace中的資料字典可協助使用者和管理員追蹤及更�
 >[!MORELIKETHIS]
 >
 >[資料檢視元件設定](/help/data-views/component-settings/overview.md)
->[資料字典元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[資料字典元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

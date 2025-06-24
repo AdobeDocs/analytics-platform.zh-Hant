@@ -1,18 +1,18 @@
 ---
 description: 了解 Workspace 資料夾
 keywords: Analysis Workspace
-title: 資料夾總覽
+title: 資料夾概觀
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 8571fbcfddd18658306e264cef88a3f10861e069
-workflow-type: ht
-source-wordcount: '416'
+source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+workflow-type: tm+mt
+source-wordcount: '413'
 ht-degree: 100%
 
 ---
 
-# Analysis Workspace 中的關於資料夾
+# 資料夾概觀
 
 當您已選取[顯示資料夾和專案](../freeform-overview.md#show-selector)時，可以在 Workspace 登陸頁面上使用 Customer Journey Analytics 資料夾。
 
