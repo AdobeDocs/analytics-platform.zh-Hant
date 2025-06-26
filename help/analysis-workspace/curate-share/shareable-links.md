@@ -5,16 +5,16 @@ title: 建立分享連結
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 4942c83e34b129e3718084601d5a733bcebf4de9
+source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 61%
+source-wordcount: '369'
+ht-degree: 58%
 
 ---
 
 # 建立分享連結
 
-Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專案連結或專案特定部分的功能。有些連結型別會要求收件者在存取專案前先登入Customer Journey Analytics，有些則否。
+Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專案連結或專案特定部分的功能。有些連結型別會要求收件者先登入Customer Journey Analytics才能存取專案，有些則否。
 
 ## 取得專案連結，與其他 Workspace 使用者共用 {#project-link}
 
@@ -24,9 +24,9 @@ Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專�
 
 ## 取得唯讀連結，與任何人共用
 
-您可以與沒有Customer Journey Analytics存取許可權的人共用Analysis Workspace專案的唯讀連結。
+您可以與無法存取Analysis Workspace的人共用指向Customer Journey Analytics專案的唯讀連結。
 
-如需更多資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)文章中的「與任何人共用專案 (無需登入)」。
+如需詳細資訊，請參閱[與任何人共用](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)。
 
 ## 取得面板或視覺效果連結 {#panel-link}
 
@@ -37,7 +37,7 @@ Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專�
 
 [觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=zh-Hant)以了解如何建立連結，並使用連結引導收件者前往專案的特定部分。
 
-![在標頭上按一下滑鼠右鍵，並反白顯示「取得視覺效果連結」後，下拉式功能表。](assets/get-viz-link.png)
+![在標頭上按一下滑鼠右鍵，並反白顯示「取得視覺效果連結」後，下拉式功能表。](assets/get-visualization-link.png)
 
 ## 在目錄中使用連結 {#TOC}
 
