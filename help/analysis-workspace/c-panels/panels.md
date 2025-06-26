@@ -4,14 +4,20 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
-workflow-type: ht
-source-wordcount: '2129'
-ht-degree: 100%
+source-git-commit: 746e03bc94fe3ad83ea5487a6cd3da2089695017
+workflow-type: tm+mt
+source-wordcount: '2142'
+ht-degree: 99%
 
 ---
 
-# 面板概觀
+# 面板概觀 {#panels-overview}
+
+>[!CONTEXTUALHELP]
+>id="workspace_panel_realtime_refresh"
+>title="即時重新整理"
+>abstract="啟用以即時重新整理此面板中的資料和視覺效果。"
+
 
 [!UICONTROL 面板]是表格與視覺效果的集合。您可以從 Workspace 左上角的圖示或[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)來存取面板。若您想要根據時段、資料檢視或分析使用案例來組織專案時，面板會很有幫助。
 
