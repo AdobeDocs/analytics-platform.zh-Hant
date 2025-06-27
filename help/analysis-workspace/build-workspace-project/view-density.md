@@ -1,13 +1,13 @@
 ---
-description: 了解如何調整 Analysis Workspace 中的檢視密度。
+description: 瞭解如何在Analysis Workspace中調整專案的檢視密度。
 title: 檢視密度
 feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
 role: User
-source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 91%
+source-wordcount: '112'
+ht-degree: 80%
 
 ---
 

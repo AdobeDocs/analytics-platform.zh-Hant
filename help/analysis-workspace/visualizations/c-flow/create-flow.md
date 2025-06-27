@@ -1,12 +1,12 @@
 ---
-description: 瞭解如何在Workspace專案中使用流量視覺效果。
-title: 如何設定流量視覺效果
+description: 瞭解如何在Analysis Workspace中設定流量視覺效果
+title: 設定流量視覺效果
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: a7350b6fc8fa75de07238543ed0db48af42b7577
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1732'
 ht-degree: 85%
 
 ---
@@ -174,7 +174,7 @@ ht-degree: 85%
 | **[!UICONTROL 排除項目]**&#x200B;或&#x200B;**[!UICONTROL 還原排除項目]** | 從欄中移除特定節點，並自動將其建立為欄頂端的篩選器。若要還原排除項目，請從內容選單選取「**[!UICONTROL 還原排除項目]**」。您也可以開啟欄頂端的區段，並移除包含您剛剛排除的專案的Pillbox。 |
 | **[!UICONTROL 趨勢]** | 建立節點的趨勢圖。 |
 | **[!UICONTROL 顯示下一欄]**/**[!UICONTROL 顯示上一欄]** | 顯示視覺效果下一欄 (右邊) 或上一欄 (左邊)。 |
-| **[!UICONTROL 隱藏欄]**&#x200B;n | 隱藏視覺效果的選取欄。 |
+| **[!UICONTROL 隱藏欄]**n | 隱藏視覺效果的選取欄。 |
 | **[!UICONTROL 展開整個欄]** | 展開該欄以顯示所有節點。依預設，只會顯示前五個節點。 |
 | **[!UICONTROL 從選取項目中建立客群]** | 根據選取欄建立客群。 |
 | **[!UICONTROL 摺疊整個欄]** | 隱藏該欄中的所有節點。 |
@@ -201,7 +201,7 @@ ht-degree: 85%
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

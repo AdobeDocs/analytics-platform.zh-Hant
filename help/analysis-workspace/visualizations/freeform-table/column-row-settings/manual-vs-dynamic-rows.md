@@ -1,19 +1,19 @@
 ---
-title: 動態與靜態維度專案
-description: 如何與表格中的動態和靜態維度項目互動
+title: 動態和靜態Dimension專案
+description: 瞭解如何在Analysis Workspace的自由格式表格中使用動態與靜態維度專案。
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 93%
+source-wordcount: '544'
+ht-degree: 88%
 
 ---
 
 # 動態與靜態維度項目
 
-在自由格式表格中，列和欄可以包含各種元件值。這些值可以是動態 (隨時間變更) 或靜態 (不隨時間變更)，取決於您要建置的分析。
+在自由表格中，列和欄可以包含各種元件值。 這些值可以是動態 (隨時間變更) 或靜態 (不隨時間變更)，取決於您要建置的分析。
 
 ## 動態維度項目
 

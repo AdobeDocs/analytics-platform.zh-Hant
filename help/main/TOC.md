@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 98%
+source-wordcount: '1253'
+ht-degree: 99%
 
 ---
 
@@ -173,12 +173,13 @@ ht-degree: 98%
       + [開啟專案](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [針對專案發表評論](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [儲存專案](../analysis-workspace/build-workspace-project/save-projects.md)
+      + [目錄](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace 資料夾 {#workspace-folders}
-         + [關於資料夾](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [建立資料夾和子資料夾](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [概觀](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [建立資料夾](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [管理資料夾](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [將專案新增或移動至資料夾](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [快捷鍵 (快速鍵)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+         + [新增或移動專案](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+      + [快捷鍵](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](../analysis-workspace/build-workspace-project/view-density.md)
    + 範本 {#templates}
@@ -195,8 +196,8 @@ ht-degree: 98%
             + [欄設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [篩選和排序表格](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Workspace 總計](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [篩選和排序](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [總計](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [概觀](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -232,7 +233,7 @@ ht-degree: 98%
       + [文氏圖表](../analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
       + [概觀](../analysis-workspace/c-panels/panels.md)
-      + [空白面板](../analysis-workspace/c-panels/blank-panel.md)
+      + [空白](../analysis-workspace/c-panels/blank-panel.md)
       + [歸因](../analysis-workspace/c-panels/attribution.md)
       + [實驗](../analysis-workspace/c-panels/experimentation.md)
       + [自由格式](../analysis-workspace/c-panels/freeform-panel.md)
@@ -260,7 +261,6 @@ ht-degree: 98%
       + [概觀](../analysis-workspace/c-forecast/forecasting.md)
       + [檢視預測](../analysis-workspace/c-forecast/view-forecasts.md)
       + [統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md)
-   + [目錄](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [使用者偏好設定](../analysis-workspace/user-preferences.md)
    + 工作區常見問題及更多資訊 {#workspace-faq}
       + [常見問題](../analysis-workspace/workspace-faq/faq.md)
@@ -398,8 +398,8 @@ ht-degree: 98%
    + [使用區段](../report-builder/work-with-filters.md)
    + [篩選器維度](../report-builder/filter-dimensions.md)
    + [管理資料區塊](../report-builder/manage-reportbuilder.md)
-   + [排程電子郵件的活頁簿](../report-builder/schedule-reportbuilder.md)
-   + [排程用於雲端匯出的活頁簿](../report-builder/report-builder-export.md)
+   + [安排用於電子郵件的活頁簿](../report-builder/schedule-reportbuilder.md)
+   + [安排用於雲端匯出的活頁簿](../report-builder/report-builder-export.md)
    + [管理活頁簿排程](/help/report-builder/manage-schedules-reportbuilder.md)
    + [受限制的標籤](../report-builder/restricted-labels.md)
    + [Report Builder 設定](../report-builder/report-builder-settings.md)

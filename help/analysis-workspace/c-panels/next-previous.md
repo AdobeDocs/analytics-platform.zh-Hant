@@ -1,19 +1,17 @@
 ---
-description: 顯示特定維度下一個或上一個維度項目的面板。
-title: 下一個或上一個項目面板
+description: 瞭解如何使用顯示特定維度的下一個或上一個維度專案的下一個或上一個專案面板。
+title: 下一個或上一個專案面板
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: c94e97723a4ed30e675144e02196c93016b13235
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 94%
 
 ---
 
 # 下一個或上一個項目面板 {#next-or-previous-item-panel}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_button"
@@ -25,9 +23,6 @@ ht-degree: 100%
 >title="下一個或上一個項目"
 >abstract="分析訪客之前最常來自什麼地方或接下來最常造訪什麼地方。指定用於視覺效果的維度、維度項目、方向和容器。"
 
-
-
-<!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 

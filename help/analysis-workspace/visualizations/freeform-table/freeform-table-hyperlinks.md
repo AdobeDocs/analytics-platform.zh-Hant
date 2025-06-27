@@ -1,17 +1,17 @@
 ---
-title: 在自由格式表格中建立超連結
-description: 了解如何在 Analysis Workspace 自由格式表格中為維度項目建立超連結
+title: 在自由格式表格中建立維度的超連結
+description: 瞭解如何在Analysis Workspace的自由格式表格中建立維度專案的超連結。
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '1607'
-ht-degree: 98%
+source-wordcount: '1605'
+ht-degree: 97%
 
 ---
 
-# 在自由格式表格中建立超連結
+# 建立超連結
 
 您可以為維度項目建立超連結，以使這些在 Analysis Workspace 的自由格式表格中成為可點選項目。
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [「在自由格式表中建立超連結」](https://video.tv.adobe.com/v/3445799/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [「在自由格式表中建立超連結」](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

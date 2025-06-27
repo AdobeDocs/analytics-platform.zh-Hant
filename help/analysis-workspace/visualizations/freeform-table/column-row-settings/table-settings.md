@@ -1,13 +1,13 @@
 ---
-description: 列設定會依您拖放至表格中的元件而異。
+description: 瞭解如何使用列設定，以及列設定會依您拖曳至Analysis Workspace自由表格中的元件而有所不同。
 title: 列設定
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 91%
+source-wordcount: '1056'
+ht-degree: 87%
 
 ---
 
@@ -90,4 +90,4 @@ ht-degree: 91%
 
 ## 變更列高
 
-您可以將專案的檢視密度設定為&#x200B;**[!UICONTROL 精簡]**、 **[!UICONTROL 舒適]**&#x200B;和 **[!UICONTROL 擴展]**。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)。
+您可以將專案的[檢視密度](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。

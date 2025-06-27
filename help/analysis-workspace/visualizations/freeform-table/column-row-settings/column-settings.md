@@ -4,14 +4,14 @@ title: 欄設定
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 94%
 
 ---
 
-# [!UICONTROL 欄設定]
+# 欄設定
 
 [!UICONTROL 欄設定]可設定欄的格式，部分可設為條件式。
 
@@ -117,7 +117,7 @@ ht-degree: 94%
 
 {{attribution-container}}
 
-### 回顧視窗
+### 回顧期間
 
 {{attribution-lookback-window}}
 

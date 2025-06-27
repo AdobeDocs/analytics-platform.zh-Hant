@@ -1,28 +1,28 @@
 ---
-description: 了解 Analysis Workspace 中提供的鍵盤互動、快速鍵以及指向和點按行為。
+description: 瞭解如何使用Analysis Workspace提供的鍵盤互動、快速鍵和指向與點選行為。
 keywords: Analysis Workspace
 feature: Workspace Basics
-title: 如何使用 Workspace 快捷鍵
+title: 快捷鍵
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: 61a7e21d3e5d586c341a5b0f12490e3da1054382
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 93%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
-# 快捷鍵 (快速鍵)
+# 快捷鍵
 
 Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、分析和大眾化。
 
 請注意，您的鍵盤可能使用下列符號：
 
-- **⇧** 代表 **[!UICONTROL **&#x200B; Shift &#x200B;**]** 鍵。
-- **⌘** 代表 **[!UICONTROL **&#x200B; Cmd &#x200B;**]** (Command) 鍵。
-- **⌃** 代表 **[!UICONTROL **&#x200B; Ctrl &#x200B;**]** (Control) 鍵。
-- **⌥** 代表 **[!UICONTROL **&#x200B; Opt &#x200B;**]** (Option) 鍵。
-- **⎇** 代表 **[!UICONTROL **&#x200B; Alt &#x200B;**]** (Alternate) 鍵。
+- **⇧** 代表 **[!UICONTROL ** Shift **]** 鍵。
+- **⌘** 代表 **[!UICONTROL ** Cmd **]** (Command) 鍵。
+- **⌃** 代表 **[!UICONTROL ** Ctrl **]** (Control) 鍵。
+- **⌥** 代表 **[!UICONTROL ** Opt **]** (Option) 鍵。
+- **⎇** 代表 **[!UICONTROL ** Alt **]** (Alternate) 鍵。
 
 ## 導覽動作
 

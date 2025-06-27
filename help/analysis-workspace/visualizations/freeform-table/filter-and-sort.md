@@ -1,13 +1,13 @@
 ---
-description: 描述 Analysis Workspace 如何篩選及排序表格的文件。
-title: 篩選和排序表格
+description: 瞭解如何在Analysis Workspace中篩選及排序自由表格。
+title: 篩選及排序表格
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 

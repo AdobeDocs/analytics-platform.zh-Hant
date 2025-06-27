@@ -1,13 +1,13 @@
 ---
 title: 歸因面板
-description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
+description: 瞭解如何使用和解讀Analysis Workspace中的歸因面板。
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 304b8d85767d89ee60a6fb37a128194f60ca89d4
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 100%
+source-wordcount: '664'
+ht-degree: 97%
 
 ---
 
@@ -96,7 +96,7 @@ Customer Journey Analytics 強化了歸因功能，讓您可以：
 
 {{attribution-container}}
 
-## 回顧視窗
+## 回顧期間
 
 {{attribution-lookback-window}}
 

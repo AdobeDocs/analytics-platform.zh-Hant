@@ -1,15 +1,15 @@
 ---
 keywords: Analysis Workspace
 title: Analysis Workspace 概觀
-description: Analysis Workspace 功能概觀
+description: 瞭解Adobe Analytics的主要分析工具Analysis Workspace。 使用專案、面板、表格、視覺效果和其他元件讓資料栩栩如生，並組織和共用您的分析。
 feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
-workflow-type: ht
-source-wordcount: '1469'
-ht-degree: 100%
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+workflow-type: tm+mt
+source-wordcount: '1490'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ Analysis Workspace 可讓您快速建置分析以收集深入分析，然後與�
 >[!BEGINSHADEBOX]
 
 請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概觀](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}的示範影片。
+
+{{videoaa}}
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +34,7 @@ Analysis Workspace 可讓您快速建置分析以收集深入分析，然後與�
 | 位置 | 名稱與功能 |
 |:---------:|----------|
 | A | 包含專案名稱、用於存取功能的選單結構、用於返回專案清單的![返回按鈕](/help/assets/icons/ChevronLeft.svg)，以及用於[共用 Workspace 專案](/help/analysis-workspace/curate-share/share-projects.md)的&#x200B;**[!UICONTROL 共用]**&#x200B;按鈕。<br/>隨時選取您的專案名稱 (例如：新專案) 來變更名稱。<br/>選取![取消最愛](/help/assets/icons/StarOutline.svg)，將您的專案標記為最愛專案 ![最愛](/help/assets/icons/Star.svg)。 |
-| B | **按鈕面板：** 包含用於存取 Analysis Workspace 主要[功能](#features)的按鈕：<ul><li>![網頁](/help/assets/icons/WebPage.svg) [[!UICONTROL 面板]](/help/analysis-workspace/c-panels/panels.md)</li><li>![引導分析](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 引導分析]](/help/guided-analysis/overview.md)</li><li>![直條圖](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 視覺效果]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![組織](/help/assets/icons/Curate.svg) [[!UICONTROL 元件]](/help/components/overview.md)</li><li>![檢視清單](/help/assets/icons/ViewList.svg) [[!UICONTROL 目錄]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![書籤](/help/assets/icons/Bookmark.svg) [[!UICONTROL 資料字典]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| B | **按鈕面板：**&#x200B;包含存取Analysis Workspace的按鍵[功能](#features)的按鈕：<ul><li>![網頁](/help/assets/icons/WebPage.svg) [[!UICONTROL 面板]](/help/analysis-workspace/c-panels/panels.md)</li><li>![引導分析](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL 引導分析]](/help/guided-analysis/overview.md)</li><li>![直條圖](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL 視覺效果]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![組織](/help/assets/icons/Curate.svg) [[!UICONTROL 元件]](/help/components/overview.md)</li><li>![檢視清單](/help/assets/icons/ViewList.svg) [[!UICONTROL 目錄]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![書籤](/help/assets/icons/Bookmark.svg) [[!UICONTROL 資料字典]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | C | **左側面板：** 此區域包含個人面板、視覺化呈現、元件或清單。內容取決於按鈕面板中選取的按鈕。 |
 | D | **版本：**&#x200B;從左側面板拖曳內容以建置專案的主要區域。當您新增面板、新增視覺化呈現至面板，以及新增元件至視覺化呈現時，專案會動態更新。您可以建立多個面板，並且您可以在每個面板中建立多個視覺化呈現。<br/>每個面板皆根據所選取的資料釋圖。已選取的資料釋圖決定可用的元件，例如量度和維度。請參閱[面板 - 資料釋圖](/help/analysis-workspace/c-panels/panels.md#data-view)了解更多資訊。 |
 
@@ -121,16 +123,16 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 | **[!UICONTROL 排程檔案匯出]** | **[!UICONTROL *Shift+Opt+S *]** | **[!UICONTROL *Shift+Alt+S *]** | [依排程將專案以 CSV 或 PDF 檔案傳送給其他收件者](/help/analysis-workspace/curate-share/send-schedule-files.md)。 |
 | **[!UICONTROL 組織專案資料]** | **[!UICONTROL *Shift+Cmd+G *]** | **[!UICONTROL *Shift+Ctrl+G *]** | [組織專案資料](/help/analysis-workspace/curate-share/curate.md)。 |
 
-| 說明 | Mac 快速鍵  | Windows 快速鍵 | 說明 |
-|---|---|---|---|
-| **[!UICONTROL 影片]** | | | 在新的瀏覽器分頁中開啟 Customer Journey Analytics YouTube 頻道。 |
-| **[!UICONTROL 說明文件]** | | | 在新的瀏覽器分頁中開啟 (您實際上正在閱讀的...) 文件。 |
-| **[!UICONTROL 說明論壇]** | | | 在新的瀏覽器分頁中開啟 Adobe Analytics Experience League 社群論壇。 |
-| **[!UICONTROL 快速鍵]** | | | 顯示可在 Workspace 使用的快捷鍵 (快速鍵) 概觀。 |
-| **[!UICONTROL 啟用偵錯工具]** |  | | 啟用偵錯工具。您的專案將重新載入。 |
-| **[!UICONTROL 停用偵錯工具]** | | | 停用偵錯工具。您的專案將重新載入。 |
-| **[!UICONTROL 效能]** | | | 顯示一個展示 **[!UICONTROL Analysis Workspace 效能]**&#x200B;相關量度的對話框。使用&#x200B;**[!UICONTROL 下載為 CSV]**下載效能量度的 CSV 檔案。  |
-| **[!UICONTROL Workspace 簡介]** | | | 顯示 **[!UICONTROL Analysis Workspace 簡介]**&#x200B;對話框，其中包含版本資訊、功能存取層級和使用中的功能標幟。 |
+| 說明 | 說明 |
+|---|---|
+| **[!UICONTROL 影片]** | 在新的瀏覽器分頁中開啟 Customer Journey Analytics YouTube 頻道。 |
+| **[!UICONTROL 說明文件]** | 在新的瀏覽器分頁中開啟 (您實際上正在閱讀的...) 文件。 |
+| **[!UICONTROL 說明論壇]** | 在新的瀏覽器分頁中開啟 Adobe Analytics Experience League 社群論壇。 |
+| **[!UICONTROL 快速鍵]** | 顯示可在 Workspace 使用的快捷鍵 (快速鍵) 概觀。 |
+| **[!UICONTROL 啟用偵錯工具]** | 啟用偵錯工具。您的專案將重新載入。 |
+| **[!UICONTROL 停用偵錯工具]** | 停用偵錯工具。您的專案將重新載入。 |
+| **[!UICONTROL 效能]** | 顯示一個展示 **[!UICONTROL Analysis Workspace 效能]**&#x200B;相關量度的對話框。使用&#x200B;**[!UICONTROL 下載為 CSV]**下載效能量度的 CSV 檔案。  |
+| **[!UICONTROL Workspace 簡介]** | 顯示 **[!UICONTROL Analysis Workspace 簡介]**&#x200B;對話框，其中包含版本資訊、功能存取層級和使用中的功能標幟。 |
 
 ## 資料來源
 

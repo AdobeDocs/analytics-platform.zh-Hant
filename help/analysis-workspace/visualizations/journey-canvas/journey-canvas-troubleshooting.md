@@ -1,11 +1,12 @@
 ---
-description: 設定Journey Canvas視覺效果時的範例
-title: 歷程畫布範例
+description: 瞭解如何在設定歷程畫布視覺效果時進行疑難排解。
+title: Journey Canvas疑難排解
 feature: Visualizations
 role: User
-source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
+exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -88,7 +89,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++開始節點的百分比
 
-當&#x200B;**[!UICONTROL 百分比值]**&#x200B;欄位設定為起始節點&#x200B;**的**&#x200B;百分比時，此歷程中的節點包含下列統計資料：
+當&#x200B;**[!UICONTROL 百分比值]**&#x200B;欄位設定為起始節點&#x200B;]**的**[!UICONTROL &#x200B;百分比時，此歷程中的節點包含下列統計資料：
 
 ![包含百分比高於先前節點](assets/journey-canvas-higher-percentage.png)之節點的歷程
 
@@ -114,7 +115,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++
 
-+++總數的百分比
+總數的+++百分比
 
 當&#x200B;**[!UICONTROL 百分比值]**&#x200B;欄位設定為總數的&#x200B;**[!UICONTROL 百分比]**&#x200B;時，此歷程中的節點包含下列統計資料：
 

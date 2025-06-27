@@ -1,13 +1,13 @@
 ---
-description: 了解 Analysis Workspace 中的自由面板。
+description: 瞭解如何使用具有自由表格的自由面板當作Analysis Workspace專案的開始狀態。
 title: 自由面板
 feature: Panels
 exl-id: 4e1d5d72-da59-419a-835e-a3c90f1362b4
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
-workflow-type: ht
-source-wordcount: '114'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 84%
 
 ---
 
@@ -37,6 +37,6 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!MORELIKETHIS]
 >
 >[建立面板](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->[在工作區中使用元件](/help/components/use-components-in-workspace.md)
->[自由格式表格視覺效果](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[在工作區中使用元件](/help/components/use-components-in-workspace.md)
+>>[自由格式表格視覺效果](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

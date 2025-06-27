@@ -1,21 +1,21 @@
 ---
-description: 瞭解如何在 Workspace 中管理資料夾
+description: 瞭解如何在Analysis Workspace中管理資料夾。
 keywords: Analysis Workspace
-title: 管理 Workspace 資料夾
+title: 管理資料夾
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 91%
+source-wordcount: '428'
+ht-degree: 86%
 
 ---
 
 
 # 管理資料夾
 
-您可以透過兩種方式管理 Workspace 中的資料夾。從資料夾內，或從專案清單中一個或多個已選取的資料夾。管理資料夾包括重新命名、移動或刪除資料夾。
+您可以透過兩種方式管理 Workspace 中的資料夾。從資料夾內，或從專案清單中一個或多個已選取的資料夾。管理資料夾包括重新命名、移動或刪除資料夾的選項。
 
 ## 重新命名資料夾
 
@@ -26,13 +26,13 @@ ht-degree: 91%
 * 在[專案清單](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)中選取要重新命名的資料夾。
 
    1. 從所選取資料夾的內容選單![More](/help/assets/icons/More.svg)中可用的[動作](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions)，或是藍色動作列選取&#x200B;**[!UICONTROL 重新命名]**。
-   1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**&#x200B;對話框中，輸入新名稱並選取&#x200B;**[!UICONTROL 儲存&#x200B;]**。
+   1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**對話框中，輸入新名稱並選取**[!UICONTROL 儲存&#x200B;]**。
 
 * 在您要重新命名的資料夾中。
 
    1. 從[標題區域](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)中的![More](/help/assets/icons/More.svg)選取&#x200B;**[!UICONTROL 重新命名資料夾]**。
 
-   1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**&#x200B;對話框中，輸入新名稱並選取&#x200B;**[!UICONTROL 儲存&#x200B;]**。
+   1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**對話框中，輸入新名稱並選取**[!UICONTROL 儲存&#x200B;]**。
 
 
 ## 移動資料夾

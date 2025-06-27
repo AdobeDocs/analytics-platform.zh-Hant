@@ -1,14 +1,14 @@
 ---
-description: 了解如何在 Workspace 建立資料夾和子資料夾
+description: 瞭解如何在Analysis Workspace中建立資料夾和子資料夾。
 keywords: Analysis Workspace
 title: 建立資料夾
 feature: Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
 role: User
-source-git-commit: 98a92fff2a0fae7ad3e6d94e61f8babed3c11eb7
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 81%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 1. 在&#x200B;**[!UICONTROL 建立新資料夾]**&#x200B;對話框中，輸入新資料夾的名稱。例如：`Second Week Reports`。
 
-1. 從下拉式清單中選取&#x200B;**[!UICONTROL 標記]**&#x200B;或輸入新標記。
+1. 從&#x200B;**[!UICONTROL 標籤]**&#x200B;下拉式功能表中選取標籤或輸入新標籤。
 
    ![Create new folder](../assets/create-new-folder.png)
 

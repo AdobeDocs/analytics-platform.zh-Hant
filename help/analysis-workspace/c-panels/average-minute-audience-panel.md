@@ -1,13 +1,13 @@
 ---
-title: 「平均分鐘觀眾數」面板
-description: 如何使用和解讀 Analysis Workspace 中的「媒體平均分鐘觀眾數」面板。
+title: 「媒體平均每分鐘觀眾數」面板
+description: 瞭解如何使用和解讀Analysis Workspace中的「媒體平均每分鐘觀眾數」面板。
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 95%
+source-wordcount: '1679'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的媒體平均分鐘觀眾數面板。<br/>_請參閱[媒體平均分鐘觀眾數面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)，以取得本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 版本。_
+_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ 中的媒體平均分鐘觀眾數面板。<br/>_請參閱[媒體平均分鐘觀眾數面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)，以取得本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -187,6 +187,6 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!MORELIKETHIS]
 >
 > [建立面板](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> [媒體同時檢視者面板](media-concurrent-viewers.md)
-> [媒體播放時間面板](media-playback-time-spent.md)
+> > [媒體同時檢視者面板](media-concurrent-viewers.md)
+> > [媒體播放時間面板](media-playback-time-spent.md)
 >

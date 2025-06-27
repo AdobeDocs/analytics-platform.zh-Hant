@@ -1,13 +1,13 @@
 ---
 title: 媒體同時檢閱者面板
-description: 如何使用和解讀 Analysis Workspace 中的「媒體同時檢閱者」面板。
+description: 瞭解如何使用和解讀Analysis Workspace中的「媒體同時檢閱者」面板。
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
-source-wordcount: '1174'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 98%
 
 ---
 
@@ -130,6 +130,6 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!MORELIKETHIS]
 >
 >[建立面板](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->[媒體播放時間面板](media-playback-time-spent.md)
->[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
+>>[媒體播放時間面板](media-playback-time-spent.md)
+>>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
 >

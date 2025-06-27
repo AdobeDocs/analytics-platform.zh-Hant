@@ -1,13 +1,13 @@
 ---
-title: 自由格式表格概觀
-description: 自由表格是 Analysis Workspace 中資料分析的基礎
+title: 自由表格概述
+description: 瞭解如何使用自由表格，這是Analysis Workspace中資料分析的基礎。
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '785'
+ht-degree: 97%
 
 ---
 

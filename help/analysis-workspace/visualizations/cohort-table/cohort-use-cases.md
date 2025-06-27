@@ -1,26 +1,26 @@
 ---
-description: 瞭解同類群組分析的使用案例範例。
+description: 瞭解同類群組分析的一些使用案例範例。
 keywords: Analysis Workspace
 title: 同類群組分析使用案例
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 52%
+source-wordcount: '974'
+ht-degree: 51%
 
 ---
 
-# [!UICONTROL 同類群組分析]使用案例
+# 同類群組分析使用案例
 
-本文說明[!UICONTROL 同類群組分析]的一些使用案例範例。
+本文介紹同類群組分析的一些使用案例範例。
 
 ## 應用程式參與使用案例
 
 假設您想分析已安裝您應用程式的用戶，在一段時間內參與應用程式的情形。用戶是否安裝應用程式後就不曾使用？還是使用一陣子後不用了？或是一段時間後仍持續使用？
 
-您可以建立六個月的[!UICONTROL 同類群組分析]：
+您可以建立六個月的同類群組分析。
 
 **詳細程度**: 每月，從 2015 年 1 月到 2015 年 6 月。
 

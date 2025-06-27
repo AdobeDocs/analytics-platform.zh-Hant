@@ -1,49 +1,36 @@
 ---
-description: 同步視覺效果可讓您控制哪些資料表或資料來源會對應至視覺效果。
+description: 瞭解如何將自由表格或資料來源同步至對應的視覺效果。
 keywords: Analysis Workspace, 將視覺效果同步至資料來源
 title: 管理資料來源
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
 role: User
-source-git-commit: 8f9c03607130bdeaf6cb7a32d8dd465712a47ea5
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 96%
+source-wordcount: '436'
+ht-degree: 89%
 
 ---
 
 # 管理資料來源 {#manage-data-sources}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection"
 >title="鎖定選取項目"
 >abstract="啟用此設定，即可將視覺效果鎖定在資料來源中所選的位置或所選的項目。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
 >title="顯示表格"
 >abstract="選取「**[!UICONTROL 顯示表格]**」將為您目前的視覺效果產生新的資料來源，並將其與原始資料來源分開。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"
 >title="顯示表格"
 >abstract="選取「**[!UICONTROL 顯示表格]**」可為您目前的視覺效果產生新的資料來源，且與原始資料來源分開。"
 
-<!-- markdownlint-enable MD034 -->
 
-
-
-同步視覺效果可讓您控制哪些資料表或資料來源會對應至視覺效果。
+同步視覺效果可讓您控制哪些自由表格或資料來源會對應至視覺效果。
 
 >[!TIP]
 >

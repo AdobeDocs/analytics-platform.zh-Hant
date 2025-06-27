@@ -1,14 +1,14 @@
 ---
-description: 您可以從接觸點建立區段、新增區段作為接觸點，以及在 Analysis Workspace 的各種區段間比較關鍵工作流程。
-keywords: 流失和區段；流失分析中的區段；比較流失中的區段
+description: 瞭解如何在Analysis Workspace中從接觸點建立區段、新增區段做為接觸點，以及比較各種區段之間的關鍵工作流程。
+keywords: 流失和分段, 流失分析中的區段, 比較流失中的區段
 title: 在流失分析中套用區段
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 38%
+source-wordcount: '468'
+ht-degree: 34%
 
 ---
 
@@ -18,11 +18,14 @@ ht-degree: 38%
 
 >[!IMPORTANT]
 >
->在流失分析中當作查核點使用的區段，其所用容器的層級必須低於流失視覺效果的整體設定。分析個人內容流失時，當作查核點使用的區段必須是工作階段或事件型區段。 分析工作階段相關流失率時，當作查核點使用的區段必須為事件相關區段。 如果使用無效的組合，流失率為100%。 新增不相容的區段作為接觸點時，流失視覺效果會顯示警告。 特定的無效區段容器組合會產生無效的流失率圖表，例如：
+>在流失分析中當作查核點使用的區段，其所用容器的層級必須低於流失視覺效果的整體設定。分析個人內容流失時，當作查核點使用的區段必須是工作階段或事件型區段。 分析工作階段相關流失率時，當作查核點使用的區段必須為事件相關區段。 如果使用無效的組合，流失率為100%。 當您新增不相容的區段作為接觸點時，流失視覺效果中會顯示警告。 特定的無效區段容器組合會產生無效的流失率圖表，例如：
 >
->* 使用以人物為基礎的區段，作為個人內容流失視覺效果內的接觸點
->* 使用以人為基礎的區段，作為工作階段內容流失視覺效果內的接觸點
->* 使用工作階段型區段，作為工作階段內容流失視覺效果內的接觸點
+>* 使用以人物為基礎的區段，作為個人內容流失視覺效果內的接觸點。
+>* 使用以人為基礎的區段，作為工作階段內容流失視覺效果內的接觸點。
+>* 使用工作階段型區段，作為工作階段內容流失視覺效果內的接觸點。
+<!-- Should we add B2B context here?
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* -->
 
 ## 從接觸點建立區段
 

@@ -1,19 +1,17 @@
 ---
-description: 使用智慧型註解產生自然語言分析，以顯示視覺效果中的趨勢。
+description: 瞭解如何使用智慧型字幕來產生自然語言的深入分析，以呈現視覺效果中的趨勢。
 title: 智慧型註解
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: af8d4f07498211931e9549cadd4746eebb9f56f4
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 100%
+source-wordcount: '757'
+ht-degree: 98%
 
 ---
 
 # 智慧型註解 {#intelligent-captions}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions"
@@ -30,7 +28,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [智慧型註解](https://video.tv.adobe.com/v/3443149/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [智慧型註解](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
