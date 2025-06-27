@@ -16,7 +16,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ 中的自由表格。<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[自由表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)_。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的自由表格。<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[自由表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)_。_
 
 >[!ENDSHADEBOX]
 
@@ -37,6 +37,6 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!MORELIKETHIS]
 >
 >[建立面板](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[在工作區中使用元件](/help/components/use-components-in-workspace.md)
->>[自由格式表格視覺效果](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>&#x200B;>[在工作區中使用元件](/help/components/use-components-in-workspace.md)
+>&#x200B;>[自由格式表格視覺效果](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

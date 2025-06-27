@@ -89,7 +89,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++開始節點的百分比
 
-當&#x200B;**[!UICONTROL 百分比值]**&#x200B;欄位設定為起始節點&#x200B;]**的**[!UICONTROL &#x200B;百分比時，此歷程中的節點包含下列統計資料：
+當&#x200B;**[!UICONTROL 百分比值]**&#x200B;欄位設定為起始節點&#x200B;**的**&#x200B;百分比時，此歷程中的節點包含下列統計資料：
 
 ![包含百分比高於先前節點](assets/journey-canvas-higher-percentage.png)之節點的歷程
 
@@ -115,7 +115,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++
 
-總數的+++百分比
++++總數的百分比
 
 當&#x200B;**[!UICONTROL 百分比值]**&#x200B;欄位設定為總數的&#x200B;**[!UICONTROL 百分比]**&#x200B;時，此歷程中的節點包含下列統計資料：
 
