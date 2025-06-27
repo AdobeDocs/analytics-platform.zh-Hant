@@ -1,17 +1,17 @@
 ---
-description: 了解關於通過您網站和應用程式顯示客戶路徑的流量功能。
+description: 瞭解如何在Analysis Workspace中使用流量視覺效果。
 title: 流量概觀
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
-source-wordcount: '326'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 96%
 
 ---
 
-# 流量 {#flow}
+# 流量概觀 {#flow}
 
 <!-- markdownlint-disable MD034 -->
 

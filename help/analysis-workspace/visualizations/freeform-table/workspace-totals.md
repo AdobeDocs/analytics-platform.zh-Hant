@@ -1,17 +1,17 @@
 ---
-description: 瞭解工作區總計的計算方式。
-title: Analysis Workspace 總計
+description: 瞭解Analysis Workspace中自由格式表格的總計計算方式。
+title: 總計
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
-source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 94%
+source-wordcount: '488'
+ht-degree: 91%
 
 ---
 
-# Analysis Workspace 總計 {#workspace-totals}
+# 總計 {#workspace-totals}
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"
