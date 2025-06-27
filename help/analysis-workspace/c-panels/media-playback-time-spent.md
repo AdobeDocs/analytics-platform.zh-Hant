@@ -60,7 +60,7 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間](https://video.tv.adobe.com/v/338699){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間](https://video.tv.adobe.com/v/3446711?captions=chi_hant){target="_blank"}的示範影片。
 
 {{videoaa}}
 
