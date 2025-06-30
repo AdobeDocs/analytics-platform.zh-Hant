@@ -4,14 +4,14 @@ title: 組織與共用專案概觀
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
 role: User
-source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
+source-git-commit: 6cbf18496585fc973414b79b5957f918a16c0459
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 52%
 
 ---
 
-# 組織與共用概觀
+# 組織與共用專案概觀
 
 您可以組織並共用專案，或以PDF或CSV檔案的形式將專案傳送給貴組織的收件者，或使用Analysis Workspace中&#x200B;**[!UICONTROL 共用]**&#x200B;功能表提供的選項或當您選取介面右上角的&#x200B;**[!UICONTROL 共用]**&#x200B;時，與他人進行傳送。
 
