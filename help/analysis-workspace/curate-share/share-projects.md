@@ -1,14 +1,14 @@
 ---
-description: Workspace 中的專案共用和專案角色
+description: 瞭解如何在Analysis Workspace中共用專案。
 keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: a462e736ddcdf1a5ea84a85eea2c2ce0b8a34fb0
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '2092'
-ht-degree: 98%
+source-wordcount: '2089'
+ht-degree: 97%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 98%
 >[!ENDSHADEBOX]
 
 
-## 與您組織中的 Customer Journey Analytics 使用者和群組共用 {#Add}
+## 與組織中的使用者和群組共用 {#Add}
 
-您可以與組織中的現有 Customer Journey Analytics 使用者或群組共用專案。當您按本節所述共用專案時，共用的使用者必須已經擁有 Customer Journey Analytics 帳戶。
+您可以與組織中的現有 Analysis Workspace 使用者或群組共用專案。當您按本節所述共用專案時，共用的使用者必須已經擁有 Customer Journey Analytics 帳戶。
 
 您可以與使用者或群組共用特定角色，也可以共用連結。
 
@@ -161,7 +161,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3452476/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

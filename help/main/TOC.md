@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 99%
+source-wordcount: '1255'
+ht-degree: 98%
 
 ---
 
@@ -169,6 +169,7 @@ ht-degree: 99%
    + [執行進階分析](../analysis-workspace/perform-adv-analysis.md)
    + 專案 {#build-workspace-project}
       + [概觀](../analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [快速啟動專案](/help/analysis-workspace/build-workspace-project/starter-projects.md)
       + [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [開啟專案](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [針對專案發表評論](/help/analysis-workspace/build-workspace-project/comment-projects.md)
@@ -242,16 +243,16 @@ ht-degree: 99%
       + [媒體播放時間](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [下一個或上一個項目](../analysis-workspace/c-panels/next-previous.md)
       + [快速深入分析](../analysis-workspace/c-panels/quickinsight.md)
-   + 策劃、共用及排程專案 {#curate-share}
+   + 組織與共用 {#curate-share}
       + [概觀](../analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](../analysis-workspace/curate-share/curate.md)
       + [共用專案](../analysis-workspace/curate-share/share-projects.md)
       + [建立分享連結](../analysis-workspace/curate-share/shareable-links.md)
       + [唯讀專案](../analysis-workspace/curate-share/view-only-projects.md)
+      + [傳送及排程專案](../analysis-workspace/curate-share//t-schedule-report.md)
    + 匯出 {#export}
       + [概觀](../analysis-workspace/export/export-project-overview.md)
       + [下載](../analysis-workspace/export/download-send.md)
-      + [傳送給其他人](../analysis-workspace/export/t-schedule-report.md)
       + [匯出到雲端](../analysis-workspace/export/export-cloud.md)
    + 異常偵測 {#anomaly-detection}
       + [概觀](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)

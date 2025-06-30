@@ -1,23 +1,23 @@
 ---
-description: 監管可讓您在共用專案前先限制元件。
+description: 瞭解如何在Analysis Workspace中組織專案。 在您共用專案之前，組織會限制元件的存取權。
 keywords: Analysis Workspace 監管
-title: 監管專案
+title: 組織專案
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
 role: User
-source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 55%
+source-wordcount: '500'
+ht-degree: 52%
 
 ---
 
-# 組織專案
+# 監管專案
 
 管監功能可襄您在共用專案前先限制元件 (維度、量度、區段、日期範圍)。收件者在開啟專案時，會看到您為其組織的限定元件集。 組織是可選作業，但建議您在共用專案前先執行此步驟。
 
 >[!NOTE]
-> 產品設定檔為管理哪些元件可向使用者顯示的主要機制。這項機制可透過 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/admin-tool-experience-cloud) 來管理。 組織為次要的區段。
+> 產品設定檔為管理哪些元件可向使用者顯示的主要機制。這項機制可透過 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-tool-experience-cloud) 來管理。 組織為次要的區段。
 
 ## 套用專案組織
 
@@ -54,7 +54,7 @@ Curation can also be applied from the [!UICONTROL Share] menu by selecting **[!U
 
 | 組織類型 | 管理員可以看到 | 非管理員專案所有者 (或編輯角色) 可以看到 | 非管理員重複角色可以看到 |
 | --- | --- | --- | --- |
-| 從資料檢視&#x200B;**中隱藏的**&#x200B;元件&#x200B;*2&rbrace;* | 所有資料檢視元件都可用於報告（隱藏元件需要您選取&#x200B;**[!UICONTROL 全部顯示]**） | 不可用於報告 | 不可用於報告 |
+| 從資料檢視&#x200B;**中隱藏的**&#x200B;元件&#x200B;*2}* | 所有資料檢視元件都可用於報告（隱藏元件需要您選取&#x200B;**[!UICONTROL 全部顯示]**） | 不可用於報告 | 不可用於報告 |
 | **從資料檢視中新增或移除的元件** | 僅限新增到資料檢視的元件 (隱藏或未隱藏)。 管理員無法報告資料檢視中未定義的欄位或元件。 | 僅限新增到資料檢視的元件，或由用戶擁有或與用戶共用的元件。 隱藏元件不適用 (例如虛擬報告套件監管)。 | 只有新增到資料檢視的元件不會隱藏，並包含在專案組織中。 |
 | **專案中已組織的元件** | 所有可用於報告的資料檢視元件（隱藏元件需要您選取&#x200B;**[!UICONTROL 全部顯示]**） | 所有非隱藏的資料檢視元件 (需要按一下「顯示全部」) | 僅限已組織的元件，加上由用戶擁有或與用戶共用的元件 |
 | **使用具有隱藏元件之資料檢視的組織專案** | 所有可用於報告的資料元件（隱藏和非組織元件需要您選取&#x200B;**[!UICONTROL 全部顯示]**） | 所有非組織專案元件、所有非隱藏資料檢視元件，以及用戶擁有或與用戶共用的任何元件 | 僅限已組織的元件，加上由用戶擁有或與用戶共用的元件 |

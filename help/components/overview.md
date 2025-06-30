@@ -5,8 +5,8 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
-workflow-type: ht
+source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
+workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 * [日期範圍](date-ranges/create.md)：自訂和調整 Analysis Workspace 提供的日期範圍。
 * [註解](/help/components/annotations/overview.md)：將內容相關的資料細微差別和深入分析傳達給您的組織。
 * [智慧提醒](/help/components/c-intelligent-alerts/intelligent-alerts.md)：讓您根據變更的百分比或特定資料點來接收通知。
-* [已排程的專案](/help/analysis-workspace/export/t-schedule-report.md#scheduled-projects-manager)：管理您已排程的專案。
+* [已排程的專案](/help/analysis-workspace/curate-share/t-schedule-report.md#scheduled-projects-manager)：管理您已排程的專案。
 * [偏好設定](/help/analysis-workspace/user-preferences.md)：管理 Analysis Workspace 的偏好設定。
 * [客群](/help/components/audiences/audiences-overview.md)：利用 Customer Journey Analytics 建立客群並發佈到 Experience Platform 中的[Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/home)，以利目標市場選擇和個人化。
 * [匯出](/help/components/exports/manage-export-locations.md)：管理您的匯出帳戶和地點。

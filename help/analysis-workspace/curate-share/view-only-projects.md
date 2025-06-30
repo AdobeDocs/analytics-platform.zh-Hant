@@ -1,14 +1,14 @@
 ---
-description: Workspace中的唯讀專案
+description: 瞭解Analysis Workspace中唯讀專案的體驗。
 keywords: 唯讀專案
 title: 唯讀專案
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 role: User
-source-git-commit: a462e736ddcdf1a5ea84a85eea2c2ce0b8a34fb0
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 37%
+source-wordcount: '303'
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 37%
 在僅限檢視專案中停用的互動功能包括：
 
 * 隱藏的左側面板
-* 面板日曆日期範圍。注意：如果您想要將行事曆控制授權給收件者，請新增至包含日期範圍[&#128279;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)的下拉式區段。
+* 面板日曆日期範圍。注意：如果您想要將行事曆控制授權給收件者，請新增至包含日期範圍](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)的[下拉式區段。
 * 自由格式分段
 * 可見列的自由格式編號
 * 自由格式列、欄或視覺效果設定
@@ -43,10 +43,10 @@ ht-degree: 37%
 
 | 區域 | 啟用的互動功能 |
 | --- | --- |
-| 自由表格 | <ul><li>分頁與排序</li><li>暫留</li><li>可更新連結視覺效果的儲存格選項</li><li>從內容功能表>取得視覺效果連結</li><li>從快顯選單>複製到剪貼簿</li></ul> |
-| 視覺效果 | <ul><li>按一下以開啟/關閉圖例</li><li>暫留</li><li>從內容功能表>取得視覺效果連結</li><li>摺疊/展開</li><li>流量 - 展開流量節點</li><li>地圖 - 縮放</li></ul> |
-| 面板 | <ul><li>互動式下拉式區段</li><li>從快顯選單>取得面板連結</li><li>摺疊/展開</li></ul> |
-| 專案 | <ul><li>檢查所有資訊圖示</li><li>專案選單 - 新增、開啟、設定為登陸頁面、重新整理、下載 CSV/PDF、有限的專案資訊和設定</li><li>共用選單 - 取得專案連結，立即傳送檔案</li><li>說明選單 - 提示與除錯工具選項以外的所有動作</li></ul> |
+| **自由表格** | <li>分頁與排序</li><li>暫留</li><li>可更新連結視覺效果的儲存格選項</li><li>從內容功能表>取得視覺效果連結</li><li>從快顯選單>複製到剪貼簿</li> |
+| **視覺化呈現** | <li>按一下以開啟/關閉圖例</li><li>暫留</li><li>從內容功能表>取得視覺效果連結</li><li>摺疊/展開</li><li>流量 - 展開流量節點</li><li>地圖 - 縮放</li></ul> |
+| **面板** | <li>互動式下拉式區段</li><li>從快顯選單>取得面板連結</li><li>摺疊/展開</li> |
+| **專案** | <li>檢查所有資訊圖示</li><li>專案選單 - 新增、開啟、設定為登陸頁面、重新整理、下載 CSV/PDF、有限的專案資訊和設定</li><li>共用選單 - 取得專案連結，立即傳送檔案</li><li>說明選單 - 提示與除錯工具選項以外的所有動作</li> |
 
 
 ## 與任何人分享經驗

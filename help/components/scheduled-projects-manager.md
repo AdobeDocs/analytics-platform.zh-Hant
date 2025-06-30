@@ -4,7 +4,7 @@ title: 量度
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
+source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 42%
@@ -44,7 +44,7 @@ ht-degree: 42%
 
 使用![搜尋](/help/assets/icons/Search.svg)來搜尋排程專案。 您也可以檢視是否從「篩選器」面板套用任何篩選器。 若要移除篩選器，請為篩選器選取![CrossSize75](/help/assets/icons/CrossSize75.svg)。 若要移除所有篩選器，請選取&#x200B;**[!UICONTROL 全部清除]**。
 
-若要編輯排程專案，請選取排程專案的標題。 使用&#x200B;**[!UICONTROL 編輯排程專案]**&#x200B;對話方塊來更新排程詳細資料。 如需詳細資訊，請參閱[將檔案傳送至其他](../analysis-workspace/export/t-schedule-report.md)。
+若要編輯排程專案，請選取排程專案的標題。 使用&#x200B;**[!UICONTROL 編輯排程專案]**&#x200B;對話方塊來更新排程詳細資料。 如需詳細資訊，請參閱[將檔案傳送至其他](../analysis-workspace/curate-share/t-schedule-report.md)。
 
 ![編輯排定的專案](assets/edit-scheduled-project.png)
 

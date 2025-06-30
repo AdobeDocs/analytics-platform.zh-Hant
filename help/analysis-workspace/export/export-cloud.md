@@ -5,9 +5,9 @@ title: 將 Customer Journey Analytics 報告匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 0891aa2bed446e704b0222eff992c5f5bc200f82
+source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2360'
 ht-degree: 95%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 95%
    | 欄位名稱 | 函數 |
    |---------|----------|
    | 名稱 | 指定匯出的名稱。此名稱顯示在匯出清單中。 |
-   | 標記 | 您可以將現有標記套用至匯出，也可以建立新標記並且套用。 <p>若要套用現有標記至匯出，請從下拉式選單中選取任何標記。您公司的任何標記均可套用<!-- double-check this -->。</p> <p>若要建立新標記，請輸入新標記的名稱，然後按 Enter。</p><p>將標記套用至匯出時，請考慮以下事項： <ul><li>您套用的標記可以在匯出表格中篩選或搜尋。</li> <li>匯出完整表格時，不會自動套用已套用至專案的標記，如在「[管理匯出](/help/components/exports/manage-exports.md)」中的「在匯出頁面上設定欄」所述)。(或者，當[安排整個專案供匯出](/help/analysis-workspace/export/t-schedule-report.md)時，任何套用於專案的標記都會自動套用於匯出)。  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
+   | 標記 | 您可以將現有標記套用至匯出，也可以建立新標記並且套用。 <p>若要套用現有標記至匯出，請從下拉式選單中選取任何標記。您公司的任何標記均可套用<!-- double-check this -->。</p> <p>若要建立新標記，請輸入新標記的名稱，然後按 Enter。</p><p>將標記套用至匯出時，請考慮以下事項： <ul><li>您套用的標記可以在匯出表格中篩選或搜尋。</li> <li>匯出完整表格時，不會自動套用已套用至專案的標記，如在「[管理匯出](/help/components/exports/manage-exports.md)」中的「在匯出頁面上設定欄」所述)。(或者，當[安排整個專案供匯出](/help/analysis-workspace/curate-share/t-schedule-report.md)時，任何套用於專案的標記都會自動套用於匯出)。  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
    | 說明 | 新增說明至匯出。檢視匯出時，您可以選擇以[匯出頁面](/help/components/exports/manage-exports.md)中的資料欄來檢視說明。 |
    | 資料檢視 | 選取資料檢視，其中包含您想要包含在匯出的元件。資料檢視下拉選單位於對話框的左上角，且可以透過資料檢視圖示![資料檢視圖示](assets/data-view-icon.png)來識別。  <p>**注意：** 如果您選擇資料檢視但其中缺少資料表格中已包含的元件，則系統會提示您清除資料表格並使用已選取資料檢視中所含元件來重新建立。 </p> |
    | 回顧視窗 | 選取要包含在每個匯出檔案中的報告時間範圍。選項包含&#x200B;[!UICONTROL **今天**], [!UICONTROL **昨天**], [!UICONTROL **過去 7 天**], [!UICONTROL **過去 30 天**], [!UICONTROL **本週**]&#x200B;和&#x200B;[!UICONTROL **本月**]。 <p>當&#x200B;[!UICONTROL **匯出頻率**]&#x200B;設為「[!UICONTROL **立即傳送 (一次性)**]&#x200B;時，不會顯示此選項。 |
@@ -129,7 +129,9 @@ ht-degree: 95%
 
 * 匯出包含多個維度的表格。
 
-## 匯出要求 {#export-requirements}
+## 需求和不支援的功能 {#export-requirements}
+
+本節詳細說明匯出資料時應考慮的最低要求和不支援的功能。
 
 ### 基本需求
 

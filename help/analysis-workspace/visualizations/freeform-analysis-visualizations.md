@@ -5,10 +5,10 @@ title: 視覺效果概述
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 9c05319ceacb7287af7f15cfe56b8048a718559d
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -139,11 +139,11 @@ Analysis Workspace 中有以下視覺效果類型：
 | 選項 | 說明 |
 | --- | --- |
 | **[!UICONTROL 插入複製的視覺化呈現]** | 將複製的視覺效果貼上 (插入) 至專案內另一個位置或完全不同的專案中。 |
-| **[!UICONTROL 複製資料至剪貼簿]** | 從視覺效果複製資料至剪貼簿。 |
-| **[!UICONTROL 複製選取項目至剪貼簿]** | 從視覺效果將選取項目複製至剪貼簿。 |
-| **[!UICONTROL 將項目下載為 CSV (*維度名稱*)]** | 將視覺效果的維度項目 (最多 50,000 個) 下載至您的本機裝置。選取維度的最大維度項目數為 50,000。 |
+| **[!UICONTROL 複製資料至剪貼簿]** | [將視覺效果中的資料](/help/analysis-workspace/export/download-send.md#copy-to-clipboard)複製到剪貼簿。 |
+| **[!UICONTROL 複製選取項目至剪貼簿]** | [將選取範圍](/help/analysis-workspace/export/download-send.md#copy-to-clipboard)從視覺效果複製到剪貼簿。 |
+| **[!UICONTROL 將項目下載為 CSV (*維度名稱*)]** | [將視覺效果的維度專案](/help/analysis-workspace/export/download-send.md#download-items-as-csv) （最多50,000個）下載到您的本機裝置。 選取維度的最大維度項目數為 50,000。 |
 | **[!UICONTROL 複製視覺效果]** | 複製視覺效果，以便於您將其插入至專案內另一個位置或完全不同的專案中。 |
-| **[!UICONTROL 下載資料為 CSV 檔]** | 將視覺效果顯示的資料下載至本機裝置。 |
+| **[!UICONTROL 下載資料為 CSV 檔]** | [將視覺效果顯示的資料](/help/analysis-workspace/export/download-send.md#download-as-csv)下載到您的本機裝置。 |
 | **[!UICONTROL 匯出完整表格]** | 將完整表格匯出到指定的雲端位置。請參閱「[將 Customer Journey Analytics 報告匯出至雲端](../export/export-cloud.md)」 |
 | **[!UICONTROL 複製視覺效果]** | 完全複製視覺效果。 |
 | **[!UICONTROL 編輯說明]** | 新增 (或編輯) 視覺效果的文字說明。請參閱[文字](text.md)。 |
