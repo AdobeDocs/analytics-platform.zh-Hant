@@ -17,7 +17,7 @@ ht-degree: 52%
 管監功能可襄您在共用專案前先限制元件 (維度、量度、區段、日期範圍)。收件者在開啟專案時，會看到您為其組織的限定元件集。 組織是可選作業，但建議您在共用專案前先執行此步驟。
 
 >[!NOTE]
-> 產品設定檔為管理哪些元件可向使用者顯示的主要機制。這項機制可透過 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-tool-experience-cloud) 來管理。 組織為次要的區段。
+> 產品設定檔為管理哪些元件可向使用者顯示的主要機制。這項機制可透過 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/admin-tool-experience-cloud) 來管理。 組織為次要的區段。
 
 ## 套用專案組織
 
