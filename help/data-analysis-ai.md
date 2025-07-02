@@ -6,13 +6,13 @@ solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: e19151a7b0c3ab2f9e532034d329896768ee095f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1972'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 使用Data Insights Agent以視覺效果呈現資料
+# 使用 Data Insights 代理以視覺化方式呈現資料
 
 >[!AVAILABILITY]
 >
@@ -39,7 +39,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 AI 助理進�
 | **意見回饋機制** | <ul><li>肯定</li><li>否定</li><li>標記</li></ul> |  |
 
 
-## 管理Data Insights Agent的存取權
+## 管理 Data Insights 代理的存取權
 
 下列參數能控制對 Customer Journey Analytics 中 Data Insights 代理的存取權：
 
@@ -144,7 +144,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 AI 助理進�
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」。*
 
-**回覆：**&#x200B;**[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
+**回覆：****[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
 
 ![長條圖](/help/assets/ai-asst-result4.png)
 

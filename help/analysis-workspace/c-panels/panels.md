@@ -1,13 +1,13 @@
 ---
-description: 瞭解面板以及如何在Analysis Workspace中使用面板。
+description: 了解面板以及在 Analysis Workspace 中如何使用面板。
 title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2143'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="workspace_panel_realtime_refresh"
 >title="即時重新整理"
->abstract="啟用以即時重新整理此面板中的資料和視覺效果。"
+>abstract="啟用即可即時更新此面板的資料及視覺效果。"
 
 
 [!UICONTROL 面板]是表格與視覺效果的集合。您可以從 Workspace 左上角的圖示或[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)來存取面板。若您想要根據時段、資料檢視或分析使用案例來組織專案時，面板會很有幫助。
@@ -83,7 +83,7 @@ ht-degree: 98%
 
 ## 資料視圖
 
-每個面板都與一個[資料視圖](/help/data-views/data-views.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *資料視圖名稱&#x200B;*]**&#x200B;識別 (在面板右上方的下拉式選單中)。
+每個面板都與一個[資料視圖](/help/data-views/data-views.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *資料視圖名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
 
 當您建立空白 Workspace 專案時，初始面板的預設資料視圖是您上次在 Customer Journey Analytics 中使用的資料視圖。
 
@@ -125,7 +125,7 @@ ht-degree: 98%
      您可以選取括號中的文字 (例如&#x200B;**[!UICONTROL 固定開始 - 每天遞延]**) 以延長面板並指定&#x200B;**[!UICONTROL 開始]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;的詳細資訊。
 
       1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
-      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]**&#x200B;**[!UICONTROL 今年]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
+      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]****[!UICONTROL 今年]****[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
          * 選取目前的值。例如&#x200B;**[!UICONTROL 今年]**。
          * 選取一個值進行其他計算。例如，**[!UICONTROL 加]**。
          * 當您指定其他計算時，請指定一個值。例如 `1`。

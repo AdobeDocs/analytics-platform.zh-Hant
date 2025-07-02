@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace中的資料字典可讓使用者編目及追蹤Analysis Workspace中的各種元件，包括其預期用途、已核准、重複專案等。
+description: Analysis Workspace 中的資料字典允許使用者對 Analysis Workspace 中的各種元件建立目錄和進行追蹤，包括其預定用途、已核准的元件、重複的元件等等。
 title: 資料字典概觀
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
 source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="資料字典"
->abstract="資料字典可協助使用者和管理員追蹤及更瞭解其Customer Journey Analytics環境中的元件。 <br/>Customer Journey Analytics管理員負責組織資料字典中每個元件的相關資訊。"
+>abstract="資料字典可協助使用者與管理員追蹤和深入了解其 Customer Journey Analytics 環境中的元件。<br/>Customer Journey Analytics 管理員負責組織資料字典中每個元件的相關資訊。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace的資料字典](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}。
+請參閱![查看影片](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 的資料字典](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}來觀看示範影片。
 
 {{videoaa}}
 
@@ -58,7 +58,7 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 資料字典幫助系統管理員追蹤和管理其 Analytics 環境中的元件。
 
-Analytics管理員可將資料字典用於以下用途：
+Analytics 管理員可以使用資料字典作以下用途：
 
 * 識別需要合併的重複元件。
 
@@ -103,7 +103,7 @@ Customer Journey Analytics 管理員負責為其組織維護健康的資料字�
 
   如果您關閉並重新打開 Analysis Workspace，資料字典視窗將留在您上次移動的位置。<!--True?-->
 
-* 最小化視窗。
+* 將視窗最小化。
 
   最小化時，資料字典在 Analysis Workspace 的右下角顯示為藍色標籤。
 

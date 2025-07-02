@@ -1,14 +1,14 @@
 ---
-description: 瞭解如何在Analysis Workspace的資料夾中整理您的專案。
+description: 了解在 Analysis Workspace 中如何將專案整理成各個資料夾。
 keywords: Analysis Workspace
 title: 資料夾概觀
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Workspace 資料夾可協助您對專案進行組織和分類。使用資料夾功能，您可以建立資料夾和子資料夾來管理您的專案。
 
-當您已選取[顯示資料夾和專案](../freeform-overview.md#show-selector)時，可以在 Workspace 登陸頁面上使用 Customer Journey Analytics 資料夾。
+當您已選取「[顯示資料夾和專案](../freeform-overview.md#show-selector)」時，便可以在 Workspace 登陸頁面上使用 Customer Journey Analytics 的資料夾。
 
 Workspace 中有兩種類型資料夾：公司資料夾和個人資料夾。共用的公司資料夾可讓管理員建立內容並與所有 Workspace 使用者共用。
 
