@@ -8,7 +8,7 @@ role: User
 source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
 source-wordcount: '2089'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 97%
 
 * 使用該連結的收件者須先登入 Customer Journey Analytics，然後才能存取該專案。
 
-* 收件者若未被指派任何角色，且收到專案的[分享連結](/help/analysis-workspace/curate-share/shareable-links.md) （**[!UICONTROL 共用] > [!UICONTROL 取得專案連結]**），則預設會為其指派角色。 管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。
+* 收件者若未獲指派任何角色而收到專案的[共用連結](/help/analysis-workspace/curate-share/shareable-links.md) (「**[!UICONTROL 共用] > [!UICONTROL 取得專案連結]**」)，則會預設指定其角色。管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。
 
 若要與組織中的使用者共用專案連結：
 
@@ -161,7 +161,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3452476/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

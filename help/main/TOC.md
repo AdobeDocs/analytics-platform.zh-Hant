@@ -174,7 +174,7 @@ ht-degree: 98%
       + [針對專案發表評論](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [儲存專案](../analysis-workspace/build-workspace-project/save-projects.md)
       + [目錄](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
-      + Workspace 資料夾 {#workspace-folders}
+      + Workspace 的資料夾 {#workspace-folders}
          + [概觀](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [建立資料夾](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [管理資料夾](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
