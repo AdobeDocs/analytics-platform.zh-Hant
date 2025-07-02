@@ -32,7 +32,7 @@ ht-degree: 79%
 
 ### 對應變數
 
-將 Adobe Analytics 資料轉換為 Customer Journey Analytics 資料的最直接方法，是使用 [Analytics 來源連接器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)將[全域報告套裝](https://experienceleague.adobe.com/en/docs/analytics/implementation/prepare/global-rs)收錄到 Experience Platform。此連接器會將您的 Adobe Analytics 變數直接對應到 Experience Platform 中的 XDM 結構描述和資料集，這些結構描述和資料集可輕鬆連接到 Customer Journey Analytics。
+將 Adobe Analytics 資料轉換為 Customer Journey Analytics 資料的最直接方法，是使用 [Analytics 來源連接器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)將[全域報告套裝](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/prepare/global-rs)收錄到 Experience Platform。此連接器會將您的 Adobe Analytics 變數直接對應到 Experience Platform 中的 XDM 結構描述和資料集，這些結構描述和資料集可輕鬆連接到 Customer Journey Analytics。
 
 完整的全域報告套裝並不總能用於實施。如果您計劃將多個報表套件引入 Customer Journey Analytics，則有 2 個選項：
 
@@ -52,7 +52,7 @@ ht-degree: 79%
 
 * Customer Journey Analytics 的報告時間性質
 
-Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/mchannel-best-practices)。這些更新的推薦可幫助您透過進階歸因功能來充分利用Adobe Analytics中的現有功能。 這些建議也可讓您在轉換至Customer Journey Analytics時獲得成功。
+Adobe 已發佈[行銷管道實施的更新最佳實務](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/marketing-channels/mchannel-best-practices)。這些更新的推薦可幫助您透過進階歸因功能來充分利用Adobe Analytics中的現有功能。 這些建議也可讓您在轉換至Customer Journey Analytics時獲得成功。
 
 除了介紹[衍生欄位](../data-views/derived-fields/derived-fields.md)作為 Customer Journey Analytics 資料檢視的一部分，還能用[行銷管道功能範本](../data-views/derived-fields/derived-fields.md#function-templates)，以不具破壞性且可回溯的方式支援行銷管道。
 
@@ -66,7 +66,7 @@ Adobe Analytics 的報告依賴大量資料前置處理來產生結果，如您�
 
 [!UICONTROL 報告時間處理]開啟以下能力：套用可追溯的設定，以及建立多個版本的變數持續性，而無需變更基礎資料的收集方式。
 
-此轉換將導致報告資料的方式出現一些差異，特別是對於有效期較長的任何變數。 一開始可使用[虛擬報表套件](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-report-time-processing)，來評估報告時間處理可能產生的報告影響。
+此轉換將導致報告資料的方式出現一些差異，特別是對於有效期較長的任何變數。 一開始可使用[虛擬報表套件](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/virtual-report-suites/vrs-report-time-processing)，來評估報告時間處理可能產生的報告影響。
 
 ### 確定關鍵區段和計算量度 {#segments-calcmetrics}
 
@@ -82,9 +82,9 @@ Adobe Analytics 區段和計算量度與 Customer Journey Analytics 不相容。
 
 以下兩段影片協助提供指引：
 
-* [將 Adobe Analytics 區段移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
+* [將 Adobe Analytics 區段移至 Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=zh-Hant)
 
-* [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics)
+* [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics)
 
 ### 其他考量
 
