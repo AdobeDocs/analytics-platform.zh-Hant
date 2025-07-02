@@ -1,13 +1,13 @@
 ---
 title: 建立日期範圍
-description: 選擇日期範圍，以便在報告中使用。
+description: 瞭解如何建立可在Analysis Workspace中使用的日期範圍。
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 98%
+source-wordcount: '539'
+ht-degree: 94%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 98%
      ![遞延日期](assets/rolliing-dates.png)
 
       1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
-      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如： **&#x200B;**&#x200B;**[!UICONTROL 本季]**&#x200B;**[!UICONTROL 結束減去]** `20` **[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
+      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如： ******[!UICONTROL 本季]****[!UICONTROL 結束減去]** `20` **[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
          * 選取目前的值。例如&#x200B;**[!UICONTROL 目前季度]**。
          * 選取一個值進行其他計算。例如， **[!UICONTROL 減去]**。
          * 當您指定其他計算時，請指定一個值。例如，`20`。

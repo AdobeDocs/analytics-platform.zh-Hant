@@ -1,14 +1,14 @@
 ---
-title: Customer Journey Analytics 中有什麼元件？
+title: 元件概觀
 description: 了解 Customer Journey Analytics 提供哪些元件，以及如何在報告中使用這些元件。
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 100%
+source-wordcount: '908'
+ht-degree: 99%
 
 ---
 

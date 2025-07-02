@@ -1,13 +1,13 @@
 ---
 title: 建立註解
-description: 如何在 Workspace 中建立註解。
+description: 如何在Analysis Workspace中建立註解。
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
+source-git-commit: f3c9a000ae5baa19cb5a6cf0e0343de3a9685b56
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 98%
+source-wordcount: '874'
+ht-degree: 86%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="components_annotations_details"
 >title="註解詳細資料"
->abstract="註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。 註解讓您將行事曆事件和特定的維度/量度連結起來。"
+>abstract="註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。 註解可讓您將行事曆事件和特定的維度和量度連結起來。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +50,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="components_annotations_scope"
 >title="範圍"
->abstract="您可以透過範圍自訂將要新增註解的資料。計算量度和區段不會自動繼承套用至其定義中所用元件的註解。您可以將新的計算量度新增至現有註解的範圍區段。新區段需要新的註解。"
+>abstract="範圍可讓您自訂要加上註解的資料。 計算量度和區段不會自動繼承套用至其定義中所使用元件的註解。 您可以將新的計算量度新增至現有註解的範圍區段。新區段需要新的註解。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -62,11 +62,11 @@ ht-degree: 98%
 
 >[!TAB 註解產生器]
 
-![註解詳細資料視窗，顯示下一節中說明的欄位和選項。](assets/annotation-builder.png)
+![註解詳細資料視窗，顯示下一節中說明的欄位和選項。](assets/annotation-builder.png){zoomable="yes"}
 
->[!TAB 建立/編輯註解]
+>[!TAB 編輯註解]
 
-![註解詳細資料視窗，顯示下一節中說明的欄位和選項。](assets/create-edit-annotation.png)
+![註解詳細資料視窗，顯示下一節中說明的欄位和選項。](assets/create-edit-annotation.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -79,9 +79,9 @@ ht-degree: 98%
    | **[!UICONTROL 標題]**![Required](/help/assets/icons/Required.svg) | 為註解命名，例如，`Needs further investigation`。 |
    | **[!UICONTROL 說明]** | 提供註解說明，例如，`We never expected such a fluctuation in numbers.`。 |
    | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標記來組織註解。開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL Enter]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
-   | **[!UICONTROL 套用的日期]**![Required](/help/assets/icons/Required.svg) | 選取註解要顯示時所需的日期或日期範圍。當您使用快速鍵建立註解時，註解的預設日期範圍為那一天。當您使用視覺化呈現的選項建立註解時，註解的預設日期範圍是以視覺化呈現所屬面板之日期範圍為準。 |
+   | **[!UICONTROL 套用的日期]**![Required](/help/assets/icons/Required.svg) | 選取註解要顯示時所需的日期或日期範圍。當您使用快速鍵建立註解時，註解的預設日期範圍為那一天。當您使用視覺效果中的選取專案建立註解時，註解會根據視覺效果所屬面板的日期範圍預設為日期範圍。 |
    | **[!UICONTROL 顏色]** | 在註解上套用顏色。註解會顯示在所選取顏色的專案中。顏色可用於將註解分類，例如，國定假日、外部活動、追蹤問題等。 |
-   | **[!UICONTROL 範圍]** | 從元件面板拖放會觸發註解的量度。例如人員、工作階段和事件。然後從元件面板拖放任何維度或區段做為劃分，以確定註解顯示與否。如果您不指定範圍，註解將套用至您的所有資料。<br/>您有兩個選項︰<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發註解顯示的量度。<br/>例如，「收入」量度已停止收集指定日期範圍內的資料。將收入量度拖曳到此框中。</li><li>**[!UICONTROL 包含這所有的區段]**：最多拖放 10 個做為註解顯示時機之劃分的維度或區段。</li></ul><p><p>**請注意：**&#x200B;任何套用到元件且之後做為計算量度或區段定義一部分而使用的註解，都不會自動繼承該註解。必須將所需的計算量度也新增到範圍區段中，才能顯示該註解。不過，應該針對您想要加入相同資訊做為註解的任何區段建立新的註解。例如，您可將註解套用到特定日子的[!UICONTROL 訂單]。然後您在相同的日期範圍中，在計算量度中使用[!UICONTROL 訂單]。新的計算量度不會自動顯示訂單的註解。也需將計算量度新增至範圍區段中，才能顯示該註解。 |
+   | **[!UICONTROL 範圍]** | 從元件面板拖放會觸發註解的量度。例如，人員、工作階段和事件。 然後從元件面板拖放任何維度或區段做為劃分，以確定註解顯示與否。如果您不指定範圍，註解將套用至您的所有資料。<br/>您有兩個選項︰<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發註解顯示的量度。<br/>例如，收入量度已停止收集特定日期範圍的資料。 將收入量度拖曳到此框中。</li><li>**[!UICONTROL 包含這所有的區段]**：最多拖放 10 個做為註解顯示時機之劃分的維度或區段。</li></ul><p><p>**請注意：**&#x200B;任何套用到元件且之後做為計算量度或區段定義一部分而使用的註解，都不會自動繼承該註解。必須將所需的計算量度也新增到範圍區段中，才能顯示該註解。不過，應該針對您想要加入相同資訊做為註解的任何區段建立新的註解。例如，您可將註解套用到特定日子的[!UICONTROL 訂單]。然後您在相同的日期範圍中，在計算量度中使用[!UICONTROL 訂單]。新的計算量度不會自動顯示訂單的註解。也需將計算量度新增至範圍區段中，才能顯示該註解。 |
    | **[!UICONTROL 套用至所有資料視圖]** | 預設情況下，註解會套用到原始的資料視圖。勾選此方塊後，您就可以將註解套用至公司的所有資料視圖。 |
 
    {style="table-layout:auto"}

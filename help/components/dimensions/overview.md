@@ -1,12 +1,12 @@
 ---
 title: 維度概觀
-description: 了解何謂維度，以及其在 Customer Journey Analytics 中的使用方式
+description: 瞭解什麼是維度以及如何在Customer Journey Analytics中使用維度。
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: 6cabedc5ed58dac450577fc3505be5f95b7a959d
-workflow-type: ht
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
-description: 警示的使用案例。
+description: 檢閱建立及管理警報的部分使用案例。
 title: 警示使用案例
 feature: Workspace Basics
 role: User, Admin
 exl-id: 3aa5e38e-fa19-40aa-a537-d4da529e1bc7
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '110'
 ht-degree: 20%
 
 ---

@@ -1,13 +1,13 @@
 ---
-description: 了解有關 Adobe Analysis Workspace 的錯誤訊息以及如何進行疑難排解
-title: Analysis Workspace 中的常見錯誤和疑難排解
+description: 瞭解Analysis Workspace的錯誤和疑難排解。
+title: Analysis Workspace疑難排解中的錯誤
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+workflow-type: tm+mt
+source-wordcount: '583'
+ht-degree: 97%
 
 ---
 
@@ -36,4 +36,4 @@ ht-degree: 100%
 | 問題 | 如何進行疑難排解 |
 |---|---|
 | 我將量度拖曳到專案後，系統顯示&#x200B;*資料無效*。 | 資料無效代表 Adobe 無法運用報表中使用的維度和量度組合傳回資料。舉例來說，將兩個量度彼此堆疊在一起就無法傳回資料，因為系統無法以這種方式顯示兩個量度。因此，請改為並排放置量度。 |
-| 我將量度拖曳到專案後，系統並未顯示任何實際資料，只顯示零。 | 如果您成功建立 Workspace 報告，但當中沒有任何資料，建議您檢查以下幾個事項：<ul><li>如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。請嘗試移除區段或調整區段定義。</li><li>檢查右上角的日期範圍，確認已設為您預期的值。</li><li>導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)驗證有確實收集資料。</li></ul> |
+| 我將量度拖曳到專案後，系統並未顯示任何實際資料，只顯示零。 | 如果您成功建立 Workspace 報告，但當中沒有任何資料，建議您檢查以下幾個事項：<ul><li>如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。請嘗試移除區段或調整區段定義。</li><li>檢查右上角的日期範圍，確認已設為您預期的值。</li><li>導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)驗證有確實收集資料。</li></ul> |

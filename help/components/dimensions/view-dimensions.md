@@ -1,17 +1,17 @@
 ---
-description: 這會顯示非時間維度的前 5 個值 (而時間維度則是前 15 個值)。
-title: 如何在Customer Journey AnalyticsWorkspace中預覽維度
+description: 瞭解如何在Analysis Workspace中檢視詳細資料和維度的最高值。
+title: 預覽維度
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 18%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
-# 在 Analysis Workspace 中預覽維度
+# 預覽維度
 
 您可以使用元件的[元件資訊](/help/components/use-components-in-workspace.md#component-info)來顯示維度的排名最前的專案。
 

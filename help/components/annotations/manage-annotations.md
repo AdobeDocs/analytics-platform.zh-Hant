@@ -1,13 +1,13 @@
 ---
 title: 管理註解
-description: 如何在 Workspace 中管理註解。
+description: 如何在Analysis Workspace中管理註解。
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
-workflow-type: ht
-source-wordcount: '764'
-ht-degree: 100%
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+workflow-type: tm+mt
+source-wordcount: '761'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ### 註解清單
 
-註解清單➊會顯示您所擁有的所有註解、納入您所有專案範圍的註解，以及與您共用的註解。清單有以下欄位：
+註解清單➊會顯示您擁有的所有註解、已設定您所有專案範圍的註解，以及與您共用的註解。 清單有以下欄位：
 
 | 欄 | 說明 |
 | --- | --- | 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ### 動作列
 
-您可以使用動作列➋對註解執行動作。動作列包含以下動作：
+您可以使用動作列➋對註解進行動作。 動作列包含以下動作：
 
 | 圖示 | 動作 | 說明 |
 |:--:|---|---|
@@ -65,11 +65,11 @@ ht-degree: 100%
 
 ### 使用中的篩選欄
 
-篩選欄➌顯示使用中的篩選條件 (如果有)。您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選條件。如果指定多個篩選條件，您可以使用&#x200B;**[!UICONTROL 移除全部]**&#x200B;來移除所有篩選條件。
+篩選器列➌顯示作用中的篩選器（如果有的話）。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選條件。如果指定多個篩選條件，您可以使用&#x200B;**[!UICONTROL 移除全部]**&#x200B;來移除所有篩選條件。
 
 ### 篩選面板
 
-您可以使用&#x200B;**[!UICONTROL 篩選]**&#x200B;左側面板➍來篩選註解。篩選面板顯示篩選的類型和執行該篩選的註解數量。選取![Filter](/help/assets/icons/Filter.svg)以切換篩選面板的顯示內容。
+您可以使用&#x200B;**[!UICONTROL 篩選器]**&#x200B;左側面板➍來篩選註解。 篩選面板顯示篩選的類型和執行該篩選的註解數量。選取![Filter](/help/assets/icons/Filter.svg)以切換篩選面板的顯示內容。
 
 若要對篩選清單進行篩選：
 

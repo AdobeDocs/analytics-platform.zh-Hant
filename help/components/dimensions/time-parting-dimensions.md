@@ -1,17 +1,17 @@
 ---
-description: 「時間分段」功能會擷取所收集事件的時間戳記，並採用更有意義的維度加以分段，例如「小時」或「星期」。
-title: 時間分隔維度
+description: 瞭解時間分段維度如何取得所收集事件的時間戳記，並將其劃分為更有意義的維度，例如一天中的小時或星期幾。
+title: 時間分段維度
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 58%
+ht-degree: 61%
 
 ---
 
-# Analysis Workspace中的時間分段維度
+# 時間分隔維度
 
 「時間分段」功能會擷取所收集事件的時間戳記，並採用更有意義的維度加以分段，例如&#x200B;**小時**&#x200B;或&#x200B;**星期**。
 
@@ -24,11 +24,11 @@ ht-degree: 58%
 
 | 維度 | 範例值 |
 |--- |--- |
-| **[!UICONTROL 小時]** | 0-23 |
+| **[!UICONTROL 當天幾點]** | 0-23 |
 | **[!UICONTROL 上午/下午]** | 上午、下午 |
-| **[!UICONTROL 星期]** | 星期一、星期二、星期三、星期四、星期五、星期六、星期日 |
+| **[!UICONTROL 星期幾]** | 星期一、星期二、星期三、星期四、星期五、星期六、星期日 |
 | **[!UICONTROL 平日/週末]** | 平日、週末 |
-| **[!UICONTROL 日期]** | 1-31 |
-| **[!UICONTROL 月份]** | 1月至 12 月 |
+| **[!UICONTROL 幾月幾號]** | 1-31 |
+| **[!UICONTROL 一年中的月份]** | 1月至 12 月 |
 | **[!UICONTROL 一年當中的第幾天]** | 1-366 |
-| **[!UICONTROL 季別]** | 第 1 季、第 2 季、第 3 季、第 4 季 |
+| **[!UICONTROL 一年中的季度]** | 第 1 季、第 2 季、第 3 季、第 4 季 |

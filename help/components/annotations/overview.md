@@ -1,24 +1,24 @@
 ---
-title: 註解總覽
-description: 如何在 Workspace 中使用註解。
+title: 註解概述
+description: 如何在Analysis Workspace中使用註解。
 solution: Customer Journey Analytics
 feature: Components
 exl-id: a87f6968-27a5-4595-be4f-0a38e03b9398
 role: User
-source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
-workflow-type: ht
-source-wordcount: '318'
-ht-degree: 100%
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 97%
 
 ---
 
-# 註解總覽
+# 註解概觀
 
 您可以利用註解，有效地向組織中其他利害關係人傳達內容相關資料的細微差別和深入分析。您可以利用註解，將行事曆事件與特定維度和量度連結。您可以用已知的資料問題、國定假日、行銷活動啟動等，針對日期或日期範圍加入註解。接著，您可以使用圖形方式顯示事件，並查看行銷活動或其他事件是否已對您的網站流量、行動應用程式使用情形、收入或任何其他量度造成影響。
 
 例如，您與您的組織共用專案。如果您的建議方案不被接受而發生重大失敗，您可以建立一個&#x200B;**不良建議方案**&#x200B;註解，並將其設為整個資料釋圖的顯示範圍。您的使用者檢視包含該日期的任何資料集時，會在他們的專案中看到該註解以及他們的資料。
 
-![醒目提示註解的折線圖。](assets/annotation-example.png)
+![折線圖及醒目標示的註解。](assets/annotation-example.png)
 
 註解可以適用於：
 

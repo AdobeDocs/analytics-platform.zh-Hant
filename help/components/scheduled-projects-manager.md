@@ -1,13 +1,13 @@
 ---
-description: 在 Analysis Workspace 中使用量度有兩種方式。
-title: 量度
+description: 瞭解如何管理排程專案。
+title: 計劃的專案
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 42%
+source-wordcount: '787'
+ht-degree: 41%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 42%
 
 ## 篩選器
 
-您可以使用篩選面板➌來篩選排程專案[排程專案清單](#scheduled-project-list)。 若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
+您可以使用篩選面板[來篩選排程專案](#scheduled-project-list)排程專案清單➌。 若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
 
 篩選器面板由以下部分組成。
 

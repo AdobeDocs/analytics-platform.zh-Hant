@@ -1,13 +1,13 @@
 ---
 title: 檢視註解
-description: 如何在 Workspace 中檢視註解。
+description: 如何在Analysis Workspace中檢視註解。
 role: User
 feature: Components
 exl-id: c0e4fb37-b20c-463c-b29a-310ca3adb2c7
-source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 90%
+source-wordcount: '219'
+ht-degree: 86%
 
 ---
 

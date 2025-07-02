@@ -1,14 +1,14 @@
 ---
-title: Customer Journey Analytics 的資料檢視使用案例
-description: 多個使用案例顯示 Customer Journey Analytics 中資料檢視的彈性和功能
+title: 資料檢視使用案例
+description: 瞭解多個使用案例，這些案例顯示Customer Journey Analytics中資料檢視的彈性和功能
 exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
+source-git-commit: 0e9dc47b80db142801a94dcbf31470d99a610949
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 33%
+source-wordcount: '1358'
+ht-degree: 30%
 
 ---
 
@@ -34,12 +34,12 @@ ht-degree: 33%
 
 
 
-1. 在「**[!UICONTROL 元件]**」標籤上，將「**[!UICONTROL 頁面標題]**」拖曳至「[!UICONTROL 包含的元件]」下的「**[!UICONTROL Metrics]**」區段。
-1. 反白標示您剛才拖曳的量度，並將其重新命名為&#x200B;**[!UICONTROL 元件設定]**&#x200B;中的`Orders`
+1. 在「**[!UICONTROL 元件]**」標籤上，將「**[!UICONTROL 頁面標題]**」拖曳至「**[!UICONTROL 包含的元件]**」下的「[!UICONTROL Metrics]」區段。
+1. 反白標示您剛才拖曳的量度，並將其重新命名為`Orders`元件設定&#x200B;**[!UICONTROL 中的]**
 1. 開啟&#x200B;**[!UICONTROL 包含/排除值]**&#x200B;區段並指定下列專案：
    1. 啟用&#x200B;**[!UICONTROL 設定包含排除值]**。
    1. 從&#x200B;**[!UICONTROL 符合]**&#x200B;中選取&#x200B;**[!UICONTROL 如果所有條件都符合]**。
-   1. 指定`confirmation`。 **[!UICONTROL page_title]**&#x200B;的文字表示此頁面與下訂單有關。 在檢閱符合這些條件的所有頁面標題後，每個執行個體都會計算`1`。 此結果是新量度（而非計算量度）。具有包含/排除值的量度可用於任何其他量度的任何地方。 它適用於Attribution IQ、區段，以及您可使用標準量度的其他任何地方。
+   1. 指定`confirmation`。 **[!UICONTROL page_title]**&#x200B;的文字表示此頁面與下訂單有關。 在檢閱符合這些條件的所有頁面標題後，每個執行個體都會計算`1`。 此結果是新量度（而非計算量度）。具有包含/排除值的量度可用於任何其他量度的任何地方。 這些量度可與歸因、區段搭配使用，以及您可使用標準量度的其他任何地方。
 
    ![Dimension至量度](../assets/string-to-metric.gif){width=100%}
 1. 您可以進一步指定此量度的歸因模型，例如 「[!UICONTROL 上次接觸]」，並具有「[!UICONTROL 工作階段]」的 [!UICONTROL 「回顧」視窗]。您也可以從相同欄位建立另一個[!UICONTROL 訂單]量度，並指定不同的歸因模型。 例如[!UICONTROL 首次接觸]，以及不同的[!UICONTROL 回顧期間]，例如[!UICONTROL 30天]。
@@ -52,7 +52,7 @@ ht-degree: 33%
 
 
 
-1. 將&#x200B;**[!UICONTROL 期間]**&#x200B;整數拖曳至[!UICONTROL 包含的元件]下的&#x200B;**[!UICONTROL 維度]**&#x200B;區段：
+1. 將&#x200B;**[!UICONTROL 期間]**&#x200B;整數拖曳至&#x200B;**[!UICONTROL 包含的元件]**&#x200B;下的[!UICONTROL 維度]區段：
 1. 您現在可以新增「**[!UICONTROL 值分組]**」，在報告中以分組方式呈現此維度。若未進行分組，此維度的每個例項都會顯示為Workspace報告中的條列專案。
    ![整數至維度](../assets/integer-to-dimension.gif){width=100%}
 
@@ -61,7 +61,7 @@ ht-degree: 33%
 
 您可以使用數值維度，將量度放入您的[!UICONTROL 流量]視覺效果中。
 
-1. 在「資料檢視[元件](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將「行銷管道」結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。
+1. 在「資料檢視[元件](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將「行銷管道」]結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。[!UICONTROL 
 2. 在工作區報表中，此流量顯示流入[!UICONTROL 訂單]的[!UICONTROL 行銷管道]:
 
 ![行銷管道流量從電子郵件到結束/訂單。](../assets/flow.png)
@@ -72,20 +72,20 @@ ht-degree: 33%
 
 例如，使用資料檢視中的包含/排除功能，僅聚焦於產生的銷售額超過$50美元的產品。 因此，如果您的訂單包括$50的產品購買和$25的產品購買，則包含/排除功能會移除$25的產品購買，而非整個訂單。
 
-1. 在「資料檢視[元件](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將&#x200B;**[!UICONTROL 收入]**&#x200B;結構欄位拖曳至[!UICONTROL 包含的元件]下的&#x200B;**[!UICONTROL 量度]**&#x200B;區域。
+1. 在「資料檢視[元件](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將&#x200B;**[!UICONTROL 收入]**&#x200B;結構欄位拖曳至[!UICONTROL 包含的元件]下的&#x200B;**[!UICONTROL 量度]**&#x200B;區域。
 1. 選取量度並在右側設定下列項目：
-a.在&#x200B;**[!UICONTROL Format]**&#x200B;下，選擇&#x200B;**[!UICONTROL Currency]**。
-b.在&#x200B;**[!UICONTROL 貨幣]**&#x200B;下，選取&#x200B;**[!UICONTROL USD]**。
-c.在&#x200B;**[!UICONTROL 包含/排除值]**&#x200B;下，選取&#x200B;**[!UICONTROL 設定包含/排除值]**&#x200B;旁的核取方塊。
-d.在&#x200B;**[!UICONTROL Match]**&#x200B;下，選擇&#x200B;**[!UICONTROL 如果所有條件都滿足]**。
-e.在&#x200B;**[!UICONTROL 條件]**&#x200B;下，選擇&#x200B;**[!UICONTROL 大於或等於]**。
+a.在**[!UICONTROL Format]**&#x200B;下，選擇&#x200B;**[!UICONTROL Currency]**。
+b.在**[!UICONTROL 貨幣]**&#x200B;下，選取&#x200B;**[!UICONTROL USD]**。
+c.在**[!UICONTROL 包含/排除值]**&#x200B;下，選取&#x200B;**[!UICONTROL 設定包含/排除值]**旁的核取方塊。
+d.在**[!UICONTROL Match]**&#x200B;下，選擇&#x200B;**[!UICONTROL 如果所有條件都滿足]**。
+e.在**[!UICONTROL 條件]**&#x200B;下，選擇&#x200B;**[!UICONTROL 大於或等於]**。
 f.指定`50`作為值。
 
 這些新設定可讓您檢視僅限高收入的資料，並篩選掉低於 $50 美元的所有資料。
 
 ## 使用[!UICONTROL 無值選項]設定 {#no-value}
 
-貴公司可能已花了一些時間來訓練您的使用者，以期望報表中的維度會是「未指定」。 資料檢視中維度的預設值為「沒有值」。 不過，您可以為每個維度指定無值的報告方式。 請參閱維度元件的「沒有值」選項。
+貴公司可能已花了一些時間來訓練您的使用者，以期望報表中的維度會是「未指定」。 資料檢視中維度的預設值為&#x200B;*沒有值*。 不過，您可以為每個維度指定無值的報告方式。 檢視維度元件的&#x200B;**[!UICONTROL 沒有值]**&#x200B;選項。
 
 ![沒有值選項](../assets/no-value-options.gif){width=100%}
 
@@ -110,11 +110,11 @@ f.指定`50`作為值。
 
 有一個維度和兩個指標能協助此報告：
 
-* [工作階段型別](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-reference) — 此維度有兩個值： [!UICONTROL 新的]和[!UICONTROL 回訪]。 [!UICONTROL 新]條列專案包含已確定為個人定義的首次工作階段的工作階段中的所有行為（亦即針對此維度的量度）。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
+* [工作階段型別](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) — 此維度有兩個值： [!UICONTROL 新的]和[!UICONTROL 回訪]。 [!UICONTROL 新]條列專案包含已確定為個人定義的首次工作階段的工作階段中的所有行為（亦即針對此維度的量度）。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
 
-* [首次工作階段](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-reference)。 首次工作階段量度定義為個人在報告時段內定義的首次工作階段。
+* [首次工作階段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference)。 首次工作階段量度定義為個人在報告時段內定義的首次工作階段。
 
-* [回訪工作階段](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-reference)回訪工作階段量度是非個人首次工作階段的工作階段數量。—>
+* [回訪工作階段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference)回訪工作階段量度是非個人首次工作階段的工作階段數量。—>
 
 若要存取元件：
 
@@ -125,8 +125,7 @@ f.指定`50`作為值。
 新工作階段幾乎總是會準確報告。 唯一例外情況如下：
 
 * 首次工作階段發生在 13 個月的回溯期之前。 <br/>已忽略此工作階段。
-
-* 工作階段同時橫跨回溯期和報告時段時。 <br/>例如，您在2022年6月1日至6月15日期間執行報告。 回顧期間將為從2021年5月1日到2022年5月31日。 如果工作階段在2022年5月30日開始並在2022年6月1日結束，則該工作階段包含在回顧視窗中。 而報告時段中的所有工作階段都會計為傳回工作階段。
+* 工作階段同時橫跨回顧期間和報告期間時。<br/>例如，您從2022年6月1日到2022年6月15日執行報表。 回顧期間將為從2021年5月1日到2022年5月31日。 如果工作階段在2022年5月30日開始並在2022年6月1日結束，則該工作階段包含在回顧視窗中。 而報告時段中的所有工作階段都會計為傳回工作階段。
 
 ## 使用日期和日期-時間功能 {#date}
 

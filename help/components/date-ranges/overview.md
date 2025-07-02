@@ -1,17 +1,17 @@
 ---
-title: 日期範圍總覽
-description: 了解日期範圍以及您如何在報告中使用它們。
+description: 使用日曆和資料範圍在Analysis Workspace中指定日期範圍。
+title: 日期範圍概觀
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
-source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
-workflow-type: ht
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
-# 日期範圍總覽
+# 日期範圍概觀
 
 在 Workspace 專案中，您通常會使用[面板中的行事曆](/help/analysis-workspace/c-panels/panels.md#calendar)來指定該面板中視覺效果的日期範圍。
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/3445840?format=jpeg&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
 
 {{videoaa}}
 +++
