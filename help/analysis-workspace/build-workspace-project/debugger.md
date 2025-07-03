@@ -75,7 +75,7 @@ ht-degree: 3%
    * JSON (回應)
    * Curl 請求
 
-1. 使用![cURL請求](/help/assets/icons/Copy.svg)下的[!UICONTROL 複製] ****[!UICONTROL 複製到剪貼簿]****d，將請求複製到剪貼簿。
+1. 使用![cURL請求](/help/assets/icons/Copy.svg)下的[!UICONTROL 複製] **&#x200B;**&#x200B;[!UICONTROL 複製到剪貼簿]&#x200B;**&#x200B;**&#x200B;d，將請求複製到剪貼簿。
 1. 將游標暫留在任何&#x200B;**[!UICONTROL 要求]**&#x200B;或&#x200B;**[!UICONTROL 回應]**&#x200B;文字區域上以顯示並選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL 複製到剪貼簿]**，將該文字區域（XML或JSON）的內容複製到剪貼簿。
 
 1. 交換您已複製以及哪個Adobe支援請求的任何資訊，以疑難排解Analysis Workspace專案中的視覺效果。
