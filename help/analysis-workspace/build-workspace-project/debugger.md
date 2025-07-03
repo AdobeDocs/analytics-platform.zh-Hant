@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: 專案偵錯工具
 role: User
-source-git-commit: 4d902bab01c1c795cb7d852066128f6b9db0823a
+source-git-commit: ae8c1fb127accae53ab9363a8cceedd5221a245b
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->若要使用偵錯工具，您必須擁有&#x200B;**編輯**&#x200B;或&#x200B;**複製** [專案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-25744)的存取權。
+>若要使用偵錯工具，您必須擁有&#x200B;**編輯**&#x200B;或&#x200B;**複製** [專案](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25744)的存取權。
 >
 
 
@@ -75,7 +75,7 @@ ht-degree: 3%
    * JSON (回應)
    * Curl 請求
 
-1. 使用![cURL請求](/help/assets/icons/Copy.svg)下的[!UICONTROL 複製] **&#x200B;**&#x200B;[!UICONTROL 複製到剪貼簿]&#x200B;**&#x200B;**&#x200B;d，將請求複製到剪貼簿。
+1. 在![cURL請求](/help/assets/icons/Copy.svg)下使用&#x200B;**[!UICONTROL 複製]** **[!UICONTROL 複製到剪貼簿]**，將請求複製到剪貼簿。
 1. 將游標暫留在任何&#x200B;**[!UICONTROL 要求]**&#x200B;或&#x200B;**[!UICONTROL 回應]**&#x200B;文字區域上以顯示並選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL 複製到剪貼簿]**，將該文字區域（XML或JSON）的內容複製到剪貼簿。
 
 1. 交換您已複製以及哪個Adobe支援請求的任何資訊，以疑難排解Analysis Workspace專案中的視覺效果。
