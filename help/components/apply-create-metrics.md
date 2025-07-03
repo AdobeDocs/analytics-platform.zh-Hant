@@ -1,13 +1,13 @@
 ---
-description: 瞭解各項量度，以及如何在Adobe Analytics中使用量度。
+description: 瞭解各項量度，以及如何在Analysis Workspace中使用量度。
 title: 量度
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: f3c9a000ae5baa19cb5a6cf0e0343de3a9685b56
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 8%
+source-wordcount: '868'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 ## 在 Analysis Workspace 中使用量度
 
-量度在Analysis Workspace中的使用有彈性。 將量度拖曳至空白的自由格式表格，以檢視專案日期期間的量度趨勢。 您也可以拖曳出現維度時的量度，以檢視該量度與每個維度專案的比較情形。 將量度拖曳至現有量度標頭上方，會取代現有量度，而將量度拖曳至標頭旁，可讓您並排看到兩個量度。
+量度在Analysis Workspace中的使用有彈性。 將量度拖曳至空白的自由格式表格，以檢視專案日期期間的量度趨勢。 您也可以拖曳出現維度時的量度，以檢視與每個維度專案比較的量度。 將量度拖曳至現有量度標頭上方會取代量度，並將量度拖曳至標頭旁，可讓您並排看到兩個量度。
 
 如需有關如何將量度和其他型別的元件新增到Analysis Workspace的資訊，請參閱[在Analysis Workspace中使用元件](/help/components/use-components-in-workspace.md)。
 
@@ -27,11 +27,17 @@ ht-degree: 8%
 Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 
-* **標準量度**：標準量度的範例為「人員」、「工作階段」、「事件」、[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}帳戶。
+* **標準量度**：標準量度的範例為人員、工作階段、事件。
 
-  與Adobe Analytics不同，Customer Journey Analytics可讓您在連線和資料檢視範圍內，以靈活的方式定義標準量度。  如需標準量度的完整清單，請參閱[標準量度](#standard-metrics)。
+  與Adobe Analytics不同，Customer Journey Analytics可讓您在連線和資料檢視範圍內，以靈活的方式定義標準量度。
 
-* **計算量度** ![電腦](/help/assets/icons/Calculator.svg)： [以標準量度、靜態數字或演演算法函式為基礎的使用者定義量度](/help/components/calc-metrics/calc-metr-overview.md)。
+   * **人員**： Customer Journey Analytics中的人員量度是人員ID的相異計數。 當您在連線中設定資料集時，根據您選擇做為人員ID的內容，人員量度可能有不同的意義。
+   * Customer Journey Analytics **工作階段**：您會在資料檢視中定義工作階段量度，做為工作階段設定組態的一部分。 請參閱[工作階段設定](/help/data-views/session-settings.md)。
+   * **事件**： Customer Journey Analytics中的事件量度是由事件所組成，這些事件是您已設定為連線之一部分的任何事件資料集的一部分。
+
+  如需標準量度的完整清單，請參閱[標準量度](#standard-metrics)。
+
+* **計算量度** ![電腦](/help/assets/icons/Calculator.svg)：以標準量度、靜態數字或演演算法函式為基礎的使用者定義量度。
 
 * **計算量度範本** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) ：Adobe定義的量度，其行為與計算量度類似。 您可以在Workspace專案中照原樣使用，或儲存復本來自訂邏輯。 請參閱[預設計算量度](calc-metrics/cm-workflow/../default-calcmetrics.md)。
 
@@ -46,7 +52,7 @@ Customer Journey Analytics中的標準量度完整清單：
 
 ## 建立計算量度
 
-計算量度可讓您使用簡單的運運算元或統計函式，設定量度彼此間的關聯方式。 如需詳細資訊，請參閱[計算量度概觀](/help/components/calc-metrics/calc-metr-overview.md)。
+計算量度可讓您使用簡單的運運算元或統計函式，輕鬆設定量度彼此間的關聯性。 如需詳細資訊，請參閱[計算量度概觀](/help/components/calc-metrics/calc-metr-overview.md)。
 
 建立計算量度有數種方式。 您選擇的方法會決定計算量度是否可從所有專案的元件清單中使用，或僅用於建立該量度的專案。
 
@@ -76,15 +82,15 @@ Customer Journey Analytics中的標準量度完整清單：
 
    選取單一欄時，可使用下列選項：
 
-   * [!UICONTROL **平均值**]：建立新資料行，以顯示資料行維度元素集合中的平均值。 此資料行值使用[Mean](/help/components/calc-metrics/cm-functions.md#mean)函式。
+   * [!UICONTROL **平均值**]：建立新資料行，以顯示資料行維度元素集合中的平均值。 這會使用[Mean](/help/components/calc-metrics/cm-functions.md#mean)函式。
 
-   * [!UICONTROL **中位數**]：建立新資料行，顯示資料行維度元素集合的中位值。 此資料行值使用[Median](/help/components/calc-metrics/cm-functions.md#median)函式。
+   * [!UICONTROL **中位數**]：建立新資料行，顯示資料行維度元素集合的中位值。 這會使用[Median](/help/components/calc-metrics/cm-functions.md#median)函式。
 
-   * [!UICONTROL **資料行max**]：建立新資料行，以顯示資料行維度元素集合中的最大值。 此資料行值使用[Column Maximum](/help/components/calc-metrics/cm-functions.md#column-maximum)函式。
+   * [!UICONTROL **資料行max**]：建立新資料行，以顯示資料行維度元素集合中的最大值。 這會使用[Column Maximum](/help/components/calc-metrics/cm-functions.md#column-maximum)函式。
 
-   * [!UICONTROL **資料行min**]：建立新資料行，以顯示資料行維度元素集合中的最小值。 此資料行值使用[資料行最小值](/help/components/calc-metrics/cm-functions.md#column-minimum)函式。
+   * [!UICONTROL **資料行min**]：建立新資料行，以顯示資料行維度元素集合中的最小值。 這會使用[Column Minimum](/help/components/calc-metrics/cm-functions.md#column-minimum)函式。
 
-   * [!UICONTROL **資料行總和**]：建立新資料行，將資料行內量度的所有數值相加（跨越維度元素）。 此資料行值使用[資料行Sum](/help/components/calc-metrics/cm-functions.md#column-sum)函式。
+   * [!UICONTROL **資料行總和**]：建立新資料行，將資料行內量度的所有數值相加（跨越維度元素）。 這會使用[資料行Sum](/help/components/calc-metrics/cm-functions.md#column-sum)函式。
 
    選取兩欄時，可使用下列選項：
 

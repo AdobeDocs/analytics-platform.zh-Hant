@@ -1,17 +1,17 @@
 ---
 description: 如何變更視覺化調色盤或指定您自己的自訂調色盤。
-title: 視覺效果調色盤
+title: 視覺化調色盤
 feature: Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
-# 視覺化調色盤 {#visualization-color-palette}
+# 視覺效果調色盤 {#visualization-color-palettes}
 
 <!-- markdownlint-disable MD034 -->
 

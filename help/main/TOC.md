@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 98%
+source-wordcount: '1249'
+ht-degree: 99%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 98%
          + [Web SDK 實施選項](/help/getting-started/cja-upgrade/cja-upgrade-websdk-implementation.md)
          + [設定 Adobe Analytics Web SDK for Platform](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)
          + [使用 Adobe Journey Optimizer 進行個人化](/help/getting-started/cja-upgrade/cja-upgrade-personalization-journeyoptimizer.md)
-   + 與Adobe Analytics比較 {#cja-aa-comparison}
+   + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
       + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [功能支援](../getting-started/aa-vs-cja/cja-aa.md)
@@ -168,7 +168,7 @@ ht-degree: 98%
    + [執行進階分析](../analysis-workspace/perform-adv-analysis.md)
    + 專案 {#build-workspace-project}
       + [概觀](../analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [快速啟動專案](/help/analysis-workspace/build-workspace-project/starter-projects.md)
+      + [快速開始專案](/help/analysis-workspace/build-workspace-project/starter-projects.md)
       + [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [開啟專案](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [針對專案發表評論](/help/analysis-workspace/build-workspace-project/comment-projects.md)
@@ -182,6 +182,7 @@ ht-degree: 98%
       + [快捷鍵](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](../analysis-workspace/build-workspace-project/view-density.md)
+      + [除錯程式](../analysis-workspace/build-workspace-project/debugger.md)
    + 範本 {#templates}
       + [使用範本](../analysis-workspace/templates/use-templates.md)
       + [建立和管理範本](../analysis-workspace/templates/create-templates.md)
@@ -242,7 +243,7 @@ ht-degree: 98%
       + [媒體播放時間](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [下一個或上一個項目](../analysis-workspace/c-panels/next-previous.md)
       + [快速深入分析](../analysis-workspace/c-panels/quickinsight.md)
-   + 組織與共用 {#curate-share}
+   + 鑑選和共用 {#curate-share}
       + [概觀](../analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](../analysis-workspace/curate-share/curate.md)
       + [共用專案](../analysis-workspace/curate-share/share-projects.md)
@@ -252,7 +253,7 @@ ht-degree: 98%
       + [概觀](../analysis-workspace/export/export-project-overview.md)
       + [下載](../analysis-workspace/export/download-send.md)
       + [傳送和排程](../analysis-workspace/export/t-schedule-report.md)
-      + [匯出到雲端](../analysis-workspace/export/export-cloud.md)
+      + [匯出至雲端](../analysis-workspace/export/export-cloud.md)
    + 異常偵測 {#anomaly-detection}
       + [概觀](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [檢視異常](../analysis-workspace/c-anomaly-detection/view-anomalies.md)

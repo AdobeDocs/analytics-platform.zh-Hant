@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: e19151a7b0c3ab2f9e532034d329896768ee095f
-workflow-type: ht
-source-wordcount: '1972'
-ht-degree: 100%
+source-git-commit: 3c3fd6b814485871f2fd9249b0ffa9a0b24a360c
+workflow-type: tm+mt
+source-wordcount: '2371'
+ht-degree: 83%
 
 ---
 
@@ -229,26 +229,24 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 -->
 
-<!--
-## Configuration best practices
 
-Below are best practices for your Customer Journey Analytics configuration (data view, calculated metrics, segments, and more) to ensure the Data Insights Agent can locate the correct components and return cleaner answers without having you to prompt for additional information.
+## 設定最佳實務
 
-* **Balance what components you need**. Do not add all the fields of your datasets as metrics or dimension components to your data view. Especially, those you most certainly will not use in your analysis. On the other hand, do not strictly limit yourself only to the fields you anticipate you require for your analysis. A too limited data view restricts the flexibility in your analysis and the Data Insight's agent functionality.
-* **Always use friendly display names**. Ensure that all fields you define in your data view, either as a metrics or dimension component, do have a friendly component name. The process of renaming fields with a friendly name is especially relevant for fields from Adobe Analytics source connector datasets. These fields often have non-friendly unidentifiable names like `eVar41`, or `prop25`.
-* **Use distinctive names**. Distinctive names are especially relevant when you use a field both as a metric and a dimension component in your data view. Or when you use a field in multiple components, each with different component settings. 
-* **Use a component naming convention**. You can use a component naming convention to group components. For example, **[!UICONTROL Orders | Product]** and  **[!UICONTROL Orders | Customer]** to distinguish between different order metrics that might exist in your data.
-* **Use the Data Dictionary**. Add description and other relevant data for components in the Data Dictionary. The Data Insight agent currently does not use description and tags. but might use Data Dictionary description and tags in the future. 
-* **Use approved calculated metrics**. Agree on a process to use only approved calculated metrics as components in your data view, and avoid using experimental calculated metrics.
-* **Share required segments**. Ensure you share segments and make segments visible that are required for Data Insights agent prompts.
-* **Standardize on component names across data views**. If you use the same fields as a component in multiple data views, ensure you use a single friendly name and a single identifier for that component. A single name and identifier allows the Data Insights agent to switch data views without losing context.
+以下是您的Customer Journey Analytics設定（資料檢視、計算量度、區段等）最佳作法，以確保Data Insights Agent可找到正確的元件，並傳回較乾淨的答案，而不必提示您輸入其他資訊。
+
+* **平衡您需要的元件**。 請勿將資料集的所有欄位新增為量度或維度元件至資料檢視。 尤其是您絕不會在分析中使用的分析。 另一方面，請勿嚴格限制自己只能使用您預期分析所需的欄位。 資料檢視過份受限，限制您分析和Data Insights Agent功能的彈性。
+* **永遠使用好記的顯示名稱**。 確定您在資料檢視中定義的所有欄位（做為量度或維度元件）都有好記的元件名稱。 以易記名稱重新命名欄位的程式與Adobe Analytics來源聯結器資料集中的欄位尤其相關。 這些欄位通常具有不友好的無法識別名稱，例如`eVar41`或`prop25`。
+* **使用特殊名稱**。 當您在資料檢視中同時使用相同欄位作為量度和維度元件時，獨特名稱會特別相關。 或者，當您在相同型別的多個元件中使用欄位時（例如在兩個不同的量度中），每個元件都有不同的元件設定。
+* **使用元件命名慣例**。 您可以使用元件命名慣例來群組元件。 例如，**[!UICONTROL 個訂單 | 產品]**&#x200B;與&#x200B;**[!UICONTROL 訂單 | 客戶]**&#x200B;可以區分您的資料中可能存在的不同訂購量度。
+* **使用資料字典**。 為資料字典中的元件新增說明和其他相關資料。 資料Insight代理程式目前不使用資料字典中的說明和標籤，但未來可能會使用。
+* **使用核准的計算量度**。 同意僅使用核准的計算量度作為資料檢視中元件的程式，並避免使用實驗性的計算量度。
+* **共用必要的區段**。 確保您共用Data Insights Agent提示所需的區段並加以顯示。
+* **跨資料檢視標準化元件名稱**。 如果您在多個資料檢視中作為元件使用相同的欄位，請確定您為該元件使用單一易記名稱和單一識別碼。 單一名稱和識別碼可讓Data Insights Agent切換資料檢視，而不會遺失內容。
 
 >[!MORELIKETHIS]
 >
->[Component settings](/help/data-views/component-settings/overview.md)
->[Data Dictionary](/help/components/data-dictionary/data-dictionary-overview.md)
->[Approve calculated metric](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->[Share segments](/help/components/segments/seg-share.md)
+>[元件設定](/help/data-views/component-settings/overview.md)
+>>[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[核准計算量度](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[共用區段](/help/components/segments/seg-share.md)
 >
-
--->

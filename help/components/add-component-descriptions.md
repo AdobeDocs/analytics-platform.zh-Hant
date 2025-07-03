@@ -1,13 +1,13 @@
 ---
-description: 管理員可以在資料檢視中新增元件的說明，或是使用資料字典
+description: 瞭解管理員如何使用資料檢視或資料字典將說明新增至元件。
 title: 新增元件說明
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 12%
+source-wordcount: '168'
+ht-degree: 17%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 12%
 
 Customer Journey Analytics管理員可以在資料檢視中或使用「資料字典」，新增元件（維度、量度、區段和日期範圍）的說明。
 
-## 在資料檢視中新增說明
+## 資料檢視
 
 您可以為已新增至資料檢視的元件新增說明。 請參閱[元件設定](/help/data-views/component-settings/overview.md)。
 
-## 使用資料字典新增說明
+## 資料字典
 
 Analysis Workspace中的資料字典可協助使用者和管理員追蹤及更瞭解其Customer Journey Analytics環境中的元件。 資料字典包括管理員直接在Analysis Workspace中新增元件說明的能力。
 
@@ -32,5 +32,5 @@ Analysis Workspace中的資料字典可協助使用者和管理員追蹤及更�
 >[!MORELIKETHIS]
 >
 >[資料檢視元件設定](/help/data-views/component-settings/overview.md)
->&#x200B;>[資料字典元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[資料字典元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

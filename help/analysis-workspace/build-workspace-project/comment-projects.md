@@ -1,10 +1,10 @@
 ---
-description: 瞭解如何評論Analysis Workspace中的專案。
+description: 瞭解如何評論Analysis Workspace中的專案
 title: 在專案中新增和管理註解
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文�
 
 ### 在專案中檢視評論徽章
 
-在專案的特定區域[&#128279;](#comment-on-a-specific-area-of-the-project)上所做的評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.svg)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
+在專案的特定區域[上所做的](#comment-on-a-specific-area-of-the-project)評論具有&#x200B;**評論徽章** ![評論徽章](assets/comment-indicator.svg)，該徽章會顯示在評論所屬的專案區域上。 選取徽章以檢視評論。 選取徽章後，您可以選取註解本身，以在右側邊欄的註解區域中反白註解。
 
 編號會顯示在專案中的每個徽章上，並依照其建立順序排序。 如果在專案的相同區域放入多個註解，徽章會顯示3個點![註解徽章多個](assets/comment-indicator-multiple.svg)。 選取3點徽章以顯示該區域中的所有註解。
 
@@ -151,9 +151,9 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 ## 接收有關評論的通知
 
-專案所有者和您提到的[特定人員](#include-others-in-a-comment)會根據其Adobe Experience Cloud通知設定收到通知。 依預設，使用者會收到應用程式內通知，可在Customer Journey Analytics中的[Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#view-notifications)圖示![Experience Cloud通知圖示](assets/experience-cloud-notification.svg)中看到。
+專案所有者和您提到的[特定人員](#include-others-in-a-comment)會根據其Adobe Experience Cloud通知設定收到通知。 依預設，使用者會收到應用程式內通知，可在Customer Journey Analytics中的[Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)圖示![Experience Cloud通知圖示](assets/experience-cloud-notification.svg)中看到。
 
-此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
+此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
 
 ## 為現有評論放置徽章
 

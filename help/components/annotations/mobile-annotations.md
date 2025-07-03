@@ -5,17 +5,17 @@ solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 93%
+source-wordcount: '306'
+ht-degree: 88%
 
 ---
 
 
 # 行動計分卡註解
 
-您可以在行動計分卡中顯示在 Workspace 中建立的註解。行動計分卡中的註解讓您共用有關組織和行銷活動內容資料的細微差別和深入分析。
+您可以在行動計分卡上顯示在Analysis Workspace中建立的註解。 行動計分卡中的註解讓您共用有關組織和行銷活動內容資料的細微差別和深入分析。
 
 
 ## 在行動計分卡中顯示註解

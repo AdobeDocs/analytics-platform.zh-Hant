@@ -4,10 +4,10 @@ title: 關鍵量度摘要
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 97%
+source-wordcount: '948'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**CustomerJourneyAnalytics** 中的關鍵量度摘要視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[關鍵量度摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/key-metric)_。_
+_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**CustomerJourneyAnalytics** 中的關鍵量度摘要視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[關鍵量度摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/key-metric)_。_
 
 >[!ENDSHADEBOX]
 
@@ -141,18 +141,16 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ## 編輯視覺效果
 
-建置視覺效果後，您仍可編輯原始的設定。
+建立視覺效果後，您可以編輯原始設定。
 
-1. 按一下視覺效果右上角的鉛筆圖示 (設定齒輪圖示旁)。
+1. 選取視覺效果右上角的![編輯](/help/assets/icons/Edit.svg)。
 
-   ![視覺效果編輯圖示](assets/edit-icon.png)
-
-   現在您會返回原始設定檢視。
+   您現在已返回原始[組態檢視](#configure)。
 
 1. 依偏好變更量度、主要日期範圍、比較日期範圍或區段。
 
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)

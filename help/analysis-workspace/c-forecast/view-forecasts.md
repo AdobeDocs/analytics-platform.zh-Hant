@@ -4,10 +4,10 @@ title: 如何在Analysis Workspace中檢視預測
 feature: Visualizations
 role: User
 exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
-source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 2%
+source-wordcount: '367'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ## 在表格中檢視預測
 
-您可以在時間序列自由表格中檢視預測。 當[使用者偏好設定](../user-preferences.md)中的自由格式表格啟用[!UICONTROL 顯示預測]時，會自動顯示新增至表格的第一個量度資料行的預測。 對於任何其他欄：
+您可以在時間序列自由表格中檢視預測。 當[!UICONTROL 使用者偏好設定]中的自由格式表格啟用[顯示預測](../user-preferences.md)時，會自動顯示新增至表格的第一個量度資料行的預測。 對於任何其他欄：
 
 1. 在欄標題中選取欄設定圖示![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)，然後確定已在選項清單中選取&#x200B;**[!UICONTROL 顯示預測]**。 如需詳細資訊，請參閱[欄設定](../visualizations/freeform-table/column-row-settings/column-settings.md)。
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 ![在資料表](assets/show-forecast-table.png)中顯示預測
 
 * 每個儲存格的預測值和百分比以&#x200B;**深灰色**&#x200B;顯示。
-* 若要指出預測值，請使用預測符號 <img src="./assets/forecast.svg" alt="預測符號" width="20" />會顯示在儲存格的右上角。
+* 若要指出預測值，儲存格的右上角會顯示預測符號![ForecastAnalytics](/help/assets/icons/ForecastAnalytics.svg)。
 
 
 ## 在折線圖中檢視預測

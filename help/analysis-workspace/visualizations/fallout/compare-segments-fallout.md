@@ -5,7 +5,7 @@ title: 在流失分析中套用區段
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 34%
@@ -23,19 +23,20 @@ ht-degree: 34%
 >* 使用以人物為基礎的區段，作為個人內容流失視覺效果內的接觸點。
 >* 使用以人為基礎的區段，作為工作階段內容流失視覺效果內的接觸點。
 >* 使用工作階段型區段，作為工作階段內容流失視覺效果內的接觸點。
+
 <!-- Should we add B2B context here?
-* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
 * -->
 
 ## 從接觸點建立區段
 
 1. 從您特別感興趣的某個接觸點建立區段，之後您可以將此區段套用於其他報表。以滑鼠右鍵按一下接觸點並選取&#x200B;**[!UICONTROL 從接觸點建立區段]**。
 
-   ![反白顯示「從接觸點建立區段」的「接觸點」下拉式功能表。](assets/fallout-createfilter.png)
+   ![反白顯示「從接觸點建立區段」的「接觸點」下拉式功能表。](assets/fallout-createsegment.png)
 
    [!UICONTROL 區段產生器]隨即開啟，預先填入符合您所選接觸點的預先建立連續區段：
 
-   ![區段產生器會顯示預先填入和預先建立的循序區段。](assets/fallout-definefilter.png)
+   ![區段產生器會顯示預先填入和預先建立的循序區段。](assets/fallout-definesegment.png)
 
 1. 提供區段的標題和描述，然後將其儲存。
 
@@ -57,7 +58,7 @@ ht-degree: 34%
 1. 將三個區段拖曳至視覺效果頂端的區段放置區。
 
 
-1. 選用：您可以保留&#x200B;*所有造訪*&#x200B;作為預設容器，或刪除容器。
+1. 選用性：您可以保留&#x200B;*所有人員*&#x200B;作為預設容器，或刪除容器。
 
    ![在上一步中拖曳的「流失」顯示「所有造訪」以及兩個區段。](assets/fallout-multiplefilters.png)
 
