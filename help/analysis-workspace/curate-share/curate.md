@@ -1,14 +1,14 @@
 ---
-description: 瞭解如何在Analysis Workspace中組織專案。 在您共用專案之前，組織會限制元件的存取權。
-keywords: Analysis Workspace 監管
-title: 組織專案
+description: 了解如何在 Analysis Workspace 中鑑選專案。在您共用專案前，鑑選會限制存取元件。
+keywords: Analysis Workspace 鑑選
+title: 鑑選專案
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
 role: User
 source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

@@ -1,14 +1,14 @@
 ---
-description: 瞭解如何在Analysis Workspace中共用專案。
+description: 了解在 Analysis Workspace 中如何共用專案。
 keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
 source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2089'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 99%
 >[!ENDSHADEBOX]
 
 
-## 與組織中的使用者和群組共用 {#Add}
+## 與組織中的使用者及群組共用。 {#Add}
 
 您可以與組織中的現有 Analysis Workspace 使用者或群組共用專案。當您按本節所述共用專案時，共用的使用者必須已經擁有 Customer Journey Analytics 帳戶。
 
@@ -61,9 +61,9 @@ ht-degree: 99%
 
 與組織中的使用者和群組共用特定專案角色時，請考慮以下事項：
 
-* 專案角色 (**[!UICONTROL 編輯原始項目]**、**[!UICONTROL 編輯副本]**&#x200B;和&#x200B;**[!UICONTROL 唯讀]**) 會與使用者和特定專案 ID 相連結。專案角色不受 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant) 中管理的使用者權限影響。
+* 專案角色 (**[!UICONTROL 編輯原始項目]**、**[!UICONTROL 編輯副本]**&#x200B;和&#x200B;**[!UICONTROL 唯讀]**) 會與使用者和特定專案 ID 相連結。專案角色不受 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-hant) 中管理的使用者權限影響。
 
-* 在 Customer Journey Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant) 中的產品設定檔所定義。管理員可將任何群組當作共用對象，包括「全部」。非管理員則可與其所屬的任何群組共用，但「全部」除外。
+* 在 Customer Journey Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-hant) 中的產品設定檔所定義。管理員可將任何群組當作共用對象，包括「全部」。非管理員則可與其所屬的任何群組共用，但「全部」除外。
 
 * 獲得多個角色的使用者一律會有最高體驗。如果同時以個人和群組成員的身分新增使用者，就可能發生此狀況。例如，如果使用者以個人身分獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色，就會獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;專案體驗。
 
@@ -161,7 +161,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3452476/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
