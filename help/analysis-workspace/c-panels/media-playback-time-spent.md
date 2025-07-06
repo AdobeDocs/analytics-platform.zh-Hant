@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ 中的媒體播放時間面板。<br/>_請查閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本的[媒體播放時間面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)。_
+_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的媒體播放時間面板。<br/>_請查閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 版本的[媒體播放時間面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!NOTE]
 >
 >媒體平均分鐘觀眾數面板僅供已購買 Customer Journey Analytics 串流媒體集合附加元件的客戶使用。
->>請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
+>&#x200B;>請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
 >
 
 **[!UICONTROL 媒體播放時間]**&#x200B;面板可進行特定期間的播放分析，提供尖峰期同時觀看人數的詳細資訊，並具備劃分和比較的能力。
@@ -129,6 +129,6 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!MORELIKETHIS]
 >
 >[建立面板](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
->>[媒體同時檢視者面板](media-concurrent-viewers.md)
+>&#x200B;>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
+>&#x200B;>[媒體同時檢視者面板](media-concurrent-viewers.md)
 >

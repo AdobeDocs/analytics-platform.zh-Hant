@@ -131,5 +131,5 @@ ht-degree: 97%
 
 根據存取控制，您可以：
 
-* 存取元件的![書籤](/help/assets/icons/Bookmark.svg)[!UICONTROL 資料字典]定義。
+* 存取元件的![書籤](/help/assets/icons/Bookmark.svg) [!UICONTROL 資料字典]定義。
 * 存取定義元件的![編輯](/help/assets/icons/Edit.svg)元件產生器或資料視圖。
