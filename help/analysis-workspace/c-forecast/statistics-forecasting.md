@@ -1,17 +1,17 @@
 ---
-description: Analysis Workspace中的預測功能會使用一系列進階的統計技術來決定預測值。
-title: 預測中所使用的統計技術
+description: 瞭解Analysis Workspace中的預測如何使用一系列進階統計技術來決定預測值。
+title: 統計技術
 feature: Visualizations
 role: User
 exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
-source-git-commit: accd7300c2dd6224e4d154cb6e3889f564e07a1a
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '545'
 ht-degree: 6%
 
 ---
 
-# 預測服務中使用的統計技術
+# 統計技術
 
 預測服務目前支援Prophet，並且已證明對大多數資料有效且可靠地運作。 Prophet是由Meta所開發的廣泛使用的開放原始碼預測套件。 它會分解資料為趨勢、季節性和事件元件。 Prophet模型非常有效率，並且適用於許多預測應用程式。 此外，模型對於離群值和遺失資料有強大的運作能力。
 

@@ -1,12 +1,12 @@
 ---
-description: 在計算量度管理員中，您可透過將區段進行標記來組織區段。
+description: 瞭解如何標籤計算量度以組織計算量度。
 title: 標記計算量度
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 12%
+source-wordcount: '170'
+ht-degree: 5%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 12%
       * 從清單中選取一或多個現有標籤，或
       * 輸入新標籤並按&#x200B;**[!UICONTROL ENTER]**。 重複以上步驟以新增多個新標籤。
 
-1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存計算量度的標籤。 選取「**[!UICONTROL 取消]**」，即可取消。
+1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存計算量度的標籤。 選取「**[!UICONTROL 取消]**」即可取消。
 
-儲存後，標籤會列在[計算量度產生器](cm-tagging.md)中選取之計算量度的[!UICONTROL 標籤]欄位中。
+儲存後，標籤會列在[!UICONTROL 計算量度產生器]中選取之計算量度的[標籤](cm-tagging.md)欄位中。
 
 <!--
 

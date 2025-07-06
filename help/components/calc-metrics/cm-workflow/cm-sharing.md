@@ -1,12 +1,12 @@
 ---
-description: 您可以將量度共用給整個組織、群組或個別使用者 (視您的權限而定)。
+description: 瞭解如何與整個組織、群組或個別使用者共用量度。
 title: 共用計算量度
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 11%
+source-wordcount: '319'
+ht-degree: 6%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: 基本函數
-description: 計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
+description: 瞭解基本計算量度函式。
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 47c5fc27d994667933103f864a253e086050bbf8
-workflow-type: ht
-source-wordcount: '1636'
-ht-degree: 100%
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+workflow-type: tm+mt
+source-wordcount: '1868'
+ht-degree: 92%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
 
-在適用且相關的情況下，函數會以函數類型進行註解： [!BADGE 表格]{type="Neutral"}[!BADGE 列]{type="Neutral"}
+在適用且相關的情況下，函數會以函數類型進行註解：[!BADGE 表格]{type="Neutral"}或[!BADGE 列]{type="Neutral"}
 
-## 「包括零」參數的意義是什麼? 
+## include_zeros 參數的意義是什麼? 
 
 此參數指出是否在計算中包括零。有時候零&#x200B;*沒有意義*，有時候卻很重要。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 絕對值 (量度)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回數字的絕對值。 數字的絕對值是正值的數字。
 
 | 引數 | 說明 |
 |---|---|
@@ -137,7 +137,7 @@ ht-degree: 100%
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 計數 (量度)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}傳回資料行中量度的非零值數目或計數（維度中報告的唯一元素數目）。
 
 | 引數 | 說明 |
 |---|---|
@@ -151,13 +151,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="functions-exp"
 >title="指數"
->abstract="傳回給定數字的 e 乘冪。常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT 是 LN (一個數字的自然對數) 的反函數。"
+>abstract="傳回 e 的指定數字的次方。常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT 是 LN (一個數字的自然對數) 的反函數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 指數 (量度)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回e提升至指定數字的冪。 常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT 是 LN (一個數字的自然對數) 的反函數。
 
 | 引數 | 說明 |
 |---|---|
@@ -178,7 +178,7 @@ ht-degree: 100%
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平均值 (量度，包括零)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}傳回資料行中量度的算術平均值或平均值。
 
 | 引數 | 說明 |
 |---|---|
@@ -200,7 +200,7 @@ ht-degree: 100%
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 中間值 (量度，包括零)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}傳回資料行中量度的中位數。 中位數是一組數字中位於中間的數字。意即，有一半的數字其值大於或等於中位數，另有一半的值小於或等於中位數。
 
 | 引數 | 說明 |
 |---|---|
@@ -259,7 +259,7 @@ MODULO(MODULO(x,y)+y,y)
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 百分位數 (量度，k，包括零)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE Table]{type="Neutral"}傳回第n個百分位數，這個值介於0到100之間。 當 n &lt; 0 時，則函數使用零。當 n > 100 時，函數傳回 100。
 
 | 引數 | 說明 |
 |---|---|
@@ -304,7 +304,7 @@ MODULO(MODULO(x,y)+y,y)
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 四分位數 (量度、四分位數、包括零)]**
 
-[!BADGE 表格]{type="Neutral"}當四分位數分別等於 `0` (零)、`2` 和 `4` 時，[欄最小值](#column-minimum)、[中間值](#median)和[欄最大值](#column-maximum)傳回與[四分位數](#quartile)相同的值。
+[!BADGE 表格]{type="Neutral"}傳回量度值的四分位數。 例如，四分位數可用來尋找推動最高收入的前 25% 產品。當四分位數分別等於 `0` (零)、`2` 和 `4` 時，[欄最小值](#column-minimum)、[中間值](#median)和[欄最大值](#column-maximum)傳回與[四分位數](#quartile)相同的值。
 
 | 引數 | 說明 |
 |---|---|
@@ -428,14 +428,14 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-sqrt"
 >title="平方根"
->abstract="傳回數字的正平方根。數字的平方根是該數字的 1/2 乘冪值。"
+>abstract="傳回數字的正平方根。數字的平方根是該數字的 1/2 次方。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平方根 (量度，包括零)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回數字的正平方根。 數字的平方根是該數字的 1/2 次方。
 
 | 引數 | 說明 |
 |---|---|
@@ -455,7 +455,7 @@ ROUND( 314.15, -2) = 300
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 標準差 (量度，包括零)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}傳回標準差，或變異數的平方根，根據資料樣本母體。
 
 | 引數 | 說明 |
 |---|---|
@@ -476,7 +476,7 @@ ROUND( 314.15, -2) = 300
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 變數 (量度，包括零)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}傳回以樣本資料母體為基礎的變異數。
 
 | 引數 | 說明 |
 |---|---|

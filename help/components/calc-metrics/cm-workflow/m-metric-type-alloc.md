@@ -1,12 +1,12 @@
 ---
-description: 了解關於厘度類型和歸因
-title: 量度類型和歸因
+description: 瞭解量度型別和歸因。
+title: 量度型別和歸因
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 304b8d85767d89ee60a6fb37a128194f60ca89d4
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 91%
          * 停用「**[!UICONTROL 使用非預設歸因模式]**」，以便使用預設欄歸因模型，也就是「上次接觸時間」且回顧期為 30 天。
          * 啟用「**[!UICONTROL 使用非預設歸因模型]**」。在「**[!UICONTROL 欄歸因模型]**」對話框。
 
-            * 從[歸因模型](#attribution-models)中選取&#x200B;**[!UICONTROL 模型]**。
-            * 從[容器](#container)選項中選取&#x200B;**[!UICONTROL 容器]**。
-            * 從[回顧期間](#lookback-window)選項中選取&#x200B;**[!UICONTROL 回顧期間]**。 如果您選取&#x200B;**[!UICONTROL 自訂時間]**，則可以以&#x200B;**[!UICONTROL 分鐘]**&#x200B;定義時間段，最多&#x200B;**[!UICONTROL 季]**。
+            * 從[歸因模型](#attribution-models)中選取&#x200B;**[!UICONTROL 「模型」]**。
+            * 從[容器](#container)選項中選取&#x200B;**[!UICONTROL 「容器」]**。
+            * 從[回顧期間](#lookback-window)選項中選取&#x200B;**[!UICONTROL 「回顧期間」]**。如果選取&#x200B;**[!UICONTROL 「自訂時間」]**，您可以使用&#x200B;**[!UICONTROL 「分鐘」]** (最多以&#x200B;**[!UICONTROL 「季」]**) 來定義時段。
 
       1. 請選取「**[!UICONTROL 套用]**」，以套用非預設歸因模型。選取「取消」，即可取消。
 
      如果您已定義非預設歸因模型，請選取「**[!UICONTROL 編輯]**」來修改選擇內容。
 
-如需使用歸因模型、容器和回顧視窗的範例，請參閱[範例](#example)。
+請參閱[範例](#example)，了解使用歸因模型、容器及回顧期間的範例。
 
 
 ## 歸因模型 {#attribution-models}
@@ -163,6 +163,6 @@ ht-degree: 91%
 >[!MORELIKETHIS]
 >
 >[歸因元件設定](/help/data-views/component-settings/attribution.md)
->&#x200B;>[參與率量度](participation-metric.md)
+>>[參與率量度](participation-metric.md)
 >
 

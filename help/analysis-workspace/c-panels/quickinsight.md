@@ -1,13 +1,13 @@
 ---
-description: 瞭解如何使用快速深入分析面板，引導您在Analysis Workspace中建立資料表格和視覺效果。
+description: 瞭解如何使用快速深入分析面板，引導您在Analysis Workspace中建立自由表格和視覺效果。
 title: 快速深入分析面板
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 93%
+source-wordcount: '1148'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的「快速深入分析」面板。<br/>_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 版本的[快速深入分析面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ 中的「快速深入分析」面板。<br/>_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本的[快速深入分析面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。_
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 * 如何建立快速區段，
 * 及更多內容。
 
-為了解答這些問題，[!UICONTROL 快速深入分析]利用演算法為您提供貴公司所使用的最熱門維度、量度、區段和日期範圍。此演算法是根據您自己的公司在 [!UICONTROL Analysis Workspace] 的資料元件使用情況。實際上，您會在下拉式功能表中看到標示為[!UICONTROL POPULAR]的維度、量度和區段，如下所示：
+為了協助您解決這些問題，[!UICONTROL 快速深入分析]會運用演演算法，提供您的公司最常使用的維度、量度、區段和日期範圍。 此演算法是根據您自己的公司在 [!UICONTROL Analysis Workspace] 的資料元件使用情況。實際上，您會在下拉式功能表中看到標示為[!UICONTROL POPULAR]的維度、量度和區段，如下所示：
 
 ![「快速深入分析」面板。](assets/popular-tag.png)
 
@@ -94,7 +94,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 * 從左側面板拖放元件。
 * 開始在建置要素欄位之一中輸入內容。找到輸入後，建置要素欄位會自動填入可能的值。
-* 指定建置區塊下拉式功能表（例如&#x200B;**[!UICONTROL 分析]**&#x200B;中的`Country`），並搜尋可能值的清單（使用![ChevronRight](/help/assets/icons/ChevronRight.svg)）以取得您要使用的值（例如&#x200B;**[!UICONTROL 國碼]**）。
+* 指定建置區塊下拉式功能表（例如，**[!UICONTROL Analyze]**&#x200B;中的「國家/地區」），並&#x200B;**[!UICONTROL 搜尋]**&#x200B;您要使用之值（例如，![國家/地區代碼](/help/assets/icons/ChevronRight.svg)）的可能值清單（使用&#x200B;**[!UICONTROL V形右側]**）。
 
 選取&#x200B;**[!UICONTROL 清除]**&#x200B;以清除所有輸入欄位。
 

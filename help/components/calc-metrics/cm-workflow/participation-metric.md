@@ -1,12 +1,12 @@
 ---
-description: 有了計算量度產生器，任何人都能建立參與率量度。
+description: 瞭解如何建立參與率量度。
 title: 參與率量度
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: '215'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. [建立計算量度](cm-workflow.md)，並在[計算量度產生器](cm-build-metrics.md)中命名量度`Participation`或類似名稱。
 1. 將包含成功事件的量度（例如[!DNL Orders]）拖曳至[!UICONTROL **[!UICONTROL 定義]**]區域。
 1. 選取量度的![齒輪](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)。
-1. 在出現的快顯視窗中，選取「**[!UICONTROL 使用非預設歸因模型]**」以將該事件的[歸因模型](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)定義為&#x200B;**[!UICONTROL 參與率]**，並為[!UICONTROL 容器]選取&#x200B;**[!UICONTROL 工作階段]**。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;以確認。
+1. 在出現的快顯視窗中，選取「**[!UICONTROL 使用非預設歸因模型]**」以將該事件的[歸因模型](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)定義為&#x200B;**[!UICONTROL 參與率]**，並為&#x200B;**[!UICONTROL 容器]**&#x200B;選取[!UICONTROL 工作階段]。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;以確認。
 
 
    ![資料行歸因模型快顯視窗，顯示選取為模型的參與率，以及選取做為回顧視窗的工作階段。](assets/participation-setup.png)

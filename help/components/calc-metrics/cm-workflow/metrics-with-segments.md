@@ -1,16 +1,16 @@
 ---
-description: 將個別量度分段可讓您在同一份報表中比較量度。
-title: 區段量度
+description: 瞭解如何對個別量度進行分段，以便讓您在同一視覺效果中進行量度比較。
+title: 分段量度
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
 
-# 區段量度
+# 分段量度
 
 在[計算量度產生器](cm-build-metrics.md#definition-builder)中，您可以在量度定義中套用區段。 如果您想要在分析中將量度用於資料的子集，套用區段會很有幫助。
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ## 受歡迎頁面
 
-1. [從名為`German people`的Workspace專案建立計算量度](cm-workflow.md)。
+1. [從名為](cm-workflow.md)的Workspace專案建立計算量度`German people`。
 1. 在[計算量度產生器](cm-build-metrics.md)中，[建立區段](/help/components/segments/seg-builder.md)，標題為`Germany`，其會使用CRM資料中的CRM國家/地區欄位來判斷人員的來源。
 
    >[!TIP]

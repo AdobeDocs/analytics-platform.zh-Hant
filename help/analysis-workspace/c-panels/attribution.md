@@ -4,10 +4,10 @@ description: 瞭解如何使用和解讀Analysis Workspace中的歸因面板。
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 97%
+source-wordcount: '668'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的歸因面板。<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[歸因面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/attribution)_。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ 中的歸因面板。<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[歸因面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/attribution)_。_
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ Customer Journey Analytics 強化了歸因功能，讓您可以：
 
    ![歸因面板視窗顯示數個指定的維度和量度。](assets/attribution-panel.png)
 
-1. 從&#x200B;**[!UICONTROL 已納入的模型]**，選取一個或多個您想要用來進行比較的[歸因模型](#attribution-models)，以及從&#x200B;**[!UICONTROL 回顧期間]**&#x200B;中選取一個您想要用來進行比較的[回顧期間](#lookback-window)。
+1. 從[包含的模型](#attribution-models)選取一或多個&#x200B;**[!UICONTROL 歸因模型]**，從[容器](#container)選取&#x200B;**[!UICONTROL 容器]**，並從[回顧期間](#lookback-window)選取要用來比較的&#x200B;**[!UICONTROL 回顧期間]**。
 
 1. 請選取「**[!UICONTROL 建置]**」，在面板中建置視覺效果。
 

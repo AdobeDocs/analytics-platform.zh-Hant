@@ -5,10 +5,10 @@ title: 如何匯出專案資料
 feature: Curate and Share
 exl-id: 3d467050-4bf0-4bdb-b7d2-eba67fbd526d
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
-workflow-type: ht
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -36,6 +36,6 @@ ht-degree: 100%
 |---------|----------|
 | [下載至您的工作站](/help/analysis-workspace/export/download-send.md) | <li>下載專案至您的個人工作站。</li><li>僅下載臨時資料 (未排程)。</li> <li>最多下載 50,000 列。</li> <!--true? Are there 2 different options to download to your workstation?--> <!-- is this emailing it? --> |
 | [傳送給其他使用者](/help/analysis-workspace/export/t-schedule-report.md) | <li>透過電子郵件將匯出的 Customer Journey Analytics 資料傳送給組織中的其他使用者。</li><li>臨時或按排程傳送電子郵件。</li> <li>此電子郵件中最多包含 50,000 列。</li> <!--true?--> |
-| [匯出至雲端應用程式](/help/analysis-workspace/export/export-cloud.md) | <li>匯出至雲端位置，例如 <ul><li>Adobe Experience Platform 資料登錄區</li><li>Google Cloud Platform</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>臨時或按排程匯出資料。</li><li>儲存更大量 Customer Journey Analytics 資料。</li><li>匯出包含數千或數百萬列的完整表格。<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
+| [匯出至雲端位置](/help/analysis-workspace/export/export-cloud.md) | <li>匯出至雲端位置，例如 <ul><li>Adobe Experience Platform 資料登錄區</li><li>Google Cloud Platform</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>臨時或按排程匯出資料。</li><li>儲存更大量 Customer Journey Analytics 資料。</li><li>匯出包含數千或數百萬列的完整表格。<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}

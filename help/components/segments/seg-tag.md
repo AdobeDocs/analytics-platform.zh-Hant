@@ -1,12 +1,12 @@
 ---
-description: 您可以標籤區段來進行組織。
-title: 標記區段
+description: 瞭解如何標籤區段以讓您組織區段。
+title: 標記細分群體
 feature: Filters, Segments
 exl-id: d3b8d9f7-11a4-4eac-8c22-5c86601ec7f3
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '197'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 4%
 
 1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存區段的標籤。 選取「**[!UICONTROL 取消]**」即可取消。
 
-儲存後，標籤會列在[區段產生器](seg-builder.md)中選取區段的[!UICONTROL 標籤]欄位中。
+儲存後，標籤會列在[!UICONTROL 區段產生器]中選取區段的[標籤](seg-builder.md)欄位中。
 
 
 ## 建議

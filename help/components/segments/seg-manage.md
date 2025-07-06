@@ -1,13 +1,13 @@
 ---
+description: 瞭解如何使用區段管理器來管理區段，例如共用、篩選、標籤、核准、複製、刪除區段，以及將區段標示為我的最愛。
 title: 管理區段
-description: 了解如何在 Customer Journey Analytics 中管理區段
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters, Segments
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 81%
+source-wordcount: '930'
+ht-degree: 75%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 81%
 | ![Search](/help/assets/icons/Search.svg) [!UICONTROL *根據標題搜尋*] | 當未選取清單中任何區段時，請使用此搜尋欄位搜尋區段。 |
 | ![Label](/help/assets/icons/Label.svg) **[!UICONTROL 標記]** | 標記所選取之區段。在&#x200B;**[!UICONTROL 標記區段]**&#x200B;對話框中，選取或取消選取所選取之區段的標記。選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的標記。如需詳細資訊，請參閱[標記區段](/help/components/segments/seg-tag.md)。 |
 | ![Share](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]** | 共用所選取之區段。在&#x200B;**[!UICONTROL 共用區段]**&#x200B;對話框中，您可以 ![Search](/help/assets/icons/Search.svg) *搜尋個人或群組*，或者您可以選取「**[!UICONTROL 組織]**」或「**[!UICONTROL 群組]**」。選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的共用詳細資訊。如需詳細資訊，請參閱[共用區段](seg-share.md)。 |
-| ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除所選取之區段。系統會提示您進行確認。 |
+| ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除所選取之區段。系統會提示您進行確認。 <br/>當您刪除區段時，請注意： <ul><li>已套用此區段的排程報表和專案仍可正常運作。</li><li> 編輯同名區段時，排程報表不會更新。</li> </ul> |
 | ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名所選取之單一區段。選取後，您可以重新命名內嵌區段。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]** | 核准所選取之區段。如需詳細資訊，請參閱[核准區段](seg-approve.md)。 |
 | ![Copy](/help/assets/icons/Copy.svg)  **[!UICONTROL 複製]** | 複製所選取之區段。使用相同的名稱和字尾建立新區段`(Copy)`。 |

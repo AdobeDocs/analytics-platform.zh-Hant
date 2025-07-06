@@ -1,12 +1,12 @@
 ---
 description: 瞭解從Analysis Workspace專案下載資料的各種可能性。
-title: 下載Analysis Workspace專案和資料
+title: 下載專案和資料
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1184'
 ht-degree: 25%
 
 ---
@@ -38,8 +38,8 @@ ht-degree: 25%
 1. 選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 下載PDF]**。
 綠色長條圖，內含訊息![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 已要求您的下載。 請稍候。]**&#x200B;已顯示。
 
-1. 只要您的下載準備就緒，就會出現綠色長條，內含訊息![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *專案名稱&#x200B;*PDF。]**&#x200B;出現。
-選取&#x200B;**[!UICONTROL 下載]**&#x200B;以下載PDF。 PDF的顯示或下載方式取決於您用於處理PDF檔案的瀏覽器設定。
+1. 只要您的下載準備就緒，就會出現綠色長條，內含訊息![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *專案名稱&#x200B;*PDF。]**出現。
+選取**[!UICONTROL 下載]**以下載PDF。 PDF的顯示或下載方式取決於您用於處理PDF檔案的瀏覽器設定。
 
 
 若要將專案下載為CSV檔案：
@@ -108,7 +108,7 @@ ht-degree: 25%
 下載檔案時，您會看到下列通知：
 
 * 已要求藍色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv。_x _%完成]**，表示進度。 若要隨時取消下載，請選取&#x200B;**[!UICONTROL 取消下載]**。 若要關閉郵件，請選取![CrossSize100](/help/assets/icons/CrossSize100.svg)，這不會取消下載。
-* 綠色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv在檔案下載完成後已下載]**&#x200B;完成通知。 檔案會下載至為瀏覽器設定的下載資料夾。
+* 綠色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv在檔案下載完成後已下載]**完成通知。 檔案會下載至為瀏覽器設定的下載資料夾。
 
 如果您一次要求多項下載，您會收到通知，告知您每項額外下載要等到前一個下載完成時才會排入佇列。
 

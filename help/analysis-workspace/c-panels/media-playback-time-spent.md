@@ -4,7 +4,7 @@ description: 瞭解如何使用和解讀Analysis Workspace中的「媒體播放�
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的媒體播放時間面板。<br/>_請查閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 版本的[媒體播放時間面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)。_
+_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ 中的媒體播放時間面板。<br/>_請查閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本的[媒體播放時間面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!NOTE]
 >
 >媒體平均分鐘觀眾數面板僅供已購買 Customer Journey Analytics 串流媒體集合附加元件的客戶使用。
->&#x200B;>請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
+>>請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
 >
 
 **[!UICONTROL 媒體播放時間]**&#x200B;面板可進行特定期間的播放分析，提供尖峰期同時觀看人數的詳細資訊，並具備劃分和比較的能力。
@@ -60,7 +60,7 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間](https://video.tv.adobe.com/v/3446711?captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間](https://video.tv.adobe.com/v/338699){target="_blank"}的示範影片。
 
 {{videoaa}}
 
@@ -129,6 +129,6 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!MORELIKETHIS]
 >
 >[建立面板](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
->&#x200B;>[媒體同時檢視者面板](media-concurrent-viewers.md)
+>>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
+>>[媒體同時檢視者面板](media-concurrent-viewers.md)
 >

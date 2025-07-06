@@ -1,12 +1,12 @@
 ---
-description: 依標籤、資料檢視、擁有者和其他篩選器（「全部顯示」、「我的」、「已共用給我」、「我的最愛」和「已核准」）進行篩選。
-title: 篩選計算量度
+description: 瞭解如何依標籤、資料檢視、擁有者和其他篩選器來篩選計算量度。
+title: 篩選計算量度清單
 feature: Calculated Metrics
 exl-id: 902da464-14de-45b9-bd92-d2db064cb095
-source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 2%
+source-wordcount: '141'
+ht-degree: 27%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 若要篩選計算量度清單：
 
-1. 選取![篩選器](/help/assets/icons/Filter.svg)以開啟「篩選器」面板。 如果您需要更多空間以儲存篩選器清單，可以再選取![篩選器](/help/assets/icons/Filter.svg)以關閉面板。
+1. 選取![Filter](/help/assets/icons/Filter.svg)開啟「篩選」面板。如果您需要更多空間顯示篩選清單，可以再次選取![Filter](/help/assets/icons/Filter.svg)來關閉面板。
 1. 從任何可用的[篩選器區段](#filter-sections)中選取篩選器。
 
    >[!INFO]
@@ -25,7 +25,7 @@ ht-degree: 2%
    >*專案*&#x200B;參考[計算量度清單](cm-manager.md#filters-list)中顯示的篩選專案。
    > 
 
-## 篩選區段
+## 篩選部分
 
 {{tagfiltersection}}
 {{dataviewfiltersection}}
@@ -33,4 +33,4 @@ ht-degree: 2%
 {{otherfiltersfiltersection}}
 
 
-[計算量度清單](cm-manager.md#filters-list)會根據您的篩選器組態自動更新。 您可以在[作用中的篩選器列](cm-manager.md#active-filter-bar)中看到已設定的篩選器。
+[計算量度清單](cm-manager.md#filters-list)會根據您的篩選器組態自動更新。 您可以在[使用中的篩選欄](cm-manager.md#active-filter-bar)中查看已設定的篩選。

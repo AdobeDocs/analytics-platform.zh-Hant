@@ -1,12 +1,12 @@
 ---
 title: 進階函數
-description: 勾選函式下拉式選單中的顯示進階即可存取這些函式。
+description: 瞭解進階計算量度函式。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: ca1aae1291119214f3b051f9b6df8ddcd58faa6c
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '5247'
+source-wordcount: '5241'
 ht-degree: 99%
 
 ---
@@ -215,13 +215,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="上限"
->abstract="傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入四捨五入至最接近的金額，即 $570。"
+>abstract="傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入無條件進位至最接近的金額，即 $570。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL CEILING (量度)]**
 
-[!BADGE 列]{type="Neutral"}傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入四捨五入至最接近的金額，即 $570。
+[!BADGE 列]{type="Neutral"}傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入無條件進位至最接近的金額，即 $570。
 
 | 引數 | 說明 |
 |---|---|
@@ -396,7 +396,7 @@ CDF-Z(-3) ? 0.0013499
 
 >[!NOTE]
 >
->此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL 累積 (人數)]**](#cumulative)。
+>此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg)[**[!UICONTROL 累積 (人數)]**](#cumulative)。
 >
 
 
@@ -527,13 +527,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-floor"
 >title="下限"
->abstract="傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入向下捨去至最接近的金額 $569。"
+>abstract="傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入無條件捨去至最接近的金額 $569。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入向下捨去至最接近的金額 $569。
+[!BADGE 列]{type="Neutral"}傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入無條件捨去至最接近的金額 $569。
 
 | 引數 | 說明 |
 |---|---|

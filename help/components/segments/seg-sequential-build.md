@@ -1,9 +1,9 @@
 ---
-description: 循序區段是指使用THEN運運算元定義區段條件順序的區段。
-title: 循序區段
+description: 瞭解使用THEN運運算元定義區段條件序列的循序區段。
+title: SequentialSegments
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
 workflow-type: tm+mt
 source-wordcount: '2459'
 ht-degree: 4%
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 
 
-建立循序區段的基本概念與使用[區段產生器](seg-builder.md)建立一般區段並無不同。 您可以使用[定義產生器](seg-builder.md#definition-builder)來建構您的區段定義。 在該建構中，您會使用元件、容器、運運算元和邏輯。 只要您在主要定義或您在[定義產生器](seg-builder.md#definition-builder)內使用的任何容器中選取&#x200B;**[!UICONTROL Then]**&#x200B;運運算元，一般區段就會變成循序區段。
+建立循序區段的基本概念與使用[區段產生器](seg-builder.md)建立一般區段並無不同。 您可以使用[定義產生器](seg-builder.md#definition-builder)來建構您的區段定義。 在該建構中，您會使用元件、容器、運運算元和邏輯。 只要您在主要定義或您在&#x200B;**[!UICONTROL 定義產生器]**&#x200B;內使用的任何容器中選取[Then](seg-builder.md#definition-builder)運運算元，一般區段就會變成循序區段。
 
 ### 範例
 
@@ -82,7 +82,7 @@ ht-degree: 4%
 
 ## [!UICONTROL After]和[!UICONTROL Within]
 
-您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL 在]**&#x200B;內&#x200B;**[!UICONTROL Then]**&#x200B;運運算元來定義事件、工作階段或維度[&#128279;](#event-session-and-dimension-constraints)的其他[時間限制](#time-constraints)或限制。
+您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL 在]**&#x200B;內&#x200B;**[!UICONTROL Then]**&#x200B;運運算元來定義事件、工作階段或維度[的其他](#time-constraints)時間限制[或](#event-session-and-dimension-constraints)限制。
 
 ### 時間限制
 
@@ -91,7 +91,7 @@ ht-degree: 4%
 1. 選取![時鐘](/help/assets/icons/Clock.svg)。
 1. 從內容功能表中選取&#x200B;**[!UICONTROL Within]**&#x200B;或&#x200B;**[!UICONTROL After]**。
 1. 指定時段（**[!UICONTROL 分鐘]**，**[!UICONTROL 小時]**，直到&#x200B;**[!UICONTROL 年]**）。
-1. 選取![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *數字&#x200B;*]**&#x200B;以開啟快顯視窗，讓您使用&#x200B;**[!UICONTROL -]**&#x200B;或&#x200B;**[!UICONTROL +]**&#x200B;輸入或指定數字。
+1. 選取![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *數字&#x200B;*]**以開啟快顯視窗，讓您使用**[!UICONTROL -]**或**[!UICONTROL +]**輸入或指定數字。
 
 若要移除時間限制，請使用![CrossSize75](/help/assets/icons/CrossSize75.svg)。
 
@@ -210,7 +210,7 @@ ht-degree: 4%
 
 ## [!UICONTROL 排除]
 
-區段定義包含所有資料，除非您使用&#x200B;**[!UICONTROL 排除]**&#x200B;明確排除![使用者](/help/assets/icons/User.svg) [!UICONTROL 人員]、![造訪](/help/assets/icons/Visit.svg) [!UICONTROL 工作階段]或![WebPage](/help/assets/icons/WebPage.svg) [!UICONTROL 事件]資料。
+區段定義包含所有資料，除非您使用![排除](/help/assets/icons/User.svg)明確排除[!UICONTROL 使用者] ![人員](/help/assets/icons/Visit.svg)、[!UICONTROL 造訪] ![工作階段](/help/assets/icons/WebPage.svg)或[!UICONTROL WebPage] **[!UICONTROL 事件]**&#x200B;資料。
 
 [!UICONTROL 排除]可讓您關閉常見資料，並建立重點更明確的區段。 「排除」也可讓您建立排除特定群組人員的區段。 例如，定義區段，指定下訂單的人員，然後排除該群組的人員，以識別&#x200B;*非購買者*。 最佳作法是建立使用廣泛定義的規則，而不是嘗試使用[!UICONTROL 排除]來鎖定符合特定包含值的特定角色。
 
@@ -296,7 +296,7 @@ ht-degree: 4%
 
 #### [!UICONTROL 排除] [!UICONTROL 或]
 
-識別造訪過某個頁面，接著又明確未造訪一組頁面中的任何頁面，但確實造訪了另一個頁面的人員。 例如，訪客造訪了首頁，沒有造訪男性與女性頁面，但造訪了兒童頁面。
+識別造訪過某個頁面，接著又明確未造訪一組頁面中的任何頁面，但確實造訪了另一個頁面的人員。 例如，有人造訪了首頁，但未造訪男性與女性頁面，但造訪了兒童頁面。
 
 ![邏輯群組排除和](assets/logicgroup-exclude-or.png)
 

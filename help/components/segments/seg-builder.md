@@ -1,17 +1,17 @@
 ---
-description: 「區段產生器」提供畫布來拖放「量度維度」、「區段」和「事件」，以根據容器階層邏輯、規則和運算子來劃分人員。這個整合式開發工具可讓您建立並儲存簡單或複雜的區段，用於識別跨造訪及事件的人員屬性和動作。
+description: 瞭解區段產生器如何提供畫布來拖放量度、維度、區段和事件，以便根據容器階層邏輯、規則和運運算元來區分訪客。 瞭解如何建立並儲存簡單或複雜的區段，用以識別跨造訪及頁面點選的訪客屬性和動作。
 title: 建立區段
 feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 93%
+source-wordcount: '1570'
+ht-degree: 94%
 
 ---
 
-# 建立區段 {#build-segments}
+# 建立細分群體 {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -45,7 +45,7 @@ ht-degree: 93%
    | **[!UICONTROL 僅限專案區段]** | 資訊框是用來說明區段只會在建立區段所屬專案中見到，並且該區段不會新增至您的元件清單中。啟用&#x200B;**[!UICONTROL 「讓此區段適用於您的所有專案並將其新增至您的元件清單中」]**&#x200B;以變更該設定。此資訊框只會在後述情況時可見到：當您建立[快速區段](seg-quick.md)時；以及從[!UICONTROL 快速區段]介面使用「**[!UICONTROL 開啟產生器]**」，將快速區段資訊變成一般區段時。 |
    | **[!UICONTROL 標題]**![為必要](/help/assets/icons/Required.svg) | 為區段命名，例如 `Last month mobile customers`。 |
    | **[!UICONTROL 說明]** | 提供區段說明，例如，`Segment to define the mobile customers for the last month`。 |
-   | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標籤來組織區段。 開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL ENTER]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
+   | **[!UICONTROL 標記]** | 透過建立或套用一或多個標記來整理區段。開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL ENTER]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
    | **[!UICONTROL 定義]** ![規定必要](/help/assets/icons/Required.svg) | 使用[定義產生器](#definition-builder)來定義區段。 |
 
    {style="table-layout:auto"}
@@ -65,14 +65,14 @@ ht-degree: 93%
 
 您可以設定定義的類型和範圍：
 
-1. 若要指定定義的類型，請指定是否要建立一個包含定義或一個排除定義。選取![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 選項]**，並從下拉式功能表&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**。
+1. 若要指定定義的類型，請指定是否要建立一個包含定義或一個排除定義。選取 ![設定](/help/assets/icons/Setting.svg)**[!UICONTROL 「選項」]**，並從下拉式選單中選取&#x200B;**[!UICONTROL 「包括」]**&#x200B;或&#x200B;**[!UICONTROL 「排除」]**。
 1. 若要指定定義的範圍，請從&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉式功能表選取，以決定您要定義的範圍是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 工作階段]**、**[!UICONTROL 人員]**、**[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 機會]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}或&#x200B;**[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
 您稍後可以隨時變更這些設定。
 
 ### 元件
 
-建立區段定義時，有個重要部分是使用維度、量度、現有區段和日期範圍。所有這些元件都可從區段產生器的元件面板使用。
+建立區段定義時，有個重要部分是使用維度、量度、現有區段和日期範圍。區段產生器中的元件面板提供所有這些元件。
 
 ![開始建置定義](assets/start-building-filter.gif){width=100%}
 
@@ -84,7 +84,7 @@ ht-degree: 93%
 
 若要編輯元件：
 
-* 從運運算元下拉式選單中選取元件的新運運算元。
+* 從運算子下拉式選單中選取元件的新運算子。
 * 若可以，請為運算子選取或指定不同的值。
 * 如果元件類型是維度，則可以定義歸因模型。如需詳細資訊，請參閱「[歸因模型](#attribution)」。
 
@@ -120,7 +120,7 @@ ht-degree: 93%
 
 您可以建置包含滾動日期範圍的區段。如此一來，您便可以回答有關持續進行的活動或事件的問題。舉例來說，您可以建置包括「*過去 60 天內在線上購買過一次的人*」的區段。
 
-![使用滾動日期範圍的區段](assets/filter-rolling-date-range.gif)
+![使用滾動日期範圍進行劃分](assets/filter-rolling-date-range.gif)
 
 
 >[!BEGINSHADEBOX]

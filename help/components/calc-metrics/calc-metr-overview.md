@@ -1,13 +1,14 @@
 ---
+description: 瞭解您可以從現有量度建立的計算量度。
+keywords: 計算的量度
 title: 計算量度概觀
-description: 了解衍生自報告執行時間的劃分量度。
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: ce18545a0ee597ee448fa55d83bdece54c7c849c
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 82%
 
 ---
 
@@ -27,7 +28,7 @@ ht-degree: 100%
 
 | 工作 | 說明 |
 | --- | --- |
-| 計劃 | 特別是，對於即將正式批准的量度![Checkmark](/help/assets/icons/Checkmark.svg)，請謹慎規劃和建立您預計經常使用的計算量度。 |
+| 計劃 | 尤其對於即將正式核准的量度![核取記號](/help/assets/icons/CheckmarkCircle.svg)，請謹慎規劃和建構您預計會經常使用的計算量度。 |
 | [建置](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) | 建置、修改和儲存計算量度。 |
 | [套用](/help/components/use-components-in-workspace.md) | 直接在您的 Workspace 專案中套用計算量度。 |
 | [管理](/help/components/calc-metrics/cm-workflow/cm-manager.md) | 管理計算量度。您可以[標記](/help/components/calc-metrics/cm-workflow/cm-tagging.md)、[核准](/help/components/calc-metrics/cm-workflow/cm-approving.md)、[取消核准](/help/components/calc-metrics/cm-workflow/cm-approving.md)、[篩選](/help/components/calc-metrics/cm-workflow/cm-filter.md)、[設為最愛](/help/components/calc-metrics/cm-workflow/cm-favorite.md)或[取消最愛](/help/components/calc-metrics/cm-workflow/cm-favorite.md)、[共用](/help/components/calc-metrics/cm-workflow/cm-sharing.md)或[複製](/help/components/calc-metrics/cm-workflow/cm-copy.md)一個或多個計算量度。 |
