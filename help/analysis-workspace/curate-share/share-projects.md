@@ -61,9 +61,9 @@ ht-degree: 76%
 
 與組織中的使用者和群組共用特定專案角色時，請考慮以下事項：
 
-* 專案角色 (**[!UICONTROL 編輯原始項目]**、**[!UICONTROL 編輯副本]**&#x200B;和&#x200B;**[!UICONTROL 唯讀]**) 會與使用者和特定專案 ID 相連結。專案角色與[Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started)中管理的使用者許可權無關。
+* 專案角色 (**[!UICONTROL 編輯原始項目]**、**[!UICONTROL 編輯副本]**&#x200B;和&#x200B;**[!UICONTROL 唯讀]**) 會與使用者和特定專案 ID 相連結。專案角色與[Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/admin-getting-started)中管理的使用者許可權無關。
 
-* 在Customer Journey Analytics中，群組是由[Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started)中的產品設定檔所定義。 管理員可與任何群組共用，包括&#x200B;*全部*。 非管理員可以與其所屬的任何群組共用，但&#x200B;*全部*&#x200B;除外。
+* 在Customer Journey Analytics中，群組是由[Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/admin-getting-started)中的產品設定檔所定義。 管理員可與任何群組共用，包括&#x200B;*全部*。 非管理員可以與其所屬的任何群組共用，但&#x200B;*全部*&#x200B;除外。
 
 * 獲得多個角色的使用者一律會有最高體驗。如果使用者同時以個人和群組的身分新增，就可能會發生這種情況。 例如，如果使用者以個人身分獲得&#x200B;**[!UICONTROL 編輯原始專案]**&#x200B;角色，並以群組成員身分獲得&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色，則使用者會收到&#x200B;**[!UICONTROL 編輯原始專案]**&#x200B;體驗。
 
