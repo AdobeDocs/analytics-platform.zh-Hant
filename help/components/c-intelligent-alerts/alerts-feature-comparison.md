@@ -4,10 +4,10 @@ title: 警報功能比較Customer Journey Analytics和Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
 exl-id: 04e819c4-9fb5-4459-9f8b-40d78385ed90
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 9e07dfc84bc06aef987d99c225cefb4e0406f552
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 23%
+source-wordcount: '487'
+ht-degree: 24%
 
 ---
 
@@ -45,16 +45,8 @@ ht-degree: 23%
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
-## 從Analysis Workspace建立警報無法使用
+## 建立警報
 
-在Adobe Analytics的Analysis Workspace中，您可以透過以下所述的任何方式從Analysis Workspace建立警報。 Customer Journey Analytics尚不提供從Analysis Workspace建立警報的選項。 請改為存取警報產生器，如[建立警報](/help/components/c-intelligent-alerts/alert-builder.md)中所述。
+在Adobe Analytics的Analysis Workspace中，您可以[以多種方式從Analysis Workspace建立警報](https://experienceleague.adobe.com/en/docs/analytics/components/alerts/alert-builder)。 在Customer Journey Analytics中，您只能從自由格式表格中的選取範圍[在Analysis Workspace中建立警報](alert-builder.md)。
 
-Adobe Analytics提供下列選項：
-
-* 在自由表格中選取一或多個行專案，然後按一下滑鼠右鍵並選取&#x200B;**[!UICONTROL 從選取範圍建立警報]**。
-
-  如此會立即預先填入警報產生器，使用正確的量度和區段建立警報。
-
-* 在 Analysis Workspace 中開啟專案，然後選取「**[!UICONTROL 元件]**」>「**[!UICONTROL 建立警報]**」。
-
-* 在Analysis Workspace中開啟專案，然後使用下列捷徑： **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows)或&#x200B;**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]** (macOS)。
+Adobe Analytics和Customer Journey Analytics都支援透過[警報管理器](alert-manager.md)建立警報
