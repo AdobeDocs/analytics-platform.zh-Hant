@@ -1,13 +1,13 @@
 ---
-description: 瞭解如何使用警報以實現通知的精細控制，以及與異常偵測的整合。
+description: 了解如何使用警報，以便對通知進行精細控制並與異常偵測整合。
 title: 警報概觀
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-description: 使用日曆和資料範圍在Analysis Workspace中指定日期範圍。
+description: 使用日曆和資料範圍來指定 Analysis Workspace 中的日期範圍。
 title: 日期範圍概觀
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/3445840?format=jpeg&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
 
 {{videoaa}}
 +++
@@ -47,8 +47,8 @@ ht-degree: 96%
 使用日期範圍的方式與[使用任何元件](/help/components/overview.md#analysis-workspace-components)的方式一樣。您從![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** 元件面板將日期範圍拖曳到：
 
 - **[!UICONTROL 行事曆]**：您使用日期範圍![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;目前的行事曆設定。
-- **量度欄標題**：您![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;量度，![新增](/help/assets/icons/Add.svg)**[!UICONTROL 新增&#x200B;]**&#x200B;日期範圍作為量度，或使用日期範圍元件來![篩選](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;篩選&#x200B;]**&#x200B;量度。
-- **維度欄標題**：您![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;目前的維度。現在的新維度是&#x200B;**[!UICONTROL 日期範圍]**。只要維度是日期範圍，您就可以![新增](/help/assets/icons/Add.svg)**[!UICONTROL 新增&#x200B;]**&#x200B;其他日期範圍作為維度項目。
+- **量度欄標題**：您![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;量度，![新增](/help/assets/icons/Add.svg)**[!UICONTROL 新增&#x200B;]**日期範圍作為量度，或使用日期範圍元件來![篩選](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;篩選&#x200B;]**量度。
+- **維度欄標題**：您![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;目前的維度。現在的新維度是&#x200B;**[!UICONTROL 日期範圍]**。只要維度是日期範圍，您就可以![新增](/help/assets/icons/Add.svg)**[!UICONTROL 新增&#x200B;]**其他日期範圍作為維度項目。
 - **維度項目**：您可依日期範圍![劃分](/help/assets/icons/Breakdown.svg) **[!UICONTROL 劃分]**&#x200B;特定維度項目。
 
 您也可以直接在自由格式表格視覺效果中新增日期範圍欄：
