@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -182,7 +182,7 @@ ht-degree: 97%
       + [快捷鍵](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](../analysis-workspace/build-workspace-project/view-density.md)
-      + [除錯程式](../analysis-workspace/build-workspace-project/debugger.md)
+      + [偵錯工具](../analysis-workspace/build-workspace-project/debugger.md)
    + 範本 {#templates}
       + [使用範本](../analysis-workspace/templates/use-templates.md)
       + [建立和管理範本](../analysis-workspace/templates/create-templates.md)
@@ -256,10 +256,10 @@ ht-degree: 97%
       + [匯出至雲端](../analysis-workspace/export/export-cloud.md)
    + 歸因 {#attribution}
       + [歸因概觀](../analysis-workspace/attribution/overview.md)
-      + [模型、容器和回顧期間](../analysis-workspace/attribution/models.md)
+      + [模型、容器及回顧期間](../analysis-workspace/attribution/models.md)
       + [演算法歸因](../analysis-workspace/attribution/algorithmic.md)
       + [最佳做法](../analysis-workspace/attribution/best-practices.md)
-      + [常見問題](../analysis-workspace/attribution/faq.md)
+      + [常見問題集](../analysis-workspace/attribution/faq.md)
    + 異常偵測 {#anomaly-detection}
       + [概觀](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [檢視異常](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
@@ -270,9 +270,9 @@ ht-degree: 97%
       + [統計技術](../analysis-workspace/c-forecast/statistics-forecasting.md)
    + [使用者偏好設定](../analysis-workspace/user-preferences.md)
    + 工作區常見問題及更多資訊 {#workspace-faq}
-      + [常見問題](../analysis-workspace/workspace-faq/faq.md)
+      + [常見問題集](../analysis-workspace/workspace-faq/faq.md)
       + [效能最佳化](../analysis-workspace/workspace-faq/optimizing-performance.md)
-      + [錯誤與疑難排解](../analysis-workspace/workspace-faq/error-messages.md)
+      + [錯誤和疑難排解](../analysis-workspace/workspace-faq/error-messages.md)
       + [限制](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [要求](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [協助工具](../analysis-workspace/workspace-faq/aw-accessibility.md)
