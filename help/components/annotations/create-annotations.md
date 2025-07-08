@@ -7,7 +7,7 @@ role: User, Admin
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="components_annotations_details"
 >title="註解詳細資料"
->abstract="註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。 註解可讓您將行事曆事件和特定的維度和量度連結起來。"
+>abstract="您可以使用註解有效地向您的組織傳達內容資料的細微差別和洞察。您可以利用註解將行事曆事件與特定維度和量度連結。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +50,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="components_annotations_scope"
 >title="範圍"
->abstract="範圍可讓您自訂要加上註解的資料。 計算量度和區段不會自動繼承套用至其定義中所使用元件的註解。 您可以將新的計算量度新增至現有註解的範圍區段。新區段需要新的註解。"
+>abstract="您可以使用範圍來自訂要新增註解的資料。計算量度和區段不會自動繼承套用至其定義中所用元件的註解。您可以將新的計算量度新增至現有註解的範圍區段。新區段需要新的註解。"
 
 <!-- markdownlint-enable MD034 -->
 
