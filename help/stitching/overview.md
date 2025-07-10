@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 1a697ce0372d1cb544940778850714a198a000ec
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+source-git-commit: 50599b36d333cae3735c6d4fd1b0af6fcabe9177
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)�
 >[!IMPORTANT]
 >
 >
->- 對來源事件資料集結構描述所做的任何變更，都必須同時套用至新拼接資料集結構描述，否則將會中斷拼接的資料集。
+>- 將您對來源事件資料集結構描述所做的任何變更也套用至新拼接資料集結構描述。
 >
 >- 如果您移除來源資料集，拼接的資料集將停止處理並被系統移除。
 >
