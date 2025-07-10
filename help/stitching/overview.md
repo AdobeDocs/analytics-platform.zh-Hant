@@ -72,8 +72,8 @@ Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)�
 >[!MORELIKETHIS]
 >
 >[欄位型拼接](fbs.md)
->>[圖表式拼接](gbs.md)
->>[使用拼接](use-stitching.md)
->>[驗證拼接](validate.md)
->>[拼接常見問題](faq.md)
+>&#x200B;>[圖表式拼接](gbs.md)
+>&#x200B;>[使用拼接](use-stitching.md)
+>&#x200B;>[驗證拼接](validate.md)
+>&#x200B;>[拼接常見問題](faq.md)
 
