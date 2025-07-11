@@ -26,7 +26,7 @@ ht-degree: 5%
 * [自由面板](/help/analysis-workspace/c-panels/freeform-panel.md)
 * ...
 
-您會看到包含資料最近一次重新整理時間戳記的訊息。 例如： [!UICONTROL  *上次重新整理時間： 07:55 pm*]。
+您會看到包含資料最近一次重新整理時間戳記的訊息。 例如： [!UICONTROL &#x200B; *上次重新整理時間： 07:55 pm*]。
 
 從下拉式選單中選取您要報告的即時時段。 可選擇下列選項：
 
