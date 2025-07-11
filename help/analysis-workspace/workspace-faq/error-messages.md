@@ -1,13 +1,13 @@
 ---
 description: 了解 Analysis Workspace 的錯誤和疑難排解。
-title: 錯誤與疑難排解
+title: 錯誤和疑難排解
 feature: Workspace Basics
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

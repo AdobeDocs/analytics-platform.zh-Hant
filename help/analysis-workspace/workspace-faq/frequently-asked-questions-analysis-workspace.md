@@ -1,20 +1,20 @@
 ---
-description: 瞭解Analysis Workspace的需求。
+description: 了解 Analysis Workspace 的系統需求。
 keywords: Analysis Workspace
-title: 要求
+title: 需求
 feature: Workspace Basics
 exl-id: ea2ea8d6-8327-4168-b81a-f4945b572cbb
 role: Admin
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# 要求
+# 需求
 
-執行Analysis Workspace的需求如下：
+執行 Analysis Workspace 的需求如下：
 
 | 需求 | 說明 |
 |--- |--- |

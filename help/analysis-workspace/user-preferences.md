@@ -1,14 +1,14 @@
 ---
 title: 使用者偏好設定
-description: 瞭解如何設定使用者的一般和專案偏好設定。
+description: 了解如何設定使用者的一般和專案偏好設定。
 feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4061'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,11 +63,11 @@ ht-degree: 97%
 
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
-| **範本索引標籤** | | |
-|  | 隱藏範本標籤 | 對您組織中的所有使用者隱藏「範本」標籤。 |
+| **「範本索引標籤」索引標籤** | | |
+|  | 隱藏範本索引標籤 | 對組織中所有使用者隱藏範本索引標籤。 |
 | **專案共用** | | |
 | | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。這表示使用者無法與組織中沒有 Analysis Workspace 帳戶的人員共用專案，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入) ](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。<br/>依照預設，除了擁有已授權之 Healthcare Shield 的客戶以外，所有組織均停用此選項 (亦即使用者可以與組織外部的人員共用專案)。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。在這種情況下，共用專案的使用者與任何人共用專案時，就必須啟用可用的&#x200B;[!UICONTROL **連結使用中**]&#x200B;選項&#x200B;**([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**)，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。在您停用此選項讓使用者可以使用[!UICONTROL 與任何人共用]共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。新增權限後，您可以停用此選項，然後接受所產生的法律注意事項。如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
-| | 需要 Experience Cloud 驗證 | 啟用此選項後，在Analysis Workspace中透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項授予專案存取權的使用者，必須使用其Experience Cloud認證進行驗證。<p>啟用此選項後，每當使用者使用[!UICONTROL 與任何人共用]共用選項共用專案時，共用對話框就會啟用[!UICONTROL 需要 Experience Cloud 驗證]選項，且共用專案的使用者無法停用該選項。如需有關使用者如何與任何人共用專案的資訊，請參閱[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) (在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項共用，以及未啟用[!UICONTROL 需要 Experience Cloud 驗證]選項的所有專案都會停用。<p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後再停用 (允許擁有該連結的任何人存取專案)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權。在此情況下，共用專案的使用者必須啟用[!UICONTROL 連結有效]選項，當與任何人共用專案時，此選項可用&#x200B;**（[!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]** > **[!UICONTROL 連結有效]**），如[與任何人共用專案（不需要登入）](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中所述。</li><li>您的組織實作 SSO 時才可使用這個選項。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
+| | 需要 Experience Cloud 驗證 | 此選項啟用後，透過 Analysis Workspace 中的「**[!UICONTROL 與任何人共用]**」選項取得專案存取權限的人員，必須使用其 Experience Cloud 認證進行驗證。<p>啟用此選項後，每當使用者使用[!UICONTROL 與任何人共用]共用選項共用專案時，共用對話框就會啟用[!UICONTROL 需要 Experience Cloud 驗證]選項，且共用專案的使用者無法停用該選項。如需有關使用者如何與任何人共用專案的資訊，請參閱[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) (在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項共用，以及未啟用[!UICONTROL 需要 Experience Cloud 驗證]選項的所有專案都會停用。<p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後再停用 (允許擁有該連結的任何人存取專案)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權。在此情況下，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL 連結使用中]」選項&#x200B;**(「[!UICONTROL 共用]**」>「**[!UICONTROL 與任何人共用]**」>「**[!UICONTROL 連結使用中]**」)，如在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。</li><li>您的組織實作 SSO 時才可使用這個選項。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
 | 專案註解 | 允許註解專案 | **注意：**&#x200B;這項功能處於發行的有限測試階段，可能尚未開放供您的環境使用。此功能普遍開放使用時，便會移除此注意事項。有關 Customer Journey Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。 <p>啟用此選項後，Analysis Workspace 中每項專案的右側邊欄會提供一個註解區域。</p> <p>專案所有者可以停用指定專案的註解區域，如[建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)所述。</p> <p>如需關於在 Analysis Workspace 專案中進行註解的更多資訊，請參閱[在專案中新增與管理註解](/help/analysis-workspace/build-workspace-project/comment-projects.md)。</p> |
 
 {style="table-layout:auto"}
