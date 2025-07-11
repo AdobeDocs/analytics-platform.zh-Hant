@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 6d4d6558f8f0ebb6a0885c958fe019d3e5afab4c
+source-git-commit: 1c4342d91e0c939d596c9660ffc510c4698f8680
 workflow-type: tm+mt
-source-wordcount: '2677'
+source-wordcount: '2696'
 ht-degree: 98%
 
 ---
@@ -324,7 +324,9 @@ ht-degree: 98%
 
 #### 現有設定 {#existing-configuration}
 
-對於現有設定，您無法編輯標記屬性。但是，您可以編輯要包括或排除的頁面和資產。
+對於現有設定，您無法編輯標記屬性。若要更新與現有組態相關的標籤屬性，請使用[Content Analytics標籤延伸組態](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview)。
+
+但是，您可以編輯要包括或排除的頁面和資產。
 
 * 若要編輯在為 Content Analytics 收集資料時應包括或排除哪些頁面，請選取「**[!UICONTROL 體驗]**」下方的「![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**」。您會被重新導向至與目前 Content Analytics 設定標記屬性關聯的 [Adobe Content Analytics 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)。您可以編輯規則運算式以包括或排除頁面。請確保您有[發佈](#publish)您的變更。
 
