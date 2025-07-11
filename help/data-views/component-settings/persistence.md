@@ -20,7 +20,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_persistence"
 >title="持續性"
->abstract="設定套用至維度的預設配置模式。在報告中會先套用配置，然後再套用細分群體。"
+>abstract="設定套用至維度的預設配置模式。產生報告時會先套用配置再套用區段。"
 
 <!-- markdownlint-enable MD034 -->
 

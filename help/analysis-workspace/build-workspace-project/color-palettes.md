@@ -7,11 +7,11 @@ role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
-# 視覺效果調色盤 {#visualization-color-palettes}
+# 視覺化圖形調色盤 {#visualization-color-palettes}
 
 <!-- markdownlint-disable MD034 -->
 
