@@ -274,7 +274,7 @@ ht-degree: 99%
       + [效能最佳化](../analysis-workspace/workspace-faq/optimizing-performance.md)
       + [錯誤和疑難排解](../analysis-workspace/workspace-faq/error-messages.md)
       + [限制](../analysis-workspace/workspace-faq/aw-limitations.md)
-      + [要求](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [需求](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [協助工具](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Content Analytics {#content-analytics}
