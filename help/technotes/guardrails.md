@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: a9c22cfd7077fd9e1ac4b9ea4ec0e016e9d2425b
+source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
 workflow-type: tm+mt
-source-wordcount: '1881'
-ht-degree: 8%
+source-wordcount: '1831'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 8%
 | 每個專案的面板 | 15 | 系統強制的護欄 | 每個專案最多[個面板](../analysis-workspace/home.md#panels)個。 |
 | 每個面板的視覺效果 | 25 | 系統強制的護欄 | 每個面板最多[個視覺效果](../analysis-workspace/home.md#visualizations)個。 |
 | 每個自由表格的衍生欄位 | 5 | 系統強制的護欄 | 單一自由表格中不同衍生欄位的最大數量。 |
-| 每個專案的註解 <p>**注意：**&#x200B;對專案發表評論的功能處於發行的「有限測試」階段，可能尚未在您的環境中提供。 此功能普遍開放使用時，便會移除此注意事項。有關 Customer Journey Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。</p> | 1,000 | 系統強制的護欄 | 每個專案的最大評論數量。 |
+| 每個專案的註解 | 1,000 | 系統強制的護欄 | 每個專案的最大評論數量。 |
 
 {style="table-layout:auto"}
 
@@ -94,7 +94,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [ Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/guardrails/overview)。
+另請參閱Experience Platform [ Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)。
 
 
 ## 自動化資料集有效期
@@ -139,7 +139,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
+另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 
 ## 目的地資料匯出
@@ -151,7 +151,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/guardrails#dataset-exports)
+另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## 資料登陸區域
@@ -194,7 +194,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 | 每個區段的巢狀容器 | 10 | 系統強制的護欄 | 每個區段的巢狀容器數上限。 |
 | 每個區段的規則 | 100 | 系統強制的護欄 | 每個區段的最大規則數。 |
 | 每個區段每個Dimension的字串比較 | 100 | 系統強制的護欄 | 每個區段每個維度的最大字串比較數量。 |
-| 計算的量度 | 6,000 | 系統強制的護欄 | 組織的計算量度數上限。 |
+| 計算量度 | 6,000 | 系統強制的護欄 | 組織的計算量度數上限。 |
 | 區段 | 50,000 | 系統強制的護欄 | 可為組織定義的最大區段數。 |
 | API 呼叫 | 120 | 系統強制的護欄 | 每分鐘API要求數（每6秒12個要求）。 |
 
@@ -252,7 +252,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 >[!NOTE]
 >
->以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
+>以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 | 資料流程 | 預期延遲 |
 |---|---|

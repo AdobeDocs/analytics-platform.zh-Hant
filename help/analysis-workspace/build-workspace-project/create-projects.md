@@ -4,9 +4,9 @@ title: 建立專案
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
-workflow-type: ht
-source-wordcount: '500'
+source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
+workflow-type: tm+mt
+source-wordcount: '454'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 | 顯示註解 | 指定是否顯示此專案的註解。 |
 | [專案調色盤](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 您可以變更用於 Workspace 的分類調色盤，其方式為選擇已針對色盲人士最佳化的立即可用調色盤或指定您的自訂調色盤。此功能會影響工作區中的許多項目，包括大部分的視覺效果。 |
 | [檢視密度](/help/analysis-workspace/build-workspace-project/view-density.md) | 可減少左側面板、自由格式表格和同類群組表格的垂直邊框間距，讓您在畫面上查看更多資料。 |
-| 允許註解 | **注意：**&#x200B;這項功能處於發行的有限測試階段，可能尚未開放供您的環境使用。此功能普遍開放使用時，便會移除此注意事項。有關 Customer Journey Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。 <p>啟用此選項後，Analysis Workspace 中專案的右側邊欄會提供一個註解區域。如需詳細資訊，請參閱[在專案中新增與管理註解](/help/analysis-workspace/build-workspace-project/comment-projects.md)。</p> |
+| 允許註解 | 啟用此選項後，Analysis Workspace 中專案的右側邊欄會提供一個註解區域。如需詳細資訊，請參閱[在專案中新增與管理註解](/help/analysis-workspace/build-workspace-project/comment-projects.md)。 |
 
 
 
