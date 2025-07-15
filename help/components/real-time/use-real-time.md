@@ -28,7 +28,7 @@ ht-degree: 11%
 * [下一個或上一個項目](/help/analysis-workspace/c-panels/next-previous.md)
 * [快速深入分析](/help/analysis-workspace/c-panels/quickinsight.md)
 
-您會看到包含資料最近一次重新整理時間戳記的訊息。 例如： [!UICONTROL  *上次重新整理時間： 07:55 pm*]。
+您會看到包含資料最近一次重新整理時間戳記的訊息。 例如： [!UICONTROL &#x200B; *上次重新整理時間： 07:55 pm*]。
 
 從下拉式選單中選取您要報告的即時時段。 可選擇下列選項：
 
