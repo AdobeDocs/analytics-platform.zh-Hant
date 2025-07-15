@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: f3c9a000ae5baa19cb5a6cf0e0343de3a9685b56
-workflow-type: ht
-source-wordcount: '2531'
-ht-degree: 100%
+source-git-commit: 78fab62b4f28a85986b5d7c537d321049f929897
+workflow-type: tm+mt
+source-wordcount: '2653'
+ht-degree: 97%
 
 ---
 
@@ -24,9 +24,11 @@ ht-degree: 100%
 | --- | --- |
 | **組合資料集的能力 (例如 Adobe Analytics 報告套件)** | Customer Journey Analytics 可讓您[組合多個報告套件的資料](/help/connections/combined-dataset.md)，如同 Adobe Analytics 中的單一報告套件。 |
 | **可容納任何類型的資料** | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料結構描述和類型。使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)，能以統一方式呈現和組織資料，可進行組合和探索。Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/zh-hant/docs/analytics/import/home)的功能。 |
+| **B2B Edition** | [Customer Journey Analytics B2B edition](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition?lang=en)可協助B2B公司提供可操作的帳戶深入分析以推動收入增長，進而調整其行銷、銷售和產品團隊。 由於客戶是資料模型的中心，因此所有分析都集中在客戶歷程上。在人員和時間型事件上新增實體層 (客戶、銷售機會和購買群組)，即可建立完整的 B2B 行銷和收入生命週期。 |
 | **BI 擴充功能** | 您可以利用[BI 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)將 Customer Journey Analytics 直接連接到常用的 BI 視覺化工具，例如 Power BI 或 Tableau。透過此擴充功能，您可以讓 BI 報表與您在 Analysis Workspace 和其他 Customer Journey Analytics 報表介面中看到的內容精確相符。透過這個擴充功能，您可以用更簡單的方法取得 Customer Journey Analytics 的 BI 報告，而不需要使用原始資料來重新建立報告/量度。 |
 | **Content Analytics** | [Content Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics) 能幫助行銷人員了解內容如何影響企業已定義的關鍵績效指標。除了行為資料之外，Content Analytics 還會收集關於內容使用方式和內容產生影響的資料。 |
 | **跨裝置分析** | Customer Journey Analytics 支援無縫組合來自未經身分驗證和經過身分驗證工作階段的特定裝置資料集。Customer Journey Analytics 可以將歷史資料回填到已知裝置。在 Adobe Analytics 中，此功能僅限於單一報告套裝和裝置圖使用。 |
+| **Data Insights 代理** | [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai?lang=en) (屬於Customer Journey Analytics中的AI小幫手)是產生式AI交談代理程式。 它會使用您資料檢視的元件和實際資料，在Analysis Workspace中建立相關的視覺效果，快速並有效率地回答以資料為中心的問題。 |
 | **維度增強** | Customer Journey Analytics 在使用維度時提供了更大的靈活性： <ul><li>**自訂數值型維度**：[在資料視圖中建立您自己的數值型維度](/help/data-views/create-dataview.md#components)。</li><li>**排序字串型維度**：[在自由格式表格中按字母順序排序字串型維度](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables)。 </li></ul><p>在 Adobe Analytics 中，只有少數內建數值維度可用，且無法按字串型維度排序。</p> |
 | **衍生欄位** | [衍生欄位](/help/data-views/derived-fields/derived-fields.md)允許對您的資料進行報告時間轉換。資料可以動態組合、更正或建立，且這些轉換會追溯套用至所有的報告。 |
 | **提升安全性和隱私權選項** - HIPAA 整備程度 | Customer Journey Analytics 符合 HIPAA 標準，並提供[額外的安全性選項](/help/privacy/cmk.md)以實現法規合規性。Adobe Analytics 尚未符合 HIPAA 標準。 |
