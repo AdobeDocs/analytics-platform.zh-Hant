@@ -1,20 +1,20 @@
 ---
 description: 瞭解如何在Analysis Workspace中使用即時報告。
 title: 使用即時報表
-feature: Filters, Segments
+feature: Real-time Reporting
 hide: true
 hidefromtoc: true
 role: User
 badgePremium: label="Beta"
-source-git-commit: 24834f6a1424a885c6f7b3dcf0ad84375e21b462
+exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
+source-git-commit: 82aefce30834d6400d338896dc1968e37596393e
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 5%
+source-wordcount: '150'
+ht-degree: 11%
 
 ---
 
-
-# 使用即時報表
+# 使用即時報告
 
 {{release-limited-testing}}
 
@@ -23,10 +23,12 @@ ht-degree: 5%
 
 
 * [空白面板](/help/analysis-workspace/c-panels/blank-panel.md)
-* [自由面板](/help/analysis-workspace/c-panels/freeform-panel.md)
-* ...
+* [自由格式](/help/analysis-workspace/c-panels/freeform-panel.md)
+* [歸因](/help/analysis-workspace/c-panels/attribution.md)
+* [下一個或上一個項目](/help/analysis-workspace/c-panels/next-previous.md)
+* [快速深入分析](/help/analysis-workspace/c-panels/quickinsight.md)
 
-您會看到包含資料最近一次重新整理時間戳記的訊息。 例如： [!UICONTROL &#x200B; *上次重新整理時間： 07:55 pm*]。
+您會看到包含資料最近一次重新整理時間戳記的訊息。 例如： [!UICONTROL  *上次重新整理時間： 07:55 pm*]。
 
 從下拉式選單中選取您要報告的即時時段。 可選擇下列選項：
 
@@ -36,7 +38,7 @@ ht-degree: 5%
 * [!UICONTROL 最近8小時]
 * [!UICONTROL 最近24小時]
 
-現在，所有視覺效果每分鐘更新一次，最多可更新30分鐘，同時瀏覽器索引標籤已啟用即時重新整理面板，目前處於啟用狀態。
+現在面板中的所有視覺效果會每分鐘更新一次，最多更新30分鐘，同時啟用即時重新整理面板的瀏覽器標籤會啟用。
 
 ![即時重新整理](assets/real-time-refresh.gif)
 
