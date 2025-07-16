@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
-workflow-type: ht
+source-git-commit: c86da649c23ca06c3404b6e5db0b9970e8817a72
+workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 依預設會顯示相關 Content Analytics 維度的縮圖。若要設定 Content Analytics 維度的縮圖顯示：
 
-* 將滑鼠停留在 Content Analytics 維度的標題列上。例如，「**[!UICONTROL 資產名稱]**」或「**[!UICONTROL 體驗 ID]**」。
+* 將滑鼠停留在 Content Analytics 維度的標題列上。例如，**[!UICONTROL 資產識別碼]**&#x200B;或&#x200B;**[!UICONTROL 體驗識別碼]**。
 * 選取![設定](/help/assets/icons/Setting.svg)。
 * 在「**[!UICONTROL 列設定]**」快顯視窗中，在「**[!UICONTROL 設定]**」下方，勾選或取消勾選「**[!UICONTROL 顯示縮圖]**」。
 
@@ -155,5 +155,5 @@ Content Analytics 使用 AI 和 GenAI 自動指派每個資產中繼資料，例
 >[!MORELIKETHIS]
 >
 >[Content Analytics 元件](components.md)
->[使用範本](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>>[使用範本](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >
