@@ -4,10 +4,10 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
-workflow-type: ht
+source-git-commit: 5464ad539fc1f753941297c3d7634f20506f719b
+workflow-type: tm+mt
 source-wordcount: '19833'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -538,7 +538,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="了解哪些內容和內容屬性效能最佳。"
->abstract="**這可以協助您**&#x200B;了解如何於細微層級上執行您的內容。您可以查看個別資產或特定屬性的效能。Content Analytics 使用 AI 自動產生屬性，並用其標記您的內容。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics)<br/>**根據您所了解的情況，您可能會**&#x200B;採取各種行動，例如在首頁推廣表現出色的資產、針對特定區段提供個人化內容並包括表現出色的屬性，或者輪換已開始過時的內容。"
+>abstract="**這可以協助您**&#x200B;了解如何於細微層級上執行您的內容。您可以查看個別資產或特定屬性的效能。Content Analytics會使用AI來自動產生屬性，並使用這些屬性標籤您的內容。<a href="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics" target="_blank">了解更多</a> <br/>**根據您所了解的情況，您可能會**&#x200B;採取各種行動，例如在首頁推廣高效能資產、針對特定細分市場個人化內容以包括高效能屬性，或者輪換已開始過時的內容。"
 
 <!-- markdownlint-enable MD034 -->
 
