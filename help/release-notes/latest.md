@@ -3,16 +3,16 @@ title: 最新的 Customer Journey Analytics 發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 78fab62b4f28a85986b5d7c537d321049f929897
+source-git-commit: dbe9d9f8b49c1415764cc7d67438966284078c71
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 58%
+source-wordcount: '436'
+ht-degree: 56%
 
 ---
 
 # 最新的 Adobe Customer Journey Analytics 發行說明 (2025 年 7 月)
 
-**上次更新日期**：2025年7月15日
+**上次更新日期**：2025年7月17日
 
 
 這些發行說明涵蓋2025年7月11日至2025年8月15日的發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
@@ -22,11 +22,10 @@ ht-degree: 58%
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **在 Analysis Workspace 專案中新增和檢視註解** | Analysis Workspace 中的新[註解功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects)，讓您可以在 Analysis Workspace 專案的內容中共用深入分析及提出問題。這樣可以簡化關於資料的討論過程，讓對話聚焦於所討論的資料範圍內。您可以 <ul><li>對任何您有權存取的 Analysis Workspace 專案留下註解</li><li>針對視覺內容中的特定點留下註解，或對專案留下一般註解</li><li>標記其他使用者，通知他們您有留下註解</li><li>管理現有註解 (編輯、釘選、解決等)</li></ul>Customer Journey Analytics 管理員可以[於組織層級停用註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/user-preferences#ims-organization-preferences)。專案所有者可以[在專案層級停用註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)。 | 2025 年 6 月 25 日 | 2025 年 7 月 11 日 <p>（先前為2025年5月29日）</p> |
-| **下載為PDF的專案會下載至您的工作站** | 將專案下載為PDF時，PDF會下載至您工作站的下載資料夾。 之前，將專案下載為PDF會在新的瀏覽器標籤中啟動PDF，並具有唯一的URL。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/export/download-send) | | 待定 |
+| **下載為PDF的專案會下載至您的工作站** | 將專案下載為PDF時，PDF會下載至您工作站的下載資料夾。 之前，將專案下載為PDF會在新的瀏覽器標籤中啟動PDF，並具有唯一的URL。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/export/download-send) | | 待定 |
 | **衍生欄位 — Typecast函式** | 「型別廣播」衍生的欄位函式可讓您即時變更欄位型別，並讓該欄位可用於Customer Journey Analytics中的其他轉換。 | 。 | 2025年7月30日 |
 | **衍生欄位 — 日期數學函式** | 「日期數學」衍生欄位函式可傳回兩個「日期」或「日期 — 時間」欄位之間的差異。 | | 2025年7月30日 |
 | **Ares：衍生欄位深度函式** | 「深度」衍生欄位函式提供傳回欄位深度的功能，類似於現成可用的標準「事件深度」維度。 |  | 30,2025 年 7 月 |
-| **支援 Chrome 預先轉譯** | 控制 Chrome 預先轉譯頁面時資料集合資料庫的運作方式。(文件連結待補充) |  | 2025年7月31日（先前為2025年6月30日） |
 
 ## Customer Journey Analytics 中的修正
 
