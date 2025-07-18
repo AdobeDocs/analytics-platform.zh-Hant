@@ -5,7 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: bf5d809588c7a0b2e7a97470c99a0f2565d6f713
 workflow-type: tm+mt
 source-wordcount: '7413'
 ht-degree: 67%
@@ -147,7 +147,7 @@ ht-degree: 67%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -187,7 +187,7 @@ ht-degree: 67%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -384,7 +384,7 @@ ht-degree: 67%
 
 >[!CONTEXTUALHELP]
 >id="connection_lookbackwindow"
->title="回顧視窗"
+>title="回顧期間"
 >abstract="選取回顧時間範圍要在重播拼接中使用的適當時段。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
 
@@ -433,7 +433,7 @@ ht-degree: 67%
 
 1. 選取一或多個資料集，然後選取「**[!UICONTROL 下一步]**」。連線中必須至少包含一個事件或摘要資料集。
 
-1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;對話方塊的➋ **[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集[&#128279;](#dataset-settings)的設定。
+1. 在[新增資料集](#dataset-settings)對話方塊的➋ **[!UICONTROL 資料集設定]**&#x200B;步驟中，逐一設定每個所選資料集&#x200B;**[!UICONTROL 的]**&#x200B;設定。
 
    ![新增資料集](assets/add-dataset.png)
 
@@ -449,7 +449,7 @@ ht-degree: 67%
 1. 針對要編輯的資料集表格中所列的資料集，選取![更多](/help/assets/icons/More.svg)
 1. 選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**。
 
-1. 在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**&#x200B;對話方塊中設定[資料集設定](#dataset-settings)。
+1. 在[編輯資料集： ](#dataset-settings)資料集名稱&#x200B;**[!UICONTROL 對話方塊中設定&#x200B;_資料集設定_]**。
 
    ![編輯資料集](assets/edit-dataset.png)
 
@@ -490,8 +490,8 @@ ht-degree: 67%
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 帳戶ID]** | 從Experience Platform資料集結構描述中定義的可用身分中，選取全域帳戶ID （帳戶的唯一識別碼）。 適用於您已將全域帳戶作為容器新增至連線時。 <p>如果記錄不包含您選取作為事件資料集帳戶ID的身分值，則會略過該記錄。 |
-| **[!UICONTROL 全域帳戶ID]** | 從Experience Platform資料集結構描述中定義的可用身分中，選取帳戶ID （帳戶的唯一識別碼）。 當您尚未將全域帳戶作為容器新增至您的連線時適用。 |
+| **[!UICONTROL 全域帳戶ID]** | 從Experience Platform資料集結構描述中定義的可用身分中，選取全域帳戶ID （帳戶的唯一識別碼）。 適用於您已將全域帳戶作為容器新增至連線時。 <p>如果記錄不包含您選取作為事件資料集帳戶ID的身分值，則會略過該記錄。 |
+| **[!UICONTROL 帳戶ID]** | 從Experience Platform資料集結構描述中定義的可用身分中，選取帳戶ID （帳戶的唯一識別碼）。 當您尚未將全域帳戶作為容器新增至您的連線時適用。 |
 | **[!UICONTROL 商機ID]** | 從Experience Platform資料集結構描述中定義的可用身分中，選取機會ID （機會的唯一識別碼）。 |
 | **[!UICONTROL 購買群組ID]** | 從Experience Platform資料集結構中定義的可用身分中，選取購買群組ID （購買群組的唯一識別碼）。 |
 | **[!UICONTROL 人員 ID]** | 從可用身分識別的下拉式選單中選取人員ID。 這些身分識別是在 Experience Platform 的資料集結構描述中所定義。 如需如何使用身分對應作為人員ID的相關資訊，請參閱[使用身分對應作為人員ID](#id-map)。<p>如果沒有個人 ID 可以選擇，表示結構描述中尚未定義一或多個個人 ID。有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
@@ -610,7 +610,7 @@ ht-degree: 67%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
