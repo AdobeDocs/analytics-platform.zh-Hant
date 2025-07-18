@@ -4,10 +4,10 @@ description: 了解如何為客 Customer Journey Analytics 設定客戶託管金
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
 feature: Privacy
 role: Admin
-source-git-commit: dfdb6bc5c190e4de98eaef86e0c8d118327640a6
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: cdc8d889a05c55d2f4765d0837023d007a5a230d
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 91%
 
 ---
 
@@ -22,9 +22,12 @@ Adobe Customer Journey Analytics 為[Healthcare Shield](https://www.adobe.com/tw
 1. 確保您有權使用 Adob&#x200B;&#x200B;e Customer Journey Analytics CMK，並且您的組織使用在 Azure 上執行的 Adob&#x200B;&#x200B;e Experience Platform。您可以透過聯絡 Adob&#x200B;&#x200B;e 帳戶團隊來查看這些權利。
 1. 確保在 Azure 中您是具有權限角色的管理員，例如應用程式管理員、雲端應用程式管理員或全域管理員。請參閱「[Microsoft Entra 內建角色](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference)」。
 1. 建立僅用於 Customer Journey Analytics 的新 Azure Key Vault。有關詳細信息，請參閱 [Microsoft Azure Key Vault 文件](https://learn.microsoft.com/zh-tw/azure/key-vault/general/)。
-1. 將 Adobe Azure 應用程式存取權限授予給您的金鑰 (金鑰保存庫中)。請參閱「[為現有帳戶設定客戶託管金鑰](https://learn.microsoft.com/zh-tw/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&amp;tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)」，了解更多資訊。Adobe 應用程式 ID 為：
+1. 將 Adobe Azure 應用程式存取權限授予給您的金鑰 (金鑰保存庫中)。您可以使用下列其中一種方法來達成此目的：
+   * 透過下列URL的授權同意來授與許可權： [https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&amp;redirect_uri=https://experience.adobe.com&amp;scope=user.read](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&redirect_uri=https://experience.adobe.com&scope=user.read)
 
-   **`251e3919-1940-4296-bb8b-6b9a5e8a4805`**
+   * 依照[設定現有帳戶](https://learn.microsoft.com/zh-tw/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)的客戶管理金鑰中的指示進行。 Adobe 應用程式 ID 為：
+
+     **`251e3919-1940-4296-bb8b-6b9a5e8a4805`**
 
 1. 建立要求 CMK 設定的 Adobe 客戶服務票證。在您的票證中包含 Azure URI。URI 可以在 Azure Key 的&#x200B;**金鑰識別碼**&#x200B;欄位中找到：
 
