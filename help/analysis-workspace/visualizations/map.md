@@ -9,7 +9,7 @@ exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 source-git-commit: 4163228b2ffb08a04e386e6ca31151c7143aed5c
 workflow-type: tm+mt
 source-wordcount: '2270'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_&#x200B;**地圖**。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[ ](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_**地圖**。_
 
 >[!ENDSHADEBOX]
 
@@ -129,14 +129,14 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 | 從選取專案建立趨勢 | 根據您在地圖視覺效果中選擇的特定區域，建立趨勢線圖視覺效果。 <p>如需詳細資訊，請參閱[從地圖視覺效果建立趨勢線圖](#create-a-trended-line-chart-from-the-map-visualization)。<!-- is this correct? --> | 無法從地圖視覺效果建立趨勢。 |
 | 從選取專案新增劃分 | 劃分您在地圖視覺效果中選取之特定區域中的特定維度專案、量度、區段或日期範圍。 <p>如需詳細資訊，請參閱[從地圖視覺效果新增劃分](#add-a-breakdown-from-the-map-visualization)。 | 無法從地圖視覺效果新增劃分。 |
 
-## 開始建立地圖視覺效果 {#begin-building-map}
+## 開始建構地圖視覺效果 {#begin-building-map}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_panel"
 >title="設定地圖視覺效果"
->abstract="選擇用作地圖視覺效果基礎的量度或計算量度。 如果您想要著重在特定資料子集上，也可以新增區段。<p>您可以在視覺效果呈現後隨時更新這項資訊。</p>"
+>abstract="選擇作為地圖視覺效果基礎的量度或計算量度。如果您想聚焦於資料的特定子集，也可以新增一個片段。<p>您可以在視覺效果呈現後隨時更新此資訊。</p>"
 
 <!-- markdownlint-enable MD034 -->
 
