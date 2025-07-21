@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 4163228b2ffb08a04e386e6ca31151c7143aed5c
+source-git-commit: c5d550d92a7bf201d3b9f62243540d9c4e063fc8
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2283'
 ht-degree: 13%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_&#x200B;**地圖**。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[ ](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_**地圖**。_
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,9 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
       * 顯示負數。
 
         舉例來說，如果您繪製的是逐年比較量度，則地圖可以在紐約上顯示 -33％。
+
       * 對於&#x200B;*百分比*&#x200B;類型的量度，叢集會一併平均此百分比。
+
       * 綠色和紅色色彩配置表示正值和負值。
 
    * **其他視覺效果設定**：選取視覺效果標題中的「設定」圖示![設定](/help/assets/icons/Setting.svg)，以檢視地圖視覺效果的其他設定。 如需詳細資訊，請參閱[設定視覺效果設定](#configure-visualization-settings)。
@@ -238,7 +240,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
    | **[!UICONTROL 樣式]** | | |
    | | **[!UICONTROL 色彩主題]** | 顯示熱度圖和泡泡圖的顏色主題。您可以選擇珊瑚色、紅色、綠色或藍色。此預設為珊瑚色。 |
    | | **[!UICONTROL 地圖樣式]** | 您可以從基本、街道、明亮、淺色、深色和衛星中進行選擇。 |
-   | | **[!UICONTROL 叢集半徑]** | 將指定像素數內的資料點分組在一起。預設值為 50。 |
+   | | **[!UICONTROL 叢集半徑]** | 將指定像素數內的資料點分組在一起。預設值為 50。<p>只有在選取&#x200B;**[!UICONTROL 泡泡]**&#x200B;做為&#x200B;**[!UICONTROL 對應型別]**&#x200B;時，才能使用此選項。</p> |
    | | **[!UICONTROL 自訂最大值]** | 可讓您變更地圖最大值的臨界值。 調整此值會調整泡泡或熱度圖值（顏色和大小）相對於您設定的自訂最大值的比例。 |
    | | **[!UICONTROL 顯示註解]** | 顯示為此視覺效果所做的註解。 |
    | | **[!UICONTROL 隱藏標題]** | 隱藏視覺效果的標題。 |
@@ -265,17 +267,17 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
       * **0：**&#x200B;地圖視覺效果中的大區域或國家層級精確。 在Workspace報表中顯示0個小數位數。
 
-      * **1：**&#x200B;精確到地圖視覺效果中的地區或大城市等級。  在Workspace報表中顯示1位小數。
+      * **1：**&#x200B;精確到地圖視覺效果中的地區或大城市等級。  在Workspace報表中顯示1個小數位數。
 
-      * **2：**&#x200B;地圖視覺效果中的城鎮或郵遞區號層級精確。 在工作區報表中顯示2個小數位數。
+      * **2：**&#x200B;地圖視覺效果中的城鎮或郵遞區號層級精確。 在Workspace報表中顯示2個小數位數。
 
         這是預設選取範圍。
 
-      * **3：**&#x200B;精確到地圖視覺效果中的非常小城鎮或街坊層級。 在工作區報表中顯示3個小數位數。
+      * **3：**&#x200B;精確到地圖視覺效果中的非常小城鎮或街坊層級。 在Workspace報表中顯示3個小數位數。
 
-      * **4：**&#x200B;精確到地圖視覺效果中的特定地塊或建築物等級。 在工作區報表中顯示4個小數位數。
+      * **4：**&#x200B;精確到地圖視覺效果中的特定地塊或建築物等級。 在Workspace報表中顯示4個小數位數。
 
-      * **5：**&#x200B;地圖視覺效果精確到單公尺。 在Workspace報表中顯示5位小數。
+      * **5：**&#x200B;地圖視覺效果精確到單公尺。 在Workspace報表中顯示5個小數位數。
 
 1. 選取「**[!UICONTROL 儲存並繼續]** > **[!UICONTROL 儲存並完成]**」。
 
