@@ -5,9 +5,9 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
 source-git-commit: f3bd60d6a371a16e606d9af60e3359d8128a3c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2389'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 99%
    | 建立方法 | 詳細資料 |
    | --- | --- |
    | 從&#x200B;**[!UICONTROL 客群]**&#x200B;介面內 | 從 Customer Journey Analytics 選單中，選取「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」。客群介面會顯示。選取「**[!UICONTROL 建立客群]**」，然後[!UICONTROL 客群產生器]會開啟。 |
-   | 從 Analysis Workspace 中的視覺效果 | Analysis Workspace 中的許多視覺效果可讓您使用內容選單建立客群。例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)一個項目或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)一個節點的內容選單中選取「**[!UICONTROL 建立客群]**」。<p>使用此方法會以您選取的維度或維度項目，在客群產生器中預先填入區段。</p><p>以下視覺效果可讓您使用滑鼠右鍵功能表建立客群：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[地圖&#x200B;](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**注意：**&#x200B;此視覺效果處於發行的有限測試階段，可能尚未在您的環境中提供。</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：** 客群不能包含計算量度。如果您嘗試建立包含計算量度的客群，則該計算量度不會包含在客群定義中。</p> |
+   | 從 Analysis Workspace 中的視覺效果 | Analysis Workspace 中的許多視覺效果可讓您使用內容選單建立客群。例如，您可以從[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)一個項目或[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)一個節點的內容選單中選取「**[!UICONTROL 建立客群]**」。<p>使用此方法會以您選取的維度或維度項目，在客群產生器中預先填入區段。</p><p>以下視覺效果可讓您使用滑鼠右鍵功能表建立客群：</p><ul><li>[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[地圖&#x200B;](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**注意：**&#x200B;這項視覺效果處於發行的有限測試階段，可能尚未開放供您的環境使用。</li><li>[文氏圖表](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**注意：** 客群不能包含計算量度。如果您嘗試建立包含計算量度的客群，則該計算量度不會包含在客群定義中。</p> |
    | 從區段建立/編輯使用者介面 | 勾選顯示「**[!UICONTROL 藉由此區段建立客群]**」的方塊。使用此方法預先填入區段。如需詳細資訊，請參閱[建立區段](/help/components/segments/seg-create.md)。 |
 
    {style="table-layout:auto"}
