@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 78fab62b4f28a85986b5d7c537d321049f929897
-workflow-type: ht
-source-wordcount: '2653'
-ht-degree: 100%
+source-git-commit: 144caa157e1a7161595e2b4fc0da60cd63de50bd
+workflow-type: tm+mt
+source-wordcount: '2694'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 | **可容納任何類型的資料** | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料結構描述和類型。使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)，能以統一方式呈現和組織資料，可進行組合和探索。Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/zh-hant/docs/analytics/import/home)的功能。 |
 | **B2B Edition** | [Customer Journey Analytics B2B Edition](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition?lang=en) 透過提供可操作的客戶洞察來推動收入成長，幫助 B2B 公司協調其行銷、銷售和產品團隊。由於客戶是資料模型的中心，因此所有分析都集中在客戶歷程上。在人員和時間型事件上新增實體層 (客戶、銷售機會和購買群組)，即可建立完整的 B2B 行銷和收入生命週期。 |
 | **BI 擴充功能** | 您可以利用[BI 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-export/bi-extension)將 Customer Journey Analytics 直接連接到常用的 BI 視覺化工具，例如 Power BI 或 Tableau。透過此擴充功能，您可以讓 BI 報表與您在 Analysis Workspace 和其他 Customer Journey Analytics 報表介面中看到的內容精確相符。透過這個擴充功能，您可以用更簡單的方法取得 Customer Journey Analytics 的 BI 報告，而不需要使用原始資料來重新建立報告/量度。 |
+| Workspace專案中的&#x200B;**註解** | 評論可讓您在[Analysis Workspace專案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects?lang=en)的內容中分享見解和提出問題。 如此可簡化有關資料的討論，讓對話保持在討論的資料內容中。 |
 | **Content Analytics** | [Content Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics) 能幫助行銷人員了解內容如何影響企業已定義的關鍵績效指標。除了行為資料之外，Content Analytics 還會收集關於內容使用方式和內容產生影響的資料。 |
 | **跨裝置分析** | Customer Journey Analytics 支援無縫組合來自未經身分驗證和經過身分驗證工作階段的特定裝置資料集。Customer Journey Analytics 可以將歷史資料回填到已知裝置。在 Adobe Analytics 中，此功能僅限於單一報告套裝和裝置圖使用。 |
 | **Data Insights 代理** | [Data Insights 代理](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai?lang=en)是 Customer Journey Analytics 中 AI 助理的一部分，為生成式 AI 對話代理程式。其使用來自資料視圖的元件以及實際資料，在 Analysis Workspace 中建立相關的視覺內容，以快速有效的方式回答以資料為中心的問題。 |
