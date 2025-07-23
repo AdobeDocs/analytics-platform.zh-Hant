@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: c5d550d92a7bf201d3b9f62243540d9c4e063fc8
+source-git-commit: f0ef310f120e278685893308315902e32c54e35e
 workflow-type: tm+mt
-source-wordcount: '2283'
+source-wordcount: '2385'
 ht-degree: 13%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_&#x200B;**地圖**。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[ ](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_**地圖**。_
 
 >[!ENDSHADEBOX]
 
@@ -287,11 +287,13 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
 若要從地圖視覺效果建立區段：
 
-1. （可選）放大地圖中包含您要用於區段之資料的特定區域。
+1. 縮放或平移至地圖中包含您要用於區段之資料的區域。
 
-1. 按一下選取工具![對應選取範圍圖示](assets/map-selection-icon.png)，然後拖曳滑鼠以選取所要的區域。
+1. 進行下列一項：
 
-1. 從出現的下拉式功能表中選取&#x200B;**[!UICONTROL 從選取專案建立區段]**。
+   * **若要從地圖目前顯示的所有專案建立區段：**&#x200B;在地圖上的任何位置按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 從目前的檢視建立區段]**。
+
+   * **若要為地圖更具體的區域建立區段：**&#x200B;按一下選取工具![地圖選取範圍圖示](assets/map-selection-icon.png)，拖曳滑鼠以選取想要的區域，然後選取&#x200B;**[!UICONTROL 從選取範圍建立區段]**。
 
 1. 使用區段產生器來定義新區段。 如需詳細資訊，請參閱[區段產生器](/help/components/segments/seg-builder.md)。
 
@@ -301,11 +303,13 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
 若要從地圖視覺效果建立對象：
 
-1. （選用）放大地圖中包含您要用於對象之資料的特定區域。
+1. 縮放或平移至地圖上包含您想用於對象之資料的區域。
 
-1. 按一下選取工具![對應選取範圍圖示](assets/map-selection-icon.png)，然後拖曳滑鼠以選取所要的區域。
+1. 進行下列一項：
 
-1. 從出現的下拉式功能表中選取&#x200B;**[!UICONTROL 從選取專案建立對象]**。
+   * **若要從地圖目前顯示的所有專案建立對象：**&#x200B;在地圖上的任何位置按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 從目前的檢視建立對象]**。
+
+   * **若要針對地圖中更具體的區域建立對象：**&#x200B;按一下選取工具![地圖選取範圍圖示](assets/map-selection-icon.png)，拖曳滑鼠以選取想要的區域，然後選取&#x200B;**[!UICONTROL 從選取範圍建立對象]**。
 
 1. 使用對象產生器來定義新對象。 如需詳細資訊，請參閱[建立和發佈對象](/help/components/audiences/publish.md#audience-builder)中的[對象產生器](/help/components/audiences/publish.md)
 
@@ -315,11 +319,13 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
 若要從地圖視覺效果建立趨勢線圖：
 
-1. （可選）放大包含您要用於趨勢線圖之資料的地圖特定區域。
+1. 縮放或平移至包含您要用於趨勢線圖之資料的地圖區域。
 
-1. 按一下選取工具![對應選取範圍圖示](assets/map-selection-icon.png)，然後拖曳滑鼠以選取所要的區域。
+1. 進行下列一項：
 
-1. 從出現的下拉式功能表中選取&#x200B;**[!UICONTROL 趨勢]**。
+   * **若要從目前地圖中顯示的所有專案建立趨勢線圖：**&#x200B;在地圖上的任何位置按一下滑鼠右鍵，然後從目前檢視中選取&#x200B;**[!UICONTROL 趨勢]**。
+
+   * **若要針對地圖中更具體的區域建立趨勢線圖：**&#x200B;按一下選取工具![地圖選取圖示](assets/map-selection-icon.png)，拖曳滑鼠以選取想要的區域，然後選取&#x200B;**[!UICONTROL 趨勢]**。
 
    已建置包含趨勢線的線條視覺效果。 如需此視覺效果的詳細資訊，請參閱[線條](/help/analysis-workspace/visualizations/line.md)。
 
