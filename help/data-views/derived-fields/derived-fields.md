@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 2d4e8c51111427564c761a16deb27223e98cd2ec
+source-git-commit: c9560f8b11ff055040611e208f09ee3e2d7bb5da
 workflow-type: tm+mt
-source-wordcount: '8925'
+source-wordcount: '8857'
 ht-degree: 99%
 
 ---
@@ -19,31 +19,10 @@ ht-degree: 99%
 >title="衍生欄位"
 >abstract="衍生欄位可讓您透過可自訂的規則產生器，迅速定義資料操作。您接著可以將衍生欄位用作為 Workspace 中的元件 (量度或維度)，甚至進一步在資料檢視中定義為元件。"
 
-<!-- BEGIN
-     Temporarily have these entries at the top; once functions are documented
-     move them to appropriate function section
--->
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_datemath"
->title="日期計算"
->abstract="此函數可以傳回兩個日期或日期時間欄位的差值。"
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_typecast"
->title="型別轉換"
->abstract="此函數可以立即變更欄位類型，讓 Customer Journey Analytics 中的欄位可以進行其他轉換。"
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_depth"
->title="深度"
->abstract="此函數可傳回任何欄位的深度，與事件深度標準元件的功能相似。"
-
-<!-- END -->
 
 派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告功能的重要層面。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
 
-與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
+與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
 
 衍生欄位是在[資料檢視](../data-views.md)內定義，且是根據一組定義為規則的函數，並套用於適用的標準和/或結構描述欄位。
 
@@ -444,14 +423,10 @@ ht-degree: 99%
 
 ### 情況 {#casewhen}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_casewhen"
 >title="情況"
 >abstract="此函數提供了根據一個或多個欄位中定義的標準來套用條件的功能。然後，使用這些標準根據條件的順序定義新衍生欄位中的值。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 根據一個或多個欄位明訂的標準來套用條件。然後，使用這些標準來定義新衍生欄位中的值 (根據條件序列)。
@@ -684,14 +659,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### 分類 {#classify}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_classify"
 >title="分類"
 >abstract="此函數提供了定義一組值的功能，這些值可透過文字輸入取代為對應的值。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 定義一組值，這些值會被新衍生欄位中的對應值取代。
@@ -913,17 +884,14 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 +++
 
+<!-- DEDUPLICATE -->
 
 ### 重複資料刪除 {#dedup}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_deduplicate"
 >title="重複資料刪除"
 >abstract="此函數提供了將欄位設定為僅在工作階段或個人層級不重複地計算值的功能。此外，重複資料刪除 ID 可用於確保根據特定 ID (例如購買 ID) 僅使用一個值 (第一個執行個體或最後一個執行個體)。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 避免多次計算同一個值。
@@ -1007,6 +975,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 +++
 
 
+
 <!-- FIND AND REPLACE -->
 
 ### 尋找並取代 {#find-and-replace}
@@ -1017,8 +986,6 @@ Customer Journey Analytics 會使用以下預設容器模型：
 >id="dataview_derivedfields_findandreplace"
 >title="尋找並取代"
 >abstract="此函數提供了在選定欄位中尋找所有值，並將這些值取代為新衍生欄位中不同值的功能。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 尋找選定欄位中的所有值，並使用新衍生欄位中的其他值取代這些值。
@@ -1091,14 +1058,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### 查詢 {#lookup}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_lookup"
 >title="查詢"
 >abstract="此函數提供了使用資料集之間的比對索引鍵來使用查詢資料集中的欄位的功能。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 使用查詢資料集中的欄位來查詢值，並傳回新衍生欄位中的值或用於進一步的規則處理。
@@ -1152,14 +1115,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### 小寫 {#lowercase}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_lowercase"
 >title="小寫"
 >abstract="此函數會將整個字串文字轉換為小寫值。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 將欄位中的值轉換為小寫並將其儲存到新的衍生欄位中。
@@ -1213,14 +1172,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### Math {#math}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_math"
 >title="Math"
 >abstract="此函數提供在欄位上執行數學運算的功能。此函數可用於執行基本算術運算，例如加減乘除。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 在數值欄位上使用基本的數學運算子 (加、減、乘、除和冪次方)。
@@ -1290,11 +1245,9 @@ Customer Journey Analytics 會使用以下預設容器模型：
 - 如果在公式中使用多個靜態值，則應使用括號對這些靜態值進行分組，這樣這個公式才會有效。例如：
 
    - 此公式傳回錯誤。
-
      ![數學更多資訊 4](assets/math-more-info-4.png)
 
    - 這個公式有效。
-
      ![數學更多資訊 5](assets/math-more-info-5.png)
 
 使用數學函數進行以點擊層級為主的計算。使用 [Summarize](#summarize) 函數進行以事件、工作階段或人員範圍為主的計算。
@@ -1306,14 +1259,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### 合併欄位 {#merge}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_mergefields"
 >title="合併欄位"
 >abstract="此函數提供從兩個不同欄位取得值並將其各自的值包含在單一維度中的功能。這個規則會先檢查是否已設定第一個值。如果未設定，則將使用第二個值，依此類推。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 將兩個不同欄位的值合併到一個新的衍生欄位。
@@ -1382,14 +1331,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### 下一個或上一個 {#next-previous}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_nextprevious"
 >title="下一個或上一個"
 >abstract="此函數提供查看為特定欄位收集的下一個或上一個值的功能。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 將欄位作為輸入資料，並在工作階段或使用範圍內解析該欄位的下一個或上一個值。這將只適用於造訪和事件表格欄位。
@@ -1464,14 +1409,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### 規則運算式取代 {#regex-replace}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_regexreplace"
 >title="規則運算式取代"
 >abstract="此函數提供了使用規則運算式擷取部分字串的功能。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 使用規則運算式將欄位中的值取代為新的衍生欄位。
@@ -1571,14 +1512,10 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ### Split {#split}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_split"
 >title="Split"
 >abstract="此函數提供了根據分隔符號將一個欄位分割為多個欄位的功能。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 將欄位的值拆分至新的衍生欄位。
@@ -1673,14 +1610,10 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ### 總結 {#summarize}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_summarize"
 >title="總結"
 >abstract="此函數提供了在事件、工作階段或人員層級彙總值的功能。根據所選欄位的欄位類型，將提供不同的選項。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 套用彙總類型函數至事件、工作階段和使用者層級的量度或維度。
@@ -1751,14 +1684,10 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ### 修剪 {#trim}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_trim"
 >title="修剪"
 >abstract="此函數提供了從字串的開頭或結尾修剪空格或特殊字元的功能。也能夠指定用於傳回值的字元數 (從字串的前面或末尾開始)。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 將欄位值開始或結束處的空格、特殊字元或一定數量的字元修剪到新的衍生欄位中。
@@ -1868,19 +1797,14 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 {style="table-layout:auto"}
 +++
 
-
 <!-- URL PARSE -->
 
 ### URL 剖析 {#urlparse}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_urlparse"
 >title="URL 剖析"
 >abstract="此函數提供剖析 URL 不同部分的能力，包括主機、路徑或查詢參數。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 解析 URL 的不同部分，包括協定、主機、路徑或查詢參數。
@@ -1913,7 +1837,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL &#x200B; 反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
+您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL  反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
 
 ![Url Parse 規則 1 的螢幕截圖](assets/url-parse-1.png)
 
