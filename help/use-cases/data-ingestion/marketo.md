@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 82aefce30834d6400d338896dc1968e37596393e
+source-git-commit: fedb1337b32e44fc00989bace6a4d1788043f55f
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 14%
+source-wordcount: '1059'
+ht-degree: 13%
 
 ---
 
@@ -29,17 +29,17 @@ ht-degree: 14%
 >
 
 
-若要在Customer Journey Analytics中報告Marketo Engage日期：
+若要在Customer Journey Analytics中報告Marketo Engage資料：
 
 +++ 1.將Marketo來源資料欄位對應至其XDM目標
 
-將[人員](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)和[活動](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)物件對應至它們各自的 XDM 結構描述目標欄位。
+將[人員](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)和[活動](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)物件對應至它們各自的 XDM 結構描述目標欄位。
 
 +++
 
 +++ 2.將Marketo資料擷取至Adobe Experience Platform
 
-使用 [Marketo Engage 連接器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)將資料從 Marketo 帶到 Experience Platform，並使用平台連線的應用程式保持這些資料在最新狀態。
+使用 [Marketo Engage 連接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)將資料從 Marketo 帶到 Experience Platform，並使用平台連線的應用程式保持這些資料在最新狀態。
 
 +++
 
@@ -136,3 +136,6 @@ Marketo Engage提供應用程式內報告，著重於行銷自動化KPI、方案
 | **自訂報告和彈性** | 適用於方案和帳戶深入剖析的進階BI （附加元件）。 | 在如何使用所有可用資料建立自訂工作區、儀表板或報表方面有高度彈性。 |
 | **對象分析** | 篩選和劃分方案清單、參與和智慧清單。 | 豐富的角色和歷程視覺效果、受眾路徑分析和區段重疊分析。 |
 | **目標使用者** | 行銷人員、行銷操作員、需求產生背景工作者和收入主管。 | 分析人員、資料科學家、行銷策略師、客戶體驗專業人員。 |
+| **刪除重複的量度** | 對於電子郵件效能報表，量度會依潛在客戶ID、促銷活動ID及電子郵件資產ID自動進行重複資料刪除。 如果從相同電子郵件資產建立多封電子郵件，並從相同計畫傳送給相同潛在客戶，則這些電子郵件將僅計為一封電子郵件。 | 若未套用其他篩選器和量度，電子郵件報告資料會報告為沒有[量度重複資料刪除](/help/data-views/component-settings/metric-deduplication.md)的電子郵件效能總數。 |
+
+{style="table-layout:fixed"}
