@@ -21,7 +21,7 @@ ht-degree: 27%
 >[!IMPORTANT]
 >
 >這是尚未普遍提供的新衍生欄位函式的初步檔案。 使用此資訊來瞭解新的衍生欄位函式。 本檔案仍可能會有所變更，根據本文的最新版本，恕不提供任何法律義務。
->><br/>請參閱[衍生欄位](derived-fields.md)，以取得一般衍生欄位功能以及目前可用的函式與函式範本的相關資訊。
+>&#x200B;><br/>請參閱[衍生欄位](derived-fields.md)，以取得一般衍生欄位功能以及目前可用的函式與函式範本的相關資訊。
 >
 
 ## 函數引用
@@ -126,7 +126,7 @@ ht-degree: 27%
 >title="深度"
 >abstract="此函數可傳回任何欄位的深度，與事件深度標準元件的功能相似。"
 
-傳回欄位深度，類似於現成可用的標準事件深度維度[](/help/components/dimensions/overview.md#standard-dimensions)。
+傳回欄位深度，類似於現成可用的標準事件深度維度[&#128279;](/help/components/dimensions/overview.md#standard-dimensions)。
 
 +++ 詳細資料
 
