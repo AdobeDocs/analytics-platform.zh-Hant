@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 94d1bcdb2419f8c2e27bd77bb2e35b04cd30d632
-workflow-type: ht
-source-wordcount: '795'
-ht-degree: 100%
+source-git-commit: 830e8312b4be2ffac907baca282ce71029e6ecc5
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 98%
 
 ---
 
@@ -28,6 +28,12 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 Customer Journey Analytics B2B Edition 提供可行的客戶深入解析來推動收入增長，幫助 B2B 公司的行銷、銷售和產品團隊朝一致目標邁進。由於客戶是資料模型的中心，因此所有分析皆以客戶歷程為主。
 
 [![影像](assets/learn-more-button.svg)](/help/getting-started/cja-b2b-edition.md)
+
+>[!TAB 衍生欄位函式]
+
+新的衍生欄位函式： [Data Math](/help/data-views/derived-fields/derived-fields.md#date-math)、[Depth](/help/data-views/derived-fields/derived-fields.md#depth)和[Typecast](/help/data-views/derived-fields/derived-fields.md#typecast)。
+
+[![影像](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB Content Analytics]
 
@@ -92,7 +98,7 @@ Allows you to bring in time-series data that does not have a person ID. This tim
 
 >[!TAB 圖表式匯整*]
 
-圖表式匯整功能可讓您使用 Experience Platform Identity Service 中的身分識別圖來更清楚地掌握客戶歷程，方法包括： <ul><li>無需擷取、轉換並載入額外資料來反映單一識別碼，即可連接不同識別碼的資料集。</li> <li>在資料集之間共用身分識別，以提高單一資料集的首選或黃金身分識別涵蓋範圍，</li><li>讓 Real-Time Customer Data Platform 和 Journey Optimizer 中建立的輪廓與 Customer Journey Analytics 中的人員保持一致。</li></ul>
+圖表式匯整功能可讓您使用 Experience Platform 身分識別服務中的身分識別圖來更清楚地掌握客戶歷程，方法包括： <ul><li>無需擷取、轉換並載入額外資料來反映單一識別碼，即可連接不同識別碼的資料集。</li> <li>在資料集之間共用身分識別，以提高單一資料集的首選或黃金身分識別涵蓋範圍，</li><li>讓 Real-Time Customer Data Platform 和 Journey Optimizer 中建立的輪廓與 Customer Journey Analytics 中的人員保持一致。</li></ul>
 
 [![影像](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
 
