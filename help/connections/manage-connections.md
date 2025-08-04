@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 22b18c97baf7f55bf654cc298d2748298ea376d8
+source-git-commit: 27e09c893c45f445d9344c1cc5132960060bf032
 workflow-type: tm+mt
-source-wordcount: '3934'
-ht-degree: 72%
+source-wordcount: '4606'
+ht-degree: 62%
 
 ---
 
@@ -46,7 +46,24 @@ ht-degree: 72%
 
 ![清單檢視](assets/list-view.png)
 
- [!UICONTROL 清單]介面會顯示所有可用連線的表格。您可以使用搜尋 ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 框快速搜尋連線。
+[!UICONTROL List]介面會顯示所有可用連線的表格。
+
+### 搜尋連線
+
+您可以使用搜尋 ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 框快速搜尋連線。
+
+### 將篩選器套用至連線清單
+
+若要將篩選套用至連線清單，請選取篩選圖示，然後從下列篩選選項中選取：
+
+| 篩選條件選項 | 說明 |
+|---------|----------|
+| **[!UICONTROL 資料集]** | 只會顯示與您選取的資料集相關聯的連線。 |
+| **[!UICONTROL 所有者]** | 只會顯示您所選取人員擁有的連線。 |
+| **[!UICONTROL 沙箱]** | 系統只會顯示您選取的沙箱中可用的連線。 |
+| 在CJA中&#x200B;**[!UICONTROL 使用]** | 選取&#x200B;**[!UICONTROL 開啟]**&#x200B;以僅顯示已啟用與Customer Journey Analytics搭配使用的連線。 選取&#x200B;**[!UICONTROL 關閉]**，只顯示尚未啟用Customer Journey Analytics的連線。 |
+
+### 適用欄
 
 表格中有以下欄或圖示。
 
@@ -54,6 +71,7 @@ ht-degree: 72%
 | --- | --- |
 | **[!UICONTROL _名稱_]** | 連線的易記名稱。 選取超連結名稱以檢視連線[的](#connection-details)詳細資料。 |
 | ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | 若要檢視有關[!UICONTROL 包含的資料集]、 [!UICONTROL 沙箱]、 [!UICONTROL 所有者]等資訊，請選取連線名稱旁邊的  ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 。<p>快顯視窗會顯示資料集的詳細資訊。 <p>![連線資訊快顯功能表](assets/connection-info-popup.png) |
+| ![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | 若要為連線[建立資料檢視](#create-a-data-view) ，請選取「![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg)」。只有在沒有資料檢視與連線有關聯時，此圖示才會顯示。 |
 | ![更多內容](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選取![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)以開啟內容功能表。 您可以選擇： <p>![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 編輯]**&#x200B;以[編輯](#edit-a-connection)連線。<p>![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 刪除]**&#x200B;以[刪除](#delete-a-connection)連線。<p>![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL 建立新的資料檢視]**&#x200B;以[為連線建立新的資料檢視](#create-a-data-view)。<p>![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 連線對應]**&#x200B;以檢視連線的[連線對應](#map-a-connection)。 |
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 連線型別&#x200B;]** | 連線型別： **[!UICONTROL 人員]**&#x200B;或&#x200B;**[!UICONTROL 帳戶]**&#x200B;連線。 |
 | **[!UICONTROL 資料集]** | 前往屬於連線一部分的資料集的一個或多個連結。您可以選取資料集超連結，即可檢視連線中的所有資料集。 如果選取的連線包含更多資料集，請選取 **[!UICONTROL +*x* 更多]**&#x200B;以顯示&#x200B;**[!UICONTROL 包含的資料集]**&#x200B;面板。此面板會顯示所有資料集的連結，以及![搜尋](/help/assets/icons/Search.svg)的選項，以搜尋屬於連線之一部分的特定資料集。<p>![資料集已包含](assets/datasets-included.png)<p>選取資料集名稱，在新索引標籤的Experience Platform介面中開啟資料集。 |
@@ -63,6 +81,8 @@ ht-degree: 72%
 | **[!UICONTROL 建立日期]** | 建立連線時的時間戳記。 |
 | **[!UICONTROL 上次修改日期]** | 上次更新連線的時間戳記。 |
 | **[!UICONTROL 回填資料]** | 所有資料集回填資料的狀態。<p>![紅色狀態](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**，表示所有資料集回填失敗的次數，<p>![橘色狀態](assets/status-orange.svg)   **[!UICONTROL _x _回填處理]**，表示所有資料集處理回填的次數，<p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _回填完成]**，表示資料集回填已完成的數量，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _關閉_]**，若連線中的資料集未定義回填。 |
+| **[!UICONTROL 整合]** | 顯示透過連線啟用的任何Experience Platform應用程式。 |
+| 在CJA中&#x200B;**[!UICONTROL 使用]** | 顯示連線是否已啟用以便與Customer Journey Analytics搭配使用。 |
 
 若要設定要在表格中顯示哪些欄，請選取![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)。 在「自訂表格」對話方塊中，選取要顯示的欄。
 
@@ -123,6 +143,76 @@ ht-degree: 72%
 
 如需詳細資訊，請參閱[建立或編輯資料檢視](/help/data-views/create-dataview.md)。
 
+### 在Customer Journey Analytics中使用Journey Optimizer連線 {#use-connection-in-cja}
+
+>[!IMPORTANT]
+>
+>當您啟用Journey Optimizer連線以與Customer Journey Analytics搭配使用時（如本節所述），連線中的每一列資料都會計入您每月的Customer Journey Analytics授權資料列，並顯示在連線使用UI中。 選取連線上的&#x200B;**[!UICONTROL 在CJA中使用]**&#x200B;選項，前提是您瞭解如何在Customer Journey Analytics中額外使用資料列。
+>
+>**如果您在2024年10月至2025年10月期間同時擁有Customer Journey Analytics和Journey Optimizer的許可權，請參閱下列有關[啟用AJO的連線](https://view.adobe.com/viewer/1ed94fc35c7860b260766c620889e7a0#1)**&#x200B;的檔案。
+
+您可以在Customer Journey Analytics中使用Journey Optimizer連線，為連線帶來下列額外值：
+
+* 在Customer Journey Analytics中執行Journey Optimizer資料的深入分析(使用Journey Optimizer中的&#x200B;**[!UICONTROL 在CJA中分析]**&#x200B;按鈕)。
+
+  如需詳細資訊，請參閱Journey Optimizer檔案中的[在Customer Journey Analytics中分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template)。
+
+* 編輯Journey Optimizer連線和相關聯的資料檢視。
+
+  如需有關編輯選項的詳細資訊，請參閱[編輯連線](#edit-a-connection)。
+
+若要啟用此功能，您的組織需要存取Customer Journey Analytics。 如果您沒有存取權，請聯絡您的Adobe銷售代表。
+
+存取Customer Journey Analytics後，您必須允許在Customer Journey Analytics中使用Journey Optimizer連線：
+
+1. 找到您要與Customer Journey Analytics搭配使用的Journey Optimizer連線。
+
+   1. 選取&#x200B;**[!UICONTROL 連線]**&#x200B;標籤上的「篩選」圖示。
+
+   1. 在&#x200B;**[!UICONTROL 用於CJA]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 關閉]**。
+
+      這會顯示目前未設定為可在Customer Journey Analytics中使用的所有連線。
+
+   1. 選取您要在Customer Journey Analytics中使用的Journey Optimizer連線。
+
+1. 在Journey Optimizer連線中，選取&#x200B;**[!UICONTROL 在CJA中使用]**。
+
+   下列&#x200B;**[!UICONTROL 在Customer Journey Analytics]**&#x200B;對話方塊中使用此連線：
+
+   <!-- add screenshot -->
+
+1. 啟用切換，**[!UICONTROL 在CJA中使用連線]**。
+
+1. 選取&#x200B;**[!UICONTROL 使用連線]**。<!-- double-check these dialog button names -->
+
+#### 從Customer Journey Analytics移除連線 {#remove-connection-in-cja}
+
+您可以隨時從Customer Journey Analytics移除Journey Optimizer連線。 不過，在使用連線後從Customer Journey Analytics中移除連線會導致下列結果：
+
+* Journey Optimizer連線和任何關聯的資料檢視都會重設為預設狀態，且無法再編輯
+
+* 所有與連線相關聯的自訂衍生欄位都會被刪除
+
+* 您無法再在Customer Journey Analytics中對Journey Optimizer資料執行深入分析
+
+  這表示Journey Optimizer中的&#x200B;**[!UICONTROL 在CJA中分析]**&#x200B;按鈕已停用
+
+>[!IMPORTANT]
+>
+>Customer Journey Analytics中的連線計費包含移除連線的完整月份。
+
+
+若要從Customer Journey Analytics移除連線：
+
+1. 編輯Journey Optimizer連線時，請選取&#x200B;**[!UICONTROL 從CJA移除]**。
+
+   下列&#x200B;**[!UICONTROL 從Customer Journey Analytics]**&#x200B;對話方塊移除此連線：
+
+   <!-- add screenshot -->
+
+1. 停用選項&#x200B;**[!UICONTROL 從CJA移除連線]**。
+
+1. 選取&#x200B;**[!UICONTROL 移除連線]**。
 
 ### 對應連線
 
@@ -188,8 +278,9 @@ ht-degree: 72%
 | ![重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 重新整理]** | 若要重新整理連線並允許反映最近新增的記錄，請選取 ![重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 「重新整理」]**。 |
 | ![Delete](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg)**[!UICONTROL 刪除]** | [刪除](#delete-a-connection)此連線。 |
 | ![新增資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL 建立資料檢視]** | 根據此連線[建立資料檢視](#create-a-data-view)。請參閱「[資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-views)」，了解更多資訊。 |
+| 在CJA中&#x200B;**[!UICONTROL 使用]** | 在Customer Journey Analytics中使用Journey Optimizer連線，為您的Journey Optimizer連線帶來額外價值。 如需詳細資訊，請參閱[在Customer Journey Analytics中使用Journey Optimizer連線](#use-a-journey-optimizer-connection-in-customer-journey-analytics)。 |
 | **[!UICONTROL 連線名稱]** | 連線的易記名稱。 |
-| **[!UICONTROL 連線說明]** | 連線的說明。 |
+| **[!UICONTROL 連線說明]** | 更詳細的說明，且可描述此連線的用途。 |
 | **[!UICONTROL 沙箱]** | [Adobe Experience Platform 沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)，此連線會從這個沙箱提取其資料集 。 當您建立連線時，請選取此沙箱。 一旦儲存連線後，您就無法變更沙箱。 |
 | **[!UICONTROL 連線 ID]** | 連線產生的識別碼。 您可以使用![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg)來複製值。 |
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 主要ID型別&#x200B;]** | 連線的主要ID型別：以人員為基礎的連線為&#x200B;**[!UICONTROL 人員]**，以帳戶為基礎的連線為&#x200B;**[!UICONTROL 帳戶]**。 |
@@ -208,13 +299,13 @@ ht-degree: 72%
 
 | 詳細資料 | 說明 |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID &#x200B;]** | 您指定為連線之全域帳戶ID的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID &#x200B;]** | 您指定為連線之帳戶ID的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID ]** | 您指定為連線之全域帳戶ID的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID ]** | 您指定為連線之帳戶ID的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
 | **[!UICONTROL 人員 ID]** | 您指定為連線之人員ID的身分識別。 |
 | **[!UICONTROL 索引鍵]** | 您為查詢資料集指定的索引鍵。 |
 | **[!UICONTROL 比對索引鍵]** | 您為查詢資料集指定的比對索引鍵。 |
 | **[!UICONTROL 時間戳記]** | 為事件資料集定義的時間戳記。 |
-| **[!UICONTROL 可用記錄]** | 在透過行事曆選取的特定時段中，為此資料集攝取的資料列總數。 在新增資料後，資料會立即出現在報告中，不需要等候。 然而，當你建立全新連線時， 會有[延遲](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)。 |
+| **[!UICONTROL 可用記錄]** | 在透過行事曆選取的特定時段中，為此資料集攝取的資料列總數。 在新增資料後，資料會立即出現在報告中，不需要等候。 然而，當你建立全新連線時， 會有[延遲](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)。 |
 | **[!UICONTROL 新增的記錄]** | 在選取的日期範圍內新增到連線的資料集記錄（列）數。 |
 | **[!UICONTROL 略過的記錄]** | 在選取的日期範圍內，針對連線在資料傳輸期間略過的資料集記錄（列）數。 |
 | **[!UICONTROL 批次已新增]** | 已新增至連線的批次數量。 |
@@ -393,5 +484,5 @@ ht-degree: 72%
 >[!MORELIKETHIS]
 >
 >[檢視、疑難排解和修改連線設定](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja)教學課程。
->&#x200B;>[管理您的 Customer Journey Analytics 使用情況](/help/technotes/estimate-usage.md)
+>>[管理您的 Customer Journey Analytics 使用情況](/help/technotes/estimate-usage.md)
 >
