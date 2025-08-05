@@ -5,8 +5,8 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+source-git-commit: 5faf9668475818773c645b69915ddd5182500aea
+workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector"
 >title="Analytics 來源連接器實作"
->abstract="Analytics 來源連接器可讓您輕鬆從 Customer Journey Analytics 中獲取價值，但會要求您同時支付 Adobe Analytics 和 Customer Journey Analytics 的費用。此指南可以協助您邁向獨立的 Web SDK 實作。"
+>abstract="Analytics 來源連接器可讓您輕鬆從 Customer Journey Analytics 中獲取價值，但會要求您同時支付 Adobe Analytics 和 Customer Journey Analytics 的費用。此指南可以協助您邁向獨立的 Web SDK 實施。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,9 +53,6 @@ ht-degree: 100%
 1. [建立 Analytics 來源連接器的 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)。
 
 1. 將 Analytics 來源連接器中的每個 Adob&#x200B;&#x200B;e Analytics 維度對應到 Web SDK 結構描述中的維度。
-
-   1. &#x200B;
-      <!-- how do you get here -->
 
    1. 在「**[!UICONTROL 對應標準欄位]**」部分中，選取「**[!UICONTROL 自訂]**」索引標籤。
 
