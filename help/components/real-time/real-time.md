@@ -7,9 +7,9 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: e7a7a297e303a410c73598f373219644e50ede74
+source-git-commit: 34dfbc98acecf1ca953434a7d1f0547ff45139a8
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '471'
 ht-degree: 1%
 
 ---
@@ -54,5 +54,8 @@ Customer Journey Analytics即時報表的即時層面定義為從透過相關連
 * 即時報表只會報告24小時滾動期間的可用資料。 超過此24小時滾動時段的資料無法使用。
 * 歸因、細分、計算量度等只適用於24小時內滾動時間內可用的資料。
 * 即時報表最適合用於事件和工作階段層級的資料，針對個人層級的資料，使用即時報表時，請務必謹慎。 <!--Need to explain this a bit better -->由於即時報表只能使用滾動24小時期間的事件，因此個人的事件歷史記錄也僅限於此視窗。 當您選取維度（已計算）量度時，請考慮事件和工作階段層級資料的偏好設定。 當您在啟用即時重新整理的面板中使用劃分、下一個或上一個等功能時。
-* 您無法結合拼接與即時報告。 <!-- Do we need to explain this in more detail, why? -->如上所述，即時報告只關於事件和工作階段層級的資料，較少關於以人員為基礎的資料。
+* 您無法結合拼接與即時報告。 <!-- Do we need to explain this in more detail, why? -->即時報表關於事件和工作階段層級資料，與個人資料的相關性較低。
 * 除了媒體開始和媒體關閉量度外，沒有可用的心率收集媒體量度。 因此，您仍然可以使用即時報告來啟用媒體使用案例。
+* 當您使用[下載或匯出選項](/help/analysis-workspace/export/download-send.md)下載專案或從自由表格匯出資料時，請考慮下列事項：
+   * 下載的CSV專案或匯出的CSV檔案包含下載或匯出時可用的即時資料。
+   * 下載的PDF專案包含非即時資料，類似於停用即時重新整理時顯示的資料。
