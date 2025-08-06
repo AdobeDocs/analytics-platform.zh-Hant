@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 830e8312b4be2ffac907baca282ce71029e6ecc5
+source-git-commit: 076178ac133227ed18ccaee4f7524c302fd9554b
 workflow-type: tm+mt
-source-wordcount: '9937'
-ht-degree: 91%
+source-wordcount: '10009'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告功能的重要層面。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
 
-與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
+與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
 
 衍生欄位是在[資料檢視](../data-views.md)內定義，且是根據一組定義為規則的函數，並套用於適用的標準和/或結構描述欄位。
 
@@ -937,6 +937,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ![日期數學規則2](assets/datemath-2.png)的熒幕擷圖
 
+或者，您可以使用方便的「立即動態日期範圍」值，計算現在到[!UICONTROL 當地時間]之間的時間（從事件資料集的[!UICONTROL placeContext]欄位群組）
+
+![日期數學規則2a](assets/datemath-2a.png)的熒幕擷圖
+
 
 ## 使用案例 3 {#datemath-uc3}
 
@@ -1049,7 +1053,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 >title="深度"
 >abstract="此函數可傳回任何欄位的深度，與事件深度標準元件的功能相似。"
 
-傳回欄位深度，類似於現成可用的標準事件深度維度[&#128279;](/help/components/dimensions/overview.md#standard-dimensions)。
+傳回欄位深度，類似於現成可用的標準事件深度維度[](/help/components/dimensions/overview.md#standard-dimensions)。
 
 +++ 詳細資料
 
@@ -1062,29 +1066,20 @@ Customer Journey Analytics 會使用以下預設容器模型：
 {style="table-layout:auto"}
 
 
-<!--
-## Example Data {#depth-example}
-
-| event# | page name | search | product view | cart add  | order |
-|:---:|---|:---:|:---:|:---:|:---:|
-| 1 |  home page        |  0  | 0  | 0  | 0 |
-| 2 |  search page      |  1  | 0  | 0  | 0 |
-| 3 |  product page     |  0  | 0  | 0  | 0 |
-| 4 |  cart page        |  0  | 0  | 1  | 0 |
-| 5 |  confirmation     |  0  | 0  | 0  | 1 |
-
--->
-
 ## 使用案例 {#depth-uc1}
 
-您想要瞭解搜尋深度（您也可以將其解譯為搜尋次數）。 因此，您稍後可以使用該搜尋深度來查詢與特定搜尋深度關聯的搜尋字詞。
+您想要瞭解內部搜尋深度（您也可以將其解譯為搜尋次數）。 因此，您稍後可以使用內部搜尋深度，以劃分與特定搜尋深度相關的搜尋字詞。
 
 
 ### 衍生欄位 {#depth-uc1-derivedfield}
 
-您定義一個新的 `Search Depth` 衍生欄位。您使用[!UICONTROL DEPTH]函式定義規則來擷取[!UICONTROL Search]的深度，並將其儲存在新的衍生欄位中。
+您定義一個新的 `Internal Search Depth` 衍生欄位。您使用[!UICONTROL DEPTH]函式定義規則來擷取[!UICONTROL 內部搜尋詞]的深度，並將其儲存在新的衍生欄位中。
 
 深度規則![的](assets/depth-1.png)熒幕擷圖
+
+然後使用視覺效果中新衍生的欄位，在第一次搜尋時用來搜尋哪些辭彙。
+
+深度規則![的](assets/depth-1a.png)熒幕擷圖
 
 +++
 
@@ -1360,11 +1355,9 @@ Customer Journey Analytics 會使用以下預設容器模型：
 - 如果在公式中使用多個靜態值，則應使用括號對這些靜態值進行分組，這樣這個公式才會有效。例如：
 
    - 此公式傳回錯誤。
-
      ![數學更多資訊 4](assets/math-more-info-4.png)
 
    - 這個公式有效。
-
      ![數學更多資訊 5](assets/math-more-info-5.png)
 
 使用數學函數進行以點擊層級為主的計算。使用 [Summarize](#summarize) 函數進行以事件、工作階段或人員範圍為主的計算。
@@ -2007,7 +2000,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL &#x200B; 反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
+您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL  反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
 
 ![Url Parse 規則 1 的螢幕截圖](assets/url-parse-1.png)
 
