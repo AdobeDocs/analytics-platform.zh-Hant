@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 830e8312b4be2ffac907baca282ce71029e6ecc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Customer Journey Analytics B2B Edition 提供可行的客戶深入解析來推�
 
 [![影像](assets/learn-more-button.svg)](/help/getting-started/cja-b2b-edition.md)
 
->[!TAB 衍生欄位函式]
+>[!TAB 衍生欄位函數]
 
-新的衍生欄位函式： [Data Math](/help/data-views/derived-fields/derived-fields.md#date-math)、[Depth](/help/data-views/derived-fields/derived-fields.md#depth)和[Typecast](/help/data-views/derived-fields/derived-fields.md#typecast)。
+新衍生欄位函數：[日期數學](/help/data-views/derived-fields/derived-fields.md#date-math)、[深度](/help/data-views/derived-fields/derived-fields.md#depth)和[類型轉換](/help/data-views/derived-fields/derived-fields.md#typecast)。
 
 [![影像](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
