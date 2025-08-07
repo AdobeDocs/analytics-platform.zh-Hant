@@ -4,7 +4,7 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 1b52969f178a31ef90f1969f3a1637258a480c57
+source-git-commit: df069a7a67c65db9eb70900869495202f63abd05
 workflow-type: tm+mt
 source-wordcount: '20276'
 ht-degree: 97%
@@ -1071,7 +1071,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 >abstract="**這可協助您**&#x200B;更清楚瞭解帳戶層級的參與趨勢是向上還是向下、比較不同帳戶的活動，以及決定要將保留或贏取工作集中在何處。<br/>**根據您所瞭解的情況，您可能**&#x200B;會執行許多動作，例如將注意力重新集中到參與度較低，但因帳戶重要性而需要更多注意的帳戶上。"
 
 >[!CONTEXTUALHELP]
->id="cja-template--b2b-opportunity-enagement"
+>id="cja-template--b2b-opportunity-engagement"
 >title="追蹤商機層級的參與情況，以及掌握或喪失牽引力的表面交易。"
 >abstract="**這可協助您**&#x200B;更準確地預測交易進度，並將啟用重點放在參與尖峰或停滯的地方。<br/>**根據您瞭解的情況，您可能**&#x200B;會做許多事情，例如對幾乎已結束的交易進行額外的努力，以及研究其他交易失去吸引力的原因。"
 
