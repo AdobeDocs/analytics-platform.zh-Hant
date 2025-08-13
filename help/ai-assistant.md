@@ -53,7 +53,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 AI 助理進�
 
 * **合約存取權**：如果您無法使用 AI 助理，請聯絡貴組織的管理員或 Adobe 客戶代表。在貴組織可以使用 AI 助理之前，您必須同意關於生成式 AI 的一些法律條款。
 
-* **權限**：在 [!UICONTROL Adobe Admin Console] 中，[!UICONTROL 報告工具]**[!UICONTROL AI 助理：產品知識]**&#x200B;權限決定此工具的存取權。[產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)需要遵守 [!UICONTROL Admin Console] 中的以下步驟：
+* **權限**：在 [!UICONTROL Adobe Admin Console] 中，[!UICONTROL 報告工具]&#x200B;**[!UICONTROL AI 助理：產品知識]**&#x200B;權限決定此工具的存取權。[產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)需要遵守 [!UICONTROL Admin Console] 中的以下步驟：
    1. 請前往「**[!UICONTROL Admin Console]** > **[!UICONTROL 產品與服務]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 產品設定檔]**」。
    1. 選取您想要提供 [!UICONTROL AI 助理：產品知識]存取權的產品設定檔標題。
    1. 在特定的產品設定檔中，選取「**[!UICONTROL 權限]**」。
