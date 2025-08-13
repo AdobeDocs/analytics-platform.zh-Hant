@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: 20b578a6269aeaf54f6296b1f4337937887ecf05
-workflow-type: ht
-source-wordcount: '604'
-ht-degree: 100%
+source-git-commit: 82b36895fe5186f0133c128d434470ea7f875677
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 96%
 
 ---
 
@@ -33,13 +33,17 @@ Customer Journey Analytics 的 AI 助理可用於所有的產品層級。
 
 ## 產品知識 {#knowledge}
 
-產品知識檢索模型是在 Customer Journey Analytics 上進行訓練的。之後將推出例如資料分析等其他功能。
-
 | 產品知識 | 範例 |
 | --- | --- |
 | 針對性的學習 | <ul><li>Adobe Analytics 和 Customer Journey Analytics 之間有何差異？</li><li>如何建置計算量度？</li></ul> |
 | 開放式探索 | <ul><li>如何匯出 Workspace 專案？</li><li>如何找到重複的 Workspace 元件？</li></ul> |
 | 疑難排解 | <ul><li>資料進入 CJA 需要多久的時間？</li><li>Customer Journey Analytics 連線中可以有多少個衍生欄位？</li></ul> |
+
+## 資料分析
+
+Data Insights 代理可以透過 Customer Journey Analytics 中的 AI 助理進行存取，是一個生成式 AI 對話代理程式，能迅速有效地回答您的資料相關問題。此代理會使用來自資料視圖的元件以及您的實際資料，在 Analysis Workspace 建置相關的視覺內容。
+
+如需在AI助理中使用Data Insights Agent的詳細資訊，請參閱[使用Data Insights Agent視覺化資料](/help/data-analysis-ai.md)。
 
 ## 功能存取
 
@@ -58,7 +62,7 @@ Customer Journey Analytics 的 AI 助理可用於所有的產品層級。
 
       ![新增權限](assets/ai-assistant-permissions.png)。
 
-   1. 選取「**[!UICONTROL 儲存]**」以儲存權限。
+   1. 選取「**[!UICONTROL 儲存]**」，儲存權限。
 
 請參閱[存取控制概觀](/help/technotes/access-control.md#access-control)，了解更多資訊。
 
