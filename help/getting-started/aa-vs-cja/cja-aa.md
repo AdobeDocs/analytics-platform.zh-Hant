@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 144caa157e1a7161595e2b4fc0da60cd63de50bd
-workflow-type: ht
-source-wordcount: '2694'
-ht-degree: 100%
+source-git-commit: 7f44c7497a48e8377ca26cb194f828c3c8836f98
+workflow-type: tm+mt
+source-wordcount: '2709'
+ht-degree: 98%
 
 ---
 
@@ -112,9 +112,10 @@ ht-degree: 100%
 | **處理規則、VISTA 規則、行銷管道處理規則** | 支援將 Adobe Experience Platform Data Prep 功能以及[衍生欄位](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/derived-fields)用於 WebSDK 式資料集和來自 Analytics 來源連接器的資料。 |
 | **產品變數** | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件陣列，以符合此使用案例。在 Customer Journey Analytics 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
 | **專案共用** | 專案共用功能僅支援在 Customer Journey Analytics 的使用者之間使用 - Customer Journey Analytics 和傳統 Analysis Workspace 之間沒有專案共用。 |
+| **即時報告** | Customer Journey Analytics中的即時報表可即時顯示和更新Analysis Workspace中一個或多個面板內的資料和視覺效果。 |
 | **Report Builder** | 支援 Microsoft Excel 的新 Office 365 外掛程式。 |
 | **使用者權限/資料存取控制** | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/admin-tool-experience-cloud) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立、更新和刪除其他使用者建立的連線、專案、區段或計算量度。產品管理員和產品輪廓管理員可以編輯資料檢視。其他使用者權限可用於多種功能，例如建立計算量度、區段或註解等。 |
-| **視覺效果** | 支援所有 Workspace 視覺效果，但地圖視覺效果除外。 |
+| **視覺化呈現** | 支援所有Workspace視覺效果。 |
 | **跨裝置/跨管道拼接** | 支援包含身分識別資訊的事件資料集。請參閱[拼接](../../stitching/overview.md)。 |
 
 ## 部分支援 {#partial}
@@ -127,7 +128,6 @@ ht-degree: 100%
 
 | 功能 | 附註 |
 | --- | --- |
-| **即時報告** | 已規劃提供支援。 |
 | **交易 ID 資料來源** | 已規劃提供支援。 |
 
 ## 不支援，且未規劃提供支援 {#not-planned}
