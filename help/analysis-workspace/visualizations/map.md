@@ -4,9 +4,9 @@ title: 地圖
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 0aac2739e03044c03a2561535846f1355054f45f
+source-git-commit: 71d5326f5d80f196504178855dacdf01f60fb81c
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2761'
 ht-degree: 11%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_&#x200B;**地圖**。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[ ](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_**地圖**。_
 
 >[!ENDSHADEBOX]
 
@@ -96,7 +96,7 @@ Analysis Workspace中的![全域](/help/assets/icons/Globe.svg) **[!UICONTROL �
 
 #### 地理範本的必要內容標籤
 
-Adobe提供數個[預先建立的範本](/help/analysis-workspace/templates/use-templates.md#web-audience)，這些範本使用地圖視覺效果。 為了使用每個範本，您必須將對應的內容標籤新增到資料檢視中的維度。
+Adobe提供數個[預先建立的範本](/help/analysis-workspace/templates/use-templates.md#web-audience)，這些範本使用地圖視覺效果。 若要使用每個範本，您必須將對應的內容標籤新增至資料檢視中的維度。
 
 以下是範本和所需的內容標籤。 如果沒有這些標籤，範本就無法運作，因為沒有地理資料可使用。
 
@@ -112,13 +112,13 @@ Adobe提供數個[預先建立的範本](/help/analysis-workspace/templates/use-
 
 1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
 
-1. 在「資料檢視」頁面上，選取包含您要使用預建範本（使用地圖視覺效果）分析之資料的資料檢視。 在此資料檢視中，您會挑選五個維度，一個包含國家/地區資料、一個包含城市資料、一個包含州資料，以及一個包含DMA資料。 然後，您會以對應的內容標籤來標示這些維度。
+1. 在「資料檢視」頁面上，選取包含您要使用預建範本（使用地圖視覺效果）分析之資料的資料檢視。 在此資料檢視中，挑選五個維度：一個包含國家資料、一個包含地區資料、一個包含城市資料、一個包含州資料，以及一個包含DMA資料。 然後，以對應的內容標籤來標示這些維度。
 
 1. 選取「**[!UICONTROL 元件]**」索引標籤。
 
 1. （視條件而定）如果您使用網頁SDK，且已設定地理欄位填入資料流中，或如果您使用Analytics Source Connector填入事件資料，則地理欄位應該已可在您的結構描述中使用，並填入正確的內容標籤。
 
-   找出適當的結構描述欄位，例如&#x200B;**[!UICONTROL 城市]**、**[!UICONTROL 郵遞區號]**、**[!UICONTROL 州或省份]** （在&#x200B;**[!UICONTROL 事件資料集]** > **[!UICONTROL placeContext]** > **[!UICONTROL 地理]**），並將它們拖曳到資料檢視中，做為維度（如果尚未存在）。
+   找到適當的結構描述欄位，例如&#x200B;**[!UICONTROL 城市]**、**[!UICONTROL 郵遞區號]**、**[!UICONTROL 州或省份]** （在&#x200B;**[!UICONTROL 事件資料集]** > **[!UICONTROL placeContext]** > **[!UICONTROL 地理]**），然後將其以維度形式拖曳到您的資料檢視中（如果尚未出現）。
 
    當這些結構欄位作為維度存在於您的資料檢視中時，其內容標籤會自動套用，並且地理範本無需任何其他設定即可使用它們。
 
@@ -153,7 +153,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 | 從選取專案建立趨勢 | 根據您在地圖視覺效果中選擇的特定區域，建立趨勢線圖視覺效果。 <p>如需詳細資訊，請參閱[從地圖視覺效果建立趨勢線圖](#create-a-trended-line-chart-from-the-map-visualization)。<!-- is this correct? --> | 無法從地圖視覺效果建立趨勢。 |
 | 從選取專案新增劃分 | 劃分您在地圖視覺效果中選取之特定區域中的特定維度專案、量度、區段或日期範圍。 <p>如需詳細資訊，請參閱[從地圖視覺效果新增劃分](#add-a-breakdown-from-the-map-visualization)。 | 無法從地圖視覺效果新增劃分。 |
 
-## 開始建構地圖視覺效果 {#begin-building-map}
+## 建立地圖視覺效果 {#begin-building-map}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -185,7 +185,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
    * **[!UICONTROL 新增區段]**： （選擇性）在區段下拉式清單中，選取區段。 或從區段清單中拖曳區段。
 
-   在視覺效果建立後，您可以選取視覺效果標題中的編輯圖示![編輯](/help/assets/icons/Edit.svg)，更新此資訊。
+   在視覺效果建立後，您可以選取視覺效果標題中的「編輯」圖示![「編輯」](/help/assets/icons/Edit.svg)來更新此資訊。
 
 1. 請選取「**[!UICONTROL 建置]**」。
 
@@ -197,7 +197,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
 ## 檢視地圖視覺效果
 
-1. 如果您尚未建立地圖視覺效果，請依照[開始建立地圖視覺效果](#begin-building-a-map-visualization)中的說明建立地圖視覺效果。
+1. 如果您尚未建立地圖視覺效果，請依照[建立地圖視覺效果](#begin-building-a-map-visualization)中的說明建立地圖視覺效果。
 
 1. 在Analysis Workspace的地圖視覺效果中，執行下列任一項作業：
 
@@ -221,7 +221,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
      地圖會相應縮放。 系統會自動根據縮放層級更新所需的維度（國家/地區>州/省>城市）。
 
-   * **旋轉**：您可以在拖曳地圖時按住[!UICONTROL Ctrl]鍵，以二維或三維方式旋轉地圖。
+   * **旋轉**：您可以在拖曳地圖時按住[!UICONTROL Ctrl]鍵，以2D或3D方式旋轉地圖。
 
      若要將地圖重設為原始的北對齊，請選取指南針圖示![指南針圖示](assets/map-compass-icon.png)。
 
@@ -250,7 +250,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
 若要設定地圖視覺效果的設定：
 
-1. 在Analysis Workspace中，開啟現有的地圖視覺效果，或[開始建立新的視覺效果](#begin-building-a-map-visualization)。
+1. 在Analysis Workspace中，開啟現有的地圖視覺效果，或[建置新的視覺效果](#begin-building-a-map-visualization)。
 
 1. 將滑鼠懸停在地圖視覺效果上，然後選取視覺效果標題中的「設定」圖示![設定](/help/assets/icons/Setting.svg)。
 
