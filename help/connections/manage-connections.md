@@ -155,7 +155,7 @@ ht-degree: 62%
 
 * 在Customer Journey Analytics中執行Journey Optimizer資料的深入分析(使用Journey Optimizer中的&#x200B;**[!UICONTROL 在CJA中分析]**&#x200B;按鈕)。
 
-  如需詳細資訊，請參閱Journey Optimizer檔案中的[在Customer Journey Analytics中分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template)。
+  如需詳細資訊，請參閱Journey Optimizer檔案中的[在Customer Journey Analytics中分析](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template)。
 
 * 編輯Journey Optimizer連線和相關聯的資料檢視。
 
@@ -323,7 +323,7 @@ ht-degree: 62%
 | **[!UICONTROL 索引鍵]** | 您為查詢資料集指定的索引鍵。 |
 | **[!UICONTROL 比對索引鍵]** | 您為查詢資料集指定的比對索引鍵。 |
 | **[!UICONTROL 時間戳記]** | 為事件資料集定義的時間戳記。 |
-| **[!UICONTROL 可用記錄]** | 在透過行事曆選取的特定時段中，為此資料集攝取的資料列總數。 在新增資料後，資料會立即出現在報告中，不需要等候。 然而，當你建立全新連線時， 會有[延遲](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)。 |
+| **[!UICONTROL 可用記錄]** | 在透過行事曆選取的特定時段中，為此資料集攝取的資料列總數。 在新增資料後，資料會立即出現在報告中，不需要等候。 然而，當你建立全新連線時， 會有[延遲](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)。 |
 | **[!UICONTROL 新增的記錄]** | 在選取的日期範圍內新增到連線的資料集記錄（列）數。 |
 | **[!UICONTROL 略過的記錄]** | 在選取的日期範圍內，針對連線在資料傳輸期間略過的資料集記錄（列）數。 |
 | **[!UICONTROL 批次已新增]** | 已新增至連線的批次數量。 |
