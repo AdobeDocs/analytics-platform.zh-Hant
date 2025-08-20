@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 1c4342d91e0c939d596c9660ffc510c4698f8680
+source-git-commit: 8531c372607f39a3e39de8eda4f624057e56d9a4
 workflow-type: tm+mt
-source-wordcount: '2696'
-ht-degree: 98%
+source-wordcount: '2694'
+ht-degree: 97%
 
 ---
 
@@ -313,7 +313,7 @@ ht-degree: 98%
 
 * 在收集 Content Analytics 資料時，指明應包括或排除哪些資產。
 
-  針對&#x200B;**[!UICONTROL 要包括/排除的資產]**&#x200B;指定規則運算式字串。<br/>例如：`^(?!.*(logo\.jpg|\.svg)).*$`從 Content Analytics 中排除所有標誌 JPEG 和 SVG 影像。
+  針對&#x200B;**[!UICONTROL 要包括/排除的資產]**&#x200B;指定規則運算式字串。<br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有標誌JPEG影像。
 
 >[!IMPORTANT]
 >
