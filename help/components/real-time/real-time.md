@@ -7,9 +7,9 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 804668db5e104d1a1de7d5d9ce0c92a9bb1980dc
+source-git-commit: 2dd78dc120fc2bf48d3a59e28631e4ddf605b0c3
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '733'
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis W
 
 ## 延遲
 
-資料收集方式會決定Customer Journey Analytics即時報表的即時延遲。 下圖與表格顯示使用即時和標準報表時，各種資料收集案例的大約延遲。
+資料收集方式會決定Customer Journey Analytics中即時報表的延遲。 下圖與表格顯示使用即時報表與（比較）標準報表時，各種資料收集案例的大約延遲。
 
 插圖也強調，即時報表使用的合併資料集，與用於標準報表的[合併（合併）資料集](/help/connections/combined-dataset.md)完全不同。 您使用[即時重新整理切換](use-real-time.md)來切換：
 
@@ -61,14 +61,15 @@ Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis W
 | 3 | Adobe Analytics來源聯結器 | &amp;amp；約； &lt; 00h:16m:30s | &amp;amp；約； &lt; 01h:45m:00s |
 | 4 | 進入來源聯結器的其他來源聯結器（包括批次資料） | &amp;amp；約； &lt; 24h:01m:30s | &amp;amp；約； &lt; 25h:30m:00s |
 
+
 ## 限制
 
 請注意下列即時報表的限制：
 
 * 即時報表只會報告24小時滾動期間的可用資料。 超過   24小時前的版本不適用於即時報表。 在停用或自動關閉報表的[即時重新整理](use-real-time.md)後，通常用於Customer Journey Analytics中報表的[整合資料集](/help/connections/combined-dataset.md)中的所有相關資料將再次可用。
 * 歸因、細分、計算量度等只適用於24小時內滾動時間內可用的資料。 例如，*重複訪客*&#x200B;區段在即時報表中包含的人數非常少，因為報表僅包含過去24小時內多次造訪的人。 類似的限制同樣適用於對先前點按已不活躍促銷活動之人員建立即時報表。
-* 即時報表最適合用於事件和工作階段層級的資料，針對個人層級的資料，使用即時報表時，請務必謹慎。 <!--Need to explain this a bit better -->由於即時報表只能使用滾動24小時期間的事件，因此個人的事件歷史記錄也僅限於此視窗。 當您選取維度和（計算）量度時，請考慮事件和工作階段層級資料的偏好設定。 當您在啟用即時重新整理的面板中使用劃分、下一個或上一個等功能時。
-* 您無法結合拼接與即時報告。 <!-- Do we need to explain this in more detail, why? -->即時報表是關於事件和工作階段層級的資料，與以人員為基礎的資料不太相關。
+* 即時報表最適合用於事件和工作階段層級的資料，針對個人層級的資料，使用即時報表時，請務必謹慎。 由於即時報表只能使用滾動24小時期間的事件，因此個人的事件歷史記錄也僅限於此視窗。 當您選取維度和（計算）量度時，請考慮事件和工作階段層級資料的偏好設定。 當您在啟用即時重新整理的面板中使用劃分、下一個或上一個等功能時。
+* 您無法結合拼接與即時報告。 即時報表是針對事件和工作階段層級的資料，與以人員為基礎的資料較不相關。
 * 除了媒體開始和媒體關閉量度外，沒有可用的心率收集媒體量度。 因此，您仍可使用即時報告來啟用媒體使用案例。
 * 當您使用[下載或匯出選項](/help/analysis-workspace/export/download-send.md)下載專案或從自由表格匯出資料時，請考慮下列事項：
    * 下載的CSV專案或匯出的CSV檔案包含下載或匯出時可用的即時資料。
