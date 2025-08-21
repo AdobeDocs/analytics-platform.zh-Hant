@@ -7,7 +7,7 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: b34cf8d95080cb333cd497450f5881f0418b8ae9
+source-git-commit: 2461804f788b7a1417c4d7faa1d7133d8808cad5
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 7%
@@ -42,17 +42,18 @@ Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis W
 
 請勿將作業監控使用案例的即時報告列入考量。 例如，回答網站是否正常運作的問題。 由於[即時重新整理切換](use-real-time.md)會在30分鐘後自動停用，而即時報表會停止重新整理，因此您不應使用即時報表作為這些使用案例的可靠來源。
 
+## 運作方式
 
-## 延遲
-
-資料收集方式會決定Customer Journey Analytics中即時報表的延遲。 下圖與表格顯示使用即時報表與（比較）標準報表時，各種資料收集案例的大約延遲。
-
-插圖也強調，即時報表使用的合併資料集，與用於標準報表的[合併（合併）資料集](/help/connections/combined-dataset.md)完全不同。 您使用[即時重新整理切換](use-real-time.md)來切換：
+即時報表所使用的整合資料集，與用於標準報表的[整合（合併）資料集](/help/connections/combined-dataset.md)完全不同。 您使用[即時重新整理切換](use-real-time.md)來切換：
 
 * 對於包含長達24小時滾動資料的整合資料集提供即時報表。
 * 合併資料集的標準報告，其中包含最多13個月的滾動資料（或更長，以備您已授權擴充資料容量附加元件時使用）。
 
 ![即時報告](assets/real-time-reporting-latencies.svg){zoomable="yes"}
+
+### 延遲
+
+資料收集方式會決定Customer Journey Analytics中即時報表的延遲。 上圖及下表顯示使用即時和（比較）標準報表時，各種資料收集案例的大約延遲。
 
 | | 資料收集 | 即時報告延遲<br/> (約 小於) | 標準報告延遲<br/> (約 小於) |
 |:---:|---|--:|--:|
