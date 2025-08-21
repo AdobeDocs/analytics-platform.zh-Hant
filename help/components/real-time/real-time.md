@@ -7,10 +7,10 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 2dd78dc120fc2bf48d3a59e28631e4ddf605b0c3
+source-git-commit: b34cf8d95080cb333cd497450f5881f0418b8ae9
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 5%
+source-wordcount: '723'
+ht-degree: 7%
 
 ---
 
@@ -54,12 +54,12 @@ Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis W
 
 ![即時報告](assets/real-time-reporting-latencies.svg){zoomable="yes"}
 
-| | 資料收集 | 即時報告延遲 | 標準報告延遲 |
+| | 資料收集 | 即時報告延遲<br/> (約 小於) | 標準報告延遲<br/> (約 小於) |
 |:---:|---|--:|--:|
-| 1 | Edge Network SDK / API移入Edge Network | &amp;amp；約； &lt; 00h:06m:30s | &amp;amp；約； &lt; 01h:35m:00s |
-| 2 | 串流聯結器 | &amp;amp；約； &lt; 00h:16m:30s | &amp;amp；約； &lt; 01h:45m:00s |
-| 3 | Adobe Analytics來源聯結器 | &amp;amp；約； &lt; 00h:16m:30s | &amp;amp；約； &lt; 01h:45m:00s |
-| 4 | 進入來源聯結器的其他來源聯結器（包括批次資料） | &amp;amp；約； &lt; 24h:01m:30s | &amp;amp；約； &lt; 25h:30m:00s |
+| 1 | Edge Network SDK / API移入Edge Network | 7 分鐘 | 95 分鐘 |
+| 2 | 串流聯結器 | 17 分鐘 | 105 分鐘 |
+| 3 | Adobe Analytics來源聯結器 | 17 分鐘 | 105 分鐘 |
+| 4 | 進入來源聯結器的其他來源聯結器（包括批次資料） | 25 小時 | 25 小時 |
 
 
 ## 限制
