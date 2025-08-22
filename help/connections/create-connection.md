@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 2fa71cd361468f5d71c2858fe1fa3b462f1f480b
+source-git-commit: 4e40030cd6630ee83712d3379298a965a0fe53e4
 workflow-type: tm+mt
-source-wordcount: '7269'
+source-wordcount: '7331'
 ht-degree: 67%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 67%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -187,7 +187,7 @@ ht-degree: 67%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -345,6 +345,11 @@ ht-degree: 67%
 >abstract="選取連結方式：根據依欄位比對或依容器比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取要與其中一個事件資料集連結的容器。"
 
 >[!CONTEXTUALHELP]
+>id="connection_matchingkeytype"
+>title="比對索引鍵類型"
+>abstract="選取連結方式：根據依欄位比對或依容器比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取要與其中一個事件資料集連結的容器。"
+
+>[!CONTEXTUALHELP]
 >id="connection_importnewdata"
 >title="匯入新資料"
 >abstract="在 Experience Platform 資料集中新增的任何新批次均會自動新增至此連線中，而且可供分析使用。"
@@ -378,7 +383,7 @@ ht-degree: 67%
 
 >[!CONTEXTUALHELP]
 >id="connection_persistentid"
->title="永久 ID"
+>title="永久性 ID"
 >abstract="從可用的身分識別中選取一個永久性 ID。永久性 ID 是事件資料集中所有事件皆可使用的識別碼。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview" text="拼接概觀"
 
@@ -610,7 +615,7 @@ ht-degree: 67%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
