@@ -4,10 +4,10 @@ title: 下載專案和資料
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+source-git-commit: 1cb9e18f79e8ca49b63aa7d8117ce6c61a020454
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 25%
+source-wordcount: '1246'
+ht-degree: 22%
 
 ---
 
@@ -20,33 +20,42 @@ ht-degree: 25%
 
 匯出Customer Journey Analytics資料的其他方法在[匯出概觀](/help/analysis-workspace/export/export-project-overview.md)中說明。
 
-## 下載為 CSV 或 PDF {#download-project}
+## 將專案下載為PDF或CSV檔案 {#download-project}
 
 ![專案下拉式選單，下載 CSV 和下載 PDF 選項會醒目顯示。](assets/download-project.png)
 
+### 將專案下載為PDF檔案
+
 將專案下載為PDF時，請考量下列事項：
 
-* 由於專案會在Adobe伺服器上重新執行，以PDF格式呈現，因此下載作業可能需要幾分鐘的時間。 在瀏覽器中下載專案之前，請勿離開專案。  您可以在轉譯下載內容時繼續變更專案。 如果PDF的轉譯時間超過5分鐘，系統會提示您改為[傳送電子郵件給PDF](../curate-share/send-schedule-files.md)。
+* 在專案下載至您的工作站之前，請勿離開專案。 由於專案在Adobe伺服器上重新執行以便PDF呈現，下載作業可能需要幾分鐘的時間。 呈現下載時，您可以繼續變更專案。 如果PDF的轉譯時間超過5分鐘，系統會提示您改為[傳送電子郵件給PDF](../curate-share/send-schedule-files.md)。
 * 下載項目將呈現為單一頁面，而不套用任何分頁。
-* PDF包含可在Analysis Workspace的瀏覽器頁面中看到的內容。 您必須自動調整自訂大小的視覺效果和面板大小，以免內容遭到截斷。 選取![調整大小](/help/assets/icons/Resize.svg)以自動調整自訂大小的視覺效果或面板的大小。
-* 自由表格中的[超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)在下載的PDF中作為超連結。
-
-
+* PDF包含可在Analysis Workspace的瀏覽器頁面中看到的內容。 若要避免截斷內容，請選取「![調整大小](/help/assets/icons/Resize.svg)」以自動調整任何自訂大小的視覺效果或面板的大小。
+* 在下載的PDF中，可點選自由表格中的[超連結](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。
 
 若要將專案下載為PDF檔案：
 
 1. 選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 下載PDF]**。
-綠色長條圖，內含訊息![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 已要求您的下載。 請稍候。]**&#x200B;已顯示。
 
-1. 只要您的下載準備就緒，就會出現綠色長條，內含訊息![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *專案名稱&#x200B;*PDF。]**&#x200B;出現。
-選取&#x200B;**[!UICONTROL 下載]**&#x200B;以下載PDF。 PDF的顯示或下載方式取決於您用於處理PDF檔案的瀏覽器設定。
+   綠色列會顯示下列訊息： ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 已要求您的下載。 請稍候。]**
 
+1. 下載準備就緒後，綠色列會顯示以下訊息： ![核取記號圓圈](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *專案名稱&#x200B;*PDF已準備就緒。]**
 
-若要將專案下載為CSV檔案：
+1. 在綠色列上選取&#x200B;**[!UICONTROL 下載]**。
 
-* 選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 下載CSV]**。 專案會直接下載至下載資料夾，此資料夾已設定為您瀏覽器設定的一部分。 檔案名稱由&#x200B;*專案名稱* - *報告套裝名稱* - *日期*&#x200B;組成，例如`Example Project - Omni-Channel - Luma - Jun 30, 2025.csv`。
+   根據您的瀏覽器設定，PDF會自動下載至您先前設定的資料夾，或提示您選擇將下載PDF的資料夾。
 
-## 複製到剪貼簿 {#copy-data}
+   檔案名稱由&#x200B;*專案名稱* - *報告套裝名稱* - *日期*&#x200B;組成。 例如，`Example Project - Omni-Channel - Luma - Jun 30, 2025.pdf`。
+
+### 將專案下載為CSV檔案
+
+1. 選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 下載CSV]**。
+
+   根據您的瀏覽器設定，CSV檔案會自動下載到您先前設定的資料夾，或提示您選擇將下載CSV檔案的資料夾。
+
+   檔案名稱由&#x200B;*專案名稱* - *報告套裝名稱* - *日期*&#x200B;組成。 例如，`Example Project - Omni-Channel - Luma - Jun 30, 2025.csv`。
+
+## 將視覺效果內的資料複製到剪貼簿 {#copy-data}
 
 內容功能表中的&#x200B;**[!UICONTROL 複製到剪貼簿]**&#x200B;選項可讓您從Analysis Workspace快速複製資料，並將資料貼到協力廠商工具中。
 
@@ -60,7 +69,7 @@ ht-degree: 25%
 
 ![「複製」選擇複製到剪貼簿選項。 ](assets/copy-clipboard.png){zoomable="yes"}
 
-## 下載為 CSV {#download-data}
+## 將視覺效果中的資料下載為CSV檔案 {#download-data}
 
 從快顯選單下載為CSV選項可讓您將資料表格或任何視覺效果的資料來源下載為CSV檔。
 
@@ -78,7 +87,7 @@ ht-degree: 25%
 
 ![下載資料為 CSV 選項。](assets/download-data-as-csv.png)
 
-## 將項目下載為 CSV 檔 {#download-items}
+## 將專案下載為CSV檔案 {#download-items}
 
 如果您想要分析表格中超過400列的可見資料，請從表格標頭或任何一列的內容功能表中選取&#x200B;**以CSV格式下載專案(_Dimension名稱_)**。 此選項可針對選取的維度匯出多達 50,000 個維度項目 (根據表格排序)，並有套用的排序選項和篩選器。如果您從表格頂端選取此選項，會匯出表格中的第一個維度。
 
@@ -108,7 +117,7 @@ ht-degree: 25%
 下載檔案時，您會看到下列通知：
 
 * 已要求藍色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv。_x _%完成]**，表示進度。 若要隨時取消下載，請選取&#x200B;**[!UICONTROL 取消下載]**。 若要關閉郵件，請選取![CrossSize100](/help/assets/icons/CrossSize100.svg)，這不會取消下載。
-* 綠色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv在檔案下載完成後已下載]**&#x200B;完成通知。 檔案會下載至為瀏覽器設定的下載資料夾。
+* 綠色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv在檔案下載完成後已下載]**完成通知。 檔案會下載至為瀏覽器設定的下載資料夾。
 
 如果您一次要求多項下載，您會收到通知，告知您每項額外下載要等到前一個下載完成時才會排入佇列。
 
