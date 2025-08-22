@@ -4,7 +4,7 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: df069a7a67c65db9eb70900869495202f63abd05
+source-git-commit: f41162d1c4c44f79c59585d1311cd2e431725103
 workflow-type: tm+mt
 source-wordcount: '20276'
 ht-degree: 100%
@@ -1060,8 +1060,6 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-
-{{release-limited-testing-section}}
 
 <!-- CJA B2B Edition only -->
 
