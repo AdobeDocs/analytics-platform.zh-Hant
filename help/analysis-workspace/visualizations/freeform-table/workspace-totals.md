@@ -4,10 +4,10 @@ title: 總計
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 91%
+source-wordcount: '494'
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 91%
 ![「設定」](/help/assets/icons/Setting.svg)**[!UICONTROL 「欄設定」]**&#x200B;下方有「**[!UICONTROL 顯示總計]**」和「**[!UICONTROL 顯示總量]**」選項。如果未選中這些設定，總數將從表格中刪除，在總數不合理情況下可能必須這樣做。
 
 
-[靜態列](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)總計的行為方式不同，且須使用![「設定」](/help/assets/icons/Setting.svg)**[!UICONTROL 「列設定」]**&#x200B;來控制。
+在包含[靜態列](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)的自由格式表格中，總計的行為會不同。 並使用![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 資料列設定]**&#x200B;來控制和。
 
 | 選項 | 說明 |
 |---|---|

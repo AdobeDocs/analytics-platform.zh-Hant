@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
-workflow-type: ht
-source-wordcount: '2130'
-ht-degree: 100%
+source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
+workflow-type: tm+mt
+source-wordcount: '2193'
+ht-degree: 97%
 
 ---
 
@@ -75,7 +75,19 @@ ht-degree: 100%
 * 選取![AddCircle](/help/assets/icons/AddCircle.svg)，在工作區最後一個面板的&#x200B;**外面**，以新增另一個[空白面板](blank-panel.md)。
 
 
-## 資料視圖
+## 管理面板
+
+您可以透過下列方式管理面板：
+
+![管理面板](assets/manage-panel.png)
+
+* 若要摺疊面板，請選取![V形向下](/help/assets/icons/ChevronDown.svg)。
+* 若要顯示摺疊的面板，請選取![V形左側](/help/assets/icons/ChevronLeft.svg)。
+* 若要刪除面板，請選取![CrossSize400](/help/assets/icons/CrossSize200.svg)。 若要復原，請選取[編輯] **** > [復原] **** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**)。
+* 若要移動面板，只要看見![移動](/help/assets/icons/Move.svg)時（通常是將游標停留在標頭上），請拖放面板。
+
+
+## 資料檢視
 
 每個面板都與一個[資料視圖](/help/data-views/data-views.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *資料視圖名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
 

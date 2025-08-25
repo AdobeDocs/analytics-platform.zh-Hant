@@ -5,10 +5,10 @@ title: 視覺效果概述
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 9c05319ceacb7287af7f15cfe56b8048a718559d
+source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 95%
+source-wordcount: '1738'
+ht-degree: 89%
 
 ---
 
@@ -67,6 +67,22 @@ Analysis Workspace 中有以下視覺效果類型：
    * 使用 Workspace **[!UICONTROL 插入]**&#x200B;選單以插入視覺效果。
 
    * 從自由格式表格的內容選單中，選取「**[!UICONTROL 視覺效果]**」。然後從子選單中選取視覺效果。根據表格中的選取項目，Workspace 確定提供哪種視覺化並解釋資料，以建置所要求的視覺化效果。
+
+當您新增簡單的視覺效果，例如[長條圖](line.md)的[線條](bar.md)視覺效果時，該視覺效果會使用最接近的自由格式表格作為資料來源。 您可以隨時修改視覺效果的[資料來源](#data-source)。
+
+
+## 管理視覺效果
+
+當您將游標停留在視覺效果上或選取視覺效果時，您可以管理視覺效果。
+
+![管理視覺效果](assets/manage-visualization.png)
+
+* 若要收合視覺效果，請選取![V形向下](/help/assets/icons/ChevronDown.svg)。
+* 若要顯示收合的視覺效果，請選取![左側](/help/assets/icons/ChevronLeft.svg) V形。
+* 若要刪除視覺效果，請選取![CrossSize400](/help/assets/icons/CrossSize400.svg)。 若要復原，請選取[編輯] **** > [復原] **** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**)。
+* 若要將視覺效果回覆為預設高度，請選取![ImageResize](/help/assets/icons/Resize.svg)。
+* 若要在面板內移動視覺效果，只要有![移動](/help/assets/icons/Move.svg)出現（通常是將游標停留在標頭上），即可拖放視覺效果。
+
 
 
 ## 圖例
