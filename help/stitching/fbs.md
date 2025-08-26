@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
+source-git-commit: 00f6eeac173ad606885fce5567c82db8a9d107de
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1781'
 ht-degree: 15%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 ## 身分對應
 
-以欄位為基礎的彙整支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)：
+以欄位為基礎的彙整支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)：
 
 - 在`identityMap`名稱空間中使用主要身分來定義persistentID：
    - 如果在不同的名稱空間中找到多個主要身分，則名稱空間中的身分會依字典排序，並會選取第一個身分。
@@ -60,7 +60,7 @@ ht-degree: 15%
    - 如果在`identityMap`名稱空間中找到persententID或transientID的多個值，則使用第一個字典可用的值。
    - persistentID和transientID的名稱空間必須互斥。
 
-  在以下範例中，您已選取ECID作為用於欄位式銜接的名稱空間。 該選取範圍會產生排序的身分清單，最後產生選取的身分。
+  在以下範例中，您已選取ECID作為要使用的名稱空間。 該選取範圍會產生排序的身分清單，最後產生選取的身分。
 
   <table style="table-layout:auto">
      <tr>
@@ -94,7 +94,7 @@ ht-degree: 15%
 
 - **即時彙整**：嘗試在每個點選（事件）傳入時將其彙整。 來自對資料集「新的」（從未驗證）之裝置的點選通常不會在此層級結合。 來自已識別裝置的點選會立即結合。
 
-- **重播拼接**：根據所掌握的唯一識別碼（暫時ID）「重播」資料。 在這個階段，來自先前未知裝置（永久ID）的點選會彙整（至暫時ID）。 重播由兩個引數決定： **頻率**&#x200B;和&#x200B;**回顧期間**。 Adobe提供下列這些引數的組合：
+- **重播拼接**： *會根據所掌握的唯一識別碼（暫時ID）重播*&#x200B;資料。 在這個階段，來自先前未知裝置（永久ID）的點選會彙整（至暫時ID）。 重播由兩個引數決定： **頻率**&#x200B;和&#x200B;**回顧期間**。 Adobe提供下列這些引數的組合：
    - **每日回顧頻率**：資料每天重播，回顧期間為24小時。 此選項的優點是重播頻率較高，但未驗證的訪客必須在造訪您網站的當天完成驗證。
    - **每週回顧頻率**：資料每週重播一次，回顧期間為每週（請參閱[選項](#options)）。 此選項的優點在於，未驗證的工作階段能有更多時間驗證。不過，系統不會重新處理不到一週的未拼接資料，直到下一次每週重播為止。
    - **每兩週回顧一次每週頻率**：資料每週重播一次，回顧期間為每兩週（請參閱[選項](#options)）。 此選項的優點在於，未驗證的工作階段能有更多時間驗證。不過，兩週內的未拼接資料要等到下一次每週重播時才會重新處理。
@@ -214,7 +214,7 @@ ht-degree: 15%
    - **暫時ID**，此識別碼僅可用於部分列。 例如訪客驗證後雜湊的使用者名稱或電子郵件地址。您幾乎可以使用任何您喜歡的識別碼。 拼接會將此欄位視為儲存實際人員ID資訊。 為獲得最佳拼接結果，每個永久ID應在資料集事件中至少傳送一次「暫時ID」 。 如果您打算將此資料集納入Customer Journey Analytics連線，最好讓其他資料集也具有類似的通用識別碼。
 
 <!--
-- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 
