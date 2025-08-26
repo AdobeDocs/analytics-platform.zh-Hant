@@ -4,9 +4,9 @@ title: 計劃的專案
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 9d293854ab1da90ea22865392daf9204679f4fd3
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '796'
 ht-degree: 41%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 41%
 | 圖示 | 動作 | 說明 |
 |:---:|---|---|
 | ![關閉](/help/assets/icons/Close.svg) | **[!UICONTROL *x *已選取]** | 選取以取消選取您所選的排程專案。 |
-| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除為專案選取的排程專案；不會刪除專案。 |
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除為專案選取的排程專案；不會刪除專案。  <p>如需有關刪除專案的資訊，請參閱[專案概述](/help/analysis-workspace/build-workspace-project/freeform-overview.md)。</p> |
 | ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標籤所選的排程專案。 在&#x200B;**[!UICONTROL 標籤排程專案]**&#x200B;中，選取標籤並選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 核准]** | 核准所選的排程專案。 |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出至 CSV]** | 將選取的排程專案匯出至名為`Export Scheduled Projects List.csv`的檔案。 |
