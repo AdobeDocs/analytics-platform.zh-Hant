@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: 98432804b71805c3714423dff577bbf80d5c92d1
+source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1542'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 ## 身分對應
 
-圖表式拚接支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)：
+圖表式拚接支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)：
 
 - 在`identityMap`名稱空間中使用主要身分來定義persistentID：
    - 如果在不同的名稱空間中找到多個主要身分，則名稱空間中的身分會依字典排序，並會選取第一個身分。
@@ -56,9 +56,9 @@ ht-degree: 7%
   </table>
 
 - 使用`identityMap`名稱空間來定義persistentID：
-   - 如果在`identityMap`名稱空間中找到persitentID的多個值，則會使用第一個字典上的可用身分。
+   - 如果在`identityMap`名稱空間中找到persistentID的多個值，則會使用第一個字典上的可用身分。
 
-  在以下範例中，名稱空間和身分會產生所選名稱空間(ECID)的排序身分清單，最後是所選身分。
+  在以下範例中，您已選取ECID作為要使用的名稱空間。 該選取範圍會產生排序的身分清單，最後產生選取的身分。
 
   <table style="table-layout:auto">
      <tr>
@@ -113,13 +113,13 @@ ht-degree: 7%
 ![身分圖表246](assets/identity-graph-246.svg)
 ![身分圖表3579](assets/identity-graph-3579.svg)
 
-您可以使用[身分圖表檢視器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer)，檢視特定設定檔在一段時間內的身分圖表。 另請參閱[身分識別服務連結邏輯](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-linking-logic)，以更清楚瞭解連結身分識別時所使用的邏輯。
+您可以使用[身分圖表檢視器](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer)，檢視特定設定檔在一段時間內的身分圖表。 另請參閱[身分識別服務連結邏輯](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)，以更清楚瞭解連結身分識別時所使用的邏輯。
 
 ### 步驟1：即時彙整
 
 即時彙整會在收集時嘗試將每個事件與當時來自身分圖表的已知資訊彙整。
 
-+++ 詳細資料
++++ 詳細內容
 
 | | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![圖形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | 彙整ID （即時彙整後） |
 |--:|---|---|---|---|
@@ -142,9 +142,9 @@ ht-degree: 7%
 
 重播彙整會定期地（視選取的回顧期間而定）根據識別圖形的最新版本，在間隔時間重新計算歷史資料。
 
-+++ 詳細資料
++++ 詳細內容
 
-當重播結合發生於2023-05-13 16:30，且回顧視窗設定為24小時時，會重新結合範例中的某些事件（由![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg)指示）。
+當重播拼接發生在2023-05-13 16:30，具有24小時回顧視窗設定時，會重新拼接範例中的某些事件（由![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg)指示）。
 
 | | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![圖形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | 已彙整ID<br/> （即時彙整後） | 已拼接ID<br/> （重播24小時後） |
 |---|---|---|---|---|---|
@@ -158,7 +158,7 @@ ht-degree: 7%
 {style="table-layout:auto"}
 
 
-當重播結合於2023-05-13 16:30進行，且回顧視窗設定為7天時，所有範例事件都會重新結合。
+當重播彙整發生在2023-05-13 16:30，且回顧視窗設定為7天時，來自範例的所有事件都會重新彙整。
 
 
 | | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![圖形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | 已彙整ID<br/> （即時彙整後） | 已拼接ID<br/> （重播7天後） |
@@ -179,9 +179,9 @@ ht-degree: 7%
 
 當您收到隱私權請求時，隱私權請求之使用者主體的所有記錄中都會刪除拼接的ID。
 
-+++ 詳細資料
++++ 詳細內容
 
-下表呈現與以上相同的資料，但顯示隱私權請求（例如，在2023-05-13 18:00）對範例事件具有的影響。
+下表呈現與以上相同的資料，但顯示隱私權請求（例如，在2023-05-13 18:00）對範例事件的影響。
 
 | | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![圖形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | 彙整ID （隱私權請求後） |
 |--:|---|---|---|---|
@@ -217,7 +217,7 @@ ht-degree: 7%
 - 使用指定的名稱空間查詢暫時ID時，不會考慮時間戳記。 因此，永久性ID可能會從時間戳記較早的記錄拼接暫時ID。
 - 在共用裝置情況中，其中圖表中的名稱空間包含多個身分，系統會使用第一個字典識別。 如果名稱空間限制和優先順序是在圖表連結規則發行時設定，則會使用最後驗證的使用者身分。 如需詳細資訊，請參閱[共用裝置](/help/use-cases/stitching/shared-devices.md)。
 - 在身分圖表中有三個月回填身分的硬性限制。 若您未使用Experience Platform應用程式（如Real-time Customer Data Platform）填入身分圖表，建議您使用回填身分。
-- [Identity Service護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/guardrails)已套用。 檢視下列[靜態限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/guardrails#static-limits)：
+- [Identity Service護欄](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)已套用。 檢視下列[靜態限制](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits)：
    - 圖表中的最大身分數量： 50。
    - 單一批次擷取的身分連結數上限： 50。
    - 用於圖表擷取的XDM記錄中的最大身分數量： 20。

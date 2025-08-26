@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 98432804b71805c3714423dff577bbf80d5c92d1
+source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1784'
 ht-degree: 15%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 ## 身分對應
 
-以欄位為基礎的彙整支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)：
+以欄位為基礎的彙整支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)：
 
 - 在`identityMap`名稱空間中使用主要身分來定義persistentID：
    - 如果在不同的名稱空間中找到多個主要身分，則名稱空間中的身分會依字典排序，並會選取第一個身分。
@@ -57,10 +57,10 @@ ht-degree: 15%
 
 
 - 使用`identityMap`名稱空間來定義persistentID或transientID或兩者：
-   - 如果在`identityMap`名稱空間中找到persitentID或transientID的多個值，則使用第一個字典可用的值。
+   - 如果在`identityMap`名稱空間中找到persententID或transientID的多個值，則使用第一個字典可用的值。
    - persistentID和transientID的名稱空間必須互斥。
 
-  在以下範例中，名稱空間和身分會產生所選名稱空間(ECID)的排序身分清單，最後是所選身分。
+  在以下範例中，您已選取ECID作為用於欄位式銜接的名稱空間。 該選取範圍會產生排序的身分清單，最後產生選取的身分。
 
   <table style="table-layout:auto">
      <tr>
@@ -114,7 +114,7 @@ ht-degree: 15%
 
 即時彙整會嘗試在收集時將每個事件彙整至已知裝置和頻道。
 
-+++ 詳細資料
++++ 詳細內容
 
 請思考以下範例，範例中Bob將不同的事件記錄為事件資料集的一部分。
 
@@ -142,13 +142,13 @@ ht-degree: 15%
 
 延遲的資料（時間戳記超過24小時的資料）會以「盡力而為」的方式處理，同時以最高品質優先拼接目前資料。
 
-+++
++++ 
 
 ### 第 2 步：重播彙整作業
 
 重播結合會定期（每週一次或每天一次，視選取的回顧期間而定）根據現在識別的裝置重新計算歷史資料。 如果裝置最初在未驗證時傳送資料然後登入，重播彙整會將那些未驗證的事件與正確的人員繫結。
 
-+++ 詳細資料
++++ 詳細內容
 
 下表呈現上文所述的相同資料，但根據重播資料顯示不同的數字。
 
@@ -174,13 +174,13 @@ ht-degree: 15%
 
 識別出自訂變數繫結至裝置時，歸因功能即會運作。 在上述範例中，事件1和10會因重播而拼接，留下僅事件8和9未拼接。 並將人員量度（累計）減少為2。
 
-+++
++++ 
 
 ### 步驟3：隱私權請求
 
 當您收到隱私權請求時，隱私權請求之使用者主體的所有記錄中都會刪除拼接的ID。
 
-+++ 詳細資料
++++ 詳細內容
 
 下表呈現與上述相同的資料，但顯示Bob的隱私權請求在處理資料後對資料的影響。 會移除Bob已驗證的列（2、3、5、7和11），同時移除Bob作為其他列的暫時ID。
 
@@ -202,7 +202,7 @@ ht-degree: 15%
 | 12 | 2023-05-12 12:12 | `81911` | - | **`Bob`** | `Bob` | - | `81911` |
 | | | **3個裝置** | | **4人員**：<br/>246，`Bob`，`3579`，`81911` | **2人**：<br/>Bob，`3579` |  | **3人**：<br/>`246`，`3579`，`81911` |
 
-+++
++++ 
 
 ## 先決條件
 
@@ -214,7 +214,7 @@ ht-degree: 15%
    - **暫時ID**，此識別碼僅可用於部分列。 例如訪客驗證後雜湊的使用者名稱或電子郵件地址。您幾乎可以使用任何您喜歡的識別碼。 拼接會將此欄位視為儲存實際人員ID資訊。 為獲得最佳拼接結果，每個永久ID應在資料集事件中至少傳送一次「暫時ID」 。 如果您打算將此資料集納入Customer Journey Analytics連線，最好讓其他資料集也具有類似的通用識別碼。
 
 <!--
-- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 

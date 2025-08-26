@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: dd285caa3d9702d3ddccdba2bc656767a9fe4684
+source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 9%
@@ -36,7 +36,7 @@ ht-degree: 9%
    - 所需資料集的永久ID欄名稱（身分路徑和名稱空間） （每列顯示的識別碼）。
    - 如果資料集支援`identityMap`：
       - 對於欄位式拼接，請指定持續和暫時ID的名稱空間。
-      - 對於圖表式拚接，請指定持續ID的名稱空間以及用於查詢身分圖表的身分名稱空間。
+      - 對於圖表式拚接，請指定永久ID的名稱空間以及用於查詢身分圖表的身分名稱空間。
    - 如果資料集不支援`identityMap`：
       - 對於欄位式拚接，所需資料集的暫時ID欄名稱（人員ID，也會作為連線內容中資料集之間的連結）。
       - 對於圖表式拚接，為用於查詢身分圖表的身分名稱空間。
