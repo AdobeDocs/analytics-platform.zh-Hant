@@ -147,7 +147,7 @@ ht-degree: 67%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -187,7 +187,7 @@ ht-degree: 67%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -620,7 +620,7 @@ ht-degree: 67%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
