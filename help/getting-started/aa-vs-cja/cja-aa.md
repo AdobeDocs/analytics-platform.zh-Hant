@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User
 source-git-commit: 7f44c7497a48e8377ca26cb194f828c3c8836f98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2709'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 98%
 | **客群發佈** | 如果具有 Adobe 的 Customer Data Platform 或 Journey Optimizer 產品授權則提供支援。[客群發佈](/help/components/audiences/audiences-overview.md)會將客群發佈到 Experience Platform 中的「即時客戶輪廓」。 |
 | **分類** | 查詢資料集相當於 Adobe Analytics 中的分類功能。Analytics 中使用的分類，可以使用 Analytics 分類來源連接器匯入至 Experience Platform 和 Customer Journey Analytics。查詢資料集也可以直接上傳到 Experience Platform，並在 Customer Journey Analytics 中使用。 |
 | **分類規則產生器** | 支援在 Customer Journey Analytics 中使用[子字串](/help/data-views/component-settings/substring.md)。在報告時間使用字串操控，而不是查詢資料集。 |
-| **自訂工作階段長度** | 工作階段長度可以透過資料檢視中的[「工作階段」設定](../../data-views/create-dataview.md#session-settings)進行設定。如需詳細資訊，請參閱[工作階段設定](../../data-views/session-settings.md)。<br/>使用 Adobe Experience Platform Mobile SDK 支援，處理行動背景事件。更多資訊，請參閱[邊緣網路的生命週期](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/?lang=zh-Hant)。 |
+| **自訂工作階段長度** | 工作階段長度可以透過資料檢視中的[「工作階段」設定](../../data-views/create-dataview.md#session-settings)進行設定。如需詳細資訊，請參閱[工作階段設定](../../data-views/session-settings.md)。<br/>使用 Adobe Experience Platform Mobile SDK 支援，處理行動背景事件。更多資訊，請參閱[邊緣網路的生命週期](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/?lang=zh-hant)。 |
 | **貨幣轉換** | 支援做為資料視圖中[量度元件格式](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/format)的一部分。 |
 | **客戶屬性** | 輪廓資料集相當於客戶歸因。輪廓資料集不會自動從 Experience Cloud 匯入，而是必須上傳到 Experience Platform，才能在 Customer Journey Analytics 中提供使用。 |
 | **資料摘要** | 可透過 [Experience Platform Data Access API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-access/api) 和 [Experience Platform Destinations](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets) 匯出資料集的第一代資料。這些選項提供收集或擷取至 Experience Platform Data Lake 中的所有資料事件/列層級匯出。後處理資料欄無法使用，因為後處理欄是在查詢時計算的。可透過報告匯出發佈欄。 |
@@ -112,10 +112,10 @@ ht-degree: 98%
 | **處理規則、VISTA 規則、行銷管道處理規則** | 支援將 Adobe Experience Platform Data Prep 功能以及[衍生欄位](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/derived-fields)用於 WebSDK 式資料集和來自 Analytics 來源連接器的資料。 |
 | **產品變數** | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件陣列，以符合此使用案例。在 Customer Journey Analytics 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
 | **專案共用** | 專案共用功能僅支援在 Customer Journey Analytics 的使用者之間使用 - Customer Journey Analytics 和傳統 Analysis Workspace 之間沒有專案共用。 |
-| **即時報告** | Customer Journey Analytics中的即時報表可即時顯示和更新Analysis Workspace中一個或多個面板內的資料和視覺效果。 |
+| **即時報告** | Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis Workspace 中一個或多個面板內的資料和視覺化呈現內容。 |
 | **Report Builder** | 支援 Microsoft Excel 的新 Office 365 外掛程式。 |
 | **使用者權限/資料存取控制** | Customer Journey Analytics 會區分 [Adobe Admin Console](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/admin-tool-experience-cloud) 產品管理員、產品設定檔管理員和使用者。只有產品管理員可以建立、更新和刪除其他使用者建立的連線、專案、區段或計算量度。產品管理員和產品輪廓管理員可以編輯資料檢視。其他使用者權限可用於多種功能，例如建立計算量度、區段或註解等。 |
-| **視覺化呈現** | 支援所有Workspace視覺效果。 |
+| **視覺效果** | 支援所有 Workspace 視覺效果。 |
 | **跨裝置/跨管道拼接** | 支援包含身分識別資訊的事件資料集。請參閱[拼接](../../stitching/overview.md)。 |
 
 ## 部分支援 {#partial}
