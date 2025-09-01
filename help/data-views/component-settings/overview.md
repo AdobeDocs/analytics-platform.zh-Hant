@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 9e263d638d483194424a492b0494672ef0f62e71
+source-git-commit: aa635d52007a3032d8c3f90a779d1b70213dee9e
 workflow-type: tm+mt
-source-wordcount: '3739'
+source-wordcount: '3738'
 ht-degree: 55%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 55%
 * **一致性**：貴組織中處理一或多個專案的人，如果是以使用內容標籤的資料檢視為基礎，都會有相同的行為。
 * **功能與範本的可見度**：某些視覺效果和功能只有在指派適當的內容標籤時才會出現。 例如：
 
-   * 只有當Customer Journey Analytics知道哪些欄位代表經緯度時，[地圖](/help/analysis-workspace/visualizations/map.md)視覺效果才會正確顯示。
+   * 只有當Customer Journey Analytics知道哪些元件代表經緯度時，[地圖](/help/analysis-workspace/visualizations/map.md)視覺效果才會正確顯示。
    * 只有套用正確的內容標籤且相關的元件可供使用時，才能看到特定[範本](/help/analysis-workspace/templates/use-templates.md)。
 
 在下列情況下可能需要內容標籤：
@@ -105,7 +105,7 @@ ht-degree: 55%
 
   **注意**：地圖視覺效果處於發行的有限測試階段，可能尚未在您的環境中提供。
 
-* 當您使用Adobe[提供的](/help/analysis-workspace/templates/use-templates.md)範本時。 Adobe提供的部分範本可能無法運作，因為某些元件不在您的資料檢視中。
+* 顯示Adobe[提供的](/help/analysis-workspace/templates/use-templates.md)範本。 Adobe提供的部分範本可能無法運作，因為某些元件不在您的資料檢視中。
 
   對於每個缺少的元件，資料檢視中都有一個相符的內容標籤。您需要將相符的內容標籤新增至資料檢視中已有的元件。 或者，您需要將新元件新增到資料檢視，並將內容標籤新增到元件（如果尚未自動提供）。
 

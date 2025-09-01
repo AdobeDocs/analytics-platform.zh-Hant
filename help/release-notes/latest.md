@@ -3,10 +3,10 @@ title: 最新的 Customer Journey Analytics 發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 96fedc9c422b2421e48ff7e41dadcc97a0fe3e6d
+source-git-commit: a54029648c9295e7a81243cb44e8fd1a85db294a
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 95%
+source-wordcount: '1057'
+ht-degree: 94%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 95%
 | **地圖視覺化呈現** | 地圖視覺化呈現是 Analysis Workspace 中的視覺化呈現功能，讓您建置任何量度 (包括計算量度) 的視覺化地圖。此視覺化呈現有助於辨識和比較不同地理區域之間的量度資料。<p>過去，唯有 Adobe Analytics 才提供地圖視覺化呈現功能。</p><p>Customer Journey Analytics 中的地圖視覺化呈現也針對下列 Adobe Analytics 地圖視覺化呈現進行改良：</p><ul><li>使用資料釋圖中的任何區段作為資料來源。</li><li>透過在資料釋圖中設定維度，準確度可達一公尺。</li><li>透過新的選取工具，您可以選取視覺化呈現中任何區域，並從中建立細分、客群、趨勢或劃分。</li></ul><p>如需更多詳細資訊，請參閱[地圖](/help/analysis-workspace/visualizations/map.md)。</p> | 2025 年 8 月 13 日 | 2025 年 8 月 25 日 |
 | **B2B 範本** | 如果您擁有 Customer Journey Analytics B2B Edition 授權，則現在可以從 Adobe 範本 UI 使用下列其他 B2B 範本： <ul><li>B2B 帳戶參與度概觀</li><li>B2B 機會參與度概觀</li><li>B2B 購買群組活動</li></ul><p>如需詳細資訊，請參閱[使用範本](/help/analysis-workspace/templates/use-templates.md#b2b-templates)中的[B2B範本](/help/analysis-workspace/templates/use-templates.md)。</p> |  | 2025 年 8 月 15 日 |
 | **以 PDF 格式下載的專案會下載至您的工作站** | 若以 PDF 格式下載專案，此 PDF 檔案會下載至工作站中的下載資料夾。 <p>過去，以 PDF 格式下載專案時，會在具有唯一 URL 的新瀏覽器索引標籤中啟動該 PDF。</p><p>如需更多詳細資訊，請參閱[下載專案和資料](/help/analysis-workspace/export/download-send.md)。</p> |  | 2025 年 8 月 25 日 |
-| **支援臨時結構描述** | [臨時結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/ad-hoc)用於Experience Platform的各種資料擷取工作流程，包括擷取CSV檔案和建立特定型別的來源連線。 <p>此功能可支援在 Customer Journey Analytics 中使用臨時結構描述。作為連線定義的一部分，您現在可以根據臨時結構描述選取資料集，並在資料釋圖和 Workspace 專案中使用此資料。</p> <p>(文件連結待補充。)</p> |  | 2025 年 8 月 28 日 |
+| **支援臨時結構描述** | [臨時結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/ad-hoc)用於Experience Platform的各種資料擷取工作流程，包括擷取CSV檔案和建立特定型別的來源連線。 <p>此功能可支援在 Customer Journey Analytics 中使用臨時結構描述。作為連線定義的一部分，您現在可以根據臨時結構描述選取資料集，並在資料釋圖和 Workspace 專案中使用此資料。</p> <p>(文件連結待補充。)</p> |  | 2025年9月18日（原計畫於2025年8月28日發行） |
 | **擴展查閱鍵限制** | 根據您的 Customer Journey Analytics 封裝，在查閱資料集中現在最多可擁有 10 億個唯一關鍵值。 <p>如需更多詳細資訊，請參閱 Customer Journey Analytics [護欄](/help/technotes/guardrails.md)文件中的[資料傳輸限制](/help/technotes/guardrails.md#data-transfer-limits)。</p> |  | 2025 年 8 月 29 日 |
 | **根據 Platform 結構描述中使用者定義的對應欄位建立量度和維度** | 您在 Experience Platform 結構描述中定義的使用者定義對應欄位，現在可於 Customer Journey Analytics 中使用。<p>在 Customer Journey Analytics 中建立量度和維度時，您可以使用下列對應欄位：</p><ul><li>字串對應字串</li><li>字串對應整數</li></ul><p>如需詳細資訊，請參閱[元件設定](/help/data-views/component-settings/overview.md)。</p><p>如需更多有關 Experience Platform 中對應欄位的詳細資訊，請參閱[在 UI 中定義對應欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/map)。</p> |  | 2025 年 8 月底 |
 | **已刪除的專案立即無法再使用 URL 存取，並且會從已排程的傳送中刪除** | 已刪除的專案將立即從已排程的傳送中刪除，並且無法再透過其 URL 存取。<p>過去，專案包含在已排程的傳送中，並且在刪除後 60 天內仍可透過其 URL 進行存取。</p><p>如需更多有關刪除專案的詳細資訊，請參閱[專案概觀](/help/analysis-workspace/build-workspace-project/freeform-overview.md)。</p> | | 2025 年 8 月底 |
-| **即時報告** | Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis Workspace 中一個或多個面板內的資料和視覺化呈現內容。<br/><br/>（檔案連結至下列。） | | 2025 年 9 月 17 日 (原計劃於 2025 年 8 月 15 日發行) |
+| **即時報告** | Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis Workspace 中一個或多個面板內的資料和視覺化呈現內容。<br/><br/>（檔案連結至下列。） | | 2025 年 9 月 18 日 (原計劃於 2025 年 8 月 15 日發行) |
 | **串流媒體：XDM 欄位已更新，可將串流媒體資料收集至 Adobe Experience Platform** | 將串流媒體資料收集至 Adobe Experience Platform 時，不應再使用串流媒體參數文件中「XDM 欄位路徑」標題下顯示的 XDM 欄位路徑。在 2025 年 5 月 9 日前實作 Analytics 來源連接器，將串流媒體資料收集至 Platform 的客戶，必須將其現有設定移轉至 mediaReporting 欄位路徑 (如串流媒體參數文件的「報告 XDM 欄位路徑」標題之下的內容所示)。<p> 這些欄位路徑位於以下頁面，並標記為「已棄用」：[音訊和視訊參數](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/variables/audio-video-parameters)、[廣告參數](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/variables/ad-parameters)、[章節參數](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/variables/chapter-parameters)、[播放器狀態參數](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/variables/player-state-parameters)，以及[品質參數](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/variables/quality-parameters)。(在 2025 年 5 月 9 日之後實作 Analytics 來源連接器，且僅使用 mediaReporting XDM 路徑的客戶，則無需採取任何行動。) </p><p>已棄用的 XDM 欄位路徑上的資料攝取將持續至 2025 年 10 月底。之後會完全移除已棄用的欄位路徑，不再顯示於 Adobe Experience Platform Schema UI 中，並且僅使用 mediaReporting 欄位路徑傳送資料。</p><p>如需更多詳細資訊，請參閱[移轉 Analytics 來源連接器實作至已更新的 XDM 串流媒體欄位](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-use-cases/xdm-updates/updated-xdm-fields)。</p><p>如需移轉支援，請聯絡您的 Adobe Consulting 服務或帳戶團隊。 </p> |  | 2025 年 10 月 |
 | **在連線中進行拼接** | 簡化 Customer Journey Analytics 拼接。現在只需將資料攝取至 Customer Journey Analytics 中即可完成拼接，而不是複製資料集並在重複的資料集上套用拼接，因此不需要使用重複的資料集和結構描述。 <p>此外，您現在可以從更新的 Connections UI 自行啟用拼接，而無需透過客戶支援要求拼接。</p><p> *由於需要投入更多精力，先前公告的發行日期已延遲。新的發行日期與假期重疊，導致額外的發行限制。目前規劃分階段推出，以確保穩定性，並盡量減少假期期間的干擾。*</p> | 2025 年 10 月底 | 2026 年 1 月底 |
 
