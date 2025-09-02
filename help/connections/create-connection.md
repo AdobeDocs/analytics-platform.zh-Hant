@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: baf9248842a4f660dea77f7f5a3d39188cb21348
+source-git-commit: de153fb2533d592281280eab8f1578eeb2bf1a86
 workflow-type: tm+mt
-source-wordcount: '7353'
-ht-degree: 67%
+source-wordcount: '7285'
+ht-degree: 66%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 67%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -187,7 +187,7 @@ ht-degree: 67%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -276,8 +276,8 @@ ht-degree: 67%
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
->title="比對索引鍵類型"
->abstract="選取連結方式：根據依欄位比對或依容器比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取要與其中一個事件資料集連結的容器。"
+>title="比對索引鍵"
+>abstract="選取要與其中一個事件資料集結合的欄位。 若此清單空白，您可能尚未新增或設定事件資料集。"
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
@@ -341,8 +341,8 @@ ht-degree: 67%
 
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
->title="比對索引鍵類型"
->abstract="選取連結方式：根據依欄位比對或依容器比對。<br/><br/>**[!UICONTROL 依欄位比對&#x200B;]**：選取一個欄位，與其中一個事件資料集進行連結。若此清單空白，您可能尚未新增或設定事件資料集。<br/>**[!UICONTROL 依容器比對]**：選取要與其中一個事件資料集連結的容器。"
+>title="比對索引鍵"
+>abstract="選取要與其中一個事件資料集結合的欄位。 若此清單空白，您可能尚未新增或設定事件資料集。"
 
 >[!CONTEXTUALHELP]
 >id="connection_matchingkeytype"
@@ -407,8 +407,8 @@ ht-degree: 67%
 
 >[!CONTEXTUALHELP]
 >id="connection_changeto_identitygraph"
->title="身分圖表變更"
->abstract="在使用身分識別圖進行拼接之前，請確定您已完成身分識別圖的設定。"
+>title="身分識別圖的變更"
+>abstract="在使用身分識別圖進行資料拼接之前，請確定已完成身分識別圖的設定。"
 
 
 ### 新增資料集
@@ -620,7 +620,7 @@ ht-degree: 67%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
