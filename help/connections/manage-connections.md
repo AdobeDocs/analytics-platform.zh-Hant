@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 283b494799de4124a3870437bd83c307e3766819
+source-git-commit: 386d36b159b87f6eb5edef6f27754f4417f61b07
 workflow-type: tm+mt
-source-wordcount: '4693'
-ht-degree: 62%
+source-wordcount: '4844'
+ht-degree: 58%
 
 ---
 
@@ -149,7 +149,7 @@ ht-degree: 62%
 
 * 在Customer Journey Analytics中執行Journey Optimizer資料的深入分析(使用Journey Optimizer中的&#x200B;**[!UICONTROL 在CJA中分析]**&#x200B;按鈕)。
 
-  如需詳細資訊，請參閱Journey Optimizer檔案中的[在Customer Journey Analytics中分析](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template)。
+  如需詳細資訊，請參閱Journey Optimizer檔案中的[在Customer Journey Analytics中分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template)。
 
 * 編輯Journey Optimizer連線和相關聯的資料檢視。
 
@@ -316,13 +316,13 @@ ht-degree: 62%
 
 | 詳細資料 | 說明 |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID &#x200B;]** | 您指定為連線之全域帳戶ID的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID &#x200B;]** | 您指定為連線之帳戶ID的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID ]** | 您指定為連線之全域帳戶ID的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID ]** | 您指定為連線之帳戶ID的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
 | **[!UICONTROL 人員 ID]** | 您指定為連線之人員ID的身分識別。 |
 | **[!UICONTROL 索引鍵]** | 您為查詢資料集指定的索引鍵。 |
 | **[!UICONTROL 比對索引鍵]** | 您為查詢資料集指定的比對索引鍵。 |
 | **[!UICONTROL 時間戳記]** | 為事件資料集定義的時間戳記。 |
-| **[!UICONTROL 可用記錄]** | 在透過行事曆選取的特定時段中，為此資料集攝取的資料列總數。 在新增資料後，資料會立即出現在報告中，不需要等候。 然而，當你建立全新連線時， 會有[延遲](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)。 |
+| **[!UICONTROL 可用記錄]** | 在透過行事曆選取的特定時段中，為此資料集攝取的資料列總數。 在新增資料後，資料會立即出現在報告中，不需要等候。 然而，當你建立全新連線時， 會有[延遲](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)。 |
 | **[!UICONTROL 新增的記錄]** | 在選取的日期範圍內新增到連線的資料集記錄（列）數。 |
 | **[!UICONTROL 略過的記錄]** | 在選取的日期範圍內，針對連線在資料傳輸期間略過的資料集記錄（列）數。 |
 | **[!UICONTROL 批次已新增]** | 已新增至連線的批次數量。 |
@@ -376,18 +376,18 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="connections_corereportablerows"
 >title="核心可報告列數"
->abstract="過去 13 個月的可用總列數。例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
+>abstract="當月過去13個月中可用的列總數，與上個月相比有百分比變更。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
 
 >[!CONTEXTUALHELP]
 >id="connections_historicalreportablerows"
 >title="歷史可報告列數"
->abstract="超過 13 個月以前可用的總列數。例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
+>abstract="當月超過13個月期間的可用列總數，與上個月相比有百分比變更。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
 
 
 >[!CONTEXTUALHELP]
 >id="connections_averagerowsize"
 >title="平均列大小"
->abstract="當月 Customer Journey Analytics 中每一列資料攝取和儲存所使用的平均儲存量 (以 KB 為單位) 與上個月相比的百分比變化。"
+>abstract="本月每個資料列擷取並儲存的平均儲存量(KB)，與上個月相比有百分比變更。"
 
 
 >[!CONTEXTUALHELP]
@@ -420,36 +420,36 @@ ht-degree: 62%
 
 | 量度名稱 | 說明 |
 |---|---|
-| 歷史可報告列數 | 超過 13 個月的時間段的資料列計數。 |
-| 核心可報告列數 | 過去 13 個月的資料列計數。 |
-| 攝取的資料列數 | 特定時期內攝取多少資料列。 |
-| 可報告的列 | 在特定時期內，作為連線一部分會有多少資料列？ |
-| 累計的資料列數 | 截至特定月份已攝取多少資料列。 |
+| **歷史可報告資料列** | 超過 13 個月的時間段的資料列計數。 |
+| **核心可報告資料列** | 過去 13 個月的資料列計數。 |
+| **核心資料磁碟區** | 儲存在磁碟上的資料總量。 |
+| **平均資料列大小** | 擷取和儲存的每一列資料使用的平均儲存數量。 |
+| **攝取的資料列數** | 特定時期內攝取多少資料列。 |
+| **可報告的資料列數** | 在特定時期內，作為連線一部分會有多少資料列？ |
+| **累計資料列** | 截至特定月份已攝取多少資料列。 |
 
 >[!NOTE]
 >
 >從 2024 年 7 月開始，收集核心、歷史和總計記錄的資料。請聯絡您的客戶經理以取得早期的歷史資料。
 >
 
-
 「使用情況」介面由兩個面板組成：
 
-* **[!UICONTROL 關鍵使用情況量度]**&#x200B;面板：提供核心和歷史資料可報告的資料列。該面板還追蹤核心資料列和歷史資料列與上個月資料比較的百分比變化。
+* 顯示的&#x200B;**[!UICONTROL 金鑰使用量度]**&#x200B;面板：
 
-  面板顯示的視覺效果包含：
+   * 四個摘要視覺效果顯示上個月的總數和百分位數變化：
 
-   * **[!UICONTROL 核心資料可報告資料列數]**
+      * **[!UICONTROL 可報告的核心資料列]**。 當月過去13個月中可用的列總數，與上個月相比有百分比變更。 例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。
+      * **[!UICONTROL 歷史資料可報告資料列]**。 當月超過13個月期間的可用列總數，與上個月相比有百分比變更。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。
+      * **[!UICONTROL 核心資料磁碟區]**。 儲存在磁碟上且附有當月時間戳記的資料總量 (以 TB 為單位)，以及相較於前一個月的變更百分比。
+      * **[!UICONTROL 平均資料列大小]**。 本月每個資料列擷取並儲存的平均儲存量(KB)，與上個月相比有百分比變更。
 
-     過去 13 個月您有多少可報告的資料列？摘要數字是上個月 (例如 2024 年 12 月) 的核心可報告資料列數 (例如 7410 萬)。
+   * 顯示過去13個月&#x200B;**[!UICONTROL 核心與歷史資料可報告列]**&#x200B;的棧疊垂直長條圖視覺效果。
 
-   * **[!UICONTROL 歷史資料可報告資料列數]**。
-
-     在超過 13 個月時段內，您有多少可報告的資料列數？摘要數字是上個月 (例如 2024 年 12 月) 的歷史可報告資料列數 (例如 1270 萬)。
-
-  當您將滑鼠暫停在視覺效果中的任何堆積長條圖上時，會有一個快顯視窗顯示該條形圖特定部分的資料列數 (例如)。
+     當您將滑鼠游標停留在視覺效果中的任何棧疊長條圖上時，快顯視窗會顯示該長條圖特定部分的列數。 在以下範例中，核心資料可報告列顯示為當月(2025年8月： 936M (936,347,325))。
 
 
-  ![關鍵使用量度](assets/usage-key-usage-metrics.png)
+     ![關鍵使用量度](assets/usage-key-usage-metrics.png)
 
 * 合併面板，顯示三個子面板：
 
@@ -500,5 +500,5 @@ ht-degree: 62%
 >[!MORELIKETHIS]
 >
 >[檢視、疑難排解和修改連線設定](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja)教學課程。
->&#x200B;>[管理您的 Customer Journey Analytics 使用情況](/help/technotes/estimate-usage.md)
+>>[管理您的 Customer Journey Analytics 使用情況](/help/technotes/estimate-usage.md)
 >
