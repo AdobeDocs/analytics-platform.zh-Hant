@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 4bca14492374939cd1ea6508c774720db61a6283
+source-git-commit: c4aea74807be15af56413522d9e6fbf5f18a37a0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '368'
 ht-degree: 3%
 
 ---
@@ -44,9 +44,19 @@ ht-degree: 3%
    * 啟用&#x200B;**[!UICONTROL 使用主要身分名稱空間]**&#x200B;以使用主要身分名稱空間。
    * 從&#x200B;**[!UICONTROL 名稱空間]**&#x200B;下拉式功能表中選取名稱空間。
 
-   如果您為人員ID選取&#x200B;**[!UICONTROL 身分圖表]**，則必須選取名稱空間。 在此之前，會顯示&#x200B;**[!UICONTROL 變更為身分圖表]**&#x200B;對話方塊，以確保您在使用身分圖表進行拼接之前，已完成身分圖表的設定。 選取&#x200B;**[!UICONTROL 繼續]**&#x200B;以繼續。
+
+   如果您為人員ID選取&#x200B;**[!UICONTROL 身分圖表]**，則必須選取名稱空間。
+
+   >[!NOTE]
+   >
+   >您必須有權使用身分圖表。
+   >
+
+   在此之前，會顯示&#x200B;**[!UICONTROL 變更為身分圖表]**&#x200B;對話方塊，以確保您在使用身分圖表進行拼接之前[已完成資料集](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)的身分圖表設定。 選取&#x200B;**[!UICONTROL 繼續]**&#x200B;以繼續。
 
    * 從&#x200B;**[!UICONTROL 名稱空間]**&#x200B;下拉式功能表中選取名稱空間。
 
 
-1. 從&#x200B;**[!UICONTROL 回顧視窗]**&#x200B;下拉式功能表中選取回顧視窗。 選項為&#x200B;**[!UICONTROL 1天]**、**[!UICONTROL 7天]**、**[!UICONTROL 14天]**&#x200B;或&#x200B;**[!UICONTROL 30天]**。
+1. 從&#x200B;**[!UICONTROL 回顧視窗]**&#x200B;下拉式功能表中選取回顧視窗。 可用選項取決於您有權使用的Customer Journey Analytics套件。
+
+一旦您儲存的連線包含已啟用身分拼接的資料集，每個資料集的拼接程式都會在該資料集的資料擷取開始時開始。
