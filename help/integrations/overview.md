@@ -5,9 +5,9 @@ exl-id: f89d07e9-100e-4f82-9486-35bc9c748b19
 feature: Experience Platform Integration
 role: User, Admin
 source-git-commit: 1718379e1ea6baffef8f4da045662e95a47e1480
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,16 +22,16 @@ Adobe 提供的許多產品和解決方案都會利用在 Adobe Experience Platf
 3. [建立資料檢視](/help/data-views/create-dataview.md)，其中包含報告中使用的所需維度和量度。
 4. 根據資料檢視內設定的維度和量度在 Analysis Workspace 中執行報告。
 
-以下為部分可用整合的清單：
+以下是一些可用整合的清單：
 
 * [Adobe Analytics](/help/integrations/aa.md)
 
-* [目標](/help/integrations/at.md)
+* [Target](/help/integrations/at.md)
 
 * [Adobe Advertising](/help/integrations/advertising.md)
 
 * [Journey Optimizer](/help/integrations/ajo.md)
 
-* [決策管理](/help/integrations/ajo-od.md)
+* [Decision Management](/help/integrations/ajo-od.md)
 
 * [Customer AI](/help/integrations/customer-ai.md)
