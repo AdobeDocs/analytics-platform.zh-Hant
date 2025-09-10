@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 57ace74bbc093c6fa52a37c1b1b9666b1aa048d1
 workflow-type: tm+mt
 source-wordcount: '7334'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -101,8 +101,8 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="connection_change_persistentid"
->title="變更永久ID"
->abstract="永久性ID的變更會刪除連線中的所有現有資料，並根據新的永久性ID從資料集中重新擷取所有資料。 這個動作可能會產生成本支出。<br/><br/>當您選擇「**[!UICONTROL 繼續]**」時，報告可能會延遲，直到該程序完成為止。"
+>title="變更永久性 ID"
+>abstract="變更永久性 ID 會刪除連線中所有現有資料，並根據新的永久性 ID 重新收錄資料集中所有資料。這個動作可能會產生成本支出。<br/><br/>當您選擇「**[!UICONTROL 繼續]**」時，報告可能會延遲，直到該程序完成為止。"
 
 透過輔助工作流程，建立連線和編輯工作流程體驗可將所有資料集和連線組態設定彙整到畫面中央處。它提供詳細的資料集選擇、設定和檢閱體驗。並且可讓您指定重要資訊，例如[資料集型別](#dataset-types)、大小、結構描述、資料集ID、批次狀態、回填狀態、身分等等，以降低連線設定錯誤的風險。 以下是功能概觀：
 
@@ -151,7 +151,7 @@ ht-degree: 66%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -191,7 +191,7 @@ ht-degree: 66%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -276,7 +276,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="cja_connection_personid"
 >title="人員 ID"
->abstract="從您在Experience Platform的資料集結構中定義的可用身分中，選取人員ID （人員的唯一識別碼）。"
+>abstract="從您在 Experience Platform 資料集結構描述中所定義的可用身分識別中，選取一個人員 ID (人員的唯一識別碼)。"
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
@@ -624,7 +624,7 @@ ht-degree: 66%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 ## 資料集類型 {#dataset-types}
 
