@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: ccd6a815cc053e3b9e3c02bdf37ae9aa3a1453aa
+source-git-commit: cff4e305a6f8475534cc4e353e7058b6182f2f94
 workflow-type: tm+mt
-source-wordcount: '10111'
-ht-degree: 90%
+source-wordcount: '10170'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 
 派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告功能的重要層面。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
 
-與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
+與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
 
 衍生欄位是在[資料檢視](../data-views.md)內定義，且是根據一組定義為規則的函數，並套用於適用的標準和/或結構描述欄位。
 
@@ -930,7 +930,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_datemath"
 >title="日期數學"
->abstract="此函數可以傳回兩個日期或日期時間欄位的差值。"
+>abstract="此函式提供傳回兩個日期或日期時間欄位之間差異的功能。 個人資料欄位（來自設定檔資料集）沒有&#x200B;**[!UICONTROL 傳回第一個]**&#x200B;和&#x200B;**[!UICONTROL 傳回最後一個的選項。]**。"
 
 傳回兩個日期或兩個日期時間欄位之間的差異。
 
@@ -981,6 +981,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ![日期數學規則3](assets/datemath-3.png)的熒幕擷圖
 
+
+## 詳細資訊 {#datemath-more-info}
+
+當您選取以人員為基礎的（從設定檔資料集）欄位時，[!UICONTROL 傳回第一個]或[!UICONTROL 傳回最後一個]的選項無法使用。 以人員為基礎的欄位，個人的「日期」或「日期 — 時間」欄位只能有一個值。
 +++
 
 <!-- DEDUPLICATE -->
@@ -1083,7 +1087,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 >title="深度"
 >abstract="此函數可傳回任何欄位的深度，與事件深度標準元件的功能相似。"
 
-傳回欄位深度，類似於現成可用的標準事件深度維度[&#128279;](/help/components/dimensions/overview.md#standard-dimensions)。
+傳回欄位深度，類似於現成可用的標準事件深度維度[](/help/components/dimensions/overview.md#standard-dimensions)。
 
 +++ 詳細資料
 
@@ -2030,7 +2034,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL &#x200B; 反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
+您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL  反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
 
 ![Url Parse 規則 1 的螢幕截圖](assets/url-parse-1.png)
 
