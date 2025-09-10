@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
 source-git-commit: 9774e0e3af024823a03dbcd8d6766877f55e95d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -72,22 +72,22 @@ Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)�
 
 ## Journey Optimizer 資料集
 
-拼接支援以下自動產生的Journey Optimizer資料集：
+拼接支援以下自動產生的 Journey Optimizer 資料集：
 
-- AJO歷程步驟事件
-- AJO傳入活動事件資料集
-- AJO表面資料集
-- AJO訊息回饋事件資料集* AJO推播追蹤體驗事件資料集
+- AJO 歷程步驟事件
+- AJO 傳入活動事件資料集
+- AJO 表面資料集
+- AJO 訊息回饋事件資料集* AJO 推播追蹤體驗事件資料集
 - AJO 電子郵件追蹤體驗事件資料集
-- AJO密件副本意見事件資料集
-- AJO Live活動意見反應事件資料集
-- AJO ExD決定事件資料集
+- AJO BCC 回饋事件資料集
+- AJO 即時活動回饋事件資料集
+- AJO ExD 決策事件資料集
 
 >[!MORELIKETHIS]
 >
 >[欄位型拼接](fbs.md)
->&#x200B;>[圖表式拼接](gbs.md)
->&#x200B;>[使用拼接](use-stitching.md)
->&#x200B;>[驗證拼接](validate.md)
->&#x200B;>[拼接常見問題](faq.md)
+>>[圖表式拼接](gbs.md)
+>>[使用拼接](use-stitching.md)
+>>[驗證拼接](validate.md)
+>>[拼接常見問題](faq.md)
 
