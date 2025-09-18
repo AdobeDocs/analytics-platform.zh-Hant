@@ -27,7 +27,7 @@ ht-degree: 12%
 * [歸因](/help/analysis-workspace/c-panels/attribution.md)
 * [下一個或上一個項目](/help/analysis-workspace/c-panels/next-previous.md)
 
-您會看到包含資料最近一次重新整理時間戳記的訊息。 例如： [!UICONTROL  *上次重新整理時間： 07:55 pm*]。
+您會看到包含資料最近一次重新整理時間戳記的訊息。 例如： [!UICONTROL &#x200B; *上次重新整理時間： 07:55 pm*]。
 
 從下拉式選單中選取您要報告的即時時段。 可選擇下列選項：
 
@@ -39,7 +39,7 @@ ht-degree: 12%
 
 現在面板中的所有視覺效果會每分鐘更新一次，最多更新30分鐘，同時啟用即時重新整理面板的瀏覽器標籤會啟用。
 
-例如，檢視下方&#x200B;**[!UICONTROL 即時報表面板]**&#x200B;的快照，該快照會隨著時間從&#x200B;**[!UICONTROL 06]**&#x200B;移至&#x200B;**[!UICONTROL 06]**&#x200B;下午&#x200B;**[!UICONTROL *，重新整理:26pm*]**&#x200B;總收入/小時&#x200B;**[!UICONTROL *長條圖視覺效果和:27總收入/小時&#x200B;*]**自由格式表格。
+例如，檢視下方&#x200B;**[!UICONTROL 即時報表面板]**&#x200B;的快照，該快照會隨著時間從&#x200B;**[!UICONTROL 06]**&#x200B;移至&#x200B;**[!UICONTROL 06]**&#x200B;下午&#x200B;**[!UICONTROL *，重新整理:26pm*]**&#x200B;總收入/小時&#x200B;**[!UICONTROL *長條圖視覺效果和:27總收入/小時&#x200B;*]**&#x200B;自由格式表格。
 
 ![即時重新整理](assets/real-time-refresh.gif)
 
