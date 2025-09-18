@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 830e8312b4be2ffac907baca282ce71029e6ecc5
-workflow-type: ht
-source-wordcount: '808'
-ht-degree: 100%
+source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
+workflow-type: tm+mt
+source-wordcount: '843'
+ht-degree: 96%
 
 ---
 
@@ -19,9 +19,17 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 ## 新增功能？
 
-快速一覽 Customer Journey Analytics 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../release-notes/latest.md)。請造訪[文件更新頁面](../release-notes/doc-changes.md)，了解最新的文件更新內容。
+快速一覽 Customer Journey Analytics 產品和文件的最新增強功能！如需功能、改良與修正的完整清單，請參閱詳細的[發行說明](../release-notes/latest.md)。 請造訪[文件更新頁面](../release-notes/doc-changes.md)，了解最新的文件更新內容。
 
 >[!BEGINTABS]
+
+>[!TAB 即時報告*]
+
+Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis Workspace 中一個或多個面板內的資料和視覺化呈現內容。
+
+[![影像](assets/learn-more-button.svg)](/help/components/real-time/real-time.md)
+
+*_您必須有Ultimate套件才能進行即時報告。_*
 
 >[!TAB B2B Edition]
 
