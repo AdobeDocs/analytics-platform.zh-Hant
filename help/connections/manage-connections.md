@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f09937e6babca5549b9b78e9c90462673750a4b3
+source-git-commit: 1eeb468248eae46bb898ac905499851667fce7b7
 workflow-type: tm+mt
-source-wordcount: '4844'
-ht-degree: 61%
+source-wordcount: '4886'
+ht-degree: 60%
 
 ---
 
@@ -149,7 +149,7 @@ ht-degree: 61%
 
 * 在Customer Journey Analytics中執行Journey Optimizer資料的深入分析(使用Journey Optimizer中的&#x200B;**[!UICONTROL 在CJA中分析]**&#x200B;按鈕)。
 
-  如需詳細資訊，請參閱Journey Optimizer檔案中的[在Customer Journey Analytics中分析](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template)。
+  如需詳細資訊，請參閱Journey Optimizer檔案中的[在Customer Journey Analytics中分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template)。
 
 * 編輯Journey Optimizer連線和相關聯的資料檢視。
 
@@ -275,7 +275,7 @@ ht-degree: 61%
 | **[!UICONTROL 批次已新增]** | 在選取的日期範圍內已新增至連線的批次數量。 |
 | **[!UICONTROL 上次新增時間]** | 已新增至連線的最新批次的時間戳記。 |
 | **[!UICONTROL 資料來源類型]** | 來源型別。 當您將資料集新增到連線時，可以定義來源型別。 |
-| **[!UICONTROL 資料集類型]** | [資料集型別](create-connection.md#dataset-types)。 型別可以是[!UICONTROL 事件]、[!UICONTROL 設定檔]、[!UICONTROL 查詢]或[!UICONTROL 摘要]。 |
+| **[!UICONTROL 資料集類型]** | [資料集型別](create-connection.md#dataset-types)。 型別可以是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 設定檔]**、**[!UICONTROL 查詢]**、**[!UICONTROL 摘要]**。 **[!UICONTROL （臨機）]**&#x200B;或&#x200B;**[!UICONTROL （模型）]**&#x200B;已識別臨機或模型型資料集。 例如，**[!UICONTROL 事件（臨機）]**&#x200B;或&#x200B;**[!UICONTROL 查詢（模型）]**。 |
 | **[!UICONTROL 結構描述]** | 此資料集所根據的 Experience Platform 結構描述。 |
 | **[!UICONTROL 匯入新資料]** | 資料集匯入新資料的狀態： <p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，若資料集設定為匯入新資料，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，若資料集設定為不匯入新資料。 |
 | **[!UICONTROL 轉換資料]** | 適用 B2B 查詢資料集的轉換狀態。請參閱[轉換資料集以進行 B2B 查詢](transform-datasets-b2b-lookups.md)，了解更多資訊。<p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，表示已啟用進行轉換的適用資料集， <p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，表示未啟用進行轉換的適用資料集，以及<p>**[!UICONTROL N/A]** 於所有其他資料集，不適用於轉換。 |
@@ -316,13 +316,13 @@ ht-degree: 61%
 
 | 詳細資料 | 說明 |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID &#x200B;]** | 您指定為連線之全域帳戶ID的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID &#x200B;]** | 您指定為連線之帳戶ID的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID ]** | 您指定為連線之全域帳戶ID的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID ]** | 您指定為連線之帳戶ID的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
 | **[!UICONTROL 人員 ID]** | 您指定為連線之人員ID的身分識別。 |
 | **[!UICONTROL 索引鍵]** | 您為查詢資料集指定的索引鍵。 |
 | **[!UICONTROL 比對索引鍵]** | 您為查詢資料集指定的比對索引鍵。 |
 | **[!UICONTROL 時間戳記]** | 為事件資料集定義的時間戳記。 |
-| **[!UICONTROL 可用記錄]** | 在透過行事曆選取的特定時段中，為此資料集攝取的資料列總數。 在新增資料後，資料會立即出現在報告中，不需要等候。 然而，當你建立全新連線時， 會有[延遲](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)。 |
+| **[!UICONTROL 可用記錄]** | 在透過行事曆選取的特定時段中，為此資料集攝取的資料列總數。 在新增資料後，資料會立即出現在報告中，不需要等候。 然而，當你建立全新連線時， 會有[延遲](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq)。 |
 | **[!UICONTROL 新增的記錄]** | 在選取的日期範圍內新增到連線的資料集記錄（列）數。 |
 | **[!UICONTROL 略過的記錄]** | 在選取的日期範圍內，針對連線在資料傳輸期間略過的資料集記錄（列）數。 |
 | **[!UICONTROL 批次已新增]** | 已新增至連線的批次數量。 |
@@ -331,7 +331,7 @@ ht-degree: 61%
 | **[!UICONTROL 匯入新資料]** | 資料集匯入新資料的狀態： <p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，若資料集設定為匯入新資料，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，若資料集設定為不匯入新資料。 |
 | **[!UICONTROL 回填資料]** | 資料集的回填資料狀態。<p>![紅色狀態](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**，表示回填失敗次數，<p>![紅色狀態](assets/status-orange.svg)   **[!UICONTROL _x _回填處理]**，表示處理回填的數量，<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _十&#x200B;_回填完成]**，表示回填已完成的數量，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _關閉_]**，若未設定為回填。<p>若要顯示含資料集過去回填概觀的對話框，請選取 <img src="./assets/pastbackfill.svg" alt="過去的回填" width="15"/> **[!UICONTROL 過去的回填]** |
 | **[!UICONTROL 資料來源類型]** | 資料集新增至連線時所定義的資料來源型別。 |
-| **[!UICONTROL 資料集類型]** | [資料集型別](create-connection.md#dataset-types)。 |
+| **[!UICONTROL 資料集類型]** | [資料集型別](create-connection.md#dataset-types)。 型別可以是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 設定檔]**、**[!UICONTROL 查詢]**、**[!UICONTROL 摘要]**。 **[!UICONTROL （臨機）]**&#x200B;或&#x200B;**[!UICONTROL （模型）]**&#x200B;已識別臨機或模型型資料集。 例如，**[!UICONTROL 事件（臨機）]**&#x200B;或&#x200B;**[!UICONTROL 查詢（模型）]**。 |
 | **[!UICONTROL 結構描述]** | 此資料集所根據的 Adobe Experience Platform 結構描述。 |
 | **[!UICONTROL 資料集 ID]** | Experience Platform中產生的資料集ID。 |
 
@@ -500,5 +500,5 @@ ht-degree: 61%
 >[!MORELIKETHIS]
 >
 >[檢視、疑難排解和修改連線設定](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja)教學課程。
->&#x200B;>[管理您的 Customer Journey Analytics 使用情況](/help/technotes/estimate-usage.md)
+>>[管理您的 Customer Journey Analytics 使用情況](/help/technotes/estimate-usage.md)
 >
