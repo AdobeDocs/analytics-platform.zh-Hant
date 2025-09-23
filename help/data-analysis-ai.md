@@ -149,7 +149,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」。*
 
-**回覆：****[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
+**回覆：**&#x200B;**[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
 
 ![長條圖](/help/assets/ai-asst-result4.png)
 
@@ -259,7 +259,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[!MORELIKETHIS]
 >
 >[元件設定](/help/data-views/component-settings/overview.md)
->>[資料字典 ](/help/components/data-dictionary/data-dictionary-overview.md)
->>[核准計算量度](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->>[共用區段](/help/components/segments/seg-share.md)
+>&#x200B;>[資料字典 ](/help/components/data-dictionary/data-dictionary-overview.md)
+>&#x200B;>[核准計算量度](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>&#x200B;>[共用區段](/help/components/segments/seg-share.md)
 >
