@@ -7,15 +7,17 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
+source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2271'
 ht-degree: 14%
 
 ---
 
-
 # 映象及使用模型型資料
+
+{{release-limited-testing}}
 
 本快速入門手冊說明如何使用[適用於Customer Journey Analytics的Experience Platform Data Mirror](data-mirror.md)功能，從Adobe Experience Platform的Data Warehouse原生解決方案映象模型型資料。 然後將這些資料用於Customer Journey Analytics。
 
@@ -180,7 +182,7 @@ Data Warehouse原生解決方案表格中的資料，已可立即用於Experienc
 
      ![人員描述項](assets/platform-schema-personid.png)
 
-   * **[!UICONTROL timestamp]**&#x200B;欄位已設定，與&#x200B;**[!UICONTROL personid]**&#x200B;欄位一起作為&#x200B;**[!UICONTROL Primary ke]**&#x200B;y。**[!UICONTROL 時間戳記]**&#x200B;欄位也設定為&#x200B;**[!UICONTROL 時間戳記描述項]**。 對於時間序列模型型資料，您只需要將欄位定義為&#x200B;**[!UICONTROL 時間戳記描述項]**。
+   * 已設定&#x200B;**[!UICONTROL timestamp]**&#x200B;欄位以及&#x200B;**[!UICONTROL personid]**&#x200B;欄位作為&#x200B;**[!UICONTROL 主索引鍵]**。 **[!UICONTROL 時間戳記]**&#x200B;欄位也設定為&#x200B;**[!UICONTROL 時間戳記描述項]**。 對於時間序列模型型資料，您只需要將欄位定義為&#x200B;**[!UICONTROL 時間戳記描述項]**。
 
      ![時間戳記描述項](assets/platform-schema-timestamp.png)
 
@@ -218,7 +220,7 @@ Data Warehouse原生解決方案表格中的資料，已可立即用於Experienc
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
-  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
+  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
 
 
 ### 選取資料

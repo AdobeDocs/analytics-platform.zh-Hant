@@ -7,7 +7,8 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: ebd6695cd5242c5443ccfbc5a38f337454f6de33
+exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
+source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 3%
@@ -15,6 +16,8 @@ ht-degree: 3%
 ---
 
 # 設定Experience Platform
+
+{{release-limited-testing}}
 
 適用於Customer Journey Analytics的Experience Platform Data Mirror功能需要正確設定數個Experience Platform元件：
 
@@ -52,9 +55,9 @@ ht-degree: 3%
 
 如需針對支援的Data Warehouse原生解決方案進行驗證的相關資訊，請參閱Experience Platform相關檔案：
 
-* [Azure資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### 選取資料
@@ -89,5 +92,5 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->[Data Mirror快速入門手冊：映象並使用模型資料](data-mirror.md)
+>[Data Mirror快速入門手冊：映象並使用模型資料](model-based.md)
 >

@@ -7,15 +7,17 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: f7687bba-efbe-4a2c-8ad1-cf216554a1e9
+source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 2%
 
 ---
 
-
 # 設定Customer Journey Analytics
+
+{{release-limited-testing}}
 
 若要針對Customer Journey Analytics使用Experience Platform Data Mirror功能，您必須建立或更新連線、資料檢視和工作區專案，才能使用模型型資料。
 
@@ -37,5 +39,5 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->[Data Mirror快速入門手冊：映象並使用模型資料](data-mirror.md)
+>[Data Mirror快速入門手冊：映象並使用模型資料](model-based.md)
 >
