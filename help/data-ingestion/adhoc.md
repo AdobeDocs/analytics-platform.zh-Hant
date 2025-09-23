@@ -153,7 +153,7 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->除了不將臨時資料集和結構描述用於時間序列資料的一般建議之外，您應該&#x200B;**不**&#x200B;將&#x200B;**[!UICONTROL 從CSV建立資料集]**&#x200B;工作流程用於時間序列資料。 產生臨時結構描述的工作流程會將所有欄位定義為字串型別，您之後無法修改。 當您新增以時間序列為基礎的資料集（事件或摘要）至連線時，此型別的資料集需要至少一個日期時間型別的欄位定義。 <br/>如果您需要使用臨時時間序列資料，您應該考慮[使用API來建立臨時結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)，然後使用[從結構描述建立資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema)工作流程。
+>除了不將臨時資料集和結構描述用於時間序列資料的一般建議之外，您應該&#x200B;**不**&#x200B;將&#x200B;**[!UICONTROL 從CSV建立資料集]**&#x200B;工作流程用於時間序列資料。 產生臨時結構描述的工作流程會將所有欄位定義為字串型別，您之後無法修改。 當您新增以時間序列為基礎的資料集（事件或摘要）至連線時，此型別的資料集需要至少一個日期時間型別的欄位定義。 <br/>如果您需要使用臨時時間序列資料，您應該考慮[使用API來建立臨時結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)，然後使用[從結構描述建立資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#schema)工作流程。
 
 
 建立[連線](/help/connections/overview.md)之後，您可以執行各種管理工作，例如[選取並合併資料集](/help/connections/combined-dataset.md)、[檢查連線資料集的狀態和資料擷取的狀態](/help/connections/manage-connections.md)等等。
