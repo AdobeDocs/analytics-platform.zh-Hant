@@ -180,7 +180,7 @@ Data Warehouse原生解決方案表格中的資料，已可立即用於Experienc
 
      ![人員描述項](assets/platform-schema-personid.png)
 
-   * **[!UICONTROL timestamp]**&#x200B;欄位已設定，與&#x200B;**[!UICONTROL personid]**&#x200B;欄位一起作為**[!UICONTROL Primary ke]**y。**[!UICONTROL 時間戳記]**&#x200B;欄位也設定為&#x200B;**[!UICONTROL 時間戳記描述項]**。 對於時間序列模型型資料，您只需要將欄位定義為&#x200B;**[!UICONTROL 時間戳記描述項]**。
+   * **[!UICONTROL timestamp]**&#x200B;欄位已設定，與&#x200B;**[!UICONTROL personid]**&#x200B;欄位一起作為&#x200B;**[!UICONTROL Primary ke]**&#x200B;y。**[!UICONTROL 時間戳記]**&#x200B;欄位也設定為&#x200B;**[!UICONTROL 時間戳記描述項]**。 對於時間序列模型型資料，您只需要將欄位定義為&#x200B;**[!UICONTROL 時間戳記描述項]**。
 
      ![時間戳記描述項](assets/platform-schema-timestamp.png)
 
