@@ -5,10 +5,10 @@ title: 將完整的表格匯出至雲端
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: e3037b3981ce128f67165d6caca0b4dc5df04773
+source-git-commit: 0b6afd5639234f6305c99267d3b1624279c97368
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 74%
+source-wordcount: '2482'
+ht-degree: 73%
 
 ---
 
@@ -56,15 +56,6 @@ ht-degree: 74%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="export-manifest"
->title="資訊清單檔案"
->abstract="啟用後，任何成功的匯出傳遞都會包含一份資訊清單檔案。您可以利用資訊清單檔案來確認所有文件均已成功傳遞。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
 >id="cja-export-details"
 >title="詳細內容"
 >abstract="指定匯出的名稱。您也可以新增說明和任何標籤。 此資訊有助於在匯出表格和電子郵件通知中識別匯出。"
@@ -78,7 +69,16 @@ ht-degree: 74%
 >title="資料結構"
 >abstract="這是您正在匯出的自由表格。 您可以將元件從左側面板拖曳到表格中，藉此修改資料結構。 您可以將元件拖曳至篩選區域中來套用篩選。 當您新增元件至畫布時，表格會動態更新。"
 
-<!-- markdownlint-enable MD034 -->ß
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="export-manifest"
+>title="資訊清單檔案"
+>abstract="選取後，任何成功的匯出傳遞都會包含資訊清單檔案。 您可以利用資訊清單檔案來確認所有文件均已成功傳遞。"
+
+<!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
@@ -96,6 +96,15 @@ ht-degree: 74%
 >id="cja-export-destination"
 >title="目標"
 >abstract="選取您要傳送資料的雲端帳戶和位置。 您可以選擇現有的帳戶和位置，或選取「新增」來建立它們。 指定要通知匯出失敗或即將到期的使用者和群組。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-file-format"
+>title="檔案格式"
+>abstract="選擇Parquet檔案格式時，元件名稱中包含的一些特殊字元會以底線(_)取代。 如需取代的字元完整清單，請參閱下列連結。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -126,9 +135,9 @@ ht-degree: 74%
    | 開始日期 | 排定匯出應該開始的日期和時間。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
    | 結束日期 | 排定匯出到期的日期和時間。在您設定的日期和時間之後，排定匯出不會再進行。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
    | 檔案格式 | 選擇匯出的資料是否應該是 .csv 或 .json 格式。 |
-   | 包括資訊清單檔案 | 啟用後，任何成功的匯出傳遞都會包含一份資訊清單檔案。清單文件可讓您確認所有文件均已成功傳遞，其中包含以下資訊：<ul><li>已傳遞的所有檔案清單</li><li>每個檔案的 MD5 總和檢查碼</li></ul><p>匯出的資料會以壓縮檔案形式儲存在您設定的雲端目標中，如「[設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)」和「[設定 Google 匯出位置](/help/components/exports/cloud-export-locations.md)」中所述。</p><p>壓縮檔案的檔案名稱如下，實際名稱取決於您是選擇 CSV 或 JSON 作為檔案格式：</p><ul><li>`cja-export-{reportInstanceId}-{idx}.csv.gz`</li><li>`cja-export-{reportInstanceId}-{idx}.json.gz`</li></ul><p>您在上述&#x200B;**[!UICONTROL *檔案格式**]欄位中選擇檔案格式。</p> |
+   | 包括資訊清單檔案 | 啟用後，任何成功的匯出傳遞都會包含一份資訊清單檔案。清單文件可讓您確認所有文件均已成功傳遞，其中包含以下資訊：<ul><li>已傳遞的所有檔案清單</li><li>每個檔案的 MD5 總和檢查碼</li></ul><p>匯出的資料會以壓縮檔案形式儲存在您設定的雲端目標中，如「[設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)」和「[設定 Google 匯出位置](/help/components/exports/cloud-export-locations.md)」中所述。</p><p>壓縮檔案的檔案名稱如下，實際名稱取決於您是選擇 CSV 或 JSON 作為檔案格式：</p><ul><li>`cja-export-{reportInstanceId}-{idx}.csv.gz`</li><li>`cja-export-{reportInstanceId}-{idx}.json.gz`</li></ul><p>您在上述**[!UICONTROL *檔案格式**]欄位中選擇檔案格式。</p> |
    | 帳戶 | 選取您想要發送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，則您可以設定一個新帳戶：<ol><li>選取「**[!UICONTROL 新增帳戶]**」，然後註明下列資訊：<ul><li>**[!UICONTROL 位置帳戶名稱]**：指定位置帳戶的名稱。建立位置時會出現該名稱。 </li><li>**[!UICONTROL *位置帳戶描述]**：提供帳戶的簡短描述，以協助將其與相同帳戶型別的其他帳戶區分開來。</li><li>**[!UICONTROL 帳戶類型]**：選取您要匯出的目的雲端帳戶類型。可用的帳戶類型包括 Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake 和 AEP Data Landing Zone。</li></ul><li>若要完成帳戶設定，請繼續進行下面與您選取的&#x200B;**[!UICONTROL 帳戶類型]**&#x200B;相對應的連結：<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
-   | 位置 | 選取您想要發送匯出資料的帳戶位置。<p>或者，如果您尚未設定要在所選帳戶上使用的位置，則您可以設定新位置：<ol><li>選取&#x200B;**[!UICONTROL *dd位置]**，然後指定下列資訊： <ul><li>**[!UICONTROL 名稱]**：位置的名稱。</li><li>**[!UICONTROL 說明]**：提供位置的簡短說明，有助區分該位置與帳戶的其他位置。</li><li>**[!UICONTROL 位置帳戶]**：選取您想要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續下列對應您在&#x200B;**[!UICONTROL 位置帳戶]**&#x200B;欄位中所選帳戶型別的連結：<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone)。</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
+   | 位置 | 選取您想要發送匯出資料的帳戶位置。<p>或者，如果您尚未設定要在所選帳戶上使用的位置，則您可以設定新位置：<ol><li>選取&#x200B;**[!UICONTROL *dd位置]**，然後指定下列資訊： <ul><li>**[!UICONTROL 名稱]**：位置的名稱。</li><li>**[!UICONTROL 說明]**：提供位置的簡短說明，有助區分該位置與帳戶的其他位置。</li><li>**[!UICONTROL 位置帳戶]**：選取您想要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續下列對應您在**[!UICONTROL 位置帳戶]**欄位中所選帳戶型別的連結：<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone)。</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
 
    {style="table-layout:auto"}
 
