@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
+source-git-commit: 8946f1bc57cc856adeac4ee0a96799040f7e698c
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '458'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 {{release-limited-testing}}
 
-適用於Customer Journey Analytics的Experience Platform Data Mirror功能需要正確設定數個Experience Platform元件：
+適用於Customer Journey Analytics的Experience Platform Data Mirror需要正確設定數個Experience Platform元件：
 
 * 綱要
 * 資料集
@@ -32,7 +32,7 @@ ht-degree: 3%
 您需要建立以模型為基礎的結構描述，為您要映象的Data Warehouse原生表格建模。 當您建構以模型為基礎的結構描述時，請確保符合下列需求：
 
 * 當提示您輸入以模型為基礎的結構描述型別時，請確定您選取手動選項。
-* 為資料型別選取適當的結構描述。 請注意，Data Mirror功能主要用於時間序列資料（例如事件資料）。
+* 為資料型別選取適當的結構描述。 請注意，Experience Platform Data Mirror主要用於時間序列資料（例如事件資料）。
 
 * 定義結構描述中的欄位及其屬性
 * 為以模型為基礎的結構描述中的欄位設定必要屬性：
@@ -55,9 +55,9 @@ ht-degree: 3%
 
 如需針對支援的Data Warehouse原生解決方案進行驗證的相關資訊，請參閱Experience Platform相關檔案：
 
-* [Azure資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### 選取資料

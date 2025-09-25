@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
+source-git-commit: e5975a7bb60f4a2386997024c4615f95be648363
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2268'
 ht-degree: 14%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 14%
 
 {{release-limited-testing}}
 
-本快速入門手冊說明如何使用[適用於Customer Journey Analytics的Experience Platform Data Mirror](data-mirror.md)功能，從Adobe Experience Platform的Data Warehouse原生解決方案映象模型型資料。 然後將這些資料用於Customer Journey Analytics。
+本快速入門手冊說明如何使用[適用於Customer Journey Analytics的Experience Platform Data Mirror](data-mirror.md)，從Adobe Experience Platform的Data Warehouse原生解決方案映象模型型資料。 然後將這些資料用於Customer Journey Analytics。
 
 若要完成此使用案例，您必須：
 
@@ -117,12 +117,12 @@ ht-degree: 14%
    SET OPTIONS (enable_change_history = TRUE);
    ```
 
-Data Warehouse原生解決方案表格中的資料，已可立即用於Experience Platform Data Mirror for Customer Journey Analytics功能。
+Data Warehouse原生解決方案表格中的資料，已可供用於Customer Journey Analytics的Experience Platform Data Mirror使用。
 
 
 ## 設定結構
 
-若要在Experience Platform中映象資料，您必須先定義資料的結構描述。 所有您要在Experience Platform中映象並使用Experience Platform Data Mirror進行Customer Journey Analytics功能的資料，都必須符合以模型為基礎的結構描述。
+若要在Experience Platform中映象資料，您必須先定義資料的結構描述。 所有您要在Experience Platform中映象且使用Experience Platform Data Mirror for Customer Journey Analytics的資料都必須遵循以模型為基礎的結構描述。
 
 定義用來模型化此資料的結構描述。 若要設定您的結構：
 
@@ -141,7 +141,7 @@ Data Warehouse原生解決方案表格中的資料，已可立即用於Experienc
    1. 輸入&#x200B;**[!UICONTROL 描述]**。 例如：`Sample event feed schema for a model-based schema`。
    1. 選取&#x200B;**[!UICONTROL 時間序列]**&#x200B;做為&#x200B;**[!UICONTROL 結構描述行為]**。 您為時間序列型資料選取&#x200B;**[!UICONTROL 時間序列]**，為記錄型資料選取&#x200B;**[!UICONTROL 記錄]**。 此行為會定義結構描述的結構以及包含的屬性。
 
-      適用於Customer Journey Analytics的Experience Platform Data Mirror功能主要用於時間序列資料（例如事件資料）。
+      適用於Customer Journey Analytics的Experience Platform Data Mirror主要用於時間序列資料（例如事件資料）。
 
       ![結構描述組態](assets/model-based-create-schema.png)
 
@@ -220,7 +220,7 @@ Data Warehouse原生解決方案表格中的資料，已可立即用於Experienc
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
-  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
+  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
 
 
 ### 選取資料
@@ -351,6 +351,8 @@ Data Warehouse原生解決方案表格中的資料，已可立即用於Experienc
       1. 選取&#x200B;**[!UICONTROL 事件資料集]**。
       1. 選取&#x200B;**[!UICONTROL 臨機與模型型欄位]**。
       1. 從以模型為基礎的結構描述拖放欄位至&#x200B;**[!UICONTROL METRICS]**&#x200B;或&#x200B;**[!UICONTROL DIMENSIONS]**。
+
+         ![新增模型欄位做為元件](assets/cja-add-dataset-folder-dv.png)
 
    1. 為不具有適當型別、格式不正確或由於其他原因而想要修改的欄位定義衍生欄位。 例如，**[!UICONTROL 收入金額]**。
 

@@ -6,27 +6,25 @@ feature: Basics
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
+source-git-commit: e5975a7bb60f4a2386997024c4615f95be648363
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 27%
+source-wordcount: '1623'
+ht-degree: 23%
 
 ---
 
-
 # 擷取及使用臨時資料
 
-本快速入門手冊說明如何將臨時資料擷取到Adobe Experience Platform，然後在Customer Journey Analytics中使用該資料。
+本快速入門手冊說明如何將臨時資料擷取到Experience Platform，然後在Customer Journey Analytics中使用該資料。
 
 若要完成此操作，您必須：
 
-- **在Experience Platform中以CSV檔案建立資料集**，以定義您要收集之資料的模型（結構描述）以及收集資料（資料集）的位置。
+- **在Experience Platform中使用CSV檔案**&#x200B;建立資料集。 此工作流程會定義您要收集之資料的模型（結構描述），以及收集資料（資料集）的位置。
 
-- **在Experience Platform中使用來源聯結器**，將您的資料匯入已設定的資料集。
+- 在 Customer Journey Analytics 中&#x200B;**設定連線**。此連線應該（至少）包含您的Experience Platform臨時資料集。
 
-- 在 Customer Journey Analytics 中&#x200B;**設定連線**。此連線應 (至少) 包含您的 Adobe Experience Platform 資料集。
-
-- 在 Customer Journey Analytics 中&#x200B;**設定資料檢視**，定義您要在 Analysis Workspace 中使用的量度和維度。
+- **在Customer Journey Analytics中設定資料檢視**，以從您想在Analysis Workspace中使用的隨選資料欄位定義量度和維度。
 
 - 在 Customer Journey Analytics 中&#x200B;**設定專案**，建立您的報告和視覺效果。
 
@@ -34,7 +32,7 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->本快速入門手冊是一份簡化的指南，說明如何使用將臨時資料擷取到Adobe Experience Platform並在Customer Journey Analytics中使用。 強烈建議在提及時研究其他資訊。
+>本快速入門手冊是一份簡化的指南，說明如何使用將臨時資料擷取到Experience Platform中，以及在Customer Journey Analytics中使用該臨時資料。 強烈建議在提及時研究其他資訊。
 
 
 ## 使用CSV檔案建立資料集
@@ -53,14 +51,14 @@ ht-degree: 27%
 >
 >針對以記錄為基礎的（查詢、設定檔）資料，使用臨時資料集和結構描述。 臨機資料集和結構描述不太適合，不應考慮用於時間序列（事件、摘要）資料。
 
-您不需要針對臨機操作資料建立XDM結構描述。 Adobe Experience Platform支援的工作流程會根據CSV檔案中的資料：
+您不需要針對臨機操作資料建立XDM結構描述。 Experience Platform支援的工作流程會根據CSV檔案中的資料：
 
-1. 建立符合CSV檔案欄的臨時結構描述。
-1. 根據包含CSV檔案資料的臨時結構描述建立資料集。
+1. 自動建立臨時結構描述。 該結構描述符合CSV檔案的欄。
+1. 建立包含CSV檔案資料的資料集。
 
 若要啟動工作流程：
 
-1. 在Adobe Experience Platform UI的左側邊欄中，選取&#x200B;**[!UICONTROL 工作流程]**。
+1. 在Experience Platform介面的左側邊欄中，選取&#x200B;**[!UICONTROL 工作流程]**。
 1. 選取![資料新增](/help/assets/icons/DataAdd.svg) **[!UICONTROL 從CSV檔案建立資料集]**。
 1. 從右窗格中選取&#x200B;**[!UICONTROL 啟動]**。
 1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 從CSV檔案建立資料集]**&#x200B;精靈中：
@@ -80,15 +78,15 @@ ht-degree: 27%
 
       1. 選取&#x200B;**[!UICONTROL 「完成」]**。
 
-資料已準備並上傳。 資料成功上傳後，系統會將您重新導向至Adobe Experience Platform UI中的&#x200B;**[!UICONTROL 資料集]**。<br/>您從CSV **[!UICONTROL 資料集看到]**&#x200B;範例資料的&#x200B;**[!UICONTROL 資料集活動]**，狀態為![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL 處理中]**。
+資料成功準備並上傳後，您會在Experience Platform介面中被重新導向至&#x200B;**[!UICONTROL 資料集]**。<br/>您從CSV **[!UICONTROL 資料集看到]**&#x200B;範例資料的&#x200B;**[!UICONTROL 資料集活動]**，狀態為![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL 處理中]**。
 
 ![臨機操作資料的資料集活動](assets/datasets-dataset-activity.png)
 
 若要檢查臨機操作資料：
 
-1. 在Adobe Experience Platform UI的左側邊欄中，選取&#x200B;**[!UICONTROL 資料集]**。
+1. 在Experience Platform介面的左側邊欄中，選取&#x200B;**[!UICONTROL 資料集]**。
 1. 選取&#x200B;**[!UICONTROL 資料集]**&#x200B;中的&#x200B;**[!UICONTROL 瀏覽]**&#x200B;索引標籤。 您應該會看到您的資料集已列出。
-1. 從&#x200B;**[!UICONTROL 結構描述]**&#x200B;資料行中選取結構描述的名稱。 例如： **[!UICONTROL CSV的範例資料……]**。
+1. 從&#x200B;**[!UICONTROL 結構描述]**&#x200B;資料行中選取結構描述的名稱。 例如： **[!UICONTROL CSV的範例資料……]**
 
    ![選取臨時資料集的結構描述](assets/adhoc-schema-selection.png)
 
@@ -100,13 +98,19 @@ ht-degree: 27%
 
   ![臨時結構描述](dataset/../assets/adhoc-schema.png)
 
+  >[!NOTE]
+  >
+  >工作流程會將結構描述中的所有欄位定義為字串型別。 您無法在稍後階段變更此型別。 如果您需要在臨時結構描述的定義中擁有更多彈性，請考慮使用[使用API來建立臨時結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/ad-hoc)，然後使用[從結構描述建立資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema)工作流程。
+  > 
+
+
 
 
 ## 設定連線
 
-若要在Customer Journey Analytics中使用Adobe Experience Platform資料集，請建立包含工作流程產生的隨選資料的連線。
+若要在Customer Journey Analytics中使用Experience Platform資料集，請建立包含從[工作流程](#create-a-dataset-with-a-csv-file)產生的隨選資料集的連線
 
-連線可讓您將資料集從 Adobe Experience Platform 整合到工作區。若要針對這些資料集製作報表，必須先為Adobe Experience Platform和Workspace中的資料集建立連線。
+連線可讓您將資料集從Experience Platform整合到Workspace中。 若要針對這些資料集製作報表，必須先為Experience Platform和Workspace中的資料集建立連線。
 
 若要建立連線，請執行以下操作：
 
@@ -126,7 +130,7 @@ ht-degree: 27%
 
 1. 在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;的&#x200B;**[!UICONTROL 選取資料集]**&#x200B;步驟：
 
-   1. 選取您先前建立的資料集，例如&#x200B;**[!UICONTROL CSV的範例資料]**，以及您要加入連線中的任何其他資料集。
+   1. 選取您先前建立的資料集，例如&#x200B;**[!UICONTROL CSV的範例資料]**，以及您要加入連線中的任何其他資料集。 臨機資料集確實有&#x200B;**[!UICONTROL 臨機]** [!UICONTROL 資料集型別]。
 
       ![新增資料集](./assets/cja-connections-adhoc-2.png)
 
@@ -153,7 +157,7 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->除了不將臨時資料集和結構描述用於時間序列資料的一般建議之外，您應該&#x200B;**不**&#x200B;將&#x200B;**[!UICONTROL 從CSV建立資料集]**&#x200B;工作流程用於時間序列資料。 產生臨時結構描述的工作流程會將所有欄位定義為字串型別，您之後無法修改。 當您新增以時間序列為基礎的資料集（事件或摘要）至連線時，此型別的資料集需要至少一個日期時間型別的欄位定義。 <br/>如果您需要使用臨時時間序列資料，您應該考慮[使用API來建立臨時結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)，然後使用[從結構描述建立資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#schema)工作流程。
+>除了不將臨時資料集和結構描述用於時間序列資料的一般建議之外，您無法將&#x200B;**[!UICONTROL 從CSV建立資料集]**&#x200B;工作流程用於時間序列資料。 此工作流程將所有欄位定義為字串型別，您之後無法修改。 當您新增以時間序列為基礎的資料集（事件或摘要）至連線時，此型別的資料集需要至少一個日期時間型別的欄位定義。<br/>如果您確實需要使用臨時時間序列資料，請考慮使用[使用API來建立臨時結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)，然後使用[從結構描述建立資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema)工作流程。
 
 
 建立[連線](/help/connections/overview.md)之後，您可以執行各種管理工作，例如[選取並合併資料集](/help/connections/combined-dataset.md)、[檢查連線資料集的狀態和資料擷取的狀態](/help/connections/manage-connections.md)等等。
@@ -180,7 +184,17 @@ ht-degree: 27%
 
 1. 在&#x200B;**[!UICONTROL 元件]**&#x200B;步驟：
 
-   1. 新增您要包含在&#x200B;**[!UICONTROL METRICS]**&#x200B;或&#x200B;**[!UICONTROL DIMENSIONS]**&#x200B;元件方塊中的任何臨時結構描述欄位和/或標準元件。
+   1. 新增您要包含在&#x200B;**[!UICONTROL METRICS]**&#x200B;或&#x200B;**[!UICONTROL DIMENSIONS]**&#x200B;元件方塊中的任何結構描述欄位和/或標準元件。 請確定您從包含臨時資料的資料集中新增了相關欄位。 若要存取這些欄位：
+
+      1. 選取&#x200B;**[!UICONTROL 事件資料集]**。
+      1. 選取&#x200B;**[!UICONTROL 臨機與模型型欄位]**。
+
+         ![資料檢視 — 臨時元件](assets/cja-dataview-components-adhoc.png)
+
+      1. 從臨時結構描述拖放欄位至&#x200B;**[!UICONTROL METRICS]**&#x200B;或&#x200B;**[!UICONTROL DIMENSIONS]**。
+
+
+
    1. 選擇性地使用[衍生欄位](/help/data-views/derived-fields/derived-fields.md)將任何臨時欄位從預設字串型別和格式修改為其他型別或格式。
 
    1. 選取&#x200B;**[!UICONTROL 「儲存並繼續」]**。
