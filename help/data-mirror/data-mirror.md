@@ -53,5 +53,5 @@ Data Mirror提供下列資料庫同步處理的基本功能：
 >[!MORELIKETHIS]
 >
 >[Data Mirror快速入門手冊：映象並使用模型資料](model-based.md)
->>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>&#x200B;>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
 >
