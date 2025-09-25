@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+source-git-commit: c1d0775ad7fc1c340a70e57e0f805349d21c639c
 workflow-type: tm+mt
-source-wordcount: '7979'
-ht-degree: 62%
+source-wordcount: '8027'
+ht-degree: 61%
 
 ---
 
@@ -151,7 +151,7 @@ ht-degree: 62%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -191,7 +191,7 @@ ht-degree: 62%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -236,6 +236,10 @@ ht-degree: 62%
 ## 資料集 {#datasets}
 
 您[新增一或多個資料集](#add-datasets)或[編輯現有的資料集](#edit-a-dataset)，做為連線工作流程的一部分。
+
+>[!NOTE]
+>
+>任何資料集型別的資料列中日期與日期時間欄位的1900年之前的值，會在資料列擷取之前取代為值`null`。<br/>會從擷取中捨棄具有1900年之前時間戳記值的事件或摘要資料集中的列。
 
 
 >[!CONTEXTUALHELP]
@@ -435,7 +439,7 @@ ht-degree: 62%
 
 | 資料集類型 | 說明 | 時間戳記 | 結構描述 | 人員 ID |
 |---|---|---|---|---|
-| **[!UICONTROL 臨時]** | 以[臨機操作結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/api/ad-hoc)為基礎的臨機操作資料，其欄位僅供單一資料集使用。 | 取決於您為臨時資料集選取的資料集型別。 | 任何以&#x200B;*臨機操作*&#x200B;行為為基礎的類別之臨機操作結構描述 | 取決於您為臨時資料集選取的資料集型別。 |
+| **[!UICONTROL 臨時]** | 以[臨機操作結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/api/ad-hoc)為基礎的臨機操作資料，其欄位僅供單一資料集使用。 | 取決於您為臨時資料集選取的資料集型別。 | 任何以&#x200B;*臨機操作*&#x200B;行為為基礎的類別之臨機操作結構描述 | 取決於您為臨時資料集選取的資料集型別。 |
 | **[!UICONTROL 模型]** | 以模型架構為基礎的模型資料。 | 取決於您為模型資料集選取的資料集型別。 | 任何以模型為基礎的結構描述。 | 取決於您為模型資料集選取的資料集型別。 |
 
 
@@ -693,7 +697,7 @@ ht-degree: 62%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 
 ## 連線預覽 {#preview}
