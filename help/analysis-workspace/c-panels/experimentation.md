@@ -4,32 +4,24 @@ title: 實驗面板
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 7e32ae7aa757a8ca47732416f0f883033611ea94
-workflow-type: ht
-source-wordcount: '2179'
-ht-degree: 100%
+source-git-commit: b013518d8f1782219dd2cf9e5b5a89b877e3b92d
+workflow-type: tm+mt
+source-wordcount: '2175'
+ht-degree: 98%
 
 ---
 
 # Experimentation 面板 {#experimentation-panel}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_button"
 >title="實驗"
 >abstract="建立一個面板來比較不同的使用者體驗、行銷或傳送訊息變化版本。並確定哪種變化版本最能產生特定結果。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_panel"
 >title="實驗"
 >abstract="比較不同的使用者體驗、行銷或傳送訊息變化版本，確定哪一種最能達成特定結果。指定實驗、進行對照的控制變數、成功量度和正規化量度。或者，也可以設定信賴度的上限及下限。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
@@ -102,7 +94,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
    | 設定 | 定義 |
    | --- | --- |
    | **[!UICONTROL 日期範圍]** | 根據 Customer Journey Analytics 中收到所選實驗的第一個事件，系統會自動設定實驗面板的日期範圍。如果需要，您可以更具體的時間範圍來限制或擴大日期範圍。 |
-   | **[!UICONTROL 實驗]** | 一組向一般使用者展示的體驗變體，用來決定要永久保存的最佳變體。一個實驗由兩個或多個變體組成，其中一個會視為控制變體。此設定預先填入了資料檢視中已用&#x200B;**[!UICONTROL 實驗]**&#x200B;標籤標記的維度，以及過去 3 個月的實驗資料。 |
+   | **[!UICONTROL 實驗]** | 一組向一般使用者展示的體驗變體，用來決定要永久保存的最佳變體。一個實驗由兩個或多個變體組成，其中一個會視為控制變體。此設定預先填入了資料檢視中已用&#x200B;**[!UICONTROL 實驗]**&#x200B;標籤標記的維度，以及過去 6 個月的實驗資料。 |
    | **[!UICONTROL 控制變體]** | 一般使用者體驗中的兩個或多個變動之一，它們會被比較以找出較好的替代方案。必須選擇一種變體作為對照，並且只能將一種變體視為控制變體。此設定預先填入了資料檢視中已用&#x200B;**[!UICONTROL 變體]**&#x200B;標籤標記的維度。此設定會提取與此實驗關聯的變體資料。 |
    | **[!UICONTROL 成功量度]** ➊ | 使用者用來比較變體的一個或多個量度。轉換量度 (無論是最高還是最低) 具有最理想結果的變體會宣告為實驗的「*最佳表現變體*」。可最多新增 5 個量度。 |
    | **[!UICONTROL 標準化量度]** ➋ | 測試運行的基礎 (**[!UICONTROL 全域帳戶]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 帳戶]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 機會]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 購買群組]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 人員]**、**[!UICONTROL 工作階段]**&#x200B;或&#x200B;**[!UICONTROL 事件]**)。例如，測試可以比較幾種變體的轉換率，其中&#x200B;**[!UICONTROL 轉換率]**&#x200B;是按照頁面檢視所計算。 |
@@ -132,7 +124,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 2. **最佳表現變體**：當一個實驗宣告為具有結論性時，具有最高轉換率的變體將標記為最佳表現變體。請注意，此變體必須是控制變體或基線變體，或者是超過 95% *隨時*&#x200B;有效信賴度臨界值的變體之一 (套用 Benjamini-Hochberg 校正)。
 
-3. **轉換率**：顯示的轉換率是成功量度值 ➊ 與標準化量度值 ➋ 的比例。請注意，如果量度不是二進位 (實驗中的每個單位為 1 或 0)，則此值可能大於 1
+3. **轉換率**：顯示的轉換率是成功量度值➊與標準化量度值➋的比率。 請注意，如果量度不是二進位 (實驗中的每個單位為 1 或 0)，則此值可能大於 1
 
 4. **提升度**：實驗報告摘要會顯示提升基線，這可測量指定變體的轉換率相對於基線的增進百分比。準確來說，這是指定變體與基線之間的績效差異，除以基線的績效 (以百分比表示)。
 

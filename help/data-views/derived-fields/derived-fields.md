@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: cff4e305a6f8475534cc4e353e7058b6182f2f94
+source-git-commit: b013518d8f1782219dd2cf9e5b5a89b877e3b92d
 workflow-type: tm+mt
-source-wordcount: '10170'
+source-wordcount: '10175'
 ht-degree: 89%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告功能的重要層面。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
 
-與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
+與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
 
 衍生欄位是在[資料檢視](../data-views.md)內定義，且是根據一組定義為規則的函數，並套用於適用的標準和/或結構描述欄位。
 
@@ -920,6 +920,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 {style="table-layout:auto"}
 
+
 +++
 
 
@@ -1087,7 +1088,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 >title="深度"
 >abstract="此函數可傳回任何欄位的深度，與事件深度標準元件的功能相似。"
 
-傳回欄位深度，類似於現成可用的標準事件深度維度[&#128279;](/help/components/dimensions/overview.md#standard-dimensions)。
+傳回欄位深度，類似於現成可用的標準事件深度維度[](/help/components/dimensions/overview.md#standard-dimensions)。
 
 +++ 詳細資料
 
@@ -2034,7 +2035,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL &#x200B; 反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
+您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL  反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
 
 ![Url Parse 規則 1 的螢幕截圖](assets/url-parse-1.png)
 
@@ -2097,7 +2098,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 |---|---|
 | <p>情況</p> | <ul><li>每個衍生欄位有 5 個 Case When 函數</li><li>每個衍生欄位有 200 個[運算子](#operators)</li></ul> |
 | <p>分類</p> | <ul><li>每個衍生欄位有 5 個 Classify 函數</li><li>每個衍生欄位有 200 個[運算子](#operators)</li></ul> |
-| <p>串連</p> | <ul><li>每個衍生欄位有 2 個 Concatenate 函數</li></ul> |
+| <p>串連</p> | <ul><li>每個衍生欄位有 2 個 Concatenate 函數</li><li>每個串連函式3個值</ul> |
 | <p>日期數學</p> | <ul><li>每個衍生欄位2個日期數學函式</li></ul> |
 | <p>重複資料刪除</p> | <ul><li>每個衍生欄位有 5 個 Duplicate 函數</li></ul> |
 | <p>深度</p> | <ul><li>每個衍生欄位有3個深度函式</li></ul> |
