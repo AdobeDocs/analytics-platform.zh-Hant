@@ -4,11 +4,9 @@ description: 瞭解如何為Customer Journey Analytics的Experience Platform Dat
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-hide: true
-hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: 92cffcc5-d7a7-47f5-869d-1fc665594bf4
-source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
+source-git-commit: edf7bdac87d9bed48244ad80521bbbf83c48f7b6
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -56,8 +54,8 @@ set spark.databricks.delta.properties.defaults.enableChangeDataFeed = true;
 
 請閱讀下列檔案，以瞭解如何為[!DNL Azure Databricks]來源連線啟用變更資料擷取的步驟：
 
-* [建立 [!DNL Azure Databricks] 基本連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/api-tutorials/create/databases/databricks)。
-* [為資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection)建立來源連線。
+* [建立 [!DNL Azure Databricks] 基本連線](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/databricks)。
+* [為資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection)建立來源連線。
 
 ## [!DNL Google BigQuery]
 
@@ -67,8 +65,8 @@ set spark.databricks.delta.properties.defaults.enableChangeDataFeed = true;
 
 請閱讀下列檔案，以瞭解如何為[!DNL Google BigQuery]來源連線啟用變更資料擷取的步驟：
 
-* [建立 [!DNL Google BigQuery] 基本連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/api-tutorials/create/databases/bigquery)。
-* [為資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection)建立來源連線。
+* [建立 [!DNL Google BigQuery] 基本連線](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/bigquery)。
+* [為資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection)建立來源連線。
 
 ## [!DNL Snowflake]
 
@@ -84,8 +82,8 @@ ALTER TABLE mytable SET CHANGE_TRACKING = TRUE
 
 請閱讀下列檔案，以瞭解如何為[!DNL Snowflake]來源連線啟用變更資料擷取的步驟：
 
-* [建立 [!DNL Snowflake] 基本連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/api-tutorials/create/databases/snowflake)。
-* [為資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection)建立來源連線。
+* [建立 [!DNL Snowflake] 基本連線](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/snowflake)。
+* [為資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection)建立來源連線。
 
 
 >[!MORELIKETHIS]

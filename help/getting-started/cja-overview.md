@@ -5,10 +5,10 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
-workflow-type: ht
-source-wordcount: '985'
-ht-degree: 100%
+source-git-commit: 0f445d409d276072ac649b94c12b94d3a59e7925
+workflow-type: tm+mt
+source-wordcount: '1046'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,13 @@ Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓�
 
 高層級 Customer Journey Analytics 架構如下所示：
 
-![本節將說明 Customer Journey Analytics 架構](assets/cja-architecture.png)
+![Customer Journey Analytics架構](assets/cja-overview.svg)
+
+此架構說明了Customer Journey Analytics如何讓您：
+
+* 在![連線](/help/assets/icons/Data.svg)中合併多個資料集[資料](/help/connections/overview.md)。
+* 根據您在連線中定義的資料集可用欄位，在![資料檢視](/help/assets/icons/Dimensions.svg)中定義及設定維度![維度](/help/assets/icons/Event.svg)和量度[事件](/help/data-views/data-views.md)。
+* 根據資料檢視的維度和量度，在![專案](/help/assets/icons/ViewTable.svg)中建置報告![ViewTable](/help/assets/icons/GraphTrend.svg)和視覺效果（例如行![行](/help/assets/icons/GraphAreaStacked.svg)和區域[區域](/help/analysis-workspace/home.md)）。
 
 
 >[!BEGINSHADEBOX]
@@ -81,7 +87,7 @@ Customer Journey Analytics 中的數項功能已重新命名 (與傳統 Adobe An
 
 Customer Journey Analytics 是依賴 Adobe Experience Platform 的許多功能之一。同樣以 Experience Platform 為基礎的其他幾項功能可讓您充份運用您的資料。
 
-Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶資料與內容，並運用資料科學和機器學習技術來改善個人化體驗的設計和傳遞。Platform 中的客戶資料以資料集形式儲存，而資料集是由結構描述和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
+Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶資料與內容，並運用資料科學和機器學習技術來改善個人化體驗的設計和傳遞。Platform 中的客戶資料以資料集形式儲存，而資料集是由結構描述和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概觀](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
 
 Experience Platform 的多個元件 (從資料擷取到直接 SQL 存取) 是 Customer Journey Analytics 的核心，且可對其進行補充：
 
