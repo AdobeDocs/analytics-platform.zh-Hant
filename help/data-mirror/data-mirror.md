@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
-source-git-commit: 3cd771669370a58230fc4806e2b7fb2fc16444b9
+source-git-commit: 578e19d8a8205bdfa034900c45d7d4a2d8f6a797
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '401'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Data Mirror提供下列資料庫同步處理的基本功能：
 
 使用Data Mirror直接從來源系統擷取變更、強制執行結構描述完整性，並讓資料可用於分析、歷程協調及合規性工作流程。 Data Mirror可免除複雜的上游ETL程式，並透過啟用現有資料庫模型的直接映象來加速實作。 這種消除可透過精確控制刪除和資料衛生操作，從而增強資料治理。
 
-另請參閱有關Data Mirror的Experience Platform檔案。
+另請參閱有關Data Mirror[的](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}Experience Platform檔案。
 
 ## 適用於Customer Journey Analytics的Data Mirror
 
@@ -53,4 +53,5 @@ Data Mirror提供下列資料庫同步處理的基本功能：
 >[!MORELIKETHIS]
 >
 >[Data Mirror快速入門手冊：映象並使用模型資料](model-based.md)
+>>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
 >
