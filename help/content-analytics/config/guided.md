@@ -82,22 +82,22 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ac_onboarding_dataview_button"
 >title="資料檢視"
->abstract="如要設定 Content Analytics，您需選取一個現有的資料視圖。這樣您才可以將內容分析資料與其他資料合併。"
+>abstract="如要設定 Content Analytics，您需選取一個現有的資料視圖。這樣您才可以將 Content Analytics 資料與其他資料合併。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="資料檢視"
->abstract="從 Customer Journey Analytics 中選取您想要與內容分析資料合併的現有資料視圖。"
+>abstract="從 Customer Journey Analytics 中選取您想要與 Content Analytics 資料合併的現有資料視圖。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
 >title="資料檢視"
->abstract="從 Customer Journey Analytics 中選取您想要與內容分析資料合併的現有資料視圖。<br/>"
+>abstract="從 Customer Journey Analytics 中選取您想要與 Content Analytics 資料合併的現有資料釋圖。<br/>"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
 >title="新的資料檢視"
->abstract="您已經為這個設定選取新的資料視圖。新的資料視圖將會更新並納入 Content Analytics 的量度和維度。而這些量度和維度將會從原先選取的資料視圖中移除。<br/><br/>若有不同的連線與新的資料視圖相關聯，則該連線會更新並納入 Content Analytics 資料集。內容分析資料集不會從原先選取的連線中刪除。"
+>abstract="您已經為這個設定選取新的資料視圖。新的資料視圖將會更新並納入 Content Analytics 的量度和維度。而這些量度和維度將會從原先選取的資料視圖中移除。<br/><br/>若有不同的連線與新的資料視圖相關聯，則該連線會更新並納入 Content Analytics 資料集。Content Analytics 資料集不會從原先選取的連線中移除。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_current_cleanup_labels_dialog"
@@ -236,7 +236,7 @@ ht-degree: 97%
 
 ### 資料收集 {#onboarding-data-collection}
 
-在此區段中，您可以設定要如何收集內容分析資料。
+在此部分，您可以設定要如何收集 Content Analytics 資料。
 
 <!-- markdownlint-disable MD034 -->
 

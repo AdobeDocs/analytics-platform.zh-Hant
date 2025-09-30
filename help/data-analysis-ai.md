@@ -8,7 +8,7 @@ exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: cd92bde10b9cb473c4df791e91296a2a43b2ad84
 workflow-type: tm+mt
 source-wordcount: '2463'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,8 +41,8 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 >[!CONTEXTUALHELP]
 >id="cja-enable-data-insights-data-view"
->title="為Data Insights Agent啟用"
->abstract="此選項可啟用此資料檢視，以便與Data Insights Agent搭配使用。 Data Insights Agent是產生式AI交談代理程式，可從Customer Journey Analytics的AI助理存取。 它有助於您透過文字提示快速分析資料。 此代理會使用來自資料視圖的元件以及您的實際資料，在 Analysis Workspace 建置相關的視覺內容。"
+>title="啟用供 Data Insights 代理使用"
+>abstract="此選項會啟用此資料視圖，用於和 Data Insights 代理搭配使用。Data Insights 代理是一個生成式 AI 對話代理，可以從 Customer Journey Analytics 中的 AI 助理存取。它能協助您透過文字提示快速分析資料。此代理會使用來自您資料視圖的元件以及您的實際資料，在 Analysis Workspace 中建置相關的視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -149,7 +149,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」。*
 
-**回覆：**&#x200B;**[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
+**回覆：****[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
 
 ![長條圖](/help/assets/ai-asst-result4.png)
 
@@ -163,13 +163,13 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 ![環形圖](/help/assets/ai-asst-result3.png)
 
-## 跨Experience Cloud應用程式存取Data Insights Agent
+## 跨 Experience Cloud 應用程式存取 Data Insights 代理
 
-Adobe Experience Platform Agent Orchestrator可讓您在多個Adobe Experience Cloud應用程式(例如Adobe Journey Optimizer和Real-Time CDP)中存取Data Insights Agent的功能。
+Adobe Experience Platform Agent Orchestrator 可讓您在多個 Adobe Experience Cloud 應用程式 (例如 Adobe Journey Optimizer 和 Real-Time CDP) 中，存取 Data Insights 代理的功能。
 
-Agent Orchestrator會解譯您的請求、決定需要哪些專業代理程式，並協調他們提供正確的回應。 它可追蹤多圈互動中的內容，因此您可以自然地在先前的查詢上建置。
+Agent Orchestrator 會解讀您的請求、判斷需要哪些專門的代理，並協調代理提供適當的回答。它會追蹤多輪互動中的上下文，讓您可以自然地在先前的查詢基礎上繼續提問。
 
-如需詳細資訊，請參閱[Adobe Experience Platform Agent Orchestrator](http://www.adobe.com/go/agent-orchestrator-home)。
+如需詳細資訊，請參閱 [Adobe Experience Platform Agent Orchestrator](http://www.adobe.com/go/agent-orchestrator-home)。
 
 ## 資料視覺效果提示範例
 
@@ -259,7 +259,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[!MORELIKETHIS]
 >
 >[元件設定](/help/data-views/component-settings/overview.md)
->&#x200B;>[資料字典 ](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[核准計算量度](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[共用區段](/help/components/segments/seg-share.md)
+>>[資料字典 ](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[核准計算量度](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[共用區段](/help/components/segments/seg-share.md)
 >
