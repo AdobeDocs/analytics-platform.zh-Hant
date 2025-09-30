@@ -4,10 +4,10 @@ title: 設定流失視覺效果
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: d91e6aaebd14bc02f53b28820dd6013350e36d36
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 92%
+source-wordcount: '856'
+ht-degree: 76%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 92%
    >
    >多個區段必須以 AND 連結，但多個項目 (例如維度項目和量度) 則須以 OR 連結。
 
-   ![頁面：CamerRoll 或頁面：相機接觸點醒目提示。](assets/fallout-or.png)
+   ![頁面:CamerRoll或頁面：反白的相機接觸點。](assets/fallout-or.png)
 
 1. 您也可以在路徑內&#x200B;**將個別觸控點限制為下一個事件** (而非「*最終*」)。在各接觸點下方，具有「**[!UICONTROL 最終路徑]**」和「**[!UICONTROL 下一個事件]**」選項的選擇器，如下所示：
 
@@ -80,14 +80,14 @@ ht-degree: 92%
 | **[!UICONTROL 趨勢接觸點]** | 在折線圖中查看接觸點的趨勢資料，其中包含一些預先建立的異常偵測資料。 |
 | **[!UICONTROL 趨勢接觸點 (%)]** | 總流失百分比趨勢。 |
 | **[!UICONTROL 所有接觸點趨勢 (%)]** | 在同一圖表上顯示流失中所有接觸點的百分比趨勢 (若已包括&#x200B;**[!UICONTROL 所有人員]**&#x200B;則除外)。 |
-| **[!UICONTROL 在此接觸點劃分區間]** | 如果人員繼續進入下一個接觸點，可檢視人員在兩個接觸點 (此接觸點和下一個接觸點) 之間所做的動作。這會建立顯示維度的自由表格。您可以更換維度和表格上的其他元素。 |
-| **[!UICONTROL 在此接觸點劃分流失]** | 檢視未通過漏斗的人，在選取步驟後立即做了什麼事。 |
+| **[!UICONTROL 在此接觸點劃分區間]** | 如果人員繼續進入下一個接觸點，可檢視人員在兩個接觸點 (此接觸點和下一個接觸點) 之間所做的動作。這會建立顯示維度的自由表格。您可以取代表格的尺寸和其他元素。 例如，標示為&#x200B;**[!UICONTROL 區間：所有人員>頁面等於任何首頁]**，並包含&#x200B;**[!UICONTROL 頁面]**&#x200B;作為維度，以及以&#x200B;**[!UICONTROL 僅限專案的快速區段]**&#x200B;分割的[人員](/help/components/segments/seg-quick.md) **[!UICONTROL 區間：所有人員>頁面等於任何首頁]**&#x200B;作為量度。 檢查區段以瞭解如何決定遞補區段。 |
+| **[!UICONTROL 在此接觸點劃分流失]** | 檢視未透過funnel的人，在選取步驟後立即做了什麼事。 這會建立顯示維度的自由表格。您可以取代表格的尺寸和其他元素。 例如，標示為&#x200B;**[!UICONTROL 流失：人物>頁面等於任何首頁]**，並包含&#x200B;**[!UICONTROL 頁面]**&#x200B;作為維度，以及以&#x200B;**[!UICONTROL 僅限專案的快速區段]** [流失：所有訪客>頁面等於任何首頁](/help/components/segments/seg-quick.md)區段作為量度的分段&#x200B;**[!UICONTROL 人物]**。 檢查區段以瞭解如何判斷流失區段。 |
 | **[!UICONTROL 從接觸點建立區段]** | 從選取的接觸點建立新的區段。 |
 
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

@@ -4,10 +4,10 @@ description: 了解如何檢視和管理 Customer Journey Analytics 審計日誌
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+source-git-commit: 2ef96ad194f8c7acec35bd7635c650af4370531a
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 98%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 100%
 為了提高系統中所執行活動的透明度和可見度，Adobe Customer Journey Analytics 可讓您以「稽核記錄」的形式，稽核各種服務和功能的使用者活動。這些記錄形成了稽核軌跡，可以幫助解決問題，並幫助您的企業有效地遵守公司資料管理原則和監管要求，例如健康保險便利和責任法案 (HIPAA)。
 
 就基本概念而言，稽核記錄說明了&#x200B;**誰**&#x200B;執行了&#x200B;**什麼**&#x200B;動作，以及&#x200B;**何時**&#x200B;執行。稽核記錄中所記錄的每個動作都包含中繼資料，其指出動作類型、日期和時間、執行動作之使用者的電子郵件 ID，以及與動作類型相關的其他屬性。
+
+稽核記錄檔會保留90天。 之後，稽核記錄會自動刪除。
 
 本主題涵蓋 Customer Journey Analytics 中的稽核記錄，包括如何在 UI 中檢視和管理它們。
 
@@ -128,7 +130,7 @@ ht-degree: 100%
 
 ## 由稽核記錄擷取的事件類型
 
-下表概述了稽核記錄中對元件類型執行的動作：
+下表概觀了稽核記錄中對元件類型執行的動作：
 
 | 元件類型 | 動作 |
 | --- | --- |
