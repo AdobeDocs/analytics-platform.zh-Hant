@@ -65,7 +65,7 @@ ht-degree: 70%
 >[!MORELIKETHIS]
 >
 >[引導式設定](guided.md)
->>[資料收集標記發佈概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)
+>&#x200B;>[資料收集標記發佈概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)
 >
 
 
@@ -97,7 +97,7 @@ Content Analytics會透過下列方式處理身分：
 * 不支援欄位式拚接，因為結構描述是系統所擁有。 因此，您無法新增其他欄位到結構描述以支援欄位式拼接
 
 
-若要確保Content Analytics身分資料和Adobe Experience Platform Web SDK資料身分資料在欄位層級正確連結，您必須在事件傳送[回撥前修改網站SDK ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}。
+若要確保Content Analytics身分資料和Adobe Experience Platform Web SDK資料身分資料在欄位層級正確連結，您必須在事件傳送[回撥前修改網站SDK &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}。
 
 1. 導覽至包含Adobe Experience Platform Web SDK擴充功能和Adobe Content Analytics擴充功能的&#x200B;**[!UICONTROL 標籤]**&#x200B;屬性。
 1. 選取![外掛程式](/help/assets/icons/Plug.svg) **[!UICONTROL 擴充功能]**。
