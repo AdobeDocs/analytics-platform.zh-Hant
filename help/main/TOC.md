@@ -12,7 +12,7 @@ breadcrumb-title: Customer Journey Analytics 指南
 source-git-commit: 4621b5059333c5ee4f7d41014d0e4eff17ef33bf
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -120,15 +120,15 @@ ht-degree: 98%
       + [批次資料](../data-ingestion/batch.md)
       + [串流資料](../data-ingestion/streaming.md)
       + [來源連接器](../data-ingestion/sources.md)
-      + [臨時資料](/help/data-ingestion/adhoc.md)
+      + [Ad hoc 資料](/help/data-ingestion/adhoc.md)
 
-+ 資料映象 {#cja-data-mirror}
++ Data Mirror {#cja-data-mirror}
    + [概觀](/help/data-mirror/data-mirror.md)
    + 設定 {#configure}
-      + [Data Warehouse原生解決方案](/help/data-mirror/datawarehouse.md)
+      + [資料倉儲原生解決方案](/help/data-mirror/datawarehouse.md)
       + [Experience Platform](/help/data-mirror/aep.md)
       + [Customer Journey Analytics](/help/data-mirror/cja.md)
-   + [Data Mirror快速入門手冊](/help/data-mirror/model-based.md)
+   + [Data Mirror 快速入門指南](/help/data-mirror/model-based.md)
 
 + 連線 {#cja-connections}
    + [連線概觀](../connections/overview.md)
