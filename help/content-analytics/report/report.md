@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 51b3d533ef7b42ff03823f2dffcb2ccfbb9c4bbe
-workflow-type: ht
+source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 1. [在 Workspace 中建立一個新的 ](/help/analysis-workspace/build-workspace-project/create-projects.md) 或 [ 以開啟現有的 ](/help/analysis-workspace/build-workspace-project/open-projects.md) 專案。
 1. 請務必為 Content Analytics 報告[選取一個資料視圖](/help/analysis-workspace/c-panels/panels.md#data-view)。Content Analytics 報告僅適用於針對 Content Analytics [設定](/help/content-analytics/config/configuration.md)的資料視圖。
 1. 將![表格](/help/assets/icons/Table.svg)[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺化拖曳到畫布上。
-1. 使用[特定的 Content Analytics 元件](components.md) 和其他通用[元件](/help/components/overview.md) (例如區段、日期範圍、註解) 來建立您的 Content Analytics 深入分析。
+1. 使用[特定的Content Analytics元件](components.md)和其他一般[元件](/help/components/overview.md) （如區段、日期範圍、註解）來建置您的Content Analytics深入分析。
 
 ## 縮圖
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 ## 範本
 
-內容分析[範本](/help/analysis-workspace/templates/use-templates.md)已可使用，可協助您瞭解哪些內容及內容屬性的效果最好。此範本是 [Web 管道和參與度使用案例](/help/analysis-workspace/templates/use-templates.md#web-engagement)的一部分，詳細說明您的內容在精細度的表現情況。您可以查看個別資產或特定屬性的效能。
+Content Analytics [範本](/help/analysis-workspace/templates/use-templates.md)可協助您瞭解哪些內容和內容屬性表現最佳。 此範本是 [Web 管道和參與度使用案例](/help/analysis-workspace/templates/use-templates.md#web-engagement)的一部分，詳細說明您的內容在精細度的表現情況。您可以查看個別資產或特定屬性的效能。
 
 您可以根據所學到的內容展現才華。例如在首頁推廣高效能資產、針對特定區段將內容個人化以納入高效能屬性，或者淘汰已開始過時的內容。
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 1. 從主選單中選取「**[!UICONTROL Workspace]**」。
 1. 確訂您選取了針對 Content Analytics 設定的資料視圖。
-1. 搜尋或使用區段 (適用於 **[!UICONTROL Web]** 的&#x200B;**[!UICONTROL 通道]**&#x200B;和適用於&#x200B;**[!UICONTROL 參與度]**&#x200B;的**[!UICONTROL 使用案例]**) 尋找並選取 **[!UICONTROL Content analytics]** 範本。
+1. 搜尋或使用區段(**[!UICONTROL 頻道]**&#x200B;的&#x200B;**[!UICONTROL 網頁]**&#x200B;和&#x200B;**[!UICONTROL 使用案例]****的**4}參與[!UICONTROL )來尋找及選取]Content Analytics **[!UICONTROL 範本。]**
 1. 選取&#x200B;**[!UICONTROL 使用範本]**。
 1. 在「**[!UICONTROL 設定您的範本]**」對話框中，從「**[!UICONTROL 選取轉換量度]**」對話框選取一個量度。例如「**[!UICONTROL 資產點按率]**」。
 1. 選取「**[!UICONTROL 繼續]**」。

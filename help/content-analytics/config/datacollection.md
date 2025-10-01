@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 7909388273af4c19d2dfda671c2af8eac470fff9
+source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
@@ -56,7 +56,7 @@ Content Analytics 事件會依以下序列收集：
 1. [記錄的視圖或點按](#recorded-view-or-click)。
 1. [傳送Content Analytics事件的觸發程式](#trigger-to-send-a-content-analytics-event)。
 
-Content Analytics 確實以此方式收集資料，藉以反映該序列，而非將收集視圖或點按，與收集該視圖或點按之後立即發生的事件分開。這樣的內容分析資料收集方式也能減少所收集的資料量。
+Content Analytics 確實以此方式收集資料，藉以反映該序列，而非將收集視圖或點按，與收集該視圖或點按之後立即發生的事件分開。這種收集Content Analytics資料的方式也會減少收集的資料量。
 
 ### 記錄的視圖或點按。
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 8531c372607f39a3e39de8eda4f624057e56d9a4
+source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '2694'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -82,17 +82,17 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ac_onboarding_dataview_button"
 >title="資料檢視"
->abstract="如要設定 Content Analytics，您需選取一個現有的資料視圖。這樣您才可以將 Content Analytics 資料與其他資料合併。"
+>abstract="如要設定 Content Analytics，您需選取一個現有的資料視圖。因此，您可以將Content Analytics資料與其他資料合併。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
->title="資料檢視"
->abstract="從 Customer Journey Analytics 中選取您想要與 Content Analytics 資料合併的現有資料視圖。"
+>title="資料視圖"
+>abstract="從Customer Journey Analytics中選取要與Content Analytics資料合併的現有資料檢視。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
->title="資料檢視"
->abstract="從 Customer Journey Analytics 中選取您想要與 Content Analytics 資料合併的現有資料釋圖。<br/>"
+>title="資料視圖"
+>abstract="從Customer Journey Analytics中選取要與Content Analytics資料合併的現有資料檢視。<br/>"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
@@ -236,7 +236,7 @@ ht-degree: 97%
 
 ### 資料收集 {#onboarding-data-collection}
 
-在此部分，您可以設定要如何收集 Content Analytics 資料。
+在本節中，您將設定如何收集Content Analytics資料。
 
 <!-- markdownlint-disable MD034 -->
 
