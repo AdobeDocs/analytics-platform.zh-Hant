@@ -6,9 +6,9 @@ feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
 source-git-commit: ec56bc657961b2e4e8318ab14cd676288398462f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 85%
 
 高層級 Customer Journey Analytics 架構如下所示：
 
-![Customer Journey Analytics架構](/help/getting-started/assets/cja-overview.svg)
+![Customer Journey Analytics 架構](/help/getting-started/assets/cja-overview.svg)
 
-此架構說明了Customer Journey Analytics如何讓您：
+此架構說明 Customer Journey Analytics 如何協助您完成下列作業：
 
-* 在![連線](/help/assets/icons/Data.svg)中合併多個資料集[資料](/help/connections/overview.md)。
-* 根據您在連線中定義的資料集可用欄位，在![資料檢視](/help/assets/icons/Dimensions.svg)中定義及設定維度![維度](/help/assets/icons/Event.svg)和量度[事件](/help/data-views/data-views.md)。
-* 根據資料檢視的維度和量度，在![專案](/help/assets/icons/ViewTable.svg)中建置報告![ViewTable](/help/assets/icons/GraphTrend.svg)和視覺效果（例如行![行](/help/assets/icons/GraphAreaStacked.svg)和區域[區域](/help/analysis-workspace/home.md)）。
+* 在[連線](/help/connections/overview.md)中合併多個資料集![資料](/help/assets/icons/Data.svg)。
+* 根據您在連線中定義的資料集的可用欄位，定義和設定[資料視圖](/help/data-views/data-views.md)中的維度![維度](/help/assets/icons/Dimensions.svg)和量度![事件](/help/assets/icons/Event.svg)。
+* 根據資料視圖的維度和量度，在[專案](/help/analysis-workspace/home.md)中建置報告![視圖表格](/help/assets/icons/ViewTable.svg)和視覺化圖表 (如折線圖![折線圖](/help/assets/icons/GraphTrend.svg)和面積圖![面積圖](/help/assets/icons/GraphAreaStacked.svg))。
 
-架構中的資料集可源自於各種來源：
+架構中的資料集可能來自各種來源：
 
 * 批次資料、
 
@@ -102,15 +102,15 @@ ht-degree: 85%
 
 ## 使用來源連接器擷取和使用資料
 
-來源連接器支援的來源中有資料可用。來源連接器是可配置的設定，可讓您將資料從 Adobe、第一方和第三方應用程式內嵌至 Adobe Experience Platform。如需可用來源連接器的概觀，請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant)。使用來源連接器，您可輕鬆將資料自來源擷取至 Adobe Experience Platform，接著透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
+來源連接器支援的來源中有資料可用。來源連接器是可配置的設定，可讓您將資料從 Adobe、第一方和第三方應用程式內嵌至 Adobe Experience Platform。如需可用來源連接器的概觀，請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-hant)。使用來源連接器，您可輕鬆將資料自來源擷取至 Adobe Experience Platform，接著透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
 
 如需詳細資訊，請參閱[使用來源連接器擷取和使用資料](./sources.md)。
 
-## 擷取及使用臨時資料
+## 攝取和使用臨時資料
 
-您有臨機操作資料，在Experience Platform中只需要單一資料集，不需要設定體驗資料模型(XDM)結構描述。 此情境稱為臨時結構描述。 臨時結構描述用於Experience Platform的各種資料擷取工作流程，包括擷取CSV檔案和建立特定型別的來源連線。
+您擁有可用的臨時資料，其在 Experience Platform 中只需要單一資料集，並不需要設定體驗資料模型 (XDM) 結構描述。此情境稱為臨時結構描述。Experience Platform 的各種資料攝取工作流程皆會使用臨時結構描述，包括收錄 CSV 檔案和建立某種類型的來源連線。
 
-檢視[擷取及使用臨時資料](./adhoc.md)
+請參閱[攝取和使用臨時資料](./adhoc.md)
 
 >[!MORELIKETHIS]
 >

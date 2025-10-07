@@ -6,20 +6,20 @@ feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
 source-git-commit: f149a2bd7f184f4e8f6e67979649e2d9f609d603
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # 設定 Content Analytics
 
-本文將以概略的方式說明如何設定Content Analytics。
+此文章以概括性方式記載如何設定 Content Analytics。
 
-設定Content Analytics之前，您必須確定符合[必要條件](#prerequisites)、您確實擁有必要的[存取控制](#access-control)，而且您瞭解[限制](#limitations)。
+設定 Content Analytics 前，您必須確認符合[先決條件](#prerequisites)、確實擁有必要的[存取控制](#access-control)，而且了解相關[限制](#limitations)。
 
 
-高階步驟
+概括性步驟
 
 ![Content Analytics 設定](../assets/aca-configuration.svg){zoomable="yes"}
 
@@ -68,10 +68,10 @@ ht-degree: 85%
 
 ## 限制
 
-用於Content Analytics事件資料的結構描述是系統所擁有。 無法修改系統擁有的結構描述，這表示：
+Content Analytics 事件資料所使用的結構描述為系統所擁有。無法修改系統擁有的結構描述，意即：
 
-* 您無法加入欄位群組來支援地理位置、機器人偵測或裝置查詢等功能。
-* 您無法新增特定識別碼以支援[欄位式拼接](/help/stitching/fbs.md)。
+* 您無法透過加入欄位群組來支援例如地理位置、機器人偵測或裝置查詢等功能。
+* 您無法透過新增特定識別碼來支援[欄位式拼接](/help/stitching/fbs.md)。
 
 >[!MORELIKETHIS]
 >

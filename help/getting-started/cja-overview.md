@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
 source-git-commit: 0f445d409d276072ac649b94c12b94d3a59e7925
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1046'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓�
 
 高層級 Customer Journey Analytics 架構如下所示：
 
-![Customer Journey Analytics架構](assets/cja-overview.svg)
+![Customer Journey Analytics 架構](assets/cja-overview.svg)
 
-此架構說明了Customer Journey Analytics如何讓您：
+此架構說明 Customer Journey Analytics 如何協助您完成下列作業：
 
-* 在![連線](/help/assets/icons/Data.svg)中合併多個資料集[資料](/help/connections/overview.md)。
-* 根據您在連線中定義的資料集可用欄位，在![資料檢視](/help/assets/icons/Dimensions.svg)中定義及設定維度![維度](/help/assets/icons/Event.svg)和量度[事件](/help/data-views/data-views.md)。
-* 根據資料檢視的維度和量度，在![專案](/help/assets/icons/ViewTable.svg)中建置報告![ViewTable](/help/assets/icons/GraphTrend.svg)和視覺效果（例如行![行](/help/assets/icons/GraphAreaStacked.svg)和區域[區域](/help/analysis-workspace/home.md)）。
+* 在[連線](/help/connections/overview.md)中合併多個資料集![資料](/help/assets/icons/Data.svg)。
+* 根據您在連線中定義的資料集的可用欄位，定義和設定[資料視圖](/help/data-views/data-views.md)中的維度![維度](/help/assets/icons/Dimensions.svg)和量度![事件](/help/assets/icons/Event.svg)。
+* 根據資料視圖的維度和量度，在[專案](/help/analysis-workspace/home.md)中建置報告![視圖表格](/help/assets/icons/ViewTable.svg)和視覺化圖表 (如折線圖![折線圖](/help/assets/icons/GraphTrend.svg)和面積圖![面積圖](/help/assets/icons/GraphAreaStacked.svg))。
 
 
 >[!BEGINSHADEBOX]
@@ -87,12 +87,12 @@ Customer Journey Analytics 中的數項功能已重新命名 (與傳統 Adobe An
 
 Customer Journey Analytics 是依賴 Adobe Experience Platform 的許多功能之一。同樣以 Experience Platform 為基礎的其他幾項功能可讓您充份運用您的資料。
 
-Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶資料與內容，並運用資料科學和機器學習技術來改善個人化體驗的設計和傳遞。Platform 中的客戶資料以資料集形式儲存，而資料集是由結構描述和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概觀](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
+Adobe Experience Platform 可讓您集中和標準化來自任何系統的客戶資料與內容，並運用資料科學和機器學習技術來改善個人化體驗的設計和傳遞。Platform 中的客戶資料以資料集形式儲存，而資料集是由結構描述和資料批次組成。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概觀](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-hant)。
 
 Experience Platform 的多個元件 (從資料擷取到直接 SQL 存取) 是 Customer Journey Analytics 的核心，且可對其進行補充：
 
-* [Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)：使用標準 SQL 從 Adobe Experience Platform 擷取資料，例如 Adobe 解決方案資料、客戶第一方資料或任何其他 Platform 資料。這是一種無伺服器工具，可用來加入任何資料集，以及將查詢結果擷取為新資料集，並用於報表或內嵌至 Profile Service。您可以使用 Experience Platform Query Service 來建立資料分析生態系統，進而了解消費者在不同互動管道中的行為。這些頻道可能包括銷售點系統、網路、行動裝置、CRM 系統等。
-* [即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)：
+* [Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-hant)：使用標準 SQL 從 Adobe Experience Platform 擷取資料，例如 Adobe 解決方案資料、客戶第一方資料或任何其他 Platform 資料。這是一種無伺服器工具，可用來加入任何資料集，以及將查詢結果擷取為新資料集，並用於報表或內嵌至 Profile Service。您可以使用 Experience Platform Query Service 來建立資料分析生態系統，進而了解消費者在不同互動管道中的行為。這些頻道可能包括銷售點系統、網路、行動裝置、CRM 系統等。
+* [即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-hant)：
 * [身分識別服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-hant)
 
 ## 影片
