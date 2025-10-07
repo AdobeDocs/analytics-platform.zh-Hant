@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '2694'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
->title="新的資料檢視"
+>title="新的資料釋圖"
 >abstract="您已經為這個設定選取新的資料視圖。新的資料視圖將會更新並納入 Content Analytics 的量度和維度。而這些量度和維度將會從原先選取的資料視圖中移除。<br/><br/>若有不同的連線與新的資料視圖相關聯，則該連線會更新並納入 Content Analytics 資料集。Content Analytics 資料集不會從原先選取的連線中移除。"
 
 >[!CONTEXTUALHELP]
@@ -111,7 +111,7 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_new_dialog"
->title="新的資料檢視"
+>title="新的資料釋圖"
 >abstract="您已經為這個設定選取新的資料視圖。新的資料視圖將會更新並納入 Content Analytics 的量度和維度。現在資料視圖中類似的量度和維度將會被移除。<br/>若有不同的連線與新的資料視圖相關聯，則該連線會更新並納入 Content Analytics 資料集。請注意，現有設定中的 Content Analytics 資料集不會被移除。"
 
 <!-- markdownlint-enable MD034 -->
@@ -140,7 +140,7 @@ ht-degree: 95%
    您可以執行下列動作:
 
    * 若要搜尋特定資料檢視，請使用![搜尋](/help/assets/icons/Search.svg)欄位。
-   * 若要篩選可用的資料檢視清單，請選取![顯示篩選器](/help/assets/icons/Filter.svg)。 您可以篩選[!UICONTROL 連線]、[!UICONTROL 擁有者]和[!UICONTROL 沙箱]上的清單。<br/>使用 ![Hide](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏區段]**&#x200B;來隱藏區段窗格。
+   * 若要篩選可用資料釋圖的清單，請選取「![顯示篩選器](/help/assets/icons/Filter.svg)」。您可以根據「[!UICONTROL 連線]」、「[!UICONTROL 所有者]」及「[!UICONTROL 沙箱]」來篩選清單。<br/>使用 ![Hide](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏區段]**&#x200B;來隱藏區段窗格。
    * 若要定義在表格中顯示哪些欄，請選取「![欄設定](/help/assets/icons/ColumnSetting.svg)」。選取「**[!UICONTROL 自訂表格]**」對話框中顯示哪些欄，然後選取「**[!UICONTROL 套用]**」以套用變更。
 
 1. 選取 ![SelectBox](/help/assets/icons/SelectBox.svg) 您想要使用的資料檢視。
@@ -296,7 +296,7 @@ ht-degree: 95%
   ![Content Analytics 資料收集現有標記](../assets/aca-configuration-datacollection-existingtag.png)
 
    1. 選取「**[!UICONTROL 選擇現有]**」。
-   2. 從&#x200B;**[!UICONTROL 標籤屬性]**&#x200B;下拉式功能表中選取現有的屬性。 您可以開始輸入文字，搜尋和限制可供使用的選項。您無法選取已被其他已實施之 Content Analytics 設定所使用的標記屬性。
+   2. 從「**[!UICONTROL 標記屬性]**」下拉式選單中選取一個現有屬性。您可以開始輸入文字，搜尋和限制可供使用的選項。您無法選取已被其他已實施之 Content Analytics 設定所使用的標記屬性。
 
 
 * 若要建立新的標記屬性：
@@ -313,7 +313,7 @@ ht-degree: 95%
 
 * 在收集 Content Analytics 資料時，指明應包括或排除哪些資產。
 
-  針對&#x200B;**[!UICONTROL 要包括/排除的資產]**&#x200B;指定規則運算式字串。<br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有標誌JPEG影像。
+  針對&#x200B;**[!UICONTROL 要包括/排除的資產]**&#x200B;指定規則運算式字串。<br/>例如：`^(?!.*(logo\.jpg)).*$`，在 Content Analytics 中排除所有標誌的 JPEG 影像。
 
 >[!IMPORTANT]
 >
@@ -324,7 +324,7 @@ ht-degree: 95%
 
 #### 現有設定 {#existing-configuration}
 
-對於現有設定，您無法編輯標記屬性。若要更新與現有組態相關的標籤屬性，請使用[Content Analytics標籤延伸組態](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview)。
+對於現有設定，您無法編輯標記屬性。若要更新與現有設定相關的標記屬性，請使用 [Content Analytics 標記擴充功能設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview)。
 
 但是，您可以編輯要包括或排除的頁面和資產。
 
