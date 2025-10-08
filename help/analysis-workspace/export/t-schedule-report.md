@@ -6,18 +6,22 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 973e999b611d578da12018e60becf48efd7a76f8
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 50%
+source-wordcount: '799'
+ht-degree: 51%
 
 ---
 
 # 傳送及排程專案
 
-您可以透過電子郵件將Customer Journey Analytics專案以檔案形式傳送給所選使用者。 您可以即席傳送檔案，也可以設定專案依排程傳送。 專案可以用CSV或PDF格式傳送。
+您可以透過電子郵件將Customer Journey Analytics專案以檔案形式傳送給所選使用者。 您可以即席傳送檔案，也可以設定專案依排程傳送。
 
-任何套用於專案的索引標籤都會自動套用於匯出檔案。
+傳送檔案時，請考量下列事項：
+
+* 能以 CSV 或 PDF 格式傳送檔案。
+
+* 任何套用於專案的索引標籤都會自動套用於匯出檔案。
 
 還有匯出 Customer Journey Analytics 資料的其他方法，如[匯出概觀](/help/analysis-workspace/export/export-project-overview.md)所述。
 
@@ -40,7 +44,7 @@ ht-degree: 50%
 
 ## 排程檔案匯出 {#schedule}
 
-若要透過電子郵件依排程傳送檔案給收件者
+若要透過電子郵件依排程傳送檔案給收件者：
 
 1. 選取&#x200B;**[!UICONTROL 共用] > [!UICONTROL 排程檔案匯出]**。
 1. 指定檔案類型：
@@ -62,7 +66,7 @@ ht-degree: 50%
    | **[!UICONTROL 每年依月份日期]**&#x200B;傳送 | 選取&#x200B;**[!UICONTROL 一週中的某天]**，選取一個月中的&#x200B;**[!UICONTROL 周]**，然後選取一年中的&#x200B;**[!UICONTROL 每月]**。 |
    | **[!UICONTROL 依特定日期每年傳送]** | 選取&#x200B;**[!UICONTROL 月份]**，並從&#x200B;**[!UICONTROL 於當月的這個日期傳送]**&#x200B;中選取值。 |
 
-1. 輸入從&#x200B;**開始的**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
+1. 輸入從&#x200B;**[!UICONTROL 開始的]**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
 
 1. 在&#x200B;**[!UICONTROL 結束日期]**&#x200B;中輸入結束日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選結束日期。
 1. 選取&#x200B;**[!UICONTROL 依排程傳送]**。 選取「**[!UICONTROL 取消]**」即可取消。
@@ -99,7 +103,7 @@ Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv �
 ### 密碼保護新排程專案
 
 1. 儲存專案後，前往「**[!UICONTROL 共用]** > **[!UICONTROL 立即發送檔案]**」，或「**[!UICONTROL 共用]** > **[!UICONTROL 依排程發送檔案]**」。
-1. 按照上面的指示，在[立即傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=zh-Hant#now)或[依排程傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=zh-Hant#schedule)下面。
+1. 按照上面的指示，在[立即傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now)或[依排程傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule)下面。
 
 ### 密碼保護現有排程專案
 
