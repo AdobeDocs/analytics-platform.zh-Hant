@@ -24,7 +24,7 @@ ht-degree: 26%
 
 1. 登入[Customer Journey Analytics](https://analytics.adobe.com)並建立空白的Workspace專案。
 2. 選取左側的&#x200B;**[!UICONTROL **&#x200B;視覺效果&#x200B;**]**&#x200B;索引標籤，然後將&#x200B;**[!UICONTROL **&#x200B;流量&#x200B;**]**&#x200B;視覺效果拖曳至右側的畫布。
-3. 選取左側的&#x200B;**[!UICONTROL **&#x200B;元件&#x200B;**]**&#x200B;索引標籤，並將維度&#x200B;**[!UICONTROL **&#x200B;資料集ID **]**&#x200B;拖曳至標示為&#x200B;**[!UICONTROL ** Dimension或專案&#x200B;**]**&#x200B;的中央位置。
+3. 選取左側的&#x200B;**[!UICONTROL **&#x200B;元件&#x200B;**]**&#x200B;索引標籤，並將維度&#x200B;**[!UICONTROL **&#x200B;資料集ID **]**&#x200B;拖曳至標示為&#x200B;**[!UICONTROL **&#x200B; Dimension或專案&#x200B;**]**&#x200B;的中央位置。
 4. 此流量報表為互動式。 若要將流量展開至後續或先前的頁面，請選取任一值。 使用右鍵功能表來展開或收合欄。 同一流量報表中也可使用不同的維度。
 
 如果您要為資料集 ID 維度項目重新命名，可使用查詢資料集。
