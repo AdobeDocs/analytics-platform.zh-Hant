@@ -6,9 +6,9 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 1cf0d957d62d60979982320f45b4fdadcc7458b8
+source-git-commit: 38be574621e4fc384f9fdeac94fc071f0cdd132b
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1217'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 |---|---|---|---|
 | **訓練模型** | 實作伺服器端記錄時，可以識別代理程式（`GPTBot`、`ClaudeBot`等）。 | 無法分類。 AI編目程式在訓練期間不會產生反向連結。 | 偵測是不可能的。 AI編目程式在訓練期間不會新增引數。 |
 | **代理程式瀏覽** | 伺服器端記錄擷取標頭時，可以識別代理程式(`ChatGPT-User`， `claude-web`)。 | 如果代理程式從具有反向連結保留的AI介面導覽，則可以進行分類。 | 如果AI服務新增追蹤引數，則有時可能進行偵測。 |
-| **Retrieval-Enhanced Generation (RAG)以回答查詢** | 可用伺服器端記錄識別代理程式(`OAI-SearchBot`， `PerplexityBot`)。 | 通常無法分類，因為RAG作業通常會略過反向連結機制。 | 除非由AI提供者特別實作，否則很少可能進行偵測。 |
+| **擷取擴充產生(RAG)以回答查詢** | 可用伺服器端記錄識別代理程式(`OAI-SearchBot`， `PerplexityBot`)。 | 通常無法分類，因為RAG作業通常會略過反向連結機制。 | 除非由AI提供者特別實作，否則很少可能進行偵測。 |
 | **使用者點進次數** | 無法識別代理。 AI代理程式會顯示為一般使用者代理程式。 | 當使用者從AI介面按一下連結（[chatgpt.com](https://chatgpt.com)、[claude.ai](https://claude.ai)等等）時，可以進行分類。 | 當AI服務將UTM引數新增到傳出連結時，可能會進行偵測。 |
 | **流量可見性條件** | 需要伺服器端記錄與Customer Journey Analytics或伺服器端標籤的整合才能識別代理程式。 | 分類取決於AI平台反向連結原則和正確的HTTP標題傳輸。 | 偵測需要透過重新導向和適當的URL引數收集來保留引數。 |
 
@@ -293,6 +293,6 @@ LLM和AI代理程式會在與數位屬性互動時，展示複雜且不斷進化
 
 >[!MORELIKETHIS]
 >
->此使用案例文章是根據Brian Au的部落格： [在Adobe Customer Journey Analytics中追蹤和分析LLM和AI產生的流量](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967)
+>此使用案例文章是以部落格[在Adobe Customer Journey Analytics中追蹤和分析LLM和AI產生的流量](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967)為基礎。
 >
 >
