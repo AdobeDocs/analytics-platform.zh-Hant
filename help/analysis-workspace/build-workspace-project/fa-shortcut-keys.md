@@ -18,11 +18,11 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、�
 
 請注意，您的鍵盤可能使用下列符號：
 
-- **⇧** 代表 **[!UICONTROL ** Shift **]** 鍵。
-- **⌘** 代表 **[!UICONTROL ** Cmd **]** (Command) 鍵。
-- **⌃** 代表 **[!UICONTROL ** Ctrl **]** (Control) 鍵。
-- **⌥** 代表 **[!UICONTROL ** Opt **]** (Option) 鍵。
-- **⎇** 代表 **[!UICONTROL ** Alt **]** (Alternate) 鍵。
+- **⇧** 代表 **[!UICONTROL **&#x200B; Shift &#x200B;**]** 鍵。
+- **⌘** 代表 **[!UICONTROL **&#x200B; Cmd &#x200B;**]** (Command) 鍵。
+- **⌃** 代表 **[!UICONTROL **&#x200B; Ctrl &#x200B;**]** (Control) 鍵。
+- **⌥** 代表 **[!UICONTROL **&#x200B; Opt &#x200B;**]** (Option) 鍵。
+- **⎇** 代表 **[!UICONTROL **&#x200B; Alt &#x200B;**]** (Alternate) 鍵。
 
 ## 導覽動作
 

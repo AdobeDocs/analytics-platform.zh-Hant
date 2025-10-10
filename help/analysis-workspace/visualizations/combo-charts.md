@@ -25,9 +25,9 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的組合圖視覺效果。_
+_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的組合圖視覺效果。_
 
-_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本的[組合圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)。_
+_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 版本的[組合圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts)。_
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ _請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _*
 
 ## 使用
 
-1. 新增![評論](/help/assets/icons/ComboChart.svg)[!UICONTROL 組合]視覺化。請參閱「[將視覺化新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」
+1. 新增![評論](/help/assets/icons/ComboChart.svg) [!UICONTROL 組合]視覺化。請參閱「[將視覺化新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」
 
 1. 從下拉式功能表中，選取X軸的維度和Y軸的量度。
 
@@ -68,7 +68,7 @@ _請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _*
 
    輸出看起來會類似下列所示：
 
-   ![組合圖表以長條圖顯示目前期間，以折線圖顯示比較期間 ](assets/combo-output.png)
+   ![組合圖表以長條圖顯示目前期間，以折線圖顯示比較期間 &#x200B;](assets/combo-output.png)
 
    目前期間顯示在長條圖中。折線圖會表示比較期間。折線圖上的圓點稱為&#x200B;*槓鈴*。
 
@@ -99,6 +99,6 @@ _請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _*
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>&#x200B;>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>&#x200B;>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

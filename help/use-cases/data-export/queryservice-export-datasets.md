@@ -423,7 +423,7 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 #### 提供匯出引數
 
-接下來，您必須[建立其他目標連線，再次使用](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-target-connection)[`POST /targetConection` API為您的輸出資料集儲存匯出引數](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection)。 這些匯出引數包括位置、檔案格式、壓縮等等。
+接下來，您必須[建立其他目標連線，再次使用](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-target-connection) [`POST /targetConection` API為您的輸出資料集儲存匯出引數](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection)。 這些匯出引數包括位置、檔案格式、壓縮等等。
 
 #### 設定資料流
 

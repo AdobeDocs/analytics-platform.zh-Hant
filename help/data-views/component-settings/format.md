@@ -74,7 +74,7 @@ ht-degree: 88%
 >在開始設定貨幣換算量度之前，請考慮以下事項：
 >
 >* 您為貨幣轉換選取的量度必須有數字類型 (雙精度浮點數、長整數、整數、位元組)。
->* 設定您的 Customer Journey Analytics 連線以包含至少一個事件資料集，其中每個包含貨幣量度的事件都有貨幣代碼維度。此貨幣代碼維度是使用符合[ ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 標準 (表示貨幣) 的字母貨幣代碼。這些值應以全大寫格式，例如 USD 代表 $、EUR 代表 €、GBP 代表 £。
+>* 設定您的 Customer Journey Analytics 連線以包含至少一個事件資料集，其中每個包含貨幣量度的事件都有貨幣代碼維度。此貨幣代碼維度是使用符合[&#x200B; ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 標準 (表示貨幣) 的字母貨幣代碼。這些值應以全大寫格式，例如 USD 代表 $、EUR 代表 €、GBP 代表 £。
 
 若要確定如何顯示和轉換指定量度的貨幣：
 

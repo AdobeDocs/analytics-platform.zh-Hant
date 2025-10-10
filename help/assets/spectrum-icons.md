@@ -17,7 +17,7 @@ ht-degree: 16%
 
 此表格列出所有可透過頻譜圖示片段組態使用的頻譜圖示。 使用名稱將程式碼片段新增至Markdown，並顯示「光譜」圖示。
 
-觀看[Wiki頁面](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation)的任何更新。
+觀看[Wiki頁面] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation)的任何更新。
 
 ![](https://reportbuilder.an.adobe.com/assets/AdobeAnalyticsLogo-80.png)
 
