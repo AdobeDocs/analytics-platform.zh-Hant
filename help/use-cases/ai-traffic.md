@@ -4,11 +4,9 @@ description: 瞭解如何使用衍生欄位作為在Workspace中報告LLM和AI�
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-hide: true
-hidefromtoc: true
-source-git-commit: 38be574621e4fc384f9fdeac94fc071f0cdd132b
+source-git-commit: 8862bfdf873c4c3c5e795f3b299040b3dc253647
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1275'
 ht-degree: 1%
 
 ---
@@ -17,6 +15,11 @@ ht-degree: 1%
 # LLM和AI產生的流量報告
 
 本使用案例文章探討如何使用Customer Journey Analytics衍生欄位功能作為報告LLM （大型語言模型）和AI產生流量的基礎。
+
+>[!NOTE]
+>
+>[偵測方法](#detection-methods)、[偵測簽章](#detection-signatures)及[實作策略](#implementation)的有效性取決於您的特定資料收集方法、Experience Platform資料集涵蓋範圍及Customer Journey Analytics實作。 結果可能會因您的技術環境、資料控管政策和實作方法而異。 使用Experience Edge時，您需要選擇錄製原始使用者代理字串或收集裝置資訊。
+>
 
 ## 偵測方法
 
@@ -30,6 +33,7 @@ ht-degree: 1%
 * **使用者代理程式識別**：向伺服器提出要求時，會擷取HTTP使用者代理程式標頭，並根據已知的AI編目程式和代理程式模式進行分析。 此伺服器端方法需要存取HTTP標題，且在資料收集層實作時最有效。
 * **反向連結分類**： HTTP反向連結標頭包含連結至目前請求的先前網頁的URL。 此標題會顯示使用者從ChatGPT或Perplexity等網路介面點進您的網站時。
 * **查詢引數偵測**： AI服務可以將URL引數（尤其是UTM引數）附加至連結。 這些引數會儲存在URL中，並可透過標準分析實施進行偵測，因此這些URL引數即使在使用者端追蹤案例中也有重要指標。
+
 
 下表說明偵測方法如何用於不同的LLM和AI互動案例。
 
@@ -248,12 +252,12 @@ LLM和AI代理程式會在與數位屬性互動時，展示複雜且不斷進化
 
 ## 實作
 
-您可以透過[衍生欄位](#derived-fields)、[區段](#segments)和[工作區專案](#workspace-project)的特定設定和組態，在一般的Customer Journey Analytics設定（連線、資料檢視、工作區專案）中報告LLM和AI產生的流量。
+您可以透過[衍生欄位](/help/connections/overview.md)、[區段](/help/data-views/data-views.md)和[工作區專案](/help/analysis-workspace/home.md)的特定設定和組態，在一般的Customer Journey Analytics設定（[連線](#derived-fields)、[資料檢視](#segments)和[工作區專案](#workspace-project)）中報告LLM和AI產生的流量。
 
 
 ### 衍生欄位
 
-若要設定偵測方法和偵測訊號，請使用衍生欄位做為基礎。 例如，定義使用者代理程式識別、查詢引數偵測和反向連結分類的衍生欄位。
+若要設定偵測方法和偵測訊號，請使用衍生欄位做為基礎。 例如，定義[使用者代理識別](#user-agent-identification)、[查詢引數偵測](#query-parameter-detection)和[反向連結分類](#referrer-classification)的衍生欄位。
 
 #### LLM/AI使用者代理程式識別
 
@@ -264,16 +268,412 @@ LLM和AI代理程式會在與數位屬性互動時，展示複雜且不斷進化
 
 #### LLM/AI查詢引數偵測
 
-使用[URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse)和[分類](/help/data-views/derived-fields/derived-fields.md#classify)衍生欄位函式來定義偵測UTM引數偵測的衍生欄位。
+使用[URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse)和[分類](/help/data-views/derived-fields/derived-fields.md#classify)衍生欄位函式來定義可偵測查詢引數的衍生欄位。
 
 ![LLM/AI UTM引數偵測](assets/aitraffic-utmparams.png){zoomable="yes"}
 
 
 #### LLM/AI反向連結分類
 
-使用「URL剖析」和「分類」衍生欄位函式，可定義分類反向連結的衍生欄位。
+使用[URL剖析](/help/data-views/derived-fields/derived-fields.md#url-parse)和[分類](/help/data-views/derived-fields/derived-fields.md#classify)衍生欄位函式來定義分類反向連結的衍生欄位。
 
-![LLM/AI反向連結分類](assets/aitraffic-utmparams.png){zoomable="yes"}
+(assets/aitraffic-referrers.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+){zoomable="yes"}
 
 
 ### 區段
