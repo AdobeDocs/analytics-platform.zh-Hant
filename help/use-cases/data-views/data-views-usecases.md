@@ -61,7 +61,7 @@ ht-degree: 28%
 
 您可以使用數值維度，將量度放入您的[!UICONTROL 流量]視覺效果中。
 
-1. 在「資料檢視[元件](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將「行銷管道」結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。
+1. 在「資料檢視[元件](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將「行銷管道」結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。
 2. 在工作區報表中，此流量顯示流入[!UICONTROL 訂單]的[!UICONTROL 行銷管道]:
 
 ![行銷管道流量從電子郵件到結束/訂單。](../assets/flow.png)
@@ -72,7 +72,7 @@ ht-degree: 28%
 
 例如，使用資料檢視中的包含/排除功能，僅聚焦於產生的銷售額超過$50美元的產品。 因此，如果您的訂單包括$50的產品購買和$25的產品購買，則包含/排除功能會移除$25的產品購買，而非整個訂單。
 
-1. 在「資料檢視[元件](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將&#x200B;**[!UICONTROL 收入]**&#x200B;結構欄位拖曳至[!UICONTROL 包含的元件]下的&#x200B;**[!UICONTROL 量度]**&#x200B;區域。
+1. 在「資料檢視[元件](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將&#x200B;**[!UICONTROL 收入]**&#x200B;結構欄位拖曳至[!UICONTROL 包含的元件]下的&#x200B;**[!UICONTROL 量度]**&#x200B;區域。
 1. 選取量度並在右側設定下列項目：
 a.在&#x200B;**[!UICONTROL Format]**&#x200B;下，選擇&#x200B;**[!UICONTROL Currency]**。
 b.在&#x200B;**[!UICONTROL 貨幣]**&#x200B;下，選取&#x200B;**[!UICONTROL USD]**。
@@ -110,11 +110,11 @@ f.指定`50`作為值。
 
 有一個維度和兩個指標能協助此報告：
 
-* [工作階段型別](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) — 此維度有兩個值： [!UICONTROL 新的]和[!UICONTROL 回訪]。 [!UICONTROL 新]條列專案包含已確定為個人定義的首次工作階段的工作階段中的所有行為（亦即針對此維度的量度）。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
+* [工作階段型別](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-reference) — 此維度有兩個值： [!UICONTROL 新的]和[!UICONTROL 回訪]。 [!UICONTROL 新]條列專案包含已確定為個人定義的首次工作階段的工作階段中的所有行為（亦即針對此維度的量度）。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
 
-* [首次工作階段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference)。 首次工作階段量度定義為個人在報告時段內定義的首次工作階段。
+* [首次工作階段](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-reference)。 首次工作階段量度定義為個人在報告時段內定義的首次工作階段。
 
-* [回訪工作階段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference)回訪工作階段量度是非個人首次工作階段的工作階段數量。—>
+* [回訪工作階段](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-reference)回訪工作階段量度是非個人首次工作階段的工作階段數量。—>
 
 若要存取元件：
 

@@ -53,7 +53,7 @@ ht-degree: 66%
 
 假設您的假設為： *&quot;在特定產業（例如旅遊業），歸因時段為60或90天，而不是30天，因為客戶在購買產品之前會深入研究一番。*&quot;
 
-在這種情況下，您可能會將[回顧期間](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)改成 90 天。
+在這種情況下，您可能會將[回顧期間](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/attribution/models)改成 90 天。
 
 ## 使用演演算法歸因
 
@@ -63,4 +63,4 @@ ht-degree: 66%
 
 * 您可能需要使用資料科學家的服務，而非僅仰賴 Analysis Workspace。
 * 您可以仰賴原始資料，就像在 Adobe 資料摘要中一樣。
-* 例如，如果您想要考量您的曝光數資料，可考慮使用[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。
+* 例如，如果您想要考量您的曝光數資料，可考慮使用[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。

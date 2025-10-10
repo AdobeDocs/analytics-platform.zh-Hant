@@ -28,9 +28,9 @@ ht-degree: 100%
 
 1. 確保您擁有正確的存取控制：
 
-   * 您必須擁有具備 Experience Platform 產品之組織的系統或產品管理員權限。請參閱[存取控制概觀](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#platform-permissions)，了解更多資訊。
+   * 您必須擁有具備 Experience Platform 產品之組織的系統或產品管理員權限。請參閱[存取控制概觀](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant#platform-permissions)，了解更多資訊。
 
-   * 您必須是 AEP-Default-All-Users 產品設定檔中的使用者。如果您沒有權限將自己新增到此設定檔，請詢問您的管理員。請參閱[存取控制階層與工作流程](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#access-control-hierarchy-and-workflow)，了解更多資訊。
+   * 您必須是 AEP-Default-All-Users 產品設定檔中的使用者。如果您沒有權限將自己新增到此設定檔，請詢問您的管理員。請參閱[存取控制階層與工作流程](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant#access-control-hierarchy-and-workflow)，了解更多資訊。
 
 
 1. 導覽至 Adobe Experience Platform UI。
