@@ -7,15 +7,15 @@ hide: true
 hidefromtoc: true
 exl-id: d9d7f186-9077-4372-94ad-8dd5b97779ca
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 步驟 3：升級時將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform
 
-+++ 展開此部分，查看此頁面資訊在更大規模升級程序中的位置。確保所有先前的升級步驟都已完成。
++++展開本區段，瞭解本頁資訊適用於大型升級程式的位置。 確保所有先前的升級步驟都已完成。
 
 在繼續此部分之前，請先確保您已完成所有先前的升級工作。
 

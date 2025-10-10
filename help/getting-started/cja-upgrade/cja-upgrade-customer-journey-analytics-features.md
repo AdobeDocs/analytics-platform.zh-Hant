@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-target"
 >title="暫時與 Adobe Target 整合"
->abstract="針對個人化使用案例，Adobe 建議與 Adobe Journey Optimizer 整合。與 Adobe Target 整合是可行的作法，但僅是短期的解決方案。"
+>abstract="針對個人化使用案例，Adobe 建議與 Adobe Journey Optimizer 整合。與 Adobe Target 整合為可行的做法，但僅是短期的解決方案。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-aam"
 >title="暫時與 Adobe Audience Manager 整合"
->abstract="針對以受眾為基礎的使用案例，Adobe 建議與 Adobe Real-Time CDP 整合。與 Audience Manager 整合是可行的作法，但僅是短期的解決方案。"
+>abstract="針對以受眾為基礎的使用案例，Adobe 建議與 Adobe Real-Time CDP 整合。與 Audience Manager 整合為可行的做法，但僅是短期的解決方案。"
 
 <!-- markdownlint-enable MD034 -->
 

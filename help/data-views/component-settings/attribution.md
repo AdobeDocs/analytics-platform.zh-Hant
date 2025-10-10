@@ -90,7 +90,7 @@ ht-degree: 93%
 
 {{attribution-container}}
 
-## 回顧視窗
+## 回顧期間
 
 {{attribution-lookback-window}}
 

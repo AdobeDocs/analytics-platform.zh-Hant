@@ -17,7 +17,7 @@ Customer Journey Analytics讓團隊擁有可分析和最佳化產品體驗的工
 
 * **大規模管理產品資料**：輕鬆擷取、轉換及管理產品資料，以符合您的業務需求，確保獲得可靠的深入分析。
 * **測量贏取與啟用**：追蹤新使用者如何發現您的產品並參與首次價值推動事件。
-* **測量參與度和採用**：瞭解使用者如何通過產品漏斗、識別摩擦點並追蹤關鍵功能的採用。
+* **測量參與度和採用**：瞭解使用者如何通過產品funnel、識別摩擦點並追蹤關鍵功能的採用。
 * **測量保留率和流失率**：分析一段時間內的使用者保留率、識別流失率指標，並制定策略以減少流失率並提高忠誠度。
 * **動作產品深入分析**：將資料導向深入分析轉換為可操作的策略，以改善使用者體驗並推動可持續的產品成長。
 * **與您的組織分享見解**：跨團隊傳達關鍵發現，以協調工作、促進共同作業，並確保每個人都在致力於共同的產品和業務目標。
@@ -31,9 +31,9 @@ Customer Journey Analytics讓團隊擁有可分析和最佳化產品體驗的工
 Adobe Experience Platform和Customer Journey Analytics中的下列功能可讓您大規模擷取和管理產品資料：
 
 * Adobe Experience Platform
-   * [資料集&#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)
+   * [資料集&#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
    * [資料準備&#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-prep/home)
-   * [資料Distiller&#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/overview)
+   * [資料Distiller&#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 * Customer Journey Analytics
    * [連線&#x200B;](/help/connections/overview.md)
    * [資料檢視](/help/data-views/data-views.md)，包括[衍生欄位&#x200B;](/help/data-views/derived-fields/derived-fields.md)
@@ -43,7 +43,7 @@ Adobe Experience Platform和Customer Journey Analytics中的下列功能可讓�
 
 ## 測量贏取和啟用
 
-產品成長取決於可操作的漏斗頂端深入分析，這些深入分析可吸引新使用者、顯示轉換路徑，並消除歷程中的摩擦。
+產品成長仰賴可採取行動的funnel頂端深入分析，這些深入分析可吸引新使用者、揭示轉換路徑，並消除歷程中的摩擦。
 
 * 贏取會追蹤進入您產品的新使用者，包括他們如何到達，以及哪些工作最有效或最無效。
 * 啟用會監視與您的第一個值事件互動的新使用者，並根據您的特定目標進行定義。
@@ -60,7 +60,7 @@ Customer Journey Analytics中的下列功能可讓您有效測量贏取和啟用
 
 ## 衡量參與度和採用程度
 
-取得新使用者可擴充您的產品漏斗頂端。 參與著重於引導這些使用者深入漏斗，並移除他們成功的障礙。 他們的成功會直接推動您的業務成功。
+取得新使用者能讓您進一步掌握產品funnel。 參與著重於引導這些使用者繼續前往funnel並移除他們成功的障礙。 他們的成功會直接推動您的業務成功。
 
 ![參與分析](/help/guided-analysis/assets/feature-matrix.png)
 
@@ -69,7 +69,7 @@ Customer Journey Analytics中的下列功能可協助您追蹤產品參與度和
 * [引導式分析：參與](/help/guided-analysis/types/engagement.md)
 * [引導式分析：趨勢](/help/guided-analysis/types/trends.md)
 * [引導式分析：頻率](/help/guided-analysis/types/frequency.md)
-* [引導式分析：漏斗](/help/guided-analysis/types/funnel.md)
+* [引導式分析： Funnel](/help/guided-analysis/types/funnel.md)
 * [引導式分析：轉換趨勢](/help/guided-analysis/types/conversion-trends.md)
 * [引導式分析：發行影響](/help/guided-analysis/types/release-impact.md)
 * [引導式分析：首次使用影響&#x200B;](/help/guided-analysis/types/first-use-impact.md)
@@ -99,8 +99,8 @@ Experience Cloud中的下列功能可讓您有效執行深入分析：
 * [建立和發佈對象](/help/components/audiences/publish.md)&#x200B;，以便從Customer Journey Analytics啟動
 * 透過Experience Cloud產品啟用對象：
    * 在AJO和Adobe Target中[執行實驗](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment)，並使用[實驗面板](/help/analysis-workspace/c-panels/experimentation.md)測量Customer Journey Analytics中變異的影響
-   * [傳遞應用程式內參與](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/in-app/get-started-in-app)給AJO中的使用者
-* 透過Adobe Real-time CDP&#x200B;[啟用受眾](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activation-overview)到外部目的地
+   * [傳遞應用程式內參與](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/get-started-in-app)給AJO中的使用者
+* 透過Adobe Real-time CDP&#x200B;[啟用受眾](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview)到外部目的地
 
 ## 與組織分享見解&#x200B;
 

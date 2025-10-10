@@ -62,7 +62,7 @@ Attribution is recalculated at report runtime, so there is no difference between
 -->
 
 
-+++##歸因模型是否可用於「其他Analytics」功能？
++++##歸因模型是否可用於Analytics的其他功能？
 
 是。歸因模型也可作為資料檢視中量度元件的元件設定的一部分使用。 請參閱[歸因元件設定](/help/data-views/component-settings/attribution.md)。 對於維度元件，您可以使用持續性。 持續性是指定維度值在其設定的事件之外歸因於量度的能力。 它使用配置和到期日的組合。 如需詳細資訊，請參閱[持續性元件設定](/help/data-views/component-settings/persistence.md)
 

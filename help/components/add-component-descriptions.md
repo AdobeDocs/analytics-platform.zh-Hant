@@ -17,7 +17,7 @@ ht-degree: 17%
 
 Customer Journey Analytics管理員可以在資料檢視中或使用「資料字典」，新增元件（維度、量度、區段和日期範圍）的說明。
 
-## 資料檢視
+## 資料視圖
 
 您可以為已新增至資料檢視的元件新增說明。 請參閱[元件設定](/help/data-views/component-settings/overview.md)。
 
@@ -32,5 +32,5 @@ Analysis Workspace中的資料字典可協助使用者和管理員追蹤及更�
 >[!MORELIKETHIS]
 >
 >[資料檢視元件設定](/help/data-views/component-settings/overview.md)
->&#x200B;>[資料字典元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[資料字典元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

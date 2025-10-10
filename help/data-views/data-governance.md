@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * `C8` 標籤 - **[!UICONTROL 無測量]**。此標籤表示資料無法供貴組織的網站或應用程式進行分析之用。
 
-* `C12` 標籤 - **[!UICONTROL 無一般資料匯出]**。依此方式標示的綱要欄位無法從 Customer Journey Analytics (透過報告、匯出、API 等) 匯出或下載。
+* `C12` 標籤 - **[!UICONTROL 無一般資料匯出]**。依此方式標示的結構描述欄位無法從 Customer Journey Analytics (透過報告、匯出、API 等) 匯出或下載。
 
 >[!NOTE]
 >

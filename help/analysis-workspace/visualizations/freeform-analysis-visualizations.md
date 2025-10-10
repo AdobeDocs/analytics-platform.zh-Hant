@@ -79,7 +79,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
 * 若要收合視覺效果，請選取![V形向下](/help/assets/icons/ChevronDown.svg)。
 * 若要顯示收合的視覺效果，請選取![左側](/help/assets/icons/ChevronLeft.svg) V形。
-* 若要刪除視覺效果，請選取![CrossSize400](/help/assets/icons/CrossSize400.svg)。 若要復原，請選取[編輯] **&#x200B;**&#x200B;> [復原] **&#x200B;**&#x200B;(**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**)。
+* 若要刪除視覺效果，請選取![CrossSize400](/help/assets/icons/CrossSize400.svg)。 若要還原，請選取「**[!UICONTROL 編輯]** > **[!UICONTROL 還原]**」(**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**)。
 * 若要將視覺效果回覆為預設高度，請選取![ImageResize](/help/assets/icons/Resize.svg)。
 * 若要在面板內移動視覺效果，只要有![移動](/help/assets/icons/Move.svg)出現（通常是將游標停留在標頭上），即可拖放視覺效果。
 

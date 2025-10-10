@@ -108,7 +108,7 @@ Customer Journey Analytics B2B edition可協助您最佳化帳戶行銷。 如�
 1. 選取&#x200B;**[!UICONTROL End with]**&#x200B;的&#x200B;**[!UICONTROL MQL合格]**。
 1. 選取&#x200B;**[!UICONTROL 路徑維度]**&#x200B;的&#x200B;**[!UICONTROL 內容型別]**。
 1. 選取&#x200B;**[!UICONTROL 顯示進階設定]**。
-1. 為&#x200B;**[!UICONTROL 欄數]**&#x200B;輸入`5`。
+1. 為`5`欄數&#x200B;**[!UICONTROL 輸入]**。
 1. 為&#x200B;**[!UICONTROL 流量容器]**&#x200B;選取&#x200B;**[!UICONTROL 帳戶]**。
 
    ![B2B使用案例 — 個人事件 — 流程設定](assets/b2b-uc-optimize-marketing-flow-config.png)

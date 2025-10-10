@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-analyticsextension"
 >title="Adobe Analytics 擴充功能 (標記)"
->abstract="一種標籤實作，可載入 Adobe Experience Platform 資料收集 (先前稱為 Launch)。此標籤已安裝 Adobe Analytics 擴充功能。"
+>abstract="一種標籤實作，可載入 Adobe Experience Platform 資料收集 (先前稱為 Launch)。標記已安裝 Adobe Analytics 擴充功能。"
 
 <!-- markdownlint-enable MD034 -->
 

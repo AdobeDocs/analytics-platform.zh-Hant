@@ -6,7 +6,7 @@ exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -90,7 +90,7 @@ Customer Journey Analytics中的標準量度完整清單：
 
    * [!UICONTROL **資料行min**]：建立新資料行，以顯示資料行維度元素集合中的最小值。 這會使用[Column Minimum](/help/components/calc-metrics/cm-functions.md#column-minimum)函式。
 
-   * [!UICONTROL **資料行總和**]：建立新資料行，將資料行內量度的所有數值相加（跨越維度元素）。 這會使用[資料行Sum](/help/components/calc-metrics/cm-functions.md#column-sum)函式。
+   * [!UICONTROL **資料行總和**]:Creates&#x200B;新資料行，將資料行內量度的所有數值相加（跨越維度元素）。 這會使用[資料行Sum](/help/components/calc-metrics/cm-functions.md#column-sum)函式。
 
    選取兩欄時，可使用下列選項：
 

@@ -5,7 +5,7 @@ exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
 source-git-commit: 40706e3118cbaf7582d8625d307358b16f1836ac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 資料控管
 
-Adobe Customer Journey Analytics 和 [Adobe Experience Platform 資料控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant)整合後，便可以標記敏感的 Customer Journey Analytics 資料以及執行隱私權原則。
+Adobe Customer Journey Analytics 和 [Adobe Experience Platform 資料控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)整合後，便可以標記敏感的 Customer Journey Analytics 資料以及執行隱私權原則。
 
 在 Experience Platform 使用的資料集上所建立的隱私權標籤和原則，可以出現在 Customer Journey Analytics 資料檢視工作流程中。這些標籤會阻止或警告從敏感性欄位建立量度和/和維度的使用者。
 
@@ -31,7 +31,7 @@ Adobe Customer Journey Analytics 和 [Adobe Experience Platform 資料控管](ht
 
 Adobe 根據適用的本地和國際法律來處理隱私權請求。
 
-由於 Customer Journey Analytics 使用可在 Adobe Experience Platform 中取得的資料，因此 Adobe 提供 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant) 來提交資料存取和刪除請求。這些請求同時適用於原始和已重設金鑰的資料集。
+由於 Customer Journey Analytics 使用可在 Adobe Experience Platform 中取得的資料，因此 Adobe 提供 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) 來提交資料存取和刪除請求。這些請求同時適用於原始和已重設金鑰的資料集。
 
 ## GDPR
 

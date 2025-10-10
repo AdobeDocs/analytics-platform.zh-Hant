@@ -13,9 +13,9 @@ ht-degree: 41%
 
 # Target報告
 
-Customer Journey Analytics中的Target報表功能可讓您直接在Customer Journey Analytics中測量及報告Adobe Target活動。 此功能相當於Adobe Analytics (AA)中透過Analytics for Target (A4T)所執行的工作，但與Adobe Experience Platform (AEP)連線。
+Customer Journey Analytics中的Target報告功能可讓您直接在Customer Journey Analytics中測量及報告Adobe Target活動。 此功能可與透過Analytics for Adobe Analytics (A4T)在Analytics (AA)中執行的功能比較，但可連線至Adobe Experience Platform (AEP)。
 
-將Target分類查詢資料集(預設可在Experience Platform中使用)新增到Customer Journey Analytics連線中，使用者現在可以適當存取Target報告工具、Target訂單歸因和其他功能。 只需在Customer Journey Analytics資料檢視中進行一些細微的準備和調整，任何想要將Target資料直接傳送到CJA的使用者都可以立即使用這些活動。
+將Target分類查詢資料集(預設可在Experience Platform中使用)新增至Customer Journey Analytics連線後，使用者現在可以適當存取Target報告工具、Target訂單歸因和其他功能。 只要在Customer Journey Analytics資料檢視中進行一些細微的準備和調整，任何想要將Target資料直接傳送到CJA的使用者都可以立即使用這些活動。
 
 ## 主要優點
 
@@ -25,7 +25,7 @@ Customer Journey Analytics中的Target報表功能可讓您直接在Customer Jou
 
 ## 附註和考量事項
 
-目標分類事件資料集新增到CJA連線後，在CJA資料檢視中這些元件新增為維度後，有一些要做的細微調整，包括：
+將Target分類事件資料集新增到CJA連線後，將這些元件新增為維度後，CJA資料檢視中將進行一些小調整，包括：
 
 * 設定持續性，使其類似於Target中的追蹤方式（請洽詢Target顧問或客戶以確保設定正確）。
 

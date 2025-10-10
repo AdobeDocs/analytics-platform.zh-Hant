@@ -105,7 +105,7 @@ ht-degree: 62%
 
    >[!NOTE]
    >
-   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=zh-Hant)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=zh-Hant#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
+   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
 
    ![識別物件](./assets/identification-field-mobile.png)
 
@@ -117,7 +117,7 @@ ht-degree: 62%
 
    ![指定 ECID 作為身分識別](./assets/specify-identity-mobile.png)
 
-   您將 Experience Cloud Identity 指定為 Adobe Experience Platform Identity 服務可用於組合 (拼接) 具有相同 ECID 的設定檔的行為的主要身分。
+   您將 Experience Cloud Identity 指定為 Adobe Experience Platform 身分識別服務可用於組合 (拼接) 具有相同 ECID 的設定檔的行為的主要身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在 ecid 屬性中。
 
@@ -125,7 +125,7 @@ ht-degree: 62%
 
    ![指定電子郵件作為身分識別](./assets/specify-email-identity-mobile.png)
 
-   您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 設定檔行為的另一個身分。
+   您將電子郵件地址指定為 Adobe Experience Platform 身分識別服務可用於結合 (拼接) 設定檔行為的另一個身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在電子郵件屬性中。
 
@@ -135,7 +135,7 @@ ht-degree: 62%
 
    系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
@@ -161,7 +161,7 @@ ht-degree: 62%
 
 - 啟用該設定檔結構描述
 
-請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
+請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
 ### 設定資料集
 
@@ -233,7 +233,7 @@ ht-degree: 62%
 
 您的資料流現在已設定為將從行動應用程式收集的資料轉送到Adobe Experience Platform中的資料集。
 
-請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
+請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
 
 
@@ -274,7 +274,7 @@ ht-degree: 62%
 
    ![AEP Mobile SDK擴充功能組態](./assets/aepmobilesdk-extension-datastream.png)
 
-1. 在[!UICONTROL 網域設定]下輸入您的&#x200B;**[!UICONTROL Edge Network網域]**。 通常使用`<organizationName>.data.adobedc.net`。
+1. 在&#x200B;**[!UICONTROL 網域設定]**&#x200B;下輸入您的[!UICONTROL Edge Network網域]。 通常使用`<organizationName>.data.adobedc.net`。
 
 1. 選取「**[!UICONTROL 儲存]**」。
 
@@ -286,7 +286,7 @@ ht-degree: 62%
 - AEP Assurance。
 - 同意。
 
-如需擴充功能及其設定的詳細資訊，請參閱Experience Platform行動應用程式教學課程中的[設定標籤屬性](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=zh-Hant)。
+如需擴充功能及其設定的詳細資訊，請參閱Experience Platform行動應用程式教學課程中的[設定標籤屬性](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html)。
 
 #### **資料元素**
 
@@ -304,9 +304,9 @@ ht-degree: 62%
 
    - 為您的資料元素命名，例如 `Carrier Name`。
 
-   - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL 行動核心]**。
+   - 從&#x200B;**[!UICONTROL 擴充功能]**&#x200B;清單中選取[!UICONTROL 行動核心]。
 
-   - 從[!UICONTROL 資料元素型別]清單中選取&#x200B;**[!UICONTROL 電信業者名稱]**。
+   - 從&#x200B;**[!UICONTROL 資料元素型別]**&#x200B;清單中選取[!UICONTROL 電信業者名稱]。
 
 
      ![使用頁面資訊建立資料元素](./assets/create-dataelement-mobile.png)
@@ -336,25 +336,25 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
    - 在[!UICONTROL 「事件設定」]對話框：
 
-      - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL 行動核心]**。
+      - 從&#x200B;**[!UICONTROL 擴充功能]**&#x200B;清單中選取[!UICONTROL 行動核心]。
 
-      - 從[!UICONTROL 事件型別]清單中選取&#x200B;**[!UICONTROL 前景]**。
-
-      - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
-
-   - 按一下[!UICONTROL 行動核心 — 前景]旁的![加號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)。
-
-      - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL 行動核心]**。
-
-      - 從[!UICONTROL 事件型別]清單中選取&#x200B;**[!UICONTROL 背景]**。
+      - 從&#x200B;**[!UICONTROL 事件型別]**&#x200B;清單中選取[!UICONTROL 前景]。
 
       - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 
-   - 按一下[!UICONTROL ACTIONS]底下的![加上](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)新增。 在[!UICONTROL 動作設定] 對話框：
+   - 按一下![行動核心 — 前景](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)旁的[!UICONTROL 加號]。
 
-      - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL Adobe Experience Platform Edge Network]**。
+      - 從&#x200B;**[!UICONTROL 擴充功能]**&#x200B;清單中選取[!UICONTROL 行動核心]。
 
-      - 從[!UICONTROL 動作型別]清單中選取&#x200B;**[!UICONTROL 轉寄事件至Edge Network]**。
+      - 從&#x200B;**[!UICONTROL 事件型別]**&#x200B;清單中選取[!UICONTROL 背景]。
+
+      - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
+
+   - 按一下![ACTIONS](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)底下的[!UICONTROL 加上]新增。 在[!UICONTROL 動作設定] 對話框：
+
+      - 從&#x200B;**[!UICONTROL 擴充功能]**&#x200B;清單中選取[!UICONTROL Adobe Experience Platform Edge Network]。
+
+      - 從&#x200B;**[!UICONTROL 動作型別]**&#x200B;清單中選取[!UICONTROL 轉寄事件至Edge Network]。
 
       - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 
@@ -372,7 +372,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
 ### 建置並發佈您的標籤
 
-定義資料元素和規則後，您需要建置並發佈標籤。建立程式庫組建時，必須將其指派至一個環境。隨後組建的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。每個環境都會提供唯一的內嵌程式碼，可讓您將指派的組建整合至您的網站。
+定義資料元素和規則後，您需要建置並發佈標籤。建立程式庫組建時，必須將其指派至一個環境。隨後組建的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。每個環境都會提供唯一的嵌入程式碼，可讓您將指派的組建整合至您的網站。
 
 若要建置並發佈您的標籤：
 
@@ -419,7 +419,7 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 您原本可以根據部署Adobe Experience Platform Mobile SDK的程式中，選取其他環境（測試、生產），而不是開發環境的程式碼。
 
-如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant&)。
+如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?)。
 
 ## 部署和驗證。
 
@@ -427,7 +427,7 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 驗證您的實作、視需要更正實作，並在更正後，使用「標籤」的發佈工作流程功能，將其部署至中繼和生產環境。
 
-如需更多詳細資訊，請參閱[在行動應用程式教學課程中實作Adobe Experience Cloud](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hant)。
+如需更多詳細資訊，請參閱[在行動應用程式教學課程中實作Adobe Experience Cloud](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)。
 
 ## 設定連線
 

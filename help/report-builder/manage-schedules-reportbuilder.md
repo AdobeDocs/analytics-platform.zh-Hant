@@ -5,15 +5,15 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 9505f21748b3d94b2398f898e5399d095ccec260
+exl-id: 0a0427d9-223e-410b-a8ef-8601390d88aa
+source-git-commit: 755a5223deb0845079ea98a7371a2f8acb69ea4b
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-
-# 管理排程活頁簿
+# 管理安排的活頁簿
 
 您可以排程活頁簿以透過電子郵件或匯出至雲端目的地來共用，如下列文章所述：
 
@@ -72,4 +72,4 @@ ht-degree: 2%
    * ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg)表示活頁簿已成功傳送。
    * ![AlertRed](/help/assets/icons/AlertRed.svg)表示發生錯誤。
 
-或者，您也可以在&#x200B;**[!UICONTROL 活頁簿]**&#x200B;索引標籤中，為一個或多個選取的活頁簿選取![歷程記錄](/help/assets/icons/History.svg)。 此動作顯示&#x200B;**[!UICONTROL History]**&#x200B;索引標籤，其中包含依您的選取範圍篩選的清單。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除篩選器。
+或者，您也可以在![活頁簿](/help/assets/icons/History.svg)索引標籤中，為一個或多個選取的活頁簿選取&#x200B;**[!UICONTROL 歷程記錄]**。 此動作顯示&#x200B;**[!UICONTROL History]**&#x200B;索引標籤，其中包含依您的選取範圍篩選的清單。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除篩選器。

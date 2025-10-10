@@ -36,7 +36,7 @@ Customer Journey Analytics 中的幾項功能都經過重新命名和重新設�
 
 Customer Journey Analytics 從 Adobe Experience Platform 取得資料。Experience Platform 可讓您集中並標準化來自任何系統或通道的客戶資料和內容，並應用資料科學和機器學習來改進個性化體驗的設計和交付。
 
-Experience Platform 中的客戶資料以資料集形式儲存，資料集含有[結構描述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant)和資料批次。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概覽](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
+Experience Platform 中的客戶資料以資料集形式儲存，資料集含有[結構描述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant)和資料批次。如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概觀](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
 
 您的 Customer Journey Analytics 管理員會建立與 Experience Platform 中資料集的[連線](/help/connections/create-connection.md)。然後他們會使用這些連線來建置[資料檢視](/help/data-views/data-views.md)。資料檢視在概念上與虛擬報告套裝相似，是 Customer Journey Analytics 報告的基礎。由於 Experience Platform 會從是所有報告資料取得來源，因此報告套裝不再以資料容器存在。
 
@@ -76,7 +76,7 @@ Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包�
 
 ## 區段概念的變動
 
-嚴格來說，區段並未從 Adobe Analytics 移轉到 Customer Journey Analytics，但您可以使用元件移轉工具在 Customer Journey Analytics 中重新建立 Adobe Analytics 區段。根據對應的維度和計量在 Customer Journey Analytics 中重新建立區段。如需更多資訊，請參閱[準備將元件和專案從 Adobe Analytics 移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=zh-Hant)。
+嚴格來說，區段並未從 Adobe Analytics 移轉到 Customer Journey Analytics，但您可以使用元件移轉工具在 Customer Journey Analytics 中重新建立 Adobe Analytics 區段。根據對應的維度和計量在 Customer Journey Analytics 中重新建立區段。如需更多資訊，請參閱[準備將元件和專案從 Adobe Analytics 移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)。
 
 雖然您尚不能從 [!DNL Customer Journey Analytics] 共用或發佈[!UICONTROL 區段] ([!UICONTROL 區段]) 至 Experience Platform 統一輪廓，但此功能已正在開發中。
 

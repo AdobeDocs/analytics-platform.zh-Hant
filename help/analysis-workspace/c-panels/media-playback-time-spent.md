@@ -6,8 +6,8 @@ exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
 source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 98%
+source-wordcount: '1076'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的媒體播放時間面板。<br/>_請查閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 版本的[媒體播放時間面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)。_
+_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ 中的媒體播放時間面板。<br/>_請查閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本的[媒體播放時間面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!NOTE]
 >
 >媒體平均分鐘觀眾數面板僅供已購買 Customer Journey Analytics 串流媒體集合附加元件的客戶使用。
->&#x200B;>請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
+>>請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
 >
 
 **[!UICONTROL 媒體播放時間]**&#x200B;面板可進行特定期間的播放分析，提供尖峰期同時觀看人數的詳細資訊，並具備劃分和比較的能力。
@@ -60,7 +60,7 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間](https://video.tv.adobe.com/v/3446711?captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間](https://video.tv.adobe.com/v/338699){target="_blank"}的示範影片。
 
 {{videoaa}}
 
@@ -91,7 +91,7 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 | 面板摘要數字 | 若要查看播放時間的日期或時間詳細資訊，可使用摘要數字。「最大值」會顯示高峰期同時觀看人數的詳細資訊。「最小值」會顯示低谷期的詳細資訊。「總和」會加總選取範圍所花費的總播放時間。面板預設僅顯示「最大值」，但您可加以改變，以顯示「最小值」、「總和」或三者的任何組合。<br>如果您使用劃分功能，每項會顯示累加數。 |
 | 序列劃分 | 您可視需要將視覺效果按區段、維度、維度項目或日期範圍劃分。<p>- 一次最多可檢視 10 行。劃分限於單一層級。</p><p>- 拖曳一個維度時，系統將根據選取面板日期範圍自動選取最上層的維度項目。</p>- 若要比較日期範圍，請將 2 個或多個日期範圍拖放到序列劃分區段。 |
 | 時間格式 | 您可以`Hours:Minutes:Seconds` (預設) 或`Minutes` (會以整數顯示，0.5 會四捨五入) 來檢視播放時間。 |
-| 日期序列顯示 | 如果您選定至少兩個日期範圍區段進行序列劃分，您會看到可選取覆蓋 (預設) 或循序的選項。覆蓋會顯示具有常見 x 軸起點的線條，因此它們會平行執行，而序列會顯示具有特定 x 軸起點的線條。如果資料排列整齊 (例如，區段 1 在下午 8:44 結束，而區段 2 在下午 8:45 開始)，則這些線條會按序列顯示。 |
+| 日期序列顯示 | 如果您選定至少兩個日期範圍區段進行序列劃分，您會看到可選取覆蓋 (預設) 或循序的選項。覆蓋會顯示具有常見 x 軸起點的線條，因此它們會平行執行，而序列會顯示具有特定 x 軸起點的線條。如果資料排列整齊（例如，區段1在下午8:44結束，而區段2在下午8:45開始），則這些線將按順序顯示。 |
 
 
 ![媒體播放時間的預設視圖。](assets/mpts_default_view.png)
@@ -129,6 +129,6 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!MORELIKETHIS]
 >
 >[建立面板](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
->&#x200B;>[媒體同時檢視者面板](media-concurrent-viewers.md)
+>>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
+>>[媒體同時檢視者面板](media-concurrent-viewers.md)
 >

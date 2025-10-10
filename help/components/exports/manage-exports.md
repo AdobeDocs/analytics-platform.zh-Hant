@@ -8,13 +8,13 @@ role: User
 source-git-commit: 6f8a43acfba23d6faeff078873742315f1506699
 workflow-type: tm+mt
 source-wordcount: '1029'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 # 管理匯出
 
-匯出完整資料表(如[匯出Customer Journey Analytics報告至雲端](/help/analysis-workspace/export/export-cloud.md)中所述)之後，可在[!UICONTROL 匯出]頁面的[!UICONTROL 匯出]索引標籤上取得匯出。
+匯出完整資料表(如[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述)後，可在[!UICONTROL 匯出]頁面的[!UICONTROL 匯出]索引標籤上取得匯出。
 
 您只能看到您建立的匯出。
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 
    | 篩選器 | 說明 |
    |---------|----------|
-   | [!UICONTROL **帳戶類型**] | 與匯出相關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3角色ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google雲端平台**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
+   | [!UICONTROL **帳戶類型**] | 與匯出相關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **AEP Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
    | [!UICONTROL **狀態**] | 匯出的狀態。 可使用下列狀態： <ul><li>[!UICONTROL **作用中**]：指出排定的匯出尚未過期，或一次性匯出尚未完成。 </li><li>[!UICONTROL **已完成**]：表示匯出已成功匯出。 對於排程的匯出，這表示排程已過期。</li><li>[!UICONTROL **已失敗**]<p>下列情況可能會導致匯出失敗。 將游標暫留在&#x200B;[!UICONTROL **失敗**]&#x200B;狀態上可檢視有關失敗的詳細資料。 <ul><li>排程的匯出到期日</li><li>已達排程匯出的列數限制 </li></ul> </p></li></ul> |
    | [!UICONTROL **頻率**] | 匯出的頻率。 可使用下列頻率： <ul><li>[!UICONTROL **一次**]</li><li>[!UICONTROL **每日**]</li><li>[!UICONTROL **每週**]</li><li>[!UICONTROL **每月**]</li><li>[!UICONTROL **每年**]</li></ul> |
 
@@ -60,11 +60,11 @@ ht-degree: 4%
 
    選取多個匯出專案時，此選項無法使用。
 
-1. 選取&#x200B;[!UICONTROL **編輯**]。
+1. 選取「[!UICONTROL **編輯**]」。
 
    顯示&#x200B;[!UICONTROL **匯出完整資料表**]&#x200B;對話方塊。
 
-1. 更新任何可用選項。 如需各個選項的相關資訊，請參閱[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中的[從Analysis Workspace匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)。
+1. 更新任何可用選項。 如需各個選項的相關資訊，請參閱[將Analysis Workspace報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)中的[從Customer Journey Analytics匯出完整表格](/help/analysis-workspace/export/export-cloud.md)。
 
 ## 複製匯出
 
@@ -128,15 +128,15 @@ ht-degree: 4%
 
 1. 在Customer Journey Analytics中，選取&#x200B;[!UICONTROL **元件**] > [!UICONTROL **匯出**]。
 
-1. 在&#x200B;[!UICONTROL **匯出**]&#x200B;索引標籤上，選取[!UICONTROL 匯出]頁面右上角的&#x200B;**自訂表格**&#x200B;圖示![自訂表格](assets/customize-table-icon.png)。
+1. 在&#x200B;[!UICONTROL **匯出**]&#x200B;索引標籤上，選取&#x200B;**匯出**&#x200B;頁面右上角的![自訂表格](assets/customize-table-icon.png)圖示[!UICONTROL 自訂表格]。
 
-   可使用下列欄:
+   可使用下列欄：
 
    | 可用欄 | 說明 |
    |---------|----------|
-   | 名稱 | 匯出的名稱。 使用者在建立匯出時為其命名，如[匯出至雲端的Customer Journey Analytics報告](/help/analysis-workspace/export/export-cloud.md)中所述。 |
+   | 名稱 | 匯出的名稱。 使用者在建立匯出時為其命名，如[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述。 |
    | ID | 建立匯出時自動指派的ID。<!-- True? --> |
-   | 資料檢視名稱 | 與匯出相關聯的資料檢視名稱。 使用者可以在建立匯出時選取資料檢視，如[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述。 |
+   | 資料檢視名稱 | 與匯出相關聯的資料檢視名稱。 使用者建立匯出時可選取資料檢視，如[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述。 |
    | 狀態 | 匯出的狀態。 可用的狀態為[!UICONTROL 作用中]、[!UICONTROL 已完成]及[!UICONTROL 失敗]。<p> **注意：**&#x200B;如需疑難排解匯出失敗的資訊，請參閱[疑難排解匯出失敗](/help/components/exports/troubleshoot-exports.md)。</p> |
    | 標記 | 顯示套用至匯出的任何標籤。 如需如何將標籤套用至匯出的詳細資訊，請參閱[標籤匯出](#tag-an-export)。 |
    | 表格大小 (上次傳送) | 上次傳送匯出的大小。 |
@@ -148,7 +148,7 @@ ht-degree: 4%
    | 傳送時間 | 傳送匯出的時間。 |
    | 最後傳送 | 上次傳送匯出的時間。 |
    | 修改時間 | 上次修改匯出的時間。 依預設，「匯出」頁面上的專案會依此欄排序。 |
-   | 帳戶類型 | 匯出資料所在的雲端帳戶型別。 可用的帳戶型別為[!UICONTROL Amazon S3SnowflakeARN]、[!UICONTROL Google雲端平台]、[!UICONTROL Azure SAS]、[!UICONTROL Azure RBAC]、[!UICONTROL 角色]和[!UICONTROL Adobe Experience Platform]。 |
+   | 帳戶類型 | 匯出資料所在的雲端帳戶型別。 可用的帳戶型別為[!UICONTROL Amazon S3角色ARN]、[!UICONTROL Google Cloud Platform]、[!UICONTROL Azure SAS]、[!UICONTROL Azure RBAC]、[!UICONTROL Snowflake]和[!UICONTROL Adobe Experience Platform]。 |
 
    {style="table-layout:auto"}
 

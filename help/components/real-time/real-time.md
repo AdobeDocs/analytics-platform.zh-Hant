@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # 即時報告概觀
 
-Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis Workspace 中一個或多個面板內的資料和視覺化呈現內容。
+Customer Journey Analytics 中的即時報告，會即時顯示並更新 Analysis Workspace 中一或多個面板內的資料和視覺效果。
 
 {{release-limited-testing}}
 

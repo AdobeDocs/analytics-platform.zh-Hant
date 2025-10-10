@@ -13,11 +13,11 @@ ht-degree: 26%
 
 ---
 
-# Report Builder設定
+# Report Builder 設定
 
 本文概述在Microsoft Excel中使用適用於Customer Journey Analytics的Report Builder的需求。 以及如何安裝及設定增益集。
 
-## 要求
+## 需求
 
 下列作業系統和網頁瀏覽器支援適用於Customer Journey Analytics的Report Builder。
 
@@ -58,7 +58,7 @@ ht-degree: 26%
 
 1. 搜尋`Report Builder`並選取&#x200B;**[!UICONTROL 新增]**。
 
-1. 在[授權條款和隱私權原則]對話方塊中，選取[繼續]。**&#x200B;**
+1. 在[授權條款和隱私權原則]對話方塊中，選取[繼續]。****
 
 如果未顯示&#x200B;**[!UICONTROL 存放區]**&#x200B;索引標籤：
 

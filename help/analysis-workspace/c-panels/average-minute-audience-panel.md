@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 93%
+source-wordcount: '1681'
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的媒體平均分鐘觀眾數面板。<br/>_請參閱[媒體平均分鐘觀眾數面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)，以取得本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 版本。_
+_本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ 中的媒體平均分鐘觀眾數面板。<br/>_請參閱[媒體平均分鐘觀眾數面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)，以取得本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
    | 選項 | 說明 |
    |---------|------------|
-   | **[!UICONTROL 詳細程度]** | 預設詳細程度為 [!UICONTROL **5 分鐘**]，但是您可以在選取的時段內選擇用於時間序列分母的任何詳細程度。例如，選取 12:00 pm 到 12:30 pm，5 分鐘詳細程度會傳回半小時的平均分鐘觀眾數，以及六列每 5 分鐘時段的平均分鐘觀眾數。這些列會當作時間序列圖表的資料點使用。 |
+   | **[!UICONTROL 詳細程度]** | 預設詳細程度為 [!UICONTROL **5 分鐘**]，但是您可以在選取的時段內選擇用於時間序列分母的任何詳細程度。例如，選取12:00 pm到12:30 pm當作5分鐘詳細程度，會傳回超過半小時的平均每分鐘觀眾數，以及每5分鐘時段的平均每分鐘觀眾數。 這些列會當作時間序列圖表的資料點使用。 |
    | [!UICONTROL **內容篩選依據 (可選)**] | 根據您想要的檢視或是資料結構化的方式來選擇如何篩選特定內容。 <ul>[!UICONTROL **節目、季度、集數**]：在下拉式清單顯示您可使用搜尋來篩選的可用節目 (或透過從左側邊攔拖放節目名稱)。您可以在該處結束選擇，以查看所有季度的節目，也可以依個別季度然後依個別集數篩選節目。 此設定會針對所選時段顯示這些節目、季度或集數的資料。</li><li>[!UICONTROL **自訂維度**]：如果您的節目名稱在自訂維度底下，您可以在維度（選擇性）功能表中搜尋或使用左欄搜尋來尋找它。 此維度項目會自動根據該選擇填入，而且被視為集數。</li><li>[!UICONTROL **無**]：針對您所選的選取項目來顯示所有具有平均分鐘觀眾數資料的影片名稱。(根據預設選取此選項。)</li></ul> |
 
 1. 繼續「[自訂時段進階設定](#custom-time-period-advanced-settings)」，以設定進階設定。
@@ -187,6 +187,6 @@ _本文記錄有_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!MORELIKETHIS]
 >
 > [建立面板](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [媒體同時檢視者面板](media-concurrent-viewers.md)
-> &#x200B;> [媒體播放時間面板](media-playback-time-spent.md)
+> > [媒體同時檢視者面板](media-concurrent-viewers.md)
+> > [媒體播放時間面板](media-playback-time-spent.md)
 >

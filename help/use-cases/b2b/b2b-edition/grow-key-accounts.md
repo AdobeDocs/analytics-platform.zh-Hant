@@ -21,13 +21,13 @@ ht-degree: 3%
 
 ## 銷售階段進度
 
-您想要產生並分配臨機銷售機會轉換報表，並瞭解帳戶如何透過銷售漏斗進行作業。
+您想要產生並發佈臨時銷售機會轉換報表，並瞭解帳戶在銷售funnel中的進度。
 
 [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)視覺效果可讓您以視覺效果呈現順序歷程中預先定義步驟之間的轉換率和流失率。
 
 ### 範例
 
-您想要檢視客戶的銷售漏斗頂端（從銷售線索到商機）的流失。
+您想要檢視客戶銷售funnel最高層流失（從銷售線索到商機）。
 
 1. [建立並設定流失](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)視覺效果。
 1. 選取![設定](/help/assets/icons/Setting.svg)以選取&#x200B;**[!UICONTROL 帳戶]**&#x200B;作為&#x200B;**[!UICONTROL 流失容器]**。

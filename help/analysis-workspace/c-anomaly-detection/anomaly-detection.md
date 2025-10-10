@@ -5,9 +5,9 @@ feature: Anomaly Detection
 exl-id: f706cdb9-bc80-42b9-9450-4f68bdb3fd85
 role: User
 source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 您可以在 Analysis Workspace 內依內容檢視和分析資料異常的情況。
 
-[「異常偵測」教學影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html?lang=zh-Hant) (4:53)
+[異常偵測教學影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。
 

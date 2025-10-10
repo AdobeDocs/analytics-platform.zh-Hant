@@ -1,12 +1,12 @@
 ---
-description: 瞭解計算量度產生器，該產生器提供畫布來拖放維度、量度、區段和函式，以便根據容器階層邏輯、規則和運運算元建立自訂量度。
+description: 了解計算量度產生器提供的畫布可用來拖放維度、量度、區段及函數，以根據容器階層邏輯、規則及運算子來建立自訂量度。
 title: 建立量度
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1613'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -199,5 +199,5 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
 >[!MORELIKETHIS]
 >
 >[使用函數](cm-using-functions.md)
->&#x200B;>[區段](/help/components/segments/seg-overview.md)
+>>[區段](/help/components/segments/seg-overview.md)
 >

@@ -1,12 +1,12 @@
 ---
-description: 瞭解量度型別和歸因。
-title: 量度型別和歸因
+description: 了解關於量度類型和歸因。
+title: 量度類型和歸因
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -163,6 +163,6 @@ ht-degree: 98%
 >[!MORELIKETHIS]
 >
 >[歸因元件設定](/help/data-views/component-settings/attribution.md)
->&#x200B;>[參與率量度](participation-metric.md)
+>>[參與率量度](participation-metric.md)
 >
 

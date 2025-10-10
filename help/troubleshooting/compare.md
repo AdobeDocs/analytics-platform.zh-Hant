@@ -27,14 +27,14 @@ ht-degree: 4%
 * **行事曆設定**： Adobe Analytics中的報表套裝包含您可設定的時區和其他行事曆設定。 同樣地，Customer Journey Analytics中的資料檢視也有個別設定可供您控制。 如果需要同位，請確定這些設定在產品之間相符。
 * **其他資料集**： Customer Journey Analytics提供可在單一連線中包含多個資料集的功能。 這些差異包括其他事件資料集、設定檔資料集或查詢資料集。 此功能是Adobe Analytics與Customer Journey Analytics之間的關鍵差異，可讓insight處理跨管道資料。
 * **拼接資料集**： Adobe提供可在兩個資料集之間分析人員ID的功能，進而產生包含拼接ID的新資料集。 這些[拼接資料集](/help/stitching/overview.md)包含Adobe Analytics報表套裝提供的資料以外的其他資料。
-* **資料來源**： Customer Journey Analytics不包含任何已上傳至Adobe Analytics報表套裝的[資料來源](https://experienceleague.adobe.com/zh-hant/docs/analytics/import/data-sources/overview)型別，包括摘要資料來源或交易ID資料來源。
+* **資料來源**： Customer Journey Analytics不包含任何已上傳至Adobe Analytics報表套裝的[資料來源](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/overview)型別，包括摘要資料來源或交易ID資料來源。
 * **Dimension和量度設定**：在資料檢視中，每個維度和量度都包含其自己的設定，您的組織可以加以變更。 這些變更會在執行報表時套用，因此會回溯套用。 Dimension和Adobe Analytics中的量度設定會變更資料的收集方式，而讓這些變更從此時間點開始套用。 如果您變更了任一產品的元件設定，這些設定可能會產生報表差異。 如果聚焦於特定維度，請確保Adobe Analytics和Customer Journey Analytics之間的歸因和持續性設定相符。
 
   >[!TIP]
   >
   >Adobe強烈建議Adobe Analytics中的維度使用&#39;[!UICONTROL 最近（最後一個）]&#39;的配置。 此配置設定可讓Customer Journey Analytics提供更大的歸因靈活性。
 
-* **造訪定義**：除了個別維度和量度設定外，資料檢視本身也包含從根本上改變訪客資料解譯方式的設定。 例如，您可以將區段套用至整個資料檢視(類似Adobe Analytics中的[虛擬報告套裝](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/virtual-report-suites/vrs-about))。 您也可以變更造訪持續時間的定義，或是在任何需要的事件上自動開始新的造訪。 這些設定中的任何一個都會對Customer Journey Analytics和Adobe Analytics之間的報表差異產生顯著影響。
+* **造訪定義**：除了個別維度和量度設定外，資料檢視本身也包含從根本上改變訪客資料解譯方式的設定。 例如，您可以將區段套用至整個資料檢視(類似Adobe Analytics中的[虛擬報告套裝](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-about))。 您也可以變更造訪持續時間的定義，或是在任何需要的事件上自動開始新的造訪。 這些設定中的任何一個都會對Customer Journey Analytics和Adobe Analytics之間的報表差異產生顯著影響。
 
 ## 檢查產品之間的記錄計數
 

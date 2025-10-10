@@ -1,5 +1,5 @@
 ---
-description: 瞭解區段產生器如何提供畫布來拖放量度、維度、區段和事件，以便根據容器階層邏輯、規則和運運算元來區分訪客。 瞭解如何建立並儲存簡單或複雜的區段，用以識別跨造訪及頁面點選的訪客屬性和動作。
+description: 瞭解區段產生器如何提供畫布來拖放量度、維度、區段和事件，以便根據容器階層邏輯、規則和運運算元來區分訪客。 了解您如何可以建立並儲存簡單或複雜的區段，用以識別每次造訪及頁面點選的訪客屬性和動作。
 title: 建立區段
 feature: Filters, Segments
 role: User
@@ -7,11 +7,11 @@ exl-id: 160021f1-6942-4682-9114-d375307d9912
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
-# 建立細分群體 {#build-segments}
+# 建立區段 {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"

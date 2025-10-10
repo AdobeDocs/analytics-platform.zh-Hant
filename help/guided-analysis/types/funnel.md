@@ -6,7 +6,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 產品分析
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
  ![轉換漏斗](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 漏斗&#x200B;]**分析以直覺的方式呈現您產品中關鍵的使用者歷程。橫軸代表使用者必須傳遞的每個步驟。縱軸表示每個步驟的使用者或工作階段的百分比。所有步驟都必須按最終順序完成，但可以在報告視窗內的任何時間發生。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431278/?quality=12&learn=on&captions=chi_hant){width="90%"}
+>[!VIDEO](https://video.tv.adobe.com/v/3421663/?quality=12&learn=on){width="90%"}
 
 ## 使用案例
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 ### 日期範圍
 
-您希望分析的日期範圍。此設定有兩個元件：
+您想要分析的日期範圍。此設定有兩個元件：
 
 * **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期細度。此設定不會影響非趨勢分析，例如[漏斗](funnel.md)。
 * **[!UICONTROL 日期]**：開始和結束日期。為方便您使用，我們提供滾動日期範圍預設和先前儲存的自訂範圍，或者您可以使用行事曆選擇器來選擇固定的日期範圍。

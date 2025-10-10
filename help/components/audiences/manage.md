@@ -5,9 +5,9 @@ exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ## 在客群清單中檢視客群
 
-客群清單 ➊ 會顯示現有客群。
+對象清單➊會顯示現有的對象。
 
 ![客群管理員](assets/audiences-manager.png)
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 ## 篩選客群清單
 
-您可以使用篩選器面板 ➋ 來篩選[客群清單](#audiences-list)。若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
+您可以使用篩選面板[來篩選](#audiences-list)對象清單➋。 若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
 
 ![客群管理員](assets/audiences-manager.png)
 

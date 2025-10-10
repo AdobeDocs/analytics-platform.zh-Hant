@@ -27,7 +27,7 @@ ht-degree: 2%
 
 ## 結構描述
 
-您需要建立以模型為基礎的[結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/model-based){target="_blank"}，以模型化您要映象的資料倉儲原生表格。 當您建構以模型為基礎的結構描述時，請確保符合下列需求：
+您需要建立以模型為基礎的[結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based){target="_blank"}，以模型化您要映象的資料倉儲原生表格。 當您建構以模型為基礎的結構描述時，請確保符合下列需求：
 
 * 當提示您輸入以模型為基礎的結構描述型別時，請確定您選取手動選項。
 * 為資料型別選取適當的結構描述。 請注意，Experience Platform Data Mirror主要用於時間序列資料（例如事件資料）。
@@ -53,9 +53,9 @@ ht-degree: 2%
 
 如需針對支援的Data Warehouse原生解決方案進行驗證的相關資訊，請參閱Experience Platform相關檔案：
 
-* [Azure資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### 選取資料
@@ -91,5 +91,5 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >[Data Mirror快速入門手冊：映象並使用模型資料](model-based.md)
->&#x200B;>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview)
->&#x200B;>[以模型為基礎的結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/model-based)
+>>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>>[以模型為基礎的結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)

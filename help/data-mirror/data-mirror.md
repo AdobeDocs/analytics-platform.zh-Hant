@@ -9,7 +9,7 @@ exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
 source-git-commit: 25d0647c6a764d8f4306a5c049a7a68e0426cef9
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Data Mirror提供下列資料庫同步處理的基本功能：
 
 使用Data Mirror直接從來源系統擷取變更、強制執行結構描述完整性，並讓資料可用於分析、歷程協調及合規性工作流程。 Data Mirror可免除複雜的上游ETL程式，並透過啟用現有資料庫模型的直接映象來加速實作。 這種消除可透過精確控制刪除和資料衛生操作，從而增強資料治理。
 
-另請參閱有關Data Mirror[的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}Experience Platform檔案。
+另請參閱有關Data Mirror[的](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}Experience Platform檔案。
 
 ## 適用於Customer Journey Analytics的Data Mirror
 
@@ -44,12 +44,12 @@ Data Mirror提供下列資料庫同步處理的基本功能：
 
 適用於Customer Journey Analytics的Experience Platform Data Mirror可用於選取的Data Warehouse原生解決方案（[!DNL Azure Databricks]、[!DNL Google BigQuery]和[!DNL Snowflake]）。 Customer Journey Analytics版本的Experience Platform Data Mirror需要正確設定下列應用程式或元件：
 
-* [Data Warehouse原生解決方案](datawarehouse.md)
+* [資料倉儲原生解決方案](datawarehouse.md)
 * [Experience Platform](aep.md)
 * [Customer Journey Analytics](cja.md)
 
 >[!MORELIKETHIS]
 >
 >[Data Mirror快速入門手冊：映象並使用模型資料](model-based.md)
->&#x200B;>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview)
->&#x200B;>[以模型為基礎的結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/model-based)
+>>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>>[以模型為基礎的結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)

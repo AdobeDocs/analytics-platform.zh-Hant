@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
 source-git-commit: 3e521cb4ef532d57b9f408fc12dcf138f130f059
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
    >[!IMPORTANT]
    >
-   >您只能進行 1:1 的轉移，從一個使用者轉移到另一個使用者。不支援一對多或多對一的轉移。
+   >您只能從一個使用者到另一個使用者進行1:1轉移。 不支援一對多或多對一的轉移。
 
 
 1. 在選取使用者之後，轉移資產選項會出現在畫面底部。

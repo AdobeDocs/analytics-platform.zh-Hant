@@ -15,7 +15,7 @@ ht-degree: 7%
 # 移除專案
 
 
-請參閱管理專案[&#128279;](../freeform-overview.md#actions)中的動作，瞭解如何從Analysis Workspace移除專案。
+請參閱管理專案[中的](../freeform-overview.md#actions)動作，瞭解如何從Analysis Workspace移除專案。
 
 
 <!-- Is this article still needed; not in the TOC anymore

@@ -21,7 +21,7 @@ ht-degree: 6%
 
 ## 簡介
 
-使用[!DNL Customer Journey Analytics Full Table Export]匯出資料可讓您從Customer Journey AnalyticsAnalysis Workspace中的自由表格匯出資料。
+使用[!DNL Customer Journey Analytics Full Table Export]匯出資料可讓您從Customer Journey Analytics Analysis Workspace中的自由表格匯出資料。
 
 ![BI延伸模組](../assets/export-full-table.svg)
 

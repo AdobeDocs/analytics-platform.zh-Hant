@@ -12,7 +12,7 @@ ht-degree: 20%
 
 # Customer Journey Analytics使用的網域
 
-有些防火牆設定會封鎖Customer Journey Analytics賴以取得其產品介面的網域。 您可以使用此網域清單來變更組織的網路設定，以允許從組織內部存取產品。 Adobe建議允許這些網域通過貴組織的防火牆，以獲得最佳體驗。
+有些防火牆設定會封鎖Customer Journey Analytics賴以取得產品介面的網域。 您可以使用此網域清單來變更組織的網路設定，以允許從組織內部存取產品。 Adobe建議允許這些網域通過貴組織的防火牆，以獲得最佳體驗。
 
 | 技術 | 網域 |
 | --- | --- |
@@ -28,10 +28,10 @@ ht-degree: 20%
 
 ## Adobe Experience Cloud 網域
 
-除了上述網域外，Adobe Experience Cloud還仰賴數個網域進行資料收集和匯出報表。 如需此網域清單，請參閱[Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/domains)。
+除了上述網域外，Adobe Experience Cloud還仰賴數個網域進行資料收集和匯出報表。 如需此網域清單，請參閱[Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)。
 
 >[!MORELIKETHIS]
 >
->Customer Journey Analytics[&#128279;](ip-addresses.md)使用的IP位址
+>Customer Journey Analytics使用的[個IP位址](ip-addresses.md)
 >
->[Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/domains)
+>[Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

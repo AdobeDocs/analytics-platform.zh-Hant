@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 1. 在 Experience Platform UI 中，選取左側導覽中的「**[!UICONTROL 監控]**」。
 
-   監控儀表板會顯示。此儀表板可讓您檢視大量或串流攝取的輸入資料狀態。
+   監控儀表板會顯示。此儀表板可讓您檢視批次或串流攝取的輸入資料狀態。
 
    <!-- insert screenshot -->
 

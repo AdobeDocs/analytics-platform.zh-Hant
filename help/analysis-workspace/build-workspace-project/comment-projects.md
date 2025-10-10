@@ -7,13 +7,13 @@ exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
 source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
 workflow-type: tm+mt
 source-wordcount: '1857'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 在專案中新增和管理註解 {#comment-on-projects}
 
-Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文中分享見解和提出問題。 如此可簡化有關資料的討論，讓對話保持在討論的資料內容中。
+Analysis Workspace中的評論可讓您在Analysis Workspace專案的上下文中分享見解和提出問題。 這樣可以讓資料相關討論更加精簡，使對話聚焦於所討論的資料範圍內。
 
 >[!NOTE]
 >
@@ -149,9 +149,9 @@ Analysis Workspace中的評論功能可讓您更輕鬆地與他人合作。
 
 ## 接收有關評論的通知
 
-專案所有者和您提到的[特定人員](#include-others-in-a-comment)會根據其Adobe Experience Cloud通知設定收到通知。 依預設，使用者會收到應用程式內通知，可在Customer Journey Analytics中的[Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#view-notifications)圖示![Experience Cloud通知圖示](assets/experience-cloud-notification.svg)中看到。
+專案所有者和您提到的[特定人員](#include-others-in-a-comment)會根據其Adobe Experience Cloud通知設定收到通知。 依預設，使用者會收到應用程式內通知，可在Customer Journey Analytics中的[Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)圖示![Experience Cloud通知圖示](assets/experience-cloud-notification.svg)中看到。
 
-此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
+此外，使用者可以透過訂閱[電子郵件通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications)和[訂閱Experience Cloud通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)，設定其Slack通知設定來接收電子郵件通知和Slack通知。
 
 ## 為現有評論放置徽章
 

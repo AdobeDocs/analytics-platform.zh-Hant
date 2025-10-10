@@ -20,9 +20,9 @@ ht-degree: 79%
 >
 >您確實已使用任何以下記錄式實作方法，將 Adobe Analytics 授權並部署在一個或多個網站上：
 >
->- [使用 Experience Platform Edge 實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=zh-Hant)
+>- [使用 Experience Platform Edge 實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
 >
->- [使用 Adobe Analytics 擴充功能實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=zh-hant)
+>- [使用 Adobe Analytics 擴充功能實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)
 >
 >- [使用 JavaScript 實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hant)
 
@@ -83,7 +83,7 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
 完成初始擷取後，您的 Adobe Analytics 報告套裝資料就準備就緒，可供 Customer Journey Analytics 使用。
 
-請參閱[在 UI 中建立 Adobe Analytics 來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)，取得更完整的教學課程。
+請參閱[在 UI 中建立 Adobe Analytics 來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-hant)，取得更完整的教學課程。
 
 
 ## 設定連線
@@ -193,7 +193,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 若要建立您的第一個報表，請開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的輪廓。
+5. 若要建立您的第一個報表，請開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概觀已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的輪廓。
 
    ![工作區 – 第一份報告](./assets/cja-projects-5.png)
 

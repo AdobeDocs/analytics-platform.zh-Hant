@@ -7,7 +7,7 @@ exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
 在Journey畫布中，對於歷程較晚進入的節點，可能會顯示比歷程中較早進入的節點更高的百分比或數量計數。
 
-換句話說，和「流失」視覺效果不同，「流失」視覺效果總是漏斗形（參與率會隨著每個步驟而減少），「歷程」畫布視覺效果在歷程後續步驟中的參與率可能比在先前的步驟中更高。
+換言之，與永遠是funnel形狀的流失視覺效果不同（參與率會隨著每個步驟而減少），歷程畫布視覺效果在歷程的後續步驟中比在之前的步驟中擁有更高的參與率。
 
 這可能發生在以下情境中：
 
@@ -51,7 +51,7 @@ Journey Canvas視覺效果可讓您分析和深入瞭解您提供給使用者和
 
 在此範例中，歷程的「人員」容器設定在判斷第三個節點上的事件（「取出」）是否計入後續工作階段中時，扮演關鍵角色。
 
-或者，如果容器設定已設為「工作階段」，則後續造訪中僅發生在第三個節點上的事件將不會計入歷程中，因為歷程中顯示的統計資料將限製為給定人員的單一已定義工作階段。 若要深入瞭解容器設定，請參閱文章[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)中的[開始建立歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)
+或者，如果容器設定已設為「工作階段」，則後續造訪中僅發生在第三個節點上的事件將不會計入歷程中，因為歷程中顯示的統計資料將限製為給定人員的單一已定義工作階段。 若要深入瞭解容器設定，請參閱文章[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)中的[開始建立歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
@@ -89,7 +89,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++開始節點的百分比
 
-當&#x200B;**[!UICONTROL 百分比值]**&#x200B;欄位設定為起始節點&#x200B;**的**&#x200B;百分比時，此歷程中的節點包含下列統計資料：
+當&#x200B;**[!UICONTROL 百分比值]**&#x200B;欄位設定為起始節點&#x200B;**[!UICONTROL 的]**&#x200B;百分比時，此歷程中的節點包含下列統計資料：
 
 ![包含百分比高於先前節點](assets/journey-canvas-higher-percentage.png)之節點的歷程
 
@@ -115,7 +115,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 +++
 
-+++總數的百分比
++++佔總數的百分比
 
 當&#x200B;**[!UICONTROL 百分比值]**&#x200B;欄位設定為總數的&#x200B;**[!UICONTROL 百分比]**&#x200B;時，此歷程中的節點包含下列統計資料：
 

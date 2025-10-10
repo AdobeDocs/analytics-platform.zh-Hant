@@ -1,7 +1,8 @@
 ---
 title: Customer Journey Analytics中的協力廠商使用案例
 description: 瞭解如何以從Customer Journey Analytics外部產品收集的資料來補充Adobe中收集的資料。
-source-git-commit: 6ddc0f1e2afa73a6925f1940c08c4fecfc3de383
+exl-id: 3de5ccaf-7a65-448e-b886-fab56bc2a73b
+source-git-commit: 0387a1f88cc46706eb36effda1c3c1c64fff45d9
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

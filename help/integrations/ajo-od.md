@@ -5,7 +5,7 @@ exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 100%
 
@@ -14,15 +14,15 @@ ht-degree: 100%
 # 整合決策管理
 
 
-Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant)透過集中行銷產品建議資料庫和決策引擎來輕鬆實現個人化；該決策引擎會將規則和限制套用至 Adobe Experience Platform 建立的豐富即時輪廓，協助您在適當的時間向客戶傳送適合的產品建議。
+Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)透過集中行銷產品建議資料庫和決策引擎來輕鬆實現個人化；該決策引擎會將規則和限制套用至 Adobe Experience Platform 建立的豐富即時輪廓，協助您在適當的時間向客戶傳送適合的產品建議。
 
-決策管理是 Adobe Journey Optimizer 的一部分，且與其整合。它也可以在 Adobe Journey Optimizer 定義的歷程和行銷活動以外獨立使用，從而運用其豐富的 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=zh-Hant) 支援。
+決策管理是 Adobe Journey Optimizer 的一部分，且與其整合。它也可以在 Adobe Journey Optimizer 定義的歷程和行銷活動以外獨立使用，從而運用其豐富的 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html) 支援。
 
 您可以匯入決策管理產生的資料，以透過以下步驟在 Customer Journey Analytics 中執行進階分析：
 
 ## 將資料從決策管理傳送到 Adobe Experience Platform
 
-Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Customer Journey Analytics 之間的連結。來自決策管理的資料是在 Experience Platform 中&#x200B;**自動**&#x200B;收集，或作為&#x200B;**明確傳送體驗事件** (例如曝光次數或點擊次數) 來收集。請參閱[開始使用資料收集](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=zh-Hant)以了解更多詳細資料。
+Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Customer Journey Analytics 之間的連結。來自決策管理的資料是在 Experience Platform 中&#x200B;**自動**&#x200B;收集，或作為&#x200B;**明確傳送體驗事件** (例如曝光次數或點擊次數) 來收集。請參閱[開始使用資料收集](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html)以了解更多詳細資料。
 
 ## 建立連線
 
@@ -42,7 +42,7 @@ Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Cu
 
 ## 建立資料視圖
 
-建立連線後，您可以建立一或多個[資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant)，以設定可在 Customer Journey Analytics 中使用的所需維度和量度。
+建立連線後，您可以建立一或多個[資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)，以設定可在 Customer Journey Analytics 中使用的所需維度和量度。
 
 >[!NOTE]
 >
@@ -73,12 +73,12 @@ Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Cu
 | 事件類型 (重新命名以參照特定事件，例如 `Feedback` (用於 `message.feedback`)) [ 1] | 特定事件類型的數量 | `eventType` | 元件類型：量度<br/>**[!UICONTROL 設定包含排除值&#x200B;]**：開啟<br/>**[!UICONTROL 符合]**：[!UICONTROL 如果所有條件都滿足]<br/>**[!UICONTROL 標準&#x200B;]**：**[!UICONTROL &#x200B;等於&#x200B;]**`message.feedback` |
 | 決策選項分數 | 單一範圍情境中決策選項的計算值。 | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | 元件類型：量度 |
 | 備援決策選項分數 | 單一範圍情境中備援決策選項的計算值。 | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | 元件類型：量度 |
-| 優惠關閉 | 在沒有任何其他直接互動的情況下關閉或拒絕的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 元件類型：量度 |
-| 優惠顯示 | 對輪廓顯示的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
-| 優惠互動 | 與輪廓互動的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件類型：量度 |
-| 優惠傳送 | 對輪廓傳送的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.send` | 元件類型：量度 |
-| 優惠觸發 | 選擇透過用戶端 SDK 顯示的優惠數量。 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件類型：量度 |
-| 優惠取消訂閱 | 輪廓要求未來不要顯示的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | 元件類型：量度 |
+| 產品建議關閉 | 在沒有任何其他直接互動的情況下關閉或拒絕的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | 元件類型：量度 |
+| 產品建議顯示 | 對輪廓顯示的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.display` | 元件類型：量度 |
+| 產品建議互動 | 與輪廓互動的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.interact` | 元件類型：量度 |
+| 產品建議傳送 | 對輪廓傳送的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.send` | 元件類型：量度 |
+| 產品建議觸發 | 選擇透過用戶端 SDK 顯示的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.trigger` | 元件類型：量度 |
+| 產品建議取消訂閱 | 輪廓要求未來不要顯示的產品建議數量。 | `_experience.decisioning.`<br/>`propositionEventType.unsubscribe` | 元件類型：量度 |
 
 {style="table-layout:auto"}
 

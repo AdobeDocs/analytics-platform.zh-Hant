@@ -5,7 +5,7 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
 source-git-commit: f3bd60d6a371a16e606d9af60e3359d8128a3c9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 100%
 
@@ -197,7 +197,7 @@ Customer Journey Analytics 和 Real-Time Customer Data Platform 之間可能會�
 
 #### 批次客群與串流客群
 
-Customer Journey Analytics 客群不包括在每日批量評估工作中，並且會維持不變，直到下一個發佈間隔。相對地，Real-Time Customer Data Platform 中的其他批次客群每 24 小時便會重新評估一次。
+Customer Journey Analytics 客群不包括在每日批次評估工作中，並且會維持不變，直到下一個發佈間隔。相對地，Real-Time Customer Data Platform 中的其他批次客群每 24 小時便會重新評估一次。
 
 ### 應記住的關鍵重點
 

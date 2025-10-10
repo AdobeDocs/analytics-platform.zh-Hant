@@ -3,7 +3,7 @@ title: 產品使用情況概觀
 description: 檢視有關您的組織如何使用 Customer Journey Analytics 的深入分析和報告。
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
 source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 100%
 

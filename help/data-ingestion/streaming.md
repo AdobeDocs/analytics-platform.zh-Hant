@@ -109,7 +109,7 @@ ht-degree: 83%
 
    ![指定電子郵件作為身分識別](./assets/specify-email-loyalty-id.png)
 
-   您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 輪廓行為的身分。
+   您正在指定電子郵件地址作為 Adobe Experience Platform 身分識別服務可用於結合 (拼接) 輪廓行為的身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在電子郵件屬性中。
 
@@ -117,7 +117,7 @@ ht-degree: 83%
 
    系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
@@ -129,7 +129,7 @@ ht-degree: 83%
 
 您已建立最小結構，以建立可內嵌至 Adobe Experience Platform 的忠誠度資料模型。該結構可讓您使用電子郵件地址來識別輪廓。透過啟用輪廓的結構，即可確保將來自串流來源的資料新增至即時客戶輪廓。
 
-請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
+請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
 ### 設定資料集
 
@@ -238,7 +238,7 @@ ht-degree: 83%
 
 您可以複製串流端點 URL，並用它來設定您的忠誠度應用程式，將資料串流至 Adobe Experience Platform 忠誠度資料集。
 
-請參閱[使用UI建立HTTP API串流連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=zh-Hant)，以取得更完整的教學課程說明：
+請參閱[使用UI建立HTTP API串流連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html)，以取得更完整的教學課程說明：
 
 - 如何使用驗證，
 - 當您的傳入資料與XDM結構描述不相容時，如何對應資料，以及
@@ -352,7 +352,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 若要建立您的第一個報表，請開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的輪廓。
+5. 若要建立您的第一個報表，請開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概觀已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的輪廓。
 
    ![工作區 – 第一份報告](./assets/cja-projects-5.png)
 

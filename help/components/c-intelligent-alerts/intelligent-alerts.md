@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Customer Journey Analytics 中的警報可讓您根據變更的百分比或特�
 * 建立在單一警報中擷取多個量度的「堆疊」警報
 * 根據異常情況建置警報 (90%、95%、99%、99.75% 和 99.9% 臨界值；百分比變更；高於/低於)(僅適用於擁有 Select、Prime 或 Ultimate 套件的 Customer Journey Analytics 客戶)
 
-以下影片教學課程提供警報基本概觀：[警報](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=zh-Hant) (在影片 5:34 處)
+下列影片教學課程提供警示的基本概觀： [警示](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=zh-Hant) (5:34)
 
 ## 了解警示有何差異
 

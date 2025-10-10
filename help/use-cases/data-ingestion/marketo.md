@@ -33,13 +33,13 @@ ht-degree: 13%
 
 +++ 1.將Marketo來源資料欄位對應至其XDM目標
 
-將[人員](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)和[活動](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)物件對應至它們各自的 XDM 結構描述目標欄位。
+將[人員](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)和[活動](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)物件對應至它們各自的 XDM 結構描述目標欄位。
 
 +++
 
 +++ 2.將Marketo資料擷取至Adobe Experience Platform
 
-使用 [Marketo Engage 連接器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)將資料從 Marketo 帶到 Experience Platform，並使用平台連線的應用程式保持這些資料在最新狀態。
+使用 [Marketo Engage 連接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)將資料從 Marketo 帶到 Experience Platform，並使用平台連線的應用程式保持這些資料在最新狀態。
 
 +++
 
@@ -54,7 +54,7 @@ ht-degree: 13%
 
 [資料檢視](/help/data-views/data-views.md)是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。它會指定 Analysis Workspace 中可用的所有維度和量度 (在此案例中則是 Marketo 特定的量度和維度)。它會這些維度和量度從哪些欄取得資料。資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
-+++
++++ 
 
 +++ 5.Analysis Workspace中的報表
 
@@ -114,7 +114,7 @@ Marketo Engage提供應用程式內報告，著重於行銷自動化KPI、方案
 * **進階BI分析（附加元件）**：拖放、按一下自訂Report Builder，以分析程式/帳戶/潛在客戶資料（請參閱最近的進階BI分析概觀）。
 * **預先建立儀表板**：針對行銷活動績效、管道效益、管道/收入貢獻。
 * **方案和管道分析**： Marketo管理的歷程專屬歸因和ROI。
-* **以行銷為中心**：著重於需要行銷漏斗透明度的使用者：電子郵件統計資料、表單、智慧行銷活動以及收入影響。
+* **以行銷為中心**：著重於需要透明化funnel的行銷使用者：電子郵件統計資料、表單、智慧行銷活動以及收入影響。
 
 
 #### 典型Marketo Engage使用案例

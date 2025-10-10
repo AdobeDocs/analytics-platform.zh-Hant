@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-tailored"
 >title="使用自訂結構描述"
->abstract="(建議) 自訂結構描述可讓您的組織僅追蹤需要的內容，並避免產生與混亂和不必要欄位相關的經常性費用。此選項包括 Web SDK 新增的欄位群組和您的組織自訂的欄位群組。"
+>abstract="(建議) 自訂結構描述可讓您的組織僅追蹤需要的內容，並避免產生與混亂和不必要欄位相關的經常性費用。此選項包括 Web SDK 新增的欄位群組和您組織自訂的欄位群組。"
 
 <!-- markdownlint-enable MD034 -->
 

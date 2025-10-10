@@ -4,7 +4,8 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: 專案偵錯工具
 role: User
-source-git-commit: ae8c1fb127accae53ab9363a8cceedd5221a245b
+exl-id: 1335ec1f-5597-4e23-8228-3d477534de43
+source-git-commit: 695d5f686d10fc39b1b3d717a19fd6e874d81b33
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 3%
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->若要使用偵錯工具，您必須擁有&#x200B;**編輯**&#x200B;或&#x200B;**複製** [專案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-25744)的存取權。
+>若要使用偵錯工具，您必須擁有&#x200B;**編輯**&#x200B;或&#x200B;**複製** [專案](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25744)的存取權。
 >
 
 
@@ -96,6 +97,3 @@ ht-degree: 3%
 1. 從Analysis Workspace專案功能表選取&#x200B;**[!UICONTROL 說明]** > **[!UICONTROL 停用偵錯工具]**。
 1. 在&#x200B;**[!UICONTROL 停用偵錯工具]**&#x200B;對話方塊中選取&#x200B;**[!UICONTROL 確定]**。
 1. 瀏覽器提示您重新載入頁面或網站時確認。
-
-
-

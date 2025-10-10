@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 100%
 
@@ -213,7 +213,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 >
 >您可以在標籤中以各種方式使用規則來操控變數 (使用您的資料元素)。
 >
->如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=zh-Hant)。
+>如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)。
 
 1. 使用您的 Adobe ID 認證登入 experience.adobe.com。
 
@@ -263,7 +263,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
 ## 建立並發佈您的標記
 
-定義資料元素和規則後，您必須建立並發佈標記。建立程式庫組建時，必須將其指派至一個環境。隨後組建的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。每個環境都會提供唯一的內嵌程式碼，可讓您將指派的組建整合至您的網站。
+定義資料元素和規則後，您必須建立並發佈標記。建立程式庫組建時，必須將其指派至一個環境。隨後組建的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。每個環境都會提供唯一的嵌入程式碼，可讓您將指派的組建整合至您的網站。
 
 Adobe Experience Platform 標籤支援簡單到複雜的發佈工作流程，以配合您部署 Adobe Experience Platform Web SDK。如需詳細資訊，請參閱[發佈概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hant)。
 

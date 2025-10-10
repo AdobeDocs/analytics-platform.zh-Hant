@@ -17,8 +17,8 @@ ht-degree: 89%
 
 設定涉及以下步驟的資料彙集：
 
-1. 實作 [ Adobe Experience Platform 的標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)。 請參閱 [快速入門指南](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hant) 以了解基本實作並執行。
-1. 安裝 [Google Data Layer 延伸產品](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/google-data-layer/overview.html?lang=zh-Hant)。 本延伸產品取代安裝 Web SDK 延伸產品，是特別針對 Google 資料階層所搭配的。
-1. [在 Adobe Experience Platform Data Collection 中](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant) 建立 Datastream。 設定 Datastream 以傳送資料至 Adobe Experience Platform。 您目前必須將每個 Google 資料階層物件對應到此處相關的 XDM 欄位。 Adobe 計畫在未來簡化此對應工作流程。
+1. 實作 [ Adobe Experience Platform 的標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。 請參閱 [快速入門指南](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html) 以了解基本實作並執行。
+1. 安裝 [Google Data Layer 延伸產品](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/google-data-layer/overview.html)。 本延伸產品取代安裝 Web SDK 延伸產品，是特別針對 Google 資料階層所搭配的。
+1. [在 Adobe Experience Platform Data Collection 中](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) 建立 Datastream。 設定 Datastream 以傳送資料至 Adobe Experience Platform。 您目前必須將每個 Google 資料階層物件對應到此處相關的 XDM 欄位。 Adobe 計畫在未來簡化此對應工作流程。
 
 在您的網站上實作與發佈想要的標籤之後，您就可以繼續[建立連線](/help/connections/create-connection.md)，然後[建立資料檢視](/help/data-views/create-dataview.md)。

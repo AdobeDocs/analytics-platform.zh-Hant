@@ -92,7 +92,7 @@ ht-degree: 88%
 
    * 在「[!UICONTROL **選取貨幣代碼維度**]」欄位中，選取代表您要轉換貨幣所用 (您的資料所依據的貨幣) 的維度。例如，選取名為&#x200B;[!UICONTROL **貨幣代碼**]&#x200B;的維度。
 
-     如果您目前資料結構描述中沒有包含貨幣代碼欄位的維度，則您可以使用[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)， [資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)或[衍生欄位](/help/data-views/derived-fields/derived-fields.md)建立新的貨幣代碼欄位。資料準備只適用於新的實施，因為這只能以往前為基礎。根據組織的設定，可以使用資料蒸餾器和衍生欄位來存取歷史貨幣代碼值。
+     如果您目前資料結構描述中沒有包含貨幣代碼欄位的維度，則您可以使用[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)， [資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)或[衍生欄位](/help/data-views/derived-fields/derived-fields.md)建立新的貨幣代碼欄位。資料準備只適用於新的實施，因為這只能以往前為基礎。根據組織的設定，可以使用資料蒸餾器和衍生欄位來存取歷史貨幣代碼值。
 
    * 在「[!UICONTROL **以此類型轉換和顯示貨幣：**]」欄位中，選取您想要轉換資料的貨幣。
 

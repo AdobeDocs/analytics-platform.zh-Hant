@@ -26,7 +26,7 @@ ht-degree: 100%
 
    * [建立計分卡](/help/mobile-app/create-scorecard.md)
    * [協助高階主管完成應用程式設定和使用該應用程式](/help/mobile-app/set-up-execs.md)
-   * 若要觀看策畫體驗的影片概覽，請參閱「[Adobe Analytics 儀表板計分卡產生器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=zh-Hant)」。
+   * 若要觀看策畫體驗的影片概觀，請參閱「[Adobe Analytics 儀表板計分卡產生器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=zh-Hant)」。
 
 
 * [高階主管使用者快速入門指南](/help/mobile-app/executive.md)：本指南旨在協助高階主管使用者閱讀和理解[!UICONTROL 儀表板]上的計分卡。此應用程式可讓高階主管使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。

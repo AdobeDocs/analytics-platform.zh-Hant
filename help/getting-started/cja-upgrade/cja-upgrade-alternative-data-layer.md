@@ -8,7 +8,7 @@ exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 34%
+ht-degree: 50%
 
 ---
 
@@ -43,19 +43,19 @@ ht-degree: 34%
 
 {{upgrade-note}}
 
-升級至Customer Journey Analytics時，Adobe [建議使用Experience Platform Web SDK的新實作](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。 不過，根據數個因素（例如時間表和資源限制），建議的升級步驟可能對您的組織而言不實用。
+升級到 Customer Journey Analytics 時，Adobe [建議對 Experience Platform Web SDK 進行新實施](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。但是，根據時間軸和資源限制等多種因素，建議的升級步驟可能不適合您組織。
 
 您可以將整個資料層傳送至Customer Journey Analytics，而非使用XDM物件來收集資料。 然而，這種替代方案會隨著時間推移而增加複雜性。
 
-## 優點與缺點
+## 優點和缺點
 
 此方法與[使用您的AppMeasurement資料收集邏輯搭配Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)互斥，因為兩種方法都完成相同的工作。
 
 以下是使用此升級替代方案的優缺點：
 
-| 優勢 | 缺點 |
+| 優點 | 缺點 |
 |----------|---------|
-| <ul><li>**提供在Experience Edge Network中託管資料的所有優點**： <p>這些優點包括：</p><ul><li>高效能的報告與資料可用性，因為Adobe Experience Platform是專為支援[即時個人化使用案例](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=zh-Hant)而建置</li><li>在其他Adobe Experience Cloud產品(AJO、RTCDP等)之間整合Experience Cloud資料收集實作</li><li>不依賴Adobe Analytics命名法(prop、eVar、event等)</li></ul><li>**使用您目前的資料層邏輯**：此方法會使用您目前的資料層邏輯，取代傳統的Web SDK實作。 雖然此方法需要一些設定，但並不需要從頭開始的全新實作，也不需要填入資料元素或標籤規則。 它可讓您將資料層中的資料對應至XDM，而不是從頭開始填入XDM物件。</li></ul> | <ul><li>**需要對應才能將資料傳送至Platform**：當您的組織準備好使用Customer Journey Analytics時，您必須將資料傳送至Adobe Experience Platform中的資料集。 <p>因為此選項可讓您將整個使用者端資料層放入資料物件中，並將其傳送到Adobe，這會導致Adobe無法輕鬆解譯的大量資料。 若要允許Adobe解譯資料，您必須使用資料流對應將每個個別欄位對應到所需的XDM欄位。</p></li><li>**硬式實作**：實作受限於傳送點選時資料層提供的內容。 對於具有基本資料需求的組織而言，這可能是一種可接受的做法，但大多陣列織應避免這種僵化的實作，而採用更具彈性的實作，以便填入資料元素。</li><li>**未來的變更更難實作**：您日後新增至資料的任何欄位都必須對應至資料流中的XDM。</li></ul> |
+| <ul><li>**提供在 Experience Edge Network**&#x200B;中託管資料的所有優點： <p>這些優點包括：</p><ul><li>Adobe Experience Platform 是為支援 [即時個人化使用案例而建立，因此具有高效能報告和資料可用性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>在其他 Experience Cloud 產品 (AJO、RTCDP 等) 之間整合 Adob&#x200B;&#x200B;e Experience Cloud 資料收集的實施</li><li>不依賴 Adobe Analytics 命名法 (prop、eVar 和 event 等)</li></ul><li>**使用您目前的資料層邏輯**：此方法會使用您目前的資料層邏輯，取代傳統的Web SDK實作。 雖然此方法需要一些設定，但並不需要從頭開始的全新實作，也不需要填入資料元素或標籤規則。 它可讓您將資料層中的資料對應至XDM，而不是從頭開始填入XDM物件。</li></ul> | <ul><li>**需要對應才能將資料傳送至Platform**：當您的組織準備好使用Customer Journey Analytics時，您必須將資料傳送至Adobe Experience Platform中的資料集。 <p>因為此選項可讓您將整個使用者端資料層放入資料物件中，並將其傳送到Adobe，這會導致Adobe無法輕鬆解譯的大量資料。 若要允許Adobe解譯資料，您必須使用資料流對應將每個個別欄位對應到所需的XDM欄位。</p></li><li>**硬式實作**：實作受限於傳送點選時資料層提供的內容。 對於具有基本資料需求的組織而言，這可能是一種可接受的做法，但大多陣列織應避免這種僵化的實作，而採用更具彈性的實作，以便填入資料元素。</li><li>**未來的變更更難實作**：您日後新增至資料的任何欄位都必須對應至資料流中的XDM。</li></ul> |
 
 {style="table-layout:auto"}
 

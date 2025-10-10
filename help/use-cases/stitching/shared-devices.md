@@ -49,7 +49,7 @@ The order success (purchase) events assign the data accurately to the correct em
 
 ### 上次驗證歸因
 
-上次驗證會將共用裝置中的所有未知活動，歸因於上次驗證的使用者。 Experience PlatformIdentity服務會根據上次驗證歸因建立圖表，因此會用於圖表式拚接。 如需詳細資訊，請參閱[身分圖表連結規則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details)。
+上次驗證會將共用裝置中的所有未知活動，歸因於上次驗證的使用者。 Experience Platform Identity Service會根據上次驗證歸因建立圖表，因此會用於圖表式拚接。 如需詳細資訊，請參閱[身分圖表連結規則](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details)。
 
 彙整使用上次驗證歸因時，彙整ID會解決問題，如下表所示。
 
@@ -123,7 +123,7 @@ When using ECID reset, Stitched IDs resolve as shown in the table below.
 
 2. **事件歸因至共用裝置**
 
-   針對已識別的共用裝置，決定總計中有多少事件可歸因於這些裝置。 此歸因可讓您深入瞭解共用裝置對您資料的影響，以及對於分析的影響。
+   針對已識別的共用裝置，決定總計中有多少事件可歸因於這些裝置。 此歸因可讓insight瞭解共用裝置對您資料的影響以及分析的影響。
 
    ```sql
    SELECT COUNT(*) AS total_events,

@@ -1,13 +1,13 @@
 ---
 title: 基本函數
-description: 瞭解基本計算量度函式。
+description: 了解基本計算量度函數。
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1868'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 92%
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 絕對值 (量度)]**
 
-[!BADGE 列]{type="Neutral"}傳回數字的絕對值。 數字的絕對值是正值的數字。
+[!BADGE 列]{type="Neutral"}傳回數字的絕對值。數字的絕對值是正值的數字。
 
 | 引數 | 說明 |
 |---|---|
@@ -137,7 +137,7 @@ ht-degree: 92%
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 計數 (量度)]**
 
-[!BADGE 表格]{type="Neutral"}傳回資料行中量度的非零值數目或計數（維度中報告的唯一元素數目）。
+[!BADGE 表格]{type="Neutral"}傳回欄中量度的數目、計數或非零數值 (在一個維度中報告的唯一元素數目)。
 
 | 引數 | 說明 |
 |---|---|
@@ -157,7 +157,7 @@ ht-degree: 92%
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 指數 (量度)]**
 
-[!BADGE 列]{type="Neutral"}傳回e提升至指定數字的冪。 常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT 是 LN (一個數字的自然對數) 的反函數。
+[!BADGE 列]{type="Neutral"}傳回指定數字的 e 乘冪。常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT 是 LN (一個數字的自然對數) 的反函數。
 
 | 引數 | 說明 |
 |---|---|
@@ -176,9 +176,9 @@ ht-degree: 92%
 <!-- markdownlint-enable MD034 -->
 
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平均值 (量度，包括零)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平均值 (量度，include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}傳回資料行中量度的算術平均值或平均值。
+[!BADGE 表格]{type="Neutral"}傳回欄中量度的算術平均數或平均值。
 
 | 引數 | 說明 |
 |---|---|
@@ -198,9 +198,9 @@ ht-degree: 92%
 <!-- markdownlint-enable MD034 -->
 
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 中間值 (量度，包括零)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 中位數 (量度，include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}傳回資料行中量度的中位數。 中位數是一組數字中位於中間的數字。意即，有一半的數字其值大於或等於中位數，另有一半的值小於或等於中位數。
+[!BADGE 表格]{type="Neutral"}傳回欄中量度的中位數。中位數是一組數字中位於中間的數字。意即，有一半的數字其值大於或等於中位數，另有一半的值小於或等於中位數。
 
 | 引數 | 說明 |
 |---|---|
@@ -257,9 +257,9 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-enable MD034 -->
 
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 百分位數 (量度，k，包括零)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 百分位數 (量度，k，include_zeros)]**
 
-[!BADGE Table]{type="Neutral"}傳回第n個百分位數，這個值介於0到100之間。 當 n &lt; 0 時，則函數使用零。當 n > 100 時，函數傳回 100。
+[!BADGE 表格]{type="Neutral"}傳回第 n 個百分位數，該值介於 0 至 100 之間。當 n &lt; 0 時，則函數使用零。當 n > 100 時，函數傳回 100。
 
 | 引數 | 說明 |
 |---|---|
@@ -302,9 +302,9 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-enable MD034 -->
 
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 四分位數 (量度、四分位數、包括零)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 四分位數 (量度，四分位數，include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}傳回量度值的四分位數。 例如，四分位數可用來尋找推動最高收入的前 25% 產品。當四分位數分別等於 `0` (零)、`2` 和 `4` 時，[欄最小值](#column-minimum)、[中間值](#median)和[欄最大值](#column-maximum)傳回與[四分位數](#quartile)相同的值。
+[!BADGE 表格]{type="Neutral"}傳回量度值的四分位數。例如，四分位數可用來尋找推動最高收入的前 25% 產品。當四分位數分別等於 `0` (零)、`2` 和 `4` 時，[欄最小值](#column-minimum)、[中間值](#median)和[欄最大值](#column-maximum)傳回與[四分位數](#quartile)相同的值。
 
 | 引數 | 說明 |
 |---|---|
@@ -433,9 +433,9 @@ ROUND( 314.15, -2) = 300
 <!-- markdownlint-enable MD034 -->
 
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平方根 (量度，包括零)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平方根 (量度，include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}傳回數字的正平方根。 數字的平方根是該數字的 1/2 次方。
+[!BADGE 列]{type="Neutral"}傳回數字的正平方根。數字的平方根是該數字的 1/2 次方。
 
 | 引數 | 說明 |
 |---|---|
@@ -453,9 +453,9 @@ ROUND( 314.15, -2) = 300
 
 <!-- markdownlint-enable MD034 -->
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 標準差 (量度，包括零)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 標準差 (量度，include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}傳回標準差，或變異數的平方根，根據資料樣本母體。
+[!BADGE 表格]{type="Neutral"}根據一組來自母體的樣本資料，傳回標準差或變數的平方根。
 
 | 引數 | 說明 |
 |---|---|
@@ -474,9 +474,9 @@ ROUND( 314.15, -2) = 300
 
 <!-- markdownlint-enable MD034 -->
 
-![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 變數 (量度，包括零)]**
+![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 變數 (量度，include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}傳回以樣本資料母體為基礎的變異數。
+[!BADGE 表格]{type="Neutral"}根據一組來自母體的樣本資料傳回變數。
 
 | 引數 | 說明 |
 |---|---|

@@ -105,7 +105,7 @@ ht-degree: 87%
 
    >[!NOTE]
    >
-   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=zh-Hant)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=zh-Hant#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
+   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
 
    ![識別物件](./assets/identification-field.png)
 
@@ -117,7 +117,7 @@ ht-degree: 87%
 
    ![指定 ECID 作為身分識別](./assets/specify-identity.png)
 
-   您將 Experience Cloud Identity 指定為 Adobe Experience Platform Identity 服務可用於組合 (拼接) 具有相同 ECID 的設定檔的行為的主要身分。
+   您將 Experience Cloud Identity 指定為 Adobe Experience Platform 身分識別服務可用於組合 (拼接) 具有相同 ECID 的設定檔的行為的主要身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在 ecid 屬性中。
 
@@ -125,7 +125,7 @@ ht-degree: 87%
 
    ![指定電子郵件作為身分識別](./assets/specify-email-identity.png)
 
-   您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 設定檔行為的另一個身分。
+   您將電子郵件地址指定為 Adobe Experience Platform 身分識別服務可用於結合 (拼接) 設定檔行為的另一個身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在電子郵件屬性中。
 
@@ -135,7 +135,7 @@ ht-degree: 87%
 
    系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
@@ -161,7 +161,7 @@ ht-degree: 87%
 
 - 啟用該設定檔結構描述
 
-請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
+請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
 ### 設定資料集
 
@@ -233,7 +233,7 @@ ht-degree: 87%
 
 您的資料流現在已設定為將從您網站收集的資料轉送至 Adobe Experience Platform 中的資料集。
 
-請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
+請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
 
 
@@ -278,7 +278,7 @@ ht-degree: 87%
 
    選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-如需詳細資訊，請參閱[設定 Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[設定 Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html)。
 
 Web SDK 原本就包括 [!UICONTROL Adobe Experience Cloud ID 服務]，因此您不需要新增 ID 服務擴充功能至您的標記中。
 
@@ -420,11 +420,11 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 
 您可以在標籤中以各種方式使用規則來操控變數 (使用您的資料元素)。
 
-如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)。
 
 ### 建置並發佈您的標籤
 
-定義資料元素和規則後，您必須建置並發佈標籤。 建立程式庫組建時，必須將其指派至一個環境。隨後組建的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。每個環境都會提供唯一的內嵌程式碼，可讓您將指派的組建整合至您的網站。
+定義資料元素和規則後，您必須建置並發佈標籤。 建立程式庫組建時，必須將其指派至一個環境。隨後組建的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。每個環境都會提供唯一的嵌入程式碼，可讓您將指派的組建整合至您的網站。
 
 若要建置並發佈您的標籤：
 
@@ -477,7 +477,7 @@ Adobe Experience Platform 標籤支援簡單到複雜的發佈工作流程，以
 
 您可以根據您部署 Adobe Experience Platform Web SDK 的流程，選取其他環境 (中繼、生產)，而非開發環境的程式碼。
 
-如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant&)。
+如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?)。
 
 ## 部署和驗證。
 
@@ -592,7 +592,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 若要建立您的第一個報表，請在[!UICONTROL 面板]的[!UICONTROL 自由表格]上開始拖放維度和量度。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的輪廓。
+5. 若要建立您的第一個報表，請在[!UICONTROL 面板]的[!UICONTROL 自由表格]上開始拖放維度和量度。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概觀已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的輪廓。
 
    ![工作區 – 第一份報告](./assets/cja-projects-5.png)
 

@@ -3,7 +3,7 @@ title: 產品使用情況資料設定
 description: 啟用、停用或設定產品使用情況設定。
 exl-id: 85e2b515-78e6-41e8-9947-369b1e65e4fd
 source-git-commit: e7534a1943307f5bbc92a845ddffe0651794b854
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 

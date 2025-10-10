@@ -29,7 +29,7 @@ ht-degree: 6%
 
 * 或者：
 
-   1. 選取&#x200B;**[!UICONTROL 表格]**&#x200B;窗格中特定量度的![MoreSmall](/help/assets/icons/MoreSmall.svg)，然後選取&#x200B;**[!UICONTROL 篩選量度]**。
+   1. 選取![表格](/help/assets/icons/MoreSmall.svg)窗格中特定量度的&#x200B;**[!UICONTROL MoreSmall]**，然後選取&#x200B;**[!UICONTROL 篩選量度]**。
 
       ![區段索引標籤顯示量度。](./assets/filter-metric.png){zoomable="yes"}
 

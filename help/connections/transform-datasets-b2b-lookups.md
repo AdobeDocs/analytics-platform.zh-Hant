@@ -18,10 +18,10 @@ ht-degree: 4%
 
 根據下列類別，此轉換僅適用於包含B2B查詢結構描述資料的資料集：
 
-* [XDM商業帳戶個人關係](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [XDM商業機會個人關係](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [XDM業務行銷清單成員](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [XDM商業活動會員](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [XDM商業帳戶個人關係](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [XDM商業機會個人關係](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [XDM業務行銷清單成員](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [XDM商業活動會員](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >

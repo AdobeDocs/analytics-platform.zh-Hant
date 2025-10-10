@@ -6,7 +6,7 @@ keywords: 產品分析
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ![頻率](/help/assets/icons/Histogram.svg) **[!UICONTROL 頻率]**&#x200B;分析是根據產品中事件發生的頻率來將事件資料分組。此分析的縱軸包含表示事件頻率的貯體。橫軸測量每個貯體的使用者人數或工作階段個數。
 
->[!VIDEO](https://video.tv.adobe.com/v/3435813/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3428089/?quality=12&learn=on)
 
 ## 使用案例
 

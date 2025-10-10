@@ -111,7 +111,7 @@ ht-degree: 77%
 
    ![指定電子郵件作為身分識別](./assets/specify-email-loyalty-id.png)
 
-   您將電子郵件地址指定為 Adobe Experience Platform Identity 服務可用於結合 (拼接) 輪廓行為的身分。
+   您正在指定電子郵件地址作為 Adobe Experience Platform 身分識別服務可用於結合 (拼接) 輪廓行為的身分。
 
    選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在電子郵件屬性中。
 
@@ -119,7 +119,7 @@ ht-degree: 77%
 
    系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
@@ -131,7 +131,7 @@ ht-degree: 77%
 
 您已建立最小結構，以建立可內嵌至 Adobe Experience Platform 的忠誠度資料模型。該結構可讓您使用電子郵件地址來識別輪廓。透過啟用輪廓的結構，即可確保將來自串流來源的資料新增至即時客戶輪廓。
 
-請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
+請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
 ### 設定資料集
 
@@ -176,15 +176,15 @@ ht-degree: 77%
 
 您可以從多種來源擷取資料。 以下只是眾多可用來源中的幾個：
 
-- Adobe應用程式(來源聯結器包括[Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)、[Adobe Audience Manager](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/audience-manager)等)
+- Adobe應用程式(來源聯結器包括[Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)、[Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager)等)
 
-- 雲端儲存空間(來源聯結器包括[Amazon S3](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/s3)、[Azure Blob](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/blob)等)
+- 雲端儲存空間(來源聯結器包括[Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3)、[Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob)等)
 
-- 資料庫(來源聯結器包含[Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)、[Microsoft SQL Server](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/sql-server)等)
+- 資料庫(來源聯結器包含[Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)、[Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server)等)
 
 若要設定來源連接器，請執行以下操作：
 
-1. 在Adobe Experience Platform中，從左側邊欄的[!UICONTROL CONNECTIONS]中選取&#x200B;**[!UICONTROL 來源]**。
+1. 在Adobe Experience Platform中，從左側邊欄的&#x200B;**[!UICONTROL CONNECTIONS]**&#x200B;中選取[!UICONTROL 來源]。
 
 1. 從可用的來源聯結器清單中選取您的來源聯結器。
 
@@ -214,7 +214,7 @@ ht-degree: 77%
 
 如需如何使用HTTP API來源聯結器的資訊，請參閱[擷取及使用串流資料](./streaming.md)。
 
-請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant#terms-and-conditions)，了解來源連接器 (包括每個連接器的詳細資訊連結) 的概述。
+請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions)，了解來源連接器 (包括每個連接器的詳細資訊連結) 的概觀。
 
 
 ## 設定連線
@@ -324,7 +324,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
-5. 若要建立您的第一個報表，請開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概覽已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的輪廓。
+5. 若要建立您的第一個報表，請開始將維度和量度拖放至[!UICONTROL 面板]中的[!UICONTROL 自由表格]。 例如，拖曳 `Program Points Balance`和 `Page View` 做為量度 而 `email` 作為維度，快速概觀已造訪過您網站且屬於收集忠誠點數之忠誠計劃一部分的輪廓。
 
    ![工作區 – 第一份報告](./assets/cja-projects-5.png)
 

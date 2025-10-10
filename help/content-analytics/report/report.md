@@ -8,7 +8,7 @@ exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 95%
 
 若要在 Content Analytics 從頭開始製作報告：
 
-1. [在 Workspace 中建立一個新的 &#x200B;](/help/analysis-workspace/build-workspace-project/create-projects.md) 或 [&#x200B; 以開啟現有的 &#x200B;](/help/analysis-workspace/build-workspace-project/open-projects.md) 專案。
+1. [在 Workspace 中建立一個新的 ](/help/analysis-workspace/build-workspace-project/create-projects.md) 或 [ 以開啟現有的 ](/help/analysis-workspace/build-workspace-project/open-projects.md) 專案。
 1. 請務必為 Content Analytics 報告[選取一個資料視圖](/help/analysis-workspace/c-panels/panels.md#data-view)。Content Analytics 報告僅適用於針對 Content Analytics [設定](/help/content-analytics/config/configuration.md)的資料視圖。
-1. 將![表格](/help/assets/icons/Table.svg) [自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺化拖曳到畫布上。
-1. 使用[特定的Content Analytics元件](components.md)和其他一般[元件](/help/components/overview.md) （如區段、日期範圍、註解）來建置您的Content Analytics深入分析。
+1. 將![表格](/help/assets/icons/Table.svg)[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺化拖曳到畫布上。
+1. 使用[特定的 Content Analytics 元件](components.md)及其他通用[元件](/help/components/overview.md) (例如區段、日期範圍、註解)，建置您的 Content Analytics 洞察。
 
 ## 縮圖
 
@@ -57,7 +57,7 @@ ht-degree: 95%
 
 ## 範本
 
-Content Analytics [範本](/help/analysis-workspace/templates/use-templates.md)可協助您瞭解哪些內容和內容屬性表現最佳。 此範本是 [Web 管道和參與度使用案例](/help/analysis-workspace/templates/use-templates.md#web-engagement)的一部分，詳細說明您的內容在精細度的表現情況。您可以查看個別資產或特定屬性的效能。
+我們提供 Content Analytics [範本](/help/analysis-workspace/templates/use-templates.md)，協助您了解哪些內容和內容屬性的效果最好。此範本是 [Web 管道和參與度使用案例](/help/analysis-workspace/templates/use-templates.md#web-engagement)的一部分，詳細說明您的內容在精細度的表現情況。您可以查看個別資產或特定屬性的效能。
 
 您可以根據所學到的內容展現才華。例如在首頁推廣高效能資產、針對特定區段將內容個人化以納入高效能屬性，或者淘汰已開始過時的內容。
 
@@ -65,7 +65,7 @@ Content Analytics [範本](/help/analysis-workspace/templates/use-templates.md)�
 
 1. 從主選單中選取「**[!UICONTROL Workspace]**」。
 1. 確訂您選取了針對 Content Analytics 設定的資料視圖。
-1. 搜尋或使用區段(**[!UICONTROL 頻道]**&#x200B;的&#x200B;**[!UICONTROL 網頁]**&#x200B;和&#x200B;**[!UICONTROL 使用案例]**&#x200B;**的**&#x200B;4&rbrace;參與[!UICONTROL )來尋找及選取]Content Analytics **[!UICONTROL 範本。]**
+1. 搜尋或使用區段 (針對&#x200B;**[!UICONTROL 通道]**&#x200B;需使用&#x200B;**[!UICONTROL 網頁]**&#x200B;以及針對**[!UICONTROL 使用案例]**需使用&#x200B;**[!UICONTROL 參與]**) 來尋找及選取 **[!UICONTROL Content analytics]** 範本。
 1. 選取&#x200B;**[!UICONTROL 使用範本]**。
 1. 在「**[!UICONTROL 設定您的範本]**」對話框中，從「**[!UICONTROL 選取轉換量度]**」對話框選取一個量度。例如「**[!UICONTROL 資產點按率]**」。
 1. 選取「**[!UICONTROL 繼續]**」。
@@ -155,5 +155,5 @@ Content Analytics 使用 AI 和 GenAI 自動指派每個資產中繼資料，例
 >[!MORELIKETHIS]
 >
 >[Content Analytics 元件](components.md)
->&#x200B;>[使用範本](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>>[使用範本](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >

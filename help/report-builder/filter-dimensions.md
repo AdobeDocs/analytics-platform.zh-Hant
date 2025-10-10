@@ -22,7 +22,7 @@ ht-degree: 33%
 
 1. 在資料區塊中選取儲存格。
 
-1. 在&#x200B;**[!UICONTROL 命令]**&#x200B;面板中選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料區塊]**。
+1. 在![命令](/help/assets/icons/Edit.svg)面板中選取&#x200B;**[!UICONTROL 編輯]** **[!UICONTROL 編輯資料區塊]**。
 
 1. 選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以顯示&#x200B;**[!UICONTROL 維度]**&#x200B;索引標籤。
 

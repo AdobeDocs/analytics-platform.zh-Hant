@@ -26,11 +26,11 @@ ht-degree: 1%
 * 結構上相似或相同的多個資料檢視。
 * 包含自訂元件和配置圖的複雜資料區塊格式。
 
-若要從儲存格選取資料檢視，請先建置資料區塊，並將多個資料檢視指派至資料區塊以外的儲存格。 然後，使用儲存格&#x200B;**面板的**&#x200B;資料檢視，從不同的資料檢視重新整理您的資料區塊。
+若要從儲存格選取資料檢視，請先建置資料區塊，並將多個資料檢視指派至資料區塊以外的儲存格。 然後，使用儲存格&#x200B;**[!UICONTROL 面板的]**&#x200B;資料檢視，從不同的資料檢視重新整理您的資料區塊。
 
 1. 建立資料區塊。 如需有關建立資料區塊的資訊，請參閱[建立資料區塊](/help/report-builder/create-a-data-block.md)。
 
-1. 在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;中選取![DataViewSelector](/help/assets/icons/DataViewSelector.svg)。
+1. 在![資料檢視](/help/assets/icons/DataViewSelector.svg)中選取&#x200B;**[!UICONTROL DataViewSelector]**。
 
 1. 在資料區塊外使用![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg)選取儲存格。
 

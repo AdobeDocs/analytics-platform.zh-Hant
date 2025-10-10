@@ -31,7 +31,7 @@ ht-degree: 81%
 
 1. 如果您尚無法存取[!UICONTROL 工作區]和 [!UICONTROL Labs]，請向您的管理員要求權限。
 
-1. 在Customer Journey Analytics中，按一下&#x200B;**[!UICONTROL Labs]**&#x200B;標籤。
+1. 在Customer Journey Analytics中，按一下「**[!UICONTROL Labs]**」標籤。
 
 ## 評估原型
 

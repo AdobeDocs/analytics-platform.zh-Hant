@@ -6,7 +6,7 @@ keywords: 產品分析
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
  ![轉換趨勢](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL 轉換趨勢]**&#x200B;分析是提供轉換率隨時間變化的趨勢視覺效果。橫軸是時間間隔，縱軸表示轉換率。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423485/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3421662/?quality=12&learn=on)
 
 
 ## 使用案例
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 ### 日期範圍
 
-您希望分析的日期範圍。此設定有兩個元件：
+您想要分析的日期範圍。此設定有兩個元件：
 
 * **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期細度。有效選項包括每小時、每天、每週、每月和每季。相同的日期範圍可以有不同的間隔，這會影響圖表中的資料點數和表格中的欄數。例如，以每日細度查看跨越三天的分析將僅顯示三個資料點，而以每小時細度查看跨越三天的分析將顯示 72 個資料點。
 * **[!UICONTROL 日期]**：開始和結束日期。為方便您使用，我們提供滾動日期範圍預設和先前儲存的自訂範圍，或者您可以使用行事曆選擇器來選擇固定的日期範圍。

@@ -38,7 +38,7 @@ Quantum Metric會收集頁面載入緩慢、頁面載入錯誤、範圍點選等
 
 ## 步驟2：使用量度標籤擴充功能擷取摩擦事件
 
-如需如何設定標籤以包含Quantum量度資料的指示，請參閱Adobe Experience Platform目的地指南中的[Quantum量度延伸模組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/analytics/quantum-metric)。 使用此擴充功能可將更多列傳入現有資料集。
+如需如何設定標籤以包含Quantum量度資料的指示，請參閱Adobe Experience Platform目的地指南中的[Quantum量度延伸模組](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)。 使用此擴充功能可將更多列傳入現有資料集。
 
 使用Adobe Experience Platform資料彙集中的標籤來手動設定摩擦事件的名稱，以便將其納入XDM物件中並加以分析。 其中一個方法是使用規則的自訂程式碼：
 
@@ -78,5 +78,5 @@ return true;
 可能的分析想法包括：
 
 * 趨勢摩擦事件資料隨時間變化
-* 在流失或漏斗視覺效果中，將Customer Journey Analytics事件新增為部分步驟，並將Quantum量度摩擦事件新增為其他步驟。 此報表可讓您檢視訪客最常遇到問題的位置。
+* 在流失或funnel視覺效果中，將Customer Journey Analytics事件新增為部分步驟，並將Quantum量度摩擦事件新增為其他步驟。 此報表可讓您檢視訪客最常遇到問題的位置。
 * 為體驗摩擦事件的訪客建立並套用區段，以進行更深入的分析

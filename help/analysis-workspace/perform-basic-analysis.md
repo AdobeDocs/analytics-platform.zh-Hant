@@ -28,7 +28,7 @@ Customer Journey Analytics 可讓您利用 Analysis Workspace 的強大功能和
 
 * 建立線上與店內收入的趨勢報表，比較兩個資料來源隨時間的變化。
 
-* 依資料來源描繪對象大小，例如廣告曝光資料、Customer Journey Analytics 資料、電子郵件資料、POS 資料、客服中心資料和調查資料。
+* 依資料來源描繪客群大小，例如廣告曝光資料、Customer Journey Analytics 資料、電子郵件資料、POS 資料、客服中心資料和調查資料。
 
 ![基本分析圖表的視覺效果範例。](assets/cja-basic-analysis.png)
 

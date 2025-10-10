@@ -151,7 +151,7 @@ ht-degree: 61%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -191,7 +191,7 @@ ht-degree: 61%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -439,7 +439,7 @@ ht-degree: 61%
 
 | 資料集類型 | 說明 | 時間戳記 | 結構描述 | 人員 ID |
 |---|---|---|---|---|
-| **[!UICONTROL 臨時]** | 以[臨機操作結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/api/ad-hoc)為基礎的臨機操作資料，其欄位僅供單一資料集使用。 | 取決於您為臨時資料集選取的資料集型別。 | 任何以&#x200B;*臨機操作*&#x200B;行為為基礎的類別之臨機操作結構描述 | 取決於您為臨時資料集選取的資料集型別。 |
+| **[!UICONTROL 臨時]** | 以[臨機操作結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/api/ad-hoc)為基礎的臨機操作資料，其欄位僅供單一資料集使用。 | 取決於您為臨時資料集選取的資料集型別。 | 任何以&#x200B;*臨機操作*&#x200B;行為為基礎的類別之臨機操作結構描述 | 取決於您為臨時資料集選取的資料集型別。 |
 | **[!UICONTROL 模型]** | 以模型架構為基礎的模型資料。 | 取決於您為模型資料集選取的資料集型別。 | 任何以模型為基礎的結構描述。 | 取決於您為模型資料集選取的資料集型別。 |
 
 
@@ -697,7 +697,7 @@ ht-degree: 61%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 
 ## 連線預覽 {#preview}

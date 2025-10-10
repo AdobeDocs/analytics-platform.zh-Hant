@@ -51,7 +51,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的歷程畫布視覺效果。<br/>**Adobe Analytics** 中沒有相等的視覺效果。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的歷程畫布視覺效果。<br/>**Adobe Analytics** 中沒有相等的視覺效果。_
 
 >[!ENDSHADEBOX]
 

@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7142ef84-66a6-49eb-938b-b67c9b65bf93
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 100%
 
@@ -98,29 +98,29 @@ ht-degree: 100%
 
    此流程會因您用來實施 Adob&#x200B;&#x200B;e Analytics 的資料收集方法而異：
 
-+++ AppMeasurement
+   +++ AppMeasurement
 
    [停用 AppMeasurement 資料收集](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)。
 
-+++
+   +++
 
-+++ Analytics 擴充功能 (標籤)
+   +++ Analytics 擴充功能 (標籤)
 
    在標記中停用 Analytics 擴充功能。
 
-+++
+   +++
 
-+++ API
+   +++ API
 
    停用 API 資料收集。
 
-+++
+   +++
 
-+++ 第三方
+   +++ 第三方
 
    與您的標記管理員合作從第三方標記管理系統中移除 AppMeasurement 資料庫。
 
-+++
+   +++
 
 1. 將 Adobe Analytics 當作服務從資料流中移除。
 

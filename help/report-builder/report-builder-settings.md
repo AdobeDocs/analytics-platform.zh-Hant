@@ -9,11 +9,11 @@ solution: Customer Journey Analytics
 source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
-# Report Builder設定
+# Report Builder 設定
 
 使用&#x200B;**設定**&#x200B;窗格配置應用程式層級的設定，例如，UI 顯示的語言或是否在離線模式中運作。這些設定會即刻套用，而且所有未來工作階段都適用相同設定，直到變更為止。
 

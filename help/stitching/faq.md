@@ -24,7 +24,7 @@ ht-degree: 26%
 
 1. 登入[Customer Journey Analytics](https://analytics.adobe.com)並建立空白的Workspace專案。
 2. 選取左側的&#x200B;**[!UICONTROL **&#x200B;視覺效果&#x200B;**]**&#x200B;索引標籤，然後將&#x200B;**[!UICONTROL **&#x200B;流量&#x200B;**]**&#x200B;視覺效果拖曳至右側的畫布。
-3. 選取左側的&#x200B;**[!UICONTROL **&#x200B;元件&#x200B;**]**&#x200B;索引標籤，並將維度&#x200B;**[!UICONTROL **&#x200B;資料集ID **]**&#x200B;拖曳至標示為&#x200B;**[!UICONTROL **&#x200B; Dimension或專案&#x200B;**]**&#x200B;的中央位置。
+3. 選取左側的&#x200B;**[!UICONTROL **&#x200B;元件&#x200B;**]**&#x200B;索引標籤，並將維度&#x200B;**[!UICONTROL **&#x200B;資料集ID **]**&#x200B;拖曳至標示為&#x200B;**[!UICONTROL ** Dimension或專案&#x200B;**]**&#x200B;的中央位置。
 4. 此流量報表為互動式。 若要將流量展開至後續或先前的頁面，請選取任一值。 使用右鍵功能表來展開或收合欄。 同一流量報表中也可使用不同的維度。
 
 如果您要為資料集 ID 維度項目重新命名，可使用查詢資料集。
@@ -75,7 +75,7 @@ Adobe啟用彙整功能後，需要約一週才能使用即時彙整。 能否�
 
 +++ 跨裝置分析（傳統Analytics中的一項功能）和跨管道分析有何不同？
 
-[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hant)是傳統Adobe Analytics的專屬功能，可讓您瞭解人們如何跨裝置運作。 它提供兩個將裝置資料連結在一起的工作流程：欄位式拚接和裝置圖表。
+[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)是傳統Adobe Analytics的專屬功能，可讓您瞭解人們如何跨裝置運作。 它提供兩個將裝置資料連結在一起的工作流程：欄位式拚接和裝置圖表。
 
 跨頻道分析是Customer Journey Analytics專屬的使用案例，可讓您同時瞭解人們如何跨裝置和頻道運作。 它會拼接資料集的人員ID，讓該資料集可順暢地與其他資料集結合。 此功能在設計上的運作方式與跨裝置分析欄位式銜接類似，但由於傳統Analytics和Customer Journey Analytics之間的資料架構不同，實施方式也不同。 如需詳細資訊，請參閱[拼接](overview.md)和[跨管道分析](../use-cases/cross-channel/cross-channel.md)使用案例。
 
@@ -275,6 +275,6 @@ curl -X POST \
 
 請求中對`unifiedProfile`標籤的任何使用（雖然您沒有即時客戶資料設定檔的授權），都會傳回錯誤。
 
-如需詳細資訊，請參閱[建立為設定檔和身分啟用的資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity)。
+如需詳細資訊，請參閱[建立為設定檔和身分啟用的資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity)。
 
 +++ 

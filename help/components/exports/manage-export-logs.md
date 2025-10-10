@@ -8,13 +8,13 @@ role: User
 source-git-commit: ad43b199d4174894f0e428bcaf1748ca80bddb45
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
 # 管理匯出記錄
 
-匯出記錄檔會提供每次匯出的詳細資訊，並在每次Analysis Workspace資料匯出至雲端時產生。 (如需如何將資料匯出至雲端的詳細資訊，請參閱[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。)
+匯出記錄檔會提供每次匯出的詳細資訊，並在每次Analysis Workspace資料匯出至雲端時產生。 (如需如何將資料匯出至雲端的相關資訊，請參閱[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。)
 
 對於已排程的匯出，記錄會反映匯出設定，與傳送記錄時的設定相同。 無法刪除記錄檔。
 
@@ -57,7 +57,7 @@ ht-degree: 5%
    | 篩選器 | 說明 |
    |---------|----------|
    | [!UICONTROL **匯出識別碼**] | 指定您要檢視之匯出日誌的匯出ID。 |
-   | [!UICONTROL **帳戶類型**] | 與記錄關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **AEP資料登陸區域**]</li><li>[!UICONTROL **Amazon S3角色ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google雲端平台**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
+   | [!UICONTROL **帳戶類型**] | 與記錄關聯的帳戶型別。 可用的帳戶型別如下： <ul><li>[!UICONTROL **AEP Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>。 |
    | [!UICONTROL **狀態**] | 匯出的狀態。 可使用下列狀態： <ul><li>[!UICONTROL **擱置中**]：匯出的特定執行個體已啟動，但尚未完成。<p>重新執行狀態為「擱置中」的匯出作業將會延遲匯出程式。</p></li><li>[!UICONTROL **已完成**]：匯出的特定執行個體已完成處理，並可在匯出帳戶中使用。</li><li>[!UICONTROL **已失敗**]<p>各種情況都可能導致匯出失敗。 將滑鼠懸停在失敗狀態上可檢視有關失敗的詳細資訊。<p>如需失敗可能原因的詳細資訊，請參閱[疑難排解失敗的匯出](/help/components/exports/troubleshoot-exports.md)。</p> |
 
    {style="table-layout:auto"}
@@ -100,7 +100,7 @@ This option is not available when selecting multiple logs. -->
 
    選取記錄檔旁的核取方塊，然後選取&#x200B;[!UICONTROL **編輯匯出**]。
 
-## 設定欄
+## 設定資料欄
 
 您可以在[!UICONTROL 記錄檔]索引標籤上新增或移除資料行，以設定要顯示的資訊。
 
@@ -112,23 +112,23 @@ This option is not available when selecting multiple logs. -->
 
 1. 選取&#x200B;[!UICONTROL **記錄檔**]&#x200B;索引標籤。
 
-1. 選取[!UICONTROL 記錄檔]頁面右上角的&#x200B;**自訂表格**&#x200B;圖示![自訂表格](assets/customize-table-icon.png)。
+1. 選取&#x200B;**記錄檔**&#x200B;頁面右上角的![自訂表格](assets/customize-table-icon.png)圖示[!UICONTROL 自訂表格]。
 
-   可使用下列欄:
+   可使用下列欄：
 
    | 可用欄 | 說明 |
    |---------|----------|
-   | 匯出名稱 | 匯出的名稱。 使用者在建立匯出時為其命名，如[匯出至雲端的Customer Journey Analytics報告](/help/analysis-workspace/export/export-cloud.md)中所述。 |
+   | 匯出名稱 | 匯出的名稱。 使用者在建立匯出時為其命名，如[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述。 |
    | 匯出 ID | 建立匯出時自動指派的ID。<!-- True? --> |
    | 實例 ID | Customer Journey Analytics例項的ID。<!-- True? --> |
-   | 資料檢視名稱 | 與匯出相關聯的資料檢視名稱。 使用者可以在建立匯出時選取資料檢視，如[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述。 |
+   | 資料檢視名稱 | 與匯出相關聯的資料檢視名稱。 使用者建立匯出時可選取資料檢視，如[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述。 |
    | 檔案的數量 | 匯出中包含的檔案數。 |
    | 大小 | 匯出的大小。<p>檔案大小的計算基準為1024，有時表示為KIB和MIB。 如果您的雲端提供者以1000為基數計算大小，這可能會導致您的雲端提供者中顯示的大小與此處顯示的大小稍微不同。</p> |
    | 位置 | 匯出資料的帳戶位置。 |
    | 帳戶 | 匯出資料所在的帳戶。 |
    | 狀態 | 匯出的狀態。 可用的狀態為[!UICONTROL 擱置中]、[!UICONTROL 已傳遞]及[!UICONTROL 失敗]。 |
    | 傳遞日期 | 匯出發生的日期。 |
-   | 帳戶類型 | 匯出資料所在的雲端帳戶型別。 可用的帳戶型別為[!UICONTROL Amazon S3SnowflakeARN]、[!UICONTROL Google雲端平台]、[!UICONTROL Azure SAS]、[!UICONTROL Azure RBAC]、[!UICONTROL 角色]和[!UICONTROL Adobe Experience Platform]。 |
+   | 帳戶類型 | 匯出資料所在的雲端帳戶型別。 可用的帳戶型別為[!UICONTROL Amazon S3角色ARN]、[!UICONTROL Google Cloud Platform]、[!UICONTROL Azure SAS]、[!UICONTROL Azure RBAC]、[!UICONTROL Snowflake]和[!UICONTROL Adobe Experience Platform]。 |
    | 列數 | 匯出表格中包含的列數。 |
 
    {style="table-layout:auto"}

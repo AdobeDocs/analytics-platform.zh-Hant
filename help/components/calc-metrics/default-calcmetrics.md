@@ -13,7 +13,7 @@ ht-degree: 85%
 
 # 計算量度範本
 
-Customer Journey Analytics提供下列計算量度範本，以涵蓋最常見的使用案例。 這些 Adobe 定義的計算量度是透過一個小的 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 標誌來識別。若要快速篩選這些量度，請在[元件篩選器](/help/components/overview.md#filter)中選取![標籤](/help/assets/icons/Label.svg) **[!UICONTROL Adobe範本]**。
+Customer Journey Analytics提供下列計算量度範本，以涵蓋最常見的使用案例。 這些 Adobe 定義的計算量度是透過一個小的 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 標誌來識別。若要快速篩選這些量度，請在![元件篩選器](/help/assets/icons/Label.svg)中選取&#x200B;**[!UICONTROL 標籤]** [Adobe範本](/help/components/overview.md#filter)。
 
 | 計算量度名稱 | 說明<br/>公式 |
 |---------|----------|
