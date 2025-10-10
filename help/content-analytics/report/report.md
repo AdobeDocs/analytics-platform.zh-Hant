@@ -6,7 +6,7 @@ feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 1. 從主選單中選取「**[!UICONTROL Workspace]**」。
 1. 確訂您選取了針對 Content Analytics 設定的資料視圖。
-1. 搜尋或使用區段 (針對&#x200B;**[!UICONTROL 通道]**&#x200B;需使用&#x200B;**[!UICONTROL 網頁]**&#x200B;以及針對**[!UICONTROL 使用案例]**需使用&#x200B;**[!UICONTROL 參與]**) 來尋找及選取 **[!UICONTROL Content analytics]** 範本。
+1. 搜尋或使用區段 (針對&#x200B;**[!UICONTROL 管道]**&#x200B;需使用&#x200B;**[!UICONTROL 網頁]**&#x200B;以及針對**[!UICONTROL 使用案例]**需使用&#x200B;**[!UICONTROL 參與]**) 來尋找及選取 **[!UICONTROL Content analytics]** 範本。
 1. 選取&#x200B;**[!UICONTROL 使用範本]**。
 1. 在「**[!UICONTROL 設定您的範本]**」對話框中，從「**[!UICONTROL 選取轉換量度]**」對話框選取一個量度。例如「**[!UICONTROL 資產點按率]**」。
 1. 選取「**[!UICONTROL 繼續]**」。

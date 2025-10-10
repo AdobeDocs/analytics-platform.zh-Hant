@@ -6,7 +6,7 @@ feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Content Analytics 事件會依以下序列收集：
 1. [記錄的視圖或點按](#recorded-view-or-click)。
 1. [傳送 Content Analytics 事件的觸發程序](#trigger-to-send-a-content-analytics-event)。
 
-Content Analytics 確實是按照這個方式收集資料以便反映其順序，而不是將視圖或點按與其隨後的事件分開收集。用這樣的方式收集 Content Analytics 資料也會減少所收集的資料量。
+Content Analytics 依此反映順序的方式確實收集資料，而不是將檢視或點按與其隨後的事件分開收集。用這樣的方式收集 Content Analytics 資料也會減少所收集的資料量。
 
 ### 記錄的視圖或點按。
 
