@@ -4,10 +4,10 @@ title: 篩選與排序
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: a16043f1bb15deba1332ed39438214597647b9b4
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 97%
+source-wordcount: '1132'
+ht-degree: 72%
 
 ---
 
@@ -29,9 +29,9 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 您可以使用多種方法來篩選自由格式表中的資料列。
 
-- 排除表格中的特定資料列
-- 套用篩選器至表格
-- 使用客群區段
+* 排除表格中的特定資料列
+* 套用篩選器至表格
+* 使用客群區段
 
 請務必閱讀每種方法如何影響[自由格式表格總計](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)。
 
@@ -93,6 +93,38 @@ Note: this option does not seem to work. AN-338422
    | [!UICONTROL **永遠排除項目**] | 指定要從篩選資料中排除的任何項目的名稱。 |
 
 1. 選取「**[!UICONTROL 套用]**」以篩選資料。選取「**[!UICONTROL 清除]**」以清除所有輸入的資料。選取「**[!UICONTROL 取消]**」以取消並關閉對話框。<br/>彩色 ![篩選器](/help/assets/icons/FilterColored.svg) **篩選器**&#x200B;圖示是指示並顯示將篩選器套用至表格時的詳細資訊。
+
+### 在走勢圖和線條視覺效果中的趨勢資料中包含篩選條件 {#include-filter-criteria}
+
+套用至自由表格之表格維度的任何搜尋篩選條件一律會包含在走勢圖中。
+
+除了走勢圖之外，您也可以設定要包含在已連線線條視覺效果中的篩選條件。 (根據預設，篩選條件不會納入線條視覺效果中。 線段視覺效果會顯示所連線表格中所選列的資料。 如果未選取任何列，則只會顯示已連線表格之第一個維度的資料。)
+
+如需走勢圖和線條視覺效果的詳細資訊，請參閱[檢視自由表格趨勢資料](/help/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)。
+
+#### 設定線條視覺效果以包含篩選條件
+
+1. 選取量度欄標頭中的走勢圖。
+
+   選取走勢圖儲存格時，會顯示為深灰色。 這表示篩選條件包含在連線的線條視覺效果中。 篩選條件會套用為欄上的區段。<!--show how to see it? Show what the segment looks like when it's applied? -->
+
+   已選取![走勢圖](assets/table-sparkline-selected.png)
+
+#### 瞭解欄總計何時可能不準確
+
+在下列情況下，欄總數可能會不準確：
+
+* 當在左欄中使用靜態元件時，[欄總計會計算為列的總和](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+
+  如果此情境中的列專案包含重疊資料，欄總計將會不準確。
+
+  例如，如果您在左欄新增靜態區段，然後在右欄新增使用者作為量度，則其中某些使用者可能屬於多個靜態區段。 在此情況下，Workspace不會為每個靜態區段刪除重複的使用者。 這可能會導致使用者總數增加，因為部分使用者可能會被計算多次以上。
+
+* 使用多值維度時
+
+>[!NOTE]
+>
+>走勢圖和折線圖仍會反映這些案例中的精確總計。
 
 ### 使用客群區段
 
