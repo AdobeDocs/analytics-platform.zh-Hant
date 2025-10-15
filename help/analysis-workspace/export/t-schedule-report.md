@@ -86,7 +86,7 @@ ht-degree: 51%
 
 >[!NOTE]
 >
->密碼保護排程專案的選項僅會對已購買 [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html) 附加產品的 Customer Journey Analytics 客戶顯示。
+>密碼保護排程專案的選項僅會對已購買 [Healthcare Shield](https://business.adobe.com/tw/solutions/industries/healthcare.html) 附加產品的 Customer Journey Analytics 客戶顯示。
 
 Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv 格式傳送。
 

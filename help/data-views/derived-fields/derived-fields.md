@@ -1580,10 +1580,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 | 頁面 URL |
 |---|
-| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
-| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
-| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
-| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
+| `https://business.adobe.com/tw/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/tw/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/tw/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/tw/products/experience-platform/adobe-experience-platform.html` |
 
 {style="table-layout:auto"}
 
