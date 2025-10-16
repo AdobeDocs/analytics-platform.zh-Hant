@@ -28,4 +28,4 @@ ht-degree: 96%
 ## Adobe Experience Platform 術語
 
 Adobe Experience Platform 可標準化整個企業的資料和內容、提供即時的消費者輪廓、運用資料科學，以及加快內容速度，藉此促進客戶歷程中的體驗個人化。
-如需詳細資訊，請參閱 [Adobe Experience Platform 術語](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html)。
+如需詳細資訊，請參閱 [Adobe Experience Platform 術語](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hant)。
