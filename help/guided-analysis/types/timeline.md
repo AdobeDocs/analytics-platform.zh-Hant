@@ -29,7 +29,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 >[!UICONTROL 時間軸]分析要求[資料檢視](/help/data-views/component-reference.md#optional)中有&#x200B;**[!UICONTROL 個人 ID]** 標準元件。在資料檢視中包含個人 ID 是由您的 Customer Journey Analytics 管理員管理，這樣可讓您的組織能夠完全控制可存取這些資料者的隱私權。
->><br/>如果資料檢視沒有[!UICONTROL 個人 ID] 元件新增，以下訊息即會顯示：
+><br/>如果資料檢視沒有[!UICONTROL 個人 ID] 元件新增，以下訊息即會顯示：
 >
 >* **管理員**： *此分析需要有 PersonID 屬性。請將個人 ID 新增至資料檢視。*
 >* **非管理員**：*此分析需要有 PersonID 屬性。請與您的 Customer Journey Analytics 管理員合作，將個人 ID 新增至資料檢視。*
