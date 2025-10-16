@@ -33,13 +33,13 @@ ht-degree: 13%
 
 +++ 1.將Marketo來源資料欄位對應至其XDM目標
 
-將[人員](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)和[活動](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)物件對應至它們各自的 XDM 結構描述目標欄位。
+將[人員](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)和[活動](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)物件對應至它們各自的 XDM 結構描述目標欄位。
 
 +++
 
 +++ 2.將Marketo資料擷取至Adobe Experience Platform
 
-使用 [Marketo Engage 連接器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)將資料從 Marketo 帶到 Experience Platform，並使用平台連線的應用程式保持這些資料在最新狀態。
+使用 [Marketo Engage 連接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)將資料從 Marketo 帶到 Experience Platform，並使用平台連線的應用程式保持這些資料在最新狀態。
 
 +++
 

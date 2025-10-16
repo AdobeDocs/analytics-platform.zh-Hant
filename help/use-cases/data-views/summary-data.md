@@ -50,7 +50,7 @@ ht-degree: 15%
 | 17 | 321行銷活動 | 20 | 2500 | def321 | facebook | def-adgroup | 2024-07-18T18:20:39.000Z |
 | 18 | 321行銷活動 | 15 | 2250 | ghi321 | facebook | ghi-adgroup | 2024-07-18T18:20:39.000Z |
 
-[![資料下載](/help/assets/icons/DataDownload.svg)](./assets/summary-data.csv)
+[！[資料下載](/help/assets/icons/DataDownload.svg)](./assets/summary-data.csv)
 
 +++
 
@@ -249,7 +249,7 @@ ht-degree: 15%
 | 2024-07-18T19:15:39+00:00 | 178 | 確認頁面 | person-142def654 |  | 1 | 174.25 |
 | 2024-07-18T19:15:39+00:00 | 179 | 首頁 | person-143ghi654 | ghi654 |  |  |
 
-[![資料下載](/help/assets/icons/DataDownload.svg)](./assets/event-data.csv)
+[！[資料下載](/help/assets/icons/DataDownload.svg)](./assets/event-data.csv)
 
 +++
 
@@ -278,7 +278,7 @@ ht-degree: 15%
 | 17 | def321 | def-adgroup | 321行銷活動 |
 | 18 | ghi321 | ghi-adgroup | 321行銷活動 |
 
-[![資料下載](/help/assets/icons/DataDownload.svg)](./assets/lookup-data.csv)
+[！[資料下載](/help/assets/icons/DataDownload.svg)](./assets/lookup-data.csv)
 +++
 
 >[!INFO]
@@ -322,7 +322,7 @@ ht-degree: 15%
    |---|---|---|---|
    | `ad_group` | `ad_group` | 字串 | 範例摘要資料 |
    | `campaign_name` | `campaign_name` | 字串 | 範例摘要資料 |
-   | `cost` | `cost` | 雙倍 | 範例摘要資料 |
+   | `cost` | `cost` | 雙精度浮點數 | 範例摘要資料 |
    | `impression` | `impression` | 整數 | 範例摘要資料 |
    | `network` | `network` | 字串 | 範例摘要資料 |
 
@@ -369,7 +369,7 @@ ht-degree: 15%
    1. 請確定&#x200B;**[!UICONTROL 資料格式]**&#x200B;和&#x200B;**[!UICONTROL 分隔符號]**&#x200B;確實具有您範例資料的正確值。 例如，**[!UICONTROL 已分隔]**&#x200B;為&#x200B;**[!UICONTROL 資料格式]**，而&#x200B;**[!UICONTROL ，]**&#x200B;為&#x200B;**[!UICONTROL 分隔符號]**。
    1. 摘要資料的範例（10筆記錄）會顯示在&#x200B;**[!UICONTROL 範例資料]**&#x200B;中。
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
-1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 對應]**&#x200B;步驟中：
+1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 對應]**步驟中：
    ![範例資料集對應](../assets/example-dataset-mapping.png)
    1. 檢查&#x200B;**[!UICONTROL Source資料]**&#x200B;的所有資料欄位是否正確對應到結構描述中對應的&#x200B;**[!UICONTROL 目標欄位]**。 對於範例資料，不會報告錯誤，因為您明確命名了結構描述中的欄位，類似於範例資料中的欄位名稱。 否則，您可以使用此畫面來更正對應。
    1. 您可以選擇選取![齒輪](/help/assets/icons/Gear.svg) **[!UICONTROL 驗證]**&#x200B;以（再次）驗證資料。
@@ -458,10 +458,10 @@ ht-degree: 15%
 
          | 元件名稱 | 資料集 | 結構描述資料類型 | 結構描述路徑 |
          |---|---|---|---|
-         | 成本 | 範例摘要資料集 | 雙倍 | *_tenant*.cost |
+         | 成本 | 範例摘要資料集 | 雙精度浮點數 | *_tenant*.cost |
          | 曝光數 | 範例摘要資料集 | 整數 | *_tenant*.impression |
          | 訂購 | 範例事件資料集 | 整數 | *_tenant*.orders |
-         | 收入 | 範例事件資料集 | 雙倍 | *_tenant*.revenue_amount |
+         | 收入 | 範例事件資料集 | 雙精度浮點數 | *_tenant*.revenue_amount |
 
          **Dimensions**
 
@@ -469,7 +469,7 @@ ht-degree: 15%
          |---|---|---|---|
          | 廣告群組（查詢） | 範例查詢資料集 | 字串 | *_tenant*.ad_group |
          | 廣告群組（摘要） | 範例摘要資料集 | 字串 | *_tenant*.ad_group |
-         | 促銷活動 ID | 範例摘要資料集 | 字串 | *_tenant*.campaign_id |
+         | 行銷活動ID | 範例摘要資料集 | 字串 | *_tenant*.campaign_id |
          | 促銷活動名稱（查詢） | 範例查詢資料集 | 字串 | *_tenant*.campaign_name |
          | 行銷活動名稱（摘要） | 範例摘要資料集 | 字串 | *_tenant*.campaign_name |
          | 網路 | 範例摘要資料集 | 字串 | *_tenant*.network |
@@ -603,4 +603,4 @@ ht-degree: 15%
 >[!MORELIKETHIS]
 >
 >[摘要資料](/help/data-views/summary-data.md)
->&#x200B;>[摘要資料群組元件設定](/help/data-views/component-settings/summary-data-group.md)
+>>[摘要資料群組元件設定](/help/data-views/component-settings/summary-data-group.md)

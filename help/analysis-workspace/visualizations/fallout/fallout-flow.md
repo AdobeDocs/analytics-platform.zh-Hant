@@ -7,7 +7,7 @@ role: User
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 96%
+ht-degree: 82%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的流失視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[流失](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)_。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的流失視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[流失](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)_。_
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 流失會顯示一序列中每個步驟或接觸點之間的轉換和流失率。
 
-例如，您可以追蹤人們在購買過程中的流失點。只要選取起始接觸點和結論接觸點，然後新增中間接觸點即可建立網站導覽路徑。但您也可以執行多維度流失。
+例如，您可以追蹤人們在購買過程中的流失點。只需選取開始接觸點和結論接觸點，然後新增中間接觸點以建立網站導覽路徑。 但您也可以執行多維度流失。
 
 ## 在流失、流量和旅程畫布視覺效果之間作選擇
 
@@ -69,7 +69,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 * 網站特定過程的轉換率 (例如購買或註冊過程)。
 * 更廣泛的一般流量流程：此流量是顯示在瀏覽過首頁的人當中，有多少人執行了搜尋操作，接著又有多少人最後會檢視特定的項目。
-* 網站上事件之間的關聯。關聯顯示在瀏覽過隱私政策的人當中，有百分之幾的人接下來執行了購買操作。
+* 您網站上事件之間的關聯。 關聯會顯示檢視您隱私權政策的人繼續購買產品的百分比。
 
 流失視覺效果最適合：
 

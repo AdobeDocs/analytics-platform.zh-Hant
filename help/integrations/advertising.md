@@ -15,4 +15,4 @@ ht-degree: 0%
 
 Adobe Advertising已與Adobe Customer Journey Analytics整合，以進行雙向資料共用和報告。
 
-如需詳細資訊，請參閱[&#x200B; Adobe Advertising與Customer Journey Analytics整合的概述](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/customer-journey-analytics/overview)。
+如需詳細資訊，請參閱[ Adobe Advertising與Customer Journey Analytics整合的概述](https://experienceleague.adobe.com/en/docs/advertising/integrations/customer-journey-analytics/overview)。

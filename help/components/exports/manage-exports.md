@@ -146,7 +146,7 @@ ht-degree: 5%
    | 帳戶 | 匯出資料所在的帳戶。 |
    | 頻率 | 傳送匯出的頻率。 可用的選項包括[!UICONTROL 一次]、[!UICONTROL 每日]、[!UICONTROL 每週]、[!UICONTROL 按一週的日期]、[!UICONTROL 按月份的日期]、[!UICONTROL 按月份的日期]每年，以及[!UICONTROL 按特定日期每年]。 |
    | 傳送時間 | 傳送匯出的時間。 |
-   | 最後傳送 | 上次傳送匯出的時間。 |
+   | 上次傳送 | 上次傳送匯出的時間。 |
    | 修改時間 | 上次修改匯出的時間。 依預設，「匯出」頁面上的專案會依此欄排序。 |
    | 帳戶類型 | 匯出資料所在的雲端帳戶型別。 可用的帳戶型別為[!UICONTROL Amazon S3角色ARN]、[!UICONTROL Google Cloud Platform]、[!UICONTROL Azure SAS]、[!UICONTROL Azure RBAC]、[!UICONTROL Snowflake]和[!UICONTROL Adobe Experience Platform]。 |
 

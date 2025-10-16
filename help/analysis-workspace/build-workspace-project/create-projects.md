@@ -7,7 +7,7 @@ exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -72,11 +72,11 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 
 | 設定 | 說明 |
 |---|---|
-| 專案名稱 | 提供給專案的名稱。按兩下名稱即可進行編輯。 |
+| 專案名稱 | 為專案指定的名稱。 您可以連按兩下名稱來進行編輯。 |
 | 所有者 | 專案所有者名稱 |
 | 修改時間 | 上次修改專案的日期。 |
 | 標記 | 列出為了方便分類而套用至專案的所有標籤。 |
-| 說明 | 說明可用於釐清專案的用途。按兩下說明即可進行編輯。 |
+| 說明 | 說明對於釐清專案的目的很有用。 您可以連按兩下說明以進行編輯。 |
 | 計算重複實例數 | 指定是否要將重複實例計入報告中。注意，此設定不適用於「流程」或「流失」視覺化呈現。 |
 | 顯示註解 | 指定是否顯示此專案的註解。 |
 | [專案調色盤](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 您可以變更用於 Workspace 的分類調色盤，其方式為選擇已針對色盲人士最佳化的立即可用調色盤或指定您的自訂調色盤。此功能會影響工作區中的許多項目，包括大部分的視覺效果。 |

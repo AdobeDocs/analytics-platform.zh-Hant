@@ -42,7 +42,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://video.tv.adobe.com/v/3422732?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

@@ -48,7 +48,7 @@ Customer Journey Analytics 是一項建置於 Adobe Experience Platform 上的�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [適用於 Customer Journey Analytics 的 Report Builder](https://video.tv.adobe.com/v/3452591?quality=12&learn=on&captions=chi_hant){target="_blank"} 的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [適用於 Customer Journey Analytics 的 Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} 的示範影片。
 
 >[!ENDSHADEBOX]
 

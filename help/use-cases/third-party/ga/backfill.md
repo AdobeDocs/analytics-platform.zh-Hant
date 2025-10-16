@@ -29,8 +29,8 @@ ht-degree: 86%
 
 Universal Analytics 屬性中的資料結構異於 Google Analytics 4 屬性中的資料結構。 根據您想要匯出資料的屬性類型設定 BigQuery Export：
 
-* [設定用於 Universal Analytics 屬性的 BigQuery Export &#x200B;](https://support.google.com/analytics/answer/3416092)
-* [設定用於 Google Analytics 4 屬性的 BigQuery Export &#x200B;](https://support.google.com/analytics/answer/9823238)
+* [設定用於 Universal Analytics 屬性的 BigQuery Export ](https://support.google.com/analytics/answer/3416092)
+* [設定用於 Google Analytics 4 屬性的 BigQuery Export ](https://support.google.com/analytics/answer/9823238)
 
 ### 用於 Universal Analytics 屬性的其他要求
 
@@ -83,7 +83,7 @@ FROM
 
 >[!BEGINSHADEBOX]
 
-觀看![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [將Google Analytics資料匯入Adobe Experience Platform](https://video.tv.adobe.com/v/3437177?quality=12&learn=on&captions=chi_hant){target="_blank"}以取得示範影片。
+觀看![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [將Google Analytics資料匯入Adobe Experience Platform](https://video.tv.adobe.com/v/332676?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -92,7 +92,7 @@ FROM
 >
 >如果您計畫同時匯入歷史與即時串流 Google Analytics 資料，這二個資料集請務必使用相同的結構描述。您可以使用[合併的資料集](/help/connections/combined-dataset.md)在Customer Journey Analytics中合併資料集。
 
-您可以將 GA 事件資料對應到您之前建立的現有資料集中，或是使用您選擇的任何 XDM 結構描述建立新的資料集。 當您選取結構描述後，Experience Platform 會套用機器學習，自動地將 Google Analytics 資料中的每個欄位預先對應到您的 [XDM 結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant#ui)。
+您可以將 GA 事件資料對應到您之前建立的現有資料集中，或是使用您選擇的任何 XDM 結構描述建立新的資料集。 當您選取結構描述後，Experience Platform 會套用機器學習，自動地將 Google Analytics 資料中的每個欄位預先對應到您的 [XDM 結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)。
 
 ![結構描述對應，醒目提示GA資料欄位和目標結構描述對應](../../assets/schema-map.png)
 

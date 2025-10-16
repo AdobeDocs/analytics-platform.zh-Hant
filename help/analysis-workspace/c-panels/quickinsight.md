@@ -25,7 +25,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的「快速深入分析」面板。<br/>_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 版本的[快速深入分析面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ 中的「快速深入分析」面板。<br/>_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 版本的[快速深入分析面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。_
 
 >[!ENDSHADEBOX]
 
@@ -131,7 +131,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
    * **[!UICONTROL 劃分條件]**：您最多可以再增加 2 個區段。例如，新增「預訂」作為區段，並結合您所比較的「預訂常客」和「首次搭機者」區段。請參閱➏、➐和➑。
 
-   * 在：您可以指定日期範圍。請參閱「➒」。
+   * 在：您可以指定日期範圍。請參閱➒。
 
 ## 已知限制
 

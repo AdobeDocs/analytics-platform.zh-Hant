@@ -23,10 +23,10 @@ ht-degree: 82%
 如需Adobe Experience Platform及其應用程式發行說明，請參閱下列檔案：
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes)
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/whats-new/release-notes?lang=en)
-* [Adobe Journey Optimizer B2B](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/release-notes?lang=en)
-* [聯合客群構成](https://experienceleague.adobe.com/zh-hant/docs/federated-audience-composition/using/release-notes?lang=en)
-* [Real-Time CDP Collaboration](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/latest?lang=en)
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/whats-new/release-notes?lang=en)
+* [Adobe Journey Optimizer B2B](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/release-notes?lang=en)
+* [聯合客群構成](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/release-notes?lang=en)
+* [Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/latest?lang=en)
 
 ## 新功能或更新功能
 

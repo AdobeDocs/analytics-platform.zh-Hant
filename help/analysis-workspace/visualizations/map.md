@@ -7,7 +7,7 @@ exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 source-git-commit: ab0e6f0578cbc6f856c2b0a46b1231cce145b84c
 workflow-type: tm+mt
 source-wordcount: '2761'
-ht-degree: 12%
+ht-degree: 8%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 12%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[&#x200B; &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_&#x200B;**地圖**。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[ ](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_**地圖**。_
 
 >[!ENDSHADEBOX]
 
@@ -232,7 +232,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
       * 顯示負數。
 
-        舉例來說，如果您繪製的是逐年比較量度，則地圖可以在紐約上顯示 -33％。
+        例如，如果您繪製的是逐年比較量度，地圖會在紐約上顯示–33%。
 
       * 對於&#x200B;*百分比*&#x200B;類型的量度，叢集會一併平均此百分比。
 
@@ -240,7 +240,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
    * **其他視覺效果設定**：選取視覺效果標題中的「設定」圖示![設定](/help/assets/icons/Setting.svg)，以檢視地圖視覺效果的其他設定。 如需詳細資訊，請參閱[設定視覺效果設定](#configure-visualization-settings)。
 
-1. **儲存**&#x200B;專案，以儲存所有地圖設定 (座標、縮放、旋轉)。
+1. **儲存**&#x200B;專案以儲存所有地圖設定（座標、縮放、旋轉）。
 1. （可選）您可以從左側欄拖曳位置維度和量度，填入視覺效果下方的自由表格。
 
 ## 設定視覺效果設定
@@ -256,10 +256,10 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
    | 區域 | 設定 | 說明 |
    | --- |--- |--- |
    | **[!UICONTROL 地圖類型]** | | |
-   | | **[!UICONTROL 泡泡圖]** | 使用泡泡圖繪圖事件。泡泡圖是多變數圖表，散點圖和等比區域圖的混合體。此檢視為預設。 |
-   | | **[!UICONTROL 熱度圖]** | 使用熱度圖繪圖事件。熱度圖是以圖形來顯示資料，並以顏色來代表對照表中所包含的個別值。 |
+   | | **[!UICONTROL 泡泡圖]** | 使用泡泡繪製事件。 泡泡圖是一種多變數圖表，介於散點圖和比例面積圖之間。 此檢視為預設。 |
+   | | **[!UICONTROL 熱度圖]** | 使用熱度圖繪製事件。 熱度圖是資料的圖形表示，矩陣中包含的個別值會以顏色表示。 |
    | **[!UICONTROL 樣式]** | | |
-   | | **[!UICONTROL 色彩主題]** | 顯示熱度圖和泡泡圖的顏色主題。您可以選擇珊瑚色、紅色、綠色或藍色。此預設為珊瑚色。 |
+   | | **[!UICONTROL 色彩主題]** | 顯示熱度圖和泡泡的色彩配置。 您可以選擇珊瑚色、紅色、綠色或藍色。 此預設為珊瑚色。 |
    | | **[!UICONTROL 地圖樣式]** | 您可以從基本、街道、明亮、淺色、深色和衛星中進行選擇。 |
    | | **[!UICONTROL 叢集半徑]** | 將指定像素數內的資料點分組在一起。預設值為 50。<p>只有在選取&#x200B;**[!UICONTROL 泡泡]**&#x200B;做為&#x200B;**[!UICONTROL 對應型別]**&#x200B;時，才能使用此選項。</p> |
    | | **[!UICONTROL 自訂最大值]** | 可讓您變更地圖最大值的臨界值。 調整此值會調整泡泡或熱度圖值（顏色和大小）相對於您設定的自訂最大值的比例。 |

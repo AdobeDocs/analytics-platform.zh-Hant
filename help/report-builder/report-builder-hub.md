@@ -70,6 +70,6 @@ Report Builder中心包含![AddCircle](/help/assets/icons/AddCircle.svg) **[!UIC
 >[!MORELIKETHIS]
 >
 >[選取資料檢視](select-data-view.md)
->&#x200B;>[選取日期範圍](select-date-range.md)
->&#x200B;>[使用篩選器](work-with-filters.md)
+>>[選取日期範圍](select-date-range.md)
+>>[使用篩選器](work-with-filters.md)
 >

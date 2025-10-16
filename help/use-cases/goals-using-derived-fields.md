@@ -16,7 +16,7 @@ ht-degree: 6%
 
 此使用案例說明如何使用衍生欄位的強大功能來設定特定維度的目標，然後在您的Workspace專案中使用這些目標。
 
-如果您不熟悉衍生欄位，請參閱[教學課程](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html?lang=zh-Hant)和[檔案](../data-views/derived-fields/derived-fields.md)以取得簡介。
+如果您不熟悉衍生欄位，請參閱[教學課程](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html)和[檔案](../data-views/derived-fields/derived-fields.md)以取得簡介。
 
 
 ## 定義目標

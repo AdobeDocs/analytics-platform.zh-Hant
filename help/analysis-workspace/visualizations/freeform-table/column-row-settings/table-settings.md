@@ -7,7 +7,7 @@ role: User
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '1056'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 87%
 | **[!UICONTROL 趨勢選取項目]** | 建立選取項目的趨勢折線圖視覺化效果。 |
 | **[!UICONTROL 僅顯示選取的列]** | 僅顯示視覺效果中的選取的列。 |
 | **[!UICONTROL 顯示所有列]** | 顯示視覺效果中的所有列。 |
-| **[!UICONTROL 從選取範圍建立區段]** | 開啟&#x200B;**[!UICONTROL 區段產生器]**&#x200B;以從選取專案建立區段。 |
+| **[!UICONTROL 從選取專案建立區段]** | 開啟&#x200B;**[!UICONTROL 區段產生器]**&#x200B;以從選取專案建立區段。 |
 | **[!UICONTROL 從選取項目中建立客群]** | 開啟「**[!UICONTROL 建立客群]**」對話框，從選取項目中建立客群。 |
 
 選取量度欄標題時，可使用以下其他內容選單選項。
@@ -85,9 +85,9 @@ ht-degree: 87%
 | **[!UICONTROL 比較歸因模型]** | 指定一個新的歸因模型並與選取欄的歸因模型進行比較。已新增包含新歸因模型量度的新欄位。此外，還新增百分比變更欄以進行比較。 |
 | **[!UICONTROL 重設欄寬]** | 重設欄寬為預設寬度。 |
 | **[!UICONTROL 從選取項目建立註解]** | 開啟「**[!UICONTROL 註解詳細資料]**」以新增註解。 |
-| **[!UICONTROL 從選取範圍建立區段]** | 開啟&#x200B;**[!UICONTROL 區段產生器]**&#x200B;以從選取專案建立區段。 |
+| **[!UICONTROL 從選取專案建立區段]** | 開啟&#x200B;**[!UICONTROL 區段產生器]**&#x200B;以從選取專案建立區段。 |
 | **[!UICONTROL 從選取項目中建立客群]** | 開啟「**[!UICONTROL 建立客群]**」對話框，從選取項目中建立客群。 |
 
 ## 變更列高
 
-您可以將專案的[檢視密度](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。
+您可以將專案的[檢視密度](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。

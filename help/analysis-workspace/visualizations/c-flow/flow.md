@@ -7,7 +7,7 @@ role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 96%
+ht-degree: 83%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的流量圖視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[流量](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)_。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的流量圖視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[流量](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)_。_
 
 >[!ENDSHADEBOX]
 
@@ -55,9 +55,9 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ## 維度間流量
 
-您可以顯示[維度之間的流量](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在此例中，您的流量可能來自首頁、前往「男性」頁面，接著前往「鞋子」部門。
+您可以顯示[維度之間的流量](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在此情況下，您的流量可能會從首頁移至「男性」頁面，然後移至「鞋子」部門。
 
-每一欄會顯示不同的維度。拖曳維度並將其放至拖放區域，即可將該維度新增至圖表中。
+每一欄可顯示不同的維度。 拖曳一個維度，並將它拖放至空投區，以便將該維度新增至圖表中。
 
 >[!MORELIKETHIS]
 >

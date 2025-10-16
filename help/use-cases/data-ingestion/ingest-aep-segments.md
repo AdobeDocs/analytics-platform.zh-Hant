@@ -32,13 +32,13 @@ Adobe Experience Platform [即時客戶輪廓](https://experienceleague.adobe.co
 
 ## 步驟 2：為匯出建立輪廓聯合資料集
 
-為了將對象匯出至可最終新增至Customer Journey Analytics中連線的資料集，您需要建立其結構描述是設定檔[聯合結構描述](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hant#understanding-union-schemas)的資料集。
+為了將對象匯出至可最終新增至Customer Journey Analytics中連線的資料集，您需要建立其結構描述是設定檔[聯合結構描述](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas)的資料集。
 
 聯合結構描述由共用相同類別並已為輪廓啟用的多個結構描述組成。聯合結構描述讓您能夠查看共用相同類別的結構描述中包含的所有欄位的合併。即時客戶輪廓使用聯合結構描述，以建立每個個別客戶的整體檢視。
 
 ## 步驟 3：透過 API 呼叫將客群匯出至輪廓聯合資料集 {#export}
 
-您必須先將受眾匯出至Adobe Experience Platform資料集，才能將受眾帶入Customer Journey Analytics。 這僅能使用分段 API 完成，而且尤其要使用[匯出作業 API 端點](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hant)。
+您必須先將受眾匯出至Adobe Experience Platform資料集，才能將受眾帶入Customer Journey Analytics。 這僅能使用分段 API 完成，而且尤其要使用[匯出作業 API 端點](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html)。
 
 您可以使用您選擇的對象ID建立匯出作業，並將結果放入您在步驟2建立的設定檔聯合Adobe Experience Platform資料集中。 雖然您可以為對象匯出各種屬性/事件，但您只需要匯出和您將要運用的Customer Journey Analytics連線中使用的人員ID欄位相符的特定設定檔ID欄位（請參閱下面的步驟5）即可。
 

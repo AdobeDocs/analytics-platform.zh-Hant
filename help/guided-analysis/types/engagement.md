@@ -33,7 +33,7 @@ ht-degree: 100%
 * 矩陣左下方的功能是您的&#x200B;**低影響力**&#x200B;功能；這些是未廣泛採用或未頻繁使用的功能。
 * 矩陣右下角的功能是您的&#x200B;**一次性**&#x200B;功能；這些是廣泛採用但使用並不頻繁的功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447478?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
 
 
 ## 使用案例

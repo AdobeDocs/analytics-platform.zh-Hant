@@ -161,7 +161,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3452476/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

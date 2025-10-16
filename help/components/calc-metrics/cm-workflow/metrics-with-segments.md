@@ -1,6 +1,6 @@
 ---
 description: 瞭解如何對個別量度進行分段，以便讓您在同一視覺效果中進行量度比較。
-title: 分段量度
+title: 區段量度
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4

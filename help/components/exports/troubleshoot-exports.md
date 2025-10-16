@@ -8,7 +8,7 @@ role: User
 source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 8%
 | 不支援Dimension | <p>「完整表格匯出」不支援符合下列所有條件的任何維度：</p> <ul><li>是從屬於物件陣列一部分的欄位建立的</li><li>已啟用持續性<li>未使用繫結維度</li> | <ul><li>[使用物件陣列](/help/use-cases/object-arrays.md)</li><li>[持續性元件設定](/help/data-views/component-settings/persistence.md)<li>[在Customer Journey Analytics中使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)</li> |
 | 貴組織強制執行的資料治理原則會限制表格中的元件不可匯出 | 請連絡您的系統管理員，檢視哪些元件限制匯出。 匯出前先移除受限制的元件。 | *篩選*&#x200B;標籤和原則[中資料檢視表](/help/data-views/data-governance.md)區段的資料治理原則 |
 
-## 連絡 Adobe 客戶服務
+## 聯絡Adobe客戶服務
 
 如果您持續遇到問題，請聯絡Adobe客戶服務。 就匯出失敗連絡客戶服務時，請確定您有以下可用的資訊：
 

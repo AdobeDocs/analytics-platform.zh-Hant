@@ -6,7 +6,7 @@ exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
 source-git-commit: c745e37203ac829fa0fb7d8532e6499351cb94ba
 workflow-type: tm+mt
 source-wordcount: '2460'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 4%
 1. 選取![時鐘](/help/assets/icons/Clock.svg)。
 1. 從內容功能表中選取&#x200B;**[!UICONTROL Within]**&#x200B;或&#x200B;**[!UICONTROL After]**。
 1. 指定時段（**[!UICONTROL 分鐘]**，**[!UICONTROL 小時]**，直到&#x200B;**[!UICONTROL 年]**）。
-1. 選取![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *數字&#x200B;*]**&#x200B;以開啟快顯視窗，讓您使用&#x200B;**[!UICONTROL -]**&#x200B;或&#x200B;**[!UICONTROL +]**&#x200B;輸入或指定數字。
+1. 選取![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *數字&#x200B;*]**以開啟快顯視窗，讓您使用**[!UICONTROL -]**或**[!UICONTROL +]**輸入或指定數字。
 
 若要移除時間限制，請使用![CrossSize75](/help/assets/icons/CrossSize75.svg)。
 
@@ -100,7 +100,7 @@ ht-degree: 4%
 | 運算子 | 說明 |
 |--- |--- |
 | **[!UICONTROL After]** | [!UICONTROL After]運運算元用來指定兩個查核點之間時間量的下限。 設定After值時，時間限制從套用區段時開始。 例如，如果在容器上設定[!UICONTROL After]運運算元，以識別造訪頁面A、但直到一天後才返回造訪頁面B的人，則當訪客離開頁面A時，該日就會開始。 若要將訪客納入區段中，離開頁面A後必須至少經過1440分鐘（一天）才能檢視頁面B。 |
-| **[!UICONTROL Within]** | [!UICONTROL Within] 運算子用來指定兩個查核點之間時間量的上限。例如，如果在容器上設定[!UICONTROL Within]運運算元，以識別造訪頁面A，然後在一天內返回造訪頁面B的人，則該日從該人離開頁面A時開始。若要納入區段中，此人在開啟頁面B之前的時間長度上限為一天。若要將個人納入區段中，在離開頁面A以檢視頁面B後，最多必須在1440分鐘（一天）內開啟頁面B。 |
+| **[!UICONTROL Within]** | [!UICONTROL Within]運運算元用於指定兩個查核點之間時間量的上限。 例如，如果在容器上設定[!UICONTROL Within]運運算元，以識別造訪頁面A，然後在一天內返回造訪頁面B的人，則該日從該人離開頁面A時開始。若要納入區段中，此人在開啟頁面B之前的時間長度上限為一天。若要將個人納入區段中，在離開頁面A以檢視頁面B後，最多必須在1440分鐘（一天）內開啟頁面B。 |
 | **[!UICONTROL 晚於]**&#x200B;但以內 | 同時使用[!UICONTROL After]和[!UICONTROL Within]運運算元時，兩個運運算元會同時開始和結束，而非連續進行。 <br/>例如，您建置容器設為`After = 1 Week(s) and Within = 2 Week(s)`的區段。<br/>識別此區段中的訪客的條件僅符合一週到兩週之間。 這兩個條件都會從第一個頁面檢視的時間開始執行。 |
 
 
@@ -183,8 +183,8 @@ ht-degree: 4%
 | B然後D | A | B | C | D | E | F |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | 包括所有人 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
-| 只限之前序列 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
-| 只限之後序列 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 僅於序列之前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| 僅於序列之後 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 {style="table-layout:fixed"}
 
@@ -193,8 +193,8 @@ ht-degree: 4%
 | B然後D （發生多次） | A | B | C | D | B | C | D | E |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 包括所有人 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
-| 只限之前序列 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
-| 只限之後序列 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 僅於序列之前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| 僅於序列之後 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 {style="table-layout:fixed"}
 
@@ -216,9 +216,9 @@ ht-degree: 4%
 
 排除定義的範例為：
 
-* **排除頁面**。使用區段定義從報告中移除特定頁面（例如&#x200B;*首頁*）、建立頁面等於`Home Page`的事件規則，然後排除該規則。 此定義會自動包含&#x200B;*首頁*&#x200B;以外的所有頁面。
-* **排除反向連結網域**。請使用僅包含來自Google.com的反向連結網域並排除所有其他網域的定義。
-* **找出未購買者**。識別訂單大於零的時間，然後排除[!UICONTROL 人員]。
+* **排除頁面**。 使用區段定義從報告中移除特定頁面（例如&#x200B;*首頁*）、建立頁面等於`Home Page`的事件規則，然後排除該規則。 此定義會自動包含&#x200B;*首頁*&#x200B;以外的所有頁面。
+* **排除反向連結網域**。 請使用僅包含來自Google.com的反向連結網域並排除所有其他網域的定義。
+* **識別非購買者**。 識別訂單大於零的時間，然後排除[!UICONTROL 人員]。
 
 [!UICONTROL 排除]可用來識別人員不屬於特定工作階段或執行特定事件的順序。 [!UICONTROL 排除]也可以包含在[!UICONTROL 邏輯群組]中（請參閱下文）。
 

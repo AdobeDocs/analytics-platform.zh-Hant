@@ -94,7 +94,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [&#x200B; Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/guardrails/overview)。
+另請參閱Experience Platform [ Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)。
 
 
 ## 自動化資料集有效期
@@ -139,7 +139,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
+另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 
 ## 目的地資料匯出
@@ -151,7 +151,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/guardrails#dataset-exports)
+另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## 資料登陸區域
@@ -216,7 +216,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
 | 活頁簿檔案大小 | 5 | 系統強制的護欄 | 排程活頁簿的檔案大小上限（以MB為單位）。 |
-| 資料區塊 | 1000 | 系統強制的護欄 | 每個活頁簿最多[個資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=zh-hant)個。 |
+| 個資料區塊 | 1000 | 系統強制的護欄 | 每個活頁簿最多[個資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=zh-hant)個。 |
 | 量度 | 20 | 系統強制的護欄 | 每個資料區塊的最大量度數。 |
 | 日期範圍範圍 | 13 | 系統強制的護欄 | 每個資料區塊可跨越之日期範圍的最大月數。 |
 | 資料列 | 50,000 | 系統強制的護欄 | 每個資料區塊的最大列數。 |
@@ -258,7 +258,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 >[!NOTE]
 >
->以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
+>以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 | 資料流程 | 預期延遲 |
 |---|---|

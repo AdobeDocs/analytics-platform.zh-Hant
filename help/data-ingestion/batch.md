@@ -118,7 +118,7 @@ ht-degree: 86%
 
    系統會提示您啟用輪廓的結構。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
@@ -130,7 +130,7 @@ ht-degree: 86%
 
 您已建立最小結構，以建立可內嵌至 Adobe Experience Platform 的忠誠度資料模型。該結構可讓您使用電子郵件地址來識別輪廓。透過啟用輪廓的結構，即可確保將批次檔案中的資料新增至即時客戶輪廓。
 
-請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
+請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
 ### 設定資料集
 
@@ -219,7 +219,7 @@ ppales4@nsw.gov.au,365384,82.71,Silver
 
 6. 選取&#x200B;**[!UICONTROL 「完成」]**&#x200B;開始將批次資料擷取至 Adobe Experience Platform。
 
-請參閱[將CSV檔案對應到現有XDM結構描述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html?lang=zh-Hant)，以取得下列詳細資訊：
+請參閱[將CSV檔案對應到現有XDM結構描述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema.html)，以取得下列詳細資訊：
 
 - 當您的傳入資料與XDM結構描述不相容時，如何對應資料。
 - 使用對應範本，

@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # 人員型 B2B 專案範例
 
-本文說明一個使用案例，說明您想在Customer Journey Analytics中，在典型的以人員為基礎的B2B設定中，正確報告人員資料。 [Real-Time CDP B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)有助於此類設定。  使用案例說明如何在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級的B2B資料。
+本文說明一個使用案例，說明您想在Customer Journey Analytics中，在典型的以人員為基礎的B2B設定中，正確報告人員資料。 [Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)有助於此類設定。  使用案例說明如何在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級的B2B資料。
 
 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}隨發行的[Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md)中，已針對以帳戶為基礎的報告使用案例發佈個別區段。
 
@@ -43,7 +43,7 @@ ht-degree: 7%
 -->
 
 
-B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係是在Experience Platform內的B2B設定中定義。 檢視[Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
+B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係是在Experience Platform內的B2B設定中定義。 檢視[Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
 
 
 若要確保連線設定正確，可支援B2B資料的個人查詢功能，請使用下列圖例來概略瞭解情況，並依照下列步驟進行：
@@ -62,14 +62,14 @@ B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關�
    |---|---|---|---| 
    | B2B活動資料集 | SourceKey <br/>**personKey.sourceKey** | | |
    | B2B個人資料集 | SourceKey <br/>**b2b.personKey.sourceKey** | | |
-   | B2B帳戶資料集 | | SourceKey <br/>**accountKey.sourceKey**&#x200B;❶ | SourceKey<br>（B2B人員資料集）<br/>**b2b.accountKey.sourceKey**&#x200B;❶ |
-   | B2B機會資料集 | | Source Key <br/>**opportunityKey.sourceKey**&#x200B;❷ | SourceKey<br/>（B2B機會關係資料集）<br/>**opportunityKey.sourceKey**&#x200B;❷ |
-   | B2B促銷活動資料集 | | SourceKey <br/>**campaignKey.sourceKey**&#x200B;❸ | SourceKey<br/>（B2B促銷活動成員資料集）<br/>**campaignKey.sourceKey**&#x200B;❸<br/> |
-   | B2B行銷清單資料集 | | SourceKey <br/>**marketingListKey.sourceKey**&#x200B;❹ | SourceKey<br/>（B2B行銷清單成員資料集）<br/>**marketingListKey.sourceKey**&#x200B;❹ |
-   | B2B帳戶個人關係資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❺ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❺ |
-   | B2B機會個人關係資料集 | | SourceKey <br/>**personKey.sourceKe** y❻ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❻ |
-   | B2B促銷活動成員資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❼ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❼ |
-   | B2B行銷清單成員資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❽ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❽ |
+   | B2B帳戶資料集 | | SourceKey <br/>**accountKey.sourceKey**❶ | SourceKey<br>（B2B人員資料集）<br/>**b2b.accountKey.sourceKey**❶ |
+   | B2B機會資料集 | | Source Key <br/>**opportunityKey.sourceKey**❷ | SourceKey<br/>（B2B機會關係資料集）<br/>**opportunityKey.sourceKey**❷ |
+   | B2B促銷活動資料集 | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>（B2B促銷活動成員資料集）<br/>**campaignKey.sourceKey**❸<br/> |
+   | B2B行銷清單資料集 | | SourceKey <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>（B2B行銷清單成員資料集）<br/>**marketingListKey.sourceKey**❹ |
+   | B2B帳戶個人關係資料集 | | SourceKey <br/>**personKey.sourceKey**❺ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❺ |
+   | B2B機會個人關係資料集 | | SourceKey <br/>**personKey.sourceKe** y❻ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❻ |
+   | B2B促銷活動成員資料集 | | SourceKey <br/>**personKey.sourceKey**❼ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❼ |
+   | B2B行銷清單成員資料集 | | SourceKey <br/>**personKey.sourceKey**❽ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❽ |
 
 {style="table-layout:auto"}
 
@@ -86,13 +86,13 @@ B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關�
 
 | 元件名稱 | 資料集 | 資料類型 | 結構描述路徑 |
 |---|---|---|---|
-| 年度帳戶收入 | B2B帳戶資料集 | 雙倍 | accountOrganization.annualRevenue.amount |
+| 年度帳戶收入 | B2B帳戶資料集 | 雙精度浮點數 | accountOrganization.annualRevenue.amount |
 | 員工人數 | B2B帳戶資料集 | 整數 | accountOrganization.numberOfEmployees |
-| 實際行銷活動成本 | B2B促銷活動資料集 | 雙倍 | actualCost.amount |
-| 預算行銷活動成本 | B2B促銷活動資料集 | 雙倍 | budgetedCost.amount |
-| 預期機會收入 | B2B機會資料集 | 雙倍 | expectedRevenue.amount |
-| 預期行銷活動收入 | B2B促銷活動資料集 | 雙倍 | expectedRevenue.amount |
-| 機會金額 | B2B機會資料集 | 雙倍 | opportunityAmount.amount |
+| 實際行銷活動成本 | B2B促銷活動資料集 | 雙精度浮點數 | actualCost.amount |
+| 預算行銷活動成本 | B2B促銷活動資料集 | 雙精度浮點數 | budgetedCost.amount |
+| 預期機會收入 | B2B機會資料集 | 雙精度浮點數 | expectedRevenue.amount |
+| 預期行銷活動收入 | B2B促銷活動資料集 | 雙精度浮點數 | expectedRevenue.amount |
+| 機會金額 | B2B機會資料集 | 雙精度浮點數 | opportunityAmount.amount |
 
 +++
 

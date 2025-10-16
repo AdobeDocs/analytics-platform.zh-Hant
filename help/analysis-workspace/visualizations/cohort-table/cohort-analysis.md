@@ -7,7 +7,7 @@ role: User
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的同類群組表格。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[同類群組表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis)_。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的同類群組表格。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[同類群組表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis)_。_
 
 >[!ENDSHADEBOX]
 
@@ -45,8 +45,8 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 [!UICONTROL 同類群組表格]的用途範例：
 
-* 推行專為刺激所需動作的促銷活動。
-* 在客戶生命週期的正確時間點轉移行銷預算。
+* Launch促銷活動專為刺激所需動作而設計。
+* 在客戶生命週期的正確時間轉移行銷預算。
 * 識別何時終止試用版或產品建議，以價值最大化。
 * 獲得定價、升級路徑等領域的 A/B 測試相關想法。
 
@@ -55,7 +55,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同類群組分析](https://video.tv.adobe.com/v/3430081/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同類群組分析](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}的示範影片。
 
 {{videoaa}}
 

@@ -6,7 +6,7 @@ exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 1b6e1d432bfe4b0574b8ee68bcfa940941f3c36f
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -41,4 +41,4 @@ ht-degree: 6%
 
 1. （選用）如[共用計算量度](/help/components/calc-metrics/cm-workflow/cm-sharing.md)中所述，與組織中的其他使用者共用量度。
 
-這是輕鬆辨別哪些行銷管道有助於提升訂購量的一種方式。或者，您也可以從自由表格選取任何量度，然後從快顯功能表直接從表格調整歸因模型。
+這是分辨哪些行銷管道協助促進訂單的簡單方法。 或者，您也可以從自由表格選取任何量度，然後從快顯功能表直接從表格調整歸因模型。

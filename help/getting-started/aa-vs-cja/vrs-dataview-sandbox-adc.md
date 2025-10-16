@@ -31,7 +31,7 @@ Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。了解以�
 * 可用於控制 Adobe Analytics 中不同使用者對不同資料類型的存取和管理。
 * 為 Adobe Analytics 提供選用的[報告時間處理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=zh-Hant)功能。 在這種情況下，可以使用虛擬報告套裝為「造訪」建立自訂定義。
 * 在報告執行階段套用，類似於區段評估。 這是在資料收集並儲存在 Adobe Analytics 中&#x200B;_之後_。
-* 對於 Adobe Analytics 中的[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hant)是必要項目。
+* 對於 Adobe Analytics 中的[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)是必要項目。
 * 提供與標準 Analytics 報告套裝相同數量的變數 (250 個 eVar、250 個 prop、1000 個事件)，不過虛擬報告套裝組織可以限制向使用者公開哪些變數。
 * 支援自訂行事曆選項。
 
@@ -44,7 +44,7 @@ Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。了解以�
 
 ## Customer Journey Analytics 資料檢視
 
-如需詳細資訊，請參閱[資料檢視概觀](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[資料檢視概觀](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html)。
 
 資料檢視：
 
@@ -66,7 +66,7 @@ Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。了解以�
 
 ## Adobe Experience Platform 沙箱
 
-如需詳細資訊，請參閱：[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
+如需詳細資訊，請參閱：[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)。
 
 Adobe Experience Platform 沙箱：
 

@@ -52,7 +52,7 @@ ht-degree: 98%
 
 系統依預設會顯示今天和昨天的稽核記錄。
 
-![審計日誌醒目顯示今天和昨天。 &#x200B;](assets/audit_ui.png)
+![審計日誌醒目顯示今天和昨天。 ](assets/audit_ui.png)
 
 您可以使用右上方的欄選擇器來選擇要顯示哪些欄。
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 按兩下說明旁邊的資訊 (i) 按鈕。
 
-![審計日誌醒目顯示資訊按鈕。 &#x200B;](assets/info-button-audit.png)
+![審計日誌醒目顯示資訊按鈕。 ](assets/info-button-audit.png)
 
 系統會顯示以下項目：
 

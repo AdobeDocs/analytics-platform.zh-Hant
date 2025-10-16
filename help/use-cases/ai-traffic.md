@@ -12,7 +12,7 @@ ht-degree: 1%
 ---
 
 
-# LLM和AI產生的流量報告
+# 報告 LLM 和 AI 產生的流量
 
 本使用案例文章探討如何使用Customer Journey Analytics衍生欄位功能作為報告LLM （大型語言模型）和AI產生流量的基礎。
 

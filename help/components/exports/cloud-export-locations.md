@@ -106,11 +106,11 @@ ht-degree: 19%
 
    1. 開啟[Microsoft Azure儲存體總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)。
 
-   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***。
+   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***。
 
       >[!NOTE]
       >
-      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**&#x200B;是Azure儲存體總管提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
+      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**是Azure儲存體總管提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
 
 
       ![存取Azure儲存體總管中的檔案](assets/azure-storage-explorer-access.png)

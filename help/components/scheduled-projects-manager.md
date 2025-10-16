@@ -1,6 +1,6 @@
 ---
 description: 瞭解如何管理排程專案。
-title: 計劃的專案
+title: 已排程專案
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User

@@ -8,7 +8,7 @@ role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 34%
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 34%
 >* 使用工作階段型區段，作為工作階段內容流失視覺效果內的接觸點。
 
 <!-- Should we add B2B context here?
-* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
 * -->
 
 ## 從接觸點建立區段
@@ -38,7 +38,7 @@ ht-degree: 34%
 
    ![區段產生器會顯示預先填入和預先建立的循序區段。](assets/fallout-definesegment.png)
 
-1. 提供區段的標題和描述，然後將其儲存。
+1. 為區段提供標題和說明，然後將其儲存。
 
    您現在可以在任何需要的專案中使用此區段。
 

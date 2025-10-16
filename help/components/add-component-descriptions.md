@@ -32,5 +32,5 @@ Analysis Workspace中的資料字典可協助使用者和管理員追蹤及更�
 >[!MORELIKETHIS]
 >
 >[資料檢視元件設定](/help/data-views/component-settings/overview.md)
->&#x200B;>[資料字典元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[資料字典元件專案](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ![發行](/help/assets/icons/Release.svg) **[!UICONTROL 發行影響]**&#x200B;分析顯示關鍵指標在特定日期之前和之後如何表現的比較。該報告的橫軸是時間間隔，而縱軸是測量期望的關鍵指標。圖表中間的垂直長條圖代表您想要比較前後的日期。此日期通常代表您想要衡量比較的產品顯著變化，例如產品更新或行銷活動展開。
 
->[!VIDEO](https://video.tv.adobe.com/v/3423447/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3421665/?quality=12&learn=on)
 
 ## 使用案例
 
