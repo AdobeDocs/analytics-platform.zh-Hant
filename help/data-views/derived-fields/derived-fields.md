@@ -1028,7 +1028,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### 衍生欄位 {#deduplicate-uc1-derivedfield}
 
-您定義一個 `Booking Confirmation` 衍生欄位。您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以使用[!UICONTROL 重複資料刪除 ID] [!UICONTROL 預訂確認 ID]對[!UICONTROL 範圍][!DNL Person]的[!UICONTROL 值][!DNL Booking]進行重複資料刪除。您選取「[!UICONTROL 保留第一個執行個體]」作為「[!UICONTROL 要保留的值]」。
+您定義一個 `Booking Confirmation` 衍生欄位。您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以使用[!UICONTROL 重複資料刪除 ID] [!UICONTROL 預訂確認 ID]對[!UICONTROL 範圍]&#x200B;[!DNL Person]的[!UICONTROL 值]&#x200B;[!DNL Booking]進行重複資料刪除。您選取「[!UICONTROL 保留第一個執行個體]」作為「[!UICONTROL 要保留的值]」。
 
 ![Concatenate 規則的螢幕截圖](assets/deduplicate-1.png)
 
