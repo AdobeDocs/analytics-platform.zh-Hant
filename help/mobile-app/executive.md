@@ -19,7 +19,7 @@ ht-degree: 73%
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [協助高階主管存取行動計分卡](https://video.tv.adobe.com/v/343460/){target="_blank"}以取得示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [協助高階主管存取行動計分卡](https://video.tv.adobe.com/v/3444847?captions=chi_hant){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 

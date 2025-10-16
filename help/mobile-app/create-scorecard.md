@@ -212,7 +212,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://video.tv.adobe.com/v/3422732?captions=chi_hant&quality=12&learn=on){target="_blank"}的示範影片。
 
 {{videoaa}}
 

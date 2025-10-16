@@ -41,7 +41,7 @@ ht-degree: 93%
 >
 >重複使用者不會計入此計算，因為這些數字不代表使用者增加或減少。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421664/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423459/?captions=chi_hant&quality=12&learn=on)
 
 
 ## 使用案例

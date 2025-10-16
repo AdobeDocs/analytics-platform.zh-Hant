@@ -26,7 +26,7 @@ ht-degree: 100%
  ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL 首次使用影響]**&#x200B;分析顯示使用者首次使用產品功能之前和之後關鍵指標的表現對比。本報告的橫軸是事件前後的相對時間間隔，縱軸則是測量所需的關鍵指標。圖表中間的垂直條表示特定使用者首次使用某項功能的第 0 天。由於使用者並不總是在同一天採用功能，並且您的功能推出可能會持續數天，因此第 0 天對每個使用者來說可能意味著不同的事情。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421661/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423494/?captions=chi_hant&quality=12&learn=on)
 
 
 ## 使用案例

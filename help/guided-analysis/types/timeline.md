@@ -34,7 +34,7 @@ ht-degree: 100%
 >* **管理員**： *此分析需要有 PersonID 屬性。請將個人 ID 新增至資料檢視。*
 >* **非管理員**：*此分析需要有 PersonID 屬性。請與您的 Customer Journey Analytics 管理員合作，將個人 ID 新增至資料檢視。*
 
->[!VIDEO](https://video.tv.adobe.com/v/3427810/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435778/?captions=chi_hant&quality=12&learn=on)
 
 
 

@@ -26,7 +26,7 @@ ht-degree: 92%
 ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 趨勢]** 分析可提供有關您產品效能或使用者隨時間變化的行為深入分析。該報告的橫軸是時間間隔，而縱軸是測量您所期望的事件。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423438/?captions=chi_hant&quality=12&learn=on)
 
 ## 使用案例
 
