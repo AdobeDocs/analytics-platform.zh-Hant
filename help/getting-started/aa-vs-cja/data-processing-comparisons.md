@@ -24,7 +24,7 @@ ht-degree: 65%
 
 相比之下，Customer Journey Analytics的設計可在組織和儲存資料之前，將收集時間的前端處理需求降到最低。 Customer Journey Analytics的底層架構可在報表時間處理儲存的資料。 Customer Journey Analytics不僅在Analysis Workspace中提供強大的報表時間處理功能。 透過資料檢視中[元件](/help/data-views/component-settings/overview.md)和[衍生欄位](/help/data-views/derived-fields/derived-fields.md)的定義，可提供額外的報告時間處理功能。
 
-![ Customer Journey Analytics 報告時間處理](../assets/cja-processing.png)
+![&#x200B; Customer Journey Analytics 報告時間處理](../assets/cja-processing.png)
 
 了解各種報告功能的資料處理差異，有助於了解哪些量度可用於哪裡，以及其不同的原因。
 

@@ -15,11 +15,11 @@ ht-degree: 37%
 
 >[!TIP]
 >
->使用[**[!UICONTROL 使用狀況&#x200B;]**介面](/help/connections/manage-connections.md#usage)來**&#x200B;檢視&#x200B;**Customer Journey Analytics中所有連線之已擷取及可報告資料列的使用狀況。
+>使用[**[!UICONTROL 使用狀況&#x200B;]**&#x200B;介面](/help/connections/manage-connections.md#usage)來&#x200B;**&#x200B;檢視&#x200B;**&#x200B;Customer Journey Analytics中所有連線之已擷取及可報告資料列的使用狀況。
 
 
 
-您可以在[**[!UICONTROL 連線&#x200B;]**介面](/help/connections/create-connection.md)中管理您的Customer Journey Analytics使用情形。 在此介面中，您可以在連線層級將Customer Journey Analytics資料保留定義為單位為月數的滾動時段（1個月、3個月、6個月等）。
+您可以在[**[!UICONTROL 連線&#x200B;]**&#x200B;介面](/help/connections/create-connection.md)中管理您的Customer Journey Analytics使用情形。 在此介面中，您可以在連線層級將Customer Journey Analytics資料保留定義為單位為月數的滾動時段（1個月、3個月、6個月等）。
 
 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。這有助於您未超過合約限制，並減少超額使用費用的風險。
 

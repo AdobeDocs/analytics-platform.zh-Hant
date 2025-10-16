@@ -80,7 +80,7 @@ ht-degree: 97%
 
 | 圖示 | 動作 | 說明 |
 |:---:|---|---|
-| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。在&#x200B;**[!UICONTROL 「更新」標記中：*客群名稱&#x200B;*]**對話框中，從下拉式選單中選取標記，或輸入一個或多個新標記。選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
+| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。在&#x200B;**[!UICONTROL 「更新」標記中：*客群名稱&#x200B;*]**&#x200B;對話框中，從下拉式選單中選取標記，或輸入一個或多個新標記。選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選取的客群。 |
 | ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名選取的客群。使用「**[!UICONTROL 重新命名」：「*客群名稱&#x200B;*]**」對話框來重新命名客群，然後選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 

@@ -29,8 +29,8 @@ ht-degree: 86%
 
 Universal Analytics 屬性中的資料結構異於 Google Analytics 4 屬性中的資料結構。 根據您想要匯出資料的屬性類型設定 BigQuery Export：
 
-* [設定用於 Universal Analytics 屬性的 BigQuery Export ](https://support.google.com/analytics/answer/3416092)
-* [設定用於 Google Analytics 4 屬性的 BigQuery Export ](https://support.google.com/analytics/answer/9823238)
+* [設定用於 Universal Analytics 屬性的 BigQuery Export &#x200B;](https://support.google.com/analytics/answer/3416092)
+* [設定用於 Google Analytics 4 屬性的 BigQuery Export &#x200B;](https://support.google.com/analytics/answer/9823238)
 
 ### 用於 Universal Analytics 屬性的其他要求
 
