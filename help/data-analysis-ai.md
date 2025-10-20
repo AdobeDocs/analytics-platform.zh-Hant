@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: cd92bde10b9cb473c4df791e91296a2a43b2ad84
+source-git-commit: bb44ba8d36a2c21c789f0df6a84ea0432ca20029
 workflow-type: tm+mt
-source-wordcount: '2463'
-ht-degree: 100%
+source-wordcount: '2461'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->符合資格的客戶可以在限定時間內使用 Data Insights 代理。Data Insights 代理的存取權會於 2025 年 11 月 30 日結束。若要繼續不間斷地使用 Data Insights 代理，請聯絡您的 Adobe 客戶代表以了解關於 Data Insights 代理授權的更多資訊。
+>符合資格的客戶可以在限定時間內使用 Data Insights 代理。Data Insights 代理的存取權會於 2025 年 11 月 30 日結束。若要繼續使用Data Insights Agent而不中斷，請聯絡您的Adobe客戶代表以瞭解更多有關授權Data Insights Agent的資訊。
 
 Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/help/ai-assistant.md)存取，此助理是生成式 AI 對話代理程式，能迅速有效地回答您的資料相關問題。此代理會使用來自資料視圖的元件以及您的實際資料，在 Analysis Workspace 建置相關的視覺內容。
 

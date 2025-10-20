@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: a00c7b0bf4b6e7bd8b6a7949606c5de7430fae4e
+source-git-commit: 3b0c182bbf4e7a0880287a9a95ea848e6b633430
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 17%
@@ -63,7 +63,7 @@ Customer Journey Analytics由三個存取層級或三個角色控管：產品管
   | [!UICONTROL 資料管理] | [!UICONTROL 檢視資料集] | 資料集和結構描述的唯讀存取權。 |
   | [!UICONTROL Identity Management] | [!UICONTROL 檢視身分識別名稱空間] | 身分識別名稱空間的唯讀存取權。 |
 
-  如需Experience Platform許可權的詳細資訊，請參閱[管理產品設定檔的許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
+  如需Experience Platform許可權的詳細資訊，請參閱[管理產品設定檔的許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions)。
 
 
 * 如果Journey Optimizer與存在Journey Optimizer連線的Customer Journey Analytics整合，則也必須新增歷程許可權以存取連線：
@@ -84,13 +84,13 @@ Customer Journey Analytics由三個存取層級或三個角色控管：產品管
   | [!UICONTROL 目的地] | [!UICONTROL 管理目的地] | 讀取、建立和刪除目的地連線和目的地帳戶的存取權。 |
   | [!UICONTROL 目的地] | [!UICONTROL 啟用目的地] | 允許使用者啟用現有目的地的區段。 在啟動工作流程中啟用對應步驟。 此許可權也會要求將「檢視目的地」許可權授與想要對目的地啟用資料的使用者。 |
 
-  如需Experience Platform許可權的詳細資訊，請參閱[管理產品設定檔的許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
+  如需Experience Platform許可權的詳細資訊，請參閱[管理產品設定檔的許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions)。
 
 * 使用[BI副檔名](../data-views/bi-extension.md)
 
   若要讓使用者使用BI擴充功能，需為產品管理員
 
-   * 必須確定使用者的Experience Platform許可權包含具有查詢服務資源，且具有「管理查詢」和「管理查詢服務整合」選項的角色。 如需Experience Platform許可權的詳細資訊，請參閱[管理產品設定檔的許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
+   * 必須確定使用者的Experience Platform許可權包含具有查詢服務資源，且具有「管理查詢」和「管理查詢服務整合」選項的角色。 如需Experience Platform許可權的詳細資訊，請參閱[管理產品設定檔的許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions)。
 
      | 類別 | 權限 | 說明 |
      |---|---|---| 
@@ -129,7 +129,7 @@ Customer Journey Analytics由三個存取層級或三個角色控管：產品管
 | [!UICONTROL 報告工具] | [!UICONTROL 客群檢視] | 讓使用者檢視[對象](/help/components/audiences/audiences-overview.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 建立客群] | 讓使用者建立[對象](/help/components/audiences/audiences-overview.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 稽核記錄存取權] | 強制對[API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/)和稽核記錄UI進行許可權檢查。 |
-| [!UICONTROL 報告工具] | [!UICONTROL 與任何人共用專案連結] | 讓使用者[與任何人共用專案。](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
+| [!UICONTROL 報告工具] | [!UICONTROL 與任何人共用專案連結] | 讓使用者[與任何人共用專案。](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
 | [!UICONTROL 報告工具] | [!UICONTROL 預測] | 讓使用者存取Analysis Workspace中的[Forecasting](../analysis-workspace/c-forecast/forecasting.md)功能 |
 | [!UICONTROL 報告工具] | [!UICONTROL AI 助理：產品知識] | 讓使用者存取[AI小幫手](../ai-assistant.md)以取得產品知識。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 智慧型註解] | 讓使用者存取[智慧型字幕](/help/analysis-workspace/visualizations/intelligent-captions.md)。 |
@@ -137,6 +137,8 @@ Customer Journey Analytics由三個存取層級或三個角色控管：產品管
 | [!UICONTROL 資料檢視工具] | [!UICONTROL CJA BI擴充功能] | 讓使用者使用[BI延伸模組](../data-views/bi-extension.md)。 |
 
 {style="table-layout:auto"}
+
+<!-- add this:  [!UICONTROL Reporting Tools] -[!UICONTROL Data storytelling] - Let users [generate slide presentations based on Workspace projects.](/help/analysis-workspace/curate-share/generate-slides.md) -  -->
 
 ## Workspace 專案管理
 
@@ -150,7 +152,7 @@ Customer Journey Analytics由三個存取層級或三個角色控管：產品管
 
 以下幾個使用案例說明了如何在現實生活場景中使用存取控制。
 
-### 協力廠商存取
+### 第三方存取
 
 您可以提供產品設定檔管理存取權給貴公司合作的協力廠商的團隊負責人。 此管理員可以將公司團隊中的使用者新增到此產品設定檔中。 此產品設定檔管理員可以授予特定資料檢視的存取權，並將協力廠商內的其他使用者新增到此產品設定檔中。 產品設定檔管理員可以修改資料檢視，以符合第三方團隊的需求。
 
