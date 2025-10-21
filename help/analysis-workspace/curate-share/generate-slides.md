@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 9e23382800326440ed2a583e80029c9f27bb2494
+source-git-commit: f6e64e850b8c416817b76697d869c10adb9b544b
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1177'
 ht-degree: 4%
 
 ---
@@ -17,21 +17,27 @@ ht-degree: 4%
 
 擁有[必要許可權](#permission-requirements-to-generate-slides)的使用者可以從Analysis Workspace專案自動產生.pptx簡報。 在產生這些投影片簡報時，Customer Journey Analytics會識別關鍵深入分析，並將其轉換為利害關係人就緒的投影片，自動從您的資料建立故事。
 
-此功能可減少呈現Workspace專案中的發現專案所需的時間和精力，並可讓您快速建立主管敘述，並將業務影響傳達給利害關係人。
-
-這個自動產生的資料故事可讓分析師專注於資料探索，而Customer Journey Analytics會組織分析人員的發現，並將其格式化為利害關係人消費的形式。
+這個自動產生的資料故事可減少呈現Workspace專案中的發現所需的時間、精力和專業知識。 分析人員可更專注於資料探索，同時允許Customer Journey Analytics建置和格式化執行敘述，並將業務影響傳達給利害關係人。
 
 ## 瞭解投影片簡報中的資料故事
 
-Analysis Workspace使用創作AI在投影片簡報中建立資料故事。 這些資料故事提供額外情境、呈現重要焦點，並為後續步驟提供概念，以補充指定Workspace專案的分析。 指出隱藏的趨勢、異常、貢獻因素、關鍵驅動因素
+Analysis Workspace使用創作AI，以投影片簡報格式，根據您的Workspace資料建立敘述。
+
+以下章節說明資料內文提供的額外值、專案中有助於塑造敘述的必要元素，以及每個簡報輸出中包含的關鍵元素。
 
 ### 資料內文提供的其他值
+
+資料故事可讓資料分析經驗較少的使用者存取資料，從而為Workspace專案提供價值和深入分析。
 
 資料內文可透過以下方式補充指定Workspace專案的分析：
 
 * 提供其他內容
 
 * 強調重要深入分析
+
+* 提供在給定內容中資料是好是壞的指引
+
+* 正在評估某些變數的值是否偏低或偏高。
 
 * 指出隱藏的趨勢、異常和其他因素
 
