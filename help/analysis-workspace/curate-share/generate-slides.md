@@ -6,24 +6,24 @@ feature: Curate and Share
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: f6e64e850b8c416817b76697d869c10adb9b544b
+source-git-commit: 4d7ecc3eaba93424d43d0f4c312aeec78016395f
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1494'
 ht-degree: 4%
 
 ---
 
 # 資料storytelling：從Workspace報表產生投影片簡報 {#generate-powerpoint}
 
-擁有[必要許可權](#permission-requirements-to-generate-slides)的使用者可以從Analysis Workspace專案自動產生.pptx簡報。 在產生這些投影片簡報時，Customer Journey Analytics會識別關鍵深入分析，並將其轉換為利害關係人就緒的投影片，自動從您的資料建立故事。
+具有[必要許可權](#permission-requirements-to-generate-slides)的使用者可以根據Analysis Workspace專案自動產生.pptx簡報。 在產生這些投影片簡報時，Customer Journey Analytics會識別關鍵深入分析，並將其轉換為利害關係人就緒的投影片，自動從您的資料建立故事。
 
-這個自動產生的資料故事可減少呈現Workspace專案中的發現所需的時間、精力和專業知識。 分析人員可更專注於資料探索，同時允許Customer Journey Analytics建置和格式化執行敘述，並將業務影響傳達給利害關係人。
+此產生的資料故事可減少呈現Workspace專案中的發現專案所需的時間、精力和專業知識。 分析人員可更專注於資料探索，同時允許Customer Journey Analytics建置和格式化執行敘述，並將業務影響傳達給利害關係人。
 
 ## 瞭解投影片簡報中的資料故事
 
-Analysis Workspace使用創作AI，以投影片簡報格式，根據您的Workspace資料建立敘述。
+**資料故事**&#x200B;是Customer Journey Analytics根據您的Workspace資料建立的敘事。 Customer Journey Analytics會使用創作AI識別您選擇包含在幻燈片簡報中的面板和視覺效果中的重要主題。 它會產生深入分析，然後進行重複資料刪除和評分程式，以識別用來建立資料故事的深入分析子集。
 
-以下章節說明資料內文提供的額外值、專案中有助於塑造敘述的必要元素，以及每個簡報輸出中包含的關鍵元素。
+以下章節說明資料內文提供的額外值、專案中有助於塑造敘述的必要元素，以及.pptx簡報輸出中包含的關鍵元素。
 
 ### 資料內文提供的其他值
 
@@ -37,11 +37,9 @@ Analysis Workspace使用創作AI，以投影片簡報格式，根據您的Worksp
 
 * 提供在給定內容中資料是好是壞的指引
 
-* 正在評估某些變數的值是否偏低或偏高。
+* 正在評估某些變數的值是否偏低或偏高
 
 * 指出隱藏的趨勢、異常和其他因素
-
-* 識別關鍵驅動因素
 
 * 提出後續步驟的想法
 
@@ -51,7 +49,7 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
 * 維度間和量度間關係
 
-* 構成分析基礎的個別元素：維度、量度、篩選器、自由表格結構、視覺效果和面板
+* 構成分析基礎的個別元素（維度、量度、篩選器、自由表格結構、視覺效果和面板）
 
 * 為面板、表格和視覺效果指定的名稱
 
@@ -61,9 +59,11 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
 ### 資料劇本的簡報元素
 
-資料內文包含執行摘要幻燈片、詳細投影片和區段分隔線。
+資料本文包含標題幻燈片、執行摘要幻燈片、詳細投影片和區段分隔線。
 
-**執行摘要：**&#x200B;優先處理最高價值的深入分析，並製作長度介於1到5個句子的整體故事。
+**標題投影片：**&#x200B;顯示您指定的標題和簡報者名稱。 演講者備註會顯示資訊，說明主題和敘述的建立程式、產生及使用多少深入分析，以及使用哪些面板。
+
+**執行摘要：**&#x200B;排定最高價值深入分析的優先順序，並製作長度介於1到5個句子的整體故事。
 
 **詳細投影片：**&#x200B;產生與Workspace專案中任何表格、面板或視覺效果相關的深入分析。 深入分析包括趨勢、季節性、異常和關聯。
 
@@ -104,11 +104,11 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
    | **[!UICONTROL 封面標題]** | 指定簡報的標題。 此標題會顯示在簡報的標題投影片上。 |
    | **[!UICONTROL 包含簡報者名稱]** | 指定簡報者的名稱。 此名稱會出現在簡報標題投影片上，位於封面標題下方。 |
    | **[!UICONTROL 要包含的面板和視覺效果]** | 選擇要包含在簡報中的面板和視覺效果。 您最多可以包含50個視覺效果。<p>支援大部分的面板和視覺效果。 如需有關不支援的面板和視覺效果的資訊，請參閱[不支援的專案元素和功能](#unsupported-project-elements-and-features)。</p> |
-   | **[!UICONTROL 面板和視覺效果說明]** | |
-   | **[!UICONTROL 註解]** | |
-   | **[!UICONTROL 強調元件]** | 從您要在簡報中強調的視覺效果中選擇最多5個量度和5個維度。<p>未套用強調時，元件在簡報中顯示如下：<ul><li>**度量和維度：**&#x200B;斜體</li><li>**Dimension專案：**&#x200B;引號</li></ul></p><p>當套用強調時，元件在簡報中顯示如下：</p><ul><li>**量度和維度：**&#x200B;斜體與粗體</li><li>**Dimension專案：**&#x200B;強調對應維度時為粗體<p>在圖表中反白顯示維度專案時，也會將顏色套用至維度專案。</p></li></ul> |
+   | **[!UICONTROL 面板和視覺效果說明]** | 選擇是否要在產生的幻燈片簡報中包含面板和視覺效果說明。 |
+   | **[!UICONTROL 註解]** | 選擇是否在您產生的幻燈片簡報中顯示註解。 如需註解的詳細資訊，請參閱[註解概觀](/help/components/annotations/overview.md)。 |
+   | **[!UICONTROL 強調元件]** | 從您要在簡報中強調的視覺效果中選擇最多5個量度和5個維度。 建立資料故事的主題和總體敘述時，您選擇的元件排名較高，並獲得更多權重。 <p>未套用強調時，元件在簡報中顯示如下：<ul><li>**度量和維度：**&#x200B;斜體</li><li>**Dimension專案：**&#x200B;引號</li></ul></p><p>當套用強調時，元件在簡報中顯示如下：</p><ul><li>**量度和維度：**&#x200B;斜體與粗體</li><li>**Dimension專案：**&#x200B;強調對應維度時為粗體<p>在圖表中反白顯示維度專案時，也會將顏色套用至維度專案。</p></li></ul> |
 
-1. （視條件而定）如果您想要以較少的步驟快速產生投影片，而且您的投影片簡報不需要公司佈景主題，請選取&#x200B;**[!UICONTROL 預設佈景主題]**。
+1. （視條件而定）如果您想以較少的步驟產生投影片，而且您的投影片簡報不需要公司佈景主題，請選取&#x200B;**[!UICONTROL 預設佈景主題]**。
 
    只要選取想要的顏色，即可選擇簡報的顏色主題。
 
@@ -122,11 +122,25 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
    * （建議）下載空白範本並加以修改。
 
-      1. 下載此空白範本。<!--add link-->
+      1. 下載[此空白範本](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?)。
 
       1. 將自訂樣式套用至空白範本。
 
-      1. 重新上傳範本而不變更任何主版面配置名稱。
+      1. 重新上傳範本而不變更任何主版面配置名稱：
+
+         從您的檔案系統中，拖曳已套用自訂樣式的空白範本至拖放區域。
+
+         或
+
+         選取&#x200B;**[!UICONTROL 瀏覽]**，然後瀏覽並選取從檔案系統套用自訂樣式的空白範本。
+
+      1. 在&#x200B;**[!UICONTROL 配置對應]**&#x200B;區段中，產生之簡報中使用的每個投影片配置會自動對應至您上傳之主題的投影片。 檢閱選取專案以確定其正確無誤。
+
+         ![配置對應](assets/generate-slides-layout-mapping.png)
+
+      1. （視條件而定）如果投影片版面配置對應不正確，請選取從上傳簡報中選取之投影片上方的&#x200B;**[!UICONTROL 變更選取專案]**，然後選擇符合版面的投影片。
+
+         對未正確對應的每張投影片重複此程式。
 
    * 直接上傳自訂範本。
 
@@ -136,20 +150,23 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
          選取「**[!UICONTROL 瀏覽]**」，然後瀏覽並從檔案系統中選取自訂範本。
 
-         請確定上傳的檔案具有下列名稱的主版面配置： &quot;Title_Slide&quot;、&quot;Section_Divider&quot;、&quot;Title_Text&quot;、&quot;Title_Chart&quot;、&quot;Title_Two_Content_Mixed&quot;、&quot;Title_Three_Content_Mixed&quot;
+         請確定上傳的檔案具有下列名稱的主版面配置：「Title_Slide」、「Section_Divider」、「Title_Text」、「Title_Chart」、「Title_Two_Content_Mixed」、「Title_Three_Content_Mixed」。
 
          支援大小最大為25MB的.pptx和.potx檔案。
 
+      1. 在&#x200B;**[!UICONTROL 配置對應]**&#x200B;區段中，產生之簡報中使用的每個投影片配置會自動對應至您上傳之主題的投影片。 檢閱選取專案以確定其正確無誤。
+
+         ![配置對應自訂範本](assets/generate-slides-layout-mapping-custom-template.png)
+
+      1. （視條件而定）如果投影片版面配置對應不正確，請選取從上傳簡報中選取之投影片上方的&#x200B;**[!UICONTROL 變更選取專案]**，然後選擇符合版面的投影片。
+
+         對未正確對應的每張投影片重複此程式。
+
 1. 選取&#x200B;**[!UICONTROL 匯出PPT]**。
 
-1. （建議）檢閱並編輯.ppt簡報，並進行任何必要的變更，如下一節所述，[從先前產生的簡報編輯投影片](#edit-slides-from-a-previously-generated-presentation)。
+   .pptx簡報會自動下載至您的工作站。
 
-## 從先前產生的簡報編輯投影片
-
-
-## 下載產生的.pptx簡報
-
-
+1. （建議）開啟.pptx簡報並加以檢閱。 進行任何需要的變更。
 
 ## 產生幻燈片的許可權需求
 
