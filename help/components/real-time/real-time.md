@@ -4,9 +4,9 @@ title: 即時報表概觀
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
+source-git-commit: 0e5a64e78e5a471f8b7c9fc32fdbae2b2e70230a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '780'
 ht-degree: 7%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 7%
 # 即時報告概觀
 
 Customer Journey Analytics 中的即時報告，會即時顯示並更新 Analysis Workspace 中一或多個面板內的資料和視覺效果。
-
-{{release-limited-testing}}
 
 {{ultimate-package}}
 
@@ -59,6 +57,7 @@ Customer Journey Analytics 中的即時報告，會即時顯示並更新 Analysi
 | 3 | Adobe Analytics來源聯結器 | 17 分鐘 | 105 分鐘 |
 | 4 | 進入來源聯結器的其他來源聯結器（包括批次資料） | 25 小時 | 25 小時 |
 
+如果服務中斷超過半小時，即時資料不會在問題解決時以資料回填。 相反，即時報表會從服務再次開始運作的那一刻擷取即時資料。 在此期間不會遺失任何資料，並且仍可使用即時報表以外的標準報表功能。
 
 ## 限制
 
