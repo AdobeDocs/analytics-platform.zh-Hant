@@ -2,10 +2,10 @@
 title: 產品使用情況概觀
 description: 檢視有關您的組織如何使用 Customer Journey Analytics 的深入分析和報告。
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
+source-git-commit: 5b5d4cb17ee73415dbd77bbf0964fc3d4e513cf0
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 100%
+source-wordcount: '632'
+ht-degree: 89%
 
 ---
 
@@ -57,6 +57,7 @@ ht-degree: 100%
    * [!UICONTROL 依排程傳送檔案]
    * [!UICONTROL 與任何人共用專案]
    * [!UICONTROL 與 Workspace 使用者共用專案]
+   * [!UICONTROL 切換資料檢視]
 * **[!UICONTROL 所使用的歸因模型]**：元件使用的歸因模型類型。維度項目包含：
    * [!UICONTROL 上次接觸]
    * [!UICONTROL 首次接觸]
@@ -69,7 +70,8 @@ ht-degree: 100%
    * [!UICONTROL 時間耗損]
    * [!UICONTROL 自訂]
    * [!UICONTROL 演算法]
-* **[!UICONTROL 元件名稱]**：已新增、刪除或修改的元件名稱。
+* **[!UICONTROL 元件識別碼]**：已新增、移除或修改之元件的識別碼。
+* **[!UICONTROL 元件名稱]**：已新增、移除或修改之元件的易記名稱。
 * **[!UICONTROL 元件類型]**：已新增、刪除或修改的元件類型。維度項目包含：
    * [!UICONTROL 維度]
    * [!UICONTROL 量度]
@@ -78,8 +80,10 @@ ht-degree: 100%
    * [!UICONTROL 日期範圍]
    * [!UICONTROL 註解]
    * [!UICONTROL 警報]
+* **[!UICONTROL 資料檢視識別碼]**：資料檢視的識別碼。
+* **[!UICONTROL 資料檢視名稱]**：資料檢視的易記名稱。
 * **[!UICONTROL 登入使用者]**：採取行動的使用者。
-* **[!UICONTROL 使用的面板]**：元件已新增、刪除或修改的面板。維度項目包含：
+* **[!UICONTROL 使用的面板]**：新增、移除或修改的面板。 維度項目包含：
    * [!UICONTROL 歸因]
    * [!UICONTROL 空白面板]
    * [!UICONTROL 實驗]
@@ -93,6 +97,7 @@ ht-degree: 100%
    * [!UICONTROL 使用者串流]
    * [!UICONTROL 保留]
    * [!UICONTROL 功能矩陣]
+* **[!UICONTROL 專案識別碼]**：專案的識別碼。
 * **[!UICONTROL 專案名稱]**：專案易記的名稱。
 * **[!UICONTROL 專案類型]**：專案類型。維度項目包含：
    * `workspace-projects`
