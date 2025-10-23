@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 從Workspace報表產生簡報
 feature: Curate and Share
 role: User
-source-git-commit: 99adae279a21c827579ebc3b58b336a9f0e3e8a4
+source-git-commit: f13a02c2741cf32c25edd11f969a7644f724b612
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1542'
 ht-degree: 4%
 
 ---
@@ -155,6 +155,8 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
          選取「**[!UICONTROL 瀏覽]**」，然後瀏覽並從檔案系統中選取自訂範本。
 
          請確定上傳的檔案具有下列名稱的主版面配置：「Title_Slide」、「Section_Divider」、「Title_Text」、「Title_Chart」、「Title_Two_Content_Mixed」、「Title_Three_Content_Mixed」。
+
+         最多支援15個主版面配置。
 
          支援大小最大為25MB的.pptx和.potx檔案。
 
