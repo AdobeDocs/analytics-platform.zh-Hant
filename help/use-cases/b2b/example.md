@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 1bfebb53fbe056ed6320380178c8b1ce8f7079f1
+source-git-commit: d1097ca5f981623283a7d02200d5023548046429
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 7%
+source-wordcount: '1373'
+ht-degree: 6%
 
 ---
 
 # 人員型 B2B 專案範例
 
-本文說明一個使用案例，說明您想在Customer Journey Analytics中，在典型的以人員為基礎的B2B設定中，正確報告人員資料。 [Real-Time CDP B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)有助於此類設定。  使用案例說明如何在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級的B2B資料。
+本文說明一個使用案例，說明您想在Customer Journey Analytics中，在典型的以人員為基礎的B2B設定中，正確報告人員資料。 [Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)有助於此類設定。  使用案例說明如何在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級的B2B資料。
 
 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}隨發行的[Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md)中，已針對以帳戶為基礎的報告使用案例發佈個別區段。
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 定義您的連線，以包含Experience Platform的所有相關B2B資料集。 您可以考慮新增至連線的資料集：
 
-| 資料集 | 結構描述 | 結構描述類型 | 基底類別 | 說明 |
+| 資料集（選擇性） | 結構描述 | 結構描述類型 | 基底類別 | 說明 |
 |---|---|---|---|---|
 | B2B活動資料集 | B2B活動結構描述 | 事件 | XDM ExperienceEvent | ExperienceEvent是所發生情況的事實記錄，包括時間點和所涉及個人的身分。 ExperienceEvents可以是明確的（可直接觀察的人類動作）或內隱的（在沒有直接人類動作的情況下引發），並且記錄時不會進行彙總或解譯。 體驗事件對時間網域分析至關重要，因為它們允許觀察和分析在給定時間範圍內發生的變化，並比較多個時間範圍以追蹤趨勢。 |
 | B2B個人資料集 | B2B個人綱要 | 輪廓 | XDM個別設定檔 | XDM個人資料會形成已識別和部分識別個人的屬性和興趣的單一表示。 識別較少的設定檔可能僅包含匿名行為訊號，例如瀏覽器Cookie，而高度識別的設定檔可能包含詳細的個人資訊，例如姓名、出生日期、位置和電子郵件地址。 隨著個人檔案成長，它會成為個人資訊、身分資訊、聯絡詳細資料和個人通訊偏好設定的健全存放庫。 |
@@ -43,7 +43,7 @@ ht-degree: 7%
 -->
 
 
-B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係是在Experience Platform內的B2B設定中定義。 檢視[Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
+B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係是在Experience Platform內的B2B設定中定義。 檢視[Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
 
 
 若要確保連線設定正確，可支援B2B資料的個人查詢功能，請使用下列圖例來概略瞭解情況，並依照下列步驟進行：
@@ -56,20 +56,26 @@ B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關�
 
    ![索引鍵 — 相符的索引鍵](assets/key-matchingkey.png)
 
-   下表提供每個資料集的[!UICONTROL 人員ID]、[!UICONTROL 索引鍵]和[!UICONTROL 相符的索引鍵]值的範例概觀。
+   下表提供每個資料集的[!UICONTROL 人員ID]、[!UICONTROL 索引鍵]和[!UICONTROL 相符的索引鍵]範例值的範例概觀。
 
-   | 資料集 | 人員 ID | 金鑰 | 比對索引鍵<br/> （在事件資料集中） |
+   >[!IMPORTANT]
+   >
+   >下表中&#x200B;**人員ID**、**金鑰**&#x200B;和&#x200B;**相符金鑰**&#x200B;的值是&#x200B;**範例值**，而且可以在您的特定環境中不同。
+   >
+
+
+   | 資料集（選擇性） | 人員 ID | 索引鍵<br/> | 比對索引鍵<br/>（在事件資料集中）<br/> |
    |---|---|---|---| 
    | B2B活動資料集 | SourceKey <br/>**personKey.sourceKey** | | |
    | B2B個人資料集 | SourceKey <br/>**b2b.personKey.sourceKey** | | |
-   | B2B帳戶資料集 | | SourceKey <br/>**accountKey.sourceKey**&#x200B;❶ | SourceKey<br>（B2B人員資料集）<br/>**b2b.accountKey.sourceKey**&#x200B;❶ |
-   | B2B機會資料集 | | Source Key <br/>**opportunityKey.sourceKey**&#x200B;❷ | SourceKey<br/>（B2B機會關係資料集）<br/>**opportunityKey.sourceKey**&#x200B;❷ |
-   | B2B促銷活動資料集 | | SourceKey <br/>**campaignKey.sourceKey**&#x200B;❸ | SourceKey<br/>（B2B促銷活動成員資料集）<br/>**campaignKey.sourceKey**&#x200B;❸<br/> |
-   | B2B行銷清單資料集 | | SourceKey <br/>**marketingListKey.sourceKey**&#x200B;❹ | SourceKey<br/>（B2B行銷清單成員資料集）<br/>**marketingListKey.sourceKey**&#x200B;❹ |
-   | B2B帳戶個人關係資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❺ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❺ |
-   | B2B機會個人關係資料集 | | SourceKey <br/>**personKey.sourceKe** y❻ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❻ |
-   | B2B促銷活動成員資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❼ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❼ |
-   | B2B行銷清單成員資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❽ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❽ |
+   | B2B帳戶資料集 | | SourceKey <br/>**accountKey.sourceKey**❶ | SourceKey<br>（B2B人員資料集）<br/>**b2b.accountKey.sourceKey**❶ |
+   | B2B機會資料集 | | Source Key <br/>**opportunityKey.sourceKey**❷ | SourceKey<br/>（B2B機會關係資料集）<br/>**opportunityKey.sourceKey**❷ |
+   | B2B促銷活動資料集 | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>（B2B促銷活動成員資料集）<br/>**campaignKey.sourceKey**❸<br/> |
+   | B2B行銷清單資料集 | | SourceKey <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>（B2B行銷清單成員資料集）<br/>**marketingListKey.sourceKey**❹ |
+   | B2B帳戶個人關係資料集 | | SourceKey <br/>**personKey.sourceKey**❺ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❺ |
+   | B2B機會個人關係資料集 | | SourceKey <br/>**personKey.sourceKe** y❻ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❻ |
+   | B2B促銷活動成員資料集 | | SourceKey <br/>**personKey.sourceKey**❼ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❼ |
+   | B2B行銷清單成員資料集 | | SourceKey <br/>**personKey.sourceKey**❽ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❽ |
 
 {style="table-layout:auto"}
 
@@ -84,6 +90,11 @@ B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關�
 
 +++量度 
 
+>[!IMPORTANT]
+>
+>下表中的量度及其值（**元件名稱**、**資料集**、**資料集型別**&#x200B;和&#x200B;**[!UICONTROL 結構描述路徑]）**&#x200B;為&#x200B;**範例**。 針對您的特定情況定義相關的B2B量度（元件名稱、資料集、資料型別和結構描述路徑）。
+>
+
 | 元件名稱 | 資料集 | 資料類型 | 結構描述路徑 |
 |---|---|---|---|
 | 年度帳戶收入 | B2B帳戶資料集 | 雙精度浮點數 | accountOrganization.annualRevenue.amount |
@@ -97,6 +108,11 @@ B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關�
 +++
 
 +++維度
+
+>[!IMPORTANT]
+>
+>下表中的維度及其值（**元件名稱**、**資料集**、**資料集型別**&#x200B;和&#x200B;**[!UICONTROL 結構描述路徑]）**&#x200B;為&#x200B;**範例**。 針對您的特定情況定義相關的B2B維度（元件名稱、資料集、資料型別和結構描述路徑）。
+>
 
 | 元件名稱 | 資料集 | 資料類型 | 結構描述路徑 |
 |---|---|---|---|
