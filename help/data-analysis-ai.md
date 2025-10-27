@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: bb44ba8d36a2c21c789f0df6a84ea0432ca20029
+source-git-commit: e4b7f1da451a7ec9171fbb623e0e79e916827fd8
 workflow-type: tm+mt
-source-wordcount: '2461'
-ht-degree: 99%
+source-wordcount: '2489'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->符合資格的客戶可以在限定時間內使用 Data Insights 代理。Data Insights 代理的存取權會於 2025 年 11 月 30 日結束。若要繼續使用Data Insights Agent而不中斷，請聯絡您的Adobe客戶代表以瞭解更多有關授權Data Insights Agent的資訊。
+>符合資格的客戶可以在限定時間內使用 Data Insights 代理。Data Insights 代理的存取權會於 2025 年 11 月 30 日結束。若要繼續不間斷地使用 Data Insights 代理，請聯絡您的 Adobe 客戶代表，了解更多關於 Data Insights 代理授權的資訊。
 
 Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/help/ai-assistant.md)存取，此助理是生成式 AI 對話代理程式，能迅速有效地回答您的資料相關問題。此代理會使用來自資料視圖的元件以及您的實際資料，在 Analysis Workspace 建置相關的視覺內容。
 
@@ -64,34 +64,39 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
    1. 在所提供之表格的「**[!UICONTROL 報告工具]**」列中，選取編輯圖示![編輯](/help/assets/icons/Edit.svg)。
    1. 捲動至或搜尋「**[!UICONTROL AI 助理：產品知識]**」，然後選取此權限旁的加號圖示![加號圓圈](/help/assets/icons/AddCircle.svg)。
+   1. 捲動至或搜尋&#x200B;**[!UICONTROL Data Insights Agent]**，然後選取此許可權旁的加號圖示![AddCircle](/help/assets/icons/AddCircle.svg)。
 
-      「**[!UICONTROL AI 助理：產品知識]**」權限便會新增至「**[!UICONTROL 包含的權限項目]**」欄位中。
+      **[!UICONTROL AI小幫手：產品知識]**&#x200B;許可權和&#x200B;**[!UICONTROL Data Insights Agent]**&#x200B;許可權已新增至&#x200B;**[!UICONTROL 包含的許可權專案]**&#x200B;欄。
 
       ![新增權限](assets/ai-assistant-permissions.png)。
-
-   1. 選取「**[!UICONTROL 資料視圖工具]**」索引標籤，然後選取「![Data Insights 代理](/help/assets/icons/AddCircle.svg)」權限旁的加號圖示&#x200B;**[!UICONTROL 加號圓圈]**。
-
-      「**[!UICONTROL Data Insights 代理]**」權限會新增至「**[!UICONTROL 包含的權限項目]**」欄位中。
-
-      ![新增權限](assets/ai-assistant-permissions-dataviewtools.png)。
-
-   1. 選取「**[!UICONTROL 資料視圖]**」索引標籤，選擇要針對 Data Insights 代理啟用的資料視圖。
-
-      >[!IMPORTANT]
-      >
-      >啟用資料視圖時請將以下事項納入考量：
-      >* 每個 IMS 組織最多可以啟用 50 個資料視圖。若特定組織的所有產品設定檔內啟用超過 50 個資料視圖，則 Data Insights 代理會使用最常用的 50 個資料視圖。
-      >* 在 Admin Console 中啟用所包含資料視圖當日的某個時間點，Data Insights 代理便可以參照這些資料視圖。
-
-   1. 搜尋或捲動至您想要啟用的資料視圖，然後選取每個資料視圖名稱旁邊的加號圖示![加號圓圈](/help/assets/icons/AddCircle.svg)。
-
-      您新增的每個資料視圖都會顯示在「**[!UICONTROL 包含的權限項目]**」欄位中。
-
-      ![新增權限](assets/ai-assistant-permissions-dataviews.png)。
 
    1. 選取「**[!UICONTROL 儲存]**」，儲存權限。
 
   如需關於存取控制的更多資訊，請參閱[存取控制](/help/technotes/access-control.md#access-control)。
+
+* **資料檢視存取**：必須為Data Insights Agent啟用資料檢視。
+
+  >[!IMPORTANT]
+  >
+  >啟用資料視圖時請將以下事項納入考量：
+  >* 每個 IMS 組織最多可以啟用 50 個資料視圖。若特定組織的所有產品設定檔內啟用超過 50 個資料視圖，則 Data Insights 代理會使用最常用的 50 個資料視圖。
+  >* Data Insights Agent可在您啟用資料檢視的同一天，參照包含的資料檢視。
+
+  若要啟用Data Insights Agent的資料檢視：
+
+   1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
+
+   1. 選取一或多個要為Data Insights Agent啟用的資料檢視，然後選取&#x200B;**[!UICONTROL 為Data Insights Agent啟用]**。
+
+      ![啟用Data Insights Agent的資料檢視](assets/data-view-enable-dia.png)
+
+  若要檢視在您的IMS組織中為Data Insights Agent啟用的資料檢視數量：
+
+   1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
+
+   1. 選取&#x200B;**[!UICONTROL Data Insights Agent]**&#x200B;欄頂端的資訊圖示。
+
+      ![Data Insights Agent資訊圖示](assets/data-insights-agent-tooltip.png)
 
 ## 存取 AI 助理中的 Data Insights 代理
 
@@ -149,7 +154,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」。*
 
-**回覆：**&#x200B;**[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
+**回覆：****[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
 
 ![長條圖](/help/assets/ai-asst-result4.png)
 
@@ -259,7 +264,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[!MORELIKETHIS]
 >
 >[元件設定](/help/data-views/component-settings/overview.md)
->&#x200B;>[資料字典 &#x200B;](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[核准計算量度](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[共用區段](/help/components/segments/seg-share.md)
+>>[資料字典 ](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[核准計算量度](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[共用區段](/help/components/segments/seg-share.md)
 >
