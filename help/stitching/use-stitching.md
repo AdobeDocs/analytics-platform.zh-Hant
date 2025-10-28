@@ -1,20 +1,20 @@
 ---
-title: 使用匯整
-description: 如何使用拼接
+title: 請求拼接
+description: 如何請求拼接
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 9%
+source-wordcount: '460'
+ht-degree: 8%
 
 ---
 
-# 使用匯整
+# 請求拼接
 
-一旦您的組織符合所有[必要條件](overview.md#prerequisites)，並瞭解常見的[限制](overview.md#limitations)和拼接方法特定限制（[欄位式](fbs.md#limitations)和[圖形式](gbs.md#limitations)），您可以依照這些步驟開始在Customer Journey Analytics中使用拼接。
+當您的組織符合所有[必要條件](overview.md#prerequisites)並瞭解常見的[限制](overview.md#limitations)和拼接方法特定限制（[欄位式](fbs.md#limitations)和[圖形式](gbs.md#limitations)）時，您可以依照這些步驟在Customer Journey Analytics中請求並開始使用拼接。
 
 ## 選取選項
 
@@ -35,20 +35,19 @@ ht-degree: 9%
    - 您要重新輸入金鑰之資料集的資料集ID。
    - 所需資料集的永久ID欄名稱（身分路徑和名稱空間） （每列顯示的識別碼）。
    - 如果資料集支援`identityMap`：
-      - 對於欄位式拼接，請指定持續和暫時ID的名稱空間。
+      - 對於欄位式拼接，請指定持續和人員ID的名稱空間。
       - 對於圖表式拚接，請指定永久ID的名稱空間以及用於查詢身分圖表的身分名稱空間。
    - 如果資料集不支援`identityMap`：
-      - 對於欄位式拚接，所需資料集的暫時ID欄名稱（人員ID，也會作為連線內容中資料集之間的連結）。
+      - 對於依欄位彙整，所需資料集的人員ID欄名稱（人員ID，也會做為連線內容中資料集之間的連結）。
       - 對於圖表式拚接，為用於查詢身分圖表的身分名稱空間。
    - 您的回顧視窗和重播頻率偏好設定。 檢視您的Customer Journey Analytics套件，以取得可用的[選項](#options)。
    - 沙箱名稱。
 
 
-2. Adobe客戶支援與Adobe工程部門合作，以便在收到您的請求時啟用拼接。 啟用後，Adobe Experience Platform中會出現一個包含新拼接ID欄的新的重設金鑰資料集。 Adobe客戶支援可提供新資料集的ID。
-
+2. Adobe客戶支援與Adobe工程部門合作，以便在收到您的請求時啟用拼接。 啟用後，Adobe Experience Platform中會出現一個包含拼接ID欄的已重設金鑰資料集。 Adobe客戶支援可提供新資料集的ID。
 3. 首次開啟時，Adobe會提供拼接資料的回填。 檢視您的Customer Journey Analytics套件，以取得可用的[選項](#options)。
 
-4. 如果您想在跨管道分析中使用新的拼接資料集，您需要將新的拼接資料集新增到Customer Journey Analytics中的[連線](../connections/overview.md)。 然後新增跨管道分析所需的任何其他資料集，並為每個資料集選取正確的人員ID。
+4. 如果您想要在跨管道分析中使用拼接資料集，您需要將拼接資料集新增到Customer Journey Analytics中的[連線](../connections/overview.md)。 然後新增跨管道分析所需的任何其他資料集，並為每個資料集選取正確的人員ID。
 
 5. 根據連線[建立資料檢視](/help/data-views/create-dataview.md)。
 

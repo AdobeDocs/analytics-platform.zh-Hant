@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: b013518d8f1782219dd2cf9e5b5a89b877e3b92d
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
 source-wordcount: '10175'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告功能的重要層面。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
 
-與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
+與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
 
 衍生欄位是在[資料檢視](../data-views.md)內定義，且是根據一組定義為規則的函數，並套用於適用的標準和/或結構描述欄位。
 
@@ -464,7 +464,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_casewhen"
 >title="情況"
->abstract="此函數提供了根據一個或多個欄位中定義的標準來套用條件的功能。然後，使用這些標準根據條件的順序定義新衍生欄位中的值。"
+>abstract="此函數提供了根據一個或多個欄位中定義的標準來套用條件的功能。接著，系統會根據條件的順序，使用這些條件來定義新衍生欄位中的值。"
 
 
 根據一個或多個欄位明訂的標準來套用條件。然後，使用這些標準來定義新衍生欄位中的值 (根據條件序列)。
@@ -486,7 +486,7 @@ ht-degree: 89%
 - 如果引用來源是來自搜尋引擎，且頁面有查詢字串值`cid` 且其中含有 `ps_` 時，行銷管道應標示為「[!DNL *付費搜尋*]」。
 - 如果引用來源來自搜尋引擎，且頁面沒有查詢字串 `cid`，則行銷管道應標示為「[!DNL *免費搜尋*]」。
 - 如果頁面有查詢字串值 `cid` 且其中含有 `em_`，則行銷管道應標示為「[!DNL *電子郵件*]」。
-- 如果頁面有查詢字串值 `cid` 且其中含有 `ds_`，則行銷管道應標示為「[!DNL *顯示廣告*]」。
+- 如果頁面有查詢字串值 `cid` 且其中含有 `ds_`，則行銷管道應標示為「[!DNL *多媒體廣告*]」。
 - 如果頁面有查詢字串值 `cid` 且其中含有 `so_`，則行銷管道應標示為「[!DNL *付費社交媒體*]」。
 - 如果引用來源來自 [!DNL twitter.com]、 [!DNL facebook.com]、 [!DNL linkedin.com]或 [!DNL tiktok.com]的反向連結網域，則行銷管道應標示為「[!DNL *免費社交媒體*]」。
 - 若以上規則皆不符合，則行銷管道應標示為「[!DNL *其他反向連結*]」。
@@ -1028,7 +1028,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### 衍生欄位 {#deduplicate-uc1-derivedfield}
 
-您定義一個 `Booking Confirmation` 衍生欄位。您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以使用[!UICONTROL 重複資料刪除 ID] [!UICONTROL 預訂確認 ID]對[!UICONTROL 範圍]&#x200B;[!DNL Person]的[!UICONTROL 值]&#x200B;[!DNL Booking]進行重複資料刪除。您選取「[!UICONTROL 保留第一個執行個體]」作為「[!UICONTROL 要保留的值]」。
+您定義一個 `Booking Confirmation` 衍生欄位。您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以使用[!UICONTROL 重複資料刪除 ID] [!UICONTROL 預訂確認 ID]對[!UICONTROL 範圍][!DNL Person]的[!UICONTROL 值][!DNL Booking]進行重複資料刪除。您選取「[!UICONTROL 保留第一個執行個體]」作為「[!UICONTROL 要保留的值]」。
 
 ![Concatenate 規則的螢幕截圖](assets/deduplicate-1.png)
 
@@ -1088,7 +1088,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 >title="深度"
 >abstract="此函數可傳回任何欄位的深度，與事件深度標準元件的功能相似。"
 
-傳回欄位深度，類似於現成可用的標準事件深度維度[&#128279;](/help/components/dimensions/overview.md#standard-dimensions)。
+傳回欄位深度，類似於現成可用的標準事件深度維度[](/help/components/dimensions/overview.md#standard-dimensions)。
 
 +++ 詳細資料
 
@@ -1580,10 +1580,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 | 頁面 URL |
 |---|
-| `https://business.adobe.com/tw/products/analytics/adobe-analytics-benefits.html` |
-| `https://business.adobe.com/tw/products/analytics/adobe-analytics.html` |
-| `https://business.adobe.com/tw/products/experience-platform/customer-journey-analytics.html` |
-| `https://business.adobe.com/tw/products/experience-platform/adobe-experience-platform.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
 
 {style="table-layout:auto"}
 
@@ -2035,7 +2035,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL &#x200B; 反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
+您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL  反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
 
 ![Url Parse 規則 1 的螢幕截圖](assets/url-parse-1.png)
 

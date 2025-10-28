@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: d9a65774fa5ab8c6b7fdd018f5d345dc7eb9e9de
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 0%
@@ -38,15 +38,15 @@ ht-degree: 0%
 * 使用`stitchedID.namespace.code`定義&#x200B;**[!UICONTROL 拼接的名稱空間]**&#x200B;維度。 此維度包含資料列已提升許可權的身分名稱空間，例如`Email`、`Phone`。 或彙整程式後援的名稱空間，例如`ECID`。
   ![拼接的名稱空間維度](assets/stitchednamespace-dimension.png)
 
-* 使用`stitchedID.id`定義&#x200B;**[!UICONTROL 彙整ID值]**&#x200B;維度。 此維度包含身分的原始值。 例如：雜湊電子郵件、雜湊電話、ECID。 此值搭配&#x200B;**[!UICONTROL 拼接的名稱空間]**&#x200B;使用。
+* 使用`stitchedID.id`定義&#x200B;**[!UICONTROL 彙整ID值]**&#x200B;維度。 此維度包含身分的原始值。 例如：雜湊電子郵件、雜湊電話、ECID。 此值搭配&#x200B;**[!UICONTROL 拼接的名稱空間]**使用。
   ![拼接識別碼維度](assets/stitchedid-dimension.png)
 
 
 此外，您需要根據維度中值的存在，新增兩個拼接量度。
 
-1. 使用包含拼接資料集中人員ID的欄位來設定量度，以定義是否設定了人員ID。 即使您使用圖表式拚接，也新增此人員ID，因為人員ID有助於建立基準。 如果人員ID未包含在資料集中，您的基線為0%。
+1. 使用包含拼接資料集中人員ID的欄位來設定量度，以定義是否設定了人員ID。 即使您使用圖表式拚接，也新增此人員ID，因為人員ID有助於建立基準。 如果人員ID未包含在資料集中，您的基準為0%。
 
-   在下列範例中，`personalEmail.address`做為身分識別，用來建立&#x200B;**[!UICONTROL _Email set]**&#x200B;量度。
+   在下列範例中，`personalEmail.address`做為身分識別，用來建立&#x200B;**[!UICONTROL _Email set]**量度。
    ![電子郵件集量度](assets/emailset-metric.png)
 
 1. 使用`stitchedID.namespae.code`欄位來建立&#x200B;**[!UICONTROL 電子郵件拼接名稱空間]**&#x200B;維度。 請確定您指定了[包含排除值元件設定](/help/data-views/component-settings/include-exclude-values.md)，所以您只會考慮您嘗試將資料列提升到的名稱空間值。
@@ -60,9 +60,9 @@ ht-degree: 0%
 
 將這兩個維度新增至資料檢視後，請在Analysis Workspace中使用[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)來檢查每個維度所擁有的資料。
 
-在&#x200B;**[!UICONTROL 拼接的名稱空間維度**]表格中，您通常會看到每個資料集有兩個資料列。 一列，代表銜接程式何時必須使用備援方法(ECID)。 另一列會顯示與所需身分名稱空間（電子郵件）相關聯的事件。
+在**[!UICONTROL 拼接的名稱空間維度**]表格中，您通常會看到每個資料集有兩個資料列。 一列，代表銜接程式何時必須使用備援方法(ECID)。 另一列會顯示與所需身分名稱空間（電子郵件）相關聯的事件。
 
-對於&#x200B;**[!UICONTROL 拼接ID維度**]表格，您會看到來自事件的原始值。 在此表格中，您會看到值會在永久性ID和所需人員ID之間振盪。
+對於**[!UICONTROL 拼接ID維度**]表格，您會看到來自事件的原始值。 在此表格中，您會看到值會在永久性ID和所需人員ID之間振盪。
 
 ![檢查拼接維度](assets/check-data-on-stitching.png)
 
@@ -87,13 +87,13 @@ ht-degree: 0%
 
 您想要在拼接之前和之後測量識別效能。 若要這麼做，請建立三個額外的計算量度：
 
-1. **[!UICONTROL 拼接驗證率]**&#x200B;計算量度，計算在事件總數中，拼接名稱空間設定為所需身分的事件數量。 當您設定資料檢視時，已建立一個&#x200B;**[!UICONTROL 電子郵件拼接名稱空間]**&#x200B;量度，其中包含只有在事件的名稱空間設為電子郵件時才計數的篩選器。 計算量度使用此&#x200B;**[!UICONTROL 電子郵件拼接的名稱空間]**&#x200B;量度來指示資料中擁有所需身分的百分比。
+1. **[!UICONTROL 拼接驗證率]**&#x200B;計算量度，計算在事件總數中，拼接名稱空間設定為所需身分的事件數量。 當您設定資料檢視時，已建立一個&#x200B;**[!UICONTROL 電子郵件拼接名稱空間]**&#x200B;量度，其中包含只有在事件的名稱空間設為電子郵件時才計數的篩選器。 計算量度使用此&#x200B;**[!UICONTROL 電子郵件拼接的名稱空間]**量度來指示資料中擁有所需身分的百分比。
    ![拼接驗證率計算量度](assets/calcmetric-stitchedauthenticationrate.png)
 
-1. **[!UICONTROL 百分比增加]**&#x200B;計算量度，可計算目前識別率與拼接識別率之間的原始百分比變化。
+1. **[!UICONTROL 百分比增加]**計算量度，可計算目前識別率與拼接識別率之間的原始百分比變化。
    ![百分比增加計算量度](assets/calcmetric-percentincrease.png)
 
-1. 計算目前識別率與拼接識別率之間提升度的&#x200B;**[!UICONTROL 提升度]**&#x200B;計算量度。
+1. 計算目前識別率與拼接識別率之間提升度的&#x200B;**[!UICONTROL 提升度]**計算量度。
    ![提升計算量度](assets/calcmetric-lift.png)
 
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 如果您將所有資料合併為Analysis Workspace自由表格，您就可以開始看到銜接提供的影響和值，包括：
 
-* 目前驗證率：已具有正確人員ID的事件數在事件總數中所佔的基線。
+* 目前的驗證率：已具有正確人員ID的事件數量在事件總數中的底線。
 * 拼接驗證率：具有正確人員ID的事件在事件總數中的新事件數。
 * 百分比增加：原始百分比從拼接的驗證速率減去基準的目前驗證速率而增加。
 * 提升度：相對於基準線目前驗證速率的百分比變化。
