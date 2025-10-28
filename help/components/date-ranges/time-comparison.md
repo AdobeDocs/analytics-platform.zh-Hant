@@ -4,22 +4,28 @@ title: 日期比較
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 5a9cb206076755d5b34a8ec9108ca88a9468bfe3
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 100%
+source-wordcount: '757'
+ht-degree: 86%
 
 ---
 
 # 日期比較
 
-您可以利用 Analysis Workspace 的「日期比較」功能，選取任何含有日期範圍的欄並建立常見的日期比較，例如逐年比較、逐季比較、逐月比較等。
+Analysis Workspace中的日期比較可讓您挑選任何含日期範圍的欄，然後建立常用的日期比較，例如：逐年比較、逐季比較、逐月比較等。
 
 ## 比較時段
 
 分析需要相關內容，而通常那些內容會由先前的時段提供。例如，「*您的表現與去年同時期比較，有多大改善或退步？」這個問題*&#x200B;是了解您的企業的基本問題。「日期比較」會自動包括「*差異*」欄，其中顯示與特定時段相較的百分比變化。
 
 1. 建立[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)，加入您要進行時段比較的任何維度和量度。
+1. 在面板或欄上設定時段，以判斷比較時間範圍，以及它是滾動式或固定式時間比較。
+
+   若要建立滾動時間比較，請將面板或欄的日期範圍設定為滾動日期範圍（例如&#x200B;**[!UICONTROL 最近7天]**、**[!UICONTROL 最近30天]**&#x200B;等）。
+
+   若要建立固定時間比較，請將面板或欄的日期範圍設定為自訂日期範圍。
+
 1. 開啟表格列的內容選單，並選取「**[!UICONTROL 比較時段]**」。
 
    ![已選取「比較時段」的表格列](assets/compare-time.png)
