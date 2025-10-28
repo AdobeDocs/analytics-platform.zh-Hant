@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: 58254cab90d907ad9675c30dfc1b835910214b3a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '854'
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ Content Analytics 會使用以下關鍵用語：
 
 ## 運作方式
 
-Content Analytics 使用 Experience Platform 事件資料集中的網頁影像檢視資料[收集內容事件資料](config/datacollection.md)。並將內容資料收集與 (現有的) 行為資料收集實施結合。
+Content Analytics 使用 Experience Platform 事件資料集中的網頁影像檢視資料[收集內容事件資料](config/datacollection.md)。這些內容體驗事件需要使用Experience Platform Edge Network (網頁SDK、伺服器API)來收集資料。 行為資料可以使用Web SDK或Analytics Source Connector來收集。
 
 ![Content Analytics：如何運作](assets/aca-overview.gif)
 
