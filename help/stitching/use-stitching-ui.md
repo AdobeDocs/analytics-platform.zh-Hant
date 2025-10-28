@@ -6,16 +6,16 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 0afe57047e2038f1acd9f88a1e7992da9a2819b1
+source-git-commit: 23b890ec6a3266d1ca0621b09264f1d6a2f82645
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '808'
 ht-degree: 3%
 
 ---
 
 # 使用匯整
 
-您可以在已設定為連線一部分的一或多個事件資料集上啟用拼接。 您可以啟用彙整功能的事件資料集數目，會由您已授權的Customer Journey Analytics套件決定。
+您可以在已設定為連線一部分的一或多個事件資料集上啟用拼接。 您授權的Customer Journey Analytics套件決定您可以啟用進行拼接的事件資料集數量。
 
 {{release-limited-testing}}
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 若要啟用連線UI中事件資料集的拼接功能：
 
-* 資料集所根據的結構描述必須已定義：
+* 資料集所根據的結構描述應該具有：
 
    * 設定為身分的多個欄位，可讓您為永久ID和人員ID選取不同的值。
    * 至少一個標示為主要身分的欄位具有關聯的名稱空間，以備您將「身分對應」和主要身分名稱空間用於永久ID或人員ID。
@@ -57,7 +57,7 @@ ht-degree: 3%
 
      其中：
 
-      * `{PERSISTENT_ID_FIELD}`是持續性識別碼的欄位。 例如：`identityMap.ecid[0]`。
+      * `{PERSISTENT_ID_FIELD}`是永久識別碼的欄位。 例如：`identityMap.ecid[0]`。
       * `{DATASET_TABLE_NAME}`是事件資料集的資料表名稱。
       * `{FORMAT_STRING}`是時間戳記欄位的格式字串。 例如：`MM/DD/YY HH12:MI AM`。
       * `{START_DATE} `是開始日期。 例如：`2024-01-01 00:00:00`。
@@ -127,7 +127,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >您必須有權使用身分圖表。
+   >確定您有權使用身分圖表。
    >
 
    在此之前，會顯示&#x200B;**[!UICONTROL 變更為身分圖表]**&#x200B;對話方塊，以確保您在使用身分圖表進行拼接之前[已完成資料集](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)的身分圖表設定。 選取&#x200B;**[!UICONTROL 繼續]**&#x200B;以繼續。
@@ -143,5 +143,5 @@ ht-degree: 3%
 
 除了[欄位式拚接限制](/help/stitching/fbs.md#limitations)和[圖表式拚接限制](/help/stitching/gbs.md#limitations)之外，當您在「連線」介面中啟用拚接時，將會套用下列限制：
 
-* 您只能將事件資料集拼接一次，做為單一連線的一部分。 您無法定義多個相同事件資料集，並為每個執行個體使用個別的彙整設定。 如果您想在相同資料集上套用不同的彙整設定，請為每個設定使用個別的連線。
+* 您只能將事件資料集拼接一次，做為單一連線的一部分。 您無法多次定義相同的事件資料集，並為每個執行個體使用個別的彙整設定。 如果您想在相同資料集上套用不同的彙整設定，請為每個設定使用個別的連線。
 
