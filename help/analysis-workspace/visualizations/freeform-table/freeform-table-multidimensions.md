@@ -5,52 +5,24 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: bff352181392c19b6c4fe70893a016179fb77f06
+source-git-commit: ec07eb5dced013eac3d1088f2f49dcea23894395
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1028'
 ht-degree: 2%
 
 ---
 
-# 在自由格式表格中包含多個維度
+# 在自由格式表格中包含多個維度欄
 
 {{release-limited-testing}}
 
 您最多可以在自由表格中包含5個維度欄，讓您並排檢視多個維度專案。 每一列維度專案都會當作單一串連專案。
 
-您可以排序維度欄（連同量度欄），以獲得更完整和自訂的分析。
+您可以將篩選器、排序、劃分等套用至具有多個維度欄的自由格式表格，以建立更完整的自訂分析。
 
-## 多個維度欄和劃分
+## 新增多個維度欄
 
-Analysis Workspace提供下列方式，讓您在自由表格中新增多個維度：
-
-* 包含多個維度欄（如本文所述）
-
-* [加入劃分](/help/components/dimensions/t-breakdown-fa.md)
-
-這兩種方法都可讓您根據其他維度來分析維度。 不過，兩者有一些重要差異，在同一個表格中可使用這兩種方法，以進行更深入的分析。
-
-多個維度欄可讓您：
-
-* 跨多個維度和量度將資料列建立關聯。
-
-* 只有在資料套用至表格中的每個維度欄時，才顯示資料。 若要完成此操作，請使用欄篩選器取消選取每個維度欄上的&#x200B;**[!UICONTROL 包含「沒有值」]**&#x200B;設定。
-
-  如需詳細資訊，請參閱[篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
-
-* 依多個維度和量度欄排序資料。
-
-  如需詳細資訊，請參閱[篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
-
-劃分可讓您：
-
-* 僅顯示一個的維度專案
-
-* 顯示單一排名最前的維度專案
-
-## 新增維度欄
-
-您可以一次新增一個維度欄或大量新增維度欄。
+您可以一次新增一個維度欄或大量新增多個維度欄。
 
 1. 在Analysis Workspace中建立自由表格。
 
@@ -62,7 +34,7 @@ Analysis Workspace提供下列方式，讓您在自由表格中新增多個維�
 
      ![拖曳個別維度](assets/dimensions-add-individually.png)
 
-   * 在元件選單中選取最多5個維度，然後將它們拖曳至自由表格。 維度會以您選取的順序從左到右新增至表格中。
+   * 在元件選單中選取最多5個維度，然後將它們拖曳至自由表格。 維度會依照您選取它們的順序，從左到右新增至表格中。
 
      若要選取多個維度，請按住&#x200B;***命令***&#x200B;鍵(在Mac上)或&#x200B;***Ctrl***&#x200B;鍵（在Windows上）。
 
@@ -70,13 +42,15 @@ Analysis Workspace提供下列方式，讓您在自由表格中新增多個維�
 
 ## 篩選表格
 
+您可以將篩選器套用至自由表格中的一或多個維度欄。
+
 如需篩選表格的資訊，請參閱[篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables)中的[篩選表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
 
 ## 排序表格 {#sort-tables}
 
-<!--At GA, move this section into the "Filter and sort tables" article and replace the current "Sort tables" section. Change the "Filter tables" section above to "Filter and sort tables" and link to the other article. Also add row to Guardrails article. -->
+<!--At GA, move this section into the "Filter and sort tables" article and replace the current "Sort tables" section. Change the "Filter tables" section above to "Filter and sort tables" and link to the other article. Also add row to Guardrails -->
 
-您可以依Analysis Workspace中維度或量度任一欄來排序自由表格資料。
+您可以依Analysis Workspace中的任何欄排序自由表格的資料，不論是維度或量度皆然。
 
 依預設，維度會依遞增順序排序，量度則依遞減順序排序。
 
@@ -134,7 +108,7 @@ Analysis Workspace提供下列方式，讓您在自由表格中新增多個維�
 
 當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序排序。 優先順序編號會顯示在排序圖示![排序優先順序圖示](assets/sort-priority-icon.png)旁邊。
 
-具有主要優先順序的欄決定主要順序，具有次要優先順序的欄決定主要欄中列具有相同值的順序，具有第三優先順序的欄決定主要欄和次要欄中列具有相同值的順序，依此類推。
+具有主要優先順序的欄決定主要順序；具有次要優先順序的欄決定列在主要欄中具有相同值的順序；具有第三優先順序的欄決定列在主要欄和次要欄中具有相同值的順序；依此類推。
 
 例如，假設表格中包含下列資料欄：
 
@@ -156,9 +130,37 @@ Analysis Workspace提供下列方式，讓您在自由表格中新增多個維�
 
 ![多重排序範例](assets/dimensions-multiple-sort.png)
 
-## 在含有多個維度欄的表格中加入劃分
+## 多個維度欄和劃分
 
-當您將劃分新增至具有多個維度欄的表格時，劃分會跨越新增所在的列上的所有維度專案。
+Analysis Workspace提供下列方式，讓您在自由表格中新增多個維度：
+
+* 包含多個維度欄（如本文所述）
+
+* [加入劃分](/help/components/dimensions/t-breakdown-fa.md)
+
+這兩種方法都可讓您根據其他維度來分析維度。 不過，兩者有一些重要差異，在同一個表格中可使用這兩種方法，以進行更深入的分析。
+
+### 維度欄和劃分之間的差異
+
+多個維度欄可讓您：
+
+* 將維度專案串連到多個維度間的不同資料列。
+
+* 只有當維度專案套用至表格中的每個維度欄時，才可以將維度專案包含在串連列中。 若要完成此操作，請使用欄篩選器取消選取每個維度欄上的&#x200B;**[!UICONTROL 包含「沒有值」]**&#x200B;設定。
+
+  如需詳細資訊，請參閱[依多個資料行排序資料表（進階排序）](#sort-tables-by-multiple-columns-advanced-sorting)。
+
+* 依多個維度和量度欄排序資料，以檢視更多自訂資料。
+
+  如需詳細資訊，請參閱[依多個資料行排序資料表（進階排序）](#sort-tables-by-multiple-columns-advanced-sorting)
+
+劃分可讓您：
+
+* 在自由表格中，依次要維度來劃分維度專案。 您最多可以為次要維度顯示200個維度專案。
+
+### 在含有多個維度欄的表格中加入劃分
+
+當您將劃分新增至具有多個維度欄的表格時，劃分會涵蓋您新增該欄的列上的所有維度專案。
 
 您可以新增劃分，如[劃分維度](/help/components/dimensions/t-breakdown-fa.md)中所述。
 
