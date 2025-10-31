@@ -4,10 +4,10 @@ title: 欄設定
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: e8bb2df72cd223713bf63f0e85ea9c9e444cb3e5
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 89%
+source-wordcount: '910'
+ht-degree: 79%
 
 ---
 
@@ -88,13 +88,11 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->元件歸因更新至非預設歸因模型時，請考慮以下事項：
+>對量度啟用非預設歸因模型時，請考量下列事項：
 >
->* **當使用報告中&#x200B;*單一維度的元件*：**&#x200B;使用非預設歸因模型時，此元件歸因會忽略配置模式。
+>* **在具有&#x200B;*單一維度*：**&#x200B;的報表中使用量度時，量度的歸因會覆寫在維度上設定的配置模式。 例如，具有「首次接觸」歸因的量度會覆寫「最近」維度配置。
 >
->* **當使用報告中&#x200B;*多個維度的元件*：**&#x200B;使用非預設歸因模型時，此元件歸因會保留配置模式。
->
->   只有[將資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md) 時才有多個維度可使用。
+>* **在具有&#x200B;*多個維度的報表中使用量度時*：**&#x200B;該量度的歸因會套用在每個維度的配置模型之上。 例如，具有「首次接觸」歸因的量度會套用在「最近」維度配置上方。
 >
 > 有關配置的更多資訊，請參閱「[持續性元件設定](/help/data-views/component-settings/persistence.md)」。
 

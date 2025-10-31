@@ -4,14 +4,14 @@ title: 篩選與排序
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a16043f1bb15deba1332ed39438214597647b9b4
+source-git-commit: 1d760139bd988097486e5c151364f291ad8e243d
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 72%
+source-wordcount: '1133'
+ht-degree: 65%
 
 ---
 
-# 篩選和排序
+# 篩選和排序表格
 
 Analysis Workspace 中的自由表格是互動式資料分析的基礎。因此，它們可包含數千列資訊。若要有效地展示最重要的資訊，對資料進行篩選和排序相當重要。
 
@@ -33,7 +33,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 * 套用篩選器至表格
 * 使用客群區段
 
-請務必閱讀每種方法如何影響[自由格式表格總計](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)。
+請務必閱讀每個方法如何影響[自由表格總計](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)。
 
 ### 排除表格中的特定資料列
 
@@ -43,11 +43,11 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 >
 >當您按照本節所述排除資料列時， 「[!UICONTROL 永遠排除項目]」規則會自動加入[!UICONTROL 進階]篩選器對話框。您可以透過選取 ![篩選器](/help/assets/icons/Filter.svg) 篩選器圖示，然後選取「[**[!UICONTROL 顯示進階]**](#apply-a-simple-or-advanced-filter-to-a-table)」來檢視套用的規則。
 
-若要排除自由格式表格的特定資料列：
+若要從自由表格中排除特定列：
 
 1. 將滑鼠停留在要排除的資料列上，然後選取「![關閉](/help/assets/icons/Close.svg)」。
 
-   按住 ***Shift*** 鍵以選取資料列範圍，或按住 ***cmd*** 鍵 (在 Mac 系統上)，或按 ***ctrl*** 鍵 (在 Windows 系統上) 以選取多個資料列。
+   按住&#x200B;***Shift***&#x200B;鍵以選取一定範圍的列，或按住&#x200B;***Command***&#x200B;鍵(在Mac上)或&#x200B;***Ctrl***&#x200B;鍵（在Windows上）以選取多個列。
 
 <!--### Right-click > Delete selected rows
 
@@ -59,7 +59,7 @@ Note: this option does not seem to work. AN-338422
    This action will remove the rows from the table and apply a table filter.-->
 
 
-### 套用簡單或進階篩選器至表格
+### 套用簡單或進階篩選至表格
 
 若要篩選自由表格中的資料：
 
@@ -75,7 +75,7 @@ Note: this option does not seem to work. AN-338422
 
    | 選項 | 函數 |
    |---------|----------|
-   | [!UICONTROL **包括「無值」**] | 選取此選項，在表格中顯示&#x200B;**[!UICONTROL 無值]**&#x200B;資料列，這些資料為沒有所選維度的值。取消選取此選項，可隱藏&#x200B;**[!UICONTROL 無值]**&#x200B;資料列。 |
+   | [!UICONTROL **包括「無值」**] | 選取此選項，在表格中顯示&#x200B;**[!UICONTROL 無值]**&#x200B;資料列，這些資料為沒有所選維度的值。取消選取此選項以隱藏&#x200B;**[!UICONTROL 沒有值]**&#x200B;列。<!-- Add at multi dim GA: When tables include multiple dimension columns, you can deselect this option to show data only when it applies to each dimension column in the table.--> |
    | [!UICONTROL **搜尋單字或片語**] | 指定您想要篩選的單字或片語。只顯示包含指定字詞或確切片語的行。 |
 
 
@@ -87,7 +87,7 @@ Note: this option does not seem to work. AN-338422
 
    | 選項 | 函數 |
    |---------|----------|
-   | [!UICONTROL **包括「無值」**] | 選取此選項，在表格中顯示&#x200B;**[!UICONTROL 無值]**&#x200B;資料列，這些資料為沒有所選維度的值。取消選取此選項，可隱藏&#x200B;**[!UICONTROL 無值]**&#x200B;資料列。 |
+   | [!UICONTROL **包括「無值」**] | 選取此選項，在表格中顯示&#x200B;**[!UICONTROL 無值]**&#x200B;資料列，這些資料為沒有所選維度的值。取消選取此選項以隱藏&#x200B;**[!UICONTROL 沒有值]**&#x200B;列。 |
    | [!UICONTROL **符合**] | 選擇&#x200B;[!UICONTROL **如果滿足所有條件**]&#x200B;即可僅顯示符合您指定之所有條件的資料。 此選項通常會產生更精細的資料。<br/><br/>選擇&#x200B;[!UICONTROL **如果符合任何條件即可顯示符合**]&#x200B;您指定之任何篩選條件的資料。 此選項通常會產生較少精細的資料。 |
    | [!UICONTROL **標準**] | 從下列篩選選項中選取：<br/><ul><li>[!UICONTROL **包含片語**] (預設)：篩選結果中只會包含您指定之確切片語的資料。 字詞必須按照&#x200B;[!UICONTROL **搜尋字詞或片語欄位**]&#x200B;中指定的順序排列。</li><li>[!UICONTROL **包含任何詞語**]：篩選結果中只會包含來自您所指定片語的一或多個字詞。 </li><li>[!UICONTROL **包含所有詞語**]：篩選結果中只會包含來自您所指定片語的所有字詞的資料。字詞不必按照&#x200B;[!UICONTROL **搜尋字詞或片語欄位**]&#x200B;中指定的順序排列。</li><li>[!UICONTROL **不包含任何詞語**]：篩選結果中只會顯示不含您所指定片語的一或多個字詞。 </li><li>[!UICONTROL **不包含片語**]：篩選結果中只會顯示不含您指定之確切片語的資料。 字詞必須按照&#x200B;[!UICONTROL **搜尋字詞或片語欄位**]&#x200B;中指定的順序排列。</li><li>[!UICONTROL **等於**]：篩選結果中只會包含與您所指定之片語完全相符的資料。 </li><li>[!UICONTROL **不等於**]：篩選結果中只會包含與您所指定之片語不完全相符的資料。 </li><li>[!UICONTROL **開頭為**]：篩選結果中只會包含以您指定的字詞或確切片語開頭的資料。 </li><li>[!UICONTROL **結尾為**]：篩選結果中只會包含以您指定的字詞或確切片語結尾的資料。 </li></ul>選取 ![新增](/help/assets/icons/Add.svg) [!UICONTROL **「新增資料列」**]&#x200B;以新增多個篩選條件。 您為「[!UICONTROL **符合**]」選取的選項會確定「**[!UICONTROL 如果滿足所有條件]**」或「**[!UICONTROL 如果滿足任何條件]**」。 |
    | [!UICONTROL **永遠排除項目**] | 指定要從篩選資料中排除的任何項目的名稱。 |

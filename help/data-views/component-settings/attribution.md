@@ -5,10 +5,10 @@ exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 7d354ce65f72838c007d2b9faf02848d86fd7c0f
+source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 93%
+source-wordcount: '435'
+ht-degree: 63%
 
 ---
 
@@ -33,19 +33,17 @@ ht-degree: 93%
 
 在某些報告中，您可能想要將訂單歸因於「付費」搜尋。在其他報告中，則可能會將訂單歸因至「社交」。歸因可讓您控制報表的這個方面。
 
-## 設定元件的預設歸因模型
+## 設定元件的歸因模型
 
-您可以透過更新資料檢視中的量度設定，為特定量度設定預設歸因模型。這樣做可在 Analysis Workspace 中使用量度的任何時候覆寫量度的歸因模型。
+您可以更新資料檢視中的元件設定，以變更指定元件的預設歸因模型。 只要元件用於Analysis Workspace，這麼做就會覆寫元件的歸因模型。
 
 >[!NOTE]
 >
->啟用量度歸因時，請考慮以下事項：
+>對量度啟用非預設歸因模型時，請考量下列事項：
 >
->* **當使用報告中&#x200B;*單一維度的元件*：**&#x200B;使用非預設歸因模型時，此元件歸因會忽略配置模式。
+>* **在具有&#x200B;*單一維度*：**&#x200B;的報表中使用量度時，量度的歸因會覆寫在維度上設定的配置模式。 例如，具有「首次接觸」歸因的量度會覆寫「最近」維度配置。
 >
->* **當使用報告中&#x200B;*多個維度的元件*：**&#x200B;使用非預設歸因模型時，此元件歸因會保留配置模式。
->
->   只有[將資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md) 時才有多個維度可使用。
+>* **在具有&#x200B;*多個維度的報表中使用量度時*：**&#x200B;該量度的歸因會套用在每個維度的配置模型之上。 例如，具有「首次接觸」歸因的量度會套用在「最近」維度配置上方。
 >
 > 有關配置的更多資訊，請參閱「[持續性元件設定](/help/data-views/component-settings/persistence.md)」。
 
