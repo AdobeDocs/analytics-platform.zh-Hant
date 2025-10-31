@@ -90,7 +90,7 @@ ht-degree: 7%
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [ Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)。
+另請參閱Experience Platform [&#x200B; Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)。
 
 
 ## 自動化資料集有效期
