@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
+source-git-commit: 9314f7d88834a67efb61d0cc0cceef1ccd2fb9cb
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1276'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 2%
 
 您最多可以在自由表格中包含5個維度欄，讓您並排檢視多個維度專案。 每一列維度專案的行為類似於單一串連維度專案。
 
-您可以將篩選器、排序、劃分等套用至具有多個維度欄的自由格式表格，以建立更深入的自訂分析。
+您可以將篩選器、排序、劃分等套用至具有多個維度欄的自由格式表格，以建立更深入、更自訂的分析。
 
 ## 串連的維度專案
 
-將多個維度欄新增至自由表格時，每個維度專案的列都會表現出類似單一串連維度專案的行為。 此功能可讓您檢視特定維度組合的量度資料。
+當您[將多個維度欄](#add-multiple-dimension-columns)新增到自由格式表格時，每一列維度專案的行為就像單一串連維度專案。 此功能可讓您檢視特定維度組合的量度資料。
 
-例如，假設自由表格，其維度為&#x200B;_城市_、_裝置型別_&#x200B;和&#x200B;_當月天數_，而量度為&#x200B;_事件_。 此表格第一列中的3個維度專案會成為單一串連維度專案，顯示每個月第30天在孟買透過行動電話發生的2,056個事件。
+例如，假設自由表格，其維度欄為&#x200B;_城市_、_裝置型別_&#x200B;和&#x200B;_當月天數_，而量度為&#x200B;_事件_。 此表格第一列中的3個維度專案會成為單一串連維度專案，顯示每個月第30天在孟買透過行動電話發生的2,056個事件。
 
 | Dimension：城市 | Dimension：裝置型別 | Dimension：日期 | 量度：事件 |
 |---------|----------|---------|---------|
@@ -57,13 +57,13 @@ ht-degree: 2%
 
      ![拖曳多個維度](assets/dimensions-add-multiple.png)
 
-1. 以單一維度專案的形式檢視表格的每一列。 如需詳細資訊，請參閱[檢視串連維度專案](#view-concatenated-dimension-items)。
+1. 以單一維度專案的形式檢視表格的每一列。 如需詳細資訊，請參閱[串連維度專案](#view-concatenated-dimension-items)。
 
 ## 篩選表格
 
 您可以將篩選器套用至自由表格中的一或多個維度欄。
 
-如需篩選表格的資訊，請參閱[篩選及排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables)中的[篩選表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
+如需篩選表格的詳細資訊，請參閱[篩選及排序自由表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables)中的[篩選表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
 
 ## 排序表格 {#sort-tables}
 
