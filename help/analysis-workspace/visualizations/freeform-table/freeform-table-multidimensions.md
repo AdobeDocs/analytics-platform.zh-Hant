@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: ec07eb5dced013eac3d1088f2f49dcea23894395
+source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1274'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,26 @@ ht-degree: 2%
 
 {{release-limited-testing}}
 
-您最多可以在自由表格中包含5個維度欄，讓您並排檢視多個維度專案。 每一列維度專案都會當作單一串連專案。
+您最多可以在自由表格中包含5個維度欄，讓您並排檢視多個維度專案。 每一列維度專案的行為類似於單一串連維度專案。
 
-您可以將篩選器、排序、劃分等套用至具有多個維度欄的自由格式表格，以建立更完整的自訂分析。
+您可以將篩選器、排序、劃分等套用至具有多個維度欄的自由格式表格，以建立更深入的自訂分析。
+
+## 串連的維度專案
+
+將多個維度欄新增至自由表格時，每個維度專案的列都會表現出類似單一串連維度專案的行為。 此功能可讓您檢視特定維度組合的量度資料。
+
+例如，假設自由表格，其維度為&#x200B;_城市_、_裝置型別_&#x200B;和&#x200B;_當月天數_，而量度為&#x200B;_事件_。 此表格第一列中的3個維度專案會成為單一串連維度專案，顯示每個月第30天在孟買透過行動電話發生的2,056個事件。
+
+| Dimension：城市 | Dimension：裝置型別 | Dimension：日期 | 量度：事件 |
+|---------|----------|---------|---------|
+| 孟買 | 行動電話 | 30 | 2,056 |
+| 紐約 | 平板電腦 | 31 | 1,761 |
+| 班加羅爾 | 桌面 | 1 | 1,666 |
+| 德里 | 行動電話 | 14 | 1,396 |
+
+此表格在Analysis Workspace中的顯示方式如下：
+
+![多重維度範例](assets/multi-dim-example.png)
 
 ## 新增多個維度欄
 
@@ -39,6 +56,8 @@ ht-degree: 2%
      若要選取多個維度，請按住&#x200B;***命令***&#x200B;鍵(在Mac上)或&#x200B;***Ctrl***&#x200B;鍵（在Windows上）。
 
      ![拖曳多個維度](assets/dimensions-add-multiple.png)
+
+1. 以單一維度專案的形式檢視表格的每一列。 如需詳細資訊，請參閱[檢視串連維度專案](#view-concatenated-dimension-items)。
 
 ## 篩選表格
 
@@ -160,9 +179,21 @@ Analysis Workspace提供下列方式，讓您在自由表格中新增多個維�
 
 ### 在含有多個維度欄的表格中加入劃分
 
-當您將劃分新增至具有多個維度欄的表格時，劃分會涵蓋您新增該欄的列上的所有維度專案。
+當您將劃分新增至具有多個維度欄的表格時，劃分會套用至您新增該表格的列上的串連維度專案（橫跨所有維度欄）。
 
-您可以新增劃分，如[劃分維度](/help/components/dimensions/t-breakdown-fa.md)中所述。
+此外，您可以在劃分中新增多個維度欄。 劃分中每一列維度專案的行為也類似單一串連維度專案。
+
+<!-- update screenshot to show the breakdown, and include this introductory sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows... " -->
+
+![多重排序範例](assets/dimensions-multiple-sort.png)
+
+如需如何新增劃分的詳細資訊，請參閱[劃分維度](/help/components/dimensions/t-breakdown-fa.md)。
+
+## 根據跨越多個維度欄的維度專案建立區段
+
+當您根據橫跨多個維度欄的維度專案建立區段時，每個維度專案都會包含在區段定義中，且And運運算元會聯結這些專案。
+
+如需建立區段的詳細資訊，請參閱[建立區段](/help/components/segments/seg-create.md)。
 
 ## 不支援的維度 {#unsupported}
 

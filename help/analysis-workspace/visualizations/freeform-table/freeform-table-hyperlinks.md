@@ -4,14 +4,14 @@ description: 瞭解如何在Analysis Workspace的自由格式表格中建立維�
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1602'
 ht-degree: 97%
 
 ---
 
-# 建立超連結
+# 在自由表格中建立超連結
 
 您可以為維度項目建立超連結，以使這些在 Analysis Workspace 的自由格式表格中成為可點選項目。
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [「在自由格式表中建立超連結」](https://video.tv.adobe.com/v/3445799/?captions=chi_hant&quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [「在自由格式表中建立超連結」](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
