@@ -26,7 +26,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [「在自由格式表中建立超連結」](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [「在自由格式表中建立超連結」](https://video.tv.adobe.com/v/3445799/?captions=chi_hant&quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
