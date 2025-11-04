@@ -6,7 +6,7 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: a32f2c308b8fc1b463dc00d77008063035968241
+source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 56%
@@ -21,13 +21,13 @@ ht-degree: 56%
 
    ![顯示從選取專案建立警示的步驟結果。](assets/breakdown.png)
 
-1. 從子功能表中選取&#x200B;**[!UICONTROL 維度]**、**[!UICONTROL 量度]**、**[!UICONTROL 區段]**&#x200B;或&#x200B;**[!UICONTROL 日期範圍]**，然後選取專案。 或只是在&#x200B;**[!UICONTROL *搜尋&#x200B;*]**&#x200B;欄位中搜尋元件。
+1. 從子功能表中選取&#x200B;**[!UICONTROL 維度]**、**[!UICONTROL 量度]**、**[!UICONTROL 區段]**&#x200B;或&#x200B;**[!UICONTROL 日期範圍]**，然後選取專案。 或只是在&#x200B;**[!UICONTROL *搜尋&#x200B;*]**欄位中搜尋元件。
 
 您可以跨所選時段，依維度項目或客群細分群體來劃分量度。您也可以更深入鑽研至更詳細的層級。
 
 >[!NOTE]
 >
->表格中顯示的劃分數目上限為 200。匯出劃分時，此限制會提高。
+>表格中顯示的劃分數目上限為 400。匯出劃分時，此限制會提高。
 
 ## 依位置劃分
 

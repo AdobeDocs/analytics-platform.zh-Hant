@@ -5,7 +5,7 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 9314f7d88834a67efb61d0cc0cceef1ccd2fb9cb
+source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 2%
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 ### 依多個欄排序表格（進階排序）
 
-{{release-limited-testing-section}}
+<!-- add this back in when move this section back to the filter and sort article: {{release-limited-testing-section}} -->
 
 #### 將排序套用至多個欄
 
@@ -175,7 +175,7 @@ Analysis Workspace提供下列方式，讓您在自由表格中新增多個維�
 
 劃分可讓您：
 
-* 在自由表格中，依次要維度來劃分維度專案。 您最多可以為次要維度顯示200個維度專案。
+* 在自由表格中，依次要維度來劃分維度專案。 您最多可以顯示400個次要維度的維度專案。
 
 ### 在含有多個維度欄的表格中加入劃分
 
