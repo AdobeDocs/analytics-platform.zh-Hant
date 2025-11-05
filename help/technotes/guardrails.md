@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 9263a0c868c6cfe140e38df43d72ff497c2fc931
+source-git-commit: 1df3d61a5721cb98aeb4171683de9154957eab61
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2087'
 ht-degree: 7%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 7%
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [&#x200B; Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/guardrails/overview)。
+另請參閱Experience Platform [ Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)。
 
 
 ## 自動化資料集有效期
@@ -132,12 +132,13 @@ ht-degree: 7%
 |---|--:|---|---|
 | 欄位 | 10,000 | 系統強制的護欄 | 資料集中每列的屬性或欄位數上限。 |
 | 唯一字串 | 1000萬 — 10億 | 系統強制的護欄 | 每個查詢資料集的最大唯一索引鍵數。 根據Customer Journey Analytics套件（請參閱產品說明）。<ul><li>Foundation：1000萬。</li><li>Select：1億。</li><li>Prime：5億。</li><li>Ultimate：10億</li><ul> |
-| 資料列 | 100萬 | 系統強制的護欄 | 連線中指定月份每個不重複人員ID的最大列數。 |
+| 每人列數 | 100萬 | 系統強制的護欄 | 連線中指定月份每個不重複人員ID的最大列數。 |
+| 每日列數 | 25億 | 效能護欄 | 連線中每天的最大平均列數。 |
 | 列大小 | 2 | 效能護欄/系統強制的護欄 | 擷取到Customer Journey Analytics的每列資料的平均大小(KB) （軟性限制）。 列大小的靜態限制由Experience Platform中資料擷取的護欄決定。 |
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
+另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 
 ## 目的地資料匯出
@@ -149,7 +150,7 @@ ht-degree: 7%
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/guardrails#dataset-exports)
+另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## 資料登陸區域
@@ -162,7 +163,7 @@ ht-degree: 7%
 {style="table-layout:auto"}
 
 
-## 欄位式拚接
+## 欄位式拼接
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
@@ -173,7 +174,7 @@ ht-degree: 7%
 {style="table-layout:auto"}
 
 
-## 圖表式彙整
+## 圖表式拼接
 
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
@@ -265,7 +266,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
+>以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 | 資料流程 | 預期延遲 |
 |---|---|
