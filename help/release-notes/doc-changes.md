@@ -208,7 +208,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 在行動計分卡中建立資料故事 | [資料故事](/help/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |
 | 更新功能支援 | 已透過 Customer Journey Analytics 中提供、但在 AA 中無法使用或不支援的功能表來更新 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。 |
 | 預設計算量度 | 已新增說明 [Adobe 提供的預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)的內容。 |
-| 資料字典 | <p>為資料字典新增了新文件，包括[概觀](/help/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/components/data-dictionary/view-data-dictionary.md)、[編輯 ](/help/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
+| 資料字典 | <p>為資料字典新增了新文件，包括[概觀](/help/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/components/data-dictionary/view-data-dictionary.md)、[編輯 &#x200B;](/help/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
 | 專案連結共用 (不需登入) | <p>已更新現有文件，說明如何與無權存取 Analysis Workspace 的人員共用專案的唯讀連結。</p> <p>已更新使用者文件，包括[共用專案](/help/analysis-workspace/curate-share/share-projects.md)和[建立可共用連結](/help/analysis-workspace/curate-share/shareable-links.md)。</p> <p>已將管理員選項新增至[偏好設定](/help/analysis-workspace/user-preferences.md)。</p> |
 | **2023 年 2 月** | |
 | 比較 Customer Journey Analytics 和 BI 解決方案 | Customer Journey Analytics 與典型 BI 解決方案[比較](../getting-started/cja-vs-bi.md)的新文件。 |
