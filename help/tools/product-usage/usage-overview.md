@@ -2,10 +2,10 @@
 title: 產品使用情況概觀
 description: 檢視有關您的組織如何使用 Customer Journey Analytics 的深入分析和報告。
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: 5b5d4cb17ee73415dbd77bbf0964fc3d4e513cf0
+source-git-commit: 22f3059ffef5df76028f36ffa00da8f98956dee1
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 89%
+source-wordcount: '657'
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->此功能將計入 Adob&#x200B;&#x200B;e Experience Platform 中的合約列限制。在啟用此功能之前，請確保您的組織可以容納此功能產生的資料。
+>啟用產品使用情況後，使用情況資料會儲存在Adobe Experience Platform資料湖中。 請確定貴組織的資料湖儲存配置可容納啟用此功能所產生的其他資料集。
+>
+>此功能不會計入您的授權Customer Journey Analytics報告列限制或事件資料權益中。
 
 ## 啟用產品使用情況
 
@@ -57,7 +59,7 @@ ht-degree: 89%
    * [!UICONTROL 依排程傳送檔案]
    * [!UICONTROL 與任何人共用專案]
    * [!UICONTROL 與 Workspace 使用者共用專案]
-   * [!UICONTROL 切換資料檢視]
+   * [!UICONTROL 切換資料釋圖]
 * **[!UICONTROL 所使用的歸因模型]**：元件使用的歸因模型類型。維度項目包含：
    * [!UICONTROL 上次接觸]
    * [!UICONTROL 首次接觸]
@@ -70,8 +72,8 @@ ht-degree: 89%
    * [!UICONTROL 時間耗損]
    * [!UICONTROL 自訂]
    * [!UICONTROL 演算法]
-* **[!UICONTROL 元件識別碼]**：已新增、移除或修改之元件的識別碼。
-* **[!UICONTROL 元件名稱]**：已新增、移除或修改之元件的易記名稱。
+* **[!UICONTROL 元件 ID]**：已新增、移除或修改的元件 ID。
+* **[!UICONTROL 元件名稱]**：已新增、移除或修改的元件易記名稱。
 * **[!UICONTROL 元件類型]**：已新增、刪除或修改的元件類型。維度項目包含：
    * [!UICONTROL 維度]
    * [!UICONTROL 量度]
@@ -80,10 +82,10 @@ ht-degree: 89%
    * [!UICONTROL 日期範圍]
    * [!UICONTROL 註解]
    * [!UICONTROL 警報]
-* **[!UICONTROL 資料檢視識別碼]**：資料檢視的識別碼。
-* **[!UICONTROL 資料檢視名稱]**：資料檢視的易記名稱。
-* **[!UICONTROL 登入使用者]**：採取行動的使用者。
-* **[!UICONTROL 使用的面板]**：新增、移除或修改的面板。 維度項目包含：
+* **[!UICONTROL 資料釋圖 ID]**：資料釋圖的 ID。
+* **[!UICONTROL 資料釋圖名稱]**：資料釋圖的易記名稱。
+* **[!UICONTROL 登入使用者]**：採取動作的使用者。
+* **[!UICONTROL 使用的面板]**：已新增、移除或修改的面板。維度項目包含：
    * [!UICONTROL 歸因]
    * [!UICONTROL 空白面板]
    * [!UICONTROL 實驗]
@@ -97,7 +99,7 @@ ht-degree: 89%
    * [!UICONTROL 使用者串流]
    * [!UICONTROL 保留]
    * [!UICONTROL 功能矩陣]
-* **[!UICONTROL 專案識別碼]**：專案的識別碼。
+* **[!UICONTROL 專案 ID]**：專案的 ID。
 * **[!UICONTROL 專案名稱]**：專案易記的名稱。
 * **[!UICONTROL 專案類型]**：專案類型。維度項目包含：
    * `workspace-projects`
