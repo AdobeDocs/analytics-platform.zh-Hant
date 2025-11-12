@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: 518f2aeac309a34016146b7a4da7823b6fd84cac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2494'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->符合資格的客戶可以在限定時間內使用 Data Insights 代理。Data Insights Agent的存取權將於2026年2月28日之前提供。 若要在此日期之後繼續使用Data Insights Agent而不中斷，請聯絡您的Adobe客戶代表，以進一步瞭解授權Adobe Experience Platform Agent Orchestrator。
+>符合資格的客戶可以在限定時間內使用 Data Insights 代理。在 2026 年 2 月 28 日以前皆可存取 Data Insights 代理。若在此日期後仍要繼續不間斷地使用 Data Insights 代理，請聯絡您的 Adobe 客戶代表，了解有關 Adobe Experience Platform Agent Orchestrator 的更多資訊。
 
 Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/help/ai-assistant.md)存取，此助理是生成式 AI 對話代理程式，能迅速有效地回答您的資料相關問題。此代理會使用來自資料視圖的元件以及您的實際資料，在 Analysis Workspace 建置相關的視覺內容。
 
@@ -154,7 +154,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」。*
 
-**回覆：**&#x200B;**[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
+**回覆：****[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
 
 ![長條圖](/help/assets/ai-asst-result4.png)
 
@@ -264,7 +264,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[!MORELIKETHIS]
 >
 >[元件設定](/help/data-views/component-settings/overview.md)
->[資料字典 &#x200B;](/help/components/data-dictionary/data-dictionary-overview.md)
+>[資料字典 ](/help/components/data-dictionary/data-dictionary-overview.md)
 >[核准計算量度](/help/components/calc-metrics/cm-workflow/cm-approving.md)
 >[共用區段](/help/components/segments/seg-share.md)
 >
