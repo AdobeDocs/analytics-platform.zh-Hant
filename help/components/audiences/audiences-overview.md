@@ -4,16 +4,18 @@ description: 了解 Customer Journey Analytics 中發佈客群的概念
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
+source-git-commit: ff301a4c76c547bf52e0dfaef5258fd183411c73
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 94%
 
 ---
 
 # 客群發佈概觀
 
-您現在可以將 Customer Journey Analytics 中發現的客群建立並發佈到 Adobe Experience Platform 中的[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)，以用於客戶目標選擇和個人化。 
+您可以建立在Customer Journey Analytics中發現的對象，並將其發佈到Adobe Experience Platform中的[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)，以用於客戶目標定位和個人化。
+
+<!-- add this when Audience Analysis releases: (For information about ingesting audience membership data from Experience Platform Profile datasets into a Customer Journey Analytics connection, see [Audience analysis overview](/help/connections/audience-analysis/audience-analysis-overview.md).) -->
 
 發佈對象有助於理解情況，來啟用從 Customer Journey Analytics 中獲得的分析並據以採取行動。 這些動作可能包括：
 
@@ -43,7 +45,7 @@ ht-degree: 100%
 
 ## 資料控管和同意
 
-當您在 Customer Journey Analytics 中發佈對象時，將記錄附加到對象中使用之欄位的資料控管標籤和策略。在任何 Adobe Experience 應用程式中啟用客群後，所有相關的資料控管標籤和策略都可供該客群使用，並且可套用適當的強制執行。[進一步瞭解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy)。
+當您在 Customer Journey Analytics 中發佈對象時，將記錄附加到對象中使用之欄位的資料控管標籤和策略。在任何 Adobe Experience 應用程式中啟用客群後，所有相關的資料控管標籤和策略都可供該客群使用，並且可套用適當的強制執行。[進一步瞭解同意](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)。
 
 ## 後續步驟
 

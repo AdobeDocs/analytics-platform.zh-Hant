@@ -4,14 +4,14 @@ description: 了解如何在 Customer Journey Analytics 中管理客群
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 4717a85b9a3c7dc2cbdd8c625ebb5862cbfccd58
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 97%
+source-wordcount: '769'
+ht-degree: 95%
 
 ---
 
-# 管理客群
+# 管理發布的對象
 
 可以使用「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」在 Customer Journey Analytics 中管理客群。
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 
 若要檢視客群清單：
 
-1. 在 Customer Journey Analytics 中，選取「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」。
+1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 已發佈的對象]**。
 
 1. (選擇性) 使用 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) 來設定要顯示的欄。
 
@@ -62,7 +62,7 @@ ht-degree: 97%
 
 若要編輯客群：
 
-1. 在 Customer Journey Analytics 中，選取「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」。
+1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 已發佈的對象]**。
 
    會顯示客群頁面。
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 
 | 圖示 | 動作 | 說明 |
 |:---:|---|---|
-| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。在&#x200B;**[!UICONTROL 「更新」標記中：*客群名稱&#x200B;*]**&#x200B;對話框中，從下拉式選單中選取標記，或輸入一個或多個新標記。選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
+| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。在&#x200B;**[!UICONTROL 「更新」標記中：*客群名稱&#x200B;*]**對話框中，從下拉式選單中選取標記，或輸入一個或多個新標記。選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選取的客群。 |
 | ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名選取的客群。使用「**[!UICONTROL 重新命名」：「*客群名稱&#x200B;*]**」對話框來重新命名客群，然後選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 

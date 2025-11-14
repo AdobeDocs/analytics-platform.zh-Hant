@@ -4,9 +4,9 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: d6477006dfa8134521516b6e0665ff487236c10a
+source-git-commit: 0e282bc341588032fadee45cc128663cf557b21f
 workflow-type: tm+mt
-source-wordcount: '20761'
+source-wordcount: '20775'
 ht-degree: 97%
 
 ---
@@ -594,8 +594,8 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 >[!CONTEXTUALHELP]
 >id="template--audienceOverview"
->title="檢視造訪網站的人們來自哪個國家/地區。"
->abstract="**這可以幫助您**&#x200B;更加了解造訪網站的訪客最常來自哪些國家/地區。<br/>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如利用資料來加強這些國家/地區的行銷工作，或者確保您的網站體驗在使用不同主要語言的國家/地區能達到最佳效果。<br/>此範本使用國家/地區維度。"
+>title="檢視造訪您網站的人當中代表哪些對象。"
+>abstract="**這可協助您**&#x200B;更清楚瞭解對象的一般資訊，對象源自何處(RTCDP、Customer Journey Analytics等)、對象重疊等等。<br/>**根據您瞭解到的內容，您可能**&#x200B;會執行許多操作，例如使用資料來專注於這些特定對象的行銷工作，或為跨越多個對象的客戶建立量身打造的體驗。<br/>此範本使用對象名稱、對象來源、退出對象名稱和退出對象來源維度。"
 
 >[!CONTEXTUALHELP]
 >id="template--consentPolicyOverview"
