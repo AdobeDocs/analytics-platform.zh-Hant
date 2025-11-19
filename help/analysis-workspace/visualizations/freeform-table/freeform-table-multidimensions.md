@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
+source-git-commit: 77acfaf2d186e7fe7d6b9d973af5dedb3956f5d5
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1277'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 
      ![拖曳多個維度](assets/dimensions-add-multiple.png)
 
-1. 以單一維度專案的形式檢視表格的每一列。 如需詳細資訊，請參閱[串連維度專案](#view-concatenated-dimension-items)。
+1. 以單一維度專案的形式檢視表格的每一列。 如需詳細資訊，請參閱[串連維度專案](#concatenated-dimension-items)。
 
 ## 篩選表格
 
@@ -181,11 +181,11 @@ Analysis Workspace提供下列方式，讓您在自由表格中新增多個維�
 
 當您將劃分新增至具有多個維度欄的表格時，劃分會套用至您新增該表格的列上的串連維度專案（橫跨所有維度欄）。
 
+![多重排序劃分範例](assets/dimensions-multiple-sort-breakdown.png)
+
 此外，您可以在劃分中新增多個維度欄。 劃分中每一列維度專案的行為也類似單一串連維度專案。
 
-<!-- update screenshot to show the breakdown, and include this introductory sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows... " -->
-
-![多重排序範例](assets/dimensions-multiple-sort.png)
+<!-- Add a screenshot of a breakdown with multiple cllumns, then add this sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows..." -->
 
 如需如何新增劃分的詳細資訊，請參閱[劃分維度](/help/components/dimensions/t-breakdown-fa.md)。
 
