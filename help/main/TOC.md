@@ -100,7 +100,7 @@ ht-degree: 99%
          + [使用 Adobe Journey Optimizer 進行個人化](/help/getting-started/cja-upgrade/cja-upgrade-personalization-journeyoptimizer.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
-      + [使用 Adobe Analytics 資料 &#x200B;](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [功能支援](../getting-started/aa-vs-cja/cja-aa.md)
       + [比較術語](../getting-started/aa-vs-cja/terminology.md)
       + [比較資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
@@ -255,7 +255,7 @@ ht-degree: 99%
       + [媒體同時檢視者](../analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [媒體播放時間](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [下一個或上一個項目](../analysis-workspace/c-panels/next-previous.md)
-      + [快速深入分析](../analysis-workspace/c-panels/quickinsight.md)
+      + [快速洞察](../analysis-workspace/c-panels/quickinsight.md)
    + 鑑選和共用 {#curate-share}
       + [概觀](../analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](../analysis-workspace/curate-share/curate.md)
@@ -396,7 +396,7 @@ ht-degree: 99%
       + [概觀](/help/components/c-intelligent-alerts/intelligent-alerts.md)
       + [建立警報](/help/components/c-intelligent-alerts/alert-builder.md)
       + [管理警報](/help/components/c-intelligent-alerts/alert-manager.md)
-      + [功能比較 &#x200B;](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [功能比較 ](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [使用案例](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + 匯出 {#exports}
       + [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)

@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions"
 >title="智慧型註解"
->abstract="以自然語言形式產生深入分析，協助您更輕鬆地了解和解釋此視覺效果的資料。"
+>abstract="以自然語言形式產生洞察，協助您更輕鬆地了解和解釋此視覺效果的資料。"
 
 
 智慧型註解功能是使用先進的生成式 AI，為自然語言中最常用的 Workspace 視覺效果提供關鍵分析。
@@ -28,14 +28,14 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [智慧型註解](https://video.tv.adobe.com/v/3443149/?captions=chi_hant&quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [智慧型註解](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 
 ## 啟動智慧型註解 {#launch}
 
-若要啟動為視覺效果自動產生的智慧型標題，請在視覺效果右上角選取「![智慧型註解](/help/assets/icons/AI.svg)」。這項選取會產生自然語言分析。
+若要啟動為視覺效果自動產生的智慧型標題，請在視覺效果右上角選取「![智慧型註解](/help/assets/icons/AI.svg)」。這項選取會產生自然語言洞察。
 
 ![啟動分析視窗顯示產品瀏覽量趨勢的智慧型註解。](assets/intelligent-captions.gif)
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 * 在支持視覺效果的表格中，若相關已選取的資料發生變化時，每次都會產生註解。
 
-* 如果在關聯的自由格式表中有多個量度，則只會為第一個量度或使用者目前選取的量度產生註解。但是，可以為折線圖和區域圖視覺效果的多個量度產生註解。
+* 如果在關聯的自由格式表格中有多個量度，則只會為第一個量度或使用者目前選取的量度產生註解。但是，可以為折線圖和區域圖視覺效果的多個量度產生註解。
 
 * 如果您將專案儲存在特定點，並稍後重新加載，則註解將自動使用新資料來進行更新。這同樣適用於排程的專案和從項目匯出的 PDF 檔案。
 
@@ -88,11 +88,11 @@ Here is an example of what intelligent captions could look like:
 
 ### 編輯顯示區 {#edit}
 
-您可以編輯註解的顯示，例如隱藏或取消隱藏特定類別的註解。
+您可以編輯註解的顯示，例如隱藏或取消隱藏特定類別的洞察。
 
 1. 在智慧型註解對話框中，選取「![編輯智慧型註解的可見度](/help/assets/icons/EditInLight.svg)」。
 
-1. 在 ![切換可見度](/help/assets/icons/Visibility.svg) 顯示特定分析 (例如&#x200B;**[!UICONTROL 最小]**) 之間切換，或 ![切換可見度](/help/assets/icons/VisibilityOff.svg) 隱藏特定分析 (例如&#x200B;**[!UICONTROL 尖峰]**)。
+1. 在 ![切換可見度](/help/assets/icons/Visibility.svg) 顯示特定洞察 (例如&#x200B;**[!UICONTROL 最小]**) 之間切換，或 ![切換可見度](/help/assets/icons/VisibilityOff.svg) 隱藏特定洞察 (例如&#x200B;**[!UICONTROL 尖峰]**)。
 
    ![編輯智慧型註解](assets/edit-intelligent-captions.png)
 
