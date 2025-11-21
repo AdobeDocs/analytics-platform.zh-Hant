@@ -4,7 +4,7 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 0e282bc341588032fadee45cc128663cf557b21f
+source-git-commit: 6cb72495bd190a31f0cb1533f0b33a0929d8a35b
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 97%
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 # 使用範本
 
-Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境之快速深入分析。以下範例是您可以使用範例回答的問題：
+Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境之快速洞察。以下範例是您可以使用範例回答的問題：
 
 * 造訪您網站的人數
 * 這些訪客中有多少是不重複訪客（只計數一次）
@@ -97,7 +97,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 1. 選取想要查看的範本。 例如，在「[!UICONTROL **最常用**]」底下，選取「[!UICONTROL **頁面**]」範本。
 
-   「頁面」範本 (如 Analysis Workspace 中所顯示) 會顯示兩種[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([橫條圖](/help/analysis-workspace/visualizations/bar.md)和[摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md)) 和一個[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)。使用的量度為發生次數。
+   「頁面」範本 (如 Analysis Workspace 中所顯示) 會顯示兩種[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([橫條圖](/help/analysis-workspace/visualizations/bar.md)和[摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md)) 和一個[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)。使用的量度為發生次數。
 
    <!--update screenshot. The following is AA -->
 
@@ -417,7 +417,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 >[!CONTEXTUALHELP]
 >id="aa-template--commerce-and-marketing-management"
->title="檢視零售商對您商業活動的預先建立深入解析，以幫助您提高銷售量。這是針對 Adobe Commerce 的使用者，但是任何線上零售商都可以運用。"
+>title="檢視零售商對您商業活動的預先建立洞察，以幫助您提高銷售量。這是針對 Adobe Commerce 的使用者，但是任何線上零售商都可以運用。"
 >abstract="**這可以幫助您**&#x200B;更加了解您的商業活動如何協助提升銷售數字。<br/>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如將預算調整至 ROI 最高的活動上。"
 
 
@@ -481,6 +481,13 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 | **訂購** | <!--duplicated in Most popular section-->查看您網站上發生的購買事件總數。 <p>**透過將訂單量度與任意維度結合，可以幫助您**&#x200B;更了解哪些維度項目對訂單有幫助。例如，您可以查看對購買有幫助的熱門廣告系列 (使用追蹤程式碼維度)。</p><p>**根據您所了解的情況，您可以**&#x200B;做很多事情，例如調整未達到您預期購買目標的廣告系列。 </p><p>此範本使用訂單量度。 |
 
 ### 網頁：客群 {#web-audience}
+
+<!--CJA only-->
+
+>[!CONTEXTUALHELP]
+>id="template--audienceOverview"
+>title="檢視造訪您網站的人當中代表哪些對象。"
+>abstract="**這可協助您**&#x200B;更清楚瞭解對象的一般資訊，對象源自何處(RTCDP、Customer Journey Analytics等)、對象重疊等等。<br/>**根據您瞭解到的內容，您可能**&#x200B;會執行許多操作，例如使用資料來專注於這些特定對象的行銷工作，或為跨越多個對象的客戶建立量身打造的體驗。<br/>此範本使用對象名稱、對象來源、退出對象名稱和退出對象來源維度。"
 
 <!--AA only-->
 
@@ -593,11 +600,6 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 <!--Both AA and CJA-->
 
 >[!CONTEXTUALHELP]
->id="template--audienceOverview"
->title="檢視造訪您網站的人當中代表哪些對象。"
->abstract="**這可協助您**&#x200B;更清楚瞭解對象的一般資訊，對象源自何處(RTCDP、Customer Journey Analytics等)、對象重疊等等。<br/>**根據您瞭解到的內容，您可能**&#x200B;會執行許多操作，例如使用資料來專注於這些特定對象的行銷工作，或為跨越多個對象的客戶建立量身打造的體驗。<br/>此範本使用對象名稱、對象來源、退出對象名稱和退出對象來源維度。"
-
->[!CONTEXTUALHELP]
 >id="template--consentPolicyOverview"
 >title="檢視造訪網站的人們來自哪個國家/地區。"
 >abstract="**這可以幫助您**&#x200B;更加了解造訪網站的訪客最常來自哪些國家/地區。<br/>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如利用資料來加強這些國家/地區的行銷工作，或者確保您的網站體驗在使用不同主要語言的國家/地區能達到最佳效果。<br/>此範本使用國家/地區維度。"
@@ -649,6 +651,8 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 
 以下範本適用：
+
+<!--need to add audience overview: - **[!UICONTROL Audience overview]** - View which audiences are represented among the people visiting your site.<p>**This can help you** better understand general information about the audiences, where the audiences originated (RTCDP, Customer Journey Analytics, and so forth), audience overlap, and more.</p><p>**Based on what you learn, you might** do any number of things, like use the data to focus on marketing efforts for these specific audiences, or create tailored experiences for customers who span multiple audiences.</p><p>This template uses the Audience Name, Audience Origin, Exited Audience Name, and Exited Audience Origin dimensions.</p> - -->
 
 | 範本名稱 | 為什麼使用此範本 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
