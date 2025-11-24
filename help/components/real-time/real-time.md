@@ -4,10 +4,10 @@ title: 即時報表概觀
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 0e5a64e78e5a471f8b7c9fc32fdbae2b2e70230a
+source-git-commit: 59d48b84ddd34ef161ec0b11f023ccccf9b2e892
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 7%
+source-wordcount: '810'
+ht-degree: 6%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 7%
 Customer Journey Analytics 中的即時報告，會即時顯示並更新 Analysis Workspace 中一或多個面板內的資料和視覺效果。
 
 {{ultimate-package}}
+
+>[!TIP]
+>
+>如果您有權使用Ultimate套件，但未看到[即時重新整理切換按鈕](use-real-time.md)，請建立客戶服務票證，請求為您的組織啟用即時報告。
+
 
 ## 使用案例
 
