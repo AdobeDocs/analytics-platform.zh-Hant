@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+source-git-commit: b85b5b8212cf072ed46bc8eb587ea00984d33ccc
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 74%
+ht-degree: 98%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 74%
 >
 >你必須擁有「**精選**」或更高版本的套裝 (針對[欄位型拼接](fbs.md)) 或者「**Prime**」或更高版本的套裝 (針對[圖表型拼接](gbs.md))，方能使用本節所述的功能。如果您不確定自己擁有哪一種 Customer Journey Analytics 套裝，請聯絡您的管理員。
 
-身分拼接 (或簡稱拼接) 是強大的功能，可提高事件資料集的適用性，以進行跨管道分析。跨管道分析是Customer Journey Analytics的主要使用案例。 此功能可讓您根據通用識別碼（人員ID），順暢地合併和執行不同管道的多個資料集的報告。
+身分拼接 (或簡稱拼接) 是強大的功能，可提高事件資料集的適用性，以進行跨管道分析。跨管道分析是 Customer Journey Analytics 的主要使用案例。此功能讓您可以根據共同識別碼 (人員 ID)，順暢地將來自不同管道的多個資料集進行合併，並執行報告。
 
-合併人員 ID 相似的資料集時，系統會跨裝置和管道套用原本的歸因。例如，某位使用者透過桌上型電腦上的廣告造訪您的網站。 使用者購買產品，但隨後遇到訂單問題。 然後，使用者會打電話給您的客戶服務團隊，協助解決問題。 透過跨管道分析，您可以將客服中心事件歸因於使用者最初點按的廣告。
+合併人員 ID 相似的資料集時，系統會跨裝置和管道延續原本的歸因。例如：某位使用者透過桌上型電腦上的廣告造訪您的網站。使用者購買產品，但接著使用者遇到訂單問題。 然後，使用者會向您的客戶服務團隊致電，來協助解決此問題。透過跨管道分析，您可以將呼叫中心事件歸因於此使用者原本點按的廣告。
 
-可惜的是，並非所有屬於 Customer Journey Analytics 中連線的事件型資料集都已填入足夠的資料，可立即支援此歸因。尤其以網頁或行動為基礎的體驗資料集，通常沒有可用於所有事件的實際人員ID資訊。
+很遺憾，並非所有屬於 Customer Journey Analytics 中連線的事件型資料集均已填入足夠的資料，可立即用於支援此歸因。尤其以網頁型或行動型體驗資料集，通常在所有事件均無實際人員 ID 資訊。
 
-拼接允許重新鍵入一個資料集列內的身分，以確保個人ID （拼接ID）可用於每個事件。 拼接會檢視已驗證和未驗證工作階段的使用者資料，以決定可用作拼接ID的一般人員ID值。 此金鑰重設允許將不同的記錄解析為單一彙整ID，以供在人員層級而不是裝置或Cookie層級進行分析。
+「拼接」功能可在一個資料集的列內重新輸入身分，來確保每個事件均可使用人員 ID (拼接 ID)。「拼接」功能會查看已驗證和未經驗證工作階段的使用者資料，以判斷可用作拼接 ID 的共同暫時 ID (人員 ID) 值。此重新輸入的動作可將不同的記錄解析為單一拼接 ID，以便在人員層級進行分析，而非在裝置或 Cookie 層級進行。
 
 Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)和[圖表型拼接](gbs.md)。
 
@@ -47,7 +47,7 @@ Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)�
 
 ## 啟用拼接
 
-您可以透過兩種方式啟用拼接：
+您可以透過兩種方式啟用「拼接」功能：
 
 - [請求啟用拼接](/help/stitching/use-stitching.md)
 - [在連線介面中啟用拼接](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}
@@ -91,9 +91,9 @@ Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)�
 
 >[!MORELIKETHIS]
 >
->[依欄位彙整](fbs.md)
->&#x200B;>[圖表式拼接](gbs.md)
->&#x200B;>[使用拼接](use-stitching.md)
->&#x200B;>[驗證拼接](validate.md)
->&#x200B;>[拼接常見問題](faq.md)
+>[欄位式拼接](fbs.md)
+>[圖表式拼接](gbs.md)
+>[使用拼接](use-stitching.md)
+>[驗證拼接](validate.md)
+>[拼接常見問題](faq.md)
 
