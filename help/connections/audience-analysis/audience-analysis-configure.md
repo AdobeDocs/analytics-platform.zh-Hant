@@ -6,10 +6,10 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3654d452f2bc4fec5f53854307536b3b8679eac3
+source-git-commit: 3f4b9e5929f1fe5bf0524236ab956487469c1778
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 16%
+source-wordcount: '1035'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +20,34 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="cja-audience-analysis-merge-policy"
 >title="合併原則"
->abstract="合併原則會將來自多個資料集的設定檔資料合併到統一的客戶設定檔中，用於建立受眾。 如果您看到多個合併原則且不確定要選擇哪一個，請選取「預設以時間為基礎的合併原則」 。 您也可以洽詢資料團隊，深入瞭解哪些對象與每個合併原則相關聯。"
+>abstract="合併原則會將來自多個資料集的設定檔資料合併到統一的客戶設定檔中，用於建立受眾。 如果您看到多個合併原則並且不確定要選擇哪一個，請選取「預設以時間為基礎」。 或洽詢您的資料團隊，以瞭解哪些對象與每個合併原則相關聯。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-audience-analysis-sandbox"
+>title="沙箱"
+>abstract="選取包含正確Experience Platform設定檔資料集的沙箱。 這些資料集必須包含您要在Analysis Workspace中報告的對象資料。 "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-audience-person-id"
+>title="人員 ID"
+>abstract="從結構描述中選取代表人員ID的欄位。 選取範圍僅限於結構描述中標示為身分並擁有身分名稱空間的欄位清單。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-audience-namespace"
+>title="使用主要身分識別命名空間"
+>abstract="如果您希望Customer Journey Analytics在標示primary=true屬性的「身分對應」中尋找身分識別，並將該身分識別當作該列的人員ID，請啟用此選項。 此身分識別是在 Experience Platform 中劃分資料的主要索引鍵，<br/>如果您讓此選項保持停用，請從下面的[身分名稱空間]欄位中選取名稱空間。 Customer Journey Analytics會搜尋此名稱空間索引鍵的每一列的「身分對應」，並將該名稱空間底下的身分識別當作該列的人員ID。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +77,7 @@ ht-degree: 16%
    | 欄位 | 說明 |
    |---------|----------|
    | **[!UICONTROL 合併原則]** | 選取與您要用於對象分析的設定檔資料集對應的合併原則。 <p>合併原則可決定Adobe Experience Platform如何將來自多個資料集的設定檔資料合併到統一的客戶設定檔中，以用於建立受眾。 您選取的合併原則會影響對象中包含哪些設定檔屬性。 每天，系統都會在Experience Platform中產生這些資料的快照。 此快照提供特定時間點的靜態資料檢視，不包含任何事件資料。</p><p>如果您看到多個合併原則且不確定要選擇哪一個，請選取&#x200B;**[!UICONTROL 預設以時間為基礎]**&#x200B;的合併原則。 您也可以洽詢資料團隊，深入瞭解哪些對象與每個合併原則相關聯。</p> |
-   | **[!UICONTROL 設定檔資料集]** | 與您選取的合併原則相關聯的設定檔資料集。 此設定檔資料集包含您要分析的Experience Platform對象資料。 此設定檔資料集已新增至您選取的連線。<p>選擇合併原則後，設定檔快照匯出隨即顯示。 例如：`Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`。</p><p>如需詳細資訊，請參閱《Experience Platform儀表板指南》中的[設定檔屬性資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/query#profile-attribute-datasets)。</p> |
+   | **[!UICONTROL 設定檔資料集]** | 與您選取的合併原則相關聯的設定檔資料集。 此設定檔資料集包含您要分析的Experience Platform對象資料。 此設定檔資料集已新增至您選取的連線。<p>選擇合併原則後，設定檔快照匯出隨即顯示。 例如：`Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`。</p><p>如需詳細資訊，請參閱《Experience Platform儀表板指南》中的[設定檔屬性資料集](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets)。</p> |
 
 1. 在&#x200B;**[!UICONTROL 連線]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 選取連線]**。
 
@@ -60,9 +87,9 @@ ht-degree: 16%
 
    | 欄位 | 說明 |
    |---------|----------|
-   | **[!UICONTROL 個人 ID]** | 從代表人員ID的模型型架構中選取欄位。 選取範圍僅限於模型架構中標示為身分且具備身分名稱空間的欄位清單。<p>如果沒有人員ID可以選擇，表示結構描述中尚未定義一或多個人員ID。 更多詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。</p> |
+   | **[!UICONTROL 個人 ID]** | 從結構描述中選取代表人員ID的欄位。 選取範圍僅限於結構描述中標示為身分且具備身分名稱空間的欄位清單。<p>如果沒有人員ID可以選擇，表示結構描述中尚未定義一或多個人員ID。 更多詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。</p> |
    | **[!UICONTROL 使用主要身分名稱空間]** | 此選項顯示您是否為人員ID選取&#x200B;**[!UICONTROL 身分對應]**。<p>如果您希望Customer Journey Analytics在標示primary=true屬性的「身分對應」中尋找身分識別，並將該身分識別當作該列的人員ID，請啟用此選項。 此身分識別是在 Experience Platform 中劃分資料的主要索引鍵，此外，此身分識別也是Customer Journey Analytics人員ID的主要候選專案(取決於Customer Journey Analytics連線中資料集的設定方式)。</p> |
-   | **[!UICONTROL 身分名稱空間]** | 此選項顯示您是否為人員ID選取&#x200B;**[!UICONTROL 身分對應]**。 如果您使用「主要ID名稱空間」，則會停用此選項。 <p>身分識別命名空間是 [Experience Platform 身分識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)的元件。命名空間是作為身分識別相關內容的指標。如果您指定命名空間，Customer Journey Analytics 會針對此命名空間索引鍵搜尋每一列的「身分對應」，並使用該命名空間底下的身分識別，作為該列的人員 ID。由於Customer Journey Analytics無法執行涵蓋所有列的完整資料集掃描來判斷哪些名稱空間存在，因此下拉式選單中會顯示所有可能的名稱空間。 了解資料中指定了哪些命名空間；系統不會自動偵測這些命名空間。</p> |
+   | **[!UICONTROL 身分名稱空間]** | 此選項顯示您是否為人員ID選取&#x200B;**[!UICONTROL 身分對應]**。 如果您使用「主要ID名稱空間」，則會停用此選項。 <p>身分識別命名空間是 [Experience Platform 身分識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)的元件。命名空間是作為身分識別相關內容的指標。如果您指定名稱空間，Customer Journey Analytics會針對此名稱空間索引鍵搜尋每一列的「身分對應」，並使用該名稱空間底下的身分識別，作為該列的人員ID。 由於Customer Journey Analytics無法執行涵蓋所有列的完整資料集掃描來判斷哪些名稱空間存在，因此下拉式選單中會顯示所有可能的名稱空間。 了解資料中指定了哪些命名空間；系統不會自動偵測這些命名空間。</p> |
 
 1. 在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 選取資料檢視]**。
 

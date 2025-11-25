@@ -6,16 +6,16 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3654d452f2bc4fec5f53854307536b3b8679eac3
+source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 4%
 
 ---
 
 # 對象分析概觀
 
-<!-- add hidden text in this article when this feature releases: /help/components/audiences/audiences-overview.md -->
+<!-- add hidden text in this article when this feature releases: /help/components/audiences/audiences-overview.md and this article: /help/analysis-workspace/templates/use-templates.md-->
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 對象分析可讓您將對象成員資格資料從Experience Platform設定檔資料集擷取到Customer Journey Analytics連線。 對象會成為新的維度，以便在Analysis Workspace中使用。
 
-下圖和相關表格高階展示Customer Journey Analytics中的對象分析設定如何讓Experience Platform中的對象資料可在Analysis Workspace中使用：
+下圖和相關表格高階展示Customer Journey Analytics中的對象分析設定如何讓Experience Platform對象資料可在Analysis Workspace中使用：
 
 ![對象分析總覽](assets/audience-analysis-overview.png)
 
