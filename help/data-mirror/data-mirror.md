@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
-source-git-commit: 25d0647c6a764d8f4306a5c049a7a68e0426cef9
+source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 {{release-limited-testing}}
 
-Data Mirror是一項Experience Platform功能，可讓您使用模型型架構，將外部資料庫的列層級變更擷取到Data Lake。 它保留資料關係、強制執行唯一性，並支援版本化，而不需要上游擷取、轉換和載入(ETL)程式。
+Data Mirror是Experience Platform的一項功能，可讓您使用關聯式結構描述，將外部資料庫的列層級變更擷取到Data Lake。 它保留資料關係、強制執行唯一性，並支援版本化，而不需要上游擷取、轉換和載入(ETL)程式。
 
 使用Experience Platform Data Mirror，直接將外部資料倉儲原生解決方案（[!DNL Snowflake]、[!DNL Azure Databricks]或[!DNL Google BigQuery]）的插入、更新及刪除（可變資料）與Experience Platform中的資料同步。 在將資料帶入Experience Platform時，Data Mirror可協助您保留現有的資料庫模型結構和資料完整性。
 
@@ -33,7 +33,7 @@ Data Mirror提供下列資料庫同步處理的基本功能：
 
 使用Data Mirror直接從來源系統擷取變更、強制執行結構描述完整性，並讓資料可用於分析、歷程協調及合規性工作流程。 Data Mirror可免除複雜的上游ETL程式，並透過啟用現有資料庫模型的直接映象來加速實作。 這種消除可透過精確控制刪除和資料衛生操作，從而增強資料治理。
 
-另請參閱有關Data Mirror[的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}Experience Platform檔案。
+另請參閱有關Data Mirror[的](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}Experience Platform檔案。
 
 ## 適用於Customer Journey Analytics的Data Mirror
 
@@ -50,6 +50,6 @@ Data Mirror提供下列資料庫同步處理的基本功能：
 
 >[!MORELIKETHIS]
 >
->[Data Mirror快速入門手冊：映象並使用模型資料](model-based.md)
->&#x200B;>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview)
->&#x200B;>[以模型為基礎的結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/model-based)
+>[Data Mirror快速入門手冊：映象並使用關聯式資料](relational.md)
+>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>[關聯式結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)

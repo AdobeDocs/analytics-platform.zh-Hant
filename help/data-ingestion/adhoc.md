@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
-source-git-commit: edf7bdac87d9bed48244ad80521bbbf83c48f7b6
+source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 24%
@@ -98,7 +98,7 @@ ht-degree: 24%
 
   >[!NOTE]
   >
-  >工作流程會將結構描述中的所有欄位定義為字串型別。 您無法在稍後階段變更此型別。 如果您需要在臨時結構描述的定義中擁有更多彈性，請考慮使用[使用API來建立臨時結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/ad-hoc)，然後使用[從結構描述建立資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#schema)工作流程。
+  >工作流程會將結構描述中的所有欄位定義為字串型別。 您無法在稍後階段變更此型別。 如果您需要在臨時結構描述的定義中擁有更多彈性，請考慮使用[使用API來建立臨時結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/ad-hoc)，然後使用[從結構描述建立資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema)工作流程。
   > 
 
 
@@ -155,7 +155,7 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->除了不將臨時資料集和結構描述用於時間序列資料的一般建議之外，您無法將&#x200B;**[!UICONTROL 從CSV建立資料集]**&#x200B;工作流程用於時間序列資料。 此工作流程將所有欄位定義為字串型別，您之後無法修改。 當您新增以時間序列為基礎的資料集（事件或摘要）至連線時，此型別的資料集需要至少一個日期時間型別的欄位定義。<br/>如果您確實需要使用臨時時間序列資料，請考慮使用[使用API來建立臨時結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)，然後使用[從結構描述建立資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#schema)工作流程。
+>除了不將臨時資料集和結構描述用於時間序列資料的一般建議之外，您無法將&#x200B;**[!UICONTROL 從CSV建立資料集]**&#x200B;工作流程用於時間序列資料。 此工作流程將所有欄位定義為字串型別，您之後無法修改。 當您新增以時間序列為基礎的資料集（事件或摘要）至連線時，此型別的資料集需要至少一個日期時間型別的欄位定義。<br/>如果您確實需要使用臨時時間序列資料，請考慮使用[使用API來建立臨時結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)，然後使用[從結構描述建立資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema)工作流程。
 
 
 建立[連線](/help/connections/overview.md)之後，您可以執行各種管理工作，例如[選取並合併資料集](/help/connections/combined-dataset.md)、[檢查連線資料集的狀態和資料擷取的狀態](/help/connections/manage-connections.md)等等。
@@ -185,7 +185,7 @@ ht-degree: 24%
    1. 新增您要包含在&#x200B;**[!UICONTROL METRICS]**&#x200B;或&#x200B;**[!UICONTROL DIMENSIONS]**&#x200B;元件方塊中的任何結構描述欄位和/或標準元件。 請確定您從包含臨時資料的資料集中新增了相關欄位。 若要存取這些欄位：
 
       1. 選取&#x200B;**[!UICONTROL 事件資料集]**。
-      1. 選取&#x200B;**[!UICONTROL 臨機與模型型欄位]**。
+      1. 選取&#x200B;**[!UICONTROL 臨機及關聯欄位]**。
 
          ![資料檢視 — 臨時元件](assets/cja-dataview-components-adhoc.png)
 

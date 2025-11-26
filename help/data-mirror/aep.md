@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: edf7bdac87d9bed48244ad80521bbbf83c48f7b6
+source-git-commit: b2a13524760f9d466696534bc8b9691f3b4dfb8a
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 2%
@@ -27,13 +27,13 @@ ht-degree: 2%
 
 ## 結構描述
 
-您需要建立以模型為基礎的[結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/model-based){target="_blank"}，以模型化您要映象的資料倉儲原生表格。 當您建構以模型為基礎的結構描述時，請確保符合下列需求：
+您必須建立要映象的資料倉儲原生資料表之[關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational){target="_blank"}。 當您建構關聯式架構時，請確定符合下列要求：
 
-* 當提示您輸入以模型為基礎的結構描述型別時，請確定您選取手動選項。
+* 當提示您輸入關聯式架構型別時，請確定您選取手動選項。
 * 為資料型別選取適當的結構描述。 請注意，Experience Platform Data Mirror主要用於時間序列資料（例如事件資料）。
 
 * 定義結構描述中的欄位及其屬性
-* 為以模型為基礎的結構描述中的欄位設定必要屬性：
+* 設定關聯式架構中欄位的必要屬性：
 
    * 主索引鍵
    * 版本識別碼
@@ -42,7 +42,7 @@ ht-degree: 2%
 ## 資料集
 
 您可以預先為結構描述設定資料集，或在設定來源聯結器時建立資料集。
-當您預先建立資料集或選取資料集時，請確保資料使用您先前建立的模型式[結構描述](#schema)。
+當您預先建立資料集或選取資料集時，請確保資料使用您先前建立的關聯式[結構描述](#schema)。
 
 
 ## 來源連接器
@@ -53,9 +53,9 @@ ht-degree: 2%
 
 如需針對支援的Data Warehouse原生解決方案進行驗證的相關資訊，請參閱Experience Platform相關檔案：
 
-* [Azure資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### 選取資料
@@ -67,12 +67,12 @@ ht-degree: 2%
 
 請確定您已啟用變更資料擷取。 您會看到資訊面板，說明變更資料擷取的需求。
 
-指定新的或現有的資料集，這些資料集以您先前建立的模型架構為基礎。 在資料流詳細資料介面中指定並選取其他選項。
+指定以您先前建立的關聯式結構描述為基礎的新資料集或現有資料集。 在資料流詳細資料介面中指定並選取其他選項。
 
 
 ### 映射
 
-將Data Warehouse原生解決方案中表格的欄位對應到您為模型架構指定的欄位。
+將Data Warehouse原生解決方案中表格的欄位對應到您為關聯式結構描述指定的欄位。
 
 
 ### 排程
@@ -90,6 +90,6 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->[Data Mirror快速入門手冊：映象並使用模型資料](model-based.md)
->&#x200B;>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview)
->&#x200B;>[以模型為基礎的結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/model-based)
+>[Data Mirror快速入門手冊：映象並使用關聯式資料](relational.md)
+>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>[關聯式結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)

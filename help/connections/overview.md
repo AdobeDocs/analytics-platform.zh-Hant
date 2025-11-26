@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 836c793ae74185728af03636b0ba3e838f46f05d
+source-git-commit: 09a6ae258d27f8fe9c9a1fc7ed63273620c67c1b
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 100%
+source-wordcount: '249'
+ht-degree: 80%
 
 ---
 
 # 連線概觀
 
-連線可讓 Customer Journey Analytics 產品管理員建立與其他[!DNL  Experience Platform]資料來源 (例如事件、查詢、設定檔和摘要資料集) 的連線。這些連線可以從一個連線將資料整合到衍生資料視圖中。連線是 Customer Journey Analytics的基礎，且是根據 [!DNL Experience Platform] 來源資料集建立的。
+連線可讓Customer Journey Analytics產品管理員定義要擷取的[!DNL  Experience Platform]資料來源，例如事件、查詢、設定檔和摘要資料集。 連線是Customer Journey Analytics的基礎，並決定您可以在[資料檢視](/help/data-views/data-views.md)中定義維度或量度的資料（欄位）可用性。
 
 >[!IMPORTANT]
 >
