@@ -27,7 +27,7 @@ ht-degree: 2%
 
 ## 結構描述
 
-您必須建立要映象的資料倉儲原生資料表之[關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational){target="_blank"}。 當您建構關聯式架構時，請確定符合下列要求：
+您必須建立要映象的資料倉儲原生資料表之[關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational){target="_blank"}。 當您建構關聯式架構時，請確定符合下列要求：
 
 * 當提示您輸入關聯式架構型別時，請確定您選取手動選項。
 * 為資料型別選取適當的結構描述。 請注意，Experience Platform Data Mirror主要用於時間序列資料（例如事件資料）。
@@ -53,9 +53,9 @@ ht-degree: 2%
 
 如需針對支援的Data Warehouse原生解決方案進行驗證的相關資訊，請參閱Experience Platform相關檔案：
 
-* [Azure資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### 選取資料
@@ -91,5 +91,5 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >[Data Mirror快速入門手冊：映象並使用關聯式資料](relational.md)
->[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
->[關聯式結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
+>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview)
+>[關聯式結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)
