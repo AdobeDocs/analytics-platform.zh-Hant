@@ -77,7 +77,7 @@ ht-degree: 13%
    | 欄位 | 說明 |
    |---------|----------|
    | **[!UICONTROL 合併原則]** | 選取與您要用於對象分析的設定檔資料集對應的合併原則。 <p>合併原則可決定Adobe Experience Platform如何將來自多個資料集的設定檔資料合併到統一的客戶設定檔中，以用於建立受眾。 您選取的合併原則會影響對象中包含哪些設定檔屬性。 每天，系統都會在Experience Platform中產生這些資料的快照。 此快照提供特定時間點的靜態資料檢視，不包含任何事件資料。</p><p>如果您看到多個合併原則且不確定要選擇哪一個，請選取&#x200B;**[!UICONTROL 預設以時間為基礎]**&#x200B;的合併原則。 您也可以洽詢資料團隊，深入瞭解哪些對象與每個合併原則相關聯。</p> |
-   | **[!UICONTROL 設定檔資料集]** | 與您選取的合併原則相關聯的設定檔資料集。 此設定檔資料集包含您要分析的Experience Platform對象資料。 此設定檔資料集已新增至您選取的連線。<p>選擇合併原則後，設定檔快照匯出隨即顯示。 例如：`Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`。</p><p>如需詳細資訊，請參閱《Experience Platform儀表板指南》中的[設定檔屬性資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/query#profile-attribute-datasets)。</p> |
+   | **[!UICONTROL 設定檔資料集]** | 與您選取的合併原則相關聯的設定檔資料集。 此設定檔資料集包含您要分析的Experience Platform對象資料。 此設定檔資料集已新增至您選取的連線。<p>選擇合併原則後，設定檔快照匯出隨即顯示。 例如：`Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`。</p><p>如需詳細資訊，請參閱《Experience Platform儀表板指南》中的[設定檔屬性資料集](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets)。</p> |
 
 1. 在&#x200B;**[!UICONTROL 連線]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 選取連線]**。
 
