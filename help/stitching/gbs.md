@@ -1,18 +1,18 @@
 ---
-title: 圖表式彙整
+title: 圖表式拼接
 description: 說明圖表式銜接的概念及運作方式
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 5%
 
 ---
 
-# 圖表式彙整
+# 圖表式拼接
 
 
 在圖表式拚接中，您可以指定事件資料集，以及該資料集的永久ID (Cookie)和人員ID的名稱空間。 圖表式拚接會將拚接ID的新欄新增至事件資料集。 然後使用永久ID來查詢來自Experience Platform Identity Service的身分圖表，使用指定的名稱空間來更新拼接的ID。
@@ -27,7 +27,7 @@ ht-degree: 5%
 
 ## 身分對應
 
-圖表式拚接支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)：
+圖表式拚接支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)：
 
 - 在`identityMap`名稱空間中使用主要身分來定義persistentID：
    - 如果在不同的名稱空間中找到多個主要身分，則名稱空間中的身分會依字典排序，並會選取第一個身分。
@@ -119,7 +119,7 @@ ht-degree: 5%
 ![身分圖表246](assets/identity-graph-246.svg)
 ![身分圖表3579](assets/identity-graph-3579.svg)
 
-您可以使用[身分圖表檢視器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer)，檢視特定設定檔在一段時間內的身分圖表。 另請參閱[身分識別服務連結邏輯](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-linking-logic)，以更清楚瞭解連結身分識別時所使用的邏輯。
+您可以使用[身分圖表檢視器](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer)，檢視特定設定檔在一段時間內的身分圖表。 另請參閱[身分識別服務連結邏輯](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)，以更清楚瞭解連結身分識別時所使用的邏輯。
 
 ### 步驟1：即時彙整
 
@@ -223,7 +223,7 @@ ht-degree: 5%
 - 使用指定的名稱空間查詢人員ID時，不會考慮時間戳記。 因此，永久性ID可能會與記錄中時間戳記較早的人員ID結合。
 - 在共用裝置情況中，其中圖表中的名稱空間包含多個身分，系統會使用第一個字典識別。 如果名稱空間限制和優先順序是在圖表連結規則發行時設定，則會使用最後驗證的使用者身分。 如需詳細資訊，請參閱[共用裝置](/help/use-cases/stitching/shared-devices.md)。
 - 在身分圖表中有三個月回填身分的硬性限制。 若您未使用Experience Platform應用程式（如Real-time Customer Data Platform）填入身分圖表，建議您使用回填身分。
-- [Identity Service護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/guardrails)已套用。 檢視下列[靜態限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/guardrails#static-limits)：
+- [Identity Service護欄](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)已套用。 檢視下列[靜態限制](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits)：
    - 圖表中的最大身分數量： 50。
    - 單一批次擷取的身分連結數上限： 50。
    - 用於圖表擷取的XDM記錄中的最大身分數量： 20。

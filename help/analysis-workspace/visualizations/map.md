@@ -4,10 +4,10 @@ title: 地圖
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: ab0e6f0578cbc6f856c2b0a46b1231cce145b84c
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '2761'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 8%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[&#x200B; &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_&#x200B;**地圖**。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[ ](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_**地圖**。_
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Analysis Workspace中的![全域](/help/assets/icons/Globe.svg) **[!UICONTROL �
 
 若要新增這些內容標籤：
 
-1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
+1. 在 Customer Journey Analytics 中，選取「**[!UICONTROL 資料管理]**」>「**[!UICONTROL 資料釋圖]**」。
 
 1. 在「資料檢視」頁面上，選取包含您要在地圖視覺效果中分析之資料的資料檢視。
 
@@ -107,7 +107,7 @@ Adobe提供數個[預先建立的範本](/help/analysis-workspace/templates/use-
 
 若要新增這些內容標籤：
 
-1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
+1. 在 Customer Journey Analytics 中，選取「**[!UICONTROL 資料管理]**」>「**[!UICONTROL 資料釋圖]**」。
 
 1. 在「資料檢視」頁面上，選取包含您要使用預建範本（使用地圖視覺效果）分析之資料的資料檢視。 在此資料檢視中，挑選五個維度：一個包含國家資料、一個包含地區資料、一個包含城市資料、一個包含州資料，以及一個包含DMA資料。 然後，以對應的內容標籤來標示這些維度。
 
@@ -270,7 +270,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
 如果您的自訂資料集精確度很高，您可以設定地圖視覺效果，以便在單一儀表內達到位置精確度。
 
-1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
+1. 在 Customer Journey Analytics 中，選取「**[!UICONTROL 資料管理]**」>「**[!UICONTROL 資料釋圖]**」。
 
 1. 選取資料檢視，其中包含您要設定以使用更精確位置的維度。
 

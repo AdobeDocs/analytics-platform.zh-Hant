@@ -6,7 +6,7 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 9056b8b172ae7a2267bf12de4b2355d1a1364b32
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1490'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Analysis Workspace 概觀 {#analysis-workspace-overview}
 
-Analysis Workspace 可讓您快速建置分析以收集深入分析，然後與其他人共用這些深入分析。透過拖放瀏覽器介面，您可以建立分析、新增視覺化呈現以生動呈現資料、組織資料集，以及與組織中您選擇的任何人共用和排程[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)。
+Analysis Workspace 可讓您快速建置分析以收集洞察，然後與其他人共用這些洞察。透過拖放瀏覽器介面，您可以建立分析、新增視覺化呈現以生動呈現資料、組織資料集，以及與組織中您選擇的任何人共用和排程[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)。
 
 >[!BEGINSHADEBOX]
 
@@ -45,7 +45,7 @@ Analysis Workspace 的主要功能可透過按鈕面板使用：
 | 圖示 | 功能 | 說明 |
 |:---:|---|---|
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL 面板]** | [面板](/help/analysis-workspace/c-panels/panels.md)是用來在專案中整理可能包含許多表格和視覺效果的分析。Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內容，產生完整的分析集。 |
-| ![Guided Analysis](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL 引導式分析]** | [引導式分析](../guided-analysis/overview.md)可讓您透過引導式工作流程，自行取得有關客戶歷程的高品質資料和深入分析。您可以建立分析並包含在 Workspace 專案中，或包含先前儲存的現有分析。 |
+| ![Guided Analysis](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL 引導式分析]** | [引導式分析](../guided-analysis/overview.md)可讓您透過引導式工作流程，自行取得有關客戶歷程的高品質資料和洞察。您可以建立分析並包含在 Workspace 專案中，或包含先前儲存的現有分析。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 視覺化呈現]** | [視覺化呈現](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)可用來生動地呈現資料，例如條狀圖或折線圖。在最左側的面板中，選取中間的&#x200B;**[!UICONTROL 視覺化呈現]**&#x200B;圖示，檢視可用視覺化呈現的完整清單。 |
 | ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 元件]** | [元件](/help/components/overview.md) 包括以下元素：<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg)[維度](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg)[量度](/help/components/apply-create-metrics.md)</li><li>![Segmentation](/help/assets/icons/Segmentation.svg) [區段](/help/components/segments/seg-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg)[日期範圍](/help/components/date-ranges/overview.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL 目錄]** | 目錄將專案中包含的所有面板和視覺效果組織成可收摺清單，讓您可以快速存取特定面板或視覺化呈現。 |
@@ -98,7 +98,7 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 | **[!UICONTROL 媒體平均分鐘觀眾數]** | **[!UICONTROL *Opt+M *]** | **[!UICONTROL *Alt+M *]** | 插入「[媒體平均分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)」面板。 |
 | **[!UICONTROL 歸因]** | **[!UICONTROL *Opt+E *]** | **[!UICONTROL *Alt+E *]** | 插入「[歸因](/help/analysis-workspace/c-panels/attribution.md)」面板。 |
 | **[!UICONTROL 自由格式]** | **[!UICONTROL *Opt+A *]** | **[!UICONTROL *Alt+A *]** | 插入「[自由格式](/help/analysis-workspace/c-panels/freeform-panel.md)」面板。 |
-| **[!UICONTROL 快速深入分析]** | **[!UICONTROL *Opt+J *]** | **[!UICONTROL *Alt+J *]** | 插入「[快速深入分析](/help/analysis-workspace/c-panels/quickinsight.md)」面板。 |
+| **[!UICONTROL 快速洞察]** | **[!UICONTROL *Opt+J *]** | **[!UICONTROL *Alt+J *]** | 插入「[快速洞察](/help/analysis-workspace/c-panels/quickinsight.md)」面板。 |
 | **[!UICONTROL 實驗]** | **[!UICONTROL *Opt+X *]** | **[!UICONTROL *Alt+X *]** | 插入[實驗](/help/analysis-workspace/c-panels/experimentation.md)面板。 |
 | **[!UICONTROL 自由格式表格]** | **[!UICONTROL *Opt+1 *]** | **[!UICONTROL *Alt+1 *]** | 插入[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺化呈現。 |
 | **[!UICONTROL 折線圖]** | **[!UICONTROL *Opt+2 *]** | **[!UICONTROL *Alt+2 *]** | 插入[折線圖](/help/analysis-workspace/visualizations/line.md)視覺化呈現。 |
@@ -159,7 +159,7 @@ Analysis Workspace 中的分析稱為[專案](/help/analysis-workspace/build-wor
 
 您在 Analysis Workspace 中建立分析時，您的工作會[自動儲存](/help/analysis-workspace/build-workspace-project/save-projects.md)。
 
-完成專案建置並開始收集可操作分析時，其他人可能想要使用此專案。您可以與組織中的使用者和群組 (或甚至組織外部的人員) 共用該專案。如需有關共用專案的資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)。
+完成專案建置並開始收集可操作洞察時，其他人可能想要使用此專案。您可以與組織中的使用者和群組 (或甚至組織外部的人員) 共用該專案。如需有關共用專案的資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)。
 
 ## 其他資源 {#resources}
 

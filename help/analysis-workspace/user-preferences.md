@@ -5,7 +5,7 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '4015'
 ht-degree: 99%
@@ -66,7 +66,7 @@ ht-degree: 99%
 | **「範本索引標籤」索引標籤** | | |
 |  | 隱藏範本索引標籤 | 對組織中所有使用者隱藏範本索引標籤。 |
 | **專案共用** | | |
-| | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。這表示使用者無法與組織中沒有 Analysis Workspace 帳戶的人員共用專案，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入) &#x200B;](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。<br/>依照預設，除了擁有已授權之 Healthcare Shield 的客戶以外，所有組織均停用此選項 (亦即使用者可以與組織外部的人員共用專案)。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。在這種情況下，共用專案的使用者與任何人共用專案時，就必須啟用可用的&#x200B;[!UICONTROL **連結使用中**]&#x200B;選項&#x200B;**([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**)，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。在您停用此選項讓使用者可以使用[!UICONTROL 與任何人共用]共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。新增權限後，您可以停用此選項，然後接受所產生的法律注意事項。如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
+| | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。這表示使用者無法與組織中沒有 Analysis Workspace 帳戶的人員共用專案，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入) ](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。<br/>依照預設，除了擁有已授權之 Healthcare Shield 的客戶以外，所有組織均停用此選項 (亦即使用者可以與組織外部的人員共用專案)。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。在這種情況下，共用專案的使用者與任何人共用專案時，就必須啟用可用的&#x200B;[!UICONTROL **連結使用中**]&#x200B;選項&#x200B;**([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**)，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。在您停用此選項讓使用者可以使用[!UICONTROL 與任何人共用]共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。新增權限後，您可以停用此選項，然後接受所產生的法律注意事項。如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
 | | 需要 Experience Cloud 驗證 | 此選項啟用後，透過 Analysis Workspace 中的「**[!UICONTROL 與任何人共用]**」選項取得專案存取權限的人員，必須使用其 Experience Cloud 認證進行驗證。<p>啟用此選項後，每當使用者使用「[!UICONTROL 與任何人共用]」共用選項共用專案時，共用對話框會啟用[!UICONTROL 需要 Experience Cloud 驗證]選項，且共用專案的使用者無法停用該選項。如需有關使用者如何與任何人共用專案的資訊，請參閱[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) (在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項共用，以及未啟用[!UICONTROL 需要 Experience Cloud 驗證]選項的所有專案都會停用。<p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後再停用 (允許擁有該連結的任何人存取專案)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權。在此情況下，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL 連結使用中]」選項&#x200B;**(「[!UICONTROL 共用]**」>「**[!UICONTROL 與任何人共用]**」>「**[!UICONTROL 連結使用中]**」)，如在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。</li><li>您的組織實作 SSO 時才可使用這個選項。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
 | 專案註解 | 允許註解專案 | 啟用此選項後，Analysis Workspace 中每項專案的右側邊欄會提供一個註解區域。 <p>專案所有者可以停用指定專案的註解區域，如[建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)所述。</p> <p>如需關於在 Analysis Workspace 專案中進行註解的更多資訊，請參閱[在專案中新增與管理註解](/help/analysis-workspace/build-workspace-project/comment-projects.md)。</p> |
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 | **資料** | | |
 |  | [資料視圖](/help/analysis-workspace/c-panels/panels.md#data-view) | 從表格和視覺效果衍生其資料的位置進行資料選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定資料視圖</li></ul> |
 |  | [行事曆](/help/analysis-workspace/c-panels/panels.md#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>您可以啟用[!UICONTROL 預設使日期範圍元件與面板行事曆相對應]。</li></ul> |
-|  | [面板類型](/help/analysis-workspace/c-panels/panels.md#panel-types) | <ul><li>自由格式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
+|  | [面板類型](/help/analysis-workspace/c-panels/panels.md#panel-types) | <ul><li>自由格式 (預設)</li><li>空白</li><li>快速洞察</li></ul> |
 |  | 實例計數 | 啟用[!UICONTROL 計算重複實例數]以指定是否要將重複實例計入報告中。例如，若啟動，多次連續檢視相同頁面視為檢視多個頁面。停用後，多次連續檢視相同頁面將計為單次頁面檢視。 <p>**注意：**&#x200B;此設定只會影響特定量度 (例如工作階段)，不適用於「流程」或「流失」視覺效果。</p> |
 |  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
@@ -143,7 +143,7 @@ ht-degree: 99%
 | **[欄](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
 | | 繞排標題文字 | 讓您自由格式表格中的標頭文字環繞，讓標頭變得更容易閱讀，表格也更便於分享。這對.pdf轉譯和名稱較長的量度相當實用。 預設啟用。 |
 | | 顯示總計 | 此總計數量通常等於[!UICONTROL 全部總量]或其中的一個子集小計。其反映的是在自由格式表格中套用的任何表格區段，包括「[!UICONTROL 不包含任何項目]」選項。 |
-| | 顯示總計 | 此總計數量代表已收集的所有事件，有時候是指&#x200B;*資料視圖總計*。在面板層級或自由表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的事件。具[靜態列](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總計。 |
+| | 顯示總計 | 此總計數量代表已收集的所有事件，有時候是指&#x200B;*資料視圖總計*。在面板層級或自由格式表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的事件。具[靜態列](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總計。 |
 | | 顯示走勢圖 | 顯示或隱藏圖表底部的折線圖。隱藏時，圖例會變更為不再以視覺化方式參照線條。 |
 | | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果量度為「頁面檢視」，則數值為列專案的頁面檢視次數。 |
 | | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。例如，若量度為「頁面檢視次數」，則該百分比數值為列項目的頁面檢視次數除以欄的頁面檢視次數。附註：為了讓比例更精確，可以顯示超過 100% 的數值。您也可以將上限提高為 1000%，以確保欄位的寬度足夠。 |
@@ -212,7 +212,7 @@ ht-degree: 99%
 | | 顯示趨勢線 | 顯示迴歸或移動平均趨勢線至您的折線圖序列。趨勢線有助於描繪出資料中更清晰的模式。 |
 | **[同類群組](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md)** | | |
 | | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>容器 | 針對帳戶型 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 連線，請選取偏好的容器以進行同類族群分析。 <p>提供下列選項：</p> <ul><li>全域帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>購買群組 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>機會 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>個人</li></ul> |
-| | 詳細程度 | 對於趨勢視覺效果，您可以變更時間詳細程度 (日、週、月、季或年)。這項變更也適用於資料來源表。 |
+| | 顆粒度 | 對於趨勢視覺效果，您可以變更時間顆粒度 (日、週、月、季或年)。這項變更也適用於資料來源表。 |
 | | 僅顯示百分比 | 移除數值並僅顯示百分比。 |
 | | 將百分比四捨五入到最接近的整數 | 將百分比四捨五入為最接近的整數，而非顯示小數值。 |
 | | 顯示平均百分比列 | 在表格頂端插入新列，然後在每個欄中加入平均值。 |

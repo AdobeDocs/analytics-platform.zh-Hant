@@ -3,7 +3,7 @@ description: 了解計算量度產生器提供的畫布可用來拖放維度、�
 title: 建立量度
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 100%
@@ -199,5 +199,5 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
 >[!MORELIKETHIS]
 >
 >[使用函數](cm-using-functions.md)
->>[區段](/help/components/segments/seg-overview.md)
+>[區段](/help/components/segments/seg-overview.md)
 >

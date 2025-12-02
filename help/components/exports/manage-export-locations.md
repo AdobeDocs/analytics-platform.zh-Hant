@@ -5,7 +5,7 @@ title: 管理雲端匯出位置和帳戶
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 3%
@@ -70,7 +70,7 @@ ht-degree: 3%
 
 1. 選取「[!UICONTROL **編輯**]」。
 
-1. 進行任何需要的變更，然後選取[儲存]。[!UICONTROL **&#x200B;**]
+1. 進行任何需要的變更，然後選取[儲存]。[!UICONTROL ****]
 
 ## 刪除位置
 
@@ -114,7 +114,7 @@ ht-degree: 3%
 
 1. 在您要編輯的帳戶上選取&#x200B;[!UICONTROL **檢視詳細資料**]。
 
-1. 進行任何需要的變更，然後選取[儲存]。[!UICONTROL **&#x200B;**]
+1. 進行任何需要的變更，然後選取[儲存]。[!UICONTROL ****]
 
 ## 檢視帳戶金鑰
 

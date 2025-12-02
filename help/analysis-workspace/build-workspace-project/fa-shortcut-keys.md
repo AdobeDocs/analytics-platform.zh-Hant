@@ -5,7 +5,7 @@ feature: Workspace Basics
 title: 快捷鍵
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 89%
@@ -14,20 +14,20 @@ ht-degree: 89%
 
 # 快捷鍵
 
-Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、分析和大眾化。
+Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、分析和民主化。
 
 請注意，您的鍵盤可能使用下列符號：
 
-- **⇧** 代表 **[!UICONTROL **&#x200B; Shift &#x200B;**]** 鍵。
-- **⌘** 代表 **[!UICONTROL **&#x200B; Cmd &#x200B;**]** (Command) 鍵。
-- **⌃** 代表 **[!UICONTROL **&#x200B; Ctrl &#x200B;**]** (Control) 鍵。
-- **⌥** 代表 **[!UICONTROL **&#x200B; Opt &#x200B;**]** (Option) 鍵。
-- **⎇** 代表 **[!UICONTROL **&#x200B; Alt &#x200B;**]** (Alternate) 鍵。
+- **⇧** 代表 **[!UICONTROL ** Shift **]** 鍵。
+- **⌘** 代表 **[!UICONTROL ** Cmd **]** (Command) 鍵。
+- **⌃** 代表 **[!UICONTROL ** Ctrl **]** (Control) 鍵。
+- **⌥** 代表 **[!UICONTROL ** Opt **]** (Option) 鍵。
+- **⎇** 代表 **[!UICONTROL ** Alt **]** (Alternate) 鍵。
 
 ## 導覽動作
 
 | 動作 | Mac 快速鍵 | Windows 快速鍵 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 建立新專案 | **[!UICONTROL *Cmd+Shift+P *]** | **[!UICONTROL *Ctrl+Shift+P *]** |
 | 開啟現有專案 | **[!UICONTROL *Cmd+O *]** | **[!UICONTROL *Ctrl+O *]** |
 | 前往「面板」窗格 | **[!UICONTROL *Opt+Shift+1 *]** | **[!UICONTROL *Alt+Shift+1 *]** |
@@ -41,7 +41,7 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、�
 ## 分析動作
 
 | 動作 | Mac 快速鍵 | Windows 快速鍵 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 搜尋左側面板 | **[!UICONTROL *Cmd+/*]** | **[!UICONTROL *Ctrl+/*]** |
 | 建立警報 | **[!UICONTROL *Cmd+Shift+A *]** | **[!UICONTROL *Ctrl+Shift+A *]** |
 | 建立計算量度 | **[!UICONTROL *Cmd+Shift+C *]** | **[!UICONTROL *Ctrl+Shift+C *]** |
@@ -58,11 +58,11 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、�
 ## 新增面板和視覺效果動作
 
 | 動作 | Mac 快速鍵 | Windows 快速鍵 |
-| --- | --- | --- | 
-| 新增歸因面版 | **[!UICONTROL *Opt+E *]** | **[!UICONTROL *Alt+E *]** |
+| --- | --- | --- |
+| 新增歸因面板 | **[!UICONTROL *Opt+E *]** | **[!UICONTROL *Alt+E *]** |
 | 新增空白面板 | **[!UICONTROL *Opt+B *]** | **[!UICONTROL *Alt+B *]** |
 | 新增自由格式面板 | **[!UICONTROL *Opt+A *]** | **[!UICONTROL *Alt+A *]** |
-| 新增快速深入分析面板 | **[!UICONTROL *Opt+F *]** | **[!UICONTROL *Alt+F *]** |
+| 新增快速洞察面板 | **[!UICONTROL *Opt+F *]** | **[!UICONTROL *Alt+F *]** |
 | 新增自由格式表格 | **[!UICONTROL *Opt+1 *]** | **[!UICONTROL *Alt+1 *]** |
 | 新增折線圖 | **[!UICONTROL *Opt+2 *]** | **[!UICONTROL *Alt+2 *]** |
 | 新增長條圖 | **[!UICONTROL *Opt+3 *]** | **[!UICONTROL *Alt+3 *]** |
@@ -71,14 +71,14 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、�
 ## 移動面板動作
 
 | 動作 | Mac 快速鍵 | Windows 快速鍵 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 將面板上移 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
 | 將面板下移 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
 
-## 普及化動作
+## 民主化動作
 
 | 動作 | Mac 快速鍵 | Windows 快速鍵 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 儲存專案 | **[!UICONTROL *Cmd+S *]** | **[!UICONTROL *Ctrl+S *]** |
 | 另存專案 | **[!UICONTROL *Cmd+Shift+S *]** | **[!UICONTROL *Ctrl+Shift+S *]** |
 | 另存為範本 | **[!UICONTROL *Opt+T *]** | **[!UICONTROL *Alt+T *]** |

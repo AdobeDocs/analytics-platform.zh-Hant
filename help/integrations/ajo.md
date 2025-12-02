@@ -4,7 +4,7 @@ description: 導入 Adobe Journey Optimizer 產生的資料，並使用 Customer
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 9149a072dc8af3fac0d5272fe84baabca7fb6058
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 100%
@@ -28,14 +28,14 @@ Journey Optimizer 支援使用 Customer Journey Analytics 作為報告引擎。�
 連線的名稱為 **[!UICONTROL AJO 啟用的連線 (*沙箱名稱*)]**，並具有以下現成可用的設定和資料集值：
 
 | **連線設定** | 值 |
-|---|---| 
+|---|---|
 | [!UICONTROL 連線名稱] | `AJO Enabled Connection (`_`sandbox name`_`)` |
 | [!UICONTROL 連線說明] | [!UICONTROL *在這裡說明您的連線*] |
 | [!UICONTROL 標記] | [!UICONTROL *選取標記*] |
 
 
 | **資料設定** | 值 |
-|---|---| 
+|---|---|
 | [!UICONTROL 啟用滾動資料時間窗口] | 啟用。[!UICONTROL 選取的月數] `13`。 |
 | [!UICONTROL 沙箱] | [!UICONTROL *沙箱名稱*] (已停用；您無法修改此設定)。 |
 | [!UICONTROL 每日事件平均數量] | 小於 100 萬 (已停用；您無法修改此設定)。 |

@@ -4,7 +4,7 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '2193'
 ht-degree: 100%
@@ -29,12 +29,12 @@ ht-degree: 100%
 | [媒體同時檢視者](media-concurrent-viewers.md) | 分析不同時段的同時檢視者，並取得尖峰同時檢視情形的詳細資訊，並可加以劃分及比較。 |
 | [媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | 分析播放時間，以了解何時達到尖峰同時檢視人數或是檢視人數何時下降。 |
 | [下一個或上一個項目](next-previous.md) | 顯示人們造訪的下一頁或上一頁。 |
-| [快速深入分析](quickinsight.md) | 快速建置自由格式表格和伴隨的視覺效果，加快分析及揭露深入分析的速度。 |
+| [快速洞察](quickinsight.md) | 快速建置自由格式表格和伴隨的視覺效果，加快分析及發現洞察的速度。 |
 
 
-[!UICONTROL 快速深入分析]、[!UICONTROL 空白]和[!UICONTROL 自由格式]面板是您開始分析的絕佳地方，而[!UICONTROL 歸因]則適合更進階的分析。![AddCircle](/help/assets/icons/AddCircle.svg)位於版面底部，因此您可以隨時新增空白面板。
+[!UICONTROL 快速洞察]、[!UICONTROL 空白]和[!UICONTROL 自由格式]面板是您開始分析的絕佳地方，而[!UICONTROL 歸因]則適合更進階的分析。![AddCircle](/help/assets/icons/AddCircle.svg)位於版面底部，因此您可以隨時新增空白面板。
 
-預設的開始面板為[!UICONTROL 自由格式]面板，但您可以將[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)或[快速深入分析](/help/analysis-workspace/c-panels/quickinsight.md)設為預設面板。請參閱[專案和分析偏好設定](/help/analysis-workspace/user-preferences.md#projects--analyses-preferences)。
+預設的開始面板為[!UICONTROL 自由格式]面板，但您可以將[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)或[快速洞察](/help/analysis-workspace/c-panels/quickinsight.md)設為預設面板。請參閱[專案和分析偏好設定](/help/analysis-workspace/user-preferences.md#projects--analyses-preferences)。
 
 
 ## 建立面板

@@ -6,7 +6,7 @@ feature: Use Cases
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: 7c16cc62-5032-44a2-92e4-4a1c320f17aa
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 從Customer Journey Analytics B2B edition所提供的分析中獲益的主要角色包括：
 
-| 角色 | B2B分析的需求 |
+| 人物誌 | B2B分析的需求 |
 |---|---|
 | 行銷經理 | 行銷活動績效、管道績效和生命週期、行銷ROI、銷售機會開發、客戶保留率和品牌績效 |
 | 業務分析師 | 精細的資料、快速的報告時間、支援許多利害關係人的靈活性，以及輕鬆傳送見解。 |

@@ -5,7 +5,7 @@ title: 設定雲端匯出帳戶
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 882e280da3f65e297abccd475d381832fd236843
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 28%
@@ -112,9 +112,9 @@ ht-degree: 28%
 
       1. 如果沒有，請下載[Microsoft Azure儲存體總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)。
 
-      1. 在Adobe Experience Platform檔案中，請依照[將您的資料登陸區域容器連線到Azure儲存體總管](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hant#connect-your-data-landing-zone-container-to-azure-storage-explorer)中所述的步驟操作。
+      1. 在Adobe Experience Platform檔案中，請依照[將您的資料登陸區域容器連線到Azure儲存體總管](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer)中所述的步驟操作。
 
-         您可以略過[擷取資料登陸區域的認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hant#retrieve-dlz-credentials)和[更新資料登陸區域認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hant#update-dlz-credentials)小節中說明的工作，因為您複製的URI包含這些認證。
+         您可以略過[擷取資料登陸區域的認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials)和[更新資料登陸區域認證](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials)小節中說明的工作，因為您複製的URI包含這些認證。
 
       1. 遵循Adobe Experience Platform檔案並前往&#x200B;[!UICONTROL **Blob容器SAS URL**]&#x200B;欄位時，請貼上您在步驟3中複製的SAS URI。
 

@@ -4,7 +4,7 @@ title: 篩選與排序
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 65%
@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # 篩選和排序自由格式表格
 
-Analysis Workspace 中的自由表格是互動式資料分析的基礎。因此，它們可包含數千列資訊。若要有效地展示最重要的資訊，對資料進行篩選和排序相當重要。
+Analysis Workspace 中的自由格式表格是互動式資料分析的基礎。因此，它們可包含數千列資訊。若要有效地展示最重要的資訊，對資料進行篩選和排序相當重要。
 
 <!--The following video covers filter and sort options in Analysis Workspace, in addition to pagination options:
 
@@ -25,9 +25,9 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 >[!NOTE]
 >
-> 只有動態維度項目才能依照本節所述進行篩選。無法篩選靜態維度項目。有關詳細資訊，請參閱「[自由格式表中的動態與靜態維度項目](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
+> 只有動態維度項目才能依照本節所述進行篩選。無法篩選靜態維度項目。有關詳細資訊，請參閱「[自由格式表格中的動態與靜態維度項目](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
 
-您可以使用多種方法來篩選自由格式表中的資料列。
+您可以使用多種方法來篩選自由格式表格中的資料列。
 
 * 排除表格中的特定資料列
 * 套用篩選器至表格
@@ -132,6 +132,6 @@ Note: this option does not seem to work. AN-338422
 
 ## 排序表格
 
-您可以依照 Analysis Workspace 中屬於維度或量度的任何欄位，來排序自由格式的資料。箭頭表示資料的排序方式 (**↓** 降序，或 **↑** 為升序)。
+您可以依照 Analysis Workspace 中屬於維度或量度的任何欄位，來排序自由格式表格的資料。箭頭表示資料的排序方式 (**↓** 降序，或 **↑** 為升序)。
 
 ![排序](assets/sorting.gif)

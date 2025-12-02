@@ -5,7 +5,7 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 7f44c7497a48e8377ca26cb194f828c3c8836f98
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '2709'
 ht-degree: 100%
@@ -35,8 +35,8 @@ ht-degree: 100%
 | **提升安全性和隱私權選項** - HIPAA 整備程度 | Customer Journey Analytics 符合 HIPAA 標準，並提供[額外的安全性選項](/help/privacy/cmk.md)以實現法規合規性。Adobe Analytics 尚未符合 HIPAA 標準。 |
 | **實驗分析** | 對於任何定義為連線一部分之資料來源的實驗，Customer Journey Analytics 都可以[評估其提升度和可信度](/help/analysis-workspace/c-panels/experimentation.md)。透過此評估，您可以了解任意管道中客戶互動之間的因果關係。Analytics 僅限於透過 A4T 進行的實驗分析。 |
 | **預測** | [預測](/help/analysis-workspace/c-forecast/forecasting.md)是一種 AI/ML 功能，包括根據 Customer Journey Analytics 中已有的歷史資料，對時間序列相關資料進行統計預測。預測可以顯示在自由格式表格和折線圖視覺效果中。 |
-| **引導式分析** | [引導式分析](/help/guided-analysis/overview.md)讓使用者透過建置在 Customer Journey Analytics 跨管道資料上的引導式工作流程，自行取得有關客戶歷程的高品質資料和深入分析。 |
-| **智慧型註解** | [智慧型註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)使用進階的機器學習和生成式 AI，為 Workspace 視覺效果提供有價值的自然語言深入分析。智慧型註解可使用以下視覺效果：單線折線圖、多線折線圖、長條圖、水平長條圖、甜甜圈圖、區域圖、流程圖和流失存活圖。 |
+| **引導式分析** | [引導式分析](/help/guided-analysis/overview.md)讓使用者透過建置在 Customer Journey Analytics 跨管道資料上的引導式工作流程，自行取得有關客戶歷程的高品質資料和洞察。 |
+| **智慧型註解** | [智慧型註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)使用進階的機器學習和生成式 AI，為 Workspace 視覺效果提供有價值的自然語言洞察。智慧型註解可使用以下視覺效果：單線折線圖、多線折線圖、長條圖、水平長條圖、甜甜圈圖、區域圖、流程圖和流失存活圖。 |
 | **歷程畫布** | [歷程版面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=tw)是 Analysis Workspace 的視覺化功能，讓您能夠分析人們如何完成或退出所定義的歷程。 |
 | **產品使用情況** | [產品使用情況](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/product-usage/usage-overview)呈現您組織使用 Customer Journey Analytics 的情形。 |
 | **報告時間轉換** | 透過 Customer Journey Analytics 的[資料檢視](/help/data-views/data-views.md)，您可以透過關聯來解讀資料。您可以變更或移除資料，而無需變更實施。使用子字串操作維度。使用任何值來建立量度，或篩選子事件。以上所有轉換的進行都是非破壞性。Adobe Analytics 透過虛擬報表套裝和自訂工作階段長度提供有限的功能。 |
@@ -69,7 +69,7 @@ ht-degree: 100%
 | **量度** | 完整支援；Customer Journey Analytics 使用體驗資料模型 (XDM) 並支援無限制的量度，且未繫結到 Adobe Analytics 的自訂成功事件。Adobe Analytics 的部分標準量度已重新命名：訪客 = 人員，造訪 = 工作階段，點擊 = 事件。 |
 | **將專案、區段與計算量度從 Adobe Analytics 移轉至 Customer Journey Analytics** | 完整支援。 |
 | **行動計分卡/儀表板** | 完整支援 |
-| **面板** | 完整支援以下面板：空白面板、歸因、自由格式、快速深入分析以及下一個或上一個項目。 |
+| **面板** | 完整支援以下面板：空白面板、歸因、自由格式、快速洞察以及下一個或上一個項目。 |
 | **PDF 匯出** | 完整支援 |
 | **專案策劃** | 完整支援 |
 | **專案連結** | 完整支援 |
@@ -107,7 +107,7 @@ ht-degree: 100%
 | **IP 模糊化** | 對於使用 Analytics 來源連接器將 Adobe Analytics 的資料填入到 Customer Journey Analytics 中的 Customer Journey Analytics 客戶：Adobe Analytics 中套用的 IP 模糊化設定也會套用至 Customer Journey Analytics 資料。您可以視需要在 Adobe Analytics 中控制這些設定。<p>對於使用 Experience Platform Web SDK 將資料直接填入 Platform 和 Customer Journey Analytics 中的 Customer Journey Analytics 客戶，您可以使用 Platform 中「資料收集」的「資料準備」，根據公司的要求設定模糊 IP 位址規則。 |
 | **行銷管道** | 使用 Analytics 來源連接器時，行銷管道資料會透過該連接器流入 Customer Journey Analytics。行銷管道規則是在傳統 Adobe Analytics 中設定，且部分規則不受支援。如需更多資訊，請參閱 [Customer Journey Analytics 行銷管道](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/aa-data/marketing-channels)。<br/>對於 WebSDK 實施，會透過[衍生欄位](../../data-views/derived-fields/derived-fields.md)支援報告時間行銷管道處理規則。 |
 | **銷售變數持續性** | 透過[繫結維度和繫結量度](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)提供完整支援 |
-| **刪除重複的量度** | 針對資料檢視中的量度進行設定。刪除重複的量度會在人員或工作階段層級而不是資料集、資料檢視或連線層級進行。 |
+| **量度重複資料刪除** | 針對資料檢視中的量度進行設定。量度重複資料刪除的會在人員或工作階段層級而不是資料集、資料檢視或連線層級進行。 |
 | **新工作階段與重複工作階段之比較報告** | 先前使用「造訪編號」維度完成。支援在 [13 個月的回溯期](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/data-views/data-views-usecases)內進行新工作階段與重複工作階段之比較確認。 |
 | **處理規則、VISTA 規則、行銷管道處理規則** | 支援將 Adobe Experience Platform Data Prep 功能以及[衍生欄位](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/derived-fields)用於 WebSDK 式資料集和來自 Analytics 來源連接器的資料。 |
 | **產品變數** | 在 Experience Platform 中，使用者可在資料集結構描述中使用物件陣列，以符合此使用案例。在 Customer Journey Analytics 中，客戶可以使用任意數量的產品變數，且不限於 Adobe Analytics 中的單一變數。 |
@@ -122,7 +122,7 @@ ht-degree: 100%
 
 | 功能 | 附註 |
 | --- | --- |
-| **工作區面板** | 全面支援空白面板、歸因面板、自由表格面板和快速深入分析。不支援區段比較面板和 Analytics for Target (A4T) 面板。 |
+| **工作區面板** | 全面支援空白面板、歸因面板、自由表格面板和快速洞察。不支援區段比較面板和 Analytics for Target (A4T) 面板。 |
 
 ## 不支援，但已在規劃提供支援 {#planned}
 

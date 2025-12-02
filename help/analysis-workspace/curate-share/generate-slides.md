@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 從Workspace報表產生簡報
 feature: Curate and Share
 role: User
-source-git-commit: 87e3b3cfdf765a57ecdb70921696013bcba4feac
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1585'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -86,7 +86,7 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
 >[!CONTEXTUALHELP]
 >id="cja-presentation-emphasized-components"
->title="強調的元件"
+>title="強調元件"
 >abstract="從您要在簡報中強調的視覺效果中選擇最多5個量度和5個維度。 您選擇的量度會以斜體顯示、維度會以粗體顯示，而維度專案則會以對比顏色顯示。"
 
 <!-- markdownlint-enable MD034 -->
@@ -157,9 +157,9 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
          請確定上傳的檔案具有下列名稱的主版面配置：「Title_Slide」、「Section_Divider」、「Title_Text」、「Title_Chart」、「Title_Two_Content_Mixed」、「Title_Three_Content_Mixed」。
 
-         最多支援15個主版面配置。
+         最多支援 15 個主要版面配置。
 
-         支援大小最大為25MB的.pptx和.potx檔案。
+         支援最大 25MB 的 .pptx 和 .potx 檔案。
 
       1. 在&#x200B;**[!UICONTROL 配置對應]**&#x200B;區段中，產生之簡報中使用的每個投影片配置會自動對應至您上傳之主題的投影片。 檢閱選取專案以確定其正確無誤。
 

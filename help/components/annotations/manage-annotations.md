@@ -4,7 +4,7 @@ description: 瞭解如何在Workspace中管理註解。
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 91%
@@ -34,7 +34,7 @@ ht-degree: 91%
 註解清單➊會顯示您擁有的所有註解、已設定您所有專案範圍的註解，以及與您共用的註解。 清單有以下欄位：
 
 | 欄 | 說明 |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 選取將註解設為最愛項目![Star](/help/assets/icons/Star.svg)或取消最愛項目![StarOutline](/help/assets/icons/StarOutline.svg)。 |
 | **[!UICONTROL 標題和說明]** | 在註解產生器中提供。如要編輯標題和說明，請選取標題連結 - 開啟[註解產生器](/help/components/annotations/create-annotations.md#annotation-builder)。共用註解以![共用](/help/assets/icons/ShareAlt.svg)表示。 |
 | **[!UICONTROL 資料釋圖]** | 此註解所套用的資料釋圖。 |

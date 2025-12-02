@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Content Analytics 報告概觀
 
-您可以在 [Analysis Workspace 中製作報告、執行分析並獲得有關 Content Analytics 的深入分析](/help/analysis-workspace/home.md)。特定的 Workspace [範本](#template) 已可使用，讓您可以立即存取預先填入相關內容深入分析的 Workspace 專案。
+您可以在 [Analysis Workspace 中製作報告、執行分析並獲得有關 Content Analytics 的洞察](/help/analysis-workspace/home.md)。特定的 Workspace [範本](#template) 已可使用，讓您可以立即存取預先填入相關內容洞察的 Workspace 專案。
 
 若要在 Content Analytics 從頭開始製作報告：
 
@@ -155,5 +155,5 @@ Content Analytics 使用 AI 和 GenAI 自動指派每個資產中繼資料，例
 >[!MORELIKETHIS]
 >
 >[Content Analytics 元件](components.md)
->>[使用範本](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>[使用範本](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >

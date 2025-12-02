@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 | | Customer Journey Analytics<br/>選取 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
-| 可用的拼接方法 | <li>欄位式拚接</li> | <li>欄位式拚接</li><li>圖表式彙整</li> | <li>欄位式拚接</li><li>圖表式彙整</li> |
+| 可用的拼接方法 | <li>欄位式拼接</li> | <li>欄位式拼接</li><li>圖表式拼接</li> | <li>欄位式拼接</li><li>圖表式拼接</li> |
 | 一次性拼接回填持續時間 | 13 個月 | 13 個月 | 25 個月 |
 | 回顧期間和重播頻率 | <li>1天，每天</li><li>最長7天，每週</li> | <li>1天，每天</li><li>最長14天，每週</li> | <li>1天，每天</li><li>最長30天，每週</li> |
 | 拼接允許的資料集數量上限 | 5 | 15 | 50 |

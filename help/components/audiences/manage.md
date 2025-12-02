@@ -4,7 +4,7 @@ description: 了解如何在 Customer Journey Analytics 中管理客群
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 4717a85b9a3c7dc2cbdd8c625ebb5862cbfccd58
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 95%
@@ -22,7 +22,7 @@ ht-degree: 95%
 * 為自動客群重新整理/更新進行&#x200B;**排程或取消排程**。 排程的最長期限為 1 年。
 * 在客群更新排程快過期時，**續訂該排程。**。系統處理即將過期客群的方法與即將過期的排程報告相似，管理員會在排程過期前的一個月收到電子郵件。
 * 查看&#x200B;**重新整理間隔**&#x200B;和&#x200B;**上次更新客群的時間**
-* 透過 Customer Journey Analytics 深入分析&#x200B;**吸引客群所需時間**。以及讓客群出現在 Real-time Customer Platform 以達到啟動目的所需的時間。
+* 透過 Customer Journey Analytics 洞察&#x200B;**吸引客群所需時間**。以及讓客群出現在 Real-time Customer Platform 以達到啟動目的所需的時間。
 * 查看 **Real-time Customer Platform** 是否會積極使用 Customer Journey Analytics 中的客群。或 (理想情況下) 任何使用由 Customer Journey Analytics 所建立客群的 Experience Platform 應用程式。
 
 如果您有[客群檢視](/help/technotes/access-control.md#user-level-access)的存取權限，就可以查看客群。如果您有[客群建立](/help/technotes/access-control.md#user-level-access)的存取權限，您就可以編輯和刪除客群。
@@ -80,7 +80,7 @@ ht-degree: 95%
 
 | 圖示 | 動作 | 說明 |
 |:---:|---|---|
-| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。在&#x200B;**[!UICONTROL 「更新」標記中：*客群名稱&#x200B;*]**&#x200B;對話框中，從下拉式選單中選取標記，或輸入一個或多個新標記。選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
+| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。在&#x200B;**[!UICONTROL 「更新」標記中：*客群名稱&#x200B;*]**對話框中，從下拉式選單中選取標記，或輸入一個或多個新標記。選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選取的客群。 |
 | ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名選取的客群。使用「**[!UICONTROL 重新命名」：「*客群名稱&#x200B;*]**」對話框來重新命名客群，然後選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 

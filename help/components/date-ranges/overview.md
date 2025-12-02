@@ -4,7 +4,7 @@ title: 日期範圍概觀
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/3445840?captions=chi_hant&format=jpeg)
+>[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
 
 {{videoaa}}
 +++
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 您可以使用日期範圍元件來重新定義面板的行事曆。
 
-或者，您可以使用自由格式表中的日期範圍作為量度或維度。
+或者，您可以使用自由格式表格中的日期範圍作為量度或維度。
 
 ![日期範圍使用](/help/components/date-ranges/assets/date-ranges-usage.png)
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->當您在自由格式表中使用日期範圍時，日期範圍會覆寫自由格式表所屬面板指定的行事曆。
+>當您在自由格式表中使用日期範圍時，日期範圍會覆寫自由格式表格所屬面板指定的行事曆。
 >
 
 使用日期範圍的方式與[使用任何元件](/help/components/overview.md#analysis-workspace-components)的方式一樣。您從![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** 元件面板將日期範圍拖曳到：
@@ -58,7 +58,7 @@ ht-degree: 100%
    - **[!UICONTROL 新增時段欄]**。您可以在根據目前行事曆的建議選項中選取，或建立[自訂日期範圍](#custom-date-ranges)。
    - **[!UICONTROL 比較時段]**。 您可以在根據目前行事曆的建議選項中選取，或建立[自訂日期範圍](#custom-date-ranges)。
 
-1. 根據您的選擇，額外的日期範圍欄將會新增至自由格式表中。
+1. 根據您的選擇，額外的日期範圍欄將會新增至自由格式表格中。
 
 ## 預設日期範圍
 

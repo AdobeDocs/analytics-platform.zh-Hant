@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 22d3e7b8-4a4d-48a8-a98d-5172a9876286
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 98%
@@ -50,7 +50,7 @@ ht-degree: 98%
    | **[!UICONTROL 記錄數量]** | Experience Platform 中資料集的上個月記錄總數。 |
    | **[!UICONTROL 結構描述]** | 在 Adobe Experience Platform 中建立資料集所根據的[結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)。 |
    | **[!UICONTROL 資料集類型]** | Customer Journey Analytics 會針對您新增至此連線的各個資料集，根據傳入的資料自動設定資料集類型。 有 3 種不同的資料集類型：事件資料、設定檔資料和查詢資料。 請參閱下表提供的資料集類型說明。 |
-   | **[!UICONTROL 詳細程度]** | 資料集中資料的詳細程度；僅適用於摘要資料集。 |
+   | **[!UICONTROL 顆粒度]** | 資料集中資料的顆粒度；僅適用於摘要資料集。 |
    | **[!UICONTROL 資料來源類型]** | 資料集的資料來源類型。不適用於摘要資料集。 |
    | **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取人員ID。 這些身分識別是在 Experience Platform 的資料集結構描述中所定義。 若要了解如何以「身分識別對應」作為個人 ID，請參閱以下說明。<p>重要事項：如果沒有個人 ID 可供選擇，表示結構描述中尚未定義一個或多個個人 ID。請觀看[這部影片](https://www.youtube.com/watch?v=G_ttmGl_LRU)，了解如何在 Experience Platform 中定義身分識別。 |
    | **[!UICONTROL 索引鍵]** | 僅適用於查詢資料集 (例如 _id)。 |

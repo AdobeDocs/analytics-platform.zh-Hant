@@ -4,7 +4,7 @@ description: 瞭解如何在Analysis Workspace的自由格式表格中建立維�
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 97%
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [「在自由格式表中建立超連結」](https://video.tv.adobe.com/v/3445799/?captions=chi_hant&quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[「在自由格式表格中建立超連結」](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 
 為一個或多個維度項目建立超連結時，請考慮以下事項：
 
-* 您建立的超連結是儲存在 Analysis Workspace 專案內的自由格式表中。在另一個表格或另一個專案中使用相同維度或維度項目時，超連結不會保留。
+* 您建立的超連結是儲存在 Analysis Workspace 專案內的自由格式表格中。在另一個表格或另一個專案中使用相同維度或維度項目時，超連結不會保留。
 
 * 如果要變更自由格式表格的資料檢視，則為表中維度或維度項目建立的任何超連結仍然可用。此功能假定該維度仍然存在於資料檢視中。
 
@@ -91,11 +91,11 @@ ht-degree: 97%
      | 欄位 | 說明 |
      |---------|----------|
      | [!UICONTROL **自訂 URL**] | 指定要用於超連結的自訂 URL。輸入的 URL 必須為完全限定的 URL。例如︰<https://www.example.com><p>您建立的自訂 URL 可以是靜態或動態：</p> <ul><li>**靜態 URL：** 當您希望所有維度項目都連結到同一個 URL 時，您可以為單一維度項目或所有維度項目指定靜態 URL。例如︰`https://wiki.internal.company_name/page_name#item_definition`</p></li><li>**動態 URL：** 如果想要為多個維度項目 (或一個維度欄中的所有維度項目) 建立唯一的超連結，則可以建立動態 URL。<p>若要讓自訂 URL 成為動態性質，您可以在 URL 中包含一個變數，以根據維度的值或劃分維度的值變更 URL。</p><p>使用變數時，若包含在 URL 中屬於無效的字元 (如空格)，這些維度項目都會經過 URL 編碼。</p><p>可用的變數如下：(**註**：雖然可在同一個 URL 中使用這些變數，但單獨使用還是更常見。</p> <ul><li>**`$value`：** 允許您將維度項目的值插入指定的 URL 中。 <p>假設您想要為自由格式表格內所有頁面名稱維度項目建立超連結，其中每個維度項目的值都是網頁 URL 的一部分。在這種情況下，您可以建立一個針對每個維度項目動態調整的單一自訂 URL。<br/>例如：`https://company-name.com/browse/product#\$value`</p><p>當此自訂 URL 套用於值為「ProductY」和「ProductZ」的頁面名稱維度項目時，產生的超連結將如下所示： <br/>`https://company-name.com/browse/product#ProductY` 和<br/>`https://company-name.com/browse/product#ProductZ` </p><p>![在超連結中使用值](assets/table-hyperlinks-vaule.png)</p><p>**提示**：僅將 `$value` 變數新增至自訂 URL 欄位，與建立 URL 時選取「[!UICONTROL **使用維度項目的值**]」選項相同。</p></li><li>**`$breakdown`：** 允許您將劃分維度項目的值插入指定的 URL 中。透過 `$breakdown`，您可以在報告中使用具有使用易記名稱的維度 (例如「產品名稱」維度)。同時，根據可能使對使用者不太好記的劃分維度 (例如產品 ID 或頁面 URL 維度) 產生超連結。<p>引用劃分維度時，最常見的情況是特定維度項只有一個劃分項目。如果特定維度項目有多個劃分項目，則在 URL 中使用第一個劃分項目的值。如果沒有列出劃分項目，則該 URL 無效。劃分項目的排序順序與表格的排序順序相同。</p><p>您可以在下面「[!UICONTROL **劃分維度**]」欄位中指定劃分維度。</p> <p>請考慮以下針對「[!UICONTROL **劃分維度**]」欄位描述的範例情境。</p></li></ul> |
-     | [!UICONTROL **劃分維度 (選擇性)**] | 開始輸入您要使用之劃分維度的名稱，然後從下拉式功能表中選取它。 <p>如果您在此欄位中選取劃分維度，則您必須使用在「[!UICONTROL **自訂 URL**]」欄位中指定的 URL 中的 `$breakdown` 變數來引用該維度。</p><p>假設您想要為自由格式表中的所有「產品名稱」維度項目建立超連結。每個「產品名稱」維度項目均包含「產品 ID」維度的劃分。</p></p>在這種情況下，您可以為每個「產品名稱」維度建立超連結，如此將透過使用「產品 ID」劃分維度的值將使用者導向至產品頁面。 </p><p>將 `$breakdown` 變數新增至您在&#x200B;[!UICONTROL **自訂 URL**] 欄位中指定的自訂 URL 結尾。例如：</p><p>`https://company-name.com/browse/product/$breakdown`</p>將此自訂 URL 套用至您的「產品名稱」維度項目 (其中劃分維度項目的值為「ProductY」和「ProductZ」) 時，產生的超連結如下所示：<br/>`https://company-name.com/browse/product/ProductY` 和<br/>`https://company-name.com/browse/product/ProductZ`</p><p>然後，您將在「[!UICONTROL **劃分維度**]」欄位中選取「產品 ID」維度 </p><p>![在超連結中使用劃分](assets/table-hyperlinks-breakdown.png)</p> |
+     | [!UICONTROL **劃分維度 (選擇性)**] | 開始輸入您要使用之劃分維度的名稱，然後從下拉式功能表中選取它。 <p>如果您在此欄位中選取劃分維度，則您必須使用在「[!UICONTROL **自訂 URL**]」欄位中指定的 URL 中的 `$breakdown` 變數來引用該維度。</p><p>假設您想要為自由格式表格中的所有「產品名稱」維度項目建立超連結。每個「產品名稱」維度項目均包含「產品 ID」維度的劃分。</p></p>在這種情況下，您可以為每個「產品名稱」維度建立超連結，如此將透過使用「產品 ID」劃分維度的值將使用者導向至產品頁面。 </p><p>將 `$breakdown` 變數新增至您在&#x200B;[!UICONTROL **自訂 URL**] 欄位中指定的自訂 URL 結尾。例如：</p><p>`https://company-name.com/browse/product/$breakdown`</p>將此自訂 URL 套用至您的「產品名稱」維度項目 (其中劃分維度項目的值為「ProductY」和「ProductZ」) 時，產生的超連結如下所示：<br/>`https://company-name.com/browse/product/ProductY` 和<br/>`https://company-name.com/browse/product/ProductZ`</p><p>然後，您將在「[!UICONTROL **劃分維度**]」欄位中選取「產品 ID」維度 </p><p>![在超連結中使用劃分](assets/table-hyperlinks-breakdown.png)</p> |
 
 1. 選取「[!UICONTROL **建立**]」。
 
-   查看自由格式表的使用者會看到有超連結的維度項目。當您按一下維度項目時，使用者將被帶往個別瀏覽器標籤中的超連結頁面。
+   查看自由格式表格的使用者會看到有超連結的維度項目。當您按一下維度項目時，使用者將被帶往個別瀏覽器標籤中的超連結頁面。
 
    <!-- add screenshot of a table with hyperlinks.-->
 
@@ -131,11 +131,11 @@ ht-degree: 97%
 
 ## 移除超連結
 
-您可以移除已為自由格式表內維度項目建立的超連結。
+您可以移除已為自由格式表格內維度項目建立的超連結。
 
 >[!NOTE]
 >
->在自由格式表中，如果移除包含超連結的維度，則將相同維度新增回自由格式表時，超連結將不會保留。
+>在自由格式表中，如果移除包含超連結的維度，則將相同維度新增回自由格式表格時，超連結將不會保留。
 
 若要從維度項目移除超連結：
 

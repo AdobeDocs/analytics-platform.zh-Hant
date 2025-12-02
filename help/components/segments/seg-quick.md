@@ -4,7 +4,7 @@ title: 快速區段
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 84%
@@ -74,7 +74,7 @@ ht-degree: 84%
 | 元素 | 說明 |
 |---|---|
 | **[!UICONTROL 名稱]** | 該名稱是從快速區段定義自動衍生。 |
-| **[!UICONTROL 人員]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![警報](/help/assets/icons/Alert.svg) | 預覽快速區段所得的資料。透過長條圖和百分比可以了解整體資料中有多少是快速區段結果的一部分。![警報](/help/assets/icons/AlertRed.svg)表示快速區段未傳回資料。 |
+| **[!UICONTROL 人員]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![警報](/help/assets/icons/Alert.svg) | 預覽快速區段所得的資料。透過長條圖和百分比可以洞察整體資料中有多少是快速區段結果的一部分。![警報](/help/assets/icons/AlertRed.svg)表示快速區段未傳回資料。 |
 | **[!UICONTROL 包括]**<br/>**[!UICONTROL 排除]** | 從下拉式清單![V形](/help/assets/icons/ChevronDown.svg)中選取是否要從面板中的資料包含或排除快速區段的結果。 |
 | **[!UICONTROL 事件]**<br/>**[!UICONTROL 工作階段]**<br/>**[!UICONTROL 人員]** | 從下拉式功能表中選取![V形向下鍵](/help/assets/icons/ChevronDown.svg)快速區段的範圍。 |
 
