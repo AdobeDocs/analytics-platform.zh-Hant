@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 23b890ec6a3266d1ca0621b09264f1d6a2f82645
+source-git-commit: 6ebd1604e01af068228d7a5e4a78fdccf852f480
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
    * 設定為身分的多個欄位，可讓您為永久ID和人員ID選取不同的值。
    * 至少一個標示為主要身分的欄位具有關聯的名稱空間，以備您將「身分對應」和主要身分名稱空間用於永久ID或人員ID。
 
-* 事件資料集必須為Identity服務[啟用](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)，以備您想要使用Identity圖表和圖表式銜接時使用。
+* 如果您想要使用圖表式拼接，而且您預期事件資料集會貢獻身分圖表，您應該[啟用身分服務的資料集](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)。 當資料集包含永久ID旁邊的相關人員ID時，資料集就會貢獻身分圖表。
 
 
 ## 預檢檢查
@@ -137,7 +137,7 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL 回顧視窗]**&#x200B;下拉式功能表中選取回顧視窗。 可用選項取決於您有權使用的Customer Journey Analytics套件。
 
-一旦您儲存的連線包含已啟用身分拼接的資料集，每個資料集的拼接程式都會在該資料集的資料擷取開始時開始。
+儲存連線後，針對啟用拼接功能的資料集進行的拼接程式會在開始擷取這些資料集的資料時啟動
 
 ## 限制
 
