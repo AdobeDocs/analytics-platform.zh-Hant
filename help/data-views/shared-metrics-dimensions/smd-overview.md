@@ -2,9 +2,9 @@
 title: 共用的量度和維度概觀
 description: 在多個資料檢視中使用相同的維度或量度參考。
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 1de8b8f40a7e1be0de0e6cbed5cc57ff834f2377
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
    * **[!UICONTROL 摘要資料群組]**：元件的[摘要資料群組](/help/data-views/component-settings/summary-data-group.md)設定。
    * **[!UICONTROL 建立日期]**：建立或匯入元件的日期。
    * **[!UICONTROL 上次修改時間]**：如果元件在建立後已修改，則為上次修改的日期。
-* **[!UICONTROL 工作歷史記錄]**：選取![歷史記錄圖示](/help/assets/icons/History.svg)圖示以開啟強制回應視窗，其中顯示從個別資料檢視匯入維度和量度的所有執行個體。
+* **[!UICONTROL 工作歷史記錄]**：若您匯入或共用大量元件，系統會自動建立工作。 選取![歷程記錄圖示](/help/assets/icons/History.svg)圖示以開啟強制回應視窗，其中顯示從個別資料檢視匯入維度和量度的所有執行個體。 如果您的匯入或共用動作都不夠大，無法觸發工作，則不會出現此按鈕。
 
 ## 編輯元件或共用元件至資料檢視
 
