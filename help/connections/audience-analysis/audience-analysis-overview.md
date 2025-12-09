@@ -6,10 +6,10 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
+source-git-commit: f23775342a29d758b478206a77386e18a58312a6
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 4%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->對象分析與對象發佈不同，後者可讓您建立在Customer Journey Analytics中發現的對象，並將其發佈至Adobe Experience Platform，以用於客戶目標定位和個人化。 如需對象發佈的相關資訊，請參閱[對象發佈概觀](/help/components/audiences/audiences-overview.md)。
+>瞭解對象分析與對象發佈之間的差異：
+>
+>* **對象分析**：可讓您將Experience Platform設定檔資料集中的對象會籍資料擷取到Customer Journey Analytics連線。
+>* **對象發佈**：可讓您建立在Customer Journey Analytics中發現的對象，並將其發佈到Adobe Experience Platform，以用於客戶目標定位和個人化。 如需對象發佈的相關資訊，請參閱[對象發佈概觀](/help/components/audiences/audiences-overview.md)。
 
 對象分析可讓您將對象成員資格資料從Experience Platform設定檔資料集擷取到Customer Journey Analytics連線。 對象會成為新的維度，以便在Analysis Workspace中使用。
 
@@ -46,6 +49,12 @@ ht-degree: 4%
 
 如需詳細資訊，請參閱[設定對象分析](/help/connections/audience-analysis/audience-analysis-configure.md)。
 
+## 管理對象分析設定
+
+您可以在對象分析設定建立後加以管理。 您可以檢視、編輯和刪除組態。
+
+如需有關管理現有對象分析設定的資訊，請參閱[管理對象分析設定](/help/connections/audience-analysis/audience-analysis-manage.md)。
+
 ## 在Customer Journey Analytics中分析受眾資料
 
 有了Customer Journey Analytics提供的受眾資料，您就可以針對受眾成員在不同管道中的行為方式獲得可行的深入分析。
@@ -57,6 +66,16 @@ ht-degree: 4%
 * 最終進行店內購買的受眾成員
 
 如需詳細資訊，請參閱[在Customer Journey Analytics中分析Experience Platform對象](/help/connections/audience-analysis/analyze-audiences.md)。
+
+## 對象分析角色和許可權需求
+
+對象分析需要下列Customer Journey Analytics角色和Experience Platform許可權：
+
+| 功能 | Customer Journey Analytics角色或許可權需求 | Experience Platform許可權需求 |
+|---------|----------|----------|
+| [建立對象分析設定](/help/connections/audience-analysis/audience-analysis-configure.md) | 系統管理員 | <ul><li>資料集：讀取許可權</li><li>結構描述：讀取、寫入</li><li>和身分識別名稱空間：讀取</li></ul> |
+| [在資料檢視中檢視對象分析維度](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | 指派資料檢視的產品設定檔的產品設定檔管理員 <p>如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md)。</p> | 不適用 |
+| 在Analysis Workspace中使用對象分析維度 | 存取已新增對象分析維度的資料檢視 | 不適用 |
 
 
 

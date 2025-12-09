@@ -6,22 +6,24 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
+source-git-commit: f23775342a29d758b478206a77386e18a58312a6
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
 
 # 在Customer Journey Analytics中分析Experience Platform受眾 {#analyze-audiences-RTCDP}
 
-當對象資料可在Customer Journey Analytics中作為新維度使用時，您[建立對象分析設定](/help/connections/audience-analysis/audience-analysis-configure.md)後，就可以開始在Analysis Workspace中分析Experience Platform對象。
+在您[建立對象分析設定](/help/connections/audience-analysis/audience-analysis-configure.md)後，對象資料會在您設定要建立對象的資料檢視中成為新的維度。 如果您有許可權存取新增了對象分析維度的資料檢視，您可以在Analysis Workspace中的任何地方使用新的對象維度。
+
+## 使用對象概觀範本
 
 Customer Journey Analytics中有提供對象概觀範本。
 
 <!-- Can you also use the new audience dimensions in any project, regardless of whether it's a template? I assume so -->
 
-<!-- What are the names of the new dimensions? Are they customized to whatever your audience names are in AEP, or are they always the same? -->
+<!-- What are the names of the new dimensions? Are they customized to whatever your audience names are in AEP, or are they always the same? Are they the dimensions available in the Audience overview template? (Audience Name, Audience Origin, Exited Audience Name, Exited Audience Origin; Audience Description, Exited Audience Description). Metrics included (Distinct Audiences) -->
 
 如需有關如何存取對象概觀範本的資訊，請參閱[使用範本](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template)中的[存取並執行範本](/help/analysis-workspace/templates/use-templates.md)。
 
@@ -49,7 +51,7 @@ Customer Journey Analytics中有提供對象概觀範本。
 
 顯示已退出對象之資料，其中包含與所選資料檢視相關聯的使用事件。 資料一律顯示為昨天，因此變更面板日期範圍導致資料不正確。 「已退出的對象」是指具有使用事件之人員昨天離開或退出的對象。
 
-使用此面板中的表格以更清楚瞭解對象行為。 從選取的資料檢視中拖曳現有的對象說明維度，並將其新增為劃分。 或使用任何其他互動維度或量度（例如「頁面」、「動作」等）作為劃分。
+使用此面板中的表格以更清楚瞭解對象行為。 從選取的資料檢視中拖曳「退出對象說明」維度，並將其新增為劃分。 或使用任何其他互動維度或量度（例如「頁面」、「動作」等）作為劃分。
 
 ## 熱門退出對象來源面板
 

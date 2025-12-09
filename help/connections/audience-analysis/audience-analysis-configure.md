@@ -6,10 +6,10 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 3fb94d920b240247f13050cf091423335a3d74ec
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 13%
+source-wordcount: '1289'
+ht-degree: 12%
 
 ---
 
@@ -53,7 +53,11 @@ ht-degree: 13%
 
 對象分析可讓您將對象成員資格資料從Experience Platform設定檔資料集擷取到Customer Journey Analytics連線。 對象會成為新的維度，以便在Analysis Workspace中使用。 如需對象分析的詳細概觀資訊，請參閱[對象分析概觀](/help/connections/audience-analysis/audience-analysis-overview.md)。
 
+## 建立對象分析設定
+
 建立對象分析設定時，您會選取與您要分析之Experience Platform對象相關聯的沙箱和合併原則。 Customer Journey Analytics會建立新的查詢資料集，然後自動將查詢資料集和設定檔資料集新增到您選擇的連線。
+
+只有系統管理員可以建立對象分析設定。
 
 若要建立對象分析設定：
 
@@ -70,18 +74,20 @@ ht-degree: 13%
    | 欄位 | 說明 |
    |---------|----------|
    | **[!UICONTROL 名稱]** | 指定組態的名稱。 |
-   | **[!UICONTROL 沙箱]** | 選取沙箱，其中包含您要新增至連線的設定檔資料集。 <p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)可將單一 Platform 執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。 您可將沙箱視為內含資料集的「資料獨立單位」。沙箱可用於控制資料集的存取權限。</p> |
+   | **[!UICONTROL 沙箱]** | 選取包含您要新增至連線的設定檔資料集的Experience Platform沙箱。 <p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)可將單一 Platform 執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。 您可將沙箱視為內含資料集的「資料獨立單位」。沙箱可用於控制資料集的存取權限。</p> |
 
 1. 在&#x200B;**[!UICONTROL 設定檔資料集]**&#x200B;區段中，指定下列資訊：
 
    | 欄位 | 說明 |
    |---------|----------|
-   | **[!UICONTROL 合併原則]** | 選取與您要用於對象分析的設定檔資料集對應的合併原則。 <p>合併原則可決定Adobe Experience Platform如何將來自多個資料集的設定檔資料合併到統一的客戶設定檔中，以用於建立受眾。 您選取的合併原則會影響對象中包含哪些設定檔屬性。 每天，系統都會在Experience Platform中產生這些資料的快照。 此快照提供特定時間點的靜態資料檢視，不包含任何事件資料。</p><p>如果您看到多個合併原則且不確定要選擇哪一個，請選取&#x200B;**[!UICONTROL 預設以時間為基礎]**&#x200B;的合併原則。 您也可以洽詢資料團隊，深入瞭解哪些對象與每個合併原則相關聯。</p> |
-   | **[!UICONTROL 設定檔資料集]** | 與您選取的合併原則相關聯的設定檔資料集。 此設定檔資料集包含您要分析的Experience Platform對象資料。 此設定檔資料集已新增至您選取的連線。<p>選擇合併原則後，設定檔快照匯出隨即顯示。 例如：`Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`。</p><p>如需詳細資訊，請參閱《Experience Platform儀表板指南》中的[設定檔屬性資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/query#profile-attribute-datasets)。</p> |
+   | **[!UICONTROL 合併原則]** | 選取與您要用於客群分析的輪廓資料集對應的合併原則。 <p>合併原則可決定Adobe Experience Platform如何將來自多個資料集的設定檔資料合併到統一的客戶設定檔中，以用於建立受眾。 您選取的合併原則會影響對象中包含哪些設定檔屬性。 每天，系統都會在Experience Platform中產生這些資料的快照。 此快照提供特定時間點的靜態資料檢視，不包含任何事件資料。</p><p>如果您看到多個合併原則且不確定要選擇哪一個，請選取&#x200B;**[!UICONTROL 預設以時間為基礎]**&#x200B;的合併原則。 您也可以洽詢資料團隊，深入瞭解哪些對象與每個合併原則相關聯。</p> |
+   | **[!UICONTROL 設定檔資料集]** | 與您選取的合併原則相關聯的設定檔資料集。 此設定檔資料集包含您要分析的Experience Platform對象資料。 此設定檔資料集已新增至您選取的連線。<p>選擇合併原則後，設定檔快照匯出隨即顯示。 例如：`Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`。</p><p>如需詳細資訊，請參閱《Experience Platform儀表板指南》中的[設定檔屬性資料集](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets)。</p> |
 
 1. 在&#x200B;**[!UICONTROL 連線]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 選取連線]**。
 
 1. 在[連線]對話方塊中，選取您要新增設定檔資料集的連線旁的核取方塊，然後選取[**[!UICONTROL 使用連線]**]。
+
+   一個連線只能與一個對象分析設定相關聯。
 
 1. 指定下列資訊以設定連線：
 
@@ -100,5 +106,35 @@ ht-degree: 13%
 1. 選取&#x200B;**[!UICONTROL 建立]**&#x200B;以建立組態。
 
    由於設定檔資料集每天會更新一次，因此您建立對象分析設定後的第二天，即可在Customer Journey Analytics資料檢視中使用對象。
+
+1. 24小時後，[在資料檢視中檢視對象維度](#view-audience-dimensions-in-the-data-view)，以確認您選取的資料檢視中可以使用對象維度。
+
+## 在資料檢視中檢視對象維度
+
+在您[建立對象分析組態](#create-an-audience-analysis-configuration)後，您可以驗證對象維度是否已新增至您在組態期間選取的資料檢視。
+
+若要在資料檢視中檢視對象維度，您必須是資料檢視所指派之產品設定檔的產品設定檔管理員。 如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md)。
+
+若要在資料檢視中檢視對象分析維度：
+
+1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
+
+1. 在&#x200B;**[!UICONTROL 維度]**&#x200B;區段中，下列維度現在應該可供使用：
+
+   * **[!UICONTROL 對象名稱]**
+
+   * **[!UICONTROL 對象來源]**
+
+   * **[!UICONTROL 已退出的對象來源]**
+
+   * **[!UICONTROL 退出的對象名稱]**
+
+   請注意，上述每個維度皆已新增至與您在對象分析設定期間選取的合併原則相關聯的設定檔資料集，每個維度皆已新增至建立的新查詢資料集。
+
+   ![資料檢視中可用的對象維度](assets/audience-analysis-dataview-dataset.png)
+
+1. 在Analysis Workspace中使用對象分析維度。
+
+   有權使用Analysis Workspace中資料檢視的使用者可檢視新維度，並在其分析中使用它們。 如需如何在Analysis Workspace中使用對象分析維度的相關資訊，請參閱[在Customer Journey Analytics中分析Experience Platform對象](/help/connections/audience-analysis/analyze-audiences.md)。
 
 
