@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 從Workspace報表產生簡報
 feature: Curate and Share
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 6b8a9fd25aaf83eaad3bc9cba0ce9349afb5471c
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1627'
 ht-degree: 4%
 
 ---
@@ -230,14 +230,18 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
    * 樹狀圖
 
-* 劃分
-
-  劃分的資料會包含在產生的簡報中，但會顯示在與維度專案相同的層級。
-
 * 引導分析
 
 * 資料治理原則限制無法匯出的元件
 
   如需詳細資訊，請參閱[疑難排解失敗的匯出](/help/components/exports/troubleshoot-exports.md)。
+
+## 支援有限的專案元素和功能
+
+* 劃分
+
+  在產生相關深入分析時，做為重複資料刪除和評分程式的一部分，系統會獨立分析自由表格內的每個劃分，並只分析單一自由表格內的前5個劃分。
+
+  僅支援劃分的第一個層級。 劃分不會包含在簡報中。
 
 
