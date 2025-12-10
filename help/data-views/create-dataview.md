@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
+source-git-commit: 95e50b73533c627f05c3b8dfe112b28b4f9e70c1
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 84%
+source-wordcount: '2722'
+ht-degree: 79%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 84%
 | [!UICONTROL **行事曆類型**] | 決定一個月中的週如何分組。<br>**西曆：**&#x200B;標準行事曆格式。季依照月分組。<br>**4-5-4 零售業：**&#x200B;標準化的 4-5-4 零售業行事曆。本季的第一個月和最後一個月為 4 週，而本季的第二個月為 5 週。<br>**自訂 (4-5-4)：**&#x200B;類似於 4-5-4 行事曆，但您可以選取一年的第一天以及「額外」週發生的年份。<br>**自訂 (4-4-5)：**&#x200B;每個季的第一個月和第二個月為 4 週，而每個季的最後一週為 5 週。<br>**自訂 (5-4-4)：**&#x200B;每個季的第一個月為 5 週，而每個季的第二和第三個月為 4 週。 |
 | [!UICONTROL **一年的第一個月**]&#x200B;和&#x200B;[!UICONTROL **一週的第一天**] | 對西曆行事曆類型可見。指定您希望行事曆年從哪一個月開始，以及您希望每週從哪一天開始。 |
 | [!UICONTROL **當年的第一天**] | 對自訂行事曆類型可見。指定您希望目前年份在一年中的哪一天開始。行事曆會根據此值自動設定每週第一天的格式。 |
-| [!UICONTROL **「額外」週發生的年份**] | 對於大多數 364 天行事曆 (52 週，每週 7 天)，每年都會累積剩餘的天數，直到加起來多出一週。然後將這個額外的一週新增到該年的最後一個月。指定您希望將額外一週新增到哪一年。 |
+| [!UICONTROL **「額外」週發生的年份**] | 對於大多數 364 天行事曆 (52 週，每週 7 天)，每年都會累積剩餘的天數，直到加起來多出一週。然後將這個額外的一週新增到該年的最後一個月。指定您希望將額外一週新增到哪一年。<br><br/>**額外周數和閏年**<br/>&#x200B;當您選取自訂&#x200B;**[!UICONTROL 行事曆型別]** (**[!UICONTROL 自訂(4-5-4)]**、**[!UICONTROL 自訂(4-4-5)]**&#x200B;或&#x200B;**[!UICONTROL 自訂(5-4-4)]**)時，每年剩餘的天數會累積，直到這些天數加起來為完整的額外周（7天）為止。 該額外的一週會新增至您在&#x200B;**[!UICONTROL 年度中選取的「額外」周發生的年份]**。<br/><br/>在出現「額外」周的&#x200B;**[!UICONTROL 年中，不會刻意顯示閏年]**。 不過，閏年仍可包含53週。 若要強制閏年包含53週，請從&#x200B;**[!UICONTROL 發生「額外」周的年份]**&#x200B;選取非閏年，以確保目標閏年的累計日期漂移加起來達7天。 例如：若要在2024年有53週，請選取&#x200B;**[!UICONTROL 2019]**。 從2019年到2024年，總日期漂移為7天(2020 (+2)、2021 (+1)、2022 (+1)、2023 (+1)和2024 (+2))，這會導致2024年的第53週。<br/><br/>選擇&#x200B;**[!UICONTROL 當年的第一天]**&#x200B;會影響額外一週的登陸位置。 使用行事曆預覽確認您的設定。 |
 
 {style="table-layout:auto"}
 
@@ -140,7 +140,7 @@ ht-degree: 84%
 
 1. 使用![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL 搜尋結構描述欄位]**&#x200B;來搜尋結構描述欄位，或移至任何資料集集合來尋找欄位，例如![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL 事件資料集]**&#x200B;或![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL 查詢資料集]**。 對於事件資料集，可以使用![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL XDM欄位]**&#x200B;和![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL 臨機欄位和關聯欄位]**&#x200B;的個別集合。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)「**建立衍生欄位**」來建立衍生欄位。請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
-1. 當您找到特定結構描述欄位或定義衍生欄位時，請將該欄位（例如![控制代碼圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件]**&#x200B;下方的&#x200B;**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 維度]**&#x200B;區段。
+1. 當您找到特定結構描述欄位或定義衍生欄位時，請將該欄位（例如![控制代碼圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件]**&#x200B;下方的&#x200B;**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 維度]**區段。
 您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。例如，從pageName欄位，您可以使用右側不同的`Product Pages`元件設定`Error pages`來建立名為[的維度，以及另一個名為](component-settings/overview.md)的維度。
 如果您從左側邊欄拖曳結構描述欄位資料夾，資料夾中的欄位會自動排序到適當的區段中。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數字結構描述類型最終出現在「[!UICONTROL 量度]」區段中。您也可以按一下「新增全部&#x200B;**[!UICONTROL 」，並將所有結構描述欄位新增至其個別區段。]**
 
