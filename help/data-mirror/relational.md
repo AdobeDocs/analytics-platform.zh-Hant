@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 0e86227915404fe62fcd1f27e95eb3b1bb673030
 workflow-type: tm+mt
 source-wordcount: '2268'
 ht-degree: 14%
@@ -45,7 +45,7 @@ ht-degree: 14%
 
 ## 使用Data Warehouse原生解決方案
 
-此快速入門手冊使用[[!DNL Google BigQuery]](datawarehouse.md#google-bigquery)作為Data Warehouse原生解決方案。 其他[支援的解決方案](datawarehouse.md)是[[!DNL Snowflake]](datawarehouse.md#snowflake)和[[!DNL Azure Databricks]](datawarehouse.md#azure-databricks)。
+本快速入門手冊使用[[!DNL Google BigQuery]](datawarehouse.md#google-bigquery)作為資料倉儲原生解決方案。 其他[支援的解決方案](datawarehouse.md)是[[!DNL Snowflake]](datawarehouse.md#snowflake)和[[!DNL Azure Databricks]](datawarehouse.md#azure-databricks)。
 
 在[!DNL Google BigQuery]內，下列範例資料會定期儲存和更新於名為&#x200B;**[!UICONTROL eventdata]**&#x200B;的資料表中。
 
@@ -219,7 +219,7 @@ Data Warehouse原生解決方案表格中的資料，已可供用於Customer Jou
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
-  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
+  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
 
 
 ### 選取資料
