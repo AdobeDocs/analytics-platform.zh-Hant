@@ -6,7 +6,7 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f23775342a29d758b478206a77386e18a58312a6
+source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 3%
@@ -37,7 +37,7 @@ ht-degree: 3%
 | 3 | 輪廓資料集 | 必須包含您要分析的Experience Platform對象資料。 此設定檔資料集已新增至您選取的連線。 |
 | 4 | 合併原則 | 與您要分析之Experience Platform對象相關聯的合併原則。 |
 | 5 | 設定檔資料 | 與您選取的合併原則相關聯的設定檔資料。 此資料可在Experience Platform資料集中使用。 |
-| 6 | 新查詢資料集 | 為建立的新對象維度提供易記名稱。 系統會自動建立查詢資料集，並將其新增至連線，以及您選取的設定檔資料集。 |
+| 6 | 新查詢資料集 | 為建立的新對象維度提供易記名稱。 <p>系統會自動建立查詢資料集，並將其新增至連線，以及您選取的設定檔資料集。</p> |
 | 7 | 連線 | 您要新增所選取設定檔資料集的連線。 |
 | 8 | 新受眾維度 | 新的對象維度<!--and metrics?-->代表您選取之設定檔資料集中所包含的Experience Platform對象，且可用於Analysis Workspace中的報告。 系統會自動建立這些維度。 |
 | 9 | 資料檢視 | 您選取的與連線相關聯的資料檢視。 在Analysis Workspace中分析Experience Platform受眾資料時，您想要使用這些資料檢視。 這些資料檢視會自動設定用於報表的Experience Platform受眾資料。 |
@@ -73,7 +73,7 @@ ht-degree: 3%
 
 | 功能 | Customer Journey Analytics角色或許可權需求 | Experience Platform許可權需求 |
 |---------|----------|----------|
-| [建立對象分析設定](/help/connections/audience-analysis/audience-analysis-configure.md) | 系統管理員 | <ul><li>資料集：讀取許可權</li><li>結構描述：讀取、寫入</li><li>和身分識別名稱空間：讀取</li></ul> |
+| [建立對象分析設定](/help/connections/audience-analysis/audience-analysis-configure.md) | 系統管理員 | <ul><li>資料集：讀取許可權</li><li>結構描述：讀取、寫入</li><li>身分名稱空間：讀取</li></ul> |
 | [在資料檢視中檢視對象分析維度](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | 指派資料檢視的產品設定檔的產品設定檔管理員 <p>如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md)。</p> | 不適用 |
 | 在Analysis Workspace中使用對象分析維度 | 存取已新增對象分析維度的資料檢視 | 不適用 |
 

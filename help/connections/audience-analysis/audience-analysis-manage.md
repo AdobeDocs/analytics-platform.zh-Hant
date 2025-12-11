@@ -6,7 +6,7 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f23775342a29d758b478206a77386e18a58312a6
+source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 2%
@@ -43,7 +43,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 狀態]**：組態的狀態。 可能的狀態包括「完成」、「進行中」或「失敗」。<!--true?-->
 
-   您可以選取「欄」圖示![「欄」圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)，取消選取您要隱藏的任何欄，然後選取&#x200B;**[!UICONTROL 「套用」]**，以隱藏任何欄。
+   您可以選取欄圖示![欄圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)，取消選取您要隱藏的任何欄，然後選取&#x200B;**[!UICONTROL 套用]**，以隱藏任何欄。
 
 1. （選擇性）若要篩選設定清單，請選取&#x200B;**篩選** ![對象分析篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後依下列任一條件篩選：
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
    選取您要編輯的組態旁邊的核取方塊，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
-1. 對組態進行任何需要的變更，然後選取[儲存]。**&#x200B;**
+1. 對組態進行任何需要的變更，然後選取[儲存]。****
 
 ## 刪除設定
 
