@@ -120,7 +120,7 @@ Customer Journey Analytics 將身分識別的概念擴展到 ECID 之外，以�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Customer Journey Analytics 中使用身分識別](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Customer Journey Analytics 中使用身分識別](https://video.tv.adobe.com/v/3477623/?captions=chi_hant&quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
