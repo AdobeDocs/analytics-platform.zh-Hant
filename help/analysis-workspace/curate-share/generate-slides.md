@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 從Workspace報表產生簡報
 feature: Curate and Share
 role: User
-source-git-commit: 6b8a9fd25aaf83eaad3bc9cba0ce9349afb5471c
+source-git-commit: 1ec10a006578bc5ddf5f08501f8d72a9623245d5
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 4%
@@ -125,49 +125,53 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
    若要上傳自訂範本，請執行下列其中一項操作：
 
-   * （建議）下載空白範本並加以修改。
+   +++（建議）下載空白範本並加以修改
 
-      1. 下載[此空白範本](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?)。
+   1. 下載[此空白範本](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?)。
 
-      1. 將自訂樣式套用至空白範本。
+   1. 將自訂樣式套用至空白範本。
 
-      1. 重新上傳範本而不變更任何主版面配置名稱：
+   1. 重新上傳範本而不變更任何主版面配置名稱：
 
-         從您的檔案系統中，拖曳已套用自訂樣式的空白範本至拖放區域。
+      從您的檔案系統中，拖曳已套用自訂樣式的空白範本至拖放區域。
 
-         或
+      或
 
-         選取&#x200B;**[!UICONTROL 瀏覽]**，然後瀏覽並選取從檔案系統套用自訂樣式的空白範本。
+      選取&#x200B;**[!UICONTROL 瀏覽]**，然後瀏覽並選取從檔案系統套用自訂樣式的空白範本。
 
-      1. 在&#x200B;**[!UICONTROL 配置對應]**&#x200B;區段中，產生之簡報中使用的每個投影片配置會自動對應至您上傳之主題的投影片。 檢閱選取專案以確定其正確無誤。
+   1. 在&#x200B;**[!UICONTROL 配置對應]**&#x200B;區段中，產生之簡報中使用的每個投影片配置會自動對應至您上傳之主題的投影片。 檢閱選取專案以確定其正確無誤。
 
-         ![配置對應](assets/generate-slides-layout-mapping.png)
+      ![配置對應](assets/generate-slides-layout-mapping.png)
 
-      1. （視條件而定）如果投影片版面配置對應不正確，請選取從上傳簡報中選取之投影片上方的&#x200B;**[!UICONTROL 變更選取專案]**，然後選擇符合版面的投影片。
+   1. （視條件而定）如果投影片版面配置對應不正確，請選取從上傳簡報中選取之投影片上方的&#x200B;**[!UICONTROL 變更選取專案]**，然後選擇符合版面的投影片。
 
-         對未正確對應的每張投影片重複此程式。
+      對未正確對應的每張投影片重複此程式。
 
-   * 直接上傳自訂範本。
+   +++
 
-      1. 從您的檔案系統，將自訂範本拖曳至拖放區域。
+   +++直接上傳自訂範本 
 
-         或
+   1. 從您的檔案系統，將自訂範本拖曳至拖放區域。
 
-         選取「**[!UICONTROL 瀏覽]**」，然後瀏覽並從檔案系統中選取自訂範本。
+      或
 
-         請確定上傳的檔案具有下列名稱的主版面配置：「Title_Slide」、「Section_Divider」、「Title_Text」、「Title_Chart」、「Title_Two_Content_Mixed」、「Title_Three_Content_Mixed」。
+      選取「**[!UICONTROL 瀏覽]**」，然後瀏覽並從檔案系統中選取自訂範本。
 
-         最多支援 15 個主要版面配置。
+      請確定上傳的檔案具有下列名稱的主版面配置：「Title_Slide」、「Section_Divider」、「Title_Text」、「Title_Chart」、「Title_Two_Content_Mixed」、「Title_Three_Content_Mixed」。
 
-         支援最大 25MB 的 .pptx 和 .potx 檔案。
+      最多支援 15 個主要版面配置。
 
-      1. 在&#x200B;**[!UICONTROL 配置對應]**&#x200B;區段中，產生之簡報中使用的每個投影片配置會自動對應至您上傳之主題的投影片。 檢閱選取專案以確定其正確無誤。
+      支援最大 25MB 的 .pptx 和 .potx 檔案。
 
-         ![配置對應自訂範本](assets/generate-slides-layout-mapping-custom-template.png)
+   1. 在&#x200B;**[!UICONTROL 配置對應]**&#x200B;區段中，產生之簡報中使用的每個投影片配置會自動對應至您上傳之主題的投影片。 檢閱選取專案以確定其正確無誤。
 
-      1. （視條件而定）如果投影片版面配置對應不正確，請選取從上傳簡報中選取之投影片上方的&#x200B;**[!UICONTROL 變更選取專案]**，然後選擇符合版面的投影片。
+      ![配置對應自訂範本](assets/generate-slides-layout-mapping-custom-template.png)
 
-         對未正確對應的每張投影片重複此程式。
+   1. （視條件而定）如果投影片版面配置對應不正確，請選取從上傳簡報中選取之投影片上方的&#x200B;**[!UICONTROL 變更選取專案]**，然後選擇符合版面的投影片。
+
+      對未正確對應的每張投影片重複此程式。
+
+   +++
 
 1. 選取&#x200B;**[!UICONTROL 匯出PPT]**。
 
