@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 從Workspace報表產生簡報
 feature: Curate and Share
 role: User
-source-git-commit: 1ec10a006578bc5ddf5f08501f8d72a9623245d5
+source-git-commit: 8ddfc194c873bdb3fe12f3aeb04c01bcad83d0a5
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 4%
@@ -159,7 +159,7 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
       請確定上傳的檔案具有下列名稱的主版面配置：「Title_Slide」、「Section_Divider」、「Title_Text」、「Title_Chart」、「Title_Two_Content_Mixed」、「Title_Three_Content_Mixed」。
 
-      最多支援 15 個主要版面配置。
+      最多支援 25 個主要版面配置。
 
       支援最大 25MB 的 .pptx 和 .potx 檔案。
 
