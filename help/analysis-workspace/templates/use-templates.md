@@ -4,7 +4,7 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 3fb94d920b240247f13050cf091423335a3d74ec
+source-git-commit: 11a550e0cd67db106e2dd399843c4cf0923467ad
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 97%
@@ -1070,12 +1070,12 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 ### Brand Concierge {#brand-concierge-templates}
 
 >[!CONTEXTUALHELP]
->id="template--brand-concierge-b2c"
+>id="template--brand-concierge--concierge"
 >title="透過對話模式、使用者回饋和建議的有效性分析使用者參與。"
 >abstract="**這可協助您**&#x200B;識別參與模式、評估交談品質、追蹤客戶滿意度趨勢，以及評估連結建議的成效。<br/>**根據您瞭解到的內容，您可能**&#x200B;會執行許多操作，例如調整您的AI代理程式的回應、針對常見問題開發目標式內容、改善建議演演算法，或為不同的使用者區段建立專門的路徑。"
 
 >[!CONTEXTUALHELP]
->id="template--brand-concierge--concierge"
+>id="template--brand-concierge--meeting"
 >title="追蹤B2B會議請求的完整生命週期。 監控轉換率、顧問績效，並找出您最有效的銷售機會產生管道。"
 >abstract="**這可協助您**&#x200B;追蹤會議轉換率、識別表現優異的團隊成員、瞭解預約行為的季節性趨勢，並找出哪些頁面產生最有價值的會議要求。<br/>**根據您所學到的內容，您可以**&#x200B;執行許多作業，例如最佳化您的會議要求程式、將資源重新分配至高轉換率的頁面、為預訂率較低的顧問開發目標式培訓，或實施新策略以減少錯過的會議。"
 
