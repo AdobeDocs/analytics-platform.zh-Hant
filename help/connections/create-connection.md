@@ -110,12 +110,12 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="connections_useincja_ajo"
 >title="在 Customer Journey Analytics 中使用此連線"
->abstract="此選項可讓您將利用 Customer Journey Analytics 的進階報告功能與 Journey Optimizer 連線。這些功能可讓您：<ul><li>在Customer Journey Analytics中對Journey Optimizer資料執行深入分析。</li><li>編輯Journey Optimizer連線和相關聯的資料檢視。</li></ul>**啟用此選項後，連線中的每一列資料都會計入您每個月的Customer Journey Analytics授權資料列，並出現在「連線使用情況」UI中。**<br><br/>&#x200B;只有在您熟悉Customer Journey Analytics中資料列的額外使用方式時，才能探索此選項。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo)。"
+>abstract="此選項可讓您將利用 Customer Journey Analytics 的進階報告功能與 Journey Optimizer 連線。這些功能可讓您：<ul><li>在Customer Journey Analytics中對Journey Optimizer資料執行深入分析。</li><li>編輯Journey Optimizer連線和相關聯的資料檢視。</li></ul>**啟用此選項後，連線中的每一列資料都會計入您每個月的Customer Journey Analytics授權資料列，並出現在「連線使用情況」UI中。**<br><br/>&#x200B;只有在您熟悉Customer Journey Analytics中資料列的額外使用方式時，才能探索此選項。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo)。"
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_ajo"
 >title="從 Customer Journey Analytics 中移除此連線"
->abstract="此Journey Optimizer連線目前用於Customer Journey Analytics。 這些連線可讓您：<ul><li>在Customer Journey Analytics中對Journey Analytics資料執行深入分析。</li><li>編輯Journey Optimizer連線和相關聯的資料檢視。</li></ul>**如果您移除連線，就無法再在Customer Journey Analytics中進行深入分析。 連線和任何關聯的資料檢視都會重設為預設狀態，且無法再編輯。**<br/><br/>**Customer Journey Analytics中此連線的帳單包括移除連線的整個月。**<br/><br/>&#x200B;連線在Journey Optimizer中保持啟用狀態。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo)。"
+>abstract="此Journey Optimizer連線目前用於Customer Journey Analytics。 這些連線可讓您：<ul><li>在Customer Journey Analytics中對Journey Analytics資料執行深入分析。</li><li>編輯Journey Optimizer連線和相關聯的資料檢視。</li></ul>**如果您移除連線，就無法再在Customer Journey Analytics中進行深入分析。 連線和任何關聯的資料檢視都會重設為預設狀態，且無法再編輯。**<br/><br/>**Customer Journey Analytics中此連線的帳單包括移除連線的整個月。**<br/><br/>&#x200B;連線在Journey Optimizer中保持啟用狀態。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo)。"
 
 <!-- End of contextual help entries for CJA connection dialogs -->
 
@@ -458,7 +458,7 @@ ht-degree: 60%
 
 | 資料集類型 | 說明 | 時間戳記 | 結構描述 | 人員 ID |
 |---|---|---|---|---|
-| **[!UICONTROL 臨時]** | 以[臨機操作結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/api/ad-hoc)為基礎的臨機操作資料，其欄位僅供單一資料集使用。 | 取決於您為臨時資料集選取的資料集型別。 | 任何以&#x200B;*臨機操作*&#x200B;行為為基礎的類別之臨機操作結構描述 | 取決於您為臨時資料集選取的資料集型別。 |
+| **[!UICONTROL 臨時]** | 以[臨機操作結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/api/ad-hoc)為基礎的臨機操作資料，其欄位僅供單一資料集使用。 | 取決於您為臨時資料集選取的資料集型別。 | 任何以&#x200B;*臨機操作*&#x200B;行為為基礎的類別之臨機操作結構描述 | 取決於您為臨時資料集選取的資料集型別。 |
 | **[!UICONTROL 模型]** | 以關聯式結構描述為基礎的關聯式資料。 | 取決於您為關聯式資料集選取的資料集型別。 | 任何關聯式結構描述。 | 取決於您為關聯式資料集選取的資料集型別。 |
 
 
