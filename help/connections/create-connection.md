@@ -110,12 +110,12 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="connections_useincja_ajo"
 >title="在 Customer Journey Analytics 中使用此連線"
->abstract="此選項可讓您將利用 Customer Journey Analytics 的進階報告功能與 Journey Optimizer 連線。這些功能可讓您：<ul><li>在Customer Journey Analytics中對Journey Optimizer資料執行深入分析。</li><li>編輯Journey Optimizer連線和相關聯的資料檢視。</li></ul>**啟用此選項後，連線中的每一列資料都會計入您每個月的Customer Journey Analytics授權資料列，並出現在「連線使用情況」UI中。**<br><br/>&#x200B;只有在您熟悉Customer Journey Analytics中資料列的額外使用方式時，才能探索此選項。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo)。"
+>abstract="此選項可讓您將利用 Customer Journey Analytics 的進階報告功能與 Journey Optimizer 連線。這些功能可讓您：<ul><li>在Customer Journey Analytics中對Journey Optimizer資料執行深入分析。</li><li>編輯Journey Optimizer連線和相關聯的資料檢視。</li></ul>**啟用此選項後，連線中的每一列資料都會計入您每個月的Customer Journey Analytics授權資料列，並出現在「連線使用情況」UI中。**<br><br/>&#x200B;只有在您熟悉Customer Journey Analytics中資料列的額外使用方式時，才能探索此選項。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo)。"
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_ajo"
 >title="從 Customer Journey Analytics 中移除此連線"
->abstract="此Journey Optimizer連線目前用於Customer Journey Analytics。 這些連線可讓您：<ul><li>在Customer Journey Analytics中對Journey Analytics資料執行深入分析。</li><li>編輯Journey Optimizer連線和相關聯的資料檢視。</li></ul>**如果您移除連線，就無法再在Customer Journey Analytics中進行深入分析。 連線和任何關聯的資料檢視都會重設為預設狀態，且無法再編輯。**<br/><br/>**Customer Journey Analytics中此連線的帳單包括移除連線的整個月。**<br/><br/>&#x200B;連線在Journey Optimizer中保持啟用狀態。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo)。"
+>abstract="此Journey Optimizer連線目前用於Customer Journey Analytics。 這些連線可讓您：<ul><li>在Customer Journey Analytics中對Journey Analytics資料執行深入分析。</li><li>編輯Journey Optimizer連線和相關聯的資料檢視。</li></ul>**如果您移除連線，就無法再在Customer Journey Analytics中進行深入分析。 連線和任何關聯的資料檢視都會重設為預設狀態，且無法再編輯。**<br/><br/>**Customer Journey Analytics中此連線的帳單包括移除連線的整個月。**<br/><br/>&#x200B;連線在Journey Optimizer中保持啟用狀態。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo)。"
 
 <!-- End of contextual help entries for CJA connection dialogs -->
 
@@ -167,7 +167,7 @@ ht-degree: 60%
 
 ### Customer Journey Analytics
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1.png)
 
@@ -207,7 +207,7 @@ ht-degree: 60%
 
 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
 
-在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**&#x200B;畫面中：
+在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL *連線名稱&#x200B;*]**畫面中：
 
 ![無標題連線設定](assets/create-conn1-b2b.png)
 
@@ -451,14 +451,14 @@ ht-degree: 60%
 |---|---|---|---|---|
 | **[!UICONTROL 事件]** | 代表及時事件的資料。例如網站造訪、互動、交易、POS 資料、調查資料、廣告印象資料等。該資料可能是典型的點按資料流資料，包含客戶 ID 或 Cookie ID 以及時間戳記。若使用事件資料，您可以靈活地選取要將哪個 ID 當做人員 ID 使用。 | 設定為[!UICONTROL Experience Platform]中以事件為基礎的結構之預設時間戳記欄位。 | 任何以具有&#x200B;*時間序列*&#x200B;行為的XDM類別為基礎的內建或自訂結構描述。 範例包括&#x200B;*XDM體驗事件*&#x200B;或&#x200B;*XDM決定事件*。 | 您可以挑選要包含的人員ID或帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 在 Experience Platform 中定義的每個資料集結構描述，都可以擁有各自專屬的一組以身分識別命名空間定義及關聯的一個或多個身分。這些身分中的任何一個都可做為人員ID或帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 範例包括Cookie ID、拼接ID、使用者ID、追蹤代碼、帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}等。 |
 | **[!UICONTROL 查詢]** | 您可以新增資料集做為所有資料集類型中的查詢欄位：輪廓、查詢和事件資料集 (始終支援後者)。這項附加功能擴展了 Customer Journey Analytics 的功能，以支援複雜的資料模型，包括 B2B。此資料用於尋找在事件、輪廓或查詢資料中找到的值或索引鍵。您最多可以新增兩個查詢層級。(請注意，[衍生欄位](/help/data-views/derived-fields/derived-fields.md)無法用作連線內查詢的比對索引鍵。) 例如，您可能會上傳將事件資料中的數值 ID 對應至產品名稱的查詢資料。有關範例，請參閱「[B2B 範例](/help/use-cases/b2b/example.md)」。 | 不適用 | 除&#x200B;*XDM個別設定檔*&#x200B;類別外，任何以具有&#x200B;*記錄*&#x200B;行為的XDM類別為基礎的內建或自訂結構描述。 | 不適用 |
-| **[!UICONTROL 輪廓]** | [!UICONTROL 事件]資料中，套用至您帳戶、人員、使用者或客戶的資料。例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以&#x200B;*XDM個別設定檔*&#x200B;類別為基礎的內建或自訂結構描述。 | 您可以挑選要包含的人員ID /帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 [!DNL Experience Platform] 中定義的每個資料集，除了摘要資料集以外，皆有其專屬的一組已定義之一個或多個人員 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。例如Cookie ID、拼接ID、使用者ID、追蹤代碼、帳戶ID等。<br>![人員 ID &#x200B;](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報告會反映出這一點。若要合併資料集，您需要使用相同的人員 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 |
+| **[!UICONTROL 輪廓]** | [!UICONTROL 事件]資料中，套用至您帳戶、人員、使用者或客戶的資料。例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 任何以&#x200B;*XDM個別設定檔*&#x200B;類別為基礎的內建或自訂結構描述。 | 您可以挑選要包含的人員ID /帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 [!DNL Experience Platform] 中定義的每個資料集，除了摘要資料集以外，皆有其專屬的一組已定義之一個或多個人員 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。例如Cookie ID、拼接ID、使用者ID、追蹤代碼、帳戶ID等。<br>![人員 ID ](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報告會反映出這一點。若要合併資料集，您需要使用相同的人員 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 |
 | **摘要** | 未關聯至個人識別碼的時間序列資料。 摘要資料代表不同彙總等級的彙總資料，例如行銷活動。您可以在 Customer Journey Analytics 中使用此資料來支援各種使用案例。如需詳細資訊，請參閱[摘要資料](/help/data-views/summary-data.md)。 | 自動設定為Experience Platform中以事件為基礎的摘要度量結構中的預設時間戳記欄位。 僅支援每小時或每日顆粒度。 | 任何以&#x200B;*XDM摘要量度*&#x200B;類別為基礎的內建或自訂結構描述。 | 不適用 |
 
 或者，上面列出的資料集型別可以基於臨時或關聯式結構描述，而不是基於XDM的一般結構描述。
 
 | 資料集類型 | 說明 | 時間戳記 | 結構描述 | 人員 ID |
 |---|---|---|---|---|
-| **[!UICONTROL 臨時]** | 以[臨機操作結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/api/ad-hoc)為基礎的臨機操作資料，其欄位僅供單一資料集使用。 | 取決於您為臨時資料集選取的資料集型別。 | 任何以&#x200B;*臨機操作*&#x200B;行為為基礎的類別之臨機操作結構描述 | 取決於您為臨時資料集選取的資料集型別。 |
+| **[!UICONTROL 臨時]** | 以[臨機操作結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/api/ad-hoc)為基礎的臨機操作資料，其欄位僅供單一資料集使用。 | 取決於您為臨時資料集選取的資料集型別。 | 任何以&#x200B;*臨機操作*&#x200B;行為為基礎的類別之臨機操作結構描述 | 取決於您為臨時資料集選取的資料集型別。 |
 | **[!UICONTROL 模型]** | 以關聯式結構描述為基礎的關聯式資料。 | 取決於您為關聯式資料集選取的資料集型別。 | 任何關聯式結構描述。 | 取決於您為關聯式資料集選取的資料集型別。 |
 
 
@@ -510,7 +510,7 @@ ht-degree: 60%
 1. 針對要編輯的資料集表格中所列的資料集，選取![更多](/help/assets/icons/More.svg)
 1. 選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**。
 
-1. 在[編輯資料集： &#x200B;](#dataset-settings)資料集名稱&#x200B;**[!UICONTROL 對話方塊中設定&#x200B;_資料集設定_]**。
+1. 在[編輯資料集： ](#dataset-settings)資料集名稱&#x200B;**[!UICONTROL 對話方塊中設定&#x200B;_資料集設定_]**。
 
    ![編輯資料集](assets/edit-dataset.png)
 
@@ -716,7 +716,7 @@ ht-degree: 60%
 
 ### 過去的回填
 
-當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**&#x200B;對話方塊會顯示資料集的最新回填。
+當您在介面中選取![歷程記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**&#x200B;時，**[!UICONTROL 過去的回填： _資料集名稱_]**對話方塊會顯示資料集的最新回填。
 
 
 ## 連線預覽 {#preview}
