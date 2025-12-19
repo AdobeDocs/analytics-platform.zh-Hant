@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 90a285fcd96866974087c53d402e85b4a2d83ccf
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 9%
+source-wordcount: '1713'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 ## 身分對應
 
-欄位式拚接支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)：
+欄位式拚接支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)：
 
 - 在`identityMap`名稱空間中使用主要身分來定義persistentID：
    - 如果在不同的名稱空間中找到多個主要身分，則名稱空間中的身分會依字典排序，並會選取第一個身分。
@@ -122,17 +122,17 @@ ht-degree: 9%
 
 | 事件 | 時間戳記 | 永久ID (Cookie ID) | 人員 ID | 彙整ID （即時彙整後） |
 |---|---|---|---|---|
-| 1 | 2023-05-12 12:01 | `246` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`246`** |
-| 2 | 2023-05-12 12:02 | `246` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` |
-| 3 | 2023-05-12 12:03 | `246` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![向下箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
+| 1 | 2023-05-12 12:01 | `246` ![向右箭號](/help/assets/icons/ArrowRight.svg) | - | **`246`** |
+| 2 | 2023-05-12 12:02 | `246` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` |
+| 3 | 2023-05-12 12:03 | `246` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` ![向下箭號](/help/assets/icons/ArrowDown.svg) |
 | 4 | 2023-05-12 12:04 | `246` | - | **`Bob`** |
-| 5 | 2023-05-12 12:05 | `246` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![向下箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
+| 5 | 2023-05-12 12:05 | `246` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` ![向下箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
 | 6 | 2023-05-12 12:06 | `246` | - | **`Bob`** |
-| 7 | 2023-05-12 12:07 | `246` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` |
-| 8 | 2023-05-12 12:03 | `3579` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** |
-| 9 | 2023-05-12 12:09 | `3579` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** |
-| 10 | 2023-05-12 12:02 | `81911` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`81911`** |
-| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![向下箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
+| 7 | 2023-05-12 12:07 | `246` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` |
+| 8 | 2023-05-12 12:03 | `3579` ![向右箭號](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
+| 9 | 2023-05-12 12:09 | `3579` ![向右箭號](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
+| 10 | 2023-05-12 12:02 | `81911` ![向右箭號](/help/assets/icons/ArrowRight.svg) | - | **`81911`** |
+| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` ![向下箭號](/help/assets/icons/ArrowDown.svg) |
 | 12 | 2023-05-12 12:12 | `81911` | - | **`Bob`** |
 | | | **3個裝置** | | **4人**：<br/>`246`，`Bob`，`3579`，`81911` |
 
@@ -157,16 +157,16 @@ ht-degree: 9%
 | 事件 | 時間戳記 | 永久ID (Cookie ID) | 人員 ID | 彙整ID （即時彙整後） | 拼接的ID （重播後） |
 |---|---|---|---|---|---|
 | 1 | 2023-05-12 12:01 | `246` | - | `246` | **`Bob`** |
-| 2 | 2023-05-12 12:02 | `246` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` ![向上箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) |
-| 3 | 2023-05-12 12:03 | `246` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![向下箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` |
+| 2 | 2023-05-12 12:02 | `246` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![向上箭號](/help/assets/icons/ArrowUp.svg) |
+| 3 | 2023-05-12 12:03 | `246` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` | 鮑伯 |
 | 4 | 2023-05-12 12:04 | `246` | - | **`Bob`** | `Bob` |
-| 5 | 2023-05-12 12:05 | `246` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![向下箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` |
+| 5 | 2023-05-12 12:05 | `246` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` ![向下箭號](/help/assets/icons/ArrowDown.svg) | `Bob` |
 | 6 | 2023-05-12 12:06 | `246` | - | **`Bob`** | `Bob` |
-| 7 | 2023-05-12 12:07 | `246` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` |
-| 8 | 2023-05-12 12:03 | `3579` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** |
-| 9 | 2023-05-12 12:09 | `3579` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** |
+| 7 | 2023-05-12 12:07 | `246` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` |
+| 8 | 2023-05-12 12:03 | `3579` ![向右箭號](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
+| 9 | 2023-05-12 12:09 | `3579` ![向右箭號](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
 | 10 | 2023-05-12 12:02 | `81911` | - | `81911` | **`Bob`** |
-| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![向下箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` ![向上箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) |
+| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` ![向下箭號](/help/assets/icons/ArrowDown.svg) | `Bob` ![向上箭號](/help/assets/icons/ArrowUp.svg) |
 | 12 | 2023-05-12 12:12 | `81911` | - | **`Bob`** | `Bob` |
 | | | **3個裝置** | | **4人**：<br/>`246`，`Bob`，`3579`，`81911` | **2人**：<br/>`Bob`，`3579` |
 
@@ -189,16 +189,16 @@ ht-degree: 9%
 | 事件 | 時間戳記 | 永久ID (Cookie ID) | 人員 ID | 彙整ID （即時彙整後） | 拼接的ID （重播後） | 人員 ID | 彙整ID （隱私權請求後） |
 |---|---|---|---|---|---|---|---|
 | 1 | 2023-05-12 12:01 | `246` | - | `246` | **`Bob`** | - | `246` |
-| 2 | 2023-05-12 12:02 | `246` | 鮑勃![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` ![向上箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
-| 3 | 2023-05-12 12:03 | `246` | 鮑勃![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![向下箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
+| 2 | 2023-05-12 12:02 | `246` | 鮑勃![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![向上箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 3 | 2023-05-12 12:03 | `246` | 鮑勃![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` ![向下箭號](/help/assets/icons/ArrowDown.svg) | `Bob` | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) | `246` |
 | 4 | 2023-05-12 12:04 | `246` | - | **`Bob`** | `Bob` | - | `246` |
-| 5 | 2023-05-12 12:05 | `246` | 鮑勃![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![向下箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
+| 5 | 2023-05-12 12:05 | `246` | 鮑勃![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` ![向下箭號](/help/assets/icons/ArrowDown.svg) | `Bob` | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) | `246` |
 | 6 | 2023-05-12 12:06 | `246` | - | **`Bob`** | `Bob` | - | `246` |
-| 7 | 2023-05-12 12:07 | `246` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
-| 8 | 2023-05-12 12:03 | `3579` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** | - | `3579` |
-| 9 | 2023-05-12 12:09 | `3579` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** | - | `3579` |
+| 7 | 2023-05-12 12:07 | `246` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 8 | 2023-05-12 12:03 | `3579` ![向右箭號](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
+| 9 | 2023-05-12 12:09 | `3579` ![向右箭號](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
 | 10 | 2023-05-12 12:02 | `81911` | - | `81911` | **`Bob`** | - | `81911` |
-| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![向右箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![向下箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` ![向上箭號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `81911` |
+| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![向右箭號](/help/assets/icons/ArrowRight.svg) | `Bob` ![向下箭號](/help/assets/icons/ArrowDown.svg) | `Bob` ![向上箭號](/help/assets/icons/ArrowUp.svg) | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) | `81911` |
 | 12 | 2023-05-12 12:12 | `81911` | - | **`Bob`** | `Bob` | - | `81911` |
 | | | **3個裝置** | | **4人員**：<br/>246，`Bob`，`3579`，`81911` | **2人**：<br/>Bob，`3579` |  | **3人**：<br/>`246`，`3579`，`81911` |
 
@@ -214,7 +214,7 @@ ht-degree: 9%
    - **人員ID**，此識別碼僅可用於部分列。 例如，設定檔驗證後的雜湊使用者名稱或電子郵件地址。 您幾乎可以使用任何您喜歡的識別碼。 拼接會將此欄位視為儲存實際人員ID資訊。 為獲得最佳的拼接結果，應在資料集的事件中為每個永久ID至少傳送一次人員ID。 如果您打算將此資料集納入Customer Journey Analytics連線，最好讓其他資料集也具有類似的通用識別碼。
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 

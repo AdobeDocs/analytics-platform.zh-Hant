@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 6ebd1604e01af068228d7a5e4a78fdccf852f480
+source-git-commit: c67225619153218e3dca1eacea204f2b033dfb14
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '820'
 ht-degree: 3%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 3%
    * 設定為身分的多個欄位，可讓您為永久ID和人員ID選取不同的值。
    * 至少一個標示為主要身分的欄位具有關聯的名稱空間，以備您將「身分對應」和主要身分名稱空間用於永久ID或人員ID。
 
-* 如果您想要使用圖表式拼接，而且您預期事件資料集會貢獻身分圖表，您應該[啟用身分服務的資料集](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)。 當資料集包含永久ID旁邊的相關人員ID時，資料集就會貢獻身分圖表。
-
+* 如果您想要使用圖表式拼接，而且預期事件資料集會有助於身分識別圖表（因為資料集包含永久識別碼旁邊的相關人員ID），您應該[為身分識別服務啟用資料集](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)。
 
 ## 預檢檢查
 

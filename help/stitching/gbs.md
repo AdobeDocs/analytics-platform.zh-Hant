@@ -5,15 +5,14 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: dd4ebd86cbb6640575a0eb05aa00aadfa2c7c410
+source-git-commit: 90a285fcd96866974087c53d402e85b4a2d83ccf
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1512'
 ht-degree: 5%
 
 ---
 
 # 圖表式拼接
-
 
 在圖表式拚接中，您可以指定事件資料集，以及該資料集的永久ID (Cookie)和人員ID的名稱空間。 圖表式拚接會將拚接ID的新欄新增至事件資料集。 然後使用永久ID來查詢來自Experience Platform Identity Service的身分圖表，使用指定的名稱空間來更新拼接的ID。
 
@@ -27,7 +26,7 @@ ht-degree: 5%
 
 ## 身分對應
 
-圖表式拚接支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)：
+圖表式拚接支援在下列情況下使用[`identityMap`欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)：
 
 - 在`identityMap`名稱空間中使用主要身分來定義persistentID：
    - 如果在不同的名稱空間中找到多個主要身分，則名稱空間中的身分會依字典排序，並會選取第一個身分。
@@ -118,7 +117,7 @@ ht-degree: 5%
 
 ![身分圖表3579](assets/identity-graphs.svg)
 
-您可以使用[身分圖表檢視器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer)，檢視特定設定檔在一段時間內的身分圖表。 另請參閱[身分識別服務連結邏輯](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-linking-logic)，以更清楚瞭解連結身分識別時所使用的邏輯。
+您可以使用[身分圖表檢視器](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer)，檢視特定設定檔在一段時間內的身分圖表。 另請參閱[身分識別服務連結邏輯](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)，以更清楚瞭解連結身分識別時所使用的邏輯。
 
 ### 步驟1：即時彙整
 
@@ -126,15 +125,15 @@ ht-degree: 5%
 
 +++ 詳細內容
 
-| | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![圖形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | 彙整ID （即時彙整後） |
+| | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 彙整ID （即時彙整後） |
 |--:|---|---|---|---|
-| 1 | 2023-05-12 11:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) *未定義* | `246` |
-| 2 | 2023-05-12 14:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 3 | 2023-05-12 15:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 4 | 2023-05-12 17:00 | `3579` | `3579` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) *未定義* | `3579` |
-| 5 | 2023-05-12 19:00 | `3579` | `3579` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` |
-| 6 | 2023-05-13 15:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 7 | 2023-05-13 16:30 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` |
+| 1 | 2023-05-12 11:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) *未定義* | `246` |
+| 2 | 2023-05-12 14:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 3 | 2023-05-12 15:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 4 | 2023-05-12 17:00 | `3579` | `3579` ![分支1](/help/assets/icons/Branch1.svg) *未定義* | `3579` |
+| 5 | 2023-05-12 19:00 | `3579` | `3579` ![分支1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` |
+| 6 | 2023-05-13 15:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 7 | 2023-05-13 16:30 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![分支1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -149,16 +148,16 @@ ht-degree: 5%
 
 +++ 詳細內容
 
-當重播拼接發生在2023-05-13 16:30，具有24小時回顧視窗設定時，會重新拼接範例中的某些事件（由![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg)指示）。
+當重播拼接發生在2023-05-13 16:30，具有24小時回顧視窗設定時，會重新拼接範例中的某些事件（由![重播](/help/assets/icons/Replay.svg)指示）。
 
-| | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![圖形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | 已彙整ID<br/> （即時彙整後） | 已拼接ID<br/> （重播24小時後） |
+| | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 已彙整ID<br/> （即時彙整後） | 已拼接ID<br/> （重播24小時後） |
 |---|---|---|---|---|---|
-| 2 | 2023-05-12 14:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 3 | 2023-05-12 15:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
-| ![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 4 | 2023-05-12 17:00 | `3579` | `3579` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
-| ![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 5 | 2023-05-12 19:00 | `3579` | `3579` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
-| ![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 6 | 2023-05-13 15:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 7 | 2023-05-13 16:30 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
+| 2 | 2023-05-12 14:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 3 | 2023-05-12 15:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
+| ![重播](/help/assets/icons/Replay.svg) 4 | 2023-05-12 17:00 | `3579` | `3579` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
+| ![重播](/help/assets/icons/Replay.svg) 5 | 2023-05-12 19:00 | `3579` | `3579` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
+| ![重播](/help/assets/icons/Replay.svg) 6 | 2023-05-13 15:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![重播](/help/assets/icons/Replay.svg) 7 | 2023-05-13 16:30 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg)`a.b@yahoo.co.uk`<br/>`246` ![分支1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -166,15 +165,15 @@ ht-degree: 5%
 當重播彙整發生在2023-05-13 16:30，且回顧視窗設定為7天時，來自範例的所有事件都會重新彙整。
 
 
-| | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![圖形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | 已彙整ID<br/> （即時彙整後） | 已拼接ID<br/> （重播7天後） |
+| | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 已彙整ID<br/> （即時彙整後） | 已拼接ID<br/> （重播7天後） |
 |---|---|---|---|---|---|
-| ![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 1 | 2023-05-12 11:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) *未定義* | `246` | `a.b@yahoo.co.uk` |
-| ![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 2 | 2023-05-12 14:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 3 | 2023-05-12 15:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 4 | 2023-05-12 17:00 | `3579` | `3579` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
-| ![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 5 | 2023-05-12 19:00 | `3579` | `3579` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
-| ![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 6 | 2023-05-13 15:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![重播](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Replay_18_N.svg) 7 | 2023-05-13 16:30 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
+| ![重播](/help/assets/icons/Replay.svg) 1 | 2023-05-12 11:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) *未定義* | `246` | `a.b@yahoo.co.uk` |
+| ![重播](/help/assets/icons/Replay.svg) 2 | 2023-05-12 14:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![重播](/help/assets/icons/Replay.svg) 3 | 2023-05-12 15:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![重播](/help/assets/icons/Replay.svg) 4 | 2023-05-12 17:00 | `3579` | `3579` ![分支1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
+| ![重播](/help/assets/icons/Replay.svg) 5 | 2023-05-12 19:00 | `3579` | `3579` ![分支1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
+| ![重播](/help/assets/icons/Replay.svg) 6 | 2023-05-13 15:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![重播](/help/assets/icons/Replay.svg) 7 | 2023-05-13 16:30 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![分支1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -188,15 +187,15 @@ ht-degree: 5%
 
 下表呈現與以上相同的資料，但顯示隱私權請求（例如，在2023-05-13 18:00）對範例事件的影響。
 
-| | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![圖形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataMapping_18_N.svg) | 彙整ID （隱私權請求後） |
+| | 時間 | 永久ID<br/>`ECID` | 名稱空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 彙整ID （隱私權請求後） |
 |--:|---|---|---|---|
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 1 | 2023-05-12 11:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `246` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 2 | 2023-05-12 14:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `246` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 3 | 2023-05-12 15:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `246` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 4 | 2023-05-12 17:00 | `3579` | `3579` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 5 | 2023-05-12 19:00 | `3579` | `3579` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 6 | 2023-05-13 15:00 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `246` |
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> 7 | 2023-05-13 16:30 | `246` | `246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk`<br/>`246` ![連結](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `bob.ab@gmail.com` | `246` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 1 | 2023-05-12 11:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 2 | 2023-05-12 14:00 | `246` | `246`![分支1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 3 | 2023-05-12 15:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 4 | 2023-05-12 17:00 | `3579` | `3579` ![分支1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 5 | 2023-05-12 19:00 | `3579` | `3579` ![分支1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 6 | 2023-05-13 15:00 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 7 | 2023-05-13 16:30 | `246` | `246` ![分支1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![分支1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `246` |
 
 {style="table-layout:auto"}
 
@@ -222,7 +221,7 @@ ht-degree: 5%
 - 使用指定的名稱空間查詢人員ID時，不會考慮時間戳記。 因此，永久性ID可能會與記錄中時間戳記較早的人員ID結合。
 - 在共用裝置情況中，其中圖表中的名稱空間包含多個身分，系統會使用第一個字典識別。 如果名稱空間限制和優先順序是在圖表連結規則發行時設定，則會使用最後驗證的使用者身分。 如需詳細資訊，請參閱[共用裝置](/help/use-cases/stitching/shared-devices.md)。
 - 在身分圖表中有三個月回填身分的硬性限制。 若您未使用Experience Platform應用程式（如Real-time Customer Data Platform）填入身分圖表，建議您使用回填身分。
-- [Identity Service護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/guardrails)已套用。 檢視下列[靜態限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/guardrails#static-limits)：
+- [Identity Service護欄](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)已套用。 檢視下列[靜態限制](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits)：
    - 圖表中的最大身分數量： 50。
    - 單一批次擷取的身分連結數上限： 50。
    - 用於圖表擷取的XDM記錄中的最大身分數量： 20。

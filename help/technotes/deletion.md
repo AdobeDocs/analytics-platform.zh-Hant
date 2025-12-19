@@ -1,26 +1,41 @@
 ---
 title: 刪除關聯
-description: 當您刪除 Customer Journey Analytics 或 Adobe Experience Platform 中的連線、資料集或批次時，會發生什麼事？
+description: 瞭解刪除或重設Customer Journey Analytics或Experience Platform物件的含意。
 exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-source-git-commit: 928c79f9ccf30cc33e0f334f715bf3190a257019
+source-git-commit: c8b646b7e92663ed9c7e8454a336d25e34415cbe
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 64%
+source-wordcount: '804'
+ht-degree: 11%
 
 ---
 
-# 刪除關聯
+# 刪除和重設的關聯
 
-刪除 Customer Journey Analytics 或 Adobe Experience Platform 中的連線、資料集或批次之前，請考慮以下因素：
+刪除或重設Customer Journey Analytics或Experience Platform物件確實有影響。 本文會概述這些含意。
 
-| 當您... | 就會發生下列情形... |
+## Customer Journey Analytics
+
+刪除Customer Journey Analytics中的連線、資料檢視或資料集之前，請先考慮下列含意：
+
+| 動作 | 影響 |
 | --- | --- |
-| 刪除 [!UICONTROL Customer Journey Analytics] 中的連線 | 錯誤訊息會指出：<ul><li>針對已刪除連線所建立的任何資料檢視都將停止運作。</li><li> 同樣地，如果有任何「工作區」專案與所刪除連線中的資料檢視相依，也將停止運作。</li></ul>請注意，您無法刪除符合以下條件的Customer Journey Analytics連線： <ul><li>繫結至您沒有許可權的Adobe Experience Platform沙箱。 即使您擁有這些連線所建置之資料檢視的許可權，必須先取得基礎Adobe Experience Platform沙箱的許可權，才能刪除連線。</li><li>為與連線關聯的資料檢視選取下列相容性選項： **[!UICONTROL 在Adobe Journey Optimizer中設定為預設資料檢視]**<p>如需此組態選項的詳細資訊，請參閱[建立或編輯資料檢視](/help/data-views/create-dataview.md#compatibility)中的[相容性](/help/data-views/create-dataview.md)</p></li></ul> |
-| 刪除[!UICONTROL Adobe Experience Platform]中的資料集 | 如果刪除 AEP 中的資料集，該資料集的資料將不再傳輸至包含該資料集的任何連線。系統會從關聯的Customer Journey Analytics連線中自動刪除該資料集中的任何資料。 |
-| 刪除 [!UICONTROL Customer Journey Analytics] 中的資料集 | 當您從Customer Journey Analytics中的連線中刪除資料集時，任何依賴該資料集的資料檢視和專案都將不再運作。 |
-| 從資料集中刪除批次 (在 [!UICONTROL Adobe Experience Platform] 中) | 如果從 [!UICONTROL Adobe Experience Platform] 資料集中刪除批次資料，該批次資料會從包含該特定批次資料的所有 [!UICONTROL Customer Journey Analytics] 連線中移除。[!UICONTROL Customer Journey Analytics] 會收到批次資料已從 [!UICONTROL Adobe Experience Platform] 中刪除的通知。 |
-| 當批次&#x200B;**正要擷取**&#x200B;到 [!UICONTROL Customer Journey Analytics] 中時將它刪除 | 如果資料集中只有一筆批次資料，該批次資料中的所有或部分資料都不會顯示於 [!UICONTROL Customer Journey Analytics]。系統會復原匯入作業。舉例來說，如果資料集含有 5 筆批次資料，其中 3 筆在資料集遭刪除前就已匯入完成，則該 3 筆批次資料的資料就會顯示於 [!UICONTROL Customer Journey Analytics]。 |
-| 刪除[!UICONTROL Adobe Experience Platform]中的查閱資料集 | 雖然對其他來源連接器而言，刪除資料集是可行的，但是目前 [Analytics 分類來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/classifications.html?lang=zh-Hant)不支援此作業。 如果您誤刪了資料集，請聯絡 Adobe 客戶服務。 |
+| 刪除 [!UICONTROL Customer Journey Analytics] 中的連線 | 錯誤訊息指出：<ul><li>為已刪除的連線所建立的任何資料檢視都不再有效。</li><li> 同樣地，如果有任何Workspace專案與所刪除連線中的資料檢視相依，也將停止運作。</li></ul>請注意，您無法刪除符合以下條件的Customer Journey Analytics連線：<ul><li>繫結至您沒有許可權的Adobe Experience Platform沙箱。 即使您擁有這些連線所建置之資料檢視的許可權，必須先取得基礎Adobe Experience Platform沙箱的許可權，才能刪除連線。</li><li>為與連線關聯的資料檢視選取下列相容性選項： **[!UICONTROL 在Adobe Journey Optimizer中設定為預設資料檢視]**<p>如需此組態選項的詳細資訊，請參閱[建立或編輯資料檢視](/help/data-views/create-dataview.md#compatibility)中的[相容性](/help/data-views/create-dataview.md)</p></li></ul> |
+| 刪除 [!UICONTROL Customer Journey Analytics] 中的資料集 | 當您從Customer Journey Analytics中的連線中刪除資料集時，任何依賴該資料集的資料檢視和專案都不再運作。 |
+| 刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視 | 當您刪除Customer Journey Analytics中的資料檢視時，Workspace專案中依賴資料檢視的任何面板都不再正常運作。 |
+
+
+
+## Experience Platform
+
+在刪除資料集或批次之前，或在Experience Platform中重設或刪除沙箱時，請考慮以下問題：
+
+| 動作 | 影響 |
+| --- | --- |
+| 刪除[!UICONTROL Experience Platform]中的資料集 | 在Experience Platform中，來自該資料集的資料流會停止到包含該資料集的任何連線。 系統會從相關聯的 Customer Journey Analytics 連線自動刪除該資料集中的任何資料。 |
+| 從[!UICONTROL Experience Platform]的資料集中刪除批次 | 如果從[!UICONTROL Adobe Experience Platform]資料集中刪除批次資料，該批次資料會從包含該特定批次資料的所有[!UICONTROL Customer Journey Analytics]連線中移除。 [!UICONTROL Customer Journey Analytics] 會收到批次資料已從 [!UICONTROL Adobe Experience Platform] 中刪除的通知。 |
+| 將批次擷取[!UICONTROL 到]Customer Journey Analytics **時，從** Experience Platform刪除批次 | 如果資料集中只有一個批次，則該批次中的所有或部分資料都不會顯示在 [!UICONTROL Customer Journey Analytics] 中。擷取會收回。舉例來說，如果資料集中有5筆批次資料，其中3筆在第四筆批次資料遭刪除時就已匯入完成，則該3筆批次資料的資料就會顯示於[!UICONTROL Customer Journey Analytics]。 |
+| 刪除[!UICONTROL Experience Platform]中的查閱資料集 | 雖然對其他來源聯結器而言，刪除資料集是可行的，但是不支援刪除[Analytics Classifications Source Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/classifications)資料集。 如果您誤刪了這類資料集，請聯絡客戶服務。 |
+| 刪除或重設Experience Platform中的沙箱 | 當您[刪除Experience Platform沙箱](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/user-guide#delete-a-sandbox)時，也會刪除該沙箱中的所有結構描述、資料集、批次、原則等。 沙箱已不存在，以及沙箱識別碼和沙箱名稱。<br/>當您[重設Experience Platform沙箱](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/user-guide#reset-a-sandbox)時，將會刪除該沙箱中的所有結構描述、資料集、批次、原則等。 雖然沙箱名稱和許可權保持不變，但在重設完成後沙箱識別碼會變更。<br/><br/>Customer Journey Analytics使用沙箱識別碼和沙箱名稱來關聯與沙箱的連線。 因此： <ul><li>與已刪除或重設沙箱關聯的連線已刪除。</li><li>以已刪除的連線為基礎的資料檢視（以及資料檢視內的所有元件定義，例如衍生欄位）都會被刪除。</li><li>依賴已刪除資料檢視的元件會遭刪除。 例如區段、計算量度、註解、警報、已發佈對象和匯出。</li><li>Workspace專案中參照已刪除資料檢視的面板變得無法使用。 這些面板顯示&#x200B;**[!UICONTROL 未知的資料檢視]**&#x200B;錯誤。 移除這些面板，或可能的話，將這些面板與現有資料檢視建立關聯。</li><li>您不應再使用查詢服務或依賴BI擴充功能的工具，從Customer Journey Analytics中已可用的已刪除連線中查詢（歷史）資料。 最終Adobe支援或工程人員會從Customer Journey Analytics中刪除此資料。</li></ul>由於Experience Platform中重設或刪除沙箱會有很重大的影響，在重設或刪除沙箱前，請先考慮下列事項：<ul><li>列出您的連線，以瞭解哪些連線屬於哪些沙箱。</li><li>列出資料檢視，以瞭解哪些資料檢視與哪些連線相關聯。</li><li>識別重要的Workspace專案，並瞭解這些專案在其面板中參照的資料檢視。</li><li>識別與使用BI擴充功能之工具的整合，並瞭解這些整合所依賴的資料檢視。</li></ul> |
