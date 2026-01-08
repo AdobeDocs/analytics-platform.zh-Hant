@@ -50,7 +50,7 @@ Analytics來源聯結器只能從屬於您有權使用Customer Journey Analytics
 
 客戶經理收到電子郵件，要求您對應來自多個組織的Analytics資料後，就會在Adobe中稽核該請求。 客戶經理會與您連絡，以取得任何其他問題、選用的訓練及其他資訊。
 
-核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝[的](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)清單中的報表套裝名稱。
+核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝[的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)清單中的報表套裝名稱。
 
 ## 限制和風險
 
