@@ -6,9 +6,9 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: 0e86227915404fe62fcd1f27e95eb3b1bb673030
+source-git-commit: cd3baec708f1811a7cbc37dfe0a9c3af75eb97c3
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2351'
 ht-degree: 14%
 
 ---
@@ -173,6 +173,8 @@ Data Warehouse原生解決方案表格中的資料，已可供用於Customer Jou
 
      ![版本描述項](assets/platform-schema-id.png)
 
+     在實際情況中，您可能會想要使用更適當的欄位做為[版本描述項](aep.md#schema)。 例如，追蹤上次修改時間的欄位。
+
    * 已設定&#x200B;**[!UICONTROL personid]**&#x200B;欄位及&#x200B;**[!UICONTROL 時間戳記]**&#x200B;為&#x200B;**[!UICONTROL 主索引鍵]**。 選取![新增](/help/assets/icons/Add.svg) **[!UICONTROL 建立複合主索引鍵]**&#x200B;以建立複合索引鍵。
 
      ![複合金鑰](assets/platform-schema-compositekey.png)
@@ -180,6 +182,8 @@ Data Warehouse原生解決方案表格中的資料，已可供用於Customer Jou
      **[!UICONTROL personid]**&#x200B;欄位也設定為&#x200B;**[!UICONTROL 身分識別]**，並將&#x200B;**[!UICONTROL CRMID]**&#x200B;設定為&#x200B;**[!UICONTROL 身分識別名稱空間]**。
 
      ![人員描述項](assets/platform-schema-personid.png)
+
+     **[!UICONTROL personid]**&#x200B;欄位不一定要是&#x200B;**[!UICONTROL 主索引鍵]**。 在實際情況中，您很有可能有不同的欄位來追蹤主要金鑰（與&#x200B;**[!UICONTROL personid]**&#x200B;分開）。
 
    * 已設定&#x200B;**[!UICONTROL timestamp]**&#x200B;欄位以及&#x200B;**[!UICONTROL personid]**&#x200B;欄位作為&#x200B;**[!UICONTROL 主索引鍵]**。 **[!UICONTROL 時間戳記]**&#x200B;欄位也設定為&#x200B;**[!UICONTROL 時間戳記描述項]**。 您只需要將時間序列關聯資料的欄位定義為&#x200B;**[!UICONTROL 時間戳記描述項]**。
 
@@ -189,6 +193,8 @@ Data Warehouse原生解決方案表格中的資料，已可供用於Customer Jou
    如果您已正確定義&#x200B;**[!UICONTROL 主索引鍵]**、**[!UICONTROL 版本描述項]**&#x200B;和&#x200B;**[!UICONTROL 時間戳記描述項]**，則結構描述定義上方的警告會消失。
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
+
+同樣地，您可以設定以記錄為基礎的關聯式[結構描述](aep.md#schema)。 例如，包含設定檔和查詢資料。
 
 
 ## 使用來源連接器
@@ -219,7 +225,7 @@ Data Warehouse原生解決方案表格中的資料，已可供用於Customer Jou
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
-  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
+  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
 
 
 ### 選取資料
@@ -254,7 +260,7 @@ Data Warehouse原生解決方案表格中的資料，已可供用於Customer Jou
 
 在&#x200B;**[!UICONTROL 對應]**&#x200B;步驟：
 
-1. 對應欄位。 從Google BigQuery的結構描述(**[!UICONTROL Source資料]**)到您在Experience Platform中定義的結構描述欄位（**[!UICONTROL 目標欄位]**）。
+1. 將Google BigQuery結構描述中的欄位(**[!UICONTROL Source資料]**)對應到您在Experience Platform中定義的結構描述中的欄位（**[!UICONTROL 目標欄位]**）。
 
    ![Experience Platform - Source Connector — 對應](assets/platform-sources-mapping.png)
 

@@ -6,9 +6,9 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: b2a13524760f9d466696534bc8b9691f3b4dfb8a
+source-git-commit: cd3baec708f1811a7cbc37dfe0a9c3af75eb97c3
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '550'
 ht-degree: 2%
 
 ---
@@ -27,17 +27,19 @@ ht-degree: 2%
 
 ## 結構描述
 
-您必須建立要映象的資料倉儲原生資料表之[關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational){target="_blank"}。 當您建構關聯式架構時，請確定符合下列要求：
+您必須建立要映象的資料倉儲原生資料表之[關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational){target="_blank"}。 當您建構關聯式架構時，請確定符合下列要求：
 
 * 當提示您輸入關聯式架構型別時，請確定您選取手動選項。
-* 為資料型別選取適當的結構描述。 請注意，Experience Platform Data Mirror主要用於時間序列資料（例如事件資料）。
+* 為資料型別選取適當的結構描述。 請注意，Experience Platform Data Mirror主要用於時間序列資料（例如事件資料），但也可用於記錄型（查詢和設定檔）資料。
 
 * 定義結構描述中的欄位及其屬性
 * 設定關聯式架構中欄位的必要屬性：
 
-   * 主索引鍵
-   * 版本識別碼
-   * 時間戳記識別碼（適用於時間序列資料）。
+   * **主索引鍵**。
+   * **版本描述項**，必須設定為連續數字（整數欄位型別）或日期時間欄位型別。 當您使用DateTime欄位型別時，版本描述項會定義資料修改的時間戳記，例如包含上次修改的時間戳記。
+   * **時間戳記描述項** （適用於時間序列資料），定義擷取事件時不可變的時間戳記。 記錄型關聯式結構描述不需要時間戳記描述項。
+
+
 
 ## 資料集
 
@@ -53,9 +55,9 @@ ht-degree: 2%
 
 如需針對支援的Data Warehouse原生解決方案進行驗證的相關資訊，請參閱Experience Platform相關檔案：
 
-* [Azure資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### 選取資料
@@ -91,5 +93,5 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >[Data Mirror快速入門手冊：映象並使用關聯式資料](relational.md)
->[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview)
->[關聯式結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)
+>[Data Mirror (Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>[關聯式結構描述(Experience Platform檔案)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
