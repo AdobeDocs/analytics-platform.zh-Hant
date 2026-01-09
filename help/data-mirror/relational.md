@@ -225,7 +225,7 @@ Data Warehouse原生解決方案表格中的資料，已可供用於Customer Jou
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
-  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
+  請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
 
 
 ### 選取資料
