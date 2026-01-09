@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
+source-git-commit: 840bf65d186178fb944041ff486e95ba60dc6037
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '675'
 ht-degree: 3%
 
 ---
@@ -41,11 +41,14 @@ ht-degree: 3%
 | 7 | 連線 | 您要新增所選取設定檔資料集的連線。 |
 | 8 | 新受眾維度 | 新的對象維度<!--and metrics?-->代表您選取之設定檔資料集中所包含的Experience Platform對象，且可用於Analysis Workspace中的報告。 系統會自動建立這些維度。 |
 | 9 | 資料檢視 | 您選取的與連線相關聯的資料檢視。 在Analysis Workspace中分析Experience Platform受眾資料時，您想要使用這些資料檢視。 這些資料檢視會自動設定用於報表的Experience Platform受眾資料。 |
-| 10 | Analysis Workspace | Customer Journey Analytics中建立報表並包含所擷取Experience Platform對象的區域。 |
 
 ## 設定對象分析
 
 設定對象分析時，您會選取與您要分析之Experience Platform對象相關聯的沙箱和合併原則。 Customer Journey Analytics會建立新的查詢資料集，然後自動將查詢資料集和設定檔資料集新增到您選擇的連線。
+
+>[!NOTE]
+>
+>在您建立對象分析設定後的次日，便可在Customer Journey Analytics資料檢視中使用對象。
 
 如需詳細資訊，請參閱[設定對象分析](/help/connections/audience-analysis/audience-analysis-configure.md)。
 
