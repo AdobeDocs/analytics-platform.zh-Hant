@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 840bf65d186178fb944041ff486e95ba60dc6037
+source-git-commit: 9d9c4dbba13f61af4a47bbb0f87533fb950976bc
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '708'
 ht-degree: 3%
 
 ---
@@ -80,7 +80,13 @@ ht-degree: 3%
 | [在資料檢視中檢視對象分析維度](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | 指派資料檢視的產品設定檔的產品設定檔管理員 <p>如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md)。</p> | 不適用 |
 | 在Analysis Workspace中使用對象分析維度 | 存取已新增對象分析維度的資料檢視 | 不適用 |
 
+## 對象分析限制
 
+在[設定對象分析](/help/connections/audience-analysis/audience-analysis-configure.md)時，請考量下列限制：
+
+* 單一沙箱可支援最多100個對象分析設定。
+
+* 一個連線只能與一個對象分析設定相關聯。
 
 
 
