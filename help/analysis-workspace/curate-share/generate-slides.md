@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 從Workspace報表產生簡報
 feature: Curate and Share
 role: User
-source-git-commit: 82ca99af8f344b713e285980145fa0ee6ae6ae1c
+source-git-commit: 06e6dd99d318812447d903f2e14e4daba80d4957
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 6%
+source-wordcount: '1694'
+ht-degree: 5%
 
 ---
 
@@ -228,9 +228,7 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
    * 組合
 
-   * 流失
-
-   * 流量
+   * 具有多個維度欄的自由格式表格（支援具有單一維度欄的表格）
 
    * 歷程畫布
 
