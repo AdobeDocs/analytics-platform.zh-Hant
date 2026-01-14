@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9d9c4dbba13f61af4a47bbb0f87533fb950976bc
+source-git-commit: ca2adce7be8a28fa72323915473a8c2283741889
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '728'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,9 @@ ht-degree: 3%
 
 設定對象分析時，您會選取與您要分析之Experience Platform對象相關聯的沙箱和合併原則。 Customer Journey Analytics會建立新的查詢資料集，然後自動將查詢資料集和設定檔資料集新增到您選擇的連線。
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>對象資料會每晚重新處理和產生，因此對象資料僅供前一天（「昨天」）的分析使用。
 >
 >在您建立對象分析設定後的次日，便可在Customer Journey Analytics資料檢視中使用對象。
 
