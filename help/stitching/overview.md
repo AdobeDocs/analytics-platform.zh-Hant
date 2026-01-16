@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: b85b5b8212cf072ed46bc8eb587ea00984d33ccc
+source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '902'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)和[圖表型拼接](gbs.md)。
 
-## 先決條件
+## 必要條件
 
 >[!IMPORTANT]
 >
@@ -49,8 +49,8 @@ Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)�
 
 您可以透過兩種方式啟用「拼接」功能：
 
-- [請求啟用拼接](/help/stitching/use-stitching.md)
-- [在連線介面中啟用拼接](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}
+- [要求啟用拼接](/help/stitching/use-stitching.md)。 在核准後，系統就會為您已請求拼接的資料集建立重複的資料集。 此重複資料集包含具有拼接識別碼的其他欄。 您必須建立新連線或編輯包含拼接資料集的現有連線，才能在Customer Journey Analytics中使用拼接資料。
+- [在連線介面中啟用拼接](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}。 當您在「連線」介面中設定資料集的拼接時，拼接會在「即時」發生，也就是在Customer Journey Analytics中從該資料集中擷取資料期間。
 
 ## 限制
 

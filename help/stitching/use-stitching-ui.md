@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: c67225619153218e3dca1eacea204f2b033dfb14
+source-git-commit: 3479227eb703583255d40de3d07d071ad2f89950
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '894'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 當您[建立連線](/help/connections/create-connection.md#dataset-settings)或當您[編輯連線](/help/connections/create-connection.md)時，您可以將拼接啟用為事件資料集之[資料集設定](/help/connections/manage-connections.md#edit-a-connection)的一部分。
 
-## 先決條件
+## 必要條件
 
 若要啟用連線UI中事件資料集的拼接功能：
 
@@ -144,3 +144,11 @@ ht-degree: 3%
 
 * 您只能將事件資料集拼接一次，做為單一連線的一部分。 您無法多次定義相同的事件資料集，並為每個執行個體使用個別的彙整設定。 如果您想在相同資料集上套用不同的彙整設定，請為每個設定使用個別的連線。
 
+
+## 移轉
+
+在Connections介面中啟用的彙整可同時存在，而不會出現任何以請求為基礎的彙整問題。
+
+例如，由於先前或目前的拼接請求，您在資料湖中有網頁型拼接資料集。 您可以使用連線介面，從客服中心資料集新增拼接資料，以將該資料與網頁型資料結合。
+
+最終，Adobe會自動將您的請求型拼接資料集移轉至連線體驗中的新拼接。
