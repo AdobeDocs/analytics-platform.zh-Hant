@@ -92,7 +92,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->您無法在&#x200B;**[!UICONTROL 使用者偏好設定]**&#x200B;的&#x200B;**[!UICONTROL 專案與分析]** > **[!UICONTROL 資料]**&#x200B;區段中定義數字格式。 數字格式是由為登入使用者設定的[預設語言](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language)自動決定。
+>您無法在&#x200B;**[!UICONTROL 使用者偏好設定]**&#x200B;的&#x200B;**[!UICONTROL 專案與分析]** > **[!UICONTROL 資料]**&#x200B;區段中定義數字格式。 數字格式是由為登入使用者設定的[預設語言](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/browser-language)自動決定。
 >
 
 
