@@ -4,9 +4,9 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 11a550e0cd67db106e2dd399843c4cf0923467ad
+source-git-commit: 3f369122863df4f3fc339730ced8c193360d07c6
 workflow-type: tm+mt
-source-wordcount: '20775'
+source-wordcount: '20877'
 ht-degree: 97%
 
 ---
@@ -652,10 +652,9 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-<!--need to add audience overview: - **[!UICONTROL Audience overview]** - View which audiences are represented among the people visiting your site.<p>**This can help you** better understand general information about the audiences, where the audiences originated (RTCDP, Customer Journey Analytics, and so forth), audience overlap, and more.</p><p>**Based on what you learn, you might** do any number of things, like use the data to focus on marketing efforts for these specific audiences, or create tailored experiences for customers who span multiple audiences.</p><p>This template uses the Audience Name, Audience Origin, Exited Audience Name, and Exited Audience Origin dimensions.</p><p>For more information, see [Analyze Experience Platform audiences in Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> - -->
-
-| 範本名稱 | 為什麼使用此範本 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
+| **[!UICONTROL 對象總覽]** | 檢視造訪您網站的人當中代表哪些對象。<p>**這可協助您**&#x200B;更清楚瞭解對象的一般資訊，對象源自何處(RTCDP、Customer Journey Analytics等)、對象重疊等等。</p><p>**根據您瞭解到的內容，您可能**&#x200B;會執行許多操作，例如使用資料來專注於這些特定對象的行銷工作，或為跨越多個對象的客戶建立量身打造的體驗。</p><p>此範本使用對象名稱、對象來源、退出對象名稱和退出對象來源維度。</p><p>如需詳細資訊，請參閱[在Customer Journey Analytics中分析Experience Platform對象](/help/connections/audience-analysis/analyze-audiences.md)。</p> |
 | [!UICONTROL **首次訪客與重複訪客**] | 檢視首次訪客和重複訪客的比較。 <p>**這可以幫助您**&#x200B;更了解您的網站在維持客戶忠誠度方面的有效性，或您獲得新客戶的速度。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如為首次訪客提供未來購買的獎勵，以吸引他們回訪。</p><!-- This template uses the --> |
 | **個人 ID** | 檢視各管道中的個別使用者行為。<p>**這可以幫助您**&#x200B;更了解多個接觸點間的完整客戶歷程與互動。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如將行銷活動個人化，以更完善地鎖定使用者偏好。</p><!-- This template uses the --> |
 | **地理國家/地區** | 檢視造訪網站的人們來自哪個國家/地區。<p>**這可以幫助您**&#x200B;更加了解造訪網站的訪客最常來自哪些國家/地區。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如利用資料來加強這些國家/地區的行銷工作，或者確保您的網站體驗在使用不同主要語言的國家/地區能達到最佳效果。</p><p>此範本使用國家/地區維度。 </p> |
