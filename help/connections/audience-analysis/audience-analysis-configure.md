@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 7926f043c9e2808a083f8947fa0882c0faa4051d
+source-git-commit: d780233ca6c8988637881a4f65ed16169bb0385b
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1355'
 ht-degree: 12%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 12%
    | 欄位 | 說明 |
    |---------|----------|
    | **[!UICONTROL 合併原則]** | 選取與您要用於客群分析的輪廓資料集對應的合併原則。 <p>合併原則可決定Adobe Experience Platform如何將來自多個資料集的設定檔資料合併到統一的客戶設定檔中，以用於建立受眾。 您選取的合併原則會影響對象中包含哪些設定檔屬性。 每天，系統都會在Experience Platform中產生這些資料的快照。 此快照提供特定時間點的靜態資料檢視，不包含任何事件資料。</p><p>如果您看到多個合併原則且不確定要選擇哪一個，請選取&#x200B;**[!UICONTROL 預設以時間為基礎]**&#x200B;的合併原則。 您也可以洽詢資料團隊，深入瞭解哪些對象與每個合併原則相關聯。</p> |
-   | **[!UICONTROL 設定檔資料集]** | 與您選取的合併原則相關聯的設定檔資料集。 此設定檔資料集包含您要分析的Experience Platform對象資料。 此設定檔資料集已新增至您選取的連線。<p>選擇合併原則後，設定檔快照匯出隨即顯示。 例如：`Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`。</p><p>如需詳細資訊，請參閱Experience Platform儀表板指南中的[設定檔屬性資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/query#profile-attribute-datasets)。</p> |
+   | **[!UICONTROL 設定檔資料集]** | 與您選取的合併原則相關聯的設定檔資料集。 此設定檔資料集包含您要分析的Experience Platform對象資料。 此設定檔資料集已新增至您選取的連線。<p>選擇合併原則後，設定檔快照匯出隨即顯示。 例如：`Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`。</p><p>如需詳細資訊，請參閱Experience Platform儀表板指南中的[設定檔屬性資料集](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets)。</p> |
 
 1. 在&#x200B;**[!UICONTROL 連線]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 選取連線]**。
 
@@ -102,7 +102,8 @@ ht-degree: 12%
    | **[!UICONTROL 個人 ID]** | 從結構描述中選取代表人員ID的欄位。<p>選取範圍僅限於結構描述中標示為身分且具備身分名稱空間的欄位清單。 依預設會選取&#x200B;**[!UICONTROL IdentityMap]**，且適用於大部分的組態。 </p><p>如果沒有人員ID可以選擇，表示結構描述中尚未定義一或多個人員ID。 更多詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。</p> |
    | **[!UICONTROL 使用主要身分名稱空間]** | 此選項顯示您是否為人員ID選取&#x200B;**[!UICONTROL 身分對應]**。 <p>如果您希望Customer Journey Analytics在標示primary=true屬性的「身分對應」中尋找身分，然後使用該身分作為該列的人員ID，請啟用此選項。 此身分識別是在 Experience Platform 中劃分資料的主要索引鍵，此外，此身分識別也是Customer Journey Analytics人員ID的主要候選專案(取決於Customer Journey Analytics連線中資料集的設定方式)。</p> |
    | **[!UICONTROL 身分名稱空間]** | 此選項顯示您是否為人員ID選取&#x200B;**[!UICONTROL 身分對應]**。 如果您使用「主要ID名稱空間」，則會停用此選項。 <p>身分識別命名空間是 [Experience Platform 身分識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)的元件。命名空間是作為身分識別相關內容的指標。如果您指定名稱空間，Customer Journey Analytics會針對此名稱空間索引鍵搜尋每一列的「身分對應」，並使用該名稱空間底下的身分識別，作為該列的人員ID。 由於Customer Journey Analytics無法執行涵蓋所有列的完整資料集掃描來判斷哪些名稱空間存在，因此下拉式選單中會顯示所有可能的名稱空間。 您必須知道資料中指定了哪些命名空間；系統不會自動偵測這些命名空間。</p> |
-   | **[!UICONTROL 帳戶ID]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | （僅針對以帳戶為基礎的連線顯示）用來支援資料集以帳戶為基礎的報表的帳戶ID。 |
+
+   <!-- Add this when B2B releases for AuA **[!UICONTROL Account ID]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}|  (only displayed for account-based connections) The Account ID that is used to support account-based reporting for the dataset. -->
 
 1. 在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 選取資料檢視]**。
 
