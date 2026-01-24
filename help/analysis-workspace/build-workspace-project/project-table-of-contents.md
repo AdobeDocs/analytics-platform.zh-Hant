@@ -46,4 +46,4 @@ ht-degree: 88%
 
 >[!MORELIKETHIS]
 >
->* [使用 Adobe Analytics 中的新目錄功能簡化儀表板導覽](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
+>* [使用 Adobe Analytics 中的新目錄功能簡化儀表板導覽](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=zh-Hant)

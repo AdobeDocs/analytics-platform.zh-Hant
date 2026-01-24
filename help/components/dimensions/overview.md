@@ -48,6 +48,6 @@ Customer Journey Analytics 管理員可以在資料檢視中或直接在 Analysi
 
 >[!MORELIKETHIS]
 >
->[利用事件深度功能探索更深入的客戶分析](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576?lang=zh-Hant)
+>[利用事件深度功能探索更深入的客戶分析](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=zh-Hant#M576?lang=zh-Hant)
 >
 

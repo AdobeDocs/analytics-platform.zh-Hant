@@ -38,7 +38,7 @@ ht-degree: 5%
 
 衍生欄位是資料檢視的一部分，其優點是不是每個使用者都可以覆寫或修改跳出率量度的定義。 這個優點也帶來了限制。 無權存取資料檢視的使用者無法使用衍生欄位，且必須訴諸區段和計算量度來定義跳出率。
 
-請參閱此[部落格](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446)，以取得有關如何在Customer Journey Analytics中計算跳出數和跳出率的詳細背景資訊。
+請參閱此[部落格](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=zh-Hant)，以取得有關如何在Customer Journey Analytics中計算跳出數和跳出率的詳細背景資訊。
 
 +++
 

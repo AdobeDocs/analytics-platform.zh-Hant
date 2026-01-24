@@ -69,5 +69,5 @@ Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experie
 
 >[!MORELIKETHIS]
 >
->[利用事件深度功能探索更深入的客戶分析](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576?lang=zh-Hant)
+>[利用事件深度功能探索更深入的客戶分析](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=zh-Hant#M576?lang=zh-Hant)
 >

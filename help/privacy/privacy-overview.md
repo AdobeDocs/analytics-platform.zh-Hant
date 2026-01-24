@@ -44,4 +44,4 @@ Customer Journey Analytics 不會直接訂閱一般資料保護規 (GDPR) 集中
 
 >[!MORELIKETHIS]
 >
->* [部落格：如何在 Adobe Customer Journey Analytics 中保持有效治理](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4)
+>* [部落格：如何在 Adobe Customer Journey Analytics 中保持有效治理](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4?profile.language=zh-Hant)

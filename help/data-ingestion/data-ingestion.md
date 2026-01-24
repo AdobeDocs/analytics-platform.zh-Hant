@@ -114,5 +114,5 @@ ht-degree: 100%
 
 >[!MORELIKETHIS]
 >
->部落格：[深入了解 Adobe Customer Journey Analytics 中的資料處理和攝取](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
+>部落格：[深入了解 Adobe Customer Journey Analytics 中的資料處理和攝取](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=zh-Hant)
 
