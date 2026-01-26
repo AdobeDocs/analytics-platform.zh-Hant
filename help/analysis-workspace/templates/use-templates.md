@@ -4,7 +4,7 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e9799941256524ef148513fb16835a031b241e44
+source-git-commit: 9b941deb424d92744bea99f6ea01f6434d6bc19f
 workflow-type: tm+mt
 source-wordcount: '20935'
 ht-degree: 96%
@@ -1123,3 +1123,5 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 >id="template--mixModelerReport"
 >title="檢視Mix Modeler產生之選定模型的深入分析。"
 >abstract="**這可協助您**，更清楚瞭解在Mix Modeler中產生的模型所產生的增量深入分析。 <br/>**根據這些深入分析**，您將能夠：<ul><li>將組織行銷活動的影響視覺化並量化。</li><li>識別哪些管道表現良好。</li><li>識別可能需要最佳化的管道。</li></ul>"
+
+
