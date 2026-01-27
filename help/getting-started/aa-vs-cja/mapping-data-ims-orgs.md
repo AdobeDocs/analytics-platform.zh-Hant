@@ -50,7 +50,7 @@ Analytics來源聯結器只能從屬於您有權使用Customer Journey Analytics
 
 一旦Adobe客戶經理收到電子郵件，其中包含來自多個組織的Analytics資料對應請求，即會在Adobe中稽核該請求。 Adobe客戶經理若需任何其他問題、選用的培訓及其他資訊，請聯絡您。
 
-核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝[的](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)清單中的報表套裝名稱。
+核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝[的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)清單中的報表套裝名稱。
 
 
 ## 限制
@@ -70,7 +70,7 @@ Analytics來源聯結器只能從屬於您有權使用Customer Journey Analytics
 
 在核准來自多個IMS組織的&#x200B;*對應Analytics資料*&#x200B;功能後，您就可以將資料新增到目標IMS組織中一個或多個報表套裝的Experience Platform。 您透過[Analytics來源聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)的設定來執行此動作。 然後會在Experience Platform中建立Target資料集。 在此設定和流程中，您可以選擇從一個或多個報表套裝將設定檔資料傳送至設定檔服務。
 
-如上所述，預估由設定和程式所產生的設定檔總數。 確保總數不超過您依照合約有權為目的地組織使用的設定檔數量。 套用[篩選規則和條件](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"}以選擇性地包含或排除擷取至設定檔服務的資料。 或停用將設定檔資料傳送至相關報表套裝的設定檔服務的選項。
+如上所述，預估由設定和程式所產生的設定檔總數。 確保總數不超過您依照合約有權為目的地組織使用的設定檔數量。 套用[篩選規則和條件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"}以選擇性地包含或排除擷取至設定檔服務的資料。 或停用將設定檔資料傳送至相關報表套裝的設定檔服務的選項。
 
 
 ### 拼接
