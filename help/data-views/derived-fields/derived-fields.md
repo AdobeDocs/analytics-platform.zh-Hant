@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 156a33c653307bce3bad3784bc49e9b7d2ff08a2
 workflow-type: tm+mt
 source-wordcount: '10187'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 89%
 
 派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告功能的重要層面。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
 
-與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
+與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
 
 衍生欄位是在[資料檢視](../data-views.md)內定義，且是根據一組定義為規則的函數，並套用於適用的標準和/或結構描述欄位。
 
 >[!NOTE]
 >
->[標準元件](../component-reference.md)已繫結至事件資料集並與之建立關聯。 因此，作為衍生欄位一部分的標準元件僅適用於事件資料集中的資料。
+>[標準元件](../component-reference.md)與事件資料集相互繫結並關聯。因此，做為衍生欄位一部分的標準元件僅適用於事件資料集中的資料。
 >
 
 
@@ -50,7 +50,7 @@ ht-degree: 89%
 
 |  | 名稱 | 說明 |
 |---------|----------|--------|
-| 1 | **選取器** | 您可以使用選取器區域來選取函數、函數範本、結構描述欄位或標準欄位，並將其拖放至規則產生器上。<br/>使用下拉式選單在其間選取： <br/>![函數](assets/Smock_Function_18_N.svg) [!UICONTROL 函數] - 適用清單 [函數](#function-reference), </br>![函數範本圖示](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL 函數範本] - 適用清單 [函數範本](#function-templates), <br/>![結構描述欄位圖示](assets/Smock_Folder_18_N.svg)  [!UICONTROL 結構描述欄位] - 適用清單，來自：資料集類別 (事件、設定檔、查閱) 和先前定義的衍生欄位,以及<br/>![標準欄位圖示](assets/Smock_DragHandle_18_N.svg) [!UICONTROL 標準欄位] - 標準適用欄位 (如 Platform 資料集 ID)。選取器中僅顯示字串和數字標準欄位。如果函數支援其他資料類型，則可以為規則介面內的值或欄位選取有這些其他資料類型的標準欄位。<br/>您可以使用 ![搜尋圖示](assets/Smock_Search_18_N.svg)「搜尋」框來搜尋函數、函數範本、模式和標準欄位。<br/>您可以透過選取 ![篩選器圖示](assets/Smock_Filter_18_N.svg) 篩選器來篩選選取的物件清單，並在「[!UICONTROL 欄位篩選依據]」對話框中篩選和指定篩選器。您可以使用每個篩選器的![關閉圖示](assets/CrossSize75.svg)來輕鬆刪除篩選器。 |
+| 1 | **選取器** | 您可以使用選取器區域來選取函數、函數範本、結構描述欄位或標準欄位，並將其拖放至規則產生器上。<br/>使用下拉式選單在其間選取： <br/>![函數](assets/Smock_Function_18_N.svg) [!UICONTROL 函數] - 適用清單 [函數](#function-reference), </br>![函數範本圖示](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL 函數範本] - 適用清單 [函數範本](#function-templates), <br/>![結構描述欄位圖示](assets/Smock_Folder_18_N.svg)  [!UICONTROL 結構描述欄位] - 適用清單，來自：資料集類別 (事件、輪廓、查閱) 和先前定義的衍生欄位,以及<br/>![標準欄位圖示](assets/Smock_DragHandle_18_N.svg) [!UICONTROL 標準欄位] - 標準適用欄位 (如 Platform 資料集 ID)。選取器中僅顯示字串和數字標準欄位。如果函數支援其他資料類型，則可以為規則介面內的值或欄位選取有這些其他資料類型的標準欄位。<br/>您可以使用 ![搜尋圖示](assets/Smock_Search_18_N.svg)「搜尋」框來搜尋函數、函數範本、模式和標準欄位。<br/>您可以透過選取 ![篩選器圖示](assets/Smock_Filter_18_N.svg) 篩選器來篩選選取的物件清單，並在「[!UICONTROL 欄位篩選依據]」對話框中篩選和指定篩選器。您可以使用每個篩選器的![關閉圖示](assets/CrossSize75.svg)來輕鬆刪除篩選器。 |
 | 2 | **規則產生器** | 您可以使用一個或多個規則按順序建立衍生欄位。規則是一項功能的具體實施，因此一定只與一個功能相關聯。您可以將函數拖放至規則產生器中來建立規則。函數類型會確定規則介面。<br/>如需詳細資訊，請參閱「[規則介面](#rule-interface)」。<br/>您可以在規則產生器中已有的規則的開始、結束或之間插入函數。規則產生器中的最後一條規則可決定洐生欄位的最終輸出。 |
 | 3 | **[!UICONTROL **&#x200B;欄位設定&#x200B;**]** | 您可以命名和描述您的派生欄位並檢查其欄位類型。 |
 | 4 | **[!UICONTROL **&#x200B;最終輸出&#x200B;**]** | 此區域是根據過去 30 天的資料以及您對規則產生器中的衍生欄位所做的更改，顯示即時更新的輸出值預覽。 |
@@ -77,7 +77,7 @@ ht-degree: 89%
 | A | **規則名稱** | 依預設，規則名稱為「**規則 X**」(X 是指序列號碼)。若要編輯規則的名稱，請選取其名稱並輸入新名稱，例如 `Query Parameter`。 |
 | B | **函數名稱** | 為規則選取的函數名稱，例如 [!UICONTROL URL PARSE]。當函數位於函數序列中的最後一個，並可確定最終的輸出值時，函數名稱後面會跟著 [!UICONTROL - FINAL OUTPUT]，例如 [!UICONTROL URL PARSE - FINAL OUTPUT]。<br/>若要顯示包含有關該功能的更多資訊快顯視窗，請選取![幫助圖示](assets/Smock_HelpOutline_18_N.svg)。 |
 | C | **規則說明** | 您可以選擇為規則新增說明。<br/>選取「![更多圖示](assets/More.svg)」，然後選取「**[!UICONTROL **&#x200B;新增說明&#x200B;**]**&#x200B;以新增說明，或選取「**[!UICONTROL **&#x200B;編輯說明&#x200B;**]**」以編輯現有說明。<br/>使用編輯器輸入說明。您可以使用工具列來格式化文字 (使用樣式選擇器、粗體、斜體、底線、右、左、居中、顏色、數字清單、項目符號清單) 並新增外部資訊連結。<br/>若要完成編輯說明，請按一下編輯器外部。 |
-| D | **功能區域** | 定義函數的邏輯。介面取決於函數類型。[!UICONTROL 欄位]或[!UICONTROL 值]的下拉式功能表，會根據函式預期的輸入型別，顯示所有可用的欄位類別（規則、標準欄位、欄位）。 或者，您可以將欄位從結構描述和標準欄位選擇器拖放至欄位或值上。當拖曳的欄位是來自查詢資料集時，查詢函數會自動插入您定義的函數之前。<br/>請參閱「[函數引用](#function-reference)」，了解支援的每個功能詳細資訊。 |
+| D | **功能區域** | 定義函數的邏輯。介面取決於函數類型。[!UICONTROL 欄位]或[!UICONTROL 數值]下拉式選單會根據函數期望的輸入類型，顯示所有適用的欄位類別 (規則欄位、標準欄位)。或者，您可以將欄位從結構描述和標準欄位選擇器拖放至欄位或值上。當拖曳的欄位是來自查詢資料集時，查詢函數會自動插入您定義的函數之前。<br/>請參閱「[函數引用](#function-reference)」，了解支援的每個功能詳細資訊。 |
 
 {style="table-layout:auto"}
 
@@ -398,7 +398,7 @@ ht-degree: 89%
 
 ### 州緯度 {#state-latitude}
 
-此函式範本取得美國狀態的緯度，精確度為5位數。
+此函數範本取得美國某一州的緯度，精確度為 5 位數。
 
 +++ 詳細資料
 
@@ -406,14 +406,14 @@ ht-degree: 89%
 
 若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
-![狀態Latitude規則產生器的熒幕擷圖](assets/function-template-state-latitude.png)
+![州緯度規則產生器的螢幕擷圖](assets/function-template-state-latitude.png)
 
 +++
 
 
 ### 州經度 {#state-longitude}
 
-此函式範本取得US狀態的經度，精確度為5位數。
+此函數範本取得美國某一州的經度，精確度為 5 位數。
 
 +++ 詳細資料
 
@@ -421,7 +421,7 @@ ht-degree: 89%
 
 若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
-![狀態經度規則產生器的熒幕擷圖](assets/function-template-state-longitude.png)
+![州經度規則產生器的螢幕擷圖](assets/function-template-state-longitude.png)
 
 +++
 
@@ -464,7 +464,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_casewhen"
 >title="情況"
->abstract="此函數提供了根據一個或多個欄位中定義的標準來套用條件的功能。接著，系統會根據條件的順序，使用這些條件來定義新衍生欄位中的值。"
+>abstract="此函數提供了根據一個或多個欄位中定義的標準來套用條件的功能。然後，使用這些標準根據條件的順序定義新衍生欄位中的值。"
 
 
 根據一個或多個欄位明訂的標準來套用條件。然後，使用這些標準來定義新衍生欄位中的值 (根據條件序列)。
@@ -671,9 +671,9 @@ ht-degree: 89%
 | [!DNL long trip] |
 
 
-## 詳細資訊 {#casewhen-more-info}
+## 更多資訊 {#casewhen-more-info}
 
-Customer Journey Analytics 使用巢狀容器結構，該結構仿照 Adob&#x200B;&#x200B;e Experience Platform 的 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-hant) (體驗資料模型)。如需詳細背景資訊，請參閱[容器](../create-dataview.md#containers)和[區段容器](/help/components/segments/seg-overview.md#containers)。 這種容器模型雖然本質上很靈活，但在使用規則產生器時會施加一些限制。
+Customer Journey Analytics 使用巢狀容器結構，該結構仿照 Adob&#x200B;&#x200B;e Experience Platform 的 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) (體驗資料模型)。請參閱「[容器](../create-dataview.md#containers)」和「[區段容器](/help/components/segments/seg-overview.md#containers)」，了解更多背景資訊。這種容器模型雖然本質上很靈活，但在使用規則產生器時會施加一些限制。
 
 Customer Journey Analytics 會使用以下預設容器模型：
 
@@ -822,7 +822,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 | [!DNL Generate Quote] |
 
 
-## 詳細資訊 {#classify-moreinfo}
+## 更多資訊 {#classify-moreinfo}
 
 分類規則介面還提供以下附加功能：
 
@@ -856,7 +856,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 數值]:<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul></li><li>[!UICONTROL 分隔符號]<ul><li>字串</li></ul></li> </ul> | <p>不適用</p> | <p>每個衍生欄位有 2 個函數</p> | <p>新的衍生欄位</p> |
+| <ul><li>字串</li></ul> | <ul><li>[!UICONTROL 值]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul></li><li>[!UICONTROL 分隔符號]<ul><li>字串</li></ul></li> </ul> | <p>不適用</p> | <p>每個衍生欄位有 2 個函數</p> | <p>新的衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -926,11 +926,11 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 <!-- DATE MATH -->
 
-### 日期數學 {#datemath}
+### 日期計算 {#datemath}
 
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_datemath"
->title="日期數學"
+>title="日期計算"
 >abstract="此函數可以傳回兩個日期或日期時間欄位的差值。人員型欄位 (來自輪廓資料集) 沒有「**[!UICONTROL 傳回第一個]**」和「**[!UICONTROL 傳回最後一個]**」的選項。"
 
 傳回兩個日期或兩個日期時間欄位之間的差異。
@@ -941,51 +941,51 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>日期</li><li>日期和時間</li></ul> | <ul><li>[!UICONTROL 範圍]<ul><li>事件</li><li>工作階段</li><li>人員</li></ul></li><li>[!UICONTROL 數值]:<ul><li>日期</li><li>日期時間</li><li>靜態日期（使用者輸入）</li><li>靜態日期時間（使用者輸入）</li><li>動態的日期<ul><li>今天</li></ul></li><li>動態日期時間<ul><li>現在</li></ul></li></ul></li><li>[!UICONTROL 粒度]：<ul><li>秒</li><li>分鐘</li><li>小時</li><li>日</li><li>週</li><li>月</li><li>季</li><li>年</li></ul></li><li>針對每個日期或日期時間傳回：<ul><li>第一個（在工作階段或人員內）</li><li>上次（在工作階段或人員內）</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位有 2 個函數</p> | <p>新的衍生欄位</p> |
+| <ul><li>日期</li><li>日期時間</li></ul> | <ul><li>[!UICONTROL 範圍]<ul><li>事件</li><li>工作階段</li><li>人員</li></ul></li><li>[!UICONTROL 值]：<ul><li>日期</li><li>日期時間</li><li>靜態日期 (使用者輸入)</li><li>靜態日期時間 (使用者輸入)</li><li>動態日期<ul><li>今天</li></ul></li><li>動態日期時間<ul><li>現在</li></ul></li></ul></li><li>[!UICONTROL 顆粒度]：<ul><li>秒</li><li>分鐘</li><li>小時</li><li>日</li><li>週</li><li>月</li><li>季</li><li>年</li></ul></li><li>針對傳回的每個日期或日期時間：<ul><li>第一個 (在工作階段或個人範圍內)</li><li>最後一個 (在工作階段或個人範圍內)</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位有 2 個函數</p> | <p>新的衍生欄位</p> |
 
 {style="table-layout:auto"}
 
 
 ## 使用案例 1 {#datemath-uc1}
 
-身為飯店公司的行銷分析師，您想要瞭解上週客戶簽到日期與預訂日期之間的天數差異。
+身為飯店公司的行銷分析師，您想要了解上週客戶入住日期與預訂日期之間的天數差異。
 
 
 ### 衍生欄位 {#datemath-uc1-derivedfield}
 
-您定義一個 `Days between booking and check-in` 衍生欄位。您使用[!UICONTROL DATE MATH]函式定義規則，以計算[!UICONTROL 預訂日期]與[!DNL Person]簽到日期[!UICONTROL 之間]範圍的天數。 您選取[!UICONTROL 天]作為[!UICONTROL 輸出粒度]。 而且您選取[!UICONTROL 傳回]預訂日期[!UICONTROL 和]簽到日期[!UICONTROL 的最後一個]，以確保計算中使用最後一個人員範圍的值。
+您定義一個 `Days between booking and check-in` 衍生欄位。您使用 [!UICONTROL DATE MATH] 函數定義規則，計算「[!UICONTROL 預訂日期]」與「[!UICONTROL 入住日期]」之間「[!UICONTROL 範圍]」[!DNL Person]的天數。您選取「[!UICONTROL 天]」做為「[!UICONTROL 輸出顆粒度]」。而且對於「[!UICONTROL 預訂日期]」和「[!UICONTROL 入住日期]」皆選取「[!UICONTROL 傳回最後一個]」，確保計算時使用的是個人範圍內最後的值。
 
-![日期數學規則的熒幕擷圖](assets/datemath-1.png)
+![日期計算規則的螢幕擷圖](assets/datemath-1.png)
 
 
 ## 使用案例 2 {#datemath-uc2}
 
-身為實體店的行銷分析師，您想要瞭解客戶上次造訪商店是在多少天前。 您可以使用行動應用程式內的地理位置功能以及商店中的信標，擷取客戶的實體造訪。
+身為實體店面的行銷分析師，您想要了解客戶上次光臨店面是在多少天前。您使用行動應用程式內的地理定位功能以及商店中的信標來擷取客戶實際造訪的次數。
 
 ### 衍生欄位 {#datemath-uc2-derivedfield}
 
-您定義一個新的 `Days Since Visit To Shop` 衍生欄位。您使用[!UICONTROL DATE MATH]函式來定義規則，以計算自訂日期時間（您在[!UICONTROL Date]中指定）與[!UICONTROL 當地時間] （來自事件資料集的[!UICONTROL placeContext]欄位群組）之間的天數，其中具有[!UICONTROL 人員]的[!UICONTROL 重複資料刪除範圍]。 您選取「[!UICONTROL 傳回最後]」以確保計算中使用[!UICONTROL 當地時間]的最後一個人員範圍值。 選取「日」作為[!UICONTROL 輸出粒度]。
+您定義一個新的 `Days Since Visit To Shop` 衍生欄位。您使用 [!UICONTROL DATE MATH] 函數定義規則，計算「自訂日期時間」(您在「[!UICONTROL 日期]」中指定) 與「[!UICONTROL 當地時間]」(來自事件資料集的 [!UICONTROL placeContext] 欄位群組) 之間的天數，並採用「[!UICONTROL 個人]」[!UICONTROL 作為重複資料刪除範圍]。您選取「[!UICONTROL 傳回最後一個]」以確保計算「[!UICONTROL 當地時間]」使用的是個人範圍內最後的值。選取「天」做為「[!UICONTROL 輸出顆粒度]」。
 
-![日期數學規則2](assets/datemath-2.png)的熒幕擷圖
+![日期計算規則的螢幕擷圖 2](assets/datemath-2.png)
 
-或者，您可以使用方便的「立即動態日期範圍」值，計算現在到[!UICONTROL 當地時間]之間的時間（從事件資料集的[!UICONTROL placeContext]欄位群組）
+或者，您可以使用方便的動態日期範圍值「現在」，計算現在與「[!UICONTROL 當地時間]」(來自事件資料集的 [!UICONTROL placeContext] 欄位群組) 之間的時間
 
-![日期數學規則2a](assets/datemath-2a.png)的熒幕擷圖
+![日期計算規則的螢幕擷圖 2a](assets/datemath-2a.png)
 
 
 ## 使用案例 3 {#datemath-uc3}
 
-您想要瞭解工作階段中的客戶下訂單前的搜尋時間（分鐘）。
+您想要了解在工作階段中的客戶下訂單前的搜尋時間，以分鐘為單位。
 
-您定義新的`Time Between Search And Order In Minutes`衍生欄位，它是兩個[[!UICONTROL CASE WHEN]函式](#case-when)的結果，用來定義[!UICONTROL 搜尋時間]和[!UICONTROL 訂購時間]值。
-然後使用這兩個值來計算差異，其中的[!UICONTROL DATE MATH]函式的[!UICONTROL 範圍]設定為[!UICONTROL 工作階段]，值設定為[!UICONTROL 搜尋時間]和[!UICONTROL 順序時間]，而[!UICONTROL 輸出粒度]設定為[!UICONTROL 分鐘]。 針對這兩個值，您選取[!UICONTROL 傳回第一個]，以確保傳回第一個[!UICONTROL 搜尋時間]和[!UICONTROL 訂購時間]。
+您定義新的 `Time Between Search And Order In Minutes` 衍生欄位，其為兩個 [[!UICONTROL CASE WHEN] 函數](#case-when)的結果，用於定義「[!UICONTROL 搜尋時間]」和「[!UICONTROL 訂購時間]」值。
+然後使用這兩個值來計算差異，其中 [!UICONTROL DATE MATH] 函數的「[!UICONTROL 範圍]」設定為「[!UICONTROL 工作階段]」，值設定為「[!UICONTROL 搜尋時間]」和「[!UICONTROL 訂購時間]」，而「[!UICONTROL 輸出顆粒度]」設定為「[!UICONTROL 分鐘]」。針對這兩個值，您選取「[!UICONTROL 傳回第一個]」，以確保傳回第一個「[!UICONTROL 搜尋時間]」和「[!UICONTROL 訂購時間]」。
 
-![日期數學規則3](assets/datemath-3.png)的熒幕擷圖
+![日期計算規則的螢幕擷圖 3](assets/datemath-3.png)
 
 
-## 詳細資訊 {#datemath-more-info}
+## 更多資訊 {#datemath-more-info}
 
-當您選取以人員為基礎的（從設定檔資料集）欄位時，[!UICONTROL 傳回第一個]或[!UICONTROL 傳回最後一個]的選項無法使用。 以人員為基礎的欄位，個人的「日期」或「日期 — 時間」欄位只能有一個值。
+當您選取以個人為基礎 (從輪廓資料集) 的欄位時，無法使用「[!UICONTROL 傳回第一個]」或「[!UICONTROL 傳回最後一個]」的選項。以個人為基礎的欄位，其中一個人的「日期」或「日期時間」欄位只能有一個值。
 +++
 
 <!-- DEDUPLICATE -->
@@ -1007,7 +1007,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 數值]:<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul></li><li>[!UICONTROL 範圍]<ul><li>個人</li><li>工作階段</li></ul></li><li>[!UICONTROL 重複資料刪除 ID]<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul><li>[!UICONTROL 要保留的值]<ul><li>保留第一個執行個體</li><li>保留最後一個執行個體</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位有 5 個函數</p> | <p>新的衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 值]：<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul></li><li>[!UICONTROL 範圍]<ul><li>個人</li><li>工作階段</li></ul></li><li>[!UICONTROL 重複資料刪除 ID]<ul><li>規則</li><li>標準欄位</li><li>欄位</li><li>字串</li></ul><li>[!UICONTROL 要保留的值]<ul><li>保留第一個執行個體</li><li>保留最後一個執行個體</li></ul></li></ul> | <p>不適用</p> | <p>每個衍生欄位有 5 個函數</p> | <p>新的衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -1028,7 +1028,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### 衍生欄位 {#deduplicate-uc1-derivedfield}
 
-您定義一個 `Booking Confirmation` 衍生欄位。您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以使用[!UICONTROL 重複資料刪除 ID] [!UICONTROL 預訂確認 ID]對[!UICONTROL 範圍]&#x200B;[!DNL Person]的[!UICONTROL 值]&#x200B;[!DNL Booking]進行重複資料刪除。您選取「[!UICONTROL 保留第一個執行個體]」作為「[!UICONTROL 要保留的值]」。
+您定義一個 `Booking Confirmation` 衍生欄位。您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以使用[!UICONTROL 重複資料刪除 ID] [!UICONTROL 預訂確認 ID]對[!UICONTROL 範圍][!DNL Person]的[!UICONTROL 值][!DNL Booking]進行重複資料刪除。您選取「[!UICONTROL 保留第一個執行個體]」作為「[!UICONTROL 要保留的值]」。
 
 ![Concatenate 規則的螢幕截圖](assets/deduplicate-1.png)
 
@@ -1044,7 +1044,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ## 使用案例 2 {#deduplicate-uc2}
 
-您可以使用事件作為外部行銷活動中活動點擊率的代理。重新載入和重新導向會導致事件量度膨脹。您希望對追蹤代碼維度進行重複資料刪除，以便僅收集第一個維度，並最大限度地減少事件重複計數。
+您可以使用事件作為外部行銷活動中活動點擊率的代理。重新載入和重新導向會導致事件量度膨脹。您希望對追蹤程式碼維度進行重複資料刪除，以便僅收集第一個維度，並最大限度地減少事件重複計數。
 
 ### 之前的資料 {#deduplicate-uc2-databefore}
 
@@ -1062,7 +1062,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ### 衍生欄位 {#deduplicate-uc2-derivedfield}
 
-您定義一個新的 `Tracking Code (deduplicated)` 衍生欄位。您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以便對[!UICONTROL 追蹤代碼]進行重複資料刪除，其中有[!UICONTROL 工作階段]的[!UICONTROL 重複資料刪除範圍]，以及[!UICONTROL 保留第一個執行個體]作為「[!UICONTROL 要保留的值]」。
+您定義一個新的 `Tracking Code (deduplicated)` 衍生欄位。您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以便對[!UICONTROL 追蹤程式碼]進行重複資料刪除，其中有[!UICONTROL 工作階段]的[!UICONTROL 重複資料刪除範圍]，以及[!UICONTROL 保留第一個執行個體]作為「[!UICONTROL 要保留的值]」。
 
 ![Concatenate 規則的螢幕截圖](assets/deduplicate-2.png)
 
@@ -1088,7 +1088,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 >title="深度"
 >abstract="此函數可傳回任何欄位的深度，與事件深度標準元件的功能相似。"
 
-傳回欄位深度，類似於現成可用的標準事件深度維度[&#128279;](/help/components/dimensions/overview.md#standard-dimensions)。
+傳回欄位深度，類似於現成可用的[標準事件深度維度](/help/components/dimensions/overview.md#standard-dimensions)。
 
 +++ 詳細資料
 
@@ -1103,18 +1103,18 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ## 使用案例 {#depth-uc1}
 
-您想要瞭解內部搜尋深度（您也可以將其解譯為搜尋次數）。 因此，您稍後可以使用內部搜尋深度，以劃分與特定搜尋深度相關的搜尋字詞。
+您想要了解內部搜尋深度 (您也可以將其解讀為搜尋次數)。因此，您稍後可以使用內部搜尋深度，劃分與特定搜尋深度相關的搜尋字詞。
 
 
 ### 衍生欄位 {#depth-uc1-derivedfield}
 
-您定義一個新的 `Internal Search Depth` 衍生欄位。您使用[!UICONTROL DEPTH]函式定義規則來擷取[!UICONTROL 內部搜尋詞]的深度，並將其儲存在新的衍生欄位中。
+您定義一個新的 `Internal Search Depth` 衍生欄位。您使用 [!UICONTROL DEPTH] 函數定義規則，以擷取[!UICONTROL 內部搜尋詞]的深度，並將其儲存在新的衍生欄位中。
 
-深度規則![的](assets/depth-1.png)熒幕擷圖
+![深度規則的螢幕擷圖](assets/depth-1.png)
 
-然後使用視覺效果中新衍生的欄位，在第一次搜尋時用來搜尋哪些辭彙。
+然後使用視覺化圖表中新的衍生欄位，針對第一次搜尋時用來搜尋的字詞進行劃分。
 
-深度規則![的](assets/depth-1a.png)熒幕擷圖
+![深度規則的螢幕擷圖](assets/depth-1a.png)
 
 +++
 
@@ -1241,7 +1241,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ![Lowercase 規則的螢幕截圖](assets/lookup.png)
 
-## 詳細資訊 {#lookup-more-info}
+## 更多資訊 {#lookup-more-info}
 
 查詢函數在報告時會套用在 Customer Journey Analytics 從您在連線中設定的查詢資料集中擷取的資料。
 
@@ -1368,7 +1368,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 {style="table-layout:auto"}
 
-## 詳細資訊 {#math-more-info}
+## 更多資訊 {#math-more-info}
 
 若要建立公式：
 
@@ -1463,7 +1463,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 {style="table-layout:auto"}
 
-## 詳細資訊 {#merge-fields-moreinfo}
+## 更多資訊 {#merge-fields-moreinfo}
 
 您必須在合併欄位規則中選取相同類型的欄位。例如，如果您選取「日期」欄位，則要合併的所有其他欄位都必須是日期欄位。
 
@@ -1538,7 +1538,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ![合併欄位規則的螢幕截圖](assets/prevnext-next.png)
 
-## 詳細資訊 {#prevnext-moreinfo}
+## 更多資訊 {#prevnext-moreinfo}
 
 您只能選取屬於「造訪」或「事件」表格的欄位。
 
@@ -1580,10 +1580,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 | 頁面 URL |
 |---|
-| `https://business.adobe.com/tw/products/analytics/adobe-analytics-benefits.html` |
-| `https://business.adobe.com/tw/products/analytics/adobe-analytics.html` |
-| `https://business.adobe.com/tw/products/experience-platform/customer-journey-analytics.html` |
-| `https://business.adobe.com/tw/products/experience-platform/adobe-experience-platform.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
 
 {style="table-layout:auto"}
 
@@ -1603,7 +1603,7 @@ Customer Journey Analytics 會使用以下預設容器模型：
 | customer-journey-analytics.html |
 | adobe-experience-platform.html |
 
-## 詳細資訊 {#regex-replace-more-info}
+## 更多資訊 {#regex-replace-more-info}
 
 Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援下列運算式：
 
@@ -1671,7 +1671,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 欄位]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul><ul><li>[!UICONTROL 方法]：</li><ul><li>從左側</li><li>從右側</li><li>轉換為陣列</li></ul></li><li>對於分隔符號：<ul><li>字串</li></ul><li>對於索引：<ul><li>數值</li></ul></li> | <p>不適用</p> | <p>每個衍生欄位有 2 個函數</p> <p>傳回最多10個值</p> | <p>新的衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li></ul> | <ul><li>[!UICONTROL 欄位]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul><ul><li>[!UICONTROL 方法]：</li><ul><li>從左側</li><li>從右側</li><li>轉換為陣列</li></ul></li><li>對於分隔符號：<ul><li>字串</li></ul><li>對於索引：<ul><li>數值</li></ul></li> | <p>不適用</p> | <p>每個衍生欄位有 2 個函數</p> <p>最多回傳 10 個值</p> | <p>新的衍生欄位</p> |
 
 {style="table-layout:auto"}
 
@@ -1819,7 +1819,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 {style="table-layout:auto"}
 
-## 詳細資訊 {#summarize-more-info}
+## 更多資訊 {#summarize-more-info}
 
 使用 Summarize 函數進行以事件、工作階段或人員範圍為主的計算。使用 [Math](#math) 函數進行以點擊層級為主的計算。
 
@@ -1954,7 +1954,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 >title="型別轉換"
 >abstract="此函數可以立即變更欄位類型，讓 Customer Journey Analytics 中的欄位可以進行其他轉換。"
 
-變更欄位的欄位型別，使其可用於Customer Journey Analytics中的其他轉換。
+變更欄位的欄位類型，使其可用於 Customer Journey Analytics 中的其他轉換。
 
 +++ 詳細資料
 
@@ -1962,34 +1962,34 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>數值</li><li>日期</li><li>日期和時間</li><li>字串</li></ul> | <ul><li>[!UICONTROL 欄位] | <p><ul><li>整數<ul><li>至字串</li></ul></li><li>雙精度浮點數<ul><li>至字串<ul><li>包含要繼承的小數位數（「最多5位？」）</li></ul></li><li>至整數</li></ul></li><li>位元組<ul><li>至字串</li></ul></li><li>長整數<ul><li>至字串</li></ul></li><li>日期<ul><li>至字串<ul><li>提供定義輸出格式的功能</li></ul></li><li>範例<ul><li>日期（例如2025年1月7日）<ul><li data-stringify-indent="1" data-stringify-border="0">MM-DD-YY<ul><li data-stringify-indent="2" data-stringify-border="0">例如： 01-07-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM-DD-YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">例如： 01-07-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-YY<ul><li data-stringify-indent="2" data-stringify-border="0">例如： 07-01-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">例如： 07-01-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YY-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">例如： 25-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YYYY-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">例如： 2025-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/DD/YY<ul><li data-stringify-indent="2" data-stringify-border="0">例如： 01/07/25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/DD/YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">例如： 01/07/2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YYYY/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">例如： 2025/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YY/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">例如： 25/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MMM DD, YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">例如： 2025年1月7日</li></ul></li></ul></li></ul></li></ul></li><li>日期和時間<ul><li>至字串<ul><li>提供定義輸出格式的功能</li></ul></li><li>範例<ul><li data-stringify-indent="0" data-stringify-border="0">日期 — 時間（例如2025年1月7日，1:30pm，52秒）<ul><li data-stringify-indent="2" data-stringify-border="0">MM-DD-YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如： 01-07-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM-DD-YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如： 01-07-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如： 07-01-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如： 07-01-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YY-MM-DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如： 25-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YYYY-MM-DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如： 2025-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM/DD/YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如： 01/07/25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM/DD/YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如： 01/07/2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YYYY/MM/DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如： 2025/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YY/MM/DD hh:mm :ss<ul><li data-stringify-indent="3" data-stringify-border="0">例如： 25/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MMM DD, YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如： 2025年1月7日13:30:52</li></ul></li></ul></li></ul></li><li>字串<ul><li>至數值<ul><li>如果值的性質不是數值，則會傳回null。</li><li>我們需要使用者輸入精確度及要使用的地區設定。 </li></ul></li></ul></li></ul></li></ul></p> | <p>每個衍生欄位有 3 個函數</p> | <p>新的衍生欄位</p> |
+| <ul><li>數值</li><li>日期</li><li>日期時間</li><li>字串</li></ul> | <ul><li>[!UICONTROL 欄位] | <p><ul><li>整數<ul><li>轉為字串</li></ul></li><li>雙精度浮點數<ul><li>轉為字串<ul><li>包含要繼承的小數位數 (最多 5 位？)</li></ul></li><li>轉為整數</li></ul></li><li>位元組<ul><li>轉為字串</li></ul></li><li>長整數<ul><li>轉為字串</li></ul></li><li>日期<ul><li>轉為字串<ul><li>提供定義輸出格式的功能</li></ul></li><li>範例<ul><li>日期 (例如 2025 年 1 月 7 日)<ul><li data-stringify-indent="1" data-stringify-border="0">MM-DD-YY<ul><li data-stringify-indent="2" data-stringify-border="0">例如01-07-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM-DD-YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">例如01-07-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-YY<ul><li data-stringify-indent="2" data-stringify-border="0">例如07-01-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">DD-MM-YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">例如07-01-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YY-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">例如25-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YYYY-MM-DD<ul><li data-stringify-indent="2" data-stringify-border="0">例如2025-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/DD/YY<ul><li data-stringify-indent="2" data-stringify-border="0">例如01/07/25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/DD/YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">例如01/07/2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YYYY/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">例如2025/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">YY/MM/DD<ul><li data-stringify-indent="2" data-stringify-border="0">例如25/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MMM DD, YYYY<ul><li data-stringify-indent="2" data-stringify-border="0">例如1 月 7 日，2025 年</li></ul></li></ul></li></ul></li></ul></li><li>日期時間<ul><li>轉為字串<ul><li>提供定義輸出格式的功能</li></ul></li><li>範例<ul><li data-stringify-indent="0" data-stringify-border="0">日期時間 (例如 2025 年 1 月 7 日，1:30pm，52 秒)<ul><li data-stringify-indent="2" data-stringify-border="0">MM-DD-YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如01-07-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM-DD-YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如01-07-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如07-01-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">DD-MM-YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如07-01-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YY-MM-DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如25-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YYYY-MM-DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如2025-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM/DD/YY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如01/07/25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM/DD/YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如01/07/2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YYYY/MM/DD hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如2025/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">YY/MM/DD hh:mm :ss<ul><li data-stringify-indent="3" data-stringify-border="0">例如25/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MMM DD, YYYY hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">例如1 月 7 日，2025 13:30:52</li></ul></li></ul></li></ul></li><li>字串<ul><li>轉為數值<ul><li>如果值的性質不是數值，則會傳回 null。</li><li>我們需要使用者輸入精確度及要使用的地區設定。 </li></ul></li></ul></li></ul></li></ul></p> | <p>每個衍生欄位有 3 個函數</p> | <p>新的衍生欄位</p> |
 
 {style="table-layout:auto"}
 
 
 ## 使用案例 1 {#typecast-uc1}
 
-您有一個整數值位畫面高度（例如事件資料集的device.screenHeight），您想將其當作字串型維度使用。
+您有一個整數欄位畫面高度 (例如事件資料集的 device.screenHeight)，您想做為字串型維度使用。
 
 
 ### 衍生欄位 {#typecast-uc1-derivedfield}
 
-您定義一個 `Screen Height` 衍生欄位。您使用[!UICONTROL TYPECAST]函式定義規則以[!UICONTROL Typecast為] [!UICONTROL 字串] [!UICONTROL 熒幕高度]欄位，並將其儲存在新的衍生欄位中。
+您定義一個 `Screen Height` 衍生欄位。您可以使用 [!UICONTROL TYPECAST] 函數定義一個規則，將「[!UICONTROL 螢幕高度]」欄位進行「[!UICONTROL 型別轉換為]」而變成「[!UICONTROL 字串]」，並將其儲存在新的衍生欄位中。
 
-![Typecast規則1](assets/typecast-1.png)的熒幕擷圖
+![型別轉換規則 1 的螢幕擷圖](assets/typecast-1.png)
 
 
 
 ## 使用案例 2 {#typecast-uc2}
 
-您想在同類群組表格（僅支援整數）中使用「收入」，但「收入」欄位具有「雙倍」型別。
+您想在同類群組表格 (僅支援整數) 中使用「收入」，但「收入」欄位的類型是「雙精度浮點數」。
 
-![Typecast規則2](assets/typecast-2.png)的熒幕擷圖
+![型別轉換規則 2 的螢幕擷圖](assets/typecast-2.png)
 
 
 ### 衍生欄位 {#typecast-uc2-derivedfield}
 
-您定義一個 `Revenue (integer)` 衍生欄位。您使用[!UICONTROL TYPECAST]函式定義規則給[!UICONTROL Typecast to] [!UICONTROL Integer] [!UICONTROL 收入]欄位，並將其儲存在新的衍生欄位中。
+您定義一個 `Revenue (integer)` 衍生欄位。您可以使用 [!UICONTROL TYPECAST] 函數定義一個規則，將「[!UICONTROL 收入]」欄位進行「[!UICONTROL 型別轉換為]」而變成「[!UICONTROL 整數]」，並將其儲存在新的衍生欄位中。
 
 
 +++
@@ -2035,7 +2035,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL &#x200B; 反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
+您定義一個 `Referring Domain` 衍生欄位。您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL  反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
 
 ![Url Parse 規則 1 的螢幕截圖](assets/url-parse-1.png)
 
@@ -2053,7 +2053,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 
 ## 使用案例 2 {#urlparse-uc2}
 
-您想要使用 [!DNL Page URL] 內查詢字串參數的 `cid` 值作為衍生追蹤代碼報告輸出的一部分。
+您想要使用 [!DNL Page URL] 內查詢字串參數的 `cid` 值作為衍生追蹤程式碼報告輸出的一部分。
 
 ### 之前的資料 {#urlparse-uc2-databefore}
 
@@ -2088,8 +2088,8 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 通常，衍生欄位功能適用於以下限制：
 
 - 定義衍生欄位的規則時，最多可以使用十個不同的結構描述欄位 (不包括標準欄位)。
-   - 在最多十個不同的結構描述欄位中，最多只允許三個查詢結構描述或設定檔結構描述欄位。
-- 根據您授權的套件，每個Customer Journey Analytics連線衍生的欄位數可達上限。 如需詳細資訊，請參閱[產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html){target="_blank"}。
+   - 在最多十個不同的結構描述欄位中，最多只允許三個查詢結構描述或輪廓結構描述欄位。
+- 根據您授權的封裝，每個 Customer Journey Analytics 連線衍生欄位數可以設定上限。請參閱[產品描述](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html){target="_blank"}了解更多資訊。
 
 
 ### 函數限制摘要
@@ -2098,10 +2098,10 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 |---|---|
 | <p>情況</p> | <ul><li>每個衍生欄位有 5 個 Case When 函數</li><li>每個衍生欄位有 200 個[運算子](#operators)</li></ul> |
 | <p>分類</p> | <ul><li>每個衍生欄位有 5 個 Classify 函數</li><li>每個衍生欄位有 200 個[運算子](#operators)</li></ul> |
-| <p>串連</p> | <ul><li>每個衍生欄位有 2 個 Concatenate 函數</li><li>每個串連函式3個值</ul> |
-| <p>日期數學</p> | <ul><li>每個衍生欄位2個日期數學函式</li></ul> |
+| <p>串連</p> | <ul><li>每個衍生欄位有 2 個 Concatenate 函數</li><li>每個串連函數 3 個值</ul> |
+| <p>日期計算</p> | <ul><li>每個衍生欄位有 2 個日期計算函數</li></ul> |
 | <p>重複資料刪除</p> | <ul><li>每個衍生欄位有 5 個 Duplicate 函數</li></ul> |
-| <p>深度</p> | <ul><li>每個衍生欄位有3個深度函式</li></ul> |
+| <p>深度</p> | <ul><li>每個衍生欄位有 3 個深度函數</li></ul> |
 | <p>尋找和取代</p> | <ul><li>每個衍生欄位有 2 個 Find &amp; Replace 函數</li></ul> |
 | <p>查詢</p> | <ul><li>每個衍生欄位有 5 個 Lookup 函數</li></ul> |
 | <p>小寫</p> | <ul><li>每個衍生欄位有 2 個 Lowercase 函數</li></ul> |
@@ -2109,10 +2109,10 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。支援�
 | <p>合併欄位</p> | <ul><li>每個衍生欄位有 2 個合併欄位函數</li></ul> |
 | <p>下一個或上一個</p> | <ul><li>每個衍生欄位有 3 個上一個或下一個函數</li></ul> |
 | <p>規則運算式取代</p> | <ul><li>每個衍生欄位有 1 個規則運算式函數</li></ul> |
-| <p>Split</p> | <ul><li>每個衍生欄位有 2 個 Split 函數</li><li>最多傳回10個值</ul> |
+| <p>Split</p> | <ul><li>每個衍生欄位有 2 個 Split 函數</li><li>最多傳回 10 個值</ul> |
 | <p>總結</p> | <ul><li>每個衍生欄位有 3 個加總函數</li></ul> |
 | <p>修剪</p> | <ul><li>每個衍生欄位有 1 個修剪函數</li></ul> |
-| <p>型別轉換</p> | <ul><li>每個衍生欄位3個型別預測函式</li></ul> |
+| <p>型別轉換</p> | <ul><li>每個衍生欄位有 3 個型別轉換函數</li></ul> |
 | <p>URL 剖析</p> | <ul><li>每個衍生欄位有 5 個 URL Pharse 函數</li></ul> |
 
 {style="table-layout:auto"}
@@ -2132,15 +2132,15 @@ Classify 函數中的運算子是[!UICONTROL 「當值等於原始值」] [!UICO
 ![Classify 規則 1 的螢幕截圖](assets/classify-1.png)
 
 
-## 詳細資訊 {#trim-more-info}
+## 更多資訊 {#trim-more-info}
 
 [`Trim`](#trim) 和 [`Lowercase`](#lowercase) 是[資料檢視](../component-settings/overview.md)元件設定中已經可用的功能。使用衍生欄位可讓您合併這些功，可直接在 Customer Journey Analytics 中執行更複雜的資料轉換。例如，您可以使用 `Lowercase` 刪除事件欄位中的區分大小寫，然後使用 [`Lookup`](#lookup) 將新的小寫欄位配對至只有小寫查詢鍵的查詢資料集。或者，您可以使用 `Trim` 在新欄位上設定 `Lookup` 之前刪除字元。
 
-對衍生欄位中查詢和設定檔欄位的支援，可讓您根據事件查詢和設定檔的屬性來轉換資料。在企業對企業的情境中，這項支援對於查詢或設定檔資料集內的帳戶層級資料特別有用。此外，這項支援對於從查詢資料 (如活動資訊和優惠類型) 或設定檔資料 (如會員等級和帳戶類型) 處理公共欄位中的資料很有用。
+對衍生欄位中查詢和輪廓欄位的支援，可讓您根據事件查詢和輪廓的屬性來轉換資料。在企業對企業的情境中，這項支援對於查詢或輪廓資料集內的帳戶層級資料特別有用。此外，這項支援對於從查詢資料 (如活動資訊和優惠類型) 或輪廓資料 (如會員等級和帳戶類型) 處理公共欄位中的資料很有用。
 
 >[!MORELIKETHIS]
 >
->- [部落格：充分利用您的資料：在 Customer Journey Analytics 中使用衍生欄位的框架](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670?profile.language=zh-Hant)
->- [部落格：Customer Journey Analytics 的衍生欄位使用案例](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679?profile.language=zh-Hant)
->- [部落格：Adobe Customer Journey Analytics 衍生欄位增強功能](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808?profile.language=zh-Hant)
+>- [部落格：充分利用您的資料：在 Customer Journey Analytics 中使用衍生欄位的框架](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+>- [部落格：Customer Journey Analytics 的衍生欄位使用案例](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+>- [部落格：Adobe Customer Journey Analytics 衍生欄位增強功能](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
 

@@ -8,7 +8,7 @@ role: User, Admin
 source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '2030'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 19%
 
    {style="table-layout:auto"}
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
 1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱[將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。
 
@@ -106,11 +106,11 @@ ht-degree: 19%
 
    1. 開啟[Microsoft Azure儲存體總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)。
 
-   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***。
+   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***。
 
       >[!NOTE]
       >
-      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**&#x200B;是Azure儲存體總管提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
+      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**是Azure儲存體總管提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
 
 
       ![存取Azure儲存體總管中的檔案](assets/azure-storage-explorer-access.png)
@@ -131,12 +131,12 @@ ht-degree: 19%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **貯體**] | 您想要將Customer Journey Analytics資料傳送至的Amazon S3帳戶中的貯體。 <p>請確定Adobe提供的使用者ARN具有`S3:PutObject`許可權，才能將檔案上傳至此儲存貯體。 </p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **儲存貯體**] | 您想要將Customer Journey Analytics資料傳送至的Amazon S3帳戶中的貯體。 <p>請確定Adobe提供的使用者ARN具有`S3:PutObject`許可權，才能將檔案上傳至此儲存貯體。 </p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如，folder_name/ |
 
    {style="table-layout:auto"}
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
 1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱[將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。
 
@@ -152,12 +152,12 @@ ht-degree: 19%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **貯體**] | 您想要將Customer Journey Analytics資料傳送至的GCP帳戶中的貯體。 <p>確定您已授予Adobe提供之主體的`roles/storage.objectCreator`許可權。 ([設定Google Cloud Platform帳戶](/help/components/exports/cloud-export-accounts.md)時提供主體。) <p>有關授予權限的資訊，請參閱 Google Cloud 文件中的「[新增主體至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)」。</p><p>如果您的組織使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)僅允許在允許清單中的 Google Cloud Platform 帳戶，則您需要以下 Adobe 擁有的 Google Cloud Platform 組織 ID： <ul><li>`DISPLAY_NAME`：`adobe.com`</li><li>`ID`：`178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`：`C02jo8puj`</li></ul> </p> |
+   | [!UICONTROL **儲存貯體**] | 您想要將Customer Journey Analytics資料傳送至的GCP帳戶中的貯體。 <p>確定您已授予Adobe提供之主體的`roles/storage.objectCreator`許可權。 ([設定Google Cloud Platform帳戶](/help/components/exports/cloud-export-accounts.md)時提供主體。) <p>有關授予權限的資訊，請參閱 Google Cloud 文件中的「[新增主體至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)」。</p><p>如果您的組織使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)僅允許在允許清單中的 Google Cloud Platform 帳戶，則您需要以下 Adobe 擁有的 Google Cloud Platform 組織 ID： <ul><li>`DISPLAY_NAME`：`adobe.com`</li><li>`ID`：`178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`：`C02jo8puj`</li></ul> </p> |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如，folder_name/ |
 
    {style="table-layout:auto"}
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
 1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱[將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。
 
@@ -174,11 +174,11 @@ ht-degree: 19%
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **容器名稱**] | 您指定要將Customer Journey Analytics資料傳送至何處的帳戶中的容器。 |
-   | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/`<p>確保設定 Azure SAS 帳戶時，在 Key Vault 密碼名稱欄位中指定的 SAS 權杖儲存體擁有`Write`權限。這樣可讓 SAS 權杖在您的 Azure 容器中建立檔案。 <p>如果您希望 SAS 權杖也覆寫檔案，請確保 SAS 權杖儲存體擁有`Delete`權限。</p><p>有關詳細資訊，請參閱 Azure Blob 儲存文件中的「[Blob 儲存資源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)」 。</p> |
+   | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/`<p>確保設定 Azure SAS 帳戶時，在 Key Vault 密碼名稱欄位中指定的 SAS 權杖儲存體擁有`Write`權限。這樣可讓 SAS 權杖在您的 Azure 容器中建立檔案。 <p>如果您希望 SAS 權杖也覆寫檔案，請確保 SAS 權杖儲存體擁有`Delete`權限。</p><p>如需更多資訊，請參閱 Azure Blob 儲存體文件中的 [Blob 儲存資源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)。</p> |
 
    {style="table-layout:auto"}
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
 1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱[將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。
 
@@ -196,11 +196,11 @@ ht-degree: 19%
    |---------|----------|
    | [!UICONTROL **容器**] | 您指定要將Customer Journey Analytics資料傳送至何處的帳戶中的容器。 確保您授予權限可上傳檔案至先前已建立的 Azure 應用程式。 |
    | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。指定資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/`<p>確保設定 Azure RBAC 帳戶時，您所指定的應用程式 ID 已獲得 `Storage Blob Data Contributor` 角色授權，以便該角色可存取容器 (資料夾)。</p> <p>若要了解更多資訊，請參閱「[Azure 內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)」。</p> |
-   | [!UICONTROL **帳戶**] | Azure儲存體帳戶。 |
+   | [!UICONTROL **帳戶**] | Azure 儲存體帳戶。 |
 
    {style="table-layout:auto"}
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
 1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱[將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。
 
@@ -223,6 +223,6 @@ ht-degree: 19%
 
    {style="table-layout:auto"}
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
 1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱[將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。
