@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [啟用及驗證](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [啟用及驗證](https://video.tv.adobe.com/v/3478131?captions=chi_hant&quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
