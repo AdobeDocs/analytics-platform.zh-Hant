@@ -4,22 +4,19 @@ keywords: Analysis Workspace
 title: 從Workspace報表產生簡報
 feature: Curate and Share
 role: User
-source-git-commit: 06e6dd99d318812447d903f2e14e4daba80d4957
+source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 5%
+source-wordcount: '1699'
+ht-degree: 4%
 
 ---
 
 # 資料storytelling：從Workspace報表產生投影片簡報 {#generate-powerpoint}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->資料Storytelling是[Data Insights Agent](/help/data-analysis-ai.md)下的技能。 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 此功能普遍開放使用時，便會移除此注意事項。有關 Customer Journey Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
+>資料Storytelling是Data Insights Agent下的技能，僅在有限時間內可供符合資格的客戶使用。 對Data Insights Agent的存取將於2026年2月28日結束。 若要繼續使用Data Insights Agent或其他Adobe Experience Platform代理程式而不中斷，請聯絡您的Adobe客戶代表以瞭解授權Adobe Experience Platform Agent Orchestrator的更多資訊。
 
-<!-- also remove lmited testing note from: /help/technotes/access-control.md -->
-
-<!--at GA in January, replace Limited Testing note with this: Data Storytelling is a skill under Data Insights Agent and is available to eligible customers for a limited time. Access to Data Insights Agent will end on 28th February 2026. To continue using Data Insights Agent or other Adobe Experience Platform Agents without interruption, please contact your Adobe account representative to learn more about licensing Adobe Experience Platform Agent Orchestrator. -->
 
 具有[必要許可權](#permission-requirements-to-generate-slides)的使用者可以根據Analysis Workspace專案自動產生.pptx簡報。 在產生這些投影片簡報時，Customer Journey Analytics會識別關鍵深入分析，並將其轉換為利害關係人就緒的投影片，自動從您的資料建立故事。
 

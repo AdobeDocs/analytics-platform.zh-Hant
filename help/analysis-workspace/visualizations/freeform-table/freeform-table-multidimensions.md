@@ -3,12 +3,10 @@ title: 在自由格式表格中包含多個維度
 description: 瞭解如何在自由格式表格中包含多個維度
 feature: Visualizations
 role: User
-hide: true
-hidefromtoc: true
-source-git-commit: 77acfaf2d186e7fe7d6b9d973af5dedb3956f5d5
+source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 2%
+source-wordcount: '829'
+ht-degree: 1%
 
 ---
 
@@ -59,95 +57,11 @@ ht-degree: 2%
 
 1. 以單一維度專案的形式檢視表格的每一列。 如需詳細資訊，請參閱[串連維度專案](#concatenated-dimension-items)。
 
-## 篩選表格
+## 篩選和排序表格
 
-您可以將篩選器套用至自由表格中的一或多個維度欄。
+您可以對自由格式表格中的欄套用篩選和排序。 您可以依任何欄排序自由表格的資料，無論該欄是維度或量度皆然。 您甚至可以同時依多個欄排序。
 
-如需篩選表格的詳細資訊，請參閱[篩選及排序自由表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables)中的[篩選表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
-
-## 排序表格 {#sort-tables}
-
-<!--At GA, move this section into the "Filter and sort tables" article and replace the current "Sort tables" section. Change the "Filter tables" section above to "Filter and sort tables" and link to the other article. Also add row to Guardrails -->
-
-您可以依Analysis Workspace中的任何欄排序自由表格的資料，不論是維度或量度皆然。
-
-依預設，維度會依遞增順序排序，量度則依遞減順序排序。
-
-### 依單一欄排序表格
-
-依照本節所述排序單一資料行的資料時，套用至資料表的所有[進階排序](#sort-tables-by-multiple-columns-advanced-sorting)都會被移除。
-
-若要依單一欄排序表格中的資料，請執行下列動作：
-
-1. 將游標移至您要排序的資料行標頭上，然後選取&#x200B;**排序**&#x200B;圖示![排序](/help/assets/icons/SortOrderDown.svg) （當它出現時）。
-
-   ![排序下拉式功能表](assets/sort-dropdown-menu.png)
-
-1. 選取&#x200B;**[!UICONTROL 遞增]**&#x200B;或&#x200B;**[!UICONTROL 遞減]**。
-
-   將排序套用至欄時，排序圖示保持可見。 箭頭表示資料的排序方式（![排序](/help/assets/icons/SortOrderUp.svg)為遞增或![排序](/help/assets/icons/SortOrderDown.svg)為遞減）。
-
-### 依多個欄排序表格（進階排序）
-
-<!-- add this back in when move this section back to the filter and sort article: {{release-limited-testing-section}} -->
-
-#### 將排序套用至多個欄
-
-若要依多欄排序表格中的資料，請執行下列動作：
-
-1. 將游標移至您要排序之任何資料行的標頭上，然後選取&#x200B;**排序**&#x200B;圖示![排序](/help/assets/icons/SortOrderDown.svg) （當它出現時）。
-
-   ![排序下拉式功能表](assets/sort-dropdown-menu.png)
-
-1. 選取&#x200B;**[!UICONTROL 進階排序]**。
-
-   ![進階排序對話方塊](assets/sort-advanced-dialog.png)
-
-1. 在進階排序對話方塊中，執行下列任一項作業：
-
-   * 選取&#x200B;**[!UICONTROL 新增排序資料行]**&#x200B;按鈕，以新增尚未排序的資料行。
-
-   * 選取&#x200B;**移除**&#x200B;圖示![移除](/help/assets/icons/Close.svg)，移除您不再想要排序的欄。
-
-   * 在清單中上下拖曳欄，以調整排序優先順序。
-
-     如需詳細資訊，請參閱[排序優先順序](#sort-priority)。
-
-   * 在下拉式功能表中選取&#x200B;**[!UICONTROL 遞增]**&#x200B;或&#x200B;**[!UICONTROL 遞減]**，以變更排序值。
-
-   * 選取欄名稱下拉式功能表，以選取不同的欄。
-
-1. 選取&#x200B;**[!UICONTROL 「套用」]**。
-
-將排序套用至欄時，排序圖示仍會保持可見。 箭頭表示資料的排序方式（![排序](/help/assets/icons/SortOrderUp.svg)為遞增或![排序](/help/assets/icons/SortOrderDown.svg)為遞減）。
-
-![多重排序範例](assets/dimensions-multiple-sort.png)
-
-#### 排序優先順序
-
-當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序排序。 優先順序編號會顯示在排序圖示![排序優先順序圖示](assets/sort-priority-icon.png)旁邊。
-
-具有主要優先順序的欄決定主要順序；具有次要優先順序的欄決定列在主要欄中具有相同值的順序；具有第三優先順序的欄決定列在主要欄和次要欄中具有相同值的順序；依此類推。
-
-例如，假設表格中包含下列資料欄：
-
-* 日期（維度）
-
-* 小時（維度）
-
-* 事件（量度）
-
-您可以為每個欄指派排序優先順序，如下所示：
-
-| 欄（元件）名稱 | 元件類型 | 排序優先順序 |
-|---------|----------|---------|
-| 當月日期 | 維度 | 1 |
-| 小時 | 維度 | 2 |
-| 活動 | 量度 | 3 |
-
-藉由為每一欄指定排序優先順序，您可以精確控制資料在表格中的顯示方式。 在此範例中，資訊會先依月中的日排序，再依日中的小時排序，最後依事件排序。
-
-![多重排序範例](assets/dimensions-multiple-sort.png)
+如需詳細資訊，請參閱[篩選和排序自由表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
 
 ## 多個維度欄和劃分
 
