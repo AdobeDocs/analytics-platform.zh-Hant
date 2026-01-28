@@ -4,10 +4,10 @@ title: 篩選與排序
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
+source-git-commit: 696bd0db44949162307d8ce7d2debed351a76cd6
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 45%
+source-wordcount: '1575'
+ht-degree: 46%
 
 ---
 
@@ -188,7 +188,7 @@ Note: this option does not seem to work. AN-338422
 
 #### 排序優先順序
 
-當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序排序。 優先順序編號會顯示在排序圖示![排序優先順序圖示](assets/sort-priority-icon.png)旁邊。
+當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序排序。 排序圖示![SortOrderDown](/help/assets/icons/SortOrderDown.svg)<sup>➊</sup>旁會顯示優先順序編號。
 
 具有主要優先順序的欄決定主要順序；具有次要優先順序的欄決定列在主要欄中具有相同值的順序；具有第三優先順序的欄決定列在主要欄和次要欄中具有相同值的順序；依此類推。
 

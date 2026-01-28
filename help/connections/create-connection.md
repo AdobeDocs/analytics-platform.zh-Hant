@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: a2b2436bb5db0167c94a20b72bc53df338205ed6
+source-git-commit: 5993d4cd8d0d6564e0f5f76ac9af280434a03564
 workflow-type: tm+mt
-source-wordcount: '8731'
-ht-degree: 100%
+source-wordcount: '8728'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="connection_change_personid"
 >title="變更個人 ID"
->abstract="變更個人 ID 會刪除連線中所有現有資料，並根據新的個人 ID 重新收錄資料集中所有資料。這個動作可能會產生成本支出。<br/><br/>當您選擇「**[!UICONTROL 繼續]**」時，報告可能會延遲，直到該程序完成為止。"
+>abstract="變更人員ID將會刪除連線中的所有現有資料。 您必須根據新人員ID從資料集中重新內嵌資料。<br/><br/>當您選取&#x200B;**[!UICONTROL 繼續]**&#x200B;時，在刪除程式完成之前，報告可能會延遲。"
 
 >[!CONTEXTUALHELP]
 >id="connection_change_accountid"
@@ -838,5 +838,5 @@ Customer Journey Analytics 支援以「身分識別對應」作為個人 ID。 �
 >[!MORELIKETHIS]
 >
 >* [資料攝取概觀](/help/data-ingestion/data-ingestion.md)
->* 部落格：[如何在 Adobe Customer Journey Analytics 中善用事件、查詢和輪廓資料集](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=zh-Hant)
+>* 部落格：[如何在 Adobe Customer Journey Analytics 中善用事件、查詢和輪廓資料集](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
 
