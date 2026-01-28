@@ -3,10 +3,10 @@ title: 最新的 Customer Journey Analytics 發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3955f7c8da90481610328c0657b33e81ad6c0057
+source-git-commit: 94dffc915f624309bca4709ba9140b64b3e3aa41
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 46%
+source-wordcount: '986'
+ht-degree: 45%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 46%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **在Customer Journey Analytics中從Experience Platform設定檔資料集分析對象** | 您現在可以將Experience Platform設定檔資料集中的對象會籍資料擷取到Customer Journey Analytics連線。 對象會成為新的維度，以便在Analysis Workspace中使用。<p>透過Customer Journey Analytics中的新功能可擷取XDM物件對應，以便擷取設定檔AudienceID。</p><p>之前，只有簡單的XDM對應可以擷取到Customer Journey Analytics。</p><p>除了可以在Analysis Workspace中將受眾資料新增為維度至任何專案外，以下新的Workspace範本也可供使用：</p><ul><li>Audience Analytics概觀</li><li>同意原則概觀</li></ul><p>如需詳細資訊，請參閱[對象分析總覽](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/audience-analysis/audience-analysis-overview.html?lang=zh-Hant)。</p> | 2025 年 10 月 22 日 | 2026年1月27日 <p> （原計畫於2026年1月22日推出）</p> |
+| **在Customer Journey Analytics中從Experience Platform設定檔資料集分析對象** | 您現在可以將Experience Platform設定檔資料集中的對象會籍資料擷取到Customer Journey Analytics連線。 對象會成為新的維度，以便在Analysis Workspace中使用。<p>透過Customer Journey Analytics中的新功能可擷取XDM物件對應，以便擷取設定檔AudienceID。</p><p>之前，只有簡單的XDM對應可以擷取到Customer Journey Analytics。</p><p>除了可以在Analysis Workspace中將受眾資料新增為維度至任何專案外，以下新的Workspace範本也可供使用：</p><ul><li>Audience Analytics概觀</li><li>同意原則概觀</li></ul><p>如需詳細資訊，請參閱[對象分析總覽](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/audience-analysis/audience-analysis-overview.html)。</p> | 2025 年 10 月 22 日 | 2026年1月27日 <p> （原計畫於2026年1月22日推出）</p> |
 | **述說資料的故事：從 Workspace 報告產生投影片簡報** | 您現在可以根據 Analysis Workspace 報告自動產生投影片簡報 (採用 .pptx 格式)。Workspace 會偵測報告中的關鍵洞察，並將其轉換為適合利害關係人使用的投影片。<p>此功能可減少呈現分析結果、建立利於管理層理解的報告敘事及傳達分析對業務之影響所需的時間和精力。</p><p>如需詳細資訊，請參閱[述說資料的故事：從 Workspace 報告產生投影片簡報](/help/analysis-workspace/curate-share/generate-slides.md)。</p> | 2025 年 10 月 22 日 | 2026年1月28日 |
 | **在自由格式表格中包含多個維度資料行** | 您現在可以在自由表格中包含最多5個維度欄，讓您並排檢視多個維度專案。 每一列維度專案的行為類似於單一串連維度專案。<p>您可以將篩選器、排序、劃分等套用至具有多個維度欄的自由格式表格，以建立更深入、更自訂的分析。</p><p>過去，自由表格中只能包含1個維度欄。</p><p>如需詳細資訊，請參閱[在自由格式表格中包含多個維度資料行](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)。</p> | 2026年1月28日 | 2026年2月18日 |
-| **依多個資料行排序資料表** | 您現在可以在Analysis Workspace中依多個欄排序自由表格的資料，無論其為維度或量度皆然。<p>當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序排序。 優先順序編號會顯示在排序圖示旁。</p><p>(文件連結待補充。)<!-- For more information, see "Filter and sort freeform tables". (need to move info to this article from "Include multiple dimension columns in a freeform table") --></p> | 2026年1月28日 | 2026年2月18日 |
+| **依多個資料行排序資料表** | 您現在可以在Analysis Workspace中依多個欄排序自由表格的資料，無論其為維度或量度皆然。<p>當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序排序。 優先順序編號會顯示在排序圖示旁。</p><p>如需詳細資訊，請參閱[篩選和排序自由格式表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables-by-multiple-columns-advanced-sorting)中的[依多個資料行排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。</p> | 2026年1月28日 | 2026年2月18日 |
 | **合併來自多個IMS組織的資料來源** | 您現在可以使用Analytics Source Connector來合併來自多個IMS組織的多個資料來源。 這可讓組織擁有其客戶資料的合併檢視，即使該客戶資料散佈在多個IMS組織中亦然。 <p>**注意：**&#x200B;此設定只能透過向Adobe客戶服務提交請求來使用。</p>  <p>(文件連結待補充。)</p> |  | 2026 年 1 月 30 日 |
 | **在連線中進行拼接** | Customer Journey Analytics中的拚接程式現在更簡單。 現在只需將資料攝取至 Customer Journey Analytics 中即可完成拼接，而不是複製資料集並在重複的資料集上套用拼接，因此不需要使用重複的資料集和結構描述。 <p>此外，您現在可以[透過更新的連線介面](/help/stitching/use-stitching-ui.md)自行開始彙整，而不必透過Adobe客戶服務請求彙整。</p><p> *先前公告的發行日期已延遲，因為需要額外的努力和節日季節。 目前規劃分階段推出，以確保穩定性，並盡量減少假期期間的干擾。*</p> | 2025 年 10 月 28 日 | 2026 年 1 月 30 日 |
 | **支援 Data Mirror** | 藉由支援 Experience Platform 中特定來源連接器的模型式結構描述和變更資料擷取 (CDC) 功能，Customer Journey Analytics 將能夠支援如 [!DNL Snowflake]、[!DNL Azure Databricks] 和 [!DNL Google BigQuery] 等資料倉儲解決方案的[資料鏡像](/help/data-mirror/data-mirror.md)功能。<p>若要存取 Beta 版，請聯絡您的 Adobe 帳戶團隊。</p> | Beta 版：2025 年 9 月 24 日 | 待定 |
