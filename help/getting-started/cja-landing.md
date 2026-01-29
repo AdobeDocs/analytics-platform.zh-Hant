@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
+source-git-commit: b8c9acfe8fef4543557f87c81079babdc8097b64
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 91%
 
 ---
 
@@ -23,103 +23,43 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 >[!BEGINTABS]
 
->[!TAB 即時報告*]
+>[!TAB 在連線中拼接]
 
-Customer Journey Analytics 中的即時報告，會即時顯示並更新 Analysis Workspace 中一或多個面板內的資料和視覺效果。
+您現在可以直接在Customer Journey Analytics連線UI中設定和啟用事件資料集的拼接。
+
+[![影像](assets/learn-more-button.svg)](/help/stitching/use-stitching-ui.md)
+
+*_您至少必須有Select封裝才能啟用拼接。_*
+
+
+>[!TAB 對象分析]
+
+對象分析可讓您將對象成員資格資料從Experience Platform設定檔資料集擷取到Customer Journey Analytics連線。
+
+[![影像](assets/learn-more-button.svg)](/help/connections/audience-analysis/analyze-audiences.md)
+
+
+>[!TAB 即時報告]
+
+Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis Workspace 中一個或多個面板內的資料和視覺化呈現內容。
 
 [![影像](assets/learn-more-button.svg)](/help/components/real-time/real-time.md)
 
 *_您必須具備 Ultimate 套件才能使用即時報告。_*
 
+
 >[!TAB B2B Edition]
 
-Customer Journey Analytics B2B Edition 提供可行的客戶深入解析來推動收入增長，幫助 B2B 公司的行銷、銷售和產品團隊朝一致目標邁進。由於客戶是資料模型的中心，因此所有分析皆以客戶歷程為主。
+Customer Journey Analytics B2B Edition 透過提供可操作的客戶洞察來推動收入成長，幫助 B2B 公司協調其行銷、銷售和產品團隊。由於客戶是資料模型的中心，因此所有分析皆以客戶歷程為主。
 
 [![影像](assets/learn-more-button.svg)](/help/getting-started/cja-b2b-edition.md)
 
->[!TAB 衍生欄位函數]
-
-新衍生欄位函數：[日期數學](/help/data-views/derived-fields/derived-fields.md#date-math)、[深度](/help/data-views/derived-fields/derived-fields.md#depth)和[類型轉換](/help/data-views/derived-fields/derived-fields.md#typecast)。
-
-[![影像](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB Content Analytics]
 
-透過 Content Analytics，您可以快速且輕鬆地調查大量內容資料，從中發現趨勢、找出異常處、識別內容疲勞，並從內容曝光中獲取深入分析。
+透過 Content Analytics，您可以快速且輕鬆地調查大量內容資料，從中發現趨勢、找出異常處、識別內容疲勞，並從內容曝光中獲取洞察。
 
 [![影像](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
-
->[!TAB 事件深度]
-
-事件深度是一個新的標準維度，提供新的方法來測量及更加理解事件在客戶工作階段的發生順序。事件深度維度可以針對特定事件發生於工作階段內使用者互動順序流程中的位置，進行詳細追蹤和分析。
-
-[![影像](assets/learn-more-button.svg)](/help/components/dimensions/overview.md#standard-dimensions)
-
-
->[!TAB 共用的量度和維度]
-
-共用的量度和維度提供了一個集中的位置，用以管理能在任意數量的資料視圖中使用的維度和量度。這些元件對於使用多個資料視圖的組織別具價值，尤其是在這些資料視圖共用相同元件設定的情況下。
-
-[![影像](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
-
-
-<!--
->[!TAB AI Assistant] 
-
-AI Assistant is a conversational experience that allows practitioners to perform tasks at a fast pace - whether its understanding concepts, troubleshooting problems, or searching through information. It also allows non-experts to perform expert tasks and increases the overall quality of work.
-
-[![image](assets/learn-more-button.svg)](/help/ai-assistant.md)
-
-
->[!TAB Guided Analysis] 
-
-Guided Analysis is now available directly from within Analysis Workspace, enabling users to create dashboards with comprehensive insights from panels, visualizations, and guided analyses.
-
-[![image](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
-
-
-
->[!TAB Intelligent captions v2] 
-
-Intelligent captions are now supported, with additional interface improvements, for [Line](/help/analysis-workspace/visualizations/line.md) (including multi-line), [Bar](/help/analysis-workspace/visualizations/bar.md), [Horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md), [Area](/help/analysis-workspace/visualizations/area.md) (including multiple Area lines), [Donut](/help/analysis-workspace/visualizations/donut.md), [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), and [Flow](/help/analysis-workspace/visualizations/c-flow/flow.md) visualizations.
-
-[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-
-
->[!TAB Alerts] 
-
-Alerts allow you to be notified based on changed percentages or specific data points. You can preview how often an alert will trigger, send alerts by email or SMS, create stacked alerts, and more.
-
-[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-
-
->[!TAB Summary data] 
-
-Allows you to bring in time-series data that does not have a person ID. This time-series data can be used to support various use cases, such as 
-
-- Presenting high-level performance indicators as part of or next to event-level data. 
-- Uploading targets or goals at an hourly or daily basis, then positioning these targets or goals against event-level metrics. 
-
-[![image](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
-
--->
-
->[!TAB 圖表式匯整*]
-
-圖表式匯整功能可讓您使用 Experience Platform 身分識別服務中的身分識別圖來更清楚地掌握客戶歷程，方法包括： <ul><li>無需擷取、轉換並載入額外資料來反映單一識別碼，即可連接不同識別碼的資料集。</li> <li>在資料集之間共用身分識別，以提高單一資料集的首選或黃金身分識別涵蓋範圍，</li><li>讓 Real-Time Customer Data Platform 和 Journey Optimizer 中建立的輪廓與 Customer Journey Analytics 中的人員保持一致。</li></ul>
-
-[![影像](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
-
-*_您必須擁有 Prime 套件才能進行圖表式匯整。_*
-
->[!TAB BI 擴充功能*]
-
-BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的資料視圖。現在您可以使用自己喜歡的 BI 工具 (Power BI Desktop、Tableau Desktop、Looker、Juyter Notebook 和 RStudio)，根據與 Customer Journey Analytics 使用者在其 Analysis Workspace 專案中使用之相同的資料視圖，建立報告和儀表板。提供[使用案例](/help/use-cases/data-views/bi-extension-usecases.md)。
-
-[![影像](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
-
-*_您必須擁有 Select 套件或更高版本才能使用 BI 擴充功能。_*
-
 
 >[!ENDTABS]
 
@@ -139,7 +79,7 @@ BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的�
     </td>
     <td>
     <a href="/help/guided-analysis/overview.md"><img src="./assets/product-analytics.png"></a>
-    <div><strong>引導式分析</strong><br/>了解如何使用工作流程來獲取有關客戶產品體驗的資料和深入解析。透過引導分析進行 Product Analytics...
+    <div><strong>引導式分析</strong><br/>了解如何使用工作流程來獲取有關客戶產品體驗的資料和洞察。透過引導分析進行 Product Analytics...
     </div>
     </td>
     <td>
@@ -158,7 +98,7 @@ BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的�
 
 ## 探索文件
 
-了解如何比較 Customer Journey Analytics 和 Adobe Analytics。同時，了解如何在解決方案中取得您的資料，然後準備、檢視、分析大眾化這些資料和產生的報告，並且使這些資料和最終報告普及化。
+了解如何比較 Customer Journey Analytics 和 Adobe Analytics。同時，了解如何在解決方案中取得您的資料，然後準備、檢視、分析和民主化這些資料和其產生的分析結果與報告。
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -205,4 +145,4 @@ BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的�
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>隨時掌握情況、為社群做出貢獻並提升您的 Customer Journey Analytics 體驗！</b><br>瀏覽 Adob​​e Analytics 社群，以便與其他從業者討論功能。<a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant">立即加入社群！</a></td></tr></tbody></table>
+<b>隨時掌握情況、為社群做出貢獻並提升您的 Customer Journey Analytics 體驗！</b><br>瀏覽 Adob​​e Analytics 社群，以便與其他從業者討論功能。<a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">立即加入社群！</a></td></tr></tbody></table>
