@@ -192,10 +192,10 @@ GROUP BY 1
       1. 從&#x200B;**[!UICONTROL 量值型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 總和]**。
       1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;的自訂欄位名稱。 例如：`Sum of Purchase Revenue`。
       1. 選取&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;標籤。
-      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**輸入。
+      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**&#x200B;輸入。
          ![Looker自訂量度欄位](../assets/uc5-looker-customfield.png)
       1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
-1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5}欄上選取]** 1} （**[!UICONTROL 遞減，排序順序： 1]**）。****
+1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5&rbrace;欄上選取]** 1&rbrace; （**[!UICONTROL 遞減，排序順序： 1]**）。**&#x200B;**
 1. 選取&#x200B;**[!UICONTROL 執行]**。
 1. 選取‣**[!UICONTROL 視覺效果]**。
 
@@ -245,7 +245,7 @@ FETCH NEXT 500 ROWS ONLY
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。
+1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。
 
    ```R
    ## Dimension 1 Sorted

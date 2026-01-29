@@ -211,8 +211,8 @@ GROUP BY 1
 1. 從左側邊欄的&#x200B;**[!UICONTROL ‣ Cc資料檢視]**&#x200B;區段：
    1. 選取&#x200B;**[!UICONTROL 產品名稱]**。
    1. 在左側邊欄（底部）中選取&#x200B;**[!UICONTROL MEASURES]**&#x200B;底下的&#x200B;**[!UICONTROL 計數]**。
-1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5}欄上選取]** 1} （**[!UICONTROL 遞減，排序順序： 1]**）。****
-1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5}欄上選取]** 1} （**[!UICONTROL 遞減，排序順序： 1]**）。****
+1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5&rbrace;欄上選取]** 1&rbrace; （**[!UICONTROL 遞減，排序順序： 1]**）。**&#x200B;**
+1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5&rbrace;欄上選取]** 1&rbrace; （**[!UICONTROL 遞減，排序順序： 1]**）。**&#x200B;**
 1. 選取&#x200B;**[!UICONTROL 執行]**。
 1. 選取‣**[!UICONTROL 視覺效果]**。
 
@@ -260,7 +260,7 @@ FETCH NEXT 5 ROWS ONLY
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。
+1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。
 
    ```R
    ## Dimension 1 Limited

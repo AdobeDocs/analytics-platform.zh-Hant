@@ -153,7 +153,7 @@ ht-degree: 1%
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ```{r} `到` ``` `之間的下列陳述式。 請確定您使用適當的篩選器名稱。 例如，`Fishing Products`。
+1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。 請確定您使用適當的篩選器名稱。 例如，`Fishing Products`。
 
    ```R
    ## Dimension filtered by name
