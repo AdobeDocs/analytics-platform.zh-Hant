@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 3479227eb703583255d40de3d07d071ad2f89950
+source-git-commit: 32997d0fd9801099a75287f63197d3b4c2ba81ef
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 3%
+source-wordcount: '938'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 當您[建立連線](/help/connections/create-connection.md#dataset-settings)或當您[編輯連線](/help/connections/create-connection.md)時，您可以將拼接啟用為事件資料集之[資料集設定](/help/connections/manage-connections.md#edit-a-connection)的一部分。
 
-## 必要條件
+## 先決條件
 
 若要啟用連線UI中事件資料集的拼接功能：
 
@@ -136,7 +136,13 @@ ht-degree: 3%
 
 1. 從&#x200B;**[!UICONTROL 回顧視窗]**&#x200B;下拉式功能表中選取回顧視窗。 可用選項取決於您有權使用的Customer Journey Analytics套件。
 
-儲存連線後，針對啟用拼接功能的資料集進行的拼接程式會在開始擷取這些資料集的資料時啟動
+儲存連線後，針對已啟用拼接功能的資料集進行的拼接程式會在開始擷取這些資料集的資料時啟動。
+
+>[!CAUTION]
+>
+>對於在連線介面中啟用拼接的資料集，回填狀態會立即並錯誤回報為![狀態綠色](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _回填已完成]**，因為回填已完成數目。 使用其他方法驗證是否回填了拼接資料集中的資料。
+>
+
 
 ## 限制
 
