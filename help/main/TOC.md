@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
+source-git-commit: a8c158e66b66f2110df12fac794b2223f1922b1f
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 99%
+source-wordcount: '1363'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
       + [概觀](../getting-started/cja-overview.md)
       + [快速入門指南](../getting-started/cja-getting-started.md)
       + [登陸頁面](../getting-started/landing.md)
-      + [常見問題](../getting-started/cja-faq.md)
+      + [常見問題集](../getting-started/cja-faq.md)
       + [和 BI 解決方案比較](../getting-started/cja-vs-bi.md)
       + [AI 助理](../ai-assistant.md)
       + [Data Insights 代理](../data-analysis-ai.md)
@@ -100,8 +100,8 @@ ht-degree: 99%
          + [使用 Adobe Journey Optimizer 進行個人化](/help/getting-started/cja-upgrade/cja-upgrade-personalization-journeyoptimizer.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
-      + [使用 Adobe Analytics 資料 &#x200B;](../getting-started/aa-vs-cja/aa-data-in-cja.md)
-      + [對應Adobe Analytics資料](../getting-started/aa-vs-cja/mapping-data-ims-orgs.md)
+      + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [對應 Adobe Analytics 資料](../getting-started/aa-vs-cja/mapping-data-ims-orgs.md)
       + [功能支援](../getting-started/aa-vs-cja/cja-aa.md)
       + [比較術語](../getting-started/aa-vs-cja/terminology.md)
       + [比較資料處理](../getting-started/aa-vs-cja/data-processing-comparisons.md)
@@ -343,7 +343,7 @@ ht-degree: 99%
    + 客群發佈 {#audiences}
       + [客群發佈概觀](../components/audiences/audiences-overview.md)
       + [建立及發佈客群](../components/audiences/publish.md)
-      + [管理發布的對象](../components/audiences/manage.md)
+      + [管理已發佈的客群](../components/audiences/manage.md)
    + 維度 {#dimensions}
       + [概觀](../components/dimensions/overview.md)
       + [預覽維度](../components/dimensions/view-dimensions.md)
@@ -400,7 +400,7 @@ ht-degree: 99%
       + [概觀](/help/components/c-intelligent-alerts/intelligent-alerts.md)
       + [建立警報](/help/components/c-intelligent-alerts/alert-builder.md)
       + [管理警報](/help/components/c-intelligent-alerts/alert-manager.md)
-      + [功能比較 &#x200B;](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [功能比較 ](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [使用案例](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + 匯出 {#exports}
       + [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)
@@ -409,11 +409,11 @@ ht-degree: 99%
       + [管理匯出](/help/components/exports/manage-exports.md)
       + [管理匯出記錄](/help/components/exports/manage-export-logs.md)
       + [疑難排解匯出](/help/components/exports/troubleshoot-exports.md)
-   + 資料字典 {#data-dictionary}
+   + 資料字母排序 {#data-dictionary}
       + [概觀](../components/data-dictionary/data-dictionary-overview.md)
-      + [檢視資料字典中的元件資訊](../components/data-dictionary/view-data-dictionary.md)
-      + [編輯資料字典中的元件條目](../components/data-dictionary/edit-entries-data-dictionary.md)
-      + [監視資料字典健康狀況](../components/data-dictionary/monitor-data-dictionary-health.md)
+      + [檢視資料字母排序中的元件資訊](../components/data-dictionary/view-data-dictionary.md)
+      + [編輯資料字母排序中的元件條目](../components/data-dictionary/edit-entries-data-dictionary.md)
+      + [監視資料字母排序健康狀況](../components/data-dictionary/monitor-data-dictionary-health.md)
    + 即時報告 {#real-time-reporting}
       + [概觀](/help/components/real-time/real-time.md)
       + [使用即時報告](/help/components/real-time/use-real-time.md)
@@ -442,8 +442,8 @@ ht-degree: 99%
 
 + 拼接 {#stitching}
    + [概觀](/help/stitching/overview.md)
-   + [欄位式拼接](/help/stitching/fbs.md)
-   + [圖表式拼接](/help/stitching/gbs.md)
+   + [欄位型拼接](/help/stitching/fbs.md)
+   + [圖表型拼接](/help/stitching/gbs.md)
    + [請求拼接](/help/stitching/use-stitching.md)
    + [使用匯整](/help/stitching/use-stitching-ui.md)
    + [驗證拼接](/help/stitching/validate.md)
@@ -489,12 +489,29 @@ ht-degree: 99%
       + [查詢服務和匯出資料集](../use-cases/data-export/queryservice-export-datasets.md)
    + 資料攝取 {#data-ingestion}
       + [收錄並使用 Marketo Engage 資料](../use-cases/data-ingestion/marketo.md)
-      + [收錄並使用 Experience Platform 對象](../use-cases/data-ingestion/ingest-aep-segments.md)
+      + [收錄並使用 Experience Platform 客群](../use-cases/data-ingestion/ingest-aep-segments.md)
    + 資料檢視 {#data-views}
       + [資料檢視使用案例](/help/use-cases/data-views/data-views-usecases.md)
       + [使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)
       + [使用摘要資料](/help/use-cases/data-views/summary-data.md)
-      + [BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)
+      + BI 擴充功能 {#bi-extension}
+         + [使用案例](/help/use-cases/data-views/bi-extension-usecases.md)
+         + [連線並列出資料檢視](/help/use-cases/data-views/bi-extension/connect-and-validate.md)
+         + [每日趨勢](/help/use-cases/data-views/bi-extension/daily-trend.md)
+         + [每小時趨勢](/help/use-cases/data-views/bi-extension/hourly-trend.md)
+         + [每月趨勢](/help/use-cases/data-views/bi-extension/monthly-trend.md)
+         + [單一維度排名](/help/use-cases/data-views/bi-extension/single-dimension-ranked.md)
+         + [多個維度排名](/help/use-cases/data-views/bi-extension/multiple-dimension-ranked.md)
+         + [計算不同的維度值](/help/use-cases/data-views/bi-extension/count-distinct-dimension-values.md)
+         + [使用日期範圍名稱進行篩選](/help/use-cases/data-views/bi-extension/use-date-range-names-to-filter.md)
+         + [使用區段名稱來分段](/help/use-cases/data-views/bi-extension/use-segment-names-to-segment.md)
+         + [使用維度值劃分割槽段](/help/use-cases/data-views/bi-extension/use-dimension-values-to-segment.md)
+         + [排序](/help/use-cases/data-views/bi-extension/sort.md)
+         + [限制](/help/use-cases/data-views/bi-extension/limits.md)
+         + [轉換](/help/use-cases/data-views/bi-extension/transformations.md)
+         + [視覺效果](/help/use-cases/data-views/bi-extension/visualizations.md)
+         + [警告](/help/use-cases/data-views/bi-extension/caveats.md)
+
    + 衍生欄位 {#derived-fields}
       + [報告 LLM 和 AI 產生的流量](/help/use-cases/ai-traffic.md)
       + [報告目標](../use-cases/goals-using-derived-fields.md)
