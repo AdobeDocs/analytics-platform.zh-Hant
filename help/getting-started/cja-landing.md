@@ -4,10 +4,10 @@ description: Customer Journey Analytics 登陸頁面。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: b8c9acfe8fef4543557f87c81079babdc8097b64
+source-git-commit: 3afb60a60b7fd1acb414244dffdb6a6493792f9c
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 91%
+source-wordcount: '628'
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ Customer Journey Analytics 可讓您控制如何在 Analysis Workspace 中連接
 
 [![影像](assets/learn-more-button.svg)](/help/stitching/use-stitching-ui.md)
 
-*_您至少必須有Select封裝才能啟用拼接。_*
+*您至少必須有Select封裝才能啟用拼接。*
 
 
 >[!TAB 對象分析]
@@ -45,7 +45,7 @@ Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis W
 
 [![影像](assets/learn-more-button.svg)](/help/components/real-time/real-time.md)
 
-*_您必須具備 Ultimate 套件才能使用即時報告。_*
+*您必須具備 Ultimate 套件才能使用即時報告。*
 
 
 >[!TAB B2B Edition]
@@ -67,6 +67,7 @@ Customer Journey Analytics B2B Edition 透過提供可操作的客戶洞察來�
 
 首先閱讀以下連結中的資料，進一步了解 Customer Journey Analytics 的性能和功能。
 
+
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
@@ -75,16 +76,20 @@ Customer Journey Analytics B2B Edition 透過提供可操作的客戶洞察來�
     </td>
     <td>
     <a href="/help/data-ingestion/data-ingestion.md"><img src="./assets/data-ingestion.png"></a>
-    <div><strong>擷取和使用資料</strong><br/>了解將資料擷取到 Experience Platform 並將其用於 Customer Journey Analytics 分析和報告的選項。</div>
+    <div><strong>擷取及使用資料</strong><br/>瞭解您必須將資料擷取至Experience Platform的選項，並用於分析和報告。</div>
     </td>
     <td>
     <a href="/help/guided-analysis/overview.md"><img src="./assets/product-analytics.png"></a>
-    <div><strong>引導式分析</strong><br/>了解如何使用工作流程來獲取有關客戶產品體驗的資料和洞察。透過引導分析進行 Product Analytics...
+    <div><strong>引導式分析</strong><br/>了解如何使用工作流程來獲取有關客戶產品體驗的資料和洞察。透過引導式分析使用Product Analytics。
     </div>
     </td>
     <td>
     <a href="/help/analysis-workspace/home.md"><img src="./assets/workspace.png"></a>
     <div><strong>Analysis Workspace</strong><br/>使用 Analysis Workspace 執行基本和進階分析，例如歸因、流程圖和流失圖、維度劃分。</div>
+    </td>
+    <td>
+    <a href="/help/content-analytics/content-analytics.md"><img src="./assets/content-analytics.png"></a>
+    <div><strong>Content Analytics</strong><br/>瞭解行為旁的內容如何影響關鍵績效指標。 取得有關客戶歷程資料的更深入見解。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -92,6 +97,7 @@ Customer Journey Analytics B2B Edition 透過提供可操作的客戶洞察來�
     <td align="center"><a href="/help/data-ingestion/data-ingestion.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/guided-analysis/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/analysis-workspace/home.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/content-analytics/content-analytics.md"><img src="./assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
@@ -104,7 +110,7 @@ Customer Journey Analytics B2B Edition 透過提供可操作的客戶洞察來�
   <tr style="border: 0;">
     <td>
       <img src="./assets/analytics.svg" width="35px"><br/>
-      <strong>與 Adobe Analytics 比較</strong><br/><a href="/help/getting-started/aa-vs-cja/overview.md">概述</a> - <a href="/help/getting-started/aa-to-cja.md">演變</a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md">使用 Adobe Analytics 資料</a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md">功能支援</a> - <a href="/help/getting-started/aa-vs-cja/terminology.md">術語</a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md">資料處理</a> - <a href="/help/getting-started/cja-b2b-edition.md">Customer Journey Analytics B2B Edition</a>
+      <strong>與Adobe Analytics比較</strong><br/><a href="/help/getting-started/aa-vs-cja/overview.md">概述</a> - <a href="/help/getting-started/aa-to-cja.md">進化</a> - <a href="/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md">升級</a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md">使用Adobe Analytics資料</a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md">功能支援</a> - <a href="/help/getting-started/aa-vs-cja/terminology.md">術語</a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md">資料處理</a>
     </td>
     <td>
       <img src="./assets/connections.svg" width="35px"><br/>
@@ -121,13 +127,13 @@ Customer Journey Analytics B2B Edition 透過提供可操作的客戶洞察來�
       <img src="./assets/workspace.svg" width="35px"><br/>
       <strong>Workspace 專案</strong><br/><a href="/help/analysis-workspace/home.md">Analysis Workspace</a> - <a href="/help/analysis-workspace/perform-basic-analysis.md">基本 </a>及<a href="/help/analysis-workspace/perform-adv-analysis.md">進階分析</a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md">專案</a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md">視覺化</a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md">面板</a>
     </td>
-    <td>
-      <img src="./assets/guided-analysis.svg" width="35px"><br/>
-      <strong>引導式分析</strong><br/><a href="/help/guided-analysis/overview.md">概觀</a> - <a href="/help/guided-analysis/types/active-growth.md">使用者成長</a> - <a href="/help/guided-analysis/types/trends.md">趨勢</a>  - <a href="/help/guided-analysis/types/funnel.md">漏斗</a> - <a href="/help/guided-analysis/types/release-impact.md">影響</a> - <a href="/help/guided-analysis/industry-use-cases.md">產業使用案例</a>
-    </td>
-    <td>
+        <td>
       <img src="./assets/share.svg" width="35px"><br/>
       <strong>分享、匯出、整合</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">專案</a> - <a href="/help/mobile-app/home.md">Analytics 儀表板</a> - <a href="/help/report-builder/rb-overview.md">Report Builder</a>  - <a href="/help/components/exports/manage-exports.md">雲端匯出</a> - <a href="/help/integrations/overview.md">整合</a>
+    </td>
+    <td>
+      <img src="./assets/guided-analysis.svg" width="35px"><br/>
+      <strong>以及更多……</strong><br/><a href="/help/guided-analysis/overview.md">引導式分析</a> - <a href="/help/content-analytics/content-analytics.md">Content Analytics</a> - <a href="/help/getting-started/cja-b2b-edition.md">B2B edition</a> 
     </td>
   </tr>
 </table>
@@ -145,4 +151,4 @@ Customer Journey Analytics B2B Edition 透過提供可操作的客戶洞察來�
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>隨時掌握情況、為社群做出貢獻並提升您的 Customer Journey Analytics 體驗！</b><br>瀏覽 Adob​​e Analytics 社群，以便與其他從業者討論功能。<a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant">立即加入社群！</a></td></tr></tbody></table>
+<b>隨時掌握情況、為社群做出貢獻並提升您的 Customer Journey Analytics 體驗！</b><br>瀏覽 Adob​​e Analytics 社群，以便與其他從業者討論功能。<a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">立即加入社群！</a></td></tr></tbody></table>

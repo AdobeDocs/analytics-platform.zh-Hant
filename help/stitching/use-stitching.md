@@ -5,14 +5,22 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
+source-git-commit: 9ace0679796c3a813b1fbd97c62c20faf64db211
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '479'
 ht-degree: 7%
 
 ---
 
 # 請求拼接
+
+
+>[!IMPORTANT]
+>
+>不再需要透過Adobe彙整請求，且此方法已過時。 [在連線UI中啟用拼接](use-stitching-ui.md)。
+>
+
+
 
 當您的組織符合所有[必要條件](overview.md#prerequisites)並瞭解常見的[限制](overview.md#limitations)和拼接方法特定限制（[欄位式](fbs.md#limitations)和[圖形式](gbs.md#limitations)）時，您可以依照這些步驟在Customer Journey Analytics中請求並開始使用拼接。
 
@@ -22,7 +30,7 @@ ht-degree: 7%
 
 | | Customer Journey Analytics<br/>選取 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
-| 可用的拼接方法 | 欄位式拼接 | 欄位式拚接<br/>圖表式拚接 | 欄位式拚接<br>圖表式拚接</li> |
+| 可用的拼接方法 | 欄位型拼接 | 欄位式拚接<br/>圖表式拚接 | 欄位式拚接<br>圖表式拚接</li> |
 | 一次性拼接回填持續時間 | 13 個月 | 13 個月 | 25 個月 |
 | 回顧期間和重播頻率 | 1天，每天<br/>最多7天，每週 | 1天，每天<br/>最多14天，每週 | 1天，每天<br/>最多30天，每週 |
 | 拼接允許的資料集數量上限 | 5 | 15 | 50 |
@@ -54,25 +62,3 @@ ht-degree: 7%
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
 設定資料檢視後，您可以跨管道和裝置執行Customer Journey Analytics報表分析。
-
-<!-- Uncomment once stitching UI is available (for limited testing)..
-
-### Do It Yourself
-
-|Positive|[!BADGE New Feature]{type=Positive before-title="false"}|
-
-{{release-limited-testing-section}}
-
-Alternatively, you can set up and use stitching through the Customer Journey Analytics user interface:
-
-1. Go to the [Create and manage stitched datasets](stitching-ui.md) and follow steps to rekey your dataset.
-
-2. [Create a connection](/help/connections/create-connection.md) in Customer Journey Analytics using the newly generated dataset and any other datasets that you want to include. Choose the correct person ID for each dataset.
-
-3. [Create a connection](/help/connections/create-connection.md) in Customer Journey Analytics using the newly generated dataset and any other datasets that you want to include. Choose the correct person ID for each dataset.
-   
-4. [Create a data view](/help/data-views/create-dataview.md) based on the connection.
-
-Once the data view is set up, the cross-channel analysis in Customer Journey Analytics is just like any other analysis in Customer Journey Analytics, except now the data operates across channels and devices.
-
--->
