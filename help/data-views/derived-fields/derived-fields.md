@@ -22,7 +22,7 @@ ht-degree: 100%
 
 派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告功能的重要層面。衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
 
-與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
+與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
 
 衍生欄位是在[資料檢視](../data-views.md)內定義，且是根據一組定義為規則的函數，並套用於適用的標準和/或結構描述欄位。
 
@@ -673,7 +673,7 @@ ht-degree: 100%
 
 ## 更多資訊 {#casewhen-more-info}
 
-Customer Journey Analytics 使用巢狀容器結構，該結構仿照 Adob&#x200B;&#x200B;e Experience Platform 的 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) (體驗資料模型)。請參閱「[容器](../create-dataview.md#containers)」和「[區段容器](/help/components/segments/seg-overview.md#containers)」，了解更多背景資訊。這種容器模型雖然本質上很靈活，但在使用規則產生器時會施加一些限制。
+Customer Journey Analytics 使用巢狀容器結構，該結構仿照 Adob&#x200B;&#x200B;e Experience Platform 的 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) (體驗資料模型)。請參閱「[容器](../create-dataview.md#containers)」和「[區段容器](/help/components/segments/seg-overview.md#containers)」，了解更多背景資訊。這種容器模型雖然本質上很靈活，但在使用規則產生器時會施加一些限制。
 
 Customer Journey Analytics 會使用以下預設容器模型：
 
@@ -1580,10 +1580,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 | 頁面 URL |
 |---|
-| `https://business.adobe.com/tw/products/analytics/adobe-analytics-benefits.html` |
-| `https://business.adobe.com/tw/products/analytics/adobe-analytics.html` |
-| `https://business.adobe.com/tw/products/experience-platform/customer-journey-analytics.html` |
-| `https://business.adobe.com/tw/products/experience-platform/adobe-experience-platform.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
 
 {style="table-layout:auto"}
 
