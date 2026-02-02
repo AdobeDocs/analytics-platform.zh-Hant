@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 5cd838f7-e394-4a67-9d2e-e1d08a864ca0
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 39d3a233166e2ce2035df2ce821dd16181e5e13e
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 此使用案例說明如何使用衍生欄位的強大功能來設定特定維度的目標，然後在您的Workspace專案中使用這些目標。
 
-如果您不熟悉衍生欄位，請參閱[教學課程](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html?lang=zh-Hant)和[檔案](../data-views/derived-fields/derived-fields.md)以取得簡介。
+如果您不熟悉衍生欄位，請參閱[教學課程](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html)和[檔案](../data-views/derived-fields/derived-fields.md)以取得簡介。
 
 
 ## 定義目標
@@ -67,7 +67,9 @@ ht-degree: 6%
 
 您可以使用這些計算量度來報告自由表格和視覺效果中的進度。 例如：
 
-![顯示行銷收入目標的自由表格](assets/freeform-table-product-order-goals.png)
+![顯示行銷收入目標的自由表格](assets/freeform-table-marketing-channel-revenue-goals.png)
+
+
 
 
 ### 行銷管道收入目標
@@ -82,4 +84,4 @@ ht-degree: 6%
 
 您可以使用這些計算量度來報告自由表格和視覺效果中的進度。 例如：
 
-![顯示行銷收入目標的自由表格](assets/freeform-table-marketing-channel-revenue-goals.png)
+![顯示行銷收入目標的自由表格](assets/freeform-table-product-order-goals.png)
