@@ -1,15 +1,15 @@
 ---
-title: 如何在 Customer Journey Analytics 中設定 Report Builder
-description: 說明如何在Customer Journey Analytics中設定Report Builder
+title: 設定Report Builder
+description: 說明如何在Customer Journey Analytics中設定Report Builder。
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
-source-git-commit: 065cf61d80ceb3c921ea666ba299e56fb044335b
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 26%
+source-wordcount: '523'
+ht-degree: 25%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 26%
 
 1. 搜尋`Report Builder`並選取&#x200B;**[!UICONTROL 新增]**。
 
-1. 在[授權條款和隱私權原則]對話方塊中，選取[繼續]。**&#x200B;**
+1. 在[授權條款和隱私權原則]對話方塊中，選取[繼續]。****
 
 如果未顯示&#x200B;**[!UICONTROL 存放區]**&#x200B;索引標籤：
 

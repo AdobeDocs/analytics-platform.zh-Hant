@@ -1,15 +1,15 @@
 ---
-title: 如何在Customer Journey Analytics中使用Report Builder建立資料區塊
-description: 說明如何建立資料區塊。
+title: 在Report Builder中建立資料區塊
+description: 瞭解如何建立資料區塊。
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
 solution: Customer Journey Analytics
-source-git-commit: 7d3300336a955facc230f335d1452096700ea98b
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 24%
+source-wordcount: '771'
+ht-degree: 23%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 24%
 
    ![熒幕擷圖顯示維度清單中的開始日期。](./assets/start-date-dimension.png)
 
-1. 選擇性地顯示或隱藏列與欄標題。 若要進行此步驟：
+1. 選擇性地顯示或隱藏列與欄標題。 若要這麼做：
 
    1. 選取&#x200B;**[!UICONTROL 表格]** ![設定](/help/assets/icons/Setting.svg)設定圖示。
 
@@ -92,7 +92,7 @@ ht-degree: 24%
 
    1. 核取或取消核取&#x200B;**[!UICONTROL 顯示列與欄標題]**&#x200B;的選項。 預設會顯示標題。
 
-1. 或者，您也可以隱藏或顯示維度標籤和量度標題。 若要進行此步驟：
+1. 或者，您也可以隱藏或顯示維度標籤和量度標題。 若要這麼做：
 
    1. 在維度標籤或欄標題上選取![MoreSmall](/help/assets/icons/MoreSmall.svg)以顯示內容功能表。
 
@@ -114,7 +114,7 @@ ht-degree: 24%
 >[!MORELIKETHIS]
 >
 >[選取資料檢視](select-data-view.md)
->&#x200B;>[選取日期範圍](select-date-range.md)
->&#x200B;>[篩選維度](filter-dimensions.md)
->&#x200B;>[使用區段](work-with-filters.md)
+>[選取日期範圍](select-date-range.md)
+>[篩選維度](filter-dimensions.md)
+>[使用區段](work-with-filters.md)
 >

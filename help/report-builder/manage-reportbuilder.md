@@ -1,15 +1,15 @@
 ---
-title: 如何在 Customer Journey Analytics 中使用 Report Builder 管理資料區塊
-description: 說明如何在 Report Builder 中使用管理功能
+title: 在Report Builder中管理資料區塊
+description: 瞭解如何在Report Builder中管理資料區塊。
 role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 21%
+source-wordcount: '517'
+ht-degree: 17%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 21%
 
 ## 編輯資料區塊
 
-您可以編輯資料檢視和日期範圍資料區塊。 或套用至資料區塊的區段。
+您可以編輯資料區塊的資料檢視和日期範圍。 或套用至資料區塊的區段。
 
 例如，您可以在一或多個資料區塊中以新區段取代現有區段。
 

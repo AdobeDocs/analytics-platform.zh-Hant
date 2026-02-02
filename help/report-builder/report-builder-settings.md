@@ -1,15 +1,15 @@
 ---
-title: 如何在Customer Journey Analytics中配置Report Builder的設定
-description: 說明如何設定離線模式、語言、截止日期以及疑難排解設定。
+title: 配置Report Builder的設定
+description: 瞭解如何設定Report Builder的設定。
 role: Admin
 feature: Report Builder
 type: Documentation
 exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
 solution: Customer Journey Analytics
-source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 31%
+source-wordcount: '249'
+ht-degree: 28%
 
 ---
 

@@ -1,15 +1,15 @@
 ---
-title: 什麼是 Customer Journey Analytics 中的 Report Builder 中心
-description: 說明 Report Builder 中心元件
+title: Report Builder 中心
+description: 瞭解Report Builder中心。
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
 solution: Customer Journey Analytics
-source-git-commit: 065cf61d80ceb3c921ea666ba299e56fb044335b
+source-git-commit: 1e19e0c79617d27c7039b695c70ca5026fcaf357
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 27%
+source-wordcount: '534'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +39,7 @@ Report Builder中心包含![AddCircle](/help/assets/icons/AddCircle.svg) **[!UIC
 | ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料區塊]** | 所選取的儲存格僅為一個資料區塊的一部分。 | 用於編輯資料區塊。 |
 | ![重新整理](/help/assets/icons/Refresh.svg) **[!UICONTROL 重新整理資料區塊]** | 選取範圍包含至少一個資料區塊。 指令只會重新整理選取範圍中的資料區塊。 | 用於重新整理一或多個資料區塊。 |
 | ![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg) **[!UICONTROL 重新整理所有資料區塊]** | 該活頁簿包含一或多個資料區塊。 | 用於重新整理活頁簿中的所有資料區塊 |
-| ![傳送](/help/assets/icons/Send.svg) **[!UICONTROL 傳送活頁簿]** | 該活頁簿包含一或多個資料區塊。 | 使用以檔案形式透過電子郵件傳送活頁簿。 |
+| ![傳送](/help/assets/icons/Send.svg) **[!UICONTROL 傳送活頁簿]** | 該活頁簿包含一或多個資料區塊。 | 使用以電子郵件[傳送活頁簿為檔案](schedule-reportbuilder.md)。 |
 | ![複製](/help/assets/icons/Copy.svg) **[!UICONTROL 複製資料區塊]** | 所選取的儲存格範圍為一或多個資料區塊的一部分。 | 用於複製資料區塊。 |
 | ![剪下](/help/assets/icons/Cut.svg) **[!UICONTROL 剪下資料區塊]** | 所選取的儲存格範圍為一或多個資料區塊的一部分。 | 設定以剪下資料區塊。 |
 | ![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除資料區塊]** | 所選取的儲存格僅為一個資料區塊的一部分。 | 用於刪除資料區塊 |
@@ -70,6 +70,6 @@ Report Builder中心包含![AddCircle](/help/assets/icons/AddCircle.svg) **[!UIC
 >[!MORELIKETHIS]
 >
 >[選取資料檢視](select-data-view.md)
->&#x200B;>[選取日期範圍](select-date-range.md)
->&#x200B;>[使用篩選器](work-with-filters.md)
+>[選取日期範圍](select-date-range.md)
+>[使用篩選器](work-with-filters.md)
 >

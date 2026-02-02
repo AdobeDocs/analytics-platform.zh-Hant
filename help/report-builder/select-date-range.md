@@ -1,15 +1,15 @@
 ---
-title: 如何在Customer Journey Analytics的Report Builder中選取日期範圍
-description: 說明如何在Customer Journey Analytics的Report Builder中使用行事曆、滾動日期和自訂運算式
+title: 在Report Builder中選取資料範圍
+description: 瞭解如何在Report Builder中選取日期範圍。
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 49%
+source-wordcount: '853'
+ht-degree: 50%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 49%
 
 此預設下拉式選單包括一組標準預設日期範圍和您儲存或與您共用的資料檢視的日期範圍元件。
 
-### 滾動日期
+### 遞延日期
 
 若要定義遞延日期，請執行下列步驟：
 
@@ -50,7 +50,7 @@ ht-degree: 49%
 
 1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
 
-   - 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]**&#x200B;**[!UICONTROL 今年]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
+   - 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]****[!UICONTROL 今年]****[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
 
       - 選取目前的值。例如，**[!UICONTROL 目前的年份]**。
       - 選取選擇性額外計算的值。 例如，**[!UICONTROL 加]**。
