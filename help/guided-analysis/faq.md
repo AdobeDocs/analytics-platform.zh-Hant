@@ -6,7 +6,7 @@ feature: Guided Analysis
 keywords: Product Analytics
 role: User
 source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -32,9 +32,9 @@ ht-degree: 100%
 
 +++**何時應該使用引導式分析或 Analysis Workspace？**
 
-**引導式分析**&#x200B;可以幫助使用者快速取得高品質的深入分析。對於產品團隊、希望更安心處理資料的使用者，甚至是分析師而言，它都相當實用，能夠取得先機進行更深入的分析。
+**引導式分析**&#x200B;可以幫助使用者快速取得高品質的洞察。對於產品團隊、希望更安心處理資料的使用者，甚至是分析師而言，它都相當實用，能夠取得先機進行更深入的分析。
 
-**[Analysis Workspace](../analysis-workspace/home.md)** 是更自由形式的空間，可讓您進一步探討資料以找出更多深入分析。對於相當了解資料且想要深入探討的分析師和進階使用者而言，它非常實用。
+**[Analysis Workspace](../analysis-workspace/home.md)** 是更自由形式的空間，可讓您進一步探討資料以找出更多洞察。對於相當了解資料且想要深入探討的分析師和進階使用者而言，它非常實用。
 
 +++
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 | 引導式分析字詞 | Analysis Workspace 字詞 |
 | --- | --- |
 | 事件 (二進位 1/0 量度) | 量度 |
-| 使用者 | 人員 |
+| 使用者 | 使用者 |
 | 維度 | 維度 |
 | 維度項目 | 維度項目 |
 | 區段 | 區段 |

@@ -7,9 +7,9 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 source-git-commit: 32997d0fd9801099a75287f63197d3b4c2ba81ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4935'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -276,7 +276,7 @@ ht-degree: 99%
 | **[!UICONTROL 上次新增時間]** | 新增至連線之最後批次的時間戳記。 |
 | **[!UICONTROL 資料來源類型]** | 來源類型。當您將資料集新增到連線時，可以定義來源類型。 |
 | **[!UICONTROL 資料集類型]** | [資料集類型](create-connection.md#dataset-types)。類型可以是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 輪廓]**、**[!UICONTROL 查詢]**&#x200B;或&#x200B;**[!UICONTROL 摘要]**。臨時或關聯式資料集以 **[!UICONTROL (臨時)]** 或 **[!UICONTROL (關聯式)]** 做為識別。例如，**[!UICONTROL 事件 (臨時)]** 或 **[!UICONTROL 查詢 (關聯式)]**。 |
-| **[!UICONTROL 已拼接]** | 如果資料集[在連線UI](/help/stitching/use-stitching-ui.md)中啟用拼接功能，則值為&#x200B;**[!UICONTROL true]**。 否則，值為&#x200B;**[!UICONTROL false]**。 此資料表中未將拼接程式[的](/help/stitching//use-stitching.md)請求結果拼接資料集識別為已拼接，預設值為&#x200B;**[!UICONTROL false]**。 |
+| **[!UICONTROL 拼接]** | 如果資料集[在「連線」使用者介面中啟用了拼接功能](/help/stitching/use-stitching-ui.md)，則該值為&#x200B;**[!UICONTROL 真]**；否則，該值為&#x200B;**[!UICONTROL 假]**。透過[請求拼接程序](/help/stitching//use-stitching.md)所產生的拼接資料集不會在此表格中被識別為已拼接，且其值預設為&#x200B;**[!UICONTROL 假]**。 |
 | **[!UICONTROL 結構描述]** | 此資料集所根據的 Experience Platform 結構描述。 |
 | **[!UICONTROL 匯入新資料]** | 資料集匯入新資料的狀態： <p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，若資料集設定為匯入新資料，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，若資料集設定為不匯入新資料。 |
 | **[!UICONTROL 轉換資料]** | 適用 B2B 查詢資料集的轉換狀態。請參閱[轉換資料集以進行 B2B 查詢](transform-datasets-b2b-lookups.md)，了解更多資訊。<p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，表示已啟用進行轉換的適用資料集， <p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，表示未啟用進行轉換的適用資料集，以及<p>**[!UICONTROL N/A]** 於所有其他資料集，不適用於轉換。 |
@@ -317,8 +317,8 @@ ht-degree: 99%
 
 | 詳細資料 | 說明 |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID &#x200B;]** | 您指定為連線之全域帳戶 ID 的身分識別。僅適用於已設定全域帳戶容器的帳戶型連線。 |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID &#x200B;]** | 您指定為連線之帳戶 ID 的身分識別。僅適用於未設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID ]** | 您指定為連線之全域帳戶 ID 的身分識別。僅適用於已設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID ]** | 您指定為連線之帳戶 ID 的身分識別。僅適用於未設定全域帳戶容器的帳戶型連線。 |
 | **[!UICONTROL 個人 ID]** | 您指定為連線之個人 ID 的身分識別。 |
 | **[!UICONTROL 索引鍵]** | 您為查詢資料集指定的索引鍵。 |
 | **[!UICONTROL 比對索引鍵]** | 您為查詢資料集指定的比對索引鍵。 |

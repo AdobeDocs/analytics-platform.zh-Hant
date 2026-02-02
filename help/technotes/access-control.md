@@ -7,9 +7,9 @@ exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
 source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1551'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 | [!UICONTROL 報告工具] | [!UICONTROL Labs 存取權] | 讓使用者可以存取 Customer Journey Analytics 中的「[Labs](/help/labs/labs.md)」索引標籤。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 建立附註] | 讓使用者可以建立[註解](/help/components/annotations/overview.md)。使用者只能標記、共用、刪除和重新命名自己建立的或是與其共用的註解。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 客群視圖] | 讓使用者可以檢視[客群](/help/components/audiences/audiences-overview.md)。 |
-| [!UICONTROL 報告工具] | [!UICONTROL 建立客群] | 讓使用者建立[對象](/help/components/audiences/audiences-overview.md)。 需要[在Adobe Experience Platform中管理區段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)。 |
+| [!UICONTROL 報告工具] | [!UICONTROL 建立客群] | 讓使用者可以建立[客群](/help/components/audiences/audiences-overview.md)。需要在 Adobe Experience Platform 中[管理細分群體](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 資料敘事] | 讓使用者可以[根據 Workspace 專案產生投影片簡報。](/help/analysis-workspace/curate-share/generate-slides.md) |
 | [!UICONTROL 報告工具] | [!UICONTROL 稽核記錄存取權] | 強制對 [API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) 及稽核記錄使用者介面進行權限檢查。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 與任何人共用專案連結] | 讓使用者可以[與任何人共用專案。](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |

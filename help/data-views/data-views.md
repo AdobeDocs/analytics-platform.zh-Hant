@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1078'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 >[!IMPORTANT]
 >
->單一資料檢視中最多可新增 5,000 個量度和 5,000 個維度。
+>單一資料視圖中最多可新增 5,000 個量度和 5,000 個維度。
 
 ## 資料檢視功能 {#capabilities}
 
@@ -51,7 +51,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * 您可以標記元件，更輕鬆地在 Workspace 中搜尋它。
 
-* 您可以在報告中隱藏元件。有些量度和維度設定需要第二個量度或維度才能進行設定 (例如，量度重複化或購買重複化)。隱藏元件可讓您定義可在另一個元件的設定中使用的元件，而不會在報告中公開。
+* 您可以在報告中隱藏元件。有些量度和維度設定需要第二個量度或維度才能進行設定 (例如，量度重複資料刪除或購買重複資料刪除)。隱藏元件可讓您定義可在另一個元件的設定中使用的元件，而不會在報告中公開。
 
 * 您可以套用格式至量度，例如顯示小數、時間、百分比或貨幣；指定小數位；呈綠色或紅色上升趨勢；以及指定貨幣選項。
 

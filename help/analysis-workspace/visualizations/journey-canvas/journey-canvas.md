@@ -1,13 +1,13 @@
 ---
-description: 瞭解如何在Analysis Workspace中使用歷程畫布。
-title: Journey Canvas概述
+description: 了解如何在 Analysis Workspace 中使用歷程畫布。
+title: 歷程畫布概觀
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1996'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,15 +51,15 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的歷程畫布視覺效果。<br/>**Adobe Analytics** 中沒有相等的視覺效果。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的歷程畫布視覺效果。<br/>**Adobe Analytics** 中沒有相等的視覺效果。_
 
 >[!ENDSHADEBOX]
 
-歷程畫布視覺效果讓您可以分析並深入了解您為使用者和客戶提供的歷程。此視覺效果允許您從頭開始定義歷程或從 Journey Optimizer 中查看歷程，然後查看人們如何離開 (流失) 或繼續 (流過) 歷程。
+您可以利用歷程畫布視覺化圖表，針對您提供給使用者和客戶的歷程進行分析並獲取深入洞察。此視覺效果允許您從頭開始定義歷程或從 Journey Optimizer 中查看歷程，然後查看人們如何離開 (流失) 或繼續 (流過) 歷程。
 
 您可以使用事件、維度項目、區段和日期範圍的任意組合來建立歷程節點，藉以[建置使用者歷程分析](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。連接節點以建立歷程流程，並包含多條路徑和決策點。拖曳動畫布上的節點，以重新排列歷程的事件和條件。當您進行變更時，資料會即時更新。
 
-[節點已連接](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)作為「最終路徑」，這表示只要訪客最後從一個節點移動到另一個節點，就會被計算在內，而不管兩個節點之間發生什麼事件。使用者沿著路徑移動所分配的時間由容器設定來決定。
+[節點已連接](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)作為「最終路徑」，這表示只要訪客最後從一個節點移動到另一個節點，就會被計算在內，而不管 2 個節點之間發生什麼事件。使用者沿著路徑移動所分配的時間由容器設定來決定。
 
 ![歷程畫布](assets/journey-canvas.png)
 
@@ -75,23 +75,23 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 * 在歷程畫布內建立使用者歷程分析，或根據 Journey Optimizer 歷程自動建立分析。
 
-## 潛在的深入分析和見解
+## 潛在的洞察
 
-歷程畫布會為最複雜的歷程提供可操作分析。
+歷程畫布會為最複雜的歷程提供可操作洞察。
 
 ### 轉換率最高的路徑 {#conversion-rate-caption}
 
-歷程畫布中最突出的分析顯示為畫布最上方的標題。
+歷程畫布中最突出的洞察顯示為畫布最上方的標題。
 
 此標題總結歷程中哪條路徑的轉換率最高。
 
 當歷程包含多個起始節點時，標題如下所示：
 
-![歷程畫布分析標題](assets/journey-canvas-caption.png)
+![歷程畫布洞察標題](assets/journey-canvas-caption.png)
 
 當歷程包含單一起始節點時，標題如下所示：
 
-![歷程畫布分析標題單一起始節點](assets/journey-canvas-caption-singlestart.png)
+![歷程畫布洞察標題單一起始節點](assets/journey-canvas-caption-singlestart.png)
 
 解釋此標題時，請考慮以下幾點：
 
@@ -110,7 +110,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ### 流過、流失及其他
 
-以下是歷程畫布可幫助提供其他分析的一些範例。您可以選擇這些分析是否依據後者來進行：資料檢視中的所有人、開始歷程的所有人或來自歷程上一個節點的所有人。
+以下是歷程畫布可幫助提供其他洞察的一些範例。您可以選擇這些洞察是否依據後者來進行：資料檢視中的所有人、開始歷程的所有人或來自歷程上一個節點的所有人。
 
 #### 流過
 
@@ -160,7 +160,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >
 >如果您的組織無法存取 Journey Optimizer，您仍然可以[在歷程畫布中建立分析](#build-analyses-in-customer-journey-analytics)。
 
-在歷程畫布中分析 Journey Optimizer 歷程，可以提供人們如何與歷程互動的可操作的深入分析。
+在歷程畫布中分析 Journey Optimizer 歷程，可以提供人們如何與歷程互動的可操作的洞察。
 
 當您在歷程畫布中分析 Journey Optimizer 歷程時，該歷程將以與 Journey Optimizer 中相同的順序、序列和結構來顯示。如果您在歷程畫布中對歷程進行大幅變更，[變更將不再從 Journey Optimizer 進行同步](#synchronization-between-journey-optimizer-and-journey-canvas)。
 
@@ -234,7 +234,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 #### 功能差異
 
-在歷程畫布中修改 Journey Optimizer 歷程後，[!UICONTROL **箭頭設定**]&#x200B;下拉選單欄位內的選項會發生變化，取決於您的修改內容。如需詳細資訊，請參閱「[設定進行](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。
+在歷程畫布中修改 Journey Optimizer 歷程後，[!UICONTROL **箭頭設定**]&#x200B;下拉選單欄位內的選項會發生變化，取決於您的修改內容。如需更多資訊，請參閱「[設定進行](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。
 
 「[!UICONTROL **節點類型**]」欄位僅適用於 Journey Optimizer。在歷程畫布中查看 Journey Optimizer 歷程時無法使用此功能，無論您是否在歷程畫布中對歷程進行修改。
 
@@ -258,10 +258,10 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ## 在歷程畫布中建立分析
 
-您可以在歷程畫布中建立以 Analysis Workspace 中適用任何維度或量度的分析。或者，您可以分析在 Journey Optimizer 中建立的歷程。若要了解更多資訊，請參閱「[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。
+您可以在歷程畫布中建立以 Analysis Workspace 中適用任何維度或量度的分析。或者，您可以分析在 Journey Optimizer 中建立的歷程。如需更多資訊，請參閱「[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。
 
 
 >[!MORELIKETHIS]
 >
-> * [Adobe Customer Journey Analytics 歷程畫布視覺效果指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=zh-Hant)
+> * [Adobe Customer Journey Analytics 歷程畫布視覺效果指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 

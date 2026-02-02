@@ -6,15 +6,15 @@ feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 source-git-commit: 58254cab90d907ad9675c30dfc1b835910214b3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Content Analytics 概觀
 
-Content Analytics 能幫助行銷人員了解內容如何影響企業已定義的關鍵績效指標。除了行為資料之外，Content Analytics 還會收集關於內容使用方式和內容產生影響的資料。例如，客戶對於特定語調、特定色調或特定主題的反應是否較好？這些資訊與專門設計的報告工作流程和範本，可以幫助您在 Customer Journey Analytics 中進行更好的分析並，獲得有關客戶歷程資料的更深入。
+Content Analytics 能幫助行銷人員了解內容如何影響企業已定義的關鍵績效指標。除了行為資料之外，Content Analytics 還會收集關於內容使用方式和內容產生影響的資料。例如，客戶對於特定語調、特定色調或特定主題的反應是否較好？這些資訊與專門設計的報告工作流程和範本，可以幫助您在 Customer Journey Analytics 中進行更好的分析，並獲得有關客戶歷程資料的更深入洞察。
 
 Content Analytics 會使用人工智慧式和機器學習式的&#x200B;**特徵化服務**，將內容劃分為元件和屬性。透過在所有內容上建立結構化中繼資料設定檔，您可以分析哪些內容以及這些內容的哪些屬性可以推動業務成長。
 
@@ -24,10 +24,10 @@ Content Analytics 會使用人工智慧式和機器學習式的&#x200B;**特徵�
 
 Content Analytics 確實不斷提升其價值：
 
-1. 內容&#x200B;**使用方式**：透過 Content Analytics，您可以了解哪些資產正獲得曝光度，以及資產是在哪裡獲得曝光度。這些分析可以幫助您了解具一些網頁屬性的資產是否未充分利用或過度使用。
-1. 內容&#x200B;**參與度**：Content Analytics 可以提供參與度分析，例如某些屬性的資產平均點擊率。這些分析可以幫助您確定特定類型的體驗是否仍然有效。
-1. 內容&#x200B;**歷程**：此外，當與 Experience Platform 的所有其他資料合併時，您可以獲得有關內容歷程的更多內容。例如，除了參與度之外，特定內容是否會造成瀏覽轉換。了解這些事情後，您就可以確定內容類型的投資報酬率。
-1. 內容&#x200B;**個人化**：最終，Content Analytics 可讓您根據自己的分析採取行動，並使用這些分析來確定如何花錢在內容上。例如，我應該向特定客群發送特定類型的內容嗎？哪些內容能為我提供高度個人化的機會？
+1. 內容&#x200B;**使用方式**：透過 Content Analytics，可以獲得哪些資產正獲得曝光度，以及資產是在哪裡獲得曝光度的洞察。這些洞察可以幫助您了解具一些網頁屬性的資產是否未充分利用或過度使用。
+1. 內容&#x200B;**參與度**：Content Analytics 可以提供參與度洞察，例如某些屬性的資產平均點擊率。這些洞察可以幫助您確定特定類型的體驗是否仍然有效。
+1. 內容&#x200B;**歷程**：此外，當與 Experience Platform 的所有其他資料合併時，您可以獲得有關內容歷程的更多洞察。例如，除了參與度之外，特定內容是否會造成瀏覽轉換。了解這些事情後，您就可以確定內容類型的投資報酬率。
+1. 內容&#x200B;**個人化**：最終，Content Analytics 可讓您根據自己的分析採取行動，並使用這些洞察來確定如何花錢在內容上。例如，我應該向特定客群發送特定類型的內容嗎？哪些內容能為我提供高度個人化的機會？
 
 ## 術語
 
@@ -41,14 +41,14 @@ Content Analytics 會使用以下關鍵用語：
 
 ## 運作方式
 
-Content Analytics 使用 Experience Platform 事件資料集中的網頁影像檢視資料[收集內容事件資料](config/datacollection.md)。這些內容體驗事件需要使用Experience Platform Edge Network (網頁SDK、伺服器API)來收集資料。 行為資料可以使用Web SDK或Analytics Source Connector來收集。
+Content Analytics 使用 Experience Platform 事件資料集中的網頁影像檢視資料[收集內容事件資料](config/datacollection.md)。這些內容體驗事件需要使用 Experience Platform Edge Network (網頁 SDK、伺服器 API) 來收集資料。使用 Web SDK 或 Analytics 來源連接器來收集行為資料。
 
-![Content Analytics：如何運作](assets/aca-overview.gif)
+![Content Analytics - 如何運作](assets/aca-overview.gif)
 
 1. 當使用者瀏覽網站時，[設定為適用於 Content Analytics](config/configuration.md)，Experience Plarform Web SDK 會記錄內容的印象和互動。
 1. 身分識別和特徵化服務會處理這些互動。過程包括一項獲取服務，其會重新檢視定義互動之已設定 URL 的公開版本。對於所有這些獲取到的 URL，身分識別服務是唯一識別體驗和資產的服務。特徵化服務應用 AI/ML 服務來探索體驗和資產中繼資料和屬性。
 1. 這些服務 ([元件、屬性和身分識別](/help/content-analytics/report/components.md)) 的結果將用於更新 Experience Platform 中相關的特定 Content Analytics 資料集。
-1. Content Analytics 資料，以及行為資料和其他查詢資料，可於 Customer Journey Analytics 設定 ([連線](/help/connections/overview.md)、[資料視圖](/help/data-views/data-views.md)和 [Workspace](/help/analysis-workspace/home.md)) 中使用。設定可為您對內容的獨特宏觀分析奠定基礎。<br/>您可以使用 [Content Analytics 範本](/help/content-analytics/report/report.md#template)快速開始您的 Content Analytics 報告和分析。
+1. Content Analytics 資料，以及行為資料和其他查詢資料，可於 Customer Journey Analytics 設定 ([連線](/help/connections/overview.md)、[資料視圖](/help/data-views/data-views.md)和 [Workspace](/help/analysis-workspace/home.md)) 中使用。設定可為您對內容的獨特宏觀洞察奠定基礎。<br/>您可以使用 [Content Analytics 範本](/help/content-analytics/report/report.md#template)快速開始您的 Content Analytics 報告和分析。
 
 
 >[!NOTE]
@@ -67,7 +67,7 @@ Content Analytics 使用 Experience Platform 事件資料集中的網頁影像�
 >[!MORELIKETHIS]
 >
 >[Content Analytics 報告](report/report.md)
->&#x200B;>[設定 Content Analytics](config/configuration.md)
->&#x200B;>[在 Customer Journey Analytics 中計算退回與退回率](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=zh-Hant#M454)
+>[設定 Content Analytics](config/configuration.md)
+>[在 Customer Journey Analytics 中計算退回與退回率](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
