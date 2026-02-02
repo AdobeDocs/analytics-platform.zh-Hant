@@ -13,4 +13,4 @@ ht-degree: 100%
 
 # 整合 Adobe Analytics 與 Customer Journey Analytics
 
-Adobe Analytics 客戶可以使用 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)，輕鬆地在 Adobe Experience Platform 和 Customer Journey Analytics 中利用他們的報告套裝。如需更多資訊，請參閱[在 Customer Journey Analytics 中利用 Adobe Analytics 報告套裝資料](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)。
+Adobe Analytics 客戶可以使用 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)，輕鬆地在 Adobe Experience Platform 和 Customer Journey Analytics 中利用他們的報告套裝。如需更多資訊，請參閱[在 Customer Journey Analytics 中利用 Adobe Analytics 報告套裝資料](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)。

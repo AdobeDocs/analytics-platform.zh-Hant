@@ -111,6 +111,6 @@ Experience Platform 的多個元件 (從資料擷取到直接 SQL 存取) 是 Cu
 
 >[!MORELIKETHIS]
 >
->* [Adobe Customer Journey Analytics 分析師速成課程](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
->* [將您的思維方式和 Adobe Customer Journey Analytics 工作流程最佳化：適用於各種規模組織的團隊模型](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
->* [建置組織整備：以人為本的 Adobe Customer Journey Analytics 擴充指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
+>* [Adobe Customer Journey Analytics 分析師速成課程](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261?profile.language=zh-Hant)
+>* [將您的思維方式和 Adobe Customer Journey Analytics 工作流程最佳化：適用於各種規模組織的團隊模型](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456?profile.language=zh-Hant)
+>* [建置組織整備：以人為本的 Adobe Customer Journey Analytics 擴充指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273?profile.language=zh-Hant)

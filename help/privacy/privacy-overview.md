@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 資料治理
 
-Adobe Customer Journey Analytics 和 [Adobe Experience Platform 資料控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)整合後，便可以標記敏感的 Customer Journey Analytics 資料以及執行隱私權原則。
+Adobe Customer Journey Analytics 和 [Adobe Experience Platform 資料控管](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hant)整合後，便可以標記敏感的 Customer Journey Analytics 資料以及執行隱私權原則。
 
 在 Experience Platform 使用的資料集上所建立的隱私權標籤和原則，可以出現在 Customer Journey Analytics 資料檢視工作流程中。這些標籤會阻止或警告從敏感性欄位建立量度和/和維度的使用者。
 
@@ -44,4 +44,4 @@ Customer Journey Analytics 不會直接訂閱一般資料保護規 (GDPR) 集中
 
 >[!MORELIKETHIS]
 >
->* [部落格：如何在 Adobe Customer Journey Analytics 中保持有效治理](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4)
+>* [部落格：如何在 Adobe Customer Journey Analytics 中保持有效治理](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4?profile.language=zh-Hant)

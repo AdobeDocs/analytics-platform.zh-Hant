@@ -68,6 +68,6 @@ Content Analytics 使用 Experience Platform 事件資料集中的網頁影像�
 >
 >[Content Analytics 報告](report/report.md)
 >[設定 Content Analytics](config/configuration.md)
->[在 Customer Journey Analytics 中計算退回與退回率](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
+>[在 Customer Journey Analytics 中計算退回與退回率](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=zh-Hant#M454)
 >
 
