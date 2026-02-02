@@ -1,14 +1,14 @@
 ---
 title: 拼接概觀
-description: 拼接概觀
+description: 瞭解身分拼接的概念、優點、先決條件和限制。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 9ace0679796c3a813b1fbd97c62c20faf64db211
+source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 89%
+source-wordcount: '799'
+ht-degree: 78%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->你必須擁有「**精選**」或更高版本的套裝 (針對[欄位型拼接](fbs.md)) 或者「**Prime**」或更高版本的套裝 (針對[圖表型拼接](gbs.md))，方能使用本節所述的功能。如果您不確定自己擁有哪一種 Customer Journey Analytics 套裝，請聯絡您的管理員。
+>您必須有Customer Journey Analytics **Select**&#x200B;封裝或更高版本（適用於[欄位式拚接](fbs.md)）或Customer Journey Analytics **Prime**&#x200B;封裝或更高版本（適用於[圖形式拚接](gbs.md)），才能使用本節中說明的功能。 如果您不確定自己擁有哪一種 Customer Journey Analytics 套裝，請聯絡您的管理員。
 
 身分拼接 (或簡稱拼接) 是強大的功能，可提高事件資料集的適用性，以進行跨管道分析。跨管道分析是 Customer Journey Analytics 的主要使用案例。此功能讓您可以根據共同識別碼 (個人 ID)，順暢地將來自不同管道的多個資料集進行合併，並執行報告。
 
-合併個人 ID 相似的資料集時，系統會跨裝置和管道延續原本的歸因。例如：某位使用者透過桌上型電腦上的廣告造訪您的網站。使用者購買產品，但隨後此使用者的訂單發生問題。然後，使用者會向您的客戶服務團隊致電，來協助解決此問題。透過跨管道分析，您可以將呼叫中心事件歸因於此使用者原本點按的廣告。
+合併個人 ID 相似的資料集時，系統會跨裝置和管道延續原本的歸因。例如：某位使用者透過桌上型電腦上的廣告造訪您的網站。使用者購買產品，但隨後使用者遇到訂單問題。 然後，使用者會向您的客戶服務團隊致電，來協助解決此問題。透過跨管道分析，您可以將呼叫中心事件歸因於此使用者原本點按的廣告。
 
 很遺憾，並非所有屬於 Customer Journey Analytics 中連線的事件型資料集均已填入足夠的資料，可立即用於支援此歸因。尤其以網頁型或行動型體驗資料集，通常在所有事件均無實際個人 ID 資訊。
 
-「拼接」功能可在一個資料集的列內重新輸入身分，來確保每個事件均可使用個人 ID (拼接 ID)。「拼接」功能會查看已驗證和未經驗證工作階段的使用者資料，以判斷可用作拼接 ID 的共同暫時 ID (個人 ID) 值。此重新輸入的動作可將不同的記錄解析為單一拼接 ID，以便在人員層級進行分析，而非在裝置或 Cookie 層級進行。
+拼接會重新金鑰一個資料集列中的身分，以確保每個事件都可以使用人員ID （拼接的ID）。 「拼接」功能會查看已驗證和未經驗證工作階段的使用者資料，以判斷可用作拼接 ID 的共同暫時 ID (個人 ID) 值。此金鑰重設會將不同的記錄解析為單一彙整ID，以供在人員層級而不是裝置或Cookie層級進行分析。
 
 Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)和[圖表型拼接](gbs.md)。
 
@@ -36,7 +36,7 @@ Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)�
 
 使用拼接前，請確認您的組織已做好下列準備：
 
-- 拼接包含合併經過驗證和未經驗證的使用者資料。在事件資料集上啟動拼接前，請務必遵守適用的法律和法規，包括取得必要的使用者權限。更多詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。
+- 拼接包含合併經過驗證和未經驗證的使用者資料。在事件資料集上啟用連結之前，請確定您遵守適用的法律和法規，包括取得必要的一般使用者許可權。
 
 - 將所需資料匯入 Adobe Experience Platform：
 
@@ -49,25 +49,16 @@ Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)�
 
 您可以透過兩種方式啟用「拼接」功能：
 
-- [要求啟用拼接](/help/stitching/use-stitching.md) （已棄用）。 在核准後，系統就會為您已請求拼接的資料集建立重複的資料集。 此重複資料集包含具有拼接識別碼的其他欄。 您必須建立新連線或編輯包含拼接資料集的現有連線，才能在Customer Journey Analytics中使用拼接資料。
-- [在連線介面](/help/stitching/use-stitching-ui.md)中啟用拼接。 當您在「連線」介面中設定資料集的拼接時，拼接會在「即時」發生，也就是在Customer Journey Analytics中從該資料集中擷取資料期間。
+- [要求啟用拼接](/help/stitching/use-stitching.md) （已棄用）。 一旦獲得核准，系統就會為您已請求拼接的資料集建立重複的資料集。此重複資料集包含具有拼接識別碼的額外欄。您必須建立新連線或編輯包含拼接資料集的現有連線，才能在 Customer Journey Analytics 中使用拼接資料。
+- [在連線介面](/help/stitching/use-stitching-ui.md)中啟用拼接。 當您在「連線」介面中設定資料集的拼接時，拼接會在從Customer Journey Analytics中的該資料集中擷取資料時即時發生。
 
 ## 限制
-
->[!IMPORTANT]
->
->
->- 將對來源事件資料集結構描述所做的任何變更也套用至新拼接的資料集結構描述。
->
->- 如果您移除來源資料集，拼接的資料集將停止處理並被系統移除。
->
->- 資料使用標籤不會自動傳播到拼接資料集結構描述。如果您已將資料使用標籤套用至來源資料集結構描述，則需要將這些資料使用標籤手動套用至拼接資料集結構描述。如需更多資訊，請參閱[在 Experience Platform 中管理資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview)。
 
 拼接是一項具突破性的完善功能，但使用方式上有所限制。
 
 - 僅支援事件資料集。其他資料集概不支援，例如查詢資料集。
 - 拼接不會以任何方式改變用於拼接的欄位。拼接使用指定欄位中的值，因為該值存在於資料湖中未拼接的資料集中。
-- 拼接程序區分大小寫。例如，如果有時在欄位中出現「Bob」一詞，有時又出現「BOB」一詞，這些 ID 將被視為兩個不同的人。
+- 拼接程序區分大小寫。例如，身分值`Bob`和`BOB`會被視為兩個不同的人。
 
 請勿將拼接與以下動作混淆：
 
