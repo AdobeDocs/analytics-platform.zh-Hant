@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: 9bebfaf7e10762bc7382d8b0d55148ee23698dd9
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 78%
+source-wordcount: '965'
+ht-degree: 66%
 
 ---
 
@@ -45,12 +45,8 @@ Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)�
 
 如果您在定義 Customer Journey Analytics 連線時，將一個或多個拼接資料集與其他資料集 (例如呼叫中心資料) 結合，則可以獲得跨通路分析的優勢。此連線設定假設其他資料集的每一行都已包含一個個人 ID，與拼接 ID 類似。
 
-## 啟用拼接
+當您的組織符合一般[必要條件](overview.md#prerequisites)、瞭解一般[限制](overview.md#limitations)，以及拼接方法特定的（[欄位式](fbs.md)和[圖表式](gbs.md)）先決條件和限制時，您可以依照這些步驟來請求並開始在Customer Journey Analytics中使用拼接。
 
-您可以透過兩種方式啟用「拼接」功能：
-
-- [要求啟用拼接](/help/stitching/use-stitching.md) （已棄用）。 一旦獲得核准，系統就會為您已請求拼接的資料集建立重複的資料集。此重複資料集包含具有拼接識別碼的額外欄。您必須建立新連線或編輯包含拼接資料集的現有連線，才能在 Customer Journey Analytics 中使用拼接資料。
-- [在連線介面](/help/stitching/use-stitching-ui.md)中啟用拼接。 當您在「連線」介面中設定資料集的拼接時，拼接會在從Customer Journey Analytics中的該資料集中擷取資料時即時發生。
 
 ## 限制
 
@@ -65,6 +61,25 @@ Customer Journey Analytics 支援兩種拼接類型：[欄位型拼接](fbs.md)�
 - 兩個或多個資料集的合併。拼接僅適用於一個資料集。資料集合併是因為在設定 Customer Journey Analytics 連線時，選取了該連線中所選資料集內的相同個人 ID。
 
 - 兩個資料集的結合。在 Customer Journey Analytics 中，結合通常用於 Analysis Workspace 中的尋找或分類。儘管拼接也使用到結合的功能，但過程本身涉及的不僅僅是結合。
+
+
+## 選項
+
+您有權使用的Customer Journey Analytics套件會決定可用的拼接方法、初始回填持續時間、回顧視窗、重播頻率以及允許拼接的資料集數量上限。 如需詳細資訊，請參閱[Customer Journey Analytics產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html)。 在啟用銜接之前，請先決定可用的選項。
+
+| | Customer Journey Analytics<br/>選取 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
+|---|---|---|---|
+| 可用的拼接方法 | 欄位型拼接 | 欄位式拚接<br/>圖表式拚接 | 欄位式拚接<br>圖表式拚接</li> |
+| 一次性拼接回填持續時間 | 13 個月 | 13 個月 | 25 個月 |
+| 回顧期間和重播頻率 | 1天，每天<br/>最多7天，每週 | 1天，每天<br/>最多14天，每週 | 1天，每天<br/>最多30天，每週 |
+| 拼接允許的資料集數量上限 | 5 | 15 | 50 |
+
+## 啟用拼接
+
+您可以透過兩種方式啟用「拼接」功能：
+
+- [要求啟用拼接](/help/stitching/use-stitching.md) （已棄用）。 一旦獲得核准，系統就會為您已請求拼接的資料集建立重複的資料集。此重複資料集包含具有拼接識別碼的額外欄。您必須建立新連線或編輯包含拼接資料集的現有連線，才能在 Customer Journey Analytics 中使用拼接資料。
+- [在連線介面](/help/stitching/use-stitching-ui.md)中啟用拼接。 當您在「連線」介面中設定資料集的拼接時，拼接會在從Customer Journey Analytics中的該資料集中擷取資料時即時發生。
 
 
 ## Journey Optimizer 資料集

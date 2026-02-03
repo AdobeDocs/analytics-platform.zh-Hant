@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: cbb18e9d0990d5df64995c2dabe8362c7c37bb45
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 20%
+source-wordcount: '407'
+ht-degree: 26%
 
 ---
 
@@ -19,19 +19,6 @@ ht-degree: 20%
 >
 >不再需要透過Adobe彙整請求，且此方法已過時。 [在連線UI中啟用拼接](use-stitching-ui.md)。
 >
-
-當您的組織符合一般[必要條件](overview.md#prerequisites)、瞭解一般[限制](overview.md#limitations)，以及拼接方法特定的（[欄位式](fbs.md)和[圖表式](gbs.md)）先決條件和限制時，您可以依照這些步驟來請求並開始在Customer Journey Analytics中使用拼接。
-
-## 選取選項
-
-您有權使用的Customer Journey Analytics套件會決定可用的拼接方法、初始回填持續時間、回顧視窗、重播頻率以及允許拼接的資料集數量上限。 如需詳細資訊，請參閱[Customer Journey Analytics產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html)。 在請求支援之前，請先決定可用的選項。
-
-| | Customer Journey Analytics<br/>選取 | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
-|---|---|---|---|
-| 可用的拼接方法 | 欄位型拼接 | 欄位式拚接<br/>圖表式拚接 | 欄位式拚接<br>圖表式拚接</li> |
-| 一次性拼接回填持續時間 | 13 個月 | 13 個月 | 25 個月 |
-| 回顧期間和重播頻率 | 1天，每天<br/>最多7天，每週 | 1天，每天<br/>最多14天，每週 | 1天，每天<br/>最多30天，每週 |
-| 拼接允許的資料集數量上限 | 5 | 15 | 50 |
 
 ## 要求支援
 
