@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: a2715ff9869796858dec16d3b8b422ef0c9325aa
 workflow-type: tm+mt
-source-wordcount: '2694'
-ht-degree: 100%
+source-wordcount: '2776'
+ht-degree: 97%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 100%
    * 若要定義在表格中顯示哪些欄，請選取「![欄設定](/help/assets/icons/ColumnSetting.svg)」。選取「**[!UICONTROL 自訂表格]**」對話框中顯示哪些欄，然後選取「**[!UICONTROL 套用]**」以套用變更。
 
 1. 選取 ![SelectBox](/help/assets/icons/SelectBox.svg) 您想要使用的資料檢視。
-1. 選取「**[!UICONTROL 儲存]**」，確認所選取的資料檢視。選取「**[!UICONTROL 取消]**」即可取消。
+1. 選取「**[!UICONTROL 儲存]**」，確認所選取的資料檢視。選取「**[!UICONTROL 取消]**」進行取消。
 
 
 在 Customer Journey Analytics 中，[資料檢視](/help/data-views/data-views.md)與 Customer Journey Analytics [連線](/help/connections/overview.md)相連結。連線是以您組織內的沙箱為基礎。儲存設定後，**[!UICONTROL 沙箱]**&#x200B;欄位會根據所選取的資料檢視自動填入沙箱的名稱。
@@ -331,6 +331,18 @@ ht-degree: 100%
 * 若要編輯在為 Content Analytics 收集資料時應包括或排除哪些頁面，請選取「**[!UICONTROL 體驗]**」下方的「![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**」。您會被重新導向至與目前 Content Analytics 設定標記屬性關聯的 [Adobe Content Analytics 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)。您可以編輯規則運算式以包括或排除頁面。請確保您有[發佈](#publish)您的變更。
 
 * 若要編輯在為 Content Analytics 收集資料時應包括或排除哪些資產，請選取「**[!UICONTROL 資產]**」下方的「![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**」。您會被重新導向至與目前 Content Analytics 設定標記屬性關聯的 [Adobe Content Analytics 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)。您可以編輯規則運算式以包括或排除資產。請確保您有[發佈](#publish)您的變更。
+
+
+### 標頭覆寫
+
+您可以選擇在&#x200B;**[!UICONTROL 標頭覆寫]**&#x200B;區段中指定標頭名稱和密碼標頭值。  此標頭會覆寫設定，以確保Content Analytics傳送自訂HTTP標頭來略過您實作的任何機器人偵測或閘道流量技術。
+
+![標題覆寫區段](/help/content-analytics/assets/aca-configuration-header-overrides.png)
+
+1. 啟用&#x200B;**[!UICONTROL 設定標頭覆寫]**。
+1. 輸入&#x200B;**[!UICONTROL 標頭名稱]**。 例如，`x-asset-service`。
+1. 輸入&#x200B;**[!UICONTROL 標頭值]**。 您指定的任何內容都是機密，不會顯示在使用者介面中（除非您明確選擇在輸入期間公開![可見度](/help/assets/icons/Visibility.svg)值）。
+
 
 ### 摘要 {#summary}
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: 8f7c1f2a89c10be9b33f6e06fcff287e275767cf
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '910'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 如果您符合先決條件，在啟用身分拼接之前，可能會想要對事件資料集中的資料執行一些預檢檢查：
 
-* 如果您打算將XDM結構描述欄位用於永久ID /person ID，請確定在事件資料集的結構描述中正確標示身分。 [請參閱身分名稱空間概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。
+* 如果您打算將XDM結構描述欄位用於永久ID或人員ID，請確定在事件資料集的結構描述中正確標示身分。 [請參閱身分名稱空間概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。
 * 驗證永久ID和人員ID的身分涵蓋範圍：
 
    * **永久ID**

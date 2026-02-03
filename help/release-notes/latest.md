@@ -3,16 +3,16 @@ title: 最新的 Customer Journey Analytics 發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 0eb56aa15104cec3dd08aa28bcfff6dd8966f14a
+source-git-commit: 402dc1a3ad1f233d9c65f32f4a521e7937c82929
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 97%
+source-wordcount: '957'
+ht-degree: 93%
 
 ---
 
 # 最新的 Customer Journey Analytics 發行說明 (2026 年 1 月)
 
-**上次更新日期**：2026 年 1 月 14 日
+**上次更新日期**：2026年2月2日
 
 這些發行說明涵蓋 2026 年 1 月的發行期間。Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,10 +20,11 @@ ht-degree: 97%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **在 Customer Journey Analytics 中從 Experience Platform 輪廓資料集中分析客群** | 您現在可以將 Experience Platform 輪廓資料集中的客群會籍資料攝取到 Customer Journey Analytics 連線中。客群會變為可用的新維度，以便在 Analysis Workspace 中使用。<p>這是透過 Customer Journey Analytics 中的一項新功能所實現，該功能可攝取 XDM 物件對應，如此便能攝取輪廓客群 ID。</p><p>過去，只有簡單的 XDM 對應可以攝取到 Customer Journey Analytics 中。</p><p>除了可以在 Analysis Workspace 中將客群資料作為維度新增至任何專案之外，還可以使用下列新的 Workspace 範本：</p><ul><li>Audience Analytics 概觀</li><li>同意原則概觀</li></ul><p>如需詳細資訊，請參閱[客群分析概觀](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/audience-analysis/audience-analysis-overview.html?lang=zh-Hant)。</p> | 2025 年 10 月 22 日 | 2026 年 1 月 27 日 <p> (原計劃於 2026 年 1 月 22 日推出)</p> |
-| **述說資料的故事：從 Workspace 報告產生投影片簡報** | 您現在可以根據 Analysis Workspace 報告自動產生投影片簡報 (採用 .pptx 格式)。Workspace 會偵測報告中的關鍵洞察，並將其轉換為適合利害關係人使用的投影片。<p>此功能可減少呈現分析結果、建立利於管理層理解的報告敘事及傳達分析對業務之影響所需的時間和精力。</p><p>如需詳細資訊，請參閱[述說資料的故事：從 Workspace 報告產生投影片簡報](/help/analysis-workspace/curate-share/generate-slides.md)。</p> | 2025 年 10 月 22 日 | 2026 年 1 月 28 日 |
-| **在自由格式表格中包含多個維度欄** | 您現在可以在自由格式表格中包含最多 5 個維度欄，以便您並排檢視多個維度項目。每一列維度項目的行為都像是單一串連的維度項目。<p>您可以將篩選器、排序、劃分等項目套用至具有多個維度欄的自由格式表格，以建立更深入、更自訂的分析。</p><p>過去，您只能在自由格式表格中包含 1 個維度欄。</p><p>如需詳細資訊，請參閱[在自由格式表格中包含多個維度欄](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)。</p> | 2026 年 1 月 28 日 | 2026 年 2 月 18 日 |
-| **依多個欄排序表格** | 您現在可以在 Analysis Workspace 中依多個欄來排序自由格式表格的資料，無論其為維度或量度皆可。<p>當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序進行排序。優先順序編號會顯示在排序圖示旁邊。</p><p>如需詳細資訊，請參閱[篩選和排序自由格式表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的[依多個欄排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#sort-tables-by-multiple-columns-advanced-sorting)。</p> | 2026 年 1 月 28 日 | 2026 年 2 月 18 日 |
+| **標題覆寫** | 您可以在Content Analytics的標頭名稱和密碼標頭值中指定。  此[標頭覆寫設定](/help/content-analytics/config/guided.md#header-overrides)可確保Content Analytics傳送自訂HTTP標頭，以略過您已實作的機器人偵測或閘道流量技術。 |  | 2026年2月2 |
+| **在 Customer Journey Analytics 中從 Experience Platform 輪廓資料集中分析客群** | 您現在可以將 Experience Platform 輪廓資料集中的客群會籍資料攝取到 Customer Journey Analytics 連線中。客群會變為可用的新維度，以便在 Analysis Workspace 中使用。<p>這是透過 Customer Journey Analytics 中的一項新功能所實現，該功能可攝取 XDM 物件對應，如此便能攝取輪廓客群 ID。</p><p>過去，只有簡單的 XDM 對應可以攝取到 Customer Journey Analytics 中。</p><p>除了可以在 Analysis Workspace 中將客群資料作為維度新增至任何專案之外，還可以使用下列新的 Workspace 範本：</p><ul><li>Audience Analytics 概觀</li><li>同意原則概觀</li><p><!--For more information, see "Audience analysis overview" (https://experienceleague.corp.adobe.com/docs/analytics-platform/using/cja-dataviews/audience-analysis/audience-analysis-overview.html).-->(文件連結待補充。)</p> | 2025 年 10 月 22 日 | 2026年1月22日 |
+| **述說資料的故事：從 Workspace 報告產生投影片簡報** | 您現在可以根據 Analysis Workspace 報告自動產生投影片簡報 (採用 .pptx 格式)。Workspace 會偵測報告中的關鍵洞察，並將其轉換為適合利害關係人使用的投影片。<p>此功能可減少呈現分析結果、建立利於管理層理解的報告敘事及傳達分析對業務之影響所需的時間和精力。</p><p>(文件連結待補充。)<!--For more information, see [Data storytelling: Generate slide presentations from Workspace reports](/help/analysis-workspace/curate-share/generate-slides.md).--></p> | 2025 年 10 月 22 日 | 2026 年 1 月 28 日 |
+| **在自由格式表格中包含多個維度欄** | 您現在可以在自由格式表格中包含最多 5 個維度欄，以便您並排檢視多個維度項目。每一列維度項目的行為都像是單一串連的維度項目。<p>您可以將篩選器、排序、劃分等項目套用至具有多個維度欄的自由格式表格，以建立更深入、更自訂的分析。</p><p>過去，您只能在自由格式表格中包含 1 個維度欄。</p><p><!-- For more information, see [Include multiple dimension columns in a freeform table](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md).--> (文件連結待補充。)</p> | 2026 年 1 月 28 日 | 2026 年 2 月 18 日 |
+| **依多個欄排序表格** | 您現在可以在 Analysis Workspace 中依多個欄來排序自由格式表格的資料，無論其為維度或量度皆可。<p>當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序進行排序。優先順序編號會顯示在排序圖示旁邊。</p><p>(文件連結待補充。)<!-- For more information, see "Filter and sort freeform tables". (need to move info to this article from "Include multiple dimension columns in a freeform table") --></p> | 2026 年 1 月 28 日 | 2026 年 2 月 18 日 |
 | **合併來自多個 IMS 組織的資料來源** | 您現在可以使用「Analytics 來源連接器」來合併多個 IMS 組織中的多個資料來源。這可讓組織擁有其客戶資料的合併檢視，即使該客戶資料散佈在多個 IMS 組織中亦然。 <p>**注意：**&#x200B;此設定只能透過向 Adobe 客戶服務提交請求來取得。</p>  <p>(文件連結待補充。)</p> |  | 2026 年 1 月 30 日 |
 | **在連線中進行拼接** | Customer Journey Analytics 中的拼接程序現在更簡單了。現在只需將資料攝取至 Customer Journey Analytics 中即可完成拼接，而不是複製資料集並在重複的資料集上套用拼接，因此不需要使用重複的資料集和結構描述。 <p>此外，您[透過更新的連線介面](/help/stitching/use-stitching-ui.md)開始自我彙整，而不必透過Adobe客戶服務請求彙整。 | 2025 年 10 月 28 日 | 2026 年 1 月 30 日 |
 | **支援 Data Mirror** | 藉由支援 Experience Platform 中特定來源連接器的模型式結構描述和變更資料擷取 (CDC) 功能，Customer Journey Analytics 將能夠支援如 [!DNL Snowflake]、[!DNL Azure Databricks] 和 [!DNL Google BigQuery] 等資料倉儲解決方案的[資料鏡像](/help/data-mirror/data-mirror.md)功能。<p>若要存取 Beta 版，請聯絡您的 Adobe 帳戶團隊。</p> | Beta 版：2025 年 9 月 24 日 | 待定 |
