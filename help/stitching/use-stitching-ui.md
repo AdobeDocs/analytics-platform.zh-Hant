@@ -91,7 +91,7 @@ ht-degree: 5%
 >id="connection_changeto_identitygraph"
 >title="身分識別圖的變更"
 >abstract="在使用身分識別圖進行資料拼接之前，請確定已完成身分識別圖的設定。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/gbs" text="圖表型拼接"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="圖表型拼接"
 
 若要啟用拼接，請在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊的事件資料集區段中：
 
