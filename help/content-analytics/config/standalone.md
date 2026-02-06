@@ -85,7 +85,7 @@ Content Analytics已獲授權為獨立產品，但設定會在Experience Platfor
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理產品設定檔的使用者](https://video.tv.adobe.com/v/333860/?quality=12&learn=on){target="_blank"}以取得示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理產品設定檔的使用者](https://video.tv.adobe.com/v/3475952/?captions=chi_hant&quality=12&learn=on){target="_blank"}以取得示範影片。
 
 
 >[!ENDSHADEBOX]
