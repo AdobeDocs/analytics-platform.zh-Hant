@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 4c5376171afe7ee830c52cc1066d0645a1adbc5d
+source-git-commit: 2e2620bdc6875b13492013f4ec108bae0302a25a
 workflow-type: tm+mt
 source-wordcount: '1797'
 ht-degree: 81%
@@ -100,9 +100,9 @@ ht-degree: 81%
 
 - **重播拼接**：*根據唯一識別碼 (個人 ID) 重播*&#x200B;資料。來自先前未知裝置 (永久 ID) 的點擊會在這個階段進行拼接 (變成個人 ID)。兩個引數決定重播： **頻率**&#x200B;和&#x200B;**回顧期間**。 Adobe 提供下列這些參數的組合：
    - **以每日一次的頻率行每日回顧**：資料每天重播，回顧時間範圍是 24 小時。此選項的優點是重播頻率較高，但未驗證的輪廓必須在造訪您網站的當天完成驗證。
-   - **以每週一次的頻率進行每週回顧**：資料每週重播一次，回顧時間範圍是一週 (請參閱[選項](#options))。此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。不過，直到下一次每週重播為止，系統不會重新處理不到一週的未拼接資料。
-   - **以每週一次的頻率進行每兩週回顧**：資料每週重播一次，回顧時間範圍是兩週 (請參閱[選項](#options))。此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。不過，直到下一次每週重播為止，系統不會重新處理不到兩週的未拼接資料。
-   - **以每週一次的頻率進行每月回顧**：資料每週重播一次，回顧時間範圍是一個月 (請參閱[選項](#options))。此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。不過，直到下一次每週重播為止，系統不會重新處理不到一個月的未拼接資料。
+   - **以每週一次的頻率進行每週回顧**：資料每週重播一次，回顧時間範圍是一週 (請參閱[選項](overview.md#options))。此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。不過，直到下一次每週重播為止，系統不會重新處理不到一週的未拼接資料。
+   - **以每週一次的頻率進行每兩週回顧**：資料每週重播一次，回顧時間範圍是兩週 (請參閱[選項](overview.md#))。此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。不過，直到下一次每週重播為止，系統不會重新處理不到兩週的未拼接資料。
+   - **以每週一次的頻率進行每月回顧**：資料每週重播一次，回顧時間範圍是一個月 (請參閱[選項](overview.md#options))。此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。不過，直到下一次每週重播為止，系統不會重新處理不到一個月的未拼接資料。
 
 - **隱私權**：在收到隱私權相關要求時，除了移除要求的身分識別之外，在未驗證事件中對該身分識別所做的任何拼接都必須還原。
 
@@ -218,7 +218,7 @@ ht-degree: 81%
    - **個人 ID**，僅有部分列可用的識別碼。例如輪廓驗證後雜湊的使用者名稱或電子郵件地址。您可以使用任何您喜歡的識別碼。拼接會認定這個欄位儲存實際個人 ID 資訊。為獲得最佳的拼接結果，對於每個永久 ID，在資料集的事件中應至少傳送一次個人 ID。如果您打算將此資料集納入 Customer Journey Analytics 連線，其他資料集最好也具有類似的通用識別碼。
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 
