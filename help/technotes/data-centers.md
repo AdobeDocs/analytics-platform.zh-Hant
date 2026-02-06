@@ -17,7 +17,7 @@ Adobe Customer Journey Analytics由北美、歐洲和APAC的公共雲端服務�
 
 布建時，客戶需指定其Adobe Experience Platform資料將位於哪個區域。 從Adobe Experience Platform資料湖擷取到Customer Journey Analytics的資料將會儲存在相同區域。
 
-如需詳細資訊，請參閱Adobe Experience Cloud檔案中的[地區資料彙集](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc)。
+如需詳細資訊，請參閱Adobe Experience Cloud檔案中的[地區資料彙集](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/rdc)。
 
 
 ## 檢視儲存資料的資料中心
