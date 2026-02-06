@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: cbb18e9d0990d5df64995c2dabe8362c7c37bb45
+source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '962'
 ht-degree: 5%
 
 ---
@@ -91,7 +91,12 @@ ht-degree: 5%
 >id="connection_changeto_identitygraph"
 >title="身分識別圖的變更"
 >abstract="在使用身分識別圖進行資料拼接之前，請確定已完成身分識別圖的設定。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/gbs" text="圖表型拼接"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="圖表型拼接"
+
+>[!CONTEXTUALHELP]
+>id="connection_stitching_personid"
+>title="個人 ID"
+>abstract="從可用身分中選取人員ID （人員的唯一識別碼）。 如果您要使用圖表式拼接，請選取&#x200B;**[!UICONTROL 身分圖表]**。"
 
 若要啟用拼接，請在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊的事件資料集區段中：
 

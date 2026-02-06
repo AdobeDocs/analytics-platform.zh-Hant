@@ -5,16 +5,18 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: b5afcfe2cac8aa12d7f4d0cf98658149707123e3
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 79%
+source-wordcount: '1741'
+ht-degree: 69%
 
 ---
 
 # 圖表型拼接
 
-在圖表式拚接中，您可以指定事件資料集。 您可以為該事件資料集指定永久ID (Cookie)，並從包含人員ID值的身分圖表指定所需的拼接名稱空間。 圖表型拼接會將拼接後的 ID 的新一欄，新增至事件資料集。永久ID可使用指定的拼接名稱空間，從Experience Platform Identity Service查詢身分圖表，以更新拼接的ID。
+在圖表式拚接中，您可以從身分圖表指定事件資料集、該資料集的永久ID (Cookie)和所需的人員ID名稱空間。 圖表式拚接會嘗試讓人員ID資訊可用於任何事件的Customer Journey Analytics資料分析。 永久ID是用來從Experience Platform Identity Service查詢身分圖表，以從指定的名稱空間取得人員ID。
+
+如果無法擷取事件的人員ID資訊，則會使用永續性ID來取代該&#x200B;*未拼接*&#x200B;事件。 因此，在與包含已啟用拼接資料集的[連線](/help/data-views/data-views.md)相關聯的[資料檢視](/help/connections/overview.md)中，人員ID資料檢視元件包含人員ID值或事件層級的永久ID值。
 
 
 ![圖表型拼接](/help/stitching/assets/gbs.png)
@@ -120,7 +122,7 @@ ht-degree: 79%
 
 +++ 詳細資料
 
-| | 時間 | 永久 ID<br/>`ECID` | 命名空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 拼接後的 ID (即時拼接後) |
+| | 時間 | 永久 ID<br/>`ECID` | 命名空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 產生的ID （即時彙整後） |
 |--:|---|---|---|---|
 | 1 | 2023-05-12 11:00 | `246` | `246` ![分支 1](/help/assets/icons/Branch1.svg) *未定義* | `246` |
 | 2 | 2023-05-12 14:00 | `246` | `246` ![分支 1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
@@ -132,8 +134,8 @@ ht-degree: 79%
 
 {style="table-layout:auto"}
 
-您可以深入了解如何針對各事件解析拼接後的 ID。根據時間、永久 ID 和查詢指定命名空間的身分識別圖表 (同時)。
-當查詢解析為一個以上的拼接後的 ID 時 (如事件 7)，會選取身分識別圖表傳回 ID 中依字典順序排列的第一個 (在此範例中為 `a.b@yahoo.co.uk`)。
+您可以檢視每個事件的結果ID解析方式。 根據時間、永久ID，以及指定的人員ID名稱空間的身分圖表查詢。
+當查詢解析至多個結果ID （例如事件7）時，會選取識別圖表傳回的詞典第一識別碼（在此範例中為`a.b@yahoo.co.uk`）。
 
 +++
 
@@ -145,7 +147,7 @@ ht-degree: 79%
 
 當重播拼接發生在 2023-05-13 16:30，且回顧時間範圍設定為 24 小時，範例中的某些事件會重新拼接 (標示為![重播](/help/assets/icons/Replay.svg))。
 
-| | 時間 | 永久 ID<br/>`ECID` | 命名空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 拼接後的 ID<br/> (即時拼接後) | 拼接後的 ID <br/>(重播 24 小時後) |
+| | 時間 | 永久 ID<br/>`ECID` | 命名空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 產生的ID<br/> （即時彙整之後） | 產生的ID<br/> （重播24小時後） |
 |---|---|---|---|---|---|
 | 2 | 2023-05-12 14:00 | `246` | `246` ![分支 1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
 | 3 | 2023-05-12 15:00 | `246` | `246` ![分支 1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
@@ -160,7 +162,7 @@ ht-degree: 79%
 當重播拼接發生在 2023-05-13 16:30，且回顧時間範圍設定為 7 天時，來自範例的所有事件都會重新拼接。
 
 
-| | 時間 | 永久 ID<br/>`ECID` | 命名空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 拼接後的 ID <br/>(即時拼接後) | 拼接後的 ID <br/>(重播 7 天後) |
+| | 時間 | 永久 ID<br/>`ECID` | 命名空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 產生的ID<br/> （即時彙整之後） | 產生的ID<br/> （重播7天後） |
 |---|---|---|---|---|---|
 | ![重播](/help/assets/icons/Replay.svg) 1 | 2023-05-12 11:00 | `246` | `246` ![分支 1](/help/assets/icons/Branch1.svg) *未定義* | `246` | `a.b@yahoo.co.uk` |
 | ![重播](/help/assets/icons/Replay.svg) 2 | 2023-05-12 14:00 | `246` | `246` ![分支 1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
@@ -176,13 +178,13 @@ ht-degree: 79%
 
 ### 第 3 步：隱私請求
 
-當您收到隱私請求時，作為隱私請求主體的使用者之所有記錄當中的拼接後的 ID 皆會刪除。
+當您收到隱私權請求時，隱私權請求使用者主體的所有記錄都會刪除產生的ID。
 
 +++ 詳細資料
 
 下列表格呈現與以上相同的資料，但顯示隱私請求 (例如，在 2023-05-13 18:00) 對範例事件的影響。
 
-| | 時間 | 永久 ID<br/>`ECID` | 命名空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 拼接後的 ID (隱私請求後) |
+| | 時間 | 永久 ID<br/>`ECID` | 命名空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 產生的ID （在隱私權請求後） |
 |--:|---|---|---|---|
 | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) 1 | 2023-05-12 11:00 | `246` | `246` ![分支 1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
 | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) 2 | 2023-05-12 14:00 | `246` | `246`![分支 1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
@@ -207,7 +209,7 @@ ht-degree: 79%
    - 擁有這類相關身分的所有資料集都必須針對身分圖表資料擷取[啟用](faq.md#enable-a-dataset-for-the-identity-service)。 這項啟用可確保隨著時間從所有需要的來源將傳入的身分新增到圖表中。
    - 若已使用即時客戶資料設定檔或Adobe Journey Optimizer一段時間，則應已在一定程度上設定圖表。<br/>若啟用圖表式拚接的資料集也需要歷史拚接回填，圖表應已包含整個期間的歷史身分識別，才能取得想要的拚接結果。
 - 如果您想要使用圖表式拼接，而且您預期事件資料集會貢獻身分圖表，您應該[啟用身分服務的資料集](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)。
-- 永久ID和人員ID可搭配[identityMap](#identitymap)使用。 或者，永久性ID和人員ID可以是XDM結構描述中的欄位，在這種情況下，欄位必須是[在結構描述中定義為身分](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity?lang=en)。
+- 永久ID和人員ID可搭配[identityMap](#identitymap)使用。 或者，永久性ID和人員ID可以是XDM結構描述中的欄位，在這種情況下，欄位必須是[在結構描述中定義為身分](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en)。
 
 >[!NOTE]
 >

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
 workflow-type: tm+mt
 source-wordcount: '2149'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe 啟用拼接後，需要約一週才能使用即時拼接功能。能否�
 
 +++ 跨裝置分析 (傳統 Analytics 中的一項功能) 和跨管道分析有何差異？
 
-[跨裝置分析](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/cda/overview)是傳統 Adobe Analytics 的專屬功能，可讓您了解人們如何在多個裝置之間操作。其提供兩個工作流程將裝置資料連結在一起：欄位型拼接和裝置圖表。
+[跨裝置分析](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview)是傳統 Adobe Analytics 的專屬功能，可讓您了解人們如何在多個裝置之間操作。其提供兩個工作流程將裝置資料連結在一起：欄位型拼接和裝置圖表。
 
 跨管道分析是 Customer Journey Analytics 的專屬使用案例，可讓您了解使用者在不同裝置以及不同管道之間如何操作。其會拼接資料集的個人 ID，讓該資料集可順暢地與其他資料集合併。此功能的操作設計類似於跨裝置分析的欄位型拼接，但實施方式不同，因為傳統 Analytics 和 Customer Journey Analytics 之間的資料架構不同。如需更多資訊，請參閱[拼接](overview.md)和[跨管道分析](../use-cases/cross-channel/cross-channel.md)使用案例。
 
@@ -107,7 +107,7 @@ Adobe 會根據本地和國際法律來處理隱私請求。Adobe 提供 [Adobe 
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| 拼接後的資料集 | ID | 時間戳記 | 永久 ID | 永久命名空間 | 個人 ID | 個人命名空間 | 拼接後的 ID | 拼接後的命名空間 |
+| 拼接後的資料集 | ID | 時間戳記 | 永久 ID | 永久命名空間 | 個人 ID | 個人命名空間 | 產生的ID | 拼接後的命名空間 |
 |---|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | Bob | CustId |
 | | 2 | ts1 | 123 | ecid | Bob | CustId | Bob | CustId |
@@ -131,7 +131,7 @@ Adobe 會根據本地和國際法律來處理隱私請求。Adobe 提供 [Adobe 
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| 拼接後的資料集 | ID | 時間戳記 | 永久 ID | 永久命名空間 | 個人 ID | 個人命名空間 | 拼接後的 ID | 拼接後的命名空間 |
+| 拼接後的資料集 | ID | 時間戳記 | 永久 ID | 永久命名空間 | 個人 ID | 個人命名空間 | 產生的ID | 拼接後的命名空間 |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **Alex** | CustId |
 | ![刪除輪廓](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~CustId~~ | ~~Bob~~ | ~~CustId~~ |
@@ -155,7 +155,7 @@ Adobe 會根據本地和國際法律來處理隱私請求。Adobe 提供 [Adobe 
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| 拼接後的資料集 | ID | 時間戳記 | 永久 ID | 永久命名空間 | 個人 ID | 個人命名空間 | 拼接後的 ID | 拼接後的命名空間 |
+| 拼接後的資料集 | ID | 時間戳記 | 永久 ID | 永久命名空間 | 個人 ID | 個人命名空間 | 產生的ID | 拼接後的命名空間 |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **123** | ecid |
 | ![刪除輪廓](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~CustId~~ | ~~Bob~~ | ~~CustId~~ |
@@ -167,10 +167,10 @@ Adobe 會根據本地和國際法律來處理隱私請求。Adobe 提供 [Adobe 
 
 +++ 如果一個或多個事件中的永久 ID 欄位為空白，會發生什麼情況？
 
-如果在正在拼接的資料集中的事件上，「永久ID」欄位為空白，該事件的拼接ID會以下述兩種方式之一確定：
+如果在正在拼接的資料集中的事件中，永久ID欄位為空白，該事件的結果ID會以兩種方式之一確定：
 
-* 如果人員ID欄位非空白，Customer Journey Analytics會使用人員ID中的值作為拼接ID。
-* 如果人員ID欄位為空白，Customer Journey Analytics也會將彙整ID保留為空白。 在這種情況下，事件的永久ID、人員ID和彙整ID全部空白。 使用正在拼接資料集（其中拼接的ID被選為人員ID）的Customer Journey Analytics連線中，會捨棄這些型別的事件。
+* 如果人員ID欄位非空白，Customer Journey Analytics會使用人員ID中的值作為產生的ID。
+* 如果人員ID欄位為空白，Customer Journey Analytics也會將產生的ID保留為空白。 在這種情況下，事件的永久ID、人員ID和產生的ID全部空白。 使用正在拼接資料集（其中將產生的ID選為人員ID）的Customer Journey Analytics連線中，會捨棄這些型別的事件。
 
 +++
 
@@ -181,7 +181,7 @@ Adobe 會根據本地和國際法律來處理隱私請求。Adobe 提供 [Adobe 
 
 請留意「個人收合」，這是將拼接套用至使用預留位置值做為暫時 ID 的資料時會發生的情況。在下列範例表格中，來自 CRM 系統的資料集所產生的未定義個人 ID 填入「未定義」值，導致錯誤呈現個人數量。
 
-| 事件 | 時間戳記 | 永久 ID (Cookie ID) | 暫時 ID | 拼接後的 ID (重播後) |
+| 事件 | 時間戳記 | 永久 ID (Cookie ID) | 暫時 ID | 產生的ID （重播後） |
 |---|---|---|---|---|
 | 1 | 2023-05-12 12:01 | 123 | - | **Cory** |
 | 2 | 2023-05-12 12:02 | 123 | Cory | **Cory** |
@@ -205,11 +205,11 @@ Customer Journey Analytics 中的某些量度與傳統 Analytics 中的量度類
 
 | **Customer Journey Analytics 拼接資料** | **Customer Journey Analytics 未拼接資料** | **Adobe Analytics** | **具有 CDA 的 Analytics Ultimate** |
 | ----- | ----- | ----- | ----- |
-| **人員** = 將拼接後的 ID 選為個人 ID 的獨立個人 ID 數量。在傳統 Adobe Analytics 中，**人員**&#x200B;可能多於或少於&#x200B;**不重複訪客數**，取決於拼接程序的結果。 | **人員** = 根據選定為個人 ID 的欄所計算的獨立個人 ID 數量。如果在 Customer Journey Analytics 中 `endUserIDs._experience.aaid.id` 被用做個人 ID，則 Analytics 來源連接器資料集中的&#x200B;**人員**，類似於傳統 Adobe Analytics 中的&#x200B;**不重複訪客**。 | **不重複訪客** = 不同訪客 ID 的計數。 **不重複訪客**&#x200B;可能與相異 **ECID** 的計數不同。 | 請參閱[人員](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/people)。 |
-| **工作階段**：根據 Customer Journey Analytics 資料檢視中的工作階段設定來定義。拼接過程可以將來自多個裝置的各個工作階段合併為一個工作階段。 | **工作階段**：根據 Customer Journey Analytics 資料檢視中指定的工作階段設定來定義。 | **造訪次數**：請參閱[造訪次數](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/visits)。 | **造訪次數**：根據 [CDA 虛擬報告套裝](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/cda/setup)中指定的工作階段設定來定義。 |
-| **事件**= Customer Journey Analytics 中拼接資料中的列數。這個量度通常接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。但是，請注意上述常見問題中關於永久 ID 為空白的列的說明。 | **事件**= Customer Journey Analytics 中未拼接資料中的列數。這個量度通常接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。但是請注意，如果在 Experience Platform 資料湖的未拼接資料中，有任何事件的個人 ID 為空白，則 Customer Journey Analytics 不會包含這些事件。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/occurrences)。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/occurrences)。 |
+| **人員** =不同人員ID的數量，其中產生的ID被選為人員ID。 在傳統 Adobe Analytics 中，**人員**&#x200B;可能多於或少於&#x200B;**不重複訪客數**，取決於拼接程序的結果。 | **人員** = 根據選定為個人 ID 的欄所計算的獨立個人 ID 數量。如果在 Customer Journey Analytics 中 `endUserIDs._experience.aaid.id` 被用做個人 ID，則 Analytics 來源連接器資料集中的&#x200B;**人員**，類似於傳統 Adobe Analytics 中的&#x200B;**不重複訪客**。 | **不重複訪客** = 不同訪客 ID 的計數。 **不重複訪客**&#x200B;可能與相異 **ECID** 的計數不同。 | 請參閱[人員](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/people)。 |
+| **工作階段**：根據 Customer Journey Analytics 資料檢視中的工作階段設定來定義。拼接過程可以將來自多個裝置的各個工作階段合併為一個工作階段。 | **工作階段**：根據 Customer Journey Analytics 資料檢視中指定的工作階段設定來定義。 | **造訪次數**：請參閱[造訪次數](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/visits)。 | **造訪次數**：根據 [CDA 虛擬報告套裝](https://experienceleague.adobe.com/en/docs/analytics/components/cda/setup)中指定的工作階段設定來定義。 |
+| **事件**= Customer Journey Analytics 中拼接資料中的列數。這個量度通常接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。但是，請注意上述常見問題中關於永久 ID 為空白的列的說明。 | **事件**= Customer Journey Analytics 中未拼接資料中的列數。這個量度通常接近傳統 Adobe Analytics 中的&#x200B;**發生次數**。但是請注意，如果在 Experience Platform 資料湖的未拼接資料中，有任何事件的個人 ID 為空白，則 Customer Journey Analytics 不會包含這些事件。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/occurrences)。 | **發生次數**：請參閱[發生次數](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/occurrences)。 |
 
-Customer Journey Analytics 和 Adobe Analytics 中的其他量度可能相似。例如，Adobe Analytics [自訂事件](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/metrics/custom-events) 1-100 的總計數，在傳統 Adobe Analytics 和 Customer Journey Analytics 之間是相當的 (無論是拼接後或未拼接)。[功能差異](/help/getting-started/aa-vs-cja/cja-aa.md)，例如 Customer Journey Analytics 與 Adobe Analytics 之間刪除重複事件的功能，可能會導致兩個產品之間產生資料落差。
+Customer Journey Analytics 和 Adobe Analytics 中的其他量度可能相似。例如，Adobe Analytics [自訂事件](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/custom-events) 1-100 的總計數，在傳統 Adobe Analytics 和 Customer Journey Analytics 之間是相當的 (無論是拼接後或未拼接)。[功能差異](/help/getting-started/aa-vs-cja/cja-aa.md)，例如 Customer Journey Analytics 與 Adobe Analytics 之間刪除重複事件的功能，可能會導致兩個產品之間產生資料落差。
 
 +++
 
@@ -269,7 +269,7 @@ curl -X PATCH \
 
 在請求中使用 `unifiedProfile` 標記的任何情形，若您沒有即時客戶資料輪廓的授權，都會傳回錯誤。
 
-如需更多資訊，請參閱[建立針對輪廓和身分識別啟用的資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/enable-for-profile#enable-the-dataset)。
+如需更多資訊，請參閱[建立針對輪廓和身分識別啟用的資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#enable-the-dataset)。
 
 +++ 
 
