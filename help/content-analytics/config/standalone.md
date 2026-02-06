@@ -6,13 +6,13 @@ feature: Content Analytics
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 44fa4385faf2e41f90c6bce3648a4890d4a70442
+exl-id: 35d63b7d-f35a-4a88-ae14-96724d32a931
+source-git-commit: 20ead546897ad517840f95a5ec4dcd7f830afe8c
 workflow-type: tm+mt
 source-wordcount: '2517'
 ht-degree: 6%
 
 ---
-
 
 # 獨立設定
 
@@ -35,15 +35,15 @@ Content Analytics已獲授權為獨立產品，但設定會在Experience Platfor
 | 詞語 | 說明 |
 |---|---|
 | **結構描述** | [結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)是一組規則，可代表及驗證資料的結構和格式。 在高層面上，結構描述提供了真實世界物件的抽象定義，例如發生在網站上的事件，例如點選。 並概述該物件的每個例項中應該包含哪些資料。 |
-| **資料集** | [資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)是資料集合的儲存和管理結構，通常是包含結構描述（欄）和欄位（列）的表格。 資料集就像資料庫表格，其中的每一列都是來自您網站的事件。 |
-| **資料流** | [資料流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/overview)代表將資料從您的網站路由到Adobe Experience Platform中正確資料集的伺服器端組態。 資料串流就像連線網站與儲存空間的資料高速公路。 |
-| **標記** | Experience Platform中的[標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)是新一代Adobe標籤管理功能。 標籤可讓客戶透過簡單的方式部署及管理必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。 在Content Analytics中，Adobe的標籤管理系統可讓您在網站上部署追蹤程式碼，而不需以類似方式編輯每個頁面。 標籤功能類似於您可能從Google Tag Manager中瞭解的功能。 |
+| **資料集** | [資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)是資料集合的儲存和管理結構，通常是包含結構描述（欄）和欄位（列）的表格。 資料集就像資料庫表格，其中的每一列都是來自您網站的事件。 |
+| **資料流** | [資料流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)代表將資料從您的網站路由到Adobe Experience Platform中正確資料集的伺服器端組態。 資料串流就像連線網站與儲存空間的資料高速公路。 |
+| **標記** | Experience Platform中的[標籤](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)是新一代Adobe標籤管理功能。 標籤可讓客戶透過簡單的方式部署及管理必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。 在Content Analytics中，Adobe的標籤管理系統可讓您在網站上部署追蹤程式碼，而不需以類似方式編輯每個頁面。 標籤功能類似於您可能從Google Tag Manager中瞭解的功能。 |
 | **沙箱** | Experience Platform提供[沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)，可將單一Experience Platform執行個體分割成個別的虛擬環境，以利開發及改進數位體驗應用程式。 Content Analytics通常使用&#x200B;*生產*&#x200B;沙箱。 |
-| **連線** | [連線](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/overview)定義要擷取的Experience Platform資料集。 連線會定義資料集(資料儲存在AEP中的位置)與Customer Journey Analytics （資料分析位置）之間的連結。 連線可讓您的收集資料可用於報表。 |
+| **連線** | [連線](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)定義要擷取的Experience Platform資料集。 連線會定義資料集(資料儲存在AEP中的位置)與Customer Journey Analytics （資料分析位置）之間的連結。 連線可讓您的收集資料可用於報表。 |
 | **資料檢視** | [資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-views)是一個容器，可讓您決定如何解譯來自連線的資料。 資料檢視會指定所有可用於報表的維度和量度。 資料檢視就像一種設定，可決定可在分析中使用的列和欄。 |
-| **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)是您用來建置Content Analytics報表與分析的拖放式瀏覽器介面。 |
-| **體驗** | 在Content Analytics中，[體驗](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是指網頁上所有可依據頁面URL擷取及分析的文字內容。 |
-| **資產** | 在Content Analytics中，[資產](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是個別且唯一的內容，例如影像。 |
+| **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)是您用來建置Content Analytics報表與分析的拖放式瀏覽器介面。 |
+| **體驗** | 在Content Analytics中，[體驗](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是指網頁上所有可依據頁面URL擷取及分析的文字內容。 |
+| **資產** | 在Content Analytics中，[資產](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是個別且唯一的內容，例如影像。 |
 
 
 ## 設定概述
@@ -85,7 +85,7 @@ Content Analytics已獲授權為獨立產品，但設定會在Experience Platfor
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理產品設定檔的使用者](https://video.tv.adobe.com/v/3475952/?captions=chi_hant&quality=12&learn=on){target="_blank"}以取得示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理產品設定檔的使用者](https://video.tv.adobe.com/v/333860/?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 
 >[!ENDSHADEBOX]
@@ -302,10 +302,9 @@ Customer Journey Analytics不支援以屬性為基礎的存取控制。 若要�
 
 #### 手動設定
 
-若要為網站實作Content Analytics，您必須手動發佈Content Analytics標籤屬性[&#128279;](manual.md)。
+若要為網站實作Content Analytics，您必須手動發佈Content Analytics標籤屬性[](manual.md)。
 
 
 ### 設定專案
 
 在Customer Journey Analytics中設定專案，以建置您的[Content Analytics報表和視覺效果](/help/content-analytics/report/report.md)。 或者，您可以使用[Content Analytics範本](/help/content-analytics/report/report.md#template)開始使用。
-
