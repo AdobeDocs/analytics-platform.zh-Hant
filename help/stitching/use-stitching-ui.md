@@ -91,7 +91,7 @@ ht-degree: 5%
 >id="connection_changeto_identitygraph"
 >title="身分識別圖的變更"
 >abstract="在使用身分識別圖進行資料拼接之前，請確定已完成身分識別圖的設定。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/gbs" text="圖表型拼接"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="圖表型拼接"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
