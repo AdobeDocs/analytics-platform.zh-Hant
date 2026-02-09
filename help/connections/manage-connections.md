@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 32997d0fd9801099a75287f63197d3b4c2ba81ef
-workflow-type: ht
-source-wordcount: '4935'
-ht-degree: 100%
+source-git-commit: cb5baf2ec8d3ad4449a9b08d0a025a2d39a11425
+workflow-type: tm+mt
+source-wordcount: '4938'
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 | **[!UICONTROL 整合]** | 顯示透過連線啟用的任何 Experience Platform 應用程式。 |
 | **[!UICONTROL 在 CJA 中使用]** | 顯示連線是否已啟用，以便與 Customer Journey Analytics 搭配使用。 |
 
-若要設定在表格中顯示哪些欄，請選取「![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)」。在「自訂表格」對話框中，選取要顯示的欄。
+若要設定在表格中顯示哪些欄，請選取「![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)」。在&#x200B;**[!UICONTROL 自訂資料表]**&#x200B;對話方塊中，選取要顯示的資料行。 然後選取&#x200B;**[!UICONTROL 套用]**。
 
 ### 編輯連線
 

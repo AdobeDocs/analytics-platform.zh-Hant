@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 95e50b73533c627f05c3b8dfe112b28b4f9e70c1
-workflow-type: ht
-source-wordcount: '2722'
-ht-degree: 100%
+source-git-commit: ade6fcd95626d9380153b5089d8f438332dedf8d
+workflow-type: tm+mt
+source-wordcount: '2790'
+ht-degree: 97%
 
 ---
 
@@ -109,6 +109,11 @@ ht-degree: 100%
 | **[!UICONTROL 事件容器名稱]** | `Event` (預設)。[!UICONTROL 事件]容器定義資料集中的單個事件。如果您的組織使用不同的術語 (例如，「點擊次數」或「頁面檢視量」)，您可以在此處重新命名容器。 |
 
 {style="table-layout:auto"}
+
+### AI 設定
+
+選取&#x200B;**[!UICONTROL 啟用Data Insights Agent]**&#x200B;以啟用[Data Insights Agent](/help/data-analysis-ai.md)的資料檢視。 Data Insights Agent是產生式AI交談代理程式，可從Customer Journey Analytics的AI助理存取。 它能協助您透過文字提示快速分析資料。代理程式會使用您資料檢視中的元件，並使用您的實際資料，在Analysis Workspace中建置相關的視覺效果。
+
 
 ### 行事曆
 

@@ -5,10 +5,10 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
-workflow-type: ht
-source-wordcount: '1078'
-ht-degree: 100%
+source-git-commit: 7835d4c5b46177ece4a146df8f0d4abb9605c670
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 95%
 
 ---
 
@@ -61,6 +61,8 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * 您可以在資料檢視中重新命名容器，並使這些容器在任何以此資料檢視為基礎的 Workspace 專案中顯示。
 
+* 您可以為資料檢視啟用或停用Data Insights Agent。
+
 ## 資料檢視先決條件 {#prerequisites}
 
 * 建立資料檢視之前，您需要先[設定一或多個 Experience Platform 資料集連線](/help/connections/create-connection.md)。
@@ -84,9 +86,10 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 ## 刪除資料檢視 {#delete}
 
-如果刪除 [!UICONTROL Customer Journey Analytics] 中的資料檢視，則會出現錯誤訊息，指出任何與這個被刪除的資料檢視相依的 [!UICONTROL Workspace] 專案都將不再運作。
+如果您[刪除](/help/data-views/manage-dataviews.md#delete-data-views)Customer Journey Analytics[!UICONTROL 中的資料檢視]，則會出現錯誤訊息，指出與這個已刪除的資料檢視相依的任何[!UICONTROL Workspace]專案都不再運作。
 
 ## 後續步驟
 
 * [建立資料檢視](/help/data-views/create-dataview.md)
-* [資料檢視使用案例](/help/use-cases/data-views/data-views-usecases.md)
+* [管理資料檢視](/help/data-views/manage-dataviews.md)
+* [資料視圖使用案例](/help/use-cases/data-views/data-views-usecases.md)
