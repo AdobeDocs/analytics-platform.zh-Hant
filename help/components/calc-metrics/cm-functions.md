@@ -93,7 +93,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->使用[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最大值***(Revenue*)， 1， 0))來反白劃分中表現最好的專案。
+>使用[IF](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最大值***(Revenue*)， 1， 0))來反白劃分中表現最好的專案。
 >
 
 ## 欄最小值 {#column-minimum}
@@ -123,7 +123,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->使用[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最小值***(Revenue*)， 1， 0))來反白劃分中表現最低的專案。
+>使用[IF](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最小值***(Revenue*)， 1， 0))來反白劃分中表現最低的專案。
 >
 
 
