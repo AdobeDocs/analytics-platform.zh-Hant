@@ -14,7 +14,7 @@ ht-degree: 97%
 
 # 連線概觀
 
-Customer Journey Analytics 產品管理員可透過連線，定義要攝取的 [!DNL  Experience Platform] 資料來源，例如事件、查詢、輪廓和摘要資料集。連線是 Customer Journey Analytics 的基礎，並決定哪些可用的資料 (欄位) 能在[資料視圖](/help/data-views/data-views.md)中被定義為維度或量度。
+Customer Journey Analytics 產品管理員可透過連線，定義要攝取的 [!DNL &#x200B; Experience Platform] 資料來源，例如事件、查詢、輪廓和摘要資料集。連線是 Customer Journey Analytics 的基礎，並決定哪些可用的資料 (欄位) 能在[資料視圖](/help/data-views/data-views.md)中被定義為維度或量度。
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring conn
 
 | 介面 | 說明 |
 |:---:|---|
-| ➊ | [從連線管理器管理您的 Customer Journey Analytics ](manage-connections.md)連線和整體使用情況。 |
+| ➊ | [從連線管理器管理您的 Customer Journey Analytics &#x200B;](manage-connections.md)連線和整體使用情況。 |
 | ➋ | [檢查連線的詳細資訊](manage-connections.md#connection-details)，例如攝取、略過或刪除的資料集記錄。 |
 | ➌ | [建立或編輯連線的設定](create-connection.md#create-or-edit-a-connection)，例如滾動式資料時間範圍、要使用的沙箱、哪些資料集是連線的一部分等等。 |
 | ➍ | [將資料集新增至連線](create-connection.md#add-datasets)。您的連線應該至少有一個事件或摘要資料集，但可包含各種事件、輪廓、查詢和摘要資料集。 |
