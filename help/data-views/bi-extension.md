@@ -48,7 +48,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 若要使用不會過期的認證：
 
-* 在Experience Platform[中建立](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials)不會到期的認證。
+* 在Experience Platform[中建立](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials)不會到期的認證。
 * 依照[到期認證](#Expiring-credentials)中提及的步驟來授與未到期認證的存取權。
 
 若要了解更多資訊，請參閱「[Customer Journey 存取控制](../technotes/access-control.md)」，特別是[產品管理員附加權限](../technotes/access-control.md#product-admin-additional-permissions)和 [Admin Console 中的 Customer Journey Analytics 權限](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)。
