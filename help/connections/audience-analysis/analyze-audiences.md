@@ -4,7 +4,8 @@ description: 瞭解如何在Customer Journey Analytics中分析Experience Platfo
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
+exl-id: 095cae34-1337-464a-9682-3c899295c0a8
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -56,11 +57,3 @@ Customer Journey Analytics中有提供對象概觀範本。
 顯示原本建立退出受眾的位置，不論是在RTCDP、Customer Journey Analytics等中皆然。
 
 使用此面板中的表格，更能瞭解對象來源可能影響其他因素的方式。 從選取的資料檢視中拖曳「退出對象名稱」維度，並將其新增為劃分。 或使用任何其他互動維度或量度（例如「頁面」、「動作」等）作為劃分。
-
-
-
-
-
-
-
-

@@ -1,13 +1,13 @@
 ---
-title: 建立或編輯資料視圖
-description: 您可調整以建立或編輯資料視圖的所有設定。
+title: 建立或編輯資料檢視
+description: 瞭解當您建立或編輯資料檢視時可設定的所有設定。
 exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: ade6fcd95626d9380153b5089d8f438332dedf8d
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '2790'
+source-wordcount: '2793'
 ht-degree: 97%
 
 ---

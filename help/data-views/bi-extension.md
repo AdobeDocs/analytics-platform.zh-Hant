@@ -1,11 +1,11 @@
 ---
-title: Customer Journey Analytics BI 擴充功能
+title: Customer Journey Analytics BI擴充功能
 description: 了解如何使用Power BI、Tableau Desktop 或其他 BI，並透過 Customer Journey Analytics BI 擴充功能來存取資料檢視。
 solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 0d8da0f61e6494801ed3a09823b2f3b7c1bed7a9
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '3249'
 ht-degree: 95%
@@ -48,7 +48,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 若要使用不會過期的認證：
 
-* 在Experience Platform[中建立](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials)不會到期的認證。
+* 在Experience Platform[中建立](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials)不會到期的認證。
 * 依照[到期認證](#Expiring-credentials)中提及的步驟來授與未到期認證的存取權。
 
 若要了解更多資訊，請參閱「[Customer Journey 存取控制](../technotes/access-control.md)」，特別是[產品管理員附加權限](../technotes/access-control.md#product-admin-additional-permissions)和 [Admin Console 中的 Customer Journey Analytics 權限](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)。
@@ -87,7 +87,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式功能表的資料庫清單中，選取您沙箱的]**&#x200B;資料庫。 例如 `prod:cja`。
 
-   1. 要複製命令字串，請使用「![複製](assets/Smock_Copy_18_N.svg)」(在「**[!UICONTROL **&#x200B; PSQL 指令&#x200B;**]**」區段)。
+   1. 要複製命令字串，請使用「![複製](assets/Smock_Copy_18_N.svg)」(在「**[!UICONTROL ** PSQL 指令&#x200B;**]**」區段)。
 
 1. 開啟命令或終端機視窗。
 
@@ -120,9 +120,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 在左側邊欄中選取「**[!UICONTROL 更多...]**」。
 
-   1. 在「**取得資料**」畫面中，搜尋 `PostgresSQL`，並從清單中選取「**[!UICONTROL **&#x200B; PostgresSQL 資料庫&#x200B;**]**」。
+   1. 在「**取得資料**」畫面中，搜尋 `PostgresSQL`，並從清單中選取「**[!UICONTROL ** PostgresSQL 資料庫&#x200B;**]**」。
 
-   1. 在「**[!UICONTROL **&#x200B; PostgressSQL 資料庫&#x200B;**]**」對話方塊中：
+   1. 在「**[!UICONTROL ** PostgressSQL 資料庫&#x200B;**]**」對話方塊中：
 
       1. 將「**[!UICONTROL **&#x200B;主機&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;伺服器&#x200B;**]**」文字欄位。
 
@@ -161,7 +161,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 在左側邊欄，選取「**[!UICONTROL **&#x200B;更多&#x200B;**]**」(從「**[!UICONTROL **&#x200B;至伺服器&#x200B;**]**」)。
 
-   1. 從清單中選取「**[!UICONTROL **&#x200B; PostgresSQL &#x200B;**]**」。
+   1. 從清單中選取「**[!UICONTROL ** PostgresSQL **]**」。
 
    1. 在「[!UICONTROL PostgresSQL]」對話方塊中：
 
@@ -187,7 +187,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    現在您可以使用資料檢視表格中的資料建立報告和視覺化。
 
-   請參閱「[將 Tableau 連線到 Query Service &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/tableau)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
+   請參閱「[將 Tableau 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/tableau)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
 
 +++
 
@@ -214,7 +214,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    現在您可以使用資料檢視表格中的資料建立報告和視覺化。
 
-   請參閱「[將 Looker 連線到 Query Service &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/looker)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
+   請參閱「[將 Looker 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/looker)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
 
 +++
 
@@ -262,7 +262,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    成功後，您可以使用資料來建立報告和視覺效果。
 
-   請參閱「[將 RStudio 連線到 Query Service &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/rstudio)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」，了解詳細範例 (即使用 RPostgres 套件)。
+   請參閱「[將 RStudio 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/rstudio)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」，了解詳細範例 (即使用 RPostgres 套件)。
 
 +++
 

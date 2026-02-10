@@ -4,7 +4,8 @@ description: 瞭解如何管理對象分析設定
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
+exl-id: 0d38a779-a29f-41c9-81b4-f5523eeae93f
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 2%
@@ -67,7 +68,7 @@ ht-degree: 2%
 
    選取您要編輯的組態旁邊的核取方塊，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
-1. 對組態進行任何需要的變更，然後選取[儲存]。**&#x200B;**
+1. 對組態進行任何需要的變更，然後選取[儲存]。****
 
 ## 刪除設定
 
@@ -78,7 +79,3 @@ ht-degree: 2%
    ![對象分析首頁面](assets/audience-analysis-manage-configurations.png)
 
 1. 選取您要刪除之組態旁的核取方塊，然後選取&#x200B;**[!UICONTROL 刪除]**。
-
-
-
-

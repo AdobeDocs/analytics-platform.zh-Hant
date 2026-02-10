@@ -5,10 +5,10 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '946'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 32%
 >
 >Adobe Experience Platform通常以UNIX®毫秒為單位儲存時間戳記。 此範例會使用日期和時間，以便閱讀。
 
-| example_id | timestamp | string_color | string_animal | metric_a |
+| example_id | 時間戳記 | string_color | string_animal | metric_a |
 | --- | --- | --- | --- | ---: |
 | user_310 | 1月1日上午7:02 | 紅色 | Fox | |
 | user_310 | 1月1日上午7:04 | | | 2 |
@@ -38,11 +38,11 @@ ht-degree: 32%
 | user_847 | 1月2日12:31下午 | | 烏龜 | 4 |
 | user_847 | 1月2日12:44下午 | | | 2 |
 
-| different_id | timestamp | string_color | string_shop | metric_b |
+| different_id | 時間戳記 | string_color | string_shop | metric_b |
 | --- | --- | --- | --- | ---: |
 | user_847 | 1月2日12:26下午 | 黃色 | 圓形 | 8.5 |
 | user_847 | 1月2日下午1:01 | 紅色 | | |
-| alternateid_656 | 1月2日8:58下午 | 紅色 | 正方形 | 4.2 |
+| alternateid_656 | 1月2日8:58下午 | 紅色 | 方形 | 4.2 |
 | alternateid_656 | 1月2日9點:03下午 | | 三角形 | 3.1 |
 
 使用這兩個事件資料集建立連線時，且已識別
@@ -52,7 +52,7 @@ ht-degree: 32%
 
 下列合併資料集用於製作報表。
 
-| id | timestamp | string_color | string_animal | string_shop | metric_a | metric_b |
+| id | 時間戳記 | string_color | string_animal | string_shop | metric_a | metric_b |
 | --- | --- | --- | --- | --- | ---: | ---: |
 | user_310 | 1月1日上午7:02 | 紅色 | Fox | | | |
 | user_310 | 1月1日上午7:04 | | | | 2 | |
@@ -61,12 +61,12 @@ ht-degree: 32%
 | user_847 | 1月2日12:31下午 | | 烏龜 | | 4 | |
 | user_847 | 1月2日12:44下午 | | | | 2 | |
 | user_847 | 1月2日下午1:01 | 紅色 | | | | |
-| alternateid_656 | 1月2日8:58下午 | 紅色 | | 正方形 | | 4.2 |
+| alternateid_656 | 1月2日8:58下午 | 紅色 | | 方形 | | 4.2 |
 | alternateid_656 | 1月2日9點:03下午 | | | 三角形 | | 3.1 |
 
 為了說明結構描述路徑的重要性，請考慮此情境。 在第一個資料集中，`string_color`是以結構描述路徑`_experience.whatever.string_color`為基礎，而在結構描述路徑`_experience.somethingelse.string_color`的第二個資料集中為基礎。 在此案例中，資料是&#x200B;**不是**&#x200B;合併到結果合併資料集中的一欄。 結果是在合併資料集中是兩個`string_color`欄：
 
-| id | timestamp | 體驗(_E)。<br/>任何專案。<br/>string_color | 體驗(_E)。<br/>其他專案。<br/>string_color | string_animal | string_shop | metric_a | metric_b |
+| id | 時間戳記 | 體驗(_E)。<br/>任何專案。<br/>string_color | 體驗(_E)。<br/>其他專案。<br/>string_color | string_animal | string_shop | metric_a | metric_b |
 |---|---|---|---|---|---|---:|---:|
 | user_310 | 1月1日上午7:02 | 紅色 | | Fox | | | |
 | user_310 | 1月1日上午7:04 | | | | | 2 | |
@@ -75,7 +75,7 @@ ht-degree: 32%
 | user_847 | 1月2日12:31下午 | | | 烏龜 |  | 4 | |
 | user_847 | 1月2日12:44下午 | | | | | 2 | |
 | user_847 | 1月2日下午1:01 | | 紅色 | | | | |
-| alternateid_656 | 1月2日8:58下午 | | 紅色 | | 正方形 | | 4.2 |
+| alternateid_656 | 1月2日8:58下午 | | 紅色 | | 方形 | | 4.2 |
 | alternateid_656 | 1月2日9點:03下午 | | | | 三角形 | | 3.1 |
 
 這個合併事件資料集會用來製作報表。某列是來自哪個資料集並不重要。 Customer Journey Analytics將所有資料視為在相同資料集中。 如果兩個資料集中都出現相符的人員ID，則會將其視為同一個不重複人員。 如果兩個資料集中都出現相符的人員ID，且時間戳記在30分鐘內，則視為相同工作階段的一部分。 結構路徑相同的欄位會合併。

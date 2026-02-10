@@ -1,13 +1,14 @@
 ---
-title: 對象分析概觀
+title: Audience Analysis概述
 description: 瞭解如何在Customer Journey Analytics中從RTCDP分析對象。
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
+exl-id: 1e962f52-6b56-4671-afea-d58dae67e8a8
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 3%
 >* **對象分析**：可讓您將Experience Platform設定檔資料集中的對象會籍資料擷取到Customer Journey Analytics連線。
 >* **對象發佈**：可讓您建立在Customer Journey Analytics中發現的對象，並將其發佈到Adobe Experience Platform，以用於客戶目標定位和個人化。 如需對象發佈的相關資訊，請參閱[對象發佈概觀](/help/components/audiences/audiences-overview.md)。
 
-對象分析可讓您將對象成員資格資料從Experience Platform設定檔資料集擷取到Customer Journey Analytics連線。 對象會成為新的維度，以便在Analysis Workspace中使用。
+對象分析可讓您將對象成員資格資料從Experience Platform設定檔資料集擷取到Customer Journey Analytics連線。 客群會變為可用的新維度，以便在 Analysis Workspace 中使用。
 
 下圖和相關表格高階展示Customer Journey Analytics中的對象分析設定如何讓Experience Platform對象資料可在Analysis Workspace中使用：
 
@@ -85,11 +86,3 @@ ht-degree: 3%
 * 單一沙箱可支援最多100個對象分析設定。
 
 * 一個連線只能與一個對象分析設定相關聯。
-
-
-
-
-
-
-
-

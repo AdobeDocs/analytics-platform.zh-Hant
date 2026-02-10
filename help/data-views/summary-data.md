@@ -1,14 +1,14 @@
 ---
 title: 摘要資料
-description: 有關如何使用和設定資料檢視中的摘要資料詳細資訊。
+description: 瞭解如何在資料檢視中使用和設定摘要資料的詳細資訊和資訊。
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 97%
+source-wordcount: '1150'
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 您的現場點按資料流資料包含以下事件。
 
-| 追蹤代碼 | 點進次數 | 收入 |
+| 追蹤程式碼 | 點進次數 | 收入 |
 |---|---:|---:|
 | abc123 | 1,250 | $7,200 |
 | def456 | 775 | $1,250 |
@@ -57,7 +57,7 @@ ht-degree: 97%
 
 如「[合併事件資料集](/help/connections/combined-dataset.md)」所述，在定義連線時，Customer Journey Analytics 會建立一個整體合併事件資料集。當您為源自摘要資料集的維度設定資料檢視時，可以使用選項進行維度分類和隱藏，作為在 Workspace 中報告的準備。特別以摘要資料來說，摘要資料會與事件資料合併 (根據[摘要資料群組元件](component-settings/summary-data-group.md)設定)
 
-| 追蹤代碼 | 促銷活動代碼 | 曝光數 | 成本 | 點進次數 | 收入 |
+| 追蹤程式碼 | 促銷活動代碼 | 曝光數 | 成本 | 點進次數 | 收入 |
 |---|---|--:|--:|--:|--:|
 | abc123 | abc123 | 1,250 | $1,500 | 1,250 | $7,200 |
 | def456 | def123 | 775 | $650 | 775 | $1,250 |
@@ -65,11 +65,11 @@ ht-degree: 97%
 
 
 
-### 報表
+### 報告
 
 合併匯總的事件資料和現場點按資料流資料，可讓您在 Workspace 中報告廣告投資報酬率 (ROAS)。
 
-| 追蹤代碼 | 曝光數 | 成本 | 點進次數 | 收入 | 廣告投資報酬率 |
+| 追蹤程式碼 | 曝光數 | 成本 | 點進次數 | 收入 | 廣告投資報酬率 |
 |---|--:|--:|--:|--:|:--|
 | abc123 | 1,250 | $1,500 | 1,250 | $7,200 | 4.80 |
 | def456 | 775 | $650 | 775 | $1,250 | 1.92 |
@@ -154,5 +154,5 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 >[!MORELIKETHIS]
 >
 >- 請參閱「[使用摘要資料](/help/use-cases/data-views/summary-data.md)」文章，了解如何使用和報告摘要資料的詳細使用案例範例。
->- 部落格：[摘要資料如何增強 Adobe Customer Journey Analytics 資料集](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=zh-Hant)
+>- 部落格：[摘要資料如何增強 Adobe Customer Journey Analytics 資料集](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 

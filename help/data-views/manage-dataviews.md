@@ -4,13 +4,13 @@ description: 瞭解如何管理資料檢視。
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: cb5baf2ec8d3ad4449a9b08d0a025a2d39a11425
+exl-id: c5cf15ab-3eb1-4e6b-93a3-3d89694ca0ea
+source-git-commit: c7cf7250f30e2f6023aa7690391aea149ba12eff
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 11%
+source-wordcount: '923'
+ht-degree: 10%
 
 ---
-
 
 # 管理資料檢視
 
@@ -29,7 +29,7 @@ ht-degree: 11%
 | --- | --- |
 | **[!UICONTROL 名稱]** | 資料檢視的名稱。 |
 | ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | 若要檢視資料檢視的相關資訊，請選取資料檢視名稱旁的![資訊大綱](/help/assets/icons/InfoOutline.svg)。<br/>快顯視窗會顯示資料檢視的詳細資訊。 |
-| ![更多內容](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選取「![更多](/help/assets/icons/More.svg)」開啟內容選單。您可以選取：<br/>![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**&#x200B;以[編輯](#edit-data-views)資料檢視。<br/>![複製](/help/assets/icons/Copy.svg) **[!UICONTROL 複製]**&#x200B;到[複製資料檢視](#copy-data-views)。<br/>![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]**&#x200B;以[刪除](#delete-data-views)資料檢視。<br/>![檔案CSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出為CSV]**&#x200B;以[將資料檢視的詳細資料匯出為CSV檔案](#export-data-views-to-csv)。<br/>![ProjectAdd](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL 建立專案]**&#x200B;以[為資料檢視建立新的Workspace專案](#create-project-from-data-views)。 |
+| ![更多內容](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選取「![更多](/help/assets/icons/More.svg)」開啟內容選單。您可以選取：<br/>![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**&#x200B;以[編輯](#edit-data-views)資料檢視。<br/>![複製](/help/assets/icons/Copy.svg) **[!UICONTROL 複製]**&#x200B;到[複製資料檢視](#copy-data-views)。<br/>![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]**&#x200B;以[刪除](#delete-data-views)資料檢視。<br/>![檔案CSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出為CSV]**&#x200B;以[將資料檢視的詳細資料匯出為CSV檔案](#export-data-views-to-csv)。<br/>![ProjectAdd](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL 建立專案]**&#x200B;以[為資料檢視建立新的Workspace專案](#create-project-from-data-views)。<br/>![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 啟用Data Insights Agent]**&#x200B;以啟用Data Insights Agent的資料檢視。<br/>![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL 停用Data Insights Agent]**&#x200B;以停用Data Insights Agent的資料檢視。 |
 | **[!UICONTROL 連線]** | 與資料檢視相關聯的連線名稱。 |
 | **[!UICONTROL 沙箱]** | 與資料檢視相關聯的沙箱名稱。 |
 | **[!UICONTROL 所有者]** | 資料檢視的所有者。 |
@@ -44,7 +44,7 @@ ht-degree: 11%
 
 ## 搜尋資料釋圖
 
-您可以使用搜尋![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)方塊來快速搜尋資料檢視。
+您可以使用![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)方塊快速搜尋資料檢視。
 
 ## 篩選資料檢視
 
@@ -58,6 +58,8 @@ ht-degree: 11%
 | **[!UICONTROL 整合]** | 只會顯示具有選定整合的資料檢視。 |
 | **[!UICONTROL 在 CJA 中使用]** | 選取&#x200B;**[!UICONTROL 開啟]**&#x200B;以僅顯示已啟用與Customer Journey Analytics搭配使用的資料檢視。 選取&#x200B;**[!UICONTROL 關閉]**，只顯示尚未啟用與Customer Journey Analytics搭配使用的資料檢視。 |
 
+
+選取![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏篩選器]**&#x200B;以隱藏篩選器窗格。
 
 ## 建立資料視圖
 
@@ -152,4 +154,3 @@ ht-degree: 11%
 
 1. 選取一或多個已針對Data Insights Agent停用或啟用的資料檢視列。
 1. 從藍色動作列中選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 啟用Data Insights Agent]**&#x200B;或![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL 停用Data Insights Agent]**。
-

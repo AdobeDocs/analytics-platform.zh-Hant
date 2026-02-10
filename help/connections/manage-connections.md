@@ -1,15 +1,15 @@
 ---
-title: 如何在 Customer Journey Analytics 中管理連線
-description: 說明如何在 Customer Journey Analytics (Customer Journey Analytics) 中管理與 Experience Platform 資料集的連線。
+title: 在Customer Journey Analytics中管理連線
+description: 瞭解如何在Customer Journey Analytics (Customer Journey Analytics)中管理與Experience Platform資料集的連線。
 mini-toc-levels: 3
 exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: cb5baf2ec8d3ad4449a9b08d0a025a2d39a11425
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '4938'
-ht-degree: 99%
+source-wordcount: '4956'
+ht-degree: 98%
 
 ---
 
@@ -44,26 +44,9 @@ ht-degree: 99%
 
  **[!UICONTROL 清單]**&#x200B;介面是連線的預設介面。如果未選取，請選取「**[!UICONTROL 清單]**」標記以存取介面。
 
+**[!UICONTROL 清單]**&#x200B;介面會顯示所有可用連線的表格。
+
 ![清單檢視](assets/list-view.png)
-
-[!UICONTROL 清單]介面會顯示所有可用連線的表格。
-
-### 搜尋連線
-
-您可以使用「搜尋![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」框快速搜尋連線。
-
-### 將篩選器套用至連線清單
-
-若要將篩選器套用至連線清單，請選取篩選器圖示，然後從下列篩選器選項中選取：
-
-| 篩選條件選項 | 說明 |
-|---------|----------|
-| **[!UICONTROL 資料集]** | 只會顯示與您選取的資料集相關聯的連線。 |
-| **[!UICONTROL 所有者]** | 只會顯示您所選取人員擁有的連線。 |
-| **[!UICONTROL 沙箱]** | 系統只會顯示您選取的沙箱中可用的連線。 |
-| **[!UICONTROL 在 CJA 中使用]** | 選取「**[!UICONTROL 開啟]**」，僅顯示已啟用與 Customer Journey Analytics 搭配使用的連線。選取「**[!UICONTROL 關閉]**」，僅顯示未啟用與 Customer Journey Analytics 搭配使用的連線。 |
-
-### 可用欄
 
 表格中有以下欄或圖示。
 
@@ -85,6 +68,25 @@ ht-degree: 99%
 | **[!UICONTROL 在 CJA 中使用]** | 顯示連線是否已啟用，以便與 Customer Journey Analytics 搭配使用。 |
 
 若要設定在表格中顯示哪些欄，請選取「![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)」。在&#x200B;**[!UICONTROL 自訂資料表]**&#x200B;對話方塊中，選取要顯示的資料行。 然後選取&#x200B;**[!UICONTROL 套用]**。
+
+### 搜尋連線
+
+您可以使用![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)方塊來快速搜尋連線。
+
+### 篩選連線
+
+若要將篩選器套用至連線清單，請選取![篩選器](/help/assets/icons/Filter.svg)。 然後從以下篩選器選項中選取：
+
+| 篩選條件選項 | 說明 |
+|---------|----------|
+| **[!UICONTROL 資料集]** | 只會顯示與您選取的資料集相關聯的連線。 |
+| **[!UICONTROL 所有者]** | 只會顯示您所選取人員擁有的連線。 |
+| **[!UICONTROL 沙箱]** | 系統只會顯示您選取的沙箱中可用的連線。 |
+| **[!UICONTROL 連線類型]** | 篩選&#x200B;**[!UICONTROL 人員]**&#x200B;或&#x200B;**[!UICONTROL 帳戶]**&#x200B;的[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}連線。 |
+| **[!UICONTROL 在 CJA 中使用]** | 選取「**[!UICONTROL 開啟]**」，僅顯示已啟用與 Customer Journey Analytics 搭配使用的連線。選取「**[!UICONTROL 關閉]**」，僅顯示未啟用與 Customer Journey Analytics 搭配使用的連線。 |
+| **[!UICONTROL 整合]** | 只會顯示具有選定整合的連線。 |
+
+選取![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏篩選器]**&#x200B;以隱藏篩選器窗格。
 
 ### 編輯連線
 
@@ -317,8 +319,8 @@ ht-degree: 99%
 
 | 詳細資料 | 說明 |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID &#x200B;]** | 您指定為連線之全域帳戶 ID 的身分識別。僅適用於已設定全域帳戶容器的帳戶型連線。 |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID &#x200B;]** | 您指定為連線之帳戶 ID 的身分識別。僅適用於未設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID ]** | 您指定為連線之全域帳戶 ID 的身分識別。僅適用於已設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID ]** | 您指定為連線之帳戶 ID 的身分識別。僅適用於未設定全域帳戶容器的帳戶型連線。 |
 | **[!UICONTROL 個人 ID]** | 您指定為連線之個人 ID 的身分識別。 |
 | **[!UICONTROL 索引鍵]** | 您為查詢資料集指定的索引鍵。 |
 | **[!UICONTROL 比對索引鍵]** | 您為查詢資料集指定的比對索引鍵。 |

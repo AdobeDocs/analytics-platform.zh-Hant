@@ -1,14 +1,14 @@
 ---
 title: 將標準查詢新增至資料集
-description: 在 Customer Journey Analytics 中使用標準查詢功能，透過實用維度來增強報表。
+description: 瞭解如何使用標準查詢功能，透過Customer Journey Analytics中的實用維度來增強報表。
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 47%
+source-wordcount: '433'
+ht-degree: 42%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 47%
 
 >[!IMPORTANT]
 >
->標準查詢僅適用於Customer Journey Analytics中的Analytics來源聯結器資料來源。 您可以將其用於標準 Adobe Analytics 實施、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant) 或 Experience Platform 資料收集 API。
+>標準查詢僅適用於Customer Journey Analytics中的Analytics來源聯結器資料來源。 您可以將其用於標準 Adobe Analytics 實施、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 或 Experience Platform 資料收集 API。
 >
 
 標準查詢 (也稱為 Adobe 提供的查詢) 可增強 Customer Journey Analytics 針對部分維度/屬性建立報表的能力，這些維度/屬性本身雖不實用，但與其他資料結合後效用甚大； 像是結合行動裝置和作業系統的屬性以及瀏覽器維度 (例如瀏覽器版本編號)，便是很實用的應用方式。「標準查詢」類似於查詢資料集。 標準查詢適用於採用 Experience Cloud 的所有組織。 內含特定XDM結構描述欄位的所有事件資料集（請參閱底下的特定欄位說明）都會自動套用全域查詢。 Adobe正在分類的每個結構描述位置會有標準查詢資料集。
@@ -43,11 +43,11 @@ The catch here is that they can only populate those IDs today if they have a dir
 ### 可用的標準查詢欄位
 
 * `browser`
-   * `browser`, `group_id`, `id`
+   * `browser`、`group_id`、`id`
 * `browser_group`
    * `browser_group`, `id`
 * `os`
-   * `os`, `group_id`, `id`
+   * `os`、`group_id`、`id`
 * `os_group`
    * `os_group`, `id`
 * `mobile_audio_support - multi`

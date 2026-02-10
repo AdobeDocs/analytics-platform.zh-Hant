@@ -1,14 +1,14 @@
 ---
 title: 工作階段設定
-description: 您可使用資料檢視中的設定來定義工作階段長度，並定義啟動新工作階段的觸發器
+description: 瞭解資料檢視中的設定，以用來定義工作階段長度以及起始新工作階段的觸發條件
 solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 88%
+source-wordcount: '465'
+ht-degree: 82%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 88%
 
 1. 在 Customer Journey Analytics 使用者介面的主要導覽中，選取「**[!UICONTROL 資料視圖]**」，也可自「**[!UICONTROL 資料管理]**」選取。
 
-2. 建立新的或編輯現有的資料檢視。如需詳細資訊，請參閱[建立或編輯資料檢視](create-dataview.md)。
+2. 建立新的或編輯現有的資料檢視。如需更多資訊，請參閱[建立或編輯資料視圖](create-dataview.md)。
 
 3. 選取「**[!UICONTROL 設定]**」索引標籤。在「[!UICONTROL 工作階段設定]」下：
 
