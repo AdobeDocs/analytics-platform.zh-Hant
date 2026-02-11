@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: c5cf15ab-3eb1-4e6b-93a3-3d89694ca0ea
-source-git-commit: c7cf7250f30e2f6023aa7690391aea149ba12eff
+source-git-commit: e65dd6f71c75c06aac078c22ea7d77eed75cd381
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '922'
 ht-degree: 10%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 一旦您[建立或編輯一或多個資料檢視](/help/data-views/create-dataview.md)，您就可以在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;中管理它們。
 
-從Customer Journey Analytics中的主功能表選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
+從Customer Journey Analytics的主功能表列選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
 
 **[!UICONTROL 資料檢視]**&#x200B;介面會顯示所有可用資料檢視的表格。
 
