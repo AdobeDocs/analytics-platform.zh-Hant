@@ -3,10 +3,11 @@ title: 在自由格式表格中包含多個維度
 description: 瞭解如何在自由格式表格中包含多個維度
 feature: Visualizations
 role: User
-source-git-commit: 696bd0db44949162307d8ce7d2debed351a76cd6
+exl-id: 66ebb4fc-feb2-4fa7-a107-37508cca4748
+source-git-commit: 14718476695dcf121c94ba4cb8b2c39e5874342d
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 1%
+source-wordcount: '836'
+ht-degree: 6%
 
 ---
 
@@ -14,9 +15,9 @@ ht-degree: 1%
 
 {{release-limited-testing}}
 
-您最多可以在自由表格中包含5個維度欄，讓您並排檢視多個維度專案。 每一列維度專案的行為類似於單一串連維度專案。
+您最多可以在自由表格中包含5個維度欄，讓您並排檢視多個維度專案。 每一列維度項目的行為都像是單一串連的維度項目。
 
-您可以將篩選器、排序、劃分等套用至具有多個維度欄的自由格式表格，以建立更深入、更自訂的分析。
+您可以將篩選器、排序、劃分等項目套用至具有多個維度欄的自由格式表格，以建立更深入、更自訂的分析。
 
 ## 串連的維度專案
 
@@ -109,11 +110,12 @@ Analysis Workspace提供下列方式，讓您在自由表格中新增多個維�
 
 如需建立區段的詳細資訊，請參閱[建立區段](/help/components/segments/seg-create.md)。
 
-## 不支援的維度 {#unsupported}
+## 不支援的尺寸與功能 {#unsupported}
 
-不支援下列維度組合，Analysis Workspace會禁止新增這些組合，或在新增後顯示錯誤訊息：
+使用多個維度欄時，不支援下列維度組合和功能，Analysis Workspace會禁止使用或顯示錯誤訊息：
 
 * 來自參考相同自由表格中一起使用的不同[物件陣列](/help/use-cases/object-arrays.md)之欄位的多個維度。
 
   如果多個維度參考相同的物件陣列，則可同時在相同的自由表格中。
 
+* [靜態維度專案](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md#static-dimension-items)。
