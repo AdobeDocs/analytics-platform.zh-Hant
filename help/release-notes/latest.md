@@ -3,9 +3,9 @@ title: 最新的 Customer Journey Analytics 發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 7260c9cadbd5b6e5e85f778547635330b8bfc49a
+source-git-commit: 5107f1a3e602afbb1536e7832a060c70aa898966
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1192'
 ht-degree: 39%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 39%
 | **標題覆寫** <p>您可以在Content Analytics中指定標頭名稱和密碼標頭值。 此[標頭覆寫設定](/help/content-analytics/config/guided.md#header-overrides)可確保Content Analytics傳送自訂HTTP標頭，以略過您已實作的機器人偵測或閘道流量技術。</p> |  | 2026年2月2 |
 | **在自由格式表格中包含多個維度欄**<p>您現在可以在自由格式表格中包含最多 5 個維度欄，以便您並排檢視多個維度項目。每一列維度項目的行為都像是單一串連的維度項目。</p><p>您可以將篩選器、排序、劃分等項目套用至具有多個維度欄的自由格式表格，以建立更深入、更自訂的分析。</p><p>過去，您只能在自由格式表格中包含 1 個維度欄。</p><p>如需詳細資訊，請參閱[在自由格式表格中包含多個維度欄](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)。</p> | 2026 年 1 月 28 日 | 2026 年 2 月 18 日 |
 | **依多個欄排序表格**<p>您現在可以在 Analysis Workspace 中依多個欄來排序自由格式表格的資料，無論其為維度或量度皆可。</p><p>當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序進行排序。優先順序編號會顯示在排序圖示旁邊。</p><p>如需詳細資訊，請參閱[篩選和排序自由表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。</p> | 2026 年 1 月 28 日 | 2026 年 2 月 18 日 |
-| **完整資料表匯出改善**<p>完整的表格匯出包含下列增強功能：</p><p>匯出建立和設定增強功能</p><ul><li>從「匯出」頁面建立匯出。 之前，您只能在表格上按一下右鍵，以從Analysis Workspace建立匯出。</li><li>建立匯出時新增帳戶或位置。</li><li>自動建立檔案名稱及放置匯出檔案的資料夾。 如此一來，檔案名稱便能以可預測的形式，並以邏輯的方式整理到資料夾中。 以前，檔案名稱無法預測且會分組到單一資料夾中。</li><li>支援將資料匯出為Parquet檔案，以改善Data Warehouse相容性。 之前，僅支援CSV和JSON。</li></ul><p>匯出管理增強功能</p><ul><li>從「匯出」頁面更新或取消一或多個匯出。</li><li>從「記錄」頁面重新傳送一或多個匯出。</li><li>當匯出失敗或即將到期時，以電子郵件傳送個別使用者或群組。</li><li>匯出失敗更精確的錯誤訊息。</li></ul><p>計算量度、區段和維度增強功能</p><ul><li>支援更多計算量度函式。 之前，僅支援簡單的數學函式。</li><li>建立匯出時套用區段。</li><li>支援雙資料型別維度，以提高精確度。</li></ul><p>管理增強功能</p><ul><li>管理員現在可以檢視所有匯出和記錄，無論其建立者為何。</li></ul><p>(文件連結待補充。)</p> | 2026 年 2 月 18 日 | 2026年3月4日 |
+| **完整資料表匯出改善**<p>完整的表格匯出包含下列增強功能：</p><p>匯出建立和設定增強功能</p><ul><li>從「匯出」頁面建立匯出。 之前，您只能在表格上按一下右鍵，以從Analysis Workspace建立匯出。</li><li>建立匯出時新增帳戶或位置。</li><li>自動建立檔案名稱及放置匯出檔案的資料夾。 如此一來，檔案名稱便能以可預測的形式，並以邏輯的方式整理到資料夾中。 以前，檔案名稱無法預測且會分組到單一資料夾中。</li><li>支援將資料匯出為Parquet檔案，以改善Data Warehouse相容性。 之前，僅支援CSV和JSON。</li></ul><p>匯出管理增強功能</p><ul><li>從「匯出」頁面更新或取消一或多個匯出。</li><li>從「記錄」頁面重新傳送一或多個匯出。</li><li>當匯出失敗或即將到期時，以電子郵件傳送個別使用者或群組。</li><li>匯出失敗更精確的錯誤訊息。</li></ul><p>計算量度、區段和維度增強功能</p><ul><li>支援更多計算量度函式。 之前，僅支援簡單的數學函式。</li><li>建立匯出時套用區段。</li><li>支援雙資料型別維度，以提高精確度。</li></ul><p>管理增強功能</p><ul><li>管理員現在可以檢視所有匯出和記錄，無論其建立者為何。</li></ul><p>(文件連結待補充。)</p> | 2026年2月25日 | 2026年3月11日<p>（原計畫於2026年3月4日）</p> |
 | **Content Analytics：散佈圖視覺效果縮圖和預覽** <p>在Content Analytics中檢視散佈圖視覺效果時，現在當您將滑鼠游標停留在圖表中的點上時，會顯示資產的縮圖。 此縮圖可讓您快速輕鬆地檢視圖表中表示的內容。</p><p>(文件連結待補充。)</p> | 2026年2月17日 | 2026年3月2日 |
 | **Content Analytics：長條圖視覺效果縮圖和預覽** <p>在Content Analytics中檢視橫條圖視覺效果時，現在當您將滑鼠游標停留在圖表中的橫條圖上時，會顯示資產的縮圖。 此縮圖可讓您快速輕鬆地檢視圖表中表示的內容。</p><p>(文件連結待補充。)</p> | 2026年2月23日 | 2026年3月9日 |
 | **更新至近似計數相異函式**<p>Approximate Count Distinct函式中使用的HLL機率演演算法即將更新。 使用此函式的數字之結果輸出可能會和歷史數字稍有不同，如下所示：<ul><li>計算極少量不重複值時，結果將改善為使用精確計數，而不是使用預估值。</li><li>計算任何較大的數字時，計數估計將保持本次更新之前的準確性（估計準確性在準確數字的5%以內，即時間的95%）。</li></ul><p>如需Approximate Count Distinct函式的詳細資訊，請參閱[進階函式](/help/components/calc-metrics/cm-adv-functions.md#approximate-count-distinct)中的[Approximate Count Distinct](/help/components/calc-metrics/cm-adv-functions.md)</p> |  | 2026 年 3 月 |
