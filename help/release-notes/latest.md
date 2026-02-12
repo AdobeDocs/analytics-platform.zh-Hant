@@ -3,16 +3,16 @@ title: 最新的 Customer Journey Analytics 發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 7e98a1abbab4b954df5f7759879203c1d355fd50
+source-git-commit: 7260c9cadbd5b6e5e85f778547635330b8bfc49a
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 40%
+source-wordcount: '1188'
+ht-degree: 39%
 
 ---
 
 # 最新Customer Journey Analytics發行說明（2026年2月）
 
-**上次更新日期**：2026年2月11日
+**上次更新日期**：2026年2月12日
 
 這些發行說明涵蓋2026年2月發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -29,6 +29,7 @@ ht-degree: 40%
 | **更新至近似計數相異函式**<p>Approximate Count Distinct函式中使用的HLL機率演演算法即將更新。 使用此函式的數字之結果輸出可能會和歷史數字稍有不同，如下所示：<ul><li>計算極少量不重複值時，結果將改善為使用精確計數，而不是使用預估值。</li><li>計算任何較大的數字時，計數估計將保持本次更新之前的準確性（估計準確性在準確數字的5%以內，即時間的95%）。</li></ul><p>如需Approximate Count Distinct函式的詳細資訊，請參閱[進階函式](/help/components/calc-metrics/cm-adv-functions.md#approximate-count-distinct)中的[Approximate Count Distinct](/help/components/calc-metrics/cm-adv-functions.md)</p> |  | 2026 年 3 月 |
 | **支援 Data Mirror**  <p>藉由支援 Experience Platform 中特定來源連接器的模型式結構描述和變更資料擷取 (CDC) 功能，Customer Journey Analytics 將能夠支援如 [!DNL Snowflake]、[!DNL Azure Databricks] 和 [!DNL Google BigQuery] 等資料倉儲解決方案的[資料鏡像](/help/data-mirror/data-mirror.md)功能。</p><p>若要存取 Beta 版，請聯絡您的 Adobe 帳戶團隊。</p> | Beta 版：2025 年 9 月 24 日 | 待定 |
 | **串流媒體服務：支援排程資料** <p>您現在可以上傳過去直播串流媒體內容的排程資料，以更輕鬆準確地追蹤觀看率。</p><p>以下是支援排程資料上傳的直播內容範例：</p><ul><li>FAST (免費廣告支援的電視) 平台</li><li>本地串流</li><li>現場體育賽事</li></ul><p>透過上傳排程資料，您可以追蹤上傳檔案中指定時間內播出的各個節目之觀看人數資料。您甚至可以收集特定主題或節目區段的觀看人數資料。</p><p>無論您以何種方式實施串流媒體收集，均可使用這些功能。</p><p>過去在分析直播內容時，無法準確地將特定工作階段與特定節目相關聯，亦無法將特定工作階段與個別主題或節目區段相關聯。</p><p>如需詳細資訊，請參閱[上傳排程資料以追蹤即時內容](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 2025 年 10 月 29 日 | 2026 年上半年<p>(原規劃於 2025 年 10 月 29 日發行)</p> |
+| **合併來自多個IMS組織的報告套裝**<p>您可以使用Analytics Source Connector來合併來自多個IMS組織的報告套裝。 此[跨IMS資料對應](/help/getting-started/aa-vs-cja/mapping-data-ims-orgs.md)功能可讓組織擁有其客戶資料的合併檢視，即使該客戶資料散佈在多個IMS組織中亦然。 <p>**注意：**&#x200B;此設定只能透過向 Adobe 客戶服務提交請求來取得。</p> |  | 2026年2月12日 |
 
 ## Customer Journey Analytics 中的修正
 
