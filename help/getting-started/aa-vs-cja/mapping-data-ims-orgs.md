@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Adobe Analytics Integration,Administration
 exl-id: c109742b-c1c5-45b3-971f-f8dcf814ec37
-source-git-commit: 888420e8cd11cd447fec99257b213669edd345c1
+source-git-commit: ff0a5eb5b04f604eff41a18b05199b517d1a2d14
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 1%
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 一旦Adobe客戶經理收到電子郵件，其中包含來自多個組織的Analytics資料對應請求，即會在Adobe中稽核該請求。 Adobe客戶經理若需任何其他問題、選用的培訓及其他資訊，請聯絡您。
 
-核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝[的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)清單中的報表套裝名稱。
+核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝[的](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)清單中的報表套裝名稱。
 
 
 ## 限制
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 在核准&#x200B;*跨IMS資料對應*&#x200B;功能後，您就可以將資料新增到目標IMS組織中一個或多個報表套裝的Experience Platform。 您透過[Analytics來源聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)的設定來執行此動作。 然後會在Experience Platform中建立Target資料集。 在此設定和流程中，您可以選擇從一個或多個報表套裝將設定檔資料傳送至設定檔服務。
 
-如上所述，預估由設定和程式所產生的設定檔總數。 確保總數不超過您依照合約有權為目的地組織使用的設定檔數量。 套用[篩選規則和條件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"}以選擇性地包含或排除擷取至設定檔服務的資料。 或停用將設定檔資料傳送至相關報表套裝的設定檔服務的選項。
+如上所述，預估由設定和程式所產生的設定檔總數。 確保總數不超過您依照合約有權為目的地組織使用的設定檔數量。 套用[篩選規則和條件](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"}以選擇性地包含或排除擷取至設定檔服務的資料。 或停用將設定檔資料傳送至相關報表套裝的設定檔服務的選項。
 
 
 #### 拼接
@@ -88,3 +88,4 @@ ht-degree: 1%
 ### 資料報表
 
 *跨IMS資料對應*&#x200B;功能只是確保您可以使用資料做為Customer Journey Analytics [連線](/help/connections/overview.md)、一或多個[資料檢視](/help/data-views/data-views.md)和[工作區專案](/help/analysis-workspace/home.md)的一部分的第一步。 您需要仔細檢查您現在在一個IMS組織中可用的資料。 在您能夠正確報告此資料之前，請考慮資料準備、衍生欄位、其他查詢表格等功能。
+
