@@ -4,9 +4,9 @@ description: 了解進階計算量度函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: fa66083b922c903f6a7b0608d91f26e85bd8374f
 workflow-type: tm+mt
-source-wordcount: '5241'
+source-wordcount: '5272'
 ht-degree: 98%
 
 ---
@@ -396,7 +396,7 @@ CDF-Z(-3) ? 0.0013499
 
 >[!NOTE]
 >
->此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL 累積 (人數)]**](#cumulative)。
+>此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg)[**[!UICONTROL 累積 (人數)]**](#cumulative)。
 >
 
 
@@ -1344,18 +1344,18 @@ CDF-Z(-3) ? 0.0013499
 
 
 
-## 樣本變數
+## 樣本變數 {#sample-variance}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-variance-estimate"
 >title="樣本變數"
->abstract="使用公式 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)) 計算樣本變數的估計值。其中 N 是標準化容器的數量。<br/>這用於&#x200B;*隨時有效*&#x200B;可信度計算的一部分。通常，此功能無法單獨使用，但可以用於檢查計算結果或&#x200B;*手動*&#x200B;執行可信度計算。"
+>abstract="使用公式`(sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))`計算樣本變異數的預估值。 其中`N`是標準化容器的計數。 <br/>這用於&#x200B;*隨時有效*&#x200B;可信度計算的一部分。通常，此功能無法單獨使用，但可以用於檢查計算結果或&#x200B;*手動*&#x200B;執行可信度計算。"
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL 樣本變異數 (標準化容器、成功量度)]**
 
-計算樣本變異數的預估值。
+使用公式`(sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))`計算樣本變異數的預估值。 其中`N`是標準化容器的計數。<br/>這用於&#x200B;*隨時有效*&#x200B;可信度計算的一部分。通常，此功能無法單獨使用，但可以用於檢查計算結果或&#x200B;*手動*&#x200B;執行可信度計算。
 
 | 引數 | 說明 |
 | --- | --- |
