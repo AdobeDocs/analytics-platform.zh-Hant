@@ -64,7 +64,7 @@ Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。您也可以�
   當您儲存專案時，請新增關於專案變動的註釋。在「儲存版本說明」對話框中：
 
    1. 在「**[!UICONTROL 新增註釋]**」文字區域中，輸入您的「**[!UICONTROL 版本說明]**」。
-   1. 選取「**[!UICONTROL 儲存]**」。
+   1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
   註釋會和專案版本一起儲存，且會在[開啟專案先前版本](open-projects.md#open-previous-version)時供使用。連同註釋儲存的版本會自動保存一年。
 
@@ -88,7 +88,7 @@ Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。您也可以�
 
 
 <!-- Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant) that becomes available to your organization under **[!UICONTROL Project > New]** |
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
 ## 自動儲存

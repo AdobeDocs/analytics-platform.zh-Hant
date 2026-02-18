@@ -27,7 +27,7 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 1. 選取&#x200B;[!UICONTROL **建立**]。
 
 
-現在您已經建立空白 Workspace 專案，請確保您熟悉 [Analysis Workspace](/help/analysis-workspace/home.md) 使用者介面。確認後，即可建置您的專案。若要進行此步驟：
+現在您已經建立空白 Workspace 專案，請確保您熟悉 [Analysis Workspace](/help/analysis-workspace/home.md) 使用者介面。確認後，即可建置您的專案。若要這麼做：
 
 ![Example project](assets/example-project.png)
 

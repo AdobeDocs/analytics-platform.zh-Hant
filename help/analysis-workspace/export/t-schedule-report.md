@@ -39,7 +39,7 @@ ht-degree: 51%
 1. 新增收件者或群組。您也可以輸入電子郵件地址。
 1. （僅適用於Healthcare Shield客戶）提供[密碼保護排程報告](#password-protect-a-new-scheduled-project)的密碼。
 1. （選擇性）選取&#x200B;**[!UICONTROL 顯示排程選項]**&#x200B;至[排程檔案匯出](#schedule-file-export)。
-1. 按一下&#x200B;**[!UICONTROL 立即傳送]**。 選取「**[!UICONTROL 取消]**」即可取消。
+1. 按一下&#x200B;**[!UICONTROL 立即傳送]**。 選取「**[!UICONTROL 取消]**」進行取消。
 
 
 ## 排程檔案匯出 {#schedule}
@@ -69,7 +69,7 @@ ht-degree: 51%
 1. 輸入從&#x200B;**[!UICONTROL 開始的]**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
 
 1. 在&#x200B;**[!UICONTROL 結束日期]**&#x200B;中輸入結束日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選結束日期。
-1. 選取&#x200B;**[!UICONTROL 依排程傳送]**。 選取「**[!UICONTROL 取消]**」即可取消。
+1. 選取&#x200B;**[!UICONTROL 依排程傳送]**。 選取「**[!UICONTROL 取消]**」進行取消。
 
 
 ## 密碼保護排程專案 {#password}
@@ -86,7 +86,7 @@ ht-degree: 51%
 
 >[!NOTE]
 >
->密碼保護排程專案的選項僅會對已購買 [Healthcare Shield](https://business.adobe.com/tw/solutions/industries/healthcare.html) 附加產品的 Customer Journey Analytics 客戶顯示。
+>密碼保護排程專案的選項僅會對已購買 [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html) 附加產品的 Customer Journey Analytics 客戶顯示。
 
 Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv 格式傳送。
 
@@ -103,7 +103,7 @@ Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv �
 ### 密碼保護新排程專案
 
 1. 儲存專案後，前往「**[!UICONTROL 共用]** > **[!UICONTROL 立即發送檔案]**」，或「**[!UICONTROL 共用]** > **[!UICONTROL 依排程發送檔案]**」。
-1. 按照上面的指示，在[立即傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=zh-Hant#now)或[依排程傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=zh-Hant#schedule)下面。
+1. 按照上面的指示，在[立即傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now)或[依排程傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule)下面。
 
 ### 密碼保護現有排程專案
 

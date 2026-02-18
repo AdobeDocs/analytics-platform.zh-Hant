@@ -42,7 +42,7 @@ ht-degree: 9%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[&#x200B; &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_&#x200B;**地圖**。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[ ](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_**地圖**。_
 
 >[!ENDSHADEBOX]
 
@@ -184,7 +184,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
    在視覺效果建立後，您可以選取視覺效果標題中的「編輯」圖示![「編輯」](/help/assets/icons/Edit.svg)來更新此資訊。
 
-1. 請選取「**[!UICONTROL 建置]**」。
+1. 選取「**[!UICONTROL 建置]**」。
 
    產生附泡泡圖的世界地圖視覺效果。
 
@@ -243,7 +243,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 1. **儲存**&#x200B;專案以儲存所有地圖設定（座標、縮放、旋轉）。
 1. （可選）您可以從左側欄拖曳位置維度和量度，填入視覺效果下方的自由表格。
 
-## 設定視覺效果設定
+## 配置視覺化圖表設定
 
 若要設定地圖視覺效果的設定：
 

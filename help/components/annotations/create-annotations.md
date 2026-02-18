@@ -74,7 +74,7 @@ ht-degree: 91%
 
    | 元素 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 資料釋圖]** | 您可以選取註解的資料釋圖。您定義的註解可以根據所選取的資料視圖，用作 Workspace 專案中的註解。當您啟用[!UICONTROL 套用至所有資料釋圖]時，此選取範圍將失效。 |
+   | **[!UICONTROL 資料檢視]** | 您可以選取註解的資料釋圖。您定義的註解可以根據所選取的資料視圖，用作 Workspace 專案中的註解。當您啟用[!UICONTROL 套用至所有資料釋圖]時，此選取範圍將失效。 |
    | **[!UICONTROL 僅限專案的註解]** | 唯有在您正在處理的 Workspace 專案中，才能看見用來解釋您建立的註解之資訊框。啟用&#x200B;**[!UICONTROL 您的所有專案可使用此註解]**，讓您的所有專案皆可看見註解。唯有您在 Workspace 專案中建立註解時，此資訊框才可見。 |
    | **[!UICONTROL 標題]**![Required](/help/assets/icons/Required.svg) | 為註解命名，例如，`Needs further investigation`。 |
    | **[!UICONTROL 說明]** | 提供註解說明，例如，`We never expected such a fluctuation in numbers.`。 |

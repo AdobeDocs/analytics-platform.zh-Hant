@@ -17,7 +17,7 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_button"
->title="自由表格"
+>title="自由格式表格"
 >abstract="建立一個空白的自由格式表格視覺效果，您可以使用維度、區段、量度和日期範圍進一步建置。您可以使用自由格式表格作為其他視覺效果的基礎。"
 
 <!-- markdownlint-enable MD034 -->
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的自由格式表格視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[自由格式表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table)_。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的自由格式表格視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[自由格式表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table)_。_
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +40,11 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ## 自動化表格
 
-若要建立表格，直接將元件拖放至空白專案、面板或自由表格中是最快的方法。以建議的格式為您建立自由格式表格。[觀看教學課程](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace)。
+若要建立表格，直接將元件拖放至空白專案、面板或自由格式表格中是最快的方法。以建議的格式為您建立自由格式表格。[觀看教學課程](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace)。
 
 ![帶有造訪數元件的新面板放置於工作區。](assets/automated-table.png)
 
-## 自由表格產生器
+## 自由格式表格產生器
 
 如果您偏好先將數個元件新增至表格，然後再轉譯資料，您可以選取「**[!UICONTROL 啟用表格產生器]**」。啟用產生器後，您可以拖放維度、劃分、量度和區段，藉以建置回答更為複雜之問題的表格。一旦您選取「**[!UICONTROL 建置]**」，資料就會進行更新。
 
@@ -52,7 +52,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ## 互動
 
-您可以透過多種方式與自由表格互動及自訂表格：
+您可以透過多種方式與自由格式表格互動及自訂表格：
 
 ### 篩選和排序
 
@@ -113,6 +113,6 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

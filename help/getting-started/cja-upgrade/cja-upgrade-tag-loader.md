@@ -1,5 +1,5 @@
 ---
-title: 實作適用於 Web SDK 擴充功能的 Loader 標記
+title: 實施適用於 Web SDK 擴充功能的 Loader 標記
 description: 了解如何實施適用於 Web SDK 擴充功能的 Loader 標記
 role: Admin
 solution: Customer Journey Analytics
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# 實作適用於 Web SDK 擴充功能的 Loader 標記 {#upgrade-tag-loader}
+# 實施適用於 Web SDK 擴充功能的 Loader 標記 {#upgrade-tag-loader}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 您必須在想要追蹤的網站上安裝您的標記，這是將程式碼放在您網站範本的標題標記中。
 
-以下過程說明如何取得引用您標記的程式碼。有關補充資訊，請參閱 Experience Platform 文件中的「[標記和事件轉發實施指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/implementation-guides)」。
+以下過程說明如何取得引用您標記的程式碼。有關補充資訊，請參閱 Experience Platform 文件中的「[標記和事件轉送實施指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/implementation-guides)」。
 
 若要取得參考標籤的程式碼：
 
@@ -53,6 +53,6 @@ ht-degree: 100%
 
    您可以根據您部署 Adobe Experience Platform Web SDK 的流程，選取其他環境 (中繼、生產)，而非開發環境的程式碼。
 
-   如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant&)。
+   如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?)。
 
 {{upgrade-final-step}}

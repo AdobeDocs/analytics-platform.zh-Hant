@@ -27,19 +27,19 @@ ht-degree: 100%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-views/create-dataview.md -->
 
-建立資料檢視需要從結構描述元素建立量度和維度或使用標準元件。大多數結構描述元素可以是維度或量度，具體取決於您的業務需求。將結構描述元素拖到資料檢視中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
+建立資料視圖需要從結構描述元素建立量度和維度或使用標準元件。大多數結構描述元素可以是維度或量度，具體取決於您的業務需求。將結構描述元素拖到資料視圖中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
 
 若要建立資料檢視：
 
-1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 然後選取「**[!UICONTROL 資料檢視]**」，也可以自頂部選單中選取「**[!UICONTROL 資料管理]**」。
+1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 然後選取「**[!UICONTROL 資料視圖]**」，也可以自頂部選單中選取「**[!UICONTROL 資料管理]**」。
 
-1. 選取「**[!UICONTROL 建立新的資料檢視]**」。或者，您可以從資料檢視清單中選取現有資料檢視進行編輯。
+1. 選取「**[!UICONTROL 建立新的資料檢視]**」。或者，您可以從資料視圖清單中選取現有資料視圖進行編輯。
 
 1. 在「[!UICONTROL **設定**]」索引標籤上，指定資料檢視的名稱並設定其基本設定、元件和行事曆選項。
 
    有關每個欄位的詳細資訊，請參閱「[建立或編輯資料檢視」](/help/data-views/create-dataview.md)中的「[設定](/help/data-views/create-dataview.md#configure)」。
 
-   ![設定資料檢視](assets/dataview-configure.png)
+   ![設定資料視圖](assets/dataview-configure.png)
 
 1. 選取「[!UICONTROL **元件**]」索引標籤。
 

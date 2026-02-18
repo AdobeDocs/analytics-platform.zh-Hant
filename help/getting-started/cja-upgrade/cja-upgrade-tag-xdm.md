@@ -1,5 +1,5 @@
 ---
-title: 將 XDM 資料彙集邏輯新增至您的標記
+title: 將 XDM 資料收集邏輯新增至您的標記
 description: 了解如何新增 XDM 資料收集邏輯至您的標記
 role: Admin
 solution: Customer Journey Analytics
@@ -12,13 +12,13 @@ ht-degree: 100%
 
 ---
 
-# 將 XDM 資料彙集邏輯新增至您的標記 {#upgrade-tag-xdm}
+# 將 XDM 資料收集邏輯新增至您的標記 {#upgrade-tag-xdm}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-xdm"
->title="將 XDM 資料彙集邏輯新增至您的標記"
+>title="將 XDM 資料收集邏輯新增至您的標記"
 >abstract="在您的網站上安裝 Loader 標記後，您可以新增規則和資料元素來填入 XDM 物件以傳送至 Adobe。Adobe 建議維護解決方案設計文件，以追蹤您的標記設定。<br><br>此步驟有大量工作，因為其中包含設定您的屬性之所有 Analytics 邏輯。預計需要投入一個月或更長的時間來建立正確的標記規則、進行測試並將其部署至您的網站上。"
 
 <!-- markdownlint-enable MD034 -->
@@ -213,7 +213,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 >
 >您可以在標籤中以各種方式使用規則來操控變數 (使用您的資料元素)。
 >
->如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=zh-Hant)。
+>如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)。
 
 1. 使用您的 Adobe ID 認證登入 experience.adobe.com。
 

@@ -57,7 +57,7 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="cja-export-details"
->title="詳細內容"
+>title="詳細資料"
 >abstract="指定匯出的名稱。您也可以新增說明和任何標籤。 此資訊有助於在匯出表格和電子郵件通知中識別匯出。"
 
 <!-- markdownlint-enable MD034 -->
@@ -127,17 +127,17 @@ ht-degree: 73%
    | 名稱 | 指定匯出的名稱。此名稱顯示在匯出清單中。 |
    | 標記 | 您可以將現有標記套用至匯出，也可以建立新標記並且套用。 <p>若要套用現有標記至匯出，請從下拉式選單中選取任何標記。您公司的任何標記均可套用<!-- double-check this -->。</p> <p>若要建立新標記，請輸入新標記的名稱，然後按 Enter。</p><p>將標記套用至匯出時，請考慮以下事項： <ul><li>您套用的標記可以在匯出表格中篩選或搜尋。</li> <li>匯出完整表格時，不會自動套用已套用至專案的標記，如在「[管理匯出](/help/components/exports/manage-exports.md)」中的「在匯出頁面上設定欄」所述)。(或者，當[安排整個專案供匯出](/help/analysis-workspace/export/t-schedule-report.md)時，任何套用於專案的標記都會自動套用於匯出)。  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
    | 說明 | 新增說明至匯出。檢視匯出時，您可以選擇以[匯出頁面](/help/components/exports/manage-exports.md)中的資料欄來檢視說明。 |
-   | 資料檢視 | 選取資料檢視，其中包含您想要包含在匯出的元件。![資料](/help/assets/icons/Data.svg)資料檢視下拉式功能表位於對話方塊的左上角。  <p>**注意：**&#x200B;如果您選取的資料檢視遺漏了資料表格中已包含的元件，系統會提示您清除並使用所選資料檢視中所包含的元件重新建立面板。 </p> |
-   | 回顧視窗 | 選取要包含在每個匯出檔案中的報告時間範圍。選項包含&#x200B;[!UICONTROL **今天**], **[!UICONTROL 昨天]**, **[!UICONTROL 過去 7 天]**, **[!UICONTROL 過去 30 天]**, **[!UICONTROL 本週]**&#x200B;和&#x200B;**[!UICONTROL 本月]**。 <p>當&#x200B;**[!UICONTROL 匯出頻率]**&#x200B;設為「**[!UICONTROL 立即傳送 (一次性)]**&#x200B;時，不會顯示此選項。 |
+   | 資料視圖 | 選取資料檢視，其中包含您想要包含在匯出的元件。![資料](/help/assets/icons/Data.svg)資料檢視下拉式功能表位於對話方塊的左上角。  <p>**注意：**&#x200B;如果您選取的資料檢視遺漏了資料表格中已包含的元件，系統會提示您清除並使用所選資料檢視中所包含的元件重新建立面板。 </p> |
+   | 回顧時間範圍 | 選取要包含在每個匯出檔案中的報告時間範圍。選項包含&#x200B;[!UICONTROL **今天**], **[!UICONTROL 昨天]**, **[!UICONTROL 過去 7 天]**, **[!UICONTROL 過去 30 天]**, **[!UICONTROL 本週]**&#x200B;和&#x200B;**[!UICONTROL 本月]**。 <p>當&#x200B;**[!UICONTROL 匯出頻率]**&#x200B;設為「**[!UICONTROL 立即傳送 (一次性)]**&#x200B;時，不會顯示此選項。 |
    | 資料表 | 顯示您正在匯出的自由格式表格。您可以將元件從左側面板拖曳到表格中來修改資料表格。當您新增元件至畫布時，表格會動態更新。  <p>任何套用至專案中完整表格的區段，都會出現在表格中每個單獨欄的最上方。</p> |
    | 清除 | 清除資料表格的內容。這會讓您直接在全新完整表格匯出對話框中開始建立新表格。 |
    | 匯出頻率 | 設定匯出應發生頻率的時間表。 <p>您可以選擇「[!UICONTROL **立即發送 (一次性)**]」，可僅發送一次匯出。選擇此選項時，將立即啟動匯出。<p>或者，您可以選擇按照明訂的排程發送匯出。按照排程發送時，選項包括&#x200B;**[!UICONTROL 每日]**、**[!UICONTROL 每星期]**、**[!UICONTROL 每個月按星期的日子]**、**[!UICONTROL 每個月按月的日期]**、**[!UICONTROL 每一年按月的日期]**&#x200B;和&#x200B;**[!UICONTROL 每年特定日期]** </p><p>選取匯出頻率時，請考慮以下因素：</p><ul><li>**[!UICONTROL 回顧視窗]**&#x200B;欄位中的選項取決於您在此選取的內容。<!-- if they're doing Daily, then we might not let them look back to the last year... --></li><li>根據您選擇的選項，會顯示其他設定欄位。</li></ul> |
    | 開始日期 | 排定匯出應該開始的日期和時間。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
    | 結束日期 | 排定匯出到期的日期和時間。在您設定的日期和時間之後，排定匯出不會再進行。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
    | 檔案格式 | 選擇匯出的資料是否應該是 .csv 或 .json 格式。 |
-   | 包括資訊清單檔案 | 啟用後，任何成功的匯出傳遞都會包含一份資訊清單檔案。清單文件可讓您確認所有文件均已成功傳遞，其中包含以下資訊：<ul><li>已傳遞的所有檔案清單</li><li>每個檔案的 MD5 總和檢查碼</li></ul><p>匯出的資料會以壓縮檔案形式儲存在您設定的雲端目標中，如「[設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)」和「[設定 Google 匯出位置](/help/components/exports/cloud-export-locations.md)」中所述。</p><p>壓縮檔案的檔案名稱如下，實際名稱取決於您是選擇 CSV 或 JSON 作為檔案格式：</p><ul><li>`cja-export-{reportInstanceId}-{idx}.csv.gz`</li><li>`cja-export-{reportInstanceId}-{idx}.json.gz`</li></ul><p>您在上述&#x200B;**[!UICONTROL *檔案格式**]欄位中選擇檔案格式。</p> |
-   | 帳戶 | 選取您想要發送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，則您可以設定一個新帳戶：<ol><li>選取「**[!UICONTROL 新增帳戶]**」，然後註明下列資訊：<ul><li>**[!UICONTROL 位置帳戶名稱]**：指定位置帳戶的名稱。建立位置時會出現該名稱。 </li><li>**[!UICONTROL *位置帳戶描述]**：提供帳戶的簡短描述，以協助將其與相同帳戶型別的其他帳戶區分開來。</li><li>**[!UICONTROL 帳戶類型]**：選取您要匯出的目的雲端帳戶類型。可用的帳戶類型包括 Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake 和 AEP Data Landing Zone。</li></ul><li>若要完成帳戶設定，請繼續進行下面與您選取的&#x200B;**[!UICONTROL 帳戶類型]**&#x200B;相對應的連結：<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
-   | 位置 | 選取您想要發送匯出資料的帳戶位置。<p>或者，如果您尚未設定要在所選帳戶上使用的位置，則您可以設定新位置：<ol><li>選取&#x200B;**[!UICONTROL *dd位置]**，然後指定下列資訊： <ul><li>**[!UICONTROL 名稱]**：位置的名稱。</li><li>**[!UICONTROL 說明]**：提供位置的簡短說明，有助區分該位置與帳戶的其他位置。</li><li>**[!UICONTROL 位置帳戶]**：選取您想要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續下列對應您在&#x200B;**[!UICONTROL 位置帳戶]**&#x200B;欄位中所選帳戶型別的連結：<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone)。</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
+   | 包括資訊清單檔案 | 啟用後，任何成功的匯出傳遞都會包含一份資訊清單檔案。清單文件可讓您確認所有文件均已成功傳遞，其中包含以下資訊：<ul><li>已傳遞的所有檔案清單</li><li>每個檔案的 MD5 總和檢查碼</li></ul><p>匯出的資料會以壓縮檔案形式儲存在您設定的雲端目標中，如「[設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)」和「[設定 Google 匯出位置](/help/components/exports/cloud-export-locations.md)」中所述。</p><p>壓縮檔案的檔案名稱如下，實際名稱取決於您是選擇 CSV 或 JSON 作為檔案格式：</p><ul><li>`cja-export-{reportInstanceId}-{idx}.csv.gz`</li><li>`cja-export-{reportInstanceId}-{idx}.json.gz`</li></ul><p>您在上述**[!UICONTROL *檔案格式**]欄位中選擇檔案格式。</p> |
+   | 帳戶 | 選取您想要發送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，則您可以設定一個新帳戶：<ol><li>選取「**[!UICONTROL 新增帳戶]**」，然後註明下列資訊：<ul><li>**[!UICONTROL 位置帳戶名稱]**：指定位置帳戶的名稱。建立位置時會出現此名稱 </li><li>**[!UICONTROL *位置帳戶描述]**：提供帳戶的簡短描述，以協助將其與相同帳戶型別的其他帳戶區分開來。</li><li>**[!UICONTROL 帳戶類型]**：選取您要匯出的目的雲端帳戶類型。可用的帳戶類型包括 Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake 和 AEP Data Landing Zone。</li></ul><li>若要完成帳戶設定，請繼續進行下面與您選取的&#x200B;**[!UICONTROL 帳戶類型]**&#x200B;相對應的連結：<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
+   | 位置 | 選取您想要發送匯出資料的帳戶位置。<p>或者，如果您尚未設定要在所選帳戶上使用的位置，則您可以設定新位置：<ol><li>選取&#x200B;**[!UICONTROL *dd位置]**，然後指定下列資訊： <ul><li>**[!UICONTROL 名稱]**：位置的名稱。</li><li>**[!UICONTROL 說明]**：提供位置的簡短說明，有助區分該位置與帳戶的其他位置。</li><li>**[!UICONTROL 位置帳戶]**：選取您想要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續下列對應您在**[!UICONTROL 位置帳戶]**欄位中所選帳戶型別的連結：<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone)。</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
 
    {style="table-layout:auto"}
 
@@ -250,19 +250,19 @@ ht-degree: 73%
 
 | 功能 | Customer Journey Analytics 中的完整表格匯出 | Adobe Analytics 中的 Data Warehouse |
 |---------|----------|---------|
-| 建立自訂報告 | 有 | 有 |
-| 計算量度 | 有 | 無 |
+| 建立自訂報告 | 是 | 是 |
+| 計算量度 | 是 | 無 |
 | 區段 | 是 | 有限 |
 | 維度 | 限制 10 個 | 無限制 |
 | 量度 | 限制 10 個 | 無限制 |
 | 報告列 | 限制為 300 萬列、3,000 萬列、1.5 億列或 3 億列，視等級而定 | 無限制 |
 | 報告數量 | 無限制 | 無限制 |
-| 臨時 (一次性) 傳遞 | 有 | 有 |
-| 安排定期傳遞 | 有 | 有 |
+| 臨時 (一次性) 傳遞 | 是 | 是 |
+| 安排定期傳遞 | 是 | 是 |
 | 電子郵件傳遞 | 無 | 是 |
 | FTP / SFTP | 否 | 舊版支援 |
-| Azure | 有 | 有 |
-| Amazon S3 | 有 | 有 |
-| Google Cloud Platform | 有 | 有 |
-| Snowflake | 有 | 無 |
+| Azure | 是 | 是 |
+| Amazon S3 | 是 | 是 |
+| Google Cloud Platform | 是 | 是 |
+| Snowflake | 是 | 無 |
 | 傳遞頻率 | 每日 | 每小時 |

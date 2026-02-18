@@ -11,7 +11,7 @@ ht-degree: 95%
 
 ---
 
-# 建立區段 {#build-segments}
+# 建置區段 {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -125,7 +125,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 在細分群體捲動日期範圍](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 在細分群體捲動日期範圍](https://video.tv.adobe.com/v/25403/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

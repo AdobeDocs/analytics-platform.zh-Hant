@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ## 建立 Analytics 來源連接器和對應欄位
 
-建立自訂結構描述後，您需要建立 Adob&#x200B;&#x200B;e Analytics 來源連接器以用於歷史資料。(有關建立來源連接器的更全面的一般準則，請參閱「[在 UI 中建立 Adob&#x200B;&#x200B;e Analytics 來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)」)。
+建立自訂結構描述後，您需要建立 Adob&#x200B;&#x200B;e Analytics 來源連接器以用於歷史資料。(有關建立來源連接器的更全面的一般準則，請參閱「[在 UI 中建立 Adob&#x200B;&#x200B;e Analytics 來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)」)。
 
 若要建立 Adobe Analytics 來源連接器以用於歷史資料：
 
