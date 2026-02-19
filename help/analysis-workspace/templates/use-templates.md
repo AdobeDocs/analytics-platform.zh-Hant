@@ -4,9 +4,9 @@ title: 使用範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 9b941deb424d92744bea99f6ea01f6434d6bc19f
+source-git-commit: 02aa4b4c9b357efca3d620bb72d8a505153bc079
 workflow-type: tm+mt
-source-wordcount: '20935'
+source-wordcount: '21006'
 ht-degree: 96%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 96%
 
 Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境之快速洞察。以下範例是您可以使用範例回答的問題：
 
-* 造訪您網站的人數
-* 這些訪客中有多少是不重複訪客（只計數一次）
-* 訪客如何造訪網站（例如他們是否透過連結或直接造訪網站）
-* 訪客用來搜尋網站內容的關鍵字
-* 訪客在指定頁面或整個網站停留多久
-* 訪客點按的連結及其離開網站的時間
-* 哪些行銷管道最能有效產生收入或轉換事件
-* 他們觀看視訊所花費的時間
-* 他們用來造訪您網站的瀏覽器和裝置
+* 造訪您網站的人數。
+* 這些訪客中有多少是不重複訪客（只計數一次）。
+* 訪客如何造訪網站（例如他們是否透過連結或直接造訪網站）。
+* 訪客用來搜尋網站內容的關鍵字。
+* 訪客在指定頁面或整個網站停留的時間。
+* 訪客點按的連結及其離開網站的時間。
+* 哪些行銷管道最能有效產生收入或轉換事件。
+* 他們觀看視訊所花費的時間。
+* 他們用來造訪您網站的瀏覽器和裝置。
 
 以下資訊說明如何從 Analysis Workspace 中的「[!UICONTROL 範本]」標籤存取和使用範本。
 
@@ -1117,11 +1117,15 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 ### Mix Modeler範本 {#mix-modeler-templates}
 
+以下範本適用：
+
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| --- | --- |
+| [!UICONTROL **Mix Modeler增量模型深入分析**] | 檢視Mix Modeler產生之選定模型的深入分析。<p>**這可協助您**，更清楚瞭解在Mix Modeler中產生的模型所產生的增量深入分析。 <p>**根據這些深入分析**，您將能夠：<ul><li>將組織行銷活動的影響視覺化並量化。</li><li>識別哪些管道表現良好。</li><li>識別可能需要最佳化的管道。</li></ul></p> |
+
 <!-- CJA only -->
 
 >[!CONTEXTUALHELP]
->id="template--mixModelerReport"
+>id="template--mixmodeler-incremental-models-insights"
 >title="檢視Mix Modeler產生之選定模型的深入分析。"
 >abstract="**這可協助您**，更清楚瞭解在Mix Modeler中產生的模型所產生的增量深入分析。 <br/>**根據這些深入分析**，您將能夠：<ul><li>將組織行銷活動的影響視覺化並量化。</li><li>識別哪些管道表現良好。</li><li>識別可能需要最佳化的管道。</li></ul>"
-
-
