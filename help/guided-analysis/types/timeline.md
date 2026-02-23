@@ -34,7 +34,7 @@ ht-degree: 99%
 >* **管理員**： *此分析需要有 PersonID 屬性。請將個人 ID 新增至資料檢視。*
 >* **非管理員**：*此分析需要有 PersonID 屬性。請與您的 Customer Journey Analytics 管理員合作，將個人 ID 新增至資料檢視。*
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
+>[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
 
 
 

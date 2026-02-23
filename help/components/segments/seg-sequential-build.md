@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [循序分段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [循序分段](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"}。
 
 {{videoaa}}
 

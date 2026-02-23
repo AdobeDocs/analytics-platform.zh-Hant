@@ -30,7 +30,7 @@ ht-degree: 97%
 
 在此分析中，圖表的 x 軸表示自使用者首次啟動事件以來的時間，y 軸表示參與一個或多個回訪事件的使用者百分比。您可以查看不同持續時間內的保留率和流失率，並且可以透過查詢設定自訂顯示的持續時間。圖表下方的表格提供匯總資料，並有顯示個別同類群組的選項；同類群組是在同一天進行開始事件的一群人。
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/retention)
+>[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/guided-analysis/retention)
 
 
 ## 使用案例

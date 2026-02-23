@@ -24,7 +24,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-檢視![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [排程活頁簿](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/schedule-cja-workbooks-using-report-builder){target="_blank"}以取得示範影片。
+檢視![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [排程活頁簿](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/schedule-cja-workbooks-using-report-builder){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 

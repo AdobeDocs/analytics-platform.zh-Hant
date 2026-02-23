@@ -25,7 +25,7 @@ ht-degree: 99%
 
 ![頻率](/help/assets/icons/Histogram.svg) **[!UICONTROL 頻率]**&#x200B;分析是根據產品中事件發生的頻率來將事件資料分組。此分析的縱軸包含表示事件頻率的貯體。橫軸測量每個貯體的使用者人數或工作階段個數。
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/frequency)
+>[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/guided-analysis/frequency)
 
 ## 使用案例
 

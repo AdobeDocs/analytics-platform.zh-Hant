@@ -31,7 +31,7 @@ ht-degree: 92%
 所有活躍使用者 (新使用者 + 重複使者 + 重新回來使用者) 在橫軸上方顯示為青色，而所有休眠使用者在橫軸下方顯示為橙色。
 
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/active-growth)
+>[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/guided-analysis/active-growth)
 
 ## 使用案例
 
