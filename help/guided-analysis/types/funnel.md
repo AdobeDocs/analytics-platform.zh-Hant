@@ -23,7 +23,7 @@ ht-degree: 98%
 
 <!-- markdownlint-enable MD034 -->
 
- ![轉換漏斗](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 漏斗&#x200B;]**分析以直覺的方式呈現您產品中關鍵的使用者歷程。橫軸代表使用者必須傳遞的每個步驟。縱軸表示每個步驟的使用者或工作階段的百分比。所有步驟都必須按最終順序完成，但可以在報告視窗內的任何時間發生。
+ ![轉換漏斗](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 漏斗&#x200B;]**&#x200B;分析以直覺的方式呈現您產品中關鍵的使用者歷程。橫軸代表使用者必須傳遞的每個步驟。縱軸表示每個步驟的使用者或工作階段的百分比。所有步驟都必須按最終順序完成，但可以在報告視窗內的任何時間發生。
 
 >[!BEGINSHADEBOX]
 
