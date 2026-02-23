@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: e42f04eaa06a761803e76b64a5a16674fb4af57d
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 92%
 
 ---
@@ -23,10 +23,10 @@ ht-degree: 92%
 
 <!-- markdownlint-enable MD034 -->
 
-![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 趨勢]** 分析可提供有關您產品效能或使用者隨時間變化的行為深入分析。該報告的橫軸是時間間隔，而縱軸是測量您所期望的事件。
+![GraphTrend](/help/assets/icons/GraphTrend.svg)**[!UICONTROL 趨勢]** 分析可提供有關您產品效能或使用者隨時間變化的行為洞察。該報告的橫軸是時間間隔，而縱軸是測量您所期望的事件。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423438/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/trends)
 
 ## 使用案例
 
@@ -34,7 +34,7 @@ ht-degree: 92%
 
 * **評估產品效能**：趨勢可讓您評估在特定時間內產品的整體效能。透過分析使用者參與度、採用率或轉換率等量度，您可以確定產品的效能是在提高、停滯還是下降。
 * **功能採用**：趨勢可以讓您了解使用者如何採用您發布的新功能或更新。您可以確定哪些功能很受歡迎，以及哪些功能需要改善。這些資訊可以幫助您根據資料做出決策，並確定優先開發哪些功能。
-* **使用者行為**：趨勢可對使用者長期使用行為提供深入分析和見解。透過檢查使用者採取的特定行動，您可以識別使用者可能流失的模式。您可以結合這項分析的見解和[漏斗](funnel.md)，以獲得有關行為的更深入見解。
+* **使用者行為**：趨勢可對使用者長期使用行為提供洞察。透過檢查使用者採取的特定行動，您可以識別使用者可能流失的模式。您可以結合這項分析的洞察和[漏斗](funnel.md)，以獲得有關行為的更多洞察。
 * **A/B 測試和實驗**：如果您在產品內執行 A/B 測試，則可以使用趨勢來判斷長時間下來哪些測試最成功。
 
 ## 介面
@@ -76,7 +76,7 @@ ht-degree: 92%
 
 您想要分析的日期範圍。此設定有兩個元件：
 
-* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期細度。有效選項包括每小時、每天、每週、每月和每季。相同的日期範圍可以有不同的間隔，這會影響圖表中的資料點數和表格中的欄數。例如，以每日細度查看跨越三天的分析將僅顯示三個資料點，而以每小時細度查看跨越三天的分析將顯示 72 個資料點。
+* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期顆粒度。有效選項包括每小時、每天、每週、每月和每季。相同的日期範圍可以有不同的間隔，這會影響圖表中的資料點數和表格中的欄數。例如，以每日顆粒度查看跨越三天的分析將僅顯示三個資料點，而以每小時顆粒度查看跨越三天的分析將顯示 72 個資料點。
 * **[!UICONTROL 日期]**：開始和結束日期。為方便您使用，我們提供滾動日期範圍預設和先前儲存的自訂範圍，或者您可以使用行事曆選擇器來選擇固定的日期範圍。
 
 

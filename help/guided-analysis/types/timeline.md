@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 產品分析
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '578'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 >* **管理員**： *此分析需要有 PersonID 屬性。請將個人 ID 新增至資料檢視。*
 >* **非管理員**：*此分析需要有 PersonID 屬性。請與您的 Customer Journey Analytics 管理員合作，將個人 ID 新增至資料檢視。*
 
->[!VIDEO](https://video.tv.adobe.com/v/3435778/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
 
 
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 您想要分析的日期範圍。此設定有兩個元件：
 
-* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期細度。此設定不會影響時間軸等非趨勢分析。
+* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期顆粒度。此設定不會影響時間軸等非趨勢分析。
 * **[!UICONTROL 日期]**：開始和結束日期。為方便您使用，我們提供滾動日期範圍預設和先前儲存的自訂範圍，或者您可以使用行事曆選擇器來選擇固定的日期範圍。
 
 

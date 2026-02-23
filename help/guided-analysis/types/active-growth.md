@@ -5,9 +5,9 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
-source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '678'
 ht-degree: 92%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 
 
-![PeopleGroup](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL 積極成長]**&#x200B;分析可讓您深入了解使用者在特定期間內的成長和獲取情況。橫軸是時間間隔，縱軸是使用者測量值。使用者分為四大類：
+![PeopleGroup](/help/assets/icons/PeopleGroup.svg)**[!UICONTROL 積極成長]**&#x200B;分析可讓您深入洞察使用者在特定期間內的成長和獲取情況。橫軸是時間間隔，縱軸是使用者測量值。使用者分為四大類：
 
 * **[!UICONTROL 最新]**：使用者在目前期間內處於活躍狀態，但是之前不活躍。若要了解這項分析可回溯至多久以前，請將滑鼠停留在圖例中的「_[!UICONTROL 全新使用者]_」。回溯範圍是根據所選的日期範圍和間隔以動態方式來決定。
 * **[!UICONTROL 重複]**：使用者在目前和上個期間內處於活躍狀態。
@@ -31,7 +31,7 @@ ht-degree: 92%
 所有活躍使用者 (新使用者 + 重複使者 + 重新回來使用者) 在橫軸上方顯示為青色，而所有休眠使用者在橫軸下方顯示為橙色。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423392/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/active-growth)
 
 ## 使用案例
 
@@ -68,7 +68,7 @@ ht-degree: 92%
 
 您想要分析的日期範圍。此設定有兩個元件：
 
-* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期細度。有效選項包括每小時、每天、每週、每月和每季。相同的日期範圍可以有不同的間隔，這會影響圖表中的資料點數和表格中的欄數。例如，以每日細度查看跨越三天的分析將僅顯示三個資料點，而以每小時細度查看跨越三天的分析將顯示 72 個資料點。
+* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期顆粒度。有效選項包括每小時、每天、每週、每月和每季。相同的日期範圍可以有不同的間隔，這會影響圖表中的資料點數和表格中的欄數。例如，以每日顆粒度查看跨越三天的分析將僅顯示三個資料點，而以每小時顆粒度查看跨越三天的分析將顯示 72 個資料點。
 * **[!UICONTROL 日期]**：開始和結束日期。為方便您使用，我們提供滾動日期範圍預設和先前儲存的自訂範圍，或者您可以使用行事曆選擇器來選擇固定的日期範圍。
 
 <!--

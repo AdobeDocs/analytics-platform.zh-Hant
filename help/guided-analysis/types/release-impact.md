@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 產品分析
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 100%
+source-wordcount: '531'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ![發行](/help/assets/icons/Release.svg) **[!UICONTROL 發行影響]**&#x200B;分析顯示關鍵指標在特定日期之前和之後如何表現的比較。該報告的橫軸是時間間隔，而縱軸是測量期望的關鍵指標。圖表中間的垂直長條圖代表您想要比較前後的日期。此日期通常代表您想要衡量比較的產品顯著變化，例如產品更新或行銷活動展開。
 
->[!VIDEO](https://video.tv.adobe.com/v/3423447/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/release-impact)
 
 ## 使用案例
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 影響分析中的日期選擇的運作與其他分析不同，因為報告是以查詢欄中指定的日期為中心。提供下列選項：
 
-* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期細度。有效選項包括[!UICONTROL 每日]、 [!UICONTROL 每週]、 [!UICONTROL 每月]和 [!UICONTROL 每季]。變更間隔會影響之前和之後期間可用的選項。
+* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期顆粒度。有效選項包括[!UICONTROL 每日]、 [!UICONTROL 每週]、 [!UICONTROL 每月]和 [!UICONTROL 每季]。變更間隔會影響之前和之後期間可用的選項。
 * **[!UICONTROL 之前和之後期間]**：查詢欄中指定的日期之前和之後要分析的時間量。可用選項取決於[!UICONTROL 間隔] 的選擇。
 
 

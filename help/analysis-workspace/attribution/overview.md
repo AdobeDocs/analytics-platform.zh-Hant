@@ -1,17 +1,17 @@
 ---
-title: 歸因概觀
-description: 瞭解將成功事件的評分歸因於多個維度專案的概念。
+title: 成效歸因概觀
+description: 了解將成功事件的功勞分配於多個維度項目的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: b70409de112ba8247df8fc6f74f20a9370cda1e1
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 86%
+source-wordcount: '466'
+ht-degree: 99%
 
 ---
 
-# 歸因概觀
+# 成效歸因概觀
 
 歸因可讓分析人員自訂維度項目獲得成功事件評分的方式。例如：
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 在某些報告中，您可能想要將訂單歸因於「付費」搜尋。在其他報告中，則可能會將訂單歸因至「社交」。歸因可讓您控制報告的這個方面。Adobe Analytics Ultimate、Prime、Select 和 Foundation 的所有組織都可使用。如果您不確定您與 Adobe 的合約類型，請聯絡貴組織的 Adobe 帳戶團隊。
 
-## 歸因值
+## 成效歸因的價值
 
 客戶歷程並非線性，且經常無法預測。每位客戶都以自己的步調前進，常常會流連往返、停滯不動、重新開始，或以其他非線性行為進行互動。這些非機械性的行為使得我們很難掌握行銷活動在客戶歷程中的影響，也會阻礙我們將多個資料管道聯繫在一起的努力。
 
@@ -53,28 +53,28 @@ Attribution 包含下列功能：
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [自由表格中的歸因](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"}。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[自由格式表格中的成效歸因](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [計算量度中的歸因](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[計算量度中的成效歸因](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/attribution-iq-in-calculated-metrics){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用歸因面板](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"}。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[使用成效歸因面板](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/panels/build-the-attribution-panel){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [新增歸因模型的並排比較](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"}。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[新增成效歸因模型的並排比較](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/adding-side-by-side-comparisons-of-attribution-iq-models){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 

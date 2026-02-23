@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 100%
+source-wordcount: '2194'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
   | 選取… | 若要建立... |
   |---|---|
   | ![Table](/help/assets/icons/Table.svg) | [自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
-  | ![Line](/help/assets/icons/GraphTrend.svg) | [折線圖](/help/analysis-workspace/visualizations/line.md) |
+  | ![折線圖](/help/assets/icons/GraphTrend.svg) | [折線圖](/help/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [條狀圖](/help/analysis-workspace/visualizations/bar.md) |
   | ![123](/help/assets/icons/123.svg) | [摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Text](/help/assets/icons/Text.svg) | [文字](/help/analysis-workspace/visualizations/text.md) |
@@ -165,7 +165,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉式區段](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉式區段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}的示範影片。
 
 {{videoaa}}
 

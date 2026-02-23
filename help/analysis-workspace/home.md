@@ -6,10 +6,10 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
-workflow-type: ht
-source-wordcount: '1490'
-ht-degree: 100%
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+workflow-type: tm+mt
+source-wordcount: '1491'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace 可讓您快速建置分析以收集洞察，然後與其他�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概觀](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概觀](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/workspace-projects/analysis-workspace-overview){target="_blank"}的示範影片。
 
 {{videoaa}}
 

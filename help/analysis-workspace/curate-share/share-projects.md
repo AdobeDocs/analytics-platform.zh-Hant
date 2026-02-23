@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '2089'
-ht-degree: 100%
+source-wordcount: '2092'
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的專案共用](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的專案共用](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
 
 {{videoaa}}
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 
    **編輯副本：**&#x200B;收件者可以「**[!UICONTROL 另存新檔]**」，且擁有左側面板的存取權。專案互動並不限於這個角色。如果您想要與了解組織資料，且知道如何使用 Analysis Workspace 的使用者共用專案，此角色相當實用。但您不希望這些使用者修改您的專案。
 
-   **唯讀：**&#x200B;收件者無法&#x200B;**[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 另存新檔]**，也無法存取左側面板。專案互動也有所限制。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Customer Journey Analytics 的使用者共用專案，此角色會非常有用。 但您仍希望他們能在安全的環境中使用資料和深入分析，就可以使用此角色。深入了解[唯讀專案體驗](/help/analysis-workspace/curate-share/view-only-projects.md)。
+   **唯讀：**&#x200B;收件者無法&#x200B;**[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 另存新檔]**，也無法存取左側面板。專案互動也有所限制。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Customer Journey Analytics 的使用者共用專案，此角色會非常有用。 但您仍希望他們能在安全的環境中使用資料和洞察，就可以使用此角色。深入了解[唯讀專案體驗](/help/analysis-workspace/curate-share/view-only-projects.md)。
 
 1. (視情況而定) 如果您要共用單一專案，則共用專案時請選擇是否啟用下列選項：
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://video.tv.adobe.com/v/3452476/?captions=chi_hant&quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -216,7 +216,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Analysis Workspace 中共用嵌入元件](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Analysis Workspace 中共用嵌入元件](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
 
 {{videoaa}}
 

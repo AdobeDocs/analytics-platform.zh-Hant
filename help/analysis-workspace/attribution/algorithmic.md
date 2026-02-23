@@ -4,21 +4,21 @@ description: 瞭解演演算法歸因模型的詳細資料。
 feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 42%
 
 ---
 
 # 演算法歸因
 
-Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同，因為此模型使用統計技術將評分分配給報表或自由表格中的各個維度項目。和Analysis Workspace中的所有其他歸因模型一樣，演演算法歸因也可用於任何維度或量度。 演演算法歸因支援無限制的分段和劃分，並將100%的轉換分送給表格中的一或多個維度（也稱為「細節」歸因）。
+Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同，因為此模型使用統計技術將評分分配給報表或自由格式表格中的各個維度項目。和Analysis Workspace中的所有其他歸因模型一樣，演演算法歸因也可用於任何維度或量度。 演演算法歸因支援無限制的分段和劃分，並將100%的轉換分送給表格中的一或多個維度（也稱為「細節」歸因）。
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [演演算法歸因](https://video.tv.adobe.com/v/36205?quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [演演算法歸因](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

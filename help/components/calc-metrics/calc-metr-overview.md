@@ -5,10 +5,10 @@ title: 計算量度概觀
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '215'
+ht-degree: 99%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算量度介紹](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算量度介紹](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/introduction-to-calculated-metrics-in-customer-journey-analytics){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 計算量度的典型工作流程由下列任務組成
 
-| 工作 | 說明 |
+| 任務 | 說明 |
 | --- | --- |
 | 計劃 | 特別是對於即將正式核准的量度![圓圈中有勾號](/help/assets/icons/CheckmarkCircle.svg)，請謹慎規劃並建立您預計會經常使用的計算量度。 |
 | [建置](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) | 建置、修改和儲存計算量度。 |

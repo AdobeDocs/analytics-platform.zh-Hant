@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 產品分析
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '717'
 ht-degree: 93%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 <!-- markdownlint-enable MD034 -->
 
-![NetGrowth](/help/assets/icons/NetGrowth.svg) **[!UICONTROL 淨成長率]**&#x200B;分析可以讓您深入了解特定時期內獲得或失去使用者的速率。橫軸是時間間隔，縱軸是成長測量值。
+![NetGrowth](/help/assets/icons/NetGrowth.svg)**[!UICONTROL 淨成長率]**&#x200B;分析可以讓您深入洞察特定時期內獲得或失去使用者的速率。橫軸是時間間隔，縱軸是成長測量值。
 
 每個資料點代表淨增長，這是使用以下公式計算：
 
@@ -41,7 +41,7 @@ ht-degree: 93%
 >
 >重複使用者不會計入此計算，因為這些數字不代表使用者增加或減少。
 
->[!VIDEO](https://video.tv.adobe.com/v/3423459/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/net-growth)
 
 
 ## 使用案例
@@ -73,7 +73,7 @@ ht-degree: 93%
 
 您想要分析的日期範圍。此設定有兩個元件：
 
-* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期細度。有效選項包括每小時、每天、每週、每月和每季。相同的日期範圍可以有不同的間隔，這會影響圖表中的資料點數和表格中的欄數。例如，以每日細度查看跨越三天的分析將僅顯示三個資料點，而以每小時細度查看跨越三天的分析將顯示 72 個資料點。
+* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期顆粒度。有效選項包括每小時、每天、每週、每月和每季。相同的日期範圍可以有不同的間隔，這會影響圖表中的資料點數和表格中的欄數。例如，以每日顆粒度查看跨越三天的分析將僅顯示三個資料點，而以每小時顆粒度查看跨越三天的分析將顯示 72 個資料點。
 * **[!UICONTROL 日期]**：開始和結束日期。為方便您使用，我們提供滾動日期範圍預設和先前儲存的自訂範圍，或者您可以使用行事曆選擇器來選擇固定的日期範圍。
 
 <!-- 

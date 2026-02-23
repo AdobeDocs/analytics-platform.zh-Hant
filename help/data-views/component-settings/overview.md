@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: aa635d52007a3032d8c3f90a779d1b70213dee9e
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '3738'
+source-wordcount: '3739'
 ht-degree: 56%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 56%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件類型設定](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件類型設定](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

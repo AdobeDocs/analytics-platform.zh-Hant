@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 產品分析
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
  ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL 首次使用影響]**&#x200B;分析顯示使用者首次使用產品功能之前和之後關鍵指標的表現對比。本報告的橫軸是事件前後的相對時間間隔，縱軸則是測量所需的關鍵指標。圖表中間的垂直條表示特定使用者首次使用某項功能的第 0 天。由於使用者並不總是在同一天採用功能，並且您的功能推出可能會持續數天，因此第 0 天對每個使用者來說可能意味著不同的事情。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423494/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/first-use-impact)
 
 
 ## 使用案例
@@ -68,7 +68,7 @@ ht-degree: 100%
 
  [!UICONTROL 首次使用影響]分析中的日期選擇與其他分析不同，因為此分析是以查詢邊欄中指定的日期為中心。提供下列選項：
 
-* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期細度。有效選項包括[!UICONTROL 每日]、 [!UICONTROL 每週]、 [!UICONTROL 每月]和 [!UICONTROL 每季]。變更間隔會影響之前和之後期間可用的選項。
+* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期顆粒度。有效選項包括[!UICONTROL 每日]、 [!UICONTROL 每週]、 [!UICONTROL 每月]和 [!UICONTROL 每季]。變更間隔會影響之前和之後期間可用的選項。
 * **[!UICONTROL 前後期間]**：查詢邊欄中指定的首次使用事件前後要分析的時間量。可用選項取決於[!UICONTROL 間隔] 的選擇。
 
 <!--

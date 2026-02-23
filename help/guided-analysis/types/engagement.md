@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 產品分析
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '756'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 <!-- markdownlint-enable MD034 -->
 
 
-![EngagementGraph ](/help/assets/icons/EngagementGraph.svg)  **[!UICONTROL 參與度]**&#x200B;分析可以深入了解某個功能的使用頻率以及使用該功能的人數。多項功能互相比較時，此分析效果最佳。了解您的核心、優勢、一次性和有疑問的功能是什麼，可幫助推動投資決策。
+![EngagementGraph ](/help/assets/icons/EngagementGraph.svg)**[!UICONTROL 參與度]**&#x200B;分析可以深入了解某個功能的使用頻率以及使用該功能的人數。多項功能互相比較時，此分析效果最佳。了解您的核心、優勢、一次性和有疑問的功能是什麼，可幫助推動投資決策。
 
 標示在此視覺效果圖表最上方的功能，表示這些是參與的使用者中經常使用的功能。此視覺效果圖表右側標示的功能，表示這些是有效使用者廣泛採用的功能。功能使用次數的中位數會水平分割圖表。活躍使用者中位數百分比會垂直分割圖表。中位數是根據查詢內選取的事件來計算，而不是根據所有資料來計算。
 
@@ -33,8 +33,11 @@ ht-degree: 100%
 * 矩陣左下方的功能是您的&#x200B;**低影響力**&#x200B;功能；這些是未廣泛採用或未頻繁使用的功能。
 * 矩陣右下角的功能是您的&#x200B;**一次性**&#x200B;功能；這些是廣泛採用但使用並不頻繁的功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447478?captions=chi_hant)
+>[!BEGINSHADEBOX]
 
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [參與分析](https://video.tv.adobe.com/v/3429489/&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## 使用案例
 
@@ -79,7 +82,7 @@ ht-degree: 100%
 
 您想要分析的日期範圍。此設定有兩個元件：
 
-* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期細度。本分析是處理[!UICONTROL 間隔]的方式與處理查詢邊欄中的「[!UICONTROL 計為]」方式類似。不支援每小時的活躍使用者。
+* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期顆粒度。本分析是處理[!UICONTROL 間隔]的方式與處理查詢邊欄中的「[!UICONTROL 計為]」方式類似。不支援每小時的活躍使用者。
 * **[!UICONTROL 日期]**：開始和結束日期。為方便您使用，我們提供滾動日期範圍預設和先前儲存的自訂範圍，或者您可以使用行事曆選擇器來選擇固定的日期範圍。
 
 <!--
