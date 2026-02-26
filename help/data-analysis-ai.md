@@ -5,7 +5,7 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: e1f7245a6c9bf6e36a49edafbcbb0e1005bc6e5b
+source-git-commit: 684f7e95e872ed3cc56a12725dd63459ed488ecc
 workflow-type: tm+mt
 source-wordcount: '2548'
 ht-degree: 89%
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 >[!AVAILABILITY]
 >
->符合資格的客戶可以在限定時間內使用 Data Insights 代理。在 2026 年 2 月 28 日以前皆可存取 Data Insights 代理。若在此日期後仍要繼續不間斷地使用 Data Insights 代理，請聯絡您的 Adobe 客戶代表，了解有關 Adobe Experience Platform Agent Orchestrator 的更多資訊。
+>符合資格的客戶可以在限定時間內使用 Data Insights 代理。Data Insights Agent的存取權將於2026年3月31日之前提供。 若在此日期後仍要繼續不間斷地使用 Data Insights 代理，請聯絡您的 Adobe 客戶代表，了解有關 Adobe Experience Platform Agent Orchestrator 的更多資訊。
 
 Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/help/ai-assistant.md)存取，此助理是生成式 AI 對話代理程式，能迅速有效地回答您的資料相關問題。它會使用您資料檢視與實際資料的元件，在Analysis Workspace中建置相關的視覺效果。
 
@@ -158,7 +158,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」。*
 
-**回覆：**&#x200B;**[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
+**回覆：****[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
 
 ![長條圖](/help/assets/ai-asst-result4.png)
 
@@ -178,7 +178,7 @@ Adobe Experience Platform Agent Orchestrator 可讓您在多個 Adobe Experience
 
 Agent Orchestrator 會解讀您的請求、判斷需要哪些專門的代理，並協調代理提供適當的回答。它會追蹤多輪互動中的上下文，讓您可以自然地在先前的查詢基礎上繼續提問。
 
-如需詳細資訊，請參閱 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/tw/products/experience-platform/agent-orchestrator.html)。
+如需詳細資訊，請參閱 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html)。
 
 ## 資料視覺效果提示範例
 
@@ -268,7 +268,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[!MORELIKETHIS]
 >
 >[元件設定](/help/data-views/component-settings/overview.md)
->[資料字典 &#x200B;](/help/components/data-dictionary/data-dictionary-overview.md)
+>[資料字典 ](/help/components/data-dictionary/data-dictionary-overview.md)
 >[核准計算量度](/help/components/calc-metrics/cm-workflow/cm-approving.md)
 >[共用區段](/help/components/segments/seg-share.md)
 >
