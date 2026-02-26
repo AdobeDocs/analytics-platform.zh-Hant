@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
+source-git-commit: c6ccbdf89c51deef33b562a053b9c3b4bc626497
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 5%
@@ -48,7 +48,7 @@ ht-degree: 5%
        AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
      ```
 
-     其中：
+     其中:
 
       * `{PERSISTENT_ID_FIELD}`是永久識別碼的欄位。 例如：`identityMap.ecid[0]`。
       * `{DATASET_TABLE_NAME}`是事件資料集的資料表名稱。
@@ -75,7 +75,7 @@ ht-degree: 5%
           AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
         ```
 
-        其中：
+        其中:
 
          * `{PERSON_ID_FIELD}`是人員ID的欄位。 例如：`identityMap.crmId[0]`。
          * `{DATASET_TABLE_NAME}`是事件資料集的資料表名稱。
@@ -91,7 +91,7 @@ ht-degree: 5%
 >id="connection_changeto_identitygraph"
 >title="身分識別圖的變更"
 >abstract="在使用身分識別圖進行資料拼接之前，請確定已完成身分識別圖的設定。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/gbs" text="圖表型拼接"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="圖表型拼接"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
@@ -112,14 +112,14 @@ ht-degree: 5%
 
    如果您為永久ID選取&#x200B;**[!UICONTROL 身分對應]**，則必須選取名稱空間。 您有兩個選項：
 
-   * 啟用&#x200B;**[!UICONTROL 使用主要身分名稱空間]**&#x200B;以使用主要身分名稱空間。
+   * 選取&#x200B;**[!UICONTROL 使用主要身分名稱空間]**&#x200B;以使用主要身分名稱空間。
    * 從&#x200B;**[!UICONTROL 名稱空間]**&#x200B;下拉式功能表中選取名稱空間。
 
 1. 從&#x200B;**[!UICONTROL 人員ID]**&#x200B;下拉式功能表中選取人員ID。
 
    如果您為人員ID選取&#x200B;**[!UICONTROL 身分對應]**，則必須選取名稱空間。 您有兩個選項：
 
-   * 啟用&#x200B;**[!UICONTROL 使用主要身分名稱空間]**&#x200B;以使用主要身分名稱空間。
+   * 選取&#x200B;**[!UICONTROL 使用主要身分名稱空間]**&#x200B;以使用主要身分名稱空間。
    * 從&#x200B;**[!UICONTROL 名稱空間]**&#x200B;下拉式功能表中選取名稱空間。
 
 
