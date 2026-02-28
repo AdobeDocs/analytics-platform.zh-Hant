@@ -30,8 +30,8 @@ ht-degree: 100%
 ![本節所述的實施步驟流程。](../assets/cca-architecture.png)
 
 1. 為要擷取的資料[建立結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
-1. 為要擷取的資料[建立資料集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)。
-1. [將資料攝取至 Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html)：
+1. 為要擷取的資料[建立資料集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hant)。
+1. [將資料攝取至 Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=zh-Hant)：
    1. 透過 Edge Network 或 Analytics 來源連接器從網站或行動應用程式取得以事件為主的資料 ![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg)。
    2. 設定檔資料 ![設定檔](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (例如來自 CRM 系統、呼叫中心應用程式、忠誠度應用程式)。
    3. 查詢資料 ![查詢](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (例如來自產品資訊系統的產品名稱、類別)。
