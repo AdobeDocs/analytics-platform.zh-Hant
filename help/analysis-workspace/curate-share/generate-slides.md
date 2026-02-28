@@ -8,7 +8,7 @@ exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
 source-git-commit: 968fef4fa6a967c9654f594e662bc9bbd7ae2ab4
 workflow-type: tm+mt
 source-wordcount: '1698'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -73,14 +73,14 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
 **區段分隔線：**&#x200B;以適當放置和命名的區段分隔線來劃分深入分析。
 
-## 根據Workspace專案產生.pptx簡報
+## 根據 Workspace 專案產生 .pptx 簡報
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-powerpoint-include-visualizations"
->title="包含的面板和視覺效果"
->abstract="選擇要包含在簡報中的面板和視覺效果。 您最多可以包含50個視覺效果。"
+>title="納入的面板和視覺化圖表"
+>abstract="選擇要納入簡報中的面板和視覺化圖表。您可以納入最多 50 個視覺化圖表。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -89,7 +89,7 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 >[!CONTEXTUALHELP]
 >id="cja-presentation-emphasized-components"
 >title="強調元件"
->abstract="從您要在簡報中強調的視覺效果中選擇最多5個量度和5個維度。 您選擇的量度會以斜體顯示、維度會以粗體顯示，而維度專案則會以對比顏色顯示。"
+>abstract="從您的視覺化圖表中選擇簡報內要強調的最多 5 個量度和 5 個維度。您選擇的量度會以斜體顯示、維度會以粗體顯示，而維度項目則會以對比顏色顯示。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -107,7 +107,7 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
    |---------|----------|
    | **[!UICONTROL 封面標題]** | 指定簡報的標題。 此標題會顯示在簡報的標題投影片上。 |
    | **[!UICONTROL 包含簡報者名稱]** | 指定簡報者的名稱。 此名稱會出現在簡報標題投影片上，位於封面標題下方。 |
-   | **[!UICONTROL 包含的面板和視覺效果]** | 選擇要包含在簡報中的面板和視覺效果。 您最多可以包含50個視覺效果。<p>如果視覺效果變暗，後面會接著文字&#x200B;**[!UICONTROL （不支援）]**&#x200B;或&#x200B;**[!UICONTROL （受限制的資料）]**。</p><ul><li>**不支援**：支援大部分的面板和視覺效果。 如需有關不支援的面板和視覺效果的資訊，請參閱[不支援的專案元素和功能](#unsupported-project-elements-and-features)。</li><li>**受限制的資料**：視覺效果中包含的元件受到組織強制執行的資料治理原則限制，無法匯出。 請連絡您的系統管理員，檢視哪些元件受到限制無法匯出，然後在產生幻燈片之前移除受限制的元件。</li></ul> |
+   | **[!UICONTROL 包含的面板和視覺效果]** | 選擇要包含在簡報中的面板和視覺效果。 您可以納入最多 50 個視覺化圖表。<p>如果視覺效果變暗，後面會接著文字&#x200B;**[!UICONTROL （不支援）]**&#x200B;或&#x200B;**[!UICONTROL （受限制的資料）]**。</p><ul><li>**不支援**：支援大部分的面板和視覺效果。 如需有關不支援的面板和視覺效果的資訊，請參閱[不支援的專案元素和功能](#unsupported-project-elements-and-features)。</li><li>**受限制的資料**：視覺效果中包含的元件受到組織強制執行的資料治理原則限制，無法匯出。 請連絡您的系統管理員，檢視哪些元件受到限制無法匯出，然後在產生幻燈片之前移除受限制的元件。</li></ul> |
    | **[!UICONTROL 強調元件]** | 從視覺效果中選擇您要在簡報中強調的量度和維度。 建立資料故事的主題和總體敘述時，您選擇的元件排名較高，並獲得更多權重。 <p>未套用強調時，元件在簡報中顯示如下：<ul><li>**度量和維度：**&#x200B;斜體</li><li>**Dimension專案：**&#x200B;引號</li></ul></p><p>當套用強調時，元件在簡報中顯示如下：</p><ul><li>**量度和維度：**&#x200B;斜體與粗體</li><li>**Dimension專案：**&#x200B;強調對應維度時為粗體<p>在圖表中反白顯示維度專案時，也會將顏色套用至維度專案。</p></li></ul> |
 
    <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 

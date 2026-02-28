@@ -8,7 +8,7 @@ role: User, Admin
 source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '2030'
-ht-degree: 20%
+ht-degree: 25%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-export-prefix"
 >title="前置詞"
->abstract="容器中要放置資料的根資料夾。 指定靜態資料夾名稱，然後在名稱后面加上斜線以建立資料夾。 例如， `folder_name/`"
+>abstract="您希望放置資料的容器，其內的根資料夾。指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。例如， `folder_name/`"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,7 +28,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-export-file-name"
 >title="檔案名稱和路徑"
->abstract="指定動態自訂檔案名稱，以用於傳送至此位置的自動匯出。 您也可以在檔案名稱前面加上動態自訂檔案路徑。 &lt;br\>在檔案名稱和路徑中使用變數，使其成為動態變數。 &lt;br\>例如，若您指定`${yyyy}/${mm}/${dd}/my-report-${instance_id}-${idx}`，2026年1月15日自動傳送至此目的地的匯出會有以下檔案路徑和名稱： `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` &lt;br\>請按一下下列連結以取得可用變數清單。"
+>abstract="指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。您也可以在檔案名稱前面加上動態自訂檔案路徑。&lt;br\>在檔案名稱和路徑中使用變數，使其成為動態形式。&lt;br\>例如，若您指定 `${yyyy}/${mm}/${dd}/my-report-${instance_id}-${idx}`，2026 年 1 月 15 日自動傳送至此目的地的匯出會有以下檔案路徑和名稱：`[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` &lt;br\>按一下下方的連結，取得可用變數清單。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -102,15 +102,15 @@ ht-degree: 20%
 
 1. 您現在可以將資料從Analysis Workspace匯出至您設定的帳戶和位置。 如需如何將資料匯出至雲端的詳細資訊，請參閱[將專案資料匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。
 
-1. 在AEP資料登陸區域中存取資料的最簡單方式，是使用Microsoft Azure儲存體總管。 此工具與設定[AEP資料登陸區域帳戶](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)的指示中所使用的工具相同。
+1. 在AEP Data Landing Zone中存取資料的最簡單方式，就是使用Microsoft Azure Storage Explorer。 此工具與設定[AEP資料登陸區域帳戶](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)的指示中所使用的工具相同。
 
-   1. 開啟[Microsoft Azure儲存體總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)。
+   1. 開啟[Microsoft Azure儲存總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)。
 
-   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***。
+   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***。
 
       >[!NOTE]
       >
-      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**&#x200B;是Azure儲存體總管提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
+      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**是Azure Storage Explorer提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
 
 
       ![存取Azure儲存體總管中的檔案](assets/azure-storage-explorer-access.png)

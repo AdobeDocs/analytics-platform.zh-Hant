@@ -8,7 +8,7 @@ exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 source-git-commit: c6ccbdf89c51deef33b562a053b9c3b4bc626497
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
 >title="個人 ID"
->abstract="從可用身分中選取人員ID （人員的唯一識別碼）。 如果您要使用圖表式拼接，請選取&#x200B;**[!UICONTROL 身分圖表]**。"
+>abstract="從可供使用的身分識別中選取人員 ID (人員的唯一識別碼)。如果您要使用圖表型拼接，請選取「**[!UICONTROL 身分識別圖]**」。"
 
 若要啟用拼接，請在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊的事件資料集區段中：
 
