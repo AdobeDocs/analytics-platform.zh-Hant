@@ -4,7 +4,7 @@ title: 列設定
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 84%
@@ -12,13 +12,6 @@ ht-degree: 84%
 ---
 
 # 列設定
-
-
->[!BEGINSHADEBOX]
-
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列和欄設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}示範影片。
-
->[!ENDSHADEBOX]
 
 列設定依您拖放至表格中的元件而異。若要存取資料表資料列設定，請選取每個物件內維度、區段、量度、時段或劃分旁的![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**。
 
@@ -29,6 +22,14 @@ ht-degree: 84%
 | **[!UICONTROL 依位置劃分]** | 此設定預設為停用，且劃分會固定至靜態列項目。例如，想像您根據行銷管道劃分前 3 個頁面維度項目 (「首頁」、「搜尋結果」、「結帳」)。接著，您離開專案，兩週後再回來。再次開啟專案時，前 3 個頁面已變更，現在「首頁」、「搜尋結果」和「結帳」是前 4 到 6 個頁面。即使它們目前位於第 4 至 6 列，您的行銷管道劃分根據預設仍會顯示在「首頁」、「搜尋結果」和「結帳」中。<br>相反地，**根據位置劃分**&#x200B;會不斷劃分前 3 個項目，無論前 3 個項目是什麼。請參考範例，當您重啟專案時，行銷管道劃分將與表格中的前 3 頁面相連結。而不是目前位於第 4 至 6 列的首頁、搜尋結果和結帳。 |
 | **[!UICONTROL 百分比]** | **依欄計算百分比** (預設)：儲存格中的百分比是根據欄位總計計算。<br>**依列計算百分比**：會跨列計算儲存格百分比，而非以全部總計作為分母整欄計算。此計算在趨勢分析百分比相當實用。 |
 | **[!UICONTROL 欄總計]** | 這些設定僅適用於[靜態列](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。<br> **顯示為目前各列的總和**&#x200B;會顯示表格中的用戶端列數加總，因此總計&#x200B;*不會*&#x200B;刪除造訪次數或人數等重複量度。<br> **顯示總計**&#x200B;會顯示伺服器端的加總，表示刪除重複量度的總計。 |
+
+>[!BEGINSHADEBOX]
+
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列和欄設定](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}示範影片。
+
+{{videoaa}}
+
+>[!ENDSHADEBOX]
 
 ## 變更列計數
 
@@ -90,4 +91,4 @@ ht-degree: 84%
 
 ## 變更列高
 
-您可以將專案的[檢視密度](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。
+您可以將專案的[檢視密度](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。

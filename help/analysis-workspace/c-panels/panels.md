@@ -4,9 +4,9 @@ title: 面板概觀
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2205'
 ht-degree: 99%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 99%
 
 ## 資料視圖
 
-每個面板都與一個[資料視圖](/help/data-views/data-views.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *資料視圖名稱&#x200B;*]**&#x200B;識別 (在面板右上方的下拉式選單中)。
+每個面板都與一個[資料視圖](/help/data-views/data-views.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *資料視圖名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
 
 當您建立空白 Workspace 專案時，初始面板的預設資料視圖是您上次在 Customer Journey Analytics 中使用的資料視圖。
 
@@ -131,7 +131,7 @@ ht-degree: 99%
      您可以選取括號中的文字 (例如&#x200B;**[!UICONTROL 固定開始 - 每天遞延]**) 以延長面板並指定&#x200B;**[!UICONTROL 開始]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;的詳細資訊。
 
       1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
-      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]**&#x200B;**[!UICONTROL 今年]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
+      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]****[!UICONTROL 今年]****[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
          * 選取目前的值。例如&#x200B;**[!UICONTROL 今年]**。
          * 選取一個值進行其他計算。例如，**[!UICONTROL 加]**。
          * 當您指定其他計算時，請指定一個值。例如 `1`。
@@ -165,7 +165,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉式區段](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉式區段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}的示範影片。
 
 {{videoaa}}
 
@@ -223,6 +223,12 @@ ht-degree: 99%
 請注意動態下拉式區段不適用於量度、區段或日期範圍。
 
 動態下拉式區段提供與靜態下拉式區段相同的內容選單選項。
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動態下拉式區段](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 
 ## 內容選單

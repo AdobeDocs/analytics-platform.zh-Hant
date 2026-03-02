@@ -4,10 +4,10 @@ title: 折線圖
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+source-wordcount: '540'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的折線圖視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[折線圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/line)_。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的折線圖視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[折線圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/line)_。_
 
 >[!ENDSHADEBOX]
 
@@ -57,6 +57,13 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 | **[!UICONTROL 乘冪]** | 建立曲線，比較以特定速率增加的測量之資料集時相當實用。如果您的資料包含零或負值，則不應使用此選項。方程式：`y = a * x^b` |
 | **[!UICONTROL 二次方]** | 找出拋物線形 (向上或向下凹入) 的資料集最合適的線條。方程式：`y = a + b * x + c * x^2` |
 | **[!UICONTROL 移動平均]** | 根據一組平均值建立平滑趨勢線。移動平均也稱為滾動平均，會使用特定數量的資料點 (取決於[!UICONTROL 顆粒度]的選取項目)，並將平均值當做線條中的某個點。例如包括 7 天移動平均值或 4 週移動平均值。 |
+
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [行](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/line-visualization){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 >[!MORELIKETHIS]
 >

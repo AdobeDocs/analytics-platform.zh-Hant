@@ -4,10 +4,10 @@ description: 瞭解演演算法歸因模型的詳細資料。
 feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 42%
+source-wordcount: '270'
+ht-degree: 44%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 42%
 
 Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同，因為此模型使用統計技術將評分分配給報表或自由格式表格中的各個維度項目。和Analysis Workspace中的所有其他歸因模型一樣，演演算法歸因也可用於任何維度或量度。 演演算法歸因支援無限制的分段和劃分，並將100%的轉換分送給表格中的一或多個維度（也稱為「細節」歸因）。
 
+<!-- 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [演演算法歸因](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"}。
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attribution](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
+-->
 
 用於歸因的演算法以合作賽局理論中的 Harsanyi 利益為基礎。Harsanyi Dividend是Shapley值解法（以諾貝爾經濟學獎獲得者Lloyd Shapley命名）的泛論，用於分配玩家之間的評分，對結果的貢獻不相等。
 

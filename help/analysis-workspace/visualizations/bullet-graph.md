@@ -4,7 +4,7 @@ title: 項目符號
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 90%
@@ -33,7 +33,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的項目符號視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[項目符號](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)_。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的項目符號視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[項目符號](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)_。_
 
 >[!ENDSHADEBOX]
 
@@ -45,9 +45,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [項目符號圖標視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"}的示範影片。
-
-{{videoaa}}
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [項目符號圖標視覺效果](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bullet-graph-visualizations){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -58,7 +56,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 | 設定 | 說明 |
 |---|---|
-| **[!UICONTROL 項目圖表選項]** | 在[!UICONTROL 項目圖表]視覺效果中的&#x200B;**[!UICONTROL 高目標]**、**[!UICONTROL 中目標]**&#x200B;及&#x200B;**[!UICONTROL 低目標]**&#x200B;的指定值。<br/>**[!UICONTROL 高目標&#x200B;]**&#x200B;是您的主要目標。**[!UICONTROL &#x200B;低目標&#x200B;]**&#x200B;和&#x200B;**[!UICONTROL &#x200B;中目標&#x200B;]**&#x200B;會建立低於高目標的範圍。注意：當勾選「**[!UICONTROL &#x200B;百分比&#x200B;]**」選項時，請以整數形式輸入目標。例如：如果您的目標是百分之二十，輸入 `20`。 |
+| **[!UICONTROL 項目圖表選項]** | 在[!UICONTROL 項目圖表]視覺效果中的&#x200B;**[!UICONTROL 高目標]**、**[!UICONTROL 中目標]**&#x200B;及&#x200B;**[!UICONTROL 低目標]**&#x200B;的指定值。<br/>**[!UICONTROL 高目標&#x200B;]**是您的主要目標。**[!UICONTROL &#x200B;低目標&#x200B;]**和**[!UICONTROL &#x200B;中目標&#x200B;]**會建立低於高目標的範圍。注意：當勾選「**[!UICONTROL &#x200B;百分比&#x200B;]**」選項時，請以整數形式輸入目標。例如：如果您的目標是百分之二十，輸入 `20`。 |
 
 >[!MORELIKETHIS]
 >
