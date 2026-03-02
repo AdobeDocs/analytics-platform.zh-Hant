@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: c6ccbdf89c51deef33b562a053b9c3b4bc626497
+source-git-commit: a220eaf24ff877537f86027e3d93ec30772438e5
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 8%
+source-wordcount: '1142'
+ht-degree: 7%
 
 ---
 
@@ -97,6 +97,35 @@ ht-degree: 8%
 >id="connection_stitching_personid"
 >title="個人 ID"
 >abstract="從可供使用的身分識別中選取人員 ID (人員的唯一識別碼)。如果您要使用圖表型拼接，請選取「**[!UICONTROL 身分識別圖]**」。"
+
+>[!CONTEXTUALHELP]
+>id="connection_stitchingmetrics"
+>title="拼接量度"
+>abstract="拼接量度是使用過去7天的資料範例集來計算（不包括今天的資料）。"
+
+>[!CONTEXTUALHELP]
+>id="connection_stitchingmetrics_gbs_personidcoverage"
+>title="個人ID涵蓋範圍"
+>abstract="在拚接程式（即時和重播）期間用於識別的所選人員ID的涵蓋範圍。<br/>為了達到最佳拼接結果，每個永久ID的身分圖表中都應有（永久ID、人員ID）關係。"
+
+>[!CONTEXTUALHELP]
+>id="connection_stitchingmetrics_fbs_personidcoverage"
+>title="個人ID涵蓋範圍"
+>abstract="在拚接程式（即時和重播）期間用於識別的所選人員ID的涵蓋範圍。<br/>為了達到最佳拼接結果，每個永久ID （裝置資訊）至少應在一個事件中傳送個人ID （使用者資訊）。"
+
+>[!CONTEXTUALHELP]
+>id="connection_stitchingmetrics_persistentidcoverage"
+>title="永久ID涵蓋範圍"
+>abstract="此值用於在拼接過程（即時和重播）期間進行識別，以備無法偵測到人員ID值時使用。 <br/>資料中會捨棄沒有永久ID和人員ID的事件。 為獲得最佳拼接結果，所有事件上都應存在永久ID。"
+
+
+>[!CONTEXTUALHELP]
+>id="connection_stitchingmetrics_badids"
+>title="ID錯誤"
+>abstract="錯誤ID是嚴重影響報表資料的ID值。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID錯誤"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="拼接和錯誤ID"
+
 
 若要啟用拼接，請在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊的事件資料集區段中：
 
