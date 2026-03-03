@@ -28,7 +28,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="cja-export-file-name"
 >title="檔案名稱和路徑"
->abstract="指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。您也可以在檔案名稱前面加上動態自訂檔案路徑。<br/>在檔案名稱和路徑中使用變數，使其成為動態的。 <br/>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`，2026年1月15日自動傳送至此目的地的匯出會有下列檔案路徑和名稱： `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` <br/>按一下下列連結以取得可用變數清單。"
+>abstract="指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。 您也可以在檔案名稱前面加上動態自訂檔案路徑。<br/>在檔案名稱和路徑中使用變數，使其成為動態的。 <br/>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`，2026年1月15日自動傳送至此目的地的匯出會有下列檔案路徑和名稱： `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` <br/>按一下下列連結以取得可用變數清單。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,7 +95,7 @@ ht-degree: 21%
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。例如， `folder_name/` |
-   | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p><p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
+   | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。 您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p><p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
 
@@ -107,11 +107,11 @@ ht-degree: 21%
 
    1. 開啟[Microsoft Azure儲存總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)。
 
-   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***。
+   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***。
 
       >[!NOTE]
       >
-      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**&#x200B;是Azure Storage Explorer提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
+      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**是Azure Storage Explorer提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
 
 
       ![存取Azure儲存體總管中的檔案](assets/azure-storage-explorer-access.png)
@@ -132,7 +132,7 @@ ht-degree: 21%
    |---------|----------|
    | [!UICONTROL **儲存貯體**] | 您想要將Customer Journey Analytics資料傳送至的Amazon S3帳戶中的貯體。 <p>請確定Adobe提供的使用者ARN具有`S3:PutObject`許可權，才能將檔案上傳至此儲存貯體。 </p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS檔案中提供完整的命名規則清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。例如，folder_name/ |
-   | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p><p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
+   | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。 您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p><p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
 
@@ -154,7 +154,7 @@ ht-degree: 21%
    |---------|----------|
    | [!UICONTROL **儲存貯體**] | 您想要將Customer Journey Analytics資料傳送至的GCP帳戶中的貯體。 <p>確定您已授予Adobe提供之主體的`roles/storage.objectCreator`許可權。 ([設定Google Cloud Platform帳戶](/help/components/exports/cloud-export-accounts.md)時提供主體。) <p>有關授予權限的資訊，請參閱 Google Cloud 文件中的「[新增主體至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)」。</p><p>如果您的組織使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)僅允許在允許清單中的 Google Cloud Platform 帳戶，則您需要以下 Adobe 擁有的 Google Cloud Platform 組織 ID： <ul><li>`DISPLAY_NAME`：`adobe.com`</li><li>`ID`：`178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`：`C02jo8puj`</li></ul> </p> |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。例如，folder_name/ |
-   | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p><p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
+   | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。 您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p><p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
 
@@ -176,7 +176,7 @@ ht-degree: 21%
    |---------|----------|
    | [!UICONTROL **容器名稱**] | 您指定要將Customer Journey Analytics資料傳送至何處的帳戶中的容器。 |
    | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。例如， `folder_name/`<p>確保設定 Azure SAS 帳戶時，在 Key Vault 密碼名稱欄位中指定的 SAS 權杖儲存體擁有`Write`權限。這樣可讓 SAS 權杖在您的 Azure 容器中建立檔案。 <p>如果您希望 SAS 權杖也覆寫檔案，請確保 SAS 權杖儲存體擁有`Delete`權限。</p><p>如需更多資訊，請參閱 Azure Blob 儲存體文件中的 [Blob 儲存資源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)。</p> |
-   | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p><p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
+   | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。 您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p><p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
 
@@ -198,7 +198,7 @@ ht-degree: 21%
    |---------|----------|
    | [!UICONTROL **容器**] | 您指定要將Customer Journey Analytics資料傳送至何處的帳戶中的容器。 確保您授予權限可上傳檔案至先前已建立的 Azure 應用程式。 |
    | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。例如， `folder_name/`<p>確保設定 Azure RBAC 帳戶時，您所指定的應用程式 ID 已獲得 `Storage Blob Data Contributor` 角色授權，以便該角色可存取容器 (資料夾)。</p> <p>若要了解更多資訊，請參閱「[Azure 內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)」。</p> |
-   | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p> <p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
+   | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。 您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p> <p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
    | [!UICONTROL **帳戶**] | Azure 儲存體帳戶。 |
 
    {style="table-layout:auto"}

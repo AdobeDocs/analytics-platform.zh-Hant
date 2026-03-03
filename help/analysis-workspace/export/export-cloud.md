@@ -76,7 +76,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="export-manifest"
 >title="包括資訊清單檔案"
->abstract="選取後，任何成功的匯出傳遞都會包含一份資訊清單檔案。您可以利用資訊清單檔案來確認所有文件均已成功傳遞。"
+>abstract="選取後，任何成功的匯出傳遞都會包含一份資訊清單檔案。 您可以利用資訊清單檔案來確認所有文件均已成功傳遞。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -85,7 +85,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="cja-export-schedule"
 >title="排程"
->abstract="選取匯出頻率。選擇「立即傳送」(一次性)，立即啟動匯出。排程匯出會在您指定的日期和時間啟動。"
+>abstract="選取匯出頻率。選擇「立即傳送」(一次性)，立即啟動匯出。 排程匯出會在您指定的日期和時間啟動。"
 
 <!-- markdownlint-enable MD034 -->
 
