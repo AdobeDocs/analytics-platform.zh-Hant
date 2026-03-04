@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 7d78b955b26d2fcc166d277f9ddf220ff2e03d36
+source-git-commit: 1744d625f2f18202fb7096b0fd904ee26399db34
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1150'
 ht-degree: 7%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="拼接量度"
->abstract="拼接量度是使用範例資料集計算，資料來自過去7天內擷取的任何資料。<br>這通常與範例資料不同。"
+>abstract="拼接量度是使用範例資料集計算，資料來自過去7天內擷取的任何資料。<br>這通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;資料表中使用的範例資料不同。"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -123,7 +123,7 @@ ht-degree: 7%
 >id="connection_stitchingmetrics_badids"
 >title="ID錯誤"
 >abstract="錯誤ID是嚴重影響報表資料的ID值。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID錯誤"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID錯誤"
 
 
 若要啟用拼接，請在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊的事件資料集區段中：
