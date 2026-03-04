@@ -4,7 +4,7 @@ description: 瞭解如何在自由格式表格中包含多個維度
 feature: Visualizations
 role: User
 exl-id: 66ebb4fc-feb2-4fa7-a107-37508cca4748
-source-git-commit: 14718476695dcf121c94ba4cb8b2c39e5874342d
+source-git-commit: 39af20da14a5fb96fe01db31af5fc37b7e4aee16
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 6%
@@ -12,8 +12,6 @@ ht-degree: 6%
 ---
 
 # 在自由格式表格中包含多個維度欄
-
-{{release-limited-testing}}
 
 您最多可以在自由表格中包含5個維度欄，讓您並排檢視多個維度專案。 每一列維度項目的行為都像是單一串連的維度項目。
 

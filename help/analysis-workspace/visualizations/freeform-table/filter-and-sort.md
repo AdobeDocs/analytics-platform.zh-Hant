@@ -4,7 +4,7 @@ title: 篩選與排序
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 39af20da14a5fb96fe01db31af5fc37b7e4aee16
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 47%
@@ -148,8 +148,6 @@ Note: this option does not seem to work. AN-338422
    將排序套用至欄時，排序圖示保持可見。 箭頭表示資料的排序方式（![排序](/help/assets/icons/SortOrderUp.svg)為遞增或![排序](/help/assets/icons/SortOrderDown.svg)為遞減）。
 
 ### 依多個欄排序表格（進階排序）
-
-{{release-limited-testing-section}}
 
 #### 將排序套用至多個欄
 
