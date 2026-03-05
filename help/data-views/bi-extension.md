@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: 79b3ca663af6c383eed7ec81e9c430855669d19b
 workflow-type: tm+mt
-source-wordcount: '3249'
-ht-degree: 95%
+source-wordcount: '3462'
+ht-degree: 89%
 
 ---
 
@@ -48,8 +48,31 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 若要使用不會過期的認證：
 
-* 在Experience Platform[中建立](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials)不會到期的認證。
-* 依照[到期認證](#Expiring-credentials)中提及的步驟來授與未到期認證的存取權。
+1. 在Experience Platform[中建立](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#non-expiring-credentials)不會到期的認證。 如果您要使用現有的不會到期的認證，請確定這些認證已[移轉至OAuth](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#migrate-credentials)。
+
+1. 請確定Customer Journey Analytics產品和產品設定檔可以使用不會到期的認證。 您必須是組織的系統管理員才能執行下列步驟。
+   1. 從&#x200B;**[!UICONTROL 應用程式]**&#x200B;中選取![Admin Console](/help/assets/icons/Apps.svg)。
+   1. 確認不會到期的認證已新增至API認證清單。
+      1. 從頂端功能表選取&#x200B;**[!UICONTROL 使用者]**。
+      1. 從左側邊欄選取&#x200B;**[!UICONTROL API認證]**。
+      1. 新的或移轉的不會到期的認證應該列出，並且以&#x200B;**[!UICONTROL EQS-...]**&#x200B;開頭。
+
+      1. 確保不會到期的API認證可以存取Customer Journey Analytics產品和設定檔。
+
+         1. 選取![EQS-...](/help/assets/icons/ProductDetails.svg)不會到期的API認證的&#x200B;**[!UICONTROL 產品詳細資料]**。
+         1. 從&#x200B;**[!UICONTROL EQS-...]**&#x200B;產品詳細資料窗格中，選取![更多](/help/assets/icons/More.svg)並選取&#x200B;**[!UICONTROL 編輯API認證]**。
+         1. 在&#x200B;**[!UICONTROL 編輯API認證]**&#x200B;對話方塊中，驗證&#x200B;**[!UICONTROL 指派的設定檔]**。 如果未列出Customer Journey Analytics產品：
+            1. 選取![新增](/help/assets/icons/Add.svg)並選取&#x200B;**[!UICONTROL Customer Journey Analytics]**。
+            1. 選取一或多個產品設定檔，其中包含您要提供查詢服務和BI擴充功能存取許可權的使用者。
+            1. 選取&#x200B;**[!UICONTROL 「套用」]**。
+
+1. 驗證您在Experience Platform查詢服務中是否看到不會到期的API認證。
+
+   1. 從&#x200B;**[!UICONTROL 應用程式]**&#x200B;中選取![Experience Platform](/help/assets/icons/Apps.svg)。
+   1. 從左側邊欄選取&#x200B;**[!UICONTROL 查詢]**。
+   1. 從頂端功能表選取&#x200B;**[!UICONTROL 認證]**。
+   1. 您應該會使用您在步驟1提供的名稱，在&#x200B;**[!UICONTROL 不會到期的認證]**&#x200B;清單中看到不會到期的API認證。
+
 
 若要了解更多資訊，請參閱「[Customer Journey 存取控制](../technotes/access-control.md)」，特別是[產品管理員附加權限](../technotes/access-control.md#product-admin-additional-permissions)和 [Admin Console 中的 Customer Journey Analytics 權限](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console)。
 
@@ -87,7 +110,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 從`cja`資料庫&#x200B;**[!UICONTROL 下拉式功能表的資料庫清單中，選取您沙箱的]**&#x200B;資料庫。 例如 `prod:cja`。
 
-   1. 要複製命令字串，請使用「![複製](assets/Smock_Copy_18_N.svg)」(在「**[!UICONTROL **&#x200B; PSQL 指令&#x200B;**]**」區段)。
+   1. 要複製命令字串，請使用「![複製](assets/Smock_Copy_18_N.svg)」(在「**[!UICONTROL ** PSQL 指令&#x200B;**]**」區段)。
 
 1. 開啟命令或終端機視窗。
 
@@ -120,9 +143,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 在左側邊欄中選取「**[!UICONTROL 更多...]**」。
 
-   1. 在「**取得資料**」畫面中，搜尋 `PostgresSQL`，並從清單中選取「**[!UICONTROL **&#x200B; PostgresSQL 資料庫&#x200B;**]**」。
+   1. 在「**取得資料**」畫面中，搜尋 `PostgresSQL`，並從清單中選取「**[!UICONTROL ** PostgresSQL 資料庫&#x200B;**]**」。
 
-   1. 在「**[!UICONTROL **&#x200B; PostgressSQL 資料庫&#x200B;**]**」對話方塊中：
+   1. 在「**[!UICONTROL ** PostgressSQL 資料庫&#x200B;**]**」對話方塊中：
 
       1. 將「**[!UICONTROL **&#x200B;主機&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;伺服器&#x200B;**]**」文字欄位。
 
@@ -161,7 +184,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 在左側邊欄，選取「**[!UICONTROL **&#x200B;更多&#x200B;**]**」(從「**[!UICONTROL **&#x200B;至伺服器&#x200B;**]**」)。
 
-   1. 從清單中選取「**[!UICONTROL **&#x200B; PostgresSQL &#x200B;**]**」。
+   1. 從清單中選取「**[!UICONTROL ** PostgresSQL **]**」。
 
    1. 在「[!UICONTROL PostgresSQL]」對話方塊中：
 
@@ -187,7 +210,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    現在您可以使用資料檢視表格中的資料建立報告和視覺化。
 
-   請參閱「[將 Tableau 連線到 Query Service &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/tableau)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
+   請參閱「[將 Tableau 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/tableau)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
 
 +++
 
@@ -214,7 +237,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    現在您可以使用資料檢視表格中的資料建立報告和視覺化。
 
-   請參閱「[將 Looker 連線到 Query Service &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/looker)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
+   請參閱「[將 Looker 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/looker)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
 
 +++
 
@@ -262,7 +285,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    成功後，您可以使用資料來建立報告和視覺效果。
 
-   請參閱「[將 RStudio 連線到 Query Service &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/rstudio)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」，了解詳細範例 (即使用 RPostgres 套件)。
+   請參閱「[將 RStudio 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/rstudio)」以了解更多資訊。另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」，了解詳細範例 (即使用 RPostgres 套件)。
 
 +++
 
