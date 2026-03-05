@@ -1,63 +1,92 @@
 ---
-title: Content Analytics 報告
-description: 如何在 Content Analytics 製作報告
+title: Content Analytics報告
+description: 瞭解如何使用自由表格、長條圖和散佈圖等視覺效果報告Content Analytics。
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 93ef16462842a819c3b980d557abaaf0cd547b6c
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 100%
+source-wordcount: '1473'
+ht-degree: 77%
 
 ---
 
 # Content Analytics 報告概觀
 
-您可以在 [Analysis Workspace 中製作報告、執行分析並獲得有關 Content Analytics 的洞察](/help/analysis-workspace/home.md)。特定的 Workspace [範本](#template) 已可使用，讓您可以立即存取預先填入相關內容洞察的 Workspace 專案。
+您在[!DNL Content Analytics]Analysis Workspace[中報告、執行分析並取得](/help/analysis-workspace/home.md)的深入分析。 特定的 Workspace [範本](#template) 已可使用，讓您可以立即存取預先填入相關內容洞察的 Workspace 專案。
 
-若要在 Content Analytics 從頭開始製作報告：
+若要從頭開始建立您自己的Content Analytics報表，請遵循下列步驟：
 
 1. [在 Workspace 中建立一個新的 ](/help/analysis-workspace/build-workspace-project/create-projects.md) 或 [ 以開啟現有的 ](/help/analysis-workspace/build-workspace-project/open-projects.md) 專案。
 1. 請務必為 Content Analytics 報告[選取一個資料視圖](/help/analysis-workspace/c-panels/panels.md#data-view)。Content Analytics 報告僅適用於針對 Content Analytics [設定](/help/content-analytics/config/configuration.md)的資料視圖。
 1. 將![表格](/help/assets/icons/Table.svg)[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺化拖曳到畫布上。
 1. 使用[特定的 Content Analytics 元件](components.md)及其他通用[元件](/help/components/overview.md) (例如區段、日期範圍、註解)，建置您的 Content Analytics 洞察。
+1. 使用其他[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)來增強您的專案。
+
 
 ## 縮圖
 
-根據您在專案中使用的 Content Analytics 特定維度，將會顯示資產和維度的縮圖。
+根據您在專案中使用的Content Analytics特定維度，縮圖會顯示在下列視覺效果中：
+
+### 自由格式表格
 
 ![Content Analytics 縮圖](../assets/aca-thumbnails.png)
 
-依預設會顯示相關 Content Analytics 維度的縮圖。若要設定 Content Analytics 維度的縮圖顯示：
+依預設，縮圖會顯示在[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)中。 若要設定 Content Analytics 維度的縮圖顯示：
 
 * 將滑鼠停留在 Content Analytics 維度的標題列上。例如，「**[!UICONTROL 資產 ID]**」或「**[!UICONTROL 體驗 ID]**」。
 * 選取![設定](/help/assets/icons/Setting.svg)。
 * 在「**[!UICONTROL 列設定]**」快顯視窗中，在「**[!UICONTROL 設定]**」下方，勾選或取消勾選「**[!UICONTROL 顯示縮圖]**」。
 
 
+### 橫條圖（棧疊）和水準橫條圖（棧疊）
+
+{{release-limited-testing-section}}
+
+![長條圖的Content Analytics縮圖](/help/content-analytics/assets/aca-bar-thumbnail.png)
+
+
+縮圖會作為圖例的一部分顯示在垂直軸或水平軸上。 當您將滑鼠游標停留在[橫條圖（棧疊）](/help/analysis-workspace/visualizations/bar.md)和[水準橫條圖（棧疊）](/help/analysis-workspace/visualizations/horizontal-bar.md)中的橫條圖上時，也會顯示縮圖。
+
+
+### 散佈圖
+
+{{release-limited-testing-section}}
+
+![散佈的Content Analytics縮圖](/help/content-analytics/assets/aca-scatter-thumbnail.png)
+
+當您將游標移至[散佈圖](/help/analysis-workspace/visualizations/scatterplot.md)中的資料點上時，會顯示縮圖。
+
 ## 預覽
 
-對於顯示縮圖的 Content Analytics 維度列，可以開啟預覽快顯視窗。
+>[!AVAILABILITY]
+>
+>本節中說明的橫條圖和散佈圖視覺效果功能，目前還處於發行版的「有限測試」階段，可能尚未在您的環境中提供。 此功能普遍開放使用時，便會移除此注意事項。有關 Customer Journey Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
+>
 
-若要開啟包含以下詳細資訊的預覽：
+您可以開啟預覽快顯視窗。 若要這麼做：
 
-* 選取「![InfoOutline](/help/assets/icons/InfoOutline.svg)」。您會看到以下詳細資訊。
+* 在![自由格式表格](/help/assets/icons/InfoOutline.svg)中選取[資訊大綱](#freeform-table)。
+* 選取[橫條圖](#bar-and-horizontal-bar)或[水準橫條圖](#bar-and-horizontal-bar)視覺效果中的特定橫條圖，或[散佈圖](#scatter)視覺效果中的資料點。
 
-  | 體驗預覽 | 資產預覽 |
-  |---|---|
-  | ![Content Analytics 體驗預覽](../assets/aca-experience-preview.png) | ![Content Analytics 資產預覽](../assets/aca-asset-preview.png) |
-  | 維度的名稱 (例如「**[!UICONTROL 體驗 ID]」)** | 資產維度的名稱 (例如「**[!UICONTROL 資產 ID]」)** |
-  | **[!UICONTROL 印象 (所有時間)]**：體驗的印象。 | **[!UICONTROL 印象 (所有時間)]**：資產的印象次數。 |
-  | **[!UICONTROL 資產]**：此體驗包含的資產數量。<br/>選取「![劃分](/help/assets/icons/Breakdown.svg)」「**[!UICONTROL 劃分]**」以檢查資產。 | **[!UICONTROL 體驗]**：顯示此資產的體驗次數。<br/>選取「![劃分](/help/assets/icons/Breakdown.svg)」「**[!UICONTROL 劃分]**」以檢查資產。 |
-  | **[!UICONTROL 第一印象]**：對體驗的第一印象日期。 | **[!UICONTROL 第一印象]**：對資產的第一印象日期。 |
-  | **[!UICONTROL 最近的印象]**：對體驗的最近印象日期。 | **[!UICONTROL 最近的印象]**：對資產的最近印象日期。 |
-  | **[!UICONTROL 體驗屬性]**：體驗的 [屬性](/help/content-analytics/report/components.md#experience-attributes)。 | **[!UICONTROL 資產屬性]**：資產的 [屬性](/help/content-analytics/report/components.md#asset-attributes)。 |
+
+您會看到以下詳細資訊。
+
+| 體驗預覽 | 資產預覽 |
+|---|---|
+| ![Content Analytics 體驗預覽](../assets/aca-experience-preview.png) | ![Content Analytics 資產預覽](../assets/aca-asset-preview.png) |
+| 維度的名稱 (例如「**[!UICONTROL 體驗 ID]」)** | 資產維度的名稱 (例如「**[!UICONTROL 資產 ID]」)** |
+| **[!UICONTROL 印象 (所有時間)]**：體驗的印象。 | **[!UICONTROL 印象 (所有時間)]**：資產的印象次數。 |
+| **[!UICONTROL 資產]**：此體驗包含的資產數量。<br/>選取「![劃分](/help/assets/icons/Breakdown.svg)」「**[!UICONTROL 劃分]**」以檢查資產。 | **[!UICONTROL 體驗]**：顯示此資產的體驗次數。<br/>選取「![劃分](/help/assets/icons/Breakdown.svg)」「**[!UICONTROL 劃分]**」以檢查資產。 |
+| **[!UICONTROL 第一印象]**：對體驗的第一印象日期。 | **[!UICONTROL 第一印象]**：對資產的第一印象日期。 |
+| **[!UICONTROL 最近曝光]**：體驗最近曝光的日期。 | **[!UICONTROL 最近的印象]**：對資產的最近印象日期。 |
+| **[!UICONTROL 體驗屬性]**：體驗的 [屬性](/help/content-analytics/report/components.md#experience-attributes)。 | **[!UICONTROL 資產屬性]**：資產的 [屬性](/help/content-analytics/report/components.md#asset-attributes)。 |
 
 
 ## 範本
 
-我們提供 Content Analytics [範本](/help/analysis-workspace/templates/use-templates.md)，協助您了解哪些內容和內容屬性的效果最好。此範本是 [Web 管道和參與度使用案例](/help/analysis-workspace/templates/use-templates.md#web-engagement)的一部分，詳細說明您的內容在精細度的表現情況。您可以查看個別資產或特定屬性的效能。
+Content Analytics [範本](/help/analysis-workspace/templates/use-templates.md)可協助您瞭解哪些內容和內容屬性表現最佳。 此範本是 [Web 管道和參與度使用案例](/help/analysis-workspace/templates/use-templates.md#web-engagement)的一部分，詳細說明您的內容在精細度的表現情況。您可以查看個別資產或特定屬性的效能。
 
 您可以根據所學到的內容展現才華。例如在首頁推廣高效能資產、針對特定區段將內容個人化以納入高效能屬性，或者淘汰已開始過時的內容。
 
@@ -81,12 +110,12 @@ ht-degree: 100%
 
      >[!NOTE]
      >
-     >這些視覺效果只有在 Content Analytics 設定中[包含體驗](/help/content-analytics/config/guided.md#experience-capture-and-definition)時才會顯示。
+     >這些視覺效果只有在您已設定為在Content Analytics設定中[包含體驗](/help/content-analytics/config/guided.md#experience-capture-and-definition)時，才會顯示在您的範本中。
      > 
 
-      * **體驗點按率**：[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)視覺效果，顯示體驗點按率。
+      * **體驗CTR**：顯示Experience CTR的[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)視覺效果。
       * **轉換率最高的體驗**：[橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果顯示根據所選取轉換量度的最高轉換率體驗。
-      * **績優體驗**：針對績優體驗的[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (包括[縮圖](#thumbnails)和[預覽](#previews))。
+      * **表現最佳的體驗**：表現最佳的體驗的[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) （包括[縮圖](#thumbnails)和[預覽](#previews)）。
 
    * **資產**
 
@@ -100,7 +129,7 @@ ht-degree: 100%
 [散佈圖](/help/analysis-workspace/visualizations/scatterplot.md)視覺效果顯示資產檢視量與資產轉換量的散佈圖。
 
 * **哪些資產屬性有助於轉換?**
-Content Analytics 使用 AI 和 GenAI 自動指派每個資產中繼資料，例如主體、場景、前景顏色等。屬性是描述資產或經驗內容的 AI 指派中繼資料標記。例如：<code>前景顏色：紅色</code> 是自動指派的屬性。視覺效果有助於確定資產的哪些屬性對轉換最有貢獻。
+Content Analytics使用AI和GenAI自動指派每個資產[中繼資料](/help/content-analytics/report/components.md#asset-metadata)和[屬性](/help/content-analytics/report/components.md#asset-attributes)，例如主題、場景、前景顏色等。 屬性是描述資產或經驗內容的 AI 指派中繼資料標記。例如：<code>前景顏色：紅色</code> 是自動指派的屬性。視覺效果有助於確定資產的哪些屬性對轉換最有貢獻。
 
   面板由以下視覺效果組成：
 
@@ -138,7 +167,7 @@ Content Analytics 使用 AI 和 GenAI 自動指派每個資產中繼資料，例
 [自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)顯示根據所選取轉換量度的熱門體驗關鍵字。
 
 * **資產會出現在我網站上的什麼地方?**
-面板是由一個自由格式表格組成，其中詳細說明您網站上瀏覽次數最多的資產所出現的位置。
+由自由表格組成的面板，可詳細說明網站上檢視次數最多的資產顯示位置。 此分析可協助您瞭解哪些頁面或區段最受益於表現最好的資產，以及最佳化位置的位置。
 
   此面板由一個視覺化內容組成：
 

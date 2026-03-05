@@ -3,23 +3,24 @@ title: 最新的 Customer Journey Analytics 發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 26b61e62c853c3ddb0dad9e1d710c839a49314e4
+source-git-commit: 3d58f4dccdc7b9ea6f936cc924a30cc06b2317d1
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 38%
+source-wordcount: '1255'
+ht-degree: 37%
 
 ---
 
 # 最新Customer Journey Analytics發行說明（2026年2月）
 
-**上次更新日期**：2026年2月12日
+**上次更新日期**：2026年3月5日
 
 這些發行說明涵蓋2026年2月發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能和說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
-| ----------- | ------- | ---- |
+| ----------- | -------: | ----:|
+| **其他Content Analytics縮圖和預覽**<p>橫條圖（棧疊）、水準橫條圖（棧疊）和散佈圖視覺效果現在支援Content Analytics縮圖和預覽。 | 2026年3月5日 | 待定 |
 | **標題覆寫** <p>您可以在Content Analytics中指定標頭名稱和密碼標頭值。 此[標頭覆寫設定](/help/content-analytics/config/guided.md#header-overrides)可確保Content Analytics傳送自訂HTTP標頭，以略過您已實作的機器人偵測或閘道流量技術。</p> |  | 2026年2月2 |
 | **合併來自多個IMS組織的報告套裝**<p>您可以使用Analytics Source Connector來合併來自多個IMS組織的報告套裝。 此[跨IMS資料對應](/help/getting-started/aa-vs-cja/mapping-data-ims-orgs.md)功能可讓組織擁有其客戶資料的合併檢視，即使該客戶資料散佈在多個IMS組織中亦然。 <p>**注意：**&#x200B;此設定只能透過向 Adobe 客戶服務提交請求來取得。</p> |  | 2026年2月12日 |
 | **在自由格式表格中包含多個維度欄**<p>您現在可以在自由格式表格中包含最多 5 個維度欄，以便您並排檢視多個維度項目。每一列維度項目的行為都像是單一串連的維度項目。</p><p>您可以將篩選器、排序、劃分等項目套用至具有多個維度欄的自由格式表格，以建立更深入、更自訂的分析。</p><p>過去，您只能在自由格式表格中包含 1 個維度欄。</p><p>如需詳細資訊，請參閱[在自由格式表格中包含多個維度欄](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)。</p> | 2026 年 1 月 28 日 | 2026年3月4日 <p>（原計畫於2026年2月18日推出）</p> |
