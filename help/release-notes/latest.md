@@ -3,10 +3,10 @@ title: 最新的 Customer Journey Analytics 發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3d58f4dccdc7b9ea6f936cc924a30cc06b2317d1
+source-git-commit: fd8c539ae3bb0efc30a7fde7ff8d13a866263a91
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 37%
+source-wordcount: '1291'
+ht-degree: 36%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 37%
 
 | 功能和說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | -------: | ----:|
+| **資料集在連線中預覽重新設計**<p>當您在以人物為基礎的連線中[新增](/help/connections/create-connection.md#add-datasets)或[編輯](/help/connections/create-connection.md#edit-a-dataset)資料集時，預覽資料的體驗會有所改善。 對於拼接啟用的資料集，可以使用額外的[拼接量度](/help/stitching/use-stitching-ui.md#stitching-metrics)和[錯誤的ID](/help/stitching/use-stitching-ui.md#bad-ids)。 | 2026年3月6日 | 2026年3月6日 |
 | **其他Content Analytics縮圖和預覽**<p>橫條圖（棧疊）、水準橫條圖（棧疊）和散佈圖視覺效果現在支援Content Analytics縮圖和預覽。 | 2026年3月5日 | 待定 |
 | **標題覆寫** <p>您可以在Content Analytics中指定標頭名稱和密碼標頭值。 此[標頭覆寫設定](/help/content-analytics/config/guided.md#header-overrides)可確保Content Analytics傳送自訂HTTP標頭，以略過您已實作的機器人偵測或閘道流量技術。</p> |  | 2026年2月2 |
 | **合併來自多個IMS組織的報告套裝**<p>您可以使用Analytics Source Connector來合併來自多個IMS組織的報告套裝。 此[跨IMS資料對應](/help/getting-started/aa-vs-cja/mapping-data-ims-orgs.md)功能可讓組織擁有其客戶資料的合併檢視，即使該客戶資料散佈在多個IMS組織中亦然。 <p>**注意：**&#x200B;此設定只能透過向 Adobe 客戶服務提交請求來取得。</p> |  | 2026年2月12日 |

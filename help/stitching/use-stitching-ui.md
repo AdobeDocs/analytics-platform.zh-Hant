@@ -1,14 +1,14 @@
 ---
 title: 啟用拼接
-description: 瞭解如何在連線UI中啟用拼接。
+description: 在Customer Journey Analytics中啟用事件資料集的身分彙整。 瞭解如何在連線UI中設定永久ID、人員ID和重新執行視窗，以彙整資料。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 1744d625f2f18202fb7096b0fd904ee26399db34
+source-git-commit: b7b2a1f3eb1c149caf65ab3e4321e4f4347695cc
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 7%
+source-wordcount: '1724'
+ht-degree: 5%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 
 
    * **個人 ID**
-      * 對於圖表式拚接，請確保身分圖表包含從您選擇的永久ID名稱空間和人員ID名稱空間中連結ID值的片段。 您可以前往[Experience Platform身分識別圖形檢視器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}執行測試，並透過某些測試永久ID值來查詢圖形。 驗證這些永久ID值是否連結至圖表中的人員ID值。
+      * 對於圖表式拚接，請確保身分圖表包含從您選擇的永久ID名稱空間和人員ID名稱空間中連結ID值的片段。 您可以前往[Experience Platform身分識別圖形檢視器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}執行測試，並透過某些範例永久ID值查詢圖形。 驗證這些永久ID值是否連結至圖表中的人員ID值。
       * 對於以欄位為基礎的彙整，請查詢7天資料中的人員ID欄位不是Null，然後除以資料集中所有事件的7天資料查詢。 理想情況下，此百分比應高於5%。
 
         可用於驗證的查詢範例：
@@ -87,6 +87,8 @@ ht-degree: 7%
 
 ## 啟用身分識別拼接 {#enable-identity-stitching}
 
+當您在以人員為基礎的連線中[新增](/help/connections/create-connection.md#add-datasets)或[編輯](/help/connections/create-connection.md#edit-a-dataset)事件資料集時，可以啟用身分拼接。 以帳戶為基礎的連線無法使用身分彙整。
+
 >[!CONTEXTUALHELP]
 >id="connection_changeto_identitygraph"
 >title="身分識別圖的變更"
@@ -101,7 +103,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="拼接量度"
->abstract="拼接量度是使用範例資料集計算，資料來自過去7天內擷取的任何資料。<br>這通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;資料表中使用的範例資料不同。"
+>abstract="拼接量度是使用範例資料集計算，資料來自過去7天內擷取的任何資料。<br>此資料範例集通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;資料表中使用的範例資料不同。"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -121,12 +123,14 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_badids"
->title="ID錯誤"
+>title="異常 ID"
 >abstract="錯誤ID是嚴重影響報表資料的ID值。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID錯誤"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="異常 ID"
 
 
-若要啟用拼接，請在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊的事件資料集區段中：
+### 資料集設定
+
+若要啟用拼接，請在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊的事件資料集&#x200B;**[!UICONTROL 資料集設定]**&#x200B;區段中：
 
 啟用身分拼接時![身分拼接選項](assets/identity-stitching-ui.png)
 
@@ -158,14 +162,70 @@ ht-degree: 7%
    >確定您有權使用身分圖表。
    >
 
-   在此之前，會顯示&#x200B;**[!UICONTROL 變更為身分圖表]**&#x200B;對話方塊，以確保您在使用身分圖表進行拼接之前，已經完成資料集的身分圖表設定，這是[圖表型先決條件](/help/stitching/gbs.md#prerequisites)的一部分。 選取&#x200B;**[!UICONTROL 繼續]**&#x200B;以繼續。
+   在此之前，會顯示&#x200B;**[!UICONTROL 變更為身分圖表]**&#x200B;對話方塊，以確保您已完成資料集的身分圖表設定。 此設定是[圖表式先決條件](/help/stitching/gbs.md#prerequisites)的一部分，之後您才能使用身分圖表進行拼接。 選取&#x200B;**[!UICONTROL 繼續]**&#x200B;以繼續。
 
    * 從&#x200B;**[!UICONTROL 名稱空間]**&#x200B;下拉式功能表中選取名稱空間。
 
-
 1. 從&#x200B;**[!UICONTROL 重新執行視窗]**&#x200B;下拉式功能表中選取重新執行視窗。 可用選項取決於您有權使用的Customer Journey Analytics套件。
 
-儲存連線後，針對已啟用拼接功能的資料集進行的拼接程式會在開始擷取這些資料集的資料時啟動。
+1. 選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以檢視要拼接的事件資料集主題預覽。
+
+
+### 資料集預覽
+
+在標準&#x200B;**[!UICONTROL 資料集預覽]**&#x200B;介面之上，當[新增](/help/connections/create-connection.md#add-datasets)或是在以人員為基礎的連線中[編輯](/help/connections/create-connection.md#edit-a-dataset)資料集時，可以使用兩個額外的資訊面板。
+
+>[!NOTE]
+>對於已在AWS上部署Customer Journey Analytics的客戶，此功能正在等候發行。
+>
+
+啟用身分拼接時![身分拼接選項](assets/identity-stitching-ui-preview.png)
+
+#### 拼接量度
+
+
+
+**[!UICONTROL 拼接量度]**&#x200B;是使用樣本資料集從過去7天擷取的任何資料進行計算。 這個範例資料集通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;資料表中使用的範例資料不同。 拼接量度提供下列專案的詳細資訊：
+
+* **[!UICONTROL 人員ID涵蓋範圍]**：在拼接程式（即時和重播）期間用於識別的所選人員ID涵蓋範圍。
+   * 為了獲得最佳欄位式拚接結果，每個永久ID （裝置資訊）應在至少一個事件上傳送個人ID （使用者資訊）。
+   * 為了獲得最佳的圖表式拚接結果，每個永久ID的身分圖表應會顯示（永久ID、人員ID）關係。
+
+  人員ID涵蓋範圍會以百分比顯示，並和穩定開發或生產設定上建議的專案進行比較。 此涵蓋範圍值越高，使用選取的人員ID所獲得的拼接結果就越好。
+
+* **[!UICONTROL 永續識別碼涵蓋範圍]**：此值用於拼接程式（即時和重新執行）期間進行識別，以防偵測不到人員ID值。 沒有永久ID和人員ID的事件會從資料中刪除。 為獲得最佳拼接結果，所有事件上都應存在永久ID。
+
+  永久ID涵蓋範圍會以百分比顯示，並和穩定開發或生產設定上的最低建議值比較。
+
+
+#### 異常 ID
+
+>[!INFO]
+>
+>在Customer Journey Analytics介面中，不良ID也稱為BAVID。
+> 
+
+在Customer Journey Analytics中，錯誤ID是識別碼：
+
+* 具有特定ID值，且該ID值來自啟用拼接功能資料集中的永久ID或人員ID欄位，**和**
+* 在一個月內對連線資料中的超過100萬(1,000,000)個事件負責。
+
+當ID值標示為錯誤ID時，連線資料中任何包含該ID值的未來事件都會遭到捨棄，而不會顯示在報表中。
+
+錯誤ID使用案例的範例：
+
+* 人員ID欄位中有自訂或預留位置值（例如，`undefined`）。 這類值也會影響[拼接與報告資料品質](/help/stitching/faq.md#undefined-person-id-values)。
+* 在以欄位為基礎的彙整設定中，如果多人共用一部裝置，且使用者之間的轉換總數超過50,000。 在此案例中，拚接程式會停止為該裝置使用人員ID資訊，而僅改用永久性ID資訊。 因此，該裝置的所有資料集事件都會傳送到具有永久ID身分的連線資料中，這極有可能導致「ID錯誤」情況。
+
+
+>[!NOTE]
+>**[!UICONTROL 拼接量度]** （包括&#x200B;**[!UICONTROL 錯誤的ID]**）是根據有限的資料集計算的。 若要識別您計畫用於拼接的資料集是否存在錯誤ID，請參閱[錯誤ID技術檔案](/help/technotes/badids.md)。
+>
+
+
+### 儲存
+
+儲存連線後，一旦開始為這些資料集擷取資料，就會開始彙整已啟用資料集的彙整程式。
 
 >[!CAUTION]
 >
