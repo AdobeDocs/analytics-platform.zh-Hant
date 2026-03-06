@@ -4,10 +4,10 @@ description: 了解進階計算量度函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: a5e07891b23184dfe5d4c3f1b2c4b36b6884fb72
+source-git-commit: 76b4ac60c8e3ae2dd62f86a35bdf1c582f60b10f
 workflow-type: tm+mt
-source-wordcount: '5294'
-ht-degree: 98%
+source-wordcount: '5286'
+ht-degree: 97%
 
 ---
 
@@ -396,7 +396,7 @@ CDF-Z(-3) ? 0.0013499
 
 >[!NOTE]
 >
->此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL 累積 (人數)]**](#cumulative)。
+>此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg)[**[!UICONTROL 累積 (人數)]**](#cumulative)。
 >
 
 
@@ -433,14 +433,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="指數迴歸：相關係數"
->abstract="指數迴歸：Y = a exp(X) + b。傳回相關係數。"
+>abstract="指數回歸：Y = b * exp(aX)。 傳回相關係數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}指數迴歸：Y = a exp(X) + b。傳回相關係數。
+[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回相關係數。
 
 
 | 引數 | 說明 |
@@ -456,14 +456,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="指數迴歸：預計 Y"
->abstract="指數迴歸：Y = a exp(X) + b。傳回 Y。"
+>abstract="指數回歸：Y = b * exp(aX)。 傳回 Y。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 列]{type="Neutral"}指數迴歸：Y = a exp(X) + b。傳回 Y。
+[!BADGE 列]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 Y。
 
 
 | 引數 | 說明 |
@@ -480,14 +480,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="指數迴歸：截距"
->abstract="指數迴歸：Y = a exp(X) + b。傳回 b。"
+>abstract="指數回歸：Y = b * exp(aX)。 傳回 b。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}指數迴歸：Y = a exp(X) + b。傳回 b。
+[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 b。
 
 | 引數 | 說明 |
 |---|---|
@@ -503,14 +503,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="指數迴歸：斜率"
->abstract="指數迴歸：Y = a exp(X) + b。傳回 a。"
+>abstract="指數回歸：Y = b * exp(aX)。 傳回 a。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}指數迴歸：Y = a exp(X) + b。傳回 a。
+[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 a。
 
 
 | 引數 | 說明 |
