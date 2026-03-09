@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: a2715ff9869796858dec16d3b8b422ef0c9325aa
+source-git-commit: b48858ea8e54bd9f6e7725f1ed0f0086020aab5f
 workflow-type: tm+mt
-source-wordcount: '2776'
-ht-degree: 97%
+source-wordcount: '3251'
+ht-degree: 85%
 
 ---
 
@@ -114,7 +114,52 @@ ht-degree: 97%
 >title="新的資料釋圖"
 >abstract="您已經為這個設定選取新的資料視圖。新的資料視圖將會更新並納入 Content Analytics 的量度和維度。現在資料視圖中類似的量度和維度將會被移除。<br/>若有不同的連線與新的資料視圖相關聯，則該連線會更新並納入 Content Analytics 資料集。請注意，現有設定中的 Content Analytics 資料集不會被移除。"
 
-<!-- markdownlint-enable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="ac_onboarding_dataviews_button"
+>title="資料視圖"
+>abstract="針對Content Analytics的設定，您需要選取一或多個資料檢視。 這樣您才可以將 Content Analytics 資料與其他資料合併。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviewsheader"
+>title="資料視圖"
+>abstract="從Customer Journey Analytics中選取一或多個您想要與Content Analytics資料合併的現有資料檢視。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_header_alt"
+>title="資料視圖"
+>abstract="從Customer Journey Analytics中選取一或多個您想要與Content Analytics資料合併的現有資料檢視。<br/>"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_new_dialog"
+>title="選取的資料檢視"
+>abstract="您已為此設定修改所選的資料檢視。 所選的資料檢視將會更新以包含Content Analytics量度和維度。 這些量度和維度將從先前選取但不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_change_dialog"
+>title="選取的資料檢視"
+>abstract="您已為此設定修改所選的資料檢視。 所選的資料檢視將會更新以包含Content Analytics量度和維度。 這些量度和維度將從先前選取但不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_current_cleanup_labels_dialog"
+>title="選取的資料檢視"
+>abstract="您已為此設定修改所選的資料檢視。 所選的資料檢視將會更新以包含Content Analytics量度和維度。 這些量度和維度將從先前選取且不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_prev_cleanup_labels_dialog"
+>title="選取的資料檢視"
+>abstract="您已為此設定修改所選的資料檢視。 所選的資料檢視將會更新以包含Content Analytics量度和維度。 這些量度和維度將從先前選取且不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_channels_button"
+>title="頻道"
+>abstract="為設定啟用及設定一或多個通道。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_channels_header"
+>title="頻道"
+>abstract="為設定啟用及設定一或多個通道。 屬於設定的所有資料檢視都會繼承啟用的管道。"
+
 
 您的設定需要選取「[資料檢視](/help/data-views/data-views.md)」。
 
