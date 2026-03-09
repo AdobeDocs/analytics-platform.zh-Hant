@@ -4,10 +4,10 @@ title: 共用細分群體
 feature: Filters, Segments
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: 81e08ecb593b6ba789c479d0e648cbe7ba0a82d6
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 6%
+source-wordcount: '320'
+ht-degree: 5%
 
 ---
 
@@ -30,7 +30,9 @@ ht-degree: 6%
 
    1. 從&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**&#x200B;區段中選取一或多個選項，或搜尋並選取一或多個個人。 可用的選項取決於您的角色。
 
-   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以共用區段。 選取「**[!UICONTROL 取消]**」即可取消。
+   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以共用區段。 選取「**[!UICONTROL 取消]**」進行取消。
+
+如果您有共用區段的存取權，可以在專案中使用這些區段，或做為資料檢視[的](/help/data-views/session-settings.md)設定的一部分。
 
 ## 最佳做法
 

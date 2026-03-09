@@ -4,10 +4,10 @@ description: 將Adobe Target與Customer Journey Analytics整合
 feature: Experience Platform Integration
 role: User
 exl-id: 0b52af5b-b65c-4929-9ca3-547a640936f3
-source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
+source-git-commit: 81e08ecb593b6ba789c479d0e648cbe7ba0a82d6
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 41%
+source-wordcount: '386'
+ht-degree: 40%
 
 ---
 
@@ -25,7 +25,9 @@ Customer Journey Analytics中的Target報告功能可讓您直接在Customer Jou
 
 ## 附註和考量事項
 
-將Target分類事件資料集新增到CJA連線後，將這些元件新增為維度後，CJA資料檢視中將進行一些小調整，包括：
+您的Target活動必須[使用Customer Journey Analytics作為報表來源](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja)。
+
+將「目標分類事件資料集」新增至連線後，當這些元件新增為維度時，資料檢視中將會進行一些微幅調整，包括：
 
 * 設定持續性，使其類似於Target中的追蹤方式（請洽詢Target顧問或客戶以確保設定正確）。
 

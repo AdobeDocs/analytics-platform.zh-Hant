@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: 81e08ecb593b6ba789c479d0e648cbe7ba0a82d6
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 82%
+source-wordcount: '532'
+ht-degree: 65%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 82%
 
 1. 在 Customer Journey Analytics 使用者介面的主要導覽中，選取「**[!UICONTROL 資料視圖]**」，也可自「**[!UICONTROL 資料管理]**」選取。
 
-2. 建立新的或編輯現有的資料檢視。如需更多資訊，請參閱[建立或編輯資料視圖](create-dataview.md)。
+1. 建立新的或編輯現有的資料檢視。如需更多資訊，請參閱[建立或編輯資料視圖](create-dataview.md)。
 
-3. 選取「**[!UICONTROL 設定]**」索引標籤。在「[!UICONTROL 工作階段設定]」下：
+1. 選取「**[!UICONTROL 設定]**」索引標籤。在「[!UICONTROL 工作階段設定]」下：
 
    1. 輸入「**[!UICONTROL 工作階段逾時]**」的值，以[!UICONTROL 分鐘]、[!UICONTROL 小時]、[!UICONTROL 天]或[!UICONTROL 週]為單位。工作階段逾時決定在開始新工作階段之前工作階段可以閒置 (沒有事件發生) 多少時間。
 
@@ -44,8 +44,11 @@ ht-degree: 82%
 
       如果您要結合線上和離線資料，並希望分析購買您一種或多種產品的客戶，了解他們是否在購買後的前三個月內打電話給您的聯絡中心，請使用較長的工作階段逾時 (例如 3 個月)。
 
+   1. 如果您想要將資料檢視分段，請從&#x200B;**[!UICONTROL 新增區段]**&#x200B;下拉式選單中選取區段。 或者，您也可以從![區段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;將區段拖放至&#x200B;**[!UICONTROL _將區段拖放至此處_]**&#x200B;的左窗格。
 
-   2. 在「**[!UICONTROL 以量度啟動新工作階段]**」下的「**[!UICONTROL 在這裡放置量度]**」清單中選取一個量度。或者，您可以從左側窗格中將量度拖放到「**[!UICONTROL 放置量度欄位]**」。所選量度定義新工作階段開始。您可以定義多個量度。
+      只會列出共用、您有存取權以及可根據您為資料檢視定義的元件進行評估的區段。
+
+   1. 從&#x200B;**[!UICONTROL 使用量度]**&#x200B;下拉式功能表開始新工作階段。 或者，您也可以從![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**&#x200B;將量度拖放至&#x200B;**[!UICONTROL _將量度拖放至此處_]**&#x200B;的左窗格。 所選量度定義新工作階段開始。您可以定義多個量度。
 
       您可以使用任何類型的量度來定義新工作階段。例如，假設您希望輪廓每次啟動您的行動應用程式時定義一個新的工作階段。在&#x200B;**[!UICONTROL 資料檢視]** > **[!UICONTROL 元件]**&#x200B;中，您根據&#x200B;**[!UICONTROL appInteraction]** **[!UICONTROL Name]**&#x200B;結構描述欄位，定義名為&#x200B;**[!UICONTROL Launch]**&#x200B;之型別量度的元件。 您進一步指定&#x200B;**[!UICONTROL Launch]**&#x200B;量度元件，只有在值符合`launch`時才計算值。
 
@@ -57,4 +60,4 @@ ht-degree: 82%
 
 
 
-4. 選取「**[!UICONTROL 儲存]**」或「**[!UICONTROL 儲存並完成]**」，以儲存工作階段設定定義。
+1. 選取「**[!UICONTROL 儲存]**」或「**[!UICONTROL 儲存並完成]**」，以儲存工作階段設定定義。
