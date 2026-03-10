@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: b48858ea8e54bd9f6e7725f1ed0f0086020aab5f
+source-git-commit: fc1961f3191b80c0351c8935fc331d7605f37f13
 workflow-type: tm+mt
-source-wordcount: '3251'
-ht-degree: 85%
+source-wordcount: '3393'
+ht-degree: 81%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 85%
 >abstract="針對Content Analytics的設定，您需要選取一或多個資料檢視。 這樣您才可以將 Content Analytics 資料與其他資料合併。"
 
 >[!CONTEXTUALHELP]
->id="aca_onboarding_dataviewsheader"
+>id="aca_onboarding_dataviews_header"
 >title="資料視圖"
 >abstract="從Customer Journey Analytics中選取一或多個您想要與Content Analytics資料合併的現有資料檢視。"
 
@@ -330,7 +330,59 @@ ht-degree: 85%
 >title="標記屬性已停用"
 >abstract="Content Analytics 擴充功能已經啟用。"
 
-<!-- markdownlint-enable MD034 -->
+
+<!-- For updated ACA -->
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_web_pages_boldheader"
+>title="網頁資料收集"
+>abstract="**要包含/排除的頁面**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_web_pages_header"
+>title="網頁資料收集"
+>abstract="指示在收集Content Analytics的資料時，哪些頁面應&#x200B;**包含**&#x200B;或&#x200B;**排除**。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_web_assets_boldheader"
+>title="網站資產資料收集"
+>abstract="**要包含/排除的資產**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_web_assets_header"
+>title="網站資產資料收集"
+>abstract="指示在收集Content Analytics的資料時，哪些資產應&#x200B;**包含**&#x200B;或&#x200B;**排除**。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_experience_locations_boldheader"
+>title="行動體驗位置資料收集"
+>abstract="**要包含/排除的體驗位置**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_experience_locations_header"
+>title="行動體驗位置資料收集"
+>abstract="指示在收集Content Analytics的資料時，哪些體驗位置應為&#x200B;**包含**&#x200B;或&#x200B;**排除**。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_asset_locations_boldheader"
+>title="行動資產位置資料收集"
+>abstract="**要包含/排除的資產位置**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_asset_locations_header"
+>title="行動資產位置資料收集"
+>abstract="指示在收集Content Analytics的資料時，哪些資產位置應為&#x200B;**包含**&#x200B;或&#x200B;**排除**。"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_asset_urls_boldheader"
+>title="行動資產URL資料收集"
+>abstract="**要包含/排除的資產URL**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_mobile_asset_urls_header"
+>title="行動資產URL資料收集"
+>abstract="指示在收集Content Analytics的資料時，哪些資產URL應該是&#x200B;**包含**&#x200B;或&#x200B;**排除**。"
+
 
 #### 全新設定 {#new-configuration}
 
