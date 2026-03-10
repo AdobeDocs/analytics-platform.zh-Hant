@@ -98,7 +98,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
 >title="個人 ID"
->abstract="從可供使用的身分識別中選取人員 ID (人員的唯一識別碼)。如果您的授權包含圖表式拼接，而您想要使用該拼接方法，請選取&#x200B;**[!UICONTROL 身分圖表]**。"
+>abstract="從可供使用的身分識別中選取人員 ID (人員的唯一識別碼)。 如果您的授權包含圖表式拼接，而您想要使用該拼接方法，請選取&#x200B;**[!UICONTROL 身分圖表]**。"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
@@ -125,7 +125,7 @@ ht-degree: 5%
 >id="connection_stitchingmetrics_badids"
 >title="異常 ID"
 >abstract="錯誤ID是嚴重影響報表資料的ID值。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16444" text="異常 ID"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="異常 ID"
 
 
 ### 資料集設定
