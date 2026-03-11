@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: fc1961f3191b80c0351c8935fc331d7605f37f13
+source-git-commit: 6e7776cbaf99d5b2031b0fb3872c331852443b74
 workflow-type: tm+mt
-source-wordcount: '3393'
+source-wordcount: '3419'
 ht-degree: 81%
 
 ---
@@ -431,6 +431,16 @@ ht-degree: 81%
 
 
 ### 標頭覆寫
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_boldheader"
+>title="標頭覆寫"
+>abstract="**標題覆寫**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_header"
+>title="標頭覆寫"
+>abstract="進階功能，可略過機器人偵測或閘道流量。 呼叫端點時，Content Analytics會包含您的自訂HTTP標頭。"
 
 您可以選擇在&#x200B;**[!UICONTROL 標頭覆寫]**&#x200B;區段中指定標頭名稱和密碼標頭值。  此標頭會覆寫設定，以確保Content Analytics傳送自訂HTTP標頭來略過您實作的任何機器人偵測或閘道流量技術。
 
