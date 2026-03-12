@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 6e7776cbaf99d5b2031b0fb3872c331852443b74
+source-git-commit: 359b0364b1de82d6e49c6ba8e7222d459c9825b8
 workflow-type: tm+mt
-source-wordcount: '3419'
+source-wordcount: '3432'
 ht-degree: 81%
 
 ---
@@ -68,7 +68,15 @@ ht-degree: 81%
 >title="詳細資料"
 >abstract="此指南會設定所需需求，以設定 Content Analytics。請提供此設定的名稱"
 
-<!-- markdownlint-enable MD034 -->
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_connection_boldheader"
+>title="連線"
+>abstract="**連線**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_connection_header"
+>title="連線"
+>abstract="從Customer Journey Analytics中選取要與Content Analytics資料合併的現有連線。"
 
 每個設定都需要一個唯一的名稱。例如，`Example Content Analytics configuration`。儲存或實施設定時需要該名稱。
 
@@ -356,32 +364,32 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_experience_locations_boldheader"
 >title="行動體驗位置資料收集"
->abstract="**要包含/排除的體驗位置**"
+>abstract="**要排除的體驗位置**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_experience_locations_header"
 >title="行動體驗位置資料收集"
->abstract="指示在收集Content Analytics的資料時，哪些體驗位置應為&#x200B;**包含**&#x200B;或&#x200B;**排除**。"
+>abstract="指示在收集Content Analytics的資料時，哪些體驗位置應該&#x200B;**排除**。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_locations_boldheader"
 >title="行動資產位置資料收集"
->abstract="**要包含/排除的資產位置**"
+>abstract="**要排除的資產位置**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_locations_header"
 >title="行動資產位置資料收集"
->abstract="指示在收集Content Analytics的資料時，哪些資產位置應為&#x200B;**包含**&#x200B;或&#x200B;**排除**。"
+>abstract="指示在收集Content Analytics的資料時，哪些資產位置應&#x200B;**排除**。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_boldheader"
 >title="行動資產URL資料收集"
->abstract="**要包含/排除的資產URL**"
+>abstract="**要排除的資產URL**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_header"
 >title="行動資產URL資料收集"
->abstract="指示在收集Content Analytics的資料時，哪些資產URL應該是&#x200B;**包含**&#x200B;或&#x200B;**排除**。"
+>abstract="指示在收集Content Analytics的資料時，應該將哪些資產URL排除在&#x200B;**之外**。"
 
 
 #### 全新設定 {#new-configuration}

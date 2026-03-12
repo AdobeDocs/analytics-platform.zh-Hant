@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 53099bd891d939260a95cffc66e7857167901902
+source-git-commit: c1acbea7e22e42a2f64f71af054abe2dd6082130
 workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -107,25 +107,25 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
->title="個人ID涵蓋範圍"
+>title="個人 ID 覆蓋率"
 >abstract="在拚接程式（即時和重播）期間用於識別的所選人員ID的涵蓋範圍。<br/>為了達到最佳拼接結果，每個永久ID的身分圖表中都應有（永久ID、人員ID）關係。"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_fbs_personidcoverage"
->title="個人ID涵蓋範圍"
+>title="個人 ID 覆蓋率"
 >abstract="在拚接程式（即時和重播）期間用於識別的所選人員ID的涵蓋範圍。<br/>為了達到最佳拼接結果，每個永久ID （裝置資訊）至少應在一個事件中傳送個人ID （使用者資訊）。"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_persistentidcoverage"
->title="永久ID涵蓋範圍"
->abstract="此值用於在拼接過程（即時和重播）期間進行識別，以備無法偵測到人員ID值時使用。 <br/>資料中會捨棄沒有永久ID和人員ID的事件。 為獲得最佳拼接結果，所有事件上都應存在永久ID。"
+>title="永久性 ID 覆蓋率"
+>abstract="此值用於在拼接過程（即時和重播）期間進行識別，以備無法偵測到人員ID值時使用。 <br/>資料中會捨棄沒有永久ID和人員ID的事件。 為獲得最佳拼接結果，所有事件都應有永久性 ID。"
 
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_badids"
 >title="異常 ID"
->abstract="錯誤ID是嚴重影響報表資料的ID值。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-16444" text="異常 ID"
+>abstract="異常 ID 是指嚴重影響報告資料的 ID 值。"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="異常 ID"
 
 
 ### 資料集設定
@@ -198,7 +198,7 @@ ht-degree: 5%
 
   人員ID涵蓋範圍會以百分比顯示，並和穩定開發或生產設定上建議的專案進行比較。 此涵蓋範圍值越高，使用選取的人員ID所獲得的拼接結果就越好。
 
-* **[!UICONTROL 永續識別碼涵蓋範圍]**：此值用於拼接程式（即時和重新執行）期間進行識別，以防偵測不到人員ID值。 沒有永久ID和人員ID的事件會從資料中刪除。 為獲得最佳拼接結果，所有事件上都應存在永久ID。
+* **[!UICONTROL 永續識別碼涵蓋範圍]**：此值用於拼接程式（即時和重新執行）期間進行識別，以防偵測不到人員ID值。 沒有永久性 ID 和個人 ID 的事件會從資料中剔除。為獲得最佳拼接結果，所有事件都應有永久性 ID。
 
   永久ID涵蓋範圍會以百分比顯示，並和穩定開發或生產設定上的最低建議值比較。
 
