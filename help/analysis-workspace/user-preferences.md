@@ -5,10 +5,10 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: bc708b34814550b89f6c9916d8bc48850008c1dc
+source-git-commit: c84e18bcaf7687deada7086bfe1a85a4b83f216b
 workflow-type: tm+mt
 source-wordcount: '4015'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 ### 一般偏好設定
 
-一般偏好設定適用於瀏覽器中您的 Customer Journey Analytics 體驗。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
+一般偏好設定適用於瀏覽器中您的 Customer Journey Analytics 體驗。有關如何訪問這些首選項的資訊，請參閱[編輯首選項](#edit-preferences)。
 
 | 偏好設定 | 選項 |
 | --- | --- |
@@ -56,14 +56,14 @@ ht-degree: 99%
 >abstract="啟用後，Analysis Workspace 中每項專案的右側邊欄會顯示一個評論區域。"
 
 
-您可以更新套用於組織內所有使用者和專案的公司偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
+您可以更新套用於組織內所有使用者和專案的公司偏好設定。有關如何訪問這些首選項的資訊，請參閱[編輯首選項](#edit-preferences)。
 
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **「範本索引標籤」索引標籤** | | |
 |  | 隱藏範本索引標籤 | 對組織中所有使用者隱藏範本索引標籤。 |
 | **專案共用** | | |
-| | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。這表示使用者無法與組織中沒有 Analysis Workspace 帳戶的人員共用專案，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入) &#x200B;](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。<br/>依照預設，除了擁有已授權之 Healthcare Shield 的客戶以外，所有組織均停用此選項 (亦即使用者可以與組織外部的人員共用專案)。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。在這種情況下，共用專案的使用者與任何人共用專案時，就必須啟用可用的&#x200B;[!UICONTROL **連結使用中**]&#x200B;選項&#x200B;**([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**)，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。在您停用此選項讓使用者可以使用[!UICONTROL 與任何人共用]共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。新增權限後，您可以停用此選項，然後接受所產生的法律注意事項。如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
+| | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。這表示使用者無法與組織中沒有 Analysis Workspace 帳戶的人員共用專案，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入) ](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。<br/>依照預設，除了擁有已授權之 Healthcare Shield 的客戶以外，所有組織均停用此選項 (亦即使用者可以與組織外部的人員共用專案)。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。在這種情況下，共用專案的使用者與任何人共用專案時，就必須啟用可用的&#x200B;[!UICONTROL **連結使用中**]&#x200B;選項&#x200B;**([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**)，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。在您停用此選項讓使用者可以使用[!UICONTROL 與任何人共用]共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。新增權限後，您可以停用此選項，然後接受所產生的法律注意事項。如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
 | | 需要 Experience Cloud 驗證 | 此選項啟用後，透過 Analysis Workspace 中的「**[!UICONTROL 與任何人共用]**」選項取得專案存取權限的人員，必須使用其 Experience Cloud 認證進行驗證。<p>啟用此選項後，每當使用者使用「[!UICONTROL 與任何人共用]」共用選項共用專案時，共用對話框會啟用[!UICONTROL 需要 Experience Cloud 驗證]選項，且共用專案的使用者無法停用該選項。如需有關使用者如何與任何人共用專案的資訊，請參閱[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) (在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項共用，以及未啟用[!UICONTROL 需要 Experience Cloud 驗證]選項的所有專案都會停用。<p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後再停用 (允許擁有該連結的任何人存取專案)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權。在此情況下，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL 連結使用中]」選項&#x200B;**(「[!UICONTROL 共用]**」>「**[!UICONTROL 與任何人共用]**」>「**[!UICONTROL 連結使用中]**」)，如在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。</li><li>您的組織實作 SSO 時才可使用這個選項。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
 | 專案註解 | 允許註解專案 | 啟用此選項後，Analysis Workspace 中每項專案的右側邊欄會提供一個註解區域。 <p>專案所有者可以停用指定專案的註解區域，如[建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)所述。</p> <p>如需關於在 Analysis Workspace 專案中進行註解的更多資訊，請參閱[在專案中新增與管理註解](/help/analysis-workspace/build-workspace-project/comment-projects.md)。</p> |
 
@@ -86,14 +86,14 @@ ht-degree: 99%
 >title="序列調色盤"
 >abstract="適用於頻率趨勢 (堆疊條狀圖) 引導式分析。此調色盤具有從淺到深的數值含意。"
 
-您可以為所有新的 Analysis Workspace 專案、新的 Analysis Workspace 面板和新的引導式分析自訂這些偏好設定。如需有關如何存取這些偏好設定的資訊，請參閱[更新偏好設定](#update-preferences)。
+您可以為所有新的 Analysis Workspace 專案、新的 Analysis Workspace 面板和新的引導式分析自訂這些偏好設定。有關如何訪問這些首選項的資訊，請參閱[編輯首選項](#edit-preferences)。
 
 您也可以針對 Analysis Workspace 中的個別專案自訂其中部分相同偏好設定，如[專案概觀](/help/analysis-workspace/build-workspace-project/freeform-overview.md)中所述。
 
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -132,7 +132,7 @@ ht-degree: 99%
 >abstract="選取用於自由格式表格的預設量度。如果所選取的資料視圖不包含所選取的預設量度，表格會自動切換到另一個主要量度。"
 
 
-您可以為在 Analysis Workspace 中建立的所有新專案自訂自由格式表格偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
+您可以為在 Analysis Workspace 中建立的所有新專案自訂自由格式表格偏好設定。有關如何訪問這些首選項的資訊，請參閱[編輯首選項](#edit-preferences)。
 
 也可為個別表格自訂其中一些相同偏好設定。
 
@@ -146,11 +146,11 @@ ht-degree: 99%
 | | 預設表格維度 | 從分鐘、小時、日、週、月、季度或年中選擇。 |
 | | 統一日期 | 選取此選項，讓每一欄的日期與同一列中所有開始日期一致。 |
 | **[欄](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
-| | 繞排標題文字 | 讓您自由格式表格中的標頭文字環繞，讓標頭變得更容易閱讀，表格也更便於分享。這對.pdf轉譯和名稱較長的量度相當實用。 預設啟用。 |
+| | 繞排標題文字 | 讓您自由格式表格中的標頭文字環繞，讓標頭變得更容易閱讀，表格也更便於分享。這對於.pdf呈現和長名稱度量非常有用。 預設啟用。 |
 | | 顯示總計 | 此總計數量通常等於[!UICONTROL 全部總量]或其中的一個子集小計。其反映的是在自由格式表格中套用的任何表格區段，包括「[!UICONTROL 不包含任何項目]」選項。 |
 | | 顯示總計 | 此總計數量代表已收集的所有事件，有時候是指&#x200B;*資料視圖總計*。在面板層級或自由格式表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的事件。具[靜態列](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總計。 |
 | | 顯示走勢圖 | 顯示或隱藏圖表底部的折線圖。隱藏時，圖例會變更為不再以視覺化方式參照線條。 |
-| | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果量度為「頁面檢視」，則數值為列專案的頁面檢視次數。 |
+| | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果度量為「頁視圖」，則數值為行項的頁視圖數。 |
 | | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。例如，若量度為「頁面檢視次數」，則該百分比數值為列項目的頁面檢視次數除以欄的頁面檢視次數。附註：為了讓比例更精確，可以顯示超過 100% 的數值。您也可以將上限提高為 1000%，以確保欄位的寬度足夠。 |
 | | 顯示異常狀況 <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> | 決定是否要在該欄的數值中執行異常偵測。 |
 | | 顯示預測 | 決定是否會對您建立之任何時間序列自由格式表格中的第一個量度欄自動顯示預測值。 |
@@ -185,7 +185,7 @@ ht-degree: 99%
 >abstract="選取用於[!UICONTROL 歷程畫布]視覺效果的預設容器。如果所選取的資料視圖不包含所選取的預設容器，[!UICONTROL 歷程畫布]視覺效果會自動切換到另一個主要容器。"
 
 
-您可以為在 Analysis Workspace 中建立的所有新專案更新偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
+您可以為在 Analysis Workspace 中建立的所有新專案更新偏好設定。有關如何訪問這些首選項的資訊，請參閱[編輯首選項](#edit-preferences)。
 
 也可為個別視覺效果自訂其中一些相同偏好設定。
 
