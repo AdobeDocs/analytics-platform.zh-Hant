@@ -8,7 +8,7 @@ exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: bf4ff740d8d57fe1001b58e1c227644b8ad057cf
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-stitch-customer-care"
->title="啟用相關資料集的拼接"
->abstract="如果您的欄位含有存在於多個資料集中的識別碼，但不是主要識別碼，則可使用拼接將資料提升為一個或多個這些資料集。"
+>title="為相關資料集啟用拼接"
+>abstract="如果某個欄位包含的識別碼存在於多個資料集中，但並非主要識別碼，則可以使用拼接功能將資料提升到其中一個或多個資料集中。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -85,7 +85,7 @@ ht-degree: 92%
 
 | Customer Journey Analytics 功能 | 函數 |
 |---------|----------|
-| [將網路資料與其他管道的資料 (例如呼叫中心資料) 連結起來](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料結構描述和類型。使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)，能以統一方式呈現和組織資料，可進行組合和探索。Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=zh-hant)的功能。 |
+| [將網路資料與其他管道的資料 (例如呼叫中心資料) 連結起來](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料結構描述和類型。使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)，能以統一方式呈現和組織資料，可進行組合和探索。Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=zh-hant)的功能。 |
 | [使用自訂維度來拼接其他資料集中的點擊](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview) | Customer Journey Analytics 可讓您[組合多個報告套件的資料](/help/connections/combined-dataset.md)，如同 Adobe Analytics 中的單一報告套件。 |
 | [與 Adobe Real-time CDP 整合](/help/components/audiences/audiences-overview.md) | 您可以建立客群，並將於 Customer Journey Analytics 中所發現的[客群發佈](/help/components/audiences/audiences-overview.md)至 Adobe Experience Platform 中的 Real-Time Customer Profile，用於客戶目標選擇和個人化。 |
 | [與 Adobe Target (A4T) 整合](/help/integrations/at.md) | Customer Journey Analytics 中的目標選擇報告讓您可以直接在 Customer Journey Analytics 內[衡量及報告 Adobe Target 活動](/help/integrations/at.md)。不過，針對個人化使用案例，Adobe 建議與 Adobe Journey Optimizer 整合。 |

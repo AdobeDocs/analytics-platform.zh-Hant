@@ -8,7 +8,7 @@ role: User
 source-git-commit: c4a7884ae05d9290b2974483474ba8326492d014
 workflow-type: tm+mt
 source-wordcount: '3234'
-ht-degree: 56%
+ht-degree: 57%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-full-table-export"
 >title="建立類似 Data Warehouse 的完整表格匯出"
->abstract="您在 Analysis Workspace 中看到資料時，便可以馬上進行完整表格匯出。您可以視需要建立或排程完整表格匯出。<br><br>如果您已經知道匯出中要包含哪些資料，您只需幾分鐘即可建立完整的表格匯出。"
+>abstract="您在 Analysis Workspace 中看到資料時，便可以馬上進行完整表格匯出。 您可以根據需求建立或安排完整表格匯出。<br><br>如果您已經知道在此次匯出中要包含哪些資料，僅需幾分鐘即可建立完整表格匯出。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -113,7 +113,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="cja-export-notifications"
 >title="通知"
->abstract="新增您想要在此匯出失敗或即將到期時收到通知的使用者和群組。"
+>abstract="新增在匯出失敗或即將到期時要對其發出通知的使用者和群組。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -222,7 +222,7 @@ ht-degree: 56%
 * 計算量度定義中使用不支援的函式（如需詳細資訊，請參閱[不支援的計算量度函式](#unsupported-calculated-metric-functions)）
 * 管理員已限制匯出的元件（如需詳細資訊，請參閱&#x200B;*標籤和原則*&#x200B;中資料檢視表[中資料治理原則的](/help/data-views/data-governance.md)區段）
 * 符合以下所有條件的任何維度：
-   * 從屬於[物件陣列](/help/use-cases/object-arrays.md)一部分的欄位建立(類似Adobe Analytics中的多值變數)。
+   * 從屬於[物件陣列](/help/use-cases/object-arrays.md)一部分的欄位建立（類似Adobe Analytics中的多值變數）。
    * 已啟用[持續性](/help/data-views/component-settings/persistence.md)。
    * 未使用[繫結維度](/help/use-cases/data-views/binding-dimensions-metrics.md)。
 * 來自引用不同[物件陣列](/help/use-cases/object-arrays.md)欄位的多個維度 。(允許引用相同物件陣列的多個維度)。
