@@ -125,7 +125,7 @@ ht-degree: 9%
 >id="connection_stitchingmetrics_badids"
 >title="異常 ID"
 >abstract="異常 ID 是指嚴重影響報告資料的 ID 值。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/badids" text="異常 ID"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="異常 ID"
 
 
 ### 資料集設定
