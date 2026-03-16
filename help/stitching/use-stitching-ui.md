@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 1e0d028db957743416bc7840f5a3682206a3edf3
+source-git-commit: 1ad1698f10dd026b0bd5e67599ef35ab3c552286
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1800'
 ht-degree: 9%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="拼接量度"
->abstract="拼接量度是使用具有過去7天內事件時間戳記的範例資料集來計算。<br>此資料範例集通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;資料表中使用的範例資料不同。"
+>abstract="拼接量度是使用具有過去7天事件時間戳記的範例資料集來計算。<br>此資料範例集通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;資料表中使用的範例資料不同。"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -125,7 +125,7 @@ ht-degree: 9%
 >id="connection_stitchingmetrics_badids"
 >title="異常 ID"
 >abstract="異常 ID 是指嚴重影響報告資料的 ID 值。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/badids" text="異常 ID"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="異常 ID"
 
 
 ### 資料集設定
@@ -188,7 +188,7 @@ ht-degree: 9%
 
 #### 拼接量度
 
-**[!UICONTROL 拼接量度]**&#x200B;是使用具有過去7天內事件時間戳記的範例資料集來計算。 這個範例資料集通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;資料表中使用的範例資料不同。 拼接量度提供下列專案的詳細資訊：
+**[!UICONTROL 拼接量度]**&#x200B;是使用具有過去7天事件時間戳記的範例資料集計算。 這個範例資料集通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;資料表中使用的範例資料不同。 拼接量度提供下列專案的詳細資訊：
 
 * **[!UICONTROL 人員ID涵蓋範圍]**：在拼接程式（即時和重播）期間用於識別的所選人員ID涵蓋範圍。
    * 為了獲得最佳欄位式拚接結果，每個永久ID （裝置資訊）應在至少一個事件上傳送個人ID （使用者資訊）。
