@@ -8,7 +8,7 @@ exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 source-git-commit: 1ad1698f10dd026b0bd5e67599ef35ab3c552286
 workflow-type: tm+mt
 source-wordcount: '1800'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
 >title="個人 ID"
->abstract="從可供使用的身分識別中選取人員 ID (人員的唯一識別碼)。 如果您的授權包含圖表式拼接，而您想要使用該拼接方法，請選取&#x200B;**[!UICONTROL 身分圖表]**。"
+>abstract="從可供使用的身分識別中選取人員 ID (人員的唯一識別碼)。 若您的授權包含圖表型拼接，且您想使用該拼接方式，請選取&#x200B;**[!UICONTROL 身分識別圖]**。"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
@@ -125,7 +125,7 @@ ht-degree: 9%
 >id="connection_stitchingmetrics_badids"
 >title="異常 ID"
 >abstract="異常 ID 是指嚴重影響報告資料的 ID 值。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/badids" text="異常 ID"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="異常 ID"
 
 
 ### 資料集設定

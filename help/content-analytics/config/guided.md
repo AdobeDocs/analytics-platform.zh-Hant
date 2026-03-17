@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: b3988dcc0568245bc6aed7aa80cf1c636c61fc7d
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 81%
+ht-degree: 89%
 
 ---
 
@@ -126,47 +126,47 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ac_onboarding_dataviews_button"
 >title="資料視圖"
->abstract="針對Content Analytics的設定，您需要選取一或多個資料檢視。 這樣您才可以將 Content Analytics 資料與其他資料合併。"
+>abstract="若要設定 Content Analytics，您需要選擇一個或多個資料釋圖。這樣您才可以將 Content Analytics 資料與其他資料合併。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_header"
 >title="資料視圖"
->abstract="從Customer Journey Analytics中選取一或多個您想要與Content Analytics資料合併的現有資料檢視。"
+>abstract="從 Customer Journey Analytics 中選取一或多個您想要與 Content Analytics 資料合併的現有資料釋圖。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_header_alt"
 >title="資料視圖"
->abstract="從Customer Journey Analytics中選取一或多個您想要與Content Analytics資料合併的現有資料檢視。<br/>"
+>abstract="從 Customer Journey Analytics 中選取一或多個您想要與 Content Analytics 資料合併的現有資料釋圖。<br/>"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_new_dialog"
->title="選取的資料檢視"
->abstract="您已為此設定修改所選的資料檢視。 所選的資料檢視將會更新以包含Content Analytics量度和維度。 這些量度和維度將從先前選取但不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
+>title="所選資料釋圖"
+>abstract="您已修改此設定的所選資料釋圖。所選資料釋圖將會更新，並納入 Content Analytics 的量度與維度。這些量度和維度將從先前選取但不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_change_dialog"
->title="選取的資料檢視"
->abstract="您已為此設定修改所選的資料檢視。 所選的資料檢視將會更新以包含Content Analytics量度和維度。 這些量度和維度將從先前選取但不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
+>title="所選資料釋圖"
+>abstract="您已修改此設定的所選資料釋圖。所選資料釋圖將會更新，並納入 Content Analytics 的量度與維度。這些量度和維度將從先前選取但不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_current_cleanup_labels_dialog"
->title="選取的資料檢視"
->abstract="您已為此設定修改所選的資料檢視。 所選的資料檢視將會更新以包含Content Analytics量度和維度。 這些量度和維度將從先前選取且不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
+>title="所選資料釋圖"
+>abstract="您已修改此設定的所選資料釋圖。所選資料釋圖將會更新，並納入 Content Analytics 的量度與維度。這些量度和維度將從先前選取且不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_prev_cleanup_labels_dialog"
->title="選取的資料檢視"
->abstract="您已為此設定修改所選的資料檢視。 所選的資料檢視將會更新以包含Content Analytics量度和維度。 這些量度和維度將從先前選取且不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
+>title="所選資料釋圖"
+>abstract="您已修改此設定的所選資料釋圖。所選資料釋圖將會更新，並納入 Content Analytics 的量度與維度。這些量度和維度將從先前選取且不再選取的資料檢視中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有選取的資料檢視都會繼承屬於此組態部分的管道。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_channels_button"
 >title="頻道"
->abstract="為設定啟用及設定一或多個通道。"
+>abstract="啟用並設定此設定的一或多個管道。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_channels_header"
 >title="頻道"
->abstract="為設定啟用及設定一或多個通道。 屬於設定的所有資料檢視都會繼承啟用的管道。"
+>abstract="啟用並設定此設定的一或多個管道。此設定中所有資料釋圖保留已啟用的管道。"
 
 
 您的設定需要選取「[資料檢視](/help/data-views/data-views.md)」。
@@ -349,17 +349,17 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_web_pages_header"
 >title="網頁資料收集"
->abstract="指示在收集Content Analytics的資料時，哪些頁面應&#x200B;**包含**&#x200B;或&#x200B;**排除**。"
+>abstract="在收集 Content Analytics 資料時，指名應&#x200B;**包含**&#x200B;或&#x200B;**排除**&#x200B;哪些頁面。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_web_assets_boldheader"
->title="網站資產資料收集"
+>title="網頁資產資料收集"
 >abstract="**要包含/排除的資產**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_web_assets_header"
->title="網站資產資料收集"
->abstract="指示在收集Content Analytics的資料時，哪些資產應&#x200B;**包含**&#x200B;或&#x200B;**排除**。"
+>title="網頁資產資料收集"
+>abstract="在收集 Content Analytics 資料時，指名應&#x200B;**包含**&#x200B;或&#x200B;**排除**&#x200B;哪些資產。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_experience_locations_boldheader"
@@ -383,12 +383,12 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_boldheader"
->title="行動資產URL資料收集"
+>title="行動資產 URL 資料收集"
 >abstract="**要排除的資產URL**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_header"
->title="行動資產URL資料收集"
+>title="行動資產 URL 資料收集"
 >abstract="指示在收集Content Analytics的資料時，應該將哪些資產URL排除在&#x200B;**之外**。"
 
 
@@ -443,12 +443,12 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_header_overrides_boldheader"
 >title="標頭覆寫"
->abstract="**標題覆寫**"
+>abstract="**標頭覆寫**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_header_overrides_header"
 >title="標頭覆寫"
->abstract="進階功能，可略過機器人偵測或閘道流量。 呼叫端點時，Content Analytics會包含您的自訂HTTP標頭。"
+>abstract="可繞過機器人偵測或流量閘口的進階功能。Content Analytics 在呼叫您的端點時會包含自訂的 HTTP 標頭。"
 
 您可以選擇在&#x200B;**[!UICONTROL 標頭覆寫]**&#x200B;區段中指定標頭名稱和密碼標頭值。  此標頭會覆寫設定，以確保Content Analytics傳送自訂HTTP標頭來略過您實作的任何機器人偵測或閘道流量技術。
 
