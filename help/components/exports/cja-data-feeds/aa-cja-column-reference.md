@@ -20,7 +20,7 @@ Adobe Analytics與Customer Journey Analytics資料摘要欄之間不可能有真
 
 >[!NOTE]
 >
->此參考僅包含Adobe根據[Analytics資料摘要資料行參考](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)視為目前的資料行。 如果您的Analytics資料摘要欄位未在此表格中列出，且您主動使用，請參閱貴組織的解決方案設計檔案，以判斷其在Customer Journey Analytics中的最佳對應專案。
+>此參考僅包含Adobe根據[Analytics資料摘要資料行參考](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)視為目前的資料行。 如果您的Analytics資料摘要欄位未在此表格中列出，且您主動使用，請參閱貴組織的解決方案設計檔案，以判斷其在Customer Journey Analytics中的最佳對應專案。
 
 +++**`accept_language`**
 
@@ -360,7 +360,7 @@ EF ID，用於Adobe Advertising整合。
 
 {{cja-df-post}}
 
-如果您的結構描述使用[[!UICONTROL Commerce詳細資料]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details)欄位群組，部分量度可能會直接對應到下列XDM欄位：
+如果您的結構描述使用[[!UICONTROL Commerce詳細資料]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/commerce-details)欄位群組，部分量度可能會直接對應到下列XDM欄位：
 
 * **結帳**： `xdm.commerce.checkouts.value`
 * **購物車新增次數**： `xdm.commerce.productListAdds.value`
@@ -373,7 +373,7 @@ EF ID，用於Adobe Advertising整合。
 有些量度可能會使用事件序列化，因此Adobe Analytics可完全控制重複資料刪除。 您可以使用[量度重複資料刪除](/help/data-views/component-settings/metric-deduplication.md)元件設定來達成重複資料刪除同位檢查。
 
 * 如果您的量度在Adobe Analytics中依造訪進行重複資料刪除，您可以在該量度的元件設定中，將重複資料刪除範圍設定為工作階段。
-* 如果您的量度在Adobe Analytics中依事件ID進行重複資料刪除，則該量度的XDM物件可能同時包含`value`和`id`欄位。 如果您的結構描述使用[[!UICONTROL Commerce詳細資料]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details)欄位群組，這些量度可能位於這些XDM欄位中，您可以在量度的元件設定中設定&#x200B;**[!UICONTROL 重複資料刪除ID]**&#x200B;欄位：
+* 如果您的量度在Adobe Analytics中依事件ID進行重複資料刪除，則該量度的XDM物件可能同時包含`value`和`id`欄位。 如果您的結構描述使用[[!UICONTROL Commerce詳細資料]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/commerce-details)欄位群組，這些量度可能位於這些XDM欄位中，您可以在量度的元件設定中設定&#x200B;**[!UICONTROL 重複資料刪除ID]**&#x200B;欄位：
 
    * **結帳**： `xdm.commerce.checkouts.id`
    * **購物車新增次數**： `xdm.commerce.productListAdds.id`
