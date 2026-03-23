@@ -9,10 +9,10 @@ index: true
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 82fe9ca3b702f9213e2eb1e4ab0260500be0f731
+source-git-commit: ee7989a36c9d25468dee5b1b2902ed2757e3a4b7
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 99%
+source-wordcount: '1390'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 99%
          + [使用 Adobe Journey Optimizer 進行個人化](/help/getting-started/cja-upgrade/cja-upgrade-personalization-journeyoptimizer.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
-      + [使用 Adobe Analytics 資料 &#x200B;](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [跨ims資料對應](../getting-started/aa-vs-cja/mapping-data-ims-orgs.md)
       + [功能支援](../getting-started/aa-vs-cja/cja-aa.md)
       + [比較術語](../getting-started/aa-vs-cja/terminology.md)
@@ -403,7 +403,7 @@ ht-degree: 99%
       + [概觀](/help/components/c-intelligent-alerts/intelligent-alerts.md)
       + [建立警報](/help/components/c-intelligent-alerts/alert-builder.md)
       + [管理警報](/help/components/c-intelligent-alerts/alert-manager.md)
-      + [功能比較 &#x200B;](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [功能比較 ](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [使用案例](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + 匯出 {#exports}
       + [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)
@@ -412,6 +412,11 @@ ht-degree: 99%
       + [管理匯出](/help/components/exports/manage-exports.md)
       + [管理匯出記錄](/help/components/exports/manage-export-logs.md)
       + [疑難排解匯出](/help/components/exports/troubleshoot-exports.md)
+      + 資料饋送 {#cja-data-feeds}
+         + [資料摘要概觀](/help/components/exports/cja-data-feeds/data-feed-overview.md)
+         + [比較Adobe Analytics資料摘要](/help/components/exports/cja-data-feeds/df-comparison.md)
+         + [準備對應欄](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
+         + [對應欄](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
    + 資料字母排序 {#data-dictionary}
       + [概觀](../components/data-dictionary/data-dictionary-overview.md)
       + [檢視資料字母排序中的元件資訊](../components/data-dictionary/view-data-dictionary.md)
