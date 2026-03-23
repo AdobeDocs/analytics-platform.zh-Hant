@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: b3988dcc0568245bc6aed7aa80cf1c636c61fc7d
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_header"
 >title="連線"
->abstract="從Customer Journey Analytics中選取要與Content Analytics資料合併的現有連線。"
+>abstract="從 Customer Journey Analytics 中選取您想要與 Content Analytics 資料合併的現有連線。"
 
 每個設定都需要一個唯一的名稱。例如，`Example Content Analytics configuration`。儲存或實施設定時需要該名稱。
 
@@ -364,32 +364,32 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_experience_locations_boldheader"
 >title="行動體驗位置資料收集"
->abstract="**要排除的體驗位置**"
+>abstract="**應排除的體驗位置**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_experience_locations_header"
 >title="行動體驗位置資料收集"
->abstract="指示在收集Content Analytics的資料時，哪些體驗位置應該&#x200B;**排除**。"
+>abstract="指定在收集 Content Analytics 資料時，應&#x200B;**排除**&#x200B;哪些體驗位置。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_locations_boldheader"
 >title="行動資產位置資料收集"
->abstract="**要排除的資產位置**"
+>abstract="**應排除的資產位置**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_locations_header"
 >title="行動資產位置資料收集"
->abstract="指示在收集Content Analytics的資料時，哪些資產位置應&#x200B;**排除**。"
+>abstract="指定在收集 Content Analytics 資料時，應&#x200B;**排除**&#x200B;哪些資產位置。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_boldheader"
 >title="行動資產 URL 資料收集"
->abstract="**要排除的資產URL**"
+>abstract="**應排除的資產 URL**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_header"
 >title="行動資產 URL 資料收集"
->abstract="指示在收集Content Analytics的資料時，應該將哪些資產URL排除在&#x200B;**之外**。"
+>abstract="指定在收集 Content Analytics 資料時，應&#x200B;**排除**&#x200B;哪些資產 URL。"
 
 
 #### 全新設定 {#new-configuration}
