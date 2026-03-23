@@ -19,7 +19,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->此參考僅包含Adobe根據[Analytics資料摘要資料行參考](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)視為目前的資料行。 如果您的Analytics資料摘要欄位未在此表格中列出，且您主動使用，請參閱貴組織的解決方案設計檔案，以判斷其在Customer Journey Analytics中的最佳對應專案。
+>此參考僅包含Adobe根據[Analytics資料摘要資料行參考](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)視為目前的資料行。 如果您的Analytics資料摘要欄位未在此表格中列出，且您主動使用，請參閱貴組織的解決方案設計檔案，以判斷其在Customer Journey Analytics中的最佳對應專案。
 
 +++**`accept_language`**
 
