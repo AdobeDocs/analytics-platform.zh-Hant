@@ -4,10 +4,10 @@ title: 編輯元件專案
 feature: Components
 role: Admin
 exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
-source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
+source-git-commit: 8e4808f99e0610a450e0a29fb218ae4c7d77052b
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 69%
+source-wordcount: '1252'
+ht-degree: 64%
 
 ---
 
@@ -29,7 +29,19 @@ Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢
 
 1. (可選) 開始在搜尋欄位中鍵入要編輯的元件名稱。
 
-   元件的類型可依據顏色和圖示加以識別。**維度**![維度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)是橙色的，**區段**![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)是藍色的，**日期範圍**![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)是紫色的，而&#x200B;**量度**![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)是綠色的。Adobe 圖示代表計算量度範本或區段範本，計算機圖示![計算機圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)則代表由貴組織中的 Analytics 管理員所建立的計算量度。
+   元件型別可由顏色和圖示識別。
+
+   * **維度** ![Dimension圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)為橘色
+
+   * **區段** ![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)為藍色
+
+   * **日期範圍** ![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)為紫色
+
+   * **量度** ![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)為綠色
+
+   * **Adobe圖示** ![Adobe圖示](assets/default-calc-metric-icon.png)表示計算量度範本或區段範本
+
+   * **計算器圖示** ![計算器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)表示貴組織中Analytics管理員所建立的計算量度
 
 1. (可選) 選取 **篩選器** 圖示 ![資料字典篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後選擇以下任一篩選器選項以篩選元件清單：
 
@@ -52,7 +64,7 @@ Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢
 
 1. （選擇性）選取&#x200B;**排序**&#x200B;圖示![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取下列任一區段選項來排序元件清單：
 
-   | 選項 | 功能 |
+   | 選項 | 函數 |
    |---------|----------|
    | [!UICONTROL **建議**] | 以建議置於清單頂端的元件來對元件進行排序。您或貴組織中其他人近期最頻繁使用的元件會顯示在清單的較高位置。 |
    | [!UICONTROL **字母順序**] | 依字母順序對元件進行排序。 |

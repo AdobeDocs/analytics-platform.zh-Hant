@@ -1,25 +1,25 @@
 ---
-description: Analysis Workspace 中的資料字典允許使用者對 Analysis Workspace 中的各種元件建立目錄和追蹤，包括其預定用途、已核准的元件、重複的元件等等。
+description: Analysis Workspace中的資料字典可讓使用者編目及追蹤Analysis Workspace中的各種元件，包括其預期用途、已核准、重複專案等。
 title: 檢視元件資訊
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
+source-git-commit: 5319c0aafa5c92215176044a35953ac1e183eb53
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 63%
+source-wordcount: '1324'
+ht-degree: 60%
 
 ---
 
 # 檢視元件資訊
 
-資料字典允許您檢視有關元件的資訊，包括元件說明、類似的元件、經常搭配元件使用的其他元件等。
+資料字典可讓您檢視元件的相關資訊，包括其說明、類似元件、元件經常搭配使用的其他元件等等。
 
 若要檢視資料字典中關於元件的資訊：
 
 1. 前往包含要檢視之元件的 Analysis Workspace 專案。
 
-1. 選取Analysis Workspace左側面板中的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。 (存取資料字典的替代方法說明請見[資料字典概觀](/help/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」。)
+1. 選取Analysis Workspace左側面板中的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。 （[在](/help/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)資料字典總覽[中存取資料字典](/help/components/data-dictionary/data-dictionary-overview.md)中說明存取資料字典的其他方式。）
 
    顯示資料字典視窗。
 
@@ -31,9 +31,21 @@ ht-degree: 63%
 
 1. (可選) 在搜尋欄位中開始鍵入要檢視的元件名稱。
 
-   元件的類型可依據顏色和圖示加以識別。**維度**![維度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)是橙色的，**區段**![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)是藍色的，**日期範圍**![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)是紫色的，而&#x200B;**量度**![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)是綠色的。Adobe圖示![Adobe圖示](assets/default-calc-metric-icon.png)代表計算量度範本或區段範本，而計算器圖示![計算器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)代表貴組織中的Analytics管理員所建立的計算量度。
+   元件型別可由顏色和圖示識別。
 
-1. （選擇性）選取&#x200B;**篩選**&#x200B;圖示![資料字典篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後選取下列任一區段選項來篩選元件清單：
+   * **維度** ![Dimension圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)為橘色
+
+   * **區段** ![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)為藍色
+
+   * **日期範圍** ![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)為紫色
+
+   * **量度** ![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)為綠色
+
+   * **Adobe圖示** ![Adobe圖示](assets/default-calc-metric-icon.png)表示計算量度範本或區段範本
+
+   * **計算器圖示** ![計算器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)表示貴組織中Analytics管理員所建立的計算量度
+
+1. (可選) 選取 **篩選器** 圖示 ![資料字典篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後選擇以下任一篩選器選項以篩選元件清單：
 
    | 選項 | 函數 |
    |---------|----------|
@@ -52,9 +64,16 @@ ht-degree: 63%
 
    {style="table-layout:auto"}
 
-1. （選擇性）選取&#x200B;**排序**&#x200B;圖示![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取下列任一區段選項來排序元件清單：
+1. (可選) 選取「**排序**」圖示 ![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取以下任一篩選器選項以將元件清單排序：
 
-   {{components-sort-options}}
+   | 選項 | 函數 |
+   |---------|----------|
+   | **[!UICONTROL 建議]** | 根據其建議對每種類型 (維度、量度、區段和日期範圍) 的元件進行排序。您或貴組織的其他人近期使用最頻繁的元件會顯示在每份清單的較高位置。 |
+   | **[!UICONTROL 上次修改日期]** | 根據其上次修改日期對每種類型 (維度、量度、區段和日期範圍) 的元件進行排序。最近修改的元件會在每個清單中顯示得比較高。 |
+   | **[!UICONTROL 字母順序]** | 按字母升序對每種類型 (維度、量度、區段和日期範圍) 的元件進行排序。 |
+   | **[!UICONTROL 分類]** | 根據其類別對每種類型 (維度、量度、區段和日期範圍) 的元件進行排序。例如，「已組織」與「未組織」資料檢視元件。 |
+
+   {style="table-layout:auto"}
 
 1. 從元件清單中選取您要檢視的元件。
 
