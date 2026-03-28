@@ -4,7 +4,7 @@ title: 下載專案和資料
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: 1cb9e18f79e8ca49b63aa7d8117ce6c61a020454
+source-git-commit: 873247c643b3be4bb561955af84dd4bbb4e1d81f
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 22%
@@ -67,17 +67,18 @@ ht-degree: 22%
 >您可以使用快速鍵&#x200B;**_cmd + c_** (macOS)或&#x200B;**_ctrl + c_** (Windows)，將您的選取內容複製到剪貼簿。 然後使用&#x200B;**_cmd + v_** (macOS)或&#x200B;**_ctrl + v_** (Windows)貼上資料。
 
 
-![「複製」選擇複製到剪貼簿選項。 &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
+![「複製」選擇複製到剪貼簿選項。 ](assets/copy-clipboard.png){zoomable="yes"}
 
 ## 將視覺效果中的資料下載為CSV檔案 {#download-data}
 
 從快顯選單下載為CSV選項可讓您將資料表格或任何視覺效果的資料來源下載為CSV檔。
 
-若要進行此步驟：
+若要這麼做：
 
 * 從任何表格或視覺效果的標題中，選取內容功能表中的&#x200B;**[!UICONTROL 將資料下載為CSV檔]**。 這樣會將表格中顯示的資料或視覺效果的基本資料來源下載為 CSV 檔。
 
-<!-- Only relevant as soon as CJA supports Map visualization 
+<!-- 
+Only relevant as soon as CJA supports Map visualization 
   >[!NOTE]
   >
   >  Note: the Map visualization does not support this option.
@@ -89,7 +90,7 @@ ht-degree: 22%
 
 ## 將專案下載為CSV檔案 {#download-items}
 
-如果您想要分析表格中超過400列的可見資料，請從表格標頭或任何一列的內容功能表中選取&#x200B;**以CSV格式下載專案(_Dimension名稱_)**。 此選項可針對選取的維度匯出多達 50,000 個維度項目 (根據表格排序)，並有套用的排序選項和篩選器。如果您從表格頂端選取此選項，會匯出表格中的第一個維度。
+如果您想要分析表格中超過400列的可見資料，請從表格標頭或任何一列的內容功能表中選取&#x200B;**以CSV格式下載專案（_Dimension名稱_）**。 此選項可針對選取的維度匯出多達 50,000 個維度項目 (根據表格排序)，並有套用的排序選項和篩選器。如果您從表格頂端選取此選項，會匯出表格中的第一個維度。
 
 ![將項目下載為 CSV (頁面) 選項。](assets/download-items-as-csv.png)
 
@@ -117,18 +118,18 @@ ht-degree: 22%
 下載檔案時，您會看到下列通知：
 
 * 已要求藍色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv。_x _%完成]**，表示進度。 若要隨時取消下載，請選取&#x200B;**[!UICONTROL 取消下載]**。 若要關閉郵件，請選取![CrossSize100](/help/assets/icons/CrossSize100.svg)，這不會取消下載。
-* 綠色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv在檔案下載完成後已下載]**&#x200B;完成通知。 檔案會下載至為瀏覽器設定的下載資料夾。
+* 綠色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv在檔案下載完成後已下載]**完成通知。 檔案會下載至為瀏覽器設定的下載資料夾。
 
 如果您一次要求多項下載，您會收到通知，告知您每項額外下載要等到前一個下載完成時才會排入佇列。
 
 
 ## 下載敏感性資料 {#sensitive}
 
-想像一下[資料治理原則](/help/data-views/data-governance.md)會防止資料下載。 而且會在您報告的資料檢視中開啟此原則。 因此，專案的任何下載(例如傳送電子郵件或共用PDF檔案時)都會對標示為敏感的資料欄位進行雜湊處理。 您仍可以在Analysis Workspace中分析這些欄位。 如果您嘗試透過電子郵件傳送專案或共用專案，PDF或CSV檔案中的敏感資料欄位會顯示為空白。
+想像一下[資料治理原則](/help/data-views/data-governance.md)會防止資料下載。 而且會在您報告的資料檢視中開啟此原則。 因此，專案的任何下載（例如傳送電子郵件或共用PDF檔案時）都會對標示為敏感的資料欄位進行雜湊處理。 您仍可以在Analysis Workspace中分析這些欄位。 如果您嘗試透過電子郵件傳送專案或共用專案，PDF或CSV檔案中的敏感資料欄位會顯示為空白。
 
 如果標示為敏感的資料欄位包含在資料檢視中，則從畫面選取和複製資料的選項會針對資料檢視中的所有資料受到限制。
 
-## 常見問答 {#faq}
+## 常見問題 {#faq}
 
 | 問題 | 回答 |
 | --- | --- |

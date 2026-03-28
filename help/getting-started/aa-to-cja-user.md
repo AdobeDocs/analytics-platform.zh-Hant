@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 99%
@@ -43,7 +43,8 @@ Experience Platform 中的客戶資料以資料集形式儲存，資料集含有
 透過連線，Analytics 管理員可以將取自 Adobe Experience Platform 的資料集整合到 Customer Journey Analytics。
 
 
-<!-- Outdated UI
+<!--
+Outdated UI
 
 >[!BEGINSHADEBOX]
 
@@ -120,7 +121,7 @@ Customer Journey Analytics 將身分識別的概念擴展到 ECID 之外，以�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Customer Journey Analytics 中使用身分識別](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/visitor-id/understanding-how-customer-journey-analytics-uses-identity){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Customer Journey Analytics 中使用身分識別](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/visitor-id/understanding-how-customer-journey-analytics-uses-identity){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

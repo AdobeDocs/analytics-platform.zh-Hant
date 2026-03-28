@@ -5,7 +5,7 @@ title: 從Workspace報表產生簡報
 feature: Curate and Share
 role: User
 exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
-source-git-commit: d14163794fd4d31b29bfc6f55622d839b67ab3d7
+source-git-commit: b9efb621523f8bbfbb3afe7db4db2e60fcddd34c
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 9%
@@ -110,8 +110,10 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
    | **[!UICONTROL 包含的面板和視覺效果]** | 選擇要包含在簡報中的面板和視覺效果。 您可以納入最多 50 個視覺化圖表。<p>如果視覺效果變暗，後面會接著文字&#x200B;**[!UICONTROL （不支援）]**&#x200B;或&#x200B;**[!UICONTROL （受限制的資料）]**。</p><ul><li>**不支援**：支援大部分的面板和視覺效果。 如需有關不支援的面板和視覺效果的資訊，請參閱[不支援的專案元素和功能](#unsupported-project-elements-and-features)。</li><li>**受限制的資料**：視覺效果中包含的元件受到組織強制執行的資料治理原則限制，無法匯出。 請連絡您的系統管理員，檢視哪些元件受到限制無法匯出，然後在產生幻燈片之前移除受限制的元件。</li></ul> |
    | **[!UICONTROL 強調元件]** | 從視覺效果中選擇您要在簡報中強調的量度和維度。 建立資料故事的主題和總體敘述時，您選擇的元件排名較高，並獲得更多權重。 <p>未套用強調時，元件在簡報中顯示如下：<ul><li>**度量和維度：**&#x200B;斜體</li><li>**Dimension專案：**&#x200B;引號</li></ul></p><p>當套用強調時，元件在簡報中顯示如下：</p><ul><li>**量度和維度：**&#x200B;斜體與粗體</li><li>**Dimension專案：**&#x200B;強調對應維度時為粗體<p>在圖表中反白顯示維度專案時，也會將顏色套用至維度專案。</p></li></ul> |
 
-   <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
-   - **[!UICONTROL Annotations]** - Choose whether annotations are visible in your generated slide presentation. For more information about annotations, see [Annotations overview](/help/components/annotations/overview.md).  -  -->
+   <!-- 
+   add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
+   - **[!UICONTROL Annotations]** - Choose whether annotations are visible in your generated slide presentation. For more information about annotations, see [Annotations overview](/help/components/annotations/overview.md).  -  
+   -->
 
 1. （視條件而定）如果您想以較少的步驟產生投影片，而且您的投影片簡報不需要公司佈景主題，請選取&#x200B;**[!UICONTROL 預設佈景主題]**。
 

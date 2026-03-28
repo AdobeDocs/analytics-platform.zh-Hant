@@ -4,7 +4,7 @@ title: 關鍵量度摘要
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: a85cc758f414c8c9f702ed83d1dd2675bf29a30f
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 94%
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**CustomerJourneyAnalytics** 中的關鍵量度摘要視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[關鍵量度摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/key-metric)_。_
+_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**CustomerJourneyAnalytics** 中的關鍵量度摘要視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**版本的[關鍵量度摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/key-metric)_。_
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,8 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 1. 選取「**[!UICONTROL 建置]**」。
 
-<!--## How the Key Metric Summary visualization handles the comparison date range
+<!--
+## How the Key Metric Summary visualization handles the comparison date range
 
 (This will probably release in January. Per Jaden Howell)
 
@@ -95,7 +96,8 @@ Comparison date range is set to a non-relative date range, such as 'Feb 2nd, 202
 >
 >Last week is relative to the day the project is opened on, but it is not based on the panel's date range of 'Yesterday'. In other cases, such as if the panel's date range was 'This week', it may be relative.
 
-When you change the panel's date range to '4 days ago', the comparison date range remains at the previous selection. -->
+When you change the panel's date range to '4 days ago', the comparison date range remains at the previous selection. 
+-->
 
 關鍵量度摘要的輸出如下所示：
 
