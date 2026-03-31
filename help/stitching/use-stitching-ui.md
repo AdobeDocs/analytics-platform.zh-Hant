@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 1ad1698f10dd026b0bd5e67599ef35ab3c552286
+source-git-commit: 3524a7f62fa509c477e60d4d586ed2de52191b73
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 10%
+source-wordcount: '1727'
+ht-degree: 9%
 
 ---
 
@@ -172,11 +172,6 @@ ht-degree: 10%
 
 
 ### 資料集預覽
-
->[!AVAILABILITY]
->
->本節中說明的增強型&#x200B;**[!UICONTROL 資料集預覽]**&#x200B;介面（包括&#x200B;**[!UICONTROL 拼接量度]**&#x200B;和&#x200B;**[!UICONTROL 錯誤的ID]**）處於發行的「有限測試」階段，可能尚未在您的環境中提供。 如果無法取得，您會在&#x200B;**[!UICONTROL 資料集設定]**&#x200B;介面中看到資料集預覽。 此功能普遍開放使用時，便會移除此注意事項。有關 Customer Journey Analytics 發佈流程的資訊，請參閱 [Customer Journey Analytics 功能發佈](/help/release-notes/releases.md)。
->
 
 在標準&#x200B;**[!UICONTROL 資料集預覽]**&#x200B;介面之上，當[新增](/help/connections/create-connection.md#add-datasets)或是在以人員為基礎的連線中[編輯](/help/connections/create-connection.md#edit-a-dataset)資料集時，可以使用兩個額外的資訊面板。
 
