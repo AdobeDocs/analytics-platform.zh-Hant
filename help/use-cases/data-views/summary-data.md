@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: b54083d85c0e07605c567a8d44824884cdc18c4d
 workflow-type: tm+mt
-source-wordcount: '5021'
+source-wordcount: '5014'
 ht-degree: 15%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 15%
 
 使用案例提供摘要資料、事件資料和查詢資料的範例資料。 所有資料都包含隨機值。
 
-## 擷取
+## 攝取
 
 您會針對此使用案例使用下列範例摘要資料，顯示在Facebook上執行行銷活動的摘要資料。
 
 +++摘要資料
 
-| _id | campaign_name | 成本 | 印象 | campaign_id | network | ad_group | timestamp |
+| _id | campaign_name | 成本 | 印象 | campaign_id | network | ad_group | 時間戳記 |
 |---|---|---:|---:|---|---|---|---|
 | 1 | 123行銷活動 | 100 | 5000 | abc123 | facebook | abc-adgroup | 2024-07-18T18:20:39.000Z |
 | 2 | 123行銷活動 | 50 | 4000 | def123 | facebook | def-adgroup | 2024-07-18T18:20:39.000Z |
@@ -50,7 +50,7 @@ ht-degree: 15%
 | 17 | 321行銷活動 | 20 | 2500 | def321 | facebook | def-adgroup | 2024-07-18T18:20:39.000Z |
 | 18 | 321行銷活動 | 15 | 2250 | ghi321 | facebook | ghi-adgroup | 2024-07-18T18:20:39.000Z |
 
-[![資料下載](/help/assets/icons/DataDownload.svg)](./assets/summary-data.csv)
+[！[資料下載](/help/assets/icons/DataDownload.svg)](./assets/summary-data.csv)
 
 +++
 
@@ -67,7 +67,7 @@ ht-degree: 15%
 
 事件資料可在範例事件資料集中使用。 範例資料如下所示：
 
-| timestamp | _id | page_name | person_id | tracking_code | 訂單 | revenue_amont |
+| 時間戳記 | _id | page_name | person_id | tracking_code | 訂單 | revenue_amont |
 |---|---:|---|---|---|---:|---:|
 | 2024-07-18T19:15:39+00:00 | 1 | 首頁 | person-1abc123 | abc123 |  |  |
 | 2024-07-18T19:15:39+00:00 | 2 | 確認頁面 | person-1abc123 |  | 1 | 174.25 |
@@ -249,7 +249,7 @@ ht-degree: 15%
 | 2024-07-18T19:15:39+00:00 | 178 | 確認頁面 | person-142def654 |  | 1 | 174.25 |
 | 2024-07-18T19:15:39+00:00 | 179 | 首頁 | person-143ghi654 | ghi654 |  |  |
 
-[![資料下載](/help/assets/icons/DataDownload.svg)](./assets/event-data.csv)
+[！[資料下載](/help/assets/icons/DataDownload.svg)](./assets/event-data.csv)
 
 +++
 
@@ -278,7 +278,7 @@ ht-degree: 15%
 | 17 | def321 | def-adgroup | 321行銷活動 |
 | 18 | ghi321 | ghi-adgroup | 321行銷活動 |
 
-[![資料下載](/help/assets/icons/DataDownload.svg)](./assets/lookup-data.csv)
+[！[資料下載](/help/assets/icons/DataDownload.svg)](./assets/lookup-data.csv)
 +++
 
 >[!INFO]
@@ -369,7 +369,7 @@ ht-degree: 15%
    1. 請確定&#x200B;**[!UICONTROL 資料格式]**&#x200B;和&#x200B;**[!UICONTROL 分隔符號]**&#x200B;確實具有您範例資料的正確值。 例如，**[!UICONTROL 已分隔]**&#x200B;為&#x200B;**[!UICONTROL 資料格式]**，而&#x200B;**[!UICONTROL ，]**&#x200B;為&#x200B;**[!UICONTROL 分隔符號]**。
    1. 摘要資料的範例（10筆記錄）會顯示在&#x200B;**[!UICONTROL 範例資料]**&#x200B;中。
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
-1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 對應]**&#x200B;步驟中：
+1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 對應]**步驟中：
    ![範例資料集對應](../assets/example-dataset-mapping.png)
    1. 檢查&#x200B;**[!UICONTROL Source資料]**&#x200B;的所有資料欄位是否正確對應到結構描述中對應的&#x200B;**[!UICONTROL 目標欄位]**。 對於範例資料，不會報告錯誤，因為您明確命名了結構描述中的欄位，類似於範例資料中的欄位名稱。 否則，您可以使用此畫面來更正對應。
    1. 您可以選擇選取![齒輪](/help/assets/icons/Gear.svg) **[!UICONTROL 驗證]**&#x200B;以（再次）驗證資料。
@@ -447,7 +447,7 @@ ht-degree: 15%
 1. 選取&#x200B;**[!UICONTROL 「建立新的資料檢視」]**。
 1. 在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;中，瀏覽精靈畫面來設定您的資料檢視。
    1. 在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;的&#x200B;**[!UICONTROL 設定]**&#x200B;步驟中：
-      1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;選取您的連線 | **[!UICONTROL 連線]**。 例如，**[!UICONTROL 使用摘要資料的連線範例]**。
+      1. 從&#x200B;**[!UICONTROL 設定]** | **[!UICONTROL 連線]**&#x200B;選取您的連線。 例如，**[!UICONTROL 使用摘要資料的連線範例]**。
       1. 輸入資料檢視的&#x200B;**[!UICONTROL 名稱]**，例如`Example Data View Using Summary Data`。
       1. 保留所有其他設定。
       1. 選取&#x200B;**[!UICONTROL 「儲存並繼續」]**。
@@ -463,15 +463,15 @@ ht-degree: 15%
          | 訂購 | 範例事件資料集 | 整數 | *_tenant*.orders |
          | 收入 | 範例事件資料集 | 雙精度浮點數 | *_tenant*.revenue_amount |
 
-         **Dimensions**
+         **維度**
 
          | 元件名稱 | 資料集 | 結構描述資料類型 | 結構描述路徑 |
          |---|---|---|---|
          | 廣告群組（查詢） | 範例查詢資料集 | 字串 | *_tenant*.ad_group |
-         | 廣告群組（摘要） | 範例摘要資料集 | 字串 | *_tenant*.ad_group |
+         | 廣告群組 | 範例摘要資料集 | 字串 | *_tenant*.ad_group |
          | 行銷活動ID | 範例摘要資料集 | 字串 | *_tenant*.campaign_id |
          | 促銷活動名稱（查詢） | 範例查詢資料集 | 字串 | *_tenant*.campaign_name |
-         | 行銷活動名稱（摘要） | 範例摘要資料集 | 字串 | *_tenant*.campaign_name |
+         | 行銷活動名稱 | 範例摘要資料集 | 字串 | *_tenant*.campaign_name |
          | 網路 | 範例摘要資料集 | 字串 | *_tenant*.network |
          | 頁面名稱 | 範例事件資料集 | 字串 | *_tenant*.page_name |
          | 人員 ID | 範例事件資料集 | 字串 | *_tenant*.person_id |
@@ -496,7 +496,7 @@ ht-degree: 15%
          1. 從&#x200B;**[!UICONTROL 查詢資料集]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 範例查詢資料集]**。
          1. 從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL tracking_code]**。
          1. 從&#x200B;**[!UICONTROL 要傳回的值]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL campaign_name]**。
-         1. 選取「**[!UICONTROL 儲存]**」。
+         1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
       1. 將新建立的衍生欄位&#x200B;**[!UICONTROL 促銷活動名稱（查閱衍生欄位）]**&#x200B;新增至&#x200B;**[!UICONTROL 維度]**&#x200B;元件清單。
 
@@ -506,7 +506,7 @@ ht-degree: 15%
 
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 摘要資料群組]**。
          1. 啟用「**[!UICONTROL 建立分組]**」。
-         1. 從&#x200B;**[!UICONTROL Dimension]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 促銷活動名稱（查詢衍生欄位）]**。 此步驟可確保範例查詢資料集中的行銷活動名稱（查詢）可安全地用於報告中(請參閱[Workspace](#workspace))。
+         1. 從&#x200B;**[!UICONTROL Dimension]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 促銷活動名稱（查詢衍生欄位）]**。 此步驟可確保範例查詢資料集中的行銷活動名稱（查詢）可安全地用於報告中（請參閱[Workspace](#workspace)）。
 
       1. 從&#x200B;**[!UICONTROL 度量]**&#x200B;清單中選取&#x200B;**[!UICONTROL 收入]**&#x200B;度量。 在元件面板中：
 
@@ -554,8 +554,8 @@ ht-degree: 15%
 1. 從&#x200B;**[!UICONTROL 維度]**&#x200B;拖曳&#x200B;**[!UICONTROL 追蹤代碼（事件）]**，並將維度拖放到空的自由格式表格上。
 1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 訂單]**，並將量度拖放至&#x200B;**[!UICONTROL 事件]**&#x200B;欄，以取代自由表格中的該欄。
 1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 收入]**，並放置量度，以新增為自由表格的其他欄。
-1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 曝光次數（摘要）]**，並放置量度，以新增為自由表格中的額外欄。
-1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 成本（摘要）]**，並放置量度，以新增為自由表格中的額外欄。
+1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 曝光次數]**，並放置量度，以新增為自由表格中的額外欄。
+1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 成本]**，並放置量度，以新增為自由表格中的額外欄。
 1. 若要儲存您的專案，請選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 儲存]**，然後為您的專案提供名稱。 例如，`Example Project Using Summary Data`。
 
 您想要使用報告摘要資料的強大功能，並報告每次曝光成本和廣告投資報酬率(ROAS)。 若要針對這些量度製作報表，您必須建立兩個計算量度。
@@ -565,14 +565,14 @@ ht-degree: 15%
    1. 指定`Cost per Impression`名稱&#x200B;**[!UICONTROL 的]**。
    1. 選取&#x200B;**[!UICONTROL 格式]**&#x200B;的&#x200B;**[!UICONTROL 貨幣]**。
    1. 指定`4`小數位數&#x200B;**[!UICONTROL 的]**。
-   1. 使用![事件](/help/assets/icons/Event.svg) **[!UICONTROL 成本（摘要）]** **[!UICONTROL ÷]** **[!UICONTROL 曝光數（摘要）]**&#x200B;做為&#x200B;**[!UICONTROL 定義]**。
-   1. 選取「**[!UICONTROL 儲存]**」。
+   1. 使用![事件](/help/assets/icons/Event.svg) **[!UICONTROL 成本]** **[!UICONTROL ÷]** **[!UICONTROL 曝光數]**&#x200B;做為&#x200B;**[!UICONTROL 定義]**。
+   1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 1. 選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]**&#x200B;以新增另一個新計算量度。
    1. 指定`Return on Ad Spend`名稱&#x200B;**[!UICONTROL 的]**。
    1. 選取&#x200B;**[!UICONTROL 格式]**&#x200B;的&#x200B;**[!UICONTROL 貨幣]**。
    1. 選取`2`小數位數&#x200B;**[!UICONTROL 的]**。
-   1. 使用![事件](/help/assets/icons/Event.svg) **[!UICONTROL 收入（上次接觸） | 30天)]** **[!UICONTROL −]** ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 成本（摘要）]**&#x200B;為&#x200B;**[!UICONTROL 定義]**。
-   1. 選取「**[!UICONTROL 儲存]**」。
+   1. 使用![事件](/help/assets/icons/Event.svg) **[!UICONTROL 收入（上次接觸| 30天）]** **[!UICONTROL −]** ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 成本]**&#x200B;作為&#x200B;**[!UICONTROL 定義]**。
+   1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 將計算量度新增至報表。
 
