@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
 exl-id: 1e962f52-6b56-4671-afea-d58dae67e8a8
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: ac86664e0136563d904021c72347fb544cda4a6d
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 4%
+source-wordcount: '749'
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 4%
 | 8 | 新受眾維度 | 新的對象維度<!--and metrics?-->代表您選取之設定檔資料集中所包含的Experience Platform對象，且可用於Analysis Workspace中的報告。 系統會自動建立這些維度。 |
 | 9 | 資料檢視 | 您選取的與連線相關聯的資料檢視。 在Analysis Workspace中分析Experience Platform受眾資料時，您想要使用這些資料檢視。 這些資料檢視會自動設定用於報表的Experience Platform受眾資料。 |
 
-## 設定對象分析
+## 設定客群分析
 
 設定對象分析時，您會選取與您要分析之Experience Platform對象相關聯的沙箱和合併原則。 Customer Journey Analytics會建立新的查詢資料集，然後自動將查詢資料集和設定檔資料集新增到您選擇的連線。
 
@@ -78,6 +78,10 @@ ht-degree: 4%
 | [建立對象分析設定](/help/connections/audience-analysis/audience-analysis-configure.md) | 系統管理員 | <ul><li>資料集：讀取許可權</li><li>結構描述：讀取、寫入</li><li>身分名稱空間：讀取</li></ul> |
 | [在資料檢視中檢視對象分析維度](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | 指派資料檢視的產品設定檔的產品設定檔管理員 <p>如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md)。</p> | 不適用 |
 | 在Analysis Workspace中使用對象分析維度 | 存取已新增對象分析維度的資料檢視 | 不適用 |
+
+## 對象分析使用案例
+
+如需強調Audience Analysis所提供值的使用案例範例，請參閱[Audience Analysis使用案例](/help/connections/audience-analysis/audience-analysis-use-cases.md)。
 
 ## 對象分析限制
 
