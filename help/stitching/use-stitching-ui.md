@@ -1,20 +1,20 @@
 ---
 title: 啟用拼接
-description: 在Customer Journey Analytics中啟用事件資料集的身分彙整。 瞭解如何在連線UI中設定永久ID、人員ID和重新執行視窗，以彙整資料。
+description: 在Customer Journey Analytics中啟用事件資料集的彙整功能。 在連線UI中設定永久ID、人員ID和重新執行視窗。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: f9c2f9cef97e00eb491b815ab8e83820b2dfc032
+source-git-commit: d42f0eb658f26d16bd21bb6ca47d5dd7c228e614
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1717'
 ht-degree: 9%
 
 ---
 
 # 啟用拼接
 
-您可以在已設定為連線一部分的一或多個事件資料集上啟用拼接。 您授權的Customer Journey Analytics套件決定您可以啟用進行拼接的事件資料集數量。
+您可以在已設定為連線一部分的一或多個事件資料集上啟用拼接。 您授權的Customer Journey Analytics套件會決定您可以啟用進行拚接的事件資料集數量。
 
 當您[建立連線](/help/connections/create-connection.md#dataset-settings)或當您[編輯連線](/help/connections/create-connection.md)時，您可以啟用拼接功能，作為事件資料集的[資料集設定](/help/connections/manage-connections.md#edit-a-connection)的一部分。
 
@@ -22,15 +22,14 @@ ht-degree: 9%
 
 您需要檢查並符合您指定的拼接方法的先決條件：[欄位式拼接](fbs.md#prerequisites)或[圖表式拼接](gbs.md#prerequisites)。
 
-
 ## 預檢檢查
 
 如果您符合先決條件，在啟用身分拼接之前，可能會想要對事件資料集中的資料執行一些預檢檢查：
 
-* 如果您打算將XDM結構描述欄位用於永久ID或人員ID，請確定在事件資料集的結構描述中正確標示身分。 [請參閱身分名稱空間概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。
+* 如果您要針對永久ID或人員ID使用[體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)欄位，請確保在事件資料集的結構描述中正確標示身分。 [請參閱身分名稱空間概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。
 * 驗證永久ID和人員ID的身分涵蓋範圍：
 
-   * **永久ID**
+   * **[!UICONTROL 永久ID]**
 
      查詢7天的資料，其中您的永久ID欄位不是Null，再除以資料集內所有事件的7天資料查詢。 此百分比應高於95%。
 
@@ -53,11 +52,11 @@ ht-degree: 9%
       * `{PERSISTENT_ID_FIELD}`是永久識別碼的欄位。 例如：`identityMap.ecid[0]`。
       * `{DATASET_TABLE_NAME}`是事件資料集的資料表名稱。
       * `{FORMAT_STRING}`是時間戳記欄位的格式字串。 例如：`MM/DD/YY HH12:MI AM`。
-      * `{START_DATE} `是開始日期。 例如：`2024-01-01 00:00:00`。
+      * `{START_DATE}`是開始日期。 例如：`2024-01-01 00:00:00`。
       * `{END_DATE}`是標準格式的結束日期。 例如：`2024-01-08 00:00:00`。
 
 
-   * **個人 ID**
+   * **[!UICONTROL 個人 ID]**
       * 對於圖表式拚接，請確保身分圖表包含從您選擇的永久ID名稱空間和人員ID名稱空間中連結ID值的片段。 您可以前往[Experience Platform身分識別圖形檢視器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}執行測試，並透過某些範例永久ID值查詢圖形。 驗證這些永久ID值是否連結至圖表中的人員ID值。
       * 對於以欄位為基礎的彙整，請查詢7天資料中的人員ID欄位不是Null，然後除以資料集中所有事件的7天資料查詢。 理想情況下，此百分比應高於5%。
 
@@ -130,9 +129,9 @@ ht-degree: 9%
 
 ### 資料集設定
 
-若要啟用拼接，請在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊的事件資料集&#x200B;**[!UICONTROL 資料集設定]**&#x200B;區段中：
+若要啟用拼接，請在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊的事件資料集&#x200B;**[!UICONTROL 資料集設定]**&#x200B;區段中。
 
-啟用身分拼接時![身分拼接選項](assets/identity-stitching-ui.png)
+啟用功能時![身分拼接選項](assets/identity-stitching-ui.png)
 
 1. 選取&#x200B;**[!UICONTROL 啟用身分拼接]**。
 
@@ -142,18 +141,17 @@ ht-degree: 9%
 
 1. 從&#x200B;**[!UICONTROL 永久ID]**&#x200B;下拉式功能表中選取永久ID。
 
-   如果您為永久ID選取&#x200B;**[!UICONTROL 身分對應]**，則必須選取名稱空間。 您有兩個選項：
+   如果您為永久識別碼選取&#x200B;**[!UICONTROL 身分對應]**，請選取名稱空間。 您有兩個選項：
 
    * 選取&#x200B;**[!UICONTROL 使用主要身分名稱空間]**&#x200B;以使用主要身分名稱空間。
    * 從&#x200B;**[!UICONTROL 名稱空間]**&#x200B;下拉式功能表中選取名稱空間。
 
 1. 從&#x200B;**[!UICONTROL 人員ID]**&#x200B;下拉式功能表中選取人員ID。
 
-   如果您為人員ID選取&#x200B;**[!UICONTROL 身分對應]**，則必須選取名稱空間。 您有兩個選項：
+   如果您為人員ID選取&#x200B;**[!UICONTROL 身分對應]**，請選取名稱空間。 您有兩個選項：
 
    * 選取&#x200B;**[!UICONTROL 使用主要身分名稱空間]**&#x200B;以使用主要身分名稱空間。
    * 從&#x200B;**[!UICONTROL 名稱空間]**&#x200B;下拉式功能表中選取名稱空間。
-
 
    如果您為人員ID選取&#x200B;**[!UICONTROL 身分圖表]** （若要使用[圖表式拼接](/help/stitching/gbs.md)），則必須選取名稱空間。
 
@@ -175,9 +173,14 @@ ht-degree: 9%
 
 在標準&#x200B;**[!UICONTROL 資料集預覽]**&#x200B;介面之上，當[新增](/help/connections/create-connection.md#add-datasets)或是在以人員為基礎的連線中[編輯](/help/connections/create-connection.md#edit-a-dataset)資料集時，可以使用兩個額外的資訊面板。
 
-啟用身分拼接時![身分拼接選項](assets/identity-stitching-ui-preview.png)
+啟用功能時![身分拼接選項](assets/identity-stitching-ui-preview.png)
 
 #### 拼接量度
+
+>[!AVAILABILITY]
+>
+>圖表式拚接不提供量度拚接。
+>
 
 **[!UICONTROL 拼接量度]**&#x200B;是使用具有過去7天事件時間戳記的範例資料集計算。 這個範例資料集通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;資料表中使用的範例資料不同。 拼接量度提供下列專案的詳細資訊：
 
@@ -191,8 +194,12 @@ ht-degree: 9%
 
   永久ID涵蓋範圍會以百分比顯示，並和穩定開發或生產設定上的最低建議值比較。
 
-
 #### 異常 ID
+
+>[!AVAILABILITY]
+>
+>錯誤的ID不適用於圖表式拼接。
+>
 
 >[!INFO]
 >
@@ -236,7 +243,7 @@ ht-degree: 9%
 
 ## 移轉
 
-在Connections介面中啟用的彙整可同時存在，而不會出現任何以請求為基礎的彙整問題。
+在Connections介面中啟用的彙整可同時存在，而不會出現請求式彙整的任何問題。
 
 例如，由於先前或目前的拼接請求，您在資料湖中有網頁型拼接資料集。 您可以使用連線介面，從客服中心資料集新增拼接資料，以將該資料與網頁型資料結合。
 
