@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 3524a7f62fa509c477e60d4d586ed2de52191b73
+source-git-commit: f9c2f9cef97e00eb491b815ab8e83820b2dfc032
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1712'
 ht-degree: 9%
 
 ---
@@ -174,10 +174,6 @@ ht-degree: 9%
 ### 資料集預覽
 
 在標準&#x200B;**[!UICONTROL 資料集預覽]**&#x200B;介面之上，當[新增](/help/connections/create-connection.md#add-datasets)或是在以人員為基礎的連線中[編輯](/help/connections/create-connection.md#edit-a-dataset)資料集時，可以使用兩個額外的資訊面板。
-
->[!NOTE]
->對於已在AWS上部署Customer Journey Analytics的客戶，此功能正在等候發行。
->
 
 啟用身分拼接時![身分拼接選項](assets/identity-stitching-ui-preview.png)
 
