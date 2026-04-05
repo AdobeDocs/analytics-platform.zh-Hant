@@ -1,20 +1,25 @@
 ---
 cloud: Experience Cloud
+solution: Customer Journey Analytics
+type: Documentation
 git-repo: https://github.com/AdobeDocs/analytics-platform.zh-Hant
 description: 此檔案包含存放庫層級中繼資料，會傳送至存放庫中的使用手冊TOC.md檔案。
 feature-set: Customer Journey Analytics
+landing-page-name: customer-journey-analytics
+landing-page-breadcrumb-title: Customer Journey Analytics
 role: User, Admin
-source-git-commit: edbad9c9d3dc0b48db5334828a18ef652d4a38aa
+index: true
+source-git-commit: b718ec4452a8ea394cb3d0969f49b18a667dcf3a
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 84%
+source-wordcount: '125'
+ht-degree: 86%
 
 ---
 
 
-# 供內部使用的中繼資料
+# 內部專用中繼資料
 
-metadata.md 檔案包含存放庫層級中繼資料，會傳送至存放庫中的使用手冊 TOC.md 檔案。如果您想變更任何使用手冊的 metadata.md 內容，可以在任何 TOC.md 檔案中進行更改。
+metadata.md 檔案包含存放庫層級的中繼資料，會將以上資料傳遞至存放庫中的使用者指南 TOC.md 檔案。 若您想針對任何使用者指南，變更 metadata.md 的內容，請開啟任何 TOC.md 檔案，就能變更資料。
 
 | 中繼資料您應留意但不影響分數的問題。 | 作用 |
 |--- |--- |
