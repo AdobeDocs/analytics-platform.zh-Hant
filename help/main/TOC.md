@@ -2,10 +2,10 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: bac8472ed61d2c7421fb43957c22d18edaac67ec
+source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
 workflow-type: tm+mt
 source-wordcount: '1389'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 + 發行說明 {#releases}
    + [最新版本](../release-notes/latest.md)
-   + [預發行說明](../release-notes/pre-release-notes.md)
+   + {hide-from-toc}[發行前說明](../release-notes/pre-release-notes.md)
    + [2026 版本](../release-notes/2026.md)
    + [2025 年版本](../release-notes/2025.md)
    + [2024 年版本](../release-notes/2024.md)
@@ -43,10 +43,10 @@ ht-degree: 98%
 
 + 升級和比較 {#compare-aa-cja}
    + 升級至 Customer Journey Analytics {#upgrade-to-cja}
-      + [開始使用](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
-      + [選擇您的升級路徑](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
-      + [將資料傳送到 Platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
-      + [保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
+      + {hide-from-toc}[快速入門](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
+      + {hide-from-toc}[選擇您的升級路徑](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
+      + {hide-from-toc}[傳送資料至平台](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
+      + {hide-from-toc}[保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [建議的升級流程](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
       + [為您的組織做好準備](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)
       + 架構者和建立結構描述 {#schema}
@@ -94,7 +94,7 @@ ht-degree: 98%
          + [使用 Adobe Journey Optimizer 進行個人化](/help/getting-started/cja-upgrade/cja-upgrade-personalization-journeyoptimizer.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
-      + [使用 Adobe Analytics 資料 &#x200B;](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [跨ims資料對應](../getting-started/aa-vs-cja/mapping-data-ims-orgs.md)
       + [功能支援](../getting-started/aa-vs-cja/cja-aa.md)
       + [比較術語](../getting-started/aa-vs-cja/terminology.md)
@@ -396,7 +396,7 @@ ht-degree: 98%
       + [概觀](/help/components/c-intelligent-alerts/intelligent-alerts.md)
       + [建立警報](/help/components/c-intelligent-alerts/alert-builder.md)
       + [管理警報](/help/components/c-intelligent-alerts/alert-manager.md)
-      + [功能比較 &#x200B;](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [功能比較 ](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [使用案例](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + 匯出 {#exports}
       + [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)
@@ -406,10 +406,10 @@ ht-degree: 98%
       + [管理匯出記錄](/help/components/exports/manage-export-logs.md)
       + [疑難排解匯出](/help/components/exports/troubleshoot-exports.md)
       + 資料饋送 {#cja-data-feeds}
-         + [資料摘要概觀](/help/components/exports/cja-data-feeds/data-feed-overview.md)
-         + [比較Adobe Analytics資料摘要](/help/components/exports/cja-data-feeds/df-comparison.md)
-         + [準備對應欄](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
-         + [對應欄](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
+         + {hide-from-toc}[資料摘要概觀](/help/components/exports/cja-data-feeds/data-feed-overview.md)
+         + {hide-from-toc}[比較Adobe Analytics資料摘要](/help/components/exports/cja-data-feeds/df-comparison.md)
+         + {hide-from-toc}[準備對應資料行](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
+         + {hide-from-toc}[對應資料行](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
    + 資料字母排序 {#data-dictionary}
       + [概觀](../components/data-dictionary/data-dictionary-overview.md)
       + [檢視資料字母排序中的元件資訊](../components/data-dictionary/view-data-dictionary.md)
@@ -532,7 +532,7 @@ ht-degree: 98%
          + [連結工作階段重播](/help/use-cases/third-party/quantum-metric/tie-session-replays.md)
          + [使用熱度圖](/help/use-cases/third-party/quantum-metric/heatmap.md)
          + [新增摩擦事件](/help/use-cases/third-party/quantum-metric/friction-events.md)
-         + [來源連接器](/help/use-cases/third-party/quantum-metric/source-connector.md)
+         + {hide-from-toc}[Source聯結器](/help/use-cases/third-party/quantum-metric/source-connector.md)
 
 + Labs {#labs}
    + [Labs 使用手冊](../labs/labs.md)
