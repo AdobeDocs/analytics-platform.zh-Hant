@@ -96,7 +96,7 @@ ht-degree: 58%
 
    1. 使用資料流對應將資料物件中的所有欄位對應到您的XDM結構描述。
 
-      如需詳細資訊，請參閱Experience Platform檔案中[資料彙集的資料準備](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping)中的[對應](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep)。
+      如需詳細資訊，請參閱Experience Platform檔案中[資料彙集的資料準備](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/data-prep?lang=en#mapping)中的[對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/data-prep)。
 
 {{upgrade-final-step}}。
 

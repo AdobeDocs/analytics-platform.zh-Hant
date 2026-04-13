@@ -178,7 +178,7 @@ Adobe Experience Platform Agent Orchestrator 可讓您在多個 Adobe Experience
 
 Agent Orchestrator 會解讀您的請求、判斷需要哪些專門的代理，並協調代理提供適當的回答。它會追蹤多輪互動中的上下文，讓您可以自然地在先前的查詢基礎上繼續提問。
 
-如需詳細資訊，請參閱 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html)。
+如需詳細資訊，請參閱 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/tw/products/experience-platform/agent-orchestrator.html)。
 
 ## 資料視覺效果提示範例
 
