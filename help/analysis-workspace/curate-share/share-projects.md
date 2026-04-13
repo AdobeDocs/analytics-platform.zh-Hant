@@ -204,7 +204,7 @@ ht-degree: 99%
 
 ## 查看與您共用的專案
 
-當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [ Analytics 登陸頁面上的專案標籤](/help/getting-started/landing.md#navigate-the-projects-tab)存取共用專案。
+當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [&#x200B; Analytics 登陸頁面上的專案標籤](/help/getting-started/landing.md#navigate-the-projects-tab)存取共用專案。
 
 當有人透過共用連結 (從[共用專案索引標籤](#share-a-link-to-a-project)或使用[與任何人共用的連結](#share-a-project-with-anyone-no-login-required)) 共用專案時，您必須使用與您共用的連結來存取專案。例如，該連結可能已在電子郵件、內部網站等中提供。
 
