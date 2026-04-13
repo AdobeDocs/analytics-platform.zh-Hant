@@ -3,9 +3,8 @@ title: Customer Journey Analytics搶鮮版發行說明
 description: 檢視最新Customer Journey Analytics發行前注意事項
 feature: Release Notes
 hide: true
-hidefromtoc: true
 exl-id: 61982e38-b43a-41b5-85e0-59ed374463a9
-source-git-commit: 9a489831ebbb579a2f0e368426dfed73b1ee5962
+source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 82%
@@ -38,4 +37,4 @@ ht-degree: 82%
 | **全新預覽體驗** | 用於預覽區段、計算量度和其他內容的預覽面板，現已改用橫條圖視覺效果來取代原本的環形圖視覺效果。 |  | 2025 年 6 月 18 日 |
 | **已修改歸因模型對話框** | 您現在可以在歸因模型對話框中分別定義容器及時段。 |  | 2025 年 6 月 18 日 |
 | **連線圖** | 新的[連線圖介面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/create-connection#connection-map)可用來視覺化顯示您的連線設定。 |  | 2025 年 6 月 18 日 |
-| **在 Analysis Workspace 專案中新增和檢視註解** | Analysis Workspace 中的新[註解功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects)，讓您可以在 Analysis Workspace 專案的內容中共用深入分析及提出問題。這樣可以簡化關於資料的討論過程，讓對話聚焦於所討論的資料範圍內。您可以 <ul><li>對任何您有權存取的 Analysis Workspace 專案留下註解</li><li>針對視覺內容中的特定點留下註解，或對專案留下一般註解</li><li>標記其他使用者，通知他們您有留下註解</li><li>管理現有註解 (編輯、釘選、解決等)</li></ul>Customer Journey Analytics 管理員可以[於組織層級停用註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/user-preferences#ims-organization-preferences)。專案所有者可以[在專案層級停用註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)。 |  | 2025 年 6 月 25 日 <p>(原計劃於 2025 年 5 月 29 日發行)</p> |
+| **在 Analysis Workspace 專案中新增和檢視註解** | Analysis Workspace 中的新[註解功能](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects)，讓您可以在 Analysis Workspace 專案的內容中共用洞察及提出問題。這樣可以簡化關於資料的討論過程，讓對話聚焦於所討論的資料範圍內。您可以 <ul><li>對任何您有權存取的 Analysis Workspace 專案留下註解</li><li>針對視覺內容中的特定點留下註解，或對專案留下一般註解</li><li>標記其他使用者，通知他們您有留下註解</li><li>管理現有註解 (編輯、釘選、解決等)</li></ul>Customer Journey Analytics 管理員可以[於組織層級停用註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/user-preferences#ims-organization-preferences)。專案所有者可以[在專案層級停用註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)。 |  | 2025 年 6 月 25 日 <p>(原計劃於 2025 年 5 月 29 日發行)</p> |
