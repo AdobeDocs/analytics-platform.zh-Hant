@@ -1075,7 +1075,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 >[!CONTEXTUALHELP]
 >id="template--brand-concierge--meeting"
->title="追蹤 B2B 會議請求的完整生命週期。監視轉換率、顧問績效，並找出您最有效的銷售線索產生管道。"
+>title="追蹤 B2B 會議請求的完整生命週期。 監視轉換率、顧問績效，並找出您最有效的銷售線索產生管道。"
 >abstract="**這可協助您**&#x200B;追蹤會議轉換率、識別表現優異的團隊成員、瞭解預約行為的季節性趨勢，並找出哪些頁面產生最有價值的會議要求。<br/>**根據您所學到的內容，您可以**&#x200B;執行許多作業，例如最佳化您的會議要求程式、將資源重新分配至高轉換率的頁面、為預訂率較低的顧問開發目標式培訓，或實施新策略以減少錯過的會議。"
 
 | 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |

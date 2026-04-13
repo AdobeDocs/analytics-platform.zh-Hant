@@ -213,7 +213,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。它們會尋找
 >
 >您可以在標籤中以各種方式使用規則來操控變數 (使用您的資料元素)。
 >
->如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=zh-Hant)。
+>如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)。
 
 1. 使用您的 Adobe ID 認證登入 experience.adobe.com。
 

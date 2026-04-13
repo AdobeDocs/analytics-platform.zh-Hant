@@ -81,7 +81,7 @@ ht-degree: 95%
 * **[!UICONTROL 輸出格式]**：可讓您新增文字或重新排序規則運算式子群組輸出的選用欄位。如果此欄位為空白，則字串輸出是評估過的規則運算式。
 * **[!UICONTROL 區分大小寫]**：強制規則運算式區分大小寫的核取方塊 (如啟用)。
 
-Customer Journey Analytics 使用 Perl 正規表示式語法的子集。若輸入和規則運算式不相符，且&#x200B;**[!UICONTROL 輸出格式]**&#x200B;為空白，則套用[無值選項](no-value-options.md)。支援下列運算式：
+Customer Journey Analytics 使用 Perl 規則運算式語法的子集。若輸入和規則運算式不相符，且&#x200B;**[!UICONTROL 輸出格式]**&#x200B;為空白，則套用[無值選項](no-value-options.md)。支援下列運算式：
 
 | 運算式 | 說明 |
 | --- | --- |

@@ -26,7 +26,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的實驗面板。_<br/>_請參閱「[Analytics for Target 面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)」，了解有關如何分析 Adob&#x200B;&#x200B;e Target 活動和_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的體驗。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 中的實驗面板。_<br/>_請參閱「[Analytics for Target 面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)」，了解有關如何分析 Adob&#x200B;&#x200B;e Target 活動和_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的體驗。_
 
 >[!ENDSHADEBOX]
 
@@ -180,8 +180,8 @@ Customer Journey Analytics 中的實驗面板可讓您分析不同人所在州�
 
 ## 在實驗面板中使用計算量度
 
-有關[在實驗面板中使用計算量度](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119?profile.language=zh-Hant)的資訊，請參閱此部落格文章。
+有關[在實驗面板中使用計算量度](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119)的資訊，請參閱此部落格文章。
 
 >[!MORELIKETHIS]
->[掌握 Adobe Customer Journey Analytics 實驗](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338?profile.language=zh-Hant)
+>[掌握 Adobe Customer Journey Analytics 實驗](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338)
 >

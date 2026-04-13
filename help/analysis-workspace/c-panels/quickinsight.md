@@ -11,44 +11,44 @@ ht-degree: 90%
 
 ---
 
-# 快速深入分析面板 {#quick-insights-panel}
+# 快速洞察面板 {#quick-insights-panel}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_quickinsights_button"
->title="快速深入分析"
->abstract="建立一個面板來快速建置自由格式表格和伴隨的視覺化描繪，加快分析及揭露深入分析的速度。"
+>title="快速洞察"
+>abstract="建立一個面板來快速建置自由格式表格和伴隨的視覺化描繪，加快分析及發現洞察的速度。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的「快速深入分析」面板。<br/>_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 版本的[快速深入分析面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。_
+_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**_ 中的「快速洞察」面板。<br/>_請參閱本文中_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics** 版本的[快速洞察面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。_
 
 >[!ENDSHADEBOX]
 
 
-[!UICONTROL 快速深入分析]為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。對於想要快速解答簡單的問題而無須自行建立表格的進階使用者，這也是絕佳的工具。
+[!UICONTROL 快速洞察]為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。對於想要快速解答簡單的問題而無須自行建立表格的進階使用者，這也是絕佳的工具。
 
 當您首次使用 [!UICONTROL Analysis Workspace]，您可能想知道：
 
 * 哪些視覺化呈現最有用、
-* 哪些維度和量度可能有助於深入分析、
+* 哪些維度和量度可能有助於洞察、
 * 拖放項目的位置、
 * 如何建立快速區段，
 * 及更多內容。
 
 為了協助您解決這些問題，[!UICONTROL 快速深入分析]會運用演演算法，提供您的公司最常使用的維度、量度、區段和日期範圍。 此演算法是根據您自己的公司在 [!UICONTROL Analysis Workspace] 的資料元件使用情況。實際上，您會在下拉式功能表中看到標示為[!UICONTROL POPULAR]的維度、量度和區段，如下所示：
 
-![「快速深入分析」面板。](assets/popular-tag.png)
+![「快速洞察」面板。](assets/popular-tag.png)
 
-[!UICONTROL 快速深入分析]可協助您
+[!UICONTROL 快速洞察]可協助您
 
 * 在 [!UICONTROL Analysis Workspace] 中適當建立資料表格及隨附的視覺效果。
 * 瞭解 [!UICONTROL Analysis Workspace] 的基本元件和部件所適用的術語和辭彙。
-* 在[!UICONTROL 自由表格]中輕鬆進行維度的簡單劃分、新增多個量度或比較區段。
+* 在[!UICONTROL 自由格式表格]中輕鬆進行維度的簡單劃分、新增多個量度或比較區段。
 * 變更或試用各種視覺效果類型，以快速且直覺地找出您的分析適用的尋找工具。
 
 ## 基本關鍵術語
@@ -66,11 +66,11 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ## 使用
 
-若要使用&#x200B;**[!UICONTROL 快速深入分析]**&#x200B;面板：
+若要使用&#x200B;**[!UICONTROL 快速洞察]**&#x200B;面板：
 
-1. 建立一個&#x200B;**[!UICONTROL 快速深入分析]**&#x200B;面板。有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立一個&#x200B;**[!UICONTROL 快速洞察]**&#x200B;面板。有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
-1. 首次使用&#x200B;**[!UICONTROL 快速深入分析]**&#x200B;面板時，您可能要完成簡短的[!UICONTROL 入門教學課程]，以了解一些基本概念。選取「快速深入分析」面板標題旁的![HelpOutline](/help/assets/icons/HelpOutline.svg)，然後從快顯視窗中選取&#x200B;**[!UICONTROL 入門教學課程]**。
+1. 首次使用&#x200B;**[!UICONTROL 快速洞察]**&#x200B;面板時，您可能要完成簡短的[!UICONTROL 入門教學課程]，以了解一些基本概念。選取「快速洞察」面板標題旁的![HelpOutline](/help/assets/icons/HelpOutline.svg)，然後從快顯視窗中選取&#x200B;**[!UICONTROL 入門教學課程]**。
 
 1. 指定面板的[輸入](#panel-input)。
 
@@ -115,9 +115,9 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ## 更多秘訣
 
-[!UICONTROL 快速深入分析產生器]會出現其他有用的提示，其中部分取決於您最後的動作。
+[!UICONTROL 快速洞察產生器]會出現其他有用的提示，其中部分取決於您最後的動作。
 
-* 首先，您可能要完成&#x200B;**[!UICONTROL 更多秘訣]**&#x200B;教學課程。本教學課程會在您建立專案的 24 小時後顯示，其中至少包含一個維度和一個量度。選取「快速深入分析」面板標題旁的![HelpOutline](/help/assets/icons/HelpOutline.svg)，然後從快顯視窗中選取&#x200B;**[!UICONTROL 更多秘訣]**。
+* 首先，您可能要完成&#x200B;**[!UICONTROL 更多秘訣]**&#x200B;教學課程。本教學課程會在您建立專案的 24 小時後顯示，其中至少包含一個維度和一個量度。選取「快速洞察」面板標題旁的![HelpOutline](/help/assets/icons/HelpOutline.svg)，然後從快顯視窗中選取&#x200B;**[!UICONTROL 更多秘訣]**。
 
   ![The Quick Insights Panel notification displayed after you select the Help icon.](assets/qibuilder4.png)
 
@@ -135,7 +135,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ## 已知限制
 
-如果您嘗試直接在表格中進行編輯，[!UICONTROL 快速深入分析]面板會無法同步。選取面板右上方的[!UICONTROL 重新同步產生器]，將其還原為先前的&#x200B;**[!UICONTROL 快速深入分析]**&#x200B;設定。
+如果您嘗試直接在表格中進行編輯，[!UICONTROL 快速洞察]面板會無法同步。選取面板右上方的[!UICONTROL 重新同步產生器]，將其還原為先前的&#x200B;**[!UICONTROL 快速洞察]**&#x200B;設定。
 
 直接在表格中新增任何項目之前，您會收到警告：
 
