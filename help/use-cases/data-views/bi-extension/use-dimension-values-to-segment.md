@@ -4,14 +4,15 @@ description: 在Customer Journey Analytics中的各種BI工具中，使用維度
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 8557b424-4a5e-4996-8e2f-cf1bcafe64c5
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 0%
+source-wordcount: '796'
+ht-degree: 1%
 
 ---
 
-# 使用維度值劃分割槽段
+# 使用維度值進行細分
 
 您使用&#x200B;**[!UICONTROL 產品類別]**&#x200B;的動態&#x200B;**[!UICONTROL 狩獵]**&#x200B;值，從狩獵類別中劃分產品。 或者，對於不支援動態擷取產品類別值的BI工具，您可以在Customer Journey Analytics中建立新的區段，對搜尋產品類別中的產品進行區段。
 然後，您想要使用新區段，報告2023年1月期間，搜尋類別中產品的產品名稱和發生次數（事件）。
@@ -154,7 +155,7 @@ ht-degree: 0%
 
 >[!TAB RStudio]
 
-1. 在新區塊中輸入` ` ``{r} `到` `` ` `之間的下列陳述式。 確定您使用適當的類別。 例如，`Hunting`。
+1. 在新區塊中輸入下列程式碼區塊。 確定您使用適當的類別。 例如，`Hunting`。
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value
@@ -173,4 +174,3 @@ ht-degree: 0%
 >[!ENDTABS]
 
 +++
-
