@@ -30,7 +30,7 @@ ht-degree: 97%
 
 ### 一般偏好設定
 
-一般偏好設定適用於瀏覽器中您的 Customer Journey Analytics 體驗。有關如何訪問這些首選項的資訊，請參閱[編輯首選項](#edit-preferences)。
+一般偏好設定適用於瀏覽器中您的 Customer Journey Analytics 體驗。如需如何存取這些偏好設定的詳細資訊，請參閱[編輯偏好設定](#edit-preferences)。
 
 | 偏好設定 | 選項 |
 | --- | --- |
@@ -56,7 +56,7 @@ ht-degree: 97%
 >abstract="啟用後，Analysis Workspace 中每項專案的右側邊欄會顯示一個評論區域。"
 
 
-您可以更新套用於組織內所有使用者和專案的公司偏好設定。有關如何訪問這些首選項的資訊，請參閱[編輯首選項](#edit-preferences)。
+您可以更新套用於組織內所有使用者和專案的公司偏好設定。如需如何存取這些偏好設定的詳細資訊，請參閱[編輯偏好設定](#edit-preferences)。
 
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ ht-degree: 97%
 >title="序列調色盤"
 >abstract="適用於頻率趨勢 (堆疊條狀圖) 引導式分析。此調色盤具有從淺到深的數值含意。"
 
-您可以為所有新的 Analysis Workspace 專案、新的 Analysis Workspace 面板和新的引導式分析自訂這些偏好設定。有關如何訪問這些首選項的資訊，請參閱[編輯首選項](#edit-preferences)。
+您可以為所有新的 Analysis Workspace 專案、新的 Analysis Workspace 面板和新的引導式分析自訂這些偏好設定。如需如何存取這些偏好設定的詳細資訊，請參閱[編輯偏好設定](#edit-preferences)。
 
 您也可以針對 Analysis Workspace 中的個別專案自訂其中部分相同偏好設定，如[專案概觀](/help/analysis-workspace/build-workspace-project/freeform-overview.md)中所述。
 
@@ -132,7 +132,7 @@ ht-degree: 97%
 >abstract="選取用於自由格式表格的預設量度。如果所選取的資料視圖不包含所選取的預設量度，表格會自動切換到另一個主要量度。"
 
 
-您可以為在 Analysis Workspace 中建立的所有新專案自訂自由格式表格偏好設定。有關如何訪問這些首選項的資訊，請參閱[編輯首選項](#edit-preferences)。
+您可以為在 Analysis Workspace 中建立的所有新專案自訂自由格式表格偏好設定。如需如何存取這些偏好設定的詳細資訊，請參閱[編輯偏好設定](#edit-preferences)。
 
 也可為個別表格自訂其中一些相同偏好設定。
 
@@ -146,11 +146,11 @@ ht-degree: 97%
 | | 預設表格維度 | 從分鐘、小時、日、週、月、季度或年中選擇。 |
 | | 統一日期 | 選取此選項，讓每一欄的日期與同一列中所有開始日期一致。 |
 | **[欄](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
-| | 繞排標題文字 | 讓您自由格式表格中的標頭文字環繞，讓標頭變得更容易閱讀，表格也更便於分享。這對於.pdf呈現和長名稱度量非常有用。 預設啟用。 |
+| | 繞排標題文字 | 讓您自由格式表格中的標頭文字環繞，讓標頭變得更容易閱讀，表格也更便於分享。這對.pdf轉譯和名稱較長的量度相當實用。 預設啟用。 |
 | | 顯示總計 | 此總計數量通常等於[!UICONTROL 全部總量]或其中的一個子集小計。其反映的是在自由格式表格中套用的任何表格區段，包括「[!UICONTROL 不包含任何項目]」選項。 |
 | | 顯示總計 | 此總計數量代表已收集的所有事件，有時候是指&#x200B;*資料視圖總計*。在面板層級或自由格式表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的事件。具[靜態列](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總計。 |
 | | 顯示走勢圖 | 顯示或隱藏圖表底部的折線圖。隱藏時，圖例會變更為不再以視覺化方式參照線條。 |
-| | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果度量為「頁視圖」，則數值為行項的頁視圖數。 |
+| | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果量度為「頁面檢視」，則數值為列專案的頁面檢視次數。 |
 | | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。例如，若量度為「頁面檢視次數」，則該百分比數值為列項目的頁面檢視次數除以欄的頁面檢視次數。附註：為了讓比例更精確，可以顯示超過 100% 的數值。您也可以將上限提高為 1000%，以確保欄位的寬度足夠。 |
 | | 顯示異常狀況 <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> | 決定是否要在該欄的數值中執行異常偵測。 |
 | | 顯示預測 | 決定是否會對您建立之任何時間序列自由格式表格中的第一個量度欄自動顯示預測值。 |
@@ -185,7 +185,7 @@ ht-degree: 97%
 >abstract="選取用於[!UICONTROL 歷程畫布]視覺效果的預設容器。如果所選取的資料視圖不包含所選取的預設容器，[!UICONTROL 歷程畫布]視覺效果會自動切換到另一個主要容器。"
 
 
-您可以為在 Analysis Workspace 中建立的所有新專案更新偏好設定。有關如何訪問這些首選項的資訊，請參閱[編輯首選項](#edit-preferences)。
+您可以為在 Analysis Workspace 中建立的所有新專案更新偏好設定。如需如何存取這些偏好設定的詳細資訊，請參閱[編輯偏好設定](#edit-preferences)。
 
 也可為個別視覺效果自訂其中一些相同偏好設定。
 
