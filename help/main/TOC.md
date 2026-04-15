@@ -2,7 +2,7 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: afb577bb72f2528c15acbc30794c900ea62b51b6
+source-git-commit: 32f15ddf44352ec557616835bc6a0f40587d2c09
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 97%
@@ -94,7 +94,7 @@ ht-degree: 97%
          + [使用 Adobe Journey Optimizer 進行個人化](/help/getting-started/cja-upgrade/cja-upgrade-personalization-journeyoptimizer.md)
    + 與 Adobe Analytics 比較 {#cja-aa-comparison}
       + [概觀](../getting-started/aa-vs-cja/overview.md)
-      + [使用 Adobe Analytics 資料 &#x200B;](../getting-started/aa-vs-cja/aa-data-in-cja.md)
+      + [使用 Adobe Analytics 資料 ](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [跨ims資料對應](../getting-started/aa-vs-cja/mapping-data-ims-orgs.md)
       + [功能支援](../getting-started/aa-vs-cja/cja-aa.md)
       + [比較術語](../getting-started/aa-vs-cja/terminology.md)
@@ -397,7 +397,7 @@ ht-degree: 97%
       + [概觀](/help/components/c-intelligent-alerts/intelligent-alerts.md)
       + [建立警報](/help/components/c-intelligent-alerts/alert-builder.md)
       + [管理警報](/help/components/c-intelligent-alerts/alert-manager.md)
-      + [功能比較 &#x200B;](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
+      + [功能比較 ](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
       + [使用案例](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + 匯出 {#exports}
       + [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)
@@ -557,3 +557,4 @@ ht-degree: 97%
    + [管理使用情況](../technotes/estimate-usage.md)
 
 + [Customer Journey Analytics API](https://developer.adobe.com/cja-apis/docs/)
+
