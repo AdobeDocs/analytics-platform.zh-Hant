@@ -6,7 +6,7 @@ feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
 hide: true
-source-git-commit: 4dd1e90a377c0939048397a0ec4af08123d324c1
+source-git-commit: 97339504546df94b6962170eb4bbae184193885c
 workflow-type: tm+mt
 source-wordcount: '2741'
 ht-degree: 1%
@@ -362,4 +362,3 @@ Customer Journey Analytics [檔案](./derived-fields.md#limitations)每個衍生
 
 * 調整該維度上的[配置模型和有效期](/help/data-views/component-settings/persistence.md)，以對齊名稱和行為。 例如，名為`Original Source`的衍生欄位維度應使用到期日設為「人員」的「首次接觸」歸因。
 * 調整維度的&#x200B;**[!UICONTROL 持續性]**&#x200B;設定中的&#x200B;**[!UICONTROL 配置模式]**&#x200B;和[有效期](/help/data-views/component-settings/persistence.md)，以對齊名稱和行為。 例如，`Original Source`應該將&#x200B;**[!UICONTROL 配置模式]**&#x200B;設定為&#x200B;**[!UICONTROL 原始]**，並將&#x200B;**[!UICONTROL 到期]**&#x200B;設定為&#x200B;**[!UICONTROL 人員]**。
-
