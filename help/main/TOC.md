@@ -2,7 +2,7 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 01e2c7668bf31d9a3ed1ee55d8692a3616f5de4d
+source-git-commit: 35d365dec8bc9afdfd55405dbcfa082280515b18
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 97%
@@ -159,7 +159,6 @@ ht-degree: 97%
    + [標準元件參考](../data-views/component-reference.md)
    + [BI 擴充功能](../data-views/bi-extension.md)
    + [衍生欄位](../data-views/derived-fields/derived-fields.md)
-   + {hide-from-toc}[最佳實務 — 隱藏](/help/data-views/derived-fields/best-practices.md)
    + [摘要資料](../data-views/summary-data.md)
    + [標籤和原則](../data-views/data-governance.md)
    + 共用的量度和維度{#shared-metrics-dimensions}
@@ -514,9 +513,10 @@ ht-degree: 97%
          + [視覺效果](/help/use-cases/data-views/bi-extension/visualizations.md)
          + [警告](/help/use-cases/data-views/bi-extension/caveats.md)
 
-   + 衍生欄位 {#derived-fields}
-      + [報告 LLM 和 AI 產生的流量](/help/use-cases/ai-traffic.md)
-      + [報告目標](../use-cases/goals-using-derived-fields.md)
+      + 衍生欄位 {#derived-fields}
+         + [衍生欄位准則](/help/use-cases/data-views/derived-fields/guidelines.md)
+         + [報告 LLM 和 AI 產生的流量](/help/use-cases/data-views/derived-fields/ai-traffic.md)
+         + [報告目標](/help/use-cases/data-views/derived-fields/goals-using-derived-fields.md)
    + 產品分析 {#product-analysis}
       + [產品分析](/help/use-cases/product-analysis.md)
    + 拼接 {#stitching}

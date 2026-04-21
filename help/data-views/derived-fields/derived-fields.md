@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 12347a865bdeb16f9b45ec5e5eddc3390894e0dc
+source-git-commit: aa29067a244c588e6d830f0a039db90e99eaf5d3
 workflow-type: tm+mt
-source-wordcount: '10283'
+source-wordcount: '10297'
 ht-degree: 99%
 
 ---
@@ -39,6 +39,11 @@ ht-degree: 99%
 - 定義一個派生的行銷管道欄位，根據一個或多個條件 (例如 URL 參數、頁面 URL、頁面名稱) 確定適當的行銷管道。
 
 只有衍生欄位中的事件資料集才支援標準元件。
+
+>[!TIP]
+>
+>如需使用衍生欄位時的最佳實務、護欄和常見陷阱，請參閱[指南](/help/use-cases/data-views/derived-fields/guidelines.md)。
+>
 
 ## 衍生欄位介面 {#interface}
 
