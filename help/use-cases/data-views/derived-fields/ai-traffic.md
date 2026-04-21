@@ -297,6 +297,6 @@ LLM和AI代理程式會在與數位屬性互動時，展示複雜且不斷進化
 
 >[!MORELIKETHIS]
 >
->此使用案例文章是以部落格[在Adobe Customer Journey Analytics中追蹤和分析LLM和AI產生的流量](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967)為基礎。
+>此使用案例文章是以部落格[在Adobe Customer Journey Analytics中追蹤和分析LLM和AI產生的流量](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=zh-Hant)為基礎。
 >
 >
