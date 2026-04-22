@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
-workflow-type: ht
-source-wordcount: '2709'
-ht-degree: 100%
+source-git-commit: 3294e1516f9478348743d0f1e9761b8b3497b1d2
+workflow-type: tm+mt
+source-wordcount: '2708'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 | 功能 | 附註 |
 | --- | --- |
-| **Advertising Cloud** | 您可以[收集 AMO ID 和 EF ID 的歷史資料以便在 Customer Journey Analytics 中使用](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/planning/rvars-to-evars)。 |
+| **Advertising** | 您可以[收集 AMO ID 和 EF ID 的歷史資料以便在 Customer Journey Analytics 中使用](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/planning/rvars-to-evars)。 |
 | **警報** | [在 Customer Journey Analytics 中使用警報](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)的流程，與在 Adobe Analytics 中使用警報的流程幾乎相同。 <p>但是，由於 Customer Journey Analytics 中資料彙集需要時間進行，每小時發出警報並不適用。在 Customer Journey Analytics 中，可以將警報設定為每日、每週或每月。</p> |
 | **Analytics for Target (A4T)** | [Adobe Customer Journey Analytics 與 Target 之間的整合](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/cja/target-reporting-in-cja)，為您的最佳化程式提供強大的分析與省時的工具。 |
 | **客群發佈** | 如果具有 Adobe 的 Customer Data Platform 或 Journey Optimizer 產品授權則提供支援。[客群發佈](/help/components/audiences/audiences-overview.md)會將客群發佈到 Experience Platform 中的「即時客戶輪廓」。 |
