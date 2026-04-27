@@ -6,10 +6,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
-source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
+source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 1%
+source-wordcount: '435'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ CJA會解除QM資料、循序資料分析、豐富歸因及其他進階報表的
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 >[!NOTE]
->雖然您可以將Quantum量度資料新增至與Customer Journey Analytics資料其餘部分相同的連線，但若沒有兩個資料集之間的通用人員ID，該資料無法彙整在一起。 如果需要此行為，Adobe建議使用[標籤延伸模組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/analytics/quantum-metric)，而非來源聯結器。
+>雖然您可以將Quantum量度資料新增至與Customer Journey Analytics資料其餘部分相同的連線，但若沒有兩個資料集之間的通用人員ID，該資料無法彙整在一起。 如果需要此行為，Adobe建議使用[標籤延伸模組](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)，而非來源聯結器。
 
 ## 步驟3：在Customer Journey Analytics中建立資料檢視
 
