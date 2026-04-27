@@ -1,13 +1,13 @@
 ---
-description: 了解在設定歷程畫布視覺化圖表時如何進行疑難排解。
+description: 瞭解如何在Analysis Workspace中使用Journey Canvas視覺效果來分析使用者歷程、流失和多路徑轉換。
 title: 歷程畫布疑難排解
 feature: Visualizations
 role: User
 exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
-workflow-type: ht
-source-wordcount: '1290'
-ht-degree: 100%
+source-git-commit: 73238f03021b14567c20c686ab72d84afbaa9f81
+workflow-type: tm+mt
+source-wordcount: '1303'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 * 當多個路徑聚合成單一節點時
 
-### 歷程使用「人員」或「工作階段」以外的主要量度
+### 歷程使用人員或工作階段以外的主要量度
 
 由於在歷程畫布中您可以使用任何量度做為主要量度，這可能會導致位於歷程後端的節點所顯示的百分比或數量，高於位於歷程前段的節點。
 
@@ -43,27 +43,27 @@ ht-degree: 100%
 
 * 將&#x200B;**[!UICONTROL 事件]**&#x200B;設定為主要量度
 
-#### 情境 1：使用者 A 依循第一個工作階段的歷程路徑。在後續的工作階段中，使用者發生只有後段節點符合的事件。
+#### 情境 1：使用者 A 依循第一個工作階段的歷程路徑。 在後續的工作階段中，使用者發生只有後段節點符合的事件。
 
-假設使用者 A 造訪網站並完成歷程 (節點 1：「造訪網站」> 節點 2：「檢視產品 A」> 節點 3：「結帳」)。由於使用者 A 有一個事件依照順序符合歷程的各個節點，因此事件會計入歷程的各個節點。
+假設使用者 A 造訪網站並完成歷程 (節點 1：「造訪網站」> 節點 2：「檢視產品 A」> 節點 3：「結帳」)。 由於使用者 A 有一個事件依照順序符合歷程的各個節點，因此事件會計入歷程的各個節點。
 
-現在，假設使用者 A 在之後的工作階段中再次造訪網站。由於使用者 A 已依循歷程路徑而在先前的工作階段中完成歷程，因此每當使用者 A 發生符合歷程中任何節點的事件時，事件便會計入歷程中的相關節點，即便使用者 A 於其目前工作階段中並未依循歷程路徑。例如，如果使用者 A 結帳，則事件會計入「結帳」節點。這會造成「結帳」節點上的百分比和數量高於前一個節點「檢視產品 A」。
+現在，假設使用者 A 在之後的工作階段中再次造訪網站。 由於使用者 A 已依循歷程路徑而在先前的工作階段中完成歷程，因此每當使用者 A 發生符合歷程中任何節點的事件時，事件便會計入歷程中的相關節點，即便使用者 A 於其目前工作階段中並未依循歷程路徑。 例如，如果使用者 A 結帳，則事件會計入「結帳」節點。 這會造成「結帳」節點上的百分比和數量高於前一個節點「檢視產品 A」。
 
 於此範例中，歷程的容器設定為「個人」發揮了關鍵作用，能依此判斷第三個節點 (「結帳」) 上的事件是否要計入後續工作階段中。
 
-另一種情況是將容器設定為「工作階段」，則後續造訪中僅發生在第三個節點上的事件將不會計入歷程中，因為歷程中顯示的統計資料會限定為特定個人的單一已定義工作階段。若要了解更多關於容器設定的資訊，請參閱文章[設定歷程畫布視覺化圖表](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)中的[開始建立歷程畫布視覺化圖表](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)
+另一種情況是將容器設定為「工作階段」，則後續造訪中僅發生在第三個節點上的事件將不會計入歷程中，因為歷程中顯示的統計資料會限定為特定個人的單一已定義工作階段。 若要深入瞭解容器設定，請參閱文章[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)中的[開始建立歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)。
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
 #### 情境 2：使用者 B 從歷程流失
 
-假設使用者 B 造訪網站但未完成歷程 (造訪網站、檢視產品 B 然後結帳)。於此情況下，事件會計入歷程的開始節點「造訪網站」，但不會計入其餘節點，然後使用者 B 從歷程流失。即便使用者 B 已結帳，事件不會計入第三個節點 (「結帳」)，因為使用者 B 在結帳前並未透過檢視產品 A 來完成歷程。
+假設使用者 B 造訪網站但未完成歷程 (造訪網站、檢視產品 B 然後結帳)。 於此情況下，事件會計入歷程的開始節點「造訪網站」，但不會計入其餘節點，然後使用者 B 從歷程流失。 即便使用者 B 已結帳，事件不會計入第三個節點 (「結帳」)，因為使用者 B 在結帳前並未透過檢視產品 A 來完成歷程。
 
-這是因為只有在使用者依循歷程的「最終路徑」時，才會將事件計入各個節點中。也就是說，無論在這 2 個節點之間發生任何事件，個人最終都從某個節點移至另一個節點時，才會計入事件。
+這是因為只有在使用者依循歷程的「最終路徑」時，才會將事件計入各個節點中。 這表示無論兩個節點之間發生任何事件，人員最終都從某個節點移至另一個節點時，才會計算事件。
 
 ### 歷程將多個路徑聚合成單一節點
 
-您可以使用歷程畫布將多個開始節點包含在單一歷程中，由此產生多個路徑。這些路徑可能會聚合成一個通用節點，導致在歷程中較晚出現的節點所顯示的百分比或數量，高於歷程中較早出現的節點。
+您可以使用歷程畫布將多個開始節點包含在單一歷程中，由此產生多個路徑。 這些路徑可能會聚合成一個通用節點，導致在歷程中較晚出現的節點所顯示的百分比或數量，高於歷程中較早出現的節點。
 
 ![有多個路徑聚合成單一節點的歷程](assets/journey-canvas-percentage-converge.png)
 
@@ -133,7 +133,7 @@ When a journey contains multiple paths that converge into a single node, the two
 
 您可以將「歷程畫布」容器設定為「個人」(使用「人員」量度) 或「工作階段」(使用「工作階段」量度)。
 
-請務必選擇與目前所選取之容器量度相容的主要量度。大部分量度都與可供使用的容器量度相容。不過，有些容器量度和主要量度的組合應避免使用。
+請務必選擇與目前所選取之容器量度相容的主要量度。 大部分量度都與可供使用的容器量度相容。 不過，有些容器量度和主要量度的組合應避免使用。
 
 例如，使用「個人」做為容器，而「工作階段」做為主要量度，可能會導致非預期的結果。
 

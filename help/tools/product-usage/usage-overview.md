@@ -1,24 +1,24 @@
 ---
 title: 產品使用情況概觀
-description: 檢視有關您的組織如何使用 Customer Journey Analytics 的深入分析和報告。
+description: 檢視有關您的組織如何使用 Customer Journey Analytics 的洞察和報告。
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: 22f3059ffef5df76028f36ffa00da8f98956dee1
+source-git-commit: 73238f03021b14567c20c686ab72d84afbaa9f81
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '660'
 ht-degree: 91%
 
 ---
 
 # 產品使用情況概觀
 
-產品使用情況會為您的組織提供檢視分析資料的能力，分析您的組織如何使用 Customer Journey Analytics。這適用於所有使用 Customer Journey Analytics 的組織。一旦啟用，以下 Adob&#x200B;&#x200B;e Experience Platform 元件會為您自動建立並連接。這些元件全部都是系統擁有、唯讀並且不能被編輯。
+產品使用情況會為您的組織提供檢視分析資料的能力，分析您的組織如何使用 Customer Journey Analytics。 這適用於所有使用 Customer Journey Analytics 的組織。 一旦啟用，以下 Adob&#x200B;&#x200B;e Experience Platform 元件會為您自動建立並連接。 這些元件全部都是系統擁有、唯讀並且不能被編輯。
 
 * 在 Adobe Experience Platform 中的結構描述
 * 在 Adobe Experience Platform 中的資料集
 * 在 Customer Journey Analytics 中的連線
 * 在 Customer Journey Analytics 中的資料檢視
 
-一旦啟用，所有資料收集和設定都會自動進行。每當使用者在 Analysis Workspace 中執行動作時，該動作都會被追蹤並可供報告。
+一旦啟用，所有資料收集和設定都會自動進行。 每當使用者在 Analysis Workspace 中執行動作時，該動作都會被追蹤並可供報告。
 
 >[!IMPORTANT]
 >
@@ -32,11 +32,11 @@ ht-degree: 91%
 
 導覽至 Customer Journey Analytics 介面的此部分，您將看到可啟用此功能的[資料設定](data-settings.md)。
 
-## 適用的維度
+## 可用維度
 
-當您啟用「產品使用情況」時，有以下維度可使用。如果您要變更任何維度設定，請建立系統擁有的資料檢視副本，並在 Analysis Workspace 中使用複製的資料檢視。
+當您啟用「產品使用情況」時，有以下維度可使用。 如果您要變更任何維度設定，請建立系統擁有的資料檢視副本，並在 Analysis Workspace 中使用複製的資料檢視。
 
-* **[!UICONTROL 動作名稱]**：使用者採取的動作類型。您可以透過在資料來視設定中建立副本，將此維度用作任何所需的量度。維度項目包含：
+* **[!UICONTROL 動作名稱]**：使用者採取的動作類型。 您可以透過在資料來視設定中建立副本，將此維度用作任何所需的量度。 維度項目包含：
    * [!UICONTROL 新增歸因]
    * [!UICONTROL 新增元件]
    * [!UICONTROL 新增面板]
@@ -60,7 +60,7 @@ ht-degree: 91%
    * [!UICONTROL 與任何人共用專案]
    * [!UICONTROL 與 Workspace 使用者共用專案]
    * [!UICONTROL 切換資料釋圖]
-* **[!UICONTROL 所使用的歸因模型]**：元件使用的歸因模型類型。維度項目包含：
+* **[!UICONTROL 所使用的歸因模型]**：元件使用的歸因模型類型。 維度項目包含：
    * [!UICONTROL 上次接觸]
    * [!UICONTROL 首次接觸]
    * [!UICONTROL 線性]
@@ -74,7 +74,7 @@ ht-degree: 91%
    * [!UICONTROL 演算法]
 * **[!UICONTROL 元件 ID]**：已新增、移除或修改的元件 ID。
 * **[!UICONTROL 元件名稱]**：已新增、移除或修改的元件易記名稱。
-* **[!UICONTROL 元件類型]**：已新增、刪除或修改的元件類型。維度項目包含：
+* **[!UICONTROL 元件類型]**：已新增、刪除或修改的元件類型。 維度項目包含：
    * [!UICONTROL 維度]
    * [!UICONTROL 量度]
    * [!UICONTROL 區段]
@@ -85,13 +85,13 @@ ht-degree: 91%
 * **[!UICONTROL 資料釋圖 ID]**：資料釋圖的 ID。
 * **[!UICONTROL 資料釋圖名稱]**：資料釋圖的易記名稱。
 * **[!UICONTROL 登入使用者]**：採取動作的使用者。
-* **[!UICONTROL 使用的面板]**：已新增、移除或修改的面板。維度項目包含：
+* **[!UICONTROL 使用的面板]**：已新增、移除或修改的面板。 維度項目包含：
    * [!UICONTROL 歸因]
    * [!UICONTROL 空白面板]
    * [!UICONTROL 實驗]
    * [!UICONTROL 自由格式]
    * [!UICONTROL 下一個或上一個項目]
-   * [!UICONTROL 快速深入分析]
+   * [!UICONTROL 快速洞察]
    * [!UICONTROL 趨勢]
    * [!UICONTROL 漏斗]
    * [!UICONTROL 使用者增長]
@@ -101,11 +101,11 @@ ht-degree: 91%
    * [!UICONTROL 功能矩陣]
 * **[!UICONTROL 專案 ID]**：專案的 ID。
 * **[!UICONTROL 專案名稱]**：專案易記的名稱。
-* **[!UICONTROL 專案類型]**：專案類型。維度項目包含：
+* **[!UICONTROL 專案類型]**：專案類型。 維度項目包含：
    * `workspace-projects`
    * `guided-analysis`
    * `mobile-scorecard-builder`
-* **[!UICONTROL 使用的視覺效果]**：已新增、刪除或修改的視覺效果。維度項目包含：
+* **[!UICONTROL 使用的視覺效果]**：已新增、刪除或修改的視覺效果。 維度項目包含：
    * [!UICONTROL 自由格式表格]
    * [!UICONTROL 同類群組表格]
    * [!UICONTROL 流失]
@@ -132,7 +132,7 @@ ht-degree: 91%
    * [!UICONTROL 樹狀圖]
    * [!UICONTROL 文氏圖表]
 
-當僅開啟或檢視專案時，產品使用情況不會追蹤個別專案元件。但是，開啟專案的使用者動作會被追蹤。
+當僅開啟或檢視專案時，產品使用情況不會追蹤個別專案元件。 但是，開啟專案的使用者動作會被追蹤。
 
 ## 可用的範本
 
@@ -140,4 +140,4 @@ ht-degree: 91%
 
 「**[!UICONTROL Adobe 範本]** > **[!UICONTROL 其他]** > **[!UICONTROL 產品使用概觀]**」
 
-在資料視圖選擇器中，選取產品使用情況自動建立的資料視圖，然後選擇「**[!UICONTROL 產品使用情況概觀]**」範本。選取「**[!UICONTROL 預覽]**」即可查看範本使用的面板並了解最佳使用案例，或選擇「**[!UICONTROL 使用範本]**」在 Analysis Workspace 中開啟它。
+在資料視圖選擇器中，選取產品使用情況自動建立的資料視圖，然後選擇「**[!UICONTROL 產品使用情況概觀]**」範本。 選取「**[!UICONTROL 預覽]**」即可查看範本使用的面板並了解最佳使用案例，或選擇「**[!UICONTROL 使用範本]**」在 Analysis Workspace 中開啟它。
