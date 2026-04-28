@@ -1,39 +1,39 @@
 ---
-title: 啟用拼接
-description: 在Customer Journey Analytics中啟用事件資料集的彙整功能。 在連線UI中設定永久ID、人員ID和重新執行視窗。
+title: Enable Stitching
+description: Enable stitching for event datasets in Customer Journey Analytics. Configure persistent IDs, person IDs, and replay windows in the Connections UI.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 source-git-commit: d42f0eb658f26d16bd21bb6ca47d5dd7c228e614
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 9%
+source-wordcount: '1788'
+ht-degree: 20%
 
 ---
 
 # 啟用拼接
 
-您可以在已設定為連線一部分的一或多個事件資料集上啟用拼接。 您授權的Customer Journey Analytics套件會決定您可以啟用進行拚接的事件資料集數量。
+You can enable stitching on one or more event datasets you have configured as part of your connection. The Customer Journey Analytics package that you have licensed determines the number of event datasets you can enable for stitching.
 
-當您[建立連線](/help/connections/create-connection.md#dataset-settings)或當您[編輯連線](/help/connections/create-connection.md)時，您可以啟用拼接功能，作為事件資料集的[資料集設定](/help/connections/manage-connections.md#edit-a-connection)的一部分。
+You enable stitching as part of the [dataset settings](/help/connections/create-connection.md#dataset-settings) for an event dataset when you [create a connection](/help/connections/create-connection.md) or when you [edit a connection](/help/connections/manage-connections.md#edit-a-connection).
 
 ## 先決條件
 
-您需要檢查並符合您指定的拼接方法的先決條件：[欄位式拼接](fbs.md#prerequisites)或[圖表式拼接](gbs.md#prerequisites)。
+You need to check and meet the prerequisites for the stitching method you specify: [field-based stitching](fbs.md#prerequisites) or [graph-based stitching](gbs.md#prerequisites).
 
-## 預檢檢查
+## Preflight checks
 
-如果您符合先決條件，在啟用身分拼接之前，可能會想要對事件資料集中的資料執行一些預檢檢查：
+If you meet the prerequisites, you might want to perform some preflight checks on the data in the event dataset before you enable identity stitching:
 
-* 如果您要針對永久ID或人員ID使用[體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)欄位，請確保在事件資料集的結構描述中正確標示身分。 [請參閱身分名稱空間概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。
-* 驗證永久ID和人員ID的身分涵蓋範圍：
+* If you are going to use [Experience Data Model (XDM) schema](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home) fields for persistent ID or person ID, ensure that identities are marked properly in the schema for the event dataset. [See Identity namespace overview](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces).
+* Verify identity coverage for both persistent ID and person ID:
 
-   * **[!UICONTROL 永久ID]**
+   * **[!UICONTROL Persistent ID]**
 
-     查詢7天的資料，其中您的永久ID欄位不是Null，再除以資料集內所有事件的7天資料查詢。 此百分比應高於95%。
+     Query 7 days of data where your persistent ID field is not null and divide by a query of 7 days of data for all events in your dataset. This percentage should be above 95%.
 
-     可用於驗證的查詢範例：
+     Example of a query you could use for verification:
 
      ```sql
      SELECT
@@ -49,16 +49,16 @@ ht-degree: 9%
 
      其中:
 
-      * `{PERSISTENT_ID_FIELD}`是永久識別碼的欄位。 例如：`identityMap.ecid[0]`。
-      * `{DATASET_TABLE_NAME}`是事件資料集的資料表名稱。
-      * `{FORMAT_STRING}`是時間戳記欄位的格式字串。 例如：`MM/DD/YY HH12:MI AM`。
-      * `{START_DATE}`是開始日期。 例如：`2024-01-01 00:00:00`。
-      * `{END_DATE}`是標準格式的結束日期。 例如：`2024-01-08 00:00:00`。
+      * `{PERSISTENT_ID_FIELD}` is the field for the persistent ID. 例如：`identityMap.ecid[0]`。
+      * `{DATASET_TABLE_NAME}` is the table name for the event dataset.
+      * `{FORMAT_STRING}` is the format string for the timestamp field. 例如：`MM/DD/YY HH12:MI AM`。
+      * `{START_DATE}`is the start date. 例如：`2024-01-01 00:00:00`。
+      * `{END_DATE}` is the end date in standard format. 例如：`2024-01-08 00:00:00`。
 
 
    * **[!UICONTROL 個人 ID]**
-      * 對於圖表式拚接，請確保身分圖表包含從您選擇的永久ID名稱空間和人員ID名稱空間中連結ID值的片段。 您可以前往[Experience Platform身分識別圖形檢視器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}執行測試，並透過某些範例永久ID值查詢圖形。 驗證這些永久ID值是否連結至圖表中的人員ID值。
-      * 對於以欄位為基礎的彙整，請查詢7天資料中的人員ID欄位不是Null，然後除以資料集中所有事件的7天資料查詢。 理想情況下，此百分比應高於5%。
+      * For graph-based stitching, ensure that the identity graph contains fragments that link ID values from your chosen persistent ID namespace and person ID namespace. You could run a test by going to the [Experience Platform Identity graph viewer](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} and query the graph by some sample persistent ID values. Verify to see if these persistent ID values are linked to person ID values in the graph.
+      * For field-based stitching, query 7 days of data where your person ID field is not null and divide by a query of 7 days of data for all events in your dataset. 理想情況下，此百分比應高於5%。
 
         可用於驗證的查詢範例：
 
@@ -96,28 +96,28 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
->title="個人 ID"
+>title="人員 ID"
 >abstract="從可供使用的身分識別中選取人員 ID (人員的唯一識別碼)。 若您的授權包含圖表型拼接，且您想使用該拼接方式，請選取&#x200B;**[!UICONTROL 身分識別圖]**。"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="拼接量度"
->abstract="拼接量度是使用具有過去7天事件時間戳記的範例資料集來計算。<br>此資料範例集通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;資料表中使用的範例資料不同。"
+>abstract="拼接量度是使用過去 7 天附有事件時間戳記的一組樣本資料集進行計算。<br>這組樣本資料集通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;表格中使用的樣本資料不同。"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
 >title="個人 ID 覆蓋率"
->abstract="在拚接程式（即時和重播）期間用於識別的所選人員ID的涵蓋範圍。<br/>為了達到最佳拼接結果，每個永久ID的身分圖表中都應有（永久ID、人員ID）關係。"
+>abstract="在拼接過程 (即時和重播) 中，用於識別的所選個人 ID 之覆蓋率。<br/>為獲得最佳的拼接結果，每個永久性 ID 的身分識別圖中應該都有一個 (永久性 ID，個人 ID) 關係。"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_fbs_personidcoverage"
 >title="個人 ID 覆蓋率"
->abstract="在拚接程式（即時和重播）期間用於識別的所選人員ID的涵蓋範圍。<br/>為了達到最佳拼接結果，每個永久ID （裝置資訊）至少應在一個事件中傳送個人ID （使用者資訊）。"
+>abstract="在拼接過程 (即時和重播) 中，用於識別的所選個人 ID 之覆蓋率。<br/>為獲得最佳的拼接結果，每個永久性 ID (裝置資訊) 應至少在一個事件中傳送個人 ID (使用者資訊)。"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_persistentidcoverage"
 >title="永久性 ID 覆蓋率"
->abstract="此值用於在拼接過程（即時和重播）期間進行識別，以備無法偵測到人員ID值時使用。 <br/>資料中會捨棄沒有永久ID和人員ID的事件。 為獲得最佳拼接結果，所有事件都應有永久性 ID。"
+>abstract="在拼接過程 (即時和重播) 中，如果無法偵測到個人 ID 值，就會使用這個值進行識別。 <br/>沒有永久性 ID 和個人 ID 的事件會從資料中剔除。 為獲得最佳拼接結果，所有事件都應有永久性 ID。"
 
 
 >[!CONTEXTUALHELP]
@@ -190,7 +190,7 @@ ht-degree: 9%
 
   人員ID涵蓋範圍會以百分比顯示，並和穩定開發或生產設定上建議的專案進行比較。 此涵蓋範圍值越高，使用選取的人員ID所獲得的拼接結果就越好。
 
-* **[!UICONTROL 永續識別碼涵蓋範圍]**：此值用於拼接程式（即時和重新執行）期間進行識別，以防偵測不到人員ID值。 沒有永久性 ID 和個人 ID 的事件會從資料中剔除。為獲得最佳拼接結果，所有事件都應有永久性 ID。
+* **[!UICONTROL 永續識別碼涵蓋範圍]**：此值用於拼接程式（即時和重新執行）期間進行識別，以防偵測不到人員ID值。 沒有永久性 ID 和個人 ID 的事件會從資料中剔除。 為獲得最佳拼接結果，所有事件都應有永久性 ID。
 
   永久ID涵蓋範圍會以百分比顯示，並和穩定開發或生產設定上的最低建議值比較。
 
