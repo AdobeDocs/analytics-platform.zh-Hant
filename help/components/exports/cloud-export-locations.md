@@ -107,11 +107,11 @@ For information about how to manage existing locations, including viewing, editi
 
    1. 開啟[Microsoft Azure儲存總管](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)。
 
-   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name ***。
+   1. 移至&#x200B;[!UICONTROL **儲存體帳戶**] > [!UICONTROL **（附加的容器）**] > [!UICONTROL **Blob容器**] > **[!UICONTROL cjaexport-_number_]**>*** your_container_name &#x200B;***。
 
       >[!NOTE]
       >
-      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**是Azure Storage Explorer提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
+      >資料夾名稱&#x200B;**[!UICONTROL cjaexport-_number_]**&#x200B;是Azure Storage Explorer提供的預設名稱。 如果您只有與SAS URI關聯的單一連線（一般），則此資料夾的名稱將是&#x200B;**[!UICONTROL cjaexport-1]**。
 
 
       ![存取Azure儲存體總管中的檔案](assets/azure-storage-explorer-access.png)
@@ -219,8 +219,8 @@ For information about how to manage existing locations, including viewing, editi
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **資料庫**] | 指定的資料庫應為現有資料庫。 您建立的角色必須具備存取此資料庫的許可權。<p>這是與階段名稱關聯的資料庫。</p><p>您可以使用以下命令將此角色許可權授與Snowflake中的資料庫： `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>如需詳細資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/sql-reference/commands-database)中的[資料庫、結構描述和共用命令頁面。</p> |
-   | [!UICONTROL **結構描述**] | 指定的結構描述應該是現有的結構描述。 您建立的角色必須具備存取此綱要的許可權。<p>這是與階段名稱關聯的結構描述。</p><p>您可以使用以下命令將您建立的許可權授與Snowflake中的結構描述： `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>如需詳細資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/sql-reference/commands-database)中的[資料庫、結構描述和共用命令頁面。</p> |
+   | [!UICONTROL **資料庫**] | 指定的資料庫應為現有資料庫。 您建立的角色必須具備存取此資料庫的許可權。<p>這是與階段名稱關聯的資料庫。</p><p>您可以使用以下命令將此角色許可權授與Snowflake中的資料庫： `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>如需詳細資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/sql-reference/commands-database)中的資料庫、結構描述和共用命令頁面。</p> |
+   | [!UICONTROL **結構描述**] | 指定的結構描述應該是現有的結構描述。 您建立的角色必須具備存取此綱要的許可權。<p>這是與階段名稱關聯的結構描述。</p><p>您可以使用以下命令將您建立的許可權授與Snowflake中的結構描述： `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>如需詳細資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/sql-reference/commands-database)中的資料庫、結構描述和共用命令頁面。</p> |
    | [!UICONTROL **階段名稱**] | 在Snowflake中儲存資料檔案的內部階段名稱。<p>請確定您在帳戶中指定的角色具有此階段名稱的讀取和寫入許可權。 （由於您正在授與讀取和寫入存取權，建議您使用僅由Adobe使用的階段。）</p><p>您可以使用以下命令授予Snowflake中階段名稱的讀取和寫入許可權： `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>如需有關授與許可權給角色的資訊，請參閱Snowflake檔案中的[授與許可權](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege)。</p> <p>如需階段名稱的詳細資訊，請參閱Snowflake檔案中的[選擇本機檔案的內部階段頁面](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage)。</p> |
    | [!UICONTROL **階段路徑**] | 資料檔在Snowflake中儲存位置的路徑。 <p>如需詳細資訊，請參閱Snowflake檔案中的[選擇本機檔案的內部階段頁面](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage)。</p> |
    | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。 您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p><p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
