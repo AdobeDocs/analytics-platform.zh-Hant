@@ -3,10 +3,10 @@ title: 建立資料摘要
 description: 了解如何建立資料摘要，以及需提供給 Adobe 的檔案資訊。
 hide: true
 feature: Components
-source-git-commit: 728aa97d87e9b9e125fbfbbaf0ce890bc3ab34fc
+source-git-commit: a565bc01f47255b98436a52c00a933a6f845e9ec
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 21%
+source-wordcount: '2477'
+ht-degree: 20%
 
 ---
 
@@ -48,6 +48,15 @@ ht-degree: 21%
 >id="aa_datafeed_notify"
 >title="完成時通知"
 >abstract="指定一或多個電子郵件地址，在傳送資料摘要後，向其傳送通知。 多個電子郵件地址必須以逗號分隔。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_lookback_date_range"
+>title="回顧日期範圍"
+>abstract="控制Customer Journey Analytics在處理資料摘要傳送時回顧的時間範圍。<br/>此設定不會變更頻率視窗（小時或天）。 不過，回顧日期範圍可能會影響傳送的資料。 區段資格、工作階段計算和維度持續性都受到回顧日期範圍的影響。"
 
 <!-- markdownlint-enable MD034 -->
 
