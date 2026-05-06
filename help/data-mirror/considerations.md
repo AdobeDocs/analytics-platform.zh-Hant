@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 19351a7155eda77d1768b486c7e39dcf7cdba935
+source-git-commit: 93f38f57021bf66cacd700ce6fbc46338fd6a034
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 1%
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 衛生服務在&#x200B;*主要身分*&#x200B;上運作，但映象的外部資料庫中的資料表有&#x200B;*主要金鑰*，而非主要身分。
 
-主要身分和主要金鑰之間差異的後果是，衛生刪除無法直接針對關聯式表格執行。 因此，您必須：
+主要身分和主要金鑰之間差異的後果是，衛生刪除無法直接對這些關聯式表格執行。 因此，您必須：
 
 * 在資料倉儲解決方案中，刪除其來源表格中的資料，並確保刪除作業透過CDC （或手動變更欄）進行。
 * 針對任何包含身分資訊的下游XDM型資料集（例如：Customer Journey Analytics檢視、Real-Time Customer Data Platform資料集、Adobe Journey Optimizer特定資料集等），將衛生和隱私權請求提交至Adobe。
