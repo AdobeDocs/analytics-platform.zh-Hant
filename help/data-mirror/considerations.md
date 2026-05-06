@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 19351a7155eda77d1768b486c7e39dcf7cdba935
+source-git-commit: 93f38f57021bf66cacd700ce6fbc46338fd6a034
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 1%
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 衛生服務在&#x200B;*主要身分*&#x200B;上運作，但映象的外部資料庫中的資料表有&#x200B;*主要金鑰*，而非主要身分。
 
-主要身分和主要金鑰之間差異的後果是，衛生刪除無法直接針對關聯式表格執行。 因此，您必須：
+主要身分和主要金鑰之間差異的後果是，衛生刪除無法直接對這些關聯式表格執行。 因此，您必須：
 
 * 在資料倉儲解決方案中，刪除其來源表格中的資料，並確保刪除作業透過CDC （或手動變更欄）進行。
 * 針對任何包含身分資訊的下游XDM型資料集（例如：Customer Journey Analytics檢視、Real-Time Customer Data Platform資料集、Adobe Journey Optimizer特定資料集等），將衛生和隱私權請求提交至Adobe。
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 ## 治理差異
 
-在XDM [結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)和基礎概念（例如[欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#field-group)）中，欄位群組中定義的[欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#field)會將其標籤傳播到使用該欄位群組的所有資料集。 例如，欄位群組`identities`中的電子郵件欄位`emailID`在所有使用欄位群組`identities`的資料集中標籤為相同。
+在XDM [結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)和基礎概念（例如[欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)）中，欄位群組中定義的[欄位](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field)會將其標籤傳播到使用該欄位群組的所有資料集。 例如，欄位群組`identities`中的電子郵件欄位`emailID`在所有使用欄位群組`identities`的資料集中標籤為相同。
 
 在關聯式結構描述中，欄名稱是獨立的。 資料表`customers`中名為`email`的資料行與資料表`prospects`中名為`email`的資料行獨立且不同。 此行為表示標籤（例如DULE使用標籤、原則）必須個別套用至映象資料集中的欄位。 根據上述範例，您需要將標籤同時套用至`customers`資料集中的`email`欄位和`prospects`資料集中的`email`欄位。
 
