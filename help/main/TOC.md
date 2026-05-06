@@ -2,9 +2,9 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: f59958b9d290138480fe4b5588d1b5660250be12
+source-git-commit: 19351a7155eda77d1768b486c7e39dcf7cdba935
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1426'
 ht-degree: 95%
 
 ---
@@ -124,7 +124,8 @@ ht-degree: 95%
       + [資料倉儲原生解決方案](/help/data-mirror/datawarehouse.md)
       + [Experience Platform](/help/data-mirror/aep.md)
       + [Customer Journey Analytics](/help/data-mirror/cja.md)
-   + [Data Mirror 快速入門指南](/help/data-mirror/relational.md)
+   + [快速入門指南](/help/data-mirror/relational.md)
+   + {hide-from-toc}[考量事項](/help/data-mirror/considerations.md)
 
 + 連線 {#cja-connections}
    + [連線概觀](../connections/overview.md)
