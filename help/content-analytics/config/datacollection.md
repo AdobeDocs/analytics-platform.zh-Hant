@@ -60,7 +60,7 @@ Content Analytics 事件包括：
 Content Analytics 事件會依以下序列收集：
 
 1. [錄製的檢視或按一下](#recorded-view-or-click)。
-1. 用於傳送Content Analytics事件](#trigger-to-send-a-content-analytics-event)的[觸發器。
+1. 用於傳送Content Analytics事件[&#128279;](#trigger-to-send-a-content-analytics-event)的觸發器。
 
 Content Analytics 依此反映順序的方式確實收集資料，而不是將檢視或點按與其隨後的事件分開收集。 用這樣的方式收集 Content Analytics 資料也會減少所收集的資料量。
 
@@ -119,7 +119,7 @@ Content Analytics會透過下列方式處理Web Channel的身分識別：
 * 因為此結構描述為系統所擁有，故不支援欄位式拚接。 因此，您無法新增其他欄位至結構描述來支援欄位式拼接
 
 
-若要確保Content Analytics身分資料和Web SDK資料身分資料在欄位層級正確連結，請在事件傳送](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}回呼之前修改Web SDK [。
+若要確保Content Analytics身分資料和Web SDK資料身分資料在欄位層級正確連結，請在事件傳送[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}回呼之前修改Web SDK 。
 
 1. 導覽至包含 Adobe Experience Platform Web SDK 擴充功能和 Adobe Content Analytics 擴充功能的&#x200B;**[!UICONTROL 標記]**&#x200B;屬性。
 1. 選取「![插頭](/help/assets/icons/Plug.svg)**[!UICONTROL 擴充功能]**」。
