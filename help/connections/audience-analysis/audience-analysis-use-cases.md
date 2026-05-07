@@ -4,17 +4,18 @@ description: 瞭解Audience Analysis的使用案例。
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-exl-id: 4f465e71-f1b5-4f38-a1db-645550856849
-source-git-commit: ac86664e0136563d904021c72347fb544cda4a6d
+hide: true
+exl-id: f465e71-f1b5-4f38-a1db-645550856849
+source-git-commit: d8d82830188a24bc01bac35c22a27c7f12f9e615
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 1%
+source-wordcount: '1517'
+ht-degree: 0%
 
 ---
 
 # Audience Analysis使用案例 {#analyze-audiences-use-cases}
 
-Audience Analysis可讓您在Customer Journey Analytics中報告Experience Platform對象成員資格資料。 這是透過受眾分析設定精靈管理的設定來達成，可協助您決定要擷取哪些設定檔資料集，以及其他引數和設定詳細資料。 （如需詳細的總覽資訊，請參閱[對象分析總覽](/help/connections/audience-analysis/audience-analysis-overview.md)。）
+Audience Analysis可讓您在Customer Journey Analytics中報告Experience Platform對象成員資格資料。 這是透過受眾分析設定精靈管理的設定來達成，可協助您決定要擷取哪些設定檔資料集，以及其他引數和設定詳細資料。 (如需詳細的總覽資訊，請參閱[對象分析總覽](/help/connections/audience-analysis/audience-analysis-overview.md)。 )
 
 本檔案包含使用案例範例，重點說明Audience Analysis提供的值。 在檢閱使用案例之前，請先熟悉以下的報告考量事項。 在檢視使用案例時，請務必牢記這些考量事項，因為它們可能會影響報表的最終輸出。
 
