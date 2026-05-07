@@ -1,16 +1,17 @@
 ---
-title: Content Analytics 手動設定
-description: 如何手動設定 Content Analytics
+title: Content Analytics手動設定
+description: 瞭解如何手動設定Content Analytics。
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
-source-git-commit: a593221a9eb81d747777aedb323fd44a32c470be
+source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 64%
+source-wordcount: '720'
+ht-degree: 62%
 
 ---
+
 
 # Content Analytics 手動設定
 

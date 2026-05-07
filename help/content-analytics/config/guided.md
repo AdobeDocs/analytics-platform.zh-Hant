@@ -1,16 +1,17 @@
 ---
-title: Content Analytics 引導式設定
-description: 如何使用上線引導式設定來進行 Content Analytics 的設定
+title: Content Analytics引導式設定
+description: 瞭解如何使用入門引導式設定來設定Content Analytics。
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 21bf687f3cff101ee1b3e4be3d870de270f82e89
+source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
 workflow-type: tm+mt
-source-wordcount: '3991'
+source-wordcount: '3992'
 ht-degree: 62%
 
 ---
+
 
 # Content Analytics 引導式設定
 
@@ -298,7 +299,7 @@ ht-degree: 62%
 
 * 指示在收集Content Analytics的資料時應排除哪些資產URL。 請確定您排除個人識別資產URL。
 
-  指定&#x200B;**[!UICONTROL 要排除的資產URL的**&#x200B;[!UICONTROL &#x200B;規則運算式字串&#x200B;]&#x200B;**]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有參照標誌JPEG影像的資產URL。
+  指定&#x200B;**[!UICONTROL 要排除的資產URL的**[!UICONTROL &#x200B;規則運算式字串&#x200B;]**]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有參照標誌JPEG影像的資產URL。
 
 
 ##### 標頭覆寫 {#mobile-header-overrides}
