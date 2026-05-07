@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 664d14beaa6bc8b01169cef9d50b2ca3a2de44d8
+source-git-commit: 80083aad28e6efd0d9498264cb540d9f2898f2bc
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 1%
@@ -28,7 +28,21 @@ ht-degree: 1%
 
 * 請確認一開始已定義所有相關欄。
 * 對應您一開始可能認為需要的每個欄。
-* 如果識別出需要的新欄，請移除目前的資料集，然後使用更新的欄重新設定聯結器。 這可確保資料回填的效率更高、更及時。
+
+如果要新增欄，根據是否需要追溯回填，有兩個選項：
+
+* 回溯回填：
+
+   * 移除目前的資料集。
+   * 使用更新的欄再次設定聯結器。
+
+  這可確保資料回填的效率更高、更及時。
+
+* 無回溯回填：
+
+   * 在來源表格中新增欄。
+   * 在目標資料集結構描述中新增欄。
+   * 更新對應以包含從來源表格到目標資料集的新欄位（欄）。
 
 此策略：
 
@@ -36,14 +50,6 @@ ht-degree: 1%
 * 保持變更磁碟區比稍後新增或修改資料行時更可預測。
 * 有助於限制外部資料庫端的潛在計算成本，因為資料倉儲可能會將新欄解譯為所有列的更新。
 
-若要處理外部資料倉儲表格中的新欄，請執行下列步驟：
-
-1. 使用新增的欄建立新結構描述。
-1. 設定將資料匯入的新來源聯結器。
-1. 正確載入回填。
-1. 日後使用CDC變更。
-
-此方法可將對雙方的影響降至最低。
 
 ## Privacy Service
 
@@ -69,7 +75,7 @@ ht-degree: 1%
 
 ## 治理差異
 
-在XDM [結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)和基礎概念（例如[欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#field-group)）中，欄位群組中定義的[欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#field)會將其標籤傳播到使用該欄位群組的所有資料集。 例如，欄位群組`identities`中的電子郵件欄位`emailID`在所有使用欄位群組`identities`的資料集中標籤為相同。
+在XDM [結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)和基礎概念（例如[欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)）中，欄位群組中定義的[欄位](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field)會將其標籤傳播到使用該欄位群組的所有資料集。 例如，欄位群組`identities`中的電子郵件欄位`emailID`在所有使用欄位群組`identities`的資料集中標籤為相同。
 
 在關聯式結構描述中，欄名稱是獨立的。 資料表`customers`中名為`email`的資料行與資料表`prospects`中名為`email`的資料行獨立且不同。 此行為表示標籤（例如DULE使用標籤、原則）必須個別套用至映象資料集中的欄位。 根據上述範例，您需要將標籤同時套用至`customers`資料集中的`email`欄位和`prospects`資料集中的`email`欄位。
 
@@ -90,5 +96,5 @@ ht-degree: 1%
 
 下列考量事項適用於系統金鑰和欄位：
 
-* 主索引鍵、版本描述項和時間戳記描述項必須是關聯式XDM結構描述中的根層級欄位。 在內嵌期間使用[欄位對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)以支援此需求。
-* 您可以在[對應階段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)期間省略適當的來源欄位。
+* 主索引鍵、版本描述項和時間戳記描述項必須是關聯式XDM結構描述中的根層級欄位。 在內嵌期間使用[欄位對應](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)以支援此需求。
+* 您可以在[對應階段](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)期間省略適當的來源欄位。
