@@ -180,8 +180,8 @@ Customer Journey Analytics 中的實驗面板可讓您分析不同人所在州�
 
 ## 在實驗面板中使用計算量度
 
-有關[在實驗面板中使用計算量度](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119)的資訊，請參閱此部落格文章。
+有關[在實驗面板中使用計算量度](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119?profile.language=zh-Hant)的資訊，請參閱此部落格文章。
 
 >[!MORELIKETHIS]
->[掌握 Adobe Customer Journey Analytics 實驗](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338)
+>[掌握 Adobe Customer Journey Analytics 實驗](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338?profile.language=zh-Hant)
 >

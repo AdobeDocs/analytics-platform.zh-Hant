@@ -55,6 +55,6 @@ ht-degree: 100%
 
    您的資料流現在已設定為將從您網站收集的資料轉送至 Adobe Experience Platform 中的資料集。
 
-   請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
+   請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
 {{upgrade-final-step}}
