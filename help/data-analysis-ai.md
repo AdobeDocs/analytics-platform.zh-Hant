@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 684f7e95e872ed3cc56a12725dd63459ed488ecc
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '2548'
+source-wordcount: '2592'
 ht-degree: 89%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 89%
 
 >[!AVAILABILITY]
 >
->符合資格的客戶可以在限定時間內使用 Data Insights 代理。Data Insights Agent的存取權將於2026年3月31日之前提供。 若在此日期後仍要繼續不間斷地使用 Data Insights 代理，請聯絡您的 Adobe 客戶代表，了解有關 Adobe Experience Platform Agent Orchestrator 的更多資訊。
+>符合資格的客戶可以在限定時間內使用 Data Insights 代理。 Data Insights Agent的存取權將於2026年3月31日之前提供。 若在此日期後仍要繼續不間斷地使用 Data Insights 代理，請聯絡您的 Adobe 客戶代表，了解有關 Adobe Experience Platform Agent Orchestrator 的更多資訊。
 
-Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/help/ai-assistant.md)存取，此助理是生成式 AI 對話代理程式，能迅速有效地回答您的資料相關問題。它會使用您資料檢視與實際資料的元件，在Analysis Workspace中建置相關的視覺效果。
+Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/help/ai-assistant.md)存取，此助理是生成式 AI 對話代理程式，能迅速有效地回答您的資料相關問題。 它會使用您資料檢視與實際資料的元件，在Analysis Workspace中建置相關的視覺效果。
 
 使用Data Insights Agent來回答Analysis Workspace中以資料為中心的問題，可大幅節省您原本要在Analysis Workspace中手動建立視覺效果和熟悉資料檢視元件所花費的時間。
 
@@ -28,9 +28,9 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 | 功能 | 範圍內 | 範圍外 |
 | --- | --- | --- |
-| **視覺內容類型** | <ul><li>折線圖</li><li>多折線圖</li><li>自由格式表格</li><li>長條圖</li><li>環形圖</li><li>摘要數字</li></ul> | <ul><li>流量</li><li>流失</li><li>同類群組表格</li><li>區域圖和堆疊區域圖</li><li>堆疊長條圖</li><li>項目符號</li><li>組合</li><li>直方圖</li><li>橫條圖、堆疊橫條圖</li><li>關鍵量度摘要</li><li>散佈圖</li><li>摘要變更</li><li>文字</li><li>樹狀圖</li><li>文氏圖表</li><li>引導式分析：活躍增長、轉換趨勢、參與度、首次使用影響、頻率、漏斗、淨增長、發行影響、保留率、時間軸、趨勢</li></ul> |
-| **工作區動作和代理程式功能** | <ul><li>建置及更新視覺內容<p>產生自由格式表格和相關的視覺內容 (例如折線圖、長條圖、環形圖等)。</p><p>例如，*從二月到五月，各個 SKU 的利潤是多少？*</p></li><li>提出後續問題<p>根據先前任何提示的內容來回覆提示。例如：</p> <ul><li>提示 1：*三月份的趨勢事件。*</li><li>提示 2：*改為顯示三至四月的資料*</li></ul> </li><li>偵測超出範圍的提示<p>如果您提交超出範圍的提示，例如「*匯出此專案*」，Data Insights 代理回覆時會告知您該問題超出範圍。</p></li></ul> | <ul><li>共用</li><li>匯出</li><li>下載</li><li>管理使用者偏好</li><li>管理資料視圖</li><li>Analytics 儀表板應用程式</li><li>歸因</li><li>內嵌摘要或回覆<p>Data Insights 代理無法在聊天邊欄中，透過內嵌方式針對使用者提示給予摘要答覆。超出範圍的提示範例包括：「*請針對我上次的提示提供洞察摘要*」以及「*請將折線圖視覺內容中的重點進行統整」。*</p></li></ul> |
-| **釐清問題** | 如果您提出的問題沒有足夠的背景資訊，或者太過籠統以致無法回答，Data Insights 代理將會透過釐清問題或建議選項來回覆。 <p>以下釐清問題是元件相關問題的範例：</p><ul><li>量度：*您指的是哪一個「收入」量度？*</li><li>維度：*您想聚焦於下列哪個「地區」？*</li><li>區段：*您想套用哪個「客戶」區段？*</li><li>日期範圍：*您所說的「上個月」是指上一個完整月份，還是過去 30 天？*</li></ul><p>以下釐清問題是維度項目相關問題的範例：</p> <ul><li>您所指的「網站商店名稱」是哪一個？(例如：網站商店 #5274、網站商店 #2949 等。)</li></ul> | 釐清問題僅限於元件和維度項目。Data Insights 代理無法釐清資料視圖、視覺內容、資料顆粒度、比較結果和範圍等事項。當無法使用釐清問題時，代理程式會預設您最可能詢問的問題。若其傳回預期外的視覺內容或資料顆粒度，您可以提出後續問題或調整視覺內容及資料。 |
+| **視覺內容類型** | <ul><li>折線圖</li><li>多折線圖</li><li>自由格式表格</li><li>長條圖</li><li>環狀圖</li><li>摘要數字</li></ul> | <ul><li>流程</li><li>流失</li><li>同類群組表格</li><li>區域圖和堆疊區域圖</li><li>堆疊長條圖</li><li>項目符號</li><li>組合圖</li><li>直方圖</li><li>橫條圖、堆疊橫條圖</li><li>關鍵量度摘要</li><li>散佈圖</li><li>摘要變更</li><li>文字</li><li>樹狀圖</li><li>文氏圖表</li><li>引導式分析：活躍增長、轉換趨勢、參與度、首次使用影響、頻率、漏斗、淨增長、發行影響、保留率、時間軸、趨勢</li></ul> |
+| **工作區動作和代理程式功能** | <ul><li>建置及更新視覺內容<p>產生自由格式表格和相關的視覺內容 (例如折線圖、長條圖、環形圖等)。</p><p>例如，*從二月到五月，各個 SKU 的利潤是多少？*</p></li><li>提出後續問題<p>根據先前任何提示的內容來回覆提示。 例如：</p> <ul><li>提示 1：*三月份的趨勢事件。*</li><li>提示 2：*改為顯示三至四月的資料*</li></ul> </li><li>偵測超出範圍的提示<p>如果您提交超出範圍的提示，例如「*匯出此專案*」，Data Insights 代理回覆時會告知您該問題超出範圍。</p></li></ul> | <ul><li>共用</li><li>匯出</li><li>下載</li><li>管理使用者偏好</li><li>管理資料視圖</li><li>Analytics 儀表板應用程式</li><li>歸因</li><li>內嵌摘要或回覆<p>Data Insights 代理無法在聊天邊欄中，透過內嵌方式針對使用者提示給予摘要答覆。 超出範圍的提示範例包括：「*請針對我上次的提示提供洞察摘要*」以及「*請將折線圖視覺內容中的重點進行統整」。*</p></li></ul> |
+| **釐清問題** | 如果您提出的問題沒有足夠的背景資訊，或者太過籠統以致無法回答，Data Insights 代理將會透過釐清問題或建議選項來回覆。 <p>以下釐清問題是元件相關問題的範例：</p><ul><li>量度：*您指的是哪一個「收入」量度？*</li><li>維度：*您想聚焦於下列哪個「地區」？*</li><li>區段：*您想套用哪個「客戶」區段？*</li><li>日期範圍：*您所說的「上個月」是指上一個完整月份，還是過去 30 天？*</li></ul><p>以下釐清問題是維度項目相關問題的範例：</p> <ul><li>您所指的「網站商店名稱」是哪一個？ (例如：網站商店 #5274、網站商店 #2949 等。)</li></ul> | 釐清問題僅限於元件和維度項目。 Data Insights 代理無法釐清資料視圖、視覺內容、資料顆粒度、比較結果和範圍等事項。 當無法使用釐清問題時，代理程式會預設您最可能詢問的問題。 若其傳回預期外的視覺內容或資料顆粒度，您可以提出後續問題或調整視覺內容及資料。 |
 | **資料可驗證性和正確性** | 經由檢視所產生的自由格式表格和資料視覺內容，確認資料的可驗證性和正確性。 <p>例如，若您要求 Data Insights 代理&#x200B;*提供上個月的訂單趨勢*，則您可以藉此確認在新產生的面板、資料視覺內容和自由格式表格中，已選取正確的量度 (「訂單」) 和日期範圍 (「上個月」)。</p> | Data Insights 代理回覆時不會告知您已新增哪些元件或視覺內容。 |
 | **意見回饋機制** | <ul><li>肯定</li><li>否定</li><li>標記</li></ul> |  |
 
@@ -42,15 +42,15 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 >[!CONTEXTUALHELP]
 >id="cja-enable-data-insights-data-view"
 >title="啟用供 Data Insights 代理使用"
->abstract="此選項會啟用此資料視圖，用於和 Data Insights 代理搭配使用。Data Insights 代理是一個生成式 AI 對話代理，可以從 Customer Journey Analytics 中的 AI 助理存取。它能協助您透過文字提示快速分析資料。此代理會使用來自您資料視圖的元件以及您的實際資料，在 Analysis Workspace 中建置相關的視覺效果。"
+>abstract="此選項會啟用此資料視圖，用於和 Data Insights 代理搭配使用。 Data Insights 代理是一個生成式 AI 對話代理，可以從 Customer Journey Analytics 中的 AI 助理存取。 它能協助您透過文字提示快速分析資料。 此代理會使用來自您資料視圖的元件以及您的實際資料，在 Analysis Workspace 中建置相關的視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
 
 下列參數能控制對 Customer Journey Analytics 中 Data Insights 代理的存取權：
 
-* **解決方案存取權**： Data Insights Agent在有限的時間內可供符合資格的客戶使用。 在 2026 年 2 月 28 日以前皆可存取 Data Insights 代理。Adobe Analytics 並未提供此代理功能。
+* **解決方案存取權**： Data Insights Agent在有限的時間內可供符合資格的客戶使用。 在 2026 年 2 月 28 日以前皆可存取 Data Insights 代理。 Adobe Analytics 並未提供此代理功能。
 
-* **合約存取權**：如果您在 AI 助理中無法使用 Data Insights 代理，請聯絡您組織的管理員或 Adobe 帳戶團隊。在組織能夠開始使用 Data Insights 代理之前，您必須先同意與生成式 AI 相關的特定法律條款。
+* **合約存取權**：如果您在 AI 助理中無法使用 Data Insights 代理，請聯絡您組織的管理員或 Adobe 帳戶團隊。 在組織能夠開始使用 Data Insights 代理之前，您必須先同意與生成式 AI 相關的特定法律條款。
 
 * **權限**：使用者必須先在 [!UICONTROL Adobe Admin Console] 中獲得必要的權限，才能存取 Data Insights 代理。
 
@@ -79,8 +79,8 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
   >[!IMPORTANT]
   >
   >啟用資料視圖時請將以下事項納入考量：
-  >* 每個 IMS 組織最多可以啟用 50 個資料視圖。若特定組織的所有產品設定檔內啟用超過 50 個資料視圖，則 Data Insights 代理會使用最常用的 50 個資料視圖。
-  >  您可以在資料檢視[中使用Data Insights Agent欄上的](/help/data-views/manage-dataviews.md#manage-data-views)資訊來檢視在您的IMS組織中為Data Insights Agent啟用的資料檢視數量。
+  >* 每個 IMS 組織最多可以啟用 50 個資料視圖。 若特定組織的所有產品設定檔內啟用超過 50 個資料視圖，則 Data Insights 代理會使用最常用的 50 個資料視圖。
+  >  您可以在資料檢視](/help/data-views/manage-dataviews.md#manage-data-views)中使用Data Insights Agent欄上的[資訊來檢視在您的IMS組織中為Data Insights Agent啟用的資料檢視數量。
   >* 啟用包含資料釋圖當日的某個時間點，Data Insights 代理便可以參照這些資料釋圖。
 
   若要啟用資料釋圖供 Data Insights 代理使用：
@@ -136,7 +136,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 ![AI 提示](/help/assets/ai-asst-prompt1.png)
 
-**回覆：** Data Insights 代理會瀏覽資料視圖中的資料 (包括量度和元件) 以獲取深入分析。它將提示轉換為資料範圍內的正確維度和量度。
+**回覆：** Data Insights 代理會瀏覽資料視圖中的資料 (包括量度和元件) 以獲取深入分析。 它將提示轉換為資料範圍內的正確維度和量度。
 
 如您所見，它自動產生了一張線圖和一個自由格式表格顯示七月的訂單。
 
@@ -148,17 +148,17 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「依照區域顯示收入」。*
 
-**回覆：** Data Insights 代理擁有的智慧可以理解您所說的「區域」是指「客戶區域」。它產生一張最能清楚顯示各區域收入的長條圖：
+**回覆：** Data Insights 代理擁有的智慧可以理解您所說的「區域」是指「客戶區域」。 它產生一張最能清楚顯示各區域收入的長條圖：
 
 ![長條圖](/help/assets/ai-asst-result2.png)
 
 ### 範例 3
 
-接下來，在了解各區域的收入之外，您還想查看各區域的利潤資料。您可以要求 Data Insights 代理更新最新的視覺內容和自由格式表格，而非重複前一個提示。
+接下來，在了解各區域的收入之外，您還想查看各區域的利潤資料。 您可以要求 Data Insights 代理更新最新的視覺內容和自由格式表格，而非重複前一個提示。
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」。*
 
-**回覆：**&#x200B;**[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
+**回覆：****[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
 
 ![長條圖](/help/assets/ai-asst-result4.png)
 
@@ -176,9 +176,9 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 Adobe Experience Platform Agent Orchestrator 可讓您在多個 Adobe Experience Cloud 應用程式 (例如 Adobe Journey Optimizer 和 Real-Time CDP) 中，存取 Data Insights 代理的功能。
 
-Agent Orchestrator 會解讀您的請求、判斷需要哪些專門的代理，並協調代理提供適當的回答。它會追蹤多輪互動中的上下文，讓您可以自然地在先前的查詢基礎上繼續提問。
+Agent Orchestrator 會解讀您的請求、判斷需要哪些專門的代理，並協調代理提供適當的回答。 它會追蹤多輪互動中的上下文，讓您可以自然地在先前的查詢基礎上繼續提問。
 
-如需詳細資訊，請參閱 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/tw/products/experience-platform/agent-orchestrator.html)。
+如需詳細資訊，請參閱 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html)。
 
 ## 資料視覺效果提示範例
 
@@ -207,11 +207,11 @@ Data Insights 代理會處理每個使用者提示所提供的背景資訊，並
 
 為了獲得最佳結果，請考慮下列準則：
 
-* **具體：**&#x200B;使用精確的用語來縮小回覆範圍。以下為具體提示的範例：「加州上個月的銷售額」
+* **具體：**&#x200B;使用精確的用語來縮小回覆範圍。 以下為具體提示的範例：「加州上個月的銷售額」
 
 * **使用明確的量度、維度和區段：**&#x200B;新增特定量度 (例如「收入」)、維度 (例如「網站名稱」)、區段 (例如「iPhone 使用者」) 和日期範圍 (例如「過去三個月」)，有助於 Data Insights 代理聚焦於正確的資料。
 
-* **提出直接的問題：**&#x200B;開門見山地提出問題，可以讓 Data Insights 代理更輕鬆地提供明確、相關的深入分析。以下是在提示中直接提問的範例：「今年各產品類別的平均收入是多少？」
+* **提出直接的問題：**&#x200B;開門見山地提出問題，可以讓 Data Insights 代理更輕鬆地提供明確、相關的深入分析。 以下是在提示中直接提問的範例：「今年各產品類別的平均收入是多少？」
 
 檢視下列表格中的範例用語和句型，您可以在 Data Insights 代理的提示中使用這些用語和句型，並搭配您可以預期的回覆類型。
 
@@ -256,19 +256,19 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 以下是 Customer Journey Analytics 設定 (資料檢視、計算量度、區段及其他) 的最佳做法，以確保 Data Insights 代理可以找出正確的元件並傳回更清晰的解答，而無需提示您提供其他資訊。
 
-* **平衡您所需的元件**。請勿將資料集的所有欄位新增為量度或維度元件至資料檢視，尤其是您不打算在分析中使用的欄位。 另一方面，也不要嚴格限制在您預期分析時會需要的欄位。過度限制的資料檢視會讓您的分析失去彈性，也會使 Data Insights 代理的功能受限。
-* **一律使用好記的顯示名稱**。確保所有您在資料檢視中定義的欄位 (無論是作為量度或維度元件) 都有好記的元件名稱。來自 Adobe Analytics 來源連接器資料集的欄位，特別需要將欄位重新命名為好記的名稱。這些欄位的名稱通常不好記且無法識別，例如 `eVar41` 或 `prop25`。
-* **使用獨特的名稱**。當您在資料檢視中使用相同欄位作為量度和維度元件時，獨特的名稱就特別重要。或者當您在多個相同類型的元件中 (例如在兩個不同的量度中) 使用同一個欄位，且每個欄位都有不同的元件設定時。
-* **使用元件命名慣例**。您可以使用元件命名慣例為元件分組。例如，**[!UICONTROL 訂單 | 產品]**&#x200B;和&#x200B;**[!UICONTROL 訂單 | 客戶]**&#x200B;可以區分資料中可能存在的不同訂單量度。
-* **使用資料字典**。在資料字典中新增元件的說明和其他相關資料。 Data Insights Agent目前並未使用資料字典中的說明和標籤，但未來可能會使用。
-* **使用核准的計算量度**。同意在流程中僅使用核准的計算量度作為資料檢視中的元件，並避免使用實驗性的計算量度。
-* **共用必要區段**。確保您共用區段，並讓 Data Insights 代理提示所需的區段可見。
-* **不同資料檢視之間的元件名稱標準化**。如果您在多個資料檢視中使用相同欄位作為元件，請確保該元件使用單一的好記名稱與單一識別碼。單一名稱和識別碼讓 Data Insights 代理切換資料檢視時不會遺失相關內容。
+* **平衡您所需的元件**。 請勿將資料集的所有欄位新增為量度或維度元件至資料檢視，尤其是您不打算在分析中使用的欄位。 另一方面，也不要嚴格限制在您預期分析時會需要的欄位。 過度限制的資料檢視會讓您的分析失去彈性，也會使 Data Insights 代理的功能受限。
+* **一律使用好記的顯示名稱**。 確保所有您在資料檢視中定義的欄位 (無論是作為量度或維度元件) 都有好記的元件名稱。 來自 Adobe Analytics 來源連接器資料集的欄位，特別需要將欄位重新命名為好記的名稱。 這些欄位的名稱通常不好記且無法識別，例如 `eVar41` 或 `prop25`。
+* **使用獨特的名稱**。 當您在資料檢視中使用相同欄位作為量度和維度元件時，獨特的名稱就特別重要。 或者當您在多個相同類型的元件中 (例如在兩個不同的量度中) 使用同一個欄位，且每個欄位都有不同的元件設定時。
+* **使用元件命名慣例**。 您可以使用元件命名慣例為元件分組。 例如，**[!UICONTROL 訂單 | 產品]**&#x200B;和&#x200B;**[!UICONTROL 訂單 | 客戶]**&#x200B;可以區分資料中可能存在的不同訂單量度。
+* **使用資料字典**。 在資料字典中新增元件的說明和其他相關資料。 Data Insights Agent目前並未使用資料字典中的說明和標籤，但未來可能會使用。
+* **使用核准的計算量度**。 同意在流程中僅使用核准的計算量度作為資料檢視中的元件，並避免使用實驗性的計算量度。
+* **共用必要區段**。 確保您共用區段，並讓 Data Insights 代理提示所需的區段可見。
+* **不同資料檢視之間的元件名稱標準化**。 如果您在多個資料檢視中使用相同欄位作為元件，請確保該元件使用單一的好記名稱與單一識別碼。 單一名稱和識別碼讓 Data Insights 代理切換資料檢視時不會遺失相關內容。
 
 >[!MORELIKETHIS]
 >
 >[元件設定](/help/data-views/component-settings/overview.md)
->[資料字典 &#x200B;](/help/components/data-dictionary/data-dictionary-overview.md)
+>[資料字母排序](/help/components/data-dictionary/data-dictionary-overview.md)
 >[核准計算量度](/help/components/calc-metrics/cm-workflow/cm-approving.md)
 >[共用區段](/help/components/segments/seg-share.md)
 >

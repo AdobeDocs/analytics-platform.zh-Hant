@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 81e08ecb593b6ba789c479d0e648cbe7ba0a82d6
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '535'
 ht-degree: 65%
 
 ---
@@ -19,28 +19,28 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="dataview_settings_datapreview"
 >title="資料預覽"
->abstract="將此資料檢視的資料與連線的資料進行比較。此預覽百分比是根據連線中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
+>abstract="將此資料檢視的資料與連線的資料進行比較。 此預覽百分比是根據連線中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
 
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-enable MD034 -->
 
 
-在 Customer Journey Analytics 中，您可以用任何方式定義工作階段，來配合人員與您所有數位體驗的互動方式。您可以在資料視圖中配置工作階段設定。
+在 Customer Journey Analytics 中，您可以用任何方式定義工作階段，來配合人員與您所有數位體驗的互動方式。 您可以在資料視圖中配置工作階段設定。
 
-工作階段定義是非破壞性的，不會改變底層資料。您可以將多個資料檢視設定為 Workspace 專案的基礎 (每個資料檢視都有其各自具體的工作階段定義)。
+工作階段定義是非破壞性的，不會改變底層資料。 您可以將多個資料檢視設定為 Workspace 專案的基礎 (每個資料檢視都有其各自具體的工作階段定義)。
 
 若要在資料視圖中定義工作階段的內容：
 
 1. 在 Customer Journey Analytics 使用者介面的主要導覽中，選取「**[!UICONTROL 資料視圖]**」，也可自「**[!UICONTROL 資料管理]**」選取。
 
-1. 建立新的或編輯現有的資料檢視。如需更多資訊，請參閱[建立或編輯資料視圖](create-dataview.md)。
+1. 建立新的或編輯現有的資料檢視。 如需更多資訊，請參閱[建立或編輯資料視圖](create-dataview.md)。
 
-1. 選取「**[!UICONTROL 設定]**」索引標籤。在「[!UICONTROL 工作階段設定]」下：
+1. 選取「**[!UICONTROL 設定]**」索引標籤。 在「[!UICONTROL 工作階段設定]」下：
 
-   1. 輸入「**[!UICONTROL 工作階段逾時]**」的值，以[!UICONTROL 分鐘]、[!UICONTROL 小時]、[!UICONTROL 天]或[!UICONTROL 週]為單位。工作階段逾時決定在開始新工作階段之前工作階段可以閒置 (沒有事件發生) 多少時間。
+   1. 輸入「**[!UICONTROL 工作階段逾時]**」的值，以[!UICONTROL 分鐘]、[!UICONTROL 小時]、[!UICONTROL 天]或[!UICONTROL 週]為單位。 工作階段逾時決定在開始新工作階段之前工作階段可以閒置 (沒有事件發生) 多少時間。
 
-      如果您有興趣分析大部份的線上互動情形，請使用較短的工作階段逾時 (例如 30 分鐘)。例如，分析那些瀏覽您線上商店產品頁面的輪廓，了解他們是否確實將產品加入其購物車或購買。
+      如果您有興趣分析大部份的線上互動情形，請使用較短的工作階段逾時 (例如 30 分鐘)。 例如，分析那些瀏覽您線上商店產品頁面的輪廓，了解他們是否確實將產品加入其購物車或購買。
 
       如果您要結合線上和離線資料，並希望分析購買您一種或多種產品的客戶，了解他們是否在購買後的前三個月內打電話給您的聯絡中心，請使用較長的工作階段逾時 (例如 3 個月)。
 
@@ -48,9 +48,9 @@ ht-degree: 65%
 
       只會列出共用、您有存取權以及可根據您為資料檢視定義的元件進行評估的區段。
 
-   1. 從&#x200B;**[!UICONTROL 使用量度]**&#x200B;下拉式功能表開始新工作階段。 或者，您也可以從![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**&#x200B;將量度拖放至&#x200B;**[!UICONTROL _將量度拖放至此處_]**&#x200B;的左窗格。 所選量度定義新工作階段開始。您可以定義多個量度。
+   1. 從&#x200B;**[!UICONTROL 使用量度]**&#x200B;下拉式功能表開始新工作階段。 或者，您也可以從![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**&#x200B;將量度拖放至&#x200B;**[!UICONTROL _將量度拖放至此處_]**&#x200B;的左窗格。 所選量度定義新工作階段開始。 您可以定義多個量度。
 
-      您可以使用任何類型的量度來定義新工作階段。例如，假設您希望輪廓每次啟動您的行動應用程式時定義一個新的工作階段。在&#x200B;**[!UICONTROL 資料檢視]** > **[!UICONTROL 元件]**&#x200B;中，您根據&#x200B;**[!UICONTROL appInteraction]** **[!UICONTROL Name]**&#x200B;結構描述欄位，定義名為&#x200B;**[!UICONTROL Launch]**&#x200B;之型別量度的元件。 您進一步指定&#x200B;**[!UICONTROL Launch]**&#x200B;量度元件，只有在值符合`launch`時才計算值。
+      您可以使用任何類型的量度來定義新工作階段。 例如，假設您希望輪廓每次啟動您的行動應用程式時定義一個新的工作階段。 在&#x200B;**[!UICONTROL 資料檢視]** > **[!UICONTROL 元件]**&#x200B;中，您根據&#x200B;**[!UICONTROL appInteraction]** **[!UICONTROL Name]**&#x200B;結構描述欄位，定義名為&#x200B;**[!UICONTROL Launch]**&#x200B;之型別量度的元件。 您進一步指定&#x200B;**[!UICONTROL Launch]**&#x200B;量度元件，只有在值符合`launch`時才計算值。
 
       ![應用程式互動量度元件啟動](assets/component-launches.png)
 

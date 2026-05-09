@@ -4,10 +4,10 @@ title: 項目符號
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 90%
+source-wordcount: '297'
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="workspace_bullet_goalvalue"
 >title="目標值"
->abstract="**[!UICONTROL 高目標]**&#x200B;是您的主要目標。**[!UICONTROL 低目標]**&#x200B;和&#x200B;**[!UICONTROL 中目標]**&#x200B;會建立低於[!UICONTROL 高目標]的範圍。注意：當勾選「**[!UICONTROL 百分比]**」選項時，請以整數形式輸入目標。例如：如果您的目標是百分之二十，輸入 `20`。"
+>abstract="**[!UICONTROL 高目標]**&#x200B;是您的主要目標。 **[!UICONTROL 低目標]**&#x200B;和&#x200B;**[!UICONTROL 中目標]**&#x200B;會建立低於[!UICONTROL 高目標]的範圍。 注意：當勾選「**[!UICONTROL 百分比]**」選項時，請以整數形式輸入目標。 例如：如果您的目標是百分之二十，輸入 `20`。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -33,7 +33,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的項目符號視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[項目符號](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)_。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄專案符號視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本，請參閱[專案符號](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph)。_
 
 >[!ENDSHADEBOX]
 
@@ -41,11 +41,11 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ![項目符號圖表視覺效果](assets/bullet.png)
 
-項目符號圖表中含有單一的主要測量值 (例如今年至今的收入)，且可用於輸入質化的成效範圍 (例如與目標收入比較)。您可以指定「高」、「中」和「低」的目標範圍。您可在![設定](/help/assets/icons/Setting.svg)**[!UICONTROL 設定]**&#x200B;中指定目標範圍。
+項目符號圖表中含有單一的主要測量值 (例如今年至今的收入)，且可用於輸入質化的成效範圍 (例如與目標收入比較)。 您可以指定「高」、「中」和「低」的目標範圍。 您可在![設定](/help/assets/icons/Setting.svg)**[!UICONTROL 設定]**&#x200B;中指定目標範圍。
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [項目符號圖標視覺效果](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bullet-graph-visualizations){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [項目符號圖標視覺效果](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bullet-graph-visualizations){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -56,11 +56,11 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 | 設定 | 說明 |
 |---|---|
-| **[!UICONTROL 項目圖表選項]** | 在[!UICONTROL 項目圖表]視覺效果中的&#x200B;**[!UICONTROL 高目標]**、**[!UICONTROL 中目標]**&#x200B;及&#x200B;**[!UICONTROL 低目標]**&#x200B;的指定值。<br/>**[!UICONTROL 高目標&#x200B;]**&#x200B;是您的主要目標。**[!UICONTROL &#x200B;低目標&#x200B;]**&#x200B;和&#x200B;**[!UICONTROL &#x200B;中目標&#x200B;]**&#x200B;會建立低於高目標的範圍。注意：當勾選「**[!UICONTROL &#x200B;百分比&#x200B;]**」選項時，請以整數形式輸入目標。例如：如果您的目標是百分之二十，輸入 `20`。 |
+| **[!UICONTROL 項目圖表選項]** | 在[!UICONTROL 項目圖表]視覺效果中的&#x200B;**[!UICONTROL 高目標]**、**[!UICONTROL 中目標]**&#x200B;及&#x200B;**[!UICONTROL 低目標]**&#x200B;的指定值。 <br/>**[!UICONTROL 高目標&#x200B;]**是您的主要目標。**[!UICONTROL &#x200B;低目標&#x200B;]**和**[!UICONTROL &#x200B;中目標&#x200B;]**會建立低於高目標的範圍。 注意：當勾選「**[!UICONTROL &#x200B;百分比&#x200B;]**」選項時，請以整數形式輸入目標。 例如：如果您的目標是百分之二十，輸入 `20`。 |
 
 >[!MORELIKETHIS]
 >
->[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

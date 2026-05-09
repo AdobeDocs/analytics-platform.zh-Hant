@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 471ecd60-6e1e-4889-93bd-c654b35d40dc
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-loader"
 >title="在您的網站上實作 Loader 標記"
->abstract="與您的網站開發團隊合作，在您網站的每個頁面上安裝 Loader 標記。<br><br>此任務的完成時間在很大程度上取決於與您合作部署程式碼的工程團隊之回應時間。某些擁有高適應性工程團隊的組織可以在幾天內完成這個步驟，而擁有大量待辦任務的工程團隊可能需要一個月或更長的時間。"
+>abstract="與您的網站開發團隊合作，在您網站的每個頁面上安裝 Loader 標記。<br><br>此任務的完成時間在很大程度上取決於與您合作部署程式碼的工程團隊之回應時間。 某些擁有高適應性工程團隊的組織可以在幾天內完成這個步驟，而擁有大量待辦任務的工程團隊可能需要一個月或更長的時間。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 您必須在想要追蹤的網站上安裝您的標記，這是將程式碼放在您網站範本的標題標記中。
 
-以下過程說明如何取得引用您標記的程式碼。有關補充資訊，請參閱 Experience Platform 文件中的「[標記和事件轉送實施指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/implementation-guides)」。
+以下過程說明如何取得引用您標記的程式碼。 有關補充資訊，請參閱 Experience Platform 文件中的「[標記和事件轉送實施指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/implementation-guides)」。
 
 若要取得參考標籤的程式碼：
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 1. 在 Adobe Experience Platform 中，前往「**[!UICONTROL 資料彙集]** > **[!UICONTROL 標記]**」。
 
-1. 在&#x200B;**[!UICONTROL 「標記屬性」]**&#x200B;頁面中，從屬性清單中選取您新建立的標記並開啟。
+1. 從「**[!UICONTROL 標記屬性]**」頁面，選取您新建立的標記並開啟。
 
 1. 選取左側邊欄中的&#x200B;**[!UICONTROL 「環境」]**。
 
@@ -53,6 +53,6 @@ ht-degree: 100%
 
    您可以根據您部署 Adobe Experience Platform Web SDK 的流程，選取其他環境 (中繼、生產)，而非開發環境的程式碼。
 
-   如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant&)。
+   如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?)。
 
 {{upgrade-final-step}}

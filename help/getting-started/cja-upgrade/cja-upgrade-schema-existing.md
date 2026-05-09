@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
-source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 100%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-tailored"
 >title="使用自訂結構描述"
->abstract="(建議) 自訂結構描述可讓您的組織僅追蹤需要的內容，並避免產生與混亂和不必要欄位相關的經常性費用。此選項包括 Web SDK 新增的欄位群組和您組織自訂的欄位群組。"
+>abstract="(建議) 自訂結構描述可讓您的組織僅追蹤需要的內容，並避免產生與混亂和不必要欄位相關的經常性費用。 此選項包括 Web SDK 新增的欄位群組和您組織自訂的欄位群組。"
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-default"
 >title="使用預設結構描述"
->abstract="(不建議) Adobe Analytics 結構描述包含超過一千個欄位，這可能會讓結構描述變得混亂和複雜。您的組織將被迫繼續遵守 prop 和 eVar 的概念，而這是 Customer Journey Analytics 中未使用的舊版概念。與其他 Adobe Experience Platform 服務的整合更加困難。"
+>abstract="(不建議) Adobe Analytics 結構描述包含超過一千個欄位，這可能會讓結構描述變得混亂和複雜。 您的組織將被迫繼續遵守 prop 和 eVar 的概念，而這是 Customer Journey Analytics 中未使用的舊版概念。 與其他 Adobe Experience Platform 服務的整合更加困難。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 <!-- this page exists as the "Learn more" link in the info icons for the options "I am comfortable using my Adobe Analytics schema as a basis" and "I want to use a schema tailored to my organization" -->
 
-升級到 Customer Journey Analytics 時，Adobe 建議建立自訂體驗資料模型 (XDM) 結構描述，以便在您開始使用其他 Platform 服務時更能滿足組織的需求。或者，您可以選擇使用現有的 Adob&#x200B;&#x200B;e Analytics 結構描述。
+升級到 Customer Journey Analytics 時，Adobe 建議建立自訂體驗資料模型 (XDM) 結構描述，以便在您開始使用其他 Platform 服務時更能滿足組織的需求。 或者，您可以選擇使用現有的 Adob&#x200B;&#x200B;e Analytics 結構描述。
 
 考慮每種方法的優點和缺點。
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 | 優點 | 缺點 |
 |----------|---------|
-| <p>使用 Adob&#x200B;&#x200B;e Analytics 結構描述的優點包括：</p><ul><li>容易升級<p>如果您已經使用 Adob&#x200B;&#x200B;e Experience Platform Web SDK 將資料傳送至 Adob&#x200B;&#x200B;e Analytics，則您可以向資料流新增附加服務以將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform (然後可在您的 Customer Journey Analytics 設定中使用)。</p></li></ul> | <p>使用 Adob&#x200B;&#x200B;e Analytics 結構描述的缺點包括：</p><ul><li>雖然使用 Adob&#x200B;&#x200B;e Analytics 結構描述不會限制您如何與其他 Platform 應用程式結合使用，但會導致比使用其他結構描述更複雜的結構描述。這是因為 Adobe Analytics 結構描述包含許多 Adob&#x200B;&#x200B;e Analytics 專屬的物件，而您的組織不太可能使用這些物件。<p>當需要變更結構描述時，您必須篩選數千個未使用的欄位來找到需要更新的欄位。</p></li></ul> |
+| <p>使用 Adob&#x200B;&#x200B;e Analytics 結構描述的優點包括：</p><ul><li>容易升級<p>如果您已經使用 Adob&#x200B;&#x200B;e Experience Platform Web SDK 將資料傳送至 Adob&#x200B;&#x200B;e Analytics，則您可以向資料流新增附加服務以將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform (然後可在您的 Customer Journey Analytics 設定中使用)。</p></li></ul> | <p>使用 Adob&#x200B;&#x200B;e Analytics 結構描述的缺點包括：</p><ul><li>雖然使用 Adob&#x200B;&#x200B;e Analytics 結構描述不會限制您如何與其他 Platform 應用程式結合使用，但會導致比使用其他結構描述更複雜的結構描述。 這是因為 Adobe Analytics 結構描述包含許多 Adob&#x200B;&#x200B;e Analytics 專屬的物件，而您的組織不太可能使用這些物件。<p>當需要變更結構描述時，您必須篩選數千個未使用的欄位來找到需要更新的欄位。</p></li></ul> |
 
 
 

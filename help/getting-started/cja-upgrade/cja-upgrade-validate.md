@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: c0513e4c-51fb-4b4c-8450-8e6bf7dda4e7
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-validate"
 >title="驗證資料是否正在流動"
->abstract="使用連線詳細資訊來驗證資料是否流入 Customer Journey Analytics。<br><br>如果一切均正確無誤完成，只需不到一天的時間即可完成這個步驟。如果發生多個資料收集問題，則進行疑難排解可能明顯花費更長時間。"
+>abstract="使用連線詳細資訊驗證資料是否流入 Customer Journey Analytics。<br><br>如果一切均正確無誤，只需不到一天的時間即可完成這個步驟。 如果發生多個資料收集問題，則進行疑難排解可能明顯花費更長時間。"
 
 <!-- markdownlint-enable MD034 -->
 

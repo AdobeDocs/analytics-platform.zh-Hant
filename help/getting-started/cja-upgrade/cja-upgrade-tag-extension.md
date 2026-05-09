@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 382d2b00-939a-4fff-be02-7a98d457a455
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '316'
 ht-degree: 100%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-extension"
 >title="新增 Platform Web SDK 擴充功能至您的標記屬性"
->abstract="新增 Adobe Experience Platform Web SDK 擴充功能至您的標記屬性。新增 Web SDK 擴充功能至您的標記屬性的程序已經簡化，只需幾分鐘即可完成。"
+>abstract="新增 Adobe Experience Platform Web SDK 擴充功能至您的標記屬性。 新增 Web SDK 擴充功能至您的標記屬性的程序已經簡化，只需幾分鐘即可完成。"
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note-step}}
 
-您可以使用 Adobe Experience Platform 中的「標籤」功能，在您的網站上實施程式碼以收集資料。此標記管理解決方案可讓您部署程式碼以及其他標記需求。 標籤可使用 Adobe Experience Platform Web SDK 擴充功能與 Adobe Experience Platform 緊密整合。
+您可以使用 Adobe Experience Platform 中的「標籤」功能，在您的網站上實施程式碼以收集資料。 此標記管理解決方案可讓您部署程式碼以及其他標記需求。 標籤可使用 Adobe Experience Platform Web SDK 擴充功能與 Adobe Experience Platform 緊密整合。
 
-以下資訊說明如何將 Web SDK 擴充功能新增到您的標記。若要了解補充資訊，請參閱 Experience Platform 文件中的「[設定 Web SDK 標記擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)」。Web SDK 原本就包括 [!UICONTROL Adobe Experience Cloud ID 服務]，因此您不需要新增 ID 服務擴充功能至您的標記中。
+以下資訊說明如何將 Web SDK 擴充功能新增到您的標記。 若要了解補充資訊，請參閱 Experience Platform 文件中的「[設定 Web SDK 標記擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)」。 Web SDK 原本就包括 [!UICONTROL Adobe Experience Cloud ID 服務]，因此您不需要新增 ID 服務擴充功能至您的標記中。
 
-您[建立標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)以後，您必須使用 Adob&#x200B;&#x200B;e Experience Platform Web SDK 擴充功能進行設定。這可確保您可以將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform (透過您的資料流)。
+您[建立標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)以後，您必須使用 Adob&#x200B;&#x200B;e Experience Platform Web SDK 擴充功能進行設定。 這可確保您可以將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform (透過您的資料流)。
 
 若要新增 Web SDK 擴充功能至您的標記：
 

@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f76d098d-d223-40e4-be81-d28e7581396b
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-datastream-create"
 >title="在 Adobe Experience Platform 中建立資料流"
->abstract="資料流是將您的資料傳送至所有已設定服務的中介位置。在 Adobe Experience Platform 中建立這個位置。<br><br>在平台介面中初次建立資料流只需幾分鐘。"
+>abstract="資料流是將您的資料傳送至所有已設定服務的中介位置。 在 Adobe Experience Platform 中建立此位置。<br><br>在平台介面中初次建立資料流只需幾分鐘。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-資料流代表實作 Adobe Experience Platform Web 和 Mobile SDK 時的伺服器端設定。使用 Adobe Experience Platform SDK 收集資料時，資料會傳送至 Adobe Experience Platform Edge Network。此資料流決定資料要轉送到哪些服務。
+資料流代表實作 Adobe Experience Platform Web 和 Mobile SDK 時的伺服器端設定。 使用 Adobe Experience Platform SDK 收集資料時，資料會傳送至 Adobe Experience Platform Edge Network。 此資料流決定資料要轉送到哪些服務。
 
 在設定中，您想設定資料流以傳送收集的資料至您在 Adobe Experience Platform 中的資料集。
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 1. 選取「**[!UICONTROL 新資料流]**」。
 
-1. 命名並描述您的資料流。從[!UICONTROL 「事件結構描述」]清單中選取您的結構描述。
+1. 命名並描述您的資料流。 從[!UICONTROL 「事件結構描述」]清單中選取您的結構描述。
 
    ![新資料流](assets/new-datastream.png)
 

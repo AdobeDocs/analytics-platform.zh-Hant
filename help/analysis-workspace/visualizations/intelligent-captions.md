@@ -4,9 +4,9 @@ title: 智慧型註解
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '802'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 智慧型註解適用於：
 
-* 分析師，需要供其他使用者分享的敘述。分析師需要這些分析才能提供內容給使用者。
+* 分析師，需要供其他使用者分享的敘述。 分析師需要這些分析才能提供內容給使用者。
 * 希望很快發現高層級要點的商業使用者。
 
 >[!BEGINSHADEBOX]
@@ -35,20 +35,20 @@ ht-degree: 100%
 
 ## 啟動智慧型註解 {#launch}
 
-若要啟動為視覺效果自動產生的智慧型標題，請在視覺效果右上角選取「![智慧型註解](/help/assets/icons/AI.svg)」。這項選取會產生自然語言洞察。
+若要啟動為視覺效果自動產生的智慧型標題，請在視覺效果右上角選取「![智慧型註解](/help/assets/icons/AI.svg)」。 這項選取會產生自然語言洞察。
 
 ![啟動分析視窗顯示產品瀏覽量趨勢的智慧型註解。](assets/intelligent-captions.gif)
 
 
 請記住以下事項：
 
-* 您至少需要 3 個資料點才能成功產生註解。否則，你可能會收到如「**[!UICONTROL 資料不足而無法分析]**」的錯誤。
+* 您至少需要 3 個資料點才能成功產生註解。 否則，你可能會收到如「**[!UICONTROL 資料不足而無法分析]**」的錯誤。
 
 * 在支持視覺效果的表格中，若相關已選取的資料發生變化時，每次都會產生註解。
 
-* 如果在關聯的自由格式表格中有多個量度，則只會為第一個量度或使用者目前選取的量度產生註解。但是，可以為折線圖和區域圖視覺效果的多個量度產生註解。
+* 如果在關聯的自由格式表格中有多個量度，則只會為第一個量度或使用者目前選取的量度產生註解。 但是，可以為折線圖和區域圖視覺效果的多個量度產生註解。
 
-* 如果您將專案儲存在特定點，並稍後重新加載，則註解將自動使用新資料來進行更新。這同樣適用於排程的專案和從項目匯出的 PDF 檔案。
+* 如果您將專案儲存在特定點，並稍後重新加載，則註解將自動使用新資料來進行更新。 這同樣適用於排程的專案和從項目匯出的 PDF 檔案。
 
 
 ## 視覺效果 {#visualizations}
@@ -75,7 +75,7 @@ Here is an example of what intelligent captions could look like:
 
 ### 複製到剪貼簿 {#copy}
 
-您可以將註解複製到剪貼簿，然後將其貼到 PowerPoint 或其他工具中。您可以在逐一視圖中複製個別註解，也可以在擴大的註解視圖中一次複製所有註解。
+您可以將註解複製到剪貼簿，然後將其貼到 PowerPoint 或其他工具中。 您可以在逐一視圖中複製個別註解，也可以在擴大的註解視圖中一次複製所有註解。
 
 * 若要複製註解，請在註解對話框右上角選取「![將註解複製到剪貼簿](/help/assets/icons/Copy.svg)」。
 
@@ -135,7 +135,7 @@ Customer Journey Analytics [行動記分卡](https://experienceleague.adobe.com/
 
 * **解決方案存取**：智慧型註解功能適用於 Customer Journey Analytics，但不適用於 Adob&#x200B;&#x200B;e Analytics。
 
-* **合約存取**：如果您無法使用智慧型註解，請聯絡您組織的管理員或 Adob&#x200B;&#x200B;e 客戶代表 (管理員)。在您的組織中使用智慧型註解之前，您必須同意某些與生成式 AI 相關的法律條款。
+* **合約存取**：如果您無法使用智慧型註解，請聯絡您組織的管理員或 Adob&#x200B;&#x200B;e 客戶代表 (管理員)。 在您的組織中使用智慧型註解之前，您必須同意某些與生成式 AI 相關的法律條款。
 
 * **權限**：在 [!UICONTROL Adobe Admin Console] 中，[!UICONTROL 報告工具] **[!UICONTROL 智慧型註解]**&#x200B;權限會決定存取權。 [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)需要遵守 [!UICONTROL Admin Console]中的以下步驟：
    1. 導覽至「**[!UICONTROL Admin Console]** > **[!UICONTROL 產品與服務]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 產品設定檔]**」。
@@ -146,6 +146,6 @@ Customer Journey Analytics [行動記分卡](https://experienceleague.adobe.com/
 
       ![新增權限](./assets/intelligent-captions-permissions.png)
 
-   1. 選取「**[!UICONTROL 儲存]**」以儲存權限。
+   1. 選取「**[!UICONTROL 儲存]**」，儲存權限。
 
 請參閱[存取控制概觀](/help/technotes/access-control.md#access-control)，了解更多資訊。

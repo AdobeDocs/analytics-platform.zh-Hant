@@ -4,10 +4,10 @@ title: 文字
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 80%
+source-wordcount: '325'
+ht-degree: 75%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的文字視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[文字](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/text)_。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄文字視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本，請參閱[文字](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/text)。_
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [文字視覺效果](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-text-visualizations){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [文字視覺效果](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-text-visualizations){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 您可以透過下列方式使用文字視覺效果：
 
-1. 新增 ![文字](/help/assets/icons/Text.svg) **[!UICONTROL 文字]**&#x200B;視覺效果。請參閱「[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」。
+1. 新增 ![文字](/help/assets/icons/Text.svg) **[!UICONTROL 文字]**&#x200B;視覺效果。 請參閱「[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」。
 
 1. 在面板或視覺效果中，從內容選單中選取「**[!UICONTROL 編輯說明]**」。
 
@@ -52,13 +52,13 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 ## 調整格式 {#format}
 
-編輯文字方框或說明時，您可以調整字體大小 (標題層級)、顏色、樣式 (粗體、斜體、下底線)，以及對齊所選的文字。您還可新增項目符號和自動編號清單。
+編輯文字方框或說明時，您可以調整字體大小 (標題層級)、顏色、樣式 (粗體、斜體、下底線)，以及對齊所選的文字。 您還可新增項目符號和自動編號清單。
 
 ![Workspace 專案的文字選項醒目提示文字調色盤。](assets/format.png)
 
 ## 新增超連結 {#hyperlinks}
 
-若要新增超連結，請醒目顯示文字並在選單中選取「![連結](/help/assets/icons/Link.svg)」。您可以使用超連結提供專案收件者進一步協助。超連結可以連結至外部網站、文件頁面、[Workspace 專案、面板或視覺效果](/help/analysis-workspace/curate-share/shareable-links.md)等。
+若要新增超連結，請醒目顯示文字並在選單中選取「![連結](/help/assets/icons/Link.svg)」。 您可以使用超連結提供專案收件者進一步協助。 超連結可以連結至外部網站、文件頁面、[Workspace 專案、面板或視覺效果](/help/analysis-workspace/curate-share/shareable-links.md)等。
 
 ![帶有醒目提示連結圖示的文字選項。](assets/hyperlink.png)
 
@@ -66,7 +66,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 若要新增影像至專案，請在功能表中選取![影像](/help/assets/icons/Image.svg)，然後在&#x200B;**[!UICONTROL 影像URL]** （例如`https://www.adobe.com/uploads/2018/06/Adobe.png`）中指定影像URL，然後選取&#x200B;**[!UICONTROL 儲存]**。
 
-影像 URL 必須可公開存取、以 `https` 開頭，且格式為 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持靜態和動畫影像。
+影像 URL 必須可公開存取、以 `https` 開頭，且格式為 `.png`、`.jpeg`、`.jpg` 或 `.gif`。 支持靜態和動畫影像。
 
 請注意，不支援拖放式插入影像。
 

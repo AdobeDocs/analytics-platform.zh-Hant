@@ -4,9 +4,9 @@ description: 了解基本計算量度函數。
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 211f0411d0bf70288cbd46bb219fce7ae99fe03d
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '3599'
+source-wordcount: '3641'
 ht-degree: 48%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 48%
 # 基本函數
 
 
-使用[計算量度產生器](cm-workflow/cm-build-metrics.md)可套用統計和數學函數。本文記錄了函數及其定義的清單，依字母順序排列。
+使用[計算量度產生器](cm-workflow/cm-build-metrics.md)可套用統計和數學函數。 本文記錄了函數及其定義的清單，依字母順序排列。
 
 >[!NOTE]
 >
->此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[COLUMN MAXIMUM(metrics)](#column-maximum)也允許[COLUMN MAXIMUM(PageViews + Sessions)](#column-maximum)。
+>此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。 例如，[COLUMN MAXIMUM(metrics)](#column-maximum)也允許[COLUMN MAXIMUM(PageViews + Sessions)](#column-maximum)。
 
 
 
@@ -28,13 +28,13 @@ ht-degree: 48%
 
 在適用且相關的情況下，函數會以函數類型進行註解：[!BADGE 表格]{type="Neutral"}或[!BADGE 列]{type="Neutral"}
 
-## include_zeros 參數的意義是什麼? 
+## include_zeros 參數的意義是什麼?
 
-此參數指出是否在計算中包括零。有時候零&#x200B;*沒有意義*，有時候卻很重要。
+此參數指出是否在計算中包括零。 有時候零&#x200B;*沒有意義*，有時候卻很重要。
 
-例如，如果您有「收入」量度，隨後新增「頁面檢視」量度至報表，您的收入會突然出現許多全都是零的列。您可能不希望該附加量度影響任何 **[平均值](cm-functions.md#mean)**、**[列最小值](cm-functions.md#row-min)**、**[四分位數](cm-functions.md#quartile)**，以及收入欄中的更多計算。在這種情況下，您可以勾選 `include-zeros` 參數。
+例如，如果您有「收入」量度，隨後新增「頁面檢視」量度至報表，您的收入會突然出現許多全都是零的列。 您可能不希望該附加量度影響任何 **[平均值](cm-functions.md#mean)**、**[列最小值](cm-functions.md#row-min)**、**[四分位數](cm-functions.md#quartile)**，以及收入欄中的更多計算。 在這種情況下，您可以勾選 `include-zeros` 參數。
 
-另一種情況是，您有兩個感興趣的量度，其中一個具有較高的平均值或最小值，因為某些列是零。在這種情況下，您可以選擇不檢查參數是否包括零
+另一種情況是，您有兩個感興趣的量度，其中一個具有較高的平均值或最小值，因為某些列是零。  在這種情況下，您可以選擇不檢查參數是否包括零
 
 
 
@@ -45,14 +45,14 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="functions-abs"
 >title="絕對值"
->abstract="傳回數字的絕對值。數字的絕對值是正值的數字。"
+>abstract="傳回數字的絕對值。 數字的絕對值是正值的數字。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 絕對值 (量度)]**
 
-[!BADGE 列]{type="Neutral"}傳回數字的絕對值。數字的絕對值是正值的數字。
+[!BADGE 列]{type="Neutral"}傳回數字的絕對值。 數字的絕對值是正值的數字。
 
 | 引數 | 說明 |
 |---|---|
@@ -74,13 +74,13 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="functions-col-max"
 >title="欄最大值"
->abstract="傳回量度欄中一組維度元素的最大值。MAXV 會垂直評估單一欄 (量度) 中的維度元素。"
+>abstract="傳回量度欄中一組維度元素的最大值。 MAXV 會垂直評估單一欄 (量度) 中的維度元素。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄最大值 (量度，包括零)]**
 
-傳回量度欄中一組維度元素的最大值。MAXV 會垂直評估單一欄 (量度) 中的維度元素。
+傳回量度欄中一組維度元素的最大值。 MAXV 會垂直評估單一欄 (量度) 中的維度元素。
 
 | 引數 | 說明 |
 |---|---|
@@ -89,11 +89,11 @@ ht-degree: 48%
 
 **使用案例**：識別劃分中的最高值，例如造訪次數最多的當天或收入最高的產品。 這有助於突顯不同類別的高峰效能。
 
-**在計算量度產生器**&#x200B;中：依&#x200B;**天**&#x200B;或&#x200B;*產品*&#x200B;劃分時，將&#x200B;*欄最大值*&#x200B;套用至&#x200B;*收入*&#x200B;或&#x200B;*工作階段*&#x200B;之類的量度。 此函式會傳回該欄中每一列的最大值。
+**在計算量度產生器**&#x200B;中：依&#x200B;*天*&#x200B;或&#x200B;*產品*&#x200B;劃分時，將&#x200B;**欄最大值**&#x200B;套用至&#x200B;*收入*&#x200B;或&#x200B;*工作階段*&#x200B;之類的量度。 此函式會傳回該欄中每一列的最大值。
 
 >[!TIP]
 >
->使用[IF](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最大值***(Revenue*)， 1， 0))來反白劃分中表現最好的專案。
+>使用[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最大值***(Revenue*)， 1， 0))來反白劃分中表現最好的專案。
 >
 
 ## 欄最小值 {#column-minimum}
@@ -103,14 +103,14 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="functions-col-min"
 >title="欄最小值"
->abstract="傳回量度欄中一組維度元素的最小值。MINV 會垂直評估單一欄 (量度) 中的維度元素。"
+>abstract="傳回量度欄中一組維度元素的最小值。 MINV 會垂直評估單一欄 (量度) 中的維度元素。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 欄最小值 (量度，包括零)]**
 
-傳回量度欄中一組維度元素的最小值。MINV 會垂直評估單一欄 (量度) 中的維度元素。
+傳回量度欄中一組維度元素的最小值。 MINV 會垂直評估單一欄 (量度) 中的維度元素。
 
 | 引數 | 說明 |
 |---|---|
@@ -119,11 +119,11 @@ ht-degree: 48%
 
 **使用案例**：識別劃分中績效最低的值，例如轉換最少的行銷活動或收入最低的日子。 這有助於快速顯示表現缺佳的區段。
 
-**在計算量度產生器**&#x200B;中：按&#x200B;**行銷活動**&#x200B;或&#x200B;*天*&#x200B;劃分時，將&#x200B;*欄最小值*&#x200B;套用至&#x200B;*收入*&#x200B;或&#x200B;*轉換率*&#x200B;之類的量度。 此函式傳回該欄中每一列的最小值。
+**在計算量度產生器**&#x200B;中：按&#x200B;*行銷活動*&#x200B;或&#x200B;*天*&#x200B;劃分時，將&#x200B;**欄最小值**&#x200B;套用至&#x200B;*收入*&#x200B;或&#x200B;*轉換率*&#x200B;之類的量度。 此函式傳回該欄中每一列的最小值。
 
 >[!TIP]
 >
->使用[IF](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最小值***(Revenue*)， 1， 0))來反白劃分中表現最低的專案。
+>使用[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最小值***(Revenue*)， 1， 0))來反白劃分中表現最低的專案。
 >
 
 
@@ -193,13 +193,13 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="functions-exp"
 >title="指數"
->abstract="傳回 e 的指定數字的次方。常數 e 是自然對數的底數，等於 2.71828182845904。EXPONENT 是 LN (一個數字的自然對數) 的反函數。"
+>abstract="傳回 e 的指定數字的次方。 常數 e 是自然對數的底數，等於 2.71828182845904。 EXPONENT 是 LN (一個數字的自然對數) 的反函數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 指數 (量度)]**
 
-[!BADGE 列]{type="Neutral"}傳回&#x200B;*e*，提升到指定數字的乘冪。 常數 *e* 是自然對數的底數，等於 2.71828182845904。EXPONENT 是 LN (一個數字的自然對數) 的反函數。
+[!BADGE 列]{type="Neutral"}傳回&#x200B;*e*，提升到指定數字的乘冪。 常數&#x200B;*e*&#x200B;等於2.71828182845904，為自然對數的底數。 EXPONENT 是 LN (一個數字的自然對數) 的反函數。
 
 | 引數 | 說明 |
 |---|---|
@@ -252,14 +252,14 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="functions-median"
 >title="中位數"
->abstract="傳回一欄中量度的中位數。中位數是一組數字中位於中間的數字。意即，有一半的數字其值大於或等於中位數，另有一半的值小於或等於中位數。"
+>abstract="傳回欄中量度的中位數。 中位數是一組數字中位於中間的數字。 意即，有一半的數字其值大於或等於中位數，另有一半的值小於或等於中位數。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 中位數 (量度，include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}傳回欄中量度的中位數。中位數是一組數字中位於中間的數字。意即，有一半的數字其值大於或等於中位數，另有一半的值小於或等於中位數。
+[!BADGE 表格]{type="Neutral"}傳回欄中量度的中位數。 中位數是一組數字中位於中間的數字。 意即，有一半的數字其值大於或等於中位數，另有一半的值小於或等於中位數。
 
 | 引數 | 說明 |
 |---|---|
@@ -329,14 +329,14 @@ MODULO(MODULO(x,y)+y,y)
 >[!CONTEXTUALHELP]
 >id="functions-percentile"
 >title="百分位數"
->abstract="傳回第 n 個百分位數，該值介於 0 到 100 之間。當 n &lt; 0 時，則函數使用零。當 n > 100 時，函數傳回 100。"
+>abstract="傳回第 n 個百分位數，該值介於 0 到 100 之間。 當 n &lt; 0 時，則函數使用零。 當 n > 100 時，函數傳回 100。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 百分位數 (量度，k，include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}傳回第 n 個百分位數，該值介於 0 至 100 之間。當 n &lt; 0 時，則函數使用零。當 n > 100 時，函數傳回 100。
+[!BADGE 表格]{type="Neutral"}傳回第 n 個百分位數，該值介於 0 至 100 之間。 當 n &lt; 0 時，則函數使用零。 當 n > 100 時，函數傳回 100。
 
 | 引數 | 說明 |
 |---|---|
@@ -389,14 +389,14 @@ MODULO(MODULO(x,y)+y,y)
 >[!CONTEXTUALHELP]
 >id="functions-quartile"
 >title="四分位數"
->abstract="傳回量度的數值四分位數。例如，四分位數可用於尋找創造最多營收的前 25% 產品。"
+>abstract="傳回量度值的四分位數。 例如，四分位數可用來尋找創造最高收入的前 25% 產品。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 四分位數 (量度，四分位數，include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}傳回量度值的四分位數。例如，四分位數可用來尋找推動最高收入的前 25% 產品。當四分位數分別等於 `0` (零)、`2` 和 `4` 時，[欄最小值](#column-minimum)、[中間值](#median)和[欄最大值](#column-maximum)傳回與[四分位數](#quartile)相同的值。
+[!BADGE 表格]{type="Neutral"}傳回量度值的四分位數。 例如，四分位數可用來尋找推動最高收入的前 25% 產品。 當四分位數分別等於 `0` (零)、`2` 和 `4` 時，[欄最小值](#column-minimum)、[中間值](#median)和[欄最大值](#column-maximum)傳回與[四分位數](#quartile)相同的值。
 
 | 引數 | 說明 |
 |---|---|
@@ -420,18 +420,18 @@ MODULO(MODULO(x,y)+y,y)
 >[!CONTEXTUALHELP]
 >id="functions-round"
 >title="四捨五入"
->abstract="沒有&#x200B;*數值*&#x200B;參數的四捨五入值等於&#x200B;*數值*&#x200B;參數為 0 的四捨五入值，也就是四捨五入到最接近的整數。具有&#x200B;*數值*&#x200B;參數時，則會在小數點右側傳回與&#x200B;*數值*&#x200B;一樣多的小數位數。如果&#x200B;*數值*&#x200B;為負，則會在小數點左側傳回 0。"
+>abstract="沒有&#x200B;*數值*&#x200B;參數的四捨五入值等於&#x200B;*數值*&#x200B;參數為 0 的四捨五入值，也就是四捨五入到最接近的整數。  具有&#x200B;*數值*&#x200B;參數時，則會在小數點右側傳回與&#x200B;*數值*&#x200B;一樣多的小數位數。  如果&#x200B;*數值*&#x200B;為負，則會在小數點左側傳回 0。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 四捨五入 (量度，數值)]**
 
-沒有&#x200B;*數值*&#x200B;參數的四捨五入值等於&#x200B;*數值*&#x200B;參數為 0 的四捨五入值，也就是四捨五入到最接近的整數。具有&#x200B;*數值*&#x200B;參數時，則會在小數點右側傳回與&#x200B;*數值*&#x200B;一樣多的小數位數。如果&#x200B;*數值*&#x200B;為負，則會在小數點左側傳回 0。
+沒有&#x200B;*數值*&#x200B;參數的四捨五入值等於&#x200B;*數值*&#x200B;參數為 0 的四捨五入值，也就是四捨五入到最接近的整數。  具有&#x200B;*數值*&#x200B;參數時，則會在小數點右側傳回與&#x200B;*數值*&#x200B;一樣多的小數位數。  如果&#x200B;*數值*&#x200B;為負，則會在小數點左側傳回 0。
 
 | 引數 | 說明 |
 |---|---|
 | 量度 | 您要四捨五入的量度。 |
-| 數字 | 要傳回小數點右邊的多少位數字。(如果為負數，則會在小數點左側傳回零)。 |
+| 數字 | 要傳回小數點右邊的多少位數字。 (如果為負數，則會在小數點左側傳回零)。 |
 
 **使用案例**：將數值結果四捨五入為指定的小數位數，藉此簡化數值結果。 這項更新有助於建立更清晰的視覺效果，或是讓計算量度更易於在報表中讀取。
 
@@ -458,13 +458,13 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-count-rows"
 >title="列計數"
->abstract="傳回指定欄的列計數 (維度中報告的唯一元素數)。*「超出唯一值*」計為 1。"
+>abstract="傳回指定欄的列計數 (維度中報告的唯一元素數)。 *「超出唯一值*」計為 1。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 列計數 ()]**
 
-傳回指定欄的列計數 (維度中報告的唯一元素數)。*「超出唯一值*」計為 1。
+傳回指定欄的列計數 (維度中報告的唯一元素數)。 *「超出唯一值*」計為 1。
 
 **使用案例**：計算劃分或資料集中傳回的總列數，例如包含在報告中的天數、行銷活動或產品。 這有助於瞭解有多少專案對您的分析有貢獻。
 
@@ -568,14 +568,14 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-sqrt"
 >title="平方根"
->abstract="傳回數字的正平方根。數字的平方根是該數字的 1/2 次方。"
+>abstract="傳回數字的正平方根。 數字的平方根是該數字的 1/2 次方。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 平方根 (量度，include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}傳回數字的正平方根。數字的平方根是該數字的 1/2 次方。
+[!BADGE 列]{type="Neutral"}傳回數字的正平方根。 數字的平方根是該數字的 1/2 次方。
 
 | 引數 | 說明 |
 |---|---|
@@ -655,7 +655,7 @@ ROUND( 314.15, -2) = 300
 其中 *x* 是樣本平均值 [MEAN(*量度*)](#mean)，而 *n* 是樣本大小。
 
 
-為了計算變數，請查看整欄的數字。請先從那列數字計算平均值。取得平均值後，請陸續處理每個項目，然後進行下列步驟:
+為了計算變數，請查看整欄的數字。 請先從那列數字計算平均值。 取得平均值後，請陸續處理每個項目，然後進行下列步驟:
 
 1. 將數字減去平均值。
 
@@ -663,7 +663,7 @@ ROUND( 314.15, -2) = 300
 
 1. 將其加入總計。
 
-反覆運算整欄之後，會得到單一合計。然後將該總數除以欄中的專案數。 該數字是欄的變數。 這是一個數字。 但是，它會顯示為一欄數字。
+反覆運算整欄之後，會得到單一合計。 然後將該總數除以欄中的專案數。 該數字是欄的變數。 這是一個數字。 但是，它會顯示為一欄數字。
 
 在以下三項目欄的範例中：
 

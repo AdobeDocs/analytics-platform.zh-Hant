@@ -4,18 +4,18 @@ description: 了解進階計算量度函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 76b4ac60c8e3ae2dd62f86a35bdf1c582f60b10f
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '5286'
-ht-degree: 98%
+source-wordcount: '5381'
+ht-degree: 96%
 
 ---
 
 # 進階函數
 
-使用[計算量度產生器](cm-workflow/cm-build-metrics.md)可套用統計和數學函數。本文記錄進階函數及其定義的清單，依字母順序排列。
+使用[計算量度產生器](cm-workflow/cm-build-metrics.md)可套用統計和數學函數。 本文記錄進階函數及其定義的清單，依字母順序排列。
 
-透過選取元件面板中![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 函數]**&#x200B;清單下的「**[!UICONTROL 全部顯示]**」，以存取這些函數。向下捲動以查看&#x200B;**[!UICONTROL 進階函數]**&#x200B;清單。
+透過選取元件面板中![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 函數]**&#x200B;清單下的「**[!UICONTROL 全部顯示]**」，以存取這些函數。 向下捲動以查看&#x200B;**[!UICONTROL 進階函數]**&#x200B;清單。
 
 ## 表格函數和列函數的比較
 
@@ -23,13 +23,13 @@ ht-degree: 98%
 
 在適用且相關的情況下，函數會以函數類型進行註解：[!BADGE 表格]{type="Neutral"}或[!BADGE 列]{type="Neutral"}
 
-## include_zeros 參數的意義是什麼? 
+## include_zeros 參數的意義是什麼?
 
-此參數指出是否在計算中包括零。有時候零&#x200B;*沒有意義*，有時候卻很重要。
+此參數指出是否在計算中包括零。 有時候零&#x200B;*沒有意義*，有時候卻很重要。
 
-例如，如果您有「收入」量度，隨後新增「頁面檢視」量度至報表，您的收入會突然出現許多全都是零的列。您可能不希望該附加量度影響任何 **[平均值](cm-functions.md#mean)**、**[列最小值](cm-functions.md#row-min)**、**[四分位數](cm-functions.md#quartile)**，以及收入欄中的更多計算。在這種情況下，您可以勾選 `include-zeros` 參數。
+例如，如果您有「收入」量度，隨後新增「頁面檢視」量度至報表，您的收入會突然出現許多全都是零的列。 您可能不希望該附加量度影響任何 **[平均值](cm-functions.md#mean)**、**[列最小值](cm-functions.md#row-min)**、**[四分位數](cm-functions.md#quartile)**，以及收入欄中的更多計算。 在這種情況下，您可以勾選 `include-zeros` 參數。
 
-另一種情況是，您有兩個感興趣的量度，其中一個具有較高的平均值或最小值，因為某些列是零。在此情況下，您可以選擇不檢查參數是否包括零。
+另一種情況是，您有兩個感興趣的量度，其中一個具有較高的平均值或最小值，因為某些列是零。  在此情況下，您可以選擇不檢查參數是否包括零。
 
 
 ## 與 {#and}
@@ -39,17 +39,17 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="functions-and"
 >title="與"
->abstract="結合。不等於零為是，等於零為否。輸出為 0 (否) 或 1 (是)。"
+>abstract="結合。 不等於零為是，等於零為否。 輸出為 0 (否) 或 1 (是)。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL AND (邏輯測試)]**
 
-結合。不等於零為是，等於零為否。輸出為 0 (否) 或 1 (是)。
+結合。 不等於零為是，等於零為否。 輸出為 0 (否) 或 1 (是)。
 
 | 引數 | 說明 |
 |---|---|
-| logical_test | 需要至少一個參數，但可以採用任意數量的參數。可評估為 TRUE 或 FALSE 的任何值或運算式 |
+| logical_test | 需要至少一個參數，但可以採用任意數量的參數。 可評估為 TRUE 或 FALSE 的任何值或運算式 |
 
 
 ## 近似計數相異 {#approximate_count_distinct}
@@ -86,14 +86,14 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="functions-acos"
 >title="反餘弦"
->abstract="傳回量度的反餘弦 (或餘弦的反函數)。反餘弦是一種角度，其餘弦是數字。傳回的角度是限制在 0 (零) 到 pi 的弧度。如果您想將結果從弧度轉換為度數，請將結果乘以 180/PI()。"
+>abstract="傳回量度的反餘弦 (或餘弦的反函數)。 反餘弦是一種角度，其餘弦是數字。 傳回的角度是限制在 0 (零) 到 pi 的弧度。 如果您想將結果從弧度轉換為度數，請將結果乘以 180/PI()。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 反餘弦 (量度)]**
 
 
-[!BADGE 列]{type="Neutral"}傳回量度的反餘弦 (或餘弦的反函數)。反餘弦是一種角度，其餘弦是數字。傳回的角度是限制在 0 (零) 到 pi 的弧度。如果您想將結果從弧度轉換為度數，請將結果乘以 180/PI()。
+[!BADGE 列]{type="Neutral"}傳回量度的反餘弦 (或餘弦的反函數)。 反餘弦是一種角度，其餘弦是數字。 傳回的角度是限制在 0 (零) 到 pi 的弧度。 如果您想將結果從弧度轉換為度數，請將結果乘以 180/PI()。
 
 
 | 引數 | 說明 |
@@ -109,14 +109,14 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="functions-asin"
 >title="反正弦"
->abstract="傳回數字的反正弦 (或正弦的反函數)。反正弦是一種角度，其正弦是數字。傳回的角度是在 -pi/2 到 pi/2 範圍內的弧度。若想以度數表示反正弦，請將結果乘以 180/PI()。"
+>abstract="傳回數字的反正弦 (或正弦的反函數)。 反正弦是一種角度，其正弦是數字。 傳回的角度是在 -pi/2 到 pi/2 範圍內的弧度。 若想以度數表示反正弦，請將結果乘以 180/PI()。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 反正弦 (量度)]**
 
 
-[!BADGE 列]{type="Neutral"}傳回數字的反正弦 (或正弦的反函數)。反正弦是一種角度，其正弦是數字。傳回的角度是在 -pi/2 到 pi/2 範圍內的弧度。若想以度表示反正弦，請將結果乘以 180/PI()。
+[!BADGE 列]{type="Neutral"}傳回數字的反正弦 (或正弦的反函數)。 反正弦是一種角度，其正弦是數字。 傳回的角度是在 -pi/2 到 pi/2 範圍內的弧度。 若想以度表示反正弦，請將結果乘以 180/PI()。
 
 
 | 引數 | 說明 |
@@ -132,14 +132,14 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="functions-atan"
 >title="反正切"
->abstract="傳回數字的反正切 (或正切的反函數)。反正切是一種角度，其正切是數字。傳回的角度是在 -pi/2 到 pi/2 範圍內的弧度。若想以度數表示反正切，請將結果乘以 180/PI()。"
+>abstract="傳回數字的反正切 (或正切的反函數)。 反正切是一種角度，其正切是數字。 傳回的角度是在 -pi/2 到 pi/2 範圍內的弧度。 若想以度數表示反正切，請將結果乘以 180/PI()。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 反正切 (量度)]**
 
 
-[!BADGE 列]{type="Neutral"}傳回數字的反正切 (或正切的反函數)。反正切是一種角度，其正切是數字。傳回的角度是在 -pi/2 到 pi/2 範圍內的弧度。若想以度數表示反正切，請將結果乘以 180/PI()。
+[!BADGE 列]{type="Neutral"}傳回數字的反正切 (或正切的反函數)。 反正切是一種角度，其正切是數字。 傳回的角度是在 -pi/2 到 pi/2 範圍內的弧度。 若想以度數表示反正切，請將結果乘以 180/PI()。
 
 
 | 引數 | 說明 |
@@ -215,13 +215,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="上限"
->abstract="傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入無條件進位至最接近的金額，即 $570。"
+>abstract="傳回不小於給定值的最小整數。 例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入無條件進位至最接近的金額，即 $570。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL CEILING (量度)]**
 
-[!BADGE 列]{type="Neutral"}傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入無條件進位至最接近的金額，即 $570。
+[!BADGE 列]{type="Neutral"}傳回不小於給定值的最小整數。 例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入無條件進位至最接近的金額，即 $570。
 
 | 引數 | 說明 |
 |---|---|
@@ -243,13 +243,13 @@ CDF-Z(-3) ? 0.0013499
 
 使用 WASKR 方法計算隨時有效的信賴度，如[時間一致中央極限定理和漸進信賴序列](https://arxiv.org/pdf/2103.06476)所述。
 
-信賴度指有多少證據顯示指定變體與控制變體相同的機率測度。信賴度越高表示控制和非控制變體具有相同績效假設的證據越少。
+信賴度指有多少證據顯示指定變體與控制變體相同的機率測度。 信賴度越高表示控制和非控制變體具有相同績效假設的證據越少。
 
 | 引數 | 說明 |
 | --- | --- |
 | 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
 | 成功量度 | 使用者用來比較變體的一個或多個量度。 |
-| 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
+| 控制 | 和實驗中所有其他變體進行比較的變體。 輸入控制變體維度項目的名稱。 |
 | 顯著性臨界值 | 此函數中的臨界值設定為預設值 95%。 |
 
 
@@ -268,13 +268,13 @@ CDF-Z(-3) ? 0.0013499
 
 使用 WASKR 方法計算隨時有效的信賴度&#x200B;**下界**，如[時間一致中央極限定理和漸進信賴序列](https://arxiv.org/pdf/2103.06476) 所述。
 
-信賴度指有多少證據顯示指定變體與控制變體相同的機率測度。信賴度越高表示控制和非控制變體具有相同績效假設的證據越少。
+信賴度指有多少證據顯示指定變體與控制變體相同的機率測度。 信賴度越高表示控制和非控制變體具有相同績效假設的證據越少。
 
 | 引數 | 說明 |
 | --- | --- |
 | 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
 | 成功量度 | 使用者用來比較變體的一個或多個量度。 |
-| 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
+| 控制 | 和實驗中所有其他變體進行比較的變體。 輸入控制變體維度項目的名稱。 |
 | 顯著性臨界值 | 此函數中的臨界值設定為預設值 95%。 |
 
 ## 信賴度 (上界) {#confidence-upper}
@@ -292,13 +292,13 @@ CDF-Z(-3) ? 0.0013499
 
 使用 WASKR 方法計算隨時有效的信賴度&#x200B;**上界**，如[時間一致中央極限定理和漸進信賴序列](https://arxiv.org/pdf/2103.06476) 所述。
 
-信賴度指有多少證據顯示指定變體與控制變體相同的機率測度。信賴度越高表示控制和非控制變體具有相同績效假設的證據越少。
+信賴度指有多少證據顯示指定變體與控制變體相同的機率測度。 信賴度越高表示控制和非控制變體具有相同績效假設的證據越少。
 
 | 引數 | 說明 |
 | --- | --- |
 | 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
 | 成功量度 | 使用者用來比較變體的一個或多個量度。 |
-| 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
+| 控制 | 和實驗中所有其他變體進行比較的變體。 輸入控制變體維度項目的名稱。 |
 | 顯著性臨界值 | 此函數中的臨界值設定為預設值 95%。 |
 
 
@@ -309,13 +309,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-cos"
 >title="餘弦"
->abstract="傳回指定角度的餘弦。如果角度以度數表示，請將角度乘以 PI()/180。"
+>abstract="傳回指定角度的餘弦。 如果角度以度數表示，請將角度乘以 PI()/180。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 餘弦 (量度)]**
 
-[!BADGE 列]{type="Neutral"}傳回指定角度的餘弦。如果角度以度數表示，請將角度乘以 PI()/180。
+[!BADGE 列]{type="Neutral"}傳回指定角度的餘弦。 如果角度以度數表示，請將角度乘以 PI()/180。
 
 | 引數 | 說明 |
 |---|---|
@@ -329,14 +329,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-cube-root"
 >title="立方根"
->abstract="傳回數字的正立方根。數字的立方根是該數字的值取 1/3 次方。"
+>abstract="傳回數字的正立方根。 數字的立方根是該數字的值取 1/3 次方。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 立方根 (量度)]**
 
 
-傳回數字的正立方根。數字的立方根是該數字的值取 1/3 次方。
+傳回數字的正立方根。 數字的立方根是該數字的值取 1/3 次方。
 
 
 | 引數 | 說明 |
@@ -352,17 +352,17 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-cumul"
 >title="累積"
->abstract="傳回 x 欄最後 n 個元素的總和。若 n > 0，則會加總最後 n 個元素或 x。若 n &lt; 0，則加總前面的元素。"
+>abstract="傳回 x 欄最後 n 個元素的總和。 若 n > 0，則加總最後 n 個元素或 x。 若 n &lt; 0，則加總前面的元素。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 累積 (數字、量度)]**
 
-傳回 x 欄最後 n 個元素的總和。若 n > 0，則會加總最後 n 個元素或 x。若 n &lt; 0，則加總前面的元素。
+傳回 x 欄最後 n 個元素的總和。 若 n > 0，則加總最後 n 個元素或 x。 若 n &lt; 0，則加總前面的元素。
 
 | 引數 | 說明 |
 | --- | --- |
-| 數字 | 傳回總和的最後 N 列。如果 N &lt;= 0 則使用所有先前列。 |
+| 數字 | 傳回總和的最後 N 列。 如果 N &lt;= 0 則使用所有先前列。 |
 | 量度 | 您想要累積總和的量度。 |
 
 ### 範例
@@ -381,22 +381,22 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-cumul-avg"
 >title="累計 (平均值)"
->abstract="傳回 x 欄最後 n 個元素的平均。若 n > 0，則會加總最後 n 個元素或 x。若 n &lt; 0，則加總前面的元素。"
+>abstract="傳回 x 欄最後 n 個元素的平均值。 若 n > 0，則加總最後 n 個元素或 x。 若 n &lt; 0，則加總前面的元素。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 累積平均值 (數字、量度)]**
 
-傳回 x 欄最後 n 個元素的平均。若 n > 0，則會加總最後 n 個元素或 x。若 n &lt; 0，則加總前面的元素。
+傳回 x 欄最後 n 個元素的平均值。 若 n > 0，則加總最後 n 個元素或 x。 若 n &lt; 0，則加總前面的元素。
 
 | 引數 | 說明 |
 | --- | --- |
-| 數字 | 傳回平均的最後 N 列。如果 N &lt;= 0 則使用所有先前列。 |
+| 數字 | 傳回平均的最後 N 列。 如果 N &lt;= 0 則使用所有先前列。 |
 | 量度 | 您想要累積平均的量度。 |
 
 >[!NOTE]
 >
->此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL 累積 (人數)]**](#cumulative)。
+>此函數不適用於每人收入等比率量度。 此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。 <br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg)[**[!UICONTROL 累積 (人數)]**](#cumulative)。
 >
 
 
@@ -407,13 +407,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-eq"
 >title="等於"
->abstract="等於。輸出為 0 (否) 或 1 (是)。"
+>abstract="等於。 輸出為 0 (否) 或 1 (是)。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL EQUAL ()]**
 
-等於。輸出為 0 (否) 或 1 (是)。
+等於。 輸出為 0 (否) 或 1 (是)。
 
 
 | 引數 | 說明 |
@@ -433,7 +433,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="指數迴歸：相關係數"
->abstract="指數迴歸：Y = b * exp(aX)。傳回相關係數。"
+>abstract="指數迴歸：Y = b * exp(aX)。 傳回相關係數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -456,7 +456,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="指數迴歸：預計 Y"
->abstract="指數迴歸：Y = b * exp(aX)。傳回 Y。"
+>abstract="指數迴歸：Y = b * exp(aX)。 傳回 Y。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -480,7 +480,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="指數迴歸：截距"
->abstract="指數迴歸：Y = b * exp(aX)。傳回 b。"
+>abstract="指數迴歸：Y = b * exp(aX)。 傳回 b。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -503,7 +503,7 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="指數迴歸：斜率"
->abstract="指數迴歸：Y = b * exp(aX)。傳回 a。"
+>abstract="指數迴歸：Y = b * exp(aX)。 傳回 a。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -527,13 +527,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-floor"
 >title="下限"
->abstract="傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入無條件捨去至最接近的金額 $569。"
+>abstract="傳回不大於給定值的最大整數。 例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入無條件捨去至最接近的金額 $569。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入無條件捨去至最接近的金額 $569。
+[!BADGE 列]{type="Neutral"}傳回不大於給定值的最大整數。 例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入無條件捨去至最接近的金額 $569。
 
 | 引數 | 說明 |
 |---|---|
@@ -572,13 +572,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ge"
 >title="大於或等於"
->abstract="大於或等於。輸出為 0 (否) 或 1 (是)。"
+>abstract="大於或等於。 輸出為 0 (否) 或 1 (是)。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 大於或等於 ()]**
 
-大於或等於。輸出為 0 (否) 或 1 (是)。
+大於或等於。 輸出為 0 (否) 或 1 (是)。
 
 | 引數 | 說明 |
 |---|---|
@@ -654,28 +654,28 @@ CDF-Z(-3) ? 0.0013499
 | 量度 | 您想找出雙曲正切的角度 (以弧度為單位) |
 
 
-## 若   {#if}
+## 若 {#if}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-if"
 >title="若"
->abstract="如果條件參數的值非零 (是)，則結果是 value_if_true 參數的值。否則，它是 value_if_false 參數的值。"
+>abstract="如果條件參數的值非零 (是)，則結果是 value_if_true 參數的值。 否則，它是 value_if_false 參數的值。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL IF (logical_test、value_if_true、value_if_false)]**
 
 
-[!BADGE 列]{type="Neutral"}如果條件參數的值非零 (是)，則結果是 value_if_true 參數的值。否則，它是 value_if_false 參數的值。
+[!BADGE 列]{type="Neutral"}如果條件參數的值非零 (是)，則結果是 value_if_true 參數的值。 否則，它是 value_if_false 參數的值。
 
 
 | 引數 | 說明 |
 |---|---|
-| logical_test | 必填。可評估為 TRUE 或 FALSE 的任何值或運算式 |
-| value_if_true | 您想在 logical_test 引數評估為 TRUE 時傳回的值。(若未指定則此引數預設為 0。) |
-| value_if_false | 如果 logical_test 引數評估為 FALSE 時您想要傳回的值。(若不含，則此引數預設值為 0。) |
+| logical_test | 必填。 可評估為 TRUE 或 FALSE 的任何值或運算式 |
+| value_if_true | 您想在 logical_test 引數評估為 TRUE 時傳回的值。 (若未指定則此引數預設為 0。) |
+| value_if_false | logical_test引數評估為FALSE時要傳回的值。 (若未指定則此引數預設為 0。) |
 
 
 ## 小於 {#less-than}
@@ -710,13 +710,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-le"
 >title="小於或等於"
->abstract="小於或等於。輸出為 0 (否) 或 1 (是)。"
+>abstract="小於或等於。 輸出為 0 (否) 或 1 (是)。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL 小於或等於 ()]**
 
-小於或等於。輸出為 0 (否) 或 1 (是)。
+小於或等於。 輸出為 0 (否) 或 1 (是)。
 
 | 引數 | 說明 |
 |---|---|
@@ -748,7 +748,7 @@ CDF-Z(-3) ? 0.0013499
 | --- | --- |
 | 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
 | 成功量度 | 使用者用來比較變體的一個或多個量度。 |
-| 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
+| 控制 | 和實驗中所有其他變體進行比較的變體。 輸入控制變體維度項目的名稱。 |
 
 
 
@@ -759,14 +759,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-linear"
 >title="線性迴歸：相關係數"
->abstract="線性迴歸：Y = a X + b。傳回相關係數。"
+>abstract="指數迴歸：Y = a X + b。  傳回相關係數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 線性迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}線性迴歸：Y = a X + b。傳回相關係數。
+[!BADGE 表格]{type="Neutral"}線性回歸：Y = a X + b。  傳回相關係數。
 
 
 | 引數 | 說明 |
@@ -784,14 +784,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-linear"
 >title="線性迴歸：截距"
->abstract="線性迴歸：Y = a X + b。傳回 b。"
+>abstract="指數迴歸：Y = a X + b。 傳回 b。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 線性迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}線性迴歸：Y = a X + b。傳回 b。
+[!BADGE 表格]{type="Neutral"}線性回歸：Y = a X + b。 傳回 b。
 
 
 | 引數 | 說明 |
@@ -809,14 +809,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-linear"
 >title="指數迴歸：預計 Y"
->abstract="線性迴歸：Y = a X + b。傳回 Y。"
+>abstract="指數迴歸：Y = a X + b。 傳回 Y。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 線性迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 列]{type="Neutral"}線性迴歸：Y = a X + b。傳回 Y。
+[!BADGE 列]{type="Neutral"}線性回歸：Y = a X + b。 傳回 Y。
 
 
 | 引數 | 說明 |
@@ -834,13 +834,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-linear"
 >title="線性迴歸：斜率"
->abstract="線性迴歸：Y = a X + b。傳回 a。"
+>abstract="指數迴歸：Y = a X + b。 傳回 a。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 線性迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}線性迴歸：Y = a X + b。傳回 a。
+[!BADGE 表格]{type="Neutral"}線性回歸：Y = a X + b。 傳回 a。
 
 | 引數 | 說明 |
 |---|---|
@@ -878,13 +878,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-log"
 >title="對數迴歸：相關係數"
->abstract="對數迴歸：Y = a ln(X) + b。傳回相關係數。"
+>abstract="對數迴歸：Y = a ln(X) + b。 傳回相關係數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 對數迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}對數迴歸：Y = a ln(X) + b。傳回相關係數。
+[!BADGE 資料表]{type="Neutral"}對數回歸：Y = a ln(X) + b。 傳回相關係數。
 
 | 引數 | 說明 |
 |---|---|
@@ -900,13 +900,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-log"
 >title="對數迴歸：截距"
->abstract="對數迴歸：Y = a ln(X) + b。傳回 b。"
+>abstract="對數迴歸：Y = a ln(X) + b。 傳回 b。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 對數迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}對數迴歸：Y = a ln(X) + b。傳回 b。
+[!BADGE 資料表]{type="Neutral"}對數回歸：Y = a ln(X) + b。 傳回 b。
 
 | 引數 | 說明 |
 |---|---|
@@ -923,13 +923,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-log"
 >title="對數迴歸：預計 Y"
->abstract="對數迴歸：Y = a ln(X) + b。傳回 Y。"
+>abstract="對數迴歸：Y = a ln(X) + b。 傳回 Y。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 對數迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}對數迴歸：Y = a ln(X) + b。傳回 Y。
+[!BADGE 列]{type="Neutral"}對數回歸：Y = a ln(X) + b。 傳回 Y。
 
 | 引數 | 說明 |
 |---|---|
@@ -946,13 +946,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-log"
 >title="對數迴歸：斜率"
->abstract="對數迴歸：Y = a ln(X) + b。傳回 a。"
+>abstract="對數迴歸：Y = a ln(X) + b。 傳回 a。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 對數迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}對數迴歸：Y = a ln(X) + b。傳回 a。
+[!BADGE 資料表]{type="Neutral"}對數回歸：Y = a ln(X) + b。 傳回 a。
 
 | 引數 | 說明 |
 |---|---|
@@ -969,13 +969,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-log"
 >title="自然對數"
->abstract="傳回數字的自然對數。自然對數是以常數 e (2.71828182845904) 為底數。LN 是 EXP 函數的反函數。"
+>abstract="傳回數字的自然對數。 自然對數是以常數 e (2.71828182845904) 為底數。 LN 是 EXP 函數的反函數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 自然對數 (量度)]**
 
-傳回數字的自然對數。自然對數是以常數 e (2.71828182845904) 為底數。LN 是 EXP 函數的反函數。
+傳回數字的自然對數。 自然對數是以常數 e (2.71828182845904) 為底數。 LN 是 EXP 函數的反函數。
 
 | 引數 | 說明 |
 |---|---|
@@ -990,17 +990,17 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-not"
 >title="Not"
->abstract="否定是一種布林值。輸出為 0 (否) 或 1 (是)。"
+>abstract="否定是一種布林值。 輸出為 0 (否) 或 1 (是)。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 非 (邏輯)]**
 
-否定是一種布林值。輸出為 0 (否) 或 1 (是)。
+否定是一種布林值。 輸出為 0 (否) 或 1 (是)。
 
 | 引數 | 說明 |
 |---|---|
-| 邏輯 | 必填。可評估為 TRUE 或 FALSE 的值或運算式 |
+| 邏輯 | 必填。 可評估為 TRUE 或 FALSE 的值或運算式 |
 
 
 
@@ -1011,14 +1011,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ne"
 >title="不等於"
->abstract="不等於。輸出為 0 (否) 或 1 (是)。"
+>abstract="不等於。 輸出為 0 (否) 或 1 (是)。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 不等於 ()]**
 
 
-不等於。輸出為 0 (否) 或 1 (是)。
+不等於。 輸出為 0 (否) 或 1 (是)。
 
 
 | 引數 | 說明 |
@@ -1038,19 +1038,19 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-or"
 >title="或"
->abstract="無關。不等於零為是，等於零為否。輸出為 0 (否) 或 1 (是)。"
+>abstract="無關。 不等於零為是，等於零為否。 輸出為 0 (否) 或 1 (是)。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 或 (邏輯測試)]**
 
 
-[!BADGE 列]{type="Neutral"}分離。不等於零為是，等於零為否。輸出為 0 (否) 或 1 (是)。
+[!BADGE 列]{type="Neutral"}分離。 不等於零為是，等於零為否。 輸出為 0 (否) 或 1 (是)。
 
 
 | 引數 | 說明 |
 |---|---|
-| logical_test | 需要至少一個參數，但可以採用任意數量的參數。可評估為 TRUE 或 FALSE 的任何值或運算式 |
+| logical_test | 需要至少一個參數，但可以採用任意數量的參數。 可評估為 TRUE 或 FALSE 的任何值或運算式 |
 
 
 >[!NOTE]
@@ -1081,13 +1081,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-power"
 >title="乘冪迴歸：相關係數"
->abstract="乘冪迴歸：Y = b X ^ a。傳回相關係數。"
+>abstract="乘冪迴歸：Y = b X ^ a。 傳回相關係數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 乘冪迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}乘冪迴歸：Y = b X ^ a。傳回相關係數。
+[!BADGE 表格]{type="Neutral"}乘冪回歸：Y = b X ^ a。 傳回相關係數。
 
 | 引數 | 說明 |
 |---|---|
@@ -1104,14 +1104,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-power"
 >title="乘冪迴歸：截距"
->abstract="乘冪迴歸：Y = b X ^ a。傳回 b。"
+>abstract="乘冪迴歸：Y = b X ^ a。 傳回 b。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 乘冪迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}乘冪迴歸：Y = b X ^ a。傳回 b。
+[!BADGE 表格]{type="Neutral"}乘冪回歸：Y = b X ^ a。 傳回 b。
 
 
 | 引數 | 說明 |
@@ -1128,13 +1128,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-power"
 >title="乘冪迴歸：預計 Y"
->abstract="乘冪迴歸：Y = b X ^ a。傳回 Y。"
+>abstract="乘冪迴歸：Y = b X ^ a。 傳回 Y。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 乘冪迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}乘冪迴歸：Y = b X ^ a。傳回 Y。
+[!BADGE 列]{type="Neutral"}乘冪回歸：Y = b X ^ a。 傳回 Y。
 
 | 引數 | 說明 |
 |---|---|
@@ -1151,13 +1151,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-power"
 >title="乘冪迴歸：斜率"
->abstract="乘冪迴歸：Y = b X ^ a。傳回 a。"
+>abstract="乘冪迴歸：Y = b X ^ a。 傳回 a。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 乘冪迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}乘冪迴歸：Y = b X ^ a。傳回 a。
+[!BADGE 表格]{type="Neutral"}乘冪回歸：Y = b X ^ a。 傳回 a。
 
 | 引數 | 說明 |
 |---|---|
@@ -1262,13 +1262,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-reciprocal"
 >title="倒數迴歸：相關係數"
->abstract="倒數迴歸：Y = a + b X ^ -1。傳回相關係數。"
+>abstract="倒數迴歸：Y = a + b X ^ -1。 傳回相關係數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 倒數迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。傳回相關係數。
+[!BADGE 表格]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。 傳回相關係數。
 
 | 引數 | 說明 |
 |---|---|
@@ -1284,13 +1284,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-reciprocal"
 >title="倒數迴歸：截距"
->abstract="倒數迴歸：Y = a + b X ^ -1。傳回 a。"
+>abstract="倒數迴歸：Y = a + b X ^ -1。 傳回 a。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 倒數迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。傳回 a。
+[!BADGE 表格]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。 傳回 a。
 
 | 引數 | 說明 |
 |---|---|
@@ -1306,13 +1306,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-reciprocal"
 >title="倒數迴歸：預計 Y"
->abstract="倒數迴歸：Y = a + b X ^ -1。傳回 Y。"
+>abstract="倒數迴歸：Y = a + b X ^ -1。 傳回 Y。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 倒數迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。傳回 Y。
+[!BADGE 列]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。 傳回 Y。
 
 | 引數 | 說明 |
 |---|---|
@@ -1328,13 +1328,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-reciprocal"
 >title="倒數迴歸：斜率"
->abstract="倒數迴歸：Y = a + b X ^ -1。傳回 b。"
+>abstract="倒數迴歸：Y = a + b X ^ -1。 傳回 b。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 倒數迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。傳回 b。
+[!BADGE 表格]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。 傳回 b。
 
 | 引數 | 說明 |
 |---|---|
@@ -1351,11 +1351,11 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-waskr-variance-estimate"
 >title="樣本變數"
->abstract="使用公式 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)) 計算樣本變數的估計值。其中 N 是標準化容器的數量。<br/>這用於&#x200B;*隨時有效*&#x200B;可信度計算的一部分。通常，此功能無法單獨使用，但可以用於檢查計算結果或&#x200B;*手動*&#x200B;執行可信度計算。"
+>abstract="使用公式 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)) 計算樣本變數的估計值。 其中 N 是標準化容器的數量。 <br/>這用於&#x200B;*隨時有效*&#x200B;可信度計算的一部分。 通常，此功能無法單獨使用，但可以用於檢查計算結果或&#x200B;*手動*&#x200B;執行可信度計算。"
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL 樣本變異數 (標準化容器、成功量度)]**
 
-使用公式 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)) 計算樣本變數的估計值。其中N是標準化容器的計數。<br/>這用於&#x200B;*隨時有效*&#x200B;可信度計算的一部分。通常，此功能無法單獨使用，但可以用於檢查計算結果或&#x200B;*手動*&#x200B;執行可信度計算。
+使用公式 (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)) 計算樣本變數的估計值。 其中 N 是標準化容器的數量。<br/>這用於&#x200B;*隨時有效*&#x200B;可信度計算的一部分。 通常，此功能無法單獨使用，但可以用於檢查計算結果或&#x200B;*手動*&#x200B;執行可信度計算。
 
 | 引數 | 說明 |
 | --- | --- |
@@ -1373,14 +1373,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-sin"
 >title="正弦"
->abstract="傳回指定角度的正弦。如果角度以度數表示，請將角度乘以 PI()/180。"
+>abstract="傳回指定角度的正弦。 如果角度以度數表示，請將角度乘以 PI()/180。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 正弦 (量度)]**
 
 
-[!BADGE 列]{type="Neutral"}傳回指定角度的正弦。如果角度以度數表示，請將角度乘以 PI()/180。
+[!BADGE 列]{type="Neutral"}傳回指定角度的正弦。 如果角度以度數表示，請將角度乘以 PI()/180。
 
 
 | 引數 | 說明 |
@@ -1397,13 +1397,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-t-score"
 >title="T 分數"
->abstract="[平均值](cm-functions.md#mean)的偏差除以標準差。[Z 分數](#z-score)的別名。"
+>abstract="[平均值](cm-functions.md#mean)的偏差除以標準差。 [Z 分數](#z-score)的別名。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL T 分數 (量度，include_zeros)]**
 
-[平均值](cm-functions.md#mean)的偏差除以標準差。[Z 分數](#z-score)的別名。
+[平均值](cm-functions.md#mean)的偏差除以標準差。 [Z 分數](#z-score)的別名。
 
 | 引數 | 說明 |
 |---|---|
@@ -1434,7 +1434,7 @@ CDF-Z(-3) ? 0.0013499
 
 ### 詳細資料
 
-此簽名為 T 檢定 (量度、角度、尾部)。底下其僅呼叫 ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg)**[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**。此函數類似於 **[Z 檢定](#z-test)** 函數，此函數執行 ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg)**[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)**。
+此簽名為 T 檢定 (量度、角度、尾部)。 底下其僅呼叫 ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg)**[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**。 此函數類似於 **[Z 檢定](#z-test)** 函數，此函數執行 ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg)**[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)**。
 
 - ***m*** 是尾數。
 - ***n*** 是自由度，且對整個報告而言應為一個常數，亦即不會逐列變更。
@@ -1465,13 +1465,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-tan"
 >title="正切"
->abstract="傳回指定角度的正切。如果角度以度數表示，請將角度乘以 PI()/180。"
+>abstract="傳回指定角度的正切。 如果角度以度數表示，請將角度乘以 PI()/180。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 正切 (量度)]**
 
-傳回指定角度的正切。如果角度以度數表示，請將角度乘以 PI()/180。
+傳回指定角度的正切。 如果角度以度數表示，請將角度乘以 PI()/180。
 
 | 引數 | 說明 |
 |---|---|
@@ -1499,7 +1499,7 @@ CDF-Z(-3) ? 0.0013499
 | 量度 | 您要 Z 分數的量度 |
 | include_zeros | 計算中是否包括零值 |
 
-Z 分數為 0 (零) 表示分數與平均值相同。Z分數可以是正數或負數，指出其是否高於或低於平均值，以及標準差數目。
+Z 分數為 0 (零) 表示分數與平均值相同。 Z分數可以是正數或負數，指出其是否高於或低於平均值，以及標準差數目。
 
 Z 分數的方程式為：
 

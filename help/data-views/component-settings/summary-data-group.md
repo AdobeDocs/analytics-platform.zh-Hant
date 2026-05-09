@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 89%
 
 ---
@@ -44,12 +44,12 @@ ht-degree: 89%
 1. 選取「![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 摘要資料群組]**」。
 1. 啟用「**[!UICONTROL 建立分組]**」。
 1. 從&#x200B;**[!UICONTROL Dimension]**&#x200B;下拉式功能表中選取您想要在第一步驟與所選維度分組的維度。 請注意，只有您已新增至資料檢視的維度才能從下拉式功能表中使用。
-1. 或者，啟用「**[!UICONTROL 在報告中隱藏]**」，以隱藏報告中的分組維度。啟用此選項與在分組維度上單獨設定「**[!UICONTROL 在報告中隱藏]**」類似。如需詳細資訊，請參閱=[元件設定](overview.md)」。
+1. 或者，啟用「**[!UICONTROL 在報告中隱藏]**」，以隱藏報告中的分組維度。 啟用此選項與在分組維度上單獨設定「**[!UICONTROL 在報告中隱藏]**」類似。 如需詳細資訊，請參閱=[元件設定](overview.md)」。
 1. 或者，若要為分組新增更多維度，請選取「![新增](/help/assets/icons/Add.svg) **[!UICONTROL 新增維度至群組]**」。<br/>最多可以新增九個維度，因為摘要資料群組的限制是十個維度。
 
-## 相同元件設定 
+## 相同元件設定
 
-將維度分組時，您必須確保群組所屬每個維度的「[!UICONTROL 子字串]」、「[!UICONTROL 行為 (小寫)]」和「[!UICONTROL 包含排除值]」等設定相同。否則，在分組之前，群組的每個維度可能會傳回不同的結果。
+將維度分組時，您必須確保群組所屬每個維度的「[!UICONTROL 子字串]」、「[!UICONTROL 行為 (小寫)]」和「[!UICONTROL 包含排除值]」等設定相同。 否則，在分組之前，群組的每個維度可能會傳回不同的結果。
 例如：
 
 1. 您已經為 `campaign_code` (摘要資料一部分) 和 `tracking_code` (您的事件資料一部份) 建立一個摘要資料群組。
@@ -59,5 +59,5 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->確保您只從一個維度進行維度分組，而不是從多個維度分組。例如，如果您是透過新增 `campaign_name` 維度至 `tracking_code` 維度來建立分組，不要同時為 `campaign_name` 維度建立分組。
+>確保您只從一個維度進行維度分組，而不是從多個維度分組。 例如，如果您是透過新增 `campaign_name` 維度至 `tracking_code` 維度來建立分組，不要同時為 `campaign_name` 維度建立分組。
 >

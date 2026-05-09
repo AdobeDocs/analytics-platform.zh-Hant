@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 35fcd213-d831-4da0-b946-f6f0d8561f60
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-validate"
 >title="驗證資料集中的資料"
->abstract="現在您已設定您的實作，便可以使用資料集活動管理員來查看已攝取和失敗的批次。如果您看到的主要攝取的批次，則此步驟已完成。如果您看到的主要失敗的批次或沒有批次，請檢查您的實作，以確保其正確地將資料傳送至 Adobe。"
+>abstract="現在您已設定您的實作，便可以使用資料集活動管理員來查看已攝取和失敗的批次。 如果您看到的主要攝取的批次，則此步驟已完成。 如果您看到的主要失敗的批次或沒有批次，請檢查您的實作，以確保其正確地將資料傳送至 Adobe。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 1. 在 Experience Platform UI 中，選取左側導覽中的「**[!UICONTROL 監控]**」。
 
-   監控儀表板會顯示。此儀表板可讓您檢視批次或串流攝取的輸入資料狀態。
+   監控儀表板會顯示。 此儀表板可讓您檢視批次或串流攝取的輸入資料狀態。
 
    <!-- insert screenshot -->
 

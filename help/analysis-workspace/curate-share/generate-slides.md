@@ -5,9 +5,9 @@ title: 從Workspace報表產生簡報
 feature: Curate and Share
 role: User
 exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
-source-git-commit: b9efb621523f8bbfbb3afe7db4db2e60fcddd34c
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1720'
 ht-degree: 9%
 
 ---
@@ -80,7 +80,7 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 >[!CONTEXTUALHELP]
 >id="cja-powerpoint-include-visualizations"
 >title="納入的面板和視覺化圖表"
->abstract="選擇要納入簡報中的面板和視覺化圖表。您可以納入最多 50 個視覺化圖表。"
+>abstract="選擇要納入簡報中的面板和視覺化圖表。 您可以納入最多 50 個視覺化圖表。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -89,7 +89,7 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 >[!CONTEXTUALHELP]
 >id="cja-presentation-emphasized-components"
 >title="強調元件"
->abstract="從您的視覺化圖表中選擇簡報內要強調的最多 5 個量度和 5 個維度。您選擇的量度會以斜體顯示、維度會以粗體顯示，而維度項目則會以對比顏色顯示。"
+>abstract="從您的視覺化圖表中選擇簡報內要強調的最多 5 個量度和 5 個維度。 您選擇的量度會以斜體顯示、維度會以粗體顯示，而維度項目則會以對比顏色顯示。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -131,7 +131,7 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 
    +++（建議）下載空白範本並加以修改
 
-   1. 下載[此空白範本](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?)。
+   1. 下載[此空白範本](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx？)。
 
    1. 將自訂樣式套用至空白範本。
 
@@ -198,13 +198,13 @@ Analysis Workspace會考慮下列專案元素來建立資料內文：
 1. 選取您要為其提供[!UICONTROL 資料storytelling]存取權的產品設定檔標題。
 1. 在特定的產品設定檔中，選取「**[!UICONTROL 權限]**」。
 1. 選取「![編輯](/help/assets/icons/Edit.svg)」，可編輯「**[!UICONTROL 報告工具]**」。
-1. 選取![AddCircle](/help/assets/icons/RemoveCircle.svg)以從&#x200B;**包含的許可權專案**&#x200B;移除&#x200B;**[!UICONTROL 資料storytelling]**。
+1. 選取![AddCircle](/help/assets/icons/RemoveCircle.svg)以從&#x200B;**[!UICONTROL 包含的許可權專案]**&#x200B;移除&#x200B;**資料storytelling**。
 
    <!--add screenshot of permission in the admin console-->
 
 1. 選取「**[!UICONTROL 儲存]**」，儲存權限。
 
-如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md#user-level-access)中的[使用者層級存取](/help/technotes/access-control.md#access-control)。
+如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md#access-control)中的[使用者層級存取](/help/technotes/access-control.md#user-level-access)。
 
 ## 不支援的專案元素和功能 {#unsupported}
 

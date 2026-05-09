@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '291'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 {{upgrade-note-step}}
 
-使用 Analytics 來源連接器時，行銷管道資料會透過該連接器流入 Customer Journey Analytics。行銷管道規則是在傳統 Adobe Analytics 中設定，且部分規則不受支援。如需了解更多資訊，請參閱「[使用行銷管道維度](/help/use-cases/aa-data/marketing-channels.md)」。
+使用 Analytics 來源連接器時，行銷管道資料會透過該連接器流入 Customer Journey Analytics。 行銷管道規則是在傳統 Adobe Analytics 中設定，且部分規則不受支援。 如需了解更多資訊，請參閱「[使用行銷管道維度](/help/use-cases/aa-data/marketing-channels.md)」。
 
 為了在使用 Experience Platform Web SDK 時使用 Customer Journey Analytics 中的行銷管道，您可以使用資料檢視中的衍生欄位為 Customer Journey Analytics 重新建立相同的行銷管道和處理規則。
 
