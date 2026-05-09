@@ -3,10 +3,10 @@ description: 了解關於量度類型和歸因。
 title: 量度類型和歸因
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 99%
 
 ---
 
@@ -23,21 +23,21 @@ ht-degree: 100%
 
      | 量度類型 | 定義 |
      |---|---|
-     | **[!UICONTROL 標準]** | 如果某個公式由單一標準量度組成，則其顯示的資料將與其非計算量度相對應公式一樣。標準量度適合用來建立每個行項目專屬的計算量度。 <p>例如，![事件](/help/assets/icons/Event.svg) **[!UICONTROL 訂單]** ![除以](/help/assets/icons/Divide.svg) ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 工作階段]**&#x200B;會採用該特定條列項目的訂單數，然後除以該特定條列項目的工作階段數。 |
-     | **[!UICONTROL 總計]** | 使用適用於每個條列項目報告期間的&#x200B;**[!UICONTROL 總計]**。如果公式是由單一總計量度組成，則會在每個條列項目顯示相同總計。當您要建立與資料總計比較的計算量度時，適合使用總計量度。 <p>例如， ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 訂單]** ![除以](/help/assets/icons/Divide.svg) ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 工作階段總計]**&#x200B;會顯示與所有工作階段比較的訂單比例，而不只是特定條列項目的工作階段數。在此範例中，您在計算量度中指定 ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 工作階段]**&#x200B;量度的&#x200B;**[!UICONTROL 總計]**，這會自動將其轉換為 ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 工作階段總計]**。 |
+     | **[!UICONTROL 標準]** | 如果某個公式由單一標準量度組成，則其顯示的資料將與其非計算量度相對應公式一樣。 標準量度適合用來建立每個行項目專屬的計算量度。 <p>例如，![事件](/help/assets/icons/Event.svg) **[!UICONTROL 訂單]** ![除以](/help/assets/icons/Divide.svg) ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 工作階段]**&#x200B;會採用該特定條列項目的訂單數，然後除以該特定條列項目的工作階段數。 |
+     | **[!UICONTROL 總計]** | 使用適用於每個條列項目報告期間的&#x200B;**[!UICONTROL 總計]**。 如果公式是由單一總計量度組成，則會在每個條列項目顯示相同總計。 當您要建立與資料總計比較的計算量度時，適合使用總計量度。 <p>例如， ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 訂單]** ![除以](/help/assets/icons/Divide.svg) ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 工作階段總計]**&#x200B;會顯示與所有工作階段比較的訂單比例，而不只是特定條列項目的工作階段數。 在此範例中，您在計算量度中指定 ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 工作階段]**&#x200B;量度的&#x200B;**[!UICONTROL 總計]**，這會自動將其轉換為 ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 工作階段總計]**。 |
 
    * 指定&#x200B;**[!UICONTROL 歸因]**。
 
       1. 您可以執行下列兩個動作中的一個:
 
          * 停用「**[!UICONTROL 使用非預設歸因模式]**」，以便使用預設欄歸因模型，也就是「上次接觸時間」且回顧期為 30 天。
-         * 啟用「**[!UICONTROL 使用非預設歸因模型]**」。在「**[!UICONTROL 欄歸因模型]**」對話框。
+         * 啟用「**[!UICONTROL 使用非預設歸因模型]**」。 在「**[!UICONTROL 欄歸因模型]**」對話框。
 
             * 從[歸因模型](#attribution-models)中選取&#x200B;**[!UICONTROL 「模型」]**。
             * 從[容器](#container)選項中選取&#x200B;**[!UICONTROL 「容器」]**。
-            * 從[回顧期間](#lookback-window)選項中選取&#x200B;**[!UICONTROL 「回顧期間」]**。如果選取&#x200B;**[!UICONTROL 「自訂時間」]**，您可以使用&#x200B;**[!UICONTROL 「分鐘」]** (最多以&#x200B;**[!UICONTROL 「季」]**) 來定義時段。
+            * 從[回顧期間](#lookback-window)選項中選取&#x200B;**[!UICONTROL 「回顧期間」]**。 如果選取&#x200B;**[!UICONTROL 「自訂時間」]**，您可以使用&#x200B;**[!UICONTROL 「分鐘」]** (最多以&#x200B;**[!UICONTROL 「季」]**) 來定義時段。
 
-      1. 請選取「**[!UICONTROL 套用]**」，以套用非預設歸因模型。選取「取消」，即可取消。
+      1. 請選取「**[!UICONTROL 套用]**」，以套用非預設歸因模型。 選取「取消」，即可取消。
 
      如果您已定義非預設歸因模型，請選取「**[!UICONTROL 編輯]**」來修改選擇內容。
 

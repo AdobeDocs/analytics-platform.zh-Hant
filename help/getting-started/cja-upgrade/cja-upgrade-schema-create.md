@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 3dc53d6955eab3048ebf8a7c9d232b4b5739c6bd
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1294'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create"
 >title="在 Adobe Experience Platform 中建立所需的自訂結構描述"
->abstract="使用 Adobe Experience Platform 使用者介面建立結構描述，以便 Adobe 了解儲存資料的正確格式。<br><br>此步驟包含實際建立您組織所同意的結構描述。在 Adobe Experience Platform 介面中建立結構描述的預估時間約為一週，取決於需要建立的維度和量度的數量。"
+>abstract="使用 Adobe Experience Platform 使用者介面建立結構描述，以便 Adobe 了解儲存資料的正確格式。<br><br>此步驟包含實際建立您組織所同意的結構描述。 在 Adobe Experience Platform 介面中建立結構描述的預估時間約為一週，取決於需要建立的維度和量度的數量。"
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create-default-aa"
@@ -29,7 +29,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
 >title="讓您的結構描述啟用設定檔"
->abstract="在您的結構描述中啟用設定檔以供 Adobe Real-time CDP 使用。之所以顯示此步驟是因為您選取希望與 Adobe Real-time CDP 整合。<br><br>由於這個步驟包含點選單一方塊，所以這個步驟只需幾分鐘。"
+>abstract="在您的結構描述中啟用設定檔以供 Adobe Real-time CDP 使用。 之所以顯示此步驟是因為您選取希望與 Adobe Real-time CDP 整合。<br><br>由於這個步驟只要點選單一方塊，故此步驟僅需幾分鐘。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -37,13 +37,13 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->在開始建立自訂結構描述之前，請與整個組織的資料團隊和其他利害關係人合作，為您組織的 Customer Journey Analytics 和您使用的其他 Adob&#x200B;&#x200B;e Experience Platform 應用程式確定理想結構描述設計。若要了解更多資訊，請參閱「[建構您的結構描述以用於 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)」。
+>在開始建立自訂結構描述之前，請與整個組織的資料團隊和其他利害關係人合作，為您組織的 Customer Journey Analytics 和您使用的其他 Adob&#x200B;&#x200B;e Experience Platform 應用程式確定理想結構描述設計。 若要了解更多資訊，請參閱「[建構您的結構描述以用於 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)」。
 
-以下部分介紹如何建立可用於 Customer Journey Analytics 的結構描述。有以下結構描述選項可供使用：
+以下部分介紹如何建立可用於 Customer Journey Analytics 的結構描述。 有以下結構描述選項可供使用：
 
-* **自訂 XDM 結構描述：** (建議) 允許根據您的組織需求和您使用的特定平台應用程式量身定制的簡化結構描述。未來需進行的任何變更都很簡單。
+* **自訂 XDM 結構描述：** (建議) 允許根據您的組織需求和您使用的特定平台應用程式量身定制的簡化結構描述。 未來需進行的任何變更都很簡單。
 
-* **使用 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 欄位群組的 Adob&#x200B;&#x200B;e Analytics 結構描述：** 需要增加數千個不需要的欄位。未來需進行的任何變更都會更困難。
+* **使用 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 欄位群組的 Adob&#x200B;&#x200B;e Analytics 結構描述：** 需要增加數千個不需要的欄位。 未來需進行的任何變更都會更困難。
 
 有關這些結構描述選項的更多資訊，請參閱「[選擇您的 Customer Journey Analytics 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)」。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
       >[!INFO]
       >
-      >    體驗事件結構描述可用來建立設定檔&#x200B;_行為_ (例如場景名稱、推播按鈕至新增至購物車) 模型。個體設定檔結構描述可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
+      >    體驗事件結構描述可用來建立設定檔&#x200B;_行為_ (例如場景名稱、推播按鈕至新增至購物車) 模型。 個體設定檔結構描述可用來建立設定檔&#x200B;_屬性_ (例如姓名、電子郵件、性別) 模型。
 
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
@@ -100,7 +100,7 @@ ht-degree: 100%
 
    1. (選用) 選取您想要包含的任何其他欄位群組。
 
-      如果您選擇使用預設 Adob&#x200B;&#x200B;e Analytics 結構描述而不是建立自訂 XDM 結構描述，您現在可以新增 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 欄位群組。但是，Adobe 建議建立自訂 XDM 結構描述，而不是新增此欄位群組。
+      如果您選擇使用預設 Adob&#x200B;&#x200B;e Analytics 結構描述而不是建立自訂 XDM 結構描述，您現在可以新增 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 欄位群組。 但是，Adobe 建議建立自訂 XDM 結構描述，而不是新增此欄位群組。
 
       有關這些結構描述選項的更多資訊，請參閱「[選擇您的 Customer Journey Analytics 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)」。
 
@@ -124,11 +124,11 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=zh-Hant)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=zh-Hant#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
+   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。 或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=zh-Hant)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=zh-Hant#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
 
    ![識別物件](assets/identification-field.png)
 
-   識別物件新增識別功能至您的結構描述。在您的案例中，您想使用 Experience Cloud ID 和電子郵件地址識別瀏覽您網站的設定檔。還有許多其他屬性可用於追蹤您個人的身分識別 (例如客戶 ID、忠誠度 ID)。
+   識別物件新增識別功能至您的結構描述。 在您的案例中，您想使用 Experience Cloud ID 和電子郵件地址識別瀏覽您網站的設定檔。 還有許多其他屬性可用於追蹤您個人的身分識別 (例如客戶 ID、忠誠度 ID)。
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構描述。
 
@@ -138,7 +138,7 @@ ht-degree: 100%
 
    您將 Experience Cloud Identity 指定為 Adobe Experience Platform 身分識別服務可用於組合 (拼接) 具有相同 ECID 的設定檔的行為的主要身分。
 
-   選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在 ecid 屬性中。
+   選取&#x200B;**[!UICONTROL 「套用」]**。 您會看到指紋圖示出現在 ecid 屬性中。
 
 1. 在剛剛新增的身分識別物件中選取&#x200B;**[!UICONTROL 「電子郵件」]**&#x200B;欄位，然後在[!UICONTROL 「欄位屬性」]面板的[!UICONTROL 「身分識別命名空間」]清單中選取&#x200B;**[!UICONTROL 「身分識別」]**&#x200B;和&#x200B;**[!UICONTROL 「電子郵件」]**。
 
@@ -146,25 +146,25 @@ ht-degree: 100%
 
    您將電子郵件地址指定為 Adobe Experience Platform 身分識別服務可用於結合 (拼接) 設定檔行為的另一個身分。
 
-   選取&#x200B;**[!UICONTROL 「套用」]**。您會看到指紋圖示出現在電子郵件屬性中。
+   選取&#x200B;**[!UICONTROL 「套用」]**。 您會看到指紋圖示出現在電子郵件屬性中。
 
    選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 1. (選用) 如果您想將 Customer Journey Analytics 與 RTCDP 整合，請選取顯示結構描述名稱的結構描述根元素，然後選取&#x200B;**[!UICONTROL 設定檔]**&#x200B;開關。
 
-   系統會提示您啟用設定檔的結構描述。啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
+   系統會提示您啟用輪廓的結構。 啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
 
    >[!IMPORTANT]
    >
    >啟用設定檔的結構描述後，將無法為設定檔停用結構描述。
 
-   ![啟用設定檔結構描述](./assets/enable-for-profile.png)
+   ![啟用輪廓結構](./assets/enable-for-profile.png)
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-   您已建立最小結構，以建立可從您網站擷取的資料的模型。該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。透過啟用設定檔的結構，即可確保將從您網站擷取的資料新增至即時客戶設定檔。
+   您已建立最小結構，以建立可從您網站擷取的資料的模型。 該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。 透過啟用設定檔的結構，即可確保將從您網站擷取的資料新增至即時客戶設定檔。
 
    除了行為資料之外，您也可以從您的網站擷取設定檔屬性資料 (例如訂閱電子報的設定檔詳細資訊)。
 

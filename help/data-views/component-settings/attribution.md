@@ -5,9 +5,9 @@ exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '437'
 ht-degree: 63%
 
 ---
@@ -28,10 +28,10 @@ ht-degree: 63%
 
 例如：
 
-1. 您的網站有人按一下您其中一個產品頁面的付費搜尋連結。他們將產品新增至他們的購物車，但並未購買。
-2. 第二天，他們在社群媒體上看到了一位朋友的貼文。他們可按一下連結，然後完成購買。
+1. 您的網站有人按一下您其中一個產品頁面的付費搜尋連結。 他們將產品新增至他們的購物車，但並未購買。
+2. 第二天，他們在社群媒體上看到了一位朋友的貼文。 他們可按一下連結，然後完成購買。
 
-在某些報告中，您可能想要將訂單歸因於「付費」搜尋。在其他報告中，則可能會將訂單歸因至「社交」。歸因可讓您控制報表的這個方面。
+在某些報告中，您可能想要將訂單歸因於「付費」搜尋。 在其他報告中，則可能會將訂單歸因至「社交」。 歸因可讓您控制報表的這個方面。
 
 ## 設定元件的歸因模型
 
@@ -65,9 +65,9 @@ ht-degree: 63%
 >
 >如果您的組織要求某個量度具有多個歸因設定，您可以執行以下操作之一：
 >
-> * 複製資料檢視中的量度，含每個所需的歸因設定。您可在資料檢視中多次包含相同的量度，並為每個量度提供不同的設定。確保善適當地賦予每個量度標籤，以便分析師在產生報告時了解這些量度之間的差異。
+> * 複製資料檢視中的量度，含每個所需的歸因設定。 您可在資料檢視中多次包含相同的量度，並為每個量度提供不同的設定。 確保善適當地賦予每個量度標籤，以便分析師在產生報告時了解這些量度之間的差異。
 >
-> * 覆蓋 Analysis Workspace 中的量度。在量度的[資料欄設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中，選取「**[!UICONTROL 使用非預設歸因模型]**」以變更該特定報告的量度歸因模型和回顧期間。
+> * 覆蓋 Analysis Workspace 中的量度。 在量度的[資料欄設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中，選取「**[!UICONTROL 使用非預設歸因模型]**」以變更該特定報告的量度歸因模型和回顧期間。
 
 ## 歸因模型 {#attribution-models}
 
@@ -86,7 +86,7 @@ ht-degree: 63%
 
 {{attribution-container}}
 
-## 回顧期間
+## 回顧時間範圍
 
 {{attribution-lookback-window}}
 

@@ -4,10 +4,10 @@ title: 區域圖（棧疊）
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 90%
+source-wordcount: '226'
+ht-degree: 70%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的區域圖和區域堆疊圖視覺效果。_<br/>_請參閱本文中_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 版本的[區域和堆疊區域](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/area)。_
+_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中的區域圖和棧疊區域圖。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[區域圖和棧疊區域圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/area)。_
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 
 
-![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 區域圖]**&#x200B;視覺效果類似線圖，但在線圖下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可新增區域圖。
+![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 區域圖]**&#x200B;視覺效果類似線圖，但在線圖下方有一塊上色區域。 有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可新增區域圖。
 
 ![顯示多個量度的區域圖視覺效果](assets/area.png)
 
@@ -53,7 +53,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 <!-- markdownlint-enable MD034 -->
 
 
- ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL 區域堆疊圖]**&#x200B;視覺效果類似於區域圖，但每個系列都從前一個系列的上方開始。
+![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL 區域堆疊圖]**&#x200B;視覺效果類似於區域圖，但每個系列都從前一個系列的上方開始。
 
 ![區域堆疊圖是在前一個系列上方顯示每個系列。](assets/area-stacked.png)
 
@@ -69,7 +69,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 >[!MORELIKETHIS]
 >
->[將視覺化新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[視覺化內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '280'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-addplatform-datastream"
 >title="將 Adobe Experience Platform 即服務新增至資料流"
->abstract="資料流需要一個或多個服務作為傳送資料的目的地。在您的資料流中設定 Adobe Experience Platform 即服務。<br><br>新增服務至資料流是簡單的流程，僅需幾分鐘即可完成。"
+>abstract="資料流需要一個或多個服務作為傳送資料的目的地。 在您的資料流中設定 Adobe Experience Platform 即服務。<br><br>新增服務至資料流是簡單的流程，僅需幾分鐘即可完成。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-在完成本節中的步驟之前，資料流應該已經存在。資料流的建立時間和方式取決於您的 Adob&#x200B;&#x200B;e Analytics 實施，如下所示：
+在完成本節中的步驟之前，資料流應該已經存在。 資料流的建立時間和方式取決於您的 Adob&#x200B;&#x200B;e Analytics 實施，如下所示：
 
 * 如果您的 Adob&#x200B;&#x200B;e Analytics 實施是使用 Web SDK 或 Web SDK 擴充功能，則在升級流程之前，資料流可供您的 Adob&#x200B;&#x200B;e Analytics 環境使用。
 

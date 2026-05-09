@@ -4,10 +4,10 @@ title: 流失概觀
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 82%
+source-wordcount: '389'
+ht-degree: 74%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 中的流失視覺效果。_<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[流失](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)_。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄流失視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[流失](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow)。_
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,7 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 
 流失會顯示一序列中每個步驟或接觸點之間的轉換和流失率。
 
-例如，您可以追蹤人們在購買過程中的流失點。只需選取開始接觸點和結論接觸點，然後新增中間接觸點以建立網站導覽路徑。 但您也可以執行多維度流失。
+例如，您可以追蹤人們在購買過程中的流失點。 只需選取開始接觸點和結論接觸點，然後新增中間接觸點以建立網站導覽路徑。 但您也可以執行多維度流失。
 
 ## 在流失、流量和旅程畫布視覺效果之間作選擇
 
@@ -68,12 +68,12 @@ _本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyA
 流失和 [Journey 畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) 視覺效果皆可對分析很有用：
 
 * 網站特定過程的轉換率 (例如購買或註冊過程)。
-* 更廣泛的一般流量流程：此流量是顯示在瀏覽過首頁的人當中，有多少人執行了搜尋操作，接著又有多少人最後會檢視特定的項目。
+* 更廣泛的一般流量流程：此流量是顯示在瀏覽過首頁的人當中，有多少人執行了搜尋操作， 接著又有多少人最後會檢視特定的項目。
 * 您網站上事件之間的關聯。 關聯會顯示檢視您隱私權政策的人繼續購買產品的百分比。
 
 流失視覺效果最適合：
 
-* 對於有預先定義的連續頁面和單個入口點和路徑的歷程進行流失分析。(使用歷程畫布來處理具有多個進入點和路徑的歷程)。
+* 對於有預先定義的連續頁面和單個入口點和路徑的歷程進行流失分析。 (使用歷程畫布來處理具有多個進入點和路徑的歷程)。
 
 * 您需要在同一份報告中執行兩個不同區段並排比較的歷程。
 

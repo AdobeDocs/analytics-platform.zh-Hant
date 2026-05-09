@@ -4,10 +4,10 @@ title: 地圖
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 9%
+source-wordcount: '2815'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="地圖"
->abstract="此視覺效果是透過將量度覆蓋在地圖上來表示量度。這相當實用，可辨識和不同地理區域之間的資料。"
+>abstract="此視覺效果是透過將量度覆蓋在地圖上來表示量度。 這相當實用，可辨識和不同地理區域之間的資料。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -42,7 +42,7 @@ ht-degree: 9%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_檢視此文章的[&#x200B; &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)AdobeAnalytics_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)版本的&#x200B;_&#x200B;**地圖**。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[地圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)。_
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +109,7 @@ Adobe提供數個[預先建立的範本](/help/analysis-workspace/templates/use-
 | 地理區域 | [!UICONTROL 地理：地理區域] |
 | 地理城市 | [!UICONTROL 地理：地理城市] |
 | 地理美國各州 | [!UICONTROL 地理：地理狀態] |
-| Geo US DMA | [!UICONTROL 地理：地理Dma] |
+| 地理位置 美國 DMA | [!UICONTROL 地理：地理Dma] |
 
 若要新增這些內容標籤：
 
@@ -163,7 +163,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 >[!CONTEXTUALHELP]
 >id="workspace_map_panel"
 >title="設定地圖視覺效果"
->abstract="選擇作為地圖視覺效果基礎的量度或計算量度。如果您想聚焦於資料的特定子集，也可以新增一個片段。<p>您可以在視覺效果呈現後隨時更新此資訊。</p>"
+>abstract="選擇作為地圖視覺效果基礎的量度或計算量度。 如果您想聚焦於資料的特定子集，也可以新增一個片段。<p>您可以在視覺效果呈現後隨時更新此資訊。</p>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -171,7 +171,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
    或
 
-   以[視覺效果概述](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)的[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)區段中所述的任何方式新增地圖視覺效果。
+   以[視覺效果概述](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)的[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)區段中所述的任何方式新增地圖視覺效果。
 
    ![地圖設定](assets/map-configuration.png){width="50%"}
 
@@ -267,7 +267,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
    | **[!UICONTROL 樣式]** | | |
    | | **[!UICONTROL 色彩主題]** | 顯示熱度圖和泡泡的色彩配置。 您可以選擇珊瑚色、紅色、綠色或藍色。 此預設為珊瑚色。 |
    | | **[!UICONTROL 地圖樣式]** | 您可以從基本、街道、明亮、淺色、深色和衛星中進行選擇。 |
-   | | **[!UICONTROL 叢集半徑]** | 將指定像素數內的資料點分組在一起。預設值為 50。<p>只有在選取&#x200B;**[!UICONTROL 泡泡]**&#x200B;做為&#x200B;**[!UICONTROL 對應型別]**&#x200B;時，才能使用此選項。</p> |
+   | | **[!UICONTROL 叢集半徑]** | 將指定像素數內的資料點分組在一起。 預設值為 50。<p>只有在選取&#x200B;**[!UICONTROL 泡泡]**&#x200B;做為&#x200B;**[!UICONTROL 對應型別]**&#x200B;時，才能使用此選項。</p> |
    | | **[!UICONTROL 自訂最大值]** | 可讓您變更地圖最大值的臨界值。 調整此值會調整泡泡或熱度圖值（顏色和大小）相對於您設定的自訂最大值的比例。 |
    | | **[!UICONTROL 顯示註解]** | 顯示為此視覺效果所做的註解。 |
    | | **[!UICONTROL 隱藏標題]** | 隱藏視覺效果的標題。 |
@@ -338,7 +338,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
    * **若要針對地圖中更具體的區域建立對象：**&#x200B;按一下選取工具![地圖選取範圍圖示](assets/map-selection-icon.png)，拖曳滑鼠以選取想要的區域，然後選取&#x200B;**[!UICONTROL 從選取範圍建立對象]**。
 
-1. 使用對象產生器來定義新對象。 如需詳細資訊，請參閱[建立和發佈對象](/help/components/audiences/publish.md#audience-builder)中的[對象產生器](/help/components/audiences/publish.md)
+1. 使用對象產生器來定義新對象。 如需詳細資訊，請參閱[建立和發佈對象](/help/components/audiences/publish.md)中的[對象產生器](/help/components/audiences/publish.md#audience-builder)
 
 ## 從地圖視覺效果建立趨勢線圖
 

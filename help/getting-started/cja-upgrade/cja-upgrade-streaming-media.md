@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: b807099d-a61d-48f9-9fec-94ecc6b76213
-source-git-commit: 380ed5c9ee0c21ea9855a41728afec040637ce65
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 20%
+source-wordcount: '391'
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-media-edge"
 >title="設定並實作 Media Edge"
->abstract="如果您計劃將串流媒體集合與 Customer Journey Analytics 併用，升級過程的某些步驟中則需進行特定選擇。例如，您需要將 MediaAnalytics 互動詳細資料欄位群組新增至您的綱要中、在資料流中啟用媒體分析等等。"
+>abstract="如果您計劃將串流媒體集合與 Customer Journey Analytics 併用，升級過程的某些步驟中則需進行特定選擇。 例如，您需要將 MediaAnalytics 互動詳細資料欄位群組新增至您的綱要中、在資料流中啟用媒體分析等等。"
 
 <!-- markdownlint-enable MD034 -->
 

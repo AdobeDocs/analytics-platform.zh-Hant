@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataset-create"
 >title="在 Adobe Experience Platform 中建立資料集"
->abstract="資料集是存放所收集資料的位置。在 Adobe Experience Platform 中建立這個位置。<br><br>根據特定的結構描述建立資料集僅需幾分鐘。"
+>abstract="資料集是存放所收集資料的位置。 在 Adobe Experience Platform 中建立此位置。<br><br>根據特定的結構描述建立資料集僅需幾分鐘。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -51,14 +51,14 @@ ht-degree: 100%
 
 1. 選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
-   系統會提示您啟用設定檔的資料集。資料集一經啟用，即可透過攝取的資料豐富即時客戶設定檔。
+   系統會提示您啟用設定檔的資料集。 資料集一經啟用，即可透過攝取的資料豐富即時客戶設定檔。
 
    >[!IMPORTANT]
    >
    >    只有當資料集所遵循的結構同樣啟用設定檔時，您才能啟用設定檔的資料集。
 
-   ![啟用設定檔結構](assets/aepwebsdk-dataset-profile.png)
+   ![啟用輪廓結構](assets/aepwebsdk-dataset-profile.png)
 
-   請參閱[資料集 UI 指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)，了解如何檢視、預覽、建立和刪除資料集的詳細資訊。您也可了解為即時客戶設定檔啟用資料集的方法。
+   請參閱[資料集 UI 指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant)，了解如何檢視、預覽、建立和刪除資料集的詳細資訊。 您也可了解為即時客戶設定檔啟用資料集的方法。
 
 {{upgrade-final-step}}

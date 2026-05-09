@@ -5,10 +5,10 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 產品分析
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 99%
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 99%
 
 <!-- markdownlint-enable MD034 -->
 
-![時間軸](/help/assets/icons/Timeline.svg) **[!UICONTROL 時間軸]**&#x200B;分析可讓您觀察一段時間內使用者層級工作階段事件，以找到體驗模式並講述更好的使用者故事。左側邊欄可讓您按屬性值和區段篩選資料流。右側邊欄可讓您從符合篩選條件的隨機使用者清單中選取。中心區域會依工作階段顯示所選使用者的資料流，包括時間戳記、屬性值和持續時間。特定工作階段中最後一個事件不適用持續時間。
+![時間軸](/help/assets/icons/Timeline.svg) **[!UICONTROL 時間軸]**&#x200B;分析可讓您觀察一段時間內使用者層級工作階段事件，以找到體驗模式並講述更好的使用者故事。 左側邊欄可讓您按屬性值和區段篩選資料流。 右側邊欄可讓您從符合篩選條件的隨機使用者清單中選取。 中心區域會依工作階段顯示所選使用者的資料流，包括時間戳記、屬性值和持續時間。 特定工作階段中最後一個事件不適用持續時間。
 
 
 >[!NOTE]
 >
->[!UICONTROL 時間軸]分析要求[資料檢視](/help/data-views/component-reference.md#optional)中有&#x200B;**[!UICONTROL 個人 ID]** 標準元件。在資料檢視中包含個人 ID 是由您的 Customer Journey Analytics 管理員管理，這樣可讓您的組織能夠完全控制可存取這些資料者的隱私權。
+>[!UICONTROL 時間軸]分析要求[資料檢視](/help/data-views/component-reference.md#optional)中有&#x200B;**[!UICONTROL 個人 ID]** 標準元件。 在資料檢視中包含個人 ID 是由您的 Customer Journey Analytics 管理員管理，這樣可讓您的組織能夠完全控制可存取這些資料者的隱私權。
 ><br/>如果資料檢視沒有[!UICONTROL 個人 ID] 元件新增，以下訊息即會顯示：
 >
->* **管理員**： *此分析需要有 PersonID 屬性。請將個人 ID 新增至資料檢視。*
->* **非管理員**：*此分析需要有 PersonID 屬性。請與您的 Customer Journey Analytics 管理員合作，將個人 ID 新增至資料檢視。*
+>* **管理員**： *此分析需要有 PersonID 屬性。 請將個人 ID 新增至資料檢視。*
+>* **非管理員**：*此分析需要有 PersonID 屬性。 請與您的 Customer Journey Analytics 管理員合作，將個人 ID 新增至資料檢視。*
 
 >[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
 
@@ -48,14 +48,14 @@ ht-degree: 99%
 
 ## 介面
 
-請參閱「[介面](../overview.md#interface)」，了解引導式分析介面概觀。以下是針對此分析的設定：
+請參閱「[介面](../overview.md#interface)」，了解引導式分析介面概觀。 以下是針對此分析的設定：
 
 ### 查詢邊欄
 
 查詢邊欄允許您設定以下元件：
 
-* **[!UICONTROL 維度]**：您想要查看的資料流值維度。中心資料流會顯示所選維度的值。您也可以套用篩選器來縮小資料流的範圍，即可取得更相關的資料。篩選器的有效運算子包括[!UICONTROL 等於]、[!UICONTROL 不等於]、[!UICONTROL 開頭為]、[!UICONTROL 結尾為]、[!UICONTROL 包含]、[!UICONTROL 不包含]、[!UICONTROL 存在]和[!UICONTROL 不存在]。
-* **[!UICONTROL 區段]**：您要分析的區段。選取的區段會篩選您的資料，以便只著重符合您區段條件的個人。如果您想將分析範圍縮小到特定的個人 ID，您可以在右側面板中篩選該個人 ID。此分析支援一個區段。
+* **[!UICONTROL 維度]**：您想要查看的資料流值維度。 中心資料流會顯示所選維度的值。 您也可以套用篩選器來縮小資料流的範圍，即可取得更相關的資料。 篩選器的有效運算子包括[!UICONTROL 等於]、[!UICONTROL 不等於]、[!UICONTROL 開頭為]、[!UICONTROL 結尾為]、[!UICONTROL 包含]、[!UICONTROL 不包含]、[!UICONTROL 存在]和[!UICONTROL 不存在]。
+* **[!UICONTROL 區段]**：您要分析的區段。 選取的區段會篩選您的資料，以便只著重符合您區段條件的個人。 如果您想將分析範圍縮小到特定的個人 ID，您可以在右側面板中篩選該個人 ID。 此分析支援一個區段。
 
 ### 圖表設定
 
@@ -68,10 +68,10 @@ ht-degree: 99%
 
 ### 日期範圍
 
-您想要分析的日期範圍。此設定有兩個元件：
+您想要分析的日期範圍。 此設定有兩個元件：
 
-* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期顆粒度。此設定不會影響時間軸等非趨勢分析。
-* **[!UICONTROL 日期]**：開始和結束日期。為方便您使用，我們提供滾動日期範圍預設和先前儲存的自訂範圍，或者您可以使用行事曆選擇器來選擇固定的日期範圍。
+* **[!UICONTROL 間隔]**：您想要查看趨勢資料所用的日期顆粒度。 此設定不會影響時間軸等非趨勢分析。
+* **[!UICONTROL 日期]**：開始和結束日期。 為方便您使用，我們提供滾動日期範圍預設和先前儲存的自訂範圍，或者您可以使用行事曆選擇器來選擇固定的日期範圍。
 
 
 <!--

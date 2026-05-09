@@ -5,10 +5,10 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 5808de9b39d3c8fa5632755958ddb887c081b203
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 9%
+source-wordcount: '1545'
+ht-degree: 10%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-architect"
 >title="建立結構描述"
->abstract="在您的組織內討論資料收集的需求，並確定您想要如何建置在 Adobe Experience Platform 內使用的結構描述。之所以顯示這個步驟，是因為您要使用推薦流程，即使用針對您組織量身打造的結構描述。正確執行此步驟極為重要，因為組織內所有團隊均遵循一個結構描述，可以十分輕鬆地完成資料攝取。<br><br>將組織中所有相關方整合以便遵循統一的結構描述，預估要花費 1-2 個月時間。這個時間段極度依賴所要協調的團隊數量，以及要遵循的維度 + 量度數量。"
+>abstract="在您的組織內討論資料收集的需求，並確定您想要如何建置在 Adobe Experience Platform 內使用的結構描述。 之所以顯示這個步驟，是因為您要使用推薦流程，即使用針對您組織量身打造的結構描述。 正確執行此步驟極為重要，因為組織內所有團隊均遵循一個結構描述，可以十分輕鬆地完成資料攝取。<br><br>將組織中所有相關方整合以便遵循統一的結構描述，預估要花費 1-2 個月時間。 這個時間段極度依賴所要協調的團隊數量，以及要遵循的維度 + 量度數量。"
 
 <!-- markdownlint-enable MD034 -->
 
 {{upgrade-note-step}}
 
-Adobe建議在實作[Adobe Experience Platform資料彙集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)時，為Customer Journey Analytics建立自訂[Experience Data Model](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/home) (XDM)結構描述。 建立此結構描述通常會在觸及任何實作變更或程式碼之前完成。 自訂結構描述可讓您設計簡潔、組織特定的資料合約，而不繼承Adobe Analytics的限制。 請參閱[選擇您的Customer Journey Analytics結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)，以進一步瞭解貴組織可用的結構描述型別。
+Adobe建議在實作[Adobe Experience Platform資料彙集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/home)時，為Customer Journey Analytics建立自訂[Experience Data Model](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home) (XDM)結構描述。 建立此結構描述通常會在觸及任何實作變更或程式碼之前完成。 自訂結構描述可讓您設計簡潔、組織特定的資料合約，而不繼承Adobe Analytics的限制。 請參閱[選擇您的Customer Journey Analytics結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)，以進一步瞭解貴組織可用的結構描述型別。
 
 結構描述旨在完善您想要長期建構資料的方式。 對結構描述進行變更的成本很高，因為它們會影響資料收集、驗證和下游服務。 您可以隨著業務需求允許逐漸新增到結構描述；但是，一旦資料開始流入，結構描述欄位就無法移除。
 

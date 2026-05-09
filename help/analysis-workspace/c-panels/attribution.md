@@ -4,10 +4,10 @@ description: 瞭解如何使用和解讀Analysis Workspace中的歸因面板。
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 93%
+source-wordcount: '689'
+ht-degree: 90%
 
 ---
 
@@ -24,18 +24,18 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="歸因面板"
->abstract="快速比較並視覺化任何數目的歸因模型，以評估成功量度。選取管道 (維度)、納入的模型及回顧期間。"
+>abstract="快速比較並視覺化任何數目的歸因模型，以評估成功量度。 選取管道 (維度)、納入的模型及回顧期間。"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ 中的歸因面板。<br/>_請參閱本文中 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;版本的[歸因面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/attribution)_。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;中記錄歸因面板。<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[歸因面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/attribution)。_
 
 >[!ENDSHADEBOX]
 
-建立比較各種歸因模型的分析時，**[!UICONTROL 歸因]**&#x200B;面板是可採用的簡單方式。此面板提供您專用的工作區來使用和比較歸因模型。
+建立比較各種歸因模型的分析時，**[!UICONTROL 歸因]**&#x200B;面板是可採用的簡單方式。 此面板提供您專用的工作區來使用和比較歸因模型。
 
 Customer Journey Analytics 強化了歸因功能，讓您可以：
 
@@ -52,7 +52,7 @@ Customer Journey Analytics 強化了歸因功能，讓您可以：
 
 若要使用&#x200B;**[!UICONTROL 歸因]**&#x200B;面板：
 
-1. 建立&#x200B;**[!UICONTROL 歸因]**&#x200B;面板。有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立&#x200B;**[!UICONTROL 歸因]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
 1. 指定面板的[輸入](#panel-input)。
 
@@ -62,11 +62,11 @@ Customer Journey Analytics 強化了歸因功能，讓您可以：
 
 您可以使用下列輸入設定來設定歸因面板：
 
-1. 新增&#x200B;**[!UICONTROL 成功量度]**&#x200B;和要歸因的&#x200B;**[!UICONTROL 管道]**。其範例包括行銷管道或自訂維度，例如內部促銷。
+1. 新增&#x200B;**[!UICONTROL 成功量度]**&#x200B;和要歸因的&#x200B;**[!UICONTROL 管道]**。 其範例包括行銷管道或自訂維度，例如內部促銷。
 
    ![歸因面板視窗顯示數個指定的維度和量度。](assets/attribution-panel.png)
 
-1. 從[包含的模型](#attribution-models)選取一或多個&#x200B;**[!UICONTROL 歸因模型]**，從[容器](#container)選取&#x200B;**[!UICONTROL 容器]**，並從[回顧期間](#lookback-window)選取要用來比較的&#x200B;**[!UICONTROL 回顧期間]**。
+1. 從&#x200B;**[!UICONTROL 包含的模型]**&#x200B;選取一或多個[歸因模型](#attribution-models)，從&#x200B;**[!UICONTROL 容器]**&#x200B;選取[容器](#container)，並從&#x200B;**[!UICONTROL 回顧期間]**&#x200B;選取要用來比較的[回顧期間](#lookback-window)。
 
 1. 請選取「**[!UICONTROL 建置]**」，在面板中建置視覺效果。
 
@@ -81,11 +81,11 @@ Customer Journey Analytics 強化了歸因功能，讓您可以：
 以下視覺效果為面板輸出的一部分。
 
 * **總量度**：報告時間範圍內發生的轉換總數，並歸因於您指定的維度。
-* **歸因比較長條圖**：以視覺效果方式比較所選維度中每個維度項目的歸因轉換。每個長條的顏色代表不同的歸因模型。
-* **歸因比較表**：顯示與長條圖相同的資料，以表格的形式呈現。在此表格中選取不同的欄或列會劃分長條圖，以及面板中的其他數個視覺效果。表格的作用與 Workspace 中的其他自由格式表格相仿，可讓您新增量度、區段或劃分等元件。
-* **重疊圖**：文氏圖表會顯示前三大維度項目，及其共同參與轉換的頻率。例如，重疊的泡泡圖尺寸表示人員同時接觸到兩個維度項目時發生轉換的頻率。選取相鄰自由格式表格中的其他列，可依據您的選取項目更新視覺效果。
+* **歸因比較長條圖**：以視覺效果方式比較所選維度中每個維度項目的歸因轉換。 每個長條的顏色代表不同的歸因模型。
+* **歸因比較表**：顯示與長條圖相同的資料，以表格的形式呈現。 在此表格中選取不同的欄或列會劃分長條圖，以及面板中的其他數個視覺效果。 表格的作用與 Workspace 中的其他自由格式表格相仿，可讓您新增量度、區段或劃分等元件。
+* **重疊圖**：文氏圖表會顯示前三大維度項目，及其共同參與轉換的頻率。 例如，重疊的泡泡圖尺寸表示人員同時接觸到兩個維度項目時發生轉換的頻率。 選取相鄰自由格式表格中的其他列，可依據您的選取項目更新視覺效果。
 * **效能詳細資料**：透過散佈圖視覺效果，視覺化比較最多三個歸因模型。
-* **趨勢效能**：顯示排名前面的維度項目的歸因轉換趨勢。選取相鄰自由格式表格中的其他列，可依據您的選取項目更新視覺效果。
+* **趨勢效能**：顯示排名前面的維度項目的歸因轉換趨勢。 選取相鄰自由格式表格中的其他列，可依據您的選取項目更新視覺效果。
 * **流量**：可讓您查看哪些管道最常互動，以及人員歷程中的順序。
 
 ## 成效歸因模型
@@ -96,7 +96,7 @@ Customer Journey Analytics 強化了歸因功能，讓您可以：
 
 {{attribution-container}}
 
-## 回顧期間
+## 回顧時間範圍
 
 {{attribution-lookback-window}}
 
