@@ -80,7 +80,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
   >
   >啟用資料視圖時請將以下事項納入考量：
   >* 每個 IMS 組織最多可以啟用 50 個資料視圖。 若特定組織的所有產品設定檔內啟用超過 50 個資料視圖，則 Data Insights 代理會使用最常用的 50 個資料視圖。
-  >  您可以在資料檢視](/help/data-views/manage-dataviews.md#manage-data-views)中使用Data Insights Agent欄上的[資訊來檢視在您的IMS組織中為Data Insights Agent啟用的資料檢視數量。
+  >  您可以在資料檢視[&#128279;](/help/data-views/manage-dataviews.md#manage-data-views)中使用Data Insights Agent欄上的資訊來檢視在您的IMS組織中為Data Insights Agent啟用的資料檢視數量。
   >* 啟用包含資料釋圖當日的某個時間點，Data Insights 代理便可以參照這些資料釋圖。
 
   若要啟用資料釋圖供 Data Insights 代理使用：
@@ -158,7 +158,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 **提示：**&#x200B;在提示視窗中，輸入&#x200B;*「新增利潤」。*
 
-**回覆：****[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
+**回覆：**&#x200B;**[!UICONTROL 長條圖]**&#x200B;仍然提供最簡潔的答案，但利潤量度已以欄位形式新增至自由格式表格中：
 
 ![長條圖](/help/assets/ai-asst-result4.png)
 

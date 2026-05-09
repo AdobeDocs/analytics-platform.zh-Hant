@@ -105,7 +105,7 @@ ht-degree: 53%
 
   **注意**：地圖視覺效果處於發行的有限測試階段，可能尚未在您的環境中提供。
 
-* 顯示Adobe](/help/analysis-workspace/templates/use-templates.md)提供的[範本。 Adobe提供的部分範本可能無法運作，因為某些元件不在您的資料檢視中。
+* 顯示Adobe[&#128279;](/help/analysis-workspace/templates/use-templates.md)提供的範本。 Adobe提供的部分範本可能無法運作，因為某些元件不在您的資料檢視中。
 
   對於每個缺少的元件，資料檢視中都有一個相符的內容標籤。 您需要將相符的內容標籤新增至資料檢視中已有的元件。 或者，您需要將新元件新增到資料檢視，並將內容標籤新增到元件（如果尚未自動提供）。
 

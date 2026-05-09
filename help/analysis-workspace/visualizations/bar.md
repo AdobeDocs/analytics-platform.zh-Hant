@@ -15,7 +15,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中的橫條圖和棧疊橫條圖。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本，請參閱[棧疊橫條圖和橫條圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/bar)。_
+_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中的橫條圖和棧疊橫條圖。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[棧疊橫條圖和橫條圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/bar)。_
 
 
 >[!ENDSHADEBOX]

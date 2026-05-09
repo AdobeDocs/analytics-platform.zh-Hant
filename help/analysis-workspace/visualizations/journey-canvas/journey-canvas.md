@@ -51,7 +51,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄Journey Canvas視覺效果。<br/>**Adobe Analytics**&#x200B;中沒有對應的視覺效果。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄Journey Canvas視覺效果。<br/>**Adobe Analytics**&#x200B;中沒有對應的視覺效果。_
 
 >[!ENDSHADEBOX]
 

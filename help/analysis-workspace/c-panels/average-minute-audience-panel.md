@@ -33,7 +33,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;中的「媒體平均每分鐘觀眾數」面板。<br/>_請參閱_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本本文的[媒體平均每分鐘觀眾數](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)。_
+_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;中的「媒體平均每分鐘觀眾數」面板。<br/>_請參閱_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本本文的[媒體平均每分鐘觀眾數](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)。_
 
 >[!ENDSHADEBOX]
 
