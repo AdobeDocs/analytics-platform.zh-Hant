@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Funnel摩擦分析](https://video.tv.adobe.com/v/3421663/?quality=12&learn=onn){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Funnel摩擦分析](https://video.tv.adobe.com/v/3431278/?captions=chi_hant&quality=12&learn=onn){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
