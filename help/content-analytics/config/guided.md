@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+source-git-commit: 3e08fa116d3690cad450f92825bfd34023dbee24
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '4018'
 ht-degree: 62%
 
 ---
@@ -502,6 +502,16 @@ ht-degree: 62%
 
 
 ##### 標頭覆寫 {#web-header-overrides}
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_boldheader"
+>title="標頭覆寫"
+>abstract="**標頭覆寫**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_header"
+>title="標頭覆寫"
+>abstract="可繞過機器人偵測或流量閘口的進階功能。 Content Analytics 在呼叫您的端點時會包含自訂的 HTTP 標頭。"
 
 <!-- needs modification for mobile channel -->
 
