@@ -5,10 +5,27 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 8c4bd397aa2863c7365778cb545ec42d9b0f4528
+TQID: https://experienceleague.adobe.com/IM7-a-jp-lLfuGKj-CM2McnFXcus2-x-ffLC8UUKAmY
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 236959f0e060e35a285777f40b8d1ef90855ed5c
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 47%
+source-wordcount: 1438
+ht-degree: 46%
 
 ---
 
@@ -43,21 +60,25 @@ ht-degree: 47%
 
 ### 橫條圖（棧疊）和水準橫條圖（棧疊）
 
-{{release-limited-testing-section}}
-
 ![長條圖的Content Analytics縮圖](/help/content-analytics/assets/aca-bar-thumbnail.png)
-
 
 縮圖會作為圖例的一部分顯示在垂直軸或水平軸上。 當您將滑鼠游標停留在[橫條圖（棧疊）](/help/analysis-workspace/visualizations/bar.md)和[水準橫條圖（棧疊）](/help/analysis-workspace/visualizations/horizontal-bar.md)中的橫條圖上時，也會顯示縮圖。
 
 
 ### 散佈圖
 
-{{release-limited-testing-section}}
-
 ![散佈的Content Analytics縮圖](/help/content-analytics/assets/aca-scatter-thumbnail.png)
 
 當您將游標移至[散佈圖](/help/analysis-workspace/visualizations/scatterplot.md)中的資料點上時，會顯示縮圖。
+
+
+### 折線圖
+
+{{release-limited-testing-section}}
+
+第![&#128279;](/help/content-analytics/assets/aca-line-thumbnail.png)行的Content Analytics縮圖
+
+當您將游標停留在[行](/help/analysis-workspace/visualizations/line.md)中的資料點上時，會顯示縮圖。
 
 ## 預覽
 
