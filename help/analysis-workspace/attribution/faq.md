@@ -4,10 +4,15 @@ description: 取得歸因相關常見問題的解答。
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 873247c643b3be4bb561955af84dd4bbb4e1d81f
+TQID: https://experienceleague.adobe.com/AY9LM5Beia2e9FrGZ5gF3Ao6qVzIe3raOQuB9qP-rOg
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 2%
+source-wordcount: 186
+ht-degree: 6%
 
 ---
 
@@ -65,7 +70,7 @@ Attribution is recalculated at report runtime, so there is no difference between
 
 +++##歸因模型是否可用於Analytics的其他功能？
 
-是。歸因模型也可作為資料檢視中量度元件的元件設定的一部分使用。 請參閱[歸因元件設定](/help/data-views/component-settings/attribution.md)。 對於維度元件，您可以使用持續性。 持續性是指定維度值在其設定的事件之外歸因於量度的能力。 它使用配置和到期日的組合。 如需詳細資訊，請參閱[持續性元件設定](/help/data-views/component-settings/persistence.md)
+是。 歸因模型也可作為資料檢視中量度元件的元件設定的一部分使用。 請參閱[歸因元件設定](/help/data-views/component-settings/attribution.md)。 對於維度元件，您可以使用持續性。 持續性是指定維度值在其設定的事件之外歸因於量度的能力。 其使用配置和過期時間的組合。 如需詳細資訊，請參閱[持續性元件設定](/help/data-views/component-settings/persistence.md)
 
 +++
 

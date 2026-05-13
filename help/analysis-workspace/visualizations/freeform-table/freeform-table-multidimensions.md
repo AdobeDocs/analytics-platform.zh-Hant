@@ -4,9 +4,14 @@ description: 瞭解如何在自由格式表格中包含多個維度
 feature: Visualizations
 role: User
 exl-id: 66ebb4fc-feb2-4fa7-a107-37508cca4748
-source-git-commit: 39af20da14a5fb96fe01db31af5fc37b7e4aee16
+TQID: https://experienceleague.adobe.com/MD72IobkrYpNoI23FwpnLRWfdELY-X90iLF7FzTVMT8
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: 837
 ht-degree: 6%
 
 ---
@@ -40,7 +45,7 @@ ht-degree: 6%
 
 1. 在Analysis Workspace中建立自由表格。
 
-   如需詳細資訊，請參閱[視覺效果概述](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)中的[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
+   如需詳細資訊，請參閱[視覺效果概述](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)中的[將視覺效果新增至面板](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
 
 1. 新增維度至自由表格。 您可以一次新增一個維度，也可以一次新增多個維度。
 
@@ -50,7 +55,7 @@ ht-degree: 6%
 
    * 在元件選單中選取最多5個維度，然後將它們拖曳至自由表格。 維度會依照您選取它們的順序，從左到右新增至表格中。
 
-     若要選取多個維度，請按住&#x200B;***命令***&#x200B;鍵(在Mac上)或&#x200B;***Ctrl***&#x200B;鍵（在Windows上）。
+     若要選取多個維度，請按住&#x200B;***命令***&#x200B;鍵（在Mac上）或&#x200B;***Ctrl***&#x200B;鍵（在Windows上）。
 
      ![拖曳多個維度](assets/dimensions-add-multiple.png)
 

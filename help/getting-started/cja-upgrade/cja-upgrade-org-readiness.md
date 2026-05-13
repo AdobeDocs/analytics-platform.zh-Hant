@@ -4,16 +4,23 @@ description: 了解關於從 Adobe Analytics 升級至 Customer Journey Analytic
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
-source-git-commit: 7c0342a68f75774fd7b29979d3ce610f22d047ae
+exl-id: bd19250e-91c0-49f6-b6dc-3abd641344aa
+TQID: https://experienceleague.adobe.com/DtETa7Qh3l2X9YSjkX56zX8CmDTWVpGvvyrd9HFayt4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 8%
+source-wordcount: 1186
+ht-degree: 15%
 
 ---
 
-# 準備您的組織以升級至Customer Journey Analytics
+# 為您的組織做好升級至 Customer Journey Analytics 的準備
 
-成功升級的一部分(如[從Adobe Analytics升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)中所述)是專注在特定營運考量上準備您的組織。 若要準備您的組織，建議您：
+成功升級的一部分（如[從Adobe Analytics升級至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)中所述）是專注在特定營運考量上準備您的組織。 若要準備您的組織，建議您：
 
 * 獲得主要利害關係人的認同和認同
 
@@ -37,7 +44,7 @@ ht-degree: 8%
 
 | 功能 | 優點 | 範例 |
 |---------|----------|---------|
-| **[各種資料的容納](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)** | Customer Journey Analytics結合Experience Platform掌握各種資料結構和型別的能力。 | 零售組織可透過將下列型別的資料整合至單一檢視，提供完整客戶歷程的可見度： <ul><li>網路點按資料流交易</li><li>行動應用程式交易</li><li>店內交易</li><li>CRM和忠誠度資料</li></ul> |
+| **[各種資料的容納](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)** | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料結構描述和類型。 | 零售組織可透過將下列型別的資料整合至單一檢視，提供完整客戶歷程的可見度： <ul><li>網路點按資料流交易</li><li>行動應用程式交易</li><li>店內交易</li><li>CRM和忠誠度資料</li></ul> |
 | **[跨管道分析](/help/use-cases/cross-channel/cross-channel.md)** | 透過統一來自各種網路、行動和離線屬性的資料，啟用跨各種管道的客戶行為的單一整合檢視。 | 從多個管道收集資料的零售組織可以執行以下型別的分析：<p>購物者按一下付費搜尋廣告、線上上瀏覽牛仔褲、收到推播通知，然後兩天後在店內購買。 此統一的觀點可啟用精確的跨管道歸因，顯示數位接觸點對店內銷售的貢獻度。 此外，也支援更精確的細分，例如以「線上瀏覽、店內購買」的客製化優惠方案來鎖定客戶。 此外，它在一個儀表板中提供清晰、全管道的收入報告，以全面瞭解客戶行為來取代分散的、孤立的深入分析。 |
 | **[報告時間處理](/help/getting-started/aa-to-cja.md#get-comfortable-with-report-time-processing)** | 套用可追溯的設定，並建立多個版本的變數持續性，而無需變更基礎資料的收集方式。 | 由於Customer Journey Analytics可讓您即時建立及調整量度、維度和歸因模型，而不需重新擷取或重新處理資料，因此零售組織可瞭解最近的社交活動如何影響線上和店內銷售，而無須要求工程部門重建資料集。 他們可以立即將歸因模式從上次接觸變更為首次接觸或自訂規則型歸因。 |
 | **[Content Analytics](/help/content-analytics/content-analytics.md)** | 協助行銷人員瞭解內容如何影響企業已定義的關鍵績效指標。 除了行為資料之外，Content Analytics 還會收集關於內容使用方式和內容產生影響的資料。 | 透過整合網頁、應用程式、電子郵件，甚至店內資料，零售組織就能確切瞭解他們建立的每一項數位內容對客戶歷程和轉換的貢獻。 <p>零售組織可發現，熱門社群媒體平台上的「夏季牛仔布風格指南」可促進忠誠會員的高度參與，且這些會員在一週內店內購買牛仔布的可能性增加40%。</p> |
@@ -138,15 +145,14 @@ ht-degree: 8%
 
   以下資源可幫助您快速入門：
 
-   * [Customer Journey Analytics教學課程](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/overview)
+   * [Customer Journey Analytics 教學課程](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/overview)
 
-   * [什麼是 Customer Journey Analytics？](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
+   * [什麼是 Customer Journey Analytics？](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
 
-   * [Customer Journey Analytics簡介](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
+   * [Customer Journey Analytics 簡介](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
 
    * [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)
 
 ## 遵循建議的升級步驟
 
-當您準備好要開始升級程式時，請依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或《Customer Journey Analytics升級指南》中動態產生的升級步驟操作。 若要自 Customer Journey Analytics 存取指南，請選取「**[!UICONTROL 工作區]**」索引標籤，然後在左側面板中選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。接著按照畫面上的指示進行操作。
-
+當您準備好要開始升級程式時，請依照[建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations)或《Customer Journey Analytics升級指南》中動態產生的升級步驟操作。 若要自 Customer Journey Analytics 存取指南，請選取「**[!UICONTROL 工作區]**」索引標籤，然後在左側面板中選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。 接著按照畫面上的指示進行操作。

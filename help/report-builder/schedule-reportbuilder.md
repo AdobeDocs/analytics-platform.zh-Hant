@@ -6,9 +6,14 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
+TQID: https://experienceleague.adobe.com/hvK60b1ST9yjl9fz0kFnSncTRXtZQCYvDmLCUCP1Yik
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: 878
 ht-degree: 14%
 
 ---
@@ -17,14 +22,14 @@ ht-degree: 14%
 
 儲存活頁簿並完成分析後，您可以使用排程功能與團隊中的其他人共用活頁簿。 排程功能可讓您建立排程，自動重新整理活頁簿中的資料。 並在特定日期與時間，以電子郵件的形式將Excel活頁簿檔案傳送給指定對象。 設定排程會自動為收件者提供定期更新。 您也可以使用排程功能來傳送一次活頁簿，而不排程自動更新。
 
-您可以為單一活頁簿建立多個排程。例如，您可建立兩個排程，每天傳送活頁簿給團隊，每週傳送一次給經理。
+您可以為單一活頁簿建立多個排程。 例如，您可建立兩個排程，每天傳送活頁簿給團隊，每週傳送一次給經理。
 
 排程功能也可讓您設定活頁簿的密碼保護，以及編輯先前排程的活頁簿。
 
 
 >[!BEGINSHADEBOX]
 
-檢視![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [排程活頁簿](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/schedule-cja-workbooks-using-report-builder){target="_blank"}以取得示範影片。
+檢視![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [排程活頁簿](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/schedule-cja-workbooks-using-report-builder){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +70,7 @@ ht-degree: 14%
 
 1. (選用) 選取&#x200B;**[!UICONTROL 「將時間戳記附加到檔案名稱」]**。
 
-   您可以在檔案名稱附加時間戳記，以識別活頁簿的更新日期。時間戳記有助於檢視在特定日期傳送的活頁簿版本。 選取後，您可在以下兩者之間選擇：
+   您可以在檔案名稱附加時間戳記，以識別活頁簿的更新日期。 時間戳記有助於檢視在特定日期傳送的活頁簿版本。 選取後，您可在以下兩者之間選擇：
 
    * **[!UICONTROL ISO日期格式]**，這會導致`YYYY-MM-DD`附加至檔案名稱。
    * **[!UICONTROL ISO日期格式+時間戳記]**，結果會將`YYYY-MM-DD_HH-MM-SS`附加至檔案名稱。
@@ -88,9 +93,9 @@ Does no longer seem to be an option?
 
 ![排程電子郵件設定](assets/schedule-email.png){zoomable="yes"}
 
-1. 輸入&#x200B;**收件者**。您可以輸入組織中可辨識的人員名稱。 或者，您可以輸入組織外人員的電子郵件地址。
+1. 輸入&#x200B;**收件者**。 您可以輸入組織中可辨識的人員名稱。 或者，您可以輸入組織外人員的電子郵件地址。
 
-1. 輸入電子郵件的&#x200B;**主旨**&#x200B;以及收件者的說明。主旨預設為活頁簿檔案名稱，但您可以視需要修改主旨。您可以在說明區段中新增詳細資料。
+1. 輸入電子郵件的&#x200B;**主旨**&#x200B;以及收件者的說明。 主旨預設為活頁簿檔案名稱，但您可以視需要修改主旨。 您可以在說明區段中新增詳細資料。
 
 1. 您可以選擇在&#x200B;**[!UICONTROL 描述]**&#x200B;文字區域中輸入描述。
 
@@ -103,7 +108,7 @@ Does no longer seem to be an option?
 
 1. 選取&#x200B;**[!UICONTROL 顯示排程選項]**&#x200B;以定義排程。
 
-1. 輸入從&#x200B;**[!UICONTROL 開始的]**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
+1. 輸入從&#x200B;]**開始的**[!UICONTROL &#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
 
 1. 在&#x200B;**[!UICONTROL 結束日期]**&#x200B;中輸入結束日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選結束日期。
 

@@ -5,9 +5,15 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/8yBVFyHrc31-ac8XLV-aW-SWBfDZodlIXirICmdzpkY
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: 591
 ht-degree: 100%
 
 ---
@@ -85,7 +91,7 @@ ht-degree: 100%
 
 | Customer Journey Analytics 功能 | 函數 |
 |---------|----------|
-| [將網路資料與其他管道的資料 (例如呼叫中心資料) 連結起來](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料結構描述和類型。 使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)，能以統一方式呈現和組織資料，可進行組合和探索。 Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=zh-hant)的功能。 |
+| [將網路資料與其他管道的資料 (例如呼叫中心資料) 連結起來](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-usecases/cross-channel/cross-channel) | Customer Journey Analytics 可結合 Experience Platform 的功能，儲存各種資料結構描述和類型。 使用 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)，能以統一方式呈現和組織資料，可進行組合和探索。 Adobe Analytics 主要專注於 Web 和行動分析資料，並具有一些[匯入資料](https://experienceleague.adobe.com/docs/analytics/import/home.html?lang=zh-hant)的功能。 |
 | [使用自訂維度來拼接其他資料集中的點擊](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/overview) | Customer Journey Analytics 可讓您[組合多個報告套件的資料](/help/connections/combined-dataset.md)，如同 Adobe Analytics 中的單一報告套件。 |
 | [與 Adobe Real-time CDP 整合](/help/components/audiences/audiences-overview.md) | 您可以建立客群，並將於 Customer Journey Analytics 中所發現的[客群發佈](/help/components/audiences/audiences-overview.md)至 Adobe Experience Platform 中的 Real-Time Customer Profile，用於客戶目標選擇和個人化。 |
 | [與 Adobe Target (A4T) 整合](/help/integrations/at.md) | Customer Journey Analytics 中的目標選擇報告讓您可以直接在 Customer Journey Analytics 內[衡量及報告 Adobe Target 活動](/help/integrations/at.md)。 不過，針對個人化使用案例，Adobe 建議與 Adobe Journey Optimizer 整合。 |

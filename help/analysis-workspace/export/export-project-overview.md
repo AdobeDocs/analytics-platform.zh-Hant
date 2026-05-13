@@ -5,16 +5,20 @@ title: 如何匯出專案資料
 feature: Curate and Share
 exl-id: 3d467050-4bf0-4bdb-b7d2-eba67fbd526d
 role: User
-source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
+TQID: https://experienceleague.adobe.com/THoHVmp3vbNeG4C9teqfWmp8mpaHGBsda-zKSFaF8Is
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 299
 ht-degree: 100%
 
 ---
 
 # 匯出概觀
 
-您可以從 Analysis Workspace 匯出 Customer Journey Analytics 專案 (的一部分)。您可能基於多種原因想要匯出 Customer Journey Analytics 報告，例如在第三方工具中使用或與外部資料合併。
+您可以從 Analysis Workspace 匯出 Customer Journey Analytics 專案 (的一部分)。 您可能基於多種原因想要匯出 Customer Journey Analytics 報告，例如在第三方工具中使用或與外部資料合併。
 
 以下多個部分將說明支援的文件類型、可用&#x200B;來匯出的各種方法，以及每種方法的優點。
 
@@ -22,15 +26,15 @@ ht-degree: 100%
 
 您可以將 Customer Journey Analytics 報告匯出為 PDF、CSV 或 JSON 檔案。
 
-* **PDF：** 為您與利害關係人共用視覺效果資料提供的一種簡單方法。PDF 檔案包含專案中顯示的所有 (可見) 表格和視覺效果。
+* **PDF：** 為您與利害關係人共用視覺效果資料提供的一種簡單方法。 PDF 檔案包含專案中顯示的所有 (可見) 表格和視覺效果。
 
-* **CSV：** 允許您在試算表應用程式 (例如 Excel) 中查看原始資料。CSV 檔案包含純文字資料。
+* **CSV：** 允許您在試算表應用程式 (例如 Excel) 中查看原始資料。 CSV 檔案包含純文字資料。
 
 * **JSON：** 提供可共用資料的開放式標準文件格式。
 
 ## 匯出方法
 
-您要從 Analysis Workspace 匯出資料可以使用多種方法。選擇匯出方法時，請考慮您要匯出哪些資料，以及哪些人需要存取這些資料。
+您要從 Analysis Workspace 匯出資料可以使用多種方法。 選擇匯出方法時，請考慮您要匯出哪些資料，以及哪些人需要存取這些資料。
 
 | 匯出方法 | 如果您想要執行以下操作，請使用此方法： |
 |---------|----------|

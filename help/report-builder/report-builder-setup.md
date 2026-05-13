@@ -6,9 +6,14 @@ feature: Report Builder
 type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
-source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
+TQID: https://experienceleague.adobe.com/JAuvA8NU9j1Jx4bSw-JTHYF0c6mW249C6MWvzti-kB0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: 539
 ht-degree: 25%
 
 ---
@@ -31,7 +36,7 @@ ht-degree: 25%
 - 1904 或更新版本的 Windows 10
 - 2106 或更新版本的 Excel
 
-  所有 Windows 桌面版 Excel 使用者必須安裝 Microsoft Edge Webview2，才能使用此增益集。若要安裝：
+  所有 Windows 桌面版 Excel 使用者必須安裝 Microsoft Edge Webview2，才能使用此增益集。 若要安裝：
 
    1. 前往 <https://developer.microsoft.com/en-us/microsoft-edge/webview2/>。
    1. 選取並下載適合您平台的&#x200B;**[!UICONTROL Evergreen獨立安裝程式]**&#x200B;版本。
@@ -58,7 +63,7 @@ ht-degree: 25%
 
 1. 搜尋`Report Builder`並選取&#x200B;**[!UICONTROL 新增]**。
 
-1. 在[授權條款和隱私權原則]對話方塊中，選取[繼續]。**&#x200B;**
+1. 在[授權條款和隱私權原則]對話方塊中，選取[繼續]。****
 
 如果未顯示&#x200B;**[!UICONTROL 存放區]**&#x200B;索引標籤：
 
@@ -104,7 +109,7 @@ ht-degree: 25%
 
 1. 選取您登入時顯示的組織名稱。
 
-1. 從可用組織清單中選取一個組織。只會列出您有存取權限的組織。
+1. 從可用組織清單中選取一個組織。 只會列出您有存取權限的組織。
 
    ![您可以存取的組織清單。](./assets/image5.png){zoomable="yes"}
 

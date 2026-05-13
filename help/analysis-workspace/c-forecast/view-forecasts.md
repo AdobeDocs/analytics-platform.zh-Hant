@@ -4,10 +4,15 @@ title: 檢視預測
 feature: Visualizations
 role: User
 exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
-source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+TQID: https://experienceleague.adobe.com/fihJQOI-CyvGccQsB0VxvwR-iV0OkJSMENaiciYrgFc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: d13dba12-733d-4914-8d92-d643658bbe5d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 2%
+source-wordcount: 372
+ht-degree: 5%
 
 ---
 
@@ -17,7 +22,7 @@ ht-degree: 2%
 
 ## 在表格中檢視預測
 
-您可以在時間序列自由表格中檢視預測。 當[!UICONTROL 使用者偏好設定]中的自由格式表格啟用[顯示預測](../user-preferences.md)時，會自動顯示新增至表格的第一個量度資料行的預測。 對於任何其他欄：
+您可以在時間序列自由表格中檢視預測。 當[使用者偏好設定](../user-preferences.md)中的自由格式表格啟用[!UICONTROL 顯示預測]時，會自動顯示新增至表格的第一個量度資料行的預測。 對於任何其他欄：
 
 1. 在欄標題中選取欄設定圖示![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)，然後確定已在選項清單中選取&#x200B;**[!UICONTROL 顯示預測]**。 如需詳細資訊，請參閱[欄設定](../visualizations/freeform-table/column-row-settings/column-settings.md)。
 

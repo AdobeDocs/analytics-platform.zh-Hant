@@ -5,16 +5,21 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: ec56bc657961b2e4e8318ab14cd676288398462f
-workflow-type: ht
-source-wordcount: '1089'
+TQID: https://experienceleague.adobe.com/Jj2ZXUQocZs5QtKkDhEuySQjf1oR01uae9vcy6U4jxg
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+workflow-type: tm+mt
+source-wordcount: 1129
 ht-degree: 100%
 
 ---
 
 # 資料攝取概觀
 
-在將資料匯入 Customer Journey Analytics 時有許多種選項。有些選項能移動傳統 Adobe Analytics 資料，有些則能使用內嵌至 Adobe Experience Platform 的資料。
+在將資料匯入 Customer Journey Analytics 時有許多種選項。 有些選項能移動傳統 Adobe Analytics 資料，有些則能使用內嵌至 Adobe Experience Platform 的資料。
 
 >[!IMPORTANT]
 >
@@ -72,47 +77,47 @@ ht-degree: 100%
 
 ### 使用 Adobe Experience Platform Web SDK
 
-您想要使用 Adobe 技術分析您的網站，可能是從另一個解決方案移轉，或開始追蹤您個人的行為。您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
+您想要使用 Adobe 技術分析您的網站，可能是從另一個解決方案移轉，或開始追蹤您個人的行為。 您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。 接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
 請參閱[透過 Adobe Experience Platform Web SDK 攝取和使用資料](./aepwebsdk.md)，以了解更多資訊。
 
 ### 使用 Adobe Experience Platform Mobile SDK
 
-您想要使用 Adobe 技術分析您的行動應用程式，可能是從另一個解決方案移轉，或從頭開始追蹤應用程式的使用者行為。您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
+您想要使用 Adobe 技術分析您的行動應用程式，可能是從另一個解決方案移轉，或從頭開始追蹤應用程式的使用者行為。 您需要遵循 Adobe 的最佳實作方式 (使用 Adobe Experience Platform SDK 和 Edge Network) 來擷取資料。 接著，您就可以在 Customer Journey Analytics 中將擷取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
 請參閱[透過 Adobe Experience Platform Mobile SDK 攝取和使用資料](./aepmobilesdk.md)，以了解更多資訊。
 
 ### 使用 Adobe Experience Platform Edge Network Server API
 
-您想使用 Adobe 技術分析您的桌面應用程式、在遊戲機上玩的遊戲、機上盒影片串流應用程式的使用情況或您的 IoT 裝置。可能是從另一個解決方案移轉，或從頭開始追蹤這些裝置的使用者行為。您想要遵循 Adobe 實作的最佳做法 (使用 Adobe Experience Platform Edge Network Server API 和 Edge Network) 來攝取資料。接著，您就可以在 Customer Journey Analytics 中將攝取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
+您想使用 Adobe 技術分析您的桌面應用程式、在遊戲機上玩的遊戲、機上盒影片串流應用程式的使用情況或您的 IoT 裝置。 可能是從另一個解決方案移轉，或從頭開始追蹤這些裝置的使用者行為。 您想要遵循 Adobe 實作的最佳做法 (使用 Adobe Experience Platform Edge Network Server API 和 Edge Network) 來攝取資料。 接著，您就可以在 Customer Journey Analytics 中將攝取的資料與來自其他管道和資料來源的資料搭配使用、結合及分析。
 
 請參閱[透過 Adobe Experience Platform Edge Network Server API 攝取和使用資料](./serverapi.md)，以了解更多資訊。
 
 ## 擷取和使用批次資料
 
-您有相關的批次資料可提供詳細資訊，可協助您更了解客戶行為並分析客戶互動。此類批次資料的範例是來自 CRM 系統、忠誠度應用程式或其他解決方案 (Adobe 目前未提供來源連接器) 的 CSV、JSON 或 Parquet 格式的一般檔案。將此批次資料擷取至 Adobe Experience Platform，可讓您透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
+您有相關的批次資料可提供詳細資訊，可協助您更了解客戶行為並分析客戶互動。 此類批次資料的範例是來自 CRM 系統、忠誠度應用程式或其他解決方案 (Adobe 目前未提供來源連接器) 的 CSV、JSON 或 Parquet 格式的一般檔案。 將此批次資料擷取至 Adobe Experience Platform，可讓您透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
 
 如需詳細資訊，請參閱[擷取和使用批次資料](./batch.md)。
 
 ## 擷取和使用串流資料
 
-您有 CRM 系統、ERP 系統等相關資料來源，或任何其他提供詳細資訊的來源，可協助您更了解客戶行為並分析客戶互動。該資料來源可透過 HTTP 或公用雲端串流基礎架構進行通訊，但 Adobe 目前未提供來源連接器。即時將此串流資料擷取至 Adobe Experience Platform，可讓您透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
+您有 CRM 系統、ERP 系統等相關資料來源，或任何其他提供詳細資訊的來源，可協助您更了解客戶行為並分析客戶互動。 該資料來源可透過 HTTP 或公用雲端串流基礎架構進行通訊，但 Adobe 目前未提供來源連接器。 即時將此串流資料擷取至 Adobe Experience Platform，可讓您透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
 
 如需詳細資訊，請參閱[擷取和使用串流資料](./streaming.md)。
 
 ## 使用來源連接器擷取和使用資料
 
-來源連接器支援的來源中有資料可用。來源連接器是可配置的設定，可讓您將資料從 Adobe、第一方和第三方應用程式內嵌至 Adobe Experience Platform。如需可用來源連接器的概觀，請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-hant)。使用來源連接器，您可輕鬆將資料自來源擷取至 Adobe Experience Platform，接著透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
+來源連接器支援的來源中有資料可用。 來源連接器是可配置的設定，可讓您將資料從 Adobe、第一方和第三方應用程式內嵌至 Adobe Experience Platform。 如需可用來源連接器的概觀，請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-hant)。 使用來源連接器，您可輕鬆將資料自來源擷取至 Adobe Experience Platform，接著透過 Customer Journey Analytics 中其他管道和資料來源的資料來使用、合併及分析資料。
 
 如需詳細資訊，請參閱[使用來源連接器擷取和使用資料](./sources.md)。
 
 ## 攝取和使用臨時資料
 
-您擁有可用的臨時資料，其在 Experience Platform 中只需要單一資料集，並不需要設定體驗資料模型 (XDM) 結構描述。此情境稱為臨時結構描述。Experience Platform 的各種資料攝取工作流程皆會使用臨時結構描述，包括收錄 CSV 檔案和建立某種類型的來源連線。
+您擁有可用的臨時資料，其在 Experience Platform 中只需要單一資料集，並不需要設定體驗資料模型 (XDM) 結構描述。 此情境稱為臨時結構描述。 Experience Platform 的各種資料攝取工作流程皆會使用臨時結構描述，包括收錄 CSV 檔案和建立某種類型的來源連線。
 
 請參閱[攝取和使用臨時資料](./adhoc.md)
 
 >[!MORELIKETHIS]
 >
->部落格：[深入了解 Adobe Customer Journey Analytics 中的資料處理和攝取](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=zh-Hant)
+>部落格：[深入了解 Adobe Customer Journey Analytics 中的資料處理和攝取](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
 

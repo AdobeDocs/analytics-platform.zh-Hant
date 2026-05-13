@@ -6,13 +6,16 @@ feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: a18b628f02889911c7663c32f31ef3c3bec3cf2e
+TQID: https://experienceleague.adobe.com/SAoyiEbKE1Niv3uwBMNB-M3F7WcdBQ-Guzs2mkRKHLE
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 33%
+source-wordcount: 993
+ht-degree: 34%
 
 ---
-
 
 # 篩選器維度
 
@@ -22,7 +25,7 @@ ht-degree: 33%
 
 1. 在資料區塊中選取儲存格。
 
-1. 在![命令](/help/assets/icons/Edit.svg)面板中選取&#x200B;**[!UICONTROL 編輯]** **[!UICONTROL 編輯資料區塊]**。
+1. 在&#x200B;**[!UICONTROL 命令]**&#x200B;面板中選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料區塊]**。
 
 1. 選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以顯示&#x200B;**[!UICONTROL 維度]**&#x200B;索引標籤。
 
@@ -42,7 +45,7 @@ ht-degree: 33%
 
 1. Report Builder 會顯示通知，以確認新增的篩選器。
 
-若要顯示已套用的篩選器，可將滑鼠游標停留在維度上。包含已套用篩選器的維度會在維度名稱旁顯示![篩選器](/help/assets/icons/Filter.svg)篩選器圖示。
+若要顯示已套用的篩選器，可將滑鼠游標停留在維度上。 包含已套用篩選器的維度會在維度名稱旁顯示![篩選器](/help/assets/icons/Filter.svg)篩選器圖示。
 
 ## 變更篩選器和排序的順序
 
@@ -54,7 +57,7 @@ ht-degree: 33%
 
 若要變更用於篩選和排序資料區塊的量度：
 
-1. 將滑鼠游標停留在「表格產生器」中所需的量度元件上，即可顯示更多選項。 
+1. 將滑鼠游標停留在「表格產生器」中所需的量度元件上，即可顯示更多選項。
 
 2. 選取![向下箭頭](/help/assets/icons/ArrowDown.svg)作為偏好量度。
 
@@ -75,7 +78,7 @@ ht-degree: 33%
 
 #### 「頁面」和「列數」選項
 
-利用&#x200B;**[!UICONTROL 頁面]**&#x200B;和&#x200B;**[!UICONTROL 列數]**&#x200B;欄位，將資料分割成循序群組或頁面。此功能可讓您將排名的列值而不是最高的值提取到您的報表中。 在提取超過50,000列上限的資料時，此外掛程式特別實用。
+利用&#x200B;**[!UICONTROL 頁面]**&#x200B;和&#x200B;**[!UICONTROL 列數]**&#x200B;欄位，將資料分割成循序群組或頁面。 此功能可讓您將排名的列值而不是最高的值提取到您的報表中。 在提取超過50,000列上限的資料時，此外掛程式特別實用。
 
 頁面的預設值為`1`，而列的預設值為`10`。 這些預設值表示每個頁面有10列資料。 頁面 1 會傳回前 10 個項目，而頁面 2 則傳回接下來的 10 個項目，以此類推。
 
@@ -94,12 +97,12 @@ ht-degree: 33%
 |       | 最小值 | 最大值 |
 |-------|---------------:|---------------:|
 | 起始頁面 | 1 | 5千萬 |
-| 列數 | 1 | 50,000 |
+| 行數 | 1 | 50,000 |
 
 
 #### 包括「無值」
 
-在Customer Journey Analytics中，某些維度會收集&#x200B;*沒有值*&#x200B;專案。 **[!UICONTROL 包含「沒有值」]**&#x200B;設定可讓您從報表中排除這些值。 例如，您可以根據產品 SKU 金鑰建立「產品名稱」之類的分類。如果特定產品SKU尚未以其特定「產品名稱」分類設定，其「產品名稱」值會設為&#x200B;*無值*。
+在Customer Journey Analytics中，某些維度會收集&#x200B;*沒有值*&#x200B;專案。 **[!UICONTROL 包含「沒有值」]**&#x200B;設定可讓您從報表中排除這些值。 例如，您可以根據產品 SKU 金鑰建立「產品名稱」之類的分類。 如果特定產品SKU尚未以其特定「產品名稱」分類設定，其「產品名稱」值會設為&#x200B;*無值*。
 
 預設會選取&#x200B;**[!UICONTROL 包含[沒有值]]**。 取消選取此選項，即可排除包含無值的輸入項。
 
@@ -123,7 +126,7 @@ ht-degree: 33%
 
 ### **[!UICONTROL 特定]**
 
-**[!UICONTROL 特定]**&#x200B;選項可讓您為每個維度建立固定的維度專案清單。 使用&#x200B;**[!UICONTROL 特定]**&#x200B;篩選類型，即可指定包含您的篩選條件的精確維度項目。您可從清單或是儲存格範圍選取項目。
+**[!UICONTROL 特定]**&#x200B;選項可讓您為每個維度建立固定的維度專案清單。 使用&#x200B;**[!UICONTROL 特定]**&#x200B;篩選類型，即可指定包含您的篩選條件的精確維度項目。 您可從清單或是儲存格範圍選取項目。
 
 ![特定選項和選取的專案。](./assets/image32.png){zoomable="yes"}
 

@@ -5,10 +5,16 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0e9dc47b80db142801a94dcbf31470d99a610949
+TQID: https://experienceleague.adobe.com/qEgO-lqYk8ipVP99IBazrKAb7Jer-AN96-PY-f1KdPQ
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 28%
+source-wordcount: 1443
+ht-degree: 24%
 
 ---
 
@@ -34,26 +40,27 @@ ht-degree: 28%
 
 
 
-1. 在「**[!UICONTROL 元件]**」標籤上，將「**[!UICONTROL 頁面標題]**」拖曳至「**[!UICONTROL 包含的元件]**」下的「[!UICONTROL Metrics]」區段。
-1. 反白標示您剛才拖曳的量度，並將其重新命名為`Orders`元件設定&#x200B;**[!UICONTROL 中的]**
+1. 在「**[!UICONTROL 元件]**」標籤上，將「**[!UICONTROL 頁面標題]**」拖曳至「[!UICONTROL 包含的元件]」下的「**[!UICONTROL Metrics]**」區段。
+1. 反白標示您剛才拖曳的量度，並將其重新命名為&#x200B;**[!UICONTROL 元件設定]**&#x200B;中的`Orders`
 1. 開啟&#x200B;**[!UICONTROL 包含/排除值]**&#x200B;區段並指定下列專案：
    1. 啟用&#x200B;**[!UICONTROL 設定包含排除值]**。
    1. 從&#x200B;**[!UICONTROL 符合]**&#x200B;中選取&#x200B;**[!UICONTROL 如果所有條件都符合]**。
-   1. 指定`confirmation`。 **[!UICONTROL page_title]**&#x200B;的文字表示此頁面與下訂單有關。 在檢閱符合這些條件的所有頁面標題後，每個執行個體都會計算`1`。 此結果是新量度（而非計算量度）。具有包含/排除值的量度可用於任何其他量度的任何地方。 這些量度可與歸因、區段搭配使用，以及您可使用標準量度的其他任何地方。
+   1. 指定`confirmation`。 **[!UICONTROL page_title]**&#x200B;的文字表示此頁面與下訂單有關。 在檢閱符合這些條件的所有頁面標題後，每個執行個體都會計算`1`。 結果為新量度（而非計算量度）。 具有包含/排除值的量度可用於任何其他量度也可使用的地方。 這些量度可與歸因、區段搭配使用，以及您可使用標準量度的其他任何地方。
 
    ![Dimension至量度](../assets/string-to-metric.gif){width=100%}
-1. 您可以進一步指定此量度的歸因模型，例如 「[!UICONTROL 上次接觸]」，並具有「[!UICONTROL 工作階段]」的 [!UICONTROL 「回顧」視窗]。您也可以從相同欄位建立另一個[!UICONTROL 訂單]量度，並指定不同的歸因模型。 例如[!UICONTROL 首次接觸]，以及不同的[!UICONTROL 回顧期間]，例如[!UICONTROL 30天]。
+1. 您可以進一步指定此量度的歸因模型，例如 「[!UICONTROL 上次接觸]」，並具有「[!UICONTROL 工作階段]」的 [!UICONTROL 「回顧」視窗]。
+您也可以從相同欄位建立另一個[!UICONTROL 訂單]量度，並指定不同的歸因模型。 例如[!UICONTROL 首次接觸]，以及不同的[!UICONTROL 回顧期間]，例如[!UICONTROL 30天]。
 
 另一個範例是使用人員ID維度當做量度，以判斷貴公司有多少人員ID。
 
 ## 將整數作為維度使用 {#integers}
 
-過去，整數會自動被視為Customer Journey Analytics中的量度。 現在，數字 (包括 Adobe Analytics 的自訂事件) 可被視為維度。其範例如下：
+過去，整數會自動被視為Customer Journey Analytics中的量度。 現在，數字 (包括 Adobe Analytics 的自訂事件) 可被視為維度。 其範例如下：
 
 
 
-1. 將&#x200B;**[!UICONTROL 期間]**&#x200B;整數拖曳至&#x200B;**[!UICONTROL 包含的元件]**&#x200B;下的[!UICONTROL 維度]區段：
-1. 您現在可以新增「**[!UICONTROL 值分組]**」，在報告中以分組方式呈現此維度。若未進行分組，此維度的每個例項都會顯示為Workspace報告中的條列專案。
+1. 將&#x200B;**[!UICONTROL 期間]**&#x200B;整數拖曳至[!UICONTROL 包含的元件]下的&#x200B;**[!UICONTROL 維度]**&#x200B;區段：
+1. 您現在可以新增「**[!UICONTROL 值分組]**」，在報告中以分組方式呈現此維度。 若未進行分組，此維度的每個例項都會顯示為Workspace報告中的條列專案。
    ![整數至維度](../assets/integer-to-dimension.gif){width=100%}
 
 
@@ -61,7 +68,7 @@ ht-degree: 28%
 
 您可以使用數值維度，將量度放入您的[!UICONTROL 流量]視覺效果中。
 
-1. 在「資料檢視[元件](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將「行銷管道」結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。
+1. 在「資料檢視[元件](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將「行銷管道」]結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。[!UICONTROL 
 2. 在工作區報表中，此流量顯示流入[!UICONTROL 訂單]的[!UICONTROL 行銷管道]:
 
 ![行銷管道流量從電子郵件到結束/訂單。](../assets/flow.png)
@@ -72,14 +79,14 @@ ht-degree: 28%
 
 例如，使用資料檢視中的包含/排除功能，僅聚焦於產生的銷售額超過$50美元的產品。 因此，如果您的訂單包括$50的產品購買和$25的產品購買，則包含/排除功能會移除$25的產品購買，而非整個訂單。
 
-1. 在「資料檢視[元件](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將&#x200B;**[!UICONTROL 收入]**&#x200B;結構欄位拖曳至[!UICONTROL 包含的元件]下的&#x200B;**[!UICONTROL 量度]**&#x200B;區域。
-1. 選取量度並在右側設定下列項目：
-a.在&#x200B;**[!UICONTROL Format]**&#x200B;下，選擇&#x200B;**[!UICONTROL Currency]**。
-b.在&#x200B;**[!UICONTROL 貨幣]**&#x200B;下，選取&#x200B;**[!UICONTROL USD]**。
-c.在&#x200B;**[!UICONTROL 包含/排除值]**&#x200B;下，選取&#x200B;**[!UICONTROL 設定包含/排除值]**&#x200B;旁的核取方塊。
-d.在&#x200B;**[!UICONTROL Match]**&#x200B;下，選擇&#x200B;**[!UICONTROL 如果所有條件都滿足]**。
-e.在&#x200B;**[!UICONTROL 條件]**&#x200B;下，選擇&#x200B;**[!UICONTROL 大於或等於]**。
-f.指定`50`作為值。
+1. 在「資料檢視[元件](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將&#x200B;**[!UICONTROL 收入]**&#x200B;結構欄位拖曳至[!UICONTROL 包含的元件]下的&#x200B;**[!UICONTROL 量度]**&#x200B;區域。
+1. 選取量度並在右側設定下列專案：
+a. 在**[!UICONTROL 格式]**&#x200B;下，選取&#x200B;**[!UICONTROL 貨幣]**。
+b. 在**[!UICONTROL 貨幣]**&#x200B;下，選取&#x200B;**[!UICONTROL USD]**。
+c. 在**[!UICONTROL 包含/排除值]**&#x200B;下，選取&#x200B;**[!UICONTROL 設定包含/排除值]**旁的核取方塊。
+d. 在**[!UICONTROL 符合]**&#x200B;下，選取&#x200B;**[!UICONTROL 如果符合所有條件]**。
+e. 在**[!UICONTROL 條件]**&#x200B;下，選取&#x200B;**[!UICONTROL 大於或等於]**。
+f. 指定`50`作為值。
 
 這些新設定可讓您檢視僅限高收入的資料，並篩選掉低於 $50 美元的所有資料。
 
@@ -98,7 +105,8 @@ f.指定`50`作為值。
 
 ![重複不同歸因設定的量度](../assets/duplicate-metric-for-attribution.gif){width=100%}
 
-有關其他資料檢視設定的詳細資訊，請參閱「[建立資料檢視](/help/data-views/create-dataview.md)」。有關資料檢視的概念性概觀，請參閱「[資料檢視概觀](/help/data-views/data-views.md)」。
+有關其他資料檢視設定的詳細資訊，請參閱「[建立資料檢視](/help/data-views/create-dataview.md)」。
+有關資料檢視的概念性概觀，請參閱「[資料檢視概觀](/help/data-views/data-views.md)」。
 
 ## 新工作階段和回訪工作階段報告 {#new-repeat}
 
@@ -106,15 +114,15 @@ f.指定`50`作為值。
 
 * 您的訂單中有多少百分比來自新工作階段或回訪工作階段？
 
-* 對於指定的行銷管道或特定行銷活動，您是針對首次使用者還是回訪使用者？這項選擇如何影響轉換率？
+* 對於指定的行銷管道或特定行銷活動，您是針對首次使用者還是回訪使用者？ 這項選擇如何影響轉換率？
 
 有一個維度和兩個指標能協助此報告：
 
-* [工作階段型別](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-reference) — 此維度有兩個值： [!UICONTROL 新的]和[!UICONTROL 回訪]。 [!UICONTROL 新]條列專案包含已確定為個人定義的首次工作階段的工作階段中的所有行為（亦即針對此維度的量度）。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
+* [工作階段型別](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) — 此維度有兩個值： [!UICONTROL 新的]和[!UICONTROL 回訪]。 [!UICONTROL 新]條列專案包含已確定為個人定義的首次工作階段的工作階段中的所有行為（亦即針對此維度的量度）。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。
 
-* [首次工作階段](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-reference)。 首次工作階段量度定義為個人在報告時段內定義的首次工作階段。
+* [首次工作階段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference)。 首次工作階段量度定義為個人在報告時段內定義的首次工作階段。
 
-* [回訪工作階段](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-reference)回訪工作階段量度是非個人首次工作階段的工作階段數量。—>
+* [回訪工作階段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference)回訪工作階段量度是非個人首次工作階段的工作階段數量。—>
 
 若要存取元件：
 
@@ -129,11 +137,11 @@ f.指定`50`作為值。
 
 ## 使用日期和日期-時間功能 {#date}
 
-Adobe Experience Platform 中的結構描述包含「[!UICONTROL 日期]」和「[!UICONTROL 日期-時間]」欄位。Customer Journey Analytics資料檢視現在支援這些欄位。 將這些欄位做為維度拖曳至資料檢視時，您可以指定其[格式](/help/data-views/component-settings/format.md)。 此格式設定決定欄位如何在報告中顯示。例如：
+Adobe Experience Platform 中的結構描述包含「[!UICONTROL 日期]」和「[!UICONTROL 日期-時間]」欄位。 Customer Journey Analytics資料檢視現在支援這些欄位。 將這些欄位做為維度拖曳至資料檢視時，您可以指定其[格式](/help/data-views/component-settings/format.md)。 此格式設定決定欄位如何在報告中顯示。 例如：
 
 * 就日期格式而言，如果您選取格式為&#x200B;**[!UICONTROL 月、日、年]**&#x200B;的&#x200B;**[!UICONTROL 日]**，報告的範例輸出可能會是這樣：August 23, 2022。
 
-* 就日期 — 時間格式而言，如果您選取格式為&#x200B;**[!UICONTROL 小時]**&#x200B;的&#x200B;**[!UICONTROL 分鐘:Minute]**，您的輸出可能會是這樣：20:20。
+* 就日期 — 時間格式而言，如果您選取格式為&#x200B;**[!UICONTROL 小時:Minute]**&#x200B;的&#x200B;**[!UICONTROL 分鐘]**，您的輸出可能會是這樣：20:20。
 
 支援1900年1月1日之後的日期（1970年1月1日除外）和2000年1月1日之後的日期時間值00:00:00。
 

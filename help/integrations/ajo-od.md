@@ -4,9 +4,14 @@ description: 導入 Adobe Journey Optimizer 決策管理產生的資料，並使
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/kSBDrh6xQ-vi59JbirhxURFLIiG3BNQWeBZFJgygaG8
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: 753
 ht-degree: 100%
 
 ---
@@ -14,25 +19,25 @@ ht-degree: 100%
 # 整合決策管理
 
 
-Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant)透過集中行銷產品建議資料庫和決策引擎來輕鬆實現個人化；該決策引擎會將規則和限制套用至 Adobe Experience Platform 建立的豐富即時輪廓，協助您在適當的時間向客戶傳送適合的產品建議。
+Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)透過集中行銷產品建議資料庫和決策引擎來輕鬆實現個人化；該決策引擎會將規則和限制套用至 Adobe Experience Platform 建立的豐富即時輪廓，協助您在適當的時間向客戶傳送適合的產品建議。
 
-決策管理是 Adobe Journey Optimizer 的一部分，且與其整合。它也可以在 Adobe Journey Optimizer 定義的歷程和行銷活動以外獨立使用，從而運用其豐富的 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html?lang=zh-Hant) 支援。
+決策管理是 Adobe Journey Optimizer 的一部分，且與其整合。 它也可以在 Adobe Journey Optimizer 定義的歷程和行銷活動以外獨立使用，從而運用其豐富的 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html) 支援。
 
 您可以匯入決策管理產生的資料，以透過以下步驟在 Customer Journey Analytics 中執行進階分析：
 
 ## 將資料從決策管理傳送到 Adobe Experience Platform
 
-Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Customer Journey Analytics 之間的連結。來自決策管理的資料是在 Experience Platform 中&#x200B;**自動**&#x200B;收集，或作為&#x200B;**明確傳送體驗事件** (例如曝光次數或點擊次數) 來收集。請參閱[開始使用資料收集](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=zh-Hant)以了解更多詳細資料。
+Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Customer Journey Analytics 之間的連結。 來自決策管理的資料是在 Experience Platform 中&#x200B;**自動**&#x200B;收集，或作為&#x200B;**明確傳送體驗事件** (例如曝光次數或點擊次數) 來收集。 請參閱[開始使用資料收集](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html)以了解更多詳細資料。
 
 ## 建立連線
 
-決策管理資料導入 Adobe Experience Platform 後，您就可以根據決策管理資料集建立[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant)。您也可以將決策管理資料集新增到現有連線。
+決策管理資料導入 Adobe Experience Platform 後，您就可以根據決策管理資料集建立[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant)。 您也可以將決策管理資料集新增到現有連線。
 
 選取並設定以下資料集：
 
 | 資料集 | 資料集類型 | 連線設定 | 說明 |
 | --- | --- | --- | --- |
-| ODE 決策事件 - _沙箱_&#x200B;決策 | 事件 | 人員 ID：`IdentityMap` | 包含針對決策管理決策事件自動產生的資料。_沙箱_&#x200B;是指特定的沙箱名稱。 |
+| ODE 決策事件 - _沙箱_&#x200B;決策 | 事件 | 人員 ID：`IdentityMap` | 包含針對決策管理決策事件自動產生的資料。 _沙箱_&#x200B;是指特定的沙箱名稱。 |
 | Adobe Journey Optimizer 訊息意見回饋事件資料集 | 事件 | 人員 ID：`IdentityMap` | 包含訊息傳送事件。 |
 | Adobe Journey Optimizer 電子郵件追蹤體驗事件資料集 | 事件 | 人員 ID：`IdentityMap` | 包含電子郵件追蹤事件。 |
 | Adobe Journey Optimizer 推播追蹤體驗事件資料集 | 事件 | 人員 ID：`IdentityMap` | 包含推播追蹤事件。 |
@@ -42,15 +47,15 @@ Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Cu
 
 ## 建立資料視圖
 
-建立連線後，您可以建立一或多個[資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant)，以設定可在 Customer Journey Analytics 中使用的所需維度和量度。
+在建立連線後，您可以建立一個或多個[資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)來設定 Customer Journey Analytics 中可用的所需維度和量度。
 
 >[!NOTE]
 >
->Adobe Journey Optimizer 和 Customer Journey Analytics 之間的資料差異通常小於 1 到 2%。過去兩小時內收集的資料可能存在較大差異。使用不包括今天的日期範圍來減少與處理時間有關的差異。
+>Adobe Journey Optimizer 和 Customer Journey Analytics 之間的資料差異通常小於 1 到 2%。 過去兩小時內收集的資料可能存在較大差異。 使用不包括今天的日期範圍來減少與處理時間有關的差異。
 
 ### 設定維度
 
-您可以在資料視圖中建立以下維度，以實現與決策管理中類似維度的近似同位。請參閱資料檢視管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關維度自訂選項的詳細資料。
+您可以在資料視圖中建立以下維度，以實現與決策管理中類似維度的近似同位。 請參閱資料檢視管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關維度自訂選項的詳細資料。
 
 | 維度 | 結構描述元素 | 元件設定 |
 | --- | --- | --- |
@@ -66,7 +71,7 @@ Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Cu
 
 ### 設定度量
 
-您可以在資料視圖中建立以下量度，以實現與決策管理中類似量度的近似同位。請參閱資料視圖管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關量度自訂選項的詳細資料。
+您可以在資料視圖中建立以下量度，以實現與決策管理中類似量度的近似同位。 請參閱資料視圖管理器中的[元件設定](/help/data-views/component-settings/overview.md)，以取得有關量度自訂選項的詳細資料。
 
 | 量度 | 說明 | 結構描述元素 | 元件設定 |
 | --- | --- | --- | --- |
@@ -82,4 +87,4 @@ Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Cu
 
 {style="table-layout:auto"}
 
-[1] 您可以為各種可用事件類型定義多個量度。請參閱[包含排除值元件設定](/help/data-views/component-settings/include-exclude-values.md)以了解更多資訊。
+[1] 您可以為各種可用事件類型定義多個量度。 請參閱[包含排除值元件設定](/help/data-views/component-settings/include-exclude-values.md)以了解更多資訊。

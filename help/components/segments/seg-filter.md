@@ -4,9 +4,14 @@ title: 篩選區段
 feature: Filters, Segments
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+TQID: https://experienceleague.adobe.com/Xyft76mCwW-VD9zI6rUDbbGDTnbAsd55hjLQjdhyje0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: 168
 ht-degree: 29%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 29%
 
 若要篩選區段清單：
 
-1. 選取![Filter](/help/assets/icons/Filter.svg)開啟「篩選」面板。如果您需要更多空間顯示篩選清單，可以再次選取![Filter](/help/assets/icons/Filter.svg)來關閉面板。
+1. 選取![Filter](/help/assets/icons/Filter.svg)開啟「篩選」面板。 如果您需要更多空間顯示篩選清單，可以再次選取![Filter](/help/assets/icons/Filter.svg)來關閉面板。
 1. 從任何可用的[篩選器區段](#filter-sections)中選取篩選器。
 
    >[!INFO]
@@ -39,7 +44,7 @@ ht-degree: 29%
 
 {{tagfiltersection}}
 
-### 資料檢視
+### 資料視圖
 
 {{dataviewfiltersection}}
 

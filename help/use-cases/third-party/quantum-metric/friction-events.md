@@ -5,9 +5,14 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
+TQID: https://experienceleague.adobe.com/mJkJFAjgA0UNGgzwLLfIPrs1Z-GGByvS8f3B16CANeg
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: 685
 ht-degree: 1%
 
 ---
@@ -34,11 +39,11 @@ Quantum Metric會收集頁面載入緩慢、頁面載入錯誤、範圍點選等
 1. 在右側，輸入所需的[!UICONTROL 名稱]。 例如，`qmErrorName`。
 1. 輸入所需的[!UICONTROL 顯示名稱]。 例如，`Quantum Metric error name`。
 1. 選取[!UICONTROL Type]作為&#x200B;**[!UICONTROL String]**。
-1. 選取「**[!UICONTROL 儲存]**」。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 步驟2：使用量度標籤擴充功能擷取摩擦事件
 
-如需如何設定標籤以包含Quantum量度資料的指示，請參閱Adobe Experience Platform目的地指南中的[Quantum量度延伸模組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/analytics/quantum-metric)。 使用此擴充功能可將更多列傳入現有資料集。
+如需如何設定標籤以包含Quantum量度資料的指示，請參閱Adobe Experience Platform目的地指南中的[Quantum量度延伸模組](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)。 使用此擴充功能可將更多列傳入現有資料集。
 
 使用Adobe Experience Platform資料彙集中的標籤來手動設定摩擦事件的名稱，以便將其納入XDM物件中並加以分析。 其中一個方法是使用規則的自訂程式碼：
 

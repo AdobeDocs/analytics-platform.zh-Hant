@@ -5,9 +5,15 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
 role: Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/Rzq3IeZudRcTRC60v2RsijL-g-rno7xPS6Lc5jZlMbs
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: 1497
 ht-degree: 100%
 
 ---
@@ -24,13 +30,13 @@ ht-degree: 100%
 
   當您限制後續請求時，該動作將記錄在[稽核記錄](/help/privacy/audit-log.md)中且行動名稱為 EMBARGO。
 
-* 如果請求的&#x200B;[!UICONTROL **使用者**]&#x200B;欄顯示為「[!UICONTROL **無法識別**]」。當此情況發生時，表示使用者處於您並無管理權限的登入公司。
+* 如果請求的&#x200B;[!UICONTROL **使用者**]&#x200B;欄顯示為「[!UICONTROL **無法識別**]」。 當此情況發生時，表示使用者處於您並無管理權限的登入公司。
 
 有關報告活動管理員的更多資訊 (包括關鍵優勢和權限需求)，請參閱[報告活動管理員概觀](/help/reporting-activity-manager/reporting-activity-overview.md)。
 
 ## 取消特定請求
 
-您可以取消消耗大量報告容量的個別請求。取消請求時，您可以選擇在特定時間段內進一步限制。
+您可以取消消耗大量報告容量的個別請求。 取消請求時，您可以選擇在特定時間段內進一步限制。
 
 1. 在 Customer Journey Analytics 中，前往「**[!UICONTROL 工具]** > **[!UICONTROL 報告活動管理員]**」。
 
@@ -46,7 +52,7 @@ ht-degree: 100%
 
    將顯示「[!UICONTROL **取消&#x200B;_十_ 報告請求**]」對話框。
 
-1. 取消訊息欄位顯示在取消使用者請求時所顯示的訊息。提供預設訊息。您可以更新預設訊息以提供更多詳細資訊。
+1. 取消訊息欄位顯示在取消使用者請求時所顯示的訊息。 提供預設訊息。 您可以更新預設訊息以提供更多詳細資訊。
 
 1. (可選) 若要限制指定時段的未來請求：
 
@@ -61,17 +67,17 @@ ht-degree: 100%
       | [!UICONTROL **使用者與專案**] | 與所選請求關聯的使用者將暫時被限制，無法執行關聯專案的報告請求。 |
       | [!UICONTROL **使用者**] | 與所選請求關聯的使用者將暫時被限制提出任何報告請求。 |
       | [!UICONTROL **專案**] | 與所選請求關聯的專案將暫時被限制執行所有報告請求。 |
-      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!-- double-check this --><p>設定限制後，您無法提前移除限制。</p> |
+      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!-- double-check this --><p>設定限制後，您無法提前移除限制。</p> |
 
       {style="table-layout:auto"}
 
 1. 請選取「[!UICONTROL **繼續取消**]」。
 
-   Analysis Workspace 中會顯示一則通知，告知使用者請求已刪除。有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
+   Analysis Workspace 中會顯示一則通知，告知使用者請求已刪除。 有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
 
 ## 取消使用者請求
 
-您可以取消與一個或多個使用者相關的所有請求。取消與使用者相關的請求時，您可以選擇在特定時間內進一步限制該使用者的請求。
+您可以取消與一個或多個使用者相關的所有請求。 取消與使用者相關的請求時，您可以選擇在特定時間內進一步限制該使用者的請求。
 
 1. 在 Customer Journey Analytics 中，前往「**[!UICONTROL 工具]** > **[!UICONTROL 報告活動管理員]**」。
 
@@ -87,7 +93,7 @@ ht-degree: 100%
 
    顯示來自 x 位使用者的「[!UICONTROL **取消 _x_ 個報告請求**]」對話框。
 
-1. 取消訊息欄位顯示在取消使用者請求時所顯示的訊息。提供預設訊息。您可以更新預設訊息以提供更多詳細資訊。
+1. 取消訊息欄位顯示在取消使用者請求時所顯示的訊息。 提供預設訊息。 您可以更新預設訊息以提供更多詳細資訊。
 
 1. (可選) 若要限制指定時段的未來請求：
 
@@ -102,17 +108,17 @@ ht-degree: 100%
       | [!UICONTROL **使用者與專案**] | 所選的使用者將暫時被限制，無法對關聯專案提出任何報告請求。 <p>此為限制最少的選項。</p> |
       | [!UICONTROL **使用者**] | 所選的使用者將暫時被限制，無法提出任何報告請求。 |
       | [!UICONTROL **專案**] | 與所選使用者關聯的專案將被限制，無法由任何使用者提出任何報告請求。 |
-      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
+      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
 
       {style="table-layout:auto"}
 
 1. 請選取「[!UICONTROL **繼續取消**]」。
 
-   Analysis Workspace 中會顯示一則通知，告知使用者請求已刪除。有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
+   Analysis Workspace 中會顯示一則通知，告知使用者請求已刪除。 有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
 
 ## 根據專案取消請求
 
-您可以取消與一個或多個專案相關的所有請求。取消與專案相關的請求時，您可以選擇在指定時段內進一步限制與該專案相關的請求。
+您可以取消與一個或多個專案相關的所有請求。 取消與專案相關的請求時，您可以選擇在指定時段內進一步限制與該專案相關的請求。
 
 1. 在 Customer Journey Analytics 中，前往「**[!UICONTROL 工具]** > **[!UICONTROL 報告活動管理員]**」。
 
@@ -128,7 +134,7 @@ ht-degree: 100%
 
    顯示來自 x 個專案的「[!UICONTROL **取消 _x_ 個報告請求**]」對話框。
 
-1. 取消訊息欄位顯示在取消使用者請求時所顯示的訊息。提供預設訊息。您可以更新預設訊息以提供更多詳細資訊。
+1. 取消訊息欄位顯示在取消使用者請求時所顯示的訊息。 提供預設訊息。 您可以更新預設訊息以提供更多詳細資訊。
 
 1. (可選) 若要限制指定時段的未來請求：
 
@@ -143,17 +149,17 @@ ht-degree: 100%
       | [!UICONTROL **使用者與專案**] | 所選的專案將暫時被限制，無法由關聯使用者提出任何報告請求。<p>此為限制最少的選項。</p> |
       | [!UICONTROL **使用者**] | 與所選專案關聯的使用者將被限制，無法提出任何報告請求。 |
       | [!UICONTROL **專案**] | 將暫時限制選取的專案，無法由任何使用者提出任何報告請求。 |
-      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
+      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
 
       {style="table-layout:auto"}
 
 1. 請選取「[!UICONTROL **繼續取消**]」。
 
-   Analysis Workspace 中會顯示一則通知，告知使用者請求已刪除。有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
+   Analysis Workspace 中會顯示一則通知，告知使用者請求已刪除。 有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
 
 ## 根據應用程式取消請求
 
-您可以取消與一個或多個應用程式相關的所有請求。取消與應用程式相關的請求時，您可以選擇在指定時段內進一步限制與該應用程式相關的請求。
+您可以取消與一個或多個應用程式相關的所有請求。 取消與應用程式相關的請求時，您可以選擇在指定時段內進一步限制與該應用程式相關的請求。
 
 包括下列應用程式：
 
@@ -184,7 +190,7 @@ ht-degree: 100%
 
    顯示來自 x 個專案的「[!UICONTROL **取消 _x_ 個報告請求**]」對話框。
 
-1. 取消訊息欄位顯示在取消使用者請求時所顯示的訊息。提供預設訊息。您可以更新預設訊息以提供更多詳細資訊。
+1. 取消訊息欄位顯示在取消使用者請求時所顯示的訊息。 提供預設訊息。 您可以更新預設訊息以提供更多詳細資訊。
 
 1. (可選) 若要限制指定時段的未來請求：
 
@@ -199,13 +205,13 @@ ht-degree: 100%
       | [!UICONTROL **使用者與專案**] | 將暫時限制選取的應用程式，無法由相關使用者和專案提出任何報告請求。<p>此為限制最少的選項。</p> |
       | [!UICONTROL **使用者**] | 將限制與選取應用程式相關的使用者，無法提出任何報告請求。 |
       | [!UICONTROL **專案**] | 將限制與選取應用程式相關的專案，無法由任何使用者提出任何報告請求。 |
-      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
+      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
 
       {style="table-layout:auto"}
 
 1. 請選取「[!UICONTROL **繼續取消**]」。
 
-   應用程式中 (例如在 Analysis Workspace) 會顯示一則通知，告知使用者已取消此請求。有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
+   應用程式中 (例如在 Analysis Workspace) 會顯示一則通知，告知使用者已取消此請求。 有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
 
 ## 使用者存取已取消的報告之體驗
 

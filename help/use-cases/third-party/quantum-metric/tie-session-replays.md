@@ -5,9 +5,15 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
+TQID: https://experienceleague.adobe.com/GEH0qD9G2uRs36-yzWjUbfH8VdSezkhUffcDuDQcsfw
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: 843
 ht-degree: 2%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 2%
 
 這些步驟假設您使用Adobe Experience Platform資料彙集中的標籤。 如果您的組織未使用標籤，您可以將這些資料收集方法調整為手動Web SDK實施。
 
-如需詳細資訊，請參閱[Quantum量度標籤延伸功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/analytics/quantum-metric)檔案。
+如需詳細資訊，請參閱[Quantum量度標籤延伸功能](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric)檔案。
 
 ## 步驟1：建立結構欄位以容納量度工作階段ID
 
@@ -33,7 +39,7 @@ ht-degree: 2%
 1. 在右側，輸入所需的[!UICONTROL 名稱]。 例如，`qmSessionId`。
 1. 輸入所需的[!UICONTROL 顯示名稱]。 例如，`Quantum Metric session ID`。
 1. 選取[!UICONTROL Type]作為&#x200B;**[!UICONTROL String]**。
-1. 選取「**[!UICONTROL 儲存]**」。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 步驟2：使用量度標籤擴充功能擷取Quantum量度工作階段ID
 
@@ -58,7 +64,7 @@ ht-degree: 2%
    if (qmLocalStorage?.s != null) return qmLocalStorage.s;
    ```
 
-1. 選取「**[!UICONTROL 儲存]**」。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 步驟3：將資料元素對應至所需的XDM結構描述欄位
 
@@ -67,7 +73,7 @@ ht-degree: 2%
 1. 在標籤屬性中，選取&#x200B;**[!UICONTROL 資料元素]**，然後選取用來容納XDM物件的資料元素。
 1. 在此資料元素的右欄，導覽至建立結構欄位時建立的路徑。
 1. 將值設為百分比符號包住的資料元素名稱。 例如，`%Quantum Metric session ID%`。
-1. 選取「**[!UICONTROL 儲存]**」。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 1. 新增程式庫，然後將變更發佈至生產環境。
 
 如果您的XDM物件已包含在傳送事件動作設定中，則會在變更發佈後開始看到資料。
@@ -85,7 +91,7 @@ ht-degree: 2%
 1. 選取所需的現有資料檢視。
 1. 在左側找到「量度工作階段ID」欄位，並將其拖曳至中央的維度區域。
 1. 在右窗格中，將[持續性](/help/data-views/component-settings/persistence.md)設定設為`Session`。
-1. 選取「**[!UICONTROL 儲存]**」。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 步驟4：設定Analysis Workspace以容納工作階段ID維度
 

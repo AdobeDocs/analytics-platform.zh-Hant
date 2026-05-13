@@ -4,19 +4,25 @@ title: 常見問題集
 feature: Workspace Basics
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+TQID: https://experienceleague.adobe.com/du11O3yd0xzclZjuMCKOguewZ6K600w2q-BnGn-7sh4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: f21d8c43-b886-433b-93ea-5982cbfc16b7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: 232
 ht-degree: 100%
 
 ---
 
-# 常見問題
+# 常見問題集
 
 | 問題 | 回答 |
 |--- |--- |
-| **使用 Analysis Workspace 的先決條件為何？** | 在 Customer Journey Analytics 中使用 Analysis Workspace 時，需要運作中的 Customer Journey Analytics 實作。請確認貴組織將資料傳送至 Adobe Experience Platform，再開始使用此應用程式。 |
+| **使用 Analysis Workspace 的先決條件為何？** | 在 Customer Journey Analytics 中使用 Analysis Workspace 時，需要運作中的 Customer Journey Analytics 實作。 請確認貴組織將資料傳送至 Adobe Experience Platform，再開始使用此應用程式。 |
 | **Analysis Workspace 的管理和存取需求為何？** | 請參閱[管理需求](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。 |
-| **使用 Analysis Workspace 是否會影響資料收集？** | Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到 Workspace 專案中，了解哪一種組合適合自己。如果您意外將無效的元件拖曳到 Workspace 專案中，或者想要返回之前的步驟，請按下 *Ctrl+Z* (Windows) 或 *Cmd+Z* (MacOS)，來還原上一次執行的動作。您也可以使用空白顯示窗開始操作。為此，請從 Workspace 選單中選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 新建]**。 |
-| **如何實作 Analysis Workspace？** | 不需要特別實施。 可以存取 Customer Journey Analytics 的所有公司皆可使用 Analysis Workspace。但是將套用內容的標準權限 (例如專案元件)，以及適用於組織和共用專案。 請參閱[管理和存取需求](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。 |
+| **使用 Analysis Workspace 是否會影響資料收集？** | Analysis Workspace 是報表工具，對於資料收集沒有影響。 任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。 您可以將不同的維度與量度組合拖曳到 Workspace 專案中，了解哪一種組合適合自己。 如果您意外將無效的元件拖曳到 Workspace 專案中，或者想要返回之前的步驟，請按下 *Ctrl+Z* (Windows) 或 *Cmd+Z* (MacOS)，來還原上一次執行的動作。 您也可以使用空白顯示窗開始操作。 為此，請從 Workspace 選單中選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 新建]**。 |
+| **如何實作 Analysis Workspace？** | 不需要特別實施。 可以存取 Customer Journey Analytics 的所有公司皆可使用 Analysis Workspace。 但是將套用內容的標準權限 (例如專案元件)，以及適用於組織和共用專案。 請參閱[管理和存取需求](/help/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。 |
 | **如何最佳化 Analysis Workspace 的效能？** | 請參閱[效能最佳化](/help/technotes/optimizing-performance.md)。 |

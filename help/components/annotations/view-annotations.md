@@ -4,10 +4,15 @@ description: 瞭解如何在Analysis Workspace中檢視註解。
 role: User
 feature: Components
 exl-id: c0e4fb37-b20c-463c-b29a-310ca3adb2c7
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+TQID: https://experienceleague.adobe.com/9BgN7yumKsO-0--9-VFhpg7rPKJfNWtW7dXHWANFmtM
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 86%
+source-wordcount: 214
+ht-degree: 85%
 
 ---
 
@@ -19,9 +24,9 @@ ht-degree: 86%
 
 | 視覺化呈現<br/>類型 | 說明 |
 | --- | --- |
-| **折線圖&#x200B;**<br/>**單日** | 當您在折線圖視覺化呈現中選取![Annotate](/help/assets/icons/Annotate.svg)時，您會看到一個包含註解詳細資訊的快顯視窗。<br/>![Annotation single day](assets/annotation-single-day.png)<br/>如要在[註解產生器](create-annotations.md#annotation-builder) 中編輯註解，選取![Edit](/help/assets/icons/Edit.svg)。若要刪除註解，請選取![Delete](/help/assets/icons/Delete.svg)。 |
-| **折線圖&#x200B;**<br/>**日期範圍** | 當您選取![AnnotateRange](/help/assets/icons/AnnotateRange.svg)時，您會看到一個快顯視窗，其中包含註解詳細資訊，及底部有一行指示日期範圍。<br/>![Annotation range](assets/annotation-range.png)如要在[註解產生器](create-annotations.md#annotation-builder) 中編輯註解，選取![Edit](/help/assets/icons/Edit.svg)。若要刪除註解，請選取![Delete](/help/assets/icons/Delete.svg)。 |
-| **自由格式表格** | 在自由格式表格中，您可以透過視覺效果右上方的註解按鈕存取所有註解。選取![Annotate](/help/assets/icons/Annotate.svg)以查看所有註解 (滾動清單)。<br/>![Annotations table](assets/annotations-table.png)<br/>對於每個註解，您可以選取![Edit](/help/assets/icons/Edit.svg)在[註解產生器](create-annotations.md#annotation-builder)中編輯註解和![Delete](/help/assets/icons/Delete.svg)以刪除註解。 |
+| **折線圖&#x200B;**<br/>**單日** | 當您在折線圖視覺化呈現中選取![Annotate](/help/assets/icons/Annotate.svg)時，您會看到一個包含註解詳細資訊的快顯視窗。<br/>![Annotation single day](assets/annotation-single-day.png)<br/>如要在[註解產生器](create-annotations.md#annotation-builder) 中編輯註解，選取![Edit](/help/assets/icons/Edit.svg)。 若要刪除註解，請選取![Delete](/help/assets/icons/Delete.svg)。 |
+| **折線圖&#x200B;**<br/>**日期範圍** | 當您選取![AnnotateRange](/help/assets/icons/AnnotateRange.svg)時，您會看到一個快顯視窗，其中包含註解詳細資訊，及底部有一行指示日期範圍。<br/>![Annotation range](assets/annotation-range.png)如要在[註解產生器](create-annotations.md#annotation-builder) 中編輯註解，選取![Edit](/help/assets/icons/Edit.svg)。 若要刪除註解，請選取![Delete](/help/assets/icons/Delete.svg)。 |
+| **自由格式表格** | 在自由格式表格中，您可以透過視覺效果右上方的註解按鈕存取所有註解。 選取![Annotate](/help/assets/icons/Annotate.svg)以查看所有註解 (滾動清單)。<br/>![Annotations table](assets/annotations-table.png)<br/>對於每個註解，您可以選取![Edit](/help/assets/icons/Edit.svg)在[註解產生器](create-annotations.md#annotation-builder)中編輯註解和![Delete](/help/assets/icons/Delete.svg)以刪除註解。 |
 
 {style="table-layout:auto"}
 

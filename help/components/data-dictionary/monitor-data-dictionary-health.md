@@ -1,17 +1,22 @@
 ---
-description: 管理員負責監控資料字典的健康狀況。這包括元件是否正在收集資料、獲得核准、包含特定說明，以及沒有重複。
-title: 監視資料字典健康狀況
+description: 管理員負責監控資料字典的健康狀況。 這包括元件是否正在收集資料、獲得核准、包含特定說明，以及沒有重複。
+title: 監視資料字母排序健康狀況
 feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+TQID: https://experienceleague.adobe.com/RKh01bcmVkoZ2wkHDvBM-oX9rRagVaOqK4fn2A-IpaI
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df28738e-9c71-4aa8-929e-edde22340cc6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: 242
 ht-degree: 78%
 
 ---
 
-# 監視資料字典健康狀況
+# 監視資料字母排序健康狀況
 
 Customer Journey Analytics管理員負責維護健康的資料字典。
 
@@ -33,7 +38,7 @@ Customer Journey Analytics管理員負責維護健康的資料字典。
 
 1. 開啟 Analysis Workspace 專案。
 
-1. 選取 Analysis Workspace 左邊的資料字典圖示。(存取資料字典的替代方法說明請見[資料字典概觀](/help/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」。)
+1. 選取 Analysis Workspace 左邊的資料字典圖示。 (存取資料字典的替代方法說明請見[資料字典概觀](/help/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」。)
 
    顯示資料字典視窗。
 
@@ -51,4 +56,4 @@ Customer Journey Analytics管理員負責維護健康的資料字典。
 
    視您選取的專案而定，會將適當的區段套用至資料字典，並僅顯示相關元件。
 
-1. 編輯任何元件以提升資料字典的健康狀況。有關如何在資料字典中編輯元件的資訊，請參閱[在資料字典中編輯元件條目](/help/components/data-dictionary/edit-entries-data-dictionary.md)。
+1. 編輯任何元件以提升資料字典的健康狀況。 有關如何在資料字典中編輯元件的資訊，請參閱[在資料字典中編輯元件條目](/help/components/data-dictionary/edit-entries-data-dictionary.md)。

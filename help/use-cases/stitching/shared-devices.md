@@ -5,10 +5,15 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/jNezzaav7-Ee6aELr9ZtEB-y55kobChii-6NpCDL8sg
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 6%
+source-wordcount: 726
+ht-degree: 16%
 
 ---
 
@@ -22,7 +27,7 @@ ht-degree: 6%
 
 當兩個人使用相同裝置且都進行驗證購買時，範例事件資料可能如下所示：
 
-| 事件 | 時間戳記 | 頁面名稱 | 裝置ID | 電子郵件 |
+| 事件 | 時間戳記 | 頁面名稱 | 裝置 ID | 電子郵件 |
 |--:|---|---|---|---|
 | 1 | 2023-05-12 12:01 | 首頁 | `1234` | |
 | 2 | 2023-05-12 12:02 | 產品頁面 | `1234` | |
@@ -49,11 +54,11 @@ The order success (purchase) events assign the data accurately to the correct em
 
 ### 上次驗證歸因
 
-上次驗證會將共用裝置中的所有未知活動，歸因於上次驗證的使用者。 Experience Platform Identity Service會根據上次驗證歸因建立圖表，因此會用於圖表式拚接。 如需詳細資訊，請參閱[身分圖表連結規則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details)。
+上次驗證會將共用裝置中的所有未知活動，歸因於上次驗證的使用者。 Experience Platform Identity Service會根據上次驗證歸因建立圖表，因此會用於圖表式拚接。 如需詳細資訊，請參閱[身分圖表連結規則](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details)。
 
 彙整使用上次驗證歸因時，彙整ID會解決問題，如下表所示。
 
-| 時間戳記 | 頁面名稱 | 裝置ID | 電子郵件 | 拼接的 ID |
+| 時間戳記 | 頁面名稱 | 裝置 ID | 電子郵件 | 拼接的 ID |
 |---|---|---|---|---|
 | 2023-05-12 12:01 | 首頁 | `1234` | | `cassidy@a.com` |
 | 2023-05-12 12:02 | 產品頁面 | `1234` | | `cassidy@a.com` |
@@ -69,7 +74,7 @@ The order success (purchase) events assign the data accurately to the correct em
 
 在拼接中使用裝置分割歸因時，拼接ID會解析，如下表所示。
 
-| 時間戳記 | 頁面名稱 | 裝置ID | 電子郵件 | 拼接的 ID |
+| 時間戳記 | 頁面名稱 | 裝置 ID | 電子郵件 | 拼接的 ID |
 |---|---|---|---|---|
 | 2023-05-12 12:01 | 首頁 | `1234` | | `ryan@a.com` |
 | 2023-05-12 12:02 | 產品頁面 | `1234` | | `ryan@a.com` |

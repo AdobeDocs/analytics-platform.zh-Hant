@@ -4,14 +4,19 @@ description: 了解如何在 Customer Journey Analytics 中管理客群
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/SVEj1knpMzmtkIlwAYSb6o0PYBR9wf7JbrLMcMM2V8g
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: 774
 ht-degree: 95%
 
 ---
 
-# 管理發布的對象
+# 管理已發佈的客群
 
 可以使用「**[!UICONTROL 元件]** > **[!UICONTROL 客群]**」在 Customer Journey Analytics 中管理客群。
 
@@ -20,12 +25,12 @@ ht-degree: 95%
 管理先前建立的客群可讓您：
 
 * 為自動客群重新整理/更新進行&#x200B;**排程或取消排程**。 排程的最長期限為 1 年。
-* 在客群更新排程快過期時，**續訂該排程。**。系統處理即將過期客群的方法與即將過期的排程報告相似，管理員會在排程過期前的一個月收到電子郵件。
+* 在客群更新排程快過期時，**續訂該排程。**。 系統處理即將過期客群的方法與即將過期的排程報告相似，管理員會在排程過期前的一個月收到電子郵件。
 * 查看&#x200B;**重新整理間隔**&#x200B;和&#x200B;**上次更新客群的時間**
-* 透過 Customer Journey Analytics 洞察&#x200B;**吸引客群所需時間**。以及讓客群出現在 Real-time Customer Platform 以達到啟動目的所需的時間。
-* 查看 **Real-time Customer Platform** 是否會積極使用 Customer Journey Analytics 中的客群。或 (理想情況下) 任何使用由 Customer Journey Analytics 所建立客群的 Experience Platform 應用程式。
+* 透過 Customer Journey Analytics 洞察&#x200B;**吸引客群所需時間**。 以及讓客群出現在 Real-time Customer Platform 以達到啟動目的所需的時間。
+* 查看 **Real-time Customer Platform** 是否會積極使用 Customer Journey Analytics 中的客群。 或 (理想情況下) 任何使用由 Customer Journey Analytics 所建立客群的 Experience Platform 應用程式。
 
-如果您有[客群檢視](/help/technotes/access-control.md#user-level-access)的存取權限，就可以查看客群。如果您有[客群建立](/help/technotes/access-control.md#user-level-access)的存取權限，您就可以編輯和刪除客群。
+如果您有[客群檢視](/help/technotes/access-control.md#user-level-access)的存取權限，就可以查看客群。 如果您有[客群建立](/help/technotes/access-control.md#user-level-access)的存取權限，您就可以編輯和刪除客群。
 
 ## 在客群清單中檢視客群
 
@@ -45,7 +50,7 @@ ht-degree: 95%
 
    | 欄 | 說明 |
    | --- | --- |
-   | ![SelectBox](/help/assets/icons/SelectBox.svg) | 當選取一個或多個客群時，客群介面底部會出現一個藍色操作欄。如需詳細資訊，請參閱「[操作](#actions)」。 |
+   | ![SelectBox](/help/assets/icons/SelectBox.svg) | 當選取一個或多個客群時，客群介面底部會出現一個藍色操作欄。 如需詳細資訊，請參閱「[操作](#actions)」。 |
    | **[!UICONTROL 標題和說明]** | 您建立客群時輸入的標題和說明。 |
    | **[!UICONTROL 資料檢視]** | 建立此客群的資料檢視。 |
    | **[!UICONTROL 客群規模]** | 此客群的總人數。 |
@@ -58,7 +63,7 @@ ht-degree: 95%
 
 ## 編輯客群
 
-您可以隨時編輯客群設定。當您編輯客群 (一次性客群或定期客群) 時，需要重新發佈。
+您可以隨時編輯客群設定。 當您編輯客群 (一次性客群或定期客群) 時，需要重新發佈。
 
 若要編輯客群：
 
@@ -70,19 +75,19 @@ ht-degree: 95%
 
    會顯示&#x200B;**[!UICONTROL 編輯客群]**&#x200B;對話框。
 
-1. 您可以更新客群的任何可用欄位。關於您可以更新之欄位的資訊，請參閱[建立及發佈客群](/help/components/audiences/publish.md)文章中的[客群產生器](/help/components/audiences/publish.md#audience-builder)。
+1. 您可以更新客群的任何可用欄位。 關於您可以更新之欄位的資訊，請參閱[建立及發佈客群](/help/components/audiences/publish.md)文章中的[客群產生器](/help/components/audiences/publish.md#audience-builder)。
 
 1. 選取「**[!UICONTROL 重新發佈]**」。
 
 ## 動作
 
-下列是「已排程的專案管理員」中的常見動作。您可以從內容選單中選取操作：
+下列是「已排程的專案管理員」中的常見動作。 您可以從內容選單中選取操作：
 
 | 圖示 | 動作 | 說明 |
 |:---:|---|---|
-| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。在&#x200B;**[!UICONTROL 「更新」標記中：*客群名稱&#x200B;*]**&#x200B;對話框中，從下拉式選單中選取標記，或輸入一個或多個新標記。選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
+| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。 在&#x200B;**[!UICONTROL 「更新」標記中：*客群名稱&#x200B;*]**對話框中，從下拉式選單中選取標記，或輸入一個或多個新標記。 選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選取的客群。 |
-| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名選取的客群。使用「**[!UICONTROL 重新命名」：「*客群名稱&#x200B;*]**」對話框來重新命名客群，然後選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
+| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名選取的客群。 使用「**[!UICONTROL 重新命名」：「*客群名稱&#x200B;*]**」對話框來重新命名客群，然後選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 
 選取一個或多個已排程專案時，可以從藍色操作列執行下列操作。
 
@@ -94,15 +99,15 @@ ht-degree: 95%
 
 ## 篩選客群清單
 
-您可以使用篩選面板[來篩選](#audiences-list)對象清單➋。 若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
+您可以使用篩選面板➋來篩選[對象清單](#audiences-list)。 若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
 
 ![客群管理員](assets/audiences-manager.png)
 
 篩選器面板由以下部分組成。
 
-### 資料檢視
+### 資料視圖
 
-| 資料檢視 | 說明 |
+| 資料視圖 | 說明 |
 |---|---|
 | ![所有者](/help/components/audiences/assets/audiences-filter-dataviews.png){width="300"} | 「**[!UICONTROL 資料檢視]**」部分可讓您篩選資料檢視。 <ul><li>您可以使用「![搜尋](/help/assets/icons/Search.svg)」來搜尋您想要用來篩選的資料檢視。</li><li>您可以選取多個資料檢視。</li></ul> |
 

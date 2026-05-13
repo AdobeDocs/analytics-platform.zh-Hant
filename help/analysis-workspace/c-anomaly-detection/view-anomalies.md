@@ -4,13 +4,17 @@ title: 檢視異常
 feature: Anomaly Detection
 exl-id: a76fd967-e4ae-4616-83ce-19de67300f0c
 role: User
-source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+TQID: https://experienceleague.adobe.com/LnQBV8OMK6D1tg1JgnBKARqYvKgAGqDME3vGpsmgJ0E
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: 433
 ht-degree: 46%
 
 ---
-
 
 # 檢視異常
 
@@ -18,7 +22,7 @@ ht-degree: 46%
 
 ## 在表格中檢視異常 {#section_869A87B92B574A38B017A980ED8A29C5}
 
-您可以在時間序列自由表格中檢視異常。
+您可以在時間序列自由格式表格中檢視異常。
 
 1. 在欄標題中選取![設定](/help/assets/icons/Setting.svg)，然後確定已在選項清單中選取&#x200B;**[!UICONTROL 顯示異常]**&#x200B;選項。 如需詳細資訊，請參閱[欄設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)。
 
@@ -28,7 +32,7 @@ ht-degree: 46%
 
    偵測到資料異常的每一列右上角都會顯示◥。
 
-   每一列&#x200B;**中的**&#x200B;彩色垂直線➋表示預期的值。 每一列&#x200B;**中的**&#x200B;彩色陰影區域➊表示實際值。 線條 (預期值) 與陰影區域 (實際值) 的比較方式會決定是否有異常。 （根據[異常偵測所使用的統計技術](/help/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中所述的進階統計技術，將觀察視為異常。）
+   每一列➋中的&#x200B;**彩色垂直線**&#x200B;表示預期的值。 每一列➊中的&#x200B;**彩色陰影區域**&#x200B;表示實際值。 線條 (預期值) 與陰影區域 (實際值) 的比較方式會決定是否有異常。 （根據[異常偵測所使用的統計技術](/help/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中所述的進階統計技術，將觀察視為異常。）
 
 1. 選取資料列右上角的◥以檢視有關異常的詳細資訊。 這會顯示實際值高於或低於預期值的偏離程度 (以百分比表示)。
 
@@ -48,9 +52,9 @@ ht-degree: 46%
 
    ![偵測到異常的線條視覺效果](assets/anomaly-detected-line.png)
 
-   **白點**&#x200B;會顯示在偵測到資料異常的位置。（根據[異常偵測所使用的統計技術](/help/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中所述的進階統計技術，將觀察視為異常。）
+   **白點**&#x200B;會顯示在偵測到資料異常的位置。 （根據[異常偵測所使用的統計技術](/help/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中所述的進階統計技術，將觀察視為異常。）
 
-   此&#x200B;**淺色陰影區域**&#x200B;是信賴範圍或預期範圍，值應發生的位置。任何超出此預期範圍的值都是異常。
+   此&#x200B;**淺色陰影區域**&#x200B;是信賴範圍或預期範圍，值應發生的位置。 任何超出此預期範圍的值都是異常。
 
    如果折線圖中有多個量度，系統只會顯示異常值，您必須將滑鼠移到每個異常值上方，才能查看該量度的信賴帶。
 

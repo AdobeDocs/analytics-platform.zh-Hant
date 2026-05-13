@@ -5,10 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: b54083d85c0e07605c567a8d44824884cdc18c4d
+TQID: https://experienceleague.adobe.com/ST-1vL8gbeSqaYYHakxjYWcDOryNucEVHiONAQk7gU4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '5014'
-ht-degree: 15%
+source-wordcount: 4858
+ht-degree: 16%
 
 ---
 
@@ -50,7 +56,7 @@ ht-degree: 15%
 | 17 | 321行銷活動 | 20 | 2500 | def321 | facebook | def-adgroup | 2024-07-18T18:20:39.000Z |
 | 18 | 321行銷活動 | 15 | 2250 | ghi321 | facebook | ghi-adgroup | 2024-07-18T18:20:39.000Z |
 
-[![資料下載](/help/assets/icons/DataDownload.svg)](./assets/summary-data.csv)
+[![DataDownload](/help/assets/icons/DataDownload.svg)下載樣本摘要資料](./assets/summary-data.csv)
 
 +++
 
@@ -249,7 +255,7 @@ ht-degree: 15%
 | 2024-07-18T19:15:39+00:00 | 178 | 確認頁面 | person-142def654 |  | 1 | 174.25 |
 | 2024-07-18T19:15:39+00:00 | 179 | 首頁 | person-143ghi654 | ghi654 |  |  |
 
-[![資料下載](/help/assets/icons/DataDownload.svg)](./assets/event-data.csv)
+[![資料下載](/help/assets/icons/DataDownload.svg)下載範例事件資料](./assets/event-data.csv)
 
 +++
 
@@ -278,7 +284,7 @@ ht-degree: 15%
 | 17 | def321 | def-adgroup | 321行銷活動 |
 | 18 | ghi321 | ghi-adgroup | 321行銷活動 |
 
-[![資料下載](/help/assets/icons/DataDownload.svg)](./assets/lookup-data.csv)
+[![DataDownload](/help/assets/icons/DataDownload.svg)下載範例查閱資料](./assets/lookup-data.csv)
 +++
 
 >[!INFO]
@@ -293,7 +299,7 @@ ht-degree: 15%
 
 若要在Experience Platform中建立摘要結構：
 
-1. 選取&#x200B;**[!UICONTROL Experience Platform]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
+1. 從![應用程式](/help/assets/icons/Apps.svg)應用程式切換器中選取&#x200B;**[!UICONTROL Experience Platform]**。
 1. 從左側邊欄選取&#x200B;**[!UICONTROL 結構描述]**。
 1. 選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 建立結構描述]**。
 1. 在&#x200B;**[!UICONTROL 建立結構描述]**&#x200B;對話方塊中選取&#x200B;**[!UICONTROL 手動]**。 然後使用&#x200B;**[!UICONTROL 選取]**&#x200B;以繼續。
@@ -305,12 +311,12 @@ ht-degree: 15%
 
 新增包含範例資料欄位的欄位群組：
 
-1. 選取![欄位群組](/help/assets/icons/AddCircle.svg)中的&#x200B;**[!UICONTROL AddCircle]** **[!UICONTROL Add]**。
+1. 選取&#x200B;**[!UICONTROL 欄位群組]**&#x200B;中的![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]**。
 1. 在&#x200B;**[!UICONTROL 新增欄位群組]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 建立新欄位群組]**。
 1. 輸入欄位群組的&#x200B;**[!UICONTROL 顯示名稱]**，例如`Example Summary Data`。 選擇性地提供說明。
 1. 選取&#x200B;**[!UICONTROL 「新增欄位群組」]**。
 1. 回到架構結構使用者介面。 在&#x200B;**[!UICONTROL 欄位群組]**&#x200B;中選取新的&#x200B;**[!UICONTROL 範例摘要資料]**。
-1. 選取結構描述名稱![範例摘要資料結構描述](/help/assets/icons/AddCircle.svg)旁的&#x200B;**[!UICONTROL AddCircle]**。 會開啟&#x200B;**[!UICONTROL 欄位屬性]**&#x200B;面板，讓您新增欄位的詳細資料。
+1. 選取結構描述名稱&#x200B;**[!UICONTROL 範例摘要資料結構描述]**&#x200B;旁的![AddCircle](/help/assets/icons/AddCircle.svg)。 會開啟&#x200B;**[!UICONTROL 欄位屬性]**&#x200B;面板，讓您新增欄位的詳細資料。
    1. 輸入&#x200B;**[!UICONTROL 欄位名稱]**： `campaign_id`
    1. 輸入&#x200B;**[!UICONTROL 顯示名稱]**： `campaign_id`
    1. 從&#x200B;**[!UICONTROL 選取資料型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 型別]**： **[!UICONTROL 字串]**
@@ -342,7 +348,7 @@ ht-degree: 15%
 
 若要建立資料集：
 
-1. 選取&#x200B;**[!UICONTROL Experience Platform]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
+1. 從![應用程式](/help/assets/icons/Apps.svg)應用程式切換器中選取&#x200B;**[!UICONTROL Experience Platform]**。
 1. 從左側邊欄選取&#x200B;**[!UICONTROL 資料集]**。
 1. 選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 建立資料集]**。
 1. 在&#x200B;**[!UICONTROL 資料集]** > **[!UICONTROL 建立資料集]**&#x200B;畫面中，選取&#x200B;**[!UICONTROL 從結構描述建立資料集]**。
@@ -356,7 +362,7 @@ ht-degree: 15%
 
 若要將範例資料上傳至此資料集：
 
-1. 選取&#x200B;**[!UICONTROL Experience Platform]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
+1. 從![應用程式](/help/assets/icons/Apps.svg)應用程式切換器中選取&#x200B;**[!UICONTROL Experience Platform]**。
 1. 從左側邊欄選取&#x200B;**[!UICONTROL 工作流程]**。
    1. 從&#x200B;**[!UICONTROL 工作流程]**&#x200B;畫面中的&#x200B;**[!UICONTROL 資料擷取]**&#x200B;選項中選取&#x200B;**[!UICONTROL 將CSV對應至XDM結構描述]**。
    1. 從&#x200B;**[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;面板中選取&#x200B;**[!UICONTROL 啟動]**。
@@ -369,7 +375,7 @@ ht-degree: 15%
    1. 請確定&#x200B;**[!UICONTROL 資料格式]**&#x200B;和&#x200B;**[!UICONTROL 分隔符號]**&#x200B;確實具有您範例資料的正確值。 例如，**[!UICONTROL 已分隔]**&#x200B;為&#x200B;**[!UICONTROL 資料格式]**，而&#x200B;**[!UICONTROL ，]**&#x200B;為&#x200B;**[!UICONTROL 分隔符號]**。
    1. 摘要資料的範例（10筆記錄）會顯示在&#x200B;**[!UICONTROL 範例資料]**&#x200B;中。
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
-1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 對應]**&#x200B;步驟中：
+1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 對應]**步驟中：
    ![範例資料集對應](../assets/example-dataset-mapping.png)
    1. 檢查&#x200B;**[!UICONTROL Source資料]**&#x200B;的所有資料欄位是否正確對應到結構描述中對應的&#x200B;**[!UICONTROL 目標欄位]**。 對於範例資料，不會報告錯誤，因為您明確命名了結構描述中的欄位，類似於範例資料中的欄位名稱。 否則，您可以使用此畫面來更正對應。
    1. 您可以選擇選取![齒輪](/help/assets/icons/Gear.svg) **[!UICONTROL 驗證]**&#x200B;以（再次）驗證資料。
@@ -386,7 +392,7 @@ ht-degree: 15%
 若要在Customer Journey Analytics中使用範例資料，請建立包含Experience Platform範例摘要資料集的連線。
 
 
-1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
+1. 從![應用程式](/help/assets/icons/Apps.svg)應用程式切換器中選取&#x200B;**[!UICONTROL Customer Journey Analytics]**。
 1. 在頂端功能表中選取&#x200B;**[!UICONTROL 連線]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 1. 選取「**[!UICONTROL 建立新連線]**」。
 1. 在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 未命名的連線]**&#x200B;中：
@@ -427,7 +433,7 @@ ht-degree: 15%
 
 一段時間後，請確認資料集中的資料已正確載入Customer Journey Analytics。
 
-1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
+1. 從![應用程式](/help/assets/icons/Apps.svg)應用程式切換器中選取&#x200B;**[!UICONTROL Customer Journey Analytics]**。
 1. 在頂端功能表中選取&#x200B;**[!UICONTROL 連線]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 1. 選取您的連線，例如&#x200B;**[!UICONTROL 使用摘要資料的連線範例]**。
 1. 在&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 使用摘要資料的範例連線]**&#x200B;詳細資料中選取適當的日期範圍。
@@ -442,12 +448,12 @@ ht-degree: 15%
 
 為確保您可以在Workspace中報告正確的資料，您想要建立包含相關量度和維度的資料檢視。
 
-1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
+1. 從![應用程式](/help/assets/icons/Apps.svg)應用程式切換器中選取&#x200B;**[!UICONTROL Customer Journey Analytics]**。
 1. 在頂端功能表中選取&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 1. 選取&#x200B;**[!UICONTROL 「建立新的資料檢視」]**。
 1. 在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;中，瀏覽精靈畫面來設定您的資料檢視。
    1. 在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;的&#x200B;**[!UICONTROL 設定]**&#x200B;步驟中：
-      1. 從&#x200B;**[!UICONTROL 設定]** | **[!UICONTROL 連線]**&#x200B;選取您的連線。 例如，**[!UICONTROL 使用摘要資料的連線範例]**。
+      1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;選取您的連線 | **[!UICONTROL 連線]**。 例如，**[!UICONTROL 使用摘要資料的連線範例]**。
       1. 輸入資料檢視的&#x200B;**[!UICONTROL 名稱]**，例如`Example Data View Using Summary Data`。
       1. 保留所有其他設定。
       1. 選取&#x200B;**[!UICONTROL 「儲存並繼續」]**。
@@ -490,7 +496,7 @@ ht-degree: 15%
 
       1. 建立新的衍生欄位，例如`Campaign Name (Lookup Derived Field)`，以確保您可以使用範例查詢資料集中的促銷活動名稱（查詢）維度在Workspace中報告。
 
-         行銷活動名稱![的](../aa-data/../assets/summary-derived-field.png)衍生欄位
+         行銷活動名稱](../aa-data/../assets/summary-derived-field.png)的![衍生欄位
 
          1. 選取&#x200B;**[!UICONTROL 值]**&#x200B;的&#x200B;**[!UICONTROL campaign_id]**。
          1. 從&#x200B;**[!UICONTROL 查詢資料集]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 範例查詢資料集]**。
@@ -512,7 +518,7 @@ ht-degree: 15%
 
          ![收入摘要資料](../assets/revenue-summary-data.png)
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 歸因]**。
-            1. 從![歸因模型](/help/assets/icons/AttributeLastTouch.svg)下拉式功能表中選取&#x200B;**[!UICONTROL AttributeLastTouch]** **[!UICONTROL 上次接觸]**。
+            1. 從&#x200B;**[!UICONTROL 歸因模型]**&#x200B;下拉式功能表中選取![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL 上次接觸]**。
             1. 從&#x200B;**[!UICONTROL 回顧視窗]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 30天]**。
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **格式**。
             1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 貨幣]**。
@@ -522,11 +528,11 @@ ht-degree: 15%
 
          ![訂單摘要資料](../assets/orders-summary-data.png)
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 歸因]**。
-            1. 從![歸因模型](/help/assets/icons/AttributeLastTouch.svg)下拉式功能表中選取&#x200B;**[!UICONTROL AttributeLastTouch]** **[!UICONTROL 上次接觸]**。
+            1. 從&#x200B;**[!UICONTROL 歸因模型]**&#x200B;下拉式功能表中選取![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL 上次接觸]**。
             1. 從&#x200B;**[!UICONTROL 回顧視窗]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 30天]**。
          1. 展開![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 格式]**。
             1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 十進位]**。
-            1. 從&#x200B;**[!UICONTROL ▲將上升趨勢顯示為]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 良好（綠色）]**。
+            1. 從&#x200B;**[!UICONTROL 將上升趨勢顯示為]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL ▲良好（綠色）]**。
 
       1. 選取&#x200B;**[!UICONTROL 「儲存並繼續」]**。
 
@@ -541,7 +547,7 @@ ht-degree: 15%
 
 若要回報您的摘要資料，請在Analysis Workspace中建立新專案。
 
-1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**，從   ![應用程式](/help/assets/icons/Apps.svg)   應用程式切換器。
+1. 從![應用程式](/help/assets/icons/Apps.svg)應用程式切換器中選取&#x200B;**[!UICONTROL Customer Journey Analytics]**。
 1. 從頂端功能表選取&#x200B;**[!UICONTROL Workspace]**。
 1. 選取&#x200B;**[!UICONTROL 「建立專案」]**。
 1. 從包含建立空白Workspace專案的選項的對話方塊中選取&#x200B;**[!UICONTROL 空白Workspace專案]**。
@@ -562,24 +568,24 @@ ht-degree: 15%
 
 1. 選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 計算量度]**。
 1. 選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]**&#x200B;以新增新的計算量度。
-   1. 指定`Cost per Impression`名稱&#x200B;**[!UICONTROL 的]**。
+   1. 指定&#x200B;**[!UICONTROL 名稱]**&#x200B;的`Cost per Impression`。
    1. 選取&#x200B;**[!UICONTROL 格式]**&#x200B;的&#x200B;**[!UICONTROL 貨幣]**。
-   1. 指定`4`小數位數&#x200B;**[!UICONTROL 的]**。
+   1. 指定&#x200B;**[!UICONTROL 小數位數]**&#x200B;的`4`。
    1. 使用![事件](/help/assets/icons/Event.svg) **[!UICONTROL 成本]** **[!UICONTROL ÷]** **[!UICONTROL 曝光數]**&#x200B;做為&#x200B;**[!UICONTROL 定義]**。
    1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 1. 選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]**&#x200B;以新增另一個新計算量度。
-   1. 指定`Return on Ad Spend`名稱&#x200B;**[!UICONTROL 的]**。
+   1. 指定&#x200B;**[!UICONTROL 名稱]**&#x200B;的`Return on Ad Spend`。
    1. 選取&#x200B;**[!UICONTROL 格式]**&#x200B;的&#x200B;**[!UICONTROL 貨幣]**。
-   1. 選取`2`小數位數&#x200B;**[!UICONTROL 的]**。
-   1. 使用![事件](/help/assets/icons/Event.svg) **[!UICONTROL 收入（上次接觸| 30天）]** **[!UICONTROL −]** ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 成本]**&#x200B;作為&#x200B;**[!UICONTROL 定義]**。
+   1. 選取&#x200B;**[!UICONTROL 小數位數]**&#x200B;的`2`。
+   1. 使用![事件](/help/assets/icons/Event.svg) **[!UICONTROL 收入（上次接觸） | 30天)]** **[!UICONTROL −]** ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 成本]**&#x200B;為&#x200B;**[!UICONTROL 定義]**。
    1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 將計算量度新增至報表。
 
-1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳![每次曝光成本](/help/assets/icons/Calculator.svg) **[!UICONTROL 電腦]**，並放置量度以作為額外欄新增至自由表格。
+1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 每次曝光成本]** ![電腦](/help/assets/icons/Calculator.svg)，並放置量度以作為額外欄新增至自由表格。
    1. 選取![設定](/help/assets/icons/Setting.svg)資料行設定。
       1. 停用&#x200B;**[!UICONTROL 百分比]**。
-1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳![廣告支出回訪](/help/assets/icons/Calculator.svg) **[!UICONTROL 電腦]**，並放置量度以作為額外欄新增至自由表格。
+1. 從&#x200B;**[!UICONTROL 量度]**&#x200B;拖曳&#x200B;**[!UICONTROL 廣告支出回訪]** ![電腦](/help/assets/icons/Calculator.svg)，並放置量度以作為額外欄新增至自由表格。
    1. 選取![設定](/help/assets/icons/Setting.svg)資料行設定。
       1. 停用&#x200B;**[!UICONTROL 百分比]**。
       1. 啟用&#x200B;**[!UICONTROL 條件式格式]**。
