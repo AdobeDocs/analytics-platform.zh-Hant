@@ -7,10 +7,15 @@ type: Documentation
 solution: Customer Journey Analytics
 exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
 TQID: https://experienceleague.adobe.com/auDJxQ6x6fqNVbDuN9reSffP9iUISZ7QgEflGWApc8A
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: f2ef16dc-055a-4bb7-baa5-7039653f3966
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 383
@@ -31,7 +36,7 @@ ht-degree: 1%
 * 結構上相似或相同的多個資料檢視。
 * 包含自訂元件和配置圖的複雜資料區塊格式。
 
-若要從儲存格選取資料檢視，請先建置資料區塊，並將多個資料檢視指派至資料區塊以外的儲存格。 然後，使用儲存格&#x200B;]**面板的**[!UICONTROL &#x200B;資料檢視，從不同的資料檢視重新整理您的資料區塊。
+若要從儲存格選取資料檢視，請先建置資料區塊，並將多個資料檢視指派至資料區塊以外的儲存格。 然後，使用儲存格&#x200B;**面板的**&#x200B;資料檢視，從不同的資料檢視重新整理您的資料區塊。
 
 1. 建立資料區塊。 如需有關建立資料區塊的資訊，請參閱[建立資料區塊](/help/report-builder/create-a-data-block.md)。
 

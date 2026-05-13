@@ -6,11 +6,20 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 產品分析
 role: User
 TQID: https://experienceleague.adobe.com/-AW7cK4fHNV58e539KKcqBx-pRpIpIRWcrS7CA9ZUYc
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 694
@@ -29,7 +38,7 @@ ht-degree: 98%
 
 <!-- markdownlint-enable MD034 -->
 
-![轉換漏斗](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 漏斗&#x200B;]**分析以直覺的方式呈現您產品中關鍵的使用者歷程。 橫軸代表使用者必須傳遞的每個步驟。 縱軸表示每個步驟的使用者或工作階段的百分比。 所有步驟都必須按最終順序完成，但可以在報告視窗內的任何時間發生。
+![轉換漏斗](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 漏斗&#x200B;]**&#x200B;分析以直覺的方式呈現您產品中關鍵的使用者歷程。 橫軸代表使用者必須傳遞的每個步驟。 縱軸表示每個步驟的使用者或工作階段的百分比。 所有步驟都必須按最終順序完成，但可以在報告視窗內的任何時間發生。
 
 >[!BEGINSHADEBOX]
 

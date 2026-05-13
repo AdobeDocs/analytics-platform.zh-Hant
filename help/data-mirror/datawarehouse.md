@@ -7,9 +7,12 @@ role: Admin
 badgePremium: label="Beta"
 exl-id: 92cffcc5-d7a7-47f5-869d-1fc665594bf4
 TQID: https://experienceleague.adobe.com/KPEJwV-EbvG-4ju53nsl1CfbZT6cVLQdEjOiF-EEbLQ
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 442
@@ -54,7 +57,7 @@ ALTER TABLE myDeltaTable SET TBLPROPERTIES (delta.enableChangeDataFeed = true)
 set spark.databricks.delta.properties.defaults.enableChangeDataFeed = true;
 ```
 
-如需詳細資訊，請閱讀啟用變更資料摘要](https://docs.databricks.com/aws/en/delta/delta-change-data-feed#enable-change-data-feed)的[[!DNL Azure Databricks] 指南。
+如需詳細資訊，請閱讀啟用變更資料摘要[&#128279;](https://docs.databricks.com/aws/en/delta/delta-change-data-feed#enable-change-data-feed)的[!DNL Azure Databricks] 指南。
 
 請閱讀下列檔案，以瞭解如何為[!DNL Azure Databricks]來源連線啟用變更資料擷取的步驟：
 
@@ -65,7 +68,7 @@ set spark.databricks.delta.properties.defaults.enableChangeDataFeed = true;
 
 若要在您的[!DNL Google BigQuery]來源連線中使用變更資料擷取，請瀏覽至[!DNL Google Cloud]主控台中的[!DNL Google BigQuery]頁面，並將`enable_change_history`設定為`TRUE`。 此屬性可啟用資料表變更記錄。
 
-如需詳細資訊，請閱讀 [!DNL GoogleSQL]](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#table_option_list)中[資料定義語言陳述式的指南。
+如需詳細資訊，請閱讀 [!DNL GoogleSQL][&#128279;](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#table_option_list)中資料定義語言陳述式的指南。
 
 請閱讀下列檔案，以瞭解如何為[!DNL Google BigQuery]來源連線啟用變更資料擷取的步驟：
 
@@ -82,7 +85,7 @@ set spark.databricks.delta.properties.defaults.enableChangeDataFeed = true;
 ALTER TABLE mytable SET CHANGE_TRACKING = TRUE
 ```
 
-如需詳細資訊，請閱讀使用changes子句](https://docs.snowflake.com/en/sql-reference/constructs/changes#usage-notes)的[[!DNL Snowflake] 指南。
+如需詳細資訊，請閱讀使用changes子句[&#128279;](https://docs.snowflake.com/en/sql-reference/constructs/changes#usage-notes)的[!DNL Snowflake] 指南。
 
 請閱讀下列檔案，以瞭解如何為[!DNL Snowflake]來源連線啟用變更資料擷取的步驟：
 

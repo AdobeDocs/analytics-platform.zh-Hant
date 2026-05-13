@@ -6,11 +6,18 @@ feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
 TQID: https://experienceleague.adobe.com/RJMRWr4ooIKHzfZ9auhh2hUvequxGTodCL4ba5ScoDg
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2473
@@ -286,7 +293,7 @@ ht-degree: 34%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **帳戶識別碼**] | 唯一識別組織內，以及遍及由Snowflake支援的雲端平台和雲端區域組成的全球網路中的Snowflake帳戶。 <p>您必須從Snowflake帳戶取得帳戶識別碼，然後在此處貼上資訊。</p><p>若要瞭解從何處取得此資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/user-guide/admin-account-identifier)中的[帳戶識別碼頁面。</p> |
+   | [!UICONTROL **帳戶識別碼**] | 唯一識別組織內，以及遍及由Snowflake支援的雲端平台和雲端區域組成的全球網路中的Snowflake帳戶。 <p>您必須從Snowflake帳戶取得帳戶識別碼，然後在此處貼上資訊。</p><p>若要瞭解從何處取得此資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/user-guide/admin-account-identifier)中的帳戶識別碼頁面。</p> |
    | [!UICONTROL **使用者**] | 用於連線的使用者登入名稱。 我們建議您建立專門用於Adobe的新使用者。 在此處指定名稱，然後在Snowflake中建立具有相同名稱的使用者。 您可以使用`CREATE USER`命令在Snowflake中建立使用者。  <p>如需詳細資訊，請參閱[使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role)。</p> |
    | [!UICONTROL **角色**] | 將指派給使用者的角色。 我們建議您建立專門用於Adobe的新角色。 在此處指定角色，然後在Snowflake中建立相同名稱的角色，並將該角色授予使用者。 您可以使用`CREATE ROLE`命令在Snowflake中建立角色。 <p>如需詳細資訊，請參閱[使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role)。</p> |
 
@@ -308,7 +315,7 @@ ht-degree: 34%
    CREATE USER <your_adobe_user> RSA_PUBLIC_KEY = '<your_public_key>';
    ```
 
-   如需詳細資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/user-guide/key-pair-auth)中的[金鑰組驗證與金鑰組輪換頁面。
+   如需詳細資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/user-guide/key-pair-auth)中的金鑰組驗證與金鑰組輪換頁面。
 
 1. 選取&#x200B;[!UICONTROL **確定**]。
 

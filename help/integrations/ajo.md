@@ -5,11 +5,20 @@ exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
 TQID: https://experienceleague.adobe.com/kmZ-AYMcKxwZftFSqJQpTH3zDTDT1CxlNw-MVO6Ikn4
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 3841
@@ -50,7 +59,7 @@ Journey Optimizer 支援使用 Customer Journey Analytics 作為報告引擎。 
 | 資料集名稱 | 結構描述 | 資料集類型 | 資料來源類型 | 人員 ID | 金鑰 | 比對索引鍵 | 匯入新資料 | 回填資料 |
 |---|---|---|---|---|---|---|---|---|
 | [!UICONTROL AJO 實體資料集] | [!UICONTROL AJO 實體記錄結構描述] | [!UICONTROL 查詢] | [!UICONTROL 其他] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
-| [!UICONTROL 歷程步驟事件] | [!UICONTROL Journey Orchestration 的歷程步驟事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL  IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
+| [!UICONTROL 歷程步驟事件] | [!UICONTROL Journey Orchestration 的歷程步驟事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL &#x200B; IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
 | [!UICONTROL AJO 電子郵件追蹤體驗事件資料集] | [!UICONTROL AJO 電子郵件追蹤體驗事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
 | [!UICONTROL AJO 訊息意見反應事件資料集] | [!UICONTROL AJO 訊息意見反應事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
 | [!UICONTROL AJO 推播追蹤體驗事件資料集] | [!UICONTROL AJO 推播追蹤體驗事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |

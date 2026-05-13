@@ -6,9 +6,12 @@ feature: Data Views
 role: User
 exl-id: bac873a8-9003-400d-9f52-fcf734c2f56b
 TQID: https://experienceleague.adobe.com/Yc-dpN-CbEYr7-yS-A7p09eBqUcZAgVV1AfcetSTgyU
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 738
@@ -47,7 +50,7 @@ ht-degree: 1%
    1. 選取&#x200B;**[!UICONTROL 總購買]**。
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
-   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
+   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 進階篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 在]** `1/1/2023` **[!UICONTROL 且]** **[!UICONTROL 在]** `2/1/2023`之前時顯示專案。
 
@@ -197,10 +200,10 @@ GROUP BY 1
       1. 從&#x200B;**[!UICONTROL 量值型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 總和]**。
       1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;的自訂欄位名稱。 例如：`Sum of Purchase Revenue`。
       1. 選取&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;標籤。
-      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**輸入。
+      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**&#x200B;輸入。
          ![Looker自訂量度欄位](../assets/uc5-looker-customfield.png)
       1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
-1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5}欄上選取**[!UICONTROL  1} （**[!UICONTROL 遞減，排序順序： 1]**）。]**]**
+1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5&rbrace;欄上選取**&#x200B;[!UICONTROL &#x200B; 1&rbrace; （**[!UICONTROL 遞減，排序順序： 1]**）。]&#x200B;**]**
 1. 選取&#x200B;**[!UICONTROL 執行]**。
 1. 選取‣**[!UICONTROL 視覺效果]**。
 
