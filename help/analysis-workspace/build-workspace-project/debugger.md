@@ -29,7 +29,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->若要使用偵錯工具，您必須擁有&#x200B;**編輯**&#x200B;或&#x200B;**複製** [專案](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25744)的存取權。
+>若要使用偵錯工具，您必須擁有&#x200B;**編輯**&#x200B;或&#x200B;**複製** [專案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-25744)的存取權。
 >
 
 

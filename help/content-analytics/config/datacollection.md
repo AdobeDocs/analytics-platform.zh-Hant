@@ -133,7 +133,7 @@ Content Analytics會透過下列方式處理Web Channel的身分識別：
 * 因為此結構描述為系統所擁有，故不支援欄位式拚接。 因此，您無法新增其他欄位至結構描述來支援欄位式拼接
 
 
-若要確保Content Analytics身分資料和Web SDK資料身分資料在欄位層級正確連結，請在事件傳送[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}回呼之前修改Web SDK 。
+若要確保Content Analytics身分資料和Web SDK資料身分資料在欄位層級正確連結，請在事件傳送[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}回呼之前修改Web SDK 。
 
 1. 導覽至包含 Adobe Experience Platform Web SDK 擴充功能和 Adobe Content Analytics 擴充功能的&#x200B;**[!UICONTROL 標記]**&#x200B;屬性。
 1. 選取「![插頭](/help/assets/icons/Plug.svg)**[!UICONTROL 擴充功能]**」。

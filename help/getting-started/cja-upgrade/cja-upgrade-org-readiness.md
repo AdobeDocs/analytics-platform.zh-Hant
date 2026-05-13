@@ -159,7 +159,7 @@ ht-degree: 15%
 
    * [Customer Journey Analytics 教學課程](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/overview)
 
-   * [什麼是 Customer Journey Analytics？](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
+   * [什麼是 Customer Journey Analytics？](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
 
    * [Customer Journey Analytics 簡介](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
 

@@ -79,7 +79,7 @@ Journey Optimizer 支援使用 Customer Journey Analytics 作為報告引擎。 
 * **[!UICONTROL 滾動7天P95延遲Widget]**：將P95延遲顯示為單一值，包括上週的百分比變更。
 * **[!UICONTROL 滾動7天P95輸送量Widget]**：將P95輸送量顯示為單一值，包括上週的百分比變更。
 
-如需這些資料集和高輸送量異動訊息附加元件的詳細資訊，請參閱Adobe Journey Optimizer檔案中的[為API觸發的行銷活動啟用高輸送量模式](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)。
+如需這些資料集和高輸送量異動訊息附加元件的詳細資訊，請參閱Adobe Journey Optimizer檔案中的[為API觸發的行銷活動啟用高輸送量模式](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)。
 
 ### 資料視圖
 

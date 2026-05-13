@@ -25,7 +25,7 @@ ht-degree: 100%
 # 整合決策管理
 
 
-Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)透過集中行銷產品建議資料庫和決策引擎來輕鬆實現個人化；該決策引擎會將規則和限制套用至 Adobe Experience Platform 建立的豐富即時輪廓，協助您在適當的時間向客戶傳送適合的產品建議。
+Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant)透過集中行銷產品建議資料庫和決策引擎來輕鬆實現個人化；該決策引擎會將規則和限制套用至 Adobe Experience Platform 建立的豐富即時輪廓，協助您在適當的時間向客戶傳送適合的產品建議。
 
 決策管理是 Adobe Journey Optimizer 的一部分，且與其整合。 它也可以在 Adobe Journey Optimizer 定義的歷程和行銷活動以外獨立使用，從而運用其豐富的 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html) 支援。
 
@@ -33,7 +33,7 @@ Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/j
 
 ## 將資料從決策管理傳送到 Adobe Experience Platform
 
-Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Customer Journey Analytics 之間的連結。 來自決策管理的資料是在 Experience Platform 中&#x200B;**自動**&#x200B;收集，或作為&#x200B;**明確傳送體驗事件** (例如曝光次數或點擊次數) 來收集。 請參閱[開始使用資料收集](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html)以了解更多詳細資料。
+Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Customer Journey Analytics 之間的連結。 來自決策管理的資料是在 Experience Platform 中&#x200B;**自動**&#x200B;收集，或作為&#x200B;**明確傳送體驗事件** (例如曝光次數或點擊次數) 來收集。 請參閱[開始使用資料收集](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=zh-Hant)以了解更多詳細資料。
 
 ## 建立連線
 
@@ -53,7 +53,7 @@ Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Cu
 
 ## 建立資料視圖
 
-在建立連線後，您可以建立一個或多個[資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)來設定 Customer Journey Analytics 中可用的所需維度和量度。
+在建立連線後，您可以建立一個或多個[資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant)來設定 Customer Journey Analytics 中可用的所需維度和量度。
 
 >[!NOTE]
 >
