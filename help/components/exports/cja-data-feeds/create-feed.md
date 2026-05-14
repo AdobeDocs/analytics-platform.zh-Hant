@@ -3,7 +3,7 @@ title: 建立資料摘要
 description: 了解如何建立資料摘要，以及需提供給 Adobe 的檔案資訊。
 hide: true
 feature: Components
-source-git-commit: 357866d839d14324014f7603a1eac85a0f2072cc
+source-git-commit: da47de2de52a3cc0d9aa768141bd7368042e1c66
 workflow-type: tm+mt
 source-wordcount: '2466'
 ht-degree: 31%
@@ -50,8 +50,6 @@ ht-degree: 31%
 >abstract="控制 Customer Journey Analytics 在處理資料摘要傳送時回顧的時間範圍。<br/>此設定不會更改頻率時段 (小時或日)。 不過，回顧日期範圍可能會影響傳送的資料。 區段資格、工作階段計算、某些衍生欄位轉換和維度持續性都受到回顧日期範圍的影響。"
 
 <!-- markdownlint-enable MD034 -->
-
-<!-- added help for Dynamic lookups to this page: help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md -->
 
 1. 使用您的 Adobe ID 認證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 
