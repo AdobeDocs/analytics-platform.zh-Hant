@@ -3,10 +3,10 @@ title: 建立資料摘要
 description: 了解如何建立資料摘要，以及需提供給 Adobe 的檔案資訊。
 hide: true
 feature: Components
-source-git-commit: 46d54e388fecac0b62eccfe54fe91620a46474a7
+source-git-commit: 357866d839d14324014f7603a1eac85a0f2072cc
 workflow-type: tm+mt
-source-wordcount: '2724'
-ht-degree: 23%
+source-wordcount: '2466'
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 
 * 您要在每個檔案中包含的資料
 
-* 資料摘要的傳送頻率（如果您選擇包含延遲送達點選，則包括回顧視窗）
+* 資料摘要的傳送頻率（包括擷取延遲送達點選的處理延遲）
 
 在建立資料摘要之前，務必先對資料摘要有基本的了解，並確認您已滿足所有先決條件。 如需詳細資訊，請參閱[資料摘要概觀](data-feed-overview.md)。
 
@@ -55,7 +55,7 @@ ht-degree: 23%
 
 1. 使用您的 Adobe ID 認證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 
-1. 選取右上角的9個方塊圖示，然後選取&#x200B;[!UICONTROL **Customer Journey Analytics**]。
+1. 在介面右上方選取 [!UICONTROL **Customer Journey Analytics**] (透過應用程式切換器![應用程式](/help/assets/icons/Apps.svg))。
 
 1. 在頂端導覽列中，前往&#x200B;[!UICONTROL **「管理」**]>[!UICONTROL **「資料摘要」**]。
 
@@ -69,30 +69,28 @@ ht-degree: 23%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **名稱**] | 資料摘要的名稱 名稱在選取的報表套裝中必須是唯一的，且長度最多可為255個字元。<!--[Learn more](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)--> |
+   | [!UICONTROL **名稱**] | 資料摘要的名稱 名稱在選取的資料檢視中必須是唯一的，而且長度最多可為255個字元。<!--[Learn more](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)--> |
    | [!UICONTROL **標記**] | 將任何標籤套用到資料摘要以方便分類。<!--You can filter on tags as described in [Filter and search the list of data feeds](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md).--> |
    | [!UICONTROL **說明**] | 指定資料摘要的說明。 編輯資料摘要時，會顯示您新增的說明。 |
    | [!UICONTROL **資料檢視**] | 選取包含您要匯出之資料的資料檢視。 |
 
 1. 在&#x200B;[!UICONTROL **資料結構**]&#x200B;區段中，確定已在&#x200B;**[!UICONTROL 資料檢視]**&#x200B;欄位中選取正確的資料檢視。 <p>選取資料檢視時，請考量下列事項：</p> <ul><li>如果相同資料檢視建立了多個資料摘要，則每個資料摘要都必須有不同的欄定義。</li><li>可用欄的清單取決於所選資料檢視所屬的登入公司。 如果您變更資料檢視，可用欄的清單可能會變更。 </li></ul>
 
-1. 將欄新增至資料摘要設定。 在左側的&#x200B;**[!UICONTROL 可用]**&#x200B;區段中，選取您要包含的任何欄，然後選取&#x200B;**[!UICONTROL 包含]**。 Adobe Analytics中的所有資料欄皆可使用。 您可以按住&#x200B;**[!UICONTROL Shift]**&#x200B;或按住&#x200B;**[!UICONTROL Command]** （在macOS上）或&#x200B;**[!UICONTROL Ctrl]** （在Windows上）來選取多個欄。 按一下&#x200B;**[!UICONTROL 「全部新增」]**，將所有欄加入資料摘要中。
-
-   您新增的欄會出現在右側的&#x200B;**[!UICONTROL 已包含]**&#x200B;區段中。
+1. 將欄新增至資料摘要設定。 在左側的元件邊欄區段中，找出您要納入的任何欄，然後將其拖曳至畫布以建置您的資料結構。 您可以按住&#x200B;**[!UICONTROL Shift]**&#x200B;或按住&#x200B;**[!UICONTROL Command]** （在macOS上）或&#x200B;**[!UICONTROL Ctrl]** （在Windows上）來選取多個欄。
 
    使用下列資訊來瞭解一律包含的維度、不可包含的維度以及必須替代的量度：
 
    +++ 資料摘要中一律包含的維度
 
-   每個資料摘要中都必須包含下列元件：
+   下列維度預設會包含在每個資料摘要中，且無法移除：
 
-   | 元件名稱 | 附註 | 資料饋送 | 其他報告 |
+   | 維度名稱 | 附註 | 資料饋送 | 其他報告 |
    |---|---|---|---|
-   | 時間戳記 | 事件期間的時間戳記。 毫秒粒度。 以UTC表示。 | 強制 | 未提供 |
+   | 時間戳記 | 事件期間的時間戳記。 微秒粒度。 以UTC表示。 | 強制 | 未提供 |
    | 列ID | 唯一列識別碼 | 強制 | 未提供 |
    | 工作階段ID | 每個工作階段的唯一識別碼 | 強制 | 未提供 |
    | 人員 ID | 資料檢視和連線的個人識別碼 | 強制 | 可選標準 |
-   | 帳戶ID (B2B) | 使用帳戶容器時的帳戶ID | 強制（僅限B2B） | 選擇性標準（僅限B2B） |
+   | 帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 使用帳戶容器時的帳戶ID | 強制 | 可選標準 |
 
    +++
 
@@ -100,7 +98,7 @@ ht-degree: 23%
 
    Customer Journey Analytics標準維度不得包含在資料摘要中。 下表列出這些維度：
 
-   | 元件名稱 | 附註 | 資料饋送 |
+   | 維度名稱 | 附註 | 資料饋送 |
    |---|---|---|
    | 5 分鐘 | 事件發生時的五分鐘間隔（無條件舍去） | 未提供 |
    | 15 分鐘 | 發生事件時的15分鐘間隔（無條件舍去） | 未提供 |
@@ -128,13 +126,13 @@ ht-degree: 23%
 
    下列Customer Journey Analytics量度必須被取代：
 
-   | 元件名稱 | 附註 | 資料饋送 |
+   | 量度名稱 | 附註 | 資料饋送 |
    |---|---|---|
-   | 帳戶 | [B2B edition]根據連線中指定的帳戶ID | 無法使用。 使用帳戶ID的相異計數。 |
-   | 購買群組 | [B2B edition]根據連線中的購買群組ID購買群組 | 無法使用。 使用購買群組ID的相異計數。 |
+   | 帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 根據連線中指定的帳戶ID | 無法使用。 使用帳戶ID的相異計數。 |
+   | 購買群組[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 根據連線中的購買群組ID購買群組 | 無法使用。 使用購買群組ID的相異計數。 |
    | 活動 | 連線中所有事件資料集的列數 | 無法使用。 使用資料列ID的相異計數。 |
-   | 全域帳戶 | [B2B edition]根據連線中的全域帳戶ID | 無法使用。 使用全域帳戶ID的相異計數。 |
-   | 機會 | 根據連線中的機會ID的[B2B edition]機會 | 無法使用。 使用與機會ID不同的計數。 |
+   | 全域帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 根據連線中的全域帳戶ID | 無法使用。 使用全域帳戶ID的相異計數。 |
+   | 機會 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 根據連線中的機會ID的機會 | 無法使用。 使用與機會ID不同的計數。 |
    | 使用者 | 根據連線中指定的人員ID | 無法使用。 使用人員ID的相異計數。 |
    | 對話數 | 交談數 | 無法使用。 使用對話識別碼的相異計數。 |
    | 工作階段結束 | 工作階段中最後一個事件的事件數 | 未提供 |
@@ -158,12 +156,10 @@ ht-degree: 23%
    | 月份 | 時間分段維度 | 1-12月 | 未提供 |
    | 首次工作階段 | 量度 | 個人在報告時段內首次定義的工作階段 | 未提供 |
    | 回訪工作階段 | 量度 | 非個人首次工作階段的工作階段 | 未提供 |
-   | 人員 ID | 維度 | 資料檢視和連線的個人識別碼 | **必要** |
    | 人員ID名稱空間 | 維度 | 組成人員ID的ID型別（例如電子郵件或Cookie ID） | 可用 |
-   | 全域帳戶 ID | [B2B edition] Dimension | 使用全域帳戶容器時的全域帳戶ID | 可用 |
-   | 帳戶 ID | [B2B edition] Dimension | 使用帳戶容器時的帳戶ID | **必要** （僅限B2B） |
-   | 機會 ID | [B2B edition] Dimension | 使用機會容器時的機會識別碼 | 可用 |
-   | 購買群組 ID | [B2B edition] Dimension | 使用購買群組容器時的購買群組ID | 可用 |
+   | 全域帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 維度 | 使用全域帳戶容器時的全域帳戶ID | 可用 |
+   | 機會ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 維度 | 使用機會容器時的機會識別碼 | 可用 |
+   | 購買群組ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 維度 | 使用購買群組容器時的購買群組ID | 可用 |
    | 季別 | 時間分段維度 | 第 1 季、第 2 季、第 3 季、第 4 季 | 未提供 |
    | 重複工作階段 | 量度 | 不是個人的首次工作階段的工作階段 | 未提供 |
    | 工作階段型別 | 維度 | 兩個值：首次或傳回 | 未提供 |
@@ -182,9 +178,9 @@ ht-degree: 23%
    | [!UICONTROL **摘要型別**] | 選取您要建立的摘要型別：<ul><li>[!UICONTROL **即時摘要**]：匯出目前和未來的資料。</li><li>[!UICONTROL **回填摘要**]：匯出兩個過去日期之間的歷史資料。</li></ul> |
    | [!UICONTROL **開始日期**] | 指定資料摘要的開始日期。 若要立即開始處理歷史資料的資料摘要，請確定已選取&#x200B;[!UICONTROL **回填摘要**]，然後將此日期設定為收集資料時的任何過去日期。 開始日期取決於資料檢視的時區。 |
    | [!UICONTROL **結束日期**] | 指定資料摘要的結束日期。 結束日期取決於資料檢視的時區。 |
-   | [!UICONTROL **頻率**] | 選取資料摘要的傳送頻率。 時間戳記屬於頻率視窗的事件會包含在資料摘要傳送中。 [!UICONTROL **回顧日期範圍**]&#x200B;及&#x200B;[!UICONTROL **處理延遲**]&#x200B;欄位也會影響哪些事件包含在您所選擇傳遞頻率的資料中。<p>選取以包含一小時的資料或一天的資料：</p><ul><li>**每日**：摘要包含一整天的資料，從資料檢視時區的午夜到午夜。 此選項可用於回填摘要或即時摘要。</li><li>**小時**：摘要包含一個小時的資料量。 對即時摘要使用此選項。</li></ul> |
+   | [!UICONTROL **頻率**] | 選取資料摘要的傳送頻率。 時間戳記屬於頻率視窗的事件會包含在資料摘要傳送中。 [!UICONTROL **回顧日期範圍**]&#x200B;及&#x200B;[!UICONTROL **處理延遲**]&#x200B;欄位也會影響哪些事件包含在您所選擇傳遞頻率的資料中。<p>對於即時摘要，選取此選項可包含一小時的資料量或一天的資料量。 回填摘要必須為每日。</p><ul><li>**每日**：摘要包含一整天的資料，從資料檢視時區的午夜到午夜。 此選項可用於回填摘要或即時摘要。</li><li>**小時**：摘要包含一個小時的資料量。 對即時摘要使用此選項。</li></ul> |
    | [!UICONTROL **回顧日期範圍**] | 控制 Customer Journey Analytics 在處理資料摘要傳送時回顧的時間範圍。 <p>此設定不會改變頻率視窗（小時或天），其定義要包含在資料摘要輸出中的事件時間範圍。 不過，回顧日期範圍可能會透過下列方式影響傳送的資料： </p><ul><li>**區段資格**：將區段套用至您的資料摘要定義時，回顧日期範圍內的任何事件都會決定某人是否符合資格。 區段的容器設定會決定範圍。 (可能的容器包括：「人員」、「工作階段」或「事件」。 B2B有下列額外的容器：全域帳戶、帳戶、商機、購買群組。)  <p>例如，如果使用「人員」容器，且該人員在回顧日期範圍內符合資格，則其在頻率期間的所有事件也符合資格。</p></li><li>**工作階段計算**：工作階段範圍是使用回顧日期範圍內的資料計算。</li><li>**衍生欄位轉換**：參考容器的任何衍生欄位函式（例如「摘要」、「重複資料刪除」和「深度」函式）會在資料摘要匯出中使用回顧日期範圍。</li><li>**Dimension持續性**：如果您選擇在個別維度上設定持續性，您也可選擇有效期限，以決定維度專案在其設定的事件之後持續多長時間。 <p>當資料檢視中的到期日設定為下列任一選項時，回顧日期範圍會影響維度持續性：</p><ul><li>對於資料摘要定義中每個使用&#x200B;[!UICONTROL **報告期間**]&#x200B;作為到期日的維度，回顧日期範圍都會變成新的報告期間。</li><li>對於資料摘要定義中以&#x200B;[!UICONTROL **自訂時間**]&#x200B;作為到期時間的每個維度，如果選取的自訂時間超過回顧日期範圍，則忽略自訂時間，並將回顧日期範圍用於維度到期日。<p>如需有關在資料檢視中設定維度的持續性的詳細資訊，請參閱[持續性元件設定](/help/data-views/component-settings/persistence.md)。</p></li></ul> |
-   | [!UICONTROL **處理延遲**] | 選擇是否在處理資料摘要檔案之前等候特定時間。 在處理延遲期間傳入的任何延遲送達點選都會納入資料摘要中。<p>延遲的作用在於，在行動裝置實作中讓離線裝置得以上線並傳送資料。 在管理舊的已處理檔案時，它也可用於容納組織的伺服器端處理程序。 多數情況下延遲並不會發生。 摘要最多可延遲8小時（480分鐘），或如果選取自訂時間量（延遲9,999分鐘或約1週），延遲時間甚至更長。<p>如果未設定延遲，則只有屬於頻率視窗（最後一天或一小時）的事件會納入摘要中。</p> <p>造訪必須在此截止之後開始才能納入；在截止之前開始並在處理延遲內結束的造訪不包括在內。</p> <p>工作階段、持續性和區段需要。</p><p>不用於維度。 根據維度的配置和有效期，每個維度皆可控制維度。 Dimension回顧不可超過處理延遲。</p> |
+   | [!UICONTROL **處理延遲**] | 選擇在處理資料摘要檔案之前要等待的時間長度。 在處理延遲期間傳入的任何延遲送達點選都會納入資料摘要中。 <p>延遲的作用在於，在行動裝置實作中讓離線裝置得以上線並傳送資料。 在管理舊的已處理檔案時，它也可用於容納組織的伺服器端處理程序。 </p><p>您可以將摘要延遲2、3、4或8小時。<p>工作階段必須在處理延遲截止之後開始才能納入；在截止之前開始並在處理延遲內結束的工作階段不包括在內。</p> |
 
 1. 在&#x200B;[!UICONTROL **目的地**]&#x200B;區段中，設定您要傳送資料的目的地。
 
@@ -210,59 +206,7 @@ ht-degree: 23%
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 管理欄範本
 
-範本可讓您對您建立的未來資料摘要重複使用相同的欄。
-
-管理範本時，您可以建立新範本、使用已建立的範本、複製範本、編輯範本及刪除範本。
-
-**[!UICONTROL 管理員]** > **[!UICONTROL 資料摘要]** > **[!UICONTROL 管理範本]**
-
-![管理資料行範本](assets/data-feed-template-manage.png)
-
-### 建立欄範本
-
-在建立多個使用相同欄的資料摘要時，Adobe建議您建立欄範本。 您建立的任何欄範本均可供貴組織中的任何人使用。
-
-若要建立欄範本，請執行下列動作：
-
-1. 在Adobe Analytics中，移至&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**] > **[!UICONTROL 管理範本]**。
-
-1. 選取&#x200B;**[!UICONTROL 建立新範本]**&#x200B;以建立新的資料行範本。
-
-   ![建立資料行範本](assets/data-feed-template-create.png)
-
-1. 在&#x200B;**[!UICONTROL 範本名稱]**&#x200B;欄位中，指定範本的名稱。
-
-1. 在左側的&#x200B;**[!UICONTROL 可用]**&#x200B;區段中，選取您要包含的任何欄，然後選取&#x200B;**[!UICONTROL 包含]**。 Adobe Analytics中的所有可用資料欄皆可使用。 您可以按住&#x200B;**[!UICONTROL Shift]**&#x200B;或按住&#x200B;**[!UICONTROL Command]** （在macOS上）或&#x200B;**[!UICONTROL Ctrl]** （在Windows上）來選取多個欄。 按一下&#x200B;**[!UICONTROL 「全部新增」]**，將所有欄加入資料摘要中。
-
-   您新增的欄會出現在右側的&#x200B;**[!UICONTROL 已包含]**&#x200B;區段中。
-
-1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
-
-### 編輯欄範本
-
-1. 在Adobe Analytics中，移至&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**] > **[!UICONTROL 管理範本]**。
-
-1. 選取您要編輯的範本，然後選取&#x200B;**[!UICONTROL 編輯]**。
-
-1. 進行任何編輯，然後選取&#x200B;**[!UICONTROL 儲存]**。
-
-### 複製欄範本
-
-1. 在Adobe Analytics中，移至&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**] > **[!UICONTROL 管理範本]**。
-
-1. 選取您要複製的範本，然後選取&#x200B;**[!UICONTROL 複製]**。
-
-1. 在&#x200B;**[!UICONTROL 範本名稱]**&#x200B;欄位中，指定範本的名稱。
-
-1. 進行任何其他變更，然後選取&#x200B;**[!UICONTROL 儲存]**。
-
-### 刪除欄範本
-
-1. 在Adobe Analytics中，移至&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**] > **[!UICONTROL 管理範本]**。
-
-1. 選取一或多個要刪除的範本，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
 
 <!-- why would you want to do this? -->

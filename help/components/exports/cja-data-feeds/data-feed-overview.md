@@ -5,53 +5,31 @@ title: Analytics 資料摘要概觀
 feature: Components
 hide: true
 exl-id: 991a7861-cbde-4d55-935c-d56c8031853e
-source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
+source-git-commit: 5e77857ca846767e3b9e7479baa4a4b18c6e3c8f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 40%
+source-wordcount: '221'
+ht-degree: 21%
 
 ---
 
 # 資料摘要概觀
 
-資料摘要是從Customer Journey Analytics中取得原始資料的有力方式。 這類原始資料可用於 Adobe 以外的其他平台，供組織任意使用。 資料會在每小時結束時以小時的批次傳送，或在每天結束時以當天的批次傳送。
+資料摘要是從Customer Journey Analytics中取得原始資料的有力方式。 您可以由組織自行決定，在Adobe以外的其他平台中使用這些原始資料。 資料會在每小時結束時以小時的批次傳送，或在每天結束時以當天的批次傳送。
 
 ## 先決條件
 
-在使用資料摘要之前，請確認您符合下列所有需求。
+在使用資料摘要之前，請確定您符合下列所有需求：
 
-* 具有擷取至Adobe Customer Journey Analytics之資料的有效實作。<!-- For more information, see Data ingestion overview - add link -->
-* 您的帳戶為Analytics產品管理員，或屬於可存取資料摘要的產品設定檔。<!--???-->
-* 在Amazon S3、Google Cloud Platform、Azure RBAC或Azure SAS上設定的貯體。<!--Which cloud providers do we support??-->
-* （舊版：只有舊版FTP和SFTP目的地型別才需要）有可用的FTP站台和認證（您的組織提供的FTP認證）。<!--Delete???-->
+* 具有已擷取至Adobe Customer Journey Analytics <!-- For more information, see Data ingestion overview - add link -->之資料的有效實作
+* 您的帳戶是Analytics產品管理員，或屬於可存取資料摘要<!--???-->的產品設定檔
+* 在{DNL Amazon S3}、{DNL Google Cloud Platform}、{DNL Azure RBAC}或上設定的貯體 {DNL Azure SAS}
 
-## 比較Customer Journey Analytics和Adobe Analytics中的資料摘要
+## 開始使用
 
-Customer Journey Analytics中的資料摘要功能與Adobe Analytics不同。 如需詳細資訊，請參閱[比較Customer Journey Analytics和Adobe Analytics中的資料摘要](/help/components/exports/cja-data-feeds/df-comparison.md)。
+若要開始使用Customer Journey Analytics中的資料摘要，請先瞭解Customer Journey Analytics中的資料摘要與Adobe Analytics中的資料摘要有何不同。 瞭解差異後，您可以將Adobe Analytics資料摘要對應至Customer Journey Analytics，然後開始建立資料摘要。
 
+1. [瞭解Customer Journey Analytics和Adobe Analytics中的資料摘要之間的差異](/help/components/exports/cja-data-feeds/df-comparison.md)。
 
-## 後續步驟
+1. [將Adobe Analytics資料摘要資料行對應至Customer Journey Analytics](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)。
 
-以下資源可幫助您了解取得資料摘要的基本工作流程。 了解基本工作流程之後，您就可以與組織內的團隊合作，將原始資料儲存或收錄至資料庫。
-
-* 資料摘要最佳實務<!--add link-->：建立和管理資料摘要的最佳實務。
-* 建立資料摘要<!--add link-->：建立資料摘要的技術詳細資訊，詳細說明個別欄位
-* 管理資料摘要<!--add link-->：進一步瞭解如何導覽資料摘要介面
-* 資料摘要內容<!--add link-->：了解壓縮檔案內容
-* 資料欄定義<!--add link-->：所有可用欄的完整清單。
-
-<!-- Is this still the output users can download from the destination? I aske Jun. -->
-
->[!BEGINSHADEBOX]
-
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg) [導覽至資料摘要介面](https://video.tv.adobe.com/v/3428570?captions=chi_hant&quality=12&learn=on){target="_blank"}，以觀看示範影片。
-
->[!ENDSHADEBOX]
-
-
-
->[!BEGINSHADEBOX]
-
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg) [尋找您的資料摘要 ID](https://video.tv.adobe.com/v/3480890?captions=chi_hant&quality=12&learn=on){target="_blank"}，以觀看示範影片。
-
->[!ENDSHADEBOX]
+1. [建立資料摘要](/help/components/exports/cja-data-feeds/create-feed.md)。

@@ -5,9 +5,9 @@ title: 準備將資料摘要欄從Adobe Analytics對應至Customer Journey Analy
 feature: Components
 hide: true
 exl-id: d0a9e697-1e48-4cfb-8613-2f932bf5015b
-source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
+source-git-commit: 4ffcb03421c0e3a31803fad7734d935078169778
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1092'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 在決定可納入資料摘要的欄時，Customer Journey Analytics提供的架構比Adobe Analytics更靈活。 大部分組織應該會從Customer Journey Analytics匯出與從Adobe Analytics匯出不同的資料摘要欄。 造成這些差異的原因如下：
 
-* **[結構描述架構](#schema-architecture)**： Adobe Analytics資料摘要欄衍生自Analytics變數，而Customer Journey Analytics資料摘要欄衍生自資料檢視結構描述。
+* **[資料摘要結構描述架構](#schema-architecture)**： Adobe Analytics資料摘要欄衍生自Analytics變數，而Customer Journey Analytics資料摘要欄衍生自資料檢視組態。
 
 * **[資料處理](#data-processing)**： Adobe Analytics和Customer Journey Analytics之間存在基本資料處理差異，尤其是許多Adobe Analytics資料行同時存在前置和後置處理資料行。
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 檢閱此資訊後，請依照您計畫保留在Customer Journey Analytics中的每個Adobe Analytics資料摘要資料行的對應指示操作，如[資料欄參考](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)中所述。
 
-## 結構描述架構
+## 資料摘要結構描述架構
 
 在決定哪些欄可納入資料摘要時，Customer Journey Analytics提供的架構比Adobe Analytics更靈活：
 
@@ -40,13 +40,13 @@ ht-degree: 3%
 
 ### Customer Journey Analytics架構
 
-資料檢視結構描述中包含的任何元件都可以納入為資料摘要欄。 如需每個潛在Adobe Analytics資料摘要資料行中此程式的詳細資訊，請參閱[資料行參考](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)。
+資料檢視設定中包含的任何元件都可包含為資料摘要欄。 如需每個潛在Adobe Analytics資料摘要資料行中此程式的詳細資訊，請參閱[資料行參考](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)。
 
-透過下表所述的任何一種方式，將元件包含在資料檢視結構描述中：
+以下表所述的任何一種方式，將元件包含在資料檢視組態中：
 
-| 納入資料檢視結構描述的方法 | 其他資訊 |
+| 包含在資料檢視設定中的方法 | 其他資訊 |
 |---------|----------|
-| XDM結構描述欄位在資料檢視中組織為元件 | XDM結構描述中存在的欄位在資料檢視中組織為元件後，會成為Customer Journey Analytics資料檢視結構描述的一部分。 <p>您的Customer Journey Analytics XDM結構描述中預設可用的欄位數可能會因Customer Journey Analytics實作收集資料的方式而異，如下所示：</p><ul><li>**新的Web SDK實作**：如果您的Customer Journey Analytics實作使用自訂結構描述，Adobe Analytics資料摘要中的許多欄可能在Customer Journey Analytics中不存在。 同樣地，Customer Journey Analytics可能包含Adobe Analytics資料摘要中不存在的欄位。<p>如有可能，請洽詢為您組織的Customer Journey Analytics實作設計XDM架構的團隊或個人。 建立XDM結構描述時，許多人都在針對Customer Journey Analytics中需要的Adobe Analytics欄位做出決定。 若要了解更多資訊，請參閱「[建構您的結構描述以用於 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)」。</p></li><li>**Analytics Source Connector實作**：許多資料摘要欄位預設有一對一的欄位對應，因為Analytics Source Connector使用XDM結構描述中的Analytics Experience Event欄位群組。 如需瞭解哪些Adobe Analytics欄位對應到這個欄位群組中的欄位，請參閱Experience Platform檔案中的[Analytics欄位對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics)。</li></ul> |
+| XDM結構描述欄位在資料檢視中組織為元件 | XDM結構描述中存在的欄位在資料檢視中組織為元件後，會成為Customer Journey Analytics資料檢視設定的一部分。 <p>您的Customer Journey Analytics XDM結構描述中預設可用的欄位數可能會因Customer Journey Analytics實作收集資料的方式而異，如下所示：</p><ul><li>**新的Web SDK實作**：如果您的Customer Journey Analytics實作使用自訂結構描述，Adobe Analytics資料摘要中的許多欄可能在Customer Journey Analytics中不存在。 同樣地，Customer Journey Analytics可能包含Adobe Analytics資料摘要中不存在的欄位。<p>如有可能，請洽詢為您組織的Customer Journey Analytics實作設計XDM架構的團隊或個人。 建立XDM結構描述時，許多人都在針對Customer Journey Analytics中需要的Adobe Analytics欄位做出決定。 若要了解更多資訊，請參閱「[建構您的結構描述以用於 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)」。</p></li><li>**Analytics Source Connector實作**：許多資料摘要欄位預設有一對一的欄位對應，因為Analytics Source Connector使用XDM結構描述中的Analytics Experience Event欄位群組。 如需瞭解哪些Adobe Analytics欄位對應到這個欄位群組中的欄位，請參閱Experience Platform檔案中的[Analytics欄位對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics)。</li></ul> |
 | 元件是使用衍生欄位在資料檢視中建立 | 您可以直接在資料檢視中建立元件，進而建立XDM結構描述中無法使用的資料摘要欄。 |
 
 ## 資料處理
@@ -69,7 +69,7 @@ Adobe Analytics和Customer Journey Analytics之間的資料處理差異會影響
 
 * **識別套用至您組織的欄位**：雖然並非所有Adobe Analytics客戶都會匯出所有可用的欄，但許多客戶會匯出多於實際使用的欄。
 
-  開始從Customer Journey Analytics匯出資料摘要之前，您應該先判斷您的組織目前使用的Adobe Analytics資料摘要欄，然後確定這些元件存在於您的Customer Journey Analytics資料檢視結構描述中。 若要收集這項資訊，請聯絡貴組織內使用Adobe Analytics資料摘要內容的團隊或個人。
+  開始從Customer Journey Analytics匯出資料摘要之前，您應該先決定您的組織目前使用的Adobe Analytics資料摘要欄，然後確定這些元件存在於您的Customer Journey Analytics資料檢視設定中。 若要收集這項資訊，請聯絡貴組織內使用Adobe Analytics資料摘要內容的團隊或個人。
 
 ## 跨頻道欄
 
