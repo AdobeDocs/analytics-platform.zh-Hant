@@ -1,20 +1,20 @@
 ---
-title: Content Analytics標籤無關設定
-description: 瞭解如何在不使用Experience Platform資料收集標籤的情況下設定Content Analytics。
+title: Content Analytics JavaScript Kibrary
+description: 瞭解如何在不使用Experience Platform資料收集標籤的情況下設定Content Analytics，並改用Content Analytics JavaScript資料庫。
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
+source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 
-# Content Analytics Tags不可知的設定
+# Content Analytics JavaScript資料庫
 
-Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Network將內容資料傳送至Adobe Experience Platform，讓您追蹤網站上的內容相關事件。 當您想要實作Content Analytics而不使用Adobe Experience Platform標籤(Launch)時，請使用此資料庫。
+Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Network將內容資料傳送至Adobe Experience Platform，讓您追蹤網站上的內容相關事件。 當您想要實作Content Analytics而不使用Adobe Experience Platform標籤時，請使用此資料庫。
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Net
 >
 >* 呼叫`initializeContentLibrary`之前，必須在頁面上初始化Adobe Experience Platform Web SDK (Alloy)。
 >* 完成Content Analytics引導式設定精靈，引導您完成設定Content Analytics設定先決條件所需的所有步驟。
->* 引導式設定完成後，您的特定設定JavaScript設定即可在設定檢視中使用。
+>* 引導式設定完成後，即可使用JavaScript設定。
 
 
 ## 安裝
@@ -52,7 +52,7 @@ Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Net
 
 直接從CDN載入程式庫。
 
-1. 初始化[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/install/library)並載入Content Analytics套件：
+1. 初始化[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)並載入Content Analytics套件：
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -74,7 +74,7 @@ Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Net
    ```
 
    位置
-   * `alloy/2.x.x`參考您要使用[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/install/library)的版本。
+   * `alloy/2.x.x`參考您要使用[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)的版本。
    * `content-analytics/1.x.x`參考您要使用Content Analytics SDK資料庫的版本。
 
 2. 獨立組建會公開`window.contentAnalytics`做為初始化函式。
