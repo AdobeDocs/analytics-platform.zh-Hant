@@ -26,17 +26,17 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | Content Analytics行動裝置頻道 | 更新[Content Analytics檔案](/help/content-analytics/content-analytics.md)，說明Content Analytics行動裝置頻道的功能和設定。 |
 | **2026年4月** | |
 | 衍生欄位准則 | 新增有關使用衍生欄位的[指南](/help/use-cases/data-views/derived-fields/guidelines.md) （最佳實務、護欄和常見陷阱）的文章。 |
-| 新增整合Journey Optimizer時可包含的兩個資料集的遺漏檔案 | 為您的IMS組織啟用高輸送量異動訊息附加元件時，連線中會包含另外兩個非設定檔、系統產生的資料集](/help/integrations/ajo.md#high-throughput-add-on-datasets)。[ |
+| 新增整合Journey Optimizer時可包含的兩個資料集的遺漏檔案 | 為您的IMS組織啟用高輸送量異動訊息附加元件時，連線中會包含另外兩個非設定檔、系統產生的資料集[&#128279;](/help/integrations/ajo.md#high-throughput-add-on-datasets)。 |
 | 更新同類群組分析使用案例 | 根據意見回饋，將Analysis Workspace範例新增至同類群組分析使用案例。 |
 | **2026 年 3 月** | |
-| 劃分面板 | 已重新建構面板](/help/analysis-workspace/c-panels/panels.md#drop-zone)的[拖放區域檔案，以支援新的[劃分](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
-| 錯誤ID (BAVID)的技術檔案 | 錯誤ID](/help/technotes/badids.md)上的新[技術檔案。 此技術檔案說明了「錯誤ID」的定義（在Customer Journey Analytics介面中使用了「錯誤ID」），以及如何調查連線中的資料是否有「錯誤ID」。 |
+| 劃分面板 | 已重新建構面板[&#128279;](/help/analysis-workspace/c-panels/panels.md#drop-zone)的拖放區域檔案，以支援新的[劃分](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
+| 錯誤ID (BAVID)的技術檔案 | 錯誤ID[&#128279;](/help/technotes/badids.md)上的新技術檔案。 此技術檔案說明了「錯誤ID」的定義（在Customer Journey Analytics介面中使用了「錯誤ID」），以及如何調查連線中的資料是否有「錯誤ID」。 |
 | 資料集在連線中預覽重新設計 | 更新檔案，瞭解如何在以人員為基礎的連線中[新增](/help/connections/create-connection.md#add-datasets)或[編輯](/help/connections/create-connection.md#edit-a-dataset)資料集時，改善資料預覽體驗，包括有關啟用拼接功能資料集的其他[拼接預覽資訊](/help/stitching/use-stitching-ui.md#datasets-preview)的檔案。 |
 | Content Analytics縮圖和預覽 | 有關Content Analytics中其他視覺效果的[縮圖](/help/content-analytics/report/report.md#thumbnails)和[預覽](/help/content-analytics/report/report.md#previews)的檔案。 |
 | **2026 年 2 月** | |
 | 標頭覆寫 | 有關Content Analytics的其他[標題覆寫設定](/help/content-analytics/config/guided.md#header-overrides)的檔案。 |
-| 計算量度護欄 | 已更新組織](/help/technotes/guardrails.md#segments-and-calculated-metrics)的最大計算量度數的[護欄。 目前的上限為50,000。 |
-| 獨立Content Analytics | 新增Content Analytics](/help/content-analytics/config/standalone.md)的[獨立組態檔案。 |
+| 計算量度護欄 | 已更新組織[&#128279;](/help/technotes/guardrails.md#segments-and-calculated-metrics)的最大計算量度數的護欄。 目前的上限為50,000。 |
+| 獨立Content Analytics | 新增Content Analytics[&#128279;](/help/content-analytics/config/standalone.md)的獨立組態檔案。 |
 | **2026 年 1 月** | |
 | 建立結構描述 | 新增重要資訊和內容至[架構您的結構描述以與Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)搭配使用。 |
 
@@ -236,7 +236,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 在行動計分卡中建立資料故事 | [資料故事](/help/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |
 | 更新功能支援 | 已透過 Customer Journey Analytics 中提供、但在 AA 中無法使用或不支援的功能表來更新 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。 |
 | 預設計算量度 | 已新增說明 [Adobe 提供的預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)的內容。 |
-| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/components/data-dictionary/view-data-dictionary.md)、[編輯 ](/help/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
+| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/components/data-dictionary/view-data-dictionary.md)、[編輯 &#x200B;](/help/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
 | 專案連結共用 (不需登入) | <p>已更新現有文件，說明如何與無權存取 Analysis Workspace 的人員共用專案的唯讀連結。</p> <p>已更新使用者文件，包括[共用專案](/help/analysis-workspace/curate-share/share-projects.md)和[建立可共用連結](/help/analysis-workspace/curate-share/shareable-links.md)。</p> <p>已將管理員選項新增至[偏好設定](/help/analysis-workspace/user-preferences.md)。</p> |
 | **2023 年 2 月** | |
 | 比較 Customer Journey Analytics 和 BI 解決方案 | Customer Journey Analytics 與典型 BI 解決方案[比較](../getting-started/cja-vs-bi.md)的新文件。 |
