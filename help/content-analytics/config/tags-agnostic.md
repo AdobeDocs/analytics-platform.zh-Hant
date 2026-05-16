@@ -1,10 +1,10 @@
 ---
-title: Content Analytics JavaScript Kibrary
+title: Content Analytics JavaScript資料庫
 description: 瞭解如何在不使用Experience Platform資料收集標籤的情況下設定Content Analytics，並改用Content Analytics JavaScript資料庫。
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
+source-git-commit: 35abfb5b77384b16beaddab2554a7d48d10be012
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 4%
@@ -52,7 +52,7 @@ Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Net
 
 直接從CDN載入程式庫。
 
-1. 初始化[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/install/library)並載入Content Analytics套件：
+1. 初始化[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)並載入Content Analytics套件：
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -74,7 +74,7 @@ Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Net
    ```
 
    位置
-   * `alloy/2.x.x`參考您要使用[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/install/library)的版本。
+   * `alloy/2.x.x`參考您要使用[Web SDK JavaScript資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library)的版本。
    * `content-analytics/1.x.x`參考您要使用Content Analytics SDK資料庫的版本。
 
 2. 獨立組建會公開`window.contentAnalytics`做為初始化函式。
