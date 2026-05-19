@@ -58,7 +58,7 @@ ht-degree: 75%
 ### Web
 
 * 您已將 Content Analytics 中使用之特徵化服務的使用者代理程式和 IP 地址加入允許名單。 要設定的使用者代理字串是：<code>AdobeFeaturization/1.0</code>。
-* 如果您已使用 JavaScript 實施 [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library){target="_blank"} 用於定期行為資料收集，請確保您使用的是預設名稱 <code>alloy</code> ，針對 JavaScript 程式庫。
+* 如果您已使用 JavaScript 實施 [Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/install/library){target="_blank"} 用於定期行為資料收集，請確保您使用的是預設名稱 <code>alloy</code> ，針對 JavaScript 程式庫。
 * 您具有 Customer Journey Analytics 產品管理員角色，並具有管理連線和管理資料視圖的額外權限。
 * 如果您決定收集Content Analytics體驗，請確定您根據網頁的變更來設定和更新Content Analytics版本設定。
 * 您必須擁有[資料收集權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/permissions){target="_blank"}：
