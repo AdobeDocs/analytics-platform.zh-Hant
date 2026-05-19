@@ -7,23 +7,12 @@ role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
 TQID: https://experienceleague.adobe.com/pXiDvk--5tAJYGj8lfq7KQfVLQqVOePbBZqCXT10rZ0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 1485
 ht-degree: 2%
@@ -55,7 +44,7 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
 
 當您設定資料檢視時，可以重新定義這些容器的命名方式，但容器之間的階層與關係是預先確定的。 工作階段容器是根據您在資料檢視中的[工作階段設定](/help/data-views/session-settings.md)中定義工作階段的方式而產生。
 
-![B2C](assets/b2c-containers.svg){zoomable="yes"}
+![B2C](assets/b2c-containers.png){zoomable="yes"}
 
 
 ### B2B 容器
@@ -64,7 +53,7 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
 
 容器之間的階層與關係是預先設定的。 商機、購買群組及人員都是帳戶容器的同層級容器。 在該階層中，會根據您在資料檢視中的[工作階段設定](/help/data-views/session-settings.md)中定義工作階段的方式，產生「人員」容器和「事件」容器之間的工作階段容器。 目前不產生和支援其他工作階段容器，例如帳戶容器和事件容器之間的容器。 如需B2B容器的說明和基本用法，請參閱下表。
 
-![B2B](assets/b2b-containers.svg){zoomable="yes"}
+![B2B](assets/b2b-containers.png){zoomable="yes"}
 
 | B2B容器 | 說明<br/>基本使用案例 |
 |---|---|
@@ -88,7 +77,7 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
   >Customer Journey Analytics B2B edition中以帳戶為基礎設定的B2B事件資料，可能包含不含個人或工作階段的資料列。 例如：詳細說明商機階段進展的資料列。 評估區段時，請記住，人員和工作階段可能不再是正確的標準。
   >
 
-* **歸因**：您可以在[歸因面板](/help/analysis-workspace/c-panels/attribution.md)、[歸因元件設定](/help/data-views/component-settings/attribution.md)、[計算量度](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)或自由表格[&#128279;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的欄中使用新的B2B容器。 帳戶回顧期間延長至13個月。
+* **歸因**：您可以在[歸因面板](/help/analysis-workspace/c-panels/attribution.md)、[歸因元件設定](/help/data-views/component-settings/attribution.md)、[計算量度](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)或自由表格](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的[欄中使用新的B2B容器。 帳戶回顧期間延長至13個月。
 
 * **視覺效果**： [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)、[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)、[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)和[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)視覺效果支援新的B2B容器。 例如：您可以使用新的容器來瞭解購買群組如何耗用內容，或機會同類群組如何接近銷售結尾。
 您也可以在[使用者偏好設定](/help/analysis-workspace/user-preferences.md#visualizations-preferences)中設定這些視覺效果的預設容器。
@@ -109,7 +98,7 @@ Customer Journey Analytics B2B會區分下列資料型別和資料集。
 
 Customer Journey Analytics B2B edition中以帳戶為基礎的連線範例：
 
-![以帳戶為基礎的連線範例](assets/b2b-datasets.svg)
+![以帳戶為基礎的連線範例](assets/b2b-datasets.png)
 
 Customer Journey Analytics B2B edition提供[連線圖](/help/connections/create-connection.md#connection-map)介面，讓您概略瞭解連線中資料集之間的關係。
 
