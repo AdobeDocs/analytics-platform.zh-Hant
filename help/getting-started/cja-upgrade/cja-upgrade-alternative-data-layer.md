@@ -5,20 +5,14 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 3a0d03d1-def0-45e6-8eb2-115b88497e6d
-TQID: https://experienceleague.adobe.com/86uAMXhpBXaVnjA8Zh2G7Ail-XKR2HjrYNyge5BRMRc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+autotag-review: '2026-05-19T08:09:26.880Z'
+TQID: 'https://experienceleague.adobe.com/IsYrCVRcY1cd2xSYV7A-iJ2jx8Ku-oZ-BtHu8If-55Y'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 696
 ht-degree: 54%
@@ -68,7 +62,7 @@ ht-degree: 54%
 
 | 優點 | 缺點 |
 |----------|---------|
-| <ul><li>**提供在 Experience Edge Network**&#x200B;中託管資料的所有優點： <p>這些優點包括：</p><ul><li>Adobe Experience Platform 是為支援 [即時個人化使用案例而建立，因此具有高效能報告和資料可用性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=zh-Hant)</li><li>整合其他CX Enterprise產品（AJO、RTCDP等）之間的Adobe CX Enterprise資料收集實作</li><li>不依賴 Adobe Analytics 命名法 (prop、eVar 和 event 等)</li></ul><li>**使用您目前的資料層邏輯**：此方法會使用您目前的資料層邏輯，取代傳統的Web SDK實作。 雖然此方法需要一些設定，但並不需要從頭開始的全新實作，也不需要填入資料元素或標籤規則。 它可讓您將資料層中的資料對應至XDM，而不是從頭開始填入XDM物件。</li></ul> | <ul><li>**需要對應才能將資料傳送到 Platform**：當您的組織準備好使用 Customer Journey Analytics 時，您必須將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform 中的資料集。 <p>因為此選項可讓您將整個使用者端資料層放入資料物件中，並將其傳送到Adobe，這會導致Adobe無法輕鬆解譯的大量資料。 若要允許Adobe解譯資料，您必須使用資料流對應將每個個別欄位對應到所需的XDM欄位。</p></li><li>**硬式實作**：實作受限於傳送點選時資料層提供的內容。 對於具有基本資料需求的組織而言，這可能是一種可接受的做法，但大多陣列織應避免這種僵化的實作，而採用更具彈性的實作，以便填入資料元素。</li><li>**未來的變更更難實作**：您日後新增至資料的任何欄位都必須對應至資料流中的XDM。</li></ul> |
+| <ul><li>**提供在 Experience Edge Network**&#x200B;中託管資料的所有優點： <p>這些優點包括：</p><ul><li>Adobe Experience Platform 是為支援 [即時個人化使用案例而建立，因此具有高效能報告和資料可用性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>整合其他CX Enterprise產品（AJO、RTCDP等）之間的Adobe CX Enterprise資料收集實作</li><li>不依賴 Adobe Analytics 命名法 (prop、eVar 和 event 等)</li></ul><li>**使用您目前的資料層邏輯**：此方法會使用您目前的資料層邏輯，取代傳統的Web SDK實作。 雖然此方法需要一些設定，但並不需要從頭開始的全新實作，也不需要填入資料元素或標籤規則。 它可讓您將資料層中的資料對應至XDM，而不是從頭開始填入XDM物件。</li></ul> | <ul><li>**需要對應才能將資料傳送到 Platform**：當您的組織準備好使用 Customer Journey Analytics 時，您必須將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform 中的資料集。 <p>因為此選項可讓您將整個使用者端資料層放入資料物件中，並將其傳送到Adobe，這會導致Adobe無法輕鬆解譯的大量資料。 若要允許Adobe解譯資料，您必須使用資料流對應將每個個別欄位對應到所需的XDM欄位。</p></li><li>**硬式實作**：實作受限於傳送點選時資料層提供的內容。 對於具有基本資料需求的組織而言，這可能是一種可接受的做法，但大多陣列織應避免這種僵化的實作，而採用更具彈性的實作，以便填入資料元素。</li><li>**未來的變更更難實作**：您日後新增至資料的任何欄位都必須對應至資料流中的XDM。</li></ul> |
 
 {style="table-layout:auto"}
 

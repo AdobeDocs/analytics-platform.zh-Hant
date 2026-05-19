@@ -5,18 +5,14 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: db5506e0-6159-4d4b-8149-e4966dab9807
-TQID: https://experienceleague.adobe.com/ZRRduve-VQwIywA8A51TLsNK6LAKT8Bz51nGdO0a9T0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+autotag-review: '2026-05-19T07:08:08.190Z'
+TQID: 'https://experienceleague.adobe.com/jrPqS9duYpmQRlQlzurMAQzdtXvW-y-PAsTiyuVfd28'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: c38ed341-fab2-46df-9d72-88d8166edebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 883
 ht-degree: 71%
@@ -25,7 +21,7 @@ ht-degree: 71%
 
 # 使用Adobe Analytics報表套裝資料
 
-Adobe Analytics客戶可以使用[Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)，輕鬆在Experience Platform和Customer Journey Analytics中運用其報告套裝。 下面的討論內容將說明如何這樣做。
+Adobe Analytics客戶可以使用[Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)，輕鬆在Experience Platform和Customer Journey Analytics中運用其報告套裝。 下面的討論內容將說明如何這樣做。
 
 >[!IMPORTANT]
 >
@@ -41,7 +37,7 @@ Adobe Analytics客戶可以使用[Analytics來源聯結器](https://experiencele
 
 當您準備好資料後，就可以開始設定要在 Adobe Experience Platform 和 Customer Journey Analytics 中使用的報告套裝。
 
-1. **針對您想要在Adobe Experience Platform和Customer Journey Analytics中使用的每個報告套裝建立一個資料流。** [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)是可讓您[在Adobe Analytics和Adobe Experience Platform之間](/help/connections/create-connection.md) （亦即資料流）建立連線的工具。 您將使用來源連接器針對您想要在 Adobe Experience Platform 中使用的每個報告套裝建立一個資料流。 資料流會建立報告套裝資料的複本，其中的結構描述已轉換為 [XDM](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant) 以供 Adobe Experience Platform 應用程式 (包括 Customer Journey Analytics) 使用。<p>每個透過來源連接器設定了資料流的報告套裝都會當作個別資料集儲存在 Adobe Experience Platform 資料湖中。 每個資料流將自動隨附 13 個月的歷史報告套裝資料，新的資料將會持續流入 Adobe Experience Platform。 （請注意，從2023年4月26日開始，非生產沙箱中的回填限製為3個月。） 使用Analytics來源聯結器時，您無需擔心必須事先建立結構描述。 系統會自動為您建立 Adobe Analytics 專用的標準化結構描述。 不過，Adobe Experience Platform 的[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)工具可用於在資料儲存於資料湖並提供給 Customer Journey Analytics 使用之前先強化此結構描述。 請注意，某些類型的資料會被來源連接器劃分出去，而不會出現在 Adobe Experience Platform 資料湖的資料集中。 其他資料列可能會在資料湖與 Customer Journey Analytics 之間被劃分出去。 如需詳細資訊，請參閱[比較 Adobe Analytics 資料與 Customer Journey Analytics 資料](/help/troubleshooting/compare.md)。
+1. **針對您想要在Adobe Experience Platform和Customer Journey Analytics中使用的每個報告套裝建立一個資料流。** [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)是可讓您[在Adobe Analytics和Adobe Experience Platform之間](/help/connections/create-connection.md) （亦即資料流）建立連線的工具。 您將使用來源連接器針對您想要在 Adobe Experience Platform 中使用的每個報告套裝建立一個資料流。 資料流會建立報告套裝資料的複本，其中的結構描述已轉換為 [XDM](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant) 以供 Adobe Experience Platform 應用程式 (包括 Customer Journey Analytics) 使用。<p>每個透過來源連接器設定了資料流的報告套裝都會當作個別資料集儲存在 Adobe Experience Platform 資料湖中。 每個資料流將自動隨附 13 個月的歷史報告套裝資料，新的資料將會持續流入 Adobe Experience Platform。 （請注意，從2023年4月26日開始，非生產沙箱中的回填限製為3個月。） 使用Analytics來源聯結器時，您無需擔心必須事先建立結構描述。 系統會自動為您建立 Adobe Analytics 專用的標準化結構描述。 不過，Adobe Experience Platform 的[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)工具可用於在資料儲存於資料湖並提供給 Customer Journey Analytics 使用之前先強化此結構描述。 請注意，某些類型的資料會被來源連接器劃分出去，而不會出現在 Adobe Experience Platform 資料湖的資料集中。 其他資料列可能會在資料湖與 Customer Journey Analytics 之間被劃分出去。 如需詳細資訊，請參閱[比較 Adobe Analytics 資料與 Customer Journey Analytics 資料](/help/troubleshooting/compare.md)。
 1. **使用「資料準備」協助您在Customer Journey Analytics中合併報告套裝。** 「資料準備」可用於多種型別的資料轉換，Adobe Analytics資料的一個常見用途是解決多個報表套裝中的prop及/或eVar對應差異，以便報表套裝可以輕鬆地在Customer Journey Analytics中合併。 如需詳細資訊，請參閱[將報告套裝與不同的結構描述組合](/help/use-cases/aa-data/combine-report-suites.md)。
 1. 必要時&#x200B;**啟用拼接**。 在 Customer Journey Analytics 中合併多個資料集時，拼接功能可以協助將不同 ID 命名空間解析為單一拼接 ID，以實現跨裝置和管道的單一客戶檢視。 如需詳細資訊，請參閱「[拼接概觀](../../stitching/overview.md)」。
 1. **建立一或多個Customer Journey Analytics連線。** 一旦您的報表套裝資料集可以在Adobe Experience Platform Data Lake中使用，您就可以建立一或多個[Customer Journey Analytics連線](/help/connections/overview.md)，將這些資料集匯入Customer Journey Analytics。 在連線中，報告套裝資料可以與其他類型的資料合併，好讓您可以建立真正的跨管道客戶體驗檢視。

@@ -5,17 +5,14 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-TQID: https://experienceleague.adobe.com/eeNrn3hVytufmz195UHNakznBoVRQ0A-qfOYucFF-X0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+autotag-review: '2026-05-19T09:24:07.100Z'
+TQID: 'https://experienceleague.adobe.com/f-HOhKLpbM4u4MAzzoUCc0cMvVIu1k3FXg4FShValVE'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1899
 ht-degree: 70%
@@ -216,10 +213,10 @@ ht-degree: 70%
 - 在啟用圖表式拚接之前，必須先在沙箱層級設定Experience Platform Identity Service的身分圖表。
    - 身分圖表必須有名稱空間（例如`Email`或`Phone`），您想在拼接期間使用它來解析人員ID。
    - 身分圖表必須填入來自任何相關資料集（型別為&#x200B;*event*&#x200B;或&#x200B;*設定檔*，且至少包含兩個具有ID值的有用名稱空間）的身分資訊。
-   - 擁有這類相關身分的所有資料集都必須針對身分圖表資料擷取[&#128279;](faq.md#enable-a-dataset-for-the-identity-service)啟用。 這項啟用可確保隨著時間從所有需要的來源將傳入的身分新增到圖表中。
+   - 擁有這類相關身分的所有資料集都必須針對身分圖表資料擷取](faq.md#enable-a-dataset-for-the-identity-service)啟用[。 這項啟用可確保隨著時間從所有需要的來源將傳入的身分新增到圖表中。
    - 若已使用即時客戶資料設定檔或Adobe Journey Optimizer一段時間，則應已在一定程度上設定圖表。<br/>若啟用圖表式拚接的資料集也需要歷史拚接回填，圖表應已包含整個期間的歷史身分識別，才能取得想要的拚接結果。
 - 如果您想要使用圖表式拼接，而且您預期事件資料集會貢獻身分圖表，您應該[啟用身分服務的資料集](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)。
-- 永久ID和人員ID可搭配[identityMap](#identitymap)使用。 或者，永久性ID和人員ID可以是XDM結構描述中的欄位，在這種情況下，欄位必須是[在結構描述中定義為身分](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity?lang=en)。
+- 永久ID和人員ID可搭配[identityMap](#identitymap)使用。 或者，永久性ID和人員ID可以是XDM結構描述中的欄位，在這種情況下，欄位必須是[在結構描述中定義為身分](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en)。
 
 >[!NOTE]
 >

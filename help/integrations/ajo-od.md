@@ -4,18 +4,14 @@ description: 導入 Adobe Journey Optimizer 決策管理產生的資料，並使
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-TQID: https://experienceleague.adobe.com/kSBDrh6xQ-vi59JbirhxURFLIiG3BNQWeBZFJgygaG8
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+autotag-review: '2026-05-19T07:19:20.352Z'
+TQID: 'https://experienceleague.adobe.com/n3xsScsv43IG-tOQhgNjeqB2UmWzbIVw7sv5CcpZPd0'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: df066828-d385-4da6-af58-80137fb27d7b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 753
 ht-degree: 100%
@@ -25,7 +21,7 @@ ht-degree: 100%
 # 整合決策管理
 
 
-Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant)透過集中行銷產品建議資料庫和決策引擎來輕鬆實現個人化；該決策引擎會將規則和限制套用至 Adobe Experience Platform 建立的豐富即時輪廓，協助您在適當的時間向客戶傳送適合的產品建議。
+Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)透過集中行銷產品建議資料庫和決策引擎來輕鬆實現個人化；該決策引擎會將規則和限制套用至 Adobe Experience Platform 建立的豐富即時輪廓，協助您在適當的時間向客戶傳送適合的產品建議。
 
 決策管理是 Adobe Journey Optimizer 的一部分，且與其整合。 它也可以在 Adobe Journey Optimizer 定義的歷程和行銷活動以外獨立使用，從而運用其豐富的 [API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html) 支援。
 
@@ -33,7 +29,7 @@ Adobe Journey Optimizer [決策管理](https://experienceleague.adobe.com/docs/j
 
 ## 將資料從決策管理傳送到 Adobe Experience Platform
 
-Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Customer Journey Analytics 之間的連結。 來自決策管理的資料是在 Experience Platform 中&#x200B;**自動**&#x200B;收集，或作為&#x200B;**明確傳送體驗事件** (例如曝光次數或點擊次數) 來收集。 請參閱[開始使用資料收集](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=zh-Hant)以了解更多詳細資料。
+Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Customer Journey Analytics 之間的連結。 來自決策管理的資料是在 Experience Platform 中&#x200B;**自動**&#x200B;收集，或作為&#x200B;**明確傳送體驗事件** (例如曝光次數或點擊次數) 來收集。 請參閱[開始使用資料收集](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html)以了解更多詳細資料。
 
 ## 建立連線
 
@@ -53,7 +49,7 @@ Adobe Experience Platform 會當作中央資料來源，以及決策管理與 Cu
 
 ## 建立資料視圖
 
-在建立連線後，您可以建立一個或多個[資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant)來設定 Customer Journey Analytics 中可用的所需維度和量度。
+在建立連線後，您可以建立一個或多個[資料視圖](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)來設定 Customer Journey Analytics 中可用的所需維度和量度。
 
 >[!NOTE]
 >

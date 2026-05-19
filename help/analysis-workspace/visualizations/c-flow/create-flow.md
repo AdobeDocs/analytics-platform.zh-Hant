@@ -4,16 +4,14 @@ title: 設定流量視覺效果
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-TQID: https://experienceleague.adobe.com/Pp6CBWUfX8aIxAc2c4O90rwIlqZ-3dKxct-XMgG-KGo
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+autotag-review: '2026-05-19T08:39:50.563Z'
+TQID: 'https://experienceleague.adobe.com/QqjZAQQWPWP8ykksBH5k9TrW8Cgd-Lt6mSnczBREGfs'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1843
 ht-degree: 80%
@@ -185,7 +183,7 @@ ht-degree: 80%
 | **[!UICONTROL 排除項目]**&#x200B;或&#x200B;**[!UICONTROL 還原排除項目]** | 從欄中移除特定節點，並自動將其建立為欄頂端的篩選器。 若要還原排除項目，請從內容選單選取「**[!UICONTROL 還原排除項目]**」。 您也可以開啟欄頂端的區段，並移除包含您剛剛排除的專案的Pillbox。 |
 | **[!UICONTROL 趨勢]** | 建立節點的趨勢圖。 |
 | **[!UICONTROL 顯示下一欄]**/**[!UICONTROL 顯示上一欄]** | 顯示視覺效果下一欄 (右邊) 或上一欄 (左邊)。 |
-| **[!UICONTROL 隱藏資料行]**&#x200B;n | 隱藏視覺效果的選取欄。 |
+| **[!UICONTROL 隱藏資料行]**n | 隱藏視覺效果的選取欄。 |
 | **[!UICONTROL 展開整個欄]** | 展開欄以顯示所有節點。 依預設，只會顯示前五個節點。 |
 | **[!UICONTROL 從選取項目中建立客群]** | 根據選取欄建立客群。 |
 | **[!UICONTROL 摺疊整個欄]** | 隱藏該欄中的所有節點。 |
@@ -195,13 +193,13 @@ ht-degree: 80%
 使用此選項時，請記住：
 
 * **[!UICONTROL 「僅限於第一次/最後一次發生」]**&#x200B;只會計算系列中的第一次/最後一次發生次數。 **[!UICONTROL 「開頭為」]**&#x200B;或&#x200B;**[!UICONTROL 「結束於」]**&#x200B;條件的所有其他發生次數都會被捨棄。
-* 如果與&#x200B;**[!UICONTROL 開頭為]**&#x200B;流量搭配使用，則僅包括符合開始條件的第一次發生次數。
+* 如果與&#x200B;**[!UICONTROL 開頭為]**流量搭配使用，則僅包括符合開始條件的第一次發生次數。
 在下列範例中，**全部***新增至購物車* 的發生次數和&#x200B;*產品主類別*流量中的每個步驟均包括在內。
   ![無限制，第一](assets/limitofffirst.png)
 
   在下列範例中，僅&#x200B;**第一次***新增至購物車* 的發生次數和&#x200B;*產品主類別*流量中的每個步驟均包括在內。
   ![Lint，開始](assets/limitonfirst.png)
-* 如果與&#x200B;**[!UICONTROL 結束於]**&#x200B;流量搭配使用，則僅包括符合結束條件的最後一次發生次數。
+* 如果與&#x200B;**[!UICONTROL 結束於]**流量搭配使用，則僅包括符合結束條件的最後一次發生次數。
 在下列範例中，**全部***產品主類別* 的發生次數和&#x200B;*新增至購物車*流量中的每個步驟均包括在內。
   ![無限制，第一](assets/limitofflast.png)
 

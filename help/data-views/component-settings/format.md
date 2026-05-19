@@ -5,18 +5,14 @@ exl-id: 5ce13fe9-29fa-474c-bae3-65f275153a59
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-TQID: https://experienceleague.adobe.com/CWIWdUz4Jdhcr18BwBBlJ7mJtvHQDA-YrTOLSPbWxpQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+autotag-review: '2026-05-19T09:12:17.807Z'
+TQID: 'https://experienceleague.adobe.com/LYz2PLV0TlTYRDuRfh8yP8p457Q5LEnJbsowqY0XPqA'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 759
 ht-degree: 88%
@@ -85,7 +81,7 @@ ht-degree: 88%
 >在開始設定貨幣換算量度之前，請考慮以下事項：
 >
 >* 您為貨幣轉換選取的量度必須有數字類型 (雙精度浮點數、長整數、整數、位元組)。
->* 設定您的 Customer Journey Analytics 連線以包含至少一個事件資料集，其中每個包含貨幣量度的事件都有貨幣代碼維度。 此貨幣代碼維度是使用符合[&#x200B; ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 標準 (表示貨幣) 的字母貨幣代碼。 這些值應以全大寫格式，例如 USD 代表 $、EUR 代表 €、GBP 代表 £。
+>* 設定您的 Customer Journey Analytics 連線以包含至少一個事件資料集，其中每個包含貨幣量度的事件都有貨幣代碼維度。 此貨幣代碼維度是使用符合[ ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) 標準 (表示貨幣) 的字母貨幣代碼。 這些值應以全大寫格式，例如 USD 代表 $、EUR 代表 €、GBP 代表 £。
 
 若要確定如何顯示和轉換指定量度的貨幣：
 
@@ -103,7 +99,7 @@ ht-degree: 88%
 
    * 在「[!UICONTROL **選取貨幣代碼維度**]」欄位中，選取代表您要轉換貨幣所用 (您的資料所依據的貨幣) 的維度。 例如，選取名為&#x200B;[!UICONTROL **貨幣代碼**]&#x200B;的維度。
 
-     如果您目前資料結構描述中沒有包含貨幣代碼欄位的維度，則您可以使用[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)， [資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)或[衍生欄位](/help/data-views/derived-fields/derived-fields.md)建立新的貨幣代碼欄位。 資料準備只適用於新的實施，因為這只能以往前為基礎。 根據組織的設定，可以使用資料蒸餾器和衍生欄位來存取歷史貨幣代碼值。
+     如果您目前資料結構描述中沒有包含貨幣代碼欄位的維度，則您可以使用[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)， [資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)或[衍生欄位](/help/data-views/derived-fields/derived-fields.md)建立新的貨幣代碼欄位。 資料準備只適用於新的實施，因為這只能以往前為基礎。 根據組織的設定，可以使用資料蒸餾器和衍生欄位來存取歷史貨幣代碼值。
 
    * 在「[!UICONTROL **以此類型轉換和顯示貨幣：**]」欄位中，選取您想要轉換資料的貨幣。
 

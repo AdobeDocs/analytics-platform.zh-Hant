@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 55666295-6161-4fbc-b326-231cb5780d4f
-TQID: https://experienceleague.adobe.com/KRB52Oh2e0b6k7UeuZ7jadqW-VY1QhFWyTqrp6QQFwY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+autotag-review: '2026-05-19T09:45:14.371Z'
+TQID: 'https://experienceleague.adobe.com/afndJsKLHQSCIa9cdTcVUoBRGrU2wBRUYZ4QijVOiE0'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 788
 ht-degree: 0%
@@ -49,11 +49,11 @@ ht-degree: 0%
    1. 選取&#x200B;**[!UICONTROL 發生次數總和]**。
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
-   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
+   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 相對日期]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 位於最後]** `1` **[!UICONTROL 日曆年]**&#x200B;時顯示專案。
    1. 選取&#x200B;**[!UICONTROL 套用篩選器]**。
-   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL product_name is (All)]**。
+   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL product_name is (All)]**。
    1. 選取&#x200B;**[!UICONTROL 前N]**&#x200B;位作為&#x200B;**[!UICONTROL 篩選器型別]**。
    1. 選取&#x200B;**[!UICONTROL 顯示專案]** **[!UICONTROL 前]** `5` **[!UICONTROL 依值]**。
    1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;窗格拖放&#x200B;**[!UICONTROL 總和發生次數]**&#x200B;並將它拖放到&#x200B;**[!UICONTROL 在此處新增資料欄位]**。
@@ -219,8 +219,8 @@ GROUP BY 1
 1. 從左側邊欄的&#x200B;**[!UICONTROL ‣ Cc資料檢視]**&#x200B;區段：
    1. 選取&#x200B;**[!UICONTROL 產品名稱]**。
    1. 在左側邊欄（底部）中選取&#x200B;**[!UICONTROL MEASURES]**&#x200B;底下的&#x200B;**[!UICONTROL 計數]**。
-1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5&rbrace;欄上選取**&#x200B;[!UICONTROL &#x200B; 1&rbrace; （**[!UICONTROL 遞減，排序順序： 1]**）。]&#x200B;**]**
-1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5&rbrace;欄上選取**&#x200B;[!UICONTROL &#x200B; 1&rbrace; （**[!UICONTROL 遞減，排序順序： 1]**）。]&#x200B;**]**
+1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5}欄上選取**[!UICONTROL  1} （**[!UICONTROL 遞減，排序順序： 1]**）。]**]**
+1. 請確定您在&#x200B;**[!UICONTROL Purchase Revenue↓5}欄上選取**[!UICONTROL  1} （**[!UICONTROL 遞減，排序順序： 1]**）。]**]**
 1. 選取&#x200B;**[!UICONTROL 執行]**。
 1. 選取‣**[!UICONTROL 視覺效果]**。
 

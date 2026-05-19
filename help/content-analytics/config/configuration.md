@@ -5,21 +5,14 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-TQID: https://experienceleague.adobe.com/a-Mu3MKfpRsUqgxx7JWP3NR4vji62VaNFi-hI5teDZI
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+autotag-review: '2026-05-19T08:53:41.814Z'
+TQID: 'https://experienceleague.adobe.com/v34BzDIuWE-GJEsepuTDMSDbNZT9wFP-WjeKZljmC1Y'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 780
 ht-degree: 75%
@@ -53,7 +46,7 @@ ht-degree: 75%
 ### Web
 
 * 您已將 Content Analytics 中使用之特徵化服務的使用者代理程式和 IP 地址加入允許名單。 要設定的使用者代理字串是：<code>AdobeFeaturization/1.0</code>。
-* 如果您已使用 JavaScript 實施 [Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/install/library){target="_blank"} 用於定期行為資料收集，請確保您使用的是預設名稱 <code>alloy</code> ，針對 JavaScript 程式庫。
+* 如果您已使用 JavaScript 實施 [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library){target="_blank"} 用於定期行為資料收集，請確保您使用的是預設名稱 <code>alloy</code> ，針對 JavaScript 程式庫。
 * 您具有 Customer Journey Analytics 產品管理員角色，並具有管理連線和管理資料視圖的額外權限。
 * 如果您決定收集Content Analytics體驗，請確定您根據網頁的變更來設定和更新Content Analytics版本設定。
 * 您必須擁有[資料收集權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/permissions){target="_blank"}：
