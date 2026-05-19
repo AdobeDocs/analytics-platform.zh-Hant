@@ -7,11 +7,17 @@ role: User
 exl-id: e66ad7c4-0d49-41fe-a9fc-661fd31e8c68
 autotag-review: '2026-05-19T09:43:29.052Z'
 TQID: 'https://experienceleague.adobe.com/Sh1xJ0RXluNN0HlY2xlLVBs5-sahCwkcahQaThFCJpA'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2: id: f24857a4-4b64-4b25-b237-d43026362144
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1337
@@ -53,7 +59,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
 
-   1. 選取此視覺效果&#x200B;]**上的**[!UICONTROL &#x200B;篩選器&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
+   1. 選取此視覺效果&#x200B;**上的**&#x200B;篩選器&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 相對日期]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 位於最後]** `1` **[!UICONTROL 日曆年]**&#x200B;時顯示專案。
    1. 選取&#x200B;**[!UICONTROL 套用篩選器]**。
@@ -166,7 +172,7 @@ ht-degree: 1%
       1. 從&#x200B;**[!UICONTROL 量值型別]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 總和]**。
       1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;的自訂欄位名稱。 例如：`Purchase Revenue`。
       1. 選取&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;標籤。
-      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**輸入。
+      1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 小數]**，並確定`0`是以&#x200B;**[!UICONTROL 小數]**&#x200B;輸入。
          ![Looker自訂量度欄位](../assets/uc5-looker-customfield.png)
       1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
    1. 從&#x200B;**[!UICONTROL +新增]**&#x200B;下拉式功能表中再次選取&#x200B;**[!UICONTROL 自訂量值]**。 在&#x200B;**[!UICONTROL 建立自訂]**&#x200B;量值對話方塊中：
@@ -186,7 +192,7 @@ ht-degree: 1%
    1. 選取&#x200B;**[!UICONTROL 系列]**&#x200B;標籤。
    1. 向下捲動以檢視&#x200B;**[!UICONTROL 購買]**&#x200B;並將&#x200B;**[!UICONTROL 型別]**&#x200B;變更為&#x200B;**[!UICONTROL 行]**。
    1. 選取&#x200B;**[!UICONTROL Y]**&#x200B;索引標籤。
-   1. 從&#x200B;**[!UICONTROL 左1]**&#x200B;容器拖曳&#x200B;**[!UICONTROL 購買]**&#x200B;到顯示&#x200B;**[!UICONTROL *拖曳系列到此處以建立新的左軸&#x200B;*]**。 此動作會建立**[!UICONTROL &#x200B;左2 ]**容器。
+   1. 從&#x200B;**[!UICONTROL 左1]**&#x200B;容器拖曳&#x200B;**[!UICONTROL 購買]**&#x200B;到顯示&#x200B;**[!UICONTROL *拖曳系列到此處以建立新的左軸&#x200B;*]**。 此動作會建立&#x200B;**[!UICONTROL &#x200B;左2 &#x200B;]**&#x200B;容器。
       ![Looker視覺效果設定](../assets/uc5-looker-visualization.png)
    1. 選取&#x200B;**[!UICONTROL 編輯]**&#x200B;旁的![CrossSize75](/help/assets/icons/CrossSize75.svg)以隱藏快顯對話方塊
 

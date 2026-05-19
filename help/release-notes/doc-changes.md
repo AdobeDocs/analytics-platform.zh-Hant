@@ -6,11 +6,33 @@ solution: Customer Journey Analytics
 feature: Release Notes
 autotag-review: '2026-05-19T11:00:09.733Z'
 TQID: 'https://experienceleague.adobe.com/hHcvSYqGtYuKbPLvtu2qALBNLA0cogWxEUYxu-ktUvM'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: e634a07b-b7ca-4af3-a124-3024ce559e17id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5eid: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2: id: a8e39571-4463-4aa3-8b3f-4e2341ecf3b3
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
+  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2:
+  - id: a8e39571-4463-4aa3-8b3f-4e2341ecf3b3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 6915
@@ -33,17 +55,17 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | Content Analytics行動裝置頻道 | 更新[Content Analytics檔案](/help/content-analytics/content-analytics.md)，說明Content Analytics行動裝置頻道的功能和設定。 |
 | **2026年4月** | |
 | 衍生欄位准則 | 新增有關使用衍生欄位的[指南](/help/use-cases/data-views/derived-fields/guidelines.md) （最佳實務、護欄和常見陷阱）的文章。 |
-| 新增整合Journey Optimizer時可包含的兩個資料集的遺漏檔案 | 為您的IMS組織啟用高輸送量異動訊息附加元件時，連線中會包含另外兩個非設定檔、系統產生的資料集](/help/integrations/ajo.md#high-throughput-add-on-datasets)。[ |
+| 新增整合Journey Optimizer時可包含的兩個資料集的遺漏檔案 | 為您的IMS組織啟用高輸送量異動訊息附加元件時，連線中會包含另外兩個非設定檔、系統產生的資料集[&#128279;](/help/integrations/ajo.md#high-throughput-add-on-datasets)。 |
 | 更新同類群組分析使用案例 | 根據意見回饋，將Analysis Workspace範例新增至同類群組分析使用案例。 |
 | **2026 年 3 月** | |
-| 劃分面板 | 已重新建構面板](/help/analysis-workspace/c-panels/panels.md#drop-zone)的[拖放區域檔案，以支援新的[劃分](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
-| 錯誤ID (BAVID)的技術檔案 | 錯誤ID](/help/technotes/badids.md)上的新[技術檔案。 此技術檔案說明了「錯誤ID」的定義（在Customer Journey Analytics介面中使用了「錯誤ID」），以及如何調查連線中的資料是否有「錯誤ID」。 |
+| 劃分面板 | 已重新建構面板[&#128279;](/help/analysis-workspace/c-panels/panels.md#drop-zone)的拖放區域檔案，以支援新的[劃分](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
+| 錯誤ID (BAVID)的技術檔案 | 錯誤ID[&#128279;](/help/technotes/badids.md)上的新技術檔案。 此技術檔案說明了「錯誤ID」的定義（在Customer Journey Analytics介面中使用了「錯誤ID」），以及如何調查連線中的資料是否有「錯誤ID」。 |
 | 資料集在連線中預覽重新設計 | 更新檔案，瞭解如何在以人員為基礎的連線中[新增](/help/connections/create-connection.md#add-datasets)或[編輯](/help/connections/create-connection.md#edit-a-dataset)資料集時，改善資料預覽體驗，包括有關啟用拼接功能資料集的其他[拼接預覽資訊](/help/stitching/use-stitching-ui.md#datasets-preview)的檔案。 |
 | Content Analytics縮圖和預覽 | 有關Content Analytics中其他視覺效果的[縮圖](/help/content-analytics/report/report.md#thumbnails)和[預覽](/help/content-analytics/report/report.md#previews)的檔案。 |
 | **2026 年 2 月** | |
 | 標頭覆寫 | 有關Content Analytics的其他[標題覆寫設定](/help/content-analytics/config/guided.md#header-overrides)的檔案。 |
-| 計算量度護欄 | 已更新組織](/help/technotes/guardrails.md#segments-and-calculated-metrics)的最大計算量度數的[護欄。 目前的上限為50,000。 |
-| 獨立Content Analytics | 新增Content Analytics](/help/content-analytics/config/standalone.md)的[獨立組態檔案。 |
+| 計算量度護欄 | 已更新組織[&#128279;](/help/technotes/guardrails.md#segments-and-calculated-metrics)的最大計算量度數的護欄。 目前的上限為50,000。 |
+| 獨立Content Analytics | 新增Content Analytics[&#128279;](/help/content-analytics/config/standalone.md)的獨立組態檔案。 |
 | **2026 年 1 月** | |
 | 建立結構描述 | 新增重要資訊和內容至[架構您的結構描述以與Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)搭配使用。 |
 
@@ -243,7 +265,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 在行動計分卡中建立資料故事 | [資料故事](/help/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |
 | 更新功能支援 | 已透過 Customer Journey Analytics 中提供、但在 AA 中無法使用或不支援的功能表來更新 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。 |
 | 預設計算量度 | 已新增說明 [Adobe 提供的預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)的內容。 |
-| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/components/data-dictionary/view-data-dictionary.md)、[編輯 ](/help/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
+| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/components/data-dictionary/view-data-dictionary.md)、[編輯 &#x200B;](/help/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
 | 專案連結共用 (不需登入) | <p>已更新現有文件，說明如何與無權存取 Analysis Workspace 的人員共用專案的唯讀連結。</p> <p>已更新使用者文件，包括[共用專案](/help/analysis-workspace/curate-share/share-projects.md)和[建立可共用連結](/help/analysis-workspace/curate-share/shareable-links.md)。</p> <p>已將管理員選項新增至[偏好設定](/help/analysis-workspace/user-preferences.md)。</p> |
 | **2023 年 2 月** | |
 | 比較 Customer Journey Analytics 和 BI 解決方案 | Customer Journey Analytics 與典型 BI 解決方案[比較](../getting-started/cja-vs-bi.md)的新文件。 |

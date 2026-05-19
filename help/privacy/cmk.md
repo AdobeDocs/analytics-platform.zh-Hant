@@ -6,11 +6,20 @@ feature: Privacy
 role: Admin
 autotag-review: '2026-05-19T09:16:21.318Z'
 TQID: 'https://experienceleague.adobe.com/jx1pw9U5sw42999O132esMBoUcQ8hWuUKzzN3WLAcyY'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2: id: c5ed78d1-99be-42e1-b164-a20a3685241e
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2:
+  - id: c5ed78d1-99be-42e1-b164-a20a3685241e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 561
@@ -30,7 +39,7 @@ Adobe Customer Journey Analytics 為[Healthcare Shield](https://www.adobe.com/tw
 1. 確保在 Azure 中您是具有權限角色的管理員，例如應用程式管理員、雲端應用程式管理員或全域管理員。 請參閱「[Microsoft Entra 內建角色](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference)」。
 1. 建立僅用於 Customer Journey Analytics 的新 Azure Key Vault。 有關詳細信息，請參閱 [Microsoft Azure Key Vault 文件](https://learn.microsoft.com/zh-tw/azure/key-vault/general/)。
 1. 將 Adobe Azure 應用程式存取權限授予給您的金鑰 (金鑰保存庫中)。 您可以使用下列其中一種方法來達成此目的：
-   * 透過下列URL的授權同意來授與許可權： [https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&amp;redirect_uri=https://experience.adobe.com&amp;scope=user.read](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&redirect_uri=https://experience.adobe.com&scope=user.read)
+   * 透過下列URL的授權同意來授與許可權： [https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&redirect_uri=https://experience.adobe.com&scope=user.read](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&client_id=251e3919-1940-4296-bb8b-6b9a5e8a4805&redirect_uri=https://experience.adobe.com&scope=user.read)
 
    * 依照[設定現有帳戶](https://learn.microsoft.com/zh-tw/azure/storage/common/customer-managed-keys-configure-cross-tenant-existing-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=powershell-preview%2Cazure-portal#the-customer-grants-the-service-providers-app-access-to-the-key-in-the-key-vault)的客戶管理金鑰中的指示進行。 Adobe 應用程式 ID 為：
 
