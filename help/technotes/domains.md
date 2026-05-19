@@ -37,10 +37,10 @@ ht-degree: 16%
 
 ## CX Enterprise網域
 
-除了上述網域外， CX企業版也需仰賴數個網域來收集資料和匯出報表。 如需此網域清單，請參閱[CX Enterprise使用的網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)。
+除了上述網域外， CX企業版也需仰賴數個網域來收集資料和匯出報表。 如需此網域清單，請參閱[CX Enterprise使用的網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/domains)。
 
 >[!MORELIKETHIS]
 >
 >Customer Journey Analytics使用的[個IP位址](ip-addresses.md)
 >
->CX Enterprise使用的[網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>CX Enterprise使用的[網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/domains)
