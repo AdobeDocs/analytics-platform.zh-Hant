@@ -406,7 +406,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="了解哪些內容和內容屬性效能最佳。"
->abstract="**這可以協助您**&#x200B;了解如何於細微層級上執行您的內容。 您可以查看個別資產或特定屬性的效能。 Content Analytics 會使用 AI 來自動產生屬性，並用它們標記您的內容 &lt;a href=\&quot;https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics\&quot; target=\&quot;_blank\&quot;>瞭解更多。</a><br/>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如在首頁推廣高績效資產、針對特定細分群體個人化內容以包含高績效屬性，或者輪換已開始過時的內容。"
+>abstract="**這可以協助您**&#x200B;了解如何於細微層級上執行您的內容。 您可以查看個別資產或特定屬性的效能。 Content Analytics 會使用 AI 來自動產生屬性，並用它們標記您的內容 &lt;a href=\&quot;https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics\&quot; target=\&quot;_blank\&quot;>瞭解更多。</a><br/>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如在首頁推廣高績效資產、針對特定細分群體個人化內容以包含高績效屬性，或者輪換已開始過時的內容。"
 
 
 以下範本適用：
