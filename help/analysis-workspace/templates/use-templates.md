@@ -6,30 +6,14 @@ role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
 autotag-review: '2026-05-19T09:53:18.849Z'
 TQID: 'https://experienceleague.adobe.com/wZ8vtE4BFc1ahBKdblSEAXBofZBPObbSJi4bA9MtxPY'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 347135b036e8232f3c93c57c845f6c5491a75918
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2c808412ce401447d356a896b1caef7872106ddc
 workflow-type: tm+mt
-source-wordcount: 21131
+source-wordcount: 21132
 ht-degree: 98%
 
 ---
@@ -406,7 +390,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="了解哪些內容和內容屬性效能最佳。"
->abstract="**這可以協助您**&#x200B;了解如何於細微層級上執行您的內容。 您可以查看個別資產或特定屬性的效能。 Content Analytics 會使用 AI 來自動產生屬性，並用它們標記您的內容&#x200B;<br/>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如在首頁推廣高績效資產、針對特定細分群體個人化內容以包含高績效屬性，或者輪換已開始過時的內容。"
+>abstract="**這可以協助您**&#x200B;了解如何於細微層級上執行您的內容。 您可以查看個別資產或特定屬性的效能。 Content Analytics 會使用 AI 來自動產生屬性，並用它們標記您的內容 [更多資訊&#x200B;](/help/content-analytics/content-analytics.md)<br/>**根據您瞭解的情況，您可能**&#x200B;會執行許多動作，例如在首頁上促銷高績效資產、個人化特定區段的內容以包含高績效屬性，或輪換已開始過時的內容。"
 
 
 以下範本適用：
