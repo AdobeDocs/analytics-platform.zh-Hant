@@ -5,18 +5,31 @@ title: 設定雲端匯出帳戶
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 25f46c50b6578026ff3aaae5019306bdcf82f211
+TQID: https://experienceleague.adobe.com/RJMRWr4ooIKHzfZ9auhh2hUvequxGTodCL4ba5ScoDg
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2242'
-ht-degree: 31%
+source-wordcount: 2473
+ht-degree: 34%
 
 ---
 
 # 設定雲端匯出帳戶
 
-在您可以將Customer Journey Analytics報表匯出至雲端目的地(如[將Analysis WorkspaceCustomer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述，或如[從Report BuilderReport Builder匯出報表](/help/report-builder/report-builder-export.md)中所述)之前，您需要新增並設定您要傳送資料的目的地。
+在您可以將Customer Journey Analytics報表匯出至雲端目的地（如[將Analysis Workspace報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述，或如[從Report Builder匯出報表](/help/report-builder/report-builder-export.md)中所述）之前，您需要新增並設定您要傳送資料的目的地。
 
-此程式包含依照本文所述新增及設定帳戶(例如Amazon S3、Google Cloud Platform等)，然後依照[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)所述，新增及設定該帳戶內的位置（例如帳戶內的資料夾）。
+此程式包含依照本文所述新增及設定帳戶（例如Amazon S3、Google Cloud Platform等），然後依照[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)所述，新增及設定該帳戶內的位置（例如帳戶內的資料夾）。
 
 如需有關如何管理現有帳戶的資訊，包括檢視、編輯和刪除帳戶，請參閱[管理雲端匯出位置和帳戶](/help/components/exports/manage-export-locations.md)。
 
@@ -92,7 +105,7 @@ ht-degree: 31%
 
      >[!AVAILABILITY]
      >
-     >本節適用於在 Amazon Web Services (AWS) 上執行的 Experience Platform 實施。目前，在 AWS 上執行的 Experience Platform 僅為有限數量的客戶開放。若要了解更多有關受支援的 Experience Platform 基礎架構，請參閱「[Experience Platform 多雲端概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud)」。
+     >本節適用於在 Amazon Web Services (AWS) 上執行的 Experience Platform 實施。 目前，在 AWS 上執行的 Experience Platform 僅為有限數量的客戶開放。 若要了解更多有關受支援的 Experience Platform 基礎架構，請參閱「[Experience Platform 多雲端概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud)」。
 
      [!UICONTROL **已建立的帳戶**]&#x200B;對話方塊隨即顯示。
 
@@ -132,7 +145,7 @@ ht-degree: 31%
 
 1. （視條件而定）如果您正在使用AWS儲存空間：
 
-   1. 將下列欄位的內容複製到剪貼簿(您將使用此資訊來存取從Analysis Workspace從AEP資料登陸區域匯出的資料)：
+   1. 將下列欄位的內容複製到剪貼簿（您將使用此資訊來存取從Analysis Workspace從AEP資料登陸區域匯出的資料）：
 
       * [!UICONTROL **存取金鑰識別碼**]
 
@@ -162,7 +175,7 @@ ht-degree: 31%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **角色 ARN**] | 您必須提供角色 ARN (Amazon 資源名稱)，以便 Adobe 可以使用該角色來取得 Amazon S3 帳戶的存取權。為此，您需要為來源帳戶建立 IAM 權限原則，將該原則附加給使用者，然後為目標帳戶建立角色。有關特定資訊，請參閱「[此 AWS 文件](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/)」。 |
+   | [!UICONTROL **角色 ARN**] | 您必須提供角色 ARN (Amazon 資源名稱)，以便 Adobe 可以使用該角色來取得 Amazon S3 帳戶的存取權。 為此，您需要為來源帳戶建立 IAM 權限原則，將該原則附加給使用者，然後為目標帳戶建立角色。 有關特定資訊，請參閱「[此 AWS 文件](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/)」。 |
 
    {style="table-layout:auto"}
 
@@ -172,7 +185,7 @@ ht-degree: 31%
 
    ![匯出帳戶建立的對話方塊Amazon S3角色ARN](assets/export-account-amazons3.png)
 
-1. 將&#x200B;[!UICONTROL **使用者ARN**]&#x200B;欄位的內容複製到剪貼簿。 使用者 ARN (Amazon 資源名稱) 是由 Adob&#x200B;&#x200B;e 提供。您必須將此使用者附加至您在Amazon S3角色ARN中建立的原則。
+1. 將&#x200B;[!UICONTROL **使用者ARN**]&#x200B;欄位的內容複製到剪貼簿。 使用者 ARN (Amazon 資源名稱) 是由 Adob&#x200B;&#x200B;e 提供。 您必須將此使用者附加至您在Amazon S3角色ARN中建立的原則。
 
 1. 選取&#x200B;[!UICONTROL **確定**]。
 
@@ -218,11 +231,11 @@ ht-degree: 31%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS URI 的路徑。若要設定 Azure SAS，需要使用 Azure Key Vault 將 SAS URI 儲存為密碼。若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>建立金鑰保存庫 URI 後：<ul><li>在 Key Vault 上新增存取權原則，以便向您建立的 Azure 應用程式授予權限。<p>若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何指派 Key Vault 存取原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或</p><p>如果您想要直接授予存取角色而不建立存取原則，請參閱 [Microsoft Azure 文件，了解如何使用 Azure 入口網站指派 Azure 角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。這會將角色指派新增到應用程式 ID，以存取金鑰保存庫 URI。 </p></li><li>請確定應用程式ID已授予`Key Vault Certificate User`內建角色，以便存取金鑰儲存庫URI。<p>若要了解更多資訊，請參閱「[Azure 內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)」。</p></li></ul> |
-   | [!UICONTROL **金鑰保存庫祕密名稱**] | 您將密碼新增至 Azure Key Vault 時建立的密碼名稱。在 Microsoft Azure 中，此資訊位於您建立的 Key Vault 中，位於 **Key Vault** 設定頁面。若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
-   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。如需詳細資訊，請參閱[Microsoft Azure檔案，瞭解如何向Microsoft身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。<!-- need to grant permission to the bucket. Jun will send info on where that is documented) --> |
+   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS URI 的路徑。  若要設定 Azure SAS，需要使用 Azure Key Vault 將 SAS URI 儲存為密碼。 若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>建立金鑰保存庫 URI 後：<ul><li>在 Key Vault 上新增存取權原則，以便向您建立的 Azure 應用程式授予權限。<p>若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何指派 Key Vault 存取原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或</p><p>如果您想要直接授予存取角色而不建立存取原則，請參閱 [Microsoft Azure 文件，了解如何使用 Azure 入口網站指派 Azure 角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。 這會將角色指派新增到應用程式 ID，以存取金鑰保存庫 URI。 </p></li><li>請確定應用程式ID已授予`Key Vault Certificate User`內建角色，以便存取金鑰儲存庫URI。<p>若要了解更多資訊，請參閱「[Azure 內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)」。</p></li></ul> |
+   | [!UICONTROL **金鑰保存庫祕密名稱**] | 您將密碼新增至 Azure Key Vault 時建立的密碼名稱。 在 Microsoft Azure 中，此資訊位於您建立的 Key Vault 中，位於 **Key Vault** 設定頁面。 若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
+   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 如需詳細資訊，請參閱[Microsoft Azure檔案，瞭解如何向Microsoft身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。<!-- need to grant permission to the bucket. Jun will send info on where that is documented) --> |
 
    {style="table-layout:auto"}
 
@@ -250,9 +263,9 @@ ht-degree: 31%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
    {style="table-layout:auto"}
 
@@ -280,7 +293,7 @@ ht-degree: 31%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **帳戶識別碼**] | 唯一識別組織內，以及遍及由Snowflake支援的雲端平台和雲端區域組成的全球網路中的Snowflake帳戶。 <p>您必須從Snowflake帳戶取得帳戶識別碼，然後在此處貼上資訊。</p><p>若要瞭解從何處取得此資訊，請參閱Snowflake檔案[中的](https://docs.snowflake.com/en/user-guide/admin-account-identifier)帳戶識別碼頁面。</p> |
+   | [!UICONTROL **帳戶識別碼**] | 唯一識別組織內，以及遍及由Snowflake支援的雲端平台和雲端區域組成的全球網路中的Snowflake帳戶。 <p>您必須從Snowflake帳戶取得帳戶識別碼，然後在此處貼上資訊。</p><p>若要瞭解從何處取得此資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/user-guide/admin-account-identifier)中的帳戶識別碼頁面。</p> |
    | [!UICONTROL **使用者**] | 用於連線的使用者登入名稱。 我們建議您建立專門用於Adobe的新使用者。 在此處指定名稱，然後在Snowflake中建立具有相同名稱的使用者。 您可以使用`CREATE USER`命令在Snowflake中建立使用者。  <p>如需詳細資訊，請參閱[使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role)。</p> |
    | [!UICONTROL **角色**] | 將指派給使用者的角色。 我們建議您建立專門用於Adobe的新角色。 在此處指定角色，然後在Snowflake中建立相同名稱的角色，並將該角色授予使用者。 您可以使用`CREATE ROLE`命令在Snowflake中建立角色。 <p>如需詳細資訊，請參閱[使用者、角色和許可權命令](https://docs.snowflake.com/en/sql-reference/commands-user-role)。</p> |
 
@@ -302,7 +315,7 @@ ht-degree: 31%
    CREATE USER <your_adobe_user> RSA_PUBLIC_KEY = '<your_public_key>';
    ```
 
-   如需詳細資訊，請參閱Snowflake檔案[中的](https://docs.snowflake.com/en/user-guide/key-pair-auth)金鑰組驗證與金鑰組輪換頁面。
+   如需詳細資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/user-guide/key-pair-auth)中的金鑰組驗證與金鑰組輪換頁面。
 
 1. 選取&#x200B;[!UICONTROL **確定**]。
 

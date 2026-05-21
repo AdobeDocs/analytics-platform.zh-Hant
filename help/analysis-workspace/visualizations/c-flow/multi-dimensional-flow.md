@@ -4,16 +4,29 @@ title: 維度間流量
 feature: Visualizations
 exl-id: 459166b1-a522-45b6-9d2c-69e3409e442e
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+autotag-review: '2026-05-19T08:41:06.716Z'
+TQID: 'https://experienceleague.adobe.com/1er03t5uOypgXP6sjFW3z7vbN8IucVak2OiDeUG-OaU'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: 338
 ht-degree: 89%
 
 ---
 
-# 維度間流量
+# 維度間流程
 
-維度間流量可讓您檢查多個維度間的用戶路徑。本文說明此流量如何用於兩個使用案例：行動應用程式互動和事件，以及行銷活動如何推動網站造訪
+維度間流量可讓您檢查多個維度間的用戶路徑。 本文說明此流量如何用於兩個使用案例：行動應用程式互動和事件，以及行銷活動如何推動網站造訪
 
 <!--
 A dimension label at the top of each Flow column makes using multiple dimensions in a flow visualization more intuitive:
@@ -23,7 +36,7 @@ A dimension label at the top of each Flow column makes using multiple dimensions
 
 ## 行動應用程式互動和事件
 
-在此範例流程中，[!UICONTROL 畫面名稱]維度用於深入了解應用程式中使用者使用的各種畫面 (場景)。傳回的熱門畫面為 **[!UICONTROL Luma：內容：iOS：en：首頁]** (此為應用程式的首頁)：
+在此範例流程中，[!UICONTROL 畫面名稱]維度用於深入了解應用程式中使用者使用的各種畫面 (場景)。 傳回的熱門畫面為 **[!UICONTROL Luma：內容：iOS：en：首頁]** (此為應用程式的首頁)：
 
 ![顯示已新增項目的流量。](assets/flowapp.png)
 
@@ -37,13 +50,13 @@ A dimension label at the top of each Flow column makes using multiple dimensions
 
   ![顯示最終頁面維度的流量拖曳至空白處。](assets/flowapp-add.png)
 
-下列的流量視覺效果顯示新增&#x200B;**[!UICONTROL 事件類型]**&#x200B;維度的結果。視覺效果提供行動應用程式使用者在新增產品至購物車、關閉應用程式、顯示優惠等動作之前，如何在應用程式內各種畫面之間移動的深入分析。
+下列的流量視覺效果顯示新增&#x200B;**[!UICONTROL 事件類型]**&#x200B;維度的結果。 視覺效果提供行動應用程式使用者在新增產品至購物車、關閉應用程式、顯示優惠等動作之前，如何在應用程式內各種畫面之間移動的洞察。
 
 ![在清單頂端顯示頁面維度結果的流量。](assets/flowapp-result.png)
 
 ## 行銷活動如何推動網頁造訪數
 
-您想要分析哪些行銷活動可推動網站造訪數。您建立以&#x200B;**[!UICONTROL 行銷活動名稱]**&#x200B;作為維度的流量視覺效果
+您想要分析哪些行銷活動可推動網站造訪數。 您建立以&#x200B;**[!UICONTROL 行銷活動名稱]**&#x200B;作為維度的流量視覺效果
 
 ![流量網頁行銷活動名稱維度](assets/flowweb.png)
 
@@ -51,6 +64,6 @@ A dimension label at the top of each Flow column makes using multiple dimensions
 
 ![流量網頁行銷活動名稱和網頁維度](assets/flowweb-replace.png)
 
-您可以將滑鼠停留在任意流量上，以查看更多詳細資訊。例如哪些行銷活動導致購物車結帳。
+您可以將滑鼠停留在任意流量上，以查看更多詳細資訊。 例如哪些行銷活動導致購物車結帳。
 
 ![流量網頁行銷活動名稱和網頁維度停留](assets/flowweb-hover.png)

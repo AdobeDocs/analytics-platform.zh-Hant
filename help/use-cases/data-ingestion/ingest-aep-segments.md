@@ -1,18 +1,32 @@
 ---
-title: 收錄並使用 Experience Platform 對象
+title: 收錄並使用 Experience Platform 客群
 description: 說明如何將Experience Platform受眾擷取及使用至Customer Journey Analytics，以供進一步分析。
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 role: Admin
-source-git-commit: a30b4286207eb72f7674bb4f6ba4cf0a1aecd280
+TQID: https://experienceleague.adobe.com/cyNvsdN-bSBY2VqCdxAZvWhyTx8--sOUMifbuYrZKTM
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 10%
+source-wordcount: 1680
+ht-degree: 13%
 
 ---
 
-# 收錄並使用 Experience Platform 對象
+# 收錄並使用 Experience Platform 客群
 
 本使用案例探索將Experience Platform受眾內嵌至Customer Journey Analytics的中期解決方案。 這些受眾可能已建立在Experience Platform區段產生器、Adobe Audience Manager或其他工具中，並儲存在即時客戶個人檔案中。 受眾由一組設定檔ID，以及任何適用的屬性、事件等組成。 您想要將該受眾資料帶入Customer Journey Analytics以進行進一步分析。
 
@@ -22,7 +36,7 @@ ht-degree: 10%
 * 存取以建立和管理Experience Platform [結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)和[資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview)。
 * 存取[Experience Platform查詢服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home) （以及寫入SQL的能力）。
 * 存取可執行部分資料轉換的工具。
-* 存取 Customer Journey Analytics。您必須是[Customer Journey Analytics產品管理員](/help/technotes/access-control.md)，才能建立和修改Customer Journey Analytics連線和資料檢視。
+* 存取 Customer Journey Analytics。 您必須是[Customer Journey Analytics產品管理員](/help/technotes/access-control.md)，才能建立和修改Customer Journey Analytics連線和資料檢視。
 * [驗證及存取Experience Platform API （目錄服務API和分段服務API）](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-authentication)。 您必須在組織和沙箱的Developer Console中建立專案，並確保您擁有成功提交API呼叫所需的資訊。
 
 ## 步驟
@@ -32,14 +46,14 @@ ht-degree: 10%
 1. [選取對象(Experience Platform UI)](#select-audiences)。
 1. [建立已啟用設定檔的資料集(Experience Platform API)](#create-a-profile-enabled-dataset)。
 1. [匯出對象(Experience Platform API)](#export-audiences)。
-1. [轉換輸出(Experience Platform UI等)](#transform-the-output)。
+1. [轉換輸出（Experience Platform UI等）](#transform-the-output)。
 1. [建立結構描述和資料集(Experience Platform UI)](#create-a-schema-and-dataset)。
 1. [新增或編輯連線(Customer Journey Analytics UI)](#add-or-edit-a-connection)。
 1. [設定資料檢視(Customer Journey Analytics UI)](#configure-a-data-view)。
 1. [報告與分析(Customer Journey Analytics UI)](#report-and-analyze)。
 
 
-### 選取對象
+### 選取客群
 
 解決方案會從識別您要擷取至Customer Journey Analytics中的對象開始。
 
@@ -56,7 +70,7 @@ ht-degree: 10%
 
 ### 建立已啟用設定檔的資料集
 
-您必須根據核心型&#x200B;**[!UICONTROL XDM個別設定檔]**&#x200B;結構描述來建立資料集。 當您在Experience Platform UI中建立資料集時，無法選取該核心型XDM個別設定檔作為結構描述。 請改用[目錄服務API來根據](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/create#create-a-dataset)結構描述建立資料集`_xdm.context.profile__union`。
+您必須根據核心型&#x200B;**[!UICONTROL XDM個別設定檔]**&#x200B;結構描述來建立資料集。 當您在Experience Platform UI中建立資料集時，無法選取該核心型XDM個別設定檔作為結構描述。 請改用[目錄服務API來根據`_xdm.context.profile__union`結構描述建立資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/create#create-a-dataset)。
 
 +++ 建立資料集請求
 
@@ -84,7 +98,7 @@ curl -X POST \
 }'
 ```
 
-其中：
+其中:
 
 * `DATASET_NAME`是資料集的易記名稱。 例如，`Segment Export Job Dataset for CJA`。
 
@@ -94,7 +108,7 @@ curl -X POST \
 ["@/dataSets/{DATASET_ID}"]
 ```
 
-其中：
+其中:
 
 * `DATASET_ID`是已建立資料集的資料集識別碼。
 
@@ -243,7 +257,7 @@ FROM (
 WHERE value.status = 'realized' AND (key = '{AUDIENCE_ID_1}' OR key = 'AUDIENCE_ID_2' OR key = 'AUDIENCE_ID_3')
 ```
 
-其中：
+其中:
 
 * `IDENTITY_TO_USE_AS_PERSON_ID`是您定義為匯出作業一部分的欄位之一。 例如：`_demoemea.identification.core.email`。
 * `DATASET_TABLE_NAME`是資料集的資料表名稱。
@@ -270,7 +284,7 @@ WHERE value.status = 'realized' AND (key = '{AUDIENCE_ID_1}' OR key = 'AUDIENCE_
 ]
 ```
 
-其中：
+其中:
 
 * `PERSON_ID_x`是您要做為人員ID之識別碼的識別碼值。 例如，使用電子郵件時`john.doe@gmail.com`。
 * `AUDIENCE_ID_x`是對象識別碼。
@@ -306,7 +320,7 @@ WHERE value.status = 'realized' AND (key = '{AUDIENCE_ID_1}' OR key = 'AUDIENCE_
 ]
 ```
 
-其中：
+其中:
 
 * `TENANT_NAME`是租使用者的名稱。 例如：`_demoemea`。
 * `PERSON_ID_x`是您要做為人員ID之識別碼的識別碼值。 例如，使用電子郵件時`john.doe@gmail.com`。
@@ -482,8 +496,8 @@ You can now report on `audienceMembershipId`, `audienceMembershipIdName` and `pe
 ## 其他附註
 
 * 您應定期執行此流程，以便在Customer Journey Analytics中持續重新整理對象資料。
-* 您可以在單一Customer Journey Analytics連線中匯入多個對象。 這對流程新增了更多複雜性，但這是可能的。為了辦到這點，您需要對上述流程進行一些修改：
+* 您可以在單一Customer Journey Analytics連線中匯入多個對象。 這對流程新增了更多複雜性，但這是可能的。 為了辦到這點，您需要對上述流程進行一些修改：
    1. 對 RTCP 中客群集合中的每個所需客群執行此流程。
-   1. Customer Journey Analytics支援設定檔資料集中的陣列/物件陣列。 針對[或](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=zh-Hant)使用`audienceMembershipId`物件陣列`audienceMembershipIdName`是最佳選項。
-   1. 在您的資料檢視中，利用 `audienceMembershipId`欄位上的子字串轉換建立新的維度，以將逗號分隔的值字串轉換成陣列。注意：目前陣列中的上限為 10 個值。
+   1. Customer Journey Analytics支援設定檔資料集中的陣列/物件陣列。 針對`audienceMembershipId`或`audienceMembershipIdName`使用[物件陣列](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=zh-Hant)是最佳選項。
+   1. 在您的資料檢視中，利用 `audienceMembershipId`欄位上的子字串轉換建立新的維度，以將逗號分隔的值字串轉換成陣列。 注意：目前陣列中的上限為 10 個值。
    1. 您現在可以在Customer Journey Analytics Workspace中報告此新維度`audienceMembershipIds`。

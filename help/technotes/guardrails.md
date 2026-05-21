@@ -5,16 +5,37 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 976170212fb9904a32db93368fbda5f143f4a462
+TQID: https://experienceleague.adobe.com/vNCqAk1-4e34AJrXqzHJgrTDtly-FZTqOGRISjkX5Q8
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2281'
-ht-degree: 7%
+source-wordcount: 2441
+ht-degree: 9%
 
 ---
 
 # Customer Journey Analytics護欄
 
-本檔案提供Customer Journey Analytics各種元件的限制。 如需護欄、範圍設定引數和權益，請參閱[Customer Journey Analytics的產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html)、[Adobe Analytics附加元件的產品說明： Customer Journey Analytics](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)，或Customer Journey Analytics B2B edition[的](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics-b2b.html)產品說明。
+本檔案提供Customer Journey Analytics各種元件的限制。 如需護欄、範圍設定引數和權益，請參閱[Customer Journey Analytics的產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html)、[Adobe Analytics附加元件的產品說明： Customer Journey Analytics](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)，或Customer Journey Analytics B2B edition[&#128279;](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics-b2b.html)的產品說明。
 
 ## 限制型別
 
@@ -88,7 +109,7 @@ ht-degree: 7%
 | 對象重新整理頻率 | 4 | 系統強制的護欄 | 可以重新整理[對象](../components/audiences/audiences-overview.md)的頻率上限（小時）。 |
 | 對象重新整理回顧期間 | 90 | 系統強制的護欄 | 重新整理回顧期間的最大天數。 |
 | 重新整理對象到期日 | 13 | 系統強制的護欄 | 對象從建立日期起停止重新整理的最大月數。 客戶可再延長13個月。 |
-| 重新整理對象的數量 | 75， 150 | 系統強制的護欄 | 重新整理對象的最大數量。 值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 重新整理對象的數量 | 75, 150 | 系統強制的護欄 | 重新整理對象的最大數量。 值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
 
 {style="table-layout:auto"}
 
@@ -134,7 +155,7 @@ ht-degree: 7%
 | 唯一字串 | 1000萬 — 10億 | 系統強制的護欄 | 每個查詢資料集的最大唯一索引鍵數。 取決於Customer Journey Analytics套件（請參閱產品說明）。<ul><li>Foundation：1000萬。</li><li>Select：1億。</li><li>Prime：2.5億。</li><li>Ultimate：10億</li><ul> |
 | 每人列數 | 100萬 | 系統強制的護欄 | 連線中指定月份每個不重複人員ID的最大列數。 |
 | 每日列數 | 25億 | 效能護欄 | 連線中每天的最大平均列數。 |
-| 每年每個連線的列數 | 因指定的資料中心而異（如需詳細資訊，請參閱說明） | 效能護欄 | 連線中每年的列數限制。 以下所列上限自2026年1月20日起生效，並可能會隨著時間增加，以允許每個連線有更多列。 <p>列數限制會依您指定的資料中心而有所不同，如下所示：</p><ul><li>**美國Azure （美國客戶的預設值）**：約5,000億（約每月420億）</li><li>**美國AWS （美國客戶可索取）**：約300億（約每月25億）</li><li>**阿姆斯特丹**：約2,000億（約每月165億）</li><li>**所有其他資料中心**：250億（約每月20億）</li></ul><p>如果您希望超出這些限制且想要避免效能降低問題，請聯絡您的Adobe客戶團隊以討論替代設定。</p><p>組織可在最初實作AEP+應用程式時選擇資料中心。 這項決定通常是根據每位客戶自己的資料駐留要求而定。 選擇資料中心時，應考量所有AEP+應用程式使用案例(不只是Customer Journey Analytics中的列磁碟區)。</p><p>如需如何檢視指派給哪個資料中心的詳細資訊，請參閱[Customer Journey Analytics託管位置](/help/technotes/data-centers.md)。</p> |
+| 每年每個連線的列數 | 因指定的資料中心而異（如需詳細資訊，請參閱說明） | 效能護欄 | 連線中每年的列數限制。 以下所列上限自2026年1月20日起生效，並可能會隨著時間增加，以允許每個連線有更多列。 <p>列數限制會依您指定的資料中心而有所不同，如下所示：</p><ul><li>**美國Azure （美國客戶的預設值）**：約5,000億（約每月420億）</li><li>**美國AWS （美國客戶可索取）**：約300億（約每月25億）</li><li>**阿姆斯特丹**：約2,000億（約每月165億）</li><li>**所有其他資料中心**：250億（約每月20億）</li></ul><p>如果您希望超出這些限制且想要避免效能降低問題，請聯絡您的Adobe客戶團隊以討論替代設定。</p><p>組織可在最初實作AEP+應用程式時選擇資料中心。 這項決定通常是根據每位客戶自己的資料駐留要求而定。 選擇資料中心時，應考量所有AEP+應用程式使用案例（不只是Customer Journey Analytics中的列磁碟區）。</p><p>如需如何檢視指派給哪個資料中心的詳細資訊，請參閱[Customer Journey Analytics託管位置](/help/technotes/data-centers.md)。</p> |
 | 列大小 | 2 | 效能護欄/系統強制的護欄 | 擷取到Customer Journey Analytics的每列資料的平均大小(KB) （軟性限制）。 列大小的靜態限制由Experience Platform中資料擷取的護欄決定。 |
 
 {style="table-layout:auto"}
@@ -216,7 +237,7 @@ ht-degree: 7%
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
 | 活頁簿檔案大小 | 5 | 系統強制的護欄 | 排程活頁簿的檔案大小上限（以MB為單位）。 |
-| 個資料區塊 | 1000 | 系統強制的護欄 | 每個活頁簿最多[個資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=zh-hant)個。 |
+| 資料區塊 | 1000 | 系統強制的護欄 | 每個活頁簿最多[個資料區塊](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=zh-hant)個。 |
 | 量度 | 20 | 系統強制的護欄 | 每個資料區塊的最大量度數。 |
 | 日期範圍範圍 | 13 | 系統強制的護欄 | 每個資料區塊可跨越之日期範圍的最大月數。 |
 | 資料列 | 50,000 | 系統強制的護欄 | 每個資料區塊的最大列數。 |

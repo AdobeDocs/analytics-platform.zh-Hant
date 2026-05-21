@@ -4,10 +4,21 @@ title: 共用細分群體
 feature: Filters, Segments
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 81e08ecb593b6ba789c479d0e648cbe7ba0a82d6
+TQID: https://experienceleague.adobe.com/09XWXerXKRJ1QMPXdULk2kzHaqbAykkqEUMUvUbomh4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 5%
+source-wordcount: 327
+ht-degree: 7%
 
 ---
 
@@ -32,7 +43,7 @@ ht-degree: 5%
 
    1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以共用區段。 選取「**[!UICONTROL 取消]**」進行取消。
 
-如果您有共用區段的存取權，可以在專案中使用這些區段，或做為資料檢視[的](/help/data-views/session-settings.md)設定的一部分。
+如果您有共用區段的存取權，可以在專案中使用這些區段，或做為資料檢視[&#128279;](/help/data-views/session-settings.md)的設定的一部分。
 
 ## 最佳做法
 

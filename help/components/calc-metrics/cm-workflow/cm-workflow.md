@@ -3,10 +3,26 @@ description: 瞭解如何建立計算量度。
 title: 建立計算量度
 feature: Calculated Metrics
 exl-id: 55ed36c1-99ca-400a-bc2b-661994cbf720
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+TQID: https://experienceleague.adobe.com/8xHrnqI8ZUf3qwy4Im3Qa-ESAokGMs3XPOYmpFF6Dx0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 13%
+source-wordcount: 384
+ht-degree: 12%
 
 ---
 
@@ -14,18 +30,18 @@ ht-degree: 13%
 
 依預設，只有管理員可以建立計算量度。 使用者有權檢視計算量度，類似於使用者檢視其他元件的方式（例如區段、註解等）。
 
-不過，管理員可以透過&#x200B;**[!UICONTROL Admin Console]**，將&#x200B;**[!UICONTROL 編輯CJA Workspace存取權]**&#x200B;中&#x200B;**[!UICONTROL 報告工具]**&#x200B;的[計算量度建立](/help/technotes/access-control.md#user-level-access)許可權授予使用者。
+不過，管理員可以透過[Admin Console](/help/technotes/access-control.md#user-level-access)，將&#x200B;**[!UICONTROL 編輯CJA Workspace存取權]**&#x200B;中&#x200B;**[!UICONTROL 報告工具]**&#x200B;的&#x200B;**[!UICONTROL 計算量度建立]**&#x200B;許可權授予使用者。
 
 
 您可以透過下列方式建立計算量度：
 
 ![建立量度的方式](assets/create-metric.png)
 
-* **A**. 在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 計算量度]**。 從![計算量度](/help/assets/icons/AddCircle.svg)管理員[!UICONTROL **[!UICONTROL 選取]**]AddCircle[Add](/help/components/calc-metrics/cm-workflow/cm-manager.md)。
-* **B**. 在Workspace專案中，從「元件」左側面板選取![事件](/help/assets/icons/Add.svg) ![量度](/help/assets/icons/Event.svg)的&#x200B;**新增**。
-* **C**. 在Workspace專案中，從量度欄標題的內容功能表中，選取「**[!UICONTROL 從選取專案建立量度]**」。 您可以從子功能表中選取函式，或選取&#x200B;**[!UICONTROL 在計算量度產生器中開啟]**。 <br/>如果您選取函式，計算量度會定義為僅限專案的量度。 當您稍後透過[元件資訊](/help/components/use-components-in-workspace.md#component-info)快顯視窗編輯此量度時，會在[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中看到通知。
-* **D**. 在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立量度]**。
-* **E**。 在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL shift+cmd+c]** (macOS)或&#x200B;**[!UICONTROL shift+ctrl+c]** (Windows)。
+* **A**。在主介面中，選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 計算量度]**。 從[[!UICONTROL 計算量度]管理員](/help/components/calc-metrics/cm-workflow/cm-manager.md)選取![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**]。
+* **B**。在Workspace專案中，從「元件」左側面板中，選取![事件](/help/assets/icons/Event.svg) **量度**&#x200B;的![新增](/help/assets/icons/Add.svg)。
+* **C**。在Workspace專案中，從量度欄標題的內容功能表中，選取「**[!UICONTROL 從選取專案建立量度]**」。 您可以從子功能表中選取函式，或選取&#x200B;**[!UICONTROL 在計算量度產生器中開啟]**。 <br/>如果您選取函式，計算量度會定義為僅限專案的量度。 當您稍後透過[元件資訊](/help/components/use-components-in-workspace.md#component-info)快顯視窗編輯此量度時，會在[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中看到通知。
+* **D**。在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立量度]**。
+* **E**。在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL shift+cmd+c]** (macOS)或&#x200B;**[!UICONTROL shift+ctrl+c]** (Windows)。
 
 若要定義新的計算量度，請使用[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)。
 

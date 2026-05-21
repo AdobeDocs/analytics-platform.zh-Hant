@@ -3,10 +3,22 @@ description: 顯示計算量度的範例。
 title: 計算量度範例
 feature: Calculated Metrics
 exl-id: 5e73ab52-627a-4064-bfb7-354c0ba1e4ee
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+TQID: https://experienceleague.adobe.com/awAk0boIVigYBssgLcSz3t-5eExHhasCVDtwoa3v19k
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 5%
+source-wordcount: 252
+ht-degree: 4%
 
 ---
 
@@ -18,7 +30,7 @@ ht-degree: 5%
 
 您要計算跳出率。
 
-+++ 詳細內容
++++ 詳細資料
 
 跳出的定義會受到另一個討論的影響，但在此範例中，您會定義「跳出」事件區段，其中「工作階段開始」等於1，「工作階段結束」等於1。 您使用此區段來定義工作階段的跳出工作階段率。
 
@@ -34,7 +46,7 @@ ht-degree: 5%
 
 ### 衍生欄位
 
-或者，您可以使用衍生欄位[來定義](/help/data-views/derived-fields/derived-fields.md#bounces)跳出率。
+或者，您可以使用衍生欄位[&#128279;](/help/data-views/derived-fields/derived-fields.md#bounces)來定義跳出率。
 
 衍生欄位是資料檢視的一部分，其優點是不是每個使用者都可以覆寫或修改跳出率量度的定義。 這個優點也帶來了限制。 無權存取資料檢視的使用者無法使用衍生欄位，且必須訴諸區段和計算量度來定義跳出率。
 
@@ -47,7 +59,7 @@ ht-degree: 5%
 
 您想要定義一個計算量度，只計算超過100個工作階段造訪過之頁面的頁面檢視。
 
-+++ 詳細內容 
++++ 詳細資料 
 
 ![條件式頁面檢視](assets/conditional-page-views.png)
 
@@ -57,7 +69,7 @@ ht-degree: 5%
 
 您要定義只計算前30%階段作業頁面檢視的計算量度。
 
-+++ 詳細內容
++++ 詳細資料
 
 ![前30%的頁面檢視](assets/top30-page-views.png)
 

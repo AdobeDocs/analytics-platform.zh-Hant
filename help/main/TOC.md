@@ -2,9 +2,9 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 725ec404666d706801f06eb4ea46628b02506d59
+source-git-commit: 4fc2712ae694afa75141ef32dea3114d297a34b8
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1431'
 ht-degree: 95%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 + 發行說明 {#releases}
    + [最新版本](../release-notes/latest.md)
-   + {hide-from-toc}[發行前說明](../release-notes/pre-release-notes.md)
+   + {hide-from-toc}[預發行說明](../release-notes/pre-release-notes.md)
    + [2026版本](../release-notes/2026.md)
    + [2025 年版本](../release-notes/2025.md)
    + [2024 年版本](../release-notes/2024.md)
@@ -301,7 +301,7 @@ ht-degree: 95%
       + [引導式設定](/help/content-analytics/config/guided.md)
       + [手動設定](/help/content-analytics/config/manual.md)
       + [獨立設定](/help/content-analytics/config/standalone.md)
-      + {hide-from-toc}[標籤不可知的組態](/help/content-analytics/config/tag-agnostic.md)
+      + [JavaScript資料庫](/help/content-analytics/config/tags-agnostic.md)
       + [資料收集](/help/content-analytics/config/datacollection.md)
 
 + Analytics 儀表板 {#cja-dashboards}
@@ -448,6 +448,7 @@ ht-degree: 95%
    + [概觀](/help/stitching/overview.md)
    + [欄位型拼接](/help/stitching/fbs.md)
    + [圖表型拼接](/help/stitching/gbs.md)
+   + {hide-from-toc}[B2B帳戶拼接](/help/stitching/b2b-account-stitching.md)
    + [請求拼接](/help/stitching/use-stitching.md)
    + [啟用拼接](/help/stitching/use-stitching-ui.md)
    + [驗證拼接](/help/stitching/validate.md)

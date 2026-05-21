@@ -5,9 +5,22 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 2022a841-fc2a-4a76-8d91-8227e7a2130a
-source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
+TQID: https://experienceleague.adobe.com/Z-D08miremjia0hNYhh6SSFe7YpiCqkl0gH-BLNPG6k
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: 1691
 ht-degree: 0%
 
 ---
@@ -54,7 +67,7 @@ Customer Journey Analytics物件可在&#x200B;**[!UICONTROL 資料]**&#x200B;窗
 您在Customer Journey Analytics中定義的日期範圍可做為&#x200B;**[!UICONTROL daterangeName]**&#x200B;欄位的一部分。 當您使用&#x200B;**[!UICONTROL daterangeName]**&#x200B;欄位時，您可以指定要使用的日期範圍。
 
 **自訂轉換**
-Power BI Desktop提供使用[資料分析運算式(DAX)](https://learn.microsoft.com/en-us/dax/dax-overview)的自訂轉換功能。 例如，您想要以小寫執行產品名稱排名為[的](#single-dimension-ranked)單一維度使用案例。
+Power BI Desktop提供使用[資料分析運算式(DAX)](https://learn.microsoft.com/en-us/dax/dax-overview)的自訂轉換功能。 例如，您想要以小寫執行產品名稱排名為[&#128279;](#single-dimension-ranked)的單一維度使用案例。
 
 1. 在報表檢視中，選取長條圖視覺效果。
 1. 在[資料]窗格中選取&#x200B;**[!UICONTROL product_name]**。
@@ -62,7 +75,7 @@ Power BI Desktop提供使用[資料分析運算式(DAX)](https://learn.microsoft
 1. 在公式編輯器中，定義名稱為`product_name_lower`的新欄，如`product_name_lower = LOWER('public.cc_data_view[product_name])`。
    ![Power BI案頭轉換至Lower](../assets/uc14-powerbi-transformation.png)
 1. 請確定您在&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中選取新的&#x200B;**[!UICONTROL product_name_lower]**&#x200B;欄，而非&#x200B;**[!UICONTROL product_name]**&#x200B;欄。
-1. 在表格視覺效果中選取&#x200B;**[!UICONTROL 更多]**&#x200B;中的![以表格](/help/assets/icons/More.svg)報告。
+1. 在表格視覺效果中選取![更多](/help/assets/icons/More.svg)中的&#x200B;**[!UICONTROL 以表格]**&#x200B;報告。
 
    您的Power BI案頭應該如下所示。
    ![Power BI案頭轉換最終版](../assets/uc14-powerbi-final.png)
@@ -129,10 +142,10 @@ limit 1000001
 您在Customer Journey Analytics中定義的日期範圍可做為&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;欄位的一部分。 當您使用&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;欄位時，您可以指定要使用的日期範圍。
 
 **自訂轉換**
-Tableau Desktop提供使用[計算欄位](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm)的自訂轉換功能。 例如，您想要以小寫執行產品名稱排名為[的](#single-dimension-ranked)單一維度使用案例。
+Tableau Desktop提供使用[計算欄位](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm)的自訂轉換功能。 例如，您想要以小寫執行產品名稱排名為[&#128279;](#single-dimension-ranked)的單一維度使用案例。
 
 1. 從主功能表選取&#x200B;**[!UICONTROL 分析]** > **[!UICONTROL 建立計算欄位]**。
-   1. 使用函式&#x200B;**[!UICONTROL 定義]**&#x200B;小寫的產品名稱`LOWER([Product Name])`。
+   1. 使用函式`LOWER([Product Name])`定義&#x200B;**[!UICONTROL 小寫的產品名稱]**。
       ![Tableau計算欄位](../assets/uc14-tableau-calculated-field.png)
    1. 選取&#x200B;**[!UICONTROL 確定]**。
 1. 選取&#x200B;**[!UICONTROL 資料]**&#x200B;工作表。
@@ -165,7 +178,7 @@ Customer Journey Analytics的維度會在&#x200B;**[!UICONTROL Cc資料檢視]**
 來自Customer Journey Analytics的日期範圍維度（如&#x200B;**[!UICONTROL Day]**、**[!UICONTROL Week]**、**[!UICONTROL Month]**&#x200B;等）可做為&#x200B;**[!UICONTROL Daterangeday Date]**、**[!UICONTROL Daterangeweek Date]**、**[!UICONTROL Daterangemonth Date]**&#x200B;等。  使用日期範圍維度時，您必須選取適當的日期或時間定義。 例如，**[!UICONTROL 年]**，**[!UICONTROL 季]**，**[!UICONTROL 月]**，**[!UICONTROL 日期]**。
 
 **個量度**
-Customer Journey Analytics的量度在&#x200B;**[!UICONTROL Cc資料檢視]**&#x200B;左側邊欄中列為&#x200B;**[!UICONTROL DIMENSION]**。 例如，Customer Journey Analytics中的量度&#x200B;**[!UICONTROL Purchase Revenue]**&#x200B;有&#x200B;**[!UICONTROL DIMENSION]** **[!UICONTROL Purchase Revenue]**。 若要實際做為量度使用，請建立如上例所示的自訂量值欄位，或使用維度的捷徑。 例如，**[!UICONTROL ⋮]**，選取&#x200B;**[!UICONTROL 彙總]**，然後選取&#x200B;**[!UICONTROL 總計]**。
+Customer Journey Analytics的量度在&#x200B;**[!UICONTROL 副本資料檢視]**&#x200B;左側邊欄中列為&#x200B;**[!UICONTROL DIMENSION]**。 例如，Customer Journey Analytics中的量度&#x200B;**[!UICONTROL Purchase Revenue]**&#x200B;有&#x200B;**[!UICONTROL DIMENSION]** **[!UICONTROL Purchase Revenue]**。 若要實際做為量度使用，請建立如上例所示的自訂量值欄位，或使用維度的捷徑。 例如，**[!UICONTROL ⋮]**，選取&#x200B;**[!UICONTROL 彙總]**，然後選取&#x200B;**[!UICONTROL 總計]**。
 
 **篩選器**
 您在Customer Journey Analytics中定義的篩選器可作為&#x200B;**[!UICONTROL 篩選器名稱]**&#x200B;欄位的一部分使用。 當您在Looker中使用&#x200B;**[!UICONTROL 篩選器名稱]**&#x200B;欄位時，您可以指定要使用的篩選器。
@@ -177,11 +190,11 @@ Customer Journey Analytics的量度在&#x200B;**[!UICONTROL Cc資料檢視]**&#x
 您在Customer Journey Analytics中定義的日期範圍可做為&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;欄位的一部分。 當您使用&#x200B;**[!UICONTROL 日期範圍名稱]**&#x200B;欄位時，您可以指定要使用的日期範圍。
 
 **自訂轉換**
-Looker使用自訂欄位建置器提供自訂轉換功能，如上所示。 例如，您想要以小寫執行產品名稱排名為[的](#single-dimension-ranked)單一維度使用案例。
+Looker使用自訂欄位建置器提供自訂轉換功能，如上所示。 例如，您想要以小寫執行產品名稱排名為[&#128279;](#single-dimension-ranked)的單一維度使用案例。
 
 1. 從左側邊欄中的&#x200B;**[!UICONTROL ‣自訂欄位]**&#x200B;區段：
    1. 從&#x200B;**[!UICONTROL +新增]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 自訂Dimension]**。
-   1. 在`lower(${cc_data_view.product_name})`運算式&#x200B;**[!UICONTROL 文字區域中輸入]**。 當您開始輸入`Product Name`時，會以正確的語法協助您。
+   1. 在&#x200B;**[!UICONTROL 運算式]**&#x200B;文字區域中輸入`lower(${cc_data_view.product_name})`。 當您開始輸入`Product Name`時，會以正確的語法協助您。
       ![Looker轉換範例](../assets/uc14-looker-transformation.png)
    1. 輸入`product name`作為&#x200B;**[!UICONTROL 名稱]**。
    1. 選取&#x200B;**[!UICONTROL 「儲存」]**。

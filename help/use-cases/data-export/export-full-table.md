@@ -5,9 +5,24 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: ee004948-3025-434b-a90b-8aa185800820
-source-git-commit: 9fef1fddbb4b51efb9282e3ef13501bd498a4546
+autotag-review: '2026-05-19T09:39:35.989Z'
+TQID: 'https://experienceleague.adobe.com/5lP3PKpCpxkeyH34327gieZ48KFkEai4DF2SC0H4E2U'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+  - id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: 116
 ht-degree: 6%
 
 ---
@@ -23,9 +38,9 @@ ht-degree: 6%
 
 使用[!DNL Customer Journey Analytics Full Table Export]匯出資料可讓您從Customer Journey Analytics Analysis Workspace中的自由表格匯出資料。
 
-![BI延伸模組](../assets/export-full-table.svg)
+![BI延伸模組](../assets/export-full-table.png)
 
-## 詳細資訊
+## 更多資訊
 
 您可以使用匯出完整表格功能，直接將您在Analysis Workspace中建立的任何自由表格內容的完整匯出至指定的雲端目的地。
 

@@ -5,10 +5,29 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
-source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
+autotag-review: '2026-05-19T08:53:41.814Z'
+TQID: 'https://experienceleague.adobe.com/v34BzDIuWE-GJEsepuTDMSDbNZT9wFP-WjeKZljmC1Y'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 76%
+source-wordcount: 780
+ht-degree: 75%
 
 ---
 
@@ -19,10 +38,9 @@ ht-degree: 76%
 
 設定 Content Analytics 前，您必須確認符合[先決條件](#prerequisites)、確實擁有必要的[存取控制](#access-control)，而且了解相關[限制](#limitations)。
 
+設定Content Analytics的步驟如下：
 
-概括性步驟
-
-![Content Analytics 設定](../assets/aca-configuration.svg){zoomable="yes"}
+![Content Analytics 設定](../assets/aca-configuration.png){zoomable="yes"}
 
 1. 使用 Content Analytics [引導式設定](guided.md)精靈引導您完成進行 Content Analytics 設定先決條件所需的所有步驟。 您可以隨時儲存您的設定並於之後返回。
 1. 一旦您對設定值感到滿意，就可以實施該設定。 此實施會根據您在精靈中設定的內容建立所有必要的作品。

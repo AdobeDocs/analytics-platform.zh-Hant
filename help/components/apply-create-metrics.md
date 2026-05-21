@@ -4,16 +4,29 @@ title: 量度
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+TQID: https://experienceleague.adobe.com/e0vvc9JN5k-KPI2zVAezIjdgViKdAcLJEAx0QUV-tAA
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 6%
+source-wordcount: 885
+ht-degree: 9%
 
 ---
 
 # 量度
 
-量度可讓您量化 Analysis Workspace 中的資料點。它們最常用作視覺效果中的欄，並和維度相連結。
+量度可讓您量化 Analysis Workspace 中的資料點。 它們最常用作視覺效果中的欄，並和維度相連結。
 
 ## 在 Analysis Workspace 中使用量度
 
@@ -32,7 +45,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
   與Adobe Analytics不同，Customer Journey Analytics可讓您在連線和資料檢視範圍內，以靈活的方式定義標準量度。
 
    * **人員**： Customer Journey Analytics中的人員量度是人員ID的相異計數。 當您在連線中設定資料集時，根據您選擇做為人員ID的內容，人員量度可能有不同的意義。
-   * Customer Journey Analytics **工作階段**：您會在資料檢視中定義工作階段量度，做為工作階段設定組態的一部分。 請參閱[工作階段設定](/help/data-views/session-settings.md)。
+   * **工作階段**：您會在資料檢視中定義工作階段量度，做為工作階段設定組態的一部分。 請參閱[工作階段設定](/help/data-views/session-settings.md)。
    * **事件**： Customer Journey Analytics中的事件量度是由事件所組成，這些事件是您已設定為連線之一部分的任何事件資料集的一部分。
 
   如需標準量度的完整清單，請參閱[標準量度](#standard-metrics)。
@@ -58,7 +71,7 @@ Customer Journey Analytics中的標準量度完整清單：
 
 ### 為所有專案建立計算量度
 
-您可以使用[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)來[建立計算量度](/help/components/calc-metrics/cm-workflow/cm-workflow.md)。 以這種方式建立時，計算量度會顯示在元件清單中，然後可用於整個組織的專案。
+您可以使用[計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)來[建立計算量度](/help/components/calc-metrics/cm-workflow/cm-workflow.md)。 用這個方式建立的計算量度會出現在元件清單中，而且之後可用於整個組織的專案。
 
 ### 為單一專案建立計算量度
 

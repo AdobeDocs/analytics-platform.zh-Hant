@@ -5,21 +5,29 @@ title: 管理資料夾
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+TQID: https://experienceleague.adobe.com/YNvjUk6kW4s7DwgpQSnU5R5ifPnpsavl0EJ84qqvAXI
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 86%
+source-wordcount: 431
+ht-degree: 81%
 
 ---
 
-
 # 管理資料夾
 
-您可以透過兩種方式管理 Workspace 中的資料夾。從資料夾內，或從專案清單中一個或多個已選取的資料夾。管理資料夾包括重新命名、移動或刪除資料夾的選項。
+您可以透過兩種方式管理 Workspace 中的資料夾。 從資料夾內，或從專案清單中一個或多個已選取的資料夾。 管理資料夾包括重新命名、移動或刪除資料夾的選項。
 
 ## 重新命名資料夾
 
-除非您是管理員，否則只能重新命名自己建立的資料夾。管理員可以重新命名任何資料夾。
+除非您是管理員，否則只能重新命名自己建立的資料夾。 管理員可以重新命名任何資料夾。
 
 若要重新命名 Workspace 中的資料夾：
 
@@ -37,7 +45,7 @@ ht-degree: 86%
 
 ## 移動資料夾
 
-除非您是管理員，否則您只能移動自己建立的資料夾。管理員可以移動任何資料夾。
+除非您是管理員，否則您只能移動自己建立的資料夾。 管理員可以移動任何資料夾。
 
 若要移動 Workspace 中的資料夾：
 
@@ -59,12 +67,12 @@ ht-degree: 86%
 
 ## 刪除資料夾
 
-除非您是管理員，否則您只能刪除自己建立的資料夾。管理員可以刪除任何資料夾。
+除非您是管理員，否則您只能刪除自己建立的資料夾。 管理員可以刪除任何資料夾。
 
 刪除資料夾時，以下準則適用：
 
-* 刪除資料夾並不會刪除資料夾內容。已刪除資料夾 (專案或子資料夾) 的內容會移至資料夾階層的上層資料夾。
-* 管理員可以刪除公司資料夾中其他管理員建立的資料夾。管理員需要與其他管理員協調，以保持資料夾和專案存取權的一致性。
+* 刪除資料夾並不會刪除資料夾內容。 已刪除資料夾 (專案或子資料夾) 的內容會移至資料夾階層的上層資料夾。
+* 管理員可以刪除公司資料夾中其他管理員建立的資料夾。 管理員需要與其他管理員協調，以保持資料夾和專案存取權的一致性。
 
 若要刪除 Workspace 中的資料夾，
 
@@ -72,11 +80,11 @@ ht-degree: 86%
 
    1. 在所選取資料夾的內容選單![More](/help/assets/icons/More.svg)中可用的[動作](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions)，或藍色動作列選取&#x200B;**[!UICONTROL 刪除]**。
 
-   1. 在&#x200B;**[!UICONTROL 您確定？]**&#x200B;對話框中，選取&#x200B;**[!UICONTROL 確定]**&#x200B;以刪除資料夾。
+   1. 在&#x200B;**[!UICONTROL 中確定嗎？]** 對話方塊，選取&#x200B;**[!UICONTROL 確定]**&#x200B;以刪除資料夾。
 
 * 在您要刪除的資料夾中。
 
    1. 從[標題區域](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)的![More](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL 刪除資料夾]**。
 
-   1. 在&#x200B;**[!UICONTROL 刪除&#x200B;*名稱*資料夾？]**&#x200B;對話框中，選取&#x200B;**[!UICONTROL 確定]**。
+   1. 在&#x200B;**[!UICONTROL 刪除&#x200B;*名稱*資料夾中？]** 對話方塊，選取&#x200B;**[!UICONTROL 確定]**。
 

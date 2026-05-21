@@ -5,9 +5,24 @@ title: 疑難排解失敗的匯出
 feature: Components
 exl-id: fbc25150-4390-40a2-9f17-aadf254258ad
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/pKXaX-DMxsFn9Y39AjqL1VGaSM--WFda9fuD7zJLgoI
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: 390
 ht-degree: 6%
 
 ---
@@ -20,14 +35,14 @@ ht-degree: 6%
 
 匯出可能會因為各種原因而失敗。 下表說明一些最常見的原因，以及您可以採取哪些動作來解決失敗：
 
-| 失敗原因 | 建議的動作 | 詳細資訊 |
+| 失敗原因 | 建議的動作 | 更多資訊 |
 |---------|----------|---------|
 | 位置或帳戶資訊無效 | 請確定您的憑證和其他資訊對於您要匯出的雲端帳戶和位置而言是正確的。 | [設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)和[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)。 |
 | 報表中的維度或量度已從資料檢視中移除 | 請聯絡您的系統管理員，檢視已從資料檢視中移除哪些元件。 您可能需要在匯出中使用不同的資料檢視，或從表格中移除不再可用的元件。 | [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md) |
 | 超出列數限制 | 根據您的授權型別，您最多可以匯出300萬、3000萬、1.5億或3億列。 更新您正在匯出的表格以減少總列數。 | [將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md) |
 | 排程的匯出到期日 | 您設定的排程匯出已過期。 更新匯出的到期日。 | [管理匯出](/help/components/exports/manage-exports.md) |
 | 不支援Dimension | <p>「完整表格匯出」不支援符合下列所有條件的任何維度：</p> <ul><li>是從屬於物件陣列一部分的欄位建立的</li><li>已啟用持續性<li>未使用繫結維度</li> | <ul><li>[使用物件陣列](/help/use-cases/object-arrays.md)</li><li>[持續性元件設定](/help/data-views/component-settings/persistence.md)<li>[在Customer Journey Analytics中使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)</li> |
-| 貴組織強制執行的資料治理原則會限制表格中的元件不可匯出 | 請連絡您的系統管理員，檢視哪些元件限制匯出。 匯出前先移除受限制的元件。 | *篩選*&#x200B;標籤和原則[中資料檢視表](/help/data-views/data-governance.md)區段的資料治理原則 |
+| 貴組織強制執行的資料治理原則會限制表格中的元件不可匯出 | 請連絡您的系統管理員，檢視哪些元件限制匯出。 匯出前先移除受限制的元件。 | *篩選[標籤和原則](/help/data-views/data-governance.md)中資料檢視表*&#x200B;區段的資料治理原則 |
 
 ## 聯絡Adobe客戶服務
 

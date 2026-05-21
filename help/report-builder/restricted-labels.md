@@ -6,10 +6,27 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
-source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
+TQID: https://experienceleague.adobe.com/MeHO7A9KWAjG8TyiOn9taPbtPhD47JGl88KSCoQwdMI
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2:
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 40%
+source-wordcount: 345
+ht-degree: 36%
 
 ---
 
@@ -21,7 +38,7 @@ ht-degree: 40%
 
 此外，從 Customer Journey Analytics (透過報告、匯出、API 等) 匯出資料時，便會新增其他警告或標籤，以通知使用者報告包含需要以特定方式處理敏感性資訊。
 
-此整合可讓您管理合規性。 在您組織中的資料監管員可以設定限制使用的原則。因此，您的 Customer Journey Analytics 使用者可以更秘密地使用資料，了解資料符合資料監管員定義的原則。
+此整合可讓您管理合規性。 在您組織中的資料監管員可以設定限制使用的原則。 因此，您的 Customer Journey Analytics 使用者可以更秘密地使用資料，了解資料符合資料監管員定義的原則。
 
 如需更多資訊，請參閱 [Customer Journey Analytics 和資料控管](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-privacy/privacy-overview)
 

@@ -5,10 +5,30 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 3e08fa116d3690cad450f92825bfd34023dbee24
+autotag-review: '2026-05-19T08:54:42.845Z'
+TQID: 'https://experienceleague.adobe.com/kEqjocKd5pNypjQlF70HeF1bKuoG9Qi-AT6nJiIwuV0'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '4018'
-ht-degree: 62%
+source-wordcount: 4111
+ht-degree: 63%
 
 ---
 
@@ -140,7 +160,7 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_prev_cleanup_labels_dialog"
 >title="清除先前的資料檢視"
->abstract="您已選取一個新的資料檢視。 先前選取資料檢視的Content Analytics設定已移除。"
+>abstract="您已選取一個新的資料檢視。 先前所選取之資料檢視的 Content Analytics 設定已移除。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_new_dialog"
@@ -166,7 +186,7 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_new_dialog"
 >title="所選資料釋圖"
->abstract="您已修改此設定的所選資料釋圖。 所選資料釋圖將會更新，並納入 Content Analytics 的量度與維度。 這些量度和維度將會從先前選取但已取消選取的資料視圖中移除。<br/><br/>如果選取的資料檢視有不同的連線，則連線將會更新以包含Content Analytics資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有所選資料視圖會繼承此設定所包含的管道。"
+>abstract="您已修改此設定的所選資料釋圖。 所選資料釋圖將會更新，並納入 Content Analytics 的量度與維度。 這些量度和維度將會從先前選取但已取消選取的資料視圖中移除。<br/><br/>若有不同的連線與所選資料檢視相關聯，則該連線會更新並納入 Content Analytics 資料集。 Content Analytics 資料集不會從原先選取的連線中移除。<br/><br/>所有所選資料視圖會繼承此設定所包含的管道。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_change_dialog"
@@ -237,7 +257,7 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_experience_locations_header"
 >title="行動體驗位置資料彙集"
->abstract="指定在收集 Content Analytics 資料時，應&#x200B;**排除**&#x200B;哪些體驗位置。 請確定您排除可識別個人身份的體驗位置。"
+>abstract="指定在收集 Content Analytics 資料時，應&#x200B;**排除**&#x200B;哪些體驗位置。 請確定您排除了可識別個人身分的體驗位置。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_locations_boldheader"
@@ -247,7 +267,7 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_locations_header"
 >title="行動資產位置資料彙集"
->abstract="指定在收集 Content Analytics 資料時，應&#x200B;**排除**&#x200B;哪些資產位置。 請確定您排除可識別個人身份的資產位置。"
+>abstract="指定在收集 Content Analytics 資料時，應&#x200B;**排除**&#x200B;哪些資產位置。 請確定您排除了可識別個人身分的資產位置。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_boldheader"
@@ -257,7 +277,7 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_header"
 >title="行動資產 URL 資料彙集"
->abstract="指定在收集 Content Analytics 資料時，應&#x200B;**排除**&#x200B;哪些資產 URL。 請確定您排除個人識別資產URL。"
+>abstract="指定在收集 Content Analytics 資料時，應&#x200B;**排除**&#x200B;哪些資產 URL。 請確定您排除了可識別個人身分的資產 URL。"
 
 針對行動裝置頻道，您可以設定[體驗擷取和定義](#experience-capture-and-definition)、[資料集合](#data-collection)和[標題覆寫](#header-overrides)。
 
@@ -289,15 +309,15 @@ ht-degree: 62%
       1. 指定&#x200B;**[!UICONTROL 標記名稱]**，例如 `ACA Test for Documentation`。
       1. 指定&#x200B;**[!UICONTROL 網域]**，例如 `example.com`。
 
-* 指出在收集Content Analytics的資料時，應該排除哪些體驗位置。 請確定您排除可識別個人身份的體驗位置。
+* 指出在收集Content Analytics的資料時，應該排除哪些體驗位置。 請確定您排除了可識別個人身分的體驗位置。
 
   指定&#x200B;**[!UICONTROL 要排除的體驗位置]**&#x200B;的&#x200B;**[!UICONTROL 規則運算式字串]**。 <br/>例如： `^(?!.*documentation).*`從Content Analytics排除所有檔案體驗位置。
 
-* 指示在收集Content Analytics的資料時，應該排除哪些資產位置。 請確定您排除可識別個人身份的資產位置。
+* 指示在收集Content Analytics的資料時，應該排除哪些資產位置。 請確定您排除了可識別個人身分的資產位置。
 
   為&#x200B;**[!UICONTROL 要排除的資產位置]**&#x200B;指定&#x200B;**[!UICONTROL 規則運算式字串]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有含標誌JPEG影像的資產位置。
 
-* 指示在收集Content Analytics的資料時應排除哪些資產URL。 請確定您排除個人識別資產URL。
+* 指示在收集Content Analytics的資料時應排除哪些資產URL。 請確定您排除了可識別個人身分的資產 URL。
 
   指定&#x200B;**[!UICONTROL 要排除的資產URL的**&#x200B;[!UICONTROL &#x200B;規則運算式字串&#x200B;]&#x200B;**]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有參照標誌JPEG影像的資產URL。
 
@@ -356,7 +376,9 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_button"
 >title="資料收集"
->abstract="定義您要使用的標記屬性，或建立一個新屬性。 並且使用規則運算式定義想要包括或排除的頁面和資產。"
+>abstract="定義您要使用的標記屬性，或建立一個新屬性。 並且使用規則運算式定義想要包括或排除的頁面和資產。<br/>對於與標籤無關的實作，請選取&#x200B;**[!UICONTROL 新建]**。  標籤屬性已建立，但您不需要使用它。"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/tags-agnostic" text="Content Analytics JavaScript資料庫"
+
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_tag_header"
@@ -371,7 +393,7 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_header"
 >title="資料收集"
->abstract="在收集 Content Analytics 資料時，指名應&#x200B;**包含**&#x200B;或&#x200B;**排除**&#x200B;哪些頁面。 請確定您排除個人識別頁面。"
+>abstract="在收集 Content Analytics 資料時，指名應&#x200B;**包含**&#x200B;或&#x200B;**排除**&#x200B;哪些頁面。 請確定您排除了可識別個人身分的頁面。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_boldheader"
@@ -381,7 +403,7 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_header"
 >title="資料收集"
->abstract="在收集 Content Analytics 資料時，指名應&#x200B;**包含**&#x200B;或&#x200B;**排除**&#x200B;哪些資產。 請確定您排除個人識別資產。"
+>abstract="在收集 Content Analytics 資料時，指名應&#x200B;**包含**&#x200B;或&#x200B;**排除**&#x200B;哪些資產。 請確定您排除了可識別個人身分的資產。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_experiences_edit_button"
@@ -419,7 +441,7 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_web_assets_header"
 >title="網頁資產資料收集"
->abstract="在收集 Content Analytics 資料時，指名應&#x200B;**包含**&#x200B;或&#x200B;**排除**&#x200B;哪些資產。 請確定您排除個人識別資產。"
+>abstract="在收集 Content Analytics 資料時，指名應&#x200B;**包含**&#x200B;或&#x200B;**排除**&#x200B;哪些資產。 請確定您排除了可識別個人身分的資產。"
 
 
 ##### 體驗擷取與定義 {#web-experience-capture-and-definition}
@@ -492,11 +514,13 @@ ht-degree: 62%
       1. 指定&#x200B;**[!UICONTROL 標記名稱]**，例如 `ACA Test for Documentation`。
       1. 指定&#x200B;**[!UICONTROL 網域]**，例如 `example.com`。
 
-* 在收集 Content Analytics 資料時，指明應包括或排除哪些頁面。 請確定您排除個人識別頁面。
+     如果您想要使用[Content Analytics Javascript程式庫](/help/content-analytics/config/tags-agnostic.md)為Web Channel建立與Tags無關的實作，請使用新的Tags屬性。 Tags屬性已建立，但您無法在不可知的實作中使用屬性。 不過，不可知的實作需要您執行引導式設定精靈至少一次。
+
+* 在收集 Content Analytics 資料時，指明應包括或排除哪些頁面。 請確定您排除了可識別個人身分的頁面。
 
   為&#x200B;**[!UICONTROL 要包含/排除]**&#x200B;的頁面指定&#x200B;**[!UICONTROL 規則運算式字串]**。 <br/>例如：`^(?!.*documentation).*`從 Content Analytics 中排除所有文件頁面。
 
-* 在收集 Content Analytics 資料時，指明應包括或排除哪些資產。 請確定您排除個人識別資產。
+* 在收集 Content Analytics 資料時，指明應包括或排除哪些資產。 請確定您排除了可識別個人身分的資產。
 
   為&#x200B;**[!UICONTROL 要包含/排除]**&#x200B;的資產指定&#x200B;**[!UICONTROL 規則運算式字串]**。 <br/>例如：`^(?!.*(logo\.jpg)).*$`，在 Content Analytics 中排除所有標誌的 JPEG 影像。
 

@@ -1,21 +1,34 @@
 ---
-title: Content Analytics標籤無關設定
-description: 瞭解如何在不使用Experience Platform資料收集標籤的情況下設定Content Analytics。
+title: Content Analytics JavaScript資料庫
+description: 瞭解如何在不使用Experience Platform資料收集標籤的情況下設定Content Analytics，並改用Content Analytics JavaScript資料庫。
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-hide: true
-source-git-commit: 64b96d8b0917975f19c353e26d9e6437d1b4e5ac
+autotag-review: '2026-05-19T06:56:34.440Z'
+TQID: 'https://experienceleague.adobe.com/GUYf0ZoTlAkoIIPWzfZTm0-eMvBjN8ieYSu6goHu3GA'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 5%
+source-wordcount: 484
+ht-degree: 4%
 
 ---
 
 
-# Content Analytics Tags不可知的設定
+# Content Analytics JavaScript資料庫
 
-Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Network將內容資料傳送至Adobe Experience Platform，讓您追蹤網站上的內容相關事件。 當您想要實作Content Analytics而不使用Adobe Experience Platform標籤(Launch)時，請使用此資料庫。
+Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Network將內容資料傳送至Adobe Experience Platform，讓您追蹤網站上的內容相關事件。 當您想要實作Content Analytics而不使用Adobe Experience Platform標籤時，請使用此資料庫。
 
 >[!NOTE]
 >
@@ -24,7 +37,10 @@ Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Net
 
 >[!PREREQUISITES]
 >
->呼叫`initializeContentLibrary`之前，必須在頁面上初始化Adobe Experience Platform Web SDK (Alloy)。
+>* 呼叫`initializeContentLibrary`之前，必須在頁面上初始化Adobe Experience Platform Web SDK (Alloy)。
+>* 完成Content Analytics引導式設定精靈，引導您完成設定Content Analytics設定先決條件所需的所有步驟。
+>* 引導式設定完成後，即可使用JavaScript設定。
+
 
 ## 安裝
 
@@ -154,8 +170,3 @@ initializeContentLibrary({
   ],
 });
 ```
-
->[!NOTE]
->
->在[引導式組態](/help/content-analytics/config/guided.md)介面中設定Content Analytics組態後，您組態專屬的JavaScript設定便會顯示在該組態檢視中。
-

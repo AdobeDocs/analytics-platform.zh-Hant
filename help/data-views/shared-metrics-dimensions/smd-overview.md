@@ -2,16 +2,31 @@
 title: 共用的量度和維度概觀
 description: 在多個資料檢視中使用相同的維度或量度參考。
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 1de8b8f40a7e1be0de0e6cbed5cc57ff834f2377
+TQID: https://experienceleague.adobe.com/5sjpTMocv3547Xqg4VD6C5Gp-cRzNmyHTI5iE6P-JGA
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 0%
+source-wordcount: 1292
+ht-degree: 3%
 
 ---
 
 # 共用的量度和維度概觀
 
-共用的量度和維度可提供一個中央位置，用於管理可用於任何數量資料檢視的維度和量度。 這些元件對於使用多個資料檢視的組織特別有用，尤其是如果這些資料檢視共用相同的元件設定。 對共用量度和維度所做的變更會立即套用至它共用的每個資料檢視。 編輯個別資料檢視時，元件名稱旁的![共用元件圖示](/help/assets/icons/CCLibrary.svg)圖示可識別共用的維度和量度。
+共用的量度和維度可提供一個中央位置，用於管理可用於任何數量資料檢視的維度和量度。 這些元件對於使用多個資料視圖的組織別具價值，尤其是在這些資料視圖共用相同元件設定的情況下。 對共用量度和維度所做的變更會立即套用至它共用的每個資料檢視。 編輯個別資料檢視時，元件名稱旁的![共用元件圖示](/help/assets/icons/CCLibrary.svg)圖示可識別共用的維度和量度。
 
 雖然共用的維度和量度可讓共用元件用於許多資料檢視，但無法跨連線共用。
 

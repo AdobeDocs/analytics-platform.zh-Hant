@@ -5,10 +5,24 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Adobe Analytics Integration,Administration
 exl-id: c109742b-c1c5-45b3-971f-f8dcf814ec37
-source-git-commit: ff0a5eb5b04f604eff41a18b05199b517d1a2d14
+autotag-review: '2026-05-19T09:13:16.649Z'
+TQID: 'https://experienceleague.adobe.com/sMivwoUTSa8KcQcaK8kR5PlbCF8stVNGeL5YET4usMI'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2:
+  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 1%
+source-wordcount: 1127
+ht-degree: 2%
 
 ---
 
@@ -33,7 +47,7 @@ ht-degree: 1%
 
 | 圖例 | 說明 |
 |---|---|
-| ![跨多個IMS組織對應資料](/help/getting-started/assets/map-data-across-ims-orgs.svg) | 此對應可讓您從IMS組織3內布建的Customer Journey Analytics中的一個連線，報告IMS組織1、IMS組織2和IMS組織3中存在的報表套裝。 |
+| ![跨多個IMS組織對應資料](/help/getting-started/assets/map-data-across-ims-orgs.png) | 此對應可讓您從IMS組織3內布建的Customer Journey Analytics中的一個連線，報告IMS組織1、IMS組織2和IMS組織3中存在的報表套裝。 |
 
 {style="table-layout:fixed"}
 
@@ -51,7 +65,7 @@ ht-degree: 1%
 
 一旦Adobe客戶經理收到電子郵件，其中包含來自多個組織的Analytics資料對應請求，即會在Adobe中稽核該請求。 Adobe客戶經理若需任何其他問題、選用的培訓及其他資訊，請聯絡您。
 
-核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝[的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)清單中的報表套裝名稱。
+核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)的清單中的報表套裝名稱。
 
 
 ## 限制

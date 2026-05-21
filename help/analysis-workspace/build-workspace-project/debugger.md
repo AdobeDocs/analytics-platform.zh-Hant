@@ -5,10 +5,21 @@ feature: Workspace Basics
 title: 專案偵錯工具
 role: User
 exl-id: 1335ec1f-5597-4e23-8228-3d477534de43
-source-git-commit: 695d5f686d10fc39b1b3d717a19fd6e874d81b33
+TQID: https://experienceleague.adobe.com/IJCJ64hNUdZu4PHlSu6-tBcjSFVF2QajpfnLp0wbrYQ
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 3%
+source-wordcount: 476
+ht-degree: 4%
 
 ---
 
@@ -22,7 +33,7 @@ ht-degree: 3%
 >
 
 
-## 啟用偵錯工具
+## 啟用除錯工具
 
 >[!IMPORTANT]
 >
@@ -76,7 +87,7 @@ ht-degree: 3%
    * JSON (回應)
    * Curl 請求
 
-1. 在![cURL請求](/help/assets/icons/Copy.svg)下使用&#x200B;**[!UICONTROL 複製]** **[!UICONTROL 複製到剪貼簿]**，將請求複製到剪貼簿。
+1. 在&#x200B;**[!UICONTROL cURL請求]**&#x200B;下使用![複製](/help/assets/icons/Copy.svg) **[!UICONTROL 複製到剪貼簿]**，將請求複製到剪貼簿。
 1. 將游標暫留在任何&#x200B;**[!UICONTROL 要求]**&#x200B;或&#x200B;**[!UICONTROL 回應]**&#x200B;文字區域上以顯示並選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL 複製到剪貼簿]**，將該文字區域（XML或JSON）的內容複製到剪貼簿。
 
 1. 交換您已複製以及哪個Adobe支援請求的任何資訊，以疑難排解Analysis Workspace專案中的視覺效果。
@@ -85,7 +96,7 @@ ht-degree: 3%
 
 針對您想要疑難排解的任何其他視覺效果，重複上述步驟。
 
-## 停用偵錯工具
+## 停用除錯工具
 
 >[!IMPORTANT]
 >

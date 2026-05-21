@@ -5,10 +5,26 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+autotag-review: '2026-05-19T08:48:44.273Z'
+TQID: 'https://experienceleague.adobe.com/hE-nAiD8K4lHdZkC2YJpqpqfh2d3CY6tq4KiTJjEXs0'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+  - id: cf731116-8803-4027-85aa-9c0a126e8321
+  - id: e0cfe18a-f68c-495b-bafc-f6bcc0392d6c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 2%
+source-wordcount: 521
+ht-degree: 9%
 
 ---
 
@@ -18,10 +34,10 @@ ht-degree: 2%
 
 根據下列類別，此轉換僅適用於包含B2B查詢結構描述資料的資料集：
 
-* [XDM商業帳戶個人關係](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [XDM商業機會個人關係](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [XDM業務行銷清單成員](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [XDM商業活動會員](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [XDM 商業帳戶個人關係](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [XDM 商業機會個人關係](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [XDM 業務行銷清單會員](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [XDM 商業活動會員](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
@@ -52,7 +68,7 @@ ht-degree: 2%
 
 * 選取&#x200B;**[!UICONTROL 轉換資料集以進行B2B查詢]**。
 
-  此選項會轉換資料集，以便用於B2B案例中的人員型查詢。
+  此選項將轉換資料集，使其可用於在 B2B 情境中進行人員型查詢。
 
 
   >[!IMPORTANT]
@@ -71,4 +87,4 @@ ht-degree: 2%
 
 轉換會修改四個結構描述類別（下圖中的橘色）中每個類別的資料集，以便針對每個人員識別碼在查詢資料集中（下圖中的粉紅色）建立相關資料（帳戶、商機、行銷清單或行銷活動）的（物件）陣列。 此轉換可讓以人員ID為基礎的查詢正確運作。
 
-![B2B結構描述](./assets/b2b-schemas.svg)
+![B2B結構描述](./assets/b2b-schemas.png)

@@ -5,18 +5,33 @@ exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: aff01f4fc3520d461ca800382cc24d8d948d9cbc
+autotag-review: '2026-05-19T09:33:58.249Z'
+TQID: 'https://experienceleague.adobe.com/FJOAnB2Dumw9txeabYMfrIqE1uihee-TcA8ZFcAbU2Y'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: e8abc408-b05c-427f-9e37-f8b033a6b3c3
+  - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+  - id: cf731116-8803-4027-85aa-9c0a126e8321
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 61%
+source-wordcount: 518
+ht-degree: 59%
 
 ---
 
 # 使用物件陣列
 
-某些平台結構允許使用物件陣列。Adobe Customer Journey Analytics支援事件、查詢和設定檔資料中物件陣列的擷取和報表功能。 內含多種產品的購物車是最常見的例子。每樣產品都有名稱、SKU、類別、價格、數量，以及您要追蹤的其他任何維度。這些面向的規定各不相同，但全都必須符合相同點擊規範。
+某些平台結構允許使用物件陣列。 Adobe Customer Journey Analytics支援事件、查詢和設定檔資料中物件陣列的擷取和報表功能。 內含多種產品的購物車是最常見的例子。 每樣產品都有名稱、SKU、類別、價格、數量，以及您要追蹤的其他任何維度。 這些面向的規定各不相同，但全都必須符合相同點擊規範。
 
-舊版 Adobe Analytics 中，此功能是使用 `products`變數來完成。該變數是以分號 (`;`) 分隔的串連字串，以區隔產品的各個面向，而逗號 (`,`) 則劃分產品。這是唯一有限支援「物件陣列」的變數。清單變數之類的多值變數可支援同等陣列，但無法支援「物件陣列」。Customer Journey Analytics擴充了此概念，在單一資料列中支援任意深度的階層，任何舊版Adobe Analytics皆未支援此功能。
+舊版 Adobe Analytics 中，此功能是使用 `products`變數來完成。 該變數是以分號 (`;`) 分隔的串連字串，以區隔產品的各個面向，而逗號 (`,`) 則劃分產品。 這是唯一有限支援「物件陣列」的變數。 清單變數之類的多值變數可支援同等陣列，但無法支援「物件陣列」。 Customer Journey Analytics擴充了此概念，在單一資料列中支援任意深度的階層，任何舊版Adobe Analytics皆未支援此功能。
 
 ## 相同事件範例
 
@@ -198,7 +213,7 @@ Customer Journey Analytics會檢視事件的這些部分，以產生報表：
 | `Unspecified` | `2` | `1` |
 | `Total` | `2` | `2` |
 
-產品訂單沒有相關聯的保固名稱，因此維度項目為「未指定」。同樣的情況也適用於產品保固訂單：
+產品訂單沒有相關聯的保固名稱，因此維度項目為「未指定」。 同樣的情況也適用於產品保固訂單：
 
 ```diff
 {
@@ -242,7 +257,7 @@ Customer Journey Analytics會檢視事件的這些部分，以產生報表：
 +}
 ```
 
-請注意沒有關聯名稱的訂單。這些都是「未指定」維度項目的訂單。
+請注意沒有關聯名稱的訂單。 這些都是「未指定」維度項目的訂單。
 
 ### 結合不同量度
 
@@ -270,5 +285,5 @@ Customer Journey Analytics本身不會結合名稱相似但物件層級不同的
 
 ## 限制
 
-限制適用於Customer Journey Analytics使用且模型化為Experience Platform中結構描述一部分的資料陣列。 檢視[即時客戶個人檔案資料和區段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails#data-model-limits)預設護欄中的[資料模型限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails#data-size-limits)和[資料大小限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails)。
+限制適用於Customer Journey Analytics使用且模型化為Experience Platform中結構描述一部分的資料陣列。 檢視[即時客戶個人檔案資料和區段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails)預設護欄中的[資料模型限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails#data-model-limits)和[資料大小限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails#data-size-limits)。
 

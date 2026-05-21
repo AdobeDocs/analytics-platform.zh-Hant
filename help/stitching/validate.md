@@ -5,10 +5,24 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/Ognl-DJP3hlQmBPGQE5J4c2fw6jjBsO-g-NjSenmafQ
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 0%
+source-wordcount: 1757
+ht-degree: 1%
 
 ---
 
@@ -72,7 +86,7 @@ ht-degree: 0%
 
 ![拼接概觀自由格式表格 — 電子郵件集](/help/stitching/assets/workspace-emailset.png)
 
-若要檢視在銜接程式之後設定電子郵件地址的事件，請定義計算量度`Email stitched namespace`。 該計算量度會檢視&#x200B;**[!UICONTROL 具有等於雜湊電子郵件名稱空間]**&#x200B;之&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;的事件`email_lc_sha256`。
+若要檢視在銜接程式之後設定電子郵件地址的事件，請定義計算量度`Email stitched namespace`。 該計算量度會檢視&#x200B;**[!UICONTROL 具有等於雜湊電子郵件名稱空間`email_lc_sha256`之**&#x200B;[!UICONTROL &#x200B;身分識別名稱空間&#x200B;]&#x200B;**的事件]**。
 
 ![拼接總覽 — 電子郵件拼接的名稱空間計算量度](/help/stitching/assets/cm-email-stitched-namespace.png)
 
@@ -122,7 +136,7 @@ ht-degree: 0%
    在下列範例中，`personalEmail.address`做為身分識別，用來建立&#x200B;**[!UICONTROL _Email set]**&#x200B;量度。
    ![電子郵件集量度](/help/stitching/assets/emailset-metric.png)
 
-1. 使用`stitchedID.namespace.code`欄位來建立&#x200B;**[!UICONTROL 電子郵件拼接名稱空間]**&#x200B;量度。 請確定您在元件設定[中指定](/help/data-views/component-settings/include-exclude-values.md)包含排除值，因此您只會考慮您嘗試將資料列提升到的名稱空間值。
+1. 使用`stitchedID.namespace.code`欄位來建立&#x200B;**[!UICONTROL 電子郵件拼接名稱空間]**&#x200B;量度。 請確定您在元件設定[&#128279;](/help/data-views/component-settings/include-exclude-values.md)中指定包含排除值，因此您只會考慮您嘗試將資料列提升到的名稱空間值。
    1. 選取&#x200B;**[!UICONTROL 設定包含/排除值]**。
    1. 選取&#x200B;**[!UICONTROL 如果符合所有條件]**&#x200B;作為&#x200B;**[!UICONTROL 符合]**。
    1. 將&#x200B;**[!UICONTROL 等於]** `email`指定為&#x200B;**[!UICONTROL 條件]**，以選取已提升至電子郵件名稱空間的事件。

@@ -4,22 +4,32 @@ title: 開啟專案
 feature: Workspace Basics
 role: User
 exl-id: 5ef235e2-50d8-4202-bad7-06090102cf73
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+TQID: https://experienceleague.adobe.com/iqhe-qsJLj6il8IDhb8ZAkINpww7oKZYj-r2oyjTxGY
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: 375
 ht-degree: 97%
 
 ---
 
 # 開啟專案
 
-您可以直接從「[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)」頁面開啟專案。在清單中尋找您的專案。使用[搜尋](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search)或[區段面板](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)來縮小清單範圍。
+您可以直接從「[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)」頁面開啟專案。 在清單中尋找您的專案。 使用[搜尋](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search)或[區段面板](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)來縮小清單範圍。
 
 * 選擇專案標題，在 Analysis Workspace 中開啟該專案。
 
 您也可以在處理專案時開啟另一個專案。
 
-* 從「**[!UICONTROL 專案]**」選單中選取「**[!UICONTROL 開啟]**」。您會看到一個類似「[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)」頁面的對話框。使用[搜尋](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search)或[區段面板](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)來縮小清單範圍。
+* 從「**[!UICONTROL 專案]**」選單中選取「**[!UICONTROL 開啟]**」。 您會看到一個類似「[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)」頁面的對話框。  使用[搜尋](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search)或[區段面板](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel)來縮小清單範圍。
 * 選擇專案標題，在 Analysis Workspace 中開啟該專案。
 
 如果找不到專案並想開始進行一個新專案，請選取「**[!UICONTROL 新建]**」。
@@ -32,22 +42,23 @@ ht-degree: 97%
 
    ![先前儲存的專案版本清單和選項，顯示所有版本或僅帶有註釋的版本。](assets/open-previously-saved.png)
 
-1. 「**[!UICONTROL 先前儲存的版本]**」對話框中查看可用先前版本清單。您可以在&#x200B;**[!UICONTROL 所有版本]**&#x200B;和&#x200B;**[!UICONTROL 僅限附註解版本]**&#x200B;之間切換。
+1. 「**[!UICONTROL 先前儲存的版本]**」對話框中查看可用先前版本清單。 您可以在&#x200B;**[!UICONTROL 所有版本]**&#x200B;和&#x200B;**[!UICONTROL 僅限附註解版本]**&#x200B;之間切換。
 
    清單會顯示每個版本的時間戳記、編輯器和已儲存的註解。
 
 
-1. 選取先前版本並按一下「**[!UICONTROL 載入]**」。先前版本然後載入通知。在按一下「**[!UICONTROL 儲存]**」以前，先前版本不會成為專案的目前儲存版本。如果您離開已載入的版本，當您再次想要開啟先前的版本時，您會看到最後儲存的版本。
+1. 選取先前版本並按一下「**[!UICONTROL 載入]**」。
+先前版本然後載入通知。 在按一下「**[!UICONTROL 儲存]**」以前，先前版本不會成為專案的目前儲存版本。 如果您離開已載入的版本，當您再次想要開啟先前的版本時，您會看到最後儲存的版本。
 
 
 ## 不相容的資料檢視
 
-開啟專案時，您可能會看到「**[!UICONTROL 不相容的資料檢視]**」警告對話框。對話框會說明專案內的某些元件未在專案內一個面板的選取資料檢視中啟用。
+開啟專案時，您可能會看到「**[!UICONTROL 不相容的資料檢視]**」警告對話框。 對話框會說明專案內的某些元件未在專案內一個面板的選取資料檢視中啟用。
 
 ![不相容？](assets/incompatible-data-view.png)
 
 若要修復此警告，您可以：
 
-* **[!UICONTROL 變更資料檢視]**。從&#x200B;**[!UICONTROL 變更資料檢視]**![選取適當的資料檢視：資料](/help/assets/icons/Data.svg)。如果選定的資料檢視有效，您的專案將在 Analysis Workspace 中開啟。
-* **[!UICONTROL 返回登陸頁面]**。您選取的專案尚未開啟，您可以選取其他專案。
-* **[!UICONTROL 仍要繼續]**。您的專案在 Analysis Workspace 中開敋，但部分視覺效果出現錯誤，且不相容的資料檢視會發出警報 ![警報](/help/assets/icons/Alert.svg) (在資料檢視名稱之前)。
+* **[!UICONTROL 變更資料檢視]**。 從&#x200B;**[!UICONTROL 變更資料檢視]**![選取適當的資料檢視：資料](/help/assets/icons/Data.svg)。 如果選定的資料檢視有效，您的專案將在 Analysis Workspace 中開啟。
+* **[!UICONTROL 返回登陸頁面]**。 您選取的專案尚未開啟，您可以選取其他專案。
+* **[!UICONTROL 仍要繼續]**。 您的專案在 Analysis Workspace 中開敋，但部分視覺效果出現錯誤，且不相容的資料檢視會發出警報 ![警報](/help/assets/icons/Alert.svg) (在資料檢視名稱之前)。

@@ -5,10 +5,29 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
+TQID: https://experienceleague.adobe.com/BPrXvtXRO3WdxhjucGLGuoWL1AIvwcoUVhqIPX3NEek
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 89%
+source-wordcount: 2592
+ht-degree: 87%
 
 ---
 
@@ -106,7 +125,7 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 1. 前往[experience.adobe.com](https://experience.adobe.com/)並使用您的Adobe ID登入。
 
-2. 在 Experience Cloud 首頁上選取「**Customer Journey Analytics**」。
+2. 從Adobe CX Enterprise Home選取&#x200B;**Customer Journey Analytics**。
 
 3. 在專案頁面頂部的橫幅中選取「**[!UICONTROL 空白專案]**」，即可開啟一個新的空白專案。
 
@@ -172,9 +191,9 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 [AI 助理](/
 
 ![環形圖](/help/assets/ai-asst-result3.png)
 
-## 跨 Experience Cloud 應用程式存取 Data Insights 代理
+## 存取CX Enterprise應用程式中的Data Insights Agent
 
-Adobe Experience Platform Agent Orchestrator 可讓您在多個 Adobe Experience Cloud 應用程式 (例如 Adobe Journey Optimizer 和 Real-Time CDP) 中，存取 Data Insights 代理的功能。
+Adobe Experience Platform Agent Orchestrator可讓您在多個CX Enterprise應用程式（例如Adobe Journey Optimizer和Real-Time CDP）中存取Data Insights Agent的功能。
 
 Agent Orchestrator 會解讀您的請求、判斷需要哪些專門的代理，並協調代理提供適當的回答。 它會追蹤多輪互動中的上下文，讓您可以自然地在先前的查詢基礎上繼續提問。
 

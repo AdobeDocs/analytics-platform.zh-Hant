@@ -5,16 +5,28 @@ title: 管理匯出
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: d0fa233aa5359064e9e0afea1a5384f5e38d017e
+TQID: https://experienceleague.adobe.com/a63XlsGElfxDW1-EqB2l1iMdTtMlk7OaVBuLvS8QH7E
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: 1281
 ht-degree: 5%
 
 ---
 
 # 管理匯出
 
-匯出完整資料表(如[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述)後，可在[!UICONTROL 匯出]頁面的[!UICONTROL 匯出]索引標籤上取得匯出。
+匯出完整資料表（如[將Customer Journey Analytics報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中所述）後，可在[!UICONTROL 匯出]頁面的[!UICONTROL 匯出]索引標籤上取得匯出。
 
 您只能看到您建立的匯出。 管理員可以透過啟用選項&#x200B;**[!UICONTROL 檢視所有使用者的匯出]**&#x200B;來檢視所有匯出。
 
@@ -67,7 +79,7 @@ ht-degree: 5%
 
    顯示&#x200B;[!UICONTROL **匯出完整資料表**]&#x200B;對話方塊。
 
-1. 更新任何可用選項。 如需各個選項的相關資訊，請參閱[將Analysis Workspace報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md#export-full-tables)中的[從Customer Journey Analytics匯出完整表格](/help/analysis-workspace/export/export-cloud.md)。
+1. 更新任何可用選項。 如需各個選項的相關資訊，請參閱[將Analysis Workspace報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中的[從Customer Journey Analytics匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables)。
 
 ## 更新匯出
 
@@ -81,7 +93,7 @@ ht-degree: 5%
 
    顯示&#x200B;[!UICONTROL **匯出完整資料表**]&#x200B;對話方塊。<!--check process from here. -->
 
-1. 更新任何可用選項。 如需各個選項的相關資訊，請參閱[將Analysis Workspace報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md#export-full-tables)中的[從Customer Journey Analytics匯出完整表格](/help/analysis-workspace/export/export-cloud.md)。
+1. 更新任何可用選項。 如需各個選項的相關資訊，請參閱[將Analysis Workspace報表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中的[從Customer Journey Analytics匯出完整表格](/help/analysis-workspace/export/export-cloud.md#export-full-tables)。
 
 ## 複製匯出
 
@@ -146,7 +158,7 @@ ht-degree: 5%
 
 1. 在Customer Journey Analytics中，選取&#x200B;[!UICONTROL **元件**] > [!UICONTROL **匯出**]。
 
-1. 在&#x200B;[!UICONTROL **匯出**]&#x200B;索引標籤上，選取&#x200B;**匯出**&#x200B;頁面右上角的![自訂表格](assets/customize-table-icon.png)圖示[!UICONTROL 自訂表格]。
+1. 在&#x200B;[!UICONTROL **匯出**]&#x200B;索引標籤上，選取[!UICONTROL 匯出]頁面右上角的&#x200B;**自訂表格**&#x200B;圖示![自訂表格](assets/customize-table-icon.png)。
 
    可使用下列欄：
 
@@ -159,7 +171,7 @@ ht-degree: 5%
    | 標記 | 顯示套用至匯出的任何標籤。 如需如何將標籤套用至匯出的詳細資訊，請參閱[標籤匯出](#tag-an-export)。 |
    | 表格大小 (上次傳送) | 上次傳送匯出的大小。 |
    | 建立者 | 建立匯出的使用者。 |
-   | 已建立 | 建立匯出的日期和時間。<!-- true? --> |
+   | 建立時間 | 建立匯出的日期和時間。<!-- true? --> |
    | 位置 | 匯出資料的帳戶位置。 |
    | 帳戶 | 匯出資料所在的帳戶。 |
    | 頻率 | 傳送匯出的頻率。 可用的選項包括[!UICONTROL 一次]、[!UICONTROL 每日]、[!UICONTROL 每週]、[!UICONTROL 按一週的日期]、[!UICONTROL 按月份的日期]、[!UICONTROL 按月份的日期]每年，以及[!UICONTROL 按特定日期每年]。 |

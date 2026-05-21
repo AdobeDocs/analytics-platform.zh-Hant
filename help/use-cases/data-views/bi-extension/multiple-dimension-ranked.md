@@ -5,9 +5,22 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 7c8d01ac-47a3-4348-83ef-fea66695fbb2
-source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
+autotag-review: '2026-05-19T09:42:58.473Z'
+TQID: 'https://experienceleague.adobe.com/MiPO6srBKMG9f9ijpOP7hFEHzewxjcEGVBpFZaWIilw'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: 1549
 ht-degree: 1%
 
 ---
@@ -50,7 +63,7 @@ ht-degree: 1%
    1. 選取&#x200B;**[!UICONTROL 購買總和]**
 
 1. 若要將垂直長條圖修改為表格，請確定您已選取表格，並從&#x200B;**[!UICONTROL 視覺效果]**&#x200B;窗格中選取&#x200B;**[!UICONTROL 矩陣]**。
-   * 從&#x200B;**[!UICONTROL 資料行]**&#x200B;拖曳&#x200B;**[!UICONTROL product_name]**，並將欄位拖放到[!UICONTROL 視覺效果]窗格中的&#x200B;**[!UICONTROL 資料列]**&#x200B;**&#x200B;**&#x200B;[!UICONTROL product_categor]&#x200B;**&#x200B;**&#x200B;y下。
+   * 從&#x200B;**[!UICONTROL 資料行]**&#x200B;拖曳&#x200B;**[!UICONTROL product_name]**，並將欄位拖放到&#x200B;**[!UICONTROL 視覺效果]**&#x200B;窗格中的&#x200B;**[!UICONTROL 資料列]**&#x200B;**[!UICONTROL product_categor]**&#x200B;y下。
 
 1. 若要限制表格內顯示的產品數量，請在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中選取&#x200B;**[!UICONTROL product_name is (All)]**。
 
@@ -210,7 +223,7 @@ ht-degree: 1%
       ![Looker視覺化設定](../assets/uc6-looker-visualization.png)
 
    1. 選取&#x200B;**[!UICONTROL 「套用」]**。
-   1. 選取![編輯](/help/assets/icons/CrossSize75.svg)旁的&#x200B;**[!UICONTROL CrossSize75]**&#x200B;以隱藏快顯對話方塊
+   1. 選取&#x200B;**[!UICONTROL 編輯]**&#x200B;旁的![CrossSize75](/help/assets/icons/CrossSize75.svg)以隱藏快顯對話方塊
 
 您應該會看到視覺效果和類似下列的表格。
 

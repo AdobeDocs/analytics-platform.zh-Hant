@@ -3,10 +3,20 @@ title: 歸因最佳實務
 description: 瞭解最佳實務，以決定要使用的歸因模型。
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: ee6eb18fc2a720e61670c571847bacf836b0b039
+TQID: https://experienceleague.adobe.com/noNo2rP-srAtUJbG-kYgipLHknMsWWZR4iJwDv-2ioc
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 66%
+source-wordcount: 466
+ht-degree: 63%
 
 ---
 
@@ -33,11 +43,11 @@ ht-degree: 66%
 
 ### 上層漏斗分析
 
-上層漏斗分析管道用於建立品牌或產品知名度。例如，大多數電視廣告的目標是品牌知名度。 您可能會使用[時間衰減歸因模型](/help/analysis-workspace/attribution/models.md)，因為人們會隨著時間逐漸淡忘電視廣告。
+上層漏斗分析管道用於建立品牌或產品知名度。 例如，大多數電視廣告的目標是品牌知名度。 您可能會使用[時間衰減歸因模型](/help/analysis-workspace/attribution/models.md)，因為人們會隨著時間逐漸淡忘電視廣告。
 
 ### 下層漏斗分析
 
-在下層漏斗分析中，假設人們已經知道您的品牌且您想要轉換。使用電子郵件、推播通知或 Facebook 廣告。
+在下層漏斗分析中，假設人們已經知道您的品牌且您想要轉換。 使用電子郵件、推播通知或 Facebook 廣告。
 
 ## 以規則為基礎的歸因
 
@@ -57,7 +67,7 @@ ht-degree: 66%
 
 ## 使用演演算法歸因
 
-如果您還沒有可以為您的所有問題提供滿意答案的歸因模型，您可以使用[演算法歸因](/help/analysis-workspace/attribution/algorithmic.md)。由於很難驗證大量可能的假設及各種組合，演算法歸因使用內建演算法跨維度項目分配信用。
+如果您還沒有可以為您的所有問題提供滿意答案的歸因模型，您可以使用[演算法歸因](/help/analysis-workspace/attribution/algorithmic.md)。 由於很難驗證大量可能的假設及各種組合，演算法歸因使用內建演算法跨維度項目分配信用。
 
 ## 其他考量
 

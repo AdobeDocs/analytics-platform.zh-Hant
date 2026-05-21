@@ -4,9 +4,19 @@ title: 時間分段維度
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+TQID: https://experienceleague.adobe.com/pWuE5mm3euhky9BVYY9CqSsdOUgESs8S8LiizcWp6t4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: 203
 ht-degree: 45%
 
 ---
@@ -15,7 +25,7 @@ ht-degree: 45%
 
 「時間分段」功能會擷取所收集事件的時間戳記，並採用更有意義的維度加以分段，例如&#x200B;**小時**&#x200B;或&#x200B;**星期**。
 
-時間分段維度是以資料檢視的時區為基礎。這類維度是由 Analysis Workspace 所提供，並且可以協助回答以下問題：
+時間分段維度是以資料檢視的時區為基礎。 這類維度是由 Analysis Workspace 所提供，並且可以協助回答以下問題：
 
 * 在很大的日期範圍內，一天中什麼時間最常有人存取我的網站或應用程式？
 * 在我的網站或應用程式中，是「星期」還是「小時」的轉換率較高？

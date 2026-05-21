@@ -5,10 +5,25 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: b861f765-b18d-4be2-b4c7-c66186d37d99
-source-git-commit: 9fef1fddbb4b51efb9282e3ef13501bd498a4546
+autotag-review: '2026-05-19T09:38:40.111Z'
+TQID: 'https://experienceleague.adobe.com/az0B0Gzzu0pbb0TbpiZjW0Y-GysEptIETtg2bBFl-Uw'
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 2%
+source-wordcount: 1187
+ht-degree: 3%
 
 ---
 
@@ -22,9 +37,9 @@ ht-degree: 2%
 
 使用[!DNL Experience Platform Export datasets]匯出資料可讓您將資料從Customer Journey Analytics資料檢視匯出至任何雲端儲存體目的地。
 
-![BI延伸模組](../assets/export-datasets.svg)
+![BI延伸模組](../assets/export-datasets.png)
 
-## 詳細資訊
+## 更多資訊
 
 您可以從Experience Platform中的資料湖將原始資料集匯出至雲端儲存目標。 此匯出位於Experience Platform目的地術語中，稱為資料集匯出目的地。 請參閱[將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets)以取得概觀。
 
@@ -32,7 +47,7 @@ ht-degree: 2%
 
 - [Azure Data Lake Storage Gen2](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2)
 - [資料登陸區域](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone)
-- [Google雲端儲存空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage)
+- [Google Cloud Storage](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage)
 - [Amazon S3](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#changelog)
 - [Azure Blob](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob#changelog)
 - [SFTP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/sftp#changelog)
@@ -92,7 +107,7 @@ ht-degree: 2%
 
 #### 提供匯出引數
 
-接下來，您必須[建立其他目標連線，再次使用](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/api/export-datasets#create-target-connection) [`POST /targetConection` API為您的資料集儲存匯出引數](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection)。 這些匯出引數包括位置、檔案格式、壓縮等等。
+接下來，您必須[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/api/export-datasets#create-target-connection)建立其他目標連線，再次使用[`POST /targetConection`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) API為您的資料集儲存匯出引數。 這些匯出引數包括位置、檔案格式、壓縮等等。
 
 #### 設定資料流
 

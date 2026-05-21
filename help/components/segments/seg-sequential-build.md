@@ -3,10 +3,25 @@ description: 瞭解使用THEN運運算元定義區段條件序列的循序區段
 title: 循序區段
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/TqLnqudV-SrIk7SdMT7dUeNBAwaa5FkoZocUkwrod6g
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2461'
-ht-degree: 3%
+source-wordcount: 2491
+ht-degree: 4%
 
 ---
 
@@ -43,7 +58,7 @@ ht-degree: 3%
 
 
 
-建立循序區段的基本概念與使用[區段產生器](seg-builder.md)建立一般區段並無不同。 您可以使用[定義產生器](seg-builder.md#definition-builder)來建構您的區段定義。 在該建構中，您會使用元件、容器、運運算元和邏輯。 只要您在主要定義或您在&#x200B;**[!UICONTROL 定義產生器]**&#x200B;內使用的任何容器中選取[Then](seg-builder.md#definition-builder)運運算元，一般區段就會變成循序區段。
+建立循序區段的基本概念與使用[區段產生器](seg-builder.md)建立一般區段並無不同。 您可以使用[定義產生器](seg-builder.md#definition-builder)來建構您的區段定義。 在該構造中，您可以使用元件、容器、運算子和邏輯。 只要您在主要定義或您在[定義產生器](seg-builder.md#definition-builder)內使用的任何容器中選取&#x200B;**[!UICONTROL Then]**&#x200B;運運算元，一般區段就會變成循序區段。
 
 ### 範例
 
@@ -82,7 +97,7 @@ ht-degree: 3%
 
 ## [!UICONTROL After]和[!UICONTROL Within]
 
-您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL 在]**&#x200B;內&#x200B;**[!UICONTROL Then]**&#x200B;運運算元來定義事件、工作階段或維度[的其他](#time-constraints)時間限制[或](#event-session-and-dimension-constraints)限制。
+您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;和![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL 在]**&#x200B;內&#x200B;**[!UICONTROL Then]**&#x200B;運運算元來定義事件、工作階段或維度[&#128279;](#event-session-and-dimension-constraints)的其他[時間限制](#time-constraints)或限制。
 
 ### 時間限制
 
@@ -99,7 +114,7 @@ ht-degree: 3%
 
 | 運算子 | 說明 |
 |--- |--- |
-| **[!UICONTROL After]** | [!UICONTROL After]運運算元用來指定兩個查核點之間時間量的下限。 設定After值時，時間限制從套用區段時開始。 例如，如果在容器上設定[!UICONTROL After]運運算元，以識別造訪頁面A、但直到一天後才返回造訪頁面B的人，則當訪客離開頁面A時，該日就會開始。 若要將訪客納入區段中，離開頁面A後必須至少經過1440分鐘（一天）才能檢視頁面B。 |
+| **[!UICONTROL After]** | [!UICONTROL After]運運算元用來指定兩個查核點之間時間量的下限。 設定After值時，時間限制從套用區段時開始。 例如，如果在容器上設定[!UICONTROL After]運運算元，以識別造訪頁面A、但直到一天後才返回造訪頁面B的人，則當訪客離開頁面A時，該日就會開始。  若要將訪客納入區段中，離開頁面A後必須至少經過1440分鐘（一天）才能檢視頁面B。 |
 | **[!UICONTROL Within]** | [!UICONTROL Within]運運算元用於指定兩個查核點之間時間量的上限。 例如，如果在容器上設定[!UICONTROL Within]運運算元，以識別造訪頁面A，然後在一天內返回造訪頁面B的人，則該日從該人離開頁面A時開始。若要納入區段中，此人在開啟頁面B之前的時間長度上限為一天。若要將個人納入區段中，在離開頁面A以檢視頁面B後，最多必須在1440分鐘（一天）內開啟頁面B。 |
 | **[!UICONTROL 晚於]**&#x200B;但以內 | 同時使用[!UICONTROL After]和[!UICONTROL Within]運運算元時，兩個運運算元會同時開始和結束，而非連續進行。 <br/>例如，您建置容器設為`After = 1 Week(s) and Within = 2 Week(s)`的區段。<br/>識別此區段中的訪客的條件僅符合一週到兩週之間。 這兩個條件都會從第一個頁面檢視的時間開始執行。 |
 
@@ -110,27 +125,27 @@ ht-degree: 3%
 
 ##### [!UICONTROL After]運運算元
 
-識別兩週後造訪過一個頁面然後造訪另一個頁面的人員。 例如，造訪過首頁的人員，但 | 僅於兩週後顯示鞋頁面。
+識別兩週後造訪過一個頁面然後造訪另一個頁面的人員。 例如，造訪過首頁的人員，但 |僅於兩週後顯示鞋頁面。
 
 ![序列在](assets/sequence-after.png)之後
 
-如果首頁的頁面檢視發生在2024年6月1日00:01，則對頁面的頁面檢視為女性 | 只要2024年6月15日:01之後發生該頁面檢視，鞋子就會符合。
+如果首頁的頁面檢視發生在2024年6月1日00:01，則對頁面的頁面檢視為女性 |只要2024年6月15日:01之後發生該頁面檢視，鞋子就會符合。
 
 ##### [!UICONTROL Within]運運算元
 
-識別在五分鐘內造訪一個頁面然後造訪另一個頁面的人員。 例如，造訪過首頁的人，然後造訪了女性 | 在5分鐘內完成「鞋子」頁面。
+識別在五分鐘內造訪一個頁面然後造訪另一個頁面的人員。 例如，造訪過首頁的人，然後造訪了女性 |在5分鐘內完成「鞋子」頁面。
 
 ![在](assets/sequence-within.png)內的順序
 
-如果首頁的頁面檢視發生於2024年6月1日的12:01，則對頁面的女性頁面進行頁面檢視 | 只要2024年6月15日12:16之前發生該頁面檢視，鞋子就會符合。
+如果首頁的頁面檢視發生於2024年6月1日的12:01，則對頁面的女性頁面進行頁面檢視 |只要2024年6月15日12:16之前發生該頁面檢視，鞋子就會相符。
 
 ##### [!UICONTROL After]但[!UICONTROL Within]運運算元
 
-識別在兩週後但在一個月內造訪過一個頁面然後造訪另一個頁面的人員。 例如，訪客造訪首頁，然後在兩週後及一個月內造訪女性網站的人 | 鞋子頁面。
+識別在兩週後但在一個月內造訪過一個頁面然後造訪另一個頁面的人員。 例如，訪客造訪首頁，然後在兩週後及一個月內造訪女性網站的人 |鞋頁面。
 
 ![順序晚於](assets/sequence-afterbutwithin.png)但以內
 
-任何在2024年6月1日點選首頁及回訪女性網站的人 | 2019年6月15日之後00:01但在2019年7月1日之前的「鞋子」頁面符合該區段的資格。
+任何在2024年6月1日點選首頁及回訪女性網站的人 | 2019年6月15日之後00:01，但2019年7月1日之前的「鞋子」頁面符合此區段的資格。
 
 
 ### [!UICONTROL 事件]、[!UICONTROL 工作階段]和[!UICONTROL Dimension]限制
@@ -139,7 +154,7 @@ ht-degree: 3%
 
 #### 範例
 
-以下是循序區段的範例，此區段會尋找造訪過一個產品類別頁面的人員（女性） | 鞋子)，接著是結帳頁面（結帳） | 感謝您)。
+以下是循序區段的範例，此區段會尋找造訪過一個產品類別頁面的人員（女性） |鞋子)，接著是結帳頁面（結帳） |感謝您)。
 
 ![在](assets/sequence-filter-within.png)內排序區段
 
@@ -158,7 +173,7 @@ ht-degree: 3%
 
 若要建立包含每個人的循序區段，請選取![使用者群組](/help/assets/icons/UserGroup.svg) **[!UICONTROL 包含每個人]**&#x200B;選項。
 
-循序區段會識別整體符合指定模式的資料。  以下是基本序列區段的範例，會尋找造訪過一個產品類別頁面的人員（女性） | 鞋子)，接著是結帳頁面（結帳） | 感謝您)。 區段已設定為![使用者群組](/help/assets/icons/UserGroup.svg) **[!UICONTROL 包含所有人]**。
+循序區段會識別整體符合指定模式的資料。  以下是基本序列區段的範例，會尋找造訪過一個產品類別頁面的人員（女性） |鞋子)，接著是結帳頁面（結帳） |謝謝)。 區段已設定為![使用者群組](/help/assets/icons/UserGroup.svg) **[!UICONTROL 包含所有人]**。
 
 ![循序區段包含所有人](assets/sequence-include-everyone.png)
 
@@ -183,8 +198,8 @@ ht-degree: 3%
 | B然後D | A | B | C | D | E | F |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | 包括所有人 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
-| 僅於序列之前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
-| 僅於序列之後 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 僅限序列之前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| 僅限序列之後 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 {style="table-layout:fixed"}
 
@@ -193,8 +208,8 @@ ht-degree: 3%
 | B然後D （發生多次） | A | B | C | D | B | C | D | E |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 包括所有人 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
-| 僅於序列之前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
-| 僅於序列之後 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 僅限序列之前 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| 僅限序列之後 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 {style="table-layout:fixed"}
 
@@ -210,7 +225,7 @@ ht-degree: 3%
 
 ## [!UICONTROL 排除]
 
-區段定義包含所有資料，除非您使用![排除](/help/assets/icons/User.svg)明確排除[!UICONTROL 使用者] ![人員](/help/assets/icons/Visit.svg)、[!UICONTROL 造訪] ![工作階段](/help/assets/icons/WebPage.svg)或[!UICONTROL WebPage] **[!UICONTROL 事件]**&#x200B;資料。
+區段定義包含所有資料，除非您使用&#x200B;**[!UICONTROL 排除]**&#x200B;明確排除![使用者](/help/assets/icons/User.svg) [!UICONTROL 人員]、![造訪](/help/assets/icons/Visit.svg) [!UICONTROL 工作階段]或![WebPage](/help/assets/icons/WebPage.svg) [!UICONTROL 事件]資料。
 
 [!UICONTROL 排除]可讓您關閉常見資料，並建立重點更明確的區段。 「排除」也可讓您建立排除特定群組人員的區段。 例如，定義區段，指定下訂單的人員，然後排除該群組的人員，以識別&#x200B;*非購買者*。 最佳作法是建立使用廣泛定義的規則，而不是嘗試使用[!UICONTROL 排除]來鎖定符合特定包含值的特定角色。
 
@@ -255,7 +270,7 @@ ht-degree: 3%
 >
 >[!UICONTROL 邏輯群組]只能在循序區段中定義，這表示容器內會使用[!UICONTROL Then]運運算元。
 
-邏輯群組讓您能將條件分組至單一循序區段查核點。作為序列的一部分，在任何先前的循序查核點之後，任何後續的循序查核點之前，都會評估識別為邏輯群組的容器中定義的邏輯。
+邏輯群組讓您能將條件分組至單一循序區段查核點。 作為序列的一部分，在任何先前的循序查核點之後，任何後續的循序查核點之前，都會評估識別為邏輯群組的容器中定義的邏輯。
 
 邏輯群組本身內的條件可依任何順序符合。 相較之下，非循序容器（事件、工作階段、人員）不要求其條件在整個序列中均符合，如果與Then運運算元一起使用，可能會產生非直覺式結果。
 
@@ -284,7 +299,7 @@ ht-degree: 3%
 
 #### 第一個相符
 
-識別造訪過一個頁面或其他頁面，接著又造訪另一個頁面的人員。 例如，某人造訪了「女性」頁面或「男性」頁面，接著造訪了「結帳」 | 感謝頁面。
+識別造訪過一個頁面或其他頁面，接著又造訪另一個頁面的人員。 例如，某人造訪了「女性」頁面或「男性」頁面，接著造訪了「結帳」 |感謝頁面。
 
 ![使用邏輯群組的第一個比對的範例](assets/logicgroup-example-firstmatch.png)
 

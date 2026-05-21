@@ -1,36 +1,51 @@
 ---
-title: Experience Platform查詢服務(資料Distiller)和匯出資料集
-description: 說明如何使用查詢服務(資料Distiller)和資料集匯出功能來匯出資料。
+title: Experience Platform查詢服務（資料Distiller）和匯出資料集
+description: 說明如何使用查詢服務（資料Distiller）和資料集匯出功能來匯出資料。
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 14a90758-91eb-4610-8802-1edfdb8b9689
-source-git-commit: 20ead546897ad517840f95a5ec4dcd7f830afe8c
+TQID: https://experienceleague.adobe.com/J-5oxLDw4sLVFcXYQhN5cpTkH76C5wAfWFECrIydb-s
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 3%
+source-wordcount: 3355
+ht-degree: 5%
 
 ---
 
-# 查詢服務(資料Distiller)和匯出資料集
+# 查詢服務（資料Distiller）和匯出資料集
 
-本文概述如何使用Experience Platform查詢服務(資料Distiller)和資料集匯出的組合，實作下列[個資料匯出使用案例](overview.md)：
+本文概述如何使用Experience Platform查詢服務（資料Distiller）和資料集匯出的組合，實作下列[個資料匯出使用案例](overview.md)：
 
 - 資料驗證
 - Data Lake， Data Warehouse of BI tools
 - 人工智慧和機器學習的整備。
 
 
-Adobe Analytics可使用其[資料摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/analytics-data-feed/data-feed-overview)功能來實作這些使用案例。 資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。本文會說明如何從Experience Platform取得類似的原始資料，以便您實作上述使用案例。 在適用情況下，本文所述的功能會與Adobe Analytics資料摘要進行比較，以釐清資料與程式的差異。
+Adobe Analytics可使用其[資料摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/analytics-data-feed/data-feed-overview)功能來實作這些使用案例。 資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。 本文會說明如何從Experience Platform取得類似的原始資料，以便您實作上述使用案例。 在適用情況下，本文所述的功能會與Adobe Analytics資料摘要進行比較，以釐清資料與程式的差異。
 
 ## 簡介
 
 使用查詢服務(Data Distiller)匯出資料時，資料集匯出包含以下專案：
 
-- 正在定義&#x200B;**排程的查詢**，該查詢會使用![查詢服務](../assets/output-dataset.svg)，為您的資料摘要產生資料，作為輸出資料集&#x200B;**輸出資料集**。
+- 正在定義&#x200B;**排程的查詢**，該查詢會使用&#x200B;**查詢服務**，為您的資料摘要產生資料，作為輸出資料集![輸出資料集](../assets/output-dataset.svg)。
 - 定義使用&#x200B;**資料集匯出**&#x200B;將輸出資料集匯出至雲端儲存空間目的地的&#x200B;**排程資料集匯出**。
 
-![資料摘要](../assets/queryservice-export-datasets.svg)
+![資料摘要](../assets/queryservice-export-datasets.png)
 
 
 ## 先決條件
@@ -40,14 +55,14 @@ Adobe Analytics可使用其[資料摘要](https://experienceleague.adobe.com/zh-
 - 將資料收集至Experience Platform資料湖的有效實作。
 - 存取資料Distiller附加元件，以確保您有權執行批次查詢。 如需詳細資訊，請參閱[查詢服務封裝](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/packaging)。
 - 存取匯出資料集功能，此功能在您購買Real-Time CDP Prime或Ultimate套件、Adobe Journey Optimizer或Customer Journey Analytics時可用。 如需詳細資訊，請參閱[將資料集匯出至雲端儲存空間目的地](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets)。
-- 一或多個已設定目的地(例如：Amazon S3、Google Cloud Storage)可匯出資料摘要的原始資料。
+- 一或多個已設定目的地（例如：Amazon S3、Google Cloud Storage）可匯出資料摘要的原始資料。
 
 
 ## 查詢服務
 
 Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料湖中的任何資料集，就像它是資料庫表格一樣。 然後，您可以將結果擷取為新資料集，以供進一步用於報告或匯出。
 
-您可以使用Query Service [使用者介面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/overview)、透過PostgresQL通訊協定[連線的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/overview)使用者端或[RESTful API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/api/getting-started)，建立並排程收集資料摘要資料的查詢。
+您可以使用Query Service [使用者介面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/overview)、透過PostgresQL通訊協定[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/overview)連線的使用者端或[RESTful API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/api/getting-started)，建立並排程收集資料摘要資料的查詢。
 
 ### 建立查詢
 
@@ -67,7 +82,7 @@ Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料
 例如，如果您想使用&#x200B;*頁面名稱*&#x200B;作為資料摘要的一部分：
 
 - 在Adobe Analytics資料摘要的UI中，您可以選取&#x200B;**[!UICONTROL pagename]**&#x200B;作為要新增至資料摘要定義的欄。
-- 在查詢服務中，您在查詢中包含來自`web.webPageDetails.name`資料集的`sample_event_dataset_for_website_global_v1_1` (根據網站的&#x200B;**範例事件結構描述（全域v1.1）**&#x200B;體驗事件結構描述)。 如需詳細資訊，請參閱[網頁詳細資料結構描述欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/web-details)。
+- 在查詢服務中，您在查詢中包含來自`sample_event_dataset_for_website_global_v1_1`資料集的`web.webPageDetails.name` (根據網站的&#x200B;**範例事件結構描述（全域v1.1）**&#x200B;體驗事件結構描述)。 如需詳細資訊，請參閱[網頁詳細資料結構描述欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/web-details)。
 
 
 #### 身分識別
@@ -105,7 +120,7 @@ Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料
 | `cust_visid` | `endUserIDs._experience.aacustomid.primary` | 布林值 | 客戶訪客ID名稱空間程式碼。 |
 | `cust_visid` | `endUserIDs._experience.aacustomid.namespace.code` | 字串 | 與`visid_low`搭配使用以唯一識別客戶訪客ID。 |
 | `geo\_*` | `placeContext.geo.* ` | 字串，數字 | 地理位置資料，例如國家、地區、城市等 |
-| `event_list` | `commerce.purchases`、`commerce.productViews`、`commerce.productListOpens`、`commerce.checkouts`、`commerce.productListAdds`、`commerce.productListRemovals`、`commerce.productListViews`、`_experience.analytics.event101to200.*`、...、`_experience.analytics.event901_1000.*` | 字串 | 標準商務和點選時觸發的自訂事件。 |
+| `event_list` | `commerce.purchases`, `commerce.productViews`, `commerce.productListOpens`, `commerce.checkouts`, `commerce.productListAdds`, `commerce.productListRemovals`, `commerce.productListViews`, `_experience.analytics.event101to200.*`, ..., `_experience.analytics.event901_1000.*` | 字串 | 標準商務和點選時觸發的自訂事件。 |
 | `page_event` | `web.webInteraction.type` | 字串 | 影像要求中傳送的點選型別（標準點選、下載連結、退出連結或自訂連結已點按）。 |
 | `page_event` | `web.webInteraction.linkClicks.value` | 數字 | 影像要求中傳送的點選型別（標準點選、下載連結、退出連結或自訂連結已點按）。 |
 | `page_event_var_1` | `web.webInteraction.URL` | 字串 | 僅用於連結追蹤影像要求中的變數。 此變數包含下載連結、退出連結或自訂連結點選的URL。 |
@@ -117,7 +132,7 @@ Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料
 
 Adobe Analytics資料摘要使用具有`post_`首碼的欄的概念，這些欄是包含處理後的資料之欄。 如需詳細資訊，請參閱[資料摘要常見問題](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/analytics-data-feed/df-faq#post)。
 
-透過Experience Platform Edge Network (Web SDK、Mobile SDK、伺服器API)在資料集中收集的資料不含`post_`欄位的概念。 因此，`post_`首碼和&#x200B;*非*-`post_`首碼資料摘要資料行對應到相同的XDM欄位。 例如，`page_url`和`post_page_url`資料摘要欄位都對應到相同的`web.webPageDetails.URL` XDM欄位。
+透過Experience Platform Edge Network （Web SDK、Mobile SDK、伺服器API）在資料集中收集的資料不含`post_`欄位的概念。 因此，`post_`首碼和&#x200B;*非*-`post_`首碼資料摘要資料行對應到相同的XDM欄位。 例如，`page_url`和`post_page_url`資料摘要欄位都對應到相同的`web.webPageDetails.URL` XDM欄位。
 
 請參閱[比較Adobe Analytics與Customer Journey Analytics的資料處理](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons)，以取得資料處理差異的概觀。
 
@@ -182,7 +197,7 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 - [放棄瀏覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/use-cases/abandoned-browse)
 - [歸因分析](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/use-cases/attribution-analysis)
 - [機器人篩選](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/use-cases/bot-filtering)
-- 和查詢服務指南[中其他](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/use-cases/overview)支援的使用案例。
+- 和查詢服務指南[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/use-cases/overview)中其他支援的使用案例。
 
 以下是跨工作階段正確套用歸因的範例，說明如何
 
@@ -350,7 +365,7 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 #### 使用查詢服務API
 
 或者，您可以使用RESTful API來定義查詢和排程查詢。 如需詳細資訊，請參閱[查詢服務API指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/api/getting-started)。
-建立查詢（`ctasParameters`建立查詢[）或建立查詢排程（](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery)建立排程查詢[）時，請確定將輸出資料集定義為選用的](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule)屬性的一部分。
+建立查詢（[建立查詢](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery)）或建立查詢排程（[建立排程查詢](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule)）時，請確定將輸出資料集定義為選用的`ctasParameters`屬性的一部分。
 
 
 
@@ -362,7 +377,7 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 - [Azure Data Lake Storage Gen2](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2)
 - [資料登陸區域](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone)
-- [Google雲端儲存空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage)
+- [Google Cloud Storage](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage)
 - [Amazon S3](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
 - [Azure Blob](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob)
 - [SFTP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/sftp)
@@ -422,7 +437,7 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 #### 提供匯出引數
 
-接下來，您必須[建立其他目標連線，再次使用](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/api/export-datasets#create-target-connection) [`POST /targetConection` API為您的輸出資料集儲存匯出引數](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection)。 這些匯出引數包括位置、檔案格式、壓縮等等。
+接下來，您必須[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/api/export-datasets#create-target-connection)建立其他目標連線，再次使用[`POST /targetConection`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) API為您的輸出資料集儲存匯出引數。 這些匯出引數包括位置、檔案格式、壓縮等等。
 
 #### 設定資料流
 

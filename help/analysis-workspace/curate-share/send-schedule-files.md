@@ -4,9 +4,22 @@ title: 組織與共用專案概觀
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+TQID: https://experienceleague.adobe.com/xpqbnE4txVaifsGQr3dTbQBzo2G92BF9ShjquzRQBRE
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: c38ed341-fab2-46df-9d72-88d8166edebb
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: 187
 ht-degree: 52%
 
 ---
@@ -19,9 +32,9 @@ ht-degree: 52%
 
 | 選項 | 說明 |
 |---|---|
-| **[!UICONTROL 組織專案資料]** | 限制專案中可用的元件 (維度、量度、區段、日期範圍)。[更多詳情](/help/analysis-workspace/curate-share/curate.md) |
-| **[!UICONTROL 與 Workspace 使用者共用]** | 讓您組織中的其他 Analysis Workspace 使用者也能使用相同專案。與特定使用者共用，或建立可共用的連結以快速存取專案。使用者必須登入。[了解更多](/help/analysis-workspace/curate-share/share-projects.md) |
+| **[!UICONTROL 組織專案資料]** | 限制專案中可用的元件 (維度、量度、區段、日期範圍)。 [了解更多](/help/analysis-workspace/curate-share/curate.md) |
+| **[!UICONTROL 與 Workspace 使用者共用]** | 讓您組織中的其他 Analysis Workspace 使用者也能使用相同專案。 與特定使用者共用，或建立可共用的連結以快速存取專案。 使用者必須登入。 [了解更多](/help/analysis-workspace/curate-share/share-projects.md) |
 | **[!UICONTROL 與任何人共用]** | 將Analysis Workspace專案的唯讀存取權授與無權存取Customer Journey Analytics的使用者。 [了解更多](/help/analysis-workspace/curate-share/share-projects.md) |
-| **[!UICONTROL 傳送檔案]** | 立即將專案以 CSV 或 PDF 格式傳送給指定的收件者。[了解更多](/help/analysis-workspace/export/t-schedule-report.md) |
-| **[!UICONTROL 排程檔案匯出]** | 依排程將專案以 CSV 或 PDF 格式傳送給指定的收件者。[更多詳情](/help/analysis-workspace/export/t-schedule-report.md) |
+| **[!UICONTROL 傳送檔案]** | 立即將專案以 CSV 或 PDF 格式傳送給指定的收件者。 [了解更多](/help/analysis-workspace/export/t-schedule-report.md) |
+| **[!UICONTROL 排程檔案匯出]** | 依排程將專案以 CSV 或 PDF 格式傳送給指定的收件者。 [了解更多](/help/analysis-workspace/export/t-schedule-report.md) |
 

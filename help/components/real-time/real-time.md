@@ -4,16 +4,30 @@ title: 即時報表概觀
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/Nvg6DVqDq-IwyPJgyDH2nOmNG41-aCRAYohlj7tjrj4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: 855
 ht-degree: 6%
 
 ---
 
 # 即時報告概觀
 
-Customer Journey Analytics 中的即時報告，會即時顯示並更新 Analysis Workspace 中一或多個面板內的資料和視覺效果。
+Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis Workspace 中一個或多個面板內的資料和視覺化呈現內容。
 
 {{ultimate-package}}
 
@@ -49,7 +63,7 @@ Customer Journey Analytics 中的即時報告，會即時顯示並更新 Analysi
 * 對於包含長達24小時滾動資料的整合資料集提供即時報表。
 * 合併資料集的標準報告，其中包含最多13個月的滾動資料（或更長，以備您已授權擴充資料容量附加元件時使用）。
 
-![即時報告](assets/real-time-reporting-latencies.svg){zoomable="yes"}
+![即時報告](assets/real-time-reporting-latencies.png){zoomable="yes"}
 
 ### 延遲
 
@@ -68,7 +82,7 @@ Customer Journey Analytics 中的即時報告，會即時顯示並更新 Analysi
 
 請注意下列即時報表的限制：
 
-* 即時報表只會報告24小時滾動期間的可用資料。 超過   24小時前的版本不適用於即時報表。 在停用或自動關閉報表的[即時重新整理](use-real-time.md)後，通常用於Customer Journey Analytics中報表的[整合資料集](/help/connections/combined-dataset.md)中的所有相關資料將再次可用。
+* 即時報表只會報告24小時滾動期間的可用資料。 超過24小時前的資料不適用於即時報表。 在停用或自動關閉報表的[即時重新整理](use-real-time.md)後，通常用於Customer Journey Analytics中報表的[整合資料集](/help/connections/combined-dataset.md)中的所有相關資料將再次可用。
 * 歸因、細分、計算量度等只適用於24小時內滾動時間內可用的資料。 例如，*重複訪客*&#x200B;區段在即時報表中包含的人數非常少，因為報表僅包含過去24小時內多次造訪的人。 類似的限制同樣適用於對先前點按已不活躍促銷活動之人員建立即時報表。
 * 即時報表最適合用於事件和工作階段層級的資料，針對個人層級的資料，使用即時報表時，請務必謹慎。 由於即時報表只能使用滾動24小時期間的事件，因此個人的事件歷史記錄也僅限於此視窗。 當您選取維度和（計算）量度時，請考慮事件和工作階段層級資料的偏好設定。 當您在啟用即時重新整理的面板中使用劃分、下一個或上一個等功能時。
 * 您無法結合拼接與即時報告。 即時報表是針對事件和工作階段層級的資料，與以人員為基礎的資料較不相關。

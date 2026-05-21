@@ -3,16 +3,29 @@ title: 維度概觀
 description: 了解何謂維度，以及其在 Customer Journey Analytics 中的使用方式。
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+TQID: https://experienceleague.adobe.com/bMM7desF2wr71h-SR1mzD7-oSwm-8cPvmeU7SeM7-fU
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: 253
 ht-degree: 100%
 
 ---
 
 # 維度概觀
 
-維度是 Customer Journey Analytics 中用於分析資料的一種元件類型。例如，在 [Analysis Workspace](/help/analysis-workspace/home.md) 或 [Report Builder](/help/report-builder/rb-overview.md) 中建置報告時使用維度。
+維度是 Customer Journey Analytics 中用於分析資料的一種元件類型。 例如，在 [Analysis Workspace](/help/analysis-workspace/home.md) 或 [Report Builder](/help/report-builder/rb-overview.md) 中建置報告時使用維度。
 
 Customer Journey Analytics 的維度類型沒有限制；值可以是數值、文字、物件、清單或所有前項的組合。
 
@@ -20,7 +33,7 @@ Customer Journey Analytics 中的基本報告顯示維度列 (通常是字串值
 
 例如，如果您將「頁面」維度與「人員」量度結合，您將會看到排名報告，其中按人員顯示您最常造訪的頁面：
 
-| 頁面 | 人員 |
+| 頁面 | 使用者 |
 | --- | ---: |
 | 首頁 | 800 |
 | 產品頁面 | 500 |
@@ -28,7 +41,7 @@ Customer Journey Analytics 中的基本報告顯示維度列 (通常是字串值
 
 {style="table-layout:fixed"}
 
-每個維度分別代表您的網站不同的部分或面向。您可以將其中的一或多個維度與一或多個量度結合，以建立所需的報表。
+每個維度分別代表您的網站不同的部分或面向。 您可以將其中的一或多個維度與一或多個量度結合，以建立所需的報表。
 
 
 ## 建立維度
@@ -44,10 +57,10 @@ Customer Journey Analytics 管理員可以[在資料檢視中建立維度](/help
 
 ## 新增維度說明
 
-Customer Journey Analytics 管理員可以在資料檢視中或直接在 Analysis Workspace 中新增維度和其他元件的說明。有關如何將說明新增至維度的資訊，請參閱[新增元件說明](/help/components/add-component-descriptions.md)。
+Customer Journey Analytics 管理員可以在資料檢視中或直接在 Analysis Workspace 中新增維度和其他元件的說明。 有關如何將說明新增至維度的資訊，請參閱[新增元件說明](/help/components/add-component-descriptions.md)。
 
 >[!MORELIKETHIS]
 >
->[利用事件深度功能探索更深入的客戶分析](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=zh-Hant#M576?lang=zh-Hant)
+>[利用事件深度功能探索更深入的客戶洞察](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=zh-Hant#M576?lang=zh-Hant)
 >
 

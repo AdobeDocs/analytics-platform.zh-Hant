@@ -4,9 +4,22 @@ title: 已排程專案
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/MOIr6V7GnwTw8-luvhS14IrE7PKspoVOCRXYGBnAUxA
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: c38ed341-fab2-46df-9d72-88d8166edebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: 794
 ht-degree: 41%
 
 ---
@@ -55,7 +68,7 @@ ht-degree: 41%
 
 ## 動作
 
-下列是「已排程的專案管理員」中的常見動作。您可以從內容功能表或選取一或多個排程專案時從藍色動作列選取動作。
+下列是「已排程的專案管理員」中的常見動作。 您可以從內容功能表或選取一或多個排程專案時從藍色動作列選取動作。
 
 | 圖示 | 動作 | 說明 |
 |:---:|---|---|
@@ -68,7 +81,7 @@ ht-degree: 41%
 
 ## 篩選器
 
-您可以使用篩選面板[來篩選排程專案](#scheduled-project-list)排程專案清單➌。 若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
+您可以使用篩選面板➌來篩選排程專案[排程專案清單](#scheduled-project-list)。 若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
 
 篩選器面板由以下部分組成。
 
@@ -76,18 +89,18 @@ ht-degree: 41%
 
 | 標記 | 說明 |
 |---|---|
-| ![標記](/help/components/assets/scheduledprojects-filter-tags.png){width="300"} | 「**[!UICONTROL 標記]**」部分可讓您按標記進行篩選。 <ul><li>您可以使用 ![搜尋](/help/assets/icons/Search.svg) **[!UICONTROL 「搜尋標記」]**&#x200B;來搜尋您想要用來篩選的標記。</li><li>您可以選取多個標記。適用標記取決於篩在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>⃣7︎：與特定標籤相關聯的已排程專案數目。</li></ul></li></ul> |
+| ![標記](/help/components/assets/scheduledprojects-filter-tags.png){width="300"} | 「**[!UICONTROL 標記]**」部分可讓您按標記進行篩選。 <ul><li>您可以使用 ![搜尋](/help/assets/icons/Search.svg) **[!UICONTROL 「搜尋標記」]**&#x200B;來搜尋您想要用來篩選的標記。</li><li>您可以選取多個標記。 適用標記取決於篩在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>7︎：與特定標籤相關聯的已排程專案數目。</li></ul></li></ul> |
 
 
 ### 所有者
 
 | 所有者 | 說明 |
 |---|---|
-| ![所有者](/help/components/assets/scheduledprojects-filter-owners.png){width="300"} | 「**[!UICONTROL 所有者]**」部分可讓您篩選所有者。 <ul><li>您可使用 ![搜尋](/help/assets/icons/Search.svg) *「搜尋所有者」*&#x200B;來搜尋您想要用來篩選的所有者。</li><li>您可以選取多個所有者。適用的所有者取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>⃣4︎：與特定擁有者相關聯的已排程專案數目。</li></ul></li></ul> |
+| ![所有者](/help/components/assets/scheduledprojects-filter-owners.png){width="300"} | 「**[!UICONTROL 所有者]**」部分可讓您篩選所有者。 <ul><li>您可使用 ![搜尋](/help/assets/icons/Search.svg) *「搜尋所有者」*&#x200B;來搜尋您想要用來篩選的所有者。</li><li>您可以選取多個所有者。 適用的所有者取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>4︎：與特定擁有者相關聯的已排程專案數目。</li></ul></li></ul> |
 
 
 ### 其他篩選器
 
 | 其他篩選器 | 說明 |
 |---|---|
-| ![其他篩選器](/help/components/assets/scheduledprojects-filter-otherfilters.png){width="300"} |  **[!UICONTROL 其他篩選器]**&#x200B;部分可讓您根據其他預先定義的篩選器進行篩選。<ul><li>您可以選取下列其中一個或更多選項:<ul><li> **[!UICONTROL 已過期]**：篩選已過期的排程專案。</li><li>**[!UICONTROL 失敗]**：篩選排程失敗的已排程專案。</li></ul>您可以選取的內容取決於您的角色和權限。</li><li>您可以選取多個其他篩選器。適用的其他篩選器取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>⃣4︎：與特定其他篩選器相關聯的排程專案數。</li></ul></li></ul> |
+| ![其他篩選器](/help/components/assets/scheduledprojects-filter-otherfilters.png){width="300"} | **[!UICONTROL 其他篩選器]**&#x200B;部分可讓您根據其他預先定義的篩選器進行篩選。<ul><li>您可以選取下列其中一個或更多選項:<ul><li> **[!UICONTROL 已過期]**：篩選已過期的排程專案。</li><li>**[!UICONTROL 失敗]**：篩選排程失敗的已排程專案。</li></ul>您可以選取的內容取決於您的角色和權限。</li><li>您可以選取多個其他篩選器。 適用的其他篩選器取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>4︎：與特定其他篩選器相關聯的排程專案數。</li></ul></li></ul> |

@@ -4,9 +4,25 @@ title: 管理警報
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/oKewVodxYwDlnsuqGclK6ZYEmN-pXNqbc5ud6OkIUK4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: 599
 ht-degree: 22%
 
 ---
@@ -57,16 +73,16 @@ ht-degree: 22%
 | ![Search](/help/assets/icons/Search.svg) | [!UICONTROL *依標題搜尋*] | 當清單中未選取警示時，請使用此搜尋欄位來搜尋警示。 |
 | ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標籤選取的警報。 在&#x200B;**[!UICONTROL 標籤警示]**&#x200B;對話方塊中，選取或取消選取所選警示的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選警示的標籤。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除選取的警示。 系統會提示您進行確認。 |
-| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名單一選取的警報。 選取後，您可以重新命名內嵌警報。 |
+| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名單一選取的警報。 選取後，您可以重新命名內嵌警報。 |
 | ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL 複製]** | 複製選取的警報。 已建立具有相同名稱與尾碼`(Copy)`的新警示。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 啟用]**&#x200B;或&#x200B;**[!UICONTROL 停用]** | 啟用或停用選取的警示。 |
-| ![重新整理](/help/assets/icons/Refresh.svg) | **[!UICONTROL 續約]** | 續約警報的到期日。無論原始到期日為何，到期日都會從您選取此選項的當天算起延長1年。 |
+| ![重新整理](/help/assets/icons/Refresh.svg) | **[!UICONTROL 續約]** | 續約警報的到期日。 無論原始到期日為何，到期日都會從您選取此選項的當天算起延長1年。 |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出至 CSV]** | 將警示匯出至`Alerts List.csv`檔案。 |
 
 
 ### 使用中的篩選欄
 
-篩選器列➌顯示從篩選器面板套用至警示清單的作用中篩選器（如果有的話）。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選條件。如果指定多個篩選條件，您可以使用&#x200B;**[!UICONTROL 移除全部]**&#x200B;來移除所有篩選條件。
+篩選器列➌顯示從篩選器面板套用至警示清單的作用中篩選器（如果有的話）。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選條件。 如果指定多個篩選條件，您可以使用&#x200B;**[!UICONTROL 移除全部]**&#x200B;來移除所有篩選條件。
 
 
 ### 篩選面板
@@ -74,7 +90,7 @@ ht-degree: 22%
 您可以使用![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 篩選器]**&#x200B;左側面板➍來篩選警示清單。 篩選器面板會顯示篩選器的型別，以及遵循特定篩選器的警示數目。
 
 
-1. 選取![Filter](/help/assets/icons/Filter.svg)開啟「篩選」面板。如果您需要更多空間以儲存警示清單，可以再次選取![篩選器](/help/assets/icons/Filter.svg)以關閉面板。
+1. 選取![Filter](/help/assets/icons/Filter.svg)開啟「篩選」面板。 如果您需要更多空間以儲存警示清單，可以再次選取![篩選器](/help/assets/icons/Filter.svg)以關閉面板。
 1. 從任何可用的篩選器區段中選取篩選器。
 
 

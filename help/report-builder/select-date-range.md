@@ -6,10 +6,21 @@ feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
+TQID: https://experienceleague.adobe.com/g7-pu7H2LQVNRShRj5Jr6gGWYfB-eMxoLRexdfBUGiE
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 50%
+source-wordcount: 859
+ht-degree: 52%
 
 ---
 
@@ -50,12 +61,12 @@ ht-degree: 50%
 
 1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
 
-   - 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]**&#x200B;**[!UICONTROL 今年]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
+   - 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。 例如：**[!UICONTROL 結束於]**&#x200B;**[!UICONTROL 今年]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
 
-      - 選取目前的值。例如，**[!UICONTROL 目前的年份]**。
+      - 選取目前的值。 例如，**[!UICONTROL 目前的年份]**。
       - 選取選擇性額外計算的值。 例如，**[!UICONTROL 加]**。
-      - 當您指定其他計算時，請指定一個值。例如，`1`。
-      - 當您已指定其他計算時，請選取用於計算的時段。例如，**[!UICONTROL 天]**。
+      - 當您指定其他計算時，請指定一個值。 例如，`1`。
+      - 當您已指定其他計算時，請選取用於計算的時段。 例如，**[!UICONTROL 天]**。
 
    - 選取&#x200B;**[!UICONTROL 固定日]**&#x200B;時，請指定固定日，或使用選擇器選取日。
 
@@ -128,7 +139,7 @@ ht-degree: 50%
 
 ## 儲存格的日期範圍
 
-可在工作表儲存格中指定日期範圍。使用&#x200B;**[!UICONTROL 儲存格的日期範圍]**&#x200B;選項，從選取的儲存格中選擇資料區塊的開始和結束日期。 當您選取&#x200B;**[!UICONTROL 從儲存格]**&#x200B;選項時，面板會顯示&#x200B;**[!UICONTROL 從]**&#x200B;到&#x200B;**[!UICONTROL 到]**&#x200B;欄位，您可以在其中輸入儲存格位置，或使用![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg)挑選目前選取的儲存格。
+可在工作表儲存格中指定日期範圍。 使用&#x200B;**[!UICONTROL 儲存格的日期範圍]**&#x200B;選項，從選取的儲存格中選擇資料區塊的開始和結束日期。 當您選取&#x200B;**[!UICONTROL 從儲存格]**&#x200B;選項時，面板會顯示&#x200B;**[!UICONTROL 從]**&#x200B;到&#x200B;**[!UICONTROL 到]**&#x200B;欄位，您可以在其中輸入儲存格位置，或使用![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg)挑選目前選取的儲存格。
 
 ![從儲存格工作表1！H4選取至工作表1！I4](./assets/date-range-from-cell.png){zoomable="yes"}
 
@@ -144,11 +155,11 @@ ht-degree: 50%
 
 - 開始和結束日期必須為下列格式: YYYY-MM-DD
 
-- 開始日期必須早於或等於結束日期。兩個日期都可以設在未來。
+- 開始日期必須早於或等於結束日期。 兩個日期都可以設在未來。
 
-- 若使用滾動日期，開始日期必須為當天或過去。如果選取&#x200B;**[!UICONTROL 排除當天]**，則開始日期必須為過去。
+- 若使用滾動日期，開始日期必須為當天或過去。 如果選取&#x200B;**[!UICONTROL 排除當天]**，則開始日期必須為過去。
 
-- 您可以建立一個為未來設定的靜態日期範圍。例如，您可能需要為下週推出的行銷活動設定一個未來日期。這個選項可預先為活動建立活頁簿監控。
+- 您可以建立一個為未來設定的靜態日期範圍。 例如，您可能需要為下週推出的行銷活動設定一個未來日期。 這個選項可預先為活動建立活頁簿監控。
 
 ## 變更日期範圍
 
