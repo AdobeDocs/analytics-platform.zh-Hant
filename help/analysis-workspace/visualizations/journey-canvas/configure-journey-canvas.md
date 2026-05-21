@@ -5,26 +5,14 @@ feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
 TQID: https://experienceleague.adobe.com/pC3wjv6Q7RHRfDfHq75CP2Lqd-HzN-s7iLZ9t4N4ZR0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5513a755345188e6f7ff5d4c566d807d09e25f68
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c6b215f9fe718d0d3e8f81b7f55421c909b69c5a
 workflow-type: tm+mt
-source-wordcount: 6457
+source-wordcount: 6499
 ht-degree: 91%
 
 ---
@@ -51,7 +39,7 @@ ht-degree: 91%
 
 ## 開始建立歷程畫布視覺化圖表
 
-1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg) [!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
+1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg)[!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
 
    或
 
@@ -87,6 +75,15 @@ ht-degree: 91%
 
 
 ## 配置視覺化圖表設定
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_percentage_value"
+>title="選擇百分比的計算方式"
+>abstract="每個節點上顯示的百分比是根據您設定的主要和次要量度。 您可以選擇百分比是與開始節點、上一個節點還是報告套裝中的所有資料相關。"
+
+<!-- markdownlint-enable MD034 -->
 
 歷程畫布標頭中有各種設定選項。
 
