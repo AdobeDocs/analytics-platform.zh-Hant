@@ -6,20 +6,14 @@ keywords: 產品分析
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
 TQID: https://experienceleague.adobe.com/sqRGQu7Vg5jdCGXT-NWIeExSrBeMVK5hXg0VvD2LtIM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 766
-ht-degree: 98%
+source-wordcount: 758
+ht-degree: 100%
 
 ---
 
@@ -35,7 +29,7 @@ ht-degree: 98%
 <!-- markdownlint-enable MD034 -->
 
 
-![EngagementGraph &#x200B;](/help/assets/icons/EngagementGraph.svg)**[!UICONTROL 參與度]**&#x200B;分析可以深入了解某個功能的使用頻率以及使用該功能的人數。 多項功能互相比較時，此分析效果最佳。 了解您的核心、優勢、一次性和有疑問的功能是什麼，可幫助推動投資決策。
+![EngagementGraph ](/help/assets/icons/EngagementGraph.svg)**[!UICONTROL 參與度]**&#x200B;分析可以深入了解某個功能的使用頻率以及使用該功能的人數。 多項功能互相比較時，此分析效果最佳。 了解您的核心、優勢、一次性和有疑問的功能是什麼，可幫助推動投資決策。
 
 標示在此視覺效果圖表最上方的功能，表示這些是參與的使用者中經常使用的功能。 此視覺效果圖表右側標示的功能，表示這些是有效使用者廣泛採用的功能。 功能使用次數的中位數會水平分割圖表。 活躍使用者中位數百分比會垂直分割圖表。 中位數是根據查詢內選取的事件來計算，而不是根據所有資料來計算。
 
@@ -44,11 +38,7 @@ ht-degree: 98%
 * 矩陣左下方的功能是您的&#x200B;**低影響力**&#x200B;功能；這些是未廣泛採用或未頻繁使用的功能。
 * 矩陣右下角的功能是您的&#x200B;**一次性**&#x200B;功能；這些是廣泛採用但使用並不頻繁的功能。
 
->[!BEGINSHADEBOX]
-
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [參與分析](https://video.tv.adobe.com/v/3447478?captions=chi_hant){target="_blank"}。
-
->[!ENDSHADEBOX]
+>[!VIDEO](https://video.tv.adobe.com/v/3429489/?quality=12&learn=on)
 
 ## 使用案例
 
