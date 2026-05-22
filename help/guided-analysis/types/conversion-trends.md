@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 550
-ht-degree: 97%
+source-wordcount: 537
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,7 @@ ht-degree: 97%
 
 ![轉換趨勢](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL 轉換趨勢]**&#x200B;分析是提供轉換率隨時間變化的趨勢視覺效果。 橫軸是時間間隔，縱軸表示轉換率。
 
-
->[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/guided-analysis/conversion-trends)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3423485/?captions=chi_hant&quality=12&learn=on)
 
 ## 使用案例
 

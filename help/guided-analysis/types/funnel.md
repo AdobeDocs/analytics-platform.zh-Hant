@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 98%
+source-wordcount: 685
+ht-degree: 100%
 
 ---
 
@@ -38,14 +38,9 @@ ht-degree: 98%
 
 <!-- markdownlint-enable MD034 -->
 
-![轉換漏斗](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 漏斗&#x200B;]**&#x200B;分析以直覺的方式呈現您產品中關鍵的使用者歷程。 橫軸代表使用者必須傳遞的每個步驟。 縱軸表示每個步驟的使用者或工作階段的百分比。 所有步驟都必須按最終順序完成，但可以在報告視窗內的任何時間發生。
+![轉換漏斗](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL 漏斗&#x200B;]**分析以直覺的方式呈現您產品中關鍵的使用者歷程。 橫軸代表使用者必須傳遞的每個步驟。 縱軸表示每個步驟的使用者或工作階段的百分比。 所有步驟都必須按最終順序完成，但可以在報告視窗內的任何時間發生。
 
->[!BEGINSHADEBOX]
-
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Funnel摩擦分析](https://video.tv.adobe.com/v/3431278/?captions=chi_hant&quality=12&learn=onn){target="_blank"}。
-
->[!ENDSHADEBOX]
-
+>[!VIDEO](https://video.tv.adobe.com/v/3431278/?captions=chi_hant&quality=12&learn=on)
 
 ## 使用案例
 

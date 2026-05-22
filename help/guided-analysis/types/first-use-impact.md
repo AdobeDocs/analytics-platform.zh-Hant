@@ -16,10 +16,10 @@ subfeature_v2:
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 97%
+source-wordcount: 678
+ht-degree: 100%
 
 ---
 
@@ -36,9 +36,7 @@ ht-degree: 97%
 
 ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL 首次使用影響]**&#x200B;分析顯示使用者首次使用產品功能之前和之後關鍵指標的表現對比。 本報告的橫軸是事件前後的相對時間間隔，縱軸則是測量所需的關鍵指標。 圖表中間的垂直條表示特定使用者首次使用某項功能的第 0 天。 由於使用者並不總是在同一天採用功能，並且您的功能推出可能會持續數天，因此第 0 天對每個使用者來說可能意味著不同的事情。
 
-
->[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/guided-analysis/first-use-impact)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3423494/?captions=chi_hant&quality=12&learn=on)
 
 ## 使用案例
 
