@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d95b7e2710fac7ce851c1c5ecba229a4221f08ac
+source-git-commit: 11156e1f2db094595cc3333ccb0b896037da4715
 workflow-type: tm+mt
 source-wordcount: 1178
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Journey Analytics中實現完整客戶歷程的分析。 當事件缺少帳戶ID （Customer Journey Analytics B2B edition需要帳戶識別碼才能進行內嵌）時，帳戶拼接會使用您提供的[人員對帳戶對應資料集](#prerequisites)自動衍生並新增該資訊。
 
-若沒有帳戶拼接，擷取期間會捨棄任何不含帳戶ID的事件。 帳戶拼接可在每個事件中查詢與個人相關聯的帳戶，當事件被內嵌及回溯性地新增帳戶ID時，即可消除此障礙。
+若沒有帳戶拼接，擷取期間會捨棄任何不含帳戶ID的事件。 帳戶拼接可在每個事件中查詢與個人相關聯的帳戶，在事件被內嵌及追溯時新增帳戶ID，藉此消除此障礙。
 
 >[!NOTE]
 >
