@@ -7,11 +7,19 @@ hide: true
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2:
+  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: d95b7e2710fac7ce851c1c5ecba229a4221f08ac
 workflow-type: tm+mt
 source-wordcount: 1178
@@ -82,7 +90,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >title="開始時間"
 >abstract="選取時間戳記欄位，指出個人與帳戶關係何時開始啟用。"
 >additional-url=""
-additional-url=""
+>additional-url=""
 
 
 1. 在Customer Journey Analytics中，導覽至&#x200B;**[!UICONTROL 連線]**&#x200B;並[建立新連線](/help/connections/create-connection.md#create-a-connection)或[編輯現有連線](/help/connections/create-connection.md#edit-a-connection)。
@@ -131,7 +139,7 @@ additional-url=""
 >title="啟用個人帳戶拼接"
 >abstract="如果啟用，此資料集會使用B2B帳戶拼接。 選取必要的&#x200B;**[!UICONTROL 人員ID]**，以根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集&#x200B;*不會*&#x200B;使用B2B帳戶拼接，您必須改為選取必要的&#x200B;**[!UICONTROL 帳戶ID]**。"
 >additional-url=""
-additional-url=""
+>additional-url=""
 
 
 在連線層級設定B2B拼接後，您必須針對要拼接的每個事件資料集個別啟用B2B帳戶拼接。
@@ -149,7 +157,7 @@ additional-url=""
 * 人員ID的設定為必填。 該人員ID是用來根據[人員對帳戶資料集](#prerequisites)查詢帳戶ID。
 * 帳戶ID的設定為選用。
 
-在](assets/b2b-event-dataset-stitching-on.png)的事件資料集上彙整![B2B帳戶
+在![&#128279;](assets/b2b-event-dataset-stitching-on.png)的事件資料集上彙整B2B帳戶
 
 >[!TAB 關閉]
 
