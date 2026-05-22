@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5964c5f87364e5ba78e866d753819d7e7f605b30
+source-git-commit: d95b7e2710fac7ce851c1c5ecba229a4221f08ac
 workflow-type: tm+mt
-source-wordcount: 1169
+source-wordcount: 1178
 ht-degree: 2%
 
 ---
@@ -137,7 +137,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用個人帳戶拼接"
->abstract="如果啟用，此資料集會使用B2B帳戶拼接。 選取的人員ID是根據人員對帳戶資料集，用來查詢帳戶ID。<br/>如果停用，此資料集&#x200B;*不會*&#x200B;使用B2B帳戶拼接。"
+>abstract="如果啟用，此資料集會使用B2B帳戶拼接。 選取必要的&#x200B;**[!UICONTROL 人員ID]**，以根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集&#x200B;*不會*&#x200B;使用B2B帳戶拼接，您必須改為選取必要的&#x200B;**[!UICONTROL 帳戶ID]**。"
 >additional-url=""
 >additional-url=""
 
