@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 2458
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_lookback_date_range"
 >title="回顧日期範圍"
->abstract="控制 Customer Journey Analytics 在處理資料摘要傳送時回顧的時間範圍。<br/>此設定不會更改頻率時段 (小時或日)。 不過，回顧日期範圍可能會影響傳送的資料。 區段資格、工作階段計算、某些衍生欄位轉換和維度持續性都受到回顧日期範圍的影響。"
+>abstract="控制 Customer Journey Analytics 在處理資料摘要傳送時回顧的時間範圍。<br/>此設定不會更改頻率時段 (小時或日)。 不過，回顧日期範圍可能會影響傳送的資料。 細分資格篩選、工作階段計算、部分衍生欄位轉換和維度持續性，都會受到回顧日期範圍的影響。"
 
 <!-- markdownlint-enable MD034 -->
 
