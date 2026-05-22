@@ -22,9 +22,9 @@ subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: de8f8e06f074fdcb0219ce7286785d870c2093b4
 workflow-type: tm+mt
-source-wordcount: 965
+source-wordcount: 997
 ht-degree: 9%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 9%
 
 | 動作 | 影響 |
 | --- | --- |
+| 從[!UICONTROL Experience Platform]中的資料集刪除一或多個記錄 | 這些記錄會從Customer Journey Analytics連線中刪除，這些連線會將資料集定義為連線設定的一部分。 |
 | 刪除[!UICONTROL Experience Platform]中的資料集 | 在Experience Platform中，來自該資料集的資料流會停止到包含該資料集的任何連線。 系統會從相關聯的 Customer Journey Analytics 連線自動刪除該資料集中的任何資料。 |
 | 從[!UICONTROL Experience Platform]的資料集中刪除批次 | 如果從[!UICONTROL Adobe Experience Platform]資料集中刪除批次資料，該批次資料會從包含該特定批次資料的所有[!UICONTROL Customer Journey Analytics]連線中移除。 [!UICONTROL Customer Journey Analytics] 會收到批次資料已從 [!UICONTROL Adobe Experience Platform] 中刪除的通知。 |
 | 將批次擷取&#x200B;**到[!UICONTROL Customer Journey Analytics]時，從[!UICONTROL Experience Platform]**&#x200B;刪除批次 | 如果資料集中只有一個批次，則該批次中的所有或部分資料都不會顯示在 [!UICONTROL Customer Journey Analytics] 中。 擷取會收回。 舉例來說，如果資料集中有5筆批次資料，其中3筆在第四筆批次資料遭刪除時就已匯入完成，則該3筆批次資料的資料就會顯示於[!UICONTROL Customer Journey Analytics]。 |
