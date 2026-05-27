@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
 source-wordcount: 2181
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -152,8 +152,8 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="需要CX Enterprise驗證"
->abstract="您的組織需要使用者登入CX Enterprise才能使用此連結。"
+>title="需要 CX Enterprise 驗證"
+>abstract="您的組織要求使用者必須登入 CX Enterprise 才能使用此連結。"
 
 
 您可以對沒有 Customer Journey Analytics 存取權的人員授予 Analysis Workspace 專案的[唯讀存取權](/help/analysis-workspace/curate-share/view-only-projects.md)。 獲得授予這個存取權者可能包括：

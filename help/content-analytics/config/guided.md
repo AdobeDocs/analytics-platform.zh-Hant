@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 4111
-ht-degree: 63%
+ht-degree: 64%
 
 ---
 
@@ -376,8 +376,8 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_button"
 >title="資料收集"
->abstract="定義您要使用的標記屬性，或建立一個新屬性。 並且使用規則運算式定義想要包括或排除的頁面和資產。<br/>對於與標籤無關的實作，請選取&#x200B;**[!UICONTROL 新建]**。  標籤屬性已建立，但您不需要使用它。"
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/tags-agnostic" text="Content Analytics JavaScript資料庫"
+>abstract="定義您要使用的標記屬性，或建立一個新屬性。 並且使用規則運算式定義想要包括或排除的頁面和資產。<br/>對於與標記無關的實作，請選取「**[!UICONTROL 新建]**」。  標記屬性便會建立，但您無需使用它。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs//analytics-platform/using/content-analytics/configuration/tags-agnostic" text="Content Analytics JavaScript 程式庫"
 
 
 >[!CONTEXTUALHELP]

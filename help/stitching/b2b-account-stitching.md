@@ -23,7 +23,7 @@ topic_v2:
 source-git-commit: 11156e1f2db094595cc3333ccb0b896037da4715
 workflow-type: tm+mt
 source-wordcount: 1178
-ht-degree: 2%
+ht-degree: 21%
 
 ---
 
@@ -58,37 +58,37 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 
 您可以在連線層級啟用和設定B2B帳戶拼接，然後對該連線中的個別事件資料集啟用帳戶拼接。
 
-### 設定B2B拼接設定 {#configure-b2b-stitching-settings}
+### 設定 B2B 拼接設定 {#configure-b2b-stitching-settings}
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_open_configuration"
->title="設定B2B帳戶拼接"
->abstract="選取&#x200B;**[!UICONTROL 開啟B2B拼接設定]**&#x200B;以設定B2B帳戶拼接。 如果連線尚未儲存，組態會標示為&#x200B;**[!UICONTROL _未儲存的變更_]**。"
+>title="設定 B2B 帳戶拼接"
+>abstract="選取「**[!UICONTROL 開啟 B2B 拼接設定]**」以設定 B2B 帳戶拼接。 如果連線尚未儲存，該設定會標示為「**[!UICONTROL _未儲存的變更_]**」。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
->title="個人識別碼名稱空間"
->abstract="選取人員ID名稱空間，例如電子郵件，您希望將任何人員ID提升至該名稱空間。"
+>title="人員識別碼命名空間"
+>abstract="選取您想要將任何人員 ID 提升至的人員識別碼命名空間 (例如電子郵件)。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
->title="帳戶資料集的人員"
->abstract="選取將人員ID對應至帳戶ID的查詢資料集。"
+>title="人員至帳戶資料集"
+>abstract="選取將人員 ID 對應至帳戶 ID 的查詢資料集。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person"
 >title="人員"
->abstract="在包含人員ID的資料集中選取欄位。 該欄位必須標示為身分，且不能與&#x200B;**[!UICONTROL 帳戶]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。"
+>abstract="選取資料集中包含人員 ID 的欄位。 該欄位必須標示為身分識別，且不能與「**[!UICONTROL 帳戶]**」欄位或「**[!UICONTROL 開始時間]**」欄位相同。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
 >title="帳戶"
->abstract="在包含帳戶ID的資料集中選取欄位。 該欄位不能與&#x200B;**[!UICONTROL 人員]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。"
+>abstract="選取資料集中包含帳戶 ID 的欄位。 該欄位不能與「**[!UICONTROL 人員]**」欄位或「**[!UICONTROL 開始時間]**」欄位相同。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
 >title="開始時間"
->abstract="選取時間戳記欄位，指出個人與帳戶關係何時開始啟用。"
+>abstract="選取時間戳記欄位，其指出人員至帳戶關係何時變為有效。"
 >additional-url=""
 >additional-url=""
 
@@ -118,9 +118,9 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
       | 欄位 | 必要 | 說明 |
       |---|:---:|---|
       | **[!UICONTROL 帳戶資料集的人員]** | ![必要](/help/assets/icons/Required.svg) | 選取將人員對應至帳戶的查詢（記錄或非時間序列資料集）。 |
-      | **[!UICONTROL 人員]** | ![必要](/help/assets/icons/Required.svg) | 在包含人員ID的資料集中選取欄位。 該欄位必須標示為身分，且不能與&#x200B;**[!UICONTROL 帳戶]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
-      | **[!UICONTROL 帳戶]** | ![必要](/help/assets/icons/Required.svg) | 在包含帳戶ID的資料集中選取欄位。 該欄位不能與&#x200B;**[!UICONTROL 人員]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
-      | **開始時間** | | 選取時間戳記欄位，指出個人與帳戶關係何時開始啟用。 |
+      | **[!UICONTROL 人員]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含人員 ID 的欄位。 該欄位必須標示為身分識別，且不能與「**[!UICONTROL 帳戶]**」欄位或「**[!UICONTROL 開始時間]**」欄位相同。 |
+      | **[!UICONTROL 帳戶]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含帳戶 ID 的欄位。 該欄位不能與「**[!UICONTROL 人員]**」欄位或「**[!UICONTROL 開始時間]**」欄位相同。 |
+      | **開始時間** | | 選取時間戳記欄位，其指出人員至帳戶關係何時變為有效。 |
 
       >[!NOTE]
       >
@@ -131,13 +131,13 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
    1. **[!UICONTROL _未儲存的變更_]**&#x200B;指標會出現在&#x200B;**開啟B2B拼接設定**&#x200B;按鈕旁，直到您[儲存](#save)連線為止。
 
 
-### 在事件資料集上啟用B2B拼接
+### 在事件資料集上啟用 B2B 拼接
 
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
->title="啟用個人帳戶拼接"
->abstract="如果啟用，此資料集會使用B2B帳戶拼接。 選取必要的&#x200B;**[!UICONTROL 人員ID]**，以根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集&#x200B;*不會*&#x200B;使用B2B帳戶拼接，您必須改為選取必要的&#x200B;**[!UICONTROL 帳戶ID]**。"
+>title="啟用人員至帳戶拼接"
+>abstract="如果啟用，此資料集便會使用 B2B 帳戶拼接。 選取必要的&#x200B;**[!UICONTROL 人員ID]**，以根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集&#x200B;*不會*&#x200B;使用B2B帳戶拼接，您必須改為選取必要的&#x200B;**[!UICONTROL 帳戶ID]**。"
 >additional-url=""
 >additional-url=""
 
