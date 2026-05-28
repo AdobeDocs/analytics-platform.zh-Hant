@@ -26,7 +26,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
 workflow-type: tm+mt
 source-wordcount: 2441
 ht-degree: 9%
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 # Customer Journey Analytics護欄
 
-本檔案提供Customer Journey Analytics各種元件的限制。 如需護欄、範圍設定引數和權益，請參閱[Customer Journey Analytics的產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html)、[Adobe Analytics附加元件的產品說明： Customer Journey Analytics](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)，或Customer Journey Analytics B2B edition[&#128279;](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics-b2b.html)的產品說明。
+本檔案提供Customer Journey Analytics各種元件的限制。 如需護欄、範圍設定引數和權益，請參閱[Customer Journey Analytics的產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html)、[Adobe Analytics附加元件的產品說明： Customer Journey Analytics](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html)，或[Customer Journey Analytics B2B edition的產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics-b2b.html)。
 
 ## 限制型別
 
@@ -43,7 +43,7 @@ ht-degree: 9%
 
 | 護欄型別 | 說明 |
 |----------|---------|
-| **效能護欄（軟性限制）** | 效能護欄是與使用案例範圍相關的使用限制。 超過效能護欄時，您可能會遇到效能降低和延遲的狀況。 Adobe對這類效能降低不負任何責任。 持續超過效能護欄的客戶可選擇授權額外的容量，以避免效能降低。 |
+| **效能護欄（軟性限制）** | 效能護欄是與使用案例範圍相關的使用限制。 超過效能護欄時，您可能會遇到效能降低和延遲的問題。 Adobe對這類效能降低不負任何責任。 客戶若持續超過效能護欄，可選擇授權額外的容量，以避免效能降低。 |
 | **系統強制的護欄（硬限制）** | Customer Journey Analytics UI或API會強制執行系統強制的護欄。 這些限制不得超過，因為UI和API會封鎖您這樣做或傳回錯誤。 |
 
 {style="table-layout:auto"}
@@ -86,7 +86,7 @@ ht-degree: 9%
 {style="table-layout:auto"}
 
 
-<!-- at flatview GA, add: - Dimension columns per freeform table - 5 - System-enforced Guardrail - Maximum number of dimensions per freeform table. -->
+<!-- at flatview GA, add: - Dimension columns per freeform table - 5 - System-enforced guardrail - Maximum number of dimensions per freeform table. -->
 
 <!--
 
@@ -113,7 +113,7 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [&#x200B; Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/guardrails/overview)。
+另請參閱Experience Platform [Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/guardrails/overview)。
 
 
 ## 自動化資料集有效期
@@ -156,7 +156,7 @@ ht-degree: 9%
 | 每人列數 | 100萬 | 系統強制的護欄 | 連線中指定月份每個不重複人員ID的最大列數。 |
 | 每日列數 | 25億 | 效能護欄 | 連線中每天的最大平均列數。 |
 | 每年每個連線的列數 | 因指定的資料中心而異（如需詳細資訊，請參閱說明） | 效能護欄 | 連線中每年的列數限制。 以下所列上限自2026年1月20日起生效，並可能會隨著時間增加，以允許每個連線有更多列。 <p>列數限制會依您指定的資料中心而有所不同，如下所示：</p><ul><li>**美國Azure （美國客戶的預設值）**：約5,000億（約每月420億）</li><li>**美國AWS （美國客戶可索取）**：約300億（約每月25億）</li><li>**阿姆斯特丹**：約2,000億（約每月165億）</li><li>**所有其他資料中心**：250億（約每月20億）</li></ul><p>如果您希望超出這些限制且想要避免效能降低問題，請聯絡您的Adobe客戶團隊以討論替代設定。</p><p>組織可在最初實作AEP+應用程式時選擇資料中心。 這項決定通常是根據每位客戶自己的資料駐留要求而定。 選擇資料中心時，應考量所有AEP+應用程式使用案例（不只是Customer Journey Analytics中的列磁碟區）。</p><p>如需如何檢視指派給哪個資料中心的詳細資訊，請參閱[Customer Journey Analytics託管位置](/help/technotes/data-centers.md)。</p> |
-| 列大小 | 2 | 效能護欄/系統強制的護欄 | 擷取到Customer Journey Analytics的每列資料的平均大小(KB) （軟性限制）。 列大小的靜態限制由Experience Platform中資料擷取的護欄決定。 |
+| 列大小 | 2 | 效能護欄/系統強制的護欄 | 擷取到Customer Journey Analytics的每列資料的平均大小(KB) （軟性限制）。 列大小的靜態限制取決於Experience Platform中資料擷取的護欄。 |
 
 {style="table-layout:auto"}
 
@@ -288,7 +288,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->以下處理時間為護欄，而非合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
+>以下處理時間是護欄，而不是合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
 
 | 資料流程 | 預期延遲 |
 |---|---|

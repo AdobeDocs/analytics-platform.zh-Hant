@@ -20,9 +20,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 889
 ht-degree: 1%
 
 ---
@@ -112,3 +112,7 @@ ht-degree: 1%
 
 * 主索引鍵、版本描述項和時間戳記描述項必須是關聯式XDM結構描述中的根層級欄位。 在內嵌期間使用[欄位對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)以支援此需求。
 * 您可以在[對應階段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)期間省略適當的來源欄位。
+
+## 映象資料的批次大小
+
+對於任何已設定為連線一部分的映象資料集，您必須確保每個要為映象資料集擷取資料的批次不會超過100GB。 如需詳細資訊，請參閱批次擷取的[護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"}。

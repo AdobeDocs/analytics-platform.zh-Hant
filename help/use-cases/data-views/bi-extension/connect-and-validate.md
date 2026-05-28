@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 65ddb8af8bf2fdb45eaaef0ad5d824314c35087e
 workflow-type: tm+mt
-source-wordcount: 2021
+source-wordcount: 1963
 ht-degree: 10%
 
 ---
@@ -77,15 +77,15 @@ ht-degree: 10%
       1. 使用![複製](/help/assets/icons/Copy.svg)從&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;欄位的Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板中複製&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**&#x200B;值。 如果您使用[不會到期的認證](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect)，請使用不會到期的認證的密碼。
       1. 確定&#x200B;**[!UICONTROL 的下拉式功能表「選取要套用這些設定至]**&#x200B;的層級」已設定為您先前定義的&#x200B;**[!UICONTROL 伺服器]**。
       1. 選取&#x200B;**[!UICONTROL 連線]**。
-   1. 在&#x200B;**[!UICONTROL 導覽器]**&#x200B;對話方塊中，會擷取資料檢視。 此擷取作業可能需要一些時間。 擷取後，您會在Power BI Desktop中看到下列內容。
+   1. 在&#x200B;**[!UICONTROL 導覽器]**&#x200B;對話方塊中，會擷取資料檢視。此擷取作業可能需要一些時間。擷取後，您會在Power BI Desktop中看到下列內容。
       ![Power BI Destkop載入資料](../assets/powerbi-navigator-load.png)
       1. 從左側面板的清單中選取&#x200B;**[!UICONTROL public.cc_data_view]**。
       1. 您有兩個選項：
          1. 選取&#x200B;**[!UICONTROL 載入]**&#x200B;以繼續並完成設定。
-         1. 選取&#x200B;**[!UICONTROL 轉換資料]**。 您會看到一個對話方塊，您可以選擇將轉換套用為組態的一部分。
+         1. 選取&#x200B;**[!UICONTROL 轉換資料]**。您會看到一個對話方塊，您可以選擇將轉換套用為組態的一部分。
             ![Power BI案頭轉換資料](../assets/powerbi-transform-data.png)
             * 選取&#x200B;**[!UICONTROL 關閉並套用]**。
-   1. 一段時間後，**[!UICONTROL public.cc_data_view]**&#x200B;會顯示在&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中。 選取![V形右側](/help/assets/icons/ChevronRight.svg)以顯示維度和量度。
+   1. 一段時間後，**[!UICONTROL public.cc_data_view]**&#x200B;會顯示在&#x200B;**[!UICONTROL 資料]**&#x200B;窗格中。選取![V形右側](/help/assets/icons/ChevronRight.svg)以顯示維度和量度。
       ![已載入Power BI Destkop伺服器資料](../assets/powerbi-navigator-loaded.png)
 
 
@@ -120,7 +120,7 @@ Power BI Desktop支援下列`FLATTEN`引數案例。 如需詳細資訊，請參
       ![查詢服務認證](../assets/queryservice-credentials.png)
 
 1. 啟動Tableau。
-   1. 從&#x200B;**[!UICONTROL 下的左側邊欄選取**&#x200B;[!UICONTROL &#x200B; PostgreSQL &#x200B;]&#x200B;**以連線至伺服器]**。 如果無法取得，請選取&#x200B;**[!UICONTROL 更多……]**，然後從&#x200B;**[!UICONTROL 安裝的聯結器]**&#x200B;中選取&#x200B;**[!UICONTROL PostgreSQL]**。
+   1. 從&#x200B;**[!UICONTROL 下的左側邊欄選取**&#x200B;[!UICONTROL &#x200B; PostgreSQL &#x200B;]&#x200B;**以連線至伺服器]**。如果無法取得，請選取&#x200B;**[!UICONTROL 更多……]**，然後從&#x200B;**[!UICONTROL 安裝的聯結器]**&#x200B;中選取&#x200B;**[!UICONTROL PostgreSQL]**。
       ![Tableau聯結器](../assets/tableau-connectors.png)
    1. 在&#x200B;**[!UICONTROL PostgreSQL]**&#x200B;對話方塊的&#x200B;**[!UICONTROL 一般]**&#x200B;索引標籤中：
       ![Tableau登入對話方塊](../assets/tableau-signin.png)
@@ -355,7 +355,7 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
 
 1. 啟動RStudio。
 1. 建立新的R Markdown檔案，或下載[此範例R Markdown檔案](../assets/BI-Extension.Rmd.zip)。
-1. 在第一個區塊中，輸入下列介於` ` ``{r} `到` `` ` `之間的陳述式。 使用![複製](/help/assets/icons/Copy.svg)從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼上值至各種引數（如`host`、`dbname`和`user`）所需的值。 例如：
+1. 在第一個區塊中，輸入下列陳述式。 使用![複製](/help/assets/icons/Copy.svg)從Experience Platform **[!UICONTROL 查詢]** **[!UICONTROL 到期認證]**&#x200B;面板複製並貼上值至各種引數（如`host`、`dbname`和`user`）所需的值。 例如：
 
    ```R
    library(rstudioapi)
@@ -376,7 +376,7 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
 
    ![RStudio設定步驟1](../assets/rstudio-config-step1.png)
 
-1. 建立新的區塊，並輸入下列介於` ` `` {r} `到` `` ` `之間的陳述式。
+1. 建立新區塊，並輸入下列陳述式。
 
    ```R
    con <- dbConnect(
@@ -393,7 +393,7 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
 1. 執行區塊。 如果連線成功，應該不會看到任何輸出。
 
 
-1. 建立新的區塊，並輸入下列介於` ` `` {r} `到` `` ` `之間的陳述式。
+1. 建立新區塊，並輸入下列陳述式。
 
    ```R
    views <- dbListTables(con)
@@ -403,7 +403,7 @@ Jupyter Notebook支援`FLATTEN`引數的下列案例。 如需詳細資訊，請
 1. 執行區塊。 您應該看到`character(0)`是唯一輸出。
 
 
-1. 建立新的區塊，並輸入下列介於` ` `` {r} `到` `` ` `之間的陳述式。
+1. 建立新區塊，並輸入下列陳述式。
 
    ```R
    glimpse(dv)
