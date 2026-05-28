@@ -7,22 +7,14 @@ role: Admin
 badgePremium: label="Beta"
 autotag-review: '2026-05-19T06:55:09.938Z'
 TQID: 'https://experienceleague.adobe.com/uZjXZUKUMeXLxxpTRrkCZrPsGhxseSxOtJ9X0ZjG5wU'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: bfef374d-acfd-4c57-bf74-a2b36053c545
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: bfef374d-acfd-4c57-bf74-a2b36053c545id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 889
 ht-degree: 1%
 
 ---
@@ -89,7 +81,7 @@ ht-degree: 1%
 
 ## 治理差異
 
-在XDM [結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)和基礎概念（例如[欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#field-group)）中，欄位群組中定義的[欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#field)會將其標籤傳播到使用該欄位群組的所有資料集。 例如，欄位群組`identities`中的電子郵件欄位`emailID`在所有使用欄位群組`identities`的資料集中標籤為相同。
+在XDM [結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)和基礎概念（例如[欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)）中，欄位群組中定義的[欄位](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field)會將其標籤傳播到使用該欄位群組的所有資料集。 例如，欄位群組`identities`中的電子郵件欄位`emailID`在所有使用欄位群組`identities`的資料集中標籤為相同。
 
 在關聯式結構描述中，欄名稱是獨立的。 資料表`customers`中名為`email`的資料行與資料表`prospects`中名為`email`的資料行獨立且不同。 此行為表示標籤（例如DULE使用標籤、原則）必須個別套用至映象資料集中的欄位。 根據上述範例，您需要將標籤同時套用至`customers`資料集中的`email`欄位和`prospects`資料集中的`email`欄位。
 
@@ -110,5 +102,9 @@ ht-degree: 1%
 
 下列考量事項適用於系統金鑰和欄位：
 
-* 主索引鍵、版本描述項和時間戳記描述項必須是關聯式XDM結構描述中的根層級欄位。 在內嵌期間使用[欄位對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)以支援此需求。
-* 您可以在[對應階段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)期間省略適當的來源欄位。
+* 主索引鍵、版本描述項和時間戳記描述項必須是關聯式XDM結構描述中的根層級欄位。 在內嵌期間使用[欄位對應](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)以支援此需求。
+* 您可以在[對應階段](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema)期間省略適當的來源欄位。
+
+## 映象資料的批次大小
+
+對於任何已設定為連線一部分的映象資料集，您必須確保每個要為映象資料集擷取資料的批次不會超過100GB。 如需詳細資訊，請參閱批次擷取的[護欄](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"}。
