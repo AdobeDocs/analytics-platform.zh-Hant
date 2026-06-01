@@ -26,10 +26,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: b4547b6c48adb97f6749ef54147f369632c44fa9
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 4%
+source-wordcount: 496
+ht-degree: 3%
 
 ---
 
@@ -62,6 +62,13 @@ Data Mirror提供下列資料庫同步處理的基本功能：
 >Data Mirror是目前在Beta版中的功能，可支援使用變更資料擷取(CDC)同步處理特定資料倉儲的資料，以便在Customer Journey Analytics中進行分析。<br/>此功能將於2026年6月18日正式提供給Customer Journey Analytics。 請參閱適用的產品說明，瞭解其如何影響未來的年度擷取限制耗用量。 請注意，當Data Mirror從Beta版過渡到全面推出時，您的組織仍能存取此功能。
 >
 
+>[!IMPORTANT]
+>
+>您在Experience Platform中針對Customer Journey Analytics的Data Mirror所建立的變更資料擷取資料集，不應在其他Experience Platform解決方案（如Real-Time Customer Data Platform或Journey Optimizer）中重複使用。 如果您想要對這些解決方案使用相同的資料，請考慮使用相同的資料建立替代資料集。
+>
+
+
+
 適用於Customer Journey Analytics的Experience Platform Data Mirror可用於選取的Data Warehouse原生解決方案（[!DNL Azure Databricks]、[!DNL Google BigQuery]和[!DNL Snowflake]）。 Customer Journey Analytics版本的Experience Platform Data Mirror需要正確設定下列應用程式或元件：
 
 * [資料倉儲原生解決方案](datawarehouse.md)
@@ -70,6 +77,6 @@ Data Mirror提供下列資料庫同步處理的基本功能：
 
 >[!MORELIKETHIS]
 >
->[Data Mirror快速入門手冊：映象及使用關聯式資料](relational.md)
+>[Data Mirror快速入門手冊：映象並使用關聯式資料](relational.md)
 >[Data Mirror （Experience Platform檔案）](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview)
 >[關聯式結構描述（Experience Platform檔案）](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)
