@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: e430f26e2b6357a288adb4389a266f26acab68c4
 workflow-type: tm+mt
-source-wordcount: 1129
-ht-degree: 14%
+source-wordcount: 1448
+ht-degree: 8%
 
 ---
 
@@ -51,39 +51,77 @@ ht-degree: 14%
 >
 
 
-若要在Customer Journey Analytics中報告Marketo Engage資料：
+若要在Customer Journey Analytics中報告Marketo Engage資料，請遵循下列步驟：
 
-+++ &#x200B;1. 將Marketo來源資料欄位對應至其XDM目標
++++選取ID策略
+
+如果您想要將Marketo活動資料擷取至Customer Journey Analytics，您必須選取適當的ID策略，以確保可將Marketo資料連結至Customer Journey Analytics資料。
+
+Marketo資料本身不包含ECID，但ECID欄位可以新增為與`munchkin.js`資料庫一起收集的自訂欄位。 新增內容會在Marketo和現有Customer Journey Analytics網頁資料之間建立共用識別碼。
+
+若要連結Marketo和Customer Journey Analytics資料，請在相關資料集上使用[圖表式拼接](/help/stitching/gbs.md)。 您可以根據實施使用數個可用的ID：
+
+* ECID，由Experience Platform Identity Service提供
+* 電子郵件
+* Munchkin ID，由Marketo Engage提供
+* 經銷商ID
+* 鄧恩布萊德街鄧斯\#
+* Demandbase ID
+* （可能為其他人）
+
+圖表式拚接有助於以下方面：
+
+* 保留網頁事件上的永久ID。
+* 儘可能使用身分圖表來解析已知的身分（如電子郵件）。
+* 如果不存在確定性比對，圖表式拚接會回覆為永久ID，而非捨棄事件。
+
+圖表式拚接是連結Marketo和Customer Journey Analytics資料的可行解決方案，原因如下：
+
+* Web事件資料在每一列都有永續性ID （例如ECID）。
+* Marketo資料中的Munckin ID、ECID和電子郵件都是可靠的ID。
+* 圖表式拚接會決定性地將ECID橋接至Munchkin ID、電子郵件或Marketo資料中可用的任何其他識別碼。
+* 圖表式拚接使用明確設定的身分圖表連結規則和名稱空間。
+
+若要驗證此ID策略，您應該執行受控的圖表式銜接試驗。
+
+1. 在Marketo中新增ECID作為自訂欄位，並將自訂欄位新增到munckin.js使用者端JavaScript程式碼，以進行Marketo Engage資料收集。
+1. 設定暫時的Customer Journey連線，其中至少包含Marketo資料集和Web事件資料集。
+1. 定義狹窄的資料範圍，以帶入有限且可呈現的資料量。
+1. 透過Workspace中資料檢視和報告的設定驗證彙整。 如需詳細資訊，請參閱下列步驟。
+
++++
+
++++將Marketo來源資料欄位對應至其XDM目標
 
 將[人員](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)和[活動](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo)物件對應至它們各自的 XDM 結構描述目標欄位。
 
 +++
 
-+++ &#x200B;2. 將Marketo資料擷取至Adobe Experience Platform
++++將Marketo資料擷取至Adobe Experience Platform
 
-使用 [Marketo Engage 連接器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)將資料從 Marketo 帶到 Experience Platform，並使用平台連線的應用程式保持這些資料在最新狀態。
+使用[Marketo Engage聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)將資料從Marketo帶到Experience Platform，並使用Experience Platform應用程式保持這些資料在最新狀態。
 
 +++
 
-+++ &#x200B;3. 在Customer Journey Analytics中設定此資料集的連線
++++ 在Customer Journey Analytics中設定此資料集的連線
 
 若要針對Experience Platform資料集製作報表，必須先為Experience Platform和Customer Journey Analytics中的資料集建立連線。 請參閱[建立或編輯連線](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/create-connection)。
 
 +++
 
 
-+++ &#x200B;4. 建立一或多個資料檢視
++++建立一或多個資料檢視
 
 [資料檢視](/help/data-views/data-views.md)是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 它會指定 Analysis Workspace 中可用的所有維度和量度 (在此案例中則是 Marketo 特定的量度和維度)。 它會這些維度和量度從哪些欄取得資料。 資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
 +++ 
 
-+++ &#x200B;5. Analysis Workspace中的報表
++++Analysis Workspace中的報表
 
 您可能會探索的一個使用案例是：您在2020年4月至6月期間潛在客戶瀏覽了多少網頁？
 
-1. 請開啟 [Analytics Workspace](/help/analysis-workspace/home.md) 並建立新專案。
-擁有B2B/B2P CDP的客戶可以在Customer Journey Analytics中進行B2C樣式的分析。 尚未提供 B2B 物件。
+1. 開啟[Analytics Workspace](/help/analysis-workspace/home.md)並建立新專案。
+擁有B2B/B2P CDP的客戶可以在Customer Journey Analytics中進行B2C樣式的分析。尚未提供B2B物件。
 
 1. 為網頁檢視建立[區段](/help/components/segments/seg-create.md)，如下所示：事件型別= web.webpagedetails.pageViews：
 
