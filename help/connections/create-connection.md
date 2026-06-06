@@ -133,22 +133,22 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_ajo"
 >title="在 Customer Journey Analytics 中使用此連線"
->abstract="透過此選項，您可以搭配 Journey Optimizer 連線使用 Customer Journey Analytics 的進階報告功能。 這些功能可讓您：<ul><li>在 Customer Journey Analytics 中執行 Journey Optimizer 資料的深入分析。</li><li>編輯 Journey Optimizer 連線和相關的資料釋圖。</li><li>分析歷程事件、對話路徑和行銷活動績效。</li></ul>**啟用此選項後，連線中的每一列資料都會計入您每月 Customer Journey Analytics 授權的資料列數。 並會顯示於「連線使用量」UI 中。**<br><br/>&#x200B;如果您不介意在 Customer Journey Analytics 中使用額外的資料列，再來了解這個選項。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo){target="_blank"}。"
+>abstract="透過此選項，您可以搭配 Journey Optimizer 連線使用 Customer Journey Analytics 的進階報告功能。 這些功能可讓您：<ul><li>在 Customer Journey Analytics 中執行 Journey Optimizer 資料的深入分析。</li><li>編輯 Journey Optimizer 連線和相關的資料視圖。</li><li>分析歷程事件、對話路徑和行銷活動績效。</li></ul>**啟用此選項後，連線中的每一列資料都會計入您每月 Customer Journey Analytics 授權的資料列數。 並會顯示於「連線使用量」UI 中。**<br><br/>&#x200B;如果您不介意在 Customer Journey Analytics 中使用額外的資料列，再來了解這個選項。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo){target="_blank"}。"
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_exl_ajo"
 >title="從 Customer Journey Analytics 中移除此連線"
->abstract="此 Journey Optimizer 連線目前用於 Customer Journey Analytics。 此連線讓您可以：<ul><li>在 Customer Journey Analytics 中執行 Journey Optimizer 資料的深入分析。</li><li>編輯 Journey Optimizer 連線和相關的資料釋圖。</li><li>分析歷程事件、對話路徑和行銷活動績效。</li></ul>**如果您移除連線，就無法再於 Customer Journey Analytics 中進行深入分析。 連線和任何關聯的資料視圖都會重設為預設狀態，且無法再編輯。**<br/><br/>**Customer Journey Analytics 中此連線的計費包括移除連線的整個月份。**<br/><br/>&#x200B;連線在 Journey Optimizer 中保持啟用狀態。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo){target="_blank"}。"
+>abstract="此 Journey Optimizer 連線目前用於 Customer Journey Analytics。 此連線讓您可以：<ul><li>在 Customer Journey Analytics 中執行 Journey Optimizer 資料的深入分析。</li><li>編輯 Journey Optimizer 連線和相關的資料視圖。</li><li>分析歷程事件、對話路徑和行銷活動績效。</li></ul>**如果您移除連線，就無法再於 Customer Journey Analytics 中進行深入分析。 連線和任何關聯的資料視圖都會重設為預設狀態，且無法再編輯。**<br/><br/>**Customer Journey Analytics 中此連線的計費包括移除連線的整個月份。**<br/><br/>&#x200B;連線在 Journey Optimizer 中保持啟用狀態。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo){target="_blank"}。"
 
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_brand_concierge"
 >title="在 Customer Journey Analytics 中使用此連線"
->abstract="透過此選項，您可以搭配 Brand Concierge 連線使用 Customer Journey Analytics 的進階報告功能。 這些功能可讓您：<ul><li>在 Customer Journey Analytics 中對 Brand Concierge 資料進行深入分析。</li><li>編輯 Brand Concierge 連線及相關資料釋圖。</li><li>分析對話式參與度、情緒和轉換量度。</li></ul>**啟用此選項後，連線中的每一列資料都會計入您每月 Customer Journey Analytics 授權的資料列數。 並會顯示於「連線使用量」UI 中。**<br><br/>&#x200B;如果您不介意在 Customer Journey Analytics 中使用額外的資料列，再來了解這個選項。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates){target="_blank"}。"
+>abstract="透過此選項，您可以搭配 Brand Concierge 連線使用 Customer Journey Analytics 的進階報告功能。 這些功能可讓您：<ul><li>在 Customer Journey Analytics 中對 Brand Concierge 資料進行深入分析。</li><li>編輯 Brand Concierge 連線及相關資料視圖。</li><li>分析對話式參與度、情緒和轉換量度。</li></ul>**啟用此選項後，連線中的每一列資料都會計入您每月 Customer Journey Analytics 授權的資料列數。 並會顯示於「連線使用量」UI 中。**<br><br/>&#x200B;如果您不介意在 Customer Journey Analytics 中使用額外的資料列，再來了解這個選項。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates){target="_blank"}。"
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_exl_brand_concierge"
 >title="從 Customer Journey Analytics 中移除此連線"
->abstract="此 Brand Concierge 連線目前用於 Customer Journey Analytics。 此連線讓您可以：<ul><li>在 Customer Journey Analytics 中對 Brand Concierge 資料進行深入分析。</li><li>編輯 Brand Concierge 連線及相關資料釋圖。</li><li>分析對話式參與度、情緒和轉換量度。</li></ul>**如果您移除連線，就無法再於 Customer Journey Analytics 中進行深入分析。 連線和任何關聯的資料視圖都會重設為預設狀態，且無法再編輯。**<br/><br/>**Customer Journey Analytics 中此連線的計費包括移除連線的整個月份。**<br/><br/>&#x200B;連線在 Brand Concierge 中保持啟用狀態。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates){target="_blank"}。"
+>abstract="此 Brand Concierge 連線目前用於 Customer Journey Analytics。 此連線讓您可以：<ul><li>在 Customer Journey Analytics 中對 Brand Concierge 資料進行深入分析。</li><li>編輯 Brand Concierge 連線及相關資料視圖。</li><li>分析對話式參與度、情緒和轉換量度。</li></ul>**如果您移除連線，就無法再於 Customer Journey Analytics 中進行深入分析。 連線和任何關聯的資料視圖都會重設為預設狀態，且無法再編輯。**<br/><br/>**Customer Journey Analytics 中此連線的計費包括移除連線的整個月份。**<br/><br/>&#x200B;連線在 Brand Concierge 中保持啟用狀態。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates#brand-concierge-templates){target="_blank"}。"
 
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_product_usage"
