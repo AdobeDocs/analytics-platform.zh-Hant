@@ -6,27 +6,15 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 TQID: https://experienceleague.adobe.com/Ozf-XAsirDMkZLIQCX4SLGD7SvKinu3O4fwJ4ifgSvQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: dcc1be6e0c0e0dab19b4067232e48dc175011ed1
 workflow-type: tm+mt
-source-wordcount: 3784
-ht-degree: 53%
+source-wordcount: 4127
+ht-degree: 48%
 
 ---
 
@@ -77,7 +65,7 @@ ht-degree: 53%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件類型設定](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件類型設定](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -123,7 +111,7 @@ ht-degree: 53%
 
   **注意**：地圖視覺效果處於發行的有限測試階段，可能尚未在您的環境中提供。
 
-* 顯示Adobe[&#128279;](/help/analysis-workspace/templates/use-templates.md)提供的範本。 Adobe提供的部分範本可能無法運作，因為某些元件不在您的資料檢視中。
+* 顯示Adobe](/help/analysis-workspace/templates/use-templates.md)提供的[範本。 Adobe提供的部分範本可能無法運作，因為某些元件不在您的資料檢視中。
 
   對於每個缺少的元件，資料檢視中都有一個相符的內容標籤。 您需要將相符的內容標籤新增至資料檢視中已有的元件。 或者，您需要將新元件新增到資料檢視，並將內容標籤新增到元件（如果尚未自動提供）。
 
@@ -173,19 +161,19 @@ ht-degree: 53%
 
 | 名稱 | 說明 |
 |------|-------------|
-| 內容 ID | 內容ID。 |
-| 內容逗留時間 | 內容逗留時間。 |
-| 集數 | 集數。 |
-| 事件類型 | 事件型別。 |
-| 媒體逗留時間 | 媒體逗留時間。 |
-| 季數 | 季節。 |
-| 上次通話後經過秒數 | 自上次呼叫以來的秒數。 |
-| 節目 | 顯示。 |
-| 開始時間 | 開始時間。 |
-| 總緩衝期間 | 總緩衝期間。 |
-| 總暫停期間 | 總暫停期間。 |
-| 影片長度 | 視訊長度。 |
-| 影片名稱 | 視訊名稱。 |
+| [內容識別碼](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) | 播放內容的唯一識別碼。 啟用[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 內容識別碼]**&#x200B;選項按鈕。 |
+| [內容逗留時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent) | 檢視內容（不包括廣告）所花費的時間。 支援[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 內容逗留時間]**&#x200B;進階設定。 |
+| [集](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) | 系列中的集數。 啟用在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中依集數篩選。 |
+| 事件類型 | 媒體事件型別，例如`media.play`或`media.ping`。 必須有Customer Journey Analytics才能計算[媒體同時檢閱者](/help/analysis-workspace/c-panels/media-concurrent-viewers.md)衍生的量度。 |
+| [媒體逗留時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent) | 總時間，包括內容、廣告、緩衝和暫停。 支援[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)面板和&#x200B;**[!UICONTROL 媒體花費時間]**&#x200B;進階設定。 |
+| [季](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) | 系列中的季數。 在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中啟用依季節篩選。 |
+| 上次通話後經過秒數 | 自上次心率Ping以來的時間（秒）。 必須讓Customer Journey Analytics計算[媒體同時檢閱者](/help/analysis-workspace/c-panels/media-concurrent-viewers.md)衍生的量度（可識別工作階段何時仍在作用中）。 |
+| [節目](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) | 節目或影集名稱。 啟用在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中依顯示篩選。 |
+| [開始時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start) | 從內容選取到播放開始的時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
+| [總緩衝期間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | 在工作階段期間花費在緩衝的總時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
+| [總暫停期間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration) | 工作階段期間暫停的總逗留時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
+| [視訊長度](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | 內容持續時間（秒數）。 [媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 特定內容]**&#x200B;模式需要。 |
+| [視訊名稱](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | 內容的顯示名稱。 啟用[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 視訊名稱]**&#x200B;選項按鈕。 |
 
 +++
 
