@@ -24,7 +24,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3b6264a1e159632e5a3246554c055488cfc6b39b
+source-git-commit: 632179a04d3fa05943ff1cc15c3670e7a81b3ea2
 workflow-type: tm+mt
 source-wordcount: 5863
 ht-degree: 93%
@@ -485,7 +485,7 @@ ht-degree: 93%
 >abstract="當月過去13個月中每月可用的媒體開始總數，與上個月相比有百分比變更。  例如，在2024年2月1日，數字顯示從2023年1月到2024年1月的事件時間戳記可用的總媒體開始數。"
 
 >[!CONTEXTUALHELP]
->id="△△ "
+>id="connections_breakdown_monthlymediastarts"
 >title="每月媒體開始"
 >abstract="每月的媒體開始次數是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
 
