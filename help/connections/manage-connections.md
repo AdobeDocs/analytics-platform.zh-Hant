@@ -24,10 +24,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4882eaa340d1139b8f93affb645219c999d293f0
+source-git-commit: 3b6264a1e159632e5a3246554c055488cfc6b39b
 workflow-type: tm+mt
-source-wordcount: 5865
-ht-degree: 94%
+source-wordcount: 5863
+ht-degree: 93%
 
 ---
 
@@ -62,8 +62,8 @@ ht-degree: 94%
 
 **[!UICONTROL 清單]**&#x200B;介面是連線的預設介面。 如果未選取，請選取「**[!UICONTROL 清單]**」標記以存取介面。
 
-**[!UICONTROL 清單]**&#x200B;介面會顯示所有可用連線的表格。
-
+**[!UICONTROL List]**&#x200B;介面會顯示所有可用連線的表格。
+△
 ![清單檢視](assets/list-view.png)
 
 表格中有以下欄或圖示。
@@ -434,7 +434,7 @@ ht-degree: 94%
 
 
 >[!CONTEXTUALHELP]
->id="connections_extendeddatacapacitiyrows"
+>id="connections_extendeddatacapacityrows"
 >title="擴充的資料容量列"
 >abstract="在當前月份往前推 13 個月以上的時間點之可用總列數，以及相較於前一個月的變更百分比。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
 
@@ -460,7 +460,7 @@ ht-degree: 94%
 
 
 >[!CONTEXTUALHELP]
->id="connections_b2b_correportablebpp"
+>id="connections_b2b_coreportablebpp"
 >title="核心商務人員設定檔可報告列"
 >abstract="當月過去13個月可用的企業設定檔可報告列總數，與上個月相比有百分比變更。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
 
