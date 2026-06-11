@@ -24,10 +24,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 4882eaa340d1139b8f93affb645219c999d293f0
 workflow-type: tm+mt
-source-wordcount: 5351
-ht-degree: 98%
+source-wordcount: 5865
+ht-degree: 94%
 
 ---
 
@@ -300,7 +300,7 @@ ht-degree: 98%
 | **[!UICONTROL 結構描述]** | 此資料集所根據的 Experience Platform 結構描述。 |
 | **[!UICONTROL 匯入新資料]** | 資料集匯入新資料的狀態： <p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，若資料集設定為匯入新資料，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，若資料集設定為不匯入新資料。 |
 | **[!UICONTROL 轉換資料]** | 適用 B2B 查詢資料集的轉換狀態。 請參閱[轉換資料集以進行 B2B 查詢](transform-datasets-b2b-lookups.md)，了解更多資訊。<p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，表示已啟用進行轉換的適用資料集， <p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，表示未啟用進行轉換的適用資料集，以及<p>**[!UICONTROL N/A]** 於所有其他資料集，不適用於轉換。 |
-| **[!UICONTROL 回填資料]** | 資料集的回填資料狀態。<p>![紅色狀態](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**，表示回填失敗次數，<p>![紅色狀態](assets/status-orange.svg)   **[!UICONTROL _x _回填處理]**，表示處理回填的數量，<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _十&#x200B;_回填完成]**，表示回填已完成的數量，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _關閉_]**，若未設定為回填。 |
+| **[!UICONTROL 回填資料]** | 資料集的回填資料狀態。<p>![紅色狀態](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**，表示回填失敗次數，<p>![紅色狀態](assets/status-orange.svg)   **[!UICONTROL _x _回填處理]**，表示處理回填的數量，<p>![狀態綠色](assets/status-green.svg)   **[!UICONTROL _x _回填完成]**，表示回填已完成的數量，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _關閉_]**，若未設定為回填。 |
 
 >[!IMPORTANT]
 >
@@ -433,6 +433,63 @@ ht-degree: 98%
 >abstract="累計可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
 
 
+>[!CONTEXTUALHELP]
+>id="connections_extendeddatacapacitiyrows"
+>title="擴充的資料容量列"
+>abstract="在當前月份往前推 13 個月以上的時間點之可用總列數，以及相較於前一個月的變更百分比。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_extendeddatacapacityrows"
+>title="擴充的資料容量列"
+>abstract="擴充資料容量列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+
+>[!CONTEXTUALHELP]
+>id="connections_aca_corereportablerows"
+>title="Content Analytics核心可報告列"
+>abstract="本月，過去13個月內可用的Content Analytics特定列總數，與上個月相比有百分比變更。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
+
+>[!CONTEXTUALHELP]
+>id="connections_usage_aca_monthlyreportablerows"
+>title="每月Content Analytics列"
+>abstract="追蹤可用於報表的Content Analytics列數。 可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。 可報告列數是計費和資料使用情況的關鍵量度。"
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_aca_corereportablerows"
+>title="Content Analytics核心可報告列"
+>abstract="Content Analytics核心可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+
+
+>[!CONTEXTUALHELP]
+>id="connections_b2b_correportablebpp"
+>title="核心商務人員設定檔可報告列"
+>abstract="當月過去13個月可用的企業設定檔可報告列總數，與上個月相比有百分比變更。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
+
+>[!CONTEXTUALHELP]
+>id="connections_b2b_historicalreportablebpp"
+>title="歷史業務設定檔可報告列"
+>abstract="當月超過13個月期間可用的企業設定檔可報告列總數，與上個月相比有百分比變更。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_b2b_corereportablebpp"
+>title="核心企業設定檔可報告列"
+>abstract="核心企業設定檔可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_b2b_historicalreportablebpp"
+>title="歷史業務設定檔可報告列"
+>abstract="歷史業務設定檔可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+
+>[!CONTEXTUALHELP]
+>id="connections_monthlymediastarts"
+>title="每月媒體開始"
+>abstract="當月過去13個月中每月可用的媒體開始總數，與上個月相比有百分比變更。  例如，在2024年2月1日，數字顯示從2023年1月到2024年1月的事件時間戳記可用的總媒體開始數。"
+
+>[!CONTEXTUALHELP]
+>id="△△ "
+>title="每月媒體開始"
+>abstract="每月的媒體開始次數是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+
+
 [!UICONTROL 使用情況]介面是顯示所有連線中攝取和可報告的行的使用情況。 如果未選取，請選取「**[!UICONTROL 使用情況]**」標記以存取介面。
 
 此介面可幫助您確定 Customer Journey Analytics 使用情況是否與合約的協議相符。 除了監控目的之外，您還可以使用「使用情況」介面來規劃 Customer Journey Analytics 許可證續約。
@@ -520,6 +577,6 @@ ht-degree: 98%
 
 >[!MORELIKETHIS]
 >
->[檢視、疑難排解和修改連線設定](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja)教學課程。
->[管理您的 Customer Journey Analytics 使用情況](/help/technotes/estimate-usage.md)
+>[檢視、疑難排解及修改連線設定](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja)教學課程。
+>[管理您的Customer Journey Analytics使用量](/help/technotes/estimate-usage.md)
 >
