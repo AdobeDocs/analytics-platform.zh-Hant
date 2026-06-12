@@ -24,10 +24,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 632179a04d3fa05943ff1cc15c3670e7a81b3ea2
+source-git-commit: ffa7a6d6502dc687b5bbd0aafe4b7e7ec82313fe
 workflow-type: tm+mt
-source-wordcount: 5863
-ht-degree: 93%
+source-wordcount: 5831
+ht-degree: 92%
 
 ---
 
@@ -420,17 +420,17 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_corereportablerows"
 >title="核心可報告列數"
->abstract="核心可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+>abstract="核心可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_historicalreportablerows"
 >title="歷史可報告列數"
->abstract="歷史可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+>abstract="歷史可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_cumulativereportablerows"
 >title="累計可報告列數"
->abstract="累計可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+>abstract="累計可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
 
 
 >[!CONTEXTUALHELP]
@@ -441,7 +441,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_extendeddatacapacityrows"
 >title="擴充的資料容量列"
->abstract="擴充資料容量列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+>abstract="擴充資料容量列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_aca_corereportablerows"
@@ -456,7 +456,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_corereportablerows"
 >title="Content Analytics核心可報告列"
->abstract="Content Analytics核心可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+>abstract="Content Analytics核心可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
 
 
 >[!CONTEXTUALHELP]
@@ -472,12 +472,12 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_corereportablebpp"
 >title="核心企業設定檔可報告列"
->abstract="核心企業設定檔可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+>abstract="核心企業設定檔可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_historicalreportablebpp"
 >title="歷史業務設定檔可報告列"
->abstract="歷史業務設定檔可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+>abstract="歷史業務設定檔可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_monthlymediastarts"
@@ -487,7 +487,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_monthlymediastarts"
 >title="每月媒體開始"
->abstract="每月的媒體開始次數是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 如果客戶選取 1 月至 3 月，則此值會反映 3 月的快照。"
+>abstract="每月的媒體開始次數是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
 
 
 [!UICONTROL 使用情況]介面是顯示所有連線中攝取和可報告的行的使用情況。 如果未選取，請選取「**[!UICONTROL 使用情況]**」標記以存取介面。
