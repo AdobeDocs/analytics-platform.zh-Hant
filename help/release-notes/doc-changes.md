@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 50c7bb7b18b45b5ffac0eebacca2bb0d2ed0c28d
 workflow-type: tm+mt
-source-wordcount: 6915
+source-wordcount: 6944
 ht-degree: 94%
 
 ---
@@ -49,6 +49,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 
 | 功能 | 說明 |
 |---|---|
+| **2026年6月** | |
+| 全新GA4指南 | 新增從Google Analytics 4轉換到Customer Journey Analytics[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)的。 |
 | **2026年5月** | |
 | 適用於Content Analytics的Javascript資料庫 | 有關如何使用[Content Analytics Javascript資料庫](/help/content-analytics/config/tags-agnostic.md)為網路頻道實作Content Analytics而不需要Experience Platform資料收集標籤的檔案。 |
 | Data Mirror考量事項 | [說明檔案](/help/data-mirror/considerations.md)，說明設定[Data Mirror資料集](/help/data-mirror/data-mirror.md)時應考量的因素。 |
@@ -215,7 +217,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2023 年 10 月** | |
 | 使用衍生欄位來設定目標 | 新增[使用案例](/help/use-cases/data-views/derived-fields/goals-using-derived-fields.md)文章，說明如何使用衍生欄位來設定目標並加以報告。 |
 | 將完整表格匯出至雲端 | 新增有關將包含數百萬 Workspace 列的完整表格匯出到雲端目標的文件。 <p>匯出完整表格可提供在 Workspace 中設計之資料表格的一次性或排程傳送，最多可支援五個劃分、五個量度、區段和計算量度，且全部都可以在串連表格中完成。 這是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多經常要求且目前在 Data Warehouse 中尚未提供的新功能。</p><p>如需更多資訊，請參閱[將 Customer Journey Analytics 報告匯出至雲端](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html?lang=zh-Hant)。 |
-| 報告活動管理器 | 新增報告活動管理器的文件。 <p>報告活動管理器可讓您查看組織中每個連線的報告容量。 它為管理員提供報告使用量的詳細可見度，以便在尖峰報告期間輕鬆診斷和修正產能問題。</p> <p>已新增下列新文章：<ul><li>[報告活動管理器概觀](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[在報告活動管理器中檢視報告活動](/help/reporting-activity-manager/reporting-activity.md)</li><li>[在報告活動管理器中取消請求](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
+| 報告活動管理器 | 新增報告活動管理器的文件。 <p>報告活動管理器可讓您查看組織中每個連線的報告容量。 它為管理員提供報告使用量的詳細可見度，以便在尖峰報告時段輕鬆診斷和修正容量問題。</p> <p>已新增下列新文章：<ul><li>[報告活動管理器概觀](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[在報告活動管理器中檢視報告活動](/help/reporting-activity-manager/reporting-activity.md)</li><li>[在報告活動管理器中取消請求](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
 | 在管理頁面上新增欄 | 記錄現在可在[計算量度管理員](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html?lang=zh-Hant)和[區段管理員](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html?lang=zh-Hant)中使用的新欄位。 |
 | 與 Adobe Analytics 比較 | 新增[概觀頁面](../getting-started/aa-vs-cja/overview.md)作為比較和理解 Customer Journey Analytics 和 Adobe Analytics 之間差異的簡介。 |
 | 其他衍生欄位功能 | 更新有關新 [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) 函數的文件。 |
