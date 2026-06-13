@@ -5,26 +5,25 @@ exl-id: 10c485c9-66ab-4925-a357-a66a374d4c6f
 feature: Use Cases
 role: Admin
 TQID: https://experienceleague.adobe.com/C9rt1pyuM6ykLUlXCHc0ITwGeGcuLw6qisXnJxwX4uU
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 046df00868ca4a5b3bab3eb36cca7d91b141333a
 workflow-type: tm+mt
-source-wordcount: 303
-ht-degree: 79%
+source-wordcount: 342
+ht-degree: 70%
 
 ---
 
 # 從 Google Analytics 移轉資料
+
+>[!BEGINSHADEBOX]
+
+本指南說明管理員的資料移轉。 如果您是想要在Customer Journey Analytics中尋找GA4報表的分析師，請參閱[從Google Analytics 4轉變為Customer Journey Analytics](/help/getting-started/ga-to-cja/home.md)和[Customer Journey Analytics中的GA4報表](/help/getting-started/ga-to-cja/reports.md)。
+
+>[!ENDSHADEBOX]
 
 如果您第一次使用 Customer Journey Analytics，貴組織可能在另一個 Analytics 平台已經有既存的資料，例如 Google Analytics 等。 您可以依照這些包羅萬象的步驟，將資料移轉到 Adobe Experience Platform，讓您在 Customer Journey Analytics 檢視報告。
 
@@ -32,7 +31,7 @@ ht-degree: 79%
 
 ## 從 Google Analytics 將歷史資料帶入 Adobe Experience Platform
 
-擷取歷史 (回填) 資料涉及將資料從 Google 匯出，並將資料匯入 Adobe Experience Platform。 請參閱[將 Google Analytics 資料擷取至 Adobe Experience Platform &#x200B;](backfill.md)。
+擷取歷史 (回填) 資料涉及將資料從 Google 匯出，並將資料匯入 Adobe Experience Platform。 請參閱[將 Google Analytics 資料擷取至 Adobe Experience Platform ](backfill.md)。
 
 成功將歷史資料帶入Platform後，您可以[設定串流最新的資料](streaming.md)，或透過[建立連線](/help/connections/create-connection.md)立即開始報告Customer Journey Analytics中的回填資料。
 

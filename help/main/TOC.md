@@ -2,10 +2,10 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 0fd598843588818965d0e0cb80a9e653271efa8a
+source-git-commit: 2125f1a16ffed79f77757120c5679dd4defa1638
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 95%
+source-wordcount: '1449'
+ht-degree: 94%
 
 ---
 
@@ -104,6 +104,11 @@ ht-degree: 95%
       + [分析身分識別](../getting-started/aa-vs-cja/aaid-ecid-adc.md)
    + [從 Adobe Analytics 發展而來](../getting-started/aa-to-cja.md)
    + [Adobe Analytics 使用者的使用手冊](../getting-started/aa-to-cja-user.md)
+   + 從Google Analytics 4轉換 {#ga-to-cja}
+      + [概觀](/help/getting-started/ga-to-cja/home.md)
+      + [資料模型](/help/getting-started/ga-to-cja/data-model.md)
+      + [報表等值](/help/getting-started/ga-to-cja/reports.md)
+      + [資料差異](/help/getting-started/ga-to-cja/compare-data.md)
 
 + 資料攝取 {#cja-data-ingestion}
    + [概觀](../data-ingestion/data-ingestion.md)
