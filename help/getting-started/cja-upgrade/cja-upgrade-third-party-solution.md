@@ -19,10 +19,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 046df00868ca4a5b3bab3eb36cca7d91b141333a
 workflow-type: tm+mt
-source-wordcount: 261
-ht-degree: 100%
+source-wordcount: 293
+ht-degree: 89%
 
 ---
 
@@ -57,4 +57,6 @@ ht-degree: 100%
 
 
 如果您需要更具體的建議、指引或支援，請聯絡您的 Adobe 代表。
+
+如果您是特別來自Google Analytics 4，請參閱[從Google Analytics 4轉換到Customer Journey Analytics](../ga-to-cja/home.md)，以取得報告等同專案、資料模型差異和量度比較的分析人員導向指南。
 

@@ -21,16 +21,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 046df00868ca4a5b3bab3eb36cca7d91b141333a
 workflow-type: tm+mt
-source-wordcount: 685
-ht-degree: 85%
+source-wordcount: 704
+ht-degree: 83%
 
 ---
 
 # 報告 Google Analytics 資料
 
-在您可以使用 Customer Journey Analytics 中的資料後，以下範例提供關於該資料報告的一些實用情境。
+在您可以使用 Customer Journey Analytics 中的資料後，以下範例提供關於該資料報告的一些實用情境。 如需Customer Journey Analytics中GA4報表同等項的完整查閱，請參閱Customer Journey Analytics中的[GA4報表](/help/getting-started/ga-to-cja/reports.md)。
 
 ## 以視覺化方式將網頁資料和應用程式資料呈現為合併的資料集
 

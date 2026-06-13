@@ -17,14 +17,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 046df00868ca4a5b3bab3eb36cca7d91b141333a
 workflow-type: tm+mt
-source-wordcount: 303
-ht-degree: 79%
+source-wordcount: 342
+ht-degree: 70%
 
 ---
 
 # 從 Google Analytics 移轉資料
+
+>[!BEGINSHADEBOX]
+
+本指南說明管理員的資料移轉。 如果您是想要在Customer Journey Analytics中尋找GA4報表的分析師，請參閱[從Google Analytics 4轉變為Customer Journey Analytics](/help/getting-started/ga-to-cja/home.md)和[Customer Journey Analytics中的GA4報表](/help/getting-started/ga-to-cja/reports.md)。
+
+>[!ENDSHADEBOX]
 
 如果您第一次使用 Customer Journey Analytics，貴組織可能在另一個 Analytics 平台已經有既存的資料，例如 Google Analytics 等。 您可以依照這些包羅萬象的步驟，將資料移轉到 Adobe Experience Platform，讓您在 Customer Journey Analytics 檢視報告。
 
