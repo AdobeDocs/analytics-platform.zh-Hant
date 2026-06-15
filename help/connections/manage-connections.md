@@ -24,9 +24,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ffa7a6d6502dc687b5bbd0aafe4b7e7ec82313fe
+source-git-commit: 4d42c345b98683ef7d4b802262bd7f0f24b45692
 workflow-type: tm+mt
-source-wordcount: 5831
+source-wordcount: 5868
 ht-degree: 92%
 
 ---
@@ -488,6 +488,13 @@ ht-degree: 92%
 >id="connections_breakdown_monthlymediastarts"
 >title="每月媒體開始"
 >abstract="每月的媒體開始次數是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+
+
+>[!CONTEXTUALHELP]
+>id="connections_breakdown_aca_monthlyreportablerows"
+>title="每月Content Analytics列"
+>abstract="每月Content Analytics列都是快照值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+
 
 
 [!UICONTROL 使用情況]介面是顯示所有連線中攝取和可報告的行的使用情況。 如果未選取，請選取「**[!UICONTROL 使用情況]**」標記以存取介面。
