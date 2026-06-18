@@ -7,26 +7,15 @@ role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
 TQID: https://experienceleague.adobe.com/pXiDvk--5tAJYGj8lfq7KQfVLQqVOePbBZqCXT10rZ0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9c87ce4fb30c7d1d66ce88174443369ef44a7377
 workflow-type: tm+mt
-source-wordcount: 1485
-ht-degree: 2%
+source-wordcount: 1545
+ht-degree: 3%
 
 ---
 
@@ -88,13 +77,16 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
   >Customer Journey Analytics B2B edition中以帳戶為基礎設定的B2B事件資料，可能包含不含個人或工作階段的資料列。 例如：詳細說明商機階段進展的資料列。 評估區段時，請記住，人員和工作階段可能不再是正確的標準。
   >
 
-* **歸因**：您可以在[歸因面板](/help/analysis-workspace/c-panels/attribution.md)、[歸因元件設定](/help/data-views/component-settings/attribution.md)、[計算量度](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)或自由表格[&#128279;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的欄中使用新的B2B容器。 帳戶回顧期間延長至13個月。
+* **歸因**：您可以在[歸因面板](/help/analysis-workspace/c-panels/attribution.md)、[歸因元件設定](/help/data-views/component-settings/attribution.md)、[計算量度](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)或自由表格](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的[欄中使用新的B2B容器。 帳戶回顧期間延長至13個月。
 
-* **視覺效果**： [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)、[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)、[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)和[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)視覺效果支援新的B2B容器。 例如：您可以使用新的容器來瞭解購買群組如何耗用內容，或機會同類群組如何接近銷售結尾。
+* **視覺效果**： [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)、[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)、[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)和[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)視覺效果支援新的B2B容器。例如：您可以使用新的容器來瞭解購買群組如何耗用內容，或機會同類群組如何接近銷售結尾。
 您也可以在[使用者偏好設定](/help/analysis-workspace/user-preferences.md#visualizations-preferences)中設定這些視覺效果的預設容器。
 
 區段、歸因和視覺效果以及B2B容器可支援您進行深入的B2B分析和深入分析。
 
+## 結構描述
+
+Customer Journey Analytics B2B編輯器使用[Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)將B2B資料標準化，並為您的B2B資料定義結構描述。 您可以根據Real-time CDP B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中提供的[標準類別來建立結構描述，也可以使用您自己的自訂類別和結構描述。 [使用案例](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)文章使用Real-time CDP B2B edition類別和結構描述，但是使用Real-time CDP B2B edition類別和結構描述不需要Real-time CDP授權。
 
 ## 資料集
 
@@ -103,7 +95,7 @@ Customer Journey Analytics B2B會區分下列資料型別和資料集。
 | 資料類型 | 時間序列 | 容器記錄 | 欄位記錄 |
 |---|---|---|---|
 | **資料集** | **事件資料集**<br/>&#x200B;例如：<ul><li>數位分析</li><li>CRM事件</li><li>面對面活動</li><li>呼叫中心資料</li></ul> | **設定檔資料集**<br/>&#x200B;例如：<ul><li>CRM記錄</li><li>AJO B2B記錄</li><li>CDP記錄</li><ul> | **類別**<br/>&#x200B;例如：<ul><li>行銷活動記錄</li><li>行銷清單記錄</li><li>內容中繼資料</li><li>產品記錄</li></ul> |
-| 需求 | **時間戳記**<br>&#x200B;每個記錄都需要：<ul><li>帳戶 ID</li><li>全域帳戶ID （選擇性）</li></ul> | **帳戶ID**<br>&#x200B;記錄需要容器ID，例如：<ul><li>帳戶</li><li>人員</li><li>機會</li><li>購買群組</li></ul> | **相符的索引鍵**<br>&#x200B;記錄需要包含在容器或事件資料集中的識別碼，例如：<ul><li>促銷活動 ID</li><li>內容 ID</li><li>產品 ID</li></ul> |
+| 需求 | **時間戳記**<br>&#x200B;每個記錄都需要：<ul><li>帳戶 ID</li><li>全域帳戶ID （選擇性）</li></ul> | **帳戶ID**<br>&#x200B;記錄需要容器ID，例如：<ul><li>帳戶</li><li>個人</li><li>機會</li><li>購買群組</li></ul> | **相符的索引鍵**<br>&#x200B;記錄需要包含在容器或事件資料集中的識別碼，例如：<ul><li>行銷活動 ID</li><li>內容 ID</li><li>產品 ID</li></ul> |
 
 {style="table-layout:fixed"}
 
