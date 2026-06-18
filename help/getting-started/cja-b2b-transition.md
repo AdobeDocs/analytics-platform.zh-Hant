@@ -64,7 +64,7 @@ ht-degree: 3%
 
 若要在現有實作中實作B2B功能，您必須依照下列步驟操作：
 
-1. 為您的B2B資料建立模型。 您可以使用[Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)來標準化B2B資料，並為您的B2B資料定義結構描述。<br/>您可以讓結構描述以Real-time CDP B2B edition[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中提供的標準類別為基礎，或使用您自己的自訂類別和結構描述。 [使用案例](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)文章使用Real-time CDP B2B edition類別和結構描述，但是使用Real-time CDP B2B edition類別和結構描述不需要Real-time CDP授權。 <br/>Customer Journey Analytics B2B edition至少會假設帳戶型時間序列事件資料，且受益於其他設定檔或查詢記錄資料。 例如帳戶資料、購買群組資料、機會資料、行銷清單成員資料等。
+1. 為您的B2B資料建立模型。 您可以使用[Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)來標準化B2B資料，並為您的B2B資料定義結構描述。<br/>您可以讓結構描述以Real-time CDP B2B edition[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中提供的標準類別為基礎，或使用您自己的自訂類別和結構描述。 [使用案例](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)文章使用Real-time CDP B2B edition類別和結構描述，但是使用Real-time CDP B2B edition類別和結構描述不需要Real-time CDP授權。 <br/>Customer Journey Analytics B2B edition至少會假設帳戶型時間序列事件資料，且受益於其他設定檔或查詢記錄資料。 例如帳戶資料、購買群組資料、機會資料、行銷清單成員資料等。
 
    * 定義您要用來作為主要帳戶識別碼的識別碼（帳戶ID）。 通常，現有的CRM或其他工具（例如：Demandbase）可協助您判斷該識別碼。
    * 識別您計畫使用的其他B2B資料的其他識別碼：全域帳戶識別碼、商機識別碼、購買群組識別碼和個人識別碼。

@@ -97,7 +97,7 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
 
 ## 結構描述
 
-Customer Journey Analytics B2B編輯器使用[Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)將B2B資料標準化，並為您的B2B資料定義結構描述。 您可以根據Real-time CDP B2B edition[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中提供的標準類別來建立結構描述，也可以使用您自己的自訂類別和結構描述。 [使用案例](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)文章使用Real-time CDP B2B edition類別和結構描述，但是使用Real-time CDP B2B edition類別和結構描述不需要Real-time CDP授權。
+Customer Journey Analytics B2B編輯器使用[Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)將B2B資料標準化，並為您的B2B資料定義結構描述。 您可以根據Real-time CDP B2B edition[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中提供的標準類別來建立結構描述，也可以使用您自己的自訂類別和結構描述。 [使用案例](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)文章使用Real-time CDP B2B edition類別和結構描述，但是使用Real-time CDP B2B edition類別和結構描述不需要Real-time CDP授權。
 
 ## 資料集
 
