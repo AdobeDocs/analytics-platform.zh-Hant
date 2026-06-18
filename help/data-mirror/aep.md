@@ -4,7 +4,6 @@ description: 瞭解如何為Customer Journey Analytics的Experience Platform Dat
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
 autotag-review: '2026-05-19T07:18:47.007Z'
 TQID: 'https://experienceleague.adobe.com/nAfDMtaQvsVRAEm31fRwleirW8LaS-yS0tGTdReux0Y'
@@ -21,16 +20,14 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 571
 ht-degree: 6%
 
 ---
 
 # 設定Experience Platform
-
-{{release-limited-testing}}
 
 適用於Customer Journey Analytics的Experience Platform Data Mirror需要正確設定數個Experience Platform元件：
 
@@ -107,6 +104,6 @@ ht-degree: 6%
 
 >[!MORELIKETHIS]
 >
->[Data Mirror快速入門手冊：映象及使用關聯式資料](relational.md)
+>[Data Mirror快速入門手冊：映象並使用關聯式資料](relational.md)
 >[Data Mirror （Experience Platform檔案）](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview)
 >[關聯式結構描述（Experience Platform檔案）](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)

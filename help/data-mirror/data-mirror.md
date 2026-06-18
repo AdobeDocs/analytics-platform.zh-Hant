@@ -4,7 +4,6 @@ description: 瞭解如何在Data Warehouse原生解決方案和Customer Journey 
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-badgePremium: label="Beta"
 exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
 autotag-review: '2026-05-19T08:55:53.979Z'
 TQID: 'https://experienceleague.adobe.com/10YCh2cnMTVriKKVOyYfzFfngvGQ2VVHOxzedE5NpWA'
@@ -26,16 +25,14 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b4547b6c48adb97f6749ef54147f369632c44fa9
+source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: 455
 ht-degree: 3%
 
 ---
 
 # Experience Platform Data Mirror概觀
-
-{{release-limited-testing}}
 
 Data Mirror是Experience Platform的一項功能，可讓您使用關聯式結構描述，將外部資料庫的列層級變更擷取到Data Lake。 它保留資料關係、強制執行唯一性，並支援版本化，而不需要上游擷取、轉換和載入(ETL)程式。
 
@@ -59,7 +56,7 @@ Data Mirror提供下列資料庫同步處理的基本功能：
 
 >[!NOTE]
 >
->Data Mirror是目前在Beta版中的功能，可支援使用變更資料擷取(CDC)同步處理特定資料倉儲的資料，以便在Customer Journey Analytics中進行分析。<br/>此功能將於2026年6月18日正式提供給Customer Journey Analytics。 請參閱適用的產品說明，瞭解其如何影響未來的年度擷取限制耗用量。 請注意，當Data Mirror從Beta版過渡到全面推出時，您的組織仍能存取此功能。
+>Data Mirror是一項功能，可支援使用變更資料擷取(CDC)同步處理特定資料倉儲的資料，以便在Customer Journey Analytics中進行分析。<br/>請參閱適用的產品說明，瞭解此功能如何影響年度擷取限制耗用量。
 >
 
 >[!IMPORTANT]
