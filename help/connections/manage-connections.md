@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 4d42c345b98683ef7d4b802262bd7f0f24b45692
 workflow-type: tm+mt
 source-wordcount: 5868
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -420,80 +420,80 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_corereportablerows"
 >title="核心可報告列數"
->abstract="核心可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>abstract="核心可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_historicalreportablerows"
 >title="歷史可報告列數"
->abstract="歷史可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>abstract="歷史可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_cumulativereportablerows"
 >title="累計可報告列數"
->abstract="累計可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>abstract="累計可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 
 >[!CONTEXTUALHELP]
 >id="connections_extendeddatacapacityrows"
->title="擴充的資料容量列"
+>title="延伸的資料容量列數"
 >abstract="在當前月份往前推 13 個月以上的時間點之可用總列數，以及相較於前一個月的變更百分比。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_extendeddatacapacityrows"
->title="擴充的資料容量列"
->abstract="擴充資料容量列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="延伸的資料容量列數"
+>abstract="延伸的資料容量列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_aca_corereportablerows"
->title="Content Analytics核心可報告列"
->abstract="本月，過去13個月內可用的Content Analytics特定列總數，與上個月相比有百分比變更。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
+>title="Content Analytics 核心可報告列數"
+>abstract="在當前月份往前推 13 個月內可用的 Content Analytics 特定列總數，以及相較於前一個月的變更百分比。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
 
 >[!CONTEXTUALHELP]
 >id="connections_usage_aca_monthlyreportablerows"
->title="每月Content Analytics列"
->abstract="追蹤可用於報表的Content Analytics列數。 可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。 可報告列數是計費和資料使用情況的關鍵量度。"
+>title="每月 Content Analytics 列數"
+>abstract="追蹤可供報告的 Content Analytics 列數。 可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。 可報告列數是計費和資料使用情況的關鍵量度。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_corereportablerows"
->title="Content Analytics核心可報告列"
->abstract="Content Analytics核心可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="Content Analytics 核心可報告列數"
+>abstract="Content Analytics 核心可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 
 >[!CONTEXTUALHELP]
 >id="connections_b2b_coreportablebpp"
->title="核心商務人員設定檔可報告列"
->abstract="當月過去13個月可用的企業設定檔可報告列總數，與上個月相比有百分比變更。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
+>title="核心業務人員輪廓可報告列數"
+>abstract="在當前月份往前推 13 個月內可用的業務輪廓可報告列總數，以及相較於前一個月的變更百分比。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
 
 >[!CONTEXTUALHELP]
 >id="connections_b2b_historicalreportablebpp"
->title="歷史業務設定檔可報告列"
->abstract="當月超過13個月期間可用的企業設定檔可報告列總數，與上個月相比有百分比變更。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
+>title="歷史業務輪廓可報告列數"
+>abstract="在當前月份往前推 13 個月以上之時段可用的業務輪廓可報告列總數，以及相較於前一個月的變更百分比。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_corereportablebpp"
->title="核心企業設定檔可報告列"
->abstract="核心企業設定檔可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="核心業務輪廓可報告列數"
+>abstract="核心業務輪廓可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_historicalreportablebpp"
->title="歷史業務設定檔可報告列"
->abstract="歷史業務設定檔可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="歷史業務輪廓可報告列數"
+>abstract="歷史業務輪廓可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_monthlymediastarts"
->title="每月媒體開始"
->abstract="當月過去13個月中每月可用的媒體開始總數，與上個月相比有百分比變更。  例如，在2024年2月1日，數字顯示從2023年1月到2024年1月的事件時間戳記可用的總媒體開始數。"
+>title="每月媒體開始次數"
+>abstract="在當前月份往前推 13 個月內可用的每月媒體開始總次數，以及相較於前一個月的變更百分比。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用媒體開始總次數。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_monthlymediastarts"
->title="每月媒體開始"
->abstract="每月的媒體開始次數是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="每月媒體開始次數"
+>abstract="每月媒體開始次數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_monthlyreportablerows"
->title="每月Content Analytics列"
->abstract="每月Content Analytics列都是快照值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="每月 Content Analytics 列數"
+>abstract="每月 Content Analytics 列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 
 
