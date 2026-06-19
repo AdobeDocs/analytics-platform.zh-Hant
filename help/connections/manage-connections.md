@@ -8,26 +8,15 @@ feature: Connections
 role: Admin
 autotag-review: '2026-05-19T08:50:02.853Z'
 TQID: 'https://experienceleague.adobe.com/iJ5jp3wtWSrJzCnJqIceIHwwLideF-U2puXvit5GFac'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 4d42c345b98683ef7d4b802262bd7f0f24b45692
 workflow-type: tm+mt
 source-wordcount: 5868
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -62,7 +51,7 @@ ht-degree: 92%
 
 **[!UICONTROL 清單]**&#x200B;介面是連線的預設介面。 如果未選取，請選取「**[!UICONTROL 清單]**」標記以存取介面。
 
-**[!UICONTROL List]**&#x200B;介面會顯示所有可用連線的表格。
+**[!UICONTROL List]**介面會顯示所有可用連線的表格。
 △
 ![清單檢視](assets/list-view.png)
 
@@ -337,8 +326,8 @@ ht-degree: 92%
 
 | 詳細資料 | 說明 |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID &#x200B;]** | 您指定為連線之全域帳戶 ID 的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID &#x200B;]** | 您指定為連線之帳戶 ID 的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID ]** | 您指定為連線之全域帳戶 ID 的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID ]** | 您指定為連線之帳戶 ID 的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
 | **[!UICONTROL 個人 ID]** | 您指定為連線之個人 ID 的身分識別。 |
 | **[!UICONTROL 索引鍵]** | 您為查詢資料集指定的索引鍵。 |
 | **[!UICONTROL 比對索引鍵]** | 您為查詢資料集指定的比對索引鍵。 |
@@ -420,80 +409,80 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_corereportablerows"
 >title="核心可報告列數"
->abstract="核心可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>abstract="核心可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_historicalreportablerows"
 >title="歷史可報告列數"
->abstract="歷史可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>abstract="歷史可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_cumulativereportablerows"
 >title="累計可報告列數"
->abstract="累計可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>abstract="累計可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 
 >[!CONTEXTUALHELP]
 >id="connections_extendeddatacapacityrows"
->title="擴充的資料容量列"
+>title="延伸的資料容量列數"
 >abstract="在當前月份往前推 13 個月以上的時間點之可用總列數，以及相較於前一個月的變更百分比。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_extendeddatacapacityrows"
->title="擴充的資料容量列"
->abstract="擴充資料容量列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="延伸的資料容量列數"
+>abstract="延伸的資料容量列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_aca_corereportablerows"
->title="Content Analytics核心可報告列"
->abstract="本月，過去13個月內可用的Content Analytics特定列總數，與上個月相比有百分比變更。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
+>title="Content Analytics 核心可報告列數"
+>abstract="在當前月份往前推 13 個月內可用的 Content Analytics 特定列總數，以及相較於前一個月的變更百分比。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
 
 >[!CONTEXTUALHELP]
 >id="connections_usage_aca_monthlyreportablerows"
->title="每月Content Analytics列"
->abstract="追蹤可用於報表的Content Analytics列數。 可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。 可報告列數是計費和資料使用情況的關鍵量度。"
+>title="每月 Content Analytics 列數"
+>abstract="追蹤可供報告的 Content Analytics 列數。 可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。 可報告列數是計費和資料使用情況的關鍵量度。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_corereportablerows"
->title="Content Analytics核心可報告列"
->abstract="Content Analytics核心可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="Content Analytics 核心可報告列數"
+>abstract="Content Analytics 核心可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 
 >[!CONTEXTUALHELP]
 >id="connections_b2b_coreportablebpp"
->title="核心商務人員設定檔可報告列"
->abstract="當月過去13個月可用的企業設定檔可報告列總數，與上個月相比有百分比變更。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
+>title="核心業務人員輪廓可報告列數"
+>abstract="在當前月份往前推 13 個月內可用的業務輪廓可報告列總數，以及相較於前一個月的變更百分比。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。"
 
 >[!CONTEXTUALHELP]
 >id="connections_b2b_historicalreportablebpp"
->title="歷史業務設定檔可報告列"
->abstract="當月超過13個月期間可用的企業設定檔可報告列總數，與上個月相比有百分比變更。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
+>title="歷史業務輪廓可報告列數"
+>abstract="在當前月份往前推 13 個月以上之時段可用的業務輪廓可報告列總數，以及相較於前一個月的變更百分比。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_corereportablebpp"
->title="核心企業設定檔可報告列"
->abstract="核心企業設定檔可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="核心業務輪廓可報告列數"
+>abstract="核心業務輪廓可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_historicalreportablebpp"
->title="歷史業務設定檔可報告列"
->abstract="歷史業務設定檔可報告列是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="歷史業務輪廓可報告列數"
+>abstract="歷史業務輪廓可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 >[!CONTEXTUALHELP]
 >id="connections_monthlymediastarts"
->title="每月媒體開始"
->abstract="當月過去13個月中每月可用的媒體開始總數，與上個月相比有百分比變更。  例如，在2024年2月1日，數字顯示從2023年1月到2024年1月的事件時間戳記可用的總媒體開始數。"
+>title="每月媒體開始次數"
+>abstract="在當前月份往前推 13 個月內可用的每月媒體開始總次數，以及相較於前一個月的變更百分比。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用媒體開始總次數。"
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_monthlymediastarts"
->title="每月媒體開始"
->abstract="每月的媒體開始次數是快照值，而非彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="每月媒體開始次數"
+>abstract="每月媒體開始次數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_monthlyreportablerows"
->title="每月Content Analytics列"
->abstract="每月Content Analytics列都是快照值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 值會反映所選月份的快照。"
+>title="每月 Content Analytics 列數"
+>abstract="每月 Content Analytics 列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 
 
