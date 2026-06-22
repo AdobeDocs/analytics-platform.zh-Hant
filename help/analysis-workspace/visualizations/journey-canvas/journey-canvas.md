@@ -66,7 +66,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中的Journey Canvas視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[Journey Canvas概觀](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas)。_
+_本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中的Journey Canvas視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[Journey Canvas概觀](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas)。_
 
 >[!ENDSHADEBOX]
 
@@ -278,5 +278,5 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 >[!MORELIKETHIS]
 >
-> * [Adobe Customer Journey Analytics 歷程畫布視覺效果指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
+> * [Adobe Customer Journey Analytics 歷程畫布視覺效果指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=zh-Hant)
 
