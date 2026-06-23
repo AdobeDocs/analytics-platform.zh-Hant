@@ -25,10 +25,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: e557971b741732dae55ba56ee4a44c039a5e3d78
 workflow-type: tm+mt
-source-wordcount: 4111
-ht-degree: 64%
+source-wordcount: 4177
+ht-degree: 63%
 
 ---
 
@@ -546,6 +546,13 @@ ht-degree: 64%
 1. 啟用&#x200B;**[!UICONTROL 設定標頭覆寫]**。
 1. 輸入&#x200B;**[!UICONTROL 標頭名稱]**。 例如，`x-asset-service`。
 1. 輸入&#x200B;**[!UICONTROL 標頭值]**。 您指定的任何內容都是機密，不會顯示在使用者介面中（除非您明確選取在輸入期間公開![可見度](/help/assets/icons/Visibility.svg)值）。
+
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
+>title="無來源聯結器"
+>abstract="付費媒體需要您的廣告發佈者使用Experience Platform來源聯結器。 此沙箱中沒有可用的Google Ads或Meta Ads聯結器。 在&#x200B;**[!UICONTROL Experience Platform]** > **[!UICONTROL 來源]**&#x200B;介面中設定一或多個聯結器，並返回此步驟以繼續設定Content Analytics付費媒體。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads來源"
 
 #### 儲存 {#web-save}
 
