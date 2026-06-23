@@ -45,7 +45,7 @@ ht-degree: 39%
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
 | **Data Mirror** <br/>[Data Mirror](/help/data-mirror/data-mirror.md)是一種Experience Platform功能，可使用關聯式結構描述，從外部資料倉儲解決方案（[!DNL Snowflake]、[!DNL Azure Databricks]和[!DNL Google BigQuery]）將資料列層級的變更擷取（變更資料擷取）到Customer Journey Analytics。 它保留資料關係、強制執行唯一性，並支援版本化，而不需要上游擷取、轉換和載入(ETL)程式。 | 2026 年 3 月 25 日 | 2026年6月17日 |
-| **在AI小幫手中驗證您的資料** <br/>您可以使用AI小幫手[驗證Adobe Experience Platform資料集的資料品質](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/data-validation)。 由Agent Orchestrator支援的資料驗證功能可以對資料集執行統計和語意驗證、分析資料集欄位、識別資料品質問題，並傳回自然語言摘要，其中包含可操作的深入分析。 | | 2026年6月22日 |
+| **在AI小幫手中驗證您的資料** <br/>您可以使用AI小幫手[驗證Adobe Experience Platform資料集的資料品質](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/data-validation)。 由Agent Orchestrator支援的資料驗證功能可以對資料集執行統計和語意驗證、分析資料集欄位、識別資料品質問題，並傳回自然語言摘要，其中包含可操作的深入分析。 | | 2026年6月22日 |
 
 ### Customer Journey Analytics 中的修正
 
