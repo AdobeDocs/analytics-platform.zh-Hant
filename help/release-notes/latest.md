@@ -27,16 +27,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
+source-git-commit: 9d0d572a176bf61f2b02ba1c98f0fc4202797692
 workflow-type: tm+mt
-source-wordcount: 229
-ht-degree: 51%
+source-wordcount: 298
+ht-degree: 39%
 
 ---
 
 # 最新Customer Journey Analytics發行說明（2026年6月）
 
-**上次更新日期**：2026年6月22日
+**上次更新日期**：2026年6月23日
 
 以下發行說明涵蓋2026年6月發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。 因此，這些發行說明每月會更新好幾次。 請定期進行檢查。
 
@@ -45,6 +45,7 @@ ht-degree: 51%
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
 | **Data Mirror** <br/>[Data Mirror](/help/data-mirror/data-mirror.md)是一種Experience Platform功能，可使用關聯式結構描述，從外部資料倉儲解決方案（[!DNL Snowflake]、[!DNL Azure Databricks]和[!DNL Google BigQuery]）將資料列層級的變更擷取（變更資料擷取）到Customer Journey Analytics。 它保留資料關係、強制執行唯一性，並支援版本化，而不需要上游擷取、轉換和載入(ETL)程式。 | 2026 年 3 月 25 日 | 2026年6月17日 |
+| **在AI小幫手中驗證您的資料** <br/>您可以使用AI小幫手[驗證Adobe Experience Platform資料集的資料品質](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/data-validation)。 由Agent Orchestrator支援的資料驗證功能可以對資料集執行統計和語意驗證、分析資料集欄位、識別資料品質問題，並傳回自然語言摘要，其中包含可操作的深入分析。 | | 2026年6月22日 |
 
 ### Customer Journey Analytics 中的修正
 
