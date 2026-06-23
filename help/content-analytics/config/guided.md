@@ -552,7 +552,7 @@ ht-degree: 63%
 >id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
 >title="無來源聯結器"
 >abstract="付費媒體需要您的廣告發佈者使用Experience Platform來源聯結器。 此沙箱中沒有可用的Google Ads或Meta Ads聯結器。 在&#x200B;**[!UICONTROL Experience Platform]** > **[!UICONTROL 來源]**&#x200B;介面中設定一或多個聯結器，並返回此步驟以繼續設定Content Analytics付費媒體。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads來源"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads來源"
 
 #### 儲存 {#web-save}
 
