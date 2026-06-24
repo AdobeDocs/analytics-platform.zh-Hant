@@ -299,7 +299,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 2022 年 10 月 | 新增有關 [Customer Journey Analytics 稽核記錄](/help/privacy/audit-log.md)的主題。 |
 | 2022 年 10 月 | 新主題：[關鍵量度摘要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=zh-Hant)視覺化。 |
 | 2022 年 10 月 | 新章節：[資料檢視中的日期和日期-時間功能](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#date) |
-| 2022 年 10 月 | 行動應用程式：新主題：[自訂詳細檢視](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#view-detail-slides)。 |
+| 2022 年 10 月 | 行動應用程式：新主題：[自訂詳細檢視](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant#view-detail-slides)。 |
 | 2022 年 10 月 | [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)主題的更新。 |
 | **2022 年 9 月** | |
 | 2022 年 9 月 | 新增有關[將 Google Analytics 資料移轉到 Customer Journey Analytics](/help/use-cases/third-party/ga/overview.md) 的使用案例。 |
