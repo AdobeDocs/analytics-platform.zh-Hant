@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e557971b741732dae55ba56ee4a44c039a5e3d78
+source-git-commit: 6af3e9063dc192814c888e786ca61ff1703aedf5
 workflow-type: tm+mt
 source-wordcount: 4177
 ht-degree: 63%
@@ -554,7 +554,7 @@ ht-degree: 63%
 >abstract="付費媒體需要您的廣告發佈者使用Experience Platform來源聯結器。 此沙箱中沒有可用的Google Ads或Meta Ads聯結器。 在&#x200B;**[!UICONTROL Experience Platform]** > **[!UICONTROL 來源]**&#x200B;介面中設定一或多個聯結器，並返回此步驟以繼續設定Content Analytics付費媒體。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads來源"
 
-#### 儲存 {#web-save}
+##### 儲存 {#web-save}
 
 指定網頁頻道的詳細資料後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存設定。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消設定。
 
