@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 8c577ff8508f15944ced77aaf20b692c911fdd3e
 workflow-type: tm+mt
-source-wordcount: 934
+source-wordcount: 933
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Customer Journey Analytics和Adobe Analytics中的資料摘要可讓您將原始
 | **計算量度**<br/> | 未提供 | 未提供 |
 | **持續性模型** | 彈性。 來自資料檢視的持續性設定（配置和到期日）在產生摘要時套用至報告時間。 支援資料檢視中可用的所有配置設定： **原始**、**最近**、**全部**、**最先已知**&#x200B;和&#x200B;**最後已知**。 | 只表示&#x200B;**最近（上次接觸）**&#x200B;和&#x200B;**原始值（首次接觸）**&#x200B;歸因模型。 線性配置的處理與上次接觸相同。 |
 | **輸出檔案格式** | Parquet<p>原生支援複雜的巢狀和結構化資料。 產品清單會以結構化陣列/巢狀物件來表示。 </p><p>需要Parquet感知工具才能讀取，例如BigQuery、Snowflake或Apache Spark。</p> | TSV<p>平坦、人類看得懂的列。 不原生支援結構化資料；複雜欄位（例如產品清單）必須編碼為需要自訂剖析邏輯的專有分隔字串。</p> |
-| **傳送目的地** | Amazon S3、Azure RBAC、Azure SAS、Google雲端平台、Snowflake。 | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform。 也支援&#x200B;**SFTP**。 |
+| **傳送目的地** | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform。 | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform。 也支援&#x200B;**SFTP**。 |
 
 {style="table-layout:auto"}
 

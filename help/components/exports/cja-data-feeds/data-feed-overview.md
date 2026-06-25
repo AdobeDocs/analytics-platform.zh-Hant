@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 8c577ff8508f15944ced77aaf20b692c911fdd3e
 workflow-type: tm+mt
 source-wordcount: 221
 ht-degree: 21%
@@ -36,7 +36,7 @@ ht-degree: 21%
 
 * 具有已擷取至Adobe Customer Journey Analytics <!-- For more information, see Data ingestion overview - add link -->之資料的有效實作
 * 您的帳戶是Analytics產品管理員，或屬於可存取資料摘要<!--???-->的產品設定檔
-* 在{DNL Amazon S3}、{DNL Google Cloud Platform}、{DNL Azure RBAC}或上設定的貯體 {DNL Azure SAS}
+* 在[!DNL Amazon S3]、[!DNL Google Cloud Platform]、[!DNL Azure RBAC]或[!DNL Azure SAS]上設定的貯體
 
 ## 開始使用
 
