@@ -18,7 +18,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: b31ae6194d30115f4d653addaf5efff5790e987c
+source-git-commit: 9c3546c33914feb7a00b5bb78a575dd511cabb5f
 workflow-type: tm+mt
 source-wordcount: 2675
 ht-degree: 29%
@@ -228,4 +228,5 @@ ht-degree: 29%
    | [!UICONTROL **啟用資訊清單**] | 選擇是否在每次傳送資料摘要時包含資訊清單檔案。 資訊清單檔案包含資料摘要中所包含每個檔案的資訊。 |
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+
 
