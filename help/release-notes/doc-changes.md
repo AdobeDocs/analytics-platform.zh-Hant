@@ -258,7 +258,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 智慧標題文件 | 使用台詞視覺效果[自然語言摘要](/help/analysis-workspace/visualizations/intelligent-captions.md)來增強使用者的故事講述效果。 |
 | 衍生欄位 | 已新增[衍生欄位](../data-views/derived-fields/derived-fields.md)功能的文章。 |
 | **2023 年 4 月** |  |
-| 關於使用區段做為維度的影片 | 更新關於使用區段做為維度的影片 <p>該影片連結自「[建立區段](/help/components/segments/seg-create.md)」頁面。</p> <p>以下是影片的直接連結：[在 Analysis Workspace 中使用區段做為維度](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)。</p> |
+| 關於使用區段做為維度的影片 | 更新關於使用區段做為維度的影片 <p>該影片連結自「[建立區段](/help/components/segments/seg-create.md)」頁面。</p> <p>以下是影片的直接連結：[在 Analysis Workspace 中使用區段做為維度](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html?lang=zh-Hant)。</p> |
 | 區段文件 | 新增說明如何使用[區段產生器](/help/components/segments/seg-builder.md)的文章。 <p>簡化了[建立區段](/help/components/segments/seg-create.md)和[區段概觀](/help/components/segments/seg-overview.md)文件。</p> |
 | 實驗面板文件更新 | 新增有關[解釋非隨機維度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=zh-Hant#non-randomized)的章節。 |
 | 專案區段 (臨時和快速區段) | 簡化了專案區段的文件，並刪除重複資訊。 建立臨時區段的步驟現在已經和下列步驟相結合，用於[建立快速區段](/help/components/segments/seg-quick.md)。 |
