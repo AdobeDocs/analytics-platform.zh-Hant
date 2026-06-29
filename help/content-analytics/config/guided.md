@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 6af3e9063dc192814c888e786ca61ff1703aedf5
 workflow-type: tm+mt
 source-wordcount: 4177
-ht-degree: 63%
+ht-degree: 65%
 
 ---
 
@@ -550,9 +550,9 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
->title="無來源聯結器"
->abstract="付費媒體需要您的廣告發佈者使用Experience Platform來源聯結器。 此沙箱中沒有可用的Google Ads或Meta Ads聯結器。 在&#x200B;**[!UICONTROL Experience Platform]** > **[!UICONTROL 來源]**&#x200B;介面中設定一或多個聯結器，並返回此步驟以繼續設定Content Analytics付費媒體。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads來源"
+>title="沒有來源連接器"
+>abstract="付費媒體會要求您的廣告發佈者使用 Experience Platform 來源連接器。 此沙箱中沒有可用的 Google Ads 或 Meta 廣告連接器。 請在「**[!UICONTROL Experience Platform]** > **[!UICONTROL 來源]**」介面中設定一個或多個上述連接器，並返回此步驟以繼續設定 Content Analytics 付費媒體。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads 來源"
 
 ##### 儲存 {#web-save}
 
