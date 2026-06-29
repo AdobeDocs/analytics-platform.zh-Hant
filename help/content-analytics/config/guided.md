@@ -7,28 +7,15 @@ role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 autotag-review: '2026-05-19T08:54:42.845Z'
 TQID: 'https://experienceleague.adobe.com/kEqjocKd5pNypjQlF70HeF1bKuoG9Qi-AT6nJiIwuV0'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 6af3e9063dc192814c888e786ca61ff1703aedf5
 workflow-type: tm+mt
 source-wordcount: 4177
-ht-degree: 63%
+ht-degree: 65%
 
 ---
 
@@ -319,7 +306,7 @@ ht-degree: 63%
 
 * 指示在收集Content Analytics的資料時應排除哪些資產URL。 請確定您排除了可識別個人身分的資產 URL。
 
-  指定&#x200B;**[!UICONTROL 要排除的資產URL的**&#x200B;[!UICONTROL &#x200B;規則運算式字串&#x200B;]&#x200B;**]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有參照標誌JPEG影像的資產URL。
+  指定&#x200B;**[!UICONTROL 要排除的資產URL的**[!UICONTROL &#x200B;規則運算式字串&#x200B;]**]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有參照標誌JPEG影像的資產URL。
 
 
 ##### 標頭覆寫 {#mobile-header-overrides}
@@ -550,9 +537,9 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
->title="無來源聯結器"
->abstract="付費媒體需要您的廣告發佈者使用Experience Platform來源聯結器。 此沙箱中沒有可用的Google Ads或Meta Ads聯結器。 在&#x200B;**[!UICONTROL Experience Platform]** > **[!UICONTROL 來源]**&#x200B;介面中設定一或多個聯結器，並返回此步驟以繼續設定Content Analytics付費媒體。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads來源"
+>title="沒有來源連接器"
+>abstract="付費媒體會要求您的廣告發佈者使用 Experience Platform 來源連接器。 此沙箱中沒有可用的 Google Ads 或 Meta 廣告連接器。 請在「**[!UICONTROL Experience Platform]** > **[!UICONTROL 來源]**」介面中設定一個或多個上述連接器，並返回此步驟以繼續設定 Content Analytics 付費媒體。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads 來源"
 
 ##### 儲存 {#web-save}
 
