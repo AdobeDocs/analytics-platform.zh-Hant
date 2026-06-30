@@ -6,28 +6,12 @@ exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
 TQID: https://experienceleague.adobe.com/5rXDQ-Ygp3TrEMbpK1UaUcRwSrc81VkUKauxth4-AUs
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e634a07b-b7ca-4af3-a124-3024ce559e17
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
 source-wordcount: 4356
 ht-degree: 93%
@@ -56,7 +40,7 @@ ht-degree: 93%
 
 | 偏好設定 | 選項 |
 | --- | --- |
-| **[!UICONTROL 登陸頁面]** | 選擇存取 Customer Journey Analytics 時顯示為預設頁面的頁面： <ul><li>專案清單 (預設)</li><li>空白專案</li><li>空白趨勢引導分析</li><li>特定專案，從清單中選取</li></ul> |
+| **[!UICONTROL 登陸頁面]** | 選擇存取 Customer Journey Analytics 時顯示為預設頁面的頁面： <ul><li>專案清單 (預設)</li><li>空白專案</li><li>空白趨勢引導式分析</li><li>特定專案，從清單中選取</li></ul> |
 | **[!UICONTROL 秘訣]** | 在 Analysis Workspace 右下方區域的藍色框中顯示提示。 <p>此選項已預設啟用。</p> |
 | **[!UICONTROL 左側面板群組中顯示的元件]** | 在左側面板的「元件」選單中，選取每個元件的顯示數量。 <p>如果為元件群組選擇 0，則無法再從左側面板存取此元件群組。</p><p>預設情況下，以下每個元件群組皆顯示 5 個元件：</p> <ul><li>維度</li><li>量度</li><li>區段</li><li>日期範圍</li></ul> <p>如需有關 Analysis Workspace 中元件的詳細資訊，請參閱[元件概觀](/help/components/overview.md)。</p> |
 
@@ -85,8 +69,8 @@ ht-degree: 93%
 | **「範本索引標籤」索引標籤** | | |
 |  | 隱藏範本索引標籤 | 對組織中所有使用者隱藏範本索引標籤。 |
 | **專案共用** | | |
-| | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。 這表示使用者無法與組織中沒有 Analysis Workspace 帳戶的人員共用專案，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入) &#x200B;](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。<br/>依照預設，除了擁有已授權之 Healthcare Shield 的客戶以外，所有組織均停用此選項 (亦即使用者可以與組織外部的人員共用專案)。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。 在這種情況下，共用專案的使用者與任何人共用專案時，就必須啟用可用的&#x200B;[!UICONTROL **連結使用中**]&#x200B;選項&#x200B;**([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**)，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。 在您停用此選項讓使用者可以使用[!UICONTROL 與任何人共用]共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。 新增權限後，您可以停用此選項，然後接受所產生的法律注意事項。 如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
-| | 需要 CX Enterprise 驗證 | 啟用此選項後，透過Analysis Workspace中的&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項授予專案存取權的使用者，必須使用其CX Enterprise憑證進行驗證。<p>啟用此選項後，每當使用者使用[!UICONTROL 與任何人共用]共用選項共用專案時，共用對話方塊中就會啟用[!UICONTROL 需要CX企業驗證]選項，且共用專案的使用者無法停用該選項。 如需有關使用者如何與任何人共用專案的資訊，請參閱[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) (在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，先前與[!UICONTROL 共用給任何人]的共用選項，以及未啟用[!UICONTROL 需要CX企業驗證]選項的所有專案都會停用。<p>如果此選項已啟用（需要CX Enterprise驗證），之後又停用（允許具有連結的任何人存取專案），則先前透過[!UICONTROL 與任何人共用]共用選項收到專案存取權的使用者，不會自動重新取得其專案的存取權。 在此情況下，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL 連結使用中]」選項&#x200B;**(「[!UICONTROL 共用]**」>「**[!UICONTROL 與任何人共用]**」>「**[!UICONTROL 連結使用中]**」)，如在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。</li><li>您的組織實作 SSO 時才可使用這個選項。 如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。 系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
+| | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。 這表示使用者無法與組織中沒有 Analysis Workspace 帳戶的人員共用專案，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入) ](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。<br/>依照預設，除了擁有已授權之 Healthcare Shield 的客戶以外，所有組織均停用此選項 (亦即使用者可以與組織外部的人員共用專案)。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過[!UICONTROL 與任何人共用]共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。 在這種情況下，共用專案的使用者與任何人共用專案時，就必須啟用可用的&#x200B;[!UICONTROL **連結使用中**]&#x200B;選項&#x200B;**([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**)，如[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。 在您停用此選項讓使用者可以使用[!UICONTROL 與任何人共用]共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。 新增權限後，您可以停用此選項，然後接受所產生的法律注意事項。 如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
+| | 需要 Experience Cloud 驗證 | 啟用此選項後，在Analysis Workspace中透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項授予專案存取權的使用者，必須使用其CX Enterprise (Experience Cloud)憑證進行驗證。<p>啟用此選項後，每當使用者使用[!UICONTROL 與任何人共用]共用選項共用專案時，共用對話方塊中就會啟用[!UICONTROL 需要CX企業驗證]選項，且共用專案的使用者無法停用該選項。 如需有關使用者如何與任何人共用專案的資訊，請參閱[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) (在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，先前與[!UICONTROL 共用給任何人]的共用選項，以及未啟用[!UICONTROL 需要CX企業驗證]選項的所有專案都會停用。<p>如果此選項已啟用（需要CX Enterprise驗證），之後又停用（允許具有連結的任何人存取專案），則先前透過[!UICONTROL 與任何人共用]共用選項收到專案存取權的使用者，不會自動重新取得其專案的存取權。 在此情況下，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL 連結使用中]」選項&#x200B;**(「[!UICONTROL 共用]**」>「**[!UICONTROL 與任何人共用]**」>「**[!UICONTROL 連結使用中]**」)，如在[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。</li><li>您的組織實作 SSO 時才可使用這個選項。 如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。 系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
 | 專案註解 | 允許註解專案 | 啟用此選項後，Analysis Workspace 中每項專案的右側邊欄會提供一個註解區域。 <p>專案所有者可以停用指定專案的註解區域，如[建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)所述。</p> <p>如需關於在 Analysis Workspace 專案中進行註解的更多資訊，請參閱[在專案中新增與管理註解](/help/analysis-workspace/build-workspace-project/comment-projects.md)。</p> |
 
 {style="table-layout:auto"}
@@ -115,7 +99,7 @@ ht-degree: 93%
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -123,7 +107,7 @@ ht-degree: 93%
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **顯示** | | |
-|  | [檢視密度](/help/analysis-workspace/build-workspace-project/view-density.md) | 減少左側面板、自由格式表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>緊密</li><li>舒適</li><li>展開 (預設)</li></ul> |
+|  | [檢視密度](/help/analysis-workspace/build-workspace-project/view-density.md) | 減少左側面板、自由格式表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
 | | [調色盤](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 選擇 Analysis Workspace 和引導式分析中使用的視覺效果調色盤。 <ul><li> 類別調色盤：套用至 Analysis Workspace 和引導式分析的多個視覺效果。 每種顏色代表相異的類別值。 從 Adobe 提供的選項中進行選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li> 偏離調色盤：套用至 Analysis Workspace 和使用者增長引導式分析中的同類群組表格。 此調色盤具有數值含義，其中包含兩個極端和中間的基線。<li> 循序調色盤：套用至頻率趨勢 (堆疊長條) 引導式分析。 該調色盤具有從淺到深的數值含義。</li></ul> |
 | **資料** | | |
 |  | [資料檢視](/help/analysis-workspace/c-panels/panels.md#data-view) | 從表格和視覺效果衍生其資料的位置進行資料選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定資料視圖</li></ul> |
@@ -131,7 +115,7 @@ ht-degree: 93%
 |  | [面板類型](/help/analysis-workspace/c-panels/panels.md#panel-types) | <ul><li>自由格式 (預設)</li><li>空白</li><li>快速洞察</li></ul> |
 |  | 實例計數 | 啟用[!UICONTROL 計算重複實例數]以指定是否要將重複實例計入報告中。 例如，若啟動，多次連續檢視相同頁面視為檢視多個頁面。 停用後，多次連續檢視相同頁面將計為單次頁面檢視。 <p>**注意：**&#x200B;此設定只會影響特定量度 (例如工作階段)，不適用於「流程」或「流失」視覺效果。</p> |
 |  | 數字格式 | <ul><li>1,000.00 （預設）</li><li>1.000,00</li><li>1 000,00</li></ul> |
-|  | CSV 分隔字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>管線</li><li>期間</li><li>空間</li><li>定位</li></ul> |
+|  | CSV 分隔字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
 |  | 顯示註解 | 選取專案中是否顯示註解。 如需註解的詳細資訊，請參閱[註解概觀](/help/components/annotations/overview.md)。 |
 
 
@@ -238,7 +222,7 @@ ht-degree: 93%
 | | 顯示最大值 | 覆蓋最大值標籤，快速醒目提示量度中的尖峰。 注意：最大值是從視覺效果中的可見資料點衍生而來，而非維度中的完整數值集。 |
 | | 顯示趨勢線 | 顯示迴歸或移動平均趨勢線至您的折線圖序列。 趨勢線有助於描繪出資料中更清晰的模式。 |
 | **[同類群組](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md)** | | |
-| | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>容器 | 針對帳戶型 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 連線，請選取偏好的容器以進行同類族群分析。 <p>提供下列選項：</p> <ul><li>全域帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>購買群組 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>機會 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>人員</li></ul> |
+| | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>容器 | 針對帳戶型 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 連線，請選取偏好的容器以進行同類族群分析。 <p>提供下列選項：</p> <ul><li>全域帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>購買群組 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>機會 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>個人</li></ul> |
 | | 顆粒度 | 對於趨勢視覺效果，您可以變更時間顆粒度 (日、週、月、季或年)。 這項變更也適用於資料來源表。 |
 | | 僅顯示百分比 | 移除數值並僅顯示百分比。 |
 | | 將百分比四捨五入到最接近的整數 | 將百分比四捨五入為最接近的整數，而非顯示小數值。 |
@@ -254,23 +238,23 @@ ht-degree: 93%
 | | 顯示比較 | 顯示比較資料。 隱藏時，比較折線圖和摘要變更物件將會從視圖中隱藏。 |
 | | 數字值選項 | 在&#x200B;[!UICONTROL **關鍵量度摘要**] 一節 <ul><li>顯示百分比變化</li><li>顯示原始差異</li>主要日期範圍與次要日期範圍中量度總值之間的原始差異</ul> |
 | **[流失](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
-| | 容器 | 選取偏好的容器來進行路徑分析。 偏好的容器能協助您了解不同 B2B 容器層級的帳戶參與度 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、人員層級的人員參與度 (跨工作階段)，或將分析限制在單一工作階段內。 <p>提供下列選項：</p> <ul><li>全域帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>購買群組 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>機會 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>作業階段</li><li>人員</li></ul> |
+| | 容器 | 選取偏好的容器來進行路徑分析。 偏好的容器能協助您了解不同 B2B 容器層級的帳戶參與度 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、人員層級的人員參與度 (跨工作階段)，或將分析限制在單一工作階段內。 <p>提供下列選項：</p> <ul><li>全域帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>購買群組 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>機會 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>工作階段</li><li>人員</li></ul> |
 | **[流量](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
-| | 容器 | 選取偏好的容器來進行分析。 偏好的容器能協助您了解不同 B2B 容器層級的帳戶參與度 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、人員層級的人員參與度 (跨工作階段)，或將分析限制在單一工作階段內。 <p>提供下列選項：</p> <ul><li>全域帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>購買群組 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>機會 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>作業階段</li><li>人員</li></ul> |
+| | 容器 | 選取偏好的容器來進行分析。 偏好的容器能協助您了解不同 B2B 容器層級的帳戶參與度 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、人員層級的人員參與度 (跨工作階段)，或將分析限制在單一工作階段內。 <p>提供下列選項：</p> <ul><li>全域帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>購買群組 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>機會 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>工作階段</li><li>人員</li></ul> |
 | | 繞排標籤 | 一般而言，系統會截斷「流量」元素的標籤以節省螢幕空間，但您可勾選此方塊以完整顯示標籤。 預設 = 未勾選。 |
 | | 包含重複例項 | 「流量」視覺效果是根據維度的例項而定。 此設定提供您要包括或排除重複例項的選項，例如頁面重新載入次數。 不過，無法從包含多值維度（例如listVars、listProps、s.product、銷售eVars等）的「流量」視覺效果中移除重複專案。預設=未勾選。 |
 | | 顯示工具提示 | 決定將滑鼠游標停留在流量視覺效果內的個別節點上時，是否要顯示包含節點資料的工具提示。 |
 | | 欄數 | 決定您的流量圖中要有多少欄。 |
 | | 每欄展開的項目 | 每欄中想要多少項目。 |
 | **[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)** | | |
-| | 容器 | 選取偏好的容器來進行路徑分析。 偏好的容器能協助您了解不同 B2B 容器層級的帳戶參與度 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、人員層級的人員參與度 (跨工作階段)，或將分析限制在單一工作階段內。 <p>提供下列選項：</p> <ul><li>全域帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>購買群組 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>機會 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>作業階段</li><li>人員</li></ul> |
+| | 容器 | 選取偏好的容器來進行路徑分析。 偏好的容器能協助您了解不同 B2B 容器層級的帳戶參與度 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、人員層級的人員參與度 (跨工作階段)，或將分析限制在單一工作階段內。 <p>提供下列選項：</p> <ul><li>全域帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>購買群組 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>機會 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>工作階段</li><li>人員</li></ul> |
 | **堆疊圖** | | |
 | | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。 <p>如需詳細資訊，請參閱[長條圖和堆疊長條圖](/help/analysis-workspace/visualizations/bar.md)。</p> |
 | **[直方圖](/help/analysis-workspace/visualizations/histogram.md)** | | |
 | | 貯體數 | 在視覺效果中選擇日期範圍 (貯體) 的數量。 貯體的最大數量是 50。 <p>如需詳細資訊，請參閱[直方圖](/help/analysis-workspace/visualizations/histogram.md)。</p> |
-| | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>作業階段</li><li>人員</li></ul> <p>例如，與頁面瀏覽次數搭配使用時，您可以選擇每個人員的頁面瀏覽次數、造訪的頁面瀏覽次數，或是每個事件的頁面瀏覽次數。 若為點擊，自由格式表格會將「發生次數」設為 Y 軸的量度。</p> |
+| | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>工作階段</li><li>人員</li></ul> <p>例如，與頁面瀏覽次數搭配使用時，您可以選擇每個人員的頁面瀏覽次數、造訪的頁面瀏覽次數，或是每個事件的頁面瀏覽次數。 若為點擊，自由格式表格會將「發生次數」設為 Y 軸的量度。</p> |
 | **[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
-| | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變化</li><li>原始差異</li></ul> |
+| | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變更</li><li>原始差異</li></ul> |
 | | 百分比 | 以百分比顯示摘要變更視覺效果的值。 |
 | | 可見圖例 | 可讓您隱藏摘要變更視覺效果的詳細圖例文字。 |
 | **[摘要數字](/help/analysis-workspace/visualizations/summary-number-change.md)** | | |
@@ -305,7 +289,7 @@ ht-degree: 93%
 
 如果您偏好將您的 Customer Journey Analytics 使用者介面設定為深色背景，您可切換至[!UICONTROL 深色佈景主題]。
 
-1. 選取右上方的CX Enterprise使用者圖示。
+1. 選取右上方的使用者圖示。
 
    ![dark-theme](assets/dark-theme.png)
 
