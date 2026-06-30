@@ -23,9 +23,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: 331
 ht-degree: 95%
 
 ---
@@ -38,12 +38,11 @@ ht-degree: 95%
 | --- | --- | --- |
 | 查詢資料集 | 分類 | 使用查詢功能，從具有 1 對 1 關係的指定資料集中擷取金鑰/相符金鑰 (位於事件資料集中) 的值。 例如，您可以指定「tracking_code」作為符合事件資料集中「tracking_code」的金鑰。 |
 | 輪廓資料集 | 客戶屬性 | 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，可將這些資料上傳至 Adobe Experience Platform 上的輪廓資料集中。 在 Customer Journey Analytics 中建立與該資料集的連線並建立資料檢視後，可在工作區中使用資料。 |
-| CX Enterprise組織 | 登入公司 | 請參閱[組織和帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hant#topic_C31CB834F109465A82ED57FF0563B3F1)。 |
+| CX Enterprise (Experience Cloud)組織 | 登入公司 | 請參閱[組織和帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hant#topic_C31CB834F109465A82ED57FF0563B3F1)。 |
 | 不適用 | 報告套裝 | 傳統 Adobe Analytics 環境中的報告套裝已不存在， 改為需從您建立連線的 Platform 資料集建立 (虛擬) [資料檢視](/help/data-views/create-dataview.md)。 |
 | 區段 | 區段 | 區段曾經是「篩選器」。 已重新命名為「區段」。 |
 | 資料視圖 | 虛擬報告套裝 | 在 Adobe Analytics 中，虛擬報告套裝是父報告套裝的篩選檢視。 虛擬報表套裝與 Customer Journey Analytics 中資料檢視的主要差異在於，虛擬報表套裝是「基本」或「父」報表套裝的子集，因此會繼承其部分設定。 由於父/基本報告套裝已不存在，因此可以使用其自己的設定來定義資料檢視。 |
 
 ## Adobe Experience Platform 術語
 
-Adobe Experience Platform 可標準化整個企業的資料和內容、提供即時的消費者輪廓、運用資料科學，以及加快內容速度，藉此促進客戶歷程中的體驗個人化。
-如需詳細資訊，請參閱 [Adobe Experience Platform 術語](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hant)。
+Adobe Experience Platform 可標準化整個企業的資料和內容、提供即時的消費者輪廓、運用資料科學，以及加快內容速度，藉此促進客戶歷程中的體驗個人化。如需詳細資訊，請參閱 [Adobe Experience Platform 術語](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hant)。

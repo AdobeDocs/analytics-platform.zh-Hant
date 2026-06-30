@@ -26,9 +26,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
-source-wordcount: 2181
+source-wordcount: 2183
 ht-degree: 90%
 
 ---
@@ -102,8 +102,7 @@ ht-degree: 90%
 
    或
 
-   若只要共用單一專案，您可以開啟要共用的專案，然後選取「**[!UICONTROL 共用]** > **[!UICONTROL 與 Workspace 使用者共用]**」。
-如果有未儲存的變更，系統會提示您先儲存專案。
+   若只要共用單一專案，您可以開啟要共用的專案，然後選取「**[!UICONTROL 共用]** > **[!UICONTROL 與 Workspace 使用者共用]**」。如果有未儲存的變更，系統會提示您先儲存專案。
 
    共用專案對話框會顯示。 對話框的「[!UICONTROL **透過連結共用**]」和「[!UICONTROL **設定**]」部份只會在共用單一專案時可見到。
 
@@ -203,9 +202,9 @@ ht-degree: 90%
 
 1. 選擇是否啟用以下安全選項 (此選項可由您的 Customer Journey Analytics 管理員控制)：
 
-   * **[!UICONTROL 需要CX Enterprise驗證]：**
+   * **[!UICONTROL 需要 Experience Cloud 驗證]：**
 
-     啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的CX Enterprise組織。 但是，您與之共用的使用者不需要擁有 Customer Journey Analytics 的存取權。
+     啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的CX Enterprise (Experience Cloud)組織。 但是，您與之共用的使用者不需要擁有 Customer Journey Analytics 的存取權。
 
      Customer Journey Analytics 管理員可以為公司設定此偏好設定，如[偏好設定](/help/analysis-workspace/user-preferences.md)中所述。 視管理員設定此選項的方式而定，您可能會遇到以下情況：
 
@@ -240,7 +239,7 @@ ht-degree: 90%
 >[!ENDSHADEBOX]
 
 
-## 常見問答 {#FAQs}
+## 常見問題 {#FAQs}
 
 | 問題 | 回答 |
 |---|---|

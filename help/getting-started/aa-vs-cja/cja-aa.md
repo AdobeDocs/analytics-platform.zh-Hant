@@ -45,7 +45,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
 source-wordcount: 3109
 ht-degree: 99%
@@ -136,7 +136,7 @@ ht-degree: 99%
 | **分類規則產生器** | 支援在 Customer Journey Analytics 中使用[子字串](/help/data-views/component-settings/substring.md)。 在報告時間使用字串操控，而不是查詢資料集。 |
 | **自訂工作階段長度** | 工作階段長度可以透過資料檢視中的[「工作階段」設定](../../data-views/create-dataview.md#session-settings)進行設定。 如需詳細資訊，請參閱[工作階段設定](../../data-views/session-settings.md)。 <br/>使用 Adobe Experience Platform Mobile SDK 支援，處理行動背景事件。 更多資訊，請參閱[邊緣網路的生命週期](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/?lang=zh-hant)。 |
 | **貨幣轉換** | 支援做為資料視圖中[量度元件格式](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/format)的一部分。 |
-| **客戶屬性** | 輪廓資料集相當於客戶歸因。 設定檔資料集不會自動從CX Enterprise匯入，必須先上傳至Experience Platform，才能在Customer Journey Analytics中使用。 |
+| **客戶屬性** | 輪廓資料集相當於客戶歸因。 輪廓資料集不會自動從 Experience Cloud 匯入，而是必須上傳到 Experience Platform，才能在 Customer Journey Analytics 中提供使用。 |
 | **資料摘要** | 可透過 [Experience Platform Data Access API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-access/api) 和 [Experience Platform Destinations](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets) 匯出資料集的第一代資料。 這些選項提供收集或擷取至 Experience Platform Data Lake 中的所有資料事件/列層級匯出。 後處理資料欄無法使用，因為後處理欄是在查詢時計算的。 可透過報告匯出發佈欄。 |
 | **Data Warehouse 報告** | [Customer Journey Analytics 完整表格匯出](/help/analysis-workspace/export/export-cloud.md)是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多使用者經常要求且目前 Data Warehouse 目前尚未提供的新功能。 |
 | **進入、退出及逗留的時間等維度和量度** | 系統可支援 (進入與退出現在稱為「工作階段開始」和「工作階段結束」)，不過計算方式稍有不同。 |
