@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 9c3546c33914feb7a00b5bb78a575dd511cabb5f
+source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
 source-wordcount: 221
 ht-degree: 21%
@@ -27,6 +27,8 @@ ht-degree: 21%
 ---
 
 # 資料摘要概觀
+
+{{release-limited-testing}}
 
 資料摘要是從Customer Journey Analytics中取得原始資料的有力方式。 您可以由組織自行決定，在Adobe以外的其他平台中使用這些原始資料。 資料會在每小時結束時以小時的批次傳送，或在每天結束時以當天的批次傳送。
 
