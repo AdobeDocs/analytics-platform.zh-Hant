@@ -14,10 +14,10 @@ subfeature_v2:
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b7493ad9283b5830c36b8e3ac942bf9295b693f8
+source-git-commit: 7c679fcbf52d2a5832d16bf138bd197f11f4ceb7
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 88%
+source-wordcount: 434
+ht-degree: 87%
 
 ---
 
@@ -39,9 +39,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="datadictionary_share_primary"
 >title="共用主要元件"
->abstract="選取此選項後，主要元件會與可存取重複元件的每個人 (所有者和與之共用元件的任何人) 共用。 然後，這些使用者就可以從元件清單中選取主要元件，以供未來的專案使用。 但是，他們無法編輯該元件，即使他們是已合併之重複元件的所有者亦然。 <br/>此選項只有在主要元件是細分群體、計算量度或日期範圍時才可用。 量度和維度始終可供所有使用者使用。"
->
->When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
+>abstract="選取此選項後，主要元件會與可存取重複元件的每個人 (所有者和與之共用元件的任何人) 共用。 然後，這些使用者就可以從元件清單中選取主要元件，以供未來的專案使用。 但是，他們無法編輯該元件，即使他們是已合併之重複元件的所有者亦然。"
 
 <!-- markdownlint-disable MD034 -->
 
