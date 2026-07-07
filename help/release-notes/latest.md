@@ -3,49 +3,35 @@ title: 最新的 Customer Journey Analytics 發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
+hold: true
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9c3546c33914feb7a00b5bb78a575dd511cabb5f
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b27408ce620b9dc62c06e4dc6dda00b2aef1c46d
 workflow-type: tm+mt
-source-wordcount: 615
-ht-degree: 44%
+source-wordcount: 746
+ht-degree: 38%
 
 ---
 
-# 最新Customer Journey Analytics發行說明（2026年6月）
+# 最新Customer Journey Analytics發行說明（2026年7月）
 
-**上次更新日期**：2026年6月25日
+**上次更新日期**：2026年7月8日
 
-以下發行說明涵蓋2026年6月發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。 因此，這些發行說明每月會更新好幾次。 請定期進行檢查。
+以下發行說明涵蓋2026年7月發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。 因此，這些發行說明每月會更新好幾次。 請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
-| **Data Mirror** <br/>[Data Mirror](/help/data-mirror/data-mirror.md)是一種Experience Platform功能，可使用關聯式結構描述，從外部資料倉儲解決方案（[!DNL Snowflake]、[!DNL Azure Databricks]和[!DNL Google BigQuery]）將資料列層級的變更擷取（變更資料擷取）到Customer Journey Analytics。 它保留資料關係、強制執行唯一性，並支援版本化，而不需要上游擷取、轉換和載入(ETL)程式。 | 2026 年 3 月 25 日 | 2026年6月17日 |
-| **在AI小幫手中驗證您的資料** <br/>您可以使用AI小幫手[驗證Adobe Experience Platform資料集的資料品質](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/data-validation)。 由Agent Orchestrator支援的資料驗證功能可以對資料集執行統計和語意驗證、分析資料集欄位、識別資料品質問題，並傳回自然語言摘要，其中包含可操作的深入分析。 | | 2026年6月22日 |
+| **子事件分析** <br/>子事件分析可讓您在比事件層級更精細的層級分析資料。 您可以對事件中的個別容器進行分段，而不需篩選整個事件。 <p>例如，您可以將特定產品類別分段，而不納入同一訂單中購買的所有其他產品。 您也可以將屬於事件資料一部分的物件或陣列，定義為資料檢視中的個別容器。</p> | 7月8日 | 2026年7月底 |
+| **CJA B2B：支援ad hoc和關聯式資料集** <br/>CJA B2B帳戶型連線現在也支援ad hoc和關聯式資料集。<p>(文件連結待補充。)</p> | | 2026年7月20日 |
+| **付費媒體資料** <br/>付費媒體已新增為Content Analytics的第三個管道。<p>(文件連結待補充。)</p> | | 2026年7月31日 |
+| **連線使用方式UI更新** <br/>您可以檢視每個個別模組（例如Customer Journey Analytics、Customer Journey Analytics B2B edition）的使用方式詳細資料。 此外，您可以依月份劃分每個模組的使用量報表。<p>(文件連結待補充。)</p> | | 2026年7月31日 |
+| **CX Enterprise Co-worker：從Adobe Analytics移轉至Customer Journey Analytics時驗證您的資料** <br/>CX Enterprise Co-worker的一項新技能可讓您根據現有Adobe Analytics實作的資料，驗證Customer Journey Analytics實作的資料。 <p>此技能會自動比較每個維度、量度和趨勢，然後產生AI導向的深入分析和建議，您可實施這些深入分析和建議，以利移轉至Customer Journey Analytics。</p><p>(文件連結待補充。)</p> | | 2026年7月底 |
 
 ### Customer Journey Analytics 中的修正
 
