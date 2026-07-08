@@ -3,7 +3,6 @@ title: 最新的 Customer Journey Analytics 發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-hold: true
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -28,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b27408ce620b9dc62c06e4dc6dda00b2aef1c46d
+source-git-commit: ce00cd801894776f2128a86504f5c78afe438986
 workflow-type: tm+mt
-source-wordcount: 746
-ht-degree: 38%
+source-wordcount: 655
+ht-degree: 44%
 
 ---
 
@@ -45,29 +44,30 @@ ht-degree: 38%
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
-| **子事件分析** <br/>子事件分析可讓您在比事件層級更精細的層級分析資料。 您可以對事件中的個別容器進行分段，而不需篩選整個事件。 <p>例如，您可以將特定產品類別分段，而不納入同一訂單中購買的所有其他產品。 您也可以將屬於事件資料一部分的物件或陣列，定義為資料檢視中的個別容器。</p> | 7月8日 | 2026年7月底 |
-| **CJA B2B：支援ad hoc和關聯式資料集** <br/>CJA B2B帳戶型連線現在也支援ad hoc和關聯式資料集。<p>(文件連結待補充。)</p> | | 2026年7月20日 |
-| **付費媒體資料** <br/>付費媒體已新增為Content Analytics的第三個管道。<p>(文件連結待補充。)</p> | | 2026年7月31日 |
-| **連線使用方式UI更新** <br/>您可以檢視每個個別模組（例如Customer Journey Analytics、Customer Journey Analytics B2B edition）的使用方式詳細資料。 此外，您可以依月份劃分每個模組的使用量報表。<p>(文件連結待補充。)</p> | | 2026年7月31日 |
-| **CX Enterprise Co-worker：從Adobe Analytics移轉至Customer Journey Analytics時驗證您的資料** <br/>CX Enterprise Co-worker的一項新技能可讓您根據現有Adobe Analytics實作的資料，驗證Customer Journey Analytics實作的資料。 <p>此技能會自動比較每個維度、量度和趨勢，然後產生AI導向的深入分析和建議，您可實施這些深入分析和建議，以利移轉至Customer Journey Analytics。</p><p>(文件連結待補充。)</p> | | 2026年7月底 |
+| **子事件分析** <br/>子事件分析可讓您在比事件層級更精細的層級分析資料。 您可以對事件中的個別容器進行分段，而不需篩選整個事件。 <p>例如，您可以將特定產品類別分段，而不納入同一訂單中購買的所有其他產品。 您也可以將屬於事件資料一部分的物件或陣列，定義為資料檢視中的個別容器。</p> | 2026年7月15日 | 2026年7月底 |
+| **B2B edition：支援ad hoc和關聯式資料集** <br/>Customer Journey Analytics B2B edition中以帳戶為基礎的連線現在也支援ad hoc和關聯式資料集。<p>(文件連結待補充。)</p> | | 2026年7月20日 |
+| **Content Analytics：付費媒體資料** <br/>付費媒體現在可作為Content Analytics的第三個管道使用。<p>(文件連結待補充。)</p> | | 2026年7月31日 |
+| **連線使用情況UI更新** <br/>您現在可以看到每個個別模組的使用情況詳細資料，例如Customer Journey Analytics或Customer Journey Analytics B2B edition。 此外，您現在可以依月份劃分每個模組的使用量報表。<p>(文件連結待補充。)</p> | | 2026年7月31日 |
+| **CX Enterprise Co-worker：從Adobe Analytics移轉至Customer Journey Analytics時驗證您的資料** <br/>CX Enterprise Co-worker的一項新技能可讓您根據現有Adobe Analytics實作的資料，驗證Customer Journey Analytics實作的資料。 <p>此技能會自動視需要個別比較每個維度、量度和趨勢。 它也可以將所有Adobe Analytics報表套裝與所有Customer Journey Analytics資料檢視進行比較。 接著，該技能會產生AI導向的深入分析和建議，您可實施這些分析和建議，以利您移轉至Customer Journey Analytics。</p><p>(文件連結待補充。)</p> | | 2026年7月底 |
 
 ### Customer Journey Analytics 中的修正
 
-**Analysis Workspace**： AN-456858、AN-455865、AN-455706、AN-455592、AN-455484、AN-455180、AN-454999、AN-454170、AN-454145、AN-453793、AN-452921、AN-452009、AN-451958、AN-451643、AN-451600、AN-451525、AN-451477、AN-451262、AN-451161、AN-450772、AN-443594、AN-434416
+**Analysis Workspace**： AN-457527、AN-451161、AN-459034、AN-458071、AN-458398
 **元件**：
-**連線**： AN-457065、AN-453705
-**Content Analytics**： AN-451203、AN-447596
+**連線**： AN-457065
+**Content Analytics**：
 **引導式分析**：
-**匯出**： AN-452006、AN-451989、AN-440567
-**資料檢視**： AN-451198
+**匯出**：
+**資料檢視**： AN-453201
+**資料擷取**：
 **實作**：
-**Report Builder**： AN-440912、AN-457586、AN-457533、AN-455713、AN-455623、AN-455063、AN-454512、AN-454053、AN-453977、AN-453781、AN-453683、AN-451974、AN-451735、AN-451731、AN-451190、AN-449813、AN-447173、AN-447139、AN-446184、AN-445794、AN-445354、AN-442819
-**報告**： AN-454589、AN-454517、AN-453982、AN-451822、AN-451497、AN-451463、AN-451259、AN-451215、AN-450661、AN-447699、AN-448375、AN-447692
+**Report Builder**： AN-457533、AN-453683
+**報告**： AN-457607、AN-447692、AN-451259、AN-455713
 **細分**：
-**排程報告**： AN-451980、AN-451882、AN-450715
+**排程報告**： AN-450715
 **共用的量度和維度**：
-**對象分析**： AN-449656、AN-450400
-**Other**： AN-457063、AN-454140、AN-453937、AN-453825、AN-452959、AN-452934、AN-452296、AN-451781、AN-450974
+**對象分析**：
+**其他**： AN-457063，
 
 ## 延遲的功能
 
