@@ -19,10 +19,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
-source-wordcount: 1664
-ht-degree: 100%
+source-wordcount: 1377
+ht-degree: 95%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 100%
 
 以下部分說明建議的資料元素以及您可以設定的其他常見資料元素。
 
-資料元素有各種不同類型。 您可能想要設定兩個常見資料元素：一個用來擷取人們在您網站上查看的頁面名稱，另一個用來擷取造訪您網站的每個人的 Experience Cloud ID。
+資料元素有各種不同類型。 您可能想要設定的常見資料元素為擷取訪客在您的網站上檢視的頁面名稱元素。
 
-設定這兩個資料元素後，您可以為想要擷取的特定資料設定其他資料元素。
+設定page name資料元素後，您可以針對要擷取的特定資料設定其他資料元素。
 
 最後，定義好所有想要的資料元素後，您需要將資料元素指派至先前[建立的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)。 若要這樣做，您要定義 XDM 資料元素，在其中呈現您的 XDM 結構描述。
 
@@ -93,55 +93,11 @@ ht-degree: 100%
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-   您現在想要設定資料元素，以參考由 Adobe Experience Platform Web SDK 自動提供且可透過 Experience Cloud ID 服務擴充功能使用的Experience Cloud ID。
-
-1. 繼續進行[ECID 資料元素](#ecid-data-element)。
-
-#### ECID 資料元素
-
-適用於大多數組織的通用資料元素是擷取瀏覽您網站的每個人的 Experience Cloud ID 資料元素。
-
-若要建立 ECID 資料元素：
-
-1. 使用您的 Adobe ID 認證登入 experience.adobe.com。
-
-1. 在 Adobe Experience Platform 中，前往「**[!UICONTROL 資料彙集]** > **[!UICONTROL 標記]**」。
-
-1. 從[!UICONTROL 「標籤屬性」]清單中選擇您新建立的標籤，並將其打開。
-
-1. (條件) 如果尚未安裝 Experience Cloud ID Service 擴充功能，請安裝：
-
-   1. 選取左側邊欄中的&#x200B;**[!UICONTROL 「擴充功能」]**。
-
-   1. 依預設選取「**[!UICONTROL 已安裝]**」索引標籤。 若列有「**[!UICONTROL Experience Cloud ID Service]**」圖磚，請跳至步驟 5。
-
-   1. 若未列有「**[!UICONTROL Experience Cloud ID Service]**」圖磚，請選取「 **[!UICONTROL 目錄]**」索引標籤。
-
-   1. 在搜尋欄位中，搜尋 **[!UICONTROL Experience Cloud ID Service]**，然後在圖磚出現時選取圖磚
-
-   1. 選取「**[!UICONTROL 安裝]** > **[!UICONTROL 儲存]**」。
-
-1. 選取左側邊欄中的&#x200B;**[!UICONTROL 「資料元素」]**。
-
-1. 選取&#x200B;**[!UICONTROL 「新增資料元素」]**。
-
-1. 在「**[!UICONTROL 建立資料元素]**」對話框中，指定以下資訊：
-
-   * **[!UICONTROL 名稱]**：您的資料元素名稱。 例如 `ECID`。
-
-   * **[!UICONTROL 擴充功能]**：從清單中選取「**[!UICONTROL Experience Cloud ID 服務]**」。
-
-   * **[!UICONTROL 資料元素類型]**：從清單中選取 **[!UICONTROL ECID]**。
-
-     ![ECID 資料元素](assets/ecid-dataelement.png)
-
-1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
-
 1. 繼續[建立附加資料元素](#create-additional-data-elements)。
 
 ### 建立附加資料元素
 
-為您想要收集的每種資料類型建立一個資料元素。 使用[頁面名稱資料元素](#page-name-data-element)和 [ECID 資料元素](#ecid-data-element)中所述的相同流程來建立每個附加資料元素。
+為您想要收集的每種資料類型建立一個資料元素。 使用[Page name資料元素](#page-name-data-element)中描述的相同程式來建立每個額外的資料元素。
 
 您建立的資料元素應該在您的結構描述中有一個關聯的欄位。
 
@@ -200,12 +156,6 @@ ht-degree: 100%
    * **[!UICONTROL 沙箱]**：從清單中選取您的沙箱。
 
    * **[!UICONTROL 結構描述]**：籨清單中選取您的結構描述。
-
-1. 將您的結構中定義的 `identification > core > ecid`屬性對應至 ECID 資料元素。 選取圓柱體圖示，即可輕鬆從資料元素清單中挑選 ECID 資料元素。
-
-   ![挑選 ECID 資料元素](assets/pick-ecid-dataelement.png)
-
-   ![對應 ECID 資料元素](assets/map-ecid.png)
 
 1. 將您的結構中定義的 `web > webPageDetails > name`屬性對應至頁面名稱資料元素。
 

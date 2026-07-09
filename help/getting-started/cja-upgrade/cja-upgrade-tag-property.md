@@ -19,10 +19,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
 source-wordcount: 316
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 您可以使用 Adobe Experience Platform 中的「標籤」功能，在您的網站上實施程式碼以收集資料。 此標記管理解決方案可讓您部署程式碼以及其他標記需求。 標籤可使用 Adobe Experience Platform Web SDK 擴充功能與 Adobe Experience Platform 緊密整合。
 
-以下資訊說明如何為您的屬性建立標記。 若要了解補充資訊，請參閱 Experience Platform 文件中的「[設定 Web SDK 標記擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)」。 Web SDK 原本就包括 [!UICONTROL Adobe Experience Cloud ID 服務]，因此您不需要新增 ID 服務擴充功能至您的標記中。
+以下資訊說明如何為您的屬性建立標記。 若要了解補充資訊，請參閱 Experience Platform 文件中的「[設定 Web SDK 標記擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)」。 Web SDK包含Experience Platform Identity服務，因此您不需要將[!UICONTROL Experience Cloud ID服務]擴充功能新增至您的標籤。
 
 屬性基本上是個容器，當您將標記部署至網站時，在其中裝入擴充功能、規則、資料元素和程式庫。 許多人會針對要部署相同標記集的每個網站 (或具有密切關聯的網站群組) 建立屬性。 若要了解屬性的更多資訊，請參閱 Experience Platform 資料收集文件中的「[屬性](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/admin/companies-and-properties)」。
 
