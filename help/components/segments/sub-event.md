@@ -3,13 +3,12 @@ title: 子事件分析
 description: 瞭解子事件分析如何讓您在Customer Journey Analytics中篩選事件內的個別產品或其他容器，消除產品報表中的歸因出血。
 feature: Segmentation
 hold: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: b4bec7c8e476bc2dbffce42bd52ff535b90dcb86
+hide: true
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: c504a631398d14479c9a2b70d9ef43ac88e35704
 workflow-type: tm+mt
-source-wordcount: 564
+source-wordcount: 565
 ht-degree: 0%
 
 ---
@@ -32,9 +31,9 @@ ht-degree: 0%
 
 ## 範例
 
-您只想測量專業套裝類別的收入。 若沒有次事件分析，套用專業套裝的區段會包含任何訂單（事件）上每項產品的收入，其中至少包含一項專業套裝類別的產品。 透過子事件分析，您可以將篩選範圍限定在產品層級，並且只傳回專業西裝類別產品的收入。
+您只想測量專業西裝類別的收入。 若沒有次事件分析，套用專業套裝的區段會包含任何訂單（事件）上每項產品的收入，其中至少包含一項專業套裝類別的產品。 透過子事件分析，您可以將篩選範圍限定在產品層級，並且只傳回專業西裝類別產品的收入。
 
-您也要測量除「男性」類別以外其他所有類別的線上收入。
+您也要測量除專業西裝類別外的所有其他類別的線上收入。
 
 >[!BEGINTABS]
 
@@ -48,7 +47,7 @@ ht-degree: 0%
 
 >[!TAB 子事件分析]
 
-在區段產生器中，或當作&#x200B;**[!UICONTROL 快速區段]**&#x200B;的一部分，您指定在&#x200B;**[!UICONTROL 產品]**&#x200B;容器上&#x200B;**[!UICONTROL 包含]** **[!UICONTROL Dimension]** **[!UICONTROL product_category]** **[!UICONTROL 等於]** **[!UICONTROL 專業套件]**。
+在區段產生器中，或作為&#x200B;**[!UICONTROL 快速區段]**&#x200B;的一部分，您指定在&#x200B;**[!UICONTROL 產品]**&#x200B;容器上&#x200B;**[!UICONTROL 包含]** **[!UICONTROL Dimension]** **[!UICONTROL product_category]** **[!UICONTROL 等於]** **[!UICONTROL 專業套裝]**。
 
 ![顯示產品類別專業套裝之子事件層級區段的面板](./assets/product-category-segmentation-subevents.png)
 
