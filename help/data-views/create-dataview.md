@@ -7,11 +7,24 @@ feature: Data Views
 role: Admin
 hold: true
 TQID: https://experienceleague.adobe.com/EXiKrWVfmMRgZ4GF0OR410Mr2-P5IEjPy3Hf0FmRDJ8
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: b342654b753f679f86750e43efbed1eb149e1b17
 workflow-type: tm+mt
 source-wordcount: 3278
@@ -224,7 +237,7 @@ ht-degree: 84%
 
    ![元件標籤](assets/dataview-components.png)
 
-   您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「結構描述」欄位]。  已包含的元件是所有資料視圖 (如事件、人員、工作階段量度以及分鐘、季度、週維度) 所需的標準元件 (系統產生)。<ul><li>當您定義c[自訂容器](#containers-1)時，將會使用![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL _自訂容器名稱&#x200B;_發生次數]**自動新增並識別這些容器的量度。</li><li>篩選條件&#x200B;**[!UICONTROL 並未過時]**&#x200B;預設為套用，因此只會顯示未過時的結構描述欄位。</li></ul>
+   您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「結構描述」欄位]。  已包含的元件是所有資料視圖 (如事件、人員、工作階段量度以及分鐘、季度、週維度) 所需的標準元件 (系統產生)。<ul><li>當您定義c[自訂容器](#containers-1)時，將會使用![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL _自訂容器名稱&#x200B;_發生次數]**&#x200B;自動新增並識別這些容器的量度。</li><li>篩選條件&#x200B;**[!UICONTROL 並未過時]**&#x200B;預設為套用，因此只會顯示未過時的結構描述欄位。</li></ul>
 
 1. 使用「![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)**[!UICONTROL 搜尋結構描述欄位]**」來搜尋結構描述欄位，或者移動到任何資料集集合中尋找欄位，例如「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 事件資料集]**」或「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 查詢資料集]**」。 對於事件資料集，![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL XDM欄位]**&#x200B;和![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL 臨機欄位和關聯欄位]**&#x200B;有可用的個別集合。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **建立衍生欄位**&#x200B;來建立衍生欄位。 請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
