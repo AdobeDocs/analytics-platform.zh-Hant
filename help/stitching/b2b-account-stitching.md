@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 11156e1f2db094595cc3333ccb0b896037da4715
+source-git-commit: 8f55bd26df5d06a459b275beb9c92669e15b2fd0
 workflow-type: tm+mt
-source-wordcount: 1178
-ht-degree: 25%
+source-wordcount: 1203
+ht-degree: 20%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 25%
 
 B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Journey Analytics中實現完整客戶歷程的分析。 當事件缺少帳戶ID （Customer Journey Analytics B2B edition需要帳戶識別碼才能進行內嵌）時，帳戶拼接會使用您提供的[人員對帳戶對應資料集](#prerequisites)自動衍生並新增該資訊。
 
-若沒有帳戶拼接，擷取期間會捨棄任何不含帳戶ID的事件。 帳戶拼接可在每個事件中查詢與個人相關聯的帳戶，在事件被內嵌及追溯時新增帳戶ID，藉此消除此障礙。
+若沒有帳戶拼接，擷取期間會捨棄任何不含帳戶ID的事件。 帳戶拼接可透過查詢與每個事件中的個人相關聯的帳戶來解決此限制，在事件被擷取及回溯時新增帳戶ID。
 
 >[!NOTE]
 >
@@ -68,12 +68,12 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="人員識別碼命名空間"
->abstract="選取您想要將任何人員 ID 提升至的人員識別碼命名空間 (例如電子郵件)。"
+>abstract="選取與您的報告最相關的人員身分名稱空間。 例如，電子郵件。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
 >title="人員至帳戶資料集"
->abstract="選取將人員 ID 對應至帳戶 ID 的查詢資料集。"
+>abstract="在包含人員ID的資料集中選取欄位。 此欄位的名稱空間可能與選取的人員識別碼名稱空間（B2B拼接設定）不同或相同。 如果兩個名稱空間不同，請連結身分圖表中的名稱空間。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person"
@@ -83,14 +83,12 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
 >title="帳戶"
->abstract="選取資料集中包含帳戶 ID 的欄位。 該欄位不能與「**[!UICONTROL 人員]**」欄位或「**[!UICONTROL 開始時間]**」欄位相同。"
+>abstract="在資料集中選取包含唯一帳戶識別碼值的欄位。 帳戶ID資訊將可在已啟用拼接的任何事件資料集的列中使用。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
 >title="開始時間"
 >abstract="選取時間戳記欄位，其指出人員至帳戶關係何時變為有效。"
->additional-url=""
->additional-url=""
 
 
 1. 在Customer Journey Analytics中，導覽至&#x200B;**[!UICONTROL 連線]**&#x200B;並[建立新連線](/help/connections/create-connection.md#create-a-connection)或[編輯現有連線](/help/connections/create-connection.md#edit-a-connection)。
@@ -138,8 +136,6 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用人員至帳戶拼接"
 >abstract="如果啟用，此資料集便會使用 B2B 帳戶拼接。 選取所需的&#x200B;**[!UICONTROL 人員 ID]**，以根據人員至帳戶資料集來查詢帳戶 ID。<br/>如果停用，此資料集便&#x200B;*不會*&#x200B;使用 B2B 帳戶拼接，您必須改為選取所需的&#x200B;**[!UICONTROL 帳戶 ID]**。"
->additional-url=""
->additional-url=""
 
 
 在連線層級設定B2B拼接後，您必須針對要拼接的每個事件資料集個別啟用B2B帳戶拼接。
@@ -180,7 +176,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 
 >[!IMPORTANT]
 >
->在儲存連線後，B2B拼接設定將變得不可變動。 若要在儲存後檢視您的設定，請選取&#x200B;**開啟B2B拼接組態**。 所有欄位將以唯讀狀態顯示。 此外，如果在Experience Platform中刪除用於[個人對帳戶對應](#prerequisites)的資料集，將會刪除此連線。
+>在儲存連線後，B2B拼接設定將變得不可變動。 若要在儲存後檢視您的設定，請選取&#x200B;**開啟B2B拼接組態**。 所有欄位都會以唯讀狀態顯示。 此外，如果在Experience Platform中刪除用於[個人對帳戶對應](#prerequisites)的資料集，則會刪除此連線。
 
 ## 資料更新排程
 
@@ -195,7 +191,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 
 帳戶拼接遵循個人身份的標準隱私和衛生請求，與B2C拼接行為一致。 如果之後透過隱私權或衛生請求移除人員ID，則使用身分圖表執行的相關銜接作業會反轉。
 
-透過拼接新增到事件的B2B實體（例如帳戶、帳戶ID和全域帳戶ID）不會作為隱私權或衛生請求的一部分移除。 這些值不包含個人識別資訊，因此不存在移除這些值的法律義務。
+在隱私權或衛生請求期間，不會移除透過拼接新增到事件的B2B實體，例如帳戶ID、帳戶ID和全域帳戶ID。 這些值不包含個人識別資訊，因此不存在移除這些值的法律義務。
 
 >[!MORELIKETHIS]
 >

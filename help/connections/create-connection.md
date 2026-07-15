@@ -21,10 +21,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ff99ee131e9bae9fc2815fb54e5b5c14577450f7
+source-git-commit: ddbeb022f4850c2f872f612c86fb37a94b43a73d
 workflow-type: tm+mt
-source-wordcount: 10342
-ht-degree: 92%
+source-wordcount: 10413
+ht-degree: 91%
 
 ---
 
@@ -153,7 +153,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_product_usage"
 >title="在 Customer Journey Analytics 中使用此連線"
->abstract="透過此選項，您可以搭配產品使用情況連線使用 Customer Journey Analytics 的進階報告功能。 這些功能可讓您：<ul><li>在 Customer Journey Analytics 中執行產品使用情況資料的深入分析。</li><li>編輯產品使用情況連線和相關的資料視圖。</li></ul>**啟用此選項後，連線中的每一列資料都會計入您每月 Customer Journey Analytics 授權的資料列數。 並會顯示於「連線使用量」UI 中。**<br><br/>&#x200B;如果您不介意在 Customer Journey Analytics 中使用額外的資料列，再來了解這個選項。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/product-usage/usage-overview){target="_blank"}。"
+>abstract="透過此選項，您可以搭配產品使用情況連線使用 Customer Journey Analytics 的進階報告功能。 這些功能可讓您：<ul><li>在 Customer Journey Analytics 中執行產品使用情況資料的深入分析。</li><li>編輯產品使用情況連線和相關的資料釋圖。</li></ul>**啟用此選項後，連線中的每一列資料都會計入您每月 Customer Journey Analytics 授權的資料列數。 並會顯示於「連線使用量」UI 中。**<br><br/>&#x200B;如果您不介意在 Customer Journey Analytics 中使用額外的資料列，再來了解這個選項。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/product-usage/usage-overview){target="_blank"}。"
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_exl_product_usage"
@@ -339,7 +339,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
 >title="帳戶 ID"
->abstract="從 Experience Platform 資料集結構描述中已定義之可用身分識別當中，選取一個帳戶 ID (帳戶的唯一識別碼)。"
+>abstract="在Experience Platform中，從資料集結構描述中所定義的可用非身分或非個人身分欄位中，選取帳戶ID。 當「人員對帳戶」資料集中沒有相關的帳戶ID資訊時，包含的值就會在列層級作為唯一的帳戶ID使用。"
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountfield"
@@ -404,7 +404,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="connection_personid"
 >title="個人 ID"
->abstract="在 Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取個人 ID。"
+>abstract="選取涵蓋事件範圍廣泛的身分或身分對應型別欄位。 包含的值會提升至先前設定之人員識別碼名稱空間（在B2B拼接設定中）中的值。"
 
 >[!CONTEXTUALHELP]
 >id="connection_accountid"
@@ -732,7 +732,7 @@ ht-degree: 92%
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 全域帳戶 ID]** | 從 Experience Platform 資料集結構描述中已定義的可用身分識別當中，選取一個全域帳戶 ID (帳戶的唯一識別碼)。 在您將全域帳戶做為容器新增至連線後適用。 <p>如果記錄不包含您選取做為事件資料集帳戶 ID 之身分識別的值，則會略過記錄。 |
+| **[!UICONTROL 全域帳戶 ID]** | 在您將全域帳戶做為容器新增至連線後適用。<br/>從Experience Platform資料集結構描述中定義的可用非身分或非個人身分欄位中，選取全域帳戶ID （帳戶的唯一識別碼）。 當「人員對帳戶」資料集中沒有相關的帳戶ID資訊時，包含的值就會在列層級作為唯一的帳戶ID使用。  <p>如果記錄不包含您選取做為事件資料集帳戶 ID 之身分識別的值，則會略過記錄。 |
 | **[!UICONTROL 帳戶 ID]** | 從 Experience Platform 資料集結構描述中已定義之可用身分識別當中，選取一個帳戶 ID (帳戶的唯一識別碼)。 當您未將全域帳戶做為容器新增至連線時適用。 |
 | **[!UICONTROL 機會 ID]** | 從 Experience Platform 的資料集結構描述中已定義的可用身分識別當中，選取機會 ID (機會的唯一識別碼)。 |
 | **[!UICONTROL 購買群組 ID]** | 從 Experience Platform 資料集結構描述中已定義的可用身分識別當中，選取一個購買群組 ID (購買群組的唯一識別碼)。 |

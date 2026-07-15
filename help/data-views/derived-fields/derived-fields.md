@@ -5,7 +5,6 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-hold: true
 TQID: https://experienceleague.adobe.com/zpiJFUF8RnIdFQWf29FBpRznWO3Ejs-j2szx69kdMNE
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -23,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: b342654b753f679f86750e43efbed1eb149e1b17
+source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
 workflow-type: tm+mt
 source-wordcount: 10573
 ht-degree: 98%
@@ -36,7 +35,6 @@ ht-degree: 98%
 >id="dataview_derivedfields"
 >title="衍生欄位"
 >abstract="衍生欄位可讓您透過可自訂的規則產生器，迅速定義資料操作。 您接著可以將衍生欄位用作為 Workspace 中的元件 (量度或維度)，甚至進一步在資料檢視中定義為元件。"
-
 
 派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告功能的重要層面。 衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。 然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
 
