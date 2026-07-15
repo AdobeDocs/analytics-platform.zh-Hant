@@ -5,6 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
+hold: true
 TQID: https://experienceleague.adobe.com/EXiKrWVfmMRgZ4GF0OR410Mr2-P5IEjPy3Hf0FmRDJ8
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -24,10 +25,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+source-git-commit: b342654b753f679f86750e43efbed1eb149e1b17
 workflow-type: tm+mt
-source-wordcount: 2959
-ht-degree: 93%
+source-wordcount: 3278
+ht-degree: 84%
 
 ---
 
@@ -63,11 +64,16 @@ ht-degree: 93%
 
 ![設定資料視圖 B2B](assets/dataview-configure-b2b.png)
 
+>[!TAB 獨立的容器索引標籤]
+
+![使用個別的容器索引標籤設定資料檢視](assets/data-view-configure-containers.png)
+
+
 >[!ENDTABS]
 
 
 1. 選取「**[!UICONTROL 設定]**」索引標籤 (如果尚未啟動使用)。
-1. 指定「[!UICONTROL 設定]」、「[!UICONTROL 容器]」，然後指定「[!UICONTROL 行事曆]」詳細資料 (見下文)。
+1. 指定「**[!UICONTROL 設定]**」、「**[!UICONTROL 容器]**」，然後指定「**[!UICONTROL 行事曆]**」詳細資料 (見下文)。
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。 選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
 
@@ -126,6 +132,9 @@ ht-degree: 93%
 
 {style="table-layout:auto"}
 
+當您看到&#x200B;**[!UICONTROL 容器已移動時。 專用容器標籤]**&#x200B;上現在有容器可用，您可以在單獨的[容器](#containers-1)標籤中定義容器。
+
+
 ### AI 設定
 
 選取&#x200B;**[!UICONTROL 啟用Data Insights Agent]**&#x200B;以啟用[Data Insights Agent](/help/data-analysis-ai.md)的資料檢視。 Data Insights Agent是產生式AI交談代理程式，可從Customer Journey Analytics的AI助理存取。 它能協助您透過文字提示快速分析資料。 代理程式會使用您資料檢視中的元件，並使用您的實際資料，在Analysis Workspace中建置相關的視覺效果。
@@ -145,6 +154,77 @@ ht-degree: 93%
 
 {style="table-layout:auto"}
 
+## 容器
+
+{{release-limited-testing-section}}
+
+
+>[!BEGINTABS]
+
+>[!TAB 標準]
+
+![設定資料視圖](assets/data-view-containers-b2c.png)
+
+>[!TAB B2B Edition]
+
+![設定資料視圖 B2B](assets/data-view-containers-b2b.png)
+
+>[!ENDTABS]
+
+在&#x200B;**[!UICONTROL 容器]**&#x200B;標籤中，您可以重新命名系統容器並新增自訂容器。
+
+您新增自訂容器至資料檢視，以便使用這些容器進行[子事件分析](/help/components/segments/sub-event.md)。 自訂容器可從以下位置定義：
+
+* 屬於連線之一部分的資料集內可用的物件或陣列。 例如，**[!UICONTROL productListItems]**、**[!UICONTROL content_assets]**&#x200B;或&#x200B;**[!UICONTROL placeContext.activePOIs]**。
+* 使用[分割](/help/data-views/derived-fields/derived-fields.md#split)函式傳回陣列的衍生欄位。
+* 資料檢視元件，這些元件已設定為使用[Substring](/help/data-views/component-settings/substring.md)元件設定及[分隔符號](/help/data-views/component-settings/substring.md#delimiter)選項傳回陣列。
+
+### 系統容器
+
+若要重新命名系統容器：
+
+1. 選取![編輯](/help/assets/icons/Edit.svg)以編輯容器的&#x200B;**[!UICONTROL 顯示名稱]**。
+1. 定義容器的新名稱。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+
+
+### 自訂容器
+
+若要新增自訂容器：
+
+1. 選取&#x200B;**[!UICONTROL 新增自訂容器]**。
+1. 在&#x200B;**[!UICONTROL 新增容器]**&#x200B;對話方塊中：
+   1. 從&#x200B;**[!UICONTROL 容器]**&#x200B;下拉式功能表中選取容器。 例如： **[!UICONTROL productListItems.productCategories]**。 選取後，您會看到&#x200B;**[!UICONTROL 結構描述路徑]**&#x200B;和&#x200B;**[!UICONTROL 結構描述型別]**&#x200B;的更新值。
+
+   1. 輸入容器的&#x200B;**[!UICONTROL 顯示名稱]**。 例如：`Product Categories`。
+   1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+
+若要編輯自訂容器：
+
+1. 在&#x200B;**[!UICONTROL 顯示名稱]**&#x200B;資料行中，為自訂容器選取![更多](/help/assets/icons/More.svg)。
+1. 從內容選單中選取 ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 「編輯」]**。
+1. 在&#x200B;**[!UICONTROL 編輯容器]**&#x200B;對話方塊中：
+   1. 修改&#x200B;**[!UICONTROL 容器]**&#x200B;或&#x200B;**[!UICONTROL 顯示名稱]**&#x200B;或兩者。
+   1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+
+若要刪除自訂容器：
+
+1. 在[顯示名稱]欄中選取自訂容器的![更多](/help/assets/icons/More.svg)。
+1. 從內容功能表中選取![刪除](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]**。
+
+   >[!NOTE]
+   >
+   >自訂容器會被刪除，恕不確認。
+   >
+
+若要變更自訂容器清單：
+
+1. 選取![資料行設定](/help/assets/icons/ColumnSetting.svg)。
+1. 在&#x200B;**[!UICONTROL 自訂資料表]**&#x200B;中：
+   1. 選取要顯示的欄。
+   1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+
+
 ## 元件
 
 接下來，您可以設定資料視圖的元件，這代表您可以從結構描述元素建立量度和維度。 您也可以使用標準元件。
@@ -157,13 +237,11 @@ ht-degree: 93%
 
    ![元件標籤](assets/dataview-components.png)
 
-   您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「結構描述」欄位]。  已包含的元件是所有資料視圖 (如事件、人員、工作階段量度以及分鐘、季度、週維度) 所需的標準元件 (系統產生)。 Adobe 預設會套用篩選器「**[!UICONTROL 包含資料]**」和「**[!UICONTROL 未棄用]**」，僅顯示包含資料且未棄用的結構描述欄位。
+   您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「結構描述」欄位]。  已包含的元件是所有資料視圖 (如事件、人員、工作階段量度以及分鐘、季度、週維度) 所需的標準元件 (系統產生)。<ul><li>當您定義c[自訂容器](#containers-1)時，將會使用![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL _自訂容器名稱&#x200B;_發生次數]**&#x200B;自動新增並識別這些容器的量度。</li><li>篩選條件&#x200B;**[!UICONTROL 並未過時]**&#x200B;預設為套用，因此只會顯示未過時的結構描述欄位。</li></ul>
 
 1. 使用「![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)**[!UICONTROL 搜尋結構描述欄位]**」來搜尋結構描述欄位，或者移動到任何資料集集合中尋找欄位，例如「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 事件資料集]**」或「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 查詢資料集]**」。 對於事件資料集，![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL XDM欄位]**&#x200B;和![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL 臨機欄位和關聯欄位]**&#x200B;有可用的個別集合。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **建立衍生欄位**&#x200B;來建立衍生欄位。 請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
-1. 當您找到特定結構描述欄位或已經定義衍生欄位時，將該欄位例如「![手柄圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg)**[!UICONTROL 頁面名稱]**」，從左側邊欄拖進「**[!UICONTROL 包含的元件]**」之下的「**[!UICONTROL 量度]**」或「**[!UICONTROL 維度]**」區段。
-您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。 例如，在 pageName 欄位，您可以使用右側不同的「[元件設定](component-settings/overview.md)」，建立一個名為 `Product Pages` 以及另一個名為 `Error pages` 的維度。
-如果從左側邊欄拖曳一個結構描述欄位資料夾，資料夾中的欄位會自動排序成為適當的區段。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數值結構描述類型最終出現在「[!UICONTROL 量度]」區段中。 您也可以按一下「**[!UICONTROL 新增全部]**」，並新增所有結構描述欄位至其各自的區段。
+1. 當您找到特定結構描述欄位或已經定義衍生欄位時，將該欄位例如「![手柄圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg)**[!UICONTROL 頁面名稱]**」，從左側邊欄拖進「**[!UICONTROL 包含的元件]**」之下的「**[!UICONTROL 量度]**」或「**[!UICONTROL 維度]**」區段。您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。 例如，在 pageName 欄位，您可以使用右側不同的「[元件設定](component-settings/overview.md)」，建立一個名為 `Product Pages` 以及另一個名為 `Error pages` 的維度。如果從左側邊欄拖曳一個結構描述欄位資料夾，資料夾中的欄位會自動排序成為適當的區段。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數值結構描述類型最終出現在「[!UICONTROL 量度]」區段中。 您也可以按一下「**[!UICONTROL 新增全部]**」，並新增所有結構描述欄位至其各自的區段。
 
 1. 選取元件後，右側會出現設定。
 

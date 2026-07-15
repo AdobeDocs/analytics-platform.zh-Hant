@@ -5,6 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
+hold: true
 autotag-review: '2026-05-19T09:11:52.108Z'
 TQID: 'https://experienceleague.adobe.com/zvIcmaZiq3dtL-6b8fal6l2pWVLUbfVcOGWgyuqMqjE'
 product_v2:
@@ -17,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 65ed91c47b271257451243db6f7e50e127ff4b68
 workflow-type: tm+mt
-source-wordcount: 930
-ht-degree: 95%
+source-wordcount: 955
+ht-degree: 93%
 
 ---
 
@@ -62,7 +63,7 @@ ht-degree: 95%
 * **[!UICONTROL 準則]**：您希望如何處理分隔的值清單。
    * **[!UICONTROL 從左側]**：從分隔清單的開頭開始並往前計數。
    * **[!UICONTROL 從右側]**：從分隔清單的結尾開始並往後計數。
-   * **[!UICONTROL 轉換成陣列]**：將此維度視為物件陣列結構描述元素來處理。
+   * **[!UICONTROL 轉換成陣列]**：將此維度視為物件陣列結構描述元素來處理。 此維度會變成可用的[自訂容器](/help/data-views/create-dataview.md#containers-1)，您可以在資料檢視中選取並用於Workspace專案中的[子事件分析](/help/components/segments/sub-event.md)。
 * **[!UICONTROL 分隔字元]**：欄位使用的分隔字元。
 * **[!UICONTROL 索引]**：只有在準則為「從左側/右側」時才會出現。 猶如在陣列中的元素編號。 例如，如果字串輸入為 `"Fox,Turtle,Rabbit,Wolf"`，而索引為 3，則輸入為 `"Rabbit"`。 如果索引高於分隔元素數，則套用[無值選項](no-value-options.md)。
 

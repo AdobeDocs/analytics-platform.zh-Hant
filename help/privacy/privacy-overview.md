@@ -4,6 +4,7 @@ description: 說明資料控管如何在 Customer Journey Analytics 中運作。
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
+hold: true
 autotag-review: '2026-05-19T09:18:17.400Z'
 TQID: 'https://experienceleague.adobe.com/oDdNRwjtEU2vmeDvQ3DcM8w6XKQTBoTaXAIhmgjSoBk'
 product_v2:
@@ -19,10 +20,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 116c169326e98f4e3d649c2fe72dbff44eaa0225
 workflow-type: tm+mt
-source-wordcount: 469
-ht-degree: 100%
+source-wordcount: 560
+ht-degree: 88%
 
 ---
 
@@ -42,6 +43,12 @@ Adobe Customer Journey Analytics 和 [Adobe Experience Platform 資料控管](ht
 
 [了解更多](/help/data-views/data-governance.md)
 
+## 同意報表和篩選
+
+Customer Journey Analytics可在Experience Platform設定檔資料集中使用同意原則成員資格資料，以報告訪客同意，並選擇性在擷取非同意的訪客資料之前將其排除。 同意報告可讓同意原則在Analysis Workspace中成為可用元件，而同意篩選會根據您設定的行銷動作，排除擷取時間未經同意的訪客。
+
+[了解更多](/help/connections/consent-reporting-filtering/consent-overview.md)
+
 ## 隱私權請求
 
 Adobe 根據適用的本地和國際法律來處理隱私權請求。
@@ -54,9 +61,7 @@ Customer Journey Analytics 不會直接訂閱一般資料保護規 (GDPR) 集中
 
 ## CCPA
 
-加州消費者隱私權法案 (California Consumer Privacy Act, CCPA) 強化了美國加州居民的隱私權和消費者保護力道。 本法案自 2020 年 1 月 1 日起生效。
-CCPA 為加州居民提供了新的資料隱私權，例如有權存取和刪除其個人資料、有權得知其個人資料是否遭到販售或揭露 (以及對象是誰)，以及有權拒絕廠商販售其個人資料。
-根據 CCPA，Privacy Service 將會支援請求退出個人資料販售行列的功能。
+加州消費者隱私權法案 (California Consumer Privacy Act, CCPA) 強化了美國加州居民的隱私權和消費者保護力道。 本法案自 2020 年 1 月 1 日起生效。CCPA 為加州居民提供了新的資料隱私權，例如有權存取和刪除其個人資料、有權得知其個人資料是否遭到販售或揭露 (以及對象是誰)，以及有權拒絕廠商販售其個人資料。根據 CCPA，Privacy Service 將會支援請求退出個人資料販售行列的功能。
 
 >[!MORELIKETHIS]
 >
