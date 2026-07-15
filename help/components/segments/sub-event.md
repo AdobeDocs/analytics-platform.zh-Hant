@@ -2,16 +2,13 @@
 title: 子事件分析
 description: 瞭解子事件分析如何讓您在Customer Journey Analytics中篩選事件內的個別產品或其他容器，消除產品報表中的歸因出血。
 feature: Segmentation
-hold: true
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: c504a631398d14479c9a2b70d9ef43ac88e35704
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 0%
+source-wordcount: 630
+ht-degree: 9%
 
 ---
 
@@ -23,10 +20,10 @@ ht-degree: 0%
 
 - 依特定產品類別分段，而不包括同一訂單購買的所有其他產品
 - 依內容分析資料中的特定資產類別劃分割槽段？
-- 在媒體分析資料中的特定媒體頻道上分段。
+- 依媒體分析資料中的特定媒體頻道進行分段。
 
 
-在Customer Journey Analytics中，您可以在資料檢視中定義您要使用子事件分析的容器。 若沒有子事件分析，對容器專案屬性進行分段會傳回事件中的任何專案符合容器專案屬性的所有事件。 結果是不正確的歸因和膨脹的收入量度。 子事件分析會將篩選器範圍縮小至事件中的個別專案列，並解決這些問題。
+在Customer Journey Analytics中，您可以在資料檢視中定義您要使用子事件分析的容器。 若沒有子事件分析，對容器專案屬性進行分段會傳回所有事件、工作階段、人員、（全域）帳戶[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、購買群組[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、商機[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}或您定義的其他[容器](/help/data-views/create-dataview.md#containers-1)。 結果是不正確的歸因和膨脹的收入量度。 子事件分析會將篩選器範圍縮小至事件中的個別容器列，並解決這些問題。
 
 在子事件分析中，「排除」邏輯的行為與針對容器的標準事件層級排除不同。 當您排除容器中的專案屬性時，區段會傳回容器中有&#x200B;**專案**&#x200B;但不符合排除條件的事件。 區段不會傳回完全沒有專案的事件。
 
