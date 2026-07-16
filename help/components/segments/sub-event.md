@@ -3,8 +3,10 @@ title: 子事件分析
 description: 瞭解子事件分析如何讓您在Customer Journey Analytics中篩選事件內的個別產品或其他容器，消除產品報表中的歸因出血。
 feature: Segmentation
 hide: true
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
 source-git-commit: babf5a87458103ca962113114d18b9dd8e1ab303
 workflow-type: tm+mt
 source-wordcount: 680
@@ -41,8 +43,8 @@ ht-degree: 8%
 
 ![顯示產品類別專業套裝事件層級劃分的面板](./assets/product-category-segmentation-events.png)
 
-因此，所有包含至少一個&#x200B;**[!UICONTROL 專業套裝]** **[!UICONTROL product_category]**&#x200B;的訂單都會被考慮，而且這些訂單中其他產品的收入會包含在&#x200B;**[!UICONTROL 收入]**量度中。
-當您報告類別時，會報告**[!UICONTROL product_category]**&#x200B;的所有其他值，這些值屬於包含&#x200B;**[!UICONTROL 專業套裝]** **[!UICONTROL product_category]**&#x200B;之產品的訂單。
+因此，所有包含至少一個&#x200B;**[!UICONTROL 專業套裝]** **[!UICONTROL product_category]**&#x200B;的訂單都會被考慮，而且這些訂單中其他產品的收入會包含在&#x200B;**[!UICONTROL 收入]**&#x200B;量度中。
+當您報告類別時，會報告&#x200B;**[!UICONTROL product_category]**&#x200B;的所有其他值，這些值屬於包含&#x200B;**[!UICONTROL 專業套裝]** **[!UICONTROL product_category]**&#x200B;之產品的訂單。
 
 >[!TAB 子事件分析]
 
@@ -54,8 +56,8 @@ ht-degree: 8%
 
 ![顯示產品類別專業套裝之子事件層級區段的面板](./assets/product-category-segmentation-subevents.png)
 
-因此，所有至少包含&#x200B;**[!UICONTROL 專業套裝]** **[!UICONTROL product_category]**&#x200B;的訂單都會被考慮，而且在&#x200B;**[!UICONTROL 收入]**&#x200B;量度中，只會包含屬於&#x200B;**[!UICONTROL 專業套裝]** **[!UICONTROL product_categorey]**的產品收入。
-當您報告類別時，僅報告**[!UICONTROL 專業套裝]** **[!UICONTROL product_category]**。
+因此，所有至少包含&#x200B;**[!UICONTROL 專業套裝]** **[!UICONTROL product_category]**&#x200B;的訂單都會被考慮，而且在&#x200B;**[!UICONTROL 收入]**&#x200B;量度中，只會包含屬於&#x200B;**[!UICONTROL 專業套裝]** **[!UICONTROL product_categorey]**&#x200B;的產品收入。
+當您報告類別時，僅報告&#x200B;**[!UICONTROL 專業套裝]** **[!UICONTROL product_category]**。
 
 >[!TAB 子事件分析（排除）]
 
