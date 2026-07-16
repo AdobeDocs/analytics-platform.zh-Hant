@@ -21,10 +21,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ddbeb022f4850c2f872f612c86fb37a94b43a73d
+source-git-commit: 3eae7d76014165ec03151b7c2ec87952f357d4a3
 workflow-type: tm+mt
-source-wordcount: 10413
-ht-degree: 91%
+source-wordcount: 10479
+ht-degree: 90%
 
 ---
 
@@ -404,12 +404,22 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="connection_personid"
 >title="個人 ID"
->abstract="選取涵蓋事件範圍廣泛的身分或身分對應型別欄位。 包含的值會提升至先前設定之人員識別碼名稱空間（在B2B拼接設定中）中的值。"
+>abstract="在 Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取個人 ID。"
 
 >[!CONTEXTUALHELP]
 >id="connection_accountid"
 >title="帳戶 ID"
 >abstract="從 Experience Platform 資料集結構描述中已定義之可用身分識別當中，選取一個帳戶 ID (帳戶的唯一識別碼)。"
+
+>[!CONTEXTUALHELP]
+>id="connection_b2bstitching_personid"
+>title="人員 ID"
+>abstract="選取涵蓋事件範圍廣泛的身分或身分對應型別欄位。 包含的值將提升至先前設定之人員識別碼名稱空間中的值。"
+
+>[!CONTEXTUALHELP]
+>id="connection_b2bstitching_accountid"
+>title="帳戶 ID"
+>abstract="您可選擇從資料集結構描述中所定義的可用非身分或非個人身分欄位中選取帳戶ID。 當個人對帳戶資料集中沒有相關的帳戶ID資訊時，包含的值將用作列層級的唯一帳戶識別碼。"
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
