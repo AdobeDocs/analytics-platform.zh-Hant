@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: eafeab50e86b3e98f372c70a0fd43494015ca002
+source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: 388
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 您可以將Experience Platform設定檔資料集的同意原則資料擷取到Customer Journey Analytics連線。
 
-在您[建立同意報告及篩選設定](/help/connections/consent-reporting-filtering/consent-configure.md)後，同意原則資料在已設定連線的資料檢視中成為新的元件。 如果您有權存取存在這些元件的資料檢視，您可以在Analysis Workspace中的任何地方使用這些元件。
+在您[建立同意報告和篩選設定](/help/connections/consent-reporting-filtering/consent-configure.md)並啟用報告後，同意原則資料將作為已設定連線下資料檢視中的新元件使用。 如果您有權存取存在這些元件的資料檢視，您可以在Analysis Workspace中的任何地方使用這些元件。
 
 ## 同意原則元件
 

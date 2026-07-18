@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: eafeab50e86b3e98f372c70a0fd43494015ca002
+source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
 workflow-type: tm+mt
-source-wordcount: 990
+source-wordcount: 1058
 ht-degree: 2%
 
 ---
@@ -29,6 +29,15 @@ ht-degree: 2%
 # 同意報表和篩選概觀
 
 同意報表和篩選會使用儲存在Adobe Experience Platform設定檔資料集中的同意原則成員資格資料，協助您報告訪客同意，並可選擇在未經同意的訪客資料內嵌至Customer Journey Analytics之前將其排除。
+
+## 先決條件
+
+在設定同意報告和篩選之前，請確定：
+
+* 您的組織已授權Adobe Healthcare Shield或Privacy &amp; Security Shield。
+* 您在Customer Journey Analytics中擁有系統管理員許可權。
+* 您要使用的沙箱包含設定檔資料集，其中的`consentPoliciesIDMap`欄位中有同意原則成員資格資料。
+* 您要設定的連線已經存在。 如需詳細資訊，請參閱[建立或編輯連線](/help/connections/create-connection.md)。
 
 下圖和相關表格高階呈現同意報告和篩選如何在Analysis Workspace中使用同意原則資料，以及篩選內嵌時的訪客資料：
 
