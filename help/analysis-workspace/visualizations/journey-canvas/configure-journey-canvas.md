@@ -5,27 +5,15 @@ feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
 TQID: https://experienceleague.adobe.com/pC3wjv6Q7RHRfDfHq75CP2Lqd-HzN-s7iLZ9t4N4ZR0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c6b215f9fe718d0d3e8f81b7f55421c909b69c5a
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 782311939794bab0f04da1df3dccdc3a9847449f
 workflow-type: tm+mt
-source-wordcount: 6499
-ht-degree: 91%
+source-wordcount: 6697
+ht-degree: 88%
 
 ---
 
@@ -51,7 +39,7 @@ ht-degree: 91%
 
 ## 開始建立歷程畫布視覺化圖表
 
-1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg) [!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
+1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg)[!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
 
    或
 
@@ -92,8 +80,44 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_percentage_value"
->title="選擇百分比的計算方式"
+>title="百分比值"
 >abstract="每個節點上顯示的百分比是根據您設定的主要和次要量度。 您可以選擇百分比是與開始節點、上一個節點還是報告套裝中的所有資料相關。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_arrow_settings"
+>title="箭號設定"
+>abstract="選擇是否顯示或隱藏畫布上的標籤。 標籤是在Journey Canvas中建立的自訂名稱。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_arrow_settings_ajo"
+>title="箭號設定"
+>abstract="選擇是否顯示或隱藏畫布上的標籤和值。 標籤可以是在Journey Canvas中建立的自訂名稱，也可以是在Journey Optimizer中建立的標籤或條件。 值是數字和百分比，可指出歷程中從某個節點移至下一個節點的人或工作階段。 "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_show_fallout"
+>title="顯示流失"
+>abstract="流失資料顯示歷程每個節點上從未到達歷程下一個節點的人員或工作階段數的百分比和數目。 他們可能已經在網站上執行了其他動作，但他們從未符合歷程中下一個節點定義的條件。<br/>流失資料會顯示人員或工作階段（無論您選擇的主要量度為何），且會根據「歷程畫布」容器設定。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_compare"
+>title="比較對象"
+>abstract="用來比較目前歷程資料與先前時段的日期範圍。 當您選取比較日期範圍時，歷程中的每個節點會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變更。 "
 
 <!-- markdownlint-enable MD034 -->
 
