@@ -5,20 +5,13 @@ feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c2d922af3eaf86e487e6c2a5318c7693f1be3dcc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f51766fdcb891b8cea93ea047b011792dc3c0ae6
 workflow-type: tm+mt
-source-wordcount: 1626
+source-wordcount: 1631
 ht-degree: 55%
 
 ---
@@ -37,7 +30,7 @@ ht-degree: 55%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列和欄設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列和欄設定](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}示範影片。
 
 {{videoaa}}
 
@@ -113,14 +106,14 @@ ht-degree: 55%
 
 ## 變更列高
 
-您可以將專案的[檢視密度](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。
+您可以將專案的[檢視密度](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。
 
 
 ## 內嵌分類
 
 內嵌分類可讓您重新命名或組合自由表格中的列。 以及從表格中修改的列建立衍生欄位。
 
-以下範例說明如何使用&#x200B;**[!UICONTROL 重新命名選取的列]**、**[!UICONTROL 合併選取的列]**&#x200B;和&#x200B;**[!UICONTROL 建立為衍生欄位]**&#x200B;內容功能表選項。 以及如何重設修改後的自由表格。
+以下範例說明如何使用&#x200B;**[!UICONTROL 重新命名選取的資料列]**、**[!UICONTROL 合併選取的資料列]**&#x200B;和&#x200B;**[!UICONTROL 建立修改資料列做為衍生欄位]**&#x200B;內容功能表選項。 以及如何重設修改後的自由表格。
 
 * 將&#x200B;**[!UICONTROL 沒有值]**&#x200B;資料列重新命名為&#x200B;**[!UICONTROL 其他]**。
 
@@ -161,7 +154,7 @@ ht-degree: 55%
 
 * 將自由表格重設為修改前的狀態。
 
-  1. 選取&#x200B;**[!UICONTROL _維度名稱&#x200B;_（已修改）]**&#x200B;旁的![齒輪](/help/assets/icons/Gear.svg)。
+  1. 選取&#x200B;**[!UICONTROL _維度名稱&#x200B;_（已修改）]**旁的![齒輪](/help/assets/icons/Gear.svg)。
   1. 從&#x200B;**[!UICONTROL 重新命名的列]**&#x200B;快顯視窗中選取&#x200B;**[!UICONTROL 重設修改過的列]**。
 
      ![重設自由表格](assets/popup-reset.png)
