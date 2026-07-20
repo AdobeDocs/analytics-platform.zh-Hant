@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3eae7d76014165ec03151b7c2ec87952f357d4a3
+source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
 workflow-type: tm+mt
 source-wordcount: 10479
 ht-degree: 90%
@@ -419,7 +419,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
 >title="帳戶 ID"
->abstract="您可選擇從資料集結構描述中所定義的可用非身分或非個人身分欄位中選取帳戶ID。 當個人對帳戶資料集中沒有相關的帳戶ID資訊時，包含的值將用作列層級的唯一帳戶識別碼。"
+>abstract="您可選擇從XDM結構描述中定義的可用非身分或非人員身分欄位中選取帳戶ID。 當個人對帳戶資料集中沒有相關的帳戶ID資訊時，包含的值將用作列層級的唯一帳戶識別碼。"
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
@@ -582,8 +582,8 @@ ht-degree: 90%
    * 若要顯示資料表中每個資料行的名稱空間，請啟用&#x200B;**[!UICONTROL 顯示資料行名稱空間]**。
    * 若要搜尋範例資料，請使用![搜尋](/help/assets/icons/Search.svg)。
    * 若要設定要顯示哪些欄，請選取![欄設定](/help/assets/icons/ColumnSetting.svg)。 <br/>在&#x200B;**[!UICONTROL 自訂資料表]**&#x200B;對話方塊中：
-      1. 選取要在表格中顯示的欄。
-      1. 選取&#x200B;**[!UICONTROL 套用]**&#x200B;以套用選取專案，或選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消選取專案。
+     1. 選取要在表格中顯示的欄。
+     1. 選取&#x200B;**[!UICONTROL 套用]**&#x200B;以套用選取專案，或選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消選取專案。
    * 若要顯示包含陣列或物件資料的資料行資料，請選取&#x200B;**[!UICONTROL 值]**。
 
    **[!UICONTROL 資料集資訊]**&#x200B;窗格會顯示資料集的詳細資料。 選取&#x200B;**[!UICONTROL 結構描述]**&#x200B;或&#x200B;**[!UICONTROL 資料集]**&#x200B;的值，在新的瀏覽器標籤中開啟Experience Platform的相關介面。
@@ -674,8 +674,8 @@ ht-degree: 90%
    * 若要顯示資料表中每個資料行的名稱空間，請啟用&#x200B;**[!UICONTROL 顯示資料行名稱空間]**。
    * 若要搜尋範例資料，請使用![搜尋](/help/assets/icons/Search.svg)。
    * 若要設定要顯示哪些欄，請選取![欄設定](/help/assets/icons/ColumnSetting.svg)。 <br/>在&#x200B;**[!UICONTROL 自訂資料表]**&#x200B;對話方塊中：
-      1. 選取要在表格中顯示的欄。
-      1. 選取&#x200B;**[!UICONTROL 套用]**&#x200B;以套用選取專案，或選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消選取專案。
+     1. 選取要在表格中顯示的欄。
+     1. 選取&#x200B;**[!UICONTROL 套用]**&#x200B;以套用選取專案，或選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消選取專案。
    * 若要顯示包含陣列或物件資料的資料行資料，請選取&#x200B;**[!UICONTROL 值]**。
 
    **[!UICONTROL 資料集資訊]**&#x200B;窗格會顯示資料集的詳細資料。 選取&#x200B;**[!UICONTROL 結構描述]**&#x200B;或&#x200B;**[!UICONTROL 資料集]**&#x200B;的值，在新的瀏覽器標籤中開啟Experience Platform的相關介面。
