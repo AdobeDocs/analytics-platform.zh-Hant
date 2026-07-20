@@ -5,20 +5,13 @@ feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c2d922af3eaf86e487e6c2a5318c7693f1be3dcc
 workflow-type: tm+mt
-source-wordcount: 1602
+source-wordcount: 1626
 ht-degree: 55%
 
 ---
@@ -37,7 +30,7 @@ ht-degree: 55%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列和欄設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列和欄設定](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}示範影片。
 
 {{videoaa}}
 
@@ -89,9 +82,9 @@ ht-degree: 55%
 | **[!UICONTROL 趨勢選取項目]** | 建立選取項目的趨勢折線圖視覺化效果。 |
 | **[!UICONTROL 僅顯示選取的列]** | 僅顯示視覺效果中的選取的列。 |
 | **[!UICONTROL 顯示所有列]** | 顯示視覺效果中的所有列。 |
-| **[!UICONTROL 重新命名選取的列]** | *有限測試可用性*<br/>&#x200B;重新命名選取的資料列。 在&#x200B;**[!UICONTROL 重新命名選取的資料列]**&#x200B;對話方塊中輸入&#x200B;**[!UICONTROL 名稱]**。 選取「**[!UICONTROL 確定]**」以確認，或選取「**[!UICONTROL 取消]**」以取消。 重新命名自由表格中的列後，標題欄中的維度名稱會附加&#x200B;**[!UICONTROL （已修改）]**，且有![齒輪](/help/assets/icons/Gear.svg)圖示可用來重設維度標題欄中重新命名的列。 請參閱[內嵌分類範例](#inline-classifications-example)。 |
-| **[!UICONTROL 合併選取的列]** | *有限的測試可用性*<br/>&#x200B;結合選取的資料列。 在&#x200B;**[!UICONTROL 合併選取的資料列]**&#x200B;對話方塊中輸入&#x200B;**[!UICONTROL 名稱]**。 選取「**[!UICONTROL 確定]**」以確認，或選取「**[!UICONTROL 取消]**」以取消。 自由表格中的列合併後，標題欄中的維度名稱會附加&#x200B;**[!UICONTROL （已修改）]**，並且有![齒輪](/help/assets/icons/Gear.svg)圖示可用來重設維度標題欄中重新命名的列。 請參閱[內嵌分類範例](#inline-classifications-example)。 |
-| **[!UICONTROL 建立為衍生欄位]** | *有限測試可用性&#x200B;*<br/>*您必須是Customer Journey Analytics產品管理員才能檢視此內容功能表選項。*<br/>&#x200B;適用於自由表格中任何選取的資料列，這些資料列在重新命名或合併資料列之後經過修改。 選取後，[衍生欄位介面](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field)會開啟，其中包含您已預先填入的自由表格修改內容。 請參閱[內嵌分類範例](#inline-classifications-example)。 |
+| **[!UICONTROL 重新命名選取的列]** | 重新命名選取的列。 在&#x200B;**[!UICONTROL 重新命名選取的資料列]**&#x200B;對話方塊中輸入&#x200B;**[!UICONTROL 名稱]**。 選取「**[!UICONTROL 確定]**」以確認，或選取「**[!UICONTROL 取消]**」以取消。 重新命名自由表格中的列後，標題欄中的維度名稱會附加&#x200B;**[!UICONTROL （已修改）]**，且有![齒輪](/help/assets/icons/Gear.svg)圖示可用來重設維度標題欄中已修改的列。 請參閱[內嵌分類](#inline-classifications)。 |
+| **[!UICONTROL 合併選取的列]** | 組合選取的列。 在&#x200B;**[!UICONTROL 合併選取的資料列]**&#x200B;對話方塊中輸入&#x200B;**[!UICONTROL 名稱]**。 選取「**[!UICONTROL 確定]**」以確認，或選取「**[!UICONTROL 取消]**」以取消。 自由表格中的列合併後，標題欄中的維度名稱會附加&#x200B;**[!UICONTROL （已修改）]**，並且有![齒輪](/help/assets/icons/Gear.svg)圖示可用來重設維度標題欄中已修改的列。 請參閱[內嵌分類](#inline-classifications)。 |
+| **[!UICONTROL 將修改過的資料列建立為衍生欄位]** | *您必須是Customer Journey Analytics產品管理員才能檢視此內容功能表選項。*<br/>&#x200B;適用於自由表格中任何選取的資料列，這些資料列在重新命名或合併資料列之後經過修改。 選取後，[衍生欄位介面](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field)會開啟，其中包含您已預先填入的自由表格修改內容。 請參閱[內嵌分類](#inline-classifications)。 |
 | **[!UICONTROL 從選取項目建立註解]** | 開啟[Annotation Builder](/help/components/annotations/create-annotations.md#annotation-builder)以建立選取範圍的註解。 |
 | **[!UICONTROL 從選取專案建立區段]** | 開啟[區段產生器](/help/components/segments/seg-builder.md)以從選取專案建立區段。 |
 | **[!UICONTROL 從選取項目中建立客群]** | 開啟[對象產生器](/help/components/audiences/publish.md#audience-builder)，從選取專案建立對象。 |
@@ -113,55 +106,55 @@ ht-degree: 55%
 
 ## 變更列高
 
-您可以將專案的[檢視密度](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。
+您可以將專案的[檢視密度](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density)設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。
 
 
-## 內嵌分類範例
+## 內嵌分類
 
-{{release-limited-testing-section}}
+內嵌分類可讓您重新命名或組合自由表格中的列。 以及從表格中修改的列建立衍生欄位。
 
-此範例說明如何使用&#x200B;**[!UICONTROL 重新命名選取的列]**、**[!UICONTROL 合併選取的列]**&#x200B;和&#x200B;**[!UICONTROL 建立為衍生欄位]**&#x200B;內容功能表選項。 以及如何重設修改後的自由表格。
+以下範例說明如何使用&#x200B;**[!UICONTROL 重新命名選取的列]**、**[!UICONTROL 合併選取的列]**&#x200B;和&#x200B;**[!UICONTROL 建立為衍生欄位]**&#x200B;內容功能表選項。 以及如何重設修改後的自由表格。
 
 * 將&#x200B;**[!UICONTROL 沒有值]**&#x200B;資料列重新命名為&#x200B;**[!UICONTROL 其他]**。
 
-   1. 從選取的&#x200B;**[!UICONTROL 無值]**&#x200B;資料列的內容功能表中，選取&#x200B;**[!UICONTROL 重新命名選取的資料列]**。
+  1. 從選取的&#x200B;**[!UICONTROL 無值]**&#x200B;資料列的內容功能表中，選取&#x200B;**[!UICONTROL 重新命名選取的資料列]**。
 
-      ![選取[重新命名選取的資料列內容]功能表選項](assets/context-rename.png)
+     ![選取[重新命名選取的資料列內容]功能表選項](assets/context-rename.png)
 
-   1. 在&#x200B;**[!UICONTROL 重新命名選取的列]**&#x200B;對話方塊中：
+  1. 在&#x200B;**[!UICONTROL 重新命名選取的列]**&#x200B;對話方塊中：
 
-      ![重新命名選取的資料列對話方塊](assets/dialog-rename.png)
+     ![重新命名選取的資料列對話方塊](assets/dialog-rename.png)
 
-      1. 輸入<code>其他</code> 為&#x200B;**[!UICONTROL 名稱]**。
-      1. 選取&#x200B;**[!UICONTROL 確定]**。
+     1. 輸入<code>其他</code> 為&#x200B;**[!UICONTROL 名稱]**。
+     1. 選取&#x200B;**[!UICONTROL 確定]**。
 
 * 將&#x200B;**[!UICONTROL 男性]**&#x200B;和&#x200B;**[!UICONTROL 女性]**&#x200B;資料列合併為一個&#x200B;**[!UICONTROL 成年人]**&#x200B;資料列。
 
-   1. 選取&#x200B;**[!UICONTROL 男性]**&#x200B;和&#x200B;**[!UICONTROL 女性]**&#x200B;列。
-   1. 從任何選取資料列的內容功能表選取&#x200B;**[!UICONTROL 合併選取的資料列]**。
+  1. 選取&#x200B;**[!UICONTROL 男性]**&#x200B;和&#x200B;**[!UICONTROL 女性]**&#x200B;列。
+  1. 從任何選取資料列的內容功能表選取&#x200B;**[!UICONTROL 合併選取的資料列]**。
 
-      ![選取合併選取的資料列功能表選項](assets/context-combine.png)
+     ![選取合併選取的資料列功能表選項](assets/context-combine.png)
 
-   1. 在&#x200B;**[!UICONTROL 結合選取的列]**&#x200B;對話方塊中：
+  1. 在&#x200B;**[!UICONTROL 結合選取的列]**&#x200B;對話方塊中：
 
-      ![結合選取的資料列對話方塊](assets/dialog-combine.png)
+     ![結合選取的資料列對話方塊](assets/dialog-combine.png)
 
-      1. 輸入<code>成年人</code> 為&#x200B;**[!UICONTROL 名稱]**。
-      1. 選取&#x200B;**[!UICONTROL 確定]**。
+     1. 輸入<code>成年人</code> 為&#x200B;**[!UICONTROL 名稱]**。
+     1. 選取&#x200B;**[!UICONTROL 確定]**。
 
 * 從自由表格中的修改建立衍生欄位。
 
-   1. 從內容功能表，為修改表格中選取的任何資料列選取&#x200B;**[!UICONTROL 建立為衍生欄位]**。
+  1. 選取&#x200B;**[!UICONTROL 從內容功能表，為已修改資料表中任何選取的資料列建立已修改資料列作為衍生欄位]**。
 
-      ![選取[建立為衍生欄位]功能表選項](assets/context-derived.png)
+     ![選取[將修改資料列建立為衍生欄位功能表]選項](assets/context-derived.png)
 
-   1. 根據表格中所做的所有修改，檢查、修改和儲存衍生欄位的定義。
+  1. 根據表格中所做的所有修改，檢查、修改和儲存衍生欄位的定義。
 
-      ![建立衍生欄位對話方塊](assets/dialog-derived.png)
+     ![建立衍生欄位對話方塊](assets/dialog-derived.png)
 
 * 將自由表格重設為修改前的狀態。
 
-   1. 選取&#x200B;**[!UICONTROL _維度名稱&#x200B;_（已修改）]**&#x200B;旁的![齒輪](/help/assets/icons/Gear.svg)。
-   1. 從&#x200B;**[!UICONTROL 重新命名的列]**&#x200B;快顯視窗中選取&#x200B;**[!UICONTROL 重設重新命名的列]**。
+  1. 選取&#x200B;**[!UICONTROL _維度名稱&#x200B;_（已修改）]**旁的![齒輪](/help/assets/icons/Gear.svg)。
+  1. 從&#x200B;**[!UICONTROL 重新命名的列]**&#x200B;快顯視窗中選取&#x200B;**[!UICONTROL 重設修改過的列]**。
 
-      ![重設自由表格](assets/popup-reset.png)
+     ![重設自由表格](assets/popup-reset.png)
