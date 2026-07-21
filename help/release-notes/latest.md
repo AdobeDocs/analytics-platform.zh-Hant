@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b988d8cee94e40c6bed62f7ef22f209b7e38f46c
+source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
 workflow-type: tm+mt
-source-wordcount: 699
+source-wordcount: 696
 ht-degree: 39%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 39%
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
-| **子事件分析** <br/>子事件分析可讓您在比事件層級更精細的層級分析資料。 您可以對事件中的個別容器進行分段，而不需篩選整個事件。 <p>例如，您可以將特定產品類別分段，而不納入同一訂單中購買的所有其他產品。 您也可以將屬於事件資料一部分的物件或陣列，定義為資料檢視中的個別容器。</p><p>(文件連結待補充。)</p> | 2026年7月15日 | 2026年7月底 |
+| **子事件分析** <br/>[子事件分析](/help/components/segments/sub-event.md)可讓您在比事件層級更精細的層級分析資料。 您可以對事件中的個別容器進行分段，而不需篩選整個事件。 <p>例如，您可以將特定產品類別分段，而不納入同一訂單中購買的所有其他產品。 您也可以在資料檢視中，將屬於事件資料一部分的物件或陣列定義為單獨的[自訂容器](/help/data-views/create-dataview.md#custom-containers)。 | 2026年7月21日 | 2026年7月底 |
 | **B2B edition：支援ad hoc和關聯式資料集** <br/>Customer Journey Analytics B2B edition中以帳戶為基礎的連線現在也支援ad hoc和關聯式資料集。<p>(文件連結待補充。)</p> | | 2026年7月20日 |
 | **Content Analytics：付費媒體資料** <br/>付費媒體現在可作為Content Analytics的第三個管道使用。<p>(文件連結待補充。)</p> | | 2026年7月31日 |
 | **連線使用方式介面更新** <br/>在管理連線時，您現在可以在「使用方式」介面中檢視每個個別模組（例如Customer Journey Analytics或Customer Journey Analytics B2B edition）的使用方式詳細資料。 <p>此外，您現在可以依月份劃分每個模組的使用量報表。</p><p>(文件連結待補充。)</p> | | 2026年7月31日 |
