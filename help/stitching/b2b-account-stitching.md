@@ -136,7 +136,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用人員至帳戶拼接"
 >abstract="如果啟用，此資料集會使用B2B人員來拼接帳戶。 **[!UICONTROL 人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員ID名稱空間]**&#x200B;的值，然後用來根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集不會使用B2B Person來拼接帳戶，您必須改為選取必要的&#x200B;**[!UICONTROL 帳戶ID]**。"
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="設定 B2B 拼接設定"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="設定 B2B 拼接設定"
 
 在連線層級設定B2B拼接後，您必須針對要拼接的每個事件資料集個別啟用B2B帳戶拼接。
 
