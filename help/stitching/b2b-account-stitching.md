@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
+source-git-commit: 1dce83d0b5c760830084c1bf4e14f613b998dc10
 workflow-type: tm+mt
-source-wordcount: 1239
-ht-degree: 13%
+source-wordcount: 1245
+ht-degree: 11%
 
 ---
 
@@ -77,12 +77,12 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person"
->title="人員"
+>title="人員 ID"
 >abstract="在包含人員ID的資料集中選取欄位。 此欄位的名稱空間可以和所選人員識別碼名稱空間不同或相同。 如果兩者不同，則需要在身分圖表中連結這兩個名稱空間。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
->title="帳戶"
+>title="帳戶 ID"
 >abstract="在資料集中選取包含唯一帳戶識別碼值的欄位。 帳號ID資訊將可在任何啟用&#x200B;**[!UICONTROL 個人與帳號拼接]**&#x200B;的事件資料集列上使用。"
 
 >[!CONTEXTUALHELP]
@@ -116,8 +116,8 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
       | 欄位 | 必要 | 說明 |
       |---|:---:|---|
       | **[!UICONTROL 帳戶資料集的人員]** | ![必要](/help/assets/icons/Required.svg) | 選取將人員對應至帳戶的查詢（記錄或非時間序列資料集）。 |
-      | **[!UICONTROL 人員]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含人員 ID 的欄位。 該欄位必須標示為身分識別，且不能與「**[!UICONTROL 帳戶]**」欄位或「**[!UICONTROL 開始時間]**」欄位相同。 |
-      | **[!UICONTROL 帳戶]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含帳戶 ID 的欄位。 該欄位不能與「**[!UICONTROL 人員]**」欄位或「**[!UICONTROL 開始時間]**」欄位相同。 |
+      | **[!UICONTROL 個人 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含人員 ID 的欄位。 該欄位必須標示為身分，且不能與&#x200B;**[!UICONTROL 帳戶識別碼]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
+      | **[!UICONTROL 帳戶 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含帳戶 ID 的欄位。 該欄位不能與&#x200B;**[!UICONTROL 人員ID]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
       | **開始時間** | | 選取時間戳記欄位，其指出人員至帳戶關係何時變為有效。 |
 
       >[!NOTE]
