@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
 workflow-type: tm+mt
 source-wordcount: 10479
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -339,7 +339,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
 >title="帳戶 ID"
->abstract="在Experience Platform中，從資料集結構描述中所定義的可用非身分或非個人身分欄位中，選取帳戶ID。 當「人員對帳戶」資料集中沒有相關的帳戶ID資訊時，包含的值就會在列層級作為唯一的帳戶ID使用。"
+>abstract="在 Experience Platform 中，從資料集結構描述中所定義的可用非身分識別或非人員身分識別欄位中選取帳戶 ID。 當人員至帳戶資料集中沒有相關的帳戶 ID 資訊時，包含的值就會在列層級用作唯一的帳戶識別碼。"
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountfield"
@@ -414,12 +414,12 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_personid"
 >title="人員 ID"
->abstract="選取涵蓋事件範圍廣泛的身分或身分對應型別欄位。 包含的值將提升至先前設定之人員識別碼名稱空間中的值。"
+>abstract="選取對事件有良好覆蓋的 identity 或 identityMap 類型欄位。 包含的值將提升至先前設定之人員識別碼命名空間中的值。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
 >title="帳戶 ID"
->abstract="您可選擇從XDM結構描述中定義的可用非身分或非人員身分欄位中選取帳戶ID。 當個人對帳戶資料集中沒有相關的帳戶ID資訊時，包含的值將用作列層級的唯一帳戶識別碼。"
+>abstract="您可選擇從XDM結構描述中定義的可用非身分或非人員身分欄位中選取帳戶ID。 當人員至帳戶資料集中沒有相關的帳戶 ID 資訊時，包含的值將在列層級用作唯一的帳戶識別碼。"
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
@@ -742,7 +742,7 @@ ht-degree: 90%
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 全域帳戶 ID]** | 在您將全域帳戶做為容器新增至連線後適用。<br/>從Experience Platform資料集結構描述中定義的可用非身分或非個人身分欄位中，選取全域帳戶ID （帳戶的唯一識別碼）。 當「人員對帳戶」資料集中沒有相關的帳戶ID資訊時，包含的值就會在列層級作為唯一的帳戶ID使用。  <p>如果記錄不包含您選取做為事件資料集帳戶 ID 之身分識別的值，則會略過記錄。 |
+| **[!UICONTROL 全域帳戶 ID]** | 在您將全域帳戶做為容器新增至連線後適用。<br/>從Experience Platform資料集結構描述中定義的可用非身分或非個人身分欄位中，選取全域帳戶ID （帳戶的唯一識別碼）。 當人員至帳戶資料集中沒有相關的帳戶 ID 資訊時，包含的值就會在列層級用作唯一的帳戶識別碼。  <p>如果記錄不包含您選取做為事件資料集帳戶 ID 之身分識別的值，則會略過記錄。 |
 | **[!UICONTROL 帳戶 ID]** | 從 Experience Platform 資料集結構描述中已定義之可用身分識別當中，選取一個帳戶 ID (帳戶的唯一識別碼)。 當您未將全域帳戶做為容器新增至連線時適用。 |
 | **[!UICONTROL 機會 ID]** | 從 Experience Platform 的資料集結構描述中已定義的可用身分識別當中，選取機會 ID (機會的唯一識別碼)。 |
 | **[!UICONTROL 購買群組 ID]** | 從 Experience Platform 資料集結構描述中已定義的可用身分識別當中，選取一個購買群組 ID (購買群組的唯一識別碼)。 |

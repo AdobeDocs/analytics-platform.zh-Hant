@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 0cc15e1c3dcbd8609a47954af8602ad617c67a51
 workflow-type: tm+mt
 source-wordcount: 2774
-ht-degree: 28%
+ht-degree: 30%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user-agent"
 >title=""
->abstract="使用者代理程式資料和裝置查詢資料不得存在於相同的資料摘要設定中。"
+>abstract="使用者代理資料和裝置查詢資料不得存在於相同的資料摘要設定中。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -112,7 +112,7 @@ ht-degree: 28%
 
    >[!NOTE]
    >
-   >使用者代理程式資料和裝置查詢資料不得存在於相同的資料摘要設定中。 如果您嘗試新增衝突的元件，則會顯示錯誤。 如需詳細資訊，請參閱資料收集指南中[建立及設定資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)中的[設定裝置查詢](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#geolocation-device-lookup)。
+   >使用者代理資料和裝置查詢資料不得存在於相同的資料摘要設定中。 如果您嘗試新增衝突的元件，則會顯示錯誤。 如需詳細資訊，請參閱資料收集指南中[建立及設定資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)中的[設定裝置查詢](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#geolocation-device-lookup)。
 
 
    使用下列資訊來瞭解一律包含的維度、不可包含的維度以及必須替代的量度：
@@ -123,9 +123,9 @@ ht-degree: 28%
 
    | 維度名稱 | 附註 | 資料饋送 | 其他報告 |
    |---|---|---|---|
-   | 時間戳記UTC | 事件發生日期和時間，以UTC時區表示。 支援次秒（微秒）粒度。 | 強制 | 未提供 |
-   | 列ID | 資料摘要中包含之每一列的唯一識別碼。 | 強制 | 未提供 |
-   | 工作階段ID | 資料摘要中包含之每個工作階段的唯一識別碼。 | 強制 | 未提供 |
+   | 時間戳記 UTC | 事件發生日期和時間，以UTC時區表示。 支援次秒（微秒）粒度。 | 強制 | 未提供 |
+   | 列 ID | 資料摘要中包含的每列的唯一識別碼。 | 強制 | 未提供 |
+   | 工作階段 ID | 資料摘要中包含的每個工作階段的唯一識別碼。 | 強制 | 未提供 |
    | 人員 ID | 資料檢視和連線的個人識別碼 | 強制 | 可選標準 |
    | 帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 使用帳戶容器時的帳戶ID | 強制 | 可選標準 |
 
