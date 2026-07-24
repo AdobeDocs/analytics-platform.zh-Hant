@@ -7,23 +7,15 @@ hide: true
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 1dce83d0b5c760830084c1bf4e14f613b998dc10
 workflow-type: tm+mt
 source-wordcount: 1245
-ht-degree: 11%
+ht-degree: 18%
 
 ---
 
@@ -68,22 +60,22 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="人員識別碼命名空間"
->abstract="選取與您的報告最相關的人員身分名稱空間。 例如，電子郵件。 任何已啟用&#x200B;**[!UICONTROL 個人對帳戶拼接]**&#x200B;的事件資料集都會將個人ID提升至此個人識別碼名稱空間。"
+>abstract="選取與您的報告最相關的人員身分識別命名空間。 例如：電子郵件。 任何已啟用&#x200B;**[!UICONTROL 個人對帳戶拼接]**&#x200B;的事件資料集都會將個人ID提升至此個人識別碼名稱空間。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
 >title="人員至帳戶資料集"
->abstract="選取將人員ID對應至帳戶ID的查詢資料集。"
+>abstract="選取將人員 ID 對應至帳戶 ID 的查詢資料集。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person"
 >title="人員 ID"
->abstract="在包含人員ID的資料集中選取欄位。 此欄位的名稱空間可以和所選人員識別碼名稱空間不同或相同。 如果兩者不同，則需要在身分圖表中連結這兩個名稱空間。"
+>abstract="選取資料集中包含人員 ID 的欄位。 此欄位的命名空間可以與所選人員識別碼命名空間不同或相同。 如果兩者不同，則需要在身分識別圖中連結這兩個命名空間。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
 >title="帳戶 ID"
->abstract="在資料集中選取包含唯一帳戶識別碼值的欄位。 帳號ID資訊將可在任何啟用&#x200B;**[!UICONTROL 個人與帳號拼接]**&#x200B;的事件資料集列上使用。"
+>abstract="選取資料集中包含唯一帳戶識別碼值的欄位。 帳號ID資訊將可在任何啟用&#x200B;**[!UICONTROL 個人與帳號拼接]**&#x200B;的事件資料集列上使用。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
@@ -135,8 +127,8 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用人員至帳戶拼接"
->abstract="如果啟用，此資料集會使用B2B人員來拼接帳戶。 **[!UICONTROL 人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員ID名稱空間]**&#x200B;的值，然後用來根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集不會使用B2B Person來拼接帳戶，您必須改為選取必要的&#x200B;**[!UICONTROL 帳戶ID]**。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="設定 B2B 拼接設定"
+>abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 **[!UICONTROL 人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員ID名稱空間]**&#x200B;的值，然後用來根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集不會使用B2B Person來拼接帳戶，您必須改為選取必要的&#x200B;**[!UICONTROL 帳戶ID]**。"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="設定 B2B 拼接設定"
 
 在連線層級設定B2B拼接後，您必須針對要拼接的每個事件資料集個別啟用B2B帳戶拼接。
 
@@ -153,7 +145,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 * 人員ID的設定為必填。 該人員ID是用來根據[人員對帳戶資料集](#prerequisites)查詢帳戶ID。
 * 帳戶ID的設定為選用。
 
-在![&#128279;](assets/b2b-event-dataset-stitching-on.png)的事件資料集上彙整B2B帳戶
+在](assets/b2b-event-dataset-stitching-on.png)的事件資料集上彙整![B2B帳戶
 
 >[!TAB 關閉]
 

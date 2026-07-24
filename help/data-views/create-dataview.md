@@ -6,28 +6,15 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 TQID: https://experienceleague.adobe.com/EXiKrWVfmMRgZ4GF0OR410Mr2-P5IEjPy3Hf0FmRDJ8
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
 workflow-type: tm+mt
-source-wordcount: 3152
-ht-degree: 74%
+source-wordcount: 3043
+ht-degree: 77%
 
 ---
 
@@ -38,7 +25,7 @@ ht-degree: 74%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立或編輯資料檢視](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立或編輯資料檢視](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +54,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="dataview_externalid"
 >title="外部 ID"
->abstract="變更外部ID會影響資料檢視名稱在外部來源（例如商務智慧工具）中的顯示方式。"
+>abstract="變更外部 ID 會影響資料檢視名稱在外部來源 (例如商業智慧工具) 中的顯示方式。"
 
 
 為資料視圖提供總體設定。
@@ -87,7 +74,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="dataview_dataviewsinadobejourneyoptimizer"
 >title="Journey Optimizer 的資料釋圖"
->abstract="Customer Journey Analytics需要與Adobe Journey Optimizer相容的連線和資料檢視。 依預設，系統會建立連線和資料檢視。 或者，啟用此選項以將此項設為Adobe Journey Optimizer報告的預設資料檢視，這會將必要元件新增至資料檢視，並將資料集新增至連線。"
+>abstract="Customer Journey Analytics 需要與 Adobe Journey Optimizer 相容的連線和資料檢視。 依據預設，系統會建立連線和資料檢視。 或者，啟用此選項以將此項目設定為 Adobe Journey Optimizer 報告的預設資料檢視，這會將必要元件新增至資料檢視，並將資料集新增至連線。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo#connection" text="新增了哪些元件和資料集。"
 
 
@@ -220,9 +207,9 @@ ht-degree: 74%
 
 1. 使用「![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)**[!UICONTROL 搜尋結構描述欄位]**」來搜尋結構描述欄位，或者移動到任何資料集集合中尋找欄位，例如「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 事件資料集]**」或「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 查詢資料集]**」。 對於事件資料集，![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL XDM欄位]**&#x200B;和![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL 臨機欄位和關聯欄位]**&#x200B;有可用的個別集合。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **建立衍生欄位**&#x200B;來建立衍生欄位。 請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
-1. 找到特定結構描述欄位或定義衍生欄位後，請將該欄位（例如![控制點圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件下**&#x200B;[!UICONTROL &#x200B;量度&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B;維度&#x200B;]&#x200B;**區段]**。
-您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。 例如，從pageName欄位，使用右側不同的[元件設定](component-settings/overview.md)來建立`Product Pages`和`Error pages`維度。
-如果從左側邊欄拖曳一個結構描述欄位資料夾，資料夾中的欄位會自動排序成為適當的區段。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數值結構描述類型最終出現在「[!UICONTROL 量度]」區段中。 您也可以按一下「**[!UICONTROL 新增全部]**」，並新增所有結構描述欄位至其各自的區段。
+1. 找到特定結構描述欄位或定義衍生欄位後，請將該欄位（例如![控制點圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件下**[!UICONTROL &#x200B;量度&#x200B;]**或**[!UICONTROL &#x200B;維度&#x200B;]**區段]**。
+您可以將相同的結構欄位拖曳到維度或量度區段多次，並以不同的方式設定相同的維度或量度。例如，從pageName欄位，使用右側不同的[元件設定](component-settings/overview.md)來建立`Product Pages`和`Error pages`維度。
+如果您從左側邊欄拖曳結構描述欄位資料夾，資料夾中的欄位會自動排序到適當的區段中。字串欄位會在[!UICONTROL 維度]區段中結束，而數值結構描述型別最終出現在[!UICONTROL 量度]區段中。您也可以按一下「新增全部&#x200B;]**」**[!UICONTROL ，並將所有結構描述欄位新增至其各自的區段。
 
 1. 選取元件後，右側會出現設定。
 
@@ -292,7 +279,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_policies"
 >title="原則"
->abstract="若要支援資料合規性，請實作資料使用原則。 這些原則說明Experience Platform中允許或限制對資料執行的行銷動作。 原則篩選器將啟用的原則套用至資料視圖。"
+>abstract="若要支援資料合規性，請實作資料使用原則。 這些原則會說明 Experience Platform 中允許或限制對資料執行的行銷動作。 原則篩選器將啟用的原則套用至資料視圖。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
 
 
@@ -312,10 +299,10 @@ ht-degree: 74%
 
   在「**[!UICONTROL 篩選欄位依據]**」對話框中，您可以篩選下列類別：
 
-   * **[!UICONTROL 資料類型]** - 您可以選取下列一個或多個資料類型：[!UICONTROL 字串]、[!UICONTROL 整數]、[!UICONTROL 短整數]、[!UICONTROL 布林值]、[!UICONTROL 雙精度]、[!UICONTROL 位元組]、[!UICONTROL 長整數]、[!UICONTROL 日期]或[!UICONTROL 日期時間]。
-   * **[!UICONTROL 資料集]** - 選取一個或多個資料集。
-   * **[!UICONTROL 資料控管]**：從[!UICONTROL 自訂標籤]、[!UICONTROL 合約標籤]、[!UICONTROL 身分標籤]、[!UICONTROL 敏感度標籤]、[!UICONTROL 合作夥伴生態系統]或[!UICONTROL 原則]子類別中選取一或多個標籤。
-   * **[!UICONTROL 其他]** - 選取一個或多個選項「[!UICONTROL 包含資料]」、「[!UICONTROL 是身分識別]」或「[!UICONTROL 未棄用]」。
+  * **[!UICONTROL 資料類型]** - 您可以選取下列一個或多個資料類型：[!UICONTROL 字串]、[!UICONTROL 整數]、[!UICONTROL 短整數]、[!UICONTROL 布林值]、[!UICONTROL 雙精度]、[!UICONTROL 位元組]、[!UICONTROL 長整數]、[!UICONTROL 日期]或[!UICONTROL 日期時間]。
+  * **[!UICONTROL 資料集]** - 選取一個或多個資料集。
+  * **[!UICONTROL 資料控管]**：從[!UICONTROL 自訂標籤]、[!UICONTROL 合約標籤]、[!UICONTROL 身分標籤]、[!UICONTROL 敏感度標籤]、[!UICONTROL 合作夥伴生態系統]或[!UICONTROL 原則]子類別中選取一或多個標籤。
+  * **[!UICONTROL 其他]** - 選取一個或多個選項「[!UICONTROL 包含資料]」、「[!UICONTROL 是身分識別]」或「[!UICONTROL 未棄用]」。
 
   選取「**[!UICONTROL 套用]**」以套用篩選器。
 
