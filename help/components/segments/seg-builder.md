@@ -5,22 +5,14 @@ feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
 TQID: https://experienceleague.adobe.com/MFqcgWkCqZbtbI58nF8boBZU3YzfcuAAsJxXbjBcT5E
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 859a195e89c44d3951ca79ce7f93f9dd77cd4f5c
 workflow-type: tm+mt
-source-wordcount: 1851
-ht-degree: 85%
+source-wordcount: 1812
+ht-degree: 79%
 
 ---
 
@@ -34,7 +26,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="資料預覽"
->abstract="將此細分群體的資料與資料檢視的資料進行比較。 此預覽百分比是根據資料檢視中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
+>abstract="比較區段資料與資料檢視資料。 預覽百分比反映資料檢視中從&#x200B;**最近90天**&#x200B;以來的總數。<br><br/>如果預覽無法載入，則連線正在回填。"
 
 **[!UICONTROL 區段產生器]**&#x200B;對話框用於建立新區段或編輯現有區段。 對於您從[[!UICONTROL 區段]管理員](/help/components/segments/seg-manage.md)建立或管理的區段，對話框標題為&#x200B;**[!UICONTROL 新增區段]**&#x200B;或&#x200B;**[!UICONTROL 編輯區段]**。
 
@@ -78,8 +70,8 @@ ht-degree: 85%
 
 您可以設定定義的類型和範圍：
 
-1. 若要指定定義的類型，請指定是否要建立一個包含定義或一個排除定義。 選取 ![設定](/help/assets/icons/Setting.svg)**[!UICONTROL 「選項」]**，並從下拉式選單中選取&#x200B;**[!UICONTROL 「包括」]**&#x200B;或&#x200B;**[!UICONTROL 「排除」]**。
-1. 若要指定定義的範圍，請從&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉式功能表選取，以決定您要定義的範圍是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 工作階段]**、**[!UICONTROL 人員]**、**[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 機會]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}或&#x200B;**[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
+1. 若要指定定義的型別，請指定您要建置包含或排除定義。 選取 ![設定](/help/assets/icons/Setting.svg)**[!UICONTROL 「選項」]**，並從下拉式選單中選取&#x200B;**[!UICONTROL 「包括」]**&#x200B;或&#x200B;**[!UICONTROL 「排除」]**。
+1. 從&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉式功能表選取定義的範圍： **[!UICONTROL 事件]**、**[!UICONTROL 工作階段]**、**[!UICONTROL 人員]**、**[!UICONTROL 全域帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 帳戶]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}、**[!UICONTROL 機會]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}或&#x200B;**[!UICONTROL 購買群組]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。
 
 您稍後可以隨時變更這些設定。
 
@@ -93,7 +85,7 @@ ht-degree: 85%
 
 1. 將元件面板中的元件拖放至「**[!UICONTROL 將量度、區段和/或維度拖放至此處]**」。
    * 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
-   * 您可以在元件列中使用![篩選器](/help/assets/icons/Filter.svg)來篩選![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 已核准]**、![星號](/help/assets/icons/Star.svg) **[!UICONTROL 我的最愛]**、![資料維度](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 維度]**、![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**、![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**、![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** ![層](/help/assets/icons/Layer.svg) **[!UICONTROL *容器&#x200B;*]**&#x200B;元件（如產品、Content Assets）。 您也可以篩選![標籤](/help/assets/icons/Label.svg)標籤。
+   * 您可以在元件列中使用![篩選器](/help/assets/icons/Filter.svg)來篩選![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 已核准]**、![星號](/help/assets/icons/Star.svg) **[!UICONTROL 我的最愛]**、![資料維度](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 維度]**、![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**、![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**、![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** ![層](/help/assets/icons/Layer.svg) **[!UICONTROL *容器&#x200B;*]**元件（如產品、Content Assets）。 您也可以篩選![標籤](/help/assets/icons/Label.svg)標籤。
 1. 指定元件的詳細資訊。 例如，從「**[!UICONTROL 選擇值]**」中選取一個值。 或輸入一個值。 指定一個或多個值的內容和方式取決於元件和運算子。
 1. 可選擇修訂預設的運算子。 例如，從「**[!UICONTROL 等於]**」改為「**[!UICONTROL 等於任何]**」。 請參閱「[運算子](seg-operators.md)」，了解可用運算子詳細概觀。
 
@@ -130,20 +122,20 @@ ht-degree: 85%
 | **[!UICONTROL 容器名稱]** | 根據容器的預設說明為容器重新命名。 在文字欄位中輸入名稱。 如果您未輸入任何資料，則使用預設說明。 |
 | **[!UICONTROL 刪除容器]** | 根據定義來刪除容器。 |
 
-將定義為[容器](/help/data-views/create-dataview.md#containers-1)的維度或量度拖曳至「區段產生器」或「快速區段」面板時，系統會自動選取適當的容器，而不會使用預設的&#x200B;**[!UICONTROL 事件]**&#x200B;容器。 此行為會將區段的範圍限定在個別容器，而非整個事件。
+將定義為[容器](/help/data-views/create-dataview.md#containers-1)的維度或量度拖曳至區段產生器，會自動選取適當的容器，而非預設的&#x200B;**[!UICONTROL 事件]**&#x200B;容器。 此行為會將區段的範圍限定在個別容器，而非整個事件。
 
 將[容器](/help/data-views/create-dataview.md#containers-1)層級和事件層級元件拖曳至單一區段規則時，系統會使用&#x200B;**[!UICONTROL 事件]**&#x200B;容器，這是最高（最小粒度）的共用容器。 如果屬於區段規則一部分的所有元件都在相同的容器層級，則會使用該容器。
 
 ## 日期範圍
 
-您可以建置包含滾動日期範圍的區段。 如此一來，您便可以回答有關持續進行的活動或事件的問題。 舉例來說，您可以建置包括「*過去 60 天內在線上購買過一次的人*」的區段。
+您可以建置包含滾動日期範圍的區段。 如此一來，您便可以回答有關持續進行的活動或事件的問題。 例如，您可以建立區段，包含&#x200B;*過去60天內進行線上購買的所有人員*。
 
 ![使用滾動日期範圍進行劃分](assets/filter-rolling-date-range.gif)
 
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 在細分群體捲動日期範圍](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 在細分群體捲動日期範圍](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -152,11 +144,11 @@ ht-degree: 85%
 
 您可以使用區段來建置區段。 當您在區段中使用區段時，您可以最佳化您的區段並降低複雜性。
 
-假設您想要根據裝置類型 (2) 和美國各州 (50) 的組合進行劃分。 您可以建置 100 個區段，每個區段都是裝置類型 (手機與平板電腦) 和美國各州的唯一組合。 若要取得加州平板電腦使用者的結果，您可以使用以下 100 個區段之一：
+假設您想要根據裝置類型 (2) 和美國各州 (50) 的組合進行劃分。 您可以建置 100 個區段，每個區段都是裝置類型 (手機與平板電腦) 和美國各州的唯一組合。 若要在加州取得平板電腦使用者，請使用100個區段之一：
 
 ![加州和平板電腦的簡單區段](assets/filter-ca-tablet-single.png)
 
-或者，您可以定義 52 個區段：50 個美國各州的區段、一個手機的區段、一個平板電腦的區段。 然後堆疊區段以取得相同的結果。 若要取得加州平板電腦使用者結果，你需要堆疊兩個區段：
+或者，定義52個區段：50個區段適用於美國各州，一個適用於行動電話，一個適用於平板電腦。 若要取得相同的結果，請棧疊區段。 若要取得加州平板電腦使用者，請棧疊兩個區段：
 
 ![加州和平板電腦的堆疊區段](assets/filter-ca-tablet-stacked.png)
 
@@ -208,10 +200,10 @@ ht-degree: 85%
 下表說明每個歸因模型，其中傳入的事件是符合該條件的 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)。
 
 
-| 女性頁面 - 歸因 - <br/>*歸因模型* | 事件 1：<br/>頁面名稱等於<br/>女性 | 事件 2：<br/>頁面名稱等於<br/>男性 | 事件 3：<br/>頁面名稱等於<br/>女性 | 事件 4：<br/>頁面名稱等於<br/>女性<br/> (持續) | 事件 5：<br/>頁面名稱等於<br/>結帳 | 事件 6：<br/>頁面名稱等於<br/>女性 | 事件 7：<br/>頁面名稱等於<br/>首頁 |
+| 女性頁面 - 歸因 - <br/>*歸因模型* | 事件 1：<br/>頁面名稱等於<br/>女性 | 事件 2：<br/>頁面名稱等於<br/>男性 | 事件 3：<br/>頁面名稱等於<br/>女性 | 事件 4：<br/>頁面名稱等於<br/>女性<br/> (持續) | 事件 5：<br/>頁面名稱等於<br/>結帳 | 事件 6：<br/>頁面名稱等於<br/>女性 | 事件7：<br/>頁面名稱等於<br/>女性（明確設定） |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| 重複 (預設) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
-| 例項 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
+| 重複 (預設) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 例項 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 非重複的例項 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
 
 使用三個區段的事件報告範例如下：
