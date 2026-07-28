@@ -24,7 +24,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: c7fc5df2a0fd7393b48bfe6bdfa7dccdfffde46c
 workflow-type: tm+mt
 source-wordcount: 3268
 ht-degree: 59%
@@ -238,22 +238,22 @@ ht-degree: 59%
 
 以下元件不受支援，且在執行完整表格匯出時， Analysis Workspace 會提示您從表格中刪除這些元件：
 
-* 計算量度定義中使用不支援的函式（如需詳細資訊，請參閱[不支援的計算量度函式](#unsupported-calculated-metric-functions)）
+* 計算量度定義中使用不支援的函式（如需詳細資訊，請參閱[不支援的計算量度函式](#calculated-metric-functions-support)）
 * 管理員已限制匯出的元件（如需詳細資訊，請參閱[標籤和原則](/help/data-views/data-governance.md)中資料檢視表&#x200B;*中資料治理原則的*&#x200B;區段）
 * 符合以下所有條件的任何維度：
-   * 從屬於[物件陣列](/help/use-cases/object-arrays.md)一部分的欄位建立（類似Adobe Analytics中的多值變數）。
-   * 已啟用[持續性](/help/data-views/component-settings/persistence.md)。
-   * 未使用[繫結維度](/help/use-cases/data-views/binding-dimensions-metrics.md)。
+  * 從屬於[物件陣列](/help/use-cases/object-arrays.md)一部分的欄位建立（類似Adobe Analytics中的多值變數）。
+  * 已啟用[持續性](/help/data-views/component-settings/persistence.md)。
+  * 未使用[繫結維度](/help/use-cases/data-views/binding-dimensions-metrics.md)。
 * 來自引用不同[物件陣列](/help/use-cases/object-arrays.md)欄位的多個維度 。 (允許引用相同物件陣列的多個維度)。
 * 每個報告包含超過 10 個維度和 10 個量度 (最多支援 10 個維度和 10 個量度)
 * 在表格欄位中：
-   * 日期範圍
-   * 維度
+  * 日期範圍
+  * 維度
 * 在表格資料列中：
-   * 計算量度
-   * 量度
-   * 日期範圍
-   * 區段
+  * 計算量度
+  * 量度
+  * 日期範圍
+  * 區段
 
 ## 計算量度函式支援
 
