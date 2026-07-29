@@ -5,15 +5,10 @@ feature: Components
 role: Admin
 exl-id: 8bc89ac7-078d-469d-8627-3905823d4100
 TQID: https://experienceleague.adobe.com/RKh01bcmVkoZ2wkHDvBM-oX9rRagVaOqK4fn2A-IpaI
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: df28738e-9c71-4aa8-929e-edde22340cc6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df28738e-9c71-4aa8-929e-edde22340cc6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 7c679fcbf52d2a5832d16bf138bd197f11f4ceb7
 workflow-type: tm+mt
 source-wordcount: 434
@@ -28,7 +23,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="資料字典"
->abstract="選取此選項後，主要元件會與可存取重複元件的每個人 (所有者和與之共用元件的任何人) 共用。 然後，這些使用者就可以從元件清單中選取主要元件，以供未來的專案使用。 但是，他們無法編輯該元件，即使他們是已合併之重複元件的所有者亦然。 <br/>此選項只有在主要元件是細分群體、計算量度或日期範圍時才可用。 量度和維度始終可供所有使用者使用。"
+>abstract="選取此選項後，主要元件會與可存取重複元件的每個人 (所有者和與之共用元件的任何人) 共用。 然後，這些使用者就可以從元件清單中選取主要元件，以供未來的專案使用。 但是，他們無法編輯該元件，即使他們是已合併之重複元件的所有者亦然。 <br/>此選項只有在主要元件是細分群體、計算量度或日期範圍時才可用。 量度和維度始終可供所有使用者使用。
 >
 >When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
 
