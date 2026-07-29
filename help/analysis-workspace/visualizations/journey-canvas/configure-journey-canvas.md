@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 782311939794bab0f04da1df3dccdc3a9847449f
 workflow-type: tm+mt
 source-wordcount: 6697
-ht-degree: 88%
+ht-degree: 91%
 
 ---
 
@@ -101,8 +101,8 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_arrow_settings"
->title="箭號設定"
->abstract="選擇是否顯示或隱藏畫布上的標籤。 標籤是在Journey Canvas中建立的自訂名稱。"
+>title="箭頭設定"
+>abstract="選擇是否要顯示或隱藏畫布上的標籤。 標籤是在歷程畫布中建立的自訂名稱。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -110,8 +110,8 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_arrow_settings_ajo"
->title="箭號設定"
->abstract="選擇是否顯示或隱藏畫布上的標籤和值。 標籤可以是在Journey Canvas中建立的自訂名稱，也可以是在Journey Optimizer中建立的標籤或條件。 值是數字和百分比，可指出歷程中從某個節點移至下一個節點的人或工作階段。 "
+>title="箭頭設定"
+>abstract="選擇是否要顯示或隱藏畫布上的標籤和值。 標籤可以是在歷程畫布中建立的自訂名稱，也可以是在 Journey Optimizer 中建立的標籤或條件。 值是數量和百分比，表示在歷程中從一個節點移至下一個節點的人員或工作階段。 "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -120,7 +120,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_show_fallout"
 >title="顯示流失"
->abstract="流失資料顯示歷程每個節點上從未到達歷程下一個節點的人員或工作階段數的百分比和數目。 他們可能已經在網站上執行了其他動作，但他們從未符合歷程中下一個節點定義的條件。<br/>流失資料會顯示人員或工作階段（無論您選擇的主要量度為何），且會根據「歷程畫布」容器設定。"
+>abstract="流失資料會顯示每個歷程節點上並未到達下一個歷程節點的人員或工作階段的百分比和數量。 他們可能在網站上執行了其他動作，但從未符合歷程中下一個節點所定義的條件。<br/>流失資料會顯示人員或工作階段 (無論您選擇的主要量度為何)，並且以歷程畫布容器設定為基礎。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -128,8 +128,8 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_compare"
->title="比較對象"
->abstract="用來比較目前歷程資料與先前時段的日期範圍。 當您選取比較日期範圍時，歷程中的每個節點會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變更。 "
+>title="相較於"
+>abstract="用來將目前歷程資料與前一期資料相比的日期範圍。 當您選取比較日期範圍時，歷程中的每個節點都會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變化。 "
 
 <!-- markdownlint-enable MD034 -->
 

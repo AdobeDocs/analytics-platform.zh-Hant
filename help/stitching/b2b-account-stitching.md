@@ -23,7 +23,7 @@ topic_v2:
 source-git-commit: 1dce83d0b5c760830084c1bf4e14f613b998dc10
 workflow-type: tm+mt
 source-wordcount: 1245
-ht-degree: 18%
+ht-degree: 26%
 
 ---
 
@@ -68,7 +68,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="人員識別碼命名空間"
->abstract="選取與您的報告最相關的人員身分識別命名空間。 例如：電子郵件。 任何已啟用&#x200B;**[!UICONTROL 個人對帳戶拼接]**&#x200B;的事件資料集都會將個人ID提升至此個人識別碼名稱空間。"
+>abstract="選取與您的報告最相關的人員身分識別命名空間。 例如：電子郵件。 任何已啟用&#x200B;**[!UICONTROL 人員至帳戶拼接]**&#x200B;的事件資料集都會將人員 ID 提升至此人員識別碼命名空間。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
@@ -83,7 +83,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
 >title="帳戶 ID"
->abstract="選取資料集中包含唯一帳戶識別碼值的欄位。 帳號ID資訊將可在任何啟用&#x200B;**[!UICONTROL 個人與帳號拼接]**&#x200B;的事件資料集列上使用。"
+>abstract="選取資料集中包含唯一帳戶識別碼值的欄位。 啟用&#x200B;**[!UICONTROL 人員至帳戶拼接]**&#x200B;後，帳戶 ID 資訊在任何事件資料集的列上都會變為可用。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
@@ -135,7 +135,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用人員至帳戶拼接"
->abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 **[!UICONTROL 人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員ID名稱空間]**&#x200B;的值，然後用來根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集不會使用B2B Person來拼接帳戶，您必須改為選取必要的&#x200B;**[!UICONTROL 帳戶ID]**。"
+>abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 **[!UICONTROL 人員 ID]** 值將提升至已設定的&#x200B;**[!UICONTROL 人員識別碼命名空間]**&#x200B;中的值，然後用於根據人員至帳戶資料集來查詢帳戶 ID。<br/>如果停用，此資料集便不會使用 B2B 人員至帳戶拼接，而您必須改為選取所需的&#x200B;**[!UICONTROL 帳戶 ID]**。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="設定 B2B 拼接設定"
 
 在連線層級設定B2B拼接後，您必須針對要拼接的每個事件資料集個別啟用B2B帳戶拼接。

@@ -419,7 +419,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
 >title="帳戶 ID"
->abstract="您可選擇從XDM結構描述中定義的可用非身分或非人員身分欄位中選取帳戶ID。 當人員至帳戶資料集中沒有相關的帳戶 ID 資訊時，包含的值將在列層級用作唯一的帳戶識別碼。"
+>abstract="(選擇性) 從 XDM 結構描述中所定義的可用非身分識別或非人員身分識別欄位中選取帳戶 ID。 當人員至帳戶資料集中沒有相關的帳戶 ID 資訊時，包含的值將在列層級用作唯一的帳戶識別碼。"
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"

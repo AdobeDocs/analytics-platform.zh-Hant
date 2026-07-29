@@ -26,7 +26,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
+source-git-commit: e686fca2c77a8f9739298ece01ccf0fa2fe87b3b
 workflow-type: tm+mt
 source-wordcount: 2441
 ht-degree: 9%
@@ -250,8 +250,8 @@ ht-degree: 9%
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
 | 每份報告的列數 | 300萬 — 3億 | 系統強制的護欄 | 每個報表的最大報表列數。 值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
-| 每個表格的劃分 | 5 | 系統強制的護欄 | 每個表格的最大劃分數。 |
-| 每個表格的量度 | 5 | 系統強制的護欄 | 每個資料表的量度數上限。 |
+| 每個表格的維度 | 10 | 系統強制的護欄 | 每個表格的最大維度數。 |
+| 每個表格的量度 | 10 | 系統強制的護欄 | 每個資料表的量度數上限。 |
 | 排程頻率 | 1 | 系統強制的護欄 | 匯出作業可以每天排程一次(1)，或以較長的排程進行（例如：每2天或每週排程一次）。 |
 
 {style="table-layout:auto"}
