@@ -62,7 +62,7 @@ LLM流量透過兩種方式到達您的網站。 Customer Journey Analytics會�
 LLM Optimizer Managed Connector會將資料以摘要資料集的形式傳送至Experience Platform。 若要在Customer Journey Analytics中進行測量，請自行完成兩個設定步驟：
 
 1. 建立包含LLM Optimizer資料集的連線。 請參閱[建立或編輯連線](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}。
-2. 在該連線上建立資料檢視。 資料檢視可讓以下維度和量度在Analysis Workspace中使用。 請參閱[建立或編輯資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}。
+2. 在該連線上建立資料檢視。 資料檢視可讓以下維度和量度在Analysis Workspace中使用。 請參閱[建立或編輯資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}。
 
 資料集：
 
@@ -187,7 +187,7 @@ LLM Optimizer會讀取伺服器端的CDN存取記錄檔，並擷取請求方為�
 
 # LLM Optimizer integration
 
-[Adobe LLM Optimizer](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home){target="_blank"} is a generative AI-first application for Generative Engine Optimization, designed to help brands enhance their visibility, accuracy, and influence in AI-driven search environments. LLM Optimizer provides insights into brand presence in AI-generated answers, offers prescriptive content recommendations, and automates optimization fixes.
+[Adobe LLM Optimizer](https://experienceleague.adobe.com/zh-hant/docs/llm-optimizer/using/home){target="_blank"} is a generative AI-first application for Generative Engine Optimization, designed to help brands enhance their visibility, accuracy, and influence in AI-driven search environments. LLM Optimizer provides insights into brand presence in AI-generated answers, offers prescriptive content recommendations, and automates optimization fixes.
 
 AI has become a primary discovery channel. LLM agents, such as ChatGPT, Claude, Copilot, and Perplexity, crawl and reference brand content. 
 
