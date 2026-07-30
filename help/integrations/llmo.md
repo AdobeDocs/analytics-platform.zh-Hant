@@ -3,7 +3,8 @@ title: LLM Optimizer整合
 description: 將LLM Optimizer與Customer Journey Analytics整合
 feature: Experience Platform Integration
 role: User
-feature_v2: id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+feature_v2:
+  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
 source-git-commit: 3aa4e0c98e9a3e4163dad992e598638892fc88cd
 workflow-type: tm+mt
 source-wordcount: 2539
