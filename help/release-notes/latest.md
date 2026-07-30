@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5f347e3dc3080e47f0dd81d34aa6f4341a892061
+source-git-commit: d16eaa5e7939585f7ade164ef0c680095b8ed2c3
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: 799
 ht-degree: 33%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 33%
 | **CX Enterprise Co-worker：從Adobe Analytics移轉至Customer Journey Analytics時驗證您的資料** <br/>CX Enterprise Co-worker的一項新技能可讓您根據現有Adobe Analytics實作的資料，驗證Customer Journey Analytics實作的資料。 <p>此技能會自動視需要個別比較每個維度、量度和趨勢。 它也可以將所有Adobe Analytics報表套裝與所有Customer Journey Analytics資料檢視進行比較。 接著，該技能會產生AI導向的深入分析和建議，您可實施這些分析和建議，以利您移轉至Customer Journey Analytics。</p><p>如需詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時，與同事驗證資料](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja)。</p> | | 2026年7月24日 |
 | **內嵌分類**<br/>[&#x200B;內嵌分類](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)可讓您重新命名或組合自由表格中的資料列。 以及從表格中修改的列建立衍生欄位。 | 2026年7月20日 | 2026年7月25日 |
 | **Content Analytics：付費媒體資料** <br/>付費媒體現在可作為Content Analytics的第三個管道使用。<p>(文件連結待補充。)</p> | | 2026年7月31日 |
-| **連線使用方式介面更新** <br/>在管理連線時，您現在可以在「使用方式」介面中檢視每個個別模組（例如Customer Journey Analytics或Customer Journey Analytics B2B edition）的使用方式詳細資料。 <p>此外，您現在可以依月份劃分每個模組的使用量報表。</p><p>(文件連結待補充。)</p> | | 2026年7月31日 |
+| **連線使用狀況介面更新** <br/>在管理連線時，您現在可以在[使用狀況介面](/help/connections/manage-connections.md#usage)中檢視每個個別模組（例如Customer Journey Analytics或Customer Journey Analytics B2B edition）的使用狀況詳細資料。 <br/>此外，您現在可以依月份劃分每個模組的使用量報表。 | 2026年7月23日 | 2026年7月30日 |
 
 ### Customer Journey Analytics 中的修正
 

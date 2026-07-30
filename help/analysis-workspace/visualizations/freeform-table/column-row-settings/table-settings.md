@@ -16,9 +16,9 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 54e64aeb652d41a39e52b01c0a54edd1ecfd0cdc
+source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: 1650
 ht-degree: 53%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 53%
 
    ![自由表格，顯示列數的下拉式功能表。 已選取 400 列。](assets/change-row-count.gif)
 
-1. 從下拉式功能表中，選取您希望表格顯示的列數。
+1. 從下拉式功能表中，選取表格要顯示的列數。
 
 
 ## 內容選單
@@ -118,8 +118,6 @@ ht-degree: 53%
 
 ## 內嵌分類 {#inline-classifications-example}
 
-{{release-limited-testing-section}}
-
 內嵌分類可讓您重新命名或組合自由表格中的列。 以及從表格中修改的列建立衍生欄位。
 
 以下範例說明如何使用&#x200B;**[!UICONTROL 重新命名選取的資料列]**、**[!UICONTROL 合併選取的資料列]**&#x200B;和&#x200B;**[!UICONTROL 建立修改資料列做為衍生欄位]**&#x200B;內容功能表選項。 以及如何重設修改後的自由表格。
@@ -152,6 +150,11 @@ ht-degree: 53%
      1. 選取&#x200B;**[!UICONTROL 確定]**。
 
 * 從自由表格中的修改建立衍生欄位。
+
+  >[!NOTE]
+  >
+  >  當您是Customer Journey Analytics產品管理員時，只能從自由格式表格中的修改建立衍生欄位。
+
 
   1. 選取&#x200B;**[!UICONTROL 從內容功能表，為已修改資料表中任何選取的資料列建立已修改資料列作為衍生欄位]**。
 
