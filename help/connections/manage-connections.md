@@ -8,26 +8,15 @@ feature: Connections
 role: Admin
 autotag-review: '2026-05-19T08:50:02.853Z'
 TQID: 'https://experienceleague.adobe.com/iJ5jp3wtWSrJzCnJqIceIHwwLideF-U2puXvit5GFac'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4d42c345b98683ef7d4b802262bd7f0f24b45692
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
-source-wordcount: 5868
-ht-degree: 98%
+source-wordcount: 7300
+ht-degree: 87%
 
 ---
 
@@ -44,9 +33,9 @@ ht-degree: 98%
 >abstract="取消 Journey Optimizer 的進階 Customer Journey Analytics 報告功能。"
 
 
-[建立一或編輯多個連線](/help/connections/create-connection.md)後，您就可以在「**[!UICONTROL 連線]**」中管理這些連線。 您可以透過[!UICONTROL 連線]介面：
+[建立一或編輯多個連線](/help/connections/create-connection.md)後，您就可以在「**[!UICONTROL 連線]**」中管理這些連線。 [!UICONTROL 連線]介面可讓您：
 
-* 檢視您的所有連線總覽，包括所有者、沙箱以及建立和修改連線的時間。
+* 檢視您的所有連線，包括擁有者、沙箱，以及連線的建立和修改時間。
 * 編輯連線。
 * 刪除連線。
 * 從連線建立資料檢視。
@@ -62,7 +51,7 @@ ht-degree: 98%
 
 **[!UICONTROL 清單]**&#x200B;介面是連線的預設介面。 如果未選取，請選取「**[!UICONTROL 清單]**」標記以存取介面。
 
-**[!UICONTROL List]**&#x200B;介面會顯示所有可用連線的表格。
+**[!UICONTROL List]**介面會顯示所有可用連線的表格。
 △
 ![清單檢視](assets/list-view.png)
 
@@ -165,11 +154,11 @@ ht-degree: 98%
 
 ### Journey Optimizer 連線
 
-您可以在 Customer Journey Analytics 中使用 Journey Optimizer 連線，為連線帶來下列額外值：
+您可以在Customer Journey Analytics中使用Journey Optimizer連線，為連線提供下列額外值：
 
 * 在 Customer Journey Analytics 中執行 Journey Optimizer 資料的深入分析 (使用 Journey Optimizer 中的&#x200B;**[!UICONTROL 在 CJA 中分析]**&#x200B;按鈕)。
 
-  如需更多資訊，請參閱 Journey Optimizer 文件中的[在 Customer Journey Analytics 中分析](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template)。
+  如需詳細資訊，請參閱[在Customer Journey Analytics中分析](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template)。
 
 * 編輯 Journey Optimizer 連線和相關的資料視圖。
 
@@ -178,7 +167,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->當您如本區段所述，啟用 Journey Optimizer 連線並與 Customer Journey Analytics 搭配使用時，連線中的每一列資料都會計入您每月的 Customer Journey Analytics 授權資料列，並顯示在「連線使用情況」介面中。 若您熟悉如何在 Customer Journey Analytics 中透過其他方式使用列，請選取連線上的「**[!UICONTROL 在 CJA 中使用]**」選項。
+>當您為Customer Journey Analytics啟用Journey Optimizer連線時，每一列都會計入您每月的授權列，並出現在「連線使用情況」UI中。 若您熟悉如何在 Customer Journey Analytics 中透過其他方式使用列，請選取連線上的「**[!UICONTROL 在 CJA 中使用]**」選項。
 >
 >**如果您在 2024 年 10 月至 2025 年 10 月期間同時擁有 Customer Journey Analytics 和 Journey Optimizer 的權益，請參閱下列關於[啟用 AJO 的連線](https://view.adobe.com/viewer/1ed94fc35c7860b260766c620889e7a0#1)**&#x200B;的文件。
 
@@ -314,7 +303,7 @@ ht-degree: 98%
 | 選項 | 說明 |
 | --- | --- |
 | ![重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 重新整理]** | 若要重新整理連線並允許反映最近新增的記錄，請選取 ![重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 「重新整理」]**。 |
-| ![Delete](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg)**[!UICONTROL 刪除]** | [刪除](#delete-a-connection)此連線。 |
+| ![Delete](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 刪除]** | [刪除](#delete-a-connection)此連線。 |
 | ![新增資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL 建立資料檢視]** | 根據此連線[建立資料檢視](#create-a-data-view)。 請參閱「[資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-views)」，了解更多資訊。 |
 | **[!UICONTROL 在 CJA 中使用]** | 在 Customer Journey Analytics 中使用 Journey Optimizer 連線，讓您的 Journey Optimizer 連線發揮更大價值。 如需更多資訊，請參閱[在 Customer Journey Analytics 中使用 Journey Optimizer 連線](#use-a-journey-optimizer-connection-in-customer-journey-analytics)。 |
 | **[!UICONTROL 連線名稱]** | 連線的易記名稱。 |
@@ -337,8 +326,8 @@ ht-degree: 98%
 
 | 詳細資料 | 說明 |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID &#x200B;]** | 您指定為連線之全域帳戶 ID 的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID &#x200B;]** | 您指定為連線之帳戶 ID 的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶 ID ]** | 您指定為連線之全域帳戶 ID 的身分識別。 僅適用於已設定全域帳戶容器的帳戶型連線。 |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 帳戶 ID ]** | 您指定為連線之帳戶 ID 的身分識別。 僅適用於未設定全域帳戶容器的帳戶型連線。 |
 | **[!UICONTROL 個人 ID]** | 您指定為連線之個人 ID 的身分識別。 |
 | **[!UICONTROL 索引鍵]** | 您為查詢資料集指定的索引鍵。 |
 | **[!UICONTROL 比對索引鍵]** | 您為查詢資料集指定的比對索引鍵。 |
@@ -499,9 +488,13 @@ ht-degree: 98%
 
 [!UICONTROL 使用情況]介面是顯示所有連線中攝取和可報告的行的使用情況。 如果未選取，請選取「**[!UICONTROL 使用情況]**」標記以存取介面。
 
-此介面可幫助您確定 Customer Journey Analytics 使用情況是否與合約的協議相符。 除了監控目的之外，您還可以使用「使用情況」介面來規劃 Customer Journey Analytics 許可證續約。
+此介面可協助您判斷您的Customer Journey Analytics使用方式是否符合合約所議定的內容。 除了監控目的之外，您還可以使用「使用情況」介面來規劃 Customer Journey Analytics 許可證續約。
 
-「使用情況」介面是使用以下量度：
+對於您有權使用的每個模組，都提供可摺疊的區段以及使用情況詳細資料。
+
+### CJA 使用情況
+
+**[!UICONTROL CJA使用狀況]**&#x200B;介面使用下列量度：
 
 | 量度名稱 | 說明 |
 |---|---|
@@ -518,23 +511,21 @@ ht-degree: 98%
 >從 2024 年 7 月開始，收集核心、歷史和總計記錄的資料。 請聯絡您的客戶經理以取得早期的歷史資料。
 >
 
-「使用情況」介面由兩個面板組成：
+**[!UICONTROL CJA使用方式]**&#x200B;介麵包含兩個面板：
 
 * 顯示的「**[!UICONTROL 主要使用量度]**」面板：
 
-   * 四個摘要視覺化圖表顯示上個月的總數和百分比變化：
+  * 四個摘要視覺化圖表顯示上個月的總數和百分比變化：
 
-      * **[!UICONTROL 核心資料可報告列數]**。 在當前月份往前推 13 個月內的可用總列數，以及相較於前一個月的百分比變化。 例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。
-      * **[!UICONTROL 歷史資料可報告列數]**。 在當前月份往前推 13 個月以上的時間點之可用總列數，以及相較於前一個月的變更百分比。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。
-      * **[!UICONTROL 核心資料量]**。 儲存在磁碟上且附有當月時間戳記的資料總量 (以 TB 為單位)，以及相較於前一個月的變更百分比。
-      * **[!UICONTROL 平均列大小]**。 當月每一列資料攝取和儲存所使用的平均儲存量 (以 kB 為單位)，以及相較於前一個月的百分比變化。
+    * **[!UICONTROL 核心資料可報告列數]**。 在當前月份往前推 13 個月內的可用總列數，以及相較於前一個月的百分比變化。 例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。
+    * **[!UICONTROL 延伸資料容量列]**。 在當前月份往前推 13 個月以上的時間點之可用總列數，以及相較於前一個月的變更百分比。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。
+    * **[!UICONTROL 每月擷取的資料列]**。 帳單月份擷取的列，與上個月相比有百分比變化
+    * **[!UICONTROL 核心資料量]**。 儲存在磁碟上且附有當月時間戳記的資料總量 (以 TB 為單位)，以及相較於前一個月的變更百分比。
+    * **[!UICONTROL 平均列大小]**。 當月每個擷取列使用的平均儲存空間（以kB為單位），與上個月相比有百分比變更。
 
-   * 顯示過去 13 個月&#x200B;**[!UICONTROL 核心與歷史資料可報告列數]**&#x200B;的堆疊垂直長條圖視覺化圖表。
+  * 顯示過去13個月&#x200B;**[!UICONTROL 核心資料可報告列]**&#x200B;和&#x200B;**[!UICONTROL 延伸資料容量列]**&#x200B;的兩個垂直長條圖視覺效果。
 
-     當您將滑鼠停留在視覺化圖表中的任何堆疊長條圖上時，會有一個快顯視窗顯示該長條圖特定部分的列數。 在以下範例中顯示當月的核心資料可報告列數 (2025 年 8 月：9 億 3600 萬 (936,347,325))。
-
-
-     ![關鍵使用量度](assets/usage-key-usage-metrics.png)
+    當您將滑鼠停留在視覺化圖表中的任何堆疊長條圖上時，會有一個快顯視窗顯示該長條圖特定部分的列數。
 
 * 合併面板，顯示三個子面板：
 
@@ -542,9 +533,7 @@ ht-degree: 98%
 
   **[!UICONTROL 攝取的資料列數]**&#x200B;子面板會測量每月新增至系統的記錄總數，提供對資料增長和攝取率的洞察。 子面板提供了本月總攝取資料列數以及與上個月相比變化的摘要。
 
-  ![攝取的資料列數](assets/usage-ingested-rows.png)
-
-  您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含更多詳細資料的快顯視窗。
+  您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含更多詳細資料的快顯視窗。 您可以選取同時套用至&#x200B;**[!UICONTROL 擷取資料列]**&#x200B;和&#x200B;**[!UICONTROL 可報告資料列]**&#x200B;的&#x200B;**[!UICONTROL 時間範圍]**。 使用![行事曆](/help/assets/icons/Calendar.svg)來選取時間範圍。
 
   +++
 
@@ -552,12 +541,175 @@ ht-degree: 98%
 
   **[!UICONTROL 可報告的資料列數]**&#x200B;視覺效果可透過從攝取的資料列數中減去略過和刪除的列數來追蹤可用於報告的資料列數，作為計費和資料使用的關鍵量度。 此子面板會提供兩個摘要：
 
-   * **[!UICONTROL 上月總計]**：截至本月的可報告資料列總數摘要。
-   * **[!UICONTROL 本月]**：本月可報告資料列總數及與上月相比變化的摘要。
+  * **[!UICONTROL 總計可報告列]**：截至本月總計可報告列的摘要。
+  * **[!UICONTROL 每月可報告月]**：本月可報告列總數與上個月變更的摘要。
 
-  ![可報告的資料列數](assets/usage-reportable-rows.png)
+  您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含更多詳細資料的快顯視窗。 您可以選取同時套用至&#x200B;**[!UICONTROL 擷取資料列]**&#x200B;和&#x200B;**[!UICONTROL 可報告資料列]**&#x200B;的&#x200B;**[!UICONTROL 時間範圍]**。 使用![行事曆](/help/assets/icons/Calendar.svg)來選取時間範圍。
 
-  您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含更多詳細資料的快顯視窗。
+  +++
+
+  +++ 詳細劃分
+
+  您可以使用&#x200B;**[!UICONTROL 詳細劃分]**&#x200B;表格，按連線、資料集、沙箱和標記來檢視詳細的量度。 資料集的報告是使用 ID 而非名稱，因為可在報告期間修改資料集名稱。 不明資料集或連線的報告是使用 ID 來進行。
+
+  2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為「[!UICONTROL 其他資料集]」。 從2024年9月開始，資料會在精細資料集層級收集，且[!UICONTROL 其他資料集]不再出現。
+
+  * 若要變更劃分，請選取一個&#x200B;**[!UICONTROL 檢視方式]**&#x200B;和&#x200B;**[!UICONTROL 劃分方式]**&#x200B;的組合。
+
+    | **[!UICONTROL 「檢視方式」]**&#x200B;選項 | **[!UICONTROL 「劃分」]**&#x200B;選項 |
+    |---|---|
+    | **[!UICONTROL 連線]** | **[!UICONTROL -]** 和&#x200B;**[!UICONTROL 資料集]** |
+    | **[!UICONTROL 資料集]** | **[!UICONTROL -]** |
+    | **[!UICONTROL 沙箱]** | **[!UICONTROL 連線]** |
+    | **[!UICONTROL 標記]** | **[!UICONTROL 連線]** |
+
+  您可以選取要劃分的月份。 從&#x200B;**[!UICONTROL 劃分月份]**&#x200B;中選取月份。
+
+
+  +++
+
+### Content Analytics 使用情況
+
+**[!UICONTROL Content Analytics使用狀況]**&#x200B;介面使用下列量度：
+
+| 量度名稱 | 說明 |
+|---|---|
+| **Content Analytics核心可報告列** | 在當前月份往前推 13 個月內可用的 Content Analytics 特定列總數，以及相較於前一個月的變更百分比。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。 |
+| **每月Content Analytics資料列** | 追蹤可供報告的 Content Analytics 列數。 可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。 可報告列數是計費和資料使用情況的關鍵量度。 |
+
+>[!NOTE]
+>
+>從 2024 年 7 月開始，收集核心、歷史和總計記錄的資料。 請聯絡您的客戶經理以取得早期的歷史資料。
+>
+
+**[!UICONTROL Content Analytics使用方式]**&#x200B;介麵包含兩個面板：
+
+* 顯示的「**[!UICONTROL 主要使用量度]**」面板：
+
+  * 顯示上個月總計和百分比變更的兩個摘要視覺效果：
+
+    * **[!UICONTROL 核心Analytics核心可報告資料列]**。 在當前月份往前推 13 個月內可用的 Content Analytics 特定列總數，以及相較於前一個月的變更百分比。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。
+    * **每月Content Analytics資料列**。 追蹤可供報告的 Content Analytics 列數。 可報告列數是指已攝取的列數減去攝取期間略過和刪除的列數。 可報告列數是計費和資料使用情況的關鍵量度。
+
+  * 顯示過去13個月&#x200B;**[!UICONTROL Content Analytics核心可報告列]**&#x200B;的棧疊垂直長條圖視覺效果。
+
+    當您將滑鼠停留在視覺化圖表中的任何堆疊長條圖上時，會有一個快顯視窗顯示該長條圖特定部分的列數。
+
+* 顯示下列兩個子面板的組合面板：
+
+  +++ 每月 Content Analytics 列數
+
+  **[!UICONTROL 每月Content Analytics列]**&#x200B;子面板會測量每月新增到系統的Content Analytics記錄總數，以提供insight的資料成長與擷取率。 子面板提供了本月總攝取資料列數以及與上個月相比變化的摘要。
+
+  您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含更多詳細資料的快顯視窗。 您可以選取&#x200B;**[!UICONTROL 時間範圍]**&#x200B;或使用![行事曆](/help/assets/icons/Calendar.svg)來選取時間範圍。
+
+  +++
+
+  +++ 詳細劃分
+
+  您可以使用&#x200B;**[!UICONTROL 詳細劃分]**&#x200B;表格，按連線、資料集、沙箱和標記來檢視詳細的量度。 資料集的報告是使用 ID 而非名稱，因為可在報告期間修改資料集名稱。 不明資料集或連線的報告是使用 ID 來進行。
+
+  2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為「[!UICONTROL 其他資料集]」。 從2024年9月開始，資料會在精細資料集層級收集，且[!UICONTROL 其他資料集]不再出現。
+
+  * 若要變更劃分，請選取一個&#x200B;**[!UICONTROL 檢視方式]**&#x200B;和&#x200B;**[!UICONTROL 劃分方式]**&#x200B;的組合。
+
+    | **[!UICONTROL 「檢視方式」]**&#x200B;選項 | **[!UICONTROL 「劃分」]**&#x200B;選項 |
+    |---|---|
+    | **[!UICONTROL 連線]** | **[!UICONTROL -]** 和&#x200B;**[!UICONTROL 資料集]** |
+    | **[!UICONTROL 資料集]** | **[!UICONTROL -]** |
+    | **[!UICONTROL 沙箱]** | **[!UICONTROL 連線]** |
+    | **[!UICONTROL 標記]** | **[!UICONTROL 連線]** |
+
+  您可以選取要劃分的月份。 從&#x200B;**[!UICONTROL 劃分月份]**&#x200B;中選取月份。
+
+  +++
+
+
+### CJA B2B Edition 使用情況
+
+**[!UICONTROL CJA B2B edition使用狀況]**&#x200B;介面使用下列量度：
+
+| 量度名稱 | 說明 |
+|---|---|
+| **核心可報告BPP** | 當月過去13個月可用的BusinessPersonness設定檔可報告列總數，與上個月相比有百分比變更。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用總列數。 |
+| **歷史可報告BPP** | 當月超過13個月期間可用的商業人員設定檔可報告列總數，與上個月相比有百分比變更。 例如，在 2024 年 2 月 1 日，此數字會顯示事件時間戳記早於 2023 年 1 月的可用總列數。 |
+
+>[!NOTE]
+>
+>從 2024 年 7 月開始，收集核心、歷史和總計記錄的資料。 請聯絡您的客戶經理以取得早期的歷史資料。
+>
+
+**[!UICONTROL CJA B2B edition使用方式]**&#x200B;介麵包含一個面板，其中顯示下列專案的子面板：
+
++++ 核心可報告BPP。
+
+**[!UICONTROL Core Reportable BPP]**&#x200B;子面板會測量每月新增至系統的核心可報告商務人員設定檔記錄總數，以提供insight的資料成長與擷取率。 子面板提供了本月總攝取資料列數以及與上個月相比變化的摘要。
+
+您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含適用於&#x200B;**[!UICONTROL 核心可報告BPP]**&#x200B;和&#x200B;**[!UICONTROL 歷史可報告BPP]**&#x200B;的詳細資訊的快顯視窗。 使用![行事曆](/help/assets/icons/Calendar.svg)來選取時間範圍。
+
++++
+
++++ 歷史可報告BPP。
+
+**[!UICONTROL 歷史可報告BPP]**&#x200B;子面板會測量每月新增到系統的歷史可報告商務人員設定檔記錄總數，以提供insight的資料成長與擷取率。 子面板提供了本月總攝取資料列數以及與上個月相比變化的摘要。
+
+您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含適用於&#x200B;**[!UICONTROL 核心可報告BPP]**&#x200B;和&#x200B;**[!UICONTROL 歷史可報告BPP]**&#x200B;的詳細資訊的快顯視窗。 使用![行事曆](/help/assets/icons/Calendar.svg)來選取時間範圍。
+
++++
+
++++ 詳細劃分
+
+您可以使用&#x200B;**[!UICONTROL 詳細劃分]**&#x200B;表格，按連線、資料集、沙箱和標記來檢視詳細的量度。 資料集的報告是使用 ID 而非名稱，因為可在報告期間修改資料集名稱。 不明資料集或連線的報告是使用 ID 來進行。
+
+2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為「[!UICONTROL 其他資料集]」。 從 2024 年 9 月開始，依詳細程度資料集層級收集資料，而[!UICONTROL 其他資料集]不會再顯示。
+
+* 若要變更劃分，請選取一個&#x200B;**[!UICONTROL 檢視方式]**&#x200B;和&#x200B;**[!UICONTROL 劃分方式]**&#x200B;的組合。
+
+  | **[!UICONTROL 「檢視方式」]**&#x200B;選項 | **[!UICONTROL 「劃分」]**&#x200B;選項 |
+  |---|---|
+  | **[!UICONTROL 連線]** | **[!UICONTROL -]** 和&#x200B;**[!UICONTROL 資料集]** |
+  | **[!UICONTROL 資料集]** | **[!UICONTROL -]** |
+  | **[!UICONTROL 沙箱]** | **[!UICONTROL 連線]** |
+  | **[!UICONTROL 標記]** | **[!UICONTROL 連線]** |
+
+您可以選取要劃分的月份。 從&#x200B;**[!UICONTROL 劃分月份]**&#x200B;中選取月份。
+
++++
+
+
+### 串流媒體使用情況
+
+**[!UICONTROL 串流媒體使用狀況]**&#x200B;介面使用下列量度：
+
+| 量度名稱 | 說明 |
+|---|---|
+| **每月媒體開始** | 在當前月份往前推 13 個月內可用的每月媒體開始總次數，以及相較於前一個月的變更百分比。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用媒體開始總次數。 |
+
+>[!NOTE]
+>
+>從 2024 年 7 月開始，收集核心、歷史和總計記錄的資料。 請聯絡您的客戶經理以取得早期的歷史資料。
+>
+
+
+**[!UICONTROL 串流媒體使用]**&#x200B;介麵包含兩個面板：
+
+* 顯示的「**[!UICONTROL 主要使用量度]**」面板：
+
+  * 摘要視覺效果顯示&#x200B;**[!UICONTROL 每月媒體開始]**&#x200B;的總數和上個月的百分位數變更。
+
+    在當前月份往前推 13 個月內可用的每月媒體開始總次數，以及相較於前一個月的變更百分比。  例如，在 2024 年 2 月 1 日，此數字顯示事件時間戳記從 2023 年 1 月到 2024 年 1 月的可用媒體開始總次數。
+
+  * 顯示過去13個月&#x200B;**[!UICONTROL 每月媒體開始]**&#x200B;的棧疊垂直長條圖視覺效果。
+
+    當您將滑鼠停留在視覺化圖表中的任何堆疊長條圖上時，會有一個快顯視窗顯示該長條圖特定部分的列數。
+
+* 顯示下列兩個子面板的組合面板：
+
+  +++ 每月媒體開始次數
+
+  **[!UICONTROL 每月媒體開始數]**&#x200B;子面板會測量每月新增到系統的每月媒體開始記錄總數，以提供insight的資料成長與擷取率。 子面板提供了本月總攝取資料列數以及與上個月相比變化的摘要。
+
+  您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含更多詳細資料的快顯視窗。 您可以選取&#x200B;**[!UICONTROL 時間範圍]**&#x200B;或使用![行事曆](/help/assets/icons/Calendar.svg)來選取時間範圍。
 
   +++
 
@@ -567,20 +719,19 @@ ht-degree: 98%
 
   2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為「[!UICONTROL 其他資料集]」。 從 2024 年 9 月開始，依詳細程度資料集層級收集資料，而[!UICONTROL 其他資料集]不會再顯示。
 
-   * 若要變更劃分，請選取一個&#x200B;**[!UICONTROL 檢視方式]**&#x200B;和&#x200B;**[!UICONTROL 劃分方式]**&#x200B;的組合。
+  * 若要變更劃分，請選取一個&#x200B;**[!UICONTROL 檢視方式]**&#x200B;和&#x200B;**[!UICONTROL 劃分方式]**&#x200B;的組合。
 
-     | **[!UICONTROL 「檢視方式」]**&#x200B;選項 | **[!UICONTROL 「劃分」]**&#x200B;選項 |
-     |---|---|
-     | **[!UICONTROL 連線]** | **[!UICONTROL -]** 和&#x200B;**[!UICONTROL 資料集]** |
-     | **[!UICONTROL 資料集]** | **[!UICONTROL -]** |
-     | **[!UICONTROL 沙箱]** | **[!UICONTROL 連線]** |
-     | **[!UICONTROL 標記]** | **[!UICONTROL 連線]** |
+    | **[!UICONTROL 「檢視方式」]**&#x200B;選項 | **[!UICONTROL 「劃分」]**&#x200B;選項 |
+    |---|---|
+    | **[!UICONTROL 連線]** | **[!UICONTROL -]** 和&#x200B;**[!UICONTROL 資料集]** |
+    | **[!UICONTROL 資料集]** | **[!UICONTROL -]** |
+    | **[!UICONTROL 沙箱]** | **[!UICONTROL 連線]** |
+    | **[!UICONTROL 標記]** | **[!UICONTROL 連線]** |
 
-  ![詳細劃分](assets/usage-detail-breakdown.png)
+  您可以選取要劃分的月份。 從&#x200B;**[!UICONTROL 劃分月份]**&#x200B;中選取月份。
 
   +++
 
-  您可以定義在幾個月後進行報告的&#x200B;**[!UICONTROL 時間範圍]**。 使用![行事曆](/help/assets/icons/Calendar.svg)來選取時間範圍。
 
 >[!MORELIKETHIS]
 >
