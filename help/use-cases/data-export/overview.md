@@ -6,22 +6,11 @@ feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
 TQID: https://experienceleague.adobe.com/ad4wWxqEZZxsnSTpus7pxFMlwNo3nNUpHeS9VfxrEdw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 806
@@ -68,8 +57,8 @@ Adobe Analytics和Customer Journey Analytics之間的其中一項獨特差異，
 
 * 拼接可以每天或每週&#x200B;_重播_&#x200B;資料，將匿名事件與已知事件建立關聯。 如需詳細資訊，請參閱[拼接](../../stitching/overview.md)。
 * 工作階段化和儲存值每次都會變更
-   * 收集新資料或
-   * 拼接會將事件新增到個人的歷程記錄中。
+  * 收集新資料或
+  * 拼接會將事件新增到個人的歷程記錄中。
 
 報表時間處理會影響資料從Customer Journey Analytics的匯出。 包含持續值的匯出內容不會符合Customer Journey Analytics報表，且值會隨著時間推移而消失。
 
@@ -77,22 +66,22 @@ Adobe Analytics和Customer Journey Analytics之間的其中一項獨特差異，
 
 * 新資料來源及處理作業須匯出資料
 
-   * 包括非數位資料來源，
-   * 根據商業規則套用自訂歸因和作業化，以及
-   * 使用拼接功能保持客戶歷程更新。
+  * 包括非數位資料來源，
+  * 根據商業規則套用自訂歸因和作業化，以及
+  * 使用拼接功能保持客戶歷程更新。
 
 * 實現量身打造的資料匯出使用案例
 
-   * 將資料匯出至您所需的位置，包括Business Intelligence (BI)工具和雲端目的地，
-   * 透過BI工具整合，保持資料與Analysis Workspace同步，
-   * 您不需要在自己的系統中複製處理邏輯，
-   * 新支援計算量度、衍生欄位和區段，以及
+  * 將資料匯出至您所需的位置，包括Business Intelligence (BI)工具和雲端目的地，
+  * 透過BI工具整合，保持資料與Analysis Workspace同步，
+  * 您不需要在自己的系統中複製處理邏輯，
+  * 新支援計算量度、衍生欄位和區段，以及
 
 * 設計考量安全性和資料控管
 
-   * 依使用者和目的地監控所有資料匯出，
-   * 設定匯出資料的限制，以及
-   * 設定傳送問題的警示以及排程傳送期間的限制。
+  * 依使用者和目的地監控所有資料匯出，
+  * 設定匯出資料的限制，以及
+  * 設定傳送問題的警示以及排程傳送期間的限制。
 
 
 ## 使用案例和功能

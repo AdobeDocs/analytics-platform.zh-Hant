@@ -6,22 +6,11 @@ feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
 TQID: https://experienceleague.adobe.com/zpiJFUF8RnIdFQWf29FBpRznWO3Ejs-j2szx69kdMNE
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40
 source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
 workflow-type: tm+mt
 source-wordcount: 10442
@@ -38,7 +27,7 @@ ht-degree: 97%
 
 派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告功能的重要層面。 衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。 然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
 
-與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。 例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
+與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。 例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
 
 衍生欄位是在[資料檢視](../data-views.md)內定義，且是根據一組定義為規則的函數，並套用於適用的標準和/或結構描述欄位。
 
@@ -459,7 +448,7 @@ ht-degree: 97%
 
 若要使用範本，您必須為列示為範本中規則一部分的每個函式指定引數。 針對您未使用的UTM查詢引數，移除函式（例如[剖析URL](#url-parse)）或函式中的引數（例如[串連](#concatenate)和[Case When](#case-when)）。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
-![&#x200B; UTM引數剖析規則產生器的熒幕擷圖](assets/function-template-utm-parameters-parse.png)
+![ UTM引數剖析規則產生器的熒幕擷圖](assets/function-template-utm-parameters-parse.png)
 
 +++
 
@@ -711,7 +700,7 @@ ht-degree: 97%
 
 ## 更多資訊 {#casewhen-more-info}
 
-Customer Journey Analytics 使用巢狀容器結構，該結構仿照 Adob&#x200B;&#x200B;e Experience Platform 的 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) (體驗資料模型)。 請參閱「[容器](../create-dataview.md#containers)」和「[區段容器](/help/components/segments/seg-overview.md#containers)」，了解更多背景資訊。 這種容器模型雖然本質上很靈活，但在使用規則產生器時會施加一些限制。
+Customer Journey Analytics 使用巢狀容器結構，該結構仿照 Adob&#x200B;&#x200B;e Experience Platform 的 [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) (體驗資料模型)。 請參閱「[容器](../create-dataview.md#containers)」和「[區段容器](/help/components/segments/seg-overview.md#containers)」，了解更多背景資訊。 這種容器模型雖然本質上很靈活，但在使用規則產生器時會施加一些限制。
 
 Customer Journey Analytics 會使用以下預設容器模型：
 
@@ -1066,7 +1055,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 ### 衍生欄位 {#deduplicate-uc1-derivedfield}
 
-您定義一個 `Booking Confirmation` 衍生欄位。 您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以使用[!UICONTROL 重複資料刪除 ID] [!UICONTROL 預訂確認 ID]對[!UICONTROL 範圍]&#x200B;[!DNL Person]的[!UICONTROL 值]&#x200B;[!DNL Booking]進行重複資料刪除。 您選取「[!UICONTROL 保留第一個執行個體]」作為「[!UICONTROL 要保留的值]」。
+您定義一個 `Booking Confirmation` 衍生欄位。 您使用 [!UICONTROL DEDUPLICATE] 函數定義一條規則，以使用[!UICONTROL 重複資料刪除 ID] [!UICONTROL 預訂確認 ID]對[!UICONTROL 範圍][!DNL Person]的[!UICONTROL 值][!DNL Booking]進行重複資料刪除。 您選取「[!UICONTROL 保留第一個執行個體]」作為「[!UICONTROL 要保留的值]」。
 
 ![Concatenate 規則的螢幕截圖](assets/deduplicate-1.png)
 
@@ -1618,10 +1607,10 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 | 頁面 URL |
 |---|
-| `https://business.adobe.com/tw/products/analytics/adobe-analytics-benefits.html` |
-| `https://business.adobe.com/tw/products/analytics/adobe-analytics.html` |
-| `https://business.adobe.com/tw/products/experience-platform/customer-journey-analytics.html` |
-| `https://business.adobe.com/tw/products/experience-platform/adobe-experience-platform.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
 
 {style="table-layout:auto"}
 
@@ -2077,7 +2066,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 
 ### 衍生欄位 {#urlparse-uc1-derivedfield}
 
-您定義一個 `Referring Domain` 衍生欄位。 您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL &#x200B; 反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
+您定義一個 `Referring Domain` 衍生欄位。 您使用 [!UICONTROL URL PARSE] 函數定義一條規則，從[!UICONTROL  反向連結網域 URL] 欄位擷取主機，並將其儲存在新的衍生欄位中。
 
 ![Url Parse 規則 1 的螢幕截圖](assets/url-parse-1.png)
 
@@ -2182,7 +2171,7 @@ Classify 函數中的運算子是[!UICONTROL 「當值等於原始值」] [!UICO
 
 >[!MORELIKETHIS]
 >
->- [部落格：充分利用您的資料：在 Customer Journey Analytics 中使用衍生欄位的框架](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670?profile.language=zh-Hant)
->- [部落格：Customer Journey Analytics 的衍生欄位使用案例](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679?profile.language=zh-Hant)
->- [部落格：Adobe Customer Journey Analytics 衍生欄位增強功能](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808?profile.language=zh-Hant)
+>- [部落格：充分利用您的資料：在 Customer Journey Analytics 中使用衍生欄位的框架](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+>- [部落格：Customer Journey Analytics 的衍生欄位使用案例](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+>- [部落格：Adobe Customer Journey Analytics 衍生欄位增強功能](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
 
