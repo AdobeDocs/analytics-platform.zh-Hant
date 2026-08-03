@@ -4,30 +4,12 @@ description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ffa9d10d58481d19627633b6a2030c11b6d5b229
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 2f745f65808e47fd6c0862fe23b6de6ca12ecfff
 workflow-type: tm+mt
 source-wordcount: 826
 ht-degree: 32%
@@ -44,11 +26,11 @@ ht-degree: 32%
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
-| **LLM Optimizer整合**<br>&#x200B;此[LLM Optimizer傳入整合](/help/integrations/llmo.md#inbound-integration)可讓您將LLM Optimizer資料擷取到Customer Journey Analytics以供進一步分析。 | 2026年7月28日 | 2026年7月28日 |
+| **品牌可見度整合**<br>&#x200B;此[品牌可見度傳入整合](/help/integrations/bv.md#inbound-integration)可讓您將品牌可見度資料擷取到Customer Journey Analytics以進行進一步分析。 | 2026年7月28日 | 2026年7月28日 |
 | **子事件分析** <br/>[子事件分析](/help/components/segments/sub-event.md)可讓您在比事件層級更精細的層級分析資料。 您可以對事件中的個別容器進行分段，而不需篩選整個事件。 <p>例如，您可以將特定產品類別分段，而不納入同一訂單中購買的所有其他產品。 您也可以在資料檢視中，將屬於事件資料一部分的物件或陣列定義為單獨的[自訂容器](/help/data-views/create-dataview.md#custom-containers)。 | 2026年7月21日 | 2026年7月底 |
 | **B2B edition：支援ad hoc和關聯式資料集** <br/>Customer Journey Analytics B2B edition中以帳戶為基礎的連線現在也支援ad hoc和關聯式資料集。<p>(文件連結待補充。)</p> | | 2026年7月20日 |
-| **CX Enterprise Co-worker：分析Customer Journey Analytics資料** <br/>Adobe CX Enterprise Co-worker Chat現在可以執行進階資料分析，以前只能在Analysis Workspace中進行。 Co-worker Chat會存取您Customer Journey Analytics資料檢視中的資料，讓您探索該資料並獲得自然語言提示的答案。<p>如需詳細資訊，請參閱[使用同事聊天分析Customer Journey Analytics資料](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/analytics-chat)。</p> | | 2026年7月23日 |
-| **CX Enterprise Co-worker：從Adobe Analytics移轉至Customer Journey Analytics時驗證您的資料** <br/>CX Enterprise Co-worker的一項新技能可讓您根據現有Adobe Analytics實作的資料，驗證Customer Journey Analytics實作的資料。 <p>此技能會自動視需要個別比較每個維度、量度和趨勢。 它也可以將所有Adobe Analytics報表套裝與所有Customer Journey Analytics資料檢視進行比較。 接著，該技能會產生AI導向的深入分析和建議，您可實施這些分析和建議，以利您移轉至Customer Journey Analytics。</p><p>如需詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時，與同事驗證資料](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja)。</p> | | 2026年7月24日 |
+| **CX Enterprise Co-worker：分析Customer Journey Analytics資料** <br/>Adobe CX Enterprise Co-worker Chat現在可以執行進階資料分析，以前只能在Analysis Workspace中進行。 Co-worker Chat會存取您Customer Journey Analytics資料檢視中的資料，讓您探索該資料並獲得自然語言提示的答案。<p>如需詳細資訊，請參閱[使用同事聊天分析Customer Journey Analytics資料](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/analytics-chat)。</p> | | 2026年7月23日 |
+| **CX Enterprise Co-worker：從Adobe Analytics移轉至Customer Journey Analytics時驗證您的資料** <br/>CX Enterprise Co-worker的一項新技能可讓您根據現有Adobe Analytics實作的資料，驗證Customer Journey Analytics實作的資料。 <p>此技能會自動視需要個別比較每個維度、量度和趨勢。 它也可以將所有Adobe Analytics報表套裝與所有Customer Journey Analytics資料檢視進行比較。 接著，該技能會產生AI導向的深入分析和建議，您可實施這些分析和建議，以利您移轉至Customer Journey Analytics。</p><p>如需詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時，與同事驗證資料](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja)。</p> | | 2026年7月24日 |
 | **內嵌分類**<br/>[&#x200B;內嵌分類](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)可讓您重新命名或組合自由表格中的資料列。 以及從表格中修改的列建立衍生欄位。 | 2026年7月20日 | 2026年7月25日 |
 | **Content Analytics：付費媒體資料** <br/>付費媒體現在可作為Content Analytics的第三個管道使用。<p>(文件連結待補充。)</p> | | 2026年7月31日 |
 | **連線使用狀況介面更新** <br/>在管理連線時，您現在可以在[使用狀況介面](/help/connections/manage-connections.md#usage)中檢視每個個別模組（例如Customer Journey Analytics或Customer Journey Analytics B2B edition）的使用狀況詳細資料。 <br/>此外，您現在可以依月份劃分每個模組的使用量報表。 | 2026年7月23日 | 2026年7月30日 |
