@@ -27,7 +27,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ffa9d10d58481d19627633b6a2030c11b6d5b229
+source-git-commit: 2f745f65808e47fd6c0862fe23b6de6ca12ecfff
 workflow-type: tm+mt
 source-wordcount: 826
 ht-degree: 32%
@@ -44,7 +44,7 @@ ht-degree: 32%
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
-| **LLM Optimizer整合**<br>&#x200B;此[LLM Optimizer傳入整合](/help/integrations/llmo.md#inbound-integration)可讓您將LLM Optimizer資料擷取到Customer Journey Analytics以供進一步分析。 | 2026年7月28日 | 2026年7月28日 |
+| **品牌可見度整合**<br>&#x200B;此[品牌可見度傳入整合](/help/integrations/bv.md#inbound-integration)可讓您將品牌可見度資料擷取到Customer Journey Analytics以進行進一步分析。 | 2026年7月28日 | 2026年7月28日 |
 | **子事件分析** <br/>[子事件分析](/help/components/segments/sub-event.md)可讓您在比事件層級更精細的層級分析資料。 您可以對事件中的個別容器進行分段，而不需篩選整個事件。 <p>例如，您可以將特定產品類別分段，而不納入同一訂單中購買的所有其他產品。 您也可以在資料檢視中，將屬於事件資料一部分的物件或陣列定義為單獨的[自訂容器](/help/data-views/create-dataview.md#custom-containers)。 | 2026年7月21日 | 2026年7月底 |
 | **B2B edition：支援ad hoc和關聯式資料集** <br/>Customer Journey Analytics B2B edition中以帳戶為基礎的連線現在也支援ad hoc和關聯式資料集。<p>(文件連結待補充。)</p> | | 2026年7月20日 |
 | **CX Enterprise Co-worker：分析Customer Journey Analytics資料** <br/>Adobe CX Enterprise Co-worker Chat現在可以執行進階資料分析，以前只能在Analysis Workspace中進行。 Co-worker Chat會存取您Customer Journey Analytics資料檢視中的資料，讓您探索該資料並獲得自然語言提示的答案。<p>如需詳細資訊，請參閱[使用同事聊天分析Customer Journey Analytics資料](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/analytics-chat)。</p> | | 2026年7月23日 |

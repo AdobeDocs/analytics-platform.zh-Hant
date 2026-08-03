@@ -22,7 +22,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: 3355
+source-wordcount: 3315
 ht-degree: 5%
 
 ---
@@ -209,11 +209,11 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
   若要這麼做，您必須……
 
-   - 使用處理狀態表`checkpoint_log`來追蹤目前與上次擷取時間。 如需詳細資訊，請參閱[本指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/incremental-load)。
-   - 停用卸除系統資料行，以便使用`_acp_system_metadata.ingestTime`。
-   - 使用最內部的`SELECT`來抓取您要使用的欄位，並將事件限制在您的回溯期間，以進行工作階段化和/或歸因計算。 例如90天。
-   - 使用下一個層級`SELECT`來套用工作階段化和/或歸因視窗函式及其他計算。
-   - 在輸出表格中使用`INSERT INTO`，將回顧限制在自上次處理時間後到達的事件。 若要這麼做，請篩選`_acp_system_metadata.ingestTime `與上次儲存於處理狀態表格中的時間。
+  - 使用處理狀態表`checkpoint_log`來追蹤目前與上次擷取時間。 如需詳細資訊，請參閱[本指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/incremental-load)。
+  - 停用卸除系統資料行，以便使用`_acp_system_metadata.ingestTime`。
+  - 使用最內部的`SELECT`來抓取您要使用的欄位，並將事件限制在您的回溯期間，以進行工作階段化和/或歸因計算。 例如90天。
+  - 使用下一個層級`SELECT`來套用工作階段化和/或歸因視窗函式及其他計算。
+  - 在輸出表格中使用`INSERT INTO`，將回顧限制在自上次處理時間後到達的事件。 若要這麼做，請篩選`_acp_system_metadata.ingestTime `與上次儲存於處理狀態表格中的時間。
 
   **工作階段化視窗功能範例**
 
@@ -364,7 +364,7 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 #### 使用查詢服務API
 
-或者，您可以使用RESTful API來定義查詢和排程查詢。 如需詳細資訊，請參閱[查詢服務API指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/api/getting-started)。
+或者，您可以使用RESTful API來定義查詢和排程查詢。如需詳細資訊，請參閱[查詢服務API指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/api/getting-started)。
 建立查詢（[建立查詢](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery)）或建立查詢排程（[建立排程查詢](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule)）時，請確定將輸出資料集定義為選用的`ctasParameters`屬性的一部分。
 
 
