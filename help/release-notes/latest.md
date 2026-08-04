@@ -3,6 +3,7 @@ title: 目前的Customer Journey Analytics發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
+hold: true
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -27,50 +28,49 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2f745f65808e47fd6c0862fe23b6de6ca12ecfff
+source-git-commit: 034186edab4bcd66073236e070a37ee9317830e4
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 32%
+source-wordcount: 779
+ht-degree: 36%
 
 ---
 
-# 最新Customer Journey Analytics發行說明（2026年7月）
+# 最新Customer Journey Analytics發行說明（2026年8月）
 
-**上次更新日期**：2026年7月8日
+**上次更新日期**：2026年8月4日
 
-以下發行說明涵蓋2026年7月發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。 因此，這些發行說明每月會更新好幾次。 請定期進行檢查。
+這些發行說明涵蓋2026年8月發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。 因此，這些發行說明每月會更新好幾次。 請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
-| **品牌可見度整合**<br>&#x200B;此[品牌可見度傳入整合](/help/integrations/bv.md#inbound-integration)可讓您將品牌可見度資料擷取到Customer Journey Analytics以進行進一步分析。 | 2026年7月28日 | 2026年7月28日 |
-| **子事件分析** <br/>[子事件分析](/help/components/segments/sub-event.md)可讓您在比事件層級更精細的層級分析資料。 您可以對事件中的個別容器進行分段，而不需篩選整個事件。 <p>例如，您可以將特定產品類別分段，而不納入同一訂單中購買的所有其他產品。 您也可以在資料檢視中，將屬於事件資料一部分的物件或陣列定義為單獨的[自訂容器](/help/data-views/create-dataview.md#custom-containers)。 | 2026年7月21日 | 2026年7月底 |
-| **B2B edition：支援ad hoc和關聯式資料集** <br/>Customer Journey Analytics B2B edition中以帳戶為基礎的連線現在也支援ad hoc和關聯式資料集。<p>(文件連結待補充。)</p> | | 2026年7月20日 |
-| **CX Enterprise Co-worker：分析Customer Journey Analytics資料** <br/>Adobe CX Enterprise Co-worker Chat現在可以執行進階資料分析，以前只能在Analysis Workspace中進行。 Co-worker Chat會存取您Customer Journey Analytics資料檢視中的資料，讓您探索該資料並獲得自然語言提示的答案。<p>如需詳細資訊，請參閱[使用同事聊天分析Customer Journey Analytics資料](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/analytics-chat)。</p> | | 2026年7月23日 |
-| **CX Enterprise Co-worker：從Adobe Analytics移轉至Customer Journey Analytics時驗證您的資料** <br/>CX Enterprise Co-worker的一項新技能可讓您根據現有Adobe Analytics實作的資料，驗證Customer Journey Analytics實作的資料。 <p>此技能會自動視需要個別比較每個維度、量度和趨勢。 它也可以將所有Adobe Analytics報表套裝與所有Customer Journey Analytics資料檢視進行比較。 接著，該技能會產生AI導向的深入分析和建議，您可實施這些分析和建議，以利您移轉至Customer Journey Analytics。</p><p>如需詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics時，與同事驗證資料](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja)。</p> | | 2026年7月24日 |
-| **內嵌分類**<br/>[&#x200B;內嵌分類](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)可讓您重新命名或組合自由表格中的資料列。 以及從表格中修改的列建立衍生欄位。 | 2026年7月20日 | 2026年7月25日 |
-| **Content Analytics：付費媒體資料** <br/>付費媒體現在可作為Content Analytics的第三個管道使用。<p>(文件連結待補充。)</p> | | 2026年7月31日 |
-| **連線使用狀況介面更新** <br/>在管理連線時，您現在可以在[使用狀況介面](/help/connections/manage-connections.md#usage)中檢視每個個別模組（例如Customer Journey Analytics或Customer Journey Analytics B2B edition）的使用狀況詳細資料。 <br/>此外，您現在可以依月份劃分每個模組的使用量報表。 | 2026年7月23日 | 2026年7月30日 |
+| **歷程畫布增強功能**<br>&#x200B;現已推出下列歷程畫布增強功能：<ul><li>比較歷程與先前的時間範圍。 比較目前歷程與4週前、2季前、1年前或自訂日期範圍的歷程。</li><li>針對選取的節點，顯示在歷程中任何時間點上所選節點之後排名最前的維度專案。 當選取的節點是您分析中的關鍵事件，且您想要檢視人員之後在任何時間點做什麼，請使用此選項。<p>以前，只有頂部的緊接節點可以顯示在所選節點之前或之後。 </p></li><li>變更節點之間箭頭的形狀和樣式。 在節點之間拖曳箭頭以變更箭頭的形狀（曲線），然後按一下滑鼠右鍵以將其樣式變更為下列任一專案：實線、虛線、點線、虛線點或動畫。</li></ul><p></p>如需更多資訊，請參閱「[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。 |  | 2026年8月18日 |
+| **支援其他資料使用標籤**<br> Customer Journey Analytics現在支援資料集中元素的下列其他資料使用標籤：<ul><li>C2 — 限制協力廠商資料匯出（現已推出）</li><li>C3 — 限制可直接識別的資料組合（現在可用）</li><li>C9 — 限制資料科學（預計於8月發行）</li></ul><p>如需詳細資訊，請參閱[標籤、原則和行銷動作](/help/data-views/data-governance.md)。</p> | | 2026年8月 |
+| **同意原則篩選與報告**<br>&#x200B;您現在可以報告哪些訪客符合您的Adobe Experience Platform同意原則。 （同意原則維度和量度會新增至您連線中的資料檢視。）<p>此外，您可以在將非同意的訪客資料擷取到Customer Journey Analytics之前將其排除。</p><p>如需詳細資訊，請參閱同意報表和篩選概觀。</p> | | 2026年8月 |
+| **移轉規劃工具： Adobe Analytics至Customer Journey Analytics**<br>&#x200B;移轉規劃工具提供移轉精靈，可自動執行從Adobe Analytics升級至Customer Journey Analytics的部分最複雜且耗時的工作，包括XDM結構描述建立以及從AppMeasurement或Analytics擴充功能（標籤）移轉至Experience Platform Web SDK。 <p>(文件連結待補充。)</p> | | 2026年8月底或9月 |
+| **B2B：個人與帳戶彙整**<br>&#x200B;您現在可以使用身分彙整，將帳戶資訊結合到資料集中的每個事件。 由於帳戶是Customer Journey Analytics B2B edition中的最高報告容器，因此內嵌期間會捨棄不包含帳戶ID的事件。</li></ul><p>(文件連結待補充。)</p> | | 2026年8月底或9月 |
+| **CJA報表API首次呼叫指南**<br> Adobe Customer Journey Analytics API首次呼叫指南提供設定基本報表要求的指示和範例。 | | 2026年8月10日 |
+| **CJA報表API日期趨勢指南**<br> Adobe Customer Journey Analytics API日期趨勢指南提供設定基本報表要求的指示和範例。 | | 2026年8月17日 |
 
 ### Customer Journey Analytics 中的修正
 
-**Analysis Workspace**： AN-457527、AN-451161、AN-459034、AN-458071、AN-458398
+**Analysis Workspace**：
 **元件**：
-**連線**： AN-457065
+**連線**：
 **Content Analytics**：
 **引導式分析**：
 **匯出**：
-**資料檢視**： AN-453201
+**資料視圖**：
 **資料擷取**：
 **實作**：
-**Report Builder**： AN-457533、AN-453683
-**報告**： AN-457607、AN-447692、AN-451259、AN-455713
-**細分**：
-**排程報告**： AN-450715
+**Report Builder**：
+**報告**：
+**分段**：
+**排程報告**：
 **共用的量度和維度**：
 **對象分析**：
-**其他**： AN-457063
+**其他**：
 
 ## 延遲的功能
 
