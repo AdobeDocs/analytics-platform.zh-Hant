@@ -30,7 +30,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
-source-wordcount: 3920
+source-wordcount: 3921
 ht-degree: 48%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 48%
 
 {{release-limited-testing}}
 
-Adobe Analytics與Customer Journey Analytics資料摘要欄之間不可能有真正的1:1對應。 這兩種產品有根本的不同，每個組織的實施作業也可能大不相同。
+Adobe Analytics和Customer Journey Analytics資料摘要欄之間不可能有真正的1:1對應。 這兩種產品有根本的不同，每個組織的實施作業也可能大不相同。
 
 此參考資料可協助資料工程師評估Adobe Analytics資料摘要欄，並針對其工作流程找出最接近的Customer Journey Analytics對應專案。
 
@@ -446,12 +446,12 @@ EF ID，用於Adobe Advertising整合。
 * 如果您的量度在Adobe Analytics中依造訪進行重複資料刪除，您可以在該量度的元件設定中，將重複資料刪除範圍設定為工作階段。
 * 如果您的量度在Adobe Analytics中依事件ID進行重複資料刪除，則該量度的XDM物件可能同時包含`value`和`id`欄位。 如果您的結構描述使用[[!UICONTROL Commerce詳細資料]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/commerce-details)欄位群組，這些量度可能位於這些XDM欄位中，您可以在量度的元件設定中設定&#x200B;**[!UICONTROL 重複資料刪除ID]**&#x200B;欄位：
 
-   * **結帳**： `xdm.commerce.checkouts.id`
-   * **購物車新增次數**： `xdm.commerce.productListAdds.id`
-   * **購物車開啟**： `xdm.commerce.productListOpens.id`
-   * **購物車移除**： `xdm.commerce.productListRemovals.id`
-   * **購物車檢視**： `xdm.commerce.productListViews.id`
-   * **產品檢視**： `xdm.commerce.productViews.id`
+  * **結帳**： `xdm.commerce.checkouts.id`
+  * **購物車新增次數**： `xdm.commerce.productListAdds.id`
+  * **購物車開啟**： `xdm.commerce.productListOpens.id`
+  * **購物車移除**： `xdm.commerce.productListRemovals.id`
+  * **購物車檢視**： `xdm.commerce.productListViews.id`
+  * **產品檢視**： `xdm.commerce.productViews.id`
 
 如果您想要刪除重複訂單量度，請參閱`duplicate_purchase`。
 

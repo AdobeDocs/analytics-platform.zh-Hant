@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 034186edab4bcd66073236e070a37ee9317830e4
+source-git-commit: feb7b3364e7981c42e3a31f75acfbddfdc463485
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 36%
+source-wordcount: 795
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 36%
 | **支援其他資料使用標籤**<br> Customer Journey Analytics現在支援資料集中元素的下列其他資料使用標籤：<ul><li>C2 — 限制協力廠商資料匯出（現已推出）</li><li>C3 — 限制可直接識別的資料組合（現在可用）</li><li>C9 — 限制資料科學（預計於8月發行）</li></ul><p>如需詳細資訊，請參閱[標籤、原則和行銷動作](/help/data-views/data-governance.md)。</p> | | 2026年8月 |
 | **同意原則篩選與報告**<br>&#x200B;您現在可以報告哪些訪客符合您的Adobe Experience Platform同意原則。 （同意原則維度和量度會新增至您連線中的資料檢視。）<p>此外，您可以在將非同意的訪客資料擷取到Customer Journey Analytics之前將其排除。</p><p>如需詳細資訊，請參閱同意報表和篩選概觀。</p> | | 2026年8月 |
 | **移轉規劃工具： Adobe Analytics至Customer Journey Analytics**<br>&#x200B;移轉規劃工具提供移轉精靈，可自動執行從Adobe Analytics升級至Customer Journey Analytics的部分最複雜且耗時的工作，包括XDM結構描述建立以及從AppMeasurement或Analytics擴充功能（標籤）移轉至Experience Platform Web SDK。 <p>(文件連結待補充。)</p> | | 2026年8月底或9月 |
-| **B2B：個人與帳戶彙整**<br>&#x200B;您現在可以使用身分彙整，將帳戶資訊結合到資料集中的每個事件。 由於帳戶是Customer Journey Analytics B2B edition中的最高報告容器，因此內嵌期間會捨棄不包含帳戶ID的事件。</li></ul><p>(文件連結待補充。)</p> | | 2026年8月底或9月 |
+| **B2B：個人對帳戶拼接**<br> B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Journey Analytics中啟用完整客戶歷程的分析。 <p>當事件缺少帳戶ID （Customer Journey Analytics B2B edition擷取時會需要此ID）時，帳戶拼接會衍生並使用您提供的人員對帳戶對應資料集自動新增該資訊。</p><p>(文件連結待補充。)</p> | | 2026年8月底或9月 |
 | **CJA報表API首次呼叫指南**<br> Adobe Customer Journey Analytics API首次呼叫指南提供設定基本報表要求的指示和範例。 | | 2026年8月10日 |
 | **CJA報表API日期趨勢指南**<br> Adobe Customer Journey Analytics API日期趨勢指南提供設定基本報表要求的指示和範例。 | | 2026年8月17日 |
 
