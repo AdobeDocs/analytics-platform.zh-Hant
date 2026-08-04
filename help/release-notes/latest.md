@@ -5,33 +5,15 @@ exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 hold: true
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 034186edab4bcd66073236e070a37ee9317830e4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: feb7b3364e7981c42e3a31f75acfbddfdc463485
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 36%
+source-wordcount: 795
+ht-degree: 35%
 
 ---
 
@@ -49,7 +31,7 @@ ht-degree: 36%
 | **支援其他資料使用標籤**<br> Customer Journey Analytics現在支援資料集中元素的下列其他資料使用標籤：<ul><li>C2 — 限制協力廠商資料匯出（現已推出）</li><li>C3 — 限制可直接識別的資料組合（現在可用）</li><li>C9 — 限制資料科學（預計於8月發行）</li></ul><p>如需詳細資訊，請參閱[標籤、原則和行銷動作](/help/data-views/data-governance.md)。</p> | | 2026年8月 |
 | **同意原則篩選與報告**<br>&#x200B;您現在可以報告哪些訪客符合您的Adobe Experience Platform同意原則。 （同意原則維度和量度會新增至您連線中的資料檢視。）<p>此外，您可以在將非同意的訪客資料擷取到Customer Journey Analytics之前將其排除。</p><p>如需詳細資訊，請參閱同意報表和篩選概觀。</p> | | 2026年8月 |
 | **移轉規劃工具： Adobe Analytics至Customer Journey Analytics**<br>&#x200B;移轉規劃工具提供移轉精靈，可自動執行從Adobe Analytics升級至Customer Journey Analytics的部分最複雜且耗時的工作，包括XDM結構描述建立以及從AppMeasurement或Analytics擴充功能（標籤）移轉至Experience Platform Web SDK。 <p>(文件連結待補充。)</p> | | 2026年8月底或9月 |
-| **B2B：個人與帳戶彙整**<br>&#x200B;您現在可以使用身分彙整，將帳戶資訊結合到資料集中的每個事件。 由於帳戶是Customer Journey Analytics B2B edition中的最高報告容器，因此內嵌期間會捨棄不包含帳戶ID的事件。</li></ul><p>(文件連結待補充。)</p> | | 2026年8月底或9月 |
+| **B2B：個人對帳戶拼接**<br> B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Journey Analytics中啟用完整客戶歷程的分析。 <p>當事件缺少帳戶ID （Customer Journey Analytics B2B edition擷取時會需要此ID）時，帳戶拼接會衍生並使用您提供的人員對帳戶對應資料集自動新增該資訊。</p><p>(文件連結待補充。)</p> | | 2026年8月底或9月 |
 | **CJA報表API首次呼叫指南**<br> Adobe Customer Journey Analytics API首次呼叫指南提供設定基本報表要求的指示和範例。 | | 2026年8月10日 |
 | **CJA報表API日期趨勢指南**<br> Adobe Customer Journey Analytics API日期趨勢指南提供設定基本報表要求的指示和範例。 | | 2026年8月17日 |
 
