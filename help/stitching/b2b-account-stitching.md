@@ -7,23 +7,15 @@ hide: true
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 593dc8e9eb32e092545b74882ce2a85bcecc3c56
 workflow-type: tm+mt
 source-wordcount: 1349
-ht-degree: 22%
+ht-degree: 28%
 
 ---
 
@@ -68,7 +60,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="人員識別碼命名空間"
->abstract="選取與您的報告最相關的人員身分識別命名空間。 例如：電子郵件。 任何已啟用&#x200B;**[!UICONTROL 個人對帳戶拼接]**&#x200B;的事件資料集都會將個人ID提升至此個人識別碼名稱空間。"
+>abstract="選取與您的報告最相關的人員身分識別命名空間。 例如：電子郵件。 任何已啟用&#x200B;**[!UICONTROL 人員至帳戶拼接]**&#x200B;的事件資料集都會將人員 ID 提升至此人員識別碼命名空間。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
@@ -94,7 +86,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_mapping_creation_time"
 >title="對應建立時間"
->abstract="選擇性地選取代表人員與帳戶對應建立日期與時間的欄位。 適用於人員隨時間切換多個帳戶的情況。"
+>abstract="選取代表人員與帳戶對應建立日期與時間的欄位 (可選)。 適用於人員隨時間切換多個帳戶的情況。"
 
 
 1. 在Customer Journey Analytics中，導覽至&#x200B;**[!UICONTROL 連線]**&#x200B;並[建立新連線](/help/connections/create-connection.md#create-a-connection)或[編輯現有連線](/help/connections/create-connection.md#edit-a-connection)。
@@ -124,7 +116,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
       | **[!UICONTROL 帳戶資料集的人員]** | ![必要](/help/assets/icons/Required.svg) | 選取將人員對應至帳戶的查詢（記錄或非時間序列資料集）。 |
       | **[!UICONTROL 個人 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含人員 ID 的欄位。 該欄位必須標示為身分，且不能與&#x200B;**[!UICONTROL 帳戶識別碼]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
       | **[!UICONTROL 帳戶 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含帳戶 ID 的欄位。 該欄位不能與&#x200B;**[!UICONTROL 人員ID]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
-      | **對應建立時間** | | 選擇性地選取代表人員與帳戶對應建立日期與時間的欄位。 適用於人員隨時間切換多個帳戶的情況。<br/><br/>**範例** （選取&#x200B;**update_date**&#x200B;欄位時）：<table><thead><tr><th>update_date</th><th>人員</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>對於2026年5月1日之前在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Apple。</li><li>對於2026年5月1日或之後在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Adobe。</li><ul> |
+      | **對應建立時間** | | 選取代表人員與帳戶對應建立日期與時間的欄位 (可選)。 適用於人員隨時間切換多個帳戶的情況。<br/><br/>**範例** （選取&#x200B;**update_date**&#x200B;欄位時）：<table><thead><tr><th>update_date</th><th>人員</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>對於2026年5月1日之前在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Apple。</li><li>對於2026年5月1日或之後在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Adobe。</li><ul> |
 
       >[!NOTE]
       >
@@ -158,7 +150,7 @@ B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Jo
 * 人員ID的設定為必填。 該人員ID是用來根據[人員對帳戶資料集](#prerequisites)查詢帳戶ID。
 * 帳戶ID的設定為選用。
 
-在![&#128279;](assets/b2b-event-dataset-stitching-on.png)的事件資料集上彙整B2B帳戶
+在](assets/b2b-event-dataset-stitching-on.png)的事件資料集上彙整![B2B帳戶
 
 >[!TAB 關閉]
 
