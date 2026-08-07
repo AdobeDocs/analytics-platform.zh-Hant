@@ -20,7 +20,7 @@ role_v2:
 source-git-commit: 859a195e89c44d3951ca79ce7f93f9dd77cd4f5c
 workflow-type: tm+mt
 source-wordcount: 1812
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="資料預覽"
->abstract="比較區段資料與資料檢視資料。 預覽百分比反映資料檢視中從&#x200B;**最近90天**&#x200B;以來的總數。<br><br/>如果預覽無法載入，則連線正在回填。"
+>abstract="比較區段資料與資料視圖資料。 此預覽百分比反映資料視圖中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽無法載入，代表連線正在回填。"
 
 **[!UICONTROL 區段產生器]**&#x200B;對話框用於建立新區段或編輯現有區段。 對於您從[[!UICONTROL 區段]管理員](/help/components/segments/seg-manage.md)建立或管理的區段，對話框標題為&#x200B;**[!UICONTROL 新增區段]**&#x200B;或&#x200B;**[!UICONTROL 編輯區段]**。
 
@@ -92,7 +92,7 @@ ht-degree: 79%
 若要新增元件：
 
 1. 將元件面板中的元件拖放至「**[!UICONTROL 將量度、區段和/或維度拖放至此處]**」。
-   * 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
+   * 您可以使用元件列中的「![搜尋](/help/assets/icons/Search.svg)」來搜尋特定元件。
    * 您可以在元件列中使用![篩選器](/help/assets/icons/Filter.svg)來篩選![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 已核准]**、![星號](/help/assets/icons/Star.svg) **[!UICONTROL 我的最愛]**、![資料維度](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 維度]**、![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**、![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**、![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** ![層](/help/assets/icons/Layer.svg) **[!UICONTROL *容器&#x200B;*]**&#x200B;元件（如產品、Content Assets）。 您也可以篩選![標籤](/help/assets/icons/Label.svg)標籤。
 1. 指定元件的詳細資訊。 例如，從「**[!UICONTROL 選擇值]**」中選取一個值。 或輸入一個值。 指定一個或多個值的內容和方式取決於元件和運算子。
 1. 可選擇修訂預設的運算子。 例如，從「**[!UICONTROL 等於]**」改為「**[!UICONTROL 等於任何]**」。 請參閱「[運算子](seg-operators.md)」，了解可用運算子詳細概觀。
