@@ -5,22 +5,14 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
 hold: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8did: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a5bc2160a7dc426b9436116362264ab9f90390
 workflow-type: tm+mt
-source-wordcount: 728
+source-wordcount: 770
 ht-degree: 2%
 
 ---
@@ -62,7 +54,11 @@ ht-degree: 2%
 
 1. 選取&#x200B;**[!UICONTROL 使用資料檢視]**。
 
-1. （選擇性）在&#x200B;**[!UICONTROL 篩選]**&#x200B;區段中，您可以為下列行銷動作啟用篩選：
+1. （選擇性）在&#x200B;**[!UICONTROL 篩選]**&#x200B;區段中，選取&#x200B;[!UICONTROL **啟用篩選**]&#x200B;以篩選同意資料。
+
+   啟用篩選時，Customer Journey Analytics只有在訪客符合啟用的任何同意原則時，才會擷取訪客的資料。 如需詳細資訊，請參閱[同意報告和篩選概觀](/help/connections/consent-reporting-filtering/consent-overview.md)中的[同意篩選](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering)。
+
+1. （選用）啟用下列行銷動作的篩選功能：
 
    >[!NOTE]
    >
@@ -70,8 +66,8 @@ ht-degree: 2%
 
    | 行銷動作 | 說明 |
    |---------|----------|
-   | **[!UICONTROL Analytics]** | 在Analysis Workspace中篩選用於標準Customer Journey Analytics報表的資料。 |
-   | **[!UICONTROL 資料科學]** | 篩選用於進階分析、機器學習和資料科學使用案例的資料。 |
+   | **[!UICONTROL 分析資料]** | 在Analysis Workspace中篩選用於標準Customer Journey Analytics報表的資料。 |
+   | **[!UICONTROL 資料科學資料]** | 篩選用於進階分析、機器學習和資料科學使用案例的資料。 |
 
 1. 選取&#x200B;**[!UICONTROL 建立]**&#x200B;以建立組態。
 
