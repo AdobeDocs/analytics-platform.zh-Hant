@@ -19,10 +19,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
+source-git-commit: 55a5bc2160a7dc426b9436116362264ab9f90390
 workflow-type: tm+mt
-source-wordcount: 1058
-ht-degree: 2%
+source-wordcount: 1060
+ht-degree: 3%
 
 ---
 
@@ -81,8 +81,8 @@ ht-degree: 2%
 
   | 行銷動作 | 說明 |
   |---------|----------|
-  | **[!UICONTROL Analytics]** | Analysis Workspace中的標準Customer Journey Analytics報表。 |
-  | **[!UICONTROL 資料科學]** | 進階分析、機器學習和資料科學使用案例。 |
+  | **[!UICONTROL 分析資料]** | Analysis Workspace 中的標準 Customer Journey Analytics 報告。 |
+  | **[!UICONTROL 資料科學資料]** | 進階分析、機器學習和資料科學使用案例。 |
 
 * 只有當訪客符合&#x200B;**所有**&#x200B;適用的同意原則時，才會擷取訪客的資料。 如果訪客缺少任何適用的原則，則會排除該訪客的資料。
 
