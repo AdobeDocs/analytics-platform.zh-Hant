@@ -36,7 +36,7 @@ ht-degree: 1%
 ---
 
 
-# 衍生欄位准則
+# 衍生欄位指南
 
 Customer Journey Analytics [衍生欄位](/help/data-views/derived-fields/derived-fields.md)可讓您在查詢時轉換、分類及擴充資料，而不需修改來源資料集。 如果沒有紀律性的規範，這種靈活性可能會帶來複雜性、效能問題和維護開銷。
 
@@ -44,11 +44,11 @@ Customer Journey Analytics [衍生欄位](/help/data-views/derived-fields/derive
 
 * **最佳化效能**：找出拖慢查詢執行速度或達到系統限制的模式，為工作選取正確的工具：
 
-   * [衍生欄位](/help/data-views/derived-fields/derived-fields.md)
-   * [資料檢視設定](/help/data-views/component-settings/overview.md)
-   * [資料準備](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-prep/home)
-   * [計算量度](/help/components/calc-metrics/calc-metr-overview.md)
-   * [查詢資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+  * [衍生欄位](/help/data-views/derived-fields/derived-fields.md)
+  * [資料檢視設定](/help/data-views/component-settings/overview.md)
+  * [資料準備](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-prep/home)
+  * [計算量度](/help/components/calc-metrics/calc-metr-overview.md)
+  * [查詢資料集](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
 
 * **改善可維護性**：建置清晰、模組化且容易更新的衍生欄位邏輯。
 * **確保正確性**：避免分類、歸因和資料轉換中常見的邏輯錯誤。
@@ -105,8 +105,8 @@ Customer Journey Analytics會針對每個衍生欄位強制執行明確的[函�
 **模式**
 
 * 具有複雜&#x200B;**[!UICONTROL If]**&#x200B;和&#x200B;**[!UICONTROL Else If]**&#x200B;鏈結的[&#128279;](/help/data-views/derived-fields/derived-fields.md#case-when)函式時非常大的案例：
-   * 許多條件（例如：超過20個運運算元）或深層巢狀（超過3或4層巢狀[Case When](/help/data-views/derived-fields/derived-fields.md#case-when) **[!UICONTROL If]**&#x200B;和&#x200B;**[!UICONTROL Else If]**&#x200B;邏輯）。
-   * 相同欄位上具有不同值的重複條件。
+  * 許多條件（例如：超過20個運運算元）或深層巢狀（超過3或4層巢狀[Case When](/help/data-views/derived-fields/derived-fields.md#case-when) **[!UICONTROL If]**&#x200B;和&#x200B;**[!UICONTROL Else If]**&#x200B;邏輯）。
+  * 相同欄位上具有不同值的重複條件。
 * 重複的常數字串比對。
 
   +++ 範例
@@ -138,26 +138,26 @@ Customer Journey Analytics會針對每個衍生欄位強制執行明確的[函�
 **模式**
 
 * 衍生欄位會複製元件設定中已有的行為：
-   * 大小寫標準化、微調或簡單篩選（例如：排除`unknown`、`undefined`或`null`），沒有額外的複雜性。
-   * 數字範圍的基本分組。
+  * 大小寫標準化、微調或簡單篩選（例如：排除`unknown`、`undefined`或`null`），沒有額外的複雜性。
+  * 數字範圍的基本分組。
 
-     +++ 範例
+    +++ 範例
 
-     ![基本分組使用錯誤](assets/best-practices-wrong-usage.png)
+    ![基本分組使用錯誤](assets/best-practices-wrong-usage.png)
 
-     +++
+    +++
 
-     請改為在資料檢視的維度上使用[值分組](/help/data-views/component-settings/value-bucketing.md)。
-   * 以[下一個或上一個](/help/data-views/derived-fields/derived-fields.md#next-or-previous)編碼的持續性或歸因邏輯，或資料檢視[歸因](/help/data-views/component-settings/attribution.md)和[有效期](/help/data-views/component-settings/persistence.md)設定就夠的手動順序邏輯。
-   * 一種衍生量度，只會計算某個條件下的現有量度。
+    請改為在資料檢視的維度上使用[值分組](/help/data-views/component-settings/value-bucketing.md)。
+  * 以[下一個或上一個](/help/data-views/derived-fields/derived-fields.md#next-or-previous)編碼的持續性或歸因邏輯，或資料檢視[歸因](/help/data-views/component-settings/attribution.md)和[有效期](/help/data-views/component-settings/persistence.md)設定就夠的手動順序邏輯。
+  * 一種衍生量度，只會計算某個條件下的現有量度。
 
-     +++ 範例
+    +++ 範例
 
-     ![條件式邏輯使用錯誤](assets/best-practices-wrong-usage-2.png)
+    ![條件式邏輯使用錯誤](assets/best-practices-wrong-usage-2.png)
 
-     +++
+    +++
 
-     此方法會復寫篩選量度或[包含排除值](/help/data-views/component-settings/include-exclude-values.md)所能達到的目標。
+    此方法會復寫篩選量度或[包含排除值](/help/data-views/component-settings/include-exclude-values.md)所能達到的目標。
 
 **風險診斷：資料品質，高維護性**
 
@@ -172,8 +172,8 @@ Customer Journey Analytics會針對每個衍生欄位強制執行明確的[函�
 * 歸因和持續性：使用維度資料檢視[持續性](/help/data-views/component-settings/persistence.md)設定（**[!UICONTROL 配置模式]**&#x200B;和&#x200B;**[!UICONTROL 有效期]**），而不是在具有[下一個或上一個](/help/data-views/derived-fields/derived-fields.md#next-or-previous)或其他循序邏輯的衍生欄位中模擬它們。
 * 數值分組：保持衍生欄位為數值，並讓資料檢視在頂端建立分組維度，而不是在[Case When](/help/data-views/derived-fields/derived-fields.md#case-when)鏈中硬式編碼範圍標籤。
 * 條件式邏輯：將簡單的0或1標幟邏輯轉換為：
-   * 原始量度包含或排除套用於Analysis Workspace的值篩選邏輯。
-   * 使用資料檢視元件設定組態的篩選量度。
+  * 原始量度包含或排除套用於Analysis Workspace的值篩選邏輯。
+  * 使用資料檢視元件設定組態的篩選量度。
 
 ## 量度和維度的分類錯誤
 
@@ -182,8 +182,8 @@ Customer Journey Analytics會針對每個衍生欄位強制執行明確的[函�
 **模式**
 
 * 衍生欄位會清楚地產生：
-   * 數值輸出（計數、比率或算術），但元件已設定為維度。
-   * 類別輸出（標籤或字串），但元件已設定為量度。
+  * 數值輸出（計數、比率或算術），但元件已設定為維度。
+  * 類別輸出（標籤或字串），但元件已設定為量度。
 * 衍生欄位會將0/1標幟編碼為字串。
 
 Customer Journey Analytics允許在資料檢視層級將數值欄位強製為維度，並將字串欄位強製為量度，但若未妥善對齊，可能會產生令人困惑的報表。
@@ -195,10 +195,10 @@ Customer Journey Analytics允許在資料檢視層級將數值欄位強製為維
 **推薦**
 
 * 如果輸出是數字：
-   * 在資料檢視中將元件型別設定為&#x200B;**[!UICONTROL 量度]**。
-   * 如果元件代表子集量度（例如，**[!UICONTROL 結帳頁面檢視次數]**），請在資料檢視中使用篩選量度，而不是使用衍生字串加上位於頂端的計算量度。
+  * 在資料檢視中將元件型別設定為&#x200B;**[!UICONTROL 量度]**。
+  * 如果元件代表子集量度（例如，**[!UICONTROL 結帳頁面檢視次數]**），請在資料檢視中使用篩選量度，而不是使用衍生字串加上位於頂端的計算量度。
 * 如果輸出是標籤：
-   * 將元件型別設定為&#x200B;**[!UICONTROL Dimension]**，並相應地設定[持續性](/help/data-views/component-settings/persistence.md)設定（**[!UICONTROL 配置模式]**&#x200B;和&#x200B;**[!UICONTROL 有效期]**）。
+  * 將元件型別設定為&#x200B;**[!UICONTROL Dimension]**，並相應地設定[持續性](/help/data-views/component-settings/persistence.md)設定（**[!UICONTROL 配置模式]**&#x200B;和&#x200B;**[!UICONTROL 有效期]**）。
 
 ## 行銷管道和行銷活動邏輯陷阱
 
@@ -212,9 +212,9 @@ Customer Journey Analytics允許在資料檢視層級將數值欄位強製為維
 
 * Customer Journey Analytics行銷管道通常使用衍生欄位實作。
 
-   * 根據URL引數、反向連結、登陸頁面等實作行銷管道或行銷活動分段的衍生欄位。
-   * 可疑排序：在套用更具體的規則之前，會出現一個通用的catch-all規則。
-   * 所有可能的選項的處理不完整： **[!UICONTROL 反向連結網域沒有明確的分支]**&#x200B;或未設定&#x200B;**[!UICONTROL 查詢引數]**。
+  * 根據URL引數、反向連結、登陸頁面等實作行銷管道或行銷活動分段的衍生欄位。
+  * 可疑排序：在套用更具體的規則之前，會出現一個通用的catch-all規則。
+  * 所有可能的選項的處理不完整： **[!UICONTROL 反向連結網域沒有明確的分支]**&#x200B;或未設定&#x200B;**[!UICONTROL 查詢引數]**。
 
 **風險診斷：資料品質**
 
@@ -301,8 +301,8 @@ Customer Journey Analytics允許在資料檢視層級將數值欄位強製為維
 **風險診斷：資料品質**
 
 * 治理和設計問題：算術可能更適合：
-   * 衍生欄位量度（如果您希望衍生欄位作為所有使用者的控管標準量度）。
-   * Analysis Workspace中的計算量度（如果計算量度是分析專用的）。
+  * 衍生欄位量度（如果您希望衍生欄位作為所有使用者的控管標準量度）。
+  * Analysis Workspace中的計算量度（如果計算量度是分析專用的）。
 
 **推薦**
 
@@ -340,8 +340,8 @@ Customer Journey Analytics允許在資料檢視層級將數值欄位強製為維
 
 * 衍生欄位隱含假設特定[容器層級](/help/getting-started/cja-b2b-concepts-features.md#containers) （事件、工作階段或人員），但：
 
-   * 衍生欄位不會參考工作階段或人員層級屬性。
-   * 資料檢視工作階段設定與預期邏輯衝突。
+  * 衍生欄位不會參考工作階段或人員層級屬性。
+  * 資料檢視工作階段設定與預期邏輯衝突。
 
 **風險診斷：資料品質**
 

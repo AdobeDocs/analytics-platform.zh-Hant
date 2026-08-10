@@ -20,16 +20,23 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 711e4bd71a4939eec96a6c454242e96b350fe4e2
 workflow-type: tm+mt
-source-wordcount: 1899
-ht-degree: 70%
+source-wordcount: 2017
+ht-degree: 64%
 
 ---
 
 # 圖表型拼接
 
-在圖表式拚接中，您可以從身分圖表指定事件資料集、該資料集的永久ID (Cookie)和所需的人員ID名稱空間。 圖表式拚接會嘗試讓人員ID資訊可用於任何事件的Customer Journey Analytics資料分析。 永久ID是用來從Experience Platform Identity Service查詢身分圖表，以從指定的名稱空間取得人員ID。
+在圖表式拚接中，您可以從身分圖表指定事件資料集、該資料集的永久ID (Cookie)和所需的人員ID名稱空間。 圖表式拚接會嘗試讓人員ID資訊可用於任何事件的Customer Journey Analytics資料分析。 永久ID是用來從Experience Platform Identity Service查詢身分圖表，以從指定的名稱空間取得人員ID。 這是其他Experience Platform應用程式（例如Real-Time Customer Data Platform）所使用的相同Identity Service （如下圖所示）。
+
+![身分識別服務](assets/uis-gbs.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>[Identity服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)是核心Experience Platform服務，不需要額外的授權。 如需詳細資訊，請參閱[瞭解Experience Platform基礎結構中Identity Service的角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home#understanding-the-role-of-identity-service-within-the-experience-platform-infrastructure)。
+>
 
 如果無法擷取事件的人員ID資訊，則會使用永續性ID來取代該&#x200B;*未拼接*&#x200B;事件。 因此，在與包含已啟用拼接資料集的[連線](/help/connections/overview.md)相關聯的[資料檢視](/help/data-views/data-views.md)中，人員ID資料檢視元件包含人員ID值或事件層級的永久ID值。
 
@@ -41,8 +48,8 @@ ht-degree: 70%
 圖表型拼接支援在下列情境中使用[`identityMap`欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)：
 
 - 在 `identityMap` 命名空間中使用主要身分識別以定義永久 ID：
-   - 如果在不同的名稱空間中找到多個主要身分，則名稱空間中的身分會依字典排序，並會選取第一個身分。
-   - 如果在單一命名空間中找到多個主要身分識別，則會選取按照字典順序第一個可用的主要身分識別。
+  - 如果在不同的名稱空間中找到多個主要身分，則名稱空間中的身分會依字典排序，並會選取第一個身分。
+  - 如果在單一命名空間中找到多個主要身分識別，則會選取按照字典順序第一個可用的主要身分識別。
 
   在以下範例中，命名空間和身分識別會產生經過排序的主要身分識別清單，最後則產生所選的身分識別。
 
@@ -73,7 +80,7 @@ ht-degree: 70%
   </table>
 
 - 使用 `identityMap` 命名空間定義永久 ID：
-   - 如果在 `identityMap` 命名空間中找到永久 ID 的多個值，則會使用字母排序下第一個可供使用的身分識別。
+  - 如果在 `identityMap` 命名空間中找到永久 ID 的多個值，則會使用字母排序下第一個可供使用的身分識別。
 
   在以下範例中，您已選取 ECID 做為要使用的命名空間。 該選取範圍會產生經過排序的身分識別清單，並最後產生選取的身分識別。
 
@@ -111,10 +118,10 @@ ht-degree: 70%
 - **即時拼接**：嘗試在每個點擊 (事件) 傳入時將其拼接，使用永久 ID 來查詢身分識別圖表，藉此找出所選命名空間的個人 ID。 如果透過查詢取得個人 ID，系統會立即拼接此個人 ID。
 
 - **重播拼接**：根據身分識別圖表更新的身分識別&#x200B;*重播*&#x200B;資料。 來自先前未知裝置 (永久 ID) 的點擊會在這個階段進行拼接，因為身分識別圖表已解析命名空間的身分識別。 兩個引數決定重播： **頻率**&#x200B;和&#x200B;**回顧期間**。 Adobe 提供下列這些參數的組合：
-   - **以每日一次的頻率行每日回顧**：資料每天重播，回顧時間範圍是 24 小時。 此選項的優點是重播頻率較高，但未驗證的輪廓必須在造訪您網站的當天完成驗證。
-   - **以每週一次的頻率進行每週回顧**：資料每週重播一次，回顧時間範圍是一週 (請參閱[選項](overview.md#options))。 此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。 不過，直到下一次每週重播為止，系統不會重新處理不到一週的未拼接資料。
-   - **以每週一次的頻率進行每兩週回顧**：資料每週重播一次，回顧時間範圍是兩週 (請參閱[選項](overview.md#options))。 此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。 不過，直到下一次每週重播為止，系統不會重新處理不到兩週的未拼接資料。
-   - **以每週一次的頻率進行每月回顧**：資料每週重播一次，回顧時間範圍是一個月 (請參閱[選項](overview.md#options))。 此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。 不過，直到下一次每週重播為止，系統不會重新處理不到一個月的未拼接資料。
+  - **以每日一次的頻率行每日回顧**：資料每天重播，回顧時間範圍是 24 小時。 此選項的優點是重播頻率較高，但未驗證的輪廓必須在造訪您網站的當天完成驗證。
+  - **以每週一次的頻率進行每週回顧**：資料每週重播一次，回顧時間範圍是一週 (請參閱[選項](overview.md#options))。 此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。 不過，直到下一次每週重播為止，系統不會重新處理不到一週的未拼接資料。
+  - **以每週一次的頻率進行每兩週回顧**：資料每週重播一次，回顧時間範圍是兩週 (請參閱[選項](overview.md#options))。 此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。 不過，直到下一次每週重播為止，系統不會重新處理不到兩週的未拼接資料。
+  - **以每週一次的頻率進行每月回顧**：資料每週重播一次，回顧時間範圍是一個月 (請參閱[選項](overview.md#options))。 此選項的優點在於，未驗證的工作階段擁有寬裕的時間完成驗證。 不過，直到下一次每週重播為止，系統不會重新處理不到一個月的未拼接資料。
 
 - **隱私權**：在收到隱私相關請求時，除了從來源資料集移除所請求的身分識別之外，在未驗證事件中對該身分識別所做的任何拼接都必須還原。 此外，身分識別必須從身分識別圖表移除，防止未來對該特定身分識別使用圖表型拚接。
 
@@ -160,7 +167,7 @@ ht-degree: 70%
 
 +++ 詳細資料
 
-當重播拼接發生在 2023-05-13 16:30，且回顧時間範圍設定為 24 小時，範例中的某些事件會重新拼接 (標示為![重播](/help/assets/icons/Replay.svg))。
+當重播結合發生於2023-05-13 16:30，且回顧視窗設定為24小時時，會重新結合範例中的某些事件（由![重播](/help/assets/icons/Replay.svg)指示）。
 
 | | 時間 | 永久 ID<br/>`ECID` | 命名空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 產生的ID<br/> （即時彙整之後） | 產生的ID<br/> （重播24小時後） |
 |---|---|---|---|---|---|
@@ -174,7 +181,7 @@ ht-degree: 70%
 {style="table-layout:auto"}
 
 
-當重播拼接發生在 2023-05-13 16:30，且回顧時間範圍設定為 7 天時，來自範例的所有事件都會重新拼接。
+當重播結合於2023-05-13 16:30進行，且回顧視窗設定為7天時，所有範例事件都會重新結合。
 
 
 | | 時間 | 永久 ID<br/>`ECID` | 命名空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 產生的ID<br/> （即時彙整之後） | 產生的ID<br/> （重播7天後） |
@@ -197,7 +204,7 @@ ht-degree: 70%
 
 +++ 詳細資料
 
-下列表格呈現與以上相同的資料，但顯示隱私請求 (例如，在 2023-05-13 18:00) 對範例事件的影響。
+下表呈現與以上相同的資料，但顯示隱私權請求（例如，在2023-05-13 18:00）對範例事件具有的影響。
 
 | | 時間 | 永久 ID<br/>`ECID` | 命名空間<br/>`Email` ![資料對應](/help/assets/icons/DataMapping.svg) | 產生的ID （在隱私權請求後） |
 |--:|---|---|---|---|
@@ -219,10 +226,10 @@ ht-degree: 70%
 
 - Adobe Experience Platform 中您要套用拼接的事件資料集，必須有一欄可在每列識別輪廓，亦即&#x200B;**永久 ID**。 例如，Adobe Analytics AppMeasurement 資料庫產生的訪客 ID 或 Experience Platform 身分識別服務產生的 ECID。
 - 在啟用圖表式拚接之前，必須先在沙箱層級設定Experience Platform Identity Service的身分圖表。
-   - 身分圖表必須有名稱空間（例如`Email`或`Phone`），您想在拼接期間使用它來解析人員ID。
-   - 身分圖表必須填入來自任何相關資料集（型別為&#x200B;*event*&#x200B;或&#x200B;*設定檔*，且至少包含兩個具有ID值的有用名稱空間）的身分資訊。
-   - 擁有這類相關身分的所有資料集都必須針對身分圖表資料擷取[&#128279;](faq.md#enable-a-dataset-for-the-identity-service)啟用。 這項啟用可確保隨著時間從所有需要的來源將傳入的身分新增到圖表中。
-   - 若已使用即時客戶資料設定檔或Adobe Journey Optimizer一段時間，則應已在一定程度上設定圖表。<br/>若啟用圖表式拚接的資料集也需要歷史拚接回填，圖表應已包含整個期間的歷史身分識別，才能取得想要的拚接結果。
+  - 身分圖表必須有名稱空間（例如`Email`或`Phone`），您想在拼接期間使用它來解析人員ID。
+  - 身分圖表必須填入來自任何相關資料集（型別為&#x200B;*event*&#x200B;或&#x200B;*設定檔*，且至少包含兩個具有ID值的有用名稱空間）的身分資訊。
+  - 擁有這類相關身分的所有資料集都必須針對身分圖表資料擷取[&#128279;](faq.md#enable-a-dataset-for-the-identity-service)啟用。 這項啟用可確保隨著時間從所有需要的來源將傳入的身分新增到圖表中。
+  - 若已使用即時客戶資料設定檔或Adobe Journey Optimizer一段時間，則應已在一定程度上設定圖表。<br/>若啟用圖表式拚接的資料集也需要歷史拚接回填，圖表應已包含整個期間的歷史身分識別，才能取得想要的拚接結果。
 - 如果您想要使用圖表式拼接，而且您預期事件資料集會貢獻身分圖表，您應該[啟用身分服務的資料集](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)。
 - 永久ID和人員ID可搭配[identityMap](#identitymap)使用。 或者，永久性ID和人員ID可以是XDM結構描述中的欄位，在這種情況下，欄位必須是[在結構描述中定義為身分](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity?lang=en)。
 
@@ -239,7 +246,7 @@ ht-degree: 70%
 - 在共用裝置的情境中，若圖表中的命名空間包含多個身分識別，系統會使用按照字典順序排列第一個的身分識別。 如果命名空間限制和優先順序是在圖表連結規則發行時設定，則會使用最後驗證的使用者身分。 如需更多資訊，請參閱[共用裝置](/help/use-cases/stitching/shared-devices.md)。
 - 在身分識別圖表中回填身分識別，須遵守回溯三個月的硬性限制。 若您未使用 Experience Platform 應用程式 (如 Real-time Customer Data Platform) 填入身分識別圖表，建議您使用回填身分識別。
 - 適用[身分識別服務護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/guardrails)。 檢視下列[靜態限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/guardrails#static-limits)範例：
-   - 圖表中的最大身分識別數量：50。
-   - 單一批次攝取的身分識別連結數上限：50。
-   - 用於圖表攝取之 XDM 記錄中的最大身分識別數量：20。
-   - 用於圖表攝取之 XDM 記錄中的最低身分識別數量：2。
+  - 圖表中的最大身分識別數量：50。
+  - 單一批次攝取的身分識別連結數上限：50。
+  - 用於圖表攝取之 XDM 記錄中的最大身分識別數量：20。
+  - 用於圖表攝取之 XDM 記錄中的最低身分識別數量：2。
