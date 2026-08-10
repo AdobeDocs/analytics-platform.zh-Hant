@@ -5,27 +5,55 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
 hold: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a5bc2160a7dc426b9436116362264ab9f90390
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8did: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: de01c1e07af1a3e746e7cdb2dc95d36a420e883d
 workflow-type: tm+mt
-source-wordcount: 770
-ht-degree: 2%
+source-wordcount: 981
+ht-degree: 14%
 
 ---
 
-# 設定同意報告和篩選
+# 設定同意報告和篩選 {#configure-consent-reporting}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-merge-policy"
+>title="合併原則"
+>abstract="合併原則會將來自多個資料集的輪廓資料合併到統一的客戶輪廓中，用於建立客群。 如果您看到多個合併原則，但不確定要選擇哪一項，請選取「預設時間基礎」。 或洽詢您的資料團隊，了解各合併原則與哪些客群相關聯。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-sandbox"
+>title="沙箱"
+>abstract="選取包含正確 Experience Platform 輪廓資料集的沙箱。 這些資料集必須包含您要在Analysis Workspace中報告的同意資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-person-id"
+>title="人員 ID"
+>abstract="從代表人員ID的模型型架構中選取欄位。 選取範圍僅限於結構描述中標示為「身分」且具備身分名稱空間的欄位清單。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-identity-namespace"
+>title="使用主要身分識別命名空間"
+>abstract="如果您希望Customer Journey Analytics在標示primary=true屬性的「身分對應」中尋找身分識別，並將該身分識別當作該列的人員ID，請啟用此選項。 此身分識別在 Experience Platform 中是用於資料分割的主索引鍵。 <br/>如果您讓此選項維持停用，請從下方的「身分識別命名空間」欄位中選取命名空間。 Customer Journey Analytics 會針對此命名空間索引鍵搜尋每一列的身分識別圖，並使用該命名空間底下的身分識別作為該列的個人 ID。"
+
+<!-- markdownlint-enable MD034 -->
 
 系統管理員可以針對一或多個連線啟用同意報告及（選擇性）同意篩選。 如需概述資訊，請參閱[同意報告和篩選概述](/help/connections/consent-reporting-filtering/consent-overview.md)。
 
