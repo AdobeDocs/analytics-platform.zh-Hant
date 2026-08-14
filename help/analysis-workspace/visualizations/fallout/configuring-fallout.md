@@ -15,10 +15,10 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 09d8d3fd3cbc6e4ddfc30aca96b041a7c51002d0
 workflow-type: tm+mt
-source-wordcount: 921
-ht-degree: 38%
+source-wordcount: 930
+ht-degree: 37%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_container"
 >title="流失容器"
->abstract="選取容器以進行路徑分析。 此選項有助於您了解參與度，並將分析範圍限制在所選容器內。"
+>abstract="選取容器以進行路徑分析。 此選擇可協助您瞭解參與，並將分析限制在選取的容器。"
 
 作為視覺效果的一部分，可以使用特定設定。
 
