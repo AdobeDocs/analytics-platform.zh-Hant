@@ -23,10 +23,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 1254207526535e44c848dfeed0052339fbd8d65d
+source-git-commit: 0b6dc1d738b5f1a8aa430c990f8eb24df5d95653
 workflow-type: tm+mt
-source-wordcount: 745
-ht-degree: 66%
+source-wordcount: 770
+ht-degree: 65%
 
 ---
 
@@ -95,7 +95,9 @@ Experience Platform中有五個由Adobe定義的原則，這些原則可能會�
 
 ## 啟用的原則如何影響資料視圖
 
-如果一或多個原則已使用C1、C2、C3、C8、C9或C12標籤開啟，則套用特定資料標籤的結構描述元件無法新增到資料檢視。
+如果使用C3或C8開啟一或多個原則，則套用特定資料標籤的結構描述元件無法新增到資料檢視。
+
+如果一個或多個原則使用C9開啟，則任何標示為C9的結構描述元件將無法與[Analytics MCP伺服器](https://developer.adobe.com/analytics-mcp/docs/)搭配使用。
 
 這些元件會在左側邊欄「[!UICONTROL 結構描述]」欄位清單中顯示為灰色：
 
