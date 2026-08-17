@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e686fca2c77a8f9739298ece01ccf0fa2fe87b3b
+source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
 workflow-type: tm+mt
-source-wordcount: 2441
+source-wordcount: 2440
 ht-degree: 9%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 9%
 | 對象重新整理頻率 | 4 | 系統強制的護欄 | 可以重新整理[對象](../components/audiences/audiences-overview.md)的頻率上限（小時）。 |
 | 對象重新整理回顧期間 | 90 | 系統強制的護欄 | 重新整理回顧期間的最大天數。 |
 | 重新整理對象到期日 | 13 | 系統強制的護欄 | 對象從建立日期起停止重新整理的最大月數。 客戶可再延長13個月。 |
-| 重新整理對象的數量 | 75, 150 | 系統強制的護欄 | 重新整理對象的最大數量。 值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 重新整理對象的數量 | 75 - 150 | 系統強制的護欄 | 設定為以排定的頻率重新整理[&#128279;](/help/components/audiences/publish.md#audience-builder)的個對象數上限（一次性重新整理不計入此限制）。 值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
 
 {style="table-layout:auto"}
 
@@ -301,7 +301,7 @@ ht-degree: 9%
 | 彙整（選擇性功能；如需詳細資訊，請參閱[彙整概觀](../stitching/overview.md)） | &lt; 4小時 |
 | Adobe Analytics Source Connector回填少於100億個事件（最多13個月的歷史資料） | &lt; 4週 |
 | 將對象發佈到即時客戶個人檔案，包括自動建立串流區段，並允許區段準備好接收資料。 | ≈ 60分鐘 |
-| 重新整理對象的頻率 | 一次性重新整理：延遲少於5分鐘。<br/>每4小時、每天、每週、每月重新整理一次（延遲與重新整理頻率同步進行）。 |
+| 重新整理對象的頻率 | 每4小時、每天、每週、每月重新整理一次。 |
 
 | 即時報表延遲 | 預期延遲 |
 |---|---|

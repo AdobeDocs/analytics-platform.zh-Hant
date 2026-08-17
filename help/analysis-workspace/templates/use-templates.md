@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f4e142a3eb5294cedd6d9e6666845dadcfcc415d
+source-git-commit: 89f0a1e54662c59d474b1fba28eb8420612e9243
 workflow-type: tm+mt
-source-wordcount: 21144
+source-wordcount: 21140
 ht-degree: 98%
 
 ---
@@ -624,8 +624,8 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 >[!CONTEXTUALHELP]
 >id="template--consentpolicyoverview"
->title="檢視造訪網站的人們來自哪個國家/地區。"
->abstract="**這可以幫助您**&#x200B;更加了解造訪網站的訪客最常來自哪些國家/地區。<br/>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如利用資料來加強這些國家/地區的行銷工作，或者確保您的網站體驗在使用不同主要語言的國家/地區能達到最佳效果。<br/>此範本使用國家/地區維度。"
+>title="從Adobe Experience Platform根據同意原則成員資格資料檢視訪客。"
+>abstract="**這可協助您**&#x200B;作為報告訪客同意原則成員資格的起點。 當資料檢視設定為同意報表時，Customer Journey Analytics會自動在Analysis Workspace中使用同意原則分析範本。 <br/>**根據您瞭解的情況，您可能**&#x200B;會執行許多動作，例如從分析報表中排除非同意的訪客。"
 
 >[!CONTEXTUALHELP]
 >id="template--countrygeoreport"
