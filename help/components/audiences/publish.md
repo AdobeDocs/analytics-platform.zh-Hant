@@ -5,26 +5,15 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
 TQID: https://experienceleague.adobe.com/BPbSzyh6eg3QC6NcAVgo06GAISzVH2CX35Z-Q32xMbE
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
 workflow-type: tm+mt
-source-wordcount: 2478
-ht-degree: 98%
+source-wordcount: 2520
+ht-degree: 94%
 
 ---
 
@@ -35,7 +24,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="components_audiences_refreshfrequency"
 >title="重新整理頻率"
->abstract="查看重新評估對象會籍的頻率。<br/>一次性對象僅會評估一次。"
+>abstract="重新評估對象成員資格的頻率。<br/>一次性對象只會評估一次，不會計入重新整理限制。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -43,8 +32,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="components_audiences_audiencelimit"
->title="對象限制"
->abstract="重新整理對象作業會受到其重新整理頻率的限制。"
+>title="重新整理對象限制"
+>abstract="您環境中設定為以排程頻率自動重新整理的對象數量。 上限介於75到150之間，視您的Customer Journey Analytics權益而定。 單次重新整理不會計入此限制。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -117,7 +106,7 @@ ht-degree: 98%
 | **[!UICONTROL 名稱]** | 客群名稱。 例如， `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL 標記]** | 為組織目的而要指派給客群的任何標記。 您可以選取一個或多個預先存在的標記，也可以輸入一個新標記。 |
 | **[!UICONTROL 說明]** | 客群的說明，用來其他客群區分開來。 例如， `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL 重新整理頻率]** | 您想要重新整理客群的頻率。<p/>您可在二者之間選擇： <ul><li>**[!UICONTROL 一次性]**&#x200B;客群：無需重新整理的客群 (預設)。 例如，此選項可能適合用於特定一次性行銷活動。<br/>您必須指定&#x200B;**[!UICONTROL 一次性日期範圍]**。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來輸入日期範圍。</li><li>重新整理客群。 您可選取下列選項：<ul><li>**[!UICONTROL 每 4 小時]**：每 4 小時重新整理一次的客群。</li><li>**[!UICONTROL 每日]**：每日重新整理一次的客群</li><li>**[!UICONTROL 每週]**：每週重新整理一次的客群。</li><li>**[!UICONTROL 每月]**：每月重新整理一次的客群</li></ul></li>為了重新整理客群，您必須指定：<ul><li>**[!UICONTROL 重新整理回顧期間]**。 定義從評估客群的今天所開始的回顧天數。 您可以從選項中選取或定義自訂時間。 最長 90 天。</li><li>**[!UICONTROL 到期日]**：定義客群停止重新整理的時間。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期。 預設到期日是從建立日期算起的 1 年後。 到期客群與到期排程報告的處理方式類似。 管理員會在客群到期前的一個月收到一封電子郵件。</li></ul> 請注意，客群重新整理次數限制為 75 到 150 次，具體取決於您的 Customer Journey Analytics 授權權利。</li></ul> |
+| **[!UICONTROL 重新整理頻率]** | 您想要重新整理客群的頻率。<p/><p>您可以根據您的Customer Journey Analytics權益，在有限數量的受眾上設定排程重新整理（在75到150之間）。 </p><p>您可以從下列選項中選擇：</p><ul><li>**[!UICONTROL 一次性]**&#x200B;客群：無需重新整理的客群 (預設)。 例如，此選項可能適合用於特定一次性行銷活動。<br/>您必須指定&#x200B;**[!UICONTROL 一次性日期範圍]**。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來輸入日期範圍。</li><li>重新整理客群。 您可以從下列排定的重新整理選項中選取：<ul><li>**[!UICONTROL 每 4 小時]**：每 4 小時重新整理一次的客群。</li><li>**[!UICONTROL 每日]**：每日重新整理一次的客群</li><li>**[!UICONTROL 每週]**：每週重新整理一次的客群。</li><li>**[!UICONTROL 每月]**：每月重新整理一次的客群</li></ul></li>為了重新整理客群，您必須指定：<ul><li>**[!UICONTROL 重新整理回顧期間]**。 定義從評估客群的今天所開始的回顧天數。 您可以從選項中選取或定義自訂時間。 最長 90 天。</li><li>**[!UICONTROL 到期日]**：定義客群停止重新整理的時間。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期。 預設到期日是從建立日期算起的 1 年後。 到期客群與到期排程報告的處理方式類似。 管理員會在客群到期前的一個月收到一封電子郵件。</li></ul></ul> |
 | **[!UICONTROL 篩選器]** | 篩選條件是客群的主要輸入項目。 將一個或多個區段從左側的 ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;面板拖放至區段區域。 您可以使用 ![Search](/help/assets/icons/Search.svg) [!UICONTROL *搜尋區段*]&#x200B;來搜尋區段。 您可以新增最多 20 個區段。 區段可以使用 **[!UICONTROL And]** 或 **[!UICONTROL Or]** 等運算子來連接。<p>從 Analysis Workspace 中的視覺效果 (例如自由格式表格或歷程畫布) 建立客群時，套用於面板或資料欄的任何區段都會保留。 您可以移除任何自動套用的區段。</p> |
 | **[!UICONTROL 資料預覽]** | 選取「![資訊](/help/assets/icons/Info.svg)」以顯示或隱藏所選日期範圍的[資料預覽](#data-preview)。 |
 
