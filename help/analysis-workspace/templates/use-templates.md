@@ -6,30 +6,14 @@ role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
 autotag-review: '2026-05-19T09:53:18.849Z'
 TQID: 'https://experienceleague.adobe.com/wZ8vtE4BFc1ahBKdblSEAXBofZBPObbSJi4bA9MtxPY'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f4e142a3eb5294cedd6d9e6666845dadcfcc415d
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 89f0a1e54662c59d474b1fba28eb8420612e9243
 workflow-type: tm+mt
-source-wordcount: 21144
+source-wordcount: 21140
 ht-degree: 98%
 
 ---
@@ -263,7 +247,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **訓練教學課程**] | 了解常見的 Analysis Workspace 術語，及建置首次分析所需的步驟 |
 | [!UICONTROL **頁面**] | <!--duplicated in Engagement section--> 找出最受歡迎和最不受歡迎頁面。 <p>**這可以幫助您**&#x200B;更加了解您的客群，以及他們最感興趣的資訊類型。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如調整頁面中繼資料來提高瀏覽數較少之頁面的可見度，或花時間改善瀏覽數最多之頁面的內容。</p><p>此範本使用頁面維度和頁面瀏覽數量度。</p> |
@@ -411,7 +395,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **關鍵量度**] | <!--duplicated in Most popular section--> 檢視以並排方式顯示頁面瀏覽數、造訪次數與不重複訪客量度的報告。 會顯示一段期間內的資料，並與先前的時段進行比較。 <p>**這可以幫助您**&#x200B;比較這些重要量度，更全面地了解造訪網站的不重複訪客數量、頁面造訪次數，以及工作階段數量。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如評估每個人在特定一週或一個月內於造訪網站時檢視的頁面平均數量，以及在一年中的特定時期或行銷活動展開前與展開後的變化情況。 </p><p>此範本使用日維度、頁面瀏覽數量度、造訪次數量度，和不重複訪客量度。</p> |
 | [!UICONTROL **頁面檢視**] | <!--duplicated in Most popular section-->檢視頁面總瀏覽數。 會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這可以幫助您**&#x200B;更加了解網站上的流量隨時間可能增加或減少的情況。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前與發起後的網站流量，評估最近發起之行銷活動的成效。 或者您可以比較逐年的假期流量。</p><p>此範本使用日維度和頁面瀏覽數量度。</p> |
@@ -489,7 +473,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **產品轉換漏斗**] | 在顯示購物車、結帳和訂單的漏斗視覺效果中檢視產品轉換。 您也可以查看轉換百分比、平均收入、單位平均數和訂單平均數。<p>**這可以幫助您**&#x200B;更了解人們在轉換過程中的進度和流失情況。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如改善您的網站以促進更順暢的結帳程序。</p> |
 | **產品** | 查看哪些產品正在推動關鍵量度，例如暢銷產品或瀏覽次數最多的產品。 <p>**這可以幫助您**&#x200B;更加了解哪些產品最成功。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如增加成功產品的資金，及減少不太成功產品的資金。</p><p>此範本使用訂單量度和產品維度。 |
@@ -624,8 +608,8 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 >[!CONTEXTUALHELP]
 >id="template--consentpolicyoverview"
->title="檢視造訪網站的人們來自哪個國家/地區。"
->abstract="**這可以幫助您**&#x200B;更加了解造訪網站的訪客最常來自哪些國家/地區。<br/>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如利用資料來加強這些國家/地區的行銷工作，或者確保您的網站體驗在使用不同主要語言的國家/地區能達到最佳效果。<br/>此範本使用國家/地區維度。"
+>title="從Adobe Experience Platform根據同意原則成員資格資料檢視訪客。"
+>abstract="**這可協助您**&#x200B;作為報告訪客同意原則成員資格的起點。 當資料檢視設定為同意報表時，Customer Journey Analytics會自動在Analysis Workspace中使用同意原則分析範本。 <br/>**根據您瞭解的情況，您可能**&#x200B;會執行許多動作，例如從分析報表中排除非同意的訪客。"
 
 >[!CONTEXTUALHELP]
 >id="template--countrygeoreport"
@@ -675,7 +659,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | **[!UICONTROL 對象總覽]** | 檢視造訪您網站的人當中代表哪些客群。<p>**這有助於您**&#x200B;更加了解客群、客群來源 (RTCDP、Customer Journey Analytics 等)、客群重疊等一般資訊。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如運用資料聚焦於特定客群的行銷活動，或針對橫跨多個客群的客戶建立量身打造的體驗。</p><p>此範本使用對象名稱、對象來源、退出對象名稱和退出對象來源維度。</p><p>如需詳細資訊，請參閱[在Customer Journey Analytics中分析Experience Platform對象](/help/connections/audience-analysis/analyze-audiences.md)。</p> |
 | [!UICONTROL **首次訪客與重複訪客**] | 檢視首次訪客和重複訪客的比較。 <p>**這可以幫助您**&#x200B;更了解您的網站在維持客戶忠誠度方面的有效性，或您獲得新客戶的速度。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如為首次訪客提供未來購買的獎勵，以吸引他們回訪。</p><!-- This template uses the --> |
@@ -795,7 +779,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **行銷通路**] > [!UICONTROL **通路概觀報告**] | 使用自訂歸因時，此範本會顯示訪客如何到達您的網站。<p>**這可以幫助您**&#x200B;更加了解哪些行銷管道最有效。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如針對有效的行銷管道加重投資，並放棄投資效果較差的行銷管道。</p><p>此範本使用 ID (變數/行銷管道) 維度和收入量度。</p> |
 | [!UICONTROL **行銷管道**] > [!UICONTROL **行銷管道**] | 檢視訪客在參與期間 (預設為 30 天) 符合的第一個行銷管道。 <p>**這可以幫助您**&#x200B;更加了解哪些行銷管道將初始流量導向您的網站。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如針對成效最好的領域加強行銷工作。</p><p>此範本使用首次接觸管道維度。</p> |
@@ -865,7 +849,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **行動應用程式畫面**] | 檢視與行動應用程式上每個畫面相關的事件、工作階段和人員數量。<p>**這可以幫助您**&#x200B;更了解您網站上的哪些畫面最受歡迎。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如改善最受歡迎畫面上的內容。</p><p>此範本使用事件、工作階段、人員和百分比變化量度。 範本還使用頁面標題維度。</p> |
 | **行動應用程式動作** | 檢視人們在您的行動應用程式上執行的動作。 <p>**這可以幫助您**&#x200B;更了解人們如何使用您的應用程式，以及他們從中獲得的價值。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種動作，例如針對最受歡迎的功能，開發能加以強化或改善的功能。</p><p>此範本使用事件、工作階段、人員和百分比變化量度。 |
@@ -901,7 +885,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **行動電信業者**] | 檢視人們用來存取您的網站之行動裝置，由哪些電信公司提供行動網路連線。<p>**這可以幫助您**&#x200B;更加了解您的使用者群最常使用哪些行動電信業者。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如根據不同電信業者的網路功能自訂內容傳送方式，以確保流暢的使用者體驗。</p><p>此範本使用行動電信業者維度。</p> |
 | **裝置** | 檢視人們存取您的網站所使用的行動裝置品牌和型號。<p>**這可以幫助您**&#x200B;更加了解您的使用者群最喜歡使用哪些行動裝置。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如針對最常見的行動裝置將網站呈現最佳化。</p><p>此範本使用行動裝置名稱維度。</p> |
@@ -965,7 +949,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **一小時中的分鐘數**] | 檢視您網站上的事件、工作階段和人員數量 (以分鐘劃分)。 例如，若某份報告的報告時間範圍為一日，則每日每小時的第一分鐘會分組到相同的維度項目中。<p>**這可以幫助您**&#x200B;於細微層級上更加了解趨勢。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如針對尖峰時段將資源最佳化，且能精確到分鐘層級。</p><p>此範本使用一小時內的分鐘數維度。</p> |
 | **小時** | 檢視您網站上的事件、工作階段和人員 (以一日中的小時數劃分)。 例如，若您的報告橫跨 1 月 1 日至 1 月 7 日，則每日的第 1 個小時都會分組到相同的維度項目中。<p>**這可以幫助您**&#x200B;更加了解一日中網站造訪最頻繁和最不頻繁的時段。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如在高流量時段替您的網站指派更多運算資源。</p><p>此範本使用一日內的小時數維度。</p> |
@@ -1005,7 +989,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **多管道概觀**] | 檢視橫跨多個管道的流量分佈。 <p>**這可以幫助您**&#x200B;更加了解哪些管道能夠更成功地推動流量和參與度。 </p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如將行銷工作的焦點放在投資報酬率最高的管道上。</p><p>此範本採取使用者、工作階段和事件量度。</p> |
 | **網路+應用程式** | 同時檢視網頁流量和行動流量。<p>**這可以幫助您**&#x200B;更加了解您網站的網頁和行動流量分佈。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如當達到一定的流量時，投入更多資源在您的行動應用程式體驗上。</p><p>此範本使用網頁工作階段、行動應用程式工作階段，和網頁加上應用程式跨管道工作階段量度。</p> |
@@ -1042,7 +1026,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **呼叫中心儀表板**] | 檢視客服中心的資料，包括客戶致電的原因和次數。 <p>**這可以幫助您**&#x200B;更了解客戶在何處遇到問題以及客服中心資源用於何處。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種動作，例如解決導致客服中心流量增加的產品問題，以最終提升產品獲利能力。</p> |
 | **銷售點** | 檢視銷售點 (POS) 交易資料，包括收入、訂單數量和銷售數量。 此範本還包括視覺效果，顯示有關業績最好的商店、熱銷產品和熱門產品類別以及線上與離線銷售量的資訊。 <p>**這些資訊可以協助您**&#x200B;更了解各家商店和線上最暢銷的產品。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如指派更多行銷資源給績效最好的產品和管道。</p><p>此範本使用使用者、收入和訂單量度。</p> |
@@ -1081,7 +1065,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Journey Optimizer 促銷活動**] | 檢視 Journey Optimizer 行銷活動的基本量度，包括電子郵件行銷活動、實驗、應用程式內、SMS 等。<p>**這可以幫助您**&#x200B;更加了解點按次數和已發送訊息數量等詳細資訊，進而全面分析了解行銷活動的有效性和參與度。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如根據目標客群的參與度調整您的行銷活動。</p> |
 | **Journey Optimizer 歷程** | 檢視 Journey Optimizer 歷程的基本量度，包括電子郵件歷程、實驗、應用程式內、SMS 等。<p>**這可以幫助您**&#x200B;更加了解點按次數和已發送訊息數量等詳細資訊，進而全面分析了解歷程的有效性和參與度。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如根據目標客群的參與度調整您的行銷活動。</p> |
@@ -1101,7 +1085,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 >title="追蹤 B2B 會議請求的完整生命週期。 監視轉換率、顧問績效，並找出您最有效的銷售線索產生管道。"
 >abstract="**這有助於您**&#x200B;追蹤會議轉換率、識別績效優異的團隊成員、了解預約行為中的季節性趨勢，以及找出哪些頁面產生最有價值的會議請求。<br/>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如將會議請求流程最佳化、將資源重新分配給高轉換率的頁面、針對預約率較低的顧問開發精準培訓內容，或實施新策略減少錯過的會議。"
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Brand Concierge概觀**] | 透過對話模式、使用者回饋和建議的成效，分析使用者參與度。 <p>**這有助於您**&#x200B;識別參與模式、評估對話品質、追蹤客戶滿意度趨勢及衡量連結推薦的成效。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如調整 AI 代理的回應、針對常見問題開發專屬內容、改進推薦演算法，或針對不同的使用者細分群體建立專門的路徑。</p> |
 | **Brand Concierge B2B會議** | 追蹤B2B會議請求的完整生命週期。 監控轉換率、評估顧問預訂績效，並識別您最有效的潛在客戶產生管道。 <p>**這可協助您**&#x200B;追蹤會議轉換率、識別表現優異的團隊成員、瞭解預訂行為的季節性趨勢，以及找出哪些頁面URL會產生最有價值的會議要求。 </p><p>**根據您所學到的內容，您可以**&#x200B;執行任何數量的工作，例如最佳化您的會議要求程式、將資源重新分配至轉換率較高的頁面URL、為預訂率較低的顧問開發目標式培訓，或實施新策略以減少錯過的會議。</p> |
@@ -1131,7 +1115,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **B2B 客戶公司參與度概觀**] | 深入了解您的客戶公司在各種事件、人員及機會方面的活躍程度。<p>**這可以幫助您**&#x200B;更了解客戶公司層級的參與度趨勢為上升或下降、比較各個客戶公司的活動，並決定針對哪些客戶公司進行保留或贏取的工作。</p><p>**根據所了解的內容，您可能會**&#x200B;採取各種不同的行動，例如將注意力重新聚焦於參與度較低但需要更多注意力的客戶公司身上，因為該客戶公司極為重要。</p> |
 | [!UICONTROL **B2B 機會參與度概觀**] | 在銷售機會層級追蹤參與度，並顯示發展順利或是進展停滯的各個交易。<p>**這可以幫助您**&#x200B;更準確地預測交易進展，並在參與度激增或停滯時加強賦予相關能力。</p><p>**根據所了解的內容，您可能會**&#x200B;採取各種不同的行動，例如對即將完成的交易投入更多精力，以及研究其他交易進展停滯的原因。</p> |
@@ -1142,7 +1126,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Mix Modeler增量模型深入分析**] | 檢視 Mix Modeler 產生之特定模型的洞察。<p>**這有助於您**&#x200B;更加了解在 Mix Modeler 中產生之模型所產生的增量洞察。 <p>**根據這些洞察**，您可以：<ul><li>將組織行銷活動的影響視覺化及量化。</li><li>識別哪些管道績效良好。</li><li>識別可能需要最佳化的管道。</li></ul></p> |
 
