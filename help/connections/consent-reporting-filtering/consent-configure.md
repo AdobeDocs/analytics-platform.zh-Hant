@@ -5,23 +5,15 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
 hide: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8did: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
 workflow-type: tm+mt
 source-wordcount: 981
-ht-degree: 14%
+ht-degree: 23%
 
 ---
 
@@ -41,7 +33,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-consent-sandbox"
 >title="沙箱"
->abstract="選取包含正確 Experience Platform 輪廓資料集的沙箱。 這些資料集必須包含您要在Analysis Workspace中報告的同意資料。"
+>abstract="選取包含正確 Experience Platform 輪廓資料集的沙箱。 這些資料集必須包含您要在 Analysis Workspace 中報告的同意資料。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +42,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-consent-person-id"
 >title="人員 ID"
->abstract="從代表人員ID的模型型架構中選取欄位。 選取範圍僅限於結構描述中標示為「身分」且具備身分名稱空間的欄位清單。"
+>abstract="從模型式結構描述中選取代表個人 ID 的欄位。 選取範圍僅限於結構描述中標示為「身分識別」且確實具有身分識別命名空間的欄位清單。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -59,7 +51,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="cja-consent-identity-namespace"
 >title="使用主要身分識別命名空間"
->abstract="如果您希望Customer Journey Analytics在標示primary=true屬性的「身分對應」中尋找身分識別，並將該身分識別當作該列的人員ID，請啟用此選項。 此身分識別在 Experience Platform 中是用於資料分割的主索引鍵。 <br/>如果您讓此選項維持停用，請從下方的「身分識別命名空間」欄位中選取命名空間。 Customer Journey Analytics 會針對此命名空間索引鍵搜尋每一列的身分識別圖，並使用該命名空間底下的身分識別作為該列的個人 ID。"
+>abstract="啟用此選項，讓 Customer Journey Analytics 在標示 primary=true 屬性的「身分對應」中尋找身分識別，並將其做為該列的人員 ID。 此身分識別在 Experience Platform 中是用於資料分割的主索引鍵。 <br/>如果您讓此選項維持停用，請從下方的「身分識別命名空間」欄位中選取命名空間。 Customer Journey Analytics 會針對此命名空間索引鍵搜尋每一列的身分識別圖，並使用該命名空間底下的身分識別作為該列的個人 ID。"
 
 <!-- markdownlint-enable MD034 -->
 
