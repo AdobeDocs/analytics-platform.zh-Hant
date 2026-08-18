@@ -7,22 +7,14 @@ hide: true
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 6e2c1271de0e1ea82820c108eec08ec815d776f3
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: a4ff89823bf1e4e4aa6d299b74567ed8cb486d06
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1924
 ht-degree: 26%
 
 ---
@@ -51,7 +43,7 @@ B2B帳戶拼接讓您的事件資料集與帳戶身分更加豐富，並且可�
 在Customer Journey Analytics B2B edition中，會忽略此非拼接範例事件資料集中沒有帳戶ID的事件，且不會擷取(![DeleteOutline](/help/assets/icons/DeleteOutline.svg))。
 
 | 動作 | 時間戳記 | 永久 ID | 帳戶 ID | 人員 ID | 事件型別 |
-|:---:|--|--|---|---|---|
+|:---:|--:|--|---|---|---|
 | ![資料新增](/help/assets/icons/DataAdd.svg) | 1/3/25 | 1234 | Adobe | matt@adobe.com | Page view |
 | ![篩選刪除](/help/assets/icons/DeleteOutline.svg) | 1/3/25 | 5678 |  | | |
 | ![資料新增](/help/assets/icons/DataAdd.svg) | 3/4/25 | 9012 | 普遍性 | cory@sky.com |  |
@@ -212,7 +204,7 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
       | **[!UICONTROL 帳戶資料集的人員]** | ![必要](/help/assets/icons/Required.svg) | 選取將人員對應至帳戶的查詢（記錄或非時間序列資料集）。 |
       | **[!UICONTROL 個人 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含人員 ID 的欄位。 該欄位必須標示為身分，且不能與&#x200B;**[!UICONTROL 帳戶識別碼]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
       | **[!UICONTROL 帳戶 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含帳戶 ID 的欄位。 該欄位不能與&#x200B;**[!UICONTROL 人員ID]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
-      | **對應建立時間** | | 選取代表人員與帳戶對應建立日期與時間的欄位 (可選)。 適用於人員隨時間切換多個帳戶的情況。<br/><br/>**範例** （選取&#x200B;**update_date**&#x200B;欄位時）：<table><thead><tr><th>update_date</th><th>人員</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>對於2026年5月1日之前在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Apple。</li><li>對於2026年5月1日或之後在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Adobe。</li></ul>未指定對應時間時，會使用字典第一帳戶來對應至。 當兩個不同的帳戶名稱具有完全相同的&#x200B;**[!UICONTROL update_date]**&#x200B;值，並且指定了對應建立時間時，也會使用相同的演演算法。 |
+      | **對應建立時間** | | 選取代表人員與帳戶對應建立日期與時間的欄位 (可選)。 適用於人員隨時間切換多個帳戶的情況。<br/><br/>**範例** （選取&#x200B;**update_date**&#x200B;欄位時）：<table><thead><tr><th>update_date</th><th>人員</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>對於2026年5月1日之前在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Apple。</li><li>對於2026年5月1日或之後在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Adobe。</li></ul>未指定對應時間時，會使用字典第一帳戶。 當兩個不同的帳戶名稱具有完全相同的&#x200B;**[!UICONTROL update_date]**&#x200B;值，並且指定了對應建立時間時，也會使用相同的演演算法。 |
 
       >[!NOTE]
       >
@@ -246,7 +238,7 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
 * 人員ID的設定為必填。 該人員ID是用來根據[人員對帳戶資料集](#prerequisites)查詢帳戶ID。
 * 帳戶ID的設定為選用。
 
-在![&#128279;](assets/b2b-event-dataset-stitching-on.png)的事件資料集上彙整B2B帳戶
+在](assets/b2b-event-dataset-stitching-on.png)的事件資料集上彙整![B2B帳戶
 
 >[!TAB 關閉]
 
@@ -278,7 +270,7 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
 | 重播 | 頻率 | 資料視窗 |
 |---|---|---|
 | 短期 | 每週 | 最近 7 天 |
-| 長期 | 按月 | 最近 3 個月 |
+| 長期 | 按月 | 過去3個月（Prime套件）<br/>過去6個月（Ultimate套件） |
 
 ## 隱私權與資料衛生
 
