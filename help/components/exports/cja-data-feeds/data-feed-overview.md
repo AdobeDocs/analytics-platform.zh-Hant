@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
+source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
 workflow-type: tm+mt
-source-wordcount: 221
-ht-degree: 21%
+source-wordcount: 230
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 21%
 
 {{release-limited-testing}}
 
-資料摘要是從Customer Journey Analytics中取得原始資料的有力方式。 您可以由組織自行決定，在Adobe以外的其他平台中使用這些原始資料。 資料會在每小時結束時以小時的批次傳送，或在每天結束時以當天的批次傳送。
+資料摘要是從Customer Journey Analytics中取得原始資料的有力方式。 您可以由組織自行決定，在Adobe以外的其他平台中使用這些原始資料。 資料會在每小時結束時以每小時批次傳送，或在每天結束時以每日批次傳送。
 
 ## 先決條件
 
@@ -45,6 +45,8 @@ ht-degree: 21%
 若要開始使用Customer Journey Analytics中的資料摘要，請先瞭解Customer Journey Analytics中的資料摘要與Adobe Analytics中的資料摘要有何不同。 瞭解差異後，您可以將Adobe Analytics資料摘要對應至Customer Journey Analytics，然後開始建立資料摘要。
 
 1. [瞭解Customer Journey Analytics和Adobe Analytics中的資料摘要之間的差異](/help/components/exports/cja-data-feeds/df-comparison.md)。
+
+1. [瞭解資料摘要和Analysis Workspace之間的資料差異](/help/components/exports/cja-data-feeds/df-comparison-workspace.md)。
 
 1. [將Adobe Analytics資料摘要資料行對應至Customer Journey Analytics](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)。
 

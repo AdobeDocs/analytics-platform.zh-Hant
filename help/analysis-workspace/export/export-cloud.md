@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: c7fc5df2a0fd7393b48bfe6bdfa7dccdfffde46c
+source-git-commit: f62c202f92ffc842a9abe2a91bec5231a606f67c
 workflow-type: tm+mt
-source-wordcount: 3268
-ht-degree: 59%
+source-wordcount: 3275
+ht-degree: 58%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 59%
 
 ## 了解完整表格匯出
 
-您可以將完整表格從 Analysis Workspace 匯出至雲端服務提供者，例如 Google、Azure、Amazon 和 Adob&#x200B;&#x200B;e。
+您可以將完整表格從 Analysis Workspace 匯出至雲端服務提供者，例如 Google、Azure、Amazon 和 Adobe。
 
 [完整資料表匯出的優點](#advantages-of-full-table-export)包括能夠匯出數百萬列、包含計算量度、串連值中的結構資料輸出等等。
 
@@ -114,7 +114,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="cja-export-destination"
 >title="目標"
->abstract="選取資料傳送目的地的雲端帳戶和位置。 您可以選擇現有的帳戶和位置，或選取「新增」建立內容。 指定使用者和群組接收匯出失敗或即將到期的資訊。"
+>abstract="選取資料傳送目的地的雲端帳戶和位置。 您可以選擇現有的帳戶和位置，或選取「新增」來建立它們。 指定要通知匯出失敗或即將到期情況的使用者和群組。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -132,7 +132,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="cja-export-notifications"
 >title="通知"
->abstract="新增在匯出失敗或即將到期時要對其發出通知的使用者和群組。"
+>abstract="新增您希望在此匯出失敗或即將到期時收到通知的使用者和群組。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -153,21 +153,21 @@ ht-degree: 59%
    | 欄位名稱 | 函數 |
    |---------|----------|
    | 名稱 | 指定匯出的名稱。 此名稱顯示在匯出清單中。 |
-   | 標記 | 您可以將現有標記套用至匯出，也可以建立新標記並且套用。 <p>若要套用現有標記至匯出，請從下拉式選單中選取任何標記。 您公司中的任何標籤皆可套用。</p> <p>若要建立新標記，請輸入新標記的名稱，然後按 Enter。</p><p>將標記套用至匯出時，請考慮以下事項： <ul><li>您套用的標記可以在匯出表格中篩選或搜尋。</li> <li>匯出完整表格時，不會自動套用已套用至專案的標記，如在「[管理匯出](/help/components/exports/manage-exports.md)」中的「在匯出頁面上設定欄」所述)。 （或者，當[排程匯出完整專案](/help/analysis-workspace/export/t-schedule-report.md)時，套用至專案的任何標籤都會自動套用至匯出。） </li></ul> |
+   | 標記 | 您可以將現有標記套用至匯出，也可以建立新標記並且套用。 <p>若要套用現有標記至匯出，請從下拉式選單中選取任何標記。 您公司中的任何標籤皆可套用。</p> <p>若要建立新標記，請輸入新標記的名稱，然後按 Enter。</p><p>將標記套用至匯出時，請考慮以下事項： <ul><li>您套用的標記可在匯出表格中作為篩選條件或搜尋條件。</li> <li>匯出完整表格時，不會自動套用已套用至專案的標記，如在「[管理匯出](/help/components/exports/manage-exports.md)」中的「在匯出頁面上設定欄」所述)。 （或者，當[排程匯出完整專案](/help/analysis-workspace/export/t-schedule-report.md)時，套用至專案的任何標籤都會自動套用至匯出。） </li></ul> |
    | 說明 | 新增說明至匯出。 檢視匯出時，您可以選擇以[匯出頁面](/help/components/exports/manage-exports.md)中的資料欄來檢視說明。 |
    | 資料視圖 | 選取資料檢視，其中包含您想要包含在匯出的元件。 ![資料](/help/assets/icons/Data.svg)資料檢視下拉式功能表位於對話方塊的左上角。  <p>**注意：**&#x200B;如果您選取的資料檢視遺漏了資料表格中已包含的元件，系統會提示您清除並使用所選資料檢視中所包含的元件重新建立面板。 </p> |
    | 資料結構 | 顯示您正在匯出的自由格式表格。 您可以將元件從左側面板拖曳到表格中，以此修改資料結構。 您可以將元件拖曳至篩選器區域中，以此套用篩選器。 當您新增元件至畫布時，表格會動態更新。 您最多可以包含10欄。<p>套用至專案中完整表格的任何區段都會顯示在表格上方。 您可以將區段或區段群組套用至匯出。</p> |
    | 報告時段 | 選取要包含在每個匯出檔案中的報告時間範圍。 選項包含&#x200B;[!UICONTROL **今天**], **[!UICONTROL 昨天]**, **[!UICONTROL 過去 7 天]**, **[!UICONTROL 過去 30 天]**, **[!UICONTROL 本週]**&#x200B;和&#x200B;**[!UICONTROL 本月]**。 <p>當&#x200B;**[!UICONTROL 匯出頻率]**&#x200B;設為「**[!UICONTROL 立即傳送 (一次性)]**&#x200B;時，不會顯示此選項。</p> |
    | 全部清除 | 清除資料表格的內容。 這會讓您直接在全新完整表格匯出對話框中開始建立新表格。 |
    | 檔案格式 | 選擇匯出的資料應該是.csv、.json或.parquet格式。 <p>選擇Parquet檔案格式時，元件名稱中包含的下列任何字元都會取代為底線(_)： <ul><li>&#39; &#39; - ASCII空間</li><li>&#39;，&#39; - ASCII逗號</li><li>&#39;；&#39; - ASCII冒號</li><li>&#39;{&#39;或&#39;}&#39; - ASCII開啟/關閉大括弧</li><li>&#39;（&#39;或&#39;）&#39; - ASCII左括弧/右括弧</li><li>&#39;\n&#39; - ASCII新行</li><li>&#39;\t&#39; - ASCII索引標籤</li><li>&#39;=&#39; - ASCII等於</li></ul></p> |
-   | 包括資訊清單檔案 | 啟用後，任何成功的匯出傳遞都會包含一份資訊清單檔案。 <p>清單文件可讓您確認所有文件均已成功傳遞， 其中包含以下資訊：</p> <ul><li>已傳遞的所有檔案清單</li><li>每個檔案的 MD5 總和檢查碼</li></ul><p>匯出的資料會以壓縮檔案形式儲存在您設定的雲端目標中，如「[設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)」和「[設定 Google 匯出位置](/help/components/exports/cloud-export-locations.md)」中所述。</p><p>壓縮檔案的檔案名稱如下，視您選擇&#x200B;**[!UICONTROL csv]**、**[!UICONTROL json]**&#x200B;或&#x200B;**[!UICONTROL parquet]**&#x200B;做為檔案格式而定：</p><ul> <li>`cja-export-{reportInstanceId}-{idx}.csv.gz`</li><li>`cja-export-{reportInstanceId}-{idx}.json.gz`</li><li>`cja-export-<instanceId>-<idx>.snappy.parquet`<p>Parquet檔案中的每一欄都經過壓縮。</p></li></ul><p>在上述&#x200B;**[!UICONTROL 檔案格式]**&#x200B;欄位中選擇檔案格式。</p> |
-   | 頻率 | 設定匯出應發生頻率的時間表。 <p>您可以選擇「[!UICONTROL **立即發送 (一次性)**]」，可僅發送一次匯出。 選擇此選項時，將立即啟動匯出。</p><p>或者，您可以選擇按照明訂的排程發送匯出。 按照排程發送時，選項包括&#x200B;**[!UICONTROL 每日]**、**[!UICONTROL 每星期]**、**[!UICONTROL 每個月按星期的日子]**、**[!UICONTROL 每個月按月的日期]**、**[!UICONTROL 每一年按月的日期]**&#x200B;和&#x200B;**[!UICONTROL 每年特定日期]** </p> <p>選取匯出頻率時，請考慮以下因素：</p><ul><li>**[!UICONTROL 回顧視窗]**&#x200B;欄位中的選項會隨著您在此選取的專案而變更。</li><li>根據您選擇的選項，會顯示其他設定欄位。</li></ul> |
+   | 包括資訊清單檔案 | 啟用後，任何成功的匯出傳遞都會包含一份資訊清單檔案。 <p>清單文件可讓您確認所有文件均已成功傳遞， 其中包含以下資訊：</p> <ul><li>已傳遞的所有檔案清單</li><li>每個檔案的 MD5 核對和</li></ul><p>匯出的資料會以壓縮檔案形式儲存在您設定的雲端目標中，如「[設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)」和「[設定 Google 匯出位置](/help/components/exports/cloud-export-locations.md)」中所述。</p><p>壓縮檔案的檔案名稱如下，視您選擇&#x200B;**[!UICONTROL csv]**、**[!UICONTROL json]**&#x200B;或&#x200B;**[!UICONTROL parquet]**&#x200B;做為檔案格式而定：</p><ul> <li>`cja-export-{reportInstanceId}-{idx}.csv.gz`</li><li>`cja-export-{reportInstanceId}-{idx}.json.gz`</li><li>`cja-export-<instanceId>-<idx>.snappy.parquet`<p>Parquet檔案中的每一欄都經過壓縮。</p></li></ul><p>在上述&#x200B;**[!UICONTROL 檔案格式]**&#x200B;欄位中選擇檔案格式。</p> |
+   | 頻率 | 設定匯出應多久執行一次的排程。 <p>您可以選擇「[!UICONTROL **立即發送 (一次性)**]」，可僅發送一次匯出。 選擇此選項時，將立即啟動匯出。</p><p>或者，您可以選擇按照明訂的排程發送匯出。 按照排程發送時，選項包括&#x200B;**[!UICONTROL 每日]**、**[!UICONTROL 每星期]**、**[!UICONTROL 每個月按星期的日子]**、**[!UICONTROL 每個月按月的日期]**、**[!UICONTROL 每一年按月的日期]**&#x200B;和&#x200B;**[!UICONTROL 每年特定日期]** </p> <p>選取匯出頻率時，請考慮以下因素：</p><ul><li>**[!UICONTROL 回顧視窗]**&#x200B;欄位中的選項會隨著您在此選取的專案而變更。</li><li>根據您選擇的選項，會顯示其他設定欄位。</li></ul> |
    | 開始日期 | 排定匯出應該開始的日期和時間。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
    | 結束日期 | 排定匯出到期的日期和時間。 在您設定的日期和時間之後，排定匯出不會再進行。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
    | 檢視所有使用者的目的地 | 系統管理員可以選取此選項來檢視所有帳戶和位置，無論其建立者為何。 |
-   | 帳戶 | 選取您想要發送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，則您可以設定一個新帳戶：<ol><li>在&#x200B;**[!UICONTROL 帳戶]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 新增帳戶]**，然後指定下列資訊：<ul><li>**[!UICONTROL 位置帳戶名稱]**：指定位置帳戶的名稱。 建立位置時會出現此名稱 </li><li>**[!UICONTROL 位置帳戶說明]**：提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。</li><li>**讓您的組織中的所有使用者都可以使用帳戶**：如果您要允許組織中的其他使用者使用該帳戶，請選取此選項。</li><li>**[!UICONTROL 帳戶類型]**：選取您要匯出的目的雲端帳戶類型。 可用的帳戶類型包括 Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake 和 AEP Data Landing Zone。</li></ul><li>若要完成帳戶設定，請繼續進行下面與您選取的&#x200B;**[!UICONTROL 帳戶類型]**&#x200B;相對應的連結：<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
-   | 位置 | 選取您想要發送匯出資料的帳戶位置。<p>或者，如果您尚未設定要使用的雲端帳戶，則您可以設定一個新帳戶：<ol><li>在&#x200B;**[!UICONTROL 位置]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 新增位置]**，然後指定下列資訊：<ul><li>**[!UICONTROL 名稱]**：位置的名稱。</li><li>**[!UICONTROL 說明]**：提供位置的簡短說明，有助區分該位置與帳戶的其他位置。</li><li>**讓位置可供您組織中的所有使用者使用**：如果您要允許組織中的其他使用者使用該位置，請選取此選項。</li><li>**[!UICONTROL 位置帳戶]**：選取您想要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續前往下面與您在「**[!UICONTROL 位置帳戶]**」欄位中所選帳戶類型相對應的連結：<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone)。</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
-   | 通知 | 新增在匯出失敗或即將到期時要對其發出通知的使用者和群組。 開始輸入使用者的名稱或電子郵件地址，或開始輸入群組的名稱，然後在其出現在下拉式清單中時選取它。 |
+   | 帳戶 | 選取您要將資料傳送到的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，則您可以設定一個新帳戶：<ol><li>在&#x200B;**[!UICONTROL 帳戶]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 新增帳戶]**，然後指定下列資訊：<ul><li>**[!UICONTROL 位置帳戶名稱]**：指定位置帳戶的名稱。 建立位置時會出現此名稱 </li><li>**[!UICONTROL 位置帳戶說明]**：提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。</li><li>**讓您的組織中的所有使用者都可以使用帳戶**：如果您要允許組織中的其他使用者使用該帳戶，請選取此選項。</li><li>**[!UICONTROL 帳戶類型]**：選取您要匯出的目的雲端帳戶類型。 可用的帳戶類型包括 Amazon S3 Role ARN、Google Cloud Platform、Azure SAS、Azure RBAC、Snowflake 和 AEP Data Landing Zone。</li></ul><li>若要完成帳戶設定，請繼續進行下面與您選取的&#x200B;**[!UICONTROL 帳戶類型]**&#x200B;相對應的連結：<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
+   | 位置 | 選取帳戶中您要將匯出資料傳送到的位置。<p>或者，如果您尚未設定要使用的雲端帳戶，則您可以設定一個新帳戶：<ol><li>在&#x200B;**[!UICONTROL 位置]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 新增位置]**，然後指定下列資訊：<ul><li>**[!UICONTROL 名稱]**：位置的名稱。</li><li>**[!UICONTROL 說明]**：提供位置的簡短說明，有助區分該位置與帳戶的其他位置。</li><li>**讓位置可供您組織中的所有使用者使用**：如果您要允許組織中的其他使用者使用該位置，請選取此選項。</li><li>**[!UICONTROL 位置帳戶]**：選取您想要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續前往下面與您在「**[!UICONTROL 位置帳戶]**」欄位中所選帳戶類型相對應的連結：<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone)。</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
+   | 完成或到期時通知問題 | 新增您希望在此匯出失敗或即將到期時收到通知的使用者和群組。 開始輸入使用者的名稱或電子郵件地址，或開始輸入群組的名稱，然後在其出現在下拉式清單中時選取它。 |
 
    {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ ht-degree: 59%
 
 將 Customer Journey Analytics 資料匯出至雲端可讓您：
 
-* 匯出到共用位置，例如 Adob&#x200B;&#x200B;e Experience Platform Data Landing Zone、Google Cloud Platform、Microsoft Azure、Amazon S3 或 Snowflake。
+* 匯出到共用位置，例如 Adobe Experience Platform Data Landing Zone、Google Cloud Platform、Microsoft Azure、Amazon S3 或 Snowflake。
 
 * 儲存大量歷史資料。
 
@@ -420,7 +420,7 @@ ht-degree: 59%
 
 ## 與Data Warehouse比較
 
-如果您先前使用 Data Warehouse 來匯出 Adob&#x200B;&#x200B;e Analytics 資料，下表可以幫助您了解在 Customer Journey Analytics 中匯出完整表格與在 Adob&#x200B;&#x200B;e Analytics 中使用 Data Warehouse 匯出資料之間的差異。
+如果您先前使用 Data Warehouse 來匯出 Adobe Analytics 資料，下表可以幫助您了解在 Customer Journey Analytics 中匯出完整表格與在 Adobe Analytics 中使用 Data Warehouse 匯出資料之間的差異。
 
 | 功能 | Customer Journey Analytics 中的完整表格匯出 | Adobe Analytics 中的 Data Warehouse |
 |---------|----------|---------|

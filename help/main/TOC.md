@@ -2,9 +2,9 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: ba83c48866308eba6148230ea08bc759951d37af
+source-git-commit: 6c137d20d25cff6fe4630dedb33cfa8b88c121aa
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1481'
 ht-degree: 93%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 93%
     + {hide-from-toc}[保留歷史資料](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
     + [建議的升級流程](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
     + [為您的組織做好準備](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)
-    + 架構者和建立結構描述 {#schema}
+    + 規劃並建立結構描述 {#schema}
       + [建立您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
       + [建立您的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
       + [使用您現有的結構描述](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md)
@@ -65,7 +65,7 @@ ht-degree: 93%
       + [為您的屬性建立標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)
       + [將 Web SDK 擴充功能新增至您的標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
       + [實施適用於 Web SDK 擴充功能的 Loader 標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md)
-      + [將 XDM 資料收集邏輯新增至您的標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
+      + [將 XDM 資料彙集邏輯新增至您的標記](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md)
     + [手動實施 Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-manual.md)
     + [使用 API 實施 Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-api.md)
     + [建立連線](/help/getting-started/cja-upgrade/cja-upgrade-connection.md)
@@ -75,12 +75,12 @@ ht-degree: 93%
     + [設定串流媒體集合](/help/getting-started/cja-upgrade/cja-upgrade-streaming-media.md)
     + 透過 Analytics 來源連接器保留歷史資料 {#historical-data-source-connector}
       + [建立 Analytics 來源連接器的 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
-      + [建立 Analytics 來源連接器和對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
+      + [建立 Analytics 來源連接器並對應欄位](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md)
       + [將 Analytics 來源連接器資料集新增至連線](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
     + [評估何時要停用 Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md)
     + [停用 Adobe Analytics](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md)
     + 替代的升級方法 {#alternative-upgrade-methods}
-      + [使用 AppMeasurement 資料收集](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)
+      + [使用 AppMeasurement 資料彙集](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)
       + [傳送資料層](/help/getting-started/cja-upgrade/cja-upgrade-alternative-data-layer.md)
       + [Analytics 來源連接器](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md)
     + 其他升級情境 {#other-upgrade-scenarios}
@@ -88,7 +88,7 @@ ht-degree: 93%
       + [從非 Adobe Analytics 解決方案升級](/help/getting-started/cja-upgrade/cja-upgrade-third-party-solution.md)
     + 其他資訊 {#additional-information}
       + [了解 Analytics 實施](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md)
-      + [升級過程中支援 Adobe Analytics 功能](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
+      + [升級時的 Adobe Analytics 功能支援](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)
       + [Customer Journey Analytics 功能](/help/getting-started/cja-upgrade/cja-upgrade-customer-journey-analytics-features.md)
       + [Web SDK 實施選項](/help/getting-started/cja-upgrade/cja-upgrade-websdk-implementation.md)
       + [設定 Adobe Analytics Web SDK for Platform](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)
@@ -339,6 +339,10 @@ ht-degree: 93%
   + [趨勢](../guided-analysis/types/trends.md)
   + [產業使用案例](../guided-analysis/industry-use-cases.md)
   + [常見問題](../guided-analysis/faq.md)
+
++ 交談見解 {#conversation-insights}
+  + {hide-from-toc}[概觀](/help/conversatiion-insights/conversation-insights.md)
+  + {hide-from-toc}[設定](/help/conversatiion-insights/config/guided.md)
 
 + 元件 {#cja-components}
   + [概觀](../components/overview.md)
