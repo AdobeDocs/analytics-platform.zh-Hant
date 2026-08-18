@@ -4,9 +4,9 @@ keywords: 點按資料流;資料摘要;資料摘要;資料摘要
 title: 比較Customer Journey Analytics和Adobe Analytics中的資料摘要功能
 feature: Components
 hide: true
-source-git-commit: a72ed21bdea40e2441443d7218d9fd7c906adc3e
+source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 ## 回顧日期範圍（資料摘要）與報表日期範圍(Analysis Workspace)的比較
 
-資料摘要中的回顧日期範圍會決定Customer Journey Analytics在尋找符合資料摘要傳送資格的事件時回顧的時間範圍。 在這個意義上，回顧日期範圍類似於Analysis Workspace中的報表日期範圍。 不過，兩者之間還是有主要差異。
+資料摘要中的回顧日期範圍會決定Customer Journey Analytics在尋找符合資料摘要傳送資格的事件時回顧的時間範圍。 如需有關回顧日期範圍的詳細資訊，包括範例，請參閱[瞭解回顧日期範圍](/help/components/exports/cja-data-feeds/create-feed.md#understand-the-lookback-date-range)。
+
+在這個意義上，回顧日期範圍類似於Analysis Workspace中的報表日期範圍。 不過，兩者之間還是有主要差異。
 
 | 主要差異 | 報表日期範圍(Analysis Workspace) | 回顧日期範圍（資料摘要） |
 |---------|---------|----------|
