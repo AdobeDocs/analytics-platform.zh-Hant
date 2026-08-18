@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 hide: true
-source-git-commit: 6c137d20d25cff6fe4630dedb33cfa8b88c121aa
+source-git-commit: 30194647c56e7eaa8441b915d16f53ba3ff1bd40
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 8%
+source-wordcount: '102'
+ht-degree: 9%
 
 ---
 
@@ -36,10 +36,10 @@ ht-degree: 8%
 >title="連線"
 >abstract="在Customer Journey Analytics中選取要新增交談資料的連線。"
 
-## 資料檢視
+## 資料視圖
 
 >[!CONTEXTUALHELP]
 >id="conversation-insights_config_dataview"
->title="連線"
+>title="資料視圖
 >abstract="選取與您要用於對話深入分析之連線相關聯的資料檢視。 對話深入分析量度和維度會新增至您選取的資料檢視。"
 
