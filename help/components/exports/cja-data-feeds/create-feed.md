@@ -5,22 +5,14 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: e2e75dda2d61cd707b2a224ec5ac43a492ffa42e
 workflow-type: tm+mt
-source-wordcount: 4036
+source-wordcount: 4066
 ht-degree: 20%
 
 ---
@@ -160,6 +152,26 @@ ht-degree: 20%
    | 週 | 事件發生周 | 未提供 |
    | 年度內的第幾週 | 事件發生的一年中的第幾週 | 未提供 |
    | 年 | 事件發生年份 | 未提供 |
+
+   +++
+
+   +++ 無法納入資料摘要的量度
+
+   下列Customer Journey Analytics標準量度無法納入資料摘要中：
+
+   | 量度名稱 | 附註 | 資料饋送 |
+   |---|---|---|
+   | Adobe訪客設定檔 | | 未提供 |
+   | Adobe機會聯盟 | | 未提供 |
+   | Adobe機會設定檔 | | 未提供 |
+   | Adobe帳戶聯合 | | 未提供 |
+   | Adobe帳戶設定檔 | | 未提供 |
+   | Adobe購買群組聯盟 | | 未提供 |
+   | Adobe購買群組設定檔 | | 未提供 |
+   | Adobe全球帳戶聯盟 | | 未提供 |
+   | Adobe全域帳戶設定檔 | | 未提供 |
+   | Adobe人員聯盟 | | 未提供 |
+   | Adobe人員設定檔 | | 未提供 |
 
    +++
 
@@ -318,20 +330,20 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_lookback_date_range"
 >title="回顧日期範圍"
->abstract="控制 Customer Journey Analytics 在處理資料摘要傳送時回顧的時間範圍。 此設定類似於Analysis Workspace報表日期範圍，但有重要的差異：<ul><li>如果事件的時間戳記落在頻率範圍內，而不是在回顧日期範圍內，則資料摘要中會包含這些事件。 （在Analysis Workspace中，如果事件具有落在報表日期範圍內的時間戳記，便會將該事件納入報表中）。</li><li>時間戳記在回顧日期範圍內（但超出頻率視窗）的事件，仍可透過區段資格、工作階段計算、衍生欄位轉換和維度持續性，影響摘要中顯示的資料。</li><p>較長的回顧日期範圍通常會產生較準確的事件；較短的範圍會產生較佳的傳送效能。</p>"
+>abstract="控制Customer Journey Analytics在處理每次傳送時回顧的時間長度。<p>頻率視窗（小時或天）會決定哪些事件包含在資料摘要中，而&#x200B;**回顧日期範圍**&#x200B;則提供正確分類這些事件所需的歷史內容。</p><p>區段資格、維度持續性、工作階段計算和衍生欄位轉換都可影響包含的事件。</p><p>較長的回顧可改善準確性；較短的回顧則可改善效能。</p>"
 
 <!-- markdownlint-enable MD034 -->
 
+回顧日期範圍可控制Customer Journey Analytics在處理每個資料摘要傳遞時回顧的時間範圍。
 
-
-回顧日期範圍可控制Customer Journey Analytics在處理資料摘要傳送時回顧的時間範圍。 預設值為30天。
+事件仍必須有屬於頻率期間（小時或天）的時間戳記才能納入傳送中，但屬於&#x200B;**回顧日期範圍**&#x200B;的資料提供正確分類這些事件所需的歷史內容。
 
 設定此選項時，請考量下列重要概念：
 
 * 較長的回顧日期範圍通常可產生較準確的資料；較短的範圍則可產生較佳的傳送效能。
-* 資料摘要中的回顧日期範圍類似於Analysis Workspace中的報告日期範圍，但有[主要差異](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences)。 這些差異可能會導致Workspace報表與資料摘要傳送之間的資料差異。
-* 回顧日期範圍不會改變頻率時段（小時或天），其定義要包含在資料摘要輸出中的事件時間範圍。
-* 若資料位於回顧日期範圍內，可能會影響資料摘要（頻率視窗）中所包含的內容，端視以下各節所述的因素而定。
+* 回顧日期範圍及頻率視窗的運作方式與Analysis Workspace報表日期範圍類似。 不過，有[主要差異](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences)。 這些差異可能會導致Workspace報表與資料摘要傳送之間的資料差異。
+
+處理回顧日期範圍內的資料時，會分別考量區段資格、工作階段計算、維度持續性以及衍生欄位轉換：
 
 ### 細分資格篩選
 
@@ -357,10 +369,6 @@ ht-degree: 20%
 ### 工作階段計算
 
 工作階段邊界是使用回顧日期範圍內的資料來計算。 關於工作階段ID是什麼，這可能更重要？ 是否會影響工作階段ID？ 可能會影響許多專案，例如工作階段型持續性。
-
-### 衍生欄位轉換
-
-參考容器的任何衍生欄位函式會在資料摘要匯出中使用回顧日期範圍。 衍生欄位中有哪些日期功能？ 不確定如何套用。
 
 ### Dimension持續性
 
@@ -393,6 +401,9 @@ ht-degree: 20%
 
 >[!ENDSHADEBOX]
 
+### 衍生欄位轉換
+
+參考容器的任何衍生欄位函式會在資料摘要匯出中使用回顧日期範圍。 衍生欄位中有哪些日期功能？ 不確定如何套用。
 
 
 
