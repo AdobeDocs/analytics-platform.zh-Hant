@@ -40,6 +40,6 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="conversation-insights_config_dataview"
->title="資料視圖
+>title="資料視圖"
 >abstract="選取與您要用於對話深入分析之連線相關聯的資料檢視。 對話深入分析量度和維度會新增至您選取的資料檢視。"
 
