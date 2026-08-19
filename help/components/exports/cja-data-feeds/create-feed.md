@@ -5,23 +5,15 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: e2e75dda2d61cd707b2a224ec5ac43a492ffa42e
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: e7c2598015d3ee271bb7e0f64937fd1c457b5433
 workflow-type: tm+mt
-source-wordcount: 4066
-ht-degree: 20%
+source-wordcount: 4033
+ht-degree: 21%
 
 ---
 
@@ -351,7 +343,7 @@ ht-degree: 20%
 * 較長的回顧日期範圍通常可產生較準確的資料；較短的範圍則可產生較佳的傳送效能。
 * 回顧日期範圍及頻率視窗的運作方式與Analysis Workspace報表日期範圍類似。 不過，有[主要差異](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences)。 這些差異可能會導致Workspace報表與資料摘要傳送之間的資料差異。
 
-處理回顧日期範圍內的資料時，會分別考量區段資格、工作階段計算、維度持續性以及衍生欄位轉換：
+處理回顧日期範圍內的資料時，會分別考慮區段資格、工作階段計算、維度持續性以及衍生欄位轉換：
 
 ### 細分資格篩選
 
@@ -370,13 +362,13 @@ ht-degree: 20%
 * 使用者的事件時間戳記在資料摘要頻率視窗（資料摘要的指定小時或日期）內。
 * 使用者在回顧日期範圍&#x200B;**內的某個時間符合&#x200B;_促銷活動B_區段**&#x200B;的資格。
 
-  對於9天前發生的合格事件，這表示如果回顧日期範圍設定為30天，則使用者&#x200B;**將會包含在資料摘要中**，但是如果回顧日期範圍設定為7天，則使用者&#x200B;**將不會包含在資料摘要中**。
+  針對9天前發生的合格事件，這表示如果回顧日期範圍設定為30天，使用者&#x200B;**將會包含在資料摘要中**，但是如果回顧日期範圍設定為7天，使用者&#x200B;**將不會包含在資料摘要中**。
 
 >[!ENDSHADEBOX]
 
 ### 工作階段計算
 
-工作階段邊界是使用回顧日期範圍內的資料來計算。 關於工作階段ID是什麼，這可能更重要？ 是否會影響工作階段ID？ 可能會影響許多專案，例如工作階段型持續性。
+工作階段邊界是使用回顧日期範圍內的資料來計算。<!--Maybe this matters more regarding what the session ID is? Could it impact the Session ID? This could impact several factors, such as session-based persistence.-->
 
 ### Dimension持續性
 
@@ -405,13 +397,13 @@ ht-degree: 20%
 
 * 使用者在回顧日期範圍&#x200B;**內的某個時間符合原始行銷活動**&#x200B;的資格。
 
-  如果使用者在9天前符合原始行銷活動的資格，如果回顧日期範圍設定為30天，則原始行銷活動&#x200B;**將會包含在資料摘要中**，但是如果回顧日期範圍設定為7天，則原始行銷活動&#x200B;**將不會包含在資料摘要中**。
+  如果使用者在9天前符合原始促銷活動的資格，則回顧日期範圍設為30天時，資料摘要會包含&#x200B;**原始促銷活動，但是如果回顧日期範圍設為7天，則資料摘要不會包含**&#x200B;原始促銷活動。****
 
 >[!ENDSHADEBOX]
 
 ### 衍生欄位轉換
 
-參考容器的任何衍生欄位函式會在資料摘要匯出中使用回顧日期範圍。 衍生欄位中有哪些日期功能？ 不確定如何套用。
+參考容器的任何衍生欄位函式會在資料摘要匯出中使用回顧日期範圍。 衍生欄位中有哪些日期功能？<!--Not sure how this applies.-->
 
 
 
