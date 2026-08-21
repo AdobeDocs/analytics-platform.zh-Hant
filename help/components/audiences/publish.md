@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
+source-git-commit: 87de19a64e49f83c99df7980828b97a1da2c2d16
 workflow-type: tm+mt
 source-wordcount: 2520
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="components_audiences_refreshfrequency"
 >title="重新整理頻率"
->abstract="重新評估對象成員資格的頻率。<br/>一次性對象只會評估一次，不會計入重新整理限制。"
+>abstract="重新評估對象成員資格的頻率。<br/>一次性請求只會評估一次，不會計入重新整理限制中。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="components_audiences_audiencelimit"
 >title="重新整理對象限制"
->abstract="您環境中設定為以排程頻率自動重新整理的對象數量。 上限介於75到150之間，視您的Customer Journey Analytics權益而定。 單次重新整理不會計入此限制。"
+>abstract="您環境中設定為以排程頻率自動重新整理的對象數量。 上限介於75到150之間，視您的Customer Journey Analytics權益而定。 一次性請求不會計入此限制。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,7 +53,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="component_audiences_refreshlookbackwindow"
 >title="重新整理回顧期間"
->abstract="定義從評估對象的今天所開始的回顧天數。"
+>abstract="定義評估客群時從今天起回溯的天數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -62,7 +62,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="component_audiences_audiencesizelimit"
 >title="客群規模限制"
->abstract="對象不得超過 2000 萬個會員。"
+>abstract="客群不得超過 2000 萬名成員。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -101,7 +101,7 @@ ht-degree: 94%
 1. 選取「**[!UICONTROL [!UICONTROL 檢視範例 ID]]**」，可檢視此客群中的 ID 範例。 在「**[!UICONTROL 樣本 ID]**」對話框中，您可以使用 ![搜尋](/help/assets/icons/Search.svg) [!UICONTROL *「搜尋範例 ID」*] 來搜尋範例 ID。
 
 1. 仔細檢查您的對象組態，然後選取「**[!UICONTROL 發佈]**」。
-您會收到一封客群已發佈的確認訊息。 發佈只需一兩分鐘，此客群就會出現在 Experience Platform 中。
+您會收到客群已發佈的確認訊息。 發佈只需一兩分鐘，此客群就會出現在 Experience Platform 中。
 
 1. 選取同一則訊息中的「**[!UICONTROL 在 AEP 中檢視客群]**」，您會被帶到 Adobe Experience Platform 中的「[區段 UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/overview)」。 請參閱下方以了解更多資訊。
 
@@ -113,11 +113,11 @@ ht-degree: 94%
 
 | 設定 | 說明 |
 | --- | --- |
-| ![資料](/help/assets/icons/Data.svg) | 選取用來建立客群的資料檢視。 |
+| ![資料](/help/assets/icons/Data.svg) | 選取用來建立客群的資料釋圖。 |
 | **[!UICONTROL 名稱]** | 客群名稱。 例如， `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL 標記]** | 為組織目的而要指派給客群的任何標記。 您可以選取一個或多個預先存在的標記，也可以輸入一個新標記。 |
-| **[!UICONTROL 說明]** | 客群的說明，用來其他客群區分開來。 例如， `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL 重新整理頻率]** | 您想要重新整理客群的頻率。<p/><p>您可以根據您的Customer Journey Analytics權益，在有限數量的受眾上設定排程重新整理（在75到150之間）。 </p><p>您可以從下列選項中選擇：</p><ul><li>**[!UICONTROL 一次性]**&#x200B;客群：無需重新整理的客群 (預設)。 例如，此選項可能適合用於特定一次性行銷活動。<br/>您必須指定&#x200B;**[!UICONTROL 一次性日期範圍]**。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來輸入日期範圍。</li><li>重新整理客群。 您可以從下列排定的重新整理選項中選取：<ul><li>**[!UICONTROL 每 4 小時]**：每 4 小時重新整理一次的客群。</li><li>**[!UICONTROL 每日]**：每日重新整理一次的客群</li><li>**[!UICONTROL 每週]**：每週重新整理一次的客群。</li><li>**[!UICONTROL 每月]**：每月重新整理一次的客群</li></ul></li>為了重新整理客群，您必須指定：<ul><li>**[!UICONTROL 重新整理回顧期間]**。 定義從評估客群的今天所開始的回顧天數。 您可以從選項中選取或定義自訂時間。 最長 90 天。</li><li>**[!UICONTROL 到期日]**：定義客群停止重新整理的時間。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期。 預設到期日是從建立日期算起的 1 年後。 到期客群與到期排程報告的處理方式類似。 管理員會在客群到期前的一個月收到一封電子郵件。</li></ul></ul> |
+| **[!UICONTROL 說明]** | 客群的說明，用來與其他客群區分開來。 例如， `Build an audience of really interested potential car buyers` |
+| **[!UICONTROL 重新整理頻率]** | 您想要重新整理客群的頻率。<p/><p>您可以根據您的Customer Journey Analytics權益，在有限數量的受眾上設定排程重新整理（在75到150之間）。 </p><p>您可以從下列選項中選擇：</p><ul><li>**[!UICONTROL 一次]**：不需要重新整理的一次性要求。 例如，此選項可能適合用於特定的一次性行銷活動。<br/>您必須指定&#x200B;**[!UICONTROL 一次性日期範圍]**。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來輸入日期範圍。</li><li>重新整理客群。 您可以從下列排定的重新整理選項中選取：<ul><li>**[!UICONTROL 每 4 小時]**：每 4 小時重新整理一次的客群。</li><li>**[!UICONTROL 每日]**：每日重新整理一次的客群</li><li>**[!UICONTROL 每週]**：每週重新整理一次的客群。</li><li>**[!UICONTROL 每月]**：每月重新整理一次的客群</li></ul></li>為了重新整理客群，您必須指定：<ul><li>**[!UICONTROL 重新整理回顧期間]**。 定義從今天起評估客群時所回溯的天數。 您可以從選項中選取或定義自訂時間。 最長 90 天。</li><li>**[!UICONTROL 到期日]**：定義客群停止重新整理的時間。 您可以使用![行事曆](/help/assets/icons/Calendar.svg)來選取日期。 預設為從建立日期起算 1 年。 到期客群與到期排程報告的處理方式類似。 管理員會在客群到期前的一個月收到一封電子郵件。</li></ul></ul> |
 | **[!UICONTROL 篩選器]** | 篩選條件是客群的主要輸入項目。 將一個或多個區段從左側的 ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;面板拖放至區段區域。 您可以使用 ![Search](/help/assets/icons/Search.svg) [!UICONTROL *搜尋區段*]&#x200B;來搜尋區段。 您可以新增最多 20 個區段。 區段可以使用 **[!UICONTROL And]** 或 **[!UICONTROL Or]** 等運算子來連接。<p>從 Analysis Workspace 中的視覺效果 (例如自由格式表格或歷程畫布) 建立客群時，套用於面板或資料欄的任何區段都會保留。 您可以移除任何自動套用的區段。</p> |
 | **[!UICONTROL 資料預覽]** | 選取「![資訊](/help/assets/icons/Info.svg)」以顯示或隱藏所選日期範圍的[資料預覽](#data-preview)。 |
 
@@ -130,10 +130,10 @@ ht-degree: 94%
 | **[!UICONTROL 總人數]** | 此客群中總人數的摘要數字。 最大規模為 2000 萬人。 如果您的客群超過 2 千萬人，您必須減少客群規模後才能發佈。 |
 | **[!UICONTROL 客群規模限制]** | 視覺效果可顯示此客群距離 2000 萬人限制還差多少。 |
 | **[!UICONTROL 預估的客群回訪]** | 您可以使用此值重新定位此客群中返回您的網站、行動應用程式或其他頻道的使用者。<p>您可以選取可能回訪的估計客戶數量的時間範圍 (**[!UICONTROL 接下來 7 天]**、**[!UICONTROL 接下來 2 週]**&#x200B;或&#x200B;**[!UICONTROL 下個月]**)。 |
-| **[!UICONTROL 預估回訪]** | 此數字可提供在您所選時間範圍內的回訪客戶估計數量。 這是使用歷史流失率為此客群預測的數字。 |
-| **[!UICONTROL 預覽量度]** | 您可以選取一個特定量度，了解該量度的資料如何根據您定義的客群來計算。  每個預覽量度都會根據客群顯示該量度的總數。 還有，是以客群為主的量度佔整體量度總數 (如資料檢視的定義) 的百分比。 例如，381 人 (您選取的量度) 是根據您客群定義的結果，佔資料檢視中可用總人數的 5%。 您可以選取資料檢視中可用的任何量度。 |
+| **[!UICONTROL 預估回訪]** | 此數字可提供在您所選時間範圍內的回訪客戶估計數量。 此數字是使用此客群的歷史流失率預測得出。 |
+| **[!UICONTROL 預覽量度]** | 您可以選取一個特定量度，了解該量度的資料如何根據您定義的客群來計算。  每個預覽量度都會根據客群顯示該量度的總數。 還有，是以客群為主的量度佔整體量度總數 (如資料釋圖的定義) 的百分比。 例如，381 人 (您選取的量度) 是根據您客群定義的結果，佔資料釋圖中可用總人數的 5%。 您可以選取資料釋圖中可用的任何量度。 |
 | **[!UICONTROL 包含的命名空間]** | 與客群中的個人相關聯的特定命名空間。 範例包括 ECID、CRM ID、電子郵件地址等。 |
-| **[!UICONTROL 沙箱]** | 此客群所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)。 當您將此客群佈到 Platform 時，您只能在此沙箱的範圍內使用客群。 |
+| **[!UICONTROL 沙箱]** | 此客群所在的 [Experience Platform 沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)。 當您將此客群發佈到 Platform 時，您只能在此沙箱的範圍內使用客群。 |
 
 {style="table-layout:auto"}
 
@@ -147,11 +147,11 @@ ht-degree: 94%
 
 * Experience Platform 中的客群與 Customer Journey Analytics 客群共用相同的名稱和描述。 該名稱附有 Customer Journey Analytics 客群 ID，可確保客群的獨特性。
 * 在 Customer Journey Analytics 中對客群名稱或描述所做的任何變更都會反映在 Experience Platform 中。
-* 如果在 Customer Journey Analytics 中刪除一個客群，則該客群仍可在 Experience Platform 中繼續使用，直到該客群的設定檔會籍到期為止。 若是一次性客群，設定檔會籍將在 420 天後到期；若是定期客群，設定檔會籍將在 16 天後到期。
+* 如果在 Customer Journey Analytics 中刪除一個客群，則該客群仍可在 Experience Platform 中繼續使用，直到該客群的設定檔會籍到期為止。 若是一次性客群，輪廓成員資格將在 420 天後到期；若是定期客群，輪廓成員資格將在 16 天後到期。
 
 ## 延遲的注意事項 {#latency}
 
-在客群發布前後及期間的幾個時間點，可能會出現延遲。 以下是可能的延遲的概觀。
+在客群發佈前後及期間的幾個時間點，可能會出現延遲。 以下是可能的延遲的概觀。
 
 ![本節所述的客群發佈的延遲。](assets/latency-diagram.png)
 
@@ -200,14 +200,14 @@ Customer Journey Analytics 和 Real-Time Customer Data Platform 之間可能會�
 
 #### 預估計數與確定計數
 
-兩個應用程式計算客群會籍數量的方法有所不同，如下所述。
+兩個應用程式計算客群成員數量的方法有所不同，如下所述。
 
 * **Customer Journey Analytics**：Customer Journey Analytics 中的&#x200B;**[!UICONTROL 總人數]**&#x200B;是一個預估值。 這表示計數是根據客群規則進行的預估值，並且在重新整理間隔之間可能會有所變更。
 * **Real-Time Customer Data Platform**：Real-Time Customer Data Platform 中的計數是確定的，以每日的評估工作為基礎，並固定為客群完成向客群入口網站發佈的時間點。
 
 #### 發佈間隔和速率
 
-客群以 1500 筆記錄/每秒 (RPS) 的速率發佈至 Real-Time Customer Data Platform。 例如，擁有 2000 萬會員的客群大約需要 3.7 小時才能完全發佈完畢 (20M / 1500 RPS / 每小時 3600 秒)。 於此情況下，兩個應用程式的客群會籍數量可能會有所不同。
+客群以 1500 筆記錄/每秒 (RPS) 的速率發佈至 Real-Time Customer Data Platform。 例如，擁有 2000 萬成員的客群大約需要 3.7 小時才能完全發佈完畢 (20M / 1500 RPS / 每小時 3600 秒)。 於此情況下，兩個應用程式的客群會籍數量可能會有所不同。
 
 #### 輪廓片段化
 
@@ -215,7 +215,7 @@ Customer Journey Analytics 和 Real-Time Customer Data Platform 之間可能會�
 
 #### 批次客群與串流客群
 
-Customer Journey Analytics 客群不包括在每日批次評估工作中，並且會維持不變，直到下一個發佈間隔。 相對地，Real-Time Customer Data Platform 中的其他批次客群每 24 小時便會重新評估一次。
+Customer Journey Analytics 客群不會納入每日批次評估工作，並且會維持不變，直到下一個發佈間隔。 相對地，Real-Time Customer Data Platform 中的其他批次客群每 24 小時便會重新評估一次。
 
 ### 應記住的關鍵重點
 
@@ -267,7 +267,7 @@ Customer Journey Analytics 會透過管道將資料串流至 Real-Time Customer 
 
 +++**Real-Time Customer Data Platform 是否也會處理 Customer Journey Analytics 訊息？ Customer Journey Analytics 是否可透過客群共用將身分識別新增至設定檔身分識別圖？**
 
-否。 每個人只傳送一個身份識別，因此 Real-Time Customer Data Platform 將沒有圖形邊可供使用。
+否。 每個人只傳送一個身分識別，因此 Real-Time Customer Data Platform 將沒有圖形邊可供使用。
 
 +++
 
