@@ -5,20 +5,14 @@ feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
 TQID: https://experienceleague.adobe.com/Oyt-8i7vBYjTxBk4mX3dN3GeohZvzH0dh10kBS6UBx4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 09d8d3fd3cbc6e4ddfc30aca96b041a7c51002d0
 workflow-type: tm+mt
 source-wordcount: 930
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -77,7 +71,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_container"
 >title="流失容器"
->abstract="選取容器以進行路徑分析。 此選擇可協助您瞭解參與，並將分析限制在選取的容器。"
+>abstract="選取容器以進行路徑分析。 此選取項目可協助您了解參與度，並將分析範圍限制在所選取的容器內。"
 
 作為視覺效果的一部分，可以使用特定設定。
 
@@ -88,7 +82,7 @@ ht-degree: 37%
 
 ## 內容選單
 
-作為視覺效果的一部分，可使用特定內容選單選項。
+在此視覺效果中，可使用特定的內容選單選項。
 
 ### 存取內容功能表
 
