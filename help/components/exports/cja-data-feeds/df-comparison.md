@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 87de19a64e49f83c99df7980828b97a1da2c2d16
+source-git-commit: 82ccb1359540e5200641b33c3d4aef7f2447003f
 workflow-type: tm+mt
-source-wordcount: 1074
-ht-degree: 2%
+source-wordcount: 1451
+ht-degree: 1%
 
 ---
 
@@ -29,41 +29,35 @@ ht-degree: 2%
 
 {{release-limited-testing}}
 
-Customer Journey Analytics和Adobe Analytics中的資料摘要可讓您將原始資料匯出至協力廠商平台。 如果您先前在Adobe Analytics中使用過資料摘要，請使用下列資訊來瞭解可用功能和概念的差異：
+Customer Journey Analytics和Adobe Analytics中的資料摘要可讓您將原始資料匯出至協力廠商平台。
+
+如果您先前在Adobe Analytics中使用過資料摘要，請使用下列資訊來瞭解可用功能和概念的差異：
 
 ## 僅適用於Customer Journey Analytics資料摘要的功能
 
-* 衍生欄位
+如果您要從Adobe Analytics移轉，以下是Customer Journey Analytics資料摘要中的新功能：
 
-  在資料摘要中包含衍生欄位元件。
+* **衍生欄位**：自訂元件，由可包含在摘要結構描述中的規則型轉換所建置。
 
-* 拼接
+* **拼接**：跨裝置身分解析可將跨裝置的事件連結至單一人員。
 
-  啟用跨裝置身分解析，將跨裝置的事件連結至單一人員。
+* **結構化資料模型**：摘要是使用結構化資料（而非純字串）建立及傳遞。
 
-* 資料的結構化檢視
+* **Analysis Workspace元件邊欄**：使用與Analysis Workspace相同的元件邊欄選取維度和量度，而非變數名稱的靜態清單。
 
-  在傳遞的檔案中建立資料摘要時，同時使用結構化資料。 Adobe Analytics資料摘要使用字串。
+* **分段**：套用至資料檢視的區段會自動繼承，而其他區段可直接套用至摘要。
 
-* 具有符合Analysis Workspace的維度和量度的元件欄
+* **資料檢視時區**：摘要傳遞視窗與資料檢視時區一致。
 
-  使用資料檢視中可用的維度和量度。 在Adobe Analytics中，會使用預先定義的欄位和欄清單。
+* **Parquet輸出**：檔案以Parquet格式傳送，原生支援複雜的巢狀和結構化資料。
 
-* 套用至您資料檢視的任何區段都會自動在資料摘要中繼承
+* **Hive樣式的資料分割路徑**：輸出檔案使用Hive樣式的路徑，以便在資料湖環境中有效查詢。
 
-* 區段可以直接套用至資料摘要（除了已套用至資料檢視的任何區段之外）
-
-* 摘要符合資料檢視時區<!-- how did it work in AA? -->
-
-* Parquet傳遞
-
-  輸出現代Parquet檔案，該檔案原生支援複雜的巢狀和結構化資料。 產品清單會以結構化陣列/巢狀物件來表示。
-
-* Hive樣式路徑
-
-* 對資料檢視中元件所做的變更會傳播到資料摘要
+* **元件更新傳播**：資料檢視中元件的變更會自動傳播到摘要。
 
 <!-- * Web MCP when it's added -->
+
+下面的[功能比較](#functionality-comparison)表格詳細涵蓋了上述每項功能，以及兩項產品中的功能差異。
 
 
 ## 功能比較
@@ -72,21 +66,23 @@ Customer Journey Analytics和Adobe Analytics中的資料摘要可讓您將原始
 |---------|----------|---------|
 | **資料輸入**<br/>&#x200B;可以收集並包含在資料摘要中的資料型別。 | 支援跨管道資料輸入，包括網路資料、客服中心資料、銷售點資料等。 | 主要支援網頁和行動資料輸入。 其他資料型別（例如客服中心或銷售點資料）可透過資料來源擷取，但處理能力非常有限。 |
 | **資料處理**<br/>&#x200B;資料會根據您使用的產品，以不同的階段處理。 | 資料在&#x200B;**報告時間**&#x200B;處理，因此許多報告功能可用於變更歷史資料，例如拼接、衍生欄位和分段。 | 資料會在&#x200B;**收集時間**&#x200B;處理，因此處理規則和VISTA規則等報表功能不會影響歷史資料。 |
-| **傳遞頻率**<br/>&#x200B;決定資料摘要的傳送頻率以及摘要中包含的時間範圍。 | **每日** （資料檢視時區的午夜至午夜）或&#x200B;**每小時**。 | **每日** （報告套裝時區的午夜至午夜）或&#x200B;**每小時**。 可以使用15分鐘摘要，但預設無法使用。 |
+| **拼接**<br/>&#x200B;將事件連結至單一人員的跨裝置和跨頻道身分解析。 | 支援。 在連線上設定拼接時，拼接的身分可以包含在資料摘要匯出中。 | 不支援。 訪客身分識別是在收集時從訪客ID Cookie中判斷的；沒有可用的收集後跨裝置解析。 |
+| **傳遞頻率**<br/>&#x200B;決定資料摘要的傳送頻率以及摘要中包含的時間範圍。 | **每日** （資料檢視時區的午夜至午夜）或&#x200B;**每小時**。 | **每日** （報告套裝時區的午夜至午夜）或&#x200B;**每小時**。 <p>可以使用15分鐘摘要，但預設無法使用。</p> |
 | **延遲送達點選**<br/>&#x200B;時間戳記屬於先前的傳遞頻率期間，但在該期間過後送達的點選。 <p>例如，延遲送達點選可能來自在離線時緩衝事件並在其重新連線時傳送這些事件的行動應用程式。</p> | **處理延遲**&#x200B;設定會控制系統在頻率視窗關閉之後多久才會觸發匯出，為延遲的資料分配額外的到達時間。 | 透過&#x200B;**延遲送達點選**&#x200B;組態選項，可以&#x200B;**包含或排除**&#x200B;延遲送達點選。 <p>**回顧視窗**&#x200B;設定可控制系統要包含延遲資料的回溯時間。</p> |
 | **順序錯亂的點選**<br/>&#x200B;時間戳記不符合其接收順序的點選。 | 由於Customer Journey Analytics同時接受串流和批次資料，因此無法保證指定人員的事件會依時間戳記順序到達。 雖然Customer Journey Analytics會依每個人的時間戳記重新排序，但只能匯出已送達的資料。 這表示在時間戳記較晚的點選之後，可能會匯出延遲送達的點選。<p>**處理延遲**&#x200B;設定可提供更多時間讓批次資料在匯出前到達，有助於減少資料摘要輸出中的順序錯亂事件。 不保證傳送中的事件排序。</p><p>**重要**：您的資料摘要資料的最終消費者必須能夠處理每人不正確的時間戳記，因為不保證資料摘要傳遞中的點選順序不會改變。</p> | Adobe Analytics要求資料在收集時依每個訪客的順序送達，但不保證資料摘要傳送中的點選排序。</p> |
 | **回填視窗**<br/>&#x200B;匯出兩個過去日期之間的歷史資料。 | 僅限於連線的滾動資料時間視窗。 | 限製為報表套裝資料保留限制：預設為&#x200B;**25個月**。 |
-| **結構描述**<br/>&#x200B;資料摘要結構描述會決定哪些資料行可以包含在資料摘要中。 | 資料摘要結構描述是以資料檢視設定為基礎。  可包含在資料摘要結構描述中的元件，是資料檢視設定中可用元件的子集。</p> | 約1,100個以上變數的預先定義靜態清單。 許多資料行會匯出為&#x200B;**前置與後置處理的資料對** （例如，`eVar1` / `post_eVar1`），這佔資料行計數的大部分。 |
+| **結構描述**<br/>&#x200B;資料摘要結構描述會決定哪些資料行可以包含在資料摘要中。 | 資料摘要結構描述是以資料檢視設定為基礎。  可包含在資料摘要結構描述中的元件，是資料檢視設定中可用元件的子集。 | 約1,100個以上變數的預先定義靜態清單。 許多資料行會匯出為&#x200B;**前置與後置處理的資料對** （例如，`eVar1` / `post_eVar1`），這佔資料行計數的大部分。 |
+| **資料摘要產生器**<br/>&#x200B;用來設定資料摘要中包含哪些欄的介面。 | 使用元件邊欄，其資料檢視中可用的命名維度和量度相同，並符合Analysis Workspace體驗。 | 使用從預先定義的~1,100+個資料行集合中選取的原始變數名稱（例如`eVar1`、`prop5`）的平面清單。 元件的名稱或說明不會超出其變數識別碼。 |
+| **衍生欄位**<br/>&#x200B;使用報告時套用的規則型轉換定義的自訂元件。 | 支援。 衍生欄位元件可與標準維度和量度一起納入資料摘要結構描述中。 | 不支援。 |
+| **元件更新**<br/>&#x200B;元件組態變更是否反映在未來的資料摘要輸出中。 | 資料檢視中元件的變更（例如重新命名或移除維度）會自動傳播至未來的資料摘要。 | 不適用。 欄結構描述是預先定義且靜態的；沒有要更新的資料檢視層級元件。 |
 | **查閱**<br/>&#x200B;動態查閱可讓您在資料摘要中接收其他查閱檔案（否則無法使用）。 | 不需要，因為查閱和分類都是直接在資料檢視中組織的維度。 當您在資料檢視中將查閱或分類組織為維度時，解析的值會在Parquet輸出中顯示為規則欄，與事件資料內嵌，而不是作為單獨的參考檔案。 | 用於將資料摘要欄中的數字與實際值比對。 專用於特定專案集（瀏覽器、作業系統、行動裝置，而且會套用為資料摘要隨附的個別檔案）。 |
-| **工作階段定義**<br/> <!--(could be included in the data processing section instead)--> | 已在資料檢視中定義。 | 已在集合時定義。 |
-| **計算量度**<br/> | 未提供 | 未提供 |
-| **持續性模型** | 彈性。 來自資料檢視的持續性設定（配置和到期日）在產生摘要時套用至報告時間。 支援資料檢視中可用的所有配置設定： **原始**、**最近**、**全部**、**最先已知**&#x200B;和&#x200B;**最後已知**。 | 只表示&#x200B;**最近（上次接觸）**&#x200B;和&#x200B;**原始值（首次接觸）**&#x200B;歸因模型。 線性配置的處理與上次接觸相同。 |
-| **輸出檔案格式** | Parquet<p>原生支援複雜的巢狀和結構化資料。 產品清單會以結構化陣列/巢狀物件來表示。 </p><p>需要Parquet感知工具才能讀取，例如BigQuery、Snowflake或Apache Spark。</p> | TSV<p>平坦、人類看得懂的列。 不原生支援結構化資料；複雜欄位（例如產品清單）必須編碼為需要自訂剖析邏輯的專有分隔字串。</p> |
-| **傳送目的地** | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform。 | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform。 也支援&#x200B;**SFTP**。 |
+| **工作階段定義**<br/>&#x200B;造訪或工作階段界限的定義方式，這會影響事件的分組和歸因方式。 | 已在資料檢視中定義。 | 已在集合時定義。 |
+| **分段**<br/>&#x200B;使用區段篩選資料摘要輸出的功能。 | 套用至資料檢視的區段會由資料摘要自動繼承。 其他區段也可以直接套用至個別資料摘要。 | 不支援。 資料摘要會匯出所有收集到的資料，而不使用區段篩選。 |
+| **計算量度**<br/>&#x200B;您可以從現有量度建立的自訂量度。 | 未提供 | 未提供 |
+| **持續性模型**<br/>&#x200B;維度值如何或是否從一個事件持續到下一個事件。 | 彈性。 來自資料檢視的持續性設定（配置和到期日）在產生摘要時套用至報告時間。 支援資料檢視中可用的所有配置設定： **原始**、**最近**、**全部**、**最先已知**&#x200B;和&#x200B;**最後已知**。 | 只表示&#x200B;**最近（上次接觸）**&#x200B;和&#x200B;**原始值（首次接觸）**&#x200B;歸因模型。 線性配置的處理與上次接觸相同。 |
+| **輸出檔案格式**<br/>&#x200B;用於傳送至雲端目的地的資料摘要輸出檔案的格式。 | Parquet<p>原生支援複雜的巢狀和結構化資料。 產品清單會以結構化陣列/巢狀物件來表示。 </p><p>需要Parquet感知工具才能讀取，例如BigQuery、Snowflake或Apache Spark。</p> | TSV<p>平坦、人類看得懂的列。 不原生支援結構化資料；複雜欄位（例如產品清單）必須編碼為需要自訂剖析邏輯的專有分隔字串。</p> |
+| **輸出檔案路徑**<br/>&#x200B;用於傳遞輸出檔案的目錄結構。 | 使用&#x200B;**Hive樣式的資料分割路徑** （例如`year=2024/month=01/day=15/`），在Databricks或Apache Spark等資料湖環境中查詢資料時，啟用有效的資料分割刪減。 | 使用平面目錄結構。 不支援Hive樣式的路徑。 |
+| **傳遞目的地**<br/>&#x200B;可傳送資料摘要輸出檔案的雲端儲存位置。 | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform。 | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform。 <p>也支援&#x200B;**SFTP**。</p> |
 
 {style="table-layout:auto"}
-
-<!-- Is this useful info to accompany the table? Not sure... **Hits**<br/>  | Only Hit 5 is in the data feed window. However, because the reporting window also includes Hit 4 and Hit 3 (which are late-arriving hits with timestamps from a previous data feed window), they are also included in the current data feed window.<p>Hits are reordered in the data feed according to their timestamp, as follows: Hit 3, Hit 4, Hit 5.</p> | Only Hit 5 is in the data feed window. However, because a lookback is configured and it includes Hit 4 and Hit 3 (which are late-arriving hits with timestamps from a previous data feed window), they are also included in the current data feed window. (If a lookback was not configured, only Hit 5 would be included in the data feed.) <p>Hits are shown in the data feed in the order they were received, as follows: Hit 4, Hit 3, Hit 5.</p> -->
-
-<!-- Is all of this info redundant?  **Late-arriving hits**<br/> (If you send us data that is out of order per person would be if you are setting the timestamp. You can set the timestamp in 2 ways: you can have Adobe set the timestamp, based on when we received the data. Or you can set it yourself. If you're setting the timestamps and you sending us data that is out of order, it messes things up in AA. In AA, data needs to come in order per visitor. We need the right order of events. But in CJA, it doesn't matter what timestamps are on the data. CJA doesn't assign a timestamp to a hit. That is done upstream. CJA reorders the data once it arrives, so that everything is in the proper time sequence. Then we can do the report-time processing. That means you can have both streaming data and batch data. It doesn't matter. At the time it arrives, we reorder it and it becomes in order per person as a result. So in CJA we'll give you all the data we received in the last day or hour, but it's limited to the beginning of the reporting window. Most likely a huge chunk of the data you get in a day or hour belongs to that day or hour. If all you did was batch data from a call center, then that is what you would get out. In CJA, data can come in and it doesn't matter when it came in. So the data feed ustomer has to be able to handle this on their side. So wherever they're putting the data, it needs to handle the fact that timestamps could potentially be all over the place. This might be a challenge for some customers. They need to know this. Needs to be able to handle out of order data per person. It doesn't matter across people. ) Hits that should have been included in a previous data feed, but for some reason they arrived late (such as through timestamped hits or data sources). <p>These late-arriving hits are included in the current data feed at the time they arrive, even though their timestamps are within a previous data feed window. Every time a data feed processes data, it looks at any late hits that have arrived and batches them in the next data feed file that is sent.</p>  | Late-arriving hits that occur within the **[!UICONTROL Reporting window]** are always included. <p>The lookback window for these late-arriving hits is controlled through the **[!UICONTROL Reporting window]** configuration option.</p><p>Hits are automatically reordered based on timestamps; original values are persisted (no change feed).</p> | Can be included or excluded. Configurable with the **[!UICONTROL Late-arriving hits]** configuration option.<p>The lookback window for these hits is configured through the **[!UICONTROL Lookback window]** configuration option that is available for this specific purpose.</p><p>Hits are shown in the order in which they are received; they are not reordered according to timestamp.</p>   -->
 
