@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: a4f7eef26a019f4f8a716f44d49985290b135112
 workflow-type: tm+mt
 source-wordcount: 759
 ht-degree: 88%
@@ -100,7 +100,7 @@ ht-degree: 88%
 
    * 在「[!UICONTROL **小數位數**]」欄位中，選擇度量顯示的小數位數。
 
-     只有量度的數字類型為雙精度時才有此選項。
+     只有量度的數值類型為雙精度時才有此選項。
 
    * 選取「[!UICONTROL **轉換貨幣**]」選項。
 
