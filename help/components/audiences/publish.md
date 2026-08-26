@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 87de19a64e49f83c99df7980828b97a1da2c2d16
 workflow-type: tm+mt
 source-wordcount: 2520
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="components_audiences_audiencelimit"
->title="重新整理對象限制"
->abstract="您環境中設定為以排程頻率自動重新整理的對象數量。 上限介於75到150之間，視您的Customer Journey Analytics權益而定。 一次性請求不會計入此限制。"
+>title="重新整理客群上限"
+>abstract="您的環境中設定為依照排定頻率自動重新整理的客群數量。 上限介於 75 到 150 個之間，依您的 Customer Journey Analytics 權益而定。 一次性請求不會計入此限制。"
 
 <!-- markdownlint-enable MD034 -->
 

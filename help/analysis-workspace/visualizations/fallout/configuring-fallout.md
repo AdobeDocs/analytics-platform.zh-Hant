@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 09d8d3fd3cbc6e4ddfc30aca96b041a7c51002d0
 workflow-type: tm+mt
 source-wordcount: 930
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_container"
 >title="流失容器"
->abstract="選取容器以進行路徑分析。 此選擇可協助您瞭解參與，並將分析限制在選取的容器。"
+>abstract="選取容器以進行路徑分析。 此選取項目可協助您了解參與度，並將分析範圍限制在所選取的容器內。"
 
 作為視覺效果的一部分，可以使用特定設定。
 
@@ -88,7 +88,7 @@ ht-degree: 37%
 
 ## 內容選單
 
-作為視覺效果的一部分，可使用特定內容選單選項。
+在此視覺效果中，可使用特定的內容選單選項。
 
 ### 存取內容功能表
 
