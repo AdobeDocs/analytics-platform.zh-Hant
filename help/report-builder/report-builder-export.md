@@ -7,26 +7,15 @@ type: Documentation
 solution: Customer Journey Analytics
 exl-id: 1d5d87d8-1920-406b-8cce-41b89b7ae70b
 TQID: https://experienceleague.adobe.com/9oEoM8cI6Bxl-PXmiT-OhskFK3XlaPVkQSFOi4Dyajg
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: ef46ac31-f951-48d6-bae5-51c52ab47fb8id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 563f5d89ee9977a956565f68cb2b75adcfb37c0f
 workflow-type: tm+mt
-source-wordcount: 1309
-ht-degree: 40%
+source-wordcount: 1343
+ht-degree: 39%
 
 ---
 
@@ -53,10 +42,6 @@ ht-degree: 40%
 ![步驟1到4中所述的匯出程式。](assets/report-builder-export-process.png)
 
 ## 從Report Builder匯出報告
-
->[!NOTE]
->
->在依照本節所述匯出資料之前，請先瞭解上節中有關[匯出程式](#understand-the-export-process)的詳細資訊。
 
 若要從Report Builder匯出報表：
 
@@ -91,7 +76,7 @@ ht-degree: 40%
    | **[!UICONTROL 顯示排程選項]** | 選取此選項可檢視排程匯出的其他選項。 如果您只想傳送一次匯出，請取消選取此選項。 取消選取此選項時，會立即起始匯出。 |
    | **[!UICONTROL 開始於]** | 排定匯出應該開始的日期和時間。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
    | **[!UICONTROL 結束於]** | 排定匯出到期的日期和時間。 在您設定的日期和時間之後，排定匯出不會再進行。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
-   | **[!UICONTROL 頻率]** | 您可以將頻率設定為特定日期的每小時、每日、每週、每月或每年。 例如，您可以設定排程，在當月第一個星期日晚上傳送活頁簿，讓收件者能在星期一早上第一時間收到收件匣中的電子郵件。 |
+   | **[!UICONTROL 頻率]** | 您可以將頻率設定為每小時、每日、每週，或在特定日期每月或每年執行。 例如，您可以設定排程，在當月第一個星期日晚上傳送活頁簿，讓收件者能在星期一早上第一時間收到收件匣中的電子郵件。 |
 
    {style="table-layout:auto"}
 
@@ -100,6 +85,10 @@ ht-degree: 40%
    資料將以您指定的頻率發送到您指定的雲端帳戶。
 
 1. (選用) 建立匯出後，無論您選擇立即發送或依明訂的排程發送，您都可以在[匯出頁面](/help/components/exports/manage-exports.md)查看和管理發送情形，也可以在[匯出記錄](/help/components/exports/manage-export-logs.md)中查看。</p>
+
+>[!NOTE]
+>
+>排程會匯出您建立排程時現有的活頁簿版本。 如果您稍後變更並儲存活頁簿，現有的排程不會擷取這些變更，並繼續匯出原始版本。 若要匯出更新的活頁簿，請在儲存變更後建立新的排程。
 
 ## 管理匯出
 
