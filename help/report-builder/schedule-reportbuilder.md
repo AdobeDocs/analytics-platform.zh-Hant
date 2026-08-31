@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 563f5d89ee9977a956565f68cb2b75adcfb37c0f
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 14%
+source-wordcount: 934
+ht-degree: 13%
 
 ---
 
@@ -29,8 +29,11 @@ ht-degree: 14%
 
 您可以為單一活頁簿建立多個排程。 例如，您可建立兩個排程，每天傳送活頁簿給團隊，每週傳送一次給經理。
 
-排程功能也可讓您設定活頁簿的密碼保護，以及編輯先前排程的活頁簿。
+排程功能也可讓您設定活頁簿的密碼保護，以及編輯先前排程活頁簿的排程。
 
+>[!NOTE]
+>
+>排程會傳送您建立排程時已存在活頁簿的版本。 如果您稍後變更並儲存活頁簿，現有的排程將不會擷取這些變更，並繼續傳送原始版本。 若要分發更新的活頁簿，請在儲存變更後建立新的排程。
 
 >[!BEGINSHADEBOX]
 
