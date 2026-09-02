@@ -19,16 +19,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 3%
+source-wordcount: 1311
+ht-degree: 2%
 
 ---
 
 # 同意報表和篩選概觀
 
-同意報表和篩選會使用儲存在Adobe Experience Platform設定檔資料集中的同意原則成員資格資料，協助您報告訪客同意，並可選擇在未經同意的訪客資料內嵌至Customer Journey Analytics之前將其排除。
+同意報表和篩選會使用儲存在Adobe Experience Platform設定檔資料集中的同意原則成員資格資料，協助您報告訪客同意情形。 此外，您可以選擇在未經同意的訪客資料內嵌至Customer Journey Analytics之前將其排除。
 
 ## 先決條件
 
@@ -55,7 +55,23 @@ ht-degree: 3%
 
 ## 同意報告與篩選
 
-同意報告和篩選是兩項不同的功能。 您可以自行啟用同意報告，或同時啟用報告和篩選。
+同意報告和篩選是兩項不同的功能。 **同意報告**&#x200B;可讓您使用Analysis Workspace來報告哪些訪客符合在您的Experience Platform設定檔資料集中設定的各種同意原則。 **同意篩選**&#x200B;會告知Customer Journey Analytics在擷取時排除非同意的訪客。
+
+您可以個別啟用同意報告或篩選，或同時使用兩者。 對於許多商業使用案例而言，僅啟用同意報告即足夠。
+
+以下資訊說明使用每個設定的原因：
+
+* **最常見：**
+
+  **使用同意資料進行報告（不進行篩選）**：當您想要在Analysis Workspace中分析同意原則成員資格，而且不需要從內嵌中排除任何訪客資料時，此設定會很有用。
+
+* **較不常見：**
+
+  **同時使用同意資料來報告及篩選同意資料**：當您想要在Analysis Workspace中分析同意原則成員資格資料，以及您的組織也要求您在擷取時排除非同意的訪客資料時，此設定會很有用。
+
+* **不常見：**
+
+  **篩選同意資料（沒有報告）**：此設定不常見，但在您的組織要求您在擷取時排除非同意的訪客資料，但您不需要報告不屬於篩選資料的其他同意選擇時，此設定可能非常有用。 例如，您組織的合規性要求可能會強制要求您根據同意來篩選資料，而不要求您建立和維護報告使用的同意原則查詢資料集。
 
 ### 同意報告
 
@@ -79,10 +95,12 @@ ht-degree: 3%
 
   行銷動作代表資料使用的類別。 Customer Journey Analytics會決定哪些同意原則適用於每個行銷動作，而且您在[建立您的設定](/help/connections/consent-reporting-filtering/consent-configure.md#create-a-configuration)時，會個別啟用每個行銷動作的篩選功能。
 
+  行銷動作會繫結至您在Experience Platform中設定的資料使用標籤和原則。 如需詳細資訊，請參閱[標籤、原則和行銷動作](/help/data-views/data-governance.md)。
+
   | 行銷動作 | 說明 |
-  |---------|----------|
-  | **[!UICONTROL 分析資料]** | Analysis Workspace 中的標準 Customer Journey Analytics 報告。 |
-  | **[!UICONTROL 資料科學資料]** | 進階分析、機器學習和資料科學使用案例。 |
+  | --------- | ---------- |
+  | **[!UICONTROL 分析資料]** | 在Analysis Workspace中篩選用於標準Customer Journey Analytics報表的資料。 |
+  | **[!UICONTROL 資料科學資料]** | 篩選用於進階分析、機器學習和資料科學使用案例的資料。 |
 
 * 只有當訪客符合&#x200B;**所有**&#x200B;適用的同意原則時，才會擷取訪客的資料。 如果訪客缺少任何適用的原則，則會排除該訪客的資料。
 

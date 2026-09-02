@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 89f0a1e54662c59d474b1fba28eb8420612e9243
+source-git-commit: e8f86da8d18cfa6a30e4a8330ae5492e9d0aa2f0
 workflow-type: tm+mt
-source-wordcount: 21140
+source-wordcount: 21213
 ht-degree: 98%
 
 ---
@@ -677,6 +677,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 &#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
+| [!UICONTROL **同意原則概觀**] | 根據 Adobe Experience Platform 的同意原則成員資格資料來檢視訪客。<p>**您可以借助此功能**，作為產生訪客同意原則成員資格報告的起點。 當針對同意報告設定資料視圖時，Customer Journey Analytics 會在 Analysis Workspace 中自動提供同意原則分析範本。 <br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如在分析報告中排除未同意的訪客。</p> |
 | **[!UICONTROL 對象總覽]** | 檢視造訪您網站的人當中有哪些客群。<p>**這有助於您**&#x200B;更加了解客群、客群來源 (RTCDP、Customer Journey Analytics 等)、客群重疊等一般資訊。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如運用資料聚焦於特定客群的行銷活動，或針對橫跨多個客群的客戶建立量身打造的體驗。</p><p>此範本使用對象名稱、對象來源、退出對象名稱和退出對象來源維度。</p><p>如需詳細資訊，請參閱[在Customer Journey Analytics中分析Experience Platform對象](/help/connections/audience-analysis/analyze-audiences.md)。</p> |
 | [!UICONTROL **首次訪客與重複訪客**] | 檢視首次訪客和重複訪客的比較。 <p>**這可以幫助您**&#x200B;更了解您的網站在維持客戶忠誠度方面的有效性，或您獲得新客戶的速度。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如為首次訪客提供未來購買的獎勵，以吸引他們回訪。</p><!-- This template uses the --> |
 | **個人 ID** | 檢視各管道中的個別使用者行為。<p>**這可以幫助您**&#x200B;更了解多個接觸點間的完整客戶歷程與互動。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如將行銷活動個人化，以更完善地鎖定使用者偏好。</p><!-- This template uses the --> |

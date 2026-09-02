@@ -17,9 +17,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
-source-wordcount: 585
+source-wordcount: 590
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 建立設定並選取包含同意原則成員資格資料的沙箱、設定檔資料集和連線。
 
-1. 讓&#x200B;**[!UICONTROL Analytics]**&#x200B;和&#x200B;**[!UICONTROL 資料科學]**&#x200B;篩選功能保持關閉。
+1. 保留&#x200B;**[!UICONTROL Analytics資料]**&#x200B;和&#x200B;**[!UICONTROL 資料科學資料]**&#x200B;篩選功能會關閉。
 
 1. 在Analysis Workspace中，使用&#x200B;**[!UICONTROL 原則名稱]**&#x200B;維度和&#x200B;**[!UICONTROL 具有同意的訪客]**&#x200B;量度來建立自由表格，以檢視每個原則的涵蓋範圍。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 建立或編輯連線的設定，以支援分析報告。
 
-1. 啟用&#x200B;**[!UICONTROL Analytics]**&#x200B;篩選切換。
+1. 啟用&#x200B;**[!UICONTROL Analytics資料]**&#x200B;篩選切換。
 
 1. 確認設定。 此後，Customer Journey Analytics只有在訪客符合套用至Analytics行銷動作的所有同意原則時，才會擷取訪客的資料。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 建立或編輯相關連線的設定。
 
-1. 根據每個使用案例的同意要求，啟用&#x200B;**[!UICONTROL Analytics]**&#x200B;切換、**[!UICONTROL 資料科學]**&#x200B;切換，或兩者同時啟用。
+1. 根據每個使用案例的同意要求，啟用&#x200B;**[!UICONTROL Analytics資料]**&#x200B;切換、**[!UICONTROL 資料科學資料]**&#x200B;切換，或兩者同時啟用。
 
 1. 確認設定。 Customer Journey Analytics會獨立評估適用於每個已啟用行銷動作的同意政策。
 
