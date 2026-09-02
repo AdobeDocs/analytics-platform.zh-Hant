@@ -6,24 +6,14 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 TQID: https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 9c0ddbb48c5cb1c62bded02d1455f2631ab1679f
 workflow-type: tm+mt
-source-wordcount: 10479
+source-wordcount: 10488
 ht-degree: 92%
 
 ---
@@ -158,7 +148,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_exl_product_usage"
 >title="從 Customer Journey Analytics 中移除此連線"
->abstract="此產品使用量連線目前用於 Customer Journey Analytics。 此連線讓您可以：<ul><li>在 Customer Journey Analytics 中執行產品使用情況資料的深入分析。</li><li>編輯產品使用情況連線和相關的資料視圖。</li></ul>**如果您移除連線，就無法再於 Customer Journey Analytics 中進行深入分析。 連線和任何關聯的資料視圖都會重設為預設狀態，且無法再編輯。**<br/><br/>**Customer Journey Analytics 中此連線的計費包括移除連線的整個月份。**<br/><br/>&#x200B;產品使用情況的連線保持啟用狀態。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/product-usage/usage-overview){target="_blank"}。"
+>abstract="此產品使用情況連線目前用於 Customer Journey Analytics。 此連線讓您可以：<ul><li>在 Customer Journey Analytics 中執行產品使用情況資料的深入分析。</li><li>編輯產品使用情況連線和相關的資料視圖。</li></ul>**如果您移除連線，就無法再於 Customer Journey Analytics 中進行深入分析。 連線和任何關聯的資料視圖都會重設為預設狀態，且無法再編輯。**<br/><br/>**Customer Journey Analytics 中此連線的計費包括移除連線的整個月份。**<br/><br/>&#x200B;產品使用情況的連線保持啟用狀態。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/product-usage/usage-overview){target="_blank"}。"
 
 >[!CONTEXTUALHELP]
 >id="connections_useincja_legal_section_section"
@@ -195,7 +185,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [連線至資料來源](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [連線至資料來源](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -224,7 +214,7 @@ ht-degree: 92%
 
 ## 編輯連線 {#edit-connection}
 
-編輯連線的方式取決於您已授權的 Customer Journey Analytics 封裝：
+編輯連線的方式取決於您已授權的 Customer Journey Analytics 套件：
 
 * [Customer Journey Analytics](#customer-journey-analytics)
 * [Customer Journey Analytics B2B Edition](#customer-journey-analytics-b2b-edition)
@@ -242,7 +232,7 @@ ht-degree: 92%
    | **[!UICONTROL 連線名稱]** | 為連線輸入唯一名稱。 |
    | **[!UICONTROL 連線說明]** | 說明此連線的用途。 |
    | **[!UICONTROL 標記]** | 指定標記，將標記新增至您的連線，讓您稍後可以使用這些標記來搜尋連線。 |
-   | **[!UICONTROL 啟用滾動式資料時間範圍]** | 勾選這個核取方塊可讓您在連線層級將 Customer Journey Analytics 資料保留定義為以月為單位的滾動時段 (1 個月、3 個月、6 個月等)。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。 由於無適用的時間戳記，因此輪廓或查詢資料集不存在滾動資料時間窗口設定。 不過，如果您的連線在一個或多個事件資料集之外還包含任何輪廓或查詢資料集，則會為相同時段保留該資料。<p> 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。 這有助於您未超過合約限制，並減少超額使用費用的風險。<p><ul><li>如果您保留預設值 (未勾選)，Adobe Experience Platform 資料保留設定將取代保留期間。 如果您在 Experience Platform 中有 25 個月的資料，Customer Journey Analytics 會透過回填取得 25 個月的資料。 如果您在 Experience Platform 中刪除其中 10 個月的資料，Customer Journey Analytics 則會保留剩餘 15 個月的資料。</li><li>如果您啟用滾動式資料時間範圍，請在「**[!UICONTROL 選取月份數量]**」中指定您啟用滾動式資料時間範圍的月份數量。 |
+   | **[!UICONTROL 啟用滾動式資料時間範圍]** | 勾選這個核取方塊可讓您在連線層級將 Customer Journey Analytics 資料保留定義為以月為單位的滾動時段 (1 個月、3 個月、6 個月等)。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。 由於無適用的時間戳記，因此輪廓或查詢資料集不存在滾動資料時間窗口設定。 不過，如果您的連線在一個或多個事件資料集之外還包含任何輪廓或查詢資料集，則會為相同時段保留該資料。<p> 主要優點在於您只會儲存或針對適用且實用的資料進行報告，並刪除不再實用的舊資料。 這有助於您維持在合約限制內，並減少超額使用費用的風險。<p><ul><li>如果您保留預設值 (未勾選)，Adobe Experience Platform 資料保留設定將取代保留期間。 如果您在 Experience Platform 中有 25 個月的資料，Customer Journey Analytics 會透過回填取得 25 個月的資料。 如果您在 Experience Platform 中刪除其中 10 個月的資料，Customer Journey Analytics 則會保留剩餘 15 個月的資料。</li><li>如果您啟用滾動式資料時間範圍，請在「**[!UICONTROL 選取月份數量]**」中指定您啟用滾動式資料時間範圍的月份數量。 |
    | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇包含您要建立連線的資料集的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)可將單一 Platform 實例分割成不同的虛擬環境，以利開發及改進數位體驗應用程式。 您可將沙箱視為內含資料集的「資料獨立單位」。 沙箱可用於控制資料集的存取權限。<p>當您選取沙箱後，左側邊欄會顯示您可以從該沙箱提取的所有資料集。 |
    | **[!UICONTROL 新增資料集]** | 選取「![資料新增](/help/assets/icons/DataAdd.svg)**[!UICONTROL 新增資料集]**」以新增資料集。 如果連線尚未有資料集，您也可以在資料集表格中選取「**[!UICONTROL 新增資料集]**」。 |
 
@@ -253,14 +243,14 @@ ht-degree: 92%
    |---|---|
    | **[!UICONTROL 資料集名稱]** | 選取一個或多個要拉進 Customer Journey Analytics 中的資料集，然後選取「**[!UICONTROL 新增]**」。<p>(如果有很多資料集可選擇，可使用資料集清單上方的「搜尋資料集」搜尋列，搜尋合適的資料集)。 |
    | ![更多](/help/assets/icons/More.svg) | 選取「![更多](/help/assets/icons/More.svg)」開啟所選資料集的內容功能表。 根據資料集 (的類型)，您可以選取：<ul><li>「![交叉大小75](/help/assets/icons/CrossSize400.svg) **[!UICONTROL 刪除資料集]**」以[刪除資料集](#delete-a-dataset)。</li><li>「![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**」以[編輯資料集](#edit-a-dataset)。</li><li>「![歷史記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**」以顯示資料集[過去回填的資料](#past-backfills)。 |
-   | **[!UICONTROL 上次更新時間]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述中的預設時間戳記欄位。 「不適用」代表此資料集不含任何資料。 |
+   | **[!UICONTROL 上次更新時間]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述中的預設時間戳記欄位。 「N/A」代表此資料集不含任何資料。 |
    | **[!UICONTROL 記錄數量]** | Experience Platform 中資料集的上個月記錄總數。 |
    | **[!UICONTROL 結構描述]** | 在 Adobe Experience Platform 中建立資料集所根據的[結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)。 |
    | **[!UICONTROL 資料集類型]** | Customer Journey Analytics 會針對您新增至此連線的各個資料集，根據傳入的資料自動設定[資料集類型](#dataset-types)。 有 3 種不同的資料集類型：事件資料、輪廓資料和查詢資料。 請參閱下表提供的資料集類型說明。 |
    | **[!UICONTROL 拼接]** | 如果資料集[在「連線」使用者介面中啟用了拼接功能](/help/stitching/use-stitching-ui.md)，則該值為&#x200B;**[!UICONTROL 真]**； 否則，值為&#x200B;**[!UICONTROL false]**。 透過[請求拼接程序](/help/stitching//use-stitching.md)所產生的拼接資料集不會在此表格中被識別為已拼接，且其值預設為&#x200B;**[!UICONTROL 假]**。 |
    | **[!UICONTROL 顆粒度]** | 資料集中資料的顆粒度；僅適用於摘要資料集。 |
    | **[!UICONTROL 資料來源類型]** | 資料集的資料來源類型。 不適用於摘要資料集。 |
-   | **[!UICONTROL 個人 ID]** | 用於支援資料集人員式報告的個人 ID。 |
+   | **[!UICONTROL 個人 ID]** | 用於支援資料集以人員為基礎的報告的個人 ID。 |
    | **[!UICONTROL 索引鍵]** | 用於查詢資料集的索引鍵。 |
    | **[!UICONTROL 比對索引鍵]** | 用於查詢資料集的比對索引鍵。 |
    | **[!UICONTROL 匯入新資料]** | 資料集匯入新資料的狀態： <p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，若資料集設定為匯入新資料，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，若資料集設定為不匯入新資料。 |
@@ -286,7 +276,7 @@ ht-degree: 92%
    | **[!UICONTROL 主要 ID]** | 為您的連線選取正確的主要 ID： <ul><li>「![使用者](/help/assets/icons/User.svg) **[!UICONTROL 個人]**」，適用於您通常在 B2C 情境中使用的個人型連線。</li><li> 「![建築物](/help/assets/icons/Building.svg) **[!UICONTROL 帳戶]**」，適用於您通常在 B2B 情境中使用的帳戶型連線。</li></ul>新增一個或多個資料集至連線後，您就無法再變更主要 ID。 <br/>選取的主要 ID 會定義連線是個人型或帳戶型。 特定資料集類型可用的[設定](#dataset-settings)取決於連線基礎。 |
    | **[!UICONTROL 選用容器]** | 如果您已選取「![建築物](/help/assets/icons/Building.svg) **[!UICONTROL 帳戶]**」做為「**[!UICONTROL 主要 ID]**」，請選取其他容器。<ul><li>**[!UICONTROL 全域帳戶]**：可以設定在連線中的全域帳戶。</li><li>**[!UICONTROL 機會]**：可以設定在連線中的機會。</li><li>**[!UICONTROL 購買群組]**：可以設定在連線中的購買群組。</li><ul> |
    | **[!UICONTROL 沙箱]** | 在 Experience Platform 中，選擇包含您要建立連線的資料集的沙箱。<p>Adobe Experience Platform 提供的[沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)可將單一 Platform 實例分割成不同的虛擬環境，以利開發及改進數位體驗應用程式。 您可將沙箱視為內含資料集的「資料獨立單位」。 沙箱可用於控制資料集的存取權限。<p>當您選取沙箱後，左側邊欄會顯示您可以從該沙箱提取的所有資料集。 |
-   | **[!UICONTROL 啟用滾動式資料時間範圍]** | 勾選這個核取方塊可讓您在連線層級將 Customer Journey Analytics 資料保留定義為以月為單位的滾動時段 (1 個月、3 個月、6 個月等)。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。 由於無適用的時間戳記，因此輪廓或查詢資料集不存在滾動資料時間窗口設定。 不過，如果您的連線在一個或多個事件資料集之外還包含任何輪廓或查詢資料集，則會為相同時段保留該資料。<p> 主要優點在於您只會儲存或報告適用且實用的資料，並刪除不再實用的舊資料。 這有助於您未超過合約限制，並減少超額使用費用的風險。<p><ul><li>如果您保留預設值 (未勾選)，Adobe Experience Platform 資料保留設定將取代保留期間。 如果您在 Experience Platform 中有 25 個月的資料，Customer Journey Analytics 會透過回填取得 25 個月的資料。 如果您在 Platform 中刪除其中 10 個月的資料，Customer Journey Analytics 則會保留剩餘 15 個月的資料。</li><li>如果您啟用滾動式資料時間範圍，請在「**[!UICONTROL 選取月份數量]**」中指定您啟用滾動式資料時間範圍的月份數量。 |
+   | **[!UICONTROL 啟用滾動式資料時間範圍]** | 勾選這個核取方塊可讓您在連線層級將 Customer Journey Analytics 資料保留定義為以月為單位的滾動時段 (1 個月、3 個月、6 個月等)。<p>資料保留是以事件資料集時間戳記為基礎，僅適用於事件資料集。 由於無適用的時間戳記，因此輪廓或查詢資料集不存在滾動資料時間窗口設定。 不過，如果您的連線在一個或多個事件資料集之外還包含任何輪廓或查詢資料集，則會為相同時段保留該資料。<p> 主要優點在於您只會儲存或針對適用且實用的資料進行報告，並刪除不再實用的舊資料。 這有助於您維持在合約限制內，並減少超額使用費用的風險。<p><ul><li>如果您保留預設值 (未勾選)，Adobe Experience Platform 資料保留設定將取代保留期間。 如果您在 Experience Platform 中有 25 個月的資料，Customer Journey Analytics 會透過回填取得 25 個月的資料。 如果您在 Platform 中刪除其中 10 個月的資料，Customer Journey Analytics 則會保留剩餘 15 個月的資料。</li><li>如果您啟用滾動式資料時間範圍，請在「**[!UICONTROL 選取月份數量]**」中指定您啟用滾動式資料時間範圍的月份數量。 |
    | **[!UICONTROL 新增資料集]** | 選取「![資料新增](/help/assets/icons/DataAdd.svg) **[!UICONTROL 新增資料集]**」以[新增資料集](#add-datasets)。 如果連線尚未有資料集，您也可以在資料集表格中選取「**[!UICONTROL 新增資料集]**」。 |
 
 
@@ -296,7 +286,7 @@ ht-degree: 92%
    |---|---|
    | **[!UICONTROL 資料集名稱]** | 選取一個或多個要拉進 Customer Journey Analytics 中的資料集，然後選取「**[!UICONTROL 新增]**」。<p>(如果有很多資料集可選擇，可使用資料集清單上方的「搜尋資料集」搜尋列，搜尋合適的資料集)。 |
    | ![更多](/help/assets/icons/More.svg) | 選取「![更多](/help/assets/icons/More.svg)」開啟所選資料集的內容功能表。 根據資料集 (的類型)，您可以選取：<ul><li>「![交叉大小75](/help/assets/icons/CrossSize400.svg) **[!UICONTROL 刪除資料集]**」以[刪除資料集](#delete-a-dataset)。</li><li>「![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**」以[編輯資料集](#edit-a-dataset)。</li><li>「![歷史記錄](/help/assets/icons/History.svg) **[!UICONTROL 過去的回填]**」以顯示資料集[過去回填的資料](#past-backfills)。 |
-   | **[!UICONTROL 上次更新時間]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述中的預設時間戳記欄位。 「不適用」代表此資料集不含任何資料。 |
+   | **[!UICONTROL 上次更新時間]** | 僅適用於事件資料集，系統會自動將此設定設為 Experience Platform 中以事件為基礎的結構描述中的預設時間戳記欄位。 「N/A」代表此資料集不含任何資料。 |
    | **[!UICONTROL 記錄數量]** | Experience Platform 中資料集的上個月記錄總數。 |
    | **[!UICONTROL 結構描述]** | 在 Adobe Experience Platform 中建立資料集所根據的[結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)。 |
    | **[!UICONTROL 資料集類型]** | Customer Journey Analytics 會針對您新增至此連線的各個資料集，根據傳入的資料自動設定[資料集類型](#dataset-types)。 |
@@ -306,7 +296,7 @@ ht-degree: 92%
    | **[!UICONTROL 全域帳戶 ID]** | (僅於帳戶型連線顯示) 用於支援資料集之帳戶型報告的全域帳戶 ID。 |
    | **[!UICONTROL 購買群組 ID]** | (僅於帳戶型連線顯示) 用於尋找購買群組資料的購買群組 ID。 |
    | **[!UICONTROL 機會 ID]** | (僅於帳戶型連線顯示) 用於查詢機會資料的機會 ID。 |
-   | **[!UICONTROL 個人 ID]** | 用於支援資料集人員式報告的個人 ID。 |
+   | **[!UICONTROL 個人 ID]** | 用於支援資料集以人員為基礎的報告的個人 ID。 |
    | **[!UICONTROL 索引鍵]** | 用於查詢資料集的索引鍵。 |
    | **[!UICONTROL 比對索引鍵]** | 用於查詢資料集的比對索引鍵。 |
    | **[!UICONTROL 匯入新資料]** | 資料集匯入新資料的狀態： <p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，若資料集設定為匯入新資料，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，若資料集設定為不匯入新資料。 |
@@ -369,7 +359,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="cja_connection_matchingkey"
 >title="比對索引鍵"
->abstract="選取要加入其中一個事件資料集的欄位。 若此清單空白，您可能尚未新增或設定事件資料集。"
+>abstract="選取要與其中一個事件資料集連接的欄位。 若此清單空白，您可能尚未新增或設定事件資料集。"
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_importnewdata"
@@ -413,8 +403,8 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_personid"
->title="人員 ID"
->abstract="選取對事件有良好覆蓋的 identity 或 identityMap 類型欄位。 包含的值將提升至先前設定之人員識別碼命名空間中的值。"
+>title="永久人員 ID"
+>abstract="選取可在所有事件中使用的身分或身分對應型別欄位，例如包含ECID的欄位。 這些識別碼將會從先前設定的人員識別碼名稱空間提升為人員ID。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
@@ -444,7 +434,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="connection_matchingkey"
 >title="比對索引鍵"
->abstract="選取要加入其中一個事件資料集的欄位。 若此清單空白，您可能尚未新增或設定事件資料集。"
+>abstract="選取要與其中一個事件資料集連接的欄位。 若此清單空白，您可能尚未新增或設定事件資料集。"
 
 >[!CONTEXTUALHELP]
 >id="connection_matchingkeytype"
@@ -521,9 +511,9 @@ ht-degree: 92%
 | 資料集類型 | 說明 | 時間戳記 | 結構描述 | 個人 ID <br/> 帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} |
 |---|---|---|---|---|
 | **[!UICONTROL 事件]** | 代表及時事件的資料。 例如網站造訪、互動、交易、POS 資料、調查資料、廣告印象資料等。 該資料可能是典型的點按資料流資料，包含客戶 ID 或 Cookie ID 以及時間戳記。 若使用事件資料，您可以靈活地使用哪個ID作為人員ID。 | 設定為 [!UICONTROL Experience Platform] 中事件型結構描述之預設時間戳記欄位。 | 以具有&#x200B;*時間序列*&#x200B;行為之 XDM 類別為基礎的任何內建或自訂的結構描述。 例如 *XDM 體驗事件*&#x200B;或 *XDM 決策事件*。 | 您可以選擇想要包含的個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 Experience Platform中定義的每個資料集結構，都可以有各自專屬的一組一或多個已定義且與身分名稱空間相關聯的身分。 這些身分識別中的任何一個都可以用作個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 範例包括 Cookie ID、拼接後的 ID、使用者 ID、追蹤程式碼、帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 等。 |
-| **[!UICONTROL 查詢]** | 您可以新增資料集做為所有資料集類型中的查詢欄位：輪廓、查詢和事件資料集 (始終支援後者)。 這項附加功能擴展了 Customer Journey Analytics 的功能，以支援複雜的資料模型，包括 B2B。 此資料用於尋找在事件、輪廓或查詢資料中找到的值或索引鍵。 您最多可以新增三個查詢層級。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查找資料。 有關範例，請參閱「[B2B 範例](/help/use-cases/b2b/example.md)」。 <br/><br/>**附註**： <ul><li>[衍生欄位](/help/data-views/derived-fields/derived-fields.md)無法做為連線中查閱的相符索引鍵。</li><li>[客戶受管理的金鑰](/help/privacy/cmk.md)和[臨時資料集](#ad-hoc-dataset)不支援大型查詢。</li></ul> | 不適用 | 除 *XDM 個體輪廓*&#x200B;類別外，以具有&#x200B;*記錄*&#x200B;行為的 XDM 類別為基礎的任何內建或自訂的結構描述。 | 不適用 |
-| **[!UICONTROL 輪廓]** | [!UICONTROL 事件]資料中，套用至您帳戶、人員、使用者或客戶的資料。 例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 以 *XDM 個體輪廓*&#x200B;類別為基礎的任何內建或自訂的結構描述。 | 您可以選擇想要包含的個人 ID / 帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 [!DNL Experience Platform] 中定義的每個資料集，除了摘要資料集以外，皆各自擁有一組已定義的一個或多個個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 例如 Cookie ID、拼接後的 ID、使用者 ID、追蹤程式碼、帳戶 ID 等。<br>![個人 ID &#x200B;](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報告會反映出這一點。 若要合併資料集，您需要使用相同的個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 |
-| **摘要** | 與單獨個人 ID 無關聯的時間序列資料。 摘要資料代表不同彙總等級的彙總資料，例如行銷活動。 您可以在 Customer Journey Analytics 中使用此資料來支援各種使用案例。 如需詳細資訊，請參閱[摘要資料](/help/data-views/summary-data.md)。 | 自動設定為 Experience Platform 中事件型摘要量度結構描述之預設時間戳記欄位。 僅支援每小時或每日顆粒度。 | 以 *XDM 摘要量度*&#x200B;類別為基礎的任何內建或自訂的結構描述。 | 不適用 |
+| **[!UICONTROL 查詢]** | 您可以將資料集新增為所有資料集類型中欄位的查詢：輪廓、查詢和事件資料集 (後者一向受支援)。 這項附加功能擴展了 Customer Journey Analytics 的功能，以支援複雜的資料模型，包括 B2B。 此資料用於查詢事件、輪廓或查詢資料中的值或索引鍵。 您最多可以新增三個查詢層級。 例如，您可以上傳將事件資料中的數值 ID 對應至產品名稱的查找資料。 有關範例，請參閱「[B2B 範例](/help/use-cases/b2b/example.md)」。 <br/><br/>**附註**： <ul><li>[衍生欄位](/help/data-views/derived-fields/derived-fields.md)無法做為連線中查閱的相符索引鍵。</li><li>[客戶受管理的金鑰](/help/privacy/cmk.md)和[臨時資料集](#ad-hoc-dataset)不支援大型查詢。</li></ul> | 不適用 | 除 *XDM 個體輪廓*&#x200B;類別外，以具有&#x200B;*記錄*&#x200B;行為的 XDM 類別為基礎的任何內建或自訂的結構描述。 | 不適用 |
+| **[!UICONTROL 輪廓]** | [!UICONTROL 事件]資料中，套用至您帳戶、人員、使用者或客戶的資料。 例如，您可上傳有關客戶的 CRM 資料。 | 不適用 | 以 *XDM 個體輪廓*&#x200B;類別為基礎的任何內建或自訂的結構描述。 | 您可以選擇想要包含的個人 ID / 帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 [!DNL Experience Platform] 中定義的每個資料集，除了摘要資料集以外，皆各自擁有一組已定義的一個或多個個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 例如 Cookie ID、拼接後的 ID、使用者 ID、追蹤程式碼、帳戶 ID 等。<br>![個人 ID ](assets/person-id.png)**請注意**：如果您建立的連線包含具有不同 ID 的資料集，報告會反映出這一點。 若要合併資料集，您需要使用相同的個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}。 |
+| **摘要** | 與個人 ID 無關聯的時間序列資料。 摘要資料代表不同彙總等級的彙總資料，例如行銷活動。 您可以在 Customer Journey Analytics 中使用此資料來支援各種使用案例。 如需詳細資訊，請參閱[摘要資料](/help/data-views/summary-data.md)。 | 自動設定為 Experience Platform 中事件型摘要量度結構描述之預設時間戳記欄位。 僅支援每小時或每日顆粒度。 | 以 *XDM 摘要量度*&#x200B;類別為基礎的任何內建或自訂的結構描述。 | 不適用 |
 
 或者，上面列出的資料集類型可以基於臨時或關聯式結構描述，而非一般 XDM 型結構描述。
 
@@ -649,7 +639,7 @@ ht-degree: 92%
 1. 針對您要編輯的資料集表格中所列的資料集，選取![更多](/help/assets/icons/More.svg)。
 1. 選取「![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯資料集]**」。
 
-1. 在❶ **[!UICONTROL 資料集設定]**&#x200B;中，在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**&#x200B;對話方塊中設定[資料集設定](#dataset-settings)。
+1. 在❶ **[!UICONTROL 資料集設定]**&#x200B;中，在&#x200B;**[!UICONTROL 編輯資料集： _資料集名稱_]**對話方塊中設定[資料集設定](#dataset-settings)。
 
    ![編輯資料集](assets/edit-dataset-b2c.png)
 
@@ -709,7 +699,7 @@ ht-degree: 92%
 
 ### 資料集設定
 
-新增資料集或編輯現有資料集時，您會設定每個資料集的資料集設定。 可用的設定取決於[資料集類型](#dataset-types)，而有部分資料集類型則取決於連線類型 (個人型或 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 帳戶型)。
+新增資料集或編輯現有資料集時，您會設定每個資料集的設定。 可用的設定取決於[資料集類型](#dataset-types)，而有部分資料集類型則取決於連線類型 (個人型或 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 帳戶型)。
 
 所有資料集和資料集類型都有[一般設定和詳細資料](#general-dataset-settings-and-details)，例如是否要匯入新資料以及要求回填。
 
@@ -725,7 +715,7 @@ ht-degree: 92%
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取個人 ID。 這些身分識別由 Experience Platform 的資料集結構描述賦予定義。 如需如何使用身分識別圖做為個人 ID 的相關資訊，請參閱[使用身分識別圖做為個人 ID](#use-identity-map-as-a-person-id)。<p>如果沒有個人 ID 可以選擇，表示結構描述中尚未定義個人 ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。 例如，`abc123` 和 `ABC123` 是兩個不同的值。<p>如果記錄不包含您選取做為事件資料集個人 ID 之身分識別的值，則會略過記錄。 |
+| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取個人 ID。 這些身分識別是在 Experience Platform 的資料集結構描述中定義的。 如需如何使用身分識別圖做為個人 ID 的相關資訊，請參閱[使用身分識別圖做為個人 ID](#use-identity-map-as-a-person-id)。<p>如果沒有個人 ID 可以選擇，表示結構描述中尚未定義個人 ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。 例如，`abc123` 和 `ABC123` 是兩個不同的值。<p>如果記錄不包含您選取做為事件資料集個人 ID 之身分識別的值，則會略過記錄。 |
 | **[!UICONTROL 啟用身分識別拼接]** | 選取以針對此事件資料集[啟用身分識別拼接](/help/stitching/overview.md)。 |
 | **[!UICONTROL 時間戳記]** | 此設定會自動設定為 Experience Platform 中事件型結構描述之預設時間戳記欄位。 |
 | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。 資料來源的類型包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
@@ -746,7 +736,7 @@ ht-degree: 92%
 | **[!UICONTROL 帳戶 ID]** | 從 Experience Platform 資料集結構描述中已定義之可用身分識別當中，選取一個帳戶 ID (帳戶的唯一識別碼)。 當您未將全域帳戶做為容器新增至連線時適用。 |
 | **[!UICONTROL 機會 ID]** | 從 Experience Platform 的資料集結構描述中已定義的可用身分識別當中，選取機會 ID (機會的唯一識別碼)。 |
 | **[!UICONTROL 購買群組 ID]** | 從 Experience Platform 資料集結構描述中已定義的可用身分識別當中，選取一個購買群組 ID (購買群組的唯一識別碼)。 |
-| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取個人 ID。 這些身分識別由 Experience Platform 的資料集結構描述賦予定義。 如需如何使用身分識別圖做為個人 ID 的相關資訊，請參閱[使用身分識別圖做為個人 ID](#id-map)。<p>如果沒有個人 ID 可以選擇，表示結構描述中尚未定義一或多個個人 ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。 例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
+| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取個人 ID。 這些身分識別是在 Experience Platform 的資料集結構描述中定義的。 如需如何使用身分識別圖做為個人 ID 的相關資訊，請參閱[使用身分識別圖做為個人 ID](#id-map)。<p>如果沒有個人 ID 可以選擇，表示結構描述中尚未定義一或多個個人 ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。 例如，`abc123` 和 `ABC123` 是兩個不同的值。 |
 | **[!UICONTROL 時間戳記]** | 此設定會自動設定為 Experience Platform 中事件型結構描述之預設時間戳記欄位。 |
 | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。 資料來源的類型包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
 | **[!UICONTROL 資料來源說明]** | 當您選取「其他」做為資料來源類型時，對該資料來源的說明。 |
@@ -763,7 +753,7 @@ ht-degree: 92%
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取個人 ID。 這些身分識別由 Experience Platform 的資料集結構描述賦予定義。 如需如何使用身分識別圖做為個人 ID 的相關資訊，請參閱[使用身分識別圖做為個人 ID](#id-map)。<p>如果沒有個人 ID 可以選擇，即為結構描述中尚未定義個人 ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。 例如，`abc123` 和 `ABC123` 是兩個不同的值。 <p>如果記錄不包含您選取做為輪廓資料集個人 ID 之身分識別的值，則會略過記錄。 |
+| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取個人 ID。 這些身分識別是在 Experience Platform 的資料集結構描述中定義的。 如需如何使用身分識別圖做為個人 ID 的相關資訊，請參閱[使用身分識別圖做為個人 ID](#id-map)。<p>如果沒有個人 ID 可以選擇，即為結構描述中尚未定義個人 ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。 例如，`abc123` 和 `ABC123` 是兩個不同的值。 <p>如果記錄不包含您選取做為輪廓資料集個人 ID 之身分識別的值，則會略過記錄。 |
 | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。 資料來源的類型包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
 | **[!UICONTROL 資料來源說明]** | 當您選取「其他」做為資料來源類型時，對該資料來源的說明。 |
 
@@ -771,11 +761,11 @@ ht-degree: 92%
 
 ![輪廓資料集設定 B2B](assets/profile-dataset-settings-b2b.png)
 
-對於帳戶型連線中的輪廓資料集，您可以指定：
+對於帳戶型連線中的輪廓資料集，您需指定：
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取個人 ID。 這些身分識別由 Experience Platform 的資料集結構描述賦予定義。 如需如何使用身分識別圖做為個人 ID 的相關資訊，請參閱[使用身分識別圖做為個人 ID](#id-map)。<p>如果沒有個人 ID 可以選擇，即為結構描述中尚未定義個人 ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。 例如，`abc123` 和 `ABC123` 是兩個不同的值。 <p>如果記錄不包含您選取做為輪廓資料集個人 ID 之身分識別的值，則會略過記錄。 |
+| **[!UICONTROL 個人 ID]** | 從可用身分識別的下拉式選單中選取個人 ID。 這些身分識別是在 Experience Platform 的資料集結構描述中定義的。 如需如何使用身分識別圖做為個人 ID 的相關資訊，請參閱[使用身分識別圖做為個人 ID](#id-map)。<p>如果沒有個人 ID 可以選擇，即為結構描述中尚未定義個人 ID。 有關詳細資訊，請參閱[在 UI 中定義身分識別欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity)。 <p>所選個人 ID 的值會區分大小寫。 例如，`abc123` 和 `ABC123` 是兩個不同的值。 <p>如果記錄不包含您選取做為輪廓資料集個人 ID 之身分識別的值，則會略過記錄。 |
 | **[!UICONTROL 全域帳戶欄位]** | 從可用身分識別的下拉式選單中，選取全域帳戶欄位，以支援資料集的帳戶型報告。 在您將全域帳戶做為容器新增至連線後適用。 |
 | **[!UICONTROL 帳戶欄位]** | 從可用身分識別的下拉式選單中，選取帳戶欄位，以支援資料集的帳戶型報告。 當您未將全域帳戶做為容器新增至連線時適用。 |
 | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。 資料來源的類型包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
@@ -789,15 +779,15 @@ ht-degree: 92%
 
 ![個人型查詢事件資料集設定](assets/lookup-dataset-settings-b2c.png)
 
-對於個人型連線中的查詢資料集，您可以指定：
+對於人員型連線中的查詢資料集，您指定：
 
 | 設定 | 說明 |
 |---|---|
 | **[!UICONTROL 索引鍵]** | 用於查詢資料集的索引鍵。 <p>如果記錄不包含您為查詢資料集選取之索引鍵的值，則會略過該記錄。 |
-| **[!UICONTROL 比對索引鍵]** | 要加入其中一個事件資料集的比對索引鍵。 若此清單空白，您可能尚未新增或設定事件資料集。 |
+| **[!UICONTROL 比對索引鍵]** | 用於與其中一個事件資料集連接的比對索引鍵。 若此清單空白，您可能尚未新增或設定事件資料集。 |
 | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。 資料來源的類型包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
 | **[!UICONTROL 資料來源說明]** | 當您選取「其他」做為資料來源類型時，對該資料來源的說明。 |
-| **[!UICONTROL 轉換資料集]** | 對於特定的 B2B 查詢資料集，您可以對適當的 B2B 人員型報告情境啟用資料集轉換。 如需詳細資訊，請參閱[轉換資料集以進行 B2B 查詢](transform-datasets-b2b-lookups.md)。 |
+| **[!UICONTROL 轉換資料集]** | 對於特定的 B2B 查詢資料集，您可以啟用資料集轉換，以支援適當的 B2B 人員型報告情境。 如需詳細資訊，請參閱[轉換資料集以進行 B2B 查詢](transform-datasets-b2b-lookups.md)。 |
 
 
 
@@ -813,7 +803,7 @@ ht-degree: 92%
 |---|---|
 | **[!UICONTROL 索引鍵]** | 用於查詢資料集的索引鍵。 <p>如果記錄不包含您為查詢資料集選取之索引鍵的值，則會略過該記錄。 |
 | **[!UICONTROL 比對索引鍵類型]** | 選取如何連接資料集：根據&#x200B;**[!UICONTROL 依欄位比對]**&#x200B;或&#x200B;**[!UICONTROL 依容器比對]**。 如需詳細資訊，請參閱[依欄位容器比對](/help/getting-started/cja-b2b-concepts-features.md#match-by-container-or-field)。 |
-| **[!UICONTROL 比對索引鍵]** | 要加入其中一個事件資料集的比對索引鍵。 若此清單空白，您可能尚未新增或設定事件資料集。 <br/><br/>根據您選取的&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;類型，選取適當的值：<ul><li>**[!UICONTROL 依欄位比對]**：![依欄位比對](assets/match-by-field.png)<br/>從「**[!UICONTROL 比對索引鍵]**」下拉式功能表中選取欄位，以連結其中一個事件資料集。 若此清單空白，您可能尚未新增或設定事件資料集。</li><li>**[!UICONTROL 依容器比對]**：![依容器比對](assets/match-by-container.png)<br/>從「**[!UICONTROL 比對索引鍵]**」下拉式選單中選取容器，以連結其中一個事件資料集。 可供選取的容器取決於您在設定連線時所包含的容器選項。</li></ul> |
+| **[!UICONTROL 比對索引鍵]** | 用於與其中一個事件資料集連接的比對索引鍵。 若此清單空白，您可能尚未新增或設定事件資料集。 <br/><br/>根據您選取的&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;類型，選取適當的值：<ul><li>**[!UICONTROL 依欄位比對]**：![依欄位比對](assets/match-by-field.png)<br/>從「**[!UICONTROL 比對索引鍵]**」下拉式功能表中選取欄位，以連結其中一個事件資料集。 若此清單空白，您可能尚未新增或設定事件資料集。</li><li>**[!UICONTROL 依容器比對]**：![依容器比對](assets/match-by-container.png)<br/>從「**[!UICONTROL 比對索引鍵]**」下拉式選單中選取容器，以連結其中一個事件資料集。 可供選取的容器取決於您在設定連線時所包含的容器選項。</li></ul> |
 | **[!UICONTROL 全域帳戶欄位]** | 用於帳戶型報告的全域帳戶 ID。 |
 
 
@@ -844,7 +834,7 @@ ht-degree: 92%
 | **[!UICONTROL 身分識別命名空間]** | 事件 | 選取身分識別命名空間，若您已從&#x200B;**[!UICONTROL 非身分識別]**&#x200B;欄位中選取個人 ID。 |
 | **[!UICONTROL 時間戳記]** | 事件、摘要 | 從臨時結構描述中選取代表時間戳記欄位的欄位。 此欄位可以是類型 `DateTime` 的任何可用欄位。 |
 | **[!UICONTROL 索引鍵]** | 查詢 | 用於查詢資料集的索引鍵。<br/>如果記錄不包含您為查詢資料集選取之索引鍵的值，則會略過該記錄。 |
-| **[!UICONTROL 比對索引鍵]** | 查詢 | 要加入其中一個事件或查詢資料集的比對索引鍵。 若此清單空白，您可能尚未新增或設定事件或查詢資料集。 |
+| **[!UICONTROL 比對索引鍵]** | 查詢 | 其中一個事件或查詢資料集中用於連接的比對索引鍵。 若此清單空白，您可能尚未新增或設定事件或查詢資料集。 |
 
 
 #### 關聯式資料集
@@ -862,7 +852,7 @@ ht-degree: 92%
 | **[!UICONTROL 個人 ID]** | 事件、輪廓 | 從關聯式結構描述中選取代表個人 ID 的欄位。 選取範圍僅限於關聯式結構描述中標示為「身分識別」且確實具有身分識別命名空間的欄位清單。 |
 | **[!UICONTROL 時間戳記]** | 事件、摘要 | 在結構描述中定義為時間戳記描述項的欄位。 此欄位會自動填入。 |
 | **[!UICONTROL 索引鍵]** | 查詢 | 用於查詢資料集的索引鍵。<br/>如果記錄不包含您為查詢資料集選取之索引鍵的值，則會略過該記錄。 |
-| **[!UICONTROL 比對索引鍵]** | 查詢 | 要加入其中一個事件資料集的比對索引鍵。 若此清單空白，您可能尚未新增或設定事件或查詢資料集。 |
+| **[!UICONTROL 比對索引鍵]** | 查詢 | 用於與其中一個事件資料集連接的比對索引鍵。 若此清單空白，您可能尚未新增或設定事件或查詢資料集。 |
 
 
 #### 一般資料集設定和詳細資訊
@@ -881,7 +871,7 @@ ht-degree: 92%
    1. 變更以下任一項目：
 
       * 已攝取的事件資料集的識別碼 (個人 ID、帳戶 ID 或其他 ID)。
-      * 已攝取的輪廓或查詢資料集的索引鍵、比對索引鍵或比對索引鍵類型 (欄位或容器)。
+      * 已攝取的輪廓或查閱資料集的索引鍵、比對索引鍵或比對索引鍵類型 (欄位或容器)。
 
       或者，您可以在資料集上切換「**[!UICONTROL 回填所有現有資料回填]**」。
 
@@ -932,20 +922,20 @@ ht-degree: 92%
 
 當您根據此連線設定資料檢視時，您會將數值作為元件新增到資料檢視中。 然後，任何根據此資料檢視的項目都可以報告這些數值。
 
-## 以「身分識別對應」作為個人 ID {#id-map}
+## 以「身分識別圖」作為個人 ID {#id-map}
 
-Customer Journey Analytics 支援以「身分識別對應」作為個人 ID。 「身分識別圖」是一個允許使用者上傳索引鍵值組的對應資料結構。 索引鍵是身分識別命名空間，值是保存身分識別值的結構。 「身分識別對應」存在於每個上傳的列/事件，並會相應填入每一列。
+Customer Journey Analytics 支援以「身分識別圖」作為個人 ID。 「身分識別圖」是一個允許使用者上傳索引鍵值組的對應資料結構。 索引鍵是身分識別命名空間，值是保存身分識別值的結構。 「身分識別圖」存在於每個上傳的列/事件，並會相應填入每一列。
 
-只要資料集所使用的結構屬於 [ExperienceEvent XDM](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home) 類別，一律適用「身分識別對應」。 當您選擇要在 Customer Journey Analytics 連線中包含這類資料集，您就可以選擇使用一個欄位作為主要 ID，也可以使用「身分識別對應」：
+只要資料集所使用的結構屬於 [ExperienceEvent XDM](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home) 類別，一律適用「身分識別對應」。 當您選擇要在 Customer Journey Analytics 連線中包含這類資料集，您就可以選擇使用一個欄位作為主要 ID，也可以使用「身分識別圖」：
 
 ![](assets/idmap1.png)
 
-如果您選取「身分識別對應」，系統會提供另外兩個設定選項：
+如果您選取「身分識別圖」，系統會提供另外兩個設定選項：
 
 | 選項 | 說明 |
 |---|---|
 | **[!UICONTROL 使用主要身分名稱空間]** | 這選項會指示 Customer Journey Analytics 在標示 `primary=true` 屬性的「身分識別圖」中尋找身分識別，並且使用該身分識別作為該列的個人 ID。 此身分識別在 Experience Platform 中是用於資料分割的主索引鍵。 此身分識別也是做為 Customer Journey Analytics 個人 ID 的首選 (取決於資料集在 Customer Journey Analytics 連線中的設定方式)。 |
-| **[!UICONTROL 命名空間]** | （未使用「主要ID名稱空間」時，才能使用此選項）。 身分識別命名空間是 [Experience Platform 身分識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)的元件。 命名空間是作為身分識別相關內容的指標。 如果您指定命名空間，Customer Journey Analytics 會針對此命名空間索引鍵搜尋每一列的身分識別圖，並使用該命名空間底下的身分識別作為該列的個人 ID。 由於 Customer Journey Analytics 無法對所有列執行完整的資料集掃描，以判斷哪些命名空間實際存在，因此下拉式選單會列出所有可能的命名空間。 了解資料中指定了哪些命名空間；系統不會自動偵測這些命名空間。 |
+| **[!UICONTROL 命名空間]** | （未使用「主要ID名稱空間」時，才能使用此選項）。 身分識別命名空間是 [Experience Platform 身分識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)的元件。 命名空間可作為身分識別所屬內容的指標。 如果您指定命名空間，Customer Journey Analytics 會針對此命名空間索引鍵搜尋每一列的身分識別圖，並使用該命名空間底下的身分識別作為該列的個人 ID。 由於 Customer Journey Analytics 無法對所有列執行完整的資料集掃描，以判斷哪些命名空間實際存在，因此下拉式選單會列出所有可能的命名空間。 了解資料中指定了哪些命名空間；系統不會自動偵測這些命名空間。 |
 
 {style="table-layout:auto"}
 
@@ -955,14 +945,14 @@ Customer Journey Analytics 支援以「身分識別對應」作為個人 ID。 �
 
 | 選項 | 「身分識別對應」中沒有 ID | 多個 ID，沒有一個標示為主要 | 多個 ID 標示為主要 | 單一 ID，不一定標示為主要 | ID 標示為主要的無效命名空間 |
 |---|---|---|---|---|---|
-| **[!UICONTROL 使用主要身分名稱空間]已核取**<br/>![&#x200B;使用主要身分名稱空間](assets/use-primary-identity-namespace.png) | Customer Journey Analytics 會刪除該列。 | Customer Journey Analytics 會刪除該列，因為未指定主要 ID。 | 系統會擷取所有命名空間下標示為主要的 ID，彙整成清單， 並依字母排序；重新排序後，系統會將第一個命名空間的第一個 ID 視為個人 ID。 | 做為個人 ID 的單一 ID。 | 即使命名空間可能無效 (不存在於 Adobe Experience Platform 中)，Customer Journey Analytics 也會使用該命名空間下的主要 ID 做為個人 ID。 |
-| **[!UICONTROL 已選取特定身分對應名稱空間]**<br/>![&#x200B;未使用主要身分名稱空間](assets/not-use-primary-identity-namespace.png) | Customer Journey Analytics 會刪除該列。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為個人 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為個人 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為個人 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為個人 ID。 (建立連線時只能選取有效的命名空間，因此不可能使用無效的命名空間/ID 作為個人 ID)。 |
+| **[!UICONTROL 使用主要身分名稱空間]已核取**<br/>![&#x200B;使用主要身分名稱空間](assets/use-primary-identity-namespace.png) | Customer Journey Analytics 會刪除該列。 | Customer Journey Analytics 會刪除該列，因為未指定主要 ID。 | 系統會擷取所有命名空間下標示為主要的 ID，彙整成清單。 並依字母排序；重新排序後，系統會將第一個命名空間的第一個 ID 視為個人 ID。 | 該單一 ID 會做為個人ID 使用。 | 即使命名空間可能無效 (不存在於 Adobe Experience Platform 中)，Customer Journey Analytics 也會使用該命名空間下的主要 ID 做為個人 ID。 |
+| **[!UICONTROL 已選取特定身分對應名稱空間]**<br/>![&#x200B;未使用主要身分名稱空間](assets/not-use-primary-identity-namespace.png) | Customer Journey Analytics 會刪除該列。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為個人 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為個人 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為個人 ID。 | 系統會擷取您所選命名空間下的所有 ID，彙整成清單，並將第一個 ID 視為個人 ID。 (建立連線時只能選取有效的命名空間，因此不可能使用無效的命名空間/ID 作為個人ID)。 |
 
 {style="table-layout:auto"}
 
 ## 計算每日事件平均數量 {#average-number}
 
-連線中的每個資料集都要完成這項計算。
+系統會對連線中的每個資料集執行這項計算。
 
 1. 前往 [Adobe Experience Platform Query Services](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home)，並建立查詢。
 
@@ -980,5 +970,5 @@ Customer Journey Analytics 支援以「身分識別對應」作為個人 ID。 �
 >[!MORELIKETHIS]
 >
 >* [資料攝取概觀](/help/data-ingestion/data-ingestion.md)
->* 部落格：[如何在 Adobe Customer Journey Analytics 中善用事件、查詢和輪廓資料集](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/how-to-leverage-event-lookup-and-profile-datasets-in-adobe-customer-journey-analytics-12699?profile.language=zh-Hant)
+>* 部落格：[如何在 Adobe Customer Journey Analytics 中善用事件、查詢和輪廓資料集](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/how-to-leverage-event-lookup-and-profile-datasets-in-adobe-customer-journey-analytics-12699)
 
