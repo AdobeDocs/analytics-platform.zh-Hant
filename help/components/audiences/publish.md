@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 87de19a64e49f83c99df7980828b97a1da2c2d16
 workflow-type: tm+mt
 source-wordcount: 2520
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="components_audiences_refreshfrequency"
 >title="重新整理頻率"
->abstract="重新評估對象成員資格的頻率。<br/>一次性請求只會評估一次，不會計入重新整理限制中。"
+>abstract="重新評估客群成員資格的頻率。<br/>一次性請求只會評估一次，且不會計入重新整理限制。"
 
 <!-- markdownlint-enable MD034 -->
 

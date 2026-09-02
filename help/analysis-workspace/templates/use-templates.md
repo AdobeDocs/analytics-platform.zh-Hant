@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e8f86da8d18cfa6a30e4a8330ae5492e9d0aa2f0
+source-git-commit: bac086b2636f835a5dc494b9cd05eb7b560f0bed
 workflow-type: tm+mt
-source-wordcount: 21213
-ht-degree: 98%
+source-wordcount: 21458
+ht-degree: 97%
 
 ---
 
@@ -153,17 +153,17 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
    * **[[!UICONTROL 最熱門]](#most-popular)**
 
-   * 「**[[!UICONTROL 網頁]」** > **「[!UICONTROL 參與度]](#engagement)**」
+   * **[!UICONTROL 網頁]** > **[[!UICONTROL 參與]](#web-engagement)**
 
-   * 「**[[!UICONTROL 網頁]」** > **「[!UICONTROL 轉換]](#web-conversion)**」
+   * **[!UICONTROL 網頁]** > **[[!UICONTROL 轉換]](#web-conversion)**
 
-   * 「**[[!UICONTROL 網頁]」** > **「[!UICONTROL 客群]](#web-audience)**」
+   * **[!UICONTROL 網頁]** > **[[!UICONTROL 對象]](#web-audience)**
 
-   * 「**[[!UICONTROL 網頁]」** > **「[!UICONTROL 贏取]](#web-acquisition)**」
+   * **[!UICONTROL 網頁]** > **[[!UICONTROL 贏取]](#web-acquisition)**
 
-   * 「**[[!UICONTROL 行動]」** > **「[!UICONTROL 行動應用程式]](#mobile-mobile-app)**」
+   * **[!UICONTROL 行動裝置]** > **[[!UICONTROL 行動應用程式]](#mobile-mobile-app)**
 
-   * 「**[[!UICONTROL 行動]」** > **備[!UICONTROL 行動裝置資訊]](#mobile-mobile-device-information)**」
+   * **[!UICONTROL 行動裝置]** > **[[!UICONTROL 行動裝置資訊]](#mobile-mobile-device-information)**
 
    * **[[!UICONTROL 時間分割]](#time-parting)**
 
@@ -171,7 +171,13 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
    * **[[!UICONTROL 其他管道]](#other-channels)**
 
-   * **[[!UICONTROL AJO]](#ajo)**
+   * **[[!UICONTROL Journey Optimizer]](#ajo-templates)**
+
+   * **[[!UICONTROL Brand Concierge]](#brand-concierge)**
+
+   * **[[!UICONTROL Mix Modeler]](#mix-modeler)**
+
+
 
 ### 最受歡迎 {#most-popular}
 
@@ -409,6 +415,12 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 >abstract="**這可以協助您**&#x200B;了解如何於細微層級上執行您的內容。 您可以查看個別資產或特定屬性的效能。 Content Analytics 會使用 AI 來自動產生屬性，並用它們標記您的內容 [更多資訊](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics)。<br/>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如在首頁推廣高績效資產、針對特定細分群體個人化內容以包含高績效屬性，或者輪換已開始過時的內容。"
 
 
+
+>[!CONTEXTUALHELP]
+>id="template--content-analytics-paid-media"
+>title="瞭解哪些付費媒體內容和內容屬性的成效最佳。"
+>abstract="**這可協助您**&#x200B;瞭解您的付費媒體內容在精細層次的執行狀況。 您可以檢閱網路、帳戶、行銷活動、體驗和資產中的付費媒體觸及率、參與度、支出和效率。 此面板中的量度和維度會刻意維持在付費媒體資產摘要粒度。 請勿將摘要資料集與事件資料結合。  [更多資訊](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics)。<br/>**根據您瞭解的情況，您可能**&#x200B;會做許多事情，例如重新關注您如何在付費媒體頻道上花費金錢、在表現不佳的行銷活動上花費更多金錢，或在表現較佳資產的行銷活動上花費更多金錢。"
+
 以下範本適用：
 
 &#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
@@ -427,7 +439,8 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 | **登入頁面** | 檢視人們首次造訪您網站時最常存取的頁面。 <p>**這可以幫助您**&#x200B;更加了解哪些頁面為您的網站帶來最多流量，或進一步了解訪客對於網站的第一印象。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如將人們登入網站的初始體驗最佳化，或確保人們登入您的網站時最先看到的頁面呈現良好的互動氛圍，並且提供前往網站其他區域的必要連結。</p><p>此範本使用工作階段量度。 此範本亦使用條狀圖視覺化圖像和自由格式表格視覺化圖像。</p> |
 | **退出頁面** | 檢視人們在離開您的網站前最常存取的頁面。<p>**這可以幫助您**&#x200B;更加了解哪些頁面會導致人們離開網站。 </p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如更新常見的退出頁面，讓人們離開網站之前享有最佳化的體驗，或加入內容或連結來鼓勵人們停留在您的網站上。</p><p>此範本使用工作階段量度。 此範本亦使用條狀圖視覺化圖像和自由格式表格視覺化圖像。</p> |
 | **產品使用情況概觀** | 檢視 Customer Journey Analytics 產品在您組織內的使用方式。 <p>**這可以協助您**&#x200B;更了解有多少人使用 Customer Journey Analytics、其使用頻率以及一段時間內的使用趨勢。 您也可以查看正在建立的專案數量和有關這些專案的詳細資訊 (例如最常使用哪些元件、視覺效果和面板)，以及許多其他使用情況統計資料。</p><p>**根據所了解的內容，您可以**&#x200B;採取各種行動，例如刪除未使用的專案或元件，或為使用者提供熱門功能的培訓。</p> |
-| **Content Analytics** | 了解哪些內容和內容屬性效能最佳。<p>**這可以協助您**&#x200B;了解如何於細微層級上執行您的內容。 您可以查看個別資產或特定屬性的效能。 Content Analytics 會使用 AI 來自動產生屬性，並用它們標記您的內容 如需詳細資訊，請參閱 [Content Analytics](/help/content-analytics/content-analytics.md){target="_blank"}。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如在首頁推廣高績效資產、針對特定細分群體個人化內容以包含高績效屬性，或者輪換已開始過時的內容。</p> |
+| **Content Analytics** | 了解哪些內容和內容屬性效能最佳。<p>**這可以協助您**&#x200B;了解如何於細微層級上執行您的內容。 您可以查看個別資產或特定屬性的效能。 Content Analytics 會使用 AI 來自動產生屬性，並用它們標記您的內容 如需詳細資訊，請參閱 [Content Analytics](/help/content-analytics/content-analytics.md)。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如在首頁推廣高績效資產、針對特定細分群體個人化內容以包含高績效屬性，或者輪換已開始過時的內容。</p> |
+| **付費媒體Content Analytics** | 瞭解哪些付費媒體內容和內容屬性的成效最佳。<p>**這可協助您**&#x200B;瞭解您的付費媒體內容在精細層次的執行狀況。 您可以檢閱網路、帳戶、行銷活動、體驗和資產中的付費媒體觸及率、參與度、支出和效率。 此面板中的量度和維度會刻意維持在付費媒體資產摘要粒度。 請勿將摘要資料集與事件資料結合。 如需詳細資訊，請參閱 [Content Analytics](/help/content-analytics/content-analytics.md)。<p/><p>**根據您瞭解的情況，您可能**&#x200B;會做許多事情，例如重新關注您如何在付費媒體頻道上花費金錢、在表現不佳的行銷活動上花費更多金錢，或在表現較佳資產的行銷活動上花費更多金錢。</p> |
 
 ### 網頁：轉換 {#web-conversion}
 
@@ -1051,7 +1064,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 | **調查** | 檢視問卷調查的使用者參與度。 檢視開始和完成問卷的數量、熱門問題和答案，以及首次填寫和重複填寫的參與者數量。<p>**這些資訊可以協助您**&#x200B;更了解問卷調查的參與程度和成功率。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如調整未來的問卷調查以提高參與度。</p><p>此範本使用「使用者」、「事件」、「調查開始」、「調查完成」和「調查完成率」量度。</p> |
 | **產品使用情況概觀** | 檢視您的組織如何使用 Customer Journey Analytics。<p>**這可以幫助您**&#x200B;更加了解組織內有多少人使用 Customer Journey Analytics、其使用頻率以及一段時間內的資料趨勢。 您也可以查看已建立的專案數量以及這些專案的詳細資料。 查看最常用的元件、視覺化和面板，以及其他使用情況統計資料。 [了解更多](/help/tools/product-usage/usage-overview.md)</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如刪除未使用的專案或元件，或為熱門功能提供使用者培訓。</p> |
 
-### Journey Optimizer {#AJO-templates}
+### Journey Optimizer {#ajo-templates}
 
 <!--CJA only-->
 
@@ -1139,13 +1152,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 | [!UICONTROL **B2B 購買群組活動**] | 用視覺化方式呈現每個客戶公司內部的購買群組活動，以便制定對客戶公司和購買群組的行銷策略。<p>**這可以幫助您**&#x200B;以視覺化方式呈現哪些購買群組以及這些購買群組中的哪些人員參與度最高，以便突顯群組參與度的差距。</p><p>**根據所了解的內容，您可能會**&#x200B;採取各種不同的行動，例如加強吸引購買群組中似乎沒有參與其中的人員。</p> |
 
 
-### Mix Modeler 範本 {#mix-modeler-templates}
-
-以下範本適用：
-
-&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
-| --- | --- |
-| [!UICONTROL **Mix Modeler增量模型深入分析**] | 檢視 Mix Modeler 產生之特定模型的洞察。<p>**這有助於您**&#x200B;更加了解在 Mix Modeler 中產生之模型所產生的增量洞察。 <p>**根據這些洞察**，您可以：<ul><li>將組織行銷活動的影響視覺化及量化。</li><li>識別哪些管道績效良好。</li><li>識別可能需要最佳化的管道。</li></ul></p> |
+### Mix Modeler {#mix-modeler-templates}
 
 <!-- CJA only -->
 
@@ -1153,3 +1160,13 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 >id="template--mixmodeler-incremental-models-insights"
 >title="檢視 Mix Modeler 產生之特定模型的洞察。"
 >abstract="**這有助於您**&#x200B;更加了解在 Mix Modeler 中產生之模型所產生的增量洞察。 <br/>**根據這些洞察**，您可以：<ul><li>將組織行銷活動的影響視覺化及量化。</li><li>識別哪些管道績效良好。</li><li>識別可能需要最佳化的管道。</li></ul>"
+
+以下範本適用：
+
+&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| --- | --- |
+| [!UICONTROL **Mix Modeler增量模型深入分析**] | 檢視 Mix Modeler 產生之特定模型的洞察。<p>**這有助於您**&#x200B;更加了解在 Mix Modeler 中產生之模型所產生的增量洞察。 <p>**根據這些洞察**，您可以：<ul><li>將組織行銷活動的影響視覺化及量化。</li><li>識別哪些管道績效良好。</li><li>識別可能需要最佳化的管道。</li></ul></p> |
+
+
+
+

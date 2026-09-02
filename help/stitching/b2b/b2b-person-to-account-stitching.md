@@ -1,9 +1,8 @@
 ---
-title: B2B帳戶拼接
-description: 瞭解Customer Journey Analytics中的B2B帳戶拼接如何運用帳戶資訊豐富事件資料集，並啟用您B2B資料的完整歷程分析。
+title: B2B個人對帳戶彙整
+description: 瞭解B2B人員如何在Customer Journey Analytics中計算拼接，以帳戶資訊豐富事件資料集，並啟用您B2B資料的完整歷程分析。
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
-hide: true
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
@@ -20,29 +19,29 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0552cfeb3d7ee834ba7928a40dc151b782dc9330
+source-git-commit: a971b268208ec49b5ccd84b11543263ff3a1abea
 workflow-type: tm+mt
-source-wordcount: 1926
-ht-degree: 23%
+source-wordcount: 2100
+ht-degree: 21%
 
 ---
 
-# B2B帳戶拼接
+# B2B個人與帳戶拼接
 
-B2B帳戶拼接讓您的事件資料集與帳戶身分更加豐富，並且可以在Customer Journey Analytics的完整客戶歷程中進行完整分析。 當事件缺少帳戶ID （Customer Journey Analytics B2B edition需要帳戶識別碼才能進行內嵌）時，帳戶拼接會使用您提供的[人員對帳戶對應資料集](#prerequisites)自動衍生並新增該資訊。
+B2B個人帳戶拼接讓您的事件資料集和帳戶身分更加豐富，並且可以在Customer Journey Analytics的完整客戶歷程中進行完整分析。 當事件缺少帳戶ID （Customer Journey Analytics B2B edition擷取時需要帳戶ID）時，人員對帳戶拚接會衍生並使用您提供的[人員對帳戶對應資料集](#prerequisites)自動新增該資訊。
 
-若沒有帳戶拼接，擷取期間會捨棄任何不含帳戶ID的事件。 帳戶拼接可透過查詢與每個事件中的個人相關聯的帳戶來解決此限制，在事件被擷取及回溯時新增帳戶ID。
+沒有人員可進行帳戶拼接，系統會在擷取期間捨棄任何不含帳戶ID的事件。 個人對帳戶拼接透過查詢與每個事件中的個人關聯的帳戶來解決此限制，在事件被攝取及追溯時新增帳戶ID。
 
 >[!NOTE]
 >
->B2B帳戶拼接需要您有權在您的環境中使用[Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md)，然後才能設定功能。
+>若要使用B2B個人帳戶拼接功能，您必須有權使用您環境中的[Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md)，才能設定功能。
 
-帳戶拼接會對資料集執行以下操作：
+帳戶拼接人員會對資料集執行以下操作：
 
-* **提升人員身分**：每個事件上的人員ID都會使用身分圖表提升至已設定的身分名稱空間。
-* **新增遺失的帳戶身分識別**：對於包含人員ID的事件，[人員對帳戶對應](#prerequisites)是用來衍生及新增帳戶身分識別。 事件本身的任何帳戶身分都會當作遞補方法使用。
+* **提升人員身分**：類似於[B2C拼接方法](/help/stitching/overview.md)，您將設定儲存永久性人員ID的欄位。 使用身分圖表，每個事件上的永續性人員ID會從設定的人員ID名稱空間提升為人員ID。
+* **新增遺失的帳戶身分識別**：取得事件的人員ID資訊後，[人員對帳戶對應](#prerequisites)會用於衍生及新增帳戶身分識別資訊。 事件本身可用的任何帳戶身分都會當作遞補方法使用。」
 
-## B2B帳戶銜接的運作方式
+## B2B人與帳戶的彙整運作方式
 
 為了說明B2B帳戶拚接的運作方式，下方顯示的資料集會作為起點。
 
@@ -60,7 +59,7 @@ B2B帳戶拼接讓您的事件資料集與帳戶身分更加豐富，並且可�
 | ![資料新增](/help/assets/icons/DataAdd.svg) | 6/1/25 | 8989 | 普遍性 | cassidy@ubiquity.com | |
 | ![篩選刪除](/help/assets/icons/DeleteOutline.svg) | 6/2/25 | 1111 |  | | |
 
-B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
+B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作業內嵌：
 
 * [提升人員身分](#elevate-person-identities)。
 * [新增遺失的帳戶身分](#add-missing-account-identitiers)。
@@ -70,7 +69,7 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
 
 +++ 詳細資料
 
-為了支援B2B帳戶拼接，您提供個人對帳戶對應資料集。 例如：
+為了支援B2B個人帳戶拼接，您提供個人對帳戶對應資料集。 例如：
 
 | CRM ID | 帳戶 ID |
 |---|---|
@@ -91,6 +90,8 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
 | fs453ghi | carmen@adobe.com | Adobe |
 
 圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，檢視&#x200B;**emily@adobe.com**&#x200B;的更新值。
+
+圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，您設定永久識別碼(ECID)欄位，以便在您[在資料集](#enable-b2b-stitching-on-event-datasets)上啟用拼接功能時，做為永久人員ID。 根據`5678`為ECID值，`emily@adobe.com`為電子郵件值，在相關事件上將`emily@adobe.com`設定為提升許可權的人員ID。
 
 | 時間戳記 | 永久 ID | 原始帳戶ID | 原始人員ID | 提升的人員ID |
 |--|--|---|---|---|
@@ -125,7 +126,7 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
 
 ### 結果
 
-此範例顯示B2B帳戶拼接如何根據您提供作為輸入的人員 — 帳戶對應資料集，使用缺少的人員識別碼以及缺少和不正確的帳戶識別碼來更新體驗事件資料。
+此範例顯示B2B帳戶拼接如何根據您提供作為輸入的人員 — 帳戶對應資料集，使用缺少人員識別碼或缺少帳戶識別碼和不正確的帳戶識別碼來更新體驗事件資料。
 
 
 ## 先決條件
@@ -140,11 +141,11 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
 >
 >**[!UICONTROL 個人對帳戶]**&#x200B;資料集中的人員ID欄位必須在結構描述中標示為身分。
 
-## 啟用帳戶拼接 {#enable-account-stitching}
+## 啟用人員至帳戶拼接 {#enable-account-stitching}
 
-您首先需要在連線層級啟用和設定B2B帳戶拼接。 當連線設定B2B帳戶拼接時，您可以接著對該連線中的個別事件資料集啟用帳戶拼接。
+您首先需要在連線層級啟用和設定B2B拼接。 當連線設定B2B拼接時，您可以接著啟用「人員」以針對該連線中的個別事件資料集計算拼接。
 
-### 設定 B2B 拼接設定 {#configure-b2b-stitching-settings}
+### 將B2B人員設定為帳戶拼接設定 {#configure-b2b-stitching-settings}
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_open_configuration"
@@ -183,27 +184,27 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
 >abstract="選取代表人員與帳戶對應建立日期與時間的欄位 (可選)。 適用於人員隨時間切換多個帳戶的情況。"
 
 
-1. 在Customer Journey Analytics中，導覽至&#x200B;**[!UICONTROL 連線]**&#x200B;並[建立新連線](/help/connections/create-connection.md#create-a-connection)或[編輯現有連線](/help/connections/create-connection.md#edit-a-connection)。
+1. 在Customer Journey Analytics中，導覽至&#x200B;**[!UICONTROL 連線]**&#x200B;和[建立新連線](/help/connections/create-connection.md#create-a-connection)。
 
 1. 在&#x200B;**[!UICONTROL 連線設定]**&#x200B;中，將&#x200B;**[!UICONTROL 主要識別碼]**&#x200B;設定為![正在建置](/help/assets/icons/Building.svg) **[!UICONTROL 帳戶]**。
 
-1. 請確定您選取要在B2B連線中使用的&#x200B;**[!UICONTROL 選用容器]**。 儲存B2B拼接設定後，您就無法修改這些容器的選取範圍。
+1. 請確定您選取要在B2B連線中使用的&#x200B;**[!UICONTROL 選用容器]**。 將B2B人員儲存至帳戶拼接設定後，您就無法修改這些容器的選取專案。
 
 1. 選取&#x200B;**[!UICONTROL 開啟B2B拼接組態]**。
 
-   ![B2B帳戶標題設定](assets/b2b-account-stitching-configuration.png)
+   ![B2B帳戶標題設定](../assets/b2b-account-stitching-configuration.png)
 
    >[!NOTE]
    >
-   >先前針對未儲存的連線所設定的B2B拼接組態會以&#x200B;**[!UICONTROL _未儲存的變更_]**&#x200B;表示。 您無法修改先前設定的B2B拼接組態的&#x200B;**[!UICONTROL 選用容器]**。
+   >先前設定的B2B人員會針對未儲存的連線指定帳戶拼接設定，並顯示&#x200B;**[!UICONTROL _未儲存的變更_]**。 您無法將先前設定的B2B人員的&#x200B;**[!UICONTROL 選用容器]**&#x200B;修改為帳戶拼接設定。
 
 1. 在&#x200B;**[!UICONTROL B2B拼接組態]**&#x200B;對話方塊中：
 
-   ![B2B拼接組態](assets/b2b-stitching-configuration.png)
+   ![B2B個人與帳戶拼接設定](../assets/b2b-stitching-configuration.png)
 
    1. 設定&#x200B;**[!UICONTROL 人員]**&#x200B;區段：
 
-      * 選取&#x200B;**[!UICONTROL 人員識別碼名稱空間]**，例如&#x200B;**[!UICONTROL 電子郵件]**，您希望將任何人員ID提升至該名稱空間。 此欄位為必填項。
+      * 選取與您的報告最相關的人員身分名稱空間，例如電子郵件。 任何已啟用個人對帳戶拚接的事件資料集都會將永久性人員ID提升至此人員識別碼名稱空間。此為必填欄位。
 
    1. 設定&#x200B;**[!UICONTROL Person to Account]**&#x200B;底下的&#x200B;**[!UICONTROL 帳戶]**&#x200B;區段。
 
@@ -222,16 +223,16 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
 
    1. **[!UICONTROL _未儲存的變更_]**&#x200B;指標會出現在&#x200B;**開啟B2B拼接設定**&#x200B;按鈕旁，直到您[儲存](#save)連線為止。
 
-### 在事件資料集上啟用 B2B 拼接
+### 啟用B2B人員對事件資料集執行帳戶彙整
 
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用人員至帳戶拼接"
 >abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 **[!UICONTROL 持續性人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員識別碼名稱空間]**&#x200B;的值，然後用來根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集便不會使用 B2B 人員至帳戶拼接，而您必須改為選取所需的&#x200B;**[!UICONTROL 帳戶 ID]**。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="設定 B2B 拼接設定"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="將B2B人員設定為帳戶拼接設定"
 
-在連線層級設定B2B拼接後，您必須針對要拼接的每個事件資料集個別啟用B2B帳戶拼接。
+在連線層級設定B2B人員為帳戶彙整後，您必須啟用B2B人員，為您要彙整的每個事件資料集個別帳戶彙整。
 
 1. 在「連線設定」中，選取&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或開啟現有事件資料集的設定。<br/>如需詳細資訊，請參閱[新增資料集](/help/connections/create-connection.md#add-datasets)或[編輯資料集](/help/connections/create-connection.md#edit-a-dataset)。
 
@@ -246,7 +247,7 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
 * 人員ID的設定為必填。 該人員ID是用來根據[人員對帳戶資料集](#prerequisites)查詢帳戶ID。
 * 帳戶ID的設定為選用。
 
-在![&#128279;](assets/b2b-event-dataset-stitching-on.png)的事件資料集上彙整B2B帳戶
+在![&#128279;](../assets/b2b-event-dataset-stitching-on.png)的事件資料集上彙整B2B帳戶
 
 >[!TAB 關閉]
 
@@ -255,21 +256,18 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
 * 需要設定帳戶ID。
 * 人員ID的設定為選用。
 
-![B2B帳戶正在拼接事件資料集](assets/b2b-event-dataset-stitching-off.png)
-
+![B2B帳戶正在拼接事件資料集](../assets/b2b-event-dataset-stitching-off.png)
 
 >[!ENDTABS]
 
 
-
-
 ### 儲存
 
-在您設定B2B拼接設定並完成新增或編輯資料集後，選取「**[!UICONTROL 儲存]**」以儲存連線。
+在您將B2B人員設定為帳戶拼接設定，並完成新增或編輯資料集後，選取「**[!UICONTROL 儲存]**」以儲存連線。
 
 >[!IMPORTANT]
 >
->在儲存連線後，B2B拼接設定將變得不可變動。 若要在儲存後檢視您的設定，請選取&#x200B;**開啟B2B拼接組態**。 所有欄位都會以唯讀狀態顯示。 此外，如果在Experience Platform中刪除用於[個人對帳戶對應](#prerequisites)的資料集，則會刪除此連線。
+>儲存連線後，與帳戶彙整設定的B2B人員會變得不可變動。 若要在儲存後檢視您的設定，請選取&#x200B;**開啟B2B拼接組態**。 所有欄位都會以唯讀狀態顯示。 此外，如果在Experience Platform中刪除用於[個人對帳戶對應](#prerequisites)的資料集，則會刪除拼接設定，且連線會進入無效狀態，並在使用者介面中顯示警告訊息。
 
 ## 資料更新排程
 
@@ -288,7 +286,7 @@ B2B帳戶拚接會使用以下作業來防止事件被忽略或擷取：
 
 >[!MORELIKETHIS]
 >
->* [拼接概述](overview.md)
->* [設定B2B的連線](../connections/create-connection.md)
->* [有關銜接的常見問題](faq.md)
+>* [拼接概述](../overview.md)
+>* [設定B2B的連線](/help/connections/create-connection.md)
+>* [有關銜接的常見問題](../faq.md)
 
