@@ -5,23 +5,15 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: fdd9b5738103166d7c64666f85d0c508c7176fd0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f5a7272f80aaba167974f2218bc84408d47f62d4
 workflow-type: tm+mt
-source-wordcount: 4178
-ht-degree: 31%
+source-wordcount: 4217
+ht-degree: 30%
 
 ---
 
@@ -77,6 +69,15 @@ ht-degree: 31%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_datafeed_required_dimensions"
+>title="必要維度"
+>abstract="每個資料摘要都必須包含特定維度，以維度名稱旁的&#x200B;**必要**&#x200B;標籤來識別。 這些維度提供事件層級分析所需的最低結構。"
+
+<!-- markdownlint-enable MD034 -->
+
 1. 使用您的 Adobe ID 認證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 
 1. 在介面右上方選取 [!UICONTROL **Customer Journey Analytics**] (透過應用程式切換器![應用程式](/help/assets/icons/Apps.svg))。
@@ -114,13 +115,13 @@ ht-degree: 31%
 
    您在此處套用的區段，是可能已在資料檢視中套用的任何區段以外的區段。
 
-1. （選擇性）在左側邊欄中，使用&#x200B;**搜尋**&#x200B;欄位來尋找特定元件，或選取&#x200B;**排序**&#x200B;圖示![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)以套用下列任何排序選項：
+1. （選擇性）在左側邊欄中，使用&#x200B;**搜尋**&#x200B;欄位來找出特定元件。 或者，選取&#x200B;**排序**&#x200B;圖示![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)以套用下列任何排序選項：
 
    | 選項 | 函數 |
-   |---------|----------|
+   | --------- | ---------- |
    | [!UICONTROL **建議**] | 以建議置於清單頂端的元件來對元件進行排序。 您或貴組織中其他人近期最頻繁使用的元件會顯示在清單的較高位置。 |
    | [!UICONTROL **字母順序**] | 依字母順序對元件進行排序。 |
-   | [!UICONTROL **分類**] | 根據元件類型 (維度、量度、區段、日期範圍) 對元件進行排序。 |
+   | [!UICONTROL **分類**] | 排序類似於&#x200B;[!UICONTROL **建議**]&#x200B;的元件，只是計算量度和標準量度會分開分組，而非混合在一起。 |
 
 1. 將元件新增至資料摘要設定。 左側欄僅顯示對資料摘要有效的元件。
 
@@ -138,11 +139,11 @@ ht-degree: 31%
 
    | 維度名稱 | 附註 | 資料饋送 | 其他報告 |
    |---|---|---|---|
-   | 時間戳記 UTC | 事件發生日期和時間，以UTC時區表示。 支援次秒（微秒）粒度。 | 強制 | 未提供 |
-   | 列 ID | 資料摘要中包含的每列的唯一識別碼。 | 強制 | 未提供 |
-   | 工作階段 ID | 資料摘要中包含的每個工作階段的唯一識別碼。 | 強制 | 未提供 |
-   | 人員 ID | 資料檢視和連線的個人識別碼 | 強制 | 可選標準 |
-   | 帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 使用帳戶容器時的帳戶ID | 強制 | 可選標準 |
+   | 時間戳記 UTC | 事件發生日期和時間，以UTC時區表示。 支援次秒（微秒）粒度。 | 必填 | 未提供 |
+   | 列 ID | 資料摘要中包含的每列的唯一識別碼。 | 必填 | 未提供 |
+   | 工作階段 ID | 資料摘要中包含的每個工作階段的唯一識別碼。 | 必填 | 未提供 |
+   | 人員 ID | 資料檢視和連線的個人識別碼 | 必填 | 可選標準 |
+   | 帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 使用帳戶容器時的帳戶ID | 必填 | 可選標準 |
 
    +++
 
@@ -415,7 +416,7 @@ ht-degree: 31%
 
 * 使用者在回顧日期範圍&#x200B;**內的某個時間符合原始行銷活動**&#x200B;的資格。
 
-  如果使用者在9天前符合原始促銷活動的資格，則回顧日期範圍設為30天時，資料摘要會包含&#x200B;**原始促銷活動，但是如果回顧日期範圍設為7天，則資料摘要不會包含**&#x200B;原始促銷活動。**&#x200B;**
+  如果使用者在9天前符合原始促銷活動的資格，則回顧日期範圍設為30天時，資料摘要會包含&#x200B;**原始促銷活動，但是如果回顧日期範圍設為7天，則資料摘要不會包含**&#x200B;原始促銷活動。****
 
 >[!ENDSHADEBOX]
 
