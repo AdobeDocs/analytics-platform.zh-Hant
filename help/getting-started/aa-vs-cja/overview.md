@@ -1,6 +1,6 @@
 ---
 title: 與 Adobe Analytics 比較
-description: 概觀如何比較 Customer Journey Analytics 和 Adobe Analytics。
+description: Customer Journey Analytics 與 Adobe Analytics 比較的概觀。
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: bde36283-86af-4b1a-9cbe-e251676b2951
@@ -58,14 +58,14 @@ Adobe Analytics 最終在解決方案本身內收集資料。 同樣，您有多
 
 ## 術語
 
-Customer Journey Analytics 在定義維度和量度方面提供彈性，這得益於基於底層 Experience Data Model (XDM) 的結構描述所提供的彈性。 例如，Adobe Analytics 使用訪客、造訪次數和點選次數，而 Customer Journey Analytics 使用人員、工作階段和事件作為同等概念 (您可以按需要變更命名)。
+Customer Journey Analytics 在定義維度和量度方面提供彈性，這得益於基於底層體驗資料模型 (XDM) 的結構描述所提供的彈性。 例如，Adobe Analytics 使用訪客、造訪次數和點選次數，而 Customer Journey Analytics 使用人員、工作階段和事件作為同等概念 (您可以按需要變更命名)。
 
 如需術語差異的詳細資訊，請參閱[比較透過 Analytics 來源連接器傳遞的 Analytics 資料術語](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/terminology.html?lang=zh-Hant)。
 
 
 ## 虛擬報告環境和沙箱
 
-Adobe Analytics 採用虛擬報告套裝的概念，允許您將收集到資料分成不同區段，並控制該分段資料的存取。
+Adobe Analytics 採用虛擬報告套裝的概念，允許您將收集到的資料分成不同區段，並控制該分段資料的存取。
 
 Customer Journey Analytics 採用類似的概念，稱為「資料檢視」。 資料檢視是一種容器，讓您決定如何解譯來自某個連線的資料。 其提供極大的彈性，可指定和設定維度和量度，做好報告和分析的準備。
 
@@ -76,9 +76,9 @@ Experience Platform 提供沙箱，可將其視為一個容器，其中包含特
 
 ## 身分識別
 
-Customer Journey Analytics 支援您定義做為結構描述一部分的身分識別，包含資料的資料集會遵循結構描述。 因此，身分識別是 Experience Platform 的基本概念，Customer Journey Analytics 在設定[連線](../../connections/overview.md) (透過為每個資料集定義人員 ID) 和套用 [拼接](../../stitching/overview.md) 以進行跨管道分析時，會使用身分識別。 Experience Platform SDK 和 API 使用的一個重要身分識別是 Experience Cloud ID (ECID)。
+Customer Journey Analytics 支援您定義為結構描述一部分的身分識別，而包含您資料的資料集會符合這些結構描述。 因此，身分識別是 Experience Platform 的基本概念，Customer Journey Analytics 在設定[連線](../../connections/overview.md) (透過為每個資料集定義人員 ID) 和套用 [拼接](../../stitching/overview.md) 以進行跨管道分析時，會使用身分識別。 Experience Platform SDK 和 API 使用的一個重要身分識別是 Experience Cloud ID (ECID)。
 
-Adobe Analytics 使用一組更明確的身分識別欄位，例如 Adobe Analytics ID (AAID)。 使用 Analytics 來源連接器時，這些 Adobe Analytics 身分欄位會受到特殊處理。 如需詳細資訊，請參閱 [AAID、ECID、AACUSTOMID 和 Analytics 來源連接器](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=zh-Hant)。
+Adobe Analytics 使用一組更明確的身分識別欄位，例如 Adobe Analytics ID (AAID)。 使用 Analytics 來源連接器時，這些 Adobe Analytics 身分識別欄位會受到特殊處理。 如需詳細資訊，請參閱 [AAID、ECID、AACUSTOMID 和 Analytics 來源連接器](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=zh-Hant)。
 
 
 ## 支援的功能

@@ -91,7 +91,7 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
   | 類別 | 權限 | 說明 |
   |---|---|---|
-  | [!UICONTROL 沙箱] | [!UICONTROL 至少一個] | 存取連線的相關沙箱。 |
+  | [!UICONTROL 沙箱] | [!UICONTROL 至少一個] | 存取與連線相關的沙箱。 |
   | [!UICONTROL 資料建模] | [!UICONTROL 檢視結構描述] | 對結構描述和相關資源的唯讀存取權。 |
   | [!UICONTROL 資料建模] | [!UICONTROL 管理結構描述] | 讀取、建立、編輯和刪除結構描述與相關資源的存取權。 |
   | [!UICONTROL 資料管理] | [!UICONTROL 檢視資料集] | 資料集和結構描述的唯讀存取權。 |
@@ -116,7 +116,7 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
   | 類別 | 權限 | 說明 |
   |---|---|---|
   | [!UICONTROL 目標] | [!UICONTROL 管理目標] | 讀取、建立和刪除目標連線和目標帳戶的存取權。 |
-  | [!UICONTROL 目標] | [!UICONTROL 啟用目標] | 允許使用者啟用現有目標的區段。 在啟動工作流程中啟用對應步驟。 此權限也會要求針對想要對目標啟用資料的使用者授予「檢視目標」權限。 |
+  | [!UICONTROL 目標] | [!UICONTROL 啟用目標] | 允許使用者將區段啟用至現有目標。 在啟動工作流程中啟用對應步驟。 此權限也會要求針對想要對目標啟用資料的使用者授予「檢視目標」權限。 |
 
   如需關於 Experience Platform 權限的更多資訊，請參閱[管理產品輪廓的權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
 
@@ -124,16 +124,16 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
   若要讓使用者能夠使用 BI 擴充功能，產品管理員
 
-   * 必須確保使用者的 Experience Platform 權限中包含的角色，具有查詢服務資源以及「管理查詢」和「管理查詢服務整合」選項。 如需關於 Experience Platform 權限的更多資訊，請參閱[管理產品輪廓的權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
+  * 必須確保使用者的 Experience Platform 權限中包含的角色，具有查詢服務資源以及「管理查詢」和「管理查詢服務整合」選項。 如需關於 Experience Platform 權限的更多資訊，請參閱[管理產品輪廓的權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
 
-     | 類別 | 權限 | 說明 |
-     |---|---|---|
-     | [!UICONTROL 查詢服務] | [!UICONTROL 管理查詢] | 讀取、建立、編輯和刪除 Platform 資料的結構化 SQL 查詢的存取權。 |
-     | [!UICONTROL 查詢服務] | [!UICONTROL 管理查詢服務整合] | 建立、更新和刪除適用於存取查詢服務的永不過期的認證。 |
+    | 類別 | 權限 | 說明 |
+    |---|---|---|
+    | [!UICONTROL 查詢服務] | [!UICONTROL 管理查詢] | 讀取、建立、編輯和刪除 Platform 資料的結構化 SQL 查詢的存取權。 |
+    | [!UICONTROL 查詢服務] | [!UICONTROL 管理查詢服務整合] | 可建立、更新和刪除適用於存取查詢服務的永不過期認證。 |
 
-   * 必須確保使用者具有適當的 Customer Journey Analytics 權限：
-      * 存取相關資料視圖的權限。 請參閱[使用者層級存取權](#user-level-access)中的[!UICONTROL 資料視圖]。
-      * 存取 Customer Journey Analytics BI 擴充功能的權限。 請參閱[使用者層級存取權](#user-level-access)中的[!UICONTROL 資料視圖工具]。
+  * 必須確保使用者具有適當的 Customer Journey Analytics 權限：
+    * 存取相關資料視圖的權限。 請參閱[使用者層級存取權](#user-level-access)中的[!UICONTROL 資料視圖]。
+    * 存取 Customer Journey Analytics BI 擴充功能的權限。 請參閱[使用者層級存取權](#user-level-access)中的[!UICONTROL 資料視圖工具]。
 
 ### 產品輪廓管理員角色
 
@@ -141,7 +141,7 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
 * 管理獲指派的產品輪廓。 例如新增或移除使用者或使用者群組，以及修改產品輪廓的權限。
 
-* 在 Customer Journey Analytics 中，編輯屬於獲指派的產品輪廓一部分的資料視圖。 產品輪廓管理員無法建立新的資料視圖。
+* 在 Customer Journey Analytics 中，編輯屬於獲指派產品設定檔一部分的資料釋圖。 產品輪廓管理員無法建立新的資料視圖。
 
 ### 使用者層級存取權
 
@@ -192,14 +192,14 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
 ### 列層級存取控制
 
-若您只想讓使用者存取一天內的資料。 您可以用以下方法限制只能存取這些特定的列：
+您想要只讓使用者存取單日的資料。 您可以用以下方法限制只能存取這些特定的列：
 
 1. 在特定資料視圖的「[!UICONTROL 設定]」中建立區段，其中「[!UICONTROL 天]」等於您允他們存取資料的日期。 請參閱[建立資料視圖](/help/data-views/create-dataview.md#settings-filters)了解更多資訊。
-1. 儲存資料視圖，這會將區段套用至底層連線中資料集的資料部分。 任何不符合區段定義的列都會自動從資料視圖中排除，且使用此資料視圖時，Analysis Workspace 無法使用這些列。
+1. 儲存資料釋圖，這會將區段套用至底層連線中資料集的資料部分。 任何不符合區段定義的列都會自動從資料釋圖中排除，且使用此資料釋圖時，Analysis Workspace 無法使用這些列。
 1. 在 Admin Console 中建立新的[產品輪廓](#product-profile-admin-role)，將使用者新增至產品輪廓，並僅將此特定資料視圖加入產品輪廓。
 
 ### 值層級存取控制
 
-擁有資料視圖存取權的使用者，只能使用管理員已包含在此資料視圖中的量度和維度。 管理員可以在資料視圖中使用[包含/排除功能](/help/data-views/component-settings/include-exclude-values.md)或[值分組](../data-views/component-settings/value-bucketing.md)元件設定，從資料視圖中排除或彙總某些維度值。
+擁有資料釋圖存取權的使用者，只能使用管理員已包含在此資料釋圖中的量度和維度。 管理員可以在資料視圖中使用[包含/排除功能](/help/data-views/component-settings/include-exclude-values.md)或[值分組](../data-views/component-settings/value-bucketing.md)元件設定，從資料視圖中排除或彙總某些維度值。
 
 例如：您在資料視圖中，使用包含資料集中個別患者資料的元件，建立名為&#x200B;*高血壓*&#x200B;的量度。 您使用值分組，僅提供對分組值的存取權，因此資料的使用者看不到個別患者的資料。

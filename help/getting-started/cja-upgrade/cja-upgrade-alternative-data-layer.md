@@ -62,7 +62,7 @@ ht-degree: 54%
 
 {{upgrade-note}}
 
-升級到 Customer Journey Analytics 時，Adobe [建議對 Experience Platform Web SDK 進行新實施](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。 但是，根據時間軸和資源限制等多種因素，建議的升級步驟可能不適合您組織。
+升級到 Customer Journey Analytics 時，Adobe [建議對 Experience Platform Web SDK 進行新實施](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)。 但是，根據時間軸和資源限制等多種因素，建議的升級步驟可能不適合您的組織。
 
 您可以將整個資料層傳送至Customer Journey Analytics，而非使用XDM物件來收集資料。 然而，這種替代方案會隨著時間推移而增加複雜性。
 

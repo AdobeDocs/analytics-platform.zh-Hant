@@ -29,7 +29,7 @@ ht-degree: 100%
 
 Customer Journey Analytics 的維度類型沒有限制；值可以是數值、文字、物件、清單或所有前項的組合。
 
-Customer Journey Analytics 中的基本報告顯示維度列 (通常是字串值) 與量度列 (通常是數字值)。
+Customer Journey Analytics 中的基本報告顯示維度列 (通常是字串值) 與量度列 (通常是數值)。
 
 例如，如果您將「頁面」維度與「人員」量度結合，您將會看到排名報告，其中按人員顯示您最常造訪的頁面：
 

@@ -23,8 +23,8 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 4858
-ht-degree: 16%
+source-wordcount: 5045
+ht-degree: 15%
 
 ---
 
@@ -485,7 +485,7 @@ ht-degree: 16%
          |---|---|---|---|
          | 廣告群組（查詢） | 範例查詢資料集 | 字串 | *_tenant*.ad_group |
          | 廣告群組 | 範例摘要資料集 | 字串 | *_tenant*.ad_group |
-         | 行銷活動ID | 範例摘要資料集 | 字串 | *_tenant*.campaign_id |
+         | 行銷活動 ID | 範例摘要資料集 | 字串 | *_tenant*.campaign_id |
          | 促銷活動名稱（查詢） | 範例查詢資料集 | 字串 | *_tenant*.campaign_name |
          | 行銷活動名稱 | 範例摘要資料集 | 字串 | *_tenant*.campaign_name |
          | 網路 | 範例摘要資料集 | 字串 | *_tenant*.network |

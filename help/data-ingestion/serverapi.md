@@ -56,20 +56,20 @@ ht-degree: 62%
 >本快速入門手冊是一份簡化的指南，說明如何將從IoT裝置、機上盒、遊戲主機或桌上型電腦上執行的應用程式或遊戲所收集的資料擷取到Adobe Experience Platform，並用於Customer Journey Analytics。 強烈建議在提及時研究其他資訊。
 
 
-## 設定結構和資料集
+## 設定結構描述和資料集
 
 若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集哪些資料。 所有擷取至 Adobe Experience Platform 的資料都必須符合標準的非正常結構，才能由下游能力和功能識別並處理。 Experience Data Model (XDM)是標準架構，提供結構形式的結構。
 
 定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。 資料集是資料集合（通常是表格）的儲存和管理結構，其中包含結構（欄）和欄位（列）。
 
-擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
+擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構描述，才能以資料集形式持續保存。
 
 ### 設定結構
 
 您想要從在主機上玩遊戲的設定檔追蹤一些最低限度的資料，例如身分識別、分數、進度和其他資訊。
 您必須先定義用來模型化此資料的結構描述。
 
-若要設定您的結構：
+若要設定您的結構描述：
 
 1. 在 Adobe Experience Platform UI 的左側邊欄中，選取[!UICONTROL 「資料管理」]中的&#x200B;**[!UICONTROL 「結構」]**。
 
@@ -164,7 +164,7 @@ ht-degree: 62%
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-您已建立最低架構模型，以模擬您可以從遊戲擷取的資料。 該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。 為設定檔啟用結構描述後，即可確保從主機遊戲擷取的資料會新增至即時客戶設定檔。
+您已建立最低架構模型，以模擬您可以從遊戲擷取的資料。 該結構描述可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。 為設定檔啟用結構描述後，即可確保從主機遊戲擷取的資料會新增至即時客戶設定檔。
 
 在行為資料旁邊，您還可以從主控台擷取設定檔屬性資料（例如登入主控台的設定檔詳細資訊）。
 
@@ -172,7 +172,7 @@ ht-degree: 62%
 
 - 根據 XDM 個體設定檔架構類別建立結構。
 
-- 將「設定檔核心 v2」欄位群組新增至結構。
+- 將「輪廓核心 v2」欄位群組新增至結構描述。
 
 - 根據「設定檔核心 v2」欄位群組新增識別物件。
 
@@ -208,7 +208,7 @@ ht-degree: 62%
 
 7. 選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
-   系統會提示您啟用設定檔的資料集。 資料集一經啟用，即可透過攝取的資料豐富即時客戶設定檔。
+   系統會提示您為輪廓啟用資料集。 資料集一經啟用，即可透過攝取的資料豐富即時客戶輪廓。
 
    >[!IMPORTANT]
    >
@@ -325,11 +325,11 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
    - 對於每個資料集：
 
-      - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取[!UICONTROL 人員 ID]。
+     - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取[!UICONTROL 人員 ID]。
 
-      - 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。 如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
+     - 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。 如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
 
-      - 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
+     - 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
 
    - 選取&#x200B;**[!UICONTROL 「新增資料集」]**。
 
@@ -337,11 +337,11 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 如需如何建立和管理連線，以及如何選取和合併資料集的詳細資訊，請參閱[連線概觀](../connections/overview.md)。
 
-## 設定資料檢視
+## 設定資料釋圖
 
 資料檢視是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 它指定 Analysis Workspace 中可用的所有維度和量度，以及這些維度和量度從哪些欄取得資料。 資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
-若要建立資料檢視，請執行以下操作：
+若要建立資料釋圖，請執行以下操作：
 
 1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 
@@ -390,7 +390,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區 – 空白專案](./assets/cja-projects-2.png)
 
-4. 從清單中選取您的資料檢視。
+4. 從清單中選取您的資料釋圖。
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 

@@ -57,7 +57,7 @@ ht-degree: 95%
    | --- | --- |
    | ![SelectBox](/help/assets/icons/SelectBox.svg) | 當選取一個或多個客群時，客群介面底部會出現一個藍色操作欄。 如需詳細資訊，請參閱「[操作](#actions)」。 |
    | **[!UICONTROL 標題和說明]** | 您建立客群時輸入的標題和說明。 |
-   | **[!UICONTROL 資料檢視]** | 建立此客群的資料檢視。 |
+   | **[!UICONTROL 資料檢視]** | 建立此客群的資料釋圖。 |
    | **[!UICONTROL 客群規模]** | 此客群的總人數。 |
    | **[!UICONTROL 所有者]** | 客群的所有者 - 建立客群的人。 |
    | **[!UICONTROL 重新整理頻率]** | 建立客群時設定的重新整理間隔。 |
@@ -86,7 +86,7 @@ ht-degree: 95%
 
 ## 動作
 
-下列是「已排程的專案管理員」中的常見動作。 您可以從內容選單中選取操作：
+下列是「已排程的專案管理員」中的常見動作。 您可以從內容選單中選取動作：
 
 | 圖示 | 動作 | 說明 |
 |:---:|---|---|
@@ -114,7 +114,7 @@ ht-degree: 95%
 
 | 資料視圖 | 說明 |
 |---|---|
-| ![所有者](/help/components/audiences/assets/audiences-filter-dataviews.png){width="300"} | 「**[!UICONTROL 資料檢視]**」部分可讓您篩選資料檢視。 <ul><li>您可以使用「![搜尋](/help/assets/icons/Search.svg)」來搜尋您想要用來篩選的資料檢視。</li><li>您可以選取多個資料檢視。</li></ul> |
+| ![所有者](/help/components/audiences/assets/audiences-filter-dataviews.png){width="300"} | 「**[!UICONTROL 資料檢視]**」部分可讓您篩選資料檢視。 <ul><li>您可以使用「![搜尋](/help/assets/icons/Search.svg)」來搜尋您想要用來篩選的資料檢視。</li><li>您可以選取多個資料釋圖。</li></ul> |
 
 ### 所有者
 

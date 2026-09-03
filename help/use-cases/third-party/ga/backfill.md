@@ -30,7 +30,7 @@ ht-degree: 83%
 
 # 攝取 Google Analytics 歷史資料
 
-此頁面著重於將您的 Google Analytics 歷史資料擷取到 Adobe Experience Platform 做為資料集，讓您參照在 Customer Journey Analytics 之內「資料檢視」中的資料集。 您可以結合此頁面的步驟與[設定一個 Google Analytics 實作](streaming.md)，這會產生反覆出現的資料集。 結合此歷史資料集與最新實作的資料集，以便在 Customer Journey Analytics 中取得現在與回填資料的無縫接軌檢視。
+此頁面著重於將您的 Google Analytics 歷史資料擷取到 Adobe Experience Platform 做為資料集，讓您參照在 Customer Journey Analytics 之內「資料檢視」中的資料集。 您可以結合此頁面的步驟與[設定一個 Google Analytics 實作](streaming.md)，這會產生反覆出現的資料集。 結合此歷史資料集與目前實施的資料集，以便在 Customer Journey Analytics 中取得現在與回填資料的無縫接軌檢視。
 
 ## 先決條件
 
@@ -47,13 +47,13 @@ Universal Analytics 屬性中的資料結構異於 Google Analytics 4 屬性中�
 * [設定用於Universal Analytics屬性的BigQuery Export](https://support.google.com/analytics/answer/3416092)
 * [設定用於Google Analytics 4屬性的BigQuery Export](https://support.google.com/analytics/answer/9823238)
 
-### 用於 Universal Analytics 屬性的其他要求
+### Universal Analytics 屬性的其他要求
 
 >[!NOTE]
 >
 >此節僅適用於 Universal Analytics 屬性。 如果您從 GA4 屬性匯出，您可以前往[將資料匯出至 Google Cloud Platform](#export-gcp)。
 
-Universal Analytics 屬性會將其資料中的每一筆記錄儲存為使用者的工作階段，而非個別事件。 SQL 查詢將 Universal Analytics 資料轉換為與 Adobe Experience Platform 相容的格式是必要的。 將 `UNNEST` 函式套用到 `hits` GA 結構描述中的欄位，並儲存為 BigQuery 表格。
+Universal Analytics 屬性會將其資料中的每一筆記錄儲存為使用者的工作階段，而非個別事件。 需要使用 SQL 查詢，將 Universal Analytics 資料轉換為與 Adobe Experience Platform 相容的格式。 將 `UNNEST` 函式套用到 `hits` GA 結構描述中的欄位，並儲存為 BigQuery 表格。
 
 
 >[!BEGINSHADEBOX]
@@ -98,7 +98,7 @@ FROM
 
 >[!BEGINSHADEBOX]
 
-觀看![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [將Google Analytics資料匯入Adobe Experience Platform](https://video.tv.adobe.com/v/3437177?captions=chi_hant&quality=12&learn=on){target="_blank"}以取得示範影片。
+觀看![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [將Google Analytics資料匯入Adobe Experience Platform](https://video.tv.adobe.com/v/332676?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 

@@ -53,12 +53,12 @@ ht-degree: 100%
    2. 設定檔資料 ![設定檔](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (例如來自 CRM 系統、呼叫中心應用程式、忠誠度應用程式)。
    3. 查詢資料 ![查詢](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (例如來自產品資訊系統的產品名稱、類別)。
 
-1. 所有資料集使用通用的命名空間 ID。 使用[拼接](../../stitching/overview.md)來增加任何以事件為主的資料集 ![資料重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) 關於在每一資料列提供通用 ID。 請注意，Customer Journey Analytics 目前不使用 Experience Platform 設定檔或身分識別服務進行拼接。
-1. 執行任何自訂資料準備，以確保跨時間序列資料集的公用鍵被引入 Customer Journey Analytics。
+1. 所有資料集使用通用的命名空間 ID。 使用[拼接](../../stitching/overview.md)來增加任何以事件為主的資料集 ![資料重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) 關於在每一資料列提供通用 ID。 請注意，Customer Journey Analytics 目前不使用 Experience Platform 輪廓或身分識別服務進行拼接。
+1. 執行任何自訂資料準備，以確保要擷取至 Customer Journey Analytics 的時間序列資料集之間具有公用鍵。
 1. 為查閱資料提供一個可以連結到事件資料中欄位的主要 ID。 計為授權中的列。
 1. 將設定檔資料的主要 ID 設定為事件資料的主要 ID。
 1. [建立連線](../../connections/overview.md)以將相關資料集從 Experience Platform 攝取到 Customer Journey Analytics。
-1. 在連線上[建立資料檢視](/help/data-views/create-dataview.md)以選擇要包含在檢視中的特定維度和量度。 歸因和配置設定也在資料檢視中設定。 這些設定是在報告時計算的。
+1. 在連線上[建立資料檢視](/help/data-views/create-dataview.md)以選擇要包含在檢視中的特定維度和量度。 歸因和配置設定也在資料釋圖中設定。 這些設定是在報告時計算的。
 1. [建立專案](/help/analysis-workspace/home.md)以便在 Analysis Workspace 中設定儀表板和報告。
 
 ## 考量事項
@@ -66,7 +66,7 @@ ht-degree: 100%
 建立此工作流程時，請務必考慮以下幾點。
 
 * 跨通道分析資料要求每個記錄具有相同的 ID 命名空間。
-* 統一不同資料集的聯合過程需要跨資料集的共同主要人員/實體鍵。
+* 將不同資料集聯合起來的過程，需要在各資料集之間使用共同的主要人員/實體鍵。
 * 目前不支援根據次要鍵的聯合。
 * 拼接過程允許根據來自共用永久 ID 的記錄的臨時 ID (例如身份驗證 ID) 資訊重新輸入資料列中的身份。這允許將不同的記錄解析為單個拼接 ID，以便在人員層級而不是裝置或 cookie 層級進行分析。
 * 同一 XDM 欄位的物件和屬性合併為 Customer Journey Analytics 中的一個維度。 要將來自不同資料集的多個屬性合併到同一個 Customer Journey Analytics 維度中，資料集應該引用相同的 XDM 欄位或結構描述。

@@ -24,8 +24,8 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
 workflow-type: tm+mt
-source-wordcount: 10442
-ht-degree: 97%
+source-wordcount: 10602
+ht-degree: 98%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 97%
 >title="衍生欄位"
 >abstract="衍生欄位可讓您透過可自訂的規則產生器，迅速定義資料操作。 您接著可以將衍生欄位用作為 Workspace 中的元件 (量度或維度)，甚至進一步在資料檢視中定義為元件。"
 
-派生欄位是 Adob&#x200B;&#x200B;e Customer Journey Analytics 中即時報告功能的重要層面。 衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。 然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
+衍生欄位是 Adobe Customer Journey Analytics 中即時報告功能的重要層面。 衍生欄位可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。 然後，您可以使用作為 [Workspace](../../analysis-workspace/home.md) 元件 (量度或維度) 的衍生欄位，或甚至進一步將衍生欄位定義為[資料檢視](../data-views.md)中的元件。
 
-與在 Customer Journey Analytics 之外其他位置內轉換或操作您的資料相比，派生欄位可以節省大量時間和精力。 例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
+與在 Customer Journey Analytics 之外的其他位置轉換或操作您的資料相比，衍生欄位可以節省大量時間和精力。 例如[資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)、[資料蒸餾器](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=zh-Hant)，或在您自己的擷取轉換載入 (ETL) / 擷取載入轉換 (ELT) 流程中。
 
 衍生欄位是在[資料檢視](../data-views.md)內定義，且是根據一組定義為規則的函數，並套用於適用的標準和/或結構描述欄位。
 
@@ -71,8 +71,8 @@ ht-degree: 97%
 
 |  | 名稱 | 說明 |
 |---------|----------|--------|
-| 1 | **選取器** | 您可以使用選取器區域來選取函數、函數範本、結構描述欄位或標準欄位，並將其拖放至規則產生器上。 <br/>使用下拉式選單在其間選取： <br/>![函數](assets/Smock_Function_18_N.svg) [!UICONTROL 函數] - 適用清單 [函數](#function-reference), </br>![函數範本圖示](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL 函數範本] - 適用清單 [函數範本](#function-templates), <br/>![結構描述欄位圖示](assets/Smock_Folder_18_N.svg)  [!UICONTROL 結構描述欄位] - 適用清單，來自：資料集類別 (事件、輪廓、查閱) 和先前定義的衍生欄位,以及<br/>![標準欄位圖示](assets/Smock_DragHandle_18_N.svg) [!UICONTROL 標準欄位] - 標準適用欄位 (如 Platform 資料集 ID)。 選取器中僅顯示字串和數字標準欄位。 如果函數支援其他資料類型，則可以為規則介面內的值或欄位選取有這些其他資料類型的標準欄位。<br/>您可以使用 ![搜尋圖示](assets/Smock_Search_18_N.svg)「搜尋」框來搜尋函數、函數範本、模式和標準欄位。 <br/>您可以透過選取 ![篩選器圖示](assets/Smock_Filter_18_N.svg) 篩選器來篩選選取的物件清單，並在「[!UICONTROL 欄位篩選依據]」對話框中篩選和指定篩選器。 您可以使用每個篩選器的![關閉圖示](assets/CrossSize75.svg)來輕鬆刪除篩選器。 |
-| 2 | **規則產生器** | 您可以使用一個或多個規則按順序建立衍生欄位。 規則是一項功能的具體實施，因此一定只與一個功能相關聯。 您可以將函數拖放至規則產生器中來建立規則。 函數類型會確定規則介面。<br/>如需詳細資訊，請參閱「[規則介面](#rule-interface)」。 <br/>您可以在規則產生器中已有的規則的開始、結束或之間插入函數。 規則產生器中的最後一條規則可決定洐生欄位的最終輸出。 |
+| 1 | **選取器** | 您可以使用選取器區域來選取函數、函數範本、結構描述欄位或標準欄位，並將其拖放至規則產生器上。 <br/>使用下拉式選單在其間選取： <br/>![函數](assets/Smock_Function_18_N.svg) [!UICONTROL 函數] - 適用清單 [函數](#function-reference), </br>![函數範本圖示](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL 函數範本] - 適用清單 [函數範本](#function-templates), <br/>![結構描述欄位圖示](assets/Smock_Folder_18_N.svg)  [!UICONTROL 結構描述欄位] - 適用清單，來自：資料集類別 (事件、輪廓、查閱) 和先前定義的衍生欄位,以及<br/>![標準欄位圖示](assets/Smock_DragHandle_18_N.svg) [!UICONTROL 標準欄位] - 標準適用欄位 (如 Platform 資料集 ID)。 選擇器中僅顯示字串和數值標準欄位。 如果函數支援其他資料類型，則可以為規則介面內的值或欄位選取有這些其他資料類型的標準欄位。<br/>您可以使用 ![搜尋圖示](assets/Smock_Search_18_N.svg)「搜尋」框來搜尋函數、函數範本、模式和標準欄位。 <br/>您可以透過選取 ![篩選器圖示](assets/Smock_Filter_18_N.svg) 篩選器來篩選選取的物件清單，並在「[!UICONTROL 欄位篩選依據]」對話框中篩選和指定篩選器。 您可以使用每個篩選器的![關閉圖示](assets/CrossSize75.svg)來輕鬆刪除篩選器。 |
+| 2 | **規則產生器** | 您可以使用一個或多個規則按順序建立衍生欄位。 規則是一項功能的具體實施，因此一定只與一個功能相關聯。 您可以將函數拖放至規則產生器中來建立規則。 函數類型會確定規則介面。<br/>如需詳細資訊，請參閱「[規則介面](#rule-interface)」。 <br/>您可以在規則產生器中已有的規則的開始、結束或之間插入函數。 規則產生器中的最後一條規則可決定衍生欄位的最終輸出。 |
 | 3 | **[!UICONTROL **&#x200B;欄位設定&#x200B;**]** | 您可以命名和描述您的派生欄位並檢查其欄位類型。 |
 | 4 | **[!UICONTROL **&#x200B;最終輸出&#x200B;**]** | 此區域是根據過去 30 天的資料以及您對規則產生器中的衍生欄位所做的更改，顯示即時更新的輸出值預覽。 |
 
@@ -82,7 +82,7 @@ ht-degree: 97%
 
 當您首次存取衍生欄位介面時，將顯示「[!UICONTROL 從欄位範本開始]」精靈。
 
-1. 選取最能描述您要建立的欄位類型範本。
+1. 選取最能描述您要建立之欄位類型的範本。
 2. 選取「**[!UICONTROL **&#x200B;選取&#x200B;**]**」按鈕並繼續。
 
 您的衍生欄位對話框中填入了您選取的欄位類型所需或有用的規則 (和功能)。 有關可用範本的更多資訊，請參閱「[函數範本](#function-templates)」。
@@ -104,7 +104,7 @@ ht-degree: 97%
 
 ## 建立衍生欄位 {#create}
 
-1. 選取現有的資料檢視或建立資料檢視。 請參閱「[資料檢視](../data-views.md)」，了解更多資訊。
+1. 選取現有的資料釋圖或建立資料釋圖。 請參閱「[資料檢視](../data-views.md)」，了解更多資訊。
 
 2. 選取資料檢視的「**[!UICONTROL **&#x200B;元件&#x200B;**]**」索引標籤。
 
@@ -137,7 +137,7 @@ ht-degree: 97%
 
    - 選取「**[!UICONTROL **&#x200B;另存新檔&#x200B;**]**」，將衍生欄位儲存為新的衍生欄位。 新的衍生欄位名稱與原始編輯的衍生欄位名稱相同，並在名稱中加入 `(copy)`。
 
-或者，如果您已使用衍生欄位作為資料檢視中維度或量度的元件：
+或者，如果您已使用衍生欄位作為資料釋圖中維度或量度的元件：
 
 1. 選取該元件。 請注意，元件的名稱可能與衍生欄位的名稱不同。
 
@@ -155,7 +155,7 @@ ht-degree: 97%
 
 ## 刪除衍生欄位 {#delete}
 
-1. 選取現有的資料檢視。 請參閱「[資料檢視](../data-views.md)」，了解更多資訊。
+1. 選取現有的資料釋圖。 請參閱「[資料檢視](../data-views.md)」，了解更多資訊。
 
 2. 選取資料檢視的「**[!UICONTROL **&#x200B;元件&#x200B;**]**」索引標籤。
 
@@ -200,7 +200,7 @@ ht-degree: 97%
 
 +++ 詳細資料
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![行銷管道範本規則產生器的螢幕截圖](assets/function-template-marketing-channel-template.png)
 
@@ -208,13 +208,13 @@ ht-degree: 97%
 
 ### 退回數 {#bounces}
 
-此函數範本是使用一組規則集合來識別網站退回。
+此函數範本使用一組規則來識別網站跳出。
 
 +++ 詳細資料
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![退回規則產生器的螢幕截圖](assets/function-template-bounces.png)
 
@@ -228,7 +228,7 @@ ht-degree: 97%
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![多維度合併規則產生器的螢幕截圖](assets/function-template-multi-dimension-combine.png)
 
@@ -242,7 +242,7 @@ ht-degree: 97%
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![友善資料集名稱規則產生器的螢幕截圖](assets/function-template-friendly-dataset-name.png)
 
@@ -256,7 +256,7 @@ ht-degree: 97%
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![URL 規則產生器的頁面名稱螢幕截圖](assets/function-template-page-name-from-url.png)
 
@@ -270,7 +270,7 @@ ht-degree: 97%
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![節日季節規則產生器的螢幕截圖](assets/function-template-holiday-season.png)
 
@@ -284,7 +284,7 @@ ht-degree: 97%
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![每月目標規則產生器的螢幕截圖](assets/function-template-monthly-goals.png)
 
@@ -298,7 +298,7 @@ ht-degree: 97%
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![取得分隔符號清單規則產生器中的所有值螢幕截圖](assets/function-template-get-all-values-in-delimited-list.png)
 
@@ -308,13 +308,13 @@ ht-degree: 97%
 
 ### 取得分隔清單中的第一個值 {#firstvalue}
 
-此函數範本會取得分隔符號清單中的第一個值。
+此函數範本會取得分隔清單中的第一個值。
 
 +++ 詳細資料
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![取得分隔符號清單中的第一個值規則產生器的螢幕截圖](assets/function-template-get-first-value-in-delimited-list.png)
 
@@ -322,13 +322,13 @@ ht-degree: 97%
 
 ### 取得分隔清單中的最後一個值 {#lastvalue}
 
-此函數範本會取得分隔符號清單中的最後一個值。
+此函數範本會取得分隔清單中的最後一個值。
 
 +++ 詳細資料
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![取得分隔符號清單中的最後一個值規則產生器的螢幕截圖](assets/function-template-get-last-value-in-delimited-list.png)
 
@@ -342,7 +342,7 @@ ht-degree: 97%
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![網域規則產生器的螢幕截圖](assets/function-template-domain-name.png)
 
@@ -356,7 +356,7 @@ ht-degree: 97%
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![取得查詢字串參數規則產生器的螢幕截圖](assets/function-template-get-query-string-parameter.png)
 
@@ -364,13 +364,13 @@ ht-degree: 97%
 
 ### 轉變欄位 {#transition}
 
-此函數範本會將報告從一個欄位轉變到另一個欄位。
+此函數範本會將報告從一個欄位轉換到另一個欄位。
 
 +++ 詳細資料
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![轉變欄位規則產生器的螢幕截圖](assets/function-template-transition-field.png)
 
@@ -378,13 +378,13 @@ ht-degree: 97%
 
 ### 簡單的機器人偵測 {#botdetection}
 
-此函數範本會實施輕度機器人識別。
+此函數範本會實作簡易機器人識別。
 
 +++ 詳細資料
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![簡單機器人檢測規則產生器的螢幕截圖](assets/function-template-simple-bot-detection.png)
 
@@ -392,13 +392,13 @@ ht-degree: 97%
 
 ### 退出連結 {#exit}
 
-此函數範本會識別工作階段中最後進行的連結點擊。
+此函數範本會識別工作階段中最後點擊的連結。
 
 +++ 詳細資料
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![退出連結規則產生器的螢幕截圖](assets/function-template-exit-link.png)
 
@@ -412,7 +412,7 @@ ht-degree: 97%
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![下載連結規則產生器的螢幕截圖](assets/function-template-download-link.png)
 
@@ -427,7 +427,7 @@ ht-degree: 97%
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![州緯度規則產生器的螢幕擷圖](assets/function-template-state-latitude.png)
 
@@ -442,7 +442,7 @@ ht-degree: 97%
 
 {{select-package}}
 
-若要使用範本，您必須為範本中規則所屬列出的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
+若要使用範本，您必須為範本中列為規則一部分的每個函數指定正確的參數。 如需詳細資訊，請參閱「[函數引用](#function-reference)」。
 
 ![州經度規則產生器的螢幕擷圖](assets/function-template-state-longitude.png)
 
@@ -483,7 +483,7 @@ ht-degree: 97%
 - 規格：
   - 輸入資料類型：支援的資料類型，
   - 輸入：可能輸入的值，
-  - 包含的運算子：此功能支援的運算子 (如果有)，
+  - 包含的運算子：此函數支援的運算子 (如果有)，
   - 限制：套用於此特定函數的限制，
   - 輸出。
 
@@ -513,13 +513,13 @@ ht-degree: 97%
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] 容器：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 標準] (查看包含的運算子，根據選取值的類型)</li></ul></li><li>[!UICONTROL 然後將值設定為]， [!UICONTROL 否則將值設定為]：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul></li></ul> | <p>字串</p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>開頭為任何字詞</li><li>終止於</li><li>結尾為任何字詞</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>不以任何字詞開頭</li><li>不終止於</li><li>未以任何字詞結尾</li><li>已設定</li><li>未設定</li></ul><p>數值</p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p>日期</p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>早於</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <ul><li>每個衍生欄位有 5 個函數</li><li>每個衍生欄位有 200 個 [運算子](#operators)。 單一運算子的範例是「引用網域包含 google」。 </li></ul> | <p>新的衍生欄位</p> |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] 容器：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul><li>[!UICONTROL 標準] (查看包含的運算子，根據選取值的類型)</li></ul></li><li>[!UICONTROL 然後將值設定為]， [!UICONTROL 否則將值設定為]：</p><ul><li>[!UICONTROL 值]</li><ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></ul></li></ul> | <p>字串</p><ul><li>等於</li><li>等於任何字詞</li><li>包含片語</li><li>包含任何字詞</li><li>包含所有字詞</li><li>開始於</li><li>開頭為任何字詞</li><li>終止於</li><li>結尾為任何字詞</li><li>不等於</li><li>不等於任何字詞</li><li>不包含此片語</li><li>不包含任何字詞</li><li>不包含所有字詞</li><li>不開始於</li><li>不以任何字詞開頭</li><li>不終止於</li><li>未以任何字詞結尾</li><li>已設定</li><li>未設定</li></ul><p>數值</p><ul><li>等於</li><li>不等於</li><li>大於</li><li>大於或等於</li><li>小於</li><li>小於或等於</li><li>已設定</li><li>未設定</li></ul><p>日期</p><ul><li>等於</li><li>不等於</li><li>晚於</li><li>晚於或等於</li><li>早於</li><li>早於或等於</li><li>已設定</li><li>未設定</li></ul> | <ul><li>每個衍生欄位有 5 個函數</li><li>每個衍生欄位有 200 個 [運算子](#operators)。 單一運算子的範例是「反向連結網域包含 google」。 </li></ul> | <p>新的衍生欄位</p> |
 
 {style="table-layout:auto"}
 
 ## 使用案例 1 {#casewhen-uc1}
 
-您想要定義規則以識別各種行銷管道，方法是套用階層式邏輯以便將行銷管道欄位設定為適當的值，：
+您想要定義規則以識別各種行銷管道，方法是套用階層式邏輯以便將行銷管道欄位設定為適當的值：
 
 - 如果引用來源是來自搜尋引擎，且頁面有查詢字串值`cid` 且其中含有 `ps_` 時，行銷管道應標示為「[!DNL *付費搜尋*]」。
 - 如果引用來源來自搜尋引擎，且頁面沒有查詢字串 `cid`，則行銷管道應標示為「[!DNL *免費搜尋*]」。
@@ -581,7 +581,7 @@ ht-degree: 97%
 
 您已經在您的 [!DNL Product Finding Methods] 維度內收集了幾種不同變化版的搜尋。 若要了解搜尋與瀏覽的整體效能，您必須花大量時間以手動方式合併結果。
 
-您的網站會為您的 [!DNL Product Finding Methods] 維度收集以下數值。 最後，所有這些數值都表明一種搜尋。
+您的網站會為您的 [!DNL Product Finding Methods] 維度收集以下數值。 最後，所有這些值都表示搜尋。
 
 | 收集值 | 實際值 |
 |---|---|
@@ -756,8 +756,8 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 ## 使用案例 1 {#classify-uc1}
 
-CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯的一或多個其他資料行： `city`、`rooms`、`hotel name`。
-您正在收集維度中的[!DNL Hotel ID]，但想要建立衍生自CSV檔案中`hotelID`的[!DNL Hotel Name]維度。
+您有一個 CSV 檔案，其中包含 `hotelID` 的關鍵欄，以及與 `hotelID` 相關的一個或多個附加欄： `city`、`rooms`、`hotel name`。
+您正在一個維度中收集 [!DNL Hotel ID]，但想要建立一個衍生自`hotelID` 的 [!DNL Hotel Name] 維度。
 
 **CSV 檔案結構和內容**
 
@@ -825,7 +825,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 ## 使用案例 2 {#classify-uc2}
 
-您收集了多個頁面的 URL，而不是友善的頁面名稱。 這種混合的數值集合破壞了報告。
+您收集了多個頁面的 URL，而不是友善的頁面名稱。 這種混合的值集合會破壞報告。
 
 ### 之前的資料 {#classify-uc2-databefore}
 
@@ -905,16 +905,16 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 假設：
 
-- 原點值和目標值都收集在同一個表格中的不同欄位中。
-- 使用者決定在值之間使用分隔符號 ‘-’。
+- 來源值和目標值會收集在同一個表格中的個別欄位中。
+- 使用者決定在值之間使用分隔符號 &#39;-&#39;。
 
 假設發生以下預訂：
 
-- 乘客 ABC123 預訂了鹽湖城 (SLC) 和奧蘭多 (MCO) 之間的航班
-- 乘客 ABC456 預訂了鹽湖城 (SLC) 和洛杉磯 (LAX) 之間的航班
-- 乘客 ABC789 預訂了鹽湖城 (SLC) 和西雅圖 (SEA) 之間的航班
-- 乘客 ABC987 預訂了鹽湖城 (SLC) 和聖荷西 (SJO) 之間的航班
-- 乘客 ABC654 預訂了鹽湖城 (SLC) 和奧蘭多 (MCO) 之間的航班
+- 客戶 ABC123 預訂了鹽湖城 (SLC) 和奧蘭多 (MCO) 之間的航班
+- 客戶 ABC456 預訂了鹽湖城 (SLC) 和洛杉磯 (LAX) 之間的航班
+- 客戶 ABC789 預訂了鹽湖城 (SLC) 和西雅圖 (SEA) 之間的航班
+- 客戶 ABC987 預訂了鹽湖城 (SLC) 和聖荷西 (SJO) 之間的航班
+- 客戶 ABC654 預訂了鹽湖城 (SLC) 和奧蘭多 (MCO) 之間的航班
 
 所需報告應該如下：
 
@@ -1015,8 +1015,8 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 您想要了解在工作階段中的客戶下訂單前的搜尋時間，以分鐘為單位。
 
-您定義新的`Time Between Search And Order In Minutes`衍生欄位，它是兩個[[!UICONTROL CASE WHEN]函式](#case-when)的結果，用來定義[!UICONTROL 搜尋時間]和[!UICONTROL 訂購時間]值。
-然後使用這兩個值來計算差異，其中的[!UICONTROL DATE MATH]函式的[!UICONTROL 範圍]設定為[!UICONTROL 工作階段]、值設定為[!UICONTROL 搜尋時間]和[!UICONTROL 順序時間]以及[!UICONTROL 輸出粒度]設定為[!UICONTROL 分鐘]。針對這兩個值，您選取[!UICONTROL 傳回第一個]以確保傳回第一個[!UICONTROL 搜尋時間]和[!UICONTROL 訂購時間]。
+您定義新的 `Time Between Search And Order In Minutes` 衍生欄位，其為兩個 [[!UICONTROL CASE WHEN] 函數](#case-when)的結果，用於定義「[!UICONTROL 搜尋時間]」和「[!UICONTROL 訂購時間]」值。
+然後使用這兩個值來計算差異，其中 [!UICONTROL DATE MATH] 函數的「[!UICONTROL 範圍]」設定為「[!UICONTROL 工作階段]」，值設定為「[!UICONTROL 搜尋時間]」和「[!UICONTROL 訂購時間]」，而「[!UICONTROL 輸出顆粒度]」設定為「[!UICONTROL 分鐘]」。 針對這兩個值，您選取「[!UICONTROL 傳回第一個]」，以確保傳回第一個「[!UICONTROL 搜尋時間]」和「[!UICONTROL 訂購時間]」。
 
 ![日期計算規則的螢幕擷圖 3](assets/datemath-3.png)
 
@@ -1033,7 +1033,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_deduplicate"
 >title="重複資料刪除"
->abstract="此函數提供了將欄位設定為僅在工作階段或個人層級不重複地計算值的功能。 此外，重複資料刪除 ID 可用於確保根據特定 ID (例如購買 ID) 僅使用一個值 (第一個執行個體或最後一個執行個體)。"
+>abstract="此函數提供了將欄位設定為僅在工作階段或個人層級不重複地計算值的功能。 此外，重複資料刪除 ID 可用於確保根據特定 ID (例如購買 ID) 僅使用一個值 (第一個實例或最後一個實例)。"
 
 
 避免多次計算同一個值。
@@ -1052,7 +1052,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 ## 使用案例 1 {#deduplicate-uc1}
 
-您希望避免在使用者重新載入預訂確認頁面時計算重複收入。 您可以在識別碼中使用預訂確認 ID，這樣在同一事件中收到時就不會再次計算這筆收入。
+您希望避免在使用者重新載入預訂確認頁面時計算重複收入。 您可以使用預訂確認 ID 作為識別碼，這樣在同一事件中收到時就不會再次計算這筆收入。
 
 ### 之前的資料 {#deduplicate-uc1-databefore}
 
@@ -1082,7 +1082,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 ## 使用案例 2 {#deduplicate-uc2}
 
-您可以使用事件作為外部行銷活動中活動點擊率的代理。 重新載入和重新導向會導致事件量度膨脹。 您希望對追蹤程式碼維度進行重複資料刪除，以便僅收集第一個維度，並最大限度地減少事件重複計數。
+您可以使用事件作為外部行銷活動中活動點進的代理。 重新載入和重新導向會導致事件量度膨脹。 您希望對追蹤程式碼維度進行重複資料刪除，以便僅收集第一個維度，並最大限度地減少事件重複計數。
 
 ### 之前的資料 {#deduplicate-uc2-databefore}
 
@@ -1168,10 +1168,10 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_findandreplace"
 >title="尋找並取代"
->abstract="此函數提供了在選定欄位中尋找所有值，並將這些值取代為新衍生欄位中不同值的功能。"
+>abstract="此函數提供在選定欄位中尋找所有值，並在新的衍生欄位中以不同的值取代這些值的功能。"
 
 
-尋找選定欄位中的所有值，並使用新衍生欄位中的其他值取代這些值。
+尋找選定欄位中的所有值，並在新的衍生欄位中以不同的值取代這些值。
 
 +++ 詳細資料
 
@@ -1186,7 +1186,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 ## 使用案例 {#findreplace-uc}
 
-您已收到一些外部行銷管道報告的錯誤值，例如 `email%20 marketing` 而不是 `email marketing`。 這些格式錯誤的值會破壞您的報告，讓您更難了解電子郵件功能的表現如何。 您要將 `email%20marketing` 取代為 `email marketing`。
+您已收到一些外部行銷管道報告的錯誤值，例如 `email%20 marketing` 而不是 `email marketing`。 這些格式錯誤的值會破壞您的報告，讓您更難了解電子郵件的表現如何。 您要將 `email%20marketing` 取代為 `email marketing`。
 
 **原始報告**
 
@@ -1261,7 +1261,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 ## 使用案例 {#lookup-uc}
 
-您想要使用客戶點擊透過 Adob&#x200B;&#x200B;e Target 顯示的個人化橫幅時收集的活動 ID 來查詢活動名稱。 您想要使用包含活動 ID 和活動名稱的 Analytics for Target (A4T) 活動來查詢資料集。
+您想要使用客戶點擊透過 Adobe Target 顯示的個人化橫幅時收集的活動 ID 來查詢活動名稱。 您想要使用包含活動 ID 和活動名稱的 Analytics for Target (A4T) 活動來查詢資料集。
 
 ### A4T 查詢資料集 {#lookup-uc-lookup}
 
@@ -1288,7 +1288,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 1. 從選擇器選取「**[!UICONTROL 結構描述欄位]**」。
 1. 選取 ![結構描述圖示](assets/Smock_Folder_18_N.svg) **[!UICONTROL 「查詢資料集」]**。
 1. 選取您的查詢資料集並找到您想要用於查詢的欄位。
-1. 將查詢欄位拖放至函式的任何可用輸入欄位上（例如Case When）。有效時，藍色方塊（標示為&#x200B;**[!UICONTROL + Add]**）可讓您放置欄位，並在您放置查閱欄位的函式之前自動插入Lookup函式。插入的Lookup函式會自動填入所有欄位的相關值。
+1. 將查詢欄位拖放到函數的任何可用輸入欄位上 (例如 Case When)。 當有效時，有一個標示「**[!UICONTROL + 新增]**」的藍色框會出現，允許您放置欄位並在所放置查詢欄位使用的函數之前自動插入一個查詢函數。 插入的查詢函數會自動填入所有欄位的相關值。
    ![查詢拖曳](assets/lookup-drag.png)
 
 +++
@@ -1318,7 +1318,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 ## 使用案例 {#lowercase-uc}
 
-您希望將所有收集的產品名稱轉換為小寫，以便您可正確提出報告。
+您會想要將所有收集的產品名稱轉換為小寫，以便正確報告。
 
 ### 之前的資料 {#lowercase-uc-databefore}
 
@@ -1410,7 +1410,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 若要建立公式：
 
-1. 只要開始輸入公式欄位和符合您輸入內容的數值欄位，就會出現在快顯功能表中。或者，您可以從左窗格的可用欄位中拖放數值欄位。
+1. 只需在公式欄位中開始輸入內容，與您輸入內容相符的數值欄位就會出現在快顯式選單中。 或者，您可以從左側窗格中的適用欄位來拖放一個數字欄位。
    ![數學更多資訊 1](assets/math-more-info-1.png)
 
 1. 新增操作數 (例如 `*` 表示乘以) 後面跟著另一個欄位或靜態值。 您可以使用括號來定義更複雜的公式。
@@ -1433,7 +1433,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
   - 這個公式有效。
     ![數學更多資訊 5](assets/math-more-info-5.png)
 
-使用數學函數進行以點擊層級為主的計算。 使用 [Summarize](#summarize) 函數進行以事件、工作階段或人員範圍為主的計算。
+使用 Math 函數進行點擊層級計算。 使用 [Summarize](#summarize) 函數進行以事件、工作階段或人員範圍為主的計算。
 
 +++
 
@@ -1582,7 +1582,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 
 [!UICONTROL 包括重複項]會確定如何處理 [!UICONTROL NEXT OR PREVIOUS] 函數的重複值。
 
-- 包括重複外觀和下一個或上一個值。 如果已選取「[!UICONTROL 包括重複項]」，這將忽略目前點擊的下一個或上一個值的任何連續重複項。
+- 包括重複項目以及下一個或上一個值。 如果已選取「[!UICONTROL 包括重複項]」，這將忽略目前點擊的下一個或上一個值的任何連續重複項。
 
 - 若選取的欄位含無 (空白) 值的資料列，將不會在[!UICONTROL NEXT OR PREVIOUS] 函數輸出的部份中傳回下一個值或上一個值。
 
@@ -1598,7 +1598,7 @@ CSV檔案確實包含`hotelID`的索引鍵資料行，以及與`hotelID`關聯�
 >abstract="此函數提供了使用規則運算式擷取部分字串的功能。"
 
 
-使用規則運算式將欄位中的值取代為新的衍生欄位。
+使用規則運算式取代欄位中的值，並將結果存入新的衍生欄位中。
 
 +++ 詳細資料
 
@@ -1715,7 +1715,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 
 ## 使用案例 1 {#split-uc1}
 
-您將語音應用程式的回應收集到單一維度的分隔符號清單中。 您希望清單中的每個值在回應報告中都是唯一的值。
+您將語音應用程式的回應收集到單一維度的分隔符號清單中。 您希望清單中的每個值在回應報告中都是唯一值。
 
 ### 之前的資料 {#split-uc1-databefore}
 
@@ -1811,7 +1811,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 
 | 輸入資料類型 | 輸入 | 包含的運算子 | 限制 | 輸出 |
 |---|---|---|---|---|
-| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>值<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>總結方法</li><li>範圍<ul><li>事件</li><li>工作階段</li><li>人員</li></ul></li></ul> | <ul><li>數值<ul><li>最大值 - 傳回一組值的最大值</li><li>最小值 - 傳回一組值的最小值</li><li>中位數 - 傳回一組值的中位數</li><li>平均值 - 傳回一組值的平均值</li><li>總和 - 傳回一組值的總和</li><li>計數 - 傳回收到值的數量</li><li>不同值 - 傳回一組不同的值</li></ul></li><li>字串<ul><li>不同值 - 傳回一組不同的值</li><li>不同值計數 - 傳回不同值的數量</li><li>最常見 - 傳回最常收到的字串值</li><li>最不常見 - 傳回最不常見字串值</li><li>第一個 - 收到的第一個值；僅適用於工作階段和事件表格</li><li>最後一個 - 最後收到的值；僅適用於工作階段和事件表格</li></ul></li><li>日期<ul><li>不同值 - 傳回一組不同的值</li><li>不同值計數 - 傳回不同值的數量</li><li>最常見 - 傳回最常收到的字串值</li><li>最不常見 - 傳回最不常見字串值</li><li>第一個 - 收到的第一個值；僅適用於工作階段和事件表格</li><li>最後一個 - 最後收到的值；僅適用於工作階段和事件表格</li><li>最早－最早收到的數值 (依時間來確定)；僅適用於工作階段和事件表格</li><li>最後－最後收到的數值 (依時間來確定)；僅適用於工作階段和事件表格</li></ul></li></ul> | 每個衍生欄位有 3 個函數 | 新的衍生欄位 |
+| <ul><li>字串</li><li>數值</li><li>日期</li></ul> | <ul><li>值<ul><li>規則</li><li>標準欄位</li><li>欄位</li></ul></li><li>總結方法</li><li>範圍<ul><li>事件</li><li>工作階段</li><li>人員</li></ul></li></ul> | <ul><li>數值<ul><li>最大值 - 傳回一組值的最大值</li><li>最小值 - 傳回一組值的最小值</li><li>中位數 - 傳回一組值的中位數</li><li>MEAN - 傳回一組值的平均值</li><li>SUM - 傳回一組值的總和</li><li>計數 - 傳回收到值的數量</li><li>不同值 - 傳回一組不同的值</li></ul></li><li>字串<ul><li>不同值 - 傳回一組不同的值</li><li>不同值計數 - 傳回不同值的數量</li><li>最常見 - 傳回最常收到的字串值</li><li>最不常見 - 傳回最不常見字串值</li><li>第一個 - 收到的第一個值；僅適用於工作階段和事件表格</li><li>最後一個 - 最後收到的值；僅適用於工作階段和事件表格</li></ul></li><li>日期<ul><li>不同值 - 傳回一組不同的值</li><li>不同值計數 - 傳回不同值的數量</li><li>最常見 - 傳回最常收到的字串值</li><li>最不常見 - 傳回最不常見字串值</li><li>第一個 - 收到的第一個值；僅適用於工作階段和事件表格</li><li>最後一個 - 最後收到的值；僅適用於工作階段和事件表格</li><li>最早－最早收到的值 (依時間來確定)；僅適用於工作階段和事件表格</li><li>最後－最後收到的數值 (依時間來確定)；僅適用於工作階段和事件表格</li></ul></li></ul> | 每個衍生欄位有 3 個函數 | 新的衍生欄位 |
 
 {style="table-layout:auto"}
 
@@ -1829,7 +1829,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 
 - CustomerABC123 在購物車中加入價值 35 美元的 ProductABC 產品，然後另外在購物車中加入價值 75 美元的 ProductDEF 產品。
 - CustomerDEF456 將 50 美元的 ProductGHI 加入購物車中，然後另外將 275 美元的 ProductJKL 加入購物車。
-- CustomerGHI789 為 ProductMNO 加入 500 美元至購物車。
+- CustomerGHI789 將價值 500 美元的 ProductMNO 加入購物車。
 
 邏輯：
 
@@ -1877,7 +1877,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 >abstract="此函數提供了從字串的開頭或結尾修剪空格或特殊字元的功能。 也能夠指定用於傳回值的字元數 (從字串的前面或末尾開始)。"
 
 
-將欄位值開始或結束處的空格、特殊字元或一定數量的字元修剪到新的衍生欄位中。
+從欄位值的開頭或結尾修剪空格、特殊字元或一定數量的字元，並將結果存入新的衍生欄位中。
 
 +++ 詳細資料
 
@@ -1890,7 +1890,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 
 ## 使用案例 1 {#trim-uc1}
 
-您收集產品資料，但該資料包含隱藏的空格字元，這會使報告成為片段。 您想輕鬆修剪多餘的空格
+您收集產品資料，但該資料包含隱藏的空格字元，這會使報告成為片段。 您想輕鬆去除任何多餘的空白字元
 
 ### 之前的資料 {#trim-uc1-databefore}
 
@@ -1918,7 +1918,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 
 ## 使用案例 2 {#trim-uc2}
 
-您收集的頁面名稱資料在頁面名稱末尾包含一些錯誤的特殊字元，這些錯誤字元必須將刪除。
+您收集的頁面名稱資料在頁面名稱末尾包含一些錯誤的特殊字元，這些錯誤字元必須刪除。
 
 ### 之前的資料 {#trim-uc2-databefore}
 
@@ -2127,11 +2127,11 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 
 ## 限制
 
-通常，衍生欄位功能適用於以下限制：
+以下限制一般適用於衍生欄位功能：
 
 - 定義衍生欄位的規則時，最多可以使用十個不同的結構描述欄位 (不包括標準欄位)。
   - 在最多十個不同的結構描述欄位中，最多只允許三個查詢結構描述或輪廓結構描述欄位。
-- 根據您授權的封裝，每個 Customer Journey Analytics 連線衍生欄位數可以設定上限。 請參閱[產品描述](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html){target="_blank"}了解更多資訊。
+- 根據您授權的套件，每個 Customer Journey Analytics 連線可擁有的衍生欄位數量上限會有所不同。 請參閱[產品描述](https://helpx.adobe.com/tw/legal/product-descriptions/customer-journey-analytics.html){target="_blank"}了解更多資訊。
 
 
 ### 函數限制摘要
@@ -2155,7 +2155,7 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 | <p>總結</p> | <ul><li>每個衍生欄位有 3 個加總函數</li></ul> |
 | <p>修剪</p> | <ul><li>每個衍生欄位有 1 個修剪函數</li></ul> |
 | <p>型別轉換</p> | <ul><li>每個衍生欄位有 3 個型別轉換函數</li></ul> |
-| <p>URL 剖析</p> | <ul><li>每個衍生欄位有 5 個 URL Pharse 函數</li></ul> |
+| <p>URL 剖析</p> | <ul><li>每個衍生欄位有 5 個 URL Parse 函數</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -2176,9 +2176,9 @@ Classify 函數中的運算子是[!UICONTROL 「當值等於原始值」] [!UICO
 
 ## 更多資訊 {#trim-more-info}
 
-[`Trim`](#trim) 和 [`Lowercase`](#lowercase) 是[資料檢視](../component-settings/overview.md)元件設定中已經可用的功能。 使用衍生欄位可讓您合併這些功，可直接在 Customer Journey Analytics 中執行更複雜的資料轉換。 例如，您可以使用 `Lowercase` 刪除事件欄位中的區分大小寫，然後使用 [`Lookup`](#lookup) 將新的小寫欄位配對至只有小寫查詢鍵的查詢資料集。 或者，您可以使用 `Trim` 在新欄位上設定 `Lookup` 之前刪除字元。
+[`Trim`](#trim) 和 [`Lowercase`](#lowercase) 是[資料檢視](../component-settings/overview.md)元件設定中已經可用的功能。 使用衍生欄位可讓您合併這些功能，可直接在 Customer Journey Analytics 中執行更複雜的資料轉換。 例如，您可以使用 `Lowercase` 刪除事件欄位中的區分大小寫，然後使用 [`Lookup`](#lookup) 將新的小寫欄位配對至只有小寫查詢鍵的查詢資料集。 或者，您可以使用 `Trim` 在新欄位上設定 `Lookup` 之前刪除字元。
 
-對衍生欄位中查詢和輪廓欄位的支援，可讓您根據事件查詢和輪廓的屬性來轉換資料。 在企業對企業的情境中，這項支援對於查詢或輪廓資料集內的帳戶層級資料特別有用。 此外，這項支援對於從查詢資料 (如活動資訊和優惠類型) 或輪廓資料 (如會員等級和帳戶類型) 處理公共欄位中的資料很有用。
+對衍生欄位中查詢和輪廓欄位的支援，可讓您根據事件查詢和輪廓的屬性來轉換資料。 在企業對企業的情境中，這項支援對於查詢或輪廓資料集內的帳戶層級資料特別有用。 此外，這項支援也有助於操作共用欄位中的資料，這些資料可來自查詢資料 (如活動資訊和優惠類型) 或輪廓資料 (如會員等級和帳戶類型)。
 
 >[!MORELIKETHIS]
 >

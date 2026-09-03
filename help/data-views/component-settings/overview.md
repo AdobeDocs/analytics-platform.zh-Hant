@@ -1,6 +1,6 @@
 ---
 title: 元件設定
-description: 檢視資料檢視元件的核心設定。
+description: 檢視資料釋圖元件的核心設定。
 exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
@@ -58,15 +58,15 @@ ht-degree: 48%
 | 設定 | 說明/使用案例 |
 | --- | --- |
 | [!UICONTROL 元件類型] | 必填。 可讓您將元件從「量度」變更為「Dimension」，反之亦然。 變更此下拉式選取選單，會將元件移動到其各自包含的元件區域。 |
-| [!UICONTROL 元件名稱] | 必填。 可讓您指定在 Analysis Workspace 中顯示的友好名稱。 您可以重新命名元件，給它一個特定於資料檢視的名稱。 |
+| [!UICONTROL 元件名稱] | 必填。 可讓您指定在 Analysis Workspace 中顯示的易讀名稱。 您可以重新命名元件，給它一個特定於資料釋圖的名稱。 |
 | [!UICONTROL 說明] | 選填，但建議。 為其他使用者提供有關元件的資訊。 |
 | [!UICONTROL 標記] | 選填。 可讓您使用自訂或現成可用的標籤來標籤元件，以便在Analysis Workspace UI中更輕鬆地進行搜尋/篩選。 |
 | [!UICONTROL 內容標籤] | 選填。 可套用至元件的可用系統定義[內容標籤](#context-labels)的下拉式功能表。 |
 | [!UICONTROL 結構描述欄位名稱] | 結構描述欄位的名稱。 |
-| [!UICONTROL 資料集類型] | 必填。 不可編輯的欄位，顯示元件來自的資料集類型 (事件、查詢或輪廓)。 |
+| [!UICONTROL 資料集類型] | 必填。 不可編輯的欄位，顯示元件來自的資料集類型 (事件、查閱或輪廓)。 |
 | [!UICONTROL 資料集] | 不可編輯的欄位，顯示元件來自的資料集。 此欄位可包含多個資料集。 |
 | [!UICONTROL 結構類型] | 不可編輯的欄位，顯示元件的資料類型。 雖然您可以在 Platform 中使用任何支援的結構描述欄位類型，但並非所有欄位類型都在 Customer Journey Analytics 中獲得支援。 以下是支援的資料類型：`Integer`、`Int`、`Long`、`Double`、`Float`、`Number`、`Short`、`Byte`、`String` 和 `Boolean`。 目前在查詢資料集中只允許使用 `String` 結構描述資料類型。 |
-| [!UICONTROL 元件 ID] | 必填。 [Customer Journey Analytics API](https://www.adobe.io/cja-apis/docs) 會使用此欄位來參照元件。 資料檢視中的每個元件都必須是唯一的。 Adobe 會自動為每個元件產生一個 ID；但是，您可以按一下編輯圖示並修改元件 ID。 變更元件 ID 會中斷包含此元件的所有現有 Workspace 專案。 雖然每個元件在單個資料檢視中都需要一個唯一 ID，但您可以在其他資料檢視中使用相同的元件 ID。 如果您在其他資料視圖中使用相同的元件 ID，您可以使 Workspace 專案跨資料視圖相容。 <br/>對於以輪廓和查詢為基礎的元件，元件 ID 具有以資料集 ID 為依據的 ID 首碼 (例如：`642b28fcc1f0ee1c074265a0.person.name.firstName`)。 您想要在 Workspace 專案中重複使用以輪廓或查詢為基礎的元件 (例如 `person.name.firstName`)，並在不同的資料視圖中設定該元件時，請確保在資料視圖中以不重複的方式重新命名元件 ID (例如：`myUniqueID.person.name.firstName`)。 |
+| [!UICONTROL 元件 ID] | 必填。 [Customer Journey Analytics API](https://www.adobe.io/cja-apis/docs) 會使用此欄位來參照元件。 資料釋圖中的每個元件都必須是唯一的。 Adobe 會自動為每個元件產生一個 ID；但是，您可以按一下編輯圖示並修改元件 ID。 變更元件 ID 會中斷包含此元件的所有現有 Workspace 專案。 雖然每個元件在單個資料檢視中都需要一個唯一 ID，但您可以在其他資料檢視中使用相同的元件 ID。 如果您在其他資料視圖中使用相同的元件 ID，您可以使 Workspace 專案跨資料視圖相容。 <br/>對於以輪廓和查詢為基礎的元件，元件 ID 具有以資料集 ID 為依據的 ID 首碼 (例如：`642b28fcc1f0ee1c074265a0.person.name.firstName`)。 您想要在 Workspace 專案中重複使用以輪廓或查詢為基礎的元件 (例如 `person.name.firstName`)，並在不同的資料視圖中設定該元件時，請確保在資料視圖中以不重複的方式重新命名元件 ID (例如：`myUniqueID.person.name.firstName`)。 |
 | [!UICONTROL 路徑] | 必填。 不可編輯的欄位，顯示元件來自的結構描述路徑。 |
 | [!UICONTROL 資料使用情況標籤] | 在Adobe Experience Platform中指派給此元件的任何資料使用標籤。 [了解更多](/help/data-views/data-governance.md)。 |
 | [!UICONTROL 隱藏報告中的元件] | 可讓您從非管理員的資料檢視中組織出元件。 管理員仍可以按一下 Analysis Workspace 專案中的「[!UICONTROL 顯示所有元件]」來存取它。 |
@@ -108,8 +108,8 @@ ht-degree: 48%
 * **一致性**：貴組織中處理一或多個專案的人，如果是以使用內容標籤的資料檢視為基礎，都會有相同的行為。
 * **功能與範本的可見度**：某些視覺效果和功能只有在指派適當的內容標籤時才會出現。 例如：
 
-   * 只有當Customer Journey Analytics知道哪些元件代表經緯度時，[地圖](/help/analysis-workspace/visualizations/map.md)視覺效果才會正確顯示。
-   * 只有套用正確的內容標籤且相關的元件可供使用時，才能看到特定[範本](/help/analysis-workspace/templates/use-templates.md)。
+  * 只有當Customer Journey Analytics知道哪些元件代表經緯度時，[地圖](/help/analysis-workspace/visualizations/map.md)視覺效果才會正確顯示。
+  * 只有套用正確的內容標籤且相關的元件可供使用時，才能看到特定[範本](/help/analysis-workspace/templates/use-templates.md)。
 
 在下列情況下可能需要內容標籤：
 
@@ -125,7 +125,7 @@ ht-degree: 48%
 
 * 顯示Adobe[&#128279;](/help/analysis-workspace/templates/use-templates.md)提供的範本。 Adobe提供的部分範本可能無法運作，因為某些元件不在您的資料檢視中。
 
-  對於每個缺少的元件，資料檢視中都有一個相符的內容標籤。 您需要將相符的內容標籤新增至資料檢視中已有的元件。 或者，您需要將新元件新增到資料檢視，並將內容標籤新增到元件（如果尚未自動提供）。
+  對於每個缺少的元件，資料釋圖中都有一個相符的內容標籤。 您需要將相符的內容標籤新增至資料檢視中已有的元件。 或者，您需要將新元件新增到資料檢視，並將內容標籤新增到元件（如果尚未自動提供）。
 
   如需詳細資訊，請參閱[將缺少的元件新增至特定範本的資料檢視](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) (在[建立和管理範本](/help/analysis-workspace/templates/create-templates.md)一文中)。
 
@@ -403,7 +403,7 @@ ht-degree: 48%
 | 動作錯誤 (AJO) | 歷程動作產生的錯誤計數。 |
 | 動作執行錯誤 | 阻止歷程執行階段執行動作的錯誤條件。 |
 | 動作標籤 (AJO) | 客戶為與一般使用者互動的元素所產生的顯示名稱。 |
-| 替代退出 (AJO) | 由於輪廓到達結束節點或因錯誤而失敗使退出未發生的計數。 |
+| 替代退出 (AJO) | 因輪廓到達結束節點或因錯誤而失敗，導致未發生退出的計數。 |
 | 應用程式安裝次數 (AJO) | 應用程式安裝次數。 |
 | 應用程式啟動次數 (AJO) | 行動應用程式的啟動次數。 |
 | 批次 ID (AJO) | GUID 在為排程的歷程或行銷活動動作調用每個新批次執行個體時建立。 例如：如果排程的歷程或行銷活動動作在早上8:00和早上10:00執行，將有兩個不同的batchInstanceID。 |
@@ -448,7 +448,7 @@ ht-degree: 48%
 | 傳入已觸發 (AJO) | 主張已選擇由Adobe SDK顯示。 其他因素可能會使其無法實際顯示。 |
 | 傳送時間是否已最佳化 (AJO) | 訊息執行SendTime是否已最佳化？ |
 | 是測試歷程 | 事件是測試歷程執行的一部分嗎？ |
-| 是測試訊息 (AJO) | 訊息是否以測試執行的形式傳送？ |
+| 是否為測試訊息 (AJO) | 訊息是否以測試執行的形式傳送？ |
 | 項目 ID (持續性) (AJO) | 啟用持續性繫結的項目 ID。 |
 | 項目 ID (AJO) | 項目的 ID。 |
 | 項目名稱 (AJO) | 專案的名稱。 |
@@ -508,7 +508,7 @@ ht-degree: 48%
 | 推播平台 (AJO) | 推送提供者服務，例如APNS或FCM。 |
 | 推送標題 | 推播標題，非個人化。 |
 | 排名策略 ID (AJO) | 排名策略 ID。 |
-| 拒絕同意原則名稱 | 對應的拒絕同意原則的名稱。 |
+| 拒絕同意原則名稱 | 對應的已拒絕同意原則名稱。 |
 | 重試計數 (AJO) | 在成功或失敗之前重試傳送訊息的次數。 |
 | 規則名稱 | 導致拒絕歷程進入的規則名稱。 |
 | 選擇類型 (AJO) | 這是將專案衍生為決定的一部分時，所使用的選取型別。 |

@@ -45,7 +45,7 @@ Adobe Analytics和Customer Journey Analytics資料摘要欄之間不可能有真
 
 >[!NOTE]
 >
->此參考僅包含Adobe根據[Analytics資料摘要資料行參考](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)視為目前的資料行。 如果您的Analytics資料摘要欄位未在此表格中列出，且您主動使用，請參閱貴組織的解決方案設計檔案，以判斷其在Customer Journey Analytics中的最佳對應專案。
+>此參考僅包含Adobe根據[Analytics資料摘要資料行參考](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)視為目前的資料行。 如果您的Analytics資料摘要欄位未在此表格中列出，且您主動使用，請參閱貴組織的解決方案設計檔案，以判斷其在Customer Journey Analytics中的最佳對應專案。
 
 +++**`accept_language`**
 
@@ -310,7 +310,7 @@ Customer Journey Analytics並沒有事件型別的原生概念，其會根據點
 
 +++**`cust_hit_time_gmt`**
 
-僅限啟用時間戳記的報告套裝。 時間戳記根據 UNIX® 時間隨點擊傳送。
+僅限啟用時間戳記的報告套裝。 隨點擊傳送的時間戳記，以 UNIX® 時間為基準。
 
 Customer Journey Analytics沒有時間戳記與非時間戳記報表套裝的概念。 請改用`xdm.timestamp`，並視需要調整元件設定。
 
@@ -374,7 +374,7 @@ Customer Journey Analytics支援使用[`identityMap`](https://experienceleague.a
 
 +++**`duplicated_from`**
 
-僅用於包含點擊複製 VISTA 規則的報告套裝。 指出從中複製點擊的報告套裝。
+僅用於包含點擊複製 VISTA 規則的報告套裝。 指出該點擊是從哪個報告套裝複製而來。
 
 {{cja-df-na}}
 
@@ -498,7 +498,7 @@ Customer Journey Analytics報表中現在不存在已排除的點選，但資料
 
 +++**`first_hit_ref_type`**
 
-代表訪客接觸的第一個反向連結之類型的數值 ID。
+代表訪客最初反向連結類型的數值 ID。
 
 {{cja-df-lookup}}
 
@@ -560,13 +560,13 @@ Customer Journey Analytics報表中現在不存在已排除的點選，但資料
 
 +++**`hit_time_gmt`**
 
-Adobe 資料收集伺服器收到點擊的時間戳記 (根據 UNIX® 時間)。
+Adobe 資料彙集伺服器收到點擊的時間戳記 (根據 UNIX® 時間)。
 
 +++
 
 +++**`hourly_visitor`**
 
-一個標幟，用來判斷該點擊是否來自新的每小時訪客。
+一個標幟，用來判斷該點擊是否為新的每小時訪客。
 
 +++
 
@@ -650,7 +650,7 @@ Java已啟用維度。 <br>Y：啟用 <br>N：停用 <br>U：未知
 
 +++**`mcvisid`**
 
-Experience Cloud 訪客 ID。 由兩個連接的 64 位數組成，並填入至 19 位的 128 位數。
+Experience Cloud 訪客 ID。 由兩個串接且補齊至 19 位數的 64 位數組成的 128 位數。
 
 +++
 
@@ -756,7 +756,7 @@ Experience Cloud 訪客 ID。 由兩個連接的 64 位數組成，並填入至 
 
 +++**`mobilecampaignterm`**
 
-您要對此贏取追蹤的付費關鍵字或其他詞語。 由「行動應用程式贏取」填入。
+您要透過此次贏取追蹤的付費關鍵字或其他詞語。 由「行動應用程式贏取」填入。
 
 {{cja-df-post}}
 
@@ -764,7 +764,7 @@ Experience Cloud 訪客 ID。 由兩個連接的 64 位數組成，並填入至 
 
 +++**`mobiledayofweek`**
 
-應用程式啟動的工作日數。
+應用程式啟動當日是星期幾的數字。
 
 {{cja-df-post}}
 
@@ -802,7 +802,7 @@ Experience Cloud 訪客 ID。 由兩個連接的 64 位數組成，並填入至 
 
 +++**`mobilehourofday`**
 
-定義一天當中啟動應用程式的時段。 請依照 24 小時數字格式。
+定義一天當中啟動應用程式的小時。 請依照 24 小時數字格式。
 
 {{cja-df-post}}
 
@@ -830,7 +830,7 @@ Mobile 安裝日期。 提供使用者初次開啟行動應用程式的日期。
 
 +++**`mobilemessagebuttonname`**
 
-從內容資料變數`a.message.button.id`中收集。 用於應用程式內傳訊，以識別關閉訊息的按鈕。
+從內容資料變數`a.message.button.id`中收集。 用於應用程式內傳送訊息，以識別關閉訊息的按鈕。
 
 {{cja-df-post}}
 
@@ -904,7 +904,7 @@ Mobile 安裝日期。 提供使用者初次開啟行動應用程式的日期。
 
 +++**`mobilepushpayloadid`**
 
-Mobile Services 推送承載 ID
+行動服務推送承載 ID
 
 {{cja-df-post}}
 
@@ -912,25 +912,25 @@ Mobile Services 推送承載 ID
 
 +++**`mobilerelaunchcampaigncontent`**
 
-行動服務上市內容
+行動服務啟動內容
 
 +++
 
 +++**`mobilerelaunchcampaignmedium`**
 
-行動服務上市媒體
+行動服務啟動媒體
 
 +++
 
 +++**`mobilerelaunchcampaignsource`**
 
-行動服務上市來源
+行動服務啟動來源
 
 +++
 
 +++**`mobilerelaunchcampaignterm`**
 
-行動服務上市條件
+行動服務啟動條件
 
 +++
 
@@ -963,7 +963,7 @@ Mobile Services 推送承載 ID
 
 +++**`mvvar1`** - **`mvvar3`**
 
-清單變數值。 根據實施包含使用分隔符號的自訂值清單。 `post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。
+清單變數值。 包含依實施而定、以分隔符號分隔的自訂值清單。 `post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。
 
 {{cja-df-post}}
 
@@ -1150,7 +1150,7 @@ Mobile Services 推送承載 ID
 
 +++**`search_engine`**
 
-代表將訪客反向連結至您的網站的搜尋引擎的數值 ID。 用於搜尋引擎維度。
+代表將訪客轉介到您的網站的搜尋引擎的數值 ID。 用於搜尋引擎維度。
 
 {{cja-df-post}}
 
@@ -1262,7 +1262,7 @@ Mobile Services 推送承載 ID
 
 +++**`user_hash`**
 
-未使用。 報告套裝 ID 上的雜湊. 請改用 `username`。
+未使用。 報告套裝 ID 上的雜湊。 請改用 `username`。
 
 +++
 
@@ -1680,7 +1680,7 @@ MVPD串流媒體服務維度。
 
 +++**`visit_keywords`**
 
-搜尋關鍵字維度。 此欄使用非標準字元限制 varchar(244) 來容納 Adobe 使用的後端邏輯。 後續處理的資料行是`**post_keywords**`，而非`**post_visit_keywords**`。
+搜尋關鍵字維度。 此欄使用非標準字元限制 varchar(244)，以配合 Adobe 使用的後端邏輯。 後續處理的資料行是`**post_keywords**`，而非`**post_visit_keywords**`。
 
 {{cja-df-post}}
 

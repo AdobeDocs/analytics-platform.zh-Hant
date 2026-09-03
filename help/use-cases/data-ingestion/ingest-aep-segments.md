@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1680
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -496,8 +496,8 @@ You can now report on `audienceMembershipId`, `audienceMembershipIdName` and `pe
 ## 其他附註
 
 * 您應定期執行此流程，以便在Customer Journey Analytics中持續重新整理對象資料。
-* 您可以在單一Customer Journey Analytics連線中匯入多個對象。 這對流程新增了更多複雜性，但這是可能的。 為了辦到這點，您需要對上述流程進行一些修改：
-   1. 對 RTCP 中客群集合中的每個所需客群執行此流程。
-   1. Customer Journey Analytics支援設定檔資料集中的陣列/物件陣列。 針對`audienceMembershipId`或`audienceMembershipIdName`使用[物件陣列](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=zh-Hant)是最佳選項。
-   1. 在您的資料檢視中，利用 `audienceMembershipId`欄位上的子字串轉換建立新的維度，以將逗號分隔的值字串轉換成陣列。 注意：目前陣列中的上限為 10 個值。
-   1. 您現在可以在Customer Journey Analytics Workspace中報告此新維度`audienceMembershipIds`。
+* 您可以在單一Customer Journey Analytics連線中匯入多個對象。 這會讓流程更加複雜，但這是可行的。 為了辦到這點，您需要對上述流程進行一些修改：
+  1. 對 RTCP 中客群集合中的每個所需客群執行此流程。
+  1. Customer Journey Analytics支援設定檔資料集中的陣列/物件陣列。 針對`audienceMembershipId`或`audienceMembershipIdName`使用[物件陣列](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=zh-Hant)是最佳選項。
+  1. 在您的資料檢視中，利用 `audienceMembershipId`欄位上的子字串轉換建立新的維度，以將逗號分隔的值字串轉換成陣列。 注意：目前陣列中的上限為 10 個值。
+  1. 您現在可以在Customer Journey Analytics Workspace中報告此新維度`audienceMembershipIds`。

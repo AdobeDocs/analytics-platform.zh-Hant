@@ -59,7 +59,7 @@ Customer Journey Analytics 從 Adobe Experience Platform 取得資料。 Experie
 
 Experience Platform 中的客戶資料以資料集形式儲存，資料集含有[結構描述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=zh-Hant)和資料批次。 如需有關 Platform 的詳細資訊，請參閱 [Adobe Experience Platform 架構概觀](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=zh-Hant)。
 
-您的 Customer Journey Analytics 管理員會建立與 Experience Platform 中資料集的[連線](/help/connections/create-connection.md)。 然後他們會使用這些連線來建置[資料檢視](/help/data-views/data-views.md)。 資料檢視在概念上與虛擬報告套裝相似，是 Customer Journey Analytics 報告的基礎。 由於 Experience Platform 會從是所有報告資料取得來源，因此報告套裝不再以資料容器存在。
+您的 Customer Journey Analytics 管理員會建立與 Experience Platform 中資料集的[連線](/help/connections/create-connection.md)。 然後他們會使用這些連線來建置[資料檢視](/help/data-views/data-views.md)。 資料檢視在概念上與虛擬報告套裝相似，是 Customer Journey Analytics 報告的基礎。 由於 Experience Platform 是所有報告資料的來源，因此報告套裝不再作為資料容器存在。
 
 透過連線，Analytics 管理員可以將取自 Adobe Experience Platform 的資料集整合到 Customer Journey Analytics。
 
@@ -80,7 +80,7 @@ Adobe 提供了多種將資料導入 Adobe Experience Platform 的方法，包�
 
 ## 虛擬報告套裝概念的變動 {#data-views}
 
-[!UICONTROL 資料檢視]運用現有的虛擬報告套裝概念，並將其擴展以[啟用透過連接使資料成為可用的其他控制項](/help/data-views/create-dataview.md)。 這些變動使一般設定 (如時區和工作階段超時間隔) 成為可設定且具有追溯性。 也可以在報告或資料檢視級別上自定義個別變數設定，如屬性和期限。 這些設定為不具損害性且可追溯。
+[!UICONTROL 資料檢視]運用現有的虛擬報告套裝概念，並將其擴展以[啟用透過連接使資料成為可用的其他控制項](/help/data-views/create-dataview.md)。 這些變動使一般設定 (如時區和工作階段超時間隔) 成為可設定且具有追溯性。 也可以在報告或資料檢視級別上自定義個別變數設定，如屬性和期限。 這些設定不具破壞性，且可追溯套用。
 
 請注意，右上方的報告套裝選擇器現在允許您從可用資料檢視中進行選擇：
 
@@ -119,11 +119,11 @@ Adobe Analytics 和 Customer Journey Analytics 之間的計算量度名稱類似
 
 >[!ENDSHADEBOX]
 
-## 變數屬性和過期設定的變動
+## 變數歸因和過期設定的變動
 
 [!UICONTROL Customer Journey Analytics] 在報告時會套用所有變數設定，包括屬性和過期。 這些設定現在位於[資料檢視](/help/data-views/component-settings/persistence.md)中，並且某些變數設定 (如屬性) 可以在工作區專案中變動。
 
-在相同資料檢視中，相同變數可以有多個版本。 例如，您可以有一個追蹤程式碼維度，該維度會在 30 天後過期，另一個維度會在工作階段結束時過期。 這兩個追蹤程式碼都使用相同的來源資料，但使用不同的屬性設定。
+在相同資料釋圖中，相同變數可以有多個版本。 例如，您可以有一個追蹤程式碼維度，該維度會在 30 天後過期，另一個維度會在工作階段結束時過期。 這兩個追蹤程式碼維度都使用相同的來源資料，但使用不同的歸因設定。
 
 您也可根據相同連接有多個資料檢視。 例如，您可以有一個工作階段超時 30 分鐘的資料檢視，另一個工作時段超時 15 分鐘的資料檢視。 兩個資料檢視都顯示在右上部選擇器中，因此您可以在兩個之間無縫轉換。
 

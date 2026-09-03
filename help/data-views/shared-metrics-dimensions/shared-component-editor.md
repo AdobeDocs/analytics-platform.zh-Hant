@@ -40,9 +40,9 @@ ht-degree: 0%
 介麵包含三個主要欄/區段：
 
 * **結構描述欄位選擇器**：找到所需的結構描述欄位，並將其拖曳至包含的元件區域。
-   * **連線**：使用中的連線。 變更[共用量度和維度管理員](smd-overview.md)中的作用中連線。
-   * **元件清單**：您可以選擇從下拉式功能表中選取[!UICONTROL 結構描述欄位] （全新共用維度和量度）或[!UICONTROL 量度和維度] （現有的共用元件）。
-   * **搜尋**：使用![搜尋圖示](/help/assets/icons/Search.svg)文字搜尋，依名稱尋找所需的結構描述欄位或共用元件。 您也可以使用![篩選圖示](/help/assets/icons/Filter.svg)篩選來縮小元件清單的範圍。 `Is not deprecated`篩選器預設為使用中。
-   * **建立衍生欄位**：允許您[建立衍生欄位](/help/data-views/derived-fields/derived-fields.md)。
+  * **連線**：使用中的連線。 變更[共用量度和維度管理員](smd-overview.md)中的作用中連線。
+  * **元件清單**：您可以選擇從下拉式功能表中選取[!UICONTROL 結構描述欄位] （全新共用維度和量度）或[!UICONTROL 量度和維度] （現有的共用元件）。
+  * **搜尋**：使用![搜尋圖示](/help/assets/icons/Search.svg)文字搜尋，依名稱尋找所需的結構描述欄位或共用元件。 您也可以使用![篩選圖示](/help/assets/icons/Filter.svg)篩選來縮小元件清單的範圍。 `Is not deprecated`篩選器預設為使用中。
+  * **建立衍生欄位**：允許您[建立衍生欄位](/help/data-views/derived-fields/derived-fields.md)。
 * **包含的元件**：您設定為共用的元件。 建立共用元件時，您可以將多個結構欄位拖曳至此區域，以同時建立多個元件。 編輯共用元件時，您可以選取多個要編輯的元件，這會列出此區域中所有選取的元件。
 * **元件設定**：在包含的元件區域中選取元件時，可以在此欄中設定所有可用的設定。 檢視[元件設定](/help/data-views/component-settings/overview.md)，瞭解維度和量度的所有可用選項。 按住Shift鍵並按一下所包含元件區域中的多個元素，即可同時編輯任何通用欄位。

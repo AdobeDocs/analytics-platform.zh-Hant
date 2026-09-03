@@ -1,6 +1,6 @@
 ---
 title: 稽核記錄
-description: 了解如何檢視和管理 Customer Journey Analytics 審計日誌。
+description: 了解如何檢視和管理 Customer Journey Analytics 稽核記錄。
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
@@ -50,7 +50,7 @@ ht-degree: 98%
 
 為了提高系統中所執行活動的透明度和可見度，Adobe Customer Journey Analytics 可讓您以「稽核記錄」的形式，稽核各種服務和功能的使用者活動。 這些記錄形成了稽核軌跡，可以幫助解決問題，並幫助您的企業有效地遵守公司資料管理原則和監管要求，例如健康保險便利和責任法案 (HIPAA)。
 
-就基本概念而言，稽核記錄說明了&#x200B;**誰**&#x200B;執行了&#x200B;**什麼**&#x200B;動作，以及&#x200B;**何時**&#x200B;執行。 稽核記錄中所記錄的每個動作都包含中繼資料，其指出動作類型、日期和時間、執行動作之使用者的電子郵件 ID，以及與動作類型相關的其他屬性。
+就基本概念而言，稽核記錄說明了&#x200B;**誰**&#x200B;執行了&#x200B;**什麼**&#x200B;動作，以及&#x200B;**何時**&#x200B;執行。 稽核記錄中所記錄的每個動作都包含後設資料，其指出動作類型、日期和時間、執行動作之使用者的電子郵件 ID，以及與動作類型相關的其他屬性。
 
 稽核記錄檔會保留90天。 之後，稽核記錄會自動刪除。
 
@@ -81,49 +81,49 @@ ht-degree: 98%
 系統會顯示以下項目：
 
 * **[!UICONTROL 動作名稱]**：所採取的動作。 可能的值包括：
-   * API_REQUEST：任何動作都會觸發後端 API 請求。 顯示有&#x200B;&#x200B;關 API 請求的詳細資訊。
-   * 核准：已執行「核准」動作。
-   * 建立：已執行「建立」動作。
-   * 刪除：已執行「刪除」動作。
-   * 編輯：已執行「編輯」動作。
-   * EMBARGO：當您在[報告活動管理員](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests)中限制某項請求時，該動作會以 EMBARGO 記錄在稽核紀錄中。
-   * 匯出：已執行了「匯出」動作。
-   * ORG_CHANGE：已執行組織變更動作。
-   * REFRESH：已執行「重新整理」動作。
-   * 分享：已執行「分享」動作。
-   * 轉移：已執行轉移動作。
-   * 不核准：已執行「不核准」動作。
-   * 取消共用：已執行「取消共用」動作。
+  * API_REQUEST：任何動作都會觸發後端 API 請求。 顯示 API 請求的詳細資訊。
+  * 核准：已執行「核准」動作。
+  * 建立：已執行「建立」動作。
+  * 刪除：已執行「刪除」動作。
+  * 編輯：已執行「編輯」動作。
+  * EMBARGO：當您在[報告活動管理員](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests)中限制某項請求時，該動作會以 EMBARGO 記錄在稽核紀錄中。
+  * 匯出：已執行了「匯出」動作。
+  * ORG_CHANGE：已執行組織變更動作。
+  * REFRESH：已執行「重新整理」動作。
+  * 分享：已執行「分享」動作。
+  * 轉移：已執行轉移動作。
+  * 不核准：已執行「不核准」動作。
+  * 取消共用：已執行「取消共用」動作。
 * **[!UICONTROL 建立日期]**：採取行動的日期和時間。
 * **[!UICONTROL 說明]**：動作的摘要。
 * **[!UICONTROL 使用者名稱]**：採取行動的使用者。 有時，使用者名稱可能會遺失。 考慮使用[產品使用情況](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/product-usage/usage-overview)功能，因為此功能隨時會包含登入使用者名稱。
 * **[!UICONTROL 電子郵件]**：採取行動使用者的電子郵件地址。
 * **[!UICONTROL 元件名稱]**：使用者採取行動所針對的元件。
 * **[!UICONTROL 元件類型]**：元件的類型。 可能的值包括：
-   * 註解
-   * 客群
-   * CALCULATED_METRIC
-   * 連線
-   * DATA_GROUP
-   * DATA_VIEW
-   * DATASET_STITCHING
-   * DATE_RANGE
-   * FEATURE_ACCESS
-   * 篩選器
-   * IMS_ORG
-   * MOBILE
-   * 專案 (Workspace)
-   * 報告
-   * SCHEDULED_PROJECT
-   * 使用者
-   * USER_GROUP
+  * 註解
+  * 客群
+  * CALCULATED_METRIC
+  * 連線
+  * DATA_GROUP
+  * DATA_VIEW
+  * DATASET_STITCHING
+  * DATE_RANGE
+  * FEATURE_ACCESS
+  * 篩選器
+  * IMS_ORG
+  * MOBILE
+  * 專案 (Workspace)
+  * 報告
+  * SCHEDULED_PROJECT
+  * 使用者
+  * USER_GROUP
 * **[!UICONTROL 元件 ID]**：使用者採取行動所針對的元件 ID。
 * **[!UICONTROL IMS Org ID]**：組織的 IMS ID，格式為 `ABC123@AdobeOrg`。
 * **[!UICONTROL 記錄 ID]**：識別此記錄項目的唯一 ID。
 * **[!UICONTROL 使用者 ID]**：識別採取行動使用者的唯一 ID。
 * **[!UICONTROL 使用者類型]**：使用的驗證類型。 有效值包括：
-   * IMS
-   * OKTA
+  * IMS
+  * OKTA
 
 ### 篩選稽核記錄
 

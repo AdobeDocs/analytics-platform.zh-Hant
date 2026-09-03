@@ -39,7 +39,7 @@ ht-degree: 89%
 
 {{upgrade-note}}
 
-從 Adobe Analytics 以外的解決方案升級至 Customer Journey Analytics 的推薦流程是 Experience Platform Web SDK 的新實施，這是較適合 Customer Journey Analytics 的資料收集方法。 結合 Web SDK 後，Adobe 也建議將第三方分析解決方案的歷史資料攝取至 Adob&#x200B;&#x200B;e Experience Platform。
+從 Adobe Analytics 以外的解決方案升級至 Customer Journey Analytics 的推薦流程是 Experience Platform Web SDK 的新實施，這是較適合 Customer Journey Analytics 的資料收集方法。 結合 Web SDK 後，Adobe 也建議將第三方分析解決方案的歷史資料攝取至 Adobe Experience Platform。
 
 <!-- After you have enough historical data using the Experience Platform Web SDK and you have fully transitioned to Customer Journey Analytics, the Analytics source connector can be turned off and the Web SDK can be used exclusively. -->
 

@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 383
+source-wordcount: 387
 ht-degree: 6%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 6%
    ![排程歷程記錄](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
    使用![搜尋](/help/assets/icons/Search.svg)來搜尋清單中的特定活頁簿。
-使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)定義要顯示哪些欄。
+   使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)定義要顯示哪些欄。
 
    **[!UICONTROL 歷程記錄]**&#x200B;索引標籤可讓您檢閱每個排程工作的狀態。 個別的列會記錄每個排程任務的狀態變更。
 

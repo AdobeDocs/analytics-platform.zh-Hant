@@ -46,7 +46,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->本快速入門手冊是一份簡化的指南，說明如何使用將臨時資料擷取到Experience Platform中，以及在Customer Journey Analytics中使用該臨時資料。 強烈建議在提及時研究其他資訊。
+>本快速入門手冊是一份簡化的指南，說明如何使用將臨時資料擷取到Experience Platform中，以及在Customer Journey Analytics中使用該臨時資料。 強烈建議在提及時查閱其他資訊。
 
 
 ## 使用CSV檔案建立資料集
@@ -180,7 +180,7 @@ ht-degree: 26%
 
 資料檢視是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 它指定 Analysis Workspace 中可用的所有維度和量度，以及這些維度和量度從哪些欄取得資料。 資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
-若要建立資料檢視，請執行以下操作：
+若要建立資料釋圖，請執行以下操作：
 
 1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 

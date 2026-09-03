@@ -20,7 +20,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 2491
+source-wordcount: 2496
 ht-degree: 4%
 
 ---
@@ -47,8 +47,8 @@ ht-degree: 4%
 
 * [要包含哪些資料作為區段定義整體順序的一部分](#include)。 或針對定義為容器一部分的序列。 依預設，會考量所有相符的資料。 該資料由![UserGroup](/help/assets/icons/UserGroup.svg) [!UICONTROL 包含所有人]識別。
 
-   * 選取![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**，只考慮序列之前的資料。
-   * 選取![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After After After]**，僅考慮序列之後的資料。
+  * 選取![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**，只考慮序列之前的資料。
+  * 選取![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After After After]**，僅考慮序列之後的資料。
 
 * 要將[排除](#exclude)的哪些資料視為循序區段定義的一部分。
 
@@ -129,7 +129,7 @@ ht-degree: 4%
 
 ![序列在](assets/sequence-after.png)之後
 
-如果首頁的頁面檢視發生在2024年6月1日00:01，則對頁面的頁面檢視為女性 |只要2024年6月15日:01之後發生該頁面檢視，鞋子就會符合。
+如果首頁的頁面檢視發生在2024年6月1日00:01，則為頁面女性提供頁面檢視 |只要2024年6月15日00:01之後發生該頁面檢視，鞋子就會符合。
 
 ##### [!UICONTROL Within]運運算元
 
@@ -137,7 +137,7 @@ ht-degree: 4%
 
 ![在](assets/sequence-within.png)內的順序
 
-如果首頁的頁面檢視發生於2024年6月1日的12:01，則對頁面的女性頁面進行頁面檢視 |只要2024年6月15日12:16之前發生該頁面檢視，鞋子就會相符。
+如果首頁的頁面檢視發生於2024年6月1日12:01，則對頁面的頁面檢視為「女性」 |只要2024年6月15日12:16之前發生該頁面檢視，鞋子就會相符。
 
 ##### [!UICONTROL After]但[!UICONTROL Within]運運算元
 
@@ -145,7 +145,7 @@ ht-degree: 4%
 
 ![順序晚於](assets/sequence-afterbutwithin.png)但以內
 
-任何在2024年6月1日點選首頁及回訪女性網站的人 | 2019年6月15日之後00:01，但2019年7月1日之前的「鞋子」頁面符合此區段的資格。
+任何在2024年6月1日點選首頁及回訪女性網站的人 | 2019年6月15日之後00:01，但2019年7月1日之前的「鞋子」頁面符合該區段的資格。
 
 
 ### [!UICONTROL 事件]、[!UICONTROL 工作階段]和[!UICONTROL Dimension]限制

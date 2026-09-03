@@ -78,7 +78,7 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
    選取&#x200B;**[!UICONTROL 「下一步」]**。
 
-5. 選取&#x200B;**[!UICONTROL 預設結構]**&#x200B;作為[!UICONTROL 目標結構]。 Adobe Experience Platform 會自動建立結構和對應的資料集，以對應所選 Adobe Analytics 報告套裝中的所有標準欄位。
+5. 選取&#x200B;**[!UICONTROL 預設結構]**&#x200B;作為[!UICONTROL 目標結構]。 Adobe Experience Platform 會自動建立結構描述和對應的資料集，以對應所選 Adobe Analytics 報告套裝中的所有標準欄位。
 
    已選取預設結構描述的![Adobe Experience Platform視窗](./assets/default-schema.png)
 
@@ -135,11 +135,11 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
    - 對於每個資料集：
 
-      - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取[!UICONTROL 人員 ID]。
+     - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取[!UICONTROL 人員 ID]。
 
-      - 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。 如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
+     - 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。 如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
 
-      - 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
+     - 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
 
      ![設定資料集](./assets/cja-connections-3a.png)
 
@@ -149,11 +149,11 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
 如需如何建立和管理連線，以及如何選取和合併資料集的詳細資訊，請參閱[連線概觀](../connections/overview.md)。
 
-## 設定資料檢視
+## 設定資料釋圖
 
 資料檢視是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 它指定 Analysis Workspace 中可用的所有維度和量度，以及這些維度和量度從哪些欄取得資料。 資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
-若要建立資料檢視，請執行以下操作：
+若要建立資料釋圖，請執行以下操作：
 
 1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 
@@ -204,7 +204,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區 – 空白專案](./assets/cja-projects-2.png)
 
-4. 從清單中選取您的資料檢視。
+4. 從清單中選取您的資料釋圖。
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 

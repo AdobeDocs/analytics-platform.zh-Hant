@@ -1,6 +1,6 @@
 ---
 title: 了解升級至 Customer Journey Analytics 時的 Adobe Analytics 功能支援
-description: 了解關於升級至 Customer Journey Analytics 時的 Adobe Analytics 功能支援
+description: 了解升級至 Customer Journey Analytics 時的 Adobe Analytics 功能支援
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -97,7 +97,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-streaming-media"
 >title="串流媒體資料"
->abstract="Adobe Analytics 及 Customer Journey Analytics 的附加元件，專門用於媒體的資料收集，例如音訊、視訊或串流內容。"
+>abstract="Adobe Analytics 及 Customer Journey Analytics 的附加元件，專門用於媒體的資料彙集，例如音訊、影片或串流內容。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -120,8 +120,8 @@ ht-degree: 100%
 |---------|----------|
 | [Adobe Analytics 中的元件和專案](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) | [將專案及其相關元件移轉到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)。 |
 | [Activity Map 覆蓋和連結追蹤](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/activity-map/overview) | 尚無法使用 |
-| [分類資料](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/classifications/c-classifications) | 查閱資料集是為 Customer Journey Analytics 資料分類的方法。<p>[針對包含分類資料的每個維度建立查詢資料集。](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
-| [行銷管道](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | 衍生欄位是在資料檢視中建立。 <p>[建立行銷管道衍生的欄位。](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |
+| [分類資料](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/classifications/c-classifications) | 查找資料集是在 Customer Journey Analytics 中為資料分類的方法。<p>[針對包含分類資料的每個維度建立查詢資料集。](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)</p> |
+| [行銷管道](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/marketing-channels/c-getting-started-mchannel) | 衍生欄位是在資料釋圖中建立。 <p>[建立行銷管道衍生的欄位。](/help/getting-started/cja-upgrade/cja-upgrade-marketing-channel.md)</p> |
 | [資料摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/analytics-data-feed/data-feed-overview) | Experience Platform 和 Customer Journey Analytics 提供許多功能，可以獨立或組合解決各種匯出需求。 這些功能包括 [Experience Platform Data Access API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=zh-Hant)、[Experience Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant)、[Customer Journey Analytics 完整表格匯出](/help/analysis-workspace/export/export-cloud.md)和 [BI 工具整合](/help/data-views/bi-extension.md)。<p>如需關於匯出選項的詳細資訊，請參閱[資料匯出使用案例](/help/use-cases/data-export/overview.md)。</p> |
 | [Data Warehouse](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/data-warehouse/data-warehouse) | [Customer Journey Analytics 完整表格匯出](/help/analysis-workspace/export/export-cloud.md)是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多使用者經常要求且目前 Data Warehouse 目前尚未提供的新功能。 |
 | [串流媒體資料](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview) | 串流媒體資料可使用 Analytics 來源連接器當作工作區中的「媒體同時檢視者」面板和「媒體播放時間」面板的一部分提供。 |

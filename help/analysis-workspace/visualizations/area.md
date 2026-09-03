@@ -18,8 +18,8 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 226
-ht-degree: 70%
+source-wordcount: 235
+ht-degree: 71%
 
 ---
 
@@ -49,7 +49,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 
 
-![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 區域圖]**&#x200B;視覺效果類似線圖，但在線圖下方有一塊上色區域。 有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可新增區域圖。
+![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 區域圖]**&#x200B;視覺效果類似線圖，但在線圖下方有一塊上色區域。 當您有多個量度，且想要將兩個或多個量度交集所呈現的區域視覺化時，可新增區域圖。
 
 ![顯示多個量度的區域圖視覺效果](assets/area.png)
 

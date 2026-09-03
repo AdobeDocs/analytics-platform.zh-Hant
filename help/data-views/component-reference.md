@@ -29,7 +29,7 @@ ht-degree: 90%
 
 # 標準元件參考
 
-Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experience Platform 資料集中的結構描述元素。 但是，無論您使用何種連線，都可以將多個元件新增到資料檢視中。
+Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experience Platform 資料集中的結構描述元素。 但是，無論您使用何種連線，都可以將多個元件新增到資料釋圖中。
 
 [!UICONTROL 標準元件]是不是從資料集結構欄位產生，而是從系統產生的元件。 需要一些系統元件，以利 Analysis Workspace 的報告功能，而其他系統元件則是選用的。
 
@@ -37,7 +37,7 @@ Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experie
 
 ## 必要標準元件 {#required}
 
-依預設，這些必要的標準元件會新增至每個資料檢視。 它們對於 Customer Journey Analytics 提供的報告功能至關重要。
+依預設，這些必要的標準元件會新增至每個資料釋圖。 它們對於 Customer Journey Analytics 提供的報告功能至關重要。
 
 ### 標準維度
 
@@ -73,7 +73,7 @@ Customer Journey Analytics 中的大多數維度和量度都根據 Adobe Experie
 | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL 購買群組 ID] | 維度 | 當您在連線中使用購買群組容器時，請輸入[!UICONTROL 購買群組 ID]。 |
 | [!UICONTROL 季別] | 時間分段維度 | 第 1 季、第 2 季、第 3 季、第 4 季 |
 | [!UICONTROL 重複工作階段] | 量度 | 不是個人的首次工作階段的工作階段數量。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) |
-| [!UICONTROL 工作階段類型] | 維度 | 此維度有兩個值：1. [!UICONTROL 首次]和 2. 回訪。 [!UICONTROL 首次]條列項目包含已確定為個人定義的首次工作階段之工作階段中所有行為，即此維度的量度。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」貯體。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) |
+| [!UICONTROL 工作階段類型] | 維度 | 此維度有兩個值：1. [!UICONTROL 首次]和 2. 回訪。 [!UICONTROL 首次]條列項目包含已確定為個人定義的首次工作階段之工作階段中所有行為，即此維度的量度。 所有其他資料都會包含在[!UICONTROL 回訪]條列項目中 (假設所有資料都屬於一個工作階段)。 如果量度不屬於任何工作階段，則將屬於此維度的「不適用」桶。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat) |
 | [!UICONTROL 每個事件逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 事件]」值區。 |
 | [!UICONTROL 每個工作階段逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 工作階段]」值區。 |
 | [!UICONTROL 每人逗留時間] | 維度 | 將「[!UICONTROL 逗留時間]」量度儲存至「[!UICONTROL 人員]」值區。 |

@@ -1,6 +1,6 @@
 ---
 title: 了解 Customer Journey Analytics 獨有的功能
-description: 了解關於 Customer Journey Analytics 專屬的獨特功能
+description: 了解 Customer Journey Analytics 獨有的功能
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -61,7 +61,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-integrate-rtcdp"
 >title="與 Real-Time CDP 整合"
->abstract="結合來自多個來源的設定檔資料，根據使用者特徵產生受眾和細分。"
+>abstract="結合來自多個來源的輪廓資料，根據使用者特徵產生客群和區段。"
 
 <!-- markdownlint-enable MD034 -->
 

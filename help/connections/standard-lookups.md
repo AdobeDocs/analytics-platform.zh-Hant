@@ -22,8 +22,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 42%
+source-wordcount: 452
+ht-degree: 43%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 42%
 >標準查詢僅適用於Customer Journey Analytics中的Analytics來源聯結器資料來源。 您可以將其用於標準 Adobe Analytics 實施、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant) 或 Experience Platform 資料收集 API。
 >
 
-標準查詢 (也稱為 Adobe 提供的查詢) 可增強 Customer Journey Analytics 針對部分維度/屬性建立報表的能力，這些維度/屬性本身雖不實用，但與其他資料結合後效用甚大； 像是結合行動裝置和作業系統的屬性以及瀏覽器維度 (例如瀏覽器版本編號)，便是很實用的應用方式。 「標準查詢」類似於查詢資料集。 標準查詢適用於CX Enterprise組織。 內含特定XDM結構描述欄位的所有事件資料集（請參閱底下的特定欄位說明）都會自動套用全域查詢。 Adobe正在分類的每個結構描述位置會有標準查詢資料集存在。
+標準查詢 (也稱為 Adobe 提供的查詢) 可增強 Customer Journey Analytics 針對部分維度/屬性建立報表的能力，這些維度/屬性本身雖不實用，但與其他資料結合後效用甚大。 像是結合行動裝置和作業系統的屬性以及瀏覽器維度 (例如瀏覽器版本編號)，便是很實用的應用方式。 「標準查詢」類似於查詢資料集。 標準查詢適用於CX Enterprise組織。 內含特定XDM結構描述欄位的所有事件資料集（請參閱底下的特定欄位說明）都會自動套用全域查詢。 Adobe正在分類的每個結構描述位置會有標準查詢資料集存在。
 
-在傳統Adobe Analytics中，這些維度會自行顯示，但在Customer Journey Analytics中，您必須在建立資料檢視時主動納入這些維度。 在連線工作流程中，您會選取被標記為有包含標準查詢索引鍵的資料集。 資料檢視 UI 會自動知道要納入可用於報告的所有標準查詢維度。 所有區域和帳戶的查詢檔案都會自動保持在最新狀態。 這些檔案會儲存在與客戶相關聯區域的組織中。
+在傳統Adobe Analytics中，這些維度會自行顯示，但在Customer Journey Analytics中，您必須在建立資料檢視時主動納入這些維度。 在連線工作流程中，您會選取被標記為具有標準查詢索引鍵的資料集。 資料檢視 UI 會自動知道要納入可用於報告的所有標準查詢維度。 所有區域和帳戶的查詢檔案都會自動保持在最新且可用的狀態。 這些檔案會儲存在與客戶相關聯的特定區域組織中。
 
 ## 搭配使用標準查詢與Analytics來源聯結器資料集
 
-標準查詢資料集會在報表時間自動套用。 如果您使用Analytics來源聯結器，並引進Adobe為其提供標準查詢的維度，我們就會自動套用此標準查詢。 如果事件資料集包含 XDM 欄位，我們就能為該資料集套用標準查詢。
+標準查詢資料集會在產生報告時自動套用。 如果您使用Analytics來源聯結器，並引進Adobe為其提供標準查詢的維度，我們就會自動套用此標準查詢。 如果事件資料集包含 XDM 欄位，我們就能對其套用標準查找。
 
 <!--
 ### Specific IDs that need to be populated
@@ -58,13 +58,13 @@ The catch here is that they can only populate those IDs today if they have a dir
 ### 可用的標準查詢欄位
 
 * `browser`
-   * `browser`, `group_id`, `id`
+  * `browser`、`group_id`、`id`
 * `browser_group`
-   * `browser_group`, `id`
+  * `browser_group`, `id`
 * `os`
-   * `os`, `group_id`, `id`
+  * `os`、`group_id`、`id`
 * `os_group`
-   * `os_group`, `id`
+  * `os_group`, `id`
 * `mobile_audio_support - multi`
 * `mobile_color_depth`
 * `mobile_cookie_support`

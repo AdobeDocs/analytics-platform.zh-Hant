@@ -27,7 +27,7 @@ ht-degree: 93%
 
 適用於 Customer Journey Analytics 的 Report Builder 可讓您使用 Adobe Customer Journey Analytics 資料，輕鬆地在 Microsoft Excel 中建立、編輯和重新整理自訂報告。
 
-Customer Journey Analytics 是一項建置於 Adobe Experience Platform 上的應用程式，可讓您連接多個資料來源以建立業務的整體檢視。 透過 Report Builder 既簡單又靈活地拖放介面，就能在 Microsoft Excel 中從 Customer Journey Analytics 資料建立複雜的資料查詢和自訂報告。
+Customer Journey Analytics 是一項建置於 Adobe Experience Platform 上的應用程式，可讓您連接多個資料來源以建立業務的整體檢視。 透過 Report Builder 簡單且靈活的拖放介面，您可以在 Microsoft Excel 中從 Customer Journey Analytics 資料建立複雜的資料查詢和自訂報告。
 
 您可以使用適用於 Customer Journey Analytics 的 Report Builder 進行以下工作：
 
@@ -35,7 +35,7 @@ Customer Journey Analytics 是一項建置於 Adobe Experience Platform 上的�
 - 使用行事曆、儲存格參照或日期數學，建立自訂日期。
 - 使用熟悉的 Excel 格式化工具設計您的表格和視覺效果。
 
-適用於 Customer Journey Analytics 的 Report Builder 是 Microsoft Excel 外掛程式。 該外掛程式可用於以下平台上：
+適用於 Customer Journey Analytics 的 Report Builder 是 Microsoft Excel 外掛程式。 該外掛程式可用於以下平台：
 
 - macOS
 - Windows

@@ -19,7 +19,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 402
 ht-degree: 100%
 
@@ -56,4 +56,4 @@ Customer Journey Analytics 的發行模式是持續傳遞，允許透過可調�
 | 問題 | 回答 |
 | --- | --- |
 | 我是否可要求搶先使用功能？ | 否。 我們不授與搶先使用的權限。<br>如果您想要搶先體驗 Analytics 的概念，建議您嘗試透過 [Adobe Analytics Labs](https://experienceleague.adobe.com/tw/docs/analytics/analyze/labs.html?lang=zh-Hant) 對我們領先業界的創新能力提供意見反應。 |
-| 此發行策略是否會影響我使用功能？ | 否。 功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。 |
+| 此發行策略是否會影響我對功能的存取權？ | 否。 功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。 |

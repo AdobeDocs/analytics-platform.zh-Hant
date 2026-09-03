@@ -1,6 +1,6 @@
 ---
 title: 持續性元件設定
-description: 決定是否會在不同事件中儲存維度值或是如何儲存。
+description: 決定維度值是否以及如何從一個事件持續到下一個事件。
 exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
@@ -58,7 +58,7 @@ ht-degree: 76%
 | --- | --- |
 | [!UICONTROL 設定持續性] | 啟用維度的持續性。 如果未啟用持續性，則維度僅與同一事件中存在的量度相關。 此設定預設為停用。 |
 | [!UICONTROL 配置] | 指定用於維度持續性的配置模式。 選項有:<ul><li>**[!UICONTROL 最近]**：維度中的值會持續存在，直到後續的值覆寫為止</li><li> **[!UICONTROL 原始]**：此維度的第一個值持續存在，且不會被後續值覆寫</li><li>**[!UICONTROL 所有]**：維度中的所有值會同時存留。</li><li>**[!UICONTROL 首次知曉]**：此維度的第一個值，會應用於之前和之後的所有事件。</li><li>**[!UICONTROL 最新知曉]**：此維度的最新值，會應用於之前和之後的所有事件。</li></ul> |
-| [!UICONTROL 期限] | 指定維度的持續性視窗。 選項有: <ul><li>**[!UICONTROL 工作階段]** (預設)</li><li>**[!UICONTROL 人員]**</li><li>**[!UICONTROL 自訂時間]**</li><li>**[!UICONTROL 量度]**</li></ul>. 您可能需要能夠使購買的維度到期 (例如內部搜尋詞或其他銷售使用案例)。 您可以設定的最長到期時間為90天。 如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]期限可用。 |
+| [!UICONTROL 期限] | 指定維度的持續性視窗。 選項有: <ul><li>**[!UICONTROL 工作階段]** (預設)</li><li>**[!UICONTROL 人員]**</li><li>**[!UICONTROL 自訂時間]**</li><li>**[!UICONTROL 量度]**</li></ul>. 您可能需要讓此維度在購買時過期 (例如內部搜尋詞或其他銷售使用案例)。 您可以設定的最長到期時間為90天。 如果您選取「[!UICONTROL 全部]」配置，則只有[!UICONTROL 工作階段]或[!UICONTROL 人員]期限可用。 |
 
 {style="table-layout:auto"}
 
@@ -108,7 +108,7 @@ ht-degree: 76%
 * **機會報告期間** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}：報告期間結束時到期。
 * **購買群組報告期間** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}：報告期間結束時到期。
 * **自訂時間**：在指定的時段 (最長 90 天) 後到期。 這個期限選項僅適用於「原始」和「最近」配置模式。 在使用以時間為準的期限時，將會考量您的報告期間 (最長 90 天) 開始前的值。
-* **量度**：在事件中看到此量度時，維度中的保存值會立即過期。 您可以使用量度當做此維度的過期點。 這個期限選項僅適用於「原始」和「最近」配置設定。
+* **量度**：在事件中看到此量度時，維度中的保存值會立即過期。 您可以使用量度當做此維度的過期點。 這個過期選項僅適用於「原始」和「最近」配置設定。
 
 
 ## [!UICONTROL 繫結維度]

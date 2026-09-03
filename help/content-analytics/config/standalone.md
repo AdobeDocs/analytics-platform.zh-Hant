@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
 source-wordcount: 2631
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -111,15 +111,15 @@ Content Analytics已獲授權為獨立產品，但設定會在Experience Platfor
 您必須是產品管理員，才能使用獨立Content Analytics的下列產品和產品設定檔：
 
 * Adobe Experience Platform
-   * AEP-Default-All-Users （存取生產沙箱的預設設定檔）
+  * AEP-Default-All-Users （存取生產沙箱的預設設定檔）
 
 * Adobe Experience Platform 資料彙集
-   * 預設資料收集所有存取權
+  * 預設資料收集所有存取權
 
 * Adobe Experience Platform Privacy Service
 
 * Customer Journey Analytics （自訂）
-   * Customer Journey Analytics （或任何其他預設布建的產品設定檔）
+  * Customer Journey Analytics （或任何其他預設布建的產品設定檔）
 
 您可以透過Admin Console定義產品管理員存取權：
 
@@ -157,31 +157,31 @@ Experience Platform中的[!UICONTROL 許可權]介面是以角色的定義為基
 
 * 預設的生產所有存取角色
 
-   * 資料收集
-      * 檢視資料串流
-      * 管理資料串流
+  * 資料收集
+    * 檢視資料串流
+    * 管理資料串流
 
-   * 資料管理
-      * 檢視資料集
-      * 管理資料集
+  * 資料管理
+    * 檢視資料集
+    * 管理資料集
 
-   * 資料模型製作
-      * 檢視結構描述
-      * 管理結構描述
-      * 管理身分中繼資料
+  * 資料模型製作
+    * 檢視結構描述
+    * 管理結構描述
+    * 管理身分中繼資料
 
 
 * 沙箱管理員角色
 
-   * 沙箱
-      * Prod
-      * （您要用於Content Analytics的任何其他沙箱）
+  * 沙箱
+    * Prod
+    * （您要用於Content Analytics的任何其他沙箱）
 
-   * 沙箱管理
-      * 管理封裝
-      * 管理沙箱
-      * 重設沙箱
-      * 檢視沙箱
+  * 沙箱管理
+    * 管理封裝
+    * 管理沙箱
+    * 重設沙箱
+    * 檢視沙箱
 
 
 在許可權介面中，您可以驗證角色和相關許可權。 此介面也會顯示哪些使用者屬於該角色。
@@ -217,21 +217,21 @@ Customer Journey Analytics不支援屬性式存取控制。 若要指定許可�
 對於Content Analytics，您需要確認是否包含下列Customer Journey Analytics產品設定檔許可權：
 
 * 資料檢視
-   * 所有可用的資料檢視。
+  * 所有可用的資料檢視。
 
 * 報告工具
-   * 建立計算量度
-   * 區段建立
-   * 附註建立
-   * 稽核記錄存取權
-   * 與任何人分享專案連結
-   * 預測
-   * AI 助理：產品知識
-   * Data Insights 代理
-   * 智慧型註解
+  * 建立計算量度
+  * 區段建立
+  * 附註建立
+  * 稽核記錄存取權
+  * 與任何人分享專案連結
+  * 預測
+  * AI 助理：產品知識
+  * Data Insights 代理
+  * 智慧型註解
 
 * 資料檢視工具
-   * 完整表格匯出
+  * 完整表格匯出
 
 若要為Customer Journey Analytics驗證並更新這些許可權：
 
@@ -275,7 +275,7 @@ Customer Journey Analytics不支援屬性式存取控制。 若要指定許可�
 
 您現在可以將程式碼部署在 `<head>`標籤內的網站開發版本上。 部署後，您的網站就會開始將資料收集至 Adobe Experience Platform。 然後，該資料會受Content Analytics限制。
 
-驗證您的實作、視需要更正實作，並在更正後，使用「標籤」的發佈工作流程功能，將其部署至中繼和生產環境。
+驗證您的實施、視需要更正實施，並在更正後，使用「標籤」的發佈工作流程功能，將其部署至中繼和生產環境。
 
 
 ## 設定報告
@@ -289,7 +289,7 @@ Customer Journey Analytics不支援屬性式存取控制。 若要指定許可�
 
 ### 設定資料檢視
 
-設定Content Analytics之前的最後一步是定義資料檢視。 資料檢視是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 資料檢視可讓您從Customer Journey Analytics連線的一或多個資料集的資料，定義量度和維度。 請參閱[網頁SDK](/help/data-ingestion/aepwebsdk.md)和[行動SDK](/help/data-ingestion/aepmobilesdk.md#set-up-a-data-view)快速入門手冊中的[設定資料檢視](/help/data-ingestion/aepwebsdk.md#set-up-a-data-view)。
+設定Content Analytics之前的最後一步是定義資料檢視。 資料釋圖是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 資料檢視可讓您從Customer Journey Analytics連線的一或多個資料集的資料，定義量度和維度。 請參閱[網頁SDK](/help/data-ingestion/aepwebsdk.md)和[行動SDK](/help/data-ingestion/aepmobilesdk.md#set-up-a-data-view)快速入門手冊中的[設定資料檢視](/help/data-ingestion/aepwebsdk.md#set-up-a-data-view)。
 
 
 ### 設定 Content Analytics

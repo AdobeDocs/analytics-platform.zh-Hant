@@ -49,9 +49,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->以下步驟僅適用於使用 AppMeasurement 或 Analytics 擴充功能 (標記) 的 Adob&#x200B;&#x200B;e Analytics 實施。
+>以下步驟僅適用於使用 AppMeasurement 或 Analytics 擴充功能 (標記) 的 Adobe Analytics 實施。
 >
->如果您的 Adob&#x200B;&#x200B;e Analytics 實施使用 Web SDK 或 Web SDK 擴充功能，則資料流已存在於您的 Adob&#x200B;&#x200B;e Analytics 環境中。
+>如果您的 Adobe Analytics 實施使用 Web SDK 或 Web SDK 擴充功能，則資料流已存在於您的 Adobe Analytics 環境中。
 
 若要設定您的資料流：
 

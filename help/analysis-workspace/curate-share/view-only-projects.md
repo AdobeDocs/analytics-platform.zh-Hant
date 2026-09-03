@@ -45,7 +45,7 @@ ht-degree: 39%
 * 隱藏的左側面板
 * 面板日曆日期範圍。 注意：如果您想要將行事曆控制授權給收件者，請新增至包含日期範圍[&#128279;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)的下拉式區段。
 * 自由格式分段
-* 可見列的自由格式編號
+* 自由格式可見列數
 * 自由格式列、欄或視覺效果設定
 * 面板區段
 * 編輯、插入和元件選單

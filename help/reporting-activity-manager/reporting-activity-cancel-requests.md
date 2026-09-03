@@ -32,7 +32,7 @@ ht-degree: 100%
 
 * 您可以取消特定的請求、取消來自特定使用者的所有請求或取消與特定專案相關的所有請求。
 
-* 當您取消請求時，您也可以選擇指定時段的限制後續請求。
+* 當您取消請求時，也可以選擇在特定時段內限制後續請求。
 
   當您限制後續請求時，該動作將記錄在[稽核記錄](/help/privacy/audit-log.md)中且行動名稱為 EMBARGO。
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ## 取消特定請求
 
-您可以取消消耗大量報告容量的個別請求。 取消請求時，您可以選擇在特定時間段內進一步限制。
+您可以取消消耗大量報告容量的個別請求。 取消請求時，您可以選擇在特定時段內進一步限制。
 
 1. 在 Customer Journey Analytics 中，前往「**[!UICONTROL 工具]** > **[!UICONTROL 報告活動管理員]**」。
 
@@ -72,18 +72,18 @@ ht-degree: 100%
       |---------|----------|
       | [!UICONTROL **使用者與專案**] | 與所選請求關聯的使用者將暫時被限制，無法執行關聯專案的報告請求。 |
       | [!UICONTROL **使用者**] | 與所選請求關聯的使用者將暫時被限制提出任何報告請求。 |
-      | [!UICONTROL **專案**] | 與所選請求關聯的專案將暫時被限制執行所有報告請求。 |
-      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!-- double-check this --><p>設定限制後，您無法提前移除限制。</p> |
+      | [!UICONTROL **專案**] | 與所選請求關聯的專案將暫時被限制，無法提出任何報告請求。 |
+      | [!UICONTROL **限制**] | 選擇請求將受限制多久。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!-- double-check this --><p>設定限制後，您無法提前移除限制。</p> |
 
       {style="table-layout:auto"}
 
 1. 請選取「[!UICONTROL **繼續取消**]」。
 
-   Analysis Workspace 中會顯示一則通知，告知使用者請求已刪除。 有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
+   Analysis Workspace 中會顯示一則通知，告知使用者請求已取消。 有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
 
 ## 取消使用者請求
 
-您可以取消與一個或多個使用者相關的所有請求。 取消與使用者相關的請求時，您可以選擇在特定時間內進一步限制該使用者的請求。
+您可以取消與一個或多個使用者相關的所有請求。 取消與使用者相關的請求時，您可以選擇在特定時段內進一步限制該使用者的請求。
 
 1. 在 Customer Journey Analytics 中，前往「**[!UICONTROL 工具]** > **[!UICONTROL 報告活動管理員]**」。
 
@@ -114,13 +114,13 @@ ht-degree: 100%
       | [!UICONTROL **使用者與專案**] | 所選的使用者將暫時被限制，無法對關聯專案提出任何報告請求。 <p>此為限制最少的選項。</p> |
       | [!UICONTROL **使用者**] | 所選的使用者將暫時被限制，無法提出任何報告請求。 |
       | [!UICONTROL **專案**] | 與所選使用者關聯的專案將被限制，無法由任何使用者提出任何報告請求。 |
-      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
+      | [!UICONTROL **限制**] | 選擇請求將受限制多久。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
 
       {style="table-layout:auto"}
 
 1. 請選取「[!UICONTROL **繼續取消**]」。
 
-   Analysis Workspace 中會顯示一則通知，告知使用者請求已刪除。 有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
+   Analysis Workspace 中會顯示一則通知，告知使用者請求已取消。 有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
 
 ## 根據專案取消請求
 
@@ -155,13 +155,13 @@ ht-degree: 100%
       | [!UICONTROL **使用者與專案**] | 所選的專案將暫時被限制，無法由關聯使用者提出任何報告請求。<p>此為限制最少的選項。</p> |
       | [!UICONTROL **使用者**] | 與所選專案關聯的使用者將被限制，無法提出任何報告請求。 |
       | [!UICONTROL **專案**] | 將暫時限制選取的專案，無法由任何使用者提出任何報告請求。 |
-      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
+      | [!UICONTROL **限制**] | 選擇請求將受限制多久。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
 
       {style="table-layout:auto"}
 
 1. 請選取「[!UICONTROL **繼續取消**]」。
 
-   Analysis Workspace 中會顯示一則通知，告知使用者請求已刪除。 有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
+   Analysis Workspace 中會顯示一則通知，告知使用者請求已取消。 有關此通知如何在 Analysis Workspace 顯示的詳細資訊，請參閱[使用者存取已取消的報告之體驗](#experience-when-users-access-a-cancelled-report)。
 
 ## 根據應用程式取消請求
 
@@ -172,7 +172,7 @@ ht-degree: 100%
 * Analysis Workspace UI
 * Workspace 排程專案
 * Report Builder
-* 產生器 UI：細分群體、計算量度、註解、客群等。
+* 產生器 UI：區段、計算量度、註解、客群等。
 * 來自 2.0 API 的 API 呼叫
 * 警報
 * 完整表格匯出
@@ -209,9 +209,9 @@ ht-degree: 100%
       | 選項 | 函數 |
       |---------|----------|
       | [!UICONTROL **使用者與專案**] | 將暫時限制選取的應用程式，無法由相關使用者和專案提出任何報告請求。<p>此為限制最少的選項。</p> |
-      | [!UICONTROL **使用者**] | 將限制與選取應用程式相關的使用者，無法提出任何報告請求。 |
-      | [!UICONTROL **專案**] | 將限制與選取應用程式相關的專案，無法由任何使用者提出任何報告請求。 |
-      | [!UICONTROL **限制**] | 選擇限制請求的時間長度。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
+      | [!UICONTROL **使用者**] | 與所選應用程式相關的使用者將被限制提出任何報告請求。 |
+      | [!UICONTROL **專案**] | 與所選應用程式相關的專案將被限制接受任何使用者提出的任何報告請求。 |
+      | [!UICONTROL **限制**] | 選擇請求將受限制多久。 您可以選擇 1 分鐘 (預設)、5 分鐘、10 分鐘、15 分鐘或 30 分鐘。<!--double-check this--> <p>設定限制後，您無法提前移除限制。</p> |
 
       {style="table-layout:auto"}
 
@@ -231,6 +231,6 @@ ht-degree: 100%
 
 ### 視覺效果的訊息
 
-當使用者嘗試存取受取消影響的視覺效果時，他們會看見一則訊息，通知他們該資料處理暫時受到限制：
+當使用者嘗試存取受取消影響的視覺效果時，他們會看見一則訊息，通知他們該報告的資料處理暫時受到限制：
 
 ![視覺效果取消訊息](assets/workspace-cancelled-visualization.png)

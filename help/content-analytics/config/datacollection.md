@@ -35,13 +35,13 @@ ht-degree: 52%
 本文中使用到以下定義：
 
 * **體驗**：
-   * 對於&#x200B;**Web**&#x200B;管道，體驗定義為整個網頁上的文字內容。 對於資料收集，Content Analytics會根據頁面URL記錄體驗ID。 隨後，透過獲取服務擷取頁面上的文字。
-   * 對於&#x200B;**行動裝置**&#x200B;頻道，已在行動應用程式中使用Adobe Experience Platform Mobile SDK的Content Analytics擴充功能定義和追蹤體驗。
+  * 對於&#x200B;**Web**&#x200B;管道，體驗定義為整個網頁上的文字內容。 對於資料收集，Content Analytics會根據頁面URL記錄體驗ID。 隨後，透過獲取服務擷取頁面上的文字。
+  * 對於&#x200B;**行動裝置**&#x200B;頻道，已在行動應用程式中使用Adobe Experience Platform Mobile SDK的Content Analytics擴充功能定義和追蹤體驗。
 * **體驗ID**：
-   * 對於Web Channel，體驗ID是相關URL （基底URL加上驅動頁面內容的任何引數）和[體驗版本](manual.md#versioning)的唯一組合。
-      * 您可以指定，做為[設定](configuration.md)的一部分，對於任何特定的完整 URL，哪些參數是相關的。
-      * 您需定義出一個[版本識別碼](manual.md#versioning)來使用，藉以正確收集您的體驗變更。
-   * 對於&#x200B;**行動裝置**&#x200B;頻道，體驗ID是使用`registerExperience` API呼叫的傳回值。
+  * 對於Web Channel，體驗ID是相關URL （基底URL加上驅動頁面內容的任何引數）和[體驗版本](manual.md#versioning)的唯一組合。
+    * 您可以指定，做為[設定](configuration.md)的一部分，對於任何特定的完整 URL，哪些參數是相關的。
+    * 您需定義出一個[版本識別碼](manual.md#versioning)來使用，藉以正確收集您的體驗變更。
+  * 對於&#x200B;**行動裝置**&#x200B;頻道，體驗ID是使用`registerExperience` API呼叫的傳回值。
 * **資產**：一個影像。 Content Analytics 會記錄資產 URL。
 * **資產 ID**：資產的 URL。
 * **相關 URL**：基底 URL 加上任何推動頁面內容的參數。
@@ -51,7 +51,7 @@ ht-degree: 52%
 
 Content Analytics需要Experience Platform Edge Network Web SDK （適用於網頁管道）和Experience Platform Edge Network Mobile SDK （適用於行動管道）來收集內容事件資料。 此事件資料會使用Experience Platform Edge Network （Web SDK、Mobile SDK或伺服器API）或Analytics來源聯結器（例如Adobe AppMeasurement），與現有行為資料結合。
 
-Content Analytics 資料庫在以下情況下收集資料：
+Content Analytics 程式庫會在以下情況下收集資料：
 
 * Content Analytics包含在頁面上載入或用於行動應用程式的標籤資料庫中。
 * 頁面URL和資產URL設定於[Content Analytics Web擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"} （包含標籤程式庫的一部分）。
@@ -64,8 +64,8 @@ Content Analytics 資料庫在以下情況下收集資料：
 Content Analytics 事件包括：
 
 * 標準欄位
-   * 時間戳記
-   * 身分識別
+  * 時間戳記
+  * 身分識別
 * 體驗視圖 (若有，並且已設定)
 * 體驗點按 (若有，並且已設定)
 * 資產視圖 (若有，並且已設定)
@@ -94,7 +94,7 @@ Content Analytics 依此反映順序的方式確實收集資料，而不是將�
 
 以下情況下會記錄體驗視圖：
 
-* 體驗在 Content Analytics 設定中啟用。
+* 體驗已在 Content Analytics 設定中啟用。
 
 以下情況下會記錄體驗點按：
 
@@ -107,11 +107,11 @@ Content Analytics 依此反映順序的方式確實收集資料，而不是將�
 
 * 網頁SDK或Adobe AppMeasurement會傳送事件。
 * 可見度轉變為隱藏，例如：
-   * 頁面卸載
-   * 切換索引標籤
-   * 將瀏覽器縮到最小
-   * 關閉瀏覽器
-   * 鎖定畫面
+  * 頁面卸載
+  * 切換索引標籤
+  * 將瀏覽器縮到最小
+  * 關閉瀏覽器
+  * 鎖定畫面
 * URL 發生變化，導致相關 URL 被修改。
 * 已記錄且準備好傳送的資產檢視超過32次。
 
@@ -164,7 +164,7 @@ Content Analytics會透過下列方式處理Web Channel的身分識別：
 
 ### Mobile
 
-如需如何在行動應用程式中使用身分的詳細資訊，請參閱[Experience Cloud ID服務擴充功能的身分](https://developer.adobe.com/client-sdks/home/base/mobile-core/identity/)和[Edge Network行動擴充功能的身分](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)。
+如需如何在行動應用程式中使用身分的詳細資訊，請參閱[Experience Cloud ID Service擴充功能的身分](https://developer.adobe.com/client-sdks/home/base/mobile-core/identity/)和[Edge Network行動擴充功能的身分](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/)。
 
 一旦行動應用程式中的身分變更，目前的Content Analytics資料[批次](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/#batching-settings)就會重設，以開始新身分的Content Analytics資料全新集合。
 

@@ -43,9 +43,9 @@ ht-degree: 25%
 
   所有 Windows 桌面版 Excel 使用者必須安裝 Microsoft Edge Webview2，才能使用此增益集。 若要安裝：
 
-   1. 前往 <https://developer.microsoft.com/en-us/microsoft-edge/webview2/>。
-   1. 選取並下載適合您平台的&#x200B;**[!UICONTROL Evergreen獨立安裝程式]**&#x200B;版本。
-   1. 執行安裝程式，並依照安裝提示操作。
+  1. 前往 <https://developer.microsoft.com/en-us/microsoft-edge/webview2/>。
+  1. 選取並下載適合您平台的&#x200B;**[!UICONTROL Evergreen獨立安裝程式]**&#x200B;版本。
+  1. 執行安裝程式，並依照安裝提示操作。
 
 ### 網頁版 Office
 

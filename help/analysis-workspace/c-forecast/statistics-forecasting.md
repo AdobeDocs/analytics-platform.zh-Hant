@@ -65,5 +65,5 @@ ht-degree: 4%
 ## 參考
 
 1. Taylor、Sean J.和Benjamin Letham： *大規模預測。* 美國統計師72.1 (2018)：37-45。
-1. Triebe、Oskar等： *Neuralprophet：可大規模解釋的預測。* arXiv預先列印arXiv:2111.15397(2021)。
+1. Triebe、Oskar等： *Neuralprophet：可大規模解釋的預測。* arXiv預先列印arXiv：2111.15397(2021)。
 1. Zhang和Arbor： *時間序列異常偵測。* 美國專利申請#18/057883。

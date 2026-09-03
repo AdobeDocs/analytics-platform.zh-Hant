@@ -21,7 +21,7 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 1693
+source-wordcount: 1699
 ht-degree: 93%
 
 ---
@@ -71,10 +71,10 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
    | **[!UICONTROL 外部 ID]** ![必填](/help/assets/icons/Required.svg) | 使用外部 BI 工具和 BI 擴充功能時的計算量度名稱。 除非您覆寫該值，否則該值會自動定義為 `undefined_xxx` 。 |
    | **[!UICONTROL 說明]** | 提供區段說明，例如 `Calculated metric to define the conversion rate.` 不必說明計算量度的公式，因為公式已自動提供在[!UICONTROL 摘要]中。 |
    | **[!UICONTROL 格式]** | 選取計算量度的格式：您可以在&#x200B;**[!UICONTROL 十進位]**、 **[!UICONTROL 時間]**、 **[!UICONTROL 百分比]**&#x200B;和&#x200B;**[!UICONTROL 貨幣]**&#x200B;之間選取。 |
-   | **[!UICONTROL 小數位數]** | 指定所選格式的小數位數。 只有在選取的格式為十進制、貨幣和百分比時才啟用。 |
+   | **[!UICONTROL 小數位數]** | 指定所選格式的小數位數。 只有在選取的格式為小數、貨幣和百分比時才啟用。 |
    | **[!UICONTROL 顯示上升趨勢的方式]** | 指定計算量度的上升趨勢是否顯示為 ▲ **[!UICONTROL 良好 (綠色)]** 或 ▼ **[!UICONTROL 不良 (紅色)]**。 |
    | **[!UICONTROL 貨幣]** | 指定計算量度的貨幣。 只有在選取的格式為貨幣時才啟用。 |
-   | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標記來安排計算量度。 開始輸入內容以尋找您可以選取的現有標記。 或按一下 **[!UICONTROL ENTER]** 以新增新標記。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
+   | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標記來整理計算量度。 開始輸入內容以尋找您可以選取的現有標記。 或按一下 **[!UICONTROL ENTER]** 以新增新標記。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
    | **[!UICONTROL 預覽]** | 預覽涵蓋過去 90 天的情況，並且是衡量您是否正確定義量度的方法。 |
    | **[!UICONTROL 摘要]** | 顯示計算量度定義的摘要。 <br/>例如：  ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 總訂單]** ![劃分](/help/assets/icons/Divide.svg) ![事件](/help/assets/icons/Event.svg) **[!UICONTROL 工作階段]**。 |
    | **[!UICONTROL 定義]** ![必填](/help/assets/icons/Required.svg) | 使用[定義產生器](#definition-builder)來定義區段。 |
@@ -84,8 +84,8 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
    **[!UICONTROL 產品相容性]**&#x200B;指出計算量度是否可用於實驗和完整資料表匯出。 可能的值包括：
    * **[!UICONTROL 在 Customer Journey Analytics 中各處]**：計算量度可用於整個 Customer Journey Analytics。
    * **[!UICONTROL 不相容於：]**
-      * **[!UICONTROL Experimentation]**：計算量度可用於所有Customer Journey Analytics （Experimentation面板除外）。
-      * **[!UICONTROL 完整資料表匯出]**：計算度量可用於所有Customer Journey Analytics，除非從Workspace匯出完整資料表。 匯出完整資料表時，並非所有函式都受支援。 如果您在匯出完整表格時需要包含計算量度，請使用支援的函式。 如需詳細資訊，請參閱[將完整資料表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中的[不支援的計算量度函式](/help/analysis-workspace/export/export-cloud.md#unsupported-calculated-metric-functions)。
+     * **[!UICONTROL Experimentation]**：計算量度可用於所有Customer Journey Analytics （Experimentation面板除外）。
+     * **[!UICONTROL 完整資料表匯出]**：計算度量可用於所有Customer Journey Analytics，除非從Workspace匯出完整資料表。 匯出完整資料表時，並非所有函式都受支援。 如果您在匯出完整表格時需要包含計算量度，請使用支援的函式。 如需詳細資訊，請參閱[將完整資料表匯出至雲端](/help/analysis-workspace/export/export-cloud.md)中的[不支援的計算量度函式](/help/analysis-workspace/export/export-cloud.md#unsupported-calculated-metric-functions)。
 
 1. 選取：
    * **[!UICONTROL 儲存]**&#x200B;以儲存計算量度。
@@ -95,11 +95,11 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
 
 ## 定義產生器
 
-您使用定義產生器來拖放維度、量度、區段和函數，讓您根據容器階層邏輯、規則和運算子來建立自訂量度。 在該構造中，您可以使用標準量度、Adobe 定義的量度、計算量度、區段、維度和函數。 計算量度產生器中的元件面板都提供所有這些元件。 此外，您還可以在定義中使用運算子和容器。
+您使用定義產生器來拖放維度、量度、區段和函數，讓您根據容器階層邏輯、規則和運算子來建立自訂量度。 在該構造中，您可以使用標準量度、Adobe 定義的量度、計算量度、區段、維度和函數。 所有這些元件都可從計算量度產生器中的元件面板取得。 此外，您還可以在定義中使用運算子和容器。
 
 ![建立計算量度](/help/components/calc-metrics/cm-workflow/assets/create-calculated-metric.gif)
 
-在&#x200B;**[!UICONTROL 定義]**&#x200B;區域中，只有量度會被定義為單一元件。 所有其他元件都被定義為容器、封裝量度或其他容器。 如需詳細資訊，請參閱[容器](#containers)。
+在&#x200B;**[!UICONTROL 定義]**&#x200B;區域中，只有量度會被定義為單一元件。 所有其他元件都被定義為容器，用來封裝量度或其他容器。 如需詳細資訊，請參閱[容器](#containers)。
 
 ### 量度
 
@@ -107,7 +107,7 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
 
 * 將 ![Events](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。 您可以使用元件列中的「![搜尋](/help/assets/icons/Search.svg)」來搜尋特定元件。
 
-當您使用計算量度作為定義的一部分時，計算量度將會擴展。
+當您使用計算量度作為定義的一部分時，計算量度會展開。
 
 若要修改量度：
 
@@ -146,7 +146,7 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
 
 ### 容器
 
-您可以將維度、區段和函數做為容器，以新增至計算量度定義。 您也可以新增通用容器。 容器的功能類似數學運算式，用以決定運算順序。 容器內的一切都會在下一個元件或容器之前獲得處理。
+您可以將維度、區段和函數作為容器新增至計算量度定義。 您也可以新增通用容器。 容器的功能類似數學運算式，用以決定運算順序。 容器內的一切都會在下一個元件或容器之前獲得處理。
 
 
 #### 區段容器
@@ -155,22 +155,22 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
 
 * 若要從維度新增區段容器：
 
-   1. 將 ![Dimensions](/help/assets/icons/Dimensions.svg) **[!UICONTROL 維度]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
-   1. 在&#x200B;**[!UICONTROL 「從維度中建立區段」]**&#x200B;快顯視窗中，定義區段的條件。 從運算子清單中選取，並選取一個值或輸入一個值。 例如， **[!UICONTROL 月]** **[!UICONTROL 等於]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`。
-   1. 選取「**[!UICONTROL 完成]**」。 將區段容器加入&#x200B;**[!UICONTROL 定義]**&#x200B;中。
+  1. 將 ![Dimensions](/help/assets/icons/Dimensions.svg) **[!UICONTROL 維度]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
+  1. 在&#x200B;**[!UICONTROL 「從維度中建立區段」]**&#x200B;快顯視窗中，定義區段的條件。 從運算子清單中選取，並選取一個值或輸入一個值。 例如， **[!UICONTROL 月]** **[!UICONTROL 等於]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`。
+  1. 選取「**[!UICONTROL 完成]**」。 將區段容器加入&#x200B;**[!UICONTROL 定義]**&#x200B;中。
 
 
 * 若要從區段新增區段容器，您可以使用：
 
-   * 將 ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定區段。
-使用區段名稱將區段容器自動加入&#x200B;**[!UICONTROL 定義]**&#x200B;中。
+  * 將 ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定區段。
+    使用區段名稱將區段容器自動加入&#x200B;**[!UICONTROL 定義]**&#x200B;中。
 
-   * 將 ![分段](/help/assets/icons/Segmentation.svg)**[!UICONTROL 「區段」]**&#x200B;元件從元件面板拖放到通用容器中。 該容器被修改為區段容器。
+  * 將 ![分段](/help/assets/icons/Segmentation.svg)**[!UICONTROL 「區段」]**&#x200B;元件從元件面板拖放到通用容器中。 該容器被修改為區段容器。
 
-   * 從容器內部選取 ![AddCircle](/help/assets/icons/AddCircle.svg)**[!UICONTROL 「新增」]**：
+  * 從容器內部選取 ![AddCircle](/help/assets/icons/AddCircle.svg)**[!UICONTROL 「新增」]**：
 
-      1. 選取&#x200B;**[!UICONTROL 「區段」]**。 區段容器就會新增至&#x200B;**[!UICONTROL 「定義」]**。
-      1. 在新的區段容器中，從&#x200B;[!UICONTROL *「選取...」*]&#x200B;下拉式選單中選取區段。
+    1. 選取&#x200B;**[!UICONTROL 「區段」]**。 區段容器就會新增至&#x200B;**[!UICONTROL 「定義」]**。
+    1. 在新的區段容器中，從&#x200B;[!UICONTROL *「選取...」*]&#x200B;下拉式選單中選取區段。
 
   >[!TIP]
   >
@@ -190,13 +190,13 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
 
 * 拖放：
 
-   1. 將 ![Function](/help/assets/icons/Effect.svg) **[!UICONTROL 函數]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。 您可以使用元件列中的「![搜尋](/help/assets/icons/Search.svg)」來搜尋特定函數。
-   1. 使用函數名稱將函數容器自動加入「**[!UICONTROL 定義]**」中。
+  1. 將 ![Function](/help/assets/icons/Effect.svg) **[!UICONTROL 函數]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。 您可以使用元件列中的「![搜尋](/help/assets/icons/Search.svg)」來搜尋特定函數。
+  1. 使用函數名稱將函數容器自動加入「**[!UICONTROL 定義]**」中。
 
 * 從容器內部選取 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 新增]**：
 
-   1. 選取「**[!UICONTROL 函數]**」。
-   1. 在容器中，從&#x200B;[!UICONTROL *「選取...」*]&#x200B;下拉式選單中選取一個函數。
+  1. 選取「**[!UICONTROL 函數]**」。
+  1. 在容器中，從&#x200B;[!UICONTROL *「選取...」*]&#x200B;下拉式選單中選取一個函數。
 
 函數容器以函數元件命名。 例如， ![函數](/help/assets/icons/Effect.svg) **[!UICONTROL 平方根 (量度)]**。 選取 ![InfoOutline](/help/assets/icons/InfoOutline.svg) 來顯示含有函數詳細資訊的快顯視窗。 選取「**[!UICONTROL 了解更多]**」，了解更多有關該函數。
 

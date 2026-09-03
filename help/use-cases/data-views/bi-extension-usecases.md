@@ -39,26 +39,26 @@ ht-degree: 18%
 已記錄下列使用案例：
 
 * **連線**
-   * [連接並列出資料檢視](bi-extension/connect-and-validate.md)
+  * [連接並列出資料檢視](bi-extension/connect-and-validate.md)
 
 * **報告和分析**
-   * [每日趨勢](bi-extension/daily-trend.md)
-   * [每小時趨勢](bi-extension/hourly-trend.md)
-   * [每月趨勢](bi-extension/monthly-trend.md)
-   * [單一維度排名](bi-extension/single-dimension-ranked.md)
-   * [多個維度排名](bi-extension/multiple-dimension-ranked.md)
-   * [計算相異維度值](bi-extension/count-distinct-dimension-values.md)
-   * [使用日期範圍名稱進行篩選](bi-extension/use-date-range-names-to-filter.md)
-   * [使用細分群體名稱進行細分](bi-extension/use-segment-names-to-segment.md)
-   * [使用維度值進行細分](bi-extension/use-dimension-values-to-segment.md)
-   * [排序](bi-extension/sort.md)
-   * [限制](bi-extension/limits.md)
+  * [每日趨勢](bi-extension/daily-trend.md)
+  * [每小時趨勢](bi-extension/hourly-trend.md)
+  * [每月趨勢](bi-extension/monthly-trend.md)
+  * [單一維度排名](bi-extension/single-dimension-ranked.md)
+  * [多個維度排名](bi-extension/multiple-dimension-ranked.md)
+  * [計算相異維度值](bi-extension/count-distinct-dimension-values.md)
+  * [使用日期範圍名稱進行篩選](bi-extension/use-date-range-names-to-filter.md)
+  * [使用細分群體名稱進行細分](bi-extension/use-segment-names-to-segment.md)
+  * [使用維度值進行細分](bi-extension/use-dimension-values-to-segment.md)
+  * [排序](bi-extension/sort.md)
+  * [限制](bi-extension/limits.md)
 
 * **瞭解**
 
-   * [轉換](bi-extension/transformations.md)
-   * [視覺效果](bi-extension/visualizations.md)
-   * [警告](bi-extension/caveats.md)
+  * [轉換](bi-extension/transformations.md)
+  * [視覺效果](bi-extension/visualizations.md)
+  * [警告](bi-extension/caveats.md)
 
 **connect**&#x200B;使用案例著重於如何使用Customer Journey Analytics BI擴充功能連線BI工具。
 

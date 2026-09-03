@@ -45,7 +45,7 @@ ECID (Experience Cloud ID)，有時也稱為MCID (Marketing Cloud ID)，是一�
 
 ## AACUSTOMID
 
-AACUSTOMID 是一個單獨的識別碼欄位，根據 Analytics 執行中 `s.VisitorID` 變數的使用情況在 Adobe Analytics 中填入。 AACUSTOMID 由 Adobe Analytics 資料摘要中的 `cust_visid` 資料行表示。 如果 AACUSTOMID 存在，則 AAID 將以 AACUSTOMID 為基礎。 (AACUSTOMID 比上述作業順序定義的其它識別碼更有效率。)
+AACUSTOMID 是一個單獨的識別碼欄位，根據 Analytics 執行中 `s.VisitorID` 變數的使用情況在 Adobe Analytics 中填入。 AACUSTOMID 由 Adobe Analytics 資料摘要中的 `cust_visid` 資料行表示。 如果 AACUSTOMID 存在，則 AAID 將以 AACUSTOMID 為基礎。 (AACUSTOMID 會優先於上述作業順序所定義的所有其他識別碼。)
 
 ## Analytics 來源連接器如何處理這些身分識別
 
@@ -65,7 +65,8 @@ Analytics 來源連接器將這些身分識別以 XDM 形式傳遞到 Adobe Expe
 
 在 identityMap 中：
 
-* 如果 ECID 存在，則將其標記為事件的主要身分識別。 請注意，在這種情況下，AAID 可能會以上述 ECID 為基礎。否則，AAID 將標記為事件的主要身分識別。
+* 如果 ECID 存在，則將其標記為事件的主要身分識別。 請注意，在這種情況下，AAID 可能會以上述 ECID 為基礎。
+否則，AAID 將標記為事件的主要身分識別。
 * AACUSTOMID 永遠不會標記為事件的主要 ID。 但是，如果 AACUSTOMID 存在，則 AAID 會以上述 AACUSTOMID 為基礎。
 
 當身分識別複製到 `identityMap` 時，同一事件上也會設定 `endUserIDs._experience.mcid.namespace.code`：
@@ -76,4 +77,4 @@ Analytics 來源連接器將這些身分識別以 XDM 形式傳遞到 Adobe Expe
 
 ## Customer Journey Analytics 和主要 ID
 
-就 Customer Journey Analytics 而言，只有在您決定將主要 ID 當做人員 ID 時，主要 ID 的定義才重要。 然而，這並不具有強制性。 您可以選擇其他身分識別資料行作為人員 ID。
+就 Customer Journey Analytics 而言，只有在您決定將主要 ID 作為個人 ID 時，主要 ID 的定義才重要。 然而，這並不具有強制性。 您可以選擇其他身分識別資料行作為人員 ID。

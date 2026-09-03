@@ -150,8 +150,8 @@ The available columns are:
 * **篩選內容：** 使用![Filter](/help/assets/icons/Filter.svg)來篩選學習內容，可依據&#x200B;**[!UICONTROL 類型]** (**[!UICONTROL 文件]**、**[!UICONTROL 影片]**&#x200B;和&#x200B;**[!UICONTROL 導覽與教學課程]**) 和&#x200B;**[!UICONTROL 經驗等級]** (**[!UICONTROL 初級]**、**[!UICONTROL 中級]**&#x200B;或&#x200B;**[!UICONTROL 進階]**) 篩選。
 * **追蹤進度：** 在選取一段內容後，會出現![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL 已檢視]**&#x200B;標記。 此標記可幫助您透過學習內容追蹤您的進度。 您可以選取![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL 已檢視]**&#x200B;標記，將其從內容中移除。
 * **檢視其他的內容：**&#x200B;在觀看任何影片時，選取&#x200B;**[!UICONTROL 了解更多]**&#x200B;以檢視 Experience League 上相關的文件內容。 或者，從「學習」頁面中選取以下任一選項，以檢視其他內容：
-   * **[!UICONTROL 造訪 YouTube]：**&#x200B;檢視完整的 Analysis Workspace YouTube 播放清單。
-   * [!UICONTROL **造訪 Experience League**]：檢視 Experience League 上的全套 Customer Journey Analytics 文件。
+  * **[!UICONTROL 造訪 YouTube]：**&#x200B;檢視完整的 Analysis Workspace YouTube 播放清單。
+  * [!UICONTROL **造訪 Experience League**]：檢視 Experience League 上的全套 Customer Journey Analytics 文件。
 * **適用於新使用者的基礎知識：**&#x200B;建議給新使用者的[!UICONTROL 學習 Workspace 基礎知識]導覽。 此導覽將直接帶您進入 Workspace 並引導您完成最常見的動作。 也可透過[自由格式面板](/help/analysis-workspace/c-panels/freeform-panel.md)或[空白面板](/help/analysis-workspace/c-panels/blank-panel.md)標題的工具提示，隨時在 Workspace 中重新啟動此導覽。
 
 ### 升級至 Customer Journey Analytics

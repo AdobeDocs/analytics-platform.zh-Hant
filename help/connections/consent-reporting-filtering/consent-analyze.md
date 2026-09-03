@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
 workflow-type: tm+mt
 source-wordcount: 388
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -68,6 +68,6 @@ ht-degree: 2%
 
 ## 使用同意原則分析範本
 
-當資料檢視設定為同意報表時，Customer Journey Analytics會自動在Analysis Workspace中使用同意原則分析範本。 此範本提供報告訪客同意原則成員資格的起點。
+當針對同意報告設定資料視圖時，Customer Journey Analytics 會在 Analysis Workspace 中自動提供同意原則分析範本。 此範本提供報告訪客同意原則成員資格的起點。
 
 如需有關如何存取範本的資訊，請參閱[存取並執行範本](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template)。

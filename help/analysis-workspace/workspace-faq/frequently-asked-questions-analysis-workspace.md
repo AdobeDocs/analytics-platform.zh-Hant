@@ -27,7 +27,7 @@ ht-degree: 92%
 
 | 需求 | 說明 |
 |--- |--- |
-| 產品 SKU | 貴組織具備有效的 Adobe Analytics Select、Prime 或 Ultimate 合約，且已有 Customer Journey Analytics 附加元件。 如果您不確定擁有何種合約類型，或不確定您是否有 Customer Journey Analytics 附加元件，請聯絡 Adobe 帳戶團隊。 此外，貴組織必須佈建 Adobe Experience Platform。 |
+| 產品 SKU | 貴組織必須取得 Adobe Analytics Select、Prime 或 Ultimate 有效合約，且合約包含 Customer Journey Analytics 附加元件。 如果您不確定擁有何種合約類型，或不確定您是否有 Customer Journey Analytics 附加元件，請聯絡 Adobe 帳戶團隊。 此外，貴組織必須已佈建 Adobe Experience Platform。 |
 | 管理員 | 擁有Analysis Workspace的完整存取權。 |
 | 使用者 | 若要讓使用者能夠存取 Analytics 中的「Workspace」索引標籤，管理員必須以 Analysis Workspace 存取權限建立產品設定檔，並在 [Admin Console](/help/technotes/access-control.md) 中新增使用者。 |
 | 瀏覽器 | <ul><li>建議使用：最新版本的 Firefox、Chrome、Safari 或 Edge。</li><li>必須啟用Cookie和JavaScript。</li><li>1024 x 768 顯示器解析度，使用 16 位元色彩深度 (或更高)。</li></ul> |

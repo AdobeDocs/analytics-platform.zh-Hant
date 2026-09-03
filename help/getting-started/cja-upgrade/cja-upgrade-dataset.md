@@ -45,7 +45,7 @@ ht-degree: 100%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-資料集是儲存和管理您收集至 Adob&#x200B;&#x200B;e Experience Platform 的資料結構。
+資料集是儲存和管理您收集至 Adobe Experience Platform 的資料結構。
 
 若要建立資料集：
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 1. 選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
-   系統會提示您啟用設定檔的資料集。 資料集一經啟用，即可透過攝取的資料豐富即時客戶設定檔。
+   系統會提示您為輪廓啟用資料集。 資料集一經啟用，即可透過攝取的資料豐富即時客戶輪廓。
 
    >[!IMPORTANT]
    >

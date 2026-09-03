@@ -44,9 +44,9 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
   與Adobe Analytics不同，Customer Journey Analytics可讓您在連線和資料檢視範圍內，以靈活的方式定義標準量度。
 
-   * **人員**： Customer Journey Analytics中的人員量度是人員ID的相異計數。 當您在連線中設定資料集時，根據您選擇做為人員ID的內容，人員量度可能有不同的意義。
-   * **工作階段**：您會在資料檢視中定義工作階段量度，做為工作階段設定組態的一部分。 請參閱[工作階段設定](/help/data-views/session-settings.md)。
-   * **事件**： Customer Journey Analytics中的事件量度是由事件所組成，這些事件是您已設定為連線之一部分的任何事件資料集的一部分。
+  * **人員**： Customer Journey Analytics中的人員量度是人員ID的相異計數。 當您在連線中設定資料集時，根據您選擇做為人員ID的內容，人員量度可能有不同的意義。
+  * **工作階段**：您會在資料檢視中定義工作階段量度，做為工作階段設定組態的一部分。 請參閱[工作階段設定](/help/data-views/session-settings.md)。
+  * **事件**： Customer Journey Analytics中的事件量度是由事件所組成，這些事件是您已設定為連線之一部分的任何事件資料集的一部分。
 
   如需標準量度的完整清單，請參閱[標準量度](#standard-metrics)。
 

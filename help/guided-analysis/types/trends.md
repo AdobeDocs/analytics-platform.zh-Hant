@@ -60,7 +60,7 @@ ht-degree: 92%
 
 * **[!UICONTROL 看法]**：在此分析和 [頻率](frequency.md)之間切換。
 * **[!UICONTROL 事件和量度]**：您想要測量的事件或量度。 每個選擇都以圖表系列和表格列來表示。 在查詢中不能將事件和量度結合；一旦做了第一個選擇，其餘的查詢選擇必須是同一類型。 最多可包含 5 個選擇。
-* **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。 <ul><li>**[!UICONTROL 選項]**&#x200B;包含[!UICONTROL 使用者]、[!UICONTROL 事件]、[!UICONTROL 工作階段]、[!UICONTROL 使用者百分比]、每個工作階段的[!UICONTROL 事件]以及每個使用者的[!UICONTROL 事件]。</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}其他&#x200B;**[!UICONTROL B2B選項]**&#x200B;適用於Customer Journey Analytics B2B edition： [!UICONTROL 全域帳戶]、[!UICONTROL 帳戶]、[!UICONTROL 購買群組]、[!UICONTROL 機會]、[!UICONTROL 全域帳戶的百分比]、[!UICONTROL 帳戶的百分比]、[!UICONTROL 購買群組的百分比]、[!UICONTROL 機會的百分比]、[!UICONTROL 每個全域帳戶的事件]、[!UICONTROL 每個事件的事件帳戶]、每個購買團體的[!UICONTROL 個事件]和每個機會的[!UICONTROL 個事件]。</li></ul>計入選項僅適用於事件查詢，並且量度查詢時會被刪除。
+* **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。 <ul><li>**[!UICONTROL 選項]**&#x200B;包含[!UICONTROL 使用者]、[!UICONTROL 事件]、[!UICONTROL 工作階段]、[!UICONTROL 使用者百分比]、每個工作階段的[!UICONTROL 事件]以及每個使用者的[!UICONTROL 事件]。</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}其他&#x200B;**[!UICONTROL B2B選項]**&#x200B;適用於Customer Journey Analytics B2B edition： [!UICONTROL 全域帳戶]、[!UICONTROL 帳戶]、[!UICONTROL 購買群組]、[!UICONTROL 機會]、[!UICONTROL 全域帳戶的百分比]、[!UICONTROL 帳戶的百分比]、[!UICONTROL 購買群組的百分比]、[!UICONTROL 機會的百分比]、[!UICONTROL 每個全域帳戶的事件]、[!UICONTROL 每個事件的事件帳戶]、每個購買團體的[!UICONTROL 個事件]和每個機會的[!UICONTROL 個事件]。</li></ul>計入選項僅適用於事件查詢，且不適用於量度查詢。
 * **[!UICONTROL 區段]**：您要測量的區段。 每個選定的區段都會使圖表系列和表格列的數量加倍。 最多可包含 5 個區段。
 * **[!UICONTROL 劃分屬性]**：根據所選屬性的值細劃分圖表系列和表格列。 支援單一的劃分屬性。 前 20 個值會顯示在表格中，圖表中最多可查看 10 個值。 您可以透過切換 ![顯示隱藏圖示](../assets/hide-in-chart.png) 圖示來隱藏或顯示表格列。
 
@@ -72,13 +72,13 @@ ht-degree: 92%
 
 ### 覆蓋
 
-在圖表中新增附加資料。 當圖表上可見多個系列時，只有將滑鼠停留時才會出現覆蓋圖。
+在圖表中新增附加資料。 當圖表上可見多個系列時，覆蓋圖只會在滑鼠懸停時出現。
 
 * **[!UICONTROL 異常偵測]**：對趨勢分析執行[異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)。 離群值顯示為點，您可將滑鼠停留在點上以獲得更多資訊。
 * **[!UICONTROL 趨勢線覆蓋]**：在圖表中加入趨勢線，有助於更清晰地描繪資料中的模式。
-   * [!UICONTROL 線性 (Linear)]：建立直線迴歸線。 最適合以穩定速率增加或減少的簡單線性資料。 方程式：`y = a + b * x`
-   * [!UICONTROL 對數]：建立彎曲的迴歸線。 最適合快速增加或減少，然後變得更加平穩的數據。 方程式：`y = a + b * log(x)`
-   * [!UICONTROL 移動平均]：根據一組平均值建立平滑趨勢線。 移動平均也稱為滾動平均，此值是使用特定數量的先前資料點 (取決於您的選擇)、求取其平均值，並將平均值當做線條中的某個點。 範例包括 7 天移動平均值或 4 週移動平均值。 可用的移動平均選項取決於您選擇的間隔和日期範圍。
+  * [!UICONTROL 線性 (Linear)]：建立直線迴歸線。 適合以穩定速率增加或減少的簡單線性資料。 方程式：`y = a + b * x`
+  * [!UICONTROL 對數]：建立彎曲的迴歸線。 適合快速增加或減少，然後變得更加平穩的資料。 方程式：`y = a + b * log(x)`
+  * [!UICONTROL 移動平均]：根據一組平均值建立平滑趨勢線。 移動平均也稱為滾動平均，此值是使用特定數量的先前資料點 (取決於您的選擇)、求取其平均值，並將平均值當做線條中的某個點。 範例包括 7 天移動平均值或 4 週移動平均值。 可用的移動平均選項取決於您選擇的間隔和日期範圍。
 
 ### 時間比較
 

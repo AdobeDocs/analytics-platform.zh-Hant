@@ -29,9 +29,9 @@ ht-degree: 59%
 
 # 使用物件陣列
 
-某些平台結構允許使用物件陣列。 Adobe Customer Journey Analytics支援事件、查詢和設定檔資料中物件陣列的擷取和報表功能。 內含多種產品的購物車是最常見的例子。 每樣產品都有名稱、SKU、類別、價格、數量，以及您要追蹤的其他任何維度。 這些面向的規定各不相同，但全都必須符合相同點擊規範。
+某些平台結構描述可以有物件陣列。 Adobe Customer Journey Analytics支援事件、查詢和設定檔資料中物件陣列的擷取和報表功能。 內含多種產品的購物車是最常見的例子。 每樣產品都有名稱、SKU、類別、價格、數量，以及您要追蹤的其他任何維度。 這些面向各有不同的要求，但都必須納入同一次點擊中。
 
-舊版 Adobe Analytics 中，此功能是使用 `products`變數來完成。 該變數是以分號 (`;`) 分隔的串連字串，以區隔產品的各個面向，而逗號 (`,`) 則劃分產品。 這是唯一有限支援「物件陣列」的變數。 清單變數之類的多值變數可支援同等陣列，但無法支援「物件陣列」。 Customer Journey Analytics擴充了此概念，在單一資料列中支援任意深度的階層，任何舊版Adobe Analytics皆未支援此功能。
+舊版 Adobe Analytics 中，此功能是使用 `products`變數來完成。 該變數是以分號 (`;`) 分隔的串連字串，以區隔產品的各個面向，而逗號 (`,`) 則劃分產品。 這是唯一對「物件陣列」提供有限支援的變數。 清單變數之類的多值變數可支援相當於陣列的功能，但無法支援「物件陣列」。 Customer Journey Analytics擴充了此概念，在單一資料列中支援任意深度的階層，任何舊版Adobe Analytics皆未支援此功能。
 
 ## 相同事件範例
 
@@ -79,23 +79,23 @@ ht-degree: 59%
 }
 ```
 
-建立資料檢視時，可 (根據結構) 使用下列維度和量度：
+建立資料釋圖時，可 (根據結構描述) 使用下列維度和量度：
 
 * **維度：**
-   * ID
-   * product : SKU
-   * product : name
-   * product : order_id
-   * product : warranty : coverage
-   * prodcut : warranty : length
-   * product : warranty : name
-   * product : warranty : type
+  * ID
+  * product : SKU
+  * product : name
+  * product : order_id
+  * product : warranty : coverage
+  * prodcut : warranty : length
+  * product : warranty : name
+  * product : warranty : type
 * **量度：**
-   * product : orders
-   * product : units
-   * product : revenue
-   * product : warranty
-   * product : warranty : revenue
+  * product : orders
+  * product : units
+  * product : revenue
+  * product : warranty
+  * product : warranty : revenue
 
 ### 相同事件範例（報表行為）
 
@@ -257,7 +257,7 @@ Customer Journey Analytics會檢視事件的這些部分，以產生報表：
 +}
 ```
 
-請注意沒有關聯名稱的訂單。 這些都是「未指定」維度項目的訂單。
+請注意沒有關聯名稱的訂單。 這些是歸因於「未指定」維度項目的訂單。
 
 ### 結合不同量度
 

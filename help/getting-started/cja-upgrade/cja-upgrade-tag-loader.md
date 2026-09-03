@@ -39,7 +39,7 @@ ht-degree: 100%
 
 {{upgrade-note-step}}
 
-您必須在想要追蹤的網站上安裝您的標記，這是將程式碼放在您網站範本的標題標記中。
+您必須在想要追蹤的網站上安裝您的標記，這表示要將程式碼放在您網站範本的標頭標記中。
 
 以下過程說明如何取得引用您標記的程式碼。 有關補充資訊，請參閱 Experience Platform 文件中的「[標記和事件轉送實施指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/implementation-guides)」。
 

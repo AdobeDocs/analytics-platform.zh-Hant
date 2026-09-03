@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
-source-wordcount: 7300
+source-wordcount: 7319
 ht-degree: 87%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="connections_cancel_ajo"
 >title="取消 Journey Optimizer 連線"
->abstract="取消 Journey Optimizer 的進階 Customer Journey Analytics 報告功能。"
+>abstract="取消搭配 Journey Optimizer 使用的進階 Customer Journey Analytics 報告功能。"
 
 
 [建立一或編輯多個連線](/help/connections/create-connection.md)後，您就可以在「**[!UICONTROL 連線]**」中管理這些連線。 [!UICONTROL 連線]介面可讓您：
@@ -49,10 +49,10 @@ ht-degree: 87%
 * 檢視您的所有連線，包括擁有者、沙箱，以及連線的建立和修改時間。
 * 編輯連線。
 * 刪除連線。
-* 從連線建立資料檢視。
+* 從連線建立資料釋圖。
 * 檢視連線中的所有資料集。
 * 查看連線資料集狀態和攝取過程的狀態。 例如，您的資料何時可用，以便您可以開始在 Analysis Workspace 中進行報告和分析。
-* 識別因設定錯誤所導致的任何資料差異。 您是否有遺漏任何資料列？ 如果有的話，遺漏了哪些資料列以及為什麼遺漏？ 您是否將連設定錯誤並導致 Customer Journey Analytics 中的資料遺失？
+* 識別因設定錯誤所導致的任何資料差異。 您是否有遺漏任何資料列？ 如果有的話，遺漏了哪些資料列以及為什麼遺漏？ 您是否將連線設定錯誤並導致 Customer Journey Analytics 中的資料遺失？
 * 了解所有連線中已攝取和可報告資料行的使用情況。
 
 [!UICONTROL 連線]有兩個介面： [[!UICONTROL 清單]](#list)和[[!UICONTROL 使用狀況]](#usage)。
@@ -62,7 +62,7 @@ ht-degree: 87%
 
 **[!UICONTROL 清單]**&#x200B;介面是連線的預設介面。 如果未選取，請選取「**[!UICONTROL 清單]**」標記以存取介面。
 
-**[!UICONTROL List]**&#x200B;介面會顯示所有可用連線的表格。
+**[!UICONTROL 清單]**&#x200B;介面會顯示所有可用連線的表格。
 △
 ![清單檢視](assets/list-view.png)
 
@@ -75,7 +75,7 @@ ht-degree: 87%
 | ![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | 若要為連線[建立資料檢視](#create-a-data-view) ，請選取「![資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg)」。 只有在沒有資料檢視與連線有關聯時，此圖示才會顯示。 |
 | ![更多內容](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選取「![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)」開啟內容選單。 您可以選取： <p>「![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 編輯]**」來[編輯](#edit-a-connection)連線。<p>「![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 刪除]**」來[刪除](#delete-a-connection)連線。<p>「![資料視圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL 建立新的資料視圖]**」來[建立連線的新資料視圖](#create-a-data-view)。<p>「![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 連線對應]**」以檢視連線的[連線對應](#map-a-connection)。 |
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 連線類型&#x200B;]** | 連線類型：**[!UICONTROL 個人]**&#x200B;或&#x200B;**[!UICONTROL 帳戶]**&#x200B;型連線。 |
-| **[!UICONTROL 資料集]** | 前往屬於連線一部分的資料集的一個或多個連結。 您可以選取資料集超連結，即可檢視連線中的所有資料集。 如果選取的連線包含更多資料集，請選取 **[!UICONTROL +*x* 更多]**&#x200B;以顯示&#x200B;**[!UICONTROL 包含的資料集]**&#x200B;面板。 此面板會顯示所有資料集的連結以及可![搜尋](/help/assets/icons/Search.svg)搜尋屬於連線的特定資料集的選項。<p>![包含的資料集](assets/datasets-included.png)<p>選取資料集名稱會在新分頁中的 Experience Platform 介面中開啟該資料集。 |
+| **[!UICONTROL 資料集]** | 前往屬於連線一部分的資料集的一個或多個連結。 您可以選取資料集超連結，以檢視連線中的資料集。 如果選取的連線包含更多資料集，請選取 **[!UICONTROL +*x* 更多]**&#x200B;以顯示&#x200B;**[!UICONTROL 包含的資料集]**&#x200B;面板。 此面板會顯示所有資料集的連結以及可![搜尋](/help/assets/icons/Search.svg)搜尋屬於連線的特定資料集的選項。<p>![包含的資料集](assets/datasets-included.png)<p>選取資料集名稱，即可在新分頁的 Experience Platform 介面中開啟該資料集。 |
 | **[!UICONTROL 沙箱]** | [Adobe Experience Platform 沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)，此連線會從這個沙箱提取其資料集 。 您在建立連線時選取此沙箱。 一旦儲存連線後，您就無法變更沙箱。 |
 | **[!UICONTROL 所有者]** | 建立連線的人。 |
 | **[!UICONTROL 匯入新資料]** | 資料集匯入新資料的狀態： <p>![綠色狀態](assets/status-green.svg)    **[!UICONTROL _x _開啟]**，表示資料集設定為匯入新資料，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，表示資料集未設定為匯入新資料。 |
@@ -148,9 +148,9 @@ ht-degree: 87%
 請參閱「[刪除影響](/help/technotes/deletion.md)」，了解有關刪除連線的詳細資訊。
 
 
-### 建立連線的資料檢視
+### 建立連線的資料釋圖
 
-若要建立連線的資料視圖：
+若要建立連線的資料釋圖：
 
 1. 選取連線名稱旁的「![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)」。
 1. 選取 ![新增資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL 「建立新的資料檢視」]**。
@@ -268,18 +268,18 @@ ht-degree: 87%
 
 * 檢查連線的資料集及攝取程序的狀態。
 * 識別可以造成記錄被略過或被刪除的設定問題。
-* 了解資料何時可用來報告。
+* 了解資料何時可供報告使用。
 
 | 使用者介面 | 說明 |
 | --- | --- |
 | ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 編輯連線]**。 | 若要編輯連線的詳細資訊，請選取 ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 「編輯連線」]**。 如需詳細資訊，請參閱「[建立或編輯連線](create-connection.md)」。 |
-| **[!UICONTROL *資料集選擇器&#x200B;*]** | 選取一個或多個資料集，顯示連線中的詳細資料。 您無法多重選取資料集。 預設為「**[!UICONTROL 所有資料集]**」。 |
+| **[!UICONTROL *資料集選擇器&#x200B;*]** | 選取一個或所有資料集，以顯示連線中的詳細資料。 您無法多重選取資料集。 預設為「**[!UICONTROL 所有資料集]**」。 |
 | **[!UICONTROL *日期範圍選擇器&#x200B;*]** | 選取要顯示連線中詳細資料的資料範圍。 編輯開始日期、結束日期，或選取「![行事曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)」，以開啟日期範圍選擇器。 在日期範圍選擇器中，使用預先定義時間段之一 (例如&#x200B;**[!UICONTROL 過去 6 個月]**) 選取日期範圍，或使用行事曆來選取開始日期和結束日期。 選取「**[!UICONTROL 套用]**」，將新的日期範圍套用至連線詳細資料。 |
 | **[!UICONTROL 有可用的事件資料記錄]** | 在&#x200B;**整個連線**&#x200B;中可用來報告的總事件資料集列數。 此計數與任何日期範圍或資料集選取範圍無關。 |
 | [!UICONTROL **[!UICONTROL 量度]**] | 匯總新增、跳過和刪除的事件、查詢、輪廓和摘要資料集記錄以及新增的批次數。 這些量度是根據&#x200B;**您選取的資料集和日期範圍**&#x200B;而決定。<p>選取「**[!UICONTROL 檢查詳細資訊]**」，以顯示「**[!UICONTROL 查看略過的詳細資料]**」快顯視窗。 快顯視窗列有所有事件資料集或選取資料集的略過記錄數和原因。<p>![略過的記錄](assets/skipped-records.png)<p>選取「![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)」快顯視窗，取得更多資訊。 若要了解一些略過的原因 (例如[!UICONTROL 訪客 ID 為空])，快顯視窗會顯示 **[!UICONTROL EQS (Experience Platform for Query Service) 的範例 PSQL]**，您可以在[查詢服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home)中用來查詢資料集中被略過的記錄。 選取 ![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL 「複製 EQS 的範例 PSQL」]**&#x200B;以複製 SQL。 |
 | **[!UICONTROL 新增的記錄]** | 視覺化圖表指出在選取的時段內，**針對您選取的資料集和日期範圍**&#x200B;新增了多少列。 每 10 分鐘更新一次。 |
-| **[!UICONTROL 略過的記錄]** | 視覺化圖表指出在選取的時段內，**針對您選取的資料集和日期範圍**&#x200B;略過了多少列。 略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 等。 每 10 分鐘更新一次。 <p>無效 ID (例如`undefined`、`00000000`，或[!UICONTROL 個人 ID] 在指定月份中出現超過 100 萬次的事件) 無法歸因於任何特定使用者或人員。 這些資料列無法將攝取資料擷取至系統中，並導致容易出錯的攝取和報告。 若要修復無效的個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}，您有 3 個選項：<ul><li>使用[拼接](/help/stitching/overview.md)以有效的使用者 ID 填入未定義或全零的使用者 ID。</li><li>將使用者 ID 留空，然後在攝取期間略過 (這是比較適合無效或全零使用者 ID 的做法)。</li><li>在攝取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> |
-| **[!UICONTROL 刪除的記錄]** | 視覺化圖表指出在選取的時段內，**針對您選取的資料集和日期範圍**&#x200B;刪除了多少列。 例如，可能有人已刪除 [!DNL Experience Platform] 中的資料集。 每 10 分鐘更新一次。<p>在某些情況下，該值還可以包括已取代的記錄，例如拼接或某些查詢資料集更新。 考慮此範例：</p><ul><li>您將一筆記錄上傳到 XDM 輪廓資料集，Customer Journey Analytics 會將其設定為以輪廓查詢資料來攝取。 在連線詳細資料中，該資料集將顯示已新增 1 筆記錄。</li><li>您將原始記錄的副本上傳到同一個 AEP 資料集，該資料集現在包含兩個記錄。 Customer Journey Analytics 會從輪廓或帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 查詢資料集中攝取更多記錄。 Customer Journey Analytics 發現連線中已攝取該個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 的輪廓或帳戶記錄，因此會刪除其早期版本並新增輪廓資料。 在連線詳細資料中，此動作代表新增 1 筆記錄和刪除 1 筆記錄，因為 Customer Journey Analytics 僅會保留任何已攝取之個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 的最新輪廓資料。</li><li>總體來說，AEP 資料集包含兩筆完全相同的記錄。 另外，Customer Journey Analytics 連線詳細資料會顯示其攝取資料的狀態：此輪廓資料集新增了 2 筆記錄，刪除了 1 筆記錄。 </li></ul> |
+| **[!UICONTROL 略過的記錄]** | 視覺化圖表指出在選取的時段內，**針對您選取的資料集和日期範圍**&#x200B;略過了多少列。 略過記錄的原因包括：遺漏時間戳記、遺漏或無效的個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 等。 每 10 分鐘更新一次。 <p>無效 ID (例如`undefined`、`00000000`，或[!UICONTROL 個人 ID] 在指定月份中出現超過 100 萬次的事件) 無法歸因於任何特定使用者或人員。 這些資料列無法攝取到系統中，並會導致容易出錯的攝取和報告。 若要修復無效的個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}，您有 3 個選項：<ul><li>使用[拼接](/help/stitching/overview.md)以有效的使用者 ID 填入未定義或全零的使用者 ID。</li><li>將使用者 ID 留空，這些 ID 之後會在攝取期間略過 (這比使用無效或全為零的使用者 ID 更可取)。</li><li>在攝取資料之前，請先修正系統中任何無效的使用者 ID。</li></ul> |
+| **[!UICONTROL 刪除的記錄]** | 視覺化圖表指出在選取的時段內，**針對您選取的資料集和日期範圍**&#x200B;刪除了多少列。 例如，可能有人已刪除 [!DNL Experience Platform] 中的資料集。 每 10 分鐘更新一次。<p>在某些情況下，該值還可以包括已取代的記錄，例如拼接或某些查詢資料集更新。 考慮此範例：</p><ul><li>您將一筆記錄上傳到 XDM 輪廓資料集，Customer Journey Analytics 會將其設定為以輪廓查詢資料來攝取。 在連線詳細資料中，該資料集將顯示已新增 1 筆記錄。</li><li>您將原始記錄的副本上傳到同一個 AEP 資料集，該資料集現在包含兩筆記錄。 Customer Journey Analytics 會從輪廓或帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 查詢資料集中攝取更多記錄。 Customer Journey Analytics 發現連線中已攝取該個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 的輪廓或帳戶記錄，因此會刪除其早期版本並新增輪廓資料。 在連線詳細資料中，此動作代表新增 1 筆記錄和刪除 1 筆記錄，因為 Customer Journey Analytics 僅會保留任何已攝取之個人 ID 或帳戶 ID [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} 的最新輪廓資料。</li><li>總體來說，AEP 資料集包含兩筆完全相同的記錄。 另外，Customer Journey Analytics 連線詳細資料會顯示其攝取資料的狀態：此輪廓資料集新增了 2 筆記錄，刪除了 1 筆記錄。 </li></ul> |
 | ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | 資料集搜尋欄位。 您可以依據資料集名稱或資料集 ID 來搜尋資料集表格。 |
 | [!UICONTROL 資料集表格] | 屬於連線之一部分的資料集。 如需進一步說明，請參閱下方表格。 選取「![SelectBox](/help/assets/icons/SelectBox.svg)」單一資料集，僅顯示所選取之資料集的連線詳細資料。 這等同於從&#x200B;**[!UICONTROL _資料集選取器_]**&#x200B;選取資料集。 |
 
@@ -294,7 +294,7 @@ ht-degree: 87%
 | **[!UICONTROL 刪除的記錄]** | 在所選日期範圍期間，從連線中移除的資料集記錄 (列) 數。 |
 | **[!UICONTROL 新增的批次]** | 在所選日期範圍期間，已新增至連線的批次數量。 |
 | **[!UICONTROL 上次新增時間]** | 新增至連線之最後批次的時間戳記。 |
-| **[!UICONTROL 資料來源類型]** | 來源類型。 當您將資料集新增到連線時，可以定義來源類型。 |
+| **[!UICONTROL 資料來源類型]** | 來源類型。 當您將資料集新增到連線時，您會定義來源類型。 |
 | **[!UICONTROL 資料集類型]** | [資料集類型](create-connection.md#dataset-types)。 類型可以是&#x200B;**[!UICONTROL 事件]**、**[!UICONTROL 輪廓]**、**[!UICONTROL 查詢]**&#x200B;或&#x200B;**[!UICONTROL 摘要]**。 臨時或關聯式資料集以 **[!UICONTROL (臨時)]** 或 **[!UICONTROL (關聯式)]** 做為識別。 例如，**[!UICONTROL 事件 (臨時)]** 或 **[!UICONTROL 查詢 (關聯式)]**。 |
 | **[!UICONTROL 拼接]** | 如果資料集[在「連線」使用者介面中啟用了拼接功能](/help/stitching/use-stitching-ui.md)，則該值為&#x200B;**[!UICONTROL 真]**； 否則，該值為&#x200B;**[!UICONTROL 假]**。 透過[請求拼接程序](/help/stitching//use-stitching.md)所產生的拼接資料集不會在此表格中被識別為已拼接，且其值預設為&#x200B;**[!UICONTROL 假]**。 |
 | **[!UICONTROL 結構描述]** | 此資料集所根據的 Experience Platform 結構描述。 |
@@ -318,7 +318,7 @@ ht-degree: 87%
 | ![新增資料檢視](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL 建立資料檢視]** | 根據此連線[建立資料檢視](#create-a-data-view)。 請參閱「[資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-views)」，了解更多資訊。 |
 | **[!UICONTROL 在 CJA 中使用]** | 在 Customer Journey Analytics 中使用 Journey Optimizer 連線，讓您的 Journey Optimizer 連線發揮更大價值。 如需更多資訊，請參閱[在 Customer Journey Analytics 中使用 Journey Optimizer 連線](#use-a-journey-optimizer-connection-in-customer-journey-analytics)。 |
 | **[!UICONTROL 連線名稱]** | 連線的易記名稱。 |
-| **[!UICONTROL 連線說明]** | 更詳細的說明，且可描述此連線的用途。 |
+| **[!UICONTROL 連線說明]** | 更詳細的說明，說明此連線的用途。 |
 | **[!UICONTROL 沙箱]** | [Adobe Experience Platform 沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)，此連線會從這個沙箱提取其資料集 。 您在建立連線時選取此沙箱。 一旦儲存連線後，您就無法變更沙箱。 |
 | **[!UICONTROL 連線 ID]** | 針對連線產生的識別碼。 您可以使用「![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg)」複製這個值。 |
 | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 主要 ID 類型&#x200B;]** | 連線的主要 ID 類型：**[!UICONTROL 個人]**，是個人型連線；**[!UICONTROL 帳戶]**，則是帳戶型連線。 |
@@ -327,9 +327,9 @@ ht-degree: 87%
 | **[!UICONTROL 匯入新資料]** | 資料集匯入新資料的狀態： <p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，表示有多少資料集設定為匯入新資料，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _x 關閉_]**，表示有多少個新資料集匯入已關閉。 |
 | **[!UICONTROL 回填資料]** | 資料集回填資料的狀態。<p>![紅色狀態](assets/status-red.svg)   **[!UICONTROL _x _回填失敗]**，表示所有資料集回填失敗的次數，<p>![紅色狀態](assets/status-orange.svg)   **[!UICONTROL _x _回填處理]**，表示所有資料集處理回填的次數，<p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _回填完成]**，表示資料集回填已完成的數量，以及<p>![灰色狀態](assets/status-gray.svg)   **[!UICONTROL _關閉_]**，若連線中的資料集未定義回填。 |
 | **[!UICONTROL 轉換資料]** | 適用 B2B 查詢資料集的轉換狀態。 請參閱[轉換資料集以進行 B2B 查詢](transform-datasets-b2b-lookups.md)，了解更多資訊。<p>![綠色狀態](assets/status-green.svg)   **[!UICONTROL _x _開啟]**，表示已啟用進行轉換的資料集數量。 |
-| **[!UICONTROL 建立者]** | 建立連線的個人名稱。 |
-| **[!UICONTROL 上次修改日期]** | 連接最後一次變更的時間戳。 |
-| **[!UICONTROL 上次修改者]** | 最後修改連線之個人的名稱。 |
+| **[!UICONTROL 建立者]** | 建立連線的人員名稱。 |
+| **[!UICONTROL 上次修改日期]** | 連線最後一次變更的時間戳記。 |
+| **[!UICONTROL 上次修改者]** | 上次修改連線的人員名稱。 |
 
 #### 資料集面板
 
@@ -408,7 +408,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="connections_averagerowsize"
 >title="平均列大小"
->abstract="當月每一列資料攝取和儲存所使用的平均儲存量 (以 kB 為單位)，以及相較於前一個月的百分比變化。"
+>abstract="當月攝取並儲存的每一列資料所耗用的平均儲存量 (以 kB 為單位)，以及相較於前一個月的百分比變化。"
 
 
 >[!CONTEXTUALHELP]
@@ -430,7 +430,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_cumulativereportablerows"
 >title="累計可報告列數"
->abstract="累計可報告列數是快照的值，而不是彙總總計。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
+>abstract="累計可報告列數是快照值，而非彙總總數。 這些值會依所選日期範圍內的最後一個月進行動態更新。 該值會反映所選月份的快照。"
 
 
 >[!CONTEXTUALHELP]
@@ -514,7 +514,7 @@ ht-degree: 87%
 | **核心資料量** | 儲存在磁碟上的資料總量。 |
 | **平均列大小** | 攝取和儲存的每一列資料使用的平均儲存數量。 |
 | **攝取列數** | 特定時期內攝取多少列。 |
-| **可報告列數** | 在特定時期內，做為連線一部分的資料有多少列？ |
+| **可報告列數** | 在特定時期內，作為連線一部分的資料有多少列。 |
 | **累計的列數** | 截至特定月份已攝取多少資料列。 |
 
 >[!NOTE]
@@ -561,7 +561,7 @@ ht-degree: 87%
 
   +++ 詳細劃分
 
-  您可以使用&#x200B;**[!UICONTROL 詳細劃分]**&#x200B;表格，按連線、資料集、沙箱和標記來檢視詳細的量度。 資料集的報告是使用 ID 而非名稱，因為可在報告期間修改資料集名稱。 不明資料集或連線的報告是使用 ID 來進行。
+  您可以使用&#x200B;**[!UICONTROL 詳細劃分]**&#x200B;表格，按連線、資料集、沙箱和標記來檢視詳細的量度。 資料集的報告是使用 ID 而非名稱，因為可在報告期間修改資料集名稱。 不明資料集或連線會使用 ID 來報告。
 
   2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為「[!UICONTROL 其他資料集]」。 從2024年9月開始，資料會在精細資料集層級收集，且[!UICONTROL 其他資料集]不再出現。
 
@@ -612,13 +612,13 @@ ht-degree: 87%
 
   **[!UICONTROL 每月Content Analytics列]**&#x200B;子面板會測量每月新增到系統的Content Analytics記錄總數，以提供insight的資料成長與擷取率。 子面板提供了本月總攝取資料列數以及與上個月相比變化的摘要。
 
-  您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含更多詳細資料的快顯視窗。 您可以選取&#x200B;**[!UICONTROL 時間範圍]**&#x200B;或使用![行事曆](/help/assets/icons/Calendar.svg)來選取時間範圍。
+  您可以將滑鼠停留在視覺化圖表中的資料點上，以顯示包含更多詳細資料的快顯視窗。 您可以選取&#x200B;**[!UICONTROL 時間範圍]**&#x200B;或使用![行事曆](/help/assets/icons/Calendar.svg)來選取時間範圍。
 
   +++
 
   +++ 詳細劃分
 
-  您可以使用&#x200B;**[!UICONTROL 詳細劃分]**&#x200B;表格，按連線、資料集、沙箱和標記來檢視詳細的量度。 資料集的報告是使用 ID 而非名稱，因為可在報告期間修改資料集名稱。 不明資料集或連線的報告是使用 ID 來進行。
+  您可以使用&#x200B;**[!UICONTROL 詳細劃分]**&#x200B;表格，按連線、資料集、沙箱和標記來檢視詳細的量度。 資料集的報告是使用 ID 而非名稱，因為可在報告期間修改資料集名稱。 不明資料集或連線會使用 ID 來報告。
 
   2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為「[!UICONTROL 其他資料集]」。 從2024年9月開始，資料會在精細資料集層級收集，且[!UICONTROL 其他資料集]不再出現。
 
@@ -670,7 +670,7 @@ ht-degree: 87%
 
 +++ 詳細劃分
 
-您可以使用&#x200B;**[!UICONTROL 詳細劃分]**&#x200B;表格，按連線、資料集、沙箱和標記來檢視詳細的量度。 資料集的報告是使用 ID 而非名稱，因為可在報告期間修改資料集名稱。 不明資料集或連線的報告是使用 ID 來進行。
+您可以使用&#x200B;**[!UICONTROL 詳細劃分]**&#x200B;表格，按連線、資料集、沙箱和標記來檢視詳細的量度。 資料集的報告是使用 ID 而非名稱，因為可在報告期間修改資料集名稱。 不明資料集或連線會使用 ID 來報告。
 
 2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為「[!UICONTROL 其他資料集]」。 從 2024 年 9 月開始，依詳細程度資料集層級收集資料，而[!UICONTROL 其他資料集]不會再顯示。
 
@@ -720,13 +720,13 @@ ht-degree: 87%
 
   **[!UICONTROL 每月媒體開始數]**&#x200B;子面板會測量每月新增到系統的每月媒體開始記錄總數，以提供insight的資料成長與擷取率。 子面板提供了本月總攝取資料列數以及與上個月相比變化的摘要。
 
-  您可以將滑鼠停留在視覺效果中的資料點上，以顯示包含更多詳細資料的快顯視窗。 您可以選取&#x200B;**[!UICONTROL 時間範圍]**&#x200B;或使用![行事曆](/help/assets/icons/Calendar.svg)來選取時間範圍。
+  您可以將滑鼠停留在視覺化圖表中的資料點上，以顯示包含更多詳細資料的快顯視窗。 您可以選取&#x200B;**[!UICONTROL 時間範圍]**&#x200B;或使用![行事曆](/help/assets/icons/Calendar.svg)來選取時間範圍。
 
   +++
 
   +++ 詳細劃分
 
-  您可以使用&#x200B;**[!UICONTROL 詳細劃分]**&#x200B;表格，按連線、資料集、沙箱和標記來檢視詳細的量度。 資料集的報告是使用 ID 而非名稱，因為可在報告期間修改資料集名稱。 不明資料集或連線的報告是使用 ID 來進行。
+  您可以使用&#x200B;**[!UICONTROL 詳細劃分]**&#x200B;表格，按連線、資料集、沙箱和標記來檢視詳細的量度。 資料集的報告是使用 ID 而非名稱，因為可在報告期間修改資料集名稱。 不明資料集或連線會使用 ID 來報告。
 
   2024 年 9 月之前的數月在資料集層級收集資料，且為了提高清晰度，該資料顯示為「[!UICONTROL 其他資料集]」。 從 2024 年 9 月開始，依詳細程度資料集層級收集資料，而[!UICONTROL 其他資料集]不會再顯示。
 
@@ -746,6 +746,6 @@ ht-degree: 87%
 
 >[!MORELIKETHIS]
 >
->[檢視、疑難排解及修改連線設定](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja)教學課程。
->[管理您的Customer Journey Analytics使用量](/help/technotes/estimate-usage.md)
+>[檢視、疑難排解和修改連線設定](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja)教學課程。
+>[管理您的 Customer Journey Analytics 使用情況](/help/technotes/estimate-usage.md)
 >

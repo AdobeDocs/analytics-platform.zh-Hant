@@ -37,7 +37,7 @@ Workspace 專案可讓您合併面板、視覺效果和元件，以進行分析�
 在標題區域 ➊ 內，您可以使用其他圖磚來建立專案、建立資料夾、編輯您的偏好設定，以及顯示或隱藏面板。
 
 * 若要顯示或隱藏左側面板以便您在「**[!UICONTROL 專案]**」和「**[!UICONTROL 了解]**」之間選取，您可選取「![邊欄](/help/assets/icons/Rail.svg)」。
-* 標題會顯示專案，還可選擇新增至您已選取資料夾的路徑。 例如，[!UICONTROL 專案] > **[!UICONTROL 公司資料夾]**。 您可以選取個別子資料夾部分，以直接前往特定資料夾。
+* 標題會顯示「專案」，並可選擇加上您已選取資料夾的路徑。 例如，[!UICONTROL 專案] > **[!UICONTROL 公司資料夾]**。 您可以選取個別子資料夾部分，以直接前往特定資料夾。
 * 若要顯示 [**[!UICONTROL 空白專案]**](create-projects.md)， [**[!UICONTROL 空白行動計分卡]**](/help/mobile-app/create-scorecard.md)， [**[!UICONTROL 引導式分析]**](/help/guided-analysis/overview.md)， **[!UICONTROL 開啟文件]** 和 **[!UICONTROL 開啟發行說明]**&#x200B;的圖磚，選取 ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 「顯示更多」]**。 若要隱藏有圖磚的區域，請選取 ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 「顯示較少」]**。
 * 根據您的選取來顯示 (使用[顯示選擇器](#show-selector))，您可以編輯偏好設定並對&#x200B;**[!UICONTROL 專案]**&#x200B;中目前可見到的資料夾執行動作：
 
@@ -66,7 +66,7 @@ Workspace 專案可讓您合併面板、視覺效果和元件，以進行分析�
 | **[!UICONTROL 標題和說明]** | 若要編輯專案，請選取標題連結，即會開啟 [Workspace 專案](/help/analysis-workspace/home.md)。 與您共用的專案會以「![共用](/help/assets/icons/ShareAlt.svg)」來表示。 選取 ![InfoOutline](/help/assets/icons/InfoOutline.svg) 以顯示快顯選單，其中含有專案的更多詳細資訊。 選取「![更多](/help/assets/icons/More.svg)」以開啟含有動作的內容選單。 如需詳細資訊，請參閱「[動作](#actions)」。 |
 | **[!UICONTROL 類型]** | Workspace 專案、![FolderUser](/help/assets/icons/FolderUser.svg) 資料夾或[行動計分卡](/help/mobile-app/home.md)。 |
 | **[!UICONTROL 標記]** | 套用至專案的標記。 |
-| **[!UICONTROL 已排程]** | 是否為專案排程以透過電子郵件發送給收件者。 選項包括 ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL 開啟]**&#x200B;或![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL 關閉]**。 請參閱「[發送專案資料給其他人](/help/analysis-workspace/export/t-schedule-report.md)」。 |
+| **[!UICONTROL 已排程]** | 專案是否已排程透過電子郵件傳送給收件者。 選項包括 ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL 開啟]**&#x200B;或![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL 關閉]**。 請參閱「[發送專案資料給其他人](/help/analysis-workspace/export/t-schedule-report.md)」。 |
 | **[!UICONTROL 共用連結 (任何人)]** | 無論是否與任何人共用專案，即使是沒有 Analysis Workspace 存取權的人都可以共用。 選項包括 ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL 使用中]**&#x200B;或![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL 非使用中]**。 如需更多資訊，請參閱[共用專案](/help/analysis-workspace/curate-share/share-projects.md)中的「[與任何人共用專案 (無需登入)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)」。 |
 | **[!UICONTROL 專案角色]** | 您在專案中的角色。 選項包括：編輯、複製、檢視。 請參閱「[專案角色](/help/analysis-workspace/curate-share/curate.md)」，了解更多資訊。 |
 | **[!UICONTROL 資料檢視]** | 與專案相關聯的資料檢視。 |
@@ -76,7 +76,7 @@ Workspace 專案可讓您合併面板、視覺效果和元件，以進行分析�
 | **[!UICONTROL 上次開啟]** | 上次開啟專案的日期和時間。 |
 | **[!UICONTROL 專案 ID]** | 專案 ID。 |
 | **[!UICONTROL 最大日期範圍]** | 專案中任何面板或視覺效果的最長日期範圍。 |
-| **[!UICONTROL 查詢數]** | 專案中使用的查詢總數。 |
+| **[!UICONTROL 查詢數]** | 專案中包含的查詢總數。 |
 | **[!UICONTROL 位置]** | 專案所在的資料夾。 |
 
 將滑鼠停留在任何資料欄標題上，即可顯示 ![ChevronDown](/help/assets/icons/ChevronDown.svg) 並從內容選單中選取：
@@ -168,8 +168,8 @@ Workspace 專案可讓您合併面板、視覺效果和元件，以進行分析�
 
 * 若要移除篩選器：
 
-   1. 使用上方的 **[!UICONTROL *x *篩選器]**![ChevronDown](/help/assets/icons/ChevronDown.svg) 來開啟內容選單，列出篩選器類型和個別篩選器。
-   1. 使用 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 來移除篩選器。
+  1. 使用上方的 **[!UICONTROL *x *篩選器]**![ChevronDown](/help/assets/icons/ChevronDown.svg) 來開啟內容選單，列出篩選器類型和個別篩選器。
+  1. 使用 ![CrossSize75](/help/assets/icons/CrossSize75.svg) 來移除篩選器。
 
 
 <!--

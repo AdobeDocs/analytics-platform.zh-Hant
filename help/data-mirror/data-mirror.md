@@ -27,7 +27,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: 466
 ht-degree: 3%
 
 ---
@@ -74,6 +74,6 @@ Data Mirror提供下列資料庫同步處理的基本功能：
 
 >[!MORELIKETHIS]
 >
->[Data Mirror快速入門手冊：映象並使用關聯式資料](relational.md)
+>[Data Mirror快速入門手冊：映象及使用關聯式資料](relational.md)
 >[Data Mirror （Experience Platform檔案）](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview)
 >[關聯式結構描述（Experience Platform檔案）](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)

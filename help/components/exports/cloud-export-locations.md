@@ -18,7 +18,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 3307
+source-wordcount: 3313
 ht-degree: 25%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="cja-export-prefix"
 >title="前置詞"
->abstract="您希望放置資料的容器，其內的根資料夾。 指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。 例如， `folder_name/`"
+>abstract="容器內您希望放置資料的根資料夾。 指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。 例如， `folder_name/`"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -141,8 +141,8 @@ ht-degree: 25%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **儲存貯體**] | 您想要將Customer Journey Analytics資料傳送至的Amazon S3帳戶中的貯體。 <p>確保 Adob&#x200B;&#x200B;e 提供的使用者 ARN 擁有 `S3:PutObject` 權限，以便該使用者將檔案上傳到此貯體。 </p><p>貯體名稱必須符合特定的命名規則。 例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。 [AWS檔案中提供完整的命名規則清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
-   | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。 指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。 例如，folder_name/ |
+   | [!UICONTROL **儲存貯體**] | 您想要將Customer Journey Analytics資料傳送至的Amazon S3帳戶中的貯體。 <p>確保 Adob&#x200B;&#x200B;e 提供的使用者 ARN 擁有 `S3:PutObject` 權限，以便該使用者將檔案上傳到此貯體。 </p><p>桶名稱必須符合特定的命名規則。 例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。 [AWS檔案中提供完整的命名規則清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **前置詞**] | 在桶內，您希望資料放置的資料夾。 指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。 例如，folder_name/ |
    | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。 您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p><p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
@@ -164,7 +164,7 @@ ht-degree: 25%
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **儲存貯體**] | 您想要將Customer Journey Analytics資料傳送至的GCP帳戶中的貯體。 <p>確定您已授予Adobe提供之主體的`roles/storage.objectCreator`許可權。 （[設定Google Cloud Platform帳戶](/help/components/exports/cloud-export-accounts.md)時提供主體。） <p>有關授予權限的資訊，請參閱 Google Cloud 文件中的「[新增主體至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)」。</p><p>如果您的組織使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)僅允許在允許清單中的 Google Cloud Platform 帳戶，則您需要以下 Adobe 擁有的 Google Cloud Platform 組織 ID： <ul><li>`DISPLAY_NAME`：`adobe.com`</li><li>`ID`：`178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`：`C02jo8puj`</li></ul> </p> |
-   | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。 指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。 例如，folder_name/ |
+   | [!UICONTROL **前置詞**] | 在桶內，您希望資料放置的資料夾。 指定靜態資料夾名稱，然後在名稱後面加上斜線，建立資料夾。 例如，folder_name/ |
    | [!UICONTROL **檔案名稱和路徑**] | 指定動態自訂檔案名稱，用於傳送至此位置的自動匯出作業。 您也可以在檔案名稱前面加上動態自訂檔案路徑。 <p>此選項可讓您自動建立檔案名稱及放置資料夾，讓檔案名稱可預測並以邏輯方式組織到資料夾中。 例如，檔案名稱可以根據傳送日期命名，然後放置在與每月相對應的資料夾中。</p><p>在檔案名稱和路徑中使用下列任何變數，使其成為動態變數：</p><ul><li>**{yyyy}**： 4位數的日曆年度（區分大小寫）</li><li>**{yy}**：2位數的日曆年度（區分大小寫）</li><li>**{MM}**：2位數的月份（區分大小寫）</li><li>**{dd}**：2位數日（區分大小寫）</li><li>**{HH}**： 2位數小時（區分大小寫）</li><li>**{mm}**： 2位數的分鐘數（區分大小寫）</li><li>**{ss}**： 2位數秒數（區分大小寫）</li><li>**{fff}**： 3位數nanoseconds （區分大小寫）</li><li>**{instance_id}**：要求（執行個體） UUID</li><li>**{export_id}**：匯出（排程） UUID</li><li>**{idx}**：索引從0開始（每個檔案都增加）</li><li>**{total}**：整個傳輸工作的檔案總數</li><li>**{completion_millis}**：傳輸時間（毫秒）</li></ul></p><p>例如，若您指定`${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`，則在2026年1月15日自動傳送至此目的地的匯出檔案路徑和名稱如下： [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}

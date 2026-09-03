@@ -33,7 +33,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="歷程畫布"
->abstract="顯示人們如何完成或退出一系列接觸點。 用於具有多個進入點和路徑的歷程，或用來分析在 Journey Optimizer 中建立的歷程。"
+>abstract="顯示人們如何在一系列接觸點中推進或流失。 用於具有多個進入點和路徑的歷程，或用來分析在 Journey Optimizer 中建立的歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -51,7 +51,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button"
 >title="歷程畫布"
->abstract="顯示人們如何完成或退出一系列接觸點。 用於具有多個進入點和路徑的歷程，或用來分析在 Journey Optimizer 中建立的歷程。"
+>abstract="顯示人們如何在一系列接觸點中推進或流失。 用於具有多個進入點和路徑的歷程，或用來分析在 Journey Optimizer 中建立的歷程。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -72,7 +72,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 您可以利用歷程畫布視覺化圖表，針對您提供給使用者和客戶的歷程進行分析並獲取深入洞察。 此視覺效果允許您從頭開始定義歷程或從 Journey Optimizer 中查看歷程，然後查看人們如何離開 (流失) 或繼續 (流過) 歷程。
 
-您可以使用事件、維度項目、區段和日期範圍的任意組合來建立歷程節點，藉以[建置使用者歷程分析](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。 連接節點以建立歷程流程，並包含多條路徑和決策點。 拖曳動畫布上的節點，以重新排列歷程的事件和條件。 當您進行變更時，資料會即時更新。
+您可以使用事件、維度項目、區段和日期範圍的任意組合來建立歷程節點，藉以[建置使用者歷程分析](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。 連接節點以建立歷程流程，並包含多條路徑和決策點。 拖曳畫布上的節點，以重新排列歷程的事件和條件。 當您進行變更時，資料會即時更新。
 
 [節點已連線](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)為「最終路徑」，這表示只要訪客最終從某個節點移至另一個節點，就會計入訪客，無論兩個節點之間發生任何事件。 使用者沿著路徑移動所分配的時間由容器設定來決定。
 
@@ -82,7 +82,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 歷程畫布視覺效果的主要功能包括：
 
-* 考慮最複雜的使用者歷程下，流失和流過的深入分析。
+* 可因應最複雜使用者歷程的流失和流過深入分析。
 
 * 對應和視覺化使用者歷程各個入口點、節點和路徑的畫布。
 
@@ -96,19 +96,19 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 ### 轉換率最高的路徑 {#conversion-rate-caption}
 
-歷程畫布中最突出的洞察顯示為畫布最上方的標題。
+歷程畫布中最突出的洞察會顯示為畫布最上方的說明文字。
 
-此標題總結歷程中哪條路徑的轉換率最高。
+此說明文字總結歷程中哪條路徑的轉換率最高。
 
-當歷程包含多個起始節點時，標題如下所示：
+當歷程包含多個起始節點時，說明文字如下所示：
 
 ![歷程畫布洞察標題](assets/journey-canvas-caption.png)
 
-當歷程包含單一起始節點時，標題如下所示：
+當歷程包含單一起始節點時，說明文字如下所示：
 
 ![歷程畫布洞察標題單一起始節點](assets/journey-canvas-caption-singlestart.png)
 
-解釋此標題時，請考慮以下幾點：
+解讀此說明文字時，請考慮以下幾點：
 
 * _路徑_&#x200B;是定義為透過箭頭連接到終止節點的起始節點，並且之間連接任意數量的節點。
 
@@ -121,7 +121,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
   | **單一起始節點和單一結束節點** | 轉換率的計算方式是將結束節點的數量除以起始節點的數量。 | ![有多個起始點但匯集至一個共同節點的歷程](assets/journey-canvas-single-path.png) |
   | **單一起始節點和多個結束節點** | 轉換率的計算方法是找出數量最高的結束節點，然後將該數量除以起始節點的數量。 | ![有多個起始點但匯集至一個共同節點的歷程](assets/journey-canvas-singlestart-multiend.png) |
   | **多個獨立路徑，每個路徑包含一個起始節點和一個結束節點** | 轉換率的計算方式是將結束節點的數量除以起始節點的數量。 標題內有轉換率最高的路徑說明。 | ![有多個起始點但匯集至一個共同節點的歷程](assets/journey-canvas-multi-start-separate.png) |
-  | **多個起始節點，且歷程的任何一點會匯集一個共同節點** | 轉換率的計算方法是找出數量最高的結束節點，然後將該數量除以數量最低的起始節點數量。 | ![有多個起始點但匯集至一個共同節點的歷程](assets/journey-canvas-multi-start-converge.png) |
+  | **多個起始節點，且歷程的任何一點會匯集一個共同節點** | 轉換率的計算方法是找出數量最高的結束節點，然後將該數量除以數量最低的起始節點的數量。 | ![有多個起始點但匯集至一個共同節點的歷程](assets/journey-canvas-multi-start-converge.png) |
 
 ### 流過、流失及其他
 
@@ -161,11 +161,11 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 * 有多個入口點和路徑的非線性歷程，且其中有預先定義的頁面序列。
 
-* 根據預先定義歷程進行的探索性臨時分析。
+* 根據預先定義歷程進行的探索性臨機分析。
 
-* 需要主要量度的分析，但工作階段、人員或發生次數除外。
+* 需要主要量度，且該量度不是工作階段、人員或發生次數的分析。
 
-* 對源自 Adob&#x200B;&#x200B;e Journey Optimizer 的歷程進行更深入的分析。
+* 對源自 Adobe Journey Optimizer 的歷程進行更深入的分析。
 
 使用[上面表格](#understand-the-differences)來了解歷程畫布、流失和流量視覺效果之間的差異。
 
@@ -181,7 +181,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 ### 使用歷程畫布分析 Journey Optimizer 歷程的好處
 
-歷程畫布提供在 Journey Optimizer 無法實現的徹底深入分析。
+歷程畫布提供 Journey Optimizer 無法實現的深入且全面的分析。
 
 使用歷程畫布分析在 Journey Optimizer 中建立的歷程，有多種好處：
 
@@ -207,7 +207,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 ### Journey Optimizer 與歷程畫布之間的同步
 
-請思考以下行為來了解 Journey Optimizer 和歷程畫布之間的同步：
+請考量以下行為，以了解 Journey Optimizer 和歷程畫布之間的同步：
 
 * **資料同步僅是單向的**
 
@@ -265,7 +265,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 | 詞語 | 歷程畫布 | Journey Optimizer |
 |---------|----------|---------|
-| **事件** | Customer Journey Analytics 中提供的多個標準量度之一。 此量度會計入營收、訂閱或產生的潛在客戶等類。 | 觸發個人化歷程的活動類別，例如線上購買。 |
+| **事件** | Customer Journey Analytics 中提供的多個標準量度之一。 此量度會計入收入、訂閱或產生的潛在客戶等項目。 | 觸發個人化歷程的活動類別，例如線上購買。 |
 
 ### 在歷程畫布中分析 Journey Optimizer 歷程
 
@@ -273,7 +273,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 ## 在歷程畫布中建立分析
 
-您可以在歷程畫布中建立以 Analysis Workspace 中適用任何維度或量度的分析。 或者，您可以分析在 Journey Optimizer 中建立的歷程。 如需更多資訊，請參閱「[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。
+您可以在歷程畫布中建立以 Analysis Workspace 中可用的任何維度或量度為基礎的分析。 或者，您可以分析在 Journey Optimizer 中建立的歷程。 如需更多資訊，請參閱「[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。
 
 
 >[!MORELIKETHIS]

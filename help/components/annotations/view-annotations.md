@@ -35,7 +35,7 @@ ht-degree: 85%
 
 {style="table-layout:auto"}
 
-## 在 PDF 檢視註解
+## 在 PDF 中檢視註解
 
 當您以 PDF 形式下載專案或以 PDF 形式傳送專案時，PDF 的註解匯總在「註解摘要」區段。
 

@@ -105,7 +105,8 @@ ht-degree: 25%
 
 * 在[[!UICONTROL 日期範圍]清單](#date-ranges-list)中，選取日期範圍的標題。
 
-使用[日期範圍產生器](/help/components/date-ranges/create.md#date-range-builder)來編輯日期範圍。使用[日期範圍管理員](/help/components/date-ranges/manage.md)來共用、重新命名或刪除日期範圍。
+使用[日期範圍產生器](/help/components/date-ranges/create.md#date-range-builder)來編輯日期範圍。
+使用[日期範圍管理員](/help/components/date-ranges/manage.md)來共用、重新命名或刪除日期範圍。
 
 
 <!--

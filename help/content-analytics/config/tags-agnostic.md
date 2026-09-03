@@ -21,12 +21,12 @@ topic_v2:
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 484
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Content Analytics JavaScript資料庫
+# Content Analytics JavaScript 程式庫
 
 Adobe Content Analytics JavaScript資料庫可透過Experience Platform Edge Network將內容資料傳送至Adobe Experience Platform，讓您追蹤網站上的內容相關事件。 當您想要實作Content Analytics而不使用Adobe Experience Platform標籤時，請使用此資料庫。
 

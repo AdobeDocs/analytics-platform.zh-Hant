@@ -31,7 +31,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_button"
 >title="流失"
->abstract="建立視覺效果以查看人們如何成功前進至所需的接觸點。"
+>abstract="建立視覺效果以查看人們如何成功前進至所需的檢查點。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 
 例如，您可以追蹤人們在購買過程中的流失點。 只需選取開始接觸點和結論接觸點，然後新增中間接觸點以建立網站導覽路徑。 但您也可以執行多維度流失。
 
-## 在流失、流量和旅程畫布視覺效果之間作選擇
+## 在流失、流量和歷程畫布視覺效果之間作選擇
 
 流失視覺效果與[流量視覺效果](/help/analysis-workspace/visualizations/c-flow/flow.md)以及 [Journey 畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)有相似之處。
 

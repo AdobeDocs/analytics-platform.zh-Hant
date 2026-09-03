@@ -29,8 +29,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: e430f26e2b6357a288adb4389a266f26acab68c4
 workflow-type: tm+mt
-source-wordcount: 1448
-ht-degree: 8%
+source-wordcount: 1476
+ht-degree: 9%
 
 ---
 
@@ -112,7 +112,7 @@ Marketo資料本身不包含ECID，但ECID欄位可以新增為與`munchkin.js`�
 
 +++建立一或多個資料檢視
 
-[資料檢視](/help/data-views/data-views.md)是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 它會指定 Analysis Workspace 中可用的所有維度和量度 (在此案例中則是 Marketo 特定的量度和維度)。 它會這些維度和量度從哪些欄取得資料。 資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
+[資料檢視](/help/data-views/data-views.md)是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 它會指定 Analysis Workspace 中可用的所有維度和量度 (在此案例中則是 Marketo 特定的量度和維度)。 它也會指定這些維度和量度從哪些欄取得資料。 資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
 +++ 
 
@@ -120,8 +120,8 @@ Marketo資料本身不包含ECID，但ECID欄位可以新增為與`munchkin.js`�
 
 您可能會探索的一個使用案例是：您在2020年4月至6月期間潛在客戶瀏覽了多少網頁？
 
-1. 開啟[Analytics Workspace](/help/analysis-workspace/home.md)並建立新專案。
-擁有B2B/B2P CDP的客戶可以在Customer Journey Analytics中進行B2C樣式的分析。尚未提供B2B物件。
+1. 請開啟 [Analytics Workspace](/help/analysis-workspace/home.md) 並建立新專案。
+擁有B2B/B2P CDP的客戶可以在Customer Journey Analytics中進行B2C樣式的分析。 尚未提供 B2B 物件。
 
 1. 為網頁檢視建立[區段](/help/components/segments/seg-create.md)，如下所示：事件型別= web.webpagedetails.pageViews：
 

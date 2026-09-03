@@ -19,8 +19,8 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 83%
+source-wordcount: 575
+ht-degree: 84%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="workspace_line_button"
 >title="折線圖"
->abstract="建立折線圖視覺效果，顯示值在一段時間內如何變化。 僅在使用時間當作維度時，才使用折線圖視覺效果。"
+>abstract="建立折線圖視覺效果，顯示值在一段時間內如何變化。 只有在將時間用作維度時，才能使用折線圖視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -43,7 +43,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 >[!ENDSHADEBOX]
 
 
-![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 折線圖]**&#x200B;視覺效果使用線條表示量度，以顯示一段期間的值的變化。 僅在使用時間作為維度時，才使用折線圖視覺效果。
+![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 折線圖]**&#x200B;視覺效果使用線條表示量度，以顯示一段期間的值的變化。 只有在將時間作為維度時，才能使用折線圖視覺效果。
 
 ![折線圖視覺效果](assets/line-viz.png)
 
@@ -60,7 +60,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 
 ### 模型
 
-所有回歸模型趨勢線都適合使用普通最小二乘法：
+所有回歸模型趨勢線都使用普通最小二乘法進行擬合：
 
 | 模型 | 說明 |
 | --- | --- |
@@ -69,7 +69,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 | **[!UICONTROL 指數]** | 建立曲線，當資料以不斷提高的速率上升或下降時相當實用。 如果您的資料包含零或負值，則不應使用此選項。 方程式：`y = a + e^(b * x)` |
 | **[!UICONTROL 乘冪]** | 建立曲線，比較以特定速率增加的測量之資料集時相當實用。 如果您的資料包含零或負值，則不應使用此選項。 方程式：`y = a * x^b` |
 | **[!UICONTROL 二次方]** | 找出拋物線形 (向上或向下凹入) 的資料集最合適的線條。 方程式：`y = a + b * x + c * x^2` |
-| **[!UICONTROL 移動平均]** | 根據一組平均值建立平滑趨勢線。 移動平均也稱為滾動平均，會使用特定數量的資料點 (取決於[!UICONTROL 顆粒度]的選取項目)，並將平均值當做線條中的某個點。 例如包括 7 天移動平均值或 4 週移動平均值。 |
+| **[!UICONTROL 移動平均]** | 根據一組平均值建立平滑趨勢線。 移動平均也稱為滾動平均，會使用特定數量的資料點 (取決於[!UICONTROL 顆粒度]的選取項目)，並將平均值當做線條中的某個點。 例如，7 天移動平均或 4 週移動平均。 |
 
 
 >[!BEGINSHADEBOX]

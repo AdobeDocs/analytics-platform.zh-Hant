@@ -32,7 +32,7 @@ Adobe 提供的許多產品和解決方案都會利用在 Adobe Experience Platf
 1. 使用所需的解決方案或服務將資料當作資料集傳送到 Platform。
 2. 使用所需的資料集在 Customer Journey Analytics 中[建立連線](/help/connections/create-connection.md)。
 3. [建立資料檢視](/help/data-views/create-dataview.md)，其中包含報告中使用的所需維度和量度。
-4. 根據資料檢視內設定的維度和量度在 Analysis Workspace 中執行報告。
+4. 根據資料釋圖內設定的維度和量度在 Analysis Workspace 中執行報告。
 
 以下是一些可用整合的清單：
 

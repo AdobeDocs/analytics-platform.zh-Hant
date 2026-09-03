@@ -101,7 +101,7 @@ ht-degree: 23%
 {{tagfiltersection}}
 
 
-#### 資料視圖篩選器區段
+#### 資料釋圖篩選器區段
 
 {{dataviewfiltersection}}
 

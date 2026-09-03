@@ -1,6 +1,6 @@
 ---
 title: 從 Google Analytics 移轉資料
-description: 學習關於如何將資料從 Google Analytics 移轉到 Adobe Experience Platform 包羅萬象的工作流程，並在 Customer Journey Analytics 檢視報告。
+description: 瞭解將資料從 Google Analytics 移轉至 Adobe Experience Platform，並在 Customer Journey Analytics 中檢視報告的整體工作流程。
 exl-id: 10c485c9-66ab-4925-a357-a66a374d4c6f
 feature: Use Cases
 role: Admin
@@ -32,9 +32,9 @@ ht-degree: 70%
 
 >[!ENDSHADEBOX]
 
-如果您第一次使用 Customer Journey Analytics，貴組織可能在另一個 Analytics 平台已經有既存的資料，例如 Google Analytics 等。 您可以依照這些包羅萬象的步驟，將資料移轉到 Adobe Experience Platform，讓您在 Customer Journey Analytics 檢視報告。
+如果您第一次使用 Customer Journey Analytics，貴組織可能在另一個 Analytics 平台已經有既存的資料，例如 Google Analytics 等。 您可以依照這些整體步驟，將資料移轉到 Adobe Experience Platform，讓您在 Customer Journey Analytics 檢視報告。
 
-所提供的工作包括歷史資料與最新的資料彙集。 如果貴組織的資料需求而定，您可以依照下列其中一項或二項工作流程：
+所提供的工作流程包括歷史資料與目前的資料彙集。 如果貴組織的資料需求而定，您可以依照下列其中一項或二項工作流程：
 
 ## 從 Google Analytics 將歷史資料帶入 Adobe Experience Platform
 
@@ -54,4 +54,4 @@ ht-degree: 70%
 
 ## 建立報告
 
-在「資料檢視」中設定維度和度量之後，您可以開始使用 Analysis Workspace 產生想要的報告。 請參閱[在 Customer Journey Analytics 中關於 Google Analytics 的報告](report.md)。
+在「資料釋圖」中設定維度和度量之後，您可以開始使用 Analysis Workspace 產生想要的報告。 請參閱[在 Customer Journey Analytics 中關於 Google Analytics 的報告](report.md)。

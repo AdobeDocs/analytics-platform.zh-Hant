@@ -22,7 +22,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: 3315
+source-wordcount: 3373
 ht-degree: 5%
 
 ---
@@ -126,7 +126,7 @@ Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料
 | `page_event_var_1` | `web.webInteraction.URL` | 字串 | 僅用於連結追蹤影像要求中的變數。 此變數包含下載連結、退出連結或自訂連結點選的URL。 |
 | `page_event_var_2` | `web.webInteraction.name` | 字串 | 僅用於連結追蹤影像要求中的變數。 這會列出連結的自訂名稱（如果已指定）。 |
 | `paid_search` | `search.isPaid` | 布林值 | 如果點選符合付費搜尋偵測，則會設定此旗標。 |
-| `ref_type` | `web.webReferrertype` | 字串 | 此數值 ID 表示點擊的反向連結類型。 |
+| `ref_type` | `web.webReferrertype` | 字串 | 此數值 ID 表示點擊的轉介類型。 |
 
 #### 張貼欄
 
@@ -364,7 +364,7 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 #### 使用查詢服務API
 
-或者，您可以使用RESTful API來定義查詢和排程查詢。如需詳細資訊，請參閱[查詢服務API指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/api/getting-started)。
+或者，您可以使用RESTful API來定義查詢和排程查詢。 如需詳細資訊，請參閱[查詢服務API指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/api/getting-started)。
 建立查詢（[建立查詢](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery)）或建立查詢排程（[建立排程查詢](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule)）時，請確定將輸出資料集定義為選用的`ctasParameters`屬性的一部分。
 
 

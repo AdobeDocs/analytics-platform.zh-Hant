@@ -29,7 +29,7 @@ ht-degree: 96%
 
 您可以從 Analysis Workspace 匯出 Customer Journey Analytics 專案 (的一部分)。 您可能基於多種原因想要匯出 Customer Journey Analytics 報告，例如在第三方工具中使用或與外部資料合併。
 
-以下多個部分將說明支援的文件類型、可用&#x200B;來匯出的各種方法，以及每種方法的優點。
+以下多個部分將說明支援的文件類型、可用來匯出的各種方法，以及每種方法的優點。
 
 ## 支援的檔案類型
 

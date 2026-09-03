@@ -21,21 +21,21 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 62%
+source-wordcount: 721
+ht-degree: 66%
 
 ---
 
 
 # Content Analytics 手動設定
 
-本文章詳細說明開始或停止 Content Analytics 設定的資料收集，或編輯 Content Analytics 實施所需的手動動作。
+本文章詳細說明開始或停止 Content Analytics 設定的資料彙集，或編輯 Content Analytics 實施所需的手動操作。
 
 下列手動設定動作可供使用：
 
 ## 開始資料收集
 
-若要針對已實施的 Content Analytics 設定開始進行資料收集：
+若要針對已實施的 Content Analytics 設定開始進行資料彙集：
 
 1. 依照[發佈流程](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview){target="_blank"}進行操作。 成功發佈包含Content Analytics設定的標籤屬性資料庫。
 
@@ -50,20 +50,20 @@ ht-degree: 62%
 
 * 針對&#x200B;**網頁**：
 
-   1. 根據 Content Analytics，在開發、中繼或生產環境中的 `<head>` 頁面元素內移除[嵌入代碼](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/environments/environments)。
-   1. 刪除您Content Analytics設定的相關Web標籤屬性。
+  1. 根據 Content Analytics，在開發、中繼或生產環境中的 `<head>` 頁面元素內移除[嵌入代碼](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/environments/environments)。
+  1. 刪除您Content Analytics設定的相關Web標籤屬性。
 
 * 針對&#x200B;**行動裝置**：
 
-   1. 從您的應用程式移除[Content Analytics擴充功能](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/)。
-   1. 刪除您Content Analytics設定的相關行動標籤屬性。
+  1. 從您的應用程式移除[Content Analytics擴充功能](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/)。
+  1. 刪除您Content Analytics設定的相關行動標籤屬性。
 
 遵循[發佈流程](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview){target="_blank"}以套用變更。
 
 
 ## 修改資料收集
 
-您可以使用[引導式設定精靈](guided.md)對已實施的設定進行一些細微的變更。 例如，變更資料檢視，或啟用或者停用體驗。
+您可以使用[引導式設定精靈](guided.md)對已實施的設定進行一些細微的變更。 例如，變更資料釋圖，或啟用或者停用體驗。
 
 
 ### Web
@@ -79,7 +79,7 @@ ht-degree: 62%
 
 * [體驗擷取與定義](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview?lang=en#configure-experience-capture-and-definition)
 
-  您可以啟用或停用體驗，以及編輯規則運算式和查詢參數的組合，確認內容在您網站上的轉譯方式。
+  您可以啟用或停用體驗，以及編輯規則運算式和查詢參數的組合，以決定內容在您網站上的轉譯方式。
 
 * [事件分段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
 

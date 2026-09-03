@@ -5,7 +5,7 @@ role: Developer, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
-keywords: 查詢服務;SQL 語法
+keywords: 查詢服務;查詢服務;SQL 語法
 TQID: https://experienceleague.adobe.com/WT2Phz0aaiJ0Jp403fr6byx9QkncKjvRJpxl9yxPKLE
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 * **不同的資料集或報告套裝**：請確定 Adobe Analytics 中的報告套裝，以及來源連接器從中衍生資料的報告套裝是相同的。
 * **行事曆設定**：Adobe Analytics 中的報告套裝包含您可以設定的時區和其他行事曆設定。 同樣地，Customer Journey Analytics 中的資料視圖也有個別設定可供您控制。 若希望內容相同，請確定產品之間的這些設定都相符。
-* **其他資料集**：Customer Journey Analytics 具備可在單一連線內包含多個資料集的功能。 這些差異包括其他事件資料集、輪廓資料集或查詢資料集。 此功能是 Adobe Analytics 和 Customer Journey Analytics 之間的關鍵差異，可取得跨管道資料的洞察。
+* **其他資料集**：Customer Journey Analytics 具備可在單一連線內包含多個資料集的功能。 這些差異包括其他事件資料集、輪廓資料集或查找資料集。 此功能是 Adobe Analytics 和 Customer Journey Analytics 之間的關鍵差異，可取得跨管道資料的洞察。
 * **拼接資料集**：Adobe 具備可在兩個資料集之間分析人員 ID 的功能，進而產生包含拼接 ID 的新資料集。 這些[拼接資料集](/help/stitching/overview.md)會包含 Adobe Analytics 報告套裝提供之內容以外的其他資料。
 * **資料來源**：Customer Journey Analytics 不包含已上傳至 Adobe Analytics 報告套裝的任何[資料來源](https://experienceleague.adobe.com/zh-hant/docs/analytics/import/data-sources/overview)類型，包括摘要資料來源或交易 ID 資料來源。
 * **維度和量度設定**：在資料視圖中，每個維度和量度都包含其自有的設定，而您的組織可以變更這些設定。 這些變更會在報告執行時套用，因此會回溯套用。 Adobe Analytics 中的維度和量度設定會變更資料的收集方式，使變更從該時間點起套用。 如果您變更了其中任一產品的元件設定，這些設定可能會導致報告差異。 若聚焦於特定維度，請確保 Adobe Analytics 和 Customer Journey Analytics 之間的歸因與持續性設定相符。

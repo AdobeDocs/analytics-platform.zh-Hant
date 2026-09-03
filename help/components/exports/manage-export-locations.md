@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1395
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 3%
 
 1. 在Customer Journey Analytics中，選取&#x200B;[!UICONTROL **元件**] > [!UICONTROL **匯出**]。
 
-1. 選取&#x200B;[!UICONTROL **位置帳戶**]&#x200B;索引標籤。
+1. 選取「[!UICONTROL **位置帳戶**]」索引標籤。
 
    ![顯示[位置帳戶]索引標籤的[匯出]視窗](assets/account-add.png)
 
@@ -137,7 +137,7 @@ ht-degree: 3%
 
 1. 在Customer Journey Analytics中，選取&#x200B;[!UICONTROL **元件**] > [!UICONTROL **匯出**]。
 
-1. 選取&#x200B;[!UICONTROL **位置帳戶**]&#x200B;索引標籤。
+1. 選取「[!UICONTROL **位置帳戶**]」索引標籤。
 
    ![顯示[位置帳戶]索引標籤的[匯出]視窗](assets/account-add.png)
 
@@ -149,7 +149,7 @@ ht-degree: 3%
 
 1. 在Customer Journey Analytics中，選取&#x200B;[!UICONTROL **元件**] > [!UICONTROL **匯出**]。
 
-1. 選取&#x200B;[!UICONTROL **位置帳戶**]&#x200B;索引標籤。
+1. 選取「[!UICONTROL **位置帳戶**]」索引標籤。
 
    ![顯示[位置帳戶]索引標籤的[匯出]視窗](assets/account-add.png)
 

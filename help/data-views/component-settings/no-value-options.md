@@ -1,6 +1,6 @@
 ---
 title: 沒有值選項元件設定
-description: 決定如果維度為空，應如何處理維度。
+description: 決定當維度為空時應如何處理。
 exl-id: c7f226c5-0058-4151-9c9a-652b37266beb
 solution: Customer Journey Analytics
 feature: Data Views
@@ -54,7 +54,7 @@ ht-degree: 86%
 
 當使用數值做為維度時，您可以
 
-* 在資料視圖中設定「無值」選項。 請注意，除了&#x200B;**[!UICONTROL 將「無值」視為值]**&#x200B;之外，以上所示的設定皆予以支援。
+* 在資料釋圖中設定「無值」選項。 請注意，除了&#x200B;**[!UICONTROL 將「無值」視為值]**&#x200B;之外，以上所示的設定皆予以支援。
 * 將&#x200B;**[!UICONTROL 包括「無值」]**&#x200B;用於工作區中自由格式表格內的數值維度。
 * 在區段產生器中，使用具有數值維度的&#x200B;**[!UICONTROL 存在]**&#x200B;或&#x200B;**[!UICONTROL 不存在]**&#x200B;運運算元。
 

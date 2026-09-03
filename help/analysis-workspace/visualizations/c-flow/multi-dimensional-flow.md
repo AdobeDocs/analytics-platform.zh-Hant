@@ -26,7 +26,7 @@ ht-degree: 89%
 
 # 維度間流程
 
-維度間流量可讓您檢查多個維度間的用戶路徑。 本文說明此流量如何用於兩個使用案例：行動應用程式互動和事件，以及行銷活動如何推動網站造訪
+維度間流量可讓您檢查多個維度間的使用者路徑。 本文說明此流量如何用於兩個使用案例：行動應用程式互動和事件，以及行銷活動如何推動網站造訪
 
 <!--
 A dimension label at the top of each Flow column makes using multiple dimensions in a flow visualization more intuitive:
@@ -50,7 +50,7 @@ A dimension label at the top of each Flow column makes using multiple dimensions
 
   ![顯示最終頁面維度的流量拖曳至空白處。](assets/flowapp-add.png)
 
-下列的流量視覺效果顯示新增&#x200B;**[!UICONTROL 事件類型]**&#x200B;維度的結果。 視覺效果提供行動應用程式使用者在新增產品至購物車、關閉應用程式、顯示優惠等動作之前，如何在應用程式內各種畫面之間移動的洞察。
+下列的流量視覺效果顯示新增&#x200B;**[!UICONTROL 事件類型]**&#x200B;維度的結果。 視覺效果提供行動應用程式使用者在新增產品至購物車、關閉應用程式、看到產品建議等動作之前，如何在應用程式內各種畫面之間移動的洞察。
 
 ![在清單頂端顯示頁面維度結果的流量。](assets/flowapp-result.png)
 

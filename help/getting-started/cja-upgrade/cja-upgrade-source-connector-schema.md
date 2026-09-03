@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ## 了解 Analytics 來源連接器如何讓歷史資料進入 Customer Journey Analytics
 
-您可以使用 Analytics 來源連接器，讓 Adobe Analytics 報告套裝資料進入 Adobe Experience Platform。 然後，這些資料可以用作 Customer Journey Analytics 的歷史資料。
+您可以使用 Analytics 來源連接器，將 Adobe Analytics 報告套裝資料匯入 Adobe Experience Platform。 然後，這些資料可以用作 Customer Journey Analytics 的歷史資料。
 
 此流程假設您[想要建立自訂結構描述以便與 Customer Journey Analytics Web SDK 實施一起使用](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，因為您需要一個以您組織需求和所用特定 Platform 應用程式量身定制的精簡結構描述。
 
@@ -84,7 +84,7 @@ Analytics 來源連接器的這個結構描述需要包含：
 
 1. 新增您為 Web SDK 實施建立的結構描述中包含的所有欄位群組 (包括任何自訂欄位群組)。
 
-1. 新增完這些欄位群組後，要新增 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 欄位群組：
+1. 新增完這些欄位群組後，要新增 Adobe Analytics ExperienceEvent 欄位群組：
 
    在「**[!UICONTROL 欄位群組]**」部分，選取「**[!UICONTROL 新增]**」以新增其他欄位群組。
 

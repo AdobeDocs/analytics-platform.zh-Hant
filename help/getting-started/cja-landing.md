@@ -25,8 +25,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 743
-ht-degree: 63%
+source-wordcount: 1063
+ht-degree: 64%
 
 ---
 
@@ -135,7 +135,7 @@ Customer Journey Analytics B2B Edition 透過提供可操作的客戶洞察來�
 
 ## 探索文件
 
-了解如何比較 Customer Journey Analytics 和 Adobe Analytics。 同時，了解如何在解決方案中取得您的資料，然後準備、檢視、分析和民主化這些資料和其產生的分析結果與報告。
+了解 Customer Journey Analytics 與 Adobe Analytics 的比較。 同時，了解如何在解決方案中取得您的資料，然後準備、檢視、分析和民主化這些資料和其產生的分析結果與報告。
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">

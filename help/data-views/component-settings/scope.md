@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 9df4c8cff6c0c044902453e5fb8380fbb5c5ac2d
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 4%
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="dataview_component_metric_scope"
 >title="範圍"
->abstract="決定元件在報告中使用時的範圍界定。 您可以選取事件型、設定檔型或總計型。"
+>abstract="決定元件在報告中使用時的範圍界定方式。 您可以選取基於事件、基於輪廓或基於總數的範圍。"
 
 量度元件的範圍會決定該元件在報表中的使用方式。
 

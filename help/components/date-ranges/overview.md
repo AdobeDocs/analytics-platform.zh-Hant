@@ -41,7 +41,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->當您在自由格式表中使用日期範圍時，日期範圍會覆寫自由格式表格所屬面板指定的行事曆。
+>當您在自由格式表格中使用日期範圍時，日期範圍會覆寫自由格式表格所屬面板指定的行事曆。
 >
 
 使用日期範圍的方式與[使用任何元件](/help/components/overview.md#analysis-workspace-components)的方式一樣。 您從![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** 元件面板將日期範圍拖曳到：

@@ -41,15 +41,15 @@ ht-degree: 6%
 
 * 或者：
 
-   1. 選取&#x200B;**[!UICONTROL 表格]**&#x200B;窗格中特定量度的![MoreSmall](/help/assets/icons/MoreSmall.svg)，然後選取&#x200B;**[!UICONTROL 篩選量度]**。
+  1. 選取&#x200B;**[!UICONTROL 表格]**&#x200B;窗格中特定量度的![MoreSmall](/help/assets/icons/MoreSmall.svg)，然後選取&#x200B;**[!UICONTROL 篩選量度]**。
 
-      ![區段索引標籤顯示量度。](./assets/filter-metric.png){zoomable="yes"}
+     ![區段索引標籤顯示量度。](./assets/filter-metric.png){zoomable="yes"}
 
-   1. 從&#x200B;**[!UICONTROL 區段]**&#x200B;下拉式功能表中選取一或多個區段。 區段已新增至&#x200B;**[!UICONTROL 套用的區段]**&#x200B;清單。
+  1. 從&#x200B;**[!UICONTROL 區段]**&#x200B;下拉式功能表中選取一或多個區段。 區段已新增至&#x200B;**[!UICONTROL 套用的區段]**&#x200B;清單。
 
-      ![已套用區段](assets/segments-applied.png)
-   1. 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以從&#x200B;**[!UICONTROL 套用的區段]**&#x200B;清單中移除區段。 或選取&#x200B;**[!UICONTROL 全部清除]**&#x200B;以從&#x200B;**[!UICONTROL 套用的區段]**&#x200B;清單中移除所有區段。
-   1. 選取&#x200B;**[!UICONTROL 「套用」]**。
+     ![已套用區段](assets/segments-applied.png)
+  1. 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以從&#x200B;**[!UICONTROL 套用的區段]**&#x200B;清單中移除區段。 或選取&#x200B;**[!UICONTROL 全部清除]**&#x200B;以從&#x200B;**[!UICONTROL 套用的區段]**&#x200B;清單中移除所有區段。
+  1. 選取&#x200B;**[!UICONTROL 「套用」]**。
 
 若要檢視已套用的篩選器，可將滑鼠游標停留在「表格」窗格中的量度上或選取量度。 含有已套用區段的量度會顯示區段圖示。
 
@@ -62,7 +62,7 @@ ht-degree: 6%
 
 若要使用&#x200B;**[!UICONTROL 快速編輯]**&#x200B;面板編輯區段：
 
-1. 請從一或多個資料區塊選取儲存格範圍。
+1. 從一或多個資料區塊選取儲存格範圍。
 
 1. 選取&#x200B;**[!UICONTROL 區段]**&#x200B;連結以啟動&#x200B;**[!UICONTROL 快速編輯]** **[!UICONTROL 區段]**&#x200B;面板。
 
