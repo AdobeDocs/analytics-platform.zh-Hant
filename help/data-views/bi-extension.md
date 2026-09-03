@@ -65,7 +65,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 若要使用不會過期的認證：
 
-1. 在Experience Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#non-expiring-credentials)中建立不會到期的認證。 如果您要使用現有的不會到期的認證，請確定這些認證已[移轉至OAuth](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#migrate-credentials)。
+1. 在Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials#non-expiring-credentials)中建立不會到期的認證。 如果您要使用現有的不會到期的認證，請確定這些認證已[移轉至OAuth](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials#migrate-credentials)。
 
 1. 請確定Customer Journey Analytics產品和產品設定檔可以使用不會到期的認證。 您必須是組織的系統管理員才能執行下列步驟。
    1. 從![應用程式](/help/assets/icons/Apps.svg)中選取&#x200B;**[!UICONTROL Admin Console]**。

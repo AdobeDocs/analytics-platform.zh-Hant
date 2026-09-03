@@ -51,7 +51,7 @@ Customer Journey Analytics中出現兩個Adobe定義的原則，這些原則會�
 
 受這些原則約束的元件會呈現灰色，而且確實有![資訊大綱](/help/assets/icons/InfoOutline.svg)圖示。 當您將滑鼠停留在資訊圖示上時，會顯示一個包含以下內容的註解： **[!UICONTROL 原則已套用至此欄位，禁止使用此資料]**。
 
-如需詳細資訊，請參閱[標籤和原則](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance)。
+如需詳細資訊，請參閱[標籤和原則](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-governance)。
 
 
 ![指示禁止使用資料的原則備註。](assets/restricted-label.png){zoomable="yes"}

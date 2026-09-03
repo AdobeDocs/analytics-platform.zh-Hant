@@ -77,7 +77,7 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件類型設定](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件類型設定](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -173,19 +173,19 @@ ht-degree: 48%
 
 | 名稱 | 說明 |
 |------|-------------|
-| [內容識別碼](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) | 播放內容的唯一識別碼。 啟用[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 內容識別碼]**&#x200B;選項按鈕。 |
-| [內容逗留時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent) | 檢視內容（不包括廣告）所花費的時間。 支援[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 內容逗留時間]**&#x200B;進階設定。 |
-| [集](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) | 系列中的集數。 啟用在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中依集數篩選。 |
+| [內容識別碼](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content) | 播放內容的唯一識別碼。 啟用[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 內容識別碼]**&#x200B;選項按鈕。 |
+| [內容逗留時間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-time-spent) | 檢視內容（不包括廣告）所花費的時間。 支援[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 內容逗留時間]**&#x200B;進階設定。 |
+| [集](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/episode) | 系列中的集數。 啟用在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中依集數篩選。 |
 | 事件類型 | 媒體事件型別，例如`media.play`或`media.ping`。 必須有Customer Journey Analytics才能計算[媒體同時檢閱者](/help/analysis-workspace/c-panels/media-concurrent-viewers.md)衍生的量度。 |
-| [媒體逗留時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent) | 總時間，包括內容、廣告、緩衝和暫停。 支援[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)面板和&#x200B;**[!UICONTROL 媒體花費時間]**&#x200B;進階設定。 |
-| [季](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) | 系列中的季數。 在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中啟用依季節篩選。 |
+| [媒體逗留時間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/media-time-spent) | 總時間，包括內容、廣告、緩衝和暫停。 支援[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)面板和&#x200B;**[!UICONTROL 媒體花費時間]**&#x200B;進階設定。 |
+| [季](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/season) | 系列中的季數。 在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中啟用依季節篩選。 |
 | 上次通話後經過秒數 | 自上次心率Ping以來的時間（秒）。 必須讓Customer Journey Analytics計算[媒體同時檢閱者](/help/analysis-workspace/c-panels/media-concurrent-viewers.md)衍生的量度（可識別工作階段何時仍在作用中）。 |
-| [節目](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) | 節目或影集名稱。 啟用在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中依顯示篩選。 |
-| [開始時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start) | 從內容選取到播放開始的時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
-| [總緩衝期間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | 在工作階段期間花費在緩衝的總時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
-| [總暫停期間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration) | 工作階段期間暫停的總逗留時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
-| [視訊長度](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | 內容持續時間（秒數）。 [媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 特定內容]**&#x200B;模式需要。 |
-| [視訊名稱](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | 內容的顯示名稱。 啟用[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 視訊名稱]**&#x200B;選項按鈕。 |
+| [節目](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/show) | 節目或影集名稱。 啟用在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中依顯示篩選。 |
+| [開始時間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/time-to-start) | 從內容選取到播放開始的時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
+| [總緩衝期間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | 在工作階段期間花費在緩衝的總時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
+| [總暫停期間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/total-pause-duration) | 工作階段期間暫停的總逗留時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
+| [視訊長度](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-length) | 內容持續時間（秒數）。 [媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 特定內容]**&#x200B;模式需要。 |
+| [視訊名稱](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-name) | 內容的顯示名稱。 啟用[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 視訊名稱]**&#x200B;選項按鈕。 |
 
 +++
 
