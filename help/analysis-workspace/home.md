@@ -7,11 +7,23 @@ exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 TQID: https://experienceleague.adobe.com/mzyzOOuWJ1gOiLnUGvjQGrxysdoAMFm2RrXYQutiMT8
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
 workflow-type: tm+mt
 source-wordcount: 1530
@@ -51,7 +63,7 @@ Analysis Workspace 的主要功能可透過按鈕面板使用：
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL 面板]** | [面板](/help/analysis-workspace/c-panels/panels.md)是用來在專案中整理可能包含許多表格和視覺效果的分析。 Analysis Workspace 中提供的許多面板皆可根據使用者輸入的少量內容，產生完整的分析集。 |
 | ![Guided Analysis](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL 引導式分析]** | [引導式分析](../guided-analysis/overview.md)可讓您透過引導式工作流程，自行取得有關客戶歷程的高品質資料和洞察。 您可以建立分析並包含在工作區專案中，或包含先前儲存的現有分析。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 視覺化呈現]** | [視覺化呈現](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)可用來生動地呈現資料，例如條狀圖或折線圖。 在最左側的面板中，選取中間的&#x200B;**[!UICONTROL 視覺化呈現]**&#x200B;圖示，檢視可用視覺化呈現的完整清單。 |
-| ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 元件]** | [元件](/help/components/overview.md) 包括以下元素：<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg)[維度](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg)[量度](/help/components/apply-create-metrics.md)</li><li>![Segmentation](/help/assets/icons/Segmentation.svg) [區段](/help/components/segments/seg-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg)[日期範圍](/help/components/date-ranges/overview.md)</li></ul> |
+| ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 元件]** | [元件](/help/components/overview.md) 包括以下元素：<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg) [維度](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg) [量度](/help/components/apply-create-metrics.md)</li><li>![Segmentation](/help/assets/icons/Segmentation.svg) [區段](/help/components/segments/seg-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg) [日期範圍](/help/components/date-ranges/overview.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL 目錄]** | 目錄將專案中包含的所有面板和視覺效果組織成可收摺清單，讓您可以快速存取特定面板或視覺化呈現。 |
 | ![Bookmark](/help/assets/icons/Bookmark.svg) | **資料字典** | [資料字典](/help/components/data-dictionary/data-dictionary-overview.md)可協助使用者和管理員追蹤並更好地了解其 Analytics 環境中的元件。 |
 
@@ -64,7 +76,7 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 
 請注意，您的鍵盤上可能使用下列符號：
 
-- **⇧** 代表 **[!UICONTROL *Shift *]**鍵。
+- **⇧** 代表 **[!UICONTROL *Shift *]**&#x200B;鍵。
 - **⌘** 代表 **[!UICONTROL *Cmd *]**(Command) 鍵。
 - **⌃** 代表 **[!UICONTROL *Ctrl *]**(Control) 鍵。
 - **⌥** 代表 **[!UICONTROL *Opt *]**(Option) 鍵。
