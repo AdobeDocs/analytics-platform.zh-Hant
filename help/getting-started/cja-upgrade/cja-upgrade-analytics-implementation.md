@@ -7,22 +7,11 @@ feature: Basics
 exl-id: b9cff809-6df7-4d75-9bc1-0cc12074d355
 autotag-review: '2026-05-19T08:10:04.372Z'
 TQID: 'https://experienceleague.adobe.com/DYm1jOVvaGGgUpz51TEXYPNyqvJdMMY-clhvSEiEEyw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5eid: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 994
@@ -64,7 +53,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-websdkextension"
 >title="Web SDK 擴充功能 (標籤)"
->abstract="一種標籤實作，會載入 Adobe Experience Platform 資料收集 (先前稱為 Launch)。 此標籤已安裝 Web SDK 擴充功能。"
+>abstract="一種標籤實施，會載入 Adobe Experience Platform 資料彙集 (先前稱為 Launch)。 此標籤已安裝 Web SDK 擴充功能。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -115,11 +104,11 @@ ht-degree: 98%
 
 {{upgrade-note}}
 
-Adobe Analytics 可以透過多種方式實施。 升級至 Customer Journey Analytics 時，並非所有升級路徑都適用於所有 Adob&#x200B;&#x200B;e Analytics 實施。 但是，無論您的組織如何實施 Adob&#x200B;&#x200B;e Analytics，都可以使用建議的升級路徑。
+Adobe Analytics 可以透過多種方式實施。 升級至 Customer Journey Analytics 時，並非所有升級路徑都適用於所有 Adobe Analytics 實作方式。 但是，無論您的組織如何實施 Adob&#x200B;&#x200B;e Analytics，都可以使用建議的升級路徑。
 
 使用以下資訊了解您目前的 Adob&#x200B;&#x200B;e Analytics 實施情況，以及了解您組織可使用的升級途徑。
 
-如果您需要更具體的建議、指導或支援，請聯絡您的 Adob&#x200B;&#x200B;e 代表。
+如果您需要更具體的建議、指導或支援，請聯絡您的 Adobe 代表。
 
 | 現有的 Adobe Analytics 實施 | 說明 | 適用升級路徑 |
 |---------|----------|----------|

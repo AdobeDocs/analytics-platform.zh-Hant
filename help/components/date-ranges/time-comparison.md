@@ -5,16 +5,10 @@ feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
 role: User
 TQID: https://experienceleague.adobe.com/LhPSvchJbDMPV-HmGSA2JaBZxoPQ7UyEKd7GMS-33UU
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: a4b5baeec55de64b1fbaf009b9da34c93cf12f24
 workflow-type: tm+mt
 source-wordcount: 798
@@ -93,7 +87,7 @@ Analysis Workspace中的日期比較可讓您挑選任何含日期範圍的欄�
 
 ## 對齊欄日期讓開始日期在同一列
 
-您可以讓每一欄的日期與同一列中所有開始日期一致。
+您可以對齊每個欄中的日期，讓它們全都從同一列開始。
 
 例如，您對上週 (截至 2024 年 10 月 5 日) 和前一週進行逐日比較。 依預設，左欄從9月22日開始，右欄從9月29日開始。
 
@@ -107,6 +101,6 @@ Analysis Workspace中的日期比較可讓您挑選任何含日期範圍的欄�
 
 * 系統會為所有新專案預設啟用此設定。
 
-* 此設定套用至整個表格。 例如，如果您變更此設定是要在表格內部進行劃分，則設定會套用至整個表格。
+* 此設定套用至整個表格。 例如，如果您針對表格中的某個劃分變更此設定，則該設定會套用至整個表格。
 
 * 啟用此設定時，小日期標籤會出現在所有欄儲存格的右上角，以註釋含有適當日期（和時間，若相關）的儲存格。

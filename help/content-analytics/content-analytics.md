@@ -6,29 +6,14 @@ feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 TQID: https://experienceleague.adobe.com/x5FpRmZ-Wv6pPxYBEAyDzRqUSUpmwHFwbi55FwVKT5A
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
-source-wordcount: 905
+source-wordcount: 906
 ht-degree: 55%
 
 ---
@@ -48,7 +33,7 @@ Content Analytics 確實不斷提升其價值：
 
 1. 內容&#x200B;**使用方式**：透過 Content Analytics，可以獲得哪些資產正獲得曝光度，以及資產是在哪裡獲得曝光度的洞察。 這些見解可協助您檢視您的網頁和行動屬性上是否未妥善使用或過度使用資產。
 1. 內容&#x200B;**參與度**：Content Analytics 可以提供參與度洞察，例如某些屬性的資產平均點擊率。 這些洞察可以幫助您確定特定類型的體驗是否仍然有效。
-1. 內容歷程：此外，當結合Experience Platform中所有其他可用的資料時，您可以獲得內容歷程的其他深入分析；例如，除了參與之外，特定內容是否會導致轉換。 例如，特定內容是否會導致轉換，以及參與度。 了解這些事情後，您就可以確定內容類型的投資報酬率。
+1. 內容歷程：此外，當結合Experience Platform中所有其他可用的資料時，您可以獲得內容歷程的其他深入分析；例如，除了參與之外，特定內容是否會導致轉換。 例如，特定內容是否會導致轉換，以及參與度。 了解這些事情後，您就可以確定內容類型的 ROI。
 1. 內容&#x200B;**個人化**：最終，Content Analytics 可讓您根據自己的分析採取行動，並使用這些洞察來確定如何花錢在內容上。 例如，我應該向特定客群發送特定類型的內容嗎？ 哪些內容能為我提供高度個人化的機會？
 
 ## 術語
@@ -67,8 +52,8 @@ Content Analytics使用來自Experience Platform事件資料集的網頁和行�
 
 ![Content Analytics - 如何運作](assets/aca-overview-new.gif)
 
-1. 當使用者造訪針對Content Analytics[&#128279;](config/configuration.md)、Experience Platform Web或Mobile SDK設定的網站或應用程式時，會記錄曝光次數以及與內容的互動。
-1. 身分和功能化服務會處理這些互動。 過程包括一項獲取服務，其會重新檢視定義互動之已設定 URL 的公開版本。 對於所有這些獲取到的 URL，身分識別服務是唯一識別體驗和資產的服務。 此外，功能化服務會套用AI/ML服務，探索體驗和資產中繼資料及屬性。
+1. 當使用者造訪針對Content Analytics](config/configuration.md)、Experience Platform Web或Mobile SDK設定的網站或應用程式時，[會記錄曝光次數以及與內容的互動。
+1. 身分和功能化服務會處理這些互動。 過程包括一項獲取服務，其會重新檢視定義互動之已設定 URL 的公開版本。 對於所有這些獲取到的 URL，身分識別服務會唯一識別體驗和資產。 此外，功能化服務會套用AI/ML服務，探索體驗和資產中繼資料及屬性。
 1. 這些服務 ([元件、屬性和身分識別](/help/content-analytics/report/components.md)) 的結果將用於更新 Experience Platform 中相關的特定 Content Analytics 資料集。
 1. 您可以在Customer Journey Analytics設定（[連線](/help/connections/overview.md)、[資料檢視](/help/data-views/data-views.md)和[Workspace](/help/analysis-workspace/home.md)）中使用Content Analytics資料，以及行為資料和其他查詢資料。 該設定提供了對您的內容進行獨特巨集層級深入分析的基礎。 <br/>您可以使用[Content Analytics範本](/help/content-analytics/report/report.md#template)快速開始您的Content Analytics報表和分析。
 
@@ -82,7 +67,7 @@ Content Analytics使用來自Experience Platform事件資料集的網頁和行�
 
 >[!NOTE]
 >
->如果您已授權Privacy and Security Shield附加元件，請注意DULE標籤或客戶自控金鑰不會涵蓋受Content Analytics約束的體驗和資產。 此外，Content Analytics 不是符合 HIPAA 標準的服務。
+>如果您已授權Privacy and Security Shield附加元件，請注意DULE標籤或客戶自控金鑰不會涵蓋受Content Analytics約束的體驗和資產。 此外，Content Analytics 不是 HIPAA-Ready 服務。
 >
 
 >[!IMPORTANT]
@@ -95,6 +80,6 @@ Content Analytics使用來自Experience Platform事件資料集的網頁和行�
 >
 >[Content Analytics報告](report/report.md)
 >[設定 Content Analytics](config/configuration.md)
->[在 Customer Journey Analytics 中計算退回與退回率](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722?profile.language=zh-Hant)
+>[在 Customer Journey Analytics 中計算退回與退回率](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722)
 >
 

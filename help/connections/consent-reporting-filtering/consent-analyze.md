@@ -5,22 +5,15 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin, User
 hide: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
 workflow-type: tm+mt
 source-wordcount: 388
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -68,6 +61,6 @@ ht-degree: 2%
 
 ## 使用同意原則分析範本
 
-當資料檢視設定為同意報表時，Customer Journey Analytics會自動在Analysis Workspace中使用同意原則分析範本。 此範本提供報告訪客同意原則成員資格的起點。
+當針對同意報告設定資料視圖時，Customer Journey Analytics 會在 Analysis Workspace 中自動提供同意原則分析範本。 此範本提供報告訪客同意原則成員資格的起點。
 
 如需有關如何存取範本的資訊，請參閱[存取並執行範本](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template)。

@@ -7,15 +7,10 @@ type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/XqkSB2GCQ6mQ1iR1uESpafVDqb2-g1NcysPOh-6r7fM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 360
@@ -27,7 +22,7 @@ ht-degree: 93%
 
 適用於 Customer Journey Analytics 的 Report Builder 可讓您使用 Adobe Customer Journey Analytics 資料，輕鬆地在 Microsoft Excel 中建立、編輯和重新整理自訂報告。
 
-Customer Journey Analytics 是一項建置於 Adobe Experience Platform 上的應用程式，可讓您連接多個資料來源以建立業務的整體檢視。 透過 Report Builder 既簡單又靈活地拖放介面，就能在 Microsoft Excel 中從 Customer Journey Analytics 資料建立複雜的資料查詢和自訂報告。
+Customer Journey Analytics 是一項建置於 Adobe Experience Platform 上的應用程式，可讓您連接多個資料來源以建立業務的整體檢視。 透過 Report Builder 簡單且靈活的拖放介面，您可以在 Microsoft Excel 中從 Customer Journey Analytics 資料建立複雜的資料查詢和自訂報告。
 
 您可以使用適用於 Customer Journey Analytics 的 Report Builder 進行以下工作：
 
@@ -35,7 +30,7 @@ Customer Journey Analytics 是一項建置於 Adobe Experience Platform 上的�
 - 使用行事曆、儲存格參照或日期數學，建立自訂日期。
 - 使用熟悉的 Excel 格式化工具設計您的表格和視覺效果。
 
-適用於 Customer Journey Analytics 的 Report Builder 是 Microsoft Excel 外掛程式。 該外掛程式可用於以下平台上：
+適用於 Customer Journey Analytics 的 Report Builder 是 Microsoft Excel 外掛程式。 該外掛程式可用於以下平台：
 
 - macOS
 - Windows
@@ -58,7 +53,7 @@ Customer Journey Analytics 是一項建置於 Adobe Experience Platform 上的�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [適用於 Customer Journey Analytics 的 Report Builder](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/report-builder-for-customer-journey-analytics){target="_blank"} 的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [適用於 Customer Journey Analytics 的 Report Builder](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/report-builder-for-customer-journey-analytics){target="_blank"} 的示範影片。
 
 >[!ENDSHADEBOX]
 

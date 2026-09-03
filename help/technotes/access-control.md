@@ -7,39 +7,11 @@ exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
 TQID: https://experienceleague.adobe.com/-Zv1B2pvTFAAgwV1uAV6ik65jtKVRBsF-2rc0tCHuUs
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: a4cd176f-aea0-45b8-80e6-7f1b931e5847
-  - id: a67cb189-a535-41f6-afa2-448f39c4759f
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
-  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d13dba12-733d-4914-8d92-d643658bbe5d
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e0cfe18a-f68c-495b-bafc-f6bcc0392d6c
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: e8abc408-b05c-427f-9e37-f8b033a6b3c3
-  - id: f24857a4-4b64-4b25-b237-d43026362144
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: a4cd176f-aea0-45b8-80e6-7f1b931e5847id: a67cb189-a535-41f6-afa2-448f39c4759fid: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: bf2b169f-d8b2-488a-97b9-f3bc9532e35cid: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8id: c38ed341-fab2-46df-9d72-88d8166edebbid: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d13dba12-733d-4914-8d92-d643658bbe5did: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e0cfe18a-f68c-495b-bafc-f6bcc0392d6cid: e1471301-a189-438e-8d48-264a8db508a6id: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: e8abc408-b05c-427f-9e37-f8b033a6b3c3id: f24857a4-4b64-4b25-b237-d43026362144id: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1661
@@ -91,7 +63,7 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
   | 類別 | 權限 | 說明 |
   |---|---|---|
-  | [!UICONTROL 沙箱] | [!UICONTROL 至少一個] | 存取連線的相關沙箱。 |
+  | [!UICONTROL 沙箱] | [!UICONTROL 至少一個] | 存取與連線相關的沙箱。 |
   | [!UICONTROL 資料建模] | [!UICONTROL 檢視結構描述] | 對結構描述和相關資源的唯讀存取權。 |
   | [!UICONTROL 資料建模] | [!UICONTROL 管理結構描述] | 讀取、建立、編輯和刪除結構描述與相關資源的存取權。 |
   | [!UICONTROL 資料管理] | [!UICONTROL 檢視資料集] | 資料集和結構描述的唯讀存取權。 |
@@ -116,7 +88,7 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
   | 類別 | 權限 | 說明 |
   |---|---|---|
   | [!UICONTROL 目標] | [!UICONTROL 管理目標] | 讀取、建立和刪除目標連線和目標帳戶的存取權。 |
-  | [!UICONTROL 目標] | [!UICONTROL 啟用目標] | 允許使用者啟用現有目標的區段。 在啟動工作流程中啟用對應步驟。 此權限也會要求針對想要對目標啟用資料的使用者授予「檢視目標」權限。 |
+  | [!UICONTROL 目標] | [!UICONTROL 啟用目標] | 允許使用者將區段啟用至現有目標。 在啟動工作流程中啟用對應步驟。 此權限也會要求針對想要對目標啟用資料的使用者授予「檢視目標」權限。 |
 
   如需關於 Experience Platform 權限的更多資訊，請參閱[管理產品輪廓的權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
 
@@ -124,16 +96,16 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
   若要讓使用者能夠使用 BI 擴充功能，產品管理員
 
-   * 必須確保使用者的 Experience Platform 權限中包含的角色，具有查詢服務資源以及「管理查詢」和「管理查詢服務整合」選項。 如需關於 Experience Platform 權限的更多資訊，請參閱[管理產品輪廓的權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
+  * 必須確保使用者的 Experience Platform 權限中包含的角色，具有查詢服務資源以及「管理查詢」和「管理查詢服務整合」選項。 如需關於 Experience Platform 權限的更多資訊，請參閱[管理產品輪廓的權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
 
-     | 類別 | 權限 | 說明 |
-     |---|---|---|
-     | [!UICONTROL 查詢服務] | [!UICONTROL 管理查詢] | 讀取、建立、編輯和刪除 Platform 資料的結構化 SQL 查詢的存取權。 |
-     | [!UICONTROL 查詢服務] | [!UICONTROL 管理查詢服務整合] | 建立、更新和刪除適用於存取查詢服務的永不過期的認證。 |
+    | 類別 | 權限 | 說明 |
+    |---|---|---|
+    | [!UICONTROL 查詢服務] | [!UICONTROL 管理查詢] | 讀取、建立、編輯和刪除 Platform 資料的結構化 SQL 查詢的存取權。 |
+    | [!UICONTROL 查詢服務] | [!UICONTROL 管理查詢服務整合] | 可建立、更新和刪除適用於存取查詢服務的永不過期認證。 |
 
-   * 必須確保使用者具有適當的 Customer Journey Analytics 權限：
-      * 存取相關資料視圖的權限。 請參閱[使用者層級存取權](#user-level-access)中的[!UICONTROL 資料視圖]。
-      * 存取 Customer Journey Analytics BI 擴充功能的權限。 請參閱[使用者層級存取權](#user-level-access)中的[!UICONTROL 資料視圖工具]。
+  * 必須確保使用者具有適當的 Customer Journey Analytics 權限：
+    * 存取相關資料視圖的權限。 請參閱[使用者層級存取權](#user-level-access)中的[!UICONTROL 資料視圖]。
+    * 存取 Customer Journey Analytics BI 擴充功能的權限。 請參閱[使用者層級存取權](#user-level-access)中的[!UICONTROL 資料視圖工具]。
 
 ### 產品輪廓管理員角色
 
@@ -141,7 +113,7 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
 * 管理獲指派的產品輪廓。 例如新增或移除使用者或使用者群組，以及修改產品輪廓的權限。
 
-* 在 Customer Journey Analytics 中，編輯屬於獲指派的產品輪廓一部分的資料視圖。 產品輪廓管理員無法建立新的資料視圖。
+* 在 Customer Journey Analytics 中，編輯屬於獲指派產品設定檔一部分的資料釋圖。 產品輪廓管理員無法建立新的資料視圖。
 
 ### 使用者層級存取權
 
@@ -192,14 +164,14 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
 ### 列層級存取控制
 
-若您只想讓使用者存取一天內的資料。 您可以用以下方法限制只能存取這些特定的列：
+您想要只讓使用者存取單日的資料。 您可以用以下方法限制只能存取這些特定的列：
 
 1. 在特定資料視圖的「[!UICONTROL 設定]」中建立區段，其中「[!UICONTROL 天]」等於您允他們存取資料的日期。 請參閱[建立資料視圖](/help/data-views/create-dataview.md#settings-filters)了解更多資訊。
-1. 儲存資料視圖，這會將區段套用至底層連線中資料集的資料部分。 任何不符合區段定義的列都會自動從資料視圖中排除，且使用此資料視圖時，Analysis Workspace 無法使用這些列。
+1. 儲存資料釋圖，這會將區段套用至底層連線中資料集的資料部分。 任何不符合區段定義的列都會自動從資料釋圖中排除，且使用此資料釋圖時，Analysis Workspace 無法使用這些列。
 1. 在 Admin Console 中建立新的[產品輪廓](#product-profile-admin-role)，將使用者新增至產品輪廓，並僅將此特定資料視圖加入產品輪廓。
 
 ### 值層級存取控制
 
-擁有資料視圖存取權的使用者，只能使用管理員已包含在此資料視圖中的量度和維度。 管理員可以在資料視圖中使用[包含/排除功能](/help/data-views/component-settings/include-exclude-values.md)或[值分組](../data-views/component-settings/value-bucketing.md)元件設定，從資料視圖中排除或彙總某些維度值。
+擁有資料釋圖存取權的使用者，只能使用管理員已包含在此資料釋圖中的量度和維度。 管理員可以在資料視圖中使用[包含/排除功能](/help/data-views/component-settings/include-exclude-values.md)或[值分組](../data-views/component-settings/value-bucketing.md)元件設定，從資料視圖中排除或彙總某些維度值。
 
 例如：您在資料視圖中，使用包含資料集中個別患者資料的元件，建立名為&#x200B;*高血壓*&#x200B;的量度。 您使用值分組，僅提供對分組值的存取權，因此資料的使用者看不到個別患者的資料。

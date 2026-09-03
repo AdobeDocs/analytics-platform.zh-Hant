@@ -5,21 +5,11 @@ feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
 TQID: https://experienceleague.adobe.com/khuUFSkYrbrDsCBMZkzNwvZFsJ8MrN-FA9O7C-Q-Vg4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 877
@@ -29,7 +19,7 @@ ht-degree: 85%
 
 # 建立註解
 
-根據預設，只有管理員才能建立註解。 使用者有權檢視註解，類似於使用者檢視其他元件 (例如區段、計算量度等) 方式。
+預設情況下，只有管理員才能建立註解。 使用者有權檢視註解，類似於檢視其他元件 (例如區段、計算量度等) 的方式。
 
 不過，管理員可透過 Admin Console，在&#x200B;**[!UICONTROL 編輯 CJA Workspace 存取權限]**&#x200B;中為使用者提供&#x200B;**[!UICONTROL 報告工具]**&#x200B;的&#x200B;**[!UICONTROL 註解建立]**&#x200B;權限。 請參閱[使用者層級存取控制](/help/technotes/access-control.md#user-level-access)，以了解更多資訊。
 
@@ -91,15 +81,15 @@ Should we really mention API here. If so, we can do it all over the place in the
 
    | 元素 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 資料檢視]** | 您可以選取註解的資料釋圖。 您定義的註解可以根據所選取的資料視圖，用作 Workspace 專案中的註解。 當您啟用[!UICONTROL 套用至所有資料釋圖]時，此選取範圍將失效。 |
-   | **[!UICONTROL 僅限專案的註解]** | 唯有在您正在處理的 Workspace 專案中，才能看見用來解釋您建立的註解之資訊框。 啟用&#x200B;**[!UICONTROL 您的所有專案可使用此註解]**，讓您的所有專案皆可看見註解。 唯有您在 Workspace 專案中建立註解時，此資訊框才可見。 |
+   | **[!UICONTROL 資料檢視]** | 您可以選取註解的資料釋圖。 您定義的註解可以根據所選取的資料視圖，用作工作區專案中的註解。 當您啟用[!UICONTROL 套用至所有資料釋圖]時，此選取範圍將失效。 |
+   | **[!UICONTROL 僅限專案的註解]** | 資訊框會說明您建立的註解僅會顯示在您正在處理的工作區專案中。 啟用&#x200B;**[!UICONTROL 您的所有專案可使用此註解]**，讓您的所有專案皆可看見註解。 唯有您在 Workspace 專案中建立註解時，此資訊框才可見。 |
    | **[!UICONTROL 標題]**![Required](/help/assets/icons/Required.svg) | 為註解命名，例如，`Needs further investigation`。 |
    | **[!UICONTROL 說明]** | 提供註解說明，例如，`We never expected such a fluctuation in numbers.`。 |
    | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標記來組織註解。 開始輸入內容以尋找您可以選取的現有標記。 或按一下 **[!UICONTROL Enter]** 以新增新標記。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
    | **[!UICONTROL 套用的日期]**![Required](/help/assets/icons/Required.svg) | 選取註解要顯示時所需的日期或日期範圍。 當您使用快速鍵建立註解時，註解的預設日期範圍為那一天。 當您使用視覺效果中的選取專案建立註解時，註解會根據視覺效果所屬面板的日期範圍預設為日期範圍。 |
-   | **[!UICONTROL 顏色]** | 在註解上套用顏色。 註解會顯示在所選取顏色的專案中。 顏色可用於將註解分類，例如，國定假日、外部活動、追蹤問題等。 |
-   | **[!UICONTROL 範圍]** | 從元件面板拖放會觸發註解的量度。 例如，人員、工作階段和事件。 然後從元件面板拖放任何維度或區段做為劃分，以確定註解顯示與否。 如果您不指定範圍，註解將套用至您的所有資料。 <br/>您有兩個選項︰<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發註解顯示的量度。<br/>例如，收入量度已停止收集特定日期範圍的資料。 將收入量度拖曳到此框中。</li><li>**[!UICONTROL 包含這所有的區段]**：最多拖放 10 個做為註解顯示時機之劃分的維度或區段。</li></ul><p><p>**請注意：**&#x200B;任何套用到元件且之後做為計算量度或區段定義一部分而使用的註解，都不會自動繼承該註解。 必須將所需的計算量度也新增到範圍區段中，才能顯示該註解。 不過，應該針對您想要加入相同資訊做為註解的任何區段建立新的註解。 例如，您可將註解套用到特定日子的[!UICONTROL 訂單]。 然後您在相同的日期範圍中，在計算量度中使用[!UICONTROL 訂單]。 新的計算量度不會自動顯示訂單的註解。 也需將計算量度新增至範圍區段中，才能顯示該註解。 |
-   | **[!UICONTROL 套用至所有資料視圖]** | 預設情況下，註解會套用到原始的資料視圖。 勾選此方塊後，您就可以將註解套用至公司的所有資料視圖。 |
+   | **[!UICONTROL 顏色]** | 在註解上套用顏色。 註解會以選取的顏色顯示在專案中。 顏色可用於將註解分類，例如，國定假日、外部活動、追蹤問題等。 |
+   | **[!UICONTROL 範圍]** | 從元件面板拖放會觸發註解的量度。 例如，人員、工作階段和事件。 然後從元件面板拖放任何維度或區段做為劃分，以確定註解顯示與否。 如果您不指定範圍，註解將套用至您的所有資料。 <br/>您有兩個選項︰<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發註解顯示的量度。<br/>例如，收入量度已停止收集特定日期範圍的資料。 將收入量度拖曳到此框中。</li><li>**[!UICONTROL 包含這所有的區段]**：最多拖放 10 個做為註解顯示時機之劃分的維度或區段。</li></ul><p><p>**請注意：**&#x200B;任何套用到元件且之後做為計算量度或區段定義一部分而使用的註解，都不會自動繼承該註解。 必須將所需的計算量度也新增到範圍區段中，才能顯示該註解。 不過，對於任何您希望以相同資訊加上註解的區段，都應建立新的註解。 例如，您可將註解套用到特定日子的[!UICONTROL 訂單]。 然後您在相同的日期範圍中，在計算量度中使用[!UICONTROL 訂單]。 新的計算量度不會自動顯示訂單的註解。 也需將計算量度新增至範圍區段中，才能顯示該註解。 |
+   | **[!UICONTROL 套用至所有資料視圖]** | 預設情況下，註解會套用到原始的資料釋圖。 勾選此方塊後，您就可以將註解套用至公司的所有資料視圖。 |
 
    {style="table-layout:auto"}
 

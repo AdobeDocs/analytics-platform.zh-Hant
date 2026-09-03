@@ -1,27 +1,16 @@
 ---
 description: 控制面板計分卡的使用說明。
-title: Analytics 控制面板執行指南
+title: Analytics 儀表板執行指南
 feature: Analytics Dashboards
 role: User
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/VZRakAqCMywVAtKs60w-WQqHJhfKdMj2z3uSSrPyztc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b21c7889-c659-4a99-a779-de1bae57e47e
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b21c7889-c659-4a99-a779-de1bae57e47eid: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1335
@@ -36,22 +25,22 @@ ht-degree: 72%
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [協助高階主管存取行動計分卡](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/dashboards/assist-executives-to-access-mobile-scorecards){target="_blank"}以取得示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [協助高階主管存取行動計分卡](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/assist-executives-to-access-mobile-scorecards){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 
-這份指南旨在協助高階主管使用者閱讀和理解 Analytics 儀表板上的計分卡。 此應用程式可讓高階主管使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
+這份指南旨在協助高階主管使用者閱讀和理解 Analytics 儀表板上的計分卡。 此應用程式可讓高階主管使用者在自己的行動裝置上，輕鬆快速地檢視重要摘要資料的廣泛概觀。
 
 ## 在裝置上設定控制面板
 
-為了有效使用控制面板，您需要請計分卡組織者協助您設定控制面板。 本節提供相關資訊，幫助您在組織者的協助下完成設定。
+為了有效使用控制面板，您需要請計分卡組織者協助您設定控制面板。 本節提供相關資訊，幫助您在策展人的協助下完成設定。
 
 ### 取得存取權
 
 若要在控制面板上存取計分卡，請確認：
 
 * 您處於 Customer Journey Analytics 的有效登入狀態
-* 您的組織者已正確建立行動計分卡並與您共用
+* 您的策展人員已正確建立行動計分卡並與您共用
 
 ### 下載並安裝控制面板
 
@@ -112,9 +101,9 @@ ht-degree: 72%
 
    * 走勢圖的顆粒度取決於日期範圍的長度：
 
-      * 若長度為一天，圖表會顯示每小時趨勢
-      * 若長度為一天以上、一年以下，則會顯示每日趨勢
-      * 若長度為一年 (含) 以上，圖表會顯示每週趨勢
+     * 若長度為一天，圖表會顯示每小時趨勢
+     * 若長度為一天以上、一年以下，則會顯示每日趨勢
+     * 若長度為一年 (含) 以上，圖表會顯示每週趨勢
 
    * 百分比值變更公式為量度合計 (目前日期範圍) - 量度合計 (比較日期範圍) / 量度合計 (比較日期範圍)。
 
@@ -141,7 +130,7 @@ ht-degree: 72%
 
    ![區段](assets/segment_filter.png)
 
-1. 取得[!UICONTROL 計分卡]更新。 如果[!UICONTROL 計分卡]未包含您可能感興趣的所有量度或劃分，請聯絡您的Customer Journey Analytics團隊以更新計分卡。 更新後，您可以下拉畫面上的資訊卡，重新整理並載入最近新增的資料。
+1. 取得[!UICONTROL 計分卡]更新。 如果[!UICONTROL 計分卡]未包含您可能感興趣的所有量度或劃分，請聯絡您的Customer Journey Analytics團隊以更新計分卡。 更新後，您可以下拉畫面上的卡片，重新整理並載入最近新增的資料。
 
 1. 在此應用程式上提供意見回饋：
 
@@ -158,7 +147,7 @@ ht-degree: 72%
 
 **回報錯誤**：
 
-點選需要的選項，再選擇適合錯誤的子類別。 在錯誤回報表單的頂端欄位中提供您的電子郵件地址，並在下方欄位中說明錯誤。 帳戶資訊的螢幕擷取畫面會自動附加至訊息，但如有需要，點選附件影像的 **X** 即可刪除此影像。 您也可以選擇錄製螢幕、新增更多螢幕擷取畫面或附加檔案。 若要傳送報表，請點選表單右上方的紙飛機圖示。
+點選需要的選項，再選擇適合錯誤的子類別。 在錯誤回報表單的頂端欄位中提供您的電子郵件地址，並在下方欄位中說明錯誤。 帳戶資訊的螢幕擷取畫面會自動附加至訊息，但如有需要，點選附件影像的 **X** 即可刪除此影像。 您也可以選擇錄製螢幕、新增更多螢幕擷取畫面或附加檔案。 若要傳送報告，請點選表單右上方的紙飛機圖示。
 
 ![回報錯誤](assets/newbug.png)
 
@@ -179,6 +168,6 @@ ht-degree: 72%
 | 組織 | 為消費者建立或編輯行動計分卡的行為，計分卡內容包含相關量度、維度和其他項目 |
 | 計分卡 | 包含一或多個圖磚的控制面板畫面 |
 | 圖磚 | 計分卡檢視畫面呈現量度的形式 |
-| 劃分 | 輔助性質的檢視畫面，點選計分卡中的圖磚即可顯示。 此檢視畫面會在圖磚所顯示的量度上展開，並依使用者的選擇顯示其他劃分維度。 |
+| 劃分 | 在計分卡中點選圖磚即可存取的次要視圖。 此檢視畫面會在圖磚所顯示的量度上展開，並可顯示其他劃分維度。 |
 | 日期範圍 | 控制面板報表的主要日期範圍 |
 | 比較日期範圍 | 與主要日期範圍相比較的日期範圍 |

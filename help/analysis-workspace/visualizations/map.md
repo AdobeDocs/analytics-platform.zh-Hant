@@ -5,24 +5,11 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 TQID: https://experienceleague.adobe.com/HFEY-P7m7s0Mukkzw-vWL7I5-WHSncEppX-basxJHGw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2815
@@ -37,7 +24,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="地圖"
->abstract="此視覺效果是透過將量度覆蓋在地圖上來表示量度。 這相當實用，可辨識和不同地理區域之間的資料。"
+>abstract="此視覺效果會將量度疊加在地圖上來呈現量度。 這相當實用，可辨識和不同地理區域之間的資料。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -61,7 +48,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[地圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本，請參閱[地圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization)。_
 
 >[!ENDSHADEBOX]
 
@@ -182,7 +169,7 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 >[!CONTEXTUALHELP]
 >id="workspace_map_panel"
 >title="設定地圖視覺效果"
->abstract="選擇作為地圖視覺效果基礎的量度或計算量度。 如果您想聚焦於資料的特定子集，也可以新增一個片段。<p>您可以在視覺效果呈現後隨時更新此資訊。</p>"
+>abstract="選擇作為地圖視覺效果基礎的量度或計算量度。 如果您想聚焦於資料的特定子集，也可以新增一個區段。<p>您可以在視覺效果呈現後隨時更新此資訊。</p>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -225,21 +212,21 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
    * **放大**：您可以透過下列任何方式放大地圖，以放大特定區域：
 
-      * 用滑鼠按兩下地圖。
+     * 用滑鼠按兩下地圖。
 
-      * 在觸控板上使用滑鼠滾輪或類似的動作。
+     * 在觸控板上使用滑鼠滾輪或類似的動作。
 
-      * 在地圖視覺效果上選取加號圖示![放大圖示](assets/map-zoomin-icon.png)。
+     * 在地圖視覺效果上選取加號圖示![放大圖示](assets/map-zoomin-icon.png)。
 
      地圖會相應縮放。 系統會自動根據縮放層級更新所需的維度（國家/地區>州/省>城市）。
 
    * **縮小**：您可以透過下列任何方式縮小地圖，檢視較大的區域：
 
-      * 按住Shift鍵，並以滑鼠連按兩下地圖。
+     * 按住Shift鍵，並以滑鼠連按兩下地圖。
 
-      * 在觸控板上使用滑鼠滾輪或類似的動作。
+     * 在觸控板上使用滑鼠滾輪或類似的動作。
 
-      * 在地圖視覺效果上選取減號圖示![縮小圖示](assets/map-zoomout-icon.png)。
+     * 在地圖視覺效果上選取減號圖示![縮小圖示](assets/map-zoomout-icon.png)。
 
      地圖會相應縮放。 系統會自動根據縮放層級更新所需的維度（國家/地區>州/省>城市）。
 
@@ -255,13 +242,13 @@ Customer Journey Analytics中的地圖視覺效果與Adobe Analytics中的地圖
 
    * **顯示比較期間（例如逐年比較）**：
 
-      * 顯示負數。
+     * 顯示負數。
 
-        例如，如果您繪製的是逐年比較量度，地圖會在紐約上顯示–33%。
+       例如，如果您繪製的是逐年比較量度，地圖會在紐約上顯示–33%。
 
-      * 對於&#x200B;*百分比*&#x200B;類型的量度，叢集會一併平均此百分比。
+     * 對於&#x200B;*百分比*&#x200B;類型的量度，叢集會一併平均此百分比。
 
-      * 綠色和紅色色彩配置表示正值和負值。
+     * 綠色和紅色色彩配置表示正值和負值。
 
    * **其他視覺效果設定**：選取視覺效果標題中的「設定」圖示![設定](/help/assets/icons/Setting.svg)，以檢視地圖視覺效果的其他設定。 如需詳細資訊，請參閱[設定視覺效果設定](#configure-visualization-settings)。
 

@@ -7,19 +7,11 @@ feature: Data Views
 role: Admin
 autotag-review: '2026-05-19T07:52:30.794Z'
 TQID: 'https://experienceleague.adobe.com/ZsIk0j5B2rxVYSdzeqlzKCAOYMQOwh-p941UbzKXYgM'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 437
@@ -44,7 +36,7 @@ ht-degree: 63%
 例如：
 
 1. 您的網站有人按一下您其中一個產品頁面的付費搜尋連結。 他們將產品新增至他們的購物車，但並未購買。
-2. 第二天，他們在社群媒體上看到了一位朋友的貼文。 他們可按一下連結，然後完成購買。
+2. 第二天，他們在社群媒體上看到了一位朋友的貼文。 他們按一下連結，然後完成購買。
 
 在某些報告中，您可能想要將訂單歸因於「付費」搜尋。 在其他報告中，則可能會將訂單歸因至「社交」。 歸因可讓您控制報表的這個方面。
 
@@ -80,7 +72,7 @@ ht-degree: 63%
 >
 >如果您的組織要求某個量度具有多個歸因設定，您可以執行以下操作之一：
 >
-> * 複製資料檢視中的量度，含每個所需的歸因設定。 您可在資料檢視中多次包含相同的量度，並為每個量度提供不同的設定。 確保善適當地賦予每個量度標籤，以便分析師在產生報告時了解這些量度之間的差異。
+> * 複製資料檢視中的量度，含每個所需的歸因設定。 您可在資料釋圖中多次包含相同的量度，並為每個量度提供不同的設定。 確保適當地為每個量度加上標籤，以便分析師在產生報告時了解這些量度之間的差異。
 >
 > * 覆蓋 Analysis Workspace 中的量度。 在量度的[資料欄設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中，選取「**[!UICONTROL 使用非預設歸因模型]**」以變更該特定報告的量度歸因模型和回顧期間。
 
@@ -101,7 +93,7 @@ ht-degree: 63%
 
 {{attribution-container}}
 
-## 回顧時間範圍
+## 回顧期間
 
 {{attribution-lookback-window}}
 

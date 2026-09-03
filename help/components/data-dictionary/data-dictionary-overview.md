@@ -5,16 +5,10 @@ feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
 TQID: https://experienceleague.adobe.com/Sq7br6h7MAjFPqEify4j6hjPu9Bp-dh7Ec7tqBXvYmk
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: df28738e-9c71-4aa8-929e-edde22340cc6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df28738e-9c71-4aa8-929e-edde22340cc6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 586
@@ -41,7 +35,7 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 >[!BEGINSHADEBOX]
 
-請參閱![查看影片](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 的資料字典](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/components/data-dictionary/use-data-dictionary){target="_blank"}來觀看示範影片。
+請參閱![查看影片](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 的資料字典](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/data-dictionary/use-data-dictionary){target="_blank"}來觀看示範影片。
 
 {{videoaa}}
 
@@ -118,6 +112,6 @@ Customer Journey Analytics 管理員負責為其組織維護健康的資料字�
 
   最小化時，資料字典在 Analysis Workspace 的右下角顯示為藍色標籤。
 
-  當您選取藍色標籤時，資料字典將打開您最近檢視的元件。
+  當您選取藍色標籤時，資料字典會開啟至您最近檢視的元件。
 
 * 關閉視窗。

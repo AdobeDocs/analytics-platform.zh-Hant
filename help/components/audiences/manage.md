@@ -5,15 +5,10 @@ exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
 TQID: https://experienceleague.adobe.com/SVEj1knpMzmtkIlwAYSb6o0PYBR9wf7JbrLMcMM2V8g
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 774
@@ -57,7 +52,7 @@ ht-degree: 95%
    | --- | --- |
    | ![SelectBox](/help/assets/icons/SelectBox.svg) | 當選取一個或多個客群時，客群介面底部會出現一個藍色操作欄。 如需詳細資訊，請參閱「[操作](#actions)」。 |
    | **[!UICONTROL 標題和說明]** | 您建立客群時輸入的標題和說明。 |
-   | **[!UICONTROL 資料檢視]** | 建立此客群的資料檢視。 |
+   | **[!UICONTROL 資料檢視]** | 建立此客群的資料釋圖。 |
    | **[!UICONTROL 客群規模]** | 此客群的總人數。 |
    | **[!UICONTROL 所有者]** | 客群的所有者 - 建立客群的人。 |
    | **[!UICONTROL 重新整理頻率]** | 建立客群時設定的重新整理間隔。 |
@@ -86,11 +81,11 @@ ht-degree: 95%
 
 ## 動作
 
-下列是「已排程的專案管理員」中的常見動作。 您可以從內容選單中選取操作：
+下列是「已排程的專案管理員」中的常見動作。 您可以從內容選單中選取動作：
 
 | 圖示 | 動作 | 說明 |
 |:---:|---|---|
-| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。 在&#x200B;**[!UICONTROL 「更新」標記中：*客群名稱&#x200B;*]**&#x200B;對話框中，從下拉式選單中選取標記，或輸入一個或多個新標記。 選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
+| ![標籤](/help/assets/icons/Labels.svg) | **[!UICONTROL 標記]** | 標記所選取的客群。 在&#x200B;**[!UICONTROL 「更新」標記中：*客群名稱&#x200B;*]**對話框中，從下拉式選單中選取標記，或輸入一個或多個新標記。 選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選取的客群。 |
 | ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名選取的客群。 使用「**[!UICONTROL 重新命名」：「*客群名稱&#x200B;*]**」對話框來重新命名客群，然後選取「**[!UICONTROL 儲存&#x200B;]**」以便儲存。 |
 
@@ -114,7 +109,7 @@ ht-degree: 95%
 
 | 資料視圖 | 說明 |
 |---|---|
-| ![所有者](/help/components/audiences/assets/audiences-filter-dataviews.png){width="300"} | 「**[!UICONTROL 資料檢視]**」部分可讓您篩選資料檢視。 <ul><li>您可以使用「![搜尋](/help/assets/icons/Search.svg)」來搜尋您想要用來篩選的資料檢視。</li><li>您可以選取多個資料檢視。</li></ul> |
+| ![所有者](/help/components/audiences/assets/audiences-filter-dataviews.png){width="300"} | 「**[!UICONTROL 資料檢視]**」部分可讓您篩選資料檢視。 <ul><li>您可以使用「![搜尋](/help/assets/icons/Search.svg)」來搜尋您想要用來篩選的資料檢視。</li><li>您可以選取多個資料釋圖。</li></ul> |
 
 ### 所有者
 

@@ -5,17 +5,10 @@ feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
 TQID: https://experienceleague.adobe.com/q9X-MNr4r3Xrs16gAgH6-F3yrRDJP73xfXdd8BcFg84
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 549
@@ -29,7 +22,7 @@ ht-degree: 77%
 
 ## 動態維度項目
 
-動態維度項目會隨時間變更，取決於根據自由格式表格中已排序的量度。 分析特定時段排名最前的項目時，偏好使用動態維度項目。
+動態維度項目會隨時間變更，並取決於自由格式表格中用來排序的量度。 分析特定時段排名最前的項目時，偏好使用動態維度項目。
 
 將維度放入自由格式表格中時，會傳回動態列。 動態列代表對應至指定量度和時段之維度的熱門項目。 您也可以將維度放入自由格式表格中，維度會自動展開至排名前 5 的維度項目。
 
@@ -64,5 +57,5 @@ ht-degree: 77%
 
 自由表格總計列中動態和靜態列的行為不相同。 根據預設：
 
-* 動態列會在伺服器端加總，並刪除重複量度，例如工作階段或人員。
+* 動態列會在伺服器端加總，並對工作階段或人員等量度進行去重複處理。
 * 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。 若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。 [了解更多](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md)

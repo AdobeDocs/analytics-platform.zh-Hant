@@ -6,26 +6,15 @@ feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 TQID: https://experienceleague.adobe.com/IM7-a-jp-lLfuGKj-CM2McnFXcus2-x-ffLC8UUKAmY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
 workflow-type: tm+mt
-source-wordcount: 1215
-ht-degree: 51%
+source-wordcount: 1365
+ht-degree: 48%
 
 ---
 
@@ -74,7 +63,7 @@ ht-degree: 51%
 
 ### 折線圖
 
-第![&#128279;](/help/content-analytics/assets/aca-line-thumbnail.png)行的Content Analytics縮圖
+第](/help/content-analytics/assets/aca-line-thumbnail.png)行的![Content Analytics縮圖
 
 當您將游標停留在[行](/help/analysis-workspace/visualizations/line.md)中的資料點上時，會顯示縮圖。
 
@@ -103,13 +92,13 @@ ht-degree: 51%
 
 Content Analytics [範本](/help/analysis-workspace/templates/use-templates.md)可協助您瞭解哪些內容和內容屬性表現最佳。 此範本是 [Web 管道和參與度使用案例](/help/analysis-workspace/templates/use-templates.md#web-engagement)的一部分，詳細說明您的內容在精細度的表現情況。 您可以查看個別資產或特定屬性的效能。
 
-您可以根據所學到的內容展現才華。 例如在首頁推廣高效能資產、針對特定區段將內容個人化以納入高效能屬性，或者淘汰已開始過時的內容。
+您可以根據所學到的內容採取許多行動。 例如在首頁推廣高效能資產、針對特定區段將內容個人化以納入高效能屬性，或者淘汰已開始過時的內容。
 
 若要使用範本：
 
 1. 從主選單中選取「**[!UICONTROL Workspace]**」。
-1. 確訂您選取了針對 Content Analytics 設定的資料視圖。
-1. 搜尋或使用區段 (針對&#x200B;**[!UICONTROL 管道]**&#x200B;需使用&#x200B;**[!UICONTROL 網頁]**&#x200B;以及針對&#x200B;**[!UICONTROL 使用案例]**&#x200B;需使用&#x200B;**[!UICONTROL 參與]**) 來尋找及選取 **[!UICONTROL Content analytics]** 範本。
+1. 確定您選取了針對 Content Analytics 設定的資料釋圖。
+1. 搜尋或使用區段 (針對&#x200B;**[!UICONTROL 管道]**&#x200B;需使用&#x200B;**[!UICONTROL 網頁]**&#x200B;以及針對**[!UICONTROL 使用案例]**需使用&#x200B;**[!UICONTROL 參與]**) 來尋找及選取 **[!UICONTROL Content analytics]** 範本。
 1. 選取&#x200B;**[!UICONTROL 使用範本]**。
 1. 在「**[!UICONTROL 設定您的範本]**」對話框中，從「**[!UICONTROL 選取轉換量度]**」對話框選取一個量度。 例如「**[!UICONTROL 資產點按率]**」。
 1. 選取「**[!UICONTROL 繼續]**」。
@@ -122,44 +111,44 @@ Content Analytics [範本](/help/analysis-workspace/templates/use-templates.md)�
 
 四個面板為：
 
-* **哪些內容表現最好？**
-此面板可識別哪些體驗和資產可促進參與和轉換。體驗是指在特定時間擷取的完整網頁，或行動應用程式內定義的文字、資產和行動號召組合。
+* **哪些內容表現最佳?**
+此面板可識別哪些體驗和資產可促進參與和轉換。 體驗是指在特定時間擷取的完整網頁，或行動應用程式內定義的文字、資產和行動號召組合。
 
-   * **體驗**。
+  * **體驗**。
 
-     >[!NOTE]
-     >
-     >只有在您將系統設定為[在您的Content Analytics設定中包含體驗](/help/content-analytics/config/guided.md#experience-capture-and-definition)時，這些視覺效果才會顯示在您的範本中。
-     > 
+    >[!NOTE]
+    >
+    >只有在您將系統設定為[在您的Content Analytics設定中包含體驗](/help/content-analytics/config/guided.md#experience-capture-and-definition)時，這些視覺效果才會顯示在您的範本中。
+    > 
 
-      * **體驗CTR**：顯示Experience CTR的[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)視覺效果。
-      * **轉換率最高的體驗**：[橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果顯示根據所選取轉換量度的最高轉換率體驗。
-      * **表現最佳的體驗**：表現最佳的體驗的[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) （包括[縮圖](#thumbnails)和[預覽](#previews)）。
+    * **體驗CTR**：顯示Experience CTR的[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)視覺效果。
+    * **轉換率最高的體驗**：[橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果顯示根據所選取轉換量度的最高轉換率體驗。
+    * **表現最佳的體驗**：表現最佳的體驗的[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) （包括[縮圖](#thumbnails)和[預覽](#previews)）。
 
-   * **資產**
+  * **資產**
 
-      * **資產CTR**
-顯示資產CTR的[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)視覺效果。
-      * **排名在前的轉換資產**
-[橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果可依據選取的轉換量度顯示排名最前的轉換資產。
-      * **績效最佳的資產**
-表現最出色的資產的[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) （包括[縮圖](#thumbnails)和[預覽](#previews)）。
-Assets — 檢視次數與轉換次數的比較。
-[散佈圖](/help/analysis-workspace/visualizations/scatterplot.md)視覺效果，可顯示資產檢視與資產轉換的散佈圖。
+    * **資產CTR**
+      顯示資產CTR的[摘要變更](/help/analysis-workspace/visualizations/summary-number-change.md)視覺效果。
+    * **排名在前的轉換資產**
+      [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果可依據選取的轉換量度顯示排名最前的轉換資產。
+    * **績效最佳的資產**
+      表現最出色的資產的[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) （包括[縮圖](#thumbnails)和[預覽](#previews)）。
+      Assets — 檢視次數與轉換次數的比較。
+      [散佈圖](/help/analysis-workspace/visualizations/scatterplot.md)視覺效果，可顯示資產檢視與資產轉換的散佈圖。
 
-* **哪些資產屬性有助於轉換？**
+* **哪些資產屬性有助於轉換?**
 Content Analytics使用AI和GenAI來自動將中繼資料和屬性（例如主體、場景和前景顏色）指派給每個資產。
 
-   * **最常轉換的資產屬性**
-[橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)會根據選取的轉換量度顯示排名最前的轉換資產屬性。
-   * **最常轉換的資產屬性與前30天的比較**
-[橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果會根據所選的轉換量度，顯示相較於之前30天排名最前的轉換資產屬性。
-   * **排名在前的轉換資產屬性資料**
-[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)會根據選取的轉換量度顯示排名最前的轉換屬性。 選取表格中的一列來更新屬性趨勢視覺效果。
-   * **屬性趨勢**
-顯示所選最上層轉換資產屬性之屬性趨勢的[線](/help/analysis-workspace/visualizations/line.md)視覺效果。
-   * **資產前景色彩**
-範例[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)比較單一資產屬性類別（前景色彩）中專案的效能。 您可以用其他資產屬性類別維度取代此資產屬性。
+  * **最常轉換的資產屬性**
+    [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)會根據選取的轉換量度顯示排名最前的轉換資產屬性。
+  * **最常轉換的資產屬性與前30天的比較**
+    [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果會根據所選的轉換量度，顯示相較於之前30天排名最前的轉換資產屬性。
+  * **排名在前的轉換資產屬性資料**
+    [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)會根據選取的轉換量度顯示排名最前的轉換屬性。 選取表格中的一列來更新屬性趨勢視覺效果。
+  * **屬性趨勢**
+    顯示所選最上層轉換資產屬性之屬性趨勢的[線](/help/analysis-workspace/visualizations/line.md)視覺效果。
+  * **資產前景色彩**
+    範例[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)比較單一資產屬性類別（前景色彩）中專案的效能。 您可以用其他資產屬性類別維度取代此資產屬性。
 
 * **哪些體驗屬性有助於轉換？**
 
@@ -172,28 +161,28 @@ Content Analytics使用AI和GenAI來自動將中繼資料和屬性（例如主�
 
   面板由以下視覺效果組成：
 
-   * **最上層轉換體驗屬性**
-[橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果可依據選取的轉換量度顯示排名最前的轉換體驗屬性。
-相較於前30天轉換體驗屬性的排名最前
-[橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果可依據所選的轉換量度，顯示相較於之前30天排名最前的轉換體驗屬性。
-   * **排名在前的轉換體驗屬性資料**
-[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)會根據選取的轉換量度顯示排名最前的轉換體驗。 選取表格中的一列來更新線條圖視覺效果。
-   * **行**
-顯示所選最上層轉換體驗屬性趨勢的[線](/help/analysis-workspace/visualizations/line.md)視覺效果。
-   * **體驗關鍵字**
-[自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)會根據選取的轉換量度顯示排名在前的體驗關鍵字。
+  * **排名在前的轉換體驗屬性**
+    [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果可依據選取的轉換量度顯示排名最前的轉換體驗屬性。
+    相較於前30天轉換體驗屬性的排名最前
+    [橫條圖](/help/analysis-workspace/visualizations/horizontal-bar.md)視覺效果會根據所選的轉換量度，顯示相較於之前30天排名最前的轉換體驗屬性。
+  * **排名在前的轉換體驗屬性資料**
+    [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)會根據選取的轉換量度顯示排名最前的轉換體驗。 選取表格中的一列來更新折線圖視覺效果。
+  * **行**
+    顯示所選最上層轉換體驗屬性趨勢的[線](/help/analysis-workspace/visualizations/line.md)視覺效果。
+  * **體驗關鍵字**
+    [自由表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)會根據選取的轉換量度顯示排名在前的體驗關鍵字。
 
-* **資產出現在我的網站上的何處？**
-此自由表格詳細說明您檢視次數最多的資產出現的位置。使用此分析來識別高效能頁面，並最佳化資產放置。
+* **資產會出現在我網站上的什麼地方?**
+此自由表格詳細說明您檢視次數最多的資產出現的位置。 使用此分析來識別高效能頁面，並最佳化資產放置。
 
-   * **檢視次數最多的資產會出現在哪裡？**
-您可以依尺寸劃分任何資產，協助您更清楚瞭解該影像出現的位置。
+  * **檢視次數最多的資產出現在哪裡?**
+    您可以依尺寸劃分任何資產，協助您更清楚瞭解該影像出現的位置。
 
-     在範例[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (包括[縮圖](#thumbnails)和[預覽](#previews))，使用「**[!UICONTROL 資產感知 ID]**」而非「[!UICONTROL 資產 Id]」。 完全相同的影像有時可能會透過不同的影像 URL 重複出現在您的網站上。 [!UICONTROL 資產感知 ID] 屬性有助於將這些重複項目分組到單一 ID 之下。
+    在範例[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (包括[縮圖](#thumbnails)和[預覽](#previews))，使用「**[!UICONTROL 資產感知 ID]**」而非「[!UICONTROL 資產 Id]」。 完全相同的影像有時可能會透過不同的影像 URL 重複出現在您的網站上。 [!UICONTROL 資產感知 ID] 屬性有助於將這些重複項目分組到單一 ID 之下。
 
-     因為資產可以在頁面上變更，所以系統會依據&#x200B;**[!UICONTROL 體驗ID]**&#x200B;劃分每個資產，以識別資產出現的頁面版本。 您可以用其他維度取代[!UICONTROL 體驗 Id]，以協助您了解資產在您網站上的位置。 例如「[!UICONTROL 頁面名稱]」、「[!UICONTROL 頁面 URL]」或「[!UICONTROL 網站區段]」。
+    因為資產可以在頁面上變更，所以系統會依據&#x200B;**[!UICONTROL 體驗ID]**&#x200B;劃分每個資產，以識別資產出現的頁面版本。 您可以用其他維度取代[!UICONTROL 體驗 Id]，以協助您了解資產在您網站上的位置。 例如「[!UICONTROL 頁面名稱]」、「[!UICONTROL 頁面 URL]」或「[!UICONTROL 網站區段]」。
 
-     您也可以用[!UICONTROL 資產感知 ID] 交換[!UICONTROL 資產 ID]，以取得參照特定影像 URL 的位置記錄。
+    您也可以用[!UICONTROL 資產感知 ID] 交換[!UICONTROL 資產 ID]，以取得參照特定影像 URL 的位置記錄。
 
 
 >[!MORELIKETHIS]

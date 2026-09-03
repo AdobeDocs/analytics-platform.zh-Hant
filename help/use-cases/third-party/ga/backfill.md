@@ -7,20 +7,11 @@ feature: Use Cases
 role: Admin
 autotag-review: '2026-05-19T07:58:46.205Z'
 TQID: 'https://experienceleague.adobe.com/X5R0sqTkZKxvzH7mwv69-Ez3MIbuTg6XDGuxrw-iugw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 662
@@ -30,7 +21,7 @@ ht-degree: 83%
 
 # 攝取 Google Analytics 歷史資料
 
-此頁面著重於將您的 Google Analytics 歷史資料擷取到 Adobe Experience Platform 做為資料集，讓您參照在 Customer Journey Analytics 之內「資料檢視」中的資料集。 您可以結合此頁面的步驟與[設定一個 Google Analytics 實作](streaming.md)，這會產生反覆出現的資料集。 結合此歷史資料集與最新實作的資料集，以便在 Customer Journey Analytics 中取得現在與回填資料的無縫接軌檢視。
+此頁面著重於將您的 Google Analytics 歷史資料擷取到 Adobe Experience Platform 做為資料集，讓您參照在 Customer Journey Analytics 之內「資料檢視」中的資料集。 您可以結合此頁面的步驟與[設定一個 Google Analytics 實作](streaming.md)，這會產生反覆出現的資料集。 結合此歷史資料集與目前實施的資料集，以便在 Customer Journey Analytics 中取得現在與回填資料的無縫接軌檢視。
 
 ## 先決條件
 
@@ -47,13 +38,13 @@ Universal Analytics 屬性中的資料結構異於 Google Analytics 4 屬性中�
 * [設定用於Universal Analytics屬性的BigQuery Export](https://support.google.com/analytics/answer/3416092)
 * [設定用於Google Analytics 4屬性的BigQuery Export](https://support.google.com/analytics/answer/9823238)
 
-### 用於 Universal Analytics 屬性的其他要求
+### Universal Analytics 屬性的其他要求
 
 >[!NOTE]
 >
 >此節僅適用於 Universal Analytics 屬性。 如果您從 GA4 屬性匯出，您可以前往[將資料匯出至 Google Cloud Platform](#export-gcp)。
 
-Universal Analytics 屬性會將其資料中的每一筆記錄儲存為使用者的工作階段，而非個別事件。 SQL 查詢將 Universal Analytics 資料轉換為與 Adobe Experience Platform 相容的格式是必要的。 將 `UNNEST` 函式套用到 `hits` GA 結構描述中的欄位，並儲存為 BigQuery 表格。
+Universal Analytics 屬性會將其資料中的每一筆記錄儲存為使用者的工作階段，而非個別事件。 需要使用 SQL 查詢，將 Universal Analytics 資料轉換為與 Adobe Experience Platform 相容的格式。 將 `UNNEST` 函式套用到 `hits` GA 結構描述中的欄位，並儲存為 BigQuery 表格。
 
 
 >[!BEGINSHADEBOX]
@@ -98,7 +89,7 @@ FROM
 
 >[!BEGINSHADEBOX]
 
-觀看![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [將Google Analytics資料匯入Adobe Experience Platform](https://video.tv.adobe.com/v/3437177?captions=chi_hant&quality=12&learn=on){target="_blank"}以取得示範影片。
+觀看![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [將Google Analytics資料匯入Adobe Experience Platform](https://video.tv.adobe.com/v/332676?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -107,7 +98,7 @@ FROM
 >
 >如果您計畫同時匯入歷史與即時串流 Google Analytics 資料，這二個資料集請務必使用相同的結構描述。 您可以使用[合併的資料集](/help/connections/combined-dataset.md)在Customer Journey Analytics中合併資料集。
 
-您可以將 GA 事件資料對應到您之前建立的現有資料集中，或是使用您選擇的任何 XDM 結構描述建立新的資料集。 當您選取結構描述後，Experience Platform 會套用機器學習，自動地將 Google Analytics 資料中的每個欄位預先對應到您的 [XDM 結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant#ui)。
+您可以將 GA 事件資料對應到您之前建立的現有資料集中，或是使用您選擇的任何 XDM 結構描述建立新的資料集。 當您選取結構描述後，Experience Platform 會套用機器學習，自動地將 Google Analytics 資料中的每個欄位預先對應到您的 [XDM 結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui)。
 
 ![結構描述對應，醒目提示GA資料欄位和目標結構描述對應](../../assets/schema-map.png)
 

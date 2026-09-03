@@ -5,20 +5,10 @@ feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
 TQID: https://experienceleague.adobe.com/DvRdeldUVvvaUfzWVV-vTflR1iZvMUH68pZQTL1d8D8
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1200
@@ -34,21 +24,21 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的快速區段](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/components/filters/create-a-quick-filter){target="_blank"}示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的快速區段](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/filters/create-a-quick-filter){target="_blank"}示範影片。
 
 >[!ENDSHADEBOX]
 
 
 當您想要使用快速區段時，請注意：
 
-* 快速區段是直接在 Workspace 專案中所建立。 因此，快速區段僅適用於您建立快速區段所在的 Workspace 專案。 您 Workspace 專案中的快速區段不適用於其他專案，也不能供其他使用者共用。
+* 快速區段是直接在工作區專案中建立。 因此，快速區段僅適用於您建立快速區段所在的工作區專案。 您工作區專案中的快速區段不適用於其他專案，也不能與其他使用者共用。
 * 您只能指定三個條件作為快速區段的一部分。
 * 快速區段不支援巢狀容器或序列條件。
 * 您可以在共用 Workspace 專案中編輯快速區段。 因此，其他使用者可以編輯您已供這些使用者共用的 Workspace 專案快速區段。
 
 ## 建立
 
-快速區段適用於面板。 您可以為 Workspace 專案中的每個面板建立一個或多個快速區段。 Analysis Workspace 中的任何使用者都可以建立快速區段。
+快速區段適用於面板。 您可以為工作區專案中的每個面板建立一個或多個快速區段。 Analysis Workspace 中的任何使用者都可以建立快速區段。
 
 若要建立快速區段：
 
@@ -57,7 +47,7 @@ ht-degree: 82%
 
 使用拖放動作來建立快速區段時，請注意：
 
-* 並非所有元件類型都受支援。 計算量度不受支援，僅有建置區段的維度和量度受支援。
+* 並非所有元件類型都受支援。 計算量度不受支援，且僅支援可用來建置區段的維度和量度。
 * 對於維度和量度元件，[快速區段產生器](#quick-segment-builder)會自動建立 `exists` 條件。 例如，如果您拖放&#x200B;**[!UICONTROL City]**，則會建立條件&#x200B;**[!UICONTROL City]** **[!UICONTROL 存在]**。
 * 對於維度值，[快速區段產生器](#quick-segment-builder)會自動建立&#x200B;**[!UICONTROL 等於]**&#x200B;條件。 例如，如果您從&#x200B;**[!UICONTROL 城市]**&#x200B;維度清單拖放&#x200B;**[!UICONTROL 阿姆斯特丹]**，就會建立條件&#x200B;**[!UICONTROL 城市]** **[!UICONTROL 等於]** `Amsterdam`。
 * 如果您拖放&#x200B;**[!UICONTROL 未指定]**&#x200B;或&#x200B;**[!UICONTROL 無]**，[快速區段產生器](#quick-segment-builder)會自動建立&#x200B;**[!UICONTROL 不存在]**&#x200B;狀況。
@@ -110,10 +100,10 @@ ht-degree: 82%
 | 按鈕 | 說明 |
 |---|---|
 | **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | 只有在您定義多個條件時才適用。 從下拉式功能表![條件之間的V形](/help/assets/icons/ChevronDown.svg)中選取。 這項選擇會確定快速區段的布林邏輯。 當有三個條件時，你不能混合使用邏輯。 布林邏輯可以是 **[!UICONTROL AND]** 或 **[!UICONTROL OR]**。 |
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | 新增另一個條件至您的快速區段。 只有在您為快速區段定義一個或兩個條件時，此按鈕才適用。 |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | 新增另一個條件至您的快速區段。 只有在您為快速區段定義一個或兩個條件時，此按鈕才可用。 |
 | **[!UICONTROL 套用]** | 套用變更至快速區段。 |
 | **[!UICONTROL 開啟產生器]** | 系統會使用&#x200B;**[!UICONTROL 提示您進行確認。確定嗎？]** 對話方塊。 如果您選取「**[!UICONTROL 確定」]**，您再也無法在後者編輯您的區段：[快速區段產生器](#quick-segment-builder) 您的快速區段已重新命名為&#x200B;**[!UICONTROL 區段]**，且現在左邊有一個深藍色的細條。<br/>一般[區段產生器](seg-builder.md)會開啟，並有「**[!UICONTROL 讓此區段適用於您的所有專案並將其新增至您的元件清單中]**」選項。 <ul><li>如果您選取此選項並選取&#x200B;**[!UICONTROL 套用]**，區段會新增至元件面板中的![區段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;元件清單。</li><li>如果您未選取此選項並選取「**[!UICONTROL 套用]**」，該區段仍然是僅限 Workspace 專案的區段。</li></ul> |
-| **[!UICONTROL 取消]** | 選取並取消建立或編輯快速區段。 |
+| **[!UICONTROL 取消]** | 選取以取消建立或編輯快速區段。 |
 
 ## 快速區段與區段
 
@@ -121,7 +111,7 @@ ht-degree: 82%
 
 與快速區段相比，區段確實具有以下優點。
 
-* 區段可建立為適於您所有的 Workspace 專案
+* 區段可在您所有的工作區專案中使用
 * 區段支援使用巢狀和階層式[容器](seg-builder.md#containers)和序列（使用[循序區段](seg-sequential-build.md)）的更多複雜性。
 
 

@@ -6,18 +6,11 @@ role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
 autotag-review: '2026-05-19T07:20:44.651Z'
 TQID: 'https://experienceleague.adobe.com/XPFzwdaB2d1PaGEyiYSlzri7Luo4E2uqlMdKClsExdw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 272
@@ -33,7 +26,7 @@ Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attribution](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attribution](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -46,8 +39,8 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attr
 如需詳細資訊，請參閱John Harsanyi和Lloyd Shapley的原稿：
 
 * 夏普利，勞埃德 (1953). A value for n-person games。 *Contributions to the Theory of Games, 2(28)*, 307-317。
-* 夏仙怡，約翰 (1963). A simplified bargaining model for the n-person cooperative game。 *International Economic Review 4(2)*, 194-220。
+* 夏仙怡，約翰 (1963). n 人合作賽局的簡化議價模型。 *International Economic Review 4(2)*, 194-220。
 
 >[!NOTE]
 >
->只有在給定回顧期間內多個接觸點存在時，演算法歸因的結果才會與其他模型不同。 無論歸因模型為何，單一接觸點的轉換都會獲得 100% 的評分。
+>只有在給定回顧期間內多個接觸點存在時，演算法歸因的結果才會與其他模型不同。 無論歸因模型為何，單一接觸點的轉換都會獲得 100% 的貢獻度。

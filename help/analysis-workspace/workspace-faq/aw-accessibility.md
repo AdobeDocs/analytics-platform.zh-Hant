@@ -5,17 +5,11 @@ feature: Workspace Basics
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
 TQID: https://experienceleague.adobe.com/555a8gxm8jBGyatt1Vp6e40Wj2gqgRl95oFiHC4NMhQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 547
@@ -39,7 +33,7 @@ ht-degree: 100%
 
 ## 鍵盤導覽
 
-[!UICONTROL Analysis Workspace] 中的導覽可由上至下、由左至右運作。 以下是可輔助協助工具的導覽元素：
+[!UICONTROL Analysis Workspace] 中的導覽可由上至下、由左至右運作。 以下導覽元素有助於提升協助工具的可用性：
 
 * **[!UICONTROL Tab]** 鍵會啟用地標快速鍵，從而在 Workspace 中較大的區段之間移動。 在左側面板中，**[!UICONTROL Tab]** 鍵也可讓您在不同的可拖曳選項之間移動。
 * **[!UICONTROL Tab]** 鍵醒目標示一個元素後，◀◀︎ 和▶ ▶︎ 會在個別元素之間移動。
@@ -80,10 +74,10 @@ ht-degree: 100%
 
 ## 所需的驗證
 
-建置元件、視覺效果或面板，儲存時會驗證必填欄位。 如果必要欄位未通過驗證，則會以紅色列出並顯示錯誤圖示。 書面說明解釋需要修復的內容。
+建置元件、視覺效果或面板，儲存時會驗證必填欄位。 如果必要欄位未通過驗證，則會以紅色外框標示並顯示錯誤圖示。 文字說明會解釋需要修正的內容。
 
 ![區段產生器和錯誤驗證指標。](assets/error-validation.png)
 
 ## 支援作業系統協助工具功能
 
-Analysis Workspace 支援內建的 Windows 和 macOS 協助工具功能，例如高對比模式、相黏鍵和慢速鍵/篩選鍵。 此外也提供作業系統使用者介面的相關資訊，以透過輔助技術支援互動，包括螢幕助讀程式 (例如 macOS 的 VoiceOver 和 Windows 上的 NVDA)。
+Analysis Workspace 支援內建的 Windows 和 macOS 協助工具功能，例如高對比模式、相黏鍵和慢速鍵/篩選鍵。 此外，它也會向作業系統提供有關使用者介面的資訊，以便與輔助技術互動，包括 macOS 上的 VoiceOver 和 Windows 上的 NVDA 等螢幕助讀程式。

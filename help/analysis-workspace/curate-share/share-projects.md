@@ -6,26 +6,11 @@ feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
 TQID: https://experienceleague.adobe.com/qAYUiD5wa5PhvEjTi397PC4n0xX0rWKJSYaAjCR6jtg
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: a3b826fd-7a63-4a83-8736-83eee6668f44
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: f21d8c43-b886-433b-93ea-5982cbfc16b7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: a3b826fd-7a63-4a83-8736-83eee6668f44id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: c38ed341-fab2-46df-9d72-88d8166edebbid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: f21d8c43-b886-433b-93ea-5982cbfc16b7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
 source-wordcount: 2183
@@ -61,7 +46,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的專案共用](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的專案共用](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -88,11 +73,11 @@ ht-degree: 90%
 
 * 獲得&#x200B;**[!UICONTROL 編輯副本]**&#x200B;或&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色的管理員，在開啟專案時會獲得這些有限的體驗。 管理員可以透過與自己共用專案並授予編輯角色，將其角色變更為&#x200B;**[!UICONTROL 編輯原始項目]**，如下列程序中所述。
 
-* 如果選取多個共用專案，收件者會新增至每個專案的現有收件者清單。
+* 如果選取多個要共用的專案，收件者會新增至每個專案的現有收件者清單。
 
-  例如，專案 A 已有收件者 1、2 和 3 共用，而專案 B 已有收件者 4、5 和 6 共用。
+  例如，專案 A 已與收件者 1、2 和 3 共用，而專案 B 已與收件者 4、5 和 6 共用。
 
-  然後，專案 A 以及 B 有收件者 4 和 7 共用。 新的專案 A 共用清單現在為 1、2、3、4 和 7，而新的專案 B 共用清單為 4、5、6 和 7。
+  然後，專案 A 和 B 會與收件者 4 和 7 共用。 新的專案 A 共用清單現在為 1、2、3、4 和 7，而新的專案 B 共用清單為 4、5、6 和 7。
 
 若要與組織中的使用者或群組共用特定專案角色：
 
@@ -102,7 +87,8 @@ ht-degree: 90%
 
    或
 
-   若只要共用單一專案，您可以開啟要共用的專案，然後選取「**[!UICONTROL 共用]** > **[!UICONTROL 與 Workspace 使用者共用]**」。如果有未儲存的變更，系統會提示您先儲存專案。
+   若只要共用單一專案，您可以開啟要共用的專案，然後選取「**[!UICONTROL 共用]** > **[!UICONTROL 與 Workspace 使用者共用]**」。
+   如果有未儲存的變更，系統會提示您先儲存專案。
 
    共用專案對話框會顯示。 對話框的「[!UICONTROL **透過連結共用**]」和「[!UICONTROL **設定**]」部份只會在共用單一專案時可見到。
 
@@ -114,11 +100,11 @@ ht-degree: 90%
 
    **編輯副本：**&#x200B;收件者可以「**[!UICONTROL 另存新檔]**」，且擁有左側面板的存取權。 專案互動並不限於這個角色。 如果您想要與了解組織資料，且知道如何使用 Analysis Workspace 的使用者共用專案，此角色相當實用。 但您不希望這些使用者修改您的專案。
 
-   **唯讀：**&#x200B;收件者無法&#x200B;**[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 另存新檔]**，也無法存取左側面板。 專案互動也有所限制。 如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Customer Journey Analytics 的使用者共用專案，此角色會非常有用。 但您仍希望他們能在安全的環境中使用資料和洞察，就可以使用此角色。 深入了解[唯讀專案體驗](/help/analysis-workspace/curate-share/view-only-projects.md)。
+   **唯讀：**&#x200B;收件者無法&#x200B;**[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 另存新檔]**，也無法存取左側面板。 專案互動也有所限制。 如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Customer Journey Analytics 的使用者共用專案，此角色會非常有用。 但您仍希望他們能在安全的環境中使用資料和洞察。 深入了解[唯讀專案體驗](/help/analysis-workspace/curate-share/view-only-projects.md)。
 
 1. (視情況而定) 如果您要共用單一專案，則共用專案時請選擇是否啟用下列選項：
 
-   * **共用嵌入的專案元件：**&#x200B;與所有收件者共用區段、計算量度、日期範圍。 共用後，這些元件會出現在收件者 Workspace 的「元件」下拉式選單中。 系統不會沿用此設定，此動作僅在單次共用中有效。
+   * **共用嵌入的專案元件：**&#x200B;與所有收件者共用區段、計算量度、日期範圍。 共用後，這些元件會出現在收件者工作區的「元件」下拉式選單中。 系統不會沿用此設定，此動作僅在單次共用中有效。
 
    * **設定為收件者的登陸頁面：** 將此頁面設定為收件者的登陸頁面。 系統不會沿用此設定，此動作僅在單次共用中有效。
 
@@ -171,15 +157,15 @@ ht-degree: 90%
 >
 >* 您與其共用的使用者可以檢視在[監管](curate.md)期間套用至專案的任何區段。
 > 
->* 與您共用的使用者可以變更專案日期範圍。 預設顯示您設定的專案日期範圍。
+>* 您與其共用的使用者可以變更專案日期範圍。 預設顯示您設定的專案日期範圍。
 >
->* 如果有多位使用者同時嘗試存取所提供的連結，專案可能會變得無法存取。 根據預設，每 5 分鐘可以有超過 190 人存取單一連結。 如果您的組織達到此限制，請等待 5 分鐘，然後再次嘗試存取該連結。
+>* 如果有多位使用者同時嘗試存取所提供的連結，專案可能會變得無法存取。 預設情況下，每 5 分鐘可以有超過 190 人存取單一連結。 如果您的組織達到此限制，請等待 5 分鐘，然後再次嘗試存取該連結。
 >
 >* 針對[!DNL Healthcare Shield]和[!DNL Privacy & Security Shield]授權，[!UICONTROL 與任何人共用]功能需要CX Enterprise驗證。 針對[!DNL Healthcare Shield]客戶，會出現「符合HIPAA規範」警告，但您仍可在驗證CX Enterprise後使用此功能。
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -208,9 +194,9 @@ ht-degree: 90%
 
      Customer Journey Analytics 管理員可以為公司設定此偏好設定，如[偏好設定](/help/analysis-workspace/user-preferences.md)中所述。 視管理員設定此選項的方式而定，您可能會遇到以下情況：
 
-      * 如果此選項未顯示，就代表您的 Customer Journey Analytics 管理員未啟用此功能。
+     * 如果此選項未顯示，就代表您的 Customer Journey Analytics 管理員未啟用此功能。
 
-      * 如果已啟用此選項且您無法將其停用，則鎖定的選項表示您的Customer Journey Analytics管理員需要CX Enterprise驗證才能存取Analysis Workspace專案的任何人。 授權 Healthcare Shield 的組織都需要這樣做。
+     * 如果已啟用此選項且您無法將其停用，則鎖定的選項表示您的Customer Journey Analytics管理員需要CX Enterprise驗證才能存取Analysis Workspace專案的任何人。 授權 Healthcare Shield 的組織都需要這樣做。
 
 1. 在「**[!UICONTROL 與任何人共用 (無需登入)]**」欄位旁邊，選取「![連結](/help/assets/icons/Link.svg)」以將連結複製到系統剪貼簿。
 
@@ -224,7 +210,7 @@ ht-degree: 90%
 
 ## 查看與您共用的專案
 
-當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [&#x200B; Analytics 登陸頁面上的專案標籤](/help/getting-started/landing.md#navigate-the-projects-tab)存取共用專案。
+當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [ Analytics 登陸頁面上的專案標籤](/help/getting-started/landing.md#navigate-the-projects-tab)存取共用專案。
 
 當有人透過共用連結 (從[共用專案索引標籤](#share-a-link-to-a-project)或使用[與任何人共用的連結](#share-a-project-with-anyone-no-login-required)) 共用專案時，您必須使用與您共用的連結來存取專案。 例如，該連結可能已在電子郵件、內部網站等中提供。
 
@@ -234,7 +220,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Analysis Workspace 中共用嵌入元件](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在 Analysis Workspace 中共用嵌入元件](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/curate-and-share/share-with-anyone-in-analysis-workspace){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -246,4 +232,4 @@ ht-degree: 90%
 | 如果兩個編輯者同時儲存專案，會發生什麼情況？ | 不會合併變更，並且會保留最後儲存的專案版本。 Analysis Workspace 目前不支援即時協作。 |
 | 身為管理員，我會看到何種專案體驗？ | 獲得&#x200B;**[!UICONTROL 編輯副本]**&#x200B;或&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色的管理員，在開啟專案時會獲得這些有限的體驗。 如有需要，管理員可隨時透過「**[!UICONTROL 元件] > [!UICONTROL 專案]**」，將其角色增加到&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;中。 |
 | 如果某個收件者以個人身分獲得某個角色，又以群組成員身分獲得另一個角色，會發生什麼情況？ | 如果收件者獲得多個角色，則一律會獲得權限較高的體驗。 例如，如果收件者以個人身分獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色，則使用者會獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;專案體驗。 |
-| 如果收件者開啟專案連結，將有何體驗？ | 收件者會獲得您在共用模式中為其指定的角色。 如果收件者未獲指派角色而收到專案連結 (「**[!UICONTROL 共用]**」>「**[!UICONTROL 與 Workspace 使用者共用]**」，然後選取「**[!UICONTROL 透過連結共用]**」欄位旁邊的「**[!UICONTROL 複製]**」)，則會獲得預設角色。 管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;角色，而非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**&#x200B;角色。 |
+| 如果收件者開啟專案連結，將有何體驗？ | 收件者會獲得您在共用對話框中為其指定的角色。 如果收件者未獲指派角色而收到專案連結 (「**[!UICONTROL 共用]**」>「**[!UICONTROL 與 Workspace 使用者共用]**」，然後選取「**[!UICONTROL 透過連結共用]**」欄位旁邊的「**[!UICONTROL 複製]**」)，則會獲得預設角色。 管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;角色，而非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**&#x200B;角色。 |

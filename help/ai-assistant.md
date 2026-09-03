@@ -1,5 +1,5 @@
 ---
-description: 如何詢問 Customer Journey Analytics 文件的問題
+description: 如何就 Customer Journey Analytics 文件提出問題
 title: 適用於 Adobe Customer Journey Analytics 的 AI 助理
 role: User, Admin
 solution: Customer Journey Analytics
@@ -7,22 +7,11 @@ feature: AI Tools
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
 autotag-review: '2026-05-19T07:16:56.858Z'
 TQID: 'https://experienceleague.adobe.com/v5QCNZReBnq8uFMSUSJz1VBbzm2J8ztbr8mciozSY0E'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b4489fa2-c6d6-4934-a3a0-e7b4e196f986
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ae3aff40-b2f6-4df1-8c01-0b0720d1510fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b4489fa2-c6d6-4934-a3a0-e7b4e196f986
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 660
@@ -32,11 +21,11 @@ ht-degree: 100%
 
 # 適用於 Adobe Customer Journey Analytics 的 AI 助理
 
-AI 助理是一種對話式體驗，可讓從業人員迅速地執行任務。 無論該任務是了解概念、問題的疑難排解或搜尋資訊。 AI 助理也可讓非專家執行專家任務，並提高整體工作品質。
+AI 助理是一種對話式體驗，可讓從業人員迅速地執行任務。 無論任務是了解概念、疑難排解問題，還是搜尋資訊。 AI 助理也可讓非專家執行專家任務，並提高整體工作品質。
 
-Customer Journey Analytics 中的 AI 助理是根據 Adobe Experience League 文件進行訓練。 在收到所提出的問題時，AI 助理會提供有助於快速學習的回覆。
+Customer Journey Analytics 中的 AI 助理是根據 Adobe Experience League 文件進行訓練。 當被問到問題時，AI 助理會提供有助於快速學習的回覆。
 
-身為新手使用者，您可以使用 AI 助理學習 Customer Journey Analytics 概念，並了解您還不熟悉的產品和功能。 身為經驗豐富的使用者，您可以使用 AI 助理呈現更進階的使用案例或提示與秘訣。
+身為新手使用者，您可以使用 AI 助理學習 Customer Journey Analytics 概念，並了解您還不熟悉的產品和功能。 身為經驗豐富的使用者，您可以使用 AI 助理了解更進階的使用案例或提示與秘訣。
 
 概念問題的一些範例包括：
 
@@ -58,7 +47,7 @@ Customer Journey Analytics 的 AI 助理可用於所有的產品層級。
 
 ## 資料分析
 
-Data Insights 代理可以透過 Customer Journey Analytics 中的 AI 助理進行存取，是一個生成式 AI 對話代理程式，能迅速有效地回答您的資料相關問題。 此代理會使用來自資料視圖的元件以及您的實際資料，在 Analysis Workspace 建置相關的視覺內容。
+Data Insights 代理可以透過 Customer Journey Analytics 中的 AI 助理進行存取，是一個生成式 AI 對話代理，能迅速有效地回答您的資料相關問題。 此代理會使用來自資料釋圖的元件以及您的實際資料，在 Analysis Workspace 建置相關的視覺內容。
 
 如需更多有關在 AI 助理中使用 Data Insights 代理的詳細資訊，請參閱[使用 Data Insights 代理以視覺化方式呈現資料](/help/data-analysis-ai.md)。
 
@@ -71,21 +60,21 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 AI 助理進�
 * **合約存取權**：如果您無法使用 AI 助理，請聯絡貴組織的管理員或 Adobe 客戶代表。 在貴組織可以使用 AI 助理之前，您必須同意關於生成式 AI 的一些法律條款。
 
 * **權限**：在 [!UICONTROL Adobe Admin Console] 中，[!UICONTROL 報告工具]**[!UICONTROL AI 助理：產品知識]**&#x200B;權限決定此工具的存取權。 [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)需要遵守 [!UICONTROL Admin Console] 中的以下步驟：
-   1. 請前往「**[!UICONTROL Admin Console]** > **[!UICONTROL 產品與服務]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 產品設定檔]**」。
-   1. 選取您想要提供 [!UICONTROL AI 助理：產品知識]存取權的產品設定檔標題。
-   1. 在特定的產品設定檔中，選取「**[!UICONTROL 權限]**」。
-   1. 選取「![編輯](/help/assets/icons/Edit.svg)」，可編輯「**[!UICONTROL 報告工具]**」。
-   1. 選取 ![AddCircle](/help/assets/icons/AddCircle.svg) 以新增「**AI 助理：產品知識**」到「**[!UICONTROL 已包含的權限項目]**」。
+  1. 請前往「**[!UICONTROL Admin Console]** > **[!UICONTROL 產品與服務]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 產品設定檔]**」。
+  1. 選取您想要提供 [!UICONTROL AI 助理：產品知識]存取權的產品設定檔標題。
+  1. 在特定的產品設定檔中，選取「**[!UICONTROL 權限]**」。
+  1. 選取「![編輯](/help/assets/icons/Edit.svg)」，可編輯「**[!UICONTROL 報告工具]**」。
+  1. 選取 ![AddCircle](/help/assets/icons/AddCircle.svg) 以新增「**AI 助理：產品知識**」到「**[!UICONTROL 已包含的權限項目]**」。
 
-      ![新增權限](assets/ai-assistant-permissions.png)。
+     ![新增權限](assets/ai-assistant-permissions.png)。
 
-   1. 選取「**[!UICONTROL 儲存]**」，儲存權限。
+  1. 選取「**[!UICONTROL 儲存]**」，儲存權限。
 
 請參閱[存取控制概觀](/help/technotes/access-control.md#access-control)，了解更多資訊。
 
 ## 存取 Customer Journey Analytics UI 中的 AI 助理
 
-1. 若要啟動 AI 助理，請從 Customer Journey Analytics UI 中任一頁面的頂端標題中選取 AI 助理圖示。
+1. 若要啟動 AI 助理，請從 Customer Journey Analytics UI 中任一頁面的頂端頁首選取 AI 助理圖示。
 
    ![AI 助理圖示](assets/ai-asst1.png)
 
@@ -97,6 +86,6 @@ Data Insights 代理可以透過 Customer Journey Analytics 中的 AI 助理進�
 
 1. (可選) 若要顯示來源，請按一下「**[!UICONTROL 顯示來源]**」，然後就會顯示告知答案的文件來源。
 
-1. (可選) 您也可以對任何給定答案的實用程度進行肯定或否定投票。
+1. (可選) 您也可以對任何答案的實用程度給予正面或負面投票。
 
 1. (可選) 您可以標幟不適當或有害內容的答案。

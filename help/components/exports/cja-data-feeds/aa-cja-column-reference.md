@@ -6,28 +6,11 @@ hide: true
 exl-id: 81d6e79e-8324-4726-9a48-10177b0a91b1
 autotag-review: '2026-05-19T09:53:49.596Z'
 TQID: 'https://experienceleague.adobe.com/Yt2CmGRpO6s8natf9s-KLsMBKHc-qdSQHvi3UyPyLgg'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ae3aff40-b2f6-4df1-8c01-0b0720d1510fid: b3197353-f189-4932-8378-3f3bc40e6071id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5eid: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
 source-wordcount: 3921
@@ -45,7 +28,7 @@ Adobe Analytics和Customer Journey Analytics資料摘要欄之間不可能有真
 
 >[!NOTE]
 >
->此參考僅包含Adobe根據[Analytics資料摘要資料行參考](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)視為目前的資料行。 如果您的Analytics資料摘要欄位未在此表格中列出，且您主動使用，請參閱貴組織的解決方案設計檔案，以判斷其在Customer Journey Analytics中的最佳對應專案。
+>此參考僅包含Adobe根據[Analytics資料摘要資料行參考](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference)視為目前的資料行。 如果您的Analytics資料摘要欄位未在此表格中列出，且您主動使用，請參閱貴組織的解決方案設計檔案，以判斷其在Customer Journey Analytics中的最佳對應專案。
 
 +++**`accept_language`**
 
@@ -166,7 +149,7 @@ AMO EF ID維度，用於Adobe Advertising整合。
 
 在Adobe Analytics中，使用者端提示作為串連字串包含在此欄中。 這被視為比`user_agent`欄更現代的方法。
 
-設定Web SDK時，您可以使用[`highEntropyUserAgentHints`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/context)內容字串來收集此資料。 填入多個XDM欄位，而不是一個長串連字串：
+設定Web SDK時，您可以使用[`highEntropyUserAgentHints`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context)內容字串來收集此資料。 填入多個XDM欄位，而不是一個長串連字串：
 
 * **作業系統版本**： `xdm.environment.browserDetails.userAgentClientHints.platformVersion`
 * **架構**： `xdm.environment.browserDetails.userAgentClientHints.architecture`
@@ -176,7 +159,7 @@ AMO EF ID維度，用於Adobe Advertising整合。
 * **瀏覽器名稱**： `xdm.environment.browserDetails.userAgentClientHints.brand`
 * **瀏覽器版本**： `xdm.environment.browserDetails.userAgentClientHints.version`
 
-如需詳細資訊，請參閱[使用者代理程式使用者端提示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/use-cases/client-hints)。
+如需詳細資訊，請參閱[使用者代理程式使用者端提示](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints)。
 
 {{cja-df-ua}}
 
@@ -310,7 +293,7 @@ Customer Journey Analytics並沒有事件型別的原生概念，其會根據點
 
 +++**`cust_hit_time_gmt`**
 
-僅限啟用時間戳記的報告套裝。 時間戳記根據 UNIX® 時間隨點擊傳送。
+僅限啟用時間戳記的報告套裝。 隨點擊傳送的時間戳記，以 UNIX® 時間為基準。
 
 Customer Journey Analytics沒有時間戳記與非時間戳記報表套裝的概念。 請改用`xdm.timestamp`，並視需要調整元件設定。
 
@@ -322,7 +305,7 @@ Customer Journey Analytics沒有時間戳記與非時間戳記報表套裝的概
 
 自訂的訪客 ID，如果使用 `visitorID` 設定。
 
-Customer Journey Analytics支援使用[`identityMap`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/identitymap)的任何身分識別數目。 如果您的組織使用自訂身分，則可能是身分對應中的身分。
+Customer Journey Analytics支援使用[`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap)的任何身分識別數目。 如果您的組織使用自訂身分，則可能是身分對應中的身分。
 
 {{cja-df-post}}
 
@@ -374,7 +357,7 @@ Customer Journey Analytics支援使用[`identityMap`](https://experienceleague.a
 
 +++**`duplicated_from`**
 
-僅用於包含點擊複製 VISTA 規則的報告套裝。 指出從中複製點擊的報告套裝。
+僅用於包含點擊複製 VISTA 規則的報告套裝。 指出該點擊是從哪個報告套裝複製而來。
 
 {{cja-df-na}}
 
@@ -388,7 +371,7 @@ Customer Journey Analytics支援使用[`identityMap`](https://experienceleague.a
 
 {{cja-df-na}}
 
-Customer Journey Analytics沒有單一欄位可做為所有量度的重複資料刪除標幟。 而是每個量度都包含自己的[量度重複資料刪除元件設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)。 因此，Customer Journey Analytics中沒有與此Adobe Analytics資料摘要欄對應的欄位。
+Customer Journey Analytics沒有單一欄位可做為所有量度的重複資料刪除標幟。 而是每個量度都包含自己的[量度重複資料刪除元件設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)。 因此，Customer Journey Analytics中沒有與此Adobe Analytics資料摘要欄對應的欄位。
 
 +++
 
@@ -396,7 +379,7 @@ Customer Journey Analytics沒有單一欄位可做為所有量度的重複資料
 
 一個標幟，用來判斷此點擊的購買事件是否因為重複而被忽略。
 
-雖然此Analytics資料摘要欄沒有直接的翻譯，但其刪除重複購買資料的作用仍然存在。 如果使用[[!UICONTROL Commerce詳細資料]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/commerce-details)欄位群組，您可以設定[量度重複資料刪除元件設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)，其中&#x200B;**[!UICONTROL 重複資料刪除識別碼]**&#x200B;為`xdm.commerce.purchases.id`。
+雖然此Analytics資料摘要欄沒有直接的翻譯，但其刪除重複購買資料的作用仍然存在。 如果使用[[!UICONTROL Commerce詳細資料]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details)欄位群組，您可以設定[量度重複資料刪除元件設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)，其中&#x200B;**[!UICONTROL 重複資料刪除識別碼]**&#x200B;為`xdm.commerce.purchases.id`。
 
 如果您想要標幟重複購買，則需要直接翻譯，您可以使用規則集中的&#x200B;**Deduplicate**&#x200B;函式來使用[衍生欄位](/help/data-views/derived-fields/derived-fields.md)。
 
@@ -431,7 +414,7 @@ EF ID，用於Adobe Advertising整合。
 
 {{cja-df-post}}
 
-如果您的結構描述使用[[!UICONTROL Commerce詳細資料]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/commerce-details)欄位群組，部分量度可能會直接對應到下列XDM欄位：
+如果您的結構描述使用[[!UICONTROL Commerce詳細資料]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details)欄位群組，部分量度可能會直接對應到下列XDM欄位：
 
 * **結帳**： `xdm.commerce.checkouts.value`
 * **購物車新增次數**： `xdm.commerce.productListAdds.value`
@@ -444,7 +427,7 @@ EF ID，用於Adobe Advertising整合。
 有些量度可能會使用事件序列化，因此Adobe Analytics可完全控制重複資料刪除。 您可以使用[量度重複資料刪除](/help/data-views/component-settings/metric-deduplication.md)元件設定來達成重複資料刪除同位檢查。
 
 * 如果您的量度在Adobe Analytics中依造訪進行重複資料刪除，您可以在該量度的元件設定中，將重複資料刪除範圍設定為工作階段。
-* 如果您的量度在Adobe Analytics中依事件ID進行重複資料刪除，則該量度的XDM物件可能同時包含`value`和`id`欄位。 如果您的結構描述使用[[!UICONTROL Commerce詳細資料]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/commerce-details)欄位群組，這些量度可能位於這些XDM欄位中，您可以在量度的元件設定中設定&#x200B;**[!UICONTROL 重複資料刪除ID]**&#x200B;欄位：
+* 如果您的量度在Adobe Analytics中依事件ID進行重複資料刪除，則該量度的XDM物件可能同時包含`value`和`id`欄位。 如果您的結構描述使用[[!UICONTROL Commerce詳細資料]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details)欄位群組，這些量度可能位於這些XDM欄位中，您可以在量度的元件設定中設定&#x200B;**[!UICONTROL 重複資料刪除ID]**&#x200B;欄位：
 
   * **結帳**： `xdm.commerce.checkouts.id`
   * **購物車新增次數**： `xdm.commerce.productListAdds.id`
@@ -463,7 +446,7 @@ EF ID，用於Adobe Advertising整合。
 
 Customer Journey Analytics不會遵循開箱即用的「排除點選」。 但是，如果您有標示要排除的特定點選的XDM欄位，則可以重新建立此功能：
 
-1. 確保將標示已排除點選的XDM欄位納入為元件（維度或量度，視您設定此標幟的方式而定）。 在報表中選取[隱藏元件](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/overview)可能有利於此欄位。
+1. 確保將標示已排除點選的XDM欄位納入為元件（維度或量度，視您設定此標幟的方式而定）。 在報表中選取[隱藏元件](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)可能有利於此欄位。
 1. 在[資料檢視設定](/help/data-views/session-settings.md)中，選取&#x200B;**[!UICONTROL 新增區段]**&#x200B;下拉式功能表，然後選取&#x200B;**[!UICONTROL 建立區段]**。
 1. 建立區段，排除排除有排除點選元件存在的所有事件，或包含您要排除的值。
 1. 在區段和資料檢視上選取&#x200B;**[!UICONTROL 儲存]**。
@@ -498,7 +481,7 @@ Customer Journey Analytics報表中現在不存在已排除的點選，但資料
 
 +++**`first_hit_ref_type`**
 
-代表訪客接觸的第一個反向連結之類型的數值 ID。
+代表訪客最初反向連結類型的數值 ID。
 
 {{cja-df-lookup}}
 
@@ -560,13 +543,13 @@ Customer Journey Analytics報表中現在不存在已排除的點選，但資料
 
 +++**`hit_time_gmt`**
 
-Adobe 資料收集伺服器收到點擊的時間戳記 (根據 UNIX® 時間)。
+Adobe 資料彙集伺服器收到點擊的時間戳記 (根據 UNIX® 時間)。
 
 +++
 
 +++**`hourly_visitor`**
 
-一個標幟，用來判斷該點擊是否來自新的每小時訪客。
+一個標幟，用來判斷該點擊是否為新的每小時訪客。
 
 +++
 
@@ -650,7 +633,7 @@ Java已啟用維度。 <br>Y：啟用 <br>N：停用 <br>U：未知
 
 +++**`mcvisid`**
 
-Experience Cloud 訪客 ID。 由兩個連接的 64 位數組成，並填入至 19 位的 128 位數。
+Experience Cloud 訪客 ID。 由兩個串接且補齊至 19 位數的 64 位數組成的 128 位數。
 
 +++
 
@@ -756,7 +739,7 @@ Experience Cloud 訪客 ID。 由兩個連接的 64 位數組成，並填入至 
 
 +++**`mobilecampaignterm`**
 
-您要對此贏取追蹤的付費關鍵字或其他詞語。 由「行動應用程式贏取」填入。
+您要透過此次贏取追蹤的付費關鍵字或其他詞語。 由「行動應用程式贏取」填入。
 
 {{cja-df-post}}
 
@@ -764,7 +747,7 @@ Experience Cloud 訪客 ID。 由兩個連接的 64 位數組成，並填入至 
 
 +++**`mobiledayofweek`**
 
-應用程式啟動的工作日數。
+應用程式啟動當日是星期幾的數字。
 
 {{cja-df-post}}
 
@@ -802,7 +785,7 @@ Experience Cloud 訪客 ID。 由兩個連接的 64 位數組成，並填入至 
 
 +++**`mobilehourofday`**
 
-定義一天當中啟動應用程式的時段。 請依照 24 小時數字格式。
+定義一天當中啟動應用程式的小時。 請依照 24 小時數字格式。
 
 {{cja-df-post}}
 
@@ -830,7 +813,7 @@ Mobile 安裝日期。 提供使用者初次開啟行動應用程式的日期。
 
 +++**`mobilemessagebuttonname`**
 
-從內容資料變數`a.message.button.id`中收集。 用於應用程式內傳訊，以識別關閉訊息的按鈕。
+從內容資料變數`a.message.button.id`中收集。 用於應用程式內傳送訊息，以識別關閉訊息的按鈕。
 
 {{cja-df-post}}
 
@@ -904,7 +887,7 @@ Mobile 安裝日期。 提供使用者初次開啟行動應用程式的日期。
 
 +++**`mobilepushpayloadid`**
 
-Mobile Services 推送承載 ID
+行動服務推送承載 ID
 
 {{cja-df-post}}
 
@@ -912,25 +895,25 @@ Mobile Services 推送承載 ID
 
 +++**`mobilerelaunchcampaigncontent`**
 
-行動服務上市內容
+行動服務啟動內容
 
 +++
 
 +++**`mobilerelaunchcampaignmedium`**
 
-行動服務上市媒體
+行動服務啟動媒體
 
 +++
 
 +++**`mobilerelaunchcampaignsource`**
 
-行動服務上市來源
+行動服務啟動來源
 
 +++
 
 +++**`mobilerelaunchcampaignterm`**
 
-行動服務上市條件
+行動服務啟動條件
 
 +++
 
@@ -963,7 +946,7 @@ Mobile Services 推送承載 ID
 
 +++**`mvvar1`** - **`mvvar3`**
 
-清單變數值。 根據實施包含使用分隔符號的自訂值清單。 `post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。
+清單變數值。 包含依實施而定、以分隔符號分隔的自訂值清單。 `post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。
 
 {{cja-df-post}}
 
@@ -1150,7 +1133,7 @@ Mobile Services 推送承載 ID
 
 +++**`search_engine`**
 
-代表將訪客反向連結至您的網站的搜尋引擎的數值 ID。 用於搜尋引擎維度。
+代表將訪客轉介到您的網站的搜尋引擎的數值 ID。 用於搜尋引擎維度。
 
 {{cja-df-post}}
 
@@ -1262,7 +1245,7 @@ Mobile Services 推送承載 ID
 
 +++**`user_hash`**
 
-未使用。 報告套裝 ID 上的雜湊. 請改用 `username`。
+未使用。 報告套裝 ID 上的雜湊。 請改用 `username`。
 
 +++
 
@@ -1680,7 +1663,7 @@ MVPD串流媒體服務維度。
 
 +++**`visit_keywords`**
 
-搜尋關鍵字維度。 此欄使用非標準字元限制 varchar(244) 來容納 Adobe 使用的後端邏輯。 後續處理的資料行是`**post_keywords**`，而非`**post_visit_keywords**`。
+搜尋關鍵字維度。 此欄使用非標準字元限制 varchar(244)，以配合 Adobe 使用的後端邏輯。 後續處理的資料行是`**post_keywords**`，而非`**post_visit_keywords**`。
 
 {{cja-df-post}}
 

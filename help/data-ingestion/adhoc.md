@@ -6,21 +6,11 @@ feature: Basics
 role: Admin
 exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
 TQID: https://experienceleague.adobe.com/eqmDvuaNGFj8q2pfKNCzf5-affyrUTYP7MA5UgsRrCI
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1674
@@ -46,7 +36,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->本快速入門手冊是一份簡化的指南，說明如何使用將臨時資料擷取到Experience Platform中，以及在Customer Journey Analytics中使用該臨時資料。 強烈建議在提及時研究其他資訊。
+>本快速入門手冊是一份簡化的指南，說明如何使用將臨時資料擷取到Experience Platform中，以及在Customer Journey Analytics中使用該臨時資料。 強烈建議在提及時查閱其他資訊。
 
 
 ## 使用CSV檔案建立資料集
@@ -92,7 +82,7 @@ ht-degree: 26%
 
       1. 選取&#x200B;**[!UICONTROL 「完成」]**。
 
-成功準備並上傳資料後，您將會在Experience Platform介面中被重新導向至&#x200B;**[!UICONTROL 資料集]**。<br/> 您看到來自CSV **資料集的**&#x200B;範例資料的&#x200B;**[!UICONTROL 資料集活動]**，狀態為![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL 處理中]**。
+成功準備並上傳資料後，您將會在Experience Platform介面中被重新導向至&#x200B;**[!UICONTROL 資料集]**。<br/> 您看到來自CSV ]**資料集的**[!UICONTROL &#x200B;範例資料的&#x200B;**[!UICONTROL 資料集活動]**，狀態為![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL 處理中]**。
 
 ![臨機操作資料的資料集活動](assets/datasets-dataset-activity.png)
 
@@ -171,7 +161,7 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->除了不將臨時資料集和結構描述用於時間序列資料的一般建議之外，您無法將&#x200B;**[!UICONTROL 從CSV建立資料集]**&#x200B;工作流程用於時間序列資料。 此工作流程將所有欄位定義為字串型別，您之後無法修改。 當您新增以時間序列為基礎的資料集（事件或摘要）至連線時，此型別的資料集需要至少一個日期時間型別的欄位。<br/>如果您確實需要使用臨機操作時間序列資料，請考慮使用[使用API建立臨機操作結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)，然後使用[從結構描述建立資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#schema)工作流程。
+>除了不將臨時資料集和結構描述用於時間序列資料的一般建議之外，您無法將&#x200B;**[!UICONTROL 從CSV建立資料集]**&#x200B;工作流程用於時間序列資料。 此工作流程將所有欄位定義為字串型別，您之後無法修改。 當您新增以時間序列為基礎的資料集（事件或摘要）至連線時，此型別的資料集需要至少一個日期時間型別的欄位。<br/>如果您確實需要使用臨機操作時間序列資料，請考慮使用[使用API建立臨機操作結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438)，然後使用[從結構描述建立資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#schema)工作流程。
 
 
 建立[連線](/help/connections/overview.md)之後，您可以執行各種管理工作，例如[選取並合併資料集](/help/connections/combined-dataset.md)、[檢查連線資料集的狀態和資料擷取的狀態](/help/connections/manage-connections.md)等等。
@@ -180,7 +170,7 @@ ht-degree: 26%
 
 資料檢視是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 它指定 Analysis Workspace 中可用的所有維度和量度，以及這些維度和量度從哪些欄取得資料。 資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
-若要建立資料檢視，請執行以下操作：
+若要建立資料釋圖，請執行以下操作：
 
 1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 

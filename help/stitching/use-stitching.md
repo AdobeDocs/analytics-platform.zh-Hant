@@ -7,18 +7,11 @@ role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
 autotag-review: '2026-05-19T09:25:02.883Z'
 TQID: 'https://experienceleague.adobe.com/0A4WNJ6TQDD3QrbupAK7R2sT25Nc-ovCnLFWjIyk0tU'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 422
@@ -42,11 +35,11 @@ ht-degree: 27%
    - 您要重新輸入金鑰之資料集的資料集ID。
    - 所需資料集的永久ID欄名稱（身分路徑和名稱空間） （每列顯示的識別碼）。
    - 如果資料集支援`identityMap`：
-      - 對於欄位式拼接，請指定持續和人員ID的名稱空間。
-      - 對於圖表式拚接，請指定永久ID的名稱空間以及用於查詢身分圖表的身分名稱空間。
+     - 對於欄位式拼接，請指定持續和人員ID的名稱空間。
+     - 對於圖表式拚接，請指定永久ID的名稱空間以及用於查詢身分圖表的身分名稱空間。
    - 如果資料集不支援`identityMap`：
-      - 對於依欄位彙整，所需資料集的人員ID欄名稱（人員ID，也會做為連線內容中資料集之間的連結）。
-      - 對於圖表式拼接，是指您要用於查詢身分圖表的身分名稱空間。
+     - 對於依欄位彙整，所需資料集的人員ID欄名稱（人員ID，也會做為連線內容中資料集之間的連結）。
+     - 對於圖表式拼接，是指您要用於查詢身分圖表的身分名稱空間。
    - 您的回顧視窗和重播頻率偏好設定。 檢視您的Customer Journey Analytics套件，以取得可用的[選項](#options)。
    - 沙箱名稱。
 

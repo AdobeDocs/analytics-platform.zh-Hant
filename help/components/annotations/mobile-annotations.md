@@ -1,23 +1,16 @@
 ---
 title: 行動註解
-description: 了解如何顯露行動計分卡中的註解。
+description: 了解如何顯示行動計分卡中的註解。
 solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
 role: User
 TQID: https://experienceleague.adobe.com/k0zN8EwruHFYAjyj5l-Ak57iRsOi-lIopF7KdwtfHEg
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: c38ed341-fab2-46df-9d72-88d8166edebbid: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 306
@@ -48,11 +41,11 @@ ht-degree: 89%
 
 ## 在行動計分卡中檢視註解
 
-啟用註解時，可在計分卡產生器看到註解圖示。 註解僅會顯示在詳細檢視的圖表與表格。 從計分卡的主要並排檢視中無法看到註解圖示。
+啟用註解時，可在計分卡產生器看到註解圖示。 註解僅會顯示在詳細檢視的圖表與表格。 從計分卡的主要並排視圖中無法看到註解。
 
 ![計分卡產生器，醒目提示註解圖示。](assets/annotations-scorecard.png)
 
-如果可以看到註解圖示，就無法在產生器版面中完整檢視註解或與註解互動。 使用![播放圓圈](/help/assets/icons/PlayCircle.svg)「**[!UICONTROL 預覽]**」可檢視在應用程式中出現的註解並與註解互動。
+如果可以看到註解圖示，就無法在產生器畫布中完整檢視註解或與註解互動。 使用![播放圓圈](/help/assets/icons/PlayCircle.svg)「**[!UICONTROL 預覽]**」可檢視在應用程式中出現的註解並與註解互動。
 
 在 Workspace 中建立註解時便要選取註解顏色。 灰色註解代表註解不只一個。
 

@@ -6,25 +6,14 @@ feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
 TQID: https://experienceleague.adobe.com/RrX-gp2IY-Ny1D1yzR2whV2GuU98mysma8tQmUEubF8
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 3756
+source-wordcount: 3763
 ht-degree: 87%
 
 ---
@@ -65,7 +54,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 若要使用不會過期的認證：
 
-1. 在Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials#non-expiring-credentials)中建立不會到期的認證。 如果您要使用現有的不會到期的認證，請確定這些認證已[移轉至OAuth](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/credentials#migrate-credentials)。
+1. 在Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#non-expiring-credentials)中建立[不會到期的認證。 如果您要使用現有的不會到期的認證，請確定這些認證已[移轉至OAuth](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#migrate-credentials)。
 
 1. 請確定Customer Journey Analytics產品和產品設定檔可以使用不會到期的認證。 您必須是組織的系統管理員才能執行下列步驟。
    1. 從![應用程式](/help/assets/icons/Apps.svg)中選取&#x200B;**[!UICONTROL Admin Console]**。
@@ -119,7 +108,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 +++ PostgresSQL CLI
 
-1. 在 Adobe Experience Platform 中，查尋並複製您的 PostgresSQL 認證：
+1. 在 Adobe Experience Platform 中，查找並複製您的 PostgresSQL 認證：
 
    1. 從左側邊欄選取「**[!UICONTROL **&#x200B;查詢&#x200B;**]**」(在「**[!UICONTROL **&#x200B;資料管理&#x200B;**]**」之下)。
 
@@ -127,7 +116,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 從&#x200B;**[!UICONTROL 資料庫]**&#x200B;下拉式功能表的資料庫清單中，選取您沙箱的`cja`資料庫。 例如 `prod:cja`。
 
-   1. 要複製命令字串，請使用「![複製](assets/Smock_Copy_18_N.svg)」(在「**[!UICONTROL **&#x200B; PSQL 指令&#x200B;**]**」區段)。
+   1. 要複製命令字串，請使用「![複製](assets/Smock_Copy_18_N.svg)」(在「**[!UICONTROL ** PSQL 指令&#x200B;**]**」區段)。
 
 1. 開啟命令或終端機視窗。
 
@@ -160,9 +149,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 在左側邊欄中選取「**[!UICONTROL 更多...]**」。
 
-   1. 在「**取得資料**」畫面中，搜尋 `PostgresSQL`，並從清單中選取「**[!UICONTROL **&#x200B; PostgresSQL 資料庫&#x200B;**]**」。
+   1. 在「**取得資料**」畫面中，搜尋 `PostgresSQL`，並從清單中選取「**[!UICONTROL ** PostgresSQL 資料庫&#x200B;**]**」。
 
-   1. 在「**[!UICONTROL **&#x200B; PostgressSQL 資料庫&#x200B;**]**」對話方塊中：
+   1. 在「**[!UICONTROL ** PostgressSQL 資料庫&#x200B;**]**」對話方塊中：
 
       1. 將「**[!UICONTROL **&#x200B;主機&#x200B;**]**」參數 (取自 Experience Platform 查詢[!UICONTROL 認證]) 貼上到「**[!UICONTROL **&#x200B;伺服器&#x200B;**]**」文字欄位。
 
@@ -201,7 +190,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 在左側邊欄，選取「**[!UICONTROL **&#x200B;更多&#x200B;**]**」(從「**[!UICONTROL **&#x200B;至伺服器&#x200B;**]**」)。
 
-   1. 從清單中選取「**[!UICONTROL **&#x200B; PostgresSQL &#x200B;**]**」。
+   1. 從清單中選取「**[!UICONTROL ** PostgresSQL **]**」。
 
    1. 在「[!UICONTROL PostgresSQL]」對話方塊中：
 
@@ -225,9 +214,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    1. 將想要使用的表格拖曳到畫布上。
 
-   現在您可以使用資料檢視表格中的資料建立報告和視覺化。
+   現在您可以使用資料釋圖表格中的資料建立報告和視覺化。
 
-   請參閱「[將 Tableau 連線到 Query Service &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/tableau)」以了解更多資訊。 另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
+   請參閱「[將 Tableau 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/tableau)」以了解更多資訊。 另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
 
 +++
 
@@ -252,9 +241,9 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
    1. 選擇「**[!UICONTROL 測試]**」來測試您的連線。
    1. 成功後，選取「**[!UICONTROL 更新]**」以儲存您的連線。
 
-   現在您可以使用資料檢視表格中的資料建立報告和視覺化。
+   現在您可以使用資料釋圖表格中的資料建立報告和視覺化。
 
-   請參閱「[將 Looker 連線到 Query Service &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/looker)」以了解更多資訊。 另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
+   請參閱「[將 Looker 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/looker)」以了解更多資訊。 另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」的詳細範例。
 
 +++
 
@@ -302,7 +291,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
    成功後，您可以使用資料來建立報告和視覺效果。
 
-   請參閱「[將 RStudio 連線到 Query Service &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/rstudio)」以了解更多資訊。 另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」，了解詳細範例 (即使用 RPostgres 套件)。
+   請參閱「[將 RStudio 連線到 Query Service ](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/rstudio)」以了解更多資訊。 另請參閱「[BI 擴充功能使用案例](/help/use-cases/data-views/bi-extension-usecases.md)」，了解詳細範例 (即使用 RPostgres 套件)。
 
 +++
 
@@ -312,7 +301,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 ## 功能
 
-依預設設定，您的資料檢視具有根據其易記名稱產生的表格適用名稱。 例如，名為「[!UICONTROL 我的網路資料檢視]」的資料檢視具有檢視名稱「`my_web_data_view`」。 您可以定義在 BI 工具中使用的資料檢視首選名稱。 請參閱「[資料檢視設定](create-dataview.md#settings)」，了解更多資訊。
+依預設設定，您的資料檢視具有根據其易記名稱產生的表格適用名稱。 例如，名為「[!UICONTROL 我的網路資料檢視]」的資料檢視具有檢視名稱「`my_web_data_view`」。 您可以定義在 BI 工具中使用的資料釋圖首選名稱。 請參閱「[資料檢視設定](create-dataview.md#settings)」，了解更多資訊。
 
 如果想要使用資料檢視 ID 作為表格名稱，可以在連線時於資料庫名稱新增選用的 `CJA_USE_IDS` 設定。 例如，`prod:cja?CJA_USE_IDS` 使用如「`dv_ABC123`」這樣的名稱來顯示您的資料檢視。
 
@@ -337,7 +326,7 @@ prod:all=> \dv
 
 ### 巢狀與展平
 
-依預設，資料檢視的綱要使用巢狀結構，就像原始的 XDM 綱要一樣。 該整合也支援 `FLATTEN` 選項。 您可以使用此選項強制展平資料檢視 (以及工作階段中的任何其他表格) 的結構描述。 展平能讓不支援結構化綱要的 BI 工具變得更容易使用。 請參閱「[在 Query Service 中使用巢狀資料結構](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/flatten-nested-data)」以了解更多資訊。
+依預設，資料檢視的綱要使用巢狀結構，就像原始的 XDM 綱要一樣。 該整合也支援 `FLATTEN` 選項。 您可以使用此選項強制展平資料釋圖 (以及工作階段中的任何其他表格) 的結構描述。 展平可讓不支援結構描述的 BI 工具更容易使用。 請參閱「[在 Query Service 中使用巢狀資料結構](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/key-concepts/flatten-nested-data)」以了解更多資訊。
 
 
 ### 預設和限制
@@ -347,11 +336,11 @@ prod:all=> \dv
 * BI 擴充功能要求對查詢結果設定列限制。 預設值為 50，但您可以在 SQL 中使用 `LIMIT n` 覆寫此值，範圍`n`在 1 - 50000 之間。
 * BI 擴充功能需要日期範圍來限制用來計算的資料列。 預設值為最近 30 天，但你可以在 SQL `WHERE` 條款中覆寫此設定，方法是使用特殊 [`timestamp`](#timestamp) 或者 [`daterange`](#date-range) 欄。
 * BI 擴充功能需要彙總查詢。 你不能使用 SQL `SELECT * FROM ...` 取得原始的底層列。 從高層次來看，您的彙總查詢應該使用：
-   * 使用`SUM`和/或`COUNT`.<br/>選取總計 例如， `SELECT SUM(metric1), COUNT(*) FROM ...`
-   * 選取按維度劃分的量度。 <br/>例如，`SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
-   * 選取不同的量度值。<br/>例如， `SELECT DISTINCT dimension1 FROM ...`
+  * 使用`SUM`和/或`COUNT`.<br/>選取總計 例如， `SELECT SUM(metric1), COUNT(*) FROM ...`
+  * 選取按維度劃分的量度。 <br/>例如，`SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
+  * 選取不同的量度值。<br/>例如， `SELECT DISTINCT dimension1 FROM ...`
 
-     如需更多詳細資訊，請參閱「[支援的 SQL](#supported-sql)」。
+    如需更多詳細資訊，請參閱「[支援的 SQL](#supported-sql)」。
 
 
 ### 支援 SQL
@@ -502,7 +491,7 @@ FROM (
 ) rows
 GROUP BY 1
 ORDER BY total</code></pre>
-使用 CTE WITH 的分層：
+使用 CTE WITH 的層級：
 <pre><code>WITH rows AS (
   WITH _ AS (
     SELECT * FROM data_ares
@@ -535,15 +524,15 @@ GROUP BY 2</code></pre>
 
 ### 維度
 
-您可以選取依預設可用或在資料檢視中定義的任何維度。 您可以使用維度 ID 來選取維度。
+您可以選取依預設可用或在資料釋圖中定義的任何維度。 您可以使用維度 ID 來選取維度。
 
 ### 量度
 
 可供選取的量度有：
 
 * 依預設可用的任何量度；
-* 在資料檢視中已定義；
-* 相容於使用者有權存取之資料檢視的計算量度。
+* 在資料釋圖中已定義；
+* 相容於使用者有權存取之資料釋圖的計算量度。
 
 您可以把量度 ID 包含在 `SUM(metric)` 運算式中來選取量度，就像處理其他 SQL 來源一樣。
 
@@ -578,7 +567,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 | 運算子或函數 | 詳細資料 |
 |---|---|
 | `+`、`-`、`*`、`/` 和 `%` | 加、減、乘、除和模數/餘數 |
-| `-X` 或 `+X` | 變更符號或量度，其中 X 是量度運算式 |
+| `-X` 或 `+X` | 變更量度的正負號，其中 X 是量度運算式 |
 | `PI()` | π 常數 |
 | `POSITIVE`、`NEGATIVE`、`ABS`、`FLOOR`、`CEIL`、`CEILING`、`EXP`、`LN`、`LOG10`、`LOG1P`、`SQRT`、`CBRT`、`DEGREES`、`RADIANS`、`SIN`、`COS`、`TAN`、`ACOS`、 `ASIN`、`ATAN`、`COSH`、`SINH` 與 `TANH` | 一元數學函數 |
 | `MOD`, `POW`, `POWER`, `ROUND`, `LOG` | 二進位數學函數 |
@@ -597,7 +586,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 * 如果未提供任何內容，則範圍是從現在減 30 天至現在。
 
 時間戳記範圍將轉換為 RankedRequest 的日期範圍全域區段。
-時間戳記欄位也可以用於「日期時間」函數以剖析或截斷事件時間戳記。
+時間戳記欄位也可以用於日期/時間函數，以剖析或截斷事件時間戳記。
 
 #### 日期範圍
 
@@ -631,7 +620,7 @@ SUM(CASE WHEN dim1 = 'X' AND dim2 = 'A' THEN metric1 END) AS m1
 
 ### 排序順序
 
-依預設，查詢會依照第一個選取的量度以遞減順序對結果進行排序。 您可以透過指定 `ORDER BY ... ASC` 或 `ORDER BY ... DESC` 覆寫預設的排列順序。 如果您使用 `ORDER BY`，則必須在第一個選定的量度上指定 `ORDER BY`。
+依預設，查詢會依照第一個選取的量度以降序對結果進行排序。 您可以透過指定 `ORDER BY ... ASC` 或 `ORDER BY ... DESC` 覆寫預設的排列順序。 如果您使用 `ORDER BY`，則必須在第一個選定的量度上指定 `ORDER BY`。
 
 您也可以在量度前面使用 `-` (減號)，來反轉順序。 下面的兩個陳述式都會產生相同的順序：
 
@@ -671,9 +660,9 @@ ORDER BY -metric1 DESC
 
 | 函數 | 範例 | 詳細資料 |
 |---|---|---|
-| [年](https://spark.apache.org/docs/latest/api/sql/index.html#year) | ``SELECT YEAR(`timestamp`)`` | 在傳入的欄位上產生動態的維度身分識別。 |
+| [年](https://spark.apache.org/docs/latest/api/sql/index.html#year) | ``SELECT YEAR(`timestamp`)`` | 根據傳入的欄位產生動態維度識別碼。 |
 | [月](https://spark.apache.org/docs/latest/api/sql/index.html#month) | ``SELECT MONTH(`timestamp`)`` | 在傳入的欄位上產生動態的維度身分識別。 |
-| [日](https://spark.apache.org/docs/latest/api/sql/index.html#day) | ``SELECT DAY(`timestamp`)`` | 在傳入的欄位上產生動態的維度身分識別。 |
+| [日](https://spark.apache.org/docs/latest/api/sql/index.html#day) | ``SELECT DAY(`timestamp`)`` | 根據傳入的欄位產生動態維度識別碼。 |
 | [星期](https://spark.apache.org/docs/latest/api/sql/index.html#dayofweek) | ``SELECT DAYOFWEEK(`timestamp`)`` | 在傳入的欄位上產生動態的維度身分識別。 使用項目 ID 而不是值，因為您需要的是數字而不是易記名稱。 |
 | [一年當中的第幾天](https://spark.apache.org/docs/latest/api/sql/index.html#dayofyear) | ``SELECT DAYOFYEAR(`timestamp`)`` | 在傳入的欄位上產生動態的維度身分識別。 |
 | [週](https://spark.apache.org/docs/latest/api/sql/index.html#week) | ``SELECT WEEK(`timestamp`)`` | 在傳入的欄位上產生動態的維度身分識別。 |
@@ -688,7 +677,7 @@ ORDER BY -metric1 DESC
 
 ### 部分支援
 
-某些 SQL 功能僅部分受 BI 擴充功能支援，並且不會傳回與其他資料庫所看到相同的結果。  此特定功能是在由各種 BI 工具產生的 SQL 中使用，而 BI 擴充功能沒有完全匹配的 SQL。 因此，BI 擴充功能會著重在有限的實施，且其中使用最少的 BI 工具而不會引發錯誤。 如需詳細資訊，請參閱下列表格。
+某些 SQL 功能僅部分受 BI 擴充功能支援，並且不會傳回與其他資料庫所看到相同的結果。  此特定功能用於各種 BI 工具產生的 SQL，而 BI 擴充功能沒有完全相符的功能。 因此，BI 擴充功能著重於有限的實施，以涵蓋 BI 工具的最低使用需求，同時不會引發錯誤。 如需詳細資訊，請參閱下列表格。
 
 | 函數 | 範例 | 詳細資料 |
 |---|---|---|

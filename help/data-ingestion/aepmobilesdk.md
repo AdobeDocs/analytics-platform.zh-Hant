@@ -6,26 +6,11 @@ feature: Basics
 exl-id: fb48b031-e093-4490-b457-69dbb5debe8d
 role: Admin
 TQID: https://experienceleague.adobe.com/rbgqDkQLPbw-EfhMyUL-eVXZZ1cxMXiQmvU7Si2WCZ8
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df28738e-9c71-4aa8-929e-edde22340cc6
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df28738e-9c71-4aa8-929e-edde22340cc6id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 3536
@@ -45,7 +30,7 @@ ht-degree: 63%
 
 - **使用標籤**&#x200B;可針對行動應用程式中的資料輕鬆設定規則和資料元素。 然後，確定資料已傳送至 Adobe Experience Platform Edge Network 上設定的資料流。
 
-- **部署和驗證**。 擁有一個讓您可反覆進行標籤開發作業的環境，一旦所有內容均經過驗證，就可以在您的生產環境中實時發布。
+- **部署和驗證**。 擁有一個讓您可反覆進行標籤開發作業的環境，一旦所有內容均經過驗證，就可以在您的生產環境中實時發佈。
 
 - 在 Customer Journey Analytics 中&#x200B;**設定連線**。 此連線應 (至少) 包含您的 Adobe Experience Platform 資料集。
 
@@ -64,7 +49,7 @@ ht-degree: 63%
 
 定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。 資料集是資料集合（通常是表格）的儲存和管理結構，其中包含結構（欄）和欄位（列）。
 
-擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
+擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構描述，才能以資料集形式持續保存。
 
 ### 設定結構
 
@@ -126,7 +111,7 @@ ht-degree: 63%
 
    >[!NOTE]
    >
-   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。 或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=zh-Hant)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=zh-Hant#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
+   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。 或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
 
    ![識別物件](./assets/identification-field-mobile.png)
 
@@ -156,7 +141,7 @@ ht-degree: 63%
 
    系統會提示您啟用輪廓的結構。 啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
@@ -174,7 +159,7 @@ ht-degree: 63%
 
 - 根據 XDM 個體設定檔架構類別建立結構。
 
-- 將「設定檔核心 v2」欄位群組新增至結構。
+- 將「輪廓核心 v2」欄位群組新增至結構描述。
 
 - 根據「設定檔核心 v2」欄位群組新增識別物件。
 
@@ -182,7 +167,7 @@ ht-degree: 63%
 
 - 啟用該設定檔結構描述
 
-請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
+請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
 ### 設定資料集
 
@@ -210,7 +195,7 @@ ht-degree: 63%
 
 7. 選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
-   系統會提示您啟用設定檔的資料集。 資料集一經啟用，即可透過攝取的資料豐富即時客戶設定檔。
+   系統會提示您為輪廓啟用資料集。 資料集一經啟用，即可透過攝取的資料豐富即時客戶輪廓。
 
    >[!IMPORTANT]
    >
@@ -254,7 +239,7 @@ ht-degree: 63%
 
 您的資料流現在已設定為將從行動應用程式收集的資料轉送到Adobe Experience Platform中的資料集。
 
-請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
+請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
 
 
@@ -307,7 +292,7 @@ ht-degree: 63%
 - AEP Assurance。
 - 同意。
 
-如需擴充功能及其設定的詳細資訊，請參閱Experience Platform行動應用程式教學課程中的[設定標籤屬性](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=zh-Hant)。
+如需擴充功能及其設定的詳細資訊，請參閱Experience Platform行動應用程式教學課程中的[設定標籤屬性](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html)。
 
 #### **資料元素**
 
@@ -357,27 +342,27 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。 它們會尋�
 
    - 在[!UICONTROL 「事件設定」]對話框：
 
-      - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL 行動核心]**。
+     - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL 行動核心]**。
 
-      - 從[!UICONTROL 事件型別]清單中選取&#x200B;**[!UICONTROL 前景]**。
+     - 從[!UICONTROL 事件型別]清單中選取&#x200B;**[!UICONTROL 前景]**。
 
-      - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
+     - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 
    - 按一下[!UICONTROL 行動核心 — 前景]旁的![加號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)。
 
-      - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL 行動核心]**。
+     - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL 行動核心]**。
 
-      - 從[!UICONTROL 事件型別]清單中選取&#x200B;**[!UICONTROL 背景]**。
+     - 從[!UICONTROL 事件型別]清單中選取&#x200B;**[!UICONTROL 背景]**。
 
-      - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
+     - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 
    - 按一下[!UICONTROL ACTIONS]底下的![加上](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)新增。 在[!UICONTROL 動作設定] 對話框：
 
-      - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL Adobe Experience Platform Edge Network]**。
+     - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL Adobe Experience Platform Edge Network]**。
 
-      - 從[!UICONTROL 動作型別]清單中選取&#x200B;**[!UICONTROL 轉寄事件至Edge Network]**。
+     - 從[!UICONTROL 動作型別]清單中選取&#x200B;**[!UICONTROL 轉寄事件至Edge Network]**。
 
-      - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
+     - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 
    - 您的規則應如下所示：
 
@@ -393,7 +378,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。 它們會尋�
 
 ### 建置並發佈您的標籤
 
-定義資料元素和規則後，您需要建置並發佈標籤。 建立程式庫組建時，必須將其指派至一個環境。 隨後組建的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。 每個環境都會提供唯一的嵌入程式碼，可讓您將指派的組建整合至您的網站。
+定義資料元素和規則後，您需要建置並發佈標籤。 建立程式庫組建時，必須將其指派至一個環境。 隨後建置的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。 每個環境都會提供唯一的嵌入程式碼，可讓您將指派的建置整合至您的網站。
 
 若要建置並發佈您的標籤：
 
@@ -440,7 +425,7 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 您原本可以根據部署Adobe Experience Platform Mobile SDK的程式中，選取其他環境（測試、生產），而不是開發環境的程式碼。
 
-如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant&)。
+如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?)。
 
 ## 部署和驗證。
 
@@ -448,7 +433,7 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 驗證您的實作、視需要更正實作，並在更正後，使用「標籤」的發佈工作流程功能，將其部署至中繼和生產環境。
 
-如需更多詳細資訊，請參閱[在行動應用程式教學課程中實作Adobe Experience Cloud](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hant)。
+如需更多詳細資訊，請參閱[在行動應用程式教學課程中實作Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)。
 
 ## 設定連線
 
@@ -484,11 +469,11 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
    - 對於每個資料集：
 
-      - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取[!UICONTROL 人員 ID]。
+     - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取[!UICONTROL 人員 ID]。
 
-      - 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。 如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
+     - 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。 如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
 
-      - 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
+     - 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
 
      ![設定資料集](./assets/cja-connections-ajopushid.png)
 
@@ -498,11 +483,11 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 如需如何建立和管理連線，以及如何選取和合併資料集的詳細資訊，請參閱[連線概觀](../connections/overview.md)。
 
-## 設定資料檢視
+## 設定資料釋圖
 
 資料檢視是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 它指定 Analysis Workspace 中可用的所有維度和量度，以及這些維度和量度從哪些欄取得資料。 資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
-若要建立資料檢視，請執行以下操作：
+若要建立資料釋圖，請執行以下操作：
 
 1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 
@@ -553,7 +538,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區 – 空白專案](./assets/cja-projects-2.png)
 
-4. 從清單中選取您的資料檢視。
+4. 從清單中選取您的資料釋圖。
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
@@ -565,4 +550,4 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
 >[!SUCCESS]
 >
->您已完成所有步驟。 從定義您要收集的資料 (結構)，以及要將其儲存在 Adobe Experience Platform 中的何處 (資料集) 開始，您已在 Edge Network 上設定資料流，確保資料可轉送至該資料集。 接著，您定義並部署包含擴充功能（Adobe Experience Platform Edge Network和其他專案）、資料元素和規則的標籤，從行動應用程式擷取資料，並將資料傳送至資料流。 您在Customer Journey Analytics中定義連線，以使用您的行動應用程式推播通知追蹤資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，並最終建立您的第一個專案，以視覺化呈現和分析您的行動應用程式資料。
+>您已完成所有步驟。 從定義您要收集的資料 (結構描述)，以及要將其儲存在 Adobe Experience Platform 中的何處 (資料集) 開始，您已在 Edge Network 上設定資料流，確保資料可轉送至該資料集。 接著，您定義並部署包含擴充功能（Adobe Experience Platform Edge Network和其他專案）、資料元素和規則的標籤，從行動應用程式擷取資料，並將資料傳送至資料流。 您在Customer Journey Analytics中定義連線，以使用您的行動應用程式推播通知追蹤資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，並最終建立您的第一個專案，以視覺化呈現和分析您的行動應用程式資料。

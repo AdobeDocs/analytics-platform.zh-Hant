@@ -4,22 +4,10 @@ title: 管理計算量度
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
 TQID: https://experienceleague.adobe.com/lyXPyn6sObLNBvD8O-bULf1dDoQO80IIOokU8Dy1Vno
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
-  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0id: f2ef16dc-055a-4bb7-baa5-7039653f3966id: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 903
@@ -57,7 +45,7 @@ ht-degree: 32%
 | **[!UICONTROL 標記]** | 列出此計算量度的標籤。 |
 | **[!UICONTROL 共用對象]** | 列出您與之共用計算量度的個人或群組數。 選取以開啟&#x200B;**[!UICONTROL 共用計算量度]**&#x200B;對話方塊。 如需詳細資訊，請參閱[共用計算量度](cm-sharing.md)。 |
 | **[!UICONTROL 修改日期]** | 上次修改計算量度的日期和時間。 |
-| **[!UICONTROL 使用於]** | 顯示目前使用計算量度的位置，以及在每個區域中使用計算量度的次數。 <p>例如，如果計算量度用於40個專案和2個警示，則此欄的值會顯示為&#x200B;[!UICONTROL **42個元件**]。 <p>選取此欄中的值，以檢視使用計算量度的明細(例如，[!UICONTROL **專案(40)**]、[!UICONTROL **行動計分卡(2)**])。 此外，您也可以檢視使用計算量度的專案清單。 例如，若要查看正在使用篩選器的專案清單，請選取「[!UICONTROL **專案 (40)**]」連結。</p><p>以下每個區域都會顯示該區域內使用的計算量度例項數：</p> <ul><li>[!UICONTROL **專案**]<p>包含[在計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中建立且可用於所有專案的計算量度。</p></li><li>[!UICONTROL **臨時元件**]<p>包含[建立為快速計算量度](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)的計算量度，且僅適用於單一專案。</p></li><li>[!UICONTROL **已排程的專案**]</li><li>[!UICONTROL **行動計分卡**]</li><li>[!UICONTROL **註解**]</li><li>[!UICONTROL **Report Builder**]<p>選取此選項可下載包含下列資料欄的CSV檔案：</p><ul><li>Report Builder 名稱</li><li>最後存取時間</li><li>最後存取的 IMS 使用者 ID</li><li>最後存取的使用者名稱</li></ul></li></ul><p>此資訊可協助您判斷某個元件對組織中的使用者是否有價值、其使用之處，以及是否需要刪除或修改。</p><p>檢視此欄時請考慮以下事項：</p><ul><li>此資訊僅適用於系統管理員。</li><li>依預設，「[!UICONTROL **使用於**]」欄不會顯示。 使用 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) 來設定此欄的顯示。</li><li>此資訊不包括 API 或 Data Warehouse 的使用情況。</li><li>如果此欄中沒有指定元件的資料，但具有&#x200B;[!UICONTROL **上次使用**]&#x200B;日期，則表示該元件可能已用於分析而未儲存。</li><li>使用情況資訊從 2023 年 9 月開始提供。</li></ul><p>您可以將[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)與此資訊搭配使用，以協助追蹤並深入了解元件在組織中的使用情況。</p> |
+| **[!UICONTROL 使用於]** | 顯示目前使用計算量度的位置，以及在每個區域中使用計算量度的次數。 <p>例如，如果計算量度用於40個專案和2個警示，則此欄的值會顯示為&#x200B;[!UICONTROL **42個元件**]。 <p>選取此欄中的值，以檢視使用計算量度的明細(例如，[!UICONTROL **專案(40)**]、[!UICONTROL **行動計分卡(2)**])。 此外，您也可以檢視使用計算量度的專案清單。 例如，若要查看正在使用篩選器的專案清單，請選取「[!UICONTROL **專案 (40)**]」連結。</p><p>以下每個區域都會顯示該區域內使用的計算量度例項數：</p> <ul><li>[!UICONTROL **專案**]<p>包含[在計算量度產生器](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md)中建立且可用於所有專案的計算量度。</p></li><li>[!UICONTROL **臨時元件**]<p>包含[建立為快速計算量度](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)的計算量度，且僅適用於單一專案。</p></li><li>[!UICONTROL **已排程的專案**]</li><li>[!UICONTROL **行動計分卡**]</li><li>[!UICONTROL **註解**]</li><li>[!UICONTROL **Report Builder**]<p>選取此選項可下載包含下列資料欄的CSV檔案：</p><ul><li>Report Builder 名稱</li><li>最後存取時間</li><li>最後存取的 IMS 使用者 ID</li><li>最後存取的使用者名稱</li></ul></li></ul><p>此資訊可協助您判斷某個元件對組織中的使用者是否有價值、其使用之處，以及是否需要刪除或修改。</p><p>檢視此欄時請考慮以下事項：</p><ul><li>此資訊僅供系統管理員使用。</li><li>依預設，「[!UICONTROL **使用於**]」欄不會顯示。 使用 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) 來設定此欄的顯示。</li><li>此資訊不包括 API 或 Data Warehouse 的使用情況。</li><li>如果此欄中沒有指定元件的資料，但具有&#x200B;[!UICONTROL **上次使用**]&#x200B;日期，則表示該元件可能已用於分析而未儲存。</li><li>使用情況資訊從 2023 年 9 月開始提供。</li></ul><p>您可以將[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)與此資訊搭配使用，以協助追蹤並深入了解元件在組織中的使用情況。</p> |
 | **[!UICONTROL 上次使用]** | 上次使用計算量度的時間。 |
 
 {style="table-layout:auto"}

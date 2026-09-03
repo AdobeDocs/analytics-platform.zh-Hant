@@ -3,20 +3,11 @@ title: 共用的量度和維度概觀
 description: 在多個資料檢視中使用相同的維度或量度參考。
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
 TQID: https://experienceleague.adobe.com/5sjpTMocv3547Xqg4VD6C5Gp-cRzNmyHTI5iE6P-JGA
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1292
@@ -61,40 +52,40 @@ ht-degree: 3%
 ![可用的維度和量度預覽](assets/shared-metrics-dimensions.png)
 
 * **篩選器**：選取![篩選器圖示](../../assets/icons/Filter.svg)圖示以顯示或隱藏可用的篩選器。 下列為可使用的篩選：
-   * **[!UICONTROL 元件型別]**：僅檢視維度或僅檢視量度。
-   * **[!UICONTROL 資料集]**：僅檢視資料集包含在元件共用之資料檢視中的元件。
-   * **[!UICONTROL 資料檢視]**：僅檢視共用給該資料檢視的元件。
-   * **[!UICONTROL 建立者]**：僅檢視指定使用者建立的元件。
-   * **[!UICONTROL 重複]**：僅檢視與其他元件具有相同元件ID的元件。 這些篩選器與透過概觀卡片檢閱元件相同。
+  * **[!UICONTROL 元件型別]**：僅檢視維度或僅檢視量度。
+  * **[!UICONTROL 資料集]**：僅檢視資料集包含在元件共用之資料檢視中的元件。
+  * **[!UICONTROL 資料檢視]**：僅檢視共用給該資料檢視的元件。
+  * **[!UICONTROL 建立者]**：僅檢視指定使用者建立的元件。
+  * **[!UICONTROL 重複]**：僅檢視與其他元件具有相同元件ID的元件。 這些篩選器與透過概觀卡片檢閱元件相同。
 * **搜尋**：使用![搜尋圖示](../../assets/icons/Search.svg)圖示，依名稱搜尋元件。
 * **[!UICONTROL 連線]**：變更[連線](/help/connections/overview.md)的下拉式功能表。 共用的維度和量度一律只適用於單一連線，
 * **[!UICONTROL 自訂表格]**：選取![自訂表格圖示](/help/assets/icons/ColumnSetting.svg)圖示以顯示或隱藏表格中的欄。 可用的選項包括：
-   * **[!UICONTROL 欄位名稱]**：共用維度或量度的名稱。 此欄位一律可見。
-   * **[!UICONTROL 型別]**：指出元件是維度還是量度。 此欄位一律可見。
-   * **[!UICONTROL 資料集型別]**：資料集的型別。 大部分的資料集都是事件資料集。
-   * **[!UICONTROL 共用至資料檢視]**：此元件共用至的所有資料檢視。 此欄位一律可見。 選取連結以開啟一個強制回應視窗，其中列出此元件可用的所有資料檢視。
-   * **[!UICONTROL 資料集]**：包含在此元件共用對象的每個資料檢視中的所有資料集。 選取連結以開啟列示元件所有資料集的強制回應視窗。
-   * **[!UICONTROL 建立者]**：建立元件或將元件匯入共用量度和維度介面的使用者名稱。
-   * **[!UICONTROL 結構描述型別]**：資料儲存所在的格式。 範例包括`string`、`double`或`boolean`。
-   * **[!UICONTROL 元件識別碼]**：維度或量度的元件識別碼。 在此介面中共用相同元件ID的任何元件都必須檢閱並刪除重複專案。
-   * **[!UICONTROL 結構描述]**：維度或量度的結構描述路徑。 例如，`web.webPageDetails.URL`。
-   * **[!UICONTROL 描述]**：元件的[描述](/help/data-views/component-settings/overview.md)。
-   * **[!UICONTROL 內容標籤]**：元件的[內容標籤](/help/data-views/component-settings/overview.md)。
-   * **[!UICONTROL 包含/排除值]**：列出[包含/排除值](/help/data-views/component-settings/include-exclude-values.md)下指定的規則數目。
-   * **[!UICONTROL 資料使用標籤]**：結構描述欄位的[資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview)。
-   * **[!UICONTROL 已棄用]**：表示是否已設定已棄用的標幟。
-   * **[!UICONTROL 格式]**：值出現的格式。 布林值通常顯示為`True | False`，量度通常顯示為`Decimal`等。
-   * **[!UICONTROL 量度重複資料刪除]**：元件的[量度重複資料刪除](/help/data-views/component-settings/metric-deduplication.md)設定。
-   * **[!UICONTROL 行為]**：元件的[行為](/help/data-views/component-settings/behavior.md)設定。
-   * **[!UICONTROL 歸因]**：元件的[歸因](/help/data-views/component-settings/attribution.md)設定。
-   * **[!UICONTROL 沒有值選項]**：元件的[沒有值選項](/help/data-views/component-settings/no-value-options.md)。
-   * **[!UICONTROL 值分組]**：元件的[值分組](/help/data-views/component-settings/value-bucketing.md)設定。
-   * **[!UICONTROL 持續性]**：元件的[持續性](/help/data-views/component-settings/persistence.md)設定。
-   * **[!UICONTROL 小寫]**：表示元件是否已根據元件的[行為](/help/data-views/component-settings/behavior.md)設定啟用小寫。
-   * **[!UICONTROL 子字串]**：元件的[子字串](/help/data-views/component-settings/substring.md)設定。
-   * **[!UICONTROL 摘要資料群組]**：元件的[摘要資料群組](/help/data-views/component-settings/summary-data-group.md)設定。
-   * **[!UICONTROL 建立日期]**：建立或匯入元件的日期。
-   * **[!UICONTROL 上次修改時間]**：如果元件在建立後已修改，則為上次修改的日期。
+  * **[!UICONTROL 欄位名稱]**：共用維度或量度的名稱。 此欄位一律可見。
+  * **[!UICONTROL 型別]**：指出元件是維度還是量度。 此欄位一律可見。
+  * **[!UICONTROL 資料集型別]**：資料集的型別。 大部分的資料集都是事件資料集。
+  * **[!UICONTROL 共用至資料檢視]**：此元件共用至的所有資料檢視。 此欄位一律可見。 選取連結以開啟一個強制回應視窗，其中列出此元件可用的所有資料檢視。
+  * **[!UICONTROL 資料集]**：包含在此元件共用對象的每個資料檢視中的所有資料集。 選取連結以開啟列示元件所有資料集的強制回應視窗。
+  * **[!UICONTROL 建立者]**：建立元件或將元件匯入共用量度和維度介面的使用者名稱。
+  * **[!UICONTROL 結構描述型別]**：資料儲存所在的格式。 範例包括`string`、`double`或`boolean`。
+  * **[!UICONTROL 元件識別碼]**：維度或量度的元件識別碼。 在此介面中共用相同元件ID的任何元件都必須檢閱並刪除重複專案。
+  * **[!UICONTROL 結構描述]**：維度或量度的結構描述路徑。 例如，`web.webPageDetails.URL`。
+  * **[!UICONTROL 描述]**：元件的[描述](/help/data-views/component-settings/overview.md)。
+  * **[!UICONTROL 內容標籤]**：元件的[內容標籤](/help/data-views/component-settings/overview.md)。
+  * **[!UICONTROL 包含/排除值]**：列出[包含/排除值](/help/data-views/component-settings/include-exclude-values.md)下指定的規則數目。
+  * **[!UICONTROL 資料使用標籤]**：結構描述欄位的[資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview)。
+  * **[!UICONTROL 已棄用]**：表示是否已設定已棄用的標幟。
+  * **[!UICONTROL 格式]**：值出現的格式。 布林值通常顯示為`True | False`，量度通常顯示為`Decimal`等。
+  * **[!UICONTROL 量度重複資料刪除]**：元件的[量度重複資料刪除](/help/data-views/component-settings/metric-deduplication.md)設定。
+  * **[!UICONTROL 行為]**：元件的[行為](/help/data-views/component-settings/behavior.md)設定。
+  * **[!UICONTROL 歸因]**：元件的[歸因](/help/data-views/component-settings/attribution.md)設定。
+  * **[!UICONTROL 沒有值選項]**：元件的[沒有值選項](/help/data-views/component-settings/no-value-options.md)。
+  * **[!UICONTROL 值分組]**：元件的[值分組](/help/data-views/component-settings/value-bucketing.md)設定。
+  * **[!UICONTROL 持續性]**：元件的[持續性](/help/data-views/component-settings/persistence.md)設定。
+  * **[!UICONTROL 小寫]**：表示元件是否已根據元件的[行為](/help/data-views/component-settings/behavior.md)設定啟用小寫。
+  * **[!UICONTROL 子字串]**：元件的[子字串](/help/data-views/component-settings/substring.md)設定。
+  * **[!UICONTROL 摘要資料群組]**：元件的[摘要資料群組](/help/data-views/component-settings/summary-data-group.md)設定。
+  * **[!UICONTROL 建立日期]**：建立或匯入元件的日期。
+  * **[!UICONTROL 上次修改時間]**：如果元件在建立後已修改，則為上次修改的日期。
 * **[!UICONTROL 工作歷史記錄]**：若您匯入或共用大量元件，系統會自動建立工作。 選取![歷程記錄圖示](/help/assets/icons/History.svg)圖示以開啟強制回應視窗，其中顯示從個別資料檢視匯入維度和量度的所有執行個體。 如果您的匯入或共用動作都不夠大，無法觸發工作，則不會出現此按鈕。
 
 ## 編輯元件或共用元件至資料檢視

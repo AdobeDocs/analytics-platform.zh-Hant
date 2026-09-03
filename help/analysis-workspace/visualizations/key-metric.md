@@ -6,19 +6,14 @@ exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
 autotag-review: '2026-05-19T08:31:00.048Z'
 TQID: 'https://experienceleague.adobe.com/y3VfcvJp8lCmBLHy4-zPEb6Y7dzjfcDPjSMlKGPNR-A'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: ddf59f64-0e46-4986-a525-056acc143c70
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 960
+source-wordcount: 969
 ht-degree: 91%
 
 ---
@@ -28,12 +23,12 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="workspace_keymetricsummary_button"
 >title="關鍵量度摘要"
->abstract="建立折線圖、摘要變更和摘要數字圖表組合的視覺效果。 使用此視覺效果來比較兩個時段之間重要量度的趨勢。"
+>abstract="建立由折線圖、摘要變更圖表和摘要數字圖表組成的視覺效果。 使用此視覺效果來比較兩個時段之間重要量度的趨勢。"
 
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄關鍵量度摘要視覺效果。_<br/>_若需閱讀本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[關鍵量度摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/key-metric)。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄關鍵量度摘要視覺效果。_<br/>_若需閱讀本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本，請參閱[關鍵量度摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/key-metric)。_
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +43,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 
 ## 使用案例
 
-此視覺效果處理各種常見的使用案例，包括：
+此視覺效果適用於各種常見的使用案例，包括：
 
 * 分析嘗試了解本月創造的商機跟去年同一時間範圍相比之下的表現。
 
@@ -136,7 +131,7 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 
 ## 設定
 
-作為視覺效果設定的一部分，特定的關鍵量度摘要設定可供使用。
+在視覺效果設定中，可使用特定的關鍵量度摘要設定。
 
 | 設定 | 說明 |
 | --- | --- |
@@ -148,9 +143,9 @@ When you change the panel's date range to '4 days ago', the comparison date rang
 | **[!UICONTROL 百分比]** | 以百分比而非數字來顯示視覺效果。 |
 | **[!UICONTROL 顯示趨勢線]** | 在視覺效果中顯示趨勢線。 |
 | **[!UICONTROL 在趨勢線上顯示最大值和最小值]** | 在主要和比較折線圖上顯示或隱藏最小值和最大值 |
-| **[!UICONTROL 顯示比較百分比和趨勢線]** | 顯示或隱藏比較資料。 隱藏時，比較折線圖和摘要變更物件將會從視圖中隱藏。 |
+| **[!UICONTROL 顯示比較百分比和趨勢線]** | 顯示或隱藏比較資料。 隱藏時，視圖中的比較折線圖和摘要變更物件都會被隱藏。 |
 | **[!UICONTROL 顯示總數]** | 顯示或隱藏摘要數字 |
-| **[!UICONTROL 顯示原始差異]** | 顯示主要日期範圍與次要日期範圍中量度總值之間的原始差異 |
+| **[!UICONTROL 顯示原始差異]** | 顯示或隱藏主要日期範圍與次要日期範圍中量度總值之間的原始差異 |
 | **[!UICONTROL 縮簡值]** | 請選取「**[!UICONTROL 縮簡值]**」以智慧的方式縮簡數值。 選取後，請輸入一個數字來定義縮簡的總數。 例如：<br/><table><tr><td>**原始值**</td><td>**縮簡**</td><td>**結果**</td></tr><tr><td>$12,011,141.25</td><td>未選取</td><td align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>已選取，設定為 1</td><td align="right">$12,000,000</td></tr><tr><td>$12,011,141.25</td><td>已選取，設定為 2</td><td align="right">$12,000,000</td></tr><tr><td>$12,011,141.25</td><td>已選取，設定為 2</td><td align="right">$12,011,000</td></tr><tr><td>$12,011,141.25</td><td>請選取，設定為 3</td><td align="right">$12,011,000</td></tr></table> |
 
 ## 編輯視覺效果

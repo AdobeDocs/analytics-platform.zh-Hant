@@ -6,26 +6,11 @@ feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
 TQID: https://experienceleague.adobe.com/BuizkumbeMPhg7dWvJrFta3CYfQnqivOlXd2RtX9gm4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df28738e-9c71-4aa8-929e-edde22340cc6
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df28738e-9c71-4aa8-929e-edde22340cc6id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
 source-wordcount: 3523
@@ -45,7 +30,7 @@ ht-degree: 84%
 
 - **使用標籤**，輕鬆針對網站上資料層的資料設定規則和資料元素。 然後，確定資料已傳送至 Adobe Experience Platform Edge Network 上設定的資料流。
 
-- **部署和驗證**。 擁有一個讓您可反覆進行標籤開發作業的環境，一旦所有內容均經過驗證，就可以在您的生產環境中實時發布。
+- **部署和驗證**。 擁有一個讓您可反覆進行標籤開發作業的環境，一旦所有內容均經過驗證，就可以在您的生產環境中實時發佈。
 
 - 在 Customer Journey Analytics 中&#x200B;**設定連線**。 此連線應 (至少) 包含您的 Adobe Experience Platform 資料集。
 
@@ -55,21 +40,22 @@ ht-degree: 84%
 
 >[!NOTE]
 >
-> 本快速入門手冊是一份簡化的指南，說明如何將從網站收集的資料擷取到Adobe Experience Platform中，以及在Customer Journey Analytics中使用。 強烈建議在提及時研究其他資訊。
+> 本快速入門手冊是一份簡化的指南，說明如何將從網站收集的資料擷取到Adobe Experience Platform中，以及在Customer Journey Analytics中使用。 強烈建議在提及其他資訊時加以參閱。
 
-## 設定結構和資料集
+## 設定結構描述和資料集
 
-若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集哪些資料。 所有擷取至 Adobe Experience Platform 的資料都必須符合標準的非正常結構，才能由下游能力和功能識別並處理。 體驗資料模型 (XDM) 是以結構形式提供此結構的標準框架。
+若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集哪些資料。 所有擷取至 Adobe Experience Platform 的資料都必須符合標準的非正規化結構，才能由下游能力和功能識別並處理。 體驗資料模型 (XDM) 是以結構描述的形式提供此結構的標準框架。
 
-定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。 資料集是資料集合（通常是表格）的儲存和管理結構，其中包含結構（欄）和欄位（列）。
+定義結構描述後，您可以使用一個或多個資料集來儲存及管理資料收集。 資料集是資料集合（通常是表格）的儲存和管理結構，其中包含結構（欄）和欄位（列）。
 
-擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
+擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構描述，才能以資料集形式持續保存。
 
 ### 設定結構
 
-您想要追蹤來自造訪您網站之輪廓的一些最少量資料，例如頁面名稱、身分識別。您必須先定義用來模型化此資料的結構描述。
+您想要追蹤來自造訪您網站之輪廓的一些最少量資料，例如頁面名稱、身分識別。
+您必須先定義用來模型化此資料的結構描述。
 
-若要設定您的結構：
+若要設定您的結構描述：
 
 1. 在 Adobe Experience Platform UI 的左側邊欄中，選取[!UICONTROL 「資料管理」]中的&#x200B;**[!UICONTROL 「結構」]**。
 
@@ -124,11 +110,11 @@ ht-degree: 84%
 
    >[!NOTE]
    >
-   >如果該欄位群組不適用，請尋找另一個包含身分識別欄位的欄位群組。 或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=zh-Hant)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=zh-Hant#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
+   >如果該欄位群組無法使用，請尋找另一個包含身分識別欄位的欄位群組。 或[建立一個新欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html)，並[新增身分識別欄位](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (如 `ecid`、`crmId` 以及您需要的其他欄位) 至該欄位群組並選取該欄位群組。
 
    ![識別物件](./assets/identification-field.png)
 
-   識別物件新增識別功能至您的結構描述。 在您的案例中，您想使用 Experience Cloud ID 和電子郵件地址識別瀏覽您網站的設定檔。 還有許多其他屬性可用於追蹤您個人的身分識別 (例如客戶 ID、忠誠度 ID)。
+   識別物件新增識別功能至您的結構描述。 在您的案例中，您想使用 Experience Cloud ID 和電子郵件地址識別瀏覽您網站的設定檔。 還有許多其他屬性可用於追蹤此人的身分識別資訊 (例如客戶 ID、忠誠度 ID)。
 
    選取&#x200B;**[!UICONTROL 「套用」]**&#x200B;將此物件加入您的結構描述。
 
@@ -154,7 +140,7 @@ ht-degree: 84%
 
    系統會提示您啟用輪廓的結構。 啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
@@ -164,15 +150,15 @@ ht-degree: 84%
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-您已建立最小結構，以建立可從您網站擷取的資料的模型。 該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。 透過啟用設定檔的結構，即可確保將從您網站擷取的資料新增至即時客戶設定檔。
+您已建立最小結構描述，為可從您網站擷取的資料建立模型。 該結構可讓您使用 Experience Cloud Identity 和電子郵件地址來識別設定檔。 透過啟用設定檔的結構，即可確保將從您網站擷取的資料新增至即時客戶設定檔。
 
-除了行為資料之外，您也可以從您的網站擷取設定檔屬性資料 (例如訂閱電子報的設定檔詳細資訊)。
+除了行為資料之外，您也可以從您的網站擷取輪廓屬性資料 (例如訂閱電子報的輪廓詳細資訊)。
 
 若要擷取此設定檔資料，您可以：
 
-- 根據 XDM 個體設定檔架構類別建立結構。
+- 根據 XDM 個體輪廓類別建立結構描述。
 
-- 將「設定檔核心 v2」欄位群組新增至結構。
+- 將「輪廓核心 v2」欄位群組新增至結構描述。
 
 - 根據「設定檔核心 v2」欄位群組新增識別物件。
 
@@ -180,11 +166,11 @@ ht-degree: 84%
 
 - 啟用該設定檔結構描述
 
-請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
+請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
 ### 設定資料集
 
-您已使用您的結構定義資料模型。 您現在必須定義建構以儲存和管理該資料，這會透過資料集完成。
+您已使用您的結構描述定義資料模型。 您現在必須定義建構以儲存和管理該資料，這會透過資料集完成。
 
 若要設定您的資料集：
 
@@ -208,7 +194,7 @@ ht-degree: 84%
 
 7. 選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
-   系統會提示您啟用設定檔的資料集。 資料集一經啟用，即可透過攝取的資料豐富即時客戶設定檔。
+   系統會提示您為輪廓啟用資料集。 資料集一經啟用，即可透過攝取的資料豐富即時客戶輪廓。
 
    >[!IMPORTANT]
    >
@@ -252,13 +238,13 @@ ht-degree: 84%
 
 您的資料流現在已設定為將從您網站收集的資料轉送至 Adobe Experience Platform 中的資料集。
 
-請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
+請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
 
 
 ## 使用標籤
 
-若要在您的網站上實作程式碼以實際收集資料，請使用Adobe Experience Platform中的標籤功能。 此標記管理解決方案可讓您部署程式碼以及其他標記需求。 標籤可使用 Adobe Experience Platform Web SDK 擴充功能與 Adobe Experience Platform 緊密整合。
+若要在您的網站上實作程式碼以實際收集資料，請使用Adobe Experience Platform中的標籤功能。 此標記管理解決方案可讓您部署程式碼，以配合其他標記需求。 標記可使用 Adobe Experience Platform Web SDK 擴充功能與 Adobe Experience Platform 緊密整合。
 
 ### 建立標籤
 
@@ -297,7 +283,7 @@ ht-degree: 84%
 
    選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-如需詳細資訊，請參閱[設定 Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[設定 Adobe Experience Platform Web SDK 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html)。
 
 Web SDK包含Experience Platform Identity服務，因此您不需要將[!UICONTROL Experience Cloud ID服務]標籤擴充功能新增至您的屬性。
 
@@ -331,7 +317,7 @@ Web SDK包含Experience Platform Identity服務，因此您不需要將[!UICONTR
 
    - 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-接下來，您現在想要將任何特定資料元素對應至您先前定義的結構描述。 您可以定義另一個資料元素，以呈現 XDM 結構。
+接下來，您現在想要將任何特定資料元素對應至您先前定義的結構描述。 您可以定義另一個資料元素，以呈現您的 XDM 結構描述。
 
 若要定義 XDM 物件資料元素：
 
@@ -376,13 +362,13 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。 它們會尋�
 
    - 在[!UICONTROL 「事件設定」]對話框：
 
-      - 從&#x200B;**[!UICONTROL 「擴充功能」]**&#x200B;清單中選取[!UICONTROL 「核心」]。
+     - 從&#x200B;**[!UICONTROL 「擴充功能」]**&#x200B;清單中選取[!UICONTROL 「核心」]。
 
-      - 從[!UICONTROL 「事件類型」]清單中選取&#x200B;**[!UICONTROL 「視窗已載入」]**。
+     - 從[!UICONTROL 「事件類型」]清單中選取&#x200B;**[!UICONTROL 「視窗已載入」]**。
 
-        ![規則 – 事件設定](./assets/event-windowloaded-pageview.png)
+       ![規則 – 事件設定](./assets/event-windowloaded-pageview.png)
 
-      - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
+     - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 
 
 
@@ -390,17 +376,17 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。 它們會尋�
 
    - 在[!UICONTROL 動作設定] 對話框：
 
-      - 從[!UICONTROL 「擴充功能」]清單中選取&#x200B;**[!UICONTROL 「Adobe Experience Platform Web SDK」]**。
+     - 從[!UICONTROL 「擴充功能」]清單中選取&#x200B;**[!UICONTROL 「Adobe Experience Platform Web SDK」]**。
 
-      - 從[!UICONTROL 「動作類型」]清單中選取&#x200B;**[!UICONTROL 「傳送事件」]**。
+     - 從[!UICONTROL 「動作類型」]清單中選取&#x200B;**[!UICONTROL 「傳送事件」]**。
 
-      - 從[!UICONTROL 「類型」]清單中選取&#x200B;**[!UICONTROL 「web.webpagedetails.pageViews」]**。
+     - 從[!UICONTROL 「類型」]清單中選取&#x200B;**[!UICONTROL 「web.webpagedetails.pageViews」]**。
 
-      - 選取[!UICONTROL 「XDM 資料」]旁的圓柱體圖示，然後從資料元素清單中選擇&#x200B;**[!UICONTROL 「XDM – 頁面檢視」]**。
+     - 選取[!UICONTROL 「XDM 資料」]旁的圓柱體圖示，然後從資料元素清單中選擇&#x200B;**[!UICONTROL 「XDM – 頁面檢視」]**。
 
      ![規則 – 動作設定](./assets/action-pageview-xdm.png)
 
-      - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
+     - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 
    - 您的規則應如下所示：
 
@@ -412,11 +398,11 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。 它們會尋�
 
 您可以在標籤中以各種方式使用規則來操控變數 (使用您的資料元素)。
 
-如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)。
 
 ### 建置並發佈您的標籤
 
-定義資料元素和規則後，您必須建置並發佈標籤。 建立程式庫組建時，必須將其指派至一個環境。 隨後組建的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。 每個環境都會提供唯一的嵌入程式碼，可讓您將指派的組建整合至您的網站。
+定義資料元素和規則後，您必須建置並發佈標籤。 建立程式庫建置時，必須將其指派至一個環境。 隨後建置的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。 每個環境都會提供唯一的嵌入程式碼，可讓您將指派的建置整合至您的網站。
 
 若要建置並發佈您的標籤：
 
@@ -469,7 +455,7 @@ Adobe Experience Platform 標籤支援簡單到複雜的發佈工作流程，以
 
 您可以根據您部署 Adobe Experience Platform Web SDK 的流程，選取其他環境 (中繼、生產)，而非開發環境的程式碼。
 
-如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant&)。
+如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?)。
 
 ## 部署和驗證。
 
@@ -511,11 +497,11 @@ Adobe Experience Platform 標籤支援簡單到複雜的發佈工作流程，以
 
    - 對於每個資料集：
 
-      - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取[!UICONTROL 人員 ID]。
+     - 在 Adobe Experience Platform 中，從資料集結構描述中所定義的可用身分識別中選取[!UICONTROL 人員 ID]。
 
-      - 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。 如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
+     - 從[!UICONTROL 「資料來源類型」]清單中選取正確的資料來源。 如果您指定&#x200B;**[!UICONTROL 「其他」]**，請為您的資料來源新增說明。
 
-      - 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
+     - 根據您的偏好設定，設定&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;和&#x200B;**[!UICONTROL 資料集回填現有資料]**。
 
      ![設定資料集](./assets/cja-connections-3b.png)
 
@@ -525,11 +511,11 @@ Adobe Experience Platform 標籤支援簡單到複雜的發佈工作流程，以
 
 如需如何建立和管理連線，以及如何選取和合併資料集的詳細資訊，請參閱[連線概觀](../connections/overview.md)。
 
-## 設定資料檢視
+## 設定資料釋圖
 
 資料檢視是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 它指定 Analysis Workspace 中可用的所有維度和量度，以及這些維度和量度從哪些欄取得資料。 資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
-若要建立資料檢視，請執行以下操作：
+若要建立資料釋圖，請執行以下操作：
 
 1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 
@@ -580,7 +566,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區 – 空白專案](./assets/cja-projects-2.png)
 
-4. 從清單中選取您的資料檢視。
+4. 從清單中選取您的資料釋圖。
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
@@ -592,4 +578,4 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
 >[!SUCCESS]
 >
->您已完成所有步驟。 首先定義您要收集哪些資料（結構描述），以及要將資料儲存在Adobe Experience Platform中的何處（資料集）。 接著，您在Edge Network上設定資料串流，確保可將資料轉送至該資料集。 接著，您定義並部署包含Adobe Experience Platform Web SDK擴充功能、資料元素和規則的標籤，從網站擷取資料，並將該資料傳送至資料流。 您已在 Customer Journey Analytics 中定義連線，以使用您的網站追蹤資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，最後，您建立了第一個可視覺化和分析資料的專案。
+>您已完成所有步驟。 首先定義您要收集哪些資料（結構描述），以及要將資料儲存在Adobe Experience Platform中的何處（資料集）。 接著，您在Edge Network上設定資料串流，確保可將資料轉送至該資料集。 接著，您定義並部署包含Adobe Experience Platform Web SDK擴充功能、資料元素和規則的標籤，從網站擷取資料，並將該資料傳送至資料流。 您已在 Customer Journey Analytics 中定義連線，以使用您的網站追蹤資料和其他資料。 您的資料釋圖定義可讓您指定要使用的維度和量度，最後，您建立了第一個可視覺化和分析資料的專案。

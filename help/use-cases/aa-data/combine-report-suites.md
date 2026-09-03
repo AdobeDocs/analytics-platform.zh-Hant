@@ -6,16 +6,11 @@ feature: Use Cases
 role: User
 autotag-review: '2026-05-19T09:35:22.411Z'
 TQID: 'https://experienceleague.adobe.com/La2B-Yvc3-OHQsgmr5EPILZQBcm6zKCAAcKPLZ3PbIQ'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1390
@@ -25,9 +20,9 @@ ht-degree: 55%
 
 # 結合報告套裝與不同的結構描述
 
-[Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將來自Adobe Analytics的報告套裝資料帶入Adobe Experience Platform，以供Adobe Experience Platform應用程式使用，例如Real-time Customer Data Platform和Customer Journey Analytics (Customer Journey Analytics)。 引入Adobe Experience Platform的每個報告套裝都會設定為個別來源連線資料流，而每個資料流都會當作Adobe Experience Platform資料湖中的資料集。 Analytics來源聯結器會為每個報告套裝各建立一個資料集。
+[Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)將來自Adobe Analytics的報告套裝資料帶入Adobe Experience Platform，以供Adobe Experience Platform應用程式使用，例如Real-time Customer Data Platform和Customer Journey Analytics (Customer Journey Analytics)。 引入Adobe Experience Platform的每個報告套裝都會設定為個別來源連線資料流，而每個資料流都會當作Adobe Experience Platform資料湖中的資料集。 Analytics來源聯結器會為每個報告套裝各建立一個資料集。
 
-Customer Journey Analytics客戶使用[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-hant)將資料集從Adobe Experience Platform資料湖整合到Customer Journey Analytics Analysis Workspace中。 不過，在連線中組合報告套裝時，需要使用Adobe Experience Platform [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=zh-Hant)功能解決報告套裝之間的結構描述差異。 目的是確保Adobe Analytics變數（例如prop和eVar）在Customer Journey Analytics中具有一致的意義。
+Customer Journey Analytics客戶使用[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-hant)將資料集從Adobe Experience Platform資料湖整合到Customer Journey Analytics Analysis Workspace中。 不過，在連線中組合報告套裝時，需要使用Adobe Experience Platform [資料準備](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html)功能解決報告套裝之間的結構描述差異。 目的是確保Adobe Analytics變數（例如prop和eVar）在Customer Journey Analytics中具有一致的意義。
 
 ## 報告套裝之間的結構描述差異有問題
 
@@ -71,7 +66,7 @@ Experience Platform資料準備功能已與Analytics來源聯結器整合，可�
    | **XDM ExperienceEvent** 類別 |
    | **「Adobe Analytics ExperienceEvent 範本」**&#x200B;欄位群組 |
 
-1. 將另一個欄位群組新增到結構描述或[建立自訂欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=zh-Hant#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail)並將其新增到結構描述。 我們將建立一個新的欄位群組，並將其稱為&#x200B;**「統一欄位」**。 然後我們將以下欄位新增到新的欄位群組中：
+1. 將另一個欄位群組新增到結構描述或[建立自訂欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail)並將其新增到結構描述。 我們將建立一個新的欄位群組，並將其稱為&#x200B;**「統一欄位」**。 然後我們將以下欄位新增到新的欄位群組中：
 
    | 「統一欄位」自訂欄位群組  |
    | --- |
@@ -81,14 +76,14 @@ Experience Platform資料準備功能已與Analytics來源聯結器整合，可�
 
 1. 為&#x200B;**報告套裝 A** 建立來源連線資料流，選取&#x200B;**「統一結構描述」**&#x200B;用於資料流中。 將自訂對應新增到資料流，如下所示：
 
-   | 報告套裝 A 來源欄位 | 「統一欄位」欄位群組中的目的地欄位 |
+   | 報告套裝 A 來源欄位 | 「統一欄位」欄位群組中的目標欄位 |
    | --- | --- |
    | \_experience.analytics.customDimensions.eVars.eVar1 | _\&lt;路徑>_.Search_term |
    | \_experience.analytics.customDimensions.eVars.eVar2 | _\&lt;路徑>_.Customer_category |
 
    >[!NOTE]
    >
-   >目的地欄位的 XDM 路徑將取決於您如何建構自訂欄位群組。
+   >目標欄位的 XDM 路徑將取決於您如何建構自訂欄位群組。
 
 1. 為&#x200B;**報告套裝 B** 建立來源連線資料流，再次選取&#x200B;**「統一結構描述」**&#x200B;以用於資料流中。 工作流程會顯示兩個欄位存在描述項名稱衝突。 這是因為報告套裝 B 中的 eVar1 和 eVar2 描述項與報告套裝 A 中的不同。但我們已經知道這一點，所以我們可以放心地忽略衝突，並使用自訂對應，如下所示：
 
@@ -146,13 +141,13 @@ Experience Platform資料準備功能已與Analytics來源聯結器整合，可�
 
 1. 為&#x200B;**資料集 A** 建立資料流，選取&#x200B;**「擴充型結構描述」**&#x200B;做為您的結構描述。 將自訂對應新增到資料流，如下所示：
 
-   | 資料集 A 來源欄位 | 「客戶資訊」欄位群組中的目的地欄位 |
+   | 資料集 A 來源欄位 | 「客戶資訊」欄位群組中的目標欄位 |
    | --- | --- |
    | \_experience.analytics.customDimensions.eVars.eVar2 | _\&lt;路徑>_.Customer_category |
 
 1. 為&#x200B;**資料集 B** 建立資料流，再次選取&#x200B;**「擴充型結構描述」**&#x200B;做為您的結構描述。 將自訂對應新增到資料流，如下所示：
 
-   | 資料集 B 來源欄位 | 「客戶資訊」欄位群組中的目的地欄位 |
+   | 資料集 B 來源欄位 | 「客戶資訊」欄位群組中的目標欄位 |
    | --- | --- |
    | _\&lt;路徑>_.Some_field | _\&lt;路徑>_.Customer_category |
 
@@ -170,6 +165,6 @@ Experience Platform資料準備功能已與Analytics來源聯結器整合，可�
 
 ## 「資料準備」與「元件 ID」的比較
 
-如上所述，「資料準備」可讓您將不同的欄位對應到多個 Adobe Analytics 報告套裝中。 如果您想要將多個資料集的資料合併至單一Customer Journey Analytics連線，這在Customer Journey Analytics中會很有幫助。 但是，如果您打算將報表套裝保留在單獨的Customer Journey Analytics連線中，但希望在這些連線和資料檢視中使用一組報表，則變更Customer Journey Analytics中的基礎「元件ID」提供了即使結構描述不同，也能讓報表相容的方法。 如需詳細資訊，請參閱[元件設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=zh-Hant)。
+如上所述，「資料準備」可讓您將不同的欄位對應到多個 Adobe Analytics 報告套裝中。 如果您想要將多個資料集的資料合併至單一Customer Journey Analytics連線，這在Customer Journey Analytics中會很有幫助。 但是，如果您打算將報表套裝保留在單獨的Customer Journey Analytics連線中，但希望在這些連線和資料檢視中使用一組報表，則變更Customer Journey Analytics中的基礎「元件ID」提供了即使結構描述不同，也能讓報表相容的方法。 如需詳細資訊，請參閱[元件設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html)。
 
 變更「元件ID」是僅限Customer Journey Analytics的功能，不會影響從Analytics來源聯結器傳送到「即時客戶個人檔案」和RTCDP的資料。

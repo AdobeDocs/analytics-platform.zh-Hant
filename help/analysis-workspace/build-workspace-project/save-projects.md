@@ -5,14 +5,10 @@ feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
 TQID: https://experienceleague.adobe.com/21Rc7-uX7Ie2qj5FHzjb89CTmvi79Ne-FR92okGF5uo
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 860
@@ -46,24 +42,24 @@ Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。 您也可以
 
   ![儲存專案](assets/save-project.png)
 
-   1. 指定以下：
+  1. 指定以下：
 
-      * **[!UICONTROL 名稱]** (必填)。 您的專案名稱。
-      * **[!UICONTROL 說明]**。 您的專案說明。
-      * **[!UICONTROL 標記]**。 在「[!UICONTROL *搜尋標記*]」欄位中搜尋標記，或使用 **[!UICONTROL ENTER]** 新增標記。
-      * **[!UICONTROL 資料夾]**。 從&#x200B;[!UICONTROL *選取資料夾*]&#x200B;下拉式功能表中選取資料夾。 如果您未指定資料夾，則專案會儲存在您建立新專案的目前資料夾中。
-      * **[!UICONTROL 版本說明]**。 在「*新增註釋*」文字區域中新增版本說明。
+     * **[!UICONTROL 名稱]** (必填)。 您的專案名稱。
+     * **[!UICONTROL 說明]**。 您的專案說明。
+     * **[!UICONTROL 標記]**。 在「[!UICONTROL *搜尋標記*]」欄位中搜尋標記，或使用 **[!UICONTROL ENTER]** 新增標記。
+     * **[!UICONTROL 資料夾]**。 從&#x200B;[!UICONTROL *選取資料夾*]&#x200B;下拉式功能表中選取資料夾。 如果您未指定資料夾，則專案會儲存在您建立新專案的目前資料夾中。
+     * **[!UICONTROL 版本說明]**。 在「*新增註釋*」文字區域中新增版本說明。
 
-   1. 選取「**[!UICONTROL 儲存]**」，即可儲存您的專案。
+  1. 選取「**[!UICONTROL 儲存]**」，即可儲存您的專案。
 
-  儲存您的專案事實上是儲存保留 90 天的專案版本。
+  儲存您的專案時，實際上會儲存一個保留 90 天的專案版本。
 
   如果您儲存已共用的專案，則會出現「**[!UICONTROL 將變更儲存至共用專案]**」警告對話框提示您確認。
 
   ![儲存共用的專案](assets/save-project-shared.png)
 
-   * 選取「**[!UICONTROL 儲存]**」以儲存專案。
-   * 選取「**[!UICONTROL 另存新檔]**」，將專案以新名稱儲存為專案副本。
+  * 選取「**[!UICONTROL 儲存]**」以儲存專案。
+  * 選取「**[!UICONTROL 另存新檔]**」，將專案以新名稱儲存為專案副本。
 
 
 * **[!UICONTROL 一併儲存註釋]**
@@ -72,8 +68,8 @@ Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。 您也可以
 
   當您儲存專案時，請新增關於專案變動的註釋。 在「儲存版本說明」對話框中：
 
-   1. 在「**[!UICONTROL 新增註釋]**」文字區域中，輸入您的「**[!UICONTROL 版本說明]**」。
-   1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+  1. 在「**[!UICONTROL 新增註釋]**」文字區域中，輸入您的「**[!UICONTROL 版本說明]**」。
+  1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
   註釋會和專案版本一起儲存，且會在[開啟專案先前版本](open-projects.md#open-previous-version)時供使用。 連同註釋儲存的版本會自動保存一年。
 
@@ -83,22 +79,22 @@ Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。 您也可以
 
   使用新名稱建立專案副本。 「另存新檔」對話框會顯示。
 
-   1. 指定以下：
+  1. 指定以下：
 
-      * **[!UICONTROL 名稱]** (必填)。 您的專案名稱。
-      * **[!UICONTROL 說明]**。 您的專案說明。
-      * **[!UICONTROL 標記]**。 在「[!UICONTROL *搜尋標記*]」欄位中搜尋標記，或使用 **[!UICONTROL ENTER]** 新增標記。
-      * **[!UICONTROL 資料夾]**。 從&#x200B;[!UICONTROL *選取資料夾*]&#x200B;下拉式功能表中選取資料夾。 如果您未指定資料夾，則專案會儲存在您建立新專案的目前資料夾中。
-      * **[!UICONTROL 版本說明]**。 在「*新增註釋*」文字區域中新增版本說明。
+     * **[!UICONTROL 名稱]** (必填)。 您的專案名稱。
+     * **[!UICONTROL 說明]**。 您的專案說明。
+     * **[!UICONTROL 標記]**。 在「[!UICONTROL *搜尋標記*]」欄位中搜尋標記，或使用 **[!UICONTROL ENTER]** 新增標記。
+     * **[!UICONTROL 資料夾]**。 從&#x200B;[!UICONTROL *選取資料夾*]&#x200B;下拉式功能表中選取資料夾。 如果您未指定資料夾，則專案會儲存在您建立新專案的目前資料夾中。
+     * **[!UICONTROL 版本說明]**。 在「*新增註釋*」文字區域中新增版本說明。
 
-   1. 選取「**[!UICONTROL 儲存]**」，即可儲存您的專案。
+  1. 選取「**[!UICONTROL 儲存]**」，即可儲存您的專案。
 
   您可以將專案儲存到不同的資料夾。 原始專案不受影響。
 
 
 <!-- 
 Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant) that becomes available to your organization under **[!UICONTROL Project > New]** |
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
 ## 自動儲存

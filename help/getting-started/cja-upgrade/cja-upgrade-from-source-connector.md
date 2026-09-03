@@ -1,26 +1,17 @@
 ---
 title: 從 Analytics 來源連接器轉換至適用於 Customer Journey Analytics 的 Web SDK
-description: 了解升級到 Customer Journey Analytics 時如何從 Analytics 來源連接器轉變換為 Web SDK
+description: 了解升級到 Customer Journey Analytics 時，如何從 Analytics 來源連接器轉換至 Web SDK
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
 autotag-review: '2026-05-19T08:14:22.976Z'
 TQID: 'https://experienceleague.adobe.com/af02lBhLgsKQOkm2yVW4jHvFYVbqOCDi6-puKoKytMo'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 539
@@ -60,7 +51,7 @@ ht-degree: 100%
 
 ## 從 Analytics 來源連接器轉變為 Web SDK
 
-以下高層級流程是從僅使用 Analytics 來源連接器轉變為由 Analytics 來源連接器和 Web SDK 實施合併組成的實施：
+以下是從專門使用 Analytics 來源連接器，轉換為同時包含 Analytics 來源連接器和 Web SDK 實施的高層級流程：
 
 1. 建立 Web SDK 實施，如文章從 [Adob&#x200B;&#x200B;e Analytics 升級到 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md) 中的[詳細建議的升級步驟](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps)所述。
 
@@ -68,7 +59,7 @@ ht-degree: 100%
 
 1. [建立 Analytics 來源連接器的 XDM 結構描述](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)。
 
-1. 將 Analytics 來源連接器中的每個 Adob&#x200B;&#x200B;e Analytics 維度對應到 Web SDK 結構描述中的維度。
+1. 將 Analytics 來源連接器中的每個 Adobe Analytics 維度對應到 Web SDK 結構描述中的維度。
 
    1. 在「**[!UICONTROL 對應標準欄位]**」部分中，選取「**[!UICONTROL 自訂]**」索引標籤。
 
@@ -78,7 +69,7 @@ ht-degree: 100%
 
    1. 在「**[!UICONTROL 來源欄位]**」中，從 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 範本欄位組中選取一個 Adob&#x200B;&#x200B;e Analytics 欄位。 然後，在&#x200B;**[!UICONTROL 目標欄位]**&#x200B;中，選取要對應的 XDM 欄位。
 
-   1. 對於用來 Adob&#x200B;&#x200B;e Analytics 中收集資料的 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 範本欄位群組中，每個欄位都需要重複進行此程序。
+   1. 對於 Adobe Analytics ExperienceEvent 範本欄位群組中您用來在 Adobe Analytics 收集資料的每個欄位，請重複此程序。
 
 1. 將使用原始 Analytics 來源連接器自動建立的資料集新增至 Customer Journey Analytics 連線。
 

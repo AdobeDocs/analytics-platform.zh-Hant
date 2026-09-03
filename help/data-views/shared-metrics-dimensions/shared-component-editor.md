@@ -3,18 +3,10 @@ title: 共用元件編輯器
 description: 建立或編輯共用的維度和量度。
 exl-id: 3f6a808a-d6ac-4a47-a5e2-63b9f17952e8
 TQID: https://experienceleague.adobe.com/vHmMlOpgjLAVzEg9t-MORtrHKsbqBABVcDFkuMlo5FM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 394
@@ -40,9 +32,9 @@ ht-degree: 0%
 介麵包含三個主要欄/區段：
 
 * **結構描述欄位選擇器**：找到所需的結構描述欄位，並將其拖曳至包含的元件區域。
-   * **連線**：使用中的連線。 變更[共用量度和維度管理員](smd-overview.md)中的作用中連線。
-   * **元件清單**：您可以選擇從下拉式功能表中選取[!UICONTROL 結構描述欄位] （全新共用維度和量度）或[!UICONTROL 量度和維度] （現有的共用元件）。
-   * **搜尋**：使用![搜尋圖示](/help/assets/icons/Search.svg)文字搜尋，依名稱尋找所需的結構描述欄位或共用元件。 您也可以使用![篩選圖示](/help/assets/icons/Filter.svg)篩選來縮小元件清單的範圍。 `Is not deprecated`篩選器預設為使用中。
-   * **建立衍生欄位**：允許您[建立衍生欄位](/help/data-views/derived-fields/derived-fields.md)。
+  * **連線**：使用中的連線。 變更[共用量度和維度管理員](smd-overview.md)中的作用中連線。
+  * **元件清單**：您可以選擇從下拉式功能表中選取[!UICONTROL 結構描述欄位] （全新共用維度和量度）或[!UICONTROL 量度和維度] （現有的共用元件）。
+  * **搜尋**：使用![搜尋圖示](/help/assets/icons/Search.svg)文字搜尋，依名稱尋找所需的結構描述欄位或共用元件。 您也可以使用![篩選圖示](/help/assets/icons/Filter.svg)篩選來縮小元件清單的範圍。 `Is not deprecated`篩選器預設為使用中。
+  * **建立衍生欄位**：允許您[建立衍生欄位](/help/data-views/derived-fields/derived-fields.md)。
 * **包含的元件**：您設定為共用的元件。 建立共用元件時，您可以將多個結構欄位拖曳至此區域，以同時建立多個元件。 編輯共用元件時，您可以選取多個要編輯的元件，這會列出此區域中所有選取的元件。
 * **元件設定**：在包含的元件區域中選取元件時，可以在此欄中設定所有可用的設定。 檢視[元件設定](/help/data-views/component-settings/overview.md)，瞭解維度和量度的所有可用選項。 按住Shift鍵並按一下所包含元件區域中的多個元素，即可同時編輯任何通用欄位。

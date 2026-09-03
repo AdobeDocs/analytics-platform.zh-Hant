@@ -7,17 +7,11 @@ feature: Data Views
 role: Admin
 autotag-review: '2026-05-19T09:10:00.872Z'
 TQID: 'https://experienceleague.adobe.com/LHEk3h9utGW73kSo2-SgY5NgKi11uktKR0ucPxw9IcY'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 209
@@ -32,25 +26,25 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_value_bucketing"
 >title="值分組"
->abstract="將值放入特定範圍內。 這些範圍在報告中顯示為維度項目。"
+>abstract="將值分桶到特定範圍中。 這些範圍在報告中顯示為維度項目。"
 
 <!-- markdownlint-enable MD034 -->
 
 
-建立或編輯資料檢視時，值分組允許您根據範圍組合數值。 它僅適用於使用 Integer 或 Double 結構描述資料類型的維度。
+建立或編輯資料釋圖時，值分組允許您根據範圍組合數值。 它僅適用於使用 Integer 或 Double 結構描述資料類型的維度。
 
 ![值分組](../assets/value-bucketing.png)
 
-當您想要將範圍組合在一起而不是將每個唯一數字視為單獨的維度項目時，值分組很有價值。 例如，「5 到 10 之間」的值區會在 Analysis Workspace 中顯示為「5 到 10」的條列項目。
+當您想要將範圍組合在一起而不是將每個唯一數字視為單獨的維度項目時，值分組很有價值。 例如，「5 到 10 之間」的桶會在 Analysis Workspace 中顯示為「5 到 10」的條列項目。
 
 如果您希望靈活地報告分組維度和非分組維度，請將元件的兩個副本拖到可用維度清單中。 在一個維度上啟用分組，在另一個維度上停用它。
 
 | 設定 | 說明 |
 | --- | --- |
 | [!UICONTROL 值區值] | 一個允許您啟用分組的核取方塊。 |
-| [!UICONTROL 少於] | 第一個維度值區的範圍上限。 |
+| [!UICONTROL 少於] | 第一個維度桶的範圍上限。 |
 | [!UICONTROL 包含] [!UICONTROL 和小於] | 後續值區的邊界。 |
-| [!UICONTROL 大於或等於] | 最後一個維度值區的範圍下限。 |
-| [!UICONTROL 新增值區] | 可讓您新增另一個值區至數值維度分組。 您最多可以在一個維度中新增 20 個值區。 |
+| [!UICONTROL 大於或等於] | 最後一個維度桶的範圍下限。 |
+| [!UICONTROL 新增值區] | 可讓您新增另一個桶至數值維度分組。 您最多可以在一個維度中新增 20 個值區。 |
 
 {style="table-layout:auto"}

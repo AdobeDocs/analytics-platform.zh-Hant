@@ -5,19 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
 TQID: https://experienceleague.adobe.com/kXRxlgfo9-F6KyXQ590--TZOZcVqvHkZZGS6alcAC0E
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 478
@@ -32,16 +23,16 @@ Customer Journey Analytics 中的警報可讓您根據變更的百分比或特�
 根據您的 Customer Journey Analytics 套件，您還可以使用根據異常臨界值觸發的警報。 這些警示（也稱為&#x200B;*智慧型警示*）提供與[異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)整合的精細控制項，在您最需要時觸發。
 
 * 預覽警報觸發的頻率。
-* 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結。
+* 透過電子郵件或簡訊傳送警報，當中附有自動產生的 Analysis Workspace 專案連結。
 * 建立可在單一警報中擷取多個量度的&#x200B;*棧疊*&#x200B;警報。
 * 建立警示依據：
-   * 量度中的異常已存在、高於或低於預期臨界值。
+  * 量度中的異常已存在、高於或低於預期臨界值。
 
-     [異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)會使用歷史資料建置預期值加上上限與下限。 如果實際量度值高於定義為臨界值的上限或下限，則該事件在臨界值信賴等級中被視為異常，且不會觸發警報。 較高的臨界值（例如：99%或99.9%）表示頻寬較寬，導致由更極端的異常所造成的警報較少。 較低的臨界值（例如：90%）表示頻帶較窄，這會產生由不太極端的異常所導致的更多警示。
-   * 依特定百分比區分的量度變更。
-   * 高於、低於或等於特定值的量度。 （僅適用於擁有Select、Prime或Ultimate套件的Adobe Analytics客戶）
+    [異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)會使用歷史資料建置預期值加上上限與下限。 如果實際量度值高於定義為臨界值的上限或下限，則該事件在臨界值信賴等級中被視為異常，且不會觸發警報。 較高的臨界值（例如：99%或99.9%）表示頻寬較寬，導致由更極端的異常所造成的警報較少。 較低的臨界值（例如：90%）表示頻帶較窄，這會產生由不太極端的異常所導致的更多警示。
+  * 依特定百分比區分的量度變更。
+  * 高於、低於或等於特定值的量度。 （僅適用於擁有Select、Prime或Ultimate套件的Adobe Analytics客戶）
 
-此[教學影片](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/data-science/intelligent-alerts)提供警示的基本概觀。
+此[教學影片](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts)提供警示的基本概觀。
 
 
 

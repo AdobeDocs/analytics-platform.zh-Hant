@@ -5,16 +5,10 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 TQID: https://experienceleague.adobe.com/UqQ3US8EQKJxdsuZI8QMoFVFJpLvpJ4Th8vFafPDxIw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 3641
@@ -45,7 +39,7 @@ ht-degree: 48%
 
 例如，如果您有「收入」量度，隨後新增「頁面檢視」量度至報表，您的收入會突然出現許多全都是零的列。 您可能不希望該附加量度影響任何 **[平均值](cm-functions.md#mean)**、**[列最小值](cm-functions.md#row-min)**、**[四分位數](cm-functions.md#quartile)**，以及收入欄中的更多計算。 在這種情況下，您可以勾選 `include-zeros` 參數。
 
-另一種情況是，您有兩個感興趣的量度，其中一個具有較高的平均值或最小值，因為某些列是零。  在這種情況下，您可以選擇不檢查參數是否包括零
+另一種情況是，您有兩個感興趣的量度，其中一個具有較高的平均值或最小值，因為某些列是零。  在這種情況下，您可以選擇不要勾選包含零值的參數
 
 
 
@@ -104,7 +98,7 @@ ht-degree: 48%
 
 >[!TIP]
 >
->使用[IF](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最大值***(Revenue*)， 1， 0))來反白劃分中表現最好的專案。
+>使用[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最大值***(Revenue*)， 1， 0))來反白劃分中表現最好的專案。
 >
 
 ## 欄最小值 {#column-minimum}
@@ -134,7 +128,7 @@ ht-degree: 48%
 
 >[!TIP]
 >
->使用[IF](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最小值***(Revenue*)， 1， 0))來反白劃分中表現最低的專案。
+>使用[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最小值***(Revenue*)， 1， 0))來反白劃分中表現最低的專案。
 >
 
 
@@ -175,7 +169,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="functions-count"
 >title="計數"
->abstract="傳回一欄中量度的數目、計數或非零數值 (在一個維度中報告的唯一元素數目)。"
+>abstract="傳回一欄中量度的非零值數目或計數 (在一個維度中報告的唯一元素數目)。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -204,7 +198,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="functions-exp"
 >title="指數"
->abstract="傳回 e 的指定數字的次方。 常數 e 是自然對數的底數，等於 2.71828182845904。 EXPONENT 是 LN (一個數字的自然對數) 的反函數。"
+>abstract="傳回 e 的指定次方值。 常數 e 是自然對數的底數，等於 2.71828182845904。 EXPONENT 是 LN (一個數字的自然對數) 的反函數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -274,7 +268,7 @@ ht-degree: 48%
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 您要計算其中間值的量度。 |
+| 量度 | 您要計算其中位數的量度。 |
 | 包括零 | 計算中是否包括零值。 |
 
 **使用案例**：識別一組資料中的中間值，例如每日收入中位數或每次造訪頁面檢視中位數。 如果您想要減少離群值的影響並檢視資料的核心趨勢，這項功能會很好用。
@@ -381,8 +375,8 @@ MODULO(MODULO(x,y)+y,y)
 
 | 引數 | 說明 |
 |---|---|
-| metric_X | 您想要以 metric_Y 作為次方連乘的量度。 |
-| metric_Y | 您想要將 metric_X 作為底數要連乘的次方。 |
+| metric_X | 您想要提升為 metric_Y 次方的量度。 |
+| metric_Y | 您想要將 metric_X 提升到的次方。 |
 
 **使用案例**：將一個數字或量度提升為另一個數字或量度的冪，例如平方值或套用指數權重。 在建模成長、縮放值或執行進階數學轉換時，這很有幫助。
 
@@ -666,7 +660,7 @@ ROUND( 314.15, -2) = 300
 其中 *x* 是樣本平均值 [MEAN(*量度*)](#mean)，而 *n* 是樣本大小。
 
 
-為了計算變數，請查看整欄的數字。 請先從那列數字計算平均值。 取得平均值後，請陸續處理每個項目，然後進行下列步驟:
+為了計算變數，請查看整欄的數字。 先從該數字清單計算平均值。 取得平均值後，請陸續處理每個項目，然後進行下列步驟:
 
 1. 將數字減去平均值。
 

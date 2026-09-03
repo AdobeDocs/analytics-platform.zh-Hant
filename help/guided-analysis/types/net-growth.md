@@ -6,19 +6,11 @@ keywords: 產品分析
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
 TQID: https://experienceleague.adobe.com/2E5Q2eE6dhvViTJ64eQ41I4S9ZsQO-WohKBY07CGJpg
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
 source-wordcount: 730
@@ -39,7 +31,7 @@ ht-degree: 94%
 
 ![NetGrowth](/help/assets/icons/NetGrowth.svg)**[!UICONTROL 淨成長率]**&#x200B;分析可以讓您深入洞察特定時期內獲得或失去使用者的速率。 橫軸是時間間隔，縱軸是成長測量值。
 
-每個資料點代表淨增長，這是使用以下公式計算：
+每個資料點代表淨增長，其計算方式如下：
 
 `([New users] + [Return users]) / [Dormant users]`
 
@@ -53,17 +45,17 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->重複使用者不會計入此計算，因為這些數字不代表使用者增加或減少。
+>重複使用者不會計入此計算，因為他們不代表使用者的任何增加或減少。
 
->[!VIDEO](https://video.tv.adobe.com/v/3423459/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421664/?quality=12&learn=on)
 
 ## 使用案例
 
 該分析的使用案例包括：
 
 * **績效評估**：允許您評估產品在贏取新使用者方面的整體表現。 透過追蹤成長趨勢，您可以更了解您的產品是否以期望的速度吸引和留住使用者。
-* **使用者贏取分析**：允許您評估使用者贏取策略的有效性。 分析使用者成長來源 (例如搜尋引擎、廣告活動或其他行銷管道) 可讓您確定最重要的成長來源，以便您根據分析來分配資源。
-* **流失分析**：淨成長公式中包含了流失使用者 (休眠使用者)。 您可以長期評估使用者的整體健康狀況。 如果淨成長率持續低於 `1`，這顯示員工流動率很高，這可能促使實施留任策略。
+* **使用者贏取分析**：允許您評估使用者贏取策略的有效性。 分析使用者成長來源 (例如搜尋引擎、廣告活動或其他行銷管道) 可讓您確定最重要的成長來源，以便您據此分配資源。
+* **流失分析**：淨成長公式中包含了流失使用者 (休眠使用者)。 您可以隨時間評估使用者群體的整體健康狀況。 如果淨成長率持續低於 `1`，這顯示員工流動率很高，這可能促使實施留任策略。
 
 ## 介面
 

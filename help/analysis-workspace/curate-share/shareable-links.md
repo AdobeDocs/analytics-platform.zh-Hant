@@ -6,16 +6,11 @@ exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
 TQID: https://experienceleague.adobe.com/JAaRhcC3q49W00TRNo5yQ3HQU9dHrSJ7j5Uhll0fT3U
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: c38ed341-fab2-46df-9d72-88d8166edebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 357
@@ -41,7 +36,7 @@ Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專�
 
 ## 取得面板或視覺效果連結 {#panel-link}
 
-您也可以分享專案特定部分的連結，例如面板或個別視覺效果， 有時也稱為內部連結。 此功能有助於讓使用者專注於專案中重要的洞察。
+您也可以分享專案特定部分的連結，例如面板或個別視覺效果。 有時也稱為內部連結。 此功能有助於讓使用者專注於專案中重要的洞察。
 
 * 從面板標題的內容功能表中，選取&#x200B;**[!UICONTROL 取得面板連結]**
 * 從視覺效果標題的內容功能表中，選取&#x200B;**[!UICONTROL 取得視覺效果連結]**

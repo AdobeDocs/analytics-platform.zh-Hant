@@ -7,17 +7,11 @@ exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
 autotag-review: '2026-05-19T08:57:43.886Z'
 TQID: 'https://experienceleague.adobe.com/79GGBxPwVb2uQytFBwgAP2QTd57VbjXuwQqq4oKGGUY'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 535
@@ -32,22 +26,22 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="dataview_settings_datapreview"
 >title="資料預覽"
->abstract="將此資料檢視的資料與連線的資料進行比較。 此預覽百分比是根據連線中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
+>abstract="將此資料釋圖的資料與連線的資料進行比較。 此預覽百分比是根據連線中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
 
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-enable MD034 -->
 
 
-在 Customer Journey Analytics 中，您可以用任何方式定義工作階段，來配合人員與您所有數位體驗的互動方式。 您可以在資料視圖中配置工作階段設定。
+在 Customer Journey Analytics 中，您可以用任何方式定義工作階段，來配合人員與您所有數位體驗的互動方式。 您可以在資料釋圖中配置工作階段設定。
 
-工作階段定義是非破壞性的，不會改變底層資料。 您可以將多個資料檢視設定為 Workspace 專案的基礎 (每個資料檢視都有其各自具體的工作階段定義)。
+工作階段設定定義是非破壞性的，不會改變底層資料。 您可以將多個資料檢視設定為 Workspace 專案的基礎 (每個資料檢視都有其各自具體的工作階段定義)。
 
-若要在資料視圖中定義工作階段的內容：
+若要在資料釋圖中定義工作階段的內容：
 
 1. 在 Customer Journey Analytics 使用者介面的主要導覽中，選取「**[!UICONTROL 資料視圖]**」，也可自「**[!UICONTROL 資料管理]**」選取。
 
-1. 建立新的或編輯現有的資料檢視。 如需更多資訊，請參閱[建立或編輯資料視圖](create-dataview.md)。
+1. 建立新的或編輯現有的資料釋圖。 如需更多資訊，請參閱[建立或編輯資料視圖](create-dataview.md)。
 
 1. 選取「**[!UICONTROL 設定]**」索引標籤。 在「[!UICONTROL 工作階段設定]」下：
 
@@ -61,7 +55,7 @@ ht-degree: 65%
 
       只會列出共用、您有存取權以及可根據您為資料檢視定義的元件進行評估的區段。
 
-   1. 從&#x200B;**[!UICONTROL 使用量度]**&#x200B;下拉式功能表開始新工作階段。 或者，您也可以從![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**&#x200B;將量度拖放至&#x200B;**[!UICONTROL _將量度拖放至此處_]**&#x200B;的左窗格。 所選量度定義新工作階段開始。 您可以定義多個量度。
+   1. 從&#x200B;**[!UICONTROL 使用量度]**&#x200B;下拉式功能表開始新工作階段。 或者，您也可以從![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**&#x200B;將量度拖放至&#x200B;**[!UICONTROL _將量度拖放至此處_]**&#x200B;的左窗格。 所選量度定義新工作階段的開始。 您可以定義多個量度。
 
       您可以使用任何類型的量度來定義新工作階段。 例如，假設您希望輪廓每次啟動您的行動應用程式時定義一個新的工作階段。 在&#x200B;**[!UICONTROL 資料檢視]** > **[!UICONTROL 元件]**&#x200B;中，您根據&#x200B;**[!UICONTROL appInteraction]** **[!UICONTROL Name]**&#x200B;結構描述欄位，定義名為&#x200B;**[!UICONTROL Launch]**&#x200B;之型別量度的元件。 您進一步指定&#x200B;**[!UICONTROL Launch]**&#x200B;量度元件，只有在值符合`launch`時才計算值。
 

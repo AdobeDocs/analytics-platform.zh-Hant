@@ -6,14 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 TQID: https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: caf1e4497d5dbe370ce23481ee1fbf1b6db59bf6
 workflow-type: tm+mt
 source-wordcount: 1788
@@ -38,58 +34,58 @@ ht-degree: 20%
 * 如果您要針對永久ID或人員ID使用[體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)欄位，請確保在事件資料集的結構描述中正確標示身分。 [請參閱身分名稱空間概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。
 * 驗證永久ID和人員ID的身分涵蓋範圍：
 
-   * **[!UICONTROL 永久ID]**
+  * **[!UICONTROL 永久ID]**
 
-     查詢7天的資料，其中您的永久ID欄位不是Null，再除以資料集內所有事件的7天資料查詢。 此百分比應高於95%。
+    查詢7天的資料，其中您的永久ID欄位不是Null，再除以資料集內所有事件的7天資料查詢。 此百分比應高於95%。
 
-     可用於驗證的查詢範例：
+    可用於驗證的查詢範例：
 
-     ```sql
-     SELECT
-       COUNT(*) AS total_events,
-       COUNT({PERSISTENT_ID_FIELD}) AS events_with_persistentid,
-       ROUND(COUNT({PERSISTENT_ID_FIELD}) / COUNT(*), 2) AS percent_with_persistentid_not_null
-     FROM 
-       {DATASET_TABLE_NAME}
-     WHERE
-       TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
-       AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
-     ```
+    ```sql
+    SELECT
+      COUNT(*) AS total_events,
+      COUNT({PERSISTENT_ID_FIELD}) AS events_with_persistentid,
+      ROUND(COUNT({PERSISTENT_ID_FIELD}) / COUNT(*), 2) AS percent_with_persistentid_not_null
+    FROM 
+      {DATASET_TABLE_NAME}
+    WHERE
+      TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
+      AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
+    ```
 
-     其中:
+    其中:
 
-      * `{PERSISTENT_ID_FIELD}`是永久識別碼的欄位。 例如：`identityMap.ecid[0]`。
+    * `{PERSISTENT_ID_FIELD}`是永久識別碼的欄位。 例如：`identityMap.ecid[0]`。
+    * `{DATASET_TABLE_NAME}`是事件資料集的資料表名稱。
+    * `{FORMAT_STRING}`是時間戳記欄位的格式字串。 例如：`MM/DD/YY HH12:MI AM`。
+    * `{START_DATE}`是開始日期。 例如：`2024-01-01 00:00:00`。
+    * `{END_DATE}`是標準格式的結束日期。 例如：`2024-01-08 00:00:00`。
+
+
+  * **[!UICONTROL 個人 ID]**
+    * 對於圖表式拚接，請確保身分圖表包含從您選擇的永久ID名稱空間和人員ID名稱空間中連結ID值的片段。 您可以前往[Experience Platform身分識別圖形檢視器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}執行測試，並透過某些範例永久ID值查詢圖形。 驗證這些永久ID值是否連結至圖表中的人員ID值。
+    * 對於以欄位為基礎的彙整，請查詢7天資料中的人員ID欄位不是Null，然後除以資料集中所有事件的7天資料查詢。 理想情況下，此百分比應高於5%。
+
+      可用於驗證的查詢範例：
+
+      ```sql
+      SELECT
+        COUNT(*) AS total_events,
+        COUNT({PERSON_ID_FIELD}) AS events_with_personid,
+        ROUND(COUNT({PERSON_ID_FIELD}) / COUNT(*), 2) AS percent_with_personid_not_null
+      FROM 
+        {DATASET_TABLE_NAME}
+      WHERE
+        TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
+        AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
+      ```
+
+      其中:
+
+      * `{PERSON_ID_FIELD}`是人員ID的欄位。 例如：`identityMap.crmId[0]`。
       * `{DATASET_TABLE_NAME}`是事件資料集的資料表名稱。
       * `{FORMAT_STRING}`是時間戳記欄位的格式字串。 例如：`MM/DD/YY HH12:MI AM`。
       * `{START_DATE}`是開始日期。 例如：`2024-01-01 00:00:00`。
       * `{END_DATE}`是標準格式的結束日期。 例如：`2024-01-08 00:00:00`。
-
-
-   * **[!UICONTROL 個人 ID]**
-      * 對於圖表式拚接，請確保身分圖表包含從您選擇的永久ID名稱空間和人員ID名稱空間中連結ID值的片段。 您可以前往[Experience Platform身分識別圖形檢視器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}執行測試，並透過某些範例永久ID值查詢圖形。 驗證這些永久ID值是否連結至圖表中的人員ID值。
-      * 對於以欄位為基礎的彙整，請查詢7天資料中的人員ID欄位不是Null，然後除以資料集中所有事件的7天資料查詢。 理想情況下，此百分比應高於5%。
-
-        可用於驗證的查詢範例：
-
-        ```sql
-        SELECT
-          COUNT(*) AS total_events,
-          COUNT({PERSON_ID_FIELD}) AS events_with_personid,
-          ROUND(COUNT({PERSON_ID_FIELD}) / COUNT(*), 2) AS percent_with_personid_not_null
-        FROM 
-          {DATASET_TABLE_NAME}
-        WHERE
-          TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
-          AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
-        ```
-
-        其中:
-
-         * `{PERSON_ID_FIELD}`是人員ID的欄位。 例如：`identityMap.crmId[0]`。
-         * `{DATASET_TABLE_NAME}`是事件資料集的資料表名稱。
-         * `{FORMAT_STRING}`是時間戳記欄位的格式字串。 例如：`MM/DD/YY HH12:MI AM`。
-         * `{START_DATE}`是開始日期。 例如：`2024-01-01 00:00:00`。
-         * `{END_DATE}`是標準格式的結束日期。 例如：`2024-01-08 00:00:00`。
 
 
 
@@ -194,8 +190,8 @@ ht-degree: 20%
 **[!UICONTROL 拼接量度]**&#x200B;是使用具有過去7天事件時間戳記的範例資料集計算。 這個範例資料集通常與&#x200B;**[!UICONTROL 預覽]**&#x200B;資料表中使用的範例資料不同。 拼接量度提供下列專案的詳細資訊：
 
 * **[!UICONTROL 人員ID涵蓋範圍]**：在拼接程式（即時和重播）期間用於識別的所選人員ID涵蓋範圍。
-   * 為了獲得最佳欄位式拚接結果，每個永久ID （裝置資訊）應在至少一個事件上傳送個人ID （使用者資訊）。
-   * 為了獲得最佳的圖表式拚接結果，每個永久ID的身分圖表應會顯示（永久ID、人員ID）關係。
+  * 為了獲得最佳欄位式拚接結果，每個永久ID （裝置資訊）應在至少一個事件上傳送個人ID （使用者資訊）。
+  * 為了獲得最佳的圖表式拚接結果，每個永久ID的身分圖表應會顯示（永久ID、人員ID）關係。
 
   人員ID涵蓋範圍會以百分比顯示，並和穩定開發或生產設定上建議的專案進行比較。 此涵蓋範圍值越高，使用選取的人員ID所獲得的拼接結果就越好。
 

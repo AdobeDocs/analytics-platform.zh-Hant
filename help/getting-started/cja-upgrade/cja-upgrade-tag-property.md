@@ -7,18 +7,11 @@ feature: Basics
 exl-id: 156df830-541d-4c92-9c49-98f346e040a7
 autotag-review: '2026-05-19T08:19:46.548Z'
 TQID: 'https://experienceleague.adobe.com/qNMm2rjpRS-uONat66tYwiTMqems4JevHxLWmHqy8og'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
 source-wordcount: 316
@@ -33,7 +26,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-tag-property"
 >title="在 Adobe Experience Platform 資料收集中建立標記屬性。"
->abstract="使用標記是資料收集的典型標準。 在 Adobe Experience Platform 介面中建立標記，以便您可以隨時更新資料收集的變數。<br><br>只需幾分鐘點選數次，標記屬性即可建立完成。"
+>abstract="使用標記是資料彙集的典型標準。 在 Adobe Experience Platform 介面中建立標記，以便您可以隨時更新資料彙集的變數。<br><br>只需幾分鐘點選數次，標記屬性即可建立完成。"
 
 <!-- markdownlint-enable MD034 -->
 

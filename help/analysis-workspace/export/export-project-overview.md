@@ -7,17 +7,11 @@ exl-id: 3d467050-4bf0-4bdb-b7d2-eba67fbd526d
 role: User
 autotag-review: '2026-05-19T08:26:15.356Z'
 TQID: 'https://experienceleague.adobe.com/9pyrzsluOss-Dz4yrDJAmVqxjjeiEYTNILIz4llAMPA'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 299
@@ -29,7 +23,7 @@ ht-degree: 96%
 
 您可以從 Analysis Workspace 匯出 Customer Journey Analytics 專案 (的一部分)。 您可能基於多種原因想要匯出 Customer Journey Analytics 報告，例如在第三方工具中使用或與外部資料合併。
 
-以下多個部分將說明支援的文件類型、可用&#x200B;來匯出的各種方法，以及每種方法的優點。
+以下多個部分將說明支援的文件類型、可用來匯出的各種方法，以及每種方法的優點。
 
 ## 支援的檔案類型
 

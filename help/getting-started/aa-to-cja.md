@@ -1,5 +1,5 @@
 ---
-title: 從 Adobe Analytics 發展演變
+title: 從 Adobe Analytics 演進
 description: 從 Adobe Analytics 資料轉換為 Customer Journey Analytics 資料的步驟
 role: Admin
 solution: Customer Journey Analytics
@@ -7,29 +7,14 @@ feature: Basics
 exl-id: 5e3f0aa0-ba24-48c8-948c-ebb5c270f34d
 autotag-review: '2026-05-19T06:31:08.010Z'
 TQID: 'https://experienceleague.adobe.com/q1l52F-xc4rXHXJB-2aMYUVd1ySLzyWbZhVAja92ojQ'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 1183
+source-wordcount: 1179
 ht-degree: 100%
 
 ---
@@ -42,11 +27,11 @@ ht-degree: 100%
 
 ### 收集身分識別
 
-了解客戶歷程的最關鍵部分，或許是了解在每一步驟中的目標客戶。 對於 Customer Journey Analytics，擁有跨所有管道和對應資料的識別碼，允許在 Customer Journey Analytics 內將多個來源拼接在一起。
+了解客戶歷程的最關鍵部分，或許是了解在每一步驟中的目標客戶。 對於 Customer Journey Analytics 而言，若有一個存在於所有管道及其對應資料中的識別碼，就能在 Customer Journey Analytics 內將多個來源拼接在一起。
 身分識別範例可能是客戶 ID、帳戶 ID 或電子郵件 ID。 無論是什麼身分識別 (可能有多個)，請務必為每個 ID 考慮以下內容：
 
 * ID 已存在或可以新增到要引入 Customer Journey Analytics 的所有資料來源
-* 在每個資料列上填入 ID
+* 每個資料列都已填入 ID
 * ID 不包含 PII。 對任何可能的敏感內容套用雜湊處理。
 * ID 在所有來源上使用相同格式 (相同長度、相同雜湊方法等)
 
@@ -56,7 +41,7 @@ ht-degree: 100%
 
 將 Adobe Analytics 資料轉換為 Customer Journey Analytics 資料的最直接方法，是使用 [Analytics 來源連接器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)將[全域報告套裝](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/prepare/global-rs)收錄到 Experience Platform。 此連接器會將您的 Adobe Analytics 變數直接對應到 Experience Platform 中的 XDM 結構描述和資料集，這些結構描述和資料集可輕鬆連接到 Customer Journey Analytics。
 
-完整的全域報告套裝並不總能用於實施。 如果您計劃將多個報表套件引入 Customer Journey Analytics，則有 2 個選項：
+對於某項實施而言，完整的全域報告套裝未必總是可行。 如果您計劃將多個報告套裝引入 Customer Journey Analytics，則有 2 個選項：
 
 * 提前規劃，使變數在這些報告套件中保持一致。 例如，報告套裝 1 中的 eVar1 可能指向[!UICONTROL 頁面]。 報告套裝 2 中的 eVar1 可能指向[!UICONTROL 內部行銷活動]。 將這些變數帶入 Customer Journey Analytics 時，其會與單一 eVar1 維度混合，可能導致報告內容混淆不清和不準確。
 
@@ -94,7 +79,7 @@ Adobe Analytics 的報告依賴大量資料前置處理來產生結果，如您�
 
 Adobe Analytics 區段和計算量度與 Customer Journey Analytics 不相容。 在許多情況下，可在 Customer Journey Analytics 中使用新的結構描述和可用資料重建這些元件。
 
-為了讓使用者在系統之間轉換時盡可能順利地進行轉換，請提前規劃
+為了讓使用者在系統之間轉換時盡可能順利，請提前規劃
 
 1. 確定這些元件中最關鍵的元件。
 
@@ -114,7 +99,7 @@ Adobe Analytics 區段和計算量度與 Customer Journey Analytics 不相容。
 
 * 如果您在 Adobe Analytics 已定義自訂日曆，則在 Customer Journey Analytics 中會有類似的[自訂日曆功能](/help/components/date-ranges/overview.md)。 您需要確保日曆的定義正確。
 
-* 在 Customer Journey Analytics 中，您可以定義自訂工作階段逾時，也可以定義啟動新工作階段的量度。 您可以建立具有不同工作階段定義的資料檢視，以獲得超越 Adobe Analytics 可能的洞察。 此功能對行動資料集尤其有益。
+* 在 Customer Journey Analytics 中，您可以定義自訂工作階段逾時，也可以定義啟動新工作階段的量度。 您可以建立具有不同工作階段定義的資料檢視，以獲得超出 Adobe Analytics 所能提供的洞察。 此功能對行動資料集尤其有益。
 
 * 請考慮為使用者提供資料字典。 或擴展 SDR 以包括結構描述元素的 Experience Platform 欄位名稱。
 

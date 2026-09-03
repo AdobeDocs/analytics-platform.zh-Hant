@@ -6,23 +6,11 @@ feature: Basics
 exl-id: 813d3213-86b3-431a-821c-174e5e36d032
 role: Admin
 TQID: https://experienceleague.adobe.com/tkPB8BHD6t3LiIhTiLyoQYH-Ucknl1YyUm5MOcxujBY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2150
@@ -53,20 +41,20 @@ ht-degree: 75%
 >本快速入門手冊是一份簡化的指南，說明如何使用來源聯結器將資料擷取至Adobe Experience Platform，並在Customer Journey Analytics中使用。 強烈建議在提及時研究其他資訊。
 
 
-## 設定結構和資料集
+## 設定結構描述和資料集
 
 若要將資料內嵌至Adobe Experience Platform，您必須先定義要收集哪些資料。 所有擷取至 Adobe Experience Platform 的資料都必須符合標準的非正常結構，才能由下游能力和功能識別並處理。 體驗資料模型(XDM)是標準架構，以結構描述的形式提供結構。
 
 定義結構後，您可以使用一個或多個資料集來儲存及管理資料收集。 資料集是資料集合（通常是表格）的儲存和管理結構，其中包含結構（欄）和欄位（列）。
 
-擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構，才能以資料集形式持續保存。
+擷取至 Adobe Experience Platform 的所有資料都必須符合預先定義的結構描述，才能以資料集形式持續保存。
 
 ### 設定結構
 
 為了快速上手，您需要收集一些忠誠度資料，例如忠誠度 ID、忠誠度點數和忠誠度狀態。
 您必須先定義用來模型化此資料的結構描述。
 
-若要設定您的結構：
+若要設定您的結構描述：
 
 1. 在 Adobe Experience Platform UI 的左側邊欄中，選取[!UICONTROL 「資料管理」]中的&#x200B;**[!UICONTROL 「結構」]**。
 
@@ -99,7 +87,7 @@ ht-degree: 75%
 
       ![建立顯示[新增]欄位群組的結構描述視窗](./assets/add-field-group-button.png)
 
-      欄位群組是可重複使用的物件和屬性集合，可讓您輕鬆擴充結構。
+      欄位群組是可重複使用的物件和屬性集合，可讓您輕鬆擴充結構描述。
 
    1. 在[!UICONTROL 「新增欄位群組」]對話框中，從清單中選取&#x200B;**[!UICONTROL 「忠誠度詳細資料」]**&#x200B;欄位群組。
 
@@ -137,7 +125,7 @@ ht-degree: 75%
 
    系統會提示您啟用輪廓的結構。 啟用後，根據此結構將資料攝取至資料集時，該資料就會合併至即時客戶設定檔中。
 
-   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#profile)。
+   如需詳細資訊，請參閱[啟用結構以用於即時客戶輪廓](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile)。
 
    >[!IMPORTANT]
    >
@@ -147,13 +135,13 @@ ht-degree: 75%
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**，即可儲存您的結構。
 
-您已建立最小結構，以建立可內嵌至 Adobe Experience Platform 的忠誠度資料模型。 該結構可讓您使用電子郵件地址來識別輪廓。 透過啟用輪廓的結構，即可確保將來自串流來源的資料新增至即時客戶輪廓。
+您已建立最小結構，以建立可內嵌至 Adobe Experience Platform 的忠誠度資料模型。 該結構可讓您使用電子郵件地址來識別輪廓。 透過啟用輪廓的結構描述，即可確保將來自串流來源的資料新增至即時客戶輪廓。
 
-請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
+請參閱[在 UI 中建立和編輯結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html)，了解有關向結構添加和刪除欄位群組和個別欄位的詳細資訊。
 
 ### 設定資料集
 
-您已使用您的結構定義資料模型。 您現在必須定義建構以儲存和管理該資料，這會透過資料集完成。
+您已使用您的結構描述定義資料模型。 您現在必須定義建構以儲存和管理該資料，這會透過資料集完成。
 
 若要設定您的資料集：
 
@@ -177,7 +165,7 @@ ht-degree: 75%
 
 7. 選取&#x200B;**[!UICONTROL 「設定檔」]**&#x200B;切換。
 
-   系統會提示您啟用設定檔的資料集。 資料集一經啟用，即可透過攝取的資料豐富即時客戶設定檔。
+   系統會提示您為輪廓啟用資料集。 資料集一經啟用，即可透過攝取的資料豐富即時客戶輪廓。
 
    >[!IMPORTANT]
    >
@@ -194,11 +182,11 @@ ht-degree: 75%
 
 您可以從多種來源擷取資料。 以下只是眾多可用來源中的幾個：
 
-- Adobe應用程式（來源聯結器包括[Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)、[Adobe Audience Manager](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/audience-manager)等）
+- Adobe應用程式（來源聯結器包括[Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)、[Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager)等）
 
-- 雲端儲存空間（來源聯結器包括[Amazon S3](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/s3)、[Azure Blob](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/blob)等）
+- 雲端儲存空間（來源聯結器包括[Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3)、[Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob)等）
 
-- 資料庫（來源聯結器包含[Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)、[Microsoft SQL Server](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/sql-server)等）
+- 資料庫（來源聯結器包含[Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)、[Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server)等）
 
 若要設定來源連接器，請執行以下操作：
 
@@ -232,7 +220,7 @@ ht-degree: 75%
 
 如需如何使用HTTP API來源聯結器的資訊，請參閱[擷取及使用串流資料](./streaming.md)。
 
-請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant#terms-and-conditions)，了解來源連接器 (包括每個連接器的詳細資訊連結) 的概觀。
+請參閱[來源連接器概觀](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions)，了解來源連接器 (包括每個連接器的詳細資訊連結) 的概觀。
 
 
 ## 設定連線
@@ -287,7 +275,7 @@ ht-degree: 75%
 
 資料檢視是特定於 Customer Journey Analytics 的容器，可讓您決定如何詮釋來自連線的資料。 它指定 Analysis Workspace 中可用的所有維度和量度，以及這些維度和量度從哪些欄取得資料。 資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
 
-若要建立資料檢視，請執行以下操作：
+若要建立資料釋圖，請執行以下操作：
 
 1. 在Customer Journey Analytics UI中，選取頂端功能表中的&#x200B;**[!UICONTROL 資料檢視]** （可選擇從&#x200B;**[!UICONTROL 資料管理]**&#x200B;進行）。
 
@@ -338,7 +326,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
    ![工作區 – 空白專案](./assets/cja-projects-2.png)
 
-4. 從清單中選取您的資料檢視。
+4. 從清單中選取您的資料釋圖。
 
    ![工作區選取資料檢視](./assets/cja-projects-3.png)。
 
@@ -350,4 +338,4 @@ Analysis Workspace 是彈性的瀏覽器工具，可讓您根據資料快速建�
 
 >[!SUCCESS]
 >
->您已完成所有步驟。 從定義您要收集的忠誠度資料 (結構)，以及要將其儲存在 Adobe Experience Platform 中的何處 (資料集) 開始，您已設定適當的來源連接器，以提供忠誠度資料。 您已在 Customer Journey Analytics 中定義連線，以使用擷取的忠誠度資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，最後，您建立了第一個可視覺化和分析資料的專案。
+>您已完成所有步驟。 從定義您要收集的忠誠度資料 (結構描述)，以及要將其儲存在 Adobe Experience Platform 中的何處 (資料集) 開始，您已設定適當的來源連接器，以提供忠誠度資料。 您已在 Customer Journey Analytics 中定義連線，以使用擷取的忠誠度資料和其他資料。 您的資料檢視定義可讓您指定要使用的維度和量度，最後，您建立了第一個可視覺化和分析資料的專案。

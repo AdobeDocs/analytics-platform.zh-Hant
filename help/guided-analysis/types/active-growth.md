@@ -1,24 +1,16 @@
 ---
 title: 積極成長分析
-description: 識別哪些使用者是新的、保留的、回訪的或非活躍的。
+description: 識別哪些使用者是新的、留存的、回訪的或非活躍的。
 exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: Product Analytics
 role: User
 TQID: https://experienceleague.adobe.com/7rr5h-ymKCpMy6MJB9TEPG6POFyMlVlPRF7TC7Uryoc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
 source-wordcount: 692
@@ -31,20 +23,20 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_guidedanalysis_activegrowth_button"
 >title="積極成長"
->abstract="識別哪些使用者是新的、保留的、回訪的或非活躍的。"
+>abstract="識別哪些使用者是新的、留存的、回訪的或非活躍的。"
 
 
 
-![PeopleGroup](/help/assets/icons/PeopleGroup.svg)**[!UICONTROL 積極成長]**&#x200B;分析可讓您深入洞察使用者在特定期間內的成長和獲取情況。 橫軸是時間間隔，縱軸是使用者測量值。 使用者分為四大類：
+![PeopleGroup](/help/assets/icons/PeopleGroup.svg)**[!UICONTROL 積極成長]**&#x200B;分析可讓您深入洞察使用者在特定期間內的成長和獲取情況。 橫軸是時間間隔，而縱軸是使用者的量度。 使用者分為四大類：
 
 * **[!UICONTROL 最新]**：使用者在目前期間內處於活躍狀態，但是之前不活躍。 若要了解這項分析可回溯至多久以前，請將滑鼠停留在圖例中的「_[!UICONTROL 全新使用者]_」。 回溯範圍是根據所選的日期範圍和間隔以動態方式來決定。
 * **[!UICONTROL 重複]**：使用者在目前和上個期間內處於活躍狀態。
 * **[!UICONTROL 重新回來]**：使用者在目前期間內處於活躍狀態，且在上個期間內不活躍，但之前曾在某個時間點處於活躍狀態。 若要了解這項分析可回溯至多久以前，請將滑鼠停留在圖例中的「_[!UICONTROL 重新回來的使用者]_」。 回溯範圍是根據所選的日期範圍和間隔以動態方式來決定。
 * **[!UICONTROL 休眠]**：使用者在上個期間內處於活躍狀態，但在目前期間內不活躍。 休眠使用者未計入活躍使用者總數。
 
-所有活躍使用者 (新使用者 + 重複使者 + 重新回來使用者) 在橫軸上方顯示為青色，而所有休眠使用者在橫軸下方顯示為橙色。
+所有活躍使用者 (新使用者 + 重複使用者 + 回訪使用者) 在橫軸上方顯示為青色，而所有休眠使用者在橫軸下方顯示為橙色。
 
->[!VIDEO](https://video.tv.adobe.com/v/3423392/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421667/?quality=12&learn=on)
 
 ## 使用案例
 

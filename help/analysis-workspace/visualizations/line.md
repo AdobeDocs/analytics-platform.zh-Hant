@@ -6,21 +6,15 @@ exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
 autotag-review: '2026-05-19T08:29:43.526Z'
 TQID: 'https://experienceleague.adobe.com/ekT5diDY2vDPhjZ5I2oe-lgqjQ--Ri-bO-UljZUUmJw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: ddf59f64-0e46-4986-a525-056acc143c70
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 83%
+source-wordcount: 575
+ht-degree: 84%
 
 ---
 
@@ -31,19 +25,19 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="workspace_line_button"
 >title="折線圖"
->abstract="建立折線圖視覺效果，顯示值在一段時間內如何變化。 僅在使用時間當作維度時，才使用折線圖視覺效果。"
+>abstract="建立折線圖視覺效果，顯示值在一段時間內如何變化。 只有在將時間用作維度時，才能使用折線圖視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄線條視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[線條](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/line)。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄線條視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本，請參閱[線條](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/line)。_
 
 >[!ENDSHADEBOX]
 
 
-![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 折線圖]**&#x200B;視覺效果使用線條表示量度，以顯示一段期間的值的變化。 僅在使用時間作為維度時，才使用折線圖視覺效果。
+![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 折線圖]**&#x200B;視覺效果使用線條表示量度，以顯示一段期間的值的變化。 只有在將時間作為維度時，才能使用折線圖視覺效果。
 
 ![折線圖視覺效果](assets/line-viz.png)
 
@@ -60,7 +54,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 
 ### 模型
 
-所有回歸模型趨勢線都適合使用普通最小二乘法：
+所有回歸模型趨勢線都使用普通最小二乘法進行擬合：
 
 | 模型 | 說明 |
 | --- | --- |
@@ -69,7 +63,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 | **[!UICONTROL 指數]** | 建立曲線，當資料以不斷提高的速率上升或下降時相當實用。 如果您的資料包含零或負值，則不應使用此選項。 方程式：`y = a + e^(b * x)` |
 | **[!UICONTROL 乘冪]** | 建立曲線，比較以特定速率增加的測量之資料集時相當實用。 如果您的資料包含零或負值，則不應使用此選項。 方程式：`y = a * x^b` |
 | **[!UICONTROL 二次方]** | 找出拋物線形 (向上或向下凹入) 的資料集最合適的線條。 方程式：`y = a + b * x + c * x^2` |
-| **[!UICONTROL 移動平均]** | 根據一組平均值建立平滑趨勢線。 移動平均也稱為滾動平均，會使用特定數量的資料點 (取決於[!UICONTROL 顆粒度]的選取項目)，並將平均值當做線條中的某個點。 例如包括 7 天移動平均值或 4 週移動平均值。 |
+| **[!UICONTROL 移動平均]** | 根據一組平均值建立平滑趨勢線。 移動平均也稱為滾動平均，會使用特定數量的資料點 (取決於[!UICONTROL 顆粒度]的選取項目)，並將平均值當做線條中的某個點。 例如，7 天移動平均或 4 週移動平均。 |
 
 
 >[!BEGINSHADEBOX]

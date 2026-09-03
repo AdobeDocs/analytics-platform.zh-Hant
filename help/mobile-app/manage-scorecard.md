@@ -6,23 +6,11 @@ role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
 TQID: https://experienceleague.adobe.com/Sb4kVGW3EHe85km5NDp-qWQu8MIeW5v2gwrYNTmNevY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b21c7889-c659-4a99-a779-de1bae57e47e
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b21c7889-c659-4a99-a779-de1bae57e47eid: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1849
@@ -42,13 +30,13 @@ ht-degree: 81%
 
 ## 檢視詳細投影片 {#view-detail-slides}
 
-若您按一下圖磚，動態快顯視窗會顯示應用程式中向高階主管使用者呈現詳細投影片的方式。 您可新增維度以針對您的特定需求劃分資料。 如果尚未套用任何維度，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
+若您按一下圖磚，動態快顯視窗會顯示詳細投影片在應用程式中向高階主管使用者呈現的樣貌。 您可新增維度以針對您的特定需求劃分資料。 如果尚未套用任何維度，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
 
 劃分會按維度項目細分量度，以精進您的分析，例如以下情況：
 
 * 依廣告平台 (AMO ID) 劃分的不重複訪客量度
 * 依產品類別 (零售) 劃分的造訪
-* 依產品名稱劃分的總營收
+* 依產品名稱劃分的總收入
 
 ![Breakdown_view](assets/break_view.png)
 
@@ -65,7 +53,7 @@ ht-degree: 81%
 >[!ENDSHADEBOX]
 
 
-您可以修改每個詳細投影片的版面並新增文字，以更清楚地說明一般使用者可在資料中看到的內容。 您還可以使用下拉式選單變更圖表類型。
+您可以修改每個詳細投影片的版面並新增文字，以更清楚地說明終端使用者可在資料中看到的內容。 您還可以使用下拉式選單變更圖表類型。
 
 ![自訂詳細投影片](assets/custom-detail-slide.png)
 
@@ -75,7 +63,7 @@ ht-degree: 81%
 
 ![投影片版面](assets/layout.png)
 
-您還可以透過將視覺化元件從左側邊欄拖放到畫布上來變更投影片版面。 每個詳細投影片一次只能提供兩種視覺化。
+您還可以透過將視覺化元件從左側邊欄拖放到畫布上來變更投影片版面。 每個詳細投影片一次只能容納兩個視覺效果。
 
 ![投影片版面變更](assets/slide-layout-change.png)
 
@@ -83,7 +71,7 @@ ht-degree: 81%
 
 您可以新增文字以提供有關圖表中所包含內容或有關資料的細微差別的有意義資訊。
 
-若要新增文字到詳細投影片，請選取顯示 `T` 符號的版面，或將文字視覺化元件從左側欄拖放到上方。 新增新的文字視覺化或選擇包含文字的投影片版面時，文字編輯器將自動開啟。 文字編輯器會提供格式化文字的所有標準選項。 您可以套用段落、標題和副標題等文字樣式，並套用粗體和斜體字體。 您可以對齊文字、新增項目符號和編號清單以及新增連結。 完成編輯後，請選取文字編輯器右上角的最小化按鈕將其關閉。 若要編輯已新增的文字，請選取鉛筆圖示，以再次開啟文字編輯器。
+若要新增文字到詳細投影片，請選取顯示 `T` 符號的版面，或將文字視覺化元件從左側欄拖放到上方。 新增新的文字視覺化或選擇包含文字的投影片版面時，文字編輯器將自動開啟。 文字編輯器會提供格式化文字的所有標準選項。 您可以套用段落、標題和副標題等文字樣式，並套用粗體和斜體字體。 您可以對齊文字、新增項目符號和編號清單以及新增連結。 完成編輯後，請選取文字編輯器右上角的最小化按鈕以將其關閉。 若要編輯已新增的文字，請選取鉛筆圖示，以再次開啟文字編輯器。
 
 ![投影片版面變更](assets/add-descriptive-text.png)
 
@@ -99,12 +87,12 @@ ht-degree: 81%
 
 例如，如果您關注網路流量，您最重要的量度可能會是造訪次數，但您可能也對新的個人、不重複的個人感興趣，並且您可能希望查看按網頁或流量來源的裝置類型來劃分的資料。 行動記分卡專案中的資料故事可讓您將最重要的量度放在首位和中心位置，並透過多個詳細資訊幻燈片描述量度背後的完整故事。
 
-觀看影片，深入了解在 Analysis Workspace 的行動記分卡專案中建立資料故事的資訊。
+觀看影片，深入了解如何在 Analysis Workspace 的行動計分卡專案中建立資料故事。
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [行動計分卡專案的資料故事](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [行動計分卡專案的資料故事](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -113,7 +101,7 @@ ht-degree: 81%
 
 將多個詳細資訊幻燈片新增到磚來建置資料故事。
 
-1. 從行動記分卡專案開始。
+1. 從行動計分卡專案開始。
 1. 選取要從中建立故事的磚。
    ![建立資料劇本](assets/data-story1.png)
    ![建立資料故事圖示](assets/create-data-story.png){width=".50%"}
@@ -123,7 +111,7 @@ ht-degree: 81%
    * 點選複製圖示以複製現有幻燈片。
 1. 如果您建立了一張空白幻燈片，請從左側邊欄拖放元件，或選擇一個版面以使用磚中的資料自動填入幻燈片。
    ![建立資料劇本](assets/data-story2.png)
-若要刪除投影片，請點選垃圾桶圖示。
+   若要刪除投影片，請點選垃圾桶圖示。
 
 ### 自訂資料故事 {#customize-data-story}
 
@@ -135,7 +123,7 @@ ht-degree: 81%
 1. 變更標題、圖表類型和其他磚選項。
 1. 將元件拖曳到磚上。
    ![建立資料劇本](assets/data-story3.png)
-將視覺效果等元件拖放至圖磚上時，該元件會套用至所有資料內文幻燈片。
+   將視覺效果等元件拖放至圖磚上時，該元件會套用至所有資料內文幻燈片。
 1. 要只對標題套用變更，請按住 Shift 鍵來套用變更。
    ![建立資料故事](assets/data-story4.png)
 
@@ -144,7 +132,7 @@ ht-degree: 81%
 
 **自訂個別幻燈片**
 
-您可以變更資料故事中個別幻燈片的視覺效果。 例如，您可以將特定幻燈片的水平列變更為環圈圖。 您也可以變更版面。 請參閱[自訂詳細幻燈片](#customize-detail-slide)。
+您可以變更資料故事中個別幻燈片的視覺化。 例如，您可以將特定幻燈片的水平列變更為環圈圖。 您也可以變更版面。 請參閱[自訂詳細幻燈片](#customize-detail-slide)。
 
 ### 預覽資料故事 {#preview-data-story}
 
@@ -203,7 +191,7 @@ ht-degree: 81%
 
 ### 使用可共享連結共用計分卡
 
-使用可共用連結可以輕鬆地在電子郵件、文件或簡訊應用程式中共用計分卡。 可共用的連結讓收件者可以在他們的桌面或儀表板行動應用程式上開啟計分卡。 可共用的深度連結使得共用專案以及與利害關係人提升參與度變得更加輕鬆。
+使用可共用連結可以輕鬆地在電子郵件、文件或簡訊應用程式中共用計分卡。 可共用的連結讓收件者可以在桌上型電腦或 Analytics 儀表板行動應用程式上開啟計分卡。 可共用的深度連結使得共用專案以及與利害關係人提升參與度變得更加輕鬆。
 
 若要使用可共用連結共用計分卡
 

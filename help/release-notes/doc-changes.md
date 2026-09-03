@@ -6,33 +6,11 @@ solution: Customer Journey Analytics
 feature: Release Notes
 autotag-review: '2026-05-19T11:00:09.733Z'
 TQID: 'https://experienceleague.adobe.com/hHcvSYqGtYuKbPLvtu2qALBNLA0cogWxEUYxu-ktUvM'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: a8e39571-4463-4aa3-8b3f-4e2341ecf3b3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: e634a07b-b7ca-4af3-a124-3024ce559e17id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5eid: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: a8e39571-4463-4aa3-8b3f-4e2341ecf3b3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: e2ec268ef4a2d84d51089e7b59b3df5b0ad6f48d
 workflow-type: tm+mt
 source-wordcount: 7019
@@ -43,7 +21,7 @@ ht-degree: 98%
 
 # Customer Journey Analytics - 文件更新
 
-Customer Journey Analytics 文件從開始建立以來完成以下更新。
+自 Customer Journey Analytics 文件建立以來，已進行以下更新。
 
 ## 2026
 
@@ -57,13 +35,13 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 子事件分析 | [子事件分析](/help/components/segments/sub-event.md)和[自訂容器](/help/data-views/create-dataview.md#custom-containers)的檔案。 |
 | 內嵌分類 | [內嵌分類](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)的檔案。 |
 | **2026年6月** | |
-| 全新GA4指南 | 新增從Google Analytics 4轉換到Customer Journey Analytics[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)的。 |
+| 全新GA4指南 | 新增從Google Analytics 4轉換到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)的[。 |
 | **2026 年 5 月** | |
 | Content Analytics 的 JavaScript 程式庫 | 有關如何在不需要 Experience Platform 資料彙集標記的情況下，使用 [Content Analytics Javascript 程式庫](/help/content-analytics/config/tags-agnostic.md)對網頁管道實施 Content Analytics 的說明文件。 |
 | Data Mirror 考量事項 | 說明設定 [Data Mirror 資料集](/help/data-mirror/data-mirror.md)時應考量哪些因素的[說明文件](/help/data-mirror/considerations.md)。 |
 | Content Analytics 行動管道 | [Content Analytics 文件](/help/content-analytics/content-analytics.md)更新，說明 Content Analytics 行動管道的功能和設定。 |
 | **2026 年 4 月** | |
-| 衍生欄位指南 | 新增有關使用衍生欄位的[準則 &#x200B;](/help/use-cases/data-views/derived-fields/guidelines.md) (最佳做法、護欄和常見陷阱) 文章。 |
+| 衍生欄位指南 | 新增有關使用衍生欄位的[準則 ](/help/use-cases/data-views/derived-fields/guidelines.md) (最佳做法、護欄和常見陷阱) 文章。 |
 | 新增缺少的文件，說明整合 Journey Optimizer 時可包含的兩個資料集 | 您的 IMS 組織啟用高輸送量交易型訊息附加元件時，連線中會包含[額外兩個非輪廓、系統產生的資料集](/help/integrations/ajo.md#high-throughput-add-on-datasets)。 |
 | 更新同類群組分析使用案例 | 根據意見回饋，已在同類群組分析使用案例中新增 Analysis Workspace 範例。 |
 | **2026 年 3 月** | |
@@ -92,7 +70,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 歸因設定 | 反映模型、容器及回顧期間新歸因設定選項的其他更新。 |
 | 收錄並使用 Experience Platform 客群 | 更新如何[收錄並使用 Experience Platform 客群](/help/use-cases/data-ingestion/ingest-aep-segments.md)的使用案例文章。 |
 | 為您的組織做好升級至 Customer Journey Analytics 的準備 | 新增如何[為組織做好升級至 Customer Journey Analytics 之準備](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)的相關資訊。 |
-| 報告 LLM 和 AI 產生的流量 | 新增[使用案例文章](/help/use-cases/data-views/derived-fields/ai-traffic.md)，說明如何以衍生欄位為基礎來報告 LLM 和 AI 產生的流量。 該文章是根據部落格文章[在 Adobe Customer Journey Analytics 中追蹤和分析 LLM 與 AI 產生的流量](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=zh-Hant)所撰寫。 |
+| 關於 LLM 和 AI 產生流量的報告 | 新增[使用案例文章](/help/use-cases/data-views/derived-fields/ai-traffic.md)，說明如何以衍生欄位為基礎來報告 LLM 和 AI 產生的流量。 該文章是根據部落格文章[在 Adobe Customer Journey Analytics 中追蹤和分析 LLM 與 AI 產生的流量](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967)所撰寫。 |
 | **2025 年 9 月** | |
 | 1900 年之前的日期 | 已新增[註釋](/help/connections/create-connection.md#datasets)，說明 Customer Journey Analytics 處理 1900 年之前日期的方式。 |
 | 即時報告 | 新增關於 Customer Journey Analytics 中[即時報告](/help/components/real-time/real-time.md)功能的文件。 |
@@ -127,7 +105,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | Quantum Metric 使用案例 | 新增了從 [Quantum Metric](/help/use-cases/third-party/quantum-metric/qm-overview.md) 收集資料的使用案例。 |
 | 產品使用情況範本 | 新的 Workspace 範本可讓您查看 Customer Journey Analytics 產品在您組織內的使用情況。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates)。 |
 | Customer Journey Analytics 升級指南 | 讓您產生從 Adobe Analytics 升級到 Customer Journey Analytics 的逐步指南。 若要開始產生自訂指南，請先登入 [!DNL Customer Journey Analytics]，然後在「**[!UICONTROL 工作區]**」標籤上選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |
-| 更新了數值維度中的「無值」條列項目 | 針對數值維度，此更新可讓您在區段中使用「無值」維度項目，並在報告中將「無值」條列項目進行劃分。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) |
+| 更新了數值維度中的「無值」條列項目 | 針對數值維度，此更新可讓您在區段中使用「無值」維度項目，並在報告中對「無值」條列項目進行劃分。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) |
 | 媒體集合：全新媒體報告 XDM 的 Adobe 來源連接器更新內容 | Analytics 來源連接器會自動將 Adobe Analytics 中的串流媒體資料對應至 Web SDK 所使用的相同欄位。 過去，資料會對應到舊位置和新位置，但將來只會使用新位置。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
 | **2025 年 2 月** |  |
 | 媒體集合：全新媒體報告 XDM 的 Adobe 來源連接器更新內容 | Analytics 來源連接器會自動[將 Adobe Analytics 中的串流媒體資料對應至](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) Web SDK 所使用的相同欄位。 過去，資料會對應到舊位置和新位置，但將來只會使用新位置。 |
@@ -137,7 +115,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 使用情況量度 | 有關已改善的[使用情況量度](/help/connections/manage-connections.md#usage)介面的更新文件。 |
 | 產品使用情況 | [產品使用情況](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/product-usage/usage-overview)呈現您組織使用 Customer Journey Analytics 的情形。 |
 | 引導式分析 | 已將文件更新為可從引導示分析內部使用[引導式分析](/help/guided-analysis/overview.md)。 |
-| 於 Journey Optimizer 報表頁面上，使用 Customer Journey Analytics 內自訂範本的文檔 | 您現在可以在 Adobe Journey Optimizer 中自訂新的報告介面，只要[在 Customer Journey Analytics 中建立或編輯範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=tw)，然後將要在 Journey Optimizer 報告頁面上使用的範本儲存起來即可。 過去，Adobe Journey Optimizer 中的新報告介面無法自訂。 |
+| 於 Journey Optimizer 報表頁面上使用來自 Customer Journey Analytics 的自訂範本文件 | 您現在可以在 Adobe Journey Optimizer 中自訂新的報告介面，只要[在 Customer Journey Analytics 中建立或編輯範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=tw)，然後將要在 Journey Optimizer 報告頁面上使用的範本儲存起來即可。 過去，Adobe Journey Optimizer 中的新報告介面無法自訂。 |
 | Analysis Workspace 中的範本 | [預先建立範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates)和[公司範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/create-templates)現已可在 Customer Journey Analytics 中使用。 |
 | 智慧型註解 (第 2 版) | [智慧型註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)現在可使用以下視覺效果：折線圖、長條圖、水平長條圖、甜甜圈圖、區域圖、流程圖和流失存活圖。 您可以選取在展開視圖中一次顯示所有智慧型註解，也可以在逐一視圖中顯示單一智慧型註解。 |
 
@@ -178,10 +156,10 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 衍生欄位函數和函數範本 | 新增有關其他衍生欄位函數 ([數學](/help/data-views/derived-fields/derived-fields.md#math)、[下一個或上一個](/help/data-views/derived-fields/derived-fields.md#next-or-previous)和[總結](/help/data-views/derived-fields/derived-fields.md#summarize)) 及 [函數範本](/help/data-views/derived-fields/derived-fields.md#function-templates)的文件。 |
 | **2024 年 5 月** | |
 | Target 整合 | 在有關如何整合 Target 和 Customer Journey Analytics 的 [Adobe 整合區段中新增文章](/help/integrations/at.md)。 |
-| 使用組織政策限制時，將 Customer Journey Analytics 報告匯出到 Google 雲端平台時的所需資訊 | 將 Adobe 擁有的 Google 雲端平台組織 ID 新增至[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)文件，以便將 Customer Journey Analytics 報告匯出至 Google 雲端平台。 <p>只有當組織在 Google Cloud Platform 中使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)時才需要此資訊。</p> |
+| 使用組織原則限制時，將 Customer Journey Analytics 報告匯出到 Google 雲端平台時的所需資訊 | 將 Adobe 擁有的 Google 雲端平台組織 ID 新增至[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)文件，以便將 Customer Journey Analytics 報告匯出至 Google 雲端平台。 <p>只有當組織在 Google Cloud Platform 中使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)時才需要此資訊。</p> |
 | 有關將元件新增至專案的文件 | 新增了有關如何[將各種類型的元件新增至 Analysis Workspace 中的專案](/help/components/use-components-in-workspace.md)的一般資訊。 |
 | 資料匯出使用案例 | 一組新文章，說明[資料匯出使用案例](/help/use-cases/data-export/overview.md)以及如何使用 Experience Platform 和 Customer Journey Analytics 功能來實作這些使用案例 |
-| 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)。</p> |
+| 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實施和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實施可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)。</p> |
 | 關於自訂日期範圍的更新文件 | 更新螢幕擷圖以及與[範例日期範圍](/help/components/date-ranges/custom-date-ranges.md)相關的程序，以符合目前的產品特色和設計。 |
 | 有關維度的概觀資訊 | 新增有關[維度](/help/components/dimensions/overview.md)的資訊。 |
 | 來源連接器範例 | 說明如何[使用來源連接器](/help/data-ingestion/sources.md#use-a-source-connector)擷取資料時，新增可用的來源連接器範例。 |
@@ -191,8 +169,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 在行動計分卡中新增有關智慧型註解的文件 | [智慧型註解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions)可協助非分析師在沒有分析師協助下更了解他們的資料。 |
 | Adobe Product Analytics 功能的新文件 | <ul><li>[功能矩陣](/help/guided-analysis/types/funnel.md)</li><li>強化[保留](/help/guided-analysis/types/retention.md)</li><li>[強化漏斗中的洞察](/help/guided-analysis/types/funnel.md)</li><li>比較單一漏斗步驟中的事件</li></ul> |
 | **2024 年 3 月** | |
-| 關於「使用於」欄的使用情況資訊，僅從 2023 年 9 月開始提供。 | 澄清[專案登陸頁面](/help/getting-started/landing.md)上的「**使用於**」欄的使用情況資訊只能追溯到 2023 年 9 月。 |
-| 新增有關針對僅限專案的 Workspace 元件之權限強化的文件 | 如果您與其他使用者共用專案，這些使用者可以編輯[快速區段](/help/components/segments/seg-quick.md)以及共用專案中嵌入的其他僅限專案的元件。 |
+| 關於「用於」欄的使用情況資訊，僅從 2023 年 9 月開始提供。 | 澄清[專案登陸頁面](/help/getting-started/landing.md)上的「**使用於**」欄的使用情況資訊只能追溯到 2023 年 9 月。 |
+| 新增有關針對僅限專案的工作區元件之權限強化的文件 | 如果您與其他使用者共用專案，這些使用者可以編輯[快速區段](/help/components/segments/seg-quick.md)以及共用專案中嵌入的其他僅限專案的元件。 |
 | **2024 年 2 月** | |
 | 專案共用文件更新 | 新增有關如何[檢視與您共用之專案](/help/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you)的資訊。<p>同時也簡化有關[共用個別或多個專案](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)的資訊。</p> |
 | 新增設定雲端匯出位置時將檔案上傳到 Azure SAS 和 Azure RBAC 的權限要求 | 新增在[設定雲端匯出帳戶](/help/components/exports/cloud-export-accounts.md)和[設定雲端匯出位置](/help/components/exports/cloud-export-locations.md)時，將檔案上傳到 Azure SAS 和 Azure RBAC 的確切權限要求。 |
@@ -223,9 +201,9 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 異常偵測文件的更新 | 異常偵測的文件先前位於有關虛擬分析人員的區段中。 以下是所做的變更： <ul><li>術語 Virtual Analyst 已從文件中刪除。</li><li>「[異常偵測](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md)」的區段直接移至 Analysis Workspace 區段下方。</li></ul> |
 | **2023 年 10 月** | |
 | 使用衍生欄位來設定目標 | 新增[使用案例](/help/use-cases/data-views/derived-fields/goals-using-derived-fields.md)文章，說明如何使用衍生欄位來設定目標並加以報告。 |
-| 將完整表格匯出至雲端 | 新增有關將包含數百萬 Workspace 列的完整表格匯出到雲端目標的文件。 <p>匯出完整表格可提供在 Workspace 中設計之資料表格的一次性或排程傳送，最多可支援五個劃分、五個量度、區段和計算量度，且全部都可以在串連表格中完成。 這是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多經常要求且目前在 Data Warehouse 中尚未提供的新功能。</p><p>如需更多資訊，請參閱[將 Customer Journey Analytics 報告匯出至雲端](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html?lang=zh-Hant)。 |
+| 將完整表格匯出至雲端 | 新增有關將包含數百萬 Workspace 列的完整表格匯出到雲端目標的文件。 <p>匯出完整表格可提供在 Workspace 中設計之資料表格的一次性或排程傳送，最多可支援五個劃分、五個量度、區段和計算量度，且全部都可以在串連表格中完成。 這是 Adobe Analytics 中 Data Warehouse 報告的演化，其中包含許多經常要求且目前在 Data Warehouse 中尚未提供的新功能。</p><p>如需更多資訊，請參閱[將 Customer Journey Analytics 報告匯出至雲端](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/export-cloud.html)。 |
 | 報告活動管理器 | 新增報告活動管理器的文件。 <p>報告活動管理器可讓您查看組織中每個連線的報告容量。 它為管理員提供報告使用量的詳細可見度，以便在尖峰報告時段輕鬆診斷和修正容量問題。</p> <p>已新增下列新文章：<ul><li>[報告活動管理器概觀](/help/reporting-activity-manager/reporting-activity-overview.md)</li><li>[在報告活動管理器中檢視報告活動](/help/reporting-activity-manager/reporting-activity.md)</li><li>[在報告活動管理器中取消請求](/help/reporting-activity-manager/reporting-activity-cancel-requests.md)</ul> |
-| 在管理頁面上新增欄 | 記錄現在可在[計算量度管理員](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html?lang=zh-Hant)和[區段管理員](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html?lang=zh-Hant)中使用的新欄位。 |
+| 在管理頁面上新增欄 | 記錄現在可在[計算量度管理員](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-manager.html)和[區段管理員](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/manage-filters.html)中使用的新欄位。 |
 | 與 Adobe Analytics 比較 | 新增[概觀頁面](../getting-started/aa-vs-cja/overview.md)作為比較和理解 Customer Journey Analytics 和 Adobe Analytics 之間差異的簡介。 |
 | 其他衍生欄位功能 | 更新有關新 [`Lookup`](/help/data-views/derived-fields/derived-fields.md#lookup) 函數的文件。 |
 | **2023 年 9 月** | |
@@ -238,24 +216,24 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立了一篇新文章，名為[已排程專案](/help/components/scheduled-projects-manager.md)。 此內容之前位於「Analytics 工具指南」的[已排程專案](/help/analysis-workspace/export/t-schedule-report.md)文章。 |
 | Adobe Customer Journey Analytics 功能支援 | 相較於 Adobe Analytics，Customer Journey Analytics 已在工作階段化功能的&#x200B;*以新方式支援*&#x200B;表格中新增更多資訊。 [了解更多](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | 從 Adobe Analytics 發展而來 | 已更新 *(重新) 設定行銷管道*&#x200B;區段，並引用衍生欄位行銷管道功能範本。 [了解更多](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
-| 行動應用程式和其他平台的資料擷取快速入門指南 | 新增額外的資料擷取快速入門指南，旨在概述如何在 Customer Journey Analytics 中擷取和使用來自行動應用程式或其他平台 (例如桌面應用程式、遊戲主機上的遊戲、機上盒和 IoT 裝置上的應用程式) 的資料。 [了解更多](../data-ingestion/data-ingestion.md) |
+| 行動應用程式和其他平台的資料攝取快速入門指南 | 新增額外的資料攝取快速入門指南，旨在概述如何在 Customer Journey Analytics 中攝取和使用來自行動應用程式或其他平台 (例如桌面應用程式、遊戲主機上的遊戲、機上盒和 IoT 裝置上的應用程式) 的資料。 [了解更多](../data-ingestion/data-ingestion.md) |
 | **2023 年 7 月** | |
 | 工作階段設定 | 新增此資料檢視設定的主題。 [了解更多](/help/data-views/session-settings.md) |
 | Adobe Product Analytics | Adobe Product Analytics 是一種與 Customer Journey Analytics 跨管道資料和洞察進行互動的新方式。 這些新功能使產品團隊能夠透過[引導式分析](/help/guided-analysis/overview.md)工作流程取得有關其產品體驗的自助資料和洞察。 |
 | 衍生欄位 | [衍生欄位](/help/data-views/derived-fields/derived-fields.md)可讓您透過可自訂的規則產生器，迅速定義 (通常是複雜的) 資料操作。 |
-| 已擴大對輪廓和查詢資料的查詢支援 | 提供功能，可將資料集新增為輪廓或查詢資料集內的欄位查詢。 之前僅支援事件資料集。 [了解更多](/help/connections/create-connection.md) |
-| Report Builder 改良功能 | <ul><li>[從儲存格篩選多個資料區塊](/help/report-builder/select-data-view.md)</li><li>[顯示和隱藏行與欄標題](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html?lang=zh-Hant#build-the-data-block)</li></ul> |
-| Edge Network 地理位置查詢 | [資料流設定](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant)現已具備地理位置查詢服務，提供統一的地理位置資料。 |
+| 已擴大對輪廓和查找資料的支援 | 提供將資料集新增為輪廓或查找資料集內欄位之查找的功能。 之前僅支援事件資料集。 [了解更多](/help/connections/create-connection.md) |
+| Report Builder 改良功能 | <ul><li>[從儲存格篩選多個資料區塊](/help/report-builder/select-data-view.md)</li><li>[顯示和隱藏行與欄標題](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/create-a-data-block.html#build-the-data-block)</li></ul> |
+| Edge Network 地理位置查詢 | [資料流設定](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html)現已具備地理位置查詢服務，提供統一的地理位置資料。 |
 | **2023 年 6 月** | |
 | 跨管道分析與彙整 | 因為預期即將進行的變更會啟用彙整並進一步釐清如何使用彙整來提升跨管道分析，我們編輯了與跨管道分析功能相關的文件，以便參照[跨管道分析](../use-cases/cross-channel/cross-channel.md)做為 Customer Journey Analytics 功能和使用案例，並參照[彙整](../stitching/overview.md)做為完成此目標的重要功能。 |
 | PowerBI 和 Tableau 可存取 Customer Journey Analytics 資料檢視 | Customer Journey Analytics BI 擴充功能可讓 SQL 存取您在 Customer Journey Analytics 中定義的資料視圖。 [了解更多](/help/data-views/bi-extension.md) |
-| Adobe Journey Optimizer 資料檢視 | Customer Journey Analytics 管理員可以存取 Customer Journey Analytics 中一些額外的資料檢視，標題為「AJO 資料檢視 (沙箱名稱)」。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/reporting/channel-report/reporting-configuration)。 |
+| Adobe Journey Optimizer 資料檢視 | Customer Journey Analytics 管理員可以存取 Customer Journey Analytics 中一些額外的資料釋圖，標題為「AJO 資料釋圖 (沙箱名稱)」。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/reporting/channel-report/reporting-configuration)。 |
 | 貨幣轉換 | 已更新[貨幣轉換](../data-views/component-settings/format.md#currency)支援的文件。 |
 | 計算量度更新 | 已針對計算量度文件進行以下更新，使其與目前的 Customer Journey Analytics 功能維持一致： <ul><li>已更新 Customer Journey Analytics 中可用的[預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)清單</li><li>已更新各種計算量度文章中的螢幕擷取畫面和程序 </li></ul> |
 | **2023 年 5 月** | |
-| 深度連結 (行動應用程式) 文件 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=zh-Hant#share-scorecards-using-a-shareable-link) |
-| Report Builder 中關於「從儲存格中選取資料檢視」的文件 | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html?lang=zh-Hant) |
-| Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html?lang=zh-Hant#use-dashboards) |
+| 深度連結 (行動應用程式) 文件 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html#share-scorecards-using-a-shareable-link) |
+| Report Builder 中關於「從儲存格中選取資料檢視」的文件 | 此功能可讓使用者從儲存格中選取資料區塊的資料檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/select-data-view.html) |
+| Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/executive.html#use-dashboards) |
 | 最佳化更新 | 已更新關於[最佳化 Customer Journey Analytics 效能](/help/technotes/optimizing-performance.md)的文章 |
 | Analysis Workspace 概觀 | 更新 [Analysis Workspace 概觀](/help/analysis-workspace/home.md)以包含更多一般概觀資訊和相關內容的連結。 |
 | 建立專案 | 建立新文章，其中詳細說明如何在 Analysis Workspace [建立專案](/help/analysis-workspace/build-workspace-project/create-projects.md)。 |
@@ -265,26 +243,26 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 智慧標題文件 | 使用台詞視覺效果[自然語言摘要](/help/analysis-workspace/visualizations/intelligent-captions.md)來增強使用者的故事講述效果。 |
 | 衍生欄位 | 已新增[衍生欄位](../data-views/derived-fields/derived-fields.md)功能的文章。 |
 | **2023 年 4 月** |  |
-| 關於使用區段做為維度的影片 | 更新關於使用區段做為維度的影片 <p>該影片連結自「[建立區段](/help/components/segments/seg-create.md)」頁面。</p> <p>以下是影片的直接連結：[在 Analysis Workspace 中使用區段做為維度](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html?lang=zh-Hant)。</p> |
+| 關於使用區段做為維度的影片 | 更新關於使用區段做為維度的影片 <p>該影片連結自「[建立區段](/help/components/segments/seg-create.md)」頁面。</p> <p>以下是影片的直接連結：[在 Analysis Workspace 中使用區段做為維度](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/use-filters-as-dimensions.html)。</p> |
 | 區段文件 | 新增說明如何使用[區段產生器](/help/components/segments/seg-builder.md)的文章。 <p>簡化了[建立區段](/help/components/segments/seg-create.md)和[區段概觀](/help/components/segments/seg-overview.md)文件。</p> |
-| 實驗面板文件更新 | 新增有關[解釋非隨機維度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=zh-Hant#non-randomized)的章節。 |
+| 實驗面板文件更新 | 新增有關[解釋非隨機維度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html#non-randomized)的章節。 |
 | 專案區段 (臨時和快速區段) | 簡化了專案區段的文件，並刪除重複資訊。 建立臨時區段的步驟現在已經和下列步驟相結合，用於[建立快速區段](/help/components/segments/seg-quick.md)。 |
 | **2023 年 3 月** | |
 | 整合決策管理資料 | 已新增內容來說明如何[在 Customer Journey Analytics 中整合 Adobe Journey Optimizer 決策管理資料](/help/integrations/ajo-od.md)。 |
 | 在行動計分卡中建立資料故事 | [資料故事](/help/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |
 | 更新功能支援 | 已透過 Customer Journey Analytics 中提供、但在 AA 中無法使用或不支援的功能表來更新 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。 |
 | 預設計算量度 | 已新增說明 [Adobe 提供的預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)的內容。 |
-| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/components/data-dictionary/view-data-dictionary.md)、[編輯 &#x200B;](/help/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
+| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/components/data-dictionary/view-data-dictionary.md)、[編輯 ](/help/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
 | 專案連結共用 (不需登入) | <p>已更新現有文件，說明如何與無權存取 Analysis Workspace 的人員共用專案的唯讀連結。</p> <p>已更新使用者文件，包括[共用專案](/help/analysis-workspace/curate-share/share-projects.md)和[建立可共用連結](/help/analysis-workspace/curate-share/shareable-links.md)。</p> <p>已將管理員選項新增至[偏好設定](/help/analysis-workspace/user-preferences.md)。</p> |
 | **2023 年 2 月** | |
 | 比較 Customer Journey Analytics 和 BI 解決方案 | Customer Journey Analytics 與典型 BI 解決方案[比較](../getting-started/cja-vs-bi.md)的新文件。 |
-| 更新至 Audiences 文件 | 有關[延遲的注意事項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-Hant#latency)的新章節。 |
+| Audiences 文件更新 | 有關[延遲的注意事項](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)的新章節。 |
 | Audiences 文件的更新 | 建立客群之後，Adobe 會[為每個新的 Customer Journey Analytics 客群建立一個 Experience Platform 串流細分群體](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=zh-hant#after-audience-created)。 |
-| Workspace 行事曆和日期範圍 | 更新內容以說明相對日期範圍、公式計算更新和行事曆 UI 變更。 查看[關於相對面板日期範圍](/help/components/date-ranges/overview.md#custom-date-ranges)。 |
-| Mobile 計分卡 | 新文件部分會說明如何顯示和隱藏比較日期範圍。 請參閱 Customer Journey Analytics 中的「[顯示比較日期範圍](/help/mobile-app/create-scorecard.md#show-comparison-dates)」。 |
+| 工作區行事曆和日期範圍 | 更新內容以說明相對日期範圍、公式計算更新和行事曆 UI 變更。 查看[關於相對面板日期範圍](/help/components/date-ranges/overview.md#custom-date-ranges)。 |
+| Mobile 計分卡 | 新增文件區段，說明如何顯示和隱藏比較日期範圍。 請參閱 Customer Journey Analytics 中的「[顯示比較日期範圍](/help/mobile-app/create-scorecard.md#show-comparison-dates)」。 |
 | **2023 年 1 月** | |
 | 篩選和排序表格 | 已更新[篩選和排序表格](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的內容 (包括新增過程和說明可用選項)。 重新命名本文的「分頁、篩選和排序表格」。 |
-| 資料擷取快速入門指南 | 新增有關如何在 Customer Journey Analytics 中[擷取和使用資料](/help/data-ingestion/data-ingestion.md)的文件內容。 |
+| 資料攝取快速入門指南 | 新增有關如何在 Customer Journey Analytics 中[擷取和使用資料](/help/data-ingestion/data-ingestion.md)的文件內容。 |
 | 工作區資料夾 | [資料夾管理](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)的專用頁面。 |
 | 工作區使用者偏好設定 | [偏好設定](/help/analysis-workspace/user-preferences.md)現在提供許多其他使用者偏好設定。 |
 | 自動儲存工作區專案 | 已更新內容，在[儲存專案](/help/analysis-workspace/build-workspace-project/save-projects.md)中加入自動儲存功能。 |
@@ -301,19 +279,19 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2022 年 12 月** |  |
 | 2022 年 12 月 16 日 | 新增有關[管理 Customer Journey Analytics 資料使用情況](/help/technotes/estimate-usage.md)的主題。 |
 | **2022 年 10 月** | |
-| 2022 年 10 月 | 有關[排程專案的密碼保護](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=zh-Hant#password)的新主題。 此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
+| 2022 年 10 月 | 有關[排程專案的密碼保護](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password)的新主題。 此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
 | 2022 年 10 月 | 有關[客戶自控金鑰](/help/privacy/cmk.md)的新主題。 此功能支援 [HIPAA 整備程度](https://www.adobe.com/tw/trust/compliance/hipaa-ready.html)。 |
 | 2022 年 10 月 | 新增有關 [Customer Journey Analytics 稽核記錄](/help/privacy/audit-log.md)的主題。 |
-| 2022 年 10 月 | 新主題：[關鍵量度摘要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=zh-Hant)視覺化。 |
-| 2022 年 10 月 | 新章節：[資料檢視中的日期和日期-時間功能](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#date) |
-| 2022 年 10 月 | 行動應用程式：新主題：[自訂詳細檢視](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant#view-detail-slides)。 |
+| 2022 年 10 月 | 新主題：[關鍵量度摘要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html)視覺化。 |
+| 2022 年 10 月 | 新章節：[資料檢視中的日期和日期-時間功能](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#date) |
+| 2022 年 10 月 | 行動應用程式：新主題：[自訂詳細檢視](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#view-detail-slides)。 |
 | 2022 年 10 月 | [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)主題的更新。 |
 | **2022 年 9 月** | |
 | 2022 年 9 月 | 新增有關[將 Google Analytics 資料移轉到 Customer Journey Analytics](/help/use-cases/third-party/ga/overview.md) 的使用案例。 |
 | 2022 年 9 月 | Workspace [組合圖表](/help/analysis-workspace/visualizations/combo-charts.md)的新主題。 |
 | 2022 年 9 月 | Workspace [實驗面板](/help/analysis-workspace/c-panels/experimentation.md)的新主題。 |
 | **2022 年 8 月** | |
-| 2022 年 8 月 | 有關 [Analytics 來源連接器的跨區域支援](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)的 Adobe Experience Platform 文章 |
+| 2022 年 8 月 | 有關 [Analytics 來源連接器的跨區域支援](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)的 Adobe Experience Platform 文章 |
 | 2022 年 8 月 | 大幅更新有關 [Customer Journey Analytics 存取控制](/help/technotes/access-control.md)的文章。 |
 | 2022 年 8 月 | 新增有關 [Customer Journey Analytics 支援資料控管標籤和原則](/help/data-views/data-governance.md)的文章。 |
 | 2022 年 8 月 | 新增[比較透過 Analytics 來源連接器傳遞的 Analytics 資料的術語](/help/getting-started/aa-vs-cja/terminology.md)的文章 |
@@ -321,7 +299,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2022 年 7 月** | |
 | 2022 年 7 月 | [「媒體播放時間」面板](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=zh-hant)文件。 |
 | 2022 年 7 月 | [「媒體同時檢閱者」面板](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/media-concurrent-viewers.html?lang=zh-hant)文件。 |
-| 2022 年 7 月 | [第一個工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=zh-Hant#new-repeat)報告文件。 |
+| 2022 年 7 月 | [第一個工作階段](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html#new-repeat)報告文件。 |
 | **2022 年 6 月** | |
 | 2022 年 6 月 | 關於 [AAID、ECID、AACUSTOMID 和 Analytics 來源連接器](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=zh-hant)的新文章 |
 | 2022 年 6 月 | 新增 [Adobe Analytics 處理規則、VISTA 和分類與 Analytics 來源連接器的「資料準備」的比較](/help/getting-started/aa-vs-cja/pr-vista-dataprep.md)的文章 |
@@ -344,11 +322,11 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 2022 年 3 月 | 有關[工作區中註解](/help/components/annotations/overview.md)的新文件。 |
 | 2022 年 3 月 | 有關[估算連線規模](/help/getting-started/cja-faq.md)的重大更新內容。 |
 | **2022 年 2 月** | |
-| 2022 年 2 月 | 新增適用於從 Adobe Analytics 移至 Customer Journey Analytics 的管理員指南：[Adobe Analytics 至 Customer Journey Analytics 的發展進程](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=zh-Hant) |
+| 2022 年 2 月 | 新增適用於從 Adobe Analytics 移至 Customer Journey Analytics 的管理員指南：[Adobe Analytics 至 Customer Journey Analytics 的發展進程](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html) |
 | **2022 年 1 月** | |
 | 1 月 2022 日 | 新增[在 Customer Journey Analytics 中使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)的使用案例 |
-| 1 月 2022 日 | 新增關於[繫結維度和量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html?lang=zh-Hant#binding-dimension)，以及新的[[!UICONTROL 最先已知]和[!UICONTROL 最後已知]配置設定](/help/data-views/component-settings/persistence.md#allocation-settings)的新功能文件 |
-| 1 月 2022 日 | 新增有關[比較 Adobe Analytics 資料與 Customer Journey Analytics 中的 Analytics 資料](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html?lang=zh-Hant)的文章 |
+| 1 月 2022 日 | 新增關於[繫結維度和量度](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension)，以及新的[[!UICONTROL 最先已知]和[!UICONTROL 最後已知]配置設定](/help/data-views/component-settings/persistence.md#allocation-settings)的新功能文件 |
+| 1 月 2022 日 | 新增有關[比較 Adobe Analytics 資料與 Customer Journey Analytics 中的 Analytics 資料](https://experienceleague.adobe.com/docs/analytics-platform/using/troubleshooting/compare.html)的文章 |
 
 {style="table-layout:auto"}
 
@@ -359,7 +337,7 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | **2021 年 11 月** | |
 | 2021 年 11 月 | 已更新「連線詳細資料」頁面上「[[!UICONTROL 略過的記錄]](/help/connections/manage-connections.md)」文件。 |
 | **2021 年 10 月** | |
-| 2021 年 10 月 | 適用於 Customer Journey Analytics 之 [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/rb-overview.html?lang=zh-Hant#) 的文件。 |
+| 2021 年 10 月 | 適用於 Customer Journey Analytics 之 [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/rb-overview.html#) 的文件。 |
 | 2021 年 10 月 | Customer Journey Analytics [稽核紀錄](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API 文件 |
 | 2021 年 10 月 | [Analytics 儀表板視覺效果](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=zh-hant#apply-visualizations)的紀錄 |
 | 2021 年 10 月 | [!UICONTROL 連線][資料保留](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-hant#set-rolling-window-for-connection-data-retention)滾動時段的文件。 |
@@ -368,8 +346,8 @@ Customer Journey Analytics 文件從開始建立以來完成以下更新。
 | 2021 年 9 月 | [報表中的「日光節約時間」支援](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-hant#calendar) |
 | 2021 年 9 月 | [客戶行事曆](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-hant#calendar)文件 |
 | 2021 年 9 月 | [布林值欄位](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=zh-hant)文件 |
-| 2021 年 9 月 | 將資料檢視中的元件設定拆解成個別檔案:<ul><li>[[!UICONTROL 元件]設定概觀](/help/data-views/component-settings/overview.md)</li><li>[[!UICONTROL 歸因]元件設定](/help/data-views/component-settings/attribution.md)</li><li>[[!UICONTROL 行為]元件設定](/help/data-views/component-settings/behavior.md)</li><li>[[!UICONTROL 格式]元件設定](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL 包含/排除]元件設定](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL 量度重複資料刪除]元件設定](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL 無值]元件設定](/help/data-views/component-settings/no-value-options.md)</li><li>[[!UICONTROL 持續性]元件設定](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL 值分組]元件設定](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
-| 2021 年 9 月 | 新增有關在 Customer Journey Analytics 中[合併報告套裝的影響](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=zh-Hant#6.-considerations-when-merging-report-suites-in-cja)的章節。 |
+| 2021 年 9 月 | 將資料檢視中的元件設定拆解成個別檔案：<ul><li>[[!UICONTROL 元件]設定概觀](/help/data-views/component-settings/overview.md)</li><li>[[!UICONTROL 歸因]元件設定](/help/data-views/component-settings/attribution.md)</li><li>[[!UICONTROL 行為]元件設定](/help/data-views/component-settings/behavior.md)</li><li>[[!UICONTROL 格式]元件設定](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL 包含/排除]元件設定](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL 量度重複資料刪除]元件設定](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL 無值]元件設定](/help/data-views/component-settings/no-value-options.md)</li><li>[[!UICONTROL 持續性]元件設定](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL 值分組]元件設定](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
+| 2021 年 9 月 | 新增有關在 Customer Journey Analytics 中[合併報告套裝的影響](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#6.-considerations-when-merging-report-suites-in-cja)的章節。 |
 | **2021 年 8 月** | |
 | 2021 年 8 月 | 新增有關增強 Customer Journey Analytics 之[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-hant)體驗的章節。 |
 | 2021 年 8 月 | 有關[「資料檢視」維度中區分大小寫](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-hant#configure-behavior-settings)的新章節。 |

@@ -7,18 +7,11 @@ feature: Basics
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
 autotag-review: '2026-05-19T08:17:31.632Z'
 TQID: 'https://experienceleague.adobe.com/ov6cr-MF9OeH8OU23Km0KdD2l0LirVpVor4nndHpqo8'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 587
@@ -50,7 +43,7 @@ ht-degree: 100%
 
 ## 了解 Analytics 來源連接器如何讓歷史資料進入 Customer Journey Analytics
 
-您可以使用 Analytics 來源連接器，讓 Adobe Analytics 報告套裝資料進入 Adobe Experience Platform。 然後，這些資料可以用作 Customer Journey Analytics 的歷史資料。
+您可以使用 Analytics 來源連接器，將 Adobe Analytics 報告套裝資料匯入 Adobe Experience Platform。 然後，這些資料可以用作 Customer Journey Analytics 的歷史資料。
 
 此流程假設您[想要建立自訂結構描述以便與 Customer Journey Analytics Web SDK 實施一起使用](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，因為您需要一個以您組織需求和所用特定 Platform 應用程式量身定制的精簡結構描述。
 
@@ -84,7 +77,7 @@ Analytics 來源連接器的這個結構描述需要包含：
 
 1. 新增您為 Web SDK 實施建立的結構描述中包含的所有欄位群組 (包括任何自訂欄位群組)。
 
-1. 新增完這些欄位群組後，要新增 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 欄位群組：
+1. 新增完這些欄位群組後，要新增 Adobe Analytics ExperienceEvent 欄位群組：
 
    在「**[!UICONTROL 欄位群組]**」部分，選取「**[!UICONTROL 新增]**」以新增其他欄位群組。
 

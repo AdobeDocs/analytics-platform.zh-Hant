@@ -6,16 +6,11 @@ exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
 autotag-review: '2026-05-19T08:39:33.544Z'
 TQID: 'https://experienceleague.adobe.com/X0VLZhluDR9Q-ax7TcTOHEcn4r0V5yu64spZlfc4fwU'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: ddf59f64-0e46-4986-a525-056acc143c70
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 349
@@ -30,19 +25,19 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_button"
 >title="流量"
->abstract="建立視覺效果以查看從某一接觸點到下一個接觸點的人員流量。"
+>abstract="建立視覺效果以查看從某一檢查點到下一個檢查點的人員流量。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="流量"
->abstract="分析從某一接觸點到下一個接觸點的造訪或訪客流量。 指定開始和結束的元件 (量度、維度或項目)。 或者，您也可以定義進階設定，進一步設定視覺效果。"
+>abstract="分析從某一接觸點到下一個接觸點的造訪或訪客流量。 指定開始和結束的元件 (量度、維度或項目)。 您也可以視需要定義進階設定，進一步設定視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄流量視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[流量](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄流量視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本，請參閱[流量](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow)。_
 
 >[!ENDSHADEBOX]
 
@@ -52,13 +47,13 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 透過視覺效果可以：
 
 * 將透過您網站或應用程式的客戶歷程以視覺效果呈現。
-* 分析客戶在所指定查核點 (例如登入、特定維度或退出) 之前和之後的前往位置。
+* 分析客戶在所指定檢查點 (例如進入、特定維度或退出) 之前和之後的前往位置。
 * 指定選定路徑中的特定點，建立區段。
 
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立流量視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立流量視覺效果](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"}的示範影片。
 
 {{videoaa}}
 
@@ -92,6 +87,6 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 
 * 對路徑的下一個接觸點進行探索性的臨機分析。 (使用歷程畫布來記錄有預先定義的頁面序列的歷程，或用來記錄使用最終路徑的歷程。)
 
-* 具有多個入口點和路徑的非線性歷程。 (使用歷程畫布來記錄具有預先定義頁面序列的歷程。)
+* 具有多個入口點和路徑的非線性歷程。 (使用歷程畫布處理具有預先定義頁面序列的歷程。)
 
 使用[上面表格](#understand-the-differences)來了解流量、流失和流量和歷程畫布之間的差異。

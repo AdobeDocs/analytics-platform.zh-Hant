@@ -6,27 +6,14 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 TQID: https://experienceleague.adobe.com/EXiKrWVfmMRgZ4GF0OR410Mr2-P5IEjPy3Hf0FmRDJ8
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
 workflow-type: tm+mt
-source-wordcount: 3043
+source-wordcount: 3152
 ht-degree: 77%
 
 ---
@@ -38,20 +25,20 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立或編輯資料檢視](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立或編輯資料檢視](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 
-若要建立或編輯資料視圖：
+若要建立或編輯資料釋圖：
 
 1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 然後選取「**[!UICONTROL 資料視圖]**」，也可以自頂部選單中選取「**[!UICONTROL 資料管理]**」。
-1. 若要建立資料視圖，請選取「**[!UICONTROL 建立新的資料視圖]**」。 或者，您可以從資料視圖清單中選取現有資料視圖進行編輯。
+1. 若要建立資料視圖，請選取「**[!UICONTROL 建立新的資料視圖]**」。 或者，您可以從資料釋圖清單中選取現有資料釋圖進行編輯。
 
 
 ## 設定 {#configure}
 
-設定新的或現有的資料視圖的方法：
+設定新的或現有的資料釋圖的方法：
 
 ![使用個別的容器索引標籤設定資料檢視](assets/data-view-configure-containers.png)
 
@@ -70,14 +57,14 @@ ht-degree: 77%
 >abstract="變更外部 ID 會影響資料檢視名稱在外部來源 (例如商業智慧工具) 中的顯示方式。"
 
 
-為資料視圖提供總體設定。
+為資料釋圖提供總體設定。
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 連線]** | 此欄位會將資料視圖連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
-| **[!UICONTROL 名稱]** | 必填。 資料視圖的名稱。 此值顯示在 Analysis Workspace 右上角的下拉式選單中。 |
-| **[!UICONTROL 外部 ID]** | 必填。 您可以在外部來源 (例如商業智慧工具) 中使用的資料視圖名稱。 預設值為 `unspecified`。 如果不指定外部 ID，則將從資料視圖的名稱產生該名稱，並以底線取代空格。 |
-| **[!UICONTROL 說明]** | 選填。 Adobe 建議使用詳細說明，讓用戶了解資料視圖存在的原因及其設計客群。 |
+| **[!UICONTROL 連線]** | 此欄位會將資料釋圖連結至您先前建立的連線，其中包含一或多個 Adobe Experience Platform 資料集。 |
+| **[!UICONTROL 名稱]** | 必填。 資料釋圖的名稱。 此值顯示在 Analysis Workspace 右上角的下拉式選單中。 |
+| **[!UICONTROL 外部 ID]** | 必填。 您可以在外部來源 (例如商業智慧工具) 中使用的資料釋圖名稱。 預設值為 `unspecified`。 如果不指定外部 ID，則將從資料釋圖的名稱產生該名稱，並以底線取代空格。 |
+| **[!UICONTROL 說明]** | 選填。 Adobe 建議使用詳細說明，讓用戶了解資料釋圖存在的原因及其設計客群。 |
 
 {style="table-layout:auto"}
 
@@ -97,7 +84,7 @@ ht-degree: 77%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL **設為 Adobe Journey Optimizer 中的預設資料視圖**] | 您可使用此設定選項，讓 Journey Optimizer 和 Customer Journey Analytics 共用標準化報告， 並在 Customer Journey Analytics 中對 Adobe Journey Optimizer 資料執行進階分析 (在 Journey Optimizer 中選取 ![開啟](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg)「[!UICONTROL **在 CJA 中分析**]」按鈕)。<p>Journey Optimizer 需擁有 Customer Journey Analytics 資料視圖的存取權，才能執行此類分析。<p>啟用此選項可使其成為您沙箱的 Journey Optimizer 報告中的預設資料視圖。</p><p>此設定選項會自動完成以下操作：</p><ul><li>在 Customer Journey Analytics 的相關連線中，設定所有必要的 Journey Optimizer 資料集，以供 Journey Optimizer 使用。</li><li>在資料視圖中建立一組 Journey Optimizer 量度和維度 (包括衍生欄位和計算量度)。 系統會為所有這些指標和維度自動設定內容標籤。</li><li>在與此資料視圖關聯的連線中，自動啟用&#x200B;**[!UICONTROL 在 CJA 中使用]**&#x200B;選項。 (若要了解更多關於此選項的資訊，請參閱[在 Customer Journey Analytics 中使用 Journey Optimizer 連線](/help/connections/manage-connections.md)。)<p>如果您在啟用此設定後手動將其停用，連線和任何相關的資料視圖都會重設為預設狀態。 這可能會導致報告中的資料變更。</p></li></ul><p><p>啟用此選項時請考慮以下事項： <ul><li>您可於日後變更預設資料視圖，但這麼做可能會對 Journey Optimizer 報告資料造成影響。 如果您在啟用此選項後又選擇停用，系統將提示您選取新的預設資料視圖。</li><li>如果您已對 Customer Journey Analytics 資料視圖中的資料集、維度或量度進行了手動自訂，則在啟用此設定選項時，您的手動自訂將保持不變。 此選項可進行額外的自訂，進一步標準化跨 Journey Optimizer 和 Customer Journey Analytics 的報告。 您也可以在啟用此選項後進行手動自訂。</li><li>在選取此選項後，就無法刪除與資料檢視關聯的連線。</li></ul>如需詳細資訊，請參閱[整合 Adobe Journey Optimizer 與 Adobe Customer Journey Analytics](/help/integrations/ajo.md)。 |
+| [!UICONTROL **設為 Adobe Journey Optimizer 中的預設資料視圖**] | 此設定選項可讓 Journey Optimizer 和 Customer Journey Analytics 的報告標準化。 並在 Customer Journey Analytics 中對 Adobe Journey Optimizer 資料執行進階分析 (在 Journey Optimizer 中選取 ![開啟](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg)「[!UICONTROL **在 CJA 中分析**]」按鈕)。<p>Journey Optimizer 需擁有 Customer Journey Analytics 資料釋圖的存取權，才能執行此類分析。<p>啟用此選項可使其成為您沙箱的 Journey Optimizer 報告中的預設資料釋圖。</p><p>此設定選項會自動完成以下操作：</p><ul><li>在 Customer Journey Analytics 的相關連線中，設定所有必要的 Journey Optimizer 資料集，以供 Journey Optimizer 使用。</li><li>在資料釋圖中建立一組 Journey Optimizer 量度和維度 (包括衍生欄位和計算量度)。 系統會為所有這些指標和維度自動設定內容標籤。</li><li>在與此資料視圖關聯的連線中，自動啟用&#x200B;**[!UICONTROL 在 CJA 中使用]**&#x200B;選項。 (若要了解更多關於此選項的資訊，請參閱[在 Customer Journey Analytics 中使用 Journey Optimizer 連線](/help/connections/manage-connections.md)。)<p>如果您在啟用此設定後手動將其停用，連線和任何相關的資料視圖都會重設為預設狀態。 這可能會導致報告中的資料變更。</p></li></ul><p><p>啟用此選項時請考慮以下事項： <ul><li>您可於日後變更預設資料釋圖，但這麼做可能會對 Journey Optimizer 報告資料造成影響。 如果您在啟用此選項後又選擇停用，系統將提示您選取新的預設資料釋圖。</li><li>如果您已對 Customer Journey Analytics 資料釋圖中的資料集、維度或量度進行了手動自訂，則在啟用此設定選項時，您的手動自訂將保持不變。 此選項可進行額外的自訂，進一步標準化跨 Journey Optimizer 和 Customer Journey Analytics 的報告。 您也可以在啟用此選項後進行手動自訂。</li><li>在選取此選項後，就無法刪除與資料釋圖關聯的連線。</li></ul>如需詳細資訊，請參閱[整合 Adobe Journey Optimizer 與 Adobe Customer Journey Analytics](/help/integrations/ajo.md)。 |
 
 {style="table-layout:auto"}
 
@@ -109,7 +96,7 @@ ht-degree: 77%
 
 ### 行事曆
 
-指示您希望資料視圖遵循的行事曆格式。 您可以根據同一個[連線](/help/connections/create-connection.md)擁有多個資料視圖，並為它們提供不同的行事曆類型或時區。 這些資料視圖可以讓使用不同行事曆類型的團隊，透過相同的基礎資料滿足各自的需求。
+指示您希望資料釋圖遵循的行事曆格式。 您可以根據同一個[連線](/help/connections/create-connection.md)擁有多個資料視圖，並為它們提供不同的行事曆類型或時區。 這些資料視圖可以讓使用不同行事曆類型的團隊，透過相同的基礎資料滿足各自的需求。
 
 | 設定 | 說明 |
 | --- | --- |
@@ -142,12 +129,12 @@ ht-degree: 77%
 
 ### 系統容器
 
-指定資料視圖的容器名稱。 容器名稱在[區段](/help/components/segments/seg-overview.md#containers)中經常使用。
+指定資料釋圖的容器名稱。 容器名稱在[區段](/help/components/segments/seg-overview.md#containers)中經常使用。
 
 | 容器名稱 | 顯示名稱（預設） | 說明 |
 | --- | --- | --- |
 | globalAccount | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 全域帳戶&#x200B;]** | 「[!UICONTROL 全域帳戶]」容器包含指定時間段內全域帳戶的每個工作階段和事件。 若您的組織使用不同的術語，您可以在此處重新命名容器。 |
-| 人員 | **[!UICONTROL 人員]** | 「[!UICONTROL 人員]」容器包含指定時間段內人員的每個工作階段和事件。 如果您的組織使用不同的術語 (例如，「訪客」或「用戶」)，您可以在此處重新命名容器。 |
+| 人員 | **[!UICONTROL 人員]** | 「[!UICONTROL 人員]」容器包含指定時間段內人員的每個工作階段和事件。 如果您的組織使用不同的術語 (例如，「訪客」或「使用者」)，您可以在此處重新命名容器。 |
 | session | **[!UICONTROL 工作階段]** | 「[!UICONTROL 工作階段]」容器讓您可以識別特定工作階段的頁面互動、促銷活動或轉換。 您可以將此容器重新命名為「Visit」或您組織偏好的其他任何詞語。 |
 | 商機 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 商機&#x200B;]** | 「[!UICONTROL 機會]」容器包含指定時間段內機會的每個工作階段和事件。 若您的組織使用不同的術語，您可以在此處重新命名容器。 |
 | purchingGroup | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL 購買群組&#x200B;]** | 「[!UICONTROL 購買群組]」容器包含指定時間段內購買群組的每個工作階段和事件。 若您的組織使用不同的術語，您可以在此處重新命名容器。 |
@@ -220,9 +207,9 @@ ht-degree: 77%
 
 1. 使用「![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)**[!UICONTROL 搜尋結構描述欄位]**」來搜尋結構描述欄位，或者移動到任何資料集集合中尋找欄位，例如「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 事件資料集]**」或「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 查詢資料集]**」。 對於事件資料集，![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL XDM欄位]**&#x200B;和![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL 臨機欄位和關聯欄位]**&#x200B;有可用的個別集合。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **建立衍生欄位**&#x200B;來建立衍生欄位。 請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
-1. 找到特定結構描述欄位或定義衍生欄位後，請將該欄位（例如![控制點圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件下**&#x200B;[!UICONTROL &#x200B;量度&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B;維度&#x200B;]&#x200B;**區段]**。
-您可以將相同的結構欄位拖曳到維度或量度區段多次，並以不同的方式設定相同的維度或量度。例如，從pageName欄位，使用右側不同的[元件設定](component-settings/overview.md)來建立`Product Pages`和`Error pages`維度。
-如果您從左側邊欄拖曳結構描述欄位資料夾，資料夾中的欄位會自動排序到適當的區段中。字串欄位會在[!UICONTROL 維度]區段中結束，而數值結構描述型別最終出現在[!UICONTROL 量度]區段中。您也可以按一下「新增全部&#x200B;**」**，並將所有結構描述欄位新增至其各自的區段。
+1. 找到特定結構描述欄位或定義衍生欄位後，請將該欄位（例如![控制點圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件下**[!UICONTROL &#x200B;量度&#x200B;]**或**[!UICONTROL &#x200B;維度&#x200B;]**區段]**。
+您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。 例如，從pageName欄位，使用右側不同的[元件設定](component-settings/overview.md)來建立`Product Pages`和`Error pages`維度。
+如果從左側邊欄拖曳一個結構描述欄位資料夾，資料夾中的欄位會自動排序成為適當的區段。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數值結構描述類型最終出現在「[!UICONTROL 量度]」區段中。 您也可以按一下「**[!UICONTROL 新增全部]**」，並新增所有結構描述欄位至其各自的區段。
 
 1. 選取元件後，右側會出現設定。
 
@@ -267,7 +254,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_contract"
 >title="合約標籤"
->abstract="我們使用合約 (C) 標籤針對具有合約義務或與貴組織的資料治理原則相關的資料進行分類。"
+>abstract="合約 (C) 標籤用於分類具有合約義務或與貴組織的資料治理原則相關的資料。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
 
 >[!CONTEXTUALHELP]
@@ -292,7 +279,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_policies"
 >title="原則"
->abstract="若要支援資料合規性，請實作資料使用原則。 這些原則會說明 Experience Platform 中允許或限制對資料執行的行銷動作。 原則篩選器將啟用的原則套用至資料視圖。"
+>abstract="若要支援資料合規性，請實作資料使用原則。 這些原則會說明 Experience Platform 中允許或限制對資料執行的行銷動作。 原則篩選器將啟用的原則套用至資料釋圖。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview" text="資料使用標籤概觀"
 
 
@@ -327,14 +314,14 @@ ht-degree: 77%
 
    ![資料視圖設定](assets/dataview-settings.png)
 
-1. 設定區段以套用於整個資料視圖。 請參閱下方的[設定 (區段)](#settings-filters)。
+1. 設定區段以套用於整個資料釋圖。 請參閱下方的[設定 (區段)](#settings-filters)。
 1. 設定工作階段逾時和量度。 請參閱下方的「[工作階段設定](#session-settings)」。
 
 1. 選取「**[!UICONTROL 儲存並繼續]**」，繼續設定新的或現有的資料視圖。 選取「**[!UICONTROL 儲存]**」，儲存現有資料視圖的設定。
 
 ### 設定 (區段) {#segment-settings}
 
-您可以新增套用至整個資料視圖的區段。 此區段將套用至您在 Workspace 中執行的任何報告。 自左側邊欄的元件將區段拖曳至「**[!UICONTROL 新增區段]**」欄位。
+您可以新增套用至整個資料釋圖的區段。 此區段將套用至您在 Workspace 中執行的任何報告。 自左側邊欄的元件將區段拖曳至「**[!UICONTROL 新增區段]**」欄位。
 
 ### 工作階段設定
 
@@ -342,7 +329,7 @@ ht-degree: 77%
 
 ### 資料預覽
 
-資料預覽會將此資料視圖的資料與連線的資料進行比較 (針對各種容器)。 預覽百分比是根據連線中過去 90 天的總數。
+資料預覽會將此資料釋圖的資料與連線的資料進行比較 (針對各種容器)。 預覽百分比是根據連線中過去 90 天的總數。
 
 如果預覽未載入，表示您的連線仍在回填。
 

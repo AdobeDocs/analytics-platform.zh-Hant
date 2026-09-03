@@ -6,18 +6,11 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: User
 TQID: https://experienceleague.adobe.com/ur8f2cMDdoncdUzZ8FDAUYbJZ-8JOyAKKZ5p5Go-OkM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1089
@@ -38,7 +31,7 @@ ht-degree: 48%
 ## 先決條件
 
 * 必須已使用[Analytics來源聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)將報表套裝資料匯入Adobe Experience Platform。 由於行銷管道需仰賴 Analytics 報告套裝中的處理規則來運作，因此不支援其他資料來源。
-* 行銷管道處理規則須完成設定。 請參閱Adobe Analytics元件指南中的[行銷管道的處理規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules)。
+* 行銷管道處理規則須完成設定。 請參閱Adobe Analytics元件指南中的[行銷管道的處理規則](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules)。
 
 ## 行銷管道結構元素
 
@@ -46,10 +39,10 @@ ht-degree: 48%
 
 1. [建立連線](/help/connections/create-connection.md)，其中包含以Analytics來源聯結器為基礎的資料集。
 2. [建立資料檢視](/help/data-views/create-dataview.md)，其中包含下列維度：
-   * **`channel.typeAtSource`**：相當於[行銷管道](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/marketing-channel)維度。
-   * **`channel._id`**：相當於[行銷管道詳細資訊](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/marketing-detail)。
-3. 為各維度提供所需的歸因模型和持續性。 若您要同時使用首次接觸和最近一次接觸等維度，請分次將各行銷管道維度拖曳至元件區域。 為各維度提供所需的歸因模型和持續性。 Adobe 也建議針對各維度指定顯示名稱，以便在 Analysis Workspace 中使用。
-4. 建立資料檢視。
+   * **`channel.typeAtSource`**：相當於[行銷管道](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel)維度。
+   * **`channel._id`**：相當於[行銷管道詳細資訊](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-detail)。
+3. 為各維度提供所需的歸因模型和持續性。 若您要同時使用首次接觸和最近一次接觸等維度，請將各行銷管道維度多次拖曳至元件區域。 為各維度提供所需的歸因模型和持續性。 Adobe 也建議針對各維度指定顯示名稱，以便在 Analysis Workspace 中使用。
+4. 建立資料釋圖。
 
 現在您可透過 Analysis Workspace 使用您的行銷管道維度。
 
@@ -73,9 +66,9 @@ ht-degree: 48%
 
   ![瀏覽的第一個頁面](../assets/first-page-of-visit.png)
 
-* **覆寫最近一次接觸管道**：這項設定位於「行銷管道管理員」，一旦啟用，通常某些管道就無法取得最近一次接觸管道的評分。 Platform 會忽略這項設定，導致「直接」或「內部」等各種管道以您不樂見的方式歸因至量度。 Adobe 建議您移除未勾選「覆寫最近一次接觸管道」的管道。
-   * 您可以在「行銷管道管理員」中刪除「直接」行銷管道，然後仰賴Customer Journey Analytics的「無值」維度專案來建立該管道。 您也可以將此維度項目重新命名為「直接」，或在設定資料檢視時完全排除此維度項目。
-   * 或者，您也可以建立行銷管道分類，除了您想在Customer Journey Analytics中排除的管道外，每個值都會自行分類。 接著您就可以在建立資料檢視時使用此分類維度，而非使用 `channel.typeAtSource`。
+* **覆寫最近一次接觸管道**：這項設定位於「行銷管道管理員」，一旦啟用，通常某些管道就無法取得最近一次接觸管道的評分。 Platform 會忽略這項設定，讓「直接」或「內部」等廣泛管道可能以您不樂見的方式歸因至量度。 Adobe 建議您移除未勾選「覆寫最近一次接觸管道」的管道。
+  * 您可以在「行銷管道管理員」中刪除「直接」行銷管道，然後仰賴Customer Journey Analytics的「無值」維度專案來建立該管道。 您也可以將此維度項目重新命名為「直接」，或在設定資料釋圖時完全排除此維度項目。
+  * 或者，您也可以建立行銷管道分類，除了您想在Customer Journey Analytics中排除的管道外，每個值都會自行分類。 接著您就可以在建立資料檢視時使用此分類維度，而非使用 `channel.typeAtSource`。
 
   ![覆寫最近一次接觸管道](../assets/override-last-touch-channel.png)
 
@@ -87,8 +80,8 @@ ht-degree: 48%
 
 由於Adobe Experience Platform的架構與Adobe Analytics報表套裝不同，因此無法保證兩者產生的結果相符。 不過，您可以透過下列提示輕鬆比較：
 
-* 確認上方列出的架構差異不會影響比較作業， 這些差異包括移除不會覆寫最近一次接觸管道的管道，以及移除第一個瀏覽點選（工作階段）的規則條件。
+* 確認上方列出的架構差異不會影響比較作業。 這些差異包括移除不會覆寫最近一次接觸管道的管道，以及移除第一個瀏覽點選（工作階段）的規則條件。
 * 再次確認連線是否使用與Adobe Analytics相同的報表套裝。 如果您的Customer Journey Analytics連線包含多個報表套裝，且套裝具有專屬的行銷管道處理規則，便無法輕易與Adobe Analytics比較。 建議您為每個報告套裝建立個別連線，以便比較資料。
-* 確認您所比較的資料出自相同的日期範圍，而且資料檢視與報告套裝的時區設定相同。
-* 檢視報告套裝資料時，請使用自訂歸因模型， 例如使用量度非預設歸因模型的[「行銷管道」](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/marketing-channel)維度。 由於[「首次接觸管道」](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/first-touch-channel)或[「最近一次接觸管道」](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/dimensions/last-touch-channel)皆仰賴報告套裝所收集的歸因，因此 Adobe 不建議比較這些預設維度。 Customer Journey Analytics不仰賴報表套裝的歸因資料，而是在執行Customer Journey Analytics報表時計算。
+* 確認您所比較的資料出自相同的日期範圍，而且資料釋圖與報告套裝的時區設定相同。
+* 檢視報告套裝資料時，請使用自訂歸因模型。 例如使用量度非預設歸因模型的[「行銷管道」](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel)維度。 由於[「首次接觸管道」](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/first-touch-channel)或[「最近一次接觸管道」](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/last-touch-channel)皆仰賴報告套裝所收集的歸因，因此 Adobe 不建議比較這些預設維度。 Customer Journey Analytics不仰賴報表套裝的歸因資料，而是在執行Customer Journey Analytics報表時計算。
 * 基於報告套裝資料和 Platform 資料的架構有所差異，部分量度並不適合比較， 範例包括造訪/工作階段、人員/人員、發生次數/事件。

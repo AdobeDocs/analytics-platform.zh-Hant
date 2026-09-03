@@ -6,19 +6,11 @@ feature: Labs
 role: User
 autotag-review: '2026-05-19T09:15:48.958Z'
 TQID: 'https://experienceleague.adobe.com/izRcr94kQLKQF-Xks8ZYdAwip8cIts-esBXBb2809Ok'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: a4cd176f-aea0-45b8-80e6-7f1b931e5847
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a4cd176f-aea0-45b8-80e6-7f1b931e5847
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 472
@@ -28,7 +20,7 @@ ht-degree: 81%
 
 # [!UICONTROL Labs] 使用手冊
 
-[!UICONTROL Labs 可讓您更快速地建立早期構想的原型。] 此功能結合了工具和程序，能夠以透明方式加速開發，並且以客戶為中心。 它讓使用者運用新興技術參與互動、發掘有價值的洞察資料，並影響未來的功能開發與優先項目。 透過Labs，您可以搶先使用Adobe Customer Journey Analytics創新功能，並根據您自己的業務使用案例和資料的內容評估即將推出的功能。
+[!UICONTROL Labs 可讓您更快速地建立早期構想的原型。] 此功能結合了工具和程序，能夠以透明方式加速開發，並且以客戶為中心。 它讓使用者運用新興技術參與互動、發掘有價值的洞察，並影響未來的功能開發與優先項目。 透過Labs，您可以搶先使用Adobe Customer Journey Analytics創新功能，並根據您自己的業務使用案例和資料的內容評估即將推出的功能。
 
 >[!IMPORTANT]
 >
@@ -38,7 +30,7 @@ ht-degree: 81%
 
 [!UICONTROL Labs 已為所有管理員設為自動啟用。] 其他團隊成員則必須連絡各自的產品管理員要求存取權。
 
-如果您尚未閱讀並簽署適用的「保密協定」和「條款與條件」表單，請逕行相關動作。
+如果您尚未這麼做，請閱讀並簽署適用的「保密協定」和「條款與條件」表單。
 
 ## 存取 [!UICONTROL Labs] 入口網站
 
@@ -66,7 +58,7 @@ ht-degree: 81%
 
 * 在原型中，您可以利用「工作區」中可存取的任何維度、量度、區段和視覺效果來評估資料。
 
-* 您在原型中所做的任何變更都不會影響資料收集或處理。
+* 您在原型中所做的任何變更都不會影響資料彙集或處理。
 
 * 透過建立或修改區段、計算量度和警報所做的變更，會持續沿用至原型環境之外。
 
@@ -86,5 +78,5 @@ ht-degree: 81%
 
 ## 其他資訊
 
-* [!UICONTROL Labs] 中的部分原型成為 Customer Journey Analytics 的功能，有些則沒有。 您的意見回饋會影響我們的決策，因此請審視原型，讓 Adobe 知道您對各項原型的看法。
-* Labs 可供所有 SKU 權限使用。
+* [!UICONTROL Labs] 中的部分原型成為 Customer Journey Analytics 的功能，有些則沒有。 您的意見回饋會影響我們的決策，因此請審視原型，讓 Adobe 知道您認為各項原型有多大價值。
+* Labs 適用於所有 SKU 權益。
