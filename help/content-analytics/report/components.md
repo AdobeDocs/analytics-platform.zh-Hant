@@ -4,23 +4,15 @@ description: 瞭解特定Content Analytics元件的詳細資訊，例如維度�
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
+hold: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
 TQID: https://experienceleague.adobe.com/grwbNht938ivCsnzlFBzP8Ga8h1udmQLcZngxY6s0-4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 3e9a9042bfe707971c4e37d319a23ab9bdc80075
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8490c4128ac906ba9421b91f9b9da433b91d084d
 workflow-type: tm+mt
 source-wordcount: 1869
 ht-degree: 56%
@@ -38,8 +30,8 @@ Content Analytics 將以下類別的元件 (維度、(已計算的) 量度和衍
 * [資產中繼資料](#asset-metadata)
 * [資產屬性](#asset-attributes)
 * [資產事件](#asset-events)
-* [付費媒體](#paid-media)
 * [計算量度](#calculated-metrics)
+* [付費媒體](#paid-media)
 
 在以下表格中，![AI 生成](/help/assets/icons/AI.svg)表示 AI/ML 產生的屬性/值對。
 
@@ -158,11 +150,23 @@ Content Analytics 將以下類別的元件 (維度、(已計算的) 量度和衍
 {style="table-layout:fixed"}
 -->
 
+
+## 計算量度
+
+| 標題 | 說明 | 類型 |
+|---|---|---|
+| 資產點按率 | 資產點擊次數/資產瀏覽次數 | 計算量度 |
+| 體驗點進率 | 體驗點擊次數/體驗瀏覽次數 | 計算量度 |
+
+{style="table-layout:fixed"}
+
+
+
 ## 付費媒體
 
 透過[Adobe Experience Platform付費媒體來源聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)啟用&#x200B;**付費媒體**&#x200B;頻道時（例如Meta Ads或Google Ads），這些元件會新增至資料檢視。 它們可讓您報告付費媒體實體、創意內容，並與您的網頁和行動內容一起支出。
 
-上述AI產生的&#x200B;**Asset屬性**&#x200B;和&#x200B;**體驗屬性**&#x200B;也可用於付費媒體創意 — 相同的功能在Web、行動和付費媒體頻道中執行。
+上述AI產生的[Asset屬性](#asset-attributes)和[體驗屬性](#experience-attributes)也可供付費媒體創意人員使用。 網頁、行動裝置和付費媒體管道也提供相同功能。
 
 ### 付費媒體維度
 
@@ -266,14 +270,3 @@ Content Analytics 將以下類別的元件 (維度、(已計算的) 量度和衍
 | 平均訂購值 | 訂單總值除以購買。 | 計算量度 |
 
 {style="table-layout:fixed"}
-
-
-## 計算量度
-
-| 標題 | 說明 | 類型 |
-|---|---|---|
-| 資產點按率 | 資產點擊次數/資產瀏覽次數 | 計算量度 |
-| 體驗點進率 | 體驗點擊次數/體驗瀏覽次數 | 計算量度 |
-
-{style="table-layout:fixed"}
-

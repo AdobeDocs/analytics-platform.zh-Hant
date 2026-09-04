@@ -4,31 +4,19 @@ description: 瞭解如何使用入門引導式設定來設定Content Analytics�
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
+hold: true
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 autotag-review: '2026-05-19T08:54:42.845Z'
 TQID: 'https://experienceleague.adobe.com/kEqjocKd5pNypjQlF70HeF1bKuoG9Qi-AT6nJiIwuV0'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6c137d20d25cff6fe4630dedb33cfa8b88c121aa
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8490c4128ac906ba9421b91f9b9da433b91d084d
 workflow-type: tm+mt
-source-wordcount: 4186
-ht-degree: 65%
+source-wordcount: 4806
+ht-degree: 54%
 
 ---
 
@@ -77,7 +65,7 @@ ht-degree: 65%
 
 ## 引導式設定精靈
 
-引導式設定精靈包含四個區段（[詳細資料](#details)、[連線](#connection)、[資料檢視](#data-view)和[管道](#channels)），每個區段都會提示您提供正確設定和設定Content Analytics所需的詳細資料。 在轉到下一部分之前，請先完成每個部分，因為部分中的某些設定可能取決於前面部分中的配置值。
+引導式設定精靈包含四個區段： [詳細資料](#details)、[連線](#connection)、[資料檢視](#data-view)和[管道](#channels)。 每個區段都會提示您提供設定Content Analytics所需的詳細資訊。 請先完成每個區段，再移至下一個區段，因為部分設定取決於先前區段中的組態值。
 
 ### 詳細資料 {#onboarding-details}
 
@@ -89,7 +77,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="詳細資料"
->abstract="此指南會設定所需需求，以設定 Content Analytics。 請提供此設定的名稱，並選取包含您要分析之內容分析資料的沙箱。"
+>abstract="本指南會設定設定Content Analytics的需求。 提供此設定的名稱，並選取包含您要分析之內容分析資料的沙箱。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_boldheader"
@@ -99,7 +87,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_header"
 >title="連線"
->abstract="從 Customer Journey Analytics 中選取您想要與 Content Analytics 資料合併的現有連線。"
+>abstract="從Customer Journey Analytics中選取現有連線，以將您的Content Analytics資料與合併。"
 
 每個設定都需要一個不重複名稱。 例如，`Example Content Analytics configuration`。 儲存或實施設定時需要該名稱。
 
@@ -140,7 +128,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="資料視圖"
->abstract="從 Customer Journey Analytics 中選取您想要與 Content Analytics 資料合併的現有資料釋圖。"
+>abstract="從Customer Journey Analytics中選取現有的資料檢視，以將您的Content Analytics資料與合併。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
@@ -238,14 +226,16 @@ ht-degree: 65%
 
 ### 管道
 
-在&#x200B;**[!UICONTROL 管道]**&#x200B;區段中，選取要為Content Analytics啟用的管道。 您可以選取&#x200B;**[!UICONTROL 行動裝置]**&#x200B;與&#x200B;**[!UICONTROL 網頁]**&#x200B;之間。
+在&#x200B;**[!UICONTROL 管道]**&#x200B;區段中，選取要為Content Analytics啟用的管道。 您可以選取介於&#x200B;**[!UICONTROL 行動裝置]**、**[!UICONTROL 網頁]**&#x200B;和&#x200B;**[!UICONTROL 付費媒體]**&#x200B;之間。
 
 * 若要選取您尚未設定的管道，請選取&#x200B;**[!UICONTROL 啟用]**。
 * 若要選取已設定但您想要變更設定的管道，請選取&#x200B;**[!UICONTROL 編輯設定]**。
 
-然後，您可以更詳細地設定頻道。 該組態會因您啟用並設定或編輯[行動裝置](#mobile)或[網頁](#web)頻道的組態而有所不同。
+然後，您可以更詳細地設定頻道。 此組態會有所不同，取決於您是啟用、設定或編輯[行動裝置](#mobile)、[網頁](#web)或[付費媒體](#paid-media)頻道的組態。
 
-#### Mobile {#mobile}
+#### Mobile
+
++++ 詳細資料
 
 <!-- For updated ACA -->
 
@@ -281,7 +271,7 @@ ht-degree: 65%
 
 針對行動裝置頻道，您可以設定[體驗擷取和定義](#experience-capture-and-definition)、[資料集合](#data-collection)和[標題覆寫](#header-overrides)。
 
-##### 體驗擷取與定義 {#mobile-experience-capture-and-definition}
+### 體驗擷取與定義 {#mobile-experience-capture-and-definition}
 
 在此區段中，您可以選取將體驗包含在您透過Content Analytics收集的行動資料中。  對於行動裝置頻道，體驗是指您使用適用於Content Analytics的Adobe Experience Platform SDK註冊為體驗。
 
@@ -289,7 +279,7 @@ ht-degree: 65%
 
 只有在您已檢測行動應用程式來註冊體驗並追蹤體驗檢視和體驗點按次數時，才考慮加入體驗。
 
-##### 資料收集 {#mobile-data-collection}
+### 資料收集 {#mobile-data-collection}
 
 資料收集設定可讓您定義要為Content Analytics收集哪些資料（體驗位置、資產位置、資產URL）。 請勿在該資料收集過程中收集任何個人識別資訊。
 
@@ -319,10 +309,10 @@ ht-degree: 65%
 
 * 指示在收集Content Analytics的資料時應排除哪些資產URL。 請確定您排除了可識別個人身分的資產 URL。
 
-  指定&#x200B;**[!UICONTROL 要排除的資產URL的**&#x200B;[!UICONTROL &#x200B;規則運算式字串&#x200B;]&#x200B;**]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有參照標誌JPEG影像的資產URL。
+  指定&#x200B;**[!UICONTROL 要排除的資產URL的**[!UICONTROL &#x200B;規則運算式字串&#x200B;]**]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有參照標誌JPEG影像的資產URL。
 
 
-##### 標頭覆寫 {#mobile-header-overrides}
+### 標頭覆寫 {#mobile-header-overrides}
 
 <!-- needs modification for mobile channel -->
 
@@ -334,12 +324,15 @@ ht-degree: 65%
 1. 輸入&#x200B;**[!UICONTROL 標頭名稱]**。 例如，`x-asset-service`。
 1. 輸入&#x200B;**[!UICONTROL 標頭值]**。 您指定的任何內容都是機密，不會顯示在使用者介面中（除非您明確選取在輸入期間公開![可見度](/help/assets/icons/Visibility.svg)值）。
 
-##### 儲存 {#mobile-save}
+### 儲存 {#mobile-save}
 
 設定行動裝置頻道後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存設定。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消設定。
 
++++
 
 #### Web {#web}
+
++++ 詳細資料
 
 對於Web管道，您可以設定[體驗擷取和定義](#experience-capture-and-definition-1)、[資料集合](#data-collection-1)和[標題覆寫](#header-overrides-1)。
 
@@ -444,7 +437,7 @@ ht-degree: 65%
 >abstract="在收集 Content Analytics 資料時，指名應&#x200B;**包含**&#x200B;或&#x200B;**排除**&#x200B;哪些資產。 請確定您排除了可識別個人身分的資產。"
 
 
-##### 體驗擷取與定義 {#web-experience-capture-and-definition}
+### 體驗擷取與定義 {#web-experience-capture-and-definition}
 
 在此區段中，您可以選取將體驗包含在您使用Content Analytics收集的網頁資料中。  體驗由網頁上的所有文字組成，這些文字可使用最初使用者造訪的URL重現。
 
@@ -459,9 +452,7 @@ ht-degree: 65%
 >
 >實施 [Content Analytics 版本設定](manual.md#versioning)，收集您根據 Content Analytics 對體驗 (頁面) 所做的變更。
 
-
-
-###### 全新設定 {#new-experiences-configuration}
+#### 全新設定 {#new-experiences-configuration}
 
 若要將體驗包含在全新或未實施的設定中：
 
@@ -475,13 +466,13 @@ ht-degree: 65%
 
 1. 選取&#x200B;**[!UICONTROL 新增Regex]**&#x200B;以新增網域規則運算式和查詢引數的組合。
 1. 定義影響頁面內容的&#x200B;**[!UICONTROL 網域規則運算式]**&#x200B;和&#x200B;**[!UICONTROL 查詢引數]**&#x200B;組合，以指定內容在您網站上的呈現方式。
-   1. 輸入&#x200B;**[!UICONTROL 網域規則運算式]**，例如 `/^(?!.*\b(store|help|admin)\b)/`。 確保使用 `/` 逸出規則運算式。 網域規則運算式會指出這些參數適用於哪些 URL。 例如，您可能有多個網站，而且每個網站都有不同的參數來決定內容。 若查詢參數適用於您的所有頁面，那麼您可以使用 `.*` 來指出所有頁面。
+   1. 輸入&#x200B;**[!UICONTROL 網域規則運算式]**，例如 `/^(?!.*\b(store|help|admin)\b)/`。 確保使用 `/` 逸出規則運算式。 網域規則運算式會指出這些參數適用於哪些 URL。 例如，您有多個網站，而每個網站的內容是由不同的引數驅動。 若查詢參數適用於您的所有頁面，那麼您可以使用 `.*` 來指出所有頁面。
    1. 指定&#x200B;**[!UICONTROL 查詢引數]**&#x200B;的逗號分隔清單，例如`outdoors, patio, kitchen`。
 1. 如果要刪除網域規則運算式和查詢參數的組合，請選取「**[!UICONTROL 刪除]**」。
 1. 若要新增另一個規則運算式和查詢參數組合，請選取「**[!UICONTROL 新增規則運算式]**」。
 
 
-###### 已實施的設定 {#implemented-experiences-configuration}
+#### 已實施的設定 {#implemented-experiences-configuration}
 
 若要在已實施的設定中編輯現有體驗或包含新體驗，請執行下列操作：
 
@@ -494,7 +485,7 @@ ht-degree: 65%
 
 * 選取「![編輯](/help/assets/icons/Edit.svg)」**[!UICONTROL 「編輯]**」以進一步編輯Content Analytics中體驗的資料收集組態。 您會被重新導向至標記屬性中與目前設定相關的 [Adobe Content Analytics 擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting)。
 
-##### 資料收集 {#web-data-collection}
+### 資料收集 {#web-data-collection}
 
 資料收集設定可讓您定義要為Content Analytics收集哪些資料（頁面、資產）。 請勿在該資料收集過程中收集任何個人識別資訊。
 
@@ -514,7 +505,7 @@ ht-degree: 65%
     1. 指定&#x200B;**[!UICONTROL 標記名稱]**，例如 `ACA Test for Documentation`。
     1. 指定&#x200B;**[!UICONTROL 網域]**，例如 `example.com`。
 
-    如果您想要使用[Content Analytics Javascript程式庫](/help/content-analytics/config/tags-agnostic.md)為Web Channel建立與Tags無關的實作，請使用新的Tags屬性。 Tags屬性已建立，但您無法在不可知的實作中使用屬性。 不過，不可知的實作需要您執行引導式設定精靈至少一次。
+    如果您想要使用[Content Analytics JavaScript資料庫](/help/content-analytics/config/tags-agnostic.md)為Web Channel建立與Tags無關的實作，請使用新的Tags屬性。 Tags屬性會建立，但您不會在不確定的實作中使用屬性。 不過，不可知的實作需要您執行引導式設定精靈至少一次。
 
 * 在收集 Content Analytics 資料時，指明應包括或排除哪些頁面。 請確定您排除了可識別個人身分的頁面。
 
@@ -525,7 +516,7 @@ ht-degree: 65%
   為&#x200B;**[!UICONTROL 要包含/排除]**&#x200B;的資產指定&#x200B;**[!UICONTROL 規則運算式字串]**。 <br/>例如：`^(?!.*(logo\.jpg)).*$`，在 Content Analytics 中排除所有標誌的 JPEG 影像。
 
 
-##### 標頭覆寫 {#web-header-overrides}
+### 標頭覆寫 {#web-header-overrides}
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_header_overrides_boldheader"
@@ -548,22 +539,162 @@ ht-degree: 65%
 1. 輸入&#x200B;**[!UICONTROL 標頭值]**。 您指定的任何內容都是機密，不會顯示在使用者介面中（除非您明確選取在輸入期間公開![可見度](/help/assets/icons/Visibility.svg)值）。
 
 
+
+
+### 儲存 {#web-save}
+
+指定網頁頻道的詳細資料後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存設定。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消設定。
+
++++
+
+#### 付費媒體 {#paid-media}
+
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
 >title="沒有來源連接器"
 >abstract="付費媒體會要求您的廣告發佈者使用 Experience Platform 來源連接器。 此沙箱中沒有可用的 Google Ads 或 Meta 廣告連接器。 請在「**[!UICONTROL Experience Platform]** > **[!UICONTROL 來源]**」介面中設定一個或多個上述連接器，並返回此步驟以繼續設定 Content Analytics 付費媒體。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads 來源"
 
-##### 儲存 {#web-save}
++++ 詳細資料
 
-指定網頁頻道的詳細資料後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存設定。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消設定。
+>[!NOTE]
+>
+>付費媒體頻道無法用於AWS上的Customer Journey Analytics和Experience Platform部署。
 
+
+對於付費媒體頻道，所有連線到已設定沙箱的支援[廣告平台](#paidmedia-adplatforms)會自動包含在Content Analytics中。
+
+### 廣告平台 {#paidmedia-adplatforms}
+
+付費媒體需要設定Experience Platform來源聯結器給您的廣告發佈者。
+
+如果您確實看到&#x200B;**[!UICONTROL 找不到支援的來源聯結器]**，則表示您尚未在您設定的沙箱中為可用的廣告平台設定任何來源聯結器。
+
+![未設定來源聯結器](/help/content-analytics/assets/aca-paid-media-no-source-connectors.png)
+
+若要設定廣告平台的來源聯結器，請選取&#x200B;**[!UICONTROL 移至AEP來源]**。 您被重新導向至Experience Platform中的&#x200B;**[!UICONTROL 來源]**&#x200B;介面。
+
+如需如何設定Google Ads和Meta Ads來源聯結器的範例，請參閱下文。
+
+>[!BEGINTABS]
+
+>[!TAB Google廣告]
+
+1. 在Experience Platform > **[!UICONTROL 來源]**&#x200B;中，選取&#x200B;**[!UICONTROL Google Ads]**&#x200B;卡片中的&#x200B;**[!UICONTROL 設定]**&#x200B;以啟動設定精靈。
+
+   >[!WARNING]
+   >
+   >請勿在&#x200B;**Google Ads (beta)**&#x200B;卡片中使用&#x200B;**[!UICONTROL 設定]**。
+
+
+1. 在精靈的➊ **[!UICONTROL 驗證]**&#x200B;步驟中，選取&#x200B;**[!UICONTROL 新增帳戶]**，然後輸入&#x200B;**[!UICONTROL 帳戶名稱]**。
+
+   ![Google Ads來源聯結器驗證步驟1](../assets/paid-media-google-authentication-1.png)
+
+1. 在&#x200B;**[!UICONTROL 使用Google]**&#x200B;登入對話方塊中，選擇擁有Google Ads管理員帳戶和Google Ads帳戶的帳戶。
+
+   ![Google Ads來源聯結器驗證步驟2](../assets/paid-media-google-authentication-2.png)
+
+1. 使用密碼金鑰或其他驗證機制來驗證您的認證。
+
+   ![Google Ads來源聯結器驗證步驟3](../assets/paid-media-google-authentication-3.png)
+
+1. 在對話方塊中選取&#x200B;**[!UICONTROL 繼續]** **[!UICONTROL Adobe Experience Platform想要存取您的Google帳戶]**。
+
+   ![Google Ads來源聯結器驗證步驟4](../assets/paid-media-google-authentication-4.png)
+
+1. 成功驗證後，您會在精靈的➊ **[!UICONTROL 驗證]**&#x200B;步驟中看到![CheckmarkCircle](/help/assets/icons2/CheckmarkCircle.svg) **[!UICONTROL Connected]**。
+
+   ![Google Ads來源聯結器驗證步驟5](../assets/paid-media-google-authentication-5.png)
+
+   選取&#x200B;**[!UICONTROL 「下一步」]**。
+
+1. 在精靈的➋ **[!UICONTROL 資料流詳細資料]**&#x200B;步驟中，輸入&#x200B;**[!UICONTROL 資料流]**&#x200B;名稱。 您也可以檢查訂閱警示的選項。
+
+   ![Google Ads來源聯結器資料流詳細資料](../assets/paid-media-google-dataflow-1.png)
+
+   選取&#x200B;**[!UICONTROL 「下一步」]**。
+
+1. 在精靈的➌ **[!UICONTROL 檢閱]**&#x200B;步驟中，檢閱來源聯結器詳細資料。
+
+   ![Google Ads來源聯結器評論](../assets/paid-media-google-review-1.png)
+
+   選取&#x200B;**[!UICONTROL 「完成」]**。
+
+1. 您最後會看到已成功設定的Google來源聯結器的詳細資料。
+
+   ![Google Ads來源聯結器最終版](../assets/paid-media-google-final.png)
+
+
+>[!TAB Meta廣告]
+
+1. 在Experience Platform > **[!UICONTROL 來源]**&#x200B;中，選取&#x200B;**[!UICONTROL Meta Ads]**&#x200B;卡片中的&#x200B;**[!UICONTROL 設定]**&#x200B;以啟動設定精靈。
+
+1. 在精靈的➊ **[!UICONTROL 驗證]**&#x200B;步驟中，選取&#x200B;**[!UICONTROL 新增帳戶]**，然後輸入&#x200B;**[!UICONTROL 帳戶名稱]**。
+
+   ![Meta Ads來源聯結器驗證步驟1](../assets/paid-media-meta-authentication-1.png)
+
+1. 登入您已為其設定廣告管理員的Facebook帳戶。 如果您已經登入，對話方塊會顯示為以登入使用者身分繼續。
+
+   ![Meta Ads來源聯結器驗證步驟2](../assets/paid-media-meta-authentication-2.png)
+
+1. 成功驗證後，您會在精靈的➊ **[!UICONTROL 驗證]**&#x200B;步驟中看到![CheckmarkCircle](/help/assets/icons2/CheckmarkCircle.svg) **[!UICONTROL Connected]**。
+
+   ![Meta Ads來源聯結器驗證步驟3](../assets/paid-media-meta-authentication-3.png)
+
+   選取&#x200B;**[!UICONTROL 「下一步」]**。
+
+1. 在精靈的➋ **[!UICONTROL 選取帳戶]**&#x200B;步驟中，選取您要設定的帳戶。
+
+   ![Meta Ads來源聯結器選取帳戶](paid-media-meta-select-account.png)
+
+   選取&#x200B;**[!UICONTROL 「下一步」]**。
+
+1. 在精靈的➌ **[!UICONTROL 資料流詳細資料]**&#x200B;步驟中，輸入&#x200B;**[!UICONTROL 資料流]**&#x200B;名稱。 您也可以檢查訂閱警示的選項。
+
+   ![Meta Ads來源聯結器資料流](../assets/paid-media-meta-dataflow-1.png)
+
+   選取&#x200B;**[!UICONTROL 「下一步」]**。
+
+1. 在精靈的➍ **[!UICONTROL 檢閱]**&#x200B;步驟中，檢閱來源聯結器詳細資料。
+
+   ![Meta Ads來源聯結器評論](../assets/paid-media-meta-review-1.png)
+
+1. 最後，您會看到成功設定的Google來源聯結器的詳細資料。
+
+   ![Meta Ads來源聯結器最終版](../assets/paid-media-meta-final.png)
+
+>[!ENDTABS]
+
+如需付費媒體頻道所支援來源聯結器的詳細資訊，請參閱[Source聯結器總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)。
+
+在Experience Platform中設定來源聯結器後，請選取![重新整理](/help/assets/icons/Refresh.svg) **[!UICONTROL 重新整理]**&#x200B;以更新來源聯結器清單。
+
+您會看到可用廣告平台的清單，以及哪些平台為![StatusGreen](/help/assets/icons/StatusGreen.svg) **Connected**&#x200B;和![StatusGray](/help/assets/icons/StatusGray.svg) **未設定**。
+
+![已設定Google聯結器](/help/content-analytics/assets/aca-paid-media-google-source-connectors.png)
+
+
+### 資料行為 {#paidmedia-databehavior}
+
+當您選取&#x200B;**[!UICONTROL 儲存]**&#x200B;時，Content Analytics會自動執行下列動作：
+
+* 更新Customer Journey Analytics連線，將來自所有連線來源聯結器的付費媒體資料集納入此沙箱中。
+* 在所有選定的資料檢視中啟用付費媒體維度和量度。
+* 在 Workspace 報告中，將付費媒體管道顯示為可篩選維度。
+
+### 儲存 {#paidmedia-save}
+
+選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存&#x200B;**[!UICONTROL 付費媒體]**&#x200B;設定。
+
+
++++
 
 ### 摘要 {#summary}
 
 在您提供所有必要的詳細資訊後，摘要就會提供關於建立或修改成品的詳細資訊。
 
-* 當您實施新設定時，您會看到&#x200B;**[!UICONTROL 您幾乎已準備好實施 _Content Analytics 的設定名稱_]**&#x200B;摘要。
+* 當您實作新設定時，您會看到&#x200B;**[!UICONTROL 您已準備好為Content Analytics]**&#x200B;摘要實作&#x200B;_設定名稱_。
 
 * 對於已實施的配置，您會看到 **[!UICONTROL 您已實施 _配置名稱_ 用於 Content Analytics]** 概括。
 
@@ -579,7 +710,7 @@ ht-degree: 65%
 建立或編輯設定時，您有以下選項：
 
 * **[!UICONTROL 捨棄]**：做為設定之一部分所做的全部變更都會被捨棄。
-* **[!UICONTROL 儲存以供之後使用]**：針對設定所做的變更會予以儲存。 您可以在之後的階段重新造訪設定，進行進一步的變更或實施該設定。 僅需要[!UICONTROL 名稱]的值即可儲存設定。
+* **[!UICONTROL 儲存以供之後使用]**：針對設定所做的變更會予以儲存。 若要進行進一步變更或實施設定，請在稍後階段重新造訪。 僅需要[!UICONTROL 名稱]的值即可儲存設定。
 * **[!UICONTROL 實施]**：儲存並實施設定的設定或變更。 所有標示為![必要](/help/assets/icons/Required.svg)的欄位都必須有適當的值。 實施包括：
 
   * **[!UICONTROL Customer Journey Analytics]** 設定：
