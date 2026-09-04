@@ -4,28 +4,16 @@ description: 瞭解如何使用自由表格、長條圖和散佈圖等視覺效�
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
-hold: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 TQID: https://experienceleague.adobe.com/IM7-a-jp-lLfuGKj-CM2McnFXcus2-x-ffLC8UUKAmY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8490c4128ac906ba9421b91f9b9da433b91d084d
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
-source-wordcount: 1642
+source-wordcount: 1643
 ht-degree: 41%
 
 ---
@@ -75,7 +63,7 @@ ht-degree: 41%
 
 ### 折線圖
 
-第![&#128279;](/help/content-analytics/assets/aca-line-thumbnail.png)行的Content Analytics縮圖
+第](/help/content-analytics/assets/aca-line-thumbnail.png)行的![Content Analytics縮圖
 
 當您將游標停留在[行](/help/analysis-workspace/visualizations/line.md)中的資料點上時，會顯示縮圖。
 
@@ -114,7 +102,7 @@ Content Analytics [範本](/help/analysis-workspace/templates/use-templates.md)�
 
 1. 從主選單中選取「**[!UICONTROL Workspace]**」。
 1. 確定您選取了針對 Content Analytics 設定的資料釋圖。
-1. 搜尋或使用區段 (針對&#x200B;**[!UICONTROL 管道]**&#x200B;需使用&#x200B;**[!UICONTROL 網頁]**&#x200B;以及針對&#x200B;**[!UICONTROL 使用案例]**&#x200B;需使用&#x200B;**[!UICONTROL 參與]**) 來尋找及選取 **[!UICONTROL Content analytics]** 範本。
+1. 搜尋或使用區段 (針對&#x200B;**[!UICONTROL 管道]**&#x200B;需使用&#x200B;**[!UICONTROL 網頁]**&#x200B;以及針對**[!UICONTROL 使用案例]**需使用&#x200B;**[!UICONTROL 參與]**) 來尋找及選取 **[!UICONTROL Content analytics]** 範本。
 1. 選取&#x200B;**[!UICONTROL 使用範本]**。
 1. 在「**[!UICONTROL 設定您的範本]**」對話框中，從「**[!UICONTROL 選取轉換量度]**」對話框選取一個量度。 例如「**[!UICONTROL 資產點按率]**」。
 1. 選取「**[!UICONTROL 繼續]**」。
@@ -201,7 +189,7 @@ Content Analytics使用AI和GenAI來自動將中繼資料和屬性（例如主�
     您也可以用[!UICONTROL 資產感知 ID] 交換[!UICONTROL 資產 ID]，以取得參照特定影像 URL 的位置記錄。
 
 
-### 付費mediaContent Analytics範本
+### 付費媒體Content Analytics範本
 
 付費媒體Content Analytics [範本](/help/analysis-workspace/templates/use-templates.md)可協助您瞭解哪些付費媒體內容和內容屬性的表現最好。 範本是[Web channel and Engagement使用案例](/help/analysis-workspace/templates/use-templates.md#web-engagement)的一部分，可協助您瞭解付費媒體內容在精細層次的執行狀況。 您可以檢閱網路、帳戶、行銷活動、體驗和資產中的付費媒體觸及率、參與度、支出和效率。 此面板中的量度和維度會刻意維持在付費媒體資產摘要粒度。 請勿結合此範本中面板的摘要資料集與事件資料。
 
@@ -211,7 +199,7 @@ Content Analytics使用AI和GenAI來自動將中繼資料和屬性（例如主�
 
 1. 從主選單中選取「**[!UICONTROL Workspace]**」。
 1. 確定您選取了針對 Content Analytics 設定的資料釋圖。
-1. 搜尋或使用區段（**[!UICONTROL 頻道]**&#x200B;的&#x200B;**[!UICONTROL 網頁]**&#x200B;以及[!UICONTROL 使用案例]&#x200B;**的**&#x200B;4&rbrace;參與&#x200B;**）來尋找及選取**&#x200B;[!UICONTROL &#x200B;付費媒體Content Analytics &#x200B;]&#x200B;**範本。**
+1. 搜尋或使用區段（**[!UICONTROL 頻道]**&#x200B;的&#x200B;**[!UICONTROL 網頁]**&#x200B;以及[!UICONTROL 使用案例]**的**4}參與&#x200B;]**）來尋找及選取**[!UICONTROL &#x200B;付費媒體Content Analytics ]**範本。**[!UICONTROL 
 1. 選取&#x200B;**[!UICONTROL 使用範本]**。
 
 **[!UICONTROL Content Analytics — 付費媒體摘要資料]**&#x200B;專案會在[Analysis Workspace](/help/analysis-workspace/home.md)中開啟。 專案包含&#x200B;**[!UICONTROL 付費媒體效能]** [面板](/help/analysis-workspace/c-panels/panels.md)，包含[自由格式表格](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)和[視覺效果](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。 使用面板來檢閱網路、帳戶、行銷活動、體驗和資產中的付費媒體觸及率、參與度、支出和效率。 面板中的量度和維度刻意保持在付費媒體資產摘要粒度；請勿將摘要資料集與事件資料結合。

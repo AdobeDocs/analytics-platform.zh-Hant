@@ -6,20 +6,12 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1ef12bfccbecc74a0b437c9c582fe0f6c1c1e9e5
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 2116
 ht-degree: 19%
@@ -91,7 +83,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，檢視&#x200B;**emily@adobe.com**&#x200B;的更新值。
 
-圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，您設定永久識別碼(ECID)欄位，以便在您[在資料集](#enable-b2b-stitching-on-event-datasets)上啟用拼接功能時，做為永久人員ID。 根據`5678`為ECID值，`emily@adobe.com`為電子郵件值，在相關事件上將`emily@adobe.com`設定為提升許可權的人員ID。
+圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，您設定永久識別碼(ECID)欄位，以便在您[在資料集](#enable-b2b-person-to-account-stitching-on-event-datasets)上啟用拼接功能時，做為永久人員ID。 根據`5678`為ECID值，`emily@adobe.com`為電子郵件值，在相關事件上將`emily@adobe.com`設定為提升許可權的人員ID。
 
 | 時間戳記 | 永久 ID | 原始帳戶ID | 原始人員ID | 提升的人員ID |
 |--|--|---|---|---|
@@ -230,7 +222,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用人員至帳戶拼接"
 >abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 **[!UICONTROL 持續性人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員識別碼名稱空間]**&#x200B;的值，然後用來根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集便不會使用 B2B 人員至帳戶拼接，而您必須改為選取所需的&#x200B;**[!UICONTROL 帳戶 ID]**。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="將B2B人員設定為帳戶拼接設定"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="將B2B人員設定為帳戶拼接設定"
 
 在連線層級設定B2B拼接後，您必須啟用B2B人員以個別帳戶拼接您要拼接的每個事件資料集。
 
