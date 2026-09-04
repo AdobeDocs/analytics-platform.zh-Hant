@@ -230,7 +230,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用人員至帳戶拼接"
 >abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 **[!UICONTROL 持續性人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員識別碼名稱空間]**&#x200B;的值，然後用來根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集便不會使用 B2B 人員至帳戶拼接，而您必須改為選取所需的&#x200B;**[!UICONTROL 帳戶 ID]**。"
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="將B2B人員設定為帳戶拼接設定"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="將B2B人員設定為帳戶拼接設定"
 
 在連線層級設定B2B拼接後，您必須啟用B2B人員以個別帳戶拼接您要拼接的每個事件資料集。
 

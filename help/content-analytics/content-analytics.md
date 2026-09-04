@@ -103,6 +103,6 @@ Content Analytics使用來自Experience Platform事件資料集的網頁和行�
 >
 >[Content Analytics報告](report/report.md)
 >[設定 Content Analytics](config/configuration.md)
->[在 Customer Journey Analytics 中計算退回與退回率](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722)
+>[在 Customer Journey Analytics 中計算退回與退回率](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722?profile.language=zh-Hant)
 >
 
