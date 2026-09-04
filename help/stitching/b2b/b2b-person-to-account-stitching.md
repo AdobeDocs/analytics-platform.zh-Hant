@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1ef12bfccbecc74a0b437c9c582fe0f6c1c1e9e5
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 2116
 ht-degree: 19%
@@ -91,7 +91,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，檢視&#x200B;**emily@adobe.com**&#x200B;的更新值。
 
-圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，您設定永久識別碼(ECID)欄位，以便在您[在資料集](#enable-b2b-stitching-on-event-datasets)上啟用拼接功能時，做為永久人員ID。 根據`5678`為ECID值，`emily@adobe.com`為電子郵件值，在相關事件上將`emily@adobe.com`設定為提升許可權的人員ID。
+圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，您設定永久識別碼(ECID)欄位，以便在您[在資料集](#enable-b2b-person-to-account-stitching-on-event-datasets)上啟用拼接功能時，做為永久人員ID。 根據`5678`為ECID值，`emily@adobe.com`為電子郵件值，在相關事件上將`emily@adobe.com`設定為提升許可權的人員ID。
 
 | 時間戳記 | 永久 ID | 原始帳戶ID | 原始人員ID | 提升的人員ID |
 |--|--|---|---|---|

@@ -26,10 +26,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 55%
+source-wordcount: 1019
+ht-degree: 43%
 
 ---
 
@@ -48,7 +48,7 @@ Content Analytics 確實不斷提升其價值：
 
 1. 內容&#x200B;**使用方式**：透過 Content Analytics，可以獲得哪些資產正獲得曝光度，以及資產是在哪裡獲得曝光度的洞察。 這些見解可協助您檢視您的網頁和行動屬性上是否未妥善使用或過度使用資產。
 1. 內容&#x200B;**參與度**：Content Analytics 可以提供參與度洞察，例如某些屬性的資產平均點擊率。 這些洞察可以幫助您確定特定類型的體驗是否仍然有效。
-1. 內容歷程：此外，當結合Experience Platform中所有其他可用的資料時，您可以獲得內容歷程的其他深入分析；例如，除了參與之外，特定內容是否會導致轉換。 例如，特定內容是否會導致轉換，以及參與度。 了解這些事情後，您就可以確定內容類型的 ROI。
+1. 內容&#x200B;**歷程**：此外，結合Experience Platform中所有其他可用的資料時，您可以對內容歷程取得更多深入分析；例如，除了參與以外，特定內容是否會導致轉換。 例如，特定內容是否會導致轉換，以及參與度。 了解這些事情後，您就可以確定內容類型的 ROI。
 1. 內容&#x200B;**個人化**：最終，Content Analytics 可讓您根據自己的分析採取行動，並使用這些洞察來確定如何花錢在內容上。 例如，我應該向特定客群發送特定類型的內容嗎？ 哪些內容能為我提供高度個人化的機會？
 
 ## 術語
@@ -63,13 +63,21 @@ Content Analytics 會使用以下關鍵用語：
 
 ## 運作方式
 
-Content Analytics使用來自Experience Platform事件資料集的網頁和行動影像檢視資料來[收集內容事件資料](config/datacollection.md)。 這些內容體驗事件需要使用Experience Platform Edge Network （網頁SDK、行動SDK、伺服器API）來收集資料。 行為資料可以使用Web SDK、Mobile SDK或Analytics Source Connector來收集。
+Content Analytics使用來自Experience Platform事件資料集的網頁和行動影像檢視資料和付費媒體資料來[收集內容事件資料](config/datacollection.md)。 這些內容體驗事件需要使用Experience Platform Edge Network （Web SDK、Mobile SDK、伺服器API）或透過Experience Platform來源聯結器收集資料。
 
-![Content Analytics - 如何運作](assets/aca-overview-new.gif)
+* 行為資料可以使用Web SDK、Mobile SDK或Analytics Source Connector來收集。
+* 對於付費媒體，體驗資料會透過可用的付費媒體來源聯結器，從Experience Platform中收集的付費媒體事件資料來源重新建構而來。
+
+![Content Analytics - 如何運作](assets/aca-overview-new-paid-media.gif)
+
 
 1. 當使用者造訪針對Content Analytics[&#128279;](config/configuration.md)、Experience Platform Web或Mobile SDK設定的網站或應用程式時，會記錄曝光次數以及與內容的互動。
-1. 身分和功能化服務會處理這些互動。 過程包括一項獲取服務，其會重新檢視定義互動之已設定 URL 的公開版本。 對於所有這些獲取到的 URL，身分識別服務會唯一識別體驗和資產。 此外，功能化服務會套用AI/ML服務，探索體驗和資產中繼資料及屬性。
-1. 這些服務 ([元件、屬性和身分識別](/help/content-analytics/report/components.md)) 的結果將用於更新 Experience Platform 中相關的特定 Content Analytics 資料集。
+付費媒體資料會每天從來源聯結器（例如，收集到Google和Meta）收集到資料集中。 Content Analytics會監視[已設定的付費媒體資料集](config/configuration.md)以取得新的非功能化資產和體驗，並使用廣告資料集中繼資料來撰寫體驗HTML。 該體驗HTML會以付費媒體體驗的形式與資產詳細資料結合。
+
+1. 身分和功能化服務會處理這些互動（來自網頁和行動裝置）和體驗（來自付費媒體）。 此程式包含擷取服務，可修訂定義互動的已設定URL的公開版本以及定義體驗的HTML。 對於這些擷取的URL和HTML，Identity Service會唯一識別體驗和資產。 此外，功能化服務會套用AI/ML服務，探索體驗和資產中繼資料及屬性。
+
+1. 身分和功能化服務（[元件、屬性和身分](/help/content-analytics/report/components.md)）的結果可用來更新Experience Platform中相關的特定Content Analytics資料集。
+
 1. 您可以在Customer Journey Analytics設定（[連線](/help/connections/overview.md)、[資料檢視](/help/data-views/data-views.md)和[Workspace](/help/analysis-workspace/home.md)）中使用Content Analytics資料，以及行為資料和其他查詢資料。 該設定提供了對您的內容進行獨特巨集層級深入分析的基礎。 <br/>您可以使用[Content Analytics範本](/help/content-analytics/report/report.md#template)快速開始您的Content Analytics報表和分析。
 
 
