@@ -19,16 +19,16 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
+source-git-commit: ae08f7a010c6c8cdb262bd96e51c2b677a4cb70a
 workflow-type: tm+mt
-source-wordcount: 2116
-ht-degree: 19%
+source-wordcount: 2230
+ht-degree: 20%
 
 ---
 
 # B2B個人與帳戶拼接
 
-B2B個人帳戶拼接讓您的事件資料集和帳戶身分更加豐富，並且可以在Customer Journey Analytics的完整客戶歷程中進行完整分析。 當事件缺少帳戶ID （Customer Journey Analytics B2B edition擷取時需要帳戶ID）時，人員對帳戶的彙整會衍生並使用您提供的[人員對帳戶對應資料集](#prerequisites)自動新增該資訊。
+B2B個人帳戶拼接讓您的事件資料集和帳戶身分更加豐富，並且可以在Customer Journey Analytics的完整客戶歷程中進行完整分析。 當事件缺少帳戶ID （Customer Journey Analytics B2B edition擷取時需要帳戶ID）時，人員對帳戶的彙整會衍生並自動使用[人員新增該資訊至您提供的帳戶對應資料集](#prerequisites)。
 
 沒有人員可進行帳戶拼接，系統會在擷取期間捨棄任何不含帳戶ID的事件。 「人員」與「帳戶」拼接功能可透過查詢與每個事件中的人員相關聯的帳戶來解決此限制，並在事件被內嵌及回溯時新增帳戶ID。
 
@@ -52,7 +52,7 @@ B2B個人帳戶拼接讓您的事件資料集和帳戶身分更加豐富，並�
 | 動作 | 時間戳記 | 永久 ID | 帳戶 ID | 人員 ID | 事件型別 |
 |:---:|--:|--|---|---|---|
 | ![資料新增](/help/assets/icons/DataAdd.svg) | 1/3/25 | 1234 | Adobe | matt@adobe.com | Page view |
-| ![篩選刪除](/help/assets/icons/DeleteOutline.svg) | 1/3/25 | 5678 |  | | |
+| ![篩選刪除](/help/assets/icons/DeleteOutline.svg) | 1/3/25 | 5678 |  |  | |
 | ![資料新增](/help/assets/icons/DataAdd.svg) | 3/4/25 | 9012 | 普遍性 | cory@sky.com |  |
 | ![資料新增](/help/assets/icons/DataAdd.svg) | 3/7/25 | 4321 | 天空 | emily@sky.com | 呼叫中心 |
 | ![篩選刪除](/help/assets/icons/DeleteOutline.svg) | 5/5/25 | 6106 | | carmen@adobe.com |  |
@@ -69,29 +69,31 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 +++ 詳細資料
 
-為了支援B2B個人帳戶拼接，您可以提供個人帳戶對應資料集。 例如：
+為了支援B2B人員對帳戶的彙整，當您[設定B2B拼接設定](#configure-b2b-person-to-account-stitching-settings)時，請提供主要人員識別碼名稱空間（例如電子郵件）和人員對帳戶的對應資料集。
+從人員到帳戶資料集的人員ID名稱空間可與主要資料集（電子郵件）相同，或可能有所不同。 在以下範例中，它被設為CRM ID （這需要連結到身分圖表中的電子郵件）。
 
 | CRM ID | 帳戶 ID |
 |---|---|
 | 12hsd123 | Adobe |
+| kr7812pq | Adobe |
 | f82jsd32 | 天空 |
 | hg2023m2 | 天空 |
 | b978bbw9 | 普遍性 |
 | fs453ghi | Adobe |
 
-該個人對帳戶對應資料集是使用圖表式拚接的提升許可權。 例如，您提供電子郵件作為要使用的名稱空間。 結果，會以提升的人員ID產生更新的人員 — 帳戶對應資料集。
+該人員對帳戶對應資料集是使用圖表式拚接的提升許可權。 請注意，這會在後端發生，不會反映在實際資料集的資料中。
+在我們的範例中，使用CRM ID與電子郵件名稱空間之間的身分圖表連結，結果會是更新的人員，透過提升的人員ID將資料集對應至帳戶。
 
 | CRM ID | 提升的人員ID | 帳戶 ID |
 |---|---|---|
 | 12hsd123 | matt@adobe.com | Adobe |
+| kr7812pq | emily@adobe.com | Adobe |
 | f82jsd32 | emily@sky.com | 天空 |
 | hg2023m2 | cory@sky.com | 天空 |
 | b978bbw9 | cassidy@ubiquity.com | 普遍性 |
 | fs453ghi | carmen@adobe.com | Adobe |
 
-圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，檢視&#x200B;**emily@adobe.com**&#x200B;的更新值。
-
-圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，您設定永久識別碼(ECID)欄位，以便在您[在資料集](#enable-b2b-person-to-account-stitching-on-event-datasets)上啟用拼接功能時，做為永久人員ID。 根據`5678`為ECID值，`emily@adobe.com`為電子郵件值，在相關事件上將`emily@adobe.com`設定為提升許可權的人員ID。
+圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，您設定永久識別碼(ECID)欄位，以便在您[在資料集](#enable-b2b-person-to-account-stitching-on-event-datasets)上啟用拼接功能時，做為永久人員ID。 根據提升的人員對帳戶對應資料集`emily@adobe.com`，在相關事件上將設定為提升的人員ID。
 
 | 時間戳記 | 永久 ID | 原始帳戶ID | 原始人員ID | 提升的人員ID |
 |--|--|---|---|---|
@@ -110,12 +112,12 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 +++ 詳細資料
 
-此個人對帳戶資料集可再次用於提升體驗事件資料集中的帳戶ID。 例如，請參閱emily@sky.com的增加值&#x200B;**Sky**&#x200B;和carmen@adobe.com的&#x200B;**Adobe**。 以及cory@sky.com的更新值&#x200B;**Sky** （來自Ubiquity）。
+帳戶資料集人員會再次用於提升體驗事件資料集中的帳戶ID。 例如，請參閱emily@sky.com的增加值&#x200B;**Sky**&#x200B;以及carmen@adobe.com和emily@adobe.com的&#x200B;**Adobe**。 以及cory@sky.com的更新值&#x200B;**Sky** （來自Ubiquity）。
 
 | 時間戳記 | 永久 ID | 原始帳戶ID | 原始人員ID | 提升的帳戶ID | 提升的人員ID |
 |---|---|---|---|---|---|
 | 1/3/25 | 1234 | Adobe | matt@adobe.com | Adobe | matt@adobe.com |
-| 1/3/25 | 5678 | | | **天空** | **emily@sky.com** |
+| 1/3/25 | 5678 | | | **Adobe** | **emily@adobe.com** |
 | 3/4/25 | 9012 | 普遍性 | cory@sky.com | **天空** | cory@sky.com |
 | 3/7/25 | 4321 | 天空 | emily@sky.com | 天空 | emily@sky.com |
 | 5/5/25 | 6106 | | carmen@adobe.com | **Adobe** | carmen@adobe.com |
@@ -126,7 +128,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 ### 結果
 
-此範例顯示B2B個人帳戶拼接如何根據您提供作為輸入的人對帳戶對應資料集，使用缺少個人識別碼或缺少和不正確的帳戶識別碼來更新您的體驗事件資料。
+此範例顯示B2B帳戶比對人員如何根據您提供作為輸入的人員 — 帳戶對應資料集，使用缺少的人員識別碼或缺少的帳戶識別碼和不正確的帳戶識別碼來更新您的體驗事件資料。
 
 
 ## 先決條件
@@ -135,11 +137,11 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 | 資料集 | 必要 | 說明 |
 |---|---|---|
-| **個人對帳戶資料集** | 必填 | 至少包含人員ID （含名稱空間）和帳戶ID的查詢（記錄，非時間序列）資料集。 這些ID用於衍生個人與帳戶的關係對應。 |
+| **個人至帳戶資料集** | 必填 | 至少包含人員ID （含名稱空間）和帳戶ID的查詢（記錄，非時間序列）資料集。 這些ID是用來衍生個人與帳戶的關係對應。 |
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 個人對帳戶]**&#x200B;資料集中的人員ID欄位必須在結構描述中標示為身分。
+>您帳戶資料集的人員ID欄位必須在結構描述中標籤為身分。
 
 ## 啟用人員至帳戶拼接 {#enable-account-stitching}
 
@@ -175,7 +177,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
 >title="開始時間"
->abstract="選取時間戳記欄位，其指出人員至帳戶關係何時變為有效。"
+>abstract="選取時間戳記欄位，指出人員與帳戶的關係何時開始啟用。"
 
 
 >[!CONTEXTUALHELP]
@@ -211,8 +213,8 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
       | 欄位 | 必要 | 說明 |
       |---|:---:|---|
       | **[!UICONTROL 帳戶資料集的人員]** | ![必要](/help/assets/icons/Required.svg) | 選取將人員對應至帳戶的查詢（記錄或非時間序列資料集）。 |
-      | **[!UICONTROL 個人 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含人員 ID 的欄位。 該欄位必須標示為身分，且不能與&#x200B;**[!UICONTROL 帳戶識別碼]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
-      | **[!UICONTROL 帳戶 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含帳戶 ID 的欄位。 該欄位不能與&#x200B;**[!UICONTROL 人員ID]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
+      | **[!UICONTROL 個人 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含人員 ID 的欄位。 此欄位的命名空間可以與所選人員識別碼命名空間不同或相同。 如果兩者不同，則需要在身分識別圖中連結這兩個命名空間。  該欄位必須標示為身分，且不能與&#x200B;**[!UICONTROL 帳戶識別碼]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
+      | **[!UICONTROL 帳戶 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含唯一帳戶識別碼值的欄位。 啟用人員至帳戶拼接後，帳戶 ID 資訊在任何事件資料集的列上都會變為可用。 該欄位不能與&#x200B;**[!UICONTROL 人員ID]**&#x200B;欄位或&#x200B;**[!UICONTROL 開始時間]**&#x200B;欄位相同。 |
       | **對應建立時間** | | 選取代表人員與帳戶對應建立日期與時間的欄位 (可選)。 適用於人員隨時間切換多個帳戶的情況。<br/><br/>**範例** （選取&#x200B;**update_date**&#x200B;欄位時）：<table><thead><tr><th>update_date</th><th>人員</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>對於2026年5月1日之前在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Apple。</li><li>對於2026年5月1日或之後在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Adobe。</li></ul>未指定對應時間時，會使用字典第一帳戶。 當兩個不同的帳戶名稱具有完全相同的&#x200B;**[!UICONTROL update_date]**&#x200B;值，並且指定了對應建立時間時，也會使用相同的演演算法。 |
 
       >[!NOTE]
@@ -229,7 +231,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用人員至帳戶拼接"
->abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 **[!UICONTROL 持續性人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員識別碼名稱空間]**&#x200B;的值，然後用來根據人員對帳戶資料集查詢帳戶ID。<br/>如果停用，此資料集便不會使用 B2B 人員至帳戶拼接，而您必須改為選取所需的&#x200B;**[!UICONTROL 帳戶 ID]**。"
+>abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 **[!UICONTROL 持續性人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員識別碼名稱空間]**&#x200B;的值，然後用來根據人員到帳戶資料集來查詢帳戶ID。<br/>如果停用，此資料集便不會使用 B2B 人員至帳戶拼接，而您必須改為選取所需的&#x200B;**[!UICONTROL 帳戶 ID]**。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="將B2B人員設定為帳戶拼接設定"
 
 在連線層級設定B2B拼接後，您必須啟用B2B人員以個別帳戶拼接您要拼接的每個事件資料集。
@@ -244,7 +246,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 當&#x200B;**[!UICONTROL 啟用個人帳戶拼接]**&#x200B;為&#x200B;**於**&#x200B;時，您已設定B2B個人帳戶拼接資料集。
 
-* 人員ID的設定為必填。 該人員ID是用來根據[人員對帳戶資料集](#prerequisites)查詢帳戶ID。
+* 人員ID的設定為必填。 該人員ID是用來根據[帳戶資料集](#prerequisites)的人員來查詢帳戶ID。
 * 帳戶ID的設定為選用。
 
 ![B2B人員在](../assets/b2b-event-dataset-stitching-on.png)上的事件資料集上進行帳戶拼接
@@ -271,7 +273,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 ## 資料更新排程
 
-帳戶拼接每天從您的[個人對帳戶資料集](#prerequisites)衍生出身分對應，並依照下列排程使用此資訊來更新已啟用短期和長期拼接的資料集：
+帳戶拼接每天從您的[個人到帳戶資料集](#prerequisites)衍生出身分對應，並依照下列排程使用此資訊來更新已啟用短期和長期拼接的資料集：
 
 | 重播 | 頻率 | 資料視窗 |
 |---|---|---|
