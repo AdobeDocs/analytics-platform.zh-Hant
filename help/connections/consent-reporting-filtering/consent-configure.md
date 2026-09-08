@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
 source-wordcount: 1326
-ht-degree: 20%
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-merge-policy"
 >title="合併原則"
->abstract="合併原則會將來自多個資料集的輪廓資料合併到統一的客戶輪廓中，用於建立客群。 選取與包含您要報告的同意原則成員資格資料（`consentPoliciesIDMap`欄位）的設定檔資料集對應的合併原則。 或洽詢您的資料團隊，了解各合併原則與哪些客群相關聯。"
+>abstract="合併原則會將來自多個資料集的輪廓資料合併到統一的客戶輪廓中，用於建立客群。 選取與輪廓資料集對應的合併原則，而該輪廓資料集包含您要報告之同意原則成員資格資料 ( `consentPoliciesIDMap` 欄位)。 或洽詢您的資料團隊，了解各合併原則與哪些客群相關聯。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -68,7 +68,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-reporting"
 >title="啟用報告"
->abstract="啟用此選項以使用Analysis Workspace來報告連線中可用的同意資料。 同意原則維度和量度會新增至您選取的資料檢視。"
+>abstract="啟用此選項，Analysis Workspace 便可以利用您的連線中可用的同意資料產出報告。 同意原則維度和量度已新增至您選取的資料視圖。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -77,7 +77,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-filtering"
 >title="啟用篩選"
->abstract="啟用此選項可排除非同意的訪客資料不會擷取到Customer Journey Analytics中。 啟用後，只有當訪客符合以下啟用的所有同意原則時，才會擷取訪客的資料。 <br>此選項適用於需要在擷取時排除非同意訪客資料的組織。"
+>abstract="啟用此選項可避免將非同意的訪客資料攝取至 Customer Journey Analytics 中。 啟用後，唯有訪客符合以下啟用的所有同意原則時，才會攝取該訪客的資料。 <br>此選項適用於需要在攝取時排除非同意訪客資料的組織。"
 
 <!-- markdownlint-enable MD034 -->
 

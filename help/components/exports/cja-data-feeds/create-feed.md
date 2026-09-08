@@ -73,7 +73,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user-agent"
 >title=""
->abstract="使用者代理資料和裝置查詢資料不得存在於相同的資料摘要設定中。"
+>abstract="相同的資料摘要設定中不得同時存在使用者代理資料和裝置查詢資料。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -413,8 +413,8 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_personid"
->title="永久人員 ID"
->abstract="選取可在所有事件中使用的身分或身分對應型別欄位，例如包含ECID的欄位。 這些識別碼將會從先前設定的人員識別碼名稱空間提升為人員ID。"
+>title="永久性人員 ID"
+>abstract="選取可在所有事件中使用的身分識別或身分識別圖類型欄位，例如包含 ECID 的欄位。 這些識別碼將提升至先前設定之人員識別碼命名空間中的人員 ID。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
