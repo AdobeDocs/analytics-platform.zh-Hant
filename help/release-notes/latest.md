@@ -5,33 +5,15 @@ exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 hold: true
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 278d35000551d8a2a149683bfe073a5085b593bd
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b9c679f4cd71fb2ae9c9c3af1b680982f92e6c83
 workflow-type: tm+mt
-source-wordcount: 1144
-ht-degree: 23%
+source-wordcount: 1189
+ht-degree: 21%
 
 ---
 
@@ -47,14 +29,14 @@ ht-degree: 23%
 | -----------|-----------|-----------|
 | **Customer Journey Analytics MCP伺服器外掛程式**<br/>&#x200B;使用適用於ChatGPT和Claude的新Customer Journey Analytics MCP伺服器外掛程式，快速存取您的資料。 <p>如需詳細資訊，請參閱[ChatGPT外掛程式指南](https://developer.adobe.com/analytics-mcp/docs/guides/chatgpt)和[Claude聯結器指南](https://developer.adobe.com/analytics-mcp/docs/guides/claude)。</p> | 2026年9月1日 | 2026年9月1日 |
 | **支援其他資料使用標籤**<br> Customer Journey Analytics現在支援資料集中元素的下列其他資料使用標籤：<ul><li>C2 — 限制協力廠商資料匯出（現已推出）</li><li>C3 — 限制可直接識別的資料組合（現在可用）</li><li>C9 — 限制資料科學（預計於8月或9月發行）</li></ul><p>如需詳細資訊，請參閱[標籤、原則和行銷動作](/help/data-views/data-governance.md)。</p> | | 2026年9月3日 |
-| **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。 <p>建立或修改頂層容器為「人員」的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segments/seg-builder.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
 | **同意原則篩選與報告**<br>&#x200B;您現在可以報告哪些訪客符合您的Adobe Experience Platform同意原則。 （同意原則維度和量度會新增至您連線中的資料檢視。）<p>此外，您可以在將非同意的訪客資料擷取到Customer Journey Analytics之前將其排除。</p><p>(文件連結待補充。)<!--For more information, see Consent reporting and filtering overview.--></p> | | 2026年9月 |
-| **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。 <p>建立或修改頂層容器為「人員」的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segments/seg-builder.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
+| **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。</p><p>建立或修改頂層容器為「人員」的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segments/seg-builder.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
 | **在Analysis Workspace中使用交談深入分析來分析LLM客戶體驗**<br/> Customer Journey Analytics現在將非結構化的聊天資料帶入Analysis Workspace，讓您報告屬性中發生的LLM支援瀏覽和購買體驗。<p>有了這項功能，您可以：</p><ul><li>透過Web SDK從對話式代理程式（您組織的自訂代理程式或Adobe Brand Concierge）收集提示、回應和代理程式中繼資料。</li><li>分析意圖、語調和情緒，以瞭解客戶詢問、代理商回應方式，以及客戶對其互動的感受。</li><li>使用您現有的結構、資料集和資料檢視進行大規模分析，然後在Analysis Workspace中呈現深入分析。</li><li>將代理互動連結至您更廣大的客戶歷程，讓對話與結果相互關聯，這樣您就能衡量對轉換、參與度等專案的實際影響。</li></ul><p>過去，LLM支援的體驗很難測量，而且幾乎無法連線至您現有的客戶歷程。</p><p>(文件連結待補充。)</p> | | 2026年9月22日 |
-| **總母體報告**<br/>&#x200B;您現在可以分析並報告Customer Journey Analytics連線中存在的設定檔和查詢資料集中定義的實體。 該分析和報告超越了事件資料集以時間為基礎的事件系列。 <p>此功能可啟用新類別的查詢、量度和對象定義，以反映企業客戶群的完整範圍。</p><p>(文件連結待補充。)</p> | | 2026年9月22日 |
-| **每小時警示**<br/>&#x200B;您現在可以將警示的時間詳細程度設定為每小時。<p>每小時警示是針對一段時間內到達的資料。 如果資料的延遲超過一小時，較長的詳細程度可確保警報評估完整的資料。 如果您不確定資料需要多久才能送達，請洽詢資料工程師。</p> | | 2026年9月 |
-| **警示傳送嚴格遵守設定的延遲**<br/>&#x200B;現在警示會在您設定的延遲期間結束時傳送，無論指定事件範圍的資料是否完成或仍在接收中。 延遲時段之後到達的任何資料都不會包含在警報中。<p>以前，警報包括等待延遲送達資料的背景處理檢查，即使這表示警報是在設定的延遲時段後傳送。</p> | | 2026年9月 |
+| **總母體報告**<br/>&#x200B;您現在可以分析並報告Customer Journey Analytics連線中存在的設定檔和查詢資料集中定義的實體。 該分析和報告超越了事件資料集之事件系列的時間型。 <p>此功能可啟用新類別的查詢、量度和對象定義，以反映企業客戶群的完整範圍。</p><p>(文件連結待補充。)</p> | | 2026年9月22日 |
+| **每小時警示**<br/>&#x200B;您現在可以將警示的時間詳細程度設定為每小時。<p>每小時警示是針對一段時間內到達的資料。 如果資料的延遲超過一小時，較長的詳細程度可確保警報評估完整的資料。 如果您不確定資料需要多久才能送達，請洽詢資料工程師。</p>p>（請遵循檔案連結。）</p> | | 2026年9月 |
+| **警示傳送嚴格遵守設定的延遲**<br/>&#x200B;現在警示會在您設定的延遲期間結束時傳送，無論指定事件範圍的資料是否完成或仍在接收中。 延遲時段之後到達的任何資料都不會包含在警報中。<p>以前，警報包括等待延遲送達資料的背景處理檢查，即使這表示警報是在設定的延遲時段後傳送。</p>p>（請遵循檔案連結。）</p> | | 2026年9月 |
 | **Adobe Brand Visibility整合**<br/>&#x200B;將Adobe Brand Visibility與您組織的Customer Journey Analytics資料連結，以便測量AI驅動的探索如何轉化為實際的網站參與度和業務成果。<p>(文件連結待補充。)</p> | | 2026年9月 |
+| **CX Enterprise Co-worker的其他技能**<br>&#x200B;即將推出Co-worker的新技能，包括：<ul><li><strong>實作指南</strong>：將簡短的探索對話轉換為個人化、相依性感知的實作計畫，可隨時匯出至CSV、Jira、Workfront和Markdown。</li><li><strong>智慧型實作檢查清單</strong>：將您的探索對話轉換為同事專案中受管理、可追蹤的實作專案：您可以指派、監控和驗證的步驟的有序檢查清單。</li><li><strong>資料驗證</strong>：直接在Co-worker中檢查您的資料欄位和資料集，確認您是使用受信任、正確的資料（從Adobe Agent Orchestrator v1升級）。</li><li><strong>串流媒體驗證</strong>：在Co-worker中驗證您的串流媒體資料，以確認其正確且準備好進行報告。</li></ul><p>（請遵循檔案連結。）</p> | | 2026年9月30日 |
 
 ### Customer Journey Analytics 中的修正
 
@@ -79,7 +61,7 @@ ht-degree: 23%
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
-| **串流媒體服務：支援排程資料**<br/>您現在可以上傳過去串流媒體直播內容的排程資料，讓您追蹤觀看人數更輕鬆也更準確。<p>以下是支援排程資料上傳的即時內容範例：</p><ul><li>FAST (免費廣告支援的電視) 平台</li><li>本地串流</li><li>現場體育賽事</li></ul><p>透過上傳排程資料，您可以追蹤上傳檔案中指定時間內播出的各個節目之觀看人數資料。 您甚至可以收集特定主題或節目區段的觀看人數資料。</p><p>無論您以何種方式實施串流媒體收集，均可使用這些功能。</p><p>過去在分析直播內容時，無法準確地將特定工作階段與特定節目相關聯，亦無法將特定工作階段與個別主題或節目區段相關聯。</p><p>如需詳細資訊，請參閱[上傳排程資料以追蹤即時內容](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-use-cases/track-schedule-data)。 | 2025 年 10 月 29 日 | 待定<p>（原計畫於2025年10月29日推出）</p> |
+| **串流媒體服務：支援排程資料**<br/>您現在可以上傳過去串流媒體直播內容的排程資料，讓您追蹤觀看人數更輕鬆也更準確。<p>以下是排程資料上傳支援的即時內容範例：</p><ul><li>FAST (免費廣告支援的電視) 平台</li><li>本地串流</li><li>現場體育賽事</li></ul><p>透過上傳排程資料，您可以追蹤上傳檔案中指定時間內播出的各個節目之觀看人數資料。 您甚至可以收集特定主題或節目區段的觀看人數資料。</p><p>無論您以何種方式實施串流媒體收集，均可使用這些功能。</p><p>過去在分析直播內容時，無法準確地將特定工作階段與特定節目相關聯，亦無法將特定工作階段與個別主題或節目區段相關聯。</p><p>如需詳細資訊，請參閱[上傳排程資料以追蹤即時內容](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-use-cases/track-schedule-data)。</p> | 2025 年 10 月 29 日 | 待定<p>（原計畫於2025年10月29日推出）</p> |
 
 >[!MORELIKETHIS]
 >
