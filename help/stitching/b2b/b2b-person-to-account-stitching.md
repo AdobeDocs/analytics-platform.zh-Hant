@@ -6,22 +6,14 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ae08f7a010c6c8cdb262bd96e51c2b677a4cb70a
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4ab8bb6c0f68ae49128a2fe2a1eb9e87ccfa52a1
 workflow-type: tm+mt
-source-wordcount: 2230
+source-wordcount: 2268
 ht-degree: 21%
 
 ---
@@ -69,7 +61,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 +++ 詳細資料
 
-為了支援B2B人員對帳戶的彙整，當您[設定B2B拼接設定](#configure-b2b-person-to-account-stitching-settings)時，請提供主要人員識別碼名稱空間（例如電子郵件）和人員對帳戶的對應資料集。
+為了支援B2B人員對帳戶的彙整，當您[設定B2B拼接設定](#configure-b2b-stitching-settings)時，請提供主要人員識別碼名稱空間（例如電子郵件）和人員對帳戶的對應資料集。
 從人員到帳戶資料集的人員ID名稱空間可與主要資料集（電子郵件）相同，或可能有所不同。 在以下範例中，它被設為CRM ID （這需要連結到身分圖表中的電子郵件）。
 
 | CRM ID | 帳戶 ID |
@@ -93,7 +85,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 | b978bbw9 | cassidy@ubiquity.com | 普遍性 |
 | fs453ghi | carmen@adobe.com | Adobe |
 
-圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，您設定永久識別碼(ECID)欄位，以便在您[在資料集](#enable-b2b-person-to-account-stitching-on-event-datasets)上啟用拼接功能時，做為永久人員ID。 根據提升的人員對帳戶對應資料集`emily@adobe.com`，在相關事件上將設定為提升的人員ID。
+圖表式拚接也可用來提升體驗事件資料集中的人員ID。 例如，您設定永久識別碼(ECID)欄位，以便在您[在資料集](#enable-b2b-person-to-account-stitching-on-event-datasets)上啟用拼接功能時，做為永久人員ID。 假設`5678` （永久ID）連結至身分圖表中的`emily@adobe.com` （人員ID），`emily@adobe.com`在相關事件上已設定為提升許可權的人員ID。
 
 | 時間戳記 | 永久 ID | 原始帳戶ID | 原始人員ID | 提升的人員ID |
 |--|--|---|---|---|
@@ -112,7 +104,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 +++ 詳細資料
 
-帳戶資料集人員會再次用於提升體驗事件資料集中的帳戶ID。 例如，請參閱emily@sky.com的增加值&#x200B;**Sky**&#x200B;以及carmen@adobe.com和emily@adobe.com的&#x200B;**Adobe**。 以及cory@sky.com的更新值&#x200B;**Sky** （來自Ubiquity）。
+帳戶資料集人員是用來提升體驗事件資料集中的帳戶ID。 例如，請參閱carmen@adobe.com和emily@adobe.com的新增值&#x200B;**Adobe**。 以及cory@sky.com的更新值&#x200B;**Sky** （來自Ubiquity）。
 
 | 時間戳記 | 永久 ID | 原始帳戶ID | 原始人員ID | 提升的帳戶ID | 提升的人員ID |
 |---|---|---|---|---|---|
@@ -128,7 +120,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 ### 結果
 
-此範例顯示B2B帳戶比對人員如何根據您提供作為輸入的人員 — 帳戶對應資料集，使用缺少的人員識別碼或缺少的帳戶識別碼和不正確的帳戶識別碼來更新您的體驗事件資料。
+此範例顯示B2B帳戶對帳戶拼接如何根據身分圖表資料以及您作為輸入提供的帳戶對帳戶對應資料集，使用缺少人員識別碼和缺少或不正確的帳戶識別碼來更新您的體驗事件資料。
 
 
 ## 先決條件
@@ -232,7 +224,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用人員至帳戶拼接"
 >abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 **[!UICONTROL 持續性人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員識別碼名稱空間]**&#x200B;的值，然後用來根據人員到帳戶資料集來查詢帳戶ID。<br/>如果停用，此資料集便不會使用 B2B 人員至帳戶拼接，而您必須改為選取所需的&#x200B;**[!UICONTROL 帳戶 ID]**。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="將B2B人員設定為帳戶拼接設定"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="將B2B人員設定為帳戶拼接設定"
 
 在連線層級設定B2B拼接後，您必須啟用B2B人員以個別帳戶拼接您要拼接的每個事件資料集。
 
@@ -246,8 +238,8 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 當&#x200B;**[!UICONTROL 啟用個人帳戶拼接]**&#x200B;為&#x200B;**於**&#x200B;時，您已設定B2B個人帳戶拼接資料集。
 
-* 人員ID的設定為必填。 該人員ID是用來根據[帳戶資料集](#prerequisites)的人員來查詢帳戶ID。
-* 帳戶ID的設定為選用。
+* 需要設定永續性人員ID。 該永久性人員ID從先前設定的人員ID名稱空間提升為人員ID，然後用於根據[人員到帳戶資料集](#prerequisites)來查詢帳戶ID。
+* 帳戶ID的設定為選用。 當帳戶資料集中的人員無法取得相關帳戶ID資訊時，此設定會用作遞補方法。
 
 ![B2B人員在](../assets/b2b-event-dataset-stitching-on.png)上的事件資料集上進行帳戶拼接
 
