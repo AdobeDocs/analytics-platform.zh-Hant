@@ -5,23 +5,15 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
 hide: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8did: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
 source-wordcount: 1326
-ht-degree: 20%
+ht-degree: 28%
 
 ---
 
@@ -32,7 +24,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-merge-policy"
 >title="合併原則"
->abstract="合併原則會將來自多個資料集的輪廓資料合併到統一的客戶輪廓中，用於建立客群。 選取與包含您要報告的同意原則成員資格資料（`consentPoliciesIDMap`欄位）的設定檔資料集對應的合併原則。 或洽詢您的資料團隊，了解各合併原則與哪些客群相關聯。"
+>abstract="合併原則會將來自多個資料集的輪廓資料合併到統一的客戶輪廓中，用於建立客群。 選取與輪廓資料集對應的合併原則，而該輪廓資料集包含您要報告之同意原則成員資格資料 ( `consentPoliciesIDMap` 欄位)。 或洽詢您的資料團隊，了解各合併原則與哪些客群相關聯。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -68,7 +60,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-reporting"
 >title="啟用報告"
->abstract="啟用此選項以使用Analysis Workspace來報告連線中可用的同意資料。 同意原則維度和量度會新增至您選取的資料檢視。"
+>abstract="啟用此選項，Analysis Workspace 便可以利用您的連線中可用的同意資料產出報告。 同意原則維度和量度已新增至您選取的資料視圖。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -77,7 +69,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-filtering"
 >title="啟用篩選"
->abstract="啟用此選項可排除非同意的訪客資料不會擷取到Customer Journey Analytics中。 啟用後，只有當訪客符合以下啟用的所有同意原則時，才會擷取訪客的資料。 <br>此選項適用於需要在擷取時排除非同意訪客資料的組織。"
+>abstract="啟用此選項可避免將非同意的訪客資料攝取至 Customer Journey Analytics 中。 啟用後，唯有訪客符合以下啟用的所有同意原則時，才會攝取該訪客的資料。 <br>此選項適用於需要在攝取時排除非同意訪客資料的組織。"
 
 <!-- markdownlint-enable MD034 -->
 
