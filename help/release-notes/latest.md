@@ -3,6 +3,7 @@ title: 目前的Customer Journey Analytics發行說明
 description: 檢視最新的 Customer Journey Analytics 發行說明
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
+hold: true
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -27,56 +28,58 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
+source-git-commit: b9c679f4cd71fb2ae9c9c3af1b680982f92e6c83
 workflow-type: tm+mt
-source-wordcount: 991
-ht-degree: 27%
+source-wordcount: 1189
+ht-degree: 21%
 
 ---
 
-# 最新Customer Journey Analytics發行說明（2026年8月）
+# 最新Customer Journey Analytics發行說明（2026年9月）
 
-**上次更新日期**：2026年8月5日
+**上次更新日期**：2026年9月8日
 
-這些發行說明涵蓋2026年8月發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。 因此，這些發行說明每月會更新好幾次。 請定期進行檢查。
+以下發行說明涵蓋2026年9月發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。 因此，這些發行說明每月會更新好幾次。 請定期進行檢查。
 
 ## 新功能或更新功能
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
-| **歷程畫布增強功能**<br>&#x200B;現已推出下列歷程畫布增強功能：<ul><li>比較歷程與先前的時間範圍。 比較目前歷程與4週前、2季前、1年前或自訂日期範圍的歷程。</li><li>針對選取的節點，顯示在歷程中任何時間點上所選節點之後排名最前的維度專案。 當選取的節點是您分析中的關鍵事件，且您想要檢視人員之後在任何時間點做什麼，請使用此選項。<p>以前，只有頂部的緊接節點可以顯示在所選節點之前或之後。 </p></li><li>變更節點之間箭頭的形狀和樣式。 在節點之間拖曳箭頭以變更箭頭的形狀（曲率），然後按一下滑鼠右鍵以將其樣式變更為下列任一專案：實線、虛線、點狀線、虛線點或動畫。</li></ul><p></p>如需更多資訊，請參閱「[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。 |  | 2026年8月18日 |
-| **支援其他資料使用標籤**<br> Customer Journey Analytics現在支援資料集中元素的下列其他資料使用標籤：<ul><li>C2 — 限制協力廠商資料匯出（現已推出）</li><li>C3 — 限制可直接識別的資料組合（現在可用）</li><li>C9 — 限制資料科學（預計於8月或9月發行）</li></ul><p>如需詳細資訊，請參閱[標籤、原則和行銷動作](/help/data-views/data-governance.md)。</p> | | 2026年8或9月 |
-| **Content Analytics：付費媒體資料** <br/>付費媒體現在可作為Content Analytics的第三個管道使用。 檢視[總覽](/help/content-analytics/content-analytics.md)、[頻道設定](/help/content-analytics/config/guided.md#channels)、[元件](/help/content-analytics/report/components.md)和[報告](/help/content-analytics/report/report.md)的更新。 | | 2026年9月4日 |
-| **B2B：個人與帳戶拼接**<br> B2B帳戶拼接使用帳戶資訊豐富您的事件資料集，並在Customer Journey Analytics中啟用完整客戶歷程的分析。 <p>當事件缺少帳戶ID （Customer Journey Analytics B2B edition擷取時會需要此ID）時，帳戶拼接會衍生並使用您提供的人員對帳戶對應資料集自動新增該資訊。</p><p>如需詳細資訊，請參閱[B2B個人與帳戶拼接](/help/stitching/b2b/b2b-person-to-account-stitching.md)。</p> | | 2026年8月31日 |
-| **CJA報表API首次呼叫指南**<br> Adobe Customer Journey Analytics API首次呼叫指南提供設定基本報表要求的指示和範例。 | | 2026年8月10日 |
-| **CJA報表API日期趨勢指南**<br> Adobe Customer Journey Analytics API日期趨勢指南提供設定基本報表要求的指示和範例。 | | 2026年8月17日 |
-| **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。 <p>建立或修改頂層容器為「人員」的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segments/seg-builder.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
+| **Customer Journey Analytics MCP伺服器外掛程式**<br/>&#x200B;使用適用於ChatGPT和Claude的新Customer Journey Analytics MCP伺服器外掛程式，快速存取您的資料。 <p>如需詳細資訊，請參閱[ChatGPT外掛程式指南](https://developer.adobe.com/analytics-mcp/docs/guides/chatgpt)和[Claude聯結器指南](https://developer.adobe.com/analytics-mcp/docs/guides/claude)。</p> | 2026年9月1日 | 2026年9月1日 |
+| **支援其他資料使用標籤**<br> Customer Journey Analytics現在支援資料集中元素的下列其他資料使用標籤：<ul><li>C2 — 限制協力廠商資料匯出（現已推出）</li><li>C3 — 限制可直接識別的資料組合（現在可用）</li><li>C9 — 限制資料科學（預計於8月或9月發行）</li></ul><p>如需詳細資訊，請參閱[標籤、原則和行銷動作](/help/data-views/data-governance.md)。</p> | | 2026年9月3日 |
 | **同意原則篩選與報告**<br>&#x200B;您現在可以報告哪些訪客符合您的Adobe Experience Platform同意原則。 （同意原則維度和量度會新增至您連線中的資料檢視。）<p>此外，您可以在將非同意的訪客資料擷取到Customer Journey Analytics之前將其排除。</p><p>(文件連結待補充。)<!--For more information, see Consent reporting and filtering overview.--></p> | | 2026年9月 |
+| **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。</p><p>建立或修改頂層容器為「人員」的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segments/seg-builder.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
+| **在Analysis Workspace中使用交談深入分析來分析LLM客戶體驗**<br/> Customer Journey Analytics現在將非結構化的聊天資料帶入Analysis Workspace，讓您報告屬性中發生的LLM支援瀏覽和購買體驗。<p>有了這項功能，您可以：</p><ul><li>透過Web SDK從對話式代理程式（您組織的自訂代理程式或Adobe Brand Concierge）收集提示、回應和代理程式中繼資料。</li><li>分析意圖、語調和情緒，以瞭解客戶詢問、代理商回應方式，以及客戶對其互動的感受。</li><li>使用您現有的結構、資料集和資料檢視進行大規模分析，然後在Analysis Workspace中呈現深入分析。</li><li>將代理互動連結至您更廣大的客戶歷程，讓對話與結果相互關聯，這樣您就能衡量對轉換、參與度等專案的實際影響。</li></ul><p>過去，LLM支援的體驗很難測量，而且幾乎無法連線至您現有的客戶歷程。</p><p>(文件連結待補充。)</p> | | 2026年9月22日 |
+| **總母體報告**<br/>&#x200B;您現在可以分析並報告Customer Journey Analytics連線中存在的設定檔和查詢資料集中定義的實體。 該分析和報告超越了事件資料集之事件系列的時間型。 <p>此功能可啟用新類別的查詢、量度和對象定義，以反映企業客戶群的完整範圍。</p><p>(文件連結待補充。)</p> | | 2026年9月22日 |
+| **每小時警示**<br/>&#x200B;您現在可以將警示的時間詳細程度設定為每小時。<p>每小時警示是針對一段時間內到達的資料。 如果資料的延遲超過一小時，較長的詳細程度可確保警報評估完整的資料。 如果您不確定資料需要多久才能送達，請洽詢資料工程師。</p>p>（請遵循檔案連結。）</p> | | 2026年9月 |
+| **警示傳送嚴格遵守設定的延遲**<br/>&#x200B;現在警示會在您設定的延遲期間結束時傳送，無論指定事件範圍的資料是否完成或仍在接收中。 延遲時段之後到達的任何資料都不會包含在警報中。<p>以前，警報包括等待延遲送達資料的背景處理檢查，即使這表示警報是在設定的延遲時段後傳送。</p>p>（請遵循檔案連結。）</p> | | 2026年9月 |
+| **Adobe Brand Visibility整合**<br/>&#x200B;將Adobe Brand Visibility與您組織的Customer Journey Analytics資料連結，以便測量AI驅動的探索如何轉化為實際的網站參與度和業務成果。<p>(文件連結待補充。)</p> | | 2026年9月 |
+| **CX Enterprise Co-worker的其他技能**<br>&#x200B;即將推出Co-worker的新技能，包括：<ul><li><strong>實作指南</strong>：將簡短的探索對話轉換為個人化、相依性感知的實作計畫，可隨時匯出至CSV、Jira、Workfront和Markdown。</li><li><strong>智慧型實作檢查清單</strong>：將您的探索對話轉換為同事專案中受管理、可追蹤的實作專案：您可以指派、監控和驗證的步驟的有序檢查清單。</li><li><strong>資料驗證</strong>：直接在Co-worker中檢查您的資料欄位和資料集，確認您是使用受信任、正確的資料（從Adobe Agent Orchestrator v1升級）。</li><li><strong>串流媒體驗證</strong>：在Co-worker中驗證您的串流媒體資料，以確認其正確且準備好進行報告。</li></ul><p>（請遵循檔案連結。）</p> | | 2026年9月30日 |
 
 ### Customer Journey Analytics 中的修正
 
-**Analysis Workspace**： AN-466867、AN-465995、AN-465315、AN-465313、AN-464375、AN-463634、AN-463248、AN-463175、AN-463049、AN-462347、AN-462124、AN-461922、AN-458398、AN-457849、AN-455002、AN-453357、AN-456863、AN-459816、AN-459034、AN-460774、AN-460671、AN-457760、AN-443594
+**Analysis Workspace**： AN-487374、AN-487119、AN-468907、AN-468810、AN-468363、AN-468096、AN-467414、AN-466986、AN-466982、AN-465073、AN-463571、AN-462373
 **元件**：
-**連線**： AN-464934、AN-460768
+**連線**： AN-451458
 **Content Analytics**：
-**引導式分析**：
-**匯出**： AN-451819、AN-448419、AN-456001
-**資料檢視**： AN-453201、AN-441965、AN-460967
-**資料擷取**： AN-462123、AN-451836、AN-453790、AN-459000、AN-456057、AN-461271、AN-459016、AN-460935
+**引導式分析**： AN-485600
+**匯出**： AN-489161、AN-467131、AN-464746
+**資料檢視**： AN-478732、AN-468836、AN-467851
+**資料擷取**： AN-489829、AN-489722、AN-469451、AN-467436、AN-467049、AN-466087、AN-465049、AN-463524、AN-457433
 **實作**：
-**Report Builder**： AN-465346、AN-464768、AN-464580、AN-464301、AN-463048、AN-462800、AN-457042、AN-461033、AN-459042、AN-454250、AN-451735、AN-450776、AN-450200、AN-451665
-**報告**： AN-463576、AN-462400、AN-456394、AN-455619、AN-459530、AN-454103、AN-452866、AN-461181
-**分段**： AN-459002、AN-457730、AN-457146
-**排程報告**： AN-455009、AN-460037、AN-462093
+**Report Builder**： AN-487486、AN-478944、AN-470036、AN-468589、AN-468436、AN-456747、AN-456700、AN-442695
+**報告**： AN-479145、AN-469095、AN-468070、AN-467786、AN-456684
+**分段**： AN-486561
+**排程報告**：
 **共用的量度和維度**：
-**對象分析**： AN-458292
-**Other**： AN-466935、AN-462116、AN-454493、AN-457666、AN-457557、AN-456742、AN-437975、AN-460959
+**對象分析**： AN-468237、AN-462553
+**其他**：
 
 ## 延遲的功能
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
-| **串流媒體服務：支援排程資料**<br/>您現在可以上傳過去串流媒體直播內容的排程資料，讓您追蹤觀看人數更輕鬆也更準確。<p>以下是支援排程資料上傳的即時內容範例：</p><ul><li>FAST (免費廣告支援的電視) 平台</li><li>本地串流</li><li>現場體育賽事</li></ul><p>透過上傳排程資料，您可以追蹤上傳檔案中指定時間內播出的各個節目之觀看人數資料。 您甚至可以收集特定主題或節目區段的觀看人數資料。</p><p>無論您以何種方式實施串流媒體收集，均可使用這些功能。</p><p>過去在分析直播內容時，無法準確地將特定工作階段與特定節目相關聯，亦無法將特定工作階段與個別主題或節目區段相關聯。</p><p>如需詳細資訊，請參閱[上傳排程資料以追蹤即時內容](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-use-cases/track-schedule-data)。 | 2025 年 10 月 29 日 | 待定<p>（原計畫於2025年10月29日推出）</p> |
+| **串流媒體服務：支援排程資料**<br/>您現在可以上傳過去串流媒體直播內容的排程資料，讓您追蹤觀看人數更輕鬆也更準確。<p>以下是排程資料上傳支援的即時內容範例：</p><ul><li>FAST (免費廣告支援的電視) 平台</li><li>本地串流</li><li>現場體育賽事</li></ul><p>透過上傳排程資料，您可以追蹤上傳檔案中指定時間內播出的各個節目之觀看人數資料。 您甚至可以收集特定主題或節目區段的觀看人數資料。</p><p>無論您以何種方式實施串流媒體收集，均可使用這些功能。</p><p>過去在分析直播內容時，無法準確地將特定工作階段與特定節目相關聯，亦無法將特定工作階段與個別主題或節目區段相關聯。</p><p>如需詳細資訊，請參閱[上傳排程資料以追蹤即時內容](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-use-cases/track-schedule-data)。</p> | 2025 年 10 月 29 日 | 待定<p>（原計畫於2025年10月29日推出）</p> |
 
 >[!MORELIKETHIS]
 >
