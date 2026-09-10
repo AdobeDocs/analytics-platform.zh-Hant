@@ -3,9 +3,9 @@ title: 品牌可見度整合
 description: 將Brand Visibility與Customer Journey Analytics整合
 feature: Experience Platform Integration
 role: User
-source-git-commit: e90a8d978f8d910f426dcb0fbf28881724d0f5a7
+source-git-commit: ab73c95a3ff0d57a4868d74266084a79c4c3721d
 workflow-type: tm+mt
-source-wordcount: '2543'
+source-wordcount: '2572'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ LLM流量透過兩種方式到達您的網站。 Customer Journey Analytics會�
 Brand Visibility Managed Connector會將資料作為摘要資料集傳送給Experience Platform。 若要在Customer Journey Analytics中進行測量，請自行完成兩個設定步驟：
 
 1. 建立包含品牌可見度資料集的連線。 請參閱[建立或編輯連線](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}。
-2. 在該連線上建立資料檢視。 資料檢視可讓以下維度和量度在Analysis Workspace中使用。 請參閱[建立或編輯資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}。
+2. 在該連線上建立資料檢視。 資料檢視可讓以下維度和量度在Analysis Workspace中使用。 請參閱[建立或編輯資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}。
 
 資料集：
 
@@ -178,4 +178,4 @@ Brand Visibility會讀取伺服器端的CDN存取記錄檔，並擷取請求方�
 
 ## 傳出整合
 
-待定。
+如需傳出整合的詳細資訊，請參閱Adobe品牌可見度檔案中的[Customer Journey Analytics整合](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"}。
