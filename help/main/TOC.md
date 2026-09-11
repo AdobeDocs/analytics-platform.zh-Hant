@@ -2,9 +2,9 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 6b14b7df4c897c42c963fb93c48e7331b0264589
+source-git-commit: 2983f972813a84a141109c5d14c81394802f226c
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1490'
 ht-degree: 93%
 
 ---
@@ -433,6 +433,7 @@ ht-degree: 93%
       + {hide-from-toc}[對應資料行](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
       + {hide-from-toc}[建立資料摘要](/help/components/exports/cja-data-feeds/create-feed.md)
       + {hide-from-toc}[資料摘要中的細分](/help/components/exports/cja-data-feeds/df-segmentation.md)
+      + {hide-from-toc}[在資料摘要中使用衍生欄位](/help/components/exports/cja-data-feeds/df-derived-fields.md)
   + 資料字母排序 {#data-dictionary}
     + [概觀](../components/data-dictionary/data-dictionary-overview.md)
     + [檢視資料字母排序中的元件資訊](../components/data-dictionary/view-data-dictionary.md)

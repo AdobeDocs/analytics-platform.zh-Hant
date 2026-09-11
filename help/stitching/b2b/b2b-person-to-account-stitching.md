@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: ac22a504d6182897438b3724d57c837ab2995f1b
 workflow-type: tm+mt
 source-wordcount: 2270
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -147,12 +147,12 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
 您首先需要在連線層級啟用和設定B2B拼接。 當連線設定B2B拼接時，您可以接著啟用「人員」以針對該連線中的個別事件資料集計算拼接。
 
-### 將B2B人員設定為帳戶拼接設定 {#configure-b2b-stitching-settings}
+### 設定 B2B 人員至帳戶拼接設定 {#configure-b2b-stitching-settings}
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_open_configuration"
->title="設定B2B拼接"
->abstract="選取&#x200B;**[!UICONTROL 開啟B2B拼接設定]**&#x200B;以設定B2B人員帳戶拼接。 如果連線尚未儲存，該設定會標示為「**[!UICONTROL _未儲存的變更_]**」。"
+>title="設定 B2B 拼接"
+>abstract="選取「**[!UICONTROL 開啟 B2B 拼接設定]**」以設定 B2B 人員至帳戶拼接。 如果連線尚未儲存，該設定會標示為「**[!UICONTROL _未儲存的變更_]**」。"
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
@@ -225,14 +225,14 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 
    1. **[!UICONTROL _未儲存的變更_]**&#x200B;指標會出現在&#x200B;**開啟B2B拼接設定**&#x200B;按鈕旁，直到您[儲存](#save)連線為止。
 
-### 啟用B2B人員對事件資料集執行帳戶彙整
+### 在事件資料集上啟用 B2B 人員至帳戶拼接
 
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用人員至帳戶拼接"
 >abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 **[!UICONTROL 持續性人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員識別碼名稱空間]**&#x200B;的值，然後用來根據人員到帳戶資料集來查詢帳戶ID。<br/>如果停用，此資料集便不會使用 B2B 人員至帳戶拼接，而您必須改為選取所需的&#x200B;**[!UICONTROL 帳戶 ID]**。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="將B2B人員設定為帳戶拼接設定"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="設定 B2B 人員至帳戶拼接設定"
 
 在連線層級設定B2B拼接後，您必須啟用B2B人員以個別帳戶拼接您要拼接的每個事件資料集。
 

@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 4806
-ht-degree: 54%
+ht-degree: 56%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="詳細資料"
->abstract="本指南會設定設定Content Analytics的需求。 提供此設定的名稱，並選取包含您要分析之內容分析資料的沙箱。"
+>abstract="本指南闡述了設定 Content Analytics 所需的要求。 請提供此設定的名稱，並選取包含您要分析之內容分析資料的沙箱。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_boldheader"
@@ -99,7 +99,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_header"
 >title="連線"
->abstract="從Customer Journey Analytics中選取現有連線，以將您的Content Analytics資料與合併。"
+>abstract="從 Customer Journey Analytics 中選取要與 Content Analytics 資料合併的現有連線。"
 
 每個設定都需要一個不重複名稱。 例如，`Example Content Analytics configuration`。 儲存或實施設定時需要該名稱。
 
@@ -140,7 +140,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="資料視圖"
->abstract="從Customer Journey Analytics中選取現有的資料檢視，以將您的Content Analytics資料與合併。"
+>abstract="從 Customer Journey Analytics 中選取要與 Content Analytics 資料合併的資料檢視。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
@@ -691,7 +691,7 @@ ht-degree: 54%
 
 當您選取&#x200B;**[!UICONTROL 儲存]**&#x200B;時，Content Analytics會自動執行下列動作：
 
-* 更新Customer Journey Analytics連線，將來自所有連線來源聯結器的付費媒體資料集納入此沙箱中。
+* 更新 Customer Journey Analytics 連線，以包含此沙箱中所有已連線來源連接器的付費媒體資料集。
 * 在所有選定的資料檢視中啟用付費媒體維度和量度。
 * 在 Workspace 報告中，將付費媒體管道顯示為可篩選維度。
 

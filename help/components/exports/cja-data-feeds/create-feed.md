@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: f5a7272f80aaba167974f2218bc84408d47f62d4
 workflow-type: tm+mt
 source-wordcount: 4217
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -81,8 +81,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_required_dimensions"
->title="必要維度"
->abstract="每個資料摘要都必須包含特定維度，以維度名稱旁的&#x200B;**必要**&#x200B;標籤來識別。 這些維度提供事件層級分析所需的最低結構。"
+>title="必要的維度"
+>abstract="每個資料摘要都必須包含特定維度，以維度名稱旁的&#x200B;**必要**&#x200B;標籤來識別。 這些維度可提供事件層級分析所需的最低結構。"
 
 <!-- markdownlint-enable MD034 -->
 
