@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 18b3b42cafd437749041bc1d408e60e77b42e1fc
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 89%
+source-wordcount: 488
+ht-degree: 78%
 
 ---
 
@@ -86,6 +86,17 @@ Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，讓您順暢導覽、�
 | --- | --- | --- |
 | 將面板上移 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
 | 將面板下移 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
+
+## 調整面板大小或視覺效果動作
+
+| 動作 | Mac 快速鍵 | Windows 快速鍵 |
+| --- | --- | --- |
+| 調整更寬的大小 | **[!UICONTROL *cmd + opt + shift + right *]** | **[!UICONTROL *ctrl + alt + shift + right *]** |
+| 調整大小變窄 | **[!UICONTROL *cmd + opt + shift + left *]** | **[!UICONTROL *ctrl + alt + shift + left *]** |
+| 將大小調整得更高 | **[!UICONTROL *cmd + opt + shift + down *]** | **[!UICONTROL *ctrl + alt + shift + down *]** |
+| 調整更短的大小 | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *ctrl + alt + shift + up *]** |
+
+寬度會以一個格點欄的步長調整大小，而高度則會以一個格點儲存格的步長調整大小（大約25畫素）。
 
 ## 民主化動作
 

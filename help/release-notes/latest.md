@@ -27,7 +27,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8fb541eac63595c7d02561a1ca1768ab373c1ea4
+source-git-commit: f3aad257d518373812176cb123d799b83cf45520
 workflow-type: tm+mt
 source-wordcount: 1261
 ht-degree: 20%
@@ -44,7 +44,7 @@ ht-degree: 20%
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
-| **Customer Journey Analytics MCP伺服器外掛程式**<br/>&#x200B;使用適用於ChatGPT和Claude的新Customer Journey Analytics MCP伺服器外掛程式，快速存取您的資料。 <p>如需詳細資訊，請參閱[ChatGPT外掛程式指南](https://developer.adobe.com/analytics-mcp/docs/guides/chatgpt)和[Claude聯結器指南](https://developer.adobe.com/analytics-mcp/docs/guides/claude)。</p> | 2026年9月1日 | 2026年9月1日 |
+| **Customer Journey Analytics MCP伺服器外掛程式**<br/>&#x200B;使用適用於ChatGPT和Claude的新Customer Journey Analytics MCP伺服器外掛程式，快速存取您的資料。 <p>如需詳細資訊，請參閱[連線到ChatGPT](https://developer.adobe.com/analytics-mcp/docs/guides/chatgpt)和[連線到Claude](https://developer.adobe.com/analytics-mcp/docs/guides/claude)。</p> | 2026年9月1日 | 2026年9月1日 |
 | **支援其他資料使用標籤**<br> Customer Journey Analytics現在支援資料集中元素的下列其他資料使用標籤：<ul><li>C2 — 限制協力廠商資料匯出（現已推出）</li><li>C3 — 限制可直接識別的資料組合（現在可用）</li><li>C9 — 限制資料科學（預計於8月或9月發行）</li></ul><p>如需詳細資訊，請參閱[標籤、原則和行銷動作](/help/data-views/data-governance.md)。</p> | | 2026年9月3日 |
 | **同意原則篩選與報告**<br>&#x200B;您現在可以報告哪些訪客符合您的Adobe Experience Platform同意原則。 （同意原則維度和量度會新增至您連線中的資料檢視。）<p>此外，您可以在將非同意的訪客資料擷取到Customer Journey Analytics之前將其排除。</p><p>(文件連結待補充。)<!--For more information, see Consent reporting and filtering overview.--></p> | | 2026年9月 |
 | **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。</p><p>建立或修改頂層容器為「人員」的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segments/seg-builder.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
@@ -53,7 +53,7 @@ ht-degree: 20%
 | **每小時警示**<br/>&#x200B;您現在可以將警示的時間詳細程度設定為每小時。<p>每小時警示是針對一段時間內到達的資料。 如果資料的延遲超過一小時，較長的詳細程度可確保警報評估完整的資料。 如果您不確定資料需要多久才能送達，請洽詢資料工程師。</p>p>（請遵循檔案連結。）</p> | | 2026年9月 |
 | **警示傳送嚴格遵守設定的延遲**<br/>&#x200B;現在警示會在您設定的延遲期間結束時傳送，無論指定事件範圍的資料是否完成或仍在接收中。 延遲時段之後到達的任何資料都不會包含在警報中。<p>以前，警報包括等待延遲送達資料的背景處理檢查，即使這表示警報是在設定的延遲時段後傳送。</p>p>（請遵循檔案連結。）</p> | | 2026年9月 |
 | **Adobe Brand Visibility整合**<br/>&#x200B;將Adobe Brand Visibility與您組織的Customer Journey Analytics資料連結，以便測量AI驅動的探索如何轉化為實際的網站參與度和業務成果。<p>(文件連結待補充。)</p> | | 2026年9月 |
-| **CX Enterprise Co-worker的其他技能**<br>&#x200B;即將推出Co-worker的新技能，包括：<ul><li><strong>實作指南</strong>：將簡短的探索對話轉換為個人化、相依性感知的實作計畫，可隨時匯出至CSV、Jira、Workfront和Markdown。</li><li><strong>智慧型實作檢查清單</strong>：將您的探索對話轉換為同事專案中受管理、可追蹤的實作專案：您可以指派、監控和驗證的步驟的有序檢查清單。</li><li><strong>資料驗證</strong>：直接在Co-worker中檢查您的資料欄位和資料集，確認您是使用受信任、正確的資料（從Adobe Agent Orchestrator v1升級）。</li><li><strong>串流媒體驗證</strong>：在Co-worker中驗證您的串流媒體資料，以確認其正確且準備好進行報告。</li></ul><p>（請遵循檔案連結。）</p> | | 2026年9月30日 |
+| **在CX Enterprise Coworker中升級與實作技能**<br>&#x200B;同事即將取得新技能。 這些技能有助於讓Customer Journey Analytics的升級和實作更順暢、更輕鬆：<ul><li>**實作指南技能**：產生一份量身打造的升級或實作步驟與建議清單。 然後可以使用預先定義的行動手冊將升級和實施指引轉換為同事專案。</li><li>**智慧型升級與實作檢查清單技能**：使用同事專案管理並追蹤自訂升級或實作檢查清單的實作進度、維護專案狀態、跨團隊共同作業、指派任務，以及視需要引入核准閘道。</li><li>**資料驗證技能**：確認您的實作已正確設定，且符合最佳實務。</li></ul><p>（請遵循檔案連結。）</p> | | 2026年9月30日 |
 
 ### Customer Journey Analytics 中的修正
 

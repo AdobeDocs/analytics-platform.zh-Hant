@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e2ec268ef4a2d84d51089e7b59b3df5b0ad6f48d
+source-git-commit: 18b3b42cafd437749041bc1d408e60e77b42e1fc
 workflow-type: tm+mt
-source-wordcount: 7019
+source-wordcount: 7045
 ht-degree: 98%
 
 ---
@@ -49,6 +49,8 @@ ht-degree: 98%
 
 | 功能 | 說明 |
 |---|---|
+| **2026年9月** | |
+| 新的調整大小捷徑動作 | Analysis Workspace中新的鍵盤快速鍵現在可讓您[調整面板或視覺效果](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization)的寬度、寬度、高度或寬度。 |
 | **2026年8月** | |
 | 澄清有關重新整理對象的資訊 | 當[發佈對象](/help/components/audiences/publish.md#audience-builder)時，澄清可排程重新整理的對象數量取決於您的Customer Journey Analytics權益，介於75到150之間。 |
 | **2026年7月** | |
