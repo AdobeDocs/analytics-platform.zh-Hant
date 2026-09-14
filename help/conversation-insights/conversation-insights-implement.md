@@ -19,7 +19,7 @@ ht-degree: 6%
 >[!PREREQUISITES]
 >
 >您必須有Experience Platform環境（組織和沙箱）可供收集資料。
-您的Adobe組織必須為實驗代理和交談欄位群組啟用。
+>您的Adobe組織必須為實驗代理和交談欄位群組啟用。
 
 ## 結構描述和資料集
 
