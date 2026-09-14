@@ -5,12 +5,12 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 hold: true
-source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
+source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '366'
 ht-degree: 6%
 ---
-# 管理交談見解設定
+# 管理設定
 
 在您[建立交談見解設定](/help/conversation-insights/conversation-insights-configure.md)之後，您可以檢視、編輯或刪除這些設定。
 
@@ -71,7 +71,7 @@ ht-degree: 6%
    * 選取您要編輯的組態旁邊的核取方塊，然後從藍色動作列選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
    * 針對您要編輯的組態選取![更多](/help/assets/icons/More.svg)。 從內容功能表選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
 
-1. 使用組態&#x200B;_&#x200B;**[&#128279;](./conversation-insights-configure.md)對話方塊的**&#x200B;組態/_&#x200B;名稱來設定交談見解。
+1. 使用組態&#x200B;_]**](./conversation-insights-configure.md)對話方塊的[**[!UICONTROL 組態/_&#x200B;名稱來設定交談見解。
 
 ## 刪除設定
 

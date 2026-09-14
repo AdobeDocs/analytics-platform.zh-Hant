@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 hold: true
-source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
+source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 6%
@@ -18,8 +18,9 @@ ht-degree: 6%
 
 >[!PREREQUISITES]
 >
->您必須有Experience Platform環境（組織和沙箱）可供收集資料。
->您的Adobe組織必須為實驗代理和交談欄位群組啟用。
+>* 您必須有Experience Platform環境（組織和沙箱）可供收集資料。
+>* 您的Adobe組織必須為實驗代理和交談欄位群組啟用。
+>
 
 ## 結構描述和資料集
 
@@ -304,6 +305,10 @@ ht-degree: 6%
 | `metadata[]` | 選擇性製作者定義的索引鍵/值中繼資料。 |
 
 
+訊號擷取服務會針對訊號資料集填入`signals`物件。
+
+先前的`signals[].attributes.{subjects,intents,tones,sentiment}`容器已棄用。
+
 #### 對話
 
 如需交談物件的完整詳細資料，請參閱下文。
@@ -356,9 +361,6 @@ ht-degree: 6%
 +++
 
 
-訊號擷取服務會針對訊號資料集填入`signals`物件。
-
-先前的`signals[].attributes.{subjects,intents,tones,sentiment}`容器已棄用。
 
 
 ### 其他欄位群組

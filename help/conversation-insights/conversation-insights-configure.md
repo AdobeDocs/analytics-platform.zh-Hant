@@ -1,22 +1,21 @@
 ---
-title: 設定交談深入分析設定
+title: 建立或編輯對話深入分析設定
 description: 瞭解如何設定「交談見解」設定。
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 hold: true
-source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
+source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '638'
 ht-degree: 8%
 ---
-# 設定交談見解設定
+# 建立或編輯組態
 
 
 對話深入分析可讓您大規模分析對話(來自大型語言模型(LLM)或人類)，並在整個客戶歷程中提供這些對話的內容。 透過交談見解，您可以瞭解代表對實際使用者結果的影響。
 
-
-## 建立或編輯設定
+透過「交談見解」設定介面，您可以快速建立或編輯設定和相關的成品（連線、資料檢視等）。
 
 當您建立或編輯對話深入分析設定時，需指定沙箱以及包含提示、回應和意見回饋資料的事件資料集。 您也可以選取要新增這些資料集的Customer Journey Analytics連線。 以及您要新增「對話深入分析」量度和維度的資料檢視。
 
@@ -24,12 +23,12 @@ ht-degree: 8%
 
 您可以從[交談見解設定介面](./conversation-insights-manage.md)建立或編輯設定。
 
-### 還原遺失的混合資料集
+## 還原遺失的混合資料集
 
 如果您編輯組態，而且已針對組態產生的混合資料集已不存在，請選取&#x200B;**[!UICONTROL 還原]**&#x200B;以重新產生混合資料集。
 
 
-### 設定步驟
+## 設定步驟
 
 針對每個設定：
 
