@@ -2,13 +2,11 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 2983f972813a84a141109c5d14c81394802f226c
+source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1493'
 ht-degree: 93%
-
 ---
-
 # Adobe Customer Journey Analytics 指南 {#using}
 
 + [Adobe Customer Journey Analytics 指南](../getting-started/cja-landing.md)
@@ -342,8 +340,12 @@ ht-degree: 93%
   + [常見問題](../guided-analysis/faq.md)
 
 + 交談見解 {#conversation-insights}
-  + {hide-from-toc}[概觀](/help/conversatiion-insights/conversation-insights.md)
-  + {hide-from-toc}[設定](/help/conversatiion-insights/config/guided.md)
+  + {hide-from-toc}[概觀](/help/conversation-insights/conversation-insights-overview.md)
+  + {hide-from-toc}[設定](/help/conversation-insights/conversation-insights-configure.md)
+  + {hide-from-toc}[管理](/help/conversation-insights/conversation-insights-manage.md)
+  + {hide-from-toc}[實作](/help/conversation-insights/conversation-insights-implement.md)
+  + {hide-from-toc}[分析](/help/conversation-insights/conversation-insights-analyze.md)
+
 
 + 元件 {#cja-components}
   + [概觀](../components/overview.md)

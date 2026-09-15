@@ -9,22 +9,26 @@ autotag-review: '2026-05-19T08:44:26.806Z'
 TQID: 'https://experienceleague.adobe.com/R7c5-VutwSkyghNvwC2gZv2KUEJoa263AN0Tkdg3w4o'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 4872f0078640fbd358a60a6d7baeb3ea575d3559
+    internal-label: Customer journeys
+source-git-commit: 555aef15933d87e5bbb3e3ec8b15d99a96ac25fe
 workflow-type: tm+mt
-source-wordcount: 1629
+source-wordcount: '1699'
 ht-degree: 0%
-
 ---
-
 # 比較Customer Journey Analytics和Adobe Analytics中的資料摘要
 
 {{release-limited-testing}}
@@ -40,6 +44,8 @@ Customer Journey Analytics和Adobe Analytics中的資料摘要可讓您將原始
 下列功能可在Customer Journey Analytics資料摘要中取得，但無法在Adobe Analytics資料摘要中取得：
 
 * **衍生欄位**：自訂元件，由可包含在資料摘要結構描述中的規則型轉換所建置。<!-- add benefit -->
+
+* **元件設定**：資料檢視元件設定（例如持續性、量度重複資料刪除以及值分組）可直接在資料摘要輸出中轉換元件的值，而不需要SQL。
 
 * **拼接**：跨裝置身分解析可將跨裝置的事件連結至單一人員。
 
@@ -80,6 +86,7 @@ Customer Journey Analytics和Adobe Analytics中的資料摘要可讓您將原始
 | **結構描述**<br/>&#x200B;資料摘要結構描述會決定哪些資料行可以包含在資料摘要中。 | 資料摘要結構描述是以資料檢視設定為基礎。  可包含在資料摘要結構描述中的元件，是資料檢視設定中可用元件的子集。 | 約1,100個以上變數的預先定義靜態清單。 許多資料行會匯出為&#x200B;**前置與後置處理的資料對** （例如，`eVar1` / `post_eVar1`），這佔資料行計數的大部分。 |
 | **資料摘要產生器**<br/>&#x200B;用來設定資料摘要中包含哪些欄的介面。 | 使用元件邊欄，其資料檢視中可用的命名維度和量度相同，並符合Analysis Workspace體驗。 | 使用從預先定義的~1,100+個資料行集合中選取的原始變數名稱（例如`eVar1`、`prop5`）的平面清單。 元件的名稱或說明不會超出其變數識別碼。 |
 | **衍生欄位**<br/>&#x200B;使用報告時套用的規則型轉換定義的自訂元件。 | 支援。 衍生欄位元件可與標準維度和量度一起納入資料摘要結構描述中。 | 不支援。 |
+| **元件設定**<br/>&#x200B;資料檢視元件設定（例如持續性、量度重複資料刪除和值分組），可在報告時轉換元件的值。 | 支援大部分的設定。 這些設定套用至資料摘要輸出的方式，與套用至Analysis Workspace的方式相同。 | 不支援。 |
 | **元件更新**<br/>&#x200B;元件組態的變更是否反映在過去和未來的資料摘要輸出中。 | 資料檢視中元件的變更（例如重新命名或移除維度）會傳播至未來的資料摘要，也會反映在回填中。 | 報表套裝中元件的變更僅適用於未來收集的資料。 |
 | **查詢**<br/> Customer Journey Analytics中的查詢資料集等同於Adobe Analytics中的分類。 | 所有查詢都直接內嵌在資料中。 | Adobe Analytics資料摘要不含分類。 |
 | **工作階段定義**<br/>&#x200B;造訪或工作階段界限的定義方式，這會影響事件的分組和歸因方式。 | 已在資料檢視中定義。 | 已在集合時定義。 |
