@@ -4,29 +4,37 @@ description: 瞭解如何在Customer Journey Analytics中報告訪客同意原�
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
-hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
   - id: d3fb138f-79e4-4a81-aedb-76dd93560085
+    internal-label: Experience Platform integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
+    internal-label: Privacy
+source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
 workflow-type: tm+mt
-source-wordcount: 1311
+source-wordcount: '1311'
 ht-degree: 2%
-
 ---
-
 # 同意報表和篩選概觀
+
+{{release-limited-testing}}
 
 同意報表和篩選會使用儲存在Adobe Experience Platform設定檔資料集中的同意原則成員資格資料，協助您報告訪客同意情形。 此外，您可以選擇在未經同意的訪客資料內嵌至Customer Journey Analytics之前將其排除。
 
@@ -130,7 +138,7 @@ ht-degree: 2%
 |---------|----------|----------|
 | [建立同意報告和篩選設定](/help/connections/consent-reporting-filtering/consent-configure.md) | 系統管理員 | <ul><li>資料集：讀取、寫入</li><li>結構描述：讀取、寫入</li></ul> <p>包含同意原則成員資格資料的設定檔資料集需要讀取許可權。 需要寫入許可權，因為會建立同意原則查詢資料集並維持同步。</p> |
 | 在資料檢視中檢視同意原則元件 | 指派資料檢視的產品設定檔的產品設定檔管理員 <p>如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md)。</p> | 不適用 |
-| 在Analysis Workspace中使用同意原則元件 | 存取已新增同意原則元件的資料檢視 | 不適用 |
+| [在Analysis Workspace中使用同意原則元件](/help/connections/consent-reporting-filtering/consent-analyze.md#use-consent-policy-components-in-analysis-workspace) | 存取已新增同意原則元件的資料檢視 | 不適用 |
 
 ## 同意報告和篩選使用案例
 

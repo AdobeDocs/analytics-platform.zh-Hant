@@ -4,27 +4,32 @@ description: 瞭解如何在Customer Journey Analytics中建立設定，以針�
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
-hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
   - id: d3fb138f-79e4-4a81-aedb-76dd93560085
+    internal-label: Experience Platform integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
+    internal-label: Privacy
+source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
 workflow-type: tm+mt
-source-wordcount: 1326
+source-wordcount: '1325'
 ht-degree: 28%
-
 ---
-
 # 設定同意報告和篩選 {#configure-consent-reporting}
 
 <!-- markdownlint-disable MD034 -->
@@ -80,6 +85,8 @@ ht-degree: 28%
 >abstract="啟用此選項可避免將非同意的訪客資料攝取至 Customer Journey Analytics 中。 啟用後，唯有訪客符合以下啟用的所有同意原則時，才會攝取該訪客的資料。 <br>此選項適用於需要在攝取時排除非同意訪客資料的組織。"
 
 <!-- markdownlint-enable MD034 -->
+
+{{release-limited-testing}}
 
 系統管理員可以針對一或多個連線啟用同意報告及（選擇性）同意篩選。 如需概述資訊，請參閱[同意報告和篩選概述](/help/connections/consent-reporting-filtering/consent-overview.md)。
 
