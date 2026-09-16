@@ -5,14 +5,12 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
-source-git-commit: db34e721f156b3eb0aab20b2dca57e194c83d6fb
+source-git-commit: 39d6847296cc385d501defda292b5b3cae98b46a
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 5%
-
+source-wordcount: '2338'
+ht-degree: 16%
 ---
-
-# 從標籤移轉至XDM {#upgrade-migration-planner}
+# 從標記移轉至 XDM {#upgrade-migration-planner}
 
 {{upgrade-note-step}}
 
@@ -21,7 +19,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="migration_intro"
 >title="移轉概觀"
->abstract="升級至Adobe Experience Platform時，將Tags實作移轉至Customer Journey Analytics Web SDK。<br/>繼續現有的移轉，或開始新的移轉。"
+>abstract="升級至 Customer Journey Analytics 時，將標記實施移轉至 Adobe Experience Platform Web SDK。<br/>繼續現有的移轉，或開始新的移轉。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -88,7 +86,8 @@ ht-degree: 5%
 
 1. 在移轉規劃工具的&#x200B;[!UICONTROL **移轉**]&#x200B;標籤上，選取&#x200B;[!UICONTROL **新增**]。
 
-   ![新移轉對話方塊，您可在其中選擇移轉型別並輸入移轉名稱。](assets/migration-planner-new-migration.png)
+   <!-- Confirm the exact image: ![The migration overview page with the Audit, Mapping, and Implementation stage cards.](assets/migration-planner-overview.png) -->
+
 
 1. 註明下列資訊：
 
@@ -135,13 +134,13 @@ ht-degree: 5%
 
    移轉概觀頁面會顯示要完成的三個階段，以及移轉及其成品的摘要。
 
-   ![移轉總覽頁面，包含稽核、對應及實作階段卡。](assets/migration-planner-overview.png)
+   <!-- Confirm the exact image: ![The migration overview page with the Audit, Mapping, and Implementation stage cards.](assets/migration-planner-overview.png) -->
 
 1. 完成&#x200B;[!UICONTROL **稽核**]&#x200B;階段：
 
    1. 在稽核卡（[!UICONTROL **標籤延伸稽核**]&#x200B;或&#x200B;[!UICONTROL **JavaScript稽核**]，視您的移轉型別而定）中，選取&#x200B;[!UICONTROL **開始稽核**]&#x200B;以檢閱移轉中包含的規則和資料元素。
 
-      ![稽核頁面，您可在其中選取規則和資料元素並解決任何發現。](assets/migration-planner-audit.png)
+      <!-- Confirm the exact image: ![The audit page, where you select rules and data elements and resolve any findings.](assets/migration-planner-audit.png) -->
 
    1. 在&#x200B;[!UICONTROL **規則**]&#x200B;和&#x200B;[!UICONTROL **資料元素**]&#x200B;標籤上，選取要包含在移轉中的專案。
 
@@ -247,7 +246,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="migration_mapping_sets"
 >title="對應集"
->abstract="對應集可決定Analytics變數對應至XDM欄位的方式。<br/>建立新的對應集，或選擇現有的對應集，將相同的對應套用至多個移轉。 您也可以在其他移轉工作中參考對應集。"
+>abstract="對應集會決定 Analytics 變數對應至 XDM 欄位的方式。<br/>建立新的對應集，或選擇現有的對應集，將相同的對應套用至多個移轉。 您也可以在其他移轉工作中參照對應集。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -255,14 +254,14 @@ ht-degree: 5%
 
 您可以在移轉程式[&#128279;](#migrate-an-analytics-implementation-to-the-web-sdk)期間建立新的對應集。 或者，您可以建立獨立對應集，以便用於未來的移轉或其他移轉工作。
 
-### 建立獨立對應集 {#xdm-mapping}
+### 建立獨立的對應集 {#xdm-mapping}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="migration_mapping_schema"
 >title="選擇結構描述"
->abstract="對應集可決定Analytics變數對應至XDM欄位的方式。<br/>建立新的對應集，或選擇現有的對應集，將相同的對應套用至多個移轉。 您也可以在其他移轉工作中參考對應集。"
+>abstract="對應集會決定 Analytics 變數對應至 XDM 欄位的方式。<br/>建立新的對應集，或選擇現有的對應集，將相同的對應套用至多個移轉。 您也可以在其他移轉工作中參照對應集。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -270,8 +269,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="migration_mapping_field_group"
->title="欄位群組偏好設定"
->abstract="儘可能選擇使用已發佈Adobe欄位群組的標準欄位群組。 這會提升最大一致性，並在沒有標準欄位可用時退回自訂租使用者欄位。<br/>選擇自訂欄位群組，儘可能使用租使用者 — 名稱空間自訂欄位。 如此可提升最大彈性。"
+>title="欄位群組偏好"
+>abstract="盡可能選擇標準欄位群組，以便使用 Adobe 已發佈的欄位群組。 這樣能夠促進最高程度的一致性，並在沒有標準欄位可用時退回自訂租用戶欄位。<br/>盡可能選擇自訂欄位群組，以使用租用戶命名空間自訂欄位。 這樣能夠促進最高程度的彈性。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -280,7 +279,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="migration_mapping_lookback"
 >title="回顧期間"
->abstract="控制判斷哪些變數正在主動接收資料時，要回溯多遠。 包含回顧期間內資料的變數會包含在結構描述中。"
+>abstract="在判斷哪些變數正在主動接收資料時，可用來控制所要回溯的時間長度。 包含回顧期間內資料的變數會納入在結構描述中。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -304,13 +303,13 @@ ht-degree: 5%
 
 1. 在&#x200B;[!UICONTROL **欄位群組偏好設定**]&#x200B;下拉式功能表中，選擇您要如何將自訂變陣列織到欄位群組中：
 
-   * [!UICONTROL **標準優先**]：儘可能使用已發佈的Adobe欄位群組。 這會提升最大一致性，並在沒有標準欄位可用時退回自訂租使用者欄位。
+   * [!UICONTROL **標準優先**]：儘可能使用已發佈的Adobe欄位群組。 這樣能夠促進最高程度的一致性，並在沒有標準欄位可用時退回自訂租用戶欄位。
 
-   * [!UICONTROL **自訂優先**]：儘可能使用租使用者 — 名稱空間自訂欄位。 如此可提升最大彈性。
+   * [!UICONTROL **自訂優先**]：儘可能使用租使用者 — 名稱空間自訂欄位。 這樣能夠促進最高程度的彈性。
 
    <!-- * [!UICONTROL **Ask each time**]: Prompt for each signal so you can decide individually. -->
 
-1. 在&#x200B;[!UICONTROL **回顧期間**]&#x200B;欄位中，選取在判斷哪些變數正在主動接收資料時，要回顧多久的時間。 包含回顧期間內資料的變數會包含在結構描述中。
+1. 在&#x200B;[!UICONTROL **回顧期間**]&#x200B;欄位中，選取在判斷哪些變數正在主動接收資料時，要回顧多久的時間。 包含回顧期間內資料的變數會納入在結構描述中。
 
 1. 選取&#x200B;[!UICONTROL **建立對應集**]。
 
