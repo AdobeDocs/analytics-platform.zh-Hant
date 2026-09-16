@@ -8,24 +8,30 @@ autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
 product_v2:
   - id: d3f42e9e-bb51-4077-a732-358b801d8b29
+    internal-label: Customer Journey Analytics B2B
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+    internal-label: Stitching
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ac22a504d6182897438b3724d57c837ab2995f1b
+    internal-label: Data management
+source-git-commit: 76379e1cd9a42f2b2651a66768c195776eabecff
 workflow-type: tm+mt
-source-wordcount: 2270
-ht-degree: 23%
-
+source-wordcount: '2292'
+ht-degree: 25%
 ---
-
 # B2B個人與帳戶拼接
 
 B2B個人帳戶拼接讓您的事件資料集和帳戶身分更加豐富，並且可以在Customer Journey Analytics的完整客戶歷程中進行完整分析。 當事件缺少帳戶ID （Customer Journey Analytics B2B edition擷取時需要帳戶ID）時，人員對帳戶的彙整會衍生並自動使用[人員新增該資訊至您提供的帳戶對應資料集](#prerequisites)。
@@ -177,7 +183,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
 >title="開始時間"
->abstract="選取時間戳記欄位，指出人員與帳戶的關係何時開始啟用。"
+>abstract="選取時間戳記欄位，用於指出人員至帳戶關係何時變為有效。"
 
 
 >[!CONTEXTUALHELP]
@@ -213,8 +219,8 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
       | 欄位 | 必要 | 說明 |
       |---|:---:|---|
       | **[!UICONTROL 帳戶資料集的人員]** | ![必要](/help/assets/icons/Required.svg) | 選取將人員對應至帳戶的查詢（記錄或非時間序列資料集）。 |
-      | **[!UICONTROL 個人 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含人員 ID 的欄位。 此欄位的命名空間可以與所選人員識別碼命名空間不同或相同。 如果兩者不同，則需要在身分識別圖中連結這兩個命名空間。  該欄位必須標示為身分，且不能與&#x200B;**[!UICONTROL 帳戶ID]**&#x200B;欄位或&#x200B;**[!UICONTROL 對應建立時間]**&#x200B;欄位相同。 |
-      | **[!UICONTROL 帳戶 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含唯一帳戶識別碼值的欄位。 啟用人員至帳戶拼接後，帳戶 ID 資訊在任何事件資料集的列上都會變為可用。 該欄位不能與&#x200B;**[!UICONTROL 人員ID]**&#x200B;欄位或&#x200B;**[!UICONTROL 對應建立時間]**&#x200B;欄位相同。 |
+      | **[!UICONTROL 個人 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含人員 ID 的欄位。 此欄位的命名空間可以與所選人員識別碼命名空間不同或相同。 如果兩者不同，則需要在身分識別圖中連結這兩個命名空間。  該欄位必須標示為身分，且不能與&#x200B;**[!UICONTROL 帳戶ID]**&#x200B;欄位或&#x200B;**[!UICONTROL 對應建立時間]**&#x200B;欄位相同。 欄位完整路徑會顯示在該欄位下方。 |
+      | **[!UICONTROL 帳戶 ID]** | ![必要](/help/assets/icons/Required.svg) | 選取資料集中包含唯一帳戶識別碼值的欄位。 啟用人員至帳戶拼接後，帳戶 ID 資訊在任何事件資料集的列上都會變為可用。 該欄位不能與&#x200B;**[!UICONTROL 人員ID]**&#x200B;欄位或&#x200B;**[!UICONTROL 對應建立時間]**&#x200B;欄位相同。 欄位完整路徑會顯示在該欄位下方。 |
       | **對應建立時間** | | 選取代表人員與帳戶對應建立日期與時間的欄位 (可選)。 適用於人員隨時間切換多個帳戶的情況。<br/><br/>**範例** （選取&#x200B;**update_date**&#x200B;欄位時）：<table><thead><tr><th>update_date</th><th>人員</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>對於2026年5月1日之前在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Apple。</li><li>對於2026年5月1日或之後在&#x200B;**[!UICONTROL update_date]**&#x200B;欄位中具有時間戳記的所有事件： a@b.com已對應至Adobe。</li></ul>未指定對應時間時，會使用字典第一帳戶。 當兩個不同的帳戶名稱具有完全相同的&#x200B;**[!UICONTROL update_date]**&#x200B;值，並且指定了對應建立時間時，也會使用相同的演演算法。 |
 
       >[!NOTE]
@@ -231,7 +237,7 @@ B2B個人與帳戶拚接可防止事件遭到忽略，且不會使用下列作�
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="啟用人員至帳戶拼接"
->abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 **[!UICONTROL 持續性人員ID]**&#x200B;值會提升為來自已設定的&#x200B;**[!UICONTROL 人員識別碼名稱空間]**&#x200B;的值，然後用來根據人員到帳戶資料集來查詢帳戶ID。<br/>如果停用，此資料集便不會使用 B2B 人員至帳戶拼接，而您必須改為選取所需的&#x200B;**[!UICONTROL 帳戶 ID]**。"
+>abstract="如果啟用，此資料集便會使用 B2B 人員至帳戶拼接。 「**[!UICONTROL 永久性人員 ID]**」值將提升為取自已設定的&#x200B;**[!UICONTROL 人員識別碼命名空間]**&#x200B;的值，接著根據人員至帳戶資料集來查詢帳戶 ID。<br/>如果停用，此資料集將不會使用 B2B 人員至帳戶拼接，而您必須改為選取所需的&#x200B;**[!UICONTROL 帳戶 ID]**。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="設定 B2B 人員至帳戶拼接設定"
 
 在連線層級設定B2B拼接後，您必須啟用B2B人員以個別帳戶拼接您要拼接的每個事件資料集。
