@@ -8,27 +8,36 @@ exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
 TQID: https://experienceleague.adobe.com/ad4wWxqEZZxsnSTpus7pxFMlwNo3nNUpHeS9VfxrEdw
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Machine learning
+source-git-commit: 06d3fa4838d48567f1b9804992aa0f718937916d
 workflow-type: tm+mt
-source-wordcount: 806
-ht-degree: 7%
-
+source-wordcount: '1079'
+ht-degree: 1%
 ---
-
 # 資料匯出使用案例 {#data-export-use-cases}
 
 <!-- This contextual help is for the upgrade checklist -->
@@ -38,7 +47,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-feeds-step"
 >title="使用與資料摘要類似的匯出功能"
->abstract="Customer Journey Analytics 目前尚未提供能完全替代資料摘要的功能。 然而，透過完整表格匯出、平台資料集匯出、BI 工具整合和報告 API 等功能，仍可執行類似功能。"
+>abstract="雖然Customer Journey Analytics尚未提供資料摘要的確切替代方案，但您可以透過完整表格匯出、Platform資料集匯出、BI工具整合和報表API，使用類似功能。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -71,9 +80,9 @@ Adobe Analytics和Customer Journey Analytics之間的其中一項獨特差異，
   * 收集新資料或
   * 拼接會將事件新增到個人的歷程記錄中。
 
-報表時間處理會影響資料從Customer Journey Analytics的匯出。 包含持續值的匯出內容不會符合Customer Journey Analytics報表，且值會隨著時間推移而消失。
+報表時間處理會影響資料從Customer Journey Analytics的匯出。 包含持續值的匯出內容與Customer Journey Analytics報表不符，且值會隨著時間而有所不同。
 
-如需量度一致性，建議您使用Customer Journey Analytics中的新功能。 一般而言，Experience Platform和Customer Journey Analytics資料匯出功能會超過Adobe Analytics的資料摘要功能。 Experience Platform和Customer Journey Analytics確實提供：
+如需量度一致性，建議您使用Customer Journey Analytics中的新功能。 一般而言，Experience Platform和Customer Journey Analytics資料匯出功能會超過Adobe Analytics的資料摘要功能。 Experience Platform和Customer Journey Analytics提供：
 
 * 新資料來源及處理作業須匯出資料
 
@@ -81,14 +90,14 @@ Adobe Analytics和Customer Journey Analytics之間的其中一項獨特差異，
   * 根據商業規則套用自訂歸因和作業化，以及
   * 使用拼接功能保持客戶歷程更新。
 
-* 實現量身打造的資料匯出使用案例
+* 實施量身打造的資料匯出使用案例
 
   * 將資料匯出至您所需的位置，包括Business Intelligence (BI)工具和雲端目的地，
   * 透過BI工具整合，保持資料與Analysis Workspace同步，
-  * 您不需要在自己的系統中複製處理邏輯，
+  * 不需要在自己的系統中複製處理邏輯，
   * 新支援計算量度、衍生欄位和區段，以及
 
-* 設計考量安全性和資料控管
+* 安全性與資料控管的考量
 
   * 依使用者和目的地監控所有資料匯出，
   * 設定匯出資料的限制，以及
@@ -105,3 +114,15 @@ Adobe Analytics和Customer Journey Analytics之間的其中一項獨特差異，
 | **資料驗證**<br/>&#x200B;評估點按資料流資料的資料收集正確性。 | **Experience Platform**： [**查詢服務(Data Distiller)與匯出資料集**](queryservice-export-datasets.md)<br/> Interactive PostgreSQL介面使用您最愛的SQL工具執行臨機SQL查詢，以驗證資料集中的資料。<br/><br/>**Customer Journey Analytics**： [**匯出完整資料表**](export-full-table.md)<br/>&#x200B;套用歸因和作業階段化，驗證CJA中已處理的資料。 |
 | **Data Lake、Data Warehouse或BI工具**<br/>&#x200B;將數位資料帶入您自己的BI工具或資料湖，以搭配其他資料集使用。 | **Customer Journey Analytics**： [**BI擴充功能**](bi-extension.md)<br/>&#x200B;將Customer Journey Analytics處理的量度新增至Power BI等資料視覺化工具，並結合自訂報表的其他資料&#x200B;<br/><br/>**Experience Platform**： [**查詢服務（資料Distiller）與匯出資料集**](queryservice-export-datasets.md)<br>&#x200B;使用SQL產生自訂點按資料流資料，以傳送至雲端目的地。 |
 | **AI / ML整備**<br/>&#x200B;使用Customer Journey Analytics資料增強人工智慧/機器學習模型和工作。 | **Customer Journey Analytics**： [**匯出完整表格**](export-full-table.md)<br/>&#x200B;將Customer Journey Analytics處理的維度和量度一次或循環匯出至雲端目的地，包括計算量度和細分。<br/><br/>**Experience Platform**： [**查詢服務(Data Distiller)和匯出資料集**](queryservice-export-datasets.md)<br/>&#x200B;使用SQL產生自訂的點按資料流資料，以擴充AI/ML模型。 |
+| **臨機及週期性報表**<br/>&#x200B;為個別使用者或業務團隊提供已處理Customer Journey Analytics資料的自助存取權，而不需要設定資料管道。 | **Customer Journey Analytics**： [**Workspace匯出**](workspace-export.md)<br/>&#x200B;直接從Analysis Workspace專案下載或透過電子郵件傳送資料，以進行一次性分析或共用。<br/><br/>**Customer Journey Analytics**： [**Report Builder**](report-builder.md)<br/>&#x200B;將Customer Journey Analytics資料提取到Excel活頁簿中，以進行週期性、方便企業使用者的報告。 |
+| **自訂應用程式整合**<br/>&#x200B;電源儀表板、內部工具或自動化工作流程與Customer Journey Analytics資料。 | **Customer Journey Analytics**： [**報表API**](reporting-api.md)<br/>&#x200B;以程式設計方式擷取Customer Journey Analytics資料，以便與您自己的應用程式或自動化整合。 |
+
+## 在功能之間選擇
+
+數個功能可實施相同的使用案例。 當您在兩者之間進行選擇時，請考慮：
+
+* **資料磁碟區**：臨機操作方法（例如[Workspace匯出](/help/use-cases/data-export/workspace-export.md)和[Report Builder](/help/use-cases/data-export/report-builder.md)）限製為數萬列。 [匯出完整資料表](/help/use-cases/data-export/export-full-table.md)和[匯出資料集](/help/use-cases/data-export/export-datasets.md)支援數百萬列。
+* **原始資料與已處理資料的比較**： [匯出資料集](/help/use-cases/data-export/export-datasets.md)和[查詢服務（資料Distiller）與匯出資料集](/help/use-cases/data-export/queryservice-export-datasets.md)會從資料湖傳送未處理的原始資料。 [BI擴充功能](/help/use-cases/data-export/bi-extension.md)、[匯出完整資料表](/help/use-cases/data-export/export-full-table.md)、[Workspace匯出](/help/use-cases/data-export/workspace-export.md)、[Report Builder](/help/use-cases/data-export/report-builder.md)以及[報表API](/help/use-cases/data-export/reporting-api.md)會傳送Customer Journey Analytics已處理的資料，包括歸因、工作階段化及計算量度。
+* **技術專業知識**： [查詢服務（資料Distiller）與匯出資料集](/help/use-cases/data-export/queryservice-export-datasets.md)和[BI擴充功能](/help/use-cases/data-export/bi-extension.md)需要SQL知識。 [Workspace匯出](/help/use-cases/data-export/workspace-export.md)和[Report Builder](/help/use-cases/data-export/report-builder.md)使用指向與點按介面。 [報表API](/help/use-cases/data-export/reporting-api.md)需要程式設計知識。
+* **排程需求**： [匯出資料集](/help/use-cases/data-export/export-datasets.md)、[匯出完整資料表](/help/use-cases/data-export/export-full-table.md)以及[Report Builder](/help/use-cases/data-export/report-builder.md)支援週期性、排程的傳送。 [Workspace匯出](/help/use-cases/data-export/workspace-export.md)僅供臨時下載。
+* **輸出格式和目的地**：考量您是否需要雲端儲存空間中的檔案、BI工具中的表格、Excel中的活頁簿或API呼叫的回應，然後將其與提供該檔案的功能比對。
