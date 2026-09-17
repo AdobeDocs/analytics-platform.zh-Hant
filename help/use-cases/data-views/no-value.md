@@ -202,4 +202,4 @@ Customer Journey Analytics不會為遺失或空白陣列建立預留位置或空
 
 >[!MORELIKETHIS]
 >
->[在Adobe Customer Journey Analytics中處理&#x200B;**[!UICONTROL 沒有值]**&#x200B;的完整行動手冊](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769)
+>[在Adobe Customer Journey Analytics中處理&#x200B;**[!UICONTROL 沒有值]**&#x200B;的完整行動手冊](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=zh-Hant)
