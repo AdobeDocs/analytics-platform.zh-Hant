@@ -105,7 +105,7 @@ Dimension專案分為三個類別之一：
 <td rowspan="3">處理選項</td>
 <td><img src="assets/treat-no-value-as-value.png"/></td>
 <td>僅適用於非數值維度。
-同時影響歸因和自由表格搜尋篩選器中的包含**[！UICONTROL無值]**選項。</td>
+同時影響歸因和自由表格搜尋篩選器中的包含&#x200B;**[!UICONTROL 無值]**&#x200B;選項。</td>
 <td>值處理與可見性</td>
 </tr>
 <tr>

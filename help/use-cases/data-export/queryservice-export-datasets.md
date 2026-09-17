@@ -69,7 +69,7 @@ Adobe Analytics可使用其[資料摘要](https://experienceleague.adobe.com/zh-
 
 Experience Platform查詢服務可讓您查詢及聯結Experience Platform資料湖中的任何資料集，就像它是資料庫表格一樣。 然後，您可以將結果擷取為新資料集，以供進一步用於報告或匯出。
 
-您可以使用Query Service [使用者介面](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview)、透過PostgresQL通訊協定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/overview)連線的[使用者端或[RESTful API](https://experienceleague.adobe.com/en/docs/experience-platform/query/api/getting-started)，建立並排程收集資料摘要資料的查詢。
+您可以使用Query Service [使用者介面](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview)、透過PostgresQL通訊協定[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/clients/overview)連線的使用者端或[RESTful API](https://experienceleague.adobe.com/en/docs/experience-platform/query/api/getting-started)，建立並排程收集資料摘要資料的查詢。
 
 ### 建立查詢
 
@@ -204,7 +204,7 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 - [放棄瀏覽](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/abandoned-browse)
 - [歸因分析](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/attribution-analysis)
 - [機器人篩選](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/bot-filtering)
-- 和查詢服務指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/overview)中其他[支援的使用案例。
+- 和查詢服務指南[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/overview)中其他支援的使用案例。
 
 以下範例說明如何跨工作階段正確套用歸因。
 
@@ -444,11 +444,11 @@ select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 
 #### 提供匯出引數
 
-接下來，您必須[建立其他目標連線，再次使用[`POST /targetConnection`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/postTargetConnection) API為您的輸出資料集儲存匯出引數](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-target-connection)。 這些匯出引數包括位置、檔案格式、壓縮等等。
+接下來，您必須[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-target-connection)建立其他目標連線，再次使用[`POST /targetConnection`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/postTargetConnection) API為您的輸出資料集儲存匯出引數。 這些匯出引數包括位置、檔案格式、壓縮等等。
 
 #### 設定資料流
 
-為確保您的輸出資料集已匯出至雲端儲存空間目的地，[請使用[`POST /flows`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/postFlow) API設定資料流](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-dataflow)。 在此步驟中，您可以使用`scheduleParams`引數定義匯出排程。
+為確保您的輸出資料集已匯出至雲端儲存空間目的地，[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-dataflow)請使用[`POST /flows`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/postFlow) API設定資料流。 在此步驟中，您可以使用`scheduleParams`引數定義匯出排程。
 
 #### 驗證資料流
 

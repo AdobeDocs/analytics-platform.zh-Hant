@@ -80,13 +80,13 @@ ht-degree: 97%
 | 子事件分析 | [子事件分析](/help/components/segments/sub-event.md)和[自訂容器](/help/data-views/create-dataview.md#custom-containers)的檔案。 |
 | 內嵌分類 | [內嵌分類](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)的檔案。 |
 | **2026年6月** | |
-| 全新GA4指南 | 新增從Google Analytics 4轉換到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)的[。 |
+| 全新GA4指南 | 新增從Google Analytics 4轉換到Customer Journey Analytics[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)的。 |
 | **2026 年 5 月** | |
 | Content Analytics 的 JavaScript 程式庫 | 有關如何在不需要 Experience Platform 資料彙集標記的情況下，使用 [Content Analytics Javascript 程式庫](/help/content-analytics/config/tags-agnostic.md)對網頁管道實施 Content Analytics 的說明文件。 |
 | Data Mirror 考量事項 | 說明設定 [Data Mirror 資料集](/help/data-mirror/data-mirror.md)時應考量哪些因素的[說明文件](/help/data-mirror/considerations.md)。 |
 | Content Analytics 行動管道 | [Content Analytics 文件](/help/content-analytics/content-analytics.md)更新，說明 Content Analytics 行動管道的功能和設定。 |
 | **2026 年 4 月** | |
-| 衍生欄位指南 | 新增有關使用衍生欄位的[準則 ](/help/use-cases/data-views/derived-fields/guidelines.md) (最佳做法、護欄和常見陷阱) 文章。 |
+| 衍生欄位指南 | 新增有關使用衍生欄位的[準則 &#x200B;](/help/use-cases/data-views/derived-fields/guidelines.md) (最佳做法、護欄和常見陷阱) 文章。 |
 | 新增缺少的文件，說明整合 Journey Optimizer 時可包含的兩個資料集 | 您的 IMS 組織啟用高輸送量交易型訊息附加元件時，連線中會包含[額外兩個非輪廓、系統產生的資料集](/help/integrations/ajo.md#high-throughput-add-on-datasets)。 |
 | 更新同類群組分析使用案例 | 根據意見回饋，已在同類群組分析使用案例中新增 Analysis Workspace 範例。 |
 | **2026 年 3 月** | |
@@ -297,7 +297,7 @@ ht-degree: 97%
 | 在行動計分卡中建立資料故事 | [資料故事](/help/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |
 | 更新功能支援 | 已透過 Customer Journey Analytics 中提供、但在 AA 中無法使用或不支援的功能表來更新 [Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)。 |
 | 預設計算量度 | 已新增說明 [Adobe 提供的預設計算量度](/help/components/calc-metrics/default-calcmetrics.md)的內容。 |
-| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/components/data-dictionary/view-data-dictionary.md)、[編輯 ](/help/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
+| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/components/data-dictionary/view-data-dictionary.md)、[編輯 &#x200B;](/help/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
 | 專案連結共用 (不需登入) | <p>已更新現有文件，說明如何與無權存取 Analysis Workspace 的人員共用專案的唯讀連結。</p> <p>已更新使用者文件，包括[共用專案](/help/analysis-workspace/curate-share/share-projects.md)和[建立可共用連結](/help/analysis-workspace/curate-share/shareable-links.md)。</p> <p>已將管理員選項新增至[偏好設定](/help/analysis-workspace/user-preferences.md)。</p> |
 | **2023 年 2 月** | |
 | 比較 Customer Journey Analytics 和 BI 解決方案 | Customer Journey Analytics 與典型 BI 解決方案[比較](../getting-started/cja-vs-bi.md)的新文件。 |
@@ -385,7 +385,7 @@ ht-degree: 97%
 | 2021 年 10 月 | 適用於 Customer Journey Analytics 之 [Report Builder](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/rb-overview.html#) 的文件。 |
 | 2021 年 10 月 | Customer Journey Analytics [稽核紀錄](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API 文件 |
 | 2021 年 10 月 | [Analytics 儀表板視覺效果](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=zh-hant#apply-visualizations)的紀錄 |
-| 2021 年 10 月 | [!UICONTROL 連線][資料保留](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-hant#set-rolling-window-for-connection-data-retention)滾動時段的文件。 |
+| 2021 年 10 月 | [!UICONTROL 連線]&#x200B;[資料保留](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-hant#set-rolling-window-for-connection-data-retention)滾動時段的文件。 |
 | **2021 年 9 月** | |
 | 2021 年 9 月 | [量度重複資料刪除](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication.html?lang=zh-hant)文件 |
 | 2021 年 9 月 | [報表中的「日光節約時間」支援](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-hant#calendar) |

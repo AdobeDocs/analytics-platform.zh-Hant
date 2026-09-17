@@ -84,7 +84,7 @@ ht-degree: 24%
 
 您可以使用數值維度，將量度放入您的[!UICONTROL 流量]視覺效果中。
 
-1. 在「資料檢視[元件](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將「行銷管道」]結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。[!UICONTROL 
+1. 在「資料檢視[元件](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將「行銷管道」結構欄位拖曳至「[!UICONTROL 包含的元件]」下的「[!UICONTROL 量度]」區域。
 2. 在工作區報表中，此流量顯示流入[!UICONTROL 訂單]的[!UICONTROL 行銷管道]:
 
 ![行銷管道流量從電子郵件到結束/訂單。](../assets/flow.png)
@@ -97,11 +97,11 @@ ht-degree: 24%
 
 1. 在「資料檢視[元件](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)」標籤上，將&#x200B;**[!UICONTROL 收入]**&#x200B;結構欄位拖曳至[!UICONTROL 包含的元件]下的&#x200B;**[!UICONTROL 量度]**&#x200B;區域。
 1. 選取量度並在右側設定下列專案：
-a. 在**[!UICONTROL 格式]**&#x200B;下，選取&#x200B;**[!UICONTROL 貨幣]**。
-b. 在**[!UICONTROL 貨幣]**&#x200B;下，選取&#x200B;**[!UICONTROL USD]**。
-c. 在**[!UICONTROL 包含/排除值]**&#x200B;下，選取&#x200B;**[!UICONTROL 設定包含/排除值]**旁的核取方塊。
-d. 在**[!UICONTROL 符合]**&#x200B;下，選取&#x200B;**[!UICONTROL 如果符合所有條件]**。
-e. 在**[!UICONTROL 條件]**&#x200B;下，選取&#x200B;**[!UICONTROL 大於或等於]**。
+a. 在&#x200B;**[!UICONTROL 格式]**&#x200B;下，選取&#x200B;**[!UICONTROL 貨幣]**。
+b. 在&#x200B;**[!UICONTROL 貨幣]**&#x200B;下，選取&#x200B;**[!UICONTROL USD]**。
+c. 在&#x200B;**[!UICONTROL 包含/排除值]**&#x200B;下，選取&#x200B;**[!UICONTROL 設定包含/排除值]**&#x200B;旁的核取方塊。
+d. 在&#x200B;**[!UICONTROL 符合]**&#x200B;下，選取&#x200B;**[!UICONTROL 如果符合所有條件]**。
+e. 在&#x200B;**[!UICONTROL 條件]**&#x200B;下，選取&#x200B;**[!UICONTROL 大於或等於]**。
 f. 指定`50`作為值。
 
 這些新設定可讓您檢視僅限高收入的資料，並篩選掉低於 $50 美元的所有資料。
