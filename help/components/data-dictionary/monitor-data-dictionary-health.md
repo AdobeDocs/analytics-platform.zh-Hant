@@ -31,7 +31,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="資料字典"
->abstract="選取此選項後，主要元件會與可存取重複元件的每個人 (所有者和與之共用元件的任何人) 共用。 然後，這些使用者就可以從元件清單中選取主要元件，以供未來的專案使用。 但是，他們無法編輯該元件，即使他們是已合併之重複元件的所有者亦然。 <br/>此選項只有在主要元件是細分群體、計算量度或日期範圍時才可用。 量度和維度始終可供所有使用者使用。
+>abstract="選取此選項後，主要元件會與可存取重複元件的每個人 (所有者和與之共用元件的任何人) 共用。 然後，這些使用者就可以從元件清單中選取主要元件，以供未來的專案使用。 但是，他們無法編輯該元件，即使他們是已合併之重複元件的所有者亦然。 <br/>此選項只有在主要元件是細分群體、計算量度或日期範圍時才可用。 量度和維度始終可供所有使用者使用。"
 >
 >When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
 
