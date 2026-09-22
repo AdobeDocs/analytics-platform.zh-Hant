@@ -23,14 +23,12 @@ topic_v2:
     internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
+source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 7%
 ---
 # 分析同意原則資料
-
-{{release-limited-testing}}
 
 您可以將Experience Platform設定檔資料集的同意原則資料擷取到Customer Journey Analytics連線。
 
