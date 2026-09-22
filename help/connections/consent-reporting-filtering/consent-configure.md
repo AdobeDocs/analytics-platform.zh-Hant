@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
+source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 28%
@@ -85,8 +85,6 @@ ht-degree: 28%
 >abstract="啟用此選項可避免將非同意的訪客資料攝取至 Customer Journey Analytics 中。 啟用後，唯有訪客符合以下啟用的所有同意原則時，才會攝取該訪客的資料。 <br>此選項適用於需要在攝取時排除非同意訪客資料的組織。"
 
 <!-- markdownlint-enable MD034 -->
-
-{{release-limited-testing}}
 
 系統管理員可以針對一或多個連線啟用同意報告及（選擇性）同意篩選。 如需概述資訊，請參閱[同意報告和篩選概述](/help/connections/consent-reporting-filtering/consent-overview.md)。
 
