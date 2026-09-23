@@ -1,9 +1,8 @@
 ---
-source-git-commit: b0be8b726c4fab1bf9bb5f9462be84f39bdf184a
+source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
 workflow-type: tm+mt
-source-wordcount: '5455'
-ht-degree: 98%
-
+source-wordcount: '5542'
+ht-degree: 97%
 ---
 # 程式碼片段
 
@@ -326,3 +325,11 @@ Customer Journey Analytics 的各種視覺化是為分析您提供給客戶的�
 ## CJA 資料摘要使用者代理 {#cja-df-ua}
 
 您無法同時收集使用者代理資訊和裝置查詢資訊；這些維度的群體之間是互斥的。 在[設定資料流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#geolocation-device-lookup)時，您必須選擇要直接收集使用者代理，或者收集裝置查詢資訊 (根據使用者代理)。
+
+
+## 關聯式資料集重要訊息 {#relational-dataset-important}
+
+>[!IMPORTANT]
+>
+>關聯式資料集是以關聯式結構描述型別為基礎。 該關聯式結構描述中定義的關聯式描述項沒有關聯，在一般情況下不適用於Customer Journey Analytics連線的定義和設定，或是具體而言適用於關聯式資料集的資料集設定。 <br/><br>針對Customer Journey Analytics報表和分析，您需要在[資料集設定](/help/connections/create-connection.md#relational-dataset)中明確設定如何將關聯式資料集的資料連結到其他資料集，其基礎是一般的人員ID或帳戶ID。
+>
