@@ -5,29 +5,38 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
+hold: true
 TQID: https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9c0ddbb48c5cb1c62bded02d1455f2631ab1679f
+    internal-label: Data management
+source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
 workflow-type: tm+mt
-source-wordcount: 10488
+source-wordcount: '10488'
 ht-degree: 92%
-
 ---
-
 # 建立或編輯連線 {#create-or-edit-a-connection}
 
 >[!CONTEXTUALHELP]
@@ -530,8 +539,9 @@ ht-degree: 92%
 | 資料集類型 | 說明 | 時間戳記 | 結構描述 | 個人 ID |
 |---|---|---|---|---|
 | **[!UICONTROL 臨時]** | 以[臨時結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/api/ad-hoc)為基礎的臨時資料，包含已定義命名空間且僅供單一資料集使用的欄位。 | 取決於您為臨時資料集選取的資料集類型。 | 基於&#x200B;*臨時*&#x200B;行為的任何臨時結構描述 | 取決於您為臨時資料集選取的資料集類型。 |
-| **[!UICONTROL 模型]** | 以關聯式結構描述為基礎的關聯式資料。 | 取決於您為關聯式資料集選取的資料集類型。 | 任何關聯式結構描述。 | 取決於您為關聯式資料集選取的資料集類型。 |
+| **[!UICONTROL 關聯式]** | 以關聯式結構描述為基礎的關聯式資料。 | 取決於您為關聯式資料集選取的資料集類型。 | 任何關聯式結構描述。 | 取決於您為關聯式資料集選取的資料集類型。 |
 
+{{relational-dataset-important}}
 
 ### 新增資料集
 
@@ -713,6 +723,8 @@ ht-degree: 92%
 
 所有資料集和資料集類型都有[一般設定和詳細資料](#general-dataset-settings-and-details)，例如是否要匯入新資料以及要求回填。
 
+
+
 #### 事件資料集
 
 事件資料集的特定設定取決於連線類型。
@@ -853,6 +865,8 @@ ht-degree: 92%
 >
 >關聯式資料集主要用於支援即將推出的 Experience Platform Data Mirror for Customer Journey Analytics 功能。
 >
+
+{{relational-dataset-important}}
 
 關聯式資料集的特定設定如下：
 
