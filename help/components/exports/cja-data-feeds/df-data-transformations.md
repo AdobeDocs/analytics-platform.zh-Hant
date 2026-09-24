@@ -3,9 +3,9 @@ title: 為資料摘要套用資料轉換
 description: 瞭解透過元件設定、衍生欄位或SQL轉換資料摘要資料的不同方式。
 hide: true
 feature: Components
-source-git-commit: 6ee0530b8f67f738274817e2535267d71dee0463
+source-git-commit: 6400a6bfcd65bee012beaf39aca873b2f225e45e
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1594'
 ht-degree: 5%
 ---
 # 為資料摘要套用資料轉換
@@ -28,9 +28,9 @@ ht-degree: 5%
 
 | 方法 | 優點 | 缺點 |
 | --- | --- | --- |
-| **元件設定** | <ul><li>已在報告時套用，在傳遞資料摘要之前。</li><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</li><li>不會使用您帳戶中一個有限的衍生欄位。 （您可以使用的元件設定數量沒有限制。）</li><li>某些轉換（例如持續性和量度重複資料刪除）很難在SQL中復寫，並且目前衍生欄位也不可能持續存在。</li></ul> | <ul><li>僅適用於每個元件支援的特定設定集 — 不像使用衍生欄位建置自訂邏輯那樣有彈性。</li><li>某些設定是否影響資料摘要輸出仍待確認。 請參閱下表。</li></ul> |
-| **衍生欄位** | <ul><li>已在報告時套用，在傳遞資料摘要之前。</li><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</li><li>支援比任何單一元件設定（例如鏈結條件規則）更靈活的自訂邏輯。</li><li>有些轉換，特別是依賴範圍設定或剖析URL的轉換，很難在SQL中複製。</li></ul> | <ul><li>增加處理額外負荷，這會影響資料摘要傳遞效能。<!--Under a future usage-based pricing model, this could also add cost.--></li><li>使用您帳戶的其中一個有限衍生欄位。 如果元件設定可以執行相同的轉換，則偏好使用相同轉換。</li></ul> |
-| **SQL** | <ul><li>不受適用於衍生欄位的函式和運運算元限制。</li><li>對資料摘要的傳送效能沒有影響。</li></ul> | <ul><li>已在您的資料摘要傳遞後套用。</li><li>邏輯在Analysis Workspace中不適用，因此您需要在該處分別複製邏輯。</li><li>有些轉換（尤其是相依於範圍設定的轉換）、剖析URL、去除重複或在範圍中保留值的轉換，很難複製或不切實際。</li></ul> |
+| **元件設定** | <ul><li>已在報告時套用，在傳遞資料摘要之前。</li><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</li><li>不會使用您帳戶中一個有限的衍生欄位。</li><li>您可以使用的元件設定數量沒有限制。</li></ul> | <ul><li>僅適用於每個元件支援的特定設定集。 不如使用衍生欄位建置自訂邏輯靈活。</li></ul> |
+| **衍生欄位** | <ul><li>已在報告時套用，在傳遞資料摘要之前。</li><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</li><li>支援比任何單一元件設定（例如鏈結條件規則）更靈活的自訂邏輯。</li><li>有些轉換，特別是依賴範圍設定或剖析URL的轉換，很難在SQL中複製。</li></ul> | <ul><li>增加處理額外負荷，這會影響資料摘要傳遞效能。<!--Under a future usage-based pricing model, this could also add cost.--></li><li>使用您帳戶的其中一個有限衍生欄位。 如果元件設定可以執行相同的轉換，請改用。</li></ul> |
+| **SQL** | <ul><li>不受適用於衍生欄位的函式和運運算元限制。</li><li>對資料摘要的傳送效能沒有影響。</li></ul> | <ul><li>已在您的資料摘要傳遞後套用。</li><li>邏輯不適用於Analysis Workspace，因此您需要在該處分別複製邏輯。</li><li>有些轉換很難複製或不切實際，尤其是依賴範圍設定、剖析URL或跨範圍刪除重複或保留值的轉換。</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 | **將量度的範圍設定為事件、設定檔或總計** | [範圍](/help/data-views/component-settings/scope.md) | 未提供 | | | <!--Not yet discussed with the team. Don't assume this affects data feed output until confirmed.--> |
 | **分割分隔值** | [子字串](/help/data-views/component-settings/substring.md) （分隔符號或從左/右方法） | [分割](/help/data-views/derived-fields/derived-fields.md#split) | 簡易/適中 | 元件設定<p>建議使用，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | |
 | **彙總或彙總範圍中的值** | 未提供 | [摘要](/help/data-views/derived-fields/derived-fields.md#summarize) | 困難 | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 取決於範圍設定。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。 |
-| **從字串修剪字元** | [子字串](/help/data-views/component-settings/substring.md) （Trim方法） | [修剪](/help/data-views/derived-fields/derived-fields.md#trim) | 簡易/適中 | 元件設定<p>這三種方法會產生相同的結果，但偏好使用元件設定，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | |
+| **從字串修剪字元** | [子字串](/help/data-views/component-settings/substring.md) （Trim方法） | [修剪](/help/data-views/derived-fields/derived-fields.md#trim) | 簡易/適中 | 元件設定<p>建議使用，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | |
 
 {style="table-layout:auto"}
 
@@ -80,6 +80,6 @@ ht-degree: 5%
 
 ## 衍生欄位函式範本
 
-[衍生欄位函式範本](/help/data-views/derived-fields/derived-fields.md#templates)可讓您快速建立特定使用案例的衍生欄位，例如建立行銷管道、偵測機器人，或從URL擷取UTM引數。 因為範本是從預先建立的規則鏈建立的，使用範本幾乎總是比在SQL中從頭開始重新產生相同的邏輯好。
+[衍生欄位函式範本](/help/data-views/derived-fields/derived-fields.md#templates)可讓您快速建立特定使用案例的衍生欄位，例如建立行銷管道、偵測機器人，或從URL擷取UTM引數。 因為範本是由預先建立的規則鏈所建置，使用範本幾乎總是比在SQL中從頭開始重新產生相同的邏輯來得好，如同`Marketing Channel Template`。
 
 如果範本包含依賴於「範圍」設定的函式，則範本會繼承該函式的範圍警告。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。
