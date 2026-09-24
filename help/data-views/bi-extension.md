@@ -8,27 +8,36 @@ exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
 TQID: https://experienceleague.adobe.com/RrX-gp2IY-Ny1D1yzR2whV2GuU98mysma8tQmUEubF8
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Privacy
+source-git-commit: 8dc03b7c76c53c327f4a20c8fa9d75298d3d13c1
 workflow-type: tm+mt
-source-wordcount: 3763
-ht-degree: 87%
-
+source-wordcount: '3765'
+ht-degree: 86%
 ---
-
 # Customer Journey Analytics BI 擴充功能
 
 {{select-package}}
@@ -312,7 +321,7 @@ Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/zh-
 
 ## 功能
 
-依預設設定，您的資料檢視具有根據其易記名稱產生的表格適用名稱。 例如，名為「[!UICONTROL 我的網路資料檢視]」的資料檢視具有檢視名稱「`my_web_data_view`」。 您可以定義在 BI 工具中使用的資料釋圖首選名稱。 請參閱「[資料檢視設定](create-dataview.md#settings)」，了解更多資訊。
+依預設，您的資料檢視具有從資料檢視預設外部ID產生的表格名稱。 例如，名為&#x200B;**[!UICONTROL 我的Web資料檢視]**&#x200B;的資料檢視具有外部ID `My_web_data_view`。 您可以定義在 BI 工具中使用的資料釋圖首選名稱。 請參閱「[資料檢視設定](create-dataview.md#settings)」，了解更多資訊。
 
 如果想要使用資料檢視 ID 作為表格名稱，可以在連線時於資料庫名稱新增選用的 `CJA_USE_IDS` 設定。 例如，`prod:cja?CJA_USE_IDS` 使用如「`dv_ABC123`」這樣的名稱來顯示您的資料檢視。
 
@@ -327,12 +336,12 @@ Customer Journey Analytics 中的任何資料控管相關設定，都是繼承�
 在標準 PostgreSQL CLI 中，可以使用 `\dv` 列出您的檢視
 
 ```sql
-prod:all=> \dv
+prod:cja=> \dv
                        List of relations
  Schema |                    Name                    | Type |  Owner             
 --------+--------------------------------------------+------+----------
- public | my_web_data_view                           | view | postgres
- public | my_mobile_data_view                        | view | postgres
+ public | My_web_data_view                           | view | postgres
+ public | My_mobile_data_view                        | view | postgres
 ```
 
 ### 巢狀與展平
