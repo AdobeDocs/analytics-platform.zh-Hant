@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: 06d3fa4838d48567f1b9804992aa0f718937916d
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 1%
+ht-degree: 4%
 ---
 # 資料匯出使用案例 {#data-export-use-cases}
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-feeds-step"
 >title="使用與資料摘要類似的匯出功能"
->abstract="雖然Customer Journey Analytics尚未提供資料摘要的確切替代方案，但您可以透過完整表格匯出、Platform資料集匯出、BI工具整合和報表API，使用類似功能。"
+>abstract="雖然 Customer Journey Analytics 中尚未提供資料摘要的確切替代方案，但您可以透過完整表格匯出、平台資料集匯出、BI 工具整合和報告 API 來使用類似功能。"
 
 <!-- markdownlint-enable MD034 -->
 
