@@ -3,9 +3,9 @@ title: 為資料摘要套用資料轉換
 description: 瞭解透過元件設定、衍生欄位或SQL轉換資料摘要資料的不同方式。
 hide: true
 feature: Components
-source-git-commit: 6400a6bfcd65bee012beaf39aca873b2f225e45e
+source-git-commit: 3203774ba463c070783125e0b02ef8c391f46308
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1693'
 ht-degree: 5%
 ---
 # 為資料摘要套用資料轉換
@@ -28,8 +28,8 @@ ht-degree: 5%
 
 | 方法 | 優點 | 缺點 |
 | --- | --- | --- |
-| **元件設定** | <ul><li>已在報告時套用，在傳遞資料摘要之前。</li><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</li><li>不會使用您帳戶中一個有限的衍生欄位。</li><li>您可以使用的元件設定數量沒有限制。</li></ul> | <ul><li>僅適用於每個元件支援的特定設定集。 不如使用衍生欄位建置自訂邏輯靈活。</li></ul> |
-| **衍生欄位** | <ul><li>已在報告時套用，在傳遞資料摘要之前。</li><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</li><li>支援比任何單一元件設定（例如鏈結條件規則）更靈活的自訂邏輯。</li><li>有些轉換，特別是依賴範圍設定或剖析URL的轉換，很難在SQL中複製。</li></ul> | <ul><li>增加處理額外負荷，這會影響資料摘要傳遞效能。<!--Under a future usage-based pricing model, this could also add cost.--></li><li>使用您帳戶的其中一個有限衍生欄位。 如果元件設定可以執行相同的轉換，請改用。</li></ul> |
+| **元件設定** | <ul><li>已在報告時套用，在傳遞資料摘要之前。</li><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</li><li>不會使用您帳戶中一個有限的衍生欄位。</li><li>您可以使用的元件設定數量沒有限制。</li><li>增加處理額外負荷，而這會影響資料摘要的傳送效能</li></ul> | <ul><li>僅適用於每個元件支援的特定設定集。 不如使用衍生欄位建置自訂邏輯靈活。</li></ul> |
+| **衍生欄位** | <ul><li>已在報告時套用，在傳遞資料摘要之前。</li><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</li><li>支援比任何單一元件設定（例如鏈結條件規則）更靈活的自訂邏輯。</li><li>有些轉換，特別是依賴範圍設定或剖析URL的轉換，很難在SQL中複製。</li><li>增加處理額外負荷，而這會影響資料摘要的傳送效能</li></ul> | <ul><li>增加處理額外負荷，這會影響資料摘要傳遞效能。<!--Under a future usage-based pricing model, this could also add cost.--></li><li>使用您帳戶的其中一個有限衍生欄位。 如果元件設定可以執行相同的轉換，請改用。</li></ul> |
 | **SQL** | <ul><li>不受適用於衍生欄位的函式和運運算元限制。</li><li>對資料摘要的傳送效能沒有影響。</li></ul> | <ul><li>已在您的資料摘要傳遞後套用。</li><li>邏輯不適用於Analysis Workspace，因此您需要在該處分別複製邏輯。</li><li>有些轉換很難複製或不切實際，尤其是依賴範圍設定、剖析URL或跨範圍刪除重複或保留值的轉換。</li></ul> |
 
 {style="table-layout:auto"}
@@ -38,34 +38,34 @@ ht-degree: 5%
 
 下表列出特定的資料轉換，顯示哪些方法（或方法）可以執行每個方法、在SQL中復寫會有多困難，以及建議使用哪種方法。<!--A few transformations are still being confirmed with the engineering team and are marked as open questions — don't treat those as confirmed to affect data feed output until that's resolved.-->
 
-| 轉換 | 元件設定 | 衍生欄位 | SQL中的困難 | 建議的方法 | 考量事項 |
+| 轉換 | 元件設定（在CJA中） | 衍生欄位（在CJA中） | 建議的方法（在CJA中） | SQL中的困難 | 考量事項 |
 | --- | --- | --- | --- | --- | --- |
-| **依條件套用條件邏輯或篩選值** | [包含排除值](/help/data-views/component-settings/include-exclude-values.md) | [案例時間](/help/data-views/derived-fields/derived-fields.md#casewhen) | 輕鬆使用字串<p>量度的中等到困難（需要結合`COUNT`的`CASE`陳述式）</p> | 元件設定<p>建議使用，因為它不會使用其中一個有限的衍生欄位。</p> | |
-| 成功事件的&#x200B;**屬性評分** | [歸因](/help/data-views/component-settings/attribution.md) | 未提供 | 不適用 | 元件設定 | 僅適用於資料摘要中的維度。 量度沒有資料摘要行為需要復寫。 |
-| **將數值儲存至範圍** | [值分組](/help/data-views/component-settings/value-bucketing.md) | 手動[案例時間](/help/data-views/derived-fields/derived-fields.md#casewhen) | 困難 | 元件設定<p>為方便使用而建議，因為它不會使用您有限的衍生欄位之一。</p> | 從元件設定（最簡單）增加到衍生欄位（一般，使用手動Case When）增加到SQL （最複雜）。 |
-| **使用查閱樣式對應來分類值** | 未提供 | [分類](/help/data-views/derived-fields/derived-fields.md#classify) | 簡易/適中 | 衍生欄位 <p>建議使用，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | |
-| **結合欄位值與分隔符號** | 未提供 | [串連](/help/data-views/derived-fields/derived-fields.md#concatenate) | 簡易/適中 | 衍生欄位<p>建議使用，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 映象將多個維度欄新增至自由表格的功能，該功能限製為完整表格匯出。 衍生欄位讓類似的輸出可在資料摘要中使用。 |
-| **轉換欄位的資料型別** | 未提供 | [型別廣播](/help/data-views/derived-fields/derived-fields.md#typecast) | 簡易/適中 | 衍生欄位<p>建議使用，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | |
-| **計算量度發生次數（值與執行個體的比較）** | [行為](/help/data-views/component-settings/behavior.md) | 自訂數學因應措施 | 簡易/適中 | 元件設定<p>建議使用，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | |
-| **在領域內刪除重複值** | [量度重複資料刪除](/help/data-views/component-settings/metric-deduplication.md) | [重複資料刪除](/help/data-views/derived-fields/derived-fields.md#dedup) | 困難 | 元件設定<p>建議使用，因為它不會使用其中一個有限的衍生欄位。</p> | 取決於範圍設定。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。 |
-| **決定工作階段中的欄位深度** | 未提供 | [深度](/help/data-views/derived-fields/derived-fields.md#depth) | 困難 | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | <!-- Open question as of 2026-09-09: does the Depth counter carry over across an hourly/daily feed boundary using lookback-window context, or does it restart? Pending confirmation from engineering (Ron Fulkerson / Nate Purser). How the counter behaves when a session spans a feed-delivery boundary is still being confirmed with engineering. --> <p>取決於範圍設定（使用工作階段作為範圍，且無法設定）。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。</p> |
-| **尋找並取代常值** | 未提供 | [尋找和取代](/help/data-views/derived-fields/derived-fields.md#find-and-replace) | 簡易/適中 | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | |
-| **格式化顯示值** | [格式](/help/data-views/component-settings/format.md) | 未提供 | 困難 | 元件設定<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | <!-- Date-time formatting isn't yet reflected in data feed output — feeds currently show the standard timestamp regardless of this setting, though Adobe plans to support this for general availability. Whether numeric formats (decimal, currency, percent) on metrics affect data feed output is still being confirmed with the team.--> |
-| **從摘要資料集將維度分組** | [摘要資料群組](/help/data-views/component-settings/summary-data-group.md) | 未提供 | 不可能 | 元件設定 | <!-- Whether this is "Not possible" hasn't been discussed with the team. Don't assume this affects data feed output until confirmed. --> |
-| **處理空白（「無值」）欄位** | [沒有值選項](/help/data-views/component-settings/no-value-options.md) | 未提供 | 不可能 | 元件設定 | <!-- Whether this is "Not possible" — including whether a blank value is sent as null, and whether "Treat as a value" changes the underlying data — is still being reviewed with the team. --> |
-| **從查詢資料集中查詢值** | 未提供 | [查詢](/help/data-views/derived-fields/derived-fields.md#lookup) | 簡易/適中<p>查閱表格必須已存在。</p> | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | |
-| **小寫字串** | [行為](/help/data-views/component-settings/behavior.md) | [小寫](/help/data-views/derived-fields/derived-fields.md#lowercase) | 簡易/適中 | 元件設定<p>建議使用，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | |
-| **將多個欄位合併為一個** | 未提供 | [合併欄位](/help/data-views/derived-fields/derived-fields.md#merge) | 簡易/適中 | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | |
-| **將URL剖析為元件** | [子字串](/help/data-views/component-settings/substring.md) （URL剖析方法） | [URL剖析](/help/data-views/derived-fields/derived-fields.md#urlparse) | 困難<p>需要自訂字串剖析來擷取相同的元件。</p> | 元件設定<p>建議使用，因為它不會使用其中一個有限的衍生欄位。</p> | <!-- Possible discrepancy: in the component settings meeting, Matt and Derek described all Substring methods, including URL parse, as roughly interchangeable across component setting, derived field, and SQL ("either one would work... maybe a preference"), which is a looser SQL-difficulty read than "Difficult." Flagged for Luke to reconcile; not changed without confirmation. --> |
-| **對數值欄位執行基本數學** | 未提供 | [數學](/help/data-views/derived-fields/derived-fields.md#math) | 簡易/適中 | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | |
-| **跨事件儲存維度值** | [持續性](/help/data-views/component-settings/persistence.md) | 目前無法使用<!-- Derek: considering adding this to FDL and surfacing it in derived fields; not currently possible. --> | 困難 | 元件設定<p>為方便使用而建議，因為它不會使用您有限的衍生欄位之一。</p> | 與回顧日期範圍互動，方式與範圍相依衍生欄位函式相同。 請參閱[瞭解回顧日期範圍](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-lookback-date-range)。 |
-| **使用規則運算式取代值** | [子字串](/help/data-views/component-settings/substring.md) （Regex方法） | [Regex取代](/help/data-views/derived-fields/derived-fields.md#regex-replace) | 簡易/適中 | 元件設定<p>這三種方法會產生相同的結果，但偏好使用元件設定，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | |
-| **解析工作階段中的下一個或上一個值** | 未提供 | [下一個或上一個](/help/data-views/derived-fields/derived-fields.md#next-previous) | 困難 | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 取決於範圍設定。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。 |
-| **傳回兩個日期之間的差異** | 未提供 | [日期數學](/help/data-views/derived-fields/derived-fields.md#datemath) | 困難 | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 取決於範圍設定。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。 |
+| **依條件套用條件邏輯或篩選值** | [包含排除值](/help/data-views/component-settings/include-exclude-values.md) | [案例時間](/help/data-views/derived-fields/derived-fields.md#casewhen) | 元件設定<p>建議使用，因為它不會使用其中一個有限的衍生欄位。</p> | 輕鬆使用字串<p>量度的中等到困難（需要結合`COUNT`的`CASE`陳述式）</p> | |
+| 成功事件的&#x200B;**屬性評分** | [歸因](/help/data-views/component-settings/attribution.md) | 未提供 | 元件設定 | 不適用 | 僅適用於資料摘要中的維度。 量度沒有資料摘要行為需要復寫。 |
+| **將數值儲存至範圍** | [值分組](/help/data-views/component-settings/value-bucketing.md) | 手動[案例時間](/help/data-views/derived-fields/derived-fields.md#casewhen) | 元件設定<p>為方便使用而建議，因為它不會使用您有限的衍生欄位之一。</p> | 困難 | 從元件設定（最簡單）增加到衍生欄位（一般，使用手動Case When）增加到SQL （最複雜）。 |
+| **使用查閱樣式對應來分類值** | 未提供 | [分類](/help/data-views/derived-fields/derived-fields.md#classify) | 衍生欄位 <p>建議使用，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中 | |
+| **結合欄位值與分隔符號** | 未提供 | [串連](/help/data-views/derived-fields/derived-fields.md#concatenate) | 衍生欄位<p>建議使用，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中 | 映象將多個維度欄新增至自由表格的功能，該功能限製為完整表格匯出。 衍生欄位讓類似的輸出可在資料摘要中使用。 |
+| **轉換欄位的資料型別** | 未提供 | [型別廣播](/help/data-views/derived-fields/derived-fields.md#typecast) | 衍生欄位<p>建議使用，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中 | |
+| **計算量度發生次數（值與執行個體的比較）** | [行為](/help/data-views/component-settings/behavior.md) | 自訂數學因應措施 | 元件設定<p>建議使用，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | 簡易/適中 | |
+| **在領域內刪除重複值** | [量度重複資料刪除](/help/data-views/component-settings/metric-deduplication.md) | [重複資料刪除](/help/data-views/derived-fields/derived-fields.md#dedup) | 元件設定<p>建議使用，因為它不會使用其中一個有限的衍生欄位。</p> | 困難 | 取決於範圍設定。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。 |
+| **決定工作階段中的欄位深度** | 未提供 | [深度](/help/data-views/derived-fields/derived-fields.md#depth) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 困難 | <!-- Open question as of 2026-09-09: does the Depth counter carry over across an hourly/daily feed boundary using lookback-window context, or does it restart? Pending confirmation from engineering (Ron Fulkerson / Nate Purser). How the counter behaves when a session spans a feed-delivery boundary is still being confirmed with engineering. --> <p>取決於範圍設定（使用工作階段作為範圍，且無法設定）。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。</p> |
+| **尋找並取代常值** | 未提供 | [尋找和取代](/help/data-views/derived-fields/derived-fields.md#find-and-replace) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中 | |
+| **格式化顯示值** | [格式](/help/data-views/component-settings/format.md) | 未提供 | 元件設定<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 困難 | <!-- Date-time formatting isn't yet reflected in data feed output — feeds currently show the standard timestamp regardless of this setting, though Adobe plans to support this for general availability. Whether numeric formats (decimal, currency, percent) on metrics affect data feed output is still being confirmed with the team.--> |
+| **從摘要資料集將維度分組** | 不適用 | 不適用 | 不適用 | 不適用 | 摘要資料群組僅適用於摘要資料集，不適用於資料摘要。 此轉換不適用於資料摘要輸出。 |
+| **處理空白（「無值」）欄位** | [無值選項](/help/data-views/component-settings/no-value-options.md)<br/>將「無值」視為值&#x200B;**]選項適用於資料摘要，而[!UICONTROL **&#x200B;預設不顯示「無值」**]和[!UICONTROL **&#x200B;預設顯示「無值」**]選項不適用於資料摘要。[!UICONTROL ** | 未提供 | 元件設定 | 不可能 | 所有「沒有值」會在最終資料摘要輸出中傳回為空值，而非傳回為「沒有值」字串。 |
+| **從查詢資料集中查詢值** | 未提供 | [查詢](/help/data-views/derived-fields/derived-fields.md#lookup) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中<p>查閱表格必須已存在。</p> | |
+| **小寫字串** | [行為](/help/data-views/component-settings/behavior.md) | [小寫](/help/data-views/derived-fields/derived-fields.md#lowercase) | 元件設定<p>建議使用，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | 簡易/適中 | |
+| **將多個欄位合併為一個** | 未提供 | [合併欄位](/help/data-views/derived-fields/derived-fields.md#merge) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中 | |
+| **將URL剖析為元件** | [子字串](/help/data-views/component-settings/substring.md) （URL剖析方法） | [URL剖析](/help/data-views/derived-fields/derived-fields.md#urlparse) | 元件設定<p>建議使用，因為它不會使用其中一個有限的衍生欄位。</p> | 困難<p>需要自訂字串剖析來擷取相同的元件。</p> | <!-- Possible discrepancy: in the component settings meeting, Matt and Derek described all Substring methods, including URL parse, as roughly interchangeable across component setting, derived field, and SQL ("either one would work... maybe a preference"), which is a looser SQL-difficulty read than "Difficult." Flagged for Luke to reconcile; not changed without confirmation. --> |
+| **對數值欄位執行基本數學** | 未提供 | [數學](/help/data-views/derived-fields/derived-fields.md#math) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中 | |
+| **跨事件儲存維度值** | [持續性](/help/data-views/component-settings/persistence.md) | 目前無法使用<!-- Derek: considering adding this to FDL and surfacing it in derived fields; not currently possible. --> | 元件設定<p>為方便使用而建議，因為它不會使用您有限的衍生欄位之一。</p> | 困難 | 與回顧日期範圍互動，方式與範圍相依衍生欄位函式相同。 請參閱[瞭解回顧日期範圍](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-lookback-date-range)。 |
+| **使用規則運算式取代值** | [子字串](/help/data-views/component-settings/substring.md) （Regex方法） | [Regex取代](/help/data-views/derived-fields/derived-fields.md#regex-replace) | 元件設定<p>這三種方法會產生相同的結果，但偏好使用元件設定，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | 簡易/適中 | |
+| **解析工作階段中的下一個或上一個值** | 未提供 | [下一個或上一個](/help/data-views/derived-fields/derived-fields.md#next-previous) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 困難 | 取決於範圍設定。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。 |
+| **傳回兩個日期之間的差異** | 未提供 | [日期數學](/help/data-views/derived-fields/derived-fields.md#datemath) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 困難 | 取決於範圍設定。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。 |
 | **將量度的範圍設定為事件、設定檔或總計** | [範圍](/help/data-views/component-settings/scope.md) | 未提供 | | | <!--Not yet discussed with the team. Don't assume this affects data feed output until confirmed.--> |
-| **分割分隔值** | [子字串](/help/data-views/component-settings/substring.md) （分隔符號或從左/右方法） | [分割](/help/data-views/derived-fields/derived-fields.md#split) | 簡易/適中 | 元件設定<p>建議使用，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | |
-| **彙總或彙總範圍中的值** | 未提供 | [摘要](/help/data-views/derived-fields/derived-fields.md#summarize) | 困難 | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 取決於範圍設定。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。 |
-| **從字串修剪字元** | [子字串](/help/data-views/component-settings/substring.md) （Trim方法） | [修剪](/help/data-views/derived-fields/derived-fields.md#trim) | 簡易/適中 | 元件設定<p>建議使用，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | |
+| **分割分隔值** | [子字串](/help/data-views/component-settings/substring.md) （分隔符號或從左/右方法） | [分割](/help/data-views/derived-fields/derived-fields.md#split) | 元件設定<p>建議使用，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | 簡易/適中 | |
+| **彙總或彙總範圍中的值** | 未提供 | [摘要](/help/data-views/derived-fields/derived-fields.md#summarize) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 困難 | 取決於範圍設定。 請參閱[範圍設定如何影響資料摘要](#scope-settings)。 |
+| **從字串修剪字元** | [子字串](/help/data-views/component-settings/substring.md) （Trim方法） | [修剪](/help/data-views/derived-fields/derived-fields.md#trim) | 元件設定<p>建議使用，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | 簡易/適中 | |
 
 {style="table-layout:auto"}
 

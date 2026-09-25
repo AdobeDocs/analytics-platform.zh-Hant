@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 555aef15933d87e5bbb3e3ec8b15d99a96ac25fe
+source-git-commit: ede5644096e8b1169819fb94399d5360066ca529
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1746'
 ht-degree: 0%
 ---
 # 比較Customer Journey Analytics和Adobe Analytics中的資料摘要
@@ -93,6 +93,7 @@ Customer Journey Analytics和Adobe Analytics中的資料摘要可讓您將原始
 | **分段**<br/>&#x200B;使用區段篩選資料摘要輸出的功能。 | 套用至資料檢視的區段會由資料摘要自動繼承。 其他區段也可以直接套用至個別資料摘要。 如需詳細資訊，請參閱資料摘要中的[分段](/help/components/exports/cja-data-feeds/df-segmentation.md)。 | 不支援。 資料摘要會匯出所有收集到的資料，而不使用區段篩選。 |
 | **計算量度**<br/>&#x200B;您可以從現有量度建立的自訂量度。 | 不支援 | 不支援 |
 | **持續性模型**<br/>&#x200B;維度值如何或是否從一個事件持續到下一個事件。 | 彈性。 來自資料檢視的持續性設定（配置和到期日）在產生摘要時套用至報告時間。 支援資料檢視中可用的所有配置設定： **原始**、**最近**、**全部**、**最先已知**&#x200B;和&#x200B;**最後已知**。 | 只表示&#x200B;**最近（上次接觸）**&#x200B;和&#x200B;**原始值（首次接觸）**&#x200B;歸因模型。 線性配置的處理與上次接觸相同。 |
+| **子事件處理**<br/>&#x200B;子事件在資料摘要輸出中的呈現方式。 | 以單一列表示，但會保留關聯式階層。 如需詳細資訊，請參閱資料摘要](/help/components/exports/cja-data-feeds/df-sub-event.md)中的[子事件。 | 以單列呈現為平面化、分隔的字串。 剖析字串需要自訂邏輯。 |
 | **輸出檔案格式**<br/>&#x200B;用於傳送至雲端目的地的資料摘要輸出檔案的格式。 | Parquet<p>原生支援複雜的巢狀和結構化資料。 `post_product_list`等欄位會以結構化陣列/巢狀物件來表示。 </p><p>需要Parquet感知工具才能讀取，例如BigQuery、Snowflake或Apache Spark。</p><p>結構描述結構內嵌在輸出檔案中。</p> | TSV<p>平坦、人類看得懂的列。 不原生支援結構化資料；複雜欄位（例如產品清單）必須編碼為需要自訂剖析邏輯的專有分隔字串。</p> |
 | **輸出檔案路徑**<br/>&#x200B;用於傳遞輸出檔案的目錄結構。 | 使用&#x200B;**Hive樣式的資料分割路徑** （例如`year=2024/month=01/day=15/`），在Databricks或Apache Spark等資料湖環境中查詢資料時，啟用有效的資料分割刪減。 | 使用平面目錄結構。 不支援Hive樣式的路徑。 |
 | **傳遞目的地**<br/>&#x200B;可傳送資料摘要輸出檔案的雲端儲存位置。 | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform。 | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform。 <p>也支援&#x200B;**SFTP**。</p> |
