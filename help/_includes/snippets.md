@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
+source-git-commit: 2caa69c9a58df756d0991dac84ba8900b2a7bc5a
 workflow-type: tm+mt
-source-wordcount: '5542'
-ht-degree: 97%
+source-wordcount: '5602'
+ht-degree: 96%
 ---
 # 程式碼片段
 
@@ -329,7 +329,10 @@ Customer Journey Analytics 的各種視覺化是為分析您提供給客戶的�
 
 ## 關聯式資料集重要訊息 {#relational-dataset-important}
 
+關聯式資料集是以關聯式結構描述型別為基礎。 該關聯式結構描述&#x200B;**中定義的關聯式描述項，一般不會套用**&#x200B;至Customer Journey Analytics連線的定義與組態，或具體而言是關聯式資料集的資料集設定。
+
+此外，在Customer Journey Analytics中，標準XDM結構描述&#x200B;**的欄位不會自動將**&#x200B;與關聯結構描述中類似的具名欄位合併。
 >[!IMPORTANT]
 >
->關聯式資料集是以關聯式結構描述型別為基礎。 該關聯式結構描述中定義的關聯式描述項沒有關聯，在一般情況下不適用於Customer Journey Analytics連線的定義和設定，或是具體而言適用於關聯式資料集的資料集設定。 <br/><br>針對Customer Journey Analytics報表和分析，您需要在[資料集設定](/help/connections/create-connection.md#relational-dataset)中明確設定如何將關聯式資料集的資料連結到其他資料集，其基礎是一般的人員ID或帳戶ID。
+>針對Customer Journey Analytics報表和分析，您需要在[資料集設定](/help/connections/create-connection.md#relational-dataset)中明確設定如何將關聯式資料集的資料根據一般人員ID或帳戶ID聯結到其他資料集。 <br/><br/>請考慮使用衍生欄位[合併欄位](/help/data-views/derived-fields/derived-fields.md#merge-fields)函式，在XDM結構描述和關聯式結構描述中合併類似的具名欄位（不是物件陣列的一部分）。 對於物件陣列中的欄位，目前沒有解決方案可合併XDM和相關結構描述之間的欄位。
 >
