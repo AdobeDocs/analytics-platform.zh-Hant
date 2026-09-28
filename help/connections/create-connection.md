@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 2caa69c9a58df756d0991dac84ba8900b2a7bc5a
+source-git-commit: 84ab190e018bc6beb9183aba038516b21289e49f
 workflow-type: tm+mt
-source-wordcount: '10488'
-ht-degree: 92%
+source-wordcount: '10597'
+ht-degree: 91%
 ---
 # 建立或編輯連線 {#create-or-edit-a-connection}
 
@@ -844,13 +844,13 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->雖然可以設定和選取，但基於效能考量，您應該避免針對時間序列 (事件、摘要) 資料使用臨時資料集。 關聯式或一般 XDM 型資料集比臨時資料集更適合處理時間序列資料。
+>雖然可以設定和選取，但基於效能考量，您應該避免針對時間序列（事件、摘要）資料使用臨時資料集。 關聯式或一般 XDM 型資料集比臨時資料集更適合處理時間序列資料。
 
 臨時資料集的特定設定如下：
 
 | 設定 | 選取的資料集類型 | 說明 |
 |---|---|---|
-| **[!UICONTROL 資料集類型]** | 不適用 | 臨時資料集中的資料類型。 可能的值為：**[!UICONTROL 事件]**、**[!UICONTROL 輪廓]**、**[!UICONTROL 查詢]**&#x200B;和&#x200B;**[!UICONTROL 摘要]**。 |
+| **[!UICONTROL 資料集類型]** | 不適用 | 臨時資料集中的資料類型。 可能的值為： **[!UICONTROL 事件]**、**[!UICONTROL 設定檔]** （不適用於[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}）、**[!UICONTROL 查詢]**&#x200B;以及&#x200B;**[!UICONTROL 摘要]**。 如果您想要針對以帳戶為基礎的連線使用臨機操作設定檔資料，請選取&#x200B;**[!UICONTROL 查詢]**&#x200B;做為&#x200B;**[!UICONTROL 資料集型別]**，並使用&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 相符的索引鍵]**&#x200B;來匯入帳戶資料。 |
 | **[!UICONTROL 個人 ID]** | 事件、輪廓 | 從臨時或關聯式結構描述中選取代表個人 ID 的欄位。 此欄位可以是資料集中的任何欄位。 從&#x200B;**[!UICONTROL 身分識別命名空間欄位]**&#x200B;或從&#x200B;**[!UICONTROL 非身分識別欄位]**&#x200B;選取。 <br/>如果臨時結構描述中有一個或多個欄位標示為身分識別且具有身分識別命名空間，您只能從&#x200B;**[!UICONTROL 身分識別命名空間]**&#x200B;選取身分識別碼。 |
 | **[!UICONTROL 身分識別命名空間]** | 事件 | 選取身分識別命名空間，若您已從&#x200B;**[!UICONTROL 非身分識別]**&#x200B;欄位中選取個人 ID。 |
 | **[!UICONTROL 時間戳記]** | 事件、摘要 | 從臨時結構描述中選取代表時間戳記欄位的欄位。 此欄位可以是類型 `DateTime` 的任何可用欄位。 |
@@ -871,7 +871,7 @@ ht-degree: 92%
 
 | 設定 | 選取的資料集類型 | 說明 |
 |---|---|---|
-| **[!UICONTROL 資料集類型]** | 不適用 | 關聯式資料集中的資料類型。<br/>如果資料集包含時間序列資料，可能的值為：**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 摘要]**。 <br/>如果資料集包含記錄資料，可能的值為：**[!UICONTROL 輪廓]**&#x200B;和&#x200B;**[!UICONTROL 查詢]**。 |
+| **[!UICONTROL 資料集類型]** | 不適用 | 關聯式資料集中的資料類型。<br/>如果資料集包含時間序列資料，可能的值為：**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 摘要]**。 <br/>如果資料集包含記錄資料，可能的值為： **[!UICONTROL 設定檔]** （不適用於[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}）和&#x200B;**[!UICONTROL 查詢]**。 如果您想要針對以帳戶為基礎的連線使用關聯式設定檔資料，請選取&#x200B;**[!UICONTROL 查詢]**&#x200B;作為&#x200B;**[!UICONTROL 資料集型別]**，並使用&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;來匯入帳戶資料。 |
 | **[!UICONTROL 個人 ID]** | 事件、輪廓 | 從關聯式結構描述中選取代表個人 ID 的欄位。 選取範圍僅限於關聯式結構描述中標示為「身分識別」且確實具有身分識別命名空間的欄位清單。 |
 | **[!UICONTROL 時間戳記]** | 事件、摘要 | 在結構描述中定義為時間戳記描述項的欄位。 此欄位會自動填入。 |
 | **[!UICONTROL 索引鍵]** | 查詢 | 用於查詢資料集的索引鍵。<br/>如果記錄不包含您為查詢資料集選取之索引鍵的值，則會略過該記錄。 |
