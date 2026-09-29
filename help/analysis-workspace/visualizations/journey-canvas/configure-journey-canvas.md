@@ -4,31 +4,43 @@ title: 設定歷程畫布視覺化圖表
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-TQID: https://experienceleague.adobe.com/pC3wjv6Q7RHRfDfHq75CP2Lqd-HzN-s7iLZ9t4N4ZR0
+TQID: 'https://experienceleague.adobe.com/pC3wjv6Q7RHRfDfHq75CP2Lqd-HzN-s7iLZ9t4N4ZR0'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: aff2ef09-fc60-4018-9197-e2befd623064
+    internal-label: Anomaly detection
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 397c62d5090deede87a7ce31129b6afe6c9351ee
+    internal-label: Insights
+source-git-commit: 2c0efe27451163d9fe4fe0f60bab11151a8ac6f1
 workflow-type: tm+mt
-source-wordcount: 7316
-ht-degree: 83%
-
+source-wordcount: '7322'
+ht-degree: 82%
 ---
-
 # 設定歷程畫布視覺化圖表
 
 您可以利用歷程畫布視覺化圖表，針對您提供給使用者和客戶的歷程進行分析並獲取深入洞察。
@@ -129,7 +141,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_compare"
 >title="相較於"
->abstract="用來將目前歷程資料與前一期資料相比的日期範圍。 當您選取比較日期範圍時，歷程中的每個節點都會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變化。 "
+>abstract="用來將目前歷程資料與前一期資料相比的日期範圍。 當您選取比較日期範圍時，歷程中的每個節點、箭頭和流失都會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變更。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -149,7 +161,7 @@ ht-degree: 83%
    |---------|----------|
    | [!UICONTROL **百分比值**] | 歷程中各節點上顯示的百分比值。<p>![百分比值](assets/journey-canvas-percentage.png)</p> <p>設定歷程中節點上顯示的百分比值時，請考量下列事項：</p><ul><li>主要量度的各節點會顯示一個百分比。 若有設定次要量度，也會顯示其百分比。 (如需主要和次要量度設定的詳細資訊，請參閱[開始建立歷程畫布視覺化圖表](#begin-building-a-journey-canvas-visualization)。)</li><li>百分比包含在面板的日期範圍內，資料釋圖中包含的所有人員或工作階段。 使用&#x200B;_人員_&#x200B;或&#x200B;_工作階段_&#x200B;取決於容器設定。 (如需關於容器設定的詳細資訊，請參閱[開始建立歷程畫布視覺化圖表](#begin-building-a-journey-canvas-visualization)。)</li></ul> <p>從下列選項中選擇：</p> <ul><li>[!UICONTROL **開始節點的百分比**]：計算各節點上顯示的相對於開始節點的百分比。 百分比以您選取的主要和次要量度為依據。 <p>_開始節點_&#x200B;是指在其之前沒有任何連接節點的節點。</p><p>歷程可包含多個開始節點。 但是，如果歷程包含 2 個或多個導向共同節點的開始節點，則會使用&#x200B;[!UICONTROL **總數百分比**]。 如果您想要使用&#x200B;[!UICONTROL **開始節點的百分比**]，請更新歷程，讓歷程中各節點都可以回溯至同一個開始節點。</p></li><li>[!UICONTROL **前一個節點的百分比**]：計算各節點顯示的相對於前一個節點的百分比。 百分比以您選取的主要和次要量度為依據。</li><li>[!UICONTROL **總數百分比**]：計算每個節點上顯示的相對於資料視圖中所有資料的百分比。 百分比以您選取的主要和次要量度為依據。</li></ul> |
    | [!UICONTROL **箭頭設定**] | 您可以將歷程畫布中節點之間顯示的箭頭設定為顯示自訂標籤和值。 <p>![箭頭設定](assets/journey-canvas-arrow-settings.png)</p><p>_標籤_&#x200B;是出現在箭頭上的自訂名稱。 特定箭頭上只會顯示一個標籤。 標籤可以是下列任何一項，並依照下列偏好順序顯示：</p><ol><li>從歷程畫布新增的自訂名稱 (如[在箭頭上新增或更新標籤](#add-or-update-a-label-on-an-arrow)所述)</li><li>Journey Optimizer 標籤</li><li>Journey Optimizer 條件</li></ol><p>_值_&#x200B;是顯示在箭頭上的數量和百分比，表示從歷程中一個節點移至下一個節點的人員或工作階段。 (換言之，是指在特定步驟時沒有從歷程中流失的使用者。) </p><p>下列選項適用於並非源自 Journey Optimizer 的歷程，以及在歷程畫布中未大幅修改的 Journey Optimizer 歷程：(重大修改包括新增或移除節點、新增或移除箭頭，或變更節點的元件。)</p><ul><li>[!UICONTROL **沒有標籤**]：歷程中的箭頭未顯示任何標籤。</br> 此選項僅在歷程在中修改時可用 </li><li>[!UICONTROL **只有標籤**]：歷程中的箭頭顯示標籤。</li></ul><p>下列選項適用於在Journey Canvas中經過重大修改的Journey Optimizer歷程： （重大修改包括新增或移除節點、新增或移除箭頭或變更節點的元件。）(**注意**：只有在您新增視覺效果的Analysis Workspace面板中選取的相同資料檢視中偵測到Journey Optimizer資料時，才會顯示這些選項。 如需關於變更 Analysis Workspace 中面板上資料視圖的資訊，請參閱 [Analysis Workspace 概觀](/help/analysis-workspace/home.md)。)</p><ul><li>[!UICONTROL **無標籤或值**]：歷程中的箭頭未顯示標籤或值。</li><li>[!UICONTROL **只有標籤**]：歷程中的箭頭只有顯示標籤。 沒有顯示值。</li><li>[!UICONTROL **只有值**]：歷程中的箭頭上只顯示值。 沒有顯示標籤。</li><li>[!UICONTROL **值和標籤**]：歷程中的箭頭上皆有顯示標籤和值。</li></ul> |
-   | [!UICONTROL **與**]&#x200B;比較 | 用來將目前歷程資料與前一期資料相比的日期範圍。 您可以選擇以下任何日期範圍來比較：<ul><li>**[!UICONTROL 4週前]**</li><li>**[!UICONTROL 2季之前]**</li><li>**[!UICONTROL 前1年]**</li><li>**[!UICONTROL 自訂日期範圍]**</li></ul><p>當您選取比較日期範圍時，歷程中的每個節點都會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變化。 這可讓您識別歷程的執行效能是否優於先前時段。</p> |
+   | [!UICONTROL **與**]&#x200B;比較 | 用來將目前歷程資料與前一期資料相比的日期範圍。 您可以選擇以下任何日期範圍來比較：<ul><li>**[!UICONTROL 4週前]**</li><li>**[!UICONTROL 2季之前]**</li><li>**[!UICONTROL 前1年]**</li><li>**[!UICONTROL 自訂日期範圍]**</li></ul><p>當您選取比較日期範圍時，歷程中的每個節點、箭頭和流失都會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變更。 這可讓您識別歷程的執行效能是否優於先前時段。</p> |
    | [!UICONTROL **顯示流失**] | 流失資料顯示從歷程的各節點流失的百分比和數量。 流失資料是以與歷程的容器設定相關聯的量度，而非主要或次要量度為依據。 <p>![流失](assets/journey-canvas-fallout.png)</p><p>依預設，容器是&#x200B;_個人_，因此用於流失資料的量度是&#x200B;_人員_。 如果容器變更為&#x200B;_工作階段_，則用於流失資料的量度為&#x200B;_工作階段_，以此類推。</p><p>例如，以&#x200B;_個人_&#x200B;做為容器設定，「流失」會顯示歷程中各節點上從未到達緊接的下一個節點的人數和百分比。 這些人可能在網站上已執行其他動作，但不符合任何緊隨其後之節點所定義的條件。</p> <p>如需關於歷程畫布容器設定的詳細資訊，請參閱[開始建立歷程畫布視覺化圖表](#begin-building-a-journey-canvas-visualization)。 |
    | **控制項** | 下列控制項位於畫布的右上角：<ul><li>**符合螢幕**![符合螢幕圖示](assets/fill-screen-icon.png)：調整目前的縮放和平移設定，讓視覺化圖表填滿螢幕。</li><li>**組織** ![組織圖示](assets/organize.svg)：根據節點連線，重新排列節點以最小化交叉箭頭並最佳化間距。 </li><li>**放大**![放大圖示](assets/zoom-in-icon.png)：將視覺化圖表的特定區域放大顯示。<p>您也可以使用滑鼠控制項，例如在觸控板上捏合。</li><li>**縮小**![縮小圖示](assets/zoom-out-icon.png)：縮小視覺化圖表，讓畫布騰出更多空間。<p>您也可以使用滑鼠控制項，例如在觸控板上捏合。</p></li></ul><p>若要在放大或縮小後平移畫布，請按一下滑鼠並拖曳至所需的位置。</p> |
 
