@@ -2,17 +2,32 @@
 title: 交談深入分析概觀
 description: 瞭解交談深入分析的價值和術語，並瞭解交談深入分析的運作方式。
 solution: Customer Journey Analytics
-feature: Content Analytics
+feature: AI Tools
 role: Admin, User
 hold: true
-source-git-commit: 39d6847296cc385d501defda292b5b3cae98b46a
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1114'
 ht-degree: 1%
 ---
 # 交談見解
 
-對話深入解析可讓您從提供給客戶的代理程式體驗中分析對話。 這些代理程式體驗可以基於大型語言模型(LLM)或基於人類對話。 對話深入分析會大規模分析對話，並在完整的客戶歷程中提供這些對話的情境。 透過交談深入分析，您可以瞭解代理程式對實際使用者結果的影響。
+對話深入解析可讓您從提供給客戶的代理程式體驗中分析對話。 這些代理程式體驗可以基於大型語言模型(LLM)或基於人類對話。 例如，和客戶或客服中心互動的聊天機器人紀錄。
+
+對話深入分析會大規模分析對話，並在完整的客戶歷程中提供這些對話的情境。 透過交談深入分析，您可以瞭解代理程式對實際使用者結果的影響。
 
 對話深入分析可解決您可能會遇到的問題。 例如：
 
@@ -29,7 +44,7 @@ ht-degree: 1%
 * 使用者向代理程式詢問。
 * 交談對您的KPI有何影響。
 
-您可以決定代理程式如何依照指示執行、代理程式遵守品牌指引的程度，以及執行代理程式的成本是否由結果所證明。
+您可以判斷代理程式執行指令的方式、代理程式遵守品牌指引的程度，以及結果是否適合執行代理程式的成本。
 
 
 ## 概念
@@ -146,7 +161,7 @@ ht-degree: 1%
 * **訊號擷取與交談混合**：將非結構化提示與回應（也稱為turns）轉換為可報告的資料點，例如意圖與情緒。 以便使用者能大規模報告這些資料點。
 * **報告**：若要判斷代理程式的功效和ROI，請在客戶歷程中大規模分析交談。
 
-資料收集、訊號擷取和交談混合的整體程式如下所示。
+以下說明資料收集、訊號擷取和交談混合的整體程式。
 
 ![對話深入解析其運作方式](assets/conversation-insights.png){zoomable="yes"}
 
