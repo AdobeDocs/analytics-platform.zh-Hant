@@ -8,21 +8,24 @@ autotag-review: '2026-05-19T09:35:22.411Z'
 TQID: 'https://experienceleague.adobe.com/La2B-Yvc3-OHQsgmr5EPILZQBcm6zKCAAcKPLZ3PbIQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases, Use cases (CJA)
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: 6db1cfff1578b11a62710382aed783e56996342d
 workflow-type: tm+mt
-source-wordcount: 1390
+source-wordcount: '1390'
 ht-degree: 55%
-
 ---
-
 # 結合報告套裝與不同的結構描述
 
 [Analytics來源聯結器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)將來自Adobe Analytics的報告套裝資料帶入Adobe Experience Platform，以供Adobe Experience Platform應用程式使用，例如Real-time Customer Data Platform和Customer Journey Analytics (Customer Journey Analytics)。 引入Adobe Experience Platform的每個報告套裝都會設定為個別來源連線資料流，而每個資料流都會當作Adobe Experience Platform資料湖中的資料集。 Analytics來源聯結器會為每個報告套裝各建立一個資料集。

@@ -5,7 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-TQID: https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc
+TQID: 'https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -21,6 +21,8 @@ subfeature_v2:
     internal-label: Calendar
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
     internal-label: Dimensions
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -31,10 +33,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 84ab190e018bc6beb9183aba038516b21289e49f
+source-git-commit: 6acb1ca076e28e8da4bbc1920837cea9216777e1
 workflow-type: tm+mt
-source-wordcount: '10597'
-ht-degree: 91%
+source-wordcount: '10738'
+ht-degree: 90%
 ---
 # 建立或編輯連線 {#create-or-edit-a-connection}
 
@@ -724,7 +726,29 @@ ht-degree: 91%
 
 
 
-#### 事件資料集
+#### 事件資料集 {#event-dataset-settings}
+
+<!-- RIdM: Lengthy contextual help due to not yey allowed public facing docs. Modify when public facing docs are allowed. -->
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter"
+>title="啟用列篩選"
+>abstract="列篩選器會決定要將哪些事件擷取到Customer Journey Analytics。 系統只會擷取符合包含規則的事件。 所有其他事件將會永久排除，無法用於Customer Journey Analytics中的報告、細分或分析。<ul><li>您最多可以建立10個篩選器。</li><li> 篩選器的變更只會套用至變更後擷取的新資料，而不會回溯影響先前擷取的資料或觸發歷史回填。</li></ul>"
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter_field"
+>title="欄位"
+>abstract="從事件資料集中選取要用於條件的欄位。 您可以使用任何型別的任何欄位。"
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter_operator"
+>title="條件"
+>abstract="選取運運算元。 運運算元可用來根據值驗證所選欄位。"
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter_values"
+>title="值"
+>abstract="輸入一或多個值。 系統會使用確切的字串值。 請使用逗號來分隔值。 每個逗號分隔值都視為不同，並包含在條件中。"
 
 事件資料集的特定設定取決於連線類型。
 

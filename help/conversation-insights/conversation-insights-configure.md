@@ -2,18 +2,31 @@
 title: 建立或編輯對話深入分析設定
 description: 瞭解如何設定「交談見解」設定。
 solution: Customer Journey Analytics
-feature: Content Analytics
+feature: AI Tools
 role: Admin, User
 hold: true
-source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 8%
+source-wordcount: '654'
+ht-degree: 7%
 ---
 # 建立或編輯組態
 
-
-對話深入分析可讓您大規模分析對話(來自大型語言模型(LLM)或人類)，並在整個客戶歷程中提供這些對話的內容。 透過交談見解，您可以瞭解代表對實際使用者結果的影響。
+對話深入解析可讓您從提供給客戶的代理程式體驗中分析對話。 這些代理程式體驗可以基於大型語言模型(LLM)或基於人類對話。 例如，和客戶或客服中心互動的聊天機器人紀錄。
+透過交談見解，您可以瞭解代表對實際使用者結果的影響。
 
 透過「交談見解」設定介面，您可以快速建立或編輯設定和相關的成品（連線、資料檢視等）。
 
@@ -88,7 +101,7 @@ ht-degree: 8%
 
    * 針對未建立的新組態選取&#x200B;**[!UICONTROL 捨棄]**。
 
-   * 針對您想要儲存但不想要建立成品（例如資料檢視的更新）的新設定，選取&#x200B;**[!UICONTROL 儲存以供稍後使用]**。 因此，您可以稍後重新造訪設定，並完成設定的實際建立。
+   * 針對您想要儲存但不想要建立成品（例如資料檢視的更新）的新設定，選取&#x200B;**[!UICONTROL 儲存以供稍後使用]**。 您可以稍後重新造訪設定，並完成設定的實際建立。
 
    * 選取&#x200B;**[!UICONTROL 建立]**&#x200B;以建立新組態。
 

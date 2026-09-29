@@ -2,12 +2,25 @@
 title: 實作交談深入分析
 description: 瞭解如何檢測您的代理程式應用程式或服務，以進行交談深入分析。
 solution: Customer Journey Analytics
-feature: Content Analytics
+feature: AI Tools
 role: Admin, User
 hold: true
-source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2322'
 ht-degree: 6%
 ---
 # 實作交談深入分析
@@ -19,19 +32,19 @@ ht-degree: 6%
 >[!PREREQUISITES]
 >
 >* 您必須有Experience Platform環境（組織和沙箱）可供收集資料。
->* 您的Adobe組織必須為實驗代理和交談欄位群組啟用。
+>* 您的Adobe組織必須為代理和交談欄位群組啟用。
 >
 
 ## 結構描述和資料集
 
-設定主要交談事件的資料集：提示、回應、回饋。 這些資料集可以相同結構為基礎（例如，通用的交談見解結構描述），或根據個別結構描述。
-您可以為提示、回應和回饋定義單獨的資料集，或將資料合併到資料集中。 例如，使用一個資料集進行提示和回應，並使用另一個資料集進行意見回饋。 或針對所有交談事件使用單一資料集。
+設定主要交談事件的資料集：提示、回應、回饋。 提示、回應和意見資料集必須以[交談事件欄位群組](#conversation-event-field-group)擴充XDM體驗事件基本結構描述，並可選擇包含[代理資訊欄位群組](#agentic-information-field-group)和其他[其他欄位群組](#additional-field-groups)。
 
-用於提示、回應和意見資料集的結構描述必須使用必要欄位群組來擴充XDM體驗事件基本結構描述。 而且可以使用其他欄位群組來擴充XDM體驗事件基本結構描述。
+您可以為提示、回應和回饋定義單獨的資料集，或將資料合併到資料集中。 例如，使用一個資料集進行提示和回應，並使用另一個資料集進行意見回饋。 或針對所有交談事件使用單一資料集。
+對資料集使用相同的基礎結構描述。
 
 ### 代理資訊欄位群組
 
-**[!UICONTROL 代理資訊]**&#x200B;欄位群組是必要的欄位群組，並使用`agenticExperience`物件。
+**[!UICONTROL 代理資訊]**&#x200B;欄位群組是選用欄位群組，並使用`agenticExperience`物件。 如果您想要追蹤代理資訊，請考慮使用此欄位群組。
 
 +++ 詳細資料
 
@@ -203,7 +216,7 @@ ht-degree: 6%
 
 #### 對話
 
-唯一的`conversationID`可識別交談。 例如：`conversationID = "conv-001"`。 結構描述也支援`conversationName`。 描述交談整體內容的易讀名稱，例如： `France Geography Q&A`。
+唯一的`conversationID`可識別交談。 例如：`conversationID = "conv-001"`。 結構描述也支援`conversationName`。 描述交談整體內容的易讀名稱，例如： `France Geography Q&A`。 交談名稱會自動產生，但您可以更新產生的名稱。 交談名稱也已填入至`signals[].name`。
 
 `conversationID`允許將所有相關的轉換事件分組到相同的對話體驗。
 
@@ -216,7 +229,7 @@ ht-degree: 6%
 `conversationID = "conv-001"`
 `turnID = "turn-001"`
 
-相同的`conversationID`和`turnID`可用來關聯與該回合相關的提示、回應和回饋。 此關聯適用於單獨交付或最終位於不同資料集的記錄。
+相同的`conversationID`和`turnID`可用來關聯與該回合相關的提示、回應和回饋。 此關聯適用於單獨交付或最終位於不同資料集的記錄。 `turnId`只需在相同交談中是唯一的，但可跨交談重複使用。 例如，在與`conversationID` `conv-001`和`conv-002`的交談中，您可以同時將`turn-001`設為`turnID`。
 
 
 #### 提示
@@ -231,7 +244,7 @@ ht-degree: 6%
 |---|---|
 | `prompt.source` | 產生提示的人員或內容，通常是一般使用者。 |
 | `prompt.raw[]` | 一或多個原始內容區段。 |
-| `prompt.raw[].text` | 實際的提示文字或內容。 |
+| `prompt.raw[].text` | 實際的提示文字或內容連結（例如熒幕擷圖）。 |
 | `prompt.raw[].purpose` | 內容的用途，例如，使用者輸入或連結。 |
 
 提示可包含多個原始區段。 例如，使用者輸入文字並包含URL。
@@ -257,6 +270,8 @@ ht-degree: 6%
 | `response.raw[].purpose` | 內容區段的用途。 |
 
 記錄的來源型別包括：
+
+<!-- randy buck to provide additional details -->
 
 | 來源 | 含義 |
 |---|----|
@@ -287,7 +302,9 @@ ht-degree: 6%
 
 #### 訊號
 
-訊號是對交談內容的結構化分析觀察。 訊號擷取服務會擷取訊號。
+訊號是對交談內容的結構化分析觀察。 Signal服務提供立即可用的訊號。 提供訊號無需任何動作，但您可在整合過程中新增訊號。
+
+<!-- randy buck to provide additional details -->
 
 訊號有下列欄位。
 
@@ -360,9 +377,6 @@ ht-degree: 6%
 
 +++
 
-
-
-
 ### 其他欄位群組
 
 您可以將選用的欄位群組新增到結構描述中，以用於提示、回應和意見回饋資料集。 例如：
@@ -382,9 +396,9 @@ ht-degree: 6%
 
 | 值 | 說明 |
 |---|---|
-| `conversation turn` | 完成交談並提示及回應 |
-| `conversation recommendation` | 以交談為基礎的建議 |
-| `conversation feedback` | 僅限回饋意見的事件 |
+| `conversation.turn` | 完成交談並提示及回應 |
+| `conversation.recommendation` | 以交談為基礎的建議 |
+| `conversation.feedback` | 僅限回饋意見的事件 |
 
 
 ### Source型別
@@ -401,6 +415,8 @@ ht-degree: 6%
 ### 用途型別（原始文字）
 
 您必須在`prompt`、`response`或`feedback`物件中`raw`物件的任何元素上，設定`purpose`屬性的下列其中一個值。
+
+<!-- randy buck to provide details -->
 
 | 值 | 說明 |
 |---|---|
