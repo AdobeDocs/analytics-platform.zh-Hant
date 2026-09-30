@@ -9,25 +9,34 @@ autotag-review: '2026-05-19T08:13:26.040Z'
 TQID: 'https://experienceleague.adobe.com/EGQMwo2ENqJqJTTslytcooquVgsU-zGS7TU9fmJv8UQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 0c3564ba382f12e6a331f00a2edc1c9f324acc2d
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 149
+source-wordcount: '149'
 ht-degree: 100%
-
 ---
-
 # 停用 Adobe Analytics {#disable-appmeasurement}
 
 <!-- markdownlint-disable MD034 -->
@@ -35,7 +44,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-disable-appmeasurement"
 >title="停用 AppMeasurement 資料彙集"
->abstract="在 Web SDK 資料完全正常運作的情況下，與您的開發團隊合作從您的網站或屬性中移除 AppMeasurement.js。<br><br>從網站上刪除 AppMeasurement 的動作只需幾分鐘，但需要您的工程團隊花費時間來完成。 但是，請確保您的 Analytics 使用者使用的是 Customer Journey Analytics 而不是 Adobe Analytics；如果您尚未完成此動作，則讓所有人轉移的公告過程可能會花費更長的時間。"
+>abstract="在 Web SDK 資料完全正常運作的情況下，與您的開發團隊合作從您的網站或屬性中移除 AppMeasurement.js。<br><br>從網站上刪除 AppMeasurement 的動作只需幾分鐘，但需要您的工程團隊花費時間來完成。 但是，請確保您的 Analytics 使用者使用的是 Customer Journey Analytics 而不是 Adobe Analytics；如果您尚未完成此動作，則通知所有人轉移的過程可能會花費更長的時間。"
 
 <!-- markdownlint-enable MD034 -->
 

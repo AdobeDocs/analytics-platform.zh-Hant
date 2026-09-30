@@ -8,23 +8,30 @@ autotag-review: '2026-05-19T08:31:54.599Z'
 TQID: 'https://experienceleague.adobe.com/k-0eP4wFf0vl3zYmUDUOv1V9xI6utt7AOjJqCo2mAB4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: ddf59f64-0e46-4986-a525-056acc143c70
+    internal-label: Workspace visualizations
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 802
+source-wordcount: '802'
 ht-degree: 100%
-
 ---
-
 # 智慧型註解 {#intelligent-captions}
 
 >[!CONTEXTUALHELP]
@@ -62,7 +69,7 @@ ht-degree: 100%
 
 * 如果在關聯的自由格式表格中有多個量度，則只會為第一個量度或使用者目前選取的量度產生註解。 但是，可以為折線圖和區域圖視覺效果的多個量度產生註解。
 
-* 如果您將專案儲存在特定點，並稍後重新加載，則註解將自動使用新資料來進行更新。 這同樣適用於排程的專案和從項目匯出的 PDF 檔案。
+* 如果您將專案儲存在特定點，並稍後重新加載，則註解將自動使用新資料來進行更新。 這同樣適用於排程的專案和從專案匯出的 PDF 檔案。
 
 
 ## 視覺效果 {#visualizations}
@@ -89,7 +96,7 @@ Here is an example of what intelligent captions could look like:
 
 ### 複製到剪貼簿 {#copy}
 
-您可以將註解複製到剪貼簿，然後將其貼到 PowerPoint 或其他工具中。 您可以在逐一視圖中複製個別註解，也可以在擴大的註解視圖中一次複製所有註解。
+您可以將註解複製到剪貼簿，然後將其貼到 PowerPoint 或其他工具中。 您可以在逐一視圖中複製個別註解，也可以在展開的註解視圖中一次複製所有註解。
 
 * 若要複製註解，請在註解對話框右上角選取「![將註解複製到剪貼簿](/help/assets/icons/Copy.svg)」。
 
@@ -125,7 +132,7 @@ Here is an example of what intelligent captions could look like:
 
 ### 匯出 {#export}
 
-您可以將智慧型註解作為 PDF 的一部分匯出，只要將附生成式智慧型註解的專案儲存即可。
+您可以將智慧型註解作為 PDF 的一部分匯出，只要專案儲存時已產生智慧型註解即可。
 
 ### 關閉 {#toggle}
 
@@ -152,14 +159,14 @@ Customer Journey Analytics [行動記分卡](https://experienceleague.adobe.com/
 * **合約存取**：如果您無法使用智慧型註解，請聯絡您組織的管理員或 Adob&#x200B;&#x200B;e 客戶代表 (管理員)。 在您的組織中使用智慧型註解之前，您必須同意某些與生成式 AI 相關的法律條款。
 
 * **權限**：在 [!UICONTROL Adobe Admin Console] 中，[!UICONTROL 報告工具] **[!UICONTROL 智慧型註解]**&#x200B;權限會決定存取權。 [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)需要遵守 [!UICONTROL Admin Console]中的以下步驟：
-   1. 導覽至「**[!UICONTROL Admin Console]** > **[!UICONTROL 產品與服務]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 產品設定檔]**」。
-   1. 選取您想要提供智慧型註解存取權的產品設定檔標題。
-   1. 在特定的產品設定檔中，選取「**[!UICONTROL 權限]**」。
-   1. 選取「![編輯](/help/assets/icons/Edit.svg)」，可編輯「**[!UICONTROL 報告工具]**」。
-   1. 選取 ![AddCircle](/help/assets/icons/AddCircle.svg)，可新增&#x200B;**智慧型註解**&#x200B;至&#x200B;**[!UICONTROL 包含的權限項目]**。
+  1. 導覽至「**[!UICONTROL Admin Console]** > **[!UICONTROL 產品與服務]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 產品設定檔]**」。
+  1. 選取您想要提供智慧型註解存取權的產品設定檔標題。
+  1. 在特定的產品設定檔中，選取「**[!UICONTROL 權限]**」。
+  1. 選取「![編輯](/help/assets/icons/Edit.svg)」，可編輯「**[!UICONTROL 報告工具]**」。
+  1. 選取 ![AddCircle](/help/assets/icons/AddCircle.svg)，可新增&#x200B;**智慧型註解**&#x200B;至&#x200B;**[!UICONTROL 包含的權限項目]**。
 
-      ![新增權限](./assets/intelligent-captions-permissions.png)
+     ![新增權限](./assets/intelligent-captions-permissions.png)
 
-   1. 選取「**[!UICONTROL 儲存]**」，儲存權限。
+  1. 選取「**[!UICONTROL 儲存]**」，儲存權限。
 
 請參閱[存取控制概觀](/help/technotes/access-control.md#access-control)，了解更多資訊。

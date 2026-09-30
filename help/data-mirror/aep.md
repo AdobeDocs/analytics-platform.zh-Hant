@@ -9,24 +9,32 @@ autotag-review: '2026-05-19T07:18:47.007Z'
 TQID: 'https://experienceleague.adobe.com/nAfDMtaQvsVRAEm31fRwleirW8LaS-yS0tGTdReux0Y'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+    internal-label: Data ingestion
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 6%
-
+source-wordcount: '605'
+ht-degree: 5%
 ---
-
 # 設定Experience Platform
 
 適用於Customer Journey Analytics的Experience Platform Data Mirror需要正確設定數個Experience Platform元件：
@@ -47,9 +55,9 @@ ht-degree: 6%
 * 定義結構描述中的欄位及其屬性
 * 設定關聯式架構中欄位的必要屬性：
 
-   * **主索引鍵**。
-   * **版本描述項**，必須設定為連續數字（整數欄位型別）或日期時間欄位型別。 當您使用DateTime欄位型別時，版本描述項會定義資料修改的時間戳記，例如包含上次修改的時間戳記。
-   * **時間戳記描述項** （適用於時間序列資料），定義擷取事件時不可變的時間戳記。 記錄型關聯式結構描述不需要時間戳記描述項。
+  * **主索引鍵**。
+  * **版本描述項**，必須設定為連續數字（整數欄位型別）或日期時間欄位型別。 當您使用DateTime欄位型別時，版本描述項會定義資料修改的時間戳記，例如包含上次修改的時間戳記。
+  * **時間戳記描述項** （適用於時間序列資料），定義擷取事件時不可變的時間戳記。 記錄型關聯式結構描述不需要時間戳記描述項。
 
 
 
@@ -104,6 +112,6 @@ ht-degree: 6%
 
 >[!MORELIKETHIS]
 >
->[Data Mirror快速入門手冊：映象並使用關聯式資料](relational.md)
+>[Data Mirror快速入門手冊：映象及使用關聯式資料](relational.md)
 >[Data Mirror （Experience Platform檔案）](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-mirror/overview)
 >[關聯式結構描述（Experience Platform檔案）](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)

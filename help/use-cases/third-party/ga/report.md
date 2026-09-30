@@ -9,32 +9,41 @@ autotag-review: '2026-05-19T09:49:08.813Z'
 TQID: 'https://experienceleague.adobe.com/dRY1wvTEzrhnNsqE-fJq9DyzOAEKTygzSkVb8r6huoM'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+    internal-label: Analytics integration
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 046df00868ca4a5b3bab3eb36cca7d91b141333a
+    internal-label: Web experience
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 704
+source-wordcount: '704'
 ht-degree: 83%
-
 ---
-
 # 報告 Google Analytics 資料
 
 在您可以使用 Customer Journey Analytics 中的資料後，以下範例提供關於該資料報告的一些實用情境。 如需Customer Journey Analytics中GA4報表同等項的完整查閱，請參閱Customer Journey Analytics中的[GA4報表](/help/getting-started/ga-to-cja/reports.md)。
 
 ## 以視覺化方式將網頁資料和應用程式資料呈現為合併的資料集
 
-這張文氏圖表顯示您的網站上的使用者 (來自您的 Google Analytics 資料)、您的行動應用程式上的使用者 (來自您的 Firebase 資料) 以及您的客服中心的使用者重疊的情況。 您也可以查看績效最高的商品 - 不只可以在網頁上查看，也可以在行動應用程式中查看。 您甚至可以使用計算度量取得這兩者的總收入。 當您查看合併收入時，請注意績效最好的商品如何講述不同的故事。 如果沒有合併資料集，您永遠不會知道「斜紋帽」的績效如此高。
+這張文氏圖表顯示您的網站上的使用者 (來自您的 Google Analytics 資料)、您的行動應用程式上的使用者 (來自您的 Firebase 資料) 以及您的客服中心的使用者重疊的情況。 您也可以查看績效最高的商品 - 不只可以在網頁上查看，也可以在行動應用程式中查看。 您甚至可以使用計算度量取得這兩者的總收入。 當您查看合併收入時，請注意熱門商品會呈現出不同的情況。 如果沒有合併資料集，您永遠不會知道「斜紋帽」的績效如此高。
 
 ![合併的資料集](../../assets/combined-datasets.png)
 
@@ -52,13 +61,13 @@ ht-degree: 83%
 
 套用「通話原因」的維度劃分，該範例顯示「商品損壞」的維度項目。 下一步是聯絡品質控制部門，並了解為何客戶會收到損壞的 T 恤。
 
-您可以審視哪些網站頁面造成客服中心來電增加。 此份報告可讓您知道網站上表現不佳的體驗位在何處，並幫助產品經理解決這些難題。 以下範例使用具參與率歸因模型的計算量度，將資料篩選為僅限以客服中心電話結尾的互動。
+您可以審視哪些網站頁面造成客服中心來電增加。 此報告可讓您了解網站上哪些體驗較不理想，並幫助產品經理解決這些難題。 以下範例使用具參與率歸因模型的計算量度，將資料篩選為僅限以客服中心電話結尾的互動。
 
-以下範例顯示「購物車」和「結帳資訊」頁面造成了大多數的來電。
+以下範例顯示「購物車」和「結帳資訊」頁面帶來了大多數的來電。
 
 ![貢獻頁面](../../assets/contributing-pages.png)
 
-同類群組表格可以讓您了解使用者在瀏覽網站後，通常過了多久才會撥電話到我們的客服中心。 以下範例指明本範例資料集的平均時間是介於三到四週。
+同類群組表格可以讓您了解使用者在瀏覽網站後，通常過了多久才會撥電話到客服中心。 以下範例指明本範例資料集的平均時間是介於三到四週。
 
 ![同類群組](../../assets/cohort.png)
 
@@ -68,7 +77,7 @@ Customer Journey Analytics可讓您針對跨管道資料使用複雜的歸因模
 
 ![行銷歸因](../../assets/mktg-attribution.png)
 
-使用計算量度時，您可以將該歸因套用到您的網頁收入、行動應用程式收入，甚至可以移除商品退貨。 因此，您可以看到每個行銷管道的真正淨收入。
+使用計算量度時，您可以將該歸因套用到您的網頁收入、行動應用程式收入，甚至可以移除商品退貨。 因此，您可以看到每個行銷管道的實際淨收入。
 
 ![計算量度](../../assets/calc-metric.png)
 
@@ -76,7 +85,7 @@ Customer Journey Analytics可讓您針對跨管道資料使用複雜的歸因模
 
 ![區段](../../assets/filter.png)
 
-您也可以將您的網頁和應用程式收入歸因於您的 Google 廣告內容。 此資料集範例從線上 Google Ads 所驅動的行動應用程式，比從網頁上獲得更高的收入。 當您根據網頁和應用程式收入進行廣告排序時，您對於哪些 Google 廣告成效最佳會有非常不同的觀點。
+您也可以將您的網頁和應用程式收入歸因於您的 Google 廣告內容。 此資料集範例從線上 Google Ads 帶動的行動應用程式獲得的收入，比從網頁獲得的收入更高。 當您根據網頁和應用程式收入進行廣告排序時，您對於哪些 Google 廣告成效最佳會有非常不同的觀點。
 
 ![Google 廣告](../../assets/google-ad.png)
 

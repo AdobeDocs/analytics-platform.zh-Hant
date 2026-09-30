@@ -3,23 +3,30 @@ title: 歸因最佳實務
 description: 瞭解最佳實務，以決定要使用的歸因模型。
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-TQID: https://experienceleague.adobe.com/noNo2rP-srAtUJbG-kYgipLHknMsWWZR4iJwDv-2ioc
+TQID: 'https://experienceleague.adobe.com/noNo2rP-srAtUJbG-kYgipLHknMsWWZR4iJwDv-2ioc'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
+  - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+    internal-label: Attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '466'
 ht-degree: 63%
-
 ---
-
 # 歸因最佳做法
 
 為您的組織選擇正確的歸因模型取決於許多考量因素。 本文章探索方法及部分最佳實務：
@@ -33,7 +40,7 @@ ht-degree: 63%
 >[!NOTE]
 >選擇歸因模型前，必須進行此分析。
 
-此階段包括在最初了解客戶行為，並定義轉換量度。 根據轉換量度，類似[資料摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/analytics-data-feed/data-feed-overview) (適用於原始資料) 或 Analysis Workspace 等工具有助於您了解
+此階段一開始包括了解客戶行為，並定義轉換量度。 根據轉換量度，類似[資料摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics/export/analytics-data-feed/data-feed-overview) (適用於原始資料) 或 Analysis Workspace 等工具有助於您了解
 
 * 轉換前接觸過不同行銷管道的客戶數量
 * 這些行為的比例/分佈
@@ -43,11 +50,11 @@ ht-degree: 63%
 
 ### 上層漏斗分析
 
-上層漏斗分析管道用於建立品牌或產品知名度。 例如，大多數電視廣告的目標是品牌知名度。 您可能會使用[時間衰減歸因模型](/help/analysis-workspace/attribution/models.md)，因為人們會隨著時間逐漸淡忘電視廣告。
+上層漏斗分析管道用於建立品牌或產品知名度。 例如，大多數電視廣告的目標是品牌認知度。 您可能會使用[時間衰減歸因模型](/help/analysis-workspace/attribution/models.md)，因為人們會隨著時間逐漸淡忘電視廣告。
 
 ### 下層漏斗分析
 
-在下層漏斗分析中，假設人們已經知道您的品牌且您想要轉換。 使用電子郵件、推播通知或 Facebook 廣告。
+在下層漏斗分析中，假設人們已經知道您的品牌，而您希望他們進行轉換。 使用電子郵件、推播通知或 Facebook 廣告。
 
 ## 以規則為基礎的歸因
 
@@ -72,6 +79,6 @@ ht-degree: 63%
 ## 其他考量
 
 * 您可能需要使用資料科學家的服務，而非僅仰賴 Analysis Workspace。
-* 您可以仰賴原始資料，就像在 Adobe 資料摘要中一樣。
+* 您可以仰賴原始資料，例如 Adobe 資料摘要。
 * 例如，如果您想要考量您的曝光數資料，可考慮使用[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。
 

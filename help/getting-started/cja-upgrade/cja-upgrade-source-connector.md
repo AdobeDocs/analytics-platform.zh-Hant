@@ -9,25 +9,34 @@ autotag-review: '2026-05-19T08:18:13.585Z'
 TQID: 'https://experienceleague.adobe.com/IQVDwcpMVnEa-dFXbNkpmHQRofC6d8z2ocf-PIaK--Q'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Administration
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: '758'
 ht-degree: 100%
-
 ---
-
 # 建立 Analytics 來源連接器和對應欄位 {#create-source-connector}
 
 <!-- markdownlint-disable MD034 -->
@@ -52,7 +61,7 @@ ht-degree: 100%
 
 ## 了解 Analytics 來源連接器如何讓歷史資料進入 Customer Journey Analytics
 
-您可以使用 Analytics 來源連接器，讓 Adobe Analytics 報告套裝資料進入 Adobe Experience Platform。 然後，這些資料可以用作 Customer Journey Analytics 的歷史資料。
+您可以使用 Analytics 來源連接器，將 Adobe Analytics 報告套裝資料匯入 Adobe Experience Platform。 然後，這些資料可以用作 Customer Journey Analytics 的歷史資料。
 
 此流程假設您[想要建立自訂結構描述以便與 Customer Journey Analytics Web SDK 實施一起使用](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)，因為您需要一個以您組織需求和所用特定 Platform 應用程式量身定制的精簡結構描述。
 
@@ -102,9 +111,9 @@ ht-degree: 100%
 
    1. 在「**[!UICONTROL 來源欄位]**」中，從 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 範本欄位組中選取一個 Adob&#x200B;&#x200B;e Analytics 欄位。 然後，在「**[!UICONTROL 目標欄位]**」中，選取要將其對應到的 XDM 結構描述自訂欄位。
 
-      由於 AppMeasurement 和 XDM 之間原本就有架構差異，並非所有 Adob&#x200B;&#x200B;e Analytics 欄位在 XDM 中都有對應的欄位。
+      由於 AppMeasurement 和 XDM 之間原本就有架構差異，並非所有 Adobe Analytics 欄位在 XDM 中都有對應的欄位。
 
-   1. 對於用來 Adob&#x200B;&#x200B;e Analytics 中收集資料的 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 範本欄位群組中，每個欄位都需要重複進行此程序。
+   1. 在 Adob&#x200B;&#x200B;e Analytics 中收集資料的 Adob&#x200B;&#x200B;e Analytics ExperienceEvent 範本欄位群組中，對每個欄位都需要重複執行此程序。
 
 1. 在右上角螢幕中，選取「**[!UICONTROL 下一步]**」。
 

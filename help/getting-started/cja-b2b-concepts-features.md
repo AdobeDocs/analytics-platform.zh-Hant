@@ -6,30 +6,43 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-TQID: https://experienceleague.adobe.com/pXiDvk--5tAJYGj8lfq7KQfVLQqVOePbBZqCXT10rZ0
+TQID: 'https://experienceleague.adobe.com/pXiDvk--5tAJYGj8lfq7KQfVLQqVOePbBZqCXT10rZ0'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9c87ce4fb30c7d1d66ce88174443369ef44a7377
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1545
+source-wordcount: '1592'
 ht-degree: 3%
-
 ---
-
 # B2B edition概念和功能
 
 本文說明在Customer Journey Analytics中常用的連線、識別碼、容器和資料集等概念。 以及Customer Journey Analytics B2B edition如何在這些概念中新增其他功能。
@@ -90,7 +103,7 @@ Customer Journey Analytics是圍繞三個容器的概念所建置：人員、工
 
 * **歸因**：您可以在[歸因面板](/help/analysis-workspace/c-panels/attribution.md)、[歸因元件設定](/help/data-views/component-settings/attribution.md)、[計算量度](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md)或自由表格[&#128279;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的欄中使用新的B2B容器。 帳戶回顧期間延長至13個月。
 
-* **視覺效果**： [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)、[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)、[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)和[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)視覺效果支援新的B2B容器。例如：您可以使用新的容器來瞭解購買群組如何耗用內容，或機會同類群組如何接近銷售結尾。
+* **視覺效果**： [流失](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)、[流量](/help/analysis-workspace/visualizations/c-flow/flow.md)、[歷程畫布](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)和[同類群組表格](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)視覺效果支援新的B2B容器。 例如：您可以使用新的容器來瞭解購買群組如何耗用內容，或機會同類群組如何接近銷售結尾。
 您也可以在[使用者偏好設定](/help/analysis-workspace/user-preferences.md#visualizations-preferences)中設定這些視覺效果的預設容器。
 
 區段、歸因和視覺效果以及B2B容器可支援您進行深入的B2B分析和深入分析。

@@ -5,28 +5,39 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-TQID: https://experienceleague.adobe.com/DhV4VNrG4WR1iQP9VqjvV16iEpfShbBir7N1JfeRbCM
+TQID: 'https://experienceleague.adobe.com/DhV4VNrG4WR1iQP9VqjvV16iEpfShbBir7N1JfeRbCM'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
+    internal-label: Data management
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: '2375'
 ht-degree: 15%
-
 ---
-
 # 映象並使用關聯式資料
 
 本快速入門手冊說明如何使用[適用於Customer Journey Analytics的Experience Platform Data Mirror](data-mirror.md)，從Adobe Experience Platform的Data Warehouse原生解決方案映象關聯資料。 然後將這些資料用於Customer Journey Analytics。
@@ -51,7 +62,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->本快速入門手冊是一份簡化的指南，說明如何在Adobe Experience Platform中映象關聯式資料，以及在Customer Journey Analytics中使用該資料。 強烈建議在提及時研究其他資訊。
+>本快速入門手冊是一份簡化的指南，說明如何在Adobe Experience Platform中映象關聯式資料，以及在Customer Journey Analytics中使用該資料。 強烈建議在文中提及時參閱其他資訊。
 
 {{relational-model-based}}
 
@@ -227,15 +238,15 @@ Data Warehouse原生解決方案表格中的資料，已可供用於Customer Jou
 
 * 已設定Google BigQuery的帳戶時&#x200B;**[!UICONTROL 現有帳戶]**。 繼續進行[選取資料](#select-data)步驟。
 * 需要連線到Google BigQuery時&#x200B;**[!UICONTROL 新帳戶]**。
-   1. 指定&#x200B;**[!UICONTROL 帳戶名稱]**&#x200B;和（選擇性） **[!UICONTROL 描述]**。
-   1. 選取您的&#x200B;**[!UICONTROL 驗證型別]**： **[!UICONTROL 基本驗證]**&#x200B;或&#x200B;**[!UICONTROL 服務驗證]**。 根據您的選擇，提供所需的輸入。
-   1. 選取&#x200B;**[!UICONTROL 連線至來源]**
+  1. 指定&#x200B;**[!UICONTROL 帳戶名稱]**&#x200B;和（選擇性） **[!UICONTROL 描述]**。
+  1. 選取您的&#x200B;**[!UICONTROL 驗證型別]**： **[!UICONTROL 基本驗證]**&#x200B;或&#x200B;**[!UICONTROL 服務驗證]**。 根據您的選擇，提供所需的輸入。
+  1. 選取&#x200B;**[!UICONTROL 連線至來源]**
 
-      ![Google BigQuery — 驗證](assets/googlebg-authentication.png)
+     ![Google BigQuery — 驗證](assets/googlebg-authentication.png)
 
-      已驗證您的連線。 ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL Connected]**&#x200B;表示連線成功。
+     已驗證您的連線。 ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL Connected]**&#x200B;表示連線成功。
 
-   1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
+  1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
 
   請參閱Experience Platform檔案，以取得當您使用[Azure Databricks](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/databricks)或[Snowflake](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)聯結器時，如何連線及驗證的詳細資料。
 

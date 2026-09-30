@@ -5,19 +5,29 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 hide: true
-source-git-commit: e1c7ffa9a2ac58717ee0050d4e7019b6f3f94518
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+subfeature_v2:
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2474'
 ht-degree: 13%
-
 ---
-
 # 共用查詢
 
 在Customer Journey Analytics中，查詢資料集可透過其他內容豐富您的事件資料。 例如，將產品名稱、類別和價格新增至購買事件的產品目錄資料集。 或是將行銷活動詳細資料新增至行銷活動的行銷活動中繼資料資料集。
 
 查閱可讓您使用未儲存在事件本身中的屬性來報告事件資料。
-傳統上，查詢資料集會透過單一固定路徑聯結至事件。事件資料集中的關鍵欄位與查詢資料集中的關鍵欄位匹配。當只有一種方式可讓兩個資料集產生關聯時，此查詢即可運作，但在常見的實際情況中，此簡單連結會失效：
+傳統上，查詢資料集會透過單一固定路徑聯結至事件。 事件資料集中的關鍵欄位與查詢資料集中的關鍵欄位匹配。 當只有一種方式可讓兩個資料集產生關聯時，此查詢即可運作，但在常見的實際情況中，此簡單連結會失效：
 
 * 視事件來源而定，產品SKU或產品ID上的聯結至事件的產品目錄。
 * 視管道（網頁事件的電子郵件、店內事件的熟客ID）而定，與不同身分名稱空間上的事件聯結的使用者屬性查閱。
@@ -96,7 +106,7 @@ ht-degree: 13%
 
 >[!TAB 事件]
 
-| 時間戳記 | 個人 ID | 帳戶 ID | 全域帳戶 ID | 機會 ID | 頁面 |
+| 時間戳記 | 人員 ID | 帳戶 ID | 全域帳戶 ID | 機會 ID | 頁面 |
 |---|---|---|---|---|---|
 | 2025-01-29 07:01:57 | P-ABC | A-123 | A-123 | O-432 | 首頁 |
 | 2025-02-28 05:32:13 | P-ABC | A-123 | A-123 | O-432 | 小工具集 |
@@ -107,7 +117,7 @@ ht-degree: 13%
 
 >[!TAB 輪廓]
 
-| 個人 ID | 名稱 | 帳戶 ID | 全域帳戶 ID |
+| 人員 ID | 名稱 | 帳戶 ID | 全域帳戶 ID |
 |---|---|---|---|
 | P-ABC | John | A-123 | A-123 |
 | P-EFG | Kate | A-123 | A-123 |
@@ -124,7 +134,7 @@ ht-degree: 13%
 
 >[!TAB 機會設定檔]
 
-| 個人 ID | 機會 ID | 全域帳戶 ID |
+| 人員 ID | 機會 ID | 全域帳戶 ID |
 |---|---|---|
 | P-ABC | O-432 | A-123 |
 | P-ABC | O-543 | A-123 |
@@ -168,7 +178,7 @@ ht-degree: 13%
 
 >[!TAB 事件資料]
 
-| 時間戳記 | 個人 ID | 帳戶 ID | 全域帳戶 ID | 機會ID ![連結](/help/assets/icons/Link.svg) | 頁面 |
+| 時間戳記 | 人員 ID | 帳戶 ID | 全域帳戶 ID | 機會ID ![連結](/help/assets/icons/Link.svg) | 頁面 |
 |---|---|---|---|---|---|
 | 2025-01-29 07:01:57 | P-ABC | A-123 | A-123 | **O-432** | 首頁 |
 | 2025-02-28 05:32:13 | P-ABC | A-123 | A-123 | **O-432** | 小工具集 |
@@ -201,7 +211,7 @@ ht-degree: 13%
 
 >[!TAB 事件]
 
-| 時間戳記 | 個人 ID | 帳戶ID ![連結](/help/assets/icons/Link.svg) | 全域帳戶 ID | 機會 ID | 頁面 |
+| 時間戳記 | 人員 ID | 帳戶ID ![連結](/help/assets/icons/Link.svg) | 全域帳戶 ID | 機會 ID | 頁面 |
 |---|---|---|---|---|---|
 | 2025-01-29 07:01:57 | P-ABC | **A-123** | A-123 | O-432 | 首頁 |
 | 2025-02-28 05:32:13 | P-ABC | **A-123** | A-123 | O-432 | 小工具集 |
@@ -282,7 +292,7 @@ ht-degree: 13%
 
 >[!TAB 事件]
 
-| 時間戳記 | 個人 ID | 帳戶 ID | 全域帳戶 ID | 機會ID ![連結](/help/assets/icons/Link.svg) | 頁面 |
+| 時間戳記 | 人員 ID | 帳戶 ID | 全域帳戶 ID | 機會ID ![連結](/help/assets/icons/Link.svg) | 頁面 |
 |---|---|---|---|---|---|
 | 2025-01-29 07:01:57 | P-ABC | **A-123** | A-123 | **O-432** | 首頁 |
 | 2025-02-28 05:32:13 | P-ABC | **A-123** | A-123 | **O-432** | 小工具集 |
@@ -314,7 +324,7 @@ ht-degree: 13%
 
 >[!TAB 輪廓]
 
-| 個人 ID | 名稱 | 帳戶ID ![連結](/help/assets/icons/Link.svg) | 全域帳戶 ID |
+| 人員 ID | 名稱 | 帳戶ID ![連結](/help/assets/icons/Link.svg) | 全域帳戶 ID |
 |---|---|---|---|
 | P-ABC | John | **A-123** | A-123 |
 | P-EFG | Kate | **A-123** | A-123 |

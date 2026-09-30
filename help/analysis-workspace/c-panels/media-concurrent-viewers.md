@@ -4,27 +4,35 @@ description: 瞭解如何使用和解讀Analysis Workspace中的「媒體同時�
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-TQID: https://experienceleague.adobe.com/IkzScFK8pyrB-ejW-Kjtgwm-A5XfdLSR-5JqrU30EGw
+TQID: 'https://experienceleague.adobe.com/IkzScFK8pyrB-ejW-Kjtgwm-A5XfdLSR-5JqrU30EGw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
+    internal-label: Workspace panels
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Troubleshooting
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1211
+source-wordcount: '1215'
 ht-degree: 90%
-
 ---
-
 # 媒體同時檢閱者面板 {#media-concurrent-viewers-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -32,7 +40,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_button"
 >title="媒體同時檢視者"
->abstract="建立面板以分析特定時段內的同時檢閱者。"
+>abstract="建立面板以分析特定時段內的同時觀眾數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,7 +49,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="媒體同時檢視者"
->abstract="分析特定時間內的同時檢閱者、檢視同時檢閱最高人數，並可以選擇使用區段、維度、維度項目或日期範圍進行劃分與比較。"
+>abstract="分析特定時間內的同時觀看者、檢視同時觀看最高人數，並可以選擇使用區段、維度、維度項目或日期範圍進行劃分與比較。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -64,7 +72,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 
 您可以分析同時觀看人數，以了解發生尖峰期同時觀看人數或客戶流失的時間，以針對內容品質和檢視者參與度提供寶貴洞察。 並有助於疑難排解或完成數量和規模的相關規劃。
 
-在 Analysis Workspace 中，同時檢視者量度為在特定時間點檢視您媒體串流的不重複人員數量，而不計工作階段數量。
+在 Analysis Workspace 中，「同時觀眾數」量度為在特定時間點檢視您媒體串流的不重複人員數量，而不計工作階段數量。
 
 
 >[!BEGINSHADEBOX]
@@ -94,8 +102,8 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 | 設定 | 說明 |
 |---|---|
 | **[!UICONTROL 面板日期範圍]** | 面板的日期範圍預設為「今天」。  您可編輯為一次檢視一天或多個月。<br> <br>此視覺效果僅限 1440 列資料 (例如以分鐘為最小顆粒度測量 24 小時)。  如果日期範圍和顆粒度組合結果超過 1440 行，則顆粒度會自動更新以符合完整的日期範圍。 |
-| **[!UICONTROL 顆粒度]** | 詳細程度的預設為「分鐘」。<br>此視覺效果限製為1440列資料（例如，以分鐘為詳細程度測量24小時）。  如果日期範圍和顆粒度組合結果超過 1440 行，則顆粒度會自動更新以符合完整的日期範圍。 |
-| **[!UICONTROL 面板摘要數字]** | 若要查看同時檢閱者的日期或時間詳細資訊，可使用累加數。 「最大值」是顯示尖峰同時檢閱的詳細資訊。 **[!UICONTROL 最小值]**&#x200B;會顯示低谷期的詳細資訊。  面板預設僅會顯示「最大值」，但您可以將其變更為顯示「最小值」或「最大值」與「最小值」兩者。<br><br>如果您使用劃分，則會為每一項顯示摘要數字。 |
+| **[!UICONTROL 顆粒度]** | 詳細程度的預設為「分鐘」。<br>此視覺效果限製為1440列資料（例如，以分鐘為詳細程度測量24小時）。  如果日期範圍和顆粒度的組合產生超過 1440 行，則顆粒度會自動更新以符合完整的日期範圍。 |
+| **[!UICONTROL 面板摘要數字]** | 若要查看同時觀看者的日期或時間詳細資訊，可使用摘要數字。 「最大值」會顯示同時觀看人數高峰的詳細資訊。 **[!UICONTROL 最小值]**&#x200B;會顯示低谷期的詳細資訊。  面板預設僅會顯示「最大值」，但您可以將其變更為顯示「最小值」或「最大值」與「最小值」兩者。<br><br>如果您使用劃分，則會為每一項顯示摘要數字。 |
 | **[!UICONTROL 序列劃分]** | 您可視需要將視覺效果依照區段、維度、維度項目或日期範圍劃分。<br>您一次最多可檢視 10 行。 劃分限於單一層級。<br>拖曳維度時，系統將根據選取面板日期範圍自動選取最熱門的維度項目。<br>若要比較日期範圍，請將 2 個或多個日期範圍拖放到序列劃分區段。 |
 
 以下為&#x200B;**[!UICONTROL 僅包含最大值]**&#x200B;摘要數字的「**[!UICONTROL 分鐘]**」顆粒度的面板設定範例。 並根據&#x200B;**[!UICONTROL 其他]**、**[!UICONTROL 表格]**、**[!UICONTROL 行動電話]**、**[!UICONTROL 遊戲主機]**、**[!UICONTROL 媒體播放器]**、**[!UICONTROL 電視盒]**、**[!UICONTROL 電視]**&#x200B;進行劃分。
@@ -104,11 +112,11 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 
 ### 面板輸出
 
-「媒體同時檢閱者」面板會傳回一個線圖和累加數，以含有最大和/或最小同時檢閱者的詳細資訊。  面板頂端會提供一個摘要行，為您提示您所選取的面板設定。
+「媒體同時檢閱者」面板會傳回一個線圖和累加數，以含有最大和/或最小同時檢閱者的詳細資訊。  面板頂端會提供一個摘要行，提醒您所選取的面板設定。
 
 隨時可選取「![編輯媒體同時檢視者面板](/help/assets/icons/Edit.svg)」，以編輯和重建面板。
 
-如果您已選取序列劃分、折線圖上的一條線，則會顯示每項摘要數字：
+如果您選取序列劃分，則會為每個劃分顯示折線圖上的一條線和一個摘要數字：
 
 ![媒體同時檢視者輸出。](assets/concurrent-viewers-output.png)
 
@@ -129,14 +137,14 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 | 問題 | 回答 |
 |---|---|
 | 自由格式表格在哪裡？ 我如何可看到資料來源？ | 本檢視中無法使用自由格式表格。  您可以從折線圖內容選單下載資料來源，然後選取「**[!UICONTROL 將資料下載為 CSV]**」。 |
-| 我的顆粒度為何會變更？ | 此視覺效果僅限 1440 列資料 (例如以分鐘為最小顆粒度測量 24 小時)。  如果日期範圍和顆粒度組合結果超過 1440 列，則顆粒度會自動更新以符合完整的日期範圍。<br><br>從較大的日期範圍變更至較小的日期範圍時，一旦日期範圍變更，顆粒度將更新至允許的最低顆粒度。 若要檢視更高的顆粒度，請編輯面板並重建。 |
-| 我該如何比較影片名稱、區段、內容類型和其他內容？ | 若要在單一視覺效果中比較這些項目，可將區段、維度或特定維度項目拖曳至序列劃分區段內。<br><br>此檢視限於 10 項劃分。  若要檢視超過 10 項，您必須使用多個面板。 |
+| 我的顆粒度為何會變更？ | 此視覺效果僅限 1440 列資料 (例如 24 小時的分鐘層級顆粒度)。  如果日期範圍和顆粒度組合結果超過 1440 列，則顆粒度會自動更新以符合完整的日期範圍。<br><br>從較大的日期範圍變更至較小的日期範圍時，一旦日期範圍變更，顆粒度將更新至允許的最低顆粒度。 若要檢視更高的顆粒度，請編輯面板並重建。 |
+| 我該如何比較影片名稱、區段、內容類型和其他項目？ | 若要在單一視覺效果中比較這些項目，可將區段、維度或特定維度項目拖曳至序列劃分區段內。<br><br>此檢視限於 10 項劃分。  若要檢視超過 10 項，您必須使用多個面板。 |
 | 我如何比較日期範圍？ | 若要比較單一視覺效果中的日期範圍，可拖動 2 個或多個日期範圍並使用序列劃分篩選器。  此日期範圍將覆寫面板日期範圍。 |
 | 如何改變視覺效果類型？ | 此面板僅允許進行時間序列的線圖視覺效果。 |
 | 我是否可執行異常偵測？ | 否。  異常偵測不適用於此面板。 |
 | 為什麼使用不重複人員而非使用中的工作階段？ | 使用不重複人員會移除顯示邊界 (工作階段同時結束和開始所在處) 不需要的「尖峰」。 |
 | 讓同時檢閱者檢閱的顆粒度高於分鐘是什麼意思？ | 以大於一分鐘為顆粒度的單位時，同時檢閱者人數是指該時間範圍內所有分鐘數的不重複同時檢閱者的總和。  例如，以一小時層級為顆粒度的同時檢視者，其人數是指這小時所有分鐘數的不重複同時檢視者之總和。 |
-| Workspace 面板是否會顯示與「同時檢閱者報告」相同的資訊？ | 否。  在 Analysis Workspace 中，「同時檢視者」量度定義為在特定時間點檢視您媒體串流的不重複人員數量。 而不計工作階段數量。<br><br>此量度與「報告」區段中使用「同時作用中工作階段」的「同時檢視者」報告不同。 使用不重複人員可移除顯示邊界 (工作階段同時結束和開始所在處) 不需要的「尖峰」。 |
+| Workspace 面板是否會顯示與「同時檢閱者報告」相同的資訊？ | 否。  在 Analysis Workspace 中，「同時檢視者」量度定義為在特定時間點檢視您媒體串流的不重複人員數量。 而不計工作階段數量。<br><br>此量度與「報告」區段中使用「同時作用中工作階段」的「同時檢視者」報告不同。 使用不重複人員帳移除節目邊界 (工作階段同時結束和開始所在處) 不需要的「尖峰」。 |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
 

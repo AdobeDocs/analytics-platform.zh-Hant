@@ -4,27 +4,35 @@ description: 瞭解如何深入瞭解您的對象資料，並透過同類群組�
 feature: Visualizations
 exl-id: 3e3a70cd-70ec-4d4d-81c3-7902716d0b01
 role: User
-TQID: https://experienceleague.adobe.com/3WB5sKKSaLe9VvAe6rlCTUqDYsG3kiqLCN-KaEtIlDw
+TQID: 'https://experienceleague.adobe.com/3WB5sKKSaLe9VvAe6rlCTUqDYsG3kiqLCN-KaEtIlDw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: addf009e-030a-4310-8534-776a3e62ed48
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Customer lifecycle
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '754'
 ht-degree: 89%
-
 ---
-
 # 同類群組表格概觀 {#cohort-table-overview}
 
 <!-- markdownlint-disable MD034 -->
@@ -61,7 +69,7 @@ _本文記錄了_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 * Launch促銷活動專為刺激所需動作而設計。
 * 在客戶生命週期的正確時間轉移行銷預算。
-* 識別何時終止試用版或產品建議，以價值最大化。
+* 識別何時結束試用或產品建議，以將價值最大化。
 * 獲得定價、升級路徑等領域的 A/B 測試相關想法。
 
 所有具有 [!UICONTROL Analysis Workspace] 存取權限的 Customer Journey Analytics 客戶，皆可使用[!UICONTROL 同類群組表格]。

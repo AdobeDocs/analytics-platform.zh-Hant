@@ -5,33 +5,49 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-TQID: https://experienceleague.adobe.com/HdeLAq13nYEHMV5ns75gTgux9KKRE0on5TiMRw6ZHoo
+TQID: 'https://experienceleague.adobe.com/HdeLAq13nYEHMV5ns75gTgux9KKRE0on5TiMRw6ZHoo'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: f21d8c43-b886-433b-93ea-5982cbfc16b7
+    internal-label: FAQ
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
+    internal-label: Personalization
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 2320
+source-wordcount: '2323'
 ht-degree: 95%
-
 ---
-
 # 常見問題集
 
 Adobe Customer Journey Analytics 是新一代的分析產品。 本文章提供有關 Customer Journey Analytics 常見問題的解答。 如需詳細資訊，請參閱「[Customer Journey Analytics 功能支援](/help/getting-started/aa-vs-cja/cja-aa.md)」。
@@ -78,7 +94,7 @@ Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.c
 
 +++**拼接中的「重播」是如何運作的？**
 
-拼接會根據所掌握的唯一識別碼來「重播」資料。 重播的目的是從已識別的裝置中拼接最初未經身分驗證的事件。 [了解更多](../stitching/overview.md)
+拼接會根據所掌握的唯一識別碼來「重播」資料。 重播旨在拼接那些最初未經身分驗證、但其所屬裝置在此期間已被識別的事件。 [了解更多](../stitching/overview.md)
 
 +++
 
@@ -152,7 +168,7 @@ Customer Journey Analytics 包含[資料準備](https://experienceleague.adobe.c
 
 >[!NOTE]
 >
->Customer Journey Analytics 中沒有固定的資料大小，因此 Adobe 無法指定標準的擷取時間。 Adobe 正在積極努力透過新的更新和擷取最佳化來減少這些延遲。
+>Customer Journey Analytics 中沒有固定的資料大小，因此 Adobe 無法指定標準的擷取時間。 Adobe 正在積極努力透過新的更新和攝取最佳化來減少這些延遲。
 
 * 即時資料或事件：資料可在 Adobe Experience Platform 上使用時，在 90 分鐘內完成處理和擷取。 （批次大小> 5千萬列：90分鐘以上。） 如果啟用拼接，擷取最多可能需要4小時。 如需詳細資料，請參閱[護欄](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/guardrails)。
 * 小量回填：七天內
@@ -250,7 +266,7 @@ For data deletion, you should be concerned about six types of components: sandbo
 
 Adobe 會定期監控和執行使用量限額。 「資料列」指可用於 Customer Journey Analytics 中分析的每日平均資料列。
 
-例如，您的合約讓您有權使用 100 萬筆資料列。 假設在使用 Customer Journey Analytics 的第 1 天，您可以上傳 200 萬筆資料列。 您在第 2 天刪除 100 萬筆資料列，並在剩餘的授權期限內將使用量維持在承諾的最大使用量 (亦即 100 萬筆資料列) 以內。 根據您的合約條款，由於您超出了「資料列」授權權利，您仍然可能需支付按比例計算的第 1 天超額使用費。
+例如，您的合約讓您有權使用 100 萬筆資料列。 假設在使用 Customer Journey Analytics 的第 1 天，您上傳了 200 萬筆資料列。 您在第 2 天刪除 100 萬筆資料列，並在剩餘的授權期限內將使用量維持在承諾的最大使用量 (亦即 100 萬筆資料列) 以內。 根據您的合約條款，由於您超出了「資料列」授權額度，您仍然可能需支付按比例計算的第 1 天超額使用費。
 
 ## &#x200B;11. 診斷資料差異 {#discrepancies}
 
@@ -267,17 +283,17 @@ Adobe 會定期監控和執行使用量限額。 「資料列」指可用於 Cus
 
 ## &#x200B;12. 地區資料收集
 
-Adobe CX Enterprise使用地區資料收集(RDC)，因此訪客與Adobe及非Adobe解決方案之間的互動，會儘可能靠近訪客。 資料在資料收集中心 (DCC，也稱為 Edge 網站，是 Platform Edge Network 的一部分) 以區域方式收集之後，會依據資料流和/或事件轉送的設定，透過安全連線轉送給相關解決方案。
+Adobe CX Enterprise使用地區資料收集(RDC)，因此訪客與Adobe及非Adobe解決方案之間的互動，會儘可能靠近訪客進行。 資料在資料收集中心 (DCC，也稱為 Edge 網站，是 Platform Edge Network 的一部分) 以區域方式收集之後，會依據資料流和/或事件轉送的設定，透過安全連線轉送給相關解決方案。
 
 ![使用 Edge Network 的資料流](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
-區域資料收集流程使用以下步驟：
+區域資料彙集流程使用以下步驟：
 
 1. DNS 會自動將收集主機名稱解析為最接近訪客的資料收集中心的 IP 位址。
 1. 訪客將資料傳送至該位置。
 1. 資料立即透過安全連線轉送到資料流或事件轉送設定所定義的解決方案。
 
-使用區域資料收集有幾個優點：
+使用區域資料彙集有幾個優點：
 
 * **效能**：透過 RDC，訪客可連接至最近的 DCC。 此最佳化可提供最快的回應時間，進而實現更準確的追蹤並加快載入時間。
 * **備援**：如果 DCC 與 DPC 之間的通訊發生中斷，Adobe 的 RDC 基礎結構會在本機儲存資料，然後在通訊還原時將資料轉送至 DPC。

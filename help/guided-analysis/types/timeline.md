@@ -5,29 +5,43 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 產品分析
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-TQID: https://experienceleague.adobe.com/17wzuDrTYs5VGC85jXh3eacQKO0-590t0K-XfggT6D4
+TQID: 'https://experienceleague.adobe.com/17wzuDrTYs5VGC85jXh3eacQKO0-590t0K-XfggT6D4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
+  - id: d494f34f-674c-496a-a400-b33552b95463
+    internal-label: Adobe Product Analytics
+  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
+    internal-label: Privacy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '583'
 ht-degree: 100%
-
 ---
-
 # [!UICONTROL 時間軸]分析 {#timeline}
 
 <!-- markdownlint-disable MD034 -->
@@ -39,7 +53,7 @@ ht-degree: 100%
 
 <!-- markdownlint-enable MD034 -->
 
-![時間軸](/help/assets/icons/Timeline.svg) **[!UICONTROL 時間軸]**&#x200B;分析可讓您觀察一段時間內使用者層級工作階段事件，以找到體驗模式並講述更好的使用者故事。 左側邊欄可讓您按屬性值和區段篩選資料流。 右側邊欄可讓您從符合篩選條件的隨機使用者清單中選取。 中心區域會依工作階段顯示所選使用者的資料流，包括時間戳記、屬性值和持續時間。 特定工作階段中最後一個事件不適用持續時間。
+![時間軸](/help/assets/icons/Timeline.svg) **[!UICONTROL 時間軸]**&#x200B;分析可讓您觀察一段時間內使用者層級工作階段事件，以找到體驗模式並講述更好的使用者故事。 左側邊欄可讓您按屬性值和區段篩選資料流。 右側邊欄可讓您從符合篩選條件的隨機使用者清單中選取。 中心區域會依工作階段顯示所選使用者的資料流，包括時間戳記、屬性值和持續時間。 特定工作階段中的最後一個事件沒有期間資料。
 
 
 >[!NOTE]
@@ -68,7 +82,7 @@ ht-degree: 100%
 
 查詢邊欄允許您設定以下元件：
 
-* **[!UICONTROL 維度]**：您想要查看的資料流值維度。 中心資料流會顯示所選維度的值。 您也可以套用篩選器來縮小資料流的範圍，即可取得更相關的資料。 篩選器的有效運算子包括[!UICONTROL 等於]、[!UICONTROL 不等於]、[!UICONTROL 開頭為]、[!UICONTROL 結尾為]、[!UICONTROL 包含]、[!UICONTROL 不包含]、[!UICONTROL 存在]和[!UICONTROL 不存在]。
+* **[!UICONTROL 維度]**：您想要查看的資料流值維度。 中央區域中的串流會顯示所選維度的值。 您也可以套用篩選器來縮小資料流的範圍，以取得更相關的資料。 篩選器的有效運算子包括[!UICONTROL 等於]、[!UICONTROL 不等於]、[!UICONTROL 開頭為]、[!UICONTROL 結尾為]、[!UICONTROL 包含]、[!UICONTROL 不包含]、[!UICONTROL 存在]和[!UICONTROL 不存在]。
 * **[!UICONTROL 區段]**：您要分析的區段。 選取的區段會篩選您的資料，以便只著重符合您區段條件的個人。 如果您想將分析範圍縮小到特定的個人 ID，您可以在右側面板中篩選該個人 ID。 此分析支援一個區段。
 
 ### 圖表設定
@@ -76,9 +90,9 @@ ht-degree: 100%
 [!UICONTROL 時間軸]分析提供以下圖表設定；此設定可在圖表上方的選單中調整：
 
 * **[!UICONTROL 顯示為]**：顯示所需的屬性值。
-   * [!UICONTROL 顯示全部]：顯示工作階段中所有屬性值。
-   * [!UICONTROL 醒目顯示]：以視覺效果醒目顯示工作階段中與查詢篩選器匹配的屬性值。
-   * [!UICONTROL 僅檢視]：僅會顯示工作階段中與查詢篩選器相符的屬性值。
+  * [!UICONTROL 顯示全部]：顯示工作階段中所有屬性值。
+  * [!UICONTROL 醒目顯示]：以視覺效果醒目顯示工作階段中與查詢篩選器匹配的屬性值。
+  * [!UICONTROL 僅檢視]：僅會顯示工作階段中與查詢篩選器相符的屬性值。
 
 ### 日期範圍
 

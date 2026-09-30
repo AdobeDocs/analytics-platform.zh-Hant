@@ -9,26 +9,36 @@ autotag-review: '2026-05-19T08:11:57.362Z'
 TQID: 'https://experienceleague.adobe.com/mu-yJABb7bfRMW6Kn5DBUZuSxggVyIUeOeGQHMgxetM'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Administration
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 818
+source-wordcount: '818'
 ht-degree: 100%
-
 ---
-
 # 建立查詢資料集將 Customer Journey Analytics 的資料分類 {#upgrade-lookup-dataset}
 
 <!-- markdownlint-disable MD034 -->
@@ -108,7 +118,7 @@ ht-degree: 100%
 
 1. 選取「**[!UICONTROL 下一步]**」
 
-1. 檔案上傳後，檢視對應以確保資料準確無誤。 CSV 檔案的欄列在&#x200B;**[!UICONTROL 來源資料]**&#x200B;下面，且其對應的 XDM 結構描述欄位列在&#x200B;**[!UICONTROL 目標欄位]**&#x200B;下面。
+1. 檔案上傳後，請檢視對應以確保正確。 CSV 檔案的欄列在&#x200B;**[!UICONTROL 來源資料]**&#x200B;下面，且其對應的 XDM 結構描述欄位列在&#x200B;**[!UICONTROL 目標欄位]**&#x200B;下面。
 
    Platform 會根據您選取的目標結構描述或資料集，為自動對應欄位自墧提供智慧建議。 您可以手動調整對應規則，以配合您的使用案例。
 

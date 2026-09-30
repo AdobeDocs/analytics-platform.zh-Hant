@@ -9,23 +9,32 @@ autotag-review: '2026-05-19T09:50:41.180Z'
 TQID: 'https://experienceleague.adobe.com/EvPGghY3E7eoiJb6TcWnaOhneS6oQJj4bcwU3K2v3Ng'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+    internal-label: Analytics integration
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 366
+source-wordcount: '366'
 ht-degree: 1%
-
 ---
-
 # 搭配Customer Journey Analytics使用量子量度熱度圖
 
 將Quantum量度熱度對應連結至CJA資料，可讓您更瞭解頁面層級的參與，並根據消費者行為將頁面最佳化。 Workspace可用來了解消費者使用者流程，以及了解消費者在不同頁面間遵循哪些路徑。 然後，您可以按一下超連結的頁面URL，以視覺化熱度圖形式呈現使用者如何與內容互動。 將Quantum Metric Heatmapping連結至CJA，您現在可以將頁面層級的互動與業務結果建立關聯，將您的分析提升到新的境界。
