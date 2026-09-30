@@ -64,14 +64,14 @@ ht-degree: 1%
    1. 選取&#x200B;**[!UICONTROL 產品名稱]**。
    1. 選取&#x200B;**[!UICONTROL 發生次數總和]**。
 
-您看到顯示擷取此視覺效果&#x200B;]**資料的**[!UICONTROL &#x200B;錯誤的視覺效果。
+您看到顯示擷取此視覺效果&#x200B;**資料的**&#x200B;錯誤的視覺效果。
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
 
-   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 篩選器名稱為（全部）]**。
+   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 篩選器名稱為（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 基本篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 在&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位底下，選取&#x200B;**[!UICONTROL 釣魚產品]**，這是Customer Journey Analytics中定義的現有篩選的名稱。
-   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
+   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 進階篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 在]** `1/1/2023` **[!UICONTROL 且]** **[!UICONTROL 在]** `2/1/2023`之前時顯示專案。
    1. 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以從&#x200B;**[!UICONTROL 資料行]**&#x200B;移除&#x200B;**[!UICONTROL filterName]**。

@@ -33,7 +33,7 @@ ht-degree: 1%
 ---
 # 使用維度值進行細分
 
-您使用&#x200B;**[!UICONTROL 產品類別]**&#x200B;的動態&#x200B;**[!UICONTROL 狩獵]**值，從狩獵類別中劃分產品。 或者，對於不支援動態擷取產品類別值的BI工具，您可以在Customer Journey Analytics中建立新的區段，對搜尋產品類別中的產品進行區段。
+您使用&#x200B;**[!UICONTROL 產品類別]**&#x200B;的動態&#x200B;**[!UICONTROL 狩獵]**&#x200B;值，從狩獵類別中劃分產品。 或者，對於不支援動態擷取產品類別值的BI工具，您可以在Customer Journey Analytics中建立新的區段，對搜尋產品類別中的產品進行區段。
 然後，您想要使用新區段，報告2023年1月期間，搜尋類別中產品的產品名稱和發生次數（事件）。
 
 +++ Customer Journey Analytics
@@ -67,12 +67,12 @@ ht-degree: 1%
    1. 選取&#x200B;**[!UICONTROL 產品名稱]**。
    1. 選取&#x200B;**[!UICONTROL 發生次數總和]**。
 
-您看到顯示擷取此視覺效果&#x200B;]**資料的**[!UICONTROL &#x200B;錯誤的視覺效果。
+您看到顯示擷取此視覺效果&#x200B;**資料的**&#x200B;錯誤的視覺效果。
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
-   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 篩選器名稱為（全部）]**。
+   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 篩選器名稱為（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 基本篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
-   1. 在此視覺效果&#x200B;]**上選取**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
+   1. 在此視覺效果&#x200B;**上選取**&#x200B;篩選器中的&#x200B;**[!UICONTROL 日期範圍是（全部）]**。
    1. 選取&#x200B;**[!UICONTROL 進階篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 在]** `1/1/2023` **[!UICONTROL 且]** **[!UICONTROL 在]** `2/1/2023`之前時顯示專案。
    1. 選取&#x200B;**[!UICONTROL 基本篩選器]**&#x200B;作為&#x200B;**[!UICONTROL product_category]**&#x200B;的&#x200B;**[!UICONTROL 篩選器型別]**，並從可能的值清單中選取&#x200B;**[!UICONTROL Hunting]**。

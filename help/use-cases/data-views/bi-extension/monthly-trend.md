@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
 
-   1. 從這個視覺效果&#x200B;]**上的**[!UICONTROL &#x200B;篩選條件中選取&#x200B;**[!UICONTROL daterangemonth is (All)]**。
+   1. 從這個視覺效果&#x200B;**上的**&#x200B;篩選條件中選取&#x200B;**[!UICONTROL daterangemonth is (All)]**。
    1. 選取&#x200B;**[!UICONTROL 進階篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 定義篩選器以&#x200B;**[!UICONTROL 當值]** **[!UICONTROL 位於或晚於]** `1/1/2023` **[!UICONTROL 且]** **[!UICONTROL 位於]** `1/1/2024.`時顯示專案。您可以使用行事曆圖示挑選和選取日期。
    1. 選取&#x200B;**[!UICONTROL 套用篩選器]**。

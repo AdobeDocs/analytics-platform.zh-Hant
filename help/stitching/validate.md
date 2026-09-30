@@ -98,7 +98,7 @@ ht-degree: 1%
 
 ![拼接概觀自由格式表格 — 電子郵件集](/help/stitching/assets/workspace-emailset.png)
 
-若要檢視在銜接程式之後設定電子郵件地址的事件，請定義計算量度`Email stitched namespace`。 該計算量度會檢視&#x200B;**[!UICONTROL 具有等於雜湊電子郵件名稱空間`email_lc_sha256`之**[!UICONTROL &#x200B;身分識別名稱空間&#x200B;]**的事件]**。
+若要檢視在銜接程式之後設定電子郵件地址的事件，請定義計算量度`Email stitched namespace`。 該計算量度會檢視&#x200B;**[!UICONTROL 具有等於雜湊電子郵件名稱空間`email_lc_sha256`之**&#x200B;[!UICONTROL &#x200B;身分識別名稱空間&#x200B;]&#x200B;**的事件]**。
 
 ![拼接總覽 — 電子郵件拼接的名稱空間計算量度](/help/stitching/assets/cm-email-stitched-namespace.png)
 
@@ -137,7 +137,7 @@ ht-degree: 1%
 * 使用`stitchedID.namespace.code`定義&#x200B;**[!UICONTROL 拼接的名稱空間]**&#x200B;維度。 此維度包含資料列已提升許可權之身分的名稱空間，例如`Email`或`Phone`。 或彙整程式退回的名稱空間，例如`ECID`。
   ![拼接的名稱空間維度](/help/stitching/assets/stitchednamespace-dimension.png)
 
-* 使用`stitchedID.id`定義&#x200B;**[!UICONTROL 彙整ID值]**&#x200B;維度。 此維度包含身分的原始值。 例如：雜湊電子郵件、雜湊電話、ECID。 此值搭配&#x200B;**[!UICONTROL 拼接的名稱空間]**使用。
+* 使用`stitchedID.id`定義&#x200B;**[!UICONTROL 彙整ID值]**&#x200B;維度。 此維度包含身分的原始值。 例如：雜湊電子郵件、雜湊電話、ECID。 此值搭配&#x200B;**[!UICONTROL 拼接的名稱空間]**&#x200B;使用。
   ![拼接識別碼維度](/help/stitching/assets/stitchedid-dimension.png)
 
 
@@ -145,10 +145,10 @@ ht-degree: 1%
 
 1. 使用包含拼接資料集中人員ID的欄位來設定量度，以定義是否設定了人員ID。 即使您使用圖表式拚接，也新增此人員ID，因為人員ID有助於建立基準。 如果人員ID未包含在資料集中，您的基準為0%。
 
-   在下列範例中，`personalEmail.address`做為身分識別，用來建立&#x200B;**[!UICONTROL _Email set]**量度。
+   在下列範例中，`personalEmail.address`做為身分識別，用來建立&#x200B;**[!UICONTROL _Email set]**&#x200B;量度。
    ![電子郵件集量度](/help/stitching/assets/emailset-metric.png)
 
-1. 使用`stitchedID.namespace.code`欄位來建立&#x200B;**[!UICONTROL 電子郵件拼接名稱空間]**&#x200B;量度。 請確定您在元件設定](/help/data-views/component-settings/include-exclude-values.md)中指定[包含排除值，因此您只會考慮您嘗試將資料列提升到的名稱空間值。
+1. 使用`stitchedID.namespace.code`欄位來建立&#x200B;**[!UICONTROL 電子郵件拼接名稱空間]**&#x200B;量度。 請確定您在元件設定[&#128279;](/help/data-views/component-settings/include-exclude-values.md)中指定包含排除值，因此您只會考慮您嘗試將資料列提升到的名稱空間值。
    1. 選取&#x200B;**[!UICONTROL 設定包含/排除值]**。
    1. 選取&#x200B;**[!UICONTROL 如果符合所有條件]**&#x200B;作為&#x200B;**[!UICONTROL 符合]**。
    1. 將&#x200B;**[!UICONTROL 等於]** `email`指定為&#x200B;**[!UICONTROL 條件]**，以選取已提升至電子郵件名稱空間的事件。
@@ -186,13 +186,13 @@ ht-degree: 1%
 
 您想要在拼接之前和之後測量識別效能。 若要這麼做，請建立三個額外的計算量度：
 
-1. **[!UICONTROL 拼接驗證率]**&#x200B;計算量度，計算在事件總數中，拼接名稱空間設定為所需身分的事件數量。 當您設定資料檢視時，已建立一個&#x200B;**[!UICONTROL 電子郵件拼接名稱空間]**&#x200B;量度，其中包含只有在事件的名稱空間設為電子郵件時才計數的篩選器。 計算量度使用此&#x200B;**[!UICONTROL 電子郵件拼接的名稱空間]**量度來指示資料中擁有所需身分的百分比。
+1. **[!UICONTROL 拼接驗證率]**&#x200B;計算量度，計算在事件總數中，拼接名稱空間設定為所需身分的事件數量。 當您設定資料檢視時，已建立一個&#x200B;**[!UICONTROL 電子郵件拼接名稱空間]**&#x200B;量度，其中包含只有在事件的名稱空間設為電子郵件時才計數的篩選器。 計算量度使用此&#x200B;**[!UICONTROL 電子郵件拼接的名稱空間]**&#x200B;量度來指示資料中擁有所需身分的百分比。
    ![拼接驗證率計算量度](/help/stitching/assets/calcmetric-stitchedauthenticationrate.png)
 
-1. **[!UICONTROL 百分比增加]**計算量度，可計算目前識別率與拼接識別率之間的原始百分比變化。
+1. **[!UICONTROL 百分比增加]**&#x200B;計算量度，可計算目前識別率與拼接識別率之間的原始百分比變化。
    ![百分比增加計算量度](/help/stitching/assets/calcmetric-percentincrease.png)
 
-1. 計算目前識別率與拼接識別率之間提升度的&#x200B;**[!UICONTROL 提升度]**計算量度。
+1. 計算目前識別率與拼接識別率之間提升度的&#x200B;**[!UICONTROL 提升度]**&#x200B;計算量度。
    ![提升計算量度](/help/stitching/assets/calcmetric-lift.png)
 
 

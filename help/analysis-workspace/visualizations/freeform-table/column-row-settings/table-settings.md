@@ -173,7 +173,7 @@ ht-degree: 53%
 
 * 將自由表格重設為修改前的狀態。
 
-  1. 選取&#x200B;**[!UICONTROL _維度名稱&#x200B;_（已修改）]**旁的![齒輪](/help/assets/icons/Gear.svg)。
+  1. 選取&#x200B;**[!UICONTROL _維度名稱&#x200B;_（已修改）]**&#x200B;旁的![齒輪](/help/assets/icons/Gear.svg)。
   1. 從&#x200B;**[!UICONTROL 已修改的列]**&#x200B;快顯視窗中選取&#x200B;**[!UICONTROL 重設已修改的列]**。
 
      ![重設自由表格](assets/popup-reset.png)

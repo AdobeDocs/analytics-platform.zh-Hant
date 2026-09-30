@@ -117,7 +117,7 @@ ht-degree: 41%
 
 ## 資料視圖
 
-每個面板都與一個[資料檢視](/help/data-views/data-views.md)相關聯。 您可以在面板右上方的下拉式功能表中識別資料檢視&#x200B;*]**&#x200B;的![資料](/help/assets/icons/Data.svg) **[!UICONTROL *名稱。
+每個面板都與一個[資料檢視](/help/data-views/data-views.md)相關聯。 您可以在面板右上方的下拉式功能表中識別資料檢視&#x200B;***&#x200B;的![資料](/help/assets/icons/Data.svg) &#x200B;***名稱。
 
 當您建立空白工作區專案時，初始面板的預設資料視圖是您上次在 Customer Journey Analytics 中使用的資料視圖。
 
@@ -160,7 +160,7 @@ ht-degree: 41%
      您可以選取方括弧中的文字（例如&#x200B;**[!UICONTROL 固定開始 — 每日滾動]**）來延伸面板，並指定&#x200B;**[!UICONTROL 開始]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;的詳細資料。
 
      1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
-     1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。 例如：**[!UICONTROL 結束於]****[!UICONTROL 今年]****[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
+     1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。 例如：**[!UICONTROL 結束於]**&#x200B;**[!UICONTROL 今年]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
         * 選取目前的值。 例如，**[!UICONTROL 目前的年份]**。
         * 選取一個值進行其他計算。 例如，**[!UICONTROL 加]**。
         * 當您指定其他計算時，請指定一個值。 例如，`1`。
@@ -168,8 +168,8 @@ ht-degree: 41%
 
      選取&#x200B;**[!UICONTROL 隱藏詳細資訊]**&#x200B;以隱藏遞延日期計算的詳細資訊。
 
-1. 選取&#x200B;**[!UICONTROL 套用]**將日期範圍套用至您呼叫行事曆的面板。
-選取**[!UICONTROL 套用至所有面板]**&#x200B;將日期範圍套用至 Workspace 專案中的所有面板。
+1. 選取&#x200B;**[!UICONTROL 套用]**&#x200B;將日期範圍套用至您呼叫行事曆的面板。
+選取&#x200B;**[!UICONTROL 套用至所有面板]**&#x200B;將日期範圍套用至 Workspace 專案中的所有面板。
 
 
 ## 下拉區域 {#dropzone}

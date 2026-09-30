@@ -74,7 +74,7 @@ ht-degree: 2%
 
 一旦Adobe客戶經理收到電子郵件，其中包含來自多個組織的Analytics資料對應請求，即會在Adobe中稽核該請求。 Adobe客戶經理若需任何其他問題、選用的培訓及其他資訊，請聯絡您。
 
-核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)的[清單中的報表套裝名稱。
+核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)的清單中的報表套裝名稱。
 
 
 ## 限制
