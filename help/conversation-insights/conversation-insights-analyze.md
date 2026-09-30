@@ -18,9 +18,33 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
 workflow-type: tm+mt
-source-wordcount: '12'
+source-wordcount: '132'
 ht-degree: 0%
 ---
 # 分析對話深入分析
+
+## 簡單分析
+
+若要分析交談深入分析，您可以在Analysis Workspace中建立或編輯專案，並使用其中一個已設定的資料檢視作為專案中一個或多個面板的資料檢視。
+
++++ 範例專案
+
+![交談深入分析的基本範例專案](assets/conversation-insights-analyze-sample-project-basic.png)
+
++++
+
+## 大規模分析交談內容與內容
+
+若要大規模分析對話，並在完整的客戶歷程中提供這些對話的內容：
+
+* 結合您的交談深入分析事件與其他事件資料集及其他設定檔和查詢資料集。 將這些資料集新增到您為「交談見解」設定選取的連線。
+* 新增其他元件（量度和維度）至您為對話深入分析設定選取的資料檢視。
+* ...
+
++++ 範例專案
+
+待定。
+
++++ 
