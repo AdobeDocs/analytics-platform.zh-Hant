@@ -18,15 +18,15 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 7%
+source-wordcount: '824'
+ht-degree: 20%
 ---
 # 建立或編輯組態
 
 對話深入解析可讓您從提供給客戶的代理程式體驗中分析對話。 這些代理程式體驗可以基於大型語言模型(LLM)或基於人類對話。 例如，和客戶或客服中心互動的聊天機器人紀錄。
-透過交談見解，您可以瞭解代表對實際使用者結果的影響。
+透過交談深入分析，您可以瞭解代理程式對實際使用者結果的影響。
 
 透過「交談見解」設定介面，您可以快速建立或編輯設定和相關的成品（連線、資料檢視等）。
 
@@ -114,7 +114,47 @@ ht-degree: 7%
 
 ## 資料檢視驗證
 
-（說明您從相關資料集中看到的量度和維度）
+您在[設定步驟](#configuration-steps)中設定的資料檢視，在[資料檢視](/help/data-views/manage-dataviews.md)中具有&#x200B;**[!UICONTROL 交談深入分析]**&#x200B;作為&#x200B;**[!UICONTROL 整合]**&#x200B;的值。
+
+對於每個已設定的資料檢視：
+
+* **容器**： [容器索引標籤](/help/data-views/create-dataview.md#containers)包含新的&#x200B;**[!UICONTROL 容器名稱]**： **[!UICONTROL 交談]**，具有&#x200B;**[!UICONTROL 顯示名稱]**： **[!UICONTROL 容器]**&#x200B;作為額外的&#x200B;**[!UICONTROL 系統]** **[!UICONTROL 容器型別]**。
+* **元件**：您會看到其他結構描述欄位資料夾。 例如：agentExperience和conversation。 此外，系統會自動新增下列元件：
+
+  | 量度 | 結構描述資料類型 | 結構描述路徑 |
+  |---|---|---|
+  | 客戶回饋 | 字串 | eventType |
+  | 正面情緒 | 字串 | 衍生欄位 |
+  | 推薦 | 字串 | eventType |
+  | 航程 | 字串 | eventType |
+
+  | 維度 | 結構描述資料類型 | 結構描述路徑 |
+  |---|---|---|
+  | 代理 ID | 字串 | `agenticExperience.agents.agentID` |
+  | 代理人名稱 | 字串 | `agenticExperience.agents.name` |
+  | Concierge 名稱 | 字串 | `agenticExperience.name` |
+  | Concierge 版本 | 字串 | `agenticExperience.version` |
+  | 對話 ID | 字串 | `conversation.conversationID` |
+  | 對話名稱 | 字串 | `conversation.conversationName` |
+  | 交談訊號名稱 | 字串 | `conversation.signals.name` |
+  | 交談摘要布林值 | 布林值 | `conversation.signals.values.booleanValue` |
+  | 交談摘要信賴度 | 雙精度浮點數 | `conversation.signals.values.confidence` |
+  | 交談摘要中繼資料索引鍵 | 字串 | `conversation.signals.values.metadata.key` |
+  | 交談摘要數值 | 雙精度浮點數 | `conversation.signals.values.numberValue` |
+  | 交談摘要限定詞 | 字串 | `conversation.signals.values.qualifiers` |
+  | 對話語氣訊號 | 字串 | `conversation.signals.attributes.tones.values` |
+  | 環境 | 字串 | `agenticExperience.environment` |
+  | 回饋分類 | 字串 | 衍生欄位 |
+  | 回饋評等分類 | 字串 | `conversation.feedback.rating.classification` |
+  | 回饋區段用途 | 字串 | `conversation.feedback.raw.purpose` |
+  | 回饋來源 | 字串 | `conversation.feedback.source` |
+  | 短語 | 字串 | `conversation.signals.attributes.subjects.values.phrase` |
+  | 回答原始文字 | 字串 | `conversation.response.raw.text` |
+  | 回答來源 | 字串 | `conversation.response.source` |
+  | 情感分類 | 字串 | 衍生欄位 |
+  | 技能名稱 | 字串 | `agenticExperience.agents.skills.name` |
+  | 技能版本 | 字串 | `agenticExperience.agents.skills.version` |
+  | 值 | 字串 | `agenticExperience.agents.skills.parameters.value` |
 
 
 <!--
