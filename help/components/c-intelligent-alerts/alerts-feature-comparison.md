@@ -1,39 +1,45 @@
 ---
 description: 瞭解Customer Journey Analytics與Adobe Analytics的警報有何不同
-title: 警報功能比較Customer Journey Analytics和Adobe Analytics
+title: 警報功能比較Customer Journey Analytics與Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
 exl-id: 04e819c4-9fb5-4459-9f8b-40d78385ed90
 TQID: https://experienceleague.adobe.com/NEm3Mu7q6RDKbCyG-PJzOFPrjJF4Y-unHgyBXyKd1HM
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
   - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+    internal-label: Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: 4f3c4a214bb9676ced6fe3c9627c969413013790
 workflow-type: tm+mt
-source-wordcount: 495
-ht-degree: 25%
-
+source-wordcount: '477'
+ht-degree: 23%
 ---
-
-# 警示功能比較
+# 警報功能比較Customer Journey Analytics與Adobe Analytics
 
 在 Customer Journey Analytics 中使用警報的流程，與在 Adobe Analytics 中使用警報的流程幾乎相同。 儘管如此，還是有些重要差異。 以下各節將說明主要差異。
 
-## 無法使用每小時警報
+## 針對特定型別的資料，每小時警報可能不切實際
 
-每小時警示是&#x200B;**在Customer Journey Analytics中無法使用**，而每小時警示是在Adobe Analytics中可用。 在 Customer Journey Analytics 中，可以將警報設定為每日、每週或每月。
+由於您可以將各種型別的資料擷取至Adobe Experience Platform，因此並非所有可包含在警報中的資料都適合每小時警報。 特定型別的資料無法可靠地擷取，且在一小時的限制內提供。
 
-您可以透過多種方式將資料內嵌至Adobe Experience Platform中。 因此，在一小時的限制內，資料完整性和可用性無法可靠達成。  資料擷取的靈活性意味著，由於不完整資料的可能性很高，每小時的警報是不切實際的。 如需詳細資訊，請參閱[資料擷取時間會有所不同](#data-ingestion-times-vary-in-customer-journey-analytics)。
+如需詳細資訊，請參閱[資料擷取時間會有所不同](#data-ingestion-times-vary)。
 
 ## 資料擷取時間不盡相同
 
@@ -59,8 +65,8 @@ ht-degree: 25%
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
-## 建立警報
+## 建立警報的次數較少
 
-在Adobe Analytics的Analysis Workspace中，您可以[以多種方式從Analysis Workspace建立警報](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/alerts/alert-builder)。 在Customer Journey Analytics中，您只能從自由格式表格中的選取範圍[在Analysis Workspace中建立警報](alert-builder.md)。
+在Adobe Analytics的Analysis Workspace中，您可以[以多種方式從Analysis Workspace建立警報](https://experienceleague.adobe.com/en/docs/analytics/components/alerts/alert-builder)。 在Customer Journey Analytics中，您只能從自由格式表格中的選取範圍[在Analysis Workspace中建立警報](alert-builder.md)。
 
 Adobe Analytics和Customer Journey Analytics都支援透過[警報管理器](alert-manager.md)建立警報
