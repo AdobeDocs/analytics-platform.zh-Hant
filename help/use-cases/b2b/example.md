@@ -88,14 +88,14 @@ B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關�
    |---|---|---|---|
    | B2B活動資料集 | SourceKey <br/>**personKey.sourceKey** | | |
    | B2B個人資料集 | SourceKey <br/>**b2b.personKey.sourceKey** | | |
-   | B2B帳戶資料集 | | SourceKey <br/>**accountKey.sourceKey**❶ | SourceKey<br>（B2B人員資料集）<br/>**b2b.accountKey.sourceKey**❶ |
-   | B2B機會資料集 | | Source Key <br/>**opportunityKey.sourceKey**❷ | SourceKey<br/>（B2B機會關係資料集）<br/>**opportunityKey.sourceKey**❷ |
-   | B2B促銷活動資料集 | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>（B2B促銷活動成員資料集）<br/>**campaignKey.sourceKey**❸<br/> |
-   | B2B行銷清單資料集 | | SourceKey <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>（B2B行銷清單成員資料集）<br/>**marketingListKey.sourceKey**❹ |
-   | B2B帳戶個人關係資料集 | | SourceKey <br/>**personKey.sourceKey**❺ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❺ |
-   | B2B機會個人關係資料集 | | SourceKey <br/>**personKey.sourceKe** y❻ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❻ |
-   | B2B促銷活動成員資料集 | | SourceKey <br/>**personKey.sourceKey**❼ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❼ |
-   | B2B行銷清單成員資料集 | | SourceKey <br/>**personKey.sourceKey**❽ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❽ |
+   | B2B帳戶資料集 | | SourceKey <br/>**accountKey.sourceKey**&#x200B;❶ | SourceKey<br>（B2B人員資料集）<br/>**b2b.accountKey.sourceKey**&#x200B;❶ |
+   | B2B機會資料集 | | Source Key <br/>**opportunityKey.sourceKey**&#x200B;❷ | SourceKey<br/>（B2B機會關係資料集）<br/>**opportunityKey.sourceKey**&#x200B;❷ |
+   | B2B促銷活動資料集 | | SourceKey <br/>**campaignKey.sourceKey**&#x200B;❸ | SourceKey<br/>（B2B促銷活動成員資料集）<br/>**campaignKey.sourceKey**&#x200B;❸<br/> |
+   | B2B行銷清單資料集 | | SourceKey <br/>**marketingListKey.sourceKey**&#x200B;❹ | SourceKey<br/>（B2B行銷清單成員資料集）<br/>**marketingListKey.sourceKey**&#x200B;❹ |
+   | B2B帳戶個人關係資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❺ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❺ |
+   | B2B機會個人關係資料集 | | SourceKey <br/>**personKey.sourceKe** y❻ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❻ |
+   | B2B促銷活動成員資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❼ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❼ |
+   | B2B行銷清單成員資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❽ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❽ |
 
 {style="table-layout:auto"}
 
