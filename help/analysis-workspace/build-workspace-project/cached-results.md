@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7afd51cbdbfc21c8512d0e11be87a6ab8245e366
+source-git-commit: 32dfb7790f57293ea297bdcb8319c3d3b187a2ae
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1336'
 ht-degree: 0%
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 Analysis Workspace會快取專案最初設定的結果，包括其選取的資料檢視、套用的區段、日期範圍、面板下拉式選取專案等。 開啟專案的所有人都會看到這些快取的結果。
 
-如果有人變更專案組態，則會更新結果，並[快取新的專案變數](#project-variations-are-cached-as-the-project-is-modified)。
+如果有人在檢視快取的專案時變更專案組態，結果會正常載入（不會立即載入），並且[會快取新的專案變數](#project-variations-are-cached-as-the-project-is-modified)。
 
 #### 修改專案時會快取專案變數
 
@@ -80,19 +80,21 @@ Analysis Workspace會快取專案最初設定的結果，包括其選取的資�
 | --- | --- | --- |
 | 上午 6:00 | 排程專案傳遞 | 一般（會快取結果以供日後使用） |
 | 上午7:06 | 使用者A開啟專案 | 即時 |
-| 上午7:06 | 使用者A套用美洲區段 | 一般（會快取結果以供日後使用） |
+| 上午7:07 | 使用者A套用美洲區段 | 一般（會快取結果以供日後使用） |
 | 上午8:01 | 使用者B開啟專案 | 即時 |
-| 上午8:01 | 使用者B套用美洲區段 | 即時 |
-| 上午8:01 | 使用者B套用EMEA區段 | 一般（會快取結果以供日後使用） |
+| 上午8:05 | 使用者B套用美洲區段 | 即時 |
+| 上午8:12 | 使用者B套用EMEA區段 | 一般（會快取結果以供日後使用） |
 
 >[!ENDSHADEBOX]
 
-### 自動重新整理快取結果的變更
+### 導致快取結果在下次專案載入時重新整理的變更
 
 專案基礎設定的下列變更會導致Analysis Workspace在下次有人開啟專案時重新整理結果，即使12小時視窗尚未過期亦然：
 
 * 變更資料檢視中的元件，例如編輯維度或量度的[元件設定](/help/data-views/component-settings/overview.md)
+
 * [衍生欄位](/help/data-views/derived-fields/derived-fields.md)的變更
+
 * 專案中使用的區段定義的變更
 
 結果會以正常速度載入並快取，這會開始一個新的12小時視窗。
@@ -139,10 +141,12 @@ Analysis Workspace會快取專案最初設定的結果，包括其選取的資�
 >
 >如果您需要立即檢視當天的資料、延遲送達的資料或更新查閱值，快取結果可能不適合。 啟用此設定之前，請檢閱[何時停用專案上的快取結果](#when-to-leave-cached-results-disabled-on-a-project)。
 
-在您想要啟用快取結果以便立即載入的Workspace專案中：
+在您想要啟用快取結果以加速載入的Workspace專案中：
 
 1. 移至&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 專案資訊與設定]**。
+
 1. 選取&#x200B;**[!UICONTROL 使用快取結果以加速載入]**。
+
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 在專案中顯示快取結果時進行檢視
@@ -150,13 +154,14 @@ Analysis Workspace會快取專案最初設定的結果，包括其選取的資�
 顯示快取結果時，時間戳記會顯示在專案頂端。 時間戳記會指定是快取所有結果，還是隻快取部分結果：
 
 * **[!UICONTROL 顯示來自] [_日期與時間的結果_]**：專案中的所有面板都會顯示來自所顯示日期與時間的快取結果。
+
 * **[!UICONTROL 顯示來自] [_日期與時間的部分結果_]**：某些面板顯示來自所顯示日期與時間的快取結果，而其他面板則最近才重新整理。
 
 快取專案上的![時間戳記](assets/project-cache-timestamp.png)
 
 面板也會顯示時間戳記，顯示何時快取結果：
 
-* **[!UICONTROL 顯示來自] [_日期與時間_]**&#x200B;的結果：面板顯示來自所顯示日期與時間的快取結果。
+* **[!UICONTROL 顯示來自] [_日期與時間_]**的結果：面板顯示來自所顯示日期與時間的快取結果。
 
   >[!NOTE]
   >
@@ -184,5 +189,5 @@ Analysis Workspace會快取專案最初設定的結果，包括其選取的資�
 
 若只要載入單一面板的最新結果：
 
-1. 選取面板時間戳記旁的專案頂端的&#x200B;**[!UICONTROL 重新整理]** ![重新整理](/help/assets/icons/Refresh.svg)圖示。
+1. 選取面板時間戳記旁的&#x200B;**[!UICONTROL 重新整理]** ![重新整理](/help/assets/icons/Refresh.svg)圖示。
 
