@@ -2,9 +2,9 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 9d7c1ca888432c74251b3bc131efc97d19c4ef8b
+source-git-commit: 7357a8b929d72095aee7c154ea9e77791ac1a751
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1510'
 ht-degree: 92%
 ---
 # Adobe Customer Journey Analytics 指南 {#using}
@@ -437,7 +437,7 @@ ht-degree: 92%
       + {hide-from-toc}[建立資料摘要](/help/components/exports/cja-data-feeds/create-feed.md)
       + {hide-from-toc}[資料摘要中的細分](/help/components/exports/cja-data-feeds/df-segmentation.md)
       + {hide-from-toc}[套用資料轉換](/help/components/exports/cja-data-feeds/df-data-transformations.md)
-      + {hide-from-toc}[資料摘要中的子事件](/help/components/exports/cja-data-feeds/df-sub-event.md)
+      + 資料摘要中的{hide-from-toc}[子事件](/help/components/exports/cja-data-feeds/df-sub-event.md)
   + 資料字母排序 {#data-dictionary}
     + [概觀](../components/data-dictionary/data-dictionary-overview.md)
     + [檢視資料字母排序中的元件資訊](../components/data-dictionary/view-data-dictionary.md)
@@ -529,6 +529,7 @@ ht-degree: 92%
   + 資料攝取 {#data-ingestion}
     + [收錄並使用 Marketo Engage 資料](../use-cases/data-ingestion/marketo.md)
     + [收錄並使用 Experience Platform 客群](../use-cases/data-ingestion/ingest-aep-segments.md)
+    + {hide-from-toc}[擷取及使用付費媒體資料](/help/use-cases/data-ingestion/paid-media.md)
   + 資料檢視 {#data-views}
     + [資料檢視使用案例](/help/use-cases/data-views/data-views-usecases.md)
     + [使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)
