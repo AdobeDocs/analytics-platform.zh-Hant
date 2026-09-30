@@ -63,7 +63,7 @@ ht-degree: 9%
 -->
 
 
-B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係是在Experience Platform內的B2B設定中定義。 檢視[Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
+B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係是在Experience Platform內的B2B設定中定義。 檢視[Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
 
 
 若要確保連線設定正確，可支援B2B資料的個人查詢功能，請使用下列圖例來概略瞭解情況，並依照下列步驟進行：
