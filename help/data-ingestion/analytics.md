@@ -52,8 +52,8 @@ ht-degree: 76%
 >
 >您已使用任何已記錄的實作方法，在一或多個網站上授權及部署Adobe Analytics：
 >
->- [使用 Experience Platform Edge 實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
->- [使用 Adobe Analytics 擴充功能實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)
+>- [使用 Experience Platform Edge 實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=zh-Hant)
+>- [使用 Adobe Analytics 擴充功能實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=zh-Hant)
 >- [使用 JavaScript 實作 Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hant)
 
 若要完成此操作，您必須：
@@ -113,7 +113,7 @@ Adobe Analytics 來源連接器可讓您將 Adobe Analytics 報告套裝資料�
 
 完成初始擷取後，您的 Adobe Analytics 報告套裝資料就準備就緒，可供 Customer Journey Analytics 使用。
 
-請參閱[在 UI 中建立 Adobe Analytics 來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)，取得更完整的教學課程。
+請參閱[在 UI 中建立 Adobe Analytics 來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)，取得更完整的教學課程。
 
 ## 設定連線
 

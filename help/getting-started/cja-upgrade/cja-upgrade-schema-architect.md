@@ -144,7 +144,7 @@ Adobe建議在符合您需求的地方使用標準化的欄位群組，並使用
 
 1. **使用Adobe Analytics可辨識且自動對應的XDM欄位路徑：**&#x200B;當您透過Edge Network將可辨識的XDM欄位傳送至Adobe Analytics時，這些欄位會[自動對應](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping)，無需額外設定。
 1. **使用組織特定概念的自訂XDM欄位：**&#x200B;任何未自動對應至Analytics變數的XDM欄位都會轉送為Adobe Analytics中的[內容資料變數](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/page-vars/contextdata)。
-1. **使用Adobe Analytics處理規則將這些內容資料變數對應至prop/eVars：** [處理規則](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview)最終可讓您將任何自訂XDM欄位對應至任何eVar或prop。 此概念支援Adobe Analytics中的同位檢查報告，同時保持您的結構描述整潔且以Customer Journey Analytics為中心。
+1. **使用Adobe Analytics處理規則將這些內容資料變數對應至prop/eVars：** [處理規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview)最終可讓您將任何自訂XDM欄位對應至任何eVar或prop。 此概念支援Adobe Analytics中的同位檢查報告，同時保持您的結構描述整潔且以Customer Journey Analytics為中心。
 
 ## 識別利害關係人並定義所有權
 
@@ -162,7 +162,7 @@ Adobe建議在符合您需求的地方使用標準化的欄位群組，並使用
 結構描述設計應根據您組織的隱私權政策，反映隱私權和管理期望。 架構架構時，請考量下列幾點：
 
 * 僅收集您支援已定義使用案例所需的專案。
-* 確保同意和資料使用需求可反映在您的收集策略中。 如需詳細資訊，請參閱[使用Web SDK處理客戶同意資料](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/sdk)。
+* 確保同意和資料使用需求可反映在您的收集策略中。 如需詳細資訊，請參閱[使用Web SDK處理客戶同意資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/consent/sdk)。
 * 考慮如何在Adobe Experience Platform治理工具中標籤和控制敏感欄位。 如需詳細資訊，請參閱[Adobe Customer Journey Analytics和資料控管](/help/privacy/privacy-overview.md)。
 
 ## 後續步驟

@@ -242,7 +242,7 @@ GA4的技術報告會顯示瀏覽器、作業系統、熒幕解析度和裝置�
 
 >[!NOTE]
 >
->由於現代瀏覽器已減少使用者代理字串中的詳細資訊，因此完整且準確的值取決於是否要在您的網頁SDK設定中收集[使用者代理使用者端提示](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints)。
+>由於現代瀏覽器已減少使用者代理字串中的詳細資訊，因此完整且準確的值取決於是否要在您的網頁SDK設定中收集[使用者代理使用者端提示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/use-cases/client-hints)。
 
 +++
 

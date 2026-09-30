@@ -37,7 +37,7 @@ ht-degree: 96%
 ---
 # 虛擬報告套裝、資料檢視、Adobe Experience Platform 沙箱和 Analytics 來源連接器
 
-Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。 了解以下功能之間的異同，以及這些功能與 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)的關係會很有用：
+Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。 了解以下功能之間的異同，以及這些功能與 [Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)的關係會很有用：
 
 * Adobe Analytics 虛擬報告套裝
 * Customer Journey Analytics 資料釋圖
@@ -55,7 +55,7 @@ Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。 了解以�
 * 可用於控制 Adobe Analytics 中不同使用者對不同資料類型的存取和管理。
 * 為 Adobe Analytics 提供選用的[報告時間處理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=zh-Hant)功能。 在這種情況下，可以使用虛擬報告套裝為「造訪」建立自訂定義。
 * 在報告執行階段套用，類似於區段評估。 這是在資料收集並儲存在 Adobe Analytics 中&#x200B;_之後_。
-* 對於 Adobe Analytics 中的[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html)是必要項目。
+* 對於 Adobe Analytics 中的[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hant)是必要項目。
 * 提供與標準 Analytics 報告套裝相同數量的變數 (250 個 eVar、250 個 prop、1000 個事件)，不過虛擬報告套裝整理可以限制向使用者公開哪些變數。
 * 支援自訂行事曆選項。
 
@@ -68,7 +68,7 @@ Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。 了解以�
 
 ## Customer Journey Analytics 資料檢視
 
-如需詳細資訊，請參閱[資料檢視概觀](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html)。
+如需詳細資訊，請參閱[資料檢視概觀](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant)。
 
 資料檢視：
 
@@ -90,7 +90,7 @@ Adobe 提供多種方法來建立虛擬報告環境和沙箱環境。 了解以�
 
 ## Adobe Experience Platform 沙箱
 
-如需詳細資訊，請參閱：[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)。
+如需詳細資訊，請參閱：[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
 
 Adobe Experience Platform 沙箱：
 
@@ -105,4 +105,4 @@ Adobe Experience Platform 沙箱無法：
 請注意：
 
 * 不同沙箱的資料無法在 Customer Journey Analytics 中組合。
-* Analytics 來源連接器會將報告套裝資料傳送&#x200B;_到_&#x200B;特定沙箱。 每個報告套裝都可以設定為單一沙箱的來源。 如需詳細資訊，請參閱 [Analytics 來源連接器文件](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。
+* Analytics 來源連接器會將報告套裝資料傳送&#x200B;_到_&#x200B;特定沙箱。 每個報告套裝都可以設定為單一沙箱的來源。 如需詳細資訊，請參閱 [Analytics 來源連接器文件](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。

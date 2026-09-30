@@ -105,7 +105,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->密碼保護排程專案的選項僅會對已購買 [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html) 附加產品的 Customer Journey Analytics 客戶顯示。
+>密碼保護排程專案的選項僅會對已購買 [Healthcare Shield](https://business.adobe.com/tw/solutions/industries/healthcare.html) 附加產品的 Customer Journey Analytics 客戶顯示。
 
 Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv 格式傳送。
 
@@ -122,7 +122,7 @@ Adobe 使用密碼來加密排程專案，無論它們是以 .pdf 或是 .csv �
 ### 密碼保護新排程專案
 
 1. 儲存專案後，前往「**[!UICONTROL 共用]** > **[!UICONTROL 立即發送檔案]**」，或「**[!UICONTROL 共用]** > **[!UICONTROL 依排程發送檔案]**」。
-1. 按照上面的指示，在[立即傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now)或[依排程傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule)下面。
+1. 按照上面的指示，在[立即傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=zh-Hant#now)或[依排程傳送檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=zh-Hant#schedule)下面。
 
 ### 密碼保護現有排程專案
 
