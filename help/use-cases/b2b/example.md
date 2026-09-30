@@ -5,25 +5,33 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-TQID: https://experienceleague.adobe.com/vtwD-kgpmITrgGmc3SsY-xLkukMLtfwiyDWqc-OAQsI
+TQID: 'https://experienceleague.adobe.com/vtwD-kgpmITrgGmc3SsY-xLkukMLtfwiyDWqc-OAQsI'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+    internal-label: Reporting
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1417
-ht-degree: 8%
-
+source-wordcount: '1417'
+ht-degree: 9%
 ---
-
 # 人員型 B2B 專案範例
 
 本文說明一個使用案例，說明您想在Customer Journey Analytics中，在典型的以人員為基礎的B2B設定中，正確報告人員資料。 [Real-Time CDP B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)有助於此類設定。  使用案例說明如何在Customer Journey Analytics中設定、設定及報告設定檔（人員）層級的B2B資料。
@@ -42,10 +50,10 @@ ht-degree: 8%
 | B2B機會資料集 | B2B機會結構描述 | 查詢 | XDM商業機會 | XDM商業機會是一個標準的體驗資料模型(XDM)類別，可擷取商業機會的最低要求屬性。 此XDM類別只能包含在擁有B2B或B2P版本之客戶的個人資料中。 |
 | B2B促銷活動資料集 | B2B行銷活動結構描述 | 查詢 | XDM商業活動 | XDM商業促銷活動是一個標準的體驗資料模型(XDM)類別，可擷取商業促銷活動的最低要求屬性。 此XDM類別只能包含在擁有B2B或B2P版本之客戶的個人資料中。 |
 | B2B行銷清單資料集 | B2B行銷清單結構描述 | 查詢 | XDM業務行銷清單 | XDM業務行銷清單是一個標準的體驗資料模型(XDM)類別，可擷取行銷清單的最低要求屬性。 行銷清單可讓您優先處理最可能購買您產品的潛在客戶。 此XDM類別只能包含在擁有B2B或B2P版本之客戶的個人資料中。 |
-| B2B帳戶個人關係資料集 | B2B帳戶個人關係結構描述 | 查詢 | XDM 商業帳戶個人關係 | XDM商業帳戶個人關係是一個標準的體驗資料模型(XDM)類別，可擷取與商業帳戶相關聯之個人的最低要求屬性。 |
+| B2B帳戶個人關係資料集 | B2B帳戶個人關係結構描述 | 查詢 | XDM 企業帳戶人員關係 | XDM商業帳戶個人關係是一個標準的體驗資料模型(XDM)類別，可擷取與商業帳戶相關聯之個人的最低要求屬性。 |
 | B2B機會個人關係資料集 | B2B機會個人關係結構描述 | 查詢 | XDM 商業機會個人關係 | XDM商業機會個人關係是一個標準的體驗資料模型(XDM)類別，可擷取與商業機會相關聯之個人的最低要求屬性。 |
 | B2B行銷清單成員資料集 | B2B行銷清單成員結構 | 查詢 | XDM行銷清單成員 | XDM業務行銷清單成員是一個標準的體驗資料模型(XDM)類別，可描述與行銷清單相關聯的成員、個人或聯絡人。 |
-| B2B促銷活動成員資料集 | B2B促銷活動成員結構描述 | 查詢 | XDM 商業活動會員 | XDM商業促銷活動成員是一個標準的體驗資料模型(XDM)類別，可描述與商業促銷活動相關聯的聯絡人或銷售機會。 |
+| B2B促銷活動成員資料集 | B2B促銷活動成員結構描述 | 查詢 | XDM 企業活動成員 | XDM商業促銷活動成員是一個標準的體驗資料模型(XDM)類別，可描述與商業促銷活動相關聯的聯絡人或銷售機會。 |
 
 <!--
 | B2B Account Dataset | B2B Account Schema | Lookup | XDM Business Account | XDM Business Account is a standard Experience Data Model (XDM) class that captures the minimum required properties of a business account.  |
@@ -55,7 +63,7 @@ ht-degree: 8%
 -->
 
 
-B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係是在Experience Platform內的B2B設定中定義。 檢視[Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
+B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關係是在Experience Platform內的B2B設定中定義。 檢視[Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/schemas/b2b)中的結構描述，以及[在Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)中定義兩個結構描述之間的多對一關係。
 
 
 若要確保連線設定正確，可支援B2B資料的個人查詢功能，請使用下列圖例來概略瞭解情況，並依照下列步驟進行：
@@ -80,14 +88,14 @@ B2B查詢結構描述、設定檔結構描述和事件結構描述之間的關�
    |---|---|---|---|
    | B2B活動資料集 | SourceKey <br/>**personKey.sourceKey** | | |
    | B2B個人資料集 | SourceKey <br/>**b2b.personKey.sourceKey** | | |
-   | B2B帳戶資料集 | | SourceKey <br/>**accountKey.sourceKey**&#x200B;❶ | SourceKey<br>（B2B人員資料集）<br/>**b2b.accountKey.sourceKey**&#x200B;❶ |
-   | B2B機會資料集 | | Source Key <br/>**opportunityKey.sourceKey**&#x200B;❷ | SourceKey<br/>（B2B機會關係資料集）<br/>**opportunityKey.sourceKey**&#x200B;❷ |
-   | B2B促銷活動資料集 | | SourceKey <br/>**campaignKey.sourceKey**&#x200B;❸ | SourceKey<br/>（B2B促銷活動成員資料集）<br/>**campaignKey.sourceKey**&#x200B;❸<br/> |
-   | B2B行銷清單資料集 | | SourceKey <br/>**marketingListKey.sourceKey**&#x200B;❹ | SourceKey<br/>（B2B行銷清單成員資料集）<br/>**marketingListKey.sourceKey**&#x200B;❹ |
-   | B2B帳戶個人關係資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❺ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❺ |
-   | B2B機會個人關係資料集 | | SourceKey <br/>**personKey.sourceKe** y❻ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❻ |
-   | B2B促銷活動成員資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❼ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❼ |
-   | B2B行銷清單成員資料集 | | SourceKey <br/>**personKey.sourceKey**&#x200B;❽ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**&#x200B;❽ |
+   | B2B帳戶資料集 | | SourceKey <br/>**accountKey.sourceKey**❶ | SourceKey<br>（B2B人員資料集）<br/>**b2b.accountKey.sourceKey**❶ |
+   | B2B機會資料集 | | Source Key <br/>**opportunityKey.sourceKey**❷ | SourceKey<br/>（B2B機會關係資料集）<br/>**opportunityKey.sourceKey**❷ |
+   | B2B促銷活動資料集 | | SourceKey <br/>**campaignKey.sourceKey**❸ | SourceKey<br/>（B2B促銷活動成員資料集）<br/>**campaignKey.sourceKey**❸<br/> |
+   | B2B行銷清單資料集 | | SourceKey <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>（B2B行銷清單成員資料集）<br/>**marketingListKey.sourceKey**❹ |
+   | B2B帳戶個人關係資料集 | | SourceKey <br/>**personKey.sourceKey**❺ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❺ |
+   | B2B機會個人關係資料集 | | SourceKey <br/>**personKey.sourceKe** y❻ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❻ |
+   | B2B促銷活動成員資料集 | | SourceKey <br/>**personKey.sourceKey**❼ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❼ |
+   | B2B行銷清單成員資料集 | | SourceKey <br/>**personKey.sourceKey**❽ | Source索引鍵<br/>（事件資料集）<br/>**personKey.sourceKey**❽ |
 
 {style="table-layout:auto"}
 
