@@ -1,40 +1,51 @@
 ---
-title: 在 Customer Journey Analytics 中建立資料檢視
+title: 在 Customer Journey Analytics 中建立資料釋圖
 description: 了解關於從 Adobe Analytics 升級至 Customer Journey Analytics 的建議路徑
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
-TQID: https://experienceleague.adobe.com/rQL8R2D1JeIabt-iQSyYGY74N5JkP3hTN-x2kj-swXU
+TQID: 'https://experienceleague.adobe.com/rQL8R2D1JeIabt-iQSyYGY74N5JkP3hTN-x2kj-swXU'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Data management
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 100%
-
 ---
-
-# 在 Customer Journey Analytics 中建立資料檢視 {#upgrade-create-dataview}
+# 在 Customer Journey Analytics 中建立資料釋圖 {#upgrade-create-dataview}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-dataview"
->title="在 Customer Journey Analytics 中建立資料檢視"
->abstract="資料視圖是 Customer Journey Analytics 的專用容器，讓您決定如何解讀來自連線的資料。<br><br>雖然初次建立資料視圖只需幾分鐘，但使用所需的元件設定來設定每個維度和量度則需要幾天的時間。 調整這些設定會追溯適用，因此您的組織可以隨著時間調整設定。"
+>title="在 Customer Journey Analytics 中建立資料釋圖"
+>abstract="資料釋圖是 Customer Journey Analytics 的專用容器，讓您決定如何解讀來自連線的資料。<br><br>雖然初次建立資料視圖只需幾分鐘，但使用所需的元件設定來設定每個維度和量度則需要幾天的時間。 調整這些設定會追溯適用，因此您的組織可以隨著時間逐步完善這些設定。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -42,9 +53,9 @@ ht-degree: 100%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-views/create-dataview.md -->
 
-建立資料視圖需要從結構描述元素建立量度和維度或使用標準元件。 大多數結構描述元素可以是維度或量度，具體取決於您的業務需求。 將結構描述元素拖到資料視圖中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
+建立資料釋圖需要從結構描述元素建立量度和維度或使用標準元件。 大多數結構描述元素可以是維度或量度，具體取決於您的業務需求。 將結構描述元素拖到資料視圖中後，右側會出現選項，您可以在其中調整維度或量度在 Customer Journey Analytics 中的執行方式。
 
-若要建立資料檢視：
+若要建立資料釋圖：
 
 1. 登入 [Customer Journey Analytics](https://analytics.adobe.com) 然後選取「**[!UICONTROL 資料視圖]**」，也可以自頂部選單中選取「**[!UICONTROL 資料管理]**」。
 
@@ -62,11 +73,11 @@ ht-degree: 100%
 
    ![元件標籤](assets/dataview-components.png)
 
-1. 從「[!UICONTROL **元件**]」索引標籤中，將結構描述元素從左側欄拖曳到「[!UICONTROL **量度**]」部分或「[!UICONTROL **維度**]」部分。 您新增的結構描述元素將成為資料檢視中的量度或維度。
+1. 從「[!UICONTROL **元件**]」索引標籤中，將結構描述元素從左側欄拖曳到「[!UICONTROL **量度**]」部分或「[!UICONTROL **維度**]」部分。 您新增的結構描述元素將成為資料釋圖中的量度或維度。
 
    有關新增元件至資料檢視時可用選項的詳細資訊，請參閱「[建立或編輯資料檢視](/help/data-views/create-dataview.md)」中的「[元件](/help/data-views/create-dataview.md#components)」。
 
-1. 選取「[!UICONTROL **設定**]」索引標籤。 在這裡，您可以設定區段以套用於您的整個資料檢視，並且設定工作階段逾時和量度。
+1. 選取「[!UICONTROL **設定**]」索引標籤。 在這裡，您可以設定區段以套用於您的整個資料釋圖，並且設定工作階段逾時和量度。
 
    有關進行資料檢視設定時可用選項的詳細資訊，請參閱「[建立或編輯資料檢視](/help/data-views/create-dataview.md)」中的「[設定](/help/data-views/create-dataview.md#settings)」。
 

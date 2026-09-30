@@ -5,7 +5,19 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 hide: true
-source-git-commit: 39d6847296cc385d501defda292b5b3cae98b46a
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
+subfeature_v2:
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 16%
@@ -144,7 +156,7 @@ ht-degree: 16%
 
    1. 在&#x200B;[!UICONTROL **規則**]&#x200B;和&#x200B;[!UICONTROL **資料元素**]&#x200B;標籤上，選取要包含在移轉中的專案。
 
-      資料庫&#x200B;**中標示為**&#x200B;的規則已發佈。 標示為&#x200B;[!UICONTROL **屬性**]&#x200B;的規則僅存在於屬性中，但不是所選程式庫的一部分。
+      資料庫&#x200B;**]中標示為[!UICONTROL **&#x200B;的規則已發佈。 標示為&#x200B;[!UICONTROL **屬性**]&#x200B;的規則僅存在於屬性中，但不是所選程式庫的一部分。
 
    1. 檢閱所選規則的任何發現專案。 針對每個發現，選取&#x200B;[!UICONTROL **檢閱**]&#x200B;以將其解析，或選取&#x200B;[!UICONTROL **忽略**]&#x200B;以保留其未定址。
 
@@ -185,7 +197,7 @@ ht-degree: 16%
 
 如果發現專案沒有引導式修正，移轉規劃工具會顯示&#x200B;[!UICONTROL **沒有可用的修正詳細資料**]。 手動檢閱發現，並在解決後將其關閉。
 
-[!UICONTROL **發現**]&#x200B;面板會顯示您已處理的發現專案數，以及仍開啟的發現專案數。 完成時，選取[儲存]並繼續&#x200B;**。**
+[!UICONTROL **發現**]&#x200B;面板會顯示您已處理的發現專案數，以及仍開啟的發現專案數。 完成時，選取[儲存]並繼續&#x200B;**]。[!UICONTROL **
 
 ## 將Analytics變數對應至XDM欄位
 
@@ -252,7 +264,7 @@ ht-degree: 16%
 
 對應集可決定Analytics變數對應至XDM結構描述欄位的方式。
 
-您可以在移轉程式[&#128279;](#migrate-an-analytics-implementation-to-the-web-sdk)期間建立新的對應集。 或者，您可以建立獨立對應集，以便用於未來的移轉或其他移轉工作。
+您可以在移轉程式](#migrate-an-analytics-implementation-to-the-web-sdk)期間建立新的對應集[。 或者，您可以建立獨立對應集，以便用於未來的移轉或其他移轉工作。
 
 ### 建立獨立的對應集 {#xdm-mapping}
 
@@ -329,7 +341,7 @@ ht-degree: 16%
 
 * [!UICONTROL **已發佈**]：對應集已完成。
 
-* 移轉&#x200B;**中的**：對應集已繫結至一或多個移轉。
+* 移轉&#x200B;**]中的[!UICONTROL **：對應集已繫結至一或多個移轉。
 
 <!-- Confirm how to publish a mapping set, how versions are created (v1, v2, v3), and what "bindings" represent. -->
 

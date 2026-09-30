@@ -4,25 +4,32 @@ description: 瞭解如何使用自由表格，這是Analysis Workspace中資料�
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-TQID: https://experienceleague.adobe.com/2eJdFymbKxJE6XjLm0FlWocfVSsCml5ac5n0Y8YAQY8
+TQID: 'https://experienceleague.adobe.com/2eJdFymbKxJE6XjLm0FlWocfVSsCml5ac5n0Y8YAQY8'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: '824'
 ht-degree: 94%
-
 ---
-
 # 自由格式表格概觀 {#freeform-table-overview}
 
 <!-- markdownlint-disable MD034 -->
@@ -37,7 +44,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中記錄自由格式表格視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[自由格式表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table)。_
+_本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中記錄自由格式表格視覺效果。_<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本，請參閱[自由格式表格](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table)。_
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +87,7 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 
 ### 資料欄
 
-* 元件可堆疊在欄內，以建立分段量度、跨標籤分析等等。
+* 元件可堆疊在欄內，以建立區段量度、跨標籤分析等等。
 * [資料欄設定](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)底下可調整每個欄的檢視方式。
 * 透過[內容選單](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)可執行數個動作。 根據您選取表格標題、列或欄，選單均會提供不同動作。
 
@@ -94,13 +101,13 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 | 選項 | 說明 |
 |---|---|
 | **[!UICONTROL 連結的視覺效果]** | 列出所有連結的視覺效果。 |
-| **[!UICONTROL 顯示資料來源]** | 取消勾選時，作為視覺效果資料來源的自由格式表格會隱藏在 Workspace。 |
+| **[!UICONTROL 顯示資料來源]** | 取消勾選時，作為視覺效果資料來源的自由格式表格會隱藏在工作區中。 |
 
 ### 設定
 
 | 選項 | 說明 |
 |---|---|
-| **[!UICONTROL 對齊各欄日期，讓所有開始日期在同一列。]** | 是否讓每一欄的日期與同一列中所有開始日期一致。 |
+| **[!UICONTROL 對齊各欄日期，讓所有開始日期在同一列。]** | 是否將每一欄的日期對齊，使其全部從同一列開始。 |
 
 
 ## 內容選單
@@ -116,10 +123,10 @@ _本文會在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAna
 | **[!UICONTROL 複製視覺效果]** | 複製視覺效果，以便於您將其插入至專案內另一個位置或完全不同的專案中。 |
 | **[!UICONTROL 下載資料為 CSV 檔]** | 將視覺效果顯示的資料立即下載至本機裝置。 |
 | **[!UICONTROL 匯出完整表格…]** | 將完整表格匯出到指定的雲端位置。 請參閱「[將 Customer Journey Analytics 報告匯出至雲端](../../export/export-cloud.md)」 |
-| **[!UICONTROL 複製視覺效果]** | 完全複製視覺效果。 |
+| **[!UICONTROL 複製視覺效果]** | 建立視覺效果的完全相同副本。 |
 | **[!UICONTROL 編輯說明]** | 新增 (或編輯) 視覺效果的文字說明。 請參閱[文字](../text.md)。 |
 | **[!UICONTROL 取得視覺效果連結]** | 直接複製並共用視覺效果連結。 共用連結對話框顯示此連結。 請選取「複製」以複製此連結至剪貼簿。 |
-| **[!UICONTROL 重新開始]** | 刪除目前視覺效果的設定，以便於您可從頭開始再設定。 |
+| **[!UICONTROL 重新開始]** | 刪除目前視覺效果的設定，以便您可從頭開始再設定。 |
 
 
 >[!MORELIKETHIS]

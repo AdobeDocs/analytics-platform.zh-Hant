@@ -8,32 +8,42 @@ autotag-review: '2026-05-19T09:49:39.181Z'
 TQID: 'https://experienceleague.adobe.com/xav7bGdbGLjYXm70GJBSxnDMfNDZpYp5qij1IqkaZSY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+    internal-label: Analytics integration
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 259
+source-wordcount: '259'
 ht-degree: 90%
-
 ---
-
 # 設定 Google Analytics 串流資料
 
 此頁面著重於將您的即時 Google Analytics 資料擷取到 Adobe Experience Platform，讓您參照在 Customer Journey Analytics 之內「資料檢視」中的資料集。 您可以結合此頁面的步驟與[將 Google Analytics 歷史資料擷取至 Adobe Experience Platform](backfill.md)，這會產生包含歷史資料的資料集。 結合串流的資料集與回填的資料集，以便在 Customer Journey Analytics 中取得過去與現在資料的無縫接軌檢視。
 
-設定涉及以下步驟的資料彙集：
+設定資料彙集涉及以下步驟：
 
-1. 實作 [&#x200B; Adobe Experience Platform 的標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)。 請參閱 [快速入門指南](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hant) 以了解基本實作並執行。
-1. 安裝 [Google Data Layer 延伸產品](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/google-data-layer/overview.html?lang=zh-Hant)。 本延伸產品取代安裝 Web SDK 延伸產品，是特別針對 Google 資料階層所搭配的。
-1. [在 Adobe Experience Platform Data Collection 中](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant) 建立 Datastream。 設定 Datastream 以傳送資料至 Adobe Experience Platform。 您目前必須將每個 Google 資料階層物件對應到此處相關的 XDM 欄位。 Adobe 計畫在未來簡化此對應工作流程。
+1. 實作 [ Adobe Experience Platform 的標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。 請參閱 [快速入門指南](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html) 以了解基本實作並執行。
+1. 安裝 [Google Data Layer 延伸產品](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/google-data-layer/overview.html)。 此擴充功能可作為安裝 Web SDK 擴充功能的替代方案，專門針對 Google 資料層而設計。
+1. [在 Adobe Experience Platform Data Collection 中](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) 建立 Datastream。 設定 Datastream 以傳送資料至 Adobe Experience Platform。 您目前必須將每個 Google 資料階層物件對應到此處相關的 XDM 欄位。 Adobe 計畫在未來簡化此對應工作流程。
 
 在您的網站上實作與發佈想要的標籤之後，您就可以繼續[建立連線](/help/connections/create-connection.md)，然後[建立資料檢視](/help/data-views/create-dataview.md)。

@@ -4,25 +4,33 @@ title: 量度和客群成員資格的一致性
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-TQID: https://experienceleague.adobe.com/IYlFUArrqejRjs5uDJ0MNGixQG4IP6ly4qLQBMALCjA
+TQID: 'https://experienceleague.adobe.com/IYlFUArrqejRjs5uDJ0MNGixQG4IP6ly4qLQBMALCjA'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Troubleshooting
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: '671'
 ht-degree: 100%
-
 ---
-
 # 量度和客群成員資格的一致性
 
 在現實情境中，無法保證 Real-time Customer Data Platform (Real-time CDP) 與 Customer Journey Analytics 之間的量度及客群會籍數的一致性。 本文件將說明原因。
@@ -31,7 +39,7 @@ ht-degree: 100%
 
 ## 身分識別設定的差異
 
-Real-time CDP 和 Customer Journey Analytics 目前對個人的定義不同。 Real-time CDP 完全仰賴[身分識別圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=zh-Hant)中的資訊來建立合併的輪廓。
+Real-time CDP 和 Customer Journey Analytics 目前對個人的定義不同。 Real-time CDP 完全仰賴[身分識別圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html)中的資訊來建立合併的輪廓。
 
 Customer Journey Analytics 可以設定為使用[拼接](../stitching/overview.md)。 若使用[欄位式拼接](/help/stitching/fbs.md)做為拼接機制，您可以從資料湖中的資料集指定一個識別碼來拼接此資料集中的資料，其目的是透過已獲改善的合併輪廓來提升資料集。 若您使用[圖表式拼接](/help/stitching/gbs.md)做為拼接機制，則類似的過程是根據指定的身分識別命名空間使用身分識別圖。
 
@@ -44,7 +52,7 @@ Customer Journey Analytics 可以設定為使用[拼接](../stitching/overview.m
 
 Customer Journey Analytics 允許在查詢時進行廣泛的資料修改，例如合併欄位、分割欄位，以及其他像是包含/排除、子字串、重複值刪除、工作階段化及資料列層級篩選等操作。
 
-Real-time CDP 提供一組不同的資料操作工具。 它會套用[合併原則](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=zh-Hant)以判斷哪些資料將會被優先處理，以及將合併哪些資料以建立個人的統一檢視。
+Real-time CDP 提供一組不同的資料操作工具。 它會套用[合併原則](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html)以判斷哪些資料將會被優先處理，以及將合併哪些資料以建立個人的統一檢視。
 
 ## TTL (存留時間) 與資料攝取的差異
 

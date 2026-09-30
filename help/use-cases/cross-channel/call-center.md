@@ -5,44 +5,53 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-TQID: https://experienceleague.adobe.com/FTWdLEx5SD4GMgi4XJKQ20-RVsg1oRFZtEMjPXkVuYQ
+TQID: 'https://experienceleague.adobe.com/FTWdLEx5SD4GMgi4XJKQ20-RVsg1oRFZtEMjPXkVuYQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1160
+source-wordcount: '1160'
 ht-degree: 88%
-
 ---
-
 # 匯入客服中心和網頁的資料
 
-Customer Journey Analytics 具有重要的強大功能，可將不同來源的資料集合併成單一 Analysis Workspace 專案。 使用本指南瞭解貴組織如何結合網站資料與客服中心資料。 例如，您可以在聯絡客戶支援之前先了解客戶採取了哪些動作、他們查看了哪些內容以及他們搜尋了哪些術語。 然後，您可以確定要改進的內容和自助服務工具，以便客戶可以更好地自行解決問題而無需致電。
+Customer Journey Analytics 具有重要的強大功能，可將不同來源的資料集合併成單一工作區專案。 使用本指南瞭解貴組織如何結合網站資料與客服中心資料。 例如，您可以在聯絡客戶支援之前先了解客戶採取了哪些動作、他們查看了哪些內容以及他們搜尋了哪些術語。 然後，您可以確定要改進的內容和自助服務工具，以便客戶可以更好地自行解決問題而無需致電。
 
 ## 先決條件
 
-* 合併這兩組資料最重要的元件，是資料來源之間必須具有共同識別碼， 例如客戶 ID、雜湊電子郵件、登入使用者名稱或電話號碼。
+* 合併這兩組資料最重要的元件，是各資料來源之間的共同識別碼。 例如客戶 ID、雜湊電子郵件、登入使用者名稱或電話號碼。
 * 存取 Adobe Experience Platform 和 Customer Journey Analytics
 * 如果您的資料集內含有互動式語音回應系統的記錄檔，Adobe 建議您在匯入 Platform 前先處理資料，僅加入提示互動內容。
 * 如果您的資料集內含有通話記錄檔，Adobe 建議您加入下列各欄：
-   * 通話開始日期/時間
-   * 通話原因
-   * 客服中心 ID
-   * 客服中心專員 ID
-   * 通話長度
-   * 通話結果
-   * 通話費用 (若有)
-   * 貴組織想加入的其他任何通話中繼資料
+  * 通話開始日期/時間
+  * 通話原因
+  * 客服中心 ID
+  * 客服中心專員 ID
+  * 通話長度
+  * 通話結果
+  * 通話費用 (若有)
+  * 貴組織想納入的任何其他通話後設資料
 
 ## 將網路和客服中心資料匯入 Platform
 
@@ -53,7 +62,7 @@ Customer Journey Analytics 具有重要的強大功能，可將不同來源的�
 * 確認連結客服中心和網路資料的識別碼採用類似的格式。
 * 在每個資料集中加入資料來源， 例如在所有結構描述中加入「`data_source`」欄，並將每個事件的值分別設為「`"Web"`」或「`"Call center"`」。<!--mapper-->
 
-## 彙整人員 ID
+## 將人員 ID 拼接起來
 
 Customer Journey Analytics需要通用識別碼才能產生[合併的資料集](/help/connections/combined-dataset.md)。
 
@@ -64,10 +73,10 @@ Customer Journey Analytics需要通用識別碼才能產生[合併的資料集](
 
 [在Customer Journey Analytics中建立連線](/help/connections/create-connection.md)。
 
-* 如果您選擇使用跨管道分析，系統會產生新的彙整資料集供您使用。 新建立的彙整 ID 欄位可視為人員 ID。
+* 如果您選擇使用跨管道分析，系統會產生新的彙整資料集供您使用。 使用新建立的彙整 ID 欄位作為人員 ID。
 * 或者，您也可以在連線中選取原本的網路和客服中心資料集，以便使用。
 
-## 建立資料視圖
+## 建立資料釋圖
 
 建立連線後，您可以在 Analysis Workspace 中[建立資料檢視](/help/data-views/create-dataview.md)，以利後續使用。 有用的元件包括：
 
@@ -83,7 +92,7 @@ Customer Journey Analytics需要通用識別碼才能產生[合併的資料集](
 此視覺效果可協助您了解跨管道分析功能彙整資料的成效。
 
 1. 建立兩個區段。 這兩個區段所使用的變數，即為上述反映每個事件資料來源的變數。 如需詳細資訊，請參閱[建立區段](/help/components/segments/seg-create.md)。
-   * 在一個人員容器中，讓資料集 ID 等同於網路資料
+   * 資料集 ID 等於您的網頁資料的人員容器
    * 在另一個人員容器中，讓資料集 ID 等同於客服中心資料
 2. 在 Analysis Workspace 中，將[「文氏圖」](/help/analysis-workspace/visualizations/venn.md)視覺效果拖放至工作區域的畫布。
 3. 將兩個新建立的區段拖曳至「**[!UICONTROL 新增區段]**」區域，並將「人員」量度拖曳至「**[!UICONTROL 新增量度]**」區域。
@@ -113,7 +122,7 @@ Customer Journey Analytics需要通用識別碼才能產生[合併的資料集](
 
 ### 流量視覺效果
 
-您可以深入了解客戶在使用客服中心通道之前嘗試做什麼。 此流程視覺效果可協助您了解客戶到達客服中心的最頻繁旅程。 借助此洞察力，您可以確定對網站進行最有效改進，進而降低客戶致電的可能性。
+您可以深入了解客戶在使用客服中心管道之前嘗試做什麼。 此流程視覺效果可協助您了解客戶到達客服中心的最頻繁旅程。 這項洞察可讓您判斷可對網站進行哪些最有效的改善，進而降低客戶致電的可能性。
 
 1. 按一下左側的&#x200B;**[!UICONTROL 「視覺效果」]**&#x200B;索引標籤，然後將流量視覺效果拖曳到工作區畫布上。
 2. 按一下左側的&#x200B;**[!UICONTROL 「元件」]**&#x200B;索引標籤並找到「來電原因」維度。
@@ -124,7 +133,7 @@ Customer Journey Analytics需要通用識別碼才能產生[合併的資料集](
 
 ### 直方圖
 
-有多少客戶打過一次電話、打過兩次電話或打過 6 次以上電話？ 其中一些人從不造訪網站。 使用直方圖視覺效果來確定落入每個值區的人數。 對於從未造訪過網站的人，請參閱我們如何鼓勵他們自助服務。
+有多少客戶打過一次電話、打過兩次電話或打過 6 次以上電話？ 其中一些人從不造訪網站。 使用直方圖視覺效果來確定落入每個桶的人數。 對於從未造訪網站的人，請了解我們可以如何鼓勵他們自助服務。
 
 1. 按一下左側的&#x200B;**[!UICONTROL 「視覺效果」]**&#x200B;索引標籤並將直方圖視覺效果拖曳到工作區畫布上。
 2. 按一下左側的&#x200B;**[!UICONTROL 「元件」]**&#x200B;索引標籤並將呼叫量度拖曳到直方圖視覺效果中。

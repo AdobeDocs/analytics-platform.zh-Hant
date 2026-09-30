@@ -9,22 +9,28 @@ autotag-review: '2026-05-19T09:40:38.657Z'
 TQID: 'https://experienceleague.adobe.com/98raijZwviVsIrYb7S5y8BYfOZf4-yKKSANeSRfpmM0'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: f24857a4-4b64-4b25-b237-d43026362144
+    internal-label: BI extension
+  - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: '612'
 ht-degree: 2%
-
 ---
-
 # 使用日期範圍名稱進行篩選
 
 在此使用案例中，您想使用已在Customer Journey Analytics中定義的日期範圍來篩選及報告去年的發生次數（事件）。
@@ -59,11 +65,11 @@ ht-degree: 2%
    1. 選取&#x200B;**[!UICONTROL 日期範圍名稱]**。
    1. 選取&#x200B;**[!UICONTROL 發生次數總和]**。
 
-   您看到顯示擷取此視覺效果&#x200B;**資料的**&#x200B;錯誤的視覺效果。
+   您看到顯示擷取此視覺效果&#x200B;]**資料的**[!UICONTROL &#x200B;錯誤的視覺效果。
 
 1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;窗格中：
 
-   1. 選取此視覺效果&#x200B;**上**&#x200B;篩選器中的&#x200B;**[!UICONTROL daterangeName is (All)]**。
+   1. 選取此視覺效果&#x200B;]**上**[!UICONTROL &#x200B;篩選器中的&#x200B;**[!UICONTROL daterangeName is (All)]**。
    1. 選取&#x200B;**[!UICONTROL 基本篩選]**&#x200B;作為&#x200B;**[!UICONTROL 篩選型別]**。
    1. 在&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位底下，選取&#x200B;**[!UICONTROL 去年度2023]**，這是您在Customer Journey Analytics中定義的日期範圍名稱。
    1. 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以從&#x200B;**[!UICONTROL 資料行]**&#x200B;移除&#x200B;**[!UICONTROL 日期範圍名稱]**。

@@ -8,22 +8,28 @@ autotag-review: '2026-05-19T08:23:13.905Z'
 TQID: 'https://experienceleague.adobe.com/nGn-OZXsx06SRHoBpANkmZIfOftsuSOFJi0aWe-v5sQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
+  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
+    internal-label: Workspace panels
 subfeature_v2:
   - id: ddf59f64-0e46-4986-a525-056acc143c70
+    internal-label: Workspace visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 89%
-
 ---
-
 # 下一個或上一個項目面板 {#next-or-previous-item-panel}
 
 >[!CONTEXTUALHELP]
@@ -39,7 +45,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_本文會記錄_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_&#x200B;中的下一個或上一個專案面板。<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;版本，請參閱[下一個或上一個專案面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/next-previous)。_
+_本文會記錄_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_&#x200B;中的下一個或上一個專案面板。<br/>_若需本文的_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;版本，請參閱[下一個或上一個專案面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/next-previous)。_
 
 >[!ENDSHADEBOX]
 
@@ -88,8 +94,8 @@ _本文會記錄_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 | 視覺效果 | 說明 |
 | --- | --- |
 | **[!UICONTROL 橫條圖]** | 根據您選取的維度項目列出下一個 (或上一個) 項目。 將游標停留在個別的條上，將會醒目提示自由格式表格中的對應項目。 |
-| **[!UICONTROL 摘要數字]** | 目前月份 (迄今為止) 所有下一個或上一個維度項目顯示發生次數的高階摘要數字。 |
-| **[!UICONTROL 自由格式表格]** | 根據您選取的維度項目以表格格式列出下一個 (或上一個) 項目。 例如，在前往首頁或工作區頁面之後 (或之前)，哪些是人員造訪最受歡迎的頁面 (根據發生次數)。 |
+| **[!UICONTROL 摘要數字]** | 目前月份 (迄今為止) 所有下一個或上一個維度項目發生次數的高階摘要數字。 |
+| **[!UICONTROL 自由格式表格]** | 根據您選取的維度項目以表格格式列出下一個 (或上一個) 項目。 例如，人員在前往首頁或工作區頁面之後 (或之前) 最常造訪哪些頁面 (根據發生次數)。 |
 
 {style="table-layout:auto"}
 

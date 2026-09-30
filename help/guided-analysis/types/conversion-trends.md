@@ -5,26 +5,37 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: 產品分析
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-TQID: https://experienceleague.adobe.com/jqpqcNM8eOP0Te1t6-l0Mt5HvxhGzB8xMBxb1I-5GPM
+TQID: 'https://experienceleague.adobe.com/jqpqcNM8eOP0Te1t6-l0Mt5HvxhGzB8xMBxb1I-5GPM'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
+  - id: d494f34f-674c-496a-a400-b33552b95463
+    internal-label: Adobe Product Analytics
+  - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
+    internal-label: Optimization
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 100%
-
 ---
-
 # [!UICONTROL 轉換趨勢]分析 {#conversion-trends}
 
 <!-- markdownlint-disable MD034 -->
@@ -39,14 +50,14 @@ ht-degree: 100%
 
 ![轉換趨勢](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL 轉換趨勢]**&#x200B;分析是提供轉換率隨時間變化的趨勢視覺效果。 橫軸是時間間隔，縱軸表示轉換率。
 
->[!VIDEO](https://video.tv.adobe.com/v/3423485/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421662/?quality=12&learn=on)
 
 ## 使用案例
 
 該分析的使用案例包括：
 
 * **追蹤最佳化工作**：在使用[漏斗](funnel.md)分析確定您想改善的關鍵瓶頸後，您可以使用此分析來追蹤這些最佳化如何隨時間影響轉換率。
-* **A/B 測試評估**：評估漏斗環境中進行的 A/B 測試或實驗的有效性。 透過比較不同變化版本之間的轉換率，您可以輕鬆確定哪些測試提供更高的轉換率，進而根據不同變化版本做出資料驅動的決策，以便永久實施這些決策。
+* **A/B 測試評估**：評估漏斗環境中進行的 A/B 測試或實驗的有效性。 透過比較不同變化版本之間的轉換率，您可以輕鬆確定哪些測試提供更高的轉換率，進而針對應永久實施哪些變化版本做出資料導向的決策。
 * **長期下來的活動評估**：衡量行銷活動長期下來的有效性。 您可以針對接觸過行銷活動的使用者建立區段，並將他們的轉換率與其他行銷活動進行比較。 您也可以將目前的轉換率與過去進行的類似活動進行比較。
 
 ## 介面
@@ -60,7 +71,7 @@ ht-degree: 100%
 * **[!UICONTROL 檢視]**：在此分析和[漏斗](funnel.md)之間切換。
 * **[!UICONTROL 步驟]**：您想要追蹤的事件接觸點。 圖表中的每個長條代表一個步驟。 最多可以包含 10 個步驟。
 * **[!UICONTROL 計為]**：要套用至所選取事件的計算方法。 選項包括[!UICONTROL 使用者]和[!UICONTROL 工作階段]。
-* **[!UICONTROL 區段]**：想要比較漏斗的區段。 每個選取的區段會將每個步驟分成多個小節。 每種顏色代表不同的區段。 最多可包含 3 個區段。
+* **[!UICONTROL 區段]**：想要比較漏斗的區段。 每個選取的區段會將每個步驟分成多個長條。 每種顏色代表不同的區段。 最多可包含 3 個區段。
 
 ### 圖表設定
 

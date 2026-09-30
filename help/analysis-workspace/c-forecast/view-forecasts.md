@@ -4,22 +4,26 @@ title: 檢視預測
 feature: Visualizations
 role: User
 exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
-TQID: https://experienceleague.adobe.com/fihJQOI-CyvGccQsB0VxvwR-iV0OkJSMENaiciYrgFc
+TQID: 'https://experienceleague.adobe.com/fihJQOI-CyvGccQsB0VxvwR-iV0OkJSMENaiciYrgFc'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: d13dba12-733d-4914-8d92-d643658bbe5d
+    internal-label: Forecasting
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 372
+source-wordcount: '372'
 ht-degree: 5%
-
 ---
-
 # 檢視預測
 
 您可以在自由表格或折線圖中檢視預測。
@@ -56,8 +60,8 @@ ht-degree: 5%
 
 * 折線圖中度量的目前值以垂直長條表示。 如果您將滑鼠懸停在該垂直線上，則會顯示快顯視窗，其中包含最後的目前日期。
 * 一或多個度量的預測值會使用虛線從垂直列直接顯示。 您可以將滑鼠移至量度的任何資料點上。 這會顯示快顯視窗，其中包含：
-   * 預測日期
-   * 量度的預測值
-   * 量度的預測值上限
-   * 量度的預測值下限
+  * 預測日期
+  * 量度的預測值
+  * 量度的預測值上限
+  * 量度的預測值下限
 * 著色區域會顯示預測的信賴範圍。

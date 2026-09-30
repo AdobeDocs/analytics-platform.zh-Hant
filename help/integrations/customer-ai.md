@@ -1,5 +1,5 @@
 ---
-description: 了解 Adobe Experience Platform Customer AI 資料如何與 Customer Journey Analytics 中的 Workspace 整合。
+description: 了解 Adobe Experience Platform Customer AI 資料如何與 Customer Journey Analytics 中的工作區整合。
 title: 整合 Customer AI 資料
 role: Admin
 solution: Customer Journey Analytics
@@ -9,53 +9,63 @@ autotag-review: '2026-05-19T09:14:55.236Z'
 TQID: 'https://experienceleague.adobe.com/4SG79HyhFS5kr-kXXVGb-cTI8j3St6CwztOW-x1xXi8'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: cbde176d-5423-4c67-8a87-bc8faefd3a44
+    internal-label: Customer AI integration
+  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
+    internal-label: Experience Platform integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 983
+source-wordcount: '983'
 ht-degree: 93%
-
 ---
-
 # 整合 Customer AI 資料
 
 {{release-limited-testing}}
 
-[Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=zh-Hant) 是 Adobe Experience Platform Intelligent Services 的一部分，它讓行銷人員能夠產生個人層面的客戶預測。
+[Customer AI](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html) 是 Adobe Experience Platform Intelligent Services 的一部分，它讓行銷人員能夠產生個人層面的客戶預測。
 
 在影響因子的協助下，Customer AI 可告知您客戶可能會有什麼行為以及原因何在。 此外，行銷人員可受益於 Customer AI 預測和洞察，藉由提供最適合的方案和訊息來打造個人化客戶體驗。
 
-Customer AI 需要使用個別行為資料和輪廓來處理傾向分數。 Customer AI 具有靈活彈性，可接收多個資料來源，包括 Adobe Analytics、Adobe Audience Manager、取用者體驗事件資料和體驗事件資料。 如果您使用 Experience Platform 來源連接器引進 Adobe Audience Manager 和 Adobe Analytics 資料，模型會自動挑選標準事件類型來訓練及評分模型。 如果您引進自己的體驗事件資料集，但不包含標準事件類型，如果您想在模型中使用任何相關欄位，則需要將其對應為自訂事件或輪廓屬性。 此動作可以在 Experience Platform 中的 Customer AI 設定步驟中完成。
+Customer AI 需要使用個別行為資料和輪廓來處理傾向分數。 Customer AI 具有靈活彈性，可接收多個資料來源，包括 Adobe Analytics、Adobe Audience Manager、消費者體驗事件資料和體驗事件資料。 如果您使用 Experience Platform 來源連接器引進 Adobe Audience Manager 和 Adobe Analytics 資料，模型會自動挑選標準事件類型來訓練及評分模型。 如果您引進自己的體驗事件資料集，但不包含標準事件類型，如果您想在模型中使用任何相關欄位，則需要將其對應為自訂事件或輪廓屬性。 此動作可以在 Experience Platform 中的 Customer AI 設定步驟中完成。
 
 Customer AI 可以與 Customer Journey Analytics 整合到一定的程度，以便具備 Customer AI 功能的資料集能夠在 Customer Journey Analytics 的資料視圖和報告中運用。 您可以：
 
 * **追蹤使用者區段不同時期的傾向分數**。
-   * 使用案例：了解特定區段中客戶轉換的可能性。
-   * 例如：連鎖旅館的行銷人員想要了解，旅館顧客在旅館音樂會場地購買演出門票的可能性。
+  * 使用案例：了解特定區段中客戶轉換的可能性。
+  * 例如：連鎖旅館的行銷人員想要了解，旅館顧客在旅館音樂會場地購買演出門票的可能性。
 * **分析哪些成功事件或屬性與傾向分數相關**。
-   * 使用案例：了解與傾向分數相關的屬性或成功事件。
-   * 例如：連鎖旅館的行銷人員想要了解，在旅館音樂會場地購買演出門票與傾向分數之間的關係。
+  * 使用案例：了解與傾向分數相關的屬性或成功事件。
+  * 例如：連鎖旅館的行銷人員想要了解，在旅館音樂會場地購買演出門票與傾向分數之間的關係。
 * **經過不同評分回合後，追蹤客戶傾向的變化過程**。
-   * 使用案例：了解起初傾向性偏低，但過一段時間後變成傾向性偏高的使用者。
-   * 例如：連鎖旅館的行銷人員想要了解，哪些旅館客戶最初被認定為購買演出門票傾向性較低的客戶，但一段時間後變成購買演出門票傾向性較高的客戶。
+  * 使用案例：了解起初傾向性偏低，但過一段時間後變成傾向性偏高的使用者。
+  * 例如：連鎖旅館的行銷人員想要了解，哪些旅館客戶最初被認定為購買演出門票傾向性較低的客戶，但一段時間後變成購買演出門票傾向性較高的客戶。
 * **檢視傾向性的分佈**。
-   * 使用案例：了解傾向分數的分佈，以便更精準地定義區段。
-   * 範例：零售商想要以 50 美元的產品折扣進行特定促銷活動。 由於預算等因素，他們只能進行有限度的促銷活動。他們分析資料，並決定只將目標鎖定在前80%+的客戶。
+  * 使用案例：了解傾向分數的分佈，以便更精準地定義區段。
+  * 範例：零售商想要以 50 美元的產品折扣進行特定促銷活動。 由於預算等因素，他們只能進行有限度的促銷活動。他們分析資料，並決定只將目標鎖定在前80%+的客戶。
 * **檢視特定同類群組在不同時期完成某項動作的傾向性**。
-   * 使用案例：追蹤特定同類群組在不同時期的情況。
-   * 範例：連鎖旅館的行銷人員想要追蹤銅級與銀級客群，或銀級與金級客群在不同時期的情況。 他們就能掌握各同類群組在不同時期訂房的傾向性。
+  * 使用案例：追蹤特定同類群組在不同時期的情況。
+  * 範例：連鎖旅館的行銷人員想要追蹤銅級與銀級客群，或銀級與金級客群在不同時期的情況。 他們就能掌握各同類群組在不同時期訂房的傾向性。
 
 若要實際整合 Customer AI 資料與 Customer Journey Analytics，請遵循以下步驟：
 
@@ -66,7 +76,7 @@ Customer AI 可以與 Customer Journey Analytics 整合到一定的程度，以�
 
 ## 步驟 1：設定 Customer AI 執行個體
 
-當您準備好資料及所有認證和結構描述後，請依照 Adobe Experience Platform 中的[設定 Customer AI 執行個體](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=zh-Hant)指南中的指示開始進行。
+當您準備好資料及所有認證和結構描述後，請依照 Adobe Experience Platform 中的[設定 Customer AI 執行個體](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html)指南中的指示開始進行。
 
 ## 步驟 2：設定與 Customer AI 資料集的 Customer Journey Analytics 連線
 
@@ -116,12 +126,12 @@ Customer AI 可以與 Customer Journey Analytics 整合到一定的程度，以�
 
 ### 傾向分數的分佈
 
-此長條圖顯示傾向分數的分佈情形&#x200B;：
+此長條圖顯示傾向分數的分佈情形：
 
 ![分佈](assets/distribution.png)
 
 ### 傾向性重疊
 
-此文氏圖表顯示經過不同評分執行下來，傾向性的重疊情形：
+此文氏圖顯示不同評分執行中的傾向重疊情形：
 
 ![傾向性重疊](assets/venn.png)

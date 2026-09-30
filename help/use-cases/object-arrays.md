@@ -9,24 +9,34 @@ autotag-review: '2026-05-19T09:33:58.249Z'
 TQID: 'https://experienceleague.adobe.com/FJOAnB2Dumw9txeabYMfrIqE1uihee-TcA8ZFcAbU2Y'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: e8abc408-b05c-427f-9e37-f8b033a6b3c3
+    internal-label: Schema
   - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+    internal-label: Data ingestion
   - id: cf731116-8803-4027-85aa-9c0a126e8321
+    internal-label: Dataset configuration
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: '518'
 ht-degree: 59%
-
 ---
-
 # 使用物件陣列
 
 某些平台結構描述可以有物件陣列。 Adobe Customer Journey Analytics支援事件、查詢和設定檔資料中物件陣列的擷取和報表功能。 內含多種產品的購物車是最常見的例子。 每樣產品都有名稱、SKU、類別、價格、數量，以及您要追蹤的其他任何維度。 這些面向各有不同的要求，但都必須納入同一次點擊中。
@@ -285,5 +295,5 @@ Customer Journey Analytics本身不會結合名稱相似但物件層級不同的
 
 ## 限制
 
-限制適用於Customer Journey Analytics使用且模型化為Experience Platform中結構描述一部分的資料陣列。 檢視[即時客戶個人檔案資料和區段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails)預設護欄中的[資料模型限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails#data-model-limits)和[資料大小限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails#data-size-limits)。
+限制適用於Customer Journey Analytics使用且模型化為Experience Platform中結構描述一部分的資料陣列。 檢視[即時客戶個人檔案資料和區段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails)預設護欄中的[資料模型限制](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits)和[資料大小限制](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits)。
 

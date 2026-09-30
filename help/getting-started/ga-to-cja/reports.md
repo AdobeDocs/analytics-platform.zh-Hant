@@ -7,22 +7,30 @@ feature: Basics
 exl-id: c2d8f4a1-7b3e-4c9f-a5d2-8e1b6c3f9072
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2125f1a16ffed79f77757120c5679dd4defa1638
+    internal-label: Reporting
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 3202
+source-wordcount: '3202'
 ht-degree: 0%
-
 ---
-
 
 # Customer Journey Analytics中的GA4報表
 
@@ -198,7 +206,7 @@ GA4的「保留概觀」報告結合多種保留檢視 — 新的與回訪的使
 **一段時間內的保留率**：使用[**[!UICONTROL 同類群組表格]**](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)視覺效果：
 
 1. 選取「視覺效果」圖示，並將&#x200B;**[!UICONTROL 同類群組表格]**&#x200B;拖曳至畫布上。
-2. 將&#x200B;**[!UICONTROL 人員]**&#x200B;量度拖曳至[包含]和[回訪條件]欄位，然後選取[建置]&#x200B;**&#x200B;**。
+2. 將&#x200B;**[!UICONTROL 人員]**&#x200B;量度拖曳至[包含]和[回訪條件]欄位，然後選取[建置]****。
 
 [!UICONTROL 同類群組表格]會依初始期間將使用者分組，並追蹤後續期間的回訪行為；包含、回訪及詳細程度條件皆可設定。
 
@@ -234,7 +242,7 @@ GA4的技術報告會顯示瀏覽器、作業系統、熒幕解析度和裝置�
 
 >[!NOTE]
 >
->由於現代瀏覽器已減少使用者代理字串中的詳細資訊，因此完整且準確的值取決於是否要在您的網頁SDK設定中收集[使用者代理使用者端提示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/use-cases/client-hints)。
+>由於現代瀏覽器已減少使用者代理字串中的詳細資訊，因此完整且準確的值取決於是否要在您的網頁SDK設定中收集[使用者代理使用者端提示](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints)。
 
 +++
 

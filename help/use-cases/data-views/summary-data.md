@@ -5,29 +5,41 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-TQID: https://experienceleague.adobe.com/ST-1vL8gbeSqaYYHakxjYWcDOryNucEVHiONAQk7gU4
+TQID: 'https://experienceleague.adobe.com/ST-1vL8gbeSqaYYHakxjYWcDOryNucEVHiONAQk7gU4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Data management
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 5045
+source-wordcount: '5045'
 ht-degree: 15%
-
 ---
-
 # 使用摘要資料
 
 此使用案例有助於您瞭解如何在報告和分析中使用摘要資料。 使用案例詳細說明在Customer Journey Analytics中使用摘要資料所需的所有步驟：
@@ -385,7 +397,7 @@ ht-degree: 15%
    1. 請確定&#x200B;**[!UICONTROL 資料格式]**&#x200B;和&#x200B;**[!UICONTROL 分隔符號]**&#x200B;確實具有您範例資料的正確值。 例如，**[!UICONTROL 已分隔]**&#x200B;為&#x200B;**[!UICONTROL 資料格式]**，而&#x200B;**[!UICONTROL ，]**&#x200B;為&#x200B;**[!UICONTROL 分隔符號]**。
    1. 摘要資料的範例（10筆記錄）會顯示在&#x200B;**[!UICONTROL 範例資料]**&#x200B;中。
    1. 選取&#x200B;**[!UICONTROL 「下一步」]**。
-1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 對應]**&#x200B;步驟中：
+1. 在&#x200B;**[!UICONTROL 工作流程]** > **[!UICONTROL 將CSV對應至XDM結構描述]**&#x200B;精靈的&#x200B;**[!UICONTROL 對應]**步驟中：
    ![範例資料集對應](../assets/example-dataset-mapping.png)
    1. 檢查&#x200B;**[!UICONTROL Source資料]**&#x200B;的所有資料欄位是否正確對應到結構描述中對應的&#x200B;**[!UICONTROL 目標欄位]**。 對於範例資料，不會報告錯誤，因為您明確命名了結構描述中的欄位，類似於範例資料中的欄位名稱。 否則，您可以使用此畫面來更正對應。
    1. 您可以選擇選取![齒輪](/help/assets/icons/Gear.svg) **[!UICONTROL 驗證]**&#x200B;以（再次）驗證資料。
@@ -506,7 +518,7 @@ ht-degree: 15%
 
       1. 建立新的衍生欄位，例如`Campaign Name (Lookup Derived Field)`，以確保您可以使用範例查詢資料集中的促銷活動名稱（查詢）維度在Workspace中報告。
 
-         行銷活動名稱![&#128279;](../aa-data/../assets/summary-derived-field.png)的衍生欄位
+         行銷活動名稱](../aa-data/../assets/summary-derived-field.png)的![衍生欄位
 
          1. 選取&#x200B;**[!UICONTROL 值]**&#x200B;的&#x200B;**[!UICONTROL campaign_id]**。
          1. 從&#x200B;**[!UICONTROL 查詢資料集]**&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 範例查詢資料集]**。

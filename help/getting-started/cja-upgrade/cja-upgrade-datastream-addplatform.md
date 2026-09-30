@@ -9,24 +9,32 @@ autotag-review: '2026-05-19T08:12:37.701Z'
 TQID: 'https://experienceleague.adobe.com/ncFpZWJRFzOg8eFg6OF7TfAw6fZRhSdKi6W-LxPUAGg'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: '280'
 ht-degree: 100%
-
 ---
-
 # 新增平台即服務至您的資料流 {#upgrade-addplatform-datastream}
 
 <!-- markdownlint-disable MD034 -->
@@ -42,9 +50,9 @@ ht-degree: 100%
 
 <!-- Should we single source this instead of duplicate it? The following steps were copied from: /help/data-ingestion/aepwebsdk.md-->
 
-在完成本節中的步驟之前，資料流應該已經存在。 資料流的建立時間和方式取決於您的 Adob&#x200B;&#x200B;e Analytics 實施，如下所示：
+在完成本節中的步驟之前，資料流應該已經存在。 資料流的建立時間和方式取決於您的 Adobe Analytics 實施，如下所示：
 
-* 如果您的 Adob&#x200B;&#x200B;e Analytics 實施是使用 Web SDK 或 Web SDK 擴充功能，則在升級流程之前，資料流可供您的 Adob&#x200B;&#x200B;e Analytics 環境使用。
+* 如果您的 Adobe Analytics 實施使用 Web SDK 或 Web SDK 擴充功能，則在升級流程之前，資料流已可供您的 Adobe Analytics 環境使用。
 
 * 對於其他 Adob&#x200B;&#x200B;e Analytics 實施，建立資料流是升級過程的一部分，如[建立用於 Customer Journey Analytics 的資料流](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md)。
 
@@ -70,6 +78,6 @@ ht-degree: 100%
 
    您的資料流現在已設定為將從您網站收集的資料轉送至 Adobe Experience Platform 中的資料集。
 
-   請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
+   請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
 {{upgrade-final-step}}

@@ -9,33 +9,42 @@ autotag-review: '2026-05-19T08:09:45.448Z'
 TQID: 'https://experienceleague.adobe.com/KF-XUA12iIq0wGcSc4P-vGXQV56H5j-jKEgRsxLoUrI'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Personalization
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 94%
-
 ---
-
-# 更新替代方案：僅使用 Analytics 來源連接器以升級至 Customer Journey Analytics {#use-source-connector-exclusively}
+# 升級替代方案：僅使用 Analytics 來源連接器以升級至 Customer Journey Analytics {#use-source-connector-exclusively}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-exclusively"
 >title="僅使用 Analytics 來源連接器"
->abstract="(不建議) 您可以使用 Analytics 來源連接器作為 Customer Journey Analytics 的唯一實作路徑。 <br><br>此選項透過快速將資料傳送至 Customer Journey Analytics 以省下實作時間。 然而，這種做法有一些缺點，例如較大的延遲幅度，以及未來難以脫離 Adobe Analytics。"
+>abstract="(不建議) 您可以使用 Analytics 來源連接器作為 Customer Journey Analytics 的唯一實施路徑。 <br><br>此選項透過快速將資料傳送至 Customer Journey Analytics 以省下實作時間。 然而，這種做法有一些缺點，例如較大的延遲幅度，以及未來難以脫離 Adobe Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -49,7 +58,7 @@ ht-degree: 94%
 
 | 優點 | 缺點 |
 |----------|---------|
-| <ul><li>最省時、最省力的升級路徑。 <p>資料可以快速輕鬆地移轉至 Customer Journey Analytics。</p></li></ul> | <ul><li>**資料未傳送至 Edge Network**： <p>這樣會導致以下缺點：</p><ul><li>在所有升級路徑的報告中hapi 最高級別[延遲](/help/technotes/guardrails.md#latencies)；未針對即時個人化使用案例進行最佳化。</li><li>資料不能與其他 Adob&#x200B;&#x200B;e Experience Platform 應用程式共用；此資料僅限於 Customer Journey Analytics 使用</li><li>依賴 Adobe Analytics 命名法 (prop、eVar 和 event 等)</li></ul><li>**未來很難移轉至 Web SDK**：最後，您可能希望獲得 Experience Platform Web SDK 提供的優勢。 為了開始使用 Experience Platform Web SDK，您必須進行全新實施。</li><li>**使用結構描述中的 Analytics Experience Event 欄位群組**：此欄位群組新增許多您 Customer Journey Analytics 結構描述中不需要的 Adob&#x200B;&#x200B;e Analytics 事件。  這可能會導致比 Customer Journey Analytics 所需的更混亂、更複雜的結構描述。</li><li>**需要 Adob&#x200B;&#x200B;e Analytics 和 Customer Journey Analytics 的授權**：使用 Analytics 來源連接器時，您必須同時支付 Adob&#x200B;&#x200B;e Analytics 和 Customer Journey Analytics 的費用。</li></ul> |
+| <ul><li>最省時、最省力的升級路徑。 <p>資料可以快速輕鬆地移轉至 Customer Journey Analytics。</p></li></ul> | <ul><li>**資料未傳送至 Edge Network**： <p>這樣會導致以下缺點：</p><ul><li>在所有升級路徑的報告中hapi 最高級別[延遲](/help/technotes/guardrails.md#latencies)；未針對即時個人化使用案例進行最佳化。</li><li>資料不能與其他 Adob&#x200B;&#x200B;e Experience Platform 應用程式共用；此資料僅限於 Customer Journey Analytics 使用</li><li>依賴 Adobe Analytics 命名法 (prop、eVar 和事件等)</li></ul><li>**未來很難移轉至 Web SDK**：最後，您可能希望獲得 Experience Platform Web SDK 提供的優勢。 為了開始使用 Experience Platform Web SDK，您必須進行全新實施。</li><li>**使用結構描述中的 Analytics Experience Event 欄位群組**：此欄位群組新增許多您 Customer Journey Analytics 結構描述中不需要的 Adob&#x200B;&#x200B;e Analytics 事件。  這可能會導致比 Customer Journey Analytics 所需的更混亂、更複雜的結構描述。</li><li>**需要 Adob&#x200B;&#x200B;e Analytics 和 Customer Journey Analytics 的授權**：使用 Analytics 來源連接器時，您必須同時支付 Adob&#x200B;&#x200B;e Analytics 和 Customer Journey Analytics 的費用。</li></ul> |
 
 {style="table-layout:auto"}
 

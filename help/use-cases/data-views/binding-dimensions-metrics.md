@@ -1,28 +1,34 @@
 ---
 title: 在Customer Journey Analytics中使用繫結維度和量度
-description: 用於複雜持續性分析之物件陣列的屬性維度。
+description: 將維度歸因於物件陣列，以進行複雜的持續性分析。
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 role: User
-TQID: https://experienceleague.adobe.com/1QpmW2FTqA2B7JgqJEO6MNJzrBkGIL9s4gZYxhIp9UI
+TQID: 'https://experienceleague.adobe.com/1QpmW2FTqA2B7JgqJEO6MNJzrBkGIL9s4gZYxhIp9UI'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1357
+source-wordcount: '1357'
 ht-degree: 70%
-
 ---
-
 # 使用繫結維度和量度
 
-Customer Journey Analytics 提供了幾種方法來保持維度值超出設定的點擊。 Adobe 提供的一種持續性方法稱為「繫結」。 在舊版 Adobe Analytics 中，此概念稱為「銷售」。
+Customer Journey Analytics 提供數種方法，可讓維度值在設定它們的點擊之後持續保留。 Adobe 提供的一種持續性方法稱為「繫結」。 在舊版 Adobe Analytics 中，此概念稱為「銷售」。
 
 雖然可以將繫結維度用於最頂層事件資料，但此概念最適合用於處理[物件陣列](/help/use-cases/object-arrays.md)。 您可以將維度歸因於物件陣列的一部分，而無需將維度套用至給定事件中的所有屬性。 例如，您可以將搜尋字詞歸因於購物車物件陣列中的一個產品，而無需將該搜尋字詞繫結到整個事件。
 
@@ -102,7 +108,7 @@ Customer Journey Analytics 提供了幾種方法來保持維度值超出設定�
 
 Adobe Analytics中最常見的銷售方法之一，是將搜尋字詞繫結到產品，讓每個搜尋字詞都能因其適當的產品而獲得點數。 考量下列客戶歷程：
 
-1. 訪客來到您的網站並搜尋`boxing gloves`。 搜尋量度會遞增一，並顯示前三個搜尋結果。
+1. 訪客來到您的網站並搜尋`boxing gloves`。 搜尋量度會遞增 1，並顯示前三個搜尋結果。
 
    ```json
    {
@@ -139,7 +145,7 @@ Adobe Analytics中最常見的銷售方法之一，是將搜尋字詞繫結到�
    }
    ```
 
-3. 訪客接著搜尋`tennis racket`。 搜尋量度會遞增一，並顯示前三個搜尋結果。
+3. 訪客接著搜尋`tennis racket`。 搜尋量度會遞增 1，並顯示前三個搜尋結果。
 
    ```json
    {
@@ -179,7 +185,7 @@ Adobe Analytics中最常見的銷售方法之一，是將搜尋字詞繫結到�
    }
    ```
 
-5. 訪客第三次搜尋`shoes`。 搜尋量度會遞增一，並顯示前三個搜尋結果。
+5. 訪客第三次搜尋`shoes`。 搜尋量度會增加 1，並顯示前三個搜尋結果。
 
    ```json
    {
@@ -264,7 +270,7 @@ Adobe Analytics中最常見的銷售方法之一，是將搜尋字詞繫結到�
 
 ![繫結量度](../assets/binding-metric.png)
 
-在 Analysis Workspace 中，產生的報表類似於以下內容：
+在 Analysis Workspace 中，產生的報告類似於以下內容：
 
 | search_term | 收入 |
 | --- | --- |
@@ -281,7 +287,7 @@ Customer Journey Analytics會自動偵測所選維度與繫結維度之間的關
 * 如果有產品名稱，則檢查是否存在搜尋量度。
 * 如果沒有搜尋量度，不執行任何動作。
 * 如果有搜尋量度，則將搜尋字詞繫結到該事件中的所有產品名稱。 它會自我複製，直到與該事件的產品名稱相同的層級為止。 在此範例中，它被視為`product.search_term`。
-* 如果在後續事件中看到相同的產品名稱，則已繫結的搜尋字詞也會轉至該事件。
+* 如果在後續事件中看到相同的產品名稱，則已繫結的搜尋字詞也會延續至該事件。
 
 ## 範例 3：將影片搜尋字詞繫結到使用者輪廓
 
@@ -373,7 +379,7 @@ Analysis Workspace將Orangey的第二集歸因於搜尋字詞`kids show`，而�
    }
    ```
 
-1. 訪客按一下喜歡的相機，將其新增到購物車中。
+1. 他們按一下喜歡的相機，將其新增到購物車中。
 
    ```json
    {
@@ -408,7 +414,7 @@ Analysis Workspace將Orangey的第二集歸因於搜尋字詞`kids show`，而�
    }
    ```
 
-1. 他們透過結帳程序，購買這兩件商品。
+1. 他們完成結帳程序，並購買這兩件商品。
 
    ```json
    {
@@ -448,4 +454,4 @@ Analysis Workspace將Orangey的第二集歸因於搜尋字詞`kids show`，而�
 
 >[!MORELIKETHIS]
 >
->[在資料檢視中繫結維度](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=zh-Hant)教學課程。
+>[在資料檢視中繫結維度](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html)教學課程。

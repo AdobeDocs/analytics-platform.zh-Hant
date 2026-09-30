@@ -5,32 +5,47 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-TQID: https://experienceleague.adobe.com/oNFeGuF3o7WGgp6nxSFv1GAVMcXL3Pt9N3isQo0r6TA
+TQID: 'https://experienceleague.adobe.com/oNFeGuF3o7WGgp6nxSFv1GAVMcXL3Pt9N3isQo0r6TA'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Taxonomy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1545
-ht-degree: 10%
-
+source-wordcount: '1545'
+ht-degree: 11%
 ---
-
 # 建立您的結構描述以便與 Customer Journey Analytics 搭配使用 {#upgrade-schema-architect}
 
 <!-- markdownlint-disable MD034 -->
@@ -38,7 +53,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-architect"
 >title="建立結構描述"
->abstract="在您的組織內討論資料收集的需求，並確定您想要如何建置在 Adobe Experience Platform 內使用的結構描述。 之所以顯示這個步驟，是因為您要使用推薦流程，即使用針對您組織量身打造的結構描述。 正確執行此步驟極為重要，因為組織內所有團隊均遵循一個結構描述，可以十分輕鬆地完成資料攝取。<br><br>將組織中所有相關方整合以便遵循統一的結構描述，預估要花費 1-2 個月時間。 這個時間段極度依賴所要協調的團隊數量，以及要遵循的維度 + 量度數量。"
+>abstract="在您的組織內討論資料收集的需求，並確定您想要如何建置在 Adobe Experience Platform 內使用的結構描述。 之所以顯示這個步驟，是因為您要使用推薦流程，即使用針對您組織量身打造的結構描述。 正確執行此步驟極為重要，因為組織內所有團隊均遵循一個結構描述，可以十分輕鬆地完成資料攝取。<br><br>將組織中所有相關方整合以便遵循統一的結構描述，預估要花費 1-2 個月時間。 這個時間段極度依賴所要協調的團隊數量，以及要達成一致的維度 + 量度數量。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -110,14 +125,14 @@ Adobe建議在符合您需求的地方使用標準化的欄位群組，並使用
 在架構架構時，請遵循事實。 例如，`error.type = "validation"`，`user.isLoggedIn = true`，`checkout.step = "shipping"`。 將資料檢視中的量度定義為這些事實的計數和篩選計數。 例如：
 
 * `checkout.step` （列舉/字串）可以支援：
-   * 「結帳：到達運送步驟」（在`checkout.step == "shipping"`處計數）
-   * 「結帳：已達付款步驟」
+  * 「結帳：到達運送步驟」（在`checkout.step == "shipping"`處計數）
+  * 「結帳：已達付款步驟」
 * `error.type` （列舉/字串）可以支援：
-   * 「驗證錯誤」
-   * 「授權錯誤」
+  * 「驗證錯誤」
+  * 「授權錯誤」
 * `user.isLoggedIn` （布林值）可以支援：
-   * 「已驗證的工作階段」
-   * 「已驗證的轉換」
+  * 「已驗證的工作階段」
+  * 「已驗證的轉換」
 
 >[!TIP]
 >
@@ -129,7 +144,7 @@ Adobe建議在符合您需求的地方使用標準化的欄位群組，並使用
 
 1. **使用Adobe Analytics可辨識且自動對應的XDM欄位路徑：**&#x200B;當您透過Edge Network將可辨識的XDM欄位傳送至Adobe Analytics時，這些欄位會[自動對應](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping)，無需額外設定。
 1. **使用組織特定概念的自訂XDM欄位：**&#x200B;任何未自動對應至Analytics變數的XDM欄位都會轉送為Adobe Analytics中的[內容資料變數](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/page-vars/contextdata)。
-1. **使用Adobe Analytics處理規則將這些內容資料變數對應至prop/eVars：** [處理規則](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview)最終可讓您將任何自訂XDM欄位對應至任何eVar或prop。 此概念支援Adobe Analytics中的同位檢查報告，同時保持您的結構描述整潔且以Customer Journey Analytics為中心。
+1. **使用Adobe Analytics處理規則將這些內容資料變數對應至prop/eVars：** [處理規則](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview)最終可讓您將任何自訂XDM欄位對應至任何eVar或prop。 此概念支援Adobe Analytics中的同位檢查報告，同時保持您的結構描述整潔且以Customer Journey Analytics為中心。
 
 ## 識別利害關係人並定義所有權
 
@@ -147,7 +162,7 @@ Adobe建議在符合您需求的地方使用標準化的欄位群組，並使用
 結構描述設計應根據您組織的隱私權政策，反映隱私權和管理期望。 架構架構時，請考量下列幾點：
 
 * 僅收集您支援已定義使用案例所需的專案。
-* 確保同意和資料使用需求可反映在您的收集策略中。 如需詳細資訊，請參閱[使用Web SDK處理客戶同意資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/consent/sdk)。
+* 確保同意和資料使用需求可反映在您的收集策略中。 如需詳細資訊，請參閱[使用Web SDK處理客戶同意資料](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/sdk)。
 * 考慮如何在Adobe Experience Platform治理工具中標籤和控制敏感欄位。 如需詳細資訊，請參閱[Adobe Customer Journey Analytics和資料控管](/help/privacy/privacy-overview.md)。
 
 ## 後續步驟

@@ -5,13 +5,23 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 hide: true
-source-git-commit: 1ce48a6e077ee1069c55f3ef8969ed2eced4742e
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+subfeature_v2:
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 4%
-
 ---
-
 # 母體報表總數
 
 母體總計報表可讓您分析和報表在Customer Journey Analytics連線中定義的實體，以及存在的查詢資料集。 該分析和報告超越了事件資料集以時間為基礎的事件系列。 此功能可啟用新類別的查詢、量度和對象定義，以反映企業客戶群的完整範圍。

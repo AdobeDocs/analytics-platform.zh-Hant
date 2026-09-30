@@ -5,33 +5,49 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 35d63b7d-f35a-4a88-ae14-96724d32a931
-TQID: https://experienceleague.adobe.com/gWxcD93bl5qrSNaMf1CJF4yoIUrAg6qUF8b-4RXLquQ
+TQID: 'https://experienceleague.adobe.com/gWxcD93bl5qrSNaMf1CJF4yoIUrAg6qUF8b-4RXLquQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a67cb189-a535-41f6-afa2-448f39c4759f
+    internal-label: Access control
+  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+    internal-label: Content Analytics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+    internal-label: Data modeling
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+    internal-label: Privacy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 2631
+source-wordcount: '2631'
 ht-degree: 10%
-
 ---
-
 # 獨立設定
 
 >[!IMPORTANT]
@@ -60,8 +76,8 @@ Content Analytics已獲授權為獨立產品，但設定會在Experience Platfor
 | **Connection** | [連線](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/overview)定義要擷取的Experience Platform資料集。 連線會定義資料集（資料儲存在AEP中的位置）與Customer Journey Analytics （資料分析位置）之間的連結。 連線可讓您的收集資料可用於報表。 |
 | **資料檢視** | [資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-views)是一個容器，可讓您決定如何解譯來自連線的資料。 資料檢視會指定所有可用於報表的維度和量度。 資料檢視就像一種設定，可決定可在分析中使用的列和欄。 |
 | **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)是您用來建置Content Analytics報表與分析的拖放式瀏覽器介面。 |
-| **體驗** | 在Content Analytics中，[體驗](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是指網頁上所有可依據頁面URL擷取及分析的文字內容。 |
-| **資產** | 在Content Analytics中，[資產](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是個別且唯一的內容，例如影像。 |
+| **體驗** | 在Content Analytics中，[體驗](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是指網頁上所有可依據頁面URL擷取及分析的文字內容。 |
+| **資產** | 在Content Analytics中，[資產](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是個別且唯一的內容，例如影像。 |
 
 
 ## 設定概述
@@ -313,7 +329,7 @@ Customer Journey Analytics不支援屬性式存取控制。 若要指定許可�
 
 #### 手動設定
 
-若要為網站實作Content Analytics，您必須手動發佈Content Analytics標籤屬性[&#128279;](manual.md)。
+若要為網站實作Content Analytics，您必須手動發佈Content Analytics標籤屬性[](manual.md)。
 
 
 ### 設定專案

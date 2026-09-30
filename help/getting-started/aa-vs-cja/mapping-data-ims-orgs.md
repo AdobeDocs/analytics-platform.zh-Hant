@@ -9,23 +9,32 @@ autotag-review: '2026-05-19T09:13:16.649Z'
 TQID: 'https://experienceleague.adobe.com/sMivwoUTSa8KcQcaK8kR5PlbCF8stVNGeL5YET4usMI'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
+  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: e1bd5a34-b16e-477b-84cc-247fa0793f4b
+    internal-label: Analytics integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Administration
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1127
+source-wordcount: '1127'
 ht-degree: 2%
-
 ---
-
 # 跨ims資料對應
 
 本文概述如何將多個IMS組織中報表套裝的資料對應至一個IMS組織中的報表套裝，最終對應至資料集。
@@ -65,7 +74,7 @@ ht-degree: 2%
 
 一旦Adobe客戶經理收到電子郵件，其中包含來自多個組織的Analytics資料對應請求，即會在Adobe中稽核該請求。 Adobe客戶經理若需任何其他問題、選用的培訓及其他資訊，請聯絡您。
 
-核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)的清單中的報表套裝名稱。
+核准後，系統就會建立要求的對應，並通知您。 來源IMS組織名稱會附加至Experience Platform中Analytics報表套裝](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data)的[清單中的報表套裝名稱。
 
 
 ## 限制
@@ -85,7 +94,7 @@ ht-degree: 2%
 
 在核准&#x200B;*跨IMS資料對應*&#x200B;功能後，您就可以將資料新增到目標IMS組織中一個或多個報表套裝的Experience Platform。 您透過[Analytics來源聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)的設定來執行此動作。 然後會在Experience Platform中建立Target資料集。 在此設定和流程中，您可以選擇從一個或多個報表套裝將設定檔資料傳送至設定檔服務。
 
-如上所述，預估由設定和程式所產生的設定檔總數。 確保總數不超過您依照合約有權為目的地組織使用的設定檔數量。 套用[篩選規則和條件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"}以選擇性地包含或排除擷取至設定檔服務的資料。 或停用將設定檔資料傳送至相關報表套裝的設定檔服務的選項。
+如上所述，預估由設定和程式所產生的設定檔總數。 確保總數不超過您依照合約有權為目的地組織使用的設定檔數量。 套用[篩選規則和條件](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"}以選擇性地包含或排除擷取至設定檔服務的資料。 或停用將設定檔資料傳送至相關報表套裝的設定檔服務的選項。
 
 
 #### 拼接

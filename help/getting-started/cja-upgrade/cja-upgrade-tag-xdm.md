@@ -9,23 +9,30 @@ autotag-review: '2026-05-19T08:20:10.493Z'
 TQID: 'https://experienceleague.adobe.com/CZMnHpY8nofEV8fbpLSe7TUZCR7nOd8xKWoMkCzfH0I'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: '1377'
 ht-degree: 95%
-
 ---
-
 # 將 XDM 資料收集邏輯新增至您的標記 {#upgrade-tag-xdm}
 
 <!-- markdownlint-disable MD034 -->
@@ -39,11 +46,11 @@ ht-degree: 95%
 
 {{upgrade-note-step}}
 
-[建立標記及新增 Web SDK 擴充功能](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)後，您必須使用資料元件和規則來設定，且要根據您想如何追蹤網站及將資料傳送至 Adobe Experience Platform 來進行。 為您的標記設定資料元素和規則後，即可建立和發佈標記。
+[建立標記及新增 Web SDK 擴充功能](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md)後，您必須使用資料元件和規則來設定，且要根據您想如何追蹤網站及將資料傳送至 Adobe Experience Platform 來進行。 為您的標記設定資料元素和規則後，即可建置和發佈標記。
 
 ## 設定資料元素
 
-資料元素是資料字典 (或資料地圖) 的建置組塊。 使用資料元素，在行銷和廣告技術之間收集、組織和傳遞資料。 您可在標籤中設定從資料層讀取的資料元素，可用來將資料傳送至 Adobe Experience Platform。 (有關資料元素的更多資訊，請參閱「標記文件」中的「[資料元素](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/data-elements)」。
+資料元素是資料字典 (或資料地圖) 的建置組塊。 使用資料元素，在行銷和廣告技術之間收集、組織和傳遞資料。 您可在標記中設定從資料層讀取的資料元素，可用來將資料傳送至 Adobe Experience Platform。 (有關資料元素的更多資訊，請參閱「標記文件」中的「[資料元素](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/data-elements)」。
 
 以下部分說明建議的資料元素以及您可以設定的其他常見資料元素。
 
@@ -177,7 +184,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。 它們會尋�
 >
 >您可以在標籤中以各種方式使用規則來操控變數 (使用您的資料元素)。
 >
->如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=zh-Hant)。
+>如需詳細資訊，請參閱[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)。
 
 1. 使用您的 Adobe ID 認證登入 experience.adobe.com。
 
@@ -195,27 +202,27 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。 它們會尋�
 
    * **[!UICONTROL 事件]**：選取「**[!UICONTROL + 新增]**」。 然後，在「**[!UICONTROL 事件設定]**」對話框中，指定下列資訊。 完成後，選取「**[!UICONTROL 保留變更]**」。
 
-      * **[!UICONTROL 擴充功能]**：從清單中選取「**[!UICONTROL 核心]**」。
+     * **[!UICONTROL 擴充功能]**：從清單中選取「**[!UICONTROL 核心]**」。
 
-      * **[!UICONTROL 事件類型]**：從清單中選取「**[!UICONTROL 視窗已載入]**」。
+     * **[!UICONTROL 事件類型]**：從清單中選取「**[!UICONTROL 視窗已載入]**」。
 
-        ![規則 – 事件設定](assets/event-windowloaded-pageview.png)
+       ![規則 – 事件設定](assets/event-windowloaded-pageview.png)
 
    * **[!UICONTROL 動作]**：選取「**[!UICONTROL + 新增]**」。 然後，在「[!UICONTROL 動作設定]」對話框中，指定下列資訊。 完成後，選取「**[!UICONTROL 保留變更]**」。
 
-      * **[!UICONTROL 擴充功能]**：從清單中選取「**[!UICONTROL Adobe Experience Platform Web SDK]**」。
+     * **[!UICONTROL 擴充功能]**：從清單中選取「**[!UICONTROL Adobe Experience Platform Web SDK]**」。
 
-      * **[!UICONTROL 動作類型]**：從清單中選取「**[!UICONTROL 傳送事件]**」。
+     * **[!UICONTROL 動作類型]**：從清單中選取「**[!UICONTROL 傳送事件]**」。
 
-      * **[!UICONTROL 類型]**：從清單中選取 **[!UICONTROL web.webpagedetails.pageViews]**。
+     * **[!UICONTROL 類型]**：從清單中選取 **[!UICONTROL web.webpagedetails.pageViews]**。
 
-      * **[!UICONTROL XDM 資料]**：選取圓柱體圖示，然後從資料元素清單中選取「**[!UICONTROL XDM – 頁面檢視]**」。
+     * **[!UICONTROL XDM 資料]**：選取圓柱體圖示，然後從資料元素清單中選取「**[!UICONTROL XDM – 頁面檢視]**」。
 
-        ![規則 – 動作設定](assets/action-pageview-xdm.png)
+       ![規則 – 動作設定](assets/action-pageview-xdm.png)
 
-        您的規則應如下所示：
+       您的規則應如下所示：
 
-        ![建立規則](assets/rule-pageview.png)
+       ![建立規則](assets/rule-pageview.png)
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -225,13 +232,13 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。 它們會尋�
 
 1. 繼續[建立並發佈您的標記](#build-and-publish-your-tag)。
 
-## 建立並發佈您的標記
+## 建置並發佈您的標記
 
-定義資料元素和規則後，您必須建立並發佈標記。 建立程式庫組建時，必須將其指派至一個環境。 隨後組建的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。 每個環境都會提供唯一的嵌入程式碼，可讓您將指派的組建整合至您的網站。
+定義資料元素和規則後，您必須建置並發佈標記。 建立程式庫組建時，必須將其指派至一個環境。 隨後建置的擴充功能、規則和資料元素會經過編譯，並放入指派的環境中。 每個環境都會提供唯一的嵌入程式碼，可讓您將指派的組建整合至您的網站。
 
 Adobe Experience Platform 標籤支援簡單到複雜的發佈工作流程，以配合您部署 Adobe Experience Platform Web SDK。 如需詳細資訊，請參閱[發佈概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hant)。
 
-若要建置並發佈您的標籤：
+若要建置並發佈您的標記：
 
 1. 使用您的 Adobe ID 認證登入 experience.adobe.com。
 

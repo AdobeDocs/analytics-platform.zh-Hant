@@ -8,24 +8,32 @@ autotag-review: '2026-05-19T08:43:53.628Z'
 TQID: 'https://experienceleague.adobe.com/E0LdSu06SM3c1ZBnOcIz352mqIkTN7dXfH9qC1BM-4g'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: ddf59f64-0e46-4986-a525-056acc143c70
+    internal-label: Workspace visualizations
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1303
+source-wordcount: '1303'
 ht-degree: 93%
-
 ---
-
 # 歷程畫布疑難排解
 
 您可以利用歷程畫布視覺化圖表，針對您提供給使用者和客戶的歷程進行分析並獲取深入洞察。
@@ -58,13 +66,13 @@ ht-degree: 93%
 
 * 將&#x200B;**[!UICONTROL 事件]**&#x200B;設定為主要量度
 
-#### 情境 1：使用者 A 依循第一個工作階段的歷程路徑。 在後續的工作階段中，使用者發生只有後段節點符合的事件。
+#### 情境 1：使用者 A 在第一個工作階段依循歷程路徑。 在後續的工作階段中，使用者有一個事件只符合較後面的節點。
 
 假設使用者 A 造訪網站並完成歷程 (節點 1：「造訪網站」> 節點 2：「檢視產品 A」> 節點 3：「結帳」)。 由於使用者 A 有一個事件依照順序符合歷程的各個節點，因此事件會計入歷程的各個節點。
 
 現在，假設使用者 A 在之後的工作階段中再次造訪網站。 由於使用者 A 已依循歷程路徑而在先前的工作階段中完成歷程，因此每當使用者 A 發生符合歷程中任何節點的事件時，事件便會計入歷程中的相關節點，即便使用者 A 於其目前工作階段中並未依循歷程路徑。 例如，如果使用者 A 結帳，則事件會計入「結帳」節點。 這會造成「結帳」節點上的百分比和數量高於前一個節點「檢視產品 A」。
 
-於此範例中，歷程的容器設定為「個人」發揮了關鍵作用，能依此判斷第三個節點 (「結帳」) 上的事件是否要計入後續工作階段中。
+於此範例中，歷程的容器設定「個人」在判定第三個節點 (「結帳」) 上的事件會計入後續工作階段中時，發揮了關鍵作用。
 
 另一種情況是將容器設定為「工作階段」，則後續造訪中僅發生在第三個節點上的事件將不會計入歷程中，因為歷程中顯示的統計資料會限定為特定個人的單一已定義工作階段。 若要深入瞭解容器設定，請參閱文章[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)中的[開始建立歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)。
 
@@ -78,7 +86,7 @@ ht-degree: 93%
 
 ### 歷程將多個路徑聚合成單一節點
 
-您可以使用歷程畫布將多個開始節點包含在單一歷程中，由此產生多個路徑。 這些路徑可能會聚合成一個通用節點，導致在歷程中較晚出現的節點所顯示的百分比或數量，高於歷程中較早出現的節點。
+您可以使用歷程畫布將多個開始節點包含在單一歷程中，由此產生多個路徑。 這些路徑可能會匯聚到同一個共同節點，導致在歷程中較晚出現的節點所顯示的百分比或數量，高於歷程中較早出現的節點。
 
 ![有多個路徑聚合成單一節點的歷程](assets/journey-canvas-percentage-converge.png)
 

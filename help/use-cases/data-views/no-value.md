@@ -4,7 +4,19 @@ description: 瞭解Customer Journey Analytics報表中何時應該有**[!UICONTR
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: bc1e610ccf13ca831f40b2819a4665fe8ea21b7b
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
+subfeature_v2:
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 0%
@@ -105,7 +117,7 @@ Dimension專案分為三個類別之一：
 <td rowspan="3">處理選項</td>
 <td><img src="assets/treat-no-value-as-value.png"/></td>
 <td>僅適用於非數值維度。
-同時影響歸因和自由表格搜尋篩選器中的包含&#x200B;**[!UICONTROL 無值]**&#x200B;選項。</td>
+同時影響歸因和自由表格搜尋篩選器中的包含**[！UICONTROL無值]**選項。</td>
 <td>值處理與可見性</td>
 </tr>
 <tr>
@@ -202,4 +214,4 @@ Customer Journey Analytics不會為遺失或空白陣列建立預留位置或空
 
 >[!MORELIKETHIS]
 >
->[在Adobe Customer Journey Analytics中處理&#x200B;**[!UICONTROL 沒有值]**&#x200B;的完整行動手冊](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=zh-Hant)
+>[在Adobe Customer Journey Analytics中處理&#x200B;**[!UICONTROL 沒有值]**&#x200B;的完整行動手冊](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769)

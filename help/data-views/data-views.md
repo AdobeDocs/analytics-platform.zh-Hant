@@ -5,30 +5,43 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-TQID: https://experienceleague.adobe.com/WNPt241AppdCZVtsYmyLM2mRa2nqvrfYFbIP6K5NR1U
+TQID: 'https://experienceleague.adobe.com/WNPt241AppdCZVtsYmyLM2mRa2nqvrfYFbIP6K5NR1U'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1124
+source-wordcount: '1124'
 ht-degree: 88%
-
 ---
-
 # 資料檢視概觀
 
 資料檢視是特定於 Customer Journey Analytics 的容器，可讓您決定如何解釋來自[連線](/help/connections/create-connection.md)的資料。 它指定 Analysis Workspace 中可用的所有維度和量度，以及這些維度和量度從哪些欄取得資料。 資料檢視是為了在 Analysis Workspace 中報告資料而定義的。
@@ -47,12 +60,12 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 ## 資料檢視功能 {#capabilities}
 
-資料檢視可讓您自發地變更「資料檢視」中的「結構描述」元素設定，而不需變更 Adobe Experience Platform 的結構描述或重新實作 Customer Journey Analytics 環境。
+資料檢視可讓您自發地變更結構描述元素設定，而不需變更 Adobe Experience Platform 的結構描述或重新實作 Customer Journey Analytics 環境。
 
-* 您可以將元件從「量度」變更為「維度」，反之亦然。 您可以從字串欄位建立量度，或從數值欄位建立維度。 這功能可讓您的生活更輕鬆，因為您不需要在 XDM 結構描述中為每個所需的量度建立數值欄位。 您只需在資料檢視對話方塊中自發建立它。 以下是一些範例：
-   * **從單一結構描述欄位建立一個或多個量度和/或維度**。 這是一對多的關係。 例如，您可以從單一結構欄位建立一或多個「收入」量度及/或一或多個「收入」維度。
-   * **使用字串欄位做為量度**：當您在 Experience Platform 中填入資料集的結構描述時，您可能不知道您需要什麼結構描述元素。 例如，您可能沒有意識到您需要「*頁面上的錯誤*」量度。 因此，您並未就此建立數值結構描述元素。 現在，只要使用字串元素做為量度，您就可以使用資料檢視設定來指定只要字串包含 `error` 這個字，就可以將它當做量度。
-   * **使用數值欄位做為維度**：例如，如果您想從「收入」維度提取「收入」量度，「收入」維度會將每個值顯示為維度項目。 以及每個維度項目的例項數作為量度。
+* 您可以將元件從「量度」變更為「維度」，反之亦然。 您可以從字串欄位建立量度，或從數值欄位建立維度。 這功能可讓您的生活更輕鬆，因為您不需要在 XDM 結構描述中為每個所需的量度建立數值欄位。 您只需在資料檢視對話方塊中直接建立即可。 以下是一些範例：
+  * **從單一結構描述欄位建立一個或多個量度和/或維度**。 這是一對多的關係。 例如，您可以從單一結構描述欄位建立一或多個「收入」量度及/或一或多個「收入」維度。
+  * **使用字串欄位做為量度**：當您在 Experience Platform 中填入資料集的結構描述時，您可能不知道您需要什麼結構描述元素。 例如，您可能沒有意識到您需要「*頁面上的錯誤*」量度。 因此，您並未就此建立數值結構描述元素。 現在，只要使用字串元素做為量度，您就可以使用資料檢視設定來指定只要字串包含 `error` 這個字，就可以將它當做量度。
+  * **使用數值欄位做為維度**：例如，如果您想從「收入」維度提取「收入」量度，「收入」維度會將每個值顯示為維度項目。 以及每個維度項目的例項數作為量度。
 
 * 您可以使用不同的歸因模型或不同的回顧視窗，從相同的結構描述欄位建立多個量度。
 
@@ -62,13 +75,13 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * 您可以檢視有關元件的更多結構描述相關資訊。 例如：
 
-   * 元件源自哪個資料集類型 (事件、輪廓、查詢、摘要)，
-   * 結構描述型別（字串、整數等） 其來源為、和
-   * 結構描述路徑 (它所根據的 XDM 欄位)。
+  * 元件源自哪個資料集類型 (事件、輪廓、查詢、摘要)，
+  * 結構描述型別（字串、整數等） 其來源為、和
+  * 結構描述路徑 (它所根據的 XDM 欄位)。
 
 * 您可以標記元件，更輕鬆地在 Workspace 中搜尋它。
 
-* 您可以在報告中隱藏元件。 有些量度和維度設定需要第二個量度或維度才能進行設定 (例如，量度重複資料刪除或購買重複資料刪除)。 隱藏元件可讓您定義可在另一個元件的設定中使用的元件，而不會在報告中公開。
+* 您可以在報告中隱藏元件。 有些量度和維度設定需要第二個量度或維度才能進行設定 (例如，量度重複資料刪除或購買重複資料刪除)。 隱藏元件可讓您定義可在另一個元件的設定中使用的元件，而不會顯示在報告中。
 
 * 您可以套用格式至量度，例如顯示小數、時間、百分比或貨幣；指定小數位；呈綠色或紅色上升趨勢；以及指定貨幣選項。
 
@@ -86,7 +99,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 * 若要建立或管理資料檢視，您需要在 [Adobe Admin Console 中設定一組權限](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview)。
 * 如果您有使用 [Adobe Analytics 來源連接器](/help/data-ingestion/analytics.md)或確實具備 Adobe Analytics 背景知識，您可能會想了解結構描述和資料集中的欄位如何與其 Adobe Analytics 對應項相關聯。 如需更多資訊，請參閱 [Analytics 欄位對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics)。
 
-## 您可以在 Workspace 中覆寫資料檢視設定 {#settings-override}
+## 您可以在工作區中覆寫資料檢視設定 {#settings-override}
 
 有些資料檢視設定可在 Analysis Workspace 的專案層級覆寫，有些則無法覆寫。
 
@@ -94,7 +107,7 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 * 量度歸因
 * 使用者是否在報表中看到[!UICONTROL 無值]條列項目
 
-## 您無法在 Workspace 中覆寫資料檢視設定 {#settings-no-override}
+## 您無法在工作區中覆寫資料檢視設定 {#settings-no-override}
 
 * [!UICONTROL 元件類型]
 * 量度格式

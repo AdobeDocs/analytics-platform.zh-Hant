@@ -3,7 +3,18 @@ title: 為資料摘要套用資料轉換
 description: 瞭解透過元件設定、衍生欄位或SQL轉換資料摘要資料的不同方式。
 hide: true
 feature: Components
-source-git-commit: 3203774ba463c070783125e0b02ef8c391f46308
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 5%
@@ -52,7 +63,7 @@ ht-degree: 5%
 | **尋找並取代常值** | 未提供 | [尋找和取代](/help/data-views/derived-fields/derived-fields.md#find-and-replace) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中 | |
 | **格式化顯示值** | [格式](/help/data-views/component-settings/format.md) | 未提供 | 元件設定<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 困難 | <!-- Date-time formatting isn't yet reflected in data feed output — feeds currently show the standard timestamp regardless of this setting, though Adobe plans to support this for general availability. Whether numeric formats (decimal, currency, percent) on metrics affect data feed output is still being confirmed with the team.--> |
 | **從摘要資料集將維度分組** | 不適用 | 不適用 | 不適用 | 不適用 | 摘要資料群組僅適用於摘要資料集，不適用於資料摘要。 此轉換不適用於資料摘要輸出。 |
-| **處理空白（「無值」）欄位** | [無值選項](/help/data-views/component-settings/no-value-options.md)<br/>將「無值」視為值&#x200B;**選項適用於資料摘要，而[!UICONTROL **&#x200B;預設不顯示「無值」**]和[!UICONTROL **&#x200B;預設顯示「無值」**]選項不適用於資料摘要。** | 未提供 | 元件設定 | 不可能 | 所有「沒有值」會在最終資料摘要輸出中傳回為空值，而非傳回為「沒有值」字串。 |
+| **處理空白（「無值」）欄位** | [無值選項](/help/data-views/component-settings/no-value-options.md)<br/>將「無值」視為值&#x200B;**]選項適用於資料摘要，而[!UICONTROL **&#x200B;預設不顯示「無值」**]和[!UICONTROL **&#x200B;預設顯示「無值」**]選項不適用於資料摘要。[!UICONTROL ** | 未提供 | 元件設定 | 不可能 | 所有「沒有值」會在最終資料摘要輸出中傳回為空值，而非傳回為「沒有值」字串。 |
 | **從查詢資料集中查詢值** | 未提供 | [查詢](/help/data-views/derived-fields/derived-fields.md#lookup) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中<p>查閱表格必須已存在。</p> | |
 | **小寫字串** | [行為](/help/data-views/component-settings/behavior.md) | [小寫](/help/data-views/derived-fields/derived-fields.md#lowercase) | 元件設定<p>建議使用，因為：</p><ul><li>相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中（使用SQL時則不可能）</li><li>它不會佔用您其中一個有限的衍生欄位。</li></ul> | 簡易/適中 | |
 | **將多個欄位合併為一個** | 未提供 | [合併欄位](/help/data-views/derived-fields/derived-fields.md#merge) | 衍生欄位<p>為方便使用，建議您這麼做，因為相同的邏輯會一致地套用在Analysis Workspace和您的資料摘要輸出中。</p> | 簡易/適中 | |

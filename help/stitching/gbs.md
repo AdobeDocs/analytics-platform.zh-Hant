@@ -9,24 +9,32 @@ autotag-review: '2026-05-19T09:24:07.100Z'
 TQID: 'https://experienceleague.adobe.com/f-HOhKLpbM4u4MAzzoUCc0cMvVIu1k3FXg4FShValVE'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+    internal-label: Stitching
+  - id: b7fb3355-1f54-4380-bce3-d444b226c0e9
+    internal-label: Cross channel analysis
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 711e4bd71a4939eec96a6c454242e96b350fe4e2
+    internal-label: Privacy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 2017
+source-wordcount: '2017'
 ht-degree: 64%
-
 ---
-
 # 圖表型拼接
 
 在圖表式拚接中，您可以從身分圖表指定事件資料集、該資料集的永久ID (Cookie)和所需的人員ID名稱空間。 圖表式拚接會嘗試讓人員ID資訊可用於任何事件的Customer Journey Analytics資料分析。 永久ID是用來從Experience Platform Identity Service查詢身分圖表，以從指定的名稱空間取得人員ID。 這是其他Experience Platform應用程式（例如Real-Time Customer Data Platform）所使用的相同Identity Service （如下圖所示）。
@@ -35,7 +43,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->[Identity服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)是核心Experience Platform服務，不需要額外的授權。 如需詳細資訊，請參閱[瞭解Experience Platform基礎結構中Identity Service的角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home#understanding-the-role-of-identity-service-within-the-experience-platform-infrastructure)。
+>[Identity服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)是核心Experience Platform服務，不需要額外的授權。 如需詳細資訊，請參閱[瞭解Experience Platform基礎結構中Identity Service的角色](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home#understanding-the-role-of-identity-service-within-the-experience-platform-infrastructure)。
 >
 
 如果無法擷取事件的人員ID資訊，則會使用永續性ID來取代該&#x200B;*未拼接*&#x200B;事件。 因此，在與包含已啟用拼接資料集的[連線](/help/connections/overview.md)相關聯的[資料檢視](/help/data-views/data-views.md)中，人員ID資料檢視元件包含人員ID值或事件層級的永久ID值。
@@ -228,10 +236,10 @@ ht-degree: 64%
 - 在啟用圖表式拚接之前，必須先在沙箱層級設定Experience Platform Identity Service的身分圖表。
   - 身分圖表必須有名稱空間（例如`Email`或`Phone`），您想在拼接期間使用它來解析人員ID。
   - 身分圖表必須填入來自任何相關資料集（型別為&#x200B;*event*&#x200B;或&#x200B;*設定檔*，且至少包含兩個具有ID值的有用名稱空間）的身分資訊。
-  - 擁有這類相關身分的所有資料集都必須針對身分圖表資料擷取[&#128279;](faq.md#enable-a-dataset-for-the-identity-service)啟用。 這項啟用可確保隨著時間從所有需要的來源將傳入的身分新增到圖表中。
+  - 擁有這類相關身分的所有資料集都必須針對身分圖表資料擷取](faq.md#enable-a-dataset-for-the-identity-service)啟用[。 這項啟用可確保隨著時間從所有需要的來源將傳入的身分新增到圖表中。
   - 若已使用即時客戶資料設定檔或Adobe Journey Optimizer一段時間，則應已在一定程度上設定圖表。<br/>若啟用圖表式拚接的資料集也需要歷史拚接回填，圖表應已包含整個期間的歷史身分識別，才能取得想要的拚接結果。
 - 如果您想要使用圖表式拼接，而且您預期事件資料集會貢獻身分圖表，您應該[啟用身分服務的資料集](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)。
-- 永久ID和人員ID可搭配[identityMap](#identitymap)使用。 或者，永久性ID和人員ID可以是XDM結構描述中的欄位，在這種情況下，欄位必須是[在結構描述中定義為身分](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity?lang=en)。
+- 永久ID和人員ID可搭配[identityMap](#identitymap)使用。 或者，永久性ID和人員ID可以是XDM結構描述中的欄位，在這種情況下，欄位必須是[在結構描述中定義為身分](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en)。
 
 >[!NOTE]
 >

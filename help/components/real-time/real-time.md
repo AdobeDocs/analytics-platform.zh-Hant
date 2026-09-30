@@ -4,27 +4,37 @@ title: 即時報表概觀
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-TQID: https://experienceleague.adobe.com/Nvg6DVqDq-IwyPJgyDH2nOmNG41-aCRAYohlj7tjrj4
+TQID: 'https://experienceleague.adobe.com/Nvg6DVqDq-IwyPJgyDH2nOmNG41-aCRAYohlj7tjrj4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: d1779026-aeed-458e-a1c7-839d4acac922
+    internal-label: Real-time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 855
+source-wordcount: '855'
 ht-degree: 6%
-
 ---
-
 # 即時報告概觀
 
 Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis Workspace 中一個或多個面板內的資料和視覺化呈現內容。
@@ -43,16 +53,16 @@ Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis W
 * 即時報表最有價值的使用案例是關於主要銷售、促銷或產品推出。
 在這次啟動中，您想知道以下事項：
 
-   * 銷售與上次銷售相比如何？
-   * 此產品上市與上次產品上市有何不同？
-   * 您針對這個重要日子或活動的促銷活動是否真的有效？
+  * 銷售與上次銷售相比如何？
+  * 此產品上市與上次產品上市有何不同？
+  * 您針對這個重要日子或活動的促銷活動是否真的有效？
 
 * 即時報表的相關使用案例是驗證使用案例，但較不實用。
 例如，您要驗證：
 
-   * 您最近啟動的行銷活動歷程是否實際運作？
-   * 您的新產品頁面何時上線，您是否從頁面收集客戶資料？
-   * 您的即時媒體活動進行中嗎？
+  * 您最近啟動的行銷活動歷程是否實際運作？
+  * 您的新產品頁面何時上線，您是否從頁面收集客戶資料？
+  * 您的即時媒體活動進行中嗎？
 
 請勿將作業監控使用案例的即時報告列入考量。 例如，回答網站是否正常運作的問題。 由於[即時重新整理切換](use-real-time.md)會在30分鐘後自動停用，而即時報表會停止重新整理，因此您不應使用即時報表作為這些使用案例的可靠來源。
 
@@ -88,5 +98,5 @@ Customer Journey Analytics 中的即時報告會即時顯示並更新 Analysis W
 * 您無法結合拼接與即時報告。 即時報表是針對事件和工作階段層級的資料，與以人員為基礎的資料較不相關。
 * 除了媒體開始和媒體關閉量度外，沒有可用的心率收集媒體量度。 因此，您仍可使用即時報告來啟用媒體使用案例。
 * 當您使用[下載或匯出選項](/help/analysis-workspace/export/download-send.md)下載專案或從自由表格匯出資料時，請考慮下列事項：
-   * 下載的CSV專案或匯出的CSV檔案包含下載或匯出時可用的即時資料。
-   * 下載的PDF專案包含非即時資料，類似於停用即時重新整理時顯示的資料。
+  * 下載的CSV專案或匯出的CSV檔案包含下載或匯出時可用的即時資料。
+  * 下載的PDF專案包含非即時資料，類似於停用即時重新整理時顯示的資料。
