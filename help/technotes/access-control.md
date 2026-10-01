@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2a01268e537fb7982f698ccf9c14b831edf8437f
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 96%
+source-wordcount: '1764'
+ht-degree: 74%
 ---
 # 存取控制
 
@@ -112,10 +112,10 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
 除了在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 的 **Customer Journey Analytics 產品輪廓**&#x200B;中新增為產品管理員外，還需要其他權限才能在 Customer Journey Analytics 中完成下列工作：
 
-* 建立、更新及刪除[資料視圖](/help/data-views/data-views.md)。
+* 建立、更新及刪除[資料檢視](/help/data-views/data-views.md)
 * 建立、更新及刪除[連線](/help/connections/overview.md)
 
-  若要執行此工作，使用者必須屬於提供下列權限的 **Experience Platform 產品輪廓**：
+  若要執行此工作，使用者必須屬於提供下列許可權的&#x200B;**Experience Platform角色**：
 
   | 類別 | 權限 | 說明 |
   |---|---|---|
@@ -125,10 +125,21 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
   | [!UICONTROL 資料管理] | [!UICONTROL 檢視資料集] | 資料集和結構描述的唯讀存取權。 |
   | [!UICONTROL 身分管理] | [!UICONTROL 檢視身分識別命名空間] | 身分識別命名空間的唯讀存取權。 |
 
-  如需關於 Experience Platform 權限的更多資訊，請參閱[管理產品輪廓的權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
+  如需Experience Platform角色的詳細資訊，請參閱[存取控制總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)。
 
+* 管理[共用的度量與維度](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 
-* 如果 Journey Optimizer 與存在 Journey Optimizer 連線的 Customer Journey Analytics 整合，則也必須新增歷程權限方可存取連線：
+  若要存取&#x200B;**共用度量與維度**&#x200B;管理員，使用者必須屬於提供下列許可權的&#x200B;**Experience Platform角色**：
+
+  | 類別 | 權限 | 說明 |
+  |---|---|---|
+  | [!UICONTROL 沙箱] | [!UICONTROL 全部] | 存取所有沙箱。 |
+  | [!UICONTROL 資料治理] | [!UICONTROL 檢視資料使用原則] | 屬於您組織的資料使用原則的唯讀存取權。 |
+  | [!UICONTROL 資料治理] | [!UICONTROL 管理資料使用原則] | 讀取、建立、編輯和刪除資料使用原則的存取權。 |
+
+  如需Experience Platform許可權的詳細資訊，請參閱[沙箱和許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)。
+
+* 如果Journey Optimizer與存在Journey Optimizer連線的Customer Journey Analytics整合，則也必須新增[歷程許可權](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability)才能存取連線：
 
   | 類別 | 權限 | 說明 |
   |---|---|---|
@@ -139,20 +150,21 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
 * 將資料集匯出至[目標](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets)
 
-  若要執行此工作，使用者必須屬於提供下列權限的 **Experience Platform 產品輪廓**：
+  若要執行此工作，使用者必須屬於提供下列[目的地許可權](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home#access-controls)的&#x200B;**Experience Platform角色**：
 
   | 類別 | 權限 | 說明 |
   |---|---|---|
   | [!UICONTROL 目標] | [!UICONTROL 管理目標] | 讀取、建立和刪除目標連線和目標帳戶的存取權。 |
   | [!UICONTROL 目標] | [!UICONTROL 啟用目標] | 允許使用者將區段啟用至現有目標。 在啟動工作流程中啟用對應步驟。 此權限也會要求針對想要對目標啟用資料的使用者授予「檢視目標」權限。 |
 
-  如需關於 Experience Platform 權限的更多資訊，請參閱[管理產品輪廓的權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
+  如需Experience Platform許可權的詳細資訊，請參閱[沙箱和許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)。
+
 
 * 使用 [BI 擴充功能](../data-views/bi-extension.md)
 
   若要讓使用者能夠使用 BI 擴充功能，產品管理員
 
-  * 必須確保使用者的 Experience Platform 權限中包含的角色，具有查詢服務資源以及「管理查詢」和「管理查詢服務整合」選項。 如需關於 Experience Platform 權限的更多資訊，請參閱[管理產品輪廓的權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/permissions)。
+  * 必須確定使用者的Experience Platform許可權包含某個角色，該角色具有包含管理查詢及管理查詢服務整合選項的查詢服務資源。 如需Experience Platform許可權的詳細資訊，請參閱[存取控制總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)。
 
     | 類別 | 權限 | 說明 |
     |---|---|---|
@@ -160,20 +172,20 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
     | [!UICONTROL 查詢服務] | [!UICONTROL 管理查詢服務整合] | 可建立、更新和刪除適用於存取查詢服務的永不過期認證。 |
 
   * 必須確保使用者具有適當的 Customer Journey Analytics 權限：
-    * 存取相關資料視圖的權限。 請參閱[使用者層級存取權](#user-level-access)中的[!UICONTROL 資料視圖]。
+    * 存取相關資料檢視的許可權。 請參閱[使用者層級存取權](#user-level-access)中的[!UICONTROL 資料視圖]。
     * 存取 Customer Journey Analytics BI 擴充功能的權限。 請參閱[使用者層級存取權](#user-level-access)中的[!UICONTROL 資料視圖工具]。
 
 ### 產品輪廓管理員角色
 
 產品輪廓是一組權限。 產品管理員可以建立產品輪廓，並可指派產品輪廓管理員來管理一個或多個產品輪廓。 然後，產品輪廓管理員可以：
 
-* 管理獲指派的產品輪廓。 例如新增或移除使用者或使用者群組，以及修改產品輪廓的權限。
+* 新增或移除使用者或使用者群組，並修改產品設定檔的許可權，以管理指派的產品設定檔。
 
 * 在 Customer Journey Analytics 中，編輯屬於獲指派產品設定檔一部分的資料釋圖。 產品輪廓管理員無法建立新的資料視圖。
 
 ### 使用者層級存取權
 
-下表概述不同的 Customer Journey Analytics 功能有哪些主要存取權限，而您可以針對相關使用者設定這些權限。 您可以透過產品輪廓管理不同層級的使用者存取權。 產品輪廓結合大量權限，而您可以將這些權限指派給單一使用者或使用者群組。
+下表概述不同的 Customer Journey Analytics 功能有哪些主要存取權限，而您可以針對相關使用者設定這些權限。 您可以透過產品設定檔管理不同的使用者存取層級。 產品輪廓結合大量權限，而您可以將這些權限指派給單一使用者或使用者群組。
 
 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中每個產品輪廓都有「**[!UICONTROL 權限]**」索引標籤。
 
@@ -216,18 +228,18 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
 ### 第三方存取
 
-您可以將產品輪廓管理存取權提供給與貴公司合作的第三方的團隊負責人。 此管理員可以將其公司團隊中的使用者新增到此產品輪廓中。 此產品輪廓管理員可以授予對特定資料視圖的存取權，並將第三方中的其他使用者新增至此產品輪廓。 產品輪廓管理員可以根據第三方團隊的要求來修改資料視圖。
+您可以向貴公司合作的協力廠商的團隊負責人提供產品設定檔管理存取權。 此管理員可以將其公司團隊中的使用者新增到此產品輪廓中。 此產品輪廓管理員可以授予對特定資料視圖的存取權，並將第三方中的其他使用者新增至此產品輪廓。 產品輪廓管理員可以根據第三方團隊的要求來修改資料視圖。
 
 ### 列層級存取控制
 
-您想要只讓使用者存取單日的資料。 您可以用以下方法限制只能存取這些特定的列：
+您想要只讓使用者存取單日的資料。 以下說明如何限制這些特定列的存取權：
 
 1. 在特定資料視圖的「[!UICONTROL 設定]」中建立區段，其中「[!UICONTROL 天]」等於您允他們存取資料的日期。 請參閱[建立資料視圖](/help/data-views/create-dataview.md#settings-filters)了解更多資訊。
 1. 儲存資料釋圖，這會將區段套用至底層連線中資料集的資料部分。 任何不符合區段定義的列都會自動從資料釋圖中排除，且使用此資料釋圖時，Analysis Workspace 無法使用這些列。
-1. 在 Admin Console 中建立新的[產品輪廓](#product-profile-admin-role)，將使用者新增至產品輪廓，並僅將此特定資料視圖加入產品輪廓。
+1. 在Admin Console中建立新的[產品設定檔](#product-profile-admin-role)，將使用者新增至產品設定檔，並在產品設定檔中僅包含此特定資料檢視。
 
 ### 值層級存取控制
 
-擁有資料釋圖存取權的使用者，只能使用管理員已包含在此資料釋圖中的量度和維度。 管理員可以在資料視圖中使用[包含/排除功能](/help/data-views/component-settings/include-exclude-values.md)或[值分組](../data-views/component-settings/value-bucketing.md)元件設定，從資料視圖中排除或彙總某些維度值。
+擁有資料釋圖存取權的使用者，只能使用管理員已包含在此資料釋圖中的量度和維度。 管理員可以在資料檢視中使用[包含/排除功能](/help/data-views/component-settings/include-exclude-values.md)或[值分組](../data-views/component-settings/value-bucketing.md)元件設定，以從資料檢視中排除或彙總某些維度值。
 
-例如：您在資料視圖中，使用包含資料集中個別患者資料的元件，建立名為&#x200B;*高血壓*&#x200B;的量度。 您使用值分組，僅提供對分組值的存取權，因此資料的使用者看不到個別患者的資料。
+例如：您在資料視圖中，使用包含資料集中個別患者資料的元件，建立名為&#x200B;*高血壓*&#x200B;的量度。 您使用值分組來僅提供對分組值的存取權，因此資料的使用者看不到個別患者的資料。
