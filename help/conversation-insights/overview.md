@@ -17,9 +17,9 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
+source-git-commit: 3acb31df785d038def3432a9734b499810636860
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1117'
 ht-degree: 1%
 ---
 # 交談見解
@@ -168,7 +168,7 @@ ht-degree: 1%
 | | 說明 |
 |---|---|
 | 1 | 您可以檢測代理程式應用程式或服務，以建立包含提示![CommentText](/help/assets/icons2/CommentText.svg)、回應![CommentReply](/help/assets/icons2/CommentReply.svg)和回饋![回饋](/help/assets/icons2/Feedback.svg)資料集的事件。<br/>如需如何檢測代理程式應用程式或服務的詳細資訊，請參閱[實作檔案](./implement.md)。 |
-| 2 | 訊號擷取服務會從提示![CommentText](/help/assets/icons2/CommentText.svg)、回應![CommentReply](/help/assets/icons2/CommentReply.svg)和意見資料集![Feedback](/help/assets/icons2/Feedback.svg)擷取訊號，做為訊號事件![OnAir](/help/assets/icons/OnAir.svg)，並將這些訊號事件儲存在新的資料集中。<br>此步驟已實作為[交談深入分析設定](./configure.md)定義的一部分。 |
-| 3 | 交談混合器服務會混合來自提示![CommentText](/help/assets/icons2/CommentText.svg)、回應![CommentReply](/help/assets/icons2/CommentReply.svg)、回饋![Feedback](/help/assets/icons2/Feedback.svg)和訊號![OnAir](/help/assets/icons/OnAir.svg)事件資料集的事件，並將混合的![Merge](/help/assets/icons/Merge.svg)事件輸出到新的資料集中。<br>此步驟已實作為[交談深入分析設定](./configure.md)定義的一部分。 |
-| 4 | 混合的![Merge](/help/assets/icons/Merge.svg)資料整合為連線的一部分，而用於混合資料集的結構描述中所定義的元件成為資料檢視的一部分。<br>此步驟已實作為[交談深入分析設定](./configure.md)定義的一部分。 |
+| 2 | 訊號擷取服務會從提示![CommentText](/help/assets/icons2/CommentText.svg)、回應![CommentReply](/help/assets/icons2/CommentReply.svg)和意見資料集![Feedback](/help/assets/icons2/Feedback.svg)擷取訊號，做為訊號事件![OnAir](/help/assets/icons/OnAir.svg)，並將這些訊號事件儲存在新的資料集中。<br>此步驟已實作為[交談深入分析組態](./configure.md)定義的一部分。 |
+| 3 | 交談混合器服務會混合來自提示![CommentText](/help/assets/icons2/CommentText.svg)、回應![CommentReply](/help/assets/icons2/CommentReply.svg)、回饋![Feedback](/help/assets/icons2/Feedback.svg)和訊號![OnAir](/help/assets/icons/OnAir.svg)事件資料集的事件，並將混合的![Merge](/help/assets/icons/Merge.svg)事件輸出到新的資料集中。<br>此步驟已實作為[交談深入分析組態](./configure.md)定義的一部分。 |
+| 4 | 混合的![Merge](/help/assets/icons/Merge.svg)資料整合為連線的一部分，而用於混合資料集的結構描述中所定義的元件成為資料檢視的一部分。<br>此步驟已實作為[交談深入分析組態](./configure.md)定義的一部分。 |
 
