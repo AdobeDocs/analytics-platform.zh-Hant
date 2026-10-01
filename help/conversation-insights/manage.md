@@ -16,7 +16,7 @@ feature_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 6%
@@ -28,6 +28,7 @@ ht-degree: 6%
 只有系統管理員可以管理「交談見解」設定。
 
 如需對話深入分析的相關資訊，請參閱[對話深入分析概觀](/help/conversation-insights/overview.md)。
+
 
 ## 檢視和篩選現有設定
 
@@ -82,7 +83,7 @@ ht-degree: 6%
    * 選取您要編輯的組態旁邊的核取方塊，然後從藍色動作列選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
    * 針對您要編輯的組態選取![更多](/help/assets/icons/More.svg)。 從內容功能表選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
 
-1. 使用組態&#x200B;_&#x200B;**[&#128279;](./configure.md)對話方塊的**&#x200B;組態/_&#x200B;名稱來管理交談見解。
+1. 使用組態&#x200B;_]**](./configure.md)對話方塊的[**[!UICONTROL 組態/_&#x200B;名稱來管理交談見解。
 
 ## 刪除設定
 

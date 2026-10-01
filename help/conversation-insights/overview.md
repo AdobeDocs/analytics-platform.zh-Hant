@@ -17,7 +17,7 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 1%
@@ -151,6 +151,7 @@ ht-degree: 1%
 如果您的代理程式體驗應用程式支援技能的呼叫，這些技能代表處理期間呼叫的功能，您可以將這些技能呼叫新增為代理程式資訊欄位群組的一部分。
 
 如需實作詳細資料，請參閱[實作交談見解](./implement.md)檔案中的[代理資訊](./implement.md#agentic-information-field-group)欄位群組。
+
 
 ## 運作方式
 
