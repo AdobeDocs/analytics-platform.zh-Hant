@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3512'
 ht-degree: 63%
 ---
 # 透過行動SDK擷取資料
@@ -380,7 +380,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。 它們會尋�
 
      - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 
-   - 按一下[!UICONTROL 行動核心 — 前景]旁的![加號](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)。
+   - 按一下[!UICONTROL 行動核心 — 前景]旁的![加號](/help/assets/icons/AddCircle.svg)。
 
      - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL 行動核心]**。
 
@@ -388,7 +388,7 @@ Adobe Experience Platform 中的標籤會遵循規則型系統。 它們會尋�
 
      - 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 
-   - 按一下[!UICONTROL ACTIONS]底下的![加上](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)新增。 在[!UICONTROL 動作設定] 對話框：
+   - 按一下[!UICONTROL ACTIONS]底下的![加上](/help/assets/icons/AddCircle.svg)新增。 在[!UICONTROL 動作設定] 對話框：
 
      - 從[!UICONTROL 擴充功能]清單中選取&#x200B;**[!UICONTROL Adobe Experience Platform Edge Network]**。
 
@@ -447,9 +447,9 @@ Adobe Experience Platform標籤支援從簡單到複雜的發佈工作流程，�
 
 1. 選取左側邊欄中的&#x200B;**[!UICONTROL 「環境」]**。
 
-2. 從環境清單中，選取正確的安裝![Box](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Box_18_N.svg)按鈕。
+2. 從環境清單中，選取正確的安裝![Box](/help/assets/icons/Box.svg)按鈕。
 
-   在[!UICONTROL 行動安裝指示]對話方塊中，選取適當的平台([!UICONTROL iOS]，[!UICONTROL Android])。 然後使用您想要用來設定和初始化行動應用程式的每個相關程式碼片段旁的復本![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg)按鈕：
+   在[!UICONTROL 行動安裝指示]對話方塊中，選取適當的平台([!UICONTROL iOS]，[!UICONTROL Android])。 然後使用您想要用來設定和初始化行動應用程式的每個相關程式碼片段旁的復本![複製](/help/assets/icons/Copy.svg)按鈕：
 
    ![環境](./assets/environment-mobile.png)
 

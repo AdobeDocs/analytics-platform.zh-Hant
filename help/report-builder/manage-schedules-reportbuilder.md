@@ -9,18 +9,20 @@ exl-id: 0a0427d9-223e-410b-a8ef-8601390d88aa
 TQID: https://experienceleague.adobe.com/HcKyD-v3I1hsxWwiDZJwgvO9pH9ifBVOjBapARdYQVQ
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Admin
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 6%
-
+source-wordcount: '381'
+ht-degree: 4%
 ---
-
 # 管理安排的活頁簿
 
 您可以排程活頁簿以透過電子郵件或匯出至雲端目的地來共用，如下列文章所述：
@@ -49,7 +51,7 @@ ht-degree: 6%
 
    * 選取欄圖示![ColumnSetting](/help/assets/icons/ColumnSetting.svg)以定義要顯示的欄。
 
-   * 選取篩選圖示![篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後選取&#x200B;[!UICONTROL **全部顯示**]&#x200B;以顯示指定組織的所有排程活頁簿。
+   * 選取篩選圖示![篩選圖示](/help/assets/icons/Filter.svg)，然後選取&#x200B;[!UICONTROL **全部顯示**]&#x200B;以顯示指定組織的所有排程活頁簿。
 
 1. 選取一或多個活頁簿。
 

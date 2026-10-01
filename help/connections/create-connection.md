@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 6acb1ca076e28e8da4bbc1920837cea9216777e1
+source-git-commit: 91497f695a693fd15135dc5173e8a35537616e72
 workflow-type: tm+mt
-source-wordcount: '10738'
-ht-degree: 90%
+source-wordcount: '10677'
+ht-degree: 89%
 ---
 # 建立或編輯連線 {#create-or-edit-a-connection}
 
@@ -560,7 +560,7 @@ ht-degree: 90%
 
    | 欄 | 說明 |
    |---|---|
-   | **[!UICONTROL 資料集]** | 資料集的名稱。 選取名稱即可將您導向 Experience Platform 中的資料集。 選取「![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)」可顯示含有資料集更多詳細資訊的快顯視窗。 您可以選取「**[!UICONTROL 在 Platform 中編輯]**」，以直接在 Experience Platform 編輯資料集。 |
+   | **[!UICONTROL 資料集]** | 資料集的名稱。 選取名稱即可將您導向 Experience Platform 中的資料集。 選取![資訊大綱](/help/assets/icons/InfoOutline.svg)以顯示包含資料集詳細資訊的快顯視窗。 您可以選取「**[!UICONTROL 在 Platform 中編輯]**」，以直接在 Experience Platform 編輯資料集。 |
    | **[!UICONTROL 資料集類型]** | 資料集類型：[事件](#event-dataset)、[輪廓](#profile-dataset)、[查詢](#lookup-dataset)、[摘要](#summary-dataset)、[臨時](#ad-hoc-dataset)或[關聯式](#relational-dataset)。 |
    | **[!UICONTROL 記錄數量]** | Experience Platform 中資料集的上個月記錄總數。 |
    | **[!UICONTROL 結構描述]** | 資料集的結構描述。 選取名稱，將您導向 Experience Platform 中的結構描述。 |
@@ -568,10 +568,10 @@ ht-degree: 90%
    | **[!UICONTROL 資料集 ID]** | 資料集的 ID。 |
    | **[!UICONTROL 最後更新時間]** | 資料集的最後更新時間戳記。 |
 
-   * 若要變更資料集清單中顯示的欄，請選取「![欄位設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)」並選取要在「[!UICONTROL 自訂表格]」對話框中顯示的欄。
-   * 要搜尋特定資料集，請使用搜尋欄位「![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」。
-   * 要讓所選資料集切換為顯示或隱藏，請選取「![選取](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg)」「**[!UICONTROL 隱藏已選取]**」或者「**[!UICONTROL 顯示已選取]**」。
-   * 要將已選取資料集清單中的資料集刪除，請使用「![關閉](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)」。 要刪除所有已選取的資料集，請選取「**[!UICONTROL 全部清除]**」。
+   * 若要變更資料集清單所顯示的資料行，請選取![資料行設定](/help/assets/icons/ColumnSetting.svg)，並選取要在[!UICONTROL 自訂資料表]對話方塊中顯示的資料行。
+   * 要搜尋特定資料集，請使用搜尋欄位「![搜尋](/help/assets/icons/Search.svg)」。
+   * 若要切換顯示或隱藏選取的資料集，請選取![SelectBoxAll](/help/assets/icons/SelectBoxAll.svg) **[!UICONTROL 隱藏選取的專案]**&#x200B;或&#x200B;**[!UICONTROL 顯示選取的專案]**。
+   * 要將已選取資料集清單中的資料集刪除，請使用「![關閉](/help/assets/icons2/Close.svg)」。 要刪除所有已選取的資料集，請選取「**[!UICONTROL 全部清除]**」。
    * 若要顯示資料集的詳細資料，請選取「![資訊大綱](/help/assets/icons/InfoOutline.svg)」。
 
 
@@ -623,7 +623,7 @@ ht-degree: 90%
 
    | 欄 | 說明 |
    |---|---|
-   | **[!UICONTROL 資料集]** | 資料集的名稱。 選取名稱即可將您導向 Experience Platform 中的資料集。 選取「![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)」可顯示含有資料集更多詳細資訊的快顯視窗。 您可以選取「**[!UICONTROL 在 Platform 中編輯]**」，以直接在 Experience Platform 編輯資料集。 |
+   | **[!UICONTROL 資料集]** | 資料集的名稱。 選取名稱即可將您導向 Experience Platform 中的資料集。 選取「![資訊](/help/assets/icons/InfoOutline.svg)」可顯示含有資料集更多詳細資訊的快顯視窗。 您可以選取「**[!UICONTROL 在 Platform 中編輯]**」，以直接在 Experience Platform 編輯資料集。 |
    | **[!UICONTROL 資料集類型]** | 資料集類型：[事件](#event-dataset)、[輪廓](#profile-dataset)、[查詢](#lookup-dataset)、[摘要](#summary-dataset)、[臨時](#ad-hoc-dataset)或[關聯式](#relational-dataset)。 |
    | **[!UICONTROL 記錄數量]** | Experience Platform 中資料集的上個月記錄總數。 |
    | **[!UICONTROL 結構描述]** | 資料集的結構描述。 選取名稱，將您導向 Experience Platform 中的結構描述。 |
@@ -631,10 +631,10 @@ ht-degree: 90%
    | **[!UICONTROL 資料集 ID]** | 資料集的 ID。 |
    | **[!UICONTROL 最後更新時間]** | 資料集的最後更新時間戳記。 |
 
-   * 若要變更資料集清單中顯示的欄，請選取「![欄位設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)」並選取要在「[!UICONTROL 自訂表格]」對話框中顯示的欄。
-   * 要搜尋特定資料集，請使用搜尋欄位「![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」。
-   * 要讓所選資料集切換為顯示或隱藏，請選取「![選取](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg)」「**[!UICONTROL 隱藏已選取]**」或者「**[!UICONTROL 顯示已選取]**」。
-   * 要將已選取資料集清單中的資料集刪除，請使用「![關閉](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)」。 要刪除所有已選取的資料集，請選取「**[!UICONTROL 全部清除]**」。
+   * 若要變更資料集清單中顯示的欄，請選取「![欄位設定](/help/assets/icons/ColumnSetting.svg)」並選取要在「[!UICONTROL 自訂表格]」對話框中顯示的欄。
+   * 要搜尋特定資料集，請使用搜尋欄位「![搜尋](/help/assets/icons/Search.svg)」。
+   * 要讓所選資料集切換為顯示或隱藏，請選取「![選取](/help/assets/icons/SelectBoxAll.svg)」「**[!UICONTROL 隱藏已選取]**」或者「**[!UICONTROL 顯示已選取]**」。
+   * 要將已選取資料集清單中的資料集刪除，請使用「![關閉](/help/assets/icons/Close.svg)」。 要刪除所有已選取的資料集，請選取「**[!UICONTROL 全部清除]**」。
    * 若要顯示資料集的詳細資料，請選取「![資訊大綱](/help/assets/icons/InfoOutline.svg)」。
 
 

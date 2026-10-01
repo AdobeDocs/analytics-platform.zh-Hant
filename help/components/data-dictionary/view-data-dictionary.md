@@ -7,28 +7,38 @@ exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
 TQID: https://experienceleague.adobe.com/b-y-D9Ba6SlV0tW8D1btQLWYU32HpKrgG3DIftie1W8
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
+    internal-label: Data Dictionary
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Experimentation
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 1364
-ht-degree: 62%
-
+source-wordcount: '1322'
+ht-degree: 61%
 ---
-
 # 檢視元件資訊
 
 資料字典可讓您檢視元件的相關資訊，包括其說明、類似元件、元件經常搭配使用的其他元件等等。
@@ -51,19 +61,19 @@ ht-degree: 62%
 
    元件的類型可依據顏色和圖示加以識別。
 
-   * **維度** ![Dimension圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)為橘色
+   * **維度** ![Dimension圖示](/help/assets/icons/Data.svg)為橘色
 
-   * **區段** ![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)為藍色
+   * **區段** ![區段圖示](/help/assets/icons/Segmentation.svg)為藍色
 
-   * **日期範圍** ![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)為紫色
+   * **日期範圍** ![日期範圍圖示](/help/assets/icons/Calendar.svg)為紫色
 
-   * **量度** ![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)為綠色
+   * **量度** ![量度圖示](/help/assets/icons/Event.svg)為綠色
 
    * **Adobe圖示** ![Adobe圖示](assets/default-calc-metric-icon.png)表示計算量度範本或區段範本
 
-   * **計算器圖示** ![計算器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)表示貴組織中Analytics管理員所建立的計算量度
+   * **計算器圖示** ![計算器圖示](/help/assets/icons/Calculator.svg)表示貴組織中Analytics管理員所建立的計算量度
 
-1. (可選) 選取 **篩選器** 圖示 ![資料字典篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後選擇以下任一篩選器選項以篩選元件清單：
+1. (可選) 選取 **篩選器** 圖示 ![資料字典篩選器圖示](/help/assets/icons/Filter.svg)，然後選擇以下任一篩選器選項以篩選元件清單：
 
    | 選項 | 函數 |
    |---------|----------|
@@ -82,7 +92,7 @@ ht-degree: 62%
 
    {style="table-layout:auto"}
 
-1. (可選) 選取「**排序**」圖示 ![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取以下任一篩選器選項以將元件清單排序：
+1. (可選) 選取「**排序**」圖示 ![排序元件圖示](/help/assets/icons/SortOrderDown.svg)，然後選取以下任一篩選器選項以將元件清單排序：
 
    | 選項 | 函數 |
    |---------|----------|

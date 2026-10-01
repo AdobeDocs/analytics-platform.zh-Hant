@@ -4,7 +4,6 @@ description: 瞭解如何管理「交談見解」設定。
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -13,23 +12,23 @@ feature_v2:
     internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
-role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 6%
 ---
 # 管理設定
 
-在您[建立交談見解設定](/help/conversation-insights/conversation-insights-configure.md)之後，您可以檢視、編輯或刪除這些設定。
+在您[建立交談見解設定](/help/conversation-insights/configure.md)之後，您可以檢視、編輯或刪除這些設定。
 
 只有系統管理員可以管理「交談見解」設定。
 
-如需對話深入分析的相關資訊，請參閱[對話深入分析概觀](/help/conversation-insights/conversation-insights-overview.md)。
+如需對話深入分析的相關資訊，請參閱[對話深入分析概觀](/help/conversation-insights/overview.md)。
+
 
 ## 檢視和篩選現有設定
 
@@ -72,7 +71,7 @@ ht-degree: 6%
 若要建立新的「交談見解」設定：
 
 1. 選取「**[!UICONTROL 建立設定]**」。
-1. 使用[**[!UICONTROL 建立設定]**](./conversation-insights-configure.md)對話方塊來設定交談見解。
+1. 使用[**[!UICONTROL 建立設定]**](./configure.md)對話方塊來設定交談見解。
 
 ## 編輯設定
 
@@ -84,7 +83,7 @@ ht-degree: 6%
    * 選取您要編輯的組態旁邊的核取方塊，然後從藍色動作列選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
    * 針對您要編輯的組態選取![更多](/help/assets/icons/More.svg)。 從內容功能表選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
 
-1. 使用組態&#x200B;_&#x200B;**[&#128279;](./conversation-insights-configure.md)對話方塊的**&#x200B;組態/_&#x200B;名稱來管理交談見解。
+1. 使用組態&#x200B;_&#x200B;**[&#128279;](./configure.md)對話方塊的**&#x200B;組態/_&#x200B;名稱來管理交談見解。
 
 ## 刪除設定
 

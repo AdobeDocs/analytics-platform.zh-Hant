@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '10602'
+source-wordcount: '10578'
 ht-degree: 98%
 ---
 # 衍生欄位 {#derived-fields}
@@ -877,10 +877,10 @@ Customer Journey Analytics 會使用以下預設容器模型：
 
 分類規則介面還提供以下附加功能：
 
-- 若要快速清除所有表格值，請選取 ![清除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL 清除所有表格值]**。
-- 若要上傳 CSV 文件且其中含有「當值相等於」的原始值和「取代值為」的新值，請選取 ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL 「上傳 CSV」]**。
-- 若要下載用來建立包含原始值和新值的 CSV 檔案範本，請選取 ![下載](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL 「下載 CSV 範本」]**。
-- 若要下載 CSV 檔案及規則介面中填入了所有原始值和新值，請選取 ![下載](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL 「下載 CSV 值」]**。
+- 若要快速清除所有表格值，請選取 ![清除](/help/assets/icons/Erase.svg) **[!UICONTROL 清除所有表格值]**。
+- 若要上傳 CSV 文件且其中含有「當值相等於」的原始值和「取代值為」的新值，請選取 ![CSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 「上傳 CSV」]**。
+- 若要下載用來建立包含原始值和新值的 CSV 檔案範本，請選取 ![下載](/help/assets/icons/Download.svg) **[!UICONTROL 「下載 CSV 範本」]**。
+- 若要下載 CSV 檔案及規則介面中填入了所有原始值和新值，請選取 ![下載](/help/assets/icons/Download.svg) **[!UICONTROL 「下載 CSV 值」]**。
 
 
 +++

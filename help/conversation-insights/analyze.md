@@ -4,7 +4,6 @@ description: 瞭解如何分析交談見解。
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -18,11 +17,12 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
 ---
+
 # 分析對話深入分析
 
 ## 簡單分析
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 * 結合您的交談深入分析事件與其他事件資料集及其他設定檔和查詢資料集。 將這些資料集新增到您為「交談見解」設定選取的連線。
 * 新增其他元件（量度和維度）至您為對話深入分析設定選取的資料檢視。
-* ...
+
 
 +++ 範例專案
 

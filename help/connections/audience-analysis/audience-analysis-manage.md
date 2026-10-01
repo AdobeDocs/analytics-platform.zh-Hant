@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 5%
+source-wordcount: '296'
+ht-degree: 2%
 ---
 # 管理對象分析設定{#manage-audience-analysis}
 
@@ -65,9 +65,9 @@ ht-degree: 5%
 
    * **[!UICONTROL 狀態]**：組態的狀態。 可能的狀態包括「完成」、「進行中」或「失敗」。<!--true?-->
 
-   您可以選取欄圖示![欄圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)，取消選取您要隱藏的任何欄，然後選取&#x200B;**[!UICONTROL 套用]**，以隱藏任何欄。
+   您可以選取欄圖示![欄圖示](/help/assets/icons2/ColumnSettings.svg)，取消選取您要隱藏的任何欄，然後選取&#x200B;**[!UICONTROL 套用]**，以隱藏任何欄。
 
-1. （選擇性）若要篩選設定清單，請選取&#x200B;**篩選** ![對象分析篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後依下列任一條件篩選：
+1. （選擇性）若要篩選設定清單，請選取&#x200B;**篩選** ![對象分析篩選圖示](/help/assets/icons/Filter.svg)，然後依下列任一條件篩選：
 
    * **[!UICONTROL 連線]**
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2caa69c9a58df756d0991dac84ba8900b2a7bc5a
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '5602'
-ht-degree: 96%
+source-wordcount: '5584'
+ht-degree: 95%
 ---
 # 程式碼片段
 
@@ -236,7 +236,7 @@ Customer Journey Analytics 的各種視覺化是為分析您提供給客戶的�
 | 設定 | 說明 |
 |---|---|
 | **[!UICONTROL 匯入新資料]** | 如果您想建立持續的連線，請啟用此選項。 透過持續連線，新增至資料集中的新資料批次將在工作區中自動可用。 |
-| **[!UICONTROL 資料集回填]** | 啟用「**[!UICONTROL 回填所有現有資料]**」以確保回填所有現有資料。<br/><br/>選取「**[!UICONTROL 要求回填]**」以回填特定期間的歷史資料。 您最多可以定義 10 個資料集回填期間。<ol><li>透過輸入開始和結束資料或使用 ![日曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)選取日期來定義期間。</li><li>選取「**[!UICONTROL 將回填排入佇列]**」將回填加入清單，或選取「**[!UICONTROL 取消]**」以取消。</li></ol>對於每個項目，選取 ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)以編輯期間，或選取 ![刪除](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)以刪除該項目。<br/><br/>關於回填：<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。 歷史資料多寡會影響延遲長度。</li><li>Analytics 來源連接器可為生產沙箱可匯入最多 13 個月的資料 (不論資料量多寡)。 非生產沙箱的回填期限制為 3 個月。</li><li>對於生產沙箱，如果您已獲得額外 SKU 授權，使您能匯入超過 13 個月的歷史回填資料，請聯絡 Adobe 以請求擴充的回填。</li></ul> |
+| **[!UICONTROL 資料集回填]** | 啟用「**[!UICONTROL 回填所有現有資料]**」以確保回填所有現有資料。<br/><br/>選取「**[!UICONTROL 要求回填]**」以回填特定期間的歷史資料。 您最多可以定義 10 個資料集回填期間。<ol><li>透過輸入開始和結束資料或使用 ![日曆](/help/assets/icons/Calendar.svg)選取日期來定義期間。</li><li>選取「**[!UICONTROL 將回填排入佇列]**」將回填加入清單，或選取「**[!UICONTROL 取消]**」以取消。</li></ol>針對每個專案，選取![編輯](/help/assets/icons/Edit.svg)以編輯期間，或選取![關閉](/help/assets/icons/Close.svg) ![關閉](/help/assets/icons/Close.svg)以刪除專案。<br/><br/>關於回填：<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。 歷史資料多寡會影響延遲長度。</li><li>Analytics 來源連接器可為生產沙箱可匯入最多 13 個月的資料 (不論資料量多寡)。 非生產沙箱的回填期限制為 3 個月。</li><li>對於生產沙箱，如果您已獲得額外 SKU 授權，使您能匯入超過 13 個月的歷史回填資料，請聯絡 Adobe 以請求擴充的回填。</li></ul> |
 | **[!UICONTROL 批次狀態]** | 可能的狀態指標包括：<ul><li>成功</li><li>正在處理 X 個回填</li><li>關閉</li></ul> |
 | **[!UICONTROL 資料集 ID]** | 此 ID 是自動產生的。 |
 | **[!UICONTROL 說明]** | 建立資料集時為資料集提供的說明。 |

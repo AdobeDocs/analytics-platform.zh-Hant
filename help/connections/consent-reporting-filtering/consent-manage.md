@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 5%
+source-wordcount: '437'
+ht-degree: 2%
 ---
 # 管理同意報告和篩選設定
 
@@ -56,9 +56,9 @@ ht-degree: 5%
 
    * **[!UICONTROL 狀態]**：組態的狀態。
 
-   您可以選取欄圖示![欄圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)，取消選取您要隱藏的任何欄，然後選取&#x200B;**[!UICONTROL 套用]**，以隱藏任何欄。
+   您可以選取欄圖示![欄圖示](/help/assets/icons2/ColumnSettings.svg)，取消選取您要隱藏的任何欄，然後選取&#x200B;**[!UICONTROL 套用]**，以隱藏任何欄。
 
-1. （選擇性）若要篩選設定清單，請選取&#x200B;**篩選** ![篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後依下列任一條件篩選：
+1. （選擇性）若要篩選設定清單，請選取&#x200B;**篩選** ![篩選圖示](/help/assets/icons/Filter.svg)，然後依下列任一條件篩選：
 
    * **[!UICONTROL 連線]**
 

@@ -9,26 +9,34 @@ autotag-review: '2026-05-19T09:37:23.903Z'
 TQID: 'https://experienceleague.adobe.com/zguhaVwn2XtF0vSGqYAgjiL2IwUq-DMH-WUd0uQRnPc'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases, Use cases (CJA)
   - id: b7fb3355-1f54-4380-bce3-d444b226c0e9
+    internal-label: Cross channel analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 638
+source-wordcount: '614'
 ht-degree: 100%
-
 ---
-
 # 跨管道分析 {#cross-channel}
 
 <!-- markdownlint-disable MD034 -->
@@ -49,11 +57,11 @@ ht-degree: 100%
 1. 為要擷取的資料[建立結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant)。
 1. 為要擷取的資料[建立資料集](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=zh-Hant)。
 1. [將資料攝取至 Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=zh-Hant)：
-   1. 透過 Edge Network 或 Analytics 來源連接器從網站或行動應用程式取得以事件為主的資料 ![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg)。
-   2. 設定檔資料 ![設定檔](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (例如來自 CRM 系統、呼叫中心應用程式、忠誠度應用程式)。
-   3. 查詢資料 ![查詢](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (例如來自產品資訊系統的產品名稱、類別)。
+   1. 透過 Edge Network 或 Analytics 來源連接器從網站或行動應用程式取得以事件為主的資料 ![事件](/help/assets/icons/Events.svg)。
+   2. 設定檔資料 ![設定檔](/help/assets/icons/User.svg) (例如來自 CRM 系統、呼叫中心應用程式、忠誠度應用程式)。
+   3. 查詢資料 ![查詢](/help/assets/icons/Search.svg) (例如來自產品資訊系統的產品名稱、類別)。
 
-1. 所有資料集使用通用的命名空間 ID。 使用[拼接](../../stitching/overview.md)來增加任何以事件為主的資料集 ![資料重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) 關於在每一資料列提供通用 ID。 請注意，Customer Journey Analytics 目前不使用 Experience Platform 輪廓或身分識別服務進行拼接。
+1. 所有資料集使用通用的命名空間 ID。 使用[拼接](../../stitching/overview.md)來增加任何以事件為主的資料集 ![資料重新整理](/help/assets/icons/DataRefresh.svg) 關於在每一資料列提供通用 ID。 請注意，Customer Journey Analytics 目前不使用 Experience Platform 輪廓或身分識別服務進行拼接。
 1. 執行任何自訂資料準備，以確保要擷取至 Customer Journey Analytics 的時間序列資料集之間具有公用鍵。
 1. 為查閱資料提供一個可以連結到事件資料中欄位的主要 ID。 計為授權中的列。
 1. 將設定檔資料的主要 ID 設定為事件資料的主要 ID。

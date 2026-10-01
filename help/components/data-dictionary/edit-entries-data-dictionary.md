@@ -7,27 +7,36 @@ exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
 TQID: https://experienceleague.adobe.com/MPtF2ZOWbjayiJtMoTS705nWS-W9OdTmNOp3Wagi6io
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
+    internal-label: Data Dictionary
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Experimentation
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 66%
-
+source-wordcount: '1247'
+ht-degree: 64%
 ---
-
 # 編輯元件專案
 
 Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢視的元件專案。 所有資料檢視的使用者皆可檢視所做的任何變更。
@@ -48,19 +57,19 @@ Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢
 
    元件的類型可依據顏色和圖示加以識別。
 
-   * **維度** ![Dimension圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)為橘色
+   * **維度** ![Dimension圖示](/help/assets/icons/Data.svg)為橘色
 
-   * **區段** ![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)為藍色
+   * **區段** ![區段圖示](/help/assets/icons/Segmentation.svg)為藍色
 
-   * **日期範圍** ![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)為紫色
+   * **日期範圍** ![日期範圍圖示](/help/assets/icons/Calendar.svg)為紫色
 
-   * **量度** ![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)為綠色
+   * **量度** ![量度圖示](/help/assets/icons/Event.svg)為綠色
 
    * **Adobe圖示** ![Adobe圖示](assets/default-calc-metric-icon.png)表示計算量度範本或區段範本
 
-   * **計算器圖示** ![計算器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)表示貴組織中Analytics管理員所建立的計算量度
+   * **計算器圖示** ![計算器圖示](/help/assets/icons/Calculator.svg)表示貴組織中Analytics管理員所建立的計算量度
 
-1. (可選) 選取 **篩選器** 圖示 ![資料字典篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後選擇以下任一篩選器選項以篩選元件清單：
+1. (可選) 選取 **篩選器** 圖示 ![資料字典篩選器圖示](/help/assets/icons/Filter.svg)，然後選擇以下任一篩選器選項以篩選元件清單：
 
    | 選項 | 函數 |
    |---------|----------|
@@ -79,7 +88,7 @@ Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢
 
    {style="table-layout:auto"}
 
-1. （選擇性）選取&#x200B;**排序**&#x200B;圖示![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取下列任一區段選項來排序元件清單：
+1. （選擇性）選取&#x200B;**排序**&#x200B;圖示![排序元件圖示](/help/assets/icons/SortOrderDown.svg)，然後選取下列任一區段選項來排序元件清單：
 
    | 選項 | 函數 |
    |---------|----------|
@@ -91,7 +100,7 @@ Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢
 
 1. 從元件清單中選取您要編輯的元件。
 
-1. 選擇元件名稱旁邊的&#x200B;**編輯**&#x200B;圖示![資料字典編輯圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)。
+1. 選擇元件名稱旁邊的&#x200B;**編輯**&#x200B;圖示![資料字典編輯圖示](/help/assets/icons/Edit.svg)。
 
 1. 編輯有關元件的以下任何資訊：
 
@@ -111,4 +120,4 @@ Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢
 
    {style="table-layout:auto"}
 
-1. 按一下&#x200B;**儲存**&#x200B;圖示![資料字典儲存圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg)以儲存您的變更。
+1. 按一下&#x200B;**儲存**&#x200B;圖示![資料字典儲存圖示](/help/assets/icons/SaveFloppy.svg)以儲存您的變更。

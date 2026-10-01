@@ -2,7 +2,7 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 7357a8b929d72095aee7c154ea9e77791ac1a751
+source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 92%
@@ -316,14 +316,6 @@ ht-degree: 92%
     + [JavaScript資料庫](/help/content-analytics/config/tags-agnostic.md)
     + [資料收集](/help/content-analytics/config/datacollection.md)
 
-+ Analytics 儀表板 {#cja-dashboards}
-  + [概觀](../mobile-app/home.md)
-  + [評選人任務](../mobile-app/curator.md)
-  + [建立行動計分卡](../mobile-app/create-scorecard.md)
-  + [管理行動計分卡](../mobile-app/manage-scorecard.md)
-  + [設定使用儀表板的主管](../mobile-app/set-up-execs.md)
-  + [高階主管使用者快速入門指南](../mobile-app/executive.md)
-
 + 引導式分析 {#guided-analysis}
   + [概觀](../guided-analysis/overview.md)
   + [積極成長](../guided-analysis/types/active-growth.md)
@@ -341,12 +333,19 @@ ht-degree: 92%
   + [常見問題](../guided-analysis/faq.md)
 
 + 交談見解 {#conversation-insights}
-  + {hide-from-toc}[概觀](/help/conversation-insights/conversation-insights-overview.md)
-  + {hide-from-toc}[設定](/help/conversation-insights/conversation-insights-configure.md)
-  + {hide-from-toc}[管理](/help/conversation-insights/conversation-insights-manage.md)
-  + {hide-from-toc}[實作](/help/conversation-insights/conversation-insights-implement.md)
-  + {hide-from-toc}[分析](/help/conversation-insights/conversation-insights-analyze.md)
+  + [概觀](/help/conversation-insights/overview.md)
+  + [設定](/help/conversation-insights/configure.md)
+  + [管理](/help/conversation-insights/manage.md)
+  + [實作](/help/conversation-insights/implement.md)
+  + [分析](/help/conversation-insights/analyze.md)
 
++ Analytics 儀表板 {#cja-dashboards}
+  + [概觀](../mobile-app/home.md)
+  + [評選人任務](../mobile-app/curator.md)
+  + [建立行動計分卡](../mobile-app/create-scorecard.md)
+  + [管理行動計分卡](../mobile-app/manage-scorecard.md)
+  + [設定使用儀表板的主管](../mobile-app/set-up-execs.md)
+  + [高階主管使用者快速入門指南](../mobile-app/executive.md)
 
 + 元件 {#cja-components}
   + [概觀](../components/overview.md)

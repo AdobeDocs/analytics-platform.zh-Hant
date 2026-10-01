@@ -4,7 +4,6 @@ description: 瞭解如何檢測您的代理程式應用程式或服務，以進�
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -13,12 +12,11 @@ feature_v2:
     internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
-role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 99e0e43c34f77b6e42f8d3c4fdf5d2773569b3e7
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '2592'
 ht-degree: 5%
@@ -39,7 +37,7 @@ ht-degree: 5%
 
 設定主要交談事件的資料集：提示、回應、回饋。 提示、回應和意見資料集必須以[交談事件欄位群組](#conversation-event-field-group)擴充XDM體驗事件基本結構描述，並可選擇包含[代理資訊欄位群組](#agentic-information-field-group)和其他[其他欄位群組](#additional-field-groups)。
 
-您可以為提示、回應和回饋定義單獨的資料集，或將資料合併到資料集中。 例如，使用一個資料集進行提示和回應，並使用另一個資料集進行意見回饋。 或者，請為每種型別的交談事件使用個別的資料集，如[運作方式](/help/conversation-insights/conversation-insights-overview.md#how-it-works)中所述。
+您可以為提示、回應和回饋定義單獨的資料集，或將資料合併到資料集中。 例如，使用一個資料集進行提示和回應，並使用另一個資料集進行意見回饋。 或者，請為每種型別的交談事件使用個別的資料集，如[運作方式](/help/conversation-insights/overview.md#how-it-works)中所述。
 
 舉例說明，請使用：
 
@@ -625,7 +623,6 @@ ht-degree: 5%
 ## 資料收集
 
 針對交談深入分析使用下列資料收集策略。
-
 
 ### 事件類型
 

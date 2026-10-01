@@ -4,7 +4,6 @@ description: 瞭解交談深入分析的價值和術語，並瞭解交談深入�
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -18,9 +17,9 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 3acb31df785d038def3432a9734b499810636860
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1117'
 ht-degree: 1%
 ---
 # 交談見解
@@ -69,7 +68,7 @@ ht-degree: 1%
 * 交談中的情緒有何變更？
 * 哪些對話最終會導致轉換？
 
-如需實作詳細資料，請參閱[實作交談見解](./conversation-insights-implement.md)檔案中的[交談](./conversation-insights-implement.md#conversation)物件。
+如需實作詳細資料，請參閱[實作交談見解](./implement.md)檔案中的[交談](./implement.md#conversation)物件。
 
 ### 翻轉
 
@@ -83,7 +82,7 @@ ht-degree: 1%
 
 轉彎是報告用途的主要分析物件。 交談混合器服務將可用的提示、回應、回饋和訊號資訊合併成回合層級記錄。
 
-如需實作詳細資料，請參閱[實作交談見解](./conversation-insights-implement.md)檔案中的[turn](./conversation-insights-implement.md#turn)物件。
+如需實作詳細資料，請參閱[實作交談見解](./implement.md)檔案中的[turn](./implement.md#turn)物件。
 
 ### 提示
 
@@ -103,7 +102,7 @@ ht-degree: 1%
 * 使用者情緒
 * 其他支援的訊號
 
-如需實作詳細資料，請參閱[實作交談見解](./conversation-insights-implement.md)檔案中的[提示](./conversation-insights-implement.md#prompt)物件。
+如需實作詳細資料，請參閱[實作交談見解](./implement.md)檔案中的[提示](./implement.md#prompt)物件。
 
 ### 回應
 
@@ -119,7 +118,7 @@ ht-degree: 1%
 
 這種區分很有用，因為分析需要將主要答案與支援連結、引文、廣告或其他回應元件區分開來。
 
-如需實作詳細資料，請參閱[實作交談見解](./conversation-insights-implement.md)檔案中的[回應](./conversation-insights-implement.md#response)物件。
+如需實作詳細資料，請參閱[實作交談見解](./implement.md)檔案中的[回應](./implement.md#response)物件。
 
 ### 意見反應
 
@@ -134,13 +133,13 @@ ht-degree: 1%
 
 回饋不一定與提示或回應同時提供。 您可以在使用者評估答案後，稍後從代理程式應用程式或服務傳送意見回饋。
 
-如需實作詳細資料，請參閱[實作交談見解](./conversation-insights-implement.md)檔案中的[意見反應](./conversation-insights-implement.md#feedback)物件。
+如需實作詳細資料，請參閱[實作交談見解](./implement.md)檔案中的[意見反應](./implement.md#feedback)物件。
 
 ### 訊號
 
 訊號是對交談內容的結構化分析觀察。 訊號擷取服務會擷取訊號。
 
-如需實作詳細資料，請參閱[實作交談見解](./conversation-insights-implement.md)檔案中的[訊號](./conversation-insights-implement.md#signal)物件。
+如需實作詳細資料，請參閱[實作交談見解](./implement.md)檔案中的[訊號](./implement.md#signal)物件。
 
 
 ### 代理程式
@@ -151,7 +150,8 @@ ht-degree: 1%
 
 如果您的代理程式體驗應用程式支援技能的呼叫，這些技能代表處理期間呼叫的功能，您可以將這些技能呼叫新增為代理程式資訊欄位群組的一部分。
 
-如需實作詳細資料，請參閱[實作交談見解](./conversation-insights-implement.md)檔案中的[代理資訊](./conversation-insights-implement.md#agentic-information-field-group)欄位群組。
+如需實作詳細資料，請參閱[實作交談見解](./implement.md)檔案中的[代理資訊](./implement.md#agentic-information-field-group)欄位群組。
+
 
 ## 運作方式
 
@@ -167,8 +167,8 @@ ht-degree: 1%
 
 | | 說明 |
 |---|---|
-| 1 | 您可以檢測代理程式應用程式或服務，以建立包含提示![CommentText](/help/assets/icons2/CommentText.svg)、回應![CommentReply](/help/assets/icons2/CommentReply.svg)和回饋![回饋](/help/assets/icons2/Feedback.svg)資料集的事件。<br/>如需如何檢測代理程式應用程式或服務的詳細資訊，請參閱[實作檔案](./conversation-insights-implement.md)。 |
-| 2 | 訊號擷取服務會從提示![CommentText](/help/assets/icons2/CommentText.svg)、回應![CommentReply](/help/assets/icons2/CommentReply.svg)和意見資料集![Feedback](/help/assets/icons2/Feedback.svg)擷取訊號，做為訊號事件![OnAir](/help/assets/icons/OnAir.svg)，並將這些訊號事件儲存在新的資料集中。<br>此步驟已實作為[交談深入分析設定](./conversation-insights-configure.md)定義的一部分。 |
-| 3 | 交談混合器服務會混合來自提示![CommentText](/help/assets/icons2/CommentText.svg)、回應![CommentReply](/help/assets/icons2/CommentReply.svg)、回饋![Feedback](/help/assets/icons2/Feedback.svg)和訊號![OnAir](/help/assets/icons/OnAir.svg)事件資料集的事件，並將混合的![Merge](/help/assets/icons/Merge.svg)事件輸出到新的資料集中。<br>此步驟已實作為[交談深入分析設定](./conversation-insights-configure.md)定義的一部分。 |
-| 4 | 混合的![Merge](/help/assets/icons/Merge.svg)資料整合為連線的一部分，而用於混合資料集的結構描述中所定義的元件成為資料檢視的一部分。<br>此步驟已實作為[交談深入分析設定](./conversation-insights-configure.md)定義的一部分。 |
+| 1 | 您可以檢測代理程式應用程式或服務，以建立包含提示![CommentText](/help/assets/icons2/CommentText.svg)、回應![CommentReply](/help/assets/icons2/CommentReply.svg)和回饋![回饋](/help/assets/icons2/Feedback.svg)資料集的事件。<br/>如需如何檢測代理程式應用程式或服務的詳細資訊，請參閱[實作檔案](./implement.md)。 |
+| 2 | 訊號擷取服務會從提示![CommentText](/help/assets/icons2/CommentText.svg)、回應![CommentReply](/help/assets/icons2/CommentReply.svg)和意見資料集![Feedback](/help/assets/icons2/Feedback.svg)擷取訊號，做為訊號事件![OnAir](/help/assets/icons/OnAir.svg)，並將這些訊號事件儲存在新的資料集中。<br>此步驟已實作為[交談深入分析組態](./configure.md)定義的一部分。 |
+| 3 | 交談混合器服務會混合來自提示![CommentText](/help/assets/icons2/CommentText.svg)、回應![CommentReply](/help/assets/icons2/CommentReply.svg)、回饋![Feedback](/help/assets/icons2/Feedback.svg)和訊號![OnAir](/help/assets/icons/OnAir.svg)事件資料集的事件，並將混合的![Merge](/help/assets/icons/Merge.svg)事件輸出到新的資料集中。<br>此步驟已實作為[交談深入分析組態](./configure.md)定義的一部分。 |
+| 4 | 混合的![Merge](/help/assets/icons/Merge.svg)資料整合為連線的一部分，而用於混合資料集的結構描述中所定義的元件成為資料檢視的一部分。<br>此步驟已實作為[交談深入分析組態](./configure.md)定義的一部分。 |
 

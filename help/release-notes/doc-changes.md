@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2c0efe27451163d9fe4fe0f60bab11151a8ac6f1
+source-git-commit: 17af5df91a28b3a6e44528f88661b6dcc86d6cae
 workflow-type: tm+mt
-source-wordcount: '7162'
+source-wordcount: '7170'
 ht-degree: 96%
 ---
 
@@ -69,6 +69,8 @@ ht-degree: 96%
 
 | 功能 | 說明 |
 |---|---|
+| **2026年10月** | |
+| 交談見解 | [檔案](/help/conversation-insights/overview.md)，用於交談深入分析。 |
 | **2026年9月** | |
 | 箭頭和流失的歷程畫布比較 | 更新[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)中的&#39;[!UICONTROL 與]&#39;比較設定，以顯示歷程中每個節點、箭頭和流失現在顯示的日期範圍之間的百分比變更。 |
 | 已整合的部落格 | 納入下列部落格：<ul><li>[在Adobe CJA中處理「無值」的完整教戰手冊](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=zh-Hant#M598)</li><li>[Adobe Experience Platform與Customer Journey Analytics資料輸出使用案例深入探討](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?profile.language=zh-Hant)</li></ul>在我們的[資料匯出](/help/use-cases/data-export/overview.md)使用案例和新的[無值](/help/use-cases/data-views/no-value.md)使用案例文章中。 |
@@ -81,7 +83,7 @@ ht-degree: 96%
 | 子事件分析 | [子事件分析](/help/components/segments/sub-event.md)和[自訂容器](/help/data-views/create-dataview.md#custom-containers)的檔案。 |
 | 內嵌分類 | [內嵌分類](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)的檔案。 |
 | **2026年6月** | |
-| 全新GA4指南 | 新增從Google Analytics 4轉換到Customer Journey Analytics[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)的。 |
+| 全新GA4指南 | 新增從Google Analytics 4轉換到Customer Journey Analytics[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)的。 |
 | **2026 年 5 月** | |
 | Content Analytics 的 JavaScript 程式庫 | 有關如何在不需要 Experience Platform 資料彙集標記的情況下，使用 [Content Analytics Javascript 程式庫](/help/content-analytics/config/tags-agnostic.md)對網頁管道實施 Content Analytics 的說明文件。 |
 | Data Mirror 考量事項 | 說明設定 [Data Mirror 資料集](/help/data-mirror/data-mirror.md)時應考量哪些因素的[說明文件](/help/data-mirror/considerations.md)。 |

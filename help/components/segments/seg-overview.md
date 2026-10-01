@@ -7,25 +7,32 @@ role: User
 TQID: https://experienceleague.adobe.com/omsyiimc8b3EsGvJYb0V-jHqOxUp-8S7fFQ8dXUGUxs
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Insights
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: '1496'
 ht-degree: 99%
-
 ---
-
 # 分段概觀
 
 Customer Journey Analytics 可讓您建立、管理、共用並套用功能強大、具針對性的客群區段，並套用至您的報表。 區段讓您根據特性或互動，來識別人、工作階段或事件的子集。 區段設計為編碼化的客群洞察，您可以根據特定需求建立區段，然後驗證、編輯並與其他團隊成員分享。
@@ -97,18 +104,18 @@ An example of a complex sequential segment if you want to find the persons that
 <table style="table-layout: fixed; border: none;" width="100%">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 個人</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="/help/assets/icons/User.svg"/> 個人</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 工作階段</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="/help/assets/icons/Visit.svg"/> 工作階段</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 事件</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="/help/assets/icons/Events.svg"/> 事件</td>
 </tr>
 </table>
 

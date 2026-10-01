@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '4806'
+source-wordcount: '4800'
 ht-degree: 56%
 ---
 
@@ -256,7 +256,7 @@ ht-degree: 56%
 
 然後，您可以更詳細地設定頻道。 此組態會有所不同，取決於您是啟用、設定或編輯[行動裝置](#mobile)、[網頁](#web)或[付費媒體](#paid-media)頻道的組態。
 
-#### Mobile
+#### 行動
 
 +++ 詳細資料
 
@@ -382,7 +382,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_include_experiences"
 >title="體驗擷取與定義"
->abstract="啟用後，便會收集體驗資料、產生體驗屬性，以及提供體驗報告。 <br><br/>使用「![Edit](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 編輯]**」修改與目前設定關聯之標記屬性中的體驗資料收集設定。"
+>abstract="啟用後，便會收集體驗資料、產生體驗屬性，以及提供體驗報告。 <br><br/>使用「![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**」修改與目前設定關聯之標記屬性中的體驗資料收集設定。"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
