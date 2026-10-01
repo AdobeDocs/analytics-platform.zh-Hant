@@ -47,7 +47,7 @@ ht-degree: 61%
 
 1. 前往包含要檢視之元件的 Analysis Workspace 專案。
 
-1. 選取Analysis Workspace左側面板中的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。 （[在[資料字典總覽](/help/components/data-dictionary/data-dictionary-overview.md)中存取資料字典](/help/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)中說明存取資料字典的其他方式。）
+1. 選取Analysis Workspace左側面板中的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。 （[&#128279;](/help/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)在[資料字典總覽](/help/components/data-dictionary/data-dictionary-overview.md)中存取資料字典中說明存取資料字典的其他方式。）
 
    顯示資料字典視窗。
 

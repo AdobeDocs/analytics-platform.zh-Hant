@@ -236,7 +236,7 @@ ht-degree: 64%
 - 在啟用圖表式拚接之前，必須先在沙箱層級設定Experience Platform Identity Service的身分圖表。
   - 身分圖表必須有名稱空間（例如`Email`或`Phone`），您想在拼接期間使用它來解析人員ID。
   - 身分圖表必須填入來自任何相關資料集（型別為&#x200B;*event*&#x200B;或&#x200B;*設定檔*，且至少包含兩個具有ID值的有用名稱空間）的身分資訊。
-  - 擁有這類相關身分的所有資料集都必須針對身分圖表資料擷取](faq.md#enable-a-dataset-for-the-identity-service)啟用[。 這項啟用可確保隨著時間從所有需要的來源將傳入的身分新增到圖表中。
+  - 擁有這類相關身分的所有資料集都必須針對身分圖表資料擷取[&#128279;](faq.md#enable-a-dataset-for-the-identity-service)啟用。 這項啟用可確保隨著時間從所有需要的來源將傳入的身分新增到圖表中。
   - 若已使用即時客戶資料設定檔或Adobe Journey Optimizer一段時間，則應已在一定程度上設定圖表。<br/>若啟用圖表式拚接的資料集也需要歷史拚接回填，圖表應已包含整個期間的歷史身分識別，才能取得想要的拚接結果。
 - 如果您想要使用圖表式拼接，而且您預期事件資料集會貢獻身分圖表，您應該[啟用身分服務的資料集](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)。
 - 永久ID和人員ID可搭配[identityMap](#identitymap)使用。 或者，永久性ID和人員ID可以是XDM結構描述中的欄位，在這種情況下，欄位必須是[在結構描述中定義為身分](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en)。
