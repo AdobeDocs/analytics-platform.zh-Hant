@@ -7,29 +7,40 @@ exl-id: 5b4b2e2b-0a73-48df-a40c-98d2c47f94c8
 TQID: https://experienceleague.adobe.com/DALPpXgGDOoMJT8kv5xsDmZWapk4rDXhQmtTTvV0-TA
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
   - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+    internal-label: Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: 4f3c4a214bb9676ced6fe3c9627c969413013790
 workflow-type: tm+mt
-source-wordcount: 997
-ht-degree: 71%
-
+source-wordcount: '1093'
+ht-degree: 61%
 ---
-
 # 建立警報 {#create-alerts}
 
 <!-- markdownlint-disable MD034 -->
@@ -38,6 +49,15 @@ ht-degree: 71%
 >id="components_alerts_timegranularity"
 >title="時間顆粒度"
 >abstract="時間顆粒度是指系統檢查警報的頻率。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_alerts_delay"
+>title="延遲"
+>abstract="在此延遲後，當您選取的時間詳細程度時會觸發警報。 來自您連線的資料可能會以不同的延遲送達，時間介於1到24小時之間。 預設延遲會在每個警報視窗後觸發9小時。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -73,9 +93,9 @@ Customer Journey Analytics 中的警報可讓您根據變更的百分比或特�
 |---------|----------|
 | **[!UICONTROL 標題]** | 指定警示的名稱。 警報名稱中可以包含報表的名稱或量度臨界值。 |
 | **[!UICONTROL 說明 (選用)]** | 指定警報的說明。 |
-| **[!UICONTROL 時間顆粒度]** | 選取您希望檢查量度的頻率：每日、每週或每月。<p><b>注意</b>：對於具有[自訂行事曆](/help/data-views/create-dataview.md#calendar)的資料檢視，警報產生器不支援每月粒度。<!--true?--></p> |
-| **[!UICONTROL 收件者]** | 指定可傳送警報的位置。 警報可以傳送給 Analytics 用戶、Analytics 群組、原始電子郵件地址或電話號碼。<p><b>重要提示</b>：電話號碼前面必須加上 `+` 和[國家/地區代碼](https://countrycode.org/)。</p><p>使用者在警示後收到的電子郵件：</p><p>![警報電子郵件](assets/alerts-email.PNG)</p> |
+| **[!UICONTROL 時間顆粒度]** | 選取您希望檢查量度的頻率：<ul><li>**[!UICONTROL 小時]**<p>Customer Journey Analytics支援各種型別的資料，但並非所有可包含在警報中的資料都能用於每小時警報。 如需詳細資訊，請參閱[某些資料型別的每小時警示可能不切實際](/help/components/c-intelligent-alerts/alerts-feature-comparison.md#hourly-alerts-can-be-impractical-for-certain-types-of-data)。</p></li><li>**[!UICONTROL 每日]**</li><li>**[!UICONTROL 每週]**</li><li>**[!UICONTROL 每月]**<p>具有[自訂行事曆](/help/data-views/create-dataview.md#calendar)的資料檢視不支援每月粒度。<!--true?--></p></li></ul> |
+| **[!UICONTROL 收件者]** | 指定可傳送警報的位置。 警報可以傳送給 Analytics 使用者、Analytics 群組、原始電子郵件地址或電話號碼。<p><b>重要提示</b>：電話號碼前面必須加上 `+` 和[國家/地區代碼](https://countrycode.org/)。</p><p>使用者在警示後收到的電子郵件：</p><p>![警報電子郵件](assets/alerts-email.PNG)</p> |
 | **[!UICONTROL 過期日]** | 設定警報過期的日期和時間。 |
-| **[!UICONTROL 延遲]** | 資料完整並可在 Customer Journey Analytics 中報告以前所需的時間因組織而異，通常是資料事件時間過後的 3 到 9 小時。 為了確保警報準確，特定事件範圍的事件資料必須完整，這表示 Adob&#x200B;&#x200B;e 不再接收指定事件範圍的任何事件資料。<p>為了解決攝取時間的延遲，警報發送前的預設延遲時間為 9 小時。</p><p>您可以將預設延遲時間從 9 小時調整為 0 至 24 小時之間的任意值。 但是，將延遲時間減少到 9 小時以下可能表示您報告的資料不完整，這會導致警報資訊不準確。</p><p>減少延遲時間時，請考慮以下事項：</p><ul><li>**瞭解資料可用性與資料完整性**：批次資料只會在3到9個小時後擷取到Experience Platform資料集中。 為了確保警報準確，資料攝取必須完整，並且所有批次資料在資料集中都可供使用。</li><li>**確定資料需要多長時間才會完整並可在資料集中供使用**：資料攝取時間因組織而異。 請確認所選的警報傳遞延遲時間等同或短於批次資料在 Platform 資料集中可供使用所需的時間<!--add link? -->。</li><p>**秘訣：**&#x200B;要瞭解完成所有批次資料並將其擷取到Experience Platform資料集所需的時間，最準確的方式是諮詢貴組織的資料工程師。</p><p>或者，您也可以大致瞭解組織中的批次傳送需要多久才能在Platform資料集中使用。 在Analysis Workspace中建立下列自由表格：</p><ol><li>在 Analysis Workspace 中的自由格式表格中，新增一個「[!UICONTROL **事件**]」量度和一個「[!UICONTROL **天**]」維度。</li><li>使用「[!UICONTROL **小時**]」維度來劃分「[!UICONTROL **天**]」維度。<p>沒有資料的小時會顯示為 0。</p></li></ol><li>**解決計算中的錯誤**：如果您減少預設延遲時間，此延遲時間必須設定為比您的組織完成資料擷取所需時間至少多一個小時。 例如，如果資料擷取完成之前有 3 小時的延遲，那麼您應該將延遲設為 4 小時。</li></ul><p>若要了解更多資訊，請參閱文章「[警報功能比較：Customer Journey Analytics 和 Adob&#x200B;&#x200B;e Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)」中的「[Customer Journey Analytics 中的資料攝取時間有所不同](/help/components/c-intelligent-alerts/alerts-feature-comparison.md#data-ingestion-times-vary-in-customer-journey-analytics)」。 |
+| **[!UICONTROL 延遲]** | 資料完整並可在 Customer Journey Analytics 中用於報告所需的時間因組織而異，通常是資料事件時間過後的 3 到 9 小時。 為了確保警報準確，特定事件範圍的事件資料必須完整，這表示 Adobe 不再接收指定事件範圍的任何事件資料。<p>為了解決攝取時間的延遲，警報發送前的預設延遲時間為 9 小時。</p><p>無論事件範圍的所有資料是否已到達，警報都會在延遲結束時傳送。 延遲後到達的資料不會包含在警報中。</p><p>您可以將預設延遲時間從 9 小時調整為 0 至 24 小時之間的任意值。 但是，將延遲時間減少到 9 小時以下可能表示您報告的資料不完整，這會導致警報資訊不準確。</p><p>減少延遲時間時，請考慮以下事項：</p><ul><li>**瞭解資料可用性與資料完整性**：批次資料只會在3到9個小時後擷取到Experience Platform資料集中。 為了確保警報準確，資料攝取必須完整，並且所有批次資料在資料集中都可供使用。</li><li>**確定資料需要多長時間才會完整並可在資料集中供使用**：資料攝取時間因組織而異。 請確認所選的警報傳遞延遲時間等同或短於批次資料在 Platform 資料集中可供使用所需的時間<!--add link? -->。</li><p>**秘訣：**&#x200B;要瞭解完成所有批次資料並將其擷取到Experience Platform資料集所需的時間，最準確的方式是諮詢貴組織的資料工程師。</p><p>或者，您也可以大致瞭解組織中的批次傳送需要多久才能在Platform資料集中使用。 在Analysis Workspace中建立下列自由表格：</p><ol><li>在 Analysis Workspace 中的自由格式表格中，新增一個「[!UICONTROL **事件**]」量度和一個「[!UICONTROL **天**]」維度。</li><li>使用「[!UICONTROL **小時**]」維度來劃分「[!UICONTROL **天**]」維度。<p>沒有資料的小時會顯示為 0。</p></li></ol><li>**解決計算中的錯誤**：如果您減少預設延遲時間，此延遲時間必須設定為比您的組織完成資料擷取所需時間至少多一個小時。 例如，如果資料攝取完成之前有 3 小時的延遲，那麼您應該將延遲設為 4 小時。</li></ul><p>如需詳細資訊，請參閱文章[警示功能比較： Customer Journey Analytics和Adobe Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)中的[資料擷取時間差異](/help/components/c-intelligent-alerts/alerts-feature-comparison.md#data-ingestion-times-vary)。 |
 | **[!UICONTROL 傳送警報的時機]** | [!UICONTROL **這些量度觸發器的任一項**]： <ol><li>拖放量度（包括計算量度）以建立警報的觸發程式。<p>如果警報中並非所有量度、維度或區段都與目前所選報表套裝相容，則會出現&#x200B;*不相容的元件*&#x200B;訊息。</p><p>決定設定警報前，量度必須超過或使用的值（若為上、下、等於或百分比變更）的臨界值（適用於異常）。</li><li>選取下列條件之一：<ul><li>存在有異常狀況</li><li>異常狀況高於預期</li><li>異常狀況低於預期</li><li>大於或等於</li><li>小於或等於</li><li>變更者</li></ul></li><li>選取臨界值或輸入值。</li></ol>[!UICONTROL **包括所有篩選器**]：拖放區段或維度以新增篩選器至警報中。 例如，新增「*僅限行動裝置*」區段代表只有行動裝置才會觸發這項規則。 您可以透過使用 AND 陳述式新增其他篩選器。 您可按一下齒輪圖示，新增 AND 或 OR 規則。</p><p>請參閱「[警報 - 使用案例](alerts-use-cases.md)」，了解用例範例。</p> |
 | **[!UICONTROL 預覽]** | 互動式警報預覽會根據過去經驗，顯示觸發警報的大約頻率。<p>例如，如果您將時間顆粒度設為每日，則預覽將告訴您在過去 30 或 31 天裡，此警報會因為某個量度而被觸發 x 次。</p><p>如果您發現警報觸發次數過多，可在「[管理警報](/help/components/c-intelligent-alerts/alert-manager.md)」中調整臨界值。</p><p>![](assets/alert-preview.png){width="50%"}</p> |
