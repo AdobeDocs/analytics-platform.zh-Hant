@@ -8,33 +8,48 @@ role: User
 TQID: https://experienceleague.adobe.com/91yF4rq5CqbAtgfY9X31FmgiCynSJFHaNF1KKsKDycg
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
+    internal-label: Data Dictionary
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
   - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+    internal-label: Alerts
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Insights
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 972
+source-wordcount: '912'
 ht-degree: 100%
-
 ---
-
 # 元件概觀
 
 元件是 Customer Journey Analytics 中的功能，可用於視覺化呈現 (例如自由格式表格) 或與報告功能搭配使用。
@@ -103,19 +118,19 @@ Analysis Workspace 中的元件由量度、維度、區段和日期範圍組成�
 
 ### 搜尋
 
-1. 選取左側面板中的&#x200B;**元件** ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)。
+1. 選取左側面板中的&#x200B;**元件** ![Components icon](/help/assets/icons/Curate.svg)。
 
 2. 在搜尋欄位中開始輸入要用於專案中的元件的名稱。
 
-   顏色和圖示識別元件類型。 **維度**![維度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)是橘色的，**區段**![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)是藍色的，**日期範圍**![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)是紫色的，而&#x200B;**量度**![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)是綠色的。<br/>Adobe 圖示 ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg) 表示計算量度範本或區段範本。 計算機圖示![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示管理員在您組織中所建立的計算量度。
+   顏色和圖示識別元件類型。 **維度**![維度圖示](/help/assets/icons/Data.svg)是橘色的，**區段**![區段圖示](/help/assets/icons/Segmentation.svg)是藍色的，**日期範圍**![日期範圍圖示](/help/assets/icons/Calendar.svg)是紫色的，而&#x200B;**量度**![量度圖示](/help/assets/icons/Event.svg)是綠色的。<br/>Adobe 圖示 ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg) 表示計算量度範本或區段範本。 計算機圖示![Calculator icon](/help/assets/icons/Calculator.svg) 表示管理員在您組織中所建立的計算量度。
 
 3. 從下拉式選單中選取元件。
 
 ### 篩選器
 
-1. 在左側面板中選取&#x200B;**元件**&#x200B;圖示![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)。
+1. 在左側面板中選取&#x200B;**元件**&#x200B;圖示![Components icon](/help/assets/icons/Curate.svg)。
 
-2. 選取&#x200B;**篩選條件**![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，或在搜尋欄位中輸入 `#`。
+2. 選取&#x200B;**篩選條件**![Data Dictionary Filter icon](/help/assets/icons/Filter.svg)，或在搜尋欄位中輸入 `#`。
 
 3. 選取以下任一篩選條件選項以篩選元件清單：
 
@@ -139,9 +154,9 @@ Analysis Workspace 中的元件由量度、維度、區段和日期範圍組成�
 
 1. (可選) 依據[篩選元件清單](#filter-the-component-list)中的說明，對元件清單套用任何篩選條件。
 
-2. 選取左側面板中的&#x200B;**元件** ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)」。
+2. 選取左側面板中的&#x200B;**元件** ![Components icon](/help/assets/icons/Curate.svg)」。
 
-3. 選取&#x200B;**排序**![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取以下任一篩選器選項，將元件清單排序。
+3. 選取&#x200B;**排序**![Sort components icon](/help/assets/icons/SortOrderDown.svg)，然後選取以下任一篩選器選項，將元件清單排序。
 
 提供下列排序選項：
 

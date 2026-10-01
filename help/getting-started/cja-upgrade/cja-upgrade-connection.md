@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1672'
 ht-degree: 100%
 ---
 # 建立並設定用於 Customer Journey Analytics 的連線 {#upgrade-create-connection}
@@ -106,7 +106,7 @@ ht-degree: 100%
 
    | 欄 | 說明 |
    |---|---|
-   | 資料集 | 資料集的名稱。 選取名稱即可將您導向 Experience Platform 中的資料集。 選取「![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)」可顯示含有資料集更多詳細資訊的快顯視窗。 您可以選取「**[!UICONTROL 在 Platform 中編輯]**」，以直接在 Experience Platform 編輯資料集。 |
+   | 資料集 | 資料集的名稱。 選取名稱即可將您導向 Experience Platform 中的資料集。 選取「![資訊](/help/assets/icons/InfoOutline.svg)」可顯示含有資料集更多詳細資訊的快顯視窗。 您可以選取「**[!UICONTROL 在 Platform 中編輯]**」，以直接在 Experience Platform 編輯資料集。 |
    | 資料集類型 | 資料集的類型：事件、輪廓、查詢或摘要。 |
    | 記錄數量 | Experience Platform 中資料集的上個月記錄總數。 |
    | 結構描述 | 資料集的結構描述。 選取名稱，將您導向 Experience Platform 中的結構描述。 |
@@ -116,10 +116,10 @@ ht-degree: 100%
 
 
 1. 選取一個或多個資料集，然後選取「**[!UICONTROL 下一步]**」。 連線中必須至少包含一個事件資料集。
-   * 若要變更資料集清單中顯示的欄，請選取「![欄位設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)」並選取要在「[!UICONTROL 自訂表格]」對話框中顯示的欄。
-   * 要搜尋特定資料集，請使用搜尋欄位「![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)」。
-   * 要讓所選資料集切換為顯示或隱藏，請選取「![選取](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg)」「**[!UICONTROL 隱藏已選取]**」或者「**[!UICONTROL 顯示已選取]**」。
-   * 要將已選取資料集清單中的資料集刪除，請使用「![關閉](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg)」。 要刪除所有已選取的資料集，請選取「**[!UICONTROL 全部清除]**」。
+   * 若要變更資料集清單中顯示的欄，請選取「![欄位設定](/help/assets/icons/ColumnSetting.svg)」並選取要在「[!UICONTROL 自訂表格]」對話框中顯示的欄。
+   * 要搜尋特定資料集，請使用搜尋欄位「![搜尋](/help/assets/icons/Search.svg)」。
+   * 要讓所選資料集切換為顯示或隱藏，請選取「![選取](/help/assets/icons/SelectBoxAll.svg)」「**[!UICONTROL 隱藏已選取]**」或者「**[!UICONTROL 顯示已選取]**」。
+   * 要將已選取資料集清單中的資料集刪除，請使用「![關閉](/help/assets/icons/Close.svg)」。 要刪除所有已選取的資料集，請選取「**[!UICONTROL 全部清除]**」。
 
 
 
@@ -137,7 +137,7 @@ ht-degree: 100%
    | **[!UICONTROL 時區]** | 僅適用於摘要資料。 為時間序列摘要資料選取適當的時區。 |
    | **[!UICONTROL 資料來源類型]** | 選取資料來源類型。 <br/>資料來源的類型包括： <ul><li>[!UICONTROL 網頁資料]</li><li>[!UICONTROL 行動應用程式資料]</li><li>[!UICONTROL POS 資料]</li><li>[!UICONTROL CRM 資料]</li><li>[!UICONTROL 調查資料]</li><li>[!UICONTROL 呼叫中心資料]</li><li>[!UICONTROL 產品資料]</li><li> [!UICONTROL 帳戶資料]</li><li> [!UICONTROL 交易資料]</li><li>[!UICONTROL 客戶回饋資料]</li><li> [!UICONTROL 其他]</li></ul>該欄位用於調查正在使用之資料來源的類型。 |
    | **[!UICONTROL 匯入新資料]** | 如果您想建立持續的連線，請啟用此選項。 透過持續連線，新增至資料集中的新資料批次將在工作區中自動可用。 |
-   | **[!UICONTROL 資料集回填]** | 啟用「**[!UICONTROL 回填所有現有資料]**」以確保回填所有現有資料。<br/><br/>選取「**[!UICONTROL 要求回填]**」以回填特定期間的歷史資料。 您最多可以定義 10 個資料集回填期間。<ol><li>透過輸入開始和結束資料或使用 ![日曆](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)選取日期來定義期間。</li><li>選取「**[!UICONTROL 將回填排入佇列]**」將回填加入清單，或選取「**[!UICONTROL 取消]**」以取消。</li></ol>對於每個項目，選取 ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)以編輯期間，或選取 ![刪除](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg)以刪除該項目。<br/><br/>關於回填：<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。 歷史資料多寡會影響延遲長度。</li><li>Analytics 來源連接器可為生產沙箱可匯入最多 13 個月的資料 (不論資料量多寡)。 非生產沙箱的回填期限制為 3 個月。</li></ul> |
+   | **[!UICONTROL 資料集回填]** | 啟用「**[!UICONTROL 回填所有現有資料]**」以確保回填所有現有資料。<br/><br/>選取「**[!UICONTROL 要求回填]**」以回填特定期間的歷史資料。 您最多可以定義 10 個資料集回填期間。<ol><li>透過輸入開始和結束資料或使用 ![日曆](/help/assets/icons/Calendar.svg)選取日期來定義期間。</li><li>選取「**[!UICONTROL 將回填排入佇列]**」將回填加入清單，或選取「**[!UICONTROL 取消]**」以取消。</li></ol>對於每個項目，選取 ![編輯](/help/assets/icons/Edit.svg)以編輯期間，或選取 ![刪除](/help/assets/icons/Close.svg)以刪除該項目。<br/><br/>關於回填：<ul><li>您可以個別回填每個資料集。</li><li>系統會優先處理新增至連線中資料集的新資料，因此新資料的延遲最低。</li><li>所有回填 (歷史) 資料的匯入速度都會比較慢。 歷史資料多寡會影響延遲長度。</li><li>Analytics 來源連接器可為生產沙箱可匯入最多 13 個月的資料 (不論資料量多寡)。 非生產沙箱的回填期限制為 3 個月。</li></ul> |
    | **[!UICONTROL 轉換資料集]** | 對於特定的 B2B 查詢資料集，您可以對適當的 B2B 人員型報告情境啟用資料集轉換。 |
    | **[!UICONTROL 回填狀態]** | 可能的狀態指標包括：<ul><li>成功</li><li>正在處理 X 個回填</li><li>關閉</li></ul> |
    | **[!UICONTROL 資料集 ID]** | 此 ID 是自動產生的。 |

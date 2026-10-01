@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3122'
 ht-degree: 77%
 ---
 # 建立或編輯資料視圖
@@ -53,7 +53,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立或編輯資料檢視](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立或編輯資料檢視](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -112,7 +112,7 @@ ht-degree: 77%
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL **設為 Adobe Journey Optimizer 中的預設資料視圖**] | 此設定選項可讓 Journey Optimizer 和 Customer Journey Analytics 的報告標準化。 並在 Customer Journey Analytics 中對 Adobe Journey Optimizer 資料執行進階分析 (在 Journey Optimizer 中選取 ![開啟](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg)「[!UICONTROL **在 CJA 中分析**]」按鈕)。<p>Journey Optimizer 需擁有 Customer Journey Analytics 資料釋圖的存取權，才能執行此類分析。<p>啟用此選項可使其成為您沙箱的 Journey Optimizer 報告中的預設資料釋圖。</p><p>此設定選項會自動完成以下操作：</p><ul><li>在 Customer Journey Analytics 的相關連線中，設定所有必要的 Journey Optimizer 資料集，以供 Journey Optimizer 使用。</li><li>在資料釋圖中建立一組 Journey Optimizer 量度和維度 (包括衍生欄位和計算量度)。 系統會為所有這些指標和維度自動設定內容標籤。</li><li>在與此資料視圖關聯的連線中，自動啟用&#x200B;**[!UICONTROL 在 CJA 中使用]**&#x200B;選項。 (若要了解更多關於此選項的資訊，請參閱[在 Customer Journey Analytics 中使用 Journey Optimizer 連線](/help/connections/manage-connections.md)。)<p>如果您在啟用此設定後手動將其停用，連線和任何相關的資料視圖都會重設為預設狀態。 這可能會導致報告中的資料變更。</p></li></ul><p><p>啟用此選項時請考慮以下事項： <ul><li>您可於日後變更預設資料釋圖，但這麼做可能會對 Journey Optimizer 報告資料造成影響。 如果您在啟用此選項後又選擇停用，系統將提示您選取新的預設資料釋圖。</li><li>如果您已對 Customer Journey Analytics 資料釋圖中的資料集、維度或量度進行了手動自訂，則在啟用此設定選項時，您的手動自訂將保持不變。 此選項可進行額外的自訂，進一步標準化跨 Journey Optimizer 和 Customer Journey Analytics 的報告。 您也可以在啟用此選項後進行手動自訂。</li><li>在選取此選項後，就無法刪除與資料釋圖關聯的連線。</li></ul>如需詳細資訊，請參閱[整合 Adobe Journey Optimizer 與 Adobe Customer Journey Analytics](/help/integrations/ajo.md)。 |
+| [!UICONTROL **設為 Adobe Journey Optimizer 中的預設資料視圖**] | 此設定選項可讓 Journey Optimizer 和 Customer Journey Analytics 的報告標準化。 並在 Customer Journey Analytics 中對 Adobe Journey Optimizer 資料執行進階分析 (在 Journey Optimizer 中選取 ![開啟](/help/assets/icons/OpenInLight.svg)「[!UICONTROL **在 CJA 中分析**]」按鈕)。<p>Journey Optimizer 需擁有 Customer Journey Analytics 資料釋圖的存取權，才能執行此類分析。<p>啟用此選項可使其成為您沙箱的 Journey Optimizer 報告中的預設資料釋圖。</p><p>此設定選項會自動完成以下操作：</p><ul><li>在 Customer Journey Analytics 的相關連線中，設定所有必要的 Journey Optimizer 資料集，以供 Journey Optimizer 使用。</li><li>在資料釋圖中建立一組 Journey Optimizer 量度和維度 (包括衍生欄位和計算量度)。 系統會為所有這些指標和維度自動設定內容標籤。</li><li>在與此資料視圖關聯的連線中，自動啟用&#x200B;**[!UICONTROL 在 CJA 中使用]**&#x200B;選項。 (若要了解更多關於此選項的資訊，請參閱[在 Customer Journey Analytics 中使用 Journey Optimizer 連線](/help/connections/manage-connections.md)。)<p>如果您在啟用此設定後手動將其停用，連線和任何相關的資料視圖都會重設為預設狀態。 這可能會導致報告中的資料變更。</p></li></ul><p><p>啟用此選項時請考慮以下事項： <ul><li>您可於日後變更預設資料釋圖，但這麼做可能會對 Journey Optimizer 報告資料造成影響。 如果您在啟用此選項後又選擇停用，系統將提示您選取新的預設資料釋圖。</li><li>如果您已對 Customer Journey Analytics 資料釋圖中的資料集、維度或量度進行了手動自訂，則在啟用此設定選項時，您的手動自訂將保持不變。 此選項可進行額外的自訂，進一步標準化跨 Journey Optimizer 和 Customer Journey Analytics 的報告。 您也可以在啟用此選項後進行手動自訂。</li><li>在選取此選項後，就無法刪除與資料釋圖關聯的連線。</li></ul>如需詳細資訊，請參閱[整合 Adobe Journey Optimizer 與 Adobe Customer Journey Analytics](/help/integrations/ajo.md)。 |
 
 {style="table-layout:auto"}
 
@@ -233,9 +233,9 @@ ht-degree: 77%
 
    您可以在左上角看到「[!UICONTROL 連線]」，其中包含資料集，以及下面的[!UICONTROL 「結構描述」欄位]。  所有資料檢視都包含標準元件，例如「事件」、「人員」、「工作階段」量度和時間維度。<ul><li>當您定義[自訂容器](#containers-1)時，量度會自動新增為![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL _自訂容器名稱&#x200B;_發生次數]**。</li><li>預設情況下，系統套用&#x200B;**[!UICONTROL 不是已棄用的]**&#x200B;篩選器，因此只顯示未棄用的結構描述欄位。</li></ul>
 
-1. 使用「![搜尋圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)**[!UICONTROL 搜尋結構描述欄位]**」來搜尋結構描述欄位，或者移動到任何資料集集合中尋找欄位，例如「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 事件資料集]**」或「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 查詢資料集]**」。 對於事件資料集，![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL XDM欄位]**&#x200B;和![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL 臨機欄位和關聯欄位]**&#x200B;有可用的個別集合。<br/>或者，您可以使用![資料圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **建立衍生欄位**&#x200B;來建立衍生欄位。 請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
+1. 使用「![搜尋圖示](/help/assets/icons/Search.svg)**[!UICONTROL 搜尋結構描述欄位]**」來搜尋結構描述欄位，或者移動到任何資料集集合中尋找欄位，例如「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 事件資料集]**」或「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 查詢資料集]**」。 對於事件資料集，![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL XDM欄位]**&#x200B;和![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL 臨機欄位和關聯欄位]**&#x200B;有可用的個別集合。<br/>或者，您可以使用![資料圖示](/help/assets/icons/Data.svg) **建立衍生欄位**&#x200B;來建立衍生欄位。 請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
-1. 找到特定結構描述欄位或定義衍生欄位後，請將該欄位（例如![控制點圖示](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件下**&#x200B;[!UICONTROL &#x200B;量度&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B;維度&#x200B;]&#x200B;**區段]**。
+1. 找到特定結構描述欄位或定義衍生欄位後，請將該欄位（例如![控制點圖示](/help/assets/icons/DragHandle.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件下**[!UICONTROL &#x200B;量度&#x200B;]**或**[!UICONTROL &#x200B;維度&#x200B;]**區段]**。
 您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。 例如，從pageName欄位，使用右側不同的[元件設定](component-settings/overview.md)來建立`Product Pages`和`Error pages`維度。
 如果從左側邊欄拖曳一個結構描述欄位資料夾，資料夾中的欄位會自動排序成為適當的區段。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數值結構描述類型最終出現在「[!UICONTROL 量度]」區段中。 您也可以按一下「**[!UICONTROL 新增全部]**」，並新增所有結構描述欄位至其各自的區段。
 
@@ -262,7 +262,7 @@ ht-degree: 77%
 
 ### 篩選結構描述欄位或資料集
 
-您可以依照[!UICONTROL 資料類型], [!UICONTROL 資料集]、[!UICONTROL 資料治理] 和 [!UICONTROL 其他] 條件 ([!UICONTROL 包含資料]、[!UICONTROL 身分識別] 和 [!UICONTROL 未淘汰]) 篩選左邊欄中的![篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)結構描述欄位：
+您可以依照[!UICONTROL 資料類型], [!UICONTROL 資料集]、[!UICONTROL 資料治理] 和 [!UICONTROL 其他] 條件 ([!UICONTROL 包含資料]、[!UICONTROL 身分識別] 和 [!UICONTROL 未淘汰]) 篩選左邊欄中的![篩選器圖示](/help/assets/icons/Filter.svg)結構描述欄位：
 
 ![篩選欄位](assets/dataview-components-filter.png)
 

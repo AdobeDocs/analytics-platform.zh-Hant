@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 2391b13373992de30834f846da2fb7b71f5279ee
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '4250'
-ht-degree: 31%
+source-wordcount: '4244'
+ht-degree: 30%
 ---
 # 建立資料摘要
 
@@ -129,7 +129,7 @@ ht-degree: 31%
 
    您在此處套用的區段，是可能已在資料檢視中套用的任何區段以外的區段。
 
-1. （選擇性）在左側邊欄中，使用&#x200B;**搜尋**&#x200B;欄位來找出特定元件。 或者，選取&#x200B;**排序**&#x200B;圖示![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)以套用下列任何排序選項：
+1. （選擇性）在左側邊欄中，使用&#x200B;**搜尋**&#x200B;欄位來找出特定元件。 或者，選取&#x200B;**排序**&#x200B;圖示![排序元件圖示](/help/assets/icons/SortOrderDown.svg)以套用下列任何排序選項：
 
    | 選項 | 函數 |
    | --------- | ---------- |
@@ -434,7 +434,7 @@ ht-degree: 31%
 
 * 使用者在回顧日期範圍&#x200B;**內的某個時間符合原始行銷活動**&#x200B;的資格。
 
-  如果使用者在9天前符合原始促銷活動的資格，則回顧日期範圍設為30天時，資料摘要會包含&#x200B;**原始促銷活動，但是如果回顧日期範圍設為7天，則資料摘要不會包含**&#x200B;原始促銷活動。**&#x200B;**
+  如果使用者在9天前符合原始促銷活動的資格，則回顧日期範圍設為30天時，資料摘要會包含&#x200B;**原始促銷活動，但是如果回顧日期範圍設為7天，則資料摘要不會包含**&#x200B;原始促銷活動。****
 
 >[!ENDSHADEBOX]
 

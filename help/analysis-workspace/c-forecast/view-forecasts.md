@@ -19,10 +19,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 5%
+source-wordcount: '360'
+ht-degree: 2%
 ---
 # 檢視預測
 
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 您可以在時間序列自由表格中檢視預測。 當[使用者偏好設定](../user-preferences.md)中的自由格式表格啟用[!UICONTROL 顯示預測]時，會自動顯示新增至表格的第一個量度資料行的預測。 對於任何其他欄：
 
-1. 在欄標題中選取欄設定圖示![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)，然後確定已在選項清單中選取&#x200B;**[!UICONTROL 顯示預測]**。 如需詳細資訊，請參閱[欄設定](../visualizations/freeform-table/column-row-settings/column-settings.md)。
+1. 在欄標題中選取欄設定圖示![欄設定](/help/assets/icons2/Settings.svg)，然後確定已在選項清單中選取&#x200B;**[!UICONTROL 顯示預測]**。 如需詳細資訊，請參閱[欄設定](../visualizations/freeform-table/column-row-settings/column-settings.md)。
 
 1. 按一下&#x200B;**[!UICONTROL 欄設定]**&#x200B;功能表外部以儲存設定並檢視更新的表格。
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 
 折線圖是唯一可讓您檢視預測的視覺效果。
 
-1. 在視覺效果標題中選取設定圖示![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)，然後確定已在選項清單中選取&#x200B;**[!UICONTROL 顯示預測]**。
+1. 在視覺效果標題中選取設定圖示![欄設定](/help/assets/icons2/Settings.svg)，然後確定已在選項清單中選取&#x200B;**[!UICONTROL 顯示預測]**。
 
 1. （選擇性）若要允許預測正確地縮放圖表，請選取&#x200B;**[!UICONTROL 允許預測縮放Y軸]**。 此選項預設為未選取，因為它有時會呈現較不清楚的圖表。
 
