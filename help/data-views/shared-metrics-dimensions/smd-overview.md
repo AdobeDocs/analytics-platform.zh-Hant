@@ -38,7 +38,7 @@ ht-degree: 2%
 雖然共用的維度和量度可讓共用元件用於許多資料檢視，但無法跨連線共用。
 
 ## 權限
-* [產品管理員](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#product-administrator-role)還需要[Experience Platform許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions)中所有沙箱的&#x200B;**管理資料使用原則**&#x200B;和&#x200B;**檢視資料使用原則**&#x200B;許可權。
+* [產品管理員](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control#product-administrator-role)還需要[Experience Platform許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home#permissions)中所有沙箱的&#x200B;**管理資料使用原則**&#x200B;和&#x200B;**檢視資料使用原則**&#x200B;許可權。
 
 ## 工作流程
 

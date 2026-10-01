@@ -137,9 +137,9 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
   | [!UICONTROL 資料治理] | [!UICONTROL 檢視資料使用原則] | 屬於您組織的資料使用原則的唯讀存取權。 |
   | [!UICONTROL 資料治理] | [!UICONTROL 管理資料使用原則] | 讀取、建立、編輯和刪除資料使用原則的存取權。 |
 
-  如需Experience Platform許可權的詳細資訊，請參閱[沙箱和許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)。
+  如需Experience Platform許可權的詳細資訊，請參閱[沙箱和許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home#sandboxes-and-permissions)。
 
-* 如果Journey Optimizer與存在Journey Optimizer連線的Customer Journey Analytics整合，則也必須新增[歷程許可權](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability)才能存取連線：
+* 如果Journey Optimizer與存在Journey Optimizer連線的Customer Journey Analytics整合，則也必須新增[歷程許可權](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability)才能存取連線：
 
   | 類別 | 權限 | 說明 |
   |---|---|---|
@@ -150,14 +150,14 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
 * 將資料集匯出至[目標](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets)
 
-  若要執行此工作，使用者必須屬於提供下列[目的地許可權](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home#access-controls)的&#x200B;**Experience Platform角色**：
+  若要執行此工作，使用者必須屬於提供下列[目的地許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home#access-controls)的&#x200B;**Experience Platform角色**：
 
   | 類別 | 權限 | 說明 |
   |---|---|---|
   | [!UICONTROL 目標] | [!UICONTROL 管理目標] | 讀取、建立和刪除目標連線和目標帳戶的存取權。 |
   | [!UICONTROL 目標] | [!UICONTROL 啟用目標] | 允許使用者將區段啟用至現有目標。 在啟動工作流程中啟用對應步驟。 此權限也會要求針對想要對目標啟用資料的使用者授予「檢視目標」權限。 |
 
-  如需Experience Platform許可權的詳細資訊，請參閱[沙箱和許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)。
+  如需Experience Platform許可權的詳細資訊，請參閱[沙箱和許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home#sandboxes-and-permissions)。
 
 
 * 使用 [BI 擴充功能](../data-views/bi-extension.md)
