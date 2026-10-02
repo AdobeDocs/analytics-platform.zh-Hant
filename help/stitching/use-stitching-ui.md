@@ -4,6 +4,7 @@ description: 在Customer Journey Analytics中啟用事件資料集的彙整功�
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
+hold: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 TQID: 'https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw'
 product_v2:
@@ -24,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 59d79c72fd52b3eb409c2554bef9daf7094b0287
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 20%
+source-wordcount: '1952'
+ht-degree: 18%
 ---
 # 啟用拼接
 
@@ -41,16 +42,16 @@ ht-degree: 20%
 
 ## 預檢檢查
 
-如果您符合先決條件，在啟用身分拼接之前，可能會想要對事件資料集中的資料執行一些預檢檢查：
+如果您符合先決條件，請在啟用身分拼接之前，對事件資料集中的資料執行一些預檢檢查：
 
-* 如果您要針對永久ID或人員ID使用[體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)欄位，請確保在事件資料集的結構描述中正確標示身分。 [請參閱身分名稱空間概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。
+* 如果您針對永久ID或人員ID使用[Experience Data Model (XDM)結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)欄位，請確保在事件資料集的結構描述中正確標示身分。 [請參閱身分名稱空間概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。
 * 驗證永久ID和人員ID的身分涵蓋範圍：
 
   * **[!UICONTROL 永久ID]**
 
     查詢7天的資料，其中您的永久ID欄位不是Null，再除以資料集內所有事件的7天資料查詢。 此百分比應高於95%。
 
-    可用於驗證的查詢範例：
+    用於驗證的查詢範例：
 
     ```sql
     SELECT
@@ -74,10 +75,10 @@ ht-degree: 20%
 
 
   * **[!UICONTROL 個人 ID]**
-    * 對於圖表式拚接，請確保身分圖表包含從您選擇的永久ID名稱空間和人員ID名稱空間中連結ID值的片段。 您可以前往[Experience Platform身分識別圖形檢視器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}執行測試，並透過某些範例永久ID值查詢圖形。 驗證這些永久ID值是否連結至圖表中的人員ID值。
+    * 對於圖表式拚接，請確保身分圖表包含從您選擇的永久ID名稱空間和人員ID名稱空間中連結ID值的片段。 移至[Experience Platform身分識別圖形檢視器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"}，並透過某些永久ID值範例來查詢圖形。 若要驗證，請檢查這些永久ID值是否連結至圖表中的人員ID值。
     * 對於以欄位為基礎的彙整，請查詢7天資料中的人員ID欄位不是Null，然後除以資料集中所有事件的7天資料查詢。 理想情況下，此百分比應高於5%。
 
-      可用於驗證的查詢範例：
+      用於驗證的查詢範例：
 
       ```sql
       SELECT
@@ -146,7 +147,7 @@ ht-degree: 20%
 
 ### 資料集設定
 
-若要啟用拼接，請在&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊的事件資料集&#x200B;**[!UICONTROL 資料集設定]**&#x200B;區段中。
+若要啟用拼接，請使用&#x200B;**[!UICONTROL 新增資料集]**&#x200B;或&#x200B;**[!UICONTROL 編輯資料集]**&#x200B;對話方塊的事件資料集&#x200B;**[!UICONTROL 資料集設定]**&#x200B;區段。
 
 啟用功能時![身分拼接選項](assets/identity-stitching-ui.png)
 
@@ -226,14 +227,14 @@ ht-degree: 20%
 在Customer Journey Analytics中，錯誤ID是識別碼：
 
 * 具有特定ID值，且該ID值來自啟用拼接功能資料集中的永久ID或人員ID欄位，**和**
-* 在一個月內對連線資料中的超過100萬(1,000,000)個事件負責。
+* 每月會出現在連線資料中的一百萬個以上(1,000,000)個事件中。
 
 當ID值標示為錯誤ID時，連線資料中任何包含該ID值的未來事件都會遭到捨棄，而不會顯示在報表中。
 
 錯誤ID使用案例的範例：
 
 * 人員ID欄位中有自訂或預留位置值（例如，`undefined`）。 這類值也會影響[拼接與報告資料品質](/help/stitching/faq.md#undefined-person-id-values)。
-* 在以欄位為基礎的彙整設定中，如果多人共用一部裝置，且使用者之間的轉換總數超過50,000。 在此案例中，拚接程式會停止為該裝置使用人員ID資訊，而僅改用永久性ID資訊。 因此，該裝置的所有資料集事件都會傳送到具有永久ID身分的連線資料中，這極有可能導致「ID錯誤」情況。
+* 在以欄位為基礎的彙整設定中，如果多人共用一部裝置，且使用者之間的轉換總數超過50,000。 在此案例中，拚接程式會停止使用該裝置的人員ID資訊，而僅改用永久性ID資訊。 因此，該裝置的所有資料集事件都會傳送到具有永久ID身分的連線資料中，這可能會導致錯誤ID的情況。
 
 
 >[!NOTE]
@@ -243,11 +244,21 @@ ht-degree: 20%
 
 ### 儲存
 
-儲存連線後，一旦開始為這些資料集擷取資料，就會開始彙整已啟用資料集的彙整程式。
+儲存連線後，一旦開始擷取這些資料集的資料，就會開始彙整已啟用資料集的彙整程式。
+
+儲存連線後，就會觸發在已設定的資料集上啟用銜接的程式。 設定好彙整功能後，彙整服務就會處理所有即時串流資料，並從Experience Platform中的事件資料集開始回填，接著再將它們擷取至Customer Journey Analytics連線。
+
+流程的每個部分都會增加特定的延遲。 以下處理時間是護欄，而不是針對已儲存並包含拼接已啟用資料集的有效初始連線設定所達成的合約服務等級協定(SLA)：
+
+* 數小時後（少於17小時），即時資料最初會顯示在Customer Journey Analytics中。 即時資料從符合彙整啟用完成時實際時間的事件時間戳記值開始。 啟用資料集的&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;選項。 這可確保即時資料開始流入。
+
+  任何內嵌至Experience Platform來源事件資料集的新資料，都會在四小時內出現在Customer Journey Analytics中。
+
+* 回填的資料（若最初要求）大約會在即時資料的時間內在Customer Journey Analytics中顯示，但視所涉及的磁碟區而定，需要幾天或幾週的時間（少於4週）才能處理。 回填的資料會從最早的事件時間戳記值開始。
 
 >[!CAUTION]
 >
->對於在連線介面中啟用拼接的資料集，回填狀態會立即並錯誤回報為![狀態綠色](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _回填已完成]**，因為回填已完成數目。 使用其他方法驗證是否回填了拼接資料集中的資料。
+>對於在連線介面中啟用拼接的資料集，由於已知限制，目前無法報告回填狀態。 使用其他方法驗證是否回填了拼接資料集中的資料。
 >
 
 
