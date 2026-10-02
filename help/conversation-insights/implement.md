@@ -4,21 +4,35 @@ description: 瞭解如何檢測您的代理程式應用程式或服務，以進�
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
+autotag-review: '2026-10-02T07:03:13.165Z'
+TQID: 'https://experienceleague.adobe.com/tjjZwA5Ayvtz35ffQAkcCwhCzBUB6X4puMjFsiJ0HUY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
 feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-    internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
+  - id: d7a261eb-f9ac-4dd6-bd60-1637efcd3d36
+    internal-label: Conversation Insights
+role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: ebc2d1d9992150683fb642862e0ea29b7f70ddb0
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2563'
 ht-degree: 5%
 ---
 # 實作交談深入分析
@@ -275,7 +289,7 @@ ht-degree: 5%
 | `agents[].name` | 字串 | `"Chatbot Assistant"` | 代理程式名稱 |
 | `agents[].version` | 字串 | `"2.1.3"` | 代理程式版本 |
 | `agents[].score` | 數字 | `0.92` | 在其傳回值中的代理程式信賴分數 |
-| `agents[].skills[]` | 陣列 | 檢視下方的技能物件 | **已棄用** — 請改用下方最上層`skills[]`陣列，此陣列擁有完整的技能電話順序清單，並透過`agentID`將每個電話連結至其代理程式 |
+| `agents[].skills[]` | 陣列 | 檢視下方的技能物件 | **已棄用**。 請改用下方最上層`skills[]`陣列，此陣列擁有完整的技能通話順序清單，並透過`agentID`將每個通話連結至其代理程式 |
 | `agents[].skills[].name` | 字串 | `"Intent Recognition"` | 技能名稱（已棄用的陣列） |
 | `agents[].skills[].version` | 字串 | `"1.0.0"` | 技能版本（已棄用的陣列） |
 | `agents[].skills[].score` | 數字 | `0.95` | 技能信賴分數(0-1) （已棄用的陣列） |
@@ -429,11 +443,7 @@ ht-degree: 5%
 * **網頁詳細資料**&#x200B;欄位群組。 若要擷取對話所內嵌之網頁的詳細資訊。
 * **Commerce詳細資料**&#x200B;欄位群組。 擷取對話中提及之建議產品的產品詳細資料。
 
-
-
-客戶負責產生來源交談事件。 Adobe平台隨後會執行訊號擷取和資料混合。 客戶不需要實作訊號擷取或混合服務。
-
-本文介紹交談見解MVP輸入要求和目前的代理結構描述更新。 其中不包含Conversation Insights 1.0功能或更新版本的需求。
+客戶負責產生來源交談事件。 Adobe會執行訊號擷取和資料混合。 客戶不需要實作訊號擷取或混合服務。
 
 ### 事件型別
 
