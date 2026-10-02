@@ -4,19 +4,31 @@ description: 瞭解如何管理「交談見解」設定。
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
+autotag-review: '2026-10-02T07:03:36.851Z'
+TQID: 'https://experienceleague.adobe.com/D2nrhtN2SaHoAw0PU7yJtabvx-q0L5FHtBFu1sORfaI'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
 feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-    internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
+  - id: d7a261eb-f9ac-4dd6-bd60-1637efcd3d36
+    internal-label: ''
+role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+source-git-commit: b58d1768aef87f01bb3c20b01102d08a17e973ef
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 6%
@@ -83,7 +95,7 @@ ht-degree: 6%
    * 選取您要編輯的組態旁邊的核取方塊，然後從藍色動作列選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
    * 針對您要編輯的組態選取![更多](/help/assets/icons/More.svg)。 從內容功能表選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
 
-1. 使用組態&#x200B;_&#x200B;**[&#128279;](./configure.md)對話方塊的**&#x200B;組態/_&#x200B;名稱來管理交談見解。
+1. 使用組態&#x200B;_]**](./configure.md)對話方塊的[**[!UICONTROL 組態/_&#x200B;名稱來管理交談見解。
 
 ## 刪除設定
 
