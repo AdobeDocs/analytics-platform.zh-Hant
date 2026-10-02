@@ -16,9 +16,9 @@ feature_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
+source-git-commit: 7bd10643bc54f5923f590f849d05890bffd77a2e
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2563'
 ht-degree: 5%
 ---
 # 實作交談深入分析
@@ -275,7 +275,7 @@ ht-degree: 5%
 | `agents[].name` | 字串 | `"Chatbot Assistant"` | 代理程式名稱 |
 | `agents[].version` | 字串 | `"2.1.3"` | 代理程式版本 |
 | `agents[].score` | 數字 | `0.92` | 在其傳回值中的代理程式信賴分數 |
-| `agents[].skills[]` | 陣列 | 檢視下方的技能物件 | **已棄用** — 請改用下方最上層`skills[]`陣列，此陣列擁有完整的技能電話順序清單，並透過`agentID`將每個電話連結至其代理程式 |
+| `agents[].skills[]` | 陣列 | 檢視下方的技能物件 | **已棄用**。 請改用下方最上層`skills[]`陣列，此陣列擁有完整的技能通話順序清單，並透過`agentID`將每個通話連結至其代理程式 |
 | `agents[].skills[].name` | 字串 | `"Intent Recognition"` | 技能名稱（已棄用的陣列） |
 | `agents[].skills[].version` | 字串 | `"1.0.0"` | 技能版本（已棄用的陣列） |
 | `agents[].skills[].score` | 數字 | `0.95` | 技能信賴分數(0-1) （已棄用的陣列） |
@@ -429,11 +429,7 @@ ht-degree: 5%
 * **網頁詳細資料**&#x200B;欄位群組。 若要擷取對話所內嵌之網頁的詳細資訊。
 * **Commerce詳細資料**&#x200B;欄位群組。 擷取對話中提及之建議產品的產品詳細資料。
 
-
-
-客戶負責產生來源交談事件。 Adobe平台隨後會執行訊號擷取和資料混合。 客戶不需要實作訊號擷取或混合服務。
-
-本文介紹交談見解MVP輸入要求和目前的代理結構描述更新。 其中不包含Conversation Insights 1.0功能或更新版本的需求。
+客戶負責產生來源交談事件。 Adobe會執行訊號擷取和資料混合。 客戶不需要實作訊號擷取或混合服務。
 
 ### 事件型別
 
