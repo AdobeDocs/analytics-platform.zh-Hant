@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 59d79c72fd52b3eb409c2554bef9daf7094b0287
+source-git-commit: 8800f7c1659785931edb7d9f7139f037a086511c
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1929'
 ht-degree: 18%
 ---
 # 啟用拼接
@@ -244,13 +244,17 @@ ht-degree: 18%
 
 ### 儲存
 
-儲存連線後，一旦開始擷取這些資料集的資料，就會開始彙整已啟用資料集的彙整程式。
 
-儲存連線後，就會觸發在已設定的資料集上啟用銜接的程式。 設定好彙整功能後，彙整服務就會處理所有即時串流資料，並從Experience Platform中的事件資料集開始回填，接著再將它們擷取至Customer Journey Analytics連線。
 
-流程的每個部分都會增加特定的延遲。 以下處理時間是護欄，而不是針對已儲存並包含拼接已啟用資料集的有效初始連線設定所達成的合約服務等級協定(SLA)：
+儲存連線後，就會觸發在已設定的資料集上啟用銜接的程式。 設定好彙整功能後，彙整服務就會處理所有即時串流資料，並從Experience Platform中的事件資料集開始回填，接著將資料內嵌至Customer Journey Analytics連線。
 
-* 數小時後（少於17小時），即時資料最初會顯示在Customer Journey Analytics中。 即時資料從符合彙整啟用完成時實際時間的事件時間戳記值開始。 啟用資料集的&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;選項。 這可確保即時資料開始流入。
+流程的每個部分都會增加特定的延遲。 以下處理時間是護欄，而不是合約服務等級協定(SLA)。
+
+針對已儲存且包含已啟用拼接資料集的有效初始連線設定：
+
+* 數小時後（少於17小時），即時資料最初會顯示在Customer Journey Analytics中。 即時資料從符合彙整啟用完成時實際時間的事件時間戳記值開始。
+
+  若要確保即時資料開始流入，請啟用資料集的&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;選項。
 
   任何內嵌至Experience Platform來源事件資料集的新資料，都會在四小時內出現在Customer Journey Analytics中。
 
