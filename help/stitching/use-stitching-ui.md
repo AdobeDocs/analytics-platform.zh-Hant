@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8800f7c1659785931edb7d9f7139f037a086511c
+source-git-commit: 1ee7e0b046f370c956b083e494522cfbc892e092
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1979'
 ht-degree: 18%
 ---
 # 啟用拼接
@@ -238,15 +238,13 @@ ht-degree: 18%
 
 
 >[!NOTE]
->**[!UICONTROL 拼接量度]** （包括&#x200B;**[!UICONTROL 錯誤的ID]**）是根據有限的資料集計算的。 若要識別您計畫用於拼接的資料集是否存在錯誤ID，請參閱[錯誤ID技術檔案](/help/technotes/badids.md)。
+>**[!UICONTROL 拼接量度]** （包括&#x200B;**[!UICONTROL 錯誤的ID]**）是根據有限的資料集計算的。 若要識別您計畫用於拼接的資料集是否存在「錯誤ID」，請參閱[Bad IDs technote](/help/technotes/badids.md)。
 >
 
 
 ### 儲存
 
-
-
-儲存連線後，就會觸發在已設定的資料集上啟用銜接的程式。 設定好彙整功能後，彙整服務就會處理所有即時串流資料，並從Experience Platform中的事件資料集開始回填，接著將資料內嵌至Customer Journey Analytics連線。
+儲存連線後，就會觸發在已設定的資料集上啟用銜接的程式。 設定好拼接服務後，該服務就會處理即時串流資料以及Experience Platform中事件資料集的任何請求回填。 接著，資料會內嵌至Customer Journey Analytics連線中。
 
 流程的每個部分都會增加特定的延遲。 以下處理時間是護欄，而不是合約服務等級協定(SLA)。
 
@@ -256,15 +254,16 @@ ht-degree: 18%
 
   若要確保即時資料開始流入，請啟用資料集的&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;選項。
 
-  任何內嵌至Experience Platform來源事件資料集的新資料，都會在四小時內出現在Customer Journey Analytics中。
+  擷取到Experience Platform來源事件資料集的新資料會在四小時內出現在Customer Journey Analytics中。
 
-* 回填的資料（若最初要求）大約會在即時資料的時間內在Customer Journey Analytics中顯示，但視所涉及的磁碟區而定，需要幾天或幾週的時間（少於4週）才能處理。 回填的資料會從最早的事件時間戳記值開始。
+* 回填資料（如果最初要求）大約與即時資料同時出現在Customer Journey Analytics中，但視所涉及的磁碟區而定，可能需要幾天的時間才能完全處理。 回填的資料會從最早的事件時間戳記值開始。
 
->[!CAUTION]
->
->對於在連線介面中啟用拼接的資料集，由於已知限制，目前無法報告回填狀態。 使用其他方法驗證是否回填了拼接資料集中的資料。
->
+  >[!CAUTION]
+  >
+  >對於在連線介面中啟用拼接的資料集，由於已知限制，目前無法報告回填狀態。
+  >
 
+  使用替代方法來驗證是否回填了拼接資料集中的資料。 例如，使用[Experience Platform查詢服務UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/overview)從資料集中擷取相關期間的事件計數。 比較相同時間範圍內[Customer Journey Analytics報告](/help/analysis-workspace/home.md)中的事件量度所計數的事件數目。 如果這些數字相符，回填就會完成。
 
 ## 限制
 
