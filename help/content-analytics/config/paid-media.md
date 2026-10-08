@@ -4,12 +4,11 @@ description: 瞭解資料集、連線、資料檢視等的自動設定。
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-source-git-commit: f83d40d33e90ba73f26129ab416f063f361edca7
+source-git-commit: 2727dce145b996192ac873dd43d5106b011ff736
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 4%
 ---
-
 # 付費媒體自動設定
 
 當您在Content Analytics中啟用付費媒體頻道並儲存設定時，Adobe會使用付費媒體資料集的報表設定來更新所選的連線和資料檢視。 您不需要自行重新建立預設維度、量度、查詢邏輯或摘要資料群組。
@@ -65,7 +64,6 @@ ht-degree: 4%
 描述帳戶、行銷活動、廣告群組、廣告、體驗和資產的個別查詢資料集。 它們會使用實體GUID提供名稱和中繼資料。 摘要資料集和六個查詢資料集之間沒有一對一的配對。
 
 摘要資料分組會將相等的維度彙整在一起；分組不會將六個效能量度總計加總。
-
 
 ## 元件
 
