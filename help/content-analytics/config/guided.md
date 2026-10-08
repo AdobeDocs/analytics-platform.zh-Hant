@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 1af0b3565fe054a5073f574d53b82f561df1abda
 workflow-type: tm+mt
 source-wordcount: '4800'
 ht-degree: 56%
@@ -332,7 +332,7 @@ ht-degree: 56%
 
 * 指示在收集Content Analytics的資料時應排除哪些資產URL。 請確定您排除了可識別個人身分的資產 URL。
 
-  指定&#x200B;**[!UICONTROL 要排除的資產URL的**&#x200B;[!UICONTROL &#x200B;規則運算式字串&#x200B;]&#x200B;**]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有參照標誌JPEG影像的資產URL。
+  指定&#x200B;**[!UICONTROL 要排除的資產URL的**[!UICONTROL &#x200B;規則運算式字串&#x200B;]**]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有參照標誌JPEG影像的資產URL。
 
 
 ### 標頭覆寫 {#mobile-header-overrides}
@@ -669,7 +669,7 @@ ht-degree: 56%
 
 1. 在精靈的➋ **[!UICONTROL 選取帳戶]**&#x200B;步驟中，選取您要設定的帳戶。
 
-   ![Meta Ads來源聯結器選取帳戶](paid-media-meta-select-account.png)
+   ![Meta Ads來源聯結器選取帳戶](../assets/paid-media-meta-select-account.png)
 
    選取&#x200B;**[!UICONTROL 「下一步」]**。
 
