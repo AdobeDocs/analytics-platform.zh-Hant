@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 50673e8c536614e16f10e639b32a01ffd8456086
+source-git-commit: d7614102d54af57a3a084c8550041f8e04f4bc37
 workflow-type: tm+mt
-source-wordcount: '5192'
-ht-degree: 20%
+source-wordcount: '3881'
+ht-degree: 12%
 ---
 # 建立資料摘要
 
@@ -64,26 +64,6 @@ ht-degree: 20%
 >abstract="指定一個或多個電子郵件地址，在資料摘要完成、即將到期或遇到問題時，應向這些地址傳送通知。 請使用逗號分隔多個電子郵件地址。"
 
 <!-- markdownlint-enable MD034 -->
-
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_datafeed_user_agent"
->title=""
->abstract="相同的資料摘要設定中不得同時存在使用者代理資料和裝置查詢資料。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja_datafeed_required_dimensions"
->title="必要的維度"
->abstract="每個資料摘要都必須包含特定維度，以維度名稱旁的&#x200B;**必要**&#x200B;標籤來識別。 這些維度可提供事件層級分析所需的最低結構。"
-
-<!-- markdownlint-enable MD034 -->
-
 
 <!-- markdownlint-disable MD034 -->
 
@@ -149,156 +129,7 @@ ht-degree: 20%
 
    <!--add screenshot-->
 
-   +++ 資料摘要中一律包含的維度
-
-   下列維度預設會包含在每個資料摘要中，且無法移除：
-
-   | 維度名稱 | 附註 | 資料饋送 | 其他報告 |
-   |---|---|---|---|
-   | 時間戳記 UTC | 事件發生日期和時間，以UTC時區表示。 支援次秒（微秒）粒度。 | 必填 | 未提供 |
-   | 列 ID | 資料摘要中包含的每列的唯一識別碼。 | 必填 | 未提供 |
-   | 工作階段 ID | 資料摘要中包含的每個工作階段的唯一識別碼。 | 必填 | 未提供 |
-   | 人員 ID | 資料檢視和連線的個人識別碼 | 必填 | 可選標準 |
-   | 帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 使用帳戶容器時的帳戶ID | 必填 | 可選標準 |
-
-   +++
-
-   +++ 無法納入資料摘要的維度
-
-   Customer Journey Analytics標準維度不得包含在資料摘要中。 下表列出這些維度：
-
-   | 維度名稱 | 附註 | 資料饋送 |
-   |---|---|---|
-   | 5 分鐘 | 事件發生時的五分鐘間隔（無條件舍去） | 未提供 |
-   | 15 分鐘 | 發生事件時的15分鐘間隔（無條件舍去） | 未提供 |
-   | 30 分鐘 | 發生事件時的30分鐘間隔（無條件舍去） | 未提供 |
-   | 日 | 事件發生日期 | 未提供 |
-   | 星期 | 事件發生的一週中的第幾天 | 未提供 |
-   | 當月日期 | 事件發生當月的第幾天 | 未提供 |
-   | 小時 | 發生事件的小時（無條件舍去） | 未提供 |
-   | 小時 | 事件發生當天的小時（無條件舍去） | 未提供 |
-   | 分鐘 | 發生事件的分鐘數（無條件舍去） | 未提供 |
-   | 小時期間各分鐘 | 發生事件當小時的分鐘（無條件舍去） | 未提供 |
-   | 月 | 發生事件的月份 | 未提供 |
-   | 月份 | 發生事件的月份 | 未提供 |
-   | 季 | 季度發生事件 | 未提供 |
-   | 季別 | 發生事件的季別 | 未提供 |
-   | Second | 發生事件第二次（無條件舍去） | 未提供 |
-   | 週 | 事件發生周 | 未提供 |
-   | 年度內的第幾週 | 事件發生的一年中的第幾週 | 未提供 |
-   | 年 | 事件發生年份 | 未提供 |
-
-   +++
-
-   +++ 無法納入資料摘要的量度
-
-   下列Customer Journey Analytics標準量度無法納入資料摘要中：
-
-   | 量度名稱 | 附註 | 資料饋送 |
-   |---|---|---|
-   | Adobe訪客設定檔 | | 未提供 |
-   | Adobe機會聯盟 | | 未提供 |
-   | Adobe機會設定檔 | | 未提供 |
-   | Adobe帳戶聯合 | | 未提供 |
-   | Adobe帳戶設定檔 | | 未提供 |
-   | Adobe購買群組聯盟 | | 未提供 |
-   | Adobe購買群組設定檔 | | 未提供 |
-   | Adobe全球帳戶聯盟 | | 未提供 |
-   | Adobe全域帳戶設定檔 | | 未提供 |
-   | Adobe人員聯盟 | | 未提供 |
-   | Adobe人員設定檔 | | 未提供 |
-
-   +++
-
-   +++ 無法在資料摘要中搭配使用的維度
-
-   >[!IMPORTANT]
-   >
-   >某些維度無法在Experience Platform資料集中一起使用，因此無法包含在相同的資料摘要中。
-   >
-   >如果您選擇在您的資料摘要中加入&#x200B;**使用者代理**&#x200B;或&#x200B;**行動識別碼**&#x200B;維度，則下列維度無法新增至資料摘要。
-   >
-   >如果您使用Web SDK，此限制會在資料到達Experience Platform資料集之前在資料串流中強制執行。 如需詳細資訊，請參閱資料收集指南中[建立及設定資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)中的[設定裝置查詢](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#geolocation-device-lookup)。
-
-   下列維度無法與&#x200B;**使用者代理程式**&#x200B;或&#x200B;**行動識別碼**&#x200B;維度搭配使用：
-
-   * 瀏覽器類型
-   * 瀏覽器
-   * 行動製造商
-   * 行動裝置類型
-   * 行動音訊支援
-   * 行動 DRM
-   * 行動 Java VM
-   * 行動資訊服務
-   * 行動影像支援
-   * 行動色彩深度
-   * 行動網路通訊協定
-   * 行動裝置號碼
-   * 行動電子郵件的最大長度
-   * 行動郵件裝飾
-   * 行動即按即說 (Push To Talk)
-   * 行動螢幕寬度
-   * 行動瀏覽器 URL 的最大長度
-   * 行動作業系統 (已棄用)
-   * 行動螢幕高度
-   * 行動視訊支援
-   * 行動 Cookie 支援
-   * 行動書籤 的最大長度
-   * 行動螢幕大小
-   * 行動裝置名稱
-   * 作業系統類型
-   * 作業系統
-
-   +++
-
-   +++ 在資料摘要中必須替代的量度
-
-   下列Customer Journey Analytics量度必須被取代：
-
-   | 量度名稱 | 附註 | 資料饋送 |
-   |---|---|---|
-   | 帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 根據連線中指定的帳戶ID | 無法使用。 使用帳戶ID的相異計數。 |
-   | 購買群組[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 根據連線中的購買群組ID購買群組 | 無法使用。 使用購買群組ID的相異計數。 |
-   | 活動 | 連線中所有事件資料集的列數 | 無法使用。 使用資料列ID的相異計數。 |
-   | 全域帳戶 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 根據連線中的全域帳戶ID | 無法使用。 使用全域帳戶ID的相異計數。 |
-   | 機會 [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 根據連線中的機會ID的機會 | 無法使用。 使用與機會ID不同的計數。 |
-   | 使用者 | 根據連線中指定的人員ID | 無法使用。 使用人員ID的相異計數。 |
-   | 對話數 | 交談數 | 無法使用。 使用對話識別碼的相異計數。 |
-   | 工作階段結束 | 工作階段中最後一個事件的事件數 | 未提供 |
-   | 工作階段開始 | 工作階段中第一個事件的事件數 | 未提供 |
-   | 工作階段 | 根據資料檢視的工作階段設定 | 無法使用。 使用工作階段ID的相異計數。 |
-   | 逗留時間（秒） | 加總兩個不同維度值之間的時間 | 未提供 |
-
-   +++
-
-   +++ 可選標準元件
-
-   | 元件名稱 | 類型 | 附註 | 資料饋送 |
-   |---|---|---|---|
-   | 上午/下午 | 時間分段維度 | 上午或下午 | 未提供 |
-   | 批次 ID | 維度 | Experience Platform批次的識別碼 | 可用 |
-   | 資料集 ID | 維度 | Experience Platform資料集的識別碼 | 可用 |
-   | 當月日期 | 時間分段維度 | 1-31 | 未提供 |
-   | 星期 | 時間分段維度 | 星期一到星期日 | 未提供 |
-   | 年中的日 | 時間分段維度 | 1-366 | 未提供 |
-   | 事件深度 | 維度 | 循序數值（1、2、3等） 指派給工作階段中的每個事件互動<p>在每個新工作階段開始時重設</p> | 可用 |
-   | 小時 | 時間分段維度 | 0-23 | 未提供 |
-   | 月份 | 時間分段維度 | 1-12月 | 未提供 |
-   | 首次工作階段 | 量度 | 個人在報告時段內首次定義的工作階段 | 未提供 |
-   | 回訪工作階段 | 量度 | 非個人首次工作階段的工作階段 | 未提供 |
-   | 人員ID名稱空間 | 維度 | 組成人員ID的ID型別（例如電子郵件或Cookie ID） | 可用 |
-   | 全域帳戶ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 維度 | 使用全域帳戶容器時的全域帳戶ID | 可用 |
-   | 機會ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 維度 | 使用機會容器時的機會識別碼 | 可用 |
-   | 購買群組ID [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | 維度 | 使用購買群組容器時的購買群組ID | 可用 |
-   | 季別 | 時間分段維度 | 第 1 季、第 2 季、第 3 季、第 4 季 | 未提供 |
-   | 重複工作階段 | 量度 | 不是個人的首次工作階段的工作階段 | 未提供 |
-   | 工作階段型別 | 維度 | 兩個值：首次或傳回 | 未提供 |
-   | 每個事件逗留時間 | 維度 | 將「逗留時間」量度儲存至事件值區 | 未提供 |
-   | 每個工作階段逗留時間 | 維度 | 將「逗留時間」量度儲存至「工作階段」值區 | 未提供 |
-   | 每人逗留時間 | 維度 | 將「逗留時間」量度儲存至人員值區 | 未提供 |
-   | 週末/平常日 | 時間分段維度 | 週末或平常日 | 未提供 |
-
-   +++
+   某些元件為必要、不支援的元件，或資料摘要中有限制。 如需詳細資訊，請參閱資料摘要](/help/components/exports/cja-data-feeds/df-components.md)中的[元件可用性。
 
 1. （選用）拖曳畫布上的元件以重新排序元件。 您定義的順序會保留為匯出的資料摘要檔案中的欄順序。
 
@@ -334,7 +165,7 @@ ht-degree: 20%
    | [!UICONTROL **結束日期**]<br/>&#x200B;僅供回填摘要使用 | 資料摘要結束的日期。 結束日期不能為未來日期。 日期取決於資料檢視的時區。 |
    | [!UICONTROL **頻率**]<br/>&#x200B;僅適用於即時摘要 | 選取資料摘要的傳送頻率。 時間戳記屬於頻率視窗的事件會包含在資料摘要傳送中。 [!UICONTROL **回顧日期範圍**]&#x200B;及&#x200B;[!UICONTROL **處理延遲**]&#x200B;欄位也會影響哪些事件包含在您所選擇傳遞頻率的資料中。<p>選取此選項可包含一小時的資料或一天的資料。</p><ul><li>**每日**：摘要包含一整天的資料，從資料檢視時區的午夜到午夜。</li><li>**小時**：摘要包含一個小時的資料量。</li></ul> |
    | [!UICONTROL **粒度**]<br/>&#x200B;僅適用於回填摘要 | 用來將歷史資料分割成區塊的時間間隔。 每個區塊包含一整天的資料，從資料檢視時區的午夜到午夜。 <p>詳細程度會決定資料的分組方式，而非資料傳送的頻率。 回填資料會儘快傳送，不會每天傳送一次。</p><p>此欄位一律設為&#x200B;[!UICONTROL **每日**]，無法修改。</p> |
-   | [!UICONTROL **回顧日期範圍**] | 控制 Customer Journey Analytics 在處理資料摘要傳送時回顧的時間範圍。 預設值為30天。<p>頻率時段 (小時或日) 會決定哪些事件包含在資料摘要中，而&#x200B;**回顧日期範圍**&#x200B;則提供正確分類這些事件所需的歷史情境。</p><p>細分資格篩選、維度持續性、工作階段計算和衍生欄位轉換都會影響包含的事件。</p> <p>在設定此選項之前，請參閱以下章節中說明的詳細資訊和範例，[瞭解回顧日期範圍](#understand-the-lookback-date-range)。</p> |
+   | [!UICONTROL **回顧日期範圍**] | 控制 Customer Journey Analytics 在處理資料摘要傳送時回顧的時間範圍。 預設值為30天。<p>頻率時段 (小時或日) 會決定哪些事件包含在資料摘要中，而&#x200B;**回顧日期範圍**&#x200B;則提供正確分類這些事件所需的歷史情境。</p><p>細分資格篩選、維度持續性、工作階段計算和衍生欄位轉換都會影響包含的事件。</p> <p>在設定此選項之前，請參閱以下章節中說明的詳細資訊和範例，[瞭解回顧日期範圍](#data-feed-lookback-date-range)。</p> |
    | [!UICONTROL **處理延遲**] | 選擇Customer Journey Analytics在處理資料摘要檔案之前等待的時間長度。 在處理延遲期間傳入的任何延遲送達事件都會納入資料摘要中。 <p>最小處理延遲為2小時，但某些型別的資料需要更長的延遲。 您選擇的延遲取決於連線中的資料型別，例如串流、批次、拼接、查詢或設定檔資料。</p><p>選擇夠長的延遲，讓連線中最慢的資料完成處理。 如果延遲太短，仍在處理的資料不會包含在資料摘要檔案中。</p><p>在設定此選項之前，請參閱以下章節中說明的詳細資訊和範例，[瞭解處理延遲](#data-feed-processing-delay)。</p> |
    | [!UICONTROL **壓縮格式**] | 為傳送到雲端目的地的Parquet輸出檔案選取壓縮格式。 從下列格式中選擇：<ul><li>[!UICONTROL **快取**]：檔案大小適中，可快速壓縮與解壓縮。 受到現代化資料平台（例如BigQuery、Snowflake和Apache Spark）的廣泛支援。</li><li>[!UICONTROL **GZip**]：廣泛相容，包括本機不支援Snappy的工具。 如果您的下游管道需要廣泛認可的壓縮標準，則建議使用。</li><li>[!UICONTROL **Z標準(Zstd)**]：快速解壓縮的高壓縮效率。 如果優先考慮檔案大小最小化，且您的工具支援Zstd，則適合使用。</li></ul> |
 
@@ -444,7 +275,7 @@ ht-degree: 20%
 
 * 使用者在回顧日期範圍&#x200B;**內的某個時間符合原始行銷活動**&#x200B;的資格。
 
-  如果使用者在9天前符合原始促銷活動的資格，則回顧日期範圍設為30天時，資料摘要會包含&#x200B;**原始促銷活動，但是如果回顧日期範圍設為7天，則資料摘要不會包含**&#x200B;原始促銷活動。**&#x200B;**
+  如果使用者在9天前符合原始促銷活動的資格，則回顧日期範圍設為30天時，資料摘要會包含&#x200B;**原始促銷活動，但是如果回顧日期範圍設為7天，則資料摘要不會包含**&#x200B;原始促銷活動。****
 
 >[!ENDSHADEBOX]
 

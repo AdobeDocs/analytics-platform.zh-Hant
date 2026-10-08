@@ -2,9 +2,9 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 684fef6a5e007d6dabe6518d7c7ec93a41dc6cdd
+source-git-commit: d7614102d54af57a3a084c8550041f8e04f4bc37
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1515'
 ht-degree: 92%
 ---
 # Adobe Customer Journey Analytics 指南 {#using}
@@ -435,9 +435,10 @@ ht-degree: 92%
       + {hide-from-toc}[準備對應資料行](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
       + {hide-from-toc}[對應資料行](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
       + {hide-from-toc}[建立資料摘要](/help/components/exports/cja-data-feeds/create-feed.md)
+      + {hide-from-toc}[元件可用性](/help/components/exports/cja-data-feeds/df-components.md)
       + {hide-from-toc}[資料摘要中的細分](/help/components/exports/cja-data-feeds/df-segmentation.md)
       + {hide-from-toc}[套用資料轉換](/help/components/exports/cja-data-feeds/df-data-transformations.md)
-      + {hide-from-toc}[資料摘要中的子事件](/help/components/exports/cja-data-feeds/df-sub-event.md)
+      + 資料摘要中的{hide-from-toc}[子事件](/help/components/exports/cja-data-feeds/df-sub-event.md)
   + 資料字母排序 {#data-dictionary}
     + [概觀](../components/data-dictionary/data-dictionary-overview.md)
     + [檢視資料字母排序中的元件資訊](../components/data-dictionary/view-data-dictionary.md)
