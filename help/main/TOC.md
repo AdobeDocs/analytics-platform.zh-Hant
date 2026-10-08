@@ -438,7 +438,7 @@ ht-degree: 92%
       + {hide-from-toc}[元件可用性](/help/components/exports/cja-data-feeds/df-components.md)
       + {hide-from-toc}[資料摘要中的細分](/help/components/exports/cja-data-feeds/df-segmentation.md)
       + {hide-from-toc}[套用資料轉換](/help/components/exports/cja-data-feeds/df-data-transformations.md)
-      + 資料摘要中的{hide-from-toc}[子事件](/help/components/exports/cja-data-feeds/df-sub-event.md)
+      + {hide-from-toc}[資料摘要中的子事件](/help/components/exports/cja-data-feeds/df-sub-event.md)
   + 資料字母排序 {#data-dictionary}
     + [概觀](../components/data-dictionary/data-dictionary-overview.md)
     + [檢視資料字母排序中的元件資訊](../components/data-dictionary/view-data-dictionary.md)
