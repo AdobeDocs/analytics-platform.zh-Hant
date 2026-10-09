@@ -132,5 +132,5 @@ Customer Journey Analytics不會直接針對Experience Platform資料集製作�
 
 >[!MORELIKETHIS]
 >
->[Meta Ads來源聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/advertising/meta-ads)
+>[Meta Ads來源聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/advertising/meta-ads)
 >[Content Analytics付費媒體自動設定](/help/content-analytics/config/paid-media.md)
