@@ -4,7 +4,6 @@ description: 在Customer Journey Analytics中啟用事件資料集的彙整功�
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-hold: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 TQID: 'https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw'
 product_v2:
@@ -25,9 +24,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e387cf97c6190e4bda66b891e02e8cf8ac05b1f2
+source-git-commit: 49795b40eab1fcd1bfd472ccb756587adf9877b8
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1989'
 ht-degree: 18%
 ---
 # 啟用拼接
@@ -258,14 +257,14 @@ ht-degree: 18%
 
 * 回填資料（如果最初要求）大約與即時資料同時出現在Customer Journey Analytics中，但視所涉及的磁碟區而定，可能需要幾天的時間才能完全處理。 回填的資料會從最早的事件時間戳記值開始。
 
-   
 
   >[!CAUTION]
   >
-  >對於在連線介面中啟用拼接的資料集，由於已知限制，目前無法報告回填狀態。
+  >對於在連線介面中啟用拼接[的資料集](#enable-stitching)，由於已知的限制，無法報告回填狀態。
   >
 
-  使用替代方法來驗證是否回填了拼接資料集中的資料。 例如，使用[Experience Platform查詢服務UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/overview)從資料集中擷取相關期間的事件計數。 比較相同時間範圍內[Customer Journey Analytics報表](/help/analysis-workspace/home.md)中&#x200B;**[!UICONTROL 事件]**&#x200B;量度值的事件計數。 如果這些數字相符，回填就會完成。
+  使用替代方法來驗證是否回填了拼接資料集中的資料。 例如，使用[Experience Platform查詢服務UI](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview)從資料集中擷取相關期間的事件計數。 比較相同時間範圍內[Customer Journey Analytics報表](/help/analysis-workspace/home.md)中&#x200B;**[!UICONTROL 事件]**&#x200B;量度值的事件計數。 如果這些數字相符，回填就會完成。
+
 
 ## 限制
 
