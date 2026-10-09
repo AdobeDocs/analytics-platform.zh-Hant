@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 0a83f4d08806b4d9b97265989f9d687011b232c3
+source-git-commit: c9d7bb10d15aa25bf3fa6dcd2e95fea39cd6faf7
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 28%
+source-wordcount: '863'
+ht-degree: 27%
 ---
 # 目前的Customer Journey Analytics發行說明（2026年10月）
 
@@ -64,7 +64,7 @@ ht-degree: 28%
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | -----------|-----------|-----------|
-| **Customer Journey Analytics MCP伺服器的唯讀許可權**<br/>&#x200B;管理員現在可以授與使用者對Customer Journey Analytics MCP伺服器的唯讀存取權。 新的[!UICONTROL MCP唯讀]許可權專案可讓使用者存取所有唯讀工具，而不允許他們建立專案、區段或計算量度。<p>現有的[!UICONTROL MCP存取]許可權專案已重新命名為[!UICONTROL MCP完整存取]。 具有此許可權的使用者可繼續存取所有工具，包括建立、變更或刪除元件的工具。</p><p>如需詳細資訊，請參閱[Customer Journey Analytics MCP伺服器](https://developer.adobe.com/analytics-mcp/docs/cja/)。</p> | | 2026年10月6日 |
+| **Customer Journey Analytics MCP伺服器的唯讀許可權**<br/>&#x200B;管理員現在可以授與使用者對Customer Journey Analytics MCP伺服器的唯讀存取權。 新的[!UICONTROL MCP唯讀存取]許可權專案可讓使用者存取所有唯讀工具，而不允許他們建立專案、區段或計算量度。<p>現有的[!UICONTROL MCP存取]許可權專案已重新命名為[!UICONTROL MCP完整存取]。 具有此許可權的使用者可繼續存取所有工具，包括建立、變更或刪除元件的工具。</p><p>如需詳細資訊，請參閱Customer Journey Analytics MCP伺服器檔案中的[設定許可權](https://developer.adobe.com/analytics-mcp/docs/guides/permissions)。</p> | | 2026年10月6日 |
 | **在Analysis Workspace中使用交談深入分析來分析LLM客戶體驗**<br/> Customer Journey Analytics現在將非結構化的聊天資料帶入Analysis Workspace，讓您報告屬性中發生的LLM支援瀏覽和購買體驗。<p>有了這項功能，您可以：</p><ul><li>透過Web SDK從對話式代理程式（您組織的自訂代理程式或Adobe Brand Concierge）收集提示、回應和代理程式中繼資料。</li><li>分析意圖、語調和情緒，以瞭解客戶詢問、代理商回應方式，以及客戶對其互動的感受。</li><li>使用您現有的結構、資料集和資料檢視進行大規模分析，然後在Analysis Workspace中呈現深入分析。</li><li>將代理互動連結至您更廣大的客戶歷程，讓對話與結果相互關聯，這樣您就能衡量對轉換、參與度等專案的實際影響。</li></ul><p>過去，LLM支援的體驗很難測量，而且幾乎無法連線至您現有的客戶歷程。</p><p>如需詳細資訊，請參閱[交談見解](/help/conversation-insights/overview.md)。</p> | | 2026年10月8日<p>（原計畫於2026年9月22日推出）</p> |
 | **自動產生元件說明** <br/>您現在可以自動產生維度、量度、計算量度、區段和日期範圍的說明。 這可讓Workspace使用者瞭解要使用哪些元件，尤其是在擁有大型元件庫的組織中。 <p>您可以產生單一元件的說明，或同時產生許多元件的說明。</p> <p>(文件連結待補充。)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日 |
 | **Adobe Brand Visibility整合**<br/>&#x200B;將Adobe Brand Visibility與您組織的Customer Journey Analytics資料連結，以便測量AI驅動的探索如何轉化為實際的網站參與度和業務成果。<p>(文件連結待補充。)</p> | | 2026年10 |

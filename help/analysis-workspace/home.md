@@ -6,31 +6,41 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-TQID: https://experienceleague.adobe.com/mzyzOOuWJ1gOiLnUGvjQGrxysdoAMFm2RrXYQutiMT8
+TQID: 'https://experienceleague.adobe.com/mzyzOOuWJ1gOiLnUGvjQGrxysdoAMFm2RrXYQutiMT8'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
+    internal-label: Insights
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 1530
+source-wordcount: '1530'
 ht-degree: 97%
-
 ---
-
 # Analysis Workspace 概觀 {#analysis-workspace-overview}
 
 Analysis Workspace 可讓您快速建置分析以收集洞察，然後與其他人共用這些洞察。 透過拖放瀏覽器介面，您可以建立分析、新增視覺化呈現以生動呈現資料、組織資料集，以及與組織中您選擇的任何人共用和排程[專案](/help/analysis-workspace/build-workspace-project/freeform-overview.md)。
@@ -181,5 +191,5 @@ Analysis Workspace 中的分析稱為[專案](/help/analysis-workspace/build-wor
 
 - Customer Journey Analytics 的[學習登陸](/help/getting-started/landing.md#learning)頁面。 此頁面是熟悉 Analysis Workspace 的好方法。 特別是「學習工作區基礎知識」。 此範本會逐步引導您了解常用術語，以及在工作區中首次建立分析的步驟。
 - Adobe 提供數百項 [Analytics 影片培訓教學課程](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/overview)。
-- 請參閱[CX Enterprise發行說明](https://experienceleague.adobe.com/zh-hant/docs/release-notes/experience-cloud/current)，以取得新功能的更新資訊。
+- 請參閱[CX Enterprise發行說明](https://experienceleague.adobe.com/zh-hant/docs/release-notes/experience-cloud/current)，瞭解新功能的相關更新。
 

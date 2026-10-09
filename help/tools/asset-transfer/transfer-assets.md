@@ -1,33 +1,38 @@
 ---
 title: 轉移資產
-description: 了解如何將元件從一個是用者轉移到另一個使用者
+description: 了解如何將元件從一個使用者轉移到另一個使用者
 role: Admin
 solution: Customer Journey Analytics
 exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
-TQID: https://experienceleague.adobe.com/jjqF5CYG0y7OfRA9oGihAQwXQCOW00gkiEwwbfH3jrU
+TQID: 'https://experienceleague.adobe.com/jjqF5CYG0y7OfRA9oGihAQwXQCOW00gkiEwwbfH3jrU'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
   - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+    internal-label: Alerts
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Admin
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: '857'
 ht-degree: 98%
-
 ---
-
 # 轉移資產
 
 資產轉移工具可讓您將資產所有權轉移給其他使用者。 資產可以包括專案、區段、日期範圍、計算量度、附註、警示和已排程專案等元件。
 
-資產通常與個別擁有者相連結，而在某些情況下 (例如區段和計算量度)，即使是管理員也無法編輯或分享。 在使用者離開組織或其角色變更時，就可能需要將這些資產的所有權轉移給其他使用者，以確保連續性和適當的存取權限。
+資產通常與個別擁有者相連結，而在某些情況下 (例如區段和計算量度)，即使是管理員也無法編輯或分享。 在使用者離開組織或其角色變更時，就可能需要將這些資產的所有權轉移給其他使用者，以確保連續性和適當的存取權。
 
 ## 權限
 
@@ -43,7 +48,7 @@ ht-degree: 98%
 
    >[!IMPORTANT]
    >
-   >您只能從一個使用者到另一個使用者進行1:1轉移。 不支援一對多或多對一的轉移。
+   >您只能進行1:1傳輸，從一位使用者傳輸到另一位使用者。 不支援一對多或多對一的轉移。
 
 
 1. 在選取使用者之後，轉移資產選項會出現在畫面底部。
@@ -95,9 +100,9 @@ ht-degree: 98%
 
 - API POST 正文未正確填入：在選取多個元件類型時，可能無法在 API POST 正文中傳送元件。
 
-- 使用者不存在：使用者在轉移過程中遭刪除，或因其他原因而無效。 如果使用者在轉移開始之前即是無效的，則該工具將會偵測此情況且不會處理該工作。 如果在傳輸過程中刪除該使用者，這可能會導致部分失敗。
+- 使用者不存在：使用者在轉移過程中遭刪除，或因其他原因而無效。 如果使用者在轉移開始之前即是無效的，則該工具將會偵測此情況且不會處理該工作。 如果在轉移過程中刪除該使用者，這可能會導致部分失敗。
 
-- 連線/網路故障：在傳輸過程中連線中斷。 任何已傳輸到後端的傳輸工作批次仍會繼續處理直至完成，但使用者會看不到包含成功和失敗摘要的傳輸結果訊息。
+- 連線/網路故障：在傳輸過程中連線中斷。 任何已傳輸到後端的傳輸工作批次仍會繼續處理直至完成，但使用者不會看到包含成功和失敗摘要的傳輸結果訊息。
 
 - 瀏覽器索引標籤在傳輸過程中關閉：對於非常大的傳輸，如果瀏覽器索引標籤在傳輸過程中關閉或離開此頁面，則只有在索引標籤關閉/頁面導覽發生之前提出的網路要求才會正確地傳輸資產。 如果使用者導覽回該頁面，將收不到註明哪些資產已轉移、哪些尚未轉移的回應狀態訊息。
 
@@ -105,9 +110,9 @@ ht-degree: 98%
 
 資產轉移的主要使用案例之一是在 Adobe Analytics 升級到 Customer Journey Analytics 的期間。
 
-Adobe Analytics 的[元件移轉](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/component-migration/component-migration)功能可讓您將管理員擁有的專案移轉給其他管理員。 然後，組成這些專案的所有元件都會在 Customer Journey Analytics 中重新建立，且接收者管理員擁有那些所有的元件，無論建立者是誰。
+Adobe Analytics 的[元件移轉](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/component-migration/component-migration)功能可讓您將管理員擁有的專案移轉給其他管理員。 然後，組成這些專案的所有元件都會在 Customer Journey Analytics 中重新建立，且接收者管理員擁有所有這些元件，無論建立者是誰。
 
-此資產轉移工具隨後讓管理員將元件重新指派給其合法所有者，無論他們是否為管理員。
+此資產轉移工具隨後讓管理員將元件重新指派給其應有的擁有者，無論他們是否為管理員。
 
 >[!IMPORTANT]
 >

@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics 資料內嵌選項
+title: Customer Journey Analytics 資料攝取選項
 description: 了解您能使用哪些方式將資料內嵌至 Customer Journey Analytics
 exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
@@ -9,31 +9,43 @@ autotag-review: '2026-05-19T11:01:56.579Z'
 TQID: 'https://experienceleague.adobe.com/Uqoyk9k3hEOB90hzLtXhoYtmfX18wmXPHp-AWxgNIwU'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: bfef374d-acfd-4c57-bf74-a2b36053c545
+    internal-label: Data ingestion
   - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Administration
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 827
+source-wordcount: '827'
 ht-degree: 86%
-
 ---
-
-# Customer Journey Analytics 資料內嵌選項
+# Customer Journey Analytics 資料攝取選項
 
 Customer Journey Analytics 提供多種資料內嵌選項： 有些選項能移動傳統 Adobe Analytics 資料，有些則能直接從 Adobe Experience Platform 內嵌資料。 此參考資料提供了高層級步驟以供遵循，並附帶連結，提供更詳細的資訊。
 
@@ -48,14 +60,14 @@ Customer Journey Analytics 提供多種資料內嵌選項： 有些選項能移�
 1. 在 Adobe Experience Platform 中建立 [Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。 此來源連接器會採用稱為[體驗資料模型 (XDM) 系統](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)的標準化架構，將您的 Analytics 資料擷取至 Experience Platform。 請參閱[在 Customer Journey Analytics 中利用 Adobe Analytics 報告套裝資料](/help/getting-started/aa-vs-cja/aa-data-in-cja.md)。
 1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=zh-Hant) 建立一個或多個連線和資料檢視，以利您掌握跨管道的報告內容。
 
-## 透過 Adobe Experience Platform Web SDK 和 Edge Network 擷取資料
+## 透過 Adobe Experience Platform Web SDK 和 Edge Network 攝取資料
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)是使用者端的JavaScript資料庫，可讓Adobe CX Enterprise的客戶透過Adobe Experience Platform Edge Network與CX Enterprise中的各種服務互動。
 
 1. [在標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hant)中設定Adobe Experience Platform Web SDK擴充功能，以透過Adobe Experience Platform Edge Network從網頁屬性傳送資料至CX Enterprise。
 1. 使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=zh-Hant) 建立一或多個[連線](/help/connections/create-connection.md)和[資料檢視](/help/data-views/data-views.md)，以利您掌握跨管道的報表內容。
 
-## 使用批次擷取和串流擷取來擷取資料
+## 使用批次攝取和串流攝取來攝取資料
 
 Adobe Experience Platform 將來自多個來源的資料彙集在一起，以協助行銷人員進一步瞭解客戶的行為。 Adobe Experience Platform 資料擷取代表平台從這些來源擷取資料的多種方法，以及該資料如何保存在資料湖中，以供下游平台服務使用。
 

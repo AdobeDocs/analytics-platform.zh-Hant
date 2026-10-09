@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 hold: true
 role: Admin
-source-git-commit: e9274ad7899537837723e2eb9cd842c5449530ff
+source-git-commit: 29a21d57b6b50d873a4464d1a705c1b4855dd3ea
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2502'
 ht-degree: 2%
 ---
 # 付費媒體自動設定
@@ -59,12 +59,28 @@ ht-degree: 2%
 | `paidmedia_asset_summary` <br/>`ad.asset.summary`<br/>`\| Asset Summary` | 資產<br/>無 | ![Checkmark](/help/assets/icons2/Checkmark.svg) | ![Checkmark](/help/assets/icons2/Checkmark.svg) | | | ![Checkmark](/help/assets/icons2/Checkmark.svg) | 在其廣告/行銷活動內容<br/>中的每日資產層級績效<br/>，沒有人口統計或地理劃分。 |
 | `paidmedia_assets_demographics` <br/> `ad.asset.demographics`<br/>`\| Asset Demo` | 資產<br/>年齡、性別 | ![Checkmark](/help/assets/icons2/Checkmark.svg) | | | | | 每日在其廣告/行銷活動內容中的資產層級績效<br/><br/>依年齡和性別劃分。 |
 
-
 此表格說明資料集涵蓋範圍，並不保證特定網路會填入每個量度或中繼資料欄位。 檢查分析所需的欄位。 無法使用的欄位或不支援的劃分與欄位測量到的零值不同。
+
+摘要資料分組會將相等的維度彙整在一起；分組不會將六個效能量度總計加總。
+
+## 查詢資料集
 
 描述帳戶、行銷活動、廣告群組、廣告、體驗和資產的個別查詢資料集。 它們會使用實體GUID提供名稱和中繼資料。 摘要資料集和六個查詢資料集之間沒有一對一的配對。
 
-摘要資料分組會將相等的維度彙整在一起；分組不會將六個效能量度總計加總。
+查詢資料集共用兩個常見的建置區塊：
+
+* **實體ID物件**：儲存帳戶、廣告、廣告群組、資產、行銷活動和體驗物件。 每個物件都包含Adobe產生的全域金鑰和平台原生ID。
+* **付費媒體核心中繼資料**：儲存常見的描述性欄位，例如，名稱、狀態、目標、最佳化目標、競標策略、預算型別、預算值、貨幣、時區、服務狀態、日期、廣告網路、頻道、階層路徑、網路和產品組合識別碼。
+
+| 查詢資料集 | 主要內容 |
+|---|---|
+| 帳戶查閱 | 帳戶層級中繼資料，例如，名稱、貨幣、時區、狀態、支出限制和建立日期 |
+| 行銷活動查詢 | 預算、排程、目標定位、轉換追蹤、歸因、位置、促銷物件、目標以及目錄或商店ID的促銷活動設定 |
+| 廣告群組查閱 | 廣告群組中繼資料，例如，行銷活動連結、狀態、預算、最佳化目標和目標定位 |
+| 廣告查詢 | 廣告創意細節，例如，資產、變體、維度、追蹤URL、call to action、內文、標題、目的地URL、傳送狀態和評論狀態 |
+| 資產查詢 | 資產屬性，例如，維度、檔案詳細資訊、影像屬性、媒體URL、使用方式中繼資料、視訊中繼資料、說明、子型別、標題和型別 |
+| 體驗查詢 | 體驗層級的創意群組，例如，體驗ID、資產、標題、說明和call to action |
+
 
 ## 元件
 

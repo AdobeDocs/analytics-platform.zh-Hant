@@ -5,29 +5,37 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7
 solution: Customer Journey Analytics
-TQID: https://experienceleague.adobe.com/78Bp5YSZg7Qs-qBnCfIoS6mjxda7CAglDG19Qq07Fw4
+TQID: 'https://experienceleague.adobe.com/78Bp5YSZg7Qs-qBnCfIoS6mjxda7CAglDG19Qq07Fw4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+    internal-label: Analytics dashboards
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b21c7889-c659-4a99-a779-de1bae57e47e
+    internal-label: Scorecards
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+    internal-label: Troubleshooting
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 720
+source-wordcount: '720'
 ht-degree: 65%
-
 ---
-
 # 設定使用控制面板的高階主管使用者
 
 某些情況下，高階主管使用者可能需要額外的協助，才能存取及使用應用程式。 本節提供可幫助組織者提供這類協助的資訊。
@@ -75,9 +83,9 @@ ht-degree: 65%
 
    「**[!UICONTROL 選擇公司]**」畫面隨即顯示。 此畫面會列出高階主管使用者所屬的登入公司。
 
-1. 要求他們點選套用至您共用計分卡的登入公司或CX Enterprise組織的名稱。
+1. 要求他們點選套用至您共用計分卡的登入公司或CX Enterprise組織名稱。
 
-   該計分卡清單接著就會顯示該登入公司和高階主管共用的所有計分卡。
+   接著，計分卡清單會顯示在該登入公司下與該高階主管共用的所有計分卡。
 
 1. 若情況適用，要求他們依「**[!UICONTROL 最近修改項目]**」將清單排序。
 
@@ -98,10 +106,10 @@ ht-degree: 65%
 
 * 走勢圖的顆粒度取決於日期範圍的長度：
 * 若長度為一天，圖表會顯示每小時趨勢
-   * 若長度為一天以上、一年以下，則會顯示每日趨勢
-   * 若長度為一年 (含) 以上，圖表會顯示每週趨勢
-   * 百分比值變更公式為量度合計 (目前日期範圍) - 量度合計 (比較日期範圍) / 量度合計 (比較日期範圍)。
-   * 下拉畫面即可重新整理計分卡。
+  * 若長度為一天以上、一年以下，則會顯示每日趨勢
+  * 若長度為一年 (含) 以上，圖表會顯示每週趨勢
+  * 百分比值變更公式為量度合計 (目前日期範圍) - 量度合計 (比較日期範圍) / 量度合計 (比較日期範圍)。
+  * 下拉畫面即可重新整理計分卡。
 
 
 1. 點選圖磚，即可顯示圖磚劃分的詳細運作資訊。
