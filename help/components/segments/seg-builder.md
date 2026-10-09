@@ -99,7 +99,7 @@ ht-degree: 76%
 
 1. 將元件面板中的元件拖放至「**[!UICONTROL 將量度、區段和/或維度拖放至此處]**」。
    * 您可以使用元件列中的「![搜尋](/help/assets/icons/Search.svg)」來搜尋特定元件。
-   * 您可以在元件列中使用![篩選器](/help/assets/icons/Filter.svg)來篩選![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 已核准]**、![星號](/help/assets/icons/Star.svg) **[!UICONTROL 我的最愛]**、![資料維度](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 維度]**、![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**、![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**、![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** ![層](/help/assets/icons/Layer.svg) **[!UICONTROL *容器&#x200B;*]**元件（如產品、Content Assets）。 您也可以篩選![標籤](/help/assets/icons/Label.svg)標籤。
+   * 您可以在元件列中使用![篩選器](/help/assets/icons/Filter.svg)來篩選![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 已核准]**、![星號](/help/assets/icons/Star.svg) **[!UICONTROL 我的最愛]**、![資料維度](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 維度]**、![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**、![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**、![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** ![層](/help/assets/icons/Layer.svg) **[!UICONTROL *容器&#x200B;*]**&#x200B;元件（如產品、Content Assets）。 您也可以篩選![標籤](/help/assets/icons/Label.svg)標籤。
 
 1. 指定元件的詳細資訊。 例如，從「**[!UICONTROL 選擇值]**」中選取一個值。 或輸入一個值。 指定一個或多個值的內容和方式取決於元件和運算子。
 
@@ -163,7 +163,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 在細分群體捲動日期範圍](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 在細分群體捲動日期範圍](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

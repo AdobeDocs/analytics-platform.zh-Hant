@@ -119,7 +119,7 @@ ht-degree: 3%
 
 #### 設定資料流
 
-為確保您的資料集已匯出至雲端儲存空間目的地，請[使用[`POST /flows`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/postFlow) API設定資料流](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-dataflow)。 在此步驟中，您可以使用`scheduleParams`引數定義匯出排程。
+為確保您的資料集已匯出至雲端儲存空間目的地，請[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-dataflow)使用[`POST /flows`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/postFlow) API設定資料流。 在此步驟中，您可以使用`scheduleParams`引數定義匯出排程。
 
 #### 驗證資料流
 

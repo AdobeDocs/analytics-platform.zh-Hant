@@ -47,7 +47,7 @@ ht-degree: 7%
 
    1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以共用區段。 選取「**[!UICONTROL 取消]**」進行取消。
 
-如果您有共用區段的存取權，可以在專案中使用這些區段，或做為資料檢視](/help/data-views/session-settings.md)的[設定的一部分。
+如果您有共用區段的存取權，可以在專案中使用這些區段，或做為資料檢視[&#128279;](/help/data-views/session-settings.md)的設定的一部分。
 
 ## 最佳做法
 

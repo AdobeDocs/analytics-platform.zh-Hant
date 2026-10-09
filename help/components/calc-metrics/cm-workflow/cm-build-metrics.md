@@ -171,7 +171,7 @@ Customer Journey Analytics 提供的畫布可用來拖放維度、量度、區�
 * 若要從區段新增區段容器，您可以使用：
 
   * 將 ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定區段。
-    使用區段名稱將區段容器自動加入**[!UICONTROL 定義]**&#x200B;中。
+    使用區段名稱將區段容器自動加入&#x200B;**[!UICONTROL 定義]**&#x200B;中。
 
   * 將 ![分段](/help/assets/icons/Segmentation.svg)**[!UICONTROL 「區段」]**&#x200B;元件從元件面板拖放到通用容器中。 該容器被修改為區段容器。
 
