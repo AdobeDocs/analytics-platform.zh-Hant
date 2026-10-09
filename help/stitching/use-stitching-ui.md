@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1ee7e0b046f370c956b083e494522cfbc892e092
+source-git-commit: e387cf97c6190e4bda66b891e02e8cf8ac05b1f2
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '1990'
 ht-degree: 18%
 ---
 # 啟用拼接
@@ -250,7 +250,7 @@ ht-degree: 18%
 
 針對已儲存且包含已啟用拼接資料集的有效初始連線設定：
 
-* 數小時後（少於17小時），即時資料最初會顯示在Customer Journey Analytics中。 即時資料從符合彙整啟用完成時實際時間的事件時間戳記值開始。
+* 數小時後（少於14小時），即時資料最初會顯示在Customer Journey Analytics中。 新的即時資料會在數小時內提供。 即時資料從符合彙整啟用完成時實際時間的事件時間戳記值開始。
 
   若要確保即時資料開始流入，請啟用資料集的&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;選項。
 
@@ -258,12 +258,14 @@ ht-degree: 18%
 
 * 回填資料（如果最初要求）大約與即時資料同時出現在Customer Journey Analytics中，但視所涉及的磁碟區而定，可能需要幾天的時間才能完全處理。 回填的資料會從最早的事件時間戳記值開始。
 
+   
+
   >[!CAUTION]
   >
   >對於在連線介面中啟用拼接的資料集，由於已知限制，目前無法報告回填狀態。
   >
 
-  使用替代方法來驗證是否回填了拼接資料集中的資料。 例如，使用[Experience Platform查詢服務UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/overview)從資料集中擷取相關期間的事件計數。 比較相同時間範圍內[Customer Journey Analytics報告](/help/analysis-workspace/home.md)中的事件量度所計數的事件數目。 如果這些數字相符，回填就會完成。
+  使用替代方法來驗證是否回填了拼接資料集中的資料。 例如，使用[Experience Platform查詢服務UI](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview)從資料集中擷取相關期間的事件計數。 比較相同時間範圍內[Customer Journey Analytics報表](/help/analysis-workspace/home.md)中&#x200B;**[!UICONTROL 事件]**&#x200B;量度值的事件計數。 如果這些數字相符，回填就會完成。
 
 ## 限制
 
