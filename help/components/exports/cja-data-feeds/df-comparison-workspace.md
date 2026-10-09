@@ -15,7 +15,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: d7614102d54af57a3a084c8550041f8e04f4bc37
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 ## 回顧日期範圍（資料摘要）與報表日期範圍(Analysis Workspace)的比較
 
-資料摘要中的回顧日期範圍會決定Customer Journey Analytics在尋找符合資料摘要傳送資格的事件時回顧的時間範圍。 如需有關回顧日期範圍的詳細資訊，包括範例，請參閱[瞭解回顧日期範圍](/help/components/exports/cja-data-feeds/create-feed.md#understand-the-lookback-date-range)。
+資料摘要中的回顧日期範圍會決定Customer Journey Analytics在尋找符合資料摘要傳送資格的事件時回顧的時間範圍。 如需有關回顧日期範圍的詳細資訊，包括範例，請參閱[瞭解回顧日期範圍](/help/components/exports/cja-data-feeds/create-feed.md#data-feed-lookback-date-range)。
 
 在這個意義上，回顧日期範圍類似於Analysis Workspace中的報表日期範圍。 不過，兩者之間還是有主要差異。
 
 | 主要差異 | 報表日期範圍(Analysis Workspace) | 回顧日期範圍（資料摘要） |
 |---------|---------|----------|
-| **資料界限**<br/>&#x200B;資料是否包含在報表或摘要中 | 彈性<p>如果事件受到下列任何因素的影響，仍可將其納入Workspace報表：</p><ul><li>**Dimension持續性**：使用工作階段、自訂時間或量度[有效期](/help/data-views/component-settings/persistence.md#expiration-settings)時，持續性可能超過報告日期範圍。 與使用人員報告期間[有效期](/help/data-views/component-settings/persistence.md#expiration-settings)的報告日期範圍相同。 資料會經過彙總。</li><li>**區段資格**：依預設，區段可以超出報表日期範圍。<p>使用者建立區段時，可以選擇將區段限制在報告日期範圍內。<!--add link to new docs--></p></li><li>**工作階段計算**：工作階段可以超出報告日期範圍。 </li><li>**衍生欄位轉換**</li></ul> | 固定<p>不在回顧日期範圍內的事件絕不會納入資料摘要中，無論這些事件是否受到下列因素的影響：</p></p><ul><li>**Dimension持續性**：不論[到期設定](/help/data-views/component-settings/persistence.md#expiration-settings)為何，都不能持續存在超過回顧日期範圍。 資料不會彙總。</li><li>**區段資格**：一律限於回顧日期範圍。</li><li>**工作階段計算**：一律限於回顧日期範圍。</li><li>**衍生欄位轉換**：參考容器的任何衍生欄位函式都會在資料摘要匯出中使用回顧日期範圍。</li></ul><p>如需設定回顧日期範圍的詳細資訊，請參閱[建立資料摘要](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-a-data-feed)。</p> |
+| **資料界限**<br/>&#x200B;資料是否包含在報表或摘要中 | 彈性<p>如果事件受到下列任何因素的影響，仍可將其納入Workspace報表：</p><ul><li>**Dimension持續性**：使用工作階段、自訂時間或量度[有效期](/help/data-views/component-settings/persistence.md#expiration-settings)時，持續性可能超過報告日期範圍。 與使用人員報告期間[有效期](/help/data-views/component-settings/persistence.md#expiration-settings)的報告日期範圍相同。 資料會經過彙總。</li><li>**區段資格**：依預設，區段可以超出報表日期範圍。<p>使用者建立區段時，可以選擇將區段限制在報告日期範圍內。<!--add link to new docs--></p></li><li>**工作階段計算**：工作階段可以超出報告日期範圍。 </li><li>**衍生欄位轉換**</li></ul> | 固定<p>不在回顧日期範圍內的事件絕不會納入資料摘要中，無論這些事件是否受到下列因素的影響：</p></p><ul><li>**Dimension持續性**：不論[到期設定](/help/data-views/component-settings/persistence.md#expiration-settings)為何，都不能持續存在超過回顧日期範圍。 資料不會彙總。</li><li>**區段資格**：一律限於回顧日期範圍。</li><li>**工作階段計算**：一律限於回顧日期範圍。</li><li>**衍生欄位轉換**：參考容器的任何衍生欄位函式都會在資料摘要匯出中使用回顧日期範圍。</li></ul><p>如需設定回顧日期範圍的詳細資訊，請參閱[建立資料摘要](/help/components/exports/cja-data-feeds/create-feed.md#create-and-configure-data-feed)。</p> |
 | **報告期間**<br/>&#x200B;報告的時間範圍 | 與報告期間（您要報告的時間範圍）相同。 | 與您要報告的時間範圍不同。 <p>要報告的時間範圍是「頻率」視窗，可以是一小時或一天。</p> |
 
 >[!BEGINSHADEBOX]
