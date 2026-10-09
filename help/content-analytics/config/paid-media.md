@@ -194,7 +194,7 @@ https://www.example.com/offer?utm_source=facebook&utm_medium=paid_social&utm_cam
 
 如果您想要報告和分析與付費媒體投資相關的資產效能，請考慮在廣告網路付費媒體設定中新增特定資產UTM引數。 例如，除了標準動態引數（如s`ite_source_name`、`campaign.id`、`adset.id`或`placement`）之外，請新增靜態自訂引數（如`aca_asset_id=999999`）。
 
-此自訂引數會新增至您的登陸頁面URL。 例如： https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&amp;aca_id_2=8888888&amp;utm_medium=paid&amp;utm_source=fb&amp;utm_id=120241705099830539&amp;utm_term=120241705099840539&amp;utm_campaign=120241705099830539
+此自訂引數會新增至您的登陸頁面URL。 例如： https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&aca_id_2=8888888&utm_medium=paid&utm_source=fb&utm_id=120241705099830539&utm_term=120241705099840539&utm_campaign=120241705099830539
 
 現在，頁面上的資產與您的付費媒體資料之間已建立關係。 在Analysis Workspace中使用該關係來檢視Content Analytics資產中繼資料（例如&#x200B;**[!UICONTROL 資產前景色彩]**）如何有助於付費媒體行銷活動成功。
 
