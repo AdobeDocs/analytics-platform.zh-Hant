@@ -90,7 +90,7 @@ GA4透過其SDK自動收集一組事件。 下表將這些事件對應至其XDM�
 
 在GA4中，自訂事件具有名稱和最多25個引數。 在Customer Journey Analytics中，自訂事件對應到實作期間定義的自訂XDM結構描述欄位：
 
-* **事件名稱**&#x200B;會成為XDM欄位中的欄位值（通常是[`xdm.eventType`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)）。
+* **事件名稱**&#x200B;會成為XDM欄位中的欄位值（通常是[`xdm.eventType`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent)）。
 * 每個&#x200B;**引數**&#x200B;會變成個別的XDM結構描述欄位。 當[設定資料檢視](/help/data-views/component-settings/overview.md)時，任何XDM欄位都可以公開為維度或量度。
 
 >[!NOTE]
