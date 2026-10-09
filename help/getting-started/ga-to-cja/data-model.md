@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Components
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
     internal-label: Administration
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
     internal-label: Dimensions
@@ -28,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 2%
@@ -88,7 +90,7 @@ GA4透過其SDK自動收集一組事件。 下表將這些事件對應至其XDM�
 
 在GA4中，自訂事件具有名稱和最多25個引數。 在Customer Journey Analytics中，自訂事件對應到實作期間定義的自訂XDM結構描述欄位：
 
-* **事件名稱**&#x200B;會成為XDM欄位中的欄位值（通常是[`xdm.eventType`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent)）。
+* **事件名稱**&#x200B;會成為XDM欄位中的欄位值（通常是[`xdm.eventType`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)）。
 * 每個&#x200B;**引數**&#x200B;會變成個別的XDM結構描述欄位。 當[設定資料檢視](/help/data-views/component-settings/overview.md)時，任何XDM欄位都可以公開為維度或量度。
 
 >[!NOTE]

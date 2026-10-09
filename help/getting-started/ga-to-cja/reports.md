@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
     internal-label: Administration
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
     internal-label: Dimensions
@@ -26,7 +28,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
 source-wordcount: '3202'
 ht-degree: 0%
@@ -119,7 +121,7 @@ GA4的登陸頁面報表會顯示使用者在開始工作階段時到達的頁�
 
 +++
 
-+++活動
++++事件
 
 GA4的「事件」報表會顯示每個事件引發的次數，並具有事件層級的量度。
 
@@ -206,7 +208,7 @@ GA4的「保留概觀」報告結合多種保留檢視 — 新的與回訪的使
 **一段時間內的保留率**：使用[**[!UICONTROL 同類群組表格]**](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)視覺效果：
 
 1. 選取「視覺效果」圖示，並將&#x200B;**[!UICONTROL 同類群組表格]**&#x200B;拖曳至畫布上。
-2. 將&#x200B;**[!UICONTROL 人員]**&#x200B;量度拖曳至[包含]和[回訪條件]欄位，然後選取[建置]&#x200B;**&#x200B;**。
+2. 將&#x200B;**[!UICONTROL 人員]**&#x200B;量度拖曳至[包含]和[回訪條件]欄位，然後選取[建置]****。
 
 [!UICONTROL 同類群組表格]會依初始期間將使用者分組，並追蹤後續期間的回訪行為；包含、回訪及詳細程度條件皆可設定。
 
@@ -242,7 +244,7 @@ GA4的技術報告會顯示瀏覽器、作業系統、熒幕解析度和裝置�
 
 >[!NOTE]
 >
->由於現代瀏覽器已減少使用者代理字串中的詳細資訊，因此完整且準確的值取決於是否要在您的網頁SDK設定中收集[使用者代理使用者端提示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/use-cases/client-hints)。
+>由於現代瀏覽器已減少使用者代理字串中的詳細資訊，因此完整且準確的值取決於是否要在您的網頁SDK設定中收集[使用者代理使用者端提示](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints)。
 
 +++
 

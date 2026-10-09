@@ -4,7 +4,7 @@ title: 檢視元件資訊
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-TQID: https://experienceleague.adobe.com/b-y-D9Ba6SlV0tW8D1btQLWYU32HpKrgG3DIftie1W8
+TQID: 'https://experienceleague.adobe.com/b-y-D9Ba6SlV0tW8D1btQLWYU32HpKrgG3DIftie1W8'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -17,7 +17,7 @@ subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
     internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-    internal-label: Segments, Segments (CJA)
+    internal-label: Segments
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
     internal-label: Calendar
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
@@ -34,7 +34,7 @@ role_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
     internal-label: Experimentation
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 61%
@@ -47,7 +47,7 @@ ht-degree: 61%
 
 1. 前往包含要檢視之元件的 Analysis Workspace 專案。
 
-1. 選取Analysis Workspace左側面板中的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。 （[&#128279;](/help/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)在[資料字典總覽](/help/components/data-dictionary/data-dictionary-overview.md)中存取資料字典中說明存取資料字典的其他方式。）
+1. 選取Analysis Workspace左側面板中的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。 （[在[資料字典總覽](/help/components/data-dictionary/data-dictionary-overview.md)中存取資料字典](/help/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)中說明存取資料字典的其他方式。）
 
    顯示資料字典視窗。
 
