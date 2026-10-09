@@ -263,7 +263,7 @@ ht-degree: 18%
   >對於在連線介面中啟用拼接[的資料集](#enable-stitching)，由於已知的限制，無法報告回填狀態。
   >
 
-  使用替代方法來驗證是否回填了拼接資料集中的資料。 例如，使用[Experience Platform查詢服務UI](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview)從資料集中擷取相關期間的事件計數。 比較相同時間範圍內[Customer Journey Analytics報表](/help/analysis-workspace/home.md)中&#x200B;**[!UICONTROL 事件]**&#x200B;量度值的事件計數。 如果這些數字相符，回填就會完成。
+  使用替代方法來驗證是否回填了拼接資料集中的資料。 例如，使用[Experience Platform查詢服務UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/overview)從資料集中擷取相關期間的事件計數。 比較相同時間範圍內[Customer Journey Analytics報表](/help/analysis-workspace/home.md)中&#x200B;**[!UICONTROL 事件]**&#x200B;量度值的事件計數。 如果這些數字相符，回填就會完成。
 
 
 ## 限制
