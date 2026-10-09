@@ -40,7 +40,7 @@ ht-degree: 0%
 1. Adobe已確認收到並偵測到相關網站的記錄。
 
 BYOCDN記錄轉送提供用於自動化代理程式流量分析的伺服器端CDN要求資料。 資料並不取決於瀏覽器中執行的JavaScript標籤。 必要的
-CDN記錄摘要可確保下游摘要資料集包含預期的品牌可見度代理流量資料。 如需詳細資訊，請參閱[BYOCDN記錄檔轉送參考](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)。
+CDN記錄摘要可確保下游摘要資料集包含預期的品牌可見度代理流量資料。 如需詳細資訊，請參閱[BYOCDN記錄檔轉送參考](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)。
 
 ### 必要資訊
 

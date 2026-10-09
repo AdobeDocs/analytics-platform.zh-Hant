@@ -94,4 +94,4 @@ Brand Visibility會在&#x200B;**CDN URL**&#x200B;維度中為您提供此金鑰�
 
 ## 傳出整合
 
-如需傳出整合的資訊，請參閱Adobe Brand Visibility檔案中的[Customer Journey Analytics整合](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"}。
+如需傳出整合的資訊，請參閱Adobe Brand Visibility檔案中的[Customer Journey Analytics整合](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"}。
