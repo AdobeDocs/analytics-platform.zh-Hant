@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 17af5df91a28b3a6e44528f88661b6dcc86d6cae
+source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
 workflow-type: tm+mt
-source-wordcount: '7170'
+source-wordcount: '7183'
 ht-degree: 96%
 ---
 
@@ -71,6 +71,8 @@ ht-degree: 96%
 |---|---|
 | **2026年10月** | |
 | 交談見解 | [檔案](/help/conversation-insights/overview.md)，用於交談深入分析。 |
+| 2026年10 | |
+| Brand Visibility | 已更新[品牌可見度傳入整合](/help/integrations/bv/bv.md#inbound-integration)的檔案，其中包含更多詳細資料。 |
 | **2026年9月** | |
 | 箭頭和流失的歷程畫布比較 | 更新[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)中的&#39;[!UICONTROL 與]&#39;比較設定，以顯示歷程中每個節點、箭頭和流失現在顯示的日期範圍之間的百分比變更。 |
 | 已整合的部落格 | 納入下列部落格：<ul><li>[在Adobe CJA中處理「無值」的完整教戰手冊](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=zh-Hant#M598)</li><li>[Adobe Experience Platform與Customer Journey Analytics資料輸出使用案例深入探討](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?profile.language=zh-Hant)</li></ul>在我們的[資料匯出](/help/use-cases/data-export/overview.md)使用案例和新的[無值](/help/use-cases/data-views/no-value.md)使用案例文章中。 |
@@ -78,7 +80,7 @@ ht-degree: 96%
 | **2026年8月** | |
 | 澄清有關重新整理對象的資訊 | 當[發佈對象](/help/components/audiences/publish.md#audience-builder)時，澄清可排程重新整理的對象數量取決於您的Customer Journey Analytics權益，介於75到150之間。 |
 | **2026年7月** | |
-| 品牌可見度傳入整合 | [品牌可見度傳入整合](/help/integrations/bv.md#inbound-integration)的檔案。 |
+| Brand Visibility | [品牌可見度傳入整合](/help/integrations/bv/bv.md#inbound-integration)的檔案。 |
 | 使用情況介面 | 更新連線的[使用介面](/help/connections/manage-connections.md#usage)檔案。 |
 | 子事件分析 | [子事件分析](/help/components/segments/sub-event.md)和[自訂容器](/help/data-views/create-dataview.md#custom-containers)的檔案。 |
 | 內嵌分類 | [內嵌分類](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications)的檔案。 |

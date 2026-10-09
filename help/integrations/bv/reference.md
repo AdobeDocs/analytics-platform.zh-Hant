@@ -1,6 +1,6 @@
 ---
-title: 品牌可見度整合
-description: 將Brand Visibility與Customer Journey Analytics整合
+title: 品牌可見度傳入整合資料集參考
+description: 瞭解用於Brand Visibility與Customer Journey Analytics整合的資料集的所有詳細資訊
 feature: Experience Platform Integration
 role: User
 product_v2:
@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
 workflow-type: tm+mt
-source-wordcount: '2572'
+source-wordcount: '2555'
 ht-degree: 2%
 ---
 
@@ -90,11 +90,11 @@ Brand Visibility會在&#x200B;**CDN URL**&#x200B;維度中為您提供此金鑰�
 
 Brand Visibility會讀取伺服器端的CDN存取記錄檔，並擷取請求方是機器人或自動化代理程式的記錄。 由於資料來自CDN層，因此Brand Visibility會擷取不會引發任何JavaScript標籤的機器人所提出的請求。 標準網站分析工具完全遺漏此流量。
 
-資料集使用&#x200B;**CDN要求摘要**&#x200B;欄位群組。 每個欄位都位於`cdn`物件下，因此下表中的欄位名稱會採用`cdn.<name>`的形式，例如`cdn.url`和`cdn.botType`。
+資料集使用&#x200B;**CDN要求摘要**&#x200B;欄位群組。 每個欄位都位於`cdn`物件下，因此下表中的欄位名稱會採用<code>cdn._name_&#x200B;的形式</code>，例如`cdn.url`和`cdn.botType`。
 
 每筆記錄說明主機、URL路徑、機器人型別、CDN提供者、狀態代碼、反向連結、轉送主機，以及一小時第一個位元組時間的組合。 當相同的組合每小時出現一次以上時，Customer Journey Analytics會將這些記錄合併為一列，並增加請求計數。 使用&#x200B;**CDN要求計數**&#x200B;量度來測量磁碟區。 請勿使用列計數。
 
-### 維度
+## 維度
 
 設定包含品牌可見度資料集的連線後，以下維度可用作資料檢視中的元件。 **欄位**&#x200B;欄顯示CDN要求摘要欄位群組中的來源欄位。
 
@@ -165,7 +165,7 @@ Brand Visibility會讀取伺服器端的CDN存取記錄檔，並擷取請求方�
 | 429 | 太多請求 | CDN速率限制了機器人。 即時擷取代理程式型別持續發生429個錯誤，表示向AI助理詢問內容相關問題的使用者會收到不完整或遺漏的回應。 |
 | 504 | 閘道逾時 | CDN已停止等待來源回應。 內容未送達AI。 當頁面逾時，AI將無法存取其內容，也無法將其納入答案中。 即時擷取代理程式型別上的高504數量是直接的AI可見度風險。 |
 
-### 量度
+## 量度
 
 設定包含品牌可見度資料集的連線後，下列量度即可作為資料檢視中的元件。 **欄位**&#x200B;欄顯示CDN要求摘要欄位群組中的來源欄位。
 
@@ -176,16 +176,12 @@ Brand Visibility會讀取伺服器端的CDN存取記錄檔，並擷取請求方�
 | CDN錯誤率 | 衍生自CDN錯誤計數 | 錯誤計數為請求總數的百分比。 |
 | CDN平均時間至第一個位元組 | `cdn.timeToFirstByte` | CDN收到要求至回應第一個位元組的平均時間（毫秒）。 CDN快取的回應通常少於50毫秒。 由來源提供的回應通常為300毫秒至700毫秒。 AI即時擷取代理程式通常會顯示較高的值，對應至逾時或極慢的原始回應。 即時擷取代理程式型別的高平均值值得調查為AI可見度風險。 |
 
-### 資料集邊界
+## 邊界
 
 此資料集只會從CDN存取記錄檔擷取機器人流量。 它不包含下列專案：
 
 * **使用者工作階段、轉換或參與資料。** 從AI答案點進的使用者會在您的頁面上執行JavaScript，因此瀏覽位於您現有的網頁資料中，而非此資料集中。 您可以將兩個資料集匯入Customer Journey Analytics，並比較同一URL和主機的資料集。
-* **任何個人識別碼，例如ECID。** 您無法從此資料集建立人員層級聯結。 加入會在URL和主機層級運作。
+* **任何個人識別碼，例如ECID。** 您無法從此資料集執行人員層級聯結。 加入會在URL和主機層級運作。
 * **次秒時間粒度。** 時間戳記為每小時。 您無法將一小時內的流量劃分為數分鐘或數秒。
 * **頁面內容或轉譯的HTML。** 此資料集會記錄擷取事實及其結果，而非AI從頁面讀取的內容。
 * **轉換資料。** 此資料集不會告訴您AI答案是否會導致人員造訪您的網站或進行轉換。 其會保留彙總CDN摘要資料，而非以人員為基礎的事件資料，因此不會將任何請求連結至個別人員或工作階段。
-
-## 傳出整合
-
-如需傳出整合的詳細資訊，請參閱Adobe品牌可見度檔案中的[Customer Journey Analytics整合](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"}。

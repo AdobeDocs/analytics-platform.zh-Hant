@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: cc31e50f01da63eaf1e7b6eb8465d187485b7816
 workflow-type: tm+mt
 source-wordcount: '10677'
-ht-degree: 89%
+ht-degree: 90%
 ---
 # 建立或編輯連線 {#create-or-edit-a-connection}
 
@@ -733,22 +733,22 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter"
 >title="啟用列篩選"
->abstract="列篩選器會決定要將哪些事件擷取到Customer Journey Analytics。 系統只會擷取符合包含規則的事件。 所有其他事件將會永久排除，無法用於Customer Journey Analytics中的報告、細分或分析。<ul><li>您最多可以建立10個篩選器。</li><li> 篩選器的變更只會套用至變更後擷取的新資料，而不會回溯影響先前擷取的資料或觸發歷史回填。</li></ul>"
+>abstract="列篩選器會決定要將哪些事件攝取到 Customer Journey Analytics 中。 系統只會擷取符合包含規則的事件。 所有其他事件將會永久排除，且無法用於 Customer Journey Analytics 中的報告、細分或分析。<ul><li>您最多可建立 10 個篩選器。</li><li> 篩選器的變更只會套用至變更後攝取的新資料，而不會回溯地影響先前攝取的資料或觸發歷史回填。</li></ul>"
 
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter_field"
 >title="欄位"
->abstract="從事件資料集中選取要用於條件的欄位。 您可以使用任何型別的任何欄位。"
+>abstract="從事件資料集中選取要用於該條件的欄位。 您可以使用任何類型的任何欄位。"
 
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter_operator"
 >title="條件"
->abstract="選取運運算元。 運運算元可用來根據值驗證所選欄位。"
+>abstract="選取運算子。 運算子可用來根據值驗證所選欄位。"
 
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter_values"
 >title="值"
->abstract="輸入一或多個值。 系統會使用確切的字串值。 請使用逗號來分隔值。 每個逗號分隔值都視為不同，並包含在條件中。"
+>abstract="輸入一個或多個值。 系統會使用確切的字串值。 請使用逗號來分隔值。 每個逗號分隔的值都會視為相異，並包含在條件中。"
 
 事件資料集的特定設定取決於連線類型。
 

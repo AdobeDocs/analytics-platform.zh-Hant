@@ -39,7 +39,7 @@ topic_v2:
 source-git-commit: 4f3c4a214bb9676ced6fe3c9627c969413013790
 workflow-type: tm+mt
 source-wordcount: '1093'
-ht-degree: 61%
+ht-degree: 64%
 ---
 # 建立警報 {#create-alerts}
 
@@ -57,7 +57,7 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="components_alerts_delay"
 >title="延遲"
->abstract="在此延遲後，當您選取的時間詳細程度時會觸發警報。 來自您連線的資料可能會以不同的延遲送達，時間介於1到24小時之間。 預設延遲會在每個警報視窗後觸發9小時。"
+>abstract="警報會以您所選的時間顆粒度在此延遲時間之後觸發。 來自您連線的資料可能會以不同的延遲 (1 到 24 小時之間) 到達。 預設延遲會在每個警報時段結束後 9 小時觸發。"
 
 <!-- markdownlint-enable MD034 -->
 

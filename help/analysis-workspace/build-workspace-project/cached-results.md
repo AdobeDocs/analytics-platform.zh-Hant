@@ -20,15 +20,15 @@ role_v2:
 source-git-commit: 32dfb7790f57293ea297bdcb8319c3d3b187a2ae
 workflow-type: tm+mt
 source-wordcount: '1336'
-ht-degree: 0%
+ht-degree: 5%
 ---
 
-# 在Workspace專案中使用快取結果
+# 在 Workspace 專案中使用快取結果
 
 >[!CONTEXTUALHELP]
 >id="project_cached_results"
 >title="使用快取結果以加速載入"
->abstract="啟用後，結果會在使用者首次開啟專案或依排程傳送專案後，立即載入12小時。 在這段時間內開啟專案的任何人都會看到相同的結果，即使資料繼續在背景中流動。 若要載入最新結果，請重新整理個別面板或整個專案。"
+>abstract="啟用後，結果會在使用者首次開啟專案或依排程傳遞專案後，立即載入 12 小時。 在這段時間內開啟專案的任何人都會看到相同的結果，即使資料繼續在背景中流入。 若要載入最新結果，請重新整理個別面板或整個專案。"
 
 {{release-limited-testing}}
 
