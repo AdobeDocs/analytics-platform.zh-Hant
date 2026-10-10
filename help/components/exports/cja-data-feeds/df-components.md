@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7614102d54af57a3a084c8550041f8e04f4bc37
+source-git-commit: adc7e85339e89c181375c0d3ea5c228d473239a7
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 44%
+source-wordcount: '1419'
+ht-degree: 43%
 ---
 # 資料摘要中的元件可用性
 
@@ -98,6 +98,8 @@ Customer Journey Analytics標準維度不得包含在資料摘要中。 下表�
 
 <!-- markdownlint-disable MD034 -->
 
+<!-- pretty sure this isn't being used -->
+
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user_agent"
 >title=""
@@ -115,8 +117,14 @@ Customer Journey Analytics標準維度不得包含在資料摘要中。 下表�
 
 下列維度無法與&#x200B;**使用者代理程式**&#x200B;或&#x200B;**行動識別碼**&#x200B;維度搭配使用：
 
+>[!NOTE]
+>
+>下列清單使用預設的維度名稱。 在資料檢視中重新命名的維度會以其自訂名稱顯示在資料摘要中。
+
+
 * 瀏覽器類型
 * 瀏覽器
+* 瀏覽器ID
 * 行動製造商
 * 行動裝置類型
 * 行動音訊支援
@@ -141,6 +149,7 @@ Customer Journey Analytics標準維度不得包含在資料摘要中。 下表�
 * 行動裝置名稱
 * 作業系統類型
 * 作業系統
+* 作業系統ID
 
 ## 需要替代的量度 {#substitute-metrics}
 
