@@ -1,6 +1,6 @@
 ---
-title: 建立標記屬性並新增 Web SDK 擴充功能
-description: 了解如何建立標記屬性並新增 Web SDK 擴充功能
+title: 使用NPM套件安裝Platform Web SDK
+description: 瞭解如何從Adobe Analytics升級為Customer Journey Analytics時，使用NPM套件安裝網頁SDK。
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -28,12 +28,12 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 73%
+source-wordcount: '146'
+ht-degree: 47%
 ---
-# 使用 Edge Network API 安裝 Platform Web SDK {#upgrade-manual}
+# 使用NPM套件安裝Platform Web SDK {#upgrade-manual}
 
 <!-- markdownlint-disable MD034 -->
 

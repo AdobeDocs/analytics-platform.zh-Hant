@@ -1,6 +1,6 @@
 ---
-title: 升級至Customer Journey Analytics時的替代方法
-description: 瞭解升級至Customer Journey Analytics時的替代方法
+title: 升級替代方案：將 AppMeasurement 資料彙集與 Experience Platform Web SDK 和 Customer Journey Analytics 併用
+description: 瞭解如何將您現有的AppMeasurement或Analytics擴充功能資料收集邏輯與Web SDK搭配使用，以將資料傳送至Customer Journey Analytics。
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 59%
+source-wordcount: '1471'
+ht-degree: 56%
 ---
 # 升級替代方案：將 AppMeasurement 資料彙集與 Experience Platform Web SDK 和 Customer Journey Analytics 併用 {#data-collection-appmeasurement}
 
@@ -59,7 +59,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement-logic-step"
 >title="變更您的 AppMeasurement 邏輯以指向 Web SDK"
->abstract="因為您選擇採用實施捷徑，所以會顯示此步驟。 複製或變更 AppMeasurement 邏輯以填入資料物件，而非 s 物件。 例如，將 s.eVar1 的指派變更為 data.__adobe.analytics.eVar1，並對所有 Analytics 變數重複此步驟。"
+>abstract="此步驟之所以出現，是因為您選擇使用實作捷徑。 複製或變更 AppMeasurement 邏輯以填入資料物件，而非 s 物件。 例如，將 s.eVar1 的指派變更為 data.__adobe.analytics.eVar1，並對所有 Analytics 變數重複此步驟。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -71,7 +71,7 @@ ht-degree: 59%
 
 ## 優點和缺點
 
-此方法與[將整個資料層傳送至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md)互斥，因為兩種方法都完成相同的工作。 (此方法較適合將整個資料層傳送至Adobe。 Prop和evar會透過data.__ adobe.analytics._variable-name_，所以會更精細。
+此方法與[將整個資料層傳送至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-data-layer.md)互斥，因為兩種方法都完成相同的工作。 (此方法較適合將整個資料層傳送至Adobe。 Prop和evar會透過data.__ adobe.analytics._variable-name_，所以會更精細。
 
 請考量使用此升級替代方案的下列優缺點：
 
@@ -101,7 +101,7 @@ ht-degree: 59%
 
    1. 透過資料物件，以AppMeasurement格式傳送所有變數。
 
-      如需詳細資訊，請參閱[對應到Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/data-var-mapping)的資料物件變數。
+      如果您也將此資料傳送至Adobe Analytics，Edge Network會自動將這些資料物件欄位對應至Adobe Analytics變數。 如需支援的欄位清單，請參閱[資料物件欄位對應到Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/data-var-mapping)。 Customer Journey Analytics不使用這些對應。 在後續步驟中，會將資料物件欄位對應到Customer Journey Analytics的XDM結構描述。
 
    1. 選擇您的結構描述。
 
@@ -127,7 +127,7 @@ ht-degree: 59%
 
    1. 使用資料流對應將資料物件中的所有欄位對應到您的XDM結構描述。
 
-      如需詳細資訊，請參閱Experience Platform檔案中[資料彙集的資料準備](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/data-prep)中的[對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/data-prep?lang=en#mapping)。
+      Customer Journey Analytics只能使用您對應到結構描述的資料物件欄位。 如需詳細資訊，請參閱Experience Platform檔案中[資料彙集的資料準備](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/data-prep)中的[對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/data-prep?lang=en#mapping)。
 
 {{upgrade-final-step}}。
 
