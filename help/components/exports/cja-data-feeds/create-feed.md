@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: d7614102d54af57a3a084c8550041f8e04f4bc37
+source-git-commit: 93107a7cf46e5d71bcb5c588eb7395fd1b88d150
 workflow-type: tm+mt
-source-wordcount: '3881'
+source-wordcount: '3924'
 ht-degree: 12%
 ---
 # 建立資料摘要
@@ -125,11 +125,11 @@ ht-degree: 12%
    * **加號按鈕**：選取左側邊欄中任何元件旁的加號![新增](/help/assets/icons/Add.svg)圖示，以將它新增至畫布。
    * **[!UICONTROL 全部顯示]**：選取元件清單底部的&#x200B;**[!UICONTROL 全部顯示]**&#x200B;以開啟顯示所有可用元件的對話方塊。 選取您要新增的每個元件旁的核取方塊，然後選取&#x200B;**[!UICONTROL 新增選取的專案]**。 當搜尋字詞或篩選器標籤在左側邊欄中作用中時，也會出現「**[!UICONTROL 新增全部]**」按鈕，讓您一次新增所有篩選結果。
 
-   當您新增屬於XDM陣列欄位的元件（例如Adobe Journey Optimizer主張欄位）時，它會在畫布上顯示為可收合的巢狀群組，而不是平面專案。 群組會反映基礎資料結構，並輸出為匯出檔案中的巢狀陣列。
+   新增欄位時，請考量下列事項：
 
-   <!--add screenshot-->
+   * 某些元件為必要、不支援的元件，或資料摘要中有限制。 如需詳細資訊，請參閱資料摘要](/help/components/exports/cja-data-feeds/df-components.md)中的[元件可用性。
 
-   某些元件為必要、不支援的元件，或資料摘要中有限制。 如需詳細資訊，請參閱資料摘要[&#128279;](/help/components/exports/cja-data-feeds/df-components.md)中的元件可用性。
+   * 當您新增屬於XDM陣列欄位（例如，Adobe Journey Optimizer主張欄位）或對應欄位的元件時，對話方塊會提示您從相同的子容器新增任何其他元件。 在資料摘要輸出中，所有這些元件都會顯示在單一欄中。 如需詳細資訊，請參閱資料摘要中的[子容器元件](/help/components/exports/cja-data-feeds/df-sub-event.md)
 
 1. （選用）拖曳畫布上的元件以重新排序元件。 您定義的順序會保留為匯出的資料摘要檔案中的欄順序。
 
@@ -275,7 +275,7 @@ ht-degree: 12%
 
 * 使用者在回顧日期範圍&#x200B;**內的某個時間符合原始行銷活動**&#x200B;的資格。
 
-  如果使用者在9天前符合原始促銷活動的資格，則回顧日期範圍設為30天時，資料摘要會包含&#x200B;**原始促銷活動，但是如果回顧日期範圍設為7天，則資料摘要不會包含**&#x200B;原始促銷活動。**&#x200B;**
+  如果使用者在9天前符合原始促銷活動的資格，則回顧日期範圍設為30天時，資料摘要會包含&#x200B;**原始促銷活動，但是如果回顧日期範圍設為7天，則資料摘要不會包含**&#x200B;原始促銷活動。****
 
 >[!ENDSHADEBOX]
 
@@ -342,9 +342,11 @@ ht-degree: 12%
 
 #### 階段2：從資料湖擷取資料至Customer Journey Analytics
 
-這最多可能需要90分鐘（請參閱[延遲](/help/technotes/guardrails.md#latencies)）。
+資料擷取時間會因資料集是否已啟用銜接而異。
 
-* **拼接資料集**：拼接最多可新增4小時（請參閱[延遲](/help/technotes/guardrails.md#latencies)）。 如果連線已啟用拼接，請將延遲設定為至少6小時，可能為8小時。 拼接重播更新的資料通常不包含在已處理的資料摘要檔案中。
+* **非拼接資料集**：這最多可能需要90分鐘（請參閱[延遲](/help/technotes/guardrails.md#latencies)）。
+
+* **拼接資料集**：在非拼接資料集所需的90分鐘基礎上，拼接最多可新增4小時（請參閱[延遲](/help/technotes/guardrails.md#latencies)）。 如果連線已啟用拼接，請將延遲設定為至少6小時，可能為8小時。 拼接重播更新的資料通常不包含在已處理的資料摘要檔案中。
 
   啟用拚接後，最小處理延遲從2小時增加到6小時，以說明拚接的資料。
 
