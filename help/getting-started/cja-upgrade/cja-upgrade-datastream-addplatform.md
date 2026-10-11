@@ -1,6 +1,6 @@
 ---
-title: 為 Customer Journey Analytics 建立結構描述
-description: 了解關於從 Adobe Analytics 升級至 Customer Journey Analytics 的建議路徑
+title: 新增平台即服務至您的資料流
+description: 瞭解從Adobe Analytics升級為Customer Journey Analytics時，如何將Experience Platform當做服務新增到您的資料串流。
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 92%
 ---
 # 新增平台即服務至您的資料流 {#upgrade-addplatform-datastream}
 
@@ -78,6 +78,6 @@ ht-degree: 100%
 
    您的資料流現在已設定為將從您網站收集的資料轉送至 Adobe Experience Platform 中的資料集。
 
-   請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
+   請參閱[資料流概觀](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html)，了解如何設定資料流以及如何處理敏感資料的詳細資訊。
 
 {{upgrade-final-step}}

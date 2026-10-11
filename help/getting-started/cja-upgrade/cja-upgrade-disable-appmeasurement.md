@@ -1,6 +1,6 @@
 ---
-title: 將 Analytics 來源連接器資料集新增至連線
-description: 了解如何將 Analytics 來源連接器資料集新增至連線
+title: 停用 Adobe Analytics
+description: 瞭解升級至Customer Journey Analytics後如何停用Adobe Analytics資料收集。
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 85%
 ---
 # 停用 Adobe Analytics {#disable-appmeasurement}
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 * **標記：**&#x200B;停用 Adobe Analytics 擴充功能
 
-* **AppMeasurment：** 取代 AppMeasurement.js library s=newobject
+* **AppMeasurement：**&#x200B;取代AppMeasurement.js資料庫s=newobject
 
 >[!NOTE]
 >
