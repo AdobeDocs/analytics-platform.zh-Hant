@@ -1,6 +1,6 @@
 ---
 title: 在 Customer Journey Analytics 中建立資料釋圖
-description: 了解關於從 Adobe Analytics 升級至 Customer Journey Analytics 的建議路徑
+description: 瞭解從Adobe Analytics升級時，如何在Customer Journey Analytics中建立資料檢視。
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 96%
 ---
 # 在 Customer Journey Analytics 中建立資料釋圖 {#upgrade-create-dataview}
 

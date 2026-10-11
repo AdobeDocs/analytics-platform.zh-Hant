@@ -1,6 +1,6 @@
 ---
-title: 升級至Customer Journey Analytics時的替代方法
-description: 瞭解升級至Customer Journey Analytics時的替代方法
+title: 升級替代方案：將資料層傳送至 Customer Journey Analytics
+description: 瞭解如何將整個資料層傳送至Customer Journey Analytics，而非使用XDM物件收集資料。
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '707'
 ht-degree: 54%
 ---
 # 升級替代方案：將資料層傳送至 Customer Journey Analytics {#data-collection-data-layer}

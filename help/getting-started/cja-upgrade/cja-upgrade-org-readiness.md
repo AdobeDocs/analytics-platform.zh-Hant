@@ -1,6 +1,6 @@
 ---
-title: 從 Adobe Analytics 升級至 Customer Journey Analytics
-description: 了解關於從 Adobe Analytics 升級至 Customer Journey Analytics 的建議步驟
+title: 為您的組織做好升級至 Customer Journey Analytics 的準備
+description: 瞭解如何準備您的組織以從Adobe Analytics升級至Customer Journey Analytics。
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 15%
+source-wordcount: '1189'
+ht-degree: 14%
 ---
 # 為您的組織做好升級至 Customer Journey Analytics 的準備
 

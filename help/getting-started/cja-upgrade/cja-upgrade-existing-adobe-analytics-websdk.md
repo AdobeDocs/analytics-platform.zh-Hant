@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 64%
+source-wordcount: '1117'
+ht-degree: 60%
 ---
 # 設定現有的 Adobe Analytics Web SDK 實作以傳送資料至平台 {#existing-websdk-implementation}
 
@@ -75,7 +75,7 @@ ht-degree: 64%
 
 1. 開始從Edge Network傳送資料至Platform。 透過資料物件，以AppMeasurement格式傳送所有變數。
 
-   如需詳細資訊，請參閱[對應到Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/data-var-mapping)的資料物件變數。
+   Edge Network會自動將這些資料物件欄位對應至Adobe Analytics變數，以便在升級期間完整保留Adobe Analytics報表。 如需支援的欄位清單，請參閱[資料物件欄位對應到Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/data-var-mapping)。 Customer Journey Analytics不使用這些對應。 在後續步驟中，會將資料物件欄位對應到Customer Journey Analytics的XDM結構描述。
 
 1. 選擇您的結構描述。
 
@@ -101,6 +101,6 @@ ht-degree: 64%
 
 1. 使用資料流對應將資料物件中的所有欄位對應到您的XDM結構描述。
 
-   如需詳細資訊，請參閱Experience Platform檔案中[資料彙集的資料準備](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/data-prep)中的[對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/data-prep?lang=en#mapping)。
+   Customer Journey Analytics只能使用您對應到結構描述的資料物件欄位。 如需詳細資訊，請參閱Experience Platform檔案中[資料彙集的資料準備](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/data-prep)中的[對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/data-prep?lang=en#mapping)。
 
 {{upgrade-final-step}}

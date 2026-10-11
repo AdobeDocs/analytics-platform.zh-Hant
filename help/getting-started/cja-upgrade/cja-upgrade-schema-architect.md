@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1571'
 ht-degree: 11%
 ---
 # 建立您的結構描述以便與 Customer Journey Analytics 搭配使用 {#upgrade-schema-architect}
@@ -74,7 +74,7 @@ Customer Journey Analytics的資料管道包含個別的資料收集區和資料
 
 ## 比較方案與Adobe Analytics資料彙集
 
-Customer Journey Analytics使用的Experience Data Model可大幅提高其他大多數Analytics解決方案（包括Adobe Analytics）的彈性。 建立穩固的結構描述是貴組織避免執行其他Analytics產品中存在的限制的機會。
+與Adobe Analytics不同，Customer Journey Analytics不會自動將傳入資料對應至預先定義的變數。 您的結構描述會定義欄位，資料檢視會決定其報告方式。 Customer Journey Analytics使用的Experience Data Model可大幅提高其他大多數Analytics解決方案（包括Adobe Analytics）的彈性。 建立穩固的結構描述是貴組織避免執行其他Analytics產品中存在的限制的機會。
 
 | Adobe Analytics的常見習慣 | XDM + Customer Journey Analytics中更好的方法 |
 |---|---|

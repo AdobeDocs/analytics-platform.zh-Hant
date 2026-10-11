@@ -1,6 +1,6 @@
 ---
-title: 為 Customer Journey Analytics 建立結構描述
-description: 了解關於從 Adobe Analytics 升級至 Customer Journey Analytics 的建議路徑
+title: 建立並設定用於 Customer Journey Analytics 的連線
+description: 瞭解如何建立Customer Journey Analytics連線，以及在從Adobe Analytics升級時新增Experience Platform資料集。
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 100%
+source-wordcount: '1682'
+ht-degree: 98%
 ---
 # 建立並設定用於 Customer Journey Analytics 的連線 {#upgrade-create-connection}
 
