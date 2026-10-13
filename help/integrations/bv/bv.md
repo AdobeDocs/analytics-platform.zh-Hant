@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fb3ebdba335ce2dde30d37b8aff4e8f201dc5d9f
+source-git-commit: e3958dfbad19f5fdd78b2755817d21afad8f8e84
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '844'
 ht-degree: 3%
 ---
 
@@ -29,12 +29,14 @@ AI已成為主要探索管道。 大型語言模型(LLM)代理程式（例如Cha
 
 >[!NOTE]
 >
->您必須布建品牌可見度付費方案，並透過受管理的聯結器連線至您的Experience Platform設定。
+>您必須擁有品牌可見度付費方案。 然後，您[在您的Experience Platform沙箱中設定並啟用](./configure.md) Adobe Brand Visibility來源。
+>
 
 
 >[!IMPORTANT]
 >
 >在此整合中，美國會進行一些品牌可見度資料的臨時處理。 資料最終會儲存在您的Customer Journey Analytics合約中設定的指定區域。
+>
 
 
 ## 使用案例
@@ -68,7 +70,7 @@ LLM流量透過兩種方式到達您的網站。 Customer Journey Analytics會�
 
 ### 載入資料集
 
-Brand Visibility Managed Connector會將資料作為摘要資料集傳送給Experience Platform。 若要在Customer Journey Analytics中進行測量，請自行完成兩個設定步驟：
+您在Experience Platform中啟用Adobe Brand Visibility來源。 來源會將資料以摘要資料集的形式傳送至您的沙箱。 若要在Customer Journey Analytics中測量資料，接著請自行完成其他兩個設定步驟：
 
 1. 建立包含品牌可見度資料集的連線。
 2. 在該連線上建立資料檢視。 資料檢視可讓以下維度和量度在Analysis Workspace中使用。
