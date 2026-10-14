@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 93107a7cf46e5d71bcb5c588eb7395fd1b88d150
+source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
 workflow-type: tm+mt
 source-wordcount: '3924'
 ht-degree: 12%
@@ -129,7 +129,7 @@ ht-degree: 12%
 
    * 某些元件為必要、不支援的元件，或資料摘要中有限制。 如需詳細資訊，請參閱資料摘要[&#128279;](/help/components/exports/cja-data-feeds/df-components.md)中的元件可用性。
 
-   * 當您新增屬於XDM陣列欄位（例如，Adobe Journey Optimizer主張欄位）或對應欄位的元件時，對話方塊會提示您從相同的子容器新增任何其他元件。 在資料摘要輸出中，所有這些元件都會顯示在單一欄中。 如需詳細資訊，請參閱資料摘要中的[子容器元件](/help/components/exports/cja-data-feeds/df-sub-event.md)
+   * 當您新增屬於XDM陣列欄位（例如，Adobe Journey Optimizer主張欄位）或對應欄位的元件時，對話方塊會提示您從相同子事件新增任何其他元件。 在資料摘要輸出中，所有這些元件都會顯示在單一欄中。 如需詳細資訊，請參閱資料摘要中的[子事件元件](/help/components/exports/cja-data-feeds/df-sub-event.md)
 
 1. （選用）拖曳畫布上的元件以重新排序元件。 您定義的順序會保留為匯出的資料摘要檔案中的欄順序。
 
