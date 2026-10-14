@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c9d7bb10d15aa25bf3fa6dcd2e95fea39cd6faf7
+source-git-commit: 8c27da8181de41a626da4b5bd86fdd945b5bff3a
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 27%
+source-wordcount: '965'
+ht-degree: 24%
 ---
 # 目前的Customer Journey Analytics發行說明（2026年10月）
 
@@ -68,6 +68,7 @@ ht-degree: 27%
 | **在Analysis Workspace中使用交談深入分析來分析LLM客戶體驗**<br/> Customer Journey Analytics現在將非結構化的聊天資料帶入Analysis Workspace，讓您報告屬性中發生的LLM支援瀏覽和購買體驗。<p>有了這項功能，您可以：</p><ul><li>透過Web SDK從對話式代理程式（您組織的自訂代理程式或Adobe Brand Concierge）收集提示、回應和代理程式中繼資料。</li><li>分析意圖、語調和情緒，以瞭解客戶詢問、代理商回應方式，以及客戶對其互動的感受。</li><li>使用您現有的結構、資料集和資料檢視進行大規模分析，然後在Analysis Workspace中呈現深入分析。</li><li>將代理互動連結至您更廣大的客戶歷程，讓對話與結果相互關聯，這樣您就能衡量對轉換、參與度等專案的實際影響。</li></ul><p>過去，LLM支援的體驗很難測量，而且幾乎無法連線至您現有的客戶歷程。</p><p>如需詳細資訊，請參閱[交談見解](/help/conversation-insights/overview.md)。</p> | | 2026年10月8日<p>（原計畫於2026年9月22日推出）</p> |
 | **自動產生元件說明** <br/>您現在可以自動產生維度、量度、計算量度、區段和日期範圍的說明。 這可讓Workspace使用者瞭解要使用哪些元件，尤其是在擁有大型元件庫的組織中。 <p>您可以產生單一元件的說明，或同時產生許多元件的說明。</p> <p>(文件連結待補充。)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日 |
 | **Adobe Brand Visibility整合**<br/>&#x200B;將Adobe Brand Visibility與您組織的Customer Journey Analytics資料連結，以便測量AI驅動的探索如何轉化為實際的網站參與度和業務成果。<p>(文件連結待補充。)</p> | | 2026年10 |
+| **同事的產品內體驗**<br/>&#x200B;同事現在可在Analysis Workspace的聊天面板中使用。 同事使用您開啟的專案作為前後關聯，因此您可以詢問有關分析的問題，而不需要說明專案包含的內容。<p>使用同事的產品內體驗，您可以：</p><ul><li>彙總開啟的專案、尋找深入分析以及執行根本原因分析。</li><li>使用自然語言提示建置和編輯專案。 例如，您可以新增面板和表格、劃分資料、變更視覺效果型別和日期範圍，以及建立區段。</li></ul><p>（後續檔案更新。）<!-- For more information, see [Use the in-product experience for Coworker](/help/analysis-workspace/coworker.md). --></p> | 2026年10月22日（原計畫於2026年10月15日） | 待定 |
 
 
 ### Customer Journey Analytics 中的修正
