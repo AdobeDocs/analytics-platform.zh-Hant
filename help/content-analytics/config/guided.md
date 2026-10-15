@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1af0b3565fe054a5073f574d53b82f561df1abda
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
-source-wordcount: '4800'
-ht-degree: 56%
+source-wordcount: '4844'
+ht-degree: 55%
 ---
 
 # Content Analytics 引導式設定
@@ -332,7 +332,7 @@ ht-degree: 56%
 
 * 指示在收集Content Analytics的資料時應排除哪些資產URL。 請確定您排除了可識別個人身分的資產 URL。
 
-  指定&#x200B;**[!UICONTROL 要排除的資產URL的**&#x200B;[!UICONTROL &#x200B;規則運算式字串&#x200B;]&#x200B;**]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有參照標誌JPEG影像的資產URL。
+  指定&#x200B;**[!UICONTROL 要排除的資產URL的**[!UICONTROL &#x200B;規則運算式字串&#x200B;]**]**。 <br/>例如： `^(?!.*(logo\.jpg)).*$`從Content Analytics排除所有參照標誌JPEG影像的資產URL。
 
 
 ### 標頭覆寫 {#mobile-header-overrides}
@@ -705,6 +705,11 @@ ht-degree: 56%
 * 更新 Customer Journey Analytics 連線，以包含此沙箱中所有已連線來源連接器的付費媒體資料集。
 * 在所有選定的資料檢視中啟用付費媒體維度和量度。
 * 在 Workspace 報告中，將付費媒體管道顯示為可篩選維度。
+
+請參閱[付費媒體自動設定](./paid-media.md)，以取得下列詳細資料：
+
+* 自動設定付費媒體資料集，因首次使用付費媒體來源聯結器而產生。
+* 在Content Analytics中設定和啟用付費媒體頻道時建立的資料檢視元件。
 
 ### 儲存 {#paidmedia-save}
 
