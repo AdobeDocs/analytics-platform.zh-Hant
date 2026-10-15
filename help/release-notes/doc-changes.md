@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
-source-wordcount: '7183'
-ht-degree: 96%
+source-wordcount: '7222'
+ht-degree: 95%
 ---
 
 # Customer Journey Analytics - 文件更新
@@ -70,8 +70,8 @@ ht-degree: 96%
 | 功能 | 說明 |
 |---|---|
 | **2026年10月** | |
+| Content Analytics付費媒體頻道 | 使用付費媒體來源聯結器（例如Google Ads或Meta Ads），以及設定和啟用Content Analytics付費媒體頻道，所導致的資料集和資料檢視元件的自動設定，詳細[相關檔案](/help/content-analytics/config/paid-media.md)。 |
 | 交談見解 | [檔案](/help/conversation-insights/overview.md)，用於交談深入分析。 |
-| 2026年10 | |
 | Brand Visibility | 已更新[品牌可見度傳入整合](/help/integrations/bv/bv.md#inbound-integration)的檔案，其中包含更多詳細資料。 |
 | **2026年9月** | |
 | 箭頭和流失的歷程畫布比較 | 更新[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)中的&#39;[!UICONTROL 與]&#39;比較設定，以顯示歷程中每個節點、箭頭和流失現在顯示的日期範圍之間的百分比變更。 |

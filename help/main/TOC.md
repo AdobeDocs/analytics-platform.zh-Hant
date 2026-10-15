@@ -2,9 +2,9 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1520'
 ht-degree: 91%
 ---
 # Adobe Customer Journey Analytics 指南 {#using}
@@ -188,6 +188,7 @@ ht-degree: 91%
   + [Analysis Workspace 概觀](../analysis-workspace/home.md)
   + [執行基本分析](../analysis-workspace/perform-basic-analysis.md)
   + [執行進階分析](../analysis-workspace/perform-adv-analysis.md)
+  + [Workspace中的同事](../analysis-workspace/coworker.md)
   + 專案 {#build-workspace-project}
     + [概觀](../analysis-workspace/build-workspace-project/freeform-overview.md)
     + [快速開始專案](/help/analysis-workspace/build-workspace-project/starter-projects.md)
@@ -313,7 +314,7 @@ ht-degree: 91%
     + [引導式設定](/help/content-analytics/config/guided.md)
     + [手動設定](/help/content-analytics/config/manual.md)
     + [獨立設定](/help/content-analytics/config/standalone.md)
-    + {hide-from-toc}[付費媒體設定](/help/content-analytics/config/paid-media.md)
+    + [付費媒體設定](/help/content-analytics/config/paid-media.md)
     + [JavaScript資料庫](/help/content-analytics/config/tags-agnostic.md)
     + [資料收集](/help/content-analytics/config/datacollection.md)
 
