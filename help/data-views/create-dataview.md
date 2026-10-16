@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3165'
 ht-degree: 77%
 ---
 # 建立或編輯資料視圖
@@ -53,7 +53,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立或編輯資料檢視](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立或編輯資料檢視](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -117,9 +117,20 @@ ht-degree: 77%
 {style="table-layout:auto"}
 
 
-### AI 設定
+### AI 設定 {#ai-settings}
 
-選取&#x200B;**[!UICONTROL 啟用Data Insights Agent]**&#x200B;以啟用[Data Insights Agent](/help/data-analysis-ai.md)的資料檢視。 Data Insights Agent是產生式AI交談代理程式，可從Customer Journey Analytics的AI助理存取。 它能協助您透過文字提示快速分析資料。 代理程式會使用您資料檢視中的元件，並使用您的實際資料，在Analysis Workspace中建置相關的視覺效果。
+<!-- FOLLOW-UP: The Enable for Data Insights Agent setting is still in the UI, but Data Insights Agent has been replaced by Coworker. Confirm with the SME what this setting does now and whether it will be renamed or removed. This contextual help block was moved here from the retired data-analysis-ai.md page; confirm that the in-product help still resolves. -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-enable-data-insights-data-view"
+>title="啟用供 Data Insights 代理使用"
+>abstract="此選項會啟用此資料釋圖，用於和 Data Insights 代理搭配使用。 Data Insights Agent是一款創作AI交談代理程式，可協助您透過文字提示快速分析資料。 此代理會使用來自資料釋圖的元件以及您的實際資料，在 Analysis Workspace 建置相關的視覺內容。"
+
+<!-- markdownlint-enable MD034 -->
+
+選取&#x200B;**[!UICONTROL 啟用Data Insights Agent]**&#x200B;以啟用Data Insights Agent的資料檢視。 Data Insights Agent是創新型人工智慧交談代理程式，可協助您透過文字提示快速分析資料。 代理程式會使用您資料檢視中的元件，並使用您的實際資料，在Analysis Workspace中建置相關的視覺效果。
 
 
 ### 行事曆
@@ -235,7 +246,7 @@ ht-degree: 77%
 
 1. 使用「![搜尋圖示](/help/assets/icons/Search.svg)**[!UICONTROL 搜尋結構描述欄位]**」來搜尋結構描述欄位，或者移動到任何資料集集合中尋找欄位，例如「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 事件資料集]**」或「![資料夾](/help/assets/icons/Folder.svg)**[!UICONTROL 查詢資料集]**」。 對於事件資料集，![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL XDM欄位]**&#x200B;和![資料夾](/help/assets/icons/Folder.svg) **[!UICONTROL 臨機欄位和關聯欄位]**&#x200B;有可用的個別集合。<br/>或者，您可以使用![資料圖示](/help/assets/icons/Data.svg) **建立衍生欄位**&#x200B;來建立衍生欄位。 請參閱「[衍生欄位](./derived-fields/derived-fields.md)」以了解更多資訊。
 
-1. 找到特定結構描述欄位或定義衍生欄位後，請將該欄位（例如![控制點圖示](/help/assets/icons/DragHandle.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件下**&#x200B;[!UICONTROL &#x200B;量度&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B;維度&#x200B;]&#x200B;**區段]**。
+1. 找到特定結構描述欄位或定義衍生欄位後，請將該欄位（例如![控制點圖示](/help/assets/icons/DragHandle.svg) **[!UICONTROL 頁面名稱]**）從左側邊欄拖曳至&#x200B;**[!UICONTROL 包含的元件下**[!UICONTROL &#x200B;量度&#x200B;]**或**[!UICONTROL &#x200B;維度&#x200B;]**區段]**。
 您可以多次將相同的結構描述欄位拖曳至維度或量度區段，並以不同的方式設定相同的維度或量度。 例如，從pageName欄位，使用右側不同的[元件設定](component-settings/overview.md)來建立`Product Pages`和`Error pages`維度。
 如果從左側邊欄拖曳一個結構描述欄位資料夾，資料夾中的欄位會自動排序成為適當的區段。 字串欄位會在「[!UICONTROL 維度]」區段中結束，而數值結構描述類型最終出現在「[!UICONTROL 量度]」區段中。 您也可以按一下「**[!UICONTROL 新增全部]**」，並新增所有結構描述欄位至其各自的區段。
 

@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 9%
@@ -122,11 +122,11 @@ ht-degree: 9%
 | 對象重新整理頻率 | 4 | 系統強制的護欄 | 可以重新整理[對象](../components/audiences/audiences-overview.md)的頻率上限（小時）。 |
 | 對象重新整理回顧期間 | 90 | 系統強制的護欄 | 重新整理回顧期間的最大天數。 |
 | 重新整理對象到期日 | 13 | 系統強制的護欄 | 對象從建立日期起停止重新整理的最大月數。 客戶可再延長13個月。 |
-| 重新整理對象的數量 | 75 - 150 | 系統強制的護欄 | 設定為以排定的頻率重新整理[&#128279;](/help/components/audiences/publish.md#audience-builder)的個對象數上限（一次性重新整理不計入此限制）。 值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 重新整理對象的數量 | 75 - 150 | 系統強制的護欄 | 設定為以排定的頻率重新整理](/help/components/audiences/publish.md#audience-builder)的[個對象數上限（一次性重新整理不計入此限制）。 值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/guardrails/overview)。
+另請參閱Experience Platform [Real-time Customer Data Platform護欄](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)。
 
 
 ## 自動化資料集有效期
@@ -173,7 +173,7 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
+另請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 
 ## 目的地資料匯出
@@ -185,7 +185,7 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/guardrails#dataset-exports)
+另請參閱Experience Platform [資料集匯出護欄](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## 資料登陸區域
@@ -283,6 +283,8 @@ ht-degree: 9%
 
 ## Data Insights 代理
 
+<!-- FOLLOW-UP: Data Insights Agent has been replaced by Coworker, but the data view setting is still in the UI. Confirm with the SME whether this guardrail still applies. -->
+
 | 名稱 | 值 | 限制型別 | 說明 |
 |---|--:|---|---|
 | 資料檢視 | 50 | 系統強制的護欄 | 可為Data Insights Agent啟用的資料檢視最大數量。 啟用更多資料檢視時，Data Insights Agent只能使用最常用的資料檢視。 此護欄不會影響定義您可為連線或組織內定義的最大資料檢視數的[護欄](#connections-data-views-projects)。 |
@@ -301,7 +303,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->以下處理時間是護欄，而不是合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=zh-Hant)。
+>以下處理時間是護欄，而不是合約服務等級協定(SLA)。 延遲會依客戶組態、資料磁碟區和消費者應用程式而有所不同。 實際的處理速度通常更快。 請參閱您的Customer Journey Analytics合約，以瞭解特定合約條款及SLA。 如需詳細資訊，請參閱Experience Platform [資料擷取的護欄](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)。
 
 | 資料流程 | 預期延遲 |
 |---|---|

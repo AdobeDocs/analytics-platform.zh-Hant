@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 10%
@@ -46,6 +46,8 @@ ht-degree: 10%
 
 表格中有下列欄和圖示：
 
+<!-- FOLLOW-UP (engineering): The Data views table UI still shows a Data Insights Agent column, a Data Insights Agent Status pop-up, and Enable/Disable for Data Insights Agent context menu options. These presumably should change to Coworker. Log with engineering, then update the labels, descriptions, and the data-views-dia-status.png screenshot. -->
+
 | 欄或圖示 | 說明 |
 | --- | --- |
 | **[!UICONTROL 名稱]** | 資料視圖的名稱。 |
@@ -54,7 +56,7 @@ ht-degree: 10%
 | **[!UICONTROL 連線]** | 與資料檢視相關聯的連線名稱。 |
 | **[!UICONTROL 沙箱]** | 與資料檢視相關聯的沙箱名稱。 |
 | **[!UICONTROL 所有者]** | 資料檢視的所有者。 |
-| **[!UICONTROL Data Insights Agent]** ![資訊大綱](/help/assets/icons/InfoOutline.svg) | 表示資料檢視的[Data Insights Agent](/help/data-analysis-ai.md)是&#x200B;**[!UICONTROL 已啟用]**&#x200B;還是&#x200B;**[!UICONTROL 已停用]**。 <br/>選取![資訊大綱](/help/assets/icons/InfoOutline.svg)以在您的資料檢視中顯示含有&#x200B;**[!UICONTROL Data Insights Agent狀態]**&#x200B;的快顯視窗。 <br/>![Data Insights Agent使用量](/help/data-views/assets/data-views-dia-status.png) |
+| **[!UICONTROL Data Insights Agent]** ![資訊大綱](/help/assets/icons/InfoOutline.svg) | 表示資料檢視的[Data Insights Agent](/help/data-views/create-dataview.md#ai-settings)是&#x200B;**[!UICONTROL 已啟用]**&#x200B;還是&#x200B;**[!UICONTROL 已停用]**。 <br/>選取![資訊大綱](/help/assets/icons/InfoOutline.svg)以在您的資料檢視中顯示含有&#x200B;**[!UICONTROL Data Insights Agent狀態]**&#x200B;的快顯視窗。 <br/>![Data Insights Agent使用量](/help/data-views/assets/data-views-dia-status.png) |
 | **[!UICONTROL 整合]** | 列出與其他解決方案的整合。 例如： Adobe對象分析、Content Analytics、Brand Concierge、Journey Optimizer、GenStudio和使用情況分析。 |
 | **[!UICONTROL 在 CJA 中使用]** | 指出資料檢視是否用於Customer Journey Analytics。 對於在Adobe Journey Optimizer整合過程中自動產生的資料檢視，此值僅為&#x200B;**[!UICONTROL Off]**。 |
 | **[!UICONTROL 建立日期]** | 資料檢視的建立時間戳記。 |
@@ -166,7 +168,9 @@ ht-degree: 10%
 
 ## 啟用或停用Data Insights Agent的資料檢視
 
-您可以啟用或停用[Data Insights Agent](/help/data-analysis-ai.md)的資料檢視。
+<!-- FOLLOW-UP: This setting is still in the UI, but Data Insights Agent has been replaced by Coworker. Confirm with the SME what the setting does now and whether it will be renamed or removed. This also applies to the Data Insights Agent column above. -->
+
+您可以啟用或停用[Data Insights Agent](/help/data-views/create-dataview.md#ai-settings)的資料檢視。
 
 1. 選取資料檢視名稱旁的![更多](/help/assets/icons/More.svg)。
 1. 從內容功能表中選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 啟用Data Insights Agent]**&#x200B;或![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL 停用Data Insights Agent]**。

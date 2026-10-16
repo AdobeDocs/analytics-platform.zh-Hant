@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2a01268e537fb7982f698ccf9c14b831edf8437f
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '1764'
-ht-degree: 74%
+ht-degree: 73%
 ---
 # 存取控制
 
@@ -137,9 +137,9 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
   | [!UICONTROL 資料治理] | [!UICONTROL 檢視資料使用原則] | 屬於您組織的資料使用原則的唯讀存取權。 |
   | [!UICONTROL 資料治理] | [!UICONTROL 管理資料使用原則] | 讀取、建立、編輯和刪除資料使用原則的存取權。 |
 
-  如需Experience Platform許可權的詳細資訊，請參閱[沙箱和許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home#sandboxes-and-permissions)。
+  如需Experience Platform許可權的詳細資訊，請參閱[沙箱和許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)。
 
-* 如果Journey Optimizer與存在Journey Optimizer連線的Customer Journey Analytics整合，則也必須新增[歷程許可權](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability)才能存取連線：
+* 如果Journey Optimizer與存在Journey Optimizer連線的Customer Journey Analytics整合，則也必須新增[歷程許可權](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability)才能存取連線：
 
   | 類別 | 權限 | 說明 |
   |---|---|---|
@@ -150,14 +150,14 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
 * 將資料集匯出至[目標](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets)
 
-  若要執行此工作，使用者必須屬於提供下列[目的地許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home#access-controls)的&#x200B;**Experience Platform角色**：
+  若要執行此工作，使用者必須屬於提供下列[目的地許可權](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home#access-controls)的&#x200B;**Experience Platform角色**：
 
   | 類別 | 權限 | 說明 |
   |---|---|---|
   | [!UICONTROL 目標] | [!UICONTROL 管理目標] | 讀取、建立和刪除目標連線和目標帳戶的存取權。 |
   | [!UICONTROL 目標] | [!UICONTROL 啟用目標] | 允許使用者將區段啟用至現有目標。 在啟動工作流程中啟用對應步驟。 此權限也會要求針對想要對目標啟用資料的使用者授予「檢視目標」權限。 |
 
-  如需Experience Platform許可權的詳細資訊，請參閱[沙箱和許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home#sandboxes-and-permissions)。
+  如需Experience Platform許可權的詳細資訊，請參閱[沙箱和許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#sandboxes-and-permissions)。
 
 
 * 使用 [BI 擴充功能](../data-views/bi-extension.md)
@@ -191,6 +191,8 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 
 ![Admin Console 權限](assets/permissions.png)
 
+<!-- FOLLOW-UP (waiting on PM): The AI Assistant: Product Knowledge and Data Insights Agent permissions haven't been updated in the product yet. When the PM confirms the Coworker permission name and category, update both rows below. Links to the retired AI Assistant and Data Insights Agent pages were removed. -->
+
 | 類別 | 權限 | 說明 |
 | --- | --- | ---|
 | [!UICONTROL 資料視圖] | *資料視圖名稱* | 如果您將&#x200B;**[!UICONTROL 自動包含]**&#x200B;切換為&#x200B;**[!UICONTROL 開啟]**，則屬於此產品輪廓的使用者可以查看所有現有和新建立的資料檢視。 如果此項設定為&#x200B;**[!UICONTROL 關閉]**，您可以選擇使用者有權存取的特定資料檢視。 |
@@ -205,8 +207,8 @@ Customer Journey Analytics 由三個存取層級或三個角色管理：產品�
 | [!UICONTROL 報告工具] | [!UICONTROL 稽核記錄存取權] | 強制對 [API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) 及稽核記錄使用者介面進行權限檢查。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 與任何人共用專案連結] | 讓使用者可以[與任何人共用專案。](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
 | [!UICONTROL 報告工具] | [!UICONTROL 預測] | 讓使用者可以存取 Analysis Workspace 中的[預測](../analysis-workspace/c-forecast/forecasting.md)功能 |
-| [!UICONTROL 報告工具] | [!UICONTROL AI 助理：產品知識] | 讓使用者可以存取 [AI 助理](../ai-assistant.md)以獲取產品知識。 |
-| [!UICONTROL 報告工具] | [!UICONTROL Data Insights 代理] | 讓使用者存取[Data Insights Agent](../data-analysis-ai.md)，以取得AI導向的資料深入分析。 |
+| [!UICONTROL 報告工具] | [!UICONTROL AI 助理：產品知識] | 讓使用者存取AI Assistant以取得產品知識。 |
+| [!UICONTROL 報告工具] | [!UICONTROL Data Insights 代理] | 讓使用者存取Data Insights Agent以獲得AI導向的資料深入分析。 |
 | [!UICONTROL 報告工具] | [!UICONTROL 智慧型註解] | 讓使用者可以存取[智慧型註解](/help/analysis-workspace/visualizations/intelligent-captions.md)。 |
 | [!UICONTROL 報告工具] | [!UICONTROL MCP存取] | 讓使用者存取[Customer Journey Analytics MCP伺服器](https://developer.adobe.com/analytics-mcp/docs/cja/)。 |
 | [!UICONTROL 資料檢視工具] | [!UICONTROL 完整表格匯出] | 讓使用者可以[將完整表格匯出至雲端](/help/analysis-workspace/export/export-cloud.md)。 |

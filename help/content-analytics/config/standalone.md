@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 10%
@@ -76,8 +76,8 @@ Content Analytics已獲授權為獨立產品，但設定會在Experience Platfor
 | **Connection** | [連線](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/overview)定義要擷取的Experience Platform資料集。 連線會定義資料集（資料儲存在AEP中的位置）與Customer Journey Analytics （資料分析位置）之間的連結。 連線可讓您的收集資料可用於報表。 |
 | **資料檢視** | [資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-views)是一個容器，可讓您決定如何解譯來自連線的資料。 資料檢視會指定所有可用於報表的維度和量度。 資料檢視就像一種設定，可決定可在分析中使用的列和欄。 |
 | **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)是您用來建置Content Analytics報表與分析的拖放式瀏覽器介面。 |
-| **體驗** | 在Content Analytics中，[體驗](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是指網頁上所有可依據頁面URL擷取及分析的文字內容。 |
-| **資產** | 在Content Analytics中，[資產](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是個別且唯一的內容，例如影像。 |
+| **體驗** | 在Content Analytics中，[體驗](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是指網頁上所有可依據頁面URL擷取及分析的文字內容。 |
+| **資產** | 在Content Analytics中，[資產](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology)是個別且唯一的內容，例如影像。 |
 
 
 ## 設定概述
@@ -242,7 +242,7 @@ Customer Journey Analytics不支援屬性式存取控制。 若要指定許可�
   * 稽核記錄存取權
   * 與任何人分享專案連結
   * 預測
-  * AI 助理：產品知識
+  * AI助理：產品知識<!-- FOLLOW-UP (waiting on PM): These two permissions haven't been updated in the product yet. Update when the PM confirms the Coworker permission name. -->
   * Data Insights 代理
   * 智慧型註解
 
@@ -329,7 +329,7 @@ Customer Journey Analytics不支援屬性式存取控制。 若要指定許可�
 
 #### 手動設定
 
-若要為網站實作Content Analytics，您必須手動發佈Content Analytics標籤屬性[&#128279;](manual.md)。
+若要為網站實作Content Analytics，您必須手動發佈Content Analytics標籤屬性[](manual.md)。
 
 
 ### 設定專案
