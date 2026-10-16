@@ -4,12 +4,11 @@ title: 趨勢主題
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 137dba69c8827f3b67d5656760d7715437c58b73
+source-git-commit: 65d4115d4c292cff7e074d37a91563d369072ba5
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
 ---
-
 # 趨勢主題
 
 >[!CONTEXTUALHELP]
@@ -44,7 +43,7 @@ ht-degree: 5%
 
 1. 選取&#x200B;**[!UICONTROL 建置]**&#x200B;以建置視覺效果。 選取&#x200B;**[!UICONTROL 重設]**&#x200B;將組態值重設為預設值。
 
-若要重新設定趨勢主題視覺效果，請選取&#x200B;**排名量度： _排名量度_旁的![編輯](/help/assets/icons/Edit.svg) |子主題層級： _x_**。
+若要重新設定趨勢主題視覺效果，請選取&#x200B;**[!UICONTROL 排名量度： _排名量度_旁的![編輯](/help/assets/icons/Edit.svg) |子主題層級： _x_]**。
 
 ## 使用
 
