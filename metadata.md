@@ -6,7 +6,7 @@ product_v2:
     internal-label: "Customer Journey Analytics"
 usetq: true
 type: Documentation
-git-repo: https://github.com/AdobeDocs/analytics-platform.en
+git-repo: https://github.com/AdobeDocs/analytics-platform.zh-Hant
 description: 此檔案包含存放庫層級中繼資料，會傳送至存放庫中的使用手冊TOC.md檔案。
 feature-set: Customer Journey Analytics
 landing-page-name: customer-journey-analytics
