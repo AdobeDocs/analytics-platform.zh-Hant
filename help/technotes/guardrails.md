@@ -122,7 +122,7 @@ ht-degree: 9%
 | 對象重新整理頻率 | 4 | 系統強制的護欄 | 可以重新整理[對象](../components/audiences/audiences-overview.md)的頻率上限（小時）。 |
 | 對象重新整理回顧期間 | 90 | 系統強制的護欄 | 重新整理回顧期間的最大天數。 |
 | 重新整理對象到期日 | 13 | 系統強制的護欄 | 對象從建立日期起停止重新整理的最大月數。 客戶可再延長13個月。 |
-| 重新整理對象的數量 | 75 - 150 | 系統強制的護欄 | 設定為以排定的頻率重新整理](/help/components/audiences/publish.md#audience-builder)的[個對象數上限（一次性重新整理不計入此限制）。 值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
+| 重新整理對象的數量 | 75 - 150 | 系統強制的護欄 | 設定為以排定的頻率重新整理[&#128279;](/help/components/audiences/publish.md#audience-builder)的個對象數上限（一次性重新整理不計入此限制）。 值會因Customer Journey Analytics套件而異（請參閱產品說明）。 |
 
 {style="table-layout:auto"}
 

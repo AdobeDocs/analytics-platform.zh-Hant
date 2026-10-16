@@ -329,7 +329,7 @@ Customer Journey Analytics不支援屬性式存取控制。 若要指定許可�
 
 #### 手動設定
 
-若要為網站實作Content Analytics，您必須手動發佈Content Analytics標籤屬性[](manual.md)。
+若要為網站實作Content Analytics，您必須手動發佈Content Analytics標籤屬性[&#128279;](manual.md)。
 
 
 ### 設定專案
