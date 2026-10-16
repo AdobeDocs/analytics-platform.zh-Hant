@@ -39,7 +39,7 @@ topic_v2:
 source-git-commit: 4cdf80f86cea6a60e3b098c6efbaab0821a256c7
 workflow-type: tm+mt
 source-wordcount: '7372'
-ht-degree: 82%
+ht-degree: 83%
 ---
 # 設定歷程畫布視覺化圖表
 
@@ -63,7 +63,7 @@ ht-degree: 82%
 
 ## 開始建立歷程畫布視覺化圖表
 
-1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg) [!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
+1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg)[!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
 
    或
 
@@ -150,7 +150,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_compare_percentages"
 >title="比較百分比"
->abstract="根據主要量度，比較目前日期範圍和所選比較日期範圍之間歷程中每個節點、箭頭和流失的百分比變更。 停用此選項時，會顯示原始值百分比，而非百分比變更。"
+>abstract="根據主要量度，比較目前日期範圍與所選比較日期範圍之間，歷程中各節點、箭頭及流失的百分比變化。 停用此選項時，會顯示原始值的百分比，而非百分比變化。"
 
 <!-- markdownlint-enable MD034 -->
 

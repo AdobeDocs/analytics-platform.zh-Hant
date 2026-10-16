@@ -1,5 +1,5 @@
 ---
-title: 使用alloy.js安裝平台網頁SDK
+title: 使用 alloy.js 安裝 Platform Web SDK
 description: 瞭解如何使用alloy.js安裝平台網頁SDK
 role: Admin
 solution: Customer Journey Analytics
@@ -31,9 +31,9 @@ topic_v2:
 source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 88%
+ht-degree: 95%
 ---
-# 使用alloy.js安裝平台網頁SDK {#upgrade-manual}
+# 使用 alloy.js 安裝 Platform Web SDK {#upgrade-manual}
 
 <!-- markdownlint-disable MD034 -->
 
