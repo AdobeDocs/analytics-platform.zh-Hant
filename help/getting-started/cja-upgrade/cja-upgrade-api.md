@@ -1,5 +1,5 @@
 ---
-title: 使用NPM套件安裝Platform Web SDK
+title: 使用 NPM 套件安裝 Platform Web SDK
 description: 瞭解如何從Adobe Analytics升級為Customer Journey Analytics時，使用NPM套件安裝網頁SDK。
 role: Admin
 solution: Customer Journey Analytics
@@ -31,9 +31,9 @@ topic_v2:
 source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 47%
+ht-degree: 60%
 ---
-# 使用NPM套件安裝Platform Web SDK {#upgrade-manual}
+# 使用 NPM 套件安裝 Platform Web SDK {#upgrade-manual}
 
 <!-- markdownlint-disable MD034 -->
 

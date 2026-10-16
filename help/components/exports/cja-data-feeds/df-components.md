@@ -94,7 +94,7 @@ Customer Journey Analytics標準維度不得包含在資料摘要中。 下表�
 | Adobe人員聯盟 | | 未提供 |
 | Adobe人員設定檔 | | 未提供 |
 
-## 無法一起使用的維度 {#incompatible-dimensions}
+## 無法搭配使用的維度 {#incompatible-dimensions}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -103,7 +103,7 @@ Customer Journey Analytics標準維度不得包含在資料摘要中。 下表�
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user_agent"
 >title=""
->abstract="相同的資料摘要設定中不得同時存在使用者代理資料和裝置查詢資料。"
+>abstract="使用者代理資料和裝置查詢資料不得存在於相同的資料摘要設定中。"
 
 <!-- markdownlint-enable MD034 -->
 
