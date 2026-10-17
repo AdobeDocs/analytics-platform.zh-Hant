@@ -71,7 +71,7 @@ ht-degree: 56%
 
 ## 優點和缺點
 
-此方法與[將整個資料層傳送至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-data-layer.md)互斥，因為兩種方法都完成相同的工作。 (此方法較適合將整個資料層傳送至Adobe。 Prop和evar會處理資料，因此比較精細。__ adobe.analytics._variable-name_。)
+此方法與[將整個資料層傳送至Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-data-layer.md)互斥，因為兩種方法都完成相同的工作。 (此方法較適合將整個資料層傳送至Adobe。 Prop和evar會透過data.__ adobe.analytics._variable-name_，所以會更精細。
 
 請考量使用此升級替代方案的下列優缺點：
 
