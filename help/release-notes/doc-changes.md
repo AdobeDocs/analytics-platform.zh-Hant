@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '7222'
+source-wordcount: '7309'
 ht-degree: 95%
 ---
 
@@ -70,6 +70,7 @@ ht-degree: 95%
 | 功能 | 說明 |
 |---|---|
 | **2026年10月** | |
+| AI助理和Data Insights Agent已由同事取代 | 已移除AI助理和Data Insights Agent文章。 Adobe CX Enterprise Coworker同時取代這兩項功能。 如需詳細資訊，請參閱[使用同事聊天分析資料](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)。 也更新了[Customer Journey Analytics功能支援](/help/getting-started/aa-vs-cja/cja-aa.md#cja-not-aa)以反映此變更。 |
 | Content Analytics付費媒體頻道 | 使用付費媒體來源聯結器（例如Google Ads或Meta Ads），以及設定和啟用Content Analytics付費媒體頻道，所導致的資料集和資料檢視元件的自動設定，詳細[相關檔案](/help/content-analytics/config/paid-media.md)。 |
 | 交談見解 | [檔案](/help/conversation-insights/overview.md)，用於交談深入分析。 |
 | Brand Visibility | 已更新[品牌可見度傳入整合](/help/integrations/bv/bv.md#inbound-integration)的檔案，其中包含更多詳細資料。 |
@@ -116,7 +117,7 @@ ht-degree: 95%
 | **2025 年 11 月** | |
 | 每個連線每日列數的護欄 | 已新增[資料傳輸限制的護欄資訊](/help/technotes/guardrails.md)，說明每個連線的每日平均最大列數。 |
 | **2025 年 10 月** | |
-| 管理 Data Insights 代理的存取權 | [啟用資料釋圖的權限需求和流程](/help/data-analysis-ai.md#manage-access-to-data-insights-agent)已更新。 |
+| 管理 Data Insights 代理的存取權 | [啟用資料釋圖的權限需求和流程](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai)已更新。 |
 | 歸因設定 | 反映模型、容器及回顧期間新歸因設定選項的其他更新。 |
 | 收錄並使用 Experience Platform 客群 | 更新如何[收錄並使用 Experience Platform 客群](/help/use-cases/data-ingestion/ingest-aep-segments.md)的使用案例文章。 |
 | 為您的組織做好升級至 Customer Journey Analytics 的準備 | 新增如何[為組織做好升級至 Customer Journey Analytics 之準備](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)的相關資訊。 |
@@ -201,7 +202,7 @@ ht-degree: 95%
 | **2024 年 6 月** | |
 | 已更新提及串流媒體功能的產品名稱 | 當提及用於收集串流媒體資料並將其顯示在 Analysis Workspace 的串流媒體功能集時，出現「媒體分析」和「串流媒體」的地方將替換為名稱「串流媒體收集附加元件」和「串流媒體收集」。 <p>這些更新可在 Customer Journey Analytics 文件以及[串流媒體收集文件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中取得。</p> |
 | 圖表型拼接 | 以圖表式彙整簡介更新和重組[彙整文件](/help/stitching/overview.md)。 |
-| AI 助理 | 新增有關 Customer Journey Analytics 之 AI 助理的[文件](../ai-assistant.md)。 |
+| AI 助理 | 新增有關 Customer Journey Analytics 之 AI 助理的[文件](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)。 |
 | 轉換資料集以進行 B2B 查詢 | 新增有關如何使用 B2B 查詢資料集的轉換來支援[在 B2B 資料上進行人員型查詢](/help/connections//transform-datasets-b2b-lookups.md) (包括帳戶、機會、行銷清單和行銷活動)。 |
 | 衍生欄位函數和函數範本 | 新增有關其他衍生欄位函數 ([數學](/help/data-views/derived-fields/derived-fields.md#math)、[下一個或上一個](/help/data-views/derived-fields/derived-fields.md#next-or-previous)和[總結](/help/data-views/derived-fields/derived-fields.md#summarize)) 及 [函數範本](/help/data-views/derived-fields/derived-fields.md#function-templates)的文件。 |
 | **2024 年 5 月** | |

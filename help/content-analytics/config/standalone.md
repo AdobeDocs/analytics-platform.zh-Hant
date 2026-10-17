@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 10%
@@ -242,7 +242,7 @@ Customer Journey Analytics不支援屬性式存取控制。 若要指定許可�
   * 稽核記錄存取權
   * 與任何人分享專案連結
   * 預測
-  * AI 助理：產品知識
+  * AI助理：產品知識<!-- FOLLOW-UP (waiting on PM): These two permissions haven't been updated in the product yet. Update when the PM confirms the Coworker permission name. -->
   * Data Insights 代理
   * 智慧型註解
 

@@ -37,7 +37,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 88%
@@ -89,9 +89,9 @@ Customer Journey Analytics 中的 Analysis Workspace 專案是以資料檢視為
 
 * 對於維度，您可以&#x200B;在特定欄位&#x200B;中自動包含或排除特定值。 例如，如果開發人員將錯誤的 `dev mistake` 值傳送到欄位中，您可以使用排除規則輕鬆地將其從報告中排除。 該維度的行為就像資料中從未存在過錯誤值一樣。
 
-* 您可以在資料檢視中重新命名容器，並使這些容器在任何以此資料檢視為基礎的 Workspace 專案中顯示。
+* 您可以在資料檢視中重新命名容器，並使這些容器在任何以此資料檢視為基礎的工作區專案中顯示。
 
-* 您可以為資料檢視啟用或停用Data Insights Agent。
+* 您可以為資料檢視啟用或停用Data Insights Agent。<!-- FOLLOW-UP: Data Insights Agent has been replaced by Coworker, but this setting is still in the UI. Confirm with the SME. -->
 
 ## 資料檢視先決條件 {#prerequisites}
 

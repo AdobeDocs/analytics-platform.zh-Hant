@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '3372'
+source-wordcount: '3367'
 ht-degree: 93%
 ---
 # 從 Adobe Analytics 升級至 Customer Journey Analytics
@@ -187,7 +187,7 @@ ht-degree: 93%
 
    使用衍生欄位中的[行銷管道功能範本](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"}，可以快速建立行銷管道的衍生欄位。
 
-1. [將舊實作中的Adobe Analytics資料與新實作中的Customer Journey Analytics資料進行比較](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja)，確定您瞭解差異及差異存在的原因。
+1. [將舊實作中的Adobe Analytics資料與新實作中的Customer Journey Analytics資料進行比較](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aa-cja)，確定您瞭解差異及差異存在的原因。
 
 1. 使用 Analytics 來源連接器從 Adob&#x200B;&#x200B;e Analytics 提取歷史資料：
 

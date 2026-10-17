@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3165'
 ht-degree: 77%
 ---
 # 建立或編輯資料視圖
@@ -117,9 +117,20 @@ ht-degree: 77%
 {style="table-layout:auto"}
 
 
-### AI 設定
+### AI 設定 {#ai-settings}
 
-選取&#x200B;**[!UICONTROL 啟用Data Insights Agent]**&#x200B;以啟用[Data Insights Agent](/help/data-analysis-ai.md)的資料檢視。 Data Insights Agent是產生式AI交談代理程式，可從Customer Journey Analytics的AI助理存取。 它能協助您透過文字提示快速分析資料。 代理程式會使用您資料檢視中的元件，並使用您的實際資料，在Analysis Workspace中建置相關的視覺效果。
+<!-- FOLLOW-UP: The Enable for Data Insights Agent setting is still in the UI, but Data Insights Agent has been replaced by Coworker. Confirm with the SME what this setting does now and whether it will be renamed or removed. This contextual help block was moved here from the retired data-analysis-ai.md page; confirm that the in-product help still resolves. -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-enable-data-insights-data-view"
+>title="啟用供 Data Insights 代理使用"
+>abstract="此選項會啟用此資料釋圖，用於和 Data Insights 代理搭配使用。 Data Insights Agent是一款創作AI交談代理程式，可協助您透過文字提示快速分析資料。 此代理會使用來自資料釋圖的元件以及您的實際資料，在 Analysis Workspace 建置相關的視覺內容。"
+
+<!-- markdownlint-enable MD034 -->
+
+選取&#x200B;**[!UICONTROL 啟用Data Insights Agent]**&#x200B;以啟用Data Insights Agent的資料檢視。 Data Insights Agent是創新型人工智慧交談代理程式，可協助您透過文字提示快速分析資料。 代理程式會使用您資料檢視中的元件，並使用您的實際資料，在Analysis Workspace中建置相關的視覺效果。
 
 
 ### 行事曆

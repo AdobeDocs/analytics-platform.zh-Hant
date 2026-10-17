@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 8b1f9d95fb38c0fcb1a7f3d9b41bf3cfb9355ed9
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1945'
 ht-degree: 0%
 ---
 # 使用同事的產品內體驗
@@ -42,13 +42,15 @@ ht-degree: 0%
 
   如果您無法存取Workspace中的同事，請聯絡您的管理員。 如需詳細資訊，請參閱[IMS組織偏好設定](/help/analysis-workspace/user-preferences.md#ims-organization-preferences)。<!-- need to update this section with the new toggle -->
 
-<!-- **[PLACEHOLDER: Permissions and product profile requirements. Include the Admin Console steps to grant access, if applicable.]** -->
+<!-- FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME. -->
+
+* **許可權**：在[!UICONTROL Adobe Admin Console]中，[!UICONTROL 報告工具] **[!UICONTROL 同事]**&#x200B;許可權會決定同事的存取權。 [產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)必須將此許可權新增至您的產品設定檔。 如需詳細資訊，請參閱[存取控制](/help/technotes/access-control.md#access-control)。
 
 * **資料檢視存取**：同事使用您現有的Analysis Workspace和資料檢視許可權。 無法存取您尚未存取的資料或元件。
 
 ### 在Workspace中的同事與同事應用程式之間選擇
 
-同事的產品內體驗具有許多與[CX Enterprise Coworker應用程式](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/analytics-chat)相同的功能，包括您可以存取的技能。 不過，在決定您何時可以使用其中一個變數時，有一些重要的差異：
+同事的產品內體驗具有許多與[CX Enterprise Coworker應用程式](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)相同的功能，包括您可以存取的技能。 不過，在決定您何時可以使用其中一個變數時，有一些重要的差異：
 
 | | 同事的產品內體驗 | 同事應用程式 |
 | --- | --- | --- |
@@ -112,7 +114,7 @@ ht-degree: 0%
 
 1. 在Customer Journey Analytics中，開啟現有的Workspace專案或建立新專案。
 
-1. **[預留位置：如何開啟「同事」面板，例如圖示名稱和位置。 新增熒幕擷圖。]**
+1. 選取標題右上角的&#x200B;**同事**&#x200B;圖示![詢問同事](/help/assets/icons/coworker.svg)以開啟同事聊天面板。
 
 1. 在聊天面板中，說明您希望同事做什麼。
 
@@ -147,7 +149,7 @@ ht-degree: 0%
 
 1. 在Customer Journey Analytics中，開啟現有的Workspace專案或建立新專案。
 
-1. **[預留位置：如何開啟「同事」面板，例如圖示名稱和位置。 新增熒幕擷圖。]**
+1. 選取標題右上角的&#x200B;**同事**&#x200B;圖示![詢問同事](/help/assets/icons/coworker.svg)以開啟同事聊天面板。
 
 1. 在聊天面板中，說明您希望同事做什麼。
 
