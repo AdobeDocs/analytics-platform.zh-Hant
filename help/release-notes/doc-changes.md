@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 0932da0728fd386c366b3c9b3cec45115f4e7e4b
 workflow-type: tm+mt
-source-wordcount: '7309'
-ht-degree: 95%
+source-wordcount: '7341'
+ht-degree: 94%
 ---
 
 # Customer Journey Analytics - 文件更新
@@ -70,6 +70,7 @@ ht-degree: 95%
 | 功能 | 說明 |
 |---|---|
 | **2026年10月** | |
+| 表格欄的鍵盤導覽 | 記錄如何使用鍵盤，在Analysis Workspace中[調整大小](/help/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns)和[重新排列](/help/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)資料表資料行，包括熒幕助讀程式意見反應。 也將[資料表資料行動作](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions)區段新增至快速鍵。 |
 | AI助理和Data Insights Agent已由同事取代 | 已移除AI助理和Data Insights Agent文章。 Adobe CX Enterprise Coworker同時取代這兩項功能。 如需詳細資訊，請參閱[使用同事聊天分析資料](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)。 也更新了[Customer Journey Analytics功能支援](/help/getting-started/aa-vs-cja/cja-aa.md#cja-not-aa)以反映此變更。 |
 | Content Analytics付費媒體頻道 | 使用付費媒體來源聯結器（例如Google Ads或Meta Ads），以及設定和啟用Content Analytics付費媒體頻道，所導致的資料集和資料檢視元件的自動設定，詳細[相關檔案](/help/content-analytics/config/paid-media.md)。 |
 | 交談見解 | [檔案](/help/conversation-insights/overview.md)，用於交談深入分析。 |

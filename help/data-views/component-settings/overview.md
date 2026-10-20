@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Experimentation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 6283ecbeab12a19fd5b7229dff772afaaedf3296
 workflow-type: tm+mt
-source-wordcount: '4127'
+source-wordcount: '4133'
 ht-degree: 48%
 ---
 # 元件設定 {#component-settings}
@@ -51,7 +51,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="dataview_component_settings"
 >title="元件設定"
->abstract="檢視及設定名稱、說明和與元件相關的其他設定。 勾選此方框，即可在報告中對非管理員使用者隱藏此元件。 管理員仍可以選取 Workspace 專案中的「**[!UICONTROL 顯示所有元件]**」存取該元件。"
+>abstract="檢視及設定名稱、說明和與元件相關的其他設定。 核取此方塊可在Analysis Workspace介面中隱藏此元件，不讓非管理員使用者看到。 管理員仍可以選取 Workspace 專案中的「**[!UICONTROL 顯示所有元件]**」存取該元件。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -83,7 +83,7 @@ ht-degree: 48%
 | [!UICONTROL 元件 ID] | 必填。 [Customer Journey Analytics API](https://www.adobe.io/cja-apis/docs) 會使用此欄位來參照元件。 資料釋圖中的每個元件都必須是唯一的。 Adobe 會自動為每個元件產生一個 ID；但是，您可以按一下編輯圖示並修改元件 ID。 變更元件 ID 會中斷包含此元件的所有現有 Workspace 專案。 雖然每個元件在單個資料檢視中都需要一個唯一 ID，但您可以在其他資料檢視中使用相同的元件 ID。 如果您在其他資料視圖中使用相同的元件 ID，您可以使 Workspace 專案跨資料視圖相容。 <br/>對於以輪廓和查詢為基礎的元件，元件 ID 具有以資料集 ID 為依據的 ID 首碼 (例如：`642b28fcc1f0ee1c074265a0.person.name.firstName`)。 您想要在 Workspace 專案中重複使用以輪廓或查詢為基礎的元件 (例如 `person.name.firstName`)，並在不同的資料視圖中設定該元件時，請確保在資料視圖中以不重複的方式重新命名元件 ID (例如：`myUniqueID.person.name.firstName`)。 |
 | [!UICONTROL 路徑] | 必填。 不可編輯的欄位，顯示元件來自的結構描述路徑。 |
 | [!UICONTROL 資料使用情況標籤] | 在Adobe Experience Platform中指派給此元件的任何資料使用標籤。 [了解更多](/help/data-views/data-governance.md)。 |
-| [!UICONTROL 隱藏報告中的元件] | 可讓您從非管理員的資料檢視中組織出元件。 管理員仍可以按一下 Analysis Workspace 專案中的「[!UICONTROL 顯示所有元件]」來存取它。 |
+| [!UICONTROL 隱藏報告中的元件] | 防止非管理員存取Analysis Workspace中的元件。 管理員仍可以按一下「[!UICONTROL 顯示所有元件]」來存取它。 此設定僅適用於Analysis Workspace介面，不會限制透過[CJA API](https://developer.adobe.com/cja-apis/docs/)的存取。 |
 
 {style="table-layout:auto"}
 
@@ -106,9 +106,9 @@ ht-degree: 48%
 
 為方便起見，智慧型預設內容標籤會根據具有特定XDM路徑的欄位，自動套用至元件。 例如，**[!UICONTROL Commerce：產品類別]**&#x200B;內容標籤會自動套用至以`productListItems.productCategories.categoryName`結構描述路徑為基礎的&#x200B;**[!UICONTROL 類別名稱]**&#x200B;維度。 不過，您可以將內容標籤移至不同元件而不會出現任何問題。
 
-為了簡化Adobe提供的專案範本，Journey Optimizer、Content Analytics等多項整合可設定資料檢視，其中開箱即用的元件以特定方式建構。 並且會自動套用適當的內容標籤。 同樣地，您可以將這些內容標籤中的任何標籤移至在資料檢視中建立的其他元件，並改為使用您的自訂元件。
+為了簡化Adobe提供的專案範本，數個整合（如Journey Optimizer、Content Analytics等）可設定資料檢視並將內容標籤新增至預先建立的元件。 您可以將其中任何一個內容標籤移至在資料檢視中建立的其他元件，並改用您的自訂元件。
 
-內容標籤也與專案範本的公開相關。 專案範本可快速實現數個不同專門建置使用案例的報告基礎。 不過，並非每個範本對每個資料檢視都有意義，而且您也不想顯示不適用的範本。 上下文標籤是根據所選資料檢視中是否包含上下文標籤來顯示範本。  只要將更多內容標籤新增到資料檢視（元件），就能使用更多範本。 或移除內容標籤以隱藏特定範本。
+內容標籤也與專案範本的公開相關。 專案範本可快速實現數個不同專門建置使用案例的報告基礎。 不過，並非每個範本都適用於每個資料檢視，而且您也不想顯示不適用的範本。 上下文標籤是根據所選資料檢視中是否包含上下文標籤來顯示範本。  您可以在資料檢視（元件）中新增更多內容標籤，而更多範本將可供使用。 或者，您可以移除前後關聯標籤以隱藏特定範本。
 
 >[!NOTE]
 >
@@ -127,11 +127,11 @@ ht-degree: 48%
 
 在下列情況下可能需要內容標籤：
 
-* 若要定義一組元件，您可以使用Analysis Workspace專案中的[Experimentation面板](/help/analysis-workspace/c-panels/experimentation.md)在實驗報表中使用。
+* 若要定義一組元件，您可以在Analysis Workspace專案中使用[Experimentation面板](/help/analysis-workspace/c-panels/experimentation.md)在Experimentation報表中使用。
 
   如需詳細資訊，請參閱[與 Journey Optimizer 整合](/help/integrations/ajo.md#data-view)和 [Target 報告](/help/integrations/at.md)。
 
-* 若要定義一組元件，您可以在Analysis Workspace專案的[地圖](/help/analysis-workspace/visualizations/map.md)視覺效果中使用。
+* 若要定義一組可在Analysis Workspace專案的[地圖](/help/analysis-workspace/visualizations/map.md)視覺效果中使用的元件。
 
   如需詳細資訊，請參閱[地圖](/help/analysis-workspace/visualizations/map.md)中的[在資料檢視中新增內容標籤](/help/analysis-workspace/visualizations/map.md#add-context-labels-in-data-views)。
 
