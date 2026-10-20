@@ -2114,8 +2114,8 @@ Customer Journey Analytics 使用 Perl 規則運算式語法的子集。 支援�
 
 | [!DNL Page URL] |
 |----|
-| `https://www.adobe.com/?cid=abc123` |
-| `https://www.adobe.com/?em=email1234&cid=def123` |
+| `https://www.adobe.com/tw/?cid=abc123` |
+| `https://www.adobe.com/tw/?em=email1234&cid=def123` |
 | `https://www.adobe.com/landingpage?querystring1=test&test2=1234&cid=xyz123` |
 
 {style="table-layout:auto"}
