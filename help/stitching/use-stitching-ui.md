@@ -24,9 +24,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 49795b40eab1fcd1bfd472ccb756587adf9877b8
+source-git-commit: 5f5e011198decd41ced888904b643d817959dab3
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1971'
 ht-degree: 18%
 ---
 # 啟用拼接
@@ -252,8 +252,6 @@ ht-degree: 18%
 * 數小時後（少於14小時），即時資料最初會顯示在Customer Journey Analytics中。 新的即時資料會在數小時內提供。 即時資料從符合彙整啟用完成時實際時間的事件時間戳記值開始。
 
   若要確保即時資料開始流入，請啟用資料集的&#x200B;**[!UICONTROL 匯入所有新資料]**&#x200B;選項。
-
-  擷取到Experience Platform來源事件資料集的新資料會在四小時內出現在Customer Journey Analytics中。
 
 * 回填資料（如果最初要求）大約與即時資料同時出現在Customer Journey Analytics中，但視所涉及的磁碟區而定，可能需要幾天的時間才能完全處理。 回填的資料會從最早的事件時間戳記值開始。
 

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: a02b8d1d6bae6ed8269668d49ed9559688001833
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 16%
+source-wordcount: '1185'
+ht-degree: 12%
 ---
 # 建立或編輯組態
 
@@ -64,7 +64,7 @@ ht-degree: 16%
    | 欄位 | 說明 |
    |---------|----------|
    | **[!UICONTROL 名稱]** | 指定組態的名稱。 |
-   | **[!UICONTROL 沙箱]** | 選取Experience Platform沙箱，其中包含您要新增至連線的提示、回應和意見反應事件資料集。 |
+   | **[!UICONTROL 沙箱]** | 選取Experience Platform沙箱，其中包含您要新增至連線的提示、回應和意見反應事件資料集。 如果所選的沙箱沒有相容的資料集可用，系統會通知您。 |
 
 1. 在&#x200B;**[!UICONTROL 資料集]**&#x200B;區段中，指定下列資訊：
 
@@ -75,6 +75,13 @@ ht-degree: 16%
    | **[!UICONTROL 提示事件資料集]** | 選取包含提示事件資料的資料集。 |
    | **[!UICONTROL 回應事件資料集]** | 選取包含回應事件資料的資料集。 |
    | **[!UICONTROL 意見反應事件資料集]** | 選取包含意見事件資料的資料集。 |
+
+   當資料集同時包含提示和回應時，請為&#x200B;**[!UICONTROL 提示事件資料集]**&#x200B;和&#x200B;**[!UICONTROL 回應事件資料集]**&#x200B;選取相同的資料集。
+
+   [指定混合式交談](#blend-specification)到&#x200B;**[!UICONTROL 設定混合式規格]**&#x200B;的選項只能使用一次：
+   * 此設定已完成。
+   * 所有資料集皆可使用。
+   * 您有Customer Journey Analytics [編輯連線的許可權](/help/technotes/access-control.md)。
 
 1. 在&#x200B;**[!UICONTROL 連線]**&#x200B;區段中，如果尚未設定連線，請使用&#x200B;**[!UICONTROL 選取連線]**&#x200B;來選取連線。
 
@@ -123,10 +130,52 @@ ht-degree: 16%
 
    * 選取&#x200B;**[!UICONTROL 結束]**&#x200B;以忽略組態的任何變更。
 
+## 混合規格
+
+
+>[!CONTEXTUALHELP]
+>id="conversationinsights_blend_specification"
+>title="設定混合規格"
+>abstract="完成此「交談見解」設定後，您才能編輯混合規格、所有資料集皆可使用，且您擁有Customer Journey Analytics編輯連線的許可權。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control" text="存取控制"
+
+
+>[!CONTEXTUALHELP]
+>id="conversationinsights_dataset_winner"
+>title="勝出資料集"
+>abstract="選取資料集，以確定混合交談資料集中對應命名欄位或欄位（如果容器）的值。"
+
+建立組態之後，您就可以設定[如何混合來自提示、回應、回饋和訊號資料集的交談](/help/conversation-insights/overview.md#how-it-works)。
+
+此規格可讓您選取決定混合交談資料集中對應命名欄位（如果容器）之值的資料集。
+
+例如：如果您想要從意見資料集中的類似命名欄位定義混合式交談資料集中的&#x200B;**[!UICONTROL 產生者]**&#x200B;欄位名稱，您可從該欄位的&#x200B;**[!UICONTROL 資料集獲勝者]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 意見資料集]**。
+
+若要指定混合式交談：
+
+1. 選取&#x200B;**[!UICONTROL 設定混合規格]**。
+
+1. 在&#x200B;**[!UICONTROL Blend規格]**&#x200B;對話方塊中，針對每個&#x200B;**[!UICONTROL 欄位名稱]**，檢閱建議的&#x200B;**[!UICONTROL 資料集獲勝者]**，並選擇性地選取不同的資料集。
+
+   * 針對每個啟用的欄位，選擇性地選取其他&#x200B;**[!UICONTROL 資料集獲勝者]**。 您可以在&#x200B;**[!UICONTROL 提示資料集]**、**[!UICONTROL 回應資料集]**&#x200B;和&#x200B;**[!UICONTROL 意見資料集]**&#x200B;之間選取。
+   * 針對每個容器欄位，選擇性地選取其他&#x200B;**[!UICONTROL 資料集獲勝者]**&#x200B;以更新屬於該容器的所有欄位。 您可以在&#x200B;**[!UICONTROL 提示資料集]**、**[!UICONTROL 回應資料集]**&#x200B;和&#x200B;**[!UICONTROL 意見資料集]**&#x200B;之間選取。
+   * 您無法針對對話資料集之間共用的欄位（提示、回應、回饋和訊號）選取&#x200B;**[!UICONTROL 資料集獲勝者]**。 這些欄位是以下欄位群組的一部分：
+
+     | 欄位名稱 | 欄位群組 | 勝出資料集 |
+     |---|---|---|
+     | **[!UICONTROL 提示]** | `conversation.prompt.*` | **[!UICONTROL 提示資料集]** |
+     | **[!UICONTROL 回應]** | `conversation.response.*` | **[!UICONTROL 回應資料集]** |
+     | **[!UICONTROL 意見反應]** | `conversation.feedback.*` | **[!UICONTROL 意見資料集]** |
+     | **[!UICONTROL agentExperience]** | `agentExperience.*` | **[!UICONTROL 回應資料集]** |
+     | **[!UICONTROL 訊號]** | `conversation.signals.*` | **[!UICONTROL 訊號資料集]** |
+
+   * 特定身分欄位沒有可用的&#x200B;**[!UICONTROL 資料集贏家]**&#x200B;選擇，例如&#x200B;**[!UICONTROL 交談ID]**&#x200B;或&#x200B;**[!UICONTROL 翻轉ID]**。
+
+1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存規格。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消規格。
 
 ## 資料檢視驗證
 
-您在[設定步驟](#configuration-steps)中設定的資料檢視，在[資料檢視](/help/data-views/manage-dataviews.md)中具有&#x200B;**[!UICONTROL 交談深入分析]**&#x200B;作為&#x200B;**[!UICONTROL 整合]**&#x200B;的值。
+您在[設定步驟](#configuration-steps)中設定的資料檢視具有&#x200B;**[!UICONTROL 交談深入分析]**，作為[資料檢視](/help/data-views/manage-dataviews.md)中&#x200B;**[!UICONTROL 整合]**&#x200B;的值。
 
 對於每個已設定的資料檢視：
 
