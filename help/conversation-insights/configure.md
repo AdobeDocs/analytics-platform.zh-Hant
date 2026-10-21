@@ -137,7 +137,7 @@ ht-degree: 12%
 >id="conversationinsights_blend_specification"
 >title="設定混合規格"
 >abstract="完成此「交談見解」設定後，您才能編輯混合規格、所有資料集皆可使用，且您擁有Customer Journey Analytics編輯連線的許可權。"
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control" text="存取控制"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control" text="存取控制"
 
 
 >[!CONTEXTUALHELP]
