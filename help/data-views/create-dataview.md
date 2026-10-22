@@ -44,7 +44,7 @@ topic_v2:
 source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '3165'
-ht-degree: 77%
+ht-degree: 78%
 ---
 # 建立或編輯資料視圖
 
@@ -126,7 +126,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="cja-enable-data-insights-data-view"
 >title="啟用供 Data Insights 代理使用"
->abstract="此選項會啟用此資料釋圖，用於和 Data Insights 代理搭配使用。 Data Insights Agent是一款創作AI交談代理程式，可協助您透過文字提示快速分析資料。 此代理會使用來自資料釋圖的元件以及您的實際資料，在 Analysis Workspace 建置相關的視覺內容。"
+>abstract="此選項會啟用此資料釋圖，用於和 Data Insights 代理搭配使用。 Data Insights 代理是一款生成式 AI 對話代理，可協助您透過文字提示快速分析資料。 此代理會使用來自您資料檢視的元件以及您的實際資料，在 Analysis Workspace 中建立相關的視覺化圖表。"
 
 <!-- markdownlint-enable MD034 -->
 

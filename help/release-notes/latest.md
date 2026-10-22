@@ -49,14 +49,14 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 952a54cc63b5d725c40c8f99cb1821e8b8e9f362
+source-git-commit: fbfd8f635d4a861d3d52dc2448ff8ae5d5f5b149
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1047'
 ht-degree: 22%
 ---
 # 目前的Customer Journey Analytics發行說明（2026年10月）
 
-**上次更新日期**：2026年10月20日
+**上次更新日期**：2026年10月22日
 
 以下發行說明涵蓋2026年10月發行期間。 Adobe Customer Journey Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以擴充性更高且可分階段進行的方式進行功能部署。 因此，這些發行說明每月會更新好幾次。 請定期進行檢查。
 
@@ -69,7 +69,7 @@ ht-degree: 22%
 | **Adobe Brand Visibility整合**<br/>&#x200B;將Adobe Brand Visibility與您組織的Customer Journey Analytics資料連結，以便測量AI驅動的探索如何轉化為實際的網站參與度和業務成果。<p>如需詳細資訊，請參閱[Adobe Brand Visibility整合](/help/integrations/bv/bv.md)。</p> | | 2026年10月8日 |
 | **歷程畫布：比較百分比**<br/>&#x200B;將歷程與先前時段進行比較時，您現在可以啟用新的[!UICONTROL 比較百分比]選項，以顯示每個節點、箭頭和流失的百分比變化。 在比較率（例如節點之間的保留率或流失率）時，這項功能相當實用，因為即使歷程中的人數在日期範圍之間不同，比較仍會保持準確。<p>如需詳細資訊，請參閱[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)中的「比較百分比」。</p> | | 2026年10月19日 |
 | **自動產生元件說明** <br/>您現在可以自動產生維度、量度、計算量度、區段和日期範圍的說明。 這可讓Workspace使用者瞭解要使用哪些元件，尤其是在擁有大型元件庫的組織中。 <p>您可以產生單一元件的說明，或同時產生許多元件的說明。</p> <p>(文件連結待補充。)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日 |
-| **同事的產品內體驗**<br/>&#x200B;同事現在可在Analysis Workspace的聊天面板中使用。 同事使用您開啟的專案作為前後關聯，因此您可以詢問有關分析的問題，而不需要說明專案包含的內容。<p>使用同事的產品內體驗，您可以：</p><ul><li>彙總開啟的專案、尋找深入分析以及執行根本原因分析。</li><li>使用自然語言提示建置和編輯專案。 例如，您可以新增面板和表格、劃分資料、變更視覺效果型別和日期範圍，以及建立區段。</li></ul><p>（後續檔案更新。）<!-- For more information, see [Use the in-product experience for Coworker](/help/analysis-workspace/coworker.md). --></p> | 2026年10月22日（原計畫於2026年10月15日） | 待定 |
+| **同事的產品內體驗**<br/>&#x200B;同事現在可在Analysis Workspace的聊天面板中使用。 同事使用您開啟的專案作為前後關聯，因此您可以詢問有關分析的問題，而不需要說明專案包含的內容。<p>使用同事的產品內體驗，您可以：</p><ul><li>彙總開啟的專案、尋找深入分析以及執行根本原因分析。</li><li>使用自然語言提示建置和編輯專案。 例如，您可以新增面板和表格、劃分資料、變更視覺效果型別和日期範圍，以及建立區段。</li></ul><p>（後續檔案更新。）<!-- For more information, see [Use the in-product experience for Coworker](/help/analysis-workspace/coworker.md). --></p> | 待定（原計畫於2026年10月15日） | 待定 |
 
 
 ### Customer Journey Analytics 中的修正

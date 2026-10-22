@@ -7,19 +7,19 @@ hide: true
 source-git-commit: 65d4115d4c292cff7e074d37a91563d369072ba5
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 5%
+ht-degree: 20%
 ---
 # 趨勢主題
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_button"
 >title="趨勢主題"
->abstract="建立視覺效果，顯示趨勢主題的階層式向下展開功能劃分，以及發生次數和百分比，以協助您識別對話中的重要主題。"
+>abstract="建立視覺化圖表來顯示趨勢主題的階層式深入研究劃分，包括發生次數和百分比，以協助您識別對話中的重要主題。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_panel"
 >title="趨勢主題"
->abstract="根據選取的排名量度分析趨勢主題。 選取主題以向下鑽研至最多5個層級。 搜尋特定主題，並將主題與其他日期範圍比較。"
+>abstract="根據選定的排名量度來分析趨勢主題。 選取主題以深入研究至最多 5 層。 搜尋特定主題，並將主題與其他日期範圍進行比較。"
 
 ![摘要](/help/assets/icons/Feed.svg) **[!UICONTROL 趨勢主題]**&#x200B;視覺效果可讓您探索和分析趨勢主題，作為交談深入分析的一部分。
 
