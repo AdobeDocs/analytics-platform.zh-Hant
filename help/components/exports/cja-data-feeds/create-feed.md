@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 39d7aae2c47754899a2ac7d1a544a0b585d99b8b
+source-git-commit: bccb25182630e18943a52ceca621cdfd6696b819
 workflow-type: tm+mt
-source-wordcount: '4362'
-ht-degree: 15%
+source-wordcount: '4243'
+ht-degree: 16%
 ---
 # 建立資料摘要
 
@@ -71,24 +71,6 @@ ht-degree: 15%
 >id="cja_datafeed_frequency_granularity"
 >title="頻率與顆粒度"
 >abstract="**傳遞頻率** (即時摘要)：資料摘要的傳遞頻率。 每小時傳遞包含一個小時的資料；每日傳遞包含一天的資料。 回顧日期範圍和處理延遲也可能影響納入的事件。<p>**顆粒度** (回填摘要)：用以劃分歷史資料的時間間隔。 每個區塊都包含一天的資料，並會儘快傳遞，而非每天傳遞一次。 此欄位固定設為「每日」，且無法修改。</p>"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-df-export-file-name"
->title="路徑或檔案名稱"
->abstract="指定路徑或檔案名稱（或兩者），以決定檔案在所選位置內的傳送位置。 若要將檔案儲存至位置的最上層資料夾，請指定`/`。<br/>對於即時摘要，您可以使用變數來動態設定路徑或檔案名稱。 <br/>例如，若您指定`${yyyy}/${MM}/${dd}/my-feed-${instance_id}-${idx}`，2027年1月15日傳送的即時摘要將具有下列檔案路徑和名稱： `[prefix_folder_name]/2027/01/15/my-feed-[UUID]-1.parquet` <br/>選取下列連結以取得可用變數清單。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-df-export-file-name-override"
->title="覆寫預設路徑或檔案名稱"
->abstract="啟用此選項以覆寫為此位置設定的預設路徑或檔案名稱。 覆寫僅適用於此資料摘要，並決定資料摘要檔案的傳送位置。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -145,7 +127,7 @@ ht-degree: 15%
 
    新增欄位時，請考量下列事項：
 
-   * 某些元件為必要、不支援的元件，或資料摘要中有限制。 如需詳細資訊，請參閱資料摘要[&#128279;](/help/components/exports/cja-data-feeds/df-components.md)中的元件可用性。
+   * 某些元件為必要、不支援的元件，或資料摘要中有限制。 如需詳細資訊，請參閱資料摘要](/help/components/exports/cja-data-feeds/df-components.md)中的[元件可用性。
 
    * 當您新增屬於XDM陣列欄位（例如，Adobe Journey Optimizer主張欄位）或對應欄位的元件時，對話方塊會提示您從相同子事件新增任何其他元件。 在資料摘要輸出中，所有這些元件都會顯示在單一欄中。 如需詳細資訊，請參閱資料摘要中的[子事件元件](/help/components/exports/cja-data-feeds/df-sub-event.md)
 
@@ -306,7 +288,7 @@ ht-degree: 15%
 
 * 使用者在回顧日期範圍&#x200B;**內的某個時間符合原始行銷活動**&#x200B;的資格。
 
-  如果使用者在9天前符合原始促銷活動的資格，則回顧日期範圍設為30天時，資料摘要會包含&#x200B;**原始促銷活動，但是如果回顧日期範圍設為7天，則資料摘要不會包含**&#x200B;原始促銷活動。**&#x200B;**
+  如果使用者在9天前符合原始促銷活動的資格，則回顧日期範圍設為30天時，資料摘要會包含&#x200B;**原始促銷活動，但是如果回顧日期範圍設為7天，則資料摘要不會包含**&#x200B;原始促銷活動。****
 
 >[!ENDSHADEBOX]
 
