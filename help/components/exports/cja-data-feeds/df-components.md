@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: adc7e85339e89c181375c0d3ea5c228d473239a7
+source-git-commit: 5006a5e7f48fb107cc32cf56051062cc88f35c8e
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 43%
+source-wordcount: '1548'
+ht-degree: 40%
 ---
 # 資料摘要中的元件可用性
 
@@ -98,8 +98,6 @@ Customer Journey Analytics標準維度不得包含在資料摘要中。 下表�
 
 <!-- markdownlint-disable MD034 -->
 
-<!-- pretty sure this isn't being used -->
-
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user_agent"
 >title=""
@@ -107,20 +105,37 @@ Customer Journey Analytics標準維度不得包含在資料摘要中。 下表�
 
 <!-- markdownlint-enable MD034 -->
 
->[!IMPORTANT]
->
->某些維度無法在Experience Platform資料集中一起使用，因此無法包含在相同的資料摘要中。
->
->如果您選擇在您的資料摘要中加入&#x200B;**使用者代理**&#x200B;或&#x200B;**行動識別碼**&#x200B;維度，則下列維度無法新增至資料摘要。
+某些維度無法在Experience Platform資料集中搭配使用。 資料摘要可以包含下列其中一個群組的維度，但不能同時包含這兩個群組的維度：
+
+* **使用者代理程式**&#x200B;和&#x200B;**行動識別碼**&#x200B;維度。<!--UI shows "Type identifier" for device.typeID; align with docs name "Mobile ID" (open question for Danny Carmen).-->
+
+* 裝置查詢維度，例如瀏覽器、行動裝置和作業系統維度。 如需完整清單，請參閱[裝置查詢維度](#device-lookup-dimensions)。
+
+>[!NOTE]
 >
 >如果您使用Web SDK，此限制會在資料到達Experience Platform資料集之前在資料串流中強制執行。 如需詳細資訊，請參閱資料收集指南中[建立及設定資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure)中的[設定裝置查詢](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#geolocation-device-lookup)。
 
-下列維度無法與&#x200B;**使用者代理程式**&#x200B;或&#x200B;**行動識別碼**&#x200B;維度搭配使用：
+### 解決維度衝突
+
+當您新增無法搭配使用的維度時，會出現一個對話方塊，列出將新增以及不會新增或移除的維度。 實際情形取決於衝突發生的地點：
+
+* **您新增的維度與資料摘要中已有的維度發生衝突**：您新增的維度優先。 對話方塊會提示您新增選取專案，並從資料摘要中移除衝突的維度。
+
+* **您新增的維度彼此衝突**： **使用者代理程式**&#x200B;和&#x200B;**行動識別碼**&#x200B;維度優先。 對話方塊會提示您新增維度；選取範圍中的裝置查詢維度不會新增。
+
+若要保持資料摘要不變，請選取&#x200B;**[!UICONTROL 取消]**。
+
+<!--Open questions for Danny Carmen: behavior when a batch contains both groups and the feed already has conflicting dimensions; whether "add all" adds the full selection or only the listed dimensions.-->
+
+### 裝置查詢維度 {#device-lookup-dimensions}
+
+下列維度不能與&#x200B;**使用者代理**&#x200B;或&#x200B;**行動識別碼**&#x200B;維度包含在相同的資料摘要中。
 
 >[!NOTE]
 >
 >下列清單使用預設的維度名稱。 在資料檢視中重新命名的維度會以其自訂名稱顯示在資料摘要中。
 
+<!--Engineering lists 30 device lookup fields; this list has 28. Likely missing: environment.operatingSystemIDStr and environment.browserIDStr. Confirm display names with Danny Carmen.-->
 
 * 瀏覽器類型
 * 瀏覽器
