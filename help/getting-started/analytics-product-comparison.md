@@ -6,23 +6,28 @@ feature: Components
 hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: e686fca2c77a8f9739298ece01ccf0fa2fe87b3b
+    internal-label: Customer journeys
+source-git-commit: 34959e37a7040bcd861a506968895ad6f051b686
 workflow-type: tm+mt
-source-wordcount: 464
+source-wordcount: '464'
 ht-degree: 44%
-
 ---
-
 
 # Analytics產品比較
 
@@ -34,7 +39,7 @@ ht-degree: 44%
 | **資料顆粒度** | 彙總 | 彙總 | 彙總 | 事件 | 彙總 | 彙總 | 彙總 | 彙總 |
 | **可用 Experience Cloud ID (ECID)** | 否 | 否 | 無 | 是 | 無 | 否 | 否 | 否 |
 | **可用時間戳記** | 否 | 否 | 無 | 是 | 無 | 否 | 否 | 否 |
-| **處理層級** | 完整處理 | 完整處理，並提供個別的即時報表 | 完整處理 | 完整處理 | 完整處理 | 完整處理 | 完整處理 | 完整處理 |
+| **處理層級** | 完整處理 | 完整處理，並提供獨立的即時報表 | 完整處理 | 完整處理 | 完整處理 | 完整處理 | 完整處理 | 完整處理 |
 | **套用機器人篩選的位置** | 在[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/bot-detection)和/或[CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection)內 | 在[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/bot-detection)和/或[CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection)內 | 在[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/bot-detection)和/或[CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection)內 | 在[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/bot-detection)和/或[CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection)內 |  |  | 在[資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/bot-detection)和/或[CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection)內 | |
 | **可見列限制 (分頁前)** | 400 | 50,000 | 限制為 300 萬列、3,000 萬列、1.5 億列或 3 億列，視等級而定 | 相依於階層 | 50,000 | 50,000 | 50,000 | 50,000 |
 | **多個資料檢視** | 可以，一個專案可以包含來自多個資料檢視的資料 | 可以，一個專案可以包含來自多個資料檢視的資料 | 否，匯出只能包含來自一個資料檢視的資料 | 否，匯出只能包含來自一個資料檢視的資料 | 否，每個查詢只能參考一個資料檢視 | 否，每個查詢只能參考一個資料檢視 | 否，每個查詢只能參考一個資料檢視 | 是，如果使用者提示 |
