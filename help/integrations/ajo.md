@@ -70,7 +70,7 @@ Journey Optimizer 支援使用 Customer Journey Analytics 作為報告引擎。 
 | 資料集名稱 | 結構描述 | 資料集類型 | 資料來源類型 | 人員 ID | 金鑰 | 比對索引鍵 | 匯入新資料 | 回填資料 |
 |---|---|---|---|---|---|---|---|---|
 | [!UICONTROL AJO 實體資料集] | [!UICONTROL AJO 實體記錄結構描述] | [!UICONTROL 查詢] | [!UICONTROL 其他] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
-| [!UICONTROL 歷程步驟事件] | [!UICONTROL Journey Orchestration 的歷程步驟事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL &#x200B; IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
+| [!UICONTROL 歷程步驟事件] | [!UICONTROL Journey Orchestration 的歷程步驟事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL  IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
 | [!UICONTROL AJO 電子郵件追蹤體驗事件資料集] | [!UICONTROL AJO 電子郵件追蹤體驗事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
 | [!UICONTROL AJO 訊息意見反應事件資料集] | [!UICONTROL AJO 訊息意見反應事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
 | [!UICONTROL AJO 推播追蹤體驗事件資料集] | [!UICONTROL AJO 推播追蹤體驗事件結構描述] | [!UICONTROL 事件] | [!UICONTROL 其他] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![狀態綠色](assets/../../connections/assets/status-green.svg)開啟 | ![狀態灰色](assets/../../connections/assets/status-gray.svg)關閉 |
@@ -90,7 +90,7 @@ Journey Optimizer 支援使用 Customer Journey Analytics 作為報告引擎。 
 * **[!UICONTROL 滾動7天P95延遲Widget]**：將P95延遲顯示為單一值，包括上週的百分比變更。
 * **[!UICONTROL 滾動7天P95輸送量Widget]**：將P95輸送量顯示為單一值，包括上週的百分比變更。
 
-如需這些資料集和高輸送量異動訊息附加元件的詳細資訊，請參閱Adobe Journey Optimizer檔案中的[為API觸發的行銷活動啟用高輸送量模式](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)。
+如需這些資料集和高輸送量異動訊息附加元件的詳細資訊，請參閱Adobe Journey Optimizer檔案中的[為API觸發的行銷活動啟用高輸送量模式](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)。
 
 ### 資料視圖
 
