@@ -14,10 +14,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
+source-git-commit: a4ea9270d5bf27234fa229e8ba3df5998ecea0e1
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 ---
 # 資料摘要中的子事件元件
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ### XDM結構描述中的子事件元件
 
-在XDM結構描述中，陣列的每個元素（字串陣列或物件陣列）都是子事件。 對應欄位中的每個專案也是子事件，如資料摘要[&#128279;](#use-map-fields-in-data-feeds)中的對應欄位中所述。 根據子事件內欄位的維度和量度是子事件元件。
+在XDM結構描述中，陣列的每個元素（字串陣列或物件陣列）都是子事件。 對應欄位中的每個專案也是子事件，如資料摘要](#use-map-fields-in-data-feeds)中的[對應欄位中所述。 根據子事件內欄位的維度和量度是子事件元件。
 
 若要在Adobe Experience Platform中檢視XDM結構描述內的子事件，請選取&#x200B;[!UICONTROL **結構描述**]，然後展開包含子事件的事件。
 
@@ -110,7 +110,7 @@ Analysis Workspace和Customer Journey Analytics中的資料摘要之間，子事
 
 由於子事件資料[在Customer Journey Analytics資料摘要](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics)中的顯示方式不同，因此您用於它的查詢與您用於Adobe Analytics資料摘要的查詢不同。
 
-下列範例說明如何尋找包含特定產品的事件。 這些範例使用Google BigQuery語法。 其他資料倉儲（例如Snowflake和Databricks）支援相同方法，但語法略有差異。
+下列範例說明如何尋找包含特定產品的事件。 這些範例使用Google BigQuery語法，其中`UNNEST`將陣列展開為列。 其他資料倉儲支援與其陣列功能相同的方法，例如Snowflake中的`FLATTEN`或Databricks中的`explode`。
 
 +++ 在Customer Journey Analytics資料摘要中查詢產品資料
 
@@ -133,7 +133,7 @@ Analysis Workspace和Customer Journey Analytics中的資料摘要之間，子事
 
 **每個事件傳回一列**
 
-若要篩選事件而不變更列數，請在`EXISTS`子查詢內使用`UNNEST`：
+若要篩選事件而不變更列數，請在`EXISTS`子查詢內使用陣列函式，例如`UNNEST`：
 
 ```sql
 SELECT row_id, timestamp_utc, product_list_items
@@ -149,7 +149,7 @@ WHERE EXISTS (
 
 **每個相符產品傳回一列**
 
-若要傳回每個相符產品的一列，請將`UNNEST`移至外部`FROM`子句：
+若要傳回每個相符產品的一列，請將陣列函式移至外部`FROM`子句：
 
 ```sql
 SELECT f.row_id, f.timestamp_utc, item.product, item.quantity, item.revenue
@@ -220,7 +220,7 @@ WHERE REGEXP_CONTAINS(product_list, r'(^|,)[^;]*;Cordless Drill;')
 
 ### 身分對應
 
-[`identityMap`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/identitymap)欄位中的每個身分都會匯出為一個物件。 物件包含身分名稱空間（金鑰），以及識別碼、驗證狀態和主要旗標。 該名稱空間會針對該名稱空間中的每個身分重複執行。
+[`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap)欄位中的每個身分都會匯出為一個物件。 物件包含身分名稱空間（金鑰），以及識別碼、驗證狀態和主要旗標。 該名稱空間會針對該名稱空間中的每個身分重複執行。
 
 系統只會匯出資料檢視中作為維度存在的身分對應屬性，以及您新增至資料摘要的屬性。
 

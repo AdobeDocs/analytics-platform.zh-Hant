@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 21a2b0cc296d30de7f656a658d7e382c8c4ea835
+source-git-commit: ef2836930bd1fefb99115d4a73b9b0d4a178ccd3
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1211'
 ht-degree: 29%
 ---
 # 運算子
@@ -53,7 +53,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->當您使用標準運運算元時，您輸入的值會傳回結果，無論大小寫為何，除了&#x200B;**[!UICONTROL 符合]**&#x200B;和&#x200B;**[!UICONTROL 不符合]**。
+>當您使用標準運運算元時，除了&#x200B;**[!UICONTROL 符合]**&#x200B;和&#x200B;**[!UICONTROL 不符合]**&#x200B;之外，結果不區分大小寫。
 >
 >例如，**[!UICONTROL 頁面名稱]** **[!UICONTROL 等於]** `search results`傳回&#x200B;*搜尋結果*、*搜尋結果*&#x200B;和&#x200B;*搜尋結果*。
 
@@ -103,6 +103,6 @@ ht-degree: 29%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [不同的維度計數](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/calculated-metrics/approximate-count-distinct-function-in-calculated-metrics){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [不同的維度計數](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/approximate-count-distinct-function-in-calculated-metrics){target="_blank"}。
 
 >[!ENDSHADEBOX]
