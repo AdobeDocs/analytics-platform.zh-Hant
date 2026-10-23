@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 0932da0728fd386c366b3c9b3cec45115f4e7e4b
+source-git-commit: 6bc56f504e19548e7e1cf0a6b32df54c45240749
 workflow-type: tm+mt
-source-wordcount: '7341'
+source-wordcount: '7362'
 ht-degree: 94%
 ---
 
@@ -70,14 +70,15 @@ ht-degree: 94%
 | 功能 | 說明 |
 |---|---|
 | **2026年10月** | |
+| 區段運運算元區分大小寫 | 澄清了[標準運運算元](/help/components/segments/seg-operators.md#standard-operators)無論大小寫都傳回結果，除了&#x200B;**[!UICONTROL 符合]**&#x200B;和&#x200B;**[!UICONTROL 不符合]**&#x200B;外。 |
 | 表格欄的鍵盤導覽 | 記錄如何使用鍵盤，在Analysis Workspace中[調整大小](/help/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns)和[重新排列](/help/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)資料表資料行，包括熒幕助讀程式意見反應。 也將[資料表資料行動作](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions)區段新增至快速鍵。 |
 | AI助理和Data Insights Agent已由同事取代 | 已移除AI助理和Data Insights Agent文章。 Adobe CX Enterprise Coworker同時取代這兩項功能。 如需詳細資訊，請參閱[使用同事聊天分析資料](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)。 也更新了[Customer Journey Analytics功能支援](/help/getting-started/aa-vs-cja/cja-aa.md#cja-not-aa)以反映此變更。 |
 | Content Analytics付費媒體頻道 | 使用付費媒體來源聯結器（例如Google Ads或Meta Ads），以及設定和啟用Content Analytics付費媒體頻道，所導致的資料集和資料檢視元件的自動設定，詳細[相關檔案](/help/content-analytics/config/paid-media.md)。 |
-| 交談見解 | [檔案](/help/conversation-insights/overview.md)，用於交談深入分析。 |
+| 對話洞察 | [檔案](/help/conversation-insights/overview.md)，用於交談深入分析。 |
 | Brand Visibility | 已更新[品牌可見度傳入整合](/help/integrations/bv/bv.md#inbound-integration)的檔案，其中包含更多詳細資料。 |
 | **2026年9月** | |
 | 箭頭和流失的歷程畫布比較 | 更新[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)中的&#39;[!UICONTROL 與]&#39;比較設定，以顯示歷程中每個節點、箭頭和流失現在顯示的日期範圍之間的百分比變更。 |
-| 已整合的部落格 | 納入下列部落格：<ul><li>[在Adobe CJA中處理「無值」的完整教戰手冊](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=zh-Hant&lang=zh_tw#M598)</li><li>[Adobe Experience Platform與Customer Journey Analytics資料輸出使用案例深入探討](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?profile.language=zh-Hant&lang=zh_tw)</li></ul>在我們的[資料匯出](/help/use-cases/data-export/overview.md)使用案例和新的[無值](/help/use-cases/data-views/no-value.md)使用案例文章中。 |
+| 已整合的部落格 | 納入下列部落格：<ul><li>[在Adobe CJA中處理「無值」的完整教戰手冊](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?lang=zh_tw#M598)</li><li>[Adobe Experience Platform與Customer Journey Analytics資料輸出使用案例深入探討](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?lang=zh_tw)</li></ul>在我們的[資料匯出](/help/use-cases/data-export/overview.md)使用案例和新的[無值](/help/use-cases/data-views/no-value.md)使用案例文章中。 |
 | 新的調整大小捷徑動作 | Analysis Workspace中新的鍵盤快速鍵現在可讓您[調整面板或視覺效果](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization)的寬度、寬度、高度或寬度。 |
 | **2026年8月** | |
 | 澄清有關重新整理對象的資訊 | 當[發佈對象](/help/components/audiences/publish.md#audience-builder)時，澄清可排程重新整理的對象數量取決於您的Customer Journey Analytics權益，介於75到150之間。 |

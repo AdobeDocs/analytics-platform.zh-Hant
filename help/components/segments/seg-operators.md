@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 21a2b0cc296d30de7f656a658d7e382c8c4ea835
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 31%
+source-wordcount: '1216'
+ht-degree: 29%
 ---
 # 運算子
 
@@ -51,13 +51,19 @@ ht-degree: 31%
 
 ## 標準運算子
 
+>[!NOTE]
+>
+>當您使用標準運運算元時，您輸入的值會傳回結果，無論大小寫為何，除了&#x200B;**[!UICONTROL 符合]**&#x200B;和&#x200B;**[!UICONTROL 不符合]**。
+>
+>例如，**[!UICONTROL 頁面名稱]** **[!UICONTROL 等於]** `search results`傳回&#x200B;*搜尋結果*、*搜尋結果*&#x200B;和&#x200B;*搜尋結果*。
+
 | 運算元 | 選取的維度、區段或量度事件…… |
 |--- |--- |
 | **[!UICONTROL 等於]** | 傳回完全符合數值或字串值的項目。 注意：如果使用萬用字元，請使用&#x200B;**[!UICONTROL 符合]**&#x200B;運運算元。 |
 | **[!UICONTROL 不等於]** | 傳回所有不包含與輸入值完全相符內容的項目。  注意：如果使用萬用字元，則使用&#x200B;**[!UICONTROL 不符合]**&#x200B;運運算元。 |
 | **[!UICONTROL 等於任何]** | 傳回與輸入欄位中任何值完全相符的項目 (最多 500 個項目)。 例如，使用此運運算元輸入&#x200B;**[!UICONTROL 頁面名稱]**&#x200B;維度的`Search Results, Homepage`會符合&#x200B;*搜尋結果*&#x200B;和&#x200B;*首頁*，並計為2個專案。 此運算子的輸入欄位採用逗號分隔方式。 |
 | **[!UICONTROL 不等於任何]** | 識別與輸入欄位中任何值完全相符的項目 (最多 500 個項目)，然後只傳回不含這些值的項目。 例如，使用此運運算元輸入&#x200B;**[!UICONTROL 頁面名稱]**&#x200B;維度的`Search Results, Homepage`將會識別&#x200B;*搜尋結果*&#x200B;和&#x200B;*首頁*，然後從傳回的專案中&#x200B;**排除**&#x200B;這些專案。 此範例會計為 2 個項目。 此運算子的輸入欄位採用逗號分隔方式。 |
-| **[!UICONTROL 包含]** | 傳回含有輸入值字串的項目。 例如，如果規則是&#x200B;**[!UICONTROL 頁面名稱]** **[!UICONTROL 包含]** `Search`，則此規則會比對任何包含子字串`Search`的頁面，包括&#x200B;*搜尋結果*、*搜尋*&#x200B;和&#x200B;*搜尋*。 &quot;contains&quot; 子句在 Adobe Analytics 中不區分大小寫，但在 Customer Journey Analytics 中區分大小寫。 |
+| **[!UICONTROL 包含]** | 傳回含有輸入值字串的項目。 例如，如果規則是&#x200B;**[!UICONTROL 頁面名稱]** **[!UICONTROL 包含]** `Search`，則此規則會比對任何包含子字串`Search`的頁面，包括&#x200B;*搜尋結果*、*搜尋*&#x200B;和&#x200B;*搜尋*。 |
 | **[!UICONTROL 不包含]** | 傳回&#x200B;**[!UICONTROL contains]**&#x200B;規則的倒數。 具體而言，與輸入值相符的所有專案將從輸入值中排除。 例如，如果規則為&#x200B;**[!UICONTROL 頁面名稱]** **[!UICONTROL 不包含]** `Search`，則不會比對任何包含子字串`Search`的頁面，包括&#x200B;*搜尋結果*、*搜尋*&#x200B;和&#x200B;*搜尋*。 這些值將從結果中排除。 |
 | **[!UICONTROL 包含所有]** | 傳回和子字串相較的專案，包括多個連結在一起的值。 例如，使用此運運算元輸入&#x200B;**[!UICONTROL 頁面名稱]**&#x200B;維度的`Search Results`會符合&#x200B;*搜尋結果*&#x200B;和&#x200B;*搜尋結果*，但不會個別符合&#x200B;*搜尋*&#x200B;或&#x200B;*結果*。 此規則將符合&#x200B;*Search*&#x200B;和&#x200B;*Results*。 此運算子的輸入欄位採用空格分隔方式 (100 個字)。 |
 | **[!UICONTROL 不包含所有]** | 與子字串比較以識別專案，包括多個值連結在一起，然後只傳回不含這些值的專案。 例如，使用此運運算元輸入&#x200B;**[!UICONTROL 頁面名稱]**&#x200B;維度的`Search Results`將會識別&#x200B;*搜尋結果*&#x200B;和&#x200B;*搜尋結果* （但不會分別識別&#x200B;*搜尋*&#x200B;或&#x200B;*結果*），然後排除這些專案。 此運算子的輸入欄位採用空格分隔方式 (100 個字)。 |
@@ -67,7 +73,7 @@ ht-degree: 31%
 | **[!UICONTROL 開頭不是]** | 傳回未以輸入字串值開頭的所有專案。 這與&#x200B;**[!UICONTROL 開頭為]**&#x200B;運運算元相反。 |
 | **[!UICONTROL 結尾為]** | 傳回結尾為輸入字串值的專案。 |
 | **[!UICONTROL 結尾不是]** | 傳回未以輸入字串值結尾的所有專案。 這與&#x200B;**[!UICONTROL 結尾為]**&#x200B;運運算元相反。 |
-| **[!UICONTROL 符合]** | 根據給定的數值或字串值，傳回完全符合的項目。 **[!UICONTROL matches]**&#x200B;子句在Adobe Analytics和Customer Journey Analytics中區分大小寫。 **注意**：使用[萬用字元](#wildcards) （萬用字元）功能時請使用此運運算元。 「萬用字元」範例：<ul><li>`a*e` 會符合 `ae`、`abcde`、`adobe` 和 `a whole sentence`</li><li>`adob*` 會符合 `adobe`、`adobe analytics` 和 `adobo recipe`</li><li>`*dobe` 會符合 `dobe`、`adobe` 和 `cute little dobe`</li></ul> |
+| **[!UICONTROL 符合]** | 根據給定的數值或字串值，傳回完全符合的項目。 **注意**：使用[萬用字元](#wildcards) （萬用字元）功能時請使用此運運算元。 「萬用字元」範例：<ul><li>`a*e` 會符合 `ae`、`abcde`、`adobe` 和 `a whole sentence`</li><li>`adob*` 會符合 `adobe`、`adobe analytics` 和 `adobo recipe`</li><li>`*dobe` 會符合 `dobe`、`adobe` 和 `cute little dobe`</li></ul> |
 | **[!UICONTROL 不符合]** | 傳回所有不包含與輸入值完全相符內容的項目。 注意：使用[萬用字元](#wildcards) （萬用字元）功能時請使用此運運算元。 |
 | **[!UICONTROL 存在]** | 傳回存在的項目數。 例如，如果您使用&#x200B;**[!UICONTROL exist]**&#x200B;運運算元評估&#x200B;**[!UICONTROL 找不到頁面]**&#x200B;維度，則會傳回存在的錯誤頁面數。 |
 | **[!UICONTROL 不存在]** | 傳回不存在的所有項目。 例如，如果您使用&#x200B;**[!UICONTROL 不存在]**&#x200B;運運算元評估&#x200B;**[!UICONTROL 找不到頁面]**&#x200B;維度，則會傳回不存在此錯誤頁面的頁面數。 |

@@ -8,24 +8,33 @@ autotag-review: '2026-05-19T07:20:44.651Z'
 TQID: 'https://experienceleague.adobe.com/XPFzwdaB2d1PaGEyiYSlzri7Luo4E2uqlMdKClsExdw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: c91f8bd2-df97-4c6a-afcd-f1cde8221302
+    internal-label: Attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: c6330935bb6b36fab622b7884e9182ebd4bdc610
 workflow-type: tm+mt
-source-wordcount: 272
-ht-degree: 42%
-
+source-wordcount: '297'
+ht-degree: 43%
 ---
-
 # 演算法歸因
+
+>[!NOTE]
+>
+>您必須擁有Customer Journey Analytics **Ultimate**&#x200B;套件，才能使用本節中說明的功能。 如果您不確定自己擁有哪一種 Customer Journey Analytics 套件，請聯絡您的管理員。
 
 Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同，因為此模型使用統計技術將評分分配給報表或自由格式表格中的各個維度項目。 和Analysis Workspace中的所有其他歸因模型一樣，演演算法歸因也可用於任何維度或量度。 演演算法歸因支援無限制的分段和劃分，並將100%的轉換分送給表格中的一或多個維度（也稱為「細節」歸因）。
 
@@ -41,7 +50,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attr
 
 用於歸因的演算法以合作賽局理論中的 Harsanyi 利益為基礎。 Harsanyi Dividend是Shapley值解法（以諾貝爾經濟學獎獲得者Lloyd Shapley命名）的泛論，用於分配玩家之間的評分，對結果的貢獻不相等。
 
-概言之，在為每個接觸點計算轉換評分的歸因時，會將回顧期間內的每個行銷接觸點視為玩家聯盟。 對於這個玩家聯盟，盈餘必須公平分配。 每個聯盟的盈餘分配則由每個子聯盟先前遞回建立的盈餘決定。
+在為每個接觸點計算轉換評分的歸因時，會將回顧期間內的每個行銷接觸點視為玩家聯盟。 對於這個玩家聯盟，盈餘必須公平分配。 每個聯盟的盈餘分配則取決於每個子聯盟先前遞回建立的盈餘。
 
 如需詳細資訊，請參閱John Harsanyi和Lloyd Shapley的原稿：
 
