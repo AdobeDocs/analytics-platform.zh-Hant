@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6bc56f504e19548e7e1cf0a6b32df54c45240749
+source-git-commit: ef2836930bd1fefb99115d4a73b9b0d4a178ccd3
 workflow-type: tm+mt
-source-wordcount: '7362'
+source-wordcount: '7364'
 ht-degree: 94%
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 94%
 | 功能 | 說明 |
 |---|---|
 | **2026年10月** | |
-| 區段運運算元區分大小寫 | 澄清了[標準運運算元](/help/components/segments/seg-operators.md#standard-operators)無論大小寫都傳回結果，除了&#x200B;**[!UICONTROL 符合]**&#x200B;和&#x200B;**[!UICONTROL 不符合]**&#x200B;外。 |
+| 區段運運算元區分大小寫 | 澄清當您使用[標準運運算元](/help/components/segments/seg-operators.md#standard-operators)時，除了&#x200B;**[!UICONTROL 符合]**&#x200B;且&#x200B;**[!UICONTROL 不符合]**&#x200B;外，結果不區分大小寫。 |
 | 表格欄的鍵盤導覽 | 記錄如何使用鍵盤，在Analysis Workspace中[調整大小](/help/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns)和[重新排列](/help/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)資料表資料行，包括熒幕助讀程式意見反應。 也將[資料表資料行動作](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions)區段新增至快速鍵。 |
 | AI助理和Data Insights Agent已由同事取代 | 已移除AI助理和Data Insights Agent文章。 Adobe CX Enterprise Coworker同時取代這兩項功能。 如需詳細資訊，請參閱[使用同事聊天分析資料](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)。 也更新了[Customer Journey Analytics功能支援](/help/getting-started/aa-vs-cja/cja-aa.md#cja-not-aa)以反映此變更。 |
 | Content Analytics付費媒體頻道 | 使用付費媒體來源聯結器（例如Google Ads或Meta Ads），以及設定和啟用Content Analytics付費媒體頻道，所導致的資料集和資料檢視元件的自動設定，詳細[相關檔案](/help/content-analytics/config/paid-media.md)。 |
