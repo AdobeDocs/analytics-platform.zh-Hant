@@ -220,7 +220,7 @@ WHERE REGEXP_CONTAINS(product_list, r'(^|,)[^;]*;Cordless Drill;')
 
 ### 身分對應
 
-[`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap)欄位中的每個身分都會匯出為一個物件。 物件包含身分名稱空間（金鑰），以及識別碼、驗證狀態和主要旗標。 該名稱空間會針對該名稱空間中的每個身分重複執行。
+[`identityMap`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/identitymap)欄位中的每個身分都會匯出為一個物件。 物件包含身分名稱空間（金鑰），以及識別碼、驗證狀態和主要旗標。 該名稱空間會針對該名稱空間中的每個身分重複執行。
 
 系統只會匯出資料檢視中作為維度存在的身分對應屬性，以及您新增至資料摘要的屬性。
 
