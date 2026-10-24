@@ -256,7 +256,7 @@ ht-degree: 55%
 
 然後，您可以更詳細地設定頻道。 此組態會有所不同，取決於您是啟用、設定或編輯[行動裝置](#mobile)、[網頁](#web)或[付費媒體](#paid-media)頻道的組態。
 
-#### 行動
+#### Mobile
 
 +++ 詳細資料
 
@@ -576,7 +576,7 @@ ht-degree: 55%
 >id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
 >title="沒有來源連接器"
 >abstract="付費媒體會要求您的廣告發佈者使用 Experience Platform 來源連接器。 此沙箱中沒有可用的 Google Ads 或 Meta 廣告連接器。 請在「**[!UICONTROL Experience Platform]** > **[!UICONTROL 來源]**」介面中設定一個或多個上述連接器，並返回此步驟以繼續設定 Content Analytics 付費媒體。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads 來源"
+>additional-url="https://experienceleague.adobe.com/zh-Hant/docs/experience-platform/sources/connectors/advertising/ads" text="Google Ads 來源"
 
 +++ 詳細資料
 

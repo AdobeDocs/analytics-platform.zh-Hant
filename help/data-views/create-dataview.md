@@ -103,7 +103,7 @@ ht-degree: 78%
 >id="dataview_dataviewsinadobejourneyoptimizer"
 >title="Journey Optimizer 的資料釋圖"
 >abstract="Customer Journey Analytics 需要與 Adobe Journey Optimizer 相容的連線和資料檢視。 依據預設，系統會建立連線和資料檢視。 或者，啟用此選項以將此項目設定為 Adobe Journey Optimizer 報告的預設資料檢視，這會將必要元件新增至資料檢視，並將資料集新增至連線。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo#connection" text="新增了哪些元件和資料集。"
+>additional-url="https://experienceleague.adobe.com/zh-Hant/docs/analytics-platform/using/integrations/ajo#connection" text="新增了哪些元件和資料集。"
 
 
 提供 Customer Journey Analytics 搭配使用 Adobe Journey Optimizer 時適用的設定。

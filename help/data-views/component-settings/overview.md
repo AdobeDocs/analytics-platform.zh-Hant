@@ -51,7 +51,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="dataview_component_settings"
 >title="元件設定"
->abstract="檢視及設定名稱、說明和與元件相關的其他設定。 核取此方塊可在Analysis Workspace介面中隱藏此元件，不讓非管理員使用者看到。 管理員仍可以選取 Workspace 專案中的「**[!UICONTROL 顯示所有元件]**」存取該元件。"
+>abstract="檢視及設定名稱、說明和與元件相關的其他設定。 勾選此方塊，即可在 Analysis Workspace 介面中對非管理員使用者隱藏此元件。 管理員仍可以選取 Workspace 專案中的「**[!UICONTROL 顯示所有元件]**」存取該元件。"
 
 <!-- markdownlint-enable MD034 -->
 
