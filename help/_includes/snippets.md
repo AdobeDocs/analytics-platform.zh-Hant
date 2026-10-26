@@ -1,7 +1,7 @@
 ---
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
 workflow-type: tm+mt
-source-wordcount: '5584'
+source-wordcount: '5605'
 ht-degree: 95%
 ---
 # 程式碼片段
@@ -129,6 +129,7 @@ ht-degree: 95%
 
 * **工作階段**：回顧至轉換發生當下此工作階段的起始處。 工作階段回顧期間遵循資料釋圖中已修改的[工作階段逾時](/help/data-views/create-dataview.md#session-settings)。 選取「**[!UICONTROL 工作階段]**」時，[歸因回顧期間](#atribution-lookback-window)會自動設定為&#x200B;**[!UICONTROL 報告期間]**，且無法變更。
 * **人員**：從人員容器的範圍檢視轉換情況。
+* **交談**：檢視交談容器範圍內的轉換。 此容器適用於[交談見解](/help/conversation-insights/overview.md)視覺效果和元件。
 * **全域帳戶** [!BADGE B2B Edition]{type=Informative}：從全域帳戶容器範圍檢視轉換情況。
 * **帳戶** [!BADGE B2B Edition]{type=Informative}：從人員容器的範圍檢視轉換情況。
 * **機會** [!BADGE B2B Edition]{type=Informative}：從機會容器的範圍檢視轉換情況。
