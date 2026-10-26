@@ -42,7 +42,7 @@ ht-degree: 14%
    1. 如果您想要在量度上設定[歸因](/help/analysis-workspace/attribution/models.md)，請選取&#x200B;**[!UICONTROL 設定歸因]**，然後選取&#x200B;**[!UICONTROL 模型]**、**[!UICONTROL 容器]**&#x200B;和&#x200B;**[!UICONTROL 回顧期間]**。
 1. 選取&#x200B;**[!UICONTROL 建置]**&#x200B;以建置視覺效果。 選取&#x200B;**[!UICONTROL 重設]**&#x200B;將組態值重設為預設值。
 
-若要重新設定趨勢主題視覺效果，請選取&#x200B;**[!UICONTROL 排名量度： _排名量度_旁的![編輯](/help/assets/icons/Edit.svg) |子主題層級： _x_]**。
+若要重新設定趨勢主題視覺效果，請選取&#x200B;**排名量度： _排名量度_旁的![編輯](/help/assets/icons/Edit.svg) |子主題層級： _x_**。
 
 ## 使用
 
