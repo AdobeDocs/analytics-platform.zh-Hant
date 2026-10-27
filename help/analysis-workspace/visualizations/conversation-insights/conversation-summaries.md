@@ -51,7 +51,7 @@ ht-degree: 20%
 
 1. 選取&#x200B;**[!UICONTROL 建置]**&#x200B;以建置視覺效果。 選取&#x200B;**[!UICONTROL 重設]**&#x200B;將組態值重設為預設值。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消設定。
 
-若要重新設定&#x200B;**[!UICONTROL 交談摘要]**&#x200B;視覺效果，請選取&#x200B;**[!UICONTROL 量度： _量度_]**&#x200B;或&#x200B;**[!UICONTROL 量度：_量度_]**&#x200B;旁的![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 區段： _區段_]**。
+若要重新設定&#x200B;**[!UICONTROL 交談摘要]**&#x200B;視覺效果，請選取&#x200B;**[!UICONTROL 量度： _量度_]**或&#x200B;**[!UICONTROL 量度：_量度_]**&#x200B;旁的![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 區段： _區段_]**。
 
 ## 使用
 
