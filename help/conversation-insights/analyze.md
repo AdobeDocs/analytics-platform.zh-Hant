@@ -24,23 +24,37 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: d08ee4bf4c5e53e16389c5d58971a97dd5f78c0e
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '190'
 ht-degree: 0%
 ---
 
 # 分析對話深入分析
 
-## 簡單分析
 
 若要分析交談深入分析，您可以在Analysis Workspace中建立或編輯專案，並使用其中一個已設定的資料檢視作為專案中一個或多個面板的資料檢視。
 
+## 簡單分析
+
+若要建立自由表格或視覺效果，請使用交談量度（**[!UICONTROL 輪換]**、**[!UICONTROL 交談]**、**[!UICONTROL 情緒]**、**[!UICONTROL 交談音調]**&#x200B;等等）來顯示交談的概觀。
+
 +++ 範例專案
 
-![交談深入分析的基本範例專案](assets/conversation-insights-analyze-sample-project-basic.png)
+![交談深入分析的基本範例專案](assets/conversation-insights-analyze-sample-project-basic.png){zoomable="yes"}
 
 +++
+
+## 詳細分析
+
+若要執行對話的詳細分析，請使用[趨勢主題](/help/analysis-workspace/visualizations/conversation-insights/trending-topics.md)、[對話摘要](/help/analysis-workspace/visualizations/conversation-insights/conversation-summaries.md)以及[對話評論](/help/analysis-workspace/visualizations/conversation-insights/conversation-review.md)視覺效果。 這些視覺效果可針對交談資料提供不同觀點。
+
++++ 範例專案
+
+![交談深入分析的詳細範例專案](assets/conversation-insights-analyze-sample-project-detailed.png){zoomable="yes"}
+
++++
+
 
 ## 大規模分析交談內容與內容
 
@@ -52,6 +66,6 @@ ht-degree: 0%
 
 +++ 範例專案
 
-待定。
+擱置中。
 
 +++ 
