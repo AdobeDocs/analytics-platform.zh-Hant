@@ -2,10 +2,10 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 3fc129c2eeb5fd86e8ef4d885a4682dd819fc481
+source-git-commit: 11bc93e0adabd8e8109bda1734e1a098ce8bef1e
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 90%
+source-wordcount: '1522'
+ht-degree: 91%
 ---
 
 # Adobe Customer Journey Analytics 指南 {#using}
@@ -537,7 +537,6 @@ ht-degree: 90%
   + 資料攝取 {#data-ingestion}
     + [收錄並使用 Marketo Engage 資料](../use-cases/data-ingestion/marketo.md)
     + [收錄並使用 Experience Platform 客群](../use-cases/data-ingestion/ingest-aep-segments.md)
-    + {hide-from-toc}[擷取及使用付費媒體資料](/help/use-cases/cross-channel/paid-media-web.md)
   + 資料檢視 {#data-views}
     + [資料檢視使用案例](/help/use-cases/data-views/data-views-usecases.md)
     + [使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)
