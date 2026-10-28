@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: a02b8d1d6bae6ed8269668d49ed9559688001833
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 12%
+ht-degree: 17%
 ---
 # 建立或編輯組態
 
@@ -136,14 +136,14 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="conversationinsights_blend_specification"
 >title="設定混合規格"
->abstract="完成此「交談見解」設定後，您才能編輯混合規格、所有資料集皆可使用，且您擁有Customer Journey Analytics編輯連線的許可權。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control" text="存取控制"
+>abstract="只有在完成此「對話洞察」設定、所有資料集都可用，且您擁有編輯連線的 Customer Journey Analytics 權限後，您才能編輯混合規格。"
+>additional-url="https://experienceleague.adobe.com/zhHant/docs/analytics-platform/using/technotes/access-control" text="存取控制"
 
 
 >[!CONTEXTUALHELP]
 >id="conversationinsights_dataset_winner"
->title="勝出資料集"
->abstract="選取資料集，以確定混合交談資料集中對應命名欄位或欄位（如果容器）的值。"
+>title="資料集獲勝者"
+>abstract="選取資料集，以決定混合對話資料集中相應命名的欄位或多個欄位 (如果是容器) 的值。"
 
 建立組態之後，您就可以設定[如何混合來自提示、回應、回饋和訊號資料集的交談](/help/conversation-insights/overview.md#how-it-works)。
 
@@ -161,7 +161,7 @@ ht-degree: 12%
    * 針對每個容器欄位，選擇性地選取其他&#x200B;**[!UICONTROL 資料集獲勝者]**&#x200B;以更新屬於該容器的所有欄位。 您可以在&#x200B;**[!UICONTROL 提示資料集]**、**[!UICONTROL 回應資料集]**&#x200B;和&#x200B;**[!UICONTROL 意見資料集]**&#x200B;之間選取。
    * 您無法針對對話資料集之間共用的欄位（提示、回應、回饋和訊號）選取&#x200B;**[!UICONTROL 資料集獲勝者]**。 這些欄位是以下欄位群組的一部分：
 
-     | 欄位名稱 | 欄位群組 | 勝出資料集 |
+     | 欄位名稱 | 欄位群組 | 資料集獲勝者 |
      |---|---|---|
      | **[!UICONTROL 提示]** | `conversation.prompt.*` | **[!UICONTROL 提示資料集]** |
      | **[!UICONTROL 回應]** | `conversation.response.*` | **[!UICONTROL 回應資料集]** |
