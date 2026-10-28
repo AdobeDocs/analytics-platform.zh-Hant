@@ -2,10 +2,10 @@
 user-guide-title: Customer Journey Analytics 指南
 user-guide-description: 了解 Adobe Customer Journey Analytics 以及如何將 Analysis Workspace 與 Experience Platform 的資料搭配使用。
 breadcrumb-title: Customer Journey Analytics 指南
-source-git-commit: 89dc7258649e9c16d6a43c15ced42e1af7c6009a
+source-git-commit: 3fc129c2eeb5fd86e8ef4d885a4682dd819fc481
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 91%
+source-wordcount: '1528'
+ht-degree: 90%
 ---
 
 # Adobe Customer Journey Analytics 指南 {#using}
@@ -336,7 +336,7 @@ ht-degree: 91%
   + [產業使用案例](../guided-analysis/industry-use-cases.md)
   + [常見問題](../guided-analysis/faq.md)
 
-+ 交談見解 {#conversation-insights}
++ 對話洞察 {#conversation-insights}
   + [概觀](/help/conversation-insights/overview.md)
   + [設定](/help/conversation-insights/configure.md)
   + [管理](/help/conversation-insights/manage.md)
@@ -524,6 +524,7 @@ ht-degree: 91%
   + 跨管道的資料 {#cross-channel}
     + [跨管道分析資料](../use-cases/cross-channel/cross-channel.md)
     + [匯入客服中心和網頁的資料](../use-cases/cross-channel/call-center.md)
+    + {hide-from-toc}[使用網頁資料加入付費媒體資料](../use-cases/cross-channel/paid-media-web.md)
   + 資料匯出 {#data-export}
     + [概觀](../use-cases/data-export/overview.md)
     + [BI 擴充功能](../use-cases/data-export/bi-extension.md)
@@ -536,7 +537,7 @@ ht-degree: 91%
   + 資料攝取 {#data-ingestion}
     + [收錄並使用 Marketo Engage 資料](../use-cases/data-ingestion/marketo.md)
     + [收錄並使用 Experience Platform 客群](../use-cases/data-ingestion/ingest-aep-segments.md)
-    + {hide-from-toc}[擷取及使用付費媒體資料](/help/use-cases/data-ingestion/paid-media.md)
+    + {hide-from-toc}[擷取及使用付費媒體資料](/help/use-cases/cross-channel/paid-media-web.md)
   + 資料檢視 {#data-views}
     + [資料檢視使用案例](/help/use-cases/data-views/data-views-usecases.md)
     + [使用繫結維度和量度](/help/use-cases/data-views/binding-dimensions-metrics.md)
