@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 88e67c92fc170b340149c9ab73ad5eea2122da2b
+source-git-commit: 665ce95d0b2979bb4f3b26f5d5e5c0df75894f19
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 19%
+source-wordcount: '1298'
+ht-degree: 17%
 ---
 # 目前的Customer Journey Analytics發行說明（2026年10月）
 
@@ -70,6 +70,7 @@ ht-degree: 19%
 | **歷程畫布：比較百分比**<br/>&#x200B;將歷程與先前時段進行比較時，您現在可以啟用新的[!UICONTROL 比較百分比]選項，以顯示每個節點、箭頭和流失的百分比變化。 在比較率（例如節點之間的保留率或流失率）時，這項功能相當實用，因為即使歷程中的人數在日期範圍之間不同，比較仍會保持準確。<p>如需詳細資訊，請參閱[設定歷程畫布視覺效果](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)中的「比較百分比」。</p> | | 2026年10月19日 |
 | **視覺效果中簡潔的圖例標籤**<br/>&#x200B;您現在可以縮短視覺效果圖例標籤，讓您一眼就能分辨出來。 [!UICONTROL 簡明標籤]設定會聰明地專注於資訊，藉由移除每個標籤共用的量度、區段、維度專案或日期範圍名稱，來區分不同的標籤。<p>如果沒有簡潔的標籤，每個圖例標籤都會重複共用名稱，這可能會導致標籤變長，差異只會在暫留時顯示。</p><p>簡潔的標籤預設為關閉，且可用於區域、長條圖、下拉式方塊、環圈圖、長條圖、水準長條圖、折線圖和文氏圖表視覺效果，包括棧疊版本。</p><p>如需詳細資訊，請參閱[簡明的標籤](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concise-labels)。</p> | | 2026年10月29日 |
 | **自動產生元件和專案的說明** <br/>您現在可以自動產生維度、量度、計算量度、區段和日期範圍的說明。 這可讓Workspace使用者瞭解要使用哪些元件，尤其是在擁有大型元件庫的組織中。 <p>您可以產生單一元件的說明，或同時產生許多元件的說明。 如需詳細資訊，請參閱[自動產生說明](/help/components/add-component-descriptions.md#automatically-generate-descriptions)。</p><p>您也可以在您[儲存專案](/help/analysis-workspace/build-workspace-project/save-projects.md)或從[專案資訊和設定](/help/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings)產生Workspace專案的說明。</p> | 2026年10月29日 | 2026年11月18日 |
+| **CX Enterprise Coworker：詢問有關您內容的問題** <br/>您現在可以使用同事聊天從Content Analytics取得有關您內容的正確答案。 提出特定問題，例如「哪些影像吸引上季最多營收？」，或一般問題，例如「我應該將哪種內容列為優先順序？」 同事瞭解Content Analytics資料的架構，並套用經驗豐富的分析師所適用的報表規則，因此行銷人員和其他業務使用者不需深入瞭解Content Analytics專業知識，便可取得可靠的結果。<p></p>如需詳細資訊，請參閱[透過同事聊天詢問有關您內容的問題](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/content-performance/ask-content-questions) | 2026年10月14日 | 待定 |
 | **同事的產品內體驗**<br/>&#x200B;同事現在可在Analysis Workspace的聊天面板中使用。 同事使用您開啟的專案作為前後關聯，因此您可以詢問有關分析的問題，而不需要說明專案包含的內容。<p>使用同事的產品內體驗，您可以：</p><ul><li>彙總開啟的專案、尋找深入分析以及執行根本原因分析。</li><li>使用自然語言提示建置和編輯專案。 例如，您可以新增面板和表格、劃分資料、變更視覺效果型別和日期範圍，以及建立區段。</li></ul><p>如需詳細資訊，請參閱[使用同事的產品內體驗](/help/analysis-workspace/coworker.md)。</p> | 2026年10月29日 | 待定 |
 
 
