@@ -34,10 +34,10 @@ role_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
     internal-label: Experimentation
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
 source-wordcount: '1322'
-ht-degree: 61%
+ht-degree: 60%
 ---
 # 檢視元件資訊
 
@@ -47,7 +47,7 @@ ht-degree: 61%
 
 1. 前往包含要檢視之元件的 Analysis Workspace 專案。
 
-1. 選取Analysis Workspace左側面板中的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。 （[&#128279;](/help/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)在[資料字典總覽](/help/components/data-dictionary/data-dictionary-overview.md)中存取資料字典中說明存取資料字典的其他方式。）
+1. 選取Analysis Workspace左側面板中的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。 （[在[資料字典總覽](/help/components/data-dictionary/data-dictionary-overview.md)中存取資料字典](/help/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)中說明存取資料字典的其他方式。）
 
    顯示資料字典視窗。
 
@@ -85,7 +85,7 @@ ht-degree: 61%
    | [!UICONTROL **日期範圍**] | 僅顯示日期範圍的元件。 （當您首次存取資料字典時，[!UICONTROL **快速區段**]&#x200B;索引標籤中也會提供此選項。） |
    | [!UICONTROL **全部顯示**] | 顯示所有元件。 此選項僅提供給管理員使用。 |
    | [!UICONTROL **未經核准**] | 僅顯示尚未由管理員標記為「已核准」的元件。 作為管理員，這有助於確定需要您檢閱和核准的元件。 此選項僅提供給管理員使用。 |
-   | [!UICONTROL **缺少說明**] | 僅顯示在說明欄位中還沒有說明的元件。 此選項僅提供給管理員使用。 |
+   | [!UICONTROL **缺少描述**] | 僅顯示在說明欄位中還沒有說明的元件。 此選項僅提供給管理員使用。 |
    | [!UICONTROL **顯示重複項目**] | 僅顯示與所選資料檢視中其他元件具有相同名稱或相同說明的元件。 這包括您建立的元件以及Adobe提供的元件。 名稱或說明必須完全相符，才能顯示為重複專案。 此選項僅提供給管理員使用。 |
    | [!UICONTROL **無最近的資料**] | 僅顯示在過去 90 天內未收集任何資料的元件。 此選項僅提供給管理員使用。 |
    | [!UICONTROL **由Adobe建立**] <!-- I don't see this option--> | 僅顯示由 Adobe 建立的元件。 並不會顯示由管理員或您組織中的其他使用者建立的元件。 |

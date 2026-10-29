@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: d16771a675504a6330a59478f15bf6112ae444d6
+source-git-commit: a80a12b061bee5165667b361a9e4bc1888d86c95
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 2%
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ## 權限
 
-* [產品管理員](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control#product-administrator-role)還需要[Experience Platform許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home#permissions)中所有沙箱的&#x200B;**管理資料使用原則**&#x200B;和&#x200B;**檢視資料使用原則**&#x200B;許可權。
+* [產品管理員](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#product-administrator-role)還需要[Experience Platform許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions)中所有沙箱的&#x200B;**管理資料使用原則**&#x200B;和&#x200B;**檢視資料使用原則**&#x200B;許可權。
 
 ## 工作流程
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 1. 檢閱使用相同元件ID但具有不同元件設定的所有元件。 針對每一組重複的元件，選取所需的元件設定，以套用至共用該元件ID的所有其他元件。
 1. 檢閱使用相同元件ID且也有相同元件設定的所有元件。 這些維度或量度可輕鬆安全地合併。
 
-## [!UICONTROL 共用的度量和維度]管理員
+## [!UICONTROL 共用的度量和維度]管理員 {#smd-manager}
 
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL 資料檢視]** > **[!UICONTROL 共用的量度和維度]**
 

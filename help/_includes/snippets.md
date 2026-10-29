@@ -1,7 +1,7 @@
 ---
-source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '5605'
+source-wordcount: '5607'
 ht-degree: 95%
 ---
 # 程式碼片段
@@ -94,7 +94,7 @@ ht-degree: 95%
 
 | 其他篩選器 | 說明 |
 |---|---|
-| ![其他篩選器](/help/assets/filter-other.png){width="300"} | **[!UICONTROL 其他篩選器]**&#x200B;部分可讓您根據其他預先定義的篩選器進行篩選。<ul><li>您可以選取下列其中一個或更多選項:<ul><li> **[!UICONTROL 全部顯示]**</li><li>**[!UICONTROL 與我共用]**</li><li>**[!UICONTROL 我的]**</li><li>**[!UICONTROL 已核准]**</li><li>**[!UICONTROL 我的最愛]**</li></ul> 您可以選取的內容取決於您的角色和權限。</li><li>您可以選取多個其他篩選器。 適用的其他篩選器取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>**(1)**：選取的其他篩選器數量 (如果選取一個或多個其他篩選器)。</li><li>**5︎⃣**：可用於目前篩選器所產生項目的其他篩選器數量。</li><li>4︎⃣：與特定其他篩選器相關聯的項目數量。</li></ul></li></ul> |
+| ![其他篩選器](/help/assets/filter-other.png){width="300"} | **[!UICONTROL 其他篩選器]**&#x200B;部分可讓您根據其他預先定義的篩選器進行篩選。<ul><li>您可以選取下列其中一個或更多選項:<ul><li> **[!UICONTROL 全部顯示]**</li><li>**[!UICONTROL 與我共用]**</li><li>**[!UICONTROL 我的]**</li><li>**[!UICONTROL 已核准]**</li><li>**[!UICONTROL 我的最愛]**</li><li>**[!UICONTROL 缺少描述]**</li></ul> 您可以選取的內容取決於您的角色和權限。</li><li>您可以選取多個其他篩選器。 適用的其他篩選器取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>**(1)**：選取的其他篩選器數量 (如果選取一個或多個其他篩選器)。</li><li>**5︎⃣**：可用於目前篩選器所產生項目的其他篩選器數量。</li><li>4︎⃣：與特定其他篩選器相關聯的項目數量。</li></ul></li></ul> |
 
 ## 日期範圍篩選器區段  {#daterangefiltersection}
 

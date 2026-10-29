@@ -19,13 +19,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 8ab47e74ee442d97e8e7b1b9e92129025a5b1d1f
 workflow-type: tm+mt
-source-wordcount: 540
-ht-degree: 95%
-
+source-wordcount: '589'
+ht-degree: 87%
 ---
-
 # 建立日期範圍
 
 
@@ -69,6 +67,11 @@ Should we really mention API here. If so, we can do it all over the place in the
 
 1. 為日期範圍指定&#x200B;**[!UICONTROL 標題]**。 例如，**[!UICONTROL 每個季度]**。
 1. 另外，要註明&#x200B;**[!UICONTROL 說明]**。
+
+   若要讓Adobe為您產生描述，請選取&#x200B;**[!UICONTROL 產生描述]**。 在您建立日期範圍定義之前，此選項不可用。
+
+   產生的說明包括Adobe使用AI ]**產生的文字**[!UICONTROL ，您可以在產生說明後加以編輯。 如需詳細資訊，請參閱[自動產生說明](/help/components/add-component-descriptions.md#automatically-generate-descriptions)。
+
 1. 透過建立或套用一個或多個&#x200B;**[!UICONTROL 標記]**&#x200B;來整理區段。 開始輸入內容以尋找您可以選取的現有標記。 或按一下 **[!UICONTROL ENTER]** 以新增新標記。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
 1. 首先選取開始日期，然後選取結束日期來選取&#x200B;**[!UICONTROL 日期範圍]**。
 或者，您可以從[!UICONTROL *選取預設集*]&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 預設集]**。
@@ -82,12 +85,12 @@ Should we really mention API here. If so, we can do it all over the place in the
 
      ![遞延日期](assets/rolliing-dates.png)
 
-      1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
-      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。 例如： **&#x200B;**&#x200B;**[!UICONTROL 本季]**&#x200B;**[!UICONTROL 結束減去]** `20` **[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
-         * 選取目前的值。 例如&#x200B;**[!UICONTROL 目前季度]**。
-         * 選取一個值進行其他計算。 例如， **[!UICONTROL 減去]**。
-         * 當您指定其他計算時，請指定一個值。 例如，`20`。
-         * 當您已指定其他計算時，請選取用於計算的時段。 例如， **[!UICONTROL 天]**。
+     1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
+     1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。 例如： ******[!UICONTROL 本季]****[!UICONTROL 結束減去]** `20` **[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
+        * 選取目前的值。 例如&#x200B;**[!UICONTROL 目前季度]**。
+        * 選取一個值進行其他計算。 例如， **[!UICONTROL 減去]**。
+        * 當您指定其他計算時，請指定一個值。 例如，`20`。
+        * 當您已指定其他計算時，請選取用於計算的時段。 例如， **[!UICONTROL 天]**。
 
      選取&#x200B;**[!UICONTROL 隱藏詳細資訊]**&#x200B;以隱藏遞延日期計算的詳細資訊。
 

@@ -29,10 +29,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 90%
+source-wordcount: '514'
+ht-degree: 81%
 ---
 # 建立專案 {#create-projects}
 
@@ -99,7 +99,7 @@ Analysis Workspace 中的[專案](/help/analysis-workspace/build-workspace-proje
 | 所有者 | 專案所有者名稱 |
 | 修改時間 | 上次修改專案的日期。 |
 | 標記 | 列出為了方便分類而套用至專案的所有標籤。 |
-| 說明 | 說明對於釐清專案的目的很有用。 您可以連按兩下說明以進行編輯。 |
+| 說明 | 說明對於釐清專案的目的很有用。 您可以連按兩下說明以進行編輯。 <p>若要讓Adobe為您產生說明，請選取說明欄位上方的&#x200B;**[!UICONTROL 產生說明]**。 Adobe會分析專案中的數個面板，並將其摘要成說明。 產生的描述包括Adobe使用AI ]**產生的文字**[!UICONTROL &#x200B;且可編輯。 此選項要求您的組織同意某些創作AI法律條款。</p> |
 | 計算重複實例數 | 指定是否要將重複實例計入報告中。 注意，此設定不適用於「流程」或「流失」視覺化呈現。 |
 | 顯示註解 | 指定是否顯示此專案的註解。 |
 | [專案調色盤](/help/analysis-workspace/build-workspace-project/color-palettes.md) | 您可以變更用於 Workspace 的分類調色盤，其方式為選擇已針對色盲人士最佳化的立即可用調色盤或指定您的自訂調色盤。 此功能會影響工作區中的許多項目，包括大部分的視覺效果。 |

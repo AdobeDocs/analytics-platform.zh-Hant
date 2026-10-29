@@ -32,10 +32,10 @@ role_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
     internal-label: Experimentation
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 64%
+source-wordcount: '1523'
+ht-degree: 50%
 ---
 # 編輯元件專案
 
@@ -81,7 +81,7 @@ Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢
    | **[!UICONTROL 日期範圍]** | 僅顯示日期範圍的元件。 （當您首次存取資料字典時，**[!UICONTROL 快速區段]**&#x200B;索引標籤中也會提供此選項。） |
    | **[!UICONTROL 全部顯示]** | 顯示所有元件。 此選項僅提供給管理員使用。 |
    | **[!UICONTROL 未經核准]** | 僅顯示尚未由管理員標記為「已核准」的元件。 作為管理員，這有助於確定需要您檢閱和核准的元件。 此選項僅提供給管理員使用。 |
-   | **[!UICONTROL 缺少說明]** | 僅顯示在說明欄位中還沒有說明的元件。 此選項僅提供給管理員使用。 |
+   | **[!UICONTROL 缺少描述]** | 僅顯示在說明欄位中還沒有說明的元件。 此選項僅提供給管理員使用。 |
    | **[!UICONTROL 顯示重複項目]** | 僅顯示與所選資料檢視中其他元件具有相同名稱或相同說明的元件。 這包括您建立的元件以及Adobe提供的元件。 名稱或說明必須完全相符，才能顯示為重複專案。 此選項僅提供給管理員使用。 |
    | **[!UICONTROL 無最近的資料]** | 僅顯示在過去 90 天內未收集任何資料的元件。 此選項僅提供給管理員使用。 |
    | **[!UICONTROL 由Adobe建立]** <!-- I don't see this option--> | 僅顯示由 Adobe 建立的元件。 例如，**[!UICONTROL Adobe Target]**。 並不會顯示由管理員或您組織中的其他使用者建立的元件。 |
@@ -101,14 +101,15 @@ Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢
 1. 從元件清單中選取您要編輯的元件。
 
 1. 選擇元件名稱旁邊的&#x200B;**編輯**&#x200B;圖示![資料字典編輯圖示](/help/assets/icons/Edit.svg)。
+   ![在資料字典中編輯元件對話方塊](assets/data-dictionary-edit-component.png)
 
 1. 編輯有關元件的以下任何資訊：
 
    | 選項 | 函數 |
    |---------|----------|
    | **[!UICONTROL 已核准]** | <p>指出該元件已經過管理員檢閱與核准。</p><p>管理員會看到&#x200B;**[!UICONTROL 取消核准]**&#x200B;的選項。 選取此選項會將元件標記為「未核准」，供使用者查看。</p> |
-   | **[!UICONTROL 未核准]** | <p>指出該元件尚未經過管理員檢閱與核准。</p><p>管理員會看到&#x200B;**[!UICONTROL 核准]**&#x200B;的選項。 選擇此選項會讓使用者看到元件標記為「已核准」。</p> |
-   | **[!UICONTROL 說明]** | 描述元件的預定功能。 (此資訊由 Analytics 管理員新增，如[新增元件說明](/help/components/add-component-descriptions.md)中所述。) |
+   | **[!UICONTROL 核准]** | <p>向管理員指出該元件尚未由管理員稽核和核准。</p><p>非系統管理員看到標籤&#x200B;**[!UICONTROL 未核准]**。 選擇此選項會讓使用者看到元件標記為「已核准」。</p> |
+   | **[!UICONTROL 說明]** | 描述元件的預定功能。 只有Analytics管理員可以新增元件說明。 <p>您可以透過下列其中一種方式新增說明：</p><ul><li>手動輸入說明</li><li>選取&#x200B;**[!UICONTROL 產生說明]**&#x200B;讓Adobe為您產生說明 <p>產生的說明包括Adobe使用AI ]**產生的文字**[!UICONTROL ，您可以在產生說明後加以編輯。</p><p>若要同時產生多個元件的說明，請參閱[產生多個元件的說明](#generate-descriptions-for-multiple-components)。</p></li></ul> <p>如需詳細資訊，請參閱[自動產生說明](/help/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
    | **[!UICONTROL 經常與下列項目搭配使用]** | <p>顯示您正在查看的元件最常與哪些元件一起使用。</p><p>在 5 種主要元件類型中最多顯示 5 個元件：量度、計算量度、維度、區段和日期範圍。</p><p>此清單顯示過去 90 天的資料。 只會顯示您有權檢視的元件。</p><p>管理員可以在「**[!UICONTROL 永遠包含]**」和「**[!UICONTROL 永遠排除]**」下拉式欄位中選取所需的元件，來管理使用者在此區段中看到的元件。 在您組織使用者看到的元件之前，請先套用&#x200B;**全部顯示**&#x200B;區段，以確保您看到任何未與您共用的元件，這些元件可能已由其他管理員新增。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all segment to make it editable. --></p> |
    | **[!UICONTROL 類似於]** | <p>顯示與您正在查看的元件具有相似名稱的元件。</p><p>在 5 種主要元件類型中最多顯示 5 個元件：量度、計算量度、維度、區段和日期範圍。</p><p>只會顯示您有存取檢視權限的元件。</p><p>資料檢視中的任何重複元件都會顯示在這裡。 Analytics 管理員應識別並移除所有重複的元件，如[監視資料字典健康情況](/help/components/data-dictionary/monitor-data-dictionary-health.md)中所述。</p><p>管理員可以在「**[!UICONTROL 永遠包含]**」和「**[!UICONTROL 永遠排除]**」下拉式欄位中選取所需的元件，來管理使用者在此區段中看到的元件。 在您組織使用者看到的元件之前，請先套用&#x200B;**全部顯示**&#x200B;區段，以確保您看到任何未與您共用的元件，這些元件可能已由其他管理員新增。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all segment to make it editable. --></p><p>**注意：**&#x200B;目前，「**類似於**」區段僅包括您建立的元件，不包括 Adobe 提供的元件。 Adobe 提供的元件會在未來版本中新增。</p> |
    | **[!UICONTROL 產品相容性]** | 指出此計算量度可在Customer Journey Analytics中使用的位置。 <p>可能的值包括：</p><ul><li>**[!UICONTROL Customer Journey Analytics中的所有地方]**：計算量度可用於所有Customer Journey Analytics，包括Analysis Workspace、Report Builder等。</li><li>**[!UICONTROL 在 Customer Journey Analytics 中各處 (不包括實驗)]**：計算量度可用於除實驗面板之外的所有 Customer Journey Analytics 部分。</li> <p>如需判斷計算量度是否可用於實驗之條件的詳細資訊，請參閱[實驗面板](/help/analysis-workspace/c-panels/experimentation.md)中的[在Experimentation面板](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel)中使用計算量度。</p></ul> |
@@ -121,3 +122,29 @@ Customer Journey Analytics管理員可以在資料字典中編輯指定資料檢
    {style="table-layout:auto"}
 
 1. 按一下&#x200B;**儲存**&#x200B;圖示![資料字典儲存圖示](/help/assets/icons/SaveFloppy.svg)以儲存您的變更。
+
+## 產生多個元件的說明
+
+Customer Journey Analytics管理員可讓Adobe同時產生多個元件的說明。 如需詳細資訊，請參閱[自動產生說明](/help/components/add-component-descriptions.md#automatically-generate-descriptions)。
+
+>[!IMPORTANT]
+>
+>產生多個元件的說明會取代所選元件的任何現有說明。 為避免覆寫現有說明，請在選取元件之前，篩選清單以僅顯示尚未具有說明的元件。
+
+若要為「資料字典」中的多個元件產生說明：
+
+1. 開啟資料字典，如[資料字典概觀](/help/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」中所述。
+
+1. 確定在下拉式選單中選取了正確的資料檢視。
+
+1. （建議）選取&#x200B;**篩選器**&#x200B;圖示![資料字典篩選器圖示](/help/assets/icons/Filter.svg)，然後選取&#x200B;**[!UICONTROL 缺少描述]**&#x200B;以只顯示沒有描述的元件。
+
+1. 選取您要產生說明的元件。
+
+1. 選取元件清單上方的![AI](/help/assets/icons/AI.svg) **[!UICONTROL 產生描述]**。
+
+1. 選取&#x200B;**[!UICONTROL 產生說明]**&#x200B;以進行確認。
+
+   確認訊息會顯示已新增的說明數量。
+
+   如果您選取了大量元件，說明會在背景中產生。 當要求完成時，您會收到應用程式內[通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)，其中顯示已產生多少說明，以及失敗了多少說明。

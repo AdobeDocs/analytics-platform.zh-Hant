@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Experimentation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: 6283ecbeab12a19fd5b7229dff772afaaedf3296
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '4133'
-ht-degree: 48%
+source-wordcount: '4342'
+ht-degree: 46%
 ---
 # 元件設定 {#component-settings}
 
@@ -71,19 +71,19 @@ ht-degree: 48%
 
 | 設定 | 說明/使用案例 |
 | --- | --- |
-| [!UICONTROL 元件類型] | 必填。 可讓您將元件從「量度」變更為「Dimension」，反之亦然。 變更此下拉式選取選單，會將元件移動到其各自包含的元件區域。 |
-| [!UICONTROL 元件名稱] | 必填。 可讓您指定在 Analysis Workspace 中顯示的易讀名稱。 您可以重新命名元件，給它一個特定於資料釋圖的名稱。 |
-| [!UICONTROL 說明] | 選填，但建議。 為其他使用者提供有關元件的資訊。 |
-| [!UICONTROL 標記] | 選填。 可讓您使用自訂或現成可用的標籤來標籤元件，以便在Analysis Workspace UI中更輕鬆地進行搜尋/篩選。 |
-| [!UICONTROL 內容標籤] | 選填。 可套用至元件的可用系統定義[內容標籤](#context-labels)的下拉式功能表。 |
-| [!UICONTROL 結構描述欄位名稱] | 結構描述欄位的名稱。 |
-| [!UICONTROL 資料集類型] | 必填。 不可編輯的欄位，顯示元件來自的資料集類型 (事件、查閱或輪廓)。 |
-| [!UICONTROL 資料集] | 不可編輯的欄位，顯示元件來自的資料集。 此欄位可包含多個資料集。 |
-| [!UICONTROL 結構類型] | 不可編輯的欄位，顯示元件的資料類型。 雖然您可以在 Platform 中使用任何支援的結構描述欄位類型，但並非所有欄位類型都在 Customer Journey Analytics 中獲得支援。 以下是支援的資料類型：`Integer`、`Int`、`Long`、`Double`、`Float`、`Number`、`Short`、`Byte`、`String` 和 `Boolean`。 目前在查詢資料集中只允許使用 `String` 結構描述資料類型。 |
-| [!UICONTROL 元件 ID] | 必填。 [Customer Journey Analytics API](https://www.adobe.io/cja-apis/docs) 會使用此欄位來參照元件。 資料釋圖中的每個元件都必須是唯一的。 Adobe 會自動為每個元件產生一個 ID；但是，您可以按一下編輯圖示並修改元件 ID。 變更元件 ID 會中斷包含此元件的所有現有 Workspace 專案。 雖然每個元件在單個資料檢視中都需要一個唯一 ID，但您可以在其他資料檢視中使用相同的元件 ID。 如果您在其他資料視圖中使用相同的元件 ID，您可以使 Workspace 專案跨資料視圖相容。 <br/>對於以輪廓和查詢為基礎的元件，元件 ID 具有以資料集 ID 為依據的 ID 首碼 (例如：`642b28fcc1f0ee1c074265a0.person.name.firstName`)。 您想要在 Workspace 專案中重複使用以輪廓或查詢為基礎的元件 (例如 `person.name.firstName`)，並在不同的資料視圖中設定該元件時，請確保在資料視圖中以不重複的方式重新命名元件 ID (例如：`myUniqueID.person.name.firstName`)。 |
-| [!UICONTROL 路徑] | 必填。 不可編輯的欄位，顯示元件來自的結構描述路徑。 |
-| [!UICONTROL 資料使用情況標籤] | 在Adobe Experience Platform中指派給此元件的任何資料使用標籤。 [了解更多](/help/data-views/data-governance.md)。 |
-| [!UICONTROL 隱藏報告中的元件] | 防止非管理員存取Analysis Workspace中的元件。 管理員仍可以按一下「[!UICONTROL 顯示所有元件]」來存取它。 此設定僅適用於Analysis Workspace介面，不會限制透過[CJA API](https://developer.adobe.com/cja-apis/docs/)的存取。 |
+| **[!UICONTROL 元件類型]** | 必填。 可讓您將元件從「量度」變更為「Dimension」，反之亦然。 變更此下拉式選取選單，會將元件移動到其各自包含的元件區域。 |
+| **[!UICONTROL 元件名稱]** | 必填。 可讓您指定在 Analysis Workspace 中顯示的易讀名稱。 您可以重新命名元件，給它一個特定於資料釋圖的名稱。 |
+| **[!UICONTROL 說明]** | 選填，但建議。 向使用者說明元件的預期功能，讓使用者瞭解其使用方式。 說明會顯示在[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)和Customer Journey Analytics其他區域的使用者面前。 <p>您可以透過下列其中一種方式新增說明：</p><ul><li>手動輸入說明</li><li>選取&#x200B;**[!UICONTROL 產生說明]**&#x200B;讓Adobe為您產生說明 <p>產生的說明包括Adobe使用AI ]**產生的文字**[!UICONTROL ，您可以在產生說明後加以編輯。</p><p>您只能為已儲存至資料檢視的量度和維度產生說明。 對於衍生欄位，在儲存衍生欄位之後在這裡產生說明；您無法從衍生欄位產生器產生說明。</p><p>當您在資料檢視中產生共用量度或維度的說明時，該說明會套用至共用它的所有資料檢視。</p></li></ul><p>若要同時產生多個元件的說明，請執行下列動作：</p><ol><li>（選擇性）若要保留現有的描述，請只顯示沒有描述的元件：選取&#x200B;**[!UICONTROL 包含的元件]**&#x200B;清單上方的![篩選器](/help/assets/icons/Filter.svg)，然後在&#x200B;**[!UICONTROL 其他]**&#x200B;下方，選取&#x200B;**[!UICONTROL 缺少描述]**&#x200B;並選取&#x200B;**[!UICONTROL 套用]**。 產生說明會覆寫任何現有的說明。</li><li>選取&#x200B;**[!UICONTROL 包含的元件]**&#x200B;清單中的元件。</li><li>選取&#x200B;**[!UICONTROL 產生描述]**，然後選取&#x200B;**[!UICONTROL 產生描述]**&#x200B;以進行確認。</li><li>儲存資料檢視。 說明會在您儲存時開始產生。</li></ol><p>如需詳細資訊，請參閱[自動產生說明](/help/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
+| **[!UICONTROL 標記]** | 選填。 可讓您使用自訂或現成可用的標籤來標籤元件，以便在Analysis Workspace UI中更輕鬆地進行搜尋/篩選。 |
+| **[!UICONTROL 內容標籤]** | 選填。 可套用至元件的可用系統定義[內容標籤](#context-labels)的下拉式功能表。 |
+| **[!UICONTROL 結構描述欄位名稱]** | 結構描述欄位的名稱。 |
+| **[!UICONTROL 資料集類型]** | 必填。 不可編輯的欄位，顯示元件來自的資料集類型 (事件、查閱或輪廓)。 |
+| **[!UICONTROL 資料集]** | 不可編輯的欄位，顯示元件來自的資料集。 此欄位可包含多個資料集。 |
+| **[!UICONTROL 結構類型]** | 不可編輯的欄位，顯示元件的資料類型。 雖然您可以在 Platform 中使用任何支援的結構描述欄位類型，但並非所有欄位類型都在 Customer Journey Analytics 中獲得支援。 以下是支援的資料類型：`Integer`、`Int`、`Long`、`Double`、`Float`、`Number`、`Short`、`Byte`、`String` 和 `Boolean`。 目前在查詢資料集中只允許使用 `String` 結構描述資料類型。 |
+| **[!UICONTROL 元件 ID]** | 必填。 [Customer Journey Analytics API](https://www.adobe.io/cja-apis/docs) 會使用此欄位來參照元件。 資料釋圖中的每個元件都必須是唯一的。 Adobe 會自動為每個元件產生一個 ID；但是，您可以按一下編輯圖示並修改元件 ID。 變更元件 ID 會中斷包含此元件的所有現有 Workspace 專案。 雖然每個元件在單個資料檢視中都需要一個唯一 ID，但您可以在其他資料檢視中使用相同的元件 ID。 如果您在其他資料視圖中使用相同的元件 ID，您可以使 Workspace 專案跨資料視圖相容。 <br/>對於以輪廓和查詢為基礎的元件，元件 ID 具有以資料集 ID 為依據的 ID 首碼 (例如：`642b28fcc1f0ee1c074265a0.person.name.firstName`)。 您想要在 Workspace 專案中重複使用以輪廓或查詢為基礎的元件 (例如 `person.name.firstName`)，並在不同的資料視圖中設定該元件時，請確保在資料視圖中以不重複的方式重新命名元件 ID (例如：`myUniqueID.person.name.firstName`)。 |
+| **[!UICONTROL 路徑]** | 必填。 不可編輯的欄位，顯示元件來自的結構描述路徑。 |
+| **[!UICONTROL 資料使用情況標籤]** | 在Adobe Experience Platform中指派給此元件的任何資料使用標籤。 [了解更多](/help/data-views/data-governance.md)。 |
+| **[!UICONTROL 隱藏報告中的元件]** | 防止非管理員存取Analysis Workspace中的元件。 管理員仍可以按一下「[!UICONTROL 顯示所有元件]」來存取它。 此設定僅適用於Analysis Workspace介面，不會限制透過[CJA API](https://developer.adobe.com/cja-apis/docs/)的存取。 |
 
 {style="table-layout:auto"}
 
@@ -91,10 +91,9 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件類型設定](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件類型設定](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
-
 
 ## 環境標籤
 
@@ -137,7 +136,7 @@ ht-degree: 48%
 
   **注意**：地圖視覺效果處於發行的有限測試階段，可能尚未在您的環境中提供。
 
-* 顯示Adobe[&#128279;](/help/analysis-workspace/templates/use-templates.md)提供的範本。 Adobe提供的部分範本可能無法運作，因為某些元件不在您的資料檢視中。
+* 顯示Adobe](/help/analysis-workspace/templates/use-templates.md)提供的[範本。 Adobe提供的部分範本可能無法運作，因為某些元件不在您的資料檢視中。
 
   對於每個缺少的元件，資料釋圖中都有一個相符的內容標籤。 您需要將相符的內容標籤新增至資料檢視中已有的元件。 或者，您需要將新元件新增到資料檢視，並將內容標籤新增到元件（如果尚未自動提供）。
 
@@ -187,19 +186,19 @@ ht-degree: 48%
 
 | 名稱 | 說明 |
 |------|-------------|
-| [內容識別碼](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content) | 播放內容的唯一識別碼。 啟用[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 內容識別碼]**&#x200B;選項按鈕。 |
-| [內容逗留時間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-time-spent) | 檢視內容（不包括廣告）所花費的時間。 支援[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 內容逗留時間]**&#x200B;進階設定。 |
-| [集](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/episode) | 系列中的集數。 啟用在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中依集數篩選。 |
+| [內容識別碼](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) | 播放內容的唯一識別碼。 啟用[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 內容識別碼]**&#x200B;選項按鈕。 |
+| [內容逗留時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent) | 檢視內容（不包括廣告）所花費的時間。 支援[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 內容逗留時間]**&#x200B;進階設定。 |
+| [集](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) | 系列中的集數。 啟用在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中依集數篩選。 |
 | 事件類型 | 媒體事件型別，例如`media.play`或`media.ping`。 必須有Customer Journey Analytics才能計算[媒體同時檢閱者](/help/analysis-workspace/c-panels/media-concurrent-viewers.md)衍生的量度。 |
-| [媒體逗留時間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/media-time-spent) | 總時間，包括內容、廣告、緩衝和暫停。 支援[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)面板和&#x200B;**[!UICONTROL 媒體花費時間]**&#x200B;進階設定。 |
-| [季](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/season) | 系列中的季數。 在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中啟用依季節篩選。 |
+| [媒體逗留時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent) | 總時間，包括內容、廣告、緩衝和暫停。 支援[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)面板和&#x200B;**[!UICONTROL 媒體花費時間]**&#x200B;進階設定。 |
+| [季](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) | 系列中的季數。 在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中啟用依季節篩選。 |
 | 上次通話後經過秒數 | 自上次心率Ping以來的時間（秒）。 必須讓Customer Journey Analytics計算[媒體同時檢閱者](/help/analysis-workspace/c-panels/media-concurrent-viewers.md)衍生的量度（可識別工作階段何時仍在作用中）。 |
-| [節目](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/show) | 節目或影集名稱。 啟用在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中依顯示篩選。 |
-| [開始時間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/time-to-start) | 從內容選取到播放開始的時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
-| [總緩衝期間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | 在工作階段期間花費在緩衝的總時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
-| [總暫停期間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/total-pause-duration) | 工作階段期間暫停的總逗留時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
-| [視訊長度](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-length) | 內容持續時間（秒數）。 [媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 特定內容]**&#x200B;模式需要。 |
-| [視訊名稱](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-name) | 內容的顯示名稱。 啟用[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 視訊名稱]**&#x200B;選項按鈕。 |
+| [節目](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) | 節目或影集名稱。 啟用在[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中依顯示篩選。 |
+| [開始時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start) | 從內容選取到播放開始的時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
+| [總緩衝期間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | 在工作階段期間花費在緩衝的總時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
+| [總暫停期間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration) | 工作階段期間暫停的總逗留時間。 包含在[媒體播放時間](/help/analysis-workspace/c-panels/media-playback-time-spent.md)計算中。 |
+| [視訊長度](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | 內容持續時間（秒數）。 [媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 特定內容]**&#x200B;模式需要。 |
+| [視訊名稱](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | 內容的顯示名稱。 啟用[媒體平均每分鐘觀眾數](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)面板中的&#x200B;**[!UICONTROL 視訊名稱]**&#x200B;選項按鈕。 |
 
 +++
 
