@@ -197,4 +197,4 @@ Customer Journey Analytics B2B Edition 透過提供可操作的客戶洞察來�
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>瞭解最新資訊、貢獻社群，並提升您的Customer Journey Analytics體驗！</b><br>請造訪Adobe Analytics社群，與其他從業人員討論此功能。 <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">立即加入社群！</a></td></tr></tbody></table>
+<b>瞭解最新資訊、貢獻社群，並提升您的Customer Journey Analytics體驗！</b><br>請造訪Adobe Analytics社群，與其他從業人員討論此功能。 <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant">立即加入社群！</a></td></tr></tbody></table>
