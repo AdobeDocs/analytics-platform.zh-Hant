@@ -147,4 +147,4 @@ Customer Journey Analytics管理員可讓Adobe同時產生多個元件的說明�
 
    確認訊息會顯示已新增的說明數量。
 
-   如果您選取了大量元件，說明會在背景中產生。 當要求完成時，您會收到應用程式內[通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)，其中顯示已產生多少說明，以及失敗了多少說明。
+   如果您選取了大量元件，說明會在背景中產生。 當要求完成時，您會收到應用程式內[通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#view-notifications)，其中顯示已產生多少說明，以及失敗了多少說明。
