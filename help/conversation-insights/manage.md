@@ -26,12 +26,14 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 6%
 ---
 # 管理設定
+
+{{release-limited-testing}}
 
 在您[建立交談見解設定](/help/conversation-insights/configure.md)之後，您可以檢視、編輯或刪除這些設定。
 
@@ -93,7 +95,7 @@ ht-degree: 6%
    * 選取您要編輯的組態旁邊的核取方塊，然後從藍色動作列選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
    * 針對您要編輯的組態選取![更多](/help/assets/icons/More.svg)。 從內容功能表選取![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 編輯]**。
 
-1. 使用組態&#x200B;_&#x200B;**[&#128279;](./configure.md)對話方塊的**&#x200B;組態/_&#x200B;名稱來管理交談見解。
+1. 使用組態&#x200B;_]**](./configure.md)對話方塊的[**[!UICONTROL 組態/_&#x200B;名稱來管理交談見解。
 
 ## 刪除設定
 

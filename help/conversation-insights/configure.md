@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: a02b8d1d6bae6ed8269668d49ed9559688001833
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1187'
 ht-degree: 17%
 ---
 # 建立或編輯組態
+
+{{release-limited-testing}}
 
 對話深入解析可讓您從提供給客戶的代理程式體驗中分析對話。 這些代理程式體驗可以基於大型語言模型(LLM)或基於人類對話。 例如，和客戶或客服中心互動的聊天機器人紀錄。
 透過交談深入分析，您可以瞭解代理程式對實際使用者結果的影響。
@@ -147,7 +149,7 @@ ht-degree: 17%
 
 建立組態之後，您就可以設定[如何混合來自提示、回應、回饋和訊號資料集的交談](/help/conversation-insights/overview.md#how-it-works)。
 
-此規格可讓您選取決定混合交談資料集中對應命名欄位（如果容器）之值的資料集。
+此規格可讓您選取資料集，以決定混合交談資料集中對應命名欄位或欄位（如果容器）的值。
 
 例如：如果您想要從意見資料集中的類似命名欄位定義混合式交談資料集中的&#x200B;**[!UICONTROL 產生者]**&#x200B;欄位名稱，您可從該欄位的&#x200B;**[!UICONTROL 資料集獲勝者]**&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 意見資料集]**。
 
