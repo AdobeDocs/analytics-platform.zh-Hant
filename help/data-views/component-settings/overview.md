@@ -73,7 +73,7 @@ ht-degree: 46%
 | --- | --- |
 | **[!UICONTROL 元件類型]** | 必填。 可讓您將元件從「量度」變更為「Dimension」，反之亦然。 變更此下拉式選取選單，會將元件移動到其各自包含的元件區域。 |
 | **[!UICONTROL 元件名稱]** | 必填。 可讓您指定在 Analysis Workspace 中顯示的易讀名稱。 您可以重新命名元件，給它一個特定於資料釋圖的名稱。 |
-| **[!UICONTROL 說明]** | 選填，但建議。 向使用者說明元件的預期功能，讓使用者瞭解其使用方式。 說明會顯示在[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)和Customer Journey Analytics其他區域的使用者面前。 <p>您可以透過下列其中一種方式新增說明：</p><ul><li>手動輸入說明</li><li>選取&#x200B;**[!UICONTROL 產生說明]**&#x200B;讓Adobe為您產生說明 <p>產生的說明包括Adobe使用AI ]**產生的文字**[!UICONTROL ，您可以在產生說明後加以編輯。</p><p>您只能為已儲存至資料檢視的量度和維度產生說明。 對於衍生欄位，在儲存衍生欄位之後在這裡產生說明；您無法從衍生欄位產生器產生說明。</p><p>當您在資料檢視中產生共用量度或維度的說明時，該說明會套用至共用它的所有資料檢視。</p></li></ul><p>若要同時產生多個元件的說明，請執行下列動作：</p><ol><li>（選擇性）若要保留現有的描述，請只顯示沒有描述的元件：選取&#x200B;**[!UICONTROL 包含的元件]**&#x200B;清單上方的![篩選器](/help/assets/icons/Filter.svg)，然後在&#x200B;**[!UICONTROL 其他]**&#x200B;下方，選取&#x200B;**[!UICONTROL 缺少描述]**&#x200B;並選取&#x200B;**[!UICONTROL 套用]**。 產生說明會覆寫任何現有的說明。</li><li>選取&#x200B;**[!UICONTROL 包含的元件]**&#x200B;清單中的元件。</li><li>選取&#x200B;**[!UICONTROL 產生描述]**，然後選取&#x200B;**[!UICONTROL 產生描述]**&#x200B;以進行確認。</li><li>儲存資料檢視。 說明會在您儲存時開始產生。</li></ol><p>如需詳細資訊，請參閱[自動產生說明](/help/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
+| **[!UICONTROL 說明]** | 選填，但建議。 向使用者說明元件的預期功能，讓使用者瞭解其使用方式。 說明會顯示在[資料字典](/help/components/data-dictionary/data-dictionary-overview.md)和Customer Journey Analytics其他區域的使用者面前。 <p>您可以透過下列其中一種方式新增說明：</p><ul><li>手動輸入說明</li><li>選取&#x200B;**[!UICONTROL 產生說明]**&#x200B;讓Adobe為您產生說明 <p>產生的說明包括Adobe使用AI **產生的文字**，您可以在產生說明後加以編輯。</p><p>您只能為已儲存至資料檢視的量度和維度產生說明。 對於衍生欄位，在儲存衍生欄位之後在這裡產生說明；您無法從衍生欄位產生器產生說明。</p><p>當您在資料檢視中產生共用量度或維度的說明時，該說明會套用至共用它的所有資料檢視。</p></li></ul><p>若要同時產生多個元件的說明，請執行下列動作：</p><ol><li>（選擇性）若要保留現有的描述，請只顯示沒有描述的元件：選取&#x200B;**[!UICONTROL 包含的元件]**&#x200B;清單上方的![篩選器](/help/assets/icons/Filter.svg)，然後在&#x200B;**[!UICONTROL 其他]**&#x200B;下方，選取&#x200B;**[!UICONTROL 缺少描述]**&#x200B;並選取&#x200B;**[!UICONTROL 套用]**。 產生說明會覆寫任何現有的說明。</li><li>選取&#x200B;**[!UICONTROL 包含的元件]**&#x200B;清單中的元件。</li><li>選取&#x200B;**[!UICONTROL 產生描述]**，然後選取&#x200B;**[!UICONTROL 產生描述]**&#x200B;以進行確認。</li><li>儲存資料檢視。 說明會在您儲存時開始產生。</li></ol><p>如需詳細資訊，請參閱[自動產生說明](/help/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
 | **[!UICONTROL 標記]** | 選填。 可讓您使用自訂或現成可用的標籤來標籤元件，以便在Analysis Workspace UI中更輕鬆地進行搜尋/篩選。 |
 | **[!UICONTROL 內容標籤]** | 選填。 可套用至元件的可用系統定義[內容標籤](#context-labels)的下拉式功能表。 |
 | **[!UICONTROL 結構描述欄位名稱]** | 結構描述欄位的名稱。 |
@@ -136,7 +136,7 @@ ht-degree: 46%
 
   **注意**：地圖視覺效果處於發行的有限測試階段，可能尚未在您的環境中提供。
 
-* 顯示Adobe](/help/analysis-workspace/templates/use-templates.md)提供的[範本。 Adobe提供的部分範本可能無法運作，因為某些元件不在您的資料檢視中。
+* 顯示Adobe[&#128279;](/help/analysis-workspace/templates/use-templates.md)提供的範本。 Adobe提供的部分範本可能無法運作，因為某些元件不在您的資料檢視中。
 
   對於每個缺少的元件，資料釋圖中都有一個相符的內容標籤。 您需要將相符的內容標籤新增至資料檢視中已有的元件。 或者，您需要將新元件新增到資料檢視，並將內容標籤新增到元件（如果尚未自動提供）。
 
